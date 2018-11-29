@@ -1,0 +1,75 @@
+### YamlMime:YamlDocument
+ms.openlocfilehash: 07a77c646f8aef2440f415fdf143373cd249a641
+ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "26870038"
+documentType: LandingData
+title: Microsoft 관리 되는 데스크톱 설명서 및 리소스
+metadata:
+  title: Microsoft 관리 되는 데스크톱 설명서
+  description: 
+  keywords: 장치, 응용 프로그램, 관리
+  author: trudyha
+  ms.author: trudyha
+  ms.date: 11/1/2018
+  ms.topic: landing-page
+  ms.devlang: na
+  ms.service: m365-md
+sections:
+- items:
+  - type: markdown
+    text: 사용자가 안전 사용할을 확보 하는 것이 가장 편리 방법은 IT 합니다.
+- items:
+  - type: list
+    style: cards
+    className: cardsM
+    columns: 2
+    items:
+    - href: intro/index.md
+      html: <p>Microsoft 관리 되는 데스크톱 이란 무엇 이며 작동 하는 방법에 대해 알아봅니다.</p>
+      image:
+        src: https://docs.microsoft.com/en-us/media/common/i_overview.svg
+      title: Microsoft Managed Desktop이란 무엇인가요?
+    - href: service-description/index.md
+      html: <p>Microsoft 관리 되는 데스크톱에 포함 된 제품에 대해 알아봅니다.</p>
+      image:
+        src: https://docs.microsoft.com/en-us/media/common/i_get-started.svg
+      title: 서비스 설명
+    - href: get-ready/index.md
+      html: <p>Microsoft 관리 되는 데스크톱에 등록을 준비 하는 방법에 알아봅니다.</p>
+      image:
+        src: https://docs.microsoft.com/en-us/media/common/i_support.svg
+      title: 준비해
+    - href: get-started/index.md
+      html: <p>장치를 주문 하 고 대화 상대를 추가 하는 방법에 알아봅니다.</p>
+      image:
+        src: https://docs.microsoft.com/en-us/media/common/i_whats-new.svg
+      title: 시작
+    - href: working-with-managed-desktop/index.md
+      html: <p>응용 프로그램 관리에 알아봅니다.</p>
+      image:
+        src: https://docs.microsoft.com/en-us/media/common/i_portal.svg
+      title: Microsoft Managed Desktop 사용
+- title: 새 문서 및 블로그 게시물
+  items:
+  - type: paragraph
+    text: 알아두어야 할 최신 정보를 읽어보십시오.
+  - type: list
+    style: cards
+    className: cardsM
+    columns: 2
+    items:
+    - href: https://www.microsoft.com/microsoft-365/blog/2018/09/17/collaborating-with-customers-and-partners-to-deliver-a-modern-desktop-microsoft-managed-desktop/
+      title: '[블로그 (영문)] 현대 바탕 화면을 제공 하기 위해 고객 및 파트너와의 공동 작업'
+      image:
+        src: https://docs.microsoft.com/en-us/media/common/i_architecture.svg
+    - href: https://www.cio.com/article/3307121/systems-management/microsoft-managed-desktop-all-your-windows-10-devices-managed-by-microsoft.html
+      title: '[문서] 관리 되는 Microsoft 데스크톱: 모든 Windows 10 장치를 Microsoft에서 관리 하는'
+      image:
+        src: https://docs.microsoft.com/en-us/media/common/i_guide.svg
+- title: 동영상
+  items:
+  - type: markdown
+    text: '>[!VIDEO https://www.youtube.com/embed/Pe75tc8YwKM]'
