@@ -1,0 +1,266 @@
+---
+title: GDPR에 대한 Microsoft 고객 지원 및 전문 서비스 데이터 주체 요청
+description: Microsoft 고객 지원 및 전문 서비스가 데이터 주체 요청을 처리하는 방법입니다.
+keywords: 전문 서비스, Microsoft 365, Microsoft 365 Education, Microsoft 365 설명서, GDPR
+author: BrendaCarter
+localization_priority: Priority
+audience: itpro
+ms.prod: Microsoft-365-enterprise
+ms.topic: article
+ms.author: bcarter
+manager: laurawi
+ms.collection: GDPR
+ms.openlocfilehash: dd86914c0b3931f0cddc762db3f5916a34853eff
+ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "26870000"
+---
+# <a name="microsoft-support-and-professional-services-data-subject-requests-for-the-gdpr"></a>GDPR에 대한 Microsoft 고객 지원 및 전문 서비스 데이터 주체 요청
+
+## <a name="introduction-to-microsoft-professional-services"></a>Microsoft 전문 서비스 소개
+
+Microsoft 전문 서비스에는 고객이 더 많은 작업을 수행하고 더 많은 성과를 거두도록 지원하려는 Microsoft 임무를 전담하는 다양한 기술 설계자, 엔지니어, 컨설턴트 및 지원 전문가 그룹이 포함되어 있습니다. Microsoft 전문 서비스 팀에는 총 21,000명 이상의 컨설턴트, 디지털 관리자, 프리미어 지원, 엔지니어 및 영업 전문가가 191개국에서 46개의 다른 언어로 온-프레미스, 전화, 웹, 커뮤니티 및 자동 도구를 통해 매월 수백만 개의 계약을 관리하고, 고객 및 파트너 상호 작용에 참여하고 있습니다. 조직은 Microsoft 포트폴리오 전체에서 광범위한 전문 지식을 제공하며 Microsoft를 엔터프라이즈 고객과 연결하는 확장된 파트너, 기술 커뮤니티, 도구, 진단 및 채널 네트워크를 활용합니다.
+
+Microsoft 전문 서비스에 대한 자세한 내용은 여기(<https://www.microsoft.com/microsoftservices/professional_services.aspx>)로 이동한 후 Microsoft 보안 센터의 Microsoft 전문 서비스 섹션(<https://www.microsoft.com/trustcenter/cloudservices/commercialsupport>)에서 확인합니다. Microsoft 전문 서비스는 GDPR(일반 데이터 보호 규정)에 따라 의무를 다합니다. 이 문서의 정보는 Microsoft의 지원 및 컨설팅 서비스가 GDPR의 DSR(데이터 주체 요청) 의무에 따라 고객에게 응답하고 고객을 지원하는 방식에 대한 고객 질문에 답변을 제공하기 위한 것입니다.<span id="_Toc508792502" class="anchor"><span id="_Toc510704608" class="anchor"></span></span>
+
+### <a name="introduction-to-dsrs"></a>DSR 소개 
+
+GDPR은 사용자(규정에 *데이터 주체*로 알려짐)에게 고용주 또는 다른 유형의 대리점 및 조직(*데이터 통제자* 또는 단순히 *통제자*로 지칭)이 수집한 개인 데이터를 관리할 수 있는 권한을 부여합니다. 개인 데이터는 GDPR에서는 보다 광범위하게 식별되었거나 식별 가능한 자연인과 관련된 모든 데이터로 정의됩니다. GDPR은 데이터 주체에게 개인 데이터에 대한 특정 권한을 부여합니다. 이러한 권한에는 개인 데이터 복사본 획득, 변경 요청, 처리 제한 및 삭제 권한이 포함됩니다. 데이터 주체가 통제자에게 개인 데이터에 대해 조치를 취할 것을 요구하는 공식적인 요청을 *데이터 주체 요청* 또는 DSR이라고 합니다. 또한 통제자를 대신하는 회사(*데이터 처리자* 또는 단순히 *처리자*로 알려져 있음)는 통제자의 DSR 이행을 지원할 의무가 있습니다.
+
+이 가이드에서는 지원 및 기타 전문 서비스를 제공하기 위해 수집되었을 수 있는 Microsoft IT 시스템의 개인 데이터를 찾고 액세스하고 관련 작업을 수행하는 방법을 설명합니다.
+
+DSR에 대한 응답을 개발할 때 Microsoft 고객은 지원 및 컨설팅 데이터가 온라인 서비스의 고객 데이터 또는 고객 또는 해당 데이터 주체가 Microsoft에 제공했을 수 있는 기타 데이터와는 별개라는 사실을 이해하는 것이 중요합니다. 온라인 서비스, Microsoft 개인 정보 대시보드 또는 DSR에 응답하기 위한 기타 Microsoft 시스템용으로 제공된 도구 및 프로세스는 Microsoft 지원 또는 기타 전문 서비스가 보유하는 개인 데이터에 대한 DSR에 응답하는 데 사용할 수 없습니다.
+
+모든 요청은 아래에 설명된 것처럼 지원 담당자를 통해 이루어져야 합니다. 현재, 고객이 전문 서비스 조직 내의 개인 데이터에 대한 액세스 권한을 얻기 위해 사용할 수 있는 셀프 서비스 도구는 없습니다.
+
+#### <a name="overview-of-the-processes-outlined-in-this-guide"></a>이 가이드에 설명된 프로세스 개요
+
+  ***검색*** DSR의 대상이 될 수 있는 고객 데이터를 찾습니다. 잠재적인 반응형 자료가 일단 수집되면 다음 단계에 설명된 DSR 작업 중 하나 이상을 수행하여 DSR 요청에 응답할 수 있습니다. 또는 요청이 DSR에 응답하기 위한 조직 지침을 충족하지 않는지도 확인합니다.
+
+  ***액세스.*** Microsoft 클라우드에 있는 개인 데이터를 검색하고, 요청될 경우 데이터 주체가 사용할 수 있는 복사본을 만듭니다.
+
+  ***수정.*** 개인 데이터를 변경하거나 요청된 다른 작업을 구현합니다.
+
+  ***제한.*** 계약 상의 활동을 중지하여 개인 데이터의 처리를 제한합니다.
+
+  ***삭제.*** Microsoft IT 시스템에 있는 개인 데이터를 영구적으로 제거합니다.
+
+  ***내보내기.*** 고객 또는 데이터 주체에게 개인 데이터 사본을 제공합니다.
+ 
+<span id="_Toc508792503" class="anchor"><span id="_Toc510704609" class="anchor"><span id="_Toc511403159" class="anchor"></span></span></span>
+
+### <a name="terminology"></a>용어
+
+다음은 이 가이드에 나오는 GDPR 용어의 정의입니다.
+
+-   **통제자.** 단독으로 또는 다른 대상과 함께 개인 데이터 처리의 목적 및 방법을 결정하는 자연인이나 법인, 공공 기관, 대리점 또는 기타 단체입니다. 이러한 처리의 목적 및 방법을 연합국 법률 또는 회원국 법률에 따라 결정하는 경우, 통제자 또는 구체적인 지명 기준을 연합국 법률 또는 회원국 법률에서 제공할 수 있습니다.
+
+-   **개인 데이터 및 데이터 주체** 식별되었거나 식별 가능한 자연인(‘데이터 주체’)과 관련된 모든 정보입니다. 식별 가능한 자연인은 직간접적으로, 특히 이름, 식별 번호, 위치 데이터, 온라인 식별자 또는 해당 자연인의 신체적, 생리적, 유전적, 정신적, 경제적, 문화적 또는 사회적 ID와 같은 식별자를 참조하여 식별될 수 있는 사람입니다.
+
+-   **프로세서.** 통제자를 대신하여 개인 데이터를 처리하는 자연인이나 법인, 공공 기관, 대리점 또는 기타 단체입니다.
+
+#### <a name="additional-terms-and-definitions-that-may-helpful-in-understanding-this-guide"></a>이 가이드를 이해하는 데 도움이 될 수 있는 추가 용어 및 정의
+
+-   **지원 및 컨설팅 데이터**는 지원 또는 전문 서비스를 획득하기 위해 Microsoft와 맺은 계약을 통해 고객이 또는 고객을 대신해서 Microsoft에 제공된(또는 고객이 Microsoft가 온라인 서비스에서 획득할 수 있도록 허가한) 모든 텍스트, 소리, 비디오, 이미지 파일 또는 소프트웨어를 포함하는 모든 데이터입니다. 이해를 돕기 위해 여기에는 고객 연락처 데이터를 포함하여 Microsoft가 데이터 통제자 역할을 하는 경우에 수집된 데이터는 포함되지 않습니다.
+
+-   **고객 연락처**는 고객 연락처 정보 내에 포함된 개인 데이터와 같이 Microsoft와의 비즈니스 관계에 속할 수 있는 개인 데이터입니다. 여기에는 프리미엄 CSM(계약 서비스 관리자), 온라인 서비스의 전역 또는 IT 관리자 또는 비슷한 역할을 갖는 관리자의 이름, 전자 메일 또는 전화 번호가 포함될 수 있습니다.
+
+-   **필명화된 데이터** Microsoft의 엔터프라이즈 제품 및 서비스에 대해 Microsoft 지원을 사용할 경우 Microsoft는 Microsoft의 숫자 식별자에 연결된 정보를 생성하여 지원을 제공합니다. 이것을 종종 "필명화된 데이터"라고 합니다. 이 데이터는 추가 정보를 사용하지 않으면 특정 데이터 주체의 데이터로 인식될 수 없지만, 일부는 개인 데이터에 대한 GDPR의 광범위한 정의에 따라 개인 데이터로 인식될 수 있습니다. 전문 서비스 내의 DSR 이행 요청 또는 지원에는 항상 자동으로 필명화된 데이터 주소 지정이 포함됩니다.
+
+<span id="_Toc508792504" class="anchor"><span id="_Toc510704610" class="anchor"><span id="_Toc511403160" class="anchor"></span></span></span>
+
+### <a name="how-to-use-this-guide"></a>이 가이드를 사용하는 방법
+
+이 가이드에서는 고객이 Microsoft 전문 서비스를 이용할 때 직면할 수 있는 4가지 시나리오에 대해 설명합니다.
+
+<span id="_Toc510704611" class="anchor"><span id="_Toc511045453" class="anchor"><span id="_Toc511403161" class="anchor"></span></span></span>
+## <a name="dsr-for-a-customer-contact-engaging-microsoft"></a>Microsoft와 계약한 고객 담당자를 위한 DSR
+Microsoft가 데이터 주체 권리를 이행하기 위해 고객 담당자 또는 IT 관리자의 요청에 응답하는 방식에 대한 설명입니다.
+
+<span id="_Toc510704612" class="anchor"><span id="_Toc511045454" class="anchor"><span id="_Toc511403162" class="anchor"></span></span></span>
+## <a name="dsr-for-an-end-user-engaging-microsoft"></a>Microsoft와 계약한 최종 사용자를 위한 DSR
+
+Microsoft가 해당 권리를 이행하기 위해 고객의 직원 또는 기타 데이터 주체의 요청에 응답하는 방식에 대한 설명입니다.
+
+## <a name="dsr-for-customer-provided-data-commercial-support"></a>고객 제공 데이터에 대한 DSR: 상업적 지원
+
+고객이 해당 직원이나 다른 데이터 주체로부터 권리 이행 요청을 받을 때와 데이터 주체의 개인 데이터가 지원 계약 동안 Microsoft 지원 서비스에 의해 수집되었을 때 Microsoft에서 지원을 받는 방법에 대한 설명입니다.
+
+<span id="_Toc511403163" class="anchor"><span id="_Toc511045456" class="anchor"><span id="_Toc510704614" class="anchor"></span></span></span>
+## <a name="dsr-for-customer-provided-data-consulting-services-including-fasttrack-migration-services"></a>고객 제공 데이터에 대한 DSR: FastTrack 마이그레이션 서비스를 포함하는 컨설팅 서비스 
+
+<span id="_Toc511045457" class="anchor"><span id="_Toc511403164" class="anchor"></span></span>
+
+고객이 해당 직원이나 다른 데이터 주체로부터 권리 이행 요청을 받을 때와 데이터 주체의 개인 데이터가 컨설팅 계약 동안 Microsoft에 의해 수집되었을 때 Microsoft에서 지원을 받는 방법에 대한 설명입니다.
+
+## <a name="dsr-for-a-customer-contact-engaging-microsoft"></a>Microsoft와 계약한 고객 담당자를 위한 DSR
+
+*Microsoft가 데이터 주체 권리를 이행하기 위해 고객 담당자 또는 IT 관리자의 요청에 응답하는 방법입니다.*
+
+고객이 지원 또는 컨설팅 서비스를 받기 위해 Microsoft와 계약할 경우 Microsoft 지원 서비스는 계정 레코드로부터 고객 담당자(예: 프리미어 CSM, 전역 관리자, IT 관리자)의 개인 데이터를 자동으로 수집하거나 검색합니다. 여기에는 지원 또는 컨설팅 서비스를 원하는 개인의 이름, 전자 메일, 휴대폰 및 기타 개인 데이터가 포함될 수 있습니다.
+
+고객 담당자의 개인 데이터는 고객과의 Microsoft의 비즈니스 관계에 속하며 Microsoft는 데이터 통제자입니다. Microsoft는 고객이 여전히 조직에 속하는지에 관계없이, 개인 데이터에 대한 고객 담당자의 DSR에 응답합니다.
+
+고객은 DSR이 고객 담당자의 개인 데이터에만 관여하며, 계약의 일부로 전송된 고객 데이터(예: 대화 내용, 사례 설명, 파일, 작업 산출물)를 변경하거나 삭제하지 않을 것임을 이해해야 합니다. 또한 계약의 기록 레코드를 유지하기 위해 계약을 시작한 사람의 기록을 포함하여 마감된 계약에 대해 어떤 변경도 수행되지 않도록 합니다.
+
+DSR에 대한 고객 담당자의 문의를 수신할 경우, Microsoft 직원은 고객 담당자에게 [Microsoft 개인 정보 지원](http://go.microsoft.com/fwlink/?LinkId=321116)을 확인할 것을 추천합니다. 이것은 Microsoft의 개인 정보 관련 문의 및 불만 사항을 위한 기본적인 입력 메커니즘입니다. 문의가 수신되면, Microsoft 개인 정보 팀은 상업적 계정인지 또는 조직 계정인지를 식별하고 그에 따라 대응합니다.
+
+고객의 비즈니스 연속성을 유지하기 위해 Microsoft는 대체 담당자가 확인될 때까지 계약과 관련된 DSR을 처리하지 않습니다. 새 담당자가 확인되면 Microsoft는 열린 계약에서 이전 담당자를 새 담당자로 교체합니다.
+
+고객은 이 DSR과는 별도로, 일반적인 지원 또는 컨설팅 채널을 통해 전문 서비스 계약 동안 수집된 데이터를 변경하도록 선택할 수 있습니다. 예를 들어, Microsoft는 요청이 있을 때 지원 계약을 지우도록 지원할 수 있습니다(아래의 *고객 제공 데이터에 대한 DSR 가이드* 섹션 참조).
+
+***설명 용도로만 제공된 예제***
+
+John은 O365 엔터프라이즈 고객을 위한 IT 관리자로, 1개의 열린 지원 계약과 2개의 마감된 계약이 있습니다. 이제 John은 회사를 퇴직하려고 하며 데이터를 삭제하기 원합니다. John은 본인을 IT 관리자로 인식하는 PRC에 연락을 했습니다. John은 이전(마감된) 계약 또는 열린 계약 내의 데이터에서 본인의 이름을 삭제할 수 없다는 알림을 받았습니다. 그렇지만 PRC는 John이 대체 담당자를 알려줄 경우 현재 열린 티켓에서 John을 해당 담당자로 교체할 것입니다. John은 Microsoft에 Jane이 자신의 대체 담당자가 될 것임을 알리며 Microsoft는 모든 지원 시스템에서 해당 변경을 수행합니다.
+
+<span id="_Toc510704616" class="anchor"><span id="_Toc511403166" class="anchor"></span></span>
+## <a name="dsr-for-an-end-user-engaging-microsoft"></a>Microsoft와 계약한 최종 사용자를 위한 DSR
+
+*Microsoft가 해당 권리를 이행하기 위해 고객의 직원 또는 기타 데이터 주체의 요청에 응답하는 방법입니다.*
+
+고객의 직원 또는 기타 데이터 주체가 Microsoft에 연락하여 Microsoft가 데이터 통제자로서 수집한 데이터에 대해 권리를 행사할 경우, 해당 데이터 주체는 데이터 통제자로서 Microsoft의 고객에게 연락하여 해당 권리를 행사해야 한다는 알림을 받습니다. Microsoft는 추가 작업을 수행하지 않습니다.
+
+데이터 주체가 Microsoft가 데이터 통제자인 상황에서 수집한 데이터에 대한 권리를 행사하는 것과 관련해서 Microsoft에 연락한 경우(예: 소비자 지원, 상업적 고객 담당자) Microsoft는 해당 개인 데이터에 대한 개별 데이터 주체의 권한 요청에 별도로 대응합니다.
+
+***설명 용도로만 제공된 예제***
+
+Jane은 엔터프라이즈 고객인 Contoso의 직원으로, Dynamics 365 계정을 받았습니다. Jane은 자신의 모든 데이터를 삭제할 것을 Microsoft에 요청했으며 본인의 정보가 개인 정보 응답 센터에서 조회되도록 했습니다. 개인 정보 응답 센터는 Jane을 엔터프라이즈 최종 사용자로 식별하고, 본인의 엔터프라이즈 데이터 삭제를 위해 Contoso와 협력해야 한다는 사실을 Jane에게 알려주었습니다. 그뿐 아니라 Jane을 Microsoft X-Box 사용자로 식별하고, 소비자 Microsoft 계정에서 해당 데이터를 삭제했습니다.
+
+## <a name="dsr-for-customer-provided-data-commercial-support"></a>고객 제공 데이터에 대한 DSR: 상업적 지원
+
+*고객이 해당 직원이나 다른 데이터 주체로부터 권리 이행 요청을 받을 때와 데이터 주체의 개인 데이터가 지원 계약 동안 Microsoft 지원 서비스에 의해 수집되었을 때 Microsoft에서 지원을 받는 방법입니다.*
+
+고객이 Microsoft 지원 서비스와 계약을 맺으면 Microsoft는 고객으로부터 지원 데이터를 수집하여 지원 계약이 요구되는 문제를 해결합니다. 이 지원 서비스에는 고객과의 Microsoft 상호 작용(예: 채팅, 전화, 전자 메일, 웹 전송), 고객이 지원 문제 해결을 위해 Microsoft에 전송하거나 Microsoft가 고객 사용 권한에 따라 고객의 IT 환경이나 온라인 서비스 테넌시에서 추출한 콘텐츠 파일이 포함됩니다. 프리미어 지원의 경우, 향후 문제 예방을 위해 사전에 고객으로부터 수집한 모든 데이터도 여기에 포함됩니다. 그러나 고객 담당자 정보 또는 고객과의 Microsoft 비즈니스 관계에서 발생한 기타 정보(예: 청구 기록)는 제외됩니다.
+
+모든 지원 데이터에 대해 Microsoft는 데이터 통제자입니다. 따라서 Microsoft는 Microsoft의 상업적 고객와 연결되었을 때 제공되는 지원 데이터아 관련된 데이터 주체의 직접적인 요청에는 응답하지 않습니다. Microsoft는 고객의 DSR 응답을 지원하기 위해 정상적인 지원 채널을 통해 고객과 협력합니다.
+
+<span id="_Discover" class="anchor"><span id="_Toc508792508" class="anchor"><span id="_Toc510704617" class="anchor"><span id="_Toc511403167" class="anchor"></span></span></span></span>
+## <a name="step-1-discover"></a>1단계: 검색
+
+DSR에 응답할 때 Microsoft의 지원을 요청하는 첫 번째 단계는 DSR의 대상이 되는 개인 데이터를 찾는 것입니다. 문제의 개인 데이터를 찾아서 검토하는 이 첫 번째 단계는 고객이 데이터 주체 요청 이행을 위한 조직의 정책을 DSR이 충족하는지 여부를 판단하는 데 도움이 됩니다.
+
+고객은 데이터를 찾은 후에 데이터 주체의 요청을 충족하기 위해 특정 작업을 수행할 수 있습니다. 고객이 수행하려고 하는 작업에 따라, 고객이 참여해야 하는 검색 수준이 결정됩니다.
+
+Microsoft가 고객의 DSR 확인을 지원할 경우, 이것은 비즈니스 기능이므로 Microsoft 개인 정보 팀에 대한 요청을 통해서가 아니라 일반적인 지원 채널을 통해 요청이 수행됩니다.
+
+관련 데이터를 검색하고 Microsoft의 지원을 받을 때 고객은 DSR에 접근하는 방법에 대한 몇 가지 옵션을 사용할 수 있습니다.
+
+*옵션 A – Microsoft 지원 고객 간 DSR*. Microsoft의 지원 환경 전반의 모든 고객 지원 데이터에 DSR을 적용합니다. 이를 위해 고객은 수집한 모든 지원 데이터에 DSR을 적용하도록 Microsoft에 요청할 수 있습니다.
+
+*옵션 B - 특정 고객 계약.* 온라인 시스템을 사용하여 티켓을 검토한 후, 관련 개인 데이터가 포함된 특정 계약을 식별하고 Microsoft에 보고합니다. Microsoft는 고객이 계약(티켓) 간을 검색할 수 없는 경우 검색을 수행하도록 지원을 제공하려고 합니다.
+
+** 일단 계약이 식별되면 Microsoft에서 특정 레코드 부분 또는 해당 계약과 관련된 모든 레코드에 DSR을 적용하도록 요청합니다. **
+
+특정 계약을 식별하기 위해 고객은 여러 계약을 검색해야 합니다. 프리미어 고객의 경우 고객을 위한 “CSM”(계약 서비스 관리자)를 해당 계약 일정에 따라 생성된 모든 SR(지원 요청)에서 볼 수 있습니다. 프리미어 이외 고객의 경우, 온라인 서비스 지원 영역 등과 같은 동등한 지원 계약 포털을 사용할 수 있습니다.
+
+![](media/Prof-Serv-DSR-Doc-Final_image3.png)CSM은 “SMC”(Support.Microsoft.Com([https://support.microsoft.com/\<local language code\>/premier](https://support.microsoft.com/%3clocal%20language%20code%3e/premier))의 포털로 이동한 후 지원 요청을 선택하고 검토할 수 있습니다. (참고: URL에서 사용하는 로컬 언어 코드로 바꾸십시오.)
+
+>[**DTM과 관련된 중요 참고 사항**] SMC의 사례 기록 외에, 고객은 지원 계약 동안 Microsoft가 수집한(또는 고객의 권한에 따라 온라인 서비스에서 제거된) 최종 사용자의 개인 데이터가 파일에 있을 수 있습니다. 예로는 고객의 Exchange 사서함, Azure VM 또는 데이터베이스의 복사본이 있습니다. 이 개인 데이터는 특정 계약에 대한 사례 내역(즉, 티켓)에 언급될 수도 있고 언급되지 않을 수도 있습니다. 해당 데이터를 검토하려면 고객 담당자가 Microsoft 지원 DTM(데이터 전송 및 관리 도구)에서 작업 영역에 대한 URL을 수신한 인증된 특정(AAD 또는 MSA) 지원 요청 담당자여야 합니다. 고객 담당자는 파일에 대한 액세스 권한을 가지지만 전역 보기를 사용할 수 없으며 SMC는 파일이 있는지를 나타내지 않습니다.
+
+고객은 선택한 지원 티켓에서 모든 관련 데이터를 식별한 후에, 티켓과 관련된 모든 사항의 삭제를 요청할지 또는 개인 데이터의 개별 인스턴스에 선택적으로 DSR을 적용할지를 결정할 수 있습니다.
+
+<span id="_Access" class="anchor"><span id="_Toc508792512" class="anchor"><span id="_Toc510704618" class="anchor"><span id="_Toc511403168" class="anchor"><span id="_Hlk503968195" class="anchor"></span></span></span></span></span>
+## <a name="step-2-access"></a>2단계: 액세스
+
+고객이 잠재적으로 DSR에 부합될 수 있는 개인 데이터를 포함하는 지원 데이터를 발견한 후에, 응답에 포함할 개인 데이터를 결정하는 것은 고객의 책임입니다. 예를 들어 고객은 다른 데이터 주체에 대한 개인 데이터와 모든 기밀 정보를 제거하도록 선택할 수 있습니다.
+
+DSR에 대한 응답에는 실제 문서의 사본, 적절히 수정된 버전 또는 고객이 공유하기에 적합한 것으로 간주되는 데이터 부분 스크린샷이 포함됩니다. 액세스 요청에 대한 이러한 각 응답에서 고객은 부합되는 데이터가 포함된 문서 사본 또는 기타 항목을 검색해야 합니다.
+
+<span id="_Using_Content_Search_1" class="anchor"><span id="_Rectify" class="anchor"><span id="_Forms_1" class="anchor"></span></span></span>최종 사용자의 개인 데이터 액세스는 다양한 유형의 콘텐츠 설명서에 포함된 멘션 또는 표현에서 비롯될 수 있습니다. 고객은 계약 티켓 및 콘텐츠에 액세스할 수 있으므로 Microsoft의 추가 지원 없이도 개인 데이터의 요약을 직접 제공할 수 있습니다.
+
+드문 경우지만, 고객은 의 복사본을 얻을 지원 Microsoft 담당자와 고객 담당자 간의 지원 상호 작용 데이터 사본(예: 전자 메일, 휴대폰에 녹음된 대화 내용 사본, 채팅 대화 내용)을 구해야 할 수 있습니다. 필요한 범위 한도에서, Microsoft는 필요성, 민감도 및 난이도에 따라 이러한 대화 내용의 수정된 사본을 제공할 수 있습니다.
+
+<span id="_Sway" class="anchor"><span id="_Toc508792516" class="anchor"><span id="_Toc510704619" class="anchor"><span id="_Toc511403169" class="anchor"></span></span></span></span>
+## <a name="step-3-rectify"></a>3단계: 수정
+
+데이터 주체가 조직의 지원 데이터에 포함된 개인 데이터를 수정할 것을 고객에게 요청한 경우, 고객은 요청을 수락하는 것이 타당한지 여부를 결정해야 합니다. 고객이 요청을 수락하기로 선택하면 Microsoft에 변경을 요청할 수 있습니다. Microsoft는 지원 시스템에서 데이터를 수정하거나 고객 데이터를 삭제할 수 있고, 고객에게 수정된 형식의 데이터를 Microsoft에 다시 제출하도록 요청할 수 있습니다.
+
+<span id="_Toc510704620" class="anchor"><span id="_Toc511403170" class="anchor"></span></span>
+## <a name="step-4-restrict"></a>4단계: 제한
+
+<span id="_Delete" class="anchor"></span>고객은 언제든지 계약을 마감하거나 Microsoft에 연락하여 계약을 마감하도록 요청할 수 있습니다. 마감된 계약의 경우 어떤 작업도 수행할 수 없습니다.
+
+추가적인 확인을 위해, 고객은 Microsoft에 연락하여 어떤 이유로든 고객 권한이 없으면 사례를 다시 개설할 수 없음을 알리는 메모가 계약 티켓팅 시스템에 추가되도록 요청할 수 있습니다.
+
+참고: 데이터, 서비스 및 시스템의 민감도를 기준으로, 보존 및 삭제 일정에 따라 계약(티켓)도 삭제됩니다. 고객이 데이터 복사본을 요구하는 경우 삭제 전에 압축을 푼 데이터가 있는지 확인해야 합니다.
+
+<span id="_Toc508792528" class="anchor"><span id="_Toc510704621" class="anchor"><span id="_Toc511403171" class="anchor"></span></span></span>
+## <a name="step-5-delete"></a>5단계: 삭제
+
+조직의 지원 데이터에서 개인 데이터를 제거할 수 있는 "삭제권"은 GDPR의 주요 보호 기능입니다. 개인 데이터 제거에는 전체 계약, 문서 또는 파일 삭제, 계약, 문서 또는 파일 내의 특정 데이터 삭제가 포함됩니다.
+
+고객이 DSR에 응답하여 개인 데이터를 조사하거나 삭제할 준비를 할 때 Microsoft 지원에서 데이터 삭제가 작동하는 방식에 대해 이해해야 할 몇 가지 사항이 있습니다.<span id="_Export" class="anchor"><span id="_Step_6:_Export" class="anchor"></span></span>
+
+Microsoft의 모든 데이터에는 보존 및 삭제 정책을 적용되어 있으며 위험 및 기타 요인에 따라 달라집니다.
+
+지원 시스템 전반에서 데이터 주체의 개인 데이터 삭제를 요청하는 고객은 TAM을 통해 또는 SMC나 동급 시스템에서 SR(지원 요청)을 작성하여 이러한 요청을 수행할 수 있습니다. 이 요청이 GDPR에 따라 DSR을 지원하기 위한 것임을 *반드시* 명시해야 합니다.
+
+*옵션 A - Microsoft 지원 고객 간 DSR*. 시스템 간 DSR의 경우, 고객은 Microsoft에서 필수 데이터(예: 전자 메일 주소, 전화 번호)를 식별하는 데 필요한 개인 데이터를 제공해야 합니다. Microsoft는 레코드 간 상관 관계를 파악하거나 연구하지 않으며, 고객이 제공한 식별자만 직접적으로 검색합니다. 데이터가 발견되면 Microsoft는 모든 계약 및 모든 관련 데이터를 삭제합니다. **중요 참고 사항:** 이로 인해 고객 조직에 중요한 기록 레코드가 손실될 수 있습니다.
+
+*옵션 B - 특정 고객 계약*. 고객이 식별하고 삭제하기를 원하는 특정 계약의 경우, SMC에서 티켓을 삭제하지 마세요. 이렇게 하면 로그 및 다운스트림 시스템에서 정해진 기간 내에 삭제되지 않을 수 있는 개인 데이터가 남아 있게 됩니다. 대신, 삭제되어야 하는 티켓 또는 티켓 내의 개인 데이터를 식별하고 Microsoft 지원 서비스에 문의하여 해당 데이터가 삭제되도록 하세요.
+
+### <a name="microsoft-support-data-transfer-and-management-tool-dtm-instructions"></a>Microsoft 지원 DTM(데이터 전송 및 관리 도구) 지침
+
+이러한 모든 검색에서 Microsoft는 파일에 포함된 잠재적인 콘텐츠 심각도로 인해 DTM에서 검색을 수행하지 않습니다. 그렇지만 고객이 원할 경우 Microsoft는 고객 계정과 연결된 DTM에 포함된 모든 파일을 삭제합니다. 고객에게 심각한 영향을 미칠 수 있으므로, Microsoft는 고객에게 DTM 파일 삭제를 지정하는 별도 요청을 요구합니다.
+
+-   미해결 사례의 경우, 고객 담당자는 DTM으로 이동하여 파일을 삭제할 수 있습니다.
+
+-   90일 이내에 마감된 사례의 경우, TAM 또는 SR에서 파일 제거 요청이 수행되어야 합니다.
+
+-   90일 이전에 마감된 사례의 경우 파일이 이미 자동으로 삭제되었을 것입니다.
+
+-   개인 데이터가 삭제된 파일 내에만 있더라도, 고객은 일부 데이터가 제거 되었거나 일부 데이터가 지원 제공 과<span id="_Toc508792534" class="anchor"><span id="_Toc508799441" class="anchor"><span id="_Toc510704622" class="anchor"><span id="_Toc511403173" class="anchor"></span></span></span></span>정에서 DTM에서 제거되었을 수 있으므로 고객은 시스템에서 개인 데이터를 확인할 것을 여전히 Microsoft에 요청해야 합니다.
+
+## <a name="step-6-export"></a>6단계: 내보내기
+
+"데이터 이동성 권리"에 따라 데이터 주체는 전자 형식의 개인 데이터 사본을 요청하고, 조직이 해당 데이터 사본을 다른 통제자에게 전송할 것을 요청할 수 있습니다. 지원 데이터의 경우, Microsoft가 보유하는 모든 유용한 정보는 다른 통제자로의 재전달 또는 업로드를 위해 사용자에게 반환될 수 있는 약정 정보 또는 파일 형태여야 합니다.
+
+참고: 내보낸 데이터에는 Microsoft의 지적 재산권 또는 서비스의 보안이나 안정성을 침해할 수 있는 데이터가 포함되지 않아야 합니다.
+
+***설명 용도로만 제공된 예제***
+
+John은 엔터프라이즈 고객인 Contoso의 직원으로, 직원 전자 메일 및 Azure에 O365를 사용하여 Contoso SQL 데이터베이스를 호스트합니다. Contoso에는 여러 개의 열린 티켓과 마감된 티켓이 있습니다. 최근에, Contoso 권한이 있는 Microsoft 지원 서비스는 지원 및 문제 해결을 위해 SQL 데이터베이스 복사본을 DTM으로 이동했습니다.
+
+John은 Jane의 모든 데이터를 삭제할 것을 요청하는 DSR을 수신했습니다. John은 SMC로 이동한 후 계약을 검색한 결과, Jane에게 전자 메일 계정 문제가 있다는 사실을 확인했으며 이러한 문제는 2개의 티켓에서 이름 및 전자 메일 주소로 참조되었습니다. John은 TAM에 연락하여 Jane의 이름과 전자 메일 주소를 식별자로 제공하고, 해당 티켓 2개에서 생성되었을 수 있는 모든 다운스트림 데이터와 함께 티켓을 삭제할 것을 요청했습니다.
+
+John은 또한 본인이 지원 직원과 채팅하면서 Jane을 언급했을 수 있으므로 해당 채팅 로그를 삭제할 것을 요청했습니다.
+
+John은 또한 Jane의 개인 데이터가 SQL 데이터베이스에 있다는 것도 알고 있습니다. SQL VM이 90일 이내에 DTM으로 이동되었으므로 TAM에 DTM에서 데이터베이스를 즉시 삭제하도록 지원해줄 것을 요청했습니다.
+
+마지막으로 John은 지원을 제공하는 동안 데이터가 DTM 파일에서 제거되었을 수 있다는 사실을 알고 있으므로 Microsoft에 IT 시스템에 대해 검사를 실행하여 SQL 데이터베이스에서 Jane의 개인 데이터를 검색할 것을 요청합니다.
+
+Microsoft 지원 팀은 이러한 모든 삭제를 수행하고, 고객 요청에 따라 TAM이 필요한 파일이 삭제되었다는 증명서를 John에게 제공합니다.
+
+## <a name="dsr-guide-for-customer-provided-data-in-consulting-services-including-migration-services"></a>마이그레이션 서비스를 포함하는 컨설팅 서비스의 고객 제공 데이터에 대한 DSR 가이드 
+
+*고객이 해당 직원이나 다른 데이터 주체로부터 권리 이행 요청을 받을 때와 데이터 주체의 개인 데이터가 컨설팅 계약 동안 Microsoft에 의해 수집되었을 때 Microsoft에서 지원을 받는 방법입니다.*
+
+<span id="_Toc510704624" class="anchor"><span id="_Toc511045468" class="anchor"><span id="_Toc511403176" class="anchor"></span></span></span>
+## <a name="microsoft-consulting-services"></a>Microsoft 컨설팅 서비스
+
+계약된 Microsoft 컨설팅 서비스로, 데이터 보호 부록(<http://aka.ms/professionalservicesdpa>)이 적용됩니다.
+
+Microsoft는 계약 팀과 함께 작업하는 고객 담당자를 위한 데이터 통제자입니다. 해당 개인은 데이터 주체 권리를 이행하기 위해 [Microsoft 개인 정보 지원](http://go.microsoft.com/fwlink/?LinkId=321116) 팀에 문의해야 합니다.
+
+Microsoft는 컨설팅 계약 동안 제공된 데이터에 포함되어 있는 DSR에 대한 데이터 처리자입니다. 고객은 계약 관리자에게 문의하여 수집된 데이터 및 제공된 특정 유형의 컨설팅 서비스를 토대로 DSR에 대한 응답 지원 계획을 세워야 합니다. Microsoft 컨설팅 서비스 계약 내에서 일반적인 수준으로 요청이 이행된다고 가정할 경우, 추가적인 작업 지시가 요구될 수 있습니다. 또한 특정 기간(컨설팅 계약 유형에 따라 달라질 수 있음) 내에 각 컨설팅 계약이 끝나면 개인 데이터가 삭제됩니다. 고객은 데이터가 더 빨리 삭제되도록 요청할 수 있으며, 삭제 증명을 요청할 수 있습니다.
+
+<span id="_Toc510704625" class="anchor"><span id="_Toc511403177" class="anchor"></span></span>
+## <a name="microsoft-fasttrack-services"></a>Microsoft FastTrack 서비스
+
+[Microsoft FastTrack](https://na01.safelinks.protection.outlook.com/?url=https%3A%2F%2Ffasttrack.microsoft.com%2Fabout&data=02%7C01%7C%7Cd0521d8739c841df674508d596834585%7C72f988bf86f141af91ab2d7cd011db47%7C1%7C0%7C636580412901207944&sdata=PO5eh56pm9IYk5Y%2Ff%2F31e%2BRVPmrC2Qi%2FCsw1NphR8gY%3D&reserved=0)은 조직의 IT 컨설팅 서비스 부서에서 Microsoft 365, Azure 및 Dynamics 365와 같은 Microsoft 클라우드 서비스를 등록하고 사용하도록 지원합니다.
+
+Microsoft는 FastTrack 팀과 협력해서 작업하는 고객 담당자를 위한 데이터 통제자입니다. 고객 담당자가 Microsoft의 FastTrack 레코드의 연락처 정보를 액세스, 수정 또는 제거하려고 하면 고객은 데이터 주체가 Office 365 FastTrack GDPR 요청 받은 편지함 \<<o365ftgdpr@microsoft.com>\>으로 직접 요청을 전송하도록 할 수 있습니다.
+
+FastTrack 마이그레이션 서비스의 경우, Microsoft는 데이터 프로세서입니다. Fast Track 추가 개인 정보 공개 정책에 따라 마이그레이션의 모든 데이터는 “마이그레이션 데이터”로 간주됩니다. 조직이 FastTrack 마이그레이션 프로젝트에 연결하는 동안 DSR을 실행해야 하는 경우 특별한 조치가 필요합니다.
+  
+사용자의 데이터가 FastTrack 마이그레이션 시스템을 통해 처리되는 동안 DSR 요청에 대한 액세스, 수정 또는 내보내기를 처리해야 하는 경우, 사용자 데이터가 저장된 기존 원본 시스템을 통해 이러한 DSR을 수행하는 것은 고객의 책임입니다. 사용자의 마이그레이션이 완료되고 데이터가 대상 Microsoft 클라우드 서비스로 마이그레이션되면 고객이 Microsoft 제품, 서비스 및 관리 도구를 사용하여 개인 데이터를 찾고 데이터 주체 요청에 응답하는 방법에 대한 Microsoft의 지침이 적용됩니다. 이 참고 자료를 보려면 [GDPR에 대한 데이터 주체 요청](https://docs.microsoft.com/microsoft-365/compliance/gdpr-data-subject-requests)을 참조하세요. 
+
+조직에서 진행 중인 FastTrack 마이그레이션 프로젝트에 연결되는 동안 DSR 삭제 요청에 대한 응답으로 Office 365 사용자 계정을 삭제해야 하는 경우, 마이그레이션 시스템은 사용자 마이그레이션 완료 후 일정 기간 동안 사용자 마이그레이션 데이터 복사본을 보유할 수 있으며 Office 365 사용자 계정을 삭제해도 FastTrack 마이그레이션 시스템에 저장된 사용자 마이그레이션 데이터가 자동으로 삭제되지는 않습니다. Microsoft FastTrack 팀에서 사용자 마이그레이션 데이터를 삭제하려면 [요청을 제출](https://go.microsoft.com/fwlink/?linkid=874544)할 수 있습니다. 일반적인 업무 과정에서 Microsoft FastTrack은 조직의 마이그레이션이 완료되면 모든 데이터 복사본을 삭제합니다.
+
+
+<span id="_Toc510704626" class="anchor"><span id="_Toc511403178" class="anchor"></span></span>
+## <a name="other-consulting-services"></a>기타 컨설팅 서비스
+
+Microsoft를 통해 다른 전문 서비스를 수신하는 고객은 모든 GDPR 요구 사항의 이행을 위해 계약 팀과 협의해야 합니다. 계약 팀이 GDPR DSR 이행에 대한 명확한 지침을 제공할 수 없으면 고객은 [Microsoft 개인 정보 지원](http://go.microsoft.com/fwlink/?LinkId=321116)에 도움을 요청할 수 있습니다.

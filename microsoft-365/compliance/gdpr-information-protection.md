@@ -1,0 +1,58 @@
+---
+title: 정보 보호
+description: GDPR(일반 데이터 보호 규정)에 대한 정보 보호
+keywords: Microsoft 365, Microsoft 365 Education, Microsoft 365 설명서, GDPR
+author: BrendaCarter
+localization_priority: Priority
+audience: itpro
+ms.prod: Microsoft-365-enterprise
+ms.topic: article
+ms.date: 04/13/2018
+ms.author: bcarter
+manager: laurawi
+ms.collection: GDPR
+ms.openlocfilehash: 371efa4e1c3e3375cd43dcc661d8aa549788baba
+ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.translationtype: HT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/28/2018
+ms.locfileid: "26870228"
+---
+# <a name="information-protection-for-gdpr-with-microsoft-365-capabilities"></a>Microsoft 365 기능을 사용한 GDPR에 대한 정보 보호
+
+Microsoft 365는 GDPR(일반 데이터 보호 규정)을 준수하는 데 도움이 되는 풍부한 기능을 제공합니다. 이 문서에서는 권장 기능과 자세한 정보에 대한 링크를 제공합니다.
+
+Microsoft가 GDPR 준수에 도움을 주는 방식에 대한 자세한 내용은 Service Trust Portal에서 [시작: GDPR 책임에 대한 지원](https://servicetrust.microsoft.com/ViewPage/GDPRGetStarted)을 참조하세요.
+
+## <a name="information-protection"></a>정보 보호
+
+Office 365는 다양한 데이터 거버넌스 기능을 제공합니다. 개인 데이터의 찾기, 분류, 보호 및 모니터링에 대한 도움말을 보려면 [GDPR에 대한 Office 365 정보 보호](https://docs.microsoft.com/office365/enterprise/office-365-information-protection-for-gdpr)를 참조하세요. 
+
+파일 공유, SharePoint Server, Exchange Server, 비즈니스용 Skype 서버, Project Server 및 Office Online Server 등의 온-프레미스 서버에 대한 도움말은 [온-프레미스 Office 서버에 대한 GDPR](https://docs.microsoft.com/office365/enterprise/gdpr-for-office-servers)을 참조하세요. 
+
+## <a name="identity-and-access-management"></a>ID 및 액세스 관리
+
+Azure Active Directory 및 기타 Microsoft 365 기능은 ID 및 장치로부터 데이터에 대한 액세스를 보호하는 풍부한 기능을 제공합니다.
+- MFA(Multi-Factor Authentication)
+- 조건부 액세스
+- Privileged Identity Management
+- 모바일 장치 관리
+- 모바일 응용 프로그램 관리
+- 자격 증명에 대한 하드웨어 보호
+
+Microsoft에서는 시작점으로 사용할 수 있는 권장 구성을 제공합니다.
+- [ID 및 장치 액세스 구성](../enterprise/microsoft-365-policies-configurations.md): 3가지 보호 계층(기준선, 중요, 높은 규제)을 달성하기 위한 권장 정책 구성입니다. 이 가이드에는 Exchange Online 및 SharePoint Online(비즈니스용 OneDrive 포함)에 대한 권장 정책이 포함되어 있습니다.
+- [정치적 캠페인, 비영리 조직 및 긴급 구성 조직을 위한 보안 지침](https://docs.microsoft.com/office365/enterprise/microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o): 여기에는 동일한 정책 집합이 포함되지만, BYOD 환경 및 B2B 계정에 대한 추가 지침이 제공됩니다.
+
+
+## <a name="threat-protection"></a>위협 방지
+
+위협 방지는 Microsoft 365 서비스에 기본적으로 제공되며 다음 리소스를 통해 시작할 수 있습니다.
+- [Office 365 보안 로드맵: 처음 30일, 90일 및 그 이상 기간에 주요 우선 순위 두기](https://support.office.com/article/Office-365-security-roadmap-Top-priorities-for-the-first-30-days-90-days-and-beyond-28c86a1c-e4dd-4aad-a2a6-c768a21cb352). 이 로드맵에는 기능을 구현하기 위한 권장 사항이 포함되어 있습니다. 
+- 
+  [Office 365에서 위협으로부터 보호](https://support.office.com/article/protect-against-threats-in-office-365-b10023f6-f30f-45d3-b3ad-b71aa4aa0d58). Office 365 보안 및 준수 센터에서 수행할 수 있는 보호 작업에 대해 알아봅니다.
+- [Windows 위협 보호](https://docs.microsoft.com/windows/security/threat-protection/). Windows Defender Advanced Threat Protection 및 Windows 10의 기타 기능에 대해 자세히 알아봅니다.
+
+
+## <a name="learn-more"></a>자세한 정보
+[Microsoft 보안 센터](https://www.microsoft.com/TrustCenter/Privacy/gdpr/default.aspx)
