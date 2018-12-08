@@ -14,11 +14,11 @@ ms.collection:
 ms.custom: ''
 description: 여기에서 최신 데스크톱 배포에 대한 도움말을 찾을 수 있습니다.
 ms.openlocfilehash: 7c6f68320165abdfd131a84e84345bd6ff6d47c1
-ms.sourcegitcommit: 808656803f2bfd30bc872fa3ce3fe5d072385f5d
+ms.sourcegitcommit: 369f07db4e457334900314a2575f2f75cff5ce9c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/06/2018
-ms.locfileid: "27187282"
+ms.lasthandoff: 12/07/2018
+ms.locfileid: "27201622"
 ---
 # <a name="find-help-for-your-modern-desktop-deployment"></a>최신 데스크톱 배포에 대한 도움말 찾기 
 
