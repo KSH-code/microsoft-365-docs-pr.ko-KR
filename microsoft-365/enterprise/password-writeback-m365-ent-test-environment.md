@@ -17,11 +17,11 @@ ms.custom:
 ms.assetid: ''
 description: '요약: Microsoft 365 테스트 환경을 위한 암호 쓰기 저장을 구성합니다.'
 ms.openlocfilehash: 748ccaf8601d9e9564d176f2368e3cc71f926208
-ms.sourcegitcommit: 369f07db4e457334900314a2575f2f75cff5ce9c
+ms.sourcegitcommit: fec2c756121006069dc3e5b8dbd6c4abe7a3c63c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/07/2018
-ms.locfileid: "27201612"
+ms.lasthandoff: 12/11/2018
+ms.locfileid: "27214436"
 ---
 # <a name="password-writeback-for-your-microsoft-365-test-environment"></a>Microsoft 365 테스트 환경을 위한 암호 쓰기 저장
 
