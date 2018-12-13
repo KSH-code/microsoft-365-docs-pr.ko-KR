@@ -4,18 +4,18 @@ description: 이 문서는 DPIA가 필요한 지 여부를 결정 하 게 도움
 keywords: DPIA, Microsoft 전문 서비스 Microsoft 365 설명서, GDPR
 robots: NOINDEX,NOFOLLOW
 author: BrendaCarter
-ms.localizationpriority: high
+ms.localizationpriority: Priority
 audience: itpro
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
 ms.author: bcarter
 manager: laurawi
 ms.collection: GDPR
-ms.openlocfilehash: 9e710c3b8ec0c467c36a675c2d76eabb3af1f0f6
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: 316f780fc324f95783416c52070b38c12d5078af
+ms.sourcegitcommit: 73fb9a7cf1b7b1045a304391ed393acb7b909317
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/28/2018
+ms.lasthandoff: 12/12/2018
 ms.locfileid: "26869976"
 ---
 # <a name="data-protection-impact-assessments-guidance-for-data-controllers-using-microsoft-professional-services"></a>Microsoft 전문 서비스를 사용 하 여 데이터 컨트롤러에 대 한 데이터 보호 영향 평가: 지침
