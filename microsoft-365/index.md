@@ -10,10 +10,10 @@ title: Microsoft 365 설명서
 description: 모든 사용자가 독창적이고 안전하게 함께 작업할 수 있도록 하며 Office 365, Windows 10 및 Enterprise Mobility + Security가 포함된 완전한 지능형 솔루션인 Microsoft 365용 설명서와 리소스를 찾아보세요.
 ms.date: 07/01/2018
 ms.openlocfilehash: b2c796fc35859128d4a65ea3587db082f8264abd
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/28/2018
+ms.lasthandoff: 01/16/2019
 ms.locfileid: "26869731"
 ---
 <div id="main" class="v2">
