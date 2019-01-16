@@ -11,11 +11,11 @@ ms.collection: Ent_O365
 ms.custom:
 - Strat_O365_Enterprise
 description: 단계에 대 한 계획을 제공 하 고 조직 전체에서 Microsoft 365 기업에서 Exchange Online의 값을 제어 하는 프로세스를 통해 수행 합니다.
-ms.openlocfilehash: 36b24290acd4467400eab86b4c2760ccad65deab
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: aafa1b28546eb77938bb3e4a5ebe9ccd60b9a60b
+ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/28/2018
+ms.lasthandoff: 01/16/2019
 ms.locfileid: "26870341"
 ---
 # <a name="deploy-exchange-online-for-microsoft-365-enterprise"></a>Exchange Online Microsoft 365 Enterprise에 대 한 배포
@@ -29,7 +29,7 @@ Exchange Online으로 새로운 인 경우 [Microsoft Exchange Online](https://p
 다음 단계를 안내 하 envisioning 온 보 딩 조직에서 Exchange online 역할 점진적 롤아웃 시리즈를 통해 Exchange online 조직 및 Exchange Online의 사용을 제어 하는 프로세스 및 해당 최종 사용자에 게 값입니다.
 
 >[!Note]
->Microsoft 365 enterprise [foundation 인프라](deploy-foundation-infrastructure.md) 를 완료 한 후에이 배포 지침을 따라야 합니다.
+>[단계 2-Identity](identity-infrastructure.md) Microsoft 365 Enterprise foundation 인프라를 완료 한 후에이 배포 지침을 따라야 합니다.
 >
 
 ## <a name="phase-1-envision"></a>1단계: 구상
@@ -38,7 +38,7 @@ Exchange Online으로 새로운 인 경우 [Microsoft Exchange Online](https://p
 
 ### <a name="step-1-gather-your-exchange-online-deployment-members"></a>1 단계: Exchange Online 배포 구성원에 수집
 
-Microsoft 365 [foundation 인프라](deploy-foundation-infrastructure.md)와 Exchange Online의 성공적인 배포를 입력 하 고 피드백에 대 한 권한 있는 사용자를 가져올 해야 합니다. 주요 작업 자가 비즈니스 의사 결정권자, IT 담당자가 설계자 및 구현, 최종 사용자에 대 한을 대표 등을 포함합니다. 
+Microsoft 365 Enterprise foundation 인프라의 [단계 2-Identity](identity-infrastructure.md) Exchange Online의 성공적인 배포에 대 한 입력 및 피드백에 대 한 권한 있는 사용자를 가져올 해야 합니다. 주요 작업 자가 비즈니스 의사 결정권자, IT 담당자가 설계자 및 구현, 최종 사용자에 대 한을 대표 등을 포함합니다. 
 
 이러한 세 그룹 Exchange Online 배포 비즈니스 요구 사항, 사서함 마이그레이션 및 보안을의 기술적 측면 및 일반적인 사용자가 사용 되어 있음을 결과 수를 처리 하는 고려 사항을 포함 되어있는지 확인 합니다.
 
@@ -74,7 +74,7 @@ Exchange Online은 다음과 같은 Microsoft 365 Enterprise에 대한 전략적
 
 이 단계는 Exchange Online 배포의 기술적 측면에 대 한 계획 하 고 사용자의 선택 된 그룹 전체에 배포를 시작 합니다.
 
-### <a name="prerequisites-identity-and-device-access-configuration"></a>필수 구성 요소: Id 및 장치 액세스 구성
+### <a name="prerequisites-identity-and-device-access-configuration"></a>필수 구성 요소: ID 및 장치 액세스 구성
 
 Exchange Online 사서함에 대 한 액세스를 보호 하려면 웹 [id 및 장치에 대 한 액세스 정책](identity-access-policies.md) 및 [Exchange Online 액세스 정책 권장](secure-email-recommended-policies.md)구성 했는지 확인 합니다.
 
@@ -86,7 +86,7 @@ FastTrack와 함께에서 또는 직접 계획을 수행 하는 경우 네트워
 
 이러한 리소스를 사용 하 여는 Exchange Online 배포의 기술적 측면에 대 한 준비 합니다. 
 
-- [Office 365로 여러 전자 메일 계정을 마이그레이션하는 방법](https://support.office.com/article/ways-to-migrate-multiple-email-accounts-to-office-365-0a4913fe-60fb-498f-9155-a86516418842)
+- [Office 365로 여러 전자 메일 계정을 마이그레이션하는 방법](https://docs.microsoft.com/Exchange/mailbox-migration/mailbox-migration)
 - [Office 365 메일 마이그레이션 관리자](https://portal.office.com/onboarding/mailsetupadvisor#/) (로그인 해야 Office 365 구독)
 - [Exchange Online의 공동 작업](https://technet.microsoft.com/library/jj983794(v=exchg.150).aspx)
 - [Exchange Online의 받는 사람](https://technet.microsoft.com/library/jj200702(v=exchg.150).aspx)
@@ -165,7 +165,7 @@ IT 시험을 완료 한 후 비즈니스 그룹 또는 조직에서 부서를 Ex
 다음은 몇 가지 추천 활동입니다.
 
 - [Office 365 도입 지침](https://aka.ms/successfactors)을 통해 클라우드 서비스 도입에 대한 일반적인 모범 사례를 살펴봅니다. 
-- [Office 365 활동 보고서](https://support.office.com/article/Activity-Reports-in-the-Office-365-admin-center-0d6dfb17-8582-4172-a9a9-aed798150263)를 통해 조직 전체의 Office 365 서비스 사용을 이해합니다. 조직의 Office 365 전역 관리자에게 활동 보고서에 액세스할 수 있도록 사용자 계정에 보고서 읽기 권한자 권한을 부여해 달라고 요청합니다(Office 365 전역 관리자가 아닌 경우).
+- [Office 365 활동 보고서](https://docs.microsoft.com/office365/admin/activity-reports/activity-reports)를 통해 조직 전체의 Office 365 서비스 사용을 이해합니다. 조직의 Office 365 전역 관리자에게 활동 보고서에 액세스할 수 있도록 사용자 계정에 보고서 읽기 권한자 권한을 부여해 달라고 요청합니다(Office 365 전역 관리자가 아닌 경우).
 - 문제 및 Exchange Online과 경험 하는 방법에 대 한 개인의 피드백에 대 한 사용자 의견 위치 (팀이 팀 또는 Yammer를 중앙에서 공용 채널)를 모니터링 합니다. 당황한 개인을 방지 하 고 시연 롤아웃에 대 한 지원을를 최대한 신속 하 게 질문 및 문제를 해결 합니다.
 - 식별 하 고 각 비즈니스 그룹에서 챔피언 촉진 시키는 자신의 성과 및 Exchange Online을 사용 하 여 최상의 방법을 중점적으로 설명 합니다. 프로젝트 성공 및 채택을 표시 하는 조직에 아웃 성공 사례를 반영 합니다. 비즈니스 그룹 내에서 기술 리더의 보증에는 리더 및 동료를 통해는 강력한 영향을 줄 수 있습니다.
 

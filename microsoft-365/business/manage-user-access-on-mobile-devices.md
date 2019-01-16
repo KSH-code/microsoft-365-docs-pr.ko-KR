@@ -21,10 +21,10 @@ search.appverid:
 ms.assetid: aa31319c-9196-48c9-a90b-4057e0494c7a
 description: 모바일 장치에서 Office 응용 프로그램에 대 한 보안 액세스 도움이 되는 보호 정책에 알아봅니다.
 ms.openlocfilehash: 75dbe79acccabd851c43259a165e79bfe3c509c0
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/28/2018
+ms.lasthandoff: 01/16/2019
 ms.locfileid: "26870034"
 ---
 # <a name="manage-how-users-access-office-documents-on-mobile-devices"></a>사용자가 모바일 장치에서 Office 문서에 액세스하는 방법 관리

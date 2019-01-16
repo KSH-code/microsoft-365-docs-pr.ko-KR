@@ -11,10 +11,10 @@ ms.prod: microsoft-365-business
 title: Microsoft 365 비즈니스 리소스
 description: 계획, 배포 및 Microsoft Office 365, Windows 10 및 엔터프라이즈 이동성 + 보안은 함께 사용할 비즈니스에 더욱 원활 하 고 작업의 잠금을 해제 하는 통합 및 보안 인프라에 대 한 하는 방법에 알아봅니다.
 ms.openlocfilehash: 386c829a6b635b1b23301e838f05b0b84bbfb3b4
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/28/2018
+ms.lasthandoff: 01/16/2019
 ms.locfileid: "26869831"
 ---
 <div id="main" class="v2">

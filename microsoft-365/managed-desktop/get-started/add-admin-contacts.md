@@ -3,14 +3,14 @@ title: Microsoft 관리 되는 데스크톱 관리 포털에서 Admin 대화 상
 description: 저희에 게 알려주십시오 회의 센터의 각 영역에 대 한 연락할 사람에 있습니다.
 keywords: Microsoft 관리 되는 데스크톱, Microsoft 365 서비스, 설명서
 ms.service: m365-md
-author: jdeckerms
+author: trudyha
 ms.localizationpriority: normal
 ms.date: 09/24/2018
-ms.openlocfilehash: 65dd8709c469826e2696015c13823c58eb10e342
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: 31984609681b6e3b1b6de9996eb8fb0fcf6f5624
+ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/28/2018
+ms.lasthandoff: 01/16/2019
 ms.locfileid: "26869898"
 ---
 # <a name="add-admin-contacts-in-microsoft-managed-desktop-admin-portal"></a>Microsoft 관리 되는 데스크톱 관리 포털에서 Admin 대화 상대를 추가 합니다.
@@ -25,11 +25,11 @@ Microsoft 관리 되는 데스크톱 관리 포털 포털에 액세스 하는 �
 - 대금 청구 관리자
 - 서비스 지원 관리자
 
-Azure AD에 할당 하 고 이러한 역할에 대 한 자세한 내용은 [Azure Active Directory의 관리자 역할 권한](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)을 참조 하십시오. 
+전역 관리자가 Microsoft 관리 되는 데스크톱에 고객을 등록 한 이어야 합니다.  5 개의 역할 모두으로 시작 하 고 작업을 볼 관리 포털 내에서 동일한는 액세스할 수 있습니다.  Azure AD에서 이러한 역할 할당에 대 한 자세한 내용은 [Azure Active Directory의 관리자 역할 권한](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)을 참조 하십시오. 
 
 ## <a name="admin-contact-focus-areas"></a>관리 연락처 주요 영역
 
-최상의 사용자 또는 그룹 질문에 대답 하 고 다른 주요 영역에 대 한 결정을 내릴 수 있는 대화 상대 관리 해야 합니다. 이러한 영역에는 다음이 포함 됩니다.
+최상의 사용자 또는 그룹 질문에 대답 하 고 다른 주요 영역에 대 한 결정을 내릴 수 있는 대화 상대 관리 해야 합니다.  데스크톱 작업을 관리 하는 Microsoft 지원 요청에 대 한 고객 필드와 관련 된 질문에 대 한 이러한 관리 연락처에 문의 됩니다.  이러한 관리 연락처 지원 요청 업데이트 및 새 메시지에 대 한 알림을 받게 됩니다.  이러한 영역에는 다음이 포함 됩니다.
 
 포커스 영역 | 에 대 한 질문에 대 한
 --- | ---

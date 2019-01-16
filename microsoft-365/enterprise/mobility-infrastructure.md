@@ -13,11 +13,11 @@ ms.service: ''
 ms.technology: ''
 ms.assetid: fb4182e6-5e78-45d0-9641-d791c4519441
 ms.custom: microsoft-intune
-ms.openlocfilehash: 8d048ec6628cb8f7cb9c5e0d4c7960481bc69de1
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: 3afc28f0d21918c027a6a1622a40318e333f7ab4
+ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/28/2018
+ms.lasthandoff: 01/16/2019
 ms.locfileid: "26870376"
 ---
 # <a name="phase-5-mobile-device-management-for-microsoft-365-enterprise"></a>Microsoft 365 Enterprise에 대 한 단계 5: 모바일 장치 관리
@@ -110,7 +110,7 @@ Intune 앱을 포함 하 여 관리할 수 앱을 추가 하 고 다른 사용�
 
 |||
 |:-------|:-----|
-|![Microsoft 클라우드의 테스트 랩 가이드](media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)| [테스트 랩 가이드: 모바일 응용 프로그램 관리 정책](mam-policies-for-your-microsoft-365-enterprise-dev-test-environment.md) |
+|![Microsoft 클라우드의 테스트 랩 가이드](media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)| [테스트 랩 가이드: 장치 규정 준수 정책](mam-policies-for-your-microsoft-365-enterprise-dev-test-environment.md) |
 |||
 
 ## <a name="step-6-turn-on-compliance-and-conditional-access"></a>6 단계: 규정 준수 및 조건부 액세스 설정
@@ -153,7 +153,7 @@ Intune은 강력한 서비스 및 다양 한 기능을 포함 합니다. 다음�
 - [앱](https://docs.microsoft.com/intune/apps-monitor)모니터링, 모니터 [장치 준수](https://docs.microsoft.com/intune/compliance-policy-monitor), 모니터 [구성 프로필](https://docs.microsoft.com/intune/compliance-policy-monitor)및 감사 로그를 사용 하 여 더 많은 원격 분석 합니다. [Intune 데이터 웨어하우스에](https://docs.microsoft.com/intune/reports-nav-create-intune-reports) 에 연결 하 고 더 많은 보고 요구 사항에 대 한 Power BI를 사용 하 여 수도 있습니다.
 
 
-## <a name="identity-and-device-access-recommendations"></a>Id 및 장치 액세스 권장 사항
+## <a name="identity-and-device-access-recommendations"></a>ID 및 장치 액세스 권장 사항
 
 Microsoft에 안전 하 고 생산성을 리소스를 확인 하려면 [id 및 장치에 대 한 액세스](microsoft-365-policies-configurations.md) 위한 권장 사항 집합을 제공 합니다. 장치 액세스에 대 한 권장 사항 및 설정을 사용 하는 단계와 함께 다음 문서에서이 단계에서:
 

@@ -17,10 +17,10 @@ search.appverid:
 ms.assetid: 6b70fa27-d171-4593-8ecf-f78bb4ed2e99
 description: 전역 관리자 credintials와 Microsoft 365 비즈니스에 로그인 하 여 장치 정책 및 작업을 확인 합니다.
 ms.openlocfilehash: 0018abc6dcf2163dc50c6c792793c9f5d9e29d45
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/28/2018
+ms.lasthandoff: 01/16/2019
 ms.locfileid: "26869719"
 ---
 # <a name="view-policies-and-devices"></a>정책 및 장치 보기

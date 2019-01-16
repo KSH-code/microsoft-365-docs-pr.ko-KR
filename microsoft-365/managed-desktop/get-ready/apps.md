@@ -3,14 +3,14 @@ title: 관리 되는 데스크톱 앱을 준비 하 고 Microsoft에 대 한
 description: ''
 keywords: Microsoft 관리 되는 데스크톱, Microsoft 365 서비스, 설명서
 ms.service: m365-md
-author: jdeckerms
+author: trudyha
 ms.localizationpriority: normal
 ms.date: 09/24/2018
-ms.openlocfilehash: ebeb54bd5d1f50cbb6f78b1c8ad4a624c449b8c2
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: b46e3de4a4cfe2140574ab9fc589e3a738bd2e17
+ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/28/2018
+ms.lasthandoff: 01/16/2019
 ms.locfileid: "26869922"
 ---
 # <a name="preparing-apps-for-microsoft-managed-desktop"></a>관리 되는 데스크톱 앱을 준비 하 고 Microsoft에 대 한
@@ -21,14 +21,16 @@ ms.locfileid: "26869922"
  
 Microsoft 및 데스크톱을 관리 하는 Microsoft 고객 중심으로 데스크톱을 관리 하는 Microsoft와 함께 사용 하는 응용 프로그램의 중요 한, 아직 다른 책임은 동일 하 게 되었습니다.
 
-## <a name="microsoft-responsibilites"></a>Microsoft responsibilites
+## <a name="microsoft-responsibilities"></a>Microsoft의 업무
 **Office 365 앱** Microsoft는 배포, 업데이트 및 특정 Office 365 앱의 지원에 대 한 전체 서비스를 제공 합니다. 모든 사용자에 게 사용자 생산성을 신속 하 게 될 수 있도록 장치의 이미지에 포함 된 응용 프로그램의 64 비트 버전을 실행 하려면 Office 365의 기본 집합을 받게 됩니다. 프로젝트 및 Visio 응용 프로그램에서 Office 365 제품군의는 별도로 사용이 허가 됩니다.  Microsoft 관리 되는 데스크톱은 IT 관리자에 게 라이선스를 관리 하 고 이러한 응용 프로그램을 조직에 적절 하 게 배포를 허용 하는 배포 그룹을 제공 합니다. Microsoft는 Microsoft 관리 되는 데스크톱 지원 채널을 통해 이러한 응용 프로그램의 최종 사용자를 지원 합니다.
 
-**비즈니스 라인 앱** Microsoft IT 관리자가 Intune 제품의 일부로 최종 사용자에 게 해당 줄의 비즈니스 응용 프로그램을 배포 및 관리 도구를 제공 합니다. Microsoft는 [비즈니스 라인 응용 프로그램](#line-of-business-applications) 에서 설명한 대로 배포 문제를 응용 프로그램을 지원 
+**비즈니스 라인 앱** Microsoft IT 관리자가 Intune 제품의 일부로 최종 사용자에 게 자신의 기간 업무 (LOB) 응용 프로그램을 배포 및 관리 도구를 제공 합니다. Microsoft는 [비즈니스 라인 응용 프로그램](#line-of-business-applications) 에서 설명한 대로 배포 문제를 응용 프로그램을 지원 
 
 **Intune를 사용 하 여 배포** Intune는 Microsoft 관리 되는 데스크톱 온 보 딩 확보 앱 Intune를 통해 배포할 수 있도록 허용 하는 동안 **비즈니스를 위한 Microsoft 저장소** 에 연결 됩니다. Microsoft IT 관리자가 최종 사용자에 대 한 셀프서비스 경험을 제공할 수 있도록 최종 사용자에 게 웹 기반 버전의 회사 포털 배포도 됩니다.
 
 **응용 프로그램 관리** Microsoft는 자신의 시스템 영향으로 인해 현대 직장에 적합 하지 않은 제한 된 응용 프로그램을 식별할 수 있습니다. 이러한 응용 프로그램 식별 되는 Microsoft 고객 알림을 생성 하는 하 고 해당 응용 프로그램 테 넌 트에서 제거 해야 합니다. 
+
+제한 된 응용 프로그램 동작 및 응용 프로그램 요구 사항에 대 한 자세한 내용은 [Microsoft 관리 되는 데스크톱 응용 프로그램 요구 사항](../service-description/mmd-app-requirements.md) 을 참조 하십시오.
 
 ## <a name="customer-responsibilities"></a>고객 책임
 Office 365 제품군 Microsoft의 생산성 제품의 필수 요소 이며 모든 Microsoft 관리 되는 데스크톱 사용자에 대 한 Microsoft 365 라이선스에 포함 됩니다. Microsoft 배포, 업데이트 하 고 데스크톱 장치를 관리 하는 Microsoft Office 응용 프로그램을 지원 하는 동안 가지 여전히 일부 고객은 책임을 집니다.
@@ -41,8 +43,7 @@ Office 365 제품군 Microsoft의 생산성 제품의 필수 요소 이며 모�
 - 앱 해당 사용자에 게 할당
 - 작성 및 응용 프로그램 할당을 관리 하기 위한 Azure Active Directory (AD) 그룹을 유지 관리 
 
-LOB 응용 프로그램의 핵심 집합 식별 된 후 고객을 조달, 라이선스, 패키지 하 고, 및 Microsoft 관리 되는 데스크톱 환경에서 해당 응용 프로그램을 테스트 합니다. 고객을 업로드 하 고 배포 하 고 업데이트 하 고, 해당 LOB 응용 프로그램을 해제 하는 Intune 응용 프로그램을 배포 해야 합니다. 고객에 게는 해당 사용자에 대 한 LOB 응용 프로그램 지원 관리를 담당 합니다.
- 
+고객은 Intune를 LOB 응용 프로그램을 업로드 해야 합니다. 배포, 업데이트 하 고 자신의 개별 수명 주기를 통해 해당 응용 프로그램을 해제 뿐아니라 사용자에 게 이러한 앱에 대 한 지원을 관리 하는 일을 담당 하는 다음 합니다.
 
 ## <a name="office-applications"></a>Office 응용 프로그램
 Microsoft 365 E5 라이선스의 일부로 Office 365 표준 도구 모음 (64 비트)는 Microsoft에서 배포 됩니다. 
@@ -74,21 +75,16 @@ Microsoft 관리 되는 데스크톱 환경에서 앱을 테스트 합니다. | 
 
 LOB 응용 프로그램 요구 사항에 대 한 정보를 [Microsoft 관리 되는 데스크톱 응용 프로그램 요구 사항](../service-description/mmd-app-requirements.md) 을 참조 하십시오.
 
-## <a name="resources"></a>리소스
-Microsoft 관리 되는 데스크톱 작업에 대 한 범위 바깥에 다양 한 서비스 하는 동안에 해당 응용 프로그램을 관리 하는 고객은 데 도움이 되는 Microsoft 기능을 제공 하는 서비스입니다.
 
-### <a name="windows-upgrade-readiness"></a>Windows 업그레이드 준비
-새 Microsoft 관리 되는 장치 설정의 핵심 요소는 앱 장치 사용자를 위해 필요한 이해입니다. Windows 업그레이드 준비는 기업이 자신의 회사 내 응용 프로그램 가로 이해 하는데 도움이 됩니다 하 수와 같은 해당 응용 프로그램에 대 한 키 데이터를 검토할 수 있도록 도와주는 Microsoft 도구:
-
-- **응용 프로그램의 사용량이** -원격 분석 데이터를 사용 하 여 응용 프로그램 사용을 모니터링 합니다.
-- **응용 프로그램 호환성** -업그레이드 준비 방법 광범위 하 게 배포한 최신 버전의 Windows 10에서 볼 수 및 "준비에 대 한 Windows" 인지 확인 하는 방법을 평가 각 응용 프로그램을 확인 합니다. 이 데이터는 집중적으로 테스트 활동을 이미 광범위 하 게 채택 되지 않은 응용 프로그램에 도움이 됩니다.
-
-### <a name="intune-application-deployment"></a>Intune 응용 프로그램 배포
+## <a name="intune-application-deployment"></a>Intune 응용 프로그램 배포
 Microsoft 관리 되는 데스크톱 관리 포털을 통해 또는 Intune 포털을 통해 응용 프로그램 관리를 처리할 수 있습니다. Intune의 응용 프로그램 관리 포털, Android, 창과 iOS에 대 한 배포 하는 응용 프로그램을 보여줍니다. Microsoft 관리 되는 데스크톱 관리 포털 Windows 10 응용 프로그램에 대 한 보기를 제한합니다. 두 가지 Azure 포털을 통해 사용할 수 있습니다. 
-- [Intune 응용 프로그램 관리 기본 사항](https://docs.microsoft.com/intune/app-management)
-- [Windows 32 응용 프로그램을 추가 합니다.](https://docs.microsoft.com/intune/lob-apps-windows)
-- [웹 응용 프로그램 추가](https://docs.microsoft.com/intune/web-app)
-- [지정 하 고 그룹에 응용 프로그램 배포](https://docs.microsoft.com/intune/apps-deploy)
-
-### <a name="application-packaging-standards"></a>응용 프로그램 패키지 표준
-있어야 Intune 통해 Windows 32 응용 프로그램을 배포 하는 단일 하나으로 패키지 합니다. MSI는.appx 또는 합니다. MSIX 합니다. Intune에 대 한 가장 일반적인 패키지 종류는 현재. MSI 합니다.
+* [Intune 응용 프로그램 관리 기본 사항](https://docs.microsoft.com/intune/app-management)
+* [Intune에 앱 추가](https://docs.microsoft.com/intune/app-management)
+   * [비즈니스 라인 응용 프로그램을 추가 합니다.](https://docs.microsoft.com/intune/lob-apps-windows)
+   * [Intune에 Win32 앱 추가](https://docs.microsoft.com/intune/apps-win32-app-management)
+   * [웹 응용 프로그램 추가](https://docs.microsoft.com/intune/web-app)
+* [응용 프로그램 배포](https://docs.microsoft.com/intune/apps-deploy)
+   * [Windows 10에 앱을 배포 합니다.](https://docs.microsoft.com/intune/apps-windows-10-app-deploy)
+* 회사 포털
+   * [회사 포털 배포](https://docs.microsoft.com/intune/store-apps-company-portal-app)
+   * [회사 포털 응용 프로그램 구성](https://docs.microsoft.com/intune/company-portal-app)

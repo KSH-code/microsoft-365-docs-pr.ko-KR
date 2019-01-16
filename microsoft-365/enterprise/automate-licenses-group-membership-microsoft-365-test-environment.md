@@ -13,11 +13,11 @@ ms.custom:
 - TLG
 - Ent_TLGs
 description: Microsoft 365 기업 테스트 환경에서 라이선스 그룹 기반 및 동적 그룹 구성원 자격을 구성 합니다.
-ms.openlocfilehash: 46d2f0ca063b387d1a4a51b4ea97bd5d60c03fe5
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: 45a78af202f2d9ab029683aae4d95ed9a3370b08
+ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/28/2018
+ms.lasthandoff: 01/16/2019
 ms.locfileid: "26870107"
 ---
 # <a name="automate-licensing-and-group-membership-for-your-microsoft-365-enterprise-test-environment"></a>Microsoft 365 기업 테스트 환경에 대 한 라이선스 및 그룹 구성원 자격을 자동화 합니다.
@@ -47,7 +47,7 @@ Microsoft 365 기업 테스트 환경에서 자동 라이선스 및 동적 그�
 
 첫째, 새 Sales 그룹을 만들고 Sales 그룹에 사용자 계정을 매출으로 설정 하는 부서와 함께 자동으로 추가 되도록 동적 그룹 멤버 자격 규칙을 추가 합니다.
 
-1. Office 365 포털에 로그인 인터넷 브라우저의 전용 인스턴스를 사용 하 여 [https://portal.office.com](https://portal.office.com) Office 365 E5 평가판 구독의 전역 관리자 계정을 사용 하 여 합니다.
+1. Office 포털에 로그인 인터넷 브라우저의 전용 인스턴스를 사용 하 여 [https://office.com](https://office.com) Office 365 E5 평가판 구독의 전역 관리자 계정을 사용 하 여 합니다.
 2. 브라우저의 개별 탭에 있는 포털로 이동 하 여 Azure에서 [https://portal.azure.com](https://portal.azure.com)합니다.
 3. Azure Portal에서 **Azure Active Directory > 사용자 및 그룹 > 모든 그룹**을 클릭합니다.
 4. **모든 그룹** 블레이드에서 **새 그룹**을 클릭 합니다.

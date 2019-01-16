@@ -10,11 +10,11 @@ ms.reviewer: martincoetzer
 ms.custom:
 - it-pro
 - goldenconfig
-ms.openlocfilehash: dd1504ac11f0e2eefa56572af24de14b5f87830e
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: f3d3d72ddf9129997dd4232a578e1f101f113a53
+ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/28/2018
+ms.lasthandoff: 01/16/2019
 ms.locfileid: "26869729"
 ---
 # <a name="policy-recommendations-for-securing-email"></a>메일을 보호하기 위한 정책 권장 사항
@@ -34,20 +34,20 @@ ms.locfileid: "26869729"
 
 |보호 수준|Policies(정책)|추가 정보|
 |:---------------|:-------|:----------------|
-|**기준**|[로그인 위험 *보통* 또는 *높음* 때 MFA 필요](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|클라우드 앱의 할당에서 Exchange Online을 포함 합니다.|
-|        |[현대 인증을 지원 하지 않는 블록 클라이언트](identity-access-policies.md#block-clients-that-dont-support-modern-authentication)|클라우드 앱의 할당에서 Exchange Online을 포함 합니다.|
+|**기준**|[로그인 위험 *보통* 또는 *높음* 때 MFA 필요](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|클라우드 앱의 배정에서 Exchange Online 포함|
+|        |[현대 인증을 지원 하지 않는 블록 클라이언트](identity-access-policies.md#block-clients-that-dont-support-modern-authentication)|클라우드 앱의 배정에서 Exchange Online 포함|
 |        |[응용 프로그램 보호 정책 정의](identity-access-policies.md#high-risk-users-must-change-password)|Outlook 응용 프로그램의 목록에 포함 되어 있어야 합니다. 각 플랫폼 (iOS, Android, Windows)에 대 한 정책을 업데이트 해야 합니다.|
-|        |[승인 된 앱 필요](identity-access-policies.md#require-approved-apps)|클라우드 앱 목록에서 Exchange Online을 포함 합니다.|
-|        |[호환 Pc 필요](identity-access-policies.md#require-compliant-pcs-but-not-compliant-phones-and-tablets)|클라우드 앱 목록에서 Exchange Online을 포함 합니다.|
-|        |[블록 ActiveSync 클라이언트](#block-activesync)|이 새 정책을 추가 합니다. 
-|**중요**|[로그인 위험 *낮음*, *보통* , *높음* 때 MFA 필요](identity-access-policies.md#require-mfa-based-on-sign-in-risk)| 클라우드 앱의 할당에서 Exchange Online을 포함 합니다.|
-|         |[준수 Pc *및* 모바일 장치 필요](identity-access-policies.md#require-compliant-pcs-and-mobile-devices)|클라우드 앱 목록에서 Exchange Online을 포함 합니다.|
-|**높은 규제**|[*항상* MFA 필요](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|Exchange Online 클라우드 앱의 할당에 포함 |
+|        |[승인 된 앱 필요](identity-access-policies.md#require-approved-apps)|Exchange Online 클라우드 앱 목록에 포함|
+|        |[호환 Pc 필요](identity-access-policies.md#require-compliant-pcs-but-not-compliant-phones-and-tablets)|Exchange Online 클라우드 앱 목록에 포함|
+|        |[블록 ActiveSync 클라이언트](#block-activesync-clients)|이 새 정책 추가| 
+|**중요**|[로그인 위험 *낮음*, *보통* , *높음* 때 MFA 필요](identity-access-policies.md#require-mfa-based-on-sign-in-risk)| 클라우드 앱의 배정에서 Exchange Online 포함|
+|         |[준수 Pc *및* 모바일 장치 필요](identity-access-policies.md#require-compliant-pcs-and-mobile-devices)|Exchange Online 클라우드 앱 목록에 포함|
+|**높은 규제**|[*항상* MFA 필요](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|클라우드 앱의 배정에서 Exchange Online 포함|
 
 ## <a name="block-activesync-clients"></a>블록 ActiveSync 클라이언트
 이 정책에는 다른 조건부 액세스 규칙을 무시에서 ActiveSync 클라이언트 수 없습니다. 규칙 구성을 ActiveSync 클라이언트에만 적용 됩니다. **클라이언트 응용 프로그램을 승인 필요**를 선택 하 여이 정책을 ActiveSync 클라이언트를 차단 합니다. 이 정책을 구성 합니다.
 
-1. [Azure Portal](https://portal.azure.com)로 이동한 다음 자격 증명을 사용하여 로그인합니다. 정상적으로 로그인되면 Azure 대시보드가 표시됩니다.
+1. [Azure 포털](https://portal.azure.com)이동 하 고 사용자의 자격 증명을 사용 하 여 로그인 합니다. 했을 때 성공적으로 로그인 후, Azure 대시보드를 참조 합니다.
 
 2. 왼쪽 메뉴에서 **Azure Active Directory**를 선택합니다.
 
@@ -59,15 +59,17 @@ ms.locfileid: "26869729"
 
 6. **클라우드 앱**을 선택합니다.
 
-7. **앱을**선택 하 고 Office 365 Exchange Online을 선택 합니다. **선택** 하 고 **완료**를 클릭 합니다.
+7. **앱을**선택 하 고 **Office 365 Exchange Online**을 선택 합니다. **선택** 하 고 **완료**를 선택 합니다.
+
 8. **조건**을 선택 하 고 **클라이언트 응용 프로그램**을 선택 합니다.
-9. **구성**대 한 **예**를 선택 합니다. 다음만 확인: **모바일 응용 프로그램 및 데스크톱 클라이언트** 및 **Exchange ActiveSync 클라이언트**입니다. **완료**를 클릭 합니다.
+
+9. **구성**대 한 **예**를 선택 합니다. 다음만 확인: **모바일 응용 프로그램 및 데스크톱 클라이언트** 및 **Exchange ActiveSync 클라이언트**입니다. **완료**를 선택 합니다.
 
 10. **액세스 제어** 섹션에서 **권한 부여**를 선택합니다.
 
 11. **클라이언트 응용 프로그램을 승인 필요**를 선택, **액세스 권한 부여를**선택 합니다.  여러 컨트롤에 대 한 **선택된 된 컨트롤 필요**를 선택 하 고 **선택**를 선택 합니다. 
 
-12. **만들기**를 클릭합니다.
+12. **Create(만들기)** 를 선택합니다.
 
 ## <a name="setup-office-365-message-encryption"></a>Office 365 메시지 암호화를 설치 합니다.
 Azure 정보 보호의 보호 기능을 활용 하는 새로운 Office 365 메시지 암호화 (OME) 기능을 사용 하면 조직 모든 장치에서 모든 사람과 보호 된 전자 메일을 쉽게 공유할 수 있습니다. 사용자가 보내고 Outlook.com, Gmail, 및 기타 전자 메일 서비스를 사용 하 여 Office 365가 아닌 고객은 물론 다른 Office 365 조직으로 보호 된 메시지를 받을 수 있습니다.

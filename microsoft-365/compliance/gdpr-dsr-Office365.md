@@ -240,9 +240,9 @@ pilar@contoso.com AND filetype="xlxs"
 
 #### <a name="working-with-partially-indexed-items-in-content-search"></a>콘텐츠 검색에서 부분적으로 인덱싱된 항목 사용
 
-부분적으로 인덱싱된 항목(*인덱싱되지 않은 항목*이라고도 함)은 SharePoint Online 및 비즈니스용 OneDrive 사이트에서 어떤 이유로 검색에 대해 완전히 인덱싱되지 않아 콘텐츠 검색을 사용하여 검색할 수 없는 Exchange Online 사서함 항목 및 문서입니다. 대부분의 전자 메일 메시지 및 사이트 문서는 [Office 365에 인덱싱 제한](https://support.office.com/article/limits-for-content-search-in-the-office-365-security-compliance-center-78fe3147-1979-4c41-83bb-aeccf244368d??) 내에 속하기 때문에 성공적으로 인덱싱됩니다. 전자 메일 메시지 또는 파일이 검색에 대해 인덱싱되지 않는 이유는 다음과 같습니다.
+부분적으로 인덱싱된 항목(*인덱싱되지 않은 항목*이라고도 함)은 SharePoint Online 및 비즈니스용 OneDrive 사이트에서 어떤 이유로 검색에 대해 완전히 인덱싱되지 않아 콘텐츠 검색을 사용하여 검색할 수 없는 Exchange Online 사서함 항목 및 문서입니다. 대부분의 전자 메일 메시지 및 사이트 문서는 [Office 365에 인덱싱 제한](https://support.office.com/article/limits-for-content-search-in-the-office-365-security-compliance-center-78fe3147-1979-4c41-83bb-aeccf244368d??d??) 내에 속하기 때문에 성공적으로 인덱싱됩니다. 전자 메일 메시지 또는 파일이 검색에 대해 인덱싱되지 않는 이유는 다음과 같습니다.
 
--   파일 형식이 [인식할 수 없거나 인덱싱에 지원되지 않는](https://support.office.com/article/partially-indexed-items-in-content-search-in-office-365-d1691de4-ca0d-446f-a0d0-373a4fc8487b??) 파일 형식입니다. 간혹 인덱싱에 대해 지원되는 경우도 있지만 특정 파일에 대해 인덱싱 오류가 발생합니다.
+-   파일 형식이 [인식할 수 없거나 인덱싱에 지원되지 않는](https://support.office.com/article/partially-indexed-items-in-content-search-in-office-365-d1691de4-ca0d-446f-a0d0-373a4fc8487b??b??) 파일 형식입니다. 간혹 인덱싱에 대해 지원되는 경우도 있지만 특정 파일에 대해 인덱싱 오류가 발생합니다.
 
 -   전자 메일 메시지에 이미지 파일(부분적으로 인덱싱된 전자 메일 항목의 가장 일반적인 사유)과 같은 유효한 처리기가 없는 첨부 파일이 있습니다.
 
@@ -250,7 +250,7 @@ pilar@contoso.com AND filetype="xlxs"
 
 DSR 요청에 응답할 때 작업할 수 있도록 부분적으로 인덱싱된 항목에 대해 보다 자세히 알아보는 것이 좋습니다. 자세한 내용은 다음을 참조하세요.
 
--   [Office 365의 콘텐츠 검색에서 부분적으로 인덱싱된 항목](https://support.office.com/article/partially-indexed-items-in-content-search-in-office-365-d1691de4-ca0d-446f-a0d0-373a4fc8487b??)
+-   [Office 365의 콘텐츠 검색에서 부분적으로 인덱싱된 항목](https://support.office.com/article/partially-indexed-items-in-content-search-in-office-365-d1691de4-ca0d-446f-a0d0-373a4fc8487b??b??)
 
 -   [Office 365 eDiscovery에서 부분적으로 인덱싱된 항목 조사](https://support.office.com/article/investigating-partially-indexed-items-in-office-365-ediscovery-4e8ff113-6361-41e2-915a-6338a7e2a1ed)
 

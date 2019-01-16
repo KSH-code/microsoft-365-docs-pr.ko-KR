@@ -3,14 +3,14 @@ title: Microsoft Managed Desktop에서 앱 관리
 description: ''
 keywords: Microsoft 관리 되는 데스크톱, Microsoft 365 서비스, 설명서
 ms.service: m365-md
-author: jdeckerms
+author: trudyha
 ms.localizationpriority: normal
 ms.date: 09/24/2018
-ms.openlocfilehash: fedc34da1bc54b673709ba667bf96f9b19bd0c4e
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: 6bd9d943384dce059ebc5a2d0a04e531ef652015
+ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/28/2018
+ms.lasthandoff: 01/16/2019
 ms.locfileid: "26870055"
 ---
 # <a name="manage-apps-in-microsoft-managed-desktop"></a>Microsoft Managed Desktop에서 앱 관리

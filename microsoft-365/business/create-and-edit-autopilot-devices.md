@@ -20,10 +20,10 @@ search.appverid:
 ms.assetid: 0f7b1d7c-4086-4331-8534-45d7886f9f34
 description: Microsoft 365 비즈니스에서 작업을 자동화할을 사용 하 여 장치를 업로드 하는 방법에 알아봅니다. 장치 또는 장치 그룹에는 프로필을 할당할 수 있습니다.
 ms.openlocfilehash: cc1f81e9efd9b16e27b8abfbb0927d241535077e
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/28/2018
+ms.lasthandoff: 01/16/2019
 ms.locfileid: "26869968"
 ---
 # <a name="create-and-edit-autopilot-devices"></a>AutoPilot 장치 만들기 및 편집

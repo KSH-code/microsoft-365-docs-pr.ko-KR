@@ -18,10 +18,10 @@ search.appverid:
 ms.assetid: 9b4de218-f1ad-41fa-a61b-e9e8ac0cf993
 description: 보호 하기 위해 Microsoft 365를 사용 하도록 설정 하는 방법에 알아봅니다 로컬 AD Windows 10 장치에 참가 합니다.
 ms.openlocfilehash: 6e66a2c5417c9037232c1ada654d4cac3c520607
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/28/2018
+ms.lasthandoff: 01/16/2019
 ms.locfileid: "26869868"
 ---
 # <a name="enable-domain-joined-windows-10-devices-to-be-managed-by-microsoft-365-business"></a>Microsoft 365 비즈니스에서 관리 되는 도메인 가입 Windows 10 장치를 사용 하도록 설정

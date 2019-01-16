@@ -17,10 +17,10 @@ search.appverid:
 ms.assetid: b0f4d010-9fd1-44d0-9d20-fabad2cdbab5
 description: 업무용 응용 프로그램, 파일 공유 및 Azure Active Directory에서 프린터 가입 Windows 10 장치와 동일 하 게 온-프레미스 리소스에 대 한 액세스를 얻는 방법에 알아봅니다.
 ms.openlocfilehash: 0a5d4b0828888fcb99676223000c446479f84ddc
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/28/2018
+ms.lasthandoff: 01/16/2019
 ms.locfileid: "26869746"
 ---
 # <a name="access-on-premises-resources-from-an-azure-ad-joined-device-in-microsoft-365-business"></a>Access 온-프레미스 Microsoft 365 비즈니스에서 Azure AD에 가입 된 장치에서 리소스

@@ -13,11 +13,11 @@ ms.custom:
 - TLG
 - Ent_TLGs
 description: Microsoft 365 기업 테스트 환경에서 스마트폰으로 전송 하는 텍스트 메시지를 사용 하 여 다단계 인증을 구성 합니다.
-ms.openlocfilehash: aae493e79a197635b2e14fa7f238a3189ed695ae
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: 353f09253794670e8107e084acb3a01cd309fd60
+ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/28/2018
+ms.lasthandoff: 01/16/2019
 ms.locfileid: "26869721"
 ---
 # <a name="multi-factor-authentication-for-your-microsoft-365-enterprise-test-environment"></a>다단계 인증 Microsoft 365 기업에 대 한 테스트 환경
@@ -50,7 +50,7 @@ Microsoft 365 기업 테스트 환경에서 계정에 대 한 다단계 인증�
 
 다음이 단계를 사용 하 여 사용자 2 계정에 대 한 다단계 인증을 사용 하도록 설정 합니다.
   
-1. 브라우저의 개인 별도 인스턴스를 열고, Office 365 포털에 이동 ([https://portal.office.com](https://portal.office.com)), 전역 관리자 계정을 사용 하 여 다음에 서명 하 고 있습니다.
+1. 브라우저의 개인 별도 인스턴스를 열고, Office 포털으로 이동 ([https://office.com](https://office.com)), 전역 관리자 계정을 사용 하 여 다음에 서명 하 고 있습니다.
     
 2. 기본 포털 페이지에서 **관리자**를 클릭합니다.
     
@@ -74,7 +74,7 @@ Microsoft 365 기업 테스트 환경에서 계정에 대 한 다단계 인증�
   
 1. 브라우저의 개인 새 인스턴스를 엽니다.
     
-2. Office 365 포털에 이동 ([https://portal.office.com](https://portal.office.com))와 사용자 2 계정 사용 하 여 로그인 (@ 사용자 2가\<조직 이름 >. onmicrosoft.com) 및 암호입니다.
+2. Office 포털에 이동 ([https://office.com](https://office.com))와 사용자 2 계정 사용 하 여 로그인 (@ user2\<조직 이름 >. onmicrosoft.com) 및 암호입니다.
     
 3. 로그인 한 후 자세한 정보에 대 한 계정을 설정 하 라는 메시지가 표시 됩니다. **다음**을 클릭 합니다.
     
@@ -94,7 +94,7 @@ Microsoft 365 기업 테스트 환경에서 계정에 대 한 다단계 인증�
     
 8. 이것은 처음으로 하는 경우 귀하가 사용자 2 계정을 사용 하 여 메시지가 표시 되는 암호를 변경 해야 합니다. 원래 암호와 새 암호를을 두번 입력 하 고 **암호를 업데이트 하 고 로그인**을 클릭 합니다. 안전한 위치에 새 암호를 기록 합니다.
     
-    브라우저의 **Microsoft Office Home** 탭에는 Office 365 포털 사용자 2에 대 한 표시 됩니다.
+    사용자 2에 대 한 Office 포털 브라우저의 **Microsoft Office Home** 탭에 표시 됩니다.
 
 
 정보 및 프로덕션 환경에서 다단계 인증을 배포에 대 한 링크에 대 한 Identity 단계에서 [다단계 인증을 설정](identity-multi-factor-authentication.md) 하는 단계를 참조 하십시오.

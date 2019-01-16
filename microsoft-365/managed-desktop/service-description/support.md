@@ -5,17 +5,17 @@ keywords: Microsoft 관리 되는 데스크톱, Microsoft 365 서비스, 설명�
 ms.service: m365-md
 author: jdeckerms
 ms.localizationpriority: normal
-ms.date: 11/1/2018
-ms.openlocfilehash: 7e551e51c3ea972f69c24bcb1994e13f0f7342f0
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.date: 11/7/2018
+ms.openlocfilehash: d3c884d4e184bbe76ca630bfbe9d3a5dff1355d9
+ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/28/2018
+ms.lasthandoff: 01/16/2019
 ms.locfileid: "26870110"
 ---
 # <a name="support-for-microsoft-managed-desktop"></a>Microsoft Managed Desktop의 지원
 
-Microsoft 관리 되는 데스크톱 장치가 관리 하 고 됩니다 복구 또는 교체 필요할 때 microsoft 합니다. Microsoft는 사전 및 사후 사고 관리를 제공 합니다. Microsoft는 Microsoft 관리 되는 데스크톱 관리 포털에 사고를 추적합니다. 이러한 [심각도 정의](#severity-definitions)따라 분류 됩니다. 
+Microsoft 관리 되는 데스크톱 장치가 관리 하 고 됩니다 복구 또는 교체 microsoft 보증 계약에 따라 합니다. Microsoft는 사전 및 사후 사고 관리를 제공 합니다. Microsoft는 Microsoft 관리 되는 데스크톱 관리 포털에 사고를 추적합니다. 이러한 [심각도 정의](../working-with-managed-desktop/admin-support.md#sev)따라 분류 됩니다.
 
 고객에 대 한 Microsoft 관리 되는 데스크톱 작업 문의할 수 있습니다.
 - 서비스 테 넌 트 또는 구성으로 현대 직장에서 정보 요청
@@ -39,10 +39,10 @@ Microsoft 관리 되는 데스크톱 지원:
 
 세부 정보를 지원 합니다.
 
-- 현재 시간: 북미 및 영국만 (24 x 7 x 365) 
+- 현재 시간: 북미, 영국, 및 오스트레일리아만 (24 x 7 x 365) 
 - 영어는 고객과 전화 및 채팅 대화에 대 한 지원 되는 유일한 언어 
 - 우리는 관계를 맺은 바꾸지 않으려는 회사 기술 지원팀에 문의 합니다. 비즈니스 라인 lob (기간 업무) 응용 프로그램, 네트워크 리소스 등 기술 지원팀에 문의 하 여 여전히 처리 
-- 범위 바깥에 데스크톱을 관리 하는 타사 장치 
+- 범위 바깥에 테스트 연결 및 비-Microsoft 관리 되는 데스크톱 장치에 있는 Microsoft 관리 되는 장치 
 
 ## <a name="hardware-replacement"></a>하드웨어 교체
 

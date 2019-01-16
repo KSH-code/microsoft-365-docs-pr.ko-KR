@@ -14,10 +14,10 @@ ms.collection: Ent_O365
 ms.custom: Ent_Architecture
 description: '요약: Contoso에 대 한 SharePoint Online 사이트를 매우 구현 하는 방법의 연구 (영문) 간의 보다 쉽게 공동 작업에 대 한 규제 데이터 팀 합니다.'
 ms.openlocfilehash: 697ddb27b56fd529e9c73b89d9f07b8731ad76c3
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/28/2018
+ms.lasthandoff: 01/16/2019
 ms.locfileid: "26870310"
 ---
 # <a name="sharepoint-online-site-for-highly-confidential-digital-assets-of-the-contoso-corporation"></a>Contoso Corporation의 기밀 사항이 디지털 자산에 대 한 SharePoint Online 사이트

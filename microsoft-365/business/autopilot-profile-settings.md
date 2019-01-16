@@ -24,10 +24,10 @@ search.appverid:
 ms.assetid: 99bfbf81-e719-4630-9b0f-c187edfa1f8a
 description: 작업을 자동화할 프로필 사용자 장치에 Windows 가져옵니다 설치 하는 방법을 제어 하는데 도움이 됩니다. 프로필에 기본 포함과 설정 (옵션) Cortana 설치를 건너뜁니다.
 ms.openlocfilehash: 5440286f1363780c87ab60514584c4addfeea0b2
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/28/2018
+ms.lasthandoff: 01/16/2019
 ms.locfileid: "26869745"
 ---
 # <a name="about-autopilot-profile-settings"></a>AutoPilot 프로필 설정 정보

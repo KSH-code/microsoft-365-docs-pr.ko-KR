@@ -12,11 +12,11 @@ ms.collection: Ent_O365
 ms.custom: Ent_TLGs
 ms.assetid: 1aa9639b-2862-49c4-bc33-1586dda636b8
 description: Microsoft 365 Enterprise 테스트 환경을 추가 Office 365 보안 설정을 사용 하도록 설정 하려면이 테스트 랩 가이드를 사용 합니다.
-ms.openlocfilehash: 18e7b682d20c2212ae73783d668250d28b04075f
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: 62cf2347d3e003e9368c987912e7748029241501
+ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/28/2018
+ms.lasthandoff: 01/16/2019
 ms.locfileid: "26869986"
 ---
 # <a name="increased-office-365-security-for-your-microsoft-365-enterprise-test-environment"></a>Microsoft 365 Enterprise 테스트 환경에 대한 Office 365 보안 강화
@@ -46,7 +46,7 @@ ms.locfileid: "26869986"
 
 현대 인증을 지원 하지 않는 응용 프로그램 [id 및 장치에 대 한 액세스 구성](microsoft-365-policies-configurations.md) , 적용 된 Microsoft 365 구독 및 해당 디지털 자산을 보호의 중요 한 요소가 사용할 수 없습니다. 
 
-1. Office 365 포털에 이동 ([https://portal.office.com](https://portal.office.com)) 전역 관리자 계정 사용 하 여 Office 365 평가판 구독에 로그인 합니다.
+1. Office 포털에 이동 ([https://office.com](https://office.com)) 전역 관리자 계정 사용 하 여 Office 365 평가판 구독에 로그인 합니다.
     
   - 로컬 컴퓨터에서 간단한 Microsoft 365 테스트 환경을 사용 하는 경우에 로그인 합니다.
     
@@ -55,10 +55,10 @@ ms.locfileid: "26869986"
 2. **Microsoft 365 관리 센터** 탭에서 **관리**를 클릭 합니다.
 3. 새 **Microsoft 365 관리 센터** 탭을 클릭 **관리 센터 > SharePoint**합니다.
 4. 새 **SharePoint 관리 센터** 탭에서 **액세스 제어**를 클릭 합니다.
-5. **현대 인증을 지원 하지 않는 하는 응용 프로그램**클릭 **블록 > 확인**합니다.
+5. **현대 인증을 지원 하지 않는 하는 응용 프로그램** **블록**클릭 한 다음 **확인**을 클릭 합니다.
 
 
-### <a name="enable-advanced-threat-protection-atp-for-sharepoint-onedrive-and-microsoft-teams"></a>SharePoint, OneDrive 및 Microsoft 팀에 대 한 위협 보호 (ATP) 고급 사용
+### <a name="enable-advanced-threat-protection-for-sharepoint-onedrive-for-business-and-microsoft-teams"></a>위협 보호 고급 사용 불가능) 개발자를 위한 SharePoint, 비즈니스 및 Microsoft 팀의 비즈니스용 OneDrive
 
 Office 365 고급 위협 보호 (ATP) 기능의 Exchange Online Protection EOP ()는 데 도움이 되는 전자 메일에서 맬웨어를 유지 됩니다. ATP, Exchange 관리 센터 (EAC) 또는 보안 정책을 만들 & 사용자에 게 확인 하는 데 도움이 되는 준수 센터 링크 또는 하지 악의적으로 식별 되는 전자 메일에서 첨부 파일에 액세스 합니다. 자세한 내용은 [안전한 첨부 파일 및 안전 링크에 대 한 고급 위협 보호](https://docs.microsoft.com/office365/securitycompliance/office-365-atp)를 참조 하십시오.
 

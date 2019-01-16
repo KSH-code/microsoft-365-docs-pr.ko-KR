@@ -13,11 +13,11 @@ ms.custom:
 - TLG
 - Ent_TLGs
 description: Microsoft 365 기업 테스트 환경에서 전역 관리자 계정을 보호 하기 위해 다음이 단계를 사용 합니다.
-ms.openlocfilehash: 233e2178b060df4950c340e034d5f51216fac8fb
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: 4d444e217c5a232811701f6519c2eb3ebe86df70
+ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/28/2018
+ms.lasthandoff: 01/16/2019
 ms.locfileid: "26869742"
 ---
 # <a name="protect-global-administrator-accounts-in-your-microsoft-365-enterprise-test-environment"></a>전역 관리자 계정을 Microsoft 365 기업 테스트 환경에서 보호
@@ -48,7 +48,7 @@ ms.locfileid: "26869742"
 
 먼저, 전역 관리자 계정 활동을 모니터링 하 고 전역 관리자 계정의 전자 메일 주소로 경고를 보내도록 하는 Office 365 클라우드 응용 프로그램 보안 정책을 만듭니다. 
 
-1. Office 365 포털에 로그인 [http://portal.office.com](http://portal.office.com) 전역 관리자 계정을 사용 하 여 합니다.
+1. Office 포털에 로그인 [http://portal.office.com](http://portal.office.com) 전역 관리자 계정을 사용 하 여 합니다.
 2. **Admin** 타일을 클릭 합니다. **Office 관리 센터** 탭을 클릭 **관리 센터 > 보안 및 규정 준수**합니다.
 3. 왼쪽된 탐색 창의 클릭 **알림 > 고급 알림 관리**합니다.
 4. **고급 알림 관리** 페이지에서 **Office 365 클라우드 응용 프로그램 보안 설정**를 클릭 한 다음 **Office 365 클라우드 응용 프로그램 보안으로 이동**를 클릭 합니다.

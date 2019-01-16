@@ -10,10 +10,10 @@ ms.topic: article
 ms.date: 06/01/2018
 ms.author: josephd
 ms.openlocfilehash: 21a4198c688e1865a029f18ff3ceeb2155d419e4
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/28/2018
+ms.lasthandoff: 01/16/2019
 ms.locfileid: "26870253"
 ---
 # <a name="step-1-prepare-your-organization-for-windows-10-enterprise"></a>1 단계: Windows 10 Enterprise에 대 한 조직 준비
@@ -42,9 +42,9 @@ Microsoft 진단 데이터를 사용 하 여 Windows 장치 맬웨어 추세 및
 | 수준 | 수집 되는 데이터 | 값 |
 |:--- |:--- |:--- |
 | 보안 | 보안 데이터에만 해당 합니다. | 0 |
-| 기본 | 보안 데이터 및 기본 시스템 및 품질 데이터를 제공 합니다. | 1  |
-| 향상 된 | 보안 데이터, 기본 시스템 및 품질 데이터 및 향상 된 정보 및 고급 안정성 데이터입니다. | 2  |
-| Full | 보안 데이터, 기본 시스템 품질 데이터, 향상 된 정보 및 고급 안정성 데이터, 데이터 및 전체 진단 데이터입니다. | 3  |
+| 기본 | 보안 데이터 및 기본 시스템 및 품질 데이터를 제공 합니다. | 1 |
+| 향상 된 | 보안 데이터, 기본 시스템 및 품질 데이터 및 향상 된 정보 및 고급 안정성 데이터입니다. | 2 |
+| Full | 보안 데이터, 기본 시스템 품질 데이터, 향상 된 정보 및 고급 안정성 데이터, 데이터 및 전체 진단 데이터입니다. | 3 |
 
 이러한 방법 중 하나를 통해 진단 데이터를 설정할 수 있습니다.
 

@@ -3,14 +3,14 @@ title: Microsoft 관리 되는 데스크톱에 대 한 네트워크 구성
 description: ''
 keywords: Microsoft 관리 되는 데스크톱, Microsoft 365 서비스, 설명서
 ms.service: m365-md
-author: jdeckerms
+author: trudyha
 ms.localizationpriority: normal
 ms.date: 09/24/2018
-ms.openlocfilehash: 3eab9237b177ea76faa1296fec2bfda739c78534
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: 88f095706c82736d4c2ebc6a555aa3e384eeca09
+ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/28/2018
+ms.lasthandoff: 01/16/2019
 ms.locfileid: "26870274"
 ---
 #  <a name="network-configuration-for-microsoft-managed-desktop"></a>Microsoft 관리 되는 데스크톱에 대 한 네트워크 구성
@@ -45,7 +45,7 @@ Microsoft 서비스 | 설명서 소스-Url에 필요한 지 허용 목록
 비즈니스 (WUfB)에 대 한 Windows Update | [비즈니스 방화벽 및 프록시 요구 사항에 대 한 Windows Update](https://support.microsoft.com/help/3084568/can-t-download-updates-from-windows-update-from-behind-a-firewall-or-p)
 배달 최적화 | [Windows Update 프록시 요구 사항](https://support.microsoft.com/help/3175743/proxy-requirements-for-windows-update)
 비즈니스용 Microsoft Store | [Microsoft 저장소 허용 목록](https://support.microsoft.com/help/2778122/using-authenticated-proxy-servers-together-with-windows-8)
-Office 365 | [Office 365 URL 및 IP 주소 범위](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)
+Office 365 | [Office 365 URL 및 IP 주소 범위를](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges) 포함 한 \*. apibasic.diagnostics.office.com
 Azure Active Directory | [Active Directory 및 Active Directory 도메인 서비스 포트 요구 사항](https://aka.ms/AA26ygm) 및 [하이브리드 identity 필요한 포트 및 프로토콜](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-ports) 
 Microsoft Intune | [Intune 네트워크 구성 요구 사항](https://docs.microsoft.com/intune/network-bandwidth-use)
 비즈니스용 OneDrive <br> | [필요한 Url 및 OneDrive에 대 한 포트](https://docs.microsoft.com/onedrive/required-urls-and-ports)

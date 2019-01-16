@@ -18,10 +18,10 @@ search.appverid:
 ms.assetid: ed34fff3-2881-4ed4-9906-1ba6bb8dd804
 description: 자동으로 Windows 10 컴퓨터에 32 비트 Office 응용 프로그램을 설치 하 고 업데이트 상태를 유지 하는 방법에 알아봅니다.
 ms.openlocfilehash: 16a8230d60157f1c6731ac639d89533b05aa3afe
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/28/2018
+ms.lasthandoff: 01/16/2019
 ms.locfileid: "26869716"
 ---
 # <a name="prepare-for-office-client-deployment-by-microsoft-365-business"></a>Microsoft 365 Business를 사용한 Office 클라이언트 배포 준비

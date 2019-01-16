@@ -17,10 +17,10 @@ search.appverid:
 ms.assetid: bd66c26c-73a4-45a8-8642-3ea4ee7cd89d
 description: 기본 및 Windows 10 장치 보호 하기 위해 Microsoft 365 비즈니스에서 사용할 수 있는 기타 설정 하는 방법에 대 한 설명 합니다.
 ms.openlocfilehash: ebfe5f59e544b67e5a4f2ecd990031e9221ff8e5
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/28/2018
+ms.lasthandoff: 01/16/2019
 ms.locfileid: "26869715"
 ---
 # <a name="set-device-protection-settings-for-windows-10-pcs"></a>Windows 10 PC에서 장치 보호 설정 설정하기

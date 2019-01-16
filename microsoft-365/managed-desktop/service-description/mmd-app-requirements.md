@@ -5,12 +5,12 @@ keywords: Microsoft 관리 되는 데스크톱, Microsoft 365 서비스, 설명�
 ms.service: m365-md
 author: trudyha
 ms.localizationpriority: normal
-ms.date: 09/24/2018
-ms.openlocfilehash: 71952a8b073f002890cc95883e717aeb04c0cd68
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.date: 01/08/2019
+ms.openlocfilehash: 6b6c6f6a2e719496578ac1d15c9b94a92a2ab492
+ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/28/2018
+ms.lasthandoff: 01/16/2019
 ms.locfileid: "26869703"
 ---
 # <a name="microsoft-managed-desktop-app-requirements"></a>Microsoft 관리 되는 데스크톱 응용 프로그램 요구 사항
@@ -33,14 +33,19 @@ Microsoft 관리 되는 데스크톱 응용 프로그램을 배포 하려면 Int
 
 특정 응용 프로그램 종류는 Microsoft 관리 되는 데스크톱 장치에서 허용 되지 않습니다.
 - 바이러스 백신 제 3 자, 보안, 또는 감사 소프트웨어
+- 제 3 자 웹 브라우저
 - Office 365 Pro Plus 하기 전에 Microsoft Office의 버전
 - 응용 프로그램을 설치 하거나 다른 타사 소프트웨어 번들
 
 ## <a name="restricted-app-behaviors"></a>제한 된 응용 프로그램 동작
 
-특정 응용 프로그램 동작 될 수 있습니다 사용자 환경이 크게 저하 또는 데스크톱을 관리 하는 Microsoft 장치에 보안 위험이 초래 합니다. 응용 프로그램 특성에는 다음 동작을 나타내는 하지 항목과 같습니다. 
+특정 응용 프로그램 동작 사용자 환경이 크게 저하 될 수도 있고 Microsoft 관리 되는 데스크톱 장치에 보안 위험이 초래 수도 있습니다. 응용 프로그램 특성에는 다음 동작을 나타내는 하지 항목과 같습니다. 
+
+사용자 환경을 향상 시킵니다.
 - 백그라운드 서비스를 설치 또는 실행 시간이 긴 백그라운드 프로세스를 생성 합니다.
 - Windows 시작 경로에 추가 하는 자체
+
+보안:
 - 문서화 되지 않은 Windows 또는 Office Api를 호출 하거나 내부 Windows 또는 Office 데이터 구조에 의존 관계를 수행 합니다.
 - 응용 프로그램 저장소로 act 또는 기본 제공 확장 관리자가
 - 최종 사용자의 권한을 상승합니다

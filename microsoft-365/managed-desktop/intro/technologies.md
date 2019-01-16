@@ -3,14 +3,14 @@ title: 데스크톱을 관리 하는 Microsoft 기술
 description: 이 항목의 기술와 Microsoft 관리 되는 데스크톱에 사용 되는 응용 프로그램을 나열 합니다.
 keywords: Microsoft 관리 되는 데스크톱, Microsoft 365 서비스, 설명서
 ms.service: m365-md
-author: jdeckerms
+author: trudyha
 ms.localizationpriority: normal
 ms.date: 09/24/2018
-ms.openlocfilehash: da0268c6b0eddbd44cf62de2a95b963a443c3278
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: 4b26ec88e1f4ca95fee6f7c4c927fc06cab32135
+ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/28/2018
+ms.lasthandoff: 01/16/2019
 ms.locfileid: "26869924"
 ---
 # <a name="microsoft-managed-desktop-technologies"></a>데스크톱을 관리 하는 Microsoft 기술
@@ -38,7 +38,7 @@ Win32 응용 프로그램 |    Power BI Pro, Azure 정보를 보호 하는 클�
  |
  --- | ---
 자격 증명 Guard |  데스크톱을 관리 하는 Microsoft가 지침을 제공 하 고이 기능의 클라우드 측면을 관리
-장치 Guard (Windows Defender 응용 프로그램 제어)   | Microsoft 관리 되는 데스크톱 정책이 만들어집니다. 고객 서명 관리
+장치 Guard (Windows Defender 응용 프로그램 제어) | Microsoft 관리 되는 데스크톱 정책이 만들어집니다. 고객 서명 관리
 AppLocker 관리 |  Microsoft 관리 되는 데스크톱 정책이 만들어집니다. 고객 서명 관리
 응용 프로그램 가상화 (App-v) |    Microsoft 관리 되는 데스크톱 Intune에서 지원 되지 않습니다으로이 유형의 배포를 지원 하지 않습니다.
 사용자 환경 가상화 (사용자 교육-V) | 이 Microsoft에 관리 하는 바탕 화면을 관리 하는 장치는 사용 되지 않습니다.

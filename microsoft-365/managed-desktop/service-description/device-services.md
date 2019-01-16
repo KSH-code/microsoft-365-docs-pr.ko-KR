@@ -6,16 +6,16 @@ ms.service: m365-md
 author: jdeckerms
 ms.localizationpriority: normal
 ms.date: 09/24/2018
-ms.openlocfilehash: 579f7e5d257d399d803f57ad7f24dbc1242f3ddc
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: f83f3ce5e1abc3139a96ea27d7834a2546663e87
+ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/28/2018
+ms.lasthandoff: 01/16/2019
 ms.locfileid: "26870088"
 ---
 # <a name="microsoft-managed-desktop-device-services"></a>Microsoft Managed Desktop 장치 서비스
 
-이 항목에서는 설명 하는 서비스 및 Microsoft 관리 되는 데스크톱 장치에 대 한 서비스 제한 합니다. 자세한 내용은 
+이 항목에서는 설명 하는 서비스 및 Microsoft 관리 되는 데스크톱 장치에 대 한 서비스 제한 합니다.
 
 ## <a name="device-services"></a>장치 서비스
 

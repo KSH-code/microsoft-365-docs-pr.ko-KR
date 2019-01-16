@@ -12,11 +12,11 @@ ms.collection: Ent_O365
 ms.custom: Ent_TLGs
 ms.assetid: 49c7758a-1c01-4153-9b63-5eae3f6305ce
 description: 이 테스트 랩 가이드를 Microsoft 365 테스트 환경에서 장치를 등록 하 고 원격으로 관리 하기를 사용 합니다.
-ms.openlocfilehash: 98696104ee8453adb7449980cf439eeb152aeea9
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: a78db19099ccacd1b2f62e8438d1749f28d22f52
+ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/28/2018
+ms.lasthandoff: 01/16/2019
 ms.locfileid: "26869856"
 ---
 # <a name="enroll-ios-and-android-devices-in-your-microsoft-365-enterprise-test-environment"></a>Microsoft 365 Enterprise 테스트 환경에서 iOS 및 Android 장치 등록
@@ -76,7 +76,7 @@ IOS 또는 Android 장치를 원격으로 잠그려면:
 
 [Microsoft 365 Enterprise 테스트 랩 가이드](m365-enterprise-test-lab-guides.md)
   
-[Microsoft 365 Enterprise 테스트 환경용 MAM 정책](mam-policies-for-your-microsoft-365-enterprise-dev-test-environment.md)
+[Microsoft 365 기업에 대 한 규정 준수 정책 장치 테스트 환경](mam-policies-for-your-microsoft-365-enterprise-dev-test-environment.md)
   
 [Microsoft 365 Enterprise 배포](deploy-microsoft-365-enterprise.md)
 
