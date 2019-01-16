@@ -10,10 +10,10 @@ ms.topic: article
 ms.date: 06/01/2018
 ms.author: greglin
 ms.openlocfilehash: d051f9e56d8e9986fbe0975c2bdc6c606b32a444
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/28/2018
+ms.lasthandoff: 01/16/2019
 ms.locfileid: "26870359"
 ---
 # <a name="step-5-deploy-windows-10-enterprise-security-features"></a>5 단계: Windows 10 엔터프라이즈 보안 기능 배포
