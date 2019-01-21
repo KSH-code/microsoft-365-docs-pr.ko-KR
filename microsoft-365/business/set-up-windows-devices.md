@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 Business 사용자를 위한 Windows 장치 설정
+title: Microsoft 365 Business 사용자를 위해 Windows 장치 설정
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -15,15 +15,15 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 2d7ff45e-0da0-4caa-89a9-48cabf41f193
-description: 'Microsoft 365 비즈니스 사용자를 위한 Windows 10 Pro을 실행 하는 Windows 장치를 설정 하는 방법에 알아봅니다. '
+description: 'Microsoft 365 Business 사용자 Windows 10 Pro를 실행하는 Windows 장치를 설정하는 방법에 대해 알아보십시오. '
 ms.openlocfilehash: 482199b175c568bfae420619aa02024303894789
 ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
-ms.translationtype: MT
+ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 01/16/2019
 ms.locfileid: "26869932"
 ---
-# <a name="set-up-windows-devices-for-microsoft-365-business-users"></a>Microsoft 365 Business 사용자를 위한 Windows 장치 설정
+# <a name="set-up-windows-devices-for-microsoft-365-business-users"></a>Microsoft 365 Business 사용자를 위해 Windows 장치 설정
 
 ## <a name="prerequisites"></a>필수 구성 요소
 
@@ -39,7 +39,7 @@ Windows 장치를 Windows 10 Pro 크리에이터 업데이트로 업그레이드
 
 조직의 모든 Windows 장치가 Windows 10 Pro 크리에이터 업데이트로 업그레이드되었거나 이미 Windows 10 Pro 크리에이터 업데이트를 실행하고 있는 경우 장치를 조직의 Azure Active Directory에 연결할 수 있습니다. 장치가 연결되면 자동으로 Microsoft 365 Business 구독의 일부인 Windows 10 Business로 장치가 업그레이드됩니다.
   
-### <a name="for-a-brand-new-or-newly-upgraded-windows-10-pro-device"></a>새로운 Windows 10 Pro 장치 또는 새로 업그레이드된 장치
+### <a name="for-a-brand-new-or-newly-upgraded-windows-10-pro-device"></a>최신 또는 새로 업그레이드된 Windows 10 Pro 장치의 경우
 
 Windows 10 Pro 크리에이터 업데이트를 실행하는 새로운 장치 또는 Windows 10 Pro 크리에이터 업데이트로 업그레이드했지만 Windows 10 장치 설정을 완료하지 않은 장치의 경우 다음 단계를 따르세요.
   
@@ -53,7 +53,7 @@ Windows 10 Pro 크리에이터 업데이트를 실행하는 새로운 장치 또
     
    설정을 완료하면 사용자가 조직의 Azure AD에 연결됩니다. [장치가 Azure AD에 연결되었는지 확인](set-up-windows-devices.md#bkmk_verifyaad)을 참조하여 연결을 확인하세요. 
   
-### <a name="for-a-device-already-set-up-and-running-windows-10-pro"></a>이미 설정되었으며 Windows 10 Pro를 실행하는 장치
+### <a name="for-a-device-already-set-up-and-running-windows-10-pro"></a>Windows 10 Pro를 이미 설치하여 운영 중인 장치의 경우
 
  **Azure AD에 사용자 연결:**
   
@@ -73,13 +73,13 @@ Windows 10 Pro 크리에이터 업데이트를 실행하는 새로운 장치 또
   
    ![Click Join this device to Azure Active Directory](media/fb709a1b-05a9-4750-9cb9-e097f4412cba.png)
   
-5. **로그인 하면 하기** 페이지에서 작업이 나 교육용 계정 입력 \> **다음**합니다.
+5. **로그인 시작** 페이지에 회사 또는 학교 계정을 입력합니다 \> **다음**.
   
-   **암호 입력** 페이지에서 암호를 입력 \> **에 로그인**합니다.
+   **암호 입력** 페이지에서 암호를 입력합니다 \> **로그인**.
   
    ![Enter your work or school email on the Let's get you signed in page](media/f70eb148-b1d2-4ba3-be38-7317eaf0321a.png)
   
-6. 에 * *이 조직 있는지 확인 * * 페이지 정보가 올바른지 확인 하 고 **참가**클릭 합니다.
+6. * * 조직 확인 * * 페이지에서 정보가 올바른지 확인하고 **참가**를 클릭합니다.
   
    **완료되었습니다!** 페이지에서 **완료**를 클릭합니다.
   
@@ -89,17 +89,17 @@ Windows 10 Pro 크리에이터 업데이트를 실행하는 새로운 장치 또
   
 ## <a name="verify-the-device-is-connected-to-azure-ad"></a>장치가 Azure AD에 연결되었는지 확인
 
-**설정** **대 한 액세스 작업 또는 학교** 페이지에서 사용자의 동기화 상태를 확인 하려면 클릭 **에 연결 됨** _에서 \<조직 이름\> **정보** 및 **연결 해제**단추를 공개 하려면 _ 영역입니다. 동기화 상태를 가져오려면 **정보** 클릭 합니다. 
+동기화 상태를 확인하려면 **설정**의 **회사 또는 학교 액세스** 페이지에서 \<조직 이름\> _ **에 연결** _ 영역에서 클릭하여 **정보** 및 **연결 해제** 버튼을 표시합니다. **정보**를 클릭해 동기화 상태를 확인합니다. 
   
-동기화 상태 페이지에서 동기화를 클릭하여 PC에 최신 모바일 장치 관리 정책을 받습니다.
+동기화 상태 페이지에서 동기화를 클릭하여 최신 모바일 장치 관리 정책을 PC로 이동합니다.
   
 Microsoft 365 Business 계정을 사용하려면 Windows **시작** 단추로 이동하여 현재 계정 사진을 마우스 오른쪽 단추로 클릭한 다음 **계정 전환**을 클릭합니다. 조직 전자 메일 및 암호를 사용하여 로그인합니다.
   
-![Click Info button to view synchronization status](media/818f7043-adbf-402a-844a-59d50034911d.png)
+![동기화 상태를 보려면 정보 버튼을 클릭합니다.](media/818f7043-adbf-402a-844a-59d50034911d.png)
   
-## <a name="verify-the-device-is-upgraded-to-windows-10-business"></a>장치가 Windows 10 Business로 업그레이드되었는지 확인
+## <a name="verify-the-device-is-upgraded-to-windows-10-business"></a>장치가 Windows 10 Business로 업그레이드 되었는지 확인
 
-Azure AD에 연결된 Windows 10 장치가 Microsoft 365 Business 구독의 일부인 Windows 10 Business로 업그레이드되었는지 확인하세요.
+Azure AD에 연결된 Windows 10 장치가 Microsoft 365 Business 구독의 일부로서 Windows 10 Business로 업그레이드 되었는지 확인합니다.
   
 1. **설정** \> **시스템** \> **정보**로 이동합니다.
     
