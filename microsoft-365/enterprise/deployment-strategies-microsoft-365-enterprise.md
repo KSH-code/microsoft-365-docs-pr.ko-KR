@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Microsoft 365 Enterprise 기본 인프라의 단계를 배포하는 몇 가지 방법을 알아봅니다.
-ms.openlocfilehash: 5ffe00c9eb975a0f8c2d193a71d8b613e827cc70
-ms.sourcegitcommit: f2eae6ec367f7b69043105d117a2a7e3da4153aa
+ms.openlocfilehash: 909526fb4938c8da142b4f667140f10dda660877
+ms.sourcegitcommit: 6f94b7a272e33c492957336eae28f439e438c85b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2019
-ms.locfileid: "29538965"
+ms.lasthandoff: 02/13/2019
+ms.locfileid: "29993239"
 ---
 # <a name="microsoft-365-enterprise-foundation-infrastructure-deployment-strategies"></a>Microsoft 365 Enterprise 기본 인프라 배포 전략
 
@@ -53,7 +53,7 @@ IT 인프라에는 백엔드 서비스, 그리고 최종 사용자를 대상으�
 
 ![](./media/deployment-strategies-microsoft-365-enterprise/definitions.png) 
 
-사용자 롤아웃 그림에서는 그룹, 부서, 지역과 같은 체계적인 기준을 바탕으로 0%부터 100%까지 조직 롤아웃이 이루어지는 과정이 음영으로 표현된 것을 볼 수 있습니다.
+사용자 롤아웃 그래픽의 음영은 그룹, 부서, 지역과 같은 체계적인 기준을 바탕으로 0%부터 100%까지 조직의 백분율을 나타냅니다.
 
 ## <a name="deployment-strategies"></a>배포 전략
 
