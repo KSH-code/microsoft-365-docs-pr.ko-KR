@@ -6,12 +6,12 @@ ms.service: m365-md
 author: trudyha
 ms.localizationpriority: normal
 ms.date: 2/14/2019
-ms.openlocfilehash: 54d986f37b3981200bdead30a2c232143b9dd49d
-ms.sourcegitcommit: 59bc66eaa2575bad8ecb34d45b1172cda23a729b
+ms.openlocfilehash: 64560a1eb597072dd99c1538b0131e3cd807899c
+ms.sourcegitcommit: 1942a860d1b65e1f8062564ec4703b953e0c2fd7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30051089"
+ms.lasthandoff: 02/20/2019
+ms.locfileid: "30122248"
 ---
 # <a name="configurable-settings---microsoft-managed-desktop"></a>구성 가능 설정-Microsoft Managed Desktop
 
@@ -64,7 +64,7 @@ Microsoft Managed Desktop admin 포털에서 변경 사항을 구성 하 고 준
 - **진행 상황 관리** -변경 내용을 배포한 후 상태를 추적 합니다. 상태가 **진행**중으로 변경 되 고 **완료**되거나 **실패**합니다. 배포에 실패 하면 문제를 조사 하기 위해 Microsoft Managed Desktop 작업에 대 한 지원 요청이 자동으로 열립니다.  
 - **배포 된 버전 확인** -각 배포 되는 변경 내용에 버전 번호가 있습니다.
 - **변경 내용 되돌리기** -변경 내용을 되돌리면 현재 배포가 중지 되 고 모든 링이 모든 링에 배포 된 마지막 변경 내용으로 되돌아갑니다. 마지막으로 성공한 설정 값으로 롤백하는 중입니다.
-- **validatie cahnges** -배포가 완료 된 후 변경 내용이 예상 대로 적용 되었는지 확인 합니다.  
+- **변경 내용 유효성 검사** -배포가 완료 된 후 변경 내용이 예상 대로 적용 되었는지 확인 합니다.  
 
 배포에 실패 했거나 변경 내용을 되돌릴 수 없는 경우 Microsoft Managed Desktop 작업을 사용 하 여 [지원 요청을 엽니다](admin-support.md) . 
 
