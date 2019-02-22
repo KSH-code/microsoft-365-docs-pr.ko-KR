@@ -5,13 +5,13 @@ keywords: microsoft Managed Desktop, microsoft 365, 서비스, 설명서, 배포
 ms.service: m365-md
 author: trudyha
 ms.localizationpriority: normal
-ms.date: 2/12/2019
-ms.openlocfilehash: fd0e0750332fa8f650cfc4756f8eb108be2a71df
-ms.sourcegitcommit: 59bc66eaa2575bad8ecb34d45b1172cda23a729b
+ms.date: 2/17/2019
+ms.openlocfilehash: d6e669ecb2e00158dd3ce6712014244fa2f081c9
+ms.sourcegitcommit: b838e1dc7a98fcce1bdf7b76173f5f04f16be703
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30051129"
+ms.lasthandoff: 02/21/2019
+ms.locfileid: "30175780"
 ---
 # <a name="deploy-and-track-configurable-settings---microsoft-managed-desktop"></a>구성 가능한 설정 배포 및 추적-Microsoft Managed Desktop
 
@@ -24,9 +24,9 @@ ms.locfileid: "30051129"
 상태  | 설명 
 --- | --- 
 배포 | 변경 내용이이 링으로 배포 되기를 기다리는 중입니다.
-진행 중 | 변경 내용이이 링의 장치에 적용 됩니다. 
-전체 | 변경 내용이이 링의 장치에 적용 됩니다. 
-Failed | 링에서 10%의 장치를 변경 하지 못했으므로 배포가 중지 되었습니다.<br><br> 배포 문제를 해결 하기 위해 Microsoft Managed Desktop 작업을 사용 하 여 지원 요청이 자동으로 열립니다. 
+진행 중 | 변경 내용이이 링의 활성 장치에 적용 됩니다. 
+전체 | 이 링의 모든 활성 장치에서 변경 내용이 완료 되었습니다. 
+Failed | 링에서 활성 장치의 10%가 변경 되지 않아 배포가 중지 되었습니다.<br><br> 배포 문제를 해결 하기 위해 Microsoft Managed Desktop 작업을 사용 하 여 지원 요청이 자동으로 열립니다. 
 되돌아갑니다 | 모든 배포 링에 성공적으로 배포 된 마지막 변경 내용으로 변경 내용을 되돌렸습니다.
 
 ## <a name="deploy-changes"></a>변경 내용 배포
