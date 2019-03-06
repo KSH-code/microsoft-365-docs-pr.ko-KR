@@ -6,12 +6,13 @@ ms.service: m365-md
 author: trudyha
 ms.localizationpriority: normal
 ms.date: 2/17/2019
-ms.openlocfilehash: d6e669ecb2e00158dd3ce6712014244fa2f081c9
-ms.sourcegitcommit: b838e1dc7a98fcce1bdf7b76173f5f04f16be703
+ms.collection: M365-modern-desktop
+ms.openlocfilehash: 62a17c95f5dc6b11f446a27684c507d7aaa95b7b
+ms.sourcegitcommit: 8d2e6bcc257a665f53ee914c7f0e1dfb9d31a9e0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2019
-ms.locfileid: "30175780"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "30414173"
 ---
 # <a name="deploy-and-track-configurable-settings---microsoft-managed-desktop"></a>구성 가능한 설정 배포 및 추적-Microsoft Managed Desktop
 
@@ -25,7 +26,7 @@ ms.locfileid: "30175780"
 --- | --- 
 배포 | 변경 내용이이 링으로 배포 되기를 기다리는 중입니다.
 진행 중 | 변경 내용이이 링의 활성 장치에 적용 됩니다. 
-전체 | 이 링의 모든 활성 장치에서 변경 내용이 완료 되었습니다. 
+작업이 | 이 링의 모든 활성 장치에서 변경 내용이 완료 되었습니다. 
 Failed | 링에서 활성 장치의 10%가 변경 되지 않아 배포가 중지 되었습니다.<br><br> 배포 문제를 해결 하기 위해 Microsoft Managed Desktop 작업을 사용 하 여 지원 요청이 자동으로 열립니다. 
 되돌아갑니다 | 모든 배포 링에 성공적으로 배포 된 마지막 변경 내용으로 변경 내용을 되돌렸습니다.
 

@@ -6,12 +6,13 @@ ms.service: m365-md
 author: trudyha
 ms.localizationpriority: normal
 ms.date: 2/14/2019
-ms.openlocfilehash: 1f0301f8660fd7ff60bd347d0d7b88c629d79453
-ms.sourcegitcommit: 59bc66eaa2575bad8ecb34d45b1172cda23a729b
+ms.collection: M365-modern-desktop
+ms.openlocfilehash: 8839be023844ae4de17972790ec9d02b82c75244
+ms.sourcegitcommit: 8d2e6bcc257a665f53ee914c7f0e1dfb9d31a9e0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/14/2019
-ms.locfileid: "30051099"
+ms.lasthandoff: 03/06/2019
+ms.locfileid: "30414196"
 ---
 # <a name="configurable-settings-reference---microsoft-managed-desktop"></a>구성 가능한 설정 참조-Microsoft Managed Desktop
 
@@ -115,7 +116,7 @@ https://위치를 지정 하거나 엔터프라이즈 모드 사이트 목록을
 5. 삭제 하려는 각 신뢰할 수 있는 사이트에 대해 1-4 단계를 반복 합니다. 
 6. **단계 배포** 를 선택 하 여 변경 내용을 저장 하 고 테스트 링에 배포 합니다.
 
-## <a name="proxy"></a>프록시
+## <a name="proxy"></a>프록시와
 조직에 대 한 네트워크 프록시 설정을 관리할 수 있습니다. 프록시 서버 및 포트 번호를 추가한 다음 프록시 사이트 예외를 추가 합니다. Microsoft Managed Desktop에는 서비스가 작동 하는 데 필요한 기본 프록시 예외 집합이 포함 되어 있습니다. 기본 제외 목록은 Microsoft Managed Desktop service를 통해서만 수정할 수 있습니다.  자세한 내용은 [Microsoft Managed Desktop의 네트워크 구성을](../get-ready/network.md)참조 하세요. 
 
 microsoft managed desktop portal에서 추가 하는 프록시 사이트 예외는 microsoft managed desktop service에 포함 된 기본 프록시 예외에 추가 됩니다. 
