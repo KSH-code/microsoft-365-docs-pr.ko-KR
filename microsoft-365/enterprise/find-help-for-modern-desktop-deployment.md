@@ -1,5 +1,5 @@
 ---
-title: 최신 데스크톱 배포에 대한 도움말 찾기
+title: Windows 10 및 Office 365 ProPlus 배포를 위한 도움말 찾기
 ms.author: jogruszc
 author: JGruszczyk
 manager: jemed
@@ -12,19 +12,19 @@ ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 ms.custom: ''
-description: 여기에서 최신 데스크톱 배포에 대한 도움말을 찾을 수 있습니다.
-ms.openlocfilehash: 7c6f68320165abdfd131a84e84345bd6ff6d47c1
-ms.sourcegitcommit: 73fb9a7cf1b7b1045a304391ed393acb7b909317
+description: Windows 10 및 Office 365 ProPlus 배포를 위한 도움말 및 지원을 여기에서 찾을 수 있습니다.
+ms.openlocfilehash: 78d231dbcb5f965e2b4233bc7980da31fbfcbc2e
+ms.sourcegitcommit: d38c0ce846bac19e876a03a59ed4f268c7bae389
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/13/2018
-ms.locfileid: "27241971"
+ms.lasthandoff: 03/27/2019
+ms.locfileid: "30900257"
 ---
-# <a name="find-help-for-your-modern-desktop-deployment"></a>최신 데스크톱 배포에 대한 도움말 찾기 
+# <a name="find-help-for-your-windows-10-and-office-365-proplus-deployment"></a>Windows 10 및 Office 365 ProPlus 배포를 위한 도움말 찾기 
 
 Office 365 ProPlus를 사용하여 Windows 10 배포를 계획하는 경우 인증 받은 Microsoft 파트너 및 [Microsoft FastTrack](https://www.microsoft.com/fasttrack)에서 여러 가지 옵션을 통해 추가적인 도움을 얻을 수 있습니다.
 
-아래는 기존 파트너 및 FastTrack 제품과 함께 Windows 10, Office 365 ProPlus 및 Enterprise Mobility + Security의 [Modern Desktop Deployment](http://www.aka.ms/howtoshift) 프로세스에 정렬된 사용 가능한 서비스 맵입니다. 대부분의 경우 이러한 서비스는 Microsoft 365, Office 365 또는 Windows 10 Enterprise에 대한 정품 인증 구독에 포함되어 있습니다. Modern Desktop Assessment와 같은 파트너가 정품 인증을 받은 조직으로서 제공하는 서비스의 경우 Microsoft는 파트너가 수행하는 서비스에 대해 상품권을 제공합니다. 다음 링크에서 각 상품권에 대한 세부 정보를 볼 수 있습니다.
+아래는 Windows 10, Office 365 ProPlus 및 기존 파트너와 FastTrack 제품이 포함된 Enterprise Mobility + Security를 위한 [데스크톱 배포](http://www.aka.ms/howtoshift) 프로세스에 정렬된 사용 가능한 서비스 맵입니다. 대부분의 경우 이 서비스는 적격한 Microsoft 365, Office 365 또는 Windows 10 Enterprise 구독에 포함됩니다. Windows 10 및 Office 365 ProPlus 데스크톱 평가와 같이 파트너가 이끄는 서비스의 경우 Microsoft는 적격한 조직으로서 파트너가 수행하는 서비스를 이용할 수 있는 바우처를 제공합니다. 아래 링크에서 각 제품의 세부 정보를 확인할 수 있습니다.
 
 <br>
 
@@ -104,8 +104,8 @@ Office 365 ProPlus를 사용하여 Windows 10 배포를 계획하는 경우 인�
 
 ## <a name="related-resources"></a>**관련 리소스**
 
-  - [최신 데스크톱 배포 센터](http://www.aka.ms/howtoshift)
+  - [데스크톱 배포 센터](http://www.aka.ms/howtoshift)
 
-  - [Microsoft Mechanics의 최신 데스크톱 배포 시리즈 비디오](http://www.aka.ms/watchhowtoshift)
+  - [Microsoft Mechanics의 데스크톱 배포 시리즈 비디오](http://www.aka.ms/watchhowtoshift)
 
-  - [최신 데스크톱 배포 및 관리 랩 키트](https://aka.ms/howtoshiftlabs)
+  - [데스크톱 배포 및 관리 랩 키트](https://aka.ms/howtoshiftlabs)
