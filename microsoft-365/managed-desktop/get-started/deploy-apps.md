@@ -5,14 +5,13 @@ keywords: microsoft Managed Desktop, microsoft 365, 서비스, 설명서, 앱, l
 ms.service: m365-md
 author: trudyha
 ms.localizationpriority: normal
-ms.date: 01/17/2019
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: febb3198c434e638f83c412a3f8a3b688d9f5bd1
-ms.sourcegitcommit: 8d2e6bcc257a665f53ee914c7f0e1dfb9d31a9e0
+ms.openlocfilehash: 5ccb240460958d5978f4fd19e08652123790784e
+ms.sourcegitcommit: 2211f57c268754d242d6331c188143f818f5a9f4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/06/2019
-ms.locfileid: "30414174"
+ms.lasthandoff: 04/02/2019
+ms.locfileid: "31039597"
 ---
 # <a name="deploy-apps-to-microsoft-managed-desktop-devices"></a>Microsoft Managed Desktop 장치에 앱 배포
 Microsoft Managed Desktop 온 보 딩에는 사용자의 장치에 앱을 추가 및 배포 하는 작업이 포함 됩니다. Microsoft Managed Desktop portal을 사용 하 고 나면 앱을 추가 및 배포할 수 있습니다. 
