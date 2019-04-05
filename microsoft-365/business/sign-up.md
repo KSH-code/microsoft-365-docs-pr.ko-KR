@@ -18,12 +18,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Microsoft 365 Business에 대해 구입 하 고 등록 하는 방법을 알아봅니다.
-ms.openlocfilehash: 136ccc0d769a24b767101e1e8eb50261d4816f15
-ms.sourcegitcommit: 07f9eeb20b80573361e4d93b45acb68151a9e881
+ms.openlocfilehash: ce12c872e8cc30ece9e59aaf8c5b5d7c86694df2
+ms.sourcegitcommit: bbb32d1601f87dc72bebd00fad36d760ca233cd7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/27/2019
-ms.locfileid: "30933253"
+ms.lasthandoff: 04/05/2019
+ms.locfileid: "31477709"
 ---
 # <a name="sign-up-for-microsoft-365-business"></a>Microsoft 365 Business에 등록
 
@@ -31,23 +31,26 @@ ms.locfileid: "30933253"
 
 [microsoft 365 business 혜택 검색](https://www.microsoft.com/microsoft-365/business#pmg-cmp-desktop) 으로 이동 하 여 microsoft 365 business에서 **지금 구입** 을 선택 합니다.
 
-1. 시작 화면에서 필요한 정보를 입력 **하 라고 알려주십시오** . 참고 
+1. 시작 화면에서 필요한 정보를 입력 **하 라고 알려주십시오** . 다음 사항에 유의 하십시오.
  
-    -  선택한 **국가** 에 따라 가져올 서비스가 결정 되며 나중에 변경할 수는 없습니다.
-    - **회사 전자 메일 주소** 는 귀하에 게 구독에 대 한 서신 사용자를 전송 하는 데 사용 되는 전자 메일입니다.
-    - **회사 이름은** 관리 센터에 표시 되 고 모든 SharePoint 사이트 url에 사용 됩니다.
+    -  **국가 또는 지역:** 이는 수신 하는 서비스를 결정 하며 나중에 변경할 수 없습니다.
+    - **회사 전자 메일 주소:** 현재 전자 메일 주소를 입력 합니다. microsoft는 microsoft 365 구독과 관련 하 여이 주소를 사용 합니다.
+    - **회사 이름** 회사 이름은 관리 센터에 표시 됩니다. 여기에서 Microsoft 365 사용자, 라이선스 등을 관리할 수 있습니다. 여기에는 SharePoint 사이트 url에도 포함 됩니다.
 
-2. **사용자 ID 만들기** 페이지에서 로그인 하는 데 사용할 별칭을 입력 하 고, @ 기호 다음에 도메인 이름을 지정한 다음 드롭다운에서 도메인을 선택 합니다. 이를 사용 하 여 도메인을 구입 하 고 드롭다운에서 확장명을 선택할 수 있습니다 (예: *Teresa@ContosoSkis.net* 을 입력 하 고 마법사가 도메인을 사용할 수 있는지 확인 하 고 Microsoft 365 비즈니스 비용에 비용을 추가 합니다. 새 도메인도 함께 설정 되며 여기에서 구매할 경우 사용할 준비가 된 것입니다.
+2. **사용자 ID 만들기** 페이지에서 다음을 수행 합니다.
 
-    기존 도메인을 사용 하려는 경우 드롭다운에서 *onmicrosoft.com* 을 선택 하 고 나중에 관리 센터에서 설정할 수 있습니다.
+    - **사용자 이름**: 회사 전자 메일에 사용할 이름 (별칭 이라고 함)을 입력 합니다. 예를 들어 Robert 젊은은 roby RobYoung을 work 별칭으로 사용할 수 있습니다.
+    - **회사**: 고유한 비즈니스 이름을 입력 합니다. 회사 웹 사이트에 사용 되는 이름으로, 회사 전자 메일을 받을 때 @ 기호 뒤에 포함할 이름 이기도 합니다. 이 이름을 도메인 이라고 합니다. 예를 들어 비즈니스가 Contoso 스키 이라고 하는 경우에는 @ 기호 다음에 ContosoSkis를 입력 합니다.
+    - **도메인 선택**: 도메인 이름을 이미 소유한 경우 onmicrosoft.com을 선택 하 고 나중에 설정 하 라는 메시지가 표시 됩니다. 그렇지 않으면 비즈니스를 나타내는 도메인 이름을 쉽게 구매할 수 있습니다. 이렇게 하려면 드롭다운 메뉴에서 원하는 도메인을 선택 합니다. 예를 들어 전체 전자 메일 주소는 *Teresa@ContosoSkis.net*입니다. 도메인 이름을 사용할 수 있으면 바로 알 수 있습니다. 이 경우 Microsoft 365 비즈니스 구독의 비용에 도메인 비용을 추가 합니다. 여기에서 구입 하는 경우 새 도메인도 설정 되 고 Microsoft 365에서 사용할 준비가 된 것입니다.
     
     ![사용자 ID 만들기 페이지의 스크린샷](media/signinuserid.png)
 
 3. 나머지 필드에 내용을 입력 하 고 **내 계정 만들기**를 선택 합니다.
 4. 인지를 **입증 합니다. Not'A 로봇** 페이지 전화 번호를 입력 하 여 텍스트 또는 통화를 통해 코드를 받고, **텍스트 me** 를 선택 하거나 **전화를 걸어** \> **다음**확인 코드를 입력 합니다.
-5. 에서이 페이지를 **사용 하** 여 회사 주소를 입력 합니다. 이 정보는 세금 및 구독 가용성을 확인 하는 데 사용 됩니다. **다음**을 선택 하 고 주문을 검토 한 후 **다음** 을 다시 선택 합니다.
-6. **어떻게 결제** 하 시겠습니까? 페이지에서 결제 정보를 입력 한 다음 **주문을**합니다.
-    그런 다음 [관리 센터로](https://go.microsoft.com/fwlink/p/?linkid=837890) 이동 하 여 [설정을](set-up.md)완료할 수 있습니다.
+5. 어디에서 **이** n을 사용할 예정 입니까? 이 정보는 지불 하는 세금 및 사용 가능한 구독을 결정 합니다. 세금에 대 한 자세한 내용은 [어떤 세금을 부과할 것인가?](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/what-tax-will-i-be-charged?view=o365-worldwide) 를 참조 하세요. 
+1. **다음**을 선택 하 고 주문을 검토 한 후 **다음** 을 다시 선택 합니다.
+1. **어떻게 결제** 하 시겠습니까? 페이지에서 결제 정보를 입력 한 다음 **주문을**합니다.
+    그런 다음 [관리 센터로](https://docs.microsoft.com/en-us/office365/admin/subscriptions-and-billing/what-tax-will-i-be-charged?view=o365-worldwide) 이동 하 여 [설정을](set-up.md)완료할 수 있습니다.
 
     > [!NOTE]
-    > 설치 종료 시 링크를 선택한 후 관리 센터로 이동 하면 [설정](set-up.md) 환경으로 바로 이동할 수 있습니다.
+    > 설치 종료 시 링크를 선택한 후 **관리 센터로 이동**하면 [설정](set-up.md) 환경으로 바로 이동할 수 있습니다.
