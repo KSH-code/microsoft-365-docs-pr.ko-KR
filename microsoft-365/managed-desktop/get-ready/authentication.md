@@ -6,16 +6,16 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 2317a0581b356dadbde2042920ed2542f0e2203c
-ms.sourcegitcommit: 392b906e64d27366b47931e8285b625e5e2f884e
+ms.openlocfilehash: c4ebe0c7ad3d1e197cf90cc975366df61d3b0cb5
+ms.sourcegitcommit: db52a11eb192a28dbec827c565e36ad4a81d8e3f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/12/2019
-ms.locfileid: "31838169"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "31901212"
 ---
 #  <a name="prepare-on-premises-resources-access-for-microsoft-managed-desktop"></a>Microsoft Managed Desktop에 대 한 온-프레미스 리소스 액세스 준비
 
-Microsoft Managed Desktop에서 디바이스는 Azure Active Directory에 자동으로 연결 됩니다. 즉, 온-프레미스 active directory를 사용 하는 경우 Azure AD에 연결 된 장치가 온-프레미스 active directory와 통신할 수 있는지 몇 가지 사항을 확인 해야 합니다. 
+Microsoft Managed Desktop에서 장치는 azure Active Directory (azure AD)에 자동으로 연결 됩니다. 즉, 온-프레미스 active directory를 사용 하는 경우 Azure AD에 연결 된 장치가 온-프레미스 active directory와 통신할 수 있는지 몇 가지 사항을 확인 해야 합니다. 
 
 > [!NOTE]  
 > *하이브리드* Azure AD 조인은 Microsoft Managed Desktop에서 지원 되지 않습니다.
@@ -32,20 +32,20 @@ azure Active Directory에 가입 하는 방법에 대 한 자세한 내용은 [�
 
 Microsoft Managed Desktop 장치에서 UPN 및 암호를 사용 하 여 sso (Single sign-on)를 기본적으로 사용 하도록 설정 합니다. 그러나 사용자는 비즈니스용 Windows Hello를 사용할 수 있으며,이 경우 몇 가지 추가 설정 단계가 필요 합니다. 
 
-### <a name="single-sign-on-by-using-upn-and-passwords"></a>UPN 및 암호를 사용 하 여 Single sign-on
+### <a name="single-sign-on-by-using-upn-and-password"></a>UPN 및 암호를 사용 하 여 Single sign-on
 
 대부분의 조직에서는 사용자가 SSO를 사용 하 여 Microsoft Managed Desktop 장치에서 UPN 및 암호를 통해 인증을 받을 수 있습니다. 그러나이 작업을 제대로 수행 하려면 다음을 두 번 확인 해야 합니다.
 
-- AAD (Azure Active directory) 연결이 설정 되어 있으며 Windows server 2008 R2 이상 버전을 실행 하는 온-프레미스 Active directory 서버를 사용 하는지 확인 합니다.
-- AAD 연결이 지원 되는 버전을 실행 하 고 있으며 이러한 세 가지 특성을 Azure AD와 동기화 하도록 설정 되어 있는지 확인 합니다. 
+- Azure AD Connect가 설정 되었으며 Windows server 2008 R2 이상 버전을 실행 하는 온-프레미스 Active Directory 서버를 사용 하는지 확인 합니다.
+- azure ad Connect가 지원 되는 버전을 실행 하 고 있으며 이러한 세 가지 특성을 Azure ad와 동기화 하도록 설정 되어 있는지 확인 합니다. 
     - 온-프레미스 Active Directory의 DNS 도메인 이름 (최종 사용자가 있는 경우)
-    - yor 온-프레미스 Active Directory의 NetBIOS (최종 사용자가 있는 경우)
+    - 온-프레미스 Active Directory의 NetBIOS (최종 사용자가 있는 위치)
     - SAM 사용자의 계정 이름
 
 
 ### <a name="single-sign-on-by-using-windows-hello-for-business"></a>비즈니스용 Windows Hello를 사용 하 여 Single sign-on
 
-또한 Microsoft Managed Desktop 장치는 비즈니스용 Windows Hello를 채택 하 여 빠르고, 암호를 덜 제공 합니다. 사용자가 UPN 및 암호를 제공 하지 않고 비즈니스용 Windows hello가 작동 하는지 확인 하려면 [비즈니스용 windows hello를 사용 하 여 온-프레미스 Single sign-on에 대해 Azure AD 조인 장치를 구성](https://docs.microsoft.com/windows/security/identity-protection/hello-for-business/hello-hybrid-aadj-sso-base) 하 여 요구 사항을 확인 한 다음 단계를 제공 합니다.
+또한 Microsoft Managed Desktop 장치는 비즈니스용 Windows Hello를 채택 하 여 빠르고, 암호를 덜 제공 합니다. 사용자가 각 UPN과 암호를 제공 하지 않아도 비즈니스용 Windows hello가 작동 하는지 확인 하려면 [비즈니스용 windows hello를 사용 하 여 온-프레미스 Single sign-on에 대해 Azure AD 조인 장치를 구성](https://docs.microsoft.com/windows/security/identity-protection/hello-for-business/hello-hybrid-aadj-sso-base) 하 여 요구 사항을 확인 한 다음 여기에 나와 있는 단계를 따르세요.
 
 
 ## <a name="apps-and-resources-that-use-authentication"></a>인증을 사용 하는 앱 및 리소스
