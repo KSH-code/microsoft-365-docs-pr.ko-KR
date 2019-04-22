@@ -3,7 +3,7 @@ title: Microsoft 365 테스트 환경을 위한 암호 쓰기 저장
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 11/20/2018
+ms.date: 04/16/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -16,32 +16,32 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: ''
 description: '요약: Microsoft 365 테스트 환경을 위한 암호 쓰기 저장을 구성합니다.'
-ms.openlocfilehash: 6dada4734798d0e30b50e271520742f3b170ebaf
-ms.sourcegitcommit: aba6d1b81e4c579e82e6fad90daec65d775b450a
+ms.openlocfilehash: 11a0efbae09c36098a19725187cd43b53850f4fc
+ms.sourcegitcommit: db52a11eb192a28dbec827c565e36ad4a81d8e3f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/14/2019
-ms.locfileid: "30573432"
+ms.lasthandoff: 04/17/2019
+ms.locfileid: "31901222"
 ---
 # <a name="password-writeback-for-your-microsoft-365-test-environment"></a>Microsoft 365 테스트 환경을 위한 암호 쓰기 저장
 
-암호 쓰기 저장은 Azure AD(Azure Active Directory)를 통해 자신의 암호를 업데이트하도록 허용합니다. 이는 로컬 AD DS(Active Directory Domain Services)에 복제됩니다. 암호 쓰기 저장을 사용하면 사용자가 원래 사용자 계정이 저장된 온-프레미스 Windows Server AD를 통해 암호를 업데이트할 필요가 없습니다. 이는 온-프레미스 네트워크에 대한 원격 액세스 연결이 없는 로밍 또는 원격 사용자에게 도움이 됩니다.
+암호 쓰기 저장은 Azure AD(Azure Active Directory)를 통해 자신의 암호를 업데이트하도록 허용합니다. 이는 로컬 AD DS(Active Directory Domain Services)에 복제됩니다. 암호 쓰기 저장을 사용하면 사용자가 원래 사용자 계정이 저장된 온-프레미스 AD DS(Active Directory Domain Services)를 통해 암호를 업데이트할 필요가 없습니다. 이는 온-프레미스 네트워크에 대한 원격 액세스 연결이 없는 로밍 또는 원격 사용자에게 도움이 됩니다.
 
 이 문서에서는 암호 쓰기 저장에 대해 Microsoft 365 테스트 환경을 구성하는 방법을 설명합니다.
 
 이러한 기능을 설정하는 과정은 다음 두 단계로 진행됩니다.
 
 1.  암호 해시 동기화로 시뮬레이트된 Microsoft 365 엔터프라이즈 테스트 환경을 만듭니다.
-2.  테스트 랩 Windows Server AD 도메인에 대한 암호 쓰기 저장을 사용하도록 설정합니다.
+2.  테스트 랩 AD DS 도메인에 대한 암호 쓰기 저장을 사용하도록 설정합니다.
     
 ![Microsoft 클라우드의 테스트 랩 가이드](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
     
 > [!TIP]
 > [여기](https://aka.ms/m365etlgstack)를 클릭하여 Microsoft 365 Enterprise 테스트 랩 가이드 스택의 모든 문서에 대한 가상 맵을 확인할 수 있습니다.
   
-## <a name="phase-1-configure-password-hash-synchronization-for-your-microsoft-365-test-environment"></a>1단계: Microsoft 365 테스트 환경을 위한 암호 해시 동기화 구성
+## <a name="phase-1-configure-password-hash-synchronization-and-password-reset-for-your-microsoft-365-test-environment"></a>1단계: Microsoft 365 테스트 환경을 위한 암호 해시 동기화 및 암호 다시 설정 구성
 
-[Microsoft 365에 대한 암호 해시 동기화](password-hash-sync-m365-ent-test-environment.md) 지침을 따릅니다. 결과 구성은 다음과 같습니다.
+먼저 [암호 해시 동기화](password-hash-sync-m365-ent-test-environment.md) 지침을 따릅니다. 결과 구성은 다음과 같습니다.
   
 ![암호 해시 동기화 테스트 환경으로 시뮬레이트된 엔터프라이즈](media/pass-through-auth-m365-ent-test-environment/Phase1.png)
   
@@ -49,9 +49,13 @@ ms.locfileid: "30573432"
   
 - Office 365 E5 및 EMS E5 평가판 또는 유료 구독
 - 인터넷에 연결된 간소화된 조직 인트라넷: Azure Virtual Network 서브넷에 있는 DC1, APP1 및 CLIENT1 가상 머신으로 구성됩니다. 
-- Azure AD Connect는 테스트 랩 Windows Server AD 도메인을 Office 365 및 EMS E5 구독의 Azure AD 테넌트와 동기화하기 위해 APP1에서 실행됩니다.
+- Azure AD Connect는 테스트 랩 AD DS 도메인을 Office 365 및 EMS E5 구독의 Azure AD 테넌트와 동기화하기 위해 APP1에서 실행됩니다.
 
-## <a name="phase-2-enable-password-writeback-for-the-testlab-windows-server-ad-domain"></a>2단계: 테스트 랩 Windows Server AD 도메인에 대한 암호 쓰기 저장을 사용하도록 설정합니다.
+다음으로 [암호 다시 설정 2단계](password-reset-m365-ent-test-environment.md#phase-2-configure-and-test-password-reset) 테스트 랩 가이드의 지침을 따릅니다.
+
+암호 쓰기 저장을 사용하려면 암호를 다시 설정할 수 있도록 설정해야 합니다.
+
+## <a name="phase-2-enable-password-writeback-for-the-testlab-ad-ds-domain"></a>2단계: 테스트랩 AD DS 도메인에 대한 암호 쓰기 저장을 사용하도록 설정
 
 먼저 User 1 계정이 전역 관리자 역할을 가지도록 구성합니다.
 
@@ -65,7 +69,7 @@ ms.locfileid: "30573432"
 
 5. user1의 **사용자 역할 편집** 창에서 **전역 관리자**를 클릭합니다. **저장**을 클릭한 다음 **닫기**를 클릭합니다.
 
-다음으로, 사용자 1 계정을 테스트 랩 Windows Server AD 도메인의 다른 사용자를 대신하여 암호를 변경할 수 있는 보안 설정으로 구성합니다.
+다음으로, 사용자 1 계정을 테스트 랩 AD DS 도메인의 다른 사용자를 대신하여 암호를 변경할 수 있는 보안 설정으로 구성합니다.
 
 1. [Azure Portal](https://portal.azure.com)에서 전역 관리자 계정으로 로그인한 후 TESTLAB\User1 계정을 사용하여 APP1에 연결합니다.
 
@@ -126,7 +130,7 @@ ms.locfileid: "30573432"
 
 - Office 365 E5 및 EMS E5 평가판 또는 DNS 도메인 TESTLAB.\<도메인 이름>이 등록된 유료 구독
 - 인터넷에 연결된 간소화된 조직 인트라넷: Azure Virtual Network 서브넷에 있는 DC1, APP1 및 CLIENT1 가상 머신으로 구성됩니다. 
-- Azure AD Connect는 Office 365 및 EMS E5 구독의 Azure AD 테넌트에 있는 계정 및 그룹 목록을 테스트 랩 Windows Server AD 도메인과 동기화하기 위해 APP1에서 실행됩니다. 
+- Azure AD Connect는 Office 365 및 EMS E5 구독의 Azure AD 테넌트에 있는 계정 및 그룹 목록을 테스트 랩 AD DS 도메인과 동기화하기 위해 APP1에서 실행됩니다. 
 - 암호 쓰기 저장 기능은 사용자가 간소화된 인트라넷에 연결하지 않고도 Azure AD를 통해 암호를 변경할 수 있도록 합니다.
 
 프로덕션 환경에서 암호 업데이트를 구성하기 위한 정보 및 단계에 대해서는 ID 단계의 [암호 쓰기 저장 간소화](identity-password-reset.md#identity-pw-writeback) 단계를 참조하세요.
