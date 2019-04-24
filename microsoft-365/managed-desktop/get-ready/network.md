@@ -1,57 +1,63 @@
 ---
-title: Microsoft 관리 되는 데스크톱에 대 한 네트워크 구성
+title: Microsoft Managed Desktop에 대 한 네트워크 구성
 description: ''
-keywords: Microsoft 관리 되는 데스크톱, Microsoft 365 서비스, 설명서
+keywords: microsoft Managed Desktop, microsoft 365, 서비스, 설명서
 ms.service: m365-md
 author: trudyha
 ms.localizationpriority: normal
 ms.date: 09/24/2018
-ms.openlocfilehash: 88f095706c82736d4c2ebc6a555aa3e384eeca09
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+ms.collection: M365-modern-desktop
+ms.openlocfilehash: f4cfaffe25638de80d23c3e681e50cbb544ca961
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26870274"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32289103"
 ---
-#  <a name="network-configuration-for-microsoft-managed-desktop"></a>Microsoft 관리 되는 데스크톱에 대 한 네트워크 구성
+#  <a name="network-configuration-for-microsoft-managed-desktop"></a>Microsoft Managed Desktop에 대 한 네트워크 구성
 
 <!--Proxy config -->
 
 
 ## <a name="proxy-configuration"></a>프록시 구성
 
-데스크톱을 관리 하는 Microsoft 클라우드 관리 되는 서비스입니다. 데스크톱을 관리 하는 Microsoft 서비스에 연결할 수 있어야 하는 끝점의 집합이 있습니다. 프록시 또는 방화벽을 설정 하는 고객, 보안상의 이유로 특정 도메인에서 네트워크 트래픽을 허용 합니다. 이 섹션에서는 허용 하는 끝점을 보여줍니다. 
+Microsoft Managed Desktop은 클라우드 관리 서비스입니다. Microsoft Managed Desktop 서비스가 연결할 수 있어야 하는 끝점 집합이 있습니다. 이 섹션에는 Microsoft Managed Desktop service의 다양 한 측면에서 허용 해야 하는 끝점이 나열 되어 있습니다. 
+
+고객은 모든 신뢰할 수 있는 Microsoft 365 네트워크 요청을 방화벽/프록시를 통해 직접 보내거나 인증을 우회 하 고 모든 추가 패킷 수준 검사 또는 처리를 수행 하 여 네트워크를 최적화 합니다. 이렇게 하면 대기 시간 및 경계 용량 요구 사항이 줄어듭니다. 
+
+또한 Microsoft Managed Desktop 클라우드 기반 서비스에 대 한 성능을 최적화 하기 위해 이러한 끝점에는 고객 클라이언트 브라우저 및 해당에 지 네트워크의 장치에서 특별 하 게 처리 해야 합니다. 이러한 장치에는 방화벽, SSL 중단 및 검사, 패킷 검사 장치 및 데이터 손실 방지 시스템이 포함 됩니다.
 
 ### <a name="proxy-requirement"></a>프록시 요구 사항
 
-프록시 또는 방화벽 TLS 1.2를 지원 해야 합니다. 그렇지 않은 경우 프로토콜 검색을 사용 하지 않도록 설정 해야할 수도 있습니다.
+프록시 또는 방화벽은 TLS 1.2를 지원 해야 합니다. 그렇지 않으면 고객이 프로토콜 검색을 사용 하지 않도록 설정할 수 있습니다.
 
-### <a name="endpoints-allowed---specific-for-microsoft-managed-desktop"></a>허용 되는 끝점-Microsoft 관리 되는 데스크톱에 대 한 특정
+### <a name="endpoints-allowed---specific-for-microsoft-managed-desktop"></a>허용 되는 Microsoft Managed Desktop에 관련 된 끝점
 
-Microsoft 관리 되는 데스크톱 장치는 Microsoft 서비스와 통신할 수 있도록 허용된 목록에 있는 것으로 이러한 Url 요구 합니다.
+Microsoft Managed Desktop은 Azure Portal을 사용 하 여 웹 콘솔을 호스팅합니다. microsoft 관리 되는 데스크톱 장치가 microsoft 서비스와 통신할 수 있도록 아래 표에 나와 있는 다음 url을 프록시 및 방화벽의 허용 목록에 두어야 합니다.  
 
-Microsoft 서비스  | Url에 필요한 지 허용 목록 
+아래의 Microsoft Managed Desktop URL은 고객 API에서 서비스가 실행 되는 모든 용도로 사용 됩니다. 고객은 회사 네트워크에서이 URL에 항상 액세스할 수 있도록 해야 합니다.
+
+Microsoft 서비스  | 허용 목록에 필요한 url 
 --- | --- | ---
-도움말 보기 | \*. support.services.microsoft.com  <br>inprod.support.services.microsoft.com  <br>supportchannels.services.microsoft.com  <br>graph.windows.net  <br>login.windows.net  <br>프로덕션-mwaas-서비스-customerapi.azurewebsites.net
-빠른 지원을 | remoteassistance.support.services.microsoft.com <br>relay.support.services.microsoft.com <br>channelwebsdks.azureedge.net  <br>web.vortex.data.microsoft.com  <br>gateway.channelservices.microsoft.com <br>\*. lync.com
+Microsoft Managed Desktop | prod-mwaas-services-customerapi.azurewebsites.net
+도움말 보기 | \*. support.services.microsoft.com  <br>inprod.support.services.microsoft.com  <br>supportchannels.services.microsoft.com  <br>graph.windows.net  <br>login.windows.net  <br>prod-mwaas-services-customerapi.azurewebsites.net
+빠른 지원 | remoteassistance.support.services.microsoft.com <br>relay.support.services.microsoft.com <br>channelwebsdks.azureedge.net  <br>web.vortex.data.microsoft.com  <br>gateway.channelservices.microsoft.com <br>\*. lync.com
+Office 365에 대 한 Microsoft 지원 및 복구 도우미 | \*. apibasic.diagnostics.office.com  <br>\*. api.diagnostics.office.com
  
 
-### <a name="endpoints-allowed---other-microsoft-products"></a>허용 되는 끝점-다른 Microsoft 제품
+### <a name="endpoints-allowed---other-microsoft-products"></a>끝점 허용-기타 Microsoft 제품
 
-Microsoft 관리 되는 데스크톱 장치 이러한 Microsoft 서비스와 통신할 수 있도록 허용된 목록에 되어야 하는 여러 Microsoft 제품에서 Url 있습니다. 각 제품에 대 한 전체 목록을 보려면에 링크를 사용 합니다. 
+microsoft 관리 되는 데스크톱 장치가 해당 microsoft 서비스와 통신할 수 있도록 몇 가지 microsoft 제품의 url이 허용 목록에 있어야 합니다. 각 제품에 대 한 전체 목록을 보려면 링크를 사용 합니다. 
 
-Microsoft 서비스 | 설명서 소스-Url에 필요한 지 허용 목록
+Microsoft 서비스 | 설명서 원본-허용 목록에 필요한 url
 --- | ---
-비즈니스 (WUfB)에 대 한 Windows Update | [비즈니스 방화벽 및 프록시 요구 사항에 대 한 Windows Update](https://support.microsoft.com/help/3084568/can-t-download-updates-from-windows-update-from-behind-a-firewall-or-p)
-배달 최적화 | [Windows Update 프록시 요구 사항](https://support.microsoft.com/help/3175743/proxy-requirements-for-windows-update)
-비즈니스용 Microsoft Store | [Microsoft 저장소 허용 목록](https://support.microsoft.com/help/2778122/using-authenticated-proxy-servers-together-with-windows-8)
-Office 365 | [Office 365 URL 및 IP 주소 범위를](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges) 포함 한 \*. apibasic.diagnostics.office.com
-Azure Active Directory | [Active Directory 및 Active Directory 도메인 서비스 포트 요구 사항](https://aka.ms/AA26ygm) 및 [하이브리드 identity 필요한 포트 및 프로토콜](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-ports) 
+비즈니스용 windows 업데이트를 포함 하는 windows 10 Enterprise | [Windows 10의 연결 끝점 관리, 버전 1803](https://docs.microsoft.com/windows/privacy/manage-windows-1803-endpoints)<br><br>[Windows 10의 연결 끝점 관리, 버전 1809](https://docs.microsoft.com/windows/privacy/manage-windows-1809-endpoints)
+배달 최적화 | [Windows 10 업데이트에 대 한 배달 최적화 구성](https://docs.microsoft.com/windows/deployment/update/waas-delivery-optimization)
+Office 365 | [Office 365 URL 및 IP 주소 범위](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)
+Azure Active Directory | [하이브리드 id 필수 포트 및 프로토콜](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-ports) , [active directory 및 active directory 도메인 서비스 포트 요구 사항](https://aka.ms/AA26ygm) 
 Microsoft Intune | [Intune 네트워크 구성 요구 사항](https://docs.microsoft.com/intune/network-bandwidth-use)
-비즈니스용 OneDrive <br> | [필요한 Url 및 OneDrive에 대 한 포트](https://docs.microsoft.com/onedrive/required-urls-and-ports)
-Windows Defender 고급 위협 보호 ATP) | [Windows Defender ATP 끝점](https://docs.microsoft.com/en-us/windows/security/threat-protection/windows-defender-atp/configure-server-endpoints-windows-defender-advanced-threat-protection)
-SharePoint Online  | [Microsoft Teams](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges#bkmk_teams)
-Power BI | [OneNote](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)
+Windows Defender ATP (Advanced Threat Protection) | [Windows Defender ATP 끝점] (https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/configure-proxy-internet-windows-defender-advanced-threat-protection#enable-access-to-windows-defender-atp-service-urls-in-the-proxy-server
+)
 
 <!---
 Microsoft service  | URLs required on allow list | Documentation source

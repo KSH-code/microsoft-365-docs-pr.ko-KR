@@ -3,22 +3,22 @@ title: '4단계: Office 365에 대한 권한이 부여된 액세스 관리 구�
 ms.author: robmazz
 author: robmazz
 manager: laurawi
-ms.date: 9/19/2018
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
-localization_priority: Priority
+localization_priority: Normal
 ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
+- M365-security-compliance
 ms.custom: ''
 description: Office 365에 대한 권한이 부여된 액세스 관리를 이해하고 구성합니다.
-ms.openlocfilehash: 0de9e5cd602a48f31f48618026b0564146a57d73
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
-ms.translationtype: HT
+ms.openlocfilehash: 297d8e042c2a22c93b4ea566081d258e7ca0a5ab
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26869891"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32286951"
 ---
 # <a name="step-4-configure-privileged-access-management-for-office-365"></a>4단계: Office 365에 대한 권한이 부여된 액세스 관리 구성
 

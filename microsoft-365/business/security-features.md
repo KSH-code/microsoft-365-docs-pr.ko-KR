@@ -7,6 +7,9 @@ ms.audience: Admin
 ms.topic: reference
 ms.service: o365-administration
 localization_priority: Normal
+ms.collection:
+- M365-subscription-management
+- M365-security-compliance
 ms.custom:
 - Core_O365Admin_Migration
 - MiniMaven
@@ -16,12 +19,12 @@ search.appverid:
 - MET150
 ms.assetid: c123694a-1efb-459e-a8d5-2187975373dc
 description: Microsoft 365 Business에 제공되는 보안 기능에 대해 알아봅니다.
-ms.openlocfilehash: bfddb419dbe5db441741a73ecb49e3d52649e382
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
-ms.translationtype: HT
+ms.openlocfilehash: 24d4c4e79e7d8737beb82336796956774f127209
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26870031"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32286890"
 ---
 # <a name="microsoft-365-business-security-features"></a>Microsoft 365 Business 보안 기능
 
@@ -45,7 +48,7 @@ Microsoft 365 Business는 PC, 휴대폰 및 태블릿의 데이터를 보호하�
     
     [BitLocker](https://go.microsoft.com/fwlink/p/?linkid=871405) 암호화를 사용하도록 설정하여 디바이스를 분실하거나 도난당한 경우 데이터를 보호하고, [Windows Exploit Guard](https://go.microsoft.com/fwlink/p/?linkid=871404)를 사용하도록 설정하여 랜섬웨어에 대한 고급 보호 기능을 제공할 수 있습니다. 
     
-- [디바이스에서 회사 데이터 제거](remove-company-data.md)
+- [장치에서 회사 데이터 제거](remove-company-data.md)
     
     디바이스를 분실하거나 도난당한 경우 또는 직원이 퇴사하는 경우 회사 데이터를 원격으로 지울 수 있습니다.
     
@@ -57,7 +60,7 @@ Microsoft 365 Business는 PC, 휴대폰 및 태블릿의 데이터를 보호하�
 
 Microsoft 365 Business의 고급 기능을 사용하여 사이버 위협으로부터 비즈니스를 보호하고 중요한 정보를 보호할 수 있습니다.
   
-- **[Office 365 고급 위협 방지](https://support.office.com/article/e100fe7c-f2a1-4b7d-9e08-622330b83653)**
+- **[Office 365 Advanced Threat Protection](https://support.office.com/article/e100fe7c-f2a1-4b7d-9e08-622330b83653)**
     
     ATP(Advanced Threat Protection)는 직원이나 고객 정보를 손상시키도록 설계된 정교한 피싱 및 랜섬웨어 공격으로부터 비즈니스를 보호할 수 있도록 합니다.기능은 다음과 같습니다.
     
@@ -130,9 +133,7 @@ AIP(Azure Information Protection)는 조직에서 레이블을 적용하여 해�
 
 AIP가 활성화되었는지 확인하려면
 
-1. [Azure Active Directory 관리 센터](https://portal.azure.com/)에 로그인합니다.
-
-    관리 센터의 왼쪽 탐색 영역에서 **관리 센터** \> **Azure Active Directory**를 찾아 로그인할 수도 있습니다.
+1. [Azure Portal](https://portal.azure.com/)에 로그인합니다.
 
 2. **모든 서비스**를 선택하고 **검색 상자**에 *Azure Information Protection*을 입력합니다.
 
@@ -144,7 +145,7 @@ AIP가 활성화되었는지 확인하려면
 
 기존 레이블을 보고 수정하려면
 
-1. Azure Information Protection 대시보드에서 **분류** \> **레이블을 선택합니다. <br/>![Azure Information Protection의 표준 레이블](media/AIPLabels.png)
+1. Azure Information Protection 대시보드에서 **분류** \> **레이블**을 선택합니다. <br/>![Azure Information Protection의 표준 레이블](media/AIPLabels.png)
 
 2. 옵션을 보려면 아무 레이블이나 선택합니다. 표시 이름, 색 등을 변경할 수 있습니다.
  
@@ -159,6 +160,16 @@ AIP 클라이언트를 수동으로 설치하려면
 2. Word 문서를 보고 **홈** 탭에서 **보호** 옵션을 사용할 수 있는지 확인하여 설치가 제대로 되었는지 확인할 수 있습니다. <br/>![Word 문서의 보호 탭 드롭다운](media/Word_Protect.png)
 
 자세한 내용은 [클라이언트 설치](https://docs.microsoft.com/azure/information-protection/infoprotect-tutorial-step3)를 참조하세요.
+
+## <a name="go-to-intune-admin-center"></a>Intune 관리 센터로 이동합니다.
+
+1. [Azure Portal](https://portal.azure.com/)에 로그인합니다.
+
+2. **모든 서비스**를 선택하고 **검색 상자**에 *Intune*을 입력합니다.
+
+3. 결과가 표시되면 **Microsoft Intune** 옆에 있는 시작을 클릭하여 즐겨찾기로 지정하고 나중에 쉽게 찾을 수 있습니다.
+ 
+Intune을 사용하여 조직의 장치를 등록하고 관리할 수 있습니다. 자세한 내용은 [Windows 장치 등록 방법의 기능](https://docs.microsoft.com/intune/enrollment-method-capabs) 및 [Intune에서 관리하는 장치의 등록 옵션](https://docs.microsoft.com/intune/enrollment-options)을 참조하십시오.
     
 ## <a name="faq"></a>FAQ
 
@@ -174,15 +185,4 @@ AIP 클라이언트를 수동으로 설치하려면
     
     ![Microsoft 365 관리 센터의 왼쪽 탐색 창에서 관리 센터를 선택합니다.](media/fa4484f8-c637-45fd-a7bd-bdb3abfd6c03.png)
   
-3. **보안 및 준수**를 선택하여 보안 및 준수 센터로 이동합니다. 
-    
- ### <a name="how-do-i-find-the-intune-admin-center"></a>Intune 관리 센터는 어떻게 찾을 수 있나요?
-  
-  
-1. 관리자 자격 증명을 사용하여 [Microsoft 365 Business에 로그인](https://portal.microsoft.com/)합니다. 
-    
-2. 왼쪽 탐색 창에서 **관리 센터**를 찾아 확장합니다. 
-    
-3. **Intune**을 선택하여 Intune 관리 센터로 이동합니다. 
-    
-
+3. **보안 및 준수**를 선택하여 보안 및 준수 센터로 이동합니다.

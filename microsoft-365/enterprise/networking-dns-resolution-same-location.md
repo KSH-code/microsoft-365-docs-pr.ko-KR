@@ -9,16 +9,16 @@ ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
 ms.collection:
-- Ent_O365
+- M365-subscription-management
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 성능 향상을 위해 DNS 확인을 이해하고 구성합니다.
-ms.openlocfilehash: 9ccd5c477b4aeda8e7dcf482cc09c8a357f19f40
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: 6f276bd1fd90b8dee76a0b0d350f256956ded412
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26869736"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291133"
 ---
 # <a name="step-2-configure-local-internet-connections-for-each-office"></a>2단계: 각 사무실에 대해 로컬 인터넷 연결 구성
 
@@ -26,11 +26,11 @@ ms.locfileid: "26869736"
 
 ![](./media/deploy-foundation-infrastructure/networking_icon-small.png)
 
-2단계에서는 각 사무실이 로컬 인터넷 연결이 설정되고 로컬 DNS 서버를 사용하고 있어야 합니다. 이러한 요소 중 두 가지가 모두를 높이고 연결 대기 시간을 줄이고 온-프레미스 클라이언트 컴퓨터가 Microsoft 365 클라우드 기반 서비스의 가장 가까운 입력 지점에 연결되어 있도록 하려면 이러한 두 요소가 모두 필요합니다.
+2단계에서는 각 사무실에 로컬 인터넷 연결이 설정되고 로컬 DNS 서버를 사용하고 있어야 합니다.연결 대기 시간을 줄이고 온-프레미스 클라이언트 컴퓨터가 Microsoft 365 클라우드 기반 서비스의 가장 가까운 입력 지점에 연결되어 있도록 하려면 이러한 두 요소가 모두 필요합니다.
 
 대규모 조직에 대한 기존 네트워크에서 인터넷 트래픽은 네트워크 백본을 거쳐 중앙 인터넷 연결로 이동합니다. 이러한 방식은 Microsoft 365에서 Office 365 및 EMS(Enterprise Mobility + Security) 제품을 포함하는 전역 분산 SaaS(Software-as-a-Service) 인프라에 대한 성능을 최적화하는 데는 적절하지 않습니다.
 
-Microsoft 전역 네트워크에는 전 세계 Microsoft 365의 클라우드 서비스 집합에 대한 프런트 엔드 서버가 포함되어 있습니다. 최상의 성능을 위해 온-프레미스 클라이언트는 네트워크 백본을 통해 조직의 중앙 인터넷 연결에 가장 가까운 프런트 엔드 서버로 트래픽을 전송하기보다, 지리적을 가장 가까운 프런트 엔드 서버에 액세스해야 합니다.
+Microsoft 전역 네트워크에는 전 세계 Microsoft 365의 클라우드 서비스 집합에 대한 프런트 엔드 서버가 포함되어 있습니다. 최상의 성능을 위해서는 온-프레미스 클라이언트가 네트워크 백본을 통해 조직의 중앙 인터넷 연결에 가장 가까운 프런트 엔드 서버로 트래픽을 전송하기보다는 지리적으로 가장 가까운 프런트 엔드 서버에 액세스해야 합니다.
 
 클라이언트 요청을 지리적으로 가장 가까운 프런트 엔드 서버로 보내기 위해 Microsoft DNS 서버는 클라이언트의 초기 연결 요청에 해당하는 DNS 쿼리를 사용합니다. 따라서 네트워크 대기 시간을 최소화하기 위해 다음이 필요합니다.
 

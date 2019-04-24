@@ -1,138 +1,139 @@
 ---
-title: 전체 업그레이드로 기존 장치에 대 한 Windows 10 엔터프라이즈 배포
-description: 구성 및 System Center Configuration Manager를 사용 하 여 전체 업그레이드로 Windows 10 Enterprise 이미지를 배포에 대 한 지침을 제공 합니다.
-keywords: Microsoft 365, Microsoft 365 Enterprise Microsoft 365 설명서, Windows 10 엔터프라이즈 배포 전체 업그레이드, Configuration Manager System Center Configuration Manager
+title: 현재 위치 업그레이드로 기존 장치에 대 한 Windows 10 Enterprise 배포
+description: Windows 10 Enterprise 이미지를 현재 위치 업그레이드로 System Center Configuration Manager를 사용 하 여 구성 및 배포 하는 방법에 대해 설명 합니다.
+keywords: microsoft 365, microsoft 365 enterprise, microsoft 365 설명서, Windows 10 Enterprise, 배포, 현재 위치 업그레이드, 구성 관리자, System Center configuration manager
 author: greg-lindsay
 localization_priority: Normal
+ms.collection: M365-modern-desktop
 audience: microsoft-business
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 ms.date: 08/30/2018
 ms.author: greglin
-ms.openlocfilehash: 3df76c0de7b5a8b12c063113c79f9efa4e33b4c1
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+ms.openlocfilehash: 31650774a784f1fe784c30b90bc1f9ae579b34fa
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26870241"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291615"
 ---
-# <a name="step-2-deploy-windows-10-enterprise-for-existing-devices-as-an-in-place-upgrade"></a>2 단계: 전체 업그레이드로 기존 장치에 대 한 Windows 10 엔터프라이즈 배포
+# <a name="step-2-deploy-windows-10-enterprise-for-existing-devices-as-an-in-place-upgrade"></a>2 단계: 현재 위치 업그레이드로 기존 장치에 대 한 Windows 10 Enterprise 배포
 
-*Microsoft 365 Enterprise의 E3와 e 5 버전에 적용 하는이 문서*
+*이 문서는 Microsoft 365 Enterprise E3 및 E5 버전에 모두 적용 됩니다.*
 
 ![](./media/deploy-foundation-infrastructure/win10enterprise_icon-small.png)
 
-현재 Windows 10 Windows 7 또는 Windows 8.1 실행 하는 Pc를 업그레이드 하는 전체 업그레이드를 통해의 가장 간단한 경로가 합니다. 완전히 프로세스를 자동화 하는 System Center Configuration Manager (Configuration Manager) 작업 시퀀스를 사용할 수 있습니다. 
+현재 windows 7 또는 windows 8.1를 실행 하는 pc를 windows 10으로 업그레이드 하는 가장 간단한 경로는 전체 업그레이드를 사용 하는 것입니다. System Center configuration manager (configuration manager) 작업 시퀀스를 사용 하 여 프로세스를 완벽 하 게 자동화할 수 있습니다. 
 
-Windows 7 또는 Windows 8.1 실행 하는 기존 컴퓨터에 있는 조직 Windows 10을 배포 하는 경우이 경로 권장 합니다. Windows 설치 프로그램 (Setup.exe) 모든 데이터, 설정, 응용 프로그램을 자동으로 보존, 전체 업그레이드를 수행 하 고 기존 운영 체제 버전에서 만든 드라이버를 활용 합니다. 이 경우 모든 복잡 한 배포 인프라가 필요 하지 않으므로 최소한의 IT 작업을 해야 합니다.
+windows 7 또는 windows 8.1을 실행 하는 기존 컴퓨터가 있는 경우 조직에서 windows 10을 배포 하는 경우이 경로를 권장 합니다. 이렇게 하면 Windows 설치 프로그램 (setup.exe)을 활용 하 여 기존 운영 체제 버전에서 모든 데이터, 설정, 응용 프로그램 및 드라이버를 자동으로 보존 하는 전체 업그레이드를 수행할 수 있습니다. 이렇게 하면 복잡 한 배포 인프라가 필요 하지 않으므로 최소한의 IT 노력이 필요 합니다.
 
-구성 및 Configuration Manager를 사용 하 여 전체 업그레이드로 Windows 10 Enterprise 이미지를 배포 하려면 다음이 단계를 수행 합니다.
+다음 단계에 따라 구성 관리자를 사용 하 여 Windows 10 Enterprise 이미지를 현재 위치 업그레이드로 구성 하 고 배포 합니다.
 
-## <a name="part-1-verify-readiness-to-upgrade-windows"></a>1 부: Windows를 업그레이드할 준비 상태 확인
+## <a name="part-1-verify-readiness-to-upgrade-windows"></a>1 부: Windows 업그레이드 준비 상태 확인
 
-Windows 분석의 업그레이드 준비 상태 기능을 사용 하면 먼저 강력한 인 사이트와 컴퓨터, 응용 프로그램 및 조직 전체에서 아니요에 드라이버에 대 한 권장 사항을 제공 추가 비용 및 추가 인프라 요구 사항입니다. 이 새로운 서비스는 Microsoft 권장 되는 정보를 기반으로 워크플로 사용 하 여 업데이트 프로젝트를 업그레이드 하 고 기능을 안내 합니다. 최신 인벤토리 데이터를 분산 비용 및 업그레이드 프로젝트의 위험에 있습니다.
+먼저, Windows Analytics의 업그레이드 준비 기능을 사용 하 여 추가 비용을 제외 하 고 추가적인 인프라 요구 사항 없이 조직의 컴퓨터, 응용 프로그램 및 드라이버에 대 한 강력한 통찰력 및 권장 사항을 제공 합니다. 이 새로운 서비스는 Microsoft 권장 사례를 기반으로 하는 워크플로를 사용 하 여 업그레이드 및 기능 업데이트 프로젝트를 안내 합니다. 최신 재고 데이터를 통해 업그레이드 프로젝트의 비용 및 위험을 분산할 수 있습니다.
 
-자세한 내용은, 시작, 사용 및 업그레이드 준비 문제를 해결을 [업그레이드 준비 상태와 관리 Windows 업그레이드](https://docs.microsoft.com/windows/deployment/upgrade/manage-windows-upgrades-with-upgrade-readiness) 를 참조 하십시오.
+업그레이드 준비 상태에 대 한 자세한 내용은 [업그레이드 준비를 통해 Windows 업그레이드 관리](https://docs.microsoft.com/windows/deployment/upgrade/manage-windows-upgrades-with-upgrade-readiness) 를 참조 하세요.
 
-다음 Windows 10 Windows 7 또는 이상의 운영 체제를 업그레이드 하려면 System Center Configuration Manager (현재 분기)를 사용 하 여 가이드에 따라 합니다. 모든 위험성이 높은 배포와 마찬가지로 계속 하기 전에 사용자 데이터를 백업 하는 것이 좋습니다. OneDrive 클라우드 저장소 사용이 허가 된 Microsoft 365 사용자에 대해 사용할 준비가 되었는지 하 고 안전 하 게 그 파일을 저장 하는데 사용할 수 있습니다. 자세한 정보를 [OneDrive 빠른 시작 가이드를](https://aka.ms/ODfBquickstartguide)참조 하십시오. 이 페이지에 액세스 하려면 테 넌 트 관리 또는 전역 관리자는 Office 365 또는 Microsoft 365 테 넌 트에 로그인 해야 합니다.
+다음으로, System Center Configuration Manager (현재 분기)를 사용 하 여 windows 7 이상 운영 체제를 windows 10으로 업그레이드 하는 가이드에 따릅니다. 위험도가 높은 배포와 마찬가지로, 계속 하기 전에 사용자 데이터를 백업 하는 것이 좋습니다. OneDrive 클라우드 저장소는 라이선스가 있는 Microsoft 365 사용자에 게 사용할 준비가 되었으며 파일을 안전 하 게 저장 하는 데 사용할 수 있습니다. 자세한 내용은 [OneDrive 빠른 시작 가이드](https://aka.ms/ODfBquickstartguide)를 참조 하세요. 이 페이지에 액세스 하려면 Office 365 또는 Microsoft 365 테 넌 트에서 테 넌 트 관리자 또는 전역 관리자로 로그인 해야 합니다.
 
-Configuration Manager 버전 및 지원 되는 해당 Windows 10 클라이언트 버전 목록에 대 한 [지원에 대 한 Windows 10 System Center Configuration Manager에 대 한](https://aka.ms/supportforwin10sccm)참조입니다.
+지원 되는 windows 10 클라이언트 버전 및 구성 관리자 버전 목록은 [System Center Configuration manager에 대 한 windows 10 지원을](https://aka.ms/supportforwin10sccm)참조 하십시오.
 
-**Windows를 업그레이드할 준비 상태를 확인 하려면**
+**Windows 업그레이드 준비 상태를 확인 하려면**
 
-Windows 10 배포를 시작 하기 전에 이러한 요구 사항을 검토 합니다.
+Windows 10 배포를 시작 하기 전에 다음 요구 사항을 검토 하십시오.
 
-- **Windows 버전에 대 한 가능한 업그레이드** -Windows 10 Enterprise로의 업그레이드에 사용할 수 있는 버전의 Windows 7 또는 Windows 8.1 장치로 실행 해야 합니다. 지원 되는 버전의 목록에 대 한 [Windows 10 업그레이드 경로](https://aka.ms/win10upgradepaths)참조 합니다. 
-- **지원 되는 장치** -Windows 8.1 호환 되는 대부분의 컴퓨터에 Windows 10과 호환 됩니다. 제대로 작동 하려면 장치에 대 한 Windows 10에서 업데이트 된 드라이버를 설치 해야 합니다. 추가 정보에 대 한 [Windows 10 사양](https://aka.ms/windows10specifications) 를 참조 하십시오.
-- **배포 준비** -구성 배포를 시작 하기 전에 다음 있는지 확인 합니다.
-    - Windows 10 설치 미디어-설치 미디어 이미 탑재 ISO와는 별도 드라이브에 배치 되어야 합니다. [MSDN 구독자 다운로드](https://aka.ms/msdn-subscriber-downloads) 또는 [볼륨 라이선스 서비스 센터](https://aka.ms/mvlsc)에서 ISO를 얻을 수 있습니다.
-    - 사용자 데이터-의 백업을 업그레이드에서 사용자 데이터를 마이그레이션할 수는 있지만 것이 가장 좋습니다 백업 시나리오를 구성 하 합니다. 예, OneDrive 계정, 이동 BitLocker 암호화 USB 플래시 드라이브 또는 네트워크 파일 서버에 모든 사용자 데이터를 내보냅니다. 자세한 내용은 [Windows에서 데이터를 전송 하거나 백업](https://aka.ms/backuptransferdatawindows)을 참조 하십시오.
-- **환경 준비** -운영 체제 배포를 위한 준비 하는 기존 Configuration Manager 서버 구조를 사용 합니다. 기본 설정 외에도 다음과 같은 구성 구성 관리자 환경에서 만들어야 합니다.
-    1. [Active Directory 스키마 확장](https://aka.ms/extendadschema) 을 선택 하 고 [시스템 관리 컨테이너를 만듭니다](https://aka.ms/createsysmancontainer).
-    2. Enable Active Directory 포리스트 검색 및 Active Directory 시스템 검색 합니다. 자세한 정보에 대 한 [구성을 검색 방법에 대 한 System Center Configuration Manager를](https://aka.ms/configurediscoverymethods)참조 합니다.
-    3. IP 범위 경계 및 콘텐츠 및 사이트 할당에 대 한 경계 그룹을 만듭니다. 자세한 정보를 [정의 사이트 경계 및 System Center Configuration Manager에 대 한 경계 그룹을](https://aka.ms/definesiteboundaries)참조 하십시오.
-    4. 추가 하 고 reporting services 지점 역할 구성 관리자를 구성 합니다. 자세한 정보, [구성 관리자에서 보고 구성](https://aka.ms/configurereporting)을 참조 하십시오.
+- **windows** 10 Enterprise로 업그레이드 하는 데 사용할 수 있는 버전의 windows 7 또는 windows 8.1 버전이 실행 되 고 있어야 합니다. 지원 되는 버전 목록은 [Windows 10 업그레이드 경로](https://aka.ms/win10upgradepaths)를 참조 하세요. 
+- **지원 되는 장치** -windows 8.1과 호환 되는 대부분의 컴퓨터는 windows 10과 호환 됩니다. 장치를 올바르게 작동 하려면 Windows 10에서 업데이트 된 드라이버를 설치 해야 할 수 있습니다. 자세한 내용은 [Windows 10 사양을](https://aka.ms/windows10specifications) 참조 하세요.
+- **배포 준비** -배포 구성을 시작 하기 전에 다음을 확인 해야 합니다.
+    - Windows 10 설치 미디어-설치 미디어는 ISO가 이미 탑재 된 별도의 드라이브에 있어야 합니다. [MSDN 구독자 다운로드](https://aka.ms/msdn-subscriber-downloads) 에서 ISO를 구하거 나 [볼륨 라이선스 서비스 센터](https://aka.ms/mvlsc)에서 다운로드할 수 있습니다.
+    - 사용자 데이터 백업-사용자 데이터가 업그레이드에서 마이그레이션될 수 있지만 백업 시나리오를 구성 하는 것이 가장 좋습니다. 예를 들어 모든 사용자 데이터를 OneDrive 계정, BitLocker에서 이동 암호화 USB 플래시 드라이브 또는 네트워크 파일 서버로 내보냅니다. 자세한 내용은 [Windows에서 데이터 백업 또는 전송을](https://aka.ms/backuptransferdatawindows)참조 하세요.
+- **환경 준비** -기존 Configuration Manager 서버 구조를 사용 하 여 운영 체제 배포를 준비 합니다. 기본 설정 외에도 Configuration Manager 환경에서 다음과 같은 구성을 수행 해야 합니다.
+    1. [Active Directory 스키마를 확장](https://aka.ms/extendadschema) 하 고 [시스템 관리 컨테이너를 만듭니다](https://aka.ms/createsysmancontainer).
+    2. active directory 포리스트 검색 및 active directory 시스템 검색을 사용 하도록 설정 합니다. 자세한 내용은 [System Center Configuration Manager에 대 한 검색 방법](https://aka.ms/configurediscoverymethods)구성을 참조 하십시오.
+    3. 콘텐츠 및 사이트 할당에 대 한 IP 범위 경계 및 경계 그룹을 만듭니다. 자세한 내용은 [System Center Configuration Manager의 사이트 경계 및 경계 그룹 정의](https://aka.ms/definesiteboundaries)를 참조 하세요.
+    4. Configuration Manager reporting services 지점 역할을 추가 하 고 구성 합니다. 자세한 내용은 [Configuration Manager에서 보고](https://aka.ms/configurereporting)구성을 참조 하세요.
     5. 패키지에 대 한 파일 시스템 폴더 구조를 만듭니다.
     6. 패키지에 대 한 Configuration Manager 콘솔 폴더 구조를 만듭니다.
-    7. System Center Configuration Manager (현재 분기) 업데이트 하 고 모든 추가 Windows 10 필수 구성 요소를 설치 합니다.
+    7. System Center Configuration Manager (현재 분기) 업데이트 및 추가 Windows 10 필수 구성 요소를 설치 합니다.
 
-## <a name="part-2-add-a-windows-10-os-image-using-configuration-manager"></a>2 부: 구성 관리자를 사용 하 여 Windows 10 운영 체제 이미지를 추가 합니다.
-이제 전체 Windows 10 설치 미디어를 포함 하는 운영 체제 업그레이드 패키지를 만드는 필요 합니다. 다음 단계에서 구성 관리자를 사용 하 여 Windows 10 Enterprise x64에 대 한 업그레이드 패키지를 만들려면 표시 됩니다.
+## <a name="part-2-add-a-windows-10-os-image-using-configuration-manager"></a>2 부: Configuration Manager를 사용 하 여 Windows 10 OS 이미지 추가
+이제 전체 Windows 10 설치 미디어를 포함 하는 운영 체제 업그레이드 패키지를 만들어야 합니다. 다음 단계에서는 Configuration Manager를 사용 하 여 Windows 10 Enterprise x64 용 업그레이드 패키지를 만듭니다.
 
-**Configuration Manager를 사용 하 여 Windows 10 운영 체제 이미지를 추가 하려면**
+**Configuration Manager를 사용 하 여 Windows 10 OS 이미지를 추가 하려면**
 
-1. Configuration Manager 콘솔을 사용 하 여 **소프트웨어 라이브러리** 작업 영역에, **운영 체제 업그레이드 패키지** 노드를 마우스 오른쪽 단추로 클릭 하 고 **운영 체제 업그레이드 패키지 추가**선택 합니다.
-2. **데이터 원본** 페이지에서 Windows 10 Enterprise x64 미디어의 UNC 경로 지정 하 고 **** 을 선택 합니다.
-3. **일반** 페이지에서 **Windows 10 Enterprise x64 업그레이드**를 지정 하 고 **** 을 선택 합니다. 
-4. **요약** 페이지에서 **다음**을 선택 하 고 **닫기**를 선택 합니다. 
-5. 생성된 된 **Windows 10 Enterprise x64 업데이트** 패키지를 마우스 오른쪽 단추로 클릭 하 고 **콘텐츠 배포**를 선택 합니다. 
+1. Configuration Manager 콘솔을 사용 하 여 **소프트웨어 라이브러리** 작업 영역에서 **운영 체제 업그레이드 패키지** 노드를 마우스 오른쪽 단추로 클릭 한 다음 **운영 체제 업그레이드 패키지 추가**를 선택 합니다.
+2. **데이터 원본** 페이지에서 Windows 10 Enterprise x64 미디어에 대 한 UNC 경로를 지정 하 고 **다음**을 선택 합니다.
+3. **일반** 페이지에서 **Windows 10 Enterprise x64 업그레이드**를 지정 하 고 **다음**을 선택 합니다. 
+4. **요약** 페이지에서 **다음**을 선택 하 고 **닫기를**선택 합니다. 
+5. 만들어진 **Windows 10 Enterprise x64 업데이트** 패키지를 마우스 오른쪽 단추로 클릭 한 다음 **콘텐츠 배포**를 선택 합니다. 
 6. 배포 지점을 선택 합니다.
 
 ## <a name="part-3-configure-deployment-settings"></a>3 부: 배포 설정 구성
-이 단계는 Windows 10 업그레이드에 대 한 설정을 포함 하는 업그레이드 작업 시퀀스를 구성 합니다. 그런 다음를 업그레이드 하기 위해 장치를 식별 하 고 해당 장치에 작업 시퀀스를 배포 합니다.
+이 단계에서는 Windows 10 업그레이드에 대 한 설정을 포함 하는 업그레이드 작업 시퀀스를 구성 합니다. 그런 다음 업그레이드할 장치를 확인 하 고 해당 장치에 작업 순서를 배포 합니다.
 
 ### <a name="create-a-task-sequence"></a>작업 시퀀스 만들기
 업그레이드 작업 시퀀스를 만들려면 다음 단계를 수행 합니다.
   
-1. Configuration Manager 콘솔 **소프트웨어 라이브러리** 작업 영역에서 **운영 체제**를 확장 합니다. 
-2. **작업 시퀀스 (영문)** 노드를 마우스 오른쪽 단추로 클릭 하 고 **작업 시퀀스 만들기**를 선택 합니다.
-3. **새 작업 시퀀스 만들기** 페이지에서 **업그레이드 패키지에서 운영 체제 업그레이드**를 선택 하 고 **** 을 선택 합니다.
-4. **작업 시퀀스 정보** 페이지에서 **Windows 10 Enterprise x64 업그레이드**를 지정 하 고 **** 을 선택 합니다.
-5. **Windows 운영 체제를 업그레이드** 페이지에서 **찾아보기** 를 선택 하 고 **운영 체제를 업그레이드 하는 Windows 10 Enterprise x64 업그레이드 패키지**를 선택, **확인**선택 하 고 **** 을 선택 합니다.
-6. 마법사의 나머지 페이지를 통해 계속 하 고 **닫기**를 선택 합니다.
+1. Configuration Manager 콘솔의 **소프트웨어 라이브러리** 작업 영역에서 **운영 체제**를 확장 합니다. 
+2. **작업 순서** 노드를 마우스 오른쪽 단추로 클릭 하 고 **작업 순서 만들기**를 선택 합니다.
+3. **새 작업 시퀀스 만들기** 페이지에서 **업그레이드 패키지에서 운영 체제 업그레이드**를 선택 하 고 **다음**을 선택 합니다.
+4. **작업 순서 정보** 페이지에서 **Windows 10 Enterprise x64 업그레이드**를 지정 하 고 **다음**을 선택 합니다.
+5. **windows 운영 체제 업그레이드** 페이지에서 **찾아보기를** 선택 하 고 **windows 10 Enterprise x64 Upgrade 운영 체제 업그레이드 패키지**를 선택한 후 **확인**을 선택 하 고 **다음**을 선택 합니다.
+6. 나머지 마법사 페이지를 계속 진행 하 고 Close ( **닫기**)를 선택 합니다.
 
 ### <a name="create-a-device-collection"></a>장치 컬렉션 만들기
-업그레이드 작업 시퀀스를 만든 후에 업그레이드 하는 장치를 포함 하는 컬렉션을 만들 필요 합니다.
+업그레이드 작업 시퀀스를 만든 후에는 업그레이드할 장치를 포함 하는 컬렉션을 만들어야 합니다.
 
 > [!NOTE]
-> 다음 설정을 사용 하 여 단일 장치에 배포를 테스트 하. 준비가 되 면 장치 그룹을 포함 하도록 다른 구성원 규칙을 사용할 수 있습니다. 자세한 정보, [System Center Configuration Manager의 컬렉션을 만드는 방법](https://aka.ms/sccm-create-collections)을 참조 하십시오.
+> 다음 설정을 사용 하 여 단일 장치에서 배포를 테스트 합니다. 준비가 되 면 다른 멤버 자격 규칙을 사용 하 여 장치 그룹을 포함할 수 있습니다. 자세한 내용은 [System Center Configuration Manager에서 컬렉션을 만드는 방법을](https://aka.ms/sccm-create-collections)참조 하세요.
 
-1. Configuration Manager 콘솔 **자산 및 규정 준수** 작업 영역에서 **장치 컬렉션**마우스 오른쪽 단추로 클릭 하 고 **장치 모음 만들기**를 선택 합니다. 
-2. 장치 컬렉션 만들기 마법사의 **일반** 페이지에서 다음 설정을 입력 하 고 **** 을 선택 합니다.
+1. Configuration Manager 콘솔의 **자산 및 준수** 작업 영역에서 **장치 모음**을 마우스 오른쪽 단추로 클릭 한 다음 **장치 모음 만들기**를 선택 합니다. 
+2. 장치 컬렉션 만들기 마법사의 **일반** 페이지에서 다음 설정을 입력 하 고 **다음**을 선택 합니다.
     - 이름: Windows 10 Enterprise x64 업그레이드
     - 제한 컬렉션: 모든 시스템
-3. **구성원 규칙** 페이지에서 **규칙 추가**선택 > **직접 규칙** 직접 구성원 규칙 만들기 마법사를 시작 합니다.
+3. **멤버 자격 규칙** 페이지에서 직접 구성원 규칙 만들기 마법사를 시작 하려면 **규칙** > **다이렉트 규칙** 추가를 선택 합니다.
 4. 직접 구성원 규칙 만들기 마법사의 **시작** 페이지에서 **다음**을 선택 합니다.
-5. **자원에 대 한 검색** 페이지에서 개체 틀 텍스트 **값** 을 업그레이드 하는 장치의 이름을 바꿉니다, 다음 설정을 입력 합니다. 
+5. **리소스 검색** 페이지에서 다음 설정을 입력 하 고 자리 표시자 **값** 텍스트를 업그레이드 하려는 장치의 이름으로 바꿉니다. 
     - 리소스 클래스: 시스템 리소스
     - 특성 이름: 이름
     - 값: *PC0003*
-6. **자원을 선택** 페이지에서 장치를 선택 하 고 **** 을 선택 합니다.
-7. 직접 구성원 규칙 만들기 마법사와 장치 컬렉션 만들기 마법사를 완료 합니다.  
-8. Windows 10 Enterprise x64 업그레이드 컬렉션을 검토 합니다. 컴퓨터를 나타날 때까지 계속 하지 마세요 컬렉션에 추가 합니다.
+6. **리소스 선택** 페이지에서 장치를 선택 하 고 **다음**을 선택 합니다.
+7. 직접 멤버 자격 규칙 만들기 마법사 및 장치 컬렉션 만들기 마법사를 완료 합니다.  
+8. Windows 10 Enterprise x64 Upgrade 컬렉션을 검토 합니다. 컬렉션에 추가한 컴퓨터가 표시 될 때까지 계속할 수 없습니다.
 
 ### <a name="create-an-operating-system-deployment"></a>운영 체제 배포 만들기
-작업 시퀀스에 대 한 배포를 만들려면 다음이 단계를 수행 합니다.
+작업 시퀀스에 대 한 배포를 만들려면 다음 단계를 수행 합니다.
 
-1. Configuration Manager 콘솔 **소프트웨어 라이브러리** 작업 영역에서 이전 단계에서 만든 작업 시퀀스를 마우스 오른쪽 단추로 클릭 하 고 **배포**를 선택 합니다.
-2. **일반** 페이지에서 **Windows 10 Enterprise x64 업그레이드** 컬렉션을 선택 하 고 **** 을 선택 합니다.
+1. Configuration Manager 콘솔의 **소프트웨어 라이브러리** 작업 영역에서 이전 단계에서 만든 작업 시퀀스를 마우스 오른쪽 단추로 클릭 하 고 **배포**를 선택 합니다.
+2. **일반** 페이지에서 **Windows 10 Enterprise x64 업그레이드** 모음을 선택 하 고 **다음**을 선택 합니다.
 3. **콘텐츠** 페이지에서 **다음**을 선택 합니다.
-4. **배포 설정** 페이지에서 다음 설정을 선택 하 고 **** 을 선택 합니다.
+4. **배포 설정** 페이지에서 다음 설정을 선택 하 고 **다음**을 선택 합니다.
 
     > [!NOTE]
-    > 이 테스트 배포용 **대화 가능**, 배포를 시작 하려면 사용자 작업이 필요 하는 용도 설정 합니다. 프로덕션 환경에서 배포를 실행 하는 경우 일정 등의 추가 옵션을 구성 하는 단계는 필요한 용도 사용 하 여 배포를 자동화 하는 것이 좋습니다. 
+    > 이 테스트 배포에서는 배포를 시작 하기 위해 사용자 작업을 수행 해야 하는 용도를 **사용 가능**으로 설정 합니다. 프로덕션 환경에서는 배포가 실행 되는 시기와 같은 추가 옵션을 구성 하는 데 필요한 목적을 사용 하 여 배포를 자동화 하는 것이 좋습니다. 
 
     - 작업: 설치
-    - 용도: 사용 가능한
+    - 목적: 사용 가능
 
-5. **일정** 페이지에서 기본 설정을 그대로 적용 하 고 **** 을 선택 합니다.
-6. **사용자 환경** 페이지에서 기본 설정을 그대로 적용 하 고 **** 을 선택 합니다.
-7. **경고** 페이지에서 기본 설정을 그대로 적용 하 고 **** 을 선택 합니다.
-8. **요약** 페이지에서 **다음**을 선택 하 고 **닫기**를 선택 합니다.
+5. **일정** 페이지에서 기본 설정을 수락 하 고 **다음**을 선택 합니다.
+6. **사용자 환경** 페이지에서 기본 설정을 수락 하 고 **다음**을 선택 합니다.
+7. **알림** 페이지에서 기본 설정을 수락 하 고 **다음**을 선택 합니다.
+8. **요약** 페이지에서 **다음**을 선택 하 고 **닫기를**선택 합니다.
 
-## <a name="part-5-start-the-windows-10-upgrade-task-sequence"></a>5 단계: 시작 Windows 10 업그레이드 작업 시퀀스
-업그레이드 하는 장치에 Windows 10 업그레이드 작업 시퀀스를 시작 하려면 다음이 단계를 수행 합니다.
+## <a name="part-5-start-the-windows-10-upgrade-task-sequence"></a>5 부: Windows 10 업그레이드 작업 순서 시작
+업그레이드 하려는 장치에서 Windows 10 업그레이드 작업 순서를 시작 하려면 다음 단계를 수행 합니다.
  
 1. Windows 컴퓨터에 로그온 하 고 **소프트웨어 센터**를 시작 합니다.
-2. 이전 단계에서 만든 작업 시퀀스를 선택 하 고 **설치**를 선택 합니다.
-3. Windows 설치 프로그램 (Setup.exe)를 유지 하는 모든 데이터, 설정, 앱, 자동화 된 업그레이드를 수행 하는데 필요한 명령줄 매개 변수를 호출 하 여 전체 업그레이드 프로세스 작업 시퀀스 시작 되 면 자동으로 시작 하 고 드라이버 합니다.
-4. 작업 시퀀스 성공적으로 완료 되 면 Windows 10 컴퓨터를 완벽 하 게 업그레이드 됩니다.
+2. 이전 단계에서 만든 작업 순서를 선택 하 고 **설치**를 선택 합니다.
+3. 작업 시퀀스가 시작 되 면 필요한 명령줄 매개 변수로 Windows 설치 프로그램 (setup.exe)을 호출 하 여 전체 업그레이드 프로세스를 자동으로 시작 하 여 자동 업그레이드를 수행 하 고 모든 데이터, 설정, 앱 및 정보를 보존 합니다. 드라이버용.
+4. 작업 시퀀스가 성공적으로 완료 되 면 컴퓨터가 Windows 10으로 완전히 업그레이드 됩니다.
 
-엔터프라이즈 환경에서 Windows 10을 사용 하는 경우 문제를 발생 하면 [가장 일반적인 문제에 대 한 주요 Microsoft 기술 지원 서비스 솔루션](https://docs.microsoft.com/windows/client-management/windows-10-support-solutions)을 참조할 수 있습니다. 이러한 리소스 KB 문서, 업데이트 및 라이브러리 문서에 포함 합니다.
+엔터프라이즈 환경에서 Windows 10을 사용할 때 문제가 발생 하면 [가장 일반적인 문제에 대 한 주요 Microsoft 지원 솔루션](https://docs.microsoft.com/windows/client-management/windows-10-support-solutions)을 참조할 수 있습니다. 이러한 리소스에는 기술 자료 문서, 업데이트 및 라이브러리 아티클이 포함 됩니다.
 
-조직 전체에서 업데이트를 배포 하는 동안 운영 체제 업데이트 준수, 배포 진행 상황 업데이트 및 Windows 10 장치에 대 한 문제를 해결 하는 오류에 대 한 통찰력을 제공 하려면 Windows 분석의 업데이트 규정 준수 기능을 사용 합니다. 이 새로운 서비스 설치 진행률, Windows Update 구성 및 기타 정보를 포함 하 여 진단 데이터를 사용 하 여 아니요에 이러한 정보를 제공 하려면 추가 비용 및 추가 인프라 요구 사항입니다. 비즈니스 또는 기타 관리 도구에 대 한 Windows Update를 통해 사용, 여부 보장할 수 있습니다 장치로 적절 하 게 업데이트 하는 합니다.
+조직 전체에서 업데이트를 배포 하는 동안 windows Analytics의 업데이트 준수 기능을 사용 하 여 OS 업데이트 준수, 업데이트 배포 진행률 및 windows 10 장치에 대 한 오류 해결을 전체적으로 확인할 수 있습니다. 이 새 서비스는 설치 진행 상황, Windows Update 구성 및 기타 정보를 사용 하 여 추가 비용 없이 추가 인프라 요구 사항 없이도 이러한 통찰력을 제공 합니다. Windows Update for Business 또는 기타 관리 도구와 함께 사용 되는 경우에는 장치가 제대로 업데이트 되었는지 확인할 수 있습니다.
 
-[모니터 Windows 업데이트 및 준수가 업데이트 된 Windows Defender 바이러스 백신 소프트웨어를](https://docs.microsoft.com/windows/deployment/update/update-compliance-monitor) 자세한 정보, 시작 및 업데이트 준수를 사용 하 여를 참조 하십시오.
+업데이트 준수를 [통해 windows 업데이트 및 windows Defender 바이러스 백신 모니터링](https://docs.microsoft.com/windows/deployment/update/update-compliance-monitor) 을 참조 하 고, 시작 하 고, 업데이트 준수를 사용 하도록 합니다.
 
 중간 검사점으로 이 단계에 해당하는 [종료 조건](windows10-exit-criteria.md#crit-windows10-step2)을 확인할 수 있습니다.
 
@@ -140,7 +141,7 @@ Windows 10 배포를 시작 하기 전에 이러한 요구 사항을 검토 합�
 
 |||
 |:-------|:-----|
-|![](./media/stepnumbers/Step3.png)| [Windows 작업을 자동화할을 사용 하 여 새 장치에 대 한 Windows 10 엔터프라이즈 배포](windows10-deploy-autopilot.md) |
+|![](./media/stepnumbers/Step3.png)| [windows Autopilot를 사용 하 여 새 장치에 windows 10 Enterprise 배포](windows10-deploy-autopilot.md) |
 
 
 

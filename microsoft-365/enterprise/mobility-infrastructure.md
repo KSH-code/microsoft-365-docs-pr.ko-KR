@@ -1,94 +1,94 @@
 ---
-title: 단계 5-모바일 장치 관리
-description: Microsoft 365 Enterprise Microsoft Intune를 사용 하 여 모바일 장치 관리를 포함 합니다. 요구 사항 및 필수 구성 요소를 검토, Azure Active Directory 리소스를 사용 하 여 Intune 설정, iOS, macOS, Android, 및 Windows 등록 장치 앱을 배포, 구성 프로필 만들기, 규정 준수 정책 사용 및 모바일에 대 한 조건부 액세스를 사용 하도록 설정 Microsoft 365 엔터프라이즈와 장치 관리 합니다.
-keywords: Microsoft 365, Microsoft 365 엔터프라이즈 모바일 장치 관리 Microsoft 365 Intune 설명서
+title: 5 단계-모바일 장치 관리
+description: microsoft 365 Enterprise는 microsoft Intune을 사용 하는 모바일 장치 관리를 포함 합니다. 요구 사항 및 필수 구성 요소를 검토 하 고, Azure Active Directory 리소스를 사용 하 여 Intune을 설정 하 고, iOS, macos, Android 및 Windows 장치를 등록 하 고, 앱을 배포 하 고, 프로필 구성, 준수 정책을 사용 하 고, 모바일에 조건부 액세스 사용 Microsoft 365 Enterprise를 사용한 장치 관리
+keywords: microsoft 365, microsoft 365 Enterprise, microsoft 365 설명서, 모바일 장치 관리, Intune
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
 ms.date: 09/18/2018
 ms.topic: conceptual
-audience: ITPro
 ms.prod: microsoft-365-enterprise
 ms.service: ''
 ms.technology: ''
 ms.assetid: fb4182e6-5e78-45d0-9641-d791c4519441
+audience: ITPro
 ms.custom: microsoft-intune
-ms.openlocfilehash: 3afc28f0d21918c027a6a1622a40318e333f7ab4
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+ms.openlocfilehash: 35fa9f53b555de48f4a5acc09d0619ba978ca87a
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26870376"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291216"
 ---
-# <a name="phase-5-mobile-device-management-for-microsoft-365-enterprise"></a>Microsoft 365 Enterprise에 대 한 단계 5: 모바일 장치 관리
+# <a name="phase-5-mobile-device-management-for-microsoft-365-enterprise"></a>단계 5: Microsoft 365 엔터프라이즈에 대 한 모바일 장치 관리
 
 ![](./media/deploy-foundation-infrastructure/mobiledevicemgmt_icon.png)
 
-*이 기능은 Microsoft 365 Enterprise의 E3 및 e 5 버전에 적용 됩니다.*
+*이 기능은 Microsoft 365 Enterprise E3 및 E5 버전에 적용 됩니다.*
 
-Microsoft 365 Enterprise 장치와 조직 내에서 해당 응용 프로그램을 관리할 수 있는 기능이 포함 됩니다. Microsoft Intune를 사용 하 여 데이터를 포함 하 여 조직의 리소스에 대 한 액세스를 보호 하기 위해 iOS, Android, macOS, 및 Windows 장치를 관리할 수 있습니다. Intune는 Azure Active Directory (Azure AD)와 통합 하 고 Microsoft 365에 대 한 다음과 같은 비즈니스 시나리오를 수행할 수 있도록 합니다.
+Microsoft 365 Enterprise에는 조직 내에서 장치 및 해당 앱을 관리 하는 데 도움이 되는 기능이 포함 되어 있습니다. Microsoft Intune을 사용 하 여 iOS, Android, macos 및 Windows 장치를 관리 하 여 데이터를 비롯 한 조직의 리소스에 대 한 액세스를 보호할 수 있습니다. Intune은 azure Active Directory (azure AD)와 통합 되며 Microsoft 365에 대해 다음과 같은 비즈니스 시나리오를 사용 하도록 설정 합니다.
 
 - 조직 내부 및 외부에서 파일을 저장 및 공유하여 조직 경계를 넘나들며 원활하게 작업 가능
 - 유연한 작업 스타일을 유지하면서 어떤 장치를 사용하든 장소나 시간의 구애를 받지 않고 안전하게 더 많은 작업 처리
 - 업계에서 인증된 방식으로 제어 및 가시성에 대한 전역 표준을 준수하여 안심하고 작업 가능
 - 사용자의 정보 보호 및 데이터 손실 위험 최소화
-- 검색 하 고 외부 위협 으로부터 보호
-- 모니터링, 보고 및 분석 하는 조직의 보안을 제공 하려면 신속 하 게 대처 하는 작업
-- 사용자와 자신의 계정 보호
+- 외부 위협에 대 한 검색 및 보호
+- 조직 보안을 제공 하기 위해 즉시 대응할 활동을 모니터링, 보고 및 분석 합니다.
+- 사용자 및 계정 보호
 
 자세한 내용은 [Microsoft 365를 사용한 디지털 변환](http://transform.microsoft.com)을 참조하세요. 
 
-이 단계에서 Intune, 하 여 장치를 등록 하 고 만들고 안전 하 고 보호 된 데이터를 유지 하기 위해 정책을 적용 합니다. Intune 설명서의 전체 라이브러리 [사용할 수 있는 온라인](https://docs.microsoft.com/intune)합니다. 시작 하기 전에는 [Intune 배포 계획, 디자인 및 구현 가이드를](https://docs.microsoft.com/intune/planning-guide) 검토 하 여 것이 좋습니다 이기도 합니다.
+이 단계에서는 Intune에서 장치를 등록 하 고 정책을 만들고 적용 하 여 데이터를 안전 하 고 보호 하는 데 도움이 됩니다. Intune 설명서의 전체 라이브러리는 [온라인에서 확인할 수 있습니다](https://docs.microsoft.com/intune). 시작 하기 전에 [Intune 배포 계획, 디자인 및 구현 가이드](https://docs.microsoft.com/intune/planning-guide) 를 검토 하는 것도 좋은 방법입니다.
 
-## <a name="step-1-plan-for-your-scenario"></a>1 단계: 자신의 시나리오에 대 한 계획
+## <a name="step-1-plan-for-your-scenario"></a>1 단계: 시나리오 계획
 
-모바일 장치를 관리 하는 주된 이유 중 하나 보안을 유지 하 고 조직의 리소스를 보호 하는 것입니다. [Microsoft Intune을 사용 하는 일반적인 방법](https://docs.microsoft.com/intune/common-scenarios) 을 Office 365 전자 메일 및 데이터 보호를 포함 하 여 일부 실제 예제가 나와 있습니다.
+모바일 장치를 관리 하는 주요 이유 중 하나는 조직의 리소스를 보호 하 고 보호 하는 것입니다. [Microsoft Intune을 사용 하는 일반적인 방법은](https://docs.microsoft.com/intune/common-scenarios) Office 365 전자 메일 및 데이터 보호를 비롯 한 실제 세계의 몇 가지 예를 나열 하는 것입니다.
 
-Intune는 [모바일 장치 관리 (MDM) 또는 모바일 응용 프로그램 관리 (MAM)를](https://docs.microsoft.com/intune/byod-technology-decisions)사용 하 여 조직에 대 한 액세스를 관리 하는 옵션을 제공 합니다. 사용자가 "등록" Intune에 해당 장치 때 MDM 표시 합니다. 등록 된 관리 되는 장치 되며 모든 정책, 규칙 및 조직에서 사용 되는 설정을 받을 수 있습니다. 예 구체적인 앱을 설치 암호 정책 만들기, VPN 연결을 등 설치 수 있습니다.
+Intune에서는 [MDM (모바일 장치 관리) 또는 MAM (모바일 응용 프로그램 관리](https://docs.microsoft.com/intune/byod-technology-decisions))를 사용 하 여 조직에 대 한 액세스를 관리할 수 있는 옵션을 제공 합니다. MDM은 사용자가 Intune에서 장치를 "등록" 하는 경우입니다. 등록 된 사용자는 관리 되는 장치 이며 조직에서 사용 하는 모든 정책, 규칙 및 설정을 받을 수 있습니다. 예를 들어 특성 앱을 설치 하 고 암호 정책을 만들고 VPN 연결을 설치 하는 등의 다양 한 방법을 사용할 수 있습니다.
 
-사용자가 자신의 개인 장치와 하지 않을 통해 장치 등록 또는 Intune 및 정책에 의해 관리 됩니다. 하지만 여전히 조직의 리소스 및 데이터를 보호 하기 위해 필요 합니다. 이 시나리오에서는 MAM를 사용 하 여 앱을 보호할 수 있습니다. 예, 장치에서 SharePoint에 액세스할 때 PIN을 입력 하는 사용자를 요구 하는 MAM 정책을 사용할 수 있습니다.
+개인 장치를 사용 하는 사용자는 장치를 등록 하지 않거나 Intune 및 정책으로 관리할 수 없습니다. 그러나 조직의 리소스 및 데이터를 여전히 보호 해야 합니다. 이 시나리오에서는 MAM을 사용 하 여 앱을 보호할 수 있습니다. 예를 들어 장치에서 SharePoint에 액세스할 때 사용자가 PIN을 입력 해야 하는 MAM 정책을 사용할 수 있습니다.
 
-또한 개인 또는 조직 소유의 장치를 관리 하는 방법을 결정 합니다. 장치를 용도 따라 다르게 처리 해야할 수도 있습니다. 예 수 있습니다 다른 계획 사용자에 대 한에서 원하는 인사 (HR) 또는 판매의 사용자입니다. [식별 모바일 장치 관리 사용 사례 시나리오](https://docs.microsoft.com/intune/planning-guide-scenarios) 를 시작 하는 경우를 얻을 수 하 고 이러한 다양 한 시나리오에 대 한 일부 지침을 제공 합니다.
+또한 개인 또는 조직 소유 장치를 관리 하는 방법을 결정 합니다. 사용 방식에 따라 장치를 다르게 처리할 수도 있습니다. 예를 들어 HR (인사) 또는 판매 사용자의 사용자에 대 한 다른 요금제를 사용할 수 있습니다. [모바일 장치 관리 사용 방법 식별-사례 시나리오](https://docs.microsoft.com/intune/planning-guide-scenarios) 를 시작할 수 있으며, 이러한 시나리오에 대 한 몇 가지 지침을 제공 합니다.
 
-## <a name="step-2-get-your-prerequisites"></a>2 단계: 가져오기에 필수 구성 요소
+## <a name="step-2-get-your-prerequisites"></a>2 단계: 필수 구성 요소 가져오기
 
-다음으로, 요구 사항에 기반 하 여 필수 구성 요소 및 이전 단계에서 만든 사용자 시나리오를 얻습니다. [구현 계획을 문서화할](https://docs.microsoft.com/intune/planning-guide-onboarding) 모든 요구 사항을 나열합니다. Microsoft 365 Intune에 필요한 중요 한 항목은 다음과 같습니다.
+다음으로, 이전 단계에서 만든 시나리오 및 요구 사항에 따라 필수 구성 요소를 가져옵니다. [계획 구현](https://docs.microsoft.com/intune/planning-guide-onboarding) 모든 요구 사항을 나열 합니다. 다음은 Intune을 사용 하 여 Microsoft 365을 수행 하는 데 필요한 중요 한 항목입니다.
 
-- **Intune 구독**: Microsoft 365와 [Azure 포털](https://portal.azure.com) 에서 Microsoft Intune에 액세스할 수에 포함 된
-- **Office 365 구독**: Microsoft 365와 함께 포함 하 고 전자 메일을 포함 하 여 Office 응용 프로그램에 대 한 사용
-- **Azure Active Directory (AD) premium**: Microsoft 365와 함께 포함 하 고 사용자 또는 보안 그룹을 작성 하는데 사용 됩니다. 이러한 그룹 수신 하 여 만드는 Intune 정책 같은 장치 잠금을 해제 하려면 암호 길이 강제 실행 합니다. 사용자가 만든 그룹 [2 단계: Identity](https://docs.microsoft.com/microsoft-365/enterprise/identity-infrastructure) 사용할 수 있습니다.
+- **Intune 구독**: microsoft 365에 포함 되어 있으며 [Azure 포털](https://portal.azure.com) 의 microsoft Intune에 대 한 액세스를 제공 합니다.
+- **office 365 구독**: Microsoft 365에 포함 되어 있으며 전자 메일을 비롯 한 office 앱에 사용 됩니다.
+- **azure Active Directory (azure AD) premium**: Microsoft 365에 포함 되어 있으며, 사용자 또는 보안 그룹을 만드는 데 사용 됩니다. 이러한 그룹은 사용자가 만든 Intune 정책 (예: 암호 길이를 강제 하 여 장치 잠금 해제)을 수신 합니다. [2 단계: id](https://docs.microsoft.com/microsoft-365/enterprise/identity-infrastructure) 를 사용할 수 있습니다.
 
-조직의 요구 사항에 따라 일부 추가 요구 사항이 있을 수 있습니다. 예, iOS 장치를 관리 하 고 것을 하는 경우 Apple MDM 푸시 인증서가 필요 합니다. 사용 중인 경우 온-프레미스 Exchange, 온-프레미스 Exchange 커넥터 수행 해야 합니다. 이러한 단계를 가져올 때 이러한 추가 요구 사항이 나와 있습니다.
+조직의 요구 사항에 따라 몇 가지 추가 요구 사항이 있을 수 있습니다. 예를 들어 iOS 장치를 관리 하려는 경우 Apple MDM 푸시 인증서가 필요 합니다. 온-프레미스 exchange를 사용 하는 경우 온-프레미스 exchange 커넥터가 필요 합니다. 이러한 추가 요구 사항은 이러한 단계에 도달 하면 요약 됩니다.
 
 ## <a name="step-3-set-up-intune"></a>3 단계: Intune 설정
 
-Intune Azure AD, 도메인, 사용자, 그룹 등의 다양 한 기능을 사용 합니다. 회사의 요구에 맞게 새 사용자와 새 그룹을 만들 수도 있습니다. 예, **iOS 장치**또는 **모든 HR 사용자**라는 그룹을 만들 수 있습니다.  사용자 또는 단순 또는 고급 규칙 주위 기반 장치 그룹을 작성 하는데 사용할 수 있는 [동적 그룹](https://docs.microsoft.com/intune/groups-add) 을 활용 합니다.
+Intune에서는 도메인, 사용자 및 그룹을 비롯 하 여 Azure AD의 다양 한 기능을 사용 합니다. 회사의 요구 사항에 맞게 새 사용자 및 새 그룹을 만들 수도 있습니다. 예를 들어 **iOS 장치**또는 **모든 HR 사용자**라는 그룹을 만들 수 있습니다.  단순 또는 고급 규칙을 기반으로 사용자 또는 장치 그룹을 작성할 수 있도록 하는 [동적 그룹](https://docs.microsoft.com/intune/groups-add) 을 활용 합니다.
 
-이 단계는 Intune를 설정 하 고 장치를 관리할 수에 대 한 준비를 중점적으로 수행 합니다.
+이 단계에서는 Intune을 설정 하 고 장치를 관리할 수 있도록 준비 하는 과정을 중점적으로 설명 합니다.
 
-1. **[장치에 지원 되는 확인](https://docs.microsoft.com/intune/supported-devices-browsers)** 합니다. 프로그램 iOS macOS 확인, Android, 모릅니다 및 Windows 장치는 Intune에서 지원 합니다. 조직 지원 하지 않는 장치를 포함 하는 경우에 해당 장치에 정책이 적용 되지 않습니다.
+1. **[장치가 지원 되는지 확인](https://docs.microsoft.com/intune/supported-devices-browsers)** 합니다. iOS, macos, Android, Galaxy 및 Windows 장치는 Intune에서 지원 되는지 확인 합니다. 조직에 지원 되지 않는 장치가 포함 되어 있는 경우 정책이 이러한 장치에 적용 되지 않습니다.
 
-2. **[사용자 지정 도메인 이름](https://docs.microsoft.com/intune/custom-domain-name-configure)** 입니다. 기본적으로 도메인 이름이 지정 **your domain.onmicrosoft.com** Azure AD에서 자동으로 만들어집니다와 동일 하 게 합니다. 조직에 대 한 **onmicrosoft.com** 를 사용자 지정할 수 있습니다. 사용자 지정 하면 해당 사용자에 게 제공 친숙 한 도메인 연결 하는 경우 Intune 및 리소스를 사용 합니다.
+2. **[도메인 이름을 사용자 지정](https://docs.microsoft.com/intune/custom-domain-name-configure)** 합니다. 기본적으로 **your-domain.onmicrosoft.com** 와 같은 이름의 도메인은 Azure AD에서 자동으로 만들어집니다. 조직에 맞게 **onmicrosoft.com** 를 사용자 지정할 수 있습니다. 사용자 지정 하는 경우 Intune에 연결 하 고 리소스를 사용 하는 경우 사용자에 게 익숙한 도메인이 제공 됩니다.
 
-3. **[Intune에 로그인](https://docs.microsoft.com/intune/account-sign-up)** 합니다. 로그인 할 때에 조직에 대 한 정보를 입력 하 라는 메시지가 표시 될 수 있습니다. Intune에 포함 된 Microsoft 365 및 [Office 365 관리 포털](https://portal.office.com/)에서 직접 열 수 있습니다. [Azure 포털](https://portal.azure.com)에서 직접 Intune를 열 수도 있습니다.
+3. **[Intune에 로그인](https://docs.microsoft.com/intune/account-sign-up)** 합니다. 로그인 할 때 조직에 대 한 정보를 입력 하 라는 메시지가 표시 될 수 있습니다. Intune은 microsoft 365에 포함 되어 있으며 [microsoft 365 관리 센터](https://admin.microsoft.com)에서 직접 열 수 있습니다. [Azure portal](https://portal.azure.com)에서 직접 Intune을 열 수도 있습니다.
 
-4. **[모바일 장치 관리 구성 선택](https://docs.microsoft.com/intune/mdm-authority-set)** 합니다. 처음 Intune를 사용 하면 장치 관리를 사용 해야 합니다. 클라우드 전용 서비스 Intune 및 System Center Configuration Manager 또는 모바일 장치 관리를 사용 하 여 Office 365에 대 한 하이브리드도 Intune는 사용할 수 있습니다. 조직에 가장 적합 한는 설치 프로그램을 선택할 수 있습니다.
+4. **[모바일 장치 관리 구성을 선택](https://docs.microsoft.com/intune/mdm-authority-set)** 합니다. 처음 Intune을 사용 하려면 장치 관리를 사용 하도록 설정 해야 합니다. intune은 클라우드 전용 서비스, intune 및 System Center Configuration Manager를 사용한 하이브리드 또는 Office 365에 대 한 모바일 장치 관리를 사용 하 여 사용할 수 있습니다. 조직에 가장 적합 한 설정을 선택할 수 있습니다.
 
-5. **[추가 사용자](https://docs.microsoft.com/intune/users-add)** 및 **[그룹을 추가](https://docs.microsoft.com/intune/groups-add)** 합니다. 
+5. **[사용자를 추가](https://docs.microsoft.com/intune/users-add)** 하 고 **[그룹을 추가](https://docs.microsoft.com/intune/groups-add)** 합니다. 
 
-   수동으로 사용자를 추가 하거나 Intune 사용한 Azure AD 동기화 사용자에 게 연결할 수 있습니다. 또한 특정 사용자에 게 관리자 역할을 제공할 수 있습니다. 사용자가이 아니면 1 장치로 키오스크 장치 예: "userless" 장치 필요 합니다.
+   사용자를 수동으로 추가 하거나 Azure AD에 연결 하 여 Intune을 사용 하 여 사용자를 동기화 할 수 있습니다. 특정 사용자에 게 관리자 역할을 제공할 수도 있습니다. 장치가 키오스크 장치와 같은 "userless" 장치를 제외 하 고는 사용자가 필요 합니다.
 
-   Azure AD 그룹 장치 및 Intune에 사용자를 관리 하는 방법 단순화 하기 위해 사용 됩니다. 그룹을 사용 하 여 많은 다양 한 작업을 수행할 수 있습니다. 예, 조직에서 Android 장치에서 특정 앱 필요 합니다. Android 장치 그룹을 만들 및 그룹에이 app 정책을 배포할 수 있습니다.
+   Azure AD 그룹은 Intune에서 디바이스 및 사용자를 관리 하는 방법을 간소화 하는 데 사용 됩니다. 그룹을 사용 하 여 다양 한 작업을 수행할 수 있습니다. 예를 들어 조직에서는 Android 장치에 특정 앱이 필요 합니다. Android 장치 그룹을 만들고이 앱이 포함 된 정책을 그룹에 배포할 수 있습니다.
 
-    Intune에서 사용자 또는 그룹에서 만든를 추가할 수 [2 단계: Identity](https://docs.microsoft.com/microsoft-365/enterprise/identity-infrastructure)
+    Intune에서는 [2 단계: Identity](https://docs.microsoft.com/microsoft-365/enterprise/identity-infrastructure) 로 만든 사용자 또는 그룹을 추가할 수 있습니다.
 
-6. **[라이선스를 할당](https://docs.microsoft.com/intune/licenses-assign)** 합니다. 사용자 또는 장치 Intune 등록, 장치에는 라이선스가 필요한 합니다. 각 사용자 또는 userless 장치를 사용 하려면 Intune 서비스에 액세스 하는 Intune 라이선스가 필요 합니다. 이러한 라이선스는 Microsoft 365가 포함 되며 Intune에 할당 되어야 합니다.
+6. **[라이선스를 할당](https://docs.microsoft.com/intune/licenses-assign)** 합니다. Intune에서 사용자 또는 장치를 등록 하려면 장치에 대 한 라이선스가 필요 합니다. intune 서비스에 액세스 하려면 각 사용자 또는 userless 장치에 intune 라이선스가 필요 합니다. 이러한 라이선스는 Microsoft 365에 포함 되어 있으며 Intune에서 할당 되어야 합니다.
 
-## <a name="step-4-enroll-devices"></a>4 단계: 장치를 등록 합니다.
+## <a name="step-4-enroll-devices"></a>4 단계: 장치 등록
 
-장치를 관리 하려면 Intune에 장치를 등록 해야 합니다. 관리자로 서 등록 제한 및 사용자 및 장치에 대 한 정책 설정 됩니다. 각 장치 플랫폼 (iOS, Android, macOS, 및 Windows)에 다양 한 옵션입니다. 자신을 등록 하 여 사용자를 가질 수 있습니다. 또는 사용자가 단순히 장치에 로그인 하도록 등록을 자동화할 수 있습니다.
+장치를 관리 하려면 Intune에서 장치를 등록 해야 합니다. 관리자는 사용자 및 장치에 대 한 등록 제한 및 정책을 설정 합니다. 각 장치 플랫폼 (iOS, Android, macos 및 Windows)에는 다양 한 옵션이 있습니다. 사용자가 직접 등록할 수 있습니다. 또는 사용자가 장치에 로그인 하는 것 만으로 등록을 자동화할 수 있습니다.
 
-등록이 Intune를 사용 하는 경우는 주요 단계입니다. [등록 장치](https://docs.microsoft.com/intune/device-enrollment) 는 서로 다른 장치에 대 한 단계를 나열 합니다.
+Intune을 사용 하는 경우에는 등록이 중요 한 단계입니다. [장치 등록](https://docs.microsoft.com/intune/device-enrollment) 여러 장치에 대 한 단계를 나열 합니다.
 
 |||
 |:-------|:-----|
@@ -96,73 +96,73 @@ Intune Azure AD, 도메인, 사용자, 그룹 등의 다양 한 기능을 사용
 |||
 
 
-## <a name="step-5-add-and-deploy-apps"></a>5 단계: 추가 하 고 응용 프로그램 배포
+## <a name="step-5-add-and-deploy-apps"></a>5 단계: 앱 추가 및 배포
 
-모바일 장치에서 앱은 일반적으로 가장 빠른 방법은 사용자가 회사 리소스에 대 한 액세스를 가져옵니다. 
+모바일 장치의 앱은 사용자가 회사 리소스에 액세스 하는 가장 빠른 방법입니다. 
 
-하는 과제 앱을 사용 하 여 개인 장치 및 회사 장치를 포함 한 서로 다른 장치를 가능한 있습니다. 한도 사용자가 생산성을 있는지를 확인 하는 동안 조직의 리소스 및 해당 데이터를 보호 해야 합니다.
+개인 장치 및 회사 장치를 포함 하 여 다른 장치와 마찬가지로 앱을 사용 하는 경우 문제가 발생 합니다. 또한 사용자의 생산성을 유지 하면서 조직의 리소스 및 데이터를 보호 하려고 합니다.
 
-Intune 앱을 포함 하 여 관리할 수 앱을 추가 하 고 다른 사용자 또는 그룹에 할당 합니다. 다른 중요 한 세부 정보를 검토 합니다. 예, 설치, 응용 프로그램 등의 버전을 확인 하는 앱 실패를 볼 수 있습니다.
+Intune은 앱 추가, 다른 사용자 또는 그룹에 할당 및 기타 주요 세부 정보 검토를 포함 하 여 앱을 관리할 수 있습니다. 예를 들어 설치에 실패 한 앱을 확인 하 고 앱 버전을 확인할 수 있습니다.
 
-사용자가 모바일 장치 오면 조직 내 전자 메일 및 문서에 액세스 하는 첫번째 작업 중 하나입니다. [만들고 전자 메일 설정을 배포](https://docs.microsoft.com/intune/email-settings-configure) , 장치에 사전 설치 된 전자 메일 응용 프로그램을 사용 하 여 수 Intune를 사용 하 여 있습니다. 
+사용자가 모바일 장치를 사용 하는 경우 첫 번째 작업 중 하나는 조직 전자 메일 및 문서에 액세스 하는 것입니다. Intune을 사용 하면 장치에 미리 설치 되어 있는 전자 메일 앱을 사용 하 여 [전자 메일 설정을 만들고 배포할](https://docs.microsoft.com/intune/email-settings-configure) 수 있습니다. 
 
-[추가 앱](https://docs.microsoft.com/intune/app-management) 추가, 배포, 모니터링, 구성 및 사용자 조직 내에서 장치에서 앱을 보호 하는 단계를 나열 합니다.
+[앱 추가](https://docs.microsoft.com/intune/app-management) 조직 내 장치에서 앱을 추가, 배포, 모니터링, 구성 및 보호 하기 위한 단계를 나열 합니다.
 
 |||
 |:-------|:-----|
-|![Microsoft 클라우드의 테스트 랩 가이드](media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)| [테스트 랩 가이드: 장치 규정 준수 정책](mam-policies-for-your-microsoft-365-enterprise-dev-test-environment.md) |
+|![Microsoft 클라우드의 테스트 랩 가이드](media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)| [테스트 랩 가이드: 장치 준수 정책](mam-policies-for-your-microsoft-365-enterprise-dev-test-environment.md) |
 |||
 
 ## <a name="step-6-turn-on-compliance-and-conditional-access"></a>6 단계: 규정 준수 및 조건부 액세스 설정
 
-이전 단계에서 사용자 환경을 설정 하 고 Intune를 사용 하도록 설정 합니다. 이제, 규정 준수 및 조건부 액세스를 사용 하 여 일부 정책을 만들 준비가 되었습니다.
+이전 단계에서는 환경을 설정 하 고 Intune을 사용 하도록 설정한 다음 이제 규정 준수 및 조건부 액세스를 사용 하 여 몇 가지 정책을 만들 준비가 되었습니다.
 
-규정 준수 및 조건부 액세스는 장치를 관리 하는 것이 중요 합니다. **[규정 준수 정책](https://docs.microsoft.com/intune/device-compliance-get-started)** 조직의 리소스를 보호 하려면 만들어집니다. 규정 준수 정책을 만들 때을 정의 하는 표준 또는 "기본" 있어야 하는 장치입니다. 예 적절 한 (또는 허용할 수 없는) 위협 수준을 선택 jailbroken 장치 차단, 암호 길이 및 기타 필요 수 있습니다. 이러한 장치, 호환 되지 않은 누구나 규칙에 맞지 않는 경우 자원에 대 한 액세스를 차단할 수 있습니다.
+준수 및 조건부 액세스는 장치를 관리 하는 데 중요 합니다. 조직의 리소스를 보호 하기 위해 **[준수 정책이](https://docs.microsoft.com/intune/device-compliance-get-started)** 만들어집니다. 준수 정책을 만들 때는 장치에 필요한 표준 또는 "베이스 라인"을 정의 합니다. 예를 들어 허용 또는 허용 되지 않는 위협 수준을 선택 하 고, 탈 옥 장치를 차단 하 고, 암호 길이를 요구 하는 등의 옵션을 선택할 수 있습니다. 이러한 장치가 규칙을 충족 하지 않는 경우에는 해당 디바이스가 호환 되지 않는 경우에는 리소스에 대 한 액세스를 차단할 수 있습니다.
 
-이 "차단" **[조건부 액세스](https://docs.microsoft.com/intune/conditional-access)** 를 소개 합니다. 장치는 not 호환 간주 되 면 전자 메일, SharePoint, 등에 대 한 액세스를 차단할 수 있습니다.
+이 "차단"은 **[조건부 액세스](https://docs.microsoft.com/intune/conditional-access)** 를 도입 합니다. 장치가 호환 되지 않는 것으로 간주 되는 경우에는 전자 메일, SharePoint 등에 대 한 액세스를 차단할 수 있습니다.
 
-[Azure 포털](https://portal.azure.com) 에서 Intune를 사용 하 여 이러한 정책을 만들고이 사용자와 장치에 적용할 수 있습니다. 최상의 방법으로 작은, 시작 하 고 미리 구성 된 방식을 사용. 예, jailbroken 장치를 차단 하는 iOS 정책을 만듭니다. 파일럿 또는 테스트 그룹에 (호출된 "할당" Intune에) 정책의 적용 합니다. 초기 테스트 한 후 파일럿 그룹에 더 많은 사용자를 추가 합니다. 미리 구성 된 접근 방식을 사용 광범위 한 사용자 형식에서에서 피드백을 얻을 수 있습니다.
+[Azure portal](https://portal.azure.com) 의 Intune을 사용 하면 이러한 정책을 만들고 사용자 및 장치에 적용할 수 있습니다. 최상의 방법은 small를 시작 하 고 미리 구성 된 방법을 사용 하는 것입니다. 예를 들어 탈 옥 장치를 차단 하는 iOS 정책을 만듭니다. Apply (Intune에서 "할당") 정책을 파일럿 또는 테스트 그룹에 적용 합니다. 초기 테스트를 수행한 후 파일럿 그룹에 더 많은 사용자를 추가 합니다. 미리 구성 된 방법을 사용 하면 광범위 한 사용자 유형에 서 피드백을 얻을 수 있습니다.
 
-[장치 규정 준수 정책을 사용 하 여 시작](https://docs.microsoft.com/intune/device-compliance-get-started) 및 [조건부 액세스는 무엇입니까?](https://docs.microsoft.com/intune/conditional-access) 시작 하는 데 도움이 됩니다.
+시작 하는 데 도움이 되는 " [장치 준수 정책](https://docs.microsoft.com/intune/device-compliance-get-started) 및 [" 조건부 액세스 기능 "](https://docs.microsoft.com/intune/conditional-access) 을 참조 하세요.
 
 ## <a name="step-7-apply-features-and-settings"></a>7 단계: 기능 및 설정 적용
 
-이러한 기능 및 설정을 주로 "멋진" 속하지 Intune, 간주 되는 매우 강력한. 조건부 액세스를 사용 하 여 일부 규정 준수 정책을 적용 성공적으로 했을 때 한 후 **장치 프로필**을 만들 준비가 된 것입니다.
+이러한 기능과 설정은 대개 Intune의 "멋진" 부분으로 간주 되며 매우 강력 합니다. 조건부 액세스를 사용 하 여 준수 정책을 성공적으로 적용 한 후에는 **장치 프로필**을 만들 수 있습니다.
 
-[Azure 포털](https://portal.azure.com) 에서 Intune 장치 플랫폼-iOS, macOS, Android, 및 Windows에 기반 하는 다른 프로필을 만들 수 있습니다. 예, 다음을 수행할 수 있습니다.
+[Azure portal](https://portal.azure.com) 의 Intune을 사용 하면 장치 플랫폼-iOS, macos, Android 및 Windows를 기반으로 다른 프로필을 만들 수 있습니다. 예를 들어 다음을 실행할 수 있습니다.
 
-- Windows 10 장치에서 끝점 보호를 사용 하 여 암호화를 포함 하 여 다양 한 BitLocker 옵션을 사용 하도록 설정 합니다.
-- IOS 장치에서 제한 된 apps 기능을 사용 하 여 설치할 수 있는 승인 된 응용 프로그램의 목록을 만듭니다. 또는 금지 된 앱의 목록을 만듭니다.
-- 키오스크 설정을 사용 하 여 앱 키오스크 모드에서 실행 하는 Android 장치에서 사용할 수 있습니다를 선택 합니다.
-- Wi-fi 연결 및 macOS를 실행 하는 장치에는 보안 종류를 포함 하 여 해당 설정을 적용 합니다.
-- 및 기타 정보
+- Windows 10 장치에서 Endpoint protection을 사용 하 여 암호화를 포함 하 여 서로 다른 BitLocker 옵션을 사용 하도록 설정 합니다.
+- iOS 장치에서 제한 된 앱 기능을 사용 하 여 설치할 수 있는 승인 된 앱 목록을 만듭니다. 또는 금지 된 앱 목록을 만듭니다.
+- 키오스크 설정을 사용 하 여 키오스크 모드에서 실행 되는 Android 장치에서 사용할 수 있는 앱을 선택 합니다.
+- macos를 실행 하는 장치에서 wi-fi 연결과 보안 유형을 포함 한 해당 설정을 적용 합니다.
+- 및 기타
 
-[Microsoft Intune 장치 프로필은 무엇입니까?](https://docs.microsoft.com/intune/device-profiles) 프로필에 대 한 읽기, 프로필을 만드는 방법을 참조 하는 훌륭한 위치가입니다.
+[Microsoft Intune 장치 프로필 이란?](https://docs.microsoft.com/intune/device-profiles) 프로필에 대 한 자세한 내용을 확인 하 고 프로필을 만드는 방법에 대 한 유용한 정보를 제공 합니다.
 
-기억 하 고 작은, 시작 미리 구성 된 방식을 사용 합니다. 파일럿 또는 테스트 그룹에 프로필을 할당 합니다. 그런 다음, 더 많은 파일럿 그룹에 프로필을 할당 합니다.
+small을 시작 하 고 미리 구성 된 접근 방식을 사용 합니다. 파일럿 또는 테스트 그룹에 프로필을 할당 합니다. 그런 다음 더 많은 파일럿 그룹에 프로필을 할당 합니다.
 
-## <a name="step-8-get-to-know-the-other-features"></a>단계 8: 다른 기능을 알고 가져오기
+## <a name="step-8-get-to-know-the-other-features"></a>8 단계: 다른 기능에 대해 알아보기
 
-Intune은 강력한 서비스 및 다양 한 기능을 포함 합니다. 다음은 Intune를 사용 하 여 수행할 수 있는 일부 다른 작업입니다.
+Intune은 강력한 서비스 이며 많은 기능을 포함 합니다. 다음은 Intune을 사용 하 여 수행할 수 있는 몇 가지 작업입니다.
 
-- 소프트웨어 및 Windows [장치](https://docs.microsoft.com/intune/windows-update-for-business-configure)업데이트 관리 & [Pc](https://docs.microsoft.com/intune/keep-windows-pcs-up-to-date-with-software-updates-in-microsoft-intune)및 [iOS](https://docs.microsoft.com/intune/software-updates-ios) 장치
-- [Windows Defender 고급 위협 보호 ATP ()](https://docs.microsoft.com/intune/advanced-threat-protection) 에서 Windows 10 장치를 설정 하 고 규정 준수 및 조건부 액세스를 사용 하 여 SharePoint 또는 Exchange Online 등의 회사 리소스에 대 한 액세스를 보호 하기 위해
-- [감시](https://docs.microsoft.com/intune/lookout-mobile-threat-defense-connector), [Symantec](https://docs.microsoft.com/intune/skycure-mobile-threat-defense-connector)및 기타 모바일 방어 위협 파트너를 사용 하 여
-- 발급 하 고 인증서를 갱신 하는 [파트너 CA (인증 기관)를](https://docs.microsoft.com/intune/certificate-authority-add-scep-overview) 추가 합니다.
-- 회사 포털 응용 프로그램, 가져오는 방법, 앱 및 기타에 대 한 [최종 사용자에 게 제공 지침](https://docs.microsoft.com/intune/end-user-educate)
-- [앱](https://docs.microsoft.com/intune/apps-monitor)모니터링, 모니터 [장치 준수](https://docs.microsoft.com/intune/compliance-policy-monitor), 모니터 [구성 프로필](https://docs.microsoft.com/intune/compliance-policy-monitor)및 감사 로그를 사용 하 여 더 많은 원격 분석 합니다. [Intune 데이터 웨어하우스에](https://docs.microsoft.com/intune/reports-nav-create-intune-reports) 에 연결 하 고 더 많은 보고 요구 사항에 대 한 Power BI를 사용 하 여 수도 있습니다.
+- Windows [장치](https://docs.microsoft.com/intune/windows-update-for-business-configure) & [pc](https://docs.microsoft.com/intune/keep-windows-pcs-up-to-date-with-software-updates-in-microsoft-intune)및 [iOS](https://docs.microsoft.com/intune/software-updates-ios) 장치에서 소프트웨어 및 업데이트 관리
+- windows 10 장치에서 [windows Defender ATP (Advanced Threat Protection)](https://docs.microsoft.com/intune/advanced-threat-protection) 를 설정 하 고 규정 준수 및 조건부 액세스를 사용 하 여 SharePoint 또는 Exchange Online과 같은 회사 리소스에 대 한 액세스를 보호 합니다.
+- [감시](https://docs.microsoft.com/intune/lookout-mobile-threat-defense-connector), [Symantec](https://docs.microsoft.com/intune/skycure-mobile-threat-defense-connector)및 기타 모바일 방어 위협 파트너 사용
+- 인증서 발급 및 갱신을 위한 [파트너 CA (인증 기관)](https://docs.microsoft.com/intune/certificate-authority-add-scep-overview) 추가
+- [최종 사용자에 게](https://docs.microsoft.com/intune/end-user-educate) 회사 포털 앱에 대 한 지침을 제공 하 고 앱을 가져옵니다.
+- 감사 로그를 사용 하 여 [앱](https://docs.microsoft.com/intune/apps-monitor)모니터링, [장치 준수](https://docs.microsoft.com/intune/compliance-policy-monitor)모니터링, [구성 프로필](https://docs.microsoft.com/intune/compliance-policy-monitor)모니터링 및 원격 분석을 수행 합니다. 또한 [Intune 데이터 웨어하우스에](https://docs.microsoft.com/intune/reports-nav-create-intune-reports) 연결 하 고 Power BI를 사용 하 여 더 많은 보고 요구 사항을 추가로 확인할 수도 있습니다.
 
 
 ## <a name="identity-and-device-access-recommendations"></a>ID 및 장치 액세스 권장 사항
 
-Microsoft에 안전 하 고 생산성을 리소스를 확인 하려면 [id 및 장치에 대 한 액세스](microsoft-365-policies-configurations.md) 위한 권장 사항 집합을 제공 합니다. 장치 액세스에 대 한 권장 사항 및 설정을 사용 하는 단계와 함께 다음 문서에서이 단계에서:
+Microsoft에서는 직원 안전과 생산성을 유지하기 위해 [ID 및 디바이스 액세스](microsoft-365-policies-configurations.md)에 대한 권장 사항을 제공합니다. 장치 액세스용으로이 단계에 나와 있는 단계와 함께 다음 문서의 권장 사항과 설정을 사용 합니다.
 
 - [필수 구성 요소](identity-access-prerequisites.md)
 - [일반 ID 및 장치 액세스 정책](identity-access-policies.md)
 
 ## <a name="how-microsoft-does-microsoft-365-enterprise"></a>Microsoft에서 Microsoft 365 Enterprise를 수행하는 방법
 
-Microsoft의 IT 전문가 대 한 데이터를 계획 하 고 이러한 리소스를 사용한 EMS 및 장치 관리를 배포 하는 방법에 대해 알아봅니다.
+Microsoft의 IT 전문가가 다음과 같은 리소스를 사용 하 여 EMS 및 장치 관리를 계획 하 고 배포 하는 방법을 알아봅니다.
 
 - [Enterprise Mobility + Security를 통한 최신 모바일 생산성 관리](https://www.microsoft.com/itshowcase/Article/Content/972/Managing-modern-mobile-productivity-with-Enterprise-Mobility--Security)
 - [Microsoft Intune으로 Windows 10 장치에서 작동하도록 연결](https://www.microsoft.com/itshowcase/Article/Content/783/Connecting-to-work-on-your-Windows-10-device-with-Microsoft-Intune)
@@ -170,11 +170,11 @@ Microsoft의 IT 전문가 대 한 데이터를 계획 하 고 이러한 리소�
 
 ## <a name="how-contoso-did-microsoft-365-enterprise"></a>Contoso의 Microsoft 365 Enterprise 사용 방식
 
-Contoso Corporation, 가상의 하지만 전형적인 다국적 비즈니스 Microsoft 365를 사용 하 여 [자신의 모바일 장치 관리 인프라를 배포](contoso-mdm.md) 를 클라우드 서비스 하는 방법을 참조 하십시오.
+Contoso Corporation (가상의 대표적인 다국적 기업)이 Microsoft 365 클라우드 서비스와 함께 [모바일 장치 관리 인프라를 배포](contoso-mdm.md) 하는 방법을 알아봅니다.
 
 ![](./media/contoso-overview/contoso-icon.png)
 
 ## <a name="next-step"></a>다음 단계
 
-[모바일 장치 관리 인프라 종료 기준](mobility-infrastructure-exit-criteria.md)
+[모바일 장치 관리 인프라 종료 조건](mobility-infrastructure-exit-criteria.md)
 

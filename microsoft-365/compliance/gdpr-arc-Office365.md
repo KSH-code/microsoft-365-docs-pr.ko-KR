@@ -2,20 +2,19 @@
 title: GDPR에 대한 Office 365 책임 준비 상태 검사 목록
 description: 이 ARC(책임 준비 상태 점검 목록)는 Office 365를 사용할 때 GDPR을 지원하는 데 필요한 정보를 제공합니다.
 keywords: GDPR 책임 준비 상태, 책임 준비 상태 점검 목록, Microsoft 365, Microsoft 365 Education, GDPR 설명서, GDPR
-author: BrendaCarter
+author: herviicban
 localization_priority: Priority
-audience: microsoft-business
 ms.prod: microsoft-365-enterprise
 ms.topic: article
-ms.author: bcarter
-manager: bcarter
+ms.author: heicba
+manager: laurawi
 ms.collection: GDPR
-ms.openlocfilehash: 3fe44b99f33db852d5115295662a2556c3efdee6
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: 8c789b233a3fd10745ef718a190d45ec1126e189
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26870322"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32286536"
 ---
 # <a name="accountability-readiness-checklist-for-microsoft-office-365"></a>Microsoft Office 365에 대한 책임 준비 상태 검사 목록
 

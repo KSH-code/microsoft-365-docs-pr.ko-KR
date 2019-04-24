@@ -1,6 +1,6 @@
 ---
-title: Microsoft Office 추가 기능-Microsoft 365 Enterprise를 실행 하는 엔터프라이즈 문서 보호 | Microsoft 문서
-description: Office 추가 기능을 실행 하는 문서에서 엔터프라이즈 데이터를 보호 하기 위해 진행 중 및 Intune를 사용 하는 방법에 설명 합니다.
+title: microsoft Office 추가 기능을 실행 하는 엔터프라이즈 문서 보호-microsoft 365 enterprise | Microsoft Docs
+description: WIP 및 Intune을 사용 하 여 Office 추가 기능을 실행 하는 문서의 엔터프라이즈 데이터를 보호 하는 방법에 대해 설명 합니다.
 author: barlanmsft
 manager: angrobe
 ms.prod: microsoft-365-enterprise
@@ -10,11 +10,11 @@ ms.author: barlan
 ms.reviewer: jsnow
 ms.custom: it-pro
 ms.openlocfilehash: 6871f288a7e5849b147cbf0aedb056f84575f376
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26870013"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32290763"
 ---
 # <a name="use-wip-and-intune-to-protect-enterprise-data-in-documents-running-office-add-ins"></a>WIP 및 Intune을 사용하여 Office 추가 기능을 실행하는 문서의 엔터프라이즈 데이터 보호
 여기서는 조직의 사용자가 Office 추가 기능을 사용하여 조직 데이터와 상호 작용할 때 일부 데이터가 누출될 수 있는 잠재적 위험을 소개합니다. 사용자가 Office 추가 기능을 실행할 때 WIP(Windows Information Protection) 및 Microsoft Intune을 사용하여 엔터프라이즈 데이터를 보호할 수 있습니다.
