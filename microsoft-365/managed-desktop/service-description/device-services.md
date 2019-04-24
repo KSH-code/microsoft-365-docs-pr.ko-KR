@@ -1,45 +1,48 @@
 ---
 title: Microsoft Managed Desktop 장치 서비스
-description: 이 항목에는 장치 서비스 및 Microsoft 관리 되는 데스크톱에 대 한 제한이 나와 있습니다.
-keywords: Microsoft 관리 되는 데스크톱, Microsoft 365 서비스, 설명서
+description: 이 항목에서는 Microsoft Managed Desktop의 장치 서비스 및 제한 사항에 대해 설명 합니다.
+keywords: microsoft Managed Desktop, microsoft 365, 서비스, 설명서
 ms.service: m365-md
 author: jdeckerms
 ms.localizationpriority: normal
-ms.date: 09/24/2018
-ms.openlocfilehash: f83f3ce5e1abc3139a96ea27d7834a2546663e87
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+ms.date: 02/06/2019
+ms.collection: M365-modern-desktop
+ms.openlocfilehash: 01e6edf99ff1aa59517f4f5c7d106cd8724fa04b
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26870088"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32286175"
 ---
-# <a name="microsoft-managed-desktop-device-services"></a><span data-ttu-id="783ba-104">Microsoft Managed Desktop 장치 서비스</span><span class="sxs-lookup"><span data-stu-id="783ba-104">Microsoft Managed Desktop device services</span></span>
+# <a name="microsoft-managed-desktop-device-services"></a><span data-ttu-id="b737d-104">Microsoft Managed Desktop 장치 서비스</span><span class="sxs-lookup"><span data-stu-id="b737d-104">Microsoft Managed Desktop device services</span></span>
 
-<span data-ttu-id="783ba-105">이 항목에서는 설명 하는 서비스 및 Microsoft 관리 되는 데스크톱 장치에 대 한 서비스 제한 합니다.</span><span class="sxs-lookup"><span data-stu-id="783ba-105">This topic lists the services and service limitation for Microsoft Managed Desktop devices.</span></span>
+<span data-ttu-id="b737d-105">이 항목에서는 Microsoft Managed Desktop 장치에 대 한 서비스 및 서비스 제한 사항을 보여 줍니다.</span><span class="sxs-lookup"><span data-stu-id="b737d-105">This topic lists the services and service limitations for Microsoft Managed Desktop devices.</span></span>
 
-## <a name="device-services"></a><span data-ttu-id="783ba-106">장치 서비스</span><span class="sxs-lookup"><span data-stu-id="783ba-106">Device services</span></span>
+## <a name="device-services"></a><span data-ttu-id="b737d-106">장치 서비스</span><span class="sxs-lookup"><span data-stu-id="b737d-106">Device services</span></span>
 
-<span data-ttu-id="783ba-p101">Microsoft는 Microsoft 관리 되는 데스크톱 장치에 대 한 이러한 서비스를 제공 합니다. 프로그램 장치에 대 한 자세한 내용은 [Microsoft 관리 되는 데스크톱 장치](device-list.md) 를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="783ba-p101">Microsoft will provide these services for Microsoft Managed Desktop devices. For more information on program devices, see [Microsoft Managed Desktop devices](device-list.md)</span></span>
-
- | 
- --- | ---
-<span data-ttu-id="783ba-109">지원</span><span class="sxs-lookup"><span data-stu-id="783ba-109">Support</span></span> | <span data-ttu-id="783ba-110">지원 에이전트 직접 장치 기능과 관련 질문에 대답 및 장치 문제를 진단 합니다.</span><span class="sxs-lookup"><span data-stu-id="783ba-110">Support agents will answer questions directly related to device functionality and diagnose device issues.</span></span>
-<span data-ttu-id="783ba-111">대체</span><span class="sxs-lookup"><span data-stu-id="783ba-111">Replacement</span></span> | <span data-ttu-id="783ba-p102">장치 요청 지원 서비스를 통해 수행 된 후와 유사한 장치 대체 됩니다. 검사 세부 정보에 대 한 장치를 선택할 때 선택 하는 보증 조항을 참조 합니다.</span><span class="sxs-lookup"><span data-stu-id="783ba-p102">The device will be replaced with a similar device after a request is made through support. For coverage details, refer to the warranty terms chosen when selecting your devices.</span></span>
-<span data-ttu-id="783ba-114">업그레이드</span><span class="sxs-lookup"><span data-stu-id="783ba-114">Upgrade</span></span> | <span data-ttu-id="783ba-115">장치는 업그레이드 하 고 선택 하는 보증의 조건에 따라 바뀝니다.</span><span class="sxs-lookup"><span data-stu-id="783ba-115">Devices are upgraded and replaced under the terms of the warranty that you select.</span></span>
-<span data-ttu-id="783ba-116">Inventory</span><span class="sxs-lookup"><span data-stu-id="783ba-116">Inventory</span></span> | <span data-ttu-id="783ba-117">모든 장치 인벤토리 및 상태 추적에 대 한 Microsoft 관리 되는 데스크톱 관리 포털에서 추적 합니다.</span><span class="sxs-lookup"><span data-stu-id="783ba-117">All devices are tracked in the Microsoft Managed Desktop Admin portal for inventory and status tracking.</span></span>
-<span data-ttu-id="783ba-118">장치 배송</span><span class="sxs-lookup"><span data-stu-id="783ba-118">Device shipment</span></span> |   <span data-ttu-id="783ba-119">장치는 할당 된 사용자 또는 IT 배포 지점에 직접 제공 됩니다.</span><span class="sxs-lookup"><span data-stu-id="783ba-119">Devices are shipped directly to the assigned user or IT distribution point.</span></span>
-<span data-ttu-id="783ba-120">펌웨어 드라이버를 업데이트 하는 /</span><span class="sxs-lookup"><span data-stu-id="783ba-120">Firmware / driver updates</span></span> | <span data-ttu-id="783ba-121">펌웨어/드라이버 업데이트 배포 및 호환성을 위해 Microsoft에 의해 모니터링 합니다.</span><span class="sxs-lookup"><span data-stu-id="783ba-121">Firmware/Driver updates are deployed and monitored for compatibility by Microsoft.</span></span> 
-<span data-ttu-id="783ba-122">보조</span><span class="sxs-lookup"><span data-stu-id="783ba-122">Accessories</span></span> | <span data-ttu-id="783ba-p103">보조 장치와 함께 제공 되는 동일한 서비스 자체를 장치로 포함 되지만 보증 용어 다를 수 있습니다. 장치를 선택할 때 선택한 보증 용어를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="783ba-p103">Accessories that come with your device are covered by the same services as the device itself, but warranty terms may differ. Refer to the warranty terms chosen when selecting your devices.</span></span> 
-<span data-ttu-id="783ba-125">장치 설정</span><span class="sxs-lookup"><span data-stu-id="783ba-125">Device setup</span></span>    | <span data-ttu-id="783ba-126">장치 현재 버전의 Windows와 미리 구성 하 고 해당 앱 및 클라우드를 통해 구성 수신 합니다.</span><span class="sxs-lookup"><span data-stu-id="783ba-126">Devices will be pre-configured with the current version of Windows and receive their apps and configurations via the cloud.</span></span> 
-
-## <a name="device-service-limitations"></a><span data-ttu-id="783ba-127">장치 서비스 제한</span><span class="sxs-lookup"><span data-stu-id="783ba-127">Device service limitations</span></span>
-
-<span data-ttu-id="783ba-128">Microsoft는 이러한 항목에 대 한 서비스를 제공 하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="783ba-128">Microsoft will not provide service for these items.</span></span>
+<span data-ttu-id="b737d-107">microsoft는 이러한 서비스를 microsoft Managed Desktop 장치에 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="b737d-107">Microsoft will provide these services for Microsoft Managed Desktop devices.</span></span> <span data-ttu-id="b737d-108">microsoft managed desktop program 장치에 대 한 자세한 내용은 [microsoft managed desktop devices](device-list.md)를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="b737d-108">For information on Microsoft Managed Desktop program devices, see [Microsoft Managed Desktop devices](device-list.md).</span></span>
 
  | 
  --- | ---
-<span data-ttu-id="783ba-129">기타 액세서리</span><span class="sxs-lookup"><span data-stu-id="783ba-129">Other accessories</span></span> | <span data-ttu-id="783ba-130">장치에서 제공 하는 보조만 지원 됩니다.</span><span class="sxs-lookup"><span data-stu-id="783ba-130">Only accessories shipped with the device are supported.</span></span>
-<span data-ttu-id="783ba-131">개인 설정</span><span class="sxs-lookup"><span data-stu-id="783ba-131">Personalization</span></span> | <span data-ttu-id="783ba-p104">장치 및 서비스와 함께 제공 되는 보조 사용자 지정할 수 없습니다. 모든 장치 및 보조 표준 브랜딩, 사양 및 색상 조합을 함께 제공 됩니다. 응용 프로그램 배포 및 정책 구성 IT로-서비스를 통해 처리 됩니다.</span><span class="sxs-lookup"><span data-stu-id="783ba-p104">Devices and accessories provided with the service are unable to be customized. All devices and accessories are provided with standard branding, specification, and color combinations. Application deployment and policy configurations are handled through IT-as-a-Service.</span></span>
-<span data-ttu-id="783ba-135">복구</span><span class="sxs-lookup"><span data-stu-id="783ba-135">Repair</span></span> | <span data-ttu-id="783ba-p105">장치는 복구 하지 않습니다. 위에서 설명한 대로 대체 장치를 전달 됩니다.</span><span class="sxs-lookup"><span data-stu-id="783ba-p105">Devices are not repaired. Replacement devices will be shipped as described above.</span></span>
-<span data-ttu-id="783ba-138">데이터 복구</span><span class="sxs-lookup"><span data-stu-id="783ba-138">Data recovery</span></span> | <span data-ttu-id="783ba-p106">개인 설정를 비롯 하 여 사용자 및 팀 데이터만 로컬로 상주 하는 캐시 데이터와, 비즈니스용 OneDrive에 저장 됩니다. 의도적으로 데이터 장치의 내부 저장소 시스템에 저장을 하는 경우 모든 데이터 복구를 시도 하 고 Microsoft에 장치를 반환 하기 전에 완료 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="783ba-p106">User and team data, including personalization, is stored in OneDrive for Business, with only cache data residing locally. If data is intentionally stored on the device’s internal storage system, any data recovery must be attempted and completed prior to returning the device to Microsoft.</span></span>
-<span data-ttu-id="783ba-141">장치 설정</span><span class="sxs-lookup"><span data-stu-id="783ba-141">Device setup</span></span> | <span data-ttu-id="783ba-142">장치에 전원을 공급 하 고 고객에 의해 설정에 필요한 곳 고객 주소로 배달 됩니다.</span><span class="sxs-lookup"><span data-stu-id="783ba-142">Devices are delivered to the customer address, where they need to be powered on and set up by the customer.</span></span>
+<span data-ttu-id="b737d-109">지원</span><span class="sxs-lookup"><span data-stu-id="b737d-109">Support</span></span> | <span data-ttu-id="b737d-110">지원 에이전트는 장치 기능과 직접적으로 관련 된 질문에 답하고 장치 문제를 진단 합니다.</span><span class="sxs-lookup"><span data-stu-id="b737d-110">Support agents will answer questions directly related to device functionality and diagnose device issues.</span></span>
+<span data-ttu-id="b737d-111">인벤터리</span><span class="sxs-lookup"><span data-stu-id="b737d-111">Inventory</span></span> | <span data-ttu-id="b737d-112">모든 장치는 Microsoft Managed Desktop administration portal for inventory 및 상태 추적에서 추적 됩니다.</span><span class="sxs-lookup"><span data-stu-id="b737d-112">All devices are tracked in the Microsoft Managed Desktop Admin portal for inventory and status tracking.</span></span>
+<span data-ttu-id="b737d-113">펌웨어/드라이버 업데이트</span><span class="sxs-lookup"><span data-stu-id="b737d-113">Firmware / driver updates</span></span> | <span data-ttu-id="b737d-114">펌웨어/드라이버 업데이트는 Microsoft의 호환성을 위해 배포 및 모니터링 됩니다.</span><span class="sxs-lookup"><span data-stu-id="b737d-114">Firmware/Driver updates are deployed and monitored for compatibility by Microsoft.</span></span> 
+<span data-ttu-id="b737d-115">용품</span><span class="sxs-lookup"><span data-stu-id="b737d-115">Accessories</span></span> | <span data-ttu-id="b737d-116">장치와 함께 제공 되는 액세서리는 장치 자체와 동일한 서비스에 포함 되지만, 무상 수리 기간은 다를 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b737d-116">Accessories that come with your device are covered by the same services as the device itself, but warranty terms may differ.</span></span> <span data-ttu-id="b737d-117">장치를 선택할 때 선택한 무상 수리 조항를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="b737d-117">Refer to the warranty terms chosen when selecting your devices.</span></span> 
+<span data-ttu-id="b737d-118">장치 설정</span><span class="sxs-lookup"><span data-stu-id="b737d-118">Device setup</span></span>    | <span data-ttu-id="b737d-119">장치는 현재 버전의 Windows를 사용 하 여 미리 구성 되며 클라우드를 통해 해당 앱 및 구성을 수신 합니다.</span><span class="sxs-lookup"><span data-stu-id="b737d-119">Devices will be pre-configured with the current version of Windows and receive their apps and configurations via the cloud.</span></span> 
+
+<span data-ttu-id="b737d-120">장치 교체, 업그레이드 및 지원 약관에 대 한 자세한 내용은 디바이스 공급자 및 무상 수리 약관에 동의 합니다 .를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="b737d-120">For information on device replacement, upgrades, and support terms, see your agreement with your device provider and your warranty terms.</span></span>
+
+<span data-ttu-id="b737d-121">화면 보증 및 복구에 대 한 자세한 내용은 다음을 수행 합니다.</span><span class="sxs-lookup"><span data-stu-id="b737d-121">For information on Surface warranties and repairs:</span></span>
+- [<span data-ttu-id="b737d-122">장치에 대 한 보증, 확장 서비스 계획 및 용어</span><span class="sxs-lookup"><span data-stu-id="b737d-122">Warranties, extended service plans, and terms and conditions for your device</span></span>](https://support.microsoft.com/help/4040687/info-about-warranties-extended-service-plans-and-terms-conditions)
+- [<span data-ttu-id="b737d-123">노출 표준 보증</span><span class="sxs-lookup"><span data-stu-id="b737d-123">Surface standard warranty</span></span>](https://support.microsoft.com/help/4036296)
+- [<span data-ttu-id="b737d-124">장치 서비스 및 복구</span><span class="sxs-lookup"><span data-stu-id="b737d-124">Device service and repair</span></span>](https://support.microsoft.com/devices)
+
+## <a name="device-service-limitations"></a><span data-ttu-id="b737d-125">장치 서비스 제한 사항</span><span class="sxs-lookup"><span data-stu-id="b737d-125">Device service limitations</span></span>
+
+<span data-ttu-id="b737d-126">Microsoft는 이러한 항목에 대 한 서비스를 제공 하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="b737d-126">Microsoft will not provide service for these items.</span></span>
+
+ | 
+ --- | ---
+<span data-ttu-id="b737d-127">개인 설정</span><span class="sxs-lookup"><span data-stu-id="b737d-127">Personalization</span></span> | <span data-ttu-id="b737d-128">서비스와 함께 제공 되는 장치 및 액세서리는 사용자 지정할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="b737d-128">Devices and accessories provided with the service are unable to be customized.</span></span> <span data-ttu-id="b737d-129">모든 장치 및 액세서리는 표준 브랜딩, 사양 및 색 조합으로 제공 됩니다.</span><span class="sxs-lookup"><span data-stu-id="b737d-129">All devices and accessories are provided with standard branding, specification, and color combinations.</span></span> <span data-ttu-id="b737d-130">응용 프로그램 배포 및 정책 구성은이를 서비스를 통해 처리 됩니다.</span><span class="sxs-lookup"><span data-stu-id="b737d-130">Application deployment and policy configurations are handled through IT-as-a-Service.</span></span>
+<span data-ttu-id="b737d-131">데이터 복구</span><span class="sxs-lookup"><span data-stu-id="b737d-131">Data recovery</span></span> | <span data-ttu-id="b737d-132">개인 설정을 비롯 한 사용자 및 팀 데이터는 비즈니스용 OneDrive에 저장 되며 로컬에만 캐시 데이터만 포함 됩니다.</span><span class="sxs-lookup"><span data-stu-id="b737d-132">User and team data, including personalization, is stored in OneDrive for Business, with only cache data residing locally.</span></span> <span data-ttu-id="b737d-133">데이터를 의도적으로 장치의 내부 저장 시스템에 저장 한 경우에는 장치를 Microsoft에 반환 하기 전에 모든 데이터 복구를 시도 하 고 완료 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="b737d-133">If data is intentionally stored on the device’s internal storage system, any data recovery must be attempted and completed prior to returning the device to Microsoft.</span></span>
+<span data-ttu-id="b737d-134">장치 설정</span><span class="sxs-lookup"><span data-stu-id="b737d-134">Device setup</span></span> | <span data-ttu-id="b737d-135">장치는 고객에 게 제공 되며 고객에 의해 설정 되 고 전원이 켜져 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="b737d-135">Devices are delivered to the customer address, where they need to be powered on and set up by the customer.</span></span>

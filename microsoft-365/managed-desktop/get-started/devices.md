@@ -1,56 +1,57 @@
 ---
-title: Microsoft 관리 되는 데스크톱에 순서 장치
+title: Microsoft Managed Desktop에서 장치 주문
 description: ''
-keywords: Microsoft 관리 되는 데스크톱, Microsoft 365 서비스, 설명서
+keywords: microsoft Managed Desktop, microsoft 365, 서비스, 설명서
 ms.service: m365-md
 author: trudyha
 ms.localizationpriority: normal
 ms.date: 09/25/2018
-ms.openlocfilehash: 75098621f505513f6855b08e9cd9816992e95a86
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+ms.collection: M365-modern-desktop
+ms.openlocfilehash: 88efccaf3970f58281338e436edbb7110df2a7de
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26870316"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32289505"
 ---
-# <a name="order-microsoft-managed-desktop-devices"></a><span data-ttu-id="aeae7-103">순서 Microsoft 관리 되는 데스크톱 장치</span><span class="sxs-lookup"><span data-stu-id="aeae7-103">Order Microsoft Managed Desktop devices</span></span>
+# <a name="order-microsoft-managed-desktop-devices"></a><span data-ttu-id="ad98a-103">Microsoft Managed Desktop 장치 주문</span><span class="sxs-lookup"><span data-stu-id="ad98a-103">Order Microsoft Managed Desktop devices</span></span>
 
-<span data-ttu-id="aeae7-p101">Microsoft는 아래에서 설명한 대로 필요한 소규모 쇼핑 경험에 미국 (미국), 시험 사용 현재 합니다. 미국 외부에서 참가 하 고 있는 또는 50 개 이상의 장치에 대 한 장치 순서가, 하는 경우 작업을 승인 된 장치 파트너 중 하나에 좋습니다. Microsoft 계정 대화 상대가 장치 파트너 관계를 설정 하는 자세한 도움말에 대 한 교류할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="aeae7-p101">Microsoft is currently piloting a small-scale shopping experience in the United States (US), as described below. If you’re outside of the US or your device order is for more than 50 devices, we recommend working with one of our approved device partners. You can reach out to your Microsoft account contact for more help setting up a device partnership.</span></span>
+<span data-ttu-id="ad98a-104">Microsoft는 현재 아래 설명 된 것 처럼 미국 (미국)에서 소규모 쇼핑 환경을 조종 하 고 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ad98a-104">Microsoft is currently piloting a small-scale shopping experience in the United States (US), as described below.</span></span> <span data-ttu-id="ad98a-105">사용자가 미국 외부에 있거나 장치 순서가 50 개를 초과 하는 경우 승인 된 장치 파트너 중 하나를 사용 하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="ad98a-105">If you’re outside of the US or your device order is for more than 50 devices, we recommend working with one of our approved device partners.</span></span> <span data-ttu-id="ad98a-106">장치 파트너 관계 설정에 대 한 자세한 도움말을 보려면 Microsoft 계정 담당자에 게 문의 하세요.</span><span class="sxs-lookup"><span data-stu-id="ad98a-106">You can reach out to your Microsoft account contact for more help setting up a device partnership.</span></span>
 
-<span data-ttu-id="aeae7-107">Microsoft 관리 되는 데스크톱에 대 한 장치를 주문 해야는 방법</span><span class="sxs-lookup"><span data-stu-id="aeae7-107">How should I order devices for Microsoft Managed Desktop?</span></span>
+<span data-ttu-id="ad98a-107">Microsoft Managed Desktop에 대 한 장치를 주문 하려면 어떻게 해야 하나요?</span><span class="sxs-lookup"><span data-stu-id="ad98a-107">How should I order devices for Microsoft Managed Desktop?</span></span>
 
   |   
  --- | ---
-<span data-ttu-id="aeae7-108">미국, 대한민국, 내에서 50 개 미만임 장치 순서</span><span class="sxs-lookup"><span data-stu-id="aeae7-108">From within the United States, ordering less than 50 devices</span></span> | [<span data-ttu-id="aeae7-109">Microsoft 관리 되는 데스크톱 관리 포털에서 순서</span><span class="sxs-lookup"><span data-stu-id="aeae7-109">Order from Microsoft Managed Desktop Admin portal</span></span>](https://aka.ms/mmdportal)
-<span data-ttu-id="aeae7-110">미국, 대한민국의 외부</span><span class="sxs-lookup"><span data-stu-id="aeae7-110">Outside of the United States</span></span> | <span data-ttu-id="aeae7-111">Microsoft 계정 팀에 게 문의</span><span class="sxs-lookup"><span data-stu-id="aeae7-111">Contact your Microsoft Account team</span></span>
-<span data-ttu-id="aeae7-112">50 개 이상의 장치 순서</span><span class="sxs-lookup"><span data-stu-id="aeae7-112">Ordering more than 50 devices</span></span> | <span data-ttu-id="aeae7-113">Microsoft 계정 팀에 게 문의</span><span class="sxs-lookup"><span data-stu-id="aeae7-113">Contact your Microsoft Account team</span></span>
+<span data-ttu-id="ad98a-108">미국 내에서 50 보다 낮은 장치를 주문 합니다.</span><span class="sxs-lookup"><span data-stu-id="ad98a-108">From within the United States, ordering less than 50 devices</span></span> | [<span data-ttu-id="ad98a-109">Microsoft Managed Desktop administration 포털의 주문</span><span class="sxs-lookup"><span data-stu-id="ad98a-109">Order from Microsoft Managed Desktop Admin portal</span></span>](https://aka.ms/mmdportal)
+<span data-ttu-id="ad98a-110">미국 외 지역</span><span class="sxs-lookup"><span data-stu-id="ad98a-110">Outside of the United States</span></span> | <span data-ttu-id="ad98a-111">Microsoft 계정 팀에 문의</span><span class="sxs-lookup"><span data-stu-id="ad98a-111">Contact your Microsoft Account team</span></span>
+<span data-ttu-id="ad98a-112">50 개 보다 많은 장치 주문</span><span class="sxs-lookup"><span data-stu-id="ad98a-112">Ordering more than 50 devices</span></span> | <span data-ttu-id="ad98a-113">Microsoft 계정 팀에 문의</span><span class="sxs-lookup"><span data-stu-id="ad98a-113">Contact your Microsoft Account team</span></span>
 
-## <a name="order-devices"></a><span data-ttu-id="aeae7-114">장치 정렬</span><span class="sxs-lookup"><span data-stu-id="aeae7-114">Order devices</span></span>
-<span data-ttu-id="aeae7-p102">미국에 거주 순서 장치에 이러한 지침을 따르십시오. **관리 되는 데스크톱 관리 포털**에는 Microsoft 시작할 수 있지만 **비즈니스를 위한 Microsoft 저장소**를 통해 구매할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="aeae7-p102">Use these instructions to order devices in the United States. You'll start in the Microsoft **Managed Desktop Admin portal**, but you'll make the purchases through **Microsoft Store for Business**.</span></span> 
+## <a name="order-devices"></a><span data-ttu-id="ad98a-114">장치 주문</span><span class="sxs-lookup"><span data-stu-id="ad98a-114">Order devices</span></span>
+<span data-ttu-id="ad98a-115">다음 지침에 따라 미국에서 장치를 주문 합니다.</span><span class="sxs-lookup"><span data-stu-id="ad98a-115">Use these instructions to order devices in the United States.</span></span> <span data-ttu-id="ad98a-116">microsoft **Managed Desktop administration portal**을 시작 하지만 **microsoft Store for Business**를 통해 구매할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ad98a-116">You'll start in the Microsoft **Managed Desktop Admin portal**, but you'll make the purchases through **Microsoft Store for Business**.</span></span> 
 
- <span data-ttu-id="aeae7-117">**주문 장치**</span><span class="sxs-lookup"><span data-stu-id="aeae7-117">**To order devices**</span></span>
- 1. <span data-ttu-id="aeae7-118">[Microsoft 관리 되는 데스크톱 관리 포털](https://aka.ms/mmdportal) 에 로그인</span><span class="sxs-lookup"><span data-stu-id="aeae7-118">Sign in to [Microsoft Managed Desktop Admin portal](https://aka.ms/mmdportal)</span></span>
- 2. <span data-ttu-id="aeae7-119">순서 장치에서 시작에서 **주문 장치에는 비즈니스를 위한 Open Microsoft 저장소**를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="aeae7-119">On Getting Started, under Order Devices, select **Open Microsoft Store for Business to order devices**.</span></span>
+ <span data-ttu-id="ad98a-117">**장치를 주문 하려면**</span><span class="sxs-lookup"><span data-stu-id="ad98a-117">**To order devices**</span></span>
+ 1. <span data-ttu-id="ad98a-118">[Microsoft Managed Desktop administration 포털](https://aka.ms/mmdportal) 에 로그인</span><span class="sxs-lookup"><span data-stu-id="ad98a-118">Sign in to [Microsoft Managed Desktop Admin portal](https://aka.ms/mmdportal)</span></span>
+ 2. <span data-ttu-id="ad98a-119">시작 하는 중 장치 주문에서 **Microsoft Store for Business 스토어에서 장치를 주문**합니다 .를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="ad98a-119">On Getting Started, under Order Devices, select **Open Microsoft Store for Business to order devices**.</span></span>
  
-    ![장치를 주문 시작 하기](images/mmd-order-devices.png)
+    ![시작 하기, 장치를 주문 합니다.](images/mmd-order-devices.png)
     
-3. <span data-ttu-id="aeae7-p103">비즈니스를 위한 Microsoft 저장소에서 Microsoft 관리 되는 데스크톱 및 사용할 수 있는 장치에 대 한 비교 차트에 대 한 정보를 검토할 수 있습니다. 장치를 선택 하려면 **구입** 을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="aeae7-p103">In Microsoft Store for Business, you can review info about Microsoft Managed Desktop and a comparison chart of the devices available. Click **Buy** to choose a device.</span></span> 
+3. <span data-ttu-id="ad98a-121">microsoft Store for Business에서는 microsoft Managed Desktop에 대 한 정보 및 사용 가능한 장치에 대 한 비교 차트를 검토할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ad98a-121">In Microsoft Store for Business, you can review info about Microsoft Managed Desktop and a comparison chart of the devices available.</span></span> <span data-ttu-id="ad98a-122">장치를 선택 하려면 **구입** 을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="ad98a-122">Click **Buy** to choose a device.</span></span> 
 
-    ![비즈니스, 구입에 대 한 저장소](images/msfb-buy.png)
+    ![비즈니스용 스토어, 구입](images/msfb-buy.png)
 
-4. <span data-ttu-id="aeae7-124">**장치를 선택**하십시오에서 원하는 장치를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="aeae7-124">On **Pick your device**, select the device you want.</span></span> 
+4. <span data-ttu-id="ad98a-124">**장치 선택**에서 원하는 장치를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="ad98a-124">On **Pick your device**, select the device you want.</span></span> 
 
-    ![비즈니스, 픽업 장치에 대 한 저장소](images/msfb-pick-device.png)
+    ![비즈니스용 스토어, 장치 선택](images/msfb-pick-device.png)
 
-5. <span data-ttu-id="aeae7-126">**Choose 장치 기능** **서비스 계획**을 선택, 장치 수를 입력 하 고 **카트에 추가**클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="aeae7-126">On **Choose device features**, select a **Service Plan**, type the number of devices, and then click **Add to Cart**.</span></span>
+5. <span data-ttu-id="ad98a-126">**장치 기능 선택**에서 **서비스 계획**을 선택 하 고 장치 수를 입력 한 후 **카트에 추가**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="ad98a-126">On **Choose device features**, select a **Service Plan**, type the number of devices, and then click **Add to Cart**.</span></span>
 
-6. <span data-ttu-id="aeae7-127">카트를 검토 하 고 **체크아웃**또는 **다른 장치 추가**선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="aeae7-127">Review your Cart and then select **Checkout**, or **Add another device**.</span></span> 
+6. <span data-ttu-id="ad98a-127">카트를 검토 한 다음 **체크 아웃**을 선택 하거나 **다른 디바이스를 추가**합니다.</span><span class="sxs-lookup"><span data-stu-id="ad98a-127">Review your Cart and then select **Checkout**, or **Add another device**.</span></span> 
 
-7. <span data-ttu-id="aeae7-128">체크아웃 프로세스를 계속, 검토 하 여 가격, 라이선스 조건에 동의한 **기호 및 전체 순서를**선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="aeae7-128">Continue the checkout process, review your pricing, accept licensing terms, and select **Sign and Place Order**.</span></span> 
+7. <span data-ttu-id="ad98a-128">체크아웃 프로세스를 계속 진행 하 고 가격 산정을 검토 한 다음 사용권 조항에 동의 하 고 **서명 및 주문 위치**를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="ad98a-128">Continue the checkout process, review your pricing, accept licensing terms, and select **Sign and Place Order**.</span></span> 
 
-<span data-ttu-id="aeae7-129">장치는 일반적으로 3 일 이내에 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="aeae7-129">Devices usually ship within three days.</span></span> 
+<span data-ttu-id="ad98a-129">장치는 일반적으로 3 일 이내에 제공 됩니다.</span><span class="sxs-lookup"><span data-stu-id="ad98a-129">Devices usually ship within three days.</span></span> 
 
-<span data-ttu-id="aeae7-p104">순서 지정 장치를 마치면 [Microsoft 관리 되는 데스크톱 관리 포털](https://aka.ms/mmdportal)에 순서가 지정 된 장치를 확인할 수 있습니다. **재고** **장치**를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="aeae7-p104">When you're done ordering devices, you can check the devices you ordered in [Microsoft Managed Desktop Admin portal](https://aka.ms/mmdportal). Under **Inventory**, select **Devices**.</span></span> 
+<span data-ttu-id="ad98a-130">장치 순서가 끝나면 [Microsoft Managed Desktop Admin 포털](https://aka.ms/mmdportal)에서 주문한 장치를 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ad98a-130">When you're done ordering devices, you can check the devices you ordered in [Microsoft Managed Desktop Admin portal](https://aka.ms/mmdportal).</span></span> <span data-ttu-id="ad98a-131">**인벤토리에서** **장치**를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="ad98a-131">Under **Inventory**, select **Devices**.</span></span> 
 
-<span data-ttu-id="aeae7-p105">장치 도착 하는 경우에 직원에 게 배포 합니다. 추가 설정, 또는 과정은 없습니다 구성이 필요 합니다.</span><span class="sxs-lookup"><span data-stu-id="aeae7-p105">When devices arrive, distribute them to your employees. There's no additional set up, or configuration required.</span></span> 
+<span data-ttu-id="ad98a-132">장치가 도착 하면 직원에 게 배포 합니다.</span><span class="sxs-lookup"><span data-stu-id="ad98a-132">When devices arrive, distribute them to your employees.</span></span> <span data-ttu-id="ad98a-133">추가 설정 또는 필수 구성도 없습니다.</span><span class="sxs-lookup"><span data-stu-id="ad98a-133">There's no additional set up, or configuration required.</span></span> 
 
