@@ -3,7 +3,7 @@ title: Microsoft 365 테스트 환경을 위한 암호 쓰기 저장
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 04/16/2019
+ms.date: 04/19/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -16,12 +16,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: ''
 description: '요약: Microsoft 365 테스트 환경을 위한 암호 쓰기 저장을 구성합니다.'
-ms.openlocfilehash: 11a0efbae09c36098a19725187cd43b53850f4fc
-ms.sourcegitcommit: db52a11eb192a28dbec827c565e36ad4a81d8e3f
+ms.openlocfilehash: e2ccbe251c4e62790331b949f163816f789436cb
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2019
-ms.locfileid: "31901222"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291453"
 ---
 # <a name="password-writeback-for-your-microsoft-365-test-environment"></a>Microsoft 365 테스트 환경을 위한 암호 쓰기 저장
 
@@ -39,7 +39,7 @@ ms.locfileid: "31901222"
 > [!TIP]
 > [여기](https://aka.ms/m365etlgstack)를 클릭하여 Microsoft 365 Enterprise 테스트 랩 가이드 스택의 모든 문서에 대한 가상 맵을 확인할 수 있습니다.
   
-## <a name="phase-1-configure-password-hash-synchronization-and-password-reset-for-your-microsoft-365-test-environment"></a>1단계: Microsoft 365 테스트 환경을 위한 암호 해시 동기화 및 암호 다시 설정 구성
+## <a name="phase-1-configure-password-hash-synchronization-for-your-microsoft-365-test-environment"></a>1단계: Microsoft 365 테스트 환경을 위한 암호 해시 동기화 구성
 
 먼저 [암호 해시 동기화](password-hash-sync-m365-ent-test-environment.md) 지침을 따릅니다. 결과 구성은 다음과 같습니다.
   
@@ -50,10 +50,6 @@ ms.locfileid: "31901222"
 - Office 365 E5 및 EMS E5 평가판 또는 유료 구독
 - 인터넷에 연결된 간소화된 조직 인트라넷: Azure Virtual Network 서브넷에 있는 DC1, APP1 및 CLIENT1 가상 머신으로 구성됩니다. 
 - Azure AD Connect는 테스트 랩 AD DS 도메인을 Office 365 및 EMS E5 구독의 Azure AD 테넌트와 동기화하기 위해 APP1에서 실행됩니다.
-
-다음으로 [암호 다시 설정 2단계](password-reset-m365-ent-test-environment.md#phase-2-configure-and-test-password-reset) 테스트 랩 가이드의 지침을 따릅니다.
-
-암호 쓰기 저장을 사용하려면 암호를 다시 설정할 수 있도록 설정해야 합니다.
 
 ## <a name="phase-2-enable-password-writeback-for-the-testlab-ad-ds-domain"></a>2단계: 테스트랩 AD DS 도메인에 대한 암호 쓰기 저장을 사용하도록 설정
 

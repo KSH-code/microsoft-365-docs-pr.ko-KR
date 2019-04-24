@@ -9,16 +9,16 @@ ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
 ms.collection:
-- Ent_O365
+- M365-modern-desktop
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Microsoft 365 Enterprise에 대한 Office 365 ProPlus 인프라를 배포하는 단계입니다.
-ms.openlocfilehash: 3f6630d4c120609cbb1737ad96644d43eb2fda3c
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: c4fc3805dd2ea97e1a9797e5adfc31ab83f028ae
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26870251"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32290951"
 ---
 # <a name="phase-4-office-365-proplus"></a>4단계: Office 365 ProPlus
 
@@ -62,7 +62,7 @@ Office 365 ProPlus를 배포하기 전에 [Office 365 ProPlus를 배포하기 �
 
 사용자 환경을 평가한 후에는 [Office 365 ProPlus 배포 계획](https://docs.microsoft.com/DeployOffice/plan-office-365-proplus)의 지침에 따라 배포 계획을 만듭니다. 이 계획에는 다음과 같은 의사 결정이 포함됩니다. 
 
-- 사용할 도구(예: System Center Configuration Manger 또는 ODT[Office 배포 도구]) 및 Office 설치 위치 등 Office를 배포하는 방법
+- 사용할 도구(예: System Center Configuration Manager 또는 ODT[Office 배포 도구]) 및 Office 설치 위치 등 Office를 배포하는 방법
 - Office에 대한 업데이트를 관리하는 방법
 - 사용할 업데이트 채널(Office의 업데이트 채널에 따라 사용자에게 Office 응용 프로그램에 대한 기능 업데이트가 제공되는 빈도가 달라짐)
 - 어떤 사용자에게 어떤 Office 응용 프로그램 및 언어를 설치해야 하는지를 포함하여 사용할 Office 설치 패키지 및 배포 그룹
@@ -89,7 +89,6 @@ Office 365 ProPlus를 배포하기 전에 [Office 365 ProPlus를 배포하기 �
 
 다음 리소스에서는 전문가가 Microsoft 365 Enterprise에서 Office 365 ProPlus를 계획하고 배포한 방식을 알아봅니다.
 
-- [원활한 Office 365 ProPlus 2016 배포를 위해 조직 준비](https://www.microsoft.com/itshowcase/Office365adoption)
 - [Microsoft Office 365 ProPlus 배포 및 업데이트](https://www.microsoft.com/itshowcase/Article/Content/757/Deploying-and-updating-Microsoft-Office-365-ProPlus)
 - [Microsoft Office 365 ProPlus를 배포하는 데 도움이 되는 자동화 및 업데이트 채널](https://www.microsoft.com/itshowcase/Article/Content/794/Automation-and-update-channels-help-deploy-Microsoft-Office-365-ProPlus)(비디오)
 

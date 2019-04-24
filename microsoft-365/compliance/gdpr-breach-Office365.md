@@ -2,21 +2,21 @@
 title: GDPR의 Office 365 위반 알림
 description: Microsoft가 개인 데이터 위반으로부터 보호하는 방법 및 Microsoft가 위반 발생 시 대응하고 사용자에게 알리는 방법입니다.
 keywords: Office 365, Microsoft 365, Microsoft 365 Education, Microsoft 365 설명서, GDPR
-author: BrendaCarter
+author: herviicban
 localization_priority: Priority
-audience: itpro
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
 ms.date: 04/13/2018
-ms.author: bcarter
+ms.author: heicba
 manager: laurawi
+audience: itpro
 ms.collection: GDPR
-ms.openlocfilehash: c2ee959aad883516f03e903d34f517b4e76e4864
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: 6b91b489d8d69faffa0852c3e352a6b2e9e9d496
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26870191"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32286368"
 ---
 # <a name="office-365-breach-notification-under-the-gdpr"></a>GDPR의 Office 365 위반 알림
 

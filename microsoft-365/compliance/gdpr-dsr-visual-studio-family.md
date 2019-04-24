@@ -4,21 +4,21 @@ description: GDPR에 대한 Visual Studio 제품군 데이터 주체 요청
 keywords: Visual Studio, Visual Studio Code, Mac용 Visual Studio, Visual Studio 설명서, 개인 정보, GDPR
 localization_priority: Priority
 audience: itpro
-ms.prod: visual-studio
+ms.prod: visual-studio-family
 ms.topic: article
 ms.date: 05/24/2018
 author: PoulChapman
-ms.author: pchapman
-manager: scalla
+ms.author: olholder
+manager: pchapman
 ms.collection: GDPR
 ms.workload:
 - multiple
-ms.openlocfilehash: 09bba28648cbee6dd32c2005bcb584e97a4c534e
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: 5b07cefa4a850d5de7c858f180c8f7688fd0a6d7
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26870042"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32286926"
 ---
 # <a name="visual-studio-family-data-subject-requests-for-the-gdpr"></a>GDPR에 대한 Visual Studio 제품군 데이터 주체 요청
 
@@ -101,7 +101,7 @@ Microsoft는 사용자가 Visual Studio 제품군 제품에 대해 보고한 문
 
 피드백 관련 데이터를 보려면 다음 단계를 따릅니다.
 
-1. [개발자 커뮤니티](https://developercommunity.visualstudio.com)에 로그인합니다. 오른쪽 상단에서 프로필을 클릭하고 **프로필 및 기본 설정**을 선택합니다.
+1. [개발자 커뮤니티](https://developercommunity.visualstudio.com)에 로그인합니다. 오른쪽 상단 모서리에서 프로필을 클릭하고 **프로필 및 환경 설정**을 선택합니다.
 2. **프로필**, **알림**, **활동** 및 **첨부 파일** 탭 중 하나를 클릭하면 피드백 시스템에 제출된 데이터를 볼 수 있습니다.
    1. **프로필**은 사용자 이름, 전자 메일 주소, 정보 등이 포함된 [개발자 커뮤니티](https://developercommunity.visualstudio.com)를 나타냅니다.
    2. **알림**은 받은 전자 메일 알림을 제어하는 방법입니다.
@@ -121,7 +121,7 @@ Microsoft는 사용자가 Visual Studio 제품군 제품에 대해 보고한 문
 
 내보내기를 시작하려면 다음 단계를 따릅니다.
 
-1. [개발자 커뮤니티](https://developercommunity.visualstudio.com)에 로그인합니다. 오른쪽 상단에서 프로필을 클릭하고 **프로필 및 기본 설정**을 선택합니다.
+1. [개발자 커뮤니티](https://developercommunity.visualstudio.com)에 로그인합니다. 오른쪽 상단 모서리에서 프로필을 클릭하고 **프로필 및 환경 설정**을 선택합니다.
 2. **개인 정보 보호** 탭을 클릭하고** 보관함 만들기**를 클릭하여 데이터 내보내기를 요청합니다.
 3. **보관함 상태**가 업데이트되어 데이터 준비 중임을 나타냅니다. 데이터를 사용할 수 있게 되기까지 시간은 내보내려는 데이터 양에 따라 다릅니다.
 4. 데이터가 준비되면 전자 메일이 수신됩니다.
