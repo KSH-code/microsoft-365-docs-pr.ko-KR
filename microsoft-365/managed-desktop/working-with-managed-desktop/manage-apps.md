@@ -1,28 +1,69 @@
 ---
 title: Microsoft Managed Desktop에서 앱 관리
-description: ''
-keywords: Microsoft 관리 되는 데스크톱, Microsoft 365 서비스, 설명서
+description: Microsoft Managed Desktop 장치에 배포 되는 기간 업무 (lob) 앱 업데이트 방법에 대 한 정보
+keywords: microsoft Managed Desktop, microsoft 365, 서비스, 설명서
 ms.service: m365-md
 author: trudyha
 ms.localizationpriority: normal
-ms.date: 09/24/2018
-ms.openlocfilehash: 6bd9d943384dce059ebc5a2d0a04e531ef652015
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+ms.date: 01/18/2019
+ms.collection: M365-modern-desktop
+ms.openlocfilehash: ce2765ef2ab176dc5d9a1d41db7e26549b007d79
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26870055"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32285948"
 ---
-# <a name="manage-apps-in-microsoft-managed-desktop"></a><span data-ttu-id="f722e-103">Microsoft Managed Desktop에서 앱 관리</span><span class="sxs-lookup"><span data-stu-id="f722e-103">Manage apps in Microsoft Managed Desktop</span></span>
+# <a name="manage-line-of-business-apps-in-microsoft-managed-desktop"></a><span data-ttu-id="42677-104">Microsoft Managed Desktop에서 기간 업무 (lob) 앱 관리</span><span class="sxs-lookup"><span data-stu-id="42677-104">Manage line-of-business apps in Microsoft Managed Desktop</span></span>
 
 <!--Application management -->
 
-<span data-ttu-id="f722e-p101">응용 프로그램은 onboarded, 되 면 관리 하는지는 간에 공유 고객, Microsoft 관리 되는 데스크톱 작업과 Microsoft 관리 되는 데스크톱 지원 합니다. 고객:</span><span class="sxs-lookup"><span data-stu-id="f722e-p101">Once applications are onboarded, managing them is shared between customers, Microsoft Managed Desktop operations, and Microsoft Managed Desktop support. Customers:</span></span>
+<span data-ttu-id="42677-105">microsoft managed desktop에 등록 microsoft managed desktop 장치에 배포 된 앱에 대 한 앱 업데이트를 관리 하는 방법에는 몇 가지가 있습니다.</span><span class="sxs-lookup"><span data-stu-id="42677-105">There are a couple of ways to manage app updates for apps that you've onboarded to Microsoft Managed Desktop and deployed to your Microsoft Managed Desktop devices.</span></span> <span data-ttu-id="42677-106">Microsoft Managed Desktop portal 또는 Intune에서 앱 업데이트를 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="42677-106">You can make app updates in Microsoft Managed Desktop portal, or Intune.</span></span> 
 
-- <span data-ttu-id="f722e-106">적절 한 라이선스 Intune를 통해 배포 된 모든 소프트웨어에 대 한 위치에 있는지 확인</span><span class="sxs-lookup"><span data-stu-id="f722e-106">Ensure that appropriate licenses are in place for all software deployed through Intune</span></span> 
-- <span data-ttu-id="f722e-107">해당 응용 프로그램 배포 상태를 모니터링 합니다.</span><span class="sxs-lookup"><span data-stu-id="f722e-107">Monitor their application deployment status</span></span>
-- <span data-ttu-id="f722e-108">배포에 대 한 응용 프로그램 설정 프로필 관리</span><span class="sxs-lookup"><span data-stu-id="f722e-108">Manage application settings profiles for deployment</span></span>
+<span id="update-app-mmd" />
 
-<span data-ttu-id="f722e-109">Microsoft 관리 되는 데스크톱 작업 팀 Microsoft 관리 되는 데스크톱 용어를 위반 하는 응용 프로그램이 없는 배포 되 고 있는지 확인 하려면 배포 알림 응용 프로그램을 검토 합니다.</span><span class="sxs-lookup"><span data-stu-id="f722e-109">Microsoft Managed Desktop Operations Team reviews app deployment notifications to ensure that no applications which violate Microsoft Managed Desktop terms are being deployed.</span></span> 
+## <a name="update-line-of-business-apps-in-microsoft-managed-desktop"></a><span data-ttu-id="42677-107">Microsoft Managed Desktop에서 기간 업무 (lob) 앱 업데이트</span><span class="sxs-lookup"><span data-stu-id="42677-107">Update line-of-business apps in Microsoft Managed Desktop</span></span>
 
-<span data-ttu-id="f722e-110">Microsoft 관리 되는 데스크톱 지원 Microsoft 제작 응용 프로그램 (예: 사무실)에 대 한 지원을 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="f722e-110">Microsoft Managed Desktop support provides support for Microsoft Authored Applications (for example, Office).</span></span> 
+<span data-ttu-id="42677-108">**Microsoft Managed Desktop portal에서 기간 업무 (lob) 앱을 업데이트 하려면**</span><span class="sxs-lookup"><span data-stu-id="42677-108">**To update your line-of-business apps in Microsoft Managed Desktop portal**</span></span>
+1. <span data-ttu-id="42677-109">[Microsoft Managed 데스크톱 관리 포털](http://aka.ms/mmdportal)에 로그인 합니다.</span><span class="sxs-lookup"><span data-stu-id="42677-109">Sign in to [Microsoft Managed Desktop Admin portal](http://aka.ms/mmdportal).</span></span>
+2. <span data-ttu-id="42677-110">**인벤토리에서** **앱**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="42677-110">Under **Inventory**, select **Apps**.</span></span>  
+3. <span data-ttu-id="42677-111">업데이트할 앱을 선택 하 고 **편집**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="42677-111">Select the app you want to updates, and then select **Edit**.</span></span>
+4. <span data-ttu-id="42677-112">**관리**에서 **속성**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="42677-112">Under **Manage**, select **Properties**.</span></span> 
+5. <span data-ttu-id="42677-113">**앱 패키지 파일**을 클릭 한 다음 새 앱 패키지 파일을 찾아서 업로드 합니다.</span><span class="sxs-lookup"><span data-stu-id="42677-113">Click **App package file**, and then browse to upload a new app package file.</span></span>
+6. <span data-ttu-id="42677-114">**앱 패키지 파일**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="42677-114">Select **App package file**.</span></span>
+7. <span data-ttu-id="42677-115">폴더 아이콘을 선택 하 고 업데이트 된 앱 파일의 위치를 찾습니다.</span><span class="sxs-lookup"><span data-stu-id="42677-115">Select the folder icon and browse to the location of your updated app file.</span></span> <span data-ttu-id="42677-116">**열기**를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="42677-116">Select **Open**.</span></span> <span data-ttu-id="42677-117">앱 정보가 패키지 정보로 업데이트 됩니다.</span><span class="sxs-lookup"><span data-stu-id="42677-117">The app information is updated with the package information.</span></span>
+8. <span data-ttu-id="42677-118">**앱 버전이** 업데이트 된 앱 패키지를 반영 하는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="42677-118">Verify that **App version** reflects the updated app package.</span></span> 
+
+<span data-ttu-id="42677-119">업데이트 된 앱이 사용자의 장치에 배포 됩니다.</span><span class="sxs-lookup"><span data-stu-id="42677-119">The updated app will be deployed to your user's devices.</span></span>
+
+<span id="update-app-intune" />
+
+## <a name="update-line-of-business-apps-in-intune"></a><span data-ttu-id="42677-120">Intune에서 기간 업무 (lob) 앱 업데이트</span><span class="sxs-lookup"><span data-stu-id="42677-120">Update line-of-business apps in Intune</span></span>
+
+<span data-ttu-id="42677-121">**Intune에서 기간 업무 (lob) 앱을 업데이트 하려면**</span><span class="sxs-lookup"><span data-stu-id="42677-121">**To update your line-of-business apps in Intune**</span></span>
+1. <span data-ttu-id="42677-122">[Azure 포털](https://azure.portal.com)에 로그인 합니다.</span><span class="sxs-lookup"><span data-stu-id="42677-122">Sign in to [Azure portal](https://azure.portal.com).</span></span>
+2. <span data-ttu-id="42677-123">**모든 서비스** > **Intune**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="42677-123">Select **All Services** > **Intune**.</span></span> <span data-ttu-id="42677-124">Intune은 **모니터링 + 관리** 섹션에 있습니다.</span><span class="sxs-lookup"><span data-stu-id="42677-124">Intune is in the **Monitoring + Management** section.</span></span>
+3. <span data-ttu-id="42677-125">**클라이언트 앱 > 앱**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="42677-125">Select **Client Apps > Apps**.</span></span>
+4. <span data-ttu-id="42677-126">앱 목록에서 앱을 찾아 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="42677-126">Find and select your app in the list of apps.</span></span>
+5. <span data-ttu-id="42677-127">**개요** 블레이드에서 **속성**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="42677-127">In the **Overview** blade, select **Properties**.</span></span>
+6. <span data-ttu-id="42677-128">**앱 패키지 파일**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="42677-128">Select **App package file**.</span></span>
+7. <span data-ttu-id="42677-129">폴더 아이콘을 선택 하 고 업데이트 된 앱 파일의 위치를 찾습니다.</span><span class="sxs-lookup"><span data-stu-id="42677-129">Select the folder icon and browse to the location of your updated app file.</span></span> <span data-ttu-id="42677-130">**열기**를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="42677-130">Select **Open**.</span></span> <span data-ttu-id="42677-131">앱 정보가 패키지 정보로 업데이트 됩니다.</span><span class="sxs-lookup"><span data-stu-id="42677-131">The app information is updated with the package information.</span></span>
+8. <span data-ttu-id="42677-132">**앱 버전이** 업데이트 된 앱 패키지를 반영 하는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="42677-132">Verify that **App version** reflects the updated app package.</span></span>
+
+<span id="roll-back-app-mmd" />
+
+## <a name="roll-back-an-app-to-a-previous-version"></a><span data-ttu-id="42677-133">앱을 이전 버전으로 롤백</span><span class="sxs-lookup"><span data-stu-id="42677-133">Roll back an app to a previous version</span></span>
+
+<span data-ttu-id="42677-134">새 버전의 앱이 배포 될 때 오류가 발견 되는 경우 이전 버전으로 롤백할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="42677-134">If there's an error found when a new version of an app is deployed, you can roll back to a previous version.</span></span> <span data-ttu-id="42677-135">여기에 설명 된 프로세스는 유형이 **Windows MSI lob (기간 업무) 앱** 또는 **windows app (Win 32)-preview** 로 나열 된 앱에 대 한 것입니다.</span><span class="sxs-lookup"><span data-stu-id="42677-135">The process outlined here is for apps where type is listed as **Windows MSI line-of-business app** or **Windows app (Win 32) - preview**</span></span>
+
+<span data-ttu-id="42677-136">**기간 업무 (lob) 앱을 이전 버전으로 롤백하는 방법**</span><span class="sxs-lookup"><span data-stu-id="42677-136">**To roll back a line-of-business app to a previous version**</span></span>
+
+1. <span data-ttu-id="42677-137">[Microsoft Managed 데스크톱 관리 포털](http://aka.ms/mmdportal)에 로그인 합니다.</span><span class="sxs-lookup"><span data-stu-id="42677-137">Sign in to [Microsoft Managed Desktop Admin portal](http://aka.ms/mmdportal).</span></span>
+2. <span data-ttu-id="42677-138">**인벤토리에서** **앱**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="42677-138">Under **Inventory**, select **Apps**.</span></span>  
+3. <span data-ttu-id="42677-139">롤백하는 데 필요한 앱을 선택 하 고 **편집**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="42677-139">Select the app you need to roll back, and then select **Edit**.</span></span>
+4. <span data-ttu-id="42677-140">**관리**에서 **속성**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="42677-140">Under **Manage**, select **Properties**.</span></span> 
+    - <span data-ttu-id="42677-141">**Windows MSI lob (기간 업무) 앱** 앱의 경우 **앱 정보**를 선택 하 고 **응용 프로그램 버전 무시**에서 **예**를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="42677-141">For **Windows MSI line-of-business app** apps, select **App information**, and then under **Ignore app version**, select **Yes**.</span></span>
+    - <span data-ttu-id="42677-142">**Windows 앱 (Win 32)-미리 보기** 앱에서 **앱 정보**를 선택 하 고 **검색 규칙**을 선택한 다음 **추가**를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="42677-142">For **Windows app (Win 32) - preview** apps, select **App information**, select **Detection rules**, and then select **Add**.</span></span> 
+    <span data-ttu-id="42677-143">msi 규칙이 있는 경우 **msi 제품 버전 확인** 이 **아니요로**설정 되어 있는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="42677-143">If there is an MSI rule, verify that **MSI product version check** is set to **No**.</span></span>
+5. <span data-ttu-id="42677-144">[이전 버전의 앱 원본 파일](../get-started/deploy-apps.md) 을 Microsoft Managed Desktop administration portal에 업로드 합니다.</span><span class="sxs-lookup"><span data-stu-id="42677-144">[Upload a previous version of the app source file](../get-started/deploy-apps.md) to Microsoft Managed Desktop Admin portal.</span></span>  
+

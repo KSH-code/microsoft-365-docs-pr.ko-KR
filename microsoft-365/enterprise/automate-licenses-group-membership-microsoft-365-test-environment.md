@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 기업 테스트 환경에 대 한 라이선스 및 그룹 구성원 자격을 자동화 합니다.
+title: Microsoft 365 Enterprise 테스트 환경에 대 한 라이선싱 및 그룹 구성원을 자동화 합니다.
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -8,101 +8,101 @@ ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Normal
-ms.collection: Ent_O365
+ms.collection: M365-identity-device-management
 ms.custom:
 - TLG
 - Ent_TLGs
-description: Microsoft 365 기업 테스트 환경에서 라이선스 그룹 기반 및 동적 그룹 구성원 자격을 구성 합니다.
-ms.openlocfilehash: 45a78af202f2d9ab029683aae4d95ed9a3370b08
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+description: Microsoft 365 Enterprise 테스트 환경에서 그룹 기반 라이선싱 및 동적 그룹 구성원을 구성 합니다.
+ms.openlocfilehash: 8ced249ee56e15c057001af60d790a8a4315dd17
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26870107"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32277247"
 ---
-# <a name="automate-licensing-and-group-membership-for-your-microsoft-365-enterprise-test-environment"></a><span data-ttu-id="59d0f-103">Microsoft 365 기업 테스트 환경에 대 한 라이선스 및 그룹 구성원 자격을 자동화 합니다.</span><span class="sxs-lookup"><span data-stu-id="59d0f-103">Automate licensing and group membership for your Microsoft 365 Enterprise test environment</span></span>
+# <a name="automate-licensing-and-group-membership-for-your-microsoft-365-enterprise-test-environment"></a><span data-ttu-id="e9373-103">Microsoft 365 Enterprise 테스트 환경에 대 한 라이선싱 및 그룹 구성원을 자동화 합니다.</span><span class="sxs-lookup"><span data-stu-id="e9373-103">Automate licensing and group membership for your Microsoft 365 Enterprise test environment</span></span>
 
-<span data-ttu-id="59d0f-p101">자동으로 라이선스 그룹 기반 할당 하거나 그룹 구성원 자격을 기준으로 사용자 계정에 대 한 라이선스를 제거 합니다. 동적 그룹 구성원 자격을 추가 또는 부서 또는 국가/지역 등의 사용자 계정 속성을 기준으로 그룹에 구성원을 제거 합니다. 이 문서에서는 Microsoft 365 기업 테스트 환경에서 모두의 데모를 안내합니다.</span><span class="sxs-lookup"><span data-stu-id="59d0f-p101">Group-based licensing automatically assigns or removes licenses for a user account based on group membership. Dynamic group membership adds or removes members to a group based on user account properties, such as Department or Country. This article steps you through a demonstration of both in your Microsoft 365 Enterprise test environment.</span></span>
+<span data-ttu-id="e9373-104">그룹 기반 라이선스는 그룹 구성원을 기반으로 사용자 계정에 대 한 라이선스를 자동으로 할당 하거나 제거 합니다.</span><span class="sxs-lookup"><span data-stu-id="e9373-104">Group-based licensing automatically assigns or removes licenses for a user account based on group membership.</span></span> <span data-ttu-id="e9373-105">동적 그룹 구성원 자격은 사용자 계정 속성 (예: 부서 또는 국가)을 기반으로 그룹에 구성원을 추가 하거나 제거 합니다.</span><span class="sxs-lookup"><span data-stu-id="e9373-105">Dynamic group membership adds or removes members to a group based on user account properties, such as Department or Country.</span></span> <span data-ttu-id="e9373-106">이 문서에서는 Microsoft 365 Enterprise 테스트 환경 모두에 대 한 데모를 안내 합니다.</span><span class="sxs-lookup"><span data-stu-id="e9373-106">This article steps you through a demonstration of both in your Microsoft 365 Enterprise test environment.</span></span>
 
-<span data-ttu-id="59d0f-107">Microsoft 365 기업 테스트 환경에서 자동 라이선스 및 동적 그룹 구성원 자격을 설정 하는 두 단계로 가지가 있습니다.</span><span class="sxs-lookup"><span data-stu-id="59d0f-107">There are two phases to setting up auto-licensing and dynamic group membership in your Microsoft 365 Enterprise test environment:</span></span>
+<span data-ttu-id="e9373-107">Microsoft 365 Enterprise 테스트 환경에서 자동 라이선싱 및 동적 그룹 멤버 자격을 설정 하는 두 가지 단계가 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e9373-107">There are two phases to setting up auto-licensing and dynamic group membership in your Microsoft 365 Enterprise test environment:</span></span>
 
-1. <span data-ttu-id="59d0f-108">Microsoft 365 Enterprise 테스트 환경을 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="59d0f-108">Create the Microsoft 365 Enterprise test environment.</span></span>
-2. <span data-ttu-id="59d0f-109">구성 하 고 동적 그룹 멤버 자격 및 자동 라이선스를 테스트 합니다.</span><span class="sxs-lookup"><span data-stu-id="59d0f-109">Configure and test dynamic group membership and automatic licensing.</span></span>
+1. <span data-ttu-id="e9373-108">Microsoft 365 Enterprise 테스트 환경을 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="e9373-108">Create the Microsoft 365 Enterprise test environment.</span></span>
+2. <span data-ttu-id="e9373-109">동적 그룹 구성원 자격 및 자동 라이선스를 구성 하 고 테스트 합니다.</span><span class="sxs-lookup"><span data-stu-id="e9373-109">Configure and test dynamic group membership and automatic licensing.</span></span>
 
 ![Microsoft 클라우드의 테스트 랩 가이드](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
     
 > [!TIP]
-> <span data-ttu-id="59d0f-111">[여기](https://aka.ms/m365etlgstack)를 클릭하여 Microsoft 365 Enterprise 테스트 랩 가이드 스택의 모든 문서에 대한 가상 맵을 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="59d0f-111">Click [here](https://aka.ms/m365etlgstack) for a visual map to all the articles in the Microsoft 365 Enterprise Test Lab Guide stack.</span></span>
+> <span data-ttu-id="e9373-111">[여기](https://aka.ms/m365etlgstack)를 클릭하여 Microsoft 365 Enterprise 테스트 랩 가이드 스택의 모든 문서에 대한 가상 맵을 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e9373-111">Click [here](https://aka.ms/m365etlgstack) for a visual map to all the articles in the Microsoft 365 Enterprise Test Lab Guide stack.</span></span>
   
-## <a name="phase-1-build-out-your-microsoft-365-enterprise-test-environment"></a><span data-ttu-id="59d0f-112">1 단계: Microsoft 365 Enterprise 테스트 환경을 구축합니다</span><span class="sxs-lookup"><span data-stu-id="59d0f-112">Phase 1: Build out your Microsoft 365 Enterprise test environment</span></span>
+## <a name="phase-1-build-out-your-microsoft-365-enterprise-test-environment"></a><span data-ttu-id="e9373-112">1 단계: Microsoft 365 Enterprise 테스트 환경 구축</span><span class="sxs-lookup"><span data-stu-id="e9373-112">Phase 1: Build out your Microsoft 365 Enterprise test environment</span></span>
 
-<span data-ttu-id="59d0f-113">최소 요구 사항을 경량 방식으로 자동화 된 라이선스 및 그룹 구성원 자격을 테스트 하려면 [경량 기본 구성](lightweight-base-configuration-microsoft-365-enterprise.md)의 지시를 따릅니다.</span><span class="sxs-lookup"><span data-stu-id="59d0f-113">If you just want to test automated licensing and group membership in a lightweight way with the minimum requirements, follow the instructions in [Lightweight base configuration](lightweight-base-configuration-microsoft-365-enterprise.md).</span></span>
+<span data-ttu-id="e9373-113">최소 요구 사항에 따라 간단한 방법으로 자동 라이선싱 및 그룹 구성원을 테스트 하려는 경우에는 [간단한 기본 구성](lightweight-base-configuration-microsoft-365-enterprise.md)의 지침을 따릅니다.</span><span class="sxs-lookup"><span data-stu-id="e9373-113">If you just want to test automated licensing and group membership in a lightweight way with the minimum requirements, follow the instructions in [Lightweight base configuration](lightweight-base-configuration-microsoft-365-enterprise.md).</span></span>
   
-<span data-ttu-id="59d0f-114">시뮬레이션 된 엔터프라이즈에서 자동화 된 라이선스 및 그룹 구성원 자격을 테스트 하려는 경우 [통과 인증](pass-through-auth-m365-ent-test-environment.md)에 대 한 지침을 따릅니다.</span><span class="sxs-lookup"><span data-stu-id="59d0f-114">If you want to test automated licensing and group membership in a simulated enterprise, follow the instructions in [Pass-through authentication](pass-through-auth-m365-ent-test-environment.md).</span></span>
+<span data-ttu-id="e9373-114">시뮬레이트된 엔터프라이즈에서 자동화 된 라이선싱 및 그룹 구성원을 테스트 하려면 [통과 인증](pass-through-auth-m365-ent-test-environment.md)의 지침을 따르세요.</span><span class="sxs-lookup"><span data-stu-id="e9373-114">If you want to test automated licensing and group membership in a simulated enterprise, follow the instructions in [Pass-through authentication](pass-through-auth-m365-ent-test-environment.md).</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="59d0f-p102">라이선스 하는 자동화 된 테스트 하 고 그룹 멤버 자격을 원하지 않는 인터넷에 연결 하는 시뮬레이션 된 인트라넷을 포함 하는 시뮬레이션 된 엔터프라이즈 테스트 환경 및 Windows Server AD 포리스트에 대 한 디렉터리 동기화 합니다. 제공는 자동화 된 라이선스 및 그룹 구성원 자격을 테스트 하 고 일반적인 조직을 대표 하는 환경에서 사용해 수 있도록 하는 옵션으로 여기 합니다.</span><span class="sxs-lookup"><span data-stu-id="59d0f-p102">Testing automated licensing and group membership does not require the simulated enterprise test environment, which includes a simulated intranet connected to the Internet and directory synchronization for a Windows Server AD forest. It is provided here as an option so that you can test automated licensing and group membership and experiment with it in an environment that represents a typical organization.</span></span> 
+> <span data-ttu-id="e9373-115">자동 라이선싱 및 그룹 구성원을 테스트 하는 경우에는 AD DS (Active directory 도메인 서비스) 포리스트의 인터넷 및 디렉터리 동기화에 연결 된 시뮬레이트된 인트라넷을 포함 하는 시뮬레이트된 엔터프라이즈 테스트 환경이 필요 하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="e9373-115">Testing automated licensing and group membership does not require the simulated enterprise test environment, which includes a simulated intranet connected to the Internet and directory synchronization for a Active Directory Domain Services (AD DS) forest.</span></span> <span data-ttu-id="e9373-116">이 기능은 자동 라이선스 및 그룹 구성원을 테스트 하 고 일반적인 조직을 나타내는 환경에서 테스트할 수 있도록 옵션으로 제공 됩니다.</span><span class="sxs-lookup"><span data-stu-id="e9373-116">It is provided here as an option so that you can test automated licensing and group membership and experiment with it in an environment that represents a typical organization.</span></span> 
   
-## <a name="phase-2-configure-and-test-dynamic-group-membership-and-automatic-licensing"></a><span data-ttu-id="59d0f-117">2 단계: 구성 및 테스트 동적 그룹 멤버 자격 및 자동 라이선스</span><span class="sxs-lookup"><span data-stu-id="59d0f-117">Phase 2: Configure and test dynamic group membership and automatic licensing</span></span>
+## <a name="phase-2-configure-and-test-dynamic-group-membership-and-automatic-licensing"></a><span data-ttu-id="e9373-117">2 단계: 동적 그룹 구성원 자격 및 자동 라이선스 구성 및 테스트</span><span class="sxs-lookup"><span data-stu-id="e9373-117">Phase 2: Configure and test dynamic group membership and automatic licensing</span></span>
 
-<span data-ttu-id="59d0f-118">첫째, 새 Sales 그룹을 만들고 Sales 그룹에 사용자 계정을 매출으로 설정 하는 부서와 함께 자동으로 추가 되도록 동적 그룹 멤버 자격 규칙을 추가 합니다.</span><span class="sxs-lookup"><span data-stu-id="59d0f-118">First, you create a new Sales group and add a dynamic group membership rule so that user accounts with the Department set to Sales are automatically added to the Sales group.</span></span>
+<span data-ttu-id="e9373-118">먼저 새 sales 그룹을 만들고 부서가 sales로 설정 된 사용자 계정이 sales 그룹에 자동으로 추가 되도록 동적 그룹 구성원 규칙을 추가 합니다.</span><span class="sxs-lookup"><span data-stu-id="e9373-118">First, you create a new Sales group and add a dynamic group membership rule so that user accounts with the Department set to Sales are automatically added to the Sales group.</span></span>
 
-1. <span data-ttu-id="59d0f-119">Office 포털에 로그인 인터넷 브라우저의 전용 인스턴스를 사용 하 여 [https://office.com](https://office.com) Office 365 E5 평가판 구독의 전역 관리자 계정을 사용 하 여 합니다.</span><span class="sxs-lookup"><span data-stu-id="59d0f-119">Using a private instance of your Internet browser, sign in to the Office portal at [https://office.com](https://office.com) with the global administrator account of your Office 365 E5 trial subscription.</span></span>
-2. <span data-ttu-id="59d0f-120">브라우저의 개별 탭에 있는 포털로 이동 하 여 Azure에서 [https://portal.azure.com](https://portal.azure.com)합니다.</span><span class="sxs-lookup"><span data-stu-id="59d0f-120">On a separate tab of your browser, go to the Azure portal at [https://portal.azure.com](https://portal.azure.com).</span></span>
-3. <span data-ttu-id="59d0f-121">Azure Portal에서 **Azure Active Directory > 사용자 및 그룹 > 모든 그룹**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="59d0f-121">In the Azure portal, click **Azure Active Directory > Users and groups > All groups**.</span></span>
-4. <span data-ttu-id="59d0f-122">**모든 그룹** 블레이드에서 **새 그룹**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="59d0f-122">On the **All groups** blade, click **New group**.</span></span>
-5. <span data-ttu-id="59d0f-123">**그룹 종류** **Office 365**를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="59d0f-123">In **Group type**, select **Office 365**.</span></span>
-6. <span data-ttu-id="59d0f-124">**그룹 이름** **판매**를 입력 합니다.</span><span class="sxs-lookup"><span data-stu-id="59d0f-124">In **Group name**, type **Sales**.</span></span>
-7. <span data-ttu-id="59d0f-125">**멤버 자격 형식** **동적 사용자** 를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="59d0f-125">In **Membership type**, select **Dynamic user** .</span></span>
-8. <span data-ttu-id="59d0f-126">**동적 쿼리 추가**를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="59d0f-126">Click **Add dynamic query**.</span></span>
-9. <span data-ttu-id="59d0f-127">**사용자를 추가할 위치**에서 **부서**를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="59d0f-127">In **Add users where**, select **department**.</span></span>
-10. <span data-ttu-id="59d0f-128">다음 필드에서 **같음**을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="59d0f-128">In the next field, select **Equals**.</span></span>
-11. <span data-ttu-id="59d0f-129">다음 필드에서 **Sales**를 입력 합니다.</span><span class="sxs-lookup"><span data-stu-id="59d0f-129">In the next field, type **Sales**.</span></span>
-12. <span data-ttu-id="59d0f-130">**쿼리 추가**를 클릭한 다음, **만들기**를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="59d0f-130">Click **Add query**, and then click **Create**.</span></span>
-13. <span data-ttu-id="59d0f-131">**그룹** 및 **그룹 모든 그룹** 블레이드를 닫습니다.</span><span class="sxs-lookup"><span data-stu-id="59d0f-131">Close the **Group** and **Groups-All groups** blades.</span></span>
+1. <span data-ttu-id="e9373-119">인터넷 브라우저의 개인 인스턴스를 사용 하 여 office 365 E5 평가판 구독의 전역 관리자 [https://office.com](https://office.com) 계정으로 office 포털에 로그인 합니다.</span><span class="sxs-lookup"><span data-stu-id="e9373-119">Using a private instance of your Internet browser, sign in to the Office portal at [https://office.com](https://office.com) with the global administrator account of your Office 365 E5 trial subscription.</span></span>
+2. <span data-ttu-id="e9373-120">브라우저의 별도 탭에서 Azure portal ()로 이동 [https://portal.azure.com](https://portal.azure.com)합니다.</span><span class="sxs-lookup"><span data-stu-id="e9373-120">On a separate tab of your browser, go to the Azure portal at [https://portal.azure.com](https://portal.azure.com).</span></span>
+3. <span data-ttu-id="e9373-121">Azure Portal에서 **Azure Active Directory > 사용자 및 그룹 > 모든 그룹**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="e9373-121">In the Azure portal, click **Azure Active Directory > Users and groups > All groups**.</span></span>
+4. <span data-ttu-id="e9373-122">**모든 그룹** 블레이드에서 **새 그룹**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="e9373-122">On the **All groups** blade, click **New group**.</span></span>
+5. <span data-ttu-id="e9373-123">**그룹 유형에**서 **Office 365**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="e9373-123">In **Group type**, select **Office 365**.</span></span>
+6. <span data-ttu-id="e9373-124">**그룹 이름**에 **Sales**를 입력 합니다.</span><span class="sxs-lookup"><span data-stu-id="e9373-124">In **Group name**, type **Sales**.</span></span>
+7. <span data-ttu-id="e9373-125">**멤버 자격 유형에**서 **동적 사용자** 를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="e9373-125">In **Membership type**, select **Dynamic user** .</span></span>
+8. <span data-ttu-id="e9373-126">**동적 쿼리 추가**를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="e9373-126">Click **Add dynamic query**.</span></span>
+9. <span data-ttu-id="e9373-127">**사용자를 추가할 위치**에서 **부서**를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="e9373-127">In **Add users where**, select **department**.</span></span>
+10. <span data-ttu-id="e9373-128">다음 필드에서 **같음**을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="e9373-128">In the next field, select **Equals**.</span></span>
+11. <span data-ttu-id="e9373-129">다음 필드에 **Sales**를 입력 합니다.</span><span class="sxs-lookup"><span data-stu-id="e9373-129">In the next field, type **Sales**.</span></span>
+12. <span data-ttu-id="e9373-130">**쿼리 추가**를 클릭한 다음, **만들기**를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="e9373-130">Click **Add query**, and then click **Create**.</span></span>
+13. <span data-ttu-id="e9373-131">**그룹** 및 그룹 **(모든 그룹 날개)** 을 닫습니다.</span><span class="sxs-lookup"><span data-stu-id="e9373-131">Close the **Group** and **Groups-All groups** blades.</span></span>
 
-<span data-ttu-id="59d0f-132">다음으로, Office 365 e 5 및 Enterprise 이동성 + 보안 E5 라이선스 구성원은 자동으로 할당 되도록 Sales 그룹을 구성 합니다.</span><span class="sxs-lookup"><span data-stu-id="59d0f-132">Next, you configure the Sales group so that members are automatically assigned Office 365 E5 and Enterprise Mobility + Security E5 licenses.</span></span>
+<span data-ttu-id="e9373-132">다음으로, 구성원에 게 Office 365 E5 및 Enterprise Mobility + Security E5 라이선스가 자동으로 할당 되도록 Sales 그룹을 구성 합니다.</span><span class="sxs-lookup"><span data-stu-id="e9373-132">Next, you configure the Sales group so that members are automatically assigned Office 365 E5 and Enterprise Mobility + Security E5 licenses.</span></span>
 
-1. <span data-ttu-id="59d0f-133">Azure Active Directory에 대 한 **개요** 블레이드, 클릭 **라이선스 > 모든 제품**합니다.</span><span class="sxs-lookup"><span data-stu-id="59d0f-133">On the **Overview** blade for Azure Active Directory, click **Licenses > All products**.</span></span>
-2. <span data-ttu-id="59d0f-134">목록에서 **Enterprise Mobility + Security E5** 및 **Office 365 Enterprise E5**를 선택하고 **할당**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="59d0f-134">In the list, select **Enterprise Mobility + Security E5** and **Office 365 Enterprise E5**, and then click **Assign**.</span></span>
-3. <span data-ttu-id="59d0f-135">**라이선스를 할당** 블레이드 **사용자 및 그룹을**클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="59d0f-135">On the **Assign license** blade, click **Users and groups**.</span></span>
-4. <span data-ttu-id="59d0f-136">그룹 목록에서 **Sales** 그룹을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="59d0f-136">In the list of groups, select the **Sales** group.</span></span>
-5. <span data-ttu-id="59d0f-137">**선택**을 클릭하고 **할당**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="59d0f-137">Click **Select**, and then click **Assign**.</span></span>
-6. <span data-ttu-id="59d0f-138">브라우저에서 Azure Portal 탭을 닫습니다.</span><span class="sxs-lookup"><span data-stu-id="59d0f-138">Close the Azure portal tab in your browser.</span></span>
+1. <span data-ttu-id="e9373-133">Azure Active Directory의 **개요** 블레이드에서 **> All products**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="e9373-133">On the **Overview** blade for Azure Active Directory, click **Licenses > All products**.</span></span>
+2. <span data-ttu-id="e9373-134">목록에서 **Enterprise Mobility + Security E5** 및 **Office 365 Enterprise E5**를 선택하고 **할당**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="e9373-134">In the list, select **Enterprise Mobility + Security E5** and **Office 365 Enterprise E5**, and then click **Assign**.</span></span>
+3. <span data-ttu-id="e9373-135">**라이선스 할당** 블레이드에서 **사용자 및 그룹**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="e9373-135">On the **Assign license** blade, click **Users and groups**.</span></span>
+4. <span data-ttu-id="e9373-136">그룹 목록에서 **Sales** 그룹을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="e9373-136">In the list of groups, select the **Sales** group.</span></span>
+5. <span data-ttu-id="e9373-137">**선택**을 클릭하고 **할당**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="e9373-137">Click **Select**, and then click **Assign**.</span></span>
+6. <span data-ttu-id="e9373-138">브라우저에서 Azure Portal 탭을 닫습니다.</span><span class="sxs-lookup"><span data-stu-id="e9373-138">Close the Azure portal tab in your browser.</span></span>
 
-<span data-ttu-id="59d0f-139">다음으로, 동적 그룹 멤버 자격 및 사용자 4 계정에 자동 라이선스 테스트 합니다.</span><span class="sxs-lookup"><span data-stu-id="59d0f-139">Next, you test dynamic group membership and automatic licensing on the User 4 account.</span></span> 
+<span data-ttu-id="e9373-139">다음으로, 사용자 4 계정에서 동적 그룹 구성원 자격 및 자동 라이선싱을 테스트 합니다.</span><span class="sxs-lookup"><span data-stu-id="e9373-139">Next, you test dynamic group membership and automatic licensing on the User 4 account.</span></span> 
 
-1. <span data-ttu-id="59d0f-140">브라우저에서 **Microsoft Office 홈** 탭에서 **관리**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="59d0f-140">From the **Microsoft Office Home** tab in your browser, click **Admin**.</span></span>
-2. <span data-ttu-id="59d0f-141">**Office 관리 센터** 탭에서 **활성 사용자**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="59d0f-141">From the **Office Admin center** tab, click **Active users**.</span></span>
-3. <span data-ttu-id="59d0f-142">**현재 사용자** 페이지에서 **사용자 4** 계정을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="59d0f-142">On the **Active users** page, click the **User 4** account.</span></span>
-4. <span data-ttu-id="59d0f-143">**사용자 4** 창에서 **제품 라이선스**에 대 한 **편집** 을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="59d0f-143">On the **User 4** pane, click **Edit** for **Product licenses**.</span></span>
-5. <span data-ttu-id="59d0f-144">**제품 라이선스** 창에는 **엔터프라이즈 이동성 + 보안 e 5를** 설정 하 고 **Office 365 Enterprise e 5** 라이선스를 해제 하 고 다음을 클릭 **저장 > 닫기**합니다.</span><span class="sxs-lookup"><span data-stu-id="59d0f-144">On the **Product licenses** pane, turn the **Enterprise Mobility + Security E5** and **Office 365 Enterprise E5** licenses off, and then click **Save > Close**.</span></span>
-6. <span data-ttu-id="59d0f-145">4 사용자 계정 속성에 없는 제품 라이선스를 할당 하 고는 없는 그룹 구성원 자격을 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="59d0f-145">In the properties of the User 4 account, verify that no product licenses have been assigned and there are no group memberships.</span></span>
-7. <span data-ttu-id="59d0f-146">**연락처 정보**에 대 한 **편집** 을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="59d0f-146">Click **Edit** for **Contact information**.</span></span>
-8. <span data-ttu-id="59d0f-147">**연락처 편집 정보** 창에서 **연락처 정보**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="59d0f-147">In the **Edit Contact information** pane, click **Contact information**.</span></span>
-9. <span data-ttu-id="59d0f-148">**부서** 필드에서 **Sales**를 입력 하 고 클릭 **저장 > 닫기**합니다.</span><span class="sxs-lookup"><span data-stu-id="59d0f-148">In the **Department** field, type **Sales**, and then click **Save > Close**.</span></span>
-10. <span data-ttu-id="59d0f-149">몇분 기다린 다음 업그레이드를 주기적으로 사용자 4 계정 창의 오른쪽 위에서에서 새로고침 아이콘을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="59d0f-149">Wait a few minutes, and then periodically click the refresh icon in the upper-right of the User 4 account pane.</span></span> 
+1. <span data-ttu-id="e9373-140">브라우저의 **Microsoft Office 홈** 탭에서 **관리자**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="e9373-140">From the **Microsoft Office Home** tab in your browser, click **Admin**.</span></span>
+2. <span data-ttu-id="e9373-141">**Microsoft 365 관리 센터** 탭에서 **활성 사용자**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="e9373-141">From the **Microsoft 365 admin center** tab, click **Active users**.</span></span>
+3. <span data-ttu-id="e9373-142">**활성 사용자** 페이지에서 **사용자 4** 계정을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="e9373-142">On the **Active users** page, click the **User 4** account.</span></span>
+4. <span data-ttu-id="e9373-143">**사용자 4** 창에서 **제품 라이선스**에 대 한 **편집** 을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="e9373-143">On the **User 4** pane, click **Edit** for **Product licenses**.</span></span>
+5. <span data-ttu-id="e9373-144">**제품 라이선스** 창에서 **enterprise Mobility + Security E5** 및 **Office 365 enterprise E5** 라이선스를 해제 한 다음 **저장 > 닫기**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="e9373-144">On the **Product licenses** pane, turn the **Enterprise Mobility + Security E5** and **Office 365 Enterprise E5** licenses off, and then click **Save > Close**.</span></span>
+6. <span data-ttu-id="e9373-145">사용자 4 계정의 속성에서 제품 라이선스가 할당 되어 있지 않으며 그룹 구성원 자격이 없음을 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="e9373-145">In the properties of the User 4 account, verify that no product licenses have been assigned and there are no group memberships.</span></span>
+7. <span data-ttu-id="e9373-146">**연락처 정보**에 대해 **편집** 을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="e9373-146">Click **Edit** for **Contact information**.</span></span>
+8. <span data-ttu-id="e9373-147">**연락처 정보 편집** 창에서 **연락처 정보**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="e9373-147">In the **Edit Contact information** pane, click **Contact information**.</span></span>
+9. <span data-ttu-id="e9373-148">**부서** 필드에 **Sales**를 입력 하 고 **> 닫기를 저장**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="e9373-148">In the **Department** field, type **Sales**, and then click **Save > Close**.</span></span>
+10. <span data-ttu-id="e9373-149">몇 분 정도 기다린 다음 사용자 4 계정 창의 오른쪽 위에 있는 새로 고침 아이콘을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="e9373-149">Wait a few minutes, and then periodically click the refresh icon in the upper-right of the User 4 account pane.</span></span> 
 
-<span data-ttu-id="59d0f-150">시간에 표시 되어야는:</span><span class="sxs-lookup"><span data-stu-id="59d0f-150">In time you should see the:</span></span>
+<span data-ttu-id="e9373-150">다음을 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e9373-150">In time you should see the:</span></span>
 
-- <span data-ttu-id="59d0f-151">**그룹 구성원 자격** 속성 **Sales** 그룹을 사용 하 여 업데이트 합니다.</span><span class="sxs-lookup"><span data-stu-id="59d0f-151">**Group memberships** property updated with the **Sales** group.</span></span>
-- <span data-ttu-id="59d0f-152">**제품 라이선스** 속성 **Enterprise 이동성 + 보안 e 5** 및 **Office 365 Enterprise E5** 라이선스를 사용 하 여 업데이트 합니다.</span><span class="sxs-lookup"><span data-stu-id="59d0f-152">**Product licenses** property updated with the **Enterprise Mobility + Security E5** and **Office 365 Enterprise E5** licenses.</span></span>
+- <span data-ttu-id="e9373-151">**Sales** 그룹으로 업데이트 된 **그룹 멤버 자격** 속성</span><span class="sxs-lookup"><span data-stu-id="e9373-151">**Group memberships** property updated with the **Sales** group.</span></span>
+- <span data-ttu-id="e9373-152">**enterprise Mobility + Security e5** 및 **Office 365 Enterprise E5** 라이선스로 업데이트 된 **제품 라이선스** 속성</span><span class="sxs-lookup"><span data-stu-id="e9373-152">**Product licenses** property updated with the **Enterprise Mobility + Security E5** and **Office 365 Enterprise E5** licenses.</span></span>
 
-<span data-ttu-id="59d0f-153">정보 및 동적 그룹 멤버 자격 및 프로덕션 환경에서 자동 라이선스 배포에 대 한 링크에 대 한 Identity 단계에서 다음이 단계를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="59d0f-153">See these steps in the Identity phase for information and links to deploy dynamic group membership and automatic licensing in production:</span></span>
+<span data-ttu-id="e9373-153">프로덕션 환경에서 동적 그룹 구성원 자격 및 자동 라이선싱을 배포 하는 방법에 대 한 자세한 내용과 링크는 Identity 단계에서 다음 단계를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="e9373-153">See these steps in the Identity phase for information and links to deploy dynamic group membership and automatic licensing in production:</span></span>
 
-- [<span data-ttu-id="59d0f-154">자동 라이선싱 설정</span><span class="sxs-lookup"><span data-stu-id="59d0f-154">Set up automatic licensing</span></span>](identity-group-based-licensing.md)
-- [<span data-ttu-id="59d0f-155">동적 그룹 구성원 설정</span><span class="sxs-lookup"><span data-stu-id="59d0f-155">Set up dynamic group membership</span></span>](identity-automatic-group-membership.md)
+- [<span data-ttu-id="e9373-154">자동 라이선싱 설정</span><span class="sxs-lookup"><span data-stu-id="e9373-154">Set up automatic licensing</span></span>](identity-self-service-group-management.md#identity-group-license)
+- [<span data-ttu-id="e9373-155">동적 그룹 구성원 설정</span><span class="sxs-lookup"><span data-stu-id="e9373-155">Set up dynamic group membership</span></span>](identity-self-service-group-management.md#identity-dyn-groups)
 
-## <a name="next-step"></a><span data-ttu-id="59d0f-156">다음 단계</span><span class="sxs-lookup"><span data-stu-id="59d0f-156">Next step</span></span>
+## <a name="next-step"></a><span data-ttu-id="e9373-156">다음 단계</span><span class="sxs-lookup"><span data-stu-id="e9373-156">Next step</span></span>
 
-<span data-ttu-id="59d0f-157">테스트 환경에서 추가 [ID](m365-enterprise-test-lab-guides.md#identity) 기능도 알아봅니다.</span><span class="sxs-lookup"><span data-stu-id="59d0f-157">Explore additional [identity](m365-enterprise-test-lab-guides.md#identity) features and capabilities in your test environment.</span></span>
+<span data-ttu-id="e9373-157">테스트 환경에서 추가 [ID](m365-enterprise-test-lab-guides.md#identity) 기능도 알아봅니다.</span><span class="sxs-lookup"><span data-stu-id="e9373-157">Explore additional [identity](m365-enterprise-test-lab-guides.md#identity) features and capabilities in your test environment.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="59d0f-158">참고 항목</span><span class="sxs-lookup"><span data-stu-id="59d0f-158">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="e9373-158">참고 항목</span><span class="sxs-lookup"><span data-stu-id="e9373-158">See also</span></span>
 
-[<span data-ttu-id="59d0f-159">2단계: ID</span><span class="sxs-lookup"><span data-stu-id="59d0f-159">Phase 2: Identity</span></span>](identity-infrastructure.md)
+[<span data-ttu-id="e9373-159">2단계: ID</span><span class="sxs-lookup"><span data-stu-id="e9373-159">Phase 2: Identity</span></span>](identity-infrastructure.md)
 
-[<span data-ttu-id="59d0f-160">Microsoft 365 Enterprise 테스트 랩 가이드</span><span class="sxs-lookup"><span data-stu-id="59d0f-160">Microsoft 365 Enterprise Test Lab Guides</span></span>](m365-enterprise-test-lab-guides.md)
+[<span data-ttu-id="e9373-160">Microsoft 365 Enterprise 테스트 랩 가이드</span><span class="sxs-lookup"><span data-stu-id="e9373-160">Microsoft 365 Enterprise Test Lab Guides</span></span>](m365-enterprise-test-lab-guides.md)
 
-[<span data-ttu-id="59d0f-161">Microsoft 365 엔터프라이즈 배포</span><span class="sxs-lookup"><span data-stu-id="59d0f-161">Microsoft 365 Enterprise deployment</span></span>](deploy-microsoft-365-enterprise.md)
+[<span data-ttu-id="e9373-161">Microsoft 365 엔터프라이즈 배포</span><span class="sxs-lookup"><span data-stu-id="e9373-161">Microsoft 365 Enterprise deployment</span></span>](deploy-microsoft-365-enterprise.md)
 
-[<span data-ttu-id="59d0f-162">Microsoft 365 Enterprise 설명서</span><span class="sxs-lookup"><span data-stu-id="59d0f-162">Microsoft 365 Enterprise documentation</span></span>](https://docs.microsoft.com/microsoft-365-enterprise/)
+[<span data-ttu-id="e9373-162">Microsoft 365 Enterprise 설명서</span><span class="sxs-lookup"><span data-stu-id="e9373-162">Microsoft 365 Enterprise documentation</span></span>](https://docs.microsoft.com/microsoft-365-enterprise/)

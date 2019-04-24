@@ -10,17 +10,17 @@ localization_priority: Normal
 audience: microsoft-business
 ms.prod: microsoft-365-enterprise
 title: Microsoft 365 Enterprise 설명서 및 리소스
-ms.openlocfilehash: 0e758884c063aaa82b5c7fc55051925376f8688b
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+ms.openlocfilehash: 38d349fb17303ac9e9979ae9a58682e01578b70a
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26869724"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283480"
 ---
 <div id="main" class="v2">
     <div class="container">
         <h1>Microsoft 365 Enterprise 설명서 및 리소스</h1>
-        <P>계획, 배포 및 조직에서 Microsoft Office 365, Windows 10 및 엔터프라이즈 이동성 + 보안을 함께 사용 하는 방법에 알아봅니다. 이러한 서비스는 더욱 원활 하 고 작업의 잠금을 해제 하는 통합 및 보안 인프라를 제공 합니다.</p>
+        <P>조직에서 Microsoft Office 365, Windows 10 및 Enterprise Mobility + security을 함께 계획, 배포 및 사용 하는 방법에 대해 알아봅니다. 이러한 서비스는 팀 작업을 사용 하도록 설정 하 고 지 수를 해제 하는 통합 및 보안 인프라를 제공 합니다.</p>
         <P></p>
         <ul class="pivots">
             <li>
@@ -39,10 +39,10 @@ ms.locfileid: "26869724"
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>살펴보기</h3>
+                                                <h3>탐색기</h3>
                                                 <P><a href="microsoft-365-overview.md" target="_blank">개요</a></p>
                                                 <P><a href="https://docs.microsoft.com/Office365/Enterprise/microsoft-cloud-it-architecture-resources" target="_blank">아키텍처 모델</a></p>
-                                                <P><a href="http://Microsoft365.com/it" target="_blank">Microsoft 365에 대 한 IT</a></p>
+                                                <P><a href="http://Microsoft365.com/it" target="_blank">IT를 위한 Microsoft 365</a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -61,7 +61,7 @@ ms.locfileid: "26869724"
                                                 <h3>배포</h3>
                                                 <P><a href="https://www.microsoft.com/fasttrack/microsoft-365" target="_blank">FastTrack</a></p>
                                                 <P><a href="deploy-microsoft-365-enterprise.md" target="_blank">배포 가이드</a></p>
-                                                <P><a href="https://aka.ms/howtoshift" target="_blank">현대 데스크톱 배포</a></p>
+                                                <P><a href="https://aka.ms/howtoshift" target="_blank">최신 데스크톱 배포</a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -77,10 +77,10 @@ ms.locfileid: "26869724"
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>보안 관리 &amp; 규정 준수</h3>
-                                                <P><a href="https://docs.microsoft.com/microsoft-365/compliance/compliance-solutions-overview" target="_blank">준수 솔루션</a></p>
-                                                <P><a href="https://docs.microsoft.com/Office365/SecurityCompliance/" target="_blank">Office 365 보안 &amp; 규정 준수</a></p>
-                                                <P><a href="microsoft-365-policies-configurations.md" target="_blank">Identity &amp; 장치 액세스</a></p>
+                                                <h3>보안 &amp; 준수 관리</h3>
+                                                <P><a href="https://docs.microsoft.com/microsoft-365/compliance/compliance-solutions-overview" target="_blank">규정 준수 솔루션</a></p>
+                                                <P><a href="https://docs.microsoft.com/Office365/SecurityCompliance/" target="_blank">Office 365 보안 &amp; 준수</a></p>
+                                                <P><a href="microsoft-365-policies-configurations.md" target="_blank">id &amp; 장치 액세스</a></p>
                                                 <P><a href="https://docs.microsoft.com/windows/security/threat-protection/index" target="_blank">Windows Defender ATP</a></p>
                                             </div>
                                         </div>
@@ -97,10 +97,11 @@ ms.locfileid: "26869724"
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>사용자 교육</h3>
+                                                <h3>관리자 & 사용자 교육</h3>
+                                                <P><a href="https://docs.microsoft.com/learn/browse/?products=m365" target="_blank">Microsoft 365</a></p>
                                                 <P><a href="https://support.office.com/office-training-center" target="_blank">Office 365</a></p>
                                                 <P><a href="https://www.microsoft.com/itpro/windows-10/end-user-readiness" target="_blank">Windows 10</a></p>
-                                                <P><a href="https://docs.microsoft.com/intune-user-help/use-managed-devices-to-get-work-done" target="_blank">Intune &amp; 회사 포털 응용 프로그램</a></p>
+                                                <P><a href="https://docs.microsoft.com/intune-user-help/use-managed-devices-to-get-work-done" target="_blank">Intune &amp; 회사 포털 앱</a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -135,11 +136,11 @@ ms.locfileid: "26869724"
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>엔터프라이즈 이동성 + 보안 관리</h3>
+                                                <h3>Enterprise Mobility + Security 관리</h3>
                                                 <P><a href="https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security" target="_blank">Microsoft Cloud App Security</a></p>
                                                 <P><a href="https://docs.microsoft.com/intune/index" target="_blank">Microsoft Intune</a></p>                              <P><a href="https://docs.microsoft.com/azure/active-directory" target="_blank">Azure Active Directory</a></p>
                                                 <P><a href="https://docs.microsoft.com/azure/information-protection/" target="_blank">Azure Information Protection</a></p>
-                                                <P><a href="https://docs.microsoft.com/azure-advanced-threat-protection/" target="_blank">Azure 고급 위협 보호</a></p>
+                                                <P><a href="https://docs.microsoft.com/azure-advanced-threat-protection/" target="_blank">Azure Advanced Threat Protection</a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -159,7 +160,7 @@ ms.locfileid: "26869724"
                                                         </div>
                                                     </div>
                                                     <div class="cardText">
-                                                        <h3>Microsoft 365 용 개발</h3>
+                                                        <h3>Microsoft 365에 대 한 개발</h3>
                                                         <P><a href="https://developer.microsoft.com/office" target="_blank">Office 365 개발자 센터</a></p>
                                                         <P><a href="https://developer.microsoft.com/windows/enterprise" target="_blank">Windows 개발자 센터</a></p>
                                                         <P><a href="https://developer.microsoft.com/graph" target="_blank">Microsoft Graph</a></p>
@@ -178,7 +179,7 @@ ms.locfileid: "26869724"
                                                         </div>
                                                     </div>
                                                     <div class="cardText">
-                                                        <h3>다른 Microsoft 365 제품</h3>
+                                                        <h3>기타 Microsoft 365 제품</h3>
                                                         <P><a href="https://docs.microsoft.com/microsoft-365/business/" target="_blank">Microsoft 365 Business</a></p>
                                                         <P><a href="https://docs.microsoft.com/education/" target="_blank">Microsoft 365 Education</a></p>
                                                     </div>
@@ -196,7 +197,7 @@ ms.locfileid: "26869724"
                                                         </div>
                                                     </div>
                                                     <div class="cardText">
-                                                        <h3>지원 필요 하십니까?</h3>
+                                                        <h3>지원이 필요 하나요?</h3>
                                                         <P><a href="https://azure.microsoft.com/support/options/" target="_blank">Azure</a></p>
                                                         <P><a href="https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b" target="_blank">Office 365</a></p>
                                                         <P><a href="http://support.microsoft.com/products/windows" target="_blank">Windows 10</a></p>

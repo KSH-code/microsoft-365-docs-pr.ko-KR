@@ -7,6 +7,7 @@ ms.audience: Admin
 ms.topic: hub-page
 ms.service: o365-administration
 localization_priority: Normal
+ms.collection: M365-subscription-management
 ms.custom:
 - Adm_O365
 - Core_O365Admin_Migration
@@ -16,85 +17,85 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 27ff1678-865a-4707-8145-e1155aa815d6
-description: Microsoft 365 비즈니스를 관리 하는 방법을 알아봅니다 관련 관리 작업, 모바일 장치, Windows 10PCs 등의 많은 작업 합니다.
-ms.openlocfilehash: 280bff9f12a884e6a19e26feea5d8a339297a434
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+description: Microsoft 365 Business 관련 관리 작업, 모바일 장치, Windows 10 pc 등의 다양 한 작업을 관리 하는 방법에 대해 알아봅니다.
+ms.openlocfilehash: 993db51ec487237395ca57290e37a6c5edbce8b8
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26869822"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32278578"
 ---
-# <a name="manage-microsoft-365-business"></a><span data-ttu-id="55924-103">Microsoft 365 Business 관리</span><span class="sxs-lookup"><span data-stu-id="55924-103">Manage Microsoft 365 Business</span></span>
+# <a name="manage-microsoft-365-business"></a><span data-ttu-id="b0afa-103">Microsoft 365 Business 관리</span><span class="sxs-lookup"><span data-stu-id="b0afa-103">Manage Microsoft 365 Business</span></span>
 
-## <a name="general-microsoft-365-business-admin-tasks"></a><span data-ttu-id="55924-104">일반 Microsoft 365 Business 관리 작업</span><span class="sxs-lookup"><span data-stu-id="55924-104">General Microsoft 365 Business admin tasks</span></span>
+## <a name="general-microsoft-365-business-admin-tasks"></a><span data-ttu-id="b0afa-104">일반 Microsoft 365 Business 관리 작업</span><span class="sxs-lookup"><span data-stu-id="b0afa-104">General Microsoft 365 Business admin tasks</span></span>
 
-- [<span data-ttu-id="55924-105">Microsoft 365 Business에 다른 사용자 추가</span><span class="sxs-lookup"><span data-stu-id="55924-105">Add additional users to Microsoft 365 Business</span></span>](add-users-m365b.md)
+- [<span data-ttu-id="b0afa-105">Microsoft 365 Business에 다른 사용자 추가</span><span class="sxs-lookup"><span data-stu-id="b0afa-105">Add additional users to Microsoft 365 Business</span></span>](add-users-m365b.md)
     
-- [<span data-ttu-id="55924-106">정책 및 장치 보기</span><span class="sxs-lookup"><span data-stu-id="55924-106">View policies and devices</span></span>](view-policies-and-devices.md)
+- [<span data-ttu-id="b0afa-106">정책 및 장치 보기</span><span class="sxs-lookup"><span data-stu-id="b0afa-106">View policies and devices</span></span>](view-policies-and-devices.md)
     
-- [<span data-ttu-id="55924-107">Microsoft 365 비즈니스 보안 기능</span><span class="sxs-lookup"><span data-stu-id="55924-107">Microsoft 365 Business security features</span></span>](security-features.md)
+- [<span data-ttu-id="b0afa-107">Microsoft 365 Business 보안 기능</span><span class="sxs-lookup"><span data-stu-id="b0afa-107">Microsoft 365 Business security features</span></span>](security-features.md)
     
-- [<span data-ttu-id="55924-108">Microsoft 365 Business의 보호 기능을 Intune 설정에 매핑하는 방법</span><span class="sxs-lookup"><span data-stu-id="55924-108">How do protection features in Microsoft 365 Business map to Intune settings</span></span>](map-protection-features-to-intune-settings.md)
+- [<span data-ttu-id="b0afa-108">Microsoft 365 Business의 보호 기능을 Intune 설정에 매핑하는 방법</span><span class="sxs-lookup"><span data-stu-id="b0afa-108">How do protection features in Microsoft 365 Business map to Intune settings</span></span>](map-protection-features-to-intune-settings.md)
     
-<span data-ttu-id="55924-109">다음 섹션에서 PC 및 모바일 장치에서 조직의 데이터를 보호하기 위해 Microsoft 365 Business를 사용하는 방법을 알아보세요.</span><span class="sxs-lookup"><span data-stu-id="55924-109">See the following sections on how to use Microsoft 365 Business to protect your organizations's data on PCs and mobile devices.</span></span>
+<span data-ttu-id="b0afa-109">다음 섹션에서 PC 및 모바일 장치에서 조직의 데이터를 보호하기 위해 Microsoft 365 Business를 사용하는 방법을 알아보세요.</span><span class="sxs-lookup"><span data-stu-id="b0afa-109">See the following sections on how to use Microsoft 365 Business to protect your organizations's data on PCs and mobile devices.</span></span>
   
-## <a name="manage-mobile-devices"></a><span data-ttu-id="55924-110">모바일 장치 관리</span><span class="sxs-lookup"><span data-stu-id="55924-110">Manage mobile devices</span></span>
+## <a name="manage-mobile-devices"></a><span data-ttu-id="b0afa-110">모바일 장치 관리</span><span class="sxs-lookup"><span data-stu-id="b0afa-110">Manage mobile devices</span></span>
 
-- [<span data-ttu-id="55924-111">Microsoft 365 Business 사용자를 위한 모바일 장치 설정</span><span class="sxs-lookup"><span data-stu-id="55924-111">Set up mobile devices for Microsoft 365 Business users</span></span>](set-up-mobile-devices.md)
+- [<span data-ttu-id="b0afa-111">Microsoft 365 Business 사용자를 위한 모바일 장치 설정</span><span class="sxs-lookup"><span data-stu-id="b0afa-111">Set up mobile devices for Microsoft 365 Business users</span></span>](set-up-mobile-devices.md)
     
-- [<span data-ttu-id="55924-112">Android 또는 iOS 장치에서 앱 보호 설정 설정하기</span><span class="sxs-lookup"><span data-stu-id="55924-112">Set app protection settings for Android or iOS devices</span></span>](app-protection-settings-for-android-and-ios.md)
+- [<span data-ttu-id="b0afa-112">Android 또는 iOS 장치에서 앱 보호 설정 설정하기</span><span class="sxs-lookup"><span data-stu-id="b0afa-112">Set app protection settings for Android or iOS devices</span></span>](app-protection-settings-for-android-and-ios.md)
     
-    <span data-ttu-id="55924-113">[Android 또는 iOS 장치에서 유효성 검사 응용 프로그램 보호 설정](validate-settings-on-android-or-ios.md) 을 작동 하는지 확인 합니다를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="55924-113">See [Validate app protection settings on an Android or iOS device](validate-settings-on-android-or-ios.md) to make sure this worked.</span></span> 
+    <span data-ttu-id="b0afa-113">[Android 또는 iOS 장치에서 앱 보호 설정 유효성 검사](validate-settings-on-android-or-ios.md) 를 참조 하 여 제대로 작동 하는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="b0afa-113">See [Validate app protection settings on an Android or iOS device](validate-settings-on-android-or-ios.md) to make sure this worked.</span></span> 
     
-- [<span data-ttu-id="55924-114">장치에서 회사 데이터 제거</span><span class="sxs-lookup"><span data-stu-id="55924-114">Remove company data from devices</span></span>](remove-company-data.md)
+- [<span data-ttu-id="b0afa-114">장치에서 회사 데이터 제거</span><span class="sxs-lookup"><span data-stu-id="b0afa-114">Remove company data from devices</span></span>](remove-company-data.md)
     
-## <a name="manage-windows-10-pcs"></a><span data-ttu-id="55924-115">Windows 10 PC 관리</span><span class="sxs-lookup"><span data-stu-id="55924-115">Manage Windows 10 PCs</span></span>
+## <a name="manage-windows-10-pcs"></a><span data-ttu-id="b0afa-115">Windows 10 PC 관리</span><span class="sxs-lookup"><span data-stu-id="b0afa-115">Manage Windows 10 PCs</span></span>
 
-- [<span data-ttu-id="55924-116">Microsoft 365 Business 사용자를 위한 Windows 장치 설정</span><span class="sxs-lookup"><span data-stu-id="55924-116">Set up Windows devices for Microsoft 365 Business users</span></span>](set-up-windows-devices.md)
+- [<span data-ttu-id="b0afa-116">Microsoft 365 Business 사용자를 위한 Windows 장치 설정</span><span class="sxs-lookup"><span data-stu-id="b0afa-116">Set up Windows devices for Microsoft 365 Business users</span></span>](set-up-windows-devices.md)
     
-- [<span data-ttu-id="55924-117">Windows 10 장치에서 Office를 자동으로 설치 또는 제거</span><span class="sxs-lookup"><span data-stu-id="55924-117">Automatically install or uninstall Office on Windows 10 devices</span></span>](auto-install-or-uninstall-office.md)
+- [<span data-ttu-id="b0afa-117">Windows 10 장치에서 Office를 자동으로 설치 또는 제거</span><span class="sxs-lookup"><span data-stu-id="b0afa-117">Automatically install or uninstall Office on Windows 10 devices</span></span>](auto-install-or-uninstall-office.md)
     
-    <span data-ttu-id="55924-118">Office를 자동으로 설치하기 전에 [Microsoft 365 Business를 사용한 Office 클라이언트 배포 준비](prepare-for-office-client-deployment.md)를 읽어 보세요.</span><span class="sxs-lookup"><span data-stu-id="55924-118">Read [Prepare for Office client deployment by Microsoft 365 Business](prepare-for-office-client-deployment.md) before you auto-install Office.</span></span> 
+    <span data-ttu-id="b0afa-118">Office를 자동으로 설치하기 전에 [Microsoft 365 Business를 사용한 Office 클라이언트 배포 준비](prepare-for-office-client-deployment.md)를 읽어 보세요.</span><span class="sxs-lookup"><span data-stu-id="b0afa-118">Read [Prepare for Office client deployment by Microsoft 365 Business](prepare-for-office-client-deployment.md) before you auto-install Office.</span></span> 
     
-- [<span data-ttu-id="55924-119">Windows 10 장치에서 장치 보호 설정 설정하기</span><span class="sxs-lookup"><span data-stu-id="55924-119">Set device protection settings for Windows 10 devices</span></span>](protection-settings-for-windows-10-pcs.md)
+- [<span data-ttu-id="b0afa-119">Windows 10 장치에서 장치 보호 설정 설정하기</span><span class="sxs-lookup"><span data-stu-id="b0afa-119">Set device protection settings for Windows 10 devices</span></span>](protection-settings-for-windows-10-pcs.md)
     
-    <span data-ttu-id="55924-120">[Windows 10 장치에서 장치 보호 설정 유효성 검사](validate-settings-on-windows-10-pcs.md) 를 참조하여 작업이 제대로 수행되었는지 확인하세요.</span><span class="sxs-lookup"><span data-stu-id="55924-120">See [Validate device protection settings on Windows 10 devices](validate-settings-on-windows-10-pcs.md) to make sure this worked.</span></span> 
+    <span data-ttu-id="b0afa-120">[Windows 10 장치에서 장치 보호 설정 유효성 검사](validate-settings-on-windows-10-pcs.md) 를 참조하여 작업이 제대로 수행되었는지 확인하세요.</span><span class="sxs-lookup"><span data-stu-id="b0afa-120">See [Validate device protection settings on Windows 10 devices](validate-settings-on-windows-10-pcs.md) to make sure this worked.</span></span> 
     
-- [<span data-ttu-id="55924-121">Windows 10 장치에서 응용 프로그램 보호 설정 설정하기</span><span class="sxs-lookup"><span data-stu-id="55924-121">Set application protection settings for Windows 10 devices</span></span>](protection-settings-for-windows-10-devices.md)
+- [<span data-ttu-id="b0afa-121">Windows 10 장치에서 응용 프로그램 보호 설정 설정하기</span><span class="sxs-lookup"><span data-stu-id="b0afa-121">Set application protection settings for Windows 10 devices</span></span>](protection-settings-for-windows-10-devices.md)
     
-    <span data-ttu-id="55924-122">[Windows 10 장치에서 앱 보호 설정 유효성 검사](validate-protection-settings-on-windows-10-pcs.md) 를 확인하여 작업이 제대로 수행되었는지 확인하세요.</span><span class="sxs-lookup"><span data-stu-id="55924-122">See [Validate app protection settings on Windows 10 PCs](validate-protection-settings-on-windows-10-pcs.md) to make sure this worked.</span></span> 
+    <span data-ttu-id="b0afa-122">[Windows 10 장치에서 앱 보호 설정 유효성 검사](validate-protection-settings-on-windows-10-pcs.md) 를 확인하여 작업이 제대로 수행되었는지 확인하세요.</span><span class="sxs-lookup"><span data-stu-id="b0afa-122">See [Validate app protection settings on Windows 10 PCs](validate-protection-settings-on-windows-10-pcs.md) to make sure this worked.</span></span> 
     
-- [<span data-ttu-id="55924-123">장치에서 회사 데이터 제거</span><span class="sxs-lookup"><span data-stu-id="55924-123">Remove company data from devices</span></span>](remove-company-data.md)
+- [<span data-ttu-id="b0afa-123">장치에서 회사 데이터 제거</span><span class="sxs-lookup"><span data-stu-id="b0afa-123">Remove company data from devices</span></span>](remove-company-data.md)
     
-- [<span data-ttu-id="55924-124">Windows 10 장치를 공장 설정으로 초기화</span><span class="sxs-lookup"><span data-stu-id="55924-124">Reset Windows 10 devices to their factory settings</span></span>](reset-devices-to-factory-settings.md)
+- [<span data-ttu-id="b0afa-124">Windows 10 장치를 공장 설정으로 초기화</span><span class="sxs-lookup"><span data-stu-id="b0afa-124">Reset Windows 10 devices to their factory settings</span></span>](reset-devices-to-factory-settings.md)
     
-### <a name="use-autopilot-to-deploy-windows-10-devices"></a><span data-ttu-id="55924-125">AutoPilot을 사용하여 Windows 10 장치 배포</span><span class="sxs-lookup"><span data-stu-id="55924-125">Use AutoPilot to deploy Windows 10 devices</span></span>
+### <a name="use-autopilot-to-deploy-windows-10-devices"></a><span data-ttu-id="b0afa-125">AutoPilot을 사용하여 Windows 10 장치 배포</span><span class="sxs-lookup"><span data-stu-id="b0afa-125">Use AutoPilot to deploy Windows 10 devices</span></span>
 
-<span data-ttu-id="55924-126">다음 항목에서는 Microsoft 365 Business에서 Windows AutoPilot을 사용하여 Windows 10 장치를 사전 구성하는 방법을 설명합니다.</span><span class="sxs-lookup"><span data-stu-id="55924-126">The following topics describe how you can use Windows AutoPilot in Microsoft 365 Business to pre-configure Windows 10 devices.</span></span>
+<span data-ttu-id="b0afa-126">다음 항목에서는 Microsoft 365 Business에서 Windows AutoPilot을 사용하여 Windows 10 장치를 사전 구성하는 방법을 설명합니다.</span><span class="sxs-lookup"><span data-stu-id="b0afa-126">The following topics describe how you can use Windows AutoPilot in Microsoft 365 Business to pre-configure Windows 10 devices.</span></span>
   
-- [<span data-ttu-id="55924-127">단계별 가이드를 사용하여 AutoPilot 장치 및 프로필 추가</span><span class="sxs-lookup"><span data-stu-id="55924-127">Use the step-by-step guide to add Autopilot devices and profile</span></span>](add-autopilot-devices-and-profile.md)
+- [<span data-ttu-id="b0afa-127">단계별 가이드를 사용하여 AutoPilot 장치 및 프로필 추가</span><span class="sxs-lookup"><span data-stu-id="b0afa-127">Use the step-by-step guide to add Autopilot devices and profile</span></span>](add-autopilot-devices-and-profile.md)
     
-- [<span data-ttu-id="55924-128">AutoPilot 프로필 만들기 및 편집</span><span class="sxs-lookup"><span data-stu-id="55924-128">Create and edit AutoPilot profiles</span></span>](create-and-edit-autopilot-profiles.md)
+- [<span data-ttu-id="b0afa-128">AutoPilot 프로필 만들기 및 편집</span><span class="sxs-lookup"><span data-stu-id="b0afa-128">Create and edit AutoPilot profiles</span></span>](create-and-edit-autopilot-profiles.md)
     
-- [<span data-ttu-id="55924-129">AutoPilot 장치 만들기 및 편집</span><span class="sxs-lookup"><span data-stu-id="55924-129">Create and edit AutoPilot devices</span></span>](create-and-edit-autopilot-devices.md)
+- [<span data-ttu-id="b0afa-129">AutoPilot 장치 만들기 및 편집</span><span class="sxs-lookup"><span data-stu-id="b0afa-129">Create and edit AutoPilot devices</span></span>](create-and-edit-autopilot-devices.md)
     
-- [<span data-ttu-id="55924-130">AutoPilot 장치 오류 문제 해결</span><span class="sxs-lookup"><span data-stu-id="55924-130">Troubleshoot AutoPilot device errors</span></span>](troubleshoot-autopilot-errors.md)
+- [<span data-ttu-id="b0afa-130">AutoPilot 장치 오류 문제 해결</span><span class="sxs-lookup"><span data-stu-id="b0afa-130">Troubleshoot AutoPilot device errors</span></span>](troubleshoot-autopilot-errors.md)
     
-- [<span data-ttu-id="55924-131">장치 상태</span><span class="sxs-lookup"><span data-stu-id="55924-131">Device states</span></span>](device-states.md)
+- [<span data-ttu-id="b0afa-131">장치 상태</span><span class="sxs-lookup"><span data-stu-id="b0afa-131">Device states</span></span>](device-states.md)
     
-- [<span data-ttu-id="55924-132">AutoPilot 프로필 설정 정보</span><span class="sxs-lookup"><span data-stu-id="55924-132">About AutoPilot Profile settings</span></span>](autopilot-profile-settings.md)
+- [<span data-ttu-id="b0afa-132">AutoPilot 프로필 설정 정보</span><span class="sxs-lookup"><span data-stu-id="b0afa-132">About AutoPilot Profile settings</span></span>](autopilot-profile-settings.md)
     
-## <a name="set-up-and-pre-requisite-information"></a><span data-ttu-id="55924-133">설정 및 필수 조건 정보</span><span class="sxs-lookup"><span data-stu-id="55924-133">Set up and pre-requisite information</span></span>
+## <a name="set-up-and-pre-requisite-information"></a><span data-ttu-id="b0afa-133">설정 및 필수 조건 정보</span><span class="sxs-lookup"><span data-stu-id="b0afa-133">Set up and pre-requisite information</span></span>
 
-- [<span data-ttu-id="55924-134">Microsoft 365 Business를 사용하여 장치의 데이터를 보호하기 위한 필수 조건</span><span class="sxs-lookup"><span data-stu-id="55924-134">Pre-requisites for protecting data on devices with Microsoft 365 Business</span></span>](pre-requisites-for-data-protection.md)
+- [<span data-ttu-id="b0afa-134">Microsoft 365 Business를 사용하여 장치의 데이터를 보호하기 위한 필수 조건</span><span class="sxs-lookup"><span data-stu-id="b0afa-134">Pre-requisites for protecting data on devices with Microsoft 365 Business</span></span>](pre-requisites-for-data-protection.md)
     
-- [<span data-ttu-id="55924-135">설정 마법사를 사용하여 Microsoft 365 Business 설정</span><span class="sxs-lookup"><span data-stu-id="55924-135">Set up Microsoft 365 Business by using the setup wizard</span></span>](set-up.md)
+- [<span data-ttu-id="b0afa-135">설정 마법사를 사용하여 Microsoft 365 Business 설정</span><span class="sxs-lookup"><span data-stu-id="b0afa-135">Set up Microsoft 365 Business by using the setup wizard</span></span>](set-up.md)
     
-- [<span data-ttu-id="55924-136">Microsoft 365 Business로 마이그레이션</span><span class="sxs-lookup"><span data-stu-id="55924-136">Migrate to Microsoft 365 Business</span></span>](migrate-to-microsoft-365-business.md)
+- [<span data-ttu-id="b0afa-136">Microsoft 365 Business로 마이그레이션</span><span class="sxs-lookup"><span data-stu-id="b0afa-136">Migrate to Microsoft 365 Business</span></span>](migrate-to-microsoft-365-business.md)
     
-- [<span data-ttu-id="55924-137">Microsoft 365 비즈니스에서 관리 되는 도메인 가입 Windows 10 장치를 사용 하도록 설정</span><span class="sxs-lookup"><span data-stu-id="55924-137">Enable domain-joined Windows 10 devices to be managed by Microsoft 365 Business</span></span>](manage-windows-devices.md)
+- [<span data-ttu-id="b0afa-137">도메인에 가입 된 Windows 10 장치를 Microsoft 365 Business에서 관리할 수 있도록 설정</span><span class="sxs-lookup"><span data-stu-id="b0afa-137">Enable domain-joined Windows 10 devices to be managed by Microsoft 365 Business</span></span>](manage-windows-devices.md)
     
-[<span data-ttu-id="55924-138">추가적인 보안 기능</span><span class="sxs-lookup"><span data-stu-id="55924-138">Additional security features</span></span>](security-features.md#additional-security-features)
+[<span data-ttu-id="b0afa-138">추가 보안 기능</span><span class="sxs-lookup"><span data-stu-id="b0afa-138">Additional security features</span></span>](security-features.md#additional-security-features)
     
 
   
