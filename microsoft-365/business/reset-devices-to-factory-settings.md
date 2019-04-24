@@ -7,6 +7,9 @@ ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
+ms.collection:
+- M365-subscription-management
+- M365-identity-device-management
 ms.custom:
 - Core_O365Admin_Migration
 - MiniMaven
@@ -15,13 +18,13 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: c4db6caf-74df-4734-b1dd-53e371c7a3c3
-description: 'Microsoft 365 비즈니스를 사용 하는 방법에 알아봅니다 공장 Windows 10 장치를 다시 설정 합니다. '
-ms.openlocfilehash: ed745ea792f755ada17b3b327032246dab16d94b
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+description: 'Microsoft 365 Business를 사용 하 여 Windows 10 장치를 초기화 하는 방법을 알아봅니다. '
+ms.openlocfilehash: 8340bd6a24f3b4d875f6482c03a69275a9a48f33
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26870252"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283726"
 ---
 # <a name="reset-windows-10-devices-to-their-factory-settings"></a>Windows 10 장치를 공장 설정으로 초기화
 
@@ -29,11 +32,9 @@ ms.locfileid: "26870252"
   
 1. 전역 관리자 자격 증명을 사용하여 [관리 센터](https://aka.ms/bcsportal)에 로그인합니다. 
     
-2. 관리 센터의 **장치 작업** 카드에서 **초기화**를 선택합니다.
-    
-    ![On the Device actions card, choose Factory reset](media/7caddd12-207e-4c99-b61c-0495fc5f55e3.png)
-  
-3. **초기화** 창에서 데이터를 제거할 장치 옆의 확인란을 선택한 다음 **선택**을 선택합니다.
+2. 관리 센터의 왼쪽 탐색 창에서 **장치** \> **관리**를 선택 합니다.
+
+3. **관리** 페이지에서 데이터를 제거할 장치 옆의 확인란을 선택 하 고 **관리** 드롭다운 메뉴에서 **공장 초기화**를 선택 합니다.
     
 4. **아래 장치를 초기화하시겠습니까** 창에서 **확인** \> **닫기**를 선택합니다.
     

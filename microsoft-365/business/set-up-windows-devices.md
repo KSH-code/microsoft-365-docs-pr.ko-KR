@@ -7,6 +7,9 @@ ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
+ms.collection:
+- M365-subscription-management
+- M365-identity-device-management
 ms.custom:
 - Core_O365Admin_Migration
 - MiniMaven
@@ -16,12 +19,12 @@ search.appverid:
 - MET150
 ms.assetid: 2d7ff45e-0da0-4caa-89a9-48cabf41f193
 description: 'Microsoft 365 Business 사용자 Windows 10 Pro를 실행하는 Windows 장치를 설정하는 방법에 대해 알아보십시오. '
-ms.openlocfilehash: 482199b175c568bfae420619aa02024303894789
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
-ms.translationtype: HT
+ms.openlocfilehash: f93257bd9a68385fca4f178a2e09c5c11506ee2c
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26869932"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32284381"
 ---
 # <a name="set-up-windows-devices-for-microsoft-365-business-users"></a>Microsoft 365 Business 사용자를 위해 Windows 장치 설정
 
@@ -33,7 +36,7 @@ Windows 장치에서 Windows 7 Pro, Windows 8 Pro 또는 Windows 8.1 Pro를 실�
   
 Windows 장치를 Windows 10 Pro 크리에이터 업데이트로 업그레이드하는 방법에 대한 자세한 내용은 [Windows Pro 크리에이터 업데이트로 Windows 장치 업그레이드](upgrade-to-windows-pro-creators-update.md)의 단계를 따르세요.
   
-[장치가 Windows 10 Business로 업그레이드되었는지 확인](set-up-windows-devices.md#bkmk_verifywin10)을 참조하여 업그레이드가 완료되고 올바르게 작동하는지 확인하세요. 
+[장치가 Azure AD에 연결 되었는지 확인](#verify-the-device-is-connected-to-azure-ad) 을 참조 하 여 업그레이드가 있는지 확인 하거나 업그레이드가 제대로 수행 되었는지 확인 합니다. 
   
 ## <a name="join-windows-10-devices-to-your-organizations-azure-ad"></a>Windows 10 장치를 조직의 Azure AD에 연결
 
@@ -51,7 +54,7 @@ Windows 10 Pro 크리에이터 업데이트를 실행하는 새로운 장치 또
     
 3. Windows 10 장치 설정을 완료합니다.
     
-   설정을 완료하면 사용자가 조직의 Azure AD에 연결됩니다. [장치가 Azure AD에 연결되었는지 확인](set-up-windows-devices.md#bkmk_verifyaad)을 참조하여 연결을 확인하세요. 
+   설정을 완료하면 사용자가 조직의 Azure AD에 연결됩니다. [장치가 Azure AD에 연결되었는지 확인](#verify-the-device-is-connected-to-azure-ad)을 참조하여 연결을 확인하세요. 
   
 ### <a name="for-a-device-already-set-up-and-running-windows-10-pro"></a>Windows 10 Pro를 이미 설치하여 운영 중인 장치의 경우
 
@@ -79,7 +82,7 @@ Windows 10 Pro 크리에이터 업데이트를 실행하는 새로운 장치 또
   
    ![Enter your work or school email on the Let's get you signed in page](media/f70eb148-b1d2-4ba3-be38-7317eaf0321a.png)
   
-6. * * 조직 확인 * * 페이지에서 정보가 올바른지 확인하고 **참가**를 클릭합니다.
+6. **조직** 확인 페이지에서 정보가 올바른지 확인 하 고 **참가**를 클릭 합니다.
   
    **완료되었습니다!** 페이지에서 **완료**를 클릭합니다.
   

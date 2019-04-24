@@ -19,11 +19,11 @@ search.appverid:
 - MET150
 description: Microsoft 365 Business에 대해 구입 하 고 등록 하는 방법을 알아봅니다.
 ms.openlocfilehash: 5e8bdb9121f2b567ef4faced2b960feaab49d923
-ms.sourcegitcommit: 913564997dbba42a448865a8913e07e6f203c736
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/08/2019
-ms.locfileid: "31504084"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283596"
 ---
 # <a name="sign-up-for-microsoft-365-business"></a>Microsoft 365 Business에 등록
 
@@ -41,7 +41,7 @@ ms.locfileid: "31504084"
 
     - **사용자 이름**: 회사 전자 메일에 사용할 이름 (별칭 이라고 함)을 입력 합니다. 예를 들어 Robert 젊은은 roby RobYoung을 work 별칭으로 사용할 수 있습니다.
     - **회사**: 고유한 비즈니스 이름을 입력 합니다. 회사 웹 사이트에 사용 되는 이름으로, 회사 전자 메일을 받을 때 @ 기호 뒤에 포함할 이름 이기도 합니다. 이 이름을 도메인 이라고 합니다. 예를 들어 비즈니스가 Contoso 스키 이라고 하는 경우에는 @ 기호 다음에 ContosoSkis를 입력 합니다.
-    - **도메인 선택**: 도메인 이름을 이미 소유한 경우 onmicrosoft.com을 선택 하 고 나중에 설정 하 라는 메시지가 표시 됩니다. 그렇지 않으면 비즈니스를 나타내는 도메인 이름을 쉽게 구매할 수 있습니다. 이렇게 하려면 드롭다운 메뉴에서 원하는 도메인을 선택 합니다. 예를 들어 전체 전자 메일 주소는 *Teresa@ContosoSkis.net*입니다. 도메인 이름을 사용할 수 있으면 바로 알 수 있습니다. 이 경우 Microsoft 365 비즈니스 구독의 비용에 도메인 비용을 추가 합니다. 여기에서 구입 하는 경우 새 도메인도 설정 되 고 Microsoft 365에서 사용할 준비가 된 것입니다. 도메인에 대 한 자세한 내용은 [도메인 FAQ](https://docs.microsoft.com/office365/admin/setup/domains-faq)를 참조 하세요.
+    - **도메인 선택**: 도메인 이름을 이미 소유한 경우 onmicrosoft.com을 선택 하 고 나중에 설정 하 라는 메시지가 표시 됩니다. 그렇지 않으면 비즈니스를 나타내는 도메인 이름을 쉽게 구매할 수 있습니다. 이렇게 하려면 드롭다운 메뉴에서 원하는 도메인을 선택 합니다. 예를 들어 전체 전자 메일 주소가 *Teresa@ContosoSkis.net*될 수 있습니다. 도메인 이름을 사용할 수 있으면 바로 알 수 있습니다. 이 경우 Microsoft 365 비즈니스 구독의 비용에 도메인 비용을 추가 합니다. 여기에서 구입 하는 경우 새 도메인도 설정 되 고 Microsoft 365에서 사용할 준비가 된 것입니다. 도메인에 대 한 자세한 내용은 [도메인 FAQ](https://docs.microsoft.com/office365/admin/setup/domains-faq)를 참조 하세요.
     
     ![사용자 ID 만들기 페이지의 스크린샷](media/signinuserid.png)
 

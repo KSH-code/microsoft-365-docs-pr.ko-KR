@@ -4,11 +4,14 @@ ms.author: sirkkuw
 author: sirkkuw
 manager: scotv
 ms.audience: Admin
-ms.topic: overview
+ms.topic: conceptual
 f1_keywords:
 - O365E_BCSSetup4WindowsConfig
 ms.service: o365-administration
 localization_priority: Normal
+ms.collection:
+- M365-subscription-management
+- M365-identity-device-management
 ms.custom:
 - Core_O365Admin_Migration
 - MiniMaven
@@ -18,13 +21,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 21e5551f-fa35-4f13-9418-f80d668b6a2b
-description: '기본 및 Windows 10 장치 보호 하기 위해 다른 설정 하는 방법에 대 한 설명 합니다. '
-ms.openlocfilehash: 0bdf6a56d880cb84f4a4f50550539d97c006ba49
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+description: 'Windows 10 장치를 보호 하기 위한 기본 및 기타 설정에 대해 알아봅니다. '
+ms.openlocfilehash: 6f06936c2075710210ad9e29ee92905b3b49917a
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26870277"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32278060"
 ---
 # <a name="secure-windows-10-devices"></a>Windows 10 장치 보안
 
@@ -39,7 +42,7 @@ ms.locfileid: "26870277"
 |설정  <br/> |설명  <br/> |
 |Windows Defender Antivirus를 사용하여 바이러스 및 기타 위협으로부터 PC를 보호하도록 지원  <br/> |인터넷에 연결하여 발생할 수 있는 위험으로부터 PC를 보호하기 위해 Windows Defender Antivirus가 켜져 있어야 합니다.  <br/> |
 |Microsoft Edge에서 웹 기반 위협으로부터 PC를 보호하도록 지원  <br/> |Edge에서 사용자를 악성 사이트와 다운로드로부터 보호하는 설정을 켭니다.  <br/> |
-|이 시간 동안 유휴 상태일 때 장치 화면 끄기  <br/> |사용자가 유휴 상태일 때 회사 데이터가 안전하게 보호되도록 합니다. 사용자가 커피숍과 같은 공공장소에서 작업하다가 잠시 자리를 비우거나 다른 곳에 주의를 기울인 순간 장치가 타인의 시선에 노출될 수 있습니다. 이 설정은 사용자가 얼마 동안 유휴 상태이면 화면이 꺼지는지 지정합니다.  <br/> |
+|이 시간 동안 유휴 상태일 때 장치 화면 끄기  <br/> |사용자가 유휴 상태일 때 회사 데이터가 안전하게 보호되도록 합니다. 사용자가 커피숍과 같은 공공장소에서 작업하다가 잠시 자리를 비우거나 다른 곳에 주의를 기울인 순간 장치가 타인들의 시선에 노출될 수 있습니다. 이 설정은 사용자가 얼마 동안 유휴 상태이면 화면이 꺼지는지 지정합니다.  <br/> |
 |사용자가 Microsoft Store에서 앱을 다운로드할 수 있도록 허용  <br/> |사용자가 Microsoft Store에서 앱을 다운로드하여 설치할 수 있도록 허용합니다. 앱에는 게임에서 생산성 도구에 이르기까지 다양한 종류가 있습니다. 따라서 기본값은 **켜기**이지만 관리자가 보안을 위해 끌 수 있습니다.  <br/> |
 |사용자가 Cortana에 액세스할 수 있도록 허용  <br/> |Cortana는 매우 유용한 도구입니다. Cortana는 사용자 대신 설정을 끄거나 켜고, 길을 안내해 주고, 약속을 상기시켜 줍니다. 기본값은 **켜기**입니다.  <br/> |
 |사용자가 Microsoft에서 Windows 팁 및 광고를 받을 수 있도록 허용  <br/> |Windows 팁은 새로운 기능이 출시된 경우 사용자에게 이를 안내하는 등 매우 유용하게 사용됩니다.  <br/> |

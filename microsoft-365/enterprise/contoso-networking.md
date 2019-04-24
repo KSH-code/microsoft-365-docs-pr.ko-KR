@@ -9,16 +9,16 @@ ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
 ms.collection:
-- Ent_O365
+- M365-subscription-management
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Contoso 네트워킹 인프라와 이 인프라가 Microsoft 365 Enterprise 클라우드 기반 서비스에 대해 최적 성능의 네트워크 연결을 설정하기 위해 SD-WAN 기술을 사용하는 방법을 이해합니다.
-ms.openlocfilehash: 0ef9c37755927444276c83a2c5952b5cb96f22ed
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: 09da5f25a9c2cc49ade470fa8fa7fe98d9f7a20e
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26869713"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283771"
 ---
 # <a name="networking-for-the-contoso-corporation"></a>Contoso Corporation에 대한 네트워킹
 

@@ -7,6 +7,9 @@ ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
+ms.collection:
+- M365-subscription-management
+- M365-identity-device-management
 ms.custom:
 - Core_O365Admin_Migration
 - MiniMaven
@@ -15,13 +18,13 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 6b70fa27-d171-4593-8ecf-f78bb4ed2e99
-description: 전역 관리자 credintials와 Microsoft 365 비즈니스에 로그인 하 여 장치 정책 및 작업을 확인 합니다.
-ms.openlocfilehash: 0018abc6dcf2163dc50c6c792793c9f5d9e29d45
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+description: 전역 관리자 credintials을 사용 하 여 Microsoft 365 business에 로그인 하 여 장치 정책 및 작업을 확인 합니다.
+ms.openlocfilehash: 524e5382fb242ea6b77abd72191073ce4df14f0c
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26869719"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32285821"
 ---
 # <a name="view-policies-and-devices"></a>정책 및 장치 보기
 
@@ -29,7 +32,7 @@ ms.locfileid: "26869719"
 
 1. 전역 관리자 자격 증명을 사용하여 [Microsoft 365 Business](https://portal.office.com)에 로그인합니다. 
     
-2. 관리 센터의 **장치 정책** 카드에서 **장치 정책**을 선택하여 **장치 정책** 페이지를 엽니다. 
+2. 왼쪽 탐색 창에서 **장치** \> **정책** \> **추가**를 선택 합니다.
     
     이 페이지에서 대상 그룹을 만들고, 편집하고 변경하거나 정책을 삭제할 수 있습니다.
     

@@ -1,40 +1,40 @@
 ---
 title: Microsoft Managed Desktop의 보안
 description: ''
-keywords: Microsoft 관리 되는 데스크톱, Microsoft 365 서비스, 설명서
+keywords: microsoft Managed Desktop, microsoft 365, 서비스, 설명서
 ms.service: m365-md
 author: trudyha
 ms.localizationpriority: normal
 ms.date: 09/24/2018
-ms.openlocfilehash: 928d01e7386bedc500e984b9c2a3240c6229bb43
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+ms.openlocfilehash: b91b646b00869827dfb2131e9df9db38a770d9df
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26870344"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32278637"
 ---
 # <a name="security-in-microsoft-managed-desktop"></a>Microsoft Managed Desktop의 보안
 
 <!--Security, also Onboarding doc: data handling/store, privileged account access -->
 
-Microsoft 관리 되는 데스크톱 표준 정책 집합을 적용 하는 및 보안 Microsoft 관리 되는 데스크톱 장치, 회사의 저장 된 데이터 등을 위해 많은 Microsoft 기술을 활용 하 여 합니다. 아래에 나열 된 영역 더 자세히 설명 합니다.  
+microsoft managed desktop은 표준 정책 집합을 적용 하며, microsoft 관리 되는 데스크톱 장치, 저장 된 회사 데이터 등을 보호 하는 데 도움이 되는 다양 한 microsoft 기술을 활용 합니다. 아래 나열 된 영역은 더 자세히 설명 되어 있습니다.  
 
-- [데이터 보안](#data-security) -Microsoft 관리 되는 데스크톱 및 안전 하 게 저장 되는 위치에서 수집 된 데이터 형식
-- [장치 보안](#device-security) -보안 및 보호 Microsoft 관리 되는 데스크톱 장치에서
-- Azure Active Directory id 서비스를 통해 장치 사용 하 여 [id 및 액세스 관리](#identity-and-access-management) -보안 관리
-- [네트워크 보안](#network-security) – VPN 정보 및 데스크톱을 관리 하는 Microsoft 권장 되는 솔루션 및 설정
-- [정보 보안](#information-security) – 더 중요 한 정보를 보호 하기 위해 사용할 수 있는 선택적 서비스 
+- [데이터 보안](#data-security) -Microsoft Managed Desktop에서 수집 되는 데이터 유형 및 안전 하 게 저장 되는 위치
+- [장치 보안](#device-security) -Microsoft Managed Desktop 장치에 대 한 보안 및 보호
+- [id 및 액세스 관리](#identity-and-access-management) -Azure Active Directory Identity services를 통한 장치 보안 사용 관리
+- [네트워크 보안](#network-security) -VPN 정보 및 Microsoft Managed Desktop 권장 솔루션 및 설정
+- [정보 보안](#information-security) -중요 한 정보를 보다 안전 하 게 보호 하는 데 사용할 수 있는 선택적 서비스 
 
 ## <a name="data-security"></a>데이터 보안
 
-(활성화 하는 Microsoft 관리 되는 데스크톱 IT 서비스 및 운영) 고객 테 넌 트에서 수집한 데이터는 미국에서 호스팅되는 Microsoft 테 넌 트의 Azure SQL 데이터베이스에 저장 됩니다.
+고객 테 넌 트에서 수집 된 데이터 (microsoft Managed Desktop IT 서비스 및 작업 사용)는 미국 내에서 호스트 되는 microsoft 테 넌 트의 Azure SQL 데이터베이스에 저장 됩니다.
 
-자세한 내용은 [Microsoft Azure 보안](https://docs.microsoft.com/azure/security/azure-database-security-overview)을 참조 하십시오.
+자세한 내용은 [Microsoft Azure security](https://docs.microsoft.com/azure/security/azure-database-security-overview)를 참조 하세요.
 
-테 넌 트에서 전송 되는 데이터의 형식을 다음과 같습니다.
+다음은 테 넌 트에서 전송 되는 데이터의 유형입니다.
 
 - 장치 업데이트, 사용 현황 및 안정성 데이터
-- 응용 프로그램 배포 및 안정성 데이터
+- 앱 배포 및 안정성 데이터
 - 업데이트 및 보안 정책 배포 데이터
 - 장치에 할당 된 사용자
 
@@ -42,45 +42,45 @@ Microsoft 관리 되는 데스크톱 표준 정책 집합을 적용 하는 및 �
 
 ## <a name="device-security"></a>장치 보안
 
-Microsoft 관리 되는 데스크톱을 통해 모든 관리 되는 장치 보호 된 하 고, 보호 및 다음 서비스를 사용 하 여 최대한 일찍 위협 요소를 검색:
+Microsoft managed Desktop은 모든 관리 장치를 보호 하 고 보호할 수 있도록 하며 다음 서비스를 사용 하 여 가능한 한 빨리 위협을 감지 합니다.
 
 서비스 | 설명
 --- | ---
-바이러스 검사 | Windows Defender AV 설치 및 구성<br>Windows Defender AV 정의 최신 상태입니다.
-전체 볼륨 암호화 |    Windows BitLocker는 Microsoft 관리 되는 데스크톱 장치에 대 한 볼륨 암호화 솔루션입니다.<br><br>조직에는 서비스로 onboarded 되 면 장치가 절전 모드에서 하거나 해제 하는 경우 로컬 데이터에 무단으로 액세스를 방지 하기 위해 함께 기본 제공 신뢰 플랫폼 모듈 (TPM) Windows BitLocker을 사용 하 여 장치 암호화 됩니다. 
-모니터링 |    Windows Defender 고급 위협 보호 (Windows Defender ATP)는 모든 Microsoft 관리 되는 데스크톱 장치에 대해 보안 위협 모니터링에 사용 됩니다. Windows Defender ATP 기업 고객을 감지, 조사, 및가 회사 네트워크의 고급 위협에 응답할 수 있습니다. 자세한 내용은 참조 [Windows Defender 고급 위협 보호.](https://docs.microsoft.com/windows/threat-protection/windows-defender-atp/windows-defender-advanced-threat-protection) 
-소프트웨어 업데이트 |  Microsoft 관리 되는 데스크톱 장치는 항상 최신 보안 업데이트를 사용 하 여 보호 됩니다.
-보안 장치 구성 |   Microsoft 관리 되는 데스크톱 Microsoft 보안 초기 계획을 구현합니다. 자세한 내용은 참조 [Windows 보안 기준선.](https://docs.microsoft.com/windows/security/threat-protection/windows-security-baselines)
+바이러스 검사 | Windows Defender AV가 설치 및 구성 되어 있습니다.<br>Windows Defender AV 정의가 최신 상태입니다.
+전체 볼륨 암호화 |    Windows BitLocker는 Microsoft Managed Desktop 장치에 대 한 볼륨 암호화 솔루션입니다.<br><br>조직이 서비스에 등록 장치가 절전 모드일 때 로컬 데이터에 대 한 무단 액세스를 방지 하기 위해 TPM (기본 제공 트러스트 플랫폼 모듈)이 포함 된 Windows BitLocker를 사용 하 여 디바이스가 암호화 됩니다. 
+모니터링 |    windows defender ATP (Advanced Threat Protection)는 모든 Microsoft 관리 되는 데스크톱 장치에서 보안 위협 모니터링에 사용 됩니다. 기업 고객은 Windows Defender ATP를 사용 하 여 회사 네트워크에서 advanced threat를 감지, 조사 및 응답할 수 있습니다. 자세한 내용은 [Windows Defender Advanced Threat Protection](https://docs.microsoft.com/windows/threat-protection/windows-defender-atp/windows-defender-advanced-threat-protection) 를 참조 하세요. 
+운영 체제 업데이트 |  Microsoft Managed Desktop 장치는 항상 최신 보안 업데이트를 사용 하 여 보호 됩니다.
+보안 장치 구성 |   microsoft Managed Desktop은 microsoft 보안 기준을 구현 합니다. 자세한 내용은 [Windows 보안 기준을](https://docs.microsoft.com/windows/security/threat-protection/windows-security-baselines) 참조 하십시오.
 
 
 
 ## <a name="identity-and-access-management"></a>ID 및 액세스 관리
 
-회사 자산 및 업무에 중요 한 데이터를 보호 하는 id 및 액세스 관리 합니다. 데스크톱을 관리 하는 Microsoft Azure Active Directory (Azure AD)와 보안 사용 관리 id가 되도록 장치를 구성 합니다. 것은 자신의 Azure AD 테 넌 트에 정확한 정보를 유지 하는 고객의 책임입니다. 
+id 및 액세스 관리 회사 자산 및 업무상 중요 한 데이터를 보호 합니다. Microsoft Managed Desktop azure Active Directory (azure AD) 관리 id와의 보안 된 사용을 보장 하도록 장치를 구성 합니다. Azure AD 테 넌 트에서 정확한 정보를 유지 관리 하는 것은 고객의 책임입니다. 
 
 서비스 | 설명
 --- | ---
-생체 인식 인증 |  Windows Hello 사용자가 자신의 얼굴 또는 암호를 잊어버리거나 훔쳐 하기 어렵습니다 되도록 설정 하는 PIN을 사용 하 여 로그인 합니다. 자세한 내용은 참조 [Windows Hello.](https://docs.microsoft.com/windows-hardware/design/device-experiences/windows-hello)
-Multi-Factor Authentication | Azure 다단계 인증 더 밀접 하 게는 더 높은 수준의 웰 같이 셀프서비스 암호 재설정으로는 휴대폰을 사용 하 여 인증을 제공 하 여 데스크톱을 관리 하는 Microsoft 서비스의 중요 한 기능에 대 한 액세스를 제어 합니다. 
-표준 사용자 권한 |  시스템을 보호 하 고 더욱 안전 하 게 하려면 사용자 표준 사용자 권한 할당 됩니다. 이 Windows 작업을 자동화할 즉시의 환경에서의 일부분으로 할당 됩니다.
+생체 인식 인증 |  Windows Hello에서는 사용자가 얼굴 또는 PIN을 사용 하 여 로그인 하 여 암호를 잊거나 도용 하기 어렵게 만듭니다. 자세한 내용은 [Windows Hello](https://docs.microsoft.com/windows-hardware/design/device-experiences/windows-hello) 를 참조 하세요.
+Multi-Factor Authentication | Azure multi-factor authentication은 휴대폰을 사용 하 여 추가 인증 수준 및 셀프 서비스 암호 재설정을 제공 하 여 Microsoft Managed Desktop service의 중요 한 기능에 대 한 액세스를 제어 합니다. 
+표준 사용자 권한 |  시스템을 보호 하 고 보다 안전 하 게 보호 하기 위해 사용자에 게 표준 사용자 권한이 할당 됩니다. 이 작업은 Windows Autopilot 경험의 일부로 할당 됩니다.
 
 
 
 ## <a name="network-security"></a>네트워크 보안
 
-고객에 게는 네트워크 보안에 대 한 책임을 집니다. 
+고객은 네트워크 보안을 담당 합니다. 
 
 서비스 | 설명
 --- | ---
-VPN | 고객 소유가 VPN 인프라 확인 인트라넷 외부의 제한 된 회사 리소스를 노출 될 수 있습니다.<br><br>최소 요구 사항: Microsoft 관리 되는 데스크톱 Windows 10 호환 되는 및 지원 되는 VPN 솔루션 필요 합니다. 조직에서 VPN 솔루션을 필요로 하는 경우 Windows 10 지원과 패키지화 되 고 Intune를 통해 배포 될 수 있어야 합니다. 자세한 내용은 소프트웨어 게시자에 게 문의 합니다.<br><br>권장 사항:<br>Microsoft 푸시 VPN 프로필에 Intune를 통해 쉽게 배포할 수 있는 최신 VPN 솔루션을 권장 합니다. 이 회사 네트워크에 액세스 하는 항상-에, 원활 하 게, 안정적이 고 안전한 방법을 제공 합니다. 자세한 내용은 [[Intune의 VPN 설정]을](https://docs.microsoft.com/intune/vpn-settings-configure)참조 하십시오.<br>-굵은 VPN 클라이언트 또는 레거시 VPN 클라이언트는 최종 사용자 환경에 영향을 줄 수 있는 것 처럼 Microsoft 관리 되는 데스크톱을 사용 하는 동안 Microsoft에서 권장 되지 않습니다.<br>Microsoft는 성능 문제를 방지 하기 위해 VPN을 거치지 않고 보내는 웹 트래픽을 인터넷에 직접 이동 하는 것이 좋습니다.<br>-원칙적으로, Microsoft Azure Active Directory 응용 프로그램 프록시를 VPN 하는 대신 사용할 것을 권장 합니다.
+VPN | 고객은 VPN 인프라를 소유 하 여 제한 된 회사 리소스가 인트라넷 외부에 노출 될 수 있도록 합니다.<br><br>최소 요구 사항: Microsoft Managed Desktop에는 Windows 10 호환 및 지원 되는 VPN 솔루션이 필요 합니다. 조직에서 VPN 솔루션을 필요로 하는 경우에는 Windows 10을 지원 하 고 Intune을 통해 패키지 및 배포 가능 해야 합니다. 자세한 내용은 소프트웨어 게시자에 게 문의 하세요.<br><br>사항이<br>-Microsoft는 vpn 프로필을 푸시 하기 위해 Intune을 통해 쉽게 배포할 수 있는 최신 VPN 솔루션을 권장 합니다. 이를 통해 회사 네트워크에 간편 하 고 안정적 이며 안전 하 게 액세스할 수 있습니다. 자세한 내용은 [[VPN 설정 (Intune)]](https://docs.microsoft.com/intune/vpn-settings-configure)을 참조 하십시오.<br>-굵은 vpn 클라이언트 또는 레거시 vpn 클라이언트는 최종 사용자 환경에 영향을 줄 수 있으므로 microsoft Managed Desktop을 사용 하는 동안 microsoft에서 권장 하지 않습니다.<br>-Microsoft에서는 성능 문제가 발생 하지 않도록 하기 위해 VPN을 사용 하지 않고 나가는 웹 트래픽이 인터넷으로 직접 이동 하는 것이 좋습니다.<br>가장 이상적으로 말하면 VPN 대신 Azure Active Directory 앱 프록시를 사용 하는 것이 좋습니다.
 
 
-## <a name="information-security"></a>정보 보안 적용
+## <a name="information-security"></a>정보 보안
 
-고객 회사 중요 한 자산을 보호 하려면 이러한 선택적 서비스를 구성할 수도 있습니다. 
+고객은 이러한 선택적 서비스를 구성 하 여 회사 높은 가치 자산을 보호할 수 있습니다. 
 
 서비스 | 설명
 --- | ---
-데이터 복구  | 장치에서 주요 폴더에 저장 된 정보는 다음과 같은 비즈니스용 OneDrive에 백업 됩니다. Microsoft 관리 되는 데스크톱 비즈니스용 OneDrive와 동기화 되지 않은 데이터에 대 한 책임을 집니다있지 않습니다. 
-Windows Information Protection |    높은 수준의 정보 보안을 필요로 하는 기업에 대 한 것이 좋습니다 [Windows 정보 보호](https://docs.microsoft.com/windows/threat-protection/windows-information-protection/protect-enterprise-data-using-wip) 및 [Azure 정보 보호.](https://www.microsoft.com/cloud-platform/azure-information-protection)합니다. 
+데이터 복구  | 장치의 주요 폴더에 저장 된 정보는 비즈니스용 OneDrive에 백업 됩니다. Microsoft Managed Desktop은 비즈니스용 OneDrive와 동기화 되지 않은 데이터에 대해 책임을 지지 않습니다. 
+Windows Information Protection |    높은 수준의 정보 보안이 필요한 회사의 경우 [Windows information protection](https://docs.microsoft.com/windows/threat-protection/windows-information-protection/protect-enterprise-data-using-wip) 및 [Azure information protection](https://www.microsoft.com/cloud-platform/azure-information-protection)을 권장 합니다. 
 

@@ -7,6 +7,9 @@ ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
+ms.collection:
+- M365-subscription-management
+- M365-identity-device-management
 ms.custom:
 - Adm_O365
 - Core_O365Admin_Migration
@@ -15,13 +18,13 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: fae8819d-7235-495f-9f07-d016f545887f
-description: Windows 10 장치에서 Microsoft 365 비즈니스 응용 프로그램 보호 설정의 유효성을 검사 하는 방법에 알아봅니다.
-ms.openlocfilehash: f00dd380103ad9498d77b0e8814bace3de168df4
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+description: Windows 10 장치에서 Microsoft 365 Business 앱 보호 설정을 확인 하는 방법을 알아봅니다.
+ms.openlocfilehash: 4f1f0993dff0ef8d3f6858a3749e063c7b5579c7
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26870126"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32279994"
 ---
 # <a name="validate-app-protection-settings-on-windows-10-pcs"></a>Windows 10 PC에서 앱 보호 설정 유효성 검사
 
@@ -61,7 +64,7 @@ ms.locfileid: "26870126"
     
 2. **회사 또는 학교 액세스**에서 **연결**을 선택합니다.
     
-3. 으로 Microsoft 365 비즈니스 자격 증명을 입력은 **는 작업을 설정 또는 학교 계정 대화** \> **에 로그인**합니다.
+3. Enter your Microsoft 365 Business credential into the **Set up a work or school account dialog** \> **Sign in**.
     
 4. **회사 또는 학교 액세스** 페이지에서 **회사 또는 학교 계정**을 선택한 다음 **정보**를 선택합니다.
     

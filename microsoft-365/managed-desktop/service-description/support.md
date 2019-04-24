@@ -1,55 +1,52 @@
 ---
-title: Microsoft Managed Desktop의 지원
+title: Microsoft Managed Desktop에 대 한 지원
 description: ''
-keywords: Microsoft 관리 되는 데스크톱, Microsoft 365 서비스, 설명서
+keywords: microsoft Managed Desktop, microsoft 365, 서비스, 설명서
 ms.service: m365-md
 author: jdeckerms
 ms.localizationpriority: normal
 ms.date: 11/7/2018
-ms.openlocfilehash: d3c884d4e184bbe76ca630bfbe9d3a5dff1355d9
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+ms.collection: M365-modern-desktop
+ms.openlocfilehash: 2e88f629764fa1c19a4a2d53337ebaebc7c173b8
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26870110"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32278523"
 ---
-# <a name="support-for-microsoft-managed-desktop"></a>Microsoft Managed Desktop의 지원
+# <a name="support-for-microsoft-managed-desktop"></a>Microsoft Managed Desktop에 대 한 지원
 
-Microsoft 관리 되는 데스크톱 장치가 관리 하 고 됩니다 복구 또는 교체 microsoft 보증 계약에 따라 합니다. Microsoft는 사전 및 사후 사고 관리를 제공 합니다. Microsoft는 Microsoft 관리 되는 데스크톱 관리 포털에 사고를 추적합니다. 이러한 [심각도 정의](../working-with-managed-desktop/admin-support.md#sev)따라 분류 됩니다.
+microsoft managed Desktop 장치는 무상 수리 계약에 따라 관리 되며 microsoft에 의해 복구 되거나 교체 됩니다. Microsoft는 사전 및 사후 대응 인시던트 관리를 제공 합니다. microsoft 관리 되는 데스크톱 관리 포털의 인시던트를 추적 합니다. [심각도 정의](../working-with-managed-desktop/admin-support.md#sev)에 따라 분류 됩니다.
 
-고객에 대 한 Microsoft 관리 되는 데스크톱 작업 문의할 수 있습니다.
-- 서비스 테 넌 트 또는 구성으로 현대 직장에서 정보 요청
-- 서비스 장치로 현대 직장의 구성에 대 한 변경 요청
-- 사고 또는 중단 보고
+고객은 다음에 대해 Microsoft Managed Desktop 작업에 문의할 수 있습니다.
+- Microsoft Managed Desktop 테 넌 트 또는 구성에 대 한 정보 요청
+- Microsoft Managed Desktop 장치 구성에 대 한 변경 요청
+- 인시던트 또는 중단 보고
 
-## <a name="whats-included"></a>다음을 포함는 무엇입니까?
+## <a name="whats-included"></a>포함 된 기능
 
-Microsoft 관리 되는 데스크톱 지원:
+Microsoft Managed Desktop 지원:
 
-- 기술 지원 엔지니어 Microsoft 관리 되는 데스크톱 장치에 전용으로 구성 된 팀을 제공 합니다.
-- Microsoft 관리 되는 데스크톱 장치 및 해당 장치에 할당 하는 최종 사용자 지원
-- 부여 지원 엔지니어 Microsoft 관리 되는 데스크톱 장치 관리에 대 한 Microsoft 관리 되는 데스크톱 장치에 대 한 관리 액세스를 제한 
+- Microsoft Managed Desktop 장치 전용의 지원 엔지니어 팀을 제공 합니다.
+- Microsoft Managed Desktop devices 및 해당 장치에 할당 된 최종 사용자 지원
+- 지원 엔지니어가 microsoft managed desktop 장치를 관리할 수 있도록 microsoft managed desktop 장치에 대 한 제한 된 관리 액세스 권한 부여 
 
 지원 되는 제품:
 
-- Windows 10 Windows Defender와 고급 위협 보호 (WDATP) 
-- Microsoft 365 e 5 제품군의 하위 집합: Outlook, Word, PowerPoint, Excel, 비즈니스 클라이언트의 경우 Microsoft 팀의 Skype 
+- windows Defender Advanced Threat Protection이 포함 된 windows 10 (wdatp) 
+- microsoft 365 E3 제품군의 하위 집합: Outlook, Word, PowerPoint, Excel, 비즈니스용 Skype 클라이언트, microsoft 팀 
 - 비즈니스용 Microsoft Store 
-- 비즈니스용 OneDrive 비즈니스 클라이언트 
+- 비즈니스용 OneDrive 클라이언트 
 
-세부 정보를 지원 합니다.
+지원 세부 정보:
 
-- 현재 시간: 북미, 영국, 및 오스트레일리아만 (24 x 7 x 365) 
-- 영어는 고객과 전화 및 채팅 대화에 대 한 지원 되는 유일한 언어 
-- 우리는 관계를 맺은 바꾸지 않으려는 회사 기술 지원팀에 문의 합니다. 비즈니스 라인 lob (기간 업무) 응용 프로그램, 네트워크 리소스 등 기술 지원팀에 문의 하 여 여전히 처리 
-- 범위 바깥에 테스트 연결 및 비-Microsoft 관리 되는 데스크톱 장치에 있는 Microsoft 관리 되는 장치 
-
-## <a name="hardware-replacement"></a>하드웨어 교체
-
-하드웨어 장치는 선택한 보증의 내용에 명시 된 항목에 대 한 대체 됩니다. 장치 연결 된 해당 보증 있는 그대로 장치--a-서비스로 검색어의 끝에 새로 고쳐집니다. 보증 범위 외의 이유로 수에 대 한 대체 하는 장치를 교체 요금, 예: 분실 또는 도난당 한 장치를 평가 합니다. 보증에 포함 되는 항목과의 형식의 전체 목록을 보려면 [표면 보증 옵션](https://support.microsoft.com/help/4036296/surface-surface-standard-warranty)을 참조 하십시오.
+- 현재: 북미, 캐나다 (퀘벡 제외), 영국, 호주 전용 (연중 무휴) 
+- 고객과 채팅 대화에 대해 지원 되는 언어는 영어입니다. 
+- microsoft는 회사 지원 센터를 교체 하지 않고 파트너에 게 제공 합니다. LOB (기간 업무) 앱, 네트워크 리소스 등은 여전히 지원 센터에서 처리 됩니다. 
+- 테스트 그룹 및 비 microsoft 관리 되는 데스크톱 장치에 있는 microsoft 관리 장치는 범위를 벗어납니다. 
 
 
 ## <a name="related-topics"></a>관련 항목
 
-- [IT 관리자가 지원을 어떻게 얻을 수 있는 설명](../working-with-managed-desktop/admin-support.md)
-- [최종 사용자 지원을 어떻게 얻을 수 있는 설명](../working-with-managed-desktop/end-user-support.md)
+- [IT 관리자가 지원을 받을 수 있는 방법 알아보기](../working-with-managed-desktop/admin-support.md)
+- [최종 사용자가 지원을 받을 수 있는 방법 알아보기](../working-with-managed-desktop/end-user-support.md)

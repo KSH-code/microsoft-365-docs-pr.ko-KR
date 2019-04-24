@@ -7,6 +7,7 @@ ms.audience: Admin
 ms.topic: hub-page
 ms.service: o365-administration
 localization_priority: Normal
+ms.collection: M365-subscription-management
 ms.custom:
 - Adm_O365
 - Core_O365Admin_Migration
@@ -16,13 +17,13 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 27ff1678-865a-4707-8145-e1155aa815d6
-description: Microsoft 365 비즈니스를 관리 하는 방법을 알아봅니다 관련 관리 작업, 모바일 장치, Windows 10PCs 등의 많은 작업 합니다.
-ms.openlocfilehash: 280bff9f12a884e6a19e26feea5d8a339297a434
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+description: Microsoft 365 Business 관련 관리 작업, 모바일 장치, Windows 10 pc 등의 다양 한 작업을 관리 하는 방법에 대해 알아봅니다.
+ms.openlocfilehash: 993db51ec487237395ca57290e37a6c5edbce8b8
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26869822"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32278578"
 ---
 # <a name="manage-microsoft-365-business"></a>Microsoft 365 Business 관리
 
@@ -32,7 +33,7 @@ ms.locfileid: "26869822"
     
 - [정책 및 장치 보기](view-policies-and-devices.md)
     
-- [Microsoft 365 비즈니스 보안 기능](security-features.md)
+- [Microsoft 365 Business 보안 기능](security-features.md)
     
 - [Microsoft 365 Business의 보호 기능을 Intune 설정에 매핑하는 방법](map-protection-features-to-intune-settings.md)
     
@@ -44,7 +45,7 @@ ms.locfileid: "26869822"
     
 - [Android 또는 iOS 장치에서 앱 보호 설정 설정하기](app-protection-settings-for-android-and-ios.md)
     
-    [Android 또는 iOS 장치에서 유효성 검사 응용 프로그램 보호 설정](validate-settings-on-android-or-ios.md) 을 작동 하는지 확인 합니다를 참조 하십시오. 
+    [Android 또는 iOS 장치에서 앱 보호 설정 유효성 검사](validate-settings-on-android-or-ios.md) 를 참조 하 여 제대로 작동 하는지 확인 합니다. 
     
 - [장치에서 회사 데이터 제거](remove-company-data.md)
     
@@ -92,9 +93,9 @@ ms.locfileid: "26869822"
     
 - [Microsoft 365 Business로 마이그레이션](migrate-to-microsoft-365-business.md)
     
-- [Microsoft 365 비즈니스에서 관리 되는 도메인 가입 Windows 10 장치를 사용 하도록 설정](manage-windows-devices.md)
+- [도메인에 가입 된 Windows 10 장치를 Microsoft 365 Business에서 관리할 수 있도록 설정](manage-windows-devices.md)
     
-[추가적인 보안 기능](security-features.md#additional-security-features)
+[추가 보안 기능](security-features.md#additional-security-features)
     
 
   

@@ -1,59 +1,60 @@
 ---
-title: Microsoft 관리 되는 데스크톱 응용 프로그램 요구 사항
+title: Microsoft Managed Desktop 응용 프로그램 요구 사항
 description: ''
-keywords: Microsoft 관리 되는 데스크톱, Microsoft 365 서비스, 설명서
+keywords: microsoft Managed Desktop, microsoft 365, 서비스, 설명서
 ms.service: m365-md
 author: trudyha
 ms.localizationpriority: normal
 ms.date: 01/08/2019
-ms.openlocfilehash: 6b6c6f6a2e719496578ac1d15c9b94a92a2ab492
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+ms.collection: M365-modern-desktop
+ms.openlocfilehash: de6cc7d77e023a9d41961e5fbcce060f1bb659ae
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26869703"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32278338"
 ---
-# <a name="microsoft-managed-desktop-app-requirements"></a>Microsoft 관리 되는 데스크톱 응용 프로그램 요구 사항
+# <a name="microsoft-managed-desktop-app-requirements"></a>Microsoft Managed Desktop 응용 프로그램 요구 사항
 
 <!--This topic is the target for aka.ms/app-req. This is aka link is used from EA agreeement for MMD. do not delete.-->
 
 <!--Application addendum -->
  
-Microsoft 관리 되는 데스크톱 장치를 배포 하려는 비즈니스 라인 응용 프로그램에는이 항목의 요구 사항을 충족 해야 합니다. 
+Microsoft Managed Desktop 장치에 배포 하려는 기간 업무 (lob) 응용 프로그램은이 항목의 요구 사항을 충족 해야 합니다. 
 
 ## <a name="application-condition"></a>응용 프로그램 조건
 
-것이 중요 응용 프로그램은 Microsoft 관리 되는 데스크톱 환경에 저하 하지 않습니다. 다음은 응용 프로그램 배포를 Microsoft에 대 한 순서 대로 충족 해야 하는 요구 사항입니다. 모든 특정된 응용 프로그램 또는 드라이버에 대 한 Microsoft 여기에 제공 된 모든 요구 사항을 내용도 배제 될 수 있습니다. Microsoft는 모든 응용 프로그램 또는 데스크톱을 관리 하는 Microsoft 장치의 성능 및 안정성에 부정적인 영향을 주는 드라이버를 제거 하려면 결정할 수 있습니다.
+응용 프로그램이 Microsoft Managed Desktop 환경에 악영향을 미치지 않는 것이 중요 합니다. 다음은 Microsoft에서 배포 하기 위해 응용 프로그램에서 충족 해야 하는 요구 사항입니다. 지정 된 응용 프로그램 또는 드라이버의 경우 Microsoft는 여기에 제공 된 모든 요구 사항을 waive 수 있습니다. microsoft는 microsoft 관리 데스크톱 장치의 성능 및 안정성에 부정적인 영향을 주는 응용 프로그램 또는 드라이버를 제거 하는 것을 결정할 수 있습니다.
 
 ## <a name="deployable-using-microsoft-technologies"></a>Microsoft 기술을 사용 하 여 배포 가능
 
-Microsoft 관리 되는 데스크톱 응용 프로그램을 배포 하려면 Intune, Microsoft 저장소 및 비즈니스를 위한 Microsoft 저장소를 사용 합니다. 따라서 이러한 서비스의 현재 버전에 따라 배포할 수는 방식으로 응용 프로그램으로 패키지화 할 해야 합니다.
+microsoft Managed Desktop은 Intune, microsoft store 및 비즈니스용 microsoft store를 사용 하 여 응용 프로그램을 배포 합니다. 따라서 응용 프로그램은 해당 서비스의 최신 버전을 통해 배포할 수 있는 방식으로 패키지 되어야 합니다.
 
-## <a name="prohibited-app-classes"></a>금지 된 app 클래스
+## <a name="prohibited-app-classes"></a>금지 되는 앱 클래스
 
-특정 응용 프로그램 종류는 Microsoft 관리 되는 데스크톱 장치에서 허용 되지 않습니다.
-- 바이러스 백신 제 3 자, 보안, 또는 감사 소프트웨어
-- 제 3 자 웹 브라우저
-- Office 365 Pro Plus 하기 전에 Microsoft Office의 버전
-- 응용 프로그램을 설치 하거나 다른 타사 소프트웨어 번들
+특정 응용 프로그램 유형은 Microsoft Managed Desktop 장치에서 허용 되지 않습니다.
+- 타사 바이러스 백신, 보안 또는 감사 소프트웨어
+- 타사 웹 브라우저
+- Office 365 Pro Plus 이전 버전의 Microsoft Office
+- 다른 타사 소프트웨어를 설치 하거나 번들 하는 응용 프로그램
 
-## <a name="restricted-app-behaviors"></a>제한 된 응용 프로그램 동작
+## <a name="restricted-app-behaviors"></a>제한 된 앱 동작
 
-특정 응용 프로그램 동작 사용자 환경이 크게 저하 될 수도 있고 Microsoft 관리 되는 데스크톱 장치에 보안 위험이 초래 수도 있습니다. 응용 프로그램 특성에는 다음 동작을 나타내는 하지 항목과 같습니다. 
+특정 응용 프로그램 동작은 사용자 환경에 부정적인 영향을 주거나 Microsoft 관리 되는 데스크톱 장치에 보안 위험을 제공할 수 있습니다. 응용 프로그램에는 다음과 같은 동작이 나 특성이 나타나지 않습니다. 
 
-사용자 환경을 향상 시킵니다.
-- 백그라운드 서비스를 설치 또는 실행 시간이 긴 백그라운드 프로세스를 생성 합니다.
-- Windows 시작 경로에 추가 하는 자체
+사용자 환경:
+- 백그라운드 서비스 설치 또는 오랫동안 실행 되는 백그라운드 프로세스 생성
+- Windows 시작 경로에 자신 추가
 
 보안:
-- 문서화 되지 않은 Windows 또는 Office Api를 호출 하거나 내부 Windows 또는 Office 데이터 구조에 의존 관계를 수행 합니다.
-- 응용 프로그램 저장소로 act 또는 기본 제공 확장 관리자가
-- 최종 사용자의 권한을 상승합니다
-- 보안상 취약점 알려진
-- 신뢰할 수 있는 루트에 겹쳐서 표시 하지는 인증서를 사용 하 여 서명
-- 암호화 또는 최종 사용자 데이터에 대 한 액세스 제한
-- 런타임에 운영 체제 코드를 수정 합니다.
+- 문서화 되지 않은 windows 또는 office api를 호출 하거나 내부 Windows 또는 office 데이터 구조에 대 한 종속성을 사용 합니다.
+- 앱 저장소 역할을 하거나 기본 제공 확장 관리자를 사용 합니다.
+- 최종 사용자의 권한 상승
+- 알려진 보안 취약성
+- 신뢰할 수 있는 루트에 롤업 하지 않는 인증서를 사용 하 여 서명 됨
+- 최종 사용자 데이터에 대 한 액세스 암호화 또는 제한
+- 런타임에 운영 체제 코드 수정
 
 ## <a name="driver-deployment"></a>드라이버 배포
 
-경우가 아니면 드라이버를 Windows Update에서 사용할 수는 Windows 하드웨어 품질 랩 (WHQL) 서명 별도로, Microsoft 드라이버를 배포 하는 Microsoft 관리 되는 데스크톱 장치를 하기 전에 Microsoft 드라이버를 승인 해야 합니다.
+windows Update에서 드라이버를 사용할 수 없거나 windows 하드웨어 품질 실습 (WHQL)에서 별도로 서명 하지 않은 경우 microsoft에서 microsoft Managed Desktop 장치에 드라이버를 배포 하기 전에 드라이버를 승인 해야 합니다.

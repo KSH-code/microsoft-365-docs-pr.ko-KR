@@ -4,13 +4,14 @@ ms.author: sirkkuw
 author: sirkkuw
 manager: scotv
 ms.audience: Admin
-ms.topic: overview
+ms.topic: conceptual
 f1_keywords:
 - O365E_ESPoliciesLM
 - ESPoliciesLM
 - BCS365_ESPoliciesLM
 ms.service: o365-administration
 localization_priority: Normal
+ms.collection: M365-subscription-management
 ms.custom:
 - Adm_O365
 - Core_O365Admin_Migration
@@ -21,13 +22,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 665485be-2389-4f1d-9ef8-dbef19c6acdf
-description: 특정 장치 및 사용자의 개인 장치에서 회사 데이터를 보호 하기 위해 보안 그룹을 대상으로 하는 정책에 알아봅니다.
-ms.openlocfilehash: e52026ccc96e032bbccb7334992a447e14b2cc05
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+description: 사용자의 개인 장치에 대 한 회사 데이터를 보호 하기 위해 특정 장치 및 보안 그룹을 대상으로 하는 정책에 대해 알아봅니다.
+ms.openlocfilehash: 11f0432b9e738841e6523dce436c534af41b827a
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26869747"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32276790"
 ---
 # <a name="how-policies-in-microsoft-365-business-protect-company-data"></a>Microsoft 365 Business의 정책으로 회사 데이터가 보호되는 방식
 
@@ -39,6 +40,6 @@ Android 및 iOS 장치의 경우 Office 앱과 Office 앱에서 사용하는 업
   
 [Windows 10 PC용 장치 구성 설정](protection-settings-for-windows-10-pcs.md)
   
-[Windows 10 장치에 대한 앱 보호 설정](protection-settings-for-windows-10-devices.md)
+[Windows 10 장치에 대 한 앱 보호 설정 설정](protection-settings-for-windows-10-devices.md)
   
 

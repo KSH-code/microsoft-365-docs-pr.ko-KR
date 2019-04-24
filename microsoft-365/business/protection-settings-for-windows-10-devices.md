@@ -11,6 +11,9 @@ f1_keywords:
 - BCS365_Win10AppPolicy
 ms.service: o365-administration
 localization_priority: Normal
+ms.collection:
+- M365-subscription-management
+- M365-identity-device-management
 ms.custom:
 - Core_O365Admin_Migration
 - MiniMaven
@@ -20,13 +23,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 02e74022-44af-414b-9d74-0ebf5c2197f0
-description: 응용 프로그램 관리 정책 만들기 및 Windows 10 장치에서 작업 파일을 보호 하는 방법에 알아봅니다.
-ms.openlocfilehash: acf19a72d994185a35b2e425f8334a73a121ee10
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+description: Windows 10 장치에서 앱 관리 정책을 만들고 작업 파일을 보호 하는 방법을 알아봅니다.
+ms.openlocfilehash: 289c6a74f6ccb53f6a833612a7b4a5bcddd3ea56
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26869921"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32278185"
 ---
 # <a name="set-application-protection-settings-for-windows-10-devices"></a>Windows 10 장치에서 응용 프로그램 보호 설정 설정하기
 
@@ -34,23 +37,21 @@ ms.locfileid: "26869921"
 
 사용자들이 업무를 수행할 수 있는 개인 Windows 10 장치를 갖고 있는 경우, 해당 장치에서도 데이터를 보호할 수 있습니다.
   
-1. 전역 관리자 자격 증명을 사용하여 [Microsoft 365 Business](https://portal.office.com)에 로그인합니다. **관리** 타일을 선택하여 관리 센터로 이동합니다. 
+1. 전역 관리자 자격 증명을 사용 하 여 [관리 센터](https://go.microsoft.com/fwlink/p/?linkid=837890) 에 로그인 합니다. **관리** 타일을 선택하여 관리 센터로 이동합니다. 
     
-2. 관리 포털의 **장치 정책** 카드에서 **정책 추가**를 선택합니다.
-    
-    ![Device policies card in the admin center.](media/27c12b61-d112-4348-b557-4f3e46204797.png)
-  
+2. 왼쪽 탐색 창에서 **장치** \> **정책** \> **추가**를 선택 합니다.
+
 3. **정책 추가** 창에서 이 정책의 고유 이름을 입력합니다. 
     
 4. **정책 유형**에서 **Windows 10용 응용 프로그램 관리**를 선택합니다.
     
-5. 아래에서 * * 장치 유형 * *, **개인** 또는 **회사 소유 하 고**선택 합니다.
+5. Under ** Device type **, choose either **Personal** or **Company Owned**.
     
 6. **작업 파일 암호화**가 자동으로 켜집니다. 
     
 7. 사용자가 작업 파일을 개인 PC에 저장하지 않도록 하려면 **사용자가 회사 데이터를 개인 파일로 복사하는 것을 차단하고 회사 파일은 비즈니스용 OneDrive에 저장하도록 합니다.** 를 **켜기**로 설정하세요. 
     
-8. **사용자가 장치에서 Office 파일을 액세스 하는 방식을 관리할** 확장 하 고 \> 하려는 방식 설정을 구성 합니다. 기본적으로 **해제** 되어 **사용자가 모바일 장치에서 Office 장치를 액세스 하는 방식을 관리** 하지만 **에** 설정 하 고 기본값을 적용 하는 것이 좋습니다. 자세한 내용은 [사용할 수 있는 설정](protection-settings-for-windows-10-devices.md#bkmk_settings) 을 참조 하십시오. 
+8. Expand **Manage how users access Office files on devices** \> configure the settings how you would like. The **Manage how users access Office devices on mobile devices** is **Off** by default, but it is recommended that you turn it **On** and accept the default values. 자세한 내용은 [사용 가능한 설정을](#available-settings)참조 하십시오. 
     
     언제든지 **기본 설정 다시 설정** 링크를 사용하여 기본 설정으로 돌아갈 수 있습니다. 
     

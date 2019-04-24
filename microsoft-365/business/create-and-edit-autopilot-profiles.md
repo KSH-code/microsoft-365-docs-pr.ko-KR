@@ -7,7 +7,10 @@ ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
-ms.collection: Adm_O365
+ms.collection:
+- Adm_O365
+- M365-subscription-management
+- M365-identity-device-management
 ms.custom:
 - Adm_O365
 - Core_O365Admin_Migration
@@ -18,13 +21,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 5cf7139e-cfa1-4765-8aad-001af1c74faa
-description: '만들기, 편집, 삭제 또는 작업을 자동화할 프로필을 제거 하는 방법을 알아봅니다. '
-ms.openlocfilehash: 4658a27e5f2c64a52f8a7d08b3fc13df5e239dc3
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+description: 'AutoPilot 프로필 만들기, 편집, 삭제 또는 제거 방법에 대해 알아봅니다. '
+ms.openlocfilehash: 85fc897b2f428afae8d55feeb577021adaa30f72
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26870023"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32277142"
 ---
 # <a name="create-and-edit-autopilot-profiles"></a>AutoPilot 프로필 만들기 및 편집
 
@@ -32,11 +35,9 @@ ms.locfileid: "26870023"
 
 프로필이 장치 또는 장치 그룹에 적용됩니다.
   
-1. Microsoft 365 Business 관리 센터의 **장치 작업** 카드에서 **Autopilot으로 Windows 배포**를 선택합니다. 
-    
-    ![On the Device actions card, choose Deploy Windows with Autopilot.](media/160d5c2a-11a8-48f9-a8aa-70f084b85448.png)
+1. Microsoft 365 Business 관리 센터에서 **장치** \> **AutoPilot**을 선택 합니다.
   
-2. **Windows 준비** 페이지에서 **프로필** 탭 \> **프로필 만들기**를 선택합니다.
+2. **AutoPilot** 페이지에서 프로 파일 탭 **** \> **프로필 만들기**를 선택 합니다.
     
 3. **프로필 만들기** 페이지에서 프로필을 식별하는 데 도움이 되는 프로필 이름(예: 마케팅)을 입력하고 원하는 설정을 켠 다음(자세한 내용은 [AutoPilot 프로필 설정 정보](autopilot-profile-settings.md) 참조) **저장**을 선택합니다.
     
@@ -48,7 +49,7 @@ ms.locfileid: "26870023"
   
 1. **Windows 준비** 페이지에서 **장치** 탭을 선택합니다. 
     
-2. 확인란을 클릭-장치 이름 옆에 있는 및 **장치** 패널에서, **할당 된 프로필** 드롭다운 메뉴에서 프로필을 선택 \> **저장**합니다.
+2. Click the check-box next to a device name and in the **Device** panel, choose a profile from the **Assigned profile** drop-down \> **Save**.
     
     ![In the Device panel, select an Assigned profile to apply it.](media/ed0ce33f-9241-4403-a5de-2dddffdc6fb9.png)
   
@@ -60,7 +61,7 @@ ms.locfileid: "26870023"
 
 1. **Windows 준비** 페이지에서 **프로필** 탭을 선택합니다. 
     
-2. 장치 이름 옆에 있는 확인란을 클릭 하 고 **프로필** 에서 패널 사용 가능한 설정을 업데이트 \> **저장**합니다.
+2. Click the check-box next to a device name and in the **Profile** panel update any of the available settings \> **Save**.
     
     사용자가 장치를 인터넷에 연결하기 전에 이 작업을 수행하면 프로필이 설정 프로세스에 적용됩니다.
     
@@ -76,5 +77,5 @@ ms.locfileid: "26870023"
 
 1. **Windows 준비** 페이지에서 **장치** 탭을 선택합니다. 
     
-2. 확인란을 클릭-장치 이름 옆에 있는 및 **장치** 패널에서, **담당자 프로필** 드롭다운 메뉴에서 **없음을** 선택 \> **저장**합니다.
+2. Click the check-box next to a device name and in the **Device** panel, choose a **None** from the **Assigned profile** drop-down \> **Save**.
     

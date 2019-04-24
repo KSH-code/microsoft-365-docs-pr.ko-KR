@@ -7,7 +7,9 @@ ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
-ms.collection: Adm_O365
+ms.collection:
+- Adm_O365
+- M365-subscription-management
 ms.custom:
 - Adm_O365
 - Core_O365Admin_Migration
@@ -17,21 +19,19 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 96153102-1db1-4df8-bca5-38cea80b65ce
-description: 새 사용자를 추가 하 고 해당 장치 보안 Microsoft 365 비즈니스에서의 역할을 할당 하는 방법에 알아봅니다.
-ms.openlocfilehash: 3bf718d2b42aa5220a6d746035568985c0df5251
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+description: Microsoft 365 Business에서 새 사용자를 추가 하 고, 해당 장치를 보호 하 고, 역할을 할당 하는 방법에 대해 알아봅니다.
+ms.openlocfilehash: ab4e98a30b0cf7361e6d5dd6c307908b04133e2e
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26869883"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32277350"
 ---
 # <a name="add-additional-users-to-microsoft-365-business"></a>Microsoft 365 Business에 다른 사용자를 추가합니다.
 
 ## <a name="add-new-users"></a>새 사용자 추가
 
-관리 센터에서 **사용자** 카드 \> **사용자 추가**로 이동합니다.
-  
-![Choose Add a user on the Users card in the admin center](media/55218f5b-899c-41cb-8486-8746fcef1748.png)
+관리 센터에서 사용자 **관리** 카드로 \> 사용자 **추가**를 이동 합니다.
   
 **새 사용자** 패널에서 필수 정보를 입력합니다. 
   

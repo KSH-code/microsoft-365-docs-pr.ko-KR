@@ -5,23 +5,24 @@ author: jasongroce
 ms.author: jasgro
 ms.topic: article 
 ms.prod: microsoft-365-business
+ms.collection: M365-subscription-management
 localization_priority: Normal
 audience: microsoft-business 
 keywords: Microsoft 365 Business, Microsoft 365, SMB, FAQ, 질문과 대답, 답변, 비즈니스
 ms.date: 06/08/2018
-ms.openlocfilehash: e5937b1436701e872898dc079ba892181772202f
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+ms.openlocfilehash: 1e277aed366d82e524ef99c43ab0401b5d35e5b0
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26870189"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32286131"
 ---
 # <a name="microsoft-365-business-frequently-asked-questions"></a>Microsoft 365 Business 질문과 대답
 
 ## <a name="general"></a>일반
 
-### <a name="what-is-microsoft-365-business"></a>Microsoft 365 Business란? 
-Microsoft 365가 한곳에서 최고의 생산성 도구, 보안 및 관리 기능을 장치 중간 규모의 기업을 위한 통합된 된 솔루션입니다. 
+### <a name="what-is-microsoft-365-business"></a>Microsoft 365 Business 란? 
+Microsoft 365는 중소 규모 기업을 위해 최고의 생산성 도구, 보안 및 장치 관리 기능을 함께 제공 하는 통합 솔루션입니다. 
 
 **비즈니스 생산성 및 협업 도구의 종합적 집합** 
 * Word, Excel, PowerPoint, Outlook, OneNote, Publisher 및 Access 
@@ -29,12 +30,12 @@ Microsoft 365가 한곳에서 최고의 생산성 도구, 보안 및 관리 기�
 * Office의 비즈니스 앱(Bookings, Outlook Customer Manager, MileIQ<sup>[1](#footnote1)</sup>, Microsoft Listings<sup>[1](#footnote1)</sup>, Microsoft Connections<sup>[1](#footnote1)</sup>, Microsoft Invoicing<sup>[1](#footnote1)</sup>) 
  
 **엔터프라이즈급 장치 관리 및 보안 기능** 
-- 피싱 및 복잡 한 맬웨어 Office 365 고급 위협 보호 및 Windows Defender 악용 Guard와 같은 외부 위협 으로부터 보호 기능을 제공 하는 도움말 
--  통해 제어 및 방법을 중요 한 정보를 관리에 액세스 한 Office 365 데이터 손실 방지 정책 (여름, 2018에서에서 사용 가능)를 전송 하 고 Azure 정보 보호 계획 1 
--  통해 보호, 보존 및 Exchange Online 보관을 사용 하 여 데이터를 백업 합니다.  
--   Office 및 Intune App 보호와 다른 모바일 응용 프로그램에 대 한 응용 프로그램 보호 
--  장치 관리 Intune 사용한 Windows 10 Pc, MacOS 모빌 장치에 대 한 장치 관리 
--  항상-와 최신 Windows Defender-장치에서 회사의 데이터 보호 장치-전체에서 일관 된 보안 구성 
+- Office 365 Advanced Threat protection 및 Windows Defender Exploit Guard를 사용 하 여 피싱 & 정교 멀웨어와 같은 외부 위협 으로부터 보호를 제공 합니다. 
+-  Office 365 데이터 손실 방지 정책 (여름, 2018) 및 Azure information Protection 계획 1을 사용 하 여 중요 한 정보를 액세스 하 고 전송 하는 방법을 & 관리 하는 방법에 대해 알아봅니다. 
+-  Exchange Online 보관을 사용 하 여 데이터를 보호, 보존 및 백업 하는 데 도움이 됩니다.  
+-   Intune 앱 보호가 포함 된 Office & 기타 모바일 앱에 대 한 앱 보호 
+-  Windows 10 pc에 대 한 장치 관리, macos & Mobiles Devices for Intune 장치 관리 
+-  장치 간의 일관성 있는 보안 구성-장치 간의 회사 데이터 보호-Windows Defender, 항상 최신 상태로 유지 
  
  
 **간소화된 장치 배포 및 사용자 설정** 
@@ -50,7 +51,7 @@ Microsoft 365 Business는 직원의 IT 리소스가 거의 또는 전혀 없지�
 Microsoft 365 Business는 <a href="https://www.microsoft.com/solution-providers/search" target="_blank">Microsoft 파트너</a> 또는 <a href="https://www.microsoft.com//microsoft-365/business" target="_blank">Microsoft</a>에서 직접 구매할 수 있습니다. Microsoft에서 직접 구매할지 또는 Microsoft 파트너를 통해 구매할지를 결정할 때 직원에 대한 기능과 IT 인프라 유지에 대한 요구를 고려해야 합니다. Microsoft 파트너는 Microsoft 솔루션을 포함하여 IT 인프라 배포 및 관리를 도울 수 있습니다.
 
 ### <a name="how-much-does-microsoft-365-business-cost"></a>Microsoft 365 Business는 비용이 얼마나 드나요? 
-Microsoft 365 비즈니스 USD$ 20.00 사용자/월 Microsoft에서 직접 구입 하는 경우를 기반으로 _연간 계약_ 을 체결에서 제공 됩니다. Microsoft 파트너를 통해 구입한 때 가격 수에 따라 달라질 파트너를 제공 하는 서비스 및 해당 가격 모델 Microsoft 365 비즈니스를 위한. 
+Microsoft 365 Business는 Microsoft에서 직접 구입하는 경우 _연간 계약_에 따라 사용자당 월 미화 20.00달러에 제공됩니다. Microsoft 파트너 통해 구입한 경우 파트너가 제공하는 서비스와 Microsoft 365 Business에 대한 가격 책정 모델에 따라 가격은 다를 수 있습니다. 
 
 ### <a name="is-there-a-cap-to-how-many-microsoft-365-business-seats-a-customer-can-have"></a>고객이 포함할 수 있는 Microsoft 365 Business 사용자 수에 제한이 있습니까? 
 Microsoft 365 Business는 IT 복잡성 요구 사항이 적거나 중간 규모인 중소기업을 위해 고안되었습니다. 고객은 조직에 대해 최대 300개의 Microsoft 365 Business 라이선스를 구입할 수 있습니다. 고객은 클라우드 구독을 조합할 수 있습니다. 따라서 조직의 IT 요구 사항에 따라 Microsoft 365 Enterprise 라이선스를 동일한 계정에 추가할 수 있습니다. 
@@ -66,7 +67,7 @@ Microsoft 365 Business 및 Microsoft 365 Enterprise는 응용 프로그램 및 �
 IT 환경을 표준화하면 시간이 지남에 따라 유지 관리 및 보안 비용을 감축할 수 있으며 이것이 비즈니스가 달성하기 위해 노력해야 하는 상태입니다. 그러나 일부 중소 고객은 오랜 기간 동안 하드웨어를 업그레이드할 때 소프트웨어를 업데이트합니다. 비즈니스는 조직의 일부에 Microsoft 365 Business를 배포할 수 있지만 중요한 비즈니스 데이터에 대한 최적의 보호와 일관적인 공동 작업 환경을 위해 모든 사용자에게 배포하는 것이 좋습니다.
 
 ### <a name="how-can-i-know-if-the-hardware-and-software-i-run-today-is-compatible-with-microsoft-365-business"></a>현재 실행 중인 하드웨어 및 소프트웨어가 Microsoft 365 Business와 호환되는지 어떻게 알 수 있나요? 
-실행 하는 경우 하드웨어 오늘 Windows 7 Pro를 실행 하거나 나중에 Microsoft 365 비즈니스에 대 한 최소 요구 사항을 가능성이 충족 합니다. 특정 Windows 10 등의 기능과 Cortana, Windows Hello, 다중 터치 에서만 최신 Pc에서 사용할 수 있는 특정 하드웨어가 필요 합니다. 자세한 내용은 <a href="https://www.microsoft.com/windows/windows-10-specifications" target="_blank">Windows 10 Pro 시스템 요구 사항</a> 을 참조 하십시오. 
+현재 실행 중인 하드웨어가 Windows 7 Pro 이상을 실행하고 있다면 Microsoft 365 Business에 대한 최소 요구 사항을 충족할 것입니다. Cortana, Windows Hello, 멀티 터치 등의 특정 Windows 10 기능을 사용 하려면 최신 pc 에서만 사용할 수 있는 특정 하드웨어가 필요 합니다. 추가 내용은 <a href="https://www.microsoft.com/windows/windows-10-specifications" target="_blank">Windows 10 Pro 시스템 요구 사항</a>을 참조하세요. 
  
 Windows 10에서 기존 데스크톱(Win32) 응용 프로그램도 호환성이 뛰어나므로 어떠한 변경 없이도 대부분의 기존 응용 프로그램과 제대로 작동할 것으로 예상됩니다. 고객과 신뢰할 수 있는 IT 조언자는 Microsoft 365 Business로 원활하게 전환하려면 <a href="https://docs.microsoft.com/windows/deployment/planning/windows-10-compatibility#recommended-application-testing-process" target="_blank">Windows 10 호환성</a>에 대한 권장 응용 프로그램 테스트 프로세스를 읽고 <a href="https://products.office.com/office-system-requirements#subscription-plans-section" target="_blank">Office 시스템 요구 사항</a>을 검토해야 합니다. 
 
@@ -76,26 +77,26 @@ Windows 10 Business는 Windows 10 Pro를 보완하고 Microsoft 365 Business의 
 ### <a name="how-does-microsoft-365-business-help-support-our-bring-your-own-device-byod-policy"></a>Microsoft 365 Business가 회사의 BYOD(Bring Your Own Device) 정책을 지원할 수 있나요? 
 많은 직원은 목적별로 여러 장치를 들고 다니는 대신 자신의 휴대폰 또는 태블릿을 사용하여 개인 및 업무 정보에 액세스하기를 원합니다. 개인 기기를 업무에 흔히 사용하지만, 이는 비즈니스 정보가 잘못된 곳에 노출될 수 있는 위험을 높여 줍니다. 여러 경쟁 모바일 데이터 보호 솔루션으로는 사용자가 해당 디바이스에서 특정 모드로 전환하거나 다른 복잡한 장치를 사용해야 하므로 사용자는 이를 침입적으로 여기며 사용하지 않게 될 수 있습니다. 
  
-Microsoft 365 비즈니스 고객은 비즈니스 수 있는 기능 제공 하는 동안 작업에 대 한 비즈니스 정보를 공유 및/또는 보존, 액세스 (영문)에서 해당 장치를 방지 하기 위해 자신의 개인 장치를 사용 하 여 직원 들을 수 있도록 설정의 간단 하지만 강력한 수단을 제공 . 더 구체적으로: 
-* **Office 모바일 응용 프로그램에 대 한 응용 프로그램 보호** 를 사용 하면 자동으로 지정 된 시간이 경과 된 후 비즈니스 데이터를 삭제 하는 등 정책 적용 (영문) 하 여 전자 메일, 일정, 연락처 및 iOS Android 모바일 장치에 있는 문서를 비롯 하 여 Office 데이터를 보호할 수 필요한 정보, 비즈니스용 OneDrive에만 저장 되는 서비스에 연결 하지 않으면의 개인 응용 프로그램에 Office 응용 프로그램에서 복사 되 고에서 Office 응용 프로그램 및 방지 회사의 데이터에 액세스 하는 PIN/지문 확인 연락 해야 합니다. 모바일 응용 프로그램 관리 Intune 통해 다른 모바일 응용 프로그램에 대 한 Microsoft 365 비즈니스 구독자에 게 제공 이기도합니다. 
+Microsoft 365 business는 고객에 게 비즈니스 정보 액세스, 보존 및 공유를 방지할 수 있는 기능을 제공 하면서 직원 들이 각자의 개인 장치를 사용할 수 있도록 하는 간단 하지만 강력한 방법을 제공 합니다. . 더 구체적으로 말하자면 
+* **Office 모바일 앱에 대한 앱 보호**는 저장 서비스에 연결되지 않은 지정된 시간 후 자동으로 삭제, 필요한 정보를 비즈니스용 OneDrive에만 저장하도록 요구, Office 앱에 액세스 하려면 PIN/지문 인증 요구, 회사의 데이터가 Office 앱에서 개인 앱으로 복사되는 것을 방지하는 등 정책을 시행하여 앱에서 iOS 및 Android 모바일 장치의 이메일, 일정, 연락처 및 문서 등의 Office 데이터를 보호하는 것을 돕습니다. Intune을 통해 다른 모바일 앱에 대 한 모바일 응용 프로그램 관리도 Microsoft 365 Business 구독자에 게 제공 됩니다. 
   
-* **Windows 10 Pc의 장치 관리에 대 한** aallows 업무를 설정 하 고 지정 된 시간이 경과 된 후 맬웨어, 자동 업데이트 및 화면을 해제 하면 Windows Defender 보호와 같은 기능을 적용 하도록 선택 합니다. 또한 비즈니스 응용 프로그램 및 관리 센터를 통해 데이터의 분실 또는 도난당 한 Windows 10 장치 완전히 삭제할 수 있습니다. 
+* **windows 10 pc에 대 한 장치 관리** 는 비즈니스에서 맬웨어, 자동 업데이트 및 미리 지정 된 시간 후 화면 끄기와 같은 기능을 설정 하 고 적용 하도록 선택할 수 있도록 합니다. 또한 Windows 10 디바이스를 분실하거나 도난당한 경우 관리 센터를 통해 비즈니스 응용 프로그램 및 데이터를 완전히 삭제할 수 있습니다. 
 
-* **IOS, Android & MacOS에 대 한 장치 관리** 기능에는 안전 하 게 iOS, Android, Windows 및 macOS 장치를 포함 하는 다양 한 장치 에코 시스템을 관리 하는 기업용 도움이 됩니다. 
+* **장치 관리 ios, android & macos** 기능은 비즈니스에서 ios, android, Windows 및 macos 장치를 포함 하는 다양 한 장치 환경을 안전 하 게 관리할 수 있도록 지원 합니다. 
 
 ### <a name="how-does-microsoft-365-business-help-protect-pcs-in-my-organization-from-malicious-attacks"></a>Microsoft 365 Business가 어떻게 악의적인 공격으로부터 내 조직의 PC를 보호하나요? 
-Pc Microsoft 365 비즈니스와 관리 되는 다른 솔루션 보다 바이러스, 맬웨어, 스파이웨어 및 기타 위협 으로부터 더 많은 컴퓨터를 보호 하는 Windows 10에서 아니요 1 바이러스 백신 기능에 해당 하는 Windows Defender로 보호 됩니다.  Microsoft 365 비즈니스 기업용 Windows Defender 보호 실행 중 이며 항상 최신 상태로 통해 모든 Windows 10 장치에 되도록 할 수 있습니다.  
+Microsoft 365 Business로 관리되는 PC는 Windows Defender로 관리되며 이것은 좋지 않습니다. Windows 10의 단일 바이러스 백신 기능은 다른 어떤 솔루션보다 더 많은 컴퓨터를 바이러스, 맬웨어, 스파이웨어 및 기타 위협으로부터 보호합니다.  Microsoft 365 Business를 사용 하면 기업이 windows Defender protection이 실행 중이 고 항상 모든 Windows 10 장치에서 최신 상태로 유지 되도록 할 수 있습니다.  
  
-Windows 10 비즈니스에는 Windows Defender 악용 Guard, 새 침입 방지 기능 집합이 포함 됩니다. 폴더 잠그기 및 무단된 앱 사용자의 중요 한 파일에 액세스 하지 못하도록 방지 하 여 해당 추적에 ransomware를 중지 하는 기능을 제어 된 폴더 액세스 중 하나 
+windows 10 Business에는 새로운 침입 방지 기능 집합인 windows Defender Exploit Guard도 포함 됩니다. 제어 된 폴더 액세스의 기능 중 하나는 사용 하지 않는 앱이 사용자의 중요 한 파일에 액세스 하지 못하도록 차단 하 여 해당 트랙의 차단 합니다. 
 
 ### <a name="whats-the-difference-between-office-365-business-premium-microsoft-365-business-and-microsoft-365-enterprise"></a>Office 365 Business Premium, Microsoft 365 Business 및 Microsoft 365 Enterprise의 차이점은 무엇인가요? 
 Microsoft는 중소규모의 고객이 데스크톱 및 디바이스 인프라를 업그레이드할 때 고려할 수 있는 각각 점점 더 강력한 기능을 제공하는 다양한 생산성 및 보안 관리 서비스를 보유하고 있습니다. 
 
 **Office 365 Business Premium** Office 365 앱 및 서비스를 통해 동급 최고의 생산성을 제공하지만 Microsoft 365 Business의 응용 프로그램 보호와 디바이스 관리 기능을 포함하지 않습니다.
 
-**Microsoft 365 비즈니스** 모바일 응용 프로그램 관리 및 Windows 10 Pro 원격 관리를 사용 하도록 설정 하 고 장치 바이러스 및 맬웨어로부터 보호를 사용 하 여 Office 365 응용 프로그램 및 서비스를 결합 합니다. 어떤 장치 및 데이터를 통해 정책을 관리 될 수 있습니다는 간소화 된 관리 콘솔을 포함 합니다. 많은 중간 규모의 기업이 Microsoft 365 비즈니스와 가장 제공할 수 있습니다. 
+**Microsoft 365 Business** Office 365 앱 및 서비스에 모바일 응용 프로그램 관리 및 Windows 10 Pro를 결합하여 원격 관리를 지원하고 바이러스와 악성 소프트웨어로부터 장치를 보호합니다. 디바이스 및 데이터 정책을 관리할 수 있는 단순한 관리 콘솔이 포함됩니다. Microsoft 365 Business에서는 중소 규모의 여러 기업이 가장 잘 제공 될 수 있습니다. 
  
-**Microsoft 365 Enterprise** 는 Microsoft 365 비즈니스에 비해 더 높은 수준의 규정 준수 및 보안 관리를 제공 하 고 엔터프라이즈 고객 하 고 300 개 이상의 사용자가 포함 된 고객 들은 위한 하는 계획 라이선스의 집합입니다. 또한 Microsoft 365 Enterprise 계획 비즈니스 인텔리전스 및 분석 도구를 포함 하 여 추가 기능을 제공 합니다.
+**microsoft 365 enterprise** 는 microsoft 365 Business에 대 한 향상 된 준수 및 보안 관리 수준을 제공 하 고, 엔터프라이즈 고객 및 300 사용자를 초과 하는 고객을 위해 설계 된 라이선스 계획 집합입니다. 또한 Microsoft 365 Enterprise 요금제는 비즈니스 인텔리전스 및 분석 도구를 비롯 한 추가 기능을 제공 합니다.
 
 ### <a name="can-i-switch-my-office-365-plan-to-microsoft-365-business"></a>내 Office 365 요금제를 Microsoft 365 Business로 전환할 수 있나요? 
 예, 고객은 자격이 있는 Office 365 요금제에서 Microsoft 365 Business로 전환할 수 있습니다. 고객의 현재 요금제에 따라 월별 요금이 감소하거나 증가할 수 있습니다.
@@ -104,10 +105,10 @@ Microsoft는 중소규모의 고객이 데스크톱 및 디바이스 인프라�
 Office 365를 사용할 수 있는 모든 파트너와 고객이 Microsoft 365 Business를 사용할 수 있습니다. <a href="https://products.office.com/business/international-availability" target="_blank">전 세계의 언어, 국가 및 지역의 Office 365 가용성</a>에 대한 목록을 참조하세요. 
 
 ### <a name="is-there-a-microsoft-365-business-trial-i-may-use-to-evaluate-the-offer"></a>Microsoft 365 Business 평가판을 사용할 수 있나요? 
-Microsoft 365 비즈니스 평가판은 Csp에 사용할 수 있습니다. 직접 고객을 위한 평가판을 나중에 사용할 수 있습니다. 
+csp에 대해 Microsoft 365 비즈니스 평가판을 사용할 수 있습니다. 직접 고객을 위한 평가판은 나중에 사용할 수 있습니다. 
  
 ### <a name="what-should-customers-and-partners-know-before-running-microsoft-365-business-within-their-organization"></a>조직 내에서 Microsoft 365 Business를 실행하기 전에 고객과 파트너가 알아야 할 사항은 무엇인가요? 
-Microsoft 365 비즈니스의 전체 기능 체험 하려는 고객은 기존 데스크톱에서 Windows 7, 8.1 또는 10 Pro<sup>[2](#footnote2)</sup> 실행 되어야 합니다. 기존 Windows 10 Pro Pc 자신이 아직 만들지 않은 이미 하는 경우 작성자 업데이트 실행 되어야 합니다. 
+Microsoft 365 Business의 전체 기능을 체험하고자 하는 고객은 기존 데스크톱에서 Windows 7, 8.1 또는 10 Pro<sup>[2](#footnote2)</sup>를 실행해야 합니다. 기존 Windows 10 Pro PC는 크리에이터스 업데이트를 하지 않은 경우 이를 실행해야 합니다. 
 
 ## <a name="deployment"></a>배포
 
@@ -115,18 +116,18 @@ Microsoft 365 비즈니스의 전체 기능 체험 하려는 고객은 기존 �
 성공적으로 Microsoft 365 Business를 배포하는 가장 직접적인 경로는 Microsoft 파트너와 협력하는 것입니다. Microsoft 파트너는 다양한 고객 시나리오의 광범위한 교육과 경험을 갖추었으며 귀하의 환경에 필요한 것을 파악하도록 가장 잘 훈련되었습니다. 숙련된 IT 직원이 있는 고객은 <a href="https://support.office.com/article/496e690b-b75d-4ff5-bf34-cc32905d0364" target="_blank">Microsoft 365 Business 시작</a>을 참고하여 Microsoft 365 Business 배포를 지원할 수 있습니다. 
 
 ### <a name="does-microsoft-365-business-include-the-full-capabilities-of-microsoft-intune"></a>Microsoft 365 Business에 Microsoft Intune의 전체 기능이 포함되나요? 
-예, Microsoft 365 비즈니스 구독자는 iOS, Android, MacOS, 및 기타 교차 플랫폼 장치 관리에 대 한 전체 Intune 기능을 사용 하 여 사용이 허가 됩니다. 전체 Intune 콘솔에서 3 타사 응용 프로그램 관리 및 구성 등 WiFi 프로필, VPN 인증서 등의 같은 Microsoft 365 비즈니스의 간소화 된 관리 콘솔에서 사용할 수 없는 기능을 관리할 수 있습니다.   
+예, Microsoft 365 Business 구독자는 iOS, Android, macos 및 기타 플랫폼 간 장치 관리에 대해 전체 Intune 기능을 사용할 수 있습니다. Microsoft 365 Business의 간소화 된 관리 콘솔에서 사용할 수 없는 기능 (타사 앱 관리 및 WiFi 프로필, VPN 인증서 등)의 구성과 마찬가지로 전체 Intune 콘솔에서 관리할 수 있습니다.   
   
 
-### <a name="does-azure-active-directory-premium-p1-come-with-microsoft-365-business"></a>Azure Active Directory 프리미엄 P1 Microsoft 365 비즈니스와 제공 않는? 
-Azure Active Directory와 일부 기능을 공유 하는 동안와 Microsoft 간에 Microsoft 365 비즈니스에서 기술을 기반으로, 정식 버전은 없습니다. 보안 및 관리 정책 Microsoft 365 비즈니스에서 만든 Azure 일부 기능을 사용 하지만 모든 기능 (예: 셀프서비스 기능, 조건부 액세스 기능 및 보고)를 포함 하지 않습니다. 고객은 Azure Active Directory 프리미엄 P1 또는 P2 Microsoft 365 비즈니스에 추가 기능으로 구입 하도록 선택할 수 있습니다. 자세한 내용은 [Microsoft 365 서비스 설명](https://technet.microsoft.com/library/b042d1fd-c997-46d8-8c02-1df4c932f148) 을 참조 하십시오 
+### <a name="does-azure-active-directory-premium-p1-come-with-microsoft-365-business"></a>Azure Active Directory Premium P1은 Microsoft 365 Business와 함께 제공 되나요? 
+Microsoft 365 Business는 Microsoft 기술 전반을 토대로 구축되었으며, Azure Active Directory와 일부 기능을 공유하지만 전체 버전은 아닙니다. Microsoft 365 Business에서 만든 보안 및 관리 정책은 몇 가지 Azure 기능을 사용 하지만 모든 기능 (예: 셀프 서비스 기능, 조건부 액세스 기능 및 보고)은 포함 되지 않습니다. 고객은 Azure Active Directory Premium P1 또는 P2를 Microsoft 365 Business에 대 한 추가 기능으로 구입 하도록 선택할 수 있습니다. 자세한 내용은 [Microsoft 365 Business Service Description](https://technet.microsoft.com/library/b042d1fd-c997-46d8-8c02-1df4c932f148) 을 참조 하세요. 
  
  
 ### <a name="does-microsoft-365-business-allow-customers-to-manage-macs"></a>Microsoft 365 Business를 통해 Mac을 관리할 수 있습니까? 
-Intune를 사용 하면 안전 하 게 iOS, Android, Windows 및 macOS 장치를 관리할 수 있습니다. 
+Intune은 iOS, Android, Windows 및 macos 장치를 안전 하 게 관리 하는 데 도움이 됩니다. 
  
 ### <a name="what-is-windows-autopilot"></a>Windows AutoPilot이란 무엇인가요? 
-Windows 작업을 자동화할은 새 Windows 10 Pc의 배포를 간소화 하는 서비스입니다. 최종 사용자가 로그온 할 때 Microsoft 365 비즈니스를 처음에이 프로세스를 수행할 수 있습니다-없이 항상 장치를 터치 IT-Microsoft 365 비즈니스의 중앙된에서 관리 컨트롤을 활용 하 여 합니다. Windows 10 Professional 작성자 업데이트를 실행 하는 기존 Pc에 대 한 Windows 작업을 자동화할을 사용할 수도 있습니다 (또는 이상) 및 공장 초기화 되지 않습니다. Windows 작업을 자동화할 하는 방법에 대 한 자세한 내용은 <a href="https://blogs.technet.microsoft.com/windowsitpro/2017/06/29/modernizing-windows-deployment-with-windows-autopilot/" target="_blank">이 년 6이 월 2017 블로그 게시물</a>에서 확인할 수 있습니다.
+Windows AutoPilot은 새로운 Windows 10 PC의 배포를 간소화하는 서비스입니다. 이 과정은 최종 사용자가 처음으로 Microsoft 365 Business에 로그인할 때 IT가 디바이스를 작동하지 않고 Microsoft 365 Business의 중앙 집중식 관리 컨트롤을 활용하여 실행할 수 있습니다. 또한 Windows 10 Professional 크리에이터스 업데이트(이상)를 실행하고 공장 초기화된 기존 PC에 대해 Windows AutoPilot을 사용할 수도 있습니다. Windows AutoPilot에 대 한 자세한 내용은 <a href="https://blogs.technet.microsoft.com/windowsitpro/2017/06/29/modernizing-windows-deployment-with-windows-autopilot/" target="_blank">이 6 월, 2017 블로그 게시물</a>에 나와 있습니다.
 
 ## <a name="compatibility"></a>호환성
 
@@ -147,13 +148,13 @@ Office 365 Business Premium에 추가할 수 있는 모든 추가 기능을 Micr
 ## <a name="partner-opportunity"></a>파트너 기회
 
 ### <a name="where-can-i-learn-more-about-the-opportunities-and-benefits-in-becoming-a-microsoft-partner"></a>어디에서 Microsoft 파트너가 되는 기회와 혜택에 대해 알아볼 수 있나요? 
-되지 않은 이미 Microsoft 파트너 IT 서비스 공급자에서 Microsoft 클라우드 솔루션 공급자 프로그램에 대 한 자세한 내용은 수 [https://partners.office.com/microsoft365business](https://partners.office.com/microsoft365business)합니다.
+아직 Microsoft 파트너가 아닌 IT 서비스 공급자는 [https://partners.office.com/microsoft365business](https://partners.office.com/microsoft365business)에서 Microsoft 클라우드 솔루션 공급자 프로그램에 대해 자세히 알아볼 수 있습니다.
 
 ### <a name="where-can-i-learn-how-to-sell-microsoft-365-business"></a>Microsoft 365 Business를 판매하는 방법은 어디에서 알 수 있나요? 
-이제 Office 365를 판매 하는 파트너 Microsoft 365 비즈니스 판매 동일한 후 통화 판매 방법을 사용할 수 있습니다. 또한 더 많은 리소스를 소개 하 고 고객의 기존 데스크톱 환경, Active Directory 대 한 의존도, 이동성 및 보안 요구 사항의 이해 Microsoft 365 비즈니스 가치를 최대한 효과적으로 통신할에 영업 팀에 대 한 교육 있습니다. 고객에 게 관련 된 방식으로 합니다. Office 파트너 포털에서 이러한 리소스 찾기 [http://partners.office.com/microsoft365business](http://partners.office.com/microsoft365business)합니다. 
+현재 Office 365를 판매하는 파트너는 Microsoft 365 Business를 판매와 동일한 판매 상담 방식을 사용할 수 있습니다. 또한 판매 팀이 고객의 기존 데스크톱 환경, Active Directory 의존, 이동성 및 보안 요구 사항을 이해하여 효과적으로 고객에게 관련성 있는 방식으로 Microsoft 365 Business의 전체 가치를 전달할 수 있는 리소스 및 교육을 추가로 도입하고 있습니다. [http://partners.office.com/microsoft365business](http://partners.office.com/microsoft365business)에서 Office 파트너 포털에 대한 리소스를 찾아 보세요. 
 
 ### <a name="how-can-microsoft-365-business-help-partners-increase-the-profitability"></a>어떻게 파트너가 Microsoft 365 Business를 통해 수익성을 높일 수 있나요? 
-Microsoft 365 비즈니스 파트너 큰 운영 효율성을 통해 비용을 절감 하 고 추가 서비스의 판매를 통해 수익을 강화 하는데 도움이 됩니다. Forrester Research, Microsoft 365 비즈니스 총 경제적 영향 (TEI) 연구 2017 년 6 월 (https://partners.office.com/TEIBusiness), Microsoft 365 비즈니스 파트너 수익에 긍정적인 영향을 갖습니다를 보여줍니다. 
+Microsoft 365 Business는 파트너사가 보다 높은 운영 효율성을 통해 비용을 절감하고 추가 서비스의 판매를 통해 수익을 개선하는 데 도움이 됩니다. Forrester 연구 Microsoft 365 Business Total Economic Impact (TEI) Study, 2017년 6월(https://partners.office.com/TEIBusiness)에서는 Microsoft 365 Business가 파트너 수익에 미치는 긍정적인 영향을 기술합니다. 
 
 TEI 연구에서 파트너들은 Microsoft 365 Business를 통해 다음과 같은 사항을 기대한다고 보고했습니다. 
 
@@ -162,7 +163,7 @@ TEI 연구에서 파트너들은 Microsoft 365 Business를 통해 다음과 같�
 - 문의 및 \[진행 중인\] 관리형 서비스 이윤 폭(낮은 비용에서) 8% 지점 증가
 
 ### <a name="what-resources-are-available-to-partners-to-sell-deploy-and-support-microsoft-365-business"></a>파트너가 Microsoft 365 Business를 판매, 배포 및 지원할 때 어떤 리소스를 사용할 수 있나요?
-Microsoft는 다양 한 시장에 출시, 판매 및 Microsoft 365 비즈니스를 지원 하려면 CSP 파트너에 대 한 리소스를 제공 합니다. 찾을 수 있습니다 [https://partners.office.com/microsoft365business](https://partners.office.com/microsoft365business)합니다.
+Microsoft는 CSP 파트너가 Microsoft 365 Business를 출시, 판매, 및 지원할 수 있는 다양한 리소스를 제공합니다. [https://partners.office.com/microsoft365business](https://partners.office.com/microsoft365business)를 참고하세요.
 
 ### <a name="what-up-sell-opportunities-does-microsoft-365-business-give-partners"></a>Microsoft 365 Business 파트너에게 부여되는 상향 판매 기회는 무엇입니까? 
 Microsoft 365 Business를 통해 파트너는 추가 서비스를 판매하고 기존 제품 및 서비스를 업그레이드하는 견고하고 안전한 플랫폼을 만들어 고객에게 신뢰할 수 있는 자문가의 입지를 유지할 수 있습니다. Microsoft 365 Business는 현재 Exchange Server, Exchange Online 또는 Office 365 Business Essentials를 사용하는 고객과 업그레이드에 대해 논의할 수 있는 기회를 제공합니다. 파트너는 향상된 관리형 서비스 및/또는 사용자별 지원 요금에서 추가 수익을 확보할 수 있습니다. 
@@ -179,7 +180,7 @@ Microsoft 클라우드 솔루션 공급자는 항상 고객의 비즈니스 요�
 현재 CSP 파트너에게 제공되는 동일한 지원 채널(프리미어 지원 및 고급 지원 프로그램)이 Microsoft 365 Business에 대해서도 교육되었으며 파트너에게 지원을 제공할 준비가 되었습니다. 
 
 ### <a name="what-is-the-gdpr-and-how-does-microsoft-365-business-help-customers-with-their-compliance-obligations"></a>GDPR이란 무엇이며, 어떻게 Microsoft 365 Business가 고객의 규정 준수 의무를 돕습니까?
-일반 데이터 보호 규정 (GDPR)은 자신의 "개인 데이터"를 통해 제어 능력 유럽 연합 (EU)의 사용자에 게 제공 하 고 해당 개인 데이터의 무결성을 유지 하려면 조직에서는 필요 여부를 지정 하는 포괄적인 새 정보 공개 법률입니다. 해당 컨트롤 또는 개인 데이터 처리에 대 한 GDPR의 요구 사항을 충족 하는 타사 데이터 프로세서를 사용 하 여 EU 사용자에 게 개인 데이터를 연결 하는 프로세스는 GDPR 조직을 필요 합니다. 3 월 2017 Microsoft는 이러한 보장을 제공 하는 사용할 수 있는 계약 보장을 만들었습니다. 어떻게 Microsoft을 통해 자신의 추가 GDPR 의무를 충족 하는 방법에 대 한 질문이 있는 고객 해야 고급 규정 준수 및 추가 기능 (예: Azure 정보 보호, 데이터 손실 방지 Advnaced로 사용할 수 있는 보안 기능에 대 한 설명 위협 보호 등) 및 다른 제품군 (예: Microsoft 365 Enterprise e 5). 자세한 내용은, [www.microsoft.com/gdpr](https://www.microsoft.com/gdpr)를 참고 하십시오.
+일반 데이터 보호 규정(GDPR)은 유럽 연합(EU)의 거주자에게 "개인 데이터"에 대한 더 큰 제어를 제공하며 조직에게 개인 데이터의 무결성을 유지하도록 요구하는 종합적인 새 개인 정보 보호 법률입니다. GDPR은 EU 거주자와 관련된 개인 데이터를 제어 또는 처리하는 조직이 개인 데이터 처리에 대한 GDPR의 요구 사항을 충족하는 제3자 데이터 프로세서만을 사용할 것을 요구합니다. 2017년 3월 Microsoft는 이러한 보장을 제공하는 보증 계약을 체결했습니다. Microsoft가 추가 gdpr 의무를 충족 하는 데 도움이 되는 고객은 추가 기능으로 제공 되는 고급 규정 준수 및 보안 기능 (예: Azure Information Protection, 데이터 손실 방지, 고급)에 대해 알아봅니다. 위협 방지 등) 다른 도구 모음 (예: Microsoft 365 Enterprise E5)에 있습니다. 자세한 내용을 보려면 [www.microsoft.com/gdpr](https://www.microsoft.com/gdpr)을 방문하세요.
 
 
 

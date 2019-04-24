@@ -4,12 +4,15 @@ ms.author: sirkkuw
 author: sirkkuw
 manager: scotv
 ms.audience: Admin
-ms.topic: overview
+ms.topic: conceptual
 f1_keywords:
 - O365E_DevicesManageLM
 - O365E_DevicesManageKM
 ms.service: o365-administration
 localization_priority: Normal
+ms.collection:
+- M365-subscription-management
+- M365-identity-device-management
 ms.custom:
 - Adm_O365
 - Core_O365Admin_Migration
@@ -20,13 +23,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 018a2a96-3811-4b5d-b751-3b6330b34256
-description: 다시 설정 또는 보호 정책을 통해 관리 되는 장치 지우기 시도 하는 방법을 알아봅니다.
-ms.openlocfilehash: 7a20627f50ca2c01ffd8cb77cebf89456ec972ba
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+description: 보호 정책을 통해 관리 되는 장치를 다시 설정 하거나 초기화 하는 방법에 대해 알아봅니다.
+ms.openlocfilehash: f7ae01e8325e977b2e9eca3e374fa41bcc541491
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26870029"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32278463"
 ---
 # <a name="manage-protected-devices-with-microsoft-365-business"></a>Microsoft 365 Business로 보호된 장치 관리
 

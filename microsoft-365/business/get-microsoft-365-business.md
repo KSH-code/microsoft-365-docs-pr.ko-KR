@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 Business 사용
+title: 파트너 센터에서 Microsoft 365 Business 받기
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -7,7 +7,9 @@ ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
-ms.collection: Adm_O365
+ms.collection:
+- Adm_O365
+- M365-subscription-management
 ms.custom:
 - Adm_O365
 - Core_O365Admin_Migration
@@ -17,19 +19,19 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
-description: Microsoft 파트너 센터에서 Microsoft 365 비즈니스를 구매 하는 방법에 알아봅니다.
-ms.openlocfilehash: 77c8e3af930db540c0fab665aceef850f82e219c
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+description: microsoft 파트너 센터에서 microsoft 365 Business를 구입 하는 방법에 대해 알아봅니다.
+ms.openlocfilehash: 1dcd9c21a598020447308970024a896b157bdae4
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26869704"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32278379"
 ---
-# <a name="get-microsoft-365-business"></a>Microsoft 365 Business 사용
+# <a name="get-microsoft-365-business"></a>Microsoft 365 Business 받기
 
 ## <a name="get-microsoft-365-business-from-microsoft"></a>Microsoft에서 Microsoft 365 Business 사용
 
-파트너가 Microsoft 365 비즈니스 보이지 않도록 하려면 하지 경우 [여기를 구입할](https://www.microsoft.com/en-US/microsoft-365/business)수 있습니다.
+파트너가 없는데 Microsoft 365 Business를 받으려면 [여기에서 구매](https://www.microsoft.com/en-US/microsoft-365/business)할 수 있습니다.
   
 ## <a name="get-microsoft-365-business-from-microsoft-partner-center"></a>Microsoft 파트너 센터에서 Microsoft 365 Business 사용
 
@@ -41,7 +43,7 @@ ms.locfileid: "26869704"
   
 3. 고객의 **구독** 페이지에서 구독 추가를 선택하고 카탈로그 아래에서 소규모 기업 옵션을 선택한 다음 **Microsoft 365 Business**를 선택합니다.
     
-    수를 선택 (최대 300) 라이선스 해야 합니다. 300 개 이상의 사용자가 대신 [Microsoft 365 Enterprise](https://go.microsoft.com/fwlink/p/?linkid=862316) 를 참조 합니다. 
+    필요한 라이선스 수(최대 300개)를 선택합니다. 사용자가 300 명 이상인 경우 [Microsoft 365 Enterprise](https://go.microsoft.com/fwlink/p/?linkid=862316) 를 참조 하세요. 
     
     ![On the New subscription page choose small business.](media/52d99e89-2175-4974-84bb-dd626048541b.png)
   

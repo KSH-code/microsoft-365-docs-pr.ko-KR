@@ -7,6 +7,9 @@ ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
+ms.collection:
+- M365-subscription-management
+- M365-identity-device-management
 ms.custom:
 - Core_O365Admin_Migration
 - MiniMaven
@@ -15,13 +18,13 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: bd66c26c-73a4-45a8-8642-3ea4ee7cd89d
-description: 기본 및 Windows 10 장치 보호 하기 위해 Microsoft 365 비즈니스에서 사용할 수 있는 기타 설정 하는 방법에 대 한 설명 합니다.
-ms.openlocfilehash: ebfe5f59e544b67e5a4f2ecd990031e9221ff8e5
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+description: Microsoft 365 Business에서 사용할 수 있는 기본 및 기타 설정에 대해 설명 하 고 Windows 10 장치를 보호 합니다.
+ms.openlocfilehash: f9e890cde7a8290a9a8e81720d32a6a2889c312f
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26869715"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32285926"
 ---
 # <a name="set-device-protection-settings-for-windows-10-pcs"></a>Windows 10 PC에서 장치 보호 설정 설정하기
 
@@ -31,23 +34,21 @@ Microsoft 365 Business를 사용하여 Windows 10 장치를 안전하게 보호�
   
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/a5734146-620a-4cec-8618-536b3ca37972?autoplay=false]
   
-1. 전역 관리자 자격 증명을 사용하여 [Microsoft 365 Business](https://portal.office.com)에 로그인합니다. 
+1. 전역 관리자 자격 증명을 사용 하 여 [관리 센터](https://go.microsoft.com/fwlink/p/?linkid=837890) 에 로그인 합니다. 
     
-2. 관리 센터의 **장치 정책** 카드에서 **정책 추가**를 선택합니다.
-    
-    ![Device policies card in the admin center.](media/27c12b61-d112-4348-b557-4f3e46204797.png)
+2. 왼쪽 탐색 창에서 **장치** \> **정책** \> **추가**를 선택 합니다.
   
 3. **정책 추가** 창에서 이 정책의 고유 이름을 입력합니다. 
     
 4. **정책 유형**에서 **Windows 10 장치 구성**을 선택합니다.
     
-5. 확장 **Windows 10 장치 보안을 유지** 하 고 \> 하려는 방식 설정을 구성 합니다. 자세한 내용은 [사용할 수 있는 설정](protection-settings-for-windows-10-pcs.md#bkmk_availablesettings) 을 참조 하십시오. 
+5. Expand **Secure Windows 10 Devices** \> configure the settings how you would like. See [Available settings](#available-settings) for more information. 
     
     언제든지 **기본 설정 다시 설정** 링크를 사용하여 기본 설정으로 돌아갈 수 있습니다. 
     
     ![Add policy pane with Windows 10 Device configuration selected](media/fa9e2dc2-7eae-4c96-af34-765a1f641ecf.png)
   
-6. 다음 결정 **가 이러한 설정을 받아볼?** 이러한 설정은 받아볼 수 있는 보안 그룹에 대 한 기본 **모든 사용자에 게** 보안 그룹 선택 **변경**를 사용 하 여 않으려면 검색 \> **을 선택**합니다.
+6. Next decide **Who will get these settings?** If you don't want to use the default **All users** security group, Choose **Change**, search for the security group who will get these settings \> **Select**.
     
 7. 마지막으로 **완료**를 선택하여 정책을 저장하고 장치를 할당합니다. 
     
@@ -70,7 +71,7 @@ Microsoft 365 Business를 사용하여 Windows 10 장치를 안전하게 보호�
 |사용자가 Cortana에 액세스할 수 있도록 허용  <br/> |Cortana는 매우 유용한 도구입니다. Cortana는 사용자 대신 설정을 끄거나 켜고, 길을 안내해 주고, 약속을 상기시켜 줍니다. 기본값은 **켜기**입니다.  <br/> |
 |사용자가 Microsoft에서 Windows 팁 및 광고를 받을 수 있도록 허용  <br/> |Windows 팁은 새로운 기능이 출시된 경우 사용자에게 이를 안내하는 등 매우 유용하게 사용됩니다.  <br/> |
 |자동으로 Windows 10 장치를 최신 상태로 유지  <br/> |Windows 10 장치가 자동으로 최신 상태로 업데이트되도록 합니다.  <br/> |
-|이 시간 동안 유휴 상태일 때 장치 화면 끄기  <br/> |사용자가 유휴 상태일 때 회사 데이터가 안전하게 보호되도록 합니다. 사용자가 커피숍과 같은 공공장소에서 작업하다가 잠시 자리를 비우거나 다른 곳에 주의를 기울인 순간 장치가 타인의 시선에 노출될 수 있습니다. 이 설정은 사용자가 얼마 동안 유휴 상태이면 화면이 꺼지는지 지정합니다.  <br/> |
+|이 시간 동안 유휴 상태일 때 장치 화면 끄기  <br/> |사용자가 유휴 상태일 때 회사 데이터가 안전하게 보호되도록 합니다. 사용자가 커피숍과 같은 공공장소에서 작업하다가 잠시 자리를 비우거나 다른 곳에 주의를 기울인 순간 장치가 타인들의 시선에 노출될 수 있습니다. 이 설정은 사용자가 얼마 동안 유휴 상태이면 화면이 꺼지는지 지정합니다.  <br/> |
    
   
 

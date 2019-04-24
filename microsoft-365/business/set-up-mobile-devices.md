@@ -7,6 +7,9 @@ ms.audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
+ms.collection:
+- M365-subscription-management
+- M365-identity-device-management
 ms.custom:
 - Core_O365Admin_Migration
 - MiniMaven
@@ -15,13 +18,13 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: d868561b-d340-4c04-a973-e2575d7f09bc
-description: IPhone 또는 Android 전화를 및 Office 응용 프로그램에서 작업 파일에 설치 Office 365 비즈니스 Microsoft 하 여 보호 됩니다.
-ms.openlocfilehash: 15dc9742cb9712bcbf21e7e3668adc572ee9eb2b
-ms.sourcegitcommit: e491c4713115610cbe13d2fbd0d65e1a41c34d62
+description: iPhone 또는 Android 휴대폰에 office를 설치 하 고 office 앱의 작업 파일이 Microsoft 365 Business에 의해 보호 됩니다.
+ms.openlocfilehash: 4ffde6197104cfceb337a9d531032dacfd9efcf0
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2019
-ms.locfileid: "26869851"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32284704"
 ---
 # <a name="set-up-mobile-devices-for-microsoft-365-business-users"></a>Microsoft 365 Business 사용자를 위한 모바일 장치 설정
 
@@ -34,7 +37,7 @@ iPhone 또는 Android 휴대폰에서 Office를 설치하려면 탭의 지침을
 
 ## <a name="iphonetabiphone"></a>[iPhone](#tab/iPhone)
   
-Microsoft 365 비즈니스를 사용 하 여 iOS 장치에서 Office 응용 프로그램 설정 하는 방법에 대 한 비디오를 시청 합니다.
+Microsoft 365 Business를 사용 하 여 iOS 장치에서 Office 앱을 설정 하는 방법에 대 한 비디오를 시청 하세요.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/e0ee7052-e0f4-4c42-a4f1-5e91b9776ce9?autoplay=false] 
 
@@ -50,7 +53,7 @@ Microsoft 365 비즈니스를 사용 하 여 iOS 장치에서 Office 응용 프�
   
 ![Screenshot of Outlook with Get Started button](media/005bedec-ae50-4d75-b3bb-e7cef9e2561c.png)
   
-**전자 메일 계정 추가** 화면에 회사 전자 메일 주소를 입력 \> **계정 추가**, Microsoft 365 비즈니스 자격 증명을 입력 한 다음 \> **에 로그인**합니다.
+Enter your work email address on the **Add Email Account** screen \> **Add Account**, and then enter your Microsoft 365 Business credentials \> **Sign in**.
   
 ![Sign in to your work account](media/3cef1fb5-7bec-4d3d-8542-872b731ce19f.png)
   
@@ -64,7 +67,7 @@ iPhone에서 Outlook을 찾아 다시 시작합니다. 메시지가 표시되면
   
 ## <a name="androidtabandroid"></a>[Android](#tab/Android)
   
-Android 휴대폰에서 설치 프로그램을 시작 하려면 재생 저장소로 이동 합니다.
+Android 휴대폰에서 설치 프로그램을 시작 하려면 Play 스토어로 이동 합니다.
   
 ![On the Android home screen, tap Play Store](media/93df88e7-c778-40e1-b35e-868ca6e97f6c.png)
   
@@ -72,7 +75,7 @@ Google Play 검색 상자에 Microsoft Outlook을 입력하고 **설치**를 탭
   
 ![Tap Open to open Outlook app](media/8b4c5937-8875-4b5a-a5b6-b8c6c9cd6240.png)
   
-Outlook 응용 프로그램에서 **시작**를 눌러 다음 Microsoft 365 비즈니스는 전자 메일 계정 추가 \> **계속**하 고 사용자의 조직 자격 증명을 사용 하 여 로그인 합니다.
+In the Outlook app tap **Get Started**, then add your Microsoft 365 Business email account \> **Continue**, and sign in with your organization credentials.
   
 ![Sign in to your organizational account in Outlook](media/18f67c66-4bab-4b99-94bd-080839312e29.png)
   
