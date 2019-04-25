@@ -9,16 +9,16 @@ ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
 ms.collection:
-- Ent_O365
+- M365-modern-desktop
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Contoso에서 System Center Configuration Manager를 사용하여 Office 365 ProPlus를 배포하는 방식을 이해합니다.
-ms.openlocfilehash: 5b98f72561d7a431a4ca4a0b0241c6105c87026f
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: 0fa0ca1d268dbfd57891804e20959147cd6385e4
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26869864"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283551"
 ---
 # <a name="office-365-proplus-deployment-for-contoso"></a>Contoso의 Office 365 ProPlus 배포
 
@@ -71,7 +71,7 @@ Office 배포를 완료하기 위해 Contoso는 Microsoft의 모범 사례 권�
 7. Configuration Manager에서 Windows 및 Office 패키지를 네트워크의 배포 지점에 배포한 후 Configuration Manager 배포 작업 시퀀스를 실행하여 파일럿 그룹에 파일럿 Office 365 ProPlus 패키지를 배포했습니다.
 8. Contoso는 파일럿 그룹과의 호환성 문제를 해결한 후에 광범위한 Office 365 ProPlus 패키지를 브로드 그룹에 배포하는 작업 시퀀스를 실행했습니다.
 
-Contoso는 클라우드에서 장치를 자동으로 업데이트하도록 선택했기 때문에 Configuration Manger에서 프로세스를 관리해야 할 필요가 없었습니다. 해당 장치는 초기 배포의 일부로 정의된 업데이트 채널을 기준으로 클라우드에서 직접 자동으로 업데이트됩니다. 
+Contoso는 자동으로 클라우드로부터 장치를 업데이트하도록 선택했기 때문에 구성 관리자에서 프로세스를 관리할 필요가 없습니다. 그 장치는 초기 배포의 부분으로 정의된 업데이트 채널을 기반으로 한 클라우드로부터 직접적으로 자동 업데이트됩니다. 
 
 ## <a name="next-step"></a>다음 단계
 

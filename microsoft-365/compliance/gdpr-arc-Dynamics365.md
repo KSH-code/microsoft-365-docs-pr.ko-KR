@@ -2,21 +2,21 @@
 title: GDPR에 대한 Dynamics 365 책임 준비 상태 검사 목록
 description: Dynamics 365 사용 시 GDPR을 지원하는 데 필요한 정보에 편리하게 액세스할 수 있습니다.
 keywords: Microsoft 365, Microsoft 365 Education, Microsoft 365 설명서, GDPR
-author: BrendaCarter
+author: herviicban
 localization_priority: Priority
-audience: itpro
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
 ms.date: 05/24/2018
-ms.author: bcarter
+ms.author: heicba
 manager: laurawi
+audience: itpro
 ms.collection: GDPR
-ms.openlocfilehash: b358776da0d2cdd676ac79736efea1908cd2a961
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: c175e10e15bb35993b5234a76b6f7ca61e03dd3a
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26869987"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283571"
 ---
 # <a name="dynamics-365-accountability-readiness-checklist-for-the-gdpr"></a>GDPR에 대한 Dynamics 365 책임 준비 상태 검사 목록
 
@@ -99,7 +99,7 @@ GDPR 타일의 *고객 관리 컨트롤*에서 컨트롤 ID 및 컨트롤 제목
 | PII가 전송될 수 있는 국가 및 조직(7.5.2)         | 고객은 개인 데이터가 있거나 전송될 수 있는 국가를 이해하고 개인에게 제공할 수 있어야 합니다. 타사/프로세서가 이 전송을 수행할 수 있는 경우 고객은 프로세서 이 정보를 얻어야 합니다.                                                                                                                                                  | Microsoft 서비스에서 전송하는 개인 데이터 유형, 전송되는 위치, 전송할 법적 세이프가드의 정보<br>- 고객 데이터 보호 영향 평가를 위한 Dynamics 365의 주요 정보[2]                                                       | (30)(1)(e)                                      |
 | PII(개인 데이터)의 전송 기록(7.5.3)                           | 고객은 개인 데이터의 전송과 관련하여 필요한 모든 기록을 유지해야 합니다. 타사/프로세서가 전송을 수행하는 경우 고객은 해당 기록을 유지하고 필요한 경우 이를 확보해야 합니다.                                                                                                                                                    | Microsoft 서비스에서 전송하는 개인 데이터 유형, 전송되는 위치, 전송할 법적 세이프가드의 정보<br>- 고객 데이터 보호 영향 평가를 위한 Dynamics 365의 주요 정보[2]                                                       | (30)(1)(e)                                      |
 | 타사에 대한 PII 공개 기록(7.5.4)                            | 고객은 개인 데이터가 공개된 기록 관련 요구 사항을 이해해야 합니다. 사법 기관에 공개하는 것을 포함할 수 있습니다. 타사/프로세서가 데이터를 공개하는 경우 고객은 해당 기록을 유지하고 필요에 따라 이를 확보해야 합니다.                                                                                                 | 사용 가능한 공개 기록을 포함하여 개인 데이터 공개의 받는 사람 범주에 대해 제공되는 설명서<br>- 사용자 데이터에 액세스할 수 있는 사람 및 관련 약관[[7](gdpr-arc-Dynamics365.md#7)]                                                                                                              | (30)(1)(d)                                      |
-| 조인트 컨트롤러(7.5.5)                                                      | 고객은 다른 조직과 같이 사용되는 조인트 컨트롤러인지 여부를 결정하고 적절하게 문서화하고 책임을 할당해야 합니다.                                                                                                                                                                                                                                                           | Dynamics 365는 개인 데이터의 프로세서입니다.<br>온라인 서비스 약관[1] <!-- look at this one -->*프로세서 및 컨트롤러 역할 및 책임[1]* 참조                                                                                                                                        | (26)(1), (26)(2), (26)(3)                       |
+| 조인트 컨트롤러(7.5.5)                                                      | 고객은 다른 조직과 같이 사용되는 조인트 컨트롤러인지 여부를 결정하고 적절하게 문서화하고 책임을 할당해야 합니다.                                                                                                                                                                                                                                                           | Dynamics 365는 개인 데이터의 프로세서입니다.<br>- 온라인 서비스 약관 [1] <!-- look at this one -->온라인 서비스 약관[1] *프로세서 및 컨트롤러 역할 및 책임[1]* 참조                                                                                                                                        | (26)(1), (26)(2), (26)(3)                       |
 |                                                                               |                                                                                                                                                                                                                                                                                                                                                                                                                    |                                                                                                                                                                                                                                                                                                                                    |                                                 |
 
 <br>

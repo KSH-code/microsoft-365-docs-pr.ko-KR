@@ -9,16 +9,16 @@ ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
 ms.collection:
-- Ent_O365
+- M365-subscription-management
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Contoso 온-프레미스 IT 인프라의 기본 구조와 Microsoft 365 Enterprise로 해당 비즈니스 요구를 충족하는 방법을 이해합니다.
-ms.openlocfilehash: b507d1a44edc0b31b2ac5a3f949ecd8a72913311
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: bd259f367cdf3417e32671457f248029c853b6f8
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26869830"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283683"
 ---
 # <a name="contosos-it-infrastructure-and-business-needs"></a>Contoso의 IT 인프라 및 비즈니스 요구 사항
 
@@ -67,7 +67,8 @@ Contoso의 비즈니스 요구 사항은 다섯 가지 주요 범주로 나뉩�
   많은 직원들이 가정 또는 현장에서 작업하는 경우, 병목 상태가 나타나는 VPN 솔루션을 클라우드의 Contoso 데이터 및 리소스 액세스 방식으로 대체하여 성능을 높입니다.
 - 창의성 및 혁신 증대
 
-  직접 필기 및 3D 시각화를 포함하는 최신의 시각적 학습 및 아이디어 개발 방식을 활용할 수 있습니다.
+  수동 입력과 3D 시각화를 포함하여 최신 수준의 시각적 학습 및 아이디어 개발 방식을 활용할 수 있습니다.
+
 
 보안:
 
@@ -77,7 +78,7 @@ Contoso의 비즈니스 요구 사항은 다섯 가지 주요 범주로 나뉩�
 
 - 위협 방지
 
-  전자 메일 및 운영 체제 기반 맬웨어를 포함하는 외부 보안 위협으로부터 보호합니다.
+  맬웨어를 포함하는 외부 보안 위협으로부터 보호 -> 맬웨어를 포함하여 외부 보안 위협으로부터 보호
 
 - 정보 보호
 
@@ -126,8 +127,8 @@ Contoso의 IT 부서는 배포 전에 비즈니스 요구에 맞는 다음과 �
 |  | 창의성 및 혁신 증대 | Windows Ink, Cortana at Work, PowerPoint |
 | 보안 |  |  |
 |  | ID 및 액세스 관리 | MFA(Multi-Factor Authentication) 및 Azure PIM(Privileged Identity Management다)를 포함하는 전용 전역 관리자 계정 <BR> 모든 사용자 계정에 대한 MFA <BR> 조건부 액세스 <BR> Windows Hello <BR> Windows Credential Guard |
-|  | 위협 방지 | Advanced Threat Analytics <BR> Windows Defender <BR> Advanced Threat Protection <BR> Office 365 Advanced Threat Protection <BR> Office 365 위협 인텔리전스 <BR> |
-|  | 정보 보호 | AIP(Azure Information Protection) <BR> Office 365 DLP(데이터 손실 방지) <BR> Windows Information Protection <BR> Microsoft Cloud App Security <BR> Office 365 CAS(Cloud App Security) <BR> Microsoft Intune |
+|  | 위협 방지 | Advanced Threat Analytics <BR> Windows Defender <BR> Advanced Threat Protection <BR> Office 365 Advanced Threat Protection <BR> Office 365 위협 조사 및 응답 <BR> |
+|  | 정보 보호 | Azure 정보 보호 <BR> Office 365 DLP(데이터 손실 방지) <BR> Windows Information Protection <BR> Microsoft Cloud App Security <BR> Office 365 CAS(Cloud App Security) <BR> Microsoft Intune |
 |  | 보안 관리 | Azure Security Center  <BR> Windows Defender 보안 센터 |
 | 원격 및 모바일 액세스 및 비즈니스 파트너 |  |  |
 |  | 원격 및 모바일 작업자를 위한 향상된 보안 | Microsoft Intune |

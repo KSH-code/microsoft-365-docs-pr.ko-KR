@@ -3,22 +3,22 @@ title: '2단계: ID'
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 09/18/2018
+ms.date: 04/16/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
 ms.collection:
-- Ent_O365
+- M365-identity-device-management
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Microsoft 365 Enterprise에 대한 ID 인프라를 배포하는 단계입니다.
-ms.openlocfilehash: 7b5d62f5c09a1ea6d46449b113bff59dbf07ebad
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: 932b6fb2cfeb86edcf708bdfdea55cdd8b580838
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26870124"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32288742"
 ---
 # <a name="phase-2-identity"></a>2단계: ID
 
@@ -32,25 +32,20 @@ Microsoft 365 Enterprise에서 적절히 계획되고 실행되는 ID 인프라�
 
 ## <a name="plan-and-deploy-your-microsoft-365-enterprise-identity-infrastructure"></a>Microsoft 365 Enterprise ID 인프라 계획 및 배포 
 
+시작하기 전에 Microsoft 365에 대한 인증과 ID 모델의 개요에 대한 비디오를 시청하십시오.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Pjwu]
+
 다음 단계를 사용하여 클라우드에서 새 ID 인프라를 계획 및 배포할 수 있습니다. 또한 이러한 단계를 사용하여 Microsoft 365 Enterprise와 함께 작동하도록 기존 온-프레미스 또는 하이브리드 ID 인프라를 조정할 수 있습니다. 
 
 |||
 |:-------|:-----|
 |![](./media/stepnumbers/Step1.png)| [사용자 및 그룹 계획](identity-plan-users-groups.md) |
-|![](./media/stepnumbers/Step2.png)| [전역 관리자 계정 보호](identity-designate-protect-admin-accounts.md) |
-|![](./media/stepnumbers/Step3.png)| [주문형 전역 관리자 설정](identity-privileged-identity-management.md) |
-|![](./media/stepnumbers/Step4.png)| [암호 재설정 간소화](identity-password-reset.md) |
-|![](./media/stepnumbers/Step5.png)| [다단계 인증 설정](identity-multi-factor-authentication.md) |
-|![](./media/stepnumbers/Step6.png)| [자격 증명 손상으로부터 보호](identity-azure-ad-identity-protection.md) |
-|![](./media/stepnumbers/Step7.png)| [디렉터리 동기화](identity-azure-ad-connect.md) |
-|![](./media/stepnumbers/Step8.png)| [동기화 상태 모니터링](identity-azure-ad-connect-health.md) |
-|![](./media/stepnumbers/Step9.png)| [암호 업데이트 간소화](identity-password-writeback.md) |
-|![](./media/stepnumbers/Step10.png)| [사용자 로그인 간소화](identity-single-sign-on.md) |
-|![](./media/stepnumbers/Step11.png)| [Office 365 로그인 페이지 사용자 지정](identity-customize-office-365-sign-in.md) |
-|![](./media/stepnumbers/Step12.png)| [자동 라이선싱 설정](identity-group-based-licensing.md) |
-|![](./media/stepnumbers/Step13.png)| [테넌트 및 로그인 활동 모니터링](identity-azure-ad-access-usage-reporting.md) |
-|![](./media/stepnumbers/Step14.png)| [사용자가 자신의 그룹을 만들고 관리하도록 허용](identity-self-service-group-management.md) |
-|![](./media/stepnumbers/Step15.png)| [동적 그룹 구성원 설정](identity-automatic-group-membership.md) |
+|![](./media/stepnumbers/Step2.png)| [권한이 부여된 ID 보안](identity-designate-protect-admin-accounts.md) |
+|![](./media/stepnumbers/Step3.png)| [하이브리드 ID 구성](identity-azure-ad-connect.md) |
+|![](./media/stepnumbers/Step4.png)| [안전한 사용자 인증을 구성](identity-multi-factor-authentication.md) |
+|![](./media/stepnumbers/Step5.png)| [사용자에 대한 액세스 간소화](identity-password-reset.md) |
+|![](./media/stepnumbers/Step6.png)| [더 쉬운 관리를 위한 그룹 사용](identity-self-service-group-management.md) |
 
 이러한 단계를 완료했으면 이 단계에 대한 [종료 조건](identity-exit-criteria.md)으로 이동하여 Microsoft 365 Enterprise에 대한 필수 및 선택적 조건을 충족하는지 확인하세요.
 

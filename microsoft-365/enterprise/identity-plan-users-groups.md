@@ -3,22 +3,22 @@ title: '1단계: 사용자 및 그룹 계획'
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 03/13/2018
+ms.date: 02/25/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
 ms.collection:
-- Ent_O365
+- M365-identity-device-management
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 조직을 위해 일할 사용자 및 그룹 집합을 계획합니다.
-ms.openlocfilehash: 8062cc2b681f0ae45a8114a6d827f5d1ece2fe3e
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: f8b3df73518e33c7750c0b72b2cb9f36bc8e9745
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26869711"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283801"
 ---
 # <a name="step-1-plan-for-users-and-groups"></a>1단계: 사용자 및 그룹 계획
 
@@ -39,10 +39,10 @@ ID 인프라를 만들려면 기본 ID 공급자를 지정해야 합니다. 이 
 
 조직에서 Microsoft 365 Enterprise를 도입한 경우 기본 ID 공급자는 다음 중 하나입니다.
 
-- **Windows Server AD(Active Directory)** - Windows Server를 실행하는 컴퓨터에서 호스팅되는 인트라넷 ID 공급자입니다. 이는 일반적으로 기존 온-프레미스 ID 공급자를 보유한 조직에서 사용됩니다.
-- **Azure AD(Azure Active Directory**) - 사용자 환경을 관리 및 보호하는 광범위한 기능을 제공하는 클라우드 기반 IDaaS(Identity as a Service)입니다. 이는 일반적으로 기존 온-프레미스 인프라가 없는 조직에서 사용됩니다.
+- **Active Directory Domain Services (AD DS)**, Windows Server를 실행하는 컴퓨터에서 관리되는 인트라넷 ID 공급자. 일반적으로 기존 온-프레미스 ID 공급자를 보유하는 조직에서 사용됩니다.
+- **Azure Active Directory(Azure AD)**, 사용자 환경을 관리 및 보호하기 위한 광범위한 기능을 제공하는 클라우드 기반의 IDaaS(Identity as a Service). 일반적으로 기존 온-프레미스 인프라가 없는 조직에서 사용됩니다.
 
-조직에 기존 온-프레미스 ID 공급자가 있는 경우 Microsoft 365 Enterprise의 클라우드 기반 서비스에 대한 보다 원활한 액세스를 제공하기 위해 Windows Server AD의 사용자 계정 및 그룹을 Azure AD에 동기화해야 합니다. 또한 Azure AD를 사용하여 Microsoft 클라우드에만 존재하는 그룹을 만들고 관리할 수 있습니다.
+조직에 기존 온-프레미스 ID 공급자가 있는 경우, Microsoft 365 Enterprise의 클라우드 기반 서비스에 대한 보다 원활한 액세스를 제공하기 위해 Active Directory Domain Services (AD DS)의 사용자 계정 및 그룹을 동기화해야 합니다. 또한 Azure AD를 사용하여 Microsoft 클라우드에만 존재하는 그룹을 만들고 관리할 수 있습니다.
 
 Azure AD에서 사용자 및 그룹을 만든 후 다음을 수행할 수 있습니다.
 
@@ -63,11 +63,11 @@ Azure AD에서 사용자 및 그룹을 만든 후 다음을 수행할 수 있습
 
 또한 일부 클라우드 서비스는 사용자 계정 없이 조직 외부의 사용자와 공유될 수 있습니다. 이러한 사용자 그룹도 식별해야 합니다.
 
-## <a name="plan-for-windows-server-ad-and-azure-ad-groups"></a>Windows Server AD 및 Azure AD 그룹 계획
+## <a name="plan-for-ad-ds-and-azure-ad-groups"></a>AD DS 및 Azure AD 그룹에 대한 계획
 
 클라우드 환경 관리를 간소화하는 여러 가지 목적으로 Azure AD에서 그룹을 사용할 수 있습니다. 예를 들어 Azure AD 그룹에 대해 다음을 수행할 수 있습니다.
 
-- 그룹 기반 라이선싱을 사용하여 사용자 계정이 Azure AD에 추가되거나 Windows Server AD에서 동기화되는 즉시 Office 365 및 EMS(Enterprise Mobility + Security)에 대한 라이선스를 자동으로 할당 
+- 그룹 기반 라이선스를 사용하여 사용자 계정이 Azure AD에 추가되거나 AD DS에서 동기화되는 즉시 Office 365 및 EMS(Enterprise Mobility + Security)에 대한 라이선스를 자동으로 할당합니다. 
 - 부서와 같은 사용자 계정 특성에 따라 특정 그룹에 동적으로 사용자 계정 추가  
 - Saas(Software as a Service) 응용 프로그램에 대해 사용자를 자동으로 프로비전하고 다단계 인증 및 기타 조건부 액세스 규칙을 사용하여 이러한 응용 프로그램에 대한 액세스 보호
 - SharePoint Online 팀 사이트에 대해 사용자 권한 및 액세스 수준을 프로비전할 수 있습니다. 또한 Azure AD 그룹을 범위가 지정된 Azure Information Protection 정책과 함께 사용하여 암호화 및 사용 권한으로 파일을 보호할 수 있습니다. 
@@ -81,10 +81,11 @@ Azure AD에서 사용자 및 그룹을 만든 후 다음을 수행할 수 있습
 
 중간 검사점으로 이 단계에 대한 [종료 조건](identity-exit-criteria.md#crit-identity-user-groups)을 확인할 수 있습니다.
 
+Azure AD 사용자 및 그룹을 만든 후에 라이선스를 할당 하고 Exchange Online을 사용하여 시작할 수 있습니다. 사용자에게 Exchange Online을 공개하려면, 배포를[Microsoft 365 Enterprise에 대한 Exchange Online 배포](exchangeonline-workload.md)를 참조하십시오.
 
 ## <a name="next-step"></a>다음 단계
 
 |||
 |:-------|:-----|
-|![](./media/stepnumbers/Step2.png)| [전역 관리자 계정 보호](identity-designate-protect-admin-accounts.md) |
+|![](./media/stepnumbers/Step2.png)| [권한이 부여된 ID 보안](identity-designate-protect-admin-accounts.md) |
 

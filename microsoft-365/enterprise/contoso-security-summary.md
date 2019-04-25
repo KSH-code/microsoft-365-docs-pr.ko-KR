@@ -9,16 +9,16 @@ ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
 ms.collection:
-- Ent_O365
+- M365-security-compliance
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Contoso가 Microsoft 365 Enterprise에서 보안 기능을 사용하는 방법
-ms.openlocfilehash: 2cbabb04c79816684f4c566b92003bb64471d22b
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: 55ee8ff88490a82a9438b076bcebfab976f8baf6
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26870111"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32289036"
 ---
 # <a name="summary-of-microsoft-365-enterprise-security-for-the-contoso-corporation"></a>Contoso Corporation의 Microsoft 365 Enterprise 보안 요약
 
@@ -40,7 +40,7 @@ Contoso는 다음 단계에 따라 Microsoft 365 Enterprise 배포에 대한 보
 
 1. 클라우드용 관리자 계정 제한
 
-   Contoso는 기존 Windows Server AD 관리자 계정을 포괄적으로 검토하여 일련의 클라우드 관리자 계정 및 그룹을 설정했습니다.
+   Contoso는 기존 Active Directory Domain Services (AD DS) 관리자 계정을 포괄적으로 검토하여 일련의 클라우드 관리자 계정 및 그룹을 설정했습니다.
 
 2. 3개 수준으로 데이터 분류 분석 수행
 
@@ -62,7 +62,7 @@ Contoso의 보안 관리자 및 IT 부서는 보안 모범 사례 및 Microsoft 
 
   Contoso의 보안 관리자는 해당 IT 사용자의 직무와 책임에 적합한 더 적은 관리자 역할을 계정에 할당했습니다.
 
-  자세한 내용은 [Office 365 관리자 역할 정보](https://support.office.com/article/about-office-365-admin-roles-da585eea-f576-4f55-a1e0-87090b6aaa9d)를 참조하세요.
+  자세한 내용은 [Office 365 관리자 역할 정보](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles)를 참조하세요.
 
 - 모든 사용자 계정에 대한 MFA
 
@@ -81,7 +81,7 @@ Contoso의 보안 관리자 및 IT 부서는 보안 모범 사례 및 Microsoft 
 
 - Windows Defender Credential Guard
 
-  관리 권한을 사용하여 운영 체제에서 실행되는 타기팅된 공격 및 맬웨어를 차단하기 위해 Contoso는 Windows Server AD 그룹 정책을 통해 [Windows Defender Credential Guard](https://docs.microsoft.com/windows/security/identity-protection/credential-guard/credential-guard)를 사용하도록 설정했습니다.
+  관리 권한을 사용하여 운영 체제에서 실행되는 표적 공격 및 악성 소프트웨어를 차단하기 위해 Contoso는 AD DS 그룹 정책을 통해 [Windows Defender Credential Guard](https://docs.microsoft.com/windows/security/identity-protection/credential-guard/credential-guard)를 사용하도록 설정했습니다.
 
 ## <a name="threat-protection"></a>위협 방지
 
@@ -95,9 +95,9 @@ Contoso의 보안 관리자 및 IT 부서는 보안 모범 사례 및 Microsoft 
 
   Contoso는 또한 사용자 사서함에 로그인한 사람, 보낸 메시지 및 사서함 소유자, 위임된 사용자 또는 관리자가 수행한 기타 활동을 확인하기 위해 사서함 감사 로깅을 사용하도록 설정했습니다.
 
-- Office 365 위협 인텔리전스로 공격 모니터링 및 방지
+- Office 365 위협 조사와 응답으로 공격 모니터링 및 방지
 
-  Contoso는 [Office 365 위협 인텔리전스](https://docs.microsoft.com/office365/securitycompliance/office-365-ti)를 사용하여 공격을 보다 쉽게 식별 및 해결하고 후속 공격을 방지함으로써 Office 365 사용자를 보호합니다.
+  Contoso는 [Office 365 위협 조사 및 응답](https://docs.microsoft.com/office365/securitycompliance/office-365-ti)을 사용하여 공격을 보다 쉽게 식별 및 해결하고 후속 공격을 방지함으로써 Office 365 사용자를 보호합니다.
 
 - Advanced Threat Analytics를 사용하여 정교한 공격으로부터 보호
 

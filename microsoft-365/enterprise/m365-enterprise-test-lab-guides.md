@@ -3,24 +3,24 @@ title: Microsoft 365 Enterprise 테스트 랩 가이드
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 09/19/2018
+ms.date: 04/19/2019
 ms.audience: ITPro
 ms.topic: hub-page
 ms.service: o365-solutions
 localization_priority: Priority
 ms.collection:
-- Ent_O365
+- M365-subscription-management
 - Strat_O365_Enterprise
 ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: 다음 테스트 랩 가이드를 사용하여 Microsoft 365 Enterprise의 데모, 개념 증명 또는 개발/테스트 환경을 설정합니다.
-ms.openlocfilehash: df723647748532936e40bbdb4e34ff698b9fa650
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: 027386f9b44d09d2927c2473d1ef27381f82f969
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26870219"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283648"
 ---
 # <a name="microsoft-365-enterprise-test-lab-guides"></a>Microsoft 365 Enterprise 테스트 랩 가이드
 
@@ -41,7 +41,7 @@ TLS는 모듈 방식으로 설계되었습니다. 따라서 각 모듈을 조합
 
 - 온-프레미스 구성 요소를 포함하지 않는 클라우드 전용 환경에서 Microsoft 365 Enterprise 기능을 구성하고 시연하려면 [간단한 기본 구성](lightweight-base-configuration-microsoft-365-enterprise.md)을 사용하십시오.
 
-- Windows Server Active Directory(AD) 도메인과 같이 온-프레미스 구성 요소를 사용하는 하이브리드 클라우드 환경에서 Microsoft 365 Enterprise 기능을 구성하고 시연하려면 [시뮬레이트된 엔터프라이즈 기본 구성](simulated-ent-base-configuration-microsoft-365-enterprise.md)을 사용하십시오.
+- 액티브 디렉토리 도메인 서비스(AD DS - Active Directory Domain Services) 도메인과 같이 온-프레미스 구성 요소를 사용하는 하이브리드 클라우드 환경에서 Microsoft 365 Enterprise 기능 및 성능을 구성하고 시연하려면 [시뮬레이트된 엔터프라이즈 기본 구성](simulated-ent-base-configuration-microsoft-365-enterprise.md)을 사용하십시오.
     
 ## <a name="identity"></a>ID
 
@@ -49,23 +49,27 @@ ID 관련 기능을 시연하려면 다음을 참조하세요.
 
 - [암호 해시 동기화](password-hash-sync-m365-ent-test-environment.md)
   
-   Windows Server AD 도메인 컨트롤러에서 암호 해시 기반 디렉터리 동기화를 사용하도록 설정하고 테스트합니다.
+   액티브 디렉토리 도메인 서비스(AD DS - Active Directory Domain Services) 도메인 컨트롤러에서 암호 해시 기반 디렉터리 동기화를 사용하도록 설정하고 테스트합니다.
 
-- [경유 인증](pass-through-auth-m365-ent-test-environment.md)
+- [통과 인증](pass-through-auth-m365-ent-test-environment.md)
   
-   Windows Server AD 도메인 컨트롤러에 대한 통과 인증을 사용하도록 설정하고 테스트합니다.
+   AD DS 도메인 컨트롤러에 대한 통과 인증을 사용하도록 설정하고 테스트합니다.
 
 - [Azure AD Seamless Single Sign-on](single-sign-on-m365-ent-test-environment.md)
   
-   Windows Server AD 도메인 컨트롤러를 사용하여 Azure AD Seamless SSO(Single Sign-On)를 사용하도록 설정하고 테스트합니다.
+   AD DS 도메인 컨트롤러를 사용하여 Azure AD Seamless SSO(Single Sign-On)를 사용하도록 설정하고 테스트합니다.
 
-- [Multi-Factor Authentication](multi-factor-authentication-microsoft-365-test-environment.md)
+- [다단계 인증](multi-factor-authentication-microsoft-365-test-environment.md)
   
    특정 사용자 계정에 대해 휴대폰 기반 다단계 인증을 사용하고 테스트합니다.
 
 - [전역 관리자 계정 보호](protect-global-administrator-accounts-microsoft-365-test-environment.md)
  
    Office 365 Cloud App Security 및 조건부 액세스 정책을 사용하여 전역 관리자 계정을 잠급니다.
+
+- [암호 쓰기 저장](password-writeback-m365-ent-test-environment.md)
+
+   Azure AD에서 AD DS 사용자 계정 암호를 변경하려면 암호 쓰기 저장을 사용하십시오.
 
 - [암호 재설정](password-reset-m365-ent-test-environment.md)
 
@@ -83,9 +87,9 @@ ID 관련 기능을 시연하려면 다음을 참조하세요.
 
 모바일 장치 관리와 관련 기능을 시연하려면 다음을 참조하세요.
 
-- [MAM 정책](mam-policies-for-your-microsoft-365-enterprise-dev-test-environment.md)
+- [장치 준수 정책](mam-policies-for-your-microsoft-365-enterprise-dev-test-environment.md)
     
-   iOS 및 Android 장치용 MAM(모바일 응용 프로그램 관리) 정책 및 사용자 그룹을 만듭니다.
+   Windows 10 장치에 대한 사용자 그룹 및 장치 준수 정책을 만듭니다.
     
 - [iOS 및 Android 장치 등록](enroll-ios-and-android-devices-in-your-microsoft-enterprise-365-dev-test-environ.md)
    
@@ -104,12 +108,10 @@ ID 관련 기능을 시연하려면 다음을 참조하세요.
     
    SharePoint Online 팀 사이트에서 Office 365 레이블을 구성하고 문서에 적용합니다.
     
-- [Microsoft 365 Enterprise 테스트 환경에 대한 권한이 부여된 액세스 관리](privileged-access-microsoft-365-enterprise-dev-test-environment.md)
+- [권한이 부여된 액세스 관리](privileged-access-microsoft-365-enterprise-dev-test-environment.md)
     
    Office 365 조직의 권한 상승이 필요한 작업 및 권한이 부여된 작업에 대한 JIT(Just-In-Time) 액세스를 위해 권한이 부여된 액세스 관리를 구성합니다.
 
 ## <a name="see-also"></a>참고 항목
 
-[클라우드 도입 테스트 랩 가이드를 통해 Microsoft 클라우드 사용해보기](https://mva.microsoft.com/training-courses/experience-the-microsoft-cloud-with-cloud-adoption-test-lab-guides-17960?l=LXNRdhSLE_1000115881)
-    
-[단일 Microsoft Cloud 테스트 랩 가이드 스택](http://aka.ms/catlgstack)
+[클라우드 채택 TLG(테스트 랩 가이드)로 Office 365를 테스트 하십시오.](https://docs.microsoft.com/office365/enterprise/cloud-adoption-test-lab-guides-tlgs)

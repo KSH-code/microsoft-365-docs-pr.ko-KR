@@ -4,19 +4,21 @@ description: GDPR(일반 데이터 보호 규정)에 대한 정보 보호
 keywords: Microsoft 365, Microsoft 365 Education, Microsoft 365 설명서, GDPR
 author: BrendaCarter
 localization_priority: Priority
-audience: itpro
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
 ms.date: 04/13/2018
 ms.author: bcarter
 manager: laurawi
-ms.collection: GDPR
-ms.openlocfilehash: 371efa4e1c3e3375cd43dcc661d8aa549788baba
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+audience: itpro
+ms.collection:
+- GDPR
+- M365-security-compliance
+ms.openlocfilehash: 94ec13437ff297381b4ea8aca0e9370f295f249e
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26870228"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32285190"
 ---
 # <a name="information-protection-for-gdpr-with-microsoft-365-capabilities"></a>Microsoft 365 기능을 사용한 GDPR에 대한 정보 보호
 
@@ -49,8 +51,7 @@ Microsoft에서는 시작점으로 사용할 수 있는 권장 구성을 제공�
 
 위협 방지는 Microsoft 365 서비스에 기본적으로 제공되며 다음 리소스를 통해 시작할 수 있습니다.
 - [Office 365 보안 로드맵: 처음 30일, 90일 및 그 이상 기간에 주요 우선 순위 두기](https://support.office.com/article/Office-365-security-roadmap-Top-priorities-for-the-first-30-days-90-days-and-beyond-28c86a1c-e4dd-4aad-a2a6-c768a21cb352). 이 로드맵에는 기능을 구현하기 위한 권장 사항이 포함되어 있습니다. 
-- 
-  [Office 365에서 위협으로부터 보호](https://support.office.com/article/protect-against-threats-in-office-365-b10023f6-f30f-45d3-b3ad-b71aa4aa0d58). Office 365 보안 및 준수 센터에서 수행할 수 있는 보호 작업에 대해 알아봅니다.
+- [Office 365에서 위협으로부터 보호](https://support.office.com/article/protect-against-threats-in-office-365-b10023f6-f30f-45d3-b3ad-b71aa4aa0d58). Microsoft 365 보안 센터에서 수행할 수 있는 보호 조치에 대해 알아봅니다.
 - [Windows 위협 보호](https://docs.microsoft.com/windows/security/threat-protection/). Windows Defender Advanced Threat Protection 및 Windows 10의 기타 기능에 대해 자세히 알아봅니다.
 
 
