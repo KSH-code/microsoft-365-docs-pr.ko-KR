@@ -56,6 +56,10 @@
 #### [암호 재설정](password-reset-m365-ent-test-environment.md)
 #### [자동 라이선싱 및 그룹 구성원](automate-licenses-group-membership-microsoft-365-test-environment.md)
 #### [Azure AD ID 보호](azure-ad-identity-protection-microsoft-365-test-environment.md)
+#### [id 및 장치 액세스](identity-device-access-m365-test-environment.md)
+##### [클라우드 전용](cloud-only-prereqs-m365-test-environment.md)
+##### [암호 해시 동기화 (phs)](phs-prereqs-m365-test-environment.md)
+##### [통과 인증 (pta)](pta-prereqs-m365-test-environment.md)
 ### [모바일 장치 관리]()
 #### [iOS 및 Android 장치 등록](enroll-ios-and-android-devices-in-your-microsoft-enterprise-365-dev-test-environ.md)
 #### [장치 준수 정책](mam-policies-for-your-microsoft-365-enterprise-dev-test-environment.md)
@@ -65,7 +69,7 @@
 #### [권한이 부여된 액세스 관리](privileged-access-microsoft-365-enterprise-dev-test-environment.md)
 ## [Contoso 사례 연구](contoso-case-study.md)
 ### [개요](contoso-overview.md)
-### [Contoso의 IT 인프라 및 필요한](contoso-infra-needs.md)
+### [Contoso의 IT 인프라 및 요구 사항](contoso-infra-needs.md)
 ### [네트워킹](contoso-networking.md)
 ### [ID](contoso-identity.md)
 ### [Windows 10 Enterprise](contoso-win10.md)
@@ -106,7 +110,7 @@
 #### [Office 365](../compliance/gdpr-arc-Office365.md)
 #### [Azure](../compliance/gdpr-arc-Azure.md)
 #### [Dynamics 365](../compliance/gdpr-arc-Dynamics365.md)
-#### [Microsoft 고객 지원 및 전문 서비스](../compliance/gdpr-arc-prof-services.md)
+#### [Microsoft 지원 및 전문 서비스](../compliance/gdpr-arc-prof-services.md)
 
 
 ### [정보 보호](../compliance/gdpr-information-protection.md?toc=/microsoft-365/enterprise/toc.json)
@@ -124,7 +128,7 @@
 #### [Office 365](../compliance/gdpr-breach-Office365.md?toc=/microsoft-365/enterprise/toc.json)
 #### [Azure](../compliance/gdpr-breach-Azure.md?toc=/microsoft-365/enterprise/toc.json)
 #### [Dynamics 365](../compliance/gdpr-breach-Dynamics365.md?toc=/microsoft-365/enterprise/toc.json)
-#### [Microsoft 고객 지원 및 전문 서비스](../compliance/gdpr-breach-Microsoft-Support-Professional-Services.md?toc=/microsoft-365/enterprise/toc.json)
+#### [Microsoft 지원 및 전문 서비스](../compliance/gdpr-breach-Microsoft-Support-Professional-Services.md?toc=/microsoft-365/enterprise/toc.json)
 
 ### [데이터 보호 영향 평가](../compliance/gdpr-data-protection-impact-assessments.md)
 #### [Office 365](../compliance/gdpr-dpia-office365.md)
