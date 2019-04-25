@@ -5,12 +5,12 @@ ms.prod: w10
 author: jaimeo
 ms.author: jaimeo
 ms.localizationpriority: medium
-ms.openlocfilehash: 23a2eae6435f5ce234cf6406f2753ec54f675bce
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: d743092fdd309c1afd748afa7523f0cc0c6a2fd0
+ms.sourcegitcommit: cf77e4bf69e6ae144563f1e764ea3437ed6fc836
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32291672"
+ms.lasthandoff: 04/25/2019
+ms.locfileid: "33295884"
 ---
 # <a name="register-devices-in-microsoft-managed-desktop-for-partners"></a>파트너에 대 한 Microsoft Managed Desktop의 장치 등록
 
@@ -25,7 +25,7 @@ ms.locfileid: "32291672"
 고객에 대 한 등록을 완료 하려면 먼저 CSV 파일을 만듭니다.
 
 >[!NOTE]
->편의상이 *파트너 버전* 의 CSV 파일에 대 한 [서식 파일](https://github.com/MicrosoftDocs/microsoft-365-docs-pr/raw/live/microsoft-365/managed-desktop/get-started/downloads/device-registration-sample-partner.xlsx) 을 다운로드할 수 있습니다.
+>편의상이 *파트너 버전* 의 CSV 파일에 대 한 [서식 파일](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-started/downloads/device-registration-sample-self.xlsx) 을 다운로드할 수 있습니다.
 
 샘플 1과 **정확히 같은 열 머리글** 을 포함 해야 하지만 (제조업체, 모델 등), 다른 행에 대 한 고유한 데이터를 포함할 수 있습니다. 서식 파일을 사용 하는 경우 메모장 등의 텍스트 편집 도구에서이 템플릿을 열고 행 2와 아래에 데이터만 입력 하는 것이 좋습니다. 
     
