@@ -3,22 +3,22 @@ title: Office 365 ProPlus 배포 종료 조건
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 03/29/2018
+ms.date: 03/06/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
 ms.collection:
-- Ent_O365
+- M365-modern-desktop
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 구성이 Office 365 ProPlus 인프라에 대한 Microsoft 365 Enterprise 조건을 충족하는지 확인합니다.
-ms.openlocfilehash: c38539d85e1c826667b7a8a177a15ab75350aa5f
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: c9a2afeae8d28170f4e8a15531a08e6b94cb48c2
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26869706"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291076"
 ---
 # <a name="office-365-proplus-deployment-exit-criteria"></a>Office 365 ProPlus 배포 종료 조건
 
@@ -26,7 +26,7 @@ ms.locfileid: "26869706"
 
 *이 단계는 E3 및 E5 버전의 Microsoft 365 Enterprise 및 Microsoft 365 Education에 적용됩니다.*
 
-배포 프로세스의 다음 단계로 진행하기 전에 구성이 Office 365 ProPlus 인프라에 대한 다음 필수 조건을 충족하는지 확인합니다.
+구성이 Office 365 ProPlus 인프라에 대한 다음과 같은 필수 기준을 충족하는지 확인합니다.
 
 - 다음과 같은 인프라 및 환경 평가 완료
 
@@ -52,9 +52,12 @@ ms.locfileid: "26869706"
     - 모든 클라이언트 장치가 적절한 업데이트 채널에서 업데이트를 받고 있음
     - 모든 클라이언트 장치에 적절한 언어가 설치되거나 사용 가능함
 
-## <a name="next-phase"></a>다음 단계 
 
+
+## <a name="results-and-next-steps"></a>결과 및 다음 단계
+
+클라이언트 장치에는 최신 버전의 Office 365 ProPlus가 설치되어 있으며 지속적인 업데이트가 제공됩니다.
 
 |||
 |:-------|:-----|
-|![](./media/deploy-foundation-infrastructure/mobiledevicemgmt_icon-small.png)| Microsoft 365 Enterprise에 대한 종단 간 배포 프로세스의 다음 단계는 [모바일 장치 관리](mobility-infrastructure.md)입니다. |
+|![](./media/deploy-foundation-infrastructure/mobiledevicemgmt_icon-small.png)| Microsoft 365 Enterprise의 종단 간 배포 단계를 수행중인 경우 다음 단계는 [모바일 장치 관리](mobility-infrastructure.md)입니다. |

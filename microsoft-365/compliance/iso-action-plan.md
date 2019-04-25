@@ -4,18 +4,19 @@ description: ISO(국제 표준화 기구) 요구 사항을 준수하기 위해 �
 keywords: Microsoft 365, Microsoft 365 Education, Microsoft 365 설명서, ISO, ISO 27001
 author: BrendaCarter
 localization_priority: Priority
-audience: itpro
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
 ms.author: bcarter
 manager: laurawi
-ms.collection: GDPR
-ms.openlocfilehash: 1e0232759bd33fb2bcaf66f7afd5334eed43fbbf
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+audience: itpro
+ms.collection:
+- M365-security-compliance
+ms.openlocfilehash: 3f81ad10d4549f9f28b5df4a0e090fb38a54bf6f
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26869974"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32283460"
 ---
 # <a name="microsoft-365-iso-27001-action-plan--top-priorities-for-your-first-30-days-90-days-and-beyond"></a>Microsoft 365 ISO 27001 작업 계획 - 처음 30일, 90일 및 그 이상 기간에 대한 최고 우선 순위 지정
 
@@ -47,7 +48,7 @@ ISO/IEC 27001은 ISMS(정보 보안 관리 시스템)를 구현하기 위한 국
 |**영역**|**태스크**|
 |ISO 27001 거버넌스 및 준수 요구 사항을 파악합니다.|•    [Microsoft STP(Service Trust Portal)](https://support.office.com/article/get-started-with-the-microsoft-service-trust-portal-f30e2353-0bd6-41ed-8347-eea1fb8d2662) 내에서 [Microsoft 준수 관리자](https://support.office.com/article/use-compliance-manager-to-help-meet-data-protection-and-regulatory-requirements-when-using-microsoft-cloud-services-429e686f-d8a6-455e-a2b6-3791d763f000)를 사용하여 조직에 대한 ISO 27001:2013 평가를 수행함으로써 준수 위험을 평가하고 관리합니다. 각 14개 ISO 27001 그룹에 대해 SOP(표준 운영 절차)를 설정합니다.
 |사용자가 중요한 데이터 및 자산을 식별, 분류 및 보호하는 데 도움을 주기 위해 조직에 정보 분류 및 보존 정책과 도구를 롤아웃할 계획을 세웁니다.|•  분류 정책 및 [Azure Information Protection](https://docs.microsoft.com/azure/information-protection/what-is-information-protection) 응용 프로그램을 롤아웃하여 사용자가 정보 보호 정책 및 SOP(표준 운영 절차)에 따라 중요한 데이터를 쉽게 식별 및 분류할 수 있도록 합니다. 교육 및 롤아웃 계획과 함께 조직의 정보 분류 스키마(정책)를 개발합니다.<br>•   사용자가 조직에 [Office 365 레이블](https://support.office.com/article/overview-of-labels-af398293-c69d-465e-a249-d74561552d30)을 롤아웃하여 보존 및 보호 정책을 콘텐츠에 쉽게 적용할 수 있도록 합니다. 교육 및 롤아웃 계획과 함께 정보 기록 보존에 대한 법적 요구 사항에 따라 조직의 레이블을 계획합니다.
-|SOP(표준 운영 절차)의 일부로 감사 및 책임 정책을 만들어 정보 보안과 관련된 기록을 손실, 삭제, 수정 또는 무단 액세스로부터 보호합니다.|•  [Office 365 감사 로깅](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c) 및 [사서함 감사](https://support.office.com/article/Enable-mailbox-auditing-in-Office-365-aaca8987-5b62-458b-9882-c28476a66918)(모든 Exchange 사서함)를 사용하도록 설정하여 Office 365에서 잠재적으로 악의적인 활동이 있는지 모니터링하고 데이터 위반에 대한 법정 분석을 설정합니다.<br>• 정규 흐름에서 Office 365 테넌트의 감사 로그를 검색하여 테넌트의 구성 설정에 적용된 변경 내용을 검토합니다.<br>• 사용자 계정에 대해 권한 상승과 같은 중요한 활동이 수행될 때 Office 365 보안 및 준수 센터에서 [Office 365 경고 정책](https://support.office.com/article/alert-policies-in-the-office-365-security-compliance-center-8927b8b9-c5bc-45a8-a9f9-96c732e58264)을 사용하도록 설정합니다.<br>•   Office 365 감사 로그 데이터를 장기간 저장하는 경우 [Office 365 관리 작업 API 참조](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-reference)를 사용하여 SIEM(보안 정보 및 이벤트 관리) 도구와 통합합니다.
+|SOP(표준 운영 절차)의 일부로 감사 및 책임 정책을 만들어 정보 보안과 관련된 기록을 손실, 삭제, 수정 또는 무단 액세스로부터 보호합니다.|•  [Office 365 감사 로깅](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c) 및 [사서함 감사](https://support.office.com/article/Enable-mailbox-auditing-in-Office-365-aaca8987-5b62-458b-9882-c28476a66918)(모든 Exchange 사서함)를 사용하도록 설정하여 Office 365에서 잠재적으로 악의적인 활동이 있는지 모니터링하고 데이터 위반에 대한 법정 분석을 설정합니다.<br>• 정규 흐름에서 Office 365 테넌트의 감사 로그를 검색하여 테넌트의 구성 설정에 적용된 변경 내용을 검토합니다.<br>• 사용자 계정에 대해 권한 상승과 같은 중요한 활동이 수행될 때 Microsoft 365 또는 규정 준수 센터에서 [Office 365 경고 정책](https://support.office.com/article/alert-policies-in-the-office-365-security-compliance-center-8927b8b9-c5bc-45a8-a9f9-96c732e58264)을 사용하도록 설정합니다.<br>• Office 365 감사 로그 데이터를 장기간 저장하는 경우 [Office 365 관리 활동 API 참조](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-reference)를 사용하여 SIEM(보안 정보 및 이벤트 관리) 도구와 통합합니다.
 |책임 분리와 관련된 정책과 함께 조직에 대해 관리 및 보안 역할을 정의합니다.|• [Office 365 관리 역할](https://support.office.com/article/understanding-administrative-roles-52f29955-6a60-435f-aba9-eb69c898606a)을 사용하여 관리 책임의 분리를 설정합니다. 참고: Exchange Online, SharePoint Online 및 비즈니스용 Skype Online에도 Office 365의 관리자 역할에 해당하는 역할이 있습니다.<br>•  권한을 분할하여 단일 관리자가 필요한 수준보다 더 많은 액세스 권한을 갖지 않도록 합니다.|
 
 

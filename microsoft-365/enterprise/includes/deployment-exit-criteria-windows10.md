@@ -9,7 +9,7 @@ Office 365 및 Intune 구독을 위한 Azure AD 테넌트는 "onmicrosoft.com"�
 
 ### <a name="optional-your-users-are-added-and-licensed"></a>선택적 작업: 사용자 추가 및 사용 허가
 
-사용자에 해당하는 계정은 Office 365 및 Intune 구독을 위한 Azure AD 테넌트에 직접 추가되거나 온-프레미스 Windows Server AD에서의 디렉터리 동기화를 통해 추가됩니다.
+사용자에 해당하는 계정은 Office 365 및 Intune 구독을 위한 Azure AD 테넌트에 직접 추가되거나 온-프레미스 Active Directory Domain Services(AD DS)에서의 디렉터리 동기화를 통해 추가됩니다.
 
 사용자가 추가되면 전역 또는 사용자 관리자로서 직접, 또는 그룹 구성원 자격을 통해 자동으로 Microsoft 365 Enterprise 라이선스를 할당할 수 있습니다.
 
@@ -41,13 +41,13 @@ Windows 10 Enterprise를 실행하는 모든 장치는 Microsoft 365 Enterprise�
 
 Windows Autopilot을 사용하여 새 장치에 Windows 10 Enterprise를 배포하고 사용자 지정하려면 다음을 수행해야 합니다.
 
-- 적절한 Windows 진단 데이터 수준 설정
-- 다음을 포함하는 Windows Autopilot에 대한 필수 구성 요소 완료
-- 장치 등록 및 OOBE 사용자 지정
-- OOBE에 대한 회사 브랜딩
-- Microsoft Intune에서 MDM 자동 등록
-- Windows Autopilot에서 사용되는 클라우드 서비스에 대한 네트워크 연결
-- 장치에는 Windows 10, 버전 1703 이상이 미리 설치되어 있어야 합니다.
+- 적절한 Windows 진단 데이터 수준 구성
+- 다음을 포함하는 Windows Autopilot에 대한 필수 구성 요소 구성
+   - 장치 등록 및 OOBE 사용자 지정
+   - OOBE에 대한 회사 브랜딩
+   - Microsoft Intune에서 MDM 자동 등록
+   - Windows Autopilot에서 사용되는 클라우드 서비스에 대한 네트워크 연결
+- Windows 10, 버전 1703 이상이 미리 설치된 장치
 - 조직을 위한 Windows Autopilot Deployment 프로그램 선택
 
 Windows Autopilot 구성이 완료되면 다음에 대한 OOBE(첫 실행 경험)을 위해 Windows 10 Enterprise를 구성하고 사용자 지정하는 데 사용할 수 있습니다.

@@ -2,9 +2,8 @@
 ### <a name="required-your-network-is-ready-for-microsoft-365-enterprise"></a>필수 사항: 네트워크에서 Microsoft 365 Enterprise 사용 준비 완료
 
 - 사무실에 Office 365, Microsoft Intune, Windows 10 Enterprise 설치 및 업데이트를 포함하여 Microsoft 365 트래픽에 적합한 인터넷 대역폭이 있습니다.
-- 모든 일반 인터넷 트래픽을 위한 중앙 사무실
-- 범주 끝점 트래픽을 최적화하기 위한 지사
 - 전체 네트워크가 Office 365 참조 아키텍처에 매핑됩니다.
+- 네트워크 변경 사항이 시험 및 테스트되었으며 트래픽 대기 시간 요구 사항을 충족합니다.
 
 필요한 경우 [1단계](../networking-provide-bandwidth-cloud-services.md)를 통해 이 요구 사항을 충족할 수 있습니다.
 

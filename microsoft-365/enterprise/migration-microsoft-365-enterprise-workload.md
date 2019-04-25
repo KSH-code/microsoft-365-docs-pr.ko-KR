@@ -2,22 +2,22 @@
 title: Microsoft 365 Enterprise로 마이그레이션
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 06/28/2018
+ms.date: 02/13/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
 ms.collection:
-- Ent_O365
+- M365-modern-desktop
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 조직 전체에서 Microsoft Office, Office 서버 및 Windows 버전을 Microsoft 365 Enterprise로 마이그레이션하는 프로세스를 단계별로 안내합니다.
-ms.openlocfilehash: 8fc0e0b117ef55597efeb139e68b6dbdd03de2db
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: f165e09b58b5208fa4d9aae24f7d5cdda385c639
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26870028"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291266"
 ---
 # <a name="migration-to-microsoft-365-enterprise"></a>Microsoft 365 Enterprise로 마이그레이션
 
@@ -31,6 +31,12 @@ Microsoft 365 Enterprise 통합 제품군의 비즈니스 가치를 최대화하
 
 시간이 지나면서 조직에서 이러한 모든 마이그레이션을 완료하게 되면 Microsoft 365 Enterprise를 통해 조직의 팀워크와 창의성이 극대화되는 보안 통합형 [최신 작업 환경](https://www.microsoft.com/microsoft-365/blog/2018/04/27/making-it-simpler-with-a-modern-workplace/)에 더 가까워지게 됩니다. 
 
+특정 Office 365 워크로드에 대한 사용자 및 데이터 마이그레이션에 대한 자세한 내용은 다음을 참조합니다.
+
+- Exchange Server에서 Exchange Online으로 마이그레이션하는 사용자 메일함은 [Exchange Online 워크로드](exchangeonline-workload.md)를 참조하세요.
+- SharePoint Server에서 SharePoint Online으로 마이그레이션하는 SharePoint 데이터는 [SharePoint Online 워크로드](sharepoint-online-onedrive-workload.md)를 참조하세요.
+- 비즈니스용 Skype Online을 Microsoft Teams으로 마이그레이션시 [Microsoft Teams 워크로드](teams-workload.md)를 참조하세요.
+
 ## <a name="migration-for-microsoft-office-client-products"></a>Microsoft Office 클라이언트 제품에 대한 마이그레이션
 
 많은 대기업 및 중소기업에서는 Word, Excel 및 PowerPoint와 같은 이전 버전의 Office 클라이언트 제품 버전을 조합해서 사용하고 있을 것입니다. 이러한 이전 버전은 다음과 같을 수 있습니다.
@@ -42,7 +48,7 @@ Microsoft 365 Enterprise에는 Microsoft 365 Enterprise 라이선스로 사용�
 
 ### <a name="office-2007"></a>Office 2007
 
-Office 2007 릴리스에 포함된 Office 버전의 경우 지원 종료 기간이 이미 지났습니다. 자세한 내용은 [Office 2007 지원 종료 로드맵](https://support.office.com/article/office-2007-end-of-support-roadmap-416c54d8-823c-4def-bb7a-6a9b14ef2745)을 참조하세요.
+Office 2007 릴리스에 포함된 Office 버전의 경우 지원 종료 기간이 이미 지났습니다. 자세한 내용은 [Office 2007 지원 종료 로드맵](https://docs.microsoft.com/deployoffice/office-2007-end-support-roadmap)을 참조하세요.
 
 Office 2007을 실행하는 컴퓨터를 Office 2010, Office 2013 또는 Office 2016으로 업그레이드하는 대신, 다음을 수행하는 것이 좋습니다.
 
@@ -54,7 +60,7 @@ Office 365 ProPlus는 업데이트를 자동으로 설치하고 Office 365의 �
 
 ### <a name="office-2010"></a>Office 2010
 
-Office 2010 릴리스에 포함된 Office 버전의 경우 지원 종료 날짜는 2020년 10월 13일입니다. 자세한 내용은 [Office 2010 지원 종료 로드맵](https://support.office.com/article/office-2010-end-of-support-roadmap-2a58999c-4d83-4e67-9fde-bc96d487105e)을 참조하세요.
+Office 2010 릴리스에 포함된 Office 버전의 경우 지원 종료 날짜는 2020년 10월 13일입니다. 자세한 내용은 [Office 2010 지원 종료 로드맵](https://docs.microsoft.com/deployoffice/office-2010-end-support-roadmap)을 참조하세요.
 
 Office 2010을 실행하는 컴퓨터를 Office 2013 또는 Office 2016으로 업그레이드하는 대신(둘 다 수동으로 업데이트해야 함), 다음을 수행하는 것이 좋습니다. 
 
@@ -89,11 +95,11 @@ Microsoft 365 Enterprise에는 온-프레미스 버전의 Office 서버 소프�
 
 Office 2007 릴리스에 포함된 서버 제품의 경우 지원 종료 기한이 이미 경과되었습니다. 자세한 내용은 다음 문서를 참조하세요.
 
-- [Exchange 2007 지원 종료 로드맵](https://support.office.com/article/exchange-2007-end-of-support-roadmap-c3024358-326b-404e-9fe6-b618e54d977d)
-- [SharePoint Server 2007 지원 종료 로드맵](https://support.office.com/article/sharepoint-server-2007-end-of-support-roadmap-ba124775-d5c0-4d68-b88d-8458ad4c3717)
-- [Project Server 2007 지원 종료 로드맵](https://support.office.com/article/project-server-2007-end-of-support-roadmap-d379018f-72b7-4284-b40a-6c23c8ae38fe)
-- [Office Communications Server 지원 종료 로드맵](https://support.office.com/article/office-communications-server-end-of-support-roadmap-54f3d5ba-bdf9-4b37-a9e8-f1ab452d4f78)
-- [PerformancePoint Server 2007 지원 종료 로드맵](https://support.office.com/article/performancepoint-server-2007-end-of-support-roadmap-89d9feee-2285-419c-8c14-0f7f583536e0)
+- [Exchange 2007 지원 종료 로드맵](https://docs.microsoft.com/office365/enterprise/exchange-2007-end-of-support)
+- [SharePoint Server 2007 지원 종료 로드맵](https://docs.microsoft.com/office365/enterprise/sharepoint-2007-end-of-support)
+- [Project Server 2007 지원 종료 로드맵](https://docs.microsoft.com/office365/enterprise/project-server-2007-end-of-support)
+- [Office Communications Server 지원 종료 로드맵](https://docs.microsoft.com/skypeforbusiness/plan-your-deployment/upgrade)
+- [PerformancePoint Server 2007 지원 종료 로드맵](https://docs.microsoft.com/office365/enterprise/pps-2007-end-of-support)
 
 Office 2007 릴리스의 서버 제품을 Office 2010, Office 2013 또는 Office 2016 릴리스의 서버 제품으로 업그레이드하는 대신, 다음을 수행하는 것이 좋습니다.
 
@@ -105,8 +111,8 @@ Office 2007 릴리스의 서버 제품을 Office 2010, Office 2013 또는 Office
 
 Office 2010 릴리스 서버 제품의 경우 다음에 대한 지원 종료가 결정되었습니다.
 
-- [Exchange Server 2010](https://support.office.com/article/exchange-2010-end-of-support-roadmap-e150e7b9-c432-4c8d-a0ae-c11847129a7d)
-- [SharePoint Server 2010](https://support.office.com/article/upgrading-from-sharepoint-2010-985a357f-6db7-401f-bf7a-1bafdf1f312c)
+- [Exchange Server 2010](https://docs.microsoft.com/office365/enterprise/exchange-2010-end-of-support)
+- [SharePoint Server 2010](https://docs.microsoft.com/office365/enterprise/upgrade-from-sharepoint-2010)
 
 Office 2010 릴리스의 서버 제품을 Office 2013 또는 Office 2016 릴리스의 서버 제품으로 업그레이드하는 대신, 다음을 수행하는 것이 좋습니다.
 
