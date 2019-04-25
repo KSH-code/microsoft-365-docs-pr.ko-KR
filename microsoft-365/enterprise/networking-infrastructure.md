@@ -9,22 +9,22 @@ ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
 ms.collection:
-- Ent_O365
+- M365-subscription-management
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Microsoft 365 Enterprise에 대한 네트워킹 인프라를 배포하는 단계입니다.
-ms.openlocfilehash: d575d8c3156ac1fc1a8a2bca96c875d4587ebf05
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: 9b8c23d543eca97147801d70e42de7105266c52d
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26869980"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291189"
 ---
 # <a name="phase-1-networking-infrastructure-for-microsoft-365-enterprise"></a>1단계: Microsoft 365 Enterprise에 대한 네트워킹 인프라
 
 ![](./media/deploy-foundation-infrastructure/networking_icon.png)
 
-Microsoft 365 Enterprise에는 Office 365 및 Windows Intune이 EMS(Enterprise Management + Security)의 일부로 포함되어 있습니다. 이러한 클라우드 기반 서비스는 둘 다 인터넷 또는 전용 회로를 통한 클라이언트 장치 연결의 보안, 성능 및 안정성을 기반으로 합니다. 이러한 서비스를 호스팅하고 전 세계 고객에게 제공하기 위해 Microsoft는 성능 및 통합을 강조하는 네트워킹 인프라를 설계했습니다. 
+Microsoft 365 Enterprise에는 EMS (Enterprise Management + Security)의 일부로 Office 365와 Microsoft Intune이 포함됩니다. 이러한 클라우드 기반 서비스 두 가지 모두 인터넷이나 전용 회선을 통해 클라이언트 장치의 연결 보안, 성능 및 안정성에 의존합니다. Microsoft는 이러한 서비스를 호스팅하고 전 세계 고객이 사용할 수 있도록하기 위해 성능 및 통합을 중점을 둔 네트워킹 인프라를 설계했습니다. 
 
 이 단계에서는 Microsoft 365 Enterprise의 클라우드 서비스에 대한 뛰어난 성능의 연결을 만들기 위한 주요 고려 사항을 안내합니다. 개요는 [Office 365 네트워킹 원칙](https://techcommunity.microsoft.com/t5/Office-365-Blog/Getting-the-best-connectivity-and-performance-in-Office-365/ba-p/124694)을 참조하세요.
 
