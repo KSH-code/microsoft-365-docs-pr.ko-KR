@@ -8,18 +8,20 @@ ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
 ms.collection:
-- Ent_O365
+- M365-collaboration
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 조직 전체에서 Microsoft 365 Enterprise의 Microsoft Teams를 계획 및 롤아웃하고 가치를 창출하는 프로세스를 안내합니다.
-ms.openlocfilehash: 25329c7024f267983a83c4e719f18df6ad613bf5
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: 646062babf525be176386264b4ef3c4a3a21647a
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26870364"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291662"
 ---
 # <a name="deploy-microsoft-teams-for-microsoft-365-enterprise"></a>Microsoft 365 Enterprise용 Microsoft Teams 배포
+
+*이 작업은 Microsoft 365 Enterprise E3 및 E5 버전에 모두 포함됩니다.*
 
 Microsoft Teams는 간편하게 콘텐츠를 만들고 그룹 간에 공유할 수 있는 방식으로 채팅, 회의, 문서 공유 및 스레드된 대화를 통합합니다. Teams는 Microsoft 365 Enterprise에 대한 팀 작업 및 공동 작업을 수행하는 방법이며, Microsoft 365가 강조하는 팀 작업(Built for Teamwork) 가치의 주요 요소입니다. Teams를 처음 접하는 경우 [Microsoft Teams 개요](https://docs.microsoft.com/MicrosoftTeams/teams-overview)를 참조하세요.
  
@@ -27,9 +29,7 @@ Microsoft Teams는 간편하게 콘텐츠를 만들고 그룹 간에 공유할 �
 
 다음 단계에서는 조직에서 Teams 역할을 구상하고, 일련의 점진적 롤아웃을 통해 조직을 Teams에 온보딩하며, Teams 사용을 촉진하고 최종 사용자를 위한 가치를 창출하는 프로세스를 안내합니다. 
 
->[!Note]
->이러한 배포 지침은 Microsoft 365 Enterprise에 대한 [기본 인프라](deploy-foundation-infrastructure.md)를 완료한 후에만 따라야 합니다.
->
+시작하기 전에 팀에서 필요한 보안 기능을 갖출 수 있도록 적절한 [기초 인프라](deploy-foundation-infrastructure.md) 단계를 구성했는지 확인합니다.
 
 ## <a name="phase-1-envision"></a>1단계: 구상
 
@@ -45,7 +45,7 @@ Microsoft 365 [기본 인프라](deploy-foundation-infrastructure.md)에 Teams�
 조직의 비즈니스, 기술 및 최종 사용자 측면을 대표하는 구성원 목록을 얻을 수 있습니다.
 
 ### <a name="step-2-determine-and-prioritize-your-teams-business-scenarios"></a>2단계: Teams 비즈니스 시나리오 확인 및 우선 순위 지정
-여러 가지 목적으로 Teams를 사용할 수 있습니다. 비즈니스 그룹, 부서, 개별 작업 및 프로젝트 팀 등 조직의 개별 수준에서 비즈니스 요구 사항에 매핑할 항목을 파악해야 합니다. Teams 시나리오를 정의하는 데 유용한 예는 [Microsoft 365 생산성 라이브러리](https://www.microsoft.com/microsoft-365/success)를 참조하세요. 
+여러 가지 목적으로 Teams를 사용할 수 있습니다. 비즈니스 그룹, 부서, 개별 작업 및 프로젝트 팀 등 조직의 개별 수준에서 비즈니스 요구 사항에 매핑할 항목을 파악해야 합니다. Teams 시나리오를 정의하는 데 유용한 예는 [Microsoft 365 생산성 라이브러리](https://www.microsoft.com/en-us/microsoft-365/success/?rtc=1)를 참조하세요. 
 
 빠르게 움직이고 고도의 공동 작업을 수행하면서 밀접하게 협력하고 Exchange Online에서 제공할 수 있는 전자 메일보다 훨씬 다양한 기능을 필요로 하는 팀의 요구를 충족하는 데 Teams를 사용해야 합니다. 예를 들어 녹음된 기록을 사용하는 실시간 그룹 채팅 및 파일 및 메모를 저장할 수 있는 일반적이고 찾기 쉬운 위치 등을 제공해야 합니다. 
 

@@ -3,22 +3,22 @@ title: Contoso Corporation의 정보 보호
 author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
-ms.date: 09/18/2018
+ms.date: 04/10/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
 ms.collection:
-- Ent_O365
+- M365-security-compliance
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Contoso에서 Microsoft 365 Enterprise의 정보 보호 기능을 사용하여 클라우드에서 디지털 자산을 보호하는 방법을 이해합니다.
-ms.openlocfilehash: 2f6619aa3c6051696644b055e6c766525ad3a26d
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: f0869dfd661ae4dbaed74fdfd660c863deb20175
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26870265"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32276120"
 ---
 # <a name="information-protection-for-the-contoso-corporation"></a>Contoso Corporation의 정보 보호
 
@@ -44,9 +44,9 @@ Contoso는 데이터를 분석하고 다음과 같은 수준을 결정했습니�
 |||||
 |:-------|:-----|:-----|:-----|
 |  | **액세스** | **데이터 보존** | **정보 보호** |
-| 수준 1: 비즈니스 가치가 낮은 데이터(기본 데이터) | 모든 사용자에 대해 액세스 허용  | 6개월 | 암호화 사용 |
-| 수준 2: 비즈니스 가치가 중간 정도인 데이터(중요 데이터) | Contoso 직원, 하도급업자 및 파트너에 대해 액세스 허용 <BR> <BR> MFA(Multi-Factor Authentication), TLS(전송 계층 보안) 및 MAM(모바일 응용 프로그램 관리) 사용 | 2년  | 데이터 무결성을 위해 해시 값 사용  |
-| 수준 3: 비즈니스 가치가 높은 데이터(높은 규제 대상 데이터) | 엔지니어링/제조 부문 임원과 책임자에 대해 액세스 허용 <BR> <BR> 관리되는 네트워크 장치만 있는 RMS(권한 관리 시스템)  | 7년  | 거부 없음이 설정된 디지털 서명 사용  |
+| 비즈니스 가치가 낮은 데이터(수준 1: 기본 데이터) | 모든 사용자에 대해 액세스 허용  | 6개월 | 암호화 사용 |
+| 비즈니스 가치가 중간 정도인 데이터(수준 2: 중요 데이터) | Contoso 직원, 하도급업자 및 파트너에 대해 액세스 허용 <BR> <BR> MFA(Multi-Factor Authentication), TLS(전송 계층 보안) 및 MAM(모바일 응용 프로그램 관리) 사용 | 2년  | 데이터 무결성을 위해 해시 값 사용  |
+| 비즈니스 가치가 높은 데이터(수준 3: 높은 규제 대상 데이터) | 엔지니어링/제조 부문 임원과 책임자에 대해 액세스 허용 <BR> <BR> 관리되는 네트워크 장치만 있는 RMS(권한 관리 시스템)  | 7년  | 거부 없음이 설정된 디지털 서명 사용  |
 |||||
 
 ## <a name="contosos-path-to-information-protection-with-microsoft-365-enterprise"></a>Microsoft 365 Enterprise를 사용한 Contoso의 정보 보호 경로
@@ -61,21 +61,21 @@ Contoso는 다음 단계를 사용하여 정보 보호 요구에 맞게 Microsof
 
    Contoso는 데이터 수준에 따라, 자세한 정책 요구 사항을 결정했습니다. 이러한 요구 사항은 기존 디지털 자산이 클라우드로 전환될 때 보호하는 데 사용되었습니다.
 
-3. 다양한 정보 수준에 대해 Azure Information Protection 레이블 및 설정 생성
+3. 다양한 정보 수준에 대해 민감도 레이블 및 설정 생성
 
-   Contoso는 해당 데이터 수준과 일치하는 제목으로 기본 Azure Information Protection 레이블을 수정하고, 중요한 데이터 및 높은 규제 대상 데이터 레이블을 Azure 클라우드 키로 암호화되도록 구성했습니다. 또한 특정 유형의 영업 비밀 데이터에 대해 높은 규제 대상 데이터 레이블의 하위 레이블을 만들고 해당 액세스를 특정 연구 및 개발 그룹으로 제한했습니다. 그뿐 아니라 모든 Windows PC 및 장치에 Azure Information Protection 클라이언트를 배포했습니다.
+   Contoso는 암호화, 사용 권한 및 워터마크를 포함하여 중요 및 높은 규제 대상 레이블을 사용하여 데이터 수준에 맞게 민감도 레이블을 만들었습니다.
 
 4. 액세스를 잠그는 권한을 사용하여 중요한 데이터 및 높은 규제 대상 데이터에 대해 보호된 SharePoint Online 사이트 생성
 
-   중요 및 높은 규제 대상 사이트 모두 [격리된 사이트](https://docs.microsoft.com/office365/enterprise/isolated-sharepoint-online-team-sites)로 구성되었습니다. 이러한 사이트에서는 기본 SharePoint Online 팀 사이트 권한이 Azure AD 그룹으로 사용자 지정되었습니다. 또한 중요 및 높은 규제 대상 SharePoint Online 사이트도 기본 Office 365 레이블로 구성했습니다. 높은 규제 대상 SharePoint Online 사이트에 저장된 파일은 범위가 지정된 정책의 AIP(Azure Information Protection) 하위 레이블로 보호됩니다. 자세한 내용은 [높은 규제 대상 데이터에 대한 Microsoft Teams 및 SharePoint Online 사이트](teams-sharepoint-online-sites-highly-regulated-data.md) 시나리오를 참조하세요.
+   중요 및 높은 규제 대상 사이트 모두 [격리된 사이트](https://docs.microsoft.com/office365/enterprise/isolated-sharepoint-online-team-sites)로 구성되었습니다. 이러한 사이트에서는 기본 SharePoint Online 팀 사이트 권한이 Azure AD(Azure Active Directory) 그룹으로 사용자 지정되었습니다. 또한 중요 및 높은 규제 대상 SharePoint Online 사이트도 해당 보존 레이블로 구성했습니다. 높은 규제 대상 SharePoint Online 사이트에 저장된 파일은 높은 규제 대상 민감도 레이블로 보호됩니다. 자세한 내용은 [높은 규제 대상 데이터에 대한 Microsoft Teams 및 SharePoint Online 사이트](teams-sharepoint-online-sites-highly-regulated-data.md) 시나리오를 참조하세요.
 
 5.  온-프레미스 SharePoint 사이트 및 파일 공유의 데이터를 새 SharePoint Online 사이트로 이동
 
-    새 SharePoint Online 사이트로 마이그레이션된 파일에는 해당 사이트에 할당된 기본 Office 365 레이블이 상속되었습니다.
+    새 SharePoint Online 사이트로 마이그레이션된 파일에는 해당 사이트에 할당된 기본 보존 레이블이 상속되었습니다.
 
-6.  직원에게 새 문서에 대해 Azure Information Protection 레이블을 사용하는 방법, 새 SharePoint Online 사이트를 만들 때 Contoso IT와 상호 작용하는 방법을 학습시키고 항상 SharePoint Online 사이트에 디지털 자산을 저장하도록 교육
+6.  직원에게 새 문서에 대해 민감도 레이블을 사용하는 방법, 새 SharePoint Online 사이트를 만들 때 Contoso IT와 상호 작용하는 방법을 학습시키고 항상 SharePoint Online 사이트에 디지털 자산을 저장하도록 교육
 
-    클라우드에 대한 정보 보호 전환에서 가장 어려운 부분을 고려하면서 Contoso IT 및 관리 부서는 조직의 직원들이 나타내는 나쁜 정보 저장 습관을 변경하여 항상 디지털 자산에 레이블을 지정하도록 하고 온-프레미스 파일 공유를 절대 사용하지 않도록 변경해야 했습니다.
+    클라우드에 대한 정보 보호 전환에서 가장 어려운 부분을 고려하면서 Contoso IT 및 관리 부서는 조직의 직원들이 나타내는 나쁜 정보 저장 습관을 변경하여 항상 디지털 자산을 클라우드에 저장하고 레이블을 지정하도록 하고 온-프레미스 파일 공유 사용을 자제하며 제3자 클라우드 저장소 서비스 또는 USB 드라이브를 사용하지 않도록 변경해야 했습니다.
 
 ## <a name="conditional-access-policies-for-information-protection"></a>정보 보호에 대한 조건부 액세스 정책
 
@@ -97,7 +97,7 @@ Contoso는 다음 단계를 사용하여 정보 보호 요구에 맞게 Microsof
 
 이러한 정책은 다음을 보장합니다.
 
-- 앱 보호 정책은 허용되는 앱과 조직 데이터로 수행할 수 있는 작업을 정의합니다.
+- 앱 보호 정책으로 허용되는 앱과 조직 데이터로 수행할 수 있는 작업을 정의합니다.
 - PC 및 모바일 장치는 규격이어야 합니다.
 - Exchange Online은 Exchange Online에 대해 Office 365 메시지 암호화를 사용합니다.
 - SharePoint Online은 앱 적용 제한을 사용합니다.
@@ -110,9 +110,9 @@ Contoso는 다음 단계를 사용하여 정보 보호 요구에 맞게 Microsof
 |||||
 |:-------|:-----|:-----|:-----|
 | | **Office 365** | **Windows 10 및 Office 365 ProPlus** | **EMS** |
-| 수준 1: 기본 데이터  | SharePoint Online 및 Exchange Online 조건부 액세스 정책 <BR> SharePoint Online 사이트에 대한 권한 | Azure Information Protection 클라이언트 <BR> BitLocker <BR> Windows Information Protection | 장치 조건부 액세스 정책 및 모바일 응용 프로그램 관리 정책 |
-| 수준 2: 중요한 데이터 | 수준 1: 기본 데이터 외 다음 추가 <BR> <BR> Azure Information Protection 레이블 <BR> SharePoint Online 사이트에 대한 Office 365 레이블 <BR> SharePoint Online 및 Exchange Online에 대한 Office 365 데이터 손실 방지 <BR> 격리된 SharePoint Online 사이트  | 수준 1: 기본 데이터 외 다음 추가 <BR> <BR> 디지털 자산에 대한 Azure Information Protection 레이블 <BR> Office 365 고급 데이터 거버넌스 | 수준 1: 기본 데이터 |
-| 수준 3: 높은 규제 대상 데이터 | 수준 2: 중요한 데이터 외 다음 추가 <BR><BR> 영업 비밀 정보에 대한 BYOK(Bring Your Own Key) 암호화 및 보호 <BR> Office 365 서비스와 상호 작용하는 LOB(기간 업무) 응용 프로그램에 대한 Azure Key Vault | 수준 2: 중요한 데이터 | 수준 1: 기본 데이터 |
+| 수준 1: 기본 데이터  | SharePoint Online 및 Exchange Online 조건부 액세스 정책 <BR> SharePoint Online 사이트에 대한 권한 | 민감도 레이블 <BR> BitLocker <BR> Windows Information Protection | 장치 조건부 액세스 정책 및 모바일 응용 프로그램 관리 정책 |
+| 수준 2: 중요 데이터 | 수준 1 추가: <BR> <BR> 민감도 레이블 <BR> SharePoint Online 사이트에 대한 Office 365 레이블 <BR> SharePoint Online 및 Exchange Online에 대한 Office 365 데이터 손실 방지 <BR> 격리된 SharePoint Online 사이트  | 수준 1 추가: <BR> <BR> 디지털 자산의 민감도 레이블 <BR> Office 365 고급 데이터 거버넌스 | 수준 1 |
+| 수준 3: 높은 규제 대상 데이터 | 수준 2 추가: <BR><BR> 영업 비밀 정보에 대한 BYOK(Bring Your Own Key) 암호화 및 보호 <BR> Office 365 서비스와 상호 작용하는 LOB(기간 업무) 응용 프로그램에 대한 Azure Key Vault | 수준 2 | 수준 1 |
 |||||
 
 

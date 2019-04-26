@@ -3,36 +3,35 @@ title: '1단계: 네트워킹 인프라 종료 조건'
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 10/31/2018
+ms.date: 03/05/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
 ms.collection:
-- Ent_O365
+- M365-subscription-management
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 구성이 네트워킹 인프라에 대한 Microsoft 365 Enterprise 조건을 충족하는지 확인합니다.
-ms.openlocfilehash: 8161fa2b92ffb4c7c4713e9356c0bc1bfec39d07
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: 9ea601d66ef2df0d7a4efde188a70c51e3fb9f60
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26869708"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32291370"
 ---
 # <a name="phase-1-networking-infrastructure-exit-criteria"></a>1단계: 네트워킹 인프라 종료 조건
 
 ![](./media/deploy-foundation-infrastructure/networking_icon-small.png)
 
-네트워킹 인프라가 다음 조건을 충족하는 경우 2단계로 이동할 수 있습니다.
+네트워킹 인프라가 다음과 같은 필수 조건 및 선택 요소에 확실히 충족하는지 확인합니다.
 
 <a name="crit-networking-step1"></a>
 ## <a name="required-your-network-is-ready-for-microsoft-365-enterprise"></a>필수 사항: 네트워크에서 Microsoft 365 Enterprise 사용 준비 완료
 
 - 사무실에 Office 365, Microsoft Intune, Windows 10 Enterprise 설치 및 업데이트를 포함하여 Microsoft 365 트래픽에 적합한 인터넷 대역폭이 있습니다.
-- 모든 일반 인터넷 트래픽을 위한 중앙 사무실
-- 범주 끝점 트래픽을 최적화하기 위한 지사
 - 전체 네트워크가 Office 365 참조 아키텍처에 매핑됩니다.
+- 네트워크 변경 사항이 시험 및 테스트되었으며 트래픽 대기 시간 요구 사항을 충족합니다. 
 
 필요한 경우 [1단계](networking-provide-bandwidth-cloud-services.md)를 통해 이 요구 사항을 충족할 수 있습니다.
 
@@ -78,8 +77,10 @@ Exchange Online, 비즈니스용 Skype Online, SharePoint Online 및 Project Onl
 
 필요한 경우 [5단계](networking-optimize-tcp-performance.md)를 통해 이 옵션을 충족할 수 있습니다.
 
-## <a name="next-phase"></a>다음 단계
+## <a name="results-and-next-steps"></a>결과 및 다음 단계
+
+인트라넷 사용자는 이제 인터넷으로의 효율적인 네트워킹 경로를 통해 Microsoft 365 클라우드 서비스를 사용할 준비가되었습니다.
 
 |||
 |:-------|:-----|
-|![](./media/deploy-foundation-infrastructure/identity_icon-small.png)| Microsoft 365 Enterprise에 대한 종단 간 배포 프로세스의 다음 단계는 [ID](identity-infrastructure.md)입니다. |
+|![](./media/deploy-foundation-infrastructure/identity_icon-small.png)| Microsoft 365 Enterprise의 종단 간 배포 단계를 수행중인 경우 다음 단계는 [ID](identity-infrastructure.md)입니다. |

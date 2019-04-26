@@ -2,20 +2,20 @@
 title: GDPR에 대한 Microsoft 고객 지원 및 전문 서비스 데이터 주체 요청
 description: Microsoft 고객 지원 및 전문 서비스가 데이터 주체 요청을 처리하는 방법입니다.
 keywords: 전문 서비스, Microsoft 365, Microsoft 365 Education, Microsoft 365 설명서, GDPR
-author: BrendaCarter
+author: herviicban
 localization_priority: Priority
-audience: itpro
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
-ms.author: bcarter
+ms.author: heicba
 manager: laurawi
+audience: itpro
 ms.collection: GDPR
-ms.openlocfilehash: dd86914c0b3931f0cddc762db3f5916a34853eff
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: fdbd15e3b6cb3a5283bea9dc92ed89c7f2493f40
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26870000"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32278252"
 ---
 # <a name="microsoft-support-and-professional-services-data-subject-requests-for-the-gdpr"></a>GDPR에 대한 Microsoft 고객 지원 및 전문 서비스 데이터 주체 요청
 
@@ -23,7 +23,7 @@ ms.locfileid: "26870000"
 
 Microsoft 전문 서비스에는 고객이 더 많은 작업을 수행하고 더 많은 성과를 거두도록 지원하려는 Microsoft 임무를 전담하는 다양한 기술 설계자, 엔지니어, 컨설턴트 및 지원 전문가 그룹이 포함되어 있습니다. Microsoft 전문 서비스 팀에는 총 21,000명 이상의 컨설턴트, 디지털 관리자, 프리미어 지원, 엔지니어 및 영업 전문가가 191개국에서 46개의 다른 언어로 온-프레미스, 전화, 웹, 커뮤니티 및 자동 도구를 통해 매월 수백만 개의 계약을 관리하고, 고객 및 파트너 상호 작용에 참여하고 있습니다. 조직은 Microsoft 포트폴리오 전체에서 광범위한 전문 지식을 제공하며 Microsoft를 엔터프라이즈 고객과 연결하는 확장된 파트너, 기술 커뮤니티, 도구, 진단 및 채널 네트워크를 활용합니다.
 
-Microsoft 전문 서비스에 대한 자세한 내용은 여기(<https://www.microsoft.com/microsoftservices/professional_services.aspx>)로 이동한 후 Microsoft 보안 센터의 Microsoft 전문 서비스 섹션(<https://www.microsoft.com/trustcenter/cloudservices/commercialsupport>)에서 확인합니다. Microsoft 전문 서비스는 GDPR(일반 데이터 보호 규정)에 따라 의무를 다합니다. 이 문서의 정보는 Microsoft의 지원 및 컨설팅 서비스가 GDPR의 DSR(데이터 주체 요청) 의무에 따라 고객에게 응답하고 고객을 지원하는 방식에 대한 고객 질문에 답변을 제공하기 위한 것입니다.<span id="_Toc508792502" class="anchor"><span id="_Toc510704608" class="anchor"></span></span>
+Microsoft 보안 센터(<https://www.microsoft.com/trustcenter/professional-services>)에서 Microsoft 전문 서비스 섹션으로 이동하여 Microsoft 전문 서비스에 대해 자세히 알아보세요. Microsoft 전문 서비스는 GDPR(일반 데이터 보호 규정)에 따라 의무를 다합니다. 이 문서의 정보는 Microsoft의 고객 지원 및 컨설팅 서비스에서 GDPR 하의 DSR(Data Subject Request) 의무에 따라 어떻게 고객에게 응답하고 고객을 지원하는지에 대한 고객의 질문에 답변하도록 설계되었습니다.<span id="_Toc508792502" class="anchor"><span id="_Toc510704608" class="anchor"></span></span>
 
 ### <a name="introduction-to-dsrs"></a>DSR 소개 
 
@@ -76,20 +76,21 @@ DSR에 대한 응답을 개발할 때 Microsoft 고객은 지원 및 컨설팅 �
 이 가이드에서는 고객이 Microsoft 전문 서비스를 이용할 때 직면할 수 있는 4가지 시나리오에 대해 설명합니다.
 
 <span id="_Toc510704611" class="anchor"><span id="_Toc511045453" class="anchor"><span id="_Toc511403161" class="anchor"></span></span></span>
-## <a name="dsr-for-a-customer-contact-engaging-microsoft"></a>Microsoft와 계약한 고객 담당자를 위한 DSR
+- **Microsoft와 계약한 고객 담당자를 위한 DSR**
+
 Microsoft가 데이터 주체 권리를 이행하기 위해 고객 담당자 또는 IT 관리자의 요청에 응답하는 방식에 대한 설명입니다.
 
 <span id="_Toc510704612" class="anchor"><span id="_Toc511045454" class="anchor"><span id="_Toc511403162" class="anchor"></span></span></span>
-## <a name="dsr-for-an-end-user-engaging-microsoft"></a>Microsoft와 계약한 최종 사용자를 위한 DSR
+- **Microsoft와 계약한 최종 사용자를 위한 DSR**
 
 Microsoft가 해당 권리를 이행하기 위해 고객의 직원 또는 기타 데이터 주체의 요청에 응답하는 방식에 대한 설명입니다.
 
-## <a name="dsr-for-customer-provided-data-commercial-support"></a>고객 제공 데이터에 대한 DSR: 상업적 지원
+- **고객 제공 데이터에 대한 DSR: 상업적 지원**
 
 고객이 해당 직원이나 다른 데이터 주체로부터 권리 이행 요청을 받을 때와 데이터 주체의 개인 데이터가 지원 계약 동안 Microsoft 지원 서비스에 의해 수집되었을 때 Microsoft에서 지원을 받는 방법에 대한 설명입니다.
 
 <span id="_Toc511403163" class="anchor"><span id="_Toc511045456" class="anchor"><span id="_Toc510704614" class="anchor"></span></span></span>
-## <a name="dsr-for-customer-provided-data-consulting-services-including-fasttrack-migration-services"></a>고객 제공 데이터에 대한 DSR: FastTrack 마이그레이션 서비스를 포함하는 컨설팅 서비스 
+- **고객 제공 데이터에 대한 DSR: FastTrack 마이그레이션 서비스를 포함하는 컨설팅 서비스** 
 
 <span id="_Toc511045457" class="anchor"><span id="_Toc511403164" class="anchor"></span></span>
 

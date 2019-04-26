@@ -2,20 +2,20 @@
 title: GDPR에 대한 Microsoft 지원 및 전문 서비스 책임 준비 상태 검사 목록
 description: Microsoft 전문 서비스 및 지원 서비스 사용 시 GDPR을 지원하는 데 필요한 정보에 편리하게 액세스할 수 있습니다.
 keywords: ARC, 책임 준비 상태 검사 목록, Microsoft 365, Microsoft 365 Education, Microsoft 365 설명서, GDPR
-author: BrendaCarter
+author: herviicban
 localization_priority: Priority
-audience: itpro
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
-ms.author: bcarter
+ms.author: heicba
 manager: laurawi
+audience: itpro
 ms.collection: GDPR
-ms.openlocfilehash: 95af57f0029fe22803179076bc05feaafa277fa5
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: bbdb806648c1f5a438e07b9092a7b432ab0ed81d
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26870392"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32286499"
 ---
 # <a name="microsoft-support-and-professional-services-accountability-readiness-checklist-for-the-gdpr"></a>GDPR에 대한 Microsoft 지원 및 전문 서비스 책임 준비 상태 검사 목록
 
@@ -25,8 +25,6 @@ ms.locfileid: "26870392"
 이 책임 준비 상태 검사 목록은 Microsoft 전문 서비스 및 지원 서비스 사용 시 GDPR을 지원하는 데 필요한 정보에 편리하게 액세스할 수 있는 방법을 제공합니다. 검사 목록은 *ISO/IEC CD 27552 정보 기술 &#x2014; 보안 기술 &#x2014; 개인 정보 관리를 위한 ISO/SEC 27001 개선 사항&#x2013; 요구 사항에서 추출한 개인 데이터 프로세서에 대한 개인 정보 및 보안 컨트롤의 제목과 참조 번호(각 검사 목록 항목의 괄호 안에 있음)를 사용하여 구성됩니다.*
 
 이러한 컨트롤 구조는 GDPR을 지원하기 위해 Microsoft 전문 서비스에서 구현하는 내부 컨트롤의 프레젠테이션을 구성하는 데에도 사용됩니다(다운로드 위치: https://servicetrust.microsoft.com/ViewPage/TrustDocuments).
-
-전체 초안 ISO 표준의 복사본을 구매하려면 *https://shop.bsigroup.com/ProductDetail?pid=000000000030372571*을 방문하세요.
 
 <br>
 
@@ -152,24 +150,20 @@ ms.locfileid: "26870392"
 | **ID**                | **설명**                                                                                            | **URL**                                                                                                                                                                                                               |
 | 1 <a name="1"> </a>   | ***Microsoft 전문 서비스 데이터 보호 부록***                                             | (<http://aka.ms/professionalservicesdpa>)                                                                                                                                                                             |
 | 2 <a name="2"> </a>   | ***Microsoft 보안 센터에 대한 Microsoft 전문 서비스 보안 설명서***                     | <https://www.microsoft.com/TrustCenter/professional-services-security>                                                                                                                                                |
-| 3 <a name="3"> </a>   | ***교육 및 인식 프로그램 설명***                                                           | 고객 계정 관리 팀을 통해 요청할 수 있습니다.<br><https://gallery.technet.microsoft.com/Azure-Standard-Response-to-5de19cb6>                                                                       |
-| 4 <a name="4"> </a>   | ***Microsoft Azure 데이터 보안***(데이터 정리 및 누출)                                           | <https://blogs.msdn.microsoft.com/walterm/2014/09/04/microsoft-azure-data-security-data-cleansing-and-leakage/>                                                                                                       |
-| 5 <a name="5"> </a>   | ***5.  Microsoft 전문 서비스 GDPR 컨트롤 집합***                                                 | <https://aka.ms/GDPRControls>의 Microsoft Service Trust Portal 준수 관리자 또는 준수 관리자 https://servicetrust.microsoft.com/ComplianceManager를 통해 다운로드 가능                                |
-| 6 <a name="6"> </a>   | ***Microsoft 엔터프라이즈 비즈니스 연속성 관리 설명서***                                    | 고객 계정 관리 팀을 통해 요청할 수 있습니다.<br><https://gallery.technet.microsoft.com/Azure-Standard-Response-to-5de19cb6>                                                                       |
-| 7 <a name="7"> </a>   | ***사용자 데이터에 액세스할 수 있는 사람 및 관련 약관***                                                           | <https://www.microsoft.com/trustcenter/Privacy/Who-can-access-your-data-and-on-what-terms>                                                                                                                            |
-| 8 <a name="8"> </a>   | ***GDPR에 대한 Microsoft 전문 서비스 데이터 주체 요청***                                   | <https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-prof-services>                                                                                                                                          |
-| 9 <a name="9"> </a>   | ***Microsoft 전문 서비스와 GDPR에 따른 위반 알림***                               | <https://docs.microsoft.com/microsoft-365/compliance/gdpr-breach-microsoft-support-professional-services>                                                                                                             |
-| 10 <a name="10"> </a> | ***고객 데이터 보호 영향 평가를 위한 Microsoft 전문 서비스의 주요 정보*** | <https://docs.microsoft.com/microsoft-365/compliance/gdpr-dpia-prof-services>                                                                                                                                         |
-| 11 <a name="11"> </a> | ***ISO 27001 감사 보고서***<br>                                                                           |                                                                                                                                                                                                                       |
-|                       | 인증 보고서                                                                                       | <https://www.bsigroup.com/Our-services/Certification/Certificate-and-Client-Directory-Search/Certificate-Client-Directory-Search-Results/?searchkey=licence%3d601002%26company%3dMicrosoft&licencenumber=IS%20601002> |
-|                       | 감사 보고서                                                                                               | 고객 기술 계정 관리 팀을 통해 요청할 수 있습니다.<br><https://gallery.technet.microsoft.com/Azure-Standard-Response-to-5de19cb6>                                                             |
-| 12 <a name="12"> </a> | ***Microsoft 전문 서비스 ISO/IEC 27001:2013 ISMS 적용성 보고서***                   | 고객 계정 관리 팀을 통한 요청의 SOA<br><https://gallery.technet.microsoft.com/Azure-Standard-Response-to-5de19cb6>                                                                              |
-| 13 <a name="13"> </a> | ***Microsoft 보안 센터 준수 제공 사항***                                                          | <https://www.microsoft.com/trustcenter/compliance/complianceofferings>                                                                                                                                                |
-| 14 <a name="14"> </a> | ***Microsoft DPO 정보***                                                                            | <https://docs.microsoft.com/microsoft-365/compliance/gdpr-data-protection-officer>                                                                                                                                    |
+| 3 <a name="3"> </a>   | ***교육 및 인식 프로그램 설명***                                                           | 고객 계정 관리 팀을 통해 요청할 수 있습니다.|                                                                                                    |
+| 4 <a name="4"> </a>   | ***Microsoft 전문 서비스 GDPR 컨트롤 집합***                                                 | <https://aka.ms/GDPRControls>의 Microsoft Service Trust Portal 준수 관리자 또는 준수 관리자 https://servicetrust.microsoft.com/ComplianceManager를 통해 다운로드 가능                                |
+| 5 <a name="5"> </a>   | ***Microsoft 엔터프라이즈 비즈니스 연속성 관리 설명서***                                    | 고객 계정 관리 팀을 통해 요청할 수 있습니다.                                                                     |
+| 6 <a name="6"> </a>   | ***사용자 데이터에 액세스할 수 있는 사람 및 관련 약관***                                                           | <https://www.microsoft.com/trustcenter/Privacy/Who-can-access-your-data-and-on-what-terms>                                                                                                                            |
+| 7 <a name="7"> </a>   | ***GDPR에 대한 Microsoft 전문 서비스 데이터 주체 요청***                                   | <https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-prof-services>                                                                                                                                          |
+| 8 <a name="8"> </a>   | ***Microsoft 전문 서비스와 GDPR에 따른 위반 알림***                               | <https://docs.microsoft.com/microsoft-365/compliance/gdpr-breach-microsoft-support-professional-services>                                                                                                             |
+|  9 <a name="9"> </a> | ***고객 데이터 보호 영향 평가를 위한 Microsoft 전문 서비스의 주요 정보*** | <https://docs.microsoft.com/microsoft-365/compliance/gdpr-dpia-prof-services>                                                                                                                                         |
+| 10 <a name="10"> </a> | ***ISO 27001 감사 보고서***                                                                              |   <https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=7e71ff67-7609-43e6-9d68-4ceea0b41b50&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_ISO_Reports>                                                                                                                                            |
+| 11 <a name="11"> </a> | ***Microsoft 전문 서비스 ISO/IEC 27001:2013 ISMS 적용성 보고서***                   | 고객 계정 관리 팀을 통한 요청의 SOA|
+| 12 <a name="12"> </a> | ***Microsoft 보안 센터 준수 제공 사항***                                                          | <https://www.microsoft.com/trustcenter/compliance/complianceofferings>                                                                                                                                                |
+| 13 <a name="13"> </a> | ***Microsoft DPO 정보***                                                                            | <https://docs.microsoft.com/microsoft-365/compliance/gdpr-data-protection-officer>                                                                                                                                    |
 |                       |                                                                                                            |                                                                                                                                                                                                                       |
 
 ## <a name="learn-more"></a>자세한 정보
 
 [Microsoft 보안 센터](https://www.microsoft.com/TrustCenter/Privacy/gdpr/default.aspx)
 
-[Secure Trust Portal](https://aka.ms/gdprgetstarted)

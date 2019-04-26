@@ -3,22 +3,22 @@ title: '1단계: 보안 및 정보 보호 수준 정의'
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 03/13/2018
+ms.date: 04/10/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
 ms.collection:
-- Ent_O365
+- M365-security-compliance
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 조직의 보안 및 정보 보호 수준을 이해하고 구성합니다.
-ms.openlocfilehash: bc55fab7b450685268ae89648ae18292e5494ce8
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: 91274ec2bcd4e4472969a7cd65660742daaef5bd
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26869960"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32287001"
 ---
 # <a name="step-1-define-security-and-information-protection-levels"></a>1단계: 보안 및 정보 보호 수준 정의
 
@@ -26,7 +26,7 @@ ms.locfileid: "26869960"
 
 ![](./media/deploy-foundation-infrastructure/infoprotection_icon-small.png)
 
-이 단계에서는 조직의 보안 및 보호 수준을 정의합니다. 예를 들어 영업 부서에는 낮은 보안 수준만 필요할 수 있지만 연구 부서와 이 부서의 매우 중요한 지적 재산에는 파일을 암호화하고 액세스를 연구원으로만 제한하는 높은 보안 수준이 필요할 수도 있습니다.
+이 단계에서는 조직의 보안 및 보호 수준을 정의합니다. 예를 들어 판매 부서는 낮은 보안 수준만 요구할 수 있습니다. 그러나 연구 부서와 연구 부서의 매우 중요한 지적 재산은 파일을 암호화하고 연구원만 액세스할 수 있도록 높은 보안 수준을 요구할 수 있습니다.
 
 사용자 고유의 보안 수준을 정의하고 일부는 이미 적용되고 있을 수 있지만 적용 가능한 세 가지 이상의 보안 및 보호 수준을 사용할 계획을 수립하는 것이 좋습니다. 시작하기 위한 목록은 다음과 같습니다. 
 
@@ -35,8 +35,6 @@ ms.locfileid: "26869960"
 - **높은 규제:** 일반적으로 고도로 분류되고 지적 재산 또는 영업 비밀로 간주되는 극소량의 데이터 또는 엄격한 보안 규정을 준수해야 하는 데이터가 있는 조직에 대한 최고 보안 수준입니다. Microsoft 365 Enterprise에는 조직이 ID 및 장치에 대한 상응하는 보호를 포함하여 이러한 높은 보안 요구 사항을 충족하도록 도와주는 기능이 있습니다.
 
 자세한 내용은 [보호의 3계층](microsoft-365-policies-configurations.md#three-tiers-of-protection)을 참조하세요.
-
-이 단계에서는 보안 및 정보 보호 수준을 판단할 수 있습니다.
 
 중간 검사점으로 이 단계에 해당하는 [종료 조건](infoprotect-exit-criteria.md#crit-infoprotect-step1)을 확인하세요.
 
