@@ -1,5 +1,5 @@
 ---
-title: '4단계: Office 365에 대한 권한이 부여된 액세스 관리 구성'
+title: '6 단계: Office 365에 대 한 권한이 부여 된 액세스 관리 구성'
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -13,14 +13,14 @@ ms.collection:
 - M365-security-compliance
 ms.custom: ''
 description: Office 365에 대한 권한이 부여된 액세스 관리를 이해하고 구성합니다.
-ms.openlocfilehash: 297d8e042c2a22c93b4ea566081d258e7ca0a5ab
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 60b52825ead068cd0f068f78c1bbce263e8d7720
+ms.sourcegitcommit: 9d4319a015e493fb88c7e1855bca0121654eb39d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32286951"
+ms.lasthandoff: 04/25/2019
+ms.locfileid: "33304158"
 ---
-# <a name="step-4-configure-privileged-access-management-for-office-365"></a>4단계: Office 365에 대한 권한이 부여된 액세스 관리 구성
+# <a name="step-6-configure-privileged-access-management-for-office-365"></a>6 단계: Office 365에 대 한 권한이 부여 된 액세스 관리 구성
 
 *이 단계는 선택 사항이며 Microsoft 365 Enterprise E5 및 Advanced Compliance 버전에만 적용됩니다.*
 
@@ -43,7 +43,7 @@ Office 365 권한이 부여된 액세스 관리를 사용하도록 설정하려�
 
 이 단계에서는 조직의 핵심 데이터 및 구성 설정에 대해 JIT(Just-In-Time) 액세스 제어를 사용하도록 설정하여 Office 365의 보안이 개선되었습니다.
 
-중간 검사점으로 이 단계에 해당하는 [종료 조건](infoprotect-exit-criteria.md#crit-infoprotect-step5)을 확인하세요.
+중간 검사점으로 이 단계에 해당하는 [종료 조건](infoprotect-exit-criteria.md#crit-infoprotect-step6)을 확인하세요.
 
 ## <a name="next-step"></a>다음 단계
 
