@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: Microsoft 365 Enterprise의 구성 요소, 계획 및 배포 경로에 대해 소개 합니다.
-ms.openlocfilehash: 24aacc1a992e2dfdc683e5e4c4405b105eea7bf5
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: a206924e7056d0213dd0721c2259736a031f80d6
+ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32291313"
+ms.lasthandoff: 04/26/2019
+ms.locfileid: "33353208"
 ---
 # <a name="microsoft-365-enterprise-overview"></a>Microsoft 365 Enterprise 개요
 
@@ -64,13 +64,17 @@ Microsoft 365 Enterprise는 3 가지 요금제로 제공 됩니다.
 
 ## <a name="deploying"></a>배치
 
-Microsoft 365 Enterprise의 제품, 기능 및 구성 요소를 배포 하는 방법에는 두 가지가 있습니다.
+Microsoft 365 Enterprise의 제품, 기능 및 구성 요소를 배포 하는 방법에는 다음 세 가지가 있습니다.
 
 1. fasttrack와의 파트너 관계
   
-   fasttrack을 사용 하면 Microsoft 엔지니어가 사용자의 진도에 따라 클라우드로 쉽게 이동할 수 있습니다. [Microsoft 365의 fasttrack을](https://fasttrack.microsoft.com/microsoft365)참조 하십시오.
+   fasttrack을 사용 하면 Microsoft 엔지니어가 사용자의 진도에 따라 클라우드로 쉽게 이동할 수 있습니다. [Microsoft 365에 대한 FastTrack](https://fasttrack.microsoft.com/microsoft365)을 참조하십시오.
   
-2. 직접 실행
+2. microsoft 컨설팅 서비스 또는 [microsoft 파트너](https://partner.microsoft.com/)의 도움을 받을 수 있습니다.
+
+   컨설턴트는 현재 인프라를 분석 하 고 Microsoft 365 Enterprise의 모든 소프트웨어 및 서비스를 통합 하기 위한 계획을 수립할 수 있도록 지원 합니다.
+
+3. 직접 실행
 
    [Microsoft 365 Enterprise 배포 가이드](deploy-microsoft-365-enterprise.md) 에서는 인프라 및 생산성 워크 로드를 구축 하는 단계를 단계별로 안내 합니다. 
 
@@ -108,7 +112,7 @@ Microsoft 365 Enterprise의 제품, 기능 및 구성 요소를 배포 하는 �
 
 ## <a name="next-step"></a>다음 단계
 
-[Microsoft 365 엔터프라이즈 배포 여행을](deploy-microsoft-365-enterprise.md)시작 합니다.
+직접 배포를 수행 하는 경우 [Microsoft 365 엔터프라이즈 배포 여행을](deploy-microsoft-365-enterprise.md)시작 합니다.
 
 ## <a name="see-also"></a>참고 항목
 

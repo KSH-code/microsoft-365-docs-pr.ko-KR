@@ -13,12 +13,12 @@ ms.custom:
 - TLG
 - Ent_TLGs
 description: Microsoft 365 Enterprise 테스트 환경에서 스마트 전화로 전송 되는 텍스트 메시지를 사용 하 여 다단계 인증을 구성 합니다.
-ms.openlocfilehash: 8e202936451030718c0c86601c2c621c50f78e1a
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: ab346934ea639e819e4e45dd6560093629ee9cde
+ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32291143"
+ms.lasthandoff: 04/26/2019
+ms.locfileid: "33353180"
 ---
 # <a name="multi-factor-authentication-for-your-microsoft-365-enterprise-test-environment"></a>Microsoft 365 Enterprise 테스트 환경에 대 한 다단계 인증
 
@@ -50,31 +50,29 @@ Microsoft 365 Enterprise 테스트 환경에서는 계정에 대해 multi-factor
 
 사용자 2 계정에 대해 다단계 인증을 사용 하도록 설정 하려면 다음 단계를 수행 합니다.
   
-1. 별도의 브라우저 전용 인스턴스를 열고 Office 포털 ([https://office.com](https://office.com))으로 이동한 다음 전역 관리자 계정으로 로그인 합니다.
+1. 별도의 브라우저 전용 인스턴스를 열고 Microsoft 365 관리 센터 ([https://portal.microsoft.com](https://portal.microsoft.com))로 이동한 후 전역 관리자 계정으로 로그인 합니다.
     
-2. 기본 포털 페이지에서 **관리자**를 클릭합니다.
+2. 왼쪽 탐색에서 **사용자 > 활성화된 사용자**를 클릭합니다.
     
-3. 왼쪽 탐색에서 **사용자 > 활성화된 사용자**를 클릭합니다.
+3. 활성 사용자 창에서 **더 > 다단계 인증 설정을**클릭 합니다.
     
-4. 활성 사용자 창에서 **더 > 다단계 인증 설정을**클릭 합니다.
+4. 목록에서 **사용자 2** 계정을 선택 합니다.
     
-5. 목록에서 **사용자 2** 계정을 선택 합니다.
+5. **사용자 2** 섹션의 **빠른 단계**에서 **사용**을 클릭 합니다.
     
-6. **사용자 2** 섹션의 **빠른 단계**에서 **사용**을 클릭 합니다.
+6. **다단계 인증 사용** 대화 상자에서 **다단계 인증 사용**을 클릭 합니다.
     
-7. **다단계 인증 사용** 대화 상자에서 **다단계 인증 사용**을 클릭 합니다.
+7. **업데이트 완료** 대화 상자에서 **닫기를**클릭 합니다.
     
-8. **업데이트 완료** 대화 상자에서 **닫기를**클릭 합니다.
+8. **Microsoft 365 관리 센터** 탭의 오른쪽 위에 있는 사용자 계정 아이콘을 클릭 한 다음 **로그 아웃**을 클릭 합니다.
     
-9. **Microsoft Office 홈** 탭의 오른쪽 위에 있는 사용자 계정 아이콘을 클릭 한 다음 **로그 아웃**을 클릭 합니다.
-    
-10. 브라우저 인스턴스를 닫습니다.
+9. 브라우저 인스턴스를 닫습니다.
    
 사용자 2 계정에 대 한 구성을 완료 하 여 유효성 검사에 텍스트 메시지를 사용 하 고 다음 단계를 사용 하 여 테스트 합니다.
   
 1. 브라우저의 새 개인 인스턴스를 엽니다.
     
-2. Office portal ([https://office.com](https://office.com))로 이동 하 여 사용자 2 계정 (name> @\<조 직) 및 암호를 사용 하 여 로그인 합니다.
+2. Office 365 portal ([https://portal.office.com](https://portal.office.com))로 이동 하 여 사용자 2 계정 이름 및 암호를 사용 하 여 로그인 합니다.
     
 3. 로그인 한 후에는 계정을 설정 하 라는 메시지가 표시 됩니다. **다음**을 클릭합니다.
     

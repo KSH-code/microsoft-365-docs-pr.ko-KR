@@ -12,12 +12,12 @@ ms.collection: M365-security-compliance
 ms.custom: Ent_TLGs
 ms.assetid: 1aa9639b-2862-49c4-bc33-1586dda636b8
 description: 이 테스트 랩 가이드를 사용 하 여 microsoft 365 Enterprise Test environment 추가 microsoft 365 보안 설정을 사용 하도록 설정 합니다.
-ms.openlocfilehash: 54e05122dcbe5d4e24f092536897f2a8ad449e05
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 583d815d9f413df8aeb5ec7abaf68cf79a6cc8b9
+ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32283658"
+ms.lasthandoff: 04/26/2019
+ms.locfileid: "33353120"
 ---
 # <a name="increased-microsoft-365-security-for-your-microsoft-365-enterprise-test-environment"></a>microsoft 365 Enterprise 테스트 환경에 대 한 microsoft 365 보안이 향상 되었습니다.
 
@@ -46,16 +46,15 @@ ms.locfileid: "32283658"
 
 최신 인증을 지원 하지 않는 앱에는 [id 및 장치 액세스 구성을](microsoft-365-policies-configurations.md) 적용할 수 없으며,이는 Microsoft 365 구독 및 디지털 자산의 보안을 유지 하는 중요 한 요소입니다. 
 
-1. office portal ([https://office.com](https://office.com))로 이동 하 고 전역 관리자 계정을 사용 하 여 office 365 평가판 구독에 로그인 합니다.
+1. Microsoft 365 관리 센터 ([https://portal.microsoft.com](https://portal.microsoft.com))로 이동 하 고 전역 관리자 계정을 사용 하 여 Office 365 테스트 랩 구독에 로그인 합니다.
     
   - 경량 Microsoft 365 테스트 환경을 사용 하는 경우 로컬 컴퓨터에서 로그인 합니다.
     
   - 시뮬레이트된 엔터프라이즈 Microsoft 365 테스트 환경을 사용 하는 경우 [Azure portal](https://portal.azure.com) 을 사용 하 여 client1 가상 컴퓨터에 연결한 다음 client1에서 로그인 합니다.
  
-2. **Microsoft 365 관리 센터** 탭에서 **관리자**를 클릭 합니다.
-3. 새 **Microsoft 365 관리 센터** 탭에서 **관리 센터 > SharePoint**를 클릭 합니다.
-4. 새 **SharePoint 관리 센터** 탭에서 **액세스 제어**를 클릭 합니다.
-5. **최신 인증을 지원 하지 않는 앱**에서 **차단을**클릭 한 다음 **확인**을 클릭 합니다.
+2. 새 **Microsoft 365 관리 센터** 탭에서 **관리 센터 > SharePoint**를 클릭 합니다.
+3. 새 **SharePoint 관리 센터** 탭에서 **액세스 제어**를 클릭 합니다.
+4. **최신 인증을 지원 하지 않는 앱**에서 **차단을**클릭 한 다음 **확인**을 클릭 합니다.
 
 
 ### <a name="enable-advanced-threat-protection-for-sharepoint-onedrive-for-business-and-microsoft-teams"></a>SharePoint, 비즈니스용 OneDrive 및 Microsoft 팀에 대해 Advanced Threat Protection을 사용 하도록 설정
@@ -86,20 +85,15 @@ Office 365에는 악성 소프트웨어 로부터 인바운드 및 아웃 바운
 4. **일반 첨부 파일 형식 필터**에서 **> 저장을**클릭 합니다.
 
 
-## <a name="phase-3-examine-office-365-security-tools-and-logs"></a>3 단계: Office 365 보안 도구 및 로그 검사
-
-이 단계에서는 보안 이벤트를 알려 주고 전반적인 보안 환경을 측정 하는 기본 제공 서비스를 살펴봅니다.
-
-### <a name="threat-management-dashboard"></a>위협 관리 대시보드
+## <a name="phase-3-examine-the-threat-management-dashboard"></a>3 단계: 위협 관리 대시보드 검사
 
 Office 365 위협 관리는 조직의 데이터에 대 한 모바일 장치 액세스를 제어 및 관리 하 고, 데이터 손실을 방지 하는 데 도움이 되며, 악성 소프트웨어 및 스팸 으로부터 인바운드 및 아웃 바운드 메시지를 보호 하는 데 도움이 됩니다. 또한 위협 관리를 사용 하 여 도메인의 신뢰도를 보호 하 고 보낸 사람이 도메인에서 악의적으로 계정을 위장 하는지 여부를 확인 합니다. 자세한 내용은 [Microsoft 365 보안 센터의 위협 관리](https://docs.microsoft.com/office365/securitycompliance/threat-management)를 참조 하세요.
 
-
-### <a name="office-365-cloud-app-security-dashboard"></a>Office 365 Cloud App Security 대시보드
-
-office 365 Cloud App security (이전에는 office 365 Advanced Security Management)를 통해 office 365 구독에서 의심 스러운 활동을 모니터링 하 고 사용자에 게 알리기 위한 정책을 만들 수 있습니다. 수정 작업 자세한 내용은 [Overview For Office 365 Cloud App Security](https://docs.microsoft.com/office365/securitycompliance/office-365-cas-overview)를 참조 하세요.
-
 <!--
+### Office 365 Cloud App Security dashboard
+
+Office 365 Cloud App Security, previously known as Office 365 Advanced Security Management, allows you to create policies that monitor for and inform you of suspicious activities in your Office 365 subscription, so that you can investigate and take possible remediation action. For more information, see [Overview of Office 365 Cloud App Security](https://docs.microsoft.com/office365/securitycompliance/office-365-cas-overview).
+
 ### Microsoft 365 Secure Score
 
 1. Create a new tab in your browser and go to the [Microsoft 365 security center](https://security.microsoft.com/), and then click **Secure score**.

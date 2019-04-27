@@ -13,16 +13,16 @@ ms.custom:
 - TLG
 - Ent_TLGs
 description: 다음 단계를 사용 하 여 Microsoft 365 Enterprise 테스트 환경에서 전역 관리자 계정을 보호 합니다.
-ms.openlocfilehash: cded424188447f96e5614f31d3e207bb541d438e
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 86b2d325fc710fd8b387bc37cad5f8ea60df001d
+ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32290861"
+ms.lasthandoff: 04/26/2019
+ms.locfileid: "33353060"
 ---
 # <a name="protect-global-administrator-accounts-in-your-microsoft-365-enterprise-test-environment"></a>Microsoft 365 Enterprise 테스트 환경에서 전역 관리자 계정 보호
 
-관리자 계정이 최대한 안전한 지 확인 하 여 조직에서 디지털 공격을 방지할 수 있습니다. 이 문서에서는 Office 365 Cloud App Security 및 Azure AD 조건부 액세스 정책을 사용 하 여 전역 관리자 계정을 보호 하는 방법을 설명 합니다.
+관리자 계정이 최대한 안전한 지 확인 하 여 조직에서 디지털 공격을 방지할 수 있습니다. 이 문서에서는 azure Active Directory (azure AD) 조건부 액세스 정책을 사용 하 여 전역 관리자 계정을 보호 하는 방법을 설명 합니다.
 
 Microsoft 365 Enterprise 테스트 환경에서는 다음과 같은 두 가지 단계를 통해 전역 관리자 계정을 보호 합니다.
 
@@ -34,9 +34,6 @@ Microsoft 365 Enterprise 테스트 환경에서는 다음과 같은 두 가지 �
 > [!TIP]
 > [여기](https://aka.ms/m365etlgstack)를 클릭하여 Microsoft 365 Enterprise 테스트 랩 가이드 스택의 모든 문서에 대한 가상 맵을 확인할 수 있습니다.
 
-> [!NOTE]
-> Microsoft 365 Enterprise 테스트 환경에서는 E5 버전의 Office 365 및 EMS (엔터프라이즈 관리 + Security)가 사용 됩니다. office 365 Cloud App Security 기능은 E5 버전 Office 365 에서만 사용할 수 있습니다. 
-
 ## <a name="phase-1-build-out-your-microsoft-365-enterprise-test-environment"></a>1 단계: Microsoft 365 Enterprise 테스트 환경 구축
 
 최소 요구 사항에 따라 간단한 방법으로 전역 관리자 계정 보호를 테스트 하려는 경우에는 [간단한 기본 구성](lightweight-base-configuration-microsoft-365-enterprise.md)의 지침을 따릅니다.
@@ -47,24 +44,9 @@ Microsoft 365 Enterprise 테스트 환경에서는 다음과 같은 두 가지 �
 > [!NOTE]
 > 전역 관리자 계정 보호를 테스트 하는 경우에는 AD DS (Active directory 도메인 서비스)에 대 한 인터넷 및 디렉터리 동기화에 연결 된 시뮬레이트된 인트라넷을 포함 하는 시뮬레이트된 엔터프라이즈 테스트 환경이 필요 하지 않습니다. 전역 관리자 계정 보호를 테스트 하 고 일반적인 조직을 나타내는 환경에서이를 시험해 볼 수 있도록 여기에 제공 되는 옵션입니다. 
   
-## <a name="phase-2-configure-cloud-app-security-and-conditional-access-policies"></a>2 단계: Cloud App Security and 조건부 액세스 정책 구성
+## <a name="phase-2-configure-conditional-access-policies"></a>2 단계: 조건부 액세스 정책 구성
 
-먼저 전역 관리자 계정 작업을 모니터링 하 고 전역 관리자 계정의 전자 메일 주소로 알림을 보내도록 Office 365 Cloud App Security policy를 만듭니다. 
-
-1. 전역 관리자 계정을 사용 하 여 [Office 365 Security & 준수 포털](https://protection.office.com/) 에 로그인 합니다.
-2. 왼쪽 탐색 창에서 **경고 > 고급 알림 관리**를 클릭 합니다.
-3. **고급 알림 관리** 페이지에서 **office 365 cloud app security 사용**을 클릭 하 고 **office 365 cloud app security로 이동을**클릭 합니다.
-4. 새 **대시보드** 탭에서 **> 정책 제어**를 클릭 합니다.
-5. **정책** 페이지에서 **정책 만들기**를 클릭 한 다음 **활동 정책을**클릭 합니다.
-6. **정책 이름**에 **관리 활동**을 입력 합니다.
-7. **정책 심각도**에서 **높음**을 클릭합니다.
-8. **범주**에서 **권한이 부여 된 계정을**클릭 합니다.
-9. **정책에 대 한 필터 만들기**의 **다음 작업과 일치 하는 작업**의 **관리 작업**을 클릭 합니다.
-10. **경고**에서 **전자 메일로 경고 보내기**를 클릭합니다. **받는 사람**에서 전역 관리자 계정의 전자 메일 주소를 입력합니다.
-11. 페이지 하단에서 **만들기**를 클릭합니다.
-12. **대시보드** 탭을 닫습니다.
-    
-다음으로, 새 사용자 계정을 전용 전역 관리자로 만듭니다.
+먼저 새 사용자 계정을 전용 전역 관리자로 만듭니다.
 
 1. 별도의 탭에서 [Microsoft 365 관리 센터](https://admin.microsoft.com/)를 엽니다.
 2. **활성 사용자**에서 **사용자 추가**를 클릭 합니다.
