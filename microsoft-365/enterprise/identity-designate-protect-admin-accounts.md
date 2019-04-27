@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 관리자 계정의 최대 보호를 위한 계정의 이해 및 구성.
-ms.openlocfilehash: 4b4a8d01cdf71e30139fa448813a3ff7c43855c7
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 0be82fc6f431001c69e79a0a26007c54a87424c3
+ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32285164"
+ms.lasthandoff: 04/26/2019
+ms.locfileid: "33353090"
 ---
 # <a name="step-2-secure-your-privileged-identities"></a>2단계: 권한이 부여된 ID 보안
 
@@ -39,7 +39,6 @@ ms.locfileid: "32285164"
 1. 테스트 사용자 계정을 사용자별 계정 또는 조건부 액세스 기반 MFA(다단계 인증)를 테스트하여 MFA가 예상대로 올바르게 작동하는지 확인합니다. MFA는 스마트폰으로 전송되는 인증 코드와 같은 보조 인증 형식을 요구합니다.
 2. 각 전용 Office 365 전역 관리자 계정에 대해 MFA를 구성하고 조직에서 사용 가능한 가장 강력한 형태의 보조 인증을 사용합니다. 자세한 내용은 [다단계 인증](identity-multi-factor-authentication.md#identity-mfa)을 참조하세요.
 2. 조건부 액세스 정책을 사용하여 전역 관리자 계정에 대해 MFA를 요구합니다. 자세한 내용은 [관리자 계정 보호](identity-access-prerequisites.md#protecting-administrator-accounts)를 참조하세요.
-4. Office 365 Cloud App Security 정책을 사용하여 전역 관리자 계정 활동을 모니터링합니다. 자세한 내용은 [Office 365에 대한 향상된 보안 구성](infoprotect-configure-increased-security-office-365.md)을 참조하세요.
 
 구성에 대한 자세한 내용은 [Office 365 전역 관리자 계정 보호](https://docs.microsoft.com/office365/enterprise/protect-your-global-administrator-accounts)를 참조하세요.
 
