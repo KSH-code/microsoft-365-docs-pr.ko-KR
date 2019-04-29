@@ -13,16 +13,14 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: OS 배포 및 기능 업데이트를 위한 옵션을 알아봅니다.
-ms.openlocfilehash: 6aae2fb39937bec1eebfdc11e403f3835cb895cd
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: d5053219750b056c9f72e94524f334a42e2aaa06
+ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26870014"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33400202"
 ---
 # <a name="step-6-os-deployment-and-feature-updates"></a>6단계: 운영 체제 배포 및 기능 업데이트
-
-System Center Configuration Manager 또는 Microsoft 배포 도구 키트에서 업그레이드 및 이미징 접근 방식을 사용하는 운영 체제 배포에 대한 옵션을 알아보고 배포를 준비합니다.
 
 ![](media/step-6-os-deployment-and-feature-updates-media/step-6-os-deployment-and-feature-updates-media-1.png)
 
@@ -36,7 +34,7 @@ System Center Configuration Manager 또는 Microsoft 배포 도구 키트에서 
 </table>
 
 >[!NOTE]
->OS 배포 및 기능 업데이트는 Windows 10 OS 배포, 업그레이드 및 기능 업데이트를 포함하는 권장 배포 프로세스 사이클의 6번째 단계입니다. 전체 데스크톱 배포 프로세스를 보려면 [최신 데스크톱 배포 센터](https://aka.ms/HowToShift)를 방문하세요.
+>OS 배포 및 기능 업데이트는 Windows 10 OS 배포, 업그레이드 및 기능 업데이트를 포함하는 권장 배포 프로세스 사이클의 6번째 단계입니다. 전체 데스크톱 배포 프로세스를 보려면 [데스크톱 배포 센터](https://aka.ms/HowToShift)를 방문하세요.
 >
 
 지금까지 배포 프로세스 사이클을 따라 진행했으면 적어도 장치 및 앱 준비 단계를 부분적으로 완료하고, 인프라를 준비하고, 앱 패키지를 수집하고, 사용자 파일을 마이그레이션하고 기본 설정을 구성하기 위한 계획과 기존의 보안 컨트롤을 유지하고 새 보안 컨트롤을 배포하기 위한 계획을 세웠을 것입니다.
@@ -109,7 +107,7 @@ System Center Configuration Manager 또는 Microsoft 배포 도구 키트에서 
 
 ### <a name="windows-autopilot"></a>Windows Autopilot
 
-Windows 10의 새로운 옵션은 Windows Autopilot을 사용하여 하드웨어 새로 고침 주기의 일환으로 새 PC를 구성하는 것입니다. 여기서는 지원 하드웨어 공급업체와 협의하여 기본 Windows 설치 환경을 사용자 지정(예: 라이선스 계약 또는 원격 분석 설정과 같은 사용자에게 표시되는 옵션 제거)할 수 있습니다.
+Windows 10에 새롭게 제공되는 옵션은 Windows Autopilot을 사용하여 새 PC를 하드웨어 새로 고침 주기의 일부로 구성하는 것입니다. 이 기능을 사용하여 하드웨어 공급업체에서 사용자에게 제공되는 라이선스 계약 또는 진단 데이터 설정 등의 옵션을 제거하는 것과 같이 기본 Windows 설정 환경을 사용자 지정하도록 지원할 수 있습니다.
 
 그런 다음, 사용자가 Azure AD의 자격 증명을 사용하여 설치 중에 PC에 로그인하면 장치는 Microsoft Intune에 등록하고, 배포 프로세스를 인계 받고 응용 프로그램, 소프트웨어 업데이트 구성 및 준수 정책을 적용할 수 있게 됩니다. 또한 필요에 따라 Windows Autopilot은 프로비전이 완료될 때까지 사용자가 첫 번째 세션에 액세스하지 못하게 할 수도 있습니다.
 
@@ -117,9 +115,21 @@ Windows 10의 새로운 옵션은 Windows Autopilot을 사용하여 하드웨어
 
 [Windows Autopilot 필수 구성 요소](https://docs.microsoft.com/ko-KR/windows/deployment/windows-autopilot/windows-10-autopilot#prerequisites)
 
+## <a name="windows-update-for-business-for-feature-updates"></a>기능 업데이트를 위한 비즈니스용 Windows 업데이트
+
+비즈니스용 Windows 업데이트는 IT 전문가가 디바이스를 Windows 업데이트 서비스에 직접 연결하여 Windows 10 디바이스를 항상 최신 상태로 유지할 수 있도록 하는 무료 서비스입니다. 비즈니스용 Windows 업데이트는 그룹 정책 또는 MDM 솔루션(예: Microsoft Intune)을 통해 구성할 수 있으며, IT 전문가가 새 빌드가 유효한지 검사하기 위한 [배포 링](https://docs.microsoft.com/ko-KR/windows/deployment/update/waas-deployment-rings-windows-10-updates)을 만들 수 있도록 지원합니다. 이 기능은 WSUS(Windows Server Update Services), System Center Configuration Manager(현재 분기) 및 Microsoft Intune 등과 같은 기존 관리 도구에 통합됩니다. 또한 비즈니스용 Windows 업데이트는 대역폭 효율성을 최적화하고 네트워크 정체를 줄이는 데 도움이 되는 피어 투 피어 배달을 지원합니다.
+
+비즈니스용 Windows 업데이트에 대한 자세한 내용을 다음 설명서를 참조하세요.
+
+- [비즈니스용 Windows 업데이트를 사용하여 업데이트 배포](https://docs.microsoft.com/ko-KR/windows/deployment/update/waas-manage-updates-wufb)
+- [비즈니스용 Windows 업데이트 구성](https://docs.microsoft.com/ko-KR/windows/deployment/update/waas-configure-wufb)
+- [비즈니스용 Windows 업데이트를 기존 관리 도구에 통합](https://docs.microsoft.com/ko-KR/windows/deployment/update/waas-integrate-wufb)
+- [그룹 정책을 사용하여 비즈니스용 Windows 업데이트 구성](https://docs.microsoft.com/ko-KR/windows/deployment/update/waas-wufb-group-policy)
+- [Microsoft Intune을 사용하여 비즈니스용 Windows 업데이트 구성](https://docs.microsoft.com/ko-KR/intune/windows-update-for-business-configure)
+
 ## <a name="next-step"></a>다음 단계 
 
-## <a name="step-7-windows-and-office-as-a-servicehttpsakamsmdd7"></a>[7단계: Windows 및 Office as a Service](https://aka.ms/mdd7)
+## <a name="step-7-windows-and-office-servicinghttpsakamsmdd7"></a>[7단계: Windows 및 Office Servicing](https://aka.ms/mdd7)
 
 ## <a name="previous-step"></a>이전 단계
 

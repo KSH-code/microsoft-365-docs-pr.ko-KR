@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 사용자의 파일 및 설정을 마이그레이션하는 방법을 알아봅니다.
-ms.openlocfilehash: cb5d670d06b284bb9191447ce461835728223f27
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 99cc252181627d5f0cf07fdf46f63b3ba526e20a
+ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32291746"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33400122"
 ---
 # <a name="step-4-user-files-and-settings-migration"></a>4단계: 사용자 파일 및 설정
 

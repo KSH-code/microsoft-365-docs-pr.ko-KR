@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 Enterprise에 대한 SharePoint 비즈니스용 OneDrive 배포
+title: Microsoft 365 Enterprise에 대한 SharePoint Online 및 비즈니스용 OneDrive 배포
 author: JoeDavies-MSFT
 manager: laurawi
 ms.date: 09/19/2018
@@ -8,19 +8,20 @@ ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
 ms.collection:
-- Ent_O365
+- M365-collaboration
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 조직 전체에서 Microsoft 365 Enterprise의 SharePoint Online을 계획 및 롤아웃하고 가치를 창출하는 프로세스를 안내합니다.
-ms.openlocfilehash: 7a9fc1733c64b3f639d2de0b5b64e20df60e04a9
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: 30fe3a971a869a4609d6b8ef2809692b4d4e5420
+ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26869735"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33400182"
 ---
-# <a name="deploy-sharepoint-online-for-microsoft-365-enterprise"></a>Microsoft 365 Enterprise에 대한 SharePoint OneDrive 배포
+# <a name="deploy-sharepoint-online-and-onedrive-for-business-for-microsoft-365-enterprise"></a>Microsoft 365 Enterprise에 대한 SharePoint Online 및 비즈니스용 OneDrive 배포
 
+*이 작업은 Microsoft 365 Enterprise E3 및 E5 버전에 모두 포함됩니다.*
 
 SharePoint Online 및 Microsoft Teams는 사용자가 파일 저장 및 공유, 콘텐츠 관리, 공동 작업을 수행하는 방식이며, Microsoft 365 Enterprise가 제공하는 팀 작업을 위한 Office 제품의 핵심 요소입니다. 
 
@@ -28,11 +29,9 @@ SharePoint Online 및 Microsoft Teams는 사용자가 파일 저장 및 공유, 
 
 SharePoint Online을 완전히 처음 사용하는 경우 [SharePoint Online](https://products.office.com/sharepoint/sharepoint-online-collaboration-software) 및 [SharePoint 시작](https://support.office.com/article/Get-started-with-SharePoint-3a26444b-08c5-46ad-b80a-cda82b11b27b#ID0EAABAAA=Basics)을 참조하세요.
 
-다음 단계에서는 조직에서 SharePoint Online의 역할을 구상하고, 일련의 점진적 롤아웃을 통해 조직을 온보딩하며, 사용 가치를 최종 사용자에게 전달하는 프로세스를 안내합니다. 이러한 배포 지침은 [기본 인프라](deploy-foundation-infrastructure.md)를 완료한 후에만 따라야 합니다. 
+다음 단계에서는 조직에서 SharePoint Online 역할을 구상하고, 일련의 점진적 롤아웃을 통해 조직을 온보딩하며, 사용 가치를 최종 사용자에게 전달하는 프로세스를 안내합니다. 시작하기 전에 SharePoint Online 사이트에서 필요한 보안 기능을 갖출 수 있도록 적절한 [기초 인프라](deploy-foundation-infrastructure.md) 단계를 구성했는지 확인합니다. 
 
->[!Note]
->Microsoft 365 Enterprise를 위한 비즈니스용 OneDrive를 배포하려면 [기업용 OneDrive 가이드](https://docs.microsoft.com/onedrive/plan-onedrive-enterprise)를 참조하세요.
->
+Microsoft 365 Enterprise를 위한 비즈니스용 OneDrive를 배포하려면 [기업용 OneDrive 가이드](https://docs.microsoft.com/onedrive/plan-onedrive-enterprise)를 참조하세요.
 
 ## <a name="phase-1-envision"></a>1단계: 구상
 이 단계에서는 SharePoint Online 배포를 수행할 사용자를 모집하고 조직이 어떤 방식으로 이러한 제품을 사용하여 비즈니스 요구를 해결할지를 결정합니다.

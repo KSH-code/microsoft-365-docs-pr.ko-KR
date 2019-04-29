@@ -14,11 +14,11 @@ ms.collection:
 ms.custom: ''
 description: 구성이 네트워킹 인프라에 대한 Microsoft 365 Enterprise 조건을 충족하는지 확인합니다.
 ms.openlocfilehash: 9ea601d66ef2df0d7a4efde188a70c51e3fb9f60
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32291370"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33400222"
 ---
 # <a name="phase-1-networking-infrastructure-exit-criteria"></a>1단계: 네트워킹 인프라 종료 조건
 

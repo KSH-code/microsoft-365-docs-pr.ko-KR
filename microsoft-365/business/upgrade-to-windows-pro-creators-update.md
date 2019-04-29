@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 ms.assetid: ffc4d886-9e1d-453d-a0d0-2f62f18635e2
 description: 'windows 장치를 windows 10 Pro 크리에이터 업데이트로 업그레이드 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: ec1ef0462cc1ba1cd1ae01ee28795096097e01a9
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 13a964b19b1fbd43e9c255a90161ca6b48099305
+ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32279868"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33399977"
 ---
 # <a name="upgrade-windows-devices-to-windows-pro-creators-update"></a>Windows Pro 크리에이터 업데이트로 Windows 장치 업그레이드
 
@@ -37,6 +37,9 @@ ms.locfileid: "32279868"
      - [미디어 생성 도구](https://go.microsoft.com/fwlink/?LinkID=836960) 를 사용 하 여 설치 미디어 만들기-windows 10 Pro 크리에이터 업데이트 설치 미디어 (USB 플래시 드라이브 또는 ISO 파일)를 만들어 사용 중인 PC와 다른 컴퓨터에 windows 10을 설치 하려면이 옵션을 선택 합니다.
     
         위한. 도구를 사용 하는 방법에 대 한 지침을 읽고 설치 미디어를 만드는 방법을 설명 합니다. 
+
+> [!Note]
+> windows 장치를 실행 하는 windows 7 pro, windows 8 pro 또는 Windows 8.1 pro가 있는 경우 Microsoft 365 Business subscription을 사용 하 여 windows 10 업그레이드를 통해 제품 키가 필요 하지 않습니다.
     
 windows 10 장치 설정을 완료 하려면 [Microsoft 365 비즈니스 사용자를 위해 windows 장치](set-up-windows-devices.md) 설치를 참조 하세요. 
   

@@ -12,12 +12,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 조직 전체에서 Microsoft 365 Enterprise의 Microsoft Teams를 계획 및 롤아웃하고 가치를 창출하는 프로세스를 안내합니다.
-ms.openlocfilehash: 646062babf525be176386264b4ef3c4a3a21647a
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: bfc9e76211779aa960ff7633dd7d59b2b01e9f98
+ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32291662"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33400212"
 ---
 # <a name="deploy-microsoft-teams-for-microsoft-365-enterprise"></a>Microsoft 365 Enterprise용 Microsoft Teams 배포
 
@@ -45,7 +45,7 @@ Microsoft 365 [기본 인프라](deploy-foundation-infrastructure.md)에 Teams�
 조직의 비즈니스, 기술 및 최종 사용자 측면을 대표하는 구성원 목록을 얻을 수 있습니다.
 
 ### <a name="step-2-determine-and-prioritize-your-teams-business-scenarios"></a>2단계: Teams 비즈니스 시나리오 확인 및 우선 순위 지정
-여러 가지 목적으로 Teams를 사용할 수 있습니다. 비즈니스 그룹, 부서, 개별 작업 및 프로젝트 팀 등 조직의 개별 수준에서 비즈니스 요구 사항에 매핑할 항목을 파악해야 합니다. Teams 시나리오를 정의하는 데 유용한 예는 [Microsoft 365 생산성 라이브러리](https://www.microsoft.com/en-us/microsoft-365/success/?rtc=1)를 참조하세요. 
+여러 가지 목적으로 Teams를 사용할 수 있습니다. 비즈니스 그룹, 부서, 개별 작업 및 프로젝트 팀 등 조직의 개별 수준에서 비즈니스 요구 사항에 매핑할 항목을 파악해야 합니다. Teams 시나리오를 정의하는 데 유용한 예는 [Microsoft 365 생산성 라이브러리](https://www.microsoft.com/microsoft-365/success/?rtc=1)를 참조하세요. 
 
 빠르게 움직이고 고도의 공동 작업을 수행하면서 밀접하게 협력하고 Exchange Online에서 제공할 수 있는 전자 메일보다 훨씬 다양한 기능을 필요로 하는 팀의 요구를 충족하는 데 Teams를 사용해야 합니다. 예를 들어 녹음된 기록을 사용하는 실시간 그룹 채팅 및 파일 및 메모를 저장할 수 있는 일반적이고 찾기 쉬운 위치 등을 제공해야 합니다. 
 

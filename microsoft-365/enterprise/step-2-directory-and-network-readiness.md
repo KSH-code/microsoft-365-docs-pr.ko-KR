@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 환경에서 디렉터리 및 네트워크 준비 상태를 평가하는 방법을 알아봅니다.
-ms.openlocfilehash: e690e99110e647ffc06c9ff7d40b789d8670e571
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: cc3dcc1dd9c2e8d9c79f52de76b116ef7f9dffac
+ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26869738"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33400172"
 ---
 # <a name="step-2-directory-and-network-readiness"></a>2단계: 디렉터리 및 네트워크 준비
 
@@ -36,7 +36,7 @@ ms.locfileid: "26869738"
 </table>
 
 >[!NOTE]
->디렉터리 및 네트워크 준비는 Azure Active Directory를 중심으로 네트워크를 최적화하기 위한 권장 배포 프로세스 사이클의 두 번째 단계입니다. 전체 데스크톱 배포 프로세스를 보려면 [최신 데스크톱 배포 센터](https://aka.ms/HowToShift)를 방문하세요.
+>디렉터리 및 네트워크 준비는 Azure Active Directory를 중심으로 네트워크를 최적화하기 위한 권장 배포 프로세스 사이클의 두 번째 단계입니다. 전체 데스크톱 배포 프로세스를 보려면 [데스크톱 배포 센터](https://aka.ms/HowToShift)를 방문하세요.
 >
 
 디렉터리 및 네트워크 준비는 원활한 OS 및 데스크톱 배포를 위한 기본 과정입니다. 자동화된 배포와 마찬가지로, 파일 공유에 연결할 수 있어야 하고, 네트워크는 대용량 파일을 한 번에 수백 대 또는 수천 대의 PC로 전송하도록 지원할 수 있어야 합니다.
@@ -47,25 +47,25 @@ Windows 10 및 Office 365 ProPlus로의 전환을 수행할 경우 클라우드 
 
 ## <a name="adding-azure-active-directory"></a>Azure Active Directory 추가
 
-조직에서 Office 365, Exchange Online, Microsoft Intune 또는 기타 Microsoft Online 서비스를 이미 사용하고 있는 경우 Azure Active Directory도 이미 사용하고 있다는 이점이 있습니다. 그렇다면 데스크톱 배포의 대상으로 지정하는 사용자가 Azure Active Directory에 포함되어 있으며 해당 라이선스가 이미 할당되어 있는지만 확인하면 됩니다.
+조직이 이미 Office 365, Exchange Online, Microsoft Intune 또는 기타 Microsoft Online 서비스를 사용하는 경우 사용자가 Azure Active Directory를 사용하고 있다면 매우 유용할 수 있습니다. 이 기능을 사용하고 있으면 데스크톱 배포의 대상 사용자가 Azure Active Directory에 있고 라이선스가 할당되어 있는지만 확인하면 됩니다.
 
-현재 Azure Active Directory를 사용하고 있지 않으면 설정하는 데 도움이 되는 [다양한 리소스](https://docs.microsoft.com/ko-KR/azure/active-directory/)가 있습니다. Office 365 라이선스의 일부로 제공되는 Microsoft FastTrack을 통해 개인별 지원을 받을 수 있습니다. Microsoft Fastrack에 대한 자세한 내용은 [여기](https://fasttrack.microsoft.com)에서 확인할 수 있습니다.
+현재 Azure Active Directory를 사용하고 있지 않으면 [다양한 리소스](https://docs.microsoft.com/ko-KR/azure/active-directory/)의 도움을 받아 설정할 수 있습니다. 또한 Office 365 라이선스의 일부로 제공되는 Microsoft FastTrack을 통해 맞춤형 지원을 받을 수 있습니다. [여기](https://fasttrack.microsoft.com)에서 Microsoft Fastrack에 대한 자세한 내용을 알아볼 수 있습니다.
 
 Azure Active Directory가 준비되면 사용자는 Office 365 ProPlus 앱에 로그인한 후 정품 인증을 수행할 수 있으며, 앱 및 정책의 자동 배포에 Microsoft Intune 또는 Windows Autopilot을 사용할 수 있습니다.
 
 ## <a name="network-readiness"></a>네트워크 준비
 
-배포를 계획할 때 대역폭 요구 사항을 고려해야 합니다. 네트워크에 영향을 미치는 배포의 세 가지 주요 구성 요소는 PC 이미징, 소프트웨어 업데이트 및 사용자 개인 설정입니다. 이러한 요인으로 인해 초기 마이그레이션 시 PC당 20GB가 초과되고, 최신 상태 유지를 위해 PC당 매월 1GB 이상이 필요합니다.
+배포를 계획할 때 대역폭 요구 사항을 고려해야 합니다. 배포에는 네트워크 - PC 이미징, 소프트웨어 업데이트 및 사용자 개인 설정에 영향을 주는 세 가지 기본 구성 요소가 있습니다. 초기 마이그레이션의 경우 PC당 20GB를 초과하게 되지만, 최신 상태를 유지하기 위해서는 PC당 매월 1GB 정도 이상이 필요합니다.
 
 먼저 이러한 세 가지 주요 구성 요소 각각에 대한 요구 사항을 살펴보겠습니다.
 
 ### <a name="pc-imaging"></a>PC 이미징
 
-아래의 차트는 이미지 크기를 고려해서 계획을 세우도록 도와줍니다. 사용자 지정이 없는 Windows 이미지의 경우, 일반적으로 PC당 3GB를 계획해야 하지만, 앱을 포함하는 사용자 지정된 이미지의 경우에는 6GB 이상을 허용해야 할 수 있습니다. 또한 드라이버 패키지도 고려해야 할 수 있습니다. 이러한 패키지는 PC당 수백 메가바이트를 차지할 수 있으며 1GB에 달하는 경우도 종종 발생합니다.
+사용자 지정하지 않은 Windows 이미지의 경우, PC당 3GB를 계획해야 하지만, 앱을 포함하는 사용자 지정한 이미지의 경우에는 6GB 이상을 허용해야 할 수 있습니다. 드라이버 패키지도 고려해야 할 수 있습니다. 이 패키지는 PC당 수백 메가바이트 정도가 되며 최대 1GB일 수 있습니다.
 
 ### <a name="software-updates"></a>소프트웨어 업데이트
 
-소프트웨어 업데이트에 대한 네트워크 대역폭을 계획해야 합니다. Windows 10 및 Office 365 ProPlus는 새로운 서비스 모델을 사용하여 매월 및 연 2회의 업데이트를 제공합니다. 이 모델을 처음 접하는 경우에는 [여기](https://docs.microsoft.com/ko-KR/windows/deployment/update/waas-overview)에서 작동 방식에 대해 자세히 알아볼 수 있습니다.
+소프트웨어 업데이트를 위해 네트워크 대역폭을 계획해야 합니다. Windows 10 및 Office 365 ProPlus는 월별 및 반기 업데이트를 제공하는 새로운 서비스 모델을 사용합니다. 이 모델을 처음 접하는 경우 [여기](https://docs.microsoft.com/ko-KR/windows/deployment/update/waas-overview)에서 작동 방식을 자세히 알아볼 수 있습니다.
 
 새로운 서비스 모델에는 1년에 2번 Windows용 기능 업데이트, Office 반기 채널 업데이트 및 월별 품질 업데이트가 포함되어 있습니다. 기능 업데이트는 크기가 일반적으로 2-4GB이고, Office 반기 채널 업데이트는 업데이트당 300-400MB입니다. 그다음에는 월별 품질 업데이트가 있습니다. 이러한 업데이트 크기는 수백 메가바이트에서 1기가바이트 이상까지 다양합니다. 이러한 다양한 크기는 월별 업데이트가 누적되기 때문이며, 각 Windows 10 버전의 서비스 수명 주기 동안 크기가 커지게 됩니다. 따라서 업데이트를 구현하기 위해 네트워크를 통과해야 하는 데이터 양을 줄이는 데 도움이 되는 도구들이 있습니다. 아래에 이러한 도구에 대한 자세한 설명이 나와 있습니다.
 
@@ -103,29 +103,29 @@ Windows Server 2019 및 System Center Configuration Manager 버전 1806에서 �
 
 **BranchCache**는 네트워크를 포화 상태로 만들지 않고 분산 환경에서 콘텐츠를 다운로드하는 데 도움이 됩니다. 이 기능은 두 가지 옵션으로 제공됩니다. 하나는 로컬 서버를 사용하여 콘텐츠를 캐시할 수 있는 호스트 캐시 모드이고, 다른 하나는 클라이언트가 이미 다운로드한 코텐츠를 서로 공유할 수 있도록 하는 분산 캐시 모드(System Center Configuration Manager에서 지원되는 모드)입니다.
 
-System Center Configuration Manager에서 지원되는 **피어 캐시** 클라이언트도 피어 캐시를 사용할 수 있습니다. 이 기능은 네트워크에서 안정적으로 사용할 수 있는 PC가 콘텐츠 분산을 위해 원본을 호스트할 수 있도록 합니다. 모든 PC를 이렇게 사용하고 싶지는 않을 것입니다. 따라서 안정적인 네트워크 연결이 있는 PC만 호스트로 타기팅할 수 있습니다(예: 데스크톱, 미니 타워 또는 타워 PC). 피어 캐시는 설치 중에 WIndows PE 단계에서 실행되는 배포 작업에도 사용될 수 있습니다.
+System Center Configuration Manager에서 지원되는 **피어 캐시** 클라이언트 또한 피어 캐시를 활용할 수 있습니다. 이 기능을 통해 네트워크에서 안정적으로 사용할 수 있는 PC가 콘텐츠 배포를 위해 소스를 호스트할 수 있습니다. 이 기능을 모든 PC에서 사용하도록 설정하지 않고, 안정적인 네트워크 연결이 있는 디바이스만 호스트로 지정할 수 있습니다(예: 데스크톱, 미니 타워 또는 타워형 PC). 피어 캐시는 설치 동안 Windows PE 단계에서 실행되는 배포 작업에도 적절할 수 있습니다.
 
 참고: BranchCache 및 피어 캐시는 보조 기능이며 동일한 환경에서 함께 사용할 수 있습니다.
 
 [BranchCache 및 피어 캐시](https://blogs.technet.microsoft.com/swisspfe/2018/01/25/branch-cache-vs-peer-cache/)
 
-**배달 최적화** 배달 최적화는 다른 피어 투 피어 캐싱 기술로, Windows 배포를 위한 네트워크 기반 컨트롤을 제공합니다. 기본 제공 UWP 앱을 업데이트하기 위한 Windows 10 배달 최적화는 Microsoft Store에서 응용 프로그램을 설치하며, 소프트웨어 업데이트의 경우에는 빠른 업데이트를 사용합니다. Windows 10의 초기 버전부터 사용 가능했지만 최근에 들어서야 System Center Configuration Manager에 통합되었습니다. Windows 10 버전 1803부터, 새 구성 옵션을 사용하면 백그라운드 업데이트 및 포그라운드 작업(예: 스토어에서 앱 설치)에 대한 대역폭 제한을 따로 설정할 수 있습니다.
+**배달 최적화** 배달 최적화는 다른 피어 투 피어 캐싱 기술로, 배포를 위한 네트워크 기반 컨트롤을 제공합니다. 기본 제공 UWP 앱을 업데이트하고, Microsoft Store에서 애플리케이션을 설치하고, Express 업데이트를 사용한 소프트웨어 업데이트를 위한 Windows 10 배달 최적화. 이 기능은 최근에 이르러서야 System Center Configuration Manager와 통합되었지만 초기 버전의 Windows 10 이후부터 사용할 수 있었습니다. Windows 10 버전 1803의 새 구성 옵션부터, Store에서의 앱 설치와 같은 백그라운드 업데이트 및 포그라운드 작업을 위해 대역폭 제한을 별도로 설정할 수 있습니다. 이제 Windows 배달 최적화는 지원되는 모든 Office 365 클라이언트 업데이트 채널에서 사용할 수 있는 클라이언트 업데이트 동안 Office 365 ProPlus도 지원합니다. Office 365 클라이언트 초기 설치 동안의 Windows 배달 최적화 지원도 곧 제공될 예정입니다.  
 
 ![](media/step-2-directory-and-network-readiness-media/step-2-directory-and-network-readiness-media-5.png)
 
 **Office 365 ProPlus에 대한 추가 고려 사항**
 
-다음은 Office 365 ProPlus 배포로 인한 네트워크 부하를 줄여주는 3가지 항목입니다.
+배달 최적화 지원 외에, Office 365 ProPlus 배포로 인한 네트워크 부하를 줄이는 데 도움이 되는 3가지 항목은 다음과 같습니다.
 
 **이진 델타 압축** Office 365 ProPlus는 Office 365 ProPlus의 최신 릴리스에서 다음 릴리스로 업데이트할 때 소프트웨어 업데이트가 사용하는 대역폭을 줄이기 위해 이진 델타 압축을 사용합니다. 이전 릴리스에서 이진 수준 변경 내용만 가져오므로 누적 업데이트의 월별 증가에 따른 영향이 최소화됩니다. 이로 인해 매월 PC 1대당 수백 메가바이트의 데이터가 감소될 수 있습니다. 그렇지만 이러한 기능을 사용하기 위해서는 릴리스를 건너뛰면 안 됩니다. 릴리스를 건너뛰게 되면 전체 누적 업데이트를 다운로드해야 합니다.
 
 [Office 365용 업데이트 다운로드](https://docs.microsoft.com/ko-KR/deployoffice/overview-of-the-update-process-for-office-365-proplus#download-the-updates-for-office-365-proplus)
 
-**Outlook 데이터 파일** Outlook은 종종 오프라인 사용을 위해 사용자의 전체 사서함을 로컬로 캐시하도록 구성됩니다. 현재 위치 업그레이드를 제외한 모든 Windows 배포에서, 업그레이드 후에 사용자의 Outlook 데이터 파일이 자체적으로 재작성되어야 합니다. 이러한 작업은 자동화된 프로세스이지만, Outlook 사서함 제한이 일반적으로 최대 100GB로 설정되므로 모든 사용자를 위해 전체 사서함을 로컬로 다시 캐시하면 방대한 데이터 전송이 발생합니다. 네트워크 부하를 줄이기 위해서는 그룹 정책을 사용하여 "오프라인으로 유지할 메일” 설정을 줄이는 것을 고려할 수 있습니다. Office 365 ProPlus의 Outlook 또는 Outlook 2016에서는 기본값이 12개월로 설정됩니다. 오프라인 캐시가 1~6개월 동안 지속되도록 설정하는 것이 좋습니다. 이 설정을 변경해도 온라인 사서함 크기에는 영향을 미치지 않으며 온라인 상태에서 여전히 Outlook을 통해 전체 사서함을 검색할 수 있습니다.
+**Outlook 데이터 파일**: 오프라인 사용을 위해 사용자의 전체 사서함을 로컬로 캐시하도록 Outlook을 구성하는 경우가 많습니다. 현재 위치 업그레이드를 제외하고 모든 Windows 배포에서 사용자의 Outlook 데이터 파일은 업그레이드 후에 자체적으로 다시 작성되어야 합니다. 이것은 자동화된 프로세스이지만, 일반적으로 Outlook 사서함 제한을 최대 100GB로 설정한 상태에서 모든 사용자에 대해 로컬로 전체 사서함을 다시 캐시하면 많은 데이터가 전송됩니다. 네트워크 부하를 줄이기 위해 그룹 정책을 사용하여 "오프라인으로 유지할 메일" 설정을 줄이는 것이 바람직할 수 있습니다. Office 365 ProPlus 또는 Office 2016에서 Outlook의 기본값은 12개월로 설정됩니다. 네트워크에 미치는 영향을 줄이려면 오프라인 캐시를 1~6개월 정도 유지하도록 설정하는 것이 좋습니다. 이 설정을 변경해도 온라인 사서함의 크기에는 영향을 주지 않으며, 온라인 상태에서 Outlook을 통해 전체 사서함을 계속 검색할 수 있습니다.
 
 ![](media/step-2-directory-and-network-readiness-media/step-2-directory-and-network-readiness-media-6.png)
 
-**및 알려진 폴더 이동** OneDrive는 클라우드의 PC 및 기타 장치에서 사용자 파일을 동기화하고 보호하는 유용한 방법입니다. 알려진 폴더 이동을 사용하면 사용자의 바탕 화면, 문서 및 그림 폴더에서 OneDrive로 파일 동기화가 적용되어, 새 장치 또는 이미지로 다시 설치한 PC에 로그인할 때 해당 파일을 사용할 수 있게 됩니다. 그렇지만 바탕 화면, 문서 및 그림 폴더에 유지되는 파일의 순수한 크기 및 개수 때문에, PC에서 Onedrive를 사용하도록 설정하고 적용하는 정책 롤아웃을 잘 계획하려고 할 것입니다. 한 가지 옵션은 그룹 정책 네트워크 컨트롤을 사용하여 OneDrive 동기화 서비스에서 사용되는 대역폭을 제한하는 것입니다.
+**요청 시 OneDrive 파일 및 알려진 폴더 이동** OneDrive는 PC 및 클라우드의 다른 디바이스에 있는 사용자 파일을 동기화하고 보호하는 유용한 방법입니다. 알려진 폴더 이동 기능을 사용하면 사용자의 바탕 화면, 문서 및 그림 폴더에서 OneDrive로 파일을 동기화하여 새 디바이스나 이미지로 다시 설치한 PC에 로그인할 때 해당 파일을 사용하도록 할 수 있습니다. 바탕 화면, 문서 및 그림 위치에 보관된 파일의 순수한 크기 및 개수 때문에, PC에서 OneDrive를 사용하고 적용하는 정책을 롤아웃하여 보다 계획적으로 작업하려고 할 수 있습니다. 한 가지 옵션은 그룹 정책 네트워크 컨트롤을 사용하여 OneDrive 동기화 서비스에서 사용되는 대역폭을 제한하는 것입니다.
 
 ![](media/step-2-directory-and-network-readiness-media/step-2-directory-and-network-readiness-media-7.png)
 
@@ -133,7 +133,7 @@ System Center Configuration Manager에서 지원되는 **피어 캐시** 클라�
 
 [OneDrive Files on Demand](https://www.microsoft.com/ko-KR/microsoft-365/blog/2017/05/11/introducing-onedrive-files-on-demand-and-additional-features-making-it-easier-to-access-and-share-files/)
 
-OneDrive를 아직 롤아웃하지 않은 경우 Windows 7에서 Windows 10으로의 전환은 OneDrive를 사용할 수 있는 완벽한 기회가 되며, Office 365 ProPlus도 원활하게 통합됩니다. 앱 및 장치 준비를 진행하면서 이러한 롤아웃을 시작하는 것이 좋습니다. 이렇게 하면 네트워크를 통해 Windows 이미지를 이동하고 앱 배포를 시작하기 전에 먼저 파일이 동기화됩니다.
+OneDrive를 아직 롤아웃하지 않은 경우 Windows 7에서 Windows 10으로 전환하는 것은 OneDrive를 사용하고 Office 365 ProPlus를 원활하게 통합할 수 있는 완벽한 기회가 될 수 있습니다. 앱 및 디바이스 준비를 진행하면서 이러한 롤아웃을 시작하는 것이 좋습니다. 이렇게 하면 Windows 이미지를 이동하고 네트워크를 통해 앱을 배포하기 전에 파일 동기화를 먼저 시작할 수 있습니다.
 
 ## <a name="next-step"></a>다음 단계 
 

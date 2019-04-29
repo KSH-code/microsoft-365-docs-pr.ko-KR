@@ -17,11 +17,11 @@ ms.custom:
 ms.assetid: ''
 description: '요약: Microsoft 365 테스트 환경을 위한 통과 인증을 구성합니다.'
 ms.openlocfilehash: e925f0b48194c94993e7bf3e08f1f18650b19a23
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32290947"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33400112"
 ---
 # <a name="pass-through-authentication-for-your-microsoft-365-test-environment"></a>Microsoft 365 테스트 환경을 위한 통과 인증
 

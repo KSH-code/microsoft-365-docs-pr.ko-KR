@@ -1,5 +1,5 @@
 ---
-title: '7단계: Windows 및 Office as a Service'
+title: 7단계 - Windows 및 Office Servicing
 ms.author: jogruszc
 author: JGruszczyk
 manager: jemed
@@ -12,40 +12,38 @@ ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 ms.custom: ''
-description: 사용자 환경에서 Windows 및 Office as a Service를 준비하는 방법을 알아봅니다.
-ms.openlocfilehash: 5c3eb54e07b1cc5492a6d938e97286283fc47ca7
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+description: 사용자 환경에서 Windows 및 Office Servicing을 준비하는 방법을 알아봅니다.
+ms.openlocfilehash: 68598f92b5b29f1c0bc20ecb402b60b45128ca6a
+ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26870113"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33400252"
 ---
-# <a name="step-7-windows-and-office-as-a-service"></a>7단계: Windows 및 Office as a Service
-
-System Center Configuration Manager 현재 분기의 관리 도구 업데이트와 함께 Windows 10 및 Office 365 ProPlus의 새 기능을 포함하는 반기 채널 업데이트를 준비합니다.
+# <a name="step-7-windows-and-office-servicing"></a>7단계: Windows 및 Office Servicing
 
 ![](media/step-7-windows-and-office-as-a-service-media/step-7-windows-and-office-as-a-service-media-1.png)
 
 <table>
 <thead>
 <td><img src="media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-10.png" alt="Step 7" height="144" width="144" /></td>
-<td><p><strong>7단계: Windows 및 Office as a Service 준비</strong></p>
+<td><p><strong>7단계: Windows 및 Office Servicing</strong></p>
 <p>Windows 10 및 Office 365 ProPlus는 사용자 환경 및 보안을 최신 혁신 상태로 유지하기 위해 지속적으로 새 기능을 추가하고 있습니다. 반기 및 월별 업데이트를 통해 최신 상태를 유지하는 방법, 새 서비스 모델이 작동하는 방식 및 보유하고 있는 도구와 옵션에 대해 알아봅니다.</p></td>
 <td><a href="https://aka.ms/ddev7" target="_blank"><img src="media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-20.png" alt="Step 7" height="130" width="231" /></a></td>
 </thead>
 </table>
 
 >[!NOTE]
->Windows 및 Office as a Service는 기능에 대한 반기 업데이트를 준비하는 계획 과정을 포함하는 권장 배포 프로세스 사이클의 7번째 단계입니다. 전체 데스크톱 배포 프로세스를 보려면 [최신 데스크톱 배포 센터](https://aka.ms/HowToShift)를 방문하세요.
+>Windows 및 Office as a Service는 기능에 대한 반기 업데이트를 준비하는 계획 과정을 포함하는 권장 배포 프로세스 사이클의 7번째 단계입니다. 전체 데스크톱 배포 프로세스를 보려면 [데스크톱 배포 센터](https://aka.ms/HowToShift)를 방문하세요.
 >
 
-Windows 10 및 Office 365 ProPlus 둘 다 새 서비스 옵션, 지원 모델 및 업데이트 타임라인을 도입합니다. 이러한 변화를 통해 최신 기능을 최신 상태로 유지하는 프로세스가 간소화됩니다. 이러한 업데이트와 함께, 사용자 요구를 충족하는 서비스 계획을 지원하는 새로운 구성 옵션도 제공됩니다.
+Windows 10 및 Office 365 ProPlus 둘 다 새로운 서비스 옵션, 지원 모델 및 업데이트 타임라인을 도입합니다. 이러한 변화를 통해 보다 간편하게 항상 최신 기능 상태를 유지할 수 있습니다. 이러한 업데이트와 함께, 사용자 요구를 충족하는 서비스 계획을 설정할 수 있는 새로운 구성 옵션도 제공됩니다. System Center Configuration Manager 현재 분기의 새 기능을 활용하면서 Windows 10 및 Office 365 ProPlus의 새 기능을 제공하는 반기 채널 업데이트를 준비하는 방법을 알아봅니다.
 
-[고객의 최신 데스크톱으로의 전환 지원](https://www.microsoft.com/ko-KR/microsoft-365/blog/2018/09/06/helping-customers-shift-to-a-modern-desktop/)
+[Windows 10 및 Office 365 ProPlus로의 고객 전환 진원](https://www.microsoft.com/ko-KR/microsoft-365/blog/2018/09/06/helping-customers-shift-to-a-modern-desktop/)
 
 ## <a name="update-types"></a>업데이트 유형
 
-업데이트는 두 가지 주요 범주, 즉 기능 업데이트와 누적 보안, 안정성 및 버그 픽스를 포함하는 보안 업데이트로 구분됩니다. 케이던스 측면에서, Windows와 Office는 둘 다 매년 2번, 3월 및 9월 경에 새 기능을 전달하는 반기 채널을 전달하며, 품질 및 보안 업데이트는 매월 진행됩니다. 또한 Office 365 앱의 경우에만 완전히 지원되며 새 기능과 품질 업데이트를 둘 다 포함하는 월별 채널 업데이트를 전달합니다.
+업데이트는 두 가지 주요 범주인 기능 업데이트와 누적 보안, 안정성, 버그 수정을 포함하는 품질 및 보안 업데이트로 진행됩니다. 업데이트 주기는 Windows와 Office 둘 다 3월과 9월 경에 연 2회 새 기능을 제공하는 반기 채널을 따르지만, 품질 및 보안 업데이트는 매월 제공됩니다. 또한 Office 365 애플리케이션의 경우에만 업데이트에 새 기능과 품질 업데이트를 둘 다 포함하는 완전 지원형 월별 채널 옵션을 제공하고 있습니다.
 
 데스크톱 OS 및 앱 업데이트 사이의 주기가 더 긴 경우 다음과 같은 의문이 생길 수 있습니다.
 
@@ -71,11 +69,9 @@ Windows 10 및 Office 365 ProPlus 둘 다 새 서비스 옵션, 지원 모델 �
 
 누적 모델을 사용하는 경우 최신 업데이트보다 항상 1 이전 버전을 사용하게 되며, 이를 통해 배포해야 하는 월별 업데이트 수는 줄어듭니다. 각 업데이트는 이전 달의 업데이트 위에 구축되며, 최신 상태로 유지해야 하는 모든 픽스를 포함합니다. 누적 업데이트는 다른 사용자에게 다시 할당되기 위해 저장소에서 대기해야 하므로 PC를 몇 달 동안 꺼둔 경우에 특히 도움이 됩니다.
 
-[Windows as a Service 개요](https://docs.microsoft.com/ko-KR/windows/deployment/update/waas-overview)
-
 ### <a name="expanded-validation-of-updates"></a>확장된 업데이트 유효성 검사
 
-또 다른 장점은 브로드 배포를 위해 업데이트를 롤아웃하기 전에 먼저 [Office](https://products.office.com/en-us/office-insider?tab=Windows-Desktop) 및 [Windows](https://insider.windows.com/ko-KR/)의 참가자 프로그램을 통해 빌드를 릴리스하게 되며, 이를 통해 업데이트를 광범위하게 릴리스하기 전에 원격 분석 및 피드백을 수집할 수 있습니다. 참가자 프로그램은 현재, 누구에게나 열려 있으므로 업데이트를 먼저 알아볼 수 있는 기회가 됩니다. 업데이트를 출시한 다음, 수백만 가지 구성에 대한 원격 분석이 수신되므로, 업데이트를 롤아웃할 때 좀 더 예측 가능한 품질이 구현됩니다.
+또 다른 장점은 광범위한 배포를 위해 업데이트를 롤아웃하기 전에 먼저 [Office](https://products.office.com/en-us/office-insider?tab=Windows-Desktop) 및 [Windows](https://insider.windows.com/ko-KR/)용 참가자 프로그램을 통해 빌드를 릴리스한다는 것입니다. 이를 통해 업데이트를 광범위하게 릴리스하기 전에 진단 데이터 및 사용자 의견을 수집할 수 있습니다. 이제 참가자 프로그램은 모든 사용자에게 열려 있으므로 사용자들은 업데이트를 먼저 이해할 수 있습니다. 업데이트를 릴리스할 때 수백만 가지 구성의 진단 데이터를 받아 보게 되므로 업데이트를 롤아웃할 때는 보다 안정적인 품질 수준에 도달할 수 있게 됩니다.
 
 아울러, Office 365 ProPlus 참가자 빌드는 월별 채널 업데이트를 반영하기 때문에 Office의 반기 채널을 사용하여 Windows에 맞춰 1년에 2번 기능 업데이트를 전달할 경우, 반기 채널 대상 릴리스를 사용할 때처럼 해당 빌드도 조기에 유효성을 검사할 수 있습니다.
 
@@ -86,6 +82,26 @@ Windows 10 및 Office 365 ProPlus 둘 다 새 서비스 옵션, 지원 모델 �
 [System Center Configuration Manager를 사용하여 Windows 10 업데이트 배포](https://docs.microsoft.com/ko-KR/windows/deployment/update/waas-manage-updates-configuration-manager)
 
 [Configuration Manager를 사용하여 Office 365 ProPlus 관리](https://docs.microsoft.com/ko-KR/sccm/sum/deploy-use/manage-office-365-proplus-updates)
+
+## <a name="overview-of-windows-and-office-channels"></a>Windows 및 Office 채널 개요
+
+Windows 10은 다음의 3가지 서비스 채널을 제공합니다.
+
+- [**Windows 참가자 프로그램**](https://docs.microsoft.com/ko-KR/windows/deployment/update/waas-overview#windows-insider): 조직에서 향후 기능 업데이트에 제공될 기능을 테스트하고 의견을 제공할 수 있습니다.
+- **반기 채널**: 연 2회 기능 업데이트 릴리스를 통해 새 기능을 제공합니다.
+- **장기 서비스 채널**: 장기 서비스 옵션이 필요한 특수 디바이스에만 사용됩니다.
+
+Office 365는 다음과 같은 4가지 서비스 채널을 제공합니다.
+
+- [**Office 참가자 프로그램**](https://support.office.com/ko-KR/article/What-is-Office-Insider-f4208185-b63a-4b68-9c7a-9a32d2411c16): 조직에서 최신 Office 기능과 아직 개발 중인 기능을 테스트하고 의견을 제공할 수 있습니다.
+- **월별 채널**: Office의 최신 기능이 사용 가능해지는 즉시 사용자에게 제공됩니다.
+- **반기 채널**: 연 2회만 새 기능을 제공합니다.
+- **반기 채널(대상 지정)**: 파일럿 사용자와 애플리케이션 호환성 테스터가 다음 반기 채널을 테스트하고 유효성을 검사할 수 있는 완전히 지원되는 Office 빌드입니다.
+
+Windows 및 Office 서비스 채널에 대한 자세한 내용은 아래 설명서를 검토하세요.
+
+- [Windows as a Service 개요](https://docs.microsoft.com/ko-KR/windows/deployment/update/waas-overview#servicing-channels)
+- [Office 365 ProPlus의 업데이트 채널 개요](https://docs.microsoft.com/ko-KR/DeployOffice/overview-of-update-channels-for-office-365-proplus#BKMK_SAC)
 
 ## <a name="phased-deployment-of-updates"></a>단계별 업데이트 배포
 

@@ -14,11 +14,11 @@ ms.collection:
 ms.custom: ''
 description: Microsoft 365 Enterprise 기본 인프라의 단계를 배포하는 몇 가지 방법을 알아봅니다.
 ms.openlocfilehash: fb4cf301f1e450cd5db9b392c0ca2d8e3767242a
-ms.sourcegitcommit: e749e2db2a15bb52b1a2857dbccdf55c31cff3d7
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/28/2019
-ms.locfileid: "30340118"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32289570"
 ---
 # <a name="microsoft-365-enterprise-foundation-infrastructure-deployment-strategies"></a>Microsoft 365 Enterprise 기본 인프라 배포 전략
 

@@ -17,11 +17,11 @@ ms.custom:
 ms.assetid: ''
 description: '요약: Microsoft 365 테스트 환경을 위한 Azure AD Seamless Single Sign-On을 구성하고 테스트합니다.'
 ms.openlocfilehash: 210d59b0e578b807b9f9ee73e9bff11e7f2502a0
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32290132"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33400162"
 ---
 # <a name="azure-ad-seamless-single-sign-on-for-your-microsoft-365-test-environment"></a>Microsoft 365 테스트 환경을 위한 Azure AD Seamless Single Sign-On
 

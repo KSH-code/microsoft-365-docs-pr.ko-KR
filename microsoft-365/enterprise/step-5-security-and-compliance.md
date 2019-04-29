@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 중요한 Windows/Office 보안 및 준수 고려 사항에 대해 알아봅니다.
-ms.openlocfilehash: ff3adb5ef517c3b3115b867b585c090329ed6ac6
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: cefab9cfd1b61f37559d88c5625c512d33595395
+ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32290040"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33400242"
 ---
 # <a name="step-5-security-and-compliance-considerations"></a>5단계: 보안 및 준수 고려 사항
 

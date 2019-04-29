@@ -3,28 +3,28 @@ title: '3단계: Windows 10 Enterprise 인프라 종료 기준'
 ms.author: greglin
 author: greg-lindsay
 manager: laurawi
-ms.date: 06/01/2018
+ms.date: 03/05/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
 ms.collection:
-- Ent_O365
+- M365-modern-desktop
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 구성이 Windows 10 Enterprise에 대한 Microsoft 365 Enterprise 조건을 충족하는지 확인합니다.
-ms.openlocfilehash: 7ac79fec93e4b4aae0b075891917e2f88432b80f
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: 1e8a2e748f42431465c027acbc468f4c5891d320
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26870108"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32289520"
 ---
 # <a name="phase-3-windows-10-enterprise-infrastructure-exit-criteria"></a>3단계: Windows 10 Enterprise 인프라 종료 기준
 
 ![](./media/deploy-foundation-infrastructure/win10enterprise_icon-small.png)
 
-Windows 10 Enterprise 인프라가 다음 조건을 충족하는 경우 4단계로 이동할 수 있습니다.
+Windows 10 Enterprise 인프라가 다음과 같은 필수 조건을 충족하는지 확인하고 선택적 항목을 고려해야 합니다.
 
 <a name="crit-windows10-step1"></a>
 ## <a name="required-your-microsoft-365-domains-are-added-and-verified"></a>필수 작업: Microsoft 365 도메인 추가 및 확인
@@ -37,7 +37,7 @@ Office 365 및 Intune 구독을 위한 Azure AD 테넌트는 "onmicrosoft.com"�
 
 ## <a name="optional-your-users-are-added-and-licensed"></a>선택적 작업: 사용자 추가 및 사용 허가
 
-사용자에 해당하는 계정은 Office 365 및 Intune 구독을 위한 Azure AD 테넌트에 직접 추가되거나 온-프레미스 Windows Server AD에서의 디렉터리 동기화를 통해 추가됩니다.
+사용자에 해당하는 계정은 Office 365 및 Intune 구독을 위한 Azure AD 테넌트에 직접 추가되거나 온-프레미스 AD DS(Active Directory Domain Services)에서의 디렉터리 동기화를 통해 추가됩니다.
 
 사용자가 추가되면 전역 또는 사용자 관리자로서 직접, 또는 그룹 구성원 자격을 통해 자동으로 Microsoft 365 Enterprise 라이선스를 할당할 수 있습니다.
 
@@ -69,13 +69,13 @@ Windows 10 Enterprise를 실행하는 모든 장치는 Microsoft 365 Enterprise�
 
 Windows Autopilot을 사용하여 새 장치에 Windows 10 Enterprise를 배포하고 사용자 지정하려면 다음을 수행해야 합니다.
 
-- 적절한 Windows 진단 데이터 수준 설정
-- 다음을 포함하는 Windows Autopilot에 대한 필수 구성 요소 완료
-- 장치 등록 및 OOBE 사용자 지정
-- OOBE에 대한 회사 브랜딩
-- Microsoft Intune에서 MDM 자동 등록
-- Windows Autopilot에서 사용되는 클라우드 서비스에 대한 네트워크 연결
-- 장치에는 Windows 10, 버전 1703 이상이 미리 설치되어 있어야 합니다.
+- 적절한 Windows 진단 데이터 수준 구성
+- 다음을 포함하는 Windows Autopilot에 대한 필수 구성 요소 구성
+   - 장치 등록 및 OOBE 사용자 지정
+   - OOBE에 대한 회사 브랜딩
+   - Microsoft Intune에서 MDM 자동 등록
+   - Windows Autopilot에서 사용되는 클라우드 서비스에 대한 네트워크 연결
+- Windows 10, 버전 1703 이상이 미리 설치된 디바이스
 - 조직을 위한 Windows Autopilot Deployment 프로그램 선택
 
 Windows Autopilot 구성이 완료되면 다음에 대한 OOBE(첫 실행 경험)을 위해 Windows 10 Enterprise를 구성하고 사용자 지정하는 데 사용할 수 있습니다.
@@ -119,9 +119,10 @@ Windows Defender ATP(Advanced Threat Protection)를 배포하여 네트워크 �
 
 필요한 경우 [5단계](windows10-enable-security-features.md#windows10-sec-atp)를 통해 이 요구 사항을 충족할 수 있습니다.
 
+## <a name="results-and-next-steps"></a>결과 및 다음 단계
 
-## <a name="next-phase"></a>다음 단계
+Windows 10 Enterprise 인프라는 새 디바이스에서는 설치를 시작하고, 이전 버전의 Windows에서 실행되는 디바이스에서는 현재 위치 업그레이드를 실행할 준비가 되며, 사용자는 Windows 10 Enterprise의 주요 보안 기능을 사용하게 됩니다.
 
 |||
 |:-------|:-----|
-|![](./media/deploy-foundation-infrastructure/O365proplus_icon-small.png)| Microsoft 365 Enterprise에 대한 종단 간 배포 프로세스의 다음 단계는 [Office 365 ProPlus](office365proplus-infrastructure.md)입니다. |
+|![](./media/deploy-foundation-infrastructure/O365proplus_icon-small.png)| Microsoft 365 Enterprise의 종단 간 배포 단계를 수행 중인 경우 다음 단계는 [Office 365 ProPlus](office365proplus-infrastructure.md)입니다. |

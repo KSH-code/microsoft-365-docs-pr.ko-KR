@@ -12,17 +12,15 @@ ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 ms.custom: ''
-description: 최종 사용자가 커뮤니케이션 및 학습에 사용할 수 있는 최신 데스크톱을 준비하도록 하는 방법을 알아봅니다.
-ms.openlocfilehash: 7737828600a9708b0b422a1fada6e0296de67f0f
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+description: 최종 사용자가 커뮤니케이션 및 학습에 사용할 수 있는 Windows 10 및 Office 365 ProPlus를 준비하도록 하는 방법을 알아봅니다.
+ms.openlocfilehash: cd413ae0f7a85a65c41c2112a64e19b6ed68c987
+ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26870296"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33400192"
 ---
 # <a name="step-8-user-communications-and-training"></a>8단계: 사용자 커뮤니케이션 및 교육
-
-Office 365, Windows 10 및 Azure Active Directory를 통한 새로운 보안 및 준수 컨트롤을 포함하는 최신 작업 환경을 사용자에게 알리고 준비할 수 있도록 지원합니다.
 
 ![](media/step-8-user-communications-and-training-media/step-8-user-communications-and-training-media-1.png)
 
@@ -31,15 +29,15 @@ Office 365, Windows 10 및 Azure Active Directory를 통한 새로운 보안 및
 <td><img src="media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-11.png" alt="Step 8" height="144" width="144" /></td>
 <td><p><strong>8단계: 사용자 커뮤니케이션 및 교육</strong></p>
 <p>사용자에게 새로운 환경과 PC를 Windows 10 및 Office 365 ProPlus로 전환하는 새로운 작업 방법을 알려주어야 합니다. Microsoft FastTrack, 교육 자료 및 커뮤니케이션 서식 파일과 사용자 수용 및 사용 현황을 모니터링하는 새로운 방법을 통해 사용자 채택을 지원하는 방법을 알아보세요.</p></td>
-<td><img src="media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-21.png" alt="Step 8" height="130" width="231" /></td>
+<td><a href="https://aka.ms/ddev8" target="_blank"><img src="media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-21.png" alt="Step 8" height="130" width="231" /></a></td>
 </thead>
 </table>
 
 >[!NOTE]
->사용자 커뮤니케이션 및 교육은 사용자에게 정보를 알려주고 준비를 지원하기 위한 팁과 권장 사항을 포함하는 권장 배포 프로세스 사이클의 8번째 단계입니다. 전체 데스크톱 배포 프로세스를 보려면 [최신 데스크톱 배포 센터](https://aka.ms/HowToShift)를 방문하세요.
+>사용자 커뮤니케이션 및 교육은 사용자에게 정보를 알려주고 준비를 지원하기 위한 팁과 권장 사항을 포함하는 권장 배포 프로세스 사이클의 8번째 단계입니다. 전체 데스크톱 배포 프로세스를 보려면 [데스크톱 배포 센터](https://aka.ms/HowToShift)를 방문하세요.
 >
 
-여기에서 다루는 내용은 업데이트를 적용하는 방법을 찾아내는 것입니다. 즉, 사용자들이 생산성 중단이나 워크플로 변경을 두려워하거나, 새로운 기능을 배워야 하는 경우가 여기에 해당합니다.
+Office 365, Windows 10 및 Azure Active Directory를 통한 새로운 보안 및 준수 컨트롤을 포함하는 최신 작업 환경을 사용자에게 알리고 준비하는 과정은 채택을 촉진하는 데 매우 중요합니다. 여기에서 다루는 내용은 업데이트를 적용하는 방법을 찾아내는 것입니다. 즉, 사용자들이 생산성 중단이나 워크플로 변경을 두려워하거나, 새로운 기능을 배워야 하는 경우가 여기에 해당합니다.
 
 긍정적인 측면은 Windows 7과 Office 2010 또는 Office 2013에서 전환하는 경우 많은 사용자들이 개인용 장치에서 실행되는 Windows 10과 새 버전의 Office에 친숙하며, 이러한 측면이 변경이 미치는 영향을 줄이는 데 도움이 될 것이라는 점입니다.
 
@@ -91,7 +89,7 @@ Windows 10의 경우, Windows Hello와 같이 생체 인식을 사용하여 안�
 
 첫 번째 작업 단계에서 좋은 결과를 얻었다면 두 번째 작업 단계인 파일럿 단계에서는 더 많은 사용자 집합을 대상으로 지정할 수 있습니다. 이러한 단계는 대표적인 사용자 역할, 장치 유형, Windows 앱 및 Office 추가 기능으로 구성되어야 합니다. 이러한 그룹에서 반환되는 데이터는 분석 기능에서 보다 광범위한 세 번째 작업 단계 배포의 초기 대상을 지정하는 데 활용됩니다.
 
-이 작업 단계 및 이후 작업 단계의 모든 PC는 분석 서비스까지 로깅되므로, 전달 최적화 및 Windows Hello 로그인 사용을 통한 대역폭 절감 뿐만 아니라 장치 및 앱 상태에 대한 원격 분석을 수집할 수 있습니다.
+이 작업 단계 및 이후 작업 단계의 모든 PC는 분석 서비스까지 로깅되므로, 전달 최적화 및 Windows Hello 로그인 사용을 통한 대역폭 절감 뿐만 아니라 장치 및 앱 상태에 대한 진단 데이터를 수집할 수 있습니다.
 
 이 작업 단계에서는 변경 내용을 알리고 사용자가 새로운 기능을 활용하도록 지원하는 것이 특히 중요합니다. 사용자들이 IT 부서가 보내는 전자 메일이나 기타 커뮤니케이션을 우선적으로 고려하지 않거나 무시하는 경향이 있을 수 있으므로 관리 부서와 회의할 때 변경 내용을 전달하고 새로운 도구 및 기술에 대한 채택을 권장하면 도움이 됩니다.
 
@@ -127,10 +125,10 @@ Microsoft의 IT Showcase 시리즈는 Windows 10 배포 관련 콘텐츠를 제�
 
 IT 부서, 지원 센터, 사용자 및 네트워크 용량에 따라 관리 가능한 속도로 배포합니다. 항상 배포 프로세스 사이클의 2단계로 돌아가 네트워크를 최적화하고, 피어 간 캐시, LEDBAT 및 기타 기술을 사용하여 배포 관련 데이터를 더 빠르게 전송할 수 있습니다.
 
-분석 도구를 통해 모니터링하는 원격 분석 외에도, 관리 센터의 워크로드별 상세 사용 현황 보고서를 사용하고 Power BI를 통해 관리 대시보드를 사용하여 세분화된 방식으로 Office 365 및 Microsoft 365 서비스 사용 현황을 모니터링할 수도 있습니다. 이러한 도구는 Microsoft Teams와 같은 공동 작업용 새 도구와 OneDrive와 같은 새로운 파일 공유 방법을 롤아웃할 때 목표를 설정하고 추적하는 데 도움이 되는 유용한 도구입니다.
+진단 도구를 통해 모니터링하는 진단 데이터 외에, 관리 센터의 워크로드를 기준으로 하는 자세한 사용 현황 보고서를 사용하거나 Power BI를 통해 관리 대시보드를 사용하여 세분화된 방식으로 Office 365 및 Microsoft 365 서비스 사용량을 모니터링할 수도 있습니다. 이러한 도구들은 함께 작업하기 위한 새로운 도구(예: Microsoft Teams) 또는 파일을 공유하는 새로운 방법(예: OneDrive)을 롤아웃할 때 목표를 설정하고 추적하는 데 유용합니다.
 
 새 기술의 수용 및 채택은 조직의 모든 PC에 Windows 10 및 Office 365 ProPlus가 설치되고 한참 후에도 계속 진행됩니다. 또한 사용자들은 새로운 기능에 대한 정보를 받거나 교육을 받지 못한 상태로 업무 방식을 반드시 바꿀 필요는 없습니다. 마지막으로, Windows의 반기 일정 및 Office의 선택적 월별 일정에 따라 새로운 서비스 모델을 통해 새 기능이 제공되면서, 커뮤니케이션은 계속 진행될 것입니다.
 
 ## <a name="previous-step"></a>이전 단계 
 
-## <a name="step-7-windows-and-office-as-a-servicehttpsakamsmdd7"></a>[7단계: Windows 및 Office as a Service](https://aka.ms/mdd7)
+## <a name="step-7-windows-and-office-servicinghttpsakamsmdd7"></a>[7단계: Windows 및 Office Servicing](https://aka.ms/mdd7)

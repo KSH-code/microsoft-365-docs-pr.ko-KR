@@ -3,26 +3,26 @@ title: 높은 규제 대상 데이터에 대한 Microsoft Teams 및 SharePoint O
 author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
-ms.date: 09/13/2018
+ms.date: 04/03/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
 ms.collection:
-- Ent_O365
+- M365-security-compliance
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 보안 SharePoint Online 팀 사이트 및 Microsoft Teams 팀을 만들어 가장 소중하고 중요한 디지털 자산을 저장합니다.
-ms.openlocfilehash: fa1a57d898e4822d0c96d6eb807d0a14a815e29a
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: 4342ba5e5d1c83ed0c9d26100afd86afa1e62723
+ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26869726"
+ms.lasthandoff: 04/23/2019
+ms.locfileid: "32289809"
 ---
 # <a name="microsoft-teams-and-sharepoint-online-sites-for-highly-regulated-data"></a>높은 규제 대상 데이터에 대한 Microsoft Teams 및 SharePoint Online 사이트
 
-**요약:** 보안 SharePoint Online 팀 사이트 및 Microsoft Teams 팀을 만들어 가장 소중하고 중요한 디지털 자산을 저장합니다.
+*이 시나리오는 Microsoft 365 Enterprise E3 및 E5 버전에 적용됩니다.*
 
 Microsoft 365 Enterprise에는 높은 규제 대상 데이터를 만들고, 저장하고, 보안을 유지할 수 있도록 하기 위해 전체 클라우드 기반 서비스 제품군이 포함되어 있습니다. 여기에는 다음과 같은 데이터가 포함됩니다.
 
@@ -33,10 +33,10 @@ Microsoft 365 Enterprise에는 높은 규제 대상 데이터를 만들고, 저�
 
 - 디지털 자산(문서, 슬라이드 데크, 스프레드시트 등)을 SharePoint Online 팀 사이트 또는 Microsoft Teams 팀의 **파일** 탭에 저장해야 합니다.
 - 사이트 또는 팀의 다음 작업이 방지됩니다.
-   - 그룹 멤버 자격을 통해 특정 사용자 계정 집합을 제외한 모든 계정에 액세스할 수 없습니다. 특정 사용자 계정 집합에는 임의 권한 수준에서 SharePoint Online 팀 사이트에 액세스할 수 있는 사용자 계정 및 해당 사이트를 관리할 수 있는 사용자 계정이 포함됩니다.
+   - 그룹 멤버 자격을 통해 특정 사용자 계정 집합에만 액세스할 수 있습니다. 특정 사용자 계정 집합에는 임의 권한 수준에서 SharePoint Online 팀 사이트에 액세스할 수 있는 사용자 계정 및 해당 사이트를 관리할 수 있는 사용자 계정이 포함됩니다.
    - 사이트의 멤버가 다른 사람에게 액세스 권한을 부여할 수 없습니다.
    - 사이트의 멤버 이외의 사용자가 다른 사람에게 액세스 권한을 요청할 수 없습니다.
-- SharePoint Online 사이트 또는 팀에 대한 Office 365 레이블을 사이트의 디지털 자산을 분류하는 기본 방법으로 구성합니다.
+- SharePoint Online 사이트 또는 팀에 대한 Office 365 보존 레이블을 사이트 또는 팀에 있는 문서에 대한 보존 정책을 정의하는 기본 방법으로 구성합니다.
 - 사용자가 조직 외부로 파일을 보내지 못하도록 차단합니다.
 - 사이트 또는 팀의 가장 중요한 디지털 자산을 암호화합니다.
 - 사이트 외부에서 공유되더라도 자산을 열기 위해서는 권한이 있는 사용자 계정의 유효한 자격 증명을 요구하도록 가장 중요한 디지털 자산에 대한 권한을 추가합니다.
@@ -48,7 +48,7 @@ Microsoft 365 Enterprise에는 높은 규제 대상 데이터를 만들고, 저�
 | **요구 사항** | **Microsoft 365 Enterprise 기능** |
 | 디지털 자산 저장 | SharePoint Online 팀 사이트 및 Office 365의 팀 |
 | 사이트 잠그기 | Azure AD 그룹 및 SharePoint Online 팀 사이트 사용 권한 |
-| 사이트의 디지털 자산에 레이블 지정 | Office 365 레이블 |
+| 사이트의 디지털 자산에 레이블 지정 | Office 365 보존 레이블 |
 | 사용자가 조직 외부로 파일을 보내지 못하도록 차단 | Office 365의 DLP(데이터 손실 방지) 정책 |
 | 사이트의 모든 디지털 자산 암호화 | EMS(Enterprise Mobility + Security)의 Azure Information Protection 하위 레이블 |
 | 사이트의 디지털 자산에 대한 권한 추가 | EMS의 Azure Information Protection 하위 레이블 |
@@ -56,7 +56,7 @@ Microsoft 365 Enterprise에는 높은 규제 대상 데이터를 만들고, 저�
 
 이 솔루션을 사용하려면 다음을 배포했어야 합니다.
 
-- [Foundation 인프라](deploy-foundation-infrastructure.md) 
+- 기본 인프라의 [ID](identity-infrastructure.md) 단계 및 [정보 보호](infoprotect-infrastructure.md) 단계의 1-2단계 
 - SharePoint Online 팀 사이트에 있는 높은 규제 대상 데이터의 경우 [SharePoint Online](sharepoint-online-onedrive-workload.md)
 - Microsoft Teams 팀에 있는 높은 규제 대상 데이터의 경우 [Microsoft Teams](teams-workload.md)
 
@@ -80,7 +80,7 @@ Microsoft 365 Enterprise에는 높은 규제 대상 데이터를 만들고, 저�
 
 - SharePoint Online 권한 집합 및 SharePoint 그룹 집합
 - 액세스 그룹 집합, Azure AD 보안 그룹 및 SharePoint 그룹에 추가할 구성원
-- 사이트에 할당할 Office 365 레이블 및 레이블에 대한 DLP 정책 집합
+- 사이트에 할당할 Office 365 보존 레이블 및 레이블에 대한 DLP 정책 집합
 - 사용자가 사이트에 저장된 높은 규제 대상 디지털 자산에 적용하는 Azure Information Protection 하위 레이블에 대한 설정
 
 일단 결정이 끝나면 이러한 설정을 사용하여 두 번째 작업 단계에서 사이트를 구성합니다. 
@@ -98,17 +98,17 @@ SharePoint Online 팀 사이트의 잠긴 버전을 격리된 사이트라고 �
 
 권한 수준, SharePoint 그룹, 액세스 그룹 및 그룹 구성원 집합 결정에 대한 자세한 내용은 [격리된 SharePoint Online 팀 사이트 디자인](https://docs.microsoft.com/office365/enterprise/design-an-isolated-sharepoint-online-team-site)을 참조하세요.
 
-### <a name="step-2-office-365-labels-and-dlp-policies"></a>2단계: Office 365 레이블 및 DLP 정책
+### <a name="step-2-office-365-retention-labels-and-dlp-policies"></a>2단계: Office 365 보존 레이블 및 DLP 정책
 
-SharePoint Online 팀 사이트에 적용된 Office 365 레이블은 사이트에 저장된 모든 디지털 자산에 대한 기본 분류 방법입니다.
+SharePoint Online 팀 사이트에 적용된 Office 365 보존 레이블은 사이트에 저장된 모든 디지털 자산에 대한 기본 분류 방법입니다.
  
-높은 규제 대상 데이터에 대한 SharePoint Online 사이트에서는 사용할 Office 365 레이블을 결정해야 합니다.
+높은 규제 대상 데이터에 대한 SharePoint Online 사이트에서는 사용할 Office 보존 365 레이블을 결정해야 합니다.
 
-Office 365 레이블의 디자인 고려 사항에 대해서는 [Office 365 분류 및 레이블](https://docs.microsoft.com/office365/enterprise/secure-sharepoint-online-sites-and-files#office-365-classification-and-labels)을 참조하세요.
+Office 365 레이블의 디자인 고려 사항에 대해서는 [Office 365 분류 및 레이블](https://docs.microsoft.com/office365/securitycompliance/secure-sharepoint-online-sites-and-files#office-365-retention-labels)을 참조하세요.
 
 중요한 정보를 보호하고 우발적이거나 의도적인 노출을 방지하려면 DLP 정책을 사용합니다. 자세한 내용은 이 [개요](https://docs.microsoft.com/office365/securitycompliance/data-loss-prevention-policies)를 참조하세요.
 
-높은 규제 대상 데이터에 대한 SharePoint Online 사이트의 경우, 사용자가 외부 사용자와 디지털 자산을 공유하려고 할 때 사용자를 차단하도록 사이트에 할당된 Office 365 레이블에 대한 DLP 정책을 구성해야 합니다. 
+높은 규제 대상 데이터에 대한 SharePoint Online 사이트의 경우, 사용자가 외부 사용자와 디지털 자산을 공유하려고 할 때 사용자를 차단하도록 사이트에 할당된 Office 365 보존 레이블에 대한 DLP 정책을 구성해야 합니다. 
 
 ### <a name="step-3-your-azure-information-protection-sub-label"></a>3단계: Azure Information Protection 하위 레이블
 
@@ -118,15 +118,13 @@ Office 365 레이블의 디자인 고려 사항에 대해서는 [Office 365 분�
 
 적용된 하위 레이블 설정은 자산을 따라 이동합니다. 사이트 외부에서 다운로드되고 공유되더라도, 권한이 있는 인증된 사용자 계정만 해당 자산을 열 수 있습니다.
 
-Azure Information Protection 레이블의 디자인 고려 사항에 대해서는 [Azure Information Protection](https://docs.microsoft.com/office365/enterprise/secure-sharepoint-online-sites-and-files#azure-information-protection)을 참조하세요.
-
 ### <a name="design-results"></a>디자인 결과
 
 다음 사항이 결정되었습니다.
 
 - SharePoint 그룹 및 권한 수준 집합
 - 액세스 그룹 집합 및 각 권한 수준의 구성원
-- 레이블과 연결된 해당 Office 365 레이블 및 DLP 정책
+- 해당 Office 365 보존 레이블 및 레이블과 연결된 DLP 정책
 - 암호화 및 권한을 포함하는 Azure Information Protection 하위 레이블 설정
 
 ## <a name="phase-2-configure"></a>두 번째 작업 단계: 구성
@@ -140,11 +138,11 @@ Azure Information Protection 레이블의 디자인 고려 사항에 대해서�
 - 사이트에서 사용되는 각 SharePoint 권한 수준에 대한 액세스 그룹을 만들고 채웁니다.
 - 격리된 팀 사이트를 만들고 구성합니다.
 
-### <a name="step-2-configure-the-site-for-an-office-365-label-dlp-policy"></a>2단계: Office 365 레이블 DLP 정책에 맞게 사이트 구성
+### <a name="step-2-configure-the-site-for-an-office-365-retention-label-dlp-policy"></a>2단계: Office 365 보존 레이블 DLP 정책에 맞게 사이트 구성
 
 [Office 365 레이블 및 DLP를 사용하여 SharePoint Online 파일 보호](https://docs.microsoft.com/office365/enterprise/protect-sharepoint-online-files-with-office-365-labels-and-dlp)의 지침에 따라 다음을 수행합니다.
 
-- Office 365 레이블을 식별하거나 만든 후 격리된 SharePoint Online 사이트에 적용합니다.
+- Office 365 보존 레이블을 식별하거나 만든 후 격리된 SharePoint Online 사이트에 적용합니다.
 - 조직 외부의 SharePoint Online 사이트에서 디지털 자산을 공유하려고 할 경우 사용자를 차단하는 DLP 정책을 만들고 구성합니다.
 
 ### <a name="step-3-create-an-azure-information-protection-sub-label-for-the-site"></a>3단계: 사이트에 대한 Azure Information Protection 하위 레이블 만들기
@@ -173,8 +171,8 @@ Azure Information Protection 레이블의 디자인 고려 사항에 대해서�
 구성한 항목
 
 - 격리된 SharePoint Online 사이트
-- 격리된 SharePoint Online 사이트에 Office 365 레이블 할당
-- Office 365 레이블에 대한 DLP 정책
+- 격리된 SharePoint Online 사이트에 Office 365 보존 레이블 할당
+- Office 365 보존 레이블에 대한 DLP 정책
 - 사이트에 저장되어 있으며 자산을 암호화하고 권한을 적용하는 가장 중요한 디지털 자산에 사용자가 적용할 수 있는 범위 지정 정책에 대한 Azure Information Protection 하위 레이블
 - 필요한 경우, SharePoint Online 사이트를 기준으로 하는 높은 규제 대상 데이터용 팀
 

@@ -14,11 +14,11 @@ ms.collection:
 ms.custom: ''
 description: 구성이 Office 365 ProPlus 인프라에 대한 Microsoft 365 Enterprise 조건을 충족하는지 확인합니다.
 ms.openlocfilehash: c9a2afeae8d28170f4e8a15531a08e6b94cb48c2
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32291076"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33399992"
 ---
 # <a name="office-365-proplus-deployment-exit-criteria"></a>Office 365 ProPlus 배포 종료 조건
 

@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 환경에서 장치 및 앱 준비 상태를 평가하는 방법을 알아봅니다.
-ms.openlocfilehash: 0ead897fef7f419b5a11b7a1fb5b5f4fdc62e52e
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 8c5f40f4f65c95aca628b64433676d473856e1c8
+ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32291054"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33400132"
 ---
 # <a name="step-1-device-and-app-readiness"></a>1단계: 장치 및 앱 준비
 
