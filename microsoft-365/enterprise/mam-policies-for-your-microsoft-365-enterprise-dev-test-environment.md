@@ -12,12 +12,12 @@ ms.collection: M365-identity-device-management
 ms.custom: Ent_TLGs
 ms.assetid: 1aa9639b-2862-49c4-bc33-1586dda636b8
 description: 이 테스트 랩 가이드를 사용 하 여 Microsoft 365 Enterprise 테스트 환경에 Intune 장치 준수 정책을 추가 합니다.
-ms.openlocfilehash: d20b050bfc56776656bf1d485b2e107a9debe2f7
-ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
+ms.openlocfilehash: b8c2fbe437362f72effd5ba550817f847ccbbf74
+ms.sourcegitcommit: e15cf5d0d8ff3dfdc457b469992d72ac802e6434
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2019
-ms.locfileid: "33353190"
+ms.lasthandoff: 04/29/2019
+ms.locfileid: "33467736"
 ---
 # <a name="device-compliance-policies-for-your-microsoft-365-enterprise-test-environment"></a>Microsoft 365 Enterprise 테스트 환경에 대 한 장치 준수 정책
 
@@ -54,7 +54,7 @@ ms.locfileid: "33353190"
     
 6. **그룹-모든 그룹** 블레이드에서 **+ 새 그룹**을 클릭 합니다.
     
-7. **그룹** 블레이드에서 **Office 365** 을 **그룹 유형**으로 선택 하 고 **이름**에 **관리 되는 Windows 10 장치 사용자** 를 입력 한 다음 **멤버 자격 유형에**서 **할당** 을 선택 하 고 **만들기**를 클릭 합니다. 
+7. **그룹** 블레이드에서 **Office 365** 또는 **보안** 을 선택 **하**고 **이름**에 **관리 되는 Windows 10 장치 사용자** 를 입력 한 다음 **멤버 자격 유형에**서 **할당 됨** 을 선택 하 고 **만들기**를 클릭 합니다. 
     
 8. **그룹** 블레이드를 닫습니다.
     
@@ -90,7 +90,7 @@ ms.locfileid: "33353190"
 
 26. **앱 추가** 블레이드에서 **추가**를 클릭 합니다.
 
-이제 **windows 10** 장치 준수 정책 및 **관리 되는 Windows 10 장치 사용자** 그룹의 구성원에 대해 선택한 앱을 테스트할 수 있는 장치 준수 정책이 만들어졌습니다. 
+이제 **windows 10** 장치 준수 정책 및 **관리 되는 Windows 10 장치 사용자** 그룹의 구성원에 대해 선택한 앱을 테스트할 수 있는 장치 준수 정책이 만들어졌습니다. 그룹 유형으로 Office 365을 선택 하면 추가 리소스가 만들어집니다. 
   
 ## <a name="next-step"></a>다음 단계
 
