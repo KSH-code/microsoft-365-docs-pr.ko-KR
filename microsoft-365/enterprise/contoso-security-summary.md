@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Contoso가 Microsoft 365 Enterprise에서 보안 기능을 사용하는 방법
-ms.openlocfilehash: 55ee8ff88490a82a9438b076bcebfab976f8baf6
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 1aade29c8a4f9348b749025818e433981ec19091
+ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32289036"
+ms.lasthandoff: 04/26/2019
+ms.locfileid: "33353108"
 ---
 # <a name="summary-of-microsoft-365-enterprise-security-for-the-contoso-corporation"></a>Contoso Corporation의 Microsoft 365 Enterprise 보안 요약
 
@@ -56,7 +56,7 @@ Contoso의 보안 관리자 및 IT 부서는 보안 모범 사례 및 Microsoft 
 
 - MFA 및 PIM이 있는 전용 전역 관리자 계정
 
-  일상적인 사용자 계정에 전역 관리자 역할을 할당하지 않고, Contoso는 매우 강력한 암호를 가지는 3개의 전용 전역 관리자 계정을 만든 후, MFA(Multi-Factor Authentication) 및 Azure AD PIM(Privileged Identity Management)으로 보호했습니다. 
+  일상적인 사용자 계정에 전역 관리자 역할을 할당하지 않고, Contoso는 매우 강력한 암호를 가지는 3개의 전용 전역 관리자 계정을 만든 후, MFA(Multi-Factor Authentication) 및 Azure AD PIM(Privileged Identity Management)으로 보호했습니다.  PIM에서만 Microsoft 365 Enterprise E5와 함께 사용할 수 있습니다.
 
   전역 관리자 계정을 사용한 로그인은 특정 관리 작업에 대해서만 수행되고, 암호는 지정된 직원만 알고 있으며, Azure AD PIM을 사용하여 구성된 시간 내에서만 사용할 수 있습니다. 
 
@@ -105,7 +105,7 @@ Contoso의 보안 관리자 및 IT 부서는 보안 모범 사례 및 Microsoft 
 
 ## <a name="information-protection"></a>정보 보호
 
-- Azure Information Protection을 사용하여 중요 및 높은 규제 대상 디지털 자산 보호
+- Azure Information Protection 레이블을 사용하여 중요 및 높은 규제 대상 디지털 자산 보호
 
   Contoso는 세 가지 수준의 데이터 보호를 결정하고, 사용자가 디지털 자산에 적용하는 [Azure Information Protection](https://docs.microsoft.com/azure/information-protection/what-is-information-protection) 레이블을 배포했습니다. 또한 영업 비밀 및 기타 지적 재산권의 경우 콘텐츠를 암호화하고 특정 보안 그룹에 대한 액세스를 제한하는 높은 규제 대상 데이터에 대한 범위 지정 정책에서 Azure Information Protection 하위 레이블을 사용합니다.
 
@@ -119,11 +119,7 @@ Contoso의 보안 관리자 및 IT 부서는 보안 모범 사례 및 Microsoft 
 
 - Microsoft Cloud App Security를 사용하는 클라우드 모니터링
 
-  Contoso는 [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security)를 사용하여 클라우드 환경을 매핑하고, 사용 현황을 모니터링하고, 보안 이벤트 및 인시던트를 감지하고 있습니다. 
-
-- Office 365 Cloud App Security를 사용하여 office 365 보안 모니터링
-
-  Contoso 보안 관리자는 SharePoint Online이나 비즈니스용 OneDrive에서 대량의 데이터를 다운로드하는 경우, 여러 번의 로그인 시도 실패 또는 알 수 없거나 위험한 IP 주소에서 로그인하는 경우와 같은 특별하거나 위험한 사용자 활동에 대해 알림을 받도록 하기 위해 [Office 365 CAS(Cloud App Security)](https://docs.microsoft.com/office365/securitycompliance/office-365-cas-overview)에서 경고를 설정했습니다.
+  Contoso는 [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security)를 사용하여 클라우드 환경을 매핑하고, 사용 현황을 모니터링하고, 보안 이벤트 및 인시던트를 감지하고 있습니다. Microsoft Cloud App Security는 Microsoft 365 Enterprise E5에서만 사용할 수 있습니다.
 
 - Microsoft Intune을 사용한 장치 관리
 

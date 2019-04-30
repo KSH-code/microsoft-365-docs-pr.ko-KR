@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Microsoft 365에 대한 향상된 보안을 이해하고 구성하십시오.
-ms.openlocfilehash: a1976a9305c40d721bd56a4b21b8a52552c1a9dc
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: fcf023960679cf624f3ea7421ab92b1a450d2524
+ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32285084"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33400032"
 ---
 # <a name="step-3-configure-increased-security-for-microsoft-365"></a>3단계: Office 365에 대한 향상된 보안 구성
 
@@ -50,13 +50,13 @@ Office 365 ATP 에서만 Microsoft 365 Enterprise E5와 함께 사용할 수 있
 |![Microsoft 클라우드의 테스트 랩 가이드](media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)| [테스트 랩 가이드: 강화된 Microsoft 365 보안 구성](increased-o365-security-microsoft-365-enterprise-dev-test-environment.md) |
 |||
 
-중간 검사점으로 이 단계에 해당하는 [종료 조건](infoprotect-exit-criteria.md#crit-infoprotect-step4)을 확인하세요.
+중간 검사점으로 이 단계에 해당하는 [종료 조건](infoprotect-exit-criteria.md#crit-infoprotect-step3)을 확인하세요.
 
 ## <a name="next-step"></a>다음 단계
 
 
 |||
 |:-------|:-----|
-|![](./media/stepnumbers/Step4.png)|[권한이 부여된 액세스 관리 구성](infoprotect-configure-privileged-access-management.md)|
+|![](./media/stepnumbers/Step4.png)|[WIP(Windows Information Protection) 구성](infoprotect-deploy-windows-information-protection.md)|
 
 

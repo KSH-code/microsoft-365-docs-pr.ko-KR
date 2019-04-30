@@ -16,12 +16,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: ''
 description: '요약: Microsoft 365 테스트 환경을 위한 암호 해시 동기화 및 로그인을 구성하고 보여 줍니다.'
-ms.openlocfilehash: 9a907894d4f842b334403d047cabbdeb42217744
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: a692f445bcb56044e9a6a29cee62facd22743733
+ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32290990"
+ms.lasthandoff: 04/26/2019
+ms.locfileid: "33353154"
 ---
 # <a name="password-hash-synchronization-for-your-microsoft-365-test-environment"></a>Microsoft 365 테스트 환경을 위한 암호 해시 동기화
 
@@ -103,19 +103,17 @@ testlab.\<공용 도메인 이름>에 대해 현재 다음 작업이 어떻게 �
     
 10. **구성 완료** 페이지에서 **끝내기**를 클릭합니다.
     
-11. Internet Explorer에서 Office 포털로 이동합니다([https://office.com](https://office.com)).
+11. Internet Explorer에서 Microsoft 365 관리 센터([https://portal.microsoft.com](https://portal.microsoft.com))로 이동합니다.
     
-12. 기본 포털 페이지에서 **관리자**를 클릭합니다.
-    
-13. 왼쪽 탐색에서 **사용자 > 활성화된 사용자**를 클릭합니다.
+12. 왼쪽 탐색에서 **사용자 > 활성화된 사용자**를 클릭합니다.
     
     **User1**이라는 계정을 유의합니다. 이 계정은 TESTLAB AD DS 도메인의 계정이며 디렉터리 동기화가 성공했다는 증거입니다.
     
-14. **User1** 계정을 클릭합니다. 제품 라이선스에 대해 **편집**을 클릭합니다.
+13. **User1** 계정을 클릭합니다. 제품 라이선스에 대해 **편집**을 클릭합니다.
     
-15. **제품 라이선스**에서 국가를 선택하고 **Office 365 Enterprise E5**에 대해 **해제** 컨트롤을 클릭합니다(**설정**으로 전환됨). **Enterprise Mobility + Security E5** 라이선스에 대해 동일한 작업을 수행합니다. 
+14. **제품 라이선스**에서 국가를 선택하고 **Office 365 Enterprise E5**에 대해 **해제** 컨트롤을 클릭합니다(**설정**으로 전환됨). **Enterprise Mobility + Security E5** 라이선스에 대해 동일한 작업을 수행합니다. 
 
-16. 페이지 아래쪽에서 **저장**을 클릭하고 **닫기**를 클릭합니다.
+15. 페이지 아래쪽에서 **저장**을 클릭하고 **닫기**를 클릭합니다.
     
 다음으로, user1 계정의 <strong>user1@testlab.</strong>\<사용자의 도메인 이름> 사용자 이름으로 Office 365 구독에 로그인하는 기능을 테스트합니다.
 

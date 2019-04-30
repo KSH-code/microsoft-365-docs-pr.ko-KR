@@ -16,12 +16,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: ''
 description: '요약: Microsoft 365 테스트 환경을 위한 암호 쓰기 저장을 구성합니다.'
-ms.openlocfilehash: e2ccbe251c4e62790331b949f163816f789436cb
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: e80c169a8aefa60c9e7b3be874a1fb26c86078b6
+ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32291453"
+ms.lasthandoff: 04/26/2019
+ms.locfileid: "33353170"
 ---
 # <a name="password-writeback-for-your-microsoft-365-test-environment"></a>Microsoft 365 테스트 환경을 위한 암호 쓰기 저장
 
@@ -55,9 +55,9 @@ ms.locfileid: "32291453"
 
 먼저 User 1 계정이 전역 관리자 역할을 가지도록 구성합니다.
 
-1. [Office 포털](https://office.com)에서 전역 관리자 계정으로 로그인합니다.
+1. [Microsoft 365 관리 센터](https://portal.microsoft.com)에서 글로벌 관리자 계정으로 로그인합니다.
 
-2. **관리자** 타일을 클릭합니다. 브라우저의 새 **Microsoft 365 관리 센터** 탭에서 **활성 사용자**를 클릭합니다.
+2. **활성 사용자**를 클릭합니다.
  
 3. **활성 사용자** 페이지에서 **user1** 계정을 클릭하고,
 

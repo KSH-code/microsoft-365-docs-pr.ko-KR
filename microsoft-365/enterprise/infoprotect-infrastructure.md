@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Microsoft 365 Enterprise에 대한 정보 보호 인프라를 배포하는 단계입니다.
-ms.openlocfilehash: 821c32eea09cde87155d0ee1ccdd81077d051d38
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: a0d2c485b05e0969fe45cfd79c86e4e7dcb1d5ff
+ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32287651"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33400002"
 ---
 # <a name="phase-6-information-protection"></a>6단계: 정보 보호
 
@@ -41,7 +41,9 @@ ms.locfileid: "32287651"
 |![](./media/stepnumbers/Step1.png)|[보안 및 정보 보호 수준 정의](infoprotect-define-sec-infoprotect-levels.md)|
 |![](./media/stepnumbers/Step2.png)|[사용자 환경에 대한 분류 구성](infoprotect-configure-classification.md)|
 |![](./media/stepnumbers/Step3.png)|[Microsoft 365에 대한 향상된 보안 구성](infoprotect-configure-increased-security-office-365.md)|
-|![](./media/stepnumbers/Step4.png)|[Office 365에 대한 권한이 부여된 액세스 관리 구성](infoprotect-configure-privileged-access-management.md)|
+|![](./media/stepnumbers/Step4.png)|[WIP(Windows Information Protection) 구성](infoprotect-deploy-windows-information-protection.md)|
+|![](./media/stepnumbers/Step5.png)|[Office 365 데이터 손실 방지 구성](infoprotect-data-loss-prevention.md)|
+|![](./media/stepnumbers/Step6.png)|[Office 365에 대한 권한이 부여된 액세스 관리 구성](infoprotect-configure-privileged-access-management.md)|
 
 
 이러한 단계를 완료했으면 이 단계에 대한 [종료 조건](infoprotect-exit-criteria.md)으로 이동하여 Microsoft 365 Enterprise에 대한 필수 및 선택적 조건을 충족하는지 확인하세요.

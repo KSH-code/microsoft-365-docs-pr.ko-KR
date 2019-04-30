@@ -15,12 +15,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: 다음 테스트 랩 가이드를 사용하여 Microsoft 365 Enterprise의 데모, 개념 증명 또는 개발/테스트 환경을 설정합니다.
-ms.openlocfilehash: 027386f9b44d09d2927c2473d1ef27381f82f969
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 007fac786e7676d219d7e82c435e37fe3c3221df
+ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32283648"
+ms.lasthandoff: 04/26/2019
+ms.locfileid: "33353146"
 ---
 # <a name="microsoft-365-enterprise-test-lab-guides"></a>Microsoft 365 Enterprise 테스트 랩 가이드
 
@@ -65,7 +65,7 @@ ID 관련 기능을 시연하려면 다음을 참조하세요.
 
 - [전역 관리자 계정 보호](protect-global-administrator-accounts-microsoft-365-test-environment.md)
  
-   Office 365 Cloud App Security 및 조건부 액세스 정책을 사용하여 전역 관리자 계정을 잠급니다.
+   조건부 액세스 정책을 사용하여 글로벌 관리자 계정을 잠급니다.
 
 - [암호 쓰기 저장](password-writeback-m365-ent-test-environment.md)
 
@@ -82,6 +82,11 @@ ID 관련 기능을 시연하려면 다음을 참조하세요.
 - [Azure AD ID 보호](azure-ad-identity-protection-microsoft-365-test-environment.md)
 
    현재 사용자 계정의 취약성을 검사합니다.
+
+- [ID 및 장치 액세스](identity-device-access-m365-test-environment.md)
+
+   권장된 ID 및 장치 액세스 구성 및 조건부 액세스 정책을 테스트할 수 있는 환경을 만듭니다.
+
 
 ## <a name="mobile-device-management"></a>모바일 장치 관리
 

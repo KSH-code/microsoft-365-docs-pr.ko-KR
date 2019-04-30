@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 조직에서 Microsoft 365 Enterprise 배포하는 데 사용할 수 있는 리소스를 파악 합니다.
-ms.openlocfilehash: 3112589a023a563ff599535e1e9045a3d3db3bce
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: dca9d5938a5db9cb3bc00e4e34d1f939700a1182
+ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32289195"
+ms.lasthandoff: 04/28/2019
+ms.locfileid: "33400065"
 ---
 # <a name="deploy-microsoft-365-enterprise"></a>Microsoft 365 Enterprise 배포
 
@@ -41,13 +41,13 @@ Microsoft 365 Enterprise를 배포하는 세 가지 기본 방법이 있습니�
 
 FastTrack은 Microsoft 엔지니어들이 제공하는 지속적인 반복 가능한 혜택으로 - 일부 사용료로 이용가능 합니다. - 사용자의 속도에 맞춰 클라우드로 전환할 수 있도록 도와줍니다. 또한 FastTrack은 추가 서비스를 위해 자격을 갖춘 파트너에 대한 액세스를 제공합니다. 현재까지 40,000명 이상의 고객이 활성화된 FastTrack은 조직 전반에서 ROI를 극대화하고, 배포를 가속화 하며, 채택률을 높이는 데 도움이 됩니다. [Microsoft 365에 대한 FastTrack](https://fasttrack.microsoft.com/microsoft365)을 참조하십시오.
 
-FastTrack을 활용하여 Microsoft 365 Enterprise를 배포하려는 경우, FastTrack [Microsoft 365 배포 관리자](https://aka.ms/microsoft365setupguide)를 사용하여 기초 인프라 배포 및 설정 방법에 대한 지침을 사용할 수 있습니다. 이 페이지에 액세스하려면 Office 365 또는 Microsoft 365 테넌트에서 글로벌 관리자로 로그인해야 함을 유념하십시오.
+FastTrack을 활용하여 Microsoft 365 Enterprise를 배포하려는 경우, FastTrack [Microsoft 365 배포 관리자](https://aka.ms/microsoft365setupguide)를 사용하여 기초 인프라 배포 및 설정 방법에 대한 지침을 사용할 수 있습니다. 이 페이지에 액세스하려면 Office 365 또는 Microsoft 365 테넌트에서 글로벌 관리자로 로그인해야 합니다.
 
 FastTrack [여기](https://fasttrack.microsoft.com/microsoft365)를 사용하여 종단 간 배포의 첫걸음을 시작해보십시오.
 
 ## <a name="microsoft-365-enterprise-deployment-guide"></a>Microsoft 365 Enterprise 배포 가이드
 
-Microsoft 365 Enterprise 배포 가이드에서는 Microsoft 365 Enterprise 제품 및 기능의 올바르고 필요한 구성을 단계별로 안내합니다.
+Microsoft 365 Enterprise 배포 가이드에서는 Microsoft 365 Enterprise 제품 및 기능의 필수 구성을 단계별로 안내합니다.
 
 Microsoft 365 Enterprise를 직접 배포하려면 다음을 수행할 수 있습니다.
 

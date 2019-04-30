@@ -11,24 +11,24 @@
 
 필요한 경우 [1단계](../infoprotect-define-sec-infoprotect-levels.md)를 통해 이 요구 사항을 충족할 수 있습니다. 
 
-<a name="crit-infoprotect-step4"></a>
-### <a name="required-increased-security-for-microsoft-365-is-configured"></a>필수: Microsoft 365에 대한 향상된 보안 구성
+<a name="crit-infoprotect-step3"></a>
+### <a name="required-increased-security-for-microsoft-365-is-configured"></a>필수: Microsoft 365에 대한 강화된 보안이 구성됩니다.
 
 [Office 365 보안 강화](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security)를 위해 다음과 같은 설정을 구성했습니다.
 
-- Microsoft 365 보안 및 준수 센터의 위협 관리 정책
+- Microsoft 365 보안 센터의 위협 관리 정책
 - 추가 Exchange Online 테넌트 수준 설정
-- SharePoint 관리 센터의 테넌트 수준 공유 정책
-- Azure AD(Azure Active Directory)의 설정
+- SharePoint Online 관리 센터의 테넌트 정체 공유 정책
+- Azure Active Directory(Azure AD)의 설정
 
-또한 [SharePoint, OneDrive 및 Microsoft Teams용 Office 365 ATP(Advanced Threat Protection)를 사용하도록 설정](https://docs.microsoft.com/ko-KR/office365/securitycompliance/turn-on-atp-for-spo-odb-and-teams)했습니다.
+또한 [SharePoint, OneDrive 및 Microsoft Teams를 위해 Office 365 ATP(Advanced Threat Protection)를 사용하도록 설정](https://docs.microsoft.com/office365/securitycompliance/turn-on-atp-for-spo-odb-and-teams)했습니다.
 
 필요한 경우 [3단계](../infoprotect-configure-increased-security-office-365.md)를 통해 이 요구 사항을 충족할 수 있습니다. 
 
-<a name="crit-infoprotect-step3"></a>
+<a name="crit-infoprotect-step2"></a>
 ### <a name="optional-classification-is-configured-across-your-environment"></a>선택: 전체 사용자 환경에서 분류 구성
 
-법률 및 규정 준수 팀과 협력하여 조직의 데이터 거버넌스 및 보안 정책에 적합한 분류 및 레이블 지정 체계를 개발하기 위해 작업하였습니다. 
+법률 및 준수 팀과 함께 조직의 데이터 거버넌스 및 보안 정책을 위한 적합한 분류 및 레이블 지정 체계를 개발하기 위해 작업하였습니다. 
 
 해당 정책은 다음과 같은 구성 및 배포에 해당합니다.
 
@@ -39,9 +39,31 @@
 
 필요한 경우 [2단계](../infoprotect-configure-classification.md)를 통해 이 요구 사항을 충족할 수 있습니다. 
 
+
+<a name="crit-infoprotect-step4"></a>
+### <a name="optional-windows-information-protection-is-deployed-across-your-environment"></a>선택 사항: Windows Information Protection이 환경 전체에 배포됩니다.
+
+등록된 Windows 10 Enterprise 장치에 다음을 정의하는 Intune 정책이 배포되고 적용됩니다.
+
+- 보호할 앱 유형.
+- 보호 수준.
+- 보호를 확장하는 위치.
+
+필요한 경우, [4단계](../infoprotect-deploy-windows-information-protection.md)를 통해 이 요구 사항을 충족할 수 있습니다. 
+
 <a name="crit-infoprotect-step5"></a>
+### <a name="optional-office-365-data-loss-prevention-dlp-is-deployed"></a>선택 사항: Office 365 DLP(Data Loss Prevention)
+
+조직이 고객과 기타 개인 데이터 유형을 보호하고 산업 및 지역 규정과 요구 사항을 준수하는 데 필요한 DLP 정책 집합(위치 및 조건과 조치과 포함된 규칙 사용)을 분석하고 테스트하며 공개했습니다.
+
+데이터 준수 및 보안 교직원이 Office 365 보안 및 준수 대시보드를 사용하여 DLP 인시던트를 모니터링합니다.
+
+필요한 경우 [5단계](../infoprotect-data-loss-prevention.md)를 통해 이 요구 사항을 충족할 수 있습니다. 
+
+
+<a name="crit-infoprotect-step6"></a>
 ### <a name="optional-configure-privileged-access-management-in-office-365"></a>선택 사항: Office 365의 권한이 부여된 액세스 관리 구성
 
-[Office 365에서 권한이 부여된 액세스 관리 구성](https://docs.microsoft.com/office365/securitycompliance/privileged-access-management-configuration) 항목의 정보를 사용하여 권한이 부여된 액세스를 사용하고 조직에서 하나 이상의 권한이 부여된 액세스 정책을 만들었습니다. 이러한 정책을 구성하고 중요한 데이터에 대한 액세스 또는 중요한 구성 설정에 대한 액세스를 위해 Just in-Time 액세스가 활성화됩니다.
+권한이 부여된 액세스를 사용하고 조직에서 하나 이상의 권한이 부여된 액세스 정책을 만들어내기 위해 [Office 365에서 권한이 부여된 액세스 관리 구성](https://docs.microsoft.com/office365/securitycompliance/privileged-access-management-configuration)의 정보를 사용하였습니다. 이러한 정책을 구성하고 중요한 데이터에 대한 액세스 또는 중요한 구성 설정에 대한 액세스를 위해 적기에 맞는 액세스가 활성화됩니다.
 
-필요한 경우 [4단계](../infoprotect-configure-privileged-access-management.md)를 통해 이 요구 사항을 충족할 수 있습니다. 
+필요한 경우 [6단계](../infoprotect-configure-privileged-access-management.md)를 통해 이 요구 사항을 충족할 수 있습니다. 
