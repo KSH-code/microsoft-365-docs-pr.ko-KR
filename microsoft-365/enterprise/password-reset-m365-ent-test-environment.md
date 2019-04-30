@@ -3,53 +3,61 @@ title: Microsoft 365 테스트 환경을 위한 암호 재설정
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 08/30/2018
+ms.date: 04/19/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
 ms.collection:
-- Ent_O365
+- M365-identity-device-management
 - Strat_O365_Enterprise
 ms.custom:
 - TLGS
 - Ent_TLGs
 ms.assetid: ''
 description: '요약: Microsoft 365 테스트 환경을 위한 암호 재설정을 구성하고 테스트합니다.'
-ms.openlocfilehash: a90cb362a2831bf0bcf3fe05932e3a4345d52b2e
-ms.sourcegitcommit: eb1a77e4cc4e8f564a1c78d2ef53d7245fe4517a
+ms.openlocfilehash: 30ce8517d1b0eb8967bd7cb26abba780d81eb8b0
+ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/28/2018
-ms.locfileid: "26870301"
+ms.lasthandoff: 04/26/2019
+ms.locfileid: "33353160"
 ---
 # <a name="password-reset-for-your-microsoft-365-test-environment"></a>Microsoft 365 테스트 환경을 위한 암호 재설정
 
-Azure AD SSPR(셀프 서비스 암호 재설정)을 사용하면 사용자가 암호 또는 계정을 다시 설정하거나 잠금을 해제할 수 있습니다. 
+Azure AD(Azure Active Directory)를 사용하면 사용자가 암호 또는 계정을 다시 설정하거나 잠금을 해제할 수 있습니다. 
 
-이 문서에서는 Microsoft 365 테스트 환경에서 암호 재설정을 구성 및 테스트하는 방법을 두 단계로 설명합니다.
+이 문서에서는 Microsoft 365 테스트 환경에서 암호 재설정을 구성 및 테스트하는 방법을 세 단계로 설명합니다.
 
-1.  암호 해시 동기화로 시뮬레이트된 Microsoft 365 엔터프라이즈 테스트 환경을 만듭니다.
-2.  사용자 2 계정에 대한 암호 재설정을 구성하고 테스트합니다.
+1.  Microsoft 365 Enterprise 테스트 환경을 만듭니다.
+2.  암호 쓰기 저장을 사용하도록 설정
+3.  사용자 2 계정에 대한 암호 재설정을 구성하고 테스트합니다.
     
 ![Microsoft 클라우드의 테스트 랩 가이드](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
     
 > [!TIP]
 > [여기](https://aka.ms/m365etlgstack)를 클릭하여 Microsoft 365 Enterprise 테스트 랩 가이드 스택의 모든 문서에 대한 가상 맵을 확인할 수 있습니다.
-  
+
 ## <a name="phase-1-configure-password-hash-synchronization-for-your-microsoft-365-test-environment"></a>1단계: Microsoft 365 테스트 환경을 위한 암호 해시 동기화 구성
 
-[Microsoft 365에 대한 암호 해시 동기화](password-hash-sync-m365-ent-test-environment.md) 지침을 따릅니다. 결과 구성은 다음과 같습니다.
+먼저 [암호 해시 동기화](password-hash-sync-m365-ent-test-environment.md) 지침을 따릅니다. 결과 구성은 다음과 같습니다.
   
-![통과 인증 테스트 환경으로 시뮬레이트된 엔터프라이즈](media/pass-through-auth-m365-ent-test-environment/Phase2.png)
+![암호 해시 동기화 테스트 환경으로 시뮬레이트된 엔터프라이즈](media/pass-through-auth-m365-ent-test-environment/Phase1.png)
   
 이 구성은 다음으로 이루어집니다. 
   
-- Office 365 E5 및 EMS E5 평가판 또는 영구 구독
+- Office 365 E5 및 EMS E5 평가판 또는 유료 구독
 - 인터넷에 연결된 간소화된 조직 인트라넷: Azure Virtual Network 서브넷에 있는 DC1, APP1 및 CLIENT1 가상 머신으로 구성됩니다. 
-- Azure AD Connect는 테스트 랩 Windows Server AD 도메인을 Office 365 및 EMS E5 구독의 Azure AD 테넌트와 동기화하기 위해 APP1에서 실행됩니다.
+- Azure AD Connect는 테스트 랩 AD DS(Active Directory 도메인 서비스) 도메인을 Office 365 및 EMS E5 구독의 Azure AD 테넌트와 동기화하기 위해 APP1에서 실행됩니다.
 
-## <a name="phase-2-configure-and-test-password-reset"></a>2단계: 암호 재설정 구성 및 테스트
+
+## <a name="phase-2-enable-password-writeback"></a>2단계: 암호 쓰기 저장을 사용하도록 설정
+
+[암호 쓰기 저장 테스트 랩 가이드의 2단계](password-writeback-m365-ent-test-environment.md#phase-2-enable-password-writeback-for-the-testlab-ad-ds-domain)에 있는 지침을 따릅니다.
+
+암호 쓰기 저장을 사용하려면 암호를 재설정할 수 있도록 지정해야 합니다.
+  
+## <a name="phase-3-configure-and-test-password-reset"></a>3단계: 암호 재설정 구성 및 테스트
 
 이 단계에서는 그룹 구성원 자격을 통해 Azure 테넌트에서 암호 재설정을 구성한 후 작동하는지 확인합니다.
 
@@ -75,9 +83,9 @@ Azure AD SSPR(셀프 서비스 암호 재설정)을 사용하면 사용자가 �
 6. 사용자 2 계정 자격 증명으로 로그인하고 CAPTCHA의 문자를 입력한 후 **다음**을 클릭합니다.
 8. **확인 단계 1**에서 **Email my alternate email**(다른 이메일로 메일 보내기)를 클릭한 다음, **이메일**을 클릭합니다. 이메일을 받으면 확인 코드를 입력하고 **다음**을 클릭합니다.
 9. **Get back into your account(계정에 다시 접속)** 에서 사용자 2 계정에 대한 새 암호를 입력하고 **마침**을 클릭합니다. 사용자 2 계정의 변경된 암호를 적어 안전한 위치에 저장합니다.
-10. 동일한 브라우저의 별도 탭에서 [https://portal.office.com](https://portal.office.com)으로 이동한 후 사용자 2 계정 이름과 해당 새 암호로 로그인합니다. **Office Home** 페이지가 표시됩니다.
+10. 동일한 브라우저의 별도 탭에서 [https://portal.office.com](https://portal.office.com)으로 이동한 후 사용자 2 계정 이름과 해당 새 암호로 로그인합니다. **Microsoft Office 홈** 페이지가 표시됩니다.
 
-프로덕션 환경에서 암호 재설정을 구성하기 위한 정보 및 단계에 대해서는 ID 단계의 [암호 재설정 간소화](identity-password-reset.md) 단계를 참조하세요.
+프로덕션 환경에서 암호 재설정을 구성하기 위한 정보 및 단계에 대해서는 ID 단계의 [암호 재설정 간소화](identity-password-reset.md#identity-pw-reset) 단계를 참조하세요.
 
 ## <a name="next-step"></a>다음 단계
 
