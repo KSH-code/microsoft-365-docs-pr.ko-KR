@@ -10,12 +10,12 @@ localization_priority: Normal
 audience: microsoft-business 
 keywords: Microsoft 365 Business, Microsoft 365, SMB, FAQ, 질문과 대답, 답변, 비즈니스
 ms.date: 06/08/2018
-ms.openlocfilehash: 1e277aed366d82e524ef99c43ab0401b5d35e5b0
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: bdcfd6a78278aff83b3fc21ae0fbb43bce140a16
+ms.sourcegitcommit: 1034f54472de62897f2e8f12459db8043ac8443b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32286131"
+ms.lasthandoff: 04/30/2019
+ms.locfileid: "33497755"
 ---
 # <a name="microsoft-365-business-frequently-asked-questions"></a>Microsoft 365 Business 질문과 대답
 
@@ -116,7 +116,7 @@ Microsoft 365 Business의 전체 기능을 체험하고자 하는 고객은 기�
 성공적으로 Microsoft 365 Business를 배포하는 가장 직접적인 경로는 Microsoft 파트너와 협력하는 것입니다. Microsoft 파트너는 다양한 고객 시나리오의 광범위한 교육과 경험을 갖추었으며 귀하의 환경에 필요한 것을 파악하도록 가장 잘 훈련되었습니다. 숙련된 IT 직원이 있는 고객은 <a href="https://support.office.com/article/496e690b-b75d-4ff5-bf34-cc32905d0364" target="_blank">Microsoft 365 Business 시작</a>을 참고하여 Microsoft 365 Business 배포를 지원할 수 있습니다. 
 
 ### <a name="does-microsoft-365-business-include-the-full-capabilities-of-microsoft-intune"></a>Microsoft 365 Business에 Microsoft Intune의 전체 기능이 포함되나요? 
-예, Microsoft 365 Business 구독자는 iOS, Android, macos 및 기타 플랫폼 간 장치 관리에 대해 전체 Intune 기능을 사용할 수 있습니다. Microsoft 365 Business의 간소화 된 관리 콘솔에서 사용할 수 없는 기능 (타사 앱 관리 및 WiFi 프로필, VPN 인증서 등)의 구성과 마찬가지로 전체 Intune 콘솔에서 관리할 수 있습니다.   
+예, Microsoft 365 Business 구독자는 iOS, Android, macos 및 기타 플랫폼 간 장치 관리에 대해 전체 Intune 기능을 사용할 수 있습니다. Microsoft 365 Business의 간소화 된 관리 콘솔에서 사용할 수 없는 기능 (타사 앱 관리 및 WiFi 프로필의 구성, VPN 인증서 등)은 전체 Intune 콘솔에서 관리할 수 있습니다. EMS 라이선스에서 다루는 클라이언트를 관리 하기 위해 Configuration Manager를 사용할 수 있는 권한이 있어야 합니다. sccm 관련 쿼리의 경우 <a href="https://docs.microsoft.com/en-us/sccm/core/understand/product-and-licensing-faq#bkmk_csp" target="_blank">sccm faq</a> 를 참조 하세요.
   
 
 ### <a name="does-azure-active-directory-premium-p1-come-with-microsoft-365-business"></a>Azure Active Directory Premium P1은 Microsoft 365 Business와 함께 제공 되나요? 
