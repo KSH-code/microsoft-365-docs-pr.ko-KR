@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: Microsoft 365 Enterprise의 구성 요소, 계획 및 배포 경로에 대해 소개 합니다.
-ms.openlocfilehash: a206924e7056d0213dd0721c2259736a031f80d6
-ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
+ms.openlocfilehash: d3cac3274a93c2f6d2d042a03a5140f16152d8d9
+ms.sourcegitcommit: dbcc32218489ab256b7eb343290fcccb9bc04e36
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2019
-ms.locfileid: "33353208"
+ms.lasthandoff: 05/02/2019
+ms.locfileid: "33553337"
 ---
 # <a name="microsoft-365-enterprise-overview"></a>Microsoft 365 Enterprise 개요
 
@@ -32,7 +32,7 @@ Microsoft 365 Enterprise는 다음으로 구성 됩니다.
 |:-------|:-----|
 | Office 365 Enterprise | Office 365 ProPlus, PC 및 Mac 용 최신 Office 앱 (예: Word, Excel, PowerPoint, Outlook 등)과 전자 메일, 파일 저장 및 공동 작업, 모임 등에 대 한 전체 온라인 서비스 모음을 포함 합니다. |
 | Windows 10 Enterprise | 광범위 한 배포, 장치 및 앱 관리를 통해 사용자에 게 가장 생산적이 고 안전한 버전의 Windows 및 IT 전문가가 제공 되는 대규모 및 중간 규모 조직 모두의 요구 사항을 해결 합니다. |
-| EMS (Enterprise Mobility + Security) | 회사 데이터를 보호 하는 동시에 직원의 생산성을 높일 수 있도록 하는 클라우드 기반 엔터프라이즈 이동성 관리 (emm) 서비스인 Microsoft Intune이 포함 되어 있습니다. |
+| EMS (Enterprise Mobility + Security) | 회사 데이터를 보호 하는 동시에 직원의 생산성을 높일 수 있도록 하는 클라우드 기반 엔터프라이즈 이동성 관리 (EMM) 서비스인 Microsoft Intune이 포함 되어 있습니다. |
 |||
 
 ## <a name="plans"></a>계획
@@ -41,9 +41,9 @@ Microsoft 365 Enterprise는 3 가지 요금제로 제공 됩니다.
 
 |||
 |:-------|:-----|
-| E3 | Office 365 enterprise, Windows 10 enterprise 및 EMS (Enterprise Mobility + Security)를 포함 합니다. |
+| E3 | Office 365 Enterprise, Windows 10 Enterprise 및 EMS (Enterprise Mobility + Security)를 포함 합니다. |
 | E5 | 모든 E3's 기능 및 고급 보안, 음성 및 데이터 분석 도구를 포함 합니다. |
-| F1 | 최고 작업을 수행 하는 데 필요한 도구 및 리소스에 firstline worker를 연결 하기 위한 목적으로 작성 되었습니다. firstline worker가 고객에 게 참여 하 고 회사의 브랜드 및 가치를 나타내는 첫 번째 라인입니다. |
+| F1 | 최고 작업을 수행 하는 데 필요한 도구 및 리소스에 firstline worker를 연결 하기 위한 목적으로 작성 되었습니다. Firstline worker가 고객에 게 참여 하 고 회사의 브랜드 및 가치를 나타내는 첫 번째 라인입니다. |
 |||
 
 자세한 내용은 [각 요금제의 기능 및](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans)기능을 참조 하십시오.
@@ -66,11 +66,11 @@ Microsoft 365 Enterprise는 3 가지 요금제로 제공 됩니다.
 
 Microsoft 365 Enterprise의 제품, 기능 및 구성 요소를 배포 하는 방법에는 다음 세 가지가 있습니다.
 
-1. fasttrack와의 파트너 관계
+1. FastTrack와의 파트너 관계
   
-   fasttrack을 사용 하면 Microsoft 엔지니어가 사용자의 진도에 따라 클라우드로 쉽게 이동할 수 있습니다. [Microsoft 365에 대한 FastTrack](https://fasttrack.microsoft.com/microsoft365)을 참조하십시오.
+   FastTrack을 사용 하면 Microsoft 엔지니어가 사용자의 진도에 따라 클라우드로 쉽게 이동할 수 있습니다. [Microsoft 365에 대한 FastTrack](https://fasttrack.microsoft.com/microsoft365)을 참조하십시오.
   
-2. microsoft 컨설팅 서비스 또는 [microsoft 파트너](https://partner.microsoft.com/)의 도움을 받을 수 있습니다.
+2. Microsoft 컨설팅 서비스 또는 [microsoft 파트너](https://partner.microsoft.com/)의 도움을 받을 수 있습니다.
 
    컨설턴트는 현재 인프라를 분석 하 고 Microsoft 365 Enterprise의 모든 소프트웨어 및 서비스를 통합 하기 위한 계획을 수립할 수 있도록 지원 합니다.
 
@@ -81,7 +81,7 @@ Microsoft 365 Enterprise의 제품, 기능 및 구성 요소를 배포 하는 �
 배포에 대 한 자세한 내용은 how to를 참조 하십시오.
 
 - [고객은](deploy-microsoft-365-enterprise.md#how-customers-use-microsoft-365-enterprise) Microsoft 365 Enterprise를 사용 합니다.
-- [](deploy-microsoft-365-enterprise.md#how-microsoft-uses-microsoft-365-enterprise) microsoft는 microsoft 365 Enterprise를 사용 합니다.
+- [](deploy-microsoft-365-enterprise.md#how-microsoft-uses-microsoft-365-enterprise) Microsoft는 Microsoft 365 Enterprise를 사용 합니다.
 - 가상의 대표적인 다국적 조직인 [Contoso Corporation](contoso-overview.md)에는 Microsoft 365 Enterprise가 배포 되어 있습니다.
 
 ## <a name="additional-microsoft-365-solutions"></a>추가 Microsoft 365 솔루션
@@ -98,16 +98,11 @@ Microsoft 365 Enterprise의 제품, 기능 및 구성 요소를 배포 하는 �
  
   미국 공공 부문 직원이 안전 하 게 함께 작동 하도록 역량 강화
 
-
-
 ## <a name="microsoft-365-training"></a>Microsoft 365 교육
 
 |||
 |:-------|:-----|
 ![](./media/m365-poster/m365-fundamentals.svg)| 직접 훈련 하 고 Microsoft 365 인증을 받아야 합니다. <BR> [Microsoft 365 기본](https://docs.microsoft.com/learn/paths/m365-fundamentals/)사항을 사용 하 여 시작 합니다.
-
-
-
 
 
 ## <a name="next-step"></a>다음 단계
