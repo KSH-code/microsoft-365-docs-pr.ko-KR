@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 조직을 위해 일할 사용자 및 그룹 집합을 계획합니다.
-ms.openlocfilehash: f8b3df73518e33c7750c0b72b2cb9f36bc8e9745
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: c74ff672ce84a5609c11eb4fa7a0405d350349ab
+ms.sourcegitcommit: dbcc32218489ab256b7eb343290fcccb9bc04e36
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32283801"
+ms.lasthandoff: 05/02/2019
+ms.locfileid: "33553297"
 ---
 # <a name="step-1-plan-for-users-and-groups"></a>1단계: 사용자 및 그룹 계획
 
@@ -42,7 +42,7 @@ ID 인프라를 만들려면 기본 ID 공급자를 지정해야 합니다. 이 
 - **Active Directory Domain Services (AD DS)**, Windows Server를 실행하는 컴퓨터에서 관리되는 인트라넷 ID 공급자. 일반적으로 기존 온-프레미스 ID 공급자를 보유하는 조직에서 사용됩니다.
 - **Azure Active Directory(Azure AD)**, 사용자 환경을 관리 및 보호하기 위한 광범위한 기능을 제공하는 클라우드 기반의 IDaaS(Identity as a Service). 일반적으로 기존 온-프레미스 인프라가 없는 조직에서 사용됩니다.
 
-조직에 기존 온-프레미스 ID 공급자가 있는 경우, Microsoft 365 Enterprise의 클라우드 기반 서비스에 대한 보다 원활한 액세스를 제공하기 위해 Active Directory Domain Services (AD DS)의 사용자 계정 및 그룹을 동기화해야 합니다. 또한 Azure AD를 사용하여 Microsoft 클라우드에만 존재하는 그룹을 만들고 관리할 수 있습니다.
+조직에 기존 온-프레미스 ID 공급자가 있는 경우, Microsoft 365 Enterprise의 클라우드 기반 서비스에 대한 보다 원활한 액세스를 제공하기 위해 AD DS의 사용자 계정 및 그룹을 Azure AD에 동기화해야 합니다. 또한 Azure AD를 사용하여 Microsoft 클라우드에만 존재하는 그룹을 만들고 관리할 수 있습니다.
 
 Azure AD에서 사용자 및 그룹을 만든 후 다음을 수행할 수 있습니다.
 

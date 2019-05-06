@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 보안 SharePoint Online 팀 사이트 및 Microsoft Teams 팀을 만들어 가장 소중하고 중요한 디지털 자산을 저장합니다.
-ms.openlocfilehash: 4342ba5e5d1c83ed0c9d26100afd86afa1e62723
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: d80be334f692f905ec70ae43f851d2b73801f4a0
+ms.sourcegitcommit: dbcc32218489ab256b7eb343290fcccb9bc04e36
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32289809"
+ms.lasthandoff: 05/02/2019
+ms.locfileid: "33553327"
 ---
 # <a name="microsoft-teams-and-sharepoint-online-sites-for-highly-regulated-data"></a>높은 규제 대상 데이터에 대한 Microsoft Teams 및 SharePoint Online 사이트
 

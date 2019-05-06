@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 구성이 ID 기반 서비스 및 인프라에 대한 Microsoft 365 Enterprise 조건을 충족하는지 확인합니다.
-ms.openlocfilehash: e36f6e88c41454a951f6c6da4253c4bac07f2fb8
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 0f2d1cbeef87301729b23a6290277b28466c9770
+ms.sourcegitcommit: dbcc32218489ab256b7eb343290fcccb9bc04e36
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32285555"
+ms.lasthandoff: 05/02/2019
+ms.locfileid: "33553307"
 ---
 # <a name="phase-2-identity-infrastructure-exit-criteria"></a>2단계: ID 인프라 종료 조
 
@@ -93,7 +93,7 @@ Active Directory Domain Services(AD DS)와 같은 기존 온-프레미스 ID 공
 
 디렉터리 동기화가 올바르게 작동하는지 확인하려면 다음을 수행합니다.
 
-1.  AD DS(Active Directory Domain Services 서비스)에 새 테스트 그룹을 만듭니다.
+1.  AD DS에서 새 테스트 그룹을 만듭니다.
 2.  동기화 시간까지 기다립니다.
 3.  Azure AD 테넌트를 확인하여 새 테스트 그룹 이름이 표시되는지 확인합니다.
 
