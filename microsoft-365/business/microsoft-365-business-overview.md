@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 Business 시작
+title: 개요 Microsoft 365 Business
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -21,73 +21,42 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Microsoft 365 Business를 설정하는 방법 알아보기
-ms.openlocfilehash: 80c6590a682af5fadeceac7a75e409adac897f6f
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: eb3d611d2be0480fdd0ff897ec5ba69b17695041
+ms.sourcegitcommit: db1dfb2df2c2f7beced3b57bc772d106c189e88a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32276733"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "33660473"
 ---
-# <a name="get-started-with-microsoft-365-business"></a>Microsoft 365 Business 시작
+# <a name="overview-of-microsoft-365-business"></a>Microsoft 365 비즈니스 개요
 
 ## <a name="what-is-microsoft-365-business"></a>Microsoft 365 Business란
 
 Microsoft 365 Business는 항상 최신 상태를 유지하는 Outlook, Word, Excel 등의 Office 제품과 같은 다양한 비즈니스 생산성 및 공동 작업 도구입니다. 간단하게 관리할 수 있는 엔터프라이즈급 보안을 사용하여 모든 iOS, Android 및 Windows 10 장치에서 작업 파일을 보호할 수 있습니다.
   
-Microsoft 365 Business는 최대 300개의 라이선스용으로 만들어졌으며, 라이선스가 더 필요한 경우 자세한 내용은 [Microsoft 365 Enterprise](https://go.microsoft.com/fwlink/p/?linkid=860986) 설명서를 참조하세요. 
+Microsoft 365 Business는 최대 300개의 라이선스용으로 만들어졌으며, 라이선스가 더 필요한 경우 자세한 내용은 [Microsoft 365 Enterprise](https://go.microsoft.com/fwlink/p/?linkid=860986) 설명서를 참조하세요.
+
+전체 기능 목록에 대 한 [Microsoft 365 Business service description](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-business-service-description) 을 참조 하세요.
   
+## <a name="small-business-security-needs"></a>소규모 기업 보안 요구 사항
+
+비즈니스 데이터는 여러 가지 방식으로 손상 될 수 있습니다. 손상 된 자격 증명을 사용 하 여 로그인 하거나 다른 장치 및 응용 프로그램에서 조직 데이터를 볼 때 귀하와 사용자가 조직의 보안을 해칠 수 있습니다. 보다 구체적으로 말하면 조직은 다음과 같은 위험에 노출 됩니다.
+
+1. 손상 되었거나 취약 한 로그인 자격 증명
+2. 약한 pin 또는 사용자 소유의 장치를 사용한 손상 된 장치입니다.
+3. 조직의 데이터를 개인 앱에 복사/붙여 넣고 저장 하는 사용자입니다.
+4. 보안이 취약 한 3 개의<sup>rd</sup> 파티 앱을 설치 하 고 사용 하는 사용자입니다.
+5. 중요 한 데이터 공유, 피싱 시도, 맬웨어 등을 비롯 한 전자 메일 취약성
+6. 사용자가 참석 해야 하는 경우 중요 한 정보가 포함 된 문서에 액세스할 수 있습니다.
+
+Microsoft 365 Business는 이러한 각 인스턴스에서 데이터를 보호 하는 데 도움이 됩니다. 다음 그림에서는 비즈니스 데이터를 보호 하는 보안 기능에 대해 자세히 설명 합니다.
+
+![M365B에서 비즈니스를 보호 하는 방법을 보여 주는 그림](media/m365businessvalueadd.png)
+
+전체 보안 기능 목록을 보려면 [Microsoft 365 Business security features](security-features.md)를 참조 하세요. [Microsoft 365 Business를 설정한](set-up.md)후 설치의 일부로 포함 되지 않은 보안 기능을 시작 하려면 [고급 보안 정책 설정을](set-up-advanced-security.md) 참조 하십시오. 사이버 범죄자 및 해커 로부터 보호를 설정 하는 방법에 대 한 자세한 내용은 [Office 365 및 Microsoft 365 비즈니스 요금제를 보호 하기 위한 상위 10 가지 방법을](https://docs.microsoft.com/office365/admin/security-and-compliance/secure-your-business-data) 읽어 보세요.
+
 ## <a name="get-microsoft-365-business"></a>Microsoft 365 Business 받기
 
-- 파트너가 있는 경우 파트너가 Microsoft 365 Business를 받습니다([Microsoft 파트너 센터에서 Microsoft 365 Business 받기)](get-microsoft-365-business.md).
-    
-- 파트너가 없는데 Microsoft 365 Business를 받으려면 [여기에서 구매](https://www.microsoft.com/en-us/microsoft-365/business)할 수 있습니다.
-    
-## <a name="set-up-microsoft-365-business"></a>Microsoft 365 Business 설정
+- 파트너가 있는 경우 파트너가 Microsoft 365 Business를 받습니다([Microsoft 파트너 센터에서 Microsoft 365 Business 받기)](get-microsoft-365-business.md#get-microsoft-365-business-from-microsoft-partner-center).
 
- **Microsoft 365 Business 제품군 설정 개요**
-  
-다음 다이어그램에서는 관리자가 Microsoft 365 Business를 설정하는 방법을 설명합니다. Microsoft 365 Business용 Windows PC를 준비하는 단계도 설명합니다. [Windows AutoPilot](add-autopilot-devices-and-profile.md)을 사용하여 Microsoft 365 Business 관리 센터에서 새 장치를 추가할 수도 있습니다. AutoPilot을 사용하여 새 장치를 설정하고 사전 구성할 수 있으며, 사용자가 Microsoft 365 Business 자격 증명으로 로그인하는 즉시 생산성 있게 사용할 준비가 됩니다.
-  
-![관리자 및 사용자의 설정 및 관리 흐름을 보여 주는 다이어그램](media/249f81fc-7e79-44c7-8425-3a0b7b651c3b.png)
-  
-### <a name="1-set-up-microsoft-365-business-admin"></a>1: Microsoft 365 Business 설정(관리자)
-
-전역 관리자 자격 증명을 사용하여 [Microsoft 365 Business 관리 센터](https://portal.office.com/adminportal/home)에 로그인하고 아래 단계를 완료하여 Microsoft 365 Business을(를) 설정합니다. 
-  
-1. [Microsoft 365 Business를 사용하여 장치의 데이터를 보호하기 위한 필수 조건](pre-requisites-for-data-protection.md)
-    
-    우선 필수 조건을 읽어 장치가 Microsoft 365 Business를 사용할 준비가 되었는지 확인합니다.
-    
-2. [설정 마법사를 사용하여 Microsoft 365 Business 설정](set-up.md)
-    
-    **로컬 Active Directory에서 클라우드로 영구적으로 전환**하는 경우 설정 마법사를 사용하여 Microsoft 365 Business 관리 센터에서 수동으로 사용자를 추가하거나 Azure AD Connect와 일회성 동기화를 수행할 수 있습니다. 두 가지 방법으로 이 작업을 수행할 수 있습니다. 
-    
-  - 또한 Exchange 2010, Exchange 2013 또는 Exchange 2016 서버가 있는 경우 [최소 하이브리드를 사용하여 Exchange 사서함을 Office 365로 빠르게 마이그레이션](https://support.office.com/article/fdecceed-0702-4af3-85be-f2a0013937ef)할 수 있습니다. 최소 하이브리드 단계에는 온-프레미스에서 클라우드로 전자 메일 마이그레이션뿐만 아니라 Azure AD와 사용자의 일회성 동기화가 포함됩니다. 이 방법을 사용하면 전자 메일 마이그레이션이 완료된 후 디렉터리 동기화가 자동으로 해제됩니다.
-    
-  - 사용자와 클라우드를 동기화하려면 Office 365 디렉터리 동기화 마법사를 사용하세요. [Office 365에서 디렉터리 동기화 설정](https://support.office.com/article/1b3b5318-6977-42ed-b5c7-96fa74b08846)의 단계를 따라 이 프로세스를 완료합니다. 사용자를 클라우드에 동기화한 후 [디렉터리 동기화를 해제해야 합니다](https://support.office.com/article/ee5f861e-bd48-4267-83d1-a4ead4b4a00d).
-    
-    또한 이 방법으로 추가한 사용자에게 Microsoft 365 Business에 대한 라이선스를 부여해야 합니다. [설정 마법사](set-up.md) 또는 [비즈니스용 Office 365의 사용자에게 라이선스 할당](https://support.office.com/article/997596B5-4173-4627-B915-36ABAC6786DC)에서 이 작업을 수행할 수 있습니다.
-    
-### <a name="2-prepare-mobile-devices"></a>2: 모바일 장치 준비
-
-[Microsoft 365 Business 사용자를 위해 모바일 장치 설정](set-up-mobile-devices.md)의 단계에 따라 장치에 Office 앱을 설치하고 Microsoft 365 Business로 보호되는지 확인합니다. 
-  
-### <a name="3-prepare-pcs"></a>3: PC 준비
-
-관리자는 [Windows AutoPilot](add-autopilot-devices-and-profile.md)을 사용하여 새 장치 Windows 10 PC의 설정을 미리 선택할 수 있습니다. 사용자는 [Microsoft 365 Business 사용자용 Windows PC 설정](set-up-windows-devices.md) 항목의 단계에 따라 기존 또는 새 Windows 10 장치를 설정할 수 있습니다. 기존 장치의 경우 사용자는 **선택적으로**[ 비즈니스용 OneDrive로 파일을 이동](move-files-to-onedrive.md)할 수도 있습니다. 타사 도구를 사용하여 Windows 프로필과 연결된 파일을 OneDrive로 이동할 수도 있습니다.
-  
-조직에서 Windows Server Active Directory 온-프레미스를 사용하는 경우 사용자는 로컬 인증이 필요한 온-프레미스 리소스에 대한 액세스를 계속 유지하면서 Microsoft 365 Business를 설정하여 Windows 10 장치를 보호할 수 있습니다.[Microsoft 365 Business로 도메인에 가입한 Windows 10 장치 관리](manage-windows-devices.md)의 단계에 따라 설정합니다. 이 방법은 권장되는 방법이며, 이러한 상태의 장치를 **하이브리드 Azure AD에 조인된 장치**라고 합니다. 
-  
-파일 공유 및 프린터처럼 일부 온-프레미스 리소스가 포함된 로컬 Active Directory를 유지하는 경우 [Microsoft 365 Business에서 Azure AD에 조인된 장치의 온-프레미스 리소스에 액세스](access-resources.md)의 단계에 따라 이러한 리소스에 대한 액세스 권한을 **Azure AD에 조인된 장치**에 부여할 수 있습니다.
-  
-Windows 10 PC를 설정한 후 장치에 [Office를 자동으로 설치](auto-install-or-uninstall-office.md)할 수 있습니다. 
-  
-## <a name="contact-support"></a>지원 센터 문의
-
- **지원 센터에 문의해야 하는 경우:**
-  
-- 파트너에게 문의합니다.
-    
-- Microsoft 365 Business 관리자는 고객 지원 팀, **[비즈니스 제품에 대해 고객 지원 센터 문의 - 관리자 도움말](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)** 에 액세스할 수 있습니다.
-    
-
+- 파트너가 없고 Microsoft 365 Business를 받으려는 경우 [여기에서 구입](https://www.microsoft.com/microsoft-365/business) 하 여 [등록](sign-up.md) 지침을 따를 수 있습니다.

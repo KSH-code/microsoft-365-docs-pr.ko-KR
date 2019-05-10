@@ -21,20 +21,22 @@ search.appverid:
 - MET150
 ms.assetid: 6f2b80b4-81c3-4714-a7bc-ae69313e8a33
 description: 앱 관리 정책을 만들고, 편집 하 고, 삭제 하 고, Android 또는 iOS 장치에서 작업 파일을 보호 하는 방법을 알아봅니다.
-ms.openlocfilehash: e81ff8a4bd71dbbbf7ccc31249d450e03f4bd241
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 04479360bf13a8ff685a91ed95440c08f8cf80b4
+ms.sourcegitcommit: db1dfb2df2c2f7beced3b57bc772d106c189e88a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32277457"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "33660571"
 ---
 # <a name="set-app-protection-settings-for-android-or-ios-devices"></a>Android 또는 iOS 장치에서 앱 보호 설정 설정하기
 
+![를 https://aka.ms/aboutM365preview가리키는 배너입니다.](media/m365admincenterchanging.png)
+
 ## <a name="create-an-app-management-policy"></a>앱 관리 정책 만들기
 
-1. 전역 관리자 자격 증명을 사용 하 여 [Microsoft 365 Business administration center](https://go.microsoft.com/fwlink/p/?linkid=837890) 에 로그인 합니다. 
+1. 관리 센터 ()로 이동 <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>합니다. 
     
-2. 관리 센터에서 **장치** \> **정책** \> **추가 정책을**선택 합니다.
+2. 왼쪽 탐색 창에서 **장치** \> **정책** \> **추가**를 선택 합니다.
   
 3. **정책 추가** 창에서 이 정책의 고유 이름을 입력합니다. 
     
@@ -62,9 +64,9 @@ ms.locfileid: "32277457"
     
 ## <a name="delete-an-app-management-policy"></a>앱 관리 정책 삭제
 
-1. **정책** 카드에서 **정책 삭제**를 선택합니다.
+1. 정책 페이지 **** 에서 정책을 선택 하 고 **삭제**를 클릭 합니다.
     
-2. **정책 삭제** 창에서 삭제할 정책 \> **선택**, **확인**을 차례로 선택하여 정책 또는 선택한 정책을 삭제합니다. 
+2. **정책 삭제** 창에서 **확인** 을 선택 하 여 선택한 정책 또는 정책을 삭제 합니다. 
     
 ## <a name="available-settings"></a>사용 가능한 설정
 

@@ -3,7 +3,7 @@ title: 간단한 기본 구성
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 03/15/2019
+ms.date: 05/01/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -15,16 +15,16 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 6f916a77-301c-4be2-b407-6cec4d80df76
 description: 이 테스트 랩 가이드를 사용하여 Microsoft 365 Enterprise 테스트를 위한 간단한 테스트 환경을 만듭니다.
-ms.openlocfilehash: 26109f6237ad2eaeb2ac323c190a885031c03a04
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 7ad6d5bcf4e53b918af2c06f81c2744cec7c1b35
+ms.sourcegitcommit: 1b77b699b8e23df8b98530dfad3a29b4aaa0753c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32289292"
+ms.lasthandoff: 05/10/2019
+ms.locfileid: "33867998"
 ---
 # <a name="the-lightweight-base-configuration"></a>간단한 기본 구성
 
-이 문서에서는 Office 365 E5, EMS(Enterprise Mobility + Security) E5 및 Windows 10 Enterprise를 실행하는 컴퓨터가 포함된 간소화된 환경을 만드는 단계별 지침을 제공합니다. 
+이 문서에서는 Microsoft 365 E5 구독 및 Windows 10 Enterprise를 실행하는 컴퓨터에서 간소화된 환경을 만드는 방법에 대한 단계별 지침을 제공합니다. 
 
 ![간단한 Microsoft 365 Enterprise 테스트 환경](media/lightweight-base-configuration-microsoft-365-enterprise/Phase4.png)
 
@@ -37,53 +37,51 @@ ms.locfileid: "32289292"
 
 ## <a name="phase-1-create-your-office-365-e5-subscription"></a>1단계: Office 365 E5 구독 만들기
 
-그림 1과 같이 [Office 365 개발/테스트 환경](https://docs.microsoft.com/office365/enterprise/office-365-dev-test-environment)의 2, 3단계의 세부 단계를 수행하여 경량의 Office 365 개발/테스트 환경을 만듭니다.
-  
-**그림 1: Azure AD(Azure Active Directory) 테넌트 및 사용자 계정을 통한 Office 365 E5 구독**
+[Office 365 개발/테스트 환경](https://docs.microsoft.com/office365/enterprise/office-365-dev-test-environment)의 2, 3단계의 세부 단계를 수행하여 경량의 Office 365 개발/테스트 환경을 만듭니다.
 
-![Microsoft 365 Enterprise 테스트 환경 1단계](media/lightweight-base-configuration-microsoft-365-enterprise/Phase1.png)
+>[!Note]
+>우리는 사용자의 Office 365의 평가판 구독을 생성하여 개발/테스트 환경에 사용자가 현재 보유하고 있는 유료 구독과 별도의 Azure AD 테넌트를 보유하게 합니다. 이러한 분리는 프로덕션 구독에 영향을 주지 않고 테스트 테넌트의 사용자 및 그룹을 추가 및 제거할 수 있음을 의미합니다.
+>
+  
+## <a name="phase-2-add-a-microsoft-365-e5-trial-subscription"></a>2단계: Microsoft 365 E5 평가판 구독 추가.
 
-> [!NOTE]
-> Office 365 E5 평가판 구독 기간은 30일이며, 60일까지 쉽게 연장할 수 있습니다. 영구 테스트 환경의 경우 소수의 라이선스를 사용해서 유료 구독을 새로 만듭니다. 
+이 단계에서는 Microsoft 365 E5 평가판 구독을 등록하고 Office 365 E5 평가판 구독과 동일한 조직에 추가합니다.
   
-## <a name="phase-2-add-ems"></a>2단계: EMS 추가
+우선, Microsoft 365 E5 평가판 구독을 추가하고 전역 관리자 계정에 Microsoft 365 라이선스를 할당합니다.
+  
+1. 인터넷 브라우저의 개인 인스턴스를 사용하고 전역 관리자 계정 자격 증명으로 [http://admin.microsoft.com](http://admin.microsoft.com)의 Microsoft 365 관리 센터에 로그인합니다.
+    
+2. **Microsoft 365 관리 센터** 페이지에 있는 왼쪽 탐색 영역에서 **대금 청구 > 서비스 구매**를 차례로 클릭합니다.
+    
+3. **서비스 구매** 페이지에서, **Microsoft 365 E5** 항목을 찾습니다. 마우스 포인터를 가져간 후 **평가판 시작**을 클릭합니다.
 
-이 단계에서는 EMS E5 평가판 구독을 등록하고 Office 365 E5 평가판 구독과 동일한 조직에 추가합니다.
-  
-먼저, EMS E5 평가판 구독을 추가하고 전역 관리자 계정에 EMS 라이선스를 할당합니다.
-  
-1. 인터넷 브라우저의 개인 인스턴스를 사용하고 전역 관리자 계정 자격 증명으로 Office 포털에 로그인합니다. 도움을 받으려면 [Office 365에 로그인하는 위치](https://support.office.com/Article/Where-to-sign-in-to-Office-365-e9eb7d51-5430-4929-91ab-6157c5a050b4)를 참조하세요.
-    
-2. **관리** 타일을 클릭합니다.
-    
-3. 브라우저의 **Microsoft 365 관리 센터** 탭에 있는 왼쪽 탐색 영역에서 **대금 청구 > 서비스 구매**를 차례로 클릭합니다.
-    
-4. 
-            **구매 서비스** 페이지에서 **Enterprise Mobility + Security E5** 항목을 찾습니다. 마우스 포인터를 가져간 후 **평가판 시작**을 클릭합니다.
-    
+4. **Microsoft 365 E5 평가판** 페이지에서 텍스트 또는 전화를 받도록 선택한 다음, 전화 번호를 입력하고, **문자 받기** 또는 **전화 받기**를 클릭합니다.
+
 5. **주문 확인** 페이지에서 **지금 평가판 사용**을 클릭합니다.
-    
+
 6. **주문 접수** 페이지에서 **계속**을 클릭합니다.
-    
-7. 브라우저의 **Office 365 관리 센터** 탭에 있는 왼쪽 탐색 영역에서 **사용자 > 활성 사용자**를 차례로 클릭합니다.
-    
-8. 전역 관리자 계정을 클릭한 다음, **제품 라이선스**에 대해 **편집**을 클릭합니다.
-    
-9. **제품 라이선스** 창에서 **Enterprise Mobility + Security E5**에 대한 제품 라이선스를 **설정**으로 바꾸고 **저장**을 클릭한 후 **닫기**를 두 번 클릭합니다.
-    
-> [!NOTE]
-> Enterprise Mobility + Security E5 평가판 구독 기간은 90일입니다. 영구 테스트 환경의 경우 소수의 라이선스를 사용해서 유료 구독을 새로 만듭니다. 
+
+7. Microsoft 365 관리 센터에서 **활성 사용자**를 클릭 한 다음 관리자 계정을 클릭합니다.
+
+8. **제품 라이센스**에 대한 **편집**을 클릭합니다.
+
+9. Office 365 Enterprise E5의 라이센스를 끄고 Microsoft 365 E5의 라이센스를 켭니다.
+
+10. **저장 > 닫기 > 닫기**를 클릭합니다.
+
+다음, [Office 365 개발/테스트 환경](https://docs.microsoft.com/office365/enterprise/office-365-dev-test-environment)의 ***3단계를 완료한 경우,*** 다른 모든 계정(사용자 2, 사용자 3, 사용자 4 및 사용자 5)에 대해 이전 절차의 8 및 11단계를 반복합니다.
   
- [Office 365 개발/테스트 환경](https://docs.microsoft.com/office365/enterprise/office-365-dev-test-environment)의 ***3단계를 완료한 경우,*** 다른 모든 계정(사용자 2, 사용자 3, 사용자 4 및 사용자 5)에 대해 이전 절차의 8 및 9단계를 반복합니다.
+> [!NOTE]
+> Microsoft 365 E5 평가판 구독은 30일입니다. 영구 테스트 환경의 경우 소수의 라이선스를 사용해서 이 평가판 구독을 유료 구독으로 전환합니다. 
   
 이제 테스트 환경에는 다음이 구현됩니다.
   
-- 사용자 계정 목록과 동일한 Azure AD 테넌트를 공유하는 Office 365 E5 Enterprise 및 EMS E5 평가판 구독입니다.
-- 모든 해당 사용자 계정(전역 관리자만 또는 5개의 사용자 계정 모두)이 Office 365 E5 및 EMS E5를 사용하도록 설정됩니다.
+- Microsoft 365 E5 평가판 구독.
+- 모든 해당 사용자 계정(전역 관리자만 또는 5개의 사용자 계정 모두)이 Microsoft 365 E5를 사용하도록 설정됩니다.
     
-그림 2는 EMS를 추가하는 구성 결과를 보여줍니다.
+그림 1에서는 구성 결과, Microsoft 365 E5를 추가하는 계정, Office 365 및 EMS(Enterprise Security + Management)를 포함하는 계정을 보여줍니다.
   
-**그림 2: EMS 평가판 구독 추가**
+**그림 1: Microsoft 365 평가판 구독 추가**
 
 ![Microsoft 365 Enterprise 테스트 환경 2단계](media/lightweight-base-configuration-microsoft-365-enterprise/Phase2.png)
   
@@ -151,6 +149,7 @@ New-AzNetworkSecurityGroup -Name Corpnet -ResourceGroupName $rgName -Location $l
 $vnet=Get-AzVirtualNetwork -ResourceGroupName $rgName -Name "M365Ent-TestLab"
 $nsg=Get-AzNetworkSecurityGroup -Name Corpnet -ResourceGroupName $rgName
 Set-AzVirtualNetworkSubnetConfig -VirtualNetwork $vnet -Name Corpnet -AddressPrefix "10.0.0.0/24" -NetworkSecurityGroup $nsg
+$vnet | Set-AzVirtualNetwork
 $pip=New-AzPublicIpAddress -Name WIN10-PIP -ResourceGroupName $rgName -Location $locName -AllocationMethod Dynamic
 $nic=New-AzNetworkInterface -Name WIN10-NIC -ResourceGroupName $rgName -Location $locName -SubnetId $vnet.Subnets[0].Id -PublicIpAddressId $pip.Id
 $vm=New-AzVMConfig -VMName WIN10 -VMSize Standard_D1_V2
@@ -169,13 +168,13 @@ Windows 10 Enterprise가 있는 실제 또는 가상 머신을 만든 후에 로
 > [!NOTE]
 > Azure에 있는 가상 머신에는 [다음 지침](https://docs.microsoft.com/azure/virtual-machines/windows/connect-logon)에 따라 연결합니다.
   
-다음으로, WIN10 컴퓨터를 Office 365 및 EMS 구독의 Azure AD 테넌트에 가입합니다.
+다음으로, WIN10 컴퓨터를 Microsoft 365 E5 구독의 Azure AD 테넌트에 가입합니다.
   
 1. WIN10 컴퓨터의 데스크톱에서 **시작 > 설정 > 계정 > 회사 또는 학교 액세스 > 연결**을 클릭합니다.
     
 2. **회사 또는 학교 계정 설정** 대화 상자에서 **Azure Active Directory에 이 장치 가입**을 클릭합니다.
     
-3. **회사 또는 학교 계정**에서 Office 365 구독의 전역 관리자 계정 이름을 입력하고 **다음**을 클릭합니다.
+3. **회사 또는 학교 계정**에서 Microsoft 365 E5 구독의 전역 관리자 계정 이름을 입력하고 **다음**을 클릭합니다.
     
 4. **암호 입력**에 전역 관리자 계정의 암호를 입력하고 **로그인**을 클릭합니다.
     
@@ -187,7 +186,7 @@ Windows 10 Enterprise가 있는 실제 또는 가상 머신을 만든 후에 로
   
 1. Microsoft Edge 브라우저를 열고 글로벌 관리자 계정 자격 증명으로 Office 포털에 로그인합니다. 도움을 받으려면 [Office 365에 로그인하는 위치](https://support.office.com/Article/Where-to-sign-in-to-Office-365-e9eb7d51-5430-4929-91ab-6157c5a050b4)를 참조하십시오.
     
-2. **Microsoft Office 홈** 탭에서 **Office 2016 설치**를 클릭합니다.
+2. **Microsoft Office 홈** 탭에서 **Office 설치**를 클릭합니다.
     
 3. 수행할 작업을 묻는 메시지가 표시되면 **실행**을 클릭하고 **사용자 계정 컨트롤**에 대해 **예**를 클릭합니다.
     
@@ -195,12 +194,11 @@ Windows 10 Enterprise가 있는 실제 또는 가상 머신을 만든 후에 로
     
 그림 3에서는 다음에 해당하는 WIN10 컴퓨터를 포함하는 결과 환경을 보여줍니다.
 
-- Office 365 및 EMS 구독의 Azure 테넌트에 가입되어 있습니다.
-- Intune(EMS)에 Azure AD 장치로 등록되어 있습니다.
+- Microsoft 365 E5 구독의 Azure AD 테넌트에 가입했습니다.
+- Microsoft Intune(EMS)에서 Azure AD 장치로 등록합니다.
 - Office 365 ProPlus가 설치되어 있습니다.
   
-**그림 3: Microsoft 365 테스트 환경의 최종 구성**
-
+**그림 2: Microsoft 365 테스트 환경의 최종 구성**
 
 ![Microsoft 365 Enterprise 테스트 환경 4단계](media/lightweight-base-configuration-microsoft-365-enterprise/Phase4.png)
   

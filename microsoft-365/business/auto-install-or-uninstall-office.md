@@ -20,14 +20,16 @@ search.appverid:
 - MET150
 ms.assetid: cbc6bfe5-565a-4fb8-95f0-b06e7b74ac46
 description: 'Microsoft 365 비즈니스 관리 센터에서 Windows 10 장치에 Office를 설치 하거나 제거 합니다. '
-ms.openlocfilehash: fef4a543aed489202bf05dfb1e8cafbb784ca819
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 94e5761b516c150caa11048be73d97f468b09fb5
+ms.sourcegitcommit: db1dfb2df2c2f7beced3b57bc772d106c189e88a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32277290"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "33660600"
 ---
 # <a name="automatically-install-or-uninstall-office-on-windows-10-devices"></a>Windows 10 장치에서 Office를 자동으로 설치 또는 제거
+
+![를 https://aka.ms/aboutM365preview가리키는 배너입니다.](media/m365admincenterchanging.png)
 
 Microsoft 365 Business 관리 센터에서 빠르고 쉽게 Windows 10 PC에 Office를 설치할 수 있습니다.
   

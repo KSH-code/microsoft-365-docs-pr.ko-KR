@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 0f7b1d7c-4086-4331-8534-45d7886f9f34
 description: Microsoft 365 Business에서 AutoPilot을 사용 하 여 장치를 업로드 하는 방법을 알아봅니다. 장치 또는 장치 그룹에 프로필을 할당할 수 있습니다.
-ms.openlocfilehash: fff2dbc6af45ef9d4189f23849d638172c19dfb2
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 6492f1469a1ac9ea67750e9ffa071d19c88c743f
+ms.sourcegitcommit: db1dfb2df2c2f7beced3b57bc772d106c189e88a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32277040"
+ms.lasthandoff: 05/07/2019
+ms.locfileid: "33660426"
 ---
 # <a name="create-and-edit-autopilot-devices"></a>AutoPilot 장치 만들기 및 편집
 
@@ -41,9 +41,9 @@ ms.locfileid: "32277040"
     
 - Windows 첫 실행 경험을 완료하지 않은 새 장치
 
-1. Microsoft 365 Business 관리 센터에서 **장치** \> **AutoPilot** \> **추가**를 선택 합니다.
+1. Microsoft 365 Business 관리 센터에서 **장치** \> **AutoPilot**을 선택 합니다.
   
-2. **Windows 준비** 페이지에서 **장치** 탭 \> **장치 추가**를 선택합니다.
+2. **AutoPilot** 페이지에서 **장치** 탭 \> **장치 추가**를 선택 합니다.
     
     ![In the Devices tab, choose Add devices.](media/6ba81e22-c873-40ad-8a72-ce64d15ea6ba.png)
   
