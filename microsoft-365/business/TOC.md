@@ -1,8 +1,11 @@
-# [Microsoft 365 Business](index.md)
-## [개요](microsoft-365-business-overview.md)
+# Microsoft 365 Business
+## [Microsoft 365](index.md)
+## [Microsoft 365 Business 란?](microsoft-365-business-overview.md)
 ## [Microsoft 365 Business 받기](sign-up.md)
 ## [데이터 보호를 위한 필수 구성 요소](pre-requisites-for-data-protection.md)
-## [설정](set-up.md)
+## 설정
+### [설치 개요](set-up-overview.md)
+### [Microsoft 365 Business 설정](set-up.md)
 ### [Windows Pro 크리에이터 업데이트로 업그레이드](upgrade-to-windows-pro-creators-update.md)
 ### [모바일 장치 설정](set-up-mobile-devices.md)
 ### [Windows 장치 설정](set-up-windows-devices.md)
@@ -14,8 +17,10 @@
 ## [보안](security-features.md)
 ### [비즈니스 보안](/Office365/Admin/security-and-compliance/secure-your-business-data?toc=/microsoft-365/business/toc.json&bc=/microsoft-365/business/breadcrumb/toc.json)
 ### [고급 보안 기능 설정](set-up-advanced-security.md)
-## [관리](manage.md)
+## 사용자
 ### [Add users](add-users-m365b.md)
+### [직원 제거](/Office365/Admin/add-users/remove-former-employee?toc=/microsoft-365/business/toc.json&bc=/microsoft-365/business/breadcrumb/toc.json)
+## 장치 관리
 ### [정책 및 장치 보기 및 편집](view-policies-and-devices.md)
 ### [회사 데이터 제거](remove-company-data.md)
 ### [장치를 공장 설정으로 초기화](reset-devices-to-factory-settings.md)
@@ -26,7 +31,12 @@
 #### [Windows 10 Pc의 설정 유효성 검사](validate-settings-on-windows-10-pcs.md)
 ### [Windows 10 장치에 대 한 보호 설정](protection-settings-for-windows-10-devices.md)
 ## [Microsoft 365 Business로 마이그레이션](migrate-to-microsoft-365-business.md)
-## [Autopilot 장치 및 프로필 추가](add-autopilot-devices-and-profile.md)
+## 청구
+### [청구서](/Office365/Admin/subscriptions-and-billing/view-your-bill-or-invoice?toc=/microsoft-365/business/toc.json&bc=/microsoft-365/business/breadcrumb/toc.json)
+### [지불](/Office365/Admin/subscriptions-and-billing/pay-for-your-subscription?toc=/microsoft-365/business/toc.json&bc=/microsoft-365/business/breadcrumb/toc.json)
+### [취소](/Office365/Admin/subscriptions-and-billing/cancel-your-subscription?toc=/microsoft-365/business/toc.json&bc=/microsoft-365/business/breadcrumb/toc.json)
+## Autopilot
+### [Autopilot 장치 및 프로필 추가](add-autopilot-devices-and-profile.md)
 ### [AutoPilot 프로필 만들기 및 편집](create-and-edit-autopilot-profiles.md)
 ### [AutoPilot 장치 만들기 및 편집](create-and-edit-autopilot-devices.md)
 ### [AutoPilot 프로필 설정](autopilot-profile-settings.md)
