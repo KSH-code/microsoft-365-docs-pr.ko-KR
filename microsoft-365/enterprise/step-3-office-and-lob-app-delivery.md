@@ -4,7 +4,7 @@ ms.author: jogruszc
 author: JGruszczyk
 manager: jemed
 ms.date: 09/14/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Office 및 LOB 앱을 배달하는 방법을 알아봅니다.
-ms.openlocfilehash: 2fdd47fa38b3d9403bbd44869e4dfe012abd0f51
-ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
+ms.openlocfilehash: 716be01cd414bea5655fb90289b465db27f15841
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33400152"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34073108"
 ---
 # <a name="step-3-office-and-lob-app-delivery"></a>3단계: Office 및 LOB 앱 배달
 
@@ -43,7 +43,8 @@ ms.locfileid: "33400152"
 
 Windows에 앱을 설치하는 데 사용할 수 있는 여러 방법과 모델이 있으며 전달 옵션을 살펴보겠습니다.
 
-[Windows 10 응용 프로그램 관리](https://docs.microsoft.com/ko-KR/windows/application-management/)
+
+  [Windows 10 응용 프로그램 관리](https://docs.microsoft.com/ko-KR/windows/application-management/)
 
 ## <a name="msi-based-deployments"></a>MSI 기반 배포
 
@@ -61,9 +62,11 @@ System Center Configuration Manager 및 Microsoft Intune 등의 소프트웨어 
 
 Office 365 ProPlus를 이미지에 포함하지 않으려는 경우 이 기능이 사용자 기반 활성화라는 점을 기억하도록 합니다. 즉, 시스템 관리자가 미리 활성화할 수 없습니다. Office 배포 도구를 사용하여 이미징하는 장치에 Office를 미리 설치하고 사용자 로그인을 건너뜁니다. 이미지가 배포되면 최종 사용자는 Office 365 자격 증명을 사용하여 로그인하고 Office 365 ProPlus를 활성화할 수 있습니다.
 
-[운영 체제를 설치하는 작업 시퀀스 만들기](https://docs.microsoft.com/ko-KR/sccm/osd/deploy-use/create-a-task-sequence-to-install-an-operating-system)
 
-[운영 체제 이미지의 일부로 Office 365 ProPlus 배포](https://docs.microsoft.com/ko-KR/deployoffice/deploy-office-365-proplus-as-part-of-an-operating-system-image)
+  [운영 체제를 설치하는 작업 시퀀스 만들기](https://docs.microsoft.com/ko-KR/sccm/osd/deploy-use/create-a-task-sequence-to-install-an-operating-system)
+
+
+  [운영 체제 이미지의 일부로 Office 365 ProPlus 배포](https://docs.microsoft.com/ko-KR/deployoffice/deploy-office-365-proplus-as-part-of-an-operating-system-image)
 
 ## <a name="office-click-to-run"></a>Office 간편 실행 
 
@@ -79,13 +82,17 @@ System Center Configuration Manager를 사용하는 경우 Office 365 ProPlus의
 
 ![](media/step-3-office-and-lob-app-delivery-media/step-3-office-and-lob-app-delivery-media-6.png)
 
-[Office 365 ProPlus 배포 가이드](https://docs.microsoft.com/ko-KR/deployoffice/deployment-guide-for-office-365-proplus)
 
-[Office 365 ProPlus로 업그레이드하는 경우 기존 MSI 버전의 Office 제거](https://docs.microsoft.com/ko-KR/deployoffice/upgrade-from-msi-version)
+  [Office 365 ProPlus 배포 가이드](https://docs.microsoft.com/ko-KR/deployoffice/deployment-guide-for-office-365-proplus)
 
-[Configuration Manager를 사용하여 Office 365 ProPlus 관리](https://docs.microsoft.com/ko-KR/sccm/sum/deploy-use/manage-office-365-proplus-updates)
 
-[Microsoft Intune을 사용하여 Office 365 앱을 Windows 10 장치에 할당](https://docs.microsoft.com/ko-KR/intune/apps-add-office365)
+  [Office 365 ProPlus로 업그레이드하는 경우 기존 MSI 버전의 Office 제거](https://docs.microsoft.com/ko-KR/deployoffice/upgrade-from-msi-version)
+
+
+  [Configuration Manager를 사용하여 Office 365 ProPlus 관리](https://docs.microsoft.com/ko-KR/sccm/sum/deploy-use/manage-office-365-proplus-updates)
+
+
+  [Microsoft Intune을 사용하여 Office 365 앱을 Windows 10 장치에 할당](https://docs.microsoft.com/ko-KR/intune/apps-add-office365)
 
 ## <a name="browser-based-apps"></a>브라우저 기반 앱
 
@@ -93,7 +100,8 @@ System Center Configuration Manager를 사용하는 경우 Office 365 ProPlus의
 
 또한 인트라넷 사이트가 Microsoft Edge에서 제대로 작동하지 않는 것으로 확인될 경우 모든 인트라넷 사이트가 자동으로 Internet Explorer 11을 사용하여 열리도록 설정할 수 있습니다. 이 프로세스는 XML 파일을 사용하여 각 사이트에 IE11이 사용되는지 여부를 제어하며 그룹 정책을 사용하여 설정을 적용합니다.
 
-[엔터프라이즈 모드란?](https://docs.microsoft.com/ko-KR/internet-explorer/ie11-deploy-guide/what-is-enterprise-mode#what-is-enterprise-mode)
+
+  [엔터프라이즈 모드란?](https://docs.microsoft.com/ko-KR/internet-explorer/ie11-deploy-guide/what-is-enterprise-mode#what-is-enterprise-mode)
 
 지금까지 잘 알려진 배포 방법을 살펴보았습니다. 하지만 고려할 수 있는 두 가지가 새로운 앱 배포 방법이 있습니다.
 

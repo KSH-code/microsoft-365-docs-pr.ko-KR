@@ -4,7 +4,7 @@ ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
 ms.date: 10/31/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 성능 향상을 위해 DNS 확인을 이해하고 구성합니다.
-ms.openlocfilehash: 6f276bd1fd90b8dee76a0b0d350f256956ded412
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 2b3c38a9bf259f453121f7878992d1dc50f2ce97
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32291133"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34073268"
 ---
 # <a name="step-2-configure-local-internet-connections-for-each-office"></a>2단계: 각 사무실에 대해 로컬 인터넷 연결 구성
 

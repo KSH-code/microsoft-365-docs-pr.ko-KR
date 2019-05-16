@@ -4,7 +4,7 @@ ms.author: jogruszc
 author: JGruszczyk
 manager: jemed
 ms.date: 09/14/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 사용자의 파일 및 설정을 마이그레이션하는 방법을 알아봅니다.
-ms.openlocfilehash: 99cc252181627d5f0cf07fdf46f63b3ba526e20a
-ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
+ms.openlocfilehash: 6cd445a41fd8e2c4a83e13e2d8e5f7d9ef76e2d8
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33400122"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34073008"
 ---
 # <a name="step-4-user-files-and-settings-migration"></a>4단계: 사용자 파일 및 설정
 
@@ -59,31 +59,33 @@ USMT는 사용자 계정, 사용자 파일, 운영 체제 설정 및 응용 프�
 
 PC 새로 고침을 수행하고, 기본 Windows 파티션을 다시 포맷하지 않을 경우, USMT에서 하드 링크 마이그레이션 저장소를 사용할 수 있는 옵션도 제공됩니다. 이 프로세스는 이전 운영 체제 및 앱이 제거되고 새로 고침되는 동안 PC에서 사용자 상태를 유지합니다. 복원 프로세스가 동일한 로컬 파티션에서 시작될 경우 이 옵션은 성능을 획기적으로 향상시키고 네트워크 트래픽을 줄여줍니다.
 
-[USMT(사용자 환경 마이그레이션 도구) 개요](https://docs.microsoft.com/ko-KR/windows/deployment/usmt/usmt-overview)
+
+  [USMT(사용자 환경 마이그레이션 도구) 개요](https://docs.microsoft.com/ko-KR/windows/deployment/usmt/usmt-overview)
 
 ## <a name="onedrive-known-folder-move"></a>OneDrive의 알려진 폴더 이동
 
 사용자가 OneDrive에 있거나 이 배포의 일부로 OneDrive를 추가하는 경우 새 옵션을 사용할 수 있습니다. 클라우드를 사용하여 사용자 파일을 동기화할 경우 OneDrive의 “알려진 폴더 이동” 기능은 로컬 네트워크 기반 파일 마이그레이션 옵션으로는 가능하지 않은 유연성 수준을 제공합니다. 마이그레이션 전에 이 기능을 사용하도록 설정하면 새 PC 또는 업그레이드한 PC에서 보안 액세스가 제공되고, 자체 서버에 임시 마이그레이션 저장소를 만들 필요가 없습니다. 또한 이러한 모든 작업이 사용자에게 완전히 투명하게 진행될 수 있습니다.
 
-[알려진 Windows 폴더를 OneDrive로 리디렉션 및 이동](https://docs.microsoft.com/ko-KR/onedrive/redirect-known-folders)
 
-이미 OneDrive을 사용 중인 경우 사용자는 OneDrive 또는 SharePoint에서 해당 장치와 동기화하려는 폴더 및 위치를 선택할 수 있으며, 결과적으로 최종 사용자가 이러한 설정을 수행할 책임을 지게 됩니다. 알려진 폴더 이동 기능을 사용하면 사용자 프로필 내의 문서, 바탕 화면 및 그림 폴더를 대상으로 지정하고, OneDrive에서 모두 보호할 수 있습니다. 사용자는 이 작업을 직접 수행할 수 있으며, 이 시나리오에서 보다 중요하게 [그룹 정책 설정을 사용하여 적용](https://docs.microsoft.com/en-us/onedrive/use-group-policy?redirectSourcePath=%252fen-us%252farticle%252fUse-Group-Policy-to-control-OneDrive-sync-client-settings-0ecb2cf5-8882-42b3-a6e9-be6bda30899c)할 수 있습니다.
+  [알려진 Windows 폴더를 OneDrive로 리디렉션 및 이동](https://docs.microsoft.com/ko-KR/onedrive/redirect-known-folders)
+
+이미 OneDrive을 사용 중인 경우 사용자는 OneDrive 또는 SharePoint에서 해당 장치와 동기화하려는 폴더 및 위치를 선택할 수 있으며, 결과적으로 최종 사용자가 이러한 설정을 수행할 책임을 지게 됩니다. 알려진 폴더 이동 기능을 사용하면 사용자 프로필 내의 문서, 바탕 화면 및 그림 폴더를 대상으로 지정하고, OneDrive에서 모두 보호할 수 있습니다. 사용자는 이 작업을 직접 수행할 수 있으며, 이 시나리오에서 보다 중요하게 [그룹 정책 설정을 사용하여 적용](https://docs.microsoft.com/ko-KR/onedrive/use-group-policy?redirectSourcePath=%252fen-us%252farticle%252fUse-Group-Policy-to-control-OneDrive-sync-client-settings-0ecb2cf5-8882-42b3-a6e9-be6bda30899c)할 수 있습니다.
 
 알려진 폴더 이동을 사용할 때는 워크플로를 변경하지 않습니다. 즉, OneDrive와의 동기화가 완료되기 전, 도중 및 이후에도 모든 항목은 동일하게 보입니다. 그룹 정책에서는 OneDrive에서 해당 문서, 그림 및 바탕 화면이 보호된다는 사실을 사용자에게 알릴지 여부를 선택할 수도 있습니다. 알림을 제공하지 않도록 선택하면 백그라운드에서 모든 작업이 자동으로 진행됩니다. 사용자는 새 PC가 배달되거나 PC가 업그레이드될 때만 알 수 있습니다. 사용자는 OneDrive 계정에 로그인하는 즉시, 이러한 파일을 다시 사용할 수 있으며, 새 PC로 복원됩니다. 또한 OneDrive를 통해 휴대폰 및 기타 장치에서 언제든지 해당 파일을 안전하게 유지될 것임을 보장할 수 있습니다.
 
 Azure Active Directory는 OneDrive에 대한 인증을 지원합니다. 추가 보안을 위해, Multi-Factor Authentication을 쉽게 사용하도록 설정하고, OneDrive가 사용하는 업로드 및 다운로드 대역폭을 제어하여 네트워크 활동을 제한하도록 정책을 설정할 수 있습니다.
 
-모든 사용자를 동시에 마이그레이션할 필요는 없습니다. 그룹 정책 설정 롤아웃을 단게별로 진행하거나, [파일 동기화를 도메인에 가입된 PC로 제한](https://docs.microsoft.com/en-us/powershell/module/sharepoint-online/Set-SPOTenantSyncClientRestriction?view=sharepoint-ps)할 수 있습니다.
+모든 사용자를 동시에 마이그레이션할 필요는 없습니다. 그룹 정책 설정 롤아웃을 단게별로 진행하거나, [파일 동기화를 도메인에 가입된 PC로 제한](https://docs.microsoft.com/ko-KR/powershell/module/sharepoint-online/Set-SPOTenantSyncClientRestriction?view=sharepoint-ps)할 수 있습니다.
 
 ## <a name="start-menu-and-task-bar-customization"></a>시작 메뉴 및 작업 표시줄 사용자 지정
 
 OneDrive는 파일 및 폴더를 동기화하고 보호되도록 디자인되었습니다. Windows 설정의 응용 프로그램은 동기화하지 않습니다. 이전에는 이 작업을 수행하려면 프로필 복사 방법을 사용하여 사용자의 시작 메뉴 및 작업 표시줄 설정에 대한 표준 레이아웃을 구성해야 했습니다. Windows 10 Pro, Enterprise 및 Education에서는 그룹 정책, MDM, PowerShell 또는 프로비저닝 패키지를 사용하여 [사용자 지정된 시작 및 작업 표시줄 레이아웃](https://docs.microsoft.com/ko-KR/windows/configuration/windows-10-start-layout-options-and-policies)을 배포할 수 있습니다. 이미지로 다시 설치할 필요가 없으며, 레이아웃을 포함하는 .xml 파일을 간단히 덮어쓰는 방식으로 레이아웃을 업데이트할 수 있습니다.
 
-새 레이아웃을 만들려면 간단히 샘플 시스템을 구성하고 PowerShell [Export-StartLayout](https://docs.microsoft.com/en-us/powershell/module/startlayout/export-startlayout?view=win10-ps) cmdlet을 사용하여 XML 파일은 생성한 후 이 파일을 네트워크 공유에 두거나, 배포 시퀀스의 일부로 로컬로 캐시합니다. 사용자가 로그인할 때 읽기 전용 파일로 연결되기만 하면 됩니다. 그런 후에 정책 또는 [Import-StartLayout](https://docs.microsoft.com/en-us/powershell/module/startlayout/import-startlayout?view=win10-ps) cmdlet을 사용하여 이 파일을 참조할 수 있습니다.
+새 레이아웃을 만들려면 간단히 샘플 시스템을 구성하고 PowerShell [Export-StartLayout](https://docs.microsoft.com/ko-KR/powershell/module/startlayout/export-startlayout?view=win10-ps) cmdlet을 사용하여 XML 파일은 생성한 후 이 파일을 네트워크 공유에 두거나, 배포 시퀀스의 일부로 로컬로 캐시합니다. 사용자가 로그인할 때 읽기 전용 파일로 연결되기만 하면 됩니다. 그런 후에 정책 또는 [Import-StartLayout](https://docs.microsoft.com/ko-KR/powershell/module/startlayout/import-startlayout?view=win10-ps) cmdlet을 사용하여 이 파일을 참조할 수 있습니다.
 
 ## <a name="removing-unwanted-in-box-apps"></a>원치 않는 기본 제공 앱 제거
 
-Windows 10에는 표준 설치의 일부로 여러 유용한 기본 제공 앱이 포함되어 있지만, 관리되는 PC에서 이러한 앱 일부를 제거하고, 해당 앱이 복구되지 못하게 설치를 구성하려고 할 수도 있습니다(예: XBOX 또는 Zune Music). [PowerShell Get-AppxPackage](https://technet.microsoft.com/ko-KR/library/hh856044.aspx) 명령을 사용하여 이러한 앱 목록을 검색한 후, [Remove-AppxPackage](https://technet.microsoft.com/ko-KR/library/hh856038.aspx) 명령을 사용하여 원치 않는 앱을 제거할 수 있습니다. 또는 배포 전에 Windows 이미지(.img) 파일을 오프라인으로 탑재하고, [DISM(배포 이미지 서비스 및 관리)](https://docs.microsoft.com/ko-KR/windows-hardware/manufacture/desktop/what-is-dism) 명령줄 도구와 [Remove-AppxProvisionedPackage](https://docs.microsoft.com/en-us/powershell/module/dism/remove-appxprovisionedpackage?view=win10-ps) 명령을 사용하여 원치 않는 패키지를 추출할 수 있습니다.
+Windows 10에는 표준 설치의 일부로 여러 유용한 기본 제공 앱이 포함되어 있지만, 관리되는 PC에서 이러한 앱 일부를 제거하고, 해당 앱이 복구되지 못하게 설치를 구성하려고 할 수도 있습니다(예: XBOX 또는 Zune Music). [PowerShell Get-AppxPackage](https://technet.microsoft.com/ko-KR/library/hh856044.aspx) 명령을 사용하여 이러한 앱 목록을 검색한 후, [Remove-AppxPackage](https://technet.microsoft.com/ko-KR/library/hh856038.aspx) 명령을 사용하여 원치 않는 앱을 제거할 수 있습니다. 또는 배포 전에 Windows 이미지(.img) 파일을 오프라인으로 탑재하고, [DISM(배포 이미지 서비스 및 관리)](https://docs.microsoft.com/ko-KR/windows-hardware/manufacture/desktop/what-is-dism) 명령줄 도구와 [Remove-AppxProvisionedPackage](https://docs.microsoft.com/ko-KR/powershell/module/dism/remove-appxprovisionedpackage?view=win10-ps) 명령을 사용하여 원치 않는 패키지를 추출할 수 있습니다.
 
 ## <a name="next-step"></a>다음 단계
 

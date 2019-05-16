@@ -4,7 +4,7 @@ ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
 ms.date: 02/25/2019
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Azure AD(Microsoft Azure Active Directory) 셀프 서비스 그룹 관리를 이해하고 구성하십시오.
-ms.openlocfilehash: 9400e99ced45370600d1d5dcee4388ddef4250fe
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 67c3a0e45fa253bdaedead03ac1137422ee0f8de
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32283529"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34073608"
 ---
 # <a name="step-6-use-groups-for-easier-management"></a>6단계: 그룹을 사용하여 더 쉽게 관리하십시오.
 
