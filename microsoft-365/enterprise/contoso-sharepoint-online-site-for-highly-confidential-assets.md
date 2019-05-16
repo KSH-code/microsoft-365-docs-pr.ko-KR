@@ -4,7 +4,7 @@ ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
 ms.date: 04/15/2019
-ms.audience: ITPro
+audience: ITPro
 ms.topic: overview
 ms.service: o365-solutions
 localization_priority: Normal
@@ -13,12 +13,12 @@ search.appverid:
 ms.collection: M365-security-compliance
 ms.custom: Ent_Architecture
 description: '요약: Contoso가 높은 규제 대상 데이터에 대 한 SharePoint Online 사이트를 구현 하 여 조사 팀 간의 공동 작업을 보다 쉽게 수행할 수 있도록 합니다.'
-ms.openlocfilehash: c20e3a1c4ad0b862e81b897acc1462e3a1d1f776
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 99599829658e5dc46c8adebfe59f5c6d09b165de
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32289230"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34072786"
 ---
 # <a name="sharepoint-online-site-for-highly-confidential-digital-assets-of-the-contoso-corporation"></a>Contoso Corporation의 고도로 기밀 디지털 자산을 위한 SharePoint Online 사이트
 
@@ -32,7 +32,7 @@ Contoso의 가장 귀중 한 자산은 특허 제조 기술 및 개발 중인 �
 - 사용자가 사이트 외부로 배포 하지 못하도록 DLP (데이터 손실 방지)로 보호 됩니다.
 - 암호화 및 보호 된 액세스 제어 목록을 사용 하 여 권한 없는 사용자가 사이트 외부에서 배포 된 경우에도 콘텐츠에 액세스할 수 없도록 합니다.
 
-Contoso의 IT 부서에서 보안 및 sharepoint 관리자는 [높은 규제 대상 데이터에 대 한 sharepoint Online 사이트](teams-sharepoint-online-sites-highly-regulated-data.md)를 사용 하기로 결정 했습니다.
+Contoso의 IT 부서에서 보안 및 SharePoint 관리자는 [높은 규제 대상 데이터에 대 한 Sharepoint Online 사이트](teams-sharepoint-online-sites-highly-regulated-data.md)를 사용 하기로 결정 했습니다.
   
 Contoso는 이러한 단계를 사용 하 여 연구 팀을 위한 SharePoint Online 팀 사이트를 만들고 보호 합니다.
 
@@ -54,7 +54,7 @@ Contoso SharePoint 관리자가 먼저 **Research**라는 새 팀 사이트를 �
 - **리서치** 구성원 보안 그룹을 구성원으로 가진 리서치 구성원 SharePoint 그룹을 사용 하기 위한 편집 권한 수준입니다.
 - **리서치** 방문자 보안 그룹을 구성원으로 포함 하는 리서치 방문객 SharePoint 그룹을 사용할 수 있는 읽기 권한 수준입니다.
 
-다음은 sharepoint 사용 권한 수준, sharepoint 그룹 및 해당 구성원에 대 한 결과입니다.
+다음은 SharePoint 사용 권한 수준, SharePoint 그룹 및 해당 구성원에 대 한 결과입니다.
 
 ![](./media/contoso-sharepoint-online-site-for-highly-confidential-assets/spo-permissions.png)
 
@@ -66,13 +66,13 @@ Contoso SharePoint 관리자가 먼저 **Research**라는 새 팀 사이트를 �
 
 첫째로, Contoso 관리자는 **리서치** 사이트에 **고도로 기밀** Office 365 보존 레이블을 적용 했습니다.
 
-다음으로, 다음은 **Research** 라는 새 Office 365 DLP 정책을 만들었습니다.
+다음으로, 다음은 **Research** 라는 새 OFFICE 365 DLP 정책을 만들었습니다.
 
 - **높은 수준의 기밀** Office 365 보존 레이블을 사용 합니다. 
 - **리서치** 사이트에 적용 됩니다.
-- 사용자가 문서를 공유할 수 없습니다.
+- 사용자가 Contoso 외부의 **리서치** 사이트에서 디지털 자산을 공유 하려고 할 때 차단 합니다.
 
-구성에 대 한 자세한 내용은 [Office 365 레이블 및 DLP를 사용 하 여 SharePoint Online 파일 보호](https://docs.microsoft.com/office365/enterprise/protect-sharepoint-online-files-with-office-365-labels-and-dlp)를 참조 하세요.
+구성에 대 한 자세한 내용은 [보존 레이블 및 DLP를 사용 하 여 SharePoint Online 파일 보호](https://docs.microsoft.com/office365/enterprise/protect-sharepoint-online-files-with-office-365-labels-and-dlp)를 참조 하세요.
 
 ## <a name="step-4-created-an-azure-information-protection-sub-label-for-the-site"></a>4 단계: 사이트에 대 한 Azure Information Protection 하위 레이블 만들기
 
@@ -92,13 +92,13 @@ Contoso 관리자는 다음과 같은 범위가 지정 된 정책에서 기본 *
 
 **리서치** 사이트의 폴더에 있는 파일은 다음과 같은 방법으로 보호 됩니다.
 
-- 리서치 **** Azure Information Protection sublabel- **리서치** 사이트에서 이동 하거나 복사할 때 파일과 함께 이동 하는 각 파일에 암호화 및 permssions를 적용 합니다.
-- **중요 한** 보존 레이블과 파일을 사이트에 남기지 않도록 하는 설정을 사용 하는 **연구** DLP 정책입니다.
+- 리서치 **** Azure Information Protection Sublabel- **리서치** 사이트에서 이동 하거나 복사할 때 파일과 함께 이동 하는 각 파일에 암호화 및 permssions를 적용 합니다.
+- **중요 한** 보존 레이블과 파일을 외부 사용자와 공유 하지 않도록 하는 설정을 사용 하는 **연구** DLP 정책입니다.
 - 리서치- **구성원** 및 연구 보안 그룹의 구성원에 대 한 액세스를 허용 하는 사이트 **** 권한 집합을 사용 하 고,이를 관리 하 **** 는 데 사용할 수 있습니다.
 
 ## <a name="step-5-migrated-the-on-premises-sharepoint-research-data"></a>5 단계: 온-프레미스 SharePoint 조사 데이터 마이그레이션
 
-Contoso 관리자가 온-프레미스 sharepoint Server 2016 사이트의 모든 온-프레미스 조사 파일을 새 **리서치** SharePoint Online 사이트의 폴더로 이동 했습니다.
+Contoso 관리자가 온-프레미스 SharePoint Server 2016 사이트의 모든 온-프레미스 조사 파일을 새 **리서치** SharePoint Online 사이트의 폴더로 이동 했습니다.
 
 ## <a name="step-6-trained-their-users"></a>6 단계: 사용자 교육 
 

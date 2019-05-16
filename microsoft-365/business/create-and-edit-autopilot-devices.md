@@ -3,7 +3,7 @@ title: AutoPilot 장치 만들기 및 편집
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 0f7b1d7c-4086-4331-8534-45d7886f9f34
 description: Microsoft 365 Business에서 AutoPilot을 사용 하 여 장치를 업로드 하는 방법을 알아봅니다. 장치 또는 장치 그룹에 프로필을 할당할 수 있습니다.
-ms.openlocfilehash: 6492f1469a1ac9ea67750e9ffa071d19c88c743f
-ms.sourcegitcommit: db1dfb2df2c2f7beced3b57bc772d106c189e88a
+ms.openlocfilehash: dee77a014ef519f3487a082edc3cf81058ec1c00
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "33660426"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34071643"
 ---
 # <a name="create-and-edit-autopilot-devices"></a>AutoPilot 장치 만들기 및 편집
 

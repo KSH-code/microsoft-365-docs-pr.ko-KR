@@ -3,7 +3,7 @@ title: 사용자가 모바일 장치에서 Office 문서에 액세스하는 방�
 ms.author: sirkkuw
 author: sirkkuw
 manager: scotv
-ms.audience: Admin
+audience: Admin
 ms.topic: conceptual
 f1_keywords:
 - O365E_BCSSetup4OfficeMobile
@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: aa31319c-9196-48c9-a90b-4057e0494c7a
 description: 모바일 장치에서 Office 앱에 안전 하 게 액세스할 수 있도록 하는 보호 정책에 대해 알아봅니다.
-ms.openlocfilehash: b49ec33f4899a25f92ffd9d7a25d3e435016749e
-ms.sourcegitcommit: db1dfb2df2c2f7beced3b57bc772d106c189e88a
+ms.openlocfilehash: cade979635dd5d4a618537d544a7a76ef64a2963
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "33660344"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34071533"
 ---
 # <a name="manage-how-users-access-office-documents-on-mobile-devices"></a>사용자가 모바일 장치에서 Office 문서에 액세스하는 방법 관리
 

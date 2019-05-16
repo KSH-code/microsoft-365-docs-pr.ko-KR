@@ -4,7 +4,7 @@ ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
 ms.date: 08/21/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Normal
@@ -13,12 +13,12 @@ ms.custom:
 - TLG
 - Ent_TLGs
 description: Microsoft 365 Enterprise 테스트 환경에서 그룹 기반 라이선싱 및 동적 그룹 구성원을 구성 합니다.
-ms.openlocfilehash: 4ee929b345469d9cab05968a4a4c7f7399635b32
-ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
+ms.openlocfilehash: 179284dce271c69939a560703561a32648af93b1
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2019
-ms.locfileid: "33353080"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34072628"
 ---
 # <a name="automate-licensing-and-group-membership-for-your-microsoft-365-enterprise-test-environment"></a>Microsoft 365 Enterprise 테스트 환경에 대 한 라이선싱 및 그룹 구성원을 자동화 합니다.
 
@@ -41,11 +41,11 @@ Microsoft 365 Enterprise 테스트 환경에서 자동 라이선싱 및 동적 �
 시뮬레이트된 엔터프라이즈에서 자동화 된 라이선싱 및 그룹 구성원을 테스트 하려면 [통과 인증](pass-through-auth-m365-ent-test-environment.md)의 지침을 따르세요.
   
 > [!NOTE]
-> 자동 라이선싱 및 그룹 구성원을 테스트 하는 경우에는 AD DS (Active directory 도메인 서비스) 포리스트의 인터넷 및 디렉터리 동기화에 연결 된 시뮬레이트된 인트라넷을 포함 하는 시뮬레이트된 엔터프라이즈 테스트 환경이 필요 하지 않습니다. 이 기능은 자동 라이선스 및 그룹 구성원을 테스트 하 고 일반적인 조직을 나타내는 환경에서 테스트할 수 있도록 옵션으로 제공 됩니다. 
+> 자동 라이선싱 및 그룹 구성원을 테스트 하는 경우에는 AD DS (Active Directory 도메인 서비스) 포리스트의 인터넷 및 디렉터리 동기화에 연결 된 시뮬레이트된 인트라넷을 포함 하는 시뮬레이트된 엔터프라이즈 테스트 환경이 필요 하지 않습니다. 이 기능은 자동 라이선스 및 그룹 구성원을 테스트 하 고 일반적인 조직을 나타내는 환경에서 테스트할 수 있도록 옵션으로 제공 됩니다. 
   
 ## <a name="phase-2-configure-and-test-dynamic-group-membership-and-automatic-licensing"></a>2 단계: 동적 그룹 구성원 자격 및 자동 라이선스 구성 및 테스트
 
-먼저 새 sales 그룹을 만들고 부서가 sales로 설정 된 사용자 계정이 sales 그룹에 자동으로 추가 되도록 동적 그룹 구성원 규칙을 추가 합니다.
+먼저 새 Sales 그룹을 만들고 부서가 Sales로 설정 된 사용자 계정이 Sales 그룹에 자동으로 추가 되도록 동적 그룹 구성원 규칙을 추가 합니다.
 
 1. 인터넷 브라우저의 개인 인스턴스를 사용 하 여 office 365 E5 테스트 랩 구독의 전역 관리자 [https://portal.office.com](https://portal.office.com) 계정으로 office 365 포털에 로그인 합니다.
 2. 브라우저의 별도 탭에서 Azure portal ()로 이동 [https://portal.azure.com](https://portal.azure.com)합니다.
@@ -76,7 +76,7 @@ Microsoft 365 Enterprise 테스트 환경에서 자동 라이선싱 및 동적 �
 2. **Microsoft 365 관리 센터** 탭에서 **활성 사용자**를 클릭 합니다.
 3. **활성 사용자** 페이지에서 **사용자 4** 계정을 클릭 합니다.
 4. **사용자 4** 창에서 **제품 라이선스**에 대 한 **편집** 을 클릭 합니다.
-5. **제품 라이선스** 창에서 **enterprise Mobility + Security E5** 및 **Office 365 enterprise E5** 라이선스를 해제 한 다음 **저장 > 닫기**를 클릭 합니다.
+5. **제품 라이선스** 창에서 **Enterprise Mobility + Security E5** 및 **Office 365 enterprise E5** 라이선스를 해제 한 다음 **저장 > 닫기**를 클릭 합니다.
 6. 사용자 4 계정의 속성에서 제품 라이선스가 할당 되어 있지 않으며 그룹 구성원 자격이 없음을 확인 합니다.
 7. **연락처 정보**에 대해 **편집** 을 클릭 합니다.
 8. **연락처 정보 편집** 창에서 **연락처 정보**를 클릭 합니다.
@@ -86,7 +86,7 @@ Microsoft 365 Enterprise 테스트 환경에서 자동 라이선싱 및 동적 �
 다음을 확인할 수 있습니다.
 
 - **Sales** 그룹으로 업데이트 된 **그룹 멤버 자격** 속성
-- **enterprise Mobility + Security e5** 및 **Office 365 Enterprise E5** 라이선스로 업데이트 된 **제품 라이선스** 속성
+- **Enterprise Mobility + Security e5** 및 **Office 365 Enterprise E5** 라이선스로 업데이트 된 **제품 라이선스** 속성
 
 프로덕션 환경에서 동적 그룹 구성원 자격 및 자동 라이선싱을 배포 하는 방법에 대 한 자세한 내용과 링크는 Identity 단계에서 다음 단계를 참조 하세요.
 
@@ -103,6 +103,6 @@ Microsoft 365 Enterprise 테스트 환경에서 자동 라이선싱 및 동적 �
 
 [Microsoft 365 Enterprise 테스트 랩 가이드](m365-enterprise-test-lab-guides.md)
 
-[Microsoft 365 엔터프라이즈 배포](deploy-microsoft-365-enterprise.md)
+[Microsoft 365 Enterprise 배포](deploy-microsoft-365-enterprise.md)
 
 [Microsoft 365 Enterprise 설명서](https://docs.microsoft.com/microsoft-365-enterprise/)

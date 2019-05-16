@@ -4,7 +4,7 @@ ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
 ms.date: 11/14/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Normal
@@ -12,12 +12,12 @@ ms.collection: M365-identity-device-management
 ms.custom: Ent_TLGs
 ms.assetid: 1aa9639b-2862-49c4-bc33-1586dda636b8
 description: 이 테스트 랩 가이드를 사용 하 여 Microsoft 365 Enterprise 테스트 환경에 Intune 장치 준수 정책을 추가 합니다.
-ms.openlocfilehash: b8c2fbe437362f72effd5ba550817f847ccbbf74
-ms.sourcegitcommit: e15cf5d0d8ff3dfdc457b469992d72ac802e6434
+ms.openlocfilehash: eb140844eba4bc5cf5eba7fe452345f251ced0ff
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "33467736"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34072118"
 ---
 # <a name="device-compliance-policies-for-your-microsoft-365-enterprise-test-environment"></a>Microsoft 365 Enterprise 테스트 환경에 대 한 장치 준수 정책
 
@@ -35,7 +35,7 @@ ms.locfileid: "33467736"
 시뮬레이트된 엔터프라이즈에서 MAM 정책을 구성 하려면 [통과 인증](pass-through-auth-m365-ent-test-environment.md)의 지침을 따르세요.
   
 > [!NOTE]
-> 자동 라이선싱 및 그룹 구성원을 테스트 하는 경우에는 AD DS (Active directory 도메인 서비스) 포리스트의 인터넷 및 디렉터리 동기화에 연결 된 시뮬레이트된 인트라넷을 포함 하는 시뮬레이트된 엔터프라이즈 테스트 환경이 필요 하지 않습니다. 이 기능은 자동 라이선스 및 그룹 구성원을 테스트 하 고 일반적인 조직을 나타내는 환경에서 테스트할 수 있도록 옵션으로 제공 됩니다. 
+> 자동 라이선싱 및 그룹 구성원을 테스트 하는 경우에는 AD DS (Active Directory 도메인 서비스) 포리스트의 인터넷 및 디렉터리 동기화에 연결 된 시뮬레이트된 인트라넷을 포함 하는 시뮬레이트된 엔터프라이즈 테스트 환경이 필요 하지 않습니다. 이 기능은 자동 라이선스 및 그룹 구성원을 테스트 하 고 일반적인 조직을 나타내는 환경에서 테스트할 수 있도록 옵션으로 제공 됩니다. 
 >  
 
 ## <a name="phase-2-create-a-device-compliance-policy-for-windows-10-devices"></a>2 단계: Windows 10 장치에 대 한 장치 준수 정책 만들기
@@ -64,7 +64,7 @@ ms.locfileid: "33467736"
     
 13. **준수 정책 프로필** 블레이드에서 **정책 만들기**를 클릭 합니다.
     
-14. **정책 만들기** 블레이드에서 **Name (이름**)에 **Windows 10**을 입력 합니다. **플랫폼**에서 **windows 10 이상**을 선택 하 고 **windows 10 준수 정책** 블레이드에서 **확인** 을 클릭 한 다음 **만들기**를 클릭 합니다. **Windows 10** 블레이드를 닫습니다.
+14. **정책 만들기** 블레이드에서 **Name (이름**)에 **Windows 10**을 입력 합니다. **플랫폼**에서 **windows 10 이상**을 선택 하 고 **Windows 10 준수 정책** 블레이드에서 **확인** 을 클릭 한 다음 **만들기**를 클릭 합니다. **Windows 10** 블레이드를 닫습니다.
     
 15. **준수 정책 프로필** 블레이드에서 **Windows 10** 정책 이름을 클릭 합니다.
     
@@ -84,7 +84,7 @@ ms.locfileid: "33467736"
 
 23. **앱 제품군 구성을**클릭 한 다음 **확인**을 클릭 합니다.
 
-24. **앱 제품군 정보**를 클릭 하 고 제품군 **이름**에 **windows 10 용 office 앱** 을 입력 하 고 **suite 설명**에 **windows 10 용 office 앱** 을 설정한 다음 **확인**을 클릭 합니다.
+24. **앱 제품군 정보**를 클릭 하 고 제품군 **이름**에 **windows 10 용 office 앱** 을 입력 하 고 **Suite 설명**에 **windows 10 용 office 앱** 을 설정한 다음 **확인**을 클릭 합니다.
 
 25. **앱 제품군 설정을**클릭 하 고 **업데이트 채널**에서 **반기** 를 선택한 다음 **확인**을 클릭 합니다.
 

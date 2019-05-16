@@ -1,27 +1,27 @@
 ---
-title: microsoft 365 Enterprise 테스트 환경에 대 한 microsoft 365 보안이 향상 되었습니다.
+title: Microsoft 365 Enterprise 테스트 환경에 대 한 Microsoft 365 보안이 향상 되었습니다.
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
 ms.date: 04/10/2019
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Normal
 ms.collection: M365-security-compliance
 ms.custom: Ent_TLGs
 ms.assetid: 1aa9639b-2862-49c4-bc33-1586dda636b8
-description: 이 테스트 랩 가이드를 사용 하 여 microsoft 365 Enterprise Test environment 추가 microsoft 365 보안 설정을 사용 하도록 설정 합니다.
-ms.openlocfilehash: 583d815d9f413df8aeb5ec7abaf68cf79a6cc8b9
-ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
+description: 이 테스트 랩 가이드를 사용 하 여 microsoft 365 Enterprise Test environment 추가 Microsoft 365 보안 설정을 사용 하도록 설정 합니다.
+ms.openlocfilehash: d51f9ada68969823eadbb4fad55392358a6ddee8
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2019
-ms.locfileid: "33353120"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34072138"
 ---
-# <a name="increased-microsoft-365-security-for-your-microsoft-365-enterprise-test-environment"></a>microsoft 365 Enterprise 테스트 환경에 대 한 microsoft 365 보안이 향상 되었습니다.
+# <a name="increased-microsoft-365-security-for-your-microsoft-365-enterprise-test-environment"></a>Microsoft 365 Enterprise 테스트 환경에 대 한 Microsoft 365 보안이 향상 되었습니다.
 
-이 문서의 지침을 사용 하 여 microsoft 365 Enterprise 테스트 환경의 보안을 강화 하도록 microsoft 365 설정을 추가로 구성 합니다.
+이 문서의 지침을 사용 하 여 Microsoft 365 Enterprise 테스트 환경의 보안을 강화 하도록 Microsoft 365 설정을 추가로 구성 합니다.
 
 ![Microsoft 클라우드의 테스트 랩 가이드](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
 
@@ -35,12 +35,12 @@ ms.locfileid: "33353120"
 시뮬레이트된 엔터프라이즈에서 Microsoft 365 보안 향상을 구성 하려면 [통과 인증](pass-through-auth-m365-ent-test-environment.md)의 지침을 따르세요.
   
 > [!NOTE]
-> 테스팅 Microsoft 365 security에서는 AD DS (Active directory 도메인 서비스) 포리스트의 인터넷 및 디렉터리 동기화에 연결 된 시뮬레이트된 인트라넷을 포함 하는 시뮬레이트된 엔터프라이즈 테스트 환경을 필요로 하지 않습니다. 이 기능은 자동 라이선스 및 그룹 구성원을 테스트 하 고 일반적인 조직을 나타내는 환경에서 테스트할 수 있도록 옵션으로 제공 됩니다. 
+> 테스팅 Microsoft 365 security에서는 AD DS (Active Directory 도메인 서비스) 포리스트의 인터넷 및 디렉터리 동기화에 연결 된 시뮬레이트된 인트라넷을 포함 하는 시뮬레이트된 엔터프라이즈 테스트 환경을 필요로 하지 않습니다. 이 기능은 자동 라이선스 및 그룹 구성원을 테스트 하 고 일반적인 조직을 나타내는 환경에서 테스트할 수 있도록 옵션으로 제공 됩니다. 
 
 
 ## <a name="phase-2-configure-increased-microsoft-365-security"></a>2 단계: 향상 된 Microsoft 365 보안 구성
 
-이 단계에서는 microsoft 365 Enterprise 테스트 환경에 대 한 microsoft 365 보안 향상을 사용 하도록 설정 합니다. 추가 정보 및 설정에 대 한 자세한 내용은 [보안 강화를 위해 Office 365 테 넌 트 구성](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security)를 참조 하세요.
+이 단계에서는 Microsoft 365 Enterprise 테스트 환경에 대 한 Microsoft 365 보안 향상을 사용 하도록 설정 합니다. 추가 정보 및 설정에 대 한 자세한 내용은 [보안 강화를 위해 Office 365 테 넌 트 구성](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security)를 참조 하세요.
 
 ### <a name="configure-sharepoint-online-to-block-apps-that-dont-support-modern-authentication"></a>최신 인증을 지원 하지 않는 앱을 차단 하도록 SharePoint Online 구성
 
@@ -61,9 +61,9 @@ ms.locfileid: "33353120"
 
 SharePoint, OneDrive 및 Microsoft 팀의 Office 365 Advanced Threat Protection (ATP)은 악의적인 파일을 실수로 공유 하지 않도록 조직을 보호 합니다.
 
-1. [Office 365 Security & 준수 센터로](https://protection.office.com) 이동 하 여 전역 관리자 계정으로 로그인 합니다.
+1. [Office 365 Security _AMP_ 준수 센터로](https://protection.office.com) 이동 하 여 전역 관리자 계정으로 로그인 합니다.
 
-2. 왼쪽 탐색 창의 **위협 관리**에서 **정책 > 안전한 첨부 파일**을 선택 합니다. 
+2. 왼쪽 탐색 창의 **위협 관리**에서 **정책 _GT_ 안전한 첨부 파일**을 선택 합니다. 
 
 3. **SharePoint, OneDrive 및 Microsoft 팀에 대해 ATP 사용**을 선택 합니다.
 

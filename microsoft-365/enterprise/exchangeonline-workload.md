@@ -3,7 +3,7 @@ title: Microsoft 365 Enterprise에 대 한 Exchange Online 배포
 author: JoeDavies-MSFT
 manager: laurawi
 ms.date: 06/28/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Normal
@@ -11,16 +11,16 @@ ms.collection: M365-email-calendar
 ms.custom:
 - Strat_O365_Enterprise
 description: 조직 전체에서 Microsoft 365 Enterprise의 Exchange Online 가치를 계획, 롤아웃 및 추진 하는 프로세스를 안내 합니다.
-ms.openlocfilehash: 6efd94da7806b6268881f7eaabe5efacc8920f47
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: c54c80a955d86028ac473857cbdcb8b1a8f272d3
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32281208"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34072288"
 ---
 # <a name="deploy-exchange-online-for-microsoft-365-enterprise"></a>Microsoft 365 Enterprise에 대 한 Exchange Online 배포
 
-*이 작업은 Microsoft 365 Enterprise E3 및 E5 버전에 모두 포함 되어 있습니다.*
+*이 작업은 Microsoft 365 Enterprise E3 및 E5 버전에 모두 포함됩니다.*
 
 Exchange Online은 사용자가 실시간 채팅 이나 중앙화 된 문서 저장을 필요로 하지 않는 방식으로 공동 작업을 수행할 수 있도록 하는 전자 메일 및 일정에 대 한 기본 클라우드 서비스입니다. Exchange Online은 개별 및 소규모 그룹의 단기 통신 및 예약을 수행 하는 방법과 Microsoft 365 Enterprise 용으로 구축 된 팀 작업 값의 주요 요소입니다. Exchange Online을 사용 하는 경우에는 장치에 관계 없이 잘 알려진 Outlook 응용 프로그램을 보다 효율적으로 사용할 수 있습니다.
 
@@ -28,7 +28,7 @@ Exchange Online은 사용자가 실시간 채팅 이나 중앙화 된 문서 저
 
 Exchange Online을 완전히 처음 사용할 경우에는 [Microsoft Exchange online](https://products.office.com/exchange/exchange-online)을 참조 하세요.
 
-다음 단계 및 단계에서는 조직에서 exchange online의 역할을 구상 하 고, 조직을 exchange online으로 온 보 딩 하 고, exchange online의 사용을 추진 하는 프로세스를 안내 합니다. 최종 사용자에 게 가치를 부여할 수 있습니다.
+다음 단계 및 단계에서는 조직에서 Exchange Online의 역할을 구상 하 고, 조직을 Exchange Online으로 온 보 딩 하 고, Exchange online의 사용을 추진 하는 프로세스를 안내 합니다. 최종 사용자에 게 가치를 부여할 수 있습니다.
 
 >[!Note]
 >이러한 배포 지침은 Microsoft 365 엔터프라이즈 기본 인프라의 [2 단계 id](identity-infrastructure.md) 를 완료 한 후에만 따라야 합니다.
@@ -36,7 +36,7 @@ Exchange Online을 완전히 처음 사용할 경우에는 [Microsoft Exchange o
 
 ## <a name="phase-1-envision"></a>1단계: 구상
 
-이 단계에서는 exchange online 배포를 위한 사용자를 수집 하 고 조직에서 exchange online을 사용 하 여 비즈니스 요구 사항을 해결 하는 방법을 결정 합니다.
+이 단계에서는 Exchange Online 배포를 위한 사용자를 수집 하 고 조직에서 Exchange Online을 사용 하 여 비즈니스 요구 사항을 해결 하는 방법을 결정 합니다.
 
 ### <a name="step-1-gather-your-exchange-online-deployment-members"></a>1 단계: Exchange Online 배포 구성원 수집
 
@@ -82,9 +82,9 @@ Exchange Online 사서함에 대 한 액세스를 보호 하려면 [id 및 장�
 
 ### <a name="step-1-complete-your-technical-planning"></a>1단계: 기술 계획 완료
 
-기술 계획을 시작 하기 전에 fasttrack을 사용할지 여부를 결정 합니다. 조직이 50 개를 초과 하 고 [적합 한 요금제](https://technet.microsoft.com/library/dn783224.aspx)에 참여 하 고 있으면 계획, 배포 및 서비스 도입을 안내할 추가 비용 없이 [Microsoft 365 용 fasttrack](https://fasttrack.microsoft.com/microsoft365)을 사용할 수 있습니다. 또는 Office 365 계정으로 로그인 한 후 [fasttrack](https://fasttrack.microsoft.com/) 에서 사용할 수 있는 fasttrack 온 보 딩 마법사를 사용 하 여이 작업을 직접 완료할 수 있습니다.
+기술 계획을 시작 하기 전에 FastTrack을 사용할지 여부를 결정 합니다. 조직이 50 개를 초과 하 고 [적합 한 요금제](https://technet.microsoft.com/library/dn783224.aspx)에 참여 하 고 있으면 계획, 배포 및 서비스 도입을 안내할 추가 비용 없이 [Microsoft 365 용 fasttrack](https://fasttrack.microsoft.com/microsoft365)을 사용할 수 있습니다. 또는 Office 365 계정으로 로그인 한 후 [fasttrack](https://fasttrack.microsoft.com/) 에서 사용할 수 있는 Fasttrack 온 보 딩 마법사를 사용 하 여이 작업을 직접 완료할 수 있습니다.
 
-직접 계획을 하거나 fasttrack과 함께 사용 하는 경우 네트워크 및 조직이 Exchange Online을 사용할 준비가 되었는지 확인 해야 합니다. 기본 인프라에서 네트워킹에 대 한 종료 기준을 충족 하는 것이 특히 인터넷 대역폭, 처리량 및 트래픽 지연을 특별히 주의 하 여 Exchange에 대 한 추가 트래픽의 성능을 최대화 하는 것이 중요 합니다. 온라인 기반 전자 메일 및 첨부 파일
+직접 계획을 하거나 FastTrack과 함께 사용 하는 경우 네트워크 및 조직이 Exchange Online을 사용할 준비가 되었는지 확인 해야 합니다. 기본 인프라에서 네트워킹에 대 한 종료 기준을 충족 하는 것이 특히 인터넷 대역폭, 처리량 및 트래픽 지연을 특별히 주의 하 여 Exchange에 대 한 추가 트래픽의 성능을 최대화 하는 것이 중요 합니다. 온라인 기반 전자 메일 및 첨부 파일
 
 다음 리소스를 사용 하 여 Exchange Online 롤아웃의 기술적 측면을 준비 합니다. 
 
@@ -129,7 +129,7 @@ IT 파일럿을 완료 한 후 조직의 비즈니스 그룹이 나 부서에 Ex
 - 비즈니스 그룹 내에서 Exchange Online에 대 한 주요 비즈니스 시나리오 식별
 - 부서 및 작업 또는 프로젝트 팀에 대 한 Exchange Online 사용에 대 한 예상 및 일정을 사용자에 게 알리는 알림 활동입니다.
 - 비즈니스 그룹 구성원의 온-프레미스 사서함을 Exchange Online으로 마이그레이션
-- exchange online에 대 한 사용자 교육 또는 exchange online을 소개 하 고 사용 하는 방법에 대 한 링크를 제공 합니다.
+- Exchange online에 대 한 사용자 교육 또는 Exchange Online을 소개 하 고 사용 하는 방법에 대 한 링크를 제공 합니다.
 - 비즈니스 그룹의 사용자로부터 의견을 수집하고 문제에 대해 조치를 취하기 위한 피드백 메커니즘(예: 비즈니스 그룹의 모든 사용자를 포함하는 중앙 Microsoft Teams 팀)
 
 롤아웃하는 동안 조직 차원의 롤아웃을 준비하려면 변경 관리 자료를 구체화할 수 있습니다.
@@ -149,7 +149,7 @@ IT 파일럿을 완료 한 후 조직의 비즈니스 그룹이 나 부서에 Ex
 - 개별 비즈니스 그룹 내에서 Exchange Online에 대 한 주요 비즈니스 시나리오 식별
 - 구체화 된 변경 관리 자료를 사용 하 여 Exchange Online 사용에 대 한 예상 및 일정을 조직에 알리는 알림 활동
 - 조직의 나머지 부분에 대 한 사서함을 Exchange Online으로 마이그레이션합니다.
-- exchange online에 대 한 사용자 교육 제공 또는 exchange online을 소개 하 고 사용 하는 방법에 대 한 링크를 제공 합니다.
+- Exchange Online에 대 한 사용자 교육 제공 또는 Exchange Online을 소개 하 고 사용 하는 방법에 대 한 링크를 제공 합니다.
 - 조직의 사용자로부터 의견 및 문제를 수집하기 위한 피드백 메커니즘(예: 모든 사용자를 포함하는 중앙 팀). 조직의 사용자가 2500명 미만인 경우 Teams의 공개 채널을 사용하고, 2500명 이상인 경우 Yammer의 공용 그룹 사용
 
 #### <a name="result"></a>결과
@@ -176,7 +176,7 @@ IT 파일럿을 완료 한 후 조직의 비즈니스 그룹이 나 부서에 Ex
 
 ## <a name="how-microsoft-does-microsoft-365-enterprise"></a>Microsoft에서 Microsoft 365 Enterprise를 수행하는 방법
 
-Microsoft 내부를 보고 회사를 exchange online으로 마이그레이션하고 exchange online Protection을 사용 하 여 사이버 공격 으로부터 보호 하는 방법을 알아보려면 다음을 참조 하세요.
+Microsoft 내부를 보고 회사를 Exchange Online으로 마이그레이션하고 Exchange Online Protection을 사용 하 여 사이버 공격 으로부터 보호 하는 방법을 알아보려면 다음을 참조 하세요.
 
 - [Microsoft에서 150,000개의 사서함을 Exchange Online으로 마이그레이션](https://www.microsoft.com/itshowcase/Article/Content/577/Microsoft-migrates-150000-mailboxes-to-Exchange-Online)
 - [Microsoft는 위협 인텔리전스를 사용하여 위협 방지, 감지 및 대응](https://www.microsoft.com/itshowcase/Article/Content/934/Microsoft-uses-threat-intelligence-to-protect-detect-and-respond-to-threats)
@@ -186,6 +186,6 @@ Microsoft 내부를 보고 회사를 exchange online으로 마이그레이션하
 
 Exchange Online의 지속적인 유지 관리에 대 한 다음 리소스를 참조 하세요.
 
-- [exchange Online의 exchange 관리 센터](https://technet.microsoft.com/library/jj200743(v=exchg.150).aspx) 
+- [Exchange Online의 Exchange 관리 센터](https://technet.microsoft.com/library/jj200743(v=exchg.150).aspx) 
 - [Exchange Online의 모니터링, 보고 및 메시지 추적](https://technet.microsoft.com/library/jj200725(v=exchg.150).aspx)
 - [Exchange Online에서 전자 메일 백업](https://technet.microsoft.com/library/dn440734(v=exchg.150).aspx) 

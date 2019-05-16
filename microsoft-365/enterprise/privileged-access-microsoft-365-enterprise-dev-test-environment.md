@@ -3,7 +3,7 @@ title: Microsoft 365 Enterprise 테스트 환경에 대한 권한이 부여된 �
 ms.author: robmazz
 author: robmazz
 manager: laurawi
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Normal
@@ -13,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 ms.custom: Ent_TLGs
 description: 이 테스트 랩 가이드를 사용 하 여 Microsoft 365 Enterprise Test environment 권한 있는 액세스 관리를 사용 하도록 설정 합니다.
-ms.openlocfilehash: 9cac4f941ba3eb45bfc2bf79075ba22515a589b9
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 306cd8d3cb574fd18a3d184898ead765936bf431
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32290773"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34073021"
 ---
 # <a name="privileged-access-management-for-your-microsoft-365-enterprise-test-environment"></a>Microsoft 365 Enterprise 테스트 환경에 대한 권한이 부여된 액세스 관리
 
@@ -36,7 +36,7 @@ ms.locfileid: "32290773"
 시뮬레이트된 엔터프라이즈에서 권한이 부여 된 액세스 관리를 구성 하려면 [통과 인증](pass-through-auth-m365-ent-test-environment.md)의 지침을 따르세요.
   
 > [!NOTE]
-> 권한이 부여 된 액세스 관리를 테스트 하려면 AD DS (Active directory 도메인 서비스) 포리스트의 인터넷 및 디렉터리 동기화에 연결 된 시뮬레이트된 인트라넷을 포함 하는 시뮬레이트된 엔터프라이즈 테스트 환경이 필요 하지 않습니다. 이 옵션은 권한 있는 액세스 관리를 테스트 하 고 일반적인 조직을 나타내는 환경에서 테스트해 볼 수 있도록 여기에서 제공 됩니다. 
+> 권한 있는 액세스 관리를 테스트 하는 경우에는 AD DS 포리스트에 대 한 인터넷 및 디렉터리 동기화에 연결 된 시뮬레이트된 인트라넷을 포함 하는 시뮬레이트된 엔터프라이즈 테스트 환경이 필요 하지 않습니다. 이 옵션은 권한 있는 액세스 관리를 테스트 하 고 일반적인 조직을 나타내는 환경에서 테스트해 볼 수 있도록 여기에서 제공 됩니다. 
 
 ## <a name="phase-2-configure-privileged-access-management"></a>2 단계: 권한 있는 액세스 관리 구성
 
@@ -57,7 +57,7 @@ Office 365 조직에서 권한 있는 액세스를 설정 및 사용 하려면 �
 
 ### <a name="test-ability-to-execute-a-task-not-defined-in-a-privileged-access-policy"></a>권한 있는 액세스 정책에 정의 되지 않은 작업을 실행 하는 테스트 기능
 
-먼저 테스트 환경에서 전역 관리자로 구성 된 사용자의 자격 증명을 사용 하 여 Exchange 관리 PowerShell에 연결한 다음 새 저널 규칙을 만들려고 합니다. [set-journalrule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/new-journalrule?view=exchange-ps) 작업은 현재 조직에 대해 권한이 부여 된 액세스 정책에 정의 되어 있지 않습니다.
+먼저 테스트 환경에서 전역 관리자로 구성 된 사용자의 자격 증명을 사용 하 여 Exchange 관리 PowerShell에 연결한 다음 새 저널 규칙을 만들려고 합니다. [Set-journalrule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/new-journalrule?view=exchange-ps) 작업은 현재 조직에 대해 권한이 부여 된 액세스 정책에 정의 되어 있지 않습니다.
 
 1. 로컬 컴퓨터에서 테스트 환경의 전역 관리자 계정을 사용 하 여 **microsoft Corporation** > **microsoft exchange online 원격 powershell** 모듈의 Exchange online 원격 powershell 모듈을 열고 로그인 합니다.
 
@@ -68,7 +68,7 @@ New-JournalRule -Name "JournalRule1" -Recipient joe@contoso.onmicrosoft.com -Jou
 ```
 4. Exchange 관리 PowerShell에서 새 저널 규칙을 성공적으로 만들었는지 확인 합니다.
 
-### <a name="create-a-new-privileged-access-policy-for-the-new-journalrule-task"></a>새 set-journalrule 작업에 대 한 새 권한 있는 액세스 정책 만들기
+### <a name="create-a-new-privileged-access-policy-for-the-new-journalrule-task"></a>새 Set-journalrule 작업에 대 한 새 권한 있는 액세스 정책 만들기
 
 > [!NOTE]
 > 이 가이드의 2 단계에 나와 있는 1 ~ 2 단계를 아직 완료 하지 않은 경우 다음 단계에 따라 승인자 그룹 "권한 액세스 승인자"를 만들고 테스트 환경에서 권한이 부여 된 액세스를 사용 하도록 설정 해야 합니다.
@@ -95,7 +95,7 @@ New-JournalRule -Name "JournalRule1" -Recipient joe@contoso.onmicrosoft.com -Jou
 
 6. **만들기** 를 선택한 다음 **닫기를**선택 합니다. 정책을 완전히 구성 및 사용 하도록 설정 하는 데 몇 분 정도 걸릴 수 있습니다. 다음 단계에서 승인 요구 사항을 테스트 하기 전에 정책을 완전히 사용 하도록 설정할 시간을 허용 해야 합니다.
 
-### <a name="test-approval-requirement-for-the-new-journalrule-task-defined-in-a-privileged-access-policy"></a>권한 있는 액세스 정책에 정의 된 set-journalrule 작업에 대 한 승인 요구 사항 테스트
+### <a name="test-approval-requirement-for-the-new-journalrule-task-defined-in-a-privileged-access-policy"></a>권한 있는 액세스 정책에 정의 된 Set-journalrule 작업에 대 한 승인 요구 사항 테스트
 
 1. 로컬 컴퓨터에서 테스트에 대 한 전역 관리자 계정을 사용 하 여 **microsoft Corporation** > **microsoft exchange online 원격 powershell** 모듈에서 Exchange online 원격 powershell 모듈을 열고 로그인 합니다. 환경.
 
@@ -114,7 +114,7 @@ Insufficient permissions. Please raise an elevated access request for this task.
     + PSComputerName        : outlook.office365.com
 ```
 
-### <a name="request-access-to-create-a-new-journal-rule-using-the-new-journalrule-task"></a>set-journalrule 작업을 사용 하 여 새 저널 규칙을 만들도록 액세스 요청
+### <a name="request-access-to-create-a-new-journal-rule-using-the-new-journalrule-task"></a>Set-journalrule 작업을 사용 하 여 새 저널 규칙을 만들도록 액세스 요청
 
 1. 테스트 환경에 대 한 전역 관리자 계정을 사용 하 여 [Microsoft 365 관리 센터](https://admin.microsoft.com) 에 로그인 합니다.
 
@@ -146,7 +146,7 @@ Insufficient permissions. Please raise an elevated access request for this task.
 
 4. 대기 중인 요청을 선택 하 고 **승인을** 선택 하 여 새 저널 규칙을 만들 전역 관리자 계정에 대 한 액세스 권한을 부여 합니다. 승인이 부여 되었음을 확인 하는 알림 전자 메일은 전역 관리자 계정 (요청 사용자)으로 전송 됩니다.  
 
-### <a name="test-creating-a-new-journal-rule-with-privileged-access-approved-for-the-new-journalrule-task"></a>set-journalrule 작업에 대해 승인 된 액세스 권한을 사용 하 여 새 저널 규칙 만들기 테스트
+### <a name="test-creating-a-new-journal-rule-with-privileged-access-approved-for-the-new-journalrule-task"></a>Set-journalrule 작업에 대해 승인 된 액세스 권한을 사용 하 여 새 저널 규칙 만들기 테스트
 
 1. 로컬 컴퓨터에서 테스트 환경의 전역 관리자 계정을 사용 하 여 **microsoft Corporation** > **microsoft exchange online 원격 powershell** 모듈의 Exchange online 원격 powershell 모듈을 열고 로그인 합니다.
 

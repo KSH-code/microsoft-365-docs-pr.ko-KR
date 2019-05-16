@@ -3,7 +3,7 @@ title: Microsoft 365 Business에 다른 사용자를 추가합니다.
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 ms.assetid: 96153102-1db1-4df8-bca5-38cea80b65ce
 description: Microsoft 365 Business에서 새 사용자를 추가 하 고, 해당 장치를 보호 하 고, 역할을 할당 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: e27e9e2b67e187bbca3c2f1b2c9d21196effa77f
-ms.sourcegitcommit: 0feaebc1c5ea2636b5c9fa96eef648a1e37635c1
+ms.openlocfilehash: 844245f5740d1e90ca1a7c9f372a8ab5a8225dd7
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/09/2019
-ms.locfileid: "33864826"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34072913"
 ---
 # <a name="add-additional-users-to-microsoft-365-business"></a>Microsoft 365 Business에 다른 사용자를 추가합니다.
 

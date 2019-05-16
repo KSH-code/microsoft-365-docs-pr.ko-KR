@@ -1,9 +1,9 @@
 ---
-title: Office 365 business Premium에서 Microsoft 365 business로 마이그레이션
+title: Office 365 Business Premium에서 Microsoft 365 Business로 마이그레이션
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
@@ -18,24 +18,24 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 5b4ba843-24b8-4526-8e1f-f9b9eab89d06
-description: Microsoft 365 business로 비즈니스를 이동 하는 방법을 알아봅니다.
-ms.openlocfilehash: 3e45ba13e4cfe772829f545219bf86a9a3317d59
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+description: Microsoft 365 Business로 비즈니스를 이동 하는 방법을 알아봅니다.
+ms.openlocfilehash: e4bb18904355663f9f26f58a3fd3aaf7420e5378
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32285688"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34072743"
 ---
-# <a name="migrate-to-microsoft-365-business-from-office-365-business-premium"></a>Office 365 business Premium에서 Microsoft 365 business로 마이그레이션
+# <a name="migrate-to-microsoft-365-business-from-office-365-business-premium"></a>Office 365 Business Premium에서 Microsoft 365 Business로 마이그레이션
 
-office 365 business Premium과 같은 비즈니스용 office 365이 이미 있는 경우 Microsoft 365 business에 라이선스를 쉽게 추가 하 고 일부 또는 모든 사용자에 게 할당할 수 있습니다.
+Office 365 Business Premium과 같은 비즈니스용 Office 365이 이미 있는 경우 Microsoft 365 Business에 라이선스를 쉽게 추가 하 고 일부 또는 모든 사용자에 게 할당할 수 있습니다.
   
 > [!NOTE]
 > [요금제 전환](https://support.office.com/article/73318661-8f33-478b-bcc7-fb8d69dbb22a?.aspx#switchbutton) 단추를 사용 하 여 Microsoft 365 Business로 업그레이드할 수 없습니다. 
   
 ## <a name="add-microsoft-365-business-licenses"></a>Microsoft 365 Business 라이선스 추가
 
-두 가지 방법으로 Microsoft 365 비즈니스를 받을 수 있습니다. 파트너가 있는 경우 [microsoft 파트너 센터](get-microsoft-365-business.md)에서 microsoft 365 Business를 구매할 수 있습니다. 또한 파트너는 Microsoft 365 Business로 전환 하는 데도 도움이 될 수 있습니다.
+두 가지 방법으로 Microsoft 365 비즈니스를 받을 수 있습니다. 파트너가 있는 경우 [Microsoft 파트너 센터](get-microsoft-365-business.md)에서 Microsoft 365 Business를 구매할 수 있습니다. 또한 파트너는 Microsoft 365 Business로 전환 하는 데도 도움이 될 수 있습니다.
   
 자체 구독을 관리 하는 경우 sales에 [연락](https://www.microsoft.com/microsoft-365/business) 하 여 Microsoft 365 비즈니스 라이선스를 구입할 수 있습니다. 
   
@@ -94,25 +94,25 @@ Microsoft 365 Business에 대 한 라이선스를 할당 한 후에는 사용자
     
 3. 정책 **추가** 창에서 정책에 이름을 지정 하 고 드롭다운에서 **정책 유형을** 선택 합니다. 
     
-    windows 10과 함께 Android 및 iPhone 장치에서 파일을 보호 하기 위한 응용 프로그램 정책을 설정 하 고 windows 10 장치를 소유한 회사에 대 한 장치 구성 정책을 설정할 수 있습니다. 자세한 내용은 다음 링크를 참조 하십시오.
+    Windows 10과 함께 Android 및 iPhone 장치에서 파일을 보호 하기 위한 응용 프로그램 정책을 설정 하 고 Windows 10 장치를 소유한 회사에 대 한 장치 구성 정책을 설정할 수 있습니다. 자세한 내용은 다음 링크를 참조 하십시오.
     
   - [Android 또는 iOS 장치에서 앱 보호 설정 설정하기](app-protection-settings-for-android-and-ios.md)
     
   - [Windows 10 장치에서 응용 프로그램 보호 설정 설정하기](protection-settings-for-windows-10-devices.md)
     
-  - [Windows 10 pc에 대 한 장치 보호 설정 설정](protection-settings-for-windows-10-pcs.md)
+  - [Windows 10 Pc에 대 한 장치 보호 설정 설정](protection-settings-for-windows-10-pcs.md)
     
    ![정책 추가 창에 이름을 입력 하 고 드롭다운 메뉴에서 정책 유형을 선택 합니다.](media/76ef37e4-1d18-4f34-8a0f-391ab1d0ae2b.png)
   
 4. 정책을 설정 하면 사용자와 직원이 장치를 설정할 수 있습니다.
     
-  - windows pro Creator update가 아직 없는 경우에는 windows [pro 크리에이터 업데이트로 업그레이드](upgrade-to-windows-pro-creators-update.md)해야 합니다.
+  - Windows Pro Creator update가 아직 없는 경우에는 windows [Pro 크리에이터 업데이트로 업그레이드](upgrade-to-windows-pro-creators-update.md)해야 합니다.
     
-  - windows 장치에 대 한 단계는 [Microsoft 365 비즈니스 사용자를 위해 windows 장치 설정을](set-up-windows-devices.md) 참조 하세요. 
+  - Windows 장치에 대 한 단계는 [Microsoft 365 비즈니스 사용자를 위해 windows 장치 설정을](set-up-windows-devices.md) 참조 하세요. 
     
-  - Android 휴대폰 및 iphone에 대 한 단계는 [Microsoft 365 비즈니스 사용자를 위한 모바일 장치 설정을](set-up-mobile-devices.md) 참조 하세요. 
+  - Android 휴대폰 및 Iphone에 대 한 단계는 [Microsoft 365 비즈니스 사용자를 위한 모바일 장치 설정을](set-up-mobile-devices.md) 참조 하세요. 
     
-5. office 클라이언트 앱을 자동으로 설치 하려면 office [클라이언트 배포 준비 Microsoft 365 Business](prepare-for-office-client-deployment.md) 및 [Windows 10 장치에서 office를 자동으로 설치 또는 제거](auto-install-or-uninstall-office.md)를 참조 하세요.
+5. Office 클라이언트 앱을 자동으로 설치 하려면 office [클라이언트 배포 준비 Microsoft 365 Business](prepare-for-office-client-deployment.md) 및 [Windows 10 장치에서 Office를 자동으로 설치 또는 제거](auto-install-or-uninstall-office.md)를 참조 하세요.
     
 
 
