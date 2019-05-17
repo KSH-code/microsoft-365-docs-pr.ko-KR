@@ -4,7 +4,7 @@ author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
 ms.date: 04/23/2019
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 조직에서 Microsoft 365 Enterprise 배포하는 데 사용할 수 있는 리소스를 파악 합니다.
-ms.openlocfilehash: dca9d5938a5db9cb3bc00e4e34d1f939700a1182
-ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
+ms.openlocfilehash: ac3e023f6a9364f6b9de23cd5b91d0d6fb6dbf1b
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33400065"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34072498"
 ---
 # <a name="deploy-microsoft-365-enterprise"></a>Microsoft 365 Enterprise 배포
 
@@ -136,60 +136,23 @@ TLG를 사용하면 복잡한 구성, 워크로드 또는 종단 간 시나리�
   
 ### <a name="how-microsoft-uses-microsoft-365-enterprise"></a>Microsoft에서 Microsoft 365 Enterprise를 사용하는 방법
 
-Microsoft IT 부서의 내부를 살펴보고 Microsoft 365 Enterprise가 배포된 방식과 Microsoft 직원들이 이 플랫폼을 매일 사용하는 방식을 알아보세요.
+디지털 문화를 정의하는 것이 현대적인 작업장을 조성하려고 노력하는 모든 리더의 우선 과제입니다. Microsoft 365는 이런 종류의 문화적 변화를 지원하도록 설계되어, 리더가 모든 회사 사람들이 창의성과 공동 작업을 발휘하도록 지원할 수 있습니다. Microsoft에서는 기초 인프라를 구축하여 정확하게 이런 종류의 디지털 문화 변화를 일으켰습니다. Microsoft 365 Enterprise를 구현하여 공동 작업 기술(예: Microsoft Teams 및 Exchange Online)을 배포하고 안전한 SharePoint 인트라넷 사이트 간에 온라인으로 중요한 데이터를 공유했습니다.
 
-#### <a name="networking"></a>네트워킹
+동시에, 지능형 보안 기능과 제품 통합이 적용되어 관리 요구 사항을 간소화하고 IT 수명 주기에서 총 소유 비용을 최소화합니다. 
 
-- [Microsoft Office 365의 네트워크 성능 최적화](https://www.microsoft.com/itshowcase/Article/Content/631/Optimizing-network-performance-for-Microsoft-Office-365)
+CSEO(Core Services Engineering and Operations)(이전의 Microsoft IT)가 안전한 환경에서 창의성을 발휘하고 팀워크를 조성하는 응용 프로그램과 서비스를 지원하기 위한 [토대를 계획하고 배포한](https://www.microsoft.com/en-us/itshowcase/deploying-and-managing-microsoft-365) 방법에 대해 알아봅니다.
 
-#### <a name="identity"></a>ID
-
-- [Microsoft에서 사용자 ID 및 보안 액세스 관리](https://www.microsoft.com/itshowcase/Article/Content/931/Managing-user-identities-and-secure-access-at-Microsoft)
-- [상승된 액세스 권한에 대해 Azure AD Privileged Identity Management 사용](https://www.microsoft.com/itshowcase/Article/Content/887/Using-Azure-AD-Privileged-Identity-Management-for-elevated-access)
-
-#### <a name="windows-10-enterprise"></a>Windows 10 Enterprise
-
-- [조직의 원활한 Windows 10 배포 준비](https://www.microsoft.com/itshowcase/windows10deployment?wt.mc_id=bmkg_itsc)
-- [Microsoft에서 Windows를 서비스로 채택](https://www.microsoft.com/itshowcase/Article/Content/851/Adopting-Windows-as-a-service-at-Microsoft)
-- [Microsoft의 Windows 10dmf 현재 위치 업그레이드 방식으로 배포](https://www.microsoft.com/itshowcase/Article/Content/668/Deploying-Windows-10-at-Microsoft-as-an-inplace-upgrade)
-- [비즈니스용 Windows Hello를 통해 강력한 사용자 인증 구현](https://www.microsoft.com/itshowcase/Article/Content/756/Implementing-strong-user-authentication-with-Windows-Hello-for-Business)
-- [Windows 10 배포: Microsoft IT의 팀과 트릭](https://www.microsoft.com/itshowcase/Article/Content/951/Windows-10-deployment-tips-and-tricks-from-Microsoft-IT)(비디오)
-- [Windows Defender ATP로 정교한 위협 감지 지원](https://www.microsoft.com/itshowcase/Article/Content/854/Windows-Defender-ATP-helps-detect-sophisticated-threats)
-- [Windows Defender 및 Windows Defender ATP로 최신 엔터프라이즈 보안 유지](https://www.microsoft.com/itshowcase/Article/Content/903/Securing-the-modern-enterprise-with-Windows-Defender-and-Windows-Defender-ATP)(비디오)
-
-#### <a name="office-365-proplus"></a>Office 365 ProPlus
-
-- [Microsoft Office 365 ProPlus 배포 및 업데이트](https://www.microsoft.com/itshowcase/Article/Content/757/Deploying-and-updating-Microsoft-Office-365-ProPlus)
-- [Microsoft Office 365 ProPlus를 배포하는 데 도움이 되는 자동화 및 업데이트 채널](https://www.microsoft.com/itshowcase/Article/Content/794/Automation-and-update-channels-help-deploy-Microsoft-Office-365-ProPlus)(비디오)
-
-#### <a name="mobility-and-device-management"></a>이동성 및 장치 관리
-
-- [Enterprise Mobility + Security를 통한 최신 모바일 생산성 관리](https://www.microsoft.com/itshowcase/Article/Content/972/Managing-modern-mobile-productivity-with-Enterprise-Mobility--Security)
-- [Microsoft Intune으로 Windows 10 장치에서 작동하도록 연결](https://www.microsoft.com/itshowcase/Article/Content/783/Connecting-to-work-on-your-Windows-10-device-with-Microsoft-Intune)
-- [Microsoft에서 iOS, OS X 및 Android 장치의 모바일 생산성 사용](https://www.microsoft.com/itshowcase/Article/Content/773/Enabling-mobile-productivity-for-iOS-OS-X-and-Android-devices-at-Microsoft)
-
-#### <a name="security-and-information-protection"></a>보안 및 정보 보호
-
-- [Azure Information Protection을 사용하여 클라우드의 파일 보호](https://www.microsoft.com/itshowcase/Article/Content/924/Protecting-files-in-the-cloud-with-Azure-Information-Protection)
-- [Microsoft는 위협 인텔리전스를 사용하여 위협 방지, 감지 및 대응](https://www.microsoft.com/itshowcase/Article/Content/934/Microsoft-uses-threat-intelligence-to-protect-detect-and-respond-to-threats)
-- [Microsoft는 Office 365를 사용하여 피싱 시도 저지](https://www.microsoft.com/itshowcase/Article/Content/956/Microsoft-thwarts-phishing-attempts-with-Office-365)
-
-#### <a name="microsoft-teams"></a>Microsoft Teams
-
-- [Microsoft Teams 배포를 통한 공동 작업의 간소화 및 팀워크 개선](https://www.microsoft.com/itshowcase/Article/Content/1013/Deploying-Microsoft-Teams-streamlines-collaboration-and-improves-teamwork)
-- [Microsoft Teams를 통한 최신 Microsoft 작업 공간에서의 공동 작업 증가](https://www.microsoft.com/itshowcase/Article/Content/1012/Microsoft-Teams-increases-collaboration-in-the-modern-workplace-at-Microsoft)
-
-#### <a name="data-migration"></a>데이터 마이그레이션
-
-- [Microsoft에서 150,000개의 사서함을 Exchange Online으로 마이그레이션](https://www.microsoft.com/itshowcase/Article/Content/577/Microsoft-migrates-150000-mailboxes-to-Exchange-Online)
-- [SharePoint를 클라우드로: Microsoft가 자체 마이그레이션을 수행한 방법 알아보기](https://www.microsoft.com/itshowcase/Article/Content/691/SharePoint-to-the-cloud-Learn-how-Microsoft-ran-its-own-migration)
+> [!Note]
+> 이 웹 페이지는 영어로만 제공됩니다.
 
 ### <a name="how-the-contoso-corporation-deployed-microsoft-365-enterprise"></a>Contoso Corporation에서 Microsoft 365 Enterprise를 배포한 방식
 
 Contoso 기업은 프랑스 파리에 본사를 둔 가상의 대표적인 글로벌 제조 대기업입니다. [Contoso가 Microsoft 365 Enterprise를 배포](contoso-case-study.md)하고 네트워킹, ID, Windows 10 Enterprise, Office 365 ProPlus, 모바일 장치 관리, 정보 보호 및 보안에 대한 중요 디자인 결정 및 구현 세부 사항을 진행하는 방식을 참조하십시오. 
 
-## <a name="next-step"></a>다음 단계
+## <a name="next-step-to-deploy-microsoft-365-enterprise"></a>Microsoft 365 Enterprise 배포하기 위한 다음 단계
 
 [FastTrack](https://fasttrack.microsoft.com/microsoft365)을 사용하여 직접 Microsoft 지원과 함께 수행하십시오.
+
+컨설턴트와 함께 하려면, Microsoft Consulting Services 또는 [Microsoft 파트너](https://partner.microsoft.com/)에 문의하세요.
 
 직접 시작하려면 [기초 인프라](deploy-foundation-infrastructure.md)를 참조 하십시오.
