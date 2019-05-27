@@ -2,21 +2,21 @@
 title: 위반 알림
 description: Microsoft 서비스가 개인 데이터 위반으로부터 보호하는 방법 및 Microsoft가 위반 발생 시 대응하고 사용자에게 알리는 방법입니다.
 keywords: Microsoft 365, Microsoft 365 Education, Microsoft 365 설명서, GDPR
-author: herviicban
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
 ms.date: 04/13/2018
 ms.author: heicba
+author: herviicban
 manager: laurawi
 audience: itpro
 ms.collection: GDPR
-ms.openlocfilehash: 62531fe2fe69d4b718c9ba6354e957bbc7839223
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 2df6b0327ea058445393748b4707ceb17da364a1
+ms.sourcegitcommit: 0dde96d5864e5b16ea24cfb302930b041c7a8091
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32286378"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34431849"
 ---
 # <a name="breach-notification-under-the-gdpr"></a>GDPR의 위반 알림
 
