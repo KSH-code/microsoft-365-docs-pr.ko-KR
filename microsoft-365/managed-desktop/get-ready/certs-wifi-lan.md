@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: b8d41e3747ad1e844e8d8f51412366d1c58efbe4
-ms.sourcegitcommit: 82a5c9a1f0f9627264f6f488dedb03f9092451fd
+ms.openlocfilehash: 7c260ce7b3fcb488cb22fb054eeb6ba322fee94b
+ms.sourcegitcommit: ef1382ca224a0c108df2633a6550786666691e1c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/17/2019
-ms.locfileid: "34163451"
+ms.lasthandoff: 05/22/2019
+ms.locfileid: "34391269"
 ---
 # <a name="prepare-certificates-and-network-profiles-for-microsoft-managed-desktop"></a>Microsoft Managed Desktop에 대 한 인증서 및 네트워크 프로필 준비  
  
@@ -71,7 +71,7 @@ LAN 프로필을 내보낸 후에는 다음 단계를 수행 하 여 Microsoft M
     - OMA-URI (대/소문자 구분):/Device/Vendor/MSFT/WiredNetwork/LanXML를 입력 *합니다.*
     - 데이터 형식: **문자열 (XML 파일)** 을 선택 합니다. 
     - 사용자 지정 XML: 내보낸 XML 파일을 업로드 합니다.
-2. Microsoft managed Desktop Administration Portal을 사용 하 여 Microsoft 관리 데스크톱 작업에 대 한 서비스 요청을 제출 하 여 구성 프로필을 검토 하 고 "현대적인 작업 공간 장치-테스트"로 배포 합니다. Microsoft Managed Desktop 작업을 통해 관리자 포털을 사용 하 여 요청이 완료 되는 시기를 알 수 있습니다.
+2. Microsoft managed desktop Administration portal을 사용 하 여 Microsoft Managed Desktop IT 작업에 대 한 지원 요청을 제출 하 여 구성 프로필을 검토 하 고 "현대적인 작업 공간 장치-테스트"로 배포 합니다. Microsoft Managed Desktop IT 작업을 통해 요청이 관리자 포털의 지원 요청을 통해 완료 되는 시기를 알 수 있습니다.
  
 ## <a name="deploy-certificates-and-wi-fivpn-profile"></a>인증서 및 Wi-fi/VPN 프로필 배포 
  
@@ -82,6 +82,6 @@ LAN 프로필을 내보낸 후에는 다음 단계를 수행 하 여 Microsoft M
 2. 각 SCEP 또는 PKCS 인증서에 대 한 프로필 만들기 ( [scep 인증서 프로필](https://docs.microsoft.com/intune/certificates-scep-configure#create-a-scep-certificate-profile) 만들기 또는 [Pkcs 인증서 프로필 만들기](https://docs.microsoft.com/intune/certficates-pfx-configure#create-a-pkcs-certificate-profile)참조) 각 프로필에는 만료 날짜를 DD/MM/YYYY 형식으로 포함 하는 설명이 있어야 합니다. **만료 날짜가 없는 인증서 프로필은 배포 되지 않습니다.**
 3. 각 회사 WiFi 네트워크에 대 한 프로필을 만듭니다 ( [Windows 10 이상 장치에 대 한 wi-fi 설정](https://docs.microsoft.com/intune/wi-fi-settings-windows)참조).
 4. 각 회사 VPN에 대 한 프로필을 만듭니다 ( [Intune을 사용 하 여 VPN 연결을 추가 하려면 windows 10 및 Windows Holographic 장치 설정](https://docs.microsoft.com/intune/vpn-settings-windows-10)참조).
-5. Microsoft Managed Desktop Administration Portal을 사용 하 여 "인증서 배포" 또는 "Wi-fi 프로필 배포" 라는 서비스 요청을 Microsoft Managed Desktop 작업에 제출 하 여 구성 프로필을 검토 하 고 "최신 직장 회사 장치-테스트"로 배포 합니다. Microsoft Managed Desktop 작업을 통해 관리자 포털을 사용 하 여 요청이 완료 된 시기를 알 수 있습니다. 
+5. Microsoft Managed Desktop Administration portal을 사용 하 여 Microsoft Managed Desktop IT 작업에 "인증서 배포" 또는 "Wi-fi 프로필 배포" 라는 지원 요청을 제출 하 여 구성 프로필을 검토 하 고 "최신 작업 공간 장치-테스트"로 배포 합니다. ". Microsoft Managed Desktop IT 작업을 통해 관리자 포털의 지원 요청을 통해 요청이 완료 된 시기를 알 수 있습니다. 
  
  

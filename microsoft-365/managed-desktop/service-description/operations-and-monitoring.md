@@ -1,18 +1,17 @@
 ---
 title: Microsoft Managed Desktop 작업 및 모니터링
 description: ''
-keywords: microsoft Managed Desktop, microsoft 365, 서비스, 설명서
+keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 설명서
 ms.service: m365-md
-author: trudyha
+author: jaimeo
 ms.localizationpriority: normal
-ms.date: 12/18/2018
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 391c5cca9f1d440a806fa094633b50c3256c2a26
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: c618c5bf2acf50d84aca354975670ed84b581601
+ms.sourcegitcommit: 0dde96d5864e5b16ea24cfb302930b041c7a8091
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32291463"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34431919"
 ---
 # <a name="microsoft-managed-desktop-operations-and-monitoring"></a>Microsoft Managed Desktop 작업 및 모니터링
 
@@ -73,7 +72,7 @@ ms.locfileid: "32291463"
 
 ## <a name="standard-operating-procedures"></a>표준 운영 절차
 
-microsoft 관리 데스크톱 서비스는 microsoft 클라우드 인스턴스에서 다른 관리 작업을 수행할 수 있는 microsoft에서 구현 되 고 운영 됩니다. microsoft는 microsoft Managed Desktop 관련 설치, 구성 및 운영에만 책임이 있습니다. 
+Microsoft 관리 데스크톱 서비스는 microsoft 클라우드 인스턴스에서 다른 관리 작업을 수행할 수 있는 microsoft에서 구현 되 고 운영 됩니다. Microsoft는 Microsoft Managed Desktop 관련 설치, 구성 및 운영에만 책임이 있습니다. 
 
 온-프레미스 제품의 경우 조직에서 설치 및 구성 및 운영 작업을 관리 하는 모든 책임을 맡습니다.
 
@@ -81,18 +80,18 @@ microsoft 관리 데스크톱 서비스는 microsoft 클라우드 인스턴스�
 --- | --- | ---
 네트워크 (프록시, 패킷 검사, VPN)  | 비즈니스 사용자에 대 한 위험을 최소화 하는 고객을 권고 하 고 계획 합니다. | -Microsoft에서 검토할 수 있는 구성 세부 정보, 범위, 시간 표시 막대 및 기타 관련 세부 정보를 비롯 하 여 계획 된 구성 변경에 대 한 정보를 요청 하는 지원 요청을 만듭니다.<br>-Microsoft Managed Desktop Operations가 평가 되 고 advise 된 경우에만 변경 내용을 적용 합니다.
 서비스 계정 |-자격 증명을 구현 하 고 안전 하 게 저장 하 고 관리 합니다.<br> -보안 운영 팀에 이러한 자격 증명을 무단으로 액세스 하거나 사용 하지 못하도록 합니다. | -Microsoft에서 검토할 수 있는 구성 세부 정보, 범위, 시간 표시 막대 및 기타 관련 세부 정보를 비롯 하 여 계획 된 구성 변경에 대 한 정보를 요청 하는 지원 요청을 만듭니다.<br>-Microsoft Managed Desktop Operations가 평가 되 고 advise 된 경우에만 변경 내용을 적용 합니다.<br>-정책, 다단계 인증, 조건부 액세스 또는 Microsoft Managed Desktop Service 계정에 응용 프로그램 배포를 할당 하지 않습니다.<br>-암호를 다시 설정 하거나 자격 증명을 사용 하지 않습니다.<br>-이 서비스 계정과 관련 된 Intune 또는 Azure 감사 로그에서 의심 스러운 작업이 관찰 되는 경우 Microsoft Managed Desktop 작업에 대 한 Sev C 지원 요청을 엽니다.
-장치 그룹 | -Microsoft 관리 되는 데스크톱 그룹 내에서 장치의 구성원을 구현 하 고 관리 합니다.<br>-Microsoft 관리 데스크톱 그룹을 사용 하 여 구성 및 장치에 대 한 업데이트 및 구성을 관리 합니다. | -Microsoft에서 검토할 수 있는 구성 세부 정보, 범위, 시간 표시 막대 및 기타 관련 세부 정보를 비롯 하 여 계획 된 구성 변경에 대 한 정보를 요청 하는 지원 요청을 만듭니다.<br>-Microsoft Managed Desktop Operations가 평가 되 고 advise 된 경우에만 변경 내용을 적용 합니다.<br>-Microsoft 관리 되는 데스크톱 그룹의 구성원 자격을 수정 하지 않습니다.<br>-그룹을 사용 하 여 VPN, Windows Hello 또는 전자 메일 암호화 또는 회사 wi-fi 프로필 구성 같은 서비스에 대해 회사 인증서를 할당 합니다.<br>-공동 관리가 있는 경우 Configuration Manager 클라이언트를 배포할 때 모든 Microsoft 관리 되는 데스크톱 그룹을 명시적으로 제외 합니다.
-정책도 |  -서비스 내의 장치 구성 상태를 제어 하는 Microsoft Managed Desktop 정책을 구현 하 고 관리 합니다.<br>-장치 그룹을 점진적으로 사용 하 여 정책 또는 Windows에 업데이트를 배포 합니다.<br> -Microsoft에서 관리 하지 않는 대상 데스크톱 그룹을 명시적으로 제외 합니다. | -Microsoft에서 검토할 수 있는 구성 세부 정보, 범위, 시간 표시 막대 및 기타 관련 세부 정보를 비롯 하 여 계획 된 구성 변경에 대 한 정보를 요청 하는 지원 요청을 만듭니다.<br>-Microsoft Managed Desktop Operations가 평가 되 고 advise 된 경우에만 변경 내용을 적용 합니다.<br>-microsoft managed desktop service를 통해 관리 되지 않는 장치나 사용자에 게 microsoft 관리 데스크톱 정책을 편집 하거나 할당 하지 않습니다.
+장치 그룹 | -Microsoft 관리 되는 데스크톱 그룹 내에서 장치의 구성원을 구현 하 고 관리 합니다.<br>-Microsoft 관리 데스크톱 그룹을 사용 하 여 구성 및 장치에 대 한 업데이트 및 구성을 관리 합니다. | -Microsoft에서 검토할 수 있는 구성 세부 정보, 범위, 시간 표시 막대 및 기타 관련 세부 정보를 비롯 하 여 계획 된 구성 변경에 대 한 정보를 요청 하는 지원 요청을 만듭니다.<br>-Microsoft Managed Desktop Operations가 평가 되 고 advise 된 경우에만 변경 내용을 적용 합니다.<br>-Microsoft 관리 되는 데스크톱 그룹의 구성원 자격을 수정 하지 않습니다.<br>-그룹을 사용 하 여 VPN, Windows Hello 또는 전자 메일 암호화 또는 회사 Wi-fi 프로필 구성 같은 서비스에 대해 회사 인증서를 할당 합니다.<br>-공동 관리가 있는 경우 Configuration Manager 클라이언트를 배포할 때 모든 Microsoft 관리 되는 데스크톱 그룹을 명시적으로 제외 합니다.
+정책도 |  -서비스 내의 장치 구성 상태를 제어 하는 Microsoft Managed Desktop 정책을 구현 하 고 관리 합니다.<br>-장치 그룹을 점진적으로 사용 하 여 정책 또는 Windows에 업데이트를 배포 합니다.<br> -Microsoft에서 관리 하지 않는 대상 데스크톱 그룹을 명시적으로 제외 합니다. | -Microsoft에서 검토할 수 있는 구성 세부 정보, 범위, 시간 표시 막대 및 기타 관련 세부 정보를 비롯 하 여 계획 된 구성 변경에 대 한 정보를 요청 하는 지원 요청을 만듭니다.<br>-Microsoft Managed Desktop Operations가 평가 되 고 advise 된 경우에만 변경 내용을 적용 합니다.<br>-Microsoft managed desktop service를 통해 관리 되지 않는 장치나 사용자에 게 Microsoft 관리 데스크톱 정책을 편집 하거나 할당 하지 않습니다.
 Windows Defender Advanced Threat Protection | Microsoft Managed Desktop service의 범위 내에서 장치를 모니터링 하 고 조사 합니다. | -Microsoft에서 검토할 수 있는 구성 세부 정보, 범위, 시간 표시 막대 및 기타 관련 세부 정보를 비롯 하 여 계획 된 구성 변경에 대 한 정보를 요청 하는 지원 요청을 만듭니다.<br>-Microsoft Managed Desktop Operations가 평가 되 고 권장 되는 경우 변경 내용을 적용 합니다.
 비즈니스용 Microsoft Store |  Microsoft Managed Desktop service에 대 한 Windows Autopilot 프로필을 구성 하 고 유지 관리 합니다. | -Microsoft에서 검토할 수 있는 구성 세부 정보, 범위, 시간 표시 막대 및 기타 관련 세부 정보를 비롯 하 여 계획 된 구성 변경에 대 한 정보를 요청 하는 지원 요청을 만듭니다.<br>-Microsoft Managed Desktop Operations가 평가 되 고 advise 된 경우에만 변경 내용을 적용 합니다.<br>-Microsoft Managed Desktop Windows Autopilot profile의 구성을 수정 하지 않거나 할당 된 장치를 추가/제거 합니다.
-인증서 | | -Microsoft에서 검토할 수 있는 구성 세부 정보, 범위, 시간 표시 막대 및 기타 관련 세부 정보를 비롯 하 여, 인증서가 만료 되기 전에 60 일 이내에 지원 요청을 만들어 계획 된 구성 변경을 요청 합니다.<br>-Microsoft Managed Desktop Operations가 평가 되 고 advise 된 경우에만 변경 내용을 적용 합니다.<br>-인증서 프로필, VPN 프로필 및 wi-fi 프로필을 구성 하는 데 필요한 모든 인증서를 업데이트 합니다.
+인증서 | | -Microsoft에서 검토할 수 있는 구성 세부 정보, 범위, 시간 표시 막대 및 기타 관련 세부 정보를 비롯 하 여, 인증서가 만료 되기 전에 60 일 이내에 지원 요청을 만들어 계획 된 구성 변경을 요청 합니다.<br>-Microsoft Managed Desktop Operations가 평가 되 고 advise 된 경우에만 변경 내용을 적용 합니다.<br>-인증서 프로필, VPN 프로필 및 Wi-fi 프로필을 구성 하는 데 필요한 모든 인증서를 업데이트 합니다.
 
 
 
 
 ## <a name="device-wipe-with-factory-reset"></a>공장 초기화로 장치 지우기
 
-관리 되는 데스크톱 운영 팀에서는 reimaged 해야 하는 Microsoft Managed desktop 관리 장치에 대해 팩터리를 다시 설정할 수 있습니다. 이 기능은 다른 직원에 게 장치를 제공 해야 하거나 직원이 회사를 떠나는 경우에 유용 합니다. 
+관리 되는 데스크톱 운영 팀에서는 reimaged 해야 하는 Microsoft Managed Desktop 관리 장치에 대해 팩터리를 다시 설정할 수 있습니다. 이 기능은 다른 직원에 게 장치를 제공 해야 하거나 직원이 회사를 떠나는 경우에 유용 합니다. 
 
 다음과 같은 몇 가지 요구 사항이 있습니다.
 
