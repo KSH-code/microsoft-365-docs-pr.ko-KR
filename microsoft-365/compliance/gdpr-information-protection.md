@@ -2,58 +2,59 @@
 title: 정보 보호
 description: GDPR(일반 데이터 보호 규정)에 대한 정보 보호
 keywords: Microsoft 365, Microsoft 365 Education, Microsoft 365 설명서, GDPR
-author: BrendaCarter
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
 ms.date: 04/13/2018
 ms.author: bcarter
+author: BrendaCarter
 manager: laurawi
 audience: itpro
 ms.collection:
 - GDPR
 - M365-security-compliance
-ms.openlocfilehash: 94ec13437ff297381b4ea8aca0e9370f295f249e
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: e62244fd35a50f4110c5a6e7ce1591d0466263f1
+ms.sourcegitcommit: 0dde96d5864e5b16ea24cfb302930b041c7a8091
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32285190"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34431789"
 ---
-# <a name="information-protection-for-gdpr-with-microsoft-365-capabilities"></a><span data-ttu-id="99103-104">Microsoft 365 기능을 사용한 GDPR에 대한 정보 보호</span><span class="sxs-lookup"><span data-stu-id="99103-104">Information protection for GDPR with Microsoft 365 capabilities</span></span>
+# <a name="information-protection-for-gdpr-with-microsoft-365-capabilities"></a><span data-ttu-id="3d466-104">Microsoft 365 기능을 사용한 GDPR에 대한 정보 보호</span><span class="sxs-lookup"><span data-stu-id="3d466-104">Information protection for GDPR with Microsoft 365 capabilities</span></span>
 
-<span data-ttu-id="99103-p101">Microsoft 365는 GDPR(일반 데이터 보호 규정)을 준수하는 데 도움이 되는 풍부한 기능을 제공합니다. 이 문서에서는 권장 기능과 자세한 정보에 대한 링크를 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="99103-p101">Microsoft 365 provides a rich set of capabilities to help you achieve compliance with the General Data Protection Regulation (GDPR). This article summarizes recommended capabilities with links to more information.</span></span>
+<span data-ttu-id="3d466-p101">Microsoft 365는 GDPR(일반 데이터 보호 규정)을 준수하는 데 도움이 되는 풍부한 기능을 제공합니다. 이 문서에서는 권장 기능과 자세한 정보에 대한 링크를 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="3d466-p101">Microsoft 365 provides a rich set of capabilities to help you achieve compliance with the General Data Protection Regulation (GDPR). This article summarizes recommended capabilities with links to more information.</span></span>
 
-<span data-ttu-id="99103-107">Microsoft가 GDPR 준수에 도움을 주는 방식에 대한 자세한 내용은 Service Trust Portal에서 [시작: GDPR 책임에 대한 지원](https://servicetrust.microsoft.com/ViewPage/GDPRGetStarted)을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="99103-107">For more information about how Microsoft can help you with the GDPR, see [Get Started: Support for GDPR Accountability](https://servicetrust.microsoft.com/ViewPage/GDPRGetStarted) in the Service Trust Portal.</span></span>
+<span data-ttu-id="3d466-107">Microsoft가 GDPR 준수에 도움을 주는 방식에 대한 자세한 내용은 Service Trust Portal에서 [시작: GDPR 책임에 대한 지원](https://servicetrust.microsoft.com/ViewPage/GDPRGetStarted)을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="3d466-107">For more information about how Microsoft can help you with the GDPR, see [Get Started: Support for GDPR Accountability](https://servicetrust.microsoft.com/ViewPage/GDPRGetStarted) in the Service Trust Portal.</span></span>
 
-## <a name="information-protection"></a><span data-ttu-id="99103-108">정보 보호</span><span class="sxs-lookup"><span data-stu-id="99103-108">Information protection</span></span>
+## <a name="information-protection"></a><span data-ttu-id="3d466-108">정보 보호</span><span class="sxs-lookup"><span data-stu-id="3d466-108">Information protection</span></span>
 
-<span data-ttu-id="99103-p102">Office 365는 다양한 데이터 거버넌스 기능을 제공합니다. 개인 데이터의 찾기, 분류, 보호 및 모니터링에 대한 도움말을 보려면 [GDPR에 대한 Office 365 정보 보호](https://docs.microsoft.com/office365/enterprise/office-365-information-protection-for-gdpr)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="99103-p102">Office 365 provides a rich set of data governance capabilities. For help with finding, classifying, protecting, and monitoring personal data, see [Office 365 Information Protection for GDPR](https://docs.microsoft.com/office365/enterprise/office-365-information-protection-for-gdpr).</span></span> 
+<span data-ttu-id="3d466-p102">Office 365는 다양한 데이터 거버넌스 기능을 제공합니다. 개인 데이터의 찾기, 분류, 보호 및 모니터링에 대한 도움말을 보려면 [GDPR에 대한 Office 365 정보 보호](https://docs.microsoft.com/office365/enterprise/office-365-information-protection-for-gdpr)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="3d466-p102">Office 365 provides a rich set of data governance capabilities. For help with finding, classifying, protecting, and monitoring personal data, see [Office 365 Information Protection for GDPR](https://docs.microsoft.com/office365/enterprise/office-365-information-protection-for-gdpr).</span></span>
 
-<span data-ttu-id="99103-111">파일 공유, SharePoint Server, Exchange Server, 비즈니스용 Skype 서버, Project Server 및 Office Online Server 등의 온-프레미스 서버에 대한 도움말은 [온-프레미스 Office 서버에 대한 GDPR](https://docs.microsoft.com/office365/enterprise/gdpr-for-office-servers)을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="99103-111">For help with on-premises servers, including file shares, SharePoint Server, Exchange Server, Skype for Business Server, Project Server, and Office Online Server, see [GDPR for on-premises Office servers](https://docs.microsoft.com/office365/enterprise/gdpr-for-office-servers).</span></span> 
+<span data-ttu-id="3d466-111">파일 공유, SharePoint Server, Exchange Server, 비즈니스용 Skype 서버, Project Server 및 Office Online Server 등의 온-프레미스 서버에 대한 도움말은 [온-프레미스 Office 서버에 대한 GDPR](https://docs.microsoft.com/office365/enterprise/gdpr-for-office-servers)을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="3d466-111">For help with on-premises servers, including file shares, SharePoint Server, Exchange Server, Skype for Business Server, Project Server, and Office Online Server, see [GDPR for on-premises Office servers](https://docs.microsoft.com/office365/enterprise/gdpr-for-office-servers).</span></span> 
 
-## <a name="identity-and-access-management"></a><span data-ttu-id="99103-112">ID 및 액세스 관리</span><span class="sxs-lookup"><span data-stu-id="99103-112">Identity and access management</span></span>
+## <a name="identity-and-access-management"></a><span data-ttu-id="3d466-112">ID 및 액세스 관리</span><span class="sxs-lookup"><span data-stu-id="3d466-112">Identity and access management</span></span>
 
-<span data-ttu-id="99103-113">Azure Active Directory 및 기타 Microsoft 365 기능은 ID 및 장치로부터 데이터에 대한 액세스를 보호하는 풍부한 기능을 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="99103-113">Azure Active Directory and other Microsoft 365 capabilities provide a rich set of capabilities to protect access to your data from identities and devices:</span></span>
-- <span data-ttu-id="99103-114">MFA(Multi-Factor Authentication)</span><span class="sxs-lookup"><span data-stu-id="99103-114">Multi-factor authentication (MFA)</span></span>
-- <span data-ttu-id="99103-115">조건부 액세스</span><span class="sxs-lookup"><span data-stu-id="99103-115">Conditional access</span></span>
-- <span data-ttu-id="99103-116">Privileged Identity Management</span><span class="sxs-lookup"><span data-stu-id="99103-116">Privileged identity management</span></span>
-- <span data-ttu-id="99103-117">모바일 장치 관리</span><span class="sxs-lookup"><span data-stu-id="99103-117">Mobile device management</span></span>
-- <span data-ttu-id="99103-118">모바일 응용 프로그램 관리</span><span class="sxs-lookup"><span data-stu-id="99103-118">Mobile application management</span></span>
-- <span data-ttu-id="99103-119">자격 증명에 대한 하드웨어 보호</span><span class="sxs-lookup"><span data-stu-id="99103-119">Hardwar protection for credentials</span></span>
+<span data-ttu-id="3d466-113">Azure Active Directory 및 기타 Microsoft 365 기능은 ID 및 장치로부터 데이터에 대한 액세스를 보호하는 풍부한 기능을 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="3d466-113">Azure Active Directory and other Microsoft 365 capabilities provide a rich set of capabilities to protect access to your data from identities and devices:</span></span>
 
-<span data-ttu-id="99103-120">Microsoft에서는 시작점으로 사용할 수 있는 권장 구성을 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="99103-120">Microsoft provides a recommended configuration you can use as a starting point:</span></span>
-- <span data-ttu-id="99103-p103">[ID 및 장치 액세스 구성](../enterprise/microsoft-365-policies-configurations.md): 3가지 보호 계층(기준선, 중요, 높은 규제)을 달성하기 위한 권장 정책 구성입니다. 이 가이드에는 Exchange Online 및 SharePoint Online(비즈니스용 OneDrive 포함)에 대한 권장 정책이 포함되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="99103-p103">[Identity and device access configurations](../enterprise/microsoft-365-policies-configurations.md): Recommended policy configurations to achieve three tiers of protection (baseline, sensitive, highly regulated). This guidance includes recommended policies for Exchange Online and SharePoint Online (including OneDrive for Business).</span></span>
-- <span data-ttu-id="99103-123">[정치적 캠페인, 비영리 조직 및 긴급 구성 조직을 위한 보안 지침](https://docs.microsoft.com/office365/enterprise/microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o): 여기에는 동일한 정책 집합이 포함되지만, BYOD 환경 및 B2B 계정에 대한 추가 지침이 제공됩니다.</span><span class="sxs-lookup"><span data-stu-id="99103-123">[Security guidance for political campaigns, nonprofits, and other agile organizations](https://docs.microsoft.com/office365/enterprise/microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o): This includes the same set of policies but provides additional guidance for BYOD environments and for B2B accounts.</span></span>
+- <span data-ttu-id="3d466-114">MFA(Multi-Factor Authentication)</span><span class="sxs-lookup"><span data-stu-id="3d466-114">Multi-factor authentication (MFA)</span></span>
+- <span data-ttu-id="3d466-115">조건부 액세스</span><span class="sxs-lookup"><span data-stu-id="3d466-115">Conditional access</span></span>
+- <span data-ttu-id="3d466-116">Privileged Identity Management</span><span class="sxs-lookup"><span data-stu-id="3d466-116">Privileged identity management</span></span>
+- <span data-ttu-id="3d466-117">모바일 장치 관리</span><span class="sxs-lookup"><span data-stu-id="3d466-117">Mobile device management</span></span>
+- <span data-ttu-id="3d466-118">모바일 응용 프로그램 관리</span><span class="sxs-lookup"><span data-stu-id="3d466-118">Mobile application management</span></span>
+- <span data-ttu-id="3d466-119">자격 증명에 대한 하드웨어 보호</span><span class="sxs-lookup"><span data-stu-id="3d466-119">Hardwar protection for credentials</span></span>
 
+<span data-ttu-id="3d466-120">Microsoft에서는 시작점으로 사용할 수 있는 권장 구성을 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="3d466-120">Microsoft provides a recommended configuration you can use as a starting point:</span></span>
 
-## <a name="threat-protection"></a><span data-ttu-id="99103-124">위협 방지</span><span class="sxs-lookup"><span data-stu-id="99103-124">Threat Protection</span></span>
+- <span data-ttu-id="3d466-p103">[ID 및 장치 액세스 구성](../enterprise/microsoft-365-policies-configurations.md): 3가지 보호 계층(기준선, 중요, 높은 규제)을 달성하기 위한 권장 정책 구성입니다. 이 가이드에는 Exchange Online 및 SharePoint Online(비즈니스용 OneDrive 포함)에 대한 권장 정책이 포함되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3d466-p103">[Identity and device access configurations](../enterprise/microsoft-365-policies-configurations.md): Recommended policy configurations to achieve three tiers of protection (baseline, sensitive, highly regulated). This guidance includes recommended policies for Exchange Online and SharePoint Online (including OneDrive for Business).</span></span>
+- <span data-ttu-id="3d466-123">[정치적 캠페인, 비영리 조직 및 긴급 구성 조직을 위한 보안 지침](https://docs.microsoft.com/office365/enterprise/microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o): 여기에는 동일한 정책 집합이 포함되지만, BYOD 환경 및 B2B 계정에 대한 더 많은 지침이 제공됩니다.</span><span class="sxs-lookup"><span data-stu-id="3d466-123">[Security guidance for political campaigns, nonprofits, and other agile organizations](https://docs.microsoft.com/office365/enterprise/microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o): This includes the same set of policies but provides additional guidance for BYOD environments and for B2B accounts.</span></span>
 
-<span data-ttu-id="99103-p104">위협 방지는 Microsoft 365 서비스에 기본적으로 제공되며 다음 리소스를 통해 시작할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="99103-p104">Threat protection is built across Microsoft 365 services. Here are a few resources to get you started:</span></span>
-- <span data-ttu-id="99103-p105">[Office 365 보안 로드맵: 처음 30일, 90일 및 그 이상 기간에 주요 우선 순위 두기](https://support.office.com/article/Office-365-security-roadmap-Top-priorities-for-the-first-30-days-90-days-and-beyond-28c86a1c-e4dd-4aad-a2a6-c768a21cb352). 이 로드맵에는 기능을 구현하기 위한 권장 사항이 포함되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="99103-p105">[Office 365 security roadmap: Top priorities for the first 30 days, 90 days, and beyond](https://support.office.com/article/Office-365-security-roadmap-Top-priorities-for-the-first-30-days-90-days-and-beyond-28c86a1c-e4dd-4aad-a2a6-c768a21cb352). This roadmap includes recommendations for implementing capabilities.</span></span> 
-- <span data-ttu-id="99103-129">[Office 365에서 위협으로부터 보호](https://support.office.com/article/protect-against-threats-in-office-365-b10023f6-f30f-45d3-b3ad-b71aa4aa0d58).</span><span class="sxs-lookup"><span data-stu-id="99103-129">[Protect against threats in Office 365](https://support.office.com/article/protect-against-threats-in-office-365-b10023f6-f30f-45d3-b3ad-b71aa4aa0d58).</span></span> <span data-ttu-id="99103-130">Microsoft 365 보안 센터에서 수행할 수 있는 보호 조치에 대해 알아봅니다.</span><span class="sxs-lookup"><span data-stu-id="99103-130">Learn about protection actions you can take in the Microsoft 365 security center.</span></span>
-- <span data-ttu-id="99103-p107">[Windows 위협 보호](https://docs.microsoft.com/windows/security/threat-protection/). Windows Defender Advanced Threat Protection 및 Windows 10의 기타 기능에 대해 자세히 알아봅니다.</span><span class="sxs-lookup"><span data-stu-id="99103-p107">[Windows Threat Protection](https://docs.microsoft.com/windows/security/threat-protection/). Learn more about Windows Defender Advanced Threat Protection and other capabilities in Windows 10.</span></span>
+## <a name="threat-protection"></a><span data-ttu-id="3d466-124">위협 방지</span><span class="sxs-lookup"><span data-stu-id="3d466-124">Threat Protection</span></span>
 
+<span data-ttu-id="3d466-p104">위협 방지는 Microsoft 365 서비스에 기본적으로 제공되며 다음 리소스를 통해 시작할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3d466-p104">Threat protection is built across Microsoft 365 services. Here are a few resources to get you started:</span></span>
 
-## <a name="learn-more"></a><span data-ttu-id="99103-133">자세한 정보</span><span class="sxs-lookup"><span data-stu-id="99103-133">Learn more</span></span>
-[<span data-ttu-id="99103-134">Microsoft 보안 센터</span><span class="sxs-lookup"><span data-stu-id="99103-134">Microsoft Trust Center</span></span>](https://www.microsoft.com/TrustCenter/Privacy/gdpr/default.aspx)
+- <span data-ttu-id="3d466-p105">[Office 365 보안 로드맵: 처음 30일, 90일 및 그 이상 기간에 주요 우선 순위 두기](https://support.office.com/article/Office-365-security-roadmap-Top-priorities-for-the-first-30-days-90-days-and-beyond-28c86a1c-e4dd-4aad-a2a6-c768a21cb352). 이 로드맵에는 기능을 구현하기 위한 권장 사항이 포함되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3d466-p105">[Office 365 security roadmap: Top priorities for the first 30 days, 90 days, and beyond](https://support.office.com/article/Office-365-security-roadmap-Top-priorities-for-the-first-30-days-90-days-and-beyond-28c86a1c-e4dd-4aad-a2a6-c768a21cb352). This roadmap includes recommendations for implementing capabilities.</span></span> 
+- <span data-ttu-id="3d466-129">[Office 365에서 위협으로부터 보호](https://support.office.com/article/protect-against-threats-in-office-365-b10023f6-f30f-45d3-b3ad-b71aa4aa0d58).</span><span class="sxs-lookup"><span data-stu-id="3d466-129">[Protect against threats in Office 365](https://support.office.com/article/protect-against-threats-in-office-365-b10023f6-f30f-45d3-b3ad-b71aa4aa0d58).</span></span> <span data-ttu-id="3d466-130">Microsoft 365 보안 센터에서 수행할 수 있는 보호 조치에 대해 알아봅니다.</span><span class="sxs-lookup"><span data-stu-id="3d466-130">Learn about protection actions you can take in the Microsoft 365 security center.</span></span>
+- <span data-ttu-id="3d466-p107">[Windows 위협 보호](https://docs.microsoft.com/windows/security/threat-protection/). Windows Defender Advanced Threat Protection 및 Windows 10의 기타 기능에 대해 자세히 알아봅니다.</span><span class="sxs-lookup"><span data-stu-id="3d466-p107">[Windows Threat Protection](https://docs.microsoft.com/windows/security/threat-protection/). Learn more about Windows Defender Advanced Threat Protection and other capabilities in Windows 10.</span></span>
+
+## <a name="learn-more"></a><span data-ttu-id="3d466-133">자세한 정보</span><span class="sxs-lookup"><span data-stu-id="3d466-133">Learn more</span></span>
+[<span data-ttu-id="3d466-134">Microsoft 보안 센터</span><span class="sxs-lookup"><span data-stu-id="3d466-134">Microsoft Trust Center</span></span>](https://www.microsoft.com/TrustCenter/Privacy/gdpr/default.aspx)
