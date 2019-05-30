@@ -2,21 +2,21 @@
 title: Azure 및 GDPR의 위반 알림
 description: Azure가 개인 데이터 위반으로부터 보호하는 방법 및 Microsoft가 위반 발생 시 대응하고 사용자에게 알리는 방법입니다.
 keywords: Azure, Microsoft 365, Microsoft 365 Education, Microsoft 365 설명서, GDPR
-author: herviicban
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
 ms.date: 04/13/2018
 ms.author: heicba
+author: herviicban
 manager: laurawi
 audience: itpro
 ms.collection: GDPR
-ms.openlocfilehash: 287175d6f78efa1052e446b230f39c33fc4d5fc6
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 5e8c04bcd20f56580e939bc4a2685eb232d5e589
+ms.sourcegitcommit: 0dde96d5864e5b16ea24cfb302930b041c7a8091
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32286433"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34431499"
 ---
 # <a name="azure-and-breach-notification-under-the-gdpr"></a>Azure 및 GDPR의 위반 알림
 
@@ -131,13 +131,13 @@ Microsoft는 업무에 미치는 영향, 복구 가능성 및 인시던트의 �
 
 -   **개인 정보 위반:** 개인 데이터와 관련된 보안 인시던트의 하위 형식입니다. 처리 절차는 보안 인시던트와 다르지 않습니다.
 
-CRSI가 선언되려면, Microsoft가 고객 데이터에 대한 무단 액세스가 발생했거나 발생했을 가능성이 높고, 알림이 진행되어야 하는 법적 또는 계약 조항이 있음을 확인해야 합니다. 구체적인 고객 영향, 리소스 액세스 및 복구 단계가 공개되면 좋지만 반드시 그럴 필요는 없습니다.인시던트는 일반적으로 보안 인시던트의 진단 단계가 끝난 후에 CRSI로 선언됩니다. 그렇지만 모든 관려 정보를 사용할 수 있게 되는 언제든지 이러한 선언이 진해욀 수 있습니다. 보안 인시던트 관리자는 고객 인시던트 알림 프로세스를 실행하기 전에, 보고 가능한 이벤트가 발생했을 것이라는 합리적인 추측을 넘어서는 명확한 증거를 확보해야 합니다.
+CRSI가 선언되려면, Microsoft가 고객 데이터에 대한 무단 액세스가 발생했거나 발생했을 가능성이 높고, 알림이 진행되어야 하는 법적 또는 계약 조항이 있음을 확인해야 합니다. 구체적인 고객 영향, 리소스 액세스 및 복구 단계가 공개되면 좋지만 반드시 그럴 필요는 없습니다.인시던트는 일반적으로 보안 인시던트의 진단 단계가 끝난 후에 CRSI로 선언됩니다. 그렇지만 모든 관려 정보를 사용할 수 있게 되는 언제든지 이러한 선언이 진행될 수 있습니다. 보안 인시던트 관리자는 고객 인시던트 알림 프로세스를 실행하기 전에, 보고 가능한 이벤트가 발생했을 것이라는 합리적인 추측을 넘어서는 명확한 증거를 확보해야 합니다.
 
 조사 과정 전반에서, 보안 대응 팀은 전역 법률 자문과 긴밀히 협의하면서 법률적 의무 및 고객과의 약정에 따라 법정 조치가 수행되도록 합니다. 또한 다양한 운영 환경에서 시스템 및 고객 데이터를 보고 처리하는 데 중요한 제한 사항이 적용됩니다. 고객 데이터뿐만 아니라 중요한 데이터 또는 기밀 데이터는 해당 인시던트 티켓에 기록된 인시던트 관리자의 명시적인 서면 동의 없이 프로덕션 환경 외부로 전송되지 않습니다.
 
 Microsoft는 고객 및 비즈니스 위험이 성공적으로 방지되고, 수정 조치가 구현되는지 확인합니다. 필요한 경우 이벤트와 연결된 즉각적인 보안 위험을 해결하기 위한 긴급 완화 단계가 수행됩니다.
 
-또한 Microsoft는 데이터 침해에 대한 내부 사후 평가도 완료합니다. 이 과정의 일부로, 대응 및 운영 절차가 충분한지 평가되고, 보안 인시던트 대응 SOP 또는 관련 프로세스에 필요할 수 있는 모든 업데이트가 파악되고 구현됩니다. 데이터 침해에 대한 내부 사후 평가는 고객이 사용할 수 없는 중대한 기밀 기록입니다. 그렇지만 사후 평가를 요약하여 다른 고객 이벤트 알림에 포함할 수 있습니다. 이러한 보고서는 Azure의 정기 감사 주기의 일부로 검토될 수 있게 외부 감사자에게 제공됩니다.
+Microsoft는 또한 데이터 유출을 위한 내부 사후 평가을 완료합니다. 이 연습의 일환으로 응답 및 운영 절차의 충분성이 평가되고 보안 사고 대응 SOP 또는 관련 프로세스에 필요한 업데이트가 식별되고 구현됩니다. 데이터 유출에 대한 내부 사후 평가는 고객이 이용할 수 없는 극비 기록입니다. 그러나 사후 평가는 요약되어 다른 고객 이벤트 통지에 포함될 수 있습니다. 이 보고서는 Azure의 정기 감사 주기의 일부로 검토를 위해 외부 감사인에게 제공됩니다.
 
 #### <a name="customer-notification"></a>고객 알림
 ---------------------
@@ -146,13 +146,13 @@ Microsoft Azure는 필요에 따라 데이터 침해 사실을 고객과 규제 
 
 CRSI가 선언된 후에, 빠르게 변화하는 보안 위험이 고려되면서 가능한 한 신속하게 알림 프로세스가 진행됩니다. 일반적으로 인시던트 조사가 진행 중일 때는 알림 초안이 작성됩니다. 고객 알림은 다음 경우를 *제외하고* 침해를 선언하고 72시간 이내에 전달됩니다.
 
--   Microsoft가 알림을 진행할 때 다른 고객에 대한 위험이 증가할 수 있다고 판단한 경우, 예를 들어 알림이 진행될 경우 공격자가 알게 되어 수정 기회를 높일 수 있습니다.
+-   Microsoft는 알림을 수행하면 다른 고객의 위험이 증가할 것으로 생각합니다. 예를 들어, 통지하는 행위는 침입자에게 정보를 제공하여 교정할 수 없는 상황을 야기할 수 있습니다.
 
 -   Microsoft의 법률 부서 CELA(회사 외부 업무 및 법률 담당) 및 인시던트 책임 관리자가 기타 비정상적이거나 극단적인 상황을 조사한 경우.
 
 Microsoft Azure는 알림 프로세스를 과도하게 지연시키지 않으면서, 내부 조사를 수행할 수 있도록 하고, 최종 사용자 약정을 충족하도록 지원할 수 있는 자세한 정보를 고객에게 제공합니다.
 
-개인 데이터 침해에 대한 알림은 전자 메일을 포함하여 Microsoft가 선택한 모든 방법을 통해 고객에게 전달됩니다. 데이터 침해 알림은 [구현 지침](https://docs.microsoft.com/azure/security-center/security-center-provide-security-contact-details)에 따라 구성될 수 있는 Azure Security Center 제공 보안 연락처 목록으로 전달됩니다. Azure Security Center에 연락처 목록이 제공되지 않으면 알림은 Azure 구독의 한 명 이상의 관리자에게 전송됩니다. 이러한 알림이 성공적으로 전달되도록 하기 위해 고객은 적용 가능한 각 구독 및 온라인 서비스 포털의 관리 연락처 정보가 올바른지 확인해야 합니다.
+개인 데이터 침해에 대한 알림은 전자 메일을 통해 Microsoft를 포함한 모든 방법으로 고객에게 전달됩니다. 데이터 유출 알림은 Azure Security 센터에서 제공되는 보안 담당자 목록에 전달되며 [구현 지침](https://docs.microsoft.com/azure/security-center/security-center-provide-security-contact-details)을 따라 구성할 수 있습니다. Azure Security Center에서 연락처 정보가 제공되지 않으면 Azure 구독으로 한 명 이상의 관리자에게 알림이 전송됩니다. 알림이 성공적으로 전달될 수 있도록 해당 구독 및 온라인 서비스 포털에 대한 관리 연락처 정보가 올바른지 확인하는 것은 고객의 책임입니다.
 
 Microsoft Azure 또는 Azure Government 팀은 CSS(고객 서비스) 및 고객 AM(계정 관리자) 또는 TAM(기술 계정 관리자)과 같은 추가 Microsoft 직원에게도 알리도록 선택할 수 있습니다. 이러한 개인은 고객과 밀접하게 관련되어 있는 경우가 많으며 보다 빠른 수정이 이루어지는 데 도움이 될 수 있습니다.<span id="_Appendix_A" class="anchor"></span>
 
@@ -161,7 +161,7 @@ Microsoft Azure 또는 Azure Government 팀은 CSS(고객 서비스) 및 고객 
 
 Microsoft Intune은 Microsoft Enterprise Mobility + Security Suite 클라우드 서비스 제품의 핵심 구성 요소입니다. 데이터 거버넌스 전략을 지원하기 위해 모든 Microsoft 클라우드 서비스는 Microsoft의 설계 단계부터 개인 정보 및 보안 유지(Privacy and Security by Design) 및 기본적으로 개인 정보 및 보안 유지(Privacy and Security by Default) 방법을 사용하여 개발됩니다.
 
-이와 같이 Microsoft Intune 클라우드 서비스 제품은 Microsoft Azure 서비스 팀이 데이터 침해 프로세스에서 보호하기 위해 수행하는 것과 동일한 기술 및 조직적 방침을 따릅니다. 따라서 여기에 나오는 "Microsoft Azure 데이터 침해" 알림 문서에 설명된 모든 정보는 Microsoft Intune 서비스에서도 비슷합니다. 예를 들어, Microsoft Intune은 동일한 보안 인시던트 대응 프로세스 및 수명 주기(1단계: 감지부터 5단계<strong>:</strong> 닫기 및 사후 평가까지)를 유지하며, 고객 보안 인시던트 알림 프로세스도 동일합니다. 또한 Microsoft Intune은 Microsoft O365 팀과 직접 공조하여 Intune에서 모든 Microsoft O365 고객에 대한 침해 알림 의무를 이행합니다.
+Microsoft Intune의 클라우드 서비스 오퍼링은 기술 및 조직 차원의 동일한 측정 방법을 따르므로 하나 이상의 Microsoft Azure 서비스 팀이 데이터 유출 프로세스를 보호하기 위해 노력합니다. 따라서 여기에 있는 "Microsoft Azure 데이터 위반" 알림 문서에 설명된 모든 정보는 Microsoft Intune 서비스와 유사합니다. 예를 들어, Microsoft Intune은 동일한 보안 문제 대응 프로세스 및 수명주기(1단계 : 5단계를 통해 검색<strong>:</strong>종료 및 사후 평가)와 동일한 고객 보안 사고 통지 프로세스를 수행합니다. 또한 Microsoft Intune은 Microsoft O365 팀과 직접 협력하여 Intune을 사용하는 Microsoft O365 고객에 대한 위반 통지에 대한 의무를 이행합니다.
 
 Microsoft에서 개인 데이터 위반을 감지하고 대처하는 방법에 대한 자세한 내용은 Service Trust Portal의 [GDPR에서 데이터 위반 알림](https://servicetrust.microsoft.com/ViewPage/GDPRBreach)을 참조하세요.
 

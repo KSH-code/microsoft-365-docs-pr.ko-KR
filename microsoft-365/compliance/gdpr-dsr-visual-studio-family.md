@@ -13,12 +13,12 @@ manager: pchapman
 ms.collection: GDPR
 ms.workload:
 - multiple
-ms.openlocfilehash: 5b07cefa4a850d5de7c858f180c8f7688fd0a6d7
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 744935cb41e1521970e6fac05493129eaaf7910d
+ms.sourcegitcommit: 0dde96d5864e5b16ea24cfb302930b041c7a8091
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32286926"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34431549"
 ---
 # <a name="visual-studio-family-data-subject-requests-for-the-gdpr"></a>GDPR에 대한 Visual Studio 제품군 데이터 주체 요청
 
@@ -72,8 +72,8 @@ Visual Studio 2015 이상, Mac용 Visual Studio, Visual Studio Code는 사용자
 
 컨트롤러는 Visual Studio 제품군 또는 Microsoft 확장이 등록되는 방법에 따라 데이터 주체에서 수집한 사용자 지정 데이터 및 시스템 생성 로그를 두 가지 방법 중 하나로 관리할 수 있습니다. 경우에 따라 두 가지 방법을 모두 사용해야 합니다. 두 가지 방법 모두 컨트롤러가 해당 방법으로 관리되는 활동 기록의 복사본을 다운로드할 수 있습니다. AAD 또는 MSA 계정의 폐쇄는 관련 Visual Studio 사용자 지정 데이터를 삭제하고 이러한 제품과 관련된 시스템 생성 로그에서 개인 식별 가능한 데이터를 익명화합니다. 익명화된 시스템 생성 로그는 18개월 동안 보존됩니다.
 
-- Azure 테넌트가 지원하는 계정(&mdash;예를 들어, Azure 구독과 관련된 AAD 계정 또는 MSA 계정&mdash;)을 사용하여 Visual Studio 제품군 제품을 등록한 사용자는 [GDPR에 대한 Azure 데이터 주체 요청](gdpr-dsr-azure.md)의 지침을 따를 수 있습니다.
-- Azure 테넌트가 지원하는 계정 없이 Visual Studio 제품군 제품을 등록한 사용자(&mdash;예: Microsoft 계정(MSA)을 사용하는 많은 계정&mdash;)는 자신의 Microsoft 계정을 통해 사용할 수 있는 [웹 기반 Microsoft 개인 정보 보호 센터](https://aka.ms/userprivacysite)를 사용하여 여러 Microsoft 서비스 전반의 Microsoft 계정과 연결된 활동 데이터를 보고, 제어하고 삭제할 수 있습니다. 이 시나리오에서 사용자는 개인 데이터에 대한 컨트롤러입니다.
+- Azure 테넌트가 지원하는 계정(예를 들어, Azure 구독과 관련된 AAD 계정 또는 MSA 계정)을 사용하여 Visual Studio 제품군 제품을 등록한 사용자는 [GDPR에 대한 Azure 데이터 주체 요청](gdpr-dsr-azure.md)의 지침을 따를 수 있습니다.
+- Azure 테넌트가 지원하는 계정 없이 Visual Studio 제품군 제품을 등록한 사용자(예: Microsoft 계정(MSA)을 사용하는 많은 계정)는 자신의 Microsoft 계정을 통해 사용할 수 있는 [웹 기반 Microsoft 개인 정보 보호 센터](https://aka.ms/userprivacysite)를 사용하여 여러 Microsoft 서비스 전반의 Microsoft 계정과 연결된 활동 데이터를 보고, 제어하고 삭제할 수 있습니다. 이 시나리오에서 사용자는 개인 데이터에 대한 컨트롤러입니다.
 
 > [!NOTE]
 > MSA 계정 홀더가 자신의 계정을 삭제하면 Azure 테넌트가 계정을 지원했는지 여부에 상관없이 이들 제품과 관련된 모든 개인 식별 데이터가 삭제되고 시스템 생성 로그는 익명화됩니다.
@@ -104,7 +104,7 @@ Microsoft는 사용자가 Visual Studio 제품군 제품에 대해 보고한 문
 1. [개발자 커뮤니티](https://developercommunity.visualstudio.com)에 로그인합니다. 오른쪽 상단 모서리에서 프로필을 클릭하고 **프로필 및 환경 설정**을 선택합니다.
 2. **프로필**, **알림**, **활동** 및 **첨부 파일** 탭 중 하나를 클릭하면 피드백 시스템에 제출된 데이터를 볼 수 있습니다.
    1. **프로필**은 사용자 이름, 전자 메일 주소, 정보 등이 포함된 [개발자 커뮤니티](https://developercommunity.visualstudio.com)를 나타냅니다.
-   2. **알림**은 받은 전자 메일 알림을 제어하는 방법입니다.
+   2. **알림은 받은 전자 메일 알림을 제어하는 방법입니다.
    3. **활동**은 활동 중인(게시 및 메모 포함 등) 피드백 항목 및 수행한 활동을 제공합니다.
    4. **첨부 파일**은 `FileName was attached to the problem "ProblemName" Tue, Apr 10, 18 2:27 PM`과 같은 형식의 첨부 파일 기록 목록입니다.
 

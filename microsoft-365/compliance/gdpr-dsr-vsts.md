@@ -12,12 +12,12 @@ manager: douge
 ms.collection: GDPR
 ms.workload:
 - multiple
-ms.openlocfilehash: b3711e0a68600152750d85e6287be735e204a92d
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 91ab1c1e23b2f4f9aab5c4327c29ac6cea52d080
+ms.sourcegitcommit: 0dde96d5864e5b16ea24cfb302930b041c7a8091
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32285096"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34431779"
 ---
 # <a name="azure-devops-services-data-subject-requests-for-the-gdpr"></a>GDPR에 대한 Azure DevOps Services 데이터 주체 요청
 
@@ -33,7 +33,7 @@ GDPR 대한 일반적인 내용은 [Service Trust Portal의 GDPR 섹션](https:/
 
 ## <a name="personal-data-we-collect"></a>수집한 개인 데이터
 
-Microsoft는 Azure DevOps Services를 작동하고 개선하기 위해 사용자의 데이터를 수집합니다. Azure DevOps Services는 두 가지 범주의 데이터, &mdash;즉, 고객 데이터 및 시스템 생성 로그를 수집합니다. 고객 데이터에는 Azure DevOps Services가 서비스를 운영하는 데 필요한 사용자를 식별할 수 있는 트랜잭션의 및 상호 작용 데이터가 포함되어 있습니다. 시스템 생성 로그에는 각 제품 영역 및 기능에 대해 집계된 서비스 사용 현황 데이터가 포함됩니다.
+Microsoft는 Azure DevOps Services를 작동하고 개선하기 위해 사용자의 데이터를 수집합니다. Azure DevOps Services는 두 가지 범주의 데이터, 즉, 고객 데이터 및 시스템 생성 로그를 수집합니다. 고객 데이터에는 Azure DevOps Services가 서비스를 운영하는 데 필요한 사용자를 식별할 수 있는 트랜잭션의 및 상호 작용 데이터가 포함되어 있습니다. 시스템 생성 로그에는 각 제품 영역 및 기능에 대해 집계된 서비스 사용 현황 데이터가 포함됩니다.
 
 ## <a name="delete-azure-devops-data"></a>Azure DevOps 데이터 삭제
 

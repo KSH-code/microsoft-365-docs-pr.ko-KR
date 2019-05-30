@@ -2,27 +2,25 @@
 title: Dynamics 365 및 GDPR의 위반 알림
 description: Dynamics 365가 개인 데이터 위반으로부터 보호하는 방법 및 Microsoft가 위반 발생 시 대응하고 사용자에게 알리는 방법입니다.
 keywords: Dynamics 365, Microsoft 365, Microsoft 365 Education, Microsoft 365 설명서, GDPR
-author: herviicban
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
 ms.date: 04/13/2018
 ms.author: heicba
+author: herviicban
 manager: laurawi
 audience: itpro
 ms.collection: GDPR
-ms.openlocfilehash: 3ee90c2fbe2684cebbd19376f44fc97d743515db
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 957fbe5713c248ebcac1a986248455c7d98b4935
+ms.sourcegitcommit: 0dde96d5864e5b16ea24cfb302930b041c7a8091
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32286388"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34431879"
 ---
 # <a name="dynamics-365-and-breach-notification-under-the-gdpr"></a>Dynamics 365 및 GDPR의 위반 알림
 
-Dynamics 365는 GDPR(일반 데이터 보호 규정)에 따라 의무를 다합니다. Microsoft Dynamics 365 데이터 위반
-
-Microsoft는 Dynamics 365 고객에게 안전한 엔터프라이즈 수준의 서비스를 제공하기 위해 지속적으로 노력합니다. 이 섹션에서는 Microsoft Dynamics 365가 보안 인시던트/데이터 침해에 대한 보호를 제공하는 방법 및 이러한 인시던트에 대응하고 고객에게 알리기 위해 따라야 하는 프로세스를 요약하여 알려 드립니다.
+Dynamics 365는 GDPR(일반 데이터 보호 규정)에 따른 의무를 심각하게 준수하며 데이터 침해로부터 보호하기 위해 광범위한 보안 조치를 취합니다. Microsoft는 지속적으로 Dynamics 365 고객에게 안전한 엔터프라이즈 급 서비스를 제공하기 위해 노력하고 있습니다. 이 섹션의 정보에서는 Microsoft Dynamics 365가 보안 인시던트/데이터 침해에 대한 보호를 제공하는 방법 및 이러한 인시던트에 대응하고 고객에게 알리기 위해 따라야 하는 프로세스를 요약하여 알려 드립니다.
 
 #### <a name="microsoft-dynamics-365-built-in-security-features"></a>Microsoft Dynamics 365 기본 제공 보안 기능
 
@@ -46,7 +44,7 @@ Microsoft Dynamics 365에서 작업하는 모든 직원에게는 본인의 직�
 
 #### <a name="how-does-microsoft-dynamics-365-define-security-incident-potential-breaches"></a>Microsoft Dynamics 365가 보안 인시던트/잠재적인 침해를 정의하는 방식
 
-보안 인시던트/데이터 침해는 Microsoft 장비 또는 Microsoft 시설에 저장된 고객 데이터에 대한 불법 액세스 또는 고객 데이터의 손실, 노출 또는 변경을 야기할 수 있는 이러한 장비나 시설에 대한 무단 액세스와 같은 이벤트를 나타냅니다. 보안 인시던트/데이터 침해에 대응할 때 Microsoft의 목표는 고객 데이터 및 Dynamics 365 서비스를 보호하는 것입니다. 보안 인시던트 관리를 위한 Microsoft의 접근 방법은 [NIST(National Institute of Standards and Technology)](https://www.nist.gov/) SP(특수 발행물) [800 61](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-61r2.pdf)을 준수합니다.
+보안 인시던트/데이터 침해는 Microsoft 장비 또는 Microsoft 시설에 저장된 고객 데이터에 대한 불법 액세스 또는 고객 데이터의 손실, 노출 또는 변경을 야기할 수 있는 이러한 장비나 시설에 대한 무단 액세스와 같은 이벤트를 나타냅니다. 보안 인시던트/데이터 침해에 대응할 때 Microsoft의 목표는 고객 데이터 및 Dynamics 365 서비스를 보호하는 것입니다. 보안 인시던트 관리를 위한 Microsoft의 접근 방법은 [NIST(National Institute of Standards and Technology)](https://www.nist.gov/) SP(특수 발행물) [800-61](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-61r2.pdf)을 준수합니다.
 
 Microsoft는 고객의 책임 영역 내에서 보안 문제를 모니터링하거나 대응하지 않습니다. 고객에 의한 보안 손상은 Dynamics 365 보안 인시던트로 처리되지 않으며 고객 테넌트에서 대응 노력을 관리해야 합니다. 적절한 서비스 계약이 있는 경우, 고객 인시던트 대응이 Microsoft Dynamics 365 고객 지원 서비스와 협력해서 진행될 수 있습니다.
 
@@ -128,7 +126,7 @@ CRSI가 선언되려면, Microsoft가 고객 데이터에 대한 무단 액세�
 
 Microsoft는 고객 및 비즈니스 위험이 성공적으로 방지되고, 수정 조치가 구현되는지 확인합니다. 필요한 경우 이벤트와 연결된 즉각적인 보안 위험을 해결하기 위한 긴급 완화 단계가 수행됩니다.
 
-또한 Microsoft는 데이터 침해에 대한 내부 사후 평가도 완료합니다. 이 과정의 일부로, 대응 및 운영 절차가 충분한지 평가되고, Microsoft의 내부 보안 정책 또는 관련 프로세스에 필요할 수 있는 모든 업데이트가 파악되고 구현됩니다. 데이터 침해에 대한 내부 사후 평가는 고객이 사용할 수 없는 중대한 기밀 기록입니다. 그렇지만 사후 평가를 요약하여 다른 고객 이벤트 알림에 포함할 수 있습니다. 이러한 보고서는 Dynamics 365의 정기 감사 주기의 일부로 검토될 수 있게 외부 감사자에게 제공됩니다.
+Microsoft는 또한 데이터 유출을 위한 내부 사후 평가을 완료합니다. 이 연습의 일환으로 응답 및 운영 절차의 충분성이 평가되고 Microsoft 내부 보안 정책 또는 관련 프로세스에 필요한 업데이트가 식별되고 구현됩니다. 데이터 유출에 대한 내부 사후 평가는 고객이 이용할 수 없는 극비 기록입니다. 그러나 사후 평가는 요약되어 다른 고객 이벤트 통지에 포함될 수 있습니다. 이 보고서는 Dynamics 365의 정기 감사 주기의 일부로 검토를 위해 외부 감사인에게 제공됩니다.
 
 #### <a name="customer-notification"></a>고객 알림
 

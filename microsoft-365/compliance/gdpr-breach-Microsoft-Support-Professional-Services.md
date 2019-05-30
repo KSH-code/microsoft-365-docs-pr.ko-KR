@@ -2,20 +2,20 @@
 title: Microsoft 고객 지원 및 전문 서비스와 GDPR에 따른 위반 알림
 description: Microsoft 고객 지원 및 전문 서비스가 개인 데이터 위반으로부터 보호하는 방법 및 Microsoft가 위반 발생 시 대응하고 사용자에게 알리는 방법입니다.
 keywords: Microsoft 365, Microsoft 365 Education, Microsoft 365 설명서, GDPR
-author: herviicban
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
 ms.author: heicba
+author: herviicban
 manager: laurawi
 audience: itpro
 ms.collection: GDPR
-ms.openlocfilehash: a17752773304272938c305649ff6e511ab0d1b0b
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 8a0f0c5c173fbee6a865d2c9a7afb0f61b388507
+ms.sourcegitcommit: 0dde96d5864e5b16ea24cfb302930b041c7a8091
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32285745"
+ms.lasthandoff: 05/24/2019
+ms.locfileid: "34431599"
 ---
 # <a name="microsoft-support-and-professional-services-and-breach-notification-under-the-gdpr"></a>Microsoft 고객 지원 및 전문 서비스와 GDPR에 따른 위반 알림
 
