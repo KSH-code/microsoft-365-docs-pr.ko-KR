@@ -7,17 +7,18 @@
 ### [설치 개요](set-up-overview.md)
 ### [Microsoft 365 Business 설정](set-up.md)
 ### [Windows Pro 크리에이터 업데이트로 업그레이드](upgrade-to-windows-pro-creators-update.md)
-### [모바일 장치 설정](set-up-mobile-devices.md)
-### [Windows 장치 설정](set-up-windows-devices.md)
 ### [Office 클라이언트 배포 준비](prepare-for-office-client-deployment.md)
 ### [Office 자동 설치 또는 제거](auto-install-or-uninstall-office.md)
 ### [온-프레미스 리소스에 액세스]()
 #### [도메인에 가입 된 Windows 10 장치를 관리할 수 있도록 설정](manage-windows-devices.md)
 #### [Azure AD에 가입 된 장치에서 리소스에 액세스](access-resources.md)
+## 사용자 장치 설정
+### [모바일 장치 설정](set-up-mobile-devices.md)
+### [Windows 장치 설정](set-up-windows-devices.md)
 ## [보안](security-features.md)
 ### [비즈니스 보안](/Office365/Admin/security-and-compliance/secure-your-business-data?toc=/microsoft-365/business/toc.json&bc=/microsoft-365/business/breadcrumb/toc.json)
 ### [고급 보안 기능 설정](set-up-advanced-security.md)
-## 사용자
+## 사용자 관리
 ### [Add users](add-users-m365b.md)
 ### [직원 제거](/Office365/Admin/add-users/remove-former-employee?toc=/microsoft-365/business/toc.json&bc=/microsoft-365/business/breadcrumb/toc.json)
 ## 장치 관리
