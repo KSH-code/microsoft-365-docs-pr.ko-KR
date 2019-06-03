@@ -2,19 +2,19 @@
 title: GDPR에 대한 Office 365 책임 준비 상태 검사 목록
 description: 이 ARC(책임 준비 상태 점검 목록)는 Office 365를 사용할 때 GDPR을 지원하는 데 필요한 정보를 제공합니다.
 keywords: GDPR 책임 준비 상태, 책임 준비 상태 점검 목록, Microsoft 365, Microsoft 365 Education, GDPR 설명서, GDPR
-author: herviicban
 localization_priority: Priority
 ms.prod: microsoft-365-enterprise
 ms.topic: article
+author: herviicban
 ms.author: heicba
 manager: laurawi
 ms.collection: GDPR
-ms.openlocfilehash: c2f55d93b14c0fb80283b1fab434f97e3007eae0
-ms.sourcegitcommit: 0dde96d5864e5b16ea24cfb302930b041c7a8091
+ms.openlocfilehash: 0b044fbf14c248c7d1801a5e3a219a73c4eb20f7
+ms.sourcegitcommit: ea1d28fc3d0b93441aaca659c843f67495c1874f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34431909"
+ms.lasthandoff: 05/29/2019
+ms.locfileid: "34544915"
 ---
 # <a name="accountability-readiness-checklist-for-microsoft-office-365"></a>Microsoft Office 365에 대한 책임 준비 상태 검사 목록
 
@@ -31,16 +31,11 @@ GDPR 타일의 *고객 관리 컨트롤*에서 컨트롤 ID 및 컨트롤 제목
 
 현재 개발 중인 표준인 *ISO/IEC CD 27552*는 *ISO/IEC 27001* 요구 사항을 개선할 예정입니다. 여기에는 데이터의 캡처, 책임, 가용성, 무결성 및 기밀성을 보호하는 프로세스가 포함됩니다. 전체 ISO 표준 초안 사본을 구매하려면 *https://shop.bsigroup.com/ProductDetail?pid=000000000030372571*을 방문하세요.
 
-<br>
-
---------------------------------------
-## <a name="2-conditions-for-collection-and-processing"></a>**2. 수집 및 처리 조건**
-
-<!--start table here Conditions for collection and processing -->
+## <a name="2-conditions-for-collection-and-processing"></a>2. 수집 및 처리 조건
 
 |||||
 |:-----|:-----|:-----|:-----|
-|**종류**&nbsp;&nbsp;&nbsp;&nbsp;|**고객<br>고려 사항**|**지원&nbsp;&nbsp;Microsoft&nbsp;&nbsp;설명서**|**GDPR 조항 설명**|
+|**종류**|**고객 고려 사항**|**지원되는 Microsoft 설명서**|**GDPR 조항 설명**|
 |***동의 획득 시기 결정(7.2.3)***|고객은 동의가 수집되는 방법을 포함하여 개인 데이터를 처리하기 전에(필요한 경우, 처리 유형이 요구 사항에서 제외된 경우 등) 개인의 동의를 획득하기 위한 법적 또는 규제적 요구 사항을 이해해야 합니다.|Office 365는 사용자 동의를 얻기 위해 직접적인 지원을 제공하지 않습니다.|(6)(1)(a), (8)(1), (8)(2)|
 |***목적 식별 및 문서화(7.2.1)***|고객은 개인 데이터가 처리되는 목적을 문서화해야 합니다.|책임 설명서에 포함될 수 있는 Microsoft가 수행하는 처리에 대한 설명과 해당 처리의 목적<br>- *온라인 서비스 약관, 데이터 보호 약관, 개인 데이터 처리, GDPR 참조*[[1](gdpr-arc-Office365.md#1)]|(5)(1)(b), (32)(4)|
 |***적법 기준 식별(7.2.2)***|고객은 사전 동의 수락 여부와 같은 처리의 적법 기준과 관련된 모든 요구 사항을 이해해야 합니다.|사용자의 책임 설명서에 포함할 Microsoft 서비스의 개인 데이터 처리에 대한 설명<br>- *고객 데이터 보호 영향 평가를 위한 Office 365의 주요 정보*[[10](gdpr-arc-Office365.md#10)]|(5)(1)(a), (6)(1)(a), (6)(1)(b), (6)(1)(c), (6)(1)(d), (6)(1)(e), (6)(1)(f), (6)(3), (6)4)(a), (6)(4)(b), (6)(4)(c), (6)(4)(d), (6)(4)(e), (8)(3), (9)(1), (9)(2)(b), (9)(2)(c), (9)(2)(d), (9)(2)(e), (9)(2)(f), (9)(2)(g), (9)(2)(h), (9)(2)(i), (9)(2)(j), (9)(3), (9)(4), (10), (17)(3)(a), (17)(3)(b), (17)(3)(c), (17)(3)(d), (17)(3)(e), (18)(2), (22)(2)(a), (22)(2)(b), (22)(2)(c), (22)(4)|
@@ -49,19 +44,12 @@ GDPR 타일의 *고객 관리 컨트롤*에서 컨트롤 ID 및 컨트롤 제목
 |***개인 정보 보호 영향 평가(7.2.5)***|고객은 개인 정보 보호 영향 평가 완료(수행해야 할 시점, 필요할 수도 있는 데이터 범주, 평가 완료 시기)를 위한 요구 사항을 인식하고 있어야 합니다.|Microsoft 서비스가 DPIA를 수행할 시기를 결정하는 방법과 DPO의 참여를 포함하는 Microsoft의 DPIA 프로그램 개요는 Service Trust Portal [DPIA(데이터 보호 영향 평가) 페이지](https://servicetrust.microsoft.com/ViewPage/GDPRDPIA)에서 제공됩니다. DPIA에 대한 지원은 다음을 참조하세요.<br>- *고객 데이터 보호 영향 평가를 위한 Office 365의 주요 정보*[[10](gdpr-arc-Office365.md#10)]|(35)|
 |***PII 프로세서와 계약(7.2.6)***|고객은 프로세서와의 계약에 개인 데이터 처리 및 보호와 관련된 모든 법적 또는 규제적 의무를 보조할 수 있는 요구 사항이 포함되어 있는지 확인해야 합니다.|데이터 주체의 권한에 대한 지원을 포함하여 GDPR에 따른 고객의 의무를 지원하도록 요구하는 Microsoft 계약<br>- *온라인 서비스 약관, 데이터 보호 약관, 개인 데이터 처리, GDPR 참조*[[1](gdpr-arc-Office365.md#1)]|(5)(2), (28)(3)(e), (28)(9)|
 |***PII 처리 관련 기록(7.2.7)***|고객은 개인 정보 처리와 관련된 모든 필수 기록(예: 목적, 보안 조치 등)을 유지 관리해야 합니다. 이러한 기록 중 일부가 하위 프로세서에서 제공해야 하는 경우 고객은 이러한 기록을 획득할 수 있는지 확인해야 합니다.|필요한 기록을 유지 관리하는 데 도움이 되는 Microsoft 서비스가 제공하는 도구는 GDPR에 따라 준수 및 책임 지원을 입증합니다.<br>- *Office 365 보안 및 준수 센터에서 감사 로그 검색*[[16](gdpr-arc-Office365.md#16)] |(5)(2), (24)(1), (30)(1)(a), (30)(1)(b), (30)(1)(c), (30)(1)(d), (30)(1)(g), (30)(1)(f), (30)(3), (30)(4), (30)(5)|
-||||
 
-<!-- end of table -->
-<br>
-
---------------------------------------
-## <a name="3-rights-of-data-subjects"></a>**3. 데이터 주체의 권한**
-
-<!--start table here  collection and processing-->
+## <a name="3-rights-of-data-subjects"></a>3. 데이터 주체의 권한
 
 |||||
 |:-----|:-----|:-----|:-----|
-|**종류**|**고객 고려 사항**|**지원&nbsp;&nbsp;Microsoft&nbsp;&nbsp;설명서**|**GDPR&nbsp;조항 설명**|
+|**종류**|**고객 고려 사항**|**지원되는 Microsoft 설명서**|**GDPR 조항 설명**|
 |***PII 보안 주체의 권한 결정 및 행사 활성화(7.3.1)***|고객은 개인 데이터 처리와 관련하여 개인의 권리와 관련된 요구 사항을 이해해야 합니다. 이러한 권한에는 액세스, 수정, 삭제 등의 권한이 포함될 수 있습니다. 고객이 타사 시스템을 사용하는 경우 시스템의 어느 부분(있는 경우)에서 개인이 권한(예: 데이터 액세스 권한)을 행사할 수 있는 도구를 제공할지 결정해야 합니다. 시스템이 이러한 기능을 제공하는 경우 고객은 필요에 따라 이를 활용해야 합니다.|데이터 주체 권한을 지원하는 데 도움이 되는 Microsoft가 지원하는 기능<br>- *GDPR에 대한 Office 365 데이터 주체 요청[8]<br>- Microsoft Office 365 ISO/IEC 27001:2013 ISMS 적용성 보고서*[12] ISO, IEC 27018, 2014 제어 A.1.1 참조|(12)(2)|
 |***PII 보안 주체(데이터 주체)의 정보 결정(7.3.2)***|고객은 개인에게 제공할 수 있는 개인 데이터 처리의 정보 유형에 대한 요구 사항을 이해해야 합니다. 여기에 포함될 수 있는 사항은 다음과 같습니다.<br>- 컨트롤러 또는 그 담당자에 대한 연락처 세부 정보<br>- 처리 관련 정보(목적, 국제 전송 및 관련 세이프가드, 보존 기간 등)<br>- 보안 주체의 개인 데이터 액세스 및/또는 수정 방법, 처리의 삭제 및 제한 요청, 개인 데이터의 복사본 수신, 개인 데이터의 휴대성에 대한 정보<br>- 개인 데이터 획득 방법 및 위치(보안 주체에게 직접 획득하지 않는 경우)<br>- 위반 신고 제출 권한 및 제출 대상에 대한 정보<br>- 개인 데이터 수정 관련 정보<br>- 처리가 더 이상 데이터 주체의 식별을 필요로 하지 않는 경우 조직이 데이터 주체(PII 보안 주체)를 식별할 수 있는 위치에 더 이상 없음에 대한 알림<br>- 개인 데이터의 전송 및/또는 공개<br>- 개인 데이터의 자동화된 처리에만 기반한 자동화된 의사 결정의 존재<br>- 데이터 주체에 대한 정보가 업데이트되고 제공되는 빈도에 관한 정보(예: “적시” 알림, 조직 정의된 빈도 등)<p>타사 시스템이나 프로세서를 사용하는 경우 고객은 타사에서 제공해야 할 수도 있는 정보(있는 경우)를 결정하고 타사로부터 필요한 정보를 얻었는지 확인해야 합니다.</p>|데이터 주체에 제공하는 데이터에 포함할 수 있는 Microsoft 서비스에 대한 정보<br>- *GDPR에 대한 Office 365 데이터 주체 요청*[[8](gdpr-arc-Office365.md#8)]<br>- *고객 데이터 보호 영향 평가를 위한 Office 365의 주요 정보*[[10](gdpr-arc-Office365.md#10)]|(11)(2), (13)(1)(a), (13)(1)(b), (13)(1)(c), (13)(1)(d), (13)(1)(e), (13)(1)(f), (13)(2)(c), (13)(2)(d), (13)(2)(e), (13)(3), (13)(4), (14)(1)(a), (14)(1)(b), (14)(1)(c), (14)(1)(d), (14)(1)(e), (14)(1)(f), (14)(2)(b), (14)(2)(e), (14)(2)(f), (14)(3)(a), (14)(3)(b), (14)(3)(c), (14)(4), (14)(5)(a), (14)(5)(b), (14)(5)(c), (14)(5)(d), (15)(1)(a), (15)(1)(b), (15)(1)(c), (15)(1)(d), (15)(1)(e), (15)(1)(f), (15)(1)(g), (15)(1)(h), (15)(2), (18)(3), (21)(4)|
 |***PII 보안 주체에 대한 정보 제공(7.3.3)***|고객은 개인 데이터 처리와 관련하여 개인에게 필요한 정보가 제공되는 방법/시기/형식에 관한 요구 사항을 준수해야 합니다. 타사가 필요한 정보를 제공할 수 있는 경우 고객은 GDPR에서 요구하는 매개 변수 내에 있는지 확인해야 합니다.|데이터 주체에 제공하는 데이터에 포함할 수 있는 Microsoft 서비스에 대한 템플릿 기반 정보<br>- *GDPR에 대한 Office 365 데이터 주체 요청*[[8](gdpr-arc-Office365.md#8)]<br>- *고객 데이터 보호 영향 평가를 위한 Office 365의 주요 정보*[[10](gdpr-arc-Office365.md#10)]|(11)(2), (12)(1), (12)(7), (13)(3), (21)(4)|
@@ -71,23 +59,14 @@ GDPR 타일의 *고객 관리 컨트롤*에서 컨트롤 ID 및 컨트롤 제목
 |***수정 또는 삭제(7.3.7)***|고객은 개인 정보에 액세스, 수정 및/또는 삭제하는 권한에 대해 사용자에게 알리고 해당 방법을 제공하기 위한 요구 사항을 이해해야 합니다. 타사 시스템을 사용하고 기능의 일부로 이 메커니즘을 제공하는 경우 고객은 필요에 따라 해당 기능을 활용해야 합니다.|데이터 주체에 제공하는 데이터에 포함할 수 있는 개인 데이터를 액세스, 수정 또는 삭제할 수 있는 기능과 관련된 Microsoft 서비스에 대한 서식 파일 기반 정보<br>- *GDPR에 대한 Office 365 데이터 주체 요청*[[8](gdpr-arc-Office365.md#8)] *5단계: 삭제* 참조|(5)(1)(d), (13)(2)(b), (14)(2)(c), (16), (17)(1)(a), (17)(1)(b), (17)(1)(c), (17)(1)(d), (17)(1)(e), (17)(1)(f), (17)(2)|
 |***처리된 PII의 복사본 제공(7.3.8)***|고객은 개인에게 처리되는 개인 데이터의 복사본 제공에 관한 요구 사항을 이해해야 합니다. 여기에는 복사본의 형식(즉, 기계 판독 가능), 복사본 전송 등의 요구 사항이 포함될 수 있습니다. 고객이 복사본을 제공하는 기능을 제공하는 타사 시스템을 사용하는 경우 필요에 따라 이 기능을 활용해야 합니다.|데이터 주체에 제공하는 데이터에 포함할 수 있는 개인 데이터의 복사본 획득을 허용하는 Microsoft 서비스의 기능 관련 정보<br>- *GDPR에 대한 Office 365 데이터 주체 요청*[[8](gdpr-arc-Office365.md#8)] *6단계: 내보내기* 참조|(15)(3), (15)(4), (20)(1), (20)(2), (20)(3), (20)(4)|
 |***요청 관리(7.3.9)***|고객은 개인 데이터 처리와 관련하여 개인으로부터 합법적인 요청을 수락하고 응답하기 위한 요구 사항을 이해해야 합니다. 고객이 타사 시스템을 사용하는 경우 해당 시스템이 이러한 요청 처리 기능을 제공하는지 아닌지를 이해해야 합니다. 제공한다면 고객은 이러한 메커니즘을 활용하여 필요에 따라 요청을 처리해야 합니다.|데이터 주체 요청을 관리할 때 데이터 주체에 제공한 정보를 정의할 때 사용할 수 있는 Microsoft 서비스의 기능에 대한 정보<br>- *GDPR에 대한 Office 365 데이터 주체 요청*[[8](gdpr-arc-Office365.md#8)]고객은 자동화된 개인 데이터 처리와 이러한 자동화를 통해 의사 결정이 이루어지는 위치에 대한 요구 사항을 이해해야 합니다. 여기에는 개인에 대한 처리, 이러한 처리 또는 사람 개입에 대한 이의 제기 관련 정보가 포함될 수 있습니다. 이러한 기능이 타사 시스템에 의해 제공되는 경우 고객은 타사가 필요한 정보 또는 지원을 제공하는지 확인해야 합니다.<p>책임 설명서에 사용할 수 있는 자동화된 의사 결정을 지원할 수 있는 Microsoft 서비스의 모든 기능 관련 정보 및 이러한 기능에 대한 데이터 주체 관련 템플릿 기반 정보<br>- *고객 데이터 보호 영향 평가를 위한 Office 365의 주요 정보*[[10](gdpr-arc-Office365.md#10)]</p>|(13)(2)(f), (14)(2)(g), (22)(1), (22)(3)|
-||||
 
-
-<!-- end of table here --->
-
-<br>
-
---------------------------------------
-## <a name="4-privacy-by-design-and-default"></a>**4. 기본적으로 계획적인 개인 정보 보호**
-
-<!-- start table here "privacy by design and default" -->
+## <a name="4-privacy-by-design-and-default"></a>4. 기본적으로 계획적인 개인 정보 보호
 
 |||||
 |:-----|:-----|:-----|:-----|
-|**종류**|**고객 고려 사항**|**지원&nbsp;&nbsp;Microsoft&nbsp;&nbsp;설명서**|**GDPR&nbsp;조항 설명**|
+|**종류**|**고객 고려 사항**|**지원되는 Microsoft 설명서**|**GDPR 조항 설명**|
 |***수집 제한(7.4.1)***|고객은 개인 정보 컬렉션 제한(예: 특정 목적에 필요한 것으로 제한해야 하는 컬렉션)에 대한 요구 사항을 이해해야 합니다.|Microsoft 서비스에서 수집하는 데이터에 대한 설명<br>- *온라인 서비스 약관, 데이터 보호 약관, 개인 데이터 처리, GDPR 참조*[[1](gdpr-arc-Office365.md#1)]<br>- *고객 데이터 보호 영향 평가를 위한 Office 365의 주요 정보*[[10](gdpr-arc-Office365.md#10)]|(5)(1)(b), (5)(1)(c)|
-|***처리 제한(7.4.2)****|고객은 개인 데이터의 처리를 제한하여 식별된 목적에 적합한 범위로 제한할 책임이 있습니다.|Microsoft 서비스에서 수집하는 데이터에 대한 설명<br>- *온라인 서비스 약관, 데이터 보호 약관, 개인 데이터 처리, GDPR 참조*[[1](gdpr-arc-Office365.md#1)]<br>- *고객 데이터 보호 영향 평가를 위한 Office 365의 주요 정보*[[10](gdpr-arc-Office365.md#10)]|(25)(2)|
+|***처리 제한(7.4.2)***|고객은 개인 데이터의 처리를 제한하여 식별된 목적에 적합한 범위로 제한할 책임이 있습니다.|Microsoft 서비스에서 수집하는 데이터에 대한 설명<br>- *온라인 서비스 약관, 데이터 보호 약관, 개인 데이터 처리, GDPR 참조*[[1](gdpr-arc-Office365.md#1)]<br>- *고객 데이터 보호 영향 평가를 위한 Office 365의 주요 정보*[[10](gdpr-arc-Office365.md#10)]|(25)(2)|
 |***PII 최소화 및 식별 취소 목표 정의 및 문서화(7.4.3)***|고객은 식별 취소가 사용되어야 하는 시점, 식별 취소해야 하는 범위, 식별 취소를 사용할 수 없는 인스턴스 등을 포함하여 개인 데이터의 식별 취소에 대한 요구 사항을 이해해야 합니다.|Microsoft는 적절한 경우 식별 취소 및 필명화를 내부적으로 적용하여 개인 데이터의 추가 개인 정보 세이프가드를 제공합니다.|(5)(1)(c)|
 |***식별 수준 준수(7.4.4)***|고객은 조직이 설정한 식별 취소 목표 및 방법을 사용하고 준수해야 합니다.|Microsoft는 적절한 경우 식별 취소 및 필명화를 내부적으로 적용하여 개인 데이터의 추가 개인 정보 세이프가드를 제공합니다.|(5)(1)(c)|
 |***PII 식별 취소 및 삭제(7.4.5)***|고객은 식별된 목적을 위해 사용한 후 개인 데이터 보존에 관한 요구 사항을 이해해야 합니다. 시스템에서 도구를 제공하는 경우 고객은 필요에 따라 해당 도구를 활용하여 삭제해야 합니다.|데이터 보존 정책을 지원하기 위해 Microsoft 클라우드 서비스에서 제공하는 기능<br>- GDPR에 대한 Office 365 데이터 주체 요청 [8] *5단계: 삭제* 참조|(5)(1)(c), (5)(1)(e), (6)(4)(e), (11)(1), (32)(1)(a)|
@@ -100,21 +79,13 @@ GDPR 타일의 *고객 관리 컨트롤*에서 컨트롤 ID 및 컨트롤 제목
 |***PII가 전송될 수 있는 국가 및 조직(7.5.2)***|고객은 개인 데이터가 있거나 전송될 수 있는 국가를 이해하고 개인에게 제공할 수 있어야 합니다. 타사/프로세서가 이 전송을 수행할 수 있는 경우 고객은 프로세서 이 정보를 얻어야 합니다.|Microsoft 서비스에서 전송하는 개인 데이터 유형, 전송되는 위치, 전송할 법적 세이프가드의 정보<br>- *고객 데이터 보호 영향 평가를 위한 Office 365의 주요 정보*[[10](gdpr-arc-Office365.md#10)]|(30)(1)(e)|
 |***PII(개인 데이터)의 전송 기록(7.5.3)***|고객은 개인 데이터의 전송과 관련하여 필요한 모든 기록을 유지해야 합니다. 타사/프로세서가 전송을 수행하는 경우 고객은 해당 기록을 유지하고 필요한 경우 이를 확보해야 합니다.|Microsoft 서비스에서 전송하는 개인 데이터 유형, 전송되는 위치, 전송할 법적 세이프가드의 정보<br>- *고객 데이터 보호 영향 평가를 위한 Office 365의 주요 정보*[[10](gdpr-arc-Office365.md#10)]|(30)(1)(e)|
 |***타사에 대한 PII 공개 기록(7.5.4)***|고객은 개인 데이터가 공개된 기록 관련 요구 사항을 이해해야 합니다. 사법 기관에 공개하는 것을 포함할 수 있습니다. 타사/프로세서가 데이터를 공개하는 경우 고객은 해당 기록을 유지하고 필요에 따라 이를 확보해야 합니다.|사용 가능한 공개 기록을 포함하여 개인 데이터 공개의 받는 사람 범주에 대해 제공되는 설명서<br>- *사용자 데이터에 액세스할 수 있는 사람 및 관련 약관*[[6](gdpr-arc-Office365.md#6)]|(30)(1)(d)|
-|***조인트 컨트롤러(7.5.5)***|고객은 다른 조직과 같이 사용되는 조인트 컨트롤러인지 여부를 결정하고 적절하게 문서화하고 책임을 할당해야 합니다.|데이터 주체에 대한 문서에 포함될 수 있는 서식 파일 기반 정보를 포함하는 개인 정보의 통제자인 Microsoft 서비스에 대한 문서<br>- *온라인 서비스 약관, 데이터 보호 약관, 개인 데이터 처리, GDPR 참조*[[1](gdpr-arc-Office365.md#1)]
-|||
+|***조인트 컨트롤러(7.5.5)***|고객은 다른 조직과 같이 사용되는 조인트 컨트롤러인지 여부를 결정하고 적절하게 문서화하고 책임을 할당해야 합니다.|데이터 주체에 대한 문서에 포함될 수 있는 서식 파일 기반 정보를 포함하는 개인 정보의 통제자인 Microsoft 서비스에 대한 문서<br>- *온라인 서비스 약관, 데이터 보호 약관, 개인 데이터 처리, GDPR 참조*[[1](gdpr-arc-Office365.md#1)]|
 
-<!-- end of table here --->
-
-<br>
-
---------------------------------------
-## <a name="5-data-protection--security"></a>**5. 데이터 보호 및 보안**
-
-<!-- start table here "Data Protection & Security" -->
+## <a name="5-data-protection--security"></a>5. 데이터 보호 및 보안
 
 |||||
 |:-----|:-----|:-----|:-----|
-|**종류**|**고객 고려 사항**|**지원&nbsp;&nbsp;Microsoft&nbsp;&nbsp;설명서**|**GDPR&nbsp;조항 설명**|
+|**종류**|**고객 고려 사항**|**지원되는 Microsoft 설명서**|**GDPR 조항 설명**|
 |***조직 및 컨텍스트 이해(5.2.1)***|고객은 개인 데이터 처리를 위한 적절한 요구 사항(규정 등)을 식별하기 위해 개인 데이터(예: 컨트롤러, 프로세서, 보조 컨트롤러)를 처리할 때의 역할을 결정해야 합니다.|Microsoft가 개인 데이터를 처리할 때 각 서비스를 프로세서 또는 컨트롤러로 간주하는 방법<br>- *온라인 서비스 약관, 데이터 보호 약관, 개인 데이터 처리, GDPR, 프로세서 및 컨트롤러 역할 및 책임 참조 *[[1](gdpr-arc-Office365.md#1)]|(24)(3), (28)(10), (28)(5), (28)(6), (32)(3), (40)(1), (40)(2)(a), (40)(2)(b), (40)(2)(c), (40)(2)(d), (40)(2)(e), (40)(2)(f), (40)(2)(g), (40)(2)(h), (40)(2)(i), (40)(2)(j), (40)(2)(k), (40)(3), (40)(4), (40)(5), (40)(6), (40)(7), (40)(8), (40)(9), (40)(10), (40)(11), (41)(1), (41)(2)(a), (41)(2)(b), (41)(2)(c), (41)(2)(d), (41)(3), (41)(4), (41)(5), (41)(6), (42)(1), (42)(2), (42)(3), (42)(4), (42)(5), (42)(6), (42)(7), (42)(8)|
 |***이해 관계자의 요구 사항과 기대치 이해(5.2.2)***|고객은 개인 데이터 처리에 역할 또는 관심이 있을 수 있는 당사자(예: 규제 기관, 감사자, 데이터 주체, 계약된 개인 데이터 프로세서)를 식별하고 필요에 따라 해당 당사자를 참여시키기 위한 요구 사항을 인식하고 있어야 합니다.|Microsoft 서비스가 개인 데이터 처리와 관련된 위험을 고려하여 모든 이해 관계자의 견해를 반영하는 방법<br>- *고객 데이터 보호 영향 평가를 위한 Office 365의 주요 정보*[[10](gdpr-arc-Office365.md#10)]<br>- *Office 365 ISMS 설명서* [[14](gdpr-arc-Office365.md#14)] 4.2 이해 관계자의 요구 사항과 기대치 이해 참조<br>- [준수 관리자](https://servicetrust.microsoft.com/ComplianceManager)에서 이해 관계자의 요구 사항과 기대치 이해 5.2.2|(35)(9), (36)(1), (36)(3)(a), (36)(3)(b), (36)(3)(c), (36)(3)(d), (36)(3)(e), (36)(3)(f), (36)(5)|
 |***정보 보안 관리 시스템의 범위 결정(5.2.3, 5.2.4)***|고객이 가질 수 있는 전반적인 보안 또는 개인 정보 보호 프로그램의 일부로 개인 데이터 처리 및 관련 요구 사항을 포함해야 합니다.|Microsoft 서비스가 정보 보안 관리 및 개인 정보 보호 프로그램에서 개인 정보 처리를 포함하는 방법<br>- *Microsoft Office 365 ISO/IEC 27001:2013 ISMS 적용성 보고서*[[12](gdpr-arc-Office365.md#12)] A.19 참조<br>- *SOC 2 유형 2 감사 보고서*[[11](gdpr-arc-Office365.md#11)]<br>- Office 365 ISMS 설명서[[14](gdpr-arc-Office365.md#14)] *4. 조직의 상황* 참조<br>- 5.2.3 5.2.3 준수 관리자에서 정보 보안 관리 시스템의 범위 결정<br>- 5.2.4 [준수 관리자](https://servicetrust.microsoft.com/ComplianceManager)의 정보 보안 관리 시스템|(32)(2)|
@@ -148,47 +119,32 @@ GDPR 타일의 *고객 관리 컨트롤*에서 컨트롤 ID 및 컨트롤 제목
 |***레코드 보호(6.15.1)***|고객은 유지 관리되어야 하는 개인 데이터 처리와 관련된 기록의 요구 사항을 이해해야 합니다.|Microsoft 서비스가 개인 데이터 처리와 관련된 기록을 저장하는 방법<br>- Office 365 보안 및 준수 센터에서 감사 로그 검색[[16](gdpr-arc-Office365.md#16)]<br>- Microsoft Office 365 ISO/IEC 27001:2013 ISMS 적용성 보고서[[12](gdpr-arc-Office365.md#12)] A.18.1.3 참조<br>- Office 365 ISMS 설명서 [14], *9 성능 평가* 참조|(5)(2), (24)(2)|
 |***독립적인 정보 보안 검토(6.15.2)***|고객은 개인 데이터 처리의 보안 평가에 대한 요구 사항을 인식하고 있어야 합니다. 여기에는 내부나 외부 감사 또는 처리 보안 평가를 위한 기타 조치가 포함될 수 있습니다. 고객이 모든 처리 과정 또는 일부 과정을 타사의 다른 조직에 의존하는 경우 고객은 해당 평가에 대한 정보를 수집해야 합니다.|Microsoft 서비스가 타사 감사를 포함하여 처리의 보안을 보장하기 위해 기술적 및 조직적 조치의 효과를 테스트하고 평가하는 방법<br>- Microsoft Online Services 약관, 데이터 보호 약관, 데이터 보안 참조, 감사 준수[[1](gdpr-arc-Office365.md#1)]<br>- Office 365 ISMS 설명서 [[14](gdpr-arc-Office365.md#14)] *9 성능 평가* 참조<br>- 6.15.2 [준수 관리자](https://servicetrust.microsoft.com/ComplianceManager)의 독립적인 정보 보안 검토|(32)(1)(d), (32)(2)|
 |***기술 준수 검토(6.15.3)***|고객은 개인 데이터 처리의 보안 테스트 및 평가의 요구 사항을 이해해야 합니다. 여기에는 침투 테스트와 같은 기술 테스트가 포함될 수 있습니다. 고객이 타사 시스템이나 프로세서를 사용하는 경우 보안 확인 및 테스트(예: 데이터 보호를 위한 구성 관리 및 해당 구성 설정 테스트)와 관련된 책임을 이해해야 합니다. 타사가 처리 보안의 모든 부분 또는 일부분에 책임이 있는 경우 고객은 처리의 보안을 보장하기 위해 타사가 수행하는 테스트나 평가를 이해해야 합니다.|Microsoft 서비스가 타사의 테스트, 기술 테스트 유형, 테스트의 사용 가능한 보고서를 포함하여 식별된 위험을 기반으로 보안을 테스트하는 방법<br>- Microsoft Online Services 약관, 데이터 보호 약관, 데이터 보안 참조, 감사 준수[[1](gdpr-arc-Office365.md#1)]<br>- 외부 인증 목록은 *Microsoft 보안 센터 규정 준수 제품[[13](gdpr-arc-Office365.md#13)]* 참조<br>- 응용 프로그램 침투 테스트에 대한 자세한 내용은 FedRAMP Moderate FedRAMP SSP(시스템 보안 계획)[[3](gdpr-arc-Office365.md#3)], CA-8 침투 테스트(M) (H) pp204를 참조하세요.<br>- 6.15.3 [준수 관리자](https://servicetrust.microsoft.com/ComplianceManager)의 기술 준수 검토|(32)(1)(d), (32)(2)|
-|||
-
-<!-- end of last section table -->
-<br>
-
---------------------------------
 
 ## <a name="6-bibliography-of-resources-and-links"></a>6. 리소스 및 링크의 참고 문헌
 
-<!--start table with HEADER here -->
+|||
+|:-----|:-----|
+|**ID**|**설명/링크**|
+| 1 <a name="1"> </a> | [온라인 서비스 약관](http://www.microsoftvolumelicensing.com/Downloader.aspx?DocumentId=13754) |
+| 2 <a name="2"> </a> | [Office 365 보안 설명서](https://support.office.com/article/protect-access-to-data-and-services-in-office-365-a6ef28a4-2447-4b43-aae2-f5af6d53c68e) |
+| 3 <a name="3"> </a> | [FedRAMP Moderate FedRAMP SSP(시스템 보안 계획)](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=053666de-e359-43ef-a7bb-3cf379208ed8&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_FedRAMP_Reports) |
+| 4 <a name="4"> </a> | [Microsoft 클라우드 보안 정책](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=c83d1345-0cff-4beb-a521-27b837ed271a&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers) |
+| 5 <a name="5"> </a> | [GDPR에 대한 Office 365 정보 보호](https://docs.microsoft.com/office365/enterprise/office-365-information-protection-for-gdpr) |
+| 6 <a name="6"> </a> | [사용자 데이터에 액세스할 수 있는 사람 및 관련 약관](https://www.microsoft.com/trustcenter/Privacy/Who-can-access-your-data-and-on-what-terms) |
+| 7 <a name="7"> </a> | [하위 프로세서에 대한 계약: Microsoft와 계약](https://www.microsoft.com/en-us/procurement/supplier-contracting.aspx#SSPA) |
+| 8 <a name="8"> </a> | [GDPR에 대한 365 데이터 주체 요청](https://aka.ms/DSROffice365) |
+| 9 <a name="9"> </a> | [Office 365 및 GDPR의 위반 알림](https://aka.ms/BreachOffice365) |
+| 10  <a name="10"> </a> | [고객 데이터 보호 영향 평가를 위한 Office 365의 주요 정보](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dpia-office365) |
+| 11 <a name="11"> </a> | [SOC 2 유형 2 감사 보고서](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=0cf2cce9-972d-4a64-865f-b8e6eba4ed5e&docTab=4ce99610-c9c0-11e7-8c2c-) |
+| 12 <a name="12"> </a> | [Microsoft Office 365 ISO/IEC 27001:2013 ISMS 적용성 보고서](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=d7255c90-03e3-48a6-938d-e69d8f723c7a&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_ISO_Reports) |
+| 13 <a name="13"> </a> | [Microsoft 보안 센터 준수 제공 사항](https://www.microsoft.com/trustcenter/compliance/complianceofferings) |
+| 14 <a name="14"> </a> | [Office 365 ISMS 설명서](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=72821313-c175-4857-b1f7-e3c5e6eb2db4&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_ISO_Reports) |
+| 15 <a name="15"> </a> | [테넌트 제한을 사용하여 SaaS 클라우드 응용 프로그램에 대한 액세스 관리](https://docs.microsoft.com/azure/active-directory/active-directory-tenant-restrictions) |
+| 16 <a name="16"> </a> | [Office 365 보안 및 준수 센터에서 감사 로그 검색](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c) |
+| 17 <a name="17"> </a> | [Microsoft 클라우드에서 암호화](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=ec66d938-6eb4-4d7d-b8c3-2168573bb534&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers) |
+| 18 <a name="18"> </a> | [Microsoft의 데이터 보호 관리자](https://docs.microsoft.com/microsoft-365/compliance/gdpr-data-protection-officer) |
 
+## <a name="learn-more"></a>자세한 정보
 
-|                        |                                                                                 |                                                                                                                                                                                                                       |
-|:-----------------------|:--------------------------------------------------------------------------------|:----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| **ID**                 | **문서**                                                                   | **링크**                                                                                                                                                                                                              |
-| 1 <a name="1"> </a>    | 온라인 서비스 약관                                                            | <http://www.microsoftvolumelicensing.com/Downloader.aspx?DocumentId=13754>                                                                                                                                            |
-| 2 <a name="2"> </a>    | Office 365 보안 설명서                                               | <https://support.office.com/article/protect-access-to-data-and-services-in-office-365-a6ef28a4-2447-4b43-aae2-f5af6d53c68e>                                                                                           |
-| 3 <a name="3"> </a>    | FedRAMP Moderate FedRAMP SSP(시스템 보안 계획)                             | <https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=053666de-e359-43ef-a7bb-3cf379208ed8&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_FedRAMP_Reports>    |
-| 4 <a name="4"> </a>    | Microsoft 클라우드 보안 정책                                                 | <https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=c83d1345-0cff-4beb-a521-27b837ed271a&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers>] |
-| 5 <a name="5"> </a>    | GDPR에 대한 Office 365 정보 보호                                      | <https://docs.microsoft.com/office365/enterprise/office-365-information-protection-for-gdpr>                                                                                                                          |
-| 6 <a name="6"> </a>    | 사용자 데이터에 액세스할 수 있는 사람 및 관련 약관                                     | <https://www.microsoft.com/trustcenter/Privacy/Who-can-access-your-data-and-on-what-terms>                                                                                                                            |
-| 7 <a name="7"> </a>    | </span>하위 프로세서에 대한 계약: Microsoft와 계약                 | <https://www.microsoft.com/en-us/procurement/supplier-contracting.aspx#SSPA>                                                                                                                                                     |
-| 8 <a name="8"> </a>    | GDPR에 대한 365 데이터 주체 요청                                              | [*https://aka.ms/DSROffice365*](https://aka.ms/DSROffice365)                                                                                                                                                          |
-| 9 <a name="9"> </a>    | Office 365 및 GDPR의 위반 알림                               | [*https://aka.ms/BreachOffice365*](https://aka.ms/BreachOffice365)                                                                                                                                                    |
-| 10 <a name="10"> </a> | 고객 데이터 보호 영향 평가를 위한 Office 365의 주요 정보 | <https://docs.microsoft.com/microsoft-365/compliance/gdpr-dpia-office365>                                                                                                                                             |
-| 11 <a name="11"> </a>  | SOC 2 유형 2 감사 보고서                                                       | <https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=0cf2cce9-972d-4a64-865f-b8e6eba4ed5e&docTab=4ce99610-c9c0-11e7-8c2c->                                |
-| 12 <a name="12"> </a>  | Microsoft Office 365 ISO/IEC 27001:2013 ISMS 적용성 보고서         | <https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=d7255c90-03e3-48a6-938d-e69d8f723c7a&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_ISO_Reports>        |
-| 13 <a name="13"> </a>  | Microsoft 보안 센터 준수 제공 사항                                     | <https://www.microsoft.com/trustcenter/compliance/complianceofferings>                                                                                                                                                |
-| 14 <a name="14"> </a>  | Office 365 ISMS 설명서                                                          | <https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=72821313-c175-4857-b1f7-e3c5e6eb2db4&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_ISO_Reports>        |
-| 15 <a name="15"> </a>  | 테넌트 제한을 사용하여 SaaS 클라우드 응용 프로그램에 대한 액세스 관리             | <https://docs.microsoft.com/azure/active-directory/active-directory-tenant-restrictions>                                                                                                                              |
-| 16 <a name="16"> </a>  | Office 365 보안 및 준수 센터에서 감사 로그 검색               | <https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c>                                                                           |
-| 17 <a name="17"> </a>  | Microsoft 클라우드의 암호화                                               | <https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=ec66d938-6eb4-4d7d-b8c3-2168573bb534&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers>  |
-| 18 <a name="18"> </a>  | Microsoft의 데이터 보호 관리자                                             | https://docs.microsoft.com/microsoft-365/compliance/gdpr-data-protection-officer                                                                                                                                      |
-|                        |                                                                                 |                                                                                                                                                                                                                       |
-
-<br>
-
-### <a name="learn-more"></a>자세한 정보
-[Microsoft 보안 센터](https://www.microsoft.com/TrustCenter/Privacy/gdpr/default.aspx)
-
-[서비스 보안 포털](https://servicetrust.microsoft.com/ViewPage/GDPRGetStarted) 
-
-
-
+- [Microsoft 보안 센터](https://www.microsoft.com/TrustCenter/Privacy/gdpr/default.aspx)
+- [서비스 보안 포털](https://servicetrust.microsoft.com/ViewPage/GDPRGetStarted)
