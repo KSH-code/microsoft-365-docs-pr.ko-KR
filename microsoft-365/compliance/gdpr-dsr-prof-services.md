@@ -2,20 +2,20 @@
 title: GDPR에 대한 Microsoft 고객 지원 및 전문 서비스 데이터 주체 요청
 description: Microsoft 고객 지원 및 전문 서비스가 데이터 주체 요청을 처리하는 방법입니다.
 keywords: 전문 서비스, Microsoft 365, Microsoft 365 Education, Microsoft 365 설명서, GDPR
-author: herviicban
+author: robmazz
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
-ms.author: heicba
+ms.author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: GDPR
-ms.openlocfilehash: 9328bba6a0ca616b98b4da32cab372b9b546c848
-ms.sourcegitcommit: dc5c297ee7bca212b8a902daebe4907254c4315f
+ms.openlocfilehash: bc0b8d5b6d2a2a1590829a710d8aa51627d9afd0
+ms.sourcegitcommit: 6e2a54ec395eaef4c4658ca52322c3d0f184ca02
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "34589744"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "34698030"
 ---
 # <a name="microsoft-support-and-professional-services-data-subject-requests-for-the-gdpr"></a>GDPR에 대한 Microsoft 고객 지원 및 전문 서비스 데이터 주체 요청
 

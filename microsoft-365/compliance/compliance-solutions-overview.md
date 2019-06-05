@@ -2,23 +2,22 @@
 title: 준수 솔루션
 description: 이 라이브러리는 Microsoft 365의 기능을 사용하여 GDPR부터 시작하여 많은 조직에 적용되는 규정 준수를 처리하기 위한 기술 리소스를 제공합니다.
 keywords: Microsoft 365, Microsoft 365 Education, Microsoft 365 설명서, GDPR
-author: BrendaCarter
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
-ms.date: 04/13/2018
-ms.author: bcarter
+ms.author: robmazz
+author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection:
 - GDPR
 - M365-security-compliance
-ms.openlocfilehash: dbdb6d61b6c93ac0fa0de1c3c3efd6fd9fd9ceb3
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 055954c7d2df878eb7ba2ed570c2176c439c89b2
+ms.sourcegitcommit: 6e2a54ec395eaef4c4658ca52322c3d0f184ca02
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32285958"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "34698420"
 ---
 # <a name="compliance-solutions"></a>준수 솔루션
 이 라이브러리는 Microsoft 365의 기능을 사용하여 [GDPR](gdpr.md)부터 시작하여 많은 조직에 적용되는 규정 준수를 처리하기 위한 기술 리소스를 제공합니다. 
@@ -26,8 +25,3 @@ ms.locfileid: "32285958"
 이 라이브러리에 더 많은 콘텐츠를 추가하는 경우 Microsoft 보안 센터에서 준수 리소스를 확인해야 합니다.
 - [준수 개요](https://www.microsoft.com/trustcenter/compliance)
 - [준수 제품](https://www.microsoft.com/trustcenter/compliance/complianceofferings)
-
-
-
-
-
