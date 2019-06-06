@@ -23,7 +23,7 @@ Office 365 구독을 위반할 수 있는 자격 증명 손상을 방지하기 �
 
 다음 단계를 사용하여 전역 관리자 계정을 보호했는지 확인합니다.
 
-1. PowerShell 명령 프롬프트에서 다음 Azure AD V2 명령을 실행합니다. 전용 전역 관리자 계정 목록만 표시되어야 합니다.
+1. PowerShell 명령 프롬프트에서 다음 Azure Active Directory PowerShell for Graph 명령을 실행합니다. 전용 전역 관리자 계정 목록만 표시되어야 합니다.
    ```
    Get-AzureADDirectoryRole | where { $_.DisplayName -eq "Company Administrator" } | Get-AzureADDirectoryRoleMember | Ft DisplayName
    ```

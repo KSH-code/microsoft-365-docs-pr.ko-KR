@@ -3,8 +3,8 @@ title: 높은 규제 대상 데이터에 대한 Microsoft Teams 및 SharePoint O
 author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
-ms.date: 04/03/2019
-ms.audience: ITPro
+ms.date: 06/03/2019
+audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 보안 SharePoint Online 팀 사이트 및 Microsoft Teams 팀을 만들어 가장 소중하고 중요한 디지털 자산을 저장합니다.
-ms.openlocfilehash: d80be334f692f905ec70ae43f851d2b73801f4a0
-ms.sourcegitcommit: dbcc32218489ab256b7eb343290fcccb9bc04e36
+ms.openlocfilehash: d9740a27cdb90f8d490a6c9a323e968725876deb
+ms.sourcegitcommit: e87c9aa4d6f4756c0a761d3de7c70492b43bf0b9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/02/2019
-ms.locfileid: "33553327"
+ms.lasthandoff: 06/03/2019
+ms.locfileid: "34681071"
 ---
 # <a name="microsoft-teams-and-sharepoint-online-sites-for-highly-regulated-data"></a>높은 규제 대상 데이터에 대한 Microsoft Teams 및 SharePoint Online 사이트
 
@@ -29,7 +29,7 @@ Microsoft 365 Enterprise에는 높은 규제 대상 데이터를 만들고, 저�
 - 지역 규제를 받는 데이터
 - 영업 비밀, 재무 또는 인사 관련 정보와 조직의 전략과 같이 조직에서 가장 중요한 데이터
 
-이러한 비즈니스 요구를 충족하는 Microsoft 365 Enterprise에서는 다음을 요구합니다.
+이러한 비즈니스 요구를 충족하는 Microsoft 365 Enterprise 클라우드 기반 시나리오에서는 다음을 요구합니다.
 
 - 디지털 자산(문서, 슬라이드 데크, 스프레드시트 등)을 SharePoint Online 팀 사이트 또는 Microsoft Teams 팀의 **파일** 탭에 저장해야 합니다.
 - 사이트 또는 팀의 다음 작업이 방지됩니다.
@@ -41,7 +41,7 @@ Microsoft 365 Enterprise에는 높은 규제 대상 데이터를 만들고, 저�
 - 사이트 또는 팀의 가장 중요한 디지털 자산을 암호화합니다.
 - 사이트 외부에서 공유되더라도 자산을 열기 위해서는 권한이 있는 사용자 계정의 유효한 자격 증명을 요구하도록 가장 중요한 디지털 자산에 대한 권한을 추가합니다.
 
-다음 표에서는 이러한 솔루션의 요구 사항과 해당하는 Microsoft 365 Enterprise의 기능을 연결해서 보여 줍니다.
+다음 표에서는 이러한 시나리오의 요구 사항과 해당하는 Microsoft 365 Enterprise의 기능을 연결해서 보여 줍니다.
 
 |||
 |:-------|:-----|
@@ -54,7 +54,11 @@ Microsoft 365 Enterprise에는 높은 규제 대상 데이터를 만들고, 저�
 | 사이트의 디지털 자산에 대한 권한 추가 | EMS의 Azure Information Protection 하위 레이블 |
 |||
 
-이 솔루션을 사용하려면 다음을 배포했어야 합니다.
+다음은 SharePoint Online 사이트의 구성입니다.
+
+![높은 규제 대상 데이터 시나리오에 대한 Microsoft Teams 및 SharePoint Online 사이트](./media/teams-sharepoint-online-sites-highly-regulated-data/end-to-end-configuration.png)
+
+이 시나리오를 사용하려면 다음을 배포했어야 합니다.
 
 - 기본 인프라의 [ID](identity-infrastructure.md) 단계 및 [정보 보호](infoprotect-infrastructure.md) 단계의 1-2단계 
 - SharePoint Online 팀 사이트에 있는 높은 규제 대상 데이터의 경우 [SharePoint Online](sharepoint-online-onedrive-workload.md)
@@ -64,9 +68,13 @@ Microsoft 365 Enterprise에는 높은 규제 대상 데이터를 만들고, 저�
 
 가상의 대표적인 다국적 기업인 Contoso Corporation에서 연구팀을 위해 SharePoint Online 사이트를 설계한 방법을 보려면 이 [예제 구성](contoso-sharepoint-online-site-for-highly-confidential-assets.md)을 참조하세요.
 
->[!Note]
->높은 규제 대상 데이터에 대한 팀을 사용하려면 먼저 높은 규제 대상 데이터에 대한 SharePoint Online 팀 사이트를 만들어야 합니다. 그런 후 SharePoint Online 팀 사이트의 Office 365 그룹을 사용하는 새 팀을 만듭니다. 자세한 내용은 두 번째 작업 단계, 4단계를 참조하세요.
->
+
+높은 규제 대상 데이터에 대한 팀을 사용하려면 먼저 높은 규제 대상 데이터에 대한 SharePoint Online 팀 사이트를 만들어야 합니다. 그런 후 SharePoint Online 팀 사이트의 Office 365 그룹을 사용하는 새 팀을 만듭니다. 자세한 내용은 두 번째 작업 단계, 4단계를 참조하세요.
+
+다음은 팀을 위한 구성입니다.
+
+![높은 규제 대상 데이터 시나리오에 대한 Microsoft Teams 및 SharePoint Online 사이트](./media/teams-sharepoint-online-sites-highly-regulated-data/end-to-end-configuration-team.png)
+
 
 ## <a name="identity-and-device-access-prerequisites"></a>ID 및 장치 액세스 필수 구성 요소
 
@@ -207,6 +215,10 @@ Office 365 레이블의 디자인 고려 사항에 대해서는 [Office 365 분�
 ### <a name="user-adoption-results"></a>사용자 채택 계획
 
 중요한 디지털 자산은 높은 규제 대상 데이터를 위한 SharePoint Online 사이트 또는 팀에 단독으로 저장되며 가장 중요한 자산은 Azure Information Protection 하위 레이블로 구성됩니다.
+
+## <a name="how-the-contoso-corporation-deployed-microsoft-365-enterprise"></a>Contoso Corporation에서 Microsoft 365 Enterprise를 배포한 방식
+
+Contoso 기업은 프랑스 파리에 본사를 둔 가상의 대표적인 글로벌 제조 대기업입니다. Contoso가 파리, 모스크바, 뉴욕, 베이징, 방갈로르의 연구 팀을 위해 [보안 SharePoint Online 사이트](contoso-sharepoint-online-site-for-highly-confidential-assets.md)를 설계 및 구성한 다음 채택을 촉진하는 방법을 알아봅니다. 
 
 ## <a name="see-also"></a>참고 항목
 
