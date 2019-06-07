@@ -5,28 +5,28 @@ keywords: Microsoft 365, Microsoft 365 Education, Microsoft 365 설명서, GDPR
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
-ms.author: heicba
-author: herviicban
+ms.author: robmazz
+author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: GDPR
-ms.openlocfilehash: 5b546a38b5073297fb9b89a06b4302fcd9be71fb
-ms.sourcegitcommit: ea1d28fc3d0b93441aaca659c843f67495c1874f
+ms.openlocfilehash: 7a294893d609747b5ab36c66319427608462b451
+ms.sourcegitcommit: 6e2a54ec395eaef4c4658ca52322c3d0f184ca02
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/29/2019
-ms.locfileid: "34544865"
+ms.lasthandoff: 06/04/2019
+ms.locfileid: "34698340"
 ---
 # <a name="azure-data-subject-requests-for-the-gdpr"></a>GDPR에 대한 Azure 데이터 주체 요청
 
 ## <a name="introduction-to-data-subject-requests-dsrs"></a>DSR(데이터 주체 요청) 소개
 
-EU GDPR(일반 데이터 보호 규정)은 사용자(규정에 *데이터 주체*로 알려짐)에게 고용주 또는 다른 유형의 대리점 및 조직(*데이터 통제자* 또는 단순히 *통제자*로 지칭)이 수집한 개인 데이터를 관리할 수 있는 권한을 부여합니다. 개인 데이터는 GDPR에서는 보다 광범위하게 식별되었거나 식별 가능한 자연인과 관련된 모든 데이터로 정의됩니다. GDPR은 데이터 주체에게 개인 데이터에 대한 특정 권한을 부여합니다. 이러한 권한에는 개인 데이터 복사본 획득, 수정 요청, 처리 제한, 삭제 또는 다른 통제자에게 이동될 수 있도록 전자 형식으로 수신하는 권한이 포함됩니다. 데이터 주체가 통제자에게 개인 데이터에 대해 조치를 취할 것을 요구하는 공식적인 요청을 *데이터 주체 요청* 또는 DSR이라고 합니다.
+EU(유럽 연합) [GDPR(일반 데이터 보호 규정)](https://ec.europa.eu/justice/data-protection/reform/index_en.htm)은 사용자(규정에 *데이터 주체*로 알려짐)에게 고용주 또는 다른 유형의 대리점 및 조직(*데이터 통제자* 또는 단순히 *통제자*로 지칭)이 수집한 개인 데이터를 관리할 수 있는 권한을 부여합니다. 개인 데이터는 GDPR에서는 보다 광범위하게 식별되었거나 식별 가능한 자연인과 관련된 모든 데이터로 정의됩니다. GDPR은 데이터 주체에게 개인 데이터에 대한 특정 권한을 부여합니다. 이러한 권한에는 개인 데이터 복사본 획득, 수정 요청, 처리 제한, 삭제 또는 다른 통제자에게 이동될 수 있도록 전자 형식으로 수신하는 권한이 포함됩니다. 데이터 주체가 통제자에게 개인 데이터에 대해 조치를 취할 것을 요구하는 공식적인 요청을 *데이터 주체 요청* 또는 DSR이라고 합니다.
 
 이 가이드에서는 Microsoft 제품, 서비스 및 관리 도구를 사용하여 통제자 고객이 DSR에 응답하기 위해 개인 데이터를 찾고 조치를 취하는 데 도움을 주는 방식을 설명합니다. 특히, Microsoft 클라우드에 있는 개인 데이터를 찾고, 액세스하고, 조치를 취하는 방법도 포함되어 있습니다. 이 가이드에 설명된 프로세스에 대한 간략한 개요는 다음과 같습니다.
 
 - **검색:** 검색 도구를 사용하여 DSR의 대상이 될 수 있는 고객 데이터를 좀 더 쉽게 찾을 수 있습니다. 잠재적인 반응형 문서가 일단 수집되면 다음 단계에 설명된 DSR 작업 중 하나 이상을 수행하여 요청에 응답할 수 있습니다. 또는 요청이 DSR에 응답하기 위한 조직 지침을 충족하지 않는지도 확인할 수 있습니다.
- - **액세스:** Microsoft 클라우드에 있는 개인 데이터를 검색하고, 요청될 경우 데이터 주체가 사용할 수 있는 복사본을 만듭니다.
+- **액세스:** Microsoft 클라우드에 있는 개인 데이터를 검색하고, 요청될 경우 데이터 주체가 사용할 수 있는 복사본을 만듭니다.
 - **수정:** 해당되는 경우 개인 데이터를 변경하거나 요청된 다른 작업을 구현합니다.
 - **제한:** 가능한 경우 다양한 Azure 서비스에 대한 라이선스를 제거하거나 원하는 서비스를 해제하여 개인 데이터의 처리를 제한합니다. 또한 Microsoft 클라우드에서 데이터를 제거하고 온-프레미스 또는 다른 위치에 유지할 수도 있습니다.
 - **삭제:** Microsoft 클라우드에 있는 개인 데이터를 영구적으로 제거합니다.
@@ -34,33 +34,22 @@ EU GDPR(일반 데이터 보호 규정)은 사용자(규정에 *데이터 주체
 
 이 가이드의 각 섹션에서는 데이터 통제자가 Microsoft 클라우드의 개인 데이터에 대한 DSR에 응답하기 위해 수행할 수 있는 기술적 절차를 간략하게 설명합니다.
 
-<span id="_Toc511384801" class="anchor"><span id="_Toc511163872" class="anchor"><span id="_Toc511136229" class="anchor"><span id="_Toc511125162" class="anchor"><span id="_Toc511120749" class="anchor"><span id="_Toc511122656" class="anchor"><span id="_Toc508792503" class="anchor"></span></span></span></span></span></span></span>
-
 ## <a name="terminology"></a>용어
 
 다음은 이 가이드와 관련된 용어의 정의입니다.
 
 - **통제자:** 단독으로 또는 다른 대상과 함께 개인 데이터 처리의 목적 및 방법을 결정하는 자연인이나 법인, 공공 기관, 대리점 또는 기타 단체입니다. 이러한 처리의 목적 및 방법을 연합국 법률 또는 회원국 법률에 따라 결정하는 경우, 통제자 또는 구체적인 지명 기준을 연합국 법률 또는 회원국 법률에서 제공할 수 있습니다.
-
 - **개인 데이터 및 데이터 주체** 식별되었거나 식별 가능한 자연인(‘데이터 주체’)과 관련된 모든 정보입니다. 식별 가능한 자연인은 직간접적으로, 특히 이름, 식별 번호, 위치 데이터, 온라인 식별자 또는 해당 자연인의 신체적, 생리적, 유전적, 정신적, 경제적, 문화적 또는 사회적 ID와 같은 식별자를 참조하여 식별될 수 있는 사람입니다.
-
 - **프로세서:** 통제자를 대신하여 개인 데이터를 처리하는 자연인이나 법인, 공공 기관, 대리점 또는 기타 단체입니다.
-
 - **고객 데이터:** 엔터프라이즈 서비스를 사용하여 고객이 또는 고객을 대신해서 Microsoft에 제공되는 모든 텍스트, 사운드, 비디오 또는 이미지 파일, 소프트웨어를 포함하는 모든 데이터입니다. 고객 데이터에는 (1) 최종 사용자의 식별 가능 정보(예: 사용자 이름 및 Azure Active Directory의 연락처 정보) 및 고객이 특정 서비스에서 업로드하거나 만든 고객 콘텐츠(예: Azure Storage의 고객 콘텐츠, Azure SQL Database의 고객 콘텐츠 또는 Azure Virtual Machines의 고객 가상 머신 이미지)가 둘 다 포함됩니다.
-
 - **시스템 생성 로그:** Microsoft가 사용자에게 엔터프라이즈 서비스를 제공하는 데 도움을 주는 Microsoft 생성 로그 및 관련 데이터입니다. 시스템 생성 로그에는 일반적으로 자체적으로는 개인을 식별할 수 없지만 사용자에게 엔터프라이즈 서비스를 전달하는 데 사용되는 시스템 생성 번호에 해당하는 주로 필명화된 데이터(예: 고유 식별자)가 포함됩니다. 최종 사용자에 대한 식별 가능 정보(예: 사용자 이름)도 시스템 생성 로그에 포함될 수 있습니다.
-
-<span id="_Toc511384802" class="anchor"><span id="_Toc511163873" class="anchor"><span id="_Toc511136230" class="anchor"><span id="_Toc511125163" class="anchor"><span id="_Toc511120750" class="anchor"><span id="_Toc511122657" class="anchor"><span id="_Toc508792504" class="anchor"></span></span></span></span></span></span></span>
 
 ## <a name="how-to-use-this-guide"></a>이 가이드를 사용하는 방법
 
 이 가이드의 다음 두 부분으로 구성됩니다.
 
-**1부: 고객 데이터에 대한 데이터 주체 요청에 응답** — 이 가이드 1부에서는 데이터를 작성한 애플리케이션에서 데이터를 액세스, 수정, 제한, 삭제 및 내보내는 방법을 설명합니다. 이 섹션에서는 최종 사용자의 고객 콘텐츠 및 식별 가능 정보에 대해 DSR을 실행하는 방법을 자세히 설명합니다.
-
-**2부: 시스템 생성 로그에 대한 데이터 주 체 요청에 응답** — Microsoft의 엔터프라이즈 서비스를 사용할 경우, Microsoft는 서비스를 제공하기 위해 시스템 생성 로그라고 하는 정보를 생성합니다. 이 가이드의 2부에서는 Azure에서 이러한 정보를 액세스, 삭제 및 내보내는 방법을 설명합니다.
-
-<span id="_Toc511384803" class="anchor"><span id="_Toc511163874" class="anchor"></span></span>
+- **1부: 고객 데이터에 대한 데이터 주체 요청에 응답:** 이 가이드 1부에서는 데이터를 작성한 애플리케이션에서 데이터를 액세스, 수정, 제한, 삭제 및 내보내는 방법을 설명합니다. 이 섹션에서는 최종 사용자의 고객 콘텐츠 및 식별 가능 정보에 대해 DSR을 실행하는 방법을 자세히 설명합니다.
+- **2부: 시스템 생성 로그에 대한 데이터 주 체 요청에 응답:** Microsoft의 엔터프라이즈 서비스를 사용할 경우, Microsoft는 서비스를 제공하기 위해 시스템 생성 로그라고 하는 정보를 생성합니다. 이 가이드의 2부에서는 Azure에서 이러한 정보를 액세스, 삭제 및 내보내는 방법을 설명합니다.
 
 ## <a name="understanding-dsrs-for-azure-active-directory-and-microsoft-service-accounts"></a>Azure Active Directory 및 Microsoft 서비스 계정에 대한 DSR 이해
 
@@ -68,35 +57,25 @@ EU GDPR(일반 데이터 보호 규정)은 사용자(규정에 *데이터 주체
 
 엔터프라이즈 고객에게 제공되는 서비스 컨텍스트 내의 MSA(Microsoft 서비스 계정)도 마찬가지입니다. *AAD 테넌트와 연결된* MSA 계정에 대해 DSR을 실행할 경우 해당 테넌트 내의 데이터 **와만 관련됩니다**. 또한 테넌트 내에서 MSA 계정을 처리하는 경우에는 다음 사실을 이해해야 합니다.
 
--   MSA 사용자가 Azure 구독을 만들면 구독은 마치 AAD 테넌트인 것처럼 처리됩니다. 결과적으로 DSR은 위에 설명된 것처럼 테넌트 내로 한정됩니다.
-
--   MSA 계정을 통해 만든 Azure 구독을 삭제한 경우 실제 MSA 계정에는 **영향을 주지 않습니다**. 다시 말해서 위에서 언급한 것처럼 Azure 구독 내에서 실행되는 DSR은 테넌트 범위로 제한됩니다.
+- MSA 사용자가 Azure 구독을 만들면 구독은 마치 AAD 테넌트인 것처럼 처리됩니다. 결과적으로 DSR은 위에 설명된 것처럼 테넌트 내로 한정됩니다.
+- MSA 계정을 통해 만든 Azure 구독을 삭제한 경우 실제 MSA 계정에는 **영향을 주지 않습니다**. 다시 말해서 위에서 언급한 것처럼 Azure 구독 내에서 실행되는 DSR은 테넌트 범위로 제한됩니다.
 
 **지정된 테넌트의 외부에 있는** MSA 계정 자체에 대한 DSR은 소비자 개인 정보 보호 대시보드를 통해 실행됩니다. 자세한 내용은 Windows 데이터 주체 요청 가이드를 참조하세요.
 
-<span id="_Toc508792505" class="anchor"><span id="_Toc511384804" class="anchor"><span id="_Toc511163875" class="anchor"><span id="_Toc511136231" class="anchor"><span id="_Toc511125164" class="anchor"><span id="_Toc511120751" class="anchor"><span id="_Toc511122658" class="anchor"></span></span></span></span></span></span></span>
-
 ## <a name="part-1-dsr-guide-for-customer-data"></a>1부: 고객 데이터에 대한 DSR 가이드
-
-<span id="_Toc511384805" class="anchor"><span id="_Toc511163876" class="anchor"><span id="_Toc511136232" class="anchor"><span id="_Toc511125165" class="anchor"><span id="_Toc511120752" class="anchor"><span id="_Toc511122659" class="anchor"></span></span></span></span></span></span>
 
 ### <a name="executing-dsrs-against-customer-data"></a>고객 데이터에 대해 DSR 실행
 
 Microsoft는 Azure Portal을 통해 또는 특정 서비스에 대한 기존 API(응용 프로그래밍 인터페이스) 또는 UI(사용자 인터페이스)를 통해 직접(*제품 내 환경*) 특정 고객 데이터를 액세스, 삭제 및 내보내는 기능을 제공합니다. 제품 내 환경에 대한 자세한 내용은 해당 서비스 참조 설명서에 나와 있습니다.
 
->[!Important]  
+>[!IMPORTANT]  
 > 제품 내 DSR을 지원하는 서비스에서는 서비스의 API(응용 프로그래밍 인터페이스) 또는 UI(사용자 인터페이스)를 직접적으로 사용하고 해당 CRUD(만들기, 읽기, 업데이트, 삭제) 작업을 설명해야 합니다. 따라서 지정된 데이터 주체에 대한 모든 요청을 완료하기 위해서는 Azure Portal 내의 DSR 외에도 지정된 서비스 내의 DSR도 실행해야 합니다. 자세한 내용은 특정 서비스 참조 설명서를 참조하세요.
-
-<span id="_Discover" class="anchor"><span id="_Toc508792508" class="anchor"><span id="_Toc511122661" class="anchor"><span id="_Toc511120754" class="anchor"><span id="_Toc511125167" class="anchor"><span id="_Toc511136234" class="anchor"><span id="_Toc511163877" class="anchor"><span id="_Toc511384806" class="anchor"></span></span></span></span></span></span></span></span>
 
 ### <a name="step-1-discover"></a>1단계: 검색
 
 DSR에 대응하는 첫 번째 단계는 요청의 제목인 개인 데이터를 찾는 것입니다. 첫 번째 단계(문제가 된 개인 데이터 찾기 및 검토)를 통해 DSR의 준수 또는 거부에 필요한 이 조직의 요구 사항을 충족하는지를 판별할 수 있습니다. 예를 들어, 문제가 된 개인 데이터를 찾고 검토한 후, 이 작업이 타인의 권리와 자유에 불리한 영향을 미칠 수 있으므로 해당 요청이 조직의 요구 사항을 충족하지 않는지를 판별합니다. 
 
 데이터를 찾은 후에 데이터 주체의 요청을 충족하기 위한 특정 작업을 수행할 수 있습니다.
-
-<span id="_Toc511384807" class="anchor"><span id="_Toc511163878" class="anchor"><span id="_Toc511136235" class="anchor"><span id="_Toc511125168" class="anchor"><span id="_Toc511120755" class="anchor"><span id="_Toc511122662" class="anchor"></span></span></span></span></span></span>
-### <a name="azure-active-directory"></a>Azure Active Directory
 
 [Azure Active Directory](https://azure.microsoft.com/services/active-directory/)는 Microsoft의 클라우드 기반, 다중 테넌트 디렉터리 및 ID 관리 서비스입니다. [Azure Portal](https://portal.azure.com/)을 사용하여 [AAD(Azure Active Directory)](https://azure.microsoft.com/services/active-directory/) 환경에서 개인 데이터를 포함하는 고객 및 직원 사용자 프로필, 사용자 작업 정보와 같은 최종 사용자의 식별 가능한 정보를 찾을 수 있습니다.
 
@@ -106,7 +85,7 @@ DSR에 대응하는 첫 번째 단계는 요청의 제목인 개인 데이터를
 
 1. 디렉터리에 대한 전역 관리자인 계정을 사용하여 [Azure Portal](https://portal.azure.com/)에 로그인합니다.
 
-1. **모든 서비스**를 선택하고 텍스트 상자에 **사용자 및 그룹**을 입력한 후 **Enter** 키를 선택합니다.
+2. **모든 서비스**를 선택하고 텍스트 상자에 **사용자 및 그룹**을 입력한 후 **Enter** 키를 선택합니다.
 
      ![모든 서비스 선택](media/azure-dsr_image3.png)
 
@@ -114,28 +93,15 @@ DSR에 대응하는 첫 번째 단계는 요청의 제목인 개인 데이터를
 
      ![사용자 선택](media/azure-dsr_image9.png)
 
-4.  **사용자 및 그룹 — 사용자** 블레이드의 목록에서 사용자를 선택하고, 선택한 사용자에 대한 블레이드에서 **프로필**을 선택하여 개인 데이터가 포함될 수 있는 사용자 프로필 정보를 확인합니다.
+4. **사용자 및 그룹 — 사용자** 블레이드의 목록에서 사용자를 선택하고, 선택한 사용자에 대한 블레이드에서 **프로필**을 선택하여 개인 데이터가 포함될 수 있는 사용자 프로필 정보를 확인합니다.
 
     ![프로필 선택](media/azure-dsr_image5.png)
 
 5. 사용자 프로필 정보를 추가하거나 변경해야 할 경우 이 작업을 수행한 후 명령 모음에서 **저장**을 선택합니다.
 
-<!-- steps 6 and 7 not in original 
-6. On the blade for the selected user, select **Work Info** to view user work information that may contain personal data.
-
-     ![Select work info](media/azure-dsr_image11.png)
-
-7. If you need to add or change user work information, you can do so, and then, in the command bar, select **Save.**
-
-end of text to isolate -->
-
-<span id="_Toc511384808" class="anchor"><span id="_Toc511163879" class="anchor"><span id="_Toc511136236" class="anchor"><span id="_Toc511125169" class="anchor"><span id="_Toc511120756" class="anchor"><span id="_Toc511122663" class="anchor"></span></span></span></span></span></span>
-
 #### <a name="service-specific-interfaces"></a>서비스 관련 인터페이스
 
 Microsoft에서는 특정 서비스의 기존 API(응용 프로그래밍 인터페이스) 또는 UI(사용자 인터페이스)를 통해 직접 고객 데이터를 검색하는 기능을 제공합니다. 세부 사항은 해당 CRUD(만들기, 읽기, 업데이트, 삭제) 작업을 설명하는 서비스의 참조 설명서에 나와 있습니다.
-
-<span id="_Access" class="anchor"><span id="_Toc508792512" class="anchor"><span id="_Ref511119401" class="anchor"><span id="_Toc511122664" class="anchor"><span id="_Toc511120757" class="anchor"><span id="_Toc511125170" class="anchor"><span id="_Toc511136237" class="anchor"><span id="_Toc511163880" class="anchor"><span id="_Toc511384809" class="anchor"><span id="_Hlk503968195" class="anchor"></span></span></span></span></span></span></span></span></span></span>
 
 ### <a name="step-2-access"></a>2단계: 액세스
 
@@ -143,27 +109,17 @@ DSR에 응답하는 개인 데이터가 포함된 고객 데이터를 찾은 후
 
 데이터 주체에 사본을 제공할 때는 다른 데이터 주체에 대한 개인 정보와 모든 기밀 정보를 제거하거나 수정해야 할 수 있습니다.
 
-<span id="_Using_Content_Search_1" class="anchor"></span>다음은 DSR 액세스 요청에 대한 응답으로 데이터 복사본을 다운로드하는 방법을 설명합니다.
-
-<span id="_Rectify" class="anchor"><span id="_Ref511119463" class="anchor"><span id="_Toc511122665" class="anchor"><span id="_Toc511120758" class="anchor"><span id="_Toc511125171" class="anchor"><span id="_Toc511136238" class="anchor"><span id="_Toc511163881" class="anchor"><span id="_Toc511384810" class="anchor"></span></span></span></span></span></span></span></span>
-
 #### <a name="azure-active-directory"></a>Azure Active Directory
 
-<span id="_Forms_1" class="anchor"></span>Microsoft에서는 엔터프라이즈 고객의 테넌트 관리자에게 DSR 액세스 요청을 관리할 수 있는 기능을 제공하는 포털 및 제품 환경을 둘 다 제공합니다. DSR 액세스 요청은 (a) 최종 사용자에 대한 식별 정보와 (b) 시스템 생성 로그를 포함하여 사용자의 개인 데이터에 액세스할 수 있도록 합니다.
-
-<span id="_Toc511384811" class="anchor"><span id="_Toc511163882" class="anchor"><span id="_Toc511136239" class="anchor"><span id="_Toc511125172" class="anchor"><span id="_Toc511120759" class="anchor"><span id="_Toc511122666" class="anchor"></span></span></span></span></span></span>
+Microsoft는 엔터프라이즈 고객의 테넌트 관리자에게 DSR 액세스 요청을 관리하는 기능을 제공하는 포털 및 제품 내 환경을 제공합니다. DSR 액세스 요청을 사용하며 사용자의 개인 데이터((a) 최종 사용자에 대한 ID 정보 및 (b) 시스템 생성 로그)에 액세스할 수 있습니다.
 
 #### <a name="service-specific-interfaces"></a>서비스 관련 인터페이스
 
 Microsoft에서는 특정 서비스의 기존 API(응용 프로그래밍 인터페이스) 또는 UI(사용자 인터페이스)를 통해 직접 고객 데이터를 검색하는 기능을 제공합니다. 세부 사항은 해당 CRUD(만들기, 읽기, 업데이트, 삭제) 작업을 설명하는 서비스의 참조 설명서에 나와 있습니다.
 
-<span id="_Sway" class="anchor"><span id="_Toc508792516" class="anchor"><span id="_Toc511122667" class="anchor"><span id="_Toc511120760" class="anchor"><span id="_Toc511125173" class="anchor"><span id="_Toc511136240" class="anchor"><span id="_Toc511163883" class="anchor"><span id="_Toc511384812" class="anchor"></span></span></span></span></span></span></span></span>
-
 ### <a name="step-3-rectify"></a>3단계: 수정
 
 데이터 주체가 조직 데이터에 포함된 개인 데이터를 수정할 것을 요청한 경우 귀하와 조직은 요청을 수락하는 것이 적절한지 여부를 결정해야 합니다. 데이터 수정에는 개인 데이터의 편집, 수정 또는 문서나 기타 형식 또는 항목에서 개인 데이터를 제거하는 것과 같은 작업이 포함될 수 있습니다. Microsoft 고객 지원 및 FastTrack 데이터에 대해 이 작업을 수행하는 가장 편리한 방법은 다음과 같습니다.
-
-<span id="_Toc511384813" class="anchor"><span id="_Toc511163884" class="anchor"><span id="_Toc511136241" class="anchor"><span id="_Toc511125174" class="anchor"><span id="_Toc511120761" class="anchor"><span id="_Toc511122668" class="anchor"></span></span></span></span></span></span>
 
 #### <a name="azure-active-directory"></a>Azure Active Directory
 
@@ -175,50 +131,42 @@ Microsoft에서는 특정 서비스의 기존 API(응용 프로그래밍 인터�
 
 ###### <a name="how-do-i-correct-or-update-user-profile-and-work-information-in-azure-active-directory"></a>Azure Active Directory에서 사용자 프로필 및 작업 정보를 수저하거나 업데이트하려면 어떻게 하나요?
 
-1.  디렉터리에 대한 전역 관리자인 계정을 사용하여 [Azure Portal](https://portal.azure.com/)에 로그인합니다.
+1. 디렉터리에 대한 전역 관리자인 계정을 사용하여 [Azure Portal](https://portal.azure.com/)에 로그인합니다.
 
-2.  **모든 서비스**를 선택하고 텍스트 상자에 **사용자 및 그룹**을 입력한 후 **Enter** 키를 선택합니다.
+2. **모든 서비스**를 선택하고 텍스트 상자에 **사용자 및 그룹**을 입력한 후 **Enter** 키를 선택합니다.
 
     ![모든 서비스 선택](media/azure-dsr_image3.png)
 
-3.  **사용자 및 그룹** 블레이드에서 **사용자**를 선택합니다.
-         
+3. **사용자 및 그룹** 블레이드에서 **사용자**를 선택합니다.
+
     ![사용자 선택](media/azure-dsr_image9.png)
 
-4.  **사용자 및 그룹 — 사용자** 블레이드의 목록에서 사용자를 선택하고, 선택한 사용자에 대한 블레이드에서 **프로필**을 선택하여 수정하거나 업데이트해야 하는 사용자 프로필 정보를 확인합니다.
+4. **사용자 및 그룹 — 사용자** 블레이드의 목록에서 사용자를 선택하고, 선택한 사용자에 대한 블레이드에서 **프로필**을 선택하여 수정하거나 업데이트해야 하는 사용자 프로필 정보를 확인합니다.
 
     ![프로필 선택](media/azure-dsr_image5.png)
 
-5.  해당 정보를 수정하거나 업데이트한 다음, 명령 모음에서 **저장**을 선택합니다.
+5. 해당 정보를 수정하거나 업데이트한 다음, 명령 모음에서 **저장**을 선택합니다.
 
-6.  선택한 사용자의 블레이드에서 **작업 정보**를 선택하여 수정하거나 업데이트해야 하는 사용자 작업 정보를 확인합니다.
+6. 선택한 사용자의 블레이드에서 **작업 정보**를 선택하여 수정하거나 업데이트해야 하는 사용자 작업 정보를 확인합니다.
 
     ![작업 정보 선택](media/azure-dsr_image4.png)
 
-7.  사용자 작업 정보를 수정하거나 업데이트한 다음, 명령 모음에서 **저장**을 선택합니다.
-
-<span id="_Toc511384814" class="anchor"><span id="_Toc511163885" class="anchor"><span id="_Toc511136242" class="anchor"><span id="_Toc511125175" class="anchor"><span id="_Toc511120762" class="anchor"><span id="_Toc511122669" class="anchor"></span></span></span></span></span></span>
+7. 사용자 작업 정보를 수정하거나 업데이트한 다음, 명령 모음에서 **저장**을 선택합니다.
 
 #### <a name="service-specific-interfaces"></a>서비스 관련 인터페이스
 
 Microsoft에서는 특정 서비스의 기존 API(응용 프로그래밍 인터페이스) 또는 UI(사용자 인터페이스)를 통해 직접 고객 데이터를 검색하는 기능을 제공합니다. 세부 사항은 해당 CRUD(만들기, 읽기, 업데이트, 삭제) 작업을 설명하는 서비스의 참조 설명서에 나와 있습니다.
 
-<span id="_Gain_access_to" class="anchor"><span id="_Toc508792521" class="anchor"><span id="_Toc511122670" class="anchor"><span id="_Toc511120763" class="anchor"><span id="_Toc511125176" class="anchor"><span id="_Toc511136243" class="anchor"><span id="_Toc511163886" class="anchor"><span id="_Toc511384815" class="anchor"></span></span></span></span></span></span></span></span>
-
 ### <a name="step-4-restrict"></a>4단계: 제한
 
-<span id="_Delete" class="anchor"></span>데이터 주체는 개인 데이터 처리를 제한할 것을 요청할 수 있습니다. Microsoft는 Azure Portal과 기존의 API(응용 프로그래밍 인터페이스) 또는 UI(사용자 인터페이스)를 둘 다 제공합니다. 이러한 환경은 엔터프라이즈 고객의 테넌트 관리자가 데이터 내보내기 및 데이터 삭제를 조합하여 이러한 DSR을 관리할 수 있도록 합니다. 고객은 (a) 계정, (b) 시스템 생성 로그 및 (c) 관련 로그를 포함하는 (1) 사용자 개인의 전자 사본을 내보내고 (2) Microsoft 시스템 내에 있는 계정 및 관련 데이터를 삭제할 수 있습니다.
-
-<span id="_Toc508792528" class="anchor"><span id="_Toc511122671" class="anchor"><span id="_Toc511120764" class="anchor"><span id="_Toc511125177" class="anchor"><span id="_Toc511136244" class="anchor"><span id="_Toc511163887" class="anchor"><span id="_Toc511384816" class="anchor"></span></span></span></span></span></span></span>
+데이터 주체가 개인 데이터 처리를 제한하도록 요청할 수 있습니다. Azure 포털과 기존 API(Application Programming Interface) 또는 UI(사용자 인터페이스)를 제공합니다. 이러한 환경은 엔터프라이즈 고객의 테넌트 관리자에게 데이터 내보내기 및 데이터 삭제의 조합을 통해 그와 같은 DSR을 관리할 수 있는 기능을 제공합니다. 고객은 (1) 사용자의 개인 데이터에 대한 전자 사본((2)Microsoft 시스템에 상주하는 계정 및 관련 데이터 삭제 이후 발생하는 (a) 계정, (b) 시스템 생성 로그 및 (c) 관련 로그 포함)을 내보낼 수 있습니다.
 
 ### <a name="step-5-delete"></a>5단계: 삭제
 
 조직의 고객 데이터에서 개인 데이터 제거하는 "삭제 권한"은 GDPR에서 핵심적인 보호 기능입니다. 개인 데이터를 제거하면 감사 로그 정보를 제외한, 모든 개인 데이터와 시스템 생성 로그가 제거됩니다. 사용자가 **일시 삭제**(아래 세부 정보 참조)되면, 계정이 30일 동안 비활성화됩니다. 이 30일 동안 추가 작업이 없는 경우, 사용자가 **영구 삭제**됩니다(아래 세부 정보 참조). **영구 삭제** 시, 사용자의 계정, 개인 데이터 및 시스템 생성 로그가 30일 이내에 삭제됩니다. 테넌트 관리자가 즉시 **영구적 삭제**를 발행하는 경우, 사용자 계정, 개인 데이터 및 시스템 생성 로그가 발행 30 일 이내에 삭제됩니다.
 
-> [!Important]
+> [!IMPORTANT]
 > 테넌트에서 사용자를 삭제하려면 테넌트 관리자여야 합니다.
-
-<span id="_Toc511384817" class="anchor"><span id="_Toc511163888" class="anchor"><span id="_Toc511136245" class="anchor"><span id="_Toc511125178" class="anchor"><span id="_Toc511120765" class="anchor"><span id="_Toc511122672" class="anchor"><span id="_Ref511119801" class="anchor"></span></span></span></span></span></span></span>
 
 #### <a name="delete-a-user-and-associated-data-through-the-azure-portal"></a>Azure Portal을 통해 사용자 및 관련 데이터 삭제
 
@@ -228,118 +176,95 @@ Microsoft에서는 특정 서비스의 기존 API(응용 프로그래밍 인터�
 
 테넌트에서 사용자를 삭제하기 위한 고급 프로세스는 다음과 같습니다.
 
-1.  Azure Portal로 이동한 후 사용자를 찾습니다.
+1. Azure Portal로 이동한 후 사용자를 찾습니다.
 
-2.  사용자를 삭제합니다. 처음에 사용자를 삭제하면 사용자의 계정이 휴지통으로 전송됩니다. **이때 사용자는 일시적으로 삭제됩니다. 즉, 계정은 사용되지 않도록 설정되지만 Azure Active Directory에서 지워지지 않습니다.**
+2. 사용자를 삭제합니다. 처음에 사용자를 삭제하면 사용자의 계정이 휴지통으로 전송됩니다. **이때 사용자는 일시적으로 삭제됩니다. 즉, 계정은 사용되지 않도록 설정되지만 Azure Active Directory에서 지워지지 않습니다.**
 
-3.  최근에 삭제된 사용자 목록으로 이동한 다음, 사용자를 영구적으로 삭제합니다. **이때 사용자는 영구적으로 삭제됩니다. 즉, 계정이 Azure Active Directory에서 지워진 것입니다.**
+3. 최근에 삭제된 사용자 목록으로 이동한 다음, 사용자를 영구적으로 삭제합니다. **이때 사용자는 영구적으로 삭제됩니다. 즉, 계정이 Azure Active Directory에서 지워진 것입니다.**
 
 ###### <a name="to-delete-a-user-from-an-azure-tenant"></a>Azure 테넌트에서 사용자를 삭제하려면
 
-1.  Azure Portal을 열고 **Azure Active Directory** 블레이드를 선택한 다음, **사용자**를 선택합니다.
+1. Azure Portal을 열고 **Azure Active Directory** 블레이드를 선택한 다음, **사용자**를 선택합니다.
 
     **사용자 - 모든 사용자** 블레이드가 나타납니다.
 
     ![사용자 찾기](media/azure-dsr_image8.png)
 
-2.  삭제하려는 사용자 옆의 확인란을 선택하고 **사용자 삭제**를 선택한 후 사용자를 삭제할 것인지 묻는 상자에서 **예**를 선택합니다.
+2. 삭제하려는 사용자 옆의 확인란을 선택하고 **사용자 삭제**를 선택한 후 사용자를 삭제할 것인지 묻는 상자에서 **예**를 선택합니다.
 
     ![사용자 관리](media/azure-dsr_image9.png)
 
-3.  **표시** 드롭다운 상자에서 **최근에 삭제된 사용자**를 선택합니다.
+3. **표시** 드롭다운 상자에서 **최근에 삭제된 사용자**를 선택합니다.
 
     ![사용자 프로필 보기](media/azure-dsr_image10.png)
 
-4.  같은 사용자를 다시 선택하고 **영구적으로 삭제할**를 선택한 후 확실히 삭제할 것인지 묻는 상자에서 **예**를 선택합니다.
+4. 같은 사용자를 다시 선택하고 **영구적으로 삭제할**를 선택한 후 확실히 삭제할 것인지 묻는 상자에서 **예**를 선택합니다.
 
->[!Important]  
+>[!IMPORTANT]  
 >**예**를 클릭하면 사용자 및 모든 관련 데이터와 시스템 생성 로그가 영구적으로 삭제됩니다. 실수로 이렇게 삭제한 경우에는 수동으로 사용자를 테넌트에 다시 추가해야 합니다. 관련된 데이터 및 시스템 생성 로그는 복구 불가능합니다.
 
    ![사용자 작업 정보 보기](media/azure-dsr_image11.png)
-
-<span id="_Export" class="anchor"><span id="_Step_6:_Export" class="anchor"><span id="_Toc511116629" class="anchor"><span id="_Toc511122673" class="anchor"><span id="_Toc511120766" class="anchor"><span id="_Toc511125179" class="anchor"><span id="_Toc511136246" class="anchor"><span id="_Toc511163889" class="anchor"><span id="_Toc508792534" class="anchor"></span></span></span></span></span></span></span></span></span>
 
 #### <a name="service-specific-interfaces"></a>서비스 관련 인터페이스
 
 Microsoft에서는 특정 서비스의 기존 API(응용 프로그래밍 인터페이스) 또는 UI(사용자 인터페이스)를 통해 직접 고객 데이터를 검색하는 기능을 제공합니다. 세부 사항은 해당 CRUD(만들기, 읽기, 업데이트, 삭제) 작업을 설명하는 서비스의 참조 설명서에 나와 있습니다.
 
-<span id="_Toc511384819" class="anchor"><span id="_Toc511163890" class="anchor"><span id="_Toc511136247" class="anchor"><span id="_Toc511125180" class="anchor"><span id="_Toc511120767" class="anchor"><span id="_Toc511122674" class="anchor"></span></span></span></span></span></span>
 ## <a name="step-6-export"></a>6단계: 내보내기
 
-<span id="_Power_BI_2" class="anchor"></span>"데이터 이식성의 권한”이 있는 경우 데이터 제목에서 다른 데이터 컨트롤러로 전송할 수 있는 해당 개인 데이터의 사본을 전자 형식으로 요청할 수 있습니다. Azure는 조직이 네이티브 JSON 형식의 데이터를 지정된 Azure Storage Container로 내보내어 이를 지원합니다.
+"데이터 이식성의 권한”이 있는 경우 데이터 제목에서 다른 데이터 컨트롤러로 전송할 수 있는 해당 개인 데이터의 사본을 전자 형식으로 요청할 수 있습니다. Azure는 조직이 네이티브 JSON 형식의 데이터를 지정된 Azure Storage Container로 내보내어 이를 지원합니다.
 
->[중요] 테넌트에서 사용자 데이터를 내보내려면 테넌트 관리자여야 합니다.
+>[!IMPORTANT]
+>테넌트에서 사용자 데이터를 내보내려면 테넌트 관리자여야 합니다.
 
-<span id="_Toc511384820" class="anchor"><span id="_Toc511163891" class="anchor"><span id="_Toc511136248" class="anchor"><span id="_Toc511125181" class="anchor"><span id="_Toc511120768" class="anchor"><span id="_Toc511122675" class="anchor"><span id="_Ref511119875" class="anchor"></span></span></span></span></span></span></span>
 ### <a name="azure-active-directory"></a>Azure Active Directory
 
 고객 데이터와 관련해서, Microsoft는 엔터프라이즈 고객의 테넌트 관리자에게 최종 사용자에 대한 식별 가능 정보의 내보내기 요청을 관리하는 기능을 지원하는 포털 및 제품 내 환경을 제공합니다.
 
-<span id="_Toc511384821" class="anchor"><span id="_Toc511163892" class="anchor"></span></span>
 ### <a name="service-specific-interfaces"></a>서비스 관련 인터페이스
 
 Microsoft에서는 특정 서비스의 기존 API(응용 프로그래밍 인터페이스) 또는 UI(사용자 인터페이스)를 통해 직접 고객 데이터를 검색하는 기능을 제공합니다. 세부 사항은 해당 CRUD(만들기, 읽기, 업데이트, 삭제) 작업을 설명하는 서비스의 참조 설명서에 나와 있습니다.
-
-<span id="_Toc511384822" class="anchor"><span id="_Toc511163893" class="anchor"><span id="_Toc511136250" class="anchor"><span id="_Toc511125183" class="anchor"><span id="_Toc511120770" class="anchor"><span id="_Toc511122677" class="anchor"></span></span></span></span></span></span>
 
 ## <a name="part-2-system-generated-logs"></a>2부: 시스템 생성 로그
 
 또한 Microsoft는 Azure의 사용자 사용과 관련된 특정 시스템 생성 로그를 액세스, 삭제 및 내보낼 수 있도록 합니다.
 
->[!Important]
+>[!IMPORTANT]
 > 시스템 생성 로그 문제를 제한하거나 수정하는 기능은 지원되지 않습니다. 시스템 생성 로그는 Microsoft 클라우드 및 진단 데이터 내에서 수행되는 실제 작업으로 구성되며, 이러한 데이터를 수정하면 작업의 기록 데이터가 손상되어 사기 및 보안 위험이 높아질 수 있습니다.
-
-<span id="_Toc511384823" class="anchor"><span id="_Toc511163894" class="anchor"><span id="_Toc511136252" class="anchor"><span id="_Toc511125185" class="anchor"><span id="_Toc511120772" class="anchor"><span id="_Toc511122679" class="anchor"></span></span></span></span></span></span>
 
 ### <a name="executing-dsrs-against-system-generated-logs"></a>시스템 생성 로그에 대해 DSR 실행
 
 Microsoft는 Azure Portal을 통해, 특정 서비스에 대한 프로그래밍 인터페이스 또는 사용자 인터페이스를 통해 직접 특정 시스템 생성 로그를 액세스, 삭제 및 내보낼 수 있는 기능을 제공합니다. 세부 정보는 해당 서비스의 참조 설명서에 나와 있습니다.
 
->[!Important]  
+>[!IMPORTANT]  
 > 제품 내 DSR을 지원하는 서비스에서는 서비스의 API(응용 프로그래밍 인터페이스) 또는 UI(사용자 인터페이스)를 직접적으로 사용해야 합니다. 따라서 지정된 데이터 주체에 대한 모든 요청을 완료하기 위해서는 Azure Portal 내의 DSR 외에도 제품 내 DSR도 **실행해야 합니다. 자세한 내용은 특정 서비스 참조 설명서를 참조하세요.**
 
-<span id="_Toc511384824" class="anchor"><span id="_Toc511163895" class="anchor"><span id="_Toc511136253" class="anchor"><span id="_Toc511125186" class="anchor"><span id="_Toc511120773" class="anchor"><span id="_Toc511122680" class="anchor"><span id="_Ref511119063" class="anchor"><span id="_Toc508792552" class="anchor"><span id="_Toc509825622" class="anchor"></span></span></span></span></span></span></span></span></span>
-
-### <a name="step-1-access"></a>1단계: 액세스 
+### <a name="step-1-access"></a>1단계: 액세스
 
 테넌트 관리자는 Azure의 특정 사용자의 사용과 관련된 시스템 생성 로그에 액세스할 수 있는 조직 내의 유일한 사람입니다. 액세스 요청에 대한 검색된 데이터는 컴퓨터가 읽을 수 있는 형식으로 제공되며, 데이터가 어떤 서비스에 연결되어 있는지 알 수 있도록 하는 파일로 제공됩니다. 위에서 설명한 것처럼 검색된 데이터에 서비스의 보안을 침해할 수 있는 데이터는 포함되지 않습니다.
-
-<span id="_Toc511384825" class="anchor"><span id="_Toc511163896" class="anchor"><span id="_Toc511136254" class="anchor"><span id="_Toc511125187" class="anchor"><span id="_Toc511120774" class="anchor"><span id="_Toc511122681" class="anchor"><span id="_Toc511119129" class="anchor"></span></span></span></span></span></span></span>
 
 #### <a name="azure-active-directory"></a>Azure Active Directory
 
 Microsoft는 엔터프라이즈 고객의 테넌트 관리자에게 액세스 요청을 관리하는 기능을 제공하는 포털 및 제품 내 환경을 제공합니다. 액세스 요청을 사용하며 사용자의 개인 데이터((a) 최종 사용자에 대한 ID 정보 및 (b) 서비스 생성 로그)에 액세스할 수 있습니다. 프로세스는 1부 2단계: 액세스의 Azure Active Directory 섹션에 설명된 내용과 같습니다.
 
-<span id="_Toc511384826" class="anchor"><span id="_Toc511163897" class="anchor"><span id="_Toc511136255" class="anchor"><span id="_Toc511125188" class="anchor"><span id="_Toc511120775" class="anchor"><span id="_Toc511122682" class="anchor"><span id="_Toc511119130" class="anchor"></span></span></span></span></span></span></span>
-
 #### <a name="service-specific-interfaces"></a>서비스 관련 인터페이스
 
 Microsoft에서는 특정 서비스의 기존 API(응용 프로그래밍 인터페이스) 또는 UI(사용자 인터페이스)를 통해 직접 고객 데이터를 검색하는 기능을 제공합니다. 세부 사항은 해당 CRUD(만들기, 읽기, 업데이트, 삭제) 작업을 설명하는 서비스의 참조 설명서에 나와 있습니다.
-
-<span id="_Toc511384827" class="anchor"><span id="_Toc511163898" class="anchor"><span id="_Toc511136256" class="anchor"><span id="_Toc511125189" class="anchor"><span id="_Toc511120776" class="anchor"><span id="_Toc511122683" class="anchor"><span id="_Toc508792553" class="anchor"><span id="_Toc509825623" class="anchor"></span></span></span></span></span></span></span></span>
 
 ### <a name="step-2-delete"></a>2단계: 삭제
 
 테넌트 관리자는 Azure 테넌트 내의 특정 사용자에 대한 DSR 삭제 요청을 실행할 수 있는 조직 내의 유일한 사람입니다.
 
-<span id="_Toc511384828" class="anchor"><span id="_Toc511163899" class="anchor"><span id="_Toc511136257" class="anchor"><span id="_Toc511125190" class="anchor"><span id="_Toc511120777" class="anchor"><span id="_Toc511122684" class="anchor"><span id="_Toc511119563" class="anchor"></span></span></span></span></span></span></span>
 #### <a name="azure-active-directory"></a>Azure Active Directory
 
 Microsoft는 엔터프라이즈 고객의 테넌트 관리자에게 DSR 삭제 요청을 관리하는 기능을 제공하는 포털 및 제품 환경을 둘 다 제공합니다. DSR 삭제 요청은 1부, 5단계: 삭제의 Azure Portal 섹션을 통해 사용자 및 관련 데이터 삭제에 설명된 것과 동일한 방식을 따릅니다.
-
-<span id="_Toc511384829" class="anchor"><span id="_Toc511163900" class="anchor"><span id="_Toc511136258" class="anchor"><span id="_Toc511125191" class="anchor"><span id="_Toc511120778" class="anchor"><span id="_Toc511122685" class="anchor"><span id="_Toc511119564" class="anchor"></span></span></span></span></span></span></span>
 
 #### <a name="service-specific-interfaces"></a>서비스 관련 인터페이스
 
 Microsoft에서는 특정 서비스의 기존 API(응용 프로그래밍 인터페이스) 또는 UI(사용자 인터페이스)를 통해 직접 고객 데이터를 검색하는 기능을 제공합니다. 세부 사항은 해당 CRUD(만들기, 읽기, 업데이트, 삭제) 작업을 설명하는 서비스의 참조 설명서에 나와 있습니다.
 
-<span id="_Toc511384830" class="anchor"><span id="_Toc511163901" class="anchor"><span id="_Toc511136259" class="anchor"><span id="_Toc511125192" class="anchor"><span id="_Toc511120779" class="anchor"><span id="_Toc511122686" class="anchor"><span id="_Toc508792554" class="anchor"><span id="_Toc509825624" class="anchor"></span></span></span></span></span></span></span></span>
-
 ### <a name="step-3-export"></a>3단계: 내보내기
 
 테넌트 관리자는 Azure의 특정 사용자의 사용과 관련된 시스템 생성 로그에 액세스할 수 있는 조직 내의 유일한 사람입니다. 내보내기 요청에 대한 검색된 데이터는 컴퓨터가 읽을 수 있는 형식으로 제공되며, 데이터가 어떤 서비스에 연결되어 있는지 알 수 있도록 하는 파일로 제공됩니다. 위에서 설명한 것처럼 검색된 데이터에 서비스의 보안 또는 안정성을 침해할 수 있는 데이터는 포함되지 않습니다.
-
-<span id="_Toc511384831" class="anchor"><span id="_Toc511163902" class="anchor"></span></span>
 
 #### <a name="export-system-generated-logs-using-the-azure-portal"></a>Azure Portal을 사용하여 시스템 생성 로그 내보내기
 
@@ -365,27 +290,23 @@ Microsoft에서는 특정 서비스의 기존 API(응용 프로그래밍 인터�
     ![새 데이터 내보내기 요청](media/azure-dsr_image14.png)
 
 - **사용자.** 내보내기를 요청한 Azure Active Directory 사용자의 전자 메일 주소를 입력합니다.
-
 - **구독.** 리소스 사용량을 보고하고 서비스 요청을 청구하는 데 사용하는 계정을 선택합니다. Azure Storage 계정의 위치이기도 합니다.
-
 - **저장소 계정.** Azure 저장소(Blob)의 위치를 선택합니다. 자세한 내용은 [Microsoft Azure 저장소 소개 — Blob 저장소](https://docs.microsoft.com/azure/storage/common/storage-introduction#blob-storage) 문서를 참조하세요.
-
 - **컨테이너.** 사용자가 내보낸 개인 정보 데이터의 저장소 위치로서, 새 컨테이너를 만들거나 기존 컨테이너를 선택합니다.
 
 4. **만들기**를 선택합니다.
 
 내보내기 요청이 **보류 중** 상태로 변경됩니다. **사용자 개인 정보 — 개요** 블레이드에서 보고서 상태를 볼 수 있습니다.
 
->[!Important]  
+>[!IMPORTANT]  
 >개인 데이터는 여러 시스템에서 가져올 수 있으므로 내보내기 프로세스를 완료하는 데 최대 1개월이 소요될 수 있습니다.
-
-<span id="_Toc511384832" class="anchor"><span id="_Toc511163903" class="anchor"></span></span>
 
 #### <a name="service-specific-interfaces"></a>서비스 관련 인터페이스
 
 Microsoft에서는 특정 서비스의 기존 API(응용 프로그래밍 인터페이스) 또는 UI(사용자 인터페이스)를 통해 직접 고객 데이터를 검색하는 기능을 제공합니다. 세부 사항은 해당 CRUD(만들기, 읽기, 업데이트, 삭제) 작업을 설명하는 서비스의 참조 설명서에 나와 있습니다.
 
 ### <a name="notify-about-exporting-or-deleting-issues"></a>내보내기 또는 삭제 문제에 대한 알림
+
 Azure Portal에서 데이터를 내보내거나 삭제하는 동안 문제가 발생하면 Azure Portal **도움말 + 지원** 블레이드로 이동하여 **등록 관리 > 기타 보안 및 준수 요청 > 개인 정보 보호 블레이드 및 GDPR 요청**에서 새 티켓을 제출합니다.
 
 ## <a name="learn-more"></a>자세한 정보
