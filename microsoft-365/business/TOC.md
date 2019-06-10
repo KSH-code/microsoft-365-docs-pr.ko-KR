@@ -15,9 +15,10 @@
 ## 사용자 장치 설정
 ### [모바일 장치 설정](set-up-mobile-devices.md)
 ### [Windows 장치 설정](set-up-windows-devices.md)
-## [보안](security-features.md)
-### [비즈니스 보안](/Office365/Admin/security-and-compliance/secure-your-business-data?toc=/microsoft-365/business/toc.json&bc=/microsoft-365/business/breadcrumb/toc.json)
-### [고급 보안 기능 설정](set-up-advanced-security.md)
+## [비즈니스 보안](security-features.md)
+### [위협 방지 강화](increase-threat-protection.md)
+### [조건부 액세스 시작](set-up-conditional-access-policies.md)
+### [규정 준수 기능 설정](set-up-compliance.md)
 ## 사용자 관리
 ### [Add users](add-users-m365b.md)
 ### [직원 제거](/Office365/Admin/add-users/remove-former-employee?toc=/microsoft-365/business/toc.json&bc=/microsoft-365/business/breadcrumb/toc.json)
