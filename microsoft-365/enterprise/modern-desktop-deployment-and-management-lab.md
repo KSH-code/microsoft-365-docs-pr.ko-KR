@@ -3,7 +3,7 @@ title: Windows 및 Office 배포 랩 키트
 ms.author: jogruszc
 author: JGruszczyk
 manager: jemed
-ms.date: 10/31/2018
+ms.date: 06/10/2019
 ms.audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Windows 및 Office 배포 랩 키트에 액세스하는 방법 및 위치에 대해 알아보세요.
-ms.openlocfilehash: 213d53b323cd5a5ca6f803320cf09e168beb1114
-ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
+ms.openlocfilehash: 86bdf37ca56c5779042ee78be091dd14ee63b80e
+ms.sourcegitcommit: 7e806db3d44ec223754efe1e9613b2c7117c4788
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33400079"
+ms.lasthandoff: 06/10/2019
+ms.locfileid: "34814549"
 ---
 # <a name="windows-and-office-deployment-lab-kit"></a>Windows 및 Office 배포 랩 키트
 
@@ -127,7 +127,8 @@ Windows 10 및 Office 365 ProPlus의 [데스크톱 배포](http://www.aka.ms/how
 
   - [Microsoft Mechanics의 데스크톱 배포 시리즈 비디오](http://www.aka.ms/watchhowtoshift)
 
-  - [System Center Configuration Manager OS 배포](https://docs.microsoft.com/ko-KR/sccm/osd/understand/introduction-to-operating-system-deployment)
+  - 
+  [System Center Configuration Manager OS 배포](https://docs.microsoft.com/ko-KR/sccm/osd/understand/introduction-to-operating-system-deployment)
 
   - [<span class="underline">Windows 10 배포 계획</span>](https://docs.microsoft.com/windows/deployment/planning/index)
 
