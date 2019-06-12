@@ -1,16 +1,16 @@
 ---
 title: 파트너에 대 한 Microsoft Managed Desktop의 장치 등록
-description: 파트너가 장치를 등록 하 여 Microsoft managed Desktop에서 관리할 수 있도록 하는 방법
+description: 파트너가 장치를 등록 하 여 Microsoft Managed Desktop에서 관리할 수 있도록 하는 방법
 ms.prod: w10
 author: jaimeo
 ms.author: jaimeo
 ms.localizationpriority: medium
-ms.openlocfilehash: d743092fdd309c1afd748afa7523f0cc0c6a2fd0
-ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
+ms.openlocfilehash: 40927b18b0d047eae848b5a2a938d98fa6de3119
+ms.sourcegitcommit: d6fcd57a0689abbe4ab47489034f52e327f4e5f5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33400012"
+ms.lasthandoff: 06/11/2019
+ms.locfileid: "34857331"
 ---
 # <a name="register-devices-in-microsoft-managed-desktop-for-partners"></a>파트너에 대 한 Microsoft Managed Desktop의 장치 등록
 
@@ -30,8 +30,8 @@ ms.locfileid: "33400012"
 샘플 1과 **정확히 같은 열 머리글** 을 포함 해야 하지만 (제조업체, 모델 등), 다른 행에 대 한 고유한 데이터를 포함할 수 있습니다. 서식 파일을 사용 하는 경우 메모장 등의 텍스트 편집 도구에서이 템플릿을 열고 행 2와 아래에 데이터만 입력 하는 것이 좋습니다. 
     
   ```
- Manufacturer,Model,Serial Number,Hardware Hash
-  SpiralOrbit,ContosoABC,000000000000,
+ Manufacturer,Model,Serial Number
+  SpiralOrbit,ContosoABC,000000000000
   
   
   ```
@@ -49,7 +49,7 @@ ms.locfileid: "33400012"
 
 ## <a name="register-devices-by-using-the-azure-portal"></a>Azure Portal을 사용 하 여 장치 등록
 
-Azure portal을 사용 하 여 등록 하는 것은 다른 방법으로 포털에 액세스 하는 것을 제외 하 고 셀프 서비스와 동일 합니다. 다음 단계를 따릅니다.
+Azure Portal을 사용 하 여 등록 하는 것은 다른 방법으로 포털에 액세스 하는 것을 제외 하 고 셀프 서비스와 동일 합니다. 다음 단계를 따릅니다.
 
 1. [파트너 센터로](https://partner.microsoft.com/dashboard) 이동
 2. **고객**을 선택 합니다.

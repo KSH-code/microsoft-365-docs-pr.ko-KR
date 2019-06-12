@@ -1,16 +1,16 @@
 ---
 title: Microsoft Managed Desktop에서 직접 장치 등록
-description: Microsoft managed Desktop에서 관리할 수 있도록 장치를 직접 등록
+description: Microsoft Managed Desktop에서 관리할 수 있도록 장치를 직접 등록
 ms.prod: w10
 author: jaimeo
 ms.author: jaimeo
 ms.localizationpriority: medium
-ms.openlocfilehash: 02b3b7ab32ff92304ab27ca8e8c805ade803c971
-ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
+ms.openlocfilehash: f1e61cfc7fd1d6d597efbfa2480155e06a3d3eb7
+ms.sourcegitcommit: d6fcd57a0689abbe4ab47489034f52e327f4e5f5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33400080"
+ms.lasthandoff: 06/11/2019
+ms.locfileid: "34857301"
 ---
 # <a name="register-devices-in-microsoft-managed-desktop"></a>Microsoft Managed Desktop에서 장치 등록
 
@@ -39,20 +39,20 @@ Microsoft Managed Desktop은 새로운 장치에서 작동 하거나 이미 사�
 하드웨어 해시를 얻으려면 OEM 또는 파트너 로부터 도움을 요청 하거나 각 장치에 대해 다음 단계를 수행 합니다.
 
 1.  관리 권한으로 PowerShell 프롬프트를 엽니다.
-2.  실행`Install-Script -Name Get-WindowsAutoPilotInfo`
-3.  실행`powershell -ExecutionPolicy Unrestricted Get-WindowsAutopilotInfo -OutputFile <path>\hardwarehash.csv`
+2.  실행`Install-Script -Name Get-MMDRegistrationInfo`
+3.  실행`powershell -ExecutionPolicy Unrestricted Get-MMDRegistrationInfo -OutputFile <path>\hardwarehash.csv`
 
 
 또는 처음으로 OOBE를 진행 하기 전에 새 장치에서 다음 단계를 수행할 수 있습니다.
 
 1. 다른 장치에서 USB 드라이브를 삽입 합니다.
 2. 관리 권한으로 PowerShell 프롬프트를 엽니다.
-3. 실행`Save-Script -Name Get-WindowsAutoPilotInfo -Path <pathToUsb>`
+3. 실행`Save-Script -Name Get-MMDRegistrationInfo -Path <pathToUsb>`
 4. 대상 장치를 켜고 설정 환경을 시작 하지 않습니다. 실수로 설치 환경을 시작한 경우 장치를 초기화 하거나 다시 이미지로 만들어야 합니다.
 5. USB 드라이브를 삽입 한 다음 SHIFT + F10 키를 누릅니다.
 6. 관리 권한으로 PowerShell 프롬프트를 열고를 실행 `cd <pathToUsb>`합니다.
 7. 실행`Set-ExecutionPolicy -ExecutionPolicy Unrestricted`
-8. 실행`.\Get-WindowsAutoPilotInfo -OutputFile <path>\hardwarehash.csv`
+8. 실행`.\Get-MMDRegistrationInfo -OutputFile <path>\hardwarehash.csv`
 3. USB 드라이브를 제거한 다음 다음을 실행 하 여 장치를 종료 합니다.`shutdown -s -t 0`
 
 >[!IMPORTANT]

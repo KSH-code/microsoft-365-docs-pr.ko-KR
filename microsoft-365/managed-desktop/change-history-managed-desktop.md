@@ -4,27 +4,48 @@ description: 이 항목에서는 Microsoft Managed Desktop의 업데이트 된 �
 keywords: 변경 내용
 ms.prod: m365-md
 ms.sitesec: library
-author: trudyha
-ms.author: jdecker
+author: jaimeo
+ms.author: jaimeo
 ms.topic: article
-ms.date: 03/11/2019
 ms.localizationpriority: normal
-ms.openlocfilehash: 9bbcbe99e3dc08d4201d4a80323b17647309f433
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 3cf7e948e5bf963ae9239656881c181d90f23a6e
+ms.sourcegitcommit: d6fcd57a0689abbe4ab47489034f52e327f4e5f5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32277973"
+ms.lasthandoff: 06/11/2019
+ms.locfileid: "34857326"
 ---
 # <a name="change-history-for-microsoft-managed-desktop-documentation"></a>Microsoft Managed Desktop 설명서에 대 한 변경 내용
 
 이 항목에서는 [Microsoft Managed Desktop 설명서](index.yml)의 새로운 항목과 업데이트 된 항목을 나열 합니다.
 
+
+## <a name="may-2019"></a>5 월 2019
+새로 만들기 또는 변경 된 항목 | 설명
+--- | ---
+[Microsoft Managed Desktop 지원 지역 및 언어](service-description/regions-languages.md) | 업데이트 된 항목
+[Microsoft Managed Desktop 장치](service-description/device-list.md) | 업데이트 된 항목
+[Microsoft Managed Desktop 보관 장치](service-description/archived-device-list.md) | 새 항목
+[Microsoft Managed Desktop에 대 한 매핑된 드라이브 준비](get-ready/mapped-drives.md) | 새 항목
+[Microsoft Managed Desktop에 대 한 인증서 및 네트워크 프로필 준비](get-ready/certs-wifi-lan.md) | 새 항목
+[Microsoft Managed Desktop 장치 주문](get-started/devices.md) | 업데이트 된 항목
+
+
+## <a name="april-2019"></a>2019년 4월
+새로 만들기 또는 변경 된 항목 | 설명
+--- | ---
+[Microsoft Managed Desktop 장치에 Intune 회사 포털 설치](get-started/company-portal.md) | 새 항목
+[Microsoft Project 및 microsoft Visio (관리 되는 데스크톱 장치) 설치](get-started/project-visio.md) | 새 항목 
+[Microsoft Managed Desktop에 대 한 온-프레미스 리소스 액세스 준비](get-ready/authentication.md) | 새 항목
+[Microsoft Managed Desktop에서 장치 등록](get-started/register-devices-self.md) | 새 항목
+[파트너에 대 한 Microsoft Managed Desktop의 장치 등록](get-started/register-devices-partner.md) | 새 항목
+[Microsoft Managed Desktop 장치에 앱 배포](get-started/deploy-apps.md) | 업데이트 된 항목
+
 ## <a name="march-2019"></a>2019년 3월
 새로 만들기 또는 변경 된 항목 | 설명
 --- | ---
 [Microsoft Managed Desktop 장치에 Intune 회사 포털 설치](get-started/company-portal.md) | 새 항목
-[microsoft Project 및 microsoft Visio (관리 되는 데스크톱 장치) 설치](get-started/project-visio.md) | 새 항목
+[Microsoft Project 및 microsoft Visio (관리 되는 데스크톱 장치) 설치](get-started/project-visio.md) | 새 항목
 
 ## <a name="february-2019"></a>2019년 2월
 새로 만들기 또는 변경 된 항목 | 설명
@@ -39,7 +60,7 @@ ms.locfileid: "32277973"
 새로 만들기 또는 변경 된 항목 | 설명
 --- | ---
 [Microsoft Managed Desktop devices 용 앱 배포](get-started/deploy-apps.md) | 새 항목
-[Microsoft Managed Desktop 용 앱 관리](working-with-managed-desktop/manage-apps.md) | previoius 버전의 기간 업무 (lob) 앱을 업데이트 하거나 롤백하는 방법에 대 한 정보로 업데이트 되었습니다. 
+[Microsoft Managed Desktop 용 앱 관리](working-with-managed-desktop/manage-apps.md) | Previoius 버전의 기간 업무 (lob) 앱을 업데이트 하거나 롤백하는 방법에 대 한 정보로 업데이트 되었습니다. 
 
 ## <a name="december-2018"></a>2018년 12월
 새로 만들기 또는 변경 된 항목 | 설명
