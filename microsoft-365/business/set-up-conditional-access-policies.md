@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Microsoft 365 Business에 대 한 조건부 액세스 정책을 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: 6ca3995113f090ccf2b119abde059a68ce562970
-ms.sourcegitcommit: ab04fea2765a63489d70b506f0e14303a5be16a0
+ms.openlocfilehash: a0cc4a9085bdfe6a8d40acc69a020af1c5861fcf
+ms.sourcegitcommit: 498340389e1c34f49f0b2da382c23c8d5334ae47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/07/2019
-ms.locfileid: "34806829"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "34913009"
 ---
 # <a name="set-up-conditional-access-policies-for-microsoft-365-business"></a>Microsoft 365 Business에 대 한 조건부 액세스 정책 설정
 
@@ -52,9 +52,9 @@ ms.locfileid: "34806829"
     ![조건부 액세스에 대 한 기준 정책을 나열 하는 페이지입니다.](media/baslinepolicies.png)
 1. 각 정책에 대해 다음과 같은 구체적인 지침을 참조 하세요.
 
-    - [관리자를 위해 MFA 필요](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/howto-baseline-protect-administrators)
-
-    -   [사용자에 대해 MFA 요구](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/howto-baseline-protect-end-users)  
-    - [레거시 인증 차단](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/howto-baseline-protect-legacy-auth)
+  - [관리자를 위해 MFA 필요](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/howto-baseline-protect-administrators)
+- [사용자에 대 한 Reequire MFA](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/howto-baseline-protect-end-users)  
+ - [레거시 인증 차단](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/howto-baseline-protect-legacy-auth)
+  - [서비스 관리를 위해 MFA 필요](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-azure)
 
 승인 된 클라이언트 앱을 요구 하는 등의 다양 한 추가 정책을 설정할 수 있습니다. 자세한 내용은 [조건부 액세스 설명서](https://docs.microsoft.com/azure/active-directory/conditional-access/) 를 참조 하세요.

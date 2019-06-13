@@ -1,91 +1,80 @@
 ---
-title: Microsoft Managed Desktop 용 앱 준비
+title: Microsoft Managed Desktop의 앱
 description: ''
-keywords: microsoft Managed Desktop, microsoft 365, 서비스, 설명서
+keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 설명서
 ms.service: m365-md
-author: trudyha
+author: jaimeo
 ms.localizationpriority: normal
-ms.date: 09/24/2018
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: be28760fc3facdb21643943ace11deda378d437c
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: db89e3b1f8b5b8073eab62e4b4d38087e1e73fa4
+ms.sourcegitcommit: 498340389e1c34f49f0b2da382c23c8d5334ae47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32289071"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "34913049"
 ---
-# <a name="preparing-apps-for-microsoft-managed-desktop"></a>Microsoft Managed Desktop 용 앱 준비
+# <a name="apps-in-microsoft-managed-desktop"></a>Microsoft Managed Desktop의 앱
 
 <!--This topic is the target for 2 "Learn more" links in the Admin Portal (aka.ms/app-overview;app-package); also target for link from Online resources (aka.ms/app-overviewmmd-app-prep) do not delete.-->
 
 <!--Applications: supported/onboard/deployment -->
  
-microsoft 및 microsoft managed desktop 고객은 동일 하 게 중요 하지만 microsoft managed desktop에서 사용 되는 응용 프로그램에 대 한 책임은 서로 다릅니다.
+## <a name="apps-generally"></a>일반적으로 앱
 
-## <a name="microsoft-responsibilities"></a>Microsoft의 책임
-**Office 365 앱** Microsoft는 특정 Office 365 앱의 배포, 업데이트 및 지원에 대 한 전체 서비스를 제공 합니다. 모든 사용자는 사용자가 빠르게 생산성을 높일 수 있도록 장치 이미지에 포함 된 응용 프로그램의 기본 집합 (64 비트 버전)을 수신 합니다. Office 365 제품군의 프로젝트 및 Visio 응용 프로그램은 별도로 사용이 허가 됩니다.  Microsoft Managed Desktop은 IT 관리자가 라이선스를 관리 하 고 이러한 응용 프로그램을 조직에 적절 하 게 배포할 수 있도록 하는 배포 그룹을 제공 합니다. microsoft는 microsoft 관리 데스크톱 지원 채널을 통해 이러한 응용 프로그램의 최종 사용자를 지원 합니다.
+Microsoft에는 microsoft Managed Desktop에 참여 하는 데 필요한 Microsoft 365 E3 또는 E5 라이선스와 함께 특정 주요 앱이 포함 되어 있습니다. 그러나 이러한 앱을 제공 하더라도 완료 해야 하는 몇 가지 책임과 작업이 계속 남아 있습니다.
 
-**기간 업무** (lob) 앱 Microsoft는 IT 관리자에 게 Intune 제품의 일부로 최종 사용자에 게 LOB (기간 업무) 응용 프로그램을 관리 하 고 배포할 수 있는 도구를 제공 합니다. Microsoft는 기간 업무 (lob) [응용 프로그램](#line-of-business-applications) 에 설명 된 것 처럼 응용 프로그램 배포 문제를 지원 합니다. 
-
-**Intune을 사용 하 여 배포** intune은 microsoft Managed Desktop 온 보 딩 중 **비즈니스용 microsoft 스토어** 에 연결 되며,이를 통해 확보 된 앱을 Intune을 통해 배포할 수 있습니다. microsoft는 IT 관리자가 최종 사용자에 게 셀프 서비스 환경을 제공할 수 있도록 microsoft Store의 회사 포털 응용 프로그램도 최종 사용자에 게 배포 합니다.
-
-**앱 관리** Microsoft는 시스템에 영향을 주므로 최신 직장에 적합 하지 않은 제한 된 응용 프로그램을 확인할 수 있습니다. 이러한 응용 프로그램이 식별 되 면 Microsoft에서 고객에 게 알리고 해당 응용 프로그램을 테 넌 트에서 제거 해야 합니다. 
-
-제한 된 앱 동작 및 앱 요구 사항에 대 한 자세한 내용은 [Microsoft Managed Desktop app 요구 사항](../service-description/mmd-app-requirements.md) 를 참조 하세요.
-
-## <a name="customer-responsibilities"></a>고객 책임
-Office 365 제품군은 microsoft의 생산성 제공에 핵심 이며, 모든 microsoft 관리 데스크톱 사용자의 microsoft 365 라이선스에 포함 되어 있습니다. microsoft에서 관리 하는 데스크톱 장치에 대 한 Office 응용 프로그램을 배포, 업데이트 및 지 원하는 반면, 고객은 여전히 일부 영역을 담당 하 고 있습니다.
-- **라이선스 할당** -고객은 최종 사용자에 게 Office 365에 대 한 적절 한 라이선스를 할당 해야 합니다. 
-- **보안 그룹에 사용자 추가** -프로젝트나 Visio가 필요한 사용자를 위해 IT 관리자는 해당 사용자를 적절 한 배포 그룹에 추가 해야 합니다. IT 관리자는 해당 사용자의 최종 기간을 관리 하는 역할도 담당 합니다. 
-- **Deploy office 365 Add 애드온** -고객이 필요한 것으로 간주 되는 office 365 제품군에 플러그 인을 배포 하는 일을 담당 합니다. 
-
-기간 업무 (lob) 앱은 각 고객에 대해 고유 하므로 고객은 Microsoft에서 배포 하지 않은 조직 내의 모든 응용 프로그램을 관리 해야 합니다. 성능 저하를 줄여주는 방법에는 다음이 포함됩니다.
-- 필요한 앱 및 요구 사항 결정
-- 해당 사용자에 게 앱 할당
-- 앱 할당 관리를 위한 Azure Active Directory (AD) 그룹 만들기 및 유지 관리 
-
-고객은 LOB 앱을 Intune에 업로드 해야 합니다. 그런 다음 각 수명 주기 동안 이러한 응용 프로그램을 배포, 업데이트 및 제거 하 고 사용자를 위해 이러한 앱에 대 한 지원을 관리 하는 일을 담당 합니다.
-
-## <a name="office-applications"></a>Office 응용 프로그램
-microsoft 365 E5 라이선스의 일부로, microsoft가 Office 365 Standard Suite (64 비트)를 배포 합니다. 
-
-자세한 내용은 [Microsoft Managed Desktop 기술](../intro/technologies.md) 를 참조 하세요. <!--- and the other applications licensed under Office 365 E5 may be deployed by the customer using Intune’s deployment tools.-->
-
-## <a name="line-of-business-applications"></a>기간 업무 (lob) 응용 프로그램
-이 표에는 기간 업무 (lob) 응용 프로그램의 각 단계에 대 한 책임이 요약 되어 있습니다. 
-
-응용 프로그램 작업 항목 |    고객    | Microsoft
---- | --- | ---
-**온 보 딩 앱** |  |
-대상 사용자 그룹에 필요한 응용 프로그램 확인   | ![예](images/checkmark.png)  |
-앱 배포를 위한 Azure AD 그룹 만들기 및 관리 | ![예](images/checkmark.png) |   
-**앱 패키징** |  |
-Intune 배포 표준에 맞게 앱 패키지 |  ![예](images/checkmark.png) |  
-Intune에 앱 업로드 | ![예](images/checkmark.png)     |
-Microsoft Managed Desktop 환경의 앱 테스트 |    ![예](images/checkmark.png) |  
-최종 사용자가 포함 된 앱 테스트    | ![예](images/checkmark.png) |    
-**배포** | |
-사용자 관리 및 응용 프로그램에 할당  | ![예](images/checkmark.png)  |
-Intune 배포 도구를 통해 원격 클라이언트에 응용 프로그램 제공| |   ![예](images/checkmark.png)
-Intune을 통해 응용 프로그램 업데이트 식별 및 배포 | ![예](images/checkmark.png)    |
-중지 된 응용 프로그램을 Unistall 및 제거 합니다.    | ![예](images/checkmark.png) |    
-**관리** | |
-라이선스 조달 및 할당 |   ![예](images/checkmark.png)     |
-기간 업무 (lob) 앱에 대 한 최종 사용자 지원 제공  | ![예](images/checkmark.png) |
-원격으로 앱 설정 관리    | ![예](images/checkmark.png) |
-
-LOB 응용 프로그램 요구 사항에 대 한 자세한 내용은 [Microsoft Managed Desktop application 요구 사항](../service-description/mmd-app-requirements.md) 를 참조 하세요.
+또한 Microsoft Intune의 배포 파이프라인을 사용 하 여 회사 포털 또는 필요한 백그라운드 설치를 통해 셀프 서비스에 대 한 타사 앱을 추가 하 여 최종 사용자에 게 배포할 수 있습니다. 전문 지식을 보유 한 사용자는 자신이 필요로 하는 앱을 마이그레이션할 수 있습니다. MCS (Microsoft 컨설팅 서비스) 또는 타사 공급 업체가 아니면 패키징 및 마이그레이션 프로젝트에 도움을 주는 데 도움이 될 것입니다. MCS에서 작업 하는 방법에 대 한 자세한 내용은 [Microsoft 컨설팅 Services 사용](apps-MCS.md)을 참조 하십시오.
 
 
-## <a name="intune-application-deployment"></a>Intune 응용 프로그램 배포
-응용 프로그램 관리는 Microsoft Managed Desktop Admin 포털을 통해 또는 Intune 포털을 통해 처리할 수 있습니다. Intune의 앱 관리 포털에는 Windows, Android 및 iOS 용으로 배포 된 응용 프로그램이 표시 됩니다. Microsoft Managed Desktop administration portal은 보기를 Windows 10 응용 프로그램으로 제한 합니다. 둘 다 Azure Portal을 통해 사용할 수 있습니다. 
-* [Intune 앱 관리 기본 사항](https://docs.microsoft.com/intune/app-management)
-* [Intune에 앱 추가](https://docs.microsoft.com/intune/app-management)
-   * [기간 업무 (lob) 앱 추가](https://docs.microsoft.com/intune/lob-apps-windows)
-   * [Intune에 Win32 앱 추가](https://docs.microsoft.com/intune/apps-win32-app-management)
-   * [웹 응용 프로그램 추가](https://docs.microsoft.com/intune/web-app)
-* [앱 배포](https://docs.microsoft.com/intune/apps-deploy)
-   * [Windows 10에 앱 배포](https://docs.microsoft.com/intune/apps-windows-10-app-deploy)
-* 회사 포털
-   * [회사 포털 배포](https://docs.microsoft.com/intune/store-apps-company-portal-app)
-   * [회사 포털 앱 구성](https://docs.microsoft.com/intune/company-portal-app)
+## <a name="apps-provided-by-microsoft"></a>Microsoft에서 제공 하는 앱
+
+Microsoft Managed Desktop license에는 Office 365 ProPlus Standard 제품군 (Word, Excel, PowerPoint, Outlook, Publisher, Access, 비즈니스용 Skype, OneNote)의 앱이 64 비트 버전으로 포함 되어 있습니다. 간편 실행 버전의 Microsoft Project 및 Visio는 기본적으로 포함 되어 *있지* 않지만 추가 하도록 요청할 수 있습니다. 이러한 앱에 대 한 자세한 내용은 microsoft [Managed 데스크톱 장치에서 Microsoft Project 또는 Microsoft Visio 설치](../get-started/project-visio.md)를 참조 하세요.
+
+### <a name="what-microsoft-does-to-support-the-apps-we-provide"></a>제공 되는 앱을 지원 하기 위해 Microsoft에서 수행 하는 작업
+
+Microsoft는 포함 된 Office 365 ProPlus 앱에 대 한 배포, 업데이트 및 지원에 대 한 전체 서비스를 제공 합니다. 간편 실행 버전의 Microsoft Project 및 Visio가 기본적으로 포함 되어 *있지* 않지만 Microsoft Managed Desktop은 IT 관리자가 라이선스를 관리 하 고 이러한 응용 프로그램을 적절 하 게 배포할 수 있도록 하는 배포 그룹을 제공 합니다. 조직. Microsoft는 Microsoft 관리 데스크톱 지원 채널을 통해 이러한 응용 프로그램의 최종 사용자를 지원 합니다.
+
+### <a name="what-you-need-to-do-to-support-the-apps-we-provide"></a>제공한 앱을 지원 하기 위해 수행 해야 하는 작업
+
+이러한 앱은 여전히 수행 해야 하는 작업은 다음과 같습니다.
+
+- **라이선스 할당** -최종 사용자에 게 Office 365 ProPlus에 대 한 적절 한 라이선스를 구하여 할당 해야 합니다.
+- **보안 그룹에 사용자 추가** -Microsoft 프로젝트나 Visio를 사용 하는 경우 IT 관리자가 해당 사용자를 적절 한 배포 그룹에 추가 해야 합니다. 또한 IT 관리자는 해당 사용자가 회사를 떠날 때 라이선스를 다시 확보 해야 합니다.
+- Office **365 Addons 배포** -Office 365 ProPlus 앱에 대 한 Addons가 필요한 경우 다른 Windows 32 앱과 마찬가지로 중앙 집중식으로 배포 합니다. 
+
+## <a name="apps-you-provide"></a>사용자가 제공한 앱
+
+물론 비즈니스 작업에 필요한 다른 앱이 많이 있을 수 있습니다. 이러한 장치는 Microsoft Intune의 배포 파이프라인을 사용 하 여 Microsoft Managed Desktop devices에만 배포할 수 있습니다. 앱이 필요한 경우 공급 업체에 의해 패키지 패키지로 제공 될 수 있습니다 (Microsoft 제품이 아닌 다른 공급 업체나 Microsoft 컨설팅 서비스 (MCS) 일 수 있음) 아니면이 방법을 사용 하는 경우 직접 패키지할 수 있습니다. 그런 다음 이러한 패키지를 Microsoft Managed Desktop portal에 추가 하 고이를 Azure Active Directory 그룹에 할당 하 여 배포를 트리거합니다. 
+
+현재 System Center Configuration Manager를 사용 하 여 앱을 배포 하는 경우 Microsoft Managed Desktop은 앱을 평가 하는 쿼리를 제공 하 고 Microsoft Intune으로 마이그레이션할 준비가 된 것과 몇 가지 조정이 필요할 수 있는 항목을 검색할 수 있습니다. .
+
+
+### <a name="preparing-your-own-apps-for-inclusion-in-microsoft-managed-desktop"></a>Microsoft Managed Desktop에 포함할 앱 준비
+앱을 검토 하 고 다음을 확인 합니다.
+
+- [Microsoft Managed Desktop app 요구 사항](https://aka.ms/app-req)에 설명 된 대로 어떤 앱도 금지 되거나 제한 된 동작이 있습니다.
+- 앱은 Microsoft Intune을 통해 관리할 준비가 되어 있어야 합니다. 이에 대 한 자세한 내용은 [Microsoft intune을 사용 하 여 Windows 10 앱 배포](https://docs.microsoft.com/intune/apps-windows-10-app-deploy) 및 [microsoft Intune에 앱 추가](https://docs.microsoft.com/intune/apps-add)를 참조 하세요.
+- 라이선스 키 제공, 사용권 조항에 대 한 계약, 사전 설정 서버 연결 등의 기타 사전 패키징 요구 사항
+
+### <a name="decide-how-to-package-apps"></a>앱을 패키지 하는 방법을 결정 합니다.
+
+일부 독립 소프트웨어 공급 업체에서는 앱이 중앙에서 배포 되기 전에 패키지 되도록 해야 할 수도 있습니다. "패키징"은 앱의 설치 관리자가 앱을 백그라운드에서 설치할 수 있도록 라이선스 키, 원격 서버 위치 또는 바탕 화면 바로 가기와 같은 설정으로 구성 됨을 의미 합니다.
+
+앱을 패키지 하는 세 가지 옵션은 다음과 같습니다. 
+
+
+- 앱을 직접 패키지할 수 있습니다.
+- Microsoft 제품이 아닌 다른 공급 업체와 함께 작업할 수 있습니다.
+- MCS를 사용 하 여 앱을 패키지할 수 있습니다. Microsoft 계정 담당자와 함께 작업 합니다. 자세한 내용은 [Microsoft 컨설팅 서비스 작업](apps-MCS.md)을 참조 하십시오.
+
+
+
+
+
+
+
+## <a name="deploying-apps"></a>앱 배포
+
+앱 패키지를 가져오는 데 사용 하는 방법에 관계 없이 완료 되 면 [Microsoft Managed 데스크톱 장치에 앱 배포](../get-started/deploy-apps.md)의 단계를 진행할 수 있습니다.
+
+

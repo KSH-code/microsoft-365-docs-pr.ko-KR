@@ -1,18 +1,17 @@
 ---
 title: Microsoft Managed Desktop 응용 프로그램 요구 사항
 description: ''
-keywords: microsoft Managed Desktop, microsoft 365, 서비스, 설명서
+keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 설명서
 ms.service: m365-md
-author: trudyha
+author: jaimeo
 ms.localizationpriority: normal
-ms.date: 01/08/2019
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 07e4719d87cb11910a90665ce9beb95edf6641a4
-ms.sourcegitcommit: e15cf5d0d8ff3dfdc457b469992d72ac802e6434
+ms.openlocfilehash: ded8bcfd87a6b430dfc4be055a582b482872b104
+ms.sourcegitcommit: 498340389e1c34f49f0b2da382c23c8d5334ae47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/29/2019
-ms.locfileid: "33467746"
+ms.lasthandoff: 06/12/2019
+ms.locfileid: "34913019"
 ---
 # <a name="microsoft-managed-desktop-app-requirements"></a>Microsoft Managed Desktop 응용 프로그램 요구 사항
 
@@ -24,11 +23,11 @@ Microsoft Managed Desktop 장치에 대 한 성능, 안정성 및 서비스 용�
 
 ## <a name="application-condition"></a>응용 프로그램 조건
 
-응용 프로그램이 Microsoft Managed Desktop 환경에 악영향을 미치지 않는 것이 중요 합니다. 응용 프로그램에서 배포 하기 위해 충족 해야 하는 요구 사항은 다음과 같습니다. 지정 된 응용 프로그램 또는 드라이버의 경우 Microsoft는 여기에 제공 된 모든 요구 사항을 waive 수 있습니다. microsoft는 microsoft 관리 데스크톱 장치의 성능 및 안정성에 부정적인 영향을 주는 응용 프로그램 또는 드라이버를 제거 하는 것을 결정할 수 있습니다.
+응용 프로그램이 Microsoft Managed Desktop 환경에 악영향을 미치지 않는 것이 중요 합니다. 응용 프로그램에서 배포 하기 위해 충족 해야 하는 요구 사항은 다음과 같습니다. 지정 된 응용 프로그램 또는 드라이버의 경우 Microsoft는 여기에 제공 된 모든 요구 사항을 waive 수 있습니다. Microsoft는 Microsoft 관리 데스크톱 장치의 성능 및 안정성에 부정적인 영향을 주는 응용 프로그램 또는 드라이버를 제거 하는 것을 결정할 수 있습니다.
 
 ## <a name="centrally-managed-apps"></a>중앙 집중식으로 관리 되는 앱
 
-microsoft 관리 장치에 설치 된 모든 응용 프로그램 및 드라이버는 Intune, microsoft store 또는 비즈니스용 microsoft store를 통해 배포 해야 합니다. 사용 가능한 경우 Windows Update 서비스를 통해 드라이버도 배포 됩니다. 
+Microsoft 관리 장치에 설치 된 모든 응용 프로그램 및 드라이버는 Microsoft Intune, Microsoft Store 또는 비즈니스용 Microsoft Store를 통해 배포 해야 합니다. 사용 가능한 경우 Windows Update 서비스를 통해 드라이버도 배포 됩니다. 
 
 ## <a name="prohibited-app-classes"></a>금지 되는 앱 클래스
 
@@ -39,7 +38,7 @@ microsoft 관리 장치에 설치 된 모든 응용 프로그램 및 드라이�
 
 ## <a name="restricted-app-behaviors"></a>제한 된 앱 동작
 
-특정 앱 동작은 사용자 환경에 부정적인 영향을 주거나 Microsoft 관리 되는 데스크톱 장치에 보안 위험을 줄 수 있습니다. 다음 동작이 적용 되는 앱은 microsoft에서 특정 한 예외를 제외 하 고 microsoft Managed Desktop environment에서 실행할 수 없습니다.
+특정 앱 동작은 사용자 환경에 부정적인 영향을 주거나 Microsoft 관리 되는 데스크톱 장치에 보안 위험을 줄 수 있습니다. 다음 동작이 적용 되는 앱은 microsoft에서 특정 한 예외를 제외 하 고 Microsoft Managed Desktop environment에서 실행할 수 없습니다.
 
 사용자 환경:
 - 백그라운드 서비스 설치
@@ -57,7 +56,7 @@ microsoft 관리 장치에 설치 된 모든 응용 프로그램 및 드라이�
 
 ## <a name="driver-deployment"></a>드라이버 배포
 
-microsoft managed Desktop은 microsoft 관리 장치를 사용 하 여 Windows Update 또는 설치 된 받은 편지함을 통해 제공 되는 장치 드라이버만 지원 합니다. 
+Microsoft Managed Desktop은 Microsoft 관리 장치를 사용 하 여 Windows Update 또는 설치 된 받은 편지함을 통해 제공 되는 장치 드라이버만 지원 합니다. 
 
 응용 프로그램에서 실행 해야 하는 특정 드라이버가 필요한 경우이를 제한 된 응용 프로그램으로 간주 하 고 예외를 Microsoft Managed Desktop에 배포 해야 합니다. 
 
