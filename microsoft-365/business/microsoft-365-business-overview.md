@@ -4,7 +4,7 @@ ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
 ms.date: 9/20/2018
-ms.audience: Admin
+audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
 localization_priority: Normal
@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Microsoft 365 Business를 설정하는 방법 알아보기
-ms.openlocfilehash: eb3d611d2be0480fdd0ff897ec5ba69b17695041
-ms.sourcegitcommit: db1dfb2df2c2f7beced3b57bc772d106c189e88a
+ms.openlocfilehash: 6fd328ebd4a8d3fbcde836c4aa87b56b9775c3cd
+ms.sourcegitcommit: 64a7511d8c5ef527673b4c05753e6bb52ce9ab86
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "33660473"
+ms.lasthandoff: 06/20/2019
+ms.locfileid: "35114965"
 ---
 # <a name="overview-of-microsoft-365-business"></a>Microsoft 365 비즈니스 개요
 
@@ -60,3 +60,5 @@ Microsoft 365 Business는 이러한 각 인스턴스에서 데이터를 보호 �
 - 파트너가 있는 경우 파트너가 Microsoft 365 Business를 받습니다([Microsoft 파트너 센터에서 Microsoft 365 Business 받기)](get-microsoft-365-business.md#get-microsoft-365-business-from-microsoft-partner-center).
 
 - 파트너가 없고 Microsoft 365 Business를 받으려는 경우 [여기에서 구입](https://www.microsoft.com/microsoft-365/business) 하 여 [등록](sign-up.md) 지침을 따를 수 있습니다.
+
+- Microsoft [Store](https://www.microsoft.com/en-us/store/locations/find-a-store?icid=en-us_UF_FAS) 로 이동 하 여 Microsoft 365 비즈니스를 구입 하 고 설정 된 도움말을 얻을 수도 있습니다.

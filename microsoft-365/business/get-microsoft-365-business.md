@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
 description: Microsoft 파트너 센터에서 Microsoft 365 Business를 구입 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 4f36edb356d382880bb1dda407bd52ca8e2dcce6
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: 61e178b73c83880aab22336814dd9dc7fca046a5
+ms.sourcegitcommit: 64a7511d8c5ef527673b4c05753e6bb52ce9ab86
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34072703"
+ms.lasthandoff: 06/20/2019
+ms.locfileid: "35114945"
 ---
 # <a name="get-microsoft-365-business"></a>Microsoft 365 Business 받기
 
@@ -34,6 +34,8 @@ ms.locfileid: "34072703"
 파트너가 없는데 Microsoft 365 Business를 받으려면 [여기에서 구매](https://www.microsoft.com/en-US/microsoft-365/business)할 수 있습니다.
 
 자세한 내용은 [Microsoft 365 Business에 등록을](sign-up.md) 참조 하세요.
+
+Microsoft [Store](https://www.microsoft.com/en-us/store/locations/find-a-store?icid=en-us_UF_FAS) 로 이동 하 여 Microsoft 365 비즈니스를 구입 하 고 설정 된 도움말을 얻을 수도 있습니다.
   
 ## <a name="get-microsoft-365-business-from-microsoft-partner-center"></a>Microsoft 파트너 센터에서 Microsoft 365 Business 사용
 
