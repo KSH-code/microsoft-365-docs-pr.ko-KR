@@ -4,6 +4,7 @@
 ### [Microsoft Managed Desktop의 기술](intro/technologies.md)
 ## [Microsoft Managed Desktop 서비스 설명](service-description/index.md)
 ### [지원 되는 지역 및 언어](service-description/regions-languages.md)
+### [제품 수명 주기](service-description/device-lifecycle.md)
 ### [프로그램 장치](service-description/device-list.md)
 #### [보관 된 프로그램 장치](service-description/archived-device-list.md)
 ### [장치 서비스](service-description/device-services.md)
