@@ -8,12 +8,12 @@ author: jaimeo
 ms.author: jaimeo
 ms.topic: article
 ms.localizationpriority: normal
-ms.openlocfilehash: 4cd61e333773ddeddc866481be7e1cfa283e4386
-ms.sourcegitcommit: 498340389e1c34f49f0b2da382c23c8d5334ae47
+ms.openlocfilehash: 65602cb3175f8a930537746d831bb85f26de0383
+ms.sourcegitcommit: 427c6459614d58f6ef7c74354ae1816423e22323
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "34913029"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "35390365"
 ---
 # <a name="change-history-for-microsoft-managed-desktop-documentation"></a>Microsoft Managed Desktop 설명서에 대 한 변경 내용
 
@@ -25,6 +25,8 @@ ms.locfileid: "34913029"
 [Microsoft Managed Desktop의 앱](get-ready/apps.md) | 업데이트 된 항목
 [Microsoft 컨설팅 서비스 작업](get-ready/apps-mcs.md) | 새 항목
 [Microsoft Managed Desktop 역할 및 책임](intro/roles-and-responsibilities.md) | 업데이트 된 항목
+[Microsoft Managed Desktop 제품 수명 주기](service-description/device-lifecycle.md) | 새 항목
+
 
 
 ## <a name="may-2019"></a>5 월 2019

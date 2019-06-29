@@ -1,18 +1,18 @@
 ---
 title: 관리자-사용자가 Microsoft Managed Desktop 장치를 시작 하는 데 도움이 됩니다.
 description: ''
-keywords: microsoft Managed Desktop, device, 시작, microsoft 365
+keywords: Microsoft Managed Desktop, device, 시작, Microsoft 365
 ms.service: m365-md
-author: trudyha
+author: jaimeo
 ms.localizationpriority: normal
 ms.date: 2/27/2019
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 92bec0956f24d255f36ed233b531a4d4e396cadb
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: d1c70275938c8448b5eca07ed374157147856a30
+ms.sourcegitcommit: 427c6459614d58f6ef7c74354ae1816423e22323
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32276842"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "35390355"
 ---
 # <a name="get-started-using-microsoft-managed-desktop-devices"></a>Microsoft Managed Desktop devices 사용 시작
 

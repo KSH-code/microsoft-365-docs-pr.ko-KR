@@ -1,49 +1,49 @@
 ---
 title: Microsoft Managed Desktop devices 용 앱 배포
 description: Microsoft Managed Desktop 장치에 앱을 추가 및 배포 하기 위한 정보
-keywords: microsoft Managed Desktop, microsoft 365, 서비스, 설명서, 앱, lob (기간 업무) 앱, 업무용 앱
+keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 설명서, 앱, LOB (기간 업무) 앱, 업무용 앱
 ms.service: m365-md
-author: trudyha
+author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 5ccb240460958d5978f4fd19e08652123790784e
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 5eac2e8c3023015bd034c51ad7e16a669a484772
+ms.sourcegitcommit: 427c6459614d58f6ef7c74354ae1816423e22323
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32282524"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "35390425"
 ---
 # <a name="deploy-apps-to-microsoft-managed-desktop-devices"></a>Microsoft Managed Desktop 장치에 앱 배포
 Microsoft Managed Desktop 온 보 딩에는 사용자의 장치에 앱을 추가 및 배포 하는 작업이 포함 됩니다. Microsoft Managed Desktop portal을 사용 하 고 나면 앱을 추가 및 배포할 수 있습니다. 
 
 전체 프로세스는 다음과 같습니다.
-1. [microsoft Managed Desktop portal에 앱 추가](#1) -이는 기존 LOB (기간 업무) 앱 이거나 Intune을 사용 하 여 동기화 한 Microsoft Store 비즈니스용 앱이 될 수 있습니다. 
-2. [앱 할당에 대 한 Azure AD (Active Directory) 그룹 만들기](#2) -이러한 그룹을 사용 하 여 앱 할당을 관리 합니다.
+1. [Microsoft Managed Desktop portal에 앱 추가](#1) -이는 기존 LOB (기간 업무) 앱 이거나 Intune을 사용 하 여 동기화 한 Microsoft Store 비즈니스용 앱이 될 수 있습니다. 
+2. [앱 할당에 대 한 AZURE AD (Active Directory) 그룹 만들기](#2) -이러한 그룹을 사용 하 여 앱 할당을 관리 합니다.
 3. [사용자에 게 앱 할당](#3)
 
 <span id="1" />
 
 ## <a name="step-1-add-apps-to-microsoft-managed-desktop-portal"></a>1 단계: Microsoft Managed Desktop portal에 앱 추가
-[Win32 또는 Windows MSI 기반 앱](#lob-apps)또는 [비즈니스용 microsoft Store for Business apps](#msfb-apps) 를 microsoft managed desktop에 추가한 다음이를 microsoft managed desktop 장치에 배포할 수 있습니다.
+[Win32 또는 WINDOWS MSI 기반 앱](#lob-apps)또는 [비즈니스용 Microsoft Store for Business Apps](#msfb-apps) 를 microsoft managed desktop에 추가한 다음이를 microsoft managed desktop 장치에 배포할 수 있습니다.
 
 <span id="lob-apps">
 
 ###  <a name="win32-or-windows-msi-based-apps-to-microsoft-managed-desktop"></a>Microsoft Managed Desktop에 대 한 Win32 또는 Windows MSI 기반 앱
 
-기간 업무 (lob) 앱을 Microsoft Managed Desktop portal에 추가할 수 있습니다. microsoft managed desktop 장치에 설치 된 앱에 대 한 요구 사항에 대 한 자세한 내용은 [microsoft managed desktop app 요구 사항을](https://docs.microsoft.com/microsoft-365/managed-desktop/service-description/mmd-app-requirements)참조 하세요.
+기간 업무 (LOB) 앱을 Microsoft Managed Desktop portal에 추가할 수 있습니다. Microsoft Managed Desktop 장치에 설치 된 앱에 대 한 요구 사항에 대 한 자세한 내용은 [Microsoft Managed desktop app 요구 사항을](https://docs.microsoft.com/microsoft-365/managed-desktop/service-description/mmd-app-requirements)참조 하세요.
 
 이 절차에서는 추가 하려는 앱의 종류를 선택한 다음 앱 원본을 구성 및 업로드 합니다. 
 
 **Microsoft Managed Desktop portal에 LOB 앱 또는 Windows 앱을 추가 하려면**
 
-microsoft managed desktop portal에 로그인 하거나 Intune에 로그인 한 다음 microsoft managed desktop을 검색할 수 있습니다. Microsoft Managed Desktop portal에 로그인을 표시 합니다. 
+Microsoft Managed Desktop portal에 로그인 하거나 Intune에 로그인 한 다음 Microsoft Managed Desktop을 검색할 수 있습니다. Microsoft Managed Desktop portal에 로그인을 표시 합니다. 
 
 1.  [Microsoft Managed 데스크톱 관리 포털](http://aka.ms/mmdportal)에 로그인 합니다. 
 2.  **인벤토리에서** **앱**을 선택 합니다.
 3.  앱 작업에서 **추가**를 선택 합니다.
 4.  **앱 추가**에서 lob ( **기간 업무) 앱** 또는 **Windows 앱 (Win32)-미리 보기**를 선택 합니다.
     - **기간 업무**(lob) 앱을 선택한 경우 lob (기간 업무) 앱 추가 및 구성에 대 한 지침을 보려면 [Microsoft Intune에 Windows lob (기간 업무) 앱 추가](https://docs.microsoft.com/intune/lob-apps-windows) 를 참조 하세요.
-    - **windows 앱 (Win32)-미리 보기**를 선택한 경우 windows 앱 추가 및 구성에 대 한 지침은 [win32 앱 관리](https://docs.microsoft.com/intune/apps-win32-app-management) 를 참조 하세요.
+    - **Windows 앱 (Win32)-미리 보기**를 선택한 경우 windows 앱 추가 및 구성에 대 한 지침은 [win32 앱 관리](https://docs.microsoft.com/intune/apps-win32-app-management) 를 참조 하세요.
 
 <span id="msfb-apps">
 
@@ -52,7 +52,7 @@ Microsoft Store for Business에 등록 하지 않은 경우 앱을 쇼핑 하면
 
 **Microsoft Store for Business에서 앱을 구입 하려면**
 
-1. 비즈니스용 microsoft 스토어 관리자 계정을 사용 하 여 [비즈니스용 microsoft 스토어](https://businessstore.microsoft.com) 에 로그인 합니다.
+1. 비즈니스용 microsoft 스토어 관리자 계정을 사용 하 여 [비즈니스용 Microsoft 스토어](https://businessstore.microsoft.com) 에 로그인 합니다.
 2. **내 그룹의 상점을**선택 합니다.
 3. 검색을 사용 하 여 원하는 앱을 찾은 다음 앱을 선택 합니다.
 4. 제품 정보에서 **앱 가져오기를**선택 합니다. Microsoft Store에서는 조직의 **제품 & 서비스** 에 앱을 추가 합니다.
@@ -68,7 +68,7 @@ Microsoft Store for Business에 등록 하지 않은 경우 앱을 쇼핑 하면
     - Microsoft Store for Business 및 Intune 간의 동기화가 활성 상태 인지 확인 합니다 (다음 단계). 
 
 **Intune과 비즈니스용 Microsoft Store 간의 동기화가 활성 상태 인지 확인 하려면**
-1. 비즈니스용 microsoft 스토어 관리자 계정을 사용 하 여 [비즈니스용 microsoft 스토어](https://businessstore.microsoft.com) 에 로그인 합니다.
+1. 비즈니스용 microsoft 스토어 관리자 계정을 사용 하 여 [비즈니스용 Microsoft 스토어](https://businessstore.microsoft.com) 에 로그인 합니다.
 2. **관리**를 선택 합니다.
 3. **설정을** 선택 하 고 **배포**를 선택 합니다.
 4. **관리 도구**에서 Intune이 나열 되는지와 상태가 **활성**상태 인지 확인 합니다.  
@@ -81,9 +81,9 @@ Microsoft Store for Business에 등록 하지 않은 경우 앱을 쇼핑 하면
 
 앱 할당 유형 |   그룹 사용   | 예제 Azure AD 이름
 --- | --- | ---
-사용할 수 있음 |  이 앱은 회사 포털 앱 또는 웹 사이트에서 사용할 수 있습니다. | mmd- *응용 프로그램 이름* -사용 가능
-필수 |  앱이 선택한 그룹의 장치에 설치 되어 있습니다. | mmd- *응용 프로그램 이름* -필수
-Uninstall |  창의 앱이 선택한 그룹의 장치에서 제거 되었습니다. | mmd- *응용 프로그램 이름* -제거
+사용할 수 있음 |  이 앱은 회사 포털 앱 또는 웹 사이트에서 사용할 수 있습니다. | MMD- *응용 프로그램 이름* -사용 가능
+필수 |  앱이 선택한 그룹의 장치에 설치 되어 있습니다. | MMD- *응용 프로그램 이름* -필수
+Uninstall |  창의 앱이 선택한 그룹의 장치에서 제거 되었습니다. | MMD- *응용 프로그램 이름* -제거
 
 이러한 그룹에 사용자를 추가 하 여 앱을 availabe, 앱을 설치 하거나, Microsoft Managed Desktop 장치에서 앱을 제거 합니다. 
 

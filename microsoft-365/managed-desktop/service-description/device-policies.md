@@ -3,16 +3,16 @@ title: 장치 구성
 description: Microsoft Managed Desktop 장치에 적용 되는 기본 정책에 대해 알아봅니다.
 keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 설명서
 ms.service: m365-md
-author: trudyha
+author: jaimeo
 ms.localizationpriority: normal
 ms.date: 09/24/2018
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 9a7d2130775c9c5d99bba711254fc0f0ce540947
-ms.sourcegitcommit: 3294b97a20ae0e5eb8ce6187310cc96b5050a215
+ms.openlocfilehash: 4e41494e853b79d843c5365beea7f01c5ca41308
+ms.sourcegitcommit: 427c6459614d58f6ef7c74354ae1816423e22323
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "34422214"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "35390485"
 ---
 # <a name="device-configuration"></a>장치 구성
 
