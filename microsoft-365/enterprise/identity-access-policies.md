@@ -13,12 +13,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: 9912b05c07599c5ad0c0ed7fec91ae2572bd2ead
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 322da1ccfbd0cf8b5070894580b06fb5b0283f40
+ms.sourcegitcommit: 1d5fc181036b673c4f0b9e161e19395dbfe5a304
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32289340"
+ms.lasthandoff: 07/01/2019
+ms.locfileid: "35411652"
 ---
 # <a name="common-identity-and-device-access-policies"></a>일반 ID 및 장치 액세스 정책
 이 문서에서는 Azure AD 응용 프로그램 프록시를 통해 게시 된 온-프레미스 응용 프로그램을 포함 하 여 클라우드 서비스에 대 한 액세스를 보호 하기 위한 일반적인 권장 정책을 설명 합니다. 
@@ -27,9 +27,9 @@ ms.locfileid: "32289340"
 
 ## <a name="policy-set"></a>정책 집합 
 
-다음 다이어그램에서는 권장 되는 정책 집합을 보여 줍니다. 각 정책이 적용 되는 보호 계층과 정책이 pc 또는 휴대폰 및 태블릿에서 적용 되는지, 아니면 두 장치 범주 모두를 보여 줍니다. 또한 이러한 정책이 구성 되는 위치를 나타냅니다.
+다음 다이어그램에서는 권장 되는 정책 집합을 보여 줍니다. 각 정책이 적용 되는 보호 계층과 정책이 Pc 또는 휴대폰 및 태블릿에서 적용 되는지, 아니면 두 장치 범주 모두를 보여 줍니다. 또한 이러한 정책이 구성 되는 위치를 나타냅니다.
 
-![id 및 장치 액세스 구성에 대 한 일반 정책](../images/Identity_device_access_policies_byplan.png)
+![Id 및 장치 액세스 구성에 대 한 일반 정책](../images/Identity_device_access_policies_byplan.png)
 
 
 이 문서의 나머지 부분에서는 이러한 정책을 구성 하는 방법에 대해 설명 합니다. 
@@ -41,15 +41,15 @@ ms.locfileid: "32289340"
 
 |보호 수준|정책도|추가 정보|
 |:---------------|:-------|:----------------|
-|**기준은**|[로그인 위험이 *보통* 또는 *높을* 때 MFA 필요](#require-mfa-based-on-sign-in-risk)| |
+|**기준**|[로그인 위험이 *보통* 또는 *높을* 때 MFA 필요](#require-mfa-based-on-sign-in-risk)| |
 |        |[최신 인증을 지원 하지 않는 클라이언트 차단](#block-clients-that-dont-support-modern-authentication)|최신 인증을 사용 하지 않는 클라이언트는 조건부 액세스 규칙을 무시할 수 있으므로 이러한 기능을 차단 하는 것이 중요 합니다.|
 |        |[높은 위험 사용자가 암호를 변경 해야 함](#high-risk-users-must-change-password)|계정의 높은 위험 활동이 검색 되는 경우 로그인 시 사용자가 암호를 변경 하도록 합니다.|
 |        |[앱 보호 정책 정의](#define-app-protection-policies)|플랫폼 당 한 가지 정책 (iOS, Android, Windows)|
 |        |[승인 된 앱 필요](#require-approved-apps)|휴대폰 및 태블릿에서 모바일 앱 보호를 적용 합니다.|
 |        |[장치 준수 정책 정의](#define-device-compliance-policies)|각 플랫폼에 대 한 정책 1 개|
-|        |[준수 pc 필요](#require-compliant-pcs-but-not-compliant-phones-and-tablets)|Intune에서 pc 관리를 적용 합니다.|
+|        |[준수 Pc 필요](#require-compliant-pcs-but-not-compliant-phones-and-tablets)|Intune에서 Pc 관리를 적용 합니다.|
 |**중요**|[로그인 위험이 *낮은*경우 MFA 필요 ** **](#require-mfa-based-on-sign-in-risk)| |
-|         |[준수 pc *및* 모바일 장치 요구](#require-compliant-pcs-and-mobile-devices)|pc 및 전화/태블릿에서 Intune 관리를 적용 합니다.|
+|         |[준수 Pc *및* 모바일 장치 요구](#require-compliant-pcs-and-mobile-devices)|Pc 및 전화/태블릿에서 Intune 관리를 적용 합니다.|
 |**높은 규제**|[*항상* MFA 필요](#require-mfa-based-on-sign-in-risk)|
 | | |
 
@@ -70,7 +70,7 @@ ms.locfileid: "32289340"
 
 
 ## <a name="require-mfa-based-on-sign-in-risk"></a>로그인 위험을 기반으로 MFA 요구
-mfa를 요청 하기 전에 먼저 id 보호 MFA 등록 정책을 사용 하 여 mfa에 대해 사용자를 등록 합니다. 사용자가 등록 되 면 로그인을 위해 MFA를 적용할 수 있습니다. [필수 구성 요소 작업](identity-access-prerequisites.md) 에는 모든 사용자를 MFA에 등록 하는 작업이 포함 됩니다.
+MFA를 요청 하기 전에 먼저 Id 보호 MFA 등록 정책을 사용 하 여 MFA에 대해 사용자를 등록 합니다. 사용자가 등록 되 면 로그인을 위해 MFA를 적용할 수 있습니다. [필수 구성 요소 작업](identity-access-prerequisites.md) 에는 모든 사용자를 MFA에 등록 하는 작업이 포함 됩니다.
 
 새 조건부 액세스 정책을 만들려면 
 
@@ -176,8 +176,8 @@ mfa를 요청 하기 전에 먼저 id 보호 MFA 등록 정책을 사용 하 여
 
 | 유형 | 속성 | 값                  | 참고 |
 |:-----|:-----------|:------------------------|:------|
-|      | Access     | 액세스 허용            | True  |
-|      | Access     | 암호 변경 필요 | True  |
+|      | 액세스     | 액세스 허용            | True  |
+|      | 액세스     | 암호 변경 필요 | True  |
 
 **검토:** 해당 없음
 
@@ -225,13 +225,13 @@ iOS와 Android 간에 앱 보호 정책 옵션에 약간의 차이가 있습니�
 |액세스|액세스 시 PIN 필요|예||
 ||유형 선택|정수||
 ||단순한 PIN 허용|아니요||
-||PIN 길이|번||
+||PIN 길이|6 ||
 ||PIN 대신 지문 허용|예||
-||장치 pin이 관리 될 때 앱 PIN 사용 안 함|예||
+||장치 PIN이 관리 될 때 앱 PIN 사용 안 함|예||
 ||액세스를 위해 회사 자격 증명 필요|아니요||
 ||액세스 요구 사항을 다시 확인할 시간(분)|kb||
 ||화면 캡처 및 Android Assistant 차단|아니요|iOS의 경우 이 옵션을 사용할 수 없음|
-|로그인 보안 요구 사항|최대 PIN 시도 횟수|2-5|Pin 다시 설정|
+|로그인 보안 요구 사항|최대 PIN 시도 횟수|5 |Pin 다시 설정|
 ||오프라인 유예 기간|720|액세스 차단|
 ||앱 데이터가 초기화되기 전의 오프라인 간격(일)|90|데이터 지우기|
 ||탈 옥/루 팅 된 장치| |데이터 지우기|
@@ -257,11 +257,15 @@ iOS와 Android 간에 앱 보호 정책 옵션에 약간의 차이가 있습니�
 
 7. **앱 선택을**선택 하 고 **클라우드 앱** 목록에서 원하는 앱을 선택 합니다. 예를 들어 Office 365 Exchange Online을 선택 합니다. **선택** 및 **완료**를 선택 합니다.
 
-8. **액세스 제어** 섹션에서 **권한 부여**를 선택합니다.
+8. **조건을**선택 하 고 **장치 플랫폼**을 선택한 다음 **구성을** 선택 합니다.
 
-9. **액세스 부여**를 선택 하 고 **승인 된 클라이언트 앱 필요**를 선택 합니다. 여러 컨트롤에 대해 **선택한 컨트롤 필요**를 선택한 다음 **선택을**선택 합니다. 
+9. **포함**에서 **장치 플랫폼 선택**, **Android** 및 **iOS**를 차례로 선택 합니다. **완료** 후 다시 **완료** 를 클릭 합니다.
 
-10. **만들기**를 선택합니다.
+10. **액세스 제어** 섹션에서 **권한 부여**를 선택합니다.
+
+11. **액세스 부여**를 선택 하 고 **승인 된 클라이언트 앱 필요**를 선택 합니다. 여러 컨트롤에 대해 **선택한 컨트롤 필요**를 선택한 다음 **선택을**선택 합니다. 
+
+12. **만들기**를 선택합니다.
 
 ## <a name="define-device-compliance-policies"></a>장치 준수 정책 정의
 
@@ -304,10 +308,10 @@ iOS와 Android 간에 앱 보호 정책 옵션에 약간의 차이가 있습니�
 |암호|모바일 장치의 잠금을 해제 하는 데 암호 필요|할||
 ||단순 암호|정책의||
 ||암호 유형|장치 기본값||
-||최소 암호 길이|번||
-||암호를 요구 하기 전까지 최대 비활성 시간 (분)|15 |이 설정은 Android 버전 4.0 이상 또는 KNOX 4.0 이상에 대해 지원 됩니다. ios 장치에서는 ios 8.0 이상에 대해 지원 됩니다.|
+||최소 암호 길이|6 ||
+||암호를 요구 하기 전까지 최대 비활성 시간 (분)|15 |이 설정은 Android 버전 4.0 이상 또는 KNOX 4.0 이상에 대해 지원 됩니다. IOS 장치에서는 iOS 8.0 이상에 대해 지원 됩니다.|
 ||암호 만료(일)|41||
-||다시 사용 하지 못하도록 할 이전 암호 수|2-5||
+||다시 사용 하지 못하도록 할 이전 암호 수|5 ||
 ||장치가 유휴 상태에서 반환 될 때 암호 필요 (Mobile 및 Holographic)|할|Windows 10 이상 버전에서 사용 가능|
 |암호화|장치에서 데이터 저장소 암호화|할||
 |장치 보안|방화벽이|할||
@@ -324,10 +328,10 @@ iOS와 Android 간에 앱 보호 정책 옵션에 약간의 차이가 있습니�
 |:---|:---------|:-----|:----|
 |Windows Defender Advanced Threat Protection 규칙|장치가 컴퓨터 위험 점수에 있거나 그 아래에 있어야 합니다.|보통||
 
-## <a name="require-compliant-pcs-but-not-compliant-phones-and-tablets"></a>준수 pc 필요 (준수 전화 및 태블릿 제외)
-준수 pc를 요구 하는 정책을 추가 하기 전에 관리를 위한 장치를 Intune에 등록 해야 합니다. 장치가 원하는 사용자의 소유 인지 확인 하기 위해 장치를 Intune에 등록 하기 전에 다단계 인증을 사용 하는 것이 좋습니다. 
+## <a name="require-compliant-pcs-but-not-compliant-phones-and-tablets"></a>준수 Pc 필요 (준수 전화 및 태블릿 제외)
+준수 Pc를 요구 하는 정책을 추가 하기 전에 관리를 위한 장치를 Intune에 등록 해야 합니다. 장치가 원하는 사용자의 소유 인지 확인 하기 위해 장치를 Intune에 등록 하기 전에 다단계 인증을 사용 하는 것이 좋습니다. 
 
-준수 pc를 요구 하려면:
+준수 Pc를 요구 하려면:
 
 1. [Azure Portal](https://portal.azure.com)로 이동한 다음 자격 증명을 사용하여 로그인합니다. 성공적으로 로그인 하면 Azure 대시보드가 표시 됩니다.
 
@@ -343,7 +347,7 @@ iOS와 Android 간에 앱 보호 정책 옵션에 약간의 차이가 있습니�
 
 7. **앱 선택을**선택 하 고 **클라우드 앱** 목록에서 원하는 앱을 선택 합니다. 예를 들어 Office 365 Exchange Online을 선택 합니다. **선택** 및 **완료**를 선택 합니다.
 
-8. 준수 pc를 요구 하 되, 호환 되는 휴대폰 및 태블릿은 제외 하려면 **조건** 및 **장치 플랫폼**을 선택 합니다. **장치 플랫폼 선택을** 선택 하 고 **Windows** 및 **macos**를 선택 합니다.
+8. 준수 Pc를 요구 하 되, 호환 되는 휴대폰 및 태블릿은 제외 하려면 **조건** 및 **장치 플랫폼**을 선택 합니다. **장치 플랫폼 선택을** 선택 하 고 **Windows** 및 **macos**를 선택 합니다.
 
 9. **액세스 제어** 섹션에서 **권한 부여**를 선택합니다.
 
@@ -351,9 +355,9 @@ iOS와 Android 간에 앱 보호 정책 옵션에 약간의 차이가 있습니�
 
 11. **만들기**를 선택합니다.
 
-준수 pc *와* 모바일 장치를 요구 하는 목표 인 경우 플랫폼을 선택 하지 마십시오. 이렇게 하면 모든 장치에 대 한 준수가 적용 됩니다. 
+준수 Pc *와* 모바일 장치를 요구 하는 목표 인 경우 플랫폼을 선택 하지 마십시오. 이렇게 하면 모든 장치에 대 한 준수가 적용 됩니다. 
 
-## <a name="require-compliant-pcs-and-mobile-devices"></a>준수 pc *및* 모바일 장치 요구
+## <a name="require-compliant-pcs-and-mobile-devices"></a>준수 Pc *및* 모바일 장치 요구
 
 모든 장치에 대 한 준수를 요구 하려면:
 
