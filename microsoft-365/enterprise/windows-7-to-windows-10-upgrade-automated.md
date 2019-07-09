@@ -13,18 +13,18 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 대규모 조직을 위한 Windows 7에서 Windows 10으로 자동 업그레이드
-ms.openlocfilehash: 4e07ae23f063bdc714d5dddd8cdb8d8c41e25eac
-ms.sourcegitcommit: 12c4d5444d6e0e8825fc85e3e8453fa376746495
+ms.openlocfilehash: 6fc22ad7ae8b0a34384818bc77813c6802609b89
+ms.sourcegitcommit: 03828f954b9dddb265f867fa508178ec0d4a6aeb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2019
-ms.locfileid: "35395374"
+ms.lasthandoff: 07/08/2019
+ms.locfileid: "35584514"
 ---
 # <a name="windows-7-to-windows-10-automated-in-place-upgrades-for-large-organizations"></a>대규모 조직을 위한 Windows 7에서 Windows 10으로 현재 위치에서 자동 업그레이드
 
 2020년 1월 14일부터 Windows 7을 실행하는 PC에 대한 보안 업데이트 또는 지원이 더 이상 제공되지 않습니다. Windows 7에서 Windows 10으로 전환하고 여러 옵션을 배포해야 하는 몇 달 남지 않은 상황에서 IT 커뮤니티의 공통된 질문은 "Windows 7에서 Windows 10으로 이동하는 가장 빠른 방법은 무엇인가요?"입니다. 짧은 대답은 기존 PC의 현재 위치에서 업그레이드를 수행하여 데스크톱 배포 프로세스의 여러 측면에 중점을 줄이는 것입니다.
 
-![](media/windows-7-to-windows-10-upgrade-automated-media/windows-7-to-windows-10-upgrade-automated-media-1.png)
+<center><img src="media/windows-7-to-windows-10-upgrade-automated-media/windows-7-to-windows-10-upgrade-automated-media-1.png" alt="wheel" height="421" width="500" /></center>
 
 현재 위치 업그레이드를 사용하면 다양한 데스크톱 배포 프로세스 범위가 특히 크게 줄어듭니다.
 
