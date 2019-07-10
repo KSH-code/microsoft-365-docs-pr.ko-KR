@@ -8,16 +8,21 @@ author: jaimeo
 ms.author: jaimeo
 ms.topic: article
 ms.localizationpriority: normal
-ms.openlocfilehash: 65602cb3175f8a930537746d831bb85f26de0383
-ms.sourcegitcommit: 427c6459614d58f6ef7c74354ae1816423e22323
+ms.openlocfilehash: 4915bf5d1b89720c65a5134b23d9d837febff357
+ms.sourcegitcommit: 184957e2878388e0d427a7ee47577d29c4e3c483
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "35390365"
+ms.lasthandoff: 07/09/2019
+ms.locfileid: "35605967"
 ---
 # <a name="change-history-for-microsoft-managed-desktop-documentation"></a>Microsoft Managed Desktop 설명서에 대 한 변경 내용
 
 이 항목에서는 [Microsoft Managed Desktop 설명서](index.yml)의 새로운 항목과 업데이트 된 항목을 나열 합니다.
+
+## <a name="july-2019"></a>7 월 2019 일
+새로 만들기 또는 변경 된 항목 | 설명
+--- | ---
+[Microsoft 컨설팅 서비스 작업](get-ready/apps-mcs.md) | 업데이트 된 항목
 
 ## <a name="june-2019"></a>2019 년 6 월
 새로 만들기 또는 변경 된 항목 | 설명
