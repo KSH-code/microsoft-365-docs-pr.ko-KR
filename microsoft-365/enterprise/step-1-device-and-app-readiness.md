@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 환경에서 장치 및 앱 준비 상태를 평가하는 방법을 알아봅니다.
-ms.openlocfilehash: f45b4c4b38cd2108c706eb6465e9b5ba241e252f
-ms.sourcegitcommit: 7e806db3d44ec223754efe1e9613b2c7117c4788
+ms.openlocfilehash: eb619cf807c2bd4ad3644dbb26e72b62e30320c7
+ms.sourcegitcommit: 03828f954b9dddb265f867fa508178ec0d4a6aeb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "34814639"
+ms.lasthandoff: 07/08/2019
+ms.locfileid: "35584554"
 ---
 # <a name="step-1-device-and-app-readiness"></a>1단계: 장치 및 앱 준비
 
@@ -41,7 +41,7 @@ ms.locfileid: "34814639"
 
 즉, 응용 프로그램의 크기 및 사용 기간에 따라, 응용 프로그램 및 하드웨어 호환성은 권장되는 8단계 배포 프로세스에서 필수적인 초기 단계일 것입니다.
 
-이 문서에서는 Windows 라이선스를 통해 사용할 수 있는 지능형 클라우드 기반 솔루션인 새로운 Windows Analytics 업그레이드 준비 도구를 비롯한 Microsoft 준비 상태 평가 도구를 사용하여 첫 번째 단계인 장치 및 앱 준비를 진행합니다.
+이 문서에서는 Windows 라이선스를 통해 사용할 수 있는 지능형 클라우드 기반 솔루션인 새로운 Desktop Analytics 업그레이드 준비 도구를 비롯한 Microsoft 준비 상태 평가 도구를 사용하여 첫 번째 단계인 장치 및 앱 준비를 진행합니다.
 
 ## <a name="windows-10-compatibility-scan"></a>Windows 10 호환성 검사
 
@@ -53,13 +53,13 @@ Windows 10을 배포하기 전에 Windows 7 또는 8 / 8.1을 실행하는 기�
 
 ScanOnly 및 기타 Windows 설치 명령 스위치에 대한 자세한 내용은 [Windows 설치 명령줄 옵션](https://aka.ms/setupswitches)을 참조합니다.
 
-## <a name="recommended-tool-windows-analytics-upgrade-readiness"></a>권장 도구: Windows Analytics 업그레이드 준비
+## <a name="recommended-tool-desktop-analytics-upgrade-readiness"></a>권장 도구: Desktop Analytics 업그레이드 준비
 
-Windows Analytics 업그레이드 준비는 기존 데스크톱 관리 시스템에 비해 많은 이점을 제공하는 권장 도구입니다. 이 제품은 에이전트없이 수억 대의 소비자 PC 업그레이드를 통해 수집된 응용 프로그램 및 드라이버 호환성 정보를 사용하여 수행해야 할 작업을 안내합니다. 이 정보는 업그레이드를 가로막을 수 있는 호환성 문제를 식별하고 Microsoft에 알려진 수정 제안에 대한 링크를 통해 자세한 평가를 제공합니다.
+Desktop Analytics 업그레이드 준비는 기존 데스크톱 관리 시스템에 비해 많은 이점을 제공하는 권장 도구입니다. 이 제품은 에이전트없이 수억 대의 소비자 PC 업그레이드를 통해 수집된 응용 프로그램 및 드라이버 호환성 정보를 사용하여 수행해야 할 작업을 안내합니다. 이 정보는 업그레이드를 가로막을 수 있는 호환성 문제를 식별하고 Microsoft에 알려진 수정 제안에 대한 링크를 통해 자세한 평가를 제공합니다.
 
-Window Analytics 업그레이드 준비를 설정하려면 먼저 Azure 구독을 설정하고 Azure Log Analytics 작업 공간을 포함시켜야 합니다. Windows Analytics 업그레이드 준비 서비스가 실행되면 그룹 정책 설정을 통해 인터넷에 연결된 Windows 7 SP1 또는 최신 장치를 손쉽게 등록할 수 있습니다. 배포 에이전트가 없이, Windows Analytics 업그레이드 준비의 시각적 워크플로는 파일럿 배포에서 프로덕션 배포로 안내합니다. 원하는 경우 Windows Analytics 업그레이드 준비에서 System Center Configuration Manager와 같은 소프트웨어 배포 도구로 데이터를 내보낼 수 있으므로 PC를 직접 대상으로하고 배포 준비가 된 컬렉션을 구축 할 수 있습니다.
+Window Analytics 업그레이드 준비를 설정하려면 먼저 Azure 구독을 설정하고 Azure Log Analytics 작업 공간을 포함시켜야 합니다. Desktop Analytics 업그레이드 준비 서비스가 실행되면 그룹 정책 설정을 통해 인터넷에 연결된 Windows 7 SP1 또는 최신 장치를 손쉽게 등록할 수 있습니다. 배포 에이전트가 없이, Desktop Analytics 업그레이드 준비의 시각적 워크플로는 파일럿 배포에서 프로덕션 배포로 안내합니다. 원하는 경우 Desktop Analytics 업그레이드 준비에서 System Center Configuration Manager(현재 분기)와 같은 소프트웨어 배포 도구로 데이터를 내보낼 수 있으므로 PC를 직접 대상으로하고 배포 준비가 된 컬렉션을 구축 할 수 있습니다.
 
-현재, 환경에 대해 Windows Analytics를 설치하지 않았거나 평가판을 등록하려는 경우 [Windows Analytics 페이지](http://www.aka.ms/windowsanalytics)로 이동한 후 시작할 수 있습니다.
+현재, 환경에 대해 Desktop Analytics를 설치하지 않았거나 평가판을 등록하려는 경우 Desktop Analytics 페이지](http://www.aka.ms/desktopanalytics)로 이동한 후 시작할 수 있습니다.
 
 ## <a name="device-and-app-readiness-process"></a>장치 및 앱 준비 프로세스
 
@@ -67,7 +67,7 @@ Window Analytics 업그레이드 준비를 설정하려면 먼저 Azure 구독�
 
 ### <a name="1-inventory"></a>1\. 재고
 
-Windows Analytics 업그레이드 준비 서비스는 에이전트 없는 프로세스를 사용하여 데스크톱 자산 전체에 걸쳐 컴퓨터, 응용 프로그램 및 Office 추가 기능에 대한 인벤토리를 파악합니다.
+Desktop Analytics 업그레이드 준비 서비스는 에이전트 없는 프로세스를 사용하여 데스크톱 자산 전체에 걸쳐 컴퓨터 및 응용 프로그램에 대한 인벤토리를 파악합니다.
 
 ![](media/step-1-device-and-app-readiness-media/step-1-device-and-app-readiness-media-3.png)
 
@@ -77,7 +77,7 @@ Windows Analytics 업그레이드 준비 서비스는 에이전트 없는 프로
 
 ### <a name="2-prioritize"></a>2\. 우선 순위 지정
 
-인벤토리가 확인되면, Windows Analytics 업그레이드 준비 기능은 조직에서 가장 일반적으로 사용되는 앱 및 하드웨어, 배포를 위해 가능한 한 많은 PC를 차단 해제할 때 초점을 맞춰야 하는 항목을 식별하고 또한 우선 순위를 부여하는 데 도움을 줍니다.
+인벤토리가 확인되면, Desktop Analytics 업그레이드 준비 기능은 조직에서 가장 일반적으로 사용되는 앱 및 하드웨어, 배포를 위해 가능한 한 많은 PC를 차단 해제할 때 초점을 맞춰야 하는 항목을 식별하고 또한 우선 순위를 부여하는 데 도움을 줍니다.
 
 ![](media/step-1-device-and-app-readiness-media/step-1-device-and-app-readiness-media-5.png)
 
@@ -85,9 +85,9 @@ Windows Analytics 업그레이드 준비 서비스는 에이전트 없는 프로
 
 ### <a name="3-testing"></a>3\. 테스트
 
-인벤토리 된 대부분의 응용 프로그램, 드라이버 및 추가 기능은 있는 그대로 작동합니다. Windows Analytics 업그레이드 준비에 문제가 있다고 평가할 경우 해당 항목에 대해 호환성 문제를 해결하기 위해 버전 업데이트를 찾을 수있는 위치를 비롯하여 알려진 정보가 제공됩니다. 중요도가 낮고 배포 빈도가 낮은 응용 프로그램 및 구형 장치에서 복잡한 문제를 해결하는 데 시간과 자원을 투입하는 대신 사용자와 협력하여 이러한 항목을 폐기하고 교체할 수 있습니다.
+인벤토리 된 대부분의 응용 프로그램, 드라이버 및 추가 기능은 있는 그대로 작동합니다. Desktop Analytics 업그레이드 준비에 문제가 있다고 평가할 경우 해당 항목에 대해 호환성 문제를 해결하기 위해 버전 업데이트를 찾을 수있는 위치를 비롯하여 알려진 정보가 제공됩니다. 중요도가 낮고 배포 빈도가 낮은 응용 프로그램 및 구형 장치에서 복잡한 문제를 해결하는 데 시간과 자원을 투입하는 대신 사용자와 협력하여 이러한 항목을 폐기하고 교체할 수 있습니다.
 
-Windows Analytics 업그레이드 준비 상태를 사용하여 브라우저 기반 호환성 문제도 평가하고, 사용자가 ActiveX 컨트롤, 브라우저 도우미 개체, VBScript 또는Microsoft Edge 브라우저에서 지원되지 않는 기타 레거시 기술을 사용하여 액세스하는 웹 사이트 및 웹앱을 식별할 수 있습니다. 사용자는 이러한 사이트를 위해 여전히 Internet Explorer 11을 사용해야 하며, Enterprise Mode Site List Manager를 사용하여 [엔터프라이즈 모드 사이트 목록](https://docs.microsoft.com/ko-KR/microsoft-edge/deploy/emie-to-improve-compatibility)에 이러한 사이트를 추가할 수 있습니다.
+Desktop Analytics 업그레이드 준비 상태를 사용하여 브라우저 기반 호환성 문제도 평가하고, 사용자가 ActiveX 컨트롤, 브라우저 도우미 개체, VBScript 또는Microsoft Edge 브라우저에서 지원되지 않는 기타 레거시 기술을 사용하여 액세스하는 웹 사이트 및 웹앱을 식별할 수 있습니다. 사용자는 이러한 사이트를 위해 여전히 Internet Explorer 11을 사용해야 하며, Enterprise Mode Site List Manager를 사용하여 [엔터프라이즈 모드 사이트 목록](https://docs.microsoft.com/ko-KR/microsoft-edge/deploy/emie-to-improve-compatibility)에 이러한 사이트를 추가할 수 있습니다.
 
 또한 Office 365 ProPlus로의 이전을 지원하기 위해, [Office용 Readiness Toolkit](https://docs.microsoft.com/ko-KR/deployoffice/use-the-readiness-toolkit-to-assess-application-compatibility-for-office-365-pro)을 사용하여 추가 기능 및 Microsoft VBA(Visual Basic for Applications) 매크로의 호환성을 테스트할 수 있습니다.
 
@@ -114,7 +114,7 @@ Windows 10 및 Office 365 ProPlus 응용 프로그램 호환성을 지원하는 
 
 ## <a name="continued-use-of-diagnostic-data-tools"></a>진단 데이터 도구의 지속적인 사용
 
-Windows Analytics 업그레이드 준비는 단지 Windows 10 및 Office 365 ProPlus로의 전환을 도와주기 위한 도구가 아닙니다. Windows 10 및 Office 365에서 데스크톱을 실행하는 경우 이 도구를 사용하여 배포를 유지 관리하고 반기 기능 업데이트를 관리하여 최신 상태를 유지할 수 있습니다.
+Desktop Analytics 업그레이드 준비는 단지 Windows 10 및 Office 365 ProPlus로의 전환을 도와주기 위한 도구가 아닙니다. Windows 10 및 Office 365에서 데스크톱을 실행하는 경우 이 도구를 사용하여 배포를 유지 관리하고 반기 기능 업데이트를 관리하여 최신 상태를 유지할 수 있습니다.
 
 ## <a name="next-step"></a>다음 단계 
 

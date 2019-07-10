@@ -13,18 +13,18 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Windows 및 Office 배포 랩 키트에 액세스하는 방법 및 위치에 대해 알아보세요.
-ms.openlocfilehash: c056aba81edc079f0577dea8d4ef535d7e6cc32a
-ms.sourcegitcommit: a84cf473bc61a7bb1cfca221cf435e0a418305b2
+ms.openlocfilehash: ba1cd7e88766b6393bafcbd7381ceeb98f030d51
+ms.sourcegitcommit: 03828f954b9dddb265f867fa508178ec0d4a6aeb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/05/2019
-ms.locfileid: "35576508"
+ms.lasthandoff: 07/08/2019
+ms.locfileid: "35584534"
 ---
 # <a name="windows-and-office-deployment-lab-kit"></a>Windows 및 Office 배포 랩 키트
 
 이러한 다운로드 가능 실무 중심 랩은 관련된 구성 및 배포 후 관리 고려 사항과 Windows 10 배포 및 Office 365 배포를 중점적으로 다룹니다. 이 교육 과정은 Windows 7 수명 종료를 대비하는 조직에 반드시 권장되며, 현재 Windows 10 및 Office 365 Plus 또는 Office 2019를 사용하는 경우에도 적용됩니다. 여기에는 Windows 10, Office 365 ProPlus, Enterprise Mobility + Security, 관련된 제품 및 서비스에 대한 가이드가 포함됩니다.
 
-이 랩은 Windows 10 Enterprise 및 Office 365 ProPlus를 실행하는 데스크톱의 배포 및 관리를 계획, 테스트 및 검증하는 데 도움을 주기 위해 만들어졌습니다. 이 랩에서는 System Center Configuration Manager, Windows Analytics, Office 사용자 지정 도구, OneDrive, Windows Autopilot 등의 데스크톱 배포 도구에 설명된 단계와 도구를 다룹니다.
+이 랩은 Windows 10 Enterprise 및 Office 365 ProPlus를 실행하는 데스크톱의 배포 및 관리를 계획, 테스트 및 검증하는 데 도움을 주기 위해 만들어졌습니다. 이 랩에서는 System Center Configuration Manager, Desktop Analytics, Office 사용자 지정 도구, OneDrive, Windows Autopilot 등의 데스크톱 배포 도구에 설명된 단계와 도구를 다룹니다.
 
 Windows 10 및 Office 365 ProPlus의 [데스크톱 배포](http://www.aka.ms/howtoshift) 프로세스의 일환으로 배포 도구 업데이트를 탐색하고 배포 관련 자동화를 테스트 할 때 샌드박스 또는 격리된 랩 환경을 만드는 것이 좋습니다.
 
@@ -60,7 +60,7 @@ Windows 10 및 Office 365 ProPlus의 [데스크톱 배포](http://www.aka.ms/how
 
 ### <a name="device-and-app-readiness"></a>**장치 및 앱 준비**
 
-  - Windows Analytics
+  - Desktop Analytics
   - Internet Explorer용 엔터프라이즈 모드 및 엔터프라이즈 모드 사이트 목록
 
 ### <a name="directory-and-network-readiness"></a>**디렉터리 및 네트워크 준비**

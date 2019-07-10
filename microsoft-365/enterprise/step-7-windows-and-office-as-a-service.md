@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 사용자 환경에서 Windows 및 Office Servicing을 준비하는 방법을 알아봅니다.
-ms.openlocfilehash: 9cc550ca87c1c71ef4a01030ce93b6300fcc019d
-ms.sourcegitcommit: 7e806db3d44ec223754efe1e9613b2c7117c4788
+ms.openlocfilehash: 6f3f5faf4c45829cdb4d2f9ac48ef0c9988ec270
+ms.sourcegitcommit: 03828f954b9dddb265f867fa508178ec0d4a6aeb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "34814599"
+ms.lasthandoff: 07/08/2019
+ms.locfileid: "35584564"
 ---
 # <a name="step-7-windows-and-office-servicing"></a>7단계: Windows 및 Office Servicing
 
@@ -37,7 +37,7 @@ ms.locfileid: "34814599"
 >Windows 및 Office as a Service는 기능에 대한 반기 업데이트를 준비하는 계획 과정을 포함하는 권장 배포 프로세스 사이클의 7번째 단계입니다. 전체 데스크톱 배포 프로세스를 보려면 [데스크톱 배포 센터](https://aka.ms/HowToShift)를 방문하세요.
 >
 
-Windows 10 및 Office 365 ProPlus 둘 다 새로운 서비스 옵션, 지원 모델 및 업데이트 타임라인을 도입합니다. 이러한 변화를 통해 보다 간편하게 항상 최신 기능 상태를 유지할 수 있습니다. 이러한 업데이트와 함께, 사용자 요구를 충족하는 서비스 계획을 설정할 수 있는 새로운 구성 옵션도 제공됩니다. System Center Configuration Manager 현재 분기의 새 기능을 활용하면서 Windows 10 및 Office 365 ProPlus의 새 기능을 제공하는 반기 채널 업데이트를 준비하는 방법을 알아봅니다.
+Windows 10 및 Office 365 ProPlus 둘 다 새로운 서비스 옵션, 지원 모델 및 업데이트 타임라인을 도입합니다. 이러한 변화를 통해 보다 간편하게 항상 최신 기능 상태를 유지할 수 있습니다. 이러한 업데이트와 함께, 사용자 요구를 충족하는 서비스 계획을 설정할 수 있는 새로운 구성 옵션도 제공됩니다. System Center Configuration Manager(현재 분기)의 새 기능을 활용하면서 Windows 10 및 Office 365 ProPlus의 새 기능을 제공하는 반기 채널 업데이트를 준비하는 방법을 알아봅니다.
 
 [Windows 10 및 Office 365 ProPlus로의 고객 전환 진원](https://www.microsoft.com/en-us/microsoft-365/blog/2018/09/06/helping-customers-shift-to-a-modern-desktop/)
 
@@ -79,7 +79,7 @@ Windows 10 및 Office 365 ProPlus 둘 다 새로운 서비스 옵션, 지원 모
 
 ### <a name="supporting-management-tools"></a>관리 도구 지원
 
-또한 Microsoft는 사용자에게 원활하게 업데이트를 배포하는 방법을 고민해왔습니다. Windows 및 Office에 대한 이러한 업데이트 및 새 기능의 롤아웃을 지원하기 위해 System Center Configuration Manager 현재 분기는 자주 업데이트됩니다.
+또한 Microsoft는 사용자에게 원활하게 업데이트를 배포하는 방법을 고민해왔습니다. Windows 및 Office에 대한 이러한 업데이트 및 새 기능의 롤아웃을 지원하기 위해 System Center Configuration Manager(현재 분기)는 자주 업데이트됩니다.
 
 
   [System Center Configuration Manager를 사용하여 Windows 10 업데이트 배포](https://docs.microsoft.com/ko-KR/windows/deployment/update/waas-manage-updates-configuration-manager)
@@ -127,7 +127,7 @@ Windows의 “빠른 업데이트”, Office의 이진 델타 압축이라는 �
 
 [Windows 10 품질 업데이트 및 델타 업데이트 종료](https://techcommunity.microsoft.com/t5/Windows-IT-Pro-Blog/Windows-10-quality-updates-explained-amp-the-end-of-delta/ba-p/214426)
 
-비즈니스용 Windows 업데이트 및 Windows Server Update Services는 오랫 동안 빠른 업데이트를 지원했지만, 현재는 System Center Configuration Manager로 지원을 확장하고 있습니다. 따라서 여기서도 빠른 업데이트를 사용할 수 있습니다.
+비즈니스용 Windows 업데이트 및 Windows Server Update Services는 오랫 동안 빠른 업데이트를 지원했지만, 현재는 System Center Configuration Manager(현재 분기)로 지원을 확장하고 있습니다. 따라서 여기서도 빠른 업데이트를 사용할 수 있습니다.
 
 ![](media/step-7-windows-and-office-as-a-service-media/step-7-windows-and-office-as-a-service-media-3.png)
 
@@ -143,7 +143,7 @@ Windows 및 Office 업데이트 채널은 Configuration Manager를 통해 표준
 
 장치 및 앱 준비 상태에서 살펴본 것처럼, 배포 프로세스 사이클의 1단계에서 설정한 동일한 준비 도구를 사용하여 이러한 좀 더 큰 규모의 업데이트를 준비할 수 있습니다.
 
-비즈니스용 Windows 업데이트를 사용하는 정책 설정, System Center Configuration Manager를 통한 소프트웨어 업데이트 관리, WSUS(Windows Server 업데이트 서비스) 또는 Microsoft Intune에서 설정되는 업데이트 정책을 도구로 사용할 수 있습니다. 네트워크 대역폭이 걱정된다면 2단계: 디렉터리 및 네트워크 준비를 참조하여 장치 최적화 및 기타 피어 투 피어 캐싱 기술을 통해 네트워크 트래픽을 줄이는 옵션에 대해 알아보세요.
+비즈니스용 Windows 업데이트를 사용하는 정책 설정, System Center Configuration Manager(현재 분기)를 통한 소프트웨어 업데이트 관리, WSUS(Windows Server 업데이트 서비스) 또는 Microsoft Intune에서 설정되는 업데이트 정책을 도구로 사용할 수 있습니다. 네트워크 대역폭이 걱정된다면 2단계: 디렉터리 및 네트워크 준비를 참조하여 장치 최적화 및 기타 피어 투 피어 캐싱 기술을 통해 네트워크 트래픽을 줄이는 옵션에 대해 알아보세요.
 
 ![](media/step-7-windows-and-office-as-a-service-media/step-7-windows-and-office-as-a-service-media-4.png)
 
@@ -155,7 +155,7 @@ Windows 및 Office 업데이트 채널은 Configuration Manager를 통해 표준
 
 #### <a name="upgrade-task-sequences"></a>업그레이드 작업 시퀀스
 
-표준 소프트웨어 업데이트 관리 루틴을 통해 더 큰 기능 업데이트를 설치할 수 있지만, 많은 조직에서는 System Center Configuration Manager 또는 Microsoft Deployment Toolkit를 통해 업그레이드 작업 시퀀스를 사용하도록 선택합니다.
+표준 소프트웨어 업데이트 관리 루틴을 통해 더 큰 기능 업데이트를 설치할 수 있지만, 많은 조직에서는 System Center Configuration Manager(현재 분기) 또는 Microsoft Deployment Toolkit를 통해 업그레이드 작업 시퀀스를 사용하도록 선택합니다.
 
 작업 시퀀스를 사용하면 기능 업데이트를 설치하기 전에 사용자 지정 검사 또는 작업을 만들고, 업데이트 설치 자체가 완료된 후에 사용자 지정 작업을 수행할 수 있습니다. 업데이트 후 작업에는 필요한 경우 업데이트, 드라이버 설치 및 교체, 응용 프로그램 업그레이드나 작업 표시줄 및 Windows 10 시작 개인 설정 중에 서비스를 일시적으로 중단하는 작업이 포함될 수 있습니다.
 

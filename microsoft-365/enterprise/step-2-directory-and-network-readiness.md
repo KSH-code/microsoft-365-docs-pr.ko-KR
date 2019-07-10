@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 환경에서 디렉터리 및 네트워크 준비 상태를 평가하는 방법을 알아봅니다.
-ms.openlocfilehash: d9ab05c9ff7d0b926f147ee4f924d95f01ccffd1
-ms.sourcegitcommit: 7e806db3d44ec223754efe1e9613b2c7117c4788
+ms.openlocfilehash: 8070d08ade5d4b29327ab88bdc36e5f2182c0016
+ms.sourcegitcommit: 03828f954b9dddb265f867fa508178ec0d4a6aeb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "34814619"
+ms.lasthandoff: 07/08/2019
+ms.locfileid: "35584574"
 ---
 # <a name="step-2-directory-and-network-readiness"></a>2단계: 디렉터리 및 네트워크 준비
 
@@ -80,7 +80,7 @@ Azure Active Directory가 준비되면 사용자는 Office 365 ProPlus 앱에 �
 
   [BITS 정보](https://docs.microsoft.com/ko-KR/windows/desktop/bits/about-bits)
 
-System Center Configuration Manager를 사용하는 경우 BITS 지원 배포 지점을 구성하거나 WDS를 통해 멀티캐스트를 사용하도록 설정할 수도 있습니다.
+System Center Configuration Manager(현재 분기)를 사용하는 경우 BITS 지원 배포 지점을 구성하거나 WDS를 통해 멀티캐스트를 사용하도록 설정할 수도 있습니다.
 
 특정 트래픽을 제한할 경우 정상적인 네트워크 트래픽이 PC의 업데이트 및 응용 프로그램 다운로드에 따른 영향을 덜 받게 됩니다. 그렇지만 이러한 작업을 위해 특정 비율의 대역폭을 분할하면 생산성이 Windows 또는 Office 배포의 영향을 받지 않으며, 프로세스는 필요에 따라 계속 실행될 수 있습니다. 또한 배포가 실행되는 동안 사용자가 해당 PC를 잠그면 배포 관련 가동 중지 시간이 줄어들 수 있습니다.
 
@@ -90,7 +90,7 @@ System Center Configuration Manager를 사용하는 경우 BITS 지원 배포 �
 
 ## <a name="scavenging-bandwidth"></a>**대역폭 청소**
 
-Windows Server 2019 및 System Center Configuration Manager 버전 1806에서 지원되는 LEDBAT(Low Extra Delay Background Transport)는 Windows 클라이언트에 대한 네트워크 트래픽을 최적화되도록 디자인되었습니다.
+Windows Server 2019 및 System Center Configuration Manager(현재 분기)에서 지원되는 LEDBAT(Low Extra Delay Background Transport)는 Windows 클라이언트에 대한 네트워크 트래픽을 최적화되도록 디자인되었습니다.
 
 [Windows Server 2019의 상위 10가지 네트워킹 기능: \#9 LEDBAT – 대기 시간 최적화 백그라운드 전송](https://blogs.technet.microsoft.com/networking/2018/07/25/ledbat/)
 
@@ -110,7 +110,7 @@ System Center Configuration Manager에서 지원되는 **피어 캐시** 클라�
 
 [BranchCache 및 피어 캐시](https://blogs.technet.microsoft.com/swisspfe/2018/01/25/branch-cache-vs-peer-cache/)
 
-**배달 최적화** 배달 최적화는 다른 피어 투 피어 캐싱 기술로, 배포를 위한 네트워크 기반 컨트롤을 제공합니다. 기본 제공 UWP 앱을 업데이트하고, Microsoft Store에서 애플리케이션을 설치하고, Express 업데이트를 사용한 소프트웨어 업데이트를 위한 Windows 10 배달 최적화. 이 기능은 최근에 이르러서야 System Center Configuration Manager와 통합되었지만 초기 버전의 Windows 10 이후부터 사용할 수 있었습니다. Windows 10 버전 1803의 새 구성 옵션부터, Store에서의 앱 설치와 같은 백그라운드 업데이트 및 포그라운드 작업을 위해 대역폭 제한을 별도로 설정할 수 있습니다. 이제 Windows 배달 최적화는 지원되는 모든 Office 365 클라이언트 업데이트 채널에서 사용할 수 있는 클라이언트 업데이트 동안 Office 365 ProPlus도 지원합니다. Office 365 클라이언트 초기 설치 동안의 Windows 배달 최적화 지원도 곧 제공될 예정입니다.  
+**배달 최적화** 배달 최적화는 다른 피어 투 피어 캐싱 기술로, 배포를 위한 네트워크 기반 컨트롤을 제공합니다. 기본 제공 UWP 앱을 업데이트하고, Microsoft Store에서 애플리케이션을 설치하고, Express 업데이트를 사용한 소프트웨어 업데이트를 위한 Windows 10 배달 최적화. 이 기능은 최근에 이르러서야 System Center Configuration Manager(현재 분기)와 통합되었지만 초기 버전의 Windows 10 이후부터 사용할 수 있었습니다. Windows 10 버전 1803의 새 구성 옵션부터, Store에서의 앱 설치와 같은 백그라운드 업데이트 및 포그라운드 작업을 위해 대역폭 제한을 별도로 설정할 수 있습니다. 이제 Windows 배달 최적화는 지원되는 모든 Office 365 클라이언트 업데이트 채널에서 사용할 수 있는 클라이언트 업데이트 동안 Office 365 ProPlus도 지원합니다. Office 365 클라이언트 초기 설치 동안의 Windows 배달 최적화 지원도 곧 제공될 예정입니다.  
 
 ![](media/step-2-directory-and-network-readiness-media/step-2-directory-and-network-readiness-media-5.png)
 

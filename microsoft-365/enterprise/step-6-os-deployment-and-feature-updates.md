@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: OS 배포 및 기능 업데이트를 위한 옵션을 알아봅니다.
-ms.openlocfilehash: e26bbea4e0507c66102931eb102ce96d2620cfc7
-ms.sourcegitcommit: 7e806db3d44ec223754efe1e9613b2c7117c4788
+ms.openlocfilehash: 16af9a57623ffbdd73d97d44993c36ce57889eaf
+ms.sourcegitcommit: 03828f954b9dddb265f867fa508178ec0d4a6aeb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "34814629"
+ms.lasthandoff: 07/08/2019
+ms.locfileid: "35584544"
 ---
 # <a name="step-6-os-deployment-and-feature-updates"></a>6단계: 운영 체제 배포 및 기능 업데이트
 
@@ -49,7 +49,7 @@ ms.locfileid: "34814629"
 
 이미지 캡처를 진행하면서 최고 품질의 이미지 및 반복 가능한 프로세스를 보장하려면 가능한 한 많은 작업을 자동화하는 것이 좋습니다. 대부분의 배포에서는 캡처하기 전에 Windows 이미지에 가능한 한 적은 사용자 지정과 미리 설치된 앱을 배치하는 것이 좋습니다. 이것이 소위 말하는 ‘씬 이미지’ 접근 방식입니다. 이 방식은 이미지 내의 많은 앱을 제거하여 네트워크의 전체적인 대역폭을 절약할 수 있는 방법입니다. 씬 기본 이미지로 시작하고 사용자에게 맞게 앱, 언어 및 구성에 대해 계층을 동적으로 구성할 수 있습니다.
 
-빌드 및 캡처 중 프로세스 동안 System Center Configuration Manager 및 Microsoft Deployment Toolkit와 같은 도구는 시스템 준비 도구(또는 Sysprep)와 "일반화" 명령을 함께 사용하여 Windows 10 설치를 이미지로 캡처하기 전에 이미지를 다시 봉인합니다.
+빌드 및 캡처 중 프로세스 동안 System Center Configuration Manager(현재 분기) 및 Microsoft Deployment Toolkit와 같은 도구는 시스템 준비 도구(또는 Sysprep)와 "일반화" 명령을 함께 사용하여 Windows 10 설치를 이미지로 캡처하기 전에 이미지를 다시 봉인합니다.
 
 캡처한 이미지에는 Windows 이미지 또는 표준 Windows 설치 미디어와 같은 형식을 갖는 WIM이 포함됩니다. 사용자 지정 WIM 파일이 있으면 System Center Configuration Manager 또는 Microsoft Deployment Toolkit에서 OS 배포의 일부로 다른 작업 시퀀스를 사용하여 배포 관련 작업을 수행하고, 이미지를 적용하고, 환으로 Windows 이미지 적용 전후에 작업을 실행할 수 있습니다.
 
@@ -76,7 +76,7 @@ ms.locfileid: "34814629"
 
 ### <a name="in-place-upgrade-using-task-sequence-automation"></a>작업 시퀀스 자동화를 사용한 현재 위치 업그레이드
 
-이러한 배포 유형 외에도, Windows 10을 포함하는 System Center Configuration Manager 작업 시퀀스 및 업그레이드 작업 시퀀스를 사용한 현재 위치 업그레이드도 새롭게 사용할 수 있는 옵션입니다.
+이러한 배포 유형 외에도, Windows 10을 포함하는 System Center Configuration Manager(현재 분기) 작업 시퀀스 및 업그레이드 작업 시퀀스를 사용한 현재 위치 업그레이드도 새롭게 사용할 수 있는 옵션입니다.
 
 이전 버전의 Windows에서 현재 위치 업그레이드를 수행하려면 작업 시퀀스가 필요하지 않지만, 엔터프라이즈 규모에서 배포할 때는 작업 시퀀스가 권장됩니다. 현재 위치 업그레이드에서는 응용 프로그램을 포함하는 사용자 지정 이미지를 적용할 수 었지만, 오프라인 서비스를 사용하여 기본 install.wim을 업데이트할 수 있습니다. 예를 들어 업그레이드를 수행하기 전에 최신 Windows 업데이트가 적용되었는지 확인할 수 있습니다.
 
@@ -100,7 +100,7 @@ ms.locfileid: "34814629"
 
 ![](media/step-6-os-deployment-and-feature-updates-media/step-6-os-deployment-and-feature-updates-media-4.png)
 
-### <a name="recommended-tools-system-center-configuration-manager-and-the-microsoft-deployment-toolkit"></a>권장 도구: System Center Configuration Manager 및 Microsoft Deployment Toolkit
+### <a name="recommended-tools-system-center-configuration-manager-current-branch-and-the-microsoft-deployment-toolkit"></a>권장 도구: System Center Configuration Manager(현재 분기) 및 Microsoft Deployment Toolkit
 
 선택하는 배포 유형에 관계없이, 예측 가능성 및 반복 가능성을 위해 가능한 한 자동화될 수 있는지 확인할 수 있습니다. Microsoft는 자동화된 작업 시퀀스를 사용하여 OS 배포를 자동화하기 위한 다음 두 가지 솔루션을 제공합니다.
 

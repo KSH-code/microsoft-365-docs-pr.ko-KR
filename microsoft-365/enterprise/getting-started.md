@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 데스크톱 배포 프로세스 소개
-ms.openlocfilehash: b9264f8d9232bf1b88372694d43e2d2c70c8cb70
-ms.sourcegitcommit: 7e806db3d44ec223754efe1e9613b2c7117c4788
+ms.openlocfilehash: 60389149e286bca8e27f50dabee8aaf03f52c90c
+ms.sourcegitcommit: 03828f954b9dddb265f867fa508178ec0d4a6aeb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "34814659"
+ms.lasthandoff: 07/08/2019
+ms.locfileid: "35584524"
 ---
 # <a name="getting-started---desktop-deployment"></a>시작하기 - 데스크톱 배포
 
@@ -86,7 +86,7 @@ Click-to-Run은 과거의 MSI 기반 패키지와는 많이 다릅니다. Click-
 
 시작하기 전에 높은 수준의 계획을 세우고 필요한 스폰서를 준비해야합니다. 이 배포 프로세스 사이클은 다음 배포 영역에서 관리할 핵심 팀 구성원 및 리소스를 식별하는 데 도움이 되는 중요한 단계를 설명합니다.
 
-**[1 단계: 장치 및 앱 준비](https://aka.ms/mdd1) ** 성공적인 배포를 위해서는 먼저 무엇을 보유하고 있는 지 알아야합니다. 이는 기기와 앱 목록을 작성하고 호환성을 확인하는 과정을 의미합니다. 이를 돕기 위해 클라우드 기반 서비스 인 Windows Analytics에서 제공되는 도구를 활용할 수 있습니다. Windows Analytics를 사용하면 수억 대의 PC에서 수집한 호환성 정보 및 진단 데이터를 활용하여 장치에서 실행되는 앱 및 드라이버를 평가할 수 있으므로 데스크톱 자산 준비 상태를 설정할 수 있습니다. 또한 Windows Analytics에서 System Center Configuration Manager로 "배포 준비가 된 PC" 목록을 내보낼 수 있으므로 대상 PC가 준비가 되는 대로 데이터 기반 컬렉션을 작성할 수 있습니다.
+**[1 단계: 장치 및 앱 준비](https://aka.ms/mdd1) ** 성공적인 배포를 위해서는 먼저 무엇을 보유하고 있는 지 알아야합니다. 이는 기기와 앱 목록을 작성하고 호환성을 확인하는 과정을 의미합니다. 이를 돕기 위해 클라우드 기반 서비스인 Desktop Analytics에서 제공되는 도구를 활용할 수 있습니다. Desktop Analytics를 사용하면 수억 대의 PC에서 수집한 호환성 정보 및 진단 데이터를 활용하여 장치에서 실행되는 앱 및 드라이버를 평가할 수 있으므로 데스크톱 자산 준비 상태를 설정할 수 있습니다. 또한 Desktop Analytics에서 System Center Configuration Manager로 "배포 준비가 된 PC" 목록을 내보낼 수 있으므로 대상 PC가 준비가 되는 대로 데이터 기반 컬렉션을 작성할 수 있습니다.
 
 
   [업그레이드 준비 시작](https://docs.microsoft.com/ko-KR/windows/deployment/upgrade/upgrade-readiness-get-started)
