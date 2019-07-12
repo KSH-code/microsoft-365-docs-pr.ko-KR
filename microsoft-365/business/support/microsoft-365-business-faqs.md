@@ -10,12 +10,12 @@ localization_priority: Normal
 audience: microsoft-business 
 keywords: Microsoft 365 Business, Microsoft 365, SMB, FAQ, 질문과 대답, 답변, 비즈니스
 ms.date: 06/08/2018
-ms.openlocfilehash: 6ef500c9b0c9e83e77e46c1eaf7057e3e46cfe0d
-ms.sourcegitcommit: 5c6bbf6dd7020b462b56b644b5a0fcc0217d6a53
+ms.openlocfilehash: 9f3f82169dcd4454ffb46b1269422688a107f2b0
+ms.sourcegitcommit: 0c1227dc79b66bab529bf178c5672791369ba471
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/20/2019
-ms.locfileid: "34276226"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "35630592"
 ---
 # <a name="microsoft-365-business-frequently-asked-questions"></a>Microsoft 365 Business 질문과 대답
 
@@ -27,14 +27,14 @@ Microsoft 365는 중소 규모 기업을 위해 최고의 생산성 도구, 보�
 **비즈니스 생산성 및 협업 도구의 종합적 집합** 
 * Word, Excel, PowerPoint, Outlook, OneNote, Publisher 및 Access 
 * Exchange, OneDrive, 비즈니스용 Skype, Microsoft Teams, SharePoint 
-* Office의 비즈니스 앱(Bookings, Outlook Customer Manager, MileIQ<sup>[1](#footnote1)</sup>, Microsoft Listings<sup>[1](#footnote1)</sup>, Microsoft Connections<sup>[1](#footnote1)</sup>, Microsoft Invoicing<sup>[1](#footnote1)</sup>) 
+* Office의 비즈니스 앱 (예약, Outlook 고객 관리자, MileIQ<sup>[1](#footnote1)</sup>, Microsoft 송장<sup>[1](#footnote1)</sup>) 
  
 **엔터프라이즈급 장치 관리 및 보안 기능** 
-- Office 365 Advanced Threat Protection 및 Windows Defender Exploit Guard를 사용 하 여 피싱 & 정교 멀웨어와 같은 외부 위협 으로부터 보호를 제공 합니다. 
--  Office 365 데이터 손실 방지 정책 (여름, 2018) 및 Azure Information Protection 계획 1을 사용 하 여 중요 한 정보를 액세스 하 고 전송 하는 방법을 & 관리 하는 방법에 대해 알아봅니다. 
+- Office 365 Advanced Threat Protection 및 Windows Defender Exploit Guard가 포함 된 피싱 & 정교한 맬웨어 같은 외부 위협 으로부터 보호를 제공 합니다. 
+-  Office 365 데이터 손실 방지 정책 (여름, 2018) 및 Azure Information Protection 계획 1을 사용 하 여 중요 한 정보를 액세스 하 고 전송 하는 방법을 관리 & 수 있습니다. 
 -  Exchange Online 보관을 사용 하 여 데이터를 보호, 보존 및 백업 하는 데 도움이 됩니다.  
 -   Intune 앱 보호가 포함 된 Office & 기타 모바일 앱에 대 한 앱 보호 
--  Windows 10 Pc에 대 한 장치 관리, MacOS & Mobiles Devices for Intune 장치 관리 
+-  Windows 10 Pc의 장치 관리, MacOS & Mobiles 장치 (Intune 장치 관리) 
 -  장치 간의 일관성 있는 보안 구성-장치 간의 회사 데이터 보호-Windows Defender, 항상 최신 상태로 유지 
  
  
@@ -82,7 +82,7 @@ Microsoft 365 Business는 고객에 게 비즈니스 정보 액세스, 보존 �
   
 * **Windows 10 PC용 장치 관리**를 사용하면 비즈니스는 맬웨어에 대한 Windows Defender 보호, 자동 업데이트, 지정된 시간 이후 화면 끄기 등의 기능을 설정하고 시행하도록 선택할 수 있습니다. 또한 Windows 10 디바이스를 분실하거나 도난당한 경우 관리 센터를 통해 비즈니스 응용 프로그램 및 데이터를 완전히 삭제할 수 있습니다. 
 
-* **장치 관리 ios, Android _AMP_ macos** 기능은 비즈니스에서 Ios, Android, Windows 및 macos 장치를 포함 하는 다양 한 장치 환경을 안전 하 게 관리할 수 있도록 지원 합니다. 
+* **장치 관리 ios, android & macos** 기능은 비즈니스에서 Ios, Android, Windows 및 macos 장치를 포함 하는 다양 한 장치 환경을 안전 하 게 관리할 수 있도록 지원 합니다. 
 
 ### <a name="how-does-microsoft-365-business-help-protect-pcs-in-my-organization-from-malicious-attacks"></a>Microsoft 365 Business가 어떻게 악의적인 공격으로부터 내 조직의 PC를 보호하나요? 
 Microsoft 365 Business로 관리되는 PC는 Windows Defender로 관리되며 이것은 좋지 않습니다. Windows 10의 단일 바이러스 백신 기능은 다른 어떤 솔루션보다 더 많은 컴퓨터를 바이러스, 맬웨어, 스파이웨어 및 기타 위협으로부터 보호합니다.  Microsoft 365 Business를 사용 하면 기업이 Windows Defender protection이 실행 중이 고 항상 모든 Windows 10 장치에서 최신 상태로 유지 되도록 할 수 있습니다.  
