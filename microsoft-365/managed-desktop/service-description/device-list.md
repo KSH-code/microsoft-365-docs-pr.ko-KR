@@ -5,12 +5,12 @@ keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 설명서
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
-ms.openlocfilehash: c991dd20dcab50c824784c233e03ecc8cdc25f94
-ms.sourcegitcommit: d6fcd57a0689abbe4ab47489034f52e327f4e5f5
+ms.openlocfilehash: f16989960d999e65ad904fd11894d5fe8bca98f0
+ms.sourcegitcommit: 1bd18fb00aad37bad8d1411a916f444e1d1a38cf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/11/2019
-ms.locfileid: "34857291"
+ms.lasthandoff: 07/16/2019
+ms.locfileid: "35756900"
 ---
 # <a name="microsoft-managed-desktop-devices"></a>Microsoft Managed Desktop 장치 
 
@@ -47,7 +47,6 @@ Microsoft Managed Desktop에 등록 하려면 장치는 다음 모델 중 하나
 | [Surface Book 2](https://www.microsoft.com/en-us/p/surface-book-2-for-business/8x4htznfgg38/lbh3?cid=msft_web_collection&CustomerIntent=Consumer) | 512 GB/Intel i7/16gb RAM | 15 인치 디스플레이 | 2019 년 11 월 16 일 | 2022 년 11 월 16 일 |
 | [표면 이동](https://www.microsoft.com/en-us/p/surface-go-for-business/909wr0x3sgfk/8khl?cid=msft_web_collection&CustomerIntent=Consumer&activetab=pivot%3aoverviewtab) | 128 GB/Intel 4415Y/8GB RAM | 없음 | 8 월 2 일, 2020 | 8 월 2 일, 2023 |
 | [Surface 랩탑 2](https://www.microsoft.com/en-us/p/surface-laptop-2-for-business/8xlk0g60tlb6/hkq9?cid=msft_web_collection&CustomerIntent=Consumer) | 256 GB/Intel i5/8gb RAM | 없음 | 2020 년 10 월 16 일 | 2023 년 10 월 16 일 |
-|[Surface Pro (5 번째 Gen)](https://www.microsoft.com/en-us/p/surface-pro-5th-gen-for-business/907tds4dgwwv/kkzn?cid=msft_web_collection&CustomerIntent=Consumer) | 256 GB/Intel i5/8gb RAM | 없음 | **6 월 15 일 2019** | 6 월 15 일 2022 |
 | [Surface Pro 6](https://www.microsoft.com/en-us/p/surface-pro-6-for-business/8xjq3d3lrp0r/grf9?cid=msft_web_collection&CustomerIntent=Consumer&activetab=pivot%3aoverviewtab) | 256 GB/Intel i5/8gb RAM | 없음 | 2020 년 10 월 16 일 | 2023 년 10 월 16 일 |
 
 또한 장치는 다음을 수행 해야 합니다.     
