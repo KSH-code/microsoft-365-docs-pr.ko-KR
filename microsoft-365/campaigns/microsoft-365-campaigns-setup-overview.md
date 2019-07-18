@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: 캠페인에 대 한 Microsoft 365의 설치 개요
-ms.openlocfilehash: 40894a15efd486ec1e5052725acc46f63cd811b1
-ms.sourcegitcommit: c452413dff5d5388c9725f38871246237c313e65
+ms.openlocfilehash: 882ca516d0e06658e24f675d5a1fe2b21a3c98b3
+ms.sourcegitcommit: 75b97d1ff617bc4b1b0ef9135dfe6a8842ea1b52
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/22/2019
-ms.locfileid: "35183379"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35772335"
 ---
 # <a name="set-up-microsoft-365-for-campaigns"></a>캠페인에 대 한 Microsoft 365 설정
 

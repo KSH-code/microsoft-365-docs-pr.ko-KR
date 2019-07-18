@@ -21,21 +21,21 @@ search.appverid:
 - MET150
 - MOE150
 description: Microsoft 365 for 캠페인을 통해 피싱 및 기타 공격 으로부터 보호 합니다.
-ms.openlocfilehash: a0e5876d0b1a3b454a00df79f3d0808b26ef8e1e
-ms.sourcegitcommit: 7e46db0b35c188ee6a7b40ab3eb2d76ff6c101c5
+ms.openlocfilehash: 4902a2273eef110ced9ae16c3b91f39ac990a736
+ms.sourcegitcommit: 75b97d1ff617bc4b1b0ef9135dfe6a8842ea1b52
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "35081070"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35772485"
 ---
 # <a name="protect-yourself-against-phishing-and-other-attacks"></a>피싱 및 기타 공격 으로부터 자신을 보호 합니다.
 
-Microsoft 365에는 공격 으로부터 보호할 수 있는 몇 가지 보호 기능이 포함 되어 있지만 온라인 공격 위험을 제한 하 고 최소화 하기 위해 사용자를 직접 할 수도 있습니다.
+Microsoft 365에는 공격 으로부터 보호할 수 있는 다양 한 보호 기능이 포함 되어 있지만 온라인 공격 위험을 제한 하 고 최소화 하기 위해 사용자를 직접 할 수도 있습니다.
 
-- **스팸 또는 정크 메일** 정크 메일을 받을 수 있는 이유에는 여러 가지가 있으며 모든 정크 메일이 동일 하지는 않습니다. 그러나 사용자에 게 미치는 영향을 줄이고, 따라서 정크 메일을 필터링 하 여 공격의 위험을 줄일 수 있습니다.
+- **스팸 또는 정크 메일** 정크 메일을 받을 수 있는 이유에는 여러 가지가 있으며 모든 정크 메일이 동일 하지는 않습니다. 그러나 정크 메일을 필터링 하 여 사용자에 게 미치는 영향을 줄이고 공격의 위험을 줄일 수 있습니다.
 - **피싱** 피싱 사기는 합법적인 것 처럼 보이지만 개인 정보를 얻고 돈을 도용 하려는 전자 메일입니다.
 - **스푸핑** 또한 Scammers는 자신 으로부터 전자 메일을 받은 것 처럼 보이도록 하기 위해 스푸핑 이라는 기법을 사용할 수 있습니다. 
-- **맬웨어** 는 일반적으로 링크를 클릭 하거나 전자 메일에서 문서를 연 후에 컴퓨터에 설치할 수 있는 악성 소프트웨어입니다. 다양 한 유형의 맬웨어 (예: 컴퓨터를 처음 사용할 때 랜 섬 웨어)가 있지만이를 포함 하지 않으려고 합니다. 
+- **맬웨어** 는 일반적으로 링크를 클릭 하거나 전자 메일에서 문서를 연 후에 설치 되는 컴퓨터에 설치할 수 있는 악성 소프트웨어입니다. 다양 한 유형의 맬웨어 (예: 컴퓨터를 처음 사용할 때 랜 섬 웨어)가 있지만이를 포함 하지 않으려고 합니다. 
 
 
 ## <a name="best-practices"></a>모범 사례
@@ -46,7 +46,7 @@ Microsoft 365에는 공격 으로부터 보호할 수 있는 몇 가지 보호 �
 
 **보고서!**
 
-수신 하는 모든 피싱 또는 기타 사기 전자 메일을 보고 합니다. 메시지를 선택 하 고 리본 메뉴에서 **메시지 보고** 를 선택 하 여 메시지 보낸 사람을 보고 한 다음 메시지를 차단 합니다.
+수신 하는 모든 피싱 또는 기타 사기 전자 메일을 보고 합니다. 메시지를 선택 하 고 리본 메뉴에서 **메시지 보고** 를 선택 합니다.
 [정크 메일 및 피싱 이메일을 보고 하](https://support.office.com/en-us/article/Use-the-Report-Message-add-in-b5caa9f1-cdf3-4443-af8c-ff724ea719d2)는 방법에 대 한 자세한 내용은 다음과 같습니다.
 
 **피싱 방지**
@@ -60,13 +60,13 @@ Microsoft 365에는 공격 으로부터 보호할 수 있는 몇 가지 보호 �
 
 **다른 사용자가 전자 메일을 볼 수 있는지 확인**
 
-고객이 통신을 신뢰 하는 것을 지원-디지털 서명을 추가 하 여 해당 사용자가 곧 제공 되었음을 증명 합니다. [디지털 서명을 사용 하 여 보안 메시지](https://support.office.com/en-us/article/secure-messages-by-using-a-digital-signature-549ca2f1-a68f-4366-85fa-b3f4b5856fc6)를 참조 하세요.
+고객이 귀하의 신원을 증명 하기 위해 디지털 서명을 추가 하 여 사용자의 통신을 신뢰 하는 것을 지원 합니다. [디지털 서명을 사용 하 여 보안 메시지](https://support.office.com/en-us/article/secure-messages-by-using-a-digital-signature-549ca2f1-a68f-4366-85fa-b3f4b5856fc6)를 참조 하세요.
 
 ## <a name="help-protect-your-campaign-from-online-threats"></a>온라인 위협 으로부터 캠페인을 보호 합니다.
 
 이 정보 그래픽은 사용자 및 캠페인 팀의 구성원에 대 한 팁으로 다운로드 합니다.
 
-[![캠페인 정보 그래픽을 보호 하는 데 도움이 되는 이미지](media/M365-Campaigns-WhatCanUsersDoToSecure-358x201.png)](downloads/M365CampaignsWhatCanUsersDoToSecure.pdf)
+[! 캠페인 정보 그래픽 보호 도움말](media/M365-Campaigns-WhatCanUsersDoToSecure-358x201.png)] (다운로드/M365CampaignsWhatCanUsersDoToSecure)
 
 [PDF](downloads/M365CampaignsWhatCanUsersDoToSecure.pdf) | [PowerPoint](https://github.com/MicrosoftDocs/microsoft-365-docs-pr/raw/live/m365-democracy/microsoft-365/campaigns/downloads/M365CampaignsWhatCanUsersDoToSecure.pptx)
 

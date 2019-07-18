@@ -21,16 +21,16 @@ search.appverid:
 - MET150
 - MOE150
 description: Microsoft 365 for 캠페인을 통해 피싱 및 기타 공격 으로부터 보호 합니다.
-ms.openlocfilehash: 8b83fa9c145f2c17347fc4c2983c64d4003f46c8
-ms.sourcegitcommit: c452413dff5d5388c9725f38871246237c313e65
+ms.openlocfilehash: 686a69a7e712e80c4f58cade24a69465fb4e7d33
+ms.sourcegitcommit: 75b97d1ff617bc4b1b0ef9135dfe6a8842ea1b52
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/22/2019
-ms.locfileid: "35183374"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35772455"
 ---
 # <a name="protect-unmanaged-windows-10-pcs-and-macs"></a>관리 되지 않는 Windows 10 Pc 및 Mac 보호
 
-이를 Microsoft Intune에 등록 하 여 Windows 10 Pc 및 Mac을 관리할 수 있으며,이를 통해 해당 환경의 데이터에 액세스 하기 전에 이러한 장치를 안전 하 고 안전한 상태로 유지할 수도 있습니다. 그러나 많은 캠페인 및 소규모 기업에는 조직에서 관리할 수 없는 byod (자체 장치)를 제공 하는 인력이 포함 됩니다. 이러한 관리 되지 않는 Pc 및 Mac에 대해이 문서를 사용 하 여 최소 보안 기능이 구성 되어 있는지 확인 합니다. 
+Windows 10 Pc 및 Mac을 Microsoft Intune에 등록 하 여 관리할 수 있으며,이를 통해 해당 환경의 데이터에 액세스 하기 전에 tht를 확인 하 고 안전 하 게 보호할 수 있습니다. 그러나 대부분의 캠페인 및 소규모 기업에는 조직에서 관리 되지 않는 별도 장치 (byod)를 제공 하는 인력이 포함 됩니다. 이러한 관리 되지 않는 Pc와 Mac의 경우에는이 문서를 사용 하 여 최소 보안 기능을 구성 해야 합니다. 
 
 <!--A Windows 10 PC is considered managed after you have completed the following two steps:
 
@@ -74,4 +74,4 @@ Mac에서 신뢰할 수 있는 바이러스 백신 소프트웨어를 설치 하
 신뢰할 수 있는 원본의 소프트웨어만 사용 하 여 맬웨어의 위험을 줄일 수도 있습니다. 보안 & 개인 정보 기본 설정의 설정을 사용 하 여 Mac에 설치 된 소프트웨어의 출처를 지정할 수 있습니다. 자세한 내용은 [맬웨어 로부터 Mac 보호](https://support.apple.com/kb/PH25087) 를 참조 하세요.
 
 **방화벽 보호 설정**<p>
-방화벽 설정을 사용 하 여 인터넷 이나 네트워크에 연결 되어 있을 때 다른 컴퓨터가 시작한 원치 않는 대화 상대 로부터 Mac을 보호 합니다. 이 보호를 사용 하지 않으면 Mac이 무단으로 액세스 하는 데 더 취약 해질 수 있습니다. 지침은 [응용 프로그램 방화벽 정보](https://support.apple.com/HT201642) 를 참조 하세요.
+방화벽 설정을 사용 하 여 인터넷 이나 네트워크에 연결 되어 있을 때 다른 컴퓨터가 시작한 원치 않는 대화 상대 로부터 Mac을 보호 합니다. 이 보호 기능을 사용 하지 않으면 Mac이 무단으로 액세스 하는 데 더 취약 해질 수 있습니다. 지침은 [응용 프로그램 방화벽 정보](https://support.apple.com/HT201642) 를 참조 하세요.

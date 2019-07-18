@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
 description: Cybersecurity 위협 으로부터 전자 메일, 데이터 및 통신으로 캠페인을 보호할 수 있도록 Microsoft 365 for 캠페인을 확인 하세요.
-ms.openlocfilehash: 21131707d88168f8886472f3ef0b42603229d8c5
-ms.sourcegitcommit: c452413dff5d5388c9725f38871246237c313e65
+ms.openlocfilehash: 0e038f3b33db957d3503ee091b075b767c30eeda
+ms.sourcegitcommit: 75b97d1ff617bc4b1b0ef9135dfe6a8842ea1b52
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/22/2019
-ms.locfileid: "35183377"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35772515"
 ---
 # <a name="get-microsoft-365-for-campaigns"></a>캠페인에 대 한 Microsoft 365 받기
 
@@ -53,7 +53,7 @@ Microsoft 365 비즈니스를 포함 하는 모든 사람에 게이 지침을 �
 
 ## <a name="how-do-i-qualify-for-special-pricing"></a>특별 가격 산정을 위해서는 어떻게 해야 합니까?
 
-1. 으로 이동 https://m365forcampaigns.microsoft.com/ 하 고 조직에 대 한 몇 가지 세부 정보를 제공 합니다. 사용자가 제공 하는 세부 정보는 미국 수준의 정치적 캠페인 또는 회사를 대표 하는 것을 확인 하는 데 도움이 됩니다. 이 양식을 완료 해도 약정을 사용할 수 없습니다. 
+1. 으로 이동 https://m365forcampaigns.microsoft.com/ 하 고 조직에 대 한 몇 가지 세부 정보를 제공 합니다. 세부 정보를 제공 하 여 미국 지역의 정치적 캠페인 또는 파티를 나타내는지 확인 하는 데 도움이 됩니다. 이 양식을 완료 해도 약정을 사용할 수 없습니다. 
 2. 양식을 완료 한 후에는 정보를 검토 하는 데 며칠 정도 걸립니다. 
 3. 국내 수준의 정치 캠페인 또는 파티를 대표 하는 것을 확인 한 후에는 Microsoft 로부터 전자 메일 초대를 받을 수 있습니다. 초대에는 조직에 맞는 등록 링크가 포함 되어 있습니다. 
 

@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Outlook을 사용 하 여 암호화 된 전자 메일을 보내는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 16e6a6977d7cd8ec4d6bf59adbcd196b14995752
-ms.sourcegitcommit: c452413dff5d5388c9725f38871246237c313e65
+ms.openlocfilehash: e58a69c25c00a0482d3837d9bde626ec0a54936f
+ms.sourcegitcommit: 75b97d1ff617bc4b1b0ef9135dfe6a8842ea1b52
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/22/2019
-ms.locfileid: "35183371"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35772325"
 ---
 # <a name="encrypt-or-label-your-sensitive-email"></a>중요 한 전자 메일 암호화 또는 레이블 지정
 
@@ -54,7 +54,7 @@ ms.locfileid: "35183371"
 
 ### <a name="automatically-encrypt-email-messages"></a>자동으로 전자 메일 메시지 암호화
 
-관리자는 캠페인에서 보내고 받는 전자 메일 메시지를 자동으로 보호 하는 메일 흐름 규칙을 만들 수 있습니다. 규칙을 설정 하 여 보내는 전자 메일 메시지를 암호화 하 고 조직 내부에서 들어오는 암호화 된 메시지에서 암호화를 제거 하 고 조직이 보낸 암호화 된 메시지에 대 한 회신을 제거할 수 있습니다. 
+관리자는 캠페인에서 보내고 받는 전자 메일 메시지를 자동으로 보호 하는 메일 흐름 규칙을 만들 수 있습니다. 규칙을 설정 하 여 보내는 전자 메일 메시지를 암호화 하 고 조직 내부에서 들어오는 암호화 된 메시지에서 암호화를 제거 하 고 조직에서 보낸 암호화 된 메시지에 대 한 회신을 제거할 수 있습니다. 
 
 메일 흐름 규칙을 만들어 새 Office 365 메시지 암호화 (OME) 기능을 사용 하 여 전자 메일 메시지를 암호화 합니다. EAC (Exchange 관리 센터)를 사용 하 여 새 OME 기능으로 메시지 암호화를 트리거하는 메일 흐름 규칙을 정의 합니다. 
 

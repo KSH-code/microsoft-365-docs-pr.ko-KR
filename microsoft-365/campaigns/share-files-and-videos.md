@@ -21,21 +21,21 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Microsoft 팀 및 SharePoint를 사용 하 여 캠페인 내부에서 파일 및 비디오를 공유 합니다.
-ms.openlocfilehash: bcc81b65661e113083705c6536f6de4d030a3de7
-ms.sourcegitcommit: 7e46db0b35c188ee6a7b40ab3eb2d76ff6c101c5
+description: 캠페인 내부에서 Microsoft 팀과 SharePoint로 파일 및 비디오를 공유 합니다.
+ms.openlocfilehash: c554ba2b4e7945cefa9a1e7114b3726efa58561e
+ms.sourcegitcommit: 75b97d1ff617bc4b1b0ef9135dfe6a8842ea1b52
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "35081058"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35772345"
 ---
 # <a name="share-files-and-videos"></a>파일 및 비디오 공유
 
-파일을 볼 수 있는 사람 및 편집할 수 있는 사용자를 제어 해야 하는 경우에는 해당 파일을 안전한 위치에 저장 해야 하며,이 경우 사용 권한이 적절 하 게 적용 되는지 확인할 수 있습니다. Microsoft 팀을 사용 하 여 파일을 저장 한 다음 Microsoft 팀과 캠페인 내부나 외부에서 SharePoint 링크를 보내 파일을 공유할 수 있습니다. 전자 메일 첨부 파일이 아니라 링크를 보내는 것은 사용자가 파일을 보고 수정 하 고 있는지와 사용자의 권한 없이 보거나 수정할 수 없다는 것을 의미 합니다. 
+파일을 볼 수 있는 사람 및 편집할 수 있는 사용자를 제어 해야 하는 경우에는 해당 파일을 안전한 위치에 저장 해야 하며, 권한이 적절 하 게 적용 되는지 확인할 수 있습니다. Microsoft 팀을 사용 하 여 파일을 저장 한 다음 Microsoft 팀과 캠페인 내부나 외부에서 SharePoint 링크를 보내 파일을 공유할 수 있습니다. 전자 메일 첨부 파일이 아니라 링크를 보내는 것은 사용자가 파일을 보고 수정 하 고 있는지와 사용자의 권한 없이 보거나 수정할 수 없다는 것을 의미 합니다. 
 
-![메뉴에 있는 파일 탭 열기 및 링크 가져오기가 표시 된 Microsoft 팀 창 다이어그램](media/m365-democracy-teams-sharefiles.png)
+![파일 탭을 표시 하 고 메뉴의 링크를 가져올 수 있는 Microsoft 팀 창 다이어그램](media/m365-democracy-teams-sharefiles.png)
 
-Microsoft 팀 및 SharePoint에서 파일을 사용 하 여 파일을 함께 작업 하 고 서로의 변경 내용을 검토할 수도 있습니다. Microsoft 팀을 사용 하 여 정치적 캠페인 내에서 파일을 공유 하는 경우 Microsoft 팀을 사용 하 여이 작업을 수행할 수 있습니다. 캠페인 외부의 사용자와 외부적으로 공유 해야 하는 경우 팀에 게스트로 추가 하거나 안전한 SharePoint 링크를 보내도록 할 수 있습니다.
+Microsoft 팀 및 SharePoint에서 파일을 사용 하 여 파일을 함께 작업 하 고 서로의 변경 내용을 검토할 수도 있습니다. Microsoft 팀을 사용 하 여 정치적 캠페인 내에서 파일을 공유할 수 있습니다. 캠페인 외부의 사용자와 외부적으로 공유 해야 하는 경우 팀에 게스트로 추가 하거나 안전한 SharePoint 링크를 보내도록 할 수 있습니다.
 
 Microsoft Stream을 사용 하 여 캠페인에 대 한 비디오를 저장 하 고 공유할 수도 있습니다. 이러한 비디오는 내부 캠페인 메시징에 가장 적합 하도록 공용에 볼 수 없습니다.
 
@@ -43,7 +43,7 @@ Microsoft Stream을 사용 하 여 캠페인에 대 한 비디오를 저장 하 
 
 다음 방법을 사용 하 여 파일 및 비디오를 안전 하 게 공유 합니다.
 
-1. Microsoft 팀 또는 SharePoint에 파일을 저장 하 고 해당 파일에 대 한 액세스 권한이 있는 사용자 에게만 해당 파일이 있는지 확인 합니다. 
+1. Microsoft 팀 이나 SharePoint에 파일을 저장 하 고 해당 파일에 대 한 액세스 권한이 필요한 사용자 에게만 해당 파일이 있는지 확인 합니다. 
 2. 공유 하려는 경우에는 파일을 전자 메일에 첨부 하지 마세요. 대신 Microsoft 팀 또는 SharePoint에서 **링크 가져오기를** 선택 하 고 전자 메일로 링크를 보냅니다.
 3. 외부에서 파일을 공유 하려면 사용자를 팀에 게스트로 추가 하거나 SharePoint를 사용 하 여 해당 파일만 공유 하기 위한 보안 링크를 가져옵니다.
 4. Microsoft Stream을 사용 하 여 캠페인에서 보려는 비디오를 호스팅합니다. 

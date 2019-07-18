@@ -19,12 +19,12 @@ search.appverid:
 - BCS160
 - MET150
 description: 관리자 계정을 설정 하 고 보호 하는 방법을 알아봅니다.
-ms.openlocfilehash: 857c24ac0ec134e119b3de083afe8dc3269bdbe2
-ms.sourcegitcommit: c452413dff5d5388c9725f38871246237c313e65
+ms.openlocfilehash: 33bf7f8a2a1e666a7822be1d52ac2d81fc681230
+ms.sourcegitcommit: 75b97d1ff617bc4b1b0ef9135dfe6a8842ea1b52
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/22/2019
-ms.locfileid: "35183378"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35772475"
 ---
 # <a name="protect-your-administrator-accounts"></a>관리자 계정 보호
 
@@ -38,7 +38,7 @@ Microsoft 365 Business에 등록 하 고 정보를 입력 하면 자동으로 �
 
 ## <a name="create-additional-admin-accounts"></a>추가 관리자 계정 만들기
 
-관리 계정만 관리자에 게 사용 합니다. 관리자는 Office 앱을 정기적으로 사용 하기 위한 별도의 사용자 계정을 가져야 하며, 계정, 장치 및 기타 관리 기능 작업을 관리 하는 데 필요한 경우에만 해당 관리자 계정을 사용 해야 합니다.  또한 관리자 계정에서 Microsoft 365 Business 라이선스를 제거 하 여 요금을 지불할 필요가 없도록 하는 것이 좋습니다.
+관리 계정만 관리자에 게 사용 합니다. 관리자는 Office 앱을 정기적으로 사용 하기 위한 별도의 사용자 계정을 가져야 하며, 계정, 장치 및 기타 관리 기능 작업을 관리 하는 데 필요한 경우에만 해당 관리자 계정을 사용 해야 합니다. 또한 관리자 계정에서 Microsoft 365 Business 라이선스를 제거 하 여 요금을 지불할 필요가 없도록 하는 것이 좋습니다.
 
 다른 신뢰할 수 있는 직원에 게 관리자 액세스 권한을 부여 하려면 하나 이상의 추가 전역 관리자 계정을 설정 하는 것이 좋습니다. 사용자 관리를 위해 별도의 관리자 계정을 만들 수도 있습니다 (이 역할은 **사용자 관리 관리자**라고 함). 자세한 내용은 [관리자 역할 정보](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) 를 참조 하세요.
 
@@ -78,6 +78,6 @@ Microsoft 365 Business에 등록 하 고 정보를 입력 하면 자동으로 �
 
 ## <a name="additional-recommendations"></a>추가 권장 사항
 
-- 관리자 계정도 다단계 인증용으로 설정 해야 합니다. 여기서는 [조건부 액세스 정책 구성](m365-campaigns-conditional-access.md)에서이 작업을 수행 하는 방법을 알아봅니다.
+- 관리 계정도 다단계 인증용으로 설정 해야 합니다. 여기서는 [조건부 액세스 정책 구성](m365-campaigns-conditional-access.md)에서이 작업을 수행 하는 방법을 알아봅니다.
 - 관리 계정을 사용 하기 전에 개인 전자 메일 계정을 포함 하 여 관련 없는 브라우저 세션과 앱을 모두 닫으십시오. 전용 또는 incognito 브라우저 창 에서도 사용할 수 있습니다.
 - 관리 작업을 완료 한 후에는 브라우저 세션에서 로그 아웃 해야 합니다.
