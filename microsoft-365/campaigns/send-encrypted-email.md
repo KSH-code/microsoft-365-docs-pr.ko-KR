@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Outlook을 사용 하 여 암호화 된 전자 메일을 보내는 방법에 대해 알아봅니다.
-ms.openlocfilehash: e58a69c25c00a0482d3837d9bde626ec0a54936f
-ms.sourcegitcommit: 75b97d1ff617bc4b1b0ef9135dfe6a8842ea1b52
+ms.openlocfilehash: 7420073ba768f0e5adba33d673d3ccd6369e306c
+ms.sourcegitcommit: 2f4a61f02ea90102ded8e5d71c9b78a1f7f6b789
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 07/18/2019
-ms.locfileid: "35772325"
+ms.locfileid: "35778143"
 ---
 # <a name="encrypt-or-label-your-sensitive-email"></a>중요 한 전자 메일 암호화 또는 레이블 지정
 
@@ -60,7 +60,7 @@ ms.locfileid: "35772325"
 
 1. 웹 브라우저에서 전역 관리자 권한이 부여 된 회사 또는 학교 계정을 사용 하 여 Office 365에 로그인 합니다. 
 2. 관리 타일을 선택 합니다. 
-3. Office 365 관리 센터에서 **관리 센터 > Exchange**를 선택 합니다. 
+3. 관리 센터에서 **관리 센터 > Exchange**를 선택 합니다. 
 
 자세한 내용은 [Office 365에서 전자 메일 메시지를 암호화 하는 메일 흐름 규칙 정의](https://docs.microsoft.com/en-us/office365/securitycompliance/define-mail-flow-rules-to-encrypt-email)를 참조 하세요.
 
