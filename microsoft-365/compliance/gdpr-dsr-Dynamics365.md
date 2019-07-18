@@ -10,12 +10,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: GDPR
-ms.openlocfilehash: 468a8c7f1151443d001efb89639c5cdad204b1c2
-ms.sourcegitcommit: 6e2a54ec395eaef4c4658ca52322c3d0f184ca02
+ms.openlocfilehash: fc2d978b50a433249e016c25b4c234de6c7f46b8
+ms.sourcegitcommit: 2f4a61f02ea90102ded8e5d71c9b78a1f7f6b789
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "34698240"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35778133"
 ---
 # <a name="dynamics-365-data-subject-requests-for-the-gdpr"></a>GDPR에 대한 Dynamics 365 데이터 주체 요청
 
@@ -224,7 +224,7 @@ Microsoft Social Engagement는 고객 데이터 및 소셜 콘텐츠에서 찾�
 
 찾는 방법:
 
-- 사용자 프로필, [Office 365 관리 센터](https://portal.office.com/adminportal/home)로 이동합니다. **관리 센터**에서 **사용자**를 선택합니다. **활성사용자** 페이지에서 목록에 있는 사용자를 검색 합니다. Social Engagement에서 **설정 \> 사용자 관리**로 이동하여 Office 365에서 자동으로 동기화된 정보를 확인합니다.
+- 사용자 프로필, [관리 센터](https://portal.office.com/adminportal/home)로 이동합니다. **관리 센터**에서 **사용자**를 선택합니다. **활성사용자** 페이지에서 목록에 있는 사용자를 검색 합니다. Social Engagement에서 **설정 \> 사용자 관리**로 이동하여 Office 365에서 자동으로 동기화된 정보를 확인합니다.
 - 경고 수신자: [관리자 권한으로 경고 수신자 관리](https://docs.microsoft.com/dynamics365/customer-engagement/social-engagement/email-alerts#manage-alert-recipients-as-administrator)의 처음 두 단계를 따릅니다.
 - 직원이 입력한 소셜 프로필 데이터: **설정 \> 소셜 프로필**로 이동합니다. (자세한 내용은 [소셜 프로필 관리](https://docs.microsoft.com/dynamics365/customer-engagement/social-engagement/manage-social-profiles)를 참조하세요.)
 - Power BI의 사용자 이름: Social Engagement Power BI 대시보드를 열고 직원 이름을 기준으로 필터링합니다.
@@ -242,7 +242,7 @@ GDPR은 요청에 따라 개인 데이터의 복사본을 받을 권리를 데�
 
 내보낼 대상:
 
-- 사용자 프로필의 고객 데이터는 [Office 365 관리 센터](https://portal.office.com/adminportal/home)로 이동하십시오. **관리 센터**에서 **사용자**를 선택합니다. **활성 사용자** 페이지에서 내보내려는 데이터의 사용자를 검색하십시오. 대상 사용자를 제외한 모든 사용자를 삭제한 다음 **내보내기**를 선택해 Excel을 사용하여 정보를 볼 수 있는 .csv 파일로 데이터를 내보냅니다.
+- 사용자 프로필의 고객 데이터는 [관리 센터](https://portal.office.com/adminportal/home)로 이동합니다. **관리 센터**에서 **사용자**를 선택합니다. **활성 사용자** 페이지에서 내보내려는 데이터의 사용자를 검색하십시오. 대상 사용자를 제외한 모든 사용자를 삭제한 다음 **내보내기**를 선택해 Excel을 사용하여 정보를 볼 수 있는 .csv 파일로 데이터를 내보냅니다.
 - 경고 수신자의 전자 메일 주소(경고 상태의 유일한 고객 데이터). [경고받는 사람을 관리자로 관리](https://docs.microsoft.com/dynamics365/customer-engagement/social-engagement/email-alerts#manage-alert-recipients-as-administrator)의 단계를 따르십시오. 그런 다음 **내보내기**를 선택하여 이 수신자가 포함된 경고의 Excel 목록을 다운로드하십시오.
 - Power BI의 사용자 이름: [계약 보고](https://docs.microsoft.com/dynamics365/customer-engagement/social-engagement/get-content-pack-for-power-bi)에서 소셜 미디어에 대한 팀 성과 보고서에는 사용자 이름이 표시됩니다. 이 데이터를 내보내려면 PowerBI 대시보드 또는 [보고서](https://docs.microsoft.com/power-bi/power-bi-report-add-filter)에서 사용자를 기준으로 필터링하고 [데이터를 내보냅니다](https://docs.microsoft.com/power-bi/power-bi-visualization-export-data).
 
@@ -317,7 +317,7 @@ Social Engagement는 소셜 플랫폼에서 직접 트리거된 게시물 삭제
 
 내보낼 대상:
 
-- 사용자 프로필의 고객 데이터는 [Office 365 관리 센터](https://portal.office.com/adminportal/home)로 이동하십시오. **관리 센터**에서 **사용자**를 선택합니다. **활성 사용자** 페이지에서 내보내려는 데이터의 사용자를 검색하십시오. 대상 사용자를 제외한 모든 사용자를 삭제한 다음 **내보내기**를 선택해 Excel을 사용하여 정보를 볼 수 있는 .csv 파일로 데이터를 내보냅니다.
+- 사용자 프로필의 고객 데이터는 [관리 센터](https://portal.office.com/adminportal/home)로 이동합니다. **관리 센터**에서 **사용자**를 선택합니다. **활성 사용자** 페이지에서 내보내려는 데이터의 사용자를 검색하십시오. 대상 사용자를 제외한 모든 사용자를 삭제한 다음 **내보내기**를 선택해 Excel을 사용하여 정보를 볼 수 있는 .csv 파일로 데이터를 내보냅니다.
 - 경고 수신자의 전자 메일 주소(경고의 유일한 개인 데이터): [관리자 권한으로 경고 수신자 관리](https://docs.microsoft.com/dynamics365/customer-engagement/social-engagement/email-alerts#manage-alert-recipients-as-administrator)의 단계를 따릅니다. 그런 후 **내보내기**를 선택하여 이 수신자가 포함된 경고의 Excel 목록을 다운로드합니다.
 - Power BI의 사용자 이름: [계약 보고](https://docs.microsoft.com/dynamics365/customer-engagement/social-engagement/get-content-pack-for-power-bi)에서 소셜 미디어에 대한 팀 성과 보고서에는 사용자 이름이 표시됩니다. 이 데이터를 내보내려면 PowerBI 대시보드 또는 [보고서](https://docs.microsoft.com/power-bi/power-bi-report-add-filter)에서 사용자를 기준으로 필터링하고 [데이터를 내보냅니다](https://docs.microsoft.com/power-bi/power-bi-visualization-export-data).
 
