@@ -1,4 +1,0 @@
-<span data-ttu-id="5ada7-101">--title: Microsoft Managed Desktop 참조 설명: 특정 Microsoft Managed desktop 기능에 대 한 자세한 정보 키워드: Microsoft Managed Desktop, Microsoft 365, 서비스, 설명서 ms. 서비스: m365-md 작성자: jaimeo localizationpriority: normal</span><span class="sxs-lookup"><span data-stu-id="5ada7-101">-- title: Microsoft Managed Desktop reference description: Detailed information on certain Microsoft Managed Desktop features keywords: Microsoft Managed Desktop, Microsoft 365, service, documentation ms.service: m365-md author: jaimeo ms.localizationpriority: normal</span></span>
----
-
-# <a name="microsoft-managed-desktop-reference"></a><span data-ttu-id="5ada7-102">Microsoft Managed Desktop 참조</span><span class="sxs-lookup"><span data-stu-id="5ada7-102">Microsoft Managed Desktop reference</span></span>
