@@ -3,16 +3,16 @@ title: Microsoft Managed Desktop에 대 한 지원 받기
 description: ''
 keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 설명서
 ms.service: m365-md
-author: jdeckerms
+author: jaimeo
 ms.localizationpriority: normal
 ms.date: 11/28/2018
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: a073a5dfe61b036cbdc3bf9b0be08bc559acb548
-ms.sourcegitcommit: 720881c1a9c5f708e1b4adf7e5ea4ff8da48ea99
+ms.openlocfilehash: 1e98ef5a7c800ed3fb7fe1b7355e535ed3576c1e
+ms.sourcegitcommit: dd0d99d2ff930cd1777d6704f4d88a70adc9ca74
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/14/2019
-ms.locfileid: "33970475"
+ms.lasthandoff: 07/24/2019
+ms.locfileid: "35853167"
 ---
 # <a name="getting-help-for-end-users"></a>최종 사용자를 위한 도움말 보기
 
@@ -41,7 +41,7 @@ ms.locfileid: "33970475"
 - 오스트레일리아: + 61 180 037 0619
 
 >[!NOTE]
->전화를 걸 때 장치 일련 번호를 준비 하세요. 
+>Id를 확인 하기 위해 전화를 걸려면 조직의 전자 메일 주소를 준비 하세요. 
 
 ## <a name="additional-resources"></a>추가 리소스
 - [Microsoft Managed Desktop에 대 한 관리자 지원](admin-support.md) 
