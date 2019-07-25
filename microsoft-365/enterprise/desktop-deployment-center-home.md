@@ -13,14 +13,72 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 데스크톱 배포 센터의 개요입니다.
-ms.openlocfilehash: 659ea39fc4ccd1c06d79c8a5c39ff2c4e85ba9ce
-ms.sourcegitcommit: 7e806db3d44ec223754efe1e9613b2c7117c4788
+ms.openlocfilehash: b19c2f5df6368fd6066b6506a17ed81ddf57f8c6
+ms.sourcegitcommit: 275d5c2d74e55ef6488594165367b02e735dc540
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "34814649"
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "35834031"
 ---
 # <a name="desktop-deployment-center"></a>데스크톱 배포 센터
+
+<table border="0">
+ <tr>
+ <td>
+  <strong>Windows 7에서 Windows 10으로 업그레이드 </strong><p>Windows 7 연장 지원은 2020 년 1월 14일에 종료됩니다. Windows 7에서 Windows 10으로의 전체 업그레이드가 가장 빠른 배포 방법입니다. System Center Configuration Manager를 사용하여 <a href="https://docs.microsoft.com/ko-KR/microsoft-365/enterprise/windows-7-to-windows-10-upgrade-manual">단일 PC를 업그레이드</a>하거나 <a href="https://docs.microsoft.com/ko-KR/microsoft-365/enterprise/windows-7-to-windows-10-upgrade-automated">수천 대의 PC를 업그레이드</a>할 수 있습니다. 전체 업그레이드를 사용하여 앱 제공, 파일 마이그레이션, 사용자 지정 이미징 또는 클라우드 기반 서비스 사용에 집중할 필요가 없습니다. 이미 가지고 있는 도구를 사용하여 기존 PC를 업그레이드하고 업그레이드를 위한 다음 배포 단계에 집중할 수 있습니다. </td>
+ </tr>
+ <tr>
+ <td>
+    <table border="0">
+     <tr>
+     <td>
+        <table border="0">
+             <tr>
+                  <td>
+                  <img src="media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-5.png" alt="Upgrade ConfigMgr" height="144" width="144" />
+              </td>
+              <td>
+              <strong>ConfigMgr를 현재 분기로 업그레이드</strong>
+                  </td>
+                 </tr>
+                </table>
+    </td>
+        <td>
+        <table border="0">
+             <tr>
+                  <td>
+                  <img src="media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-3.png" alt="Device and App Readiness" height="144" width="144" />
+              </td>
+              <td>
+              <strong>디바이스 및 앱 준비 상태 확인</strong>
+                  </td>
+                 </tr>
+                </table>
+    </td>
+        <td>
+        <table border="0">
+             <tr>
+                  <td>
+                  <img src="media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-9.png" alt="Upgrade Windows 7 PCs" height="144" width="144" />
+              </td>
+              <td>
+              <strong>Windows 7 PC를 Windows 10으로 업그레이드</strong>
+                  </td>
+                 </tr>
+                </table>
+        </td>
+        </tr>
+    </td>
+    </tr>
+    <tr>
+    <td>
+SCCM을 사용하는 조직을 위한 디렉터리 및 네트워크 준비 단계의 일부 </td>
+    <td>
+디바이스 및 앱 준비 단계의 일부입니다. Desktop App Assure를 통해 도움말을 사용할 수 있습니다. </td>
+    <td>
+사용자 보유 PC를 위한 OS 배포 및 기능 업데이트 단계의 일부 </td>
+    </tr>
+</table>
 
 <img src="media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-2.png" alt="Desktop Deployment Wheel" height="450" width="802" align="middle" style="background-color: #fff;" />
 
