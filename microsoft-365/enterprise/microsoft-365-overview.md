@@ -3,20 +3,20 @@ title: Microsoft 365 Enterprise 개요
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 04/23/2019
-ms.audience: ITPro
+ms.date: 07/30/2019
+audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Normal
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: Microsoft 365 Enterprise의 구성 요소, 계획 및 배포 경로에 대해 소개 합니다.
-ms.openlocfilehash: d3cac3274a93c2f6d2d042a03a5140f16152d8d9
-ms.sourcegitcommit: dbcc32218489ab256b7eb343290fcccb9bc04e36
+ms.openlocfilehash: ec2a8f0d60f50503f8f5cf457c2999598e248053
+ms.sourcegitcommit: 63ca34172fcb9a957ce86b878a4d8d0f935c6a7b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/02/2019
-ms.locfileid: "33553337"
+ms.lasthandoff: 07/30/2019
+ms.locfileid: "35937427"
 ---
 # <a name="microsoft-365-enterprise-overview"></a>Microsoft 365 Enterprise 개요
 
@@ -30,9 +30,9 @@ Microsoft 365 Enterprise는 다음으로 구성 됩니다.
 
 |||
 |:-------|:-----|
-| Office 365 Enterprise | Office 365 ProPlus, PC 및 Mac 용 최신 Office 앱 (예: Word, Excel, PowerPoint, Outlook 등)과 전자 메일, 파일 저장 및 공동 작업, 모임 등에 대 한 전체 온라인 서비스 모음을 포함 합니다. |
+| 로컬 및 클라우드 기반 앱 및 생산성 서비스 | Office 365 ProPlus, PC 및 Mac 용 최신 Office 앱 (예: Word, Excel, PowerPoint, Outlook 등)과 전자 메일, 파일 저장 및 공동 작업, 모임 등에 대 한 전체 온라인 서비스 모음을 포함 합니다. |
 | Windows 10 Enterprise | 광범위 한 배포, 장치 및 앱 관리를 통해 사용자에 게 가장 생산적이 고 안전한 버전의 Windows 및 IT 전문가가 제공 되는 대규모 및 중간 규모 조직 모두의 요구 사항을 해결 합니다. |
-| EMS (Enterprise Mobility + Security) | 회사 데이터를 보호 하는 동시에 직원의 생산성을 높일 수 있도록 하는 클라우드 기반 엔터프라이즈 이동성 관리 (EMM) 서비스인 Microsoft Intune이 포함 되어 있습니다. |
+| 장치 관리 및 고급 보안 서비스 | 회사 데이터를 보호 하는 동시에 직원의 생산성을 높일 수 있도록 하는 클라우드 기반 엔터프라이즈 이동성 관리 (EMM) 서비스인 Microsoft Intune이 포함 되어 있습니다. |
 |||
 
 ## <a name="plans"></a>계획
@@ -41,10 +41,17 @@ Microsoft 365 Enterprise는 3 가지 요금제로 제공 됩니다.
 
 |||
 |:-------|:-----|
-| E3 | Office 365 Enterprise, Windows 10 Enterprise 및 EMS (Enterprise Mobility + Security)를 포함 합니다. |
-| E5 | 모든 E3's 기능 및 고급 보안, 음성 및 데이터 분석 도구를 포함 합니다. |
-| F1 | 최고 작업을 수행 하는 데 필요한 도구 및 리소스에 firstline worker를 연결 하기 위한 목적으로 작성 되었습니다. Firstline worker가 고객에 게 참여 하 고 회사의 브랜드 및 가치를 나타내는 첫 번째 라인입니다. |
+| E3 | 회사 생산성을 향상 시키고 안전 하 게 작업 하는 데 도움이 되도록 Microsoft 365 내의 핵심 제품과 기능에 액세스 합니다. |
+| E5 | Advanced threat protection, 보안 및 공동 작업 도구를 포함 하 여 Microsoft 365 내의 최신 제품 및 기능에 액세스 합니다. 모든 E3's 기능 및 고급 보안, 음성 및 데이터 분석 도구를 포함 합니다. |
+| F1 | 최고 작업을 수행 하는 데 사용할 수 있는 용도의 제작 된 도구 및 리소스를 통해 Firstline 작업자와 연결 합니다. |
 |||
+
+Microsoft 365 Entep76e3을 보유 하 고 있는 경우 다음과 같은 [제공품](https://www.microsoft.com/microsoft-365/blog/2019/01/02/introducing-new-advanced-security-and-compliance-offerings-for-microsoft-365/)을 얻을 수도 있습니다.
+
+- Id & 위협 방지
+- 정보 보호 & 준수
+
+이러한 제품에는 Microsoft 365 Enterprise E5에 포함 된 추가 기능이 포함 되어 있습니다.
 
 자세한 내용은 [각 요금제의 기능 및](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans)기능을 참조 하십시오.
 
@@ -52,7 +59,7 @@ Microsoft 365 Enterprise는 3 가지 요금제로 제공 됩니다.
 
 [Microsoft 365 엔터프라이즈 포스터](http://aka.ms/m365eposter) 는 다음을 볼 수 있는 중앙 위치입니다.
 
-- Microsoft 365 Enterprise의 제품 및 기능과 그 가치를 핵심 요소로으로 매핑하는 방법
+- Microsoft 365 Enterprise의 이점과이를 핵심 요소로 가치에 매핑하는 방법
 - Microsoft 365 Enterprise 요금제 및 해당 계획에 포함 되는 구성 요소 
 - Microsoft 365 Enterprise에서 사용 하는 최신 작업 공간의 주요 구성 요소
 - Microsoft 365 엔터프라이즈의 주요 비즈니스 가치 시나리오 및 해당 사용자가 수행 하는 서비스 및 제품
@@ -103,6 +110,7 @@ Microsoft 365 Enterprise의 제품, 기능 및 구성 요소를 배포 하는 �
 |||
 |:-------|:-----|
 ![](./media/m365-poster/m365-fundamentals.svg)| 직접 훈련 하 고 Microsoft 365 인증을 받아야 합니다. <BR> [Microsoft 365 기본](https://docs.microsoft.com/learn/paths/m365-fundamentals/)사항을 사용 하 여 시작 합니다.
+|||
 
 
 ## <a name="next-step"></a>다음 단계
