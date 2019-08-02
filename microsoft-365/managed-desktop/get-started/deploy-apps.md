@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 5eac2e8c3023015bd034c51ad7e16a669a484772
-ms.sourcegitcommit: 427c6459614d58f6ef7c74354ae1816423e22323
+ms.openlocfilehash: 5e842849afbedd506689caa9ffc0953a58e18fed
+ms.sourcegitcommit: f5c9aff5700f7824bf71f4a7e8c7236f7d91043e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "35390425"
+ms.lasthandoff: 08/02/2019
+ms.locfileid: "36059588"
 ---
 # <a name="deploy-apps-to-microsoft-managed-desktop-devices"></a>Microsoft Managed Desktop 장치에 앱 배포
 Microsoft Managed Desktop 온 보 딩에는 사용자의 장치에 앱을 추가 및 배포 하는 작업이 포함 됩니다. Microsoft Managed Desktop portal을 사용 하 고 나면 앱을 추가 및 배포할 수 있습니다. 
@@ -41,9 +41,9 @@ Microsoft Managed Desktop portal에 로그인 하거나 Intune에 로그인 한 
 1.  [Microsoft Managed 데스크톱 관리 포털](http://aka.ms/mmdportal)에 로그인 합니다. 
 2.  **인벤토리에서** **앱**을 선택 합니다.
 3.  앱 작업에서 **추가**를 선택 합니다.
-4.  **앱 추가**에서 lob ( **기간 업무) 앱** 또는 **Windows 앱 (Win32)-미리 보기**를 선택 합니다.
+4.  **앱 추가**에서 lob ( **기간 업무) 앱** 또는 **Windows 앱 (Win32)** 을 선택 합니다.
     - **기간 업무**(lob) 앱을 선택한 경우 lob (기간 업무) 앱 추가 및 구성에 대 한 지침을 보려면 [Microsoft Intune에 Windows lob (기간 업무) 앱 추가](https://docs.microsoft.com/intune/lob-apps-windows) 를 참조 하세요.
-    - **Windows 앱 (Win32)-미리 보기**를 선택한 경우 windows 앱 추가 및 구성에 대 한 지침은 [win32 앱 관리](https://docs.microsoft.com/intune/apps-win32-app-management) 를 참조 하세요.
+    - **Windows 앱 (win32)** 을 선택한 경우 windows 앱 추가 및 구성에 대 한 지침은 [win32 앱 관리](https://docs.microsoft.com/intune/apps-win32-app-management) 를 참조 하세요.
 
 <span id="msfb-apps">
 
