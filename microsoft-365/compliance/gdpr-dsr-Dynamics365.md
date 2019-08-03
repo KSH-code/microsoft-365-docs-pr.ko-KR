@@ -10,12 +10,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: GDPR
-ms.openlocfilehash: fc2d978b50a433249e016c25b4c234de6c7f46b8
-ms.sourcegitcommit: 2f4a61f02ea90102ded8e5d71c9b78a1f7f6b789
+ms.openlocfilehash: 72277ec2dfe7681aa5f596e655d5e275bbb64dd1
+ms.sourcegitcommit: 5615e790dc53ccc74f3c475ca43d69ca56be348a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35778133"
+ms.lasthandoff: 07/31/2019
+ms.locfileid: "36041182"
 ---
 # <a name="dynamics-365-data-subject-requests-for-the-gdpr"></a>GDPR에 대한 Dynamics 365 데이터 주체 요청
 
@@ -87,7 +87,7 @@ Dynamics 365 for Marketing에서는 다음과 같은 추가 기능을 사용할 
 
 ***Dynamics 365 고객 서비스 통계***는 고객의 GDPR 요청에 응답하기 위해 [고객 데이터](https://docs.microsoft.com/dynamics365/ai/customer-service-insights/gdpr-discovery)를 찾는 데 도움이 되는 리소스 목록을 제공합니다. 
 
-***Dynamics 365 재무 및 운영***은 고객 데이터를 검색할 수 있는 몇 가지 방법을 제공합니다. 사용자는 테넌트 관리자로서 다음 작업을 수행하여 고객 데이터를 검색할 수 있습니다.
+***재무 및 운영용 Dynamics 365***은 고객 데이터를 검색할 수 있는 몇 가지 방법을 제공합니다. 사용자는 테넌트 관리자로서 다음 작업을 수행하여 고객 데이터를 검색할 수 있습니다.
 
 - 개인 데이터를 빠르게 검색하려는 목적에 맞게 고객 데이터를 구성합니다. 이를 위해 [데이터 인벤토리 분류 방법](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/gdpr/gdpr-guide#detailed-inventory)을 참조하세요.
 - [개인 검색 보고서](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/gdpr/gdpr-guide#the-person-search-report)를 사용하여 개인 데이터를 찾아서 수집합니다.
@@ -96,7 +96,7 @@ Dynamics 365 for Marketing에서는 다음과 같은 추가 기능을 사용할 
 - 개인 데이터를 찾아 내보내는 사용자 지정 양식을 작성합니다.
 - 인증된 고객이 해당 개인 데이터를 볼 수 있도록 하는 외부 포털 또는 웹 사이트를 작성합니다.
 
-***Dynamics for Business Central***은 고객 데이터를 검색할 수 있는 몇 가지 방법을 제공합니다. 자세한 내용을 확인하려면 [검색, 필터링 및 데이터 정렬](https://docs.microsoft.com/dynamics-nav-app/ui-enter-criteria-filters)를 참조하십시오.
+***Dynamics 365 Business Central***은 고객 데이터를 검색할 수 있는 몇 가지 방법을 제공합니다. 자세한 내용을 확인하려면 [검색, 필터링 및 데이터 정렬](https://docs.microsoft.com/dynamics365/business-central/ui-enter-criteria-filters)를 참조하십시오.
 
 ***Dynamics 365 for Talent***는 상세하게 검색 및 필터 기능을 제공하여 특정 개인 데이터를 찾고, Microsoft Office 내보내기 기능을 사용하여 해당 데이터를 내보내거나 브라우저 확장을 사용하여 해당 정보를 .pdf로 인쇄합니다.
 
@@ -189,7 +189,7 @@ Dynamics 365 for Finance and Operations 및 ***Dynamics 365 for Talent*** 둘 �
 
 ***Dynamics 365 Business Central***은 다음과 같은 기능을 제공합니다.
 
-- 고객 데이터를 Excel 파일로 내보낼 수 있습니다. Excel에서 이식 가능성 요청에 포함되도록 고객 데이터를 편집하고 .csv 또는 .xml과 같이 일반적으로 사용되는 기계 가독 형식으로 저장할 수 있습니다. 자세한 내용은 [비즈니스 데이터를 Excel로 내보내기](https://docs.microsoft.com/dynamics-nav-app/about-export-data)를 참조하십시오.
+- 고객 데이터를 Excel 파일로 내보낼 수 있습니다. Excel에서 이식 가능성 요청에 포함되도록 고객 데이터를 편집하고 .csv 또는 .xml과 같이 일반적으로 사용되는 기계 가독 형식으로 저장할 수 있습니다. 자세한 내용은 [비즈니스 데이터를 Excel로 내보내기](https://docs.microsoft.com/dynamics365/business-central/about-export-data)를 참조하십시오.
 - 고객 데이터를 Excel 파일로 내보낼 수 있습니다. Excel에서 이식 가능성 요청에 포함되도록 고객 데이터를 편집하고 .csv 또는 .xml과 같이 일반적으로 사용되는 기계 가독 형식으로 저장할 수 있습니다. 자세한 내용은 [비즈니스 데이터를 Excel로 내보내기](https://docs.microsoft.com/ko-KR/dynamics365/business-central/about-export-data)를 참조하십시오.
 
 ### <a name="microsoft-social-engagement"></a>Microsoft Social Engagement
