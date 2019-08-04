@@ -4,7 +4,7 @@ ms.author: greglin
 author: greg-lindsay
 manager: laurawi
 ms.date: 03/05/2019
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 구성이 Windows 10 Enterprise에 대한 Microsoft 365 Enterprise 조건을 충족하는지 확인합니다.
-ms.openlocfilehash: 1e8a2e748f42431465c027acbc468f4c5891d320
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 29ab2373321485d8de892a29132d1af07a318b7b
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32289520"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34074108"
 ---
 # <a name="phase-3-windows-10-enterprise-infrastructure-exit-criteria"></a>3단계: Windows 10 Enterprise 인프라 종료 기준
 
@@ -37,7 +37,7 @@ Office 365 및 Intune 구독을 위한 Azure AD 테넌트는 "onmicrosoft.com"�
 
 ## <a name="optional-your-users-are-added-and-licensed"></a>선택적 작업: 사용자 추가 및 사용 허가
 
-사용자에 해당하는 계정은 Office 365 및 Intune 구독을 위한 Azure AD 테넌트에 직접 추가되거나 온-프레미스 AD DS(Active Directory Domain Services)에서의 디렉터리 동기화를 통해 추가됩니다.
+사용자에 해당하는 계정은 Office 365 및 Intune 구독을 위한 Azure AD 테넌트에 직접 추가되거나 온-프레미스 Active Directory Domain Services(AD DS)에서의 디렉터리 동기화를 통해 추가됩니다.
 
 사용자가 추가되면 전역 또는 사용자 관리자로서 직접, 또는 그룹 구성원 자격을 통해 자동으로 Microsoft 365 Enterprise 라이선스를 할당할 수 있습니다.
 
@@ -75,7 +75,7 @@ Windows Autopilot을 사용하여 새 장치에 Windows 10 Enterprise를 배포�
    - OOBE에 대한 회사 브랜딩
    - Microsoft Intune에서 MDM 자동 등록
    - Windows Autopilot에서 사용되는 클라우드 서비스에 대한 네트워크 연결
-- Windows 10, 버전 1703 이상이 미리 설치된 디바이스
+- Windows 10, 버전 1703 이상이 미리 설치된 장치
 - 조직을 위한 Windows Autopilot Deployment 프로그램 선택
 
 Windows Autopilot 구성이 완료되면 다음에 대한 OOBE(첫 실행 경험)을 위해 Windows 10 Enterprise를 구성하고 사용자 지정하는 데 사용할 수 있습니다.

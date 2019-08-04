@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Windows 및 Office 배포 랩 키트에 액세스하는 방법 및 위치에 대해 알아보세요.
-ms.openlocfilehash: ba1cd7e88766b6393bafcbd7381ceeb98f030d51
-ms.sourcegitcommit: 03828f954b9dddb265f867fa508178ec0d4a6aeb
+ms.openlocfilehash: a19c9d2de0cb4cb5436a8c3364bab0e24bb866ee
+ms.sourcegitcommit: 6cabf0226de1c95bff6ddb1852dac5ecdb2d6b96
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/08/2019
-ms.locfileid: "35584534"
+ms.lasthandoff: 07/23/2019
+ms.locfileid: "35830506"
 ---
 # <a name="windows-and-office-deployment-lab-kit"></a>Windows 및 Office 배포 랩 키트
 
@@ -116,7 +116,7 @@ Windows 10 및 Office 365 ProPlus의 [데스크톱 배포](http://www.aka.ms/how
   - Configuration Manager에서 Office 365 ProPlus 업데이트 관리
   - Microsoft Intune을 사용하여 Windows 10에 적용되는 모바일 장치 관리
 
-### <a name="download-the-windows-and-office-deployment-lab-kithttpsakamsmddlabsevalcenter"></a>[**Windows 및 Office 배포 랩 키트 다운로드**](https://aka.ms/mddlabs_evalcenter)
+### <a name="download-the-windows-and-office-deployment-lab-kithttpswwwmicrosoftcomevalcenterevaluate-lab-kit"></a>[**Windows 및 Office 배포 랩 키트 다운로드**](https://www.microsoft.com/evalcenter/evaluate-lab-kit)
 
 *광대역폭을 통해 이 콘텐츠를 다운로드하여 다운로드 환경을 개선하고 자동 프로비전을 위해 30-45분을 허용하세요. 이 랩 환경에는 최소 16GB의 사용 가능한 메모리와 150GB의 사용 가능한 디스크 공간이 필요합니다. 최적의 성능을 위해 32GB의 사용 가능한 메모리가 있는 것이 좋습니다. 이 랩은 2019년 8월 27일에 만료됩니다. 만료 전에 새 버전이 게시됩니다.*
 

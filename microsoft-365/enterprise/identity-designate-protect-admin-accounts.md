@@ -4,7 +4,7 @@ ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
 ms.date: 03/01/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 관리자 계정의 최대 보호를 위한 계정의 이해 및 구성.
-ms.openlocfilehash: 0be82fc6f431001c69e79a0a26007c54a87424c3
-ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
+ms.openlocfilehash: 8a1d232ffc0242766d79b2e4884582f3b5524d22
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2019
-ms.locfileid: "33353090"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34074058"
 ---
 # <a name="step-2-secure-your-privileged-identities"></a>2단계: 권한이 부여된 ID 보안
 
