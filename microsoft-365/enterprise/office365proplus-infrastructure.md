@@ -4,7 +4,7 @@ ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
 ms.date: 09/18/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Microsoft 365 Enterprise에 대한 Office 365 ProPlus 인프라를 배포하는 단계입니다.
-ms.openlocfilehash: 7905bcf37f2cda0e81208a9666c257e2c871110e
-ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
+ms.openlocfilehash: cf698e4dbee17a811a4d2bc01d08d4d97d1961c1
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33400232"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34074178"
 ---
 # <a name="phase-4-office-365-proplus"></a>4단계: Office 365 ProPlus
 
@@ -87,10 +87,7 @@ Office 365 ProPlus를 배포하기 전에 [Office 365 ProPlus를 배포하기 �
 
 ## <a name="how-microsoft-does-microsoft-365-enterprise"></a>Microsoft에서 Microsoft 365 Enterprise를 수행하는 방법
 
-다음 리소스에서는 전문가가 Microsoft 365 Enterprise에서 Office 365 ProPlus를 계획하고 배포한 방식을 알아봅니다.
-
-- [Microsoft Office 365 ProPlus 배포 및 업데이트](https://www.microsoft.com/itshowcase/Article/Content/757/Deploying-and-updating-Microsoft-Office-365-ProPlus)
-- [Microsoft Office 365 ProPlus를 배포하는 데 도움이 되는 자동화 및 업데이트 채널](https://www.microsoft.com/itshowcase/Article/Content/794/Automation-and-update-channels-help-deploy-Microsoft-Office-365-ProPlus)(비디오)
+Microsoft의 전문가가 [Office 365 ProPlus의 업데이트를 배포하고 관리](https://www.microsoft.com/en-us/itshowcase/deploying-and-managing-microsoft-365#primaryR7)하는 방법에 대해 알아봅니다.
 
 ## <a name="how-contoso-did-microsoft-365-enterprise"></a>Contoso의 Microsoft 365 Enterprise 사용 방식
 

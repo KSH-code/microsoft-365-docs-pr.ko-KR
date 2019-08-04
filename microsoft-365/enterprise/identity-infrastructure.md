@@ -4,7 +4,7 @@ ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
 ms.date: 04/16/2019
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Microsoft 365 Enterprise에 대한 ID 인프라를 배포하는 단계입니다.
-ms.openlocfilehash: 932b6fb2cfeb86edcf708bdfdea55cdd8b580838
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 6acd462a0fcd4169a42a0b1d0e1738ffcba597f5
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32288742"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34073898"
 ---
 # <a name="phase-2-identity"></a>2단계: ID
 
@@ -58,10 +58,7 @@ Microsoft에서는 직원 안전과 생산성을 유지하기 위해 [ID 및 디
 
 ## <a name="how-microsoft-does-microsoft-365-enterprise"></a>Microsoft에서 Microsoft 365 Enterprise를 수행하는 방법
 
-다음 리소스에서는 Microsoft의 IT 전문가가 Microsoft 365 Enterprise의 ID 기능을 계획하고 배포한 방식을 알아봅니다.
-
-- [Microsoft에서 사용자 ID 및 보안 액세스 관리](https://www.microsoft.com/itshowcase/Article/Content/931/Managing-user-identities-and-secure-access-at-Microsoft)
-- [상승된 액세스 권한에 대해 Azure AD Privileged Identity Management 사용](https://www.microsoft.com/itshowcase/Article/Content/887/Using-Azure-AD-Privileged-Identity-Management-for-elevated-access)
+Microsoft의 IT 전문가가 [ID와 보안 액세스를 관리하는 방법](https://www.microsoft.com/en-us/itshowcase/deploying-and-managing-microsoft-365#primaryR5)을 알아보세요.
 
 ## <a name="how-contoso-did-microsoft-365-enterprise"></a>Contoso의 Microsoft 365 Enterprise 사용 방식
 
