@@ -2,6 +2,7 @@
 ## [Microsoft Managed Desktop 이란 무엇 인가요?](intro/index.md)
 ### [역할 및 책임](intro/roles-and-responsibilities.md)
 ### [Microsoft Managed Desktop의 기술](intro/technologies.md)
+### [Microsoft Managed Desktop 및 ITIL](MMD-and-ITSM.md)
 ## [Microsoft Managed Desktop 서비스 설명](service-description/index.md)
 ### [지원 되는 지역 및 언어](service-description/regions-languages.md)
 ### [제품 수명 주기](service-description/device-lifecycle.md)

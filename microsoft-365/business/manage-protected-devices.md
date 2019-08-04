@@ -3,7 +3,7 @@ title: Microsoft 365 Business로 보호된 장치 관리
 ms.author: sirkkuw
 author: sirkkuw
 manager: scotv
-ms.audience: Admin
+audience: Admin
 ms.topic: conceptual
 f1_keywords:
 - O365E_DevicesManageLM
@@ -24,19 +24,19 @@ search.appverid:
 - MOE150
 ms.assetid: 018a2a96-3811-4b5d-b751-3b6330b34256
 description: 보호 정책을 통해 관리 되는 장치를 다시 설정 하거나 초기화 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: f7ae01e8325e977b2e9eca3e374fa41bcc541491
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 78eff4b4d29ee5de6f773841cc77239f6acf0634
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32278463"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34074673"
 ---
-# <a name="manage-protected-devices-with-microsoft-365-business"></a><span data-ttu-id="ec458-103">Microsoft 365 Business로 보호된 장치 관리</span><span class="sxs-lookup"><span data-stu-id="ec458-103">Manage protected devices with Microsoft 365 Business</span></span>
+# <a name="manage-protected-devices-with-microsoft-365-business"></a><span data-ttu-id="1c081-103">Microsoft 365 Business로 보호된 장치 관리</span><span class="sxs-lookup"><span data-stu-id="1c081-103">Manage protected devices with Microsoft 365 Business</span></span>
 
-<span data-ttu-id="ec458-p101">사용자가 장치에서 장치 또는 장치의 Office 앱에 회사 계정으로 로그인하여 조직에 접속하면 관리자가 설정한 정책으로 장치가 보호되는 동시에 해당 장치가 **장치** 페이지에 표시됩니다. 장치를 분실하거나 도난당한 경우 이 페이지에서 회사 데이터를 제거할 수 있습니다. Windows 10 장치의 경우 공장 설정으로 초기화하여 사용자 지정 설정을 지울 수 있습니다. 장치 관리 시 수행할 수 있는 작업에 대한 자세한 내용은 다음 문서를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="ec458-p101">After a user connects their device to your organization, by signing in with their work account to the device or to Office apps on the device, we're able to protect the device with the policies that you set up and it will be listed on the **Devices** page. If a device is lost or stolen, you can manage it from this page to remove any company data. You can also reset Windows 10 devices to their factory settings to wipe out any custom settings. For more information on the tasks you can perform to manage devices, please see these articles:</span></span> 
+<span data-ttu-id="1c081-p101">사용자가 장치에서 장치 또는 장치의 Office 앱에 회사 계정으로 로그인하여 조직에 접속하면 관리자가 설정한 정책으로 장치가 보호되는 동시에 해당 장치가 **장치** 페이지에 표시됩니다. 장치를 분실하거나 도난당한 경우 이 페이지에서 회사 데이터를 제거할 수 있습니다. Windows 10 장치의 경우 공장 설정으로 초기화하여 사용자 지정 설정을 지울 수 있습니다. 장치 관리 시 수행할 수 있는 작업에 대한 자세한 내용은 다음 문서를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="1c081-p101">After a user connects their device to your organization, by signing in with their work account to the device or to Office apps on the device, we're able to protect the device with the policies that you set up and it will be listed on the **Devices** page. If a device is lost or stolen, you can manage it from this page to remove any company data. You can also reset Windows 10 devices to their factory settings to wipe out any custom settings. For more information on the tasks you can perform to manage devices, please see these articles:</span></span> 
   
-[<span data-ttu-id="ec458-108">장치에서 회사 데이터 제거</span><span class="sxs-lookup"><span data-stu-id="ec458-108">Remove company data from devices</span></span>](remove-company-data.md)
+[<span data-ttu-id="1c081-108">장치에서 회사 데이터 제거</span><span class="sxs-lookup"><span data-stu-id="1c081-108">Remove company data from devices</span></span>](remove-company-data.md)
   
-[<span data-ttu-id="ec458-109">Windows 10 장치를 공장 설정으로 초기화</span><span class="sxs-lookup"><span data-stu-id="ec458-109">Reset Windows 10 devices to their factory settings</span></span>](reset-devices-to-factory-settings.md)
+[<span data-ttu-id="1c081-109">Windows 10 장치를 공장 설정으로 초기화</span><span class="sxs-lookup"><span data-stu-id="1c081-109">Reset Windows 10 devices to their factory settings</span></span>](reset-devices-to-factory-settings.md)
   
 
