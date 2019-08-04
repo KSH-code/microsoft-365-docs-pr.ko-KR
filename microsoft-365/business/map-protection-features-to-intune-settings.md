@@ -4,7 +4,7 @@ ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
 ms.date: 8/13/2018
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 ms.assetid: aad21b1a-c775-469a-b89c-c5d1d59d27db
 description: Microsoft 365 Business의 보호 기능을 Intune 설정에 매핑하는 방법을 알아봅니다. 구독은 Intune 설정을 수정할 수 있는 라이선스를 제공 합니다.
-ms.openlocfilehash: ddd520cd059c84e5d64e967fe5631fe2f6bce0d4
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: a6aaf6cc06c31b870eb85582f5aa47699919d75d
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32278558"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34074263"
 ---
 # <a name="how-do-protection-features-in-microsoft-365-business-map-to-intune-settings"></a>Microsoft 365 Business의 보호 기능을 Intune 설정에 매핑하는 방법
 
@@ -35,7 +35,7 @@ ms.locfileid: "32278558"
 
 다음 표에서는 Android 및 iOS 응용 프로그램 정책 설정을 Intune 설정에 매핑하는 방법을 보여 줍니다.
   
-intune 설정을 찾으려면 Microsoft 365 Business admin 자격 증명으로 로그인 하 고 **관리 센터**, **Intune**으로 이동 합니다.
+Intune 설정을 찾으려면 Microsoft 365 Business admin 자격 증명으로 로그인 하 고 **관리 센터**, **Intune**으로 이동 합니다.
   
  **중요:** Microsoft 365 비즈니스 구독은 모든 Intune 설정을 수정할 수 있는 라이선스를 제공 합니다. [시작 하려면 Intune 소개를 참조 하세요.](https://docs.microsoft.com/intune/introduction-intune)
   
@@ -68,7 +68,7 @@ intune 설정을 찾으려면 Microsoft 365 Business admin 자격 증명으로 �
 
 다음 표에서는 Windows 10 응용 프로그램 정책 설정을 Intune 설정에 매핑하는 방법을 보여 줍니다.
   
-Intune 설정을 찾으려면 Microsoft 365 Business admin 자격 증명으로 로그인 하 고 [Azure portal](https://portal.azure.com)로 이동한 다음 **추가 서비스**를 선택 하 고 intune을 **필터**에 입력 한 다음 intune을 사용 하 여 포털 **앱 보호** \> **를 선택 합니다. 앱 정책**
+Intune 설정을 찾으려면 Microsoft 365 Business admin 자격 증명으로 로그인 하 고 [Azure portal](https://portal.azure.com)로 이동한 다음 **추가 서비스**를 선택 하 고 intune을 **필터**에 입력 한 다음 Intune을 사용 하 여 포털 **앱 보호** \> **를 선택 합니다. 앱 정책**
   
  **중요**: Microsoft 365 Business 구독은 Microsoft 365 Business에서 사용할 수 있는 설정에 매핑되는 Intune 설정만 수정하는 라이선스를 제공합니다. 
   

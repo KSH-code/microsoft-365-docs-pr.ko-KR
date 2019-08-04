@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 39a5102d045d9ed79b631a3b477bd1c72dea76de
-ms.sourcegitcommit: 498340389e1c34f49f0b2da382c23c8d5334ae47
+ms.openlocfilehash: 3687966fd49db3fd58c4ecbb3917e45ec6dfa3c3
+ms.sourcegitcommit: b9663acecf0bfdca2486818ec7e08a6f882d0dc9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "34918735"
+ms.lasthandoff: 07/02/2019
+ms.locfileid: "35425741"
 ---
 # <a name="working-with-microsoft-consulting-services"></a>Microsoft 컨설팅 서비스 작업
 
@@ -22,7 +22,7 @@ MCS (Microsoft 컨설팅 서비스)를 사용 하 여 Microsoft Managed Desktop�
 MCS 앱 패키지로 작업 하려면 **다음 요소를 제공 해야 합니다**.
 
 - 원본 설치 관리자 파일 (예: setup.exe 또는 .msi)
-- 설치 지침에 따라 최종 설치의 모양에 대 한 세부 정보를 지정 합니다. 예를 들어, 앱에 대 한 바탕 화면 바로 가기가 있어야 하나요? 앱의 표시 유형 앱이 서버에 연결 되는 경우 (있는 경우) <!--For details, see the [application packaging request template](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-ready/downloads/app-packaging-template.docx). -->
+- 설치 지침에 따라 최종 설치의 모양에 대 한 세부 정보를 지정 합니다. 예를 들어, 앱에 대 한 바탕 화면 바로 가기가 있어야 하나요? 앱의 표시 유형 앱이 서버에 연결 되는 경우 (있는 경우) 자세한 내용은 [응용 프로그램 패키징 요청 템플릿을](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-ready/downloads/app-packaging-template.docx)참조 하십시오.
 - 자체 승인 테스트를 수행 하 여 사용자 환경에서 앱이 필요한 대로 작동 하는지 확인 해야 합니다.
 
 **MCS에서는 다음 작업을 수행 합니다.**

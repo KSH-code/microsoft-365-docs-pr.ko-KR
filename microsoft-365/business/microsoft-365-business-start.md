@@ -3,7 +3,7 @@ title: Microsoft 365 Business 시작
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
-ms.audience: Admin
+audience: Admin
 ms.topic: conceptual
 ms.service: o365-administration
 localization_priority: Normal
@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Microsoft 365 Business를 설정하는 방법 알아보기
-ms.openlocfilehash: 78f7360c80667b8d34fad9d849cfc2cf83a8577b
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: d309700761ee48ef66a8cd3886fd416c79463ed5
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32278112"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34074303"
 ---
 # <a name="get-started-with-microsoft-365-business"></a>Microsoft 365 Business 시작
 
@@ -89,7 +89,7 @@ Windows 10 PC를 설정한 후 장치에 [Office를 자동으로 설치](auto-in
     
 - Microsoft 365 Business 관리자는 고객 지원 팀, **[비즈니스 제품에 대해 고객 지원 센터 문의 - 관리자 도움말](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)** 에 액세스할 수 있습니다.
     
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 [Microsoft 365 Business 문서 및 리소스](https://go.microsoft.com/fwlink/p/?linkid=853701)
   
 [Microsoft 365 Business 관리](manage.md) [Microsoft 365 Business로 마이그레이션](migrate-to-microsoft-365-business.md)

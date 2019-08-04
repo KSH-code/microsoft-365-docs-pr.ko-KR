@@ -4,7 +4,7 @@ ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
 ms.date: 08/21/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Normal
@@ -13,16 +13,16 @@ ms.custom:
 - TLG
 - Ent_TLGs
 description: Microsoft 365 Enterprise 테스트 환경에서 스마트 전화로 전송 되는 텍스트 메시지를 사용 하 여 다단계 인증을 구성 합니다.
-ms.openlocfilehash: ab346934ea639e819e4e45dd6560093629ee9cde
-ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
+ms.openlocfilehash: 319f8058aa4504c52cacf5f0d97982d115c41c8a
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/26/2019
-ms.locfileid: "33353180"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34074218"
 ---
 # <a name="multi-factor-authentication-for-your-microsoft-365-enterprise-test-environment"></a>Microsoft 365 Enterprise 테스트 환경에 대 한 다단계 인증
 
-Office 365 또는 조직의 Azure AD 테 넌 트를 사용 하는 모든 서비스 또는 응용 프로그램에 로그인 하기 위한 추가 보안 수준에 대 한 자세한 내용을 확인 하기 위해 사용자 이름 및 암호를 초과 하는 azure multi-factor authentication을 사용 하도록 설정할 수 있습니다. 계정의. 다단계 인증을 사용 하는 경우 사용자는 전화 통화를 승인 하거나, 문자 메시지로 보낸 확인 코드를 입력 하거나, 암호를 올바르게 입력 한 후 스마트 전화에서 앱 암호를 지정 해야 합니다. 사용자는 이 두 번째 인증 요소를 충족해야 로그인할 수 있습니다. 
+Office 365 또는 조직의 Azure AD 테 넌 트를 사용 하는 모든 서비스 또는 응용 프로그램에 로그인 하기 위한 추가 보안 수준에 대 한 자세한 내용을 확인 하기 위해 사용자 이름 및 암호를 초과 하는 Azure multi-factor authentication을 사용 하도록 설정할 수 있습니다. 계정의. 다단계 인증을 사용 하는 경우 사용자는 전화 통화를 승인 하거나, 문자 메시지로 보낸 확인 코드를 입력 하거나, 암호를 올바르게 입력 한 후 스마트 전화에서 앱 암호를 지정 해야 합니다. 사용자는 이 두 번째 인증 요소를 충족해야 로그인할 수 있습니다. 
   
 이 문서에서는 특정 계정에 대해 텍스트 메시지 기반 인증을 사용 하도록 설정 하 고 테스트 하는 방법에 대해 설명 합니다.
   
@@ -44,7 +44,7 @@ Microsoft 365 Enterprise 테스트 환경에서는 계정에 대해 multi-factor
 시뮬레이트된 엔터프라이즈에서 multi-factor authentication을 테스트 하려면 [통과 인증](pass-through-auth-m365-ent-test-environment.md)의 지침을 따르세요.
   
 > [!NOTE]
-> 다단계 인증을 테스트 하는 경우에는 AD DS (Active directory 도메인 서비스) 포리스트의 인터넷 및 디렉터리 동기화에 연결 된 시뮬레이트된 인트라넷을 포함 하는 시뮬레이트된 엔터프라이즈 테스트 환경이 필요 하지 않습니다. 다단계 인증을 테스트 하 고 일반적인 조직을 나타내는 환경에서 테스트할 수 있도록 옵션으로 제공 됩니다. 
+> 다단계 인증을 테스트 하는 경우에는 AD DS (Active Directory 도메인 서비스) 포리스트의 인터넷 및 디렉터리 동기화에 연결 된 시뮬레이트된 인트라넷을 포함 하는 시뮬레이트된 엔터프라이즈 테스트 환경이 필요 하지 않습니다. 다단계 인증을 테스트 하 고 일반적인 조직을 나타내는 환경에서 테스트할 수 있도록 옵션으로 제공 됩니다. 
   
 ## <a name="phase-2-enable-and-test-multi-factor-authentication-for-the-user-2-account"></a>2 단계: 사용자 2 계정에 대해 multi-factor authentication 사용 및 테스트
 
@@ -54,7 +54,7 @@ Microsoft 365 Enterprise 테스트 환경에서는 계정에 대해 multi-factor
     
 2. 왼쪽 탐색에서 **사용자 > 활성화된 사용자**를 클릭합니다.
     
-3. 활성 사용자 창에서 **더 > 다단계 인증 설정을**클릭 합니다.
+3. 활성 사용자 창에서 **multi-factor authentication 설치 >** 를 클릭 합니다.
     
 4. 목록에서 **사용자 2** 계정을 선택 합니다.
     
@@ -92,10 +92,10 @@ Microsoft 365 Enterprise 테스트 환경에서는 계정에 대해 multi-factor
     
 8. 사용자 2 계정으로 처음 로그인 하는 경우 암호를 변경 하 라는 메시지가 표시 됩니다. 원래 암호와 새 암호를 두 번 입력 한 다음 **암호 업데이트 및 로그인**을 클릭 합니다. 새 암호를 안전한 위치에 기록 합니다.
     
-    브라우저의 **Microsoft office 홈** 탭에 사용자 2에 대 한 Office 포털이 표시 됩니다.
+    브라우저의 **Microsoft Office 홈** 탭에 사용자 2에 대 한 Office 포털이 표시 됩니다.
 
 
-프로덕션 환경에서 다단계 인증을 배포 하는 방법에 대 한 자세한 내용은 Identity 단계에서 [multi-factor authentication 설정](identity-multi-factor-authentication.md#identity-mfa) 단계를 참조 하세요.
+프로덕션 환경에서 다단계 인증을 배포 하는 방법에 대 한 자세한 내용은 Identity 단계에서 [multi-factor Authentication 설정](identity-multi-factor-authentication.md#identity-mfa) 단계를 참조 하세요.
     
 ## <a name="next-step"></a>다음 단계
 
@@ -107,6 +107,6 @@ Microsoft 365 Enterprise 테스트 환경에서는 계정에 대해 multi-factor
 
 [Microsoft 365 Enterprise 테스트 랩 가이드](m365-enterprise-test-lab-guides.md)
 
-[Microsoft 365 엔터프라이즈 배포](deploy-microsoft-365-enterprise.md)
+[Microsoft 365 Enterprise 배포](deploy-microsoft-365-enterprise.md)
 
 [Microsoft 365 Enterprise 설명서](https://docs.microsoft.com/microsoft-365-enterprise/)

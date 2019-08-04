@@ -1,25 +1,25 @@
 ---
 title: Microsoft Managed Desktop 권한이 사용자에 게 적합 합니다.
 description: ''
-keywords: microsoft Managed Desktop, microsoft 365, 서비스, 설명서
+keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 설명서
 ms.service: m365-md
-author: trudyha
+author: jaimeo
 ms.localizationpriority: normal
 ms.date: 10/24/2018
-ms.openlocfilehash: 6b78586f4ce1f81795e01873161a9cbf7768c2ac
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: c0866dc4ff4a768bbae2488cdea2655470978f94
+ms.sourcegitcommit: 427c6459614d58f6ef7c74354ae1816423e22323
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32283450"
+ms.lasthandoff: 06/28/2019
+ms.locfileid: "35390695"
 ---
 # <a name="what-is-microsoft-managed-desktop"></a>Microsoft Managed Desktop 이란 무엇 인가요?
 
 <!--from Overview-->
 
-microsoft는 항상 고객의 업무를 보다 효율적으로 수행 하 고 안전 하 게 보호 하는 방법을 알아봅니다. Microsoft 365 서비스를 사용 하면 직원이 독창적인, 보안, 장치 및 앱 환경에서 공동 작업을 할 수 있습니다.
+Microsoft는 항상 고객의 업무를 보다 효율적으로 수행 하 고 안전 하 게 보호 하는 방법을 알아봅니다. Microsoft 365 서비스를 사용 하면 직원이 독창적인, 보안, 장치 및 앱 환경에서 공동 작업을 할 수 있습니다.
 
-microsoft Managed Desktop은 microsoft에서 제공 하 고 실행 하는 끝점 관리, 보호 및 보안과 함께 최신 장치에서의 기능을 결합 하 여 더 많은 작업을 수행 합니다.
+Microsoft Managed Desktop은 microsoft에서 제공 하 고 실행 하는 끝점 관리, 보호 및 보안과 함께 최신 장치에서의 365 기능을 결합 하 여 더 많은 작업을 수행 합니다.
 
 
 <table>
@@ -33,9 +33,9 @@ Microsoft Managed Desktop은 고객에 게 delights 하 고 중요 한 작업을
 - 핵심 비즈니스에 초점을 집중 하고자 합니다. 
 - 필자는 drowning을 복잡 하 게 합니다. 
 - 좀 더 전략적인 것을 선택 합니다. 
-- it talent 충분히 찾기는 어렵습니다.  
+- IT talent 충분히 찾기는 어렵습니다.  
 
-microsoft Managed Desktop은 모든 microsoft의 최신 기술과 관련 하 여 최상의 사용자 환경을 제공 합니다. 
+Microsoft Managed Desktop은 모든 Microsoft의 최신 기술과 관련 하 여 최상의 사용자 환경을 제공 합니다. 
 
 ## <a name="additional-resources"></a>추가 리소스
 - [Microsoft Managed Desktop 서비스 설명](../service-description/index.md)

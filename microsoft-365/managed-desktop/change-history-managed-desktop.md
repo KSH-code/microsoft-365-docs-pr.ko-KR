@@ -8,12 +8,12 @@ author: jaimeo
 ms.author: jaimeo
 ms.topic: article
 ms.localizationpriority: normal
-ms.openlocfilehash: 4915bf5d1b89720c65a5134b23d9d837febff357
-ms.sourcegitcommit: 184957e2878388e0d427a7ee47577d29c4e3c483
+ms.openlocfilehash: 7d09e2fbf9d21497aa9bd43d308978979a6c73c6
+ms.sourcegitcommit: c6ee468b4aeb3684d332cb79f5cd121f60f32d3e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35605967"
+ms.lasthandoff: 07/18/2019
+ms.locfileid: "35795624"
 ---
 # <a name="change-history-for-microsoft-managed-desktop-documentation"></a>Microsoft Managed Desktop 설명서에 대 한 변경 내용
 
@@ -23,6 +23,9 @@ ms.locfileid: "35605967"
 새로 만들기 또는 변경 된 항목 | 설명
 --- | ---
 [Microsoft 컨설팅 서비스 작업](get-ready/apps-mcs.md) | 업데이트 된 항목
+[Microsoft Managed Desktop 및 ITIL](MMD-and-ITSM.md) | 새 항목
+[장치 구성](service-description/device-policies.md) | 업데이트 된 항목
+
 
 ## <a name="june-2019"></a>2019 년 6 월
 새로 만들기 또는 변경 된 항목 | 설명

@@ -3,7 +3,7 @@ title: Windows 10 장치에서 응용 프로그램 보호 설정 설정하기
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 f1_keywords:
 - Win10AppPolicy
@@ -24,12 +24,12 @@ search.appverid:
 - MOE150
 ms.assetid: 02e74022-44af-414b-9d74-0ebf5c2197f0
 description: Windows 10 장치에서 앱 관리 정책을 만들고 작업 파일을 보호 하는 방법을 알아봅니다.
-ms.openlocfilehash: f649454417dceae05255df6b37760af99c0b8d4f
-ms.sourcegitcommit: db1dfb2df2c2f7beced3b57bc772d106c189e88a
+ms.openlocfilehash: 670184a2e81721fb5cc063e854822e9b271164d9
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "33660389"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34074613"
 ---
 # <a name="set-application-protection-settings-for-windows-10-devices"></a>Windows 10 장치에서 응용 프로그램 보호 설정 설정하기
 

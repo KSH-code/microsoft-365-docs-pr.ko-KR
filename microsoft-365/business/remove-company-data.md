@@ -3,7 +3,7 @@ title: 장치에서 회사 데이터 제거
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 ms.assetid: 80bdae57-f8bc-4e40-a58c-956007117ecb
 description: 'Microsoft 365 Business를 사용 하 여 사용자 장치 또는 Windows Pc에서 회사 데이터를 제거 하는 방법을 알아봅니다. '
-ms.openlocfilehash: 903b99af5f75531b8187b789510c370f7859f689
-ms.sourcegitcommit: db1dfb2df2c2f7beced3b57bc772d106c189e88a
+ms.openlocfilehash: 804c8104dca4c9203f603346da2a746e36c23dcd
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/07/2019
-ms.locfileid: "33660627"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34074573"
 ---
 # <a name="remove-company-data-from-devices"></a>장치에서 회사 데이터 제거
 

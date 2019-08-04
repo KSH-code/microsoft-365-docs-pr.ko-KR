@@ -1,5 +1,5 @@
 ---
-title: 조건부 액세스 정책 설정
+title: Microsoft 365 캠페인에 대 한 조건부 액세스 정책 설정
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -19,15 +19,15 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Microsoft 365 Business에 대 한 조건부 액세스 정책을 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: a0cc4a9085bdfe6a8d40acc69a020af1c5861fcf
-ms.sourcegitcommit: 498340389e1c34f49f0b2da382c23c8d5334ae47
+description: Microsoft 365 캠페인에 대 한 조건부 액세스 정책을 설정 하는 방법을 알아봅니다.
+ms.openlocfilehash: 7d8e1f16019d151478aae57b1593b0e0758e5b19
+ms.sourcegitcommit: 7e46db0b35c188ee6a7b40ab3eb2d76ff6c101c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "34913009"
+ms.lasthandoff: 06/19/2019
+ms.locfileid: "35076312"
 ---
-# <a name="set-up-conditional-access-policies-for-microsoft-365-business"></a>Microsoft 365 Business에 대 한 조건부 액세스 정책 설정
+# <a name="set-up-conditional-access-policies"></a>조건부 액세스 정책 설정
 
 [조건부 액세스](https://docs.microsoft.com/azure/active-directory/conditional-access/overview) 정책은 substancial 추가 보안을 추가 합니다. Microsoft는 모든 고객에 게 권장 되는 기본 조건부 액세스 정책 집합을 제공 합니다. 기본 정책은 일반적인 여러 공격 으로부터 조직을 보호 하는 데 도움이 되는 미리 정의 된 정책의 집합입니다. 이러한 일반적인 공격에는 암호 스프레이, replay 및 피싱이 포함 될 수 있습니다.
 

@@ -3,7 +3,7 @@ title: Microsoft 365 Business로 보호된 장치 관리
 ms.author: sirkkuw
 author: sirkkuw
 manager: scotv
-ms.audience: Admin
+audience: Admin
 ms.topic: conceptual
 f1_keywords:
 - O365E_DevicesManageLM
@@ -24,12 +24,12 @@ search.appverid:
 - MOE150
 ms.assetid: 018a2a96-3811-4b5d-b751-3b6330b34256
 description: 보호 정책을 통해 관리 되는 장치를 다시 설정 하거나 초기화 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: f7ae01e8325e977b2e9eca3e374fa41bcc541491
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 78eff4b4d29ee5de6f773841cc77239f6acf0634
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32278463"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34074673"
 ---
 # <a name="manage-protected-devices-with-microsoft-365-business"></a>Microsoft 365 Business로 보호된 장치 관리
 

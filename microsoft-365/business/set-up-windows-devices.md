@@ -3,7 +3,7 @@ title: Microsoft 365 Business 사용자를 위해 Windows 장치 설정
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
-ms.audience: Admin
+audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 ms.assetid: 2d7ff45e-0da0-4caa-89a9-48cabf41f193
 description: 'Microsoft 365 Business 사용자 Windows 10 Pro를 실행하는 Windows 장치를 설정하는 방법에 대해 알아보십시오. '
-ms.openlocfilehash: f93257bd9a68385fca4f178a2e09c5c11506ee2c
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 5efe3aa1e329e7a9edcfd49fcc1f1391f95fd97f
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32284381"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34074553"
 ---
 # <a name="set-up-windows-devices-for-microsoft-365-business-users"></a>Microsoft 365 Business 사용자를 위해 Windows 장치 설정
 
@@ -36,7 +36,7 @@ Windows 장치에서 Windows 7 Pro, Windows 8 Pro 또는 Windows 8.1 Pro를 실�
   
 Windows 장치를 Windows 10 Pro 크리에이터 업데이트로 업그레이드하는 방법에 대한 자세한 내용은 [Windows Pro 크리에이터 업데이트로 Windows 장치 업그레이드](upgrade-to-windows-pro-creators-update.md)의 단계를 따르세요.
   
-[장치가 Azure AD에 연결 되었는지 확인](#verify-the-device-is-connected-to-azure-ad) 을 참조 하 여 업그레이드가 있는지 확인 하거나 업그레이드가 제대로 수행 되었는지 확인 합니다. 
+[장치가 AZURE AD에 연결 되었는지 확인](#verify-the-device-is-connected-to-azure-ad) 을 참조 하 여 업그레이드가 있는지 확인 하거나 업그레이드가 제대로 수행 되었는지 확인 합니다. 
   
 ## <a name="join-windows-10-devices-to-your-organizations-azure-ad"></a>Windows 10 장치를 조직의 Azure AD에 연결
 

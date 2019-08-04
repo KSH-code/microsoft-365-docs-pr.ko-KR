@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: b3fc4a4ed82c01188f348d2e494a0dbf7effc77a
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: e4c2dbe8f1cae12aa1b10c6cd43f295a9a6062d0
+ms.sourcegitcommit: 8102751ae20c93439e19afded396c4e6ee5ea5a5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34079275"
+ms.lasthandoff: 05/16/2019
+ms.locfileid: "34100714"
 ---
 #  <a name="prepare-mapped-drives-for-microsoft-managed-desktop"></a>Microsoft Managed Desktop에 대 한 매핑된 드라이브 준비
 
@@ -25,7 +25,7 @@ ms.locfileid: "34079275"
 
 ## <a name="mapped-drives-on-microsoft-managed-desktop"></a>Microsoft Managed Desktop의 매핑된 드라이브
  
-일부 사용 사례에서 매핑된 드라이브를 제거 하거나 바꿀 수 없는 경우 microsoft managed desktop portal에서 지원 요청을 제출 하 여 Microsoft Managed Desktop users에 배포 해야 합니다.
+일부 사용 사례에서 매핑된 드라이브를 제거 하거나 바꿀 수 없는 경우 Microsoft Managed Desktop administration portal에서 지원 요청을 제출 하 여 Microsoft Managed Desktop users에 배포 해야 합니다.
     
 이러한 요청의 경우 지원 요청에 다음과 같은 세부 정보를 제공 해야 합니다. 
 
@@ -46,7 +46,7 @@ ms.locfileid: "34079275"
 매핑된 드라이브를 회피 하 고 서비스 요청을 제출 하기 전에 요구 사항을 신중히 검토 했는지 확인 합니다. 그런 후 다음 단계를 수행 합니다.
 
 1. [Microsoft Managed Desktop 포털로](https://aka.ms/mmdportal)이동 합니다.  
-2. **지원 _GT_ 지원 요청** 섹션을 통해 "매핑된 드라이브 배포" 라는 지원 요청을 제출 하 고 필요한 파일 공유 세부 정보를 모두 제공 합니다.  
-3. Microsoft Managed Desktop 작업은 요청이 완료 되 면 지원 요청 업데이트를 사용 하 여 권고를 제공 합니다. 이 구성은 처음에 테스트 배포 그룹의 장치에만 배포 됩니다.  
-4. Microsoft Managed Desktop Operations team을 통해 배포 되는 구성이 예상 대로 작동 하는지 여부를 테스트 하 고 확인 해야 합니다. 테스트를 완료 한 후 지원 요청을 사용 하 여 Microsoft Managed Desktop 작업을 업데이트 합니다.  
-5. 그러면 Microsoft Managed Desktop Operations 팀이 구성을 다른 배포 그룹에 배포 합니다. 
+2. 지원 **> 지원 요청** 섹션을 통해 "매핑된 드라이브 배포" 라는 지원 요청을 제출 하 고 필요한 파일 공유 정보를 모두 제공 합니다.  
+3. Microsoft Managed Desktop IT 작업에서는 요청이 완료 되 면 지원 요청 업데이트를 사용 하 여 권고를 제공 합니다. 이 구성은 처음에 테스트 배포 그룹의 장치에만 배포 됩니다.  
+4. Microsoft Managed Desktop IT 작업을 통해 배포 된 구성이 예상 대로 작동 하는지 테스트 하 고 확인 해야 합니다. 테스트를 완료 한 후 지원 요청의 토론 탭을 사용 하 여 Microsoft Managed Desktop IT 작업에 알릴 수 있습니다.  
+5. Microsoft Managed Desktop IT 운영 팀에서는 구성을 다른 배포 그룹에 배포 합니다. 
