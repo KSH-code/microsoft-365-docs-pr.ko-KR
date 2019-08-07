@@ -4,7 +4,7 @@ author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
 ms.date: 09/13/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
@@ -13,18 +13,18 @@ ms.collection:
 - M365-subscription-management
 ms.custom: ''
 description: 대표적인 가상 글로벌 조직이 Microsoft 365 Enterprise를 채택한 방법
-ms.openlocfilehash: 559e1af8a344fea2863c528eeaa99de718d2eeed
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: e587a2c6588faf32aa6882ef1659472365611517
+ms.sourcegitcommit: d9b462e035416bfa4b3d42467902c75859c55381
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32276675"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "36054920"
 ---
 # <a name="microsoft-365-enterprise-for-the-contoso-corporation"></a>Contoso Corporation의 Microsoft 365 Enterprise
 
 **요약:** 대표적인 가상 글로벌 조직이 Microsoft 365 Enterprise를 채택한 방법을 알아봅니다.
 
-Microsoft 365 Enterprise는 Office 365, Windows 10 Enterprise 및 EMS(Enterprise Mobility + Security)를 모든 사용자가 창의적이면서 안전하게 협력할 수 있도록 하는 완전한 지능형 솔루션에 결합하는 Microsoft의 프리미어 클라우드 제품입니다. 
+Microsoft 365 Enterprise는 로컬 및 클라우드 기반 생산성 응용 프로그램 및 서비스를 Windows 10 Enterprise 및 고급 보안 기능과 결합하여 모든 사람이 창의적이고 안전하게 공동 작업할 수있는 지능형 솔루션으로 통합 된 Microsoft의 최고의 클라우드 서비스입니다. 
 
 Contoso Corporation는 프랑스, 파리에 본사가 있는 가상의 대표적 글로벌 제조 대기업입니다. Contoso는 Microsoft 365 Enterprise를 배포했으며 네트워킹, ID, Windows 10 Enterprise, Office 365 ProPlus, 모바일 장치 관리, 정보 보호 및 보안에 대한 중요 디자인 결정 및 구현 세부 사항을 진행하고 있습니다. 
 

@@ -2,7 +2,7 @@
 title: Microsoft 365 Enterprise 워크로드 및 시나리오
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 04/15/2019
+ms.date: 07/30/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -12,12 +12,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 조직의 사용자에게 Microsoft 365 Enterprise의 생산성 워크로드를 제공합니다.
-ms.openlocfilehash: 06dc8683c471de9de7067a3d84673687cddc76c6
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: 0c81f93b117645974e93870f20d4dfb469dae3ac
+ms.sourcegitcommit: d9b462e035416bfa4b3d42467902c75859c55381
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34072408"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "36054930"
 ---
 # <a name="microsoft-365-enterprise-workloads-and-scenarios"></a>Microsoft 365 Enterprise 워크로드 및 시나리오
 
@@ -39,6 +39,10 @@ Microsoft 365 Enterprise의 독창성과 팀워크 이점을 얻으려면 기본
 전체 Microsoft 365 Enterprise 배포 가이드의 워크로드 및 시나리오는 다음과 같습니다.
 
 ![](./media/deploy-workloads/m365-deploy-content-arch-workloads.png)
+
+추가 시나리오는 [Microsoft 365 생산성 라이브러리](https://www.microsoft.com/microsoft-365/success/)를 참조하세요. 이 웹 페이지에서 검색 문자열을 입력하거나 **필터 기준**을 클릭하고 Microsoft 365에서 산업, 역할(부서) 및 제품을 지정합니다.
+
+결과에서 카드를 클릭하여 시작하는 데 사용할 수 있는 단계를 확인합니다.
 
 ## <a name="foundation-infrastructure-prerequisites"></a>기본 인프라 전제 조건
 

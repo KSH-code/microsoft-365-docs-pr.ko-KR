@@ -3,8 +3,8 @@ title: Microsoft 365 Enterprise 기본 인프라
 author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
-ms.date: 03/05/2019
-ms.audience: ITPro
+ms.date: 05/22/2019
+audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
@@ -13,16 +13,16 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 조직에 Microsoft 365 Enterprise의 기본 인프라를 배포하는 주요 단계(핵심 배포라고도 함)를 이해합니다.
-ms.openlocfilehash: e6b8a71f59f20633e323c71e931b930198bc4deb
-ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
+ms.openlocfilehash: 0c683f771609c847556f82fe84a17dad13ee34d4
+ms.sourcegitcommit: d9b462e035416bfa4b3d42467902c75859c55381
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33400052"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "36055027"
 ---
 # <a name="microsoft-365-enterprise-foundation-infrastructure"></a>Microsoft 365 Enterprise 기본 인프라
 
-Microsoft 365 Enterprise의 종단 간 배포를 하는 경우, 먼저 응용프로그램 및 서비스가 보안 환경에서 창의성과 팀워크를 해제할 수 있는 안전한 기초 위에 구축해야합니다. 이 기초를 핵심 배포라고도 합니다.
+Microsoft 365 Enterprise의 종단 간 배포를 하는 경우, 먼저 응용프로그램 및 서비스가 보안 환경에서 창의성과 팀워크를 해제할 수 있는 안전한 기초 위에 구축해야합니다. 이 기초를 *핵심 배포*라고 합니다.
 
 배포에 대한 종단 간 경로에 있어서 Microsoft 365 Enterprise 의 기초 인프라 배포와 계획을 위해 이러한 단계들을 사용할 수 있습니다.
 
@@ -38,7 +38,7 @@ Microsoft 365 Enterprise의 종단 간 배포를 하는 경우, 먼저 응용프
 이 단계들은 가장 기초적인 (네트워킹 및 아이디) 것으로 시작하며 인프라 설정 및 그룹들을 생성합니다.
 
 - 장치에 가장 안전하고 최신 버전의 Windows를 설치하십시오. 
-- 장치에 최신 버전의 Office를 설치하십시오.
+- 장치에 최신 버전의 Microsof Office를 설치합니다.
 - 조직의 장치를 관리하십시오.
 - 클라우드에서 장치에 대한 정보를 보호하십시오.
 
@@ -58,6 +58,22 @@ Microsoft 365 Enterprise의 종단 간 배포를 하는 경우, 먼저 응용프
 
 ![](./media/deploy-foundation-infrastructure/m365-deploy-content-arch-foundation.png)
 
+## <a name="at-a-glance"></a>간략한 개요
+
+[Microsoft 365 Enterprise 기본 인프라 포스터](http://aka.ms/m365efoundinfraposter)는 각 단계에서 볼 수 있는 중앙 위치입니다.
+
+- 관리자 및 사용자를 위한 단계의 전반적인 목표
+- 서비스, 기능 및 도구
+- 계획에 대한 주요 디자인 결정
+- 구성 결과
+- 새 사용자를 온보딩하는 프로세스
+- 모니터링 및 업데이트 방법
+
+![](./media/deploy-foundation-infrastructure/Microsoft365EnterpriseFoundInfra.png)
+
+포스터 사본을 다운로드 하려면 [여기](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/deploy-foundation-infrastructure/Microsoft365EnterpriseFoundInfra.pdf)를 클릭하세요.
+
+
 ## <a name="infrastructure-configuration-vs-user-rollout"></a>인프라 구성 대 사용자 공개
 
 기초 인프라는 사용자가 함께 병행될 때, Microsoft Enterprise 365에서 제공하는 기능 및 보호의 전체 스펙트럼을 활용하게 해주는 구성된 소프트웨어와 서비스입니다. 종단 간 배포 이동의 최종 목적은 이 인프라를 모든 사용자 및 해당 Windows 기반 장치에 적용하도록 하는 것입니다. 
@@ -74,7 +90,7 @@ Microsoft 365 Enterprise의 종단 간 배포를 하는 경우, 먼저 응용프
 | Windows 10 Enterprise | 실행 중인 Windows 7 또는 Windows 8.1을 Windows 10 Enterprise로 자동으로 업그레이드 할 수 있는 그룹. |
 | Office 365 ProPlus | 그룹을 자동으로 Office 2010, Office 2013 또는 Office 2016의 사용자를 위해 Office 365 ProPlus를 배포하는 그룹. |
 | 모바일 장치 관리 | 장치 등록 및 장치 기반 조건부 액세스 정책에 대한 그룹. |
-| 정보 보호 | Office 365 및 Azure 정보 보호 레이블 및 그룹. |
+| 정보 보호 | Office 365 민감도 및 Azure 정보 보호 레이블 및 그룹. |
 
 사용자를 위한 인프라 구성요소를 공개할 준비가 된 경우.
 
@@ -92,10 +108,16 @@ Microsoft 365 Enterprise의 종단 간 배포를 하는 경우, 먼저 응용프
 
 시험 사용자 및 조직의 나머지를 위한 기초 인프라의 각 단계 프로젝트 관리에 접근하는 방법에 대한 몇 가지 아이디어를 제공하기 위해 [배포 전략](deployment-strategies-microsoft-365-enterprise.md)을 참조하십시오.
 
+## <a name="deployment-for-non-enterprises"></a>비 엔터프라이즈에 대한 배포
+
+조직이 작은 경우 Microsoft 365 기업이 사용자에게 적합하지 않은 경우 [비 엔터프라이즈에 대한 배포](deploy-foundation-infrastructure-non-enterprises.md)를 참조하세요.
+
 
 ## <a name="next-step"></a>다음 단계
 
-- Office 365, Enterprise 편리성 + 안전성 (EMS) 또는 Windows 10 Enterprise에 대한 기존 인프라를 가집니다.
-  - [기존 인프라를 사용하여 배포](deploy-with-existing-infrastructure.md)를 참조하십시오. 이 기사는 각 단계에 대한 종료 기준을 통해 단계별로 나아가게 합니다.
-- 처음부터 새로 시작하고 있습니다. 
-   - [1 단계: 네트워킹](networking-infrastructure.md)으로 종단 간 배포의 첫걸음을 시작해보십시오.
+
+| 내 위치 | 가야할 곳 |
+|:-------|:-----|
+| Office 365, Enterprise 편리성 + 안전성 (EMS) 또는 Windows 10 Enterprise에 대한 기존 인프라를 가집니다. | [기존 인프라를 사용하여 배포](deploy-with-existing-infrastructure.md)부터시작하여 각 단계에 대한 종료 기준을 단계별로 안내합니다. |
+| 엔터프라이즈로 처음부터 시작합니다. | [1 단계: 네트워킹](networking-infrastructure.md)으로 종단 간 배포의 첫걸음을 시작해보십시오. |
+| 비 엔터프라이즈로 처음부터 시작합니다. | [비 엔터프라이즈에 대한 배포](deploy-foundation-infrastructure-non-enterprises.md)로 종단 간 배포의 첫걸음을 시작해보십시오. |

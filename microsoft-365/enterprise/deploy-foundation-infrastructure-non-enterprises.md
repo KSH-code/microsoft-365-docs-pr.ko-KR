@@ -3,7 +3,7 @@ title: 비 엔터프라이즈용 Microsoft 365 Enterprise 기본 인프라
 author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
-ms.date: 05/22/2019
+ms.date: 07/08/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 비 엔터프라이즈 조직용 Microsoft 365 Enterprise에 대해 간소화된 기본 인프라 단계를 살펴보겠습니다.
-ms.openlocfilehash: 64d911a9d59d5b9b1a450a9a122463699ec8eab8
-ms.sourcegitcommit: 2cf0d57b1771b37db773c3eaabac8456a6fa9195
+ms.openlocfilehash: 8e2c254bf352baa14ff62dad500e5cdfa0af4563
+ms.sourcegitcommit: 639607bbf02bdedd3fa5cd7b0984b422fe6c874e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/23/2019
-ms.locfileid: "34419817"
+ms.lasthandoff: 07/11/2019
+ms.locfileid: "35624636"
 ---
 # <a name="microsoft-365-enterprise-foundation-infrastructure-for-non-enterprises"></a>비 엔터프라이즈용 Microsoft 365 Enterprise 기본 인프라
 
@@ -42,16 +42,18 @@ ms.locfileid: "34419817"
 
 ## <a name="phase-1-networking"></a>1단계: 네트워킹
 
-엔터프라이즈가 아닌 조직은 일반적으로 각 사무실에 로컬 인터넷 연결이 있으며 프록시 서버, 방화벽 또는 패킷 검사 장치를 사용하지 않습니다. 트래픽이 사무실과 온-프레미스 사용자에게 가장 가까운 Microsoft 365 클라우드 서버로 리디렉션되도록 각 사무실의 ISP(인터넷 서비스 공급자)에는 지리적 로컬 DNS 서버가 있습니다.
+엔터프라이즈가 아닌 조직은 일반적으로 각 사무실에 로컬 인터넷 연결이 있으며 프록시 서버, 방화벽 또는 패킷 검사 디바이스를 사용하지 않습니다. 트래픽이 사무실과 온-프레미스 사용자에게 가장 가까운 Microsoft 365 네트워크 위치로 리디렉션되도록 각 사무실에 서비스를 제공하는 ISP(인터넷 서비스 공급자)에는 지리적 로컬 DNS가 있습니다.
 
 따라서 ISP를 사용하여 각 사무실 위치의 해당 연결이 다음과 같은지를 확인하면 됩니다. 
 
 - 지리적 로컬 DNS 서버를 사용합니다.
 - 더 많은 Microsoft 365 클라우드 서비스를 사용하기 시작할 때 현재와 미래의 요구에 적합합니다.
 
+프록시 서버, 방화벽 또는 패킷 검사 디바이스를 사용하는 경우 자세한 내용은 [Microsoft 365 Enterprise의 네트워킹 인프라](networking-infrastructure.md)를 참조하세요.
+
 ### <a name="your-configuration-so-far"></a>지금까지의 구성
 
-1단계 요소가 강조 표시된 시각적 요약입니다. **조직은** 여러 개의 사무실이 있을 수 있고, 각 사무실에는 지리적 로컬 DNS 서버를 사용하는 ISP와의 로컬 인터넷 연결이 있습니다. ISP를 통해 각 사무실의 사용자는 가장 가까운 Microsoft 네트워크 위치와 Microsoft 365 구독의 리소스에 연결할 수 있습니다.
+1단계 요소가 강조 표시된 시각적 요약입니다. **조직**은 여러 개의 사무실이 있을 수 있고, 각 사무실에는 지리적 로컬 DNS 서버를 사용하는 ISP와의 로컬 인터넷 연결이 있습니다. ISP를 통해 각 사무실의 사용자는 가장 가까운 Microsoft 365 네트워크 위치와 Microsoft 365 구독의 리소스에 연결할 수 있습니다.
 
 ![](./media/deploy-foundation-infrastructure-non-enterprises/networking-config.png)
 
@@ -75,11 +77,12 @@ ms.locfileid: "34419817"
 |:-------|:-----|:-----|
 | 기준 | 이는 데이터에 액세스하는 장치 및 데이터와 ID를 보호하는 데 최소한의 기본 표준입니다.데 <BR><BR> 이는 일반적으로 대부분의 사용자가 관리하는 대부분의 조직 데이터입니다. | 영업, 마케팅, 지원, 관리 및 제조와 같은 일선 직원을 위한 그룹입니다. |
 | 중요 | 이는 기준 수준을 넘어서 보호해야 하는 데이터의 하위 집합을 위한 추가 보호 기능입니다. 이 그룹에는 모든 사용자가 사용할 수 있도록 설계되지 않은 부서 및 프로젝트에 해당하는 중요한 데이터를 사용하고 만드는 사용자가 포함됩니다. | 미래의 제품을 개발하는 제품 또는 마케팅 팀 |
-| 매우 엄격한 규제 | 이는 고도로 분류되고 고려된 지적 재산권이나 영업 비밀, 또는 보안 규정을 준수해야 하는 데이터로서 일반적으로 소량의 데이터에 적용되는 가장 높은 수준의 보호입니다. |  연구, 법률 및 재무 팀. <BR><BR> 고객 또는 파트너 데이터를 저장하거나 사용하는 팀. |
+| 매우 엄격한 규제 | 이는 고도로 분류되고 고려된 지적 재산권이나 영업 비밀, 또는 보안 규정을 준수해야 하는 데이터로서 일반적으로 소량의 데이터에 적용되는 가장 높은 수준의 보호입니다. |  연구, 법률 및 재무 팀이나 고객 또는 파트너 데이터를 저장하거나 사용하는 팀 |
+||||
 
 ### <a name="hybrid-identity"></a>하이브리드 ID
 
-온-프레미스 AD DS 도메인이 있는 경우 서버에서 PHS(암호 해시 동기화)를 사용하여 Azure AD Connect를 구성합니다. 자세한 내용은 [ID 동기화](identity-azure-ad-connect.md)를 참조하세요.
+온-프레미스 AD DS 도메인이 있는 경우 도메인의 사용자 계정, 그룹 및 연락처 세트를 Microsoft 365 Enterprise 구독의 Azure AD 테넌트와 동기화해야 합니다. 엔터프라이즈 이외에는 서버에서 PHS(암호 해시 동기화)를 사용하여 Azure AD Connect를 구성합니다. 자세한 내용은 [ID 동기화](identity-azure-ad-connect.md)를 참조하세요.
 
 ### <a name="more-secure-user-access-with-conditional-access-policies"></a>조건부 액세스 정책을 사용하여 더욱 안전한 사용자 액세스
 
@@ -149,7 +152,7 @@ Microsoft 365 Enterprise E5를 사용하는 경우 AD Identity Protection을 사
 
 ![](./media/deploy-foundation-infrastructure-non-enterprises/identity-config.png)
  
-다음은 강조 표시된 새 ID 요소에 포함된 내용입니다.
+다음은 강조 표시된 새 하이브리드 ID 요소에 포함된 내용입니다.
  
 |||
 |:------:|:-----|
@@ -160,25 +163,40 @@ Microsoft 365 Enterprise E5를 사용하는 경우 AD Identity Protection을 사
 | ![](./media/deploy-foundation-infrastructure-non-enterprises/identity-aad-caps.png) | Azure AD 조건부 액세스 정책 |
 |||
 
+다음은 새 요소가 강조 표시된 클라우드 전용 ID의 ID 단계를 시각적으로 요약한 것입니다.
+
+![](./media/deploy-foundation-infrastructure-non-enterprises/identity-config-cloud-only.png)
+ 
+다음은 강조 표시된 새 클라우드 전용 ID 요소에 포함된 내용입니다.
+ 
+|||
+|:------:|:-----|
+| ![](./media/deploy-foundation-infrastructure-non-enterprises/identity-aad-settings.png) | Azure AD 설정을 사용하여 인증, 전역 계정 보안 및 그룹과 라이선스를 더 쉽게 관리할 수 있습니다. |
+| ![](./media/deploy-foundation-infrastructure-non-enterprises/identity-aad-caps.png) | Azure AD 조건부 액세스 정책 |
+|||
+
+
+
 ## <a name="phase-3-windows-10-enterprise"></a>3단계: Windows 10 Enterprise
 
-Windows 10 Enterprise 장치가 Microsoft 365의 ID 및 보안 인프라에 통합되었는지 확인하기 위한 옵션입니다.
-
-- 클라우드 전용(온-프레미스 AD DS 도메인이 없음)
-
-  각 Windows 10 Enterprise 장치를 구독의 Azure AD 테넌트에 조인합니다.
-
-  자세한 내용은 [회사 장치를 조직의 네트워크에 조인](https://docs.microsoft.com/ko-KR/azure/active-directory/user-help/user-help-join-device-on-network)을 참조하세요.
+Windows 10 Enterprise 디바이스가 Microsoft 365의 ID 및 보안 인프라에 통합되었는지 확인하기 위한 옵션입니다.
 
 - 하이브리드(온-프레미스 AD DS 도메인 보유)
 
-  AD DS 도메인에 이미 조인된 각각의 기존 Windows 10 Enterprise 장치인 경우, 이를 Azure AD 테넌트에 조인합니다. 자세한 내용은 [하이브리드 Azure Active Directory 조인된 장치를 구성하는 방법](https://go.microsoft.com/fwlink/p/?linkid=872870)을 참조하세요.
+  AD DS 도메인에 이미 조인된 각각의 기존 Windows 10 Enterprise 디바이스인 경우, 이를 Azure AD 테넌트에 조인합니다. 자세한 내용은 [하이브리드 Azure Active Directory 조인된 장치를 구성하는 방법](https://go.microsoft.com/fwlink/p/?linkid=872870)을 참조하세요.
 
   새 Windows 10 Enterprise 장치의 경우, 이를 AD DS 도메인에 조인한 다음, Azure AD 테넌트에 조인합니다.
 
-  각 Windows 10 Enterprise 장치의 경우, 모바일 장치 관리에 등록합니다. 자세한 지침은 [그룹 정책을 사용하여 Windows 10 장치 등록](https://go.microsoft.com/fwlink/p/?linkid=872871)을 참조하세요.
+  각 Windows 10 Enterprise 장치의 경우, 모바일 장치 관리에 등록합니다. 자세한 지침은 [그룹 정책을 사용하여 Windows 10 디바이스 등록](https://go.microsoft.com/fwlink/p/?linkid=872871)을 참조하세요.
 
-Windows 10 Enterprise 장치를 설치하 고 조인한 후에는 각 장치가 비즈니스용 Windows 업데이트 클라우드 서비스에서 업데이트를 자동으로 설치합니다. 일반적으로 엔터프라이즈가 아닌 조직은 업데이트를 배포하고 설치하기 위한 인프라를 설정할 필요가 없습니다. 
+- 클라우드 전용(온-프레미스 AD DS 도메인이 없음)
+
+  각 Windows 10 Enterprise 디바이스를 구독의 Azure AD 테넌트에 조인합니다.
+
+  자세한 내용은 [회사 디바이스를 조직의 네트워크에 조인](https://docs.microsoft.com/ko-KR/azure/active-directory/user-help/user-help-join-device-on-network)을 참조하세요.
+
+
+Windows 10 Enterprise 디바이스를 설치하 고 조인한 후에는 각 디바이스가 비즈니스용 Windows 업데이트 클라우드 서비스에서 업데이트를 자동으로 설치합니다. 일반적으로 엔터프라이즈가 아닌 조직은 Windows 10 업데이트를 배포하고 설치하기 위한 인프라를 설정할 필요가 없습니다.
 
 ### <a name="your-configuration-so-far"></a>지금까지의 구성
 
@@ -190,15 +208,15 @@ Windows 10 Enterprise 장치를 설치하 고 조인한 후에는 각 장치가 
 
 |||
 |:------:|:-----|
-| ![](./media/deploy-foundation-infrastructure-non-enterprises/win10-device.png) | Windows 장치에 설치된 Windows 10 Enterprise(예: 온-프레미스 노트북) |
+| ![](./media/deploy-foundation-infrastructure-non-enterprises/win10-device.png) | Windows 디바이스에 설치된 Windows 10 Enterprise(예: 온-프레미스 노트북) |
 | ![](./media/deploy-foundation-infrastructure-non-enterprises/win10-cloud.png) | Windows 10 Enterprise의 새 설치에 대한 이미지와 최신 업데이트를 제공하는 비즈니스용 Windows Update를 제공하는 VLSC(Volume Licensing Service Center)입니다. |
 |||
 
 ## <a name="phase-4-office-365-proplus"></a>4단계: Office 365 ProPlus
 
-Microsoft 365 Enterprise에는 Microsoft Office 구독 버전인 Office 365 ProPlus가 포함되어 있습니다. Office 2016 또는 Office 2019와 같이, Office 365 ProPlus는 클라이언트 장치에 직접 설치됩니다. 그러나 Office 365 ProPlus는 정기적으로 새로운 기능을 수신합니다. 자세한 내용은 [엔터프라이즈의 Office 365 ProPlus](https://docs.microsoft.com/deployoffice/about-office-365-proplus-in-the-enterprise)를 참조하세요.
+Microsoft 365 Enterprise에는 Microsoft Office 구독 버전인 Office 365 ProPlus가 포함되어 있습니다. Office 2016 또는 Office 2019와 같이, Office 365 ProPlus는 클라이언트 디바이스에 직접 설치됩니다. 그러나 Office 365 ProPlus는 정기적으로 새로운 기능을 포함하는 업데이트를 받습니다. 자세한 내용은 [엔터프라이즈의 Office 365 ProPlus](https://docs.microsoft.com/deployoffice/about-office-365-proplus-in-the-enterprise)를 참조하세요.
 
-엔터프라이즈가 아닌 조직의 경우, 장치에서 Office 365 ProPlus를 수동으로 설치합니다. 새 장치를 사용할 수 있도록 준비하는 과정에서 이 작업을 수행하거나, 온보딩 프로세스의 일부로 이 작업을 수행할 수 있습니다.
+엔터프라이즈가 아닌 조직의 경우, 디바이스에서 Office 365 ProPlus를 수동으로 설치합니다. 새 디바이스를 사용할 수 있도록 준비하는 과정에서 또는 온보딩 프로세스의 일부로 이 작업을 수행할 수 있습니다.
 
 어떤 경우든, 관리자나 사용자가 Office 365 포털 https://portal.office.com에 로그인합니다. **Microsoft Office Home** 탭에서 **Office 설치**를 클릭하고 설치 프로세스를 진행합니다.
 
@@ -214,21 +232,21 @@ Office 365 ProPlus에 대한 기능 업데이트는 프로그램이 설치된 �
  
 |||
 |:------:|:-----|
-| ![](./media/deploy-foundation-infrastructure-non-enterprises/o365-proplus-device.png) | 장치에 설치된 Office 365 ProPlus(예: 온-프레미스 노트북) |
-| ![](./media/deploy-foundation-infrastructure-non-enterprises/o365-proplus-cdn.png) | 장치가 Office 365 ProPlus 업데이트를 위해 액세스하는 Office 365 ProPlus용 Office CDN(Content Delivery Network). |
+| ![](./media/deploy-foundation-infrastructure-non-enterprises/o365-proplus-device.png) | 디바이스에 설치된 Office 365 ProPlus(예: 온-프레미스 노트북) |
+| ![](./media/deploy-foundation-infrastructure-non-enterprises/o365-proplus-cdn.png) | 디바이스가 Office 365 ProPlus 업데이트를 위해 액세스하는 Office 365 ProPlus용 Office CDN(Content Delivery Network). |
 |||
 
 ## <a name="phase-5-mobile-device-management"></a>5단계: 모바일 장치 관리
 
-Microsoft 365 Enterprise에는 모바일 장치 관리용 Microsoft Intune이 포함되어 있습니다. Intune을 사용하면 iOS, Android, macOS 및 Windows 장치를 관리하여 데이터를 포함하여 조직의 리소스에 대한 액세스를 보호할 수 있습니다. Intune은 Azure AD의 사용자, 그룹 및 컴퓨터 계정과 통합합니다.
+Microsoft 365 Enterprise에는 모바일 디바이스 관리용 Microsoft Intune이 포함되어 있습니다. Intune을 사용하면 Windows, iOS, Android 및 macOS 디바이스를 관리하여 데이터를 포함하여 조직의 리소스에 대한 액세스를 보호할 수 있습니다. Intune에서는 Azure AD의 사용자, 그룹 및 컴퓨터 계정을 사용합니다.
 
-Intune은 다음과 같은 두 가지 유형의 모바일 장치 관리를 제공합니다.
+Intune은 다음과 같은 두 가지 유형의 모바일 디바이스 관리를 제공합니다.
 
 - MDM(모바일 장치 관리)은 장치가 Intune에 등록된 경우에 제공됩니다. 등록하면 관리되는 장치가 되며 조직에서 사용하는 정책, 규칙 및 설정을 받을 수 있습니다. 이러한 유형의 장치는 보통 조직에서 소유 하며 직원에게 발행됩니다.
 
-- 개인 장치를 사용하는 사용자는 해당 장치를 등록하지 않거나 사용자의 정책과 설정을 사용하여 Intune에서 관리하고 싶지 않을 수 있습니다. 그러나 조직의 리소스와 데이터는 계속 보호해야 합니다. 이 시나리오에서는 MAM(모바일 응용 프로그램 관리)를 사용하여 앱을 보호할 수 있습니다. 이러한 유형의 장치는 BYOD(Bring Your Own Device)로 간주되며 일반적으로 직원이 담당합니다. 
+- 개인 장치를 사용하는 사용자는 해당 장치를 등록하지 않거나 사용자의 정책과 설정을 사용하여 Intune에서 관리하고 싶지 않을 수 있습니다. 그러나 조직의 리소스와 데이터는 계속 보호해야 합니다. 이 시나리오에서는 MAM(모바일 애플리케이션 관리)를 사용하여 앱을 보호할 수 있습니다.  
 
-Intune 정책은 장치 준수 및 앱 보호를 적용할 수 있습니다. 다음은 작성할 Intune 정책의 목록입니다.
+Intune 정책은 디바이스 준수 및 앱 보호를 적용할 수 있습니다. 다음은 작성할 Intune 정책의 목록입니다.
 
 | Intune 정책 | 적용 대상 그룹 |
 |:------|:-----|
@@ -249,12 +267,12 @@ Intune 정책은 장치 준수 및 앱 보호를 적용할 수 있습니다. 다
 
 ![](./media/deploy-foundation-infrastructure-non-enterprises/mdm-config.png)
  
-강조 표시된 새 모바일 장치 관리 요소에는 다음이 포함됩니다.
+강조 표시된 새 모바일 디바이스 관리 요소에는 다음이 포함됩니다.
 
 |||
 |:------:|:-----|
-| ![](./media/deploy-foundation-infrastructure-non-enterprises/mdm-device.png) | Intune에 등록된 장치에는 Windows 10 Enterprise를 실행하는 온-프레미스 노트북이 예제로 표시됩니다. |
-| ![](./media/deploy-foundation-infrastructure-non-enterprises/mdm-policies.png) | 장치 준수 및 앱 보호를 위한 Intune 정책입니다. |
+| ![](./media/deploy-foundation-infrastructure-non-enterprises/mdm-device.png) | Intune에 등록된 디바이스에는 Windows 10 Enterprise를 실행하는 온-프레미스 노트북이 예제로 표시됩니다. |
+| ![](./media/deploy-foundation-infrastructure-non-enterprises/mdm-policies.png) | 디바이스 준수 및 앱 보호를 위한 Intune 정책입니다. |
 |||
 
 ## <a name="phase-6-information-protection"></a>6단계: 정보 보호
@@ -275,13 +293,13 @@ Microsoft 365 Enterprise에는 다양한 수준의 관리, 보안 및 보호를 
 
 - 매우 엄격한 규제
 
-  예로는 고객 및 파트너의 개인 식별 정보와 조직의 지적 재산이 있습니다.
+  예로는 고객 및 파트너의 개인 식별 정보와 조직의 재무 정보 또는 지적 재산이 있습니다.
 
 이 데이터 보안 수준에 따라, 다음 단계는 다음을 식별하고 구현하는 것입니다.
 
 - 사용자 지정 중요한 정보 유형
 
-  Microsoft 365는 상태 서비스, 신용 카드 번호와 같은 중요한 정보 유형을 다양하게 제공합니다. Microsoft 365 제공 목록에서 필요한 항목을 찾을 수 없는 경우 직접 만들 수 있습니다.
+  Microsoft 365는 상태 서비스, 신용 카드 번호와 같은 중요한 정보 유형을 다양하게 제공합니다. 제공 목록에서 필요한 항목을 찾을 수 없는 경우 직접 만들 수 있습니다.
 
 - 보존 레이블
 
@@ -295,7 +313,12 @@ Microsoft 365 Enterprise에는 다양한 수준의 관리, 보안 및 보호를 
 
 사용 권한에 민감도 레이블을 사용하는 경우, 추가 Azure AD 보안 그룹을 만들어 전자 메일과 문서를 사용하여 누가 무엇을 할 수 있는지를 정의해야 합니다. 
 
-예를 들어, RESEARCH 민감도 레이블을 만들어 리서치 팀의 전자 메일과 문서를 보호해야 합니다. 일부 연구원이 RESEARCH 민감도 레이블로 표시된 문서를 변경하고 다른 비 연구 직원은 RESEARCH 민감도 레이블로 표시된 문서를 보기만 해야 하는지를 결정해야 합니다. 즉, 두 개의 추가 그룹을 만들고 관리해야 합니다.
+예를 들어, RESEARCH 민감도 레이블을 만들어 리서치 팀의 전자 메일과 문서를 보호해야 합니다. 다음 사항을 확인합니다.
+
+- 연구원에게 RESEARCH 민감도 레이블로 표시된 문서를 변경할 수 있는 능력이 있어야 합니다.
+- 연구원 이외 직원에게 RESEARCH 민감도 레이블로 표시된 문서를 볼 수 있는 능력만 있어야 합니다. 
+
+즉, 두 개의 추가 그룹을 만들고 관리해야 합니다.
 
 - RESEARCH-모두
 - RESEARCH-보기
@@ -317,23 +340,23 @@ Microsoft 365 Enterprise에는 다양한 수준의 관리, 보안 및 보호를 
 | ![](./media/deploy-foundation-infrastructure-non-enterprises/info-protect-labels.png) | 사용자가 문서에 적용할 수 있는 세 가지 보안 수준에 대한 민감도 레이블입니다. |
 |||
 
-보존 레이블과 사용자 지정 정보 유형은 표시되지 않습니다.
+사용자 지정 정보 유형 및 보존 레이블은 표시되지 않습니다.
 
 ## <a name="onboarding"></a>온보딩
 
-이 인프라에서 이 프로세스에 따라 Microsoft 365 Enterprise에 대해 직원을 온보딩할 수 있습니다.
+Microsoft 365 Enterprise 인프라를 사용하는 경우 직원을 손쉽게 온보딩할 수 있습니다.
 
-### <a name="a-new-windows-10-enterprise-device"></a>새 Windows 10 Enterprise 장치
+### <a name="a-new-windows-10-enterprise-device"></a>새 Windows 10 Enterprise 디바이스
 
-직원에게 새 Windows 10 Enterprise 장치를 제공하기 전에:
-
-- 클라우드 전용 ID의 경우
-
-  Microsoft 365 Enterprise 구독의 Azure AD 테넌트에 장치를 조인하세요.
+직원에게 새 Windows 10 Enterprise 디바이스를 제공하기 전에:
 
 - 하이브리드 ID의 경우
 
-  AD DS에 장치를 조인하고, Azure AD 테넌트에 이 장치를 조인한 다음, 장치를 Intune에 등록합니다.
+  AD DS에 디바이스를 조인하고, Azure AD 테넌트에 이 디바이스를 조인한 다음, 디바이스를 Intune에 등록합니다.
+
+- 클라우드 전용 ID의 경우
+
+  Microsoft 365 Enterprise 구독의 Azure AD 테넌트에 디바이스를 조인하세요.
 
 ### <a name="existing-employee-with-an-ad-ds-user-account"></a>AD DS 사용자 계정이 있는 기존 직원
 
@@ -345,7 +368,11 @@ Microsoft 365 Enterprise에는 다양한 수준의 관리, 보안 및 보호를 
 
 기존 직원이 해당 작업 그룹, 부서별 및 지역별 AD DS 그룹에 이미 추가되어 있어야 합니다.
 
-### <a name="new-employee-with-cloud-only-user-account"></a>클라우드 전용 사용자 계정이 있는 신입 직원
+Microsoft 365 관리 센터의 여러 Azure AD 그룹에 사용자 계정을 추가할 수 있습니다. 사용자 계정의 속성에서 **그룹 관리 > 구성원 자격 추가**를 클릭합니다.
+
+Powershell을 사용하려면 이 [다운로드 가능한 Excel 통합 문서](https://github.com/MicrosoftDocs/microsoft-365-docs/blob/public/microsoft-365/enterprise/media/Group-License-Mgmt-PowerShell.xlsx?raw=true)를 참조하여 지정된 사용자 계정 및 선택한 그룹 이름을 기준으로 PowerShell 명령을 생성합니다.
+
+### <a name="new-employee-with-a-cloud-only-user-account"></a>클라우드 전용 사용자 계정이 있는 신입 직원
 
 클라우드 전용 ID를 사용하는 경우 조직에 대한 초기 온보딩의 일부로, 새 사용자 계정을 이 그룹에 추가합니다.
 
@@ -356,9 +383,9 @@ Microsoft 365 Enterprise에는 다양한 수준의 관리, 보안 및 보호를 
 
 ### <a name="initial-sign-in-to-microsoft-365"></a>Microsoft 365의 초기 로그인
 
-AD DS 사용자 계정이 있는 신입 직원 또는 기존 직원이 Microsoft 365에 처음 로그인하는 경우, 다음을 안내합니다.
+직원들이 Microsoft 365에 처음으로 로그인할 때 다음을 지시합니다.
 
-1. 사용자 계정 자격 증명을 사용하여 장치에 로그인합니다.
+1. 사용자 계정 자격 증명을 사용하여 디바이스에 로그인합니다.
 2. 브라우저를 사용하여 Office 365 포털 https://portal.office.com에 로그인합니다.
 3. **Office 365 Home** 탭에서 장치에 Office 365 ProPlus를 설치하려면 **Office 설치**를 클릭합니다.
 
@@ -410,4 +437,4 @@ Microsoft 365 Enterprise 인프라를 빌드하고 구성한 후에는 다음이
 
 ## <a name="next-step"></a>다음 단계
 
-[워크로드와 시나리오](deploy-workloads.md)를 배포하여 기본 인프라의 기능과 구성을 최대한 활용하세요.
+[워크로드와 시나리오](deploy-workloads.md)를 배포하여 Microsoft 365 Enterprise 기본 인프라의 기능과 구성을 최대한 활용하세요.

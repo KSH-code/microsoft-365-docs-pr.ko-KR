@@ -4,7 +4,7 @@ ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
 ms.date: 04/01/2019
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Microsoft 365 Enterprise에 대한 정보 보호 인프라를 배포하는 단계입니다.
-ms.openlocfilehash: a0d2c485b05e0969fe45cfd79c86e4e7dcb1d5ff
-ms.sourcegitcommit: 3b2d3e2b38c4860db977e73dda119a465c669fa4
+ms.openlocfilehash: a00f61cbf2f8d00929a67dae6d401fd99014ec26
+ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/28/2019
-ms.locfileid: "33400002"
+ms.lasthandoff: 05/15/2019
+ms.locfileid: "34073688"
 ---
 # <a name="phase-6-information-protection"></a>6단계: 정보 보호
 
@@ -50,11 +50,7 @@ ms.locfileid: "33400002"
 
 ## <a name="how-microsoft-does-microsoft-365-enterprise"></a>Microsoft에서 Microsoft 365 Enterprise를 수행하는 방법
 
-Microsoft의 IT 전문가가 Microsoft 356 Enterprise의 정보 보호 기능을 사용하여 정보를 보호하고 사이버 공격으로부터 방어하는 방법을 알아보세요.
-
-- [Azure Information Protection을 사용하여 클라우드의 파일 보호](https://www.microsoft.com/itshowcase/Article/Content/924/Protecting-files-in-the-cloud-with-Azure-Information-Protection)
-- [Microsoft는 위협 인텔리전스를 사용하여 위협 방지, 감지 및 대응](https://www.microsoft.com/itshowcase/Article/Content/934/Microsoft-uses-threat-intelligence-to-protect-detect-and-respond-to-threats)
-- [Microsoft는 Office 365를 사용하여 피싱 시도 저지](https://www.microsoft.com/itshowcase/Article/Content/956/Microsoft-thwarts-phishing-attempts-with-Office-365)
+Microsoft의 IT 전문가가 [Azure Information Protection을 사용하고 데이터를 보호](https://www.microsoft.com/en-us/itshowcase/deploying-and-managing-microsoft-365#primaryR9)하는 방법을 알아보세요.
 
 ## <a name="how-contoso-did-microsoft-365-enterprise"></a>Contoso의 Microsoft 365 Enterprise 사용 방식
 

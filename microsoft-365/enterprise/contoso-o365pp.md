@@ -4,7 +4,7 @@ author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
 ms.date: 09/13/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Contoso에서 System Center Configuration Manager를 사용하여 Office 365 ProPlus를 배포하는 방식을 이해합니다.
-ms.openlocfilehash: 0fa0ca1d268dbfd57891804e20959147cd6385e4
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 8367f6456b6e32c62e03f611114177f4dbe6622f
+ms.sourcegitcommit: d9b462e035416bfa4b3d42467902c75859c55381
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32283551"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "36055000"
 ---
 # <a name="office-365-proplus-deployment-for-contoso"></a>Contoso의 Office 365 ProPlus 배포
 
@@ -75,7 +75,7 @@ Contoso는 자동으로 클라우드로부터 장치를 업데이트하도록 �
 
 ## <a name="next-step"></a>다음 단계
 
-Contoso가 어떻게 Microsoft 365 Enterprise의 EMS(Enteprise Mobility + Security)를 사용하여 조직에서 실행되는 해당 장치 및 앱을 관리하고 있는지 [알아봅니다](contoso-mdm.md).
+Contoso가 어떻게 Microsoft 365 Enterprise의 Intune을 사용하여 조직에서 실행되는 해당 장치 및 앱을 관리하고 있는지 [알아봅니다](contoso-mdm.md).
 
 ## <a name="see-also"></a>참고 항목
 

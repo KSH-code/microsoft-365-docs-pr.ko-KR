@@ -4,7 +4,7 @@ author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
 ms.date: 09/13/2018
-ms.audience: ITPro
+audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
 localization_priority: Priority
@@ -12,19 +12,19 @@ ms.collection:
 - M365-identity-device-management
 - Strat_O365_Enterprise
 ms.custom: ''
-description: Contoso에서 Microsoft 365 Enterprise의 EMS를 사용하여 장치와 장치에서 실행 중인 앱을 관리하는 방법을 이해합니다.
-ms.openlocfilehash: f47d6a1ee608d33802f1c523d3b954af3771f212
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+description: Contoso에서 Microsoft 365 Enterprise의 Intune을 사용하여 장치와 장치에서 실행 중인 앱을 관리하는 방법을 이해합니다.
+ms.openlocfilehash: 9f3db160b01a54afa3457703b0333be1ff3a02ec
+ms.sourcegitcommit: d9b462e035416bfa4b3d42467902c75859c55381
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32278045"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "36054990"
 ---
 # <a name="mobile-device-management-for-contoso"></a>Contoso의 모바일 장치 관리
 
-**요약:** Contoso에서 Microsoft 365 Enterprise의 EMS를 사용하여 장치와 장치에서 실행 중인 앱을 관리하는 방법을 이해합니다.
+**요약:** Contoso에서 Microsoft 365 Enterprise의 Intune을 사용하여 장치와 장치에서 실행 중인 앱을 관리하는 방법을 이해합니다.
 
-Microsoft 365 Enterprise의 EMS(Enterprise Mobility + Security)는 모바일 장치 및 응용 프로그램의 관리와 보안을 지원하기 위한 Azure 서비스 집합과 Microsoft Intune으로 구성되어 있습니다.
+Microsoft 365 Enterprise에는 모바일 장치 및 응용 프로그램의 관리와 보안을 지원하기 위한 Azure 서비스 집합과 Microsoft Intune이 포함되어 있습니다.
 
 Contoso에는 많은 모바일 사용 직원이 있으며, 일부는 Contoso 위치에 사무실을 보유하고, 일부는 사무실이 없습니다. Contoso는 직원 생산성을 유지하면서 장치, 해당 장치에 저장된 Contoso 데이터 및 응용 프로그램 동작을 안전하게 유지하는 방법이 필요했습니다.
 

@@ -13,16 +13,16 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 조직에서 Microsoft 365 Enterprise 배포하는 데 사용할 수 있는 리소스를 파악 합니다.
-ms.openlocfilehash: 9f67c8b6ac28557e8a37a31ec8ca9e0b318cb79a
-ms.sourcegitcommit: 63ca34172fcb9a957ce86b878a4d8d0f935c6a7b
+ms.openlocfilehash: bc678a4bd1b6f4e7332589186767894ee46aa83e
+ms.sourcegitcommit: d9b462e035416bfa4b3d42467902c75859c55381
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "35937410"
+ms.lasthandoff: 08/01/2019
+ms.locfileid: "36054950"
 ---
 # <a name="deploy-microsoft-365-enterprise"></a>Microsoft 365 Enterprise 배포
 
-Microsoft 365 Enterprise는 Office 365, EMS(Enterprise Mobility + Security) 및 Windows 10 Enterprise가 통합된 제품으로, 다음과 같은 이점을 제공합니다. 
+Microsoft 365 Enterprise는 Windows 10 Enterprise를 사용하는 로컬 및 클라우드 기반 생산성 앱 및 서비스의 조합입니다.  
 
 - 지능형 보안 기능이 있습니다.
 - 간소화하도록 통합됩니다.
@@ -95,7 +95,7 @@ TLG를 사용하면 복잡한 구성, 워크로드 또는 종단 간 시나리�
 
 1. [https://customers.microsoft.com/](https://customers.microsoft.com/)로 이동하여 **검색**을 클릭합니다.
 2. 왼쪽 창의 **언어**에서 사용자의 언어를 선택합니다.
-3. 산업**에서 사용자 조직의 산업을 선택합니다.
+3. **산업**에서 사용자 조직의 산업을 선택합니다.
 4. **제품**에서 **Microsoft 365**를 선택합니다.
 5. 고객 사례 연구용 카드를 클릭합니다.
   
