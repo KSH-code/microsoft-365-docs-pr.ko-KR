@@ -7,12 +7,12 @@ author: jaimeo
 ms.localizationpriority: normal
 ms.date: 09/24/2018
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 68f5d5cb46d4aa643b1b09f9204b24dea3d77eb1
-ms.sourcegitcommit: 427c6459614d58f6ef7c74354ae1816423e22323
+ms.openlocfilehash: 2178b871da412d12bf20dae9b72d7562e2bc4654
+ms.sourcegitcommit: 4460975970ae13e917d4d336e92dbd76ae26493b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "35390535"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36243949"
 ---
 # <a name="add-admin-contacts-in-microsoft-managed-desktop-admin-portal"></a>Microsoft Managed Desktop Administration 포털에서 관리자 연락처 추가
 
@@ -28,13 +28,13 @@ Microsoft Managed Desktop Administration portal을 사용 하려면 포털에 �
 
 전역 관리자는 Microsoft Managed Desktop에서 고객을 등록 하기 위한 것 이어야 합니다. 관리 포털 내에서 모든 5 개의 역할이 동일한 액세스 권한을 가지 며 작업을 시작 하 고 확인할 수 있습니다. Azure AD에서 이러한 역할을 할당 하는 방법에 대 한 자세한 내용은 [Azure Active Directory에서 관리자 역할 권한을](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)참조 하세요. 
 
-## <a name="admin-contact-focus-areas"></a>관리자 접촉 포커스 영역
+## <a name="admin-contact-areas-of-focus"></a>포커스의 관리자 연락처 영역
 
-관리자 연락처는 질문에 답하고 다양 한 포커스 영역에 대 한 의사 결정을 내릴 수 있는 가장 좋은 사용자나 그룹 이어야 합니다. Microsoft Managed Desktop 작업은 해당 관리자 연락처에 연락 하 여 고객의 지원 요청을 포함 하는 질문을 제공 합니다. 이러한 관리 연락처는 지원 요청 업데이트 및 새 메시지에 대 한 알림을 받습니다. 이러한 영역은 다음과 같습니다.
+관리자 연락처는 질문에 답하고 각 영역에 대 한 의사 결정을 내릴 수 있는 가장 좋은 사용자나 그룹 이어야 합니다. Microsoft Managed Desktop 작업은 해당 관리자 연락처에 연락 하 여 고객의 지원 요청을 포함 하는 질문을 제공 합니다. 이러한 관리 연락처는 지원 요청 업데이트 및 새 메시지에 대 한 알림을 받습니다. 이러한 영역은 다음과 같습니다.
 
 포커스 영역 | 에 대 한 질문
 --- | ---
-앱 | 앱 패키징 문제 해결
+앱 패키징 | 앱 패키징 문제 해결
 장치 | 장치 상태, Microsoft Managed Desktop devices 문제 해결
 보안 | Microsoft Managed Desktop 장치에 대 한 보안 문제 해결
 IT 지원 센터 | Microsoft 관리 되는 데스크톱 지원에서 MMD 지원 영역 외부의 최종 사용자 티켓을 사용 하는 경우 

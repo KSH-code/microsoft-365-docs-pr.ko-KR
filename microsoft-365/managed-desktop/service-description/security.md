@@ -6,18 +6,18 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.date: 09/24/2018
-ms.openlocfilehash: 5987dcaf717ecb2907f02db675a77c3e1d2d2220
-ms.sourcegitcommit: b9663acecf0bfdca2486818ec7e08a6f882d0dc9
+ms.openlocfilehash: 6d3be89b52d71543687a02a1fd3fbae8bc1543f8
+ms.sourcegitcommit: 4460975970ae13e917d4d336e92dbd76ae26493b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35425671"
+ms.lasthandoff: 08/07/2019
+ms.locfileid: "36243939"
 ---
 # <a name="security-in-microsoft-managed-desktop"></a>Microsoft Managed Desktop의 보안
 
 <!--Security, also Onboarding doc: data handling/store, privileged account access -->
 
-Microsoft Managed Desktop은 표준 정책 집합을 적용 하며, microsoft 관리 되는 데스크톱 장치, 저장 된 회사 데이터 등을 보호 하는 데 도움이 되는 다양 한 Microsoft 기술을 활용 합니다. 아래 나열 된 영역은 더 자세히 설명 되어 있습니다.  
+Microsoft Managed Desktop은 다양 한 Microsoft 기술을 사용 하 여 관리 되는 장치 및 데이터를 안전 하 게 보호 합니다. 특히 다음 사항에 유의합니다. 
 
 - [데이터 보안](#data-security) -Microsoft Managed Desktop에서 수집 되는 데이터 유형 및 안전 하 게 저장 되는 위치
 - [장치 보안](#device-security) -Microsoft Managed Desktop 장치에 대 한 보안 및 보호
@@ -37,6 +37,7 @@ Microsoft Managed Desktop은 표준 정책 집합을 적용 하며, microsoft �
 - 앱 배포 및 안정성 데이터
 - 업데이트 및 보안 정책 배포 데이터
 - 장치에 할당 된 사용자
+- Microsoft Managed Desktop에서 서비스를 관리 하는 데 사용 하는 계정과 관련 된 테 넌 트의 보안 로그
 
 
 
@@ -60,8 +61,7 @@ Id 및 액세스 관리 회사 자산 및 업무상 중요 한 데이터를 보�
 
 서비스 | 설명
 --- | ---
-생체 인식 인증 |  Windows Hello에서는 사용자가 얼굴 또는 PIN을 사용 하 여 로그인 하 여 암호를 잊거나 도용 하기 어렵게 만듭니다. 자세한 내용은 [Windows Hello](https://docs.microsoft.com/windows-hardware/design/device-experiences/windows-hello) 를 참조 하세요.
-Multi-Factor Authentication | Azure multi-factor authentication은 휴대폰을 사용 하 여 추가 인증 수준 및 셀프 서비스 암호 재설정을 제공 하 여 Microsoft Managed Desktop service의 중요 한 기능에 대 한 액세스를 제어 합니다. 
+생체 인식 인증 |  Windows Hello에서는 사용자가 얼굴 또는 PIN을 사용 하 여 로그인 하 여 암호를 잊거나 도용 하기 어렵게 만듭니다. 고객은 하이브리드 구성에서이 서비스를 사용할 수 있도록 온-프레미스 Active Directory에 필요한 필수 구성 요소를 구현 해야 합니다. 자세한 내용은 [Windows Hello](https://docs.microsoft.com/windows-hardware/design/device-experiences/windows-hello) 를 참조 하세요. 
 표준 사용자 권한 |  시스템을 보호 하 고 보다 안전 하 게 보호 하기 위해 사용자에 게 표준 사용자 권한이 할당 됩니다. 이 작업은 Windows Autopilot 경험의 일부로 할당 됩니다.
 
 
