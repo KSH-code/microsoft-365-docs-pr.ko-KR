@@ -3,7 +3,7 @@ title: Microsoft 365 Enterprise 기본 인프라
 author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
-ms.date: 05/22/2019
+ms.date: 08/09/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 조직에 Microsoft 365 Enterprise의 기본 인프라를 배포하는 주요 단계(핵심 배포라고도 함)를 이해합니다.
-ms.openlocfilehash: 0c683f771609c847556f82fe84a17dad13ee34d4
-ms.sourcegitcommit: d9b462e035416bfa4b3d42467902c75859c55381
+ms.openlocfilehash: 0b54225d3ce9043564788e28ddd88426dae611e9
+ms.sourcegitcommit: 86dba00cd786ac8ea761cdfcd85dfbd33e64d088
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "36055027"
+ms.lasthandoff: 08/12/2019
+ms.locfileid: "36297918"
 ---
 # <a name="microsoft-365-enterprise-foundation-infrastructure"></a>Microsoft 365 Enterprise 기본 인프라
 
@@ -37,14 +37,14 @@ Microsoft 365 Enterprise의 종단 간 배포를 하는 경우, 먼저 응용프
 
 이 단계들은 가장 기초적인 (네트워킹 및 아이디) 것으로 시작하며 인프라 설정 및 그룹들을 생성합니다.
 
-- 장치에 가장 안전하고 최신 버전의 Windows를 설치하십시오. 
-- 장치에 최신 버전의 Microsof Office를 설치합니다.
-- 조직의 장치를 관리하십시오.
+- 장치에 최신의 안전한 Windows 버전을 설치하고 장치를 최신 상태로 유지합니다.
+- 장치에 최신 버전의 Microsoft Office를 설치하고 장치를 최신 상태로 유지합니다.
+- 조직의 장치 및 앱에 대한 액세스를 관리합니다.
 - 클라우드에서 장치에 대한 정보를 보호하십시오.
 
 하지만 IT 리소스 및 비즈니스 요구에 맞는 단계 내에서 절차 및 단계를 유연하게 구성하고 시작할 수 있습니다.
 
-- **더 작고 최신 조직인 경우**, 조직적으로 인프라를 구축하기 위해 필요한 단계를 따르십시오.
+- **더 작고 최신 조직인 경우**, 조직적으로 인프라를 구축하기 위해 필요한 단계를 따르십시오. 비 엔터프라이즈에 대한 배포를 단순화하려면 [여기](deploy-foundation-infrastructure-non-enterprises.md)를 클릭하세요.
 
 -  **엔터프라이즈 조직인 경우**, 규정된 경로 보다는 IT 인프라 단계를 살펴보십시오. 그리고 조직 전체에서 각 레이어의 요구 사항을 최종적으로 준수하는 가장 효과적인 방법을 결정하십시오.
 
@@ -80,7 +80,7 @@ Microsoft 365 Enterprise의 종단 간 배포를 하는 경우, 먼저 응용프
 
 그러나 Microsoft 365 Enterprise 기초 인프라가 사용자를 위한 개별된 소프트웨어 및 서비스의 시작이라는 사실을 알아야 합니다. ***모든 사용자에게 해당 레이어를 공개하지 않고도 기초 인프라의 레이어를 구성할 수 있습니다.***
 
-따라서 조직의 사무실, 지역 또는 부서에서 많은 사용자를 위한 구성 요소 전에 기초 인프라의 요소들을 구성하고 테스트하며 시험 사용하는 것이 가능합니다.
+조직의 사무실, 지역 또는 부서에서 많은 사용자를 위한 구성 요소 전에 기초 인프라의 요소들을 구성하고 테스트하며 시험 사용하는 것이 가능합니다.
 
 예를 들어, 설정을 생성할 수 있습니다.
 
@@ -102,7 +102,7 @@ Microsoft 365 Enterprise의 종단 간 배포를 하는 경우, 먼저 응용프
 | 모바일 장치 관리 | 장치 등록 및 장치 기반 조건부 액세스 정책에 대한 그룹에 계정을 추가하십시오. |
 | 정보 보호 | 정보 보호 레이블에 대한 그룹에 사용자 계정을 추가하십시오. |
 
-기초 인프라를 완료하고 테스트하며 시험 사용한 경우, Windows 10 Enterprise 및 Office 365 ProPlus와 같은 설치된 소프트웨어와, 장치 등록 및 조건부 액세스 정책과 같은 클라우드 기반 서비스 및 보호 기능을 비즈니스 목적 및 IT 리소스에 최적화된 방식으로 사용자에게 공개할 수 있습니다.
+기초 인프라읜 단계나 요소를 완료하고 테스트하며 시험 사용한 경우, Windows 10 Enterprise 및 Office 365 ProPlus와 같은 설치된 소프트웨어와, 장치 등록 및 조건부 액세스 정책과 같은 클라우드 기반 서비스 및 보호 기능을 비즈니스 목적 및 IT 리소스에 최적화된 방식으로 사용자에게 공개할 수 있습니다.
 
 ## <a name="deployment-and-project-management-strategies"></a>배포 및 프로젝트 관리 전략
 
@@ -114,7 +114,6 @@ Microsoft 365 Enterprise의 종단 간 배포를 하는 경우, 먼저 응용프
 
 
 ## <a name="next-step"></a>다음 단계
-
 
 | 내 위치 | 가야할 곳 |
 |:-------|:-----|

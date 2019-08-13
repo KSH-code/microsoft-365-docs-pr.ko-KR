@@ -3,7 +3,7 @@ title: Microsoft 365 Enterprise 배포
 author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
-ms.date: 07/30/2019
+ms.date: 08/09/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 조직에서 Microsoft 365 Enterprise 배포하는 데 사용할 수 있는 리소스를 파악 합니다.
-ms.openlocfilehash: bc678a4bd1b6f4e7332589186767894ee46aa83e
-ms.sourcegitcommit: d9b462e035416bfa4b3d42467902c75859c55381
+ms.openlocfilehash: 2f527c8d3afe2d3d0690661c6f01efefd5b0d435
+ms.sourcegitcommit: 86dba00cd786ac8ea761cdfcd85dfbd33e64d088
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "36054950"
+ms.lasthandoff: 08/12/2019
+ms.locfileid: "36297908"
 ---
 # <a name="deploy-microsoft-365-enterprise"></a>Microsoft 365 Enterprise 배포
 
@@ -29,13 +29,13 @@ Microsoft 365 Enterprise는 Windows 10 Enterprise를 사용하는 로컬 및 클
 - 독창성을 촉진합니다.
 - 팀 작업에 적합하게 설계되었습니다.
 
-이러한 혜택은 세 가지 제품에 대한 라이선스를 얻는 것만으로 실현되는 것이 아니라, 통합과 최첨단 보안을 포함하는 구체적인 방법으로 라이선스와 그 기능을 배치함으로써 실현됩니다.
+최신 보안 서비스 및 기능을 포함하는 통합된 방식으로 인프라 및 생산성 워크로드를 배포하여 이러한 이점을 실현할 수 있습니다.
 
 Microsoft 365 Enterprise를 배포하는 세 가지 기본 방법이 있습니다.
 
-- Microsoft 365에 대한 FastTrack을 사용하여 Microsoft 엔지니어와 수행하십시오.
+- [Microsoft 365에 대한 FastTrack](#fasttrack-for-microsoft-365)을 사용하여 Microsoft 엔지니어와 수행하십시오.
 - Microsoft 컨설팅 서비스 혹은 [Microsoft 파트너](https://partner.microsoft.com/)의 도움말을 참고하여 수행하십시오.
-- Microsoft 365 Enterprise 배포 가이드를 사용하여 수행하십시오.
+- [Microsoft 365 Enterprise 배포 가이드](#microsoft-365-enterprise-deployment-guide)를 사용하여 수행해 보세요.
 
 ## <a name="fasttrack-for-microsoft-365"></a>Microsoft 365에 대한 FastTrack
 
@@ -57,7 +57,7 @@ Microsoft 365 Enterprise를 직접 배포하려면 다음을 수행할 수 있�
 
   **소규모 혹은 신생 조직인 경우**, 조직적으로 인프라를 구축하기 위해 필요한 단계를 따르십시오.
 
-  그러나 현재 인프라와 통합하고 IT 계획 및 리소스에 적합하며 비즈니스 요구사항을 충족하기 위해 필요한 순서대로 [순차적으로 또는 병렬로](deployment-strategies-microsoft-365-enterprise.md) 이 인프라의 단계를 배포할 수 있습니다. 
+  그러나 현재 인프라와 통합하고 IT 계획 및 리소스에 적합하며 비즈니스 요구사항을 충족하기 위해 필요한 순서대로 [순차적으로 또는 병렬로](deployment-strategies-microsoft-365-enterprise.md) 이 인프라의 단계를 배포할 수 있습니다. 비 엔터프라이즈에 대한 배포를 단순화하려면 [여기](deploy-foundation-infrastructure-non-enterprises.md)를 클릭하세요.
 
   **Enterprise 조직인 경우**, 규정된 경로 보다는 IT 인프라 단계를 살펴보십시오. 그리고 조직 전체에서 각 레이어의 요구 사항을 최종적으로 준수하는 가장 효과적인 방법을 결정하십시오.
 
@@ -85,6 +85,16 @@ TLG를 사용하면 복잡한 구성, 워크로드 또는 종단 간 시나리�
 
 ![Microsoft 클라우드의 테스트 랩 가이드](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
 
+## <a name="transition-your-entire-organization"></a>전체 조직 전환
+
+전체 조직을 Microsoft 365 Enterprise의 제품 및 서비스로 전환하는 방법을 더 잘 이해하려면 [전환 포스터](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/deploy-microsoft-365-enterprise/transitionorgtom365.pdf)를 다운로드하세요.
+
+![](./media/deploy-microsoft-365-enterprise/TransitionOrgToM365.png)
+
+이 두 페이지 포스터는 신속하게 기존 인프라를 인벤터리하여 Microsoft 365 Enterprise에서 해당 제품이나 서비스로 전환하는 방법에 대한 지침을 제공합니다. 여기에는 Windows와 Office 제품, 장치 관리, ID, 정보 및 위협 방지와 같은 기타 인프라 및 보안 요소가 포함됩니다.
+
+이 포스터는 편지, 법적 또는 타블로이드(11 x 17) 형식으로 인쇄할 수 있습니다.
+
 ## <a name="how-did-others-do-it"></a>다른 사용자는 어떻게 했습니까?
 
 이러한 리소스를 사용하여 다른 사용자가 Microsoft 365 Enterprise를 배포하고 사용하는 방법을 이해하십시오.
@@ -98,7 +108,6 @@ TLG를 사용하면 복잡한 구성, 워크로드 또는 종단 간 시나리�
 3. **산업**에서 사용자 조직의 산업을 선택합니다.
 4. **제품**에서 **Microsoft 365**를 선택합니다.
 5. 고객 사례 연구용 카드를 클릭합니다.
-  
 
 ### <a name="how-microsoft-uses-microsoft-365-enterprise"></a>Microsoft에서 Microsoft 365 Enterprise를 사용하는 방법
 
@@ -115,7 +124,7 @@ CSEO(Core Services Engineering and Operations)(이전의 Microsoft IT)가 안전
 
 Contoso 기업은 프랑스 파리에 본사를 둔 가상의 대표적인 글로벌 제조 대기업입니다. [Contoso가 Microsoft 365 Enterprise를 배포](contoso-case-study.md)하고 네트워킹, ID, Windows 10 Enterprise, Office 365 ProPlus, 모바일 장치 관리, 정보 보호 및 보안에 대한 중요 디자인 결정 및 구현 세부 사항을 진행하는 방식을 참조하십시오. 
 
-## <a name="next-step-to-deploy-microsoft-365-enterprise"></a>Microsoft 365 Enterprise 배포하기 위한 다음 단계
+## <a name="next-step"></a>다음 단계
 
 [FastTrack](https://fasttrack.microsoft.com/microsoft365)을 사용하여 직접 Microsoft 지원과 함께 수행하십시오.
 

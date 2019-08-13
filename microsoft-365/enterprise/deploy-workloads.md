@@ -12,12 +12,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 조직의 사용자에게 Microsoft 365 Enterprise의 생산성 워크로드를 제공합니다.
-ms.openlocfilehash: 0c81f93b117645974e93870f20d4dfb469dae3ac
-ms.sourcegitcommit: d9b462e035416bfa4b3d42467902c75859c55381
+ms.openlocfilehash: 3e7e030e3684606a906a57856d08ea25c7dc2001
+ms.sourcegitcommit: 86dba00cd786ac8ea761cdfcd85dfbd33e64d088
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "36054930"
+ms.lasthandoff: 08/12/2019
+ms.locfileid: "36297868"
 ---
 # <a name="microsoft-365-enterprise-workloads-and-scenarios"></a>Microsoft 365 Enterprise 워크로드 및 시나리오
 
@@ -66,7 +66,7 @@ Microsoft 365 Enterprise의 독창성과 팀워크 이점을 얻으려면 기본
   - [Exchange Online](exchangeonline-workload.md)을 사용하면 사용자가 클라우드 기반 이메일을 시작할 수 있습니다.
 - 엄격히 규제된 디지털 자산을 클라우드에 즉시 저장할 필요가 없다면 **정보 보호** 계층 이전에 [Microsoft Teams](teams-workload.md) 및 [SharePoint Online](sharepoint-online-onedrive-workload.md)을 사용자에게 배포하세요.
 
-비즈니스 요구 사항을 가장 잘 충족시킬 수 있도록 기본 인프라의 전제 조건 단계를 구성하는 데 가장 적합한 방법을 결정해야 합니다.
+비즈니스 요구 사항을 충족시킬 수 있도록 기본 인프라의 전제 조건 단계를 구성하는 데 가장 적합한 방법을 결정해야 합니다.
 
 ### <a name="best-practice"></a>모범 사례
 
@@ -77,3 +77,4 @@ Microsoft 365 Enterprise의 독창성과 팀워크 이점을 얻으려면 기본
 전반적인 성능에 있어 기본적이고 매우 중요하지만 Microsoft 365 응용 프로그램 및 서비스 성능이 시간이 지남에 따라 개선 될 것이라는 점을 고려하여 사용자를 워크로드에 온보딩하는 동안 네트워크의 **네트워킹** 단계가 진행될 수 있습니다.
 
 이는 여러 위치가 있고 에지 장치와 인터넷 연결이 혼합된 엔터프라이즈 조직에 특히 해당됩니다.
+
