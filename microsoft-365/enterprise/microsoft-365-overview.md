@@ -3,7 +3,7 @@ title: Microsoft 365 Enterprise 개요
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 07/30/2019
+ms.date: 08/12/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: Microsoft 365 Enterprise의 구성 요소, 계획 및 배포 경로에 대해 소개 합니다.
-ms.openlocfilehash: ec2a8f0d60f50503f8f5cf457c2999598e248053
-ms.sourcegitcommit: 63ca34172fcb9a957ce86b878a4d8d0f935c6a7b
+ms.openlocfilehash: de67f9e99fbb7a3a6e85001ec675f16672f4ef22
+ms.sourcegitcommit: 86dba00cd786ac8ea761cdfcd85dfbd33e64d088
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/30/2019
-ms.locfileid: "35937427"
+ms.lasthandoff: 08/12/2019
+ms.locfileid: "36297898"
 ---
 # <a name="microsoft-365-enterprise-overview"></a>Microsoft 365 Enterprise 개요
 
@@ -59,15 +59,26 @@ Microsoft 365 Entep76e3을 보유 하 고 있는 경우 다음과 같은 [제공
 
 [Microsoft 365 엔터프라이즈 포스터](http://aka.ms/m365eposter) 는 다음을 볼 수 있는 중앙 위치입니다.
 
-- Microsoft 365 Enterprise의 이점과이를 핵심 요소로 가치에 매핑하는 방법
+- Microsoft 365 Enterprise의 이점과 앱 및 서비스가 가치 핵심 요소로에 매핑되는 방식
 - Microsoft 365 Enterprise 요금제 및 해당 계획에 포함 되는 구성 요소 
 - Microsoft 365 Enterprise에서 사용 하는 최신 작업 공간의 주요 구성 요소
-- Microsoft 365 엔터프라이즈의 주요 비즈니스 가치 시나리오 및 해당 사용자가 수행 하는 서비스 및 제품
+- 일반적인 조직 부서에 대 한 [Microsoft 365 생산성 라이브러리](https://www.microsoft.com/microsoft-365/success/) 및 대표적인 시나리오
 - Microsoft 365 엔터프라이즈 [배포 가이드](deploy-microsoft-365-enterprise.md) 를 강조 하는 채택 로드맵
 
 ![](./media/m365-poster/m365e-poster.png)
 
 포스터 복사본을 다운로드 하려면 [여기](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/Microsoft365Enterprise.pdf)를 클릭 하세요.
+
+
+## <a name="transition-your-entire-organization"></a>전체 조직 전환
+
+전체 조직을 Microsoft 365 Enterprise의 제품 및 서비스로 이동 하는 방법에 대 한 자세한 그림을 보려면 [전환 포스터](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/deploy-microsoft-365-enterprise/transitionorgtom365.pdf)를 다운로드 하세요.
+
+![](./media/deploy-microsoft-365-enterprise/TransitionOrgToM365.png)
+
+이 두 페이지 포스터는 기존 인프라를 신속 하 게 인벤토리에 제공 하 고 Microsoft 365 Enterprise에서 해당 제품 또는 서비스로 이동 하기 위한 지침을 얻을 수 있는 방법입니다. 여기에는 Windows 및 Office 제품과 기타 인프라 및 보안 요소 (예: 장치 관리, id, 정보 및 위협 보호)가 포함 됩니다.
+
+이 포스터는 letter, legal 또는 tabloid (11 x 17) 형식으로 인쇄할 수 있습니다.
 
 ## <a name="deploying"></a>배치
 
