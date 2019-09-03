@@ -126,8 +126,7 @@ Windows 10 및 Office 365 ProPlus의 [데스크톱 배포](http://www.aka.ms/how
 
   - [Microsoft Mechanics의 데스크톱 배포 시리즈 비디오](http://www.aka.ms/watchhowtoshift)
 
-  - 
-  [System Center Configuration Manager OS 배포](https://docs.microsoft.com/ko-KR/sccm/osd/understand/introduction-to-operating-system-deployment)
+  - [System Center Configuration Manager OS 배포](https://docs.microsoft.com/ko-KR/sccm/osd/understand/introduction-to-operating-system-deployment)
 
   - [<span class="underline">Windows 10 배포 계획</span>](https://docs.microsoft.com/windows/deployment/planning/index)
 

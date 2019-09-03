@@ -53,11 +53,9 @@ ms.locfileid: "35584544"
 
 캡처한 이미지에는 Windows 이미지 또는 표준 Windows 설치 미디어와 같은 형식을 갖는 WIM이 포함됩니다. 사용자 지정 WIM 파일이 있으면 System Center Configuration Manager 또는 Microsoft Deployment Toolkit에서 OS 배포의 일부로 다른 작업 시퀀스를 사용하여 배포 관련 작업을 수행하고, 이미지를 적용하고, 환으로 Windows 이미지 적용 전후에 작업을 실행할 수 있습니다.
 
+[Windows 10 참조 이미지 만들기](https://docs.microsoft.com/ko-KR/windows/deployment/deploy-windows-mdt/create-a-windows-10-reference-image)
 
-  [Windows 10 참조 이미지 만들기](https://docs.microsoft.com/ko-KR/windows/deployment/deploy-windows-mdt/create-a-windows-10-reference-image)
-
-
-  [운영 체제를 설치하는 작업 시퀀스 만들기](https://docs.microsoft.com/ko-KR/sccm/osd/deploy-use/create-a-task-sequence-to-install-an-operating-system)
+[운영 체제를 설치하는 작업 시퀀스 만들기](https://docs.microsoft.com/ko-KR/sccm/osd/deploy-use/create-a-task-sequence-to-install-an-operating-system)
 
 ### <a name="deployment-types"></a>배포 유형
 
@@ -71,8 +69,7 @@ ms.locfileid: "35584544"
 
 이러한 세 가지 시나리오는 몇 가지 공통점이 있습니다. 작업 시퀀스를 사용해서 실행되며, 각 경우에 사용자 지정 이미지를 적용할 수 있다는 것입니다.
 
-
-  [Windows 10 배포 시나리오에 대한 자세한 정보](https://docs.microsoft.com/ko-KR/windows/deployment/windows-10-deployment-scenarios)
+[Windows 10 배포 시나리오에 대한 자세한 정보](https://docs.microsoft.com/ko-KR/windows/deployment/windows-10-deployment-scenarios)
 
 ### <a name="in-place-upgrade-using-task-sequence-automation"></a>작업 시퀀스 자동화를 사용한 현재 위치 업그레이드
 
@@ -88,11 +85,9 @@ ms.locfileid: "35584544"
 
 현재 위치 업그레이드 시나리오는 레거시 버전의 Windows에서 Windows 10으로 마이그레이션하거나 이전 버전의 Windows 10에서 업그레이드하는 데 사용할 수 있습니다. Windows 설치 프로그램이 업그레이드를 완료하면 작업 시퀀스가 계속 실행되면서 Office와 같은 응용 프로그램을 업그레이드하고, 드라이버를 교체하고, 개인 설정을 적용합니다. 마찬가지로 업그레이드 작업 시퀀스를 사용하여 업그레이드를 수행하기 전에 설치 전 작업 및 검사를 수행할 수 있습니다.
 
+[Configuration Manager를 사용하여 Windows 10으로의 현재 위치 업그레이드 수행](https://docs.microsoft.com/ko-KR/windows/deployment/upgrade/upgrade-to-windows-10-with-system-center-configuraton-manager)
 
-  [Configuration Manager를 사용하여 Windows 10으로의 현재 위치 업그레이드 수행](https://docs.microsoft.com/ko-KR/windows/deployment/upgrade/upgrade-to-windows-10-with-system-center-configuraton-manager)
-
-
-  [Configuration Manager에서 OS를 업그레이드하는 작업 시퀀스 만들기](https://docs.microsoft.com/ko-KR/sccm/osd/deploy-use/create-a-task-sequence-to-upgrade-an-operating-system)
+[Configuration Manager에서 OS를 업그레이드하는 작업 시퀀스 만들기](https://docs.microsoft.com/ko-KR/sccm/osd/deploy-use/create-a-task-sequence-to-upgrade-an-operating-system)
 
 ### <a name="phased-deployment"></a>단계별 배포
 
@@ -104,9 +99,7 @@ ms.locfileid: "35584544"
 
 선택하는 배포 유형에 관계없이, 예측 가능성 및 반복 가능성을 위해 가능한 한 자동화될 수 있는지 확인할 수 있습니다. Microsoft는 자동화된 작업 시퀀스를 사용하여 OS 배포를 자동화하기 위한 다음 두 가지 솔루션을 제공합니다.
 
-  - 
-  **
-  [System Center Configuration Manager](https://docs.microsoft.com/ko-KR/sccm/core/understand/introduction)**(ConfigMgr)는 소프트웨어 배포 및 소프트웨어 업데이트 관리를 위한 기능을 보완하기 위해 기본 제공 운영 체제 소프트웨어 배포 기능을 제공합니다. ConfigMgr은 모든 규모의 조직에서 광범위하게 사용되며, 4가지 Windows 배포 유형을 모두 지원합니다. 필요에 따라 Microsoft Intune에 ConfigMgr을 통합하여 배포 및 장치 관리를 위한 추가 기능을 추가할 수 있습니다.
+  - **[System Center Configuration Manager](https://docs.microsoft.com/ko-KR/sccm/core/understand/introduction)**(ConfigMgr)는 소프트웨어 배포 및 소프트웨어 업데이트 관리를 위한 기능을 보완하기 위해 기본 제공 운영 체제 소프트웨어 배포 기능을 제공합니다. ConfigMgr은 모든 규모의 조직에서 광범위하게 사용되며, 4가지 Windows 배포 유형을 모두 지원합니다. 필요에 따라 Microsoft Intune에 ConfigMgr을 통합하여 배포 및 장치 관리를 위한 추가 기능을 추가할 수 있습니다.
 
   - 또한 인기 있는 다른 배포 옵션 중 하나는 무료 **[Microsoft Deployment Toolkit](https://docs.microsoft.com/ko-KR/windows/deployment/deploy-windows-mdt/get-started-with-the-microsoft-deployment-toolkit)**(MDT)으로, 일반적으로 중소기업이 OS 배포에 사용합니다. 이 도구 키트에는 약간의 인프라만 필요합니다. MDT는 네트워크 부을 위해 WDS(Windows 배포 서비스)와 통합됩니다. 4가지 배포 유형과 응용 프로그램, 드라이버 및 설정 설치를 모두 지원합니다. 또한 MDT를 Configuration Manager와 통합할 수도 있습니다.
 
@@ -118,11 +111,9 @@ Windows 10에 새롭게 제공되는 옵션은 Windows Autopilot을 사용하여
 
 그런 다음, 사용자가 Azure AD의 자격 증명을 사용하여 설치 중에 PC에 로그인하면 장치는 Microsoft Intune에 등록하고, 배포 프로세스를 인계 받고 응용 프로그램, 소프트웨어 업데이트 구성 및 준수 정책을 적용할 수 있게 됩니다. 또한 필요에 따라 Windows Autopilot은 프로비전이 완료될 때까지 사용자가 첫 번째 세션에 액세스하지 못하게 할 수도 있습니다.
 
+[Windows Autopilot 개요](https://docs.microsoft.com/ko-KR/windows/deployment/windows-autopilot/windows-10-autopilot)
 
-  [Windows Autopilot 개요](https://docs.microsoft.com/ko-KR/windows/deployment/windows-autopilot/windows-10-autopilot)
-
-
-  [Windows Autopilot 필수 구성 요소](https://docs.microsoft.com/ko-KR/windows/deployment/windows-autopilot/windows-10-autopilot#prerequisites)
+[Windows Autopilot 필수 구성 요소](https://docs.microsoft.com/ko-KR/windows/deployment/windows-autopilot/windows-10-autopilot#prerequisites)
 
 ## <a name="windows-update-for-business-for-feature-updates"></a>기능 업데이트를 위한 비즈니스용 Windows 업데이트
 
@@ -130,16 +121,11 @@ Windows 10에 새롭게 제공되는 옵션은 Windows Autopilot을 사용하여
 
 비즈니스용 Windows 업데이트에 대한 자세한 내용을 다음 설명서를 참조하세요.
 
-- 
-  [비즈니스용 Windows 업데이트를 사용하여 업데이트 배포](https://docs.microsoft.com/ko-KR/windows/deployment/update/waas-manage-updates-wufb)
-- 
-  [비즈니스용 Windows 업데이트 구성](https://docs.microsoft.com/ko-KR/windows/deployment/update/waas-configure-wufb)
-- 
-  [비즈니스용 Windows 업데이트를 기존 관리 도구에 통합](https://docs.microsoft.com/ko-KR/windows/deployment/update/waas-integrate-wufb)
-- 
-  [그룹 정책을 사용하여 비즈니스용 Windows 업데이트 구성](https://docs.microsoft.com/ko-KR/windows/deployment/update/waas-wufb-group-policy)
-- 
-  [Microsoft Intune을 사용하여 비즈니스용 Windows 업데이트 구성](https://docs.microsoft.com/ko-KR/intune/windows-update-for-business-configure)
+- [비즈니스용 Windows 업데이트를 사용하여 업데이트 배포](https://docs.microsoft.com/ko-KR/windows/deployment/update/waas-manage-updates-wufb)
+- [비즈니스용 Windows 업데이트 구성](https://docs.microsoft.com/ko-KR/windows/deployment/update/waas-configure-wufb)
+- [비즈니스용 Windows 업데이트를 기존 관리 도구에 통합](https://docs.microsoft.com/ko-KR/windows/deployment/update/waas-integrate-wufb)
+- [그룹 정책을 사용하여 비즈니스용 Windows 업데이트 구성](https://docs.microsoft.com/ko-KR/windows/deployment/update/waas-wufb-group-policy)
+- [Microsoft Intune을 사용하여 비즈니스용 Windows 업데이트 구성](https://docs.microsoft.com/ko-KR/intune/windows-update-for-business-configure)
 
 ## <a name="next-step"></a>다음 단계 
 

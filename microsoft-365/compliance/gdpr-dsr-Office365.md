@@ -112,7 +112,7 @@ DSR에 대응하는 첫 번째 단계는 DSR의 주체인 개인 데이터를 �
 
 앞서 언급했듯이 Microsoft는 조직의 데이터 중 90% 이상이 Word 및 Excel와 같은 Office 응용 프로그램을 사용하여 만들어지는 것으로 추정합니다. 이는 보안 및 준수 센터에서 콘텐츠 검색을 사용하여 대부분의 DSR 관련 데이터를 검색할 수 있음을 의미합니다.
 
-이 가이드에서는 DSR 요청에 응답할 수 있는 개인 데이터를 검색하는 사용자 또는 관리자가 보안 및 준수 센터에서 콘텐츠 검색 도구를 사용하는 데 익숙하거나 경험이 있다고 가정합니다. 콘텐츠 검색 사용에 대한 일반적인 지침은 [Office 365의 콘텐츠 검색](https://support.office.com/article/Content-Search-in-Office-365-53390468-eec6-45cb-b6cd-7511f9c909e4)을 참조하세요. 검색을 실행하는 사용자에게 보안 및 준수 센터에서 필요한 권한이 할당되어 있는지 확인해야 합니다. 이 사용자는 보안 및 준수 센터에서 eDiscovery 매니저 역할 그룹의 구성원으로 추가되어야 합니다. [Office 365 보안 및 준수 센터에서 eDiscovery 권한 할당](https://support.office.com/article/Assign-eDiscovery-permissions-in-the-Office-365-Security-Compliance-Center-5b9a067b-9d2e-4aa5-bb33-99d8c0d0b5d7)을 참조하세요. DSR 조사에 참여하는 조직의 다른 사용자를 eDiscovery 매니저 역할 그룹에 추가하여 이들이 콘텐츠 검색 도구에서 검색 결과 미리 보기 및 내보내기와 같은 필요한 작업을 수행할 수 있도록 하는 것이 좋습니다. 그러나 준수 경계를 설정([여기](#set-up-compliance-boundaries-to-limit-the-scope-of-content-searches)의 설명 참조)하지 않은 경우 eDiscovery 매니저는 DSR 조사와 관련이 없을 수도 있는 위치를 포함하여 조직의 모든 콘텐츠 위치를 검색할 수 있습니다. 
+이 가이드에서는 DSR 요청에 응답할 수 있는 개인 데이터를 검색하는 사용자 또는 관리자가 보안 및 준수 센터에서 콘텐츠 검색 도구를 사용하는 데 익숙하거나 경험이 있다고 가정합니다. 콘텐츠 검색 사용에 대한 일반적인 지침은 [Office 365의 콘텐츠 검색](https://support.office.com/article/content-search-in-office-365-53390468-eec6-45cb-b6cd-7511f9c909e4)을 참조하세요. 검색을 실행하는 사용자에게 보안 및 준수 센터에서 필요한 권한이 할당되어 있는지 확인해야 합니다. 이 사용자는 보안 및 준수 센터에서 eDiscovery 매니저 역할 그룹의 구성원으로 추가되어야 합니다. [Office 365 보안 및 준수 센터에서 eDiscovery 권한 할당](https://support.office.com/article/Assign-eDiscovery-permissions-in-the-Office-365-Security-Compliance-Center-5b9a067b-9d2e-4aa5-bb33-99d8c0d0b5d7)을 참조하세요. DSR 조사에 참여하는 조직의 다른 사용자를 eDiscovery 매니저 역할 그룹에 추가하여 이들이 콘텐츠 검색 도구에서 검색 결과 미리 보기 및 내보내기와 같은 필요한 작업을 수행할 수 있도록 하는 것이 좋습니다. 그러나 준수 경계를 설정([여기](#set-up-compliance-boundaries-to-limit-the-scope-of-content-searches)의 설명 참조)하지 않은 경우 eDiscovery 매니저는 DSR 조사와 관련이 없을 수도 있는 위치를 포함하여 조직의 모든 콘텐츠 위치를 검색할 수 있습니다. 
 
 데이터를 찾은 후에 데이터 주체의 요청을 충족하기 위한 특정 작업을 수행할 수 있습니다.
 
@@ -215,15 +215,15 @@ pilar@contoso.com AND filetype="xlxs"
 
 #### <a name="working-with-partially-indexed-items-in-content-search"></a>콘텐츠 검색에서 부분적으로 인덱싱된 항목 사용
 
-부분적으로 인덱싱된 항목 (*인덱싱되지 않은 항목*이라고도 함)은 Exchange Online 사서함 항목 및 SharePoint Online 및 OneDrive for Business 사이트의 문서로, 검색을 위해 인덱싱되지 않았기 때문에 콘텐츠 검색을 사용하여 검색할 수 없습니다. 대부분의 전자 메일 메시지 및 사이트 문서는 [Office 365의 인덱싱 제한](https://support.office.com/article/limits-for-content-search-in-the-office-365-security-compliance-center-78fe3147-1979-4c41-83bb-aeccf244368d?) 범위에 속하기 때문에 성공적으로 인덱싱됩니다. 전자 메일 메시지 또는 파일의 검색이 인덱싱되지 않은 이유는 다음과 같습니다.
+부분적으로 인덱싱된 항목 (*인덱싱되지 않은 항목*이라고도 함)은 Exchange Online 사서함 항목 및 SharePoint Online 및 OneDrive for Business 사이트의 문서로, 검색을 위해 인덱싱되지 않았기 때문에 콘텐츠 검색을 사용하여 검색할 수 없습니다. 대부분의 전자 메일 메시지 및 사이트 문서는 [Office 365의 인덱싱 제한](https://support.office.com/article/limits-for-content-search-in-the-office-365-security-compliance-center-78fe3147-1979-4c41-83bb-aeccf244368d??) 범위에 속하기 때문에 성공적으로 인덱싱됩니다. 전자 메일 메시지 또는 파일의 검색이 인덱싱되지 않은 이유는 다음과 같습니다.
 
-- 파일 형식을 [인식할 수 없거나 인덱싱이 지원되지 않습니다](https://support.office.com/article/partially-indexed-items-in-content-search-in-office-365-d1691de4-ca0d-446f-a0d0-373a4fc8487b?). 파일 형식 인덱싱은 지원되지만 특정 파일에 대해 인덱싱 오류가 발생했습니다.
+- 파일 형식을 [인식할 수 없거나 인덱싱이 지원되지 않습니다](https://support.office.com/article/partially-indexed-items-in-content-search-in-office-365-d1691de4-ca0d-446f-a0d0-373a4fc8487b??). 파일 형식 인덱싱은 지원되지만 특정 파일에 대해 인덱싱 오류가 발생했습니다.
 - 전자 메일 메시지에 이미지 파일(부분적으로 인덱싱된 전자 메일 항목의 가장 일반적인 사유)과 같은 유효한 처리기가 없는 첨부 파일이 있습니다.
 - 전자 메일 메시지에 첨부된 파일이 너무 크거나 첨부 파일이 너무 많습니다.
 
 DSR 요청에 응답할 때 작업할 수 있도록 부분적으로 인덱싱된 항목에 대해 보다 자세히 알아보는 것이 좋습니다. 자세한 내용은 다음을 참조하세요.
 
-- [Office 365의 콘텐츠 검색에서 부분적으로 인덱싱된 항목](https://support.office.com/article/partially-indexed-items-in-content-search-in-office-365-d1691de4-ca0d-446f-a0d0-373a4fc8487b?)
+- [Office 365의 콘텐츠 검색에서 부분적으로 인덱싱된 항목](https://support.office.com/article/partially-indexed-items-in-content-search-in-office-365-d1691de4-ca0d-446f-a0d0-373a4fc8487b??)
 - [Office 365 eDiscovery에서 부분적으로 인덱싱된 항목 조사](https://support.office.com/article/investigating-partially-indexed-items-in-office-365-ediscovery-4e8ff113-6361-41e2-915a-6338a7e2a1ed)
 - [인덱싱되지 않은 항목 내보내기](https://support.office.com/article/Export-Content-Search-results-from-the-Office-365-Security-Compliance-Center-ed48d448-3714-4c42-85f5-10f75f6a4278#unidexeditems)
 
@@ -1023,7 +1023,7 @@ Kaizala 관리자는 Kaizala 관리 포털에서 Kaizala 사용자의 계정을 
 
 #### <a name="discover"></a>검색
 
-Planner 계획은 Office 365 그룹과 연결되고 Office 365 그룹의 파일은 해당 그룹의 연결된 SharePoint Online 사이트에 저장됩니다. 즉, Office 365 그룹 사이트를 검색하여 콘텐츠 검색을 사용하면 Planner 파일을 찾을 수 있습니다. 이렇게 하려면 Office 365 그룹에 대한 URL이 있어야 합니다. "Office 365의 콘텐츠 검색" 도움말 항목에서 [Microsoft Teams 및 Office 365 그룹 검색](https://support.office.com/article/Content-Search-in-Office-365-53390468-eec6-45cb-b6cd-7511f9c909e4)을 참조하여 해당 SharePoint Online 사이트에서 Planner 파일을 검색하는 데 도움이되는 Office 365 그룹에 대한 정보를 얻는 방법에 대한 팁을 참조하세요.
+Planner 계획은 Office 365 그룹과 연결되고 Office 365 그룹의 파일은 해당 그룹의 연결된 SharePoint Online 사이트에 저장됩니다. 즉, Office 365 그룹 사이트를 검색하여 콘텐츠 검색을 사용하면 Planner 파일을 찾을 수 있습니다. 이렇게 하려면 Office 365 그룹에 대한 URL이 있어야 합니다. "Office 365의 콘텐츠 검색" 도움말 항목에서 [Microsoft Teams 및 Office 365 그룹 검색](https://support.office.com/article/content-search-in-office-365-53390468-eec6-45cb-b6cd-7511f9c909e4)을 참조하여 해당 SharePoint Online 사이트에서 Planner 파일을 검색하는 데 도움이되는 Office 365 그룹에 대한 정보를 얻는 방법에 대한 팁을 참조하세요.
 
 #### <a name="access"></a>Access
 

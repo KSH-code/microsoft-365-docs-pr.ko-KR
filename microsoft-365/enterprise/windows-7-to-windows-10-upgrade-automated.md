@@ -78,8 +78,7 @@ Windows 10의 현재 위치 업그레이드는 파일 마이그레이션 또는 
 
   - 맬웨어 방지, VPN 또는 가상화와 같은 낮은 수준의 코드 솔루션
 
-
-  [업그레이드 작업 순서](https://docs.microsoft.com/ko-KR/sccm/osd/deploy-use/create-a-task-sequence-to-upgrade-an-operating-system) 서식 파일은 System Center Configuration Manager 현재 분기에 기본 제공되며, 여러 릴리스에서 사용할 수 있습니다. 최근 릴리스에서는 장치 및 Office 호환성 준비 상태를 확인하고 네트워크 트래픽을 줄이며 OneDrive 백업과 같은 새로운 옵션을 구성하는 프로세스가 더욱 효율적으로 수행되도록 하는 System Center Configuration Manager에 대한 중요한 기술 향상이 있었습니다. 이 [Microsoft Mechanics 쇼](https://youtu.be/CYRnAmCD7ls)에서 System Center Configuration Manager OS 배포에 대한 최신 업데이트를 확인하세요.
+[업그레이드 작업 순서](https://docs.microsoft.com/ko-KR/sccm/osd/deploy-use/create-a-task-sequence-to-upgrade-an-operating-system) 서식 파일은 System Center Configuration Manager 현재 분기에 기본 제공되며, 여러 릴리스에서 사용할 수 있습니다. 최근 릴리스에서는 장치 및 Office 호환성 준비 상태를 확인하고 네트워크 트래픽을 줄이며 OneDrive 백업과 같은 새로운 옵션을 구성하는 프로세스가 더욱 효율적으로 수행되도록 하는 System Center Configuration Manager에 대한 중요한 기술 향상이 있었습니다. 이 [Microsoft Mechanics 쇼](https://youtu.be/CYRnAmCD7ls)에서 System Center Configuration Manager OS 배포에 대한 최신 업데이트를 확인하세요.
 
 System Center Configuration Manager를 사용하지 않는 경우 Microsoft Deployment Toolkit을 사용하여 업그레이드 배포 작업 순서를 작성하고 실행할 수 있습니다.
 
