@@ -55,12 +55,11 @@ Windows 10의 경우, Windows Hello와 같이 생체 인식을 사용하여 안�
 
 사용자가 노출될 수 있는 시각적인 보안 및 규정 준수 컨트롤도 있습니다. Azure AD 및 Microsoft Intune으로 구성된 Enterprise Mobility + Security는 데스크톱 업그레이드의 대상으로 지정할 수 있는 추가 기능을 Windows 10 및 Office 365에 통합합니다.
 
-[Microsoft Enterprise Mobility + Security](https://www.microsoft.com/en-us/cloud-platform/enterprise-mobility-security)
+[Microsoft Enterprise Mobility + Security](https://www.microsoft.com/ko-KR/cloud-platform/enterprise-mobility-security)
 
 예를 들어 다단계 인증을 사용하도록 설정한 경우 이 기능은 Azure AD를 사용하고, 휴대폰 앱 또는 PIN으로 안전하게 서비스에 액세스하도록 하여 리소스에 대한 사용자 로그인을 보호합니다. 또한 Azure Information Protection은 사용자가 문서를 쉽게 분류하고 레이블을 지정할 수 있도록 합니다.
 
-
-  [Office 365에 대한 다단계 인증 설정](https://support.office.com/ko-KR/article/set-up-multi-factor-authentication-for-office-365-users-8f0454b2-f51a-4d9c-bcde-2c48e41621c6)하려면
+[Office 365에 대한 다단계 인증 설정](https://support.office.com/ko-KR/article/set-up-multi-factor-authentication-for-office-365-users-8f0454b2-f51a-4d9c-bcde-2c48e41621c6)하려면
 
 사용자들이 경험하게 될 새로운 기능들이 약간 있으며 경우에 따라 긍정적이거나 덜 긍정적인 차원에서 사용자에게 놀라움을 주는 기능도 있을 수 있습니다. 또한 이러한 놀라운 기능들이 정상적인 워크플로에 변화를 가져올 경우 지원 센터에서 더 많은 문의 전화가 수신되고 지원 티켓이 늘어날 수 있습니다.
 

@@ -59,15 +59,13 @@ USMT는 사용자 계정, 사용자 파일, 운영 체제 설정 및 응용 프�
 
 PC 새로 고침을 수행하고, 기본 Windows 파티션을 다시 포맷하지 않을 경우, USMT에서 하드 링크 마이그레이션 저장소를 사용할 수 있는 옵션도 제공됩니다. 이 프로세스는 이전 운영 체제 및 앱이 제거되고 새로 고침되는 동안 PC에서 사용자 상태를 유지합니다. 복원 프로세스가 동일한 로컬 파티션에서 시작될 경우 이 옵션은 성능을 획기적으로 향상시키고 네트워크 트래픽을 줄여줍니다.
 
-
-  [USMT(사용자 환경 마이그레이션 도구) 개요](https://docs.microsoft.com/ko-KR/windows/deployment/usmt/usmt-overview)
+[USMT(사용자 환경 마이그레이션 도구) 개요](https://docs.microsoft.com/ko-KR/windows/deployment/usmt/usmt-overview)
 
 ## <a name="onedrive-known-folder-move"></a>OneDrive의 알려진 폴더 이동
 
 사용자가 OneDrive에 있거나 이 배포의 일부로 OneDrive를 추가하는 경우 새 옵션을 사용할 수 있습니다. 클라우드를 사용하여 사용자 파일을 동기화할 경우 OneDrive의 “알려진 폴더 이동” 기능은 로컬 네트워크 기반 파일 마이그레이션 옵션으로는 가능하지 않은 유연성 수준을 제공합니다. 마이그레이션 전에 이 기능을 사용하도록 설정하면 새 PC 또는 업그레이드한 PC에서 보안 액세스가 제공되고, 자체 서버에 임시 마이그레이션 저장소를 만들 필요가 없습니다. 또한 이러한 모든 작업이 사용자에게 완전히 투명하게 진행될 수 있습니다.
 
-
-  [알려진 Windows 폴더를 OneDrive로 리디렉션 및 이동](https://docs.microsoft.com/ko-KR/onedrive/redirect-known-folders)
+[알려진 Windows 폴더를 OneDrive로 리디렉션 및 이동](https://docs.microsoft.com/ko-KR/onedrive/redirect-known-folders)
 
 이미 OneDrive을 사용 중인 경우 사용자는 OneDrive 또는 SharePoint에서 해당 장치와 동기화하려는 폴더 및 위치를 선택할 수 있으며, 결과적으로 최종 사용자가 이러한 설정을 수행할 책임을 지게 됩니다. 알려진 폴더 이동 기능을 사용하면 사용자 프로필 내의 문서, 바탕 화면 및 그림 폴더를 대상으로 지정하고, OneDrive에서 모두 보호할 수 있습니다. 사용자는 이 작업을 직접 수행할 수 있으며, 이 시나리오에서 보다 중요하게 [그룹 정책 설정을 사용하여 적용](https://docs.microsoft.com/ko-KR/onedrive/use-group-policy?redirectSourcePath=%252fen-us%252farticle%252fUse-Group-Policy-to-control-OneDrive-sync-client-settings-0ecb2cf5-8882-42b3-a6e9-be6bda30899c)할 수 있습니다.
 
