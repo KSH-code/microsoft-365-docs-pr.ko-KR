@@ -3,7 +3,7 @@ title: '4단계: Office 365 ProPlus'
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 09/18/2018
+ms.date: 08/29/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Microsoft 365 Enterprise에 대한 Office 365 ProPlus 인프라를 배포하는 단계입니다.
-ms.openlocfilehash: cf698e4dbee17a811a4d2bc01d08d4d97d1961c1
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: f20435edc4cdc675d0308774eb493a67723054f4
+ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34074178"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "36982769"
 ---
 # <a name="phase-4-office-365-proplus"></a>4단계: Office 365 ProPlus
 
@@ -29,24 +29,6 @@ ms.locfileid: "34074178"
 Microsoft 365 Enterprise에는 Office의 구독 버전인 Office 365 ProPlus가 포함되어 있습니다. Office 2016과 마찬가지로 Office 365 ProPlus에는 모든 Office 응용 프로그램이 있으며 이러한 응용 프로그램은 클라이언트 장치에 직접 설치됩니다. Office 2016과 달리 Office 365 ProPlus는 정기적으로 새로운 기능으로 업데이트되며 사용자가 최대 5대의 장치에 Office를 설치할 수 있는 사용자 기반 라이선싱 모델이 있습니다. 자세한 내용은 [엔터프라이즈의 Office 365 ProPlus 정보](https://docs.microsoft.com/deployoffice/about-office-365-proplus-in-the-enterprise)를 참조하세요.
 
 이 단계에서는 Microsoft 365 Enterprise의 일부로 클라이언트 장치에 Office 365 ProPlus를 설치합니다. 이 지침 외에도 배포에 도움이 되는 [Microsoft Fastrack](https://fasttrack.microsoft.com/office)을 사용하는 것이 좋습니다. 
-
-Office 365 ProPlus는 다음과 같은 Microsoft 365 Enterprise에 대한 전략적 비즈니스 시나리오를 지원합니다.
-
-- 실시간으로 또는 원하는 시간에 문서 공동 작업을 수행하여 공동 작성 프로세스 간소화
-- 사용자가 조직에서 파일, 정보 및 아이디어를 검색하고, 공유하고, 진행하도록 지원하여 통합적인 지식 및 전문 정보 활용
-- 사용자가 비즈니스 프로세스를 혁신하고 효율성을 높이도록 지원
-- 비즈니스 목표에 맞게 프로젝트, 작업 및 기한 관리
-- 디자인, 쓰기, 콘텐츠 검색 등에 대한 지능형 보조 기능을 사용하여 뛰어난 품질의 작업 수행
-- 정보를 검색하고, 데이터를 분석하고, 찾은 내용을 공유하여 모든 사람이 합리적인 결정을 내리도록 지원
-- 팀과 소통하여 정보를 제공하고, 정보 제공을 요청하고, 협력 및 의견 합의 도달
-- 예약 및 임시 호출 방식으로 전 세계의 파트너, 동료 및 고객이 규모의 그룹과 소통하고 모든 규모의 그룹과 온라인 모임 진행
-- 조직 내부 및 외부에서 파일을 저장 및 공유하여 조직 경계를 넘나들며 원활하게 작업 가능
-- 유연한 작업 스타일을 유지하면서 어떤 장치를 사용하든 장소나 시간의 구애를 받지 않고 안전하게 더 많은 작업 처리
-- 업계에서 인증된 방식으로 제어 및 가시성에 대한 전역 표준을 준수하여 안심하고 작업 가능
-- 사용자의 정보 보호 및 데이터 손실 위험 최소화
-- 보안 위험을 줄이고 IT 효율성을 극대화하면서 데스크톱 소프트웨어 및 장치를 최신 상태로 유지
-
-자세한 내용은 [Microsoft 365를 사용한 디지털 변환](http://transform.microsoft.com)을 참조하세요. 
 
 Office 365 ProPlus를 이미 배포한 경우 이 단계에 대한 [종료 조건](office365proplus-exit-criteria.md)을 검토하여 Microsoft 365 Enterprise에 대한 필수 조건을 충족하는지 확인합니다.
 
@@ -87,7 +69,7 @@ Office 365 ProPlus를 배포하기 전에 [Office 365 ProPlus를 배포하기 �
 
 ## <a name="how-microsoft-does-microsoft-365-enterprise"></a>Microsoft에서 Microsoft 365 Enterprise를 수행하는 방법
 
-Microsoft의 전문가가 [Office 365 ProPlus의 업데이트를 배포하고 관리](https://www.microsoft.com/en-us/itshowcase/deploying-and-managing-microsoft-365#primaryR7)하는 방법에 대해 알아봅니다.
+Microsoft의 전문가가 [Office 365 ProPlus의 업데이트를 배포하고 관리](https://www.microsoft.com/ko-KR/itshowcase/deploying-and-managing-microsoft-365#primaryR7)하는 방법에 대해 알아봅니다.
 
 ## <a name="how-contoso-did-microsoft-365-enterprise"></a>Contoso의 Microsoft 365 Enterprise 사용 방식
 

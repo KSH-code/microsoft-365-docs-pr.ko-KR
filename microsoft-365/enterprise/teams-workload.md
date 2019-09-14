@@ -2,7 +2,7 @@
 title: Microsoft 365 Enterprise용 Microsoft Teams 배포
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 09/16/2018
+ms.date: 08/28/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -12,12 +12,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 조직 전체에서 Microsoft 365 Enterprise의 Microsoft Teams를 계획 및 롤아웃하고 가치를 창출하는 프로세스를 안내합니다.
-ms.openlocfilehash: 1e7519817a10eb4aa710dff2d4c74c9390c9f6f6
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: fd2e72ddb0dfbcc437d30dee16241fbccc81b05b
+ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34072858"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "36982619"
 ---
 # <a name="deploy-microsoft-teams-for-microsoft-365-enterprise"></a>Microsoft 365 Enterprise용 Microsoft Teams 배포
 
@@ -50,14 +50,6 @@ Microsoft 365 [기본 인프라](deploy-foundation-infrastructure.md)에 Teams�
 빠르게 움직이고 고도의 공동 작업을 수행하면서 밀접하게 협력하고 Exchange Online에서 제공할 수 있는 전자 메일보다 훨씬 다양한 기능을 필요로 하는 팀의 요구를 충족하는 데 Teams를 사용해야 합니다. 예를 들어 녹음된 기록을 사용하는 실시간 그룹 채팅 및 파일 및 메모를 저장할 수 있는 일반적이고 찾기 쉬운 위치 등을 제공해야 합니다. 
 
 Teams의 이점을 확인하는 한 가지 방법은 팀이 현재 상호 작용하는 방식을 조사한 다음 상호 작용을 대체하고 보다 간편한 공동 작업 방법을 제공하는 적절한 Teams 시나리오를 찾아서 추가 기능을 제공하는 것입니다.
-
-Teams는 다음과 같은 Microsoft 365 Enterprise에 대한 전략적 비즈니스 시나리오를 지원합니다.
-
-- 팀과 소통하여 정보를 제공하고, 정보 제공을 요청하고, 협력 및 의견 합의 도달
-- 최전방 작업자들이 디지털 혁신을 진행하도록 지원
-- 작업 습관을 이해하여 미치는 영향 개선
-
-자세한 내용은 [Microsoft 365를 사용한 디지털 변환](http://transform.microsoft.com)을 참조하세요. 
 
 #### <a name="microsoft-teams-for-highly-regulated-data"></a>높은 규제 대상 데이터에 대한 Microsoft Teams
 
@@ -99,7 +91,7 @@ Teams의 보안을 보다 잘 이해하려면 다음 추가 리소스를 검토�
 - [Microsoft Teams에 대한 사용자 액세스 관리](https://docs.microsoft.com/MicrosoftTeams/user-access)
 - [Microsoft Teams용 클라이언트 다운로드](https://docs.microsoft.com/MicrosoftTeams/get-clients)
 - [Office 365 조직에서 Microsoft Teams 설정](https://docs.microsoft.com/MicrosoftTeams/office-365-set-up)
-- [Office 365 조직에서 Microsoft Teams 기능 관리](https://docs.microsoft.com/MicrosoftTeams/enable-features-office-365)
+- [Office 365 조직에서 Microsoft Teams 기능 관리](https://docs.microsoft.com/microsoftteams/enable-features-office-365)
 
 #### <a name="result"></a>결과
 

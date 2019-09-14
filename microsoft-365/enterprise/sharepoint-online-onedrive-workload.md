@@ -2,7 +2,7 @@
 title: Microsoft 365 Enterprise에 대한 SharePoint Online 및 비즈니스용 OneDrive 배포
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 09/19/2018
+ms.date: 08/28/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -12,12 +12,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 조직 전체에서 Microsoft 365 Enterprise의 SharePoint Online을 계획 및 롤아웃하고 가치를 창출하는 프로세스를 안내합니다.
-ms.openlocfilehash: fab2a368a936fc3ffb4a56a9dc81ba6b3e0b0910
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: 9ceadbb0268d3a2aa82309d01933a8bd05429188
+ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34074118"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "36981769"
 ---
 # <a name="deploy-sharepoint-online-and-onedrive-for-business-for-microsoft-365-enterprise"></a>Microsoft 365 Enterprise에 대한 SharePoint Online 및 비즈니스용 OneDrive 배포
 
@@ -67,23 +67,6 @@ SharePoint Online은 다양한 용도로 사용할 수 있습니다. 비즈니�
 필요에 맞게 SharePoint Online을 구성하는 방법에 대한 리소스는 [SharePoint Online 관리자](https://docs.microsoft.com/sharepoint/sharepoint-online)를 참조하세요.
 
 SharePoint Online의 이점을 알아보는 한 가지 방법은 개인, 팀, 부서 또는 조직 전체가 현재 상호 작용하는 방식을 검토한 후, 파일을 저장 및 공유하고 공동으로 작업하는 보다 쉬운 방법을 제공하는 적절한 시나리오를 찾아보는 것입니다. [Microsoft Teams](teams-workload.md)가 일부 시나리오에 적합한 옵션이 될 수 있다는 점에 유의하세요.
-
-SharePoint Online은 다음과 같은 Microsoft 365 Enterprise에 대한 전략적 비즈니스 시나리오를 지원합니다.
-
-- 팀과 소통하여 정보를 제공하고, 정보 제공을 요청하고, 협력 및 의견 합의 도달
-- 집단 지성 활용
-- 사용자가 비즈니스 프로세스를 혁신하도록 지원
-- 기업 문화 조성
-- 비즈니스 목표에 맞게 프로젝트, 작업 및 기한 관리
-- Firstline worker가 디지털 혁신을 진행하도록 지원
-- 작업 습관을 이해하여 미치는 영향 개선
-- 파트너, 동료 및 고객과 의사 소통
-- 조직 내부 및 외부에서 파일을 저장 및 공유하여 조직 경계를 넘나들며 원활하게 작업 가능
-- 유연한 작업 스타일을 유지하면서 어떤 장치를 사용하든 장소나 시간의 구애를 받지 않고 안전하게 더 많은 작업 처리
-- 사용자의 정보 보호 및 데이터 손실 위험 최소화
-- 개인 정보 보호 및 규정 준수로 조직이 GDPR(일반 데이터 보호 규정)을 준수하도록 지원
-
-자세한 내용은 [Microsoft 365를 사용한 디지털 변환](http://transform.microsoft.com)을 참조하세요. 
 
 #### <a name="sharepoint-online-site-for-highly-regulated-data"></a>높은 규제 대상 데이터에 대한 SharePoint Online 사이트
 
