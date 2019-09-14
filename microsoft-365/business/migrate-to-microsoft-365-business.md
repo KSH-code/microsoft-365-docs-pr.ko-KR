@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 ms.assetid: 5b4ba843-24b8-4526-8e1f-f9b9eab89d06
 description: Microsoft 365 Business로 비즈니스를 이동 하는 방법을 알아봅니다.
-ms.openlocfilehash: e4bb18904355663f9f26f58a3fd3aaf7420e5378
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: a3f77bd18b9b900151c50f923b705e4ff0150519
+ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34072743"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "36982444"
 ---
 # <a name="migrate-to-microsoft-365-business-from-office-365-business-premium"></a>Office 365 Business Premium에서 Microsoft 365 Business로 마이그레이션
 
@@ -35,7 +35,7 @@ Office 365 Business Premium과 같은 비즈니스용 Office 365이 이미 있�
   
 ## <a name="add-microsoft-365-business-licenses"></a>Microsoft 365 Business 라이선스 추가
 
-두 가지 방법으로 Microsoft 365 비즈니스를 받을 수 있습니다. 파트너가 있는 경우 [Microsoft 파트너 센터](get-microsoft-365-business.md)에서 Microsoft 365 Business를 구매할 수 있습니다. 또한 파트너는 Microsoft 365 Business로 전환 하는 데도 도움이 될 수 있습니다.
+두 가지 방법으로 Microsoft 365 비즈니스를 받을 수 있습니다. 파트너는 [microsoft의 파트너 센터](get-microsoft-365-business.md)에서 Microsoft 365 Business를 구매할 수 있습니다. 또한 파트너는 Microsoft 365 Business로 전환 하는 데도 도움이 될 수 있습니다.
   
 자체 구독을 관리 하는 경우 sales에 [연락](https://www.microsoft.com/microsoft-365/business) 하 여 Microsoft 365 비즈니스 라이선스를 구입할 수 있습니다. 
   
@@ -80,7 +80,7 @@ Office 365 Business Premium과 같은 비즈니스용 Office 365이 이미 있�
     
     ![사용자 카드에서 제품 라이선스 옆에 있는 편집을 선택 합니다.](media/be0fe2d8-7ff8-447c-88f6-d212ed78451c.png)
   
-8. **제품 라이선스** 의 **Microsoft 365 Business** for **** \> **Save**to a를 선택한 다음 **종료**합니다.
+8. **제품 라이선스** 의 **Microsoft 365 Business** for **Save** **to** \> a를 선택한 다음 **종료**합니다.
     
 Microsoft 365 비즈니스에 대 한 초기 라이선스를 구매한 후에는 이제 **결제** \> **구매 서비스**에 추가할 수 있습니다. **서비스 구매** 페이지에서 **Microsoft 365 Business** 카드의 줄임표를 클릭 한 다음 **라이선스 수량 변경을** 선택 하 여 더 구매할 수 있습니다. 
   

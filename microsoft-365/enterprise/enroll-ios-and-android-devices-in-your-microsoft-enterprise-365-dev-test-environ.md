@@ -12,12 +12,12 @@ ms.collection: M365-identity-device-management
 ms.custom: Ent_TLGs
 ms.assetid: 49c7758a-1c01-4153-9b63-5eae3f6305ce
 description: 이 테스트 랩 가이드를 사용 하 여 Microsoft 365 테스트 환경에서 장치를 등록 하 고 원격으로 관리 합니다.
-ms.openlocfilehash: b72298df3dbc470358f8cd87e5ca249999812516
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: 0dde7acd10ad78327adb4862346639e05a276b4e
+ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34073718"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "36981999"
 ---
 # <a name="enroll-ios-and-android-devices-in-your-microsoft-365-enterprise-test-environment"></a>Microsoft 365 Enterprise 테스트 환경에서 iOS 및 Android 장치 등록
 
@@ -52,9 +52,9 @@ Microsoft Intune에서는 원격 잠금 및 암호 초기화 기능을 모두 �
   
 원격으로 iOS 또는 Android 장치를 잠그려면:
 
-1. 전역 관리자 계정의 자격 증명을 [https://portal.azure.com](https://portal.azure.com) 사용 하 여 Azure Portal에 로그인 합니다.
+1. 전역 관리자 계정의 자격 증명을 [https://portal.azure.com](https://portal.azure.com) 사용 하 여 Azure portal에 로그인 합니다.
 2. **모든 서비스**를 클릭 하 고 **intune**을 입력 한 다음 **intune**을 클릭 합니다.
-3. **모든 장치 _GT_ 장치**를 클릭 합니다.
+3. **모든 장치 > 장치**를 클릭 합니다.
 4. 장치 목록에서 iOS 또는 Android 장치를 클릭 한 다음 **원격 잠금** 작업을 클릭 합니다.
 
     
@@ -62,7 +62,7 @@ Microsoft Intune에서는 원격 잠금 및 암호 초기화 기능을 모두 �
 
 1. 필요한 경우 전역 관리자 계정의 자격 증명을 [https://portal.azure.com](https://portal.azure.com) 사용 하 여 Azure portal에 로그인 합니다.
 2. **모든 서비스**를 클릭 하 고 **intune**을 입력 한 다음 **intune**을 클릭 합니다.
-3. **모든 장치 _GT_ 장치**를 클릭 합니다.
+3. **모든 장치 > 장치**를 클릭 합니다.
 4. 관리 하는 장치 목록에서 iOS 또는 Android 장치를 클릭 하 고 ...를 선택 **합니다. 자세히** 그런 다음 암호 장치 원격 작업 **제거** 를 선택 합니다.
 
 자세한 내용은 [사용 가능한 장치 작업](https://docs.microsoft.com/intune/device-management#available-device-actions)을 참조 하십시오.
@@ -80,4 +80,3 @@ Microsoft Intune에서는 원격 잠금 및 암호 초기화 기능을 모두 �
   
 [Microsoft 365 Enterprise 배포](deploy-microsoft-365-enterprise.md)
 
-[EMS (Enterprise Mobility + Security)](https://www.microsoft.com/cloud-platform/enterprise-mobility-security)

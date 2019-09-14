@@ -5,14 +5,13 @@ keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 설명서
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
-ms.date: 11/7/2018
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 69e8463ce6bfffcd2ee5e8dd0f7f724910b13802
-ms.sourcegitcommit: d137cb1bd67a79d8af84357dc156824830d35aa7
+ms.openlocfilehash: 6c30f9e9a9f45ac8a68c285f4c594b238874f768
+ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/29/2019
-ms.locfileid: "35924881"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "36982509"
 ---
 # <a name="support-for-microsoft-managed-desktop"></a>Microsoft Managed Desktop에 대 한 지원
 
@@ -34,7 +33,7 @@ Microsoft 관리형 데스크톱 지원에는 다음이 포함 됩니다.
 지원 되는 제품:
 
 - Microsoft Defender Advanced Threat Protection이 포함 된 Windows 10 
-- Office 365 제품군의 하위 집합: Outlook, Word, PowerPoint, Excel, 비즈니스용 Skype 클라이언트, Microsoft 팀 
+- Office 365 ProPlus 앱: Outlook, Word, PowerPoint, Excel, 비즈니스용 Skype 클라이언트, Microsoft 팀 
 - 비즈니스용 Microsoft Store 
 - 비즈니스용 OneDrive 클라이언트 
 
@@ -43,7 +42,7 @@ Microsoft 관리형 데스크톱 지원에는 다음이 포함 됩니다.
 - 현재: 북미, 캐나다 (퀘벡 제외), 영국, 오스트레일리아 및 뉴질랜드 전용 (연중 무휴) 
 - 고객과 채팅 대화에 대해 지원 되는 언어는 영어입니다. 
 - Microsoft는 회사 지원 센터를 교체 하지 않고 파트너에 게 제공 합니다. LOB (기간 업무) 앱, 네트워크 리소스 등은 여전히 지원 센터에서 처리 됩니다. 
-- 테스트 그룹 및 비 Microsoft 관리 되는 데스크톱 장치에 있는 microsoft 관리 장치는 범위를 벗어납니다. 
+- "Test" 그룹의 microsoft 관리 되는 데스크톱 장치와 Microsoft Managed Desktop의 일부가 아닌 장치는 범위를 벗어납니다. 
 
 
 ## <a name="related-topics"></a>관련 항목

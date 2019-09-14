@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 9f3094b1a1272b0c200271b8d5703fe7173683a6
-ms.sourcegitcommit: 6b5370cded5d8259c9ed561eed324227f74c410b
+ms.openlocfilehash: 57c0be2e8aff09024f84c58bb895aab98324964d
+ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/03/2019
-ms.locfileid: "36171738"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "36982539"
 ---
 # <a name="microsoft-managed-desktop-technologies"></a>Microsoft Managed Desktop 기술
 
@@ -27,7 +27,8 @@ Microsoft 365 Enterprise 라이선스는 모든 Microsoft 관리 되는 데스�
 ## <a name="office-365-e3"></a>Office 365 E3
  |
  --- | ---
-Office 365 standard suite (64 비트) | 표준 Office 응용 프로그램 제품군은 Word, Excel, PowerPoint, Outlook, Publisher, Access, 비즈니스용 Skype, OneNote와 함께 제공 됩니다.<br><br>64 비트 클릭 하 여 실행 (C2R) 전체 버전의 Microsoft Project 및 Microsoft Visio는 Office 365에 포함 되어 있지 않습니다. 그러나 이러한 응용 프로그램의 설치는 표준 Office 제품군 설치에 따라 달라 지기 때문에 Microsoft Managed Desktop은 이러한 응용 프로그램을 배포 하는 데 사용할 수 있는 기본 Microsoft Intune 배포 및 보안 그룹을 만들었습니다. 최종 사용자 사용권 자세한 내용은 microsoft [Managed 데스크톱 장치에서 Microsoft Project 또는 Microsoft Visio 설치](../get-started/project-visio.md) 를 참조 하세요.  
+Office 365 ProPlus (64 비트) | 이러한 Office 응용 프로그램은 Word, Excel, PowerPoint, Outlook, Publisher, Access, 비즈니스용 Skype, OneNote와 함께 제공 됩니다.<br><br>64 비트 정식 버전의 Microsoft Project 및 Microsoft Visio는 포함 되지 않습니다. 그러나 이러한 응용 프로그램의 설치가 Office 365 ProPlus 설치에 따라 달라 지기 때문에 Microsoft Managed Desktop은 기본 Microsoft Intune 배포 및 보안 그룹을 만들어 이러한 응용 프로그램을 사용이 허가 된 것으로 배포 하는 데 사용할 수 있습니다. 최종 사용자 자세한 내용은 microsoft [Managed 데스크톱 장치에서 Microsoft Project 또는 Microsoft Visio 설치](../get-started/project-visio.md) 를 참조 하세요.
+비즈니스용 OneDrive | Azure Active Directory Single Sign-on <br><br>"Desktop", "Document" 및 "Pictures" 폴더에 대해 알려진 폴더 리디렉션이 포함 됩니다. Microsoft Managed Desktop에서 사용 하도록 설정 하 고 구성 합니다. 
 스토어 앱 |    Microsoft Sway 및 Power BI는 장치와 함께 제공 되지 않습니다. 이러한 앱은 Microsoft Store에서 다운로드할 수 있습니다.
 Win32 응용 프로그램 |    팀은 장치와 함께 제공 되지 않지만 microsoft에서 관리 되는 데스크톱 장치용으로 패키지화 되 고 제공 됩니다. Azure Information Protection 클라이언트는 장치와 함께 제공 되지 않지만이 패키지를 배포용으로 사용할 수 있습니다. 
 웹 응용 프로그램 |  Yammer, Office for browser, Delve, 흐름, StaffHub, PowerApps 및 Planner가 장치와 함께 제공 되지 않습니다. 사용자는 브라우저를 사용 하 여 이러한 응용 프로그램의 웹 버전에 액세스할 수 있습니다.
@@ -37,7 +38,7 @@ Win32 응용 프로그램 |    팀은 장치와 함께 제공 되지 않지만 m
 
  |
  --- | ---
-Application Virtualization (App-v) |    Microsoft Managed Desktop은 Microsoft Intune에서 지원 되지 않으므로이 유형의 배포를 지원 하지 않습니다.
+Application Virtualization (App-v) |    고객은 Intune Win32 앱 관리 클라이언트를 사용 하 여 App-v 패키지를 배포할 수 있습니다.
 Microsoft Defender Advanced Threat Protection |  Microsoft Managed Desktop은이를 사용 하 여 장치 보안을 모니터링 합니다. 
 
 ## <a name="enterprise-mobility--security-e5"></a>Enterprise Mobility + Security E5

@@ -13,12 +13,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: 322da1ccfbd0cf8b5070894580b06fb5b0283f40
-ms.sourcegitcommit: 1d5fc181036b673c4f0b9e161e19395dbfe5a304
+ms.openlocfilehash: 67274f4f6483b3f22e9526df8dfbdd872c0573ef
+ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/01/2019
-ms.locfileid: "35411652"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "36982019"
 ---
 # <a name="common-identity-and-device-access-policies"></a>일반 ID 및 장치 액세스 정책
 이 문서에서는 Azure AD 응용 프로그램 프록시를 통해 게시 된 온-프레미스 응용 프로그램을 포함 하 여 클라우드 서비스에 대 한 액세스를 보호 하기 위한 일반적인 권장 정책을 설명 합니다. 
@@ -48,7 +48,7 @@ ms.locfileid: "35411652"
 |        |[승인 된 앱 필요](#require-approved-apps)|휴대폰 및 태블릿에서 모바일 앱 보호를 적용 합니다.|
 |        |[장치 준수 정책 정의](#define-device-compliance-policies)|각 플랫폼에 대 한 정책 1 개|
 |        |[준수 Pc 필요](#require-compliant-pcs-but-not-compliant-phones-and-tablets)|Intune에서 Pc 관리를 적용 합니다.|
-|**중요**|[로그인 위험이 *낮은*경우 MFA 필요 ** **](#require-mfa-based-on-sign-in-risk)| |
+|**중요**|[로그인 위험이 *낮은* *경우 MFA* 필요 **](#require-mfa-based-on-sign-in-risk)| |
 |         |[준수 Pc *및* 모바일 장치 요구](#require-compliant-pcs-and-mobile-devices)|Pc 및 전화/태블릿에서 Intune 관리를 적용 합니다.|
 |**높은 규제**|[*항상* MFA 필요](#require-mfa-based-on-sign-in-risk)|
 | | |
@@ -118,7 +118,7 @@ MFA를 요청 하기 전에 먼저 Id 보호 MFA 등록 정책을 사용 하 여
 ||선택된 컨트롤이 모두 필요함|True|선택됨|
 
 > [!NOTE]
-> 이 정책을 사용 하도록 설정 하려면을 선택 하 **** 는 것이 가능 해야 합니다. 또한 [if](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-whatif) 도구를 사용 하 여 정책을 테스트할 수도 있습니다.
+> 이 정책을 사용 하도록 설정 하려면 **을 선택 하**는 것이 가능 해야 합니다. 또한 [if](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-whatif) 도구를 사용 하 여 정책을 테스트할 수도 있습니다.
 
 
 
@@ -155,7 +155,7 @@ MFA를 요청 하기 전에 먼저 Id 보호 MFA 등록 정책을 사용 하 여
 ||선택된 컨트롤이 모두 필요함|True|선택됨|
 
 > [!NOTE]
-> 이 정책을 사용 하도록 설정 하려면을 선택 하 **** 는 것이 가능 해야 합니다. 또한 [if](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-whatif) 도구를 사용 하 여 정책을 테스트할 수도 있습니다.
+> 이 정책을 사용 하도록 설정 하려면 **을 선택 하**는 것이 가능 해야 합니다. 또한 [if](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-whatif) 도구를 사용 하 여 정책을 테스트할 수도 있습니다.
 
 
 
@@ -182,7 +182,7 @@ MFA를 요청 하기 전에 먼저 Id 보호 MFA 등록 정책을 사용 하 여
 **검토:** 해당 없음
 
 > [!NOTE]
-> 이 정책을 사용 하도록 설정 하려면을 선택 하 **** 는 것이 가능 해야 합니다. 또한 [if](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-whatif) 도구를 사용 하 여 정책을 테스트할 수도 있습니다.
+> 이 정책을 사용 하도록 설정 하려면 **을 선택 하**는 것이 가능 해야 합니다. 또한 [if](https://docs.microsoft.com/azure/active-directory/active-directory-conditional-access-whatif) 도구를 사용 하 여 정책을 테스트할 수도 있습니다.
 
 ## <a name="define-app-protection-policies"></a>앱 보호 정책 정의
 앱 보호 정책은 허용 되는 앱과 조직 데이터로 수행할 수 있는 작업을 정의 합니다. Azure portal 내에서 Intune 앱 보호 정책을 만듭니다. 
@@ -322,11 +322,11 @@ iOS와 Android 간에 앱 보호 정책 옵션에 약간의 차이가 있습니�
 ||Windows Defender 맬웨어 방지 서명이 최신 상태입니다.|할||
 ||실시간 보호|할|Windows 10 desktop에만 지원 됨|
 
-**Windows Defender ATP**
+**Microsoft Defender ATP**
 
 |유형|속성|값|참고|
 |:---|:---------|:-----|:----|
-|Windows Defender Advanced Threat Protection 규칙|장치가 컴퓨터 위험 점수에 있거나 그 아래에 있어야 합니다.|보통||
+|Microsoft Defender Advanced Threat Protection 규칙|장치가 컴퓨터 위험 점수에 있거나 그 아래에 있어야 합니다.|보통||
 
 ## <a name="require-compliant-pcs-but-not-compliant-phones-and-tablets"></a>준수 Pc 필요 (준수 전화 및 태블릿 제외)
 준수 Pc를 요구 하는 정책을 추가 하기 전에 관리를 위한 장치를 Intune에 등록 해야 합니다. 장치가 원하는 사용자의 소유 인지 확인 하기 위해 장치를 Intune에 등록 하기 전에 다단계 인증을 사용 하는 것이 좋습니다. 

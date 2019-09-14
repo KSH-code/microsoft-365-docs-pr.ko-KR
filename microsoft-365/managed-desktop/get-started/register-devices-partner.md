@@ -1,18 +1,18 @@
 ---
-title: 파트너에 대 한 Microsoft Managed Desktop의 장치 등록
+title: 장치 등록을 위한 파트너 단계
 description: 파트너가 장치를 등록 하 여 Microsoft Managed Desktop에서 관리할 수 있도록 하는 방법
 ms.prod: w10
 author: jaimeo
 ms.author: jaimeo
 ms.localizationpriority: medium
-ms.openlocfilehash: 06ec98ebc7ea44a1bf3d8039e3a3ab7102521d3e
-ms.sourcegitcommit: ef749c44d72b5258706be86a4af1aeca4154ead2
+ms.openlocfilehash: 69d9387047cbb14a97f3da1d401b30a97bd7fd90
+ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35447530"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "36982719"
 ---
-# <a name="register-devices-in-microsoft-managed-desktop-for-partners"></a>파트너에 대 한 Microsoft Managed Desktop의 장치 등록
+# <a name="steps-for-partners-to-register-devices"></a>장치 등록을 위한 파트너 단계
 
 
 이 항목에서는 파트너가 장치를 등록 하기 위해 수행 해야 하는 단계에 대해 설명 합니다. 장치를 직접 등록 하는 프로세스는 [Microsoft Managed Desktop의 등록 장치에 직접](register-devices-self.md)기록 됩니다.
@@ -41,7 +41,7 @@ ms.locfileid: "35447530"
 >이 형식은 파트너 프로세스에만 해당 됩니다. 자동 등록 프로세스는 [Microsoft Managed Desktop의 등록 장치에서 직접](register-devices-self.md)설명 됩니다.
 
 >[!IMPORTANT]
->이러한 값은 SMBIOS의 제조업체 값과 정확 하 게 일치 해야 합니다. 첫 번째 행에는 *하드웨어 해시* (두 번째 행의 값은 제외)도 포함 해야 하며 두 번째 행의 *일련 번호* 값 뒤에는 후행 쉼표가 있어야 합니다.
+>이러한 값은 대/소문자 및 특수 문자를 포함 하 여 SMBIOS의 제조업체 값과 정확히 일치 해야 합니다. 
 
 - 장치 제조업체 (예: SpiralOrbit) 
 - 장치 모델 (예: ContosoABC)
@@ -68,21 +68,18 @@ Azure Portal을 사용 하 여 등록 하는 것은 다른 방법으로 포털�
 | 시/도 | 설명 |
 |---------------|-------------|
 | 등록 보류 중 | 등록이 아직 완료 되지 않았습니다. 나중에 다시 확인 합니다. |
-| 등록 실패 | 등록을 완료할 수 없습니다. 자세한 내용은 [문제 해결](register-devices-self.md#troubleshooting) 을 참조 하세요. |
+| 등록 실패 | 등록을 완료할 수 없습니다. 자세한 내용은 [장치 등록 문제 해결](register-devices-self.md#troubleshooting-device-registration) 을 참조 하세요. |
 | 사용자 준비 | 등록을 완료 했으며 이제 장치를 최종 사용자에 게 배달할 준비가 되었습니다. Microsoft Managed Desktop은 처음 설정할 때 가이드를 제공 하므로 추가 준비를 수행할 필요가 없습니다. |
 | 활성 | 장치가 최종 사용자에 게 배달 되었으며 테 넌 트에 등록 되어 있습니다. 또한 장치를 정기적으로 사용 하는 것을 나타냅니다. |
 | 있었던 | 장치가 최종 사용자에 게 배달 되었으며 테 넌 트에 등록 되어 있습니다. 그러나 최근에 최근 7 일 이내에 장치를 사용 하지 않았습니다.  |
 
-## <a name="register-devices-by-using-an-api"></a>API를 사용 하 여 장치 등록
 
-API로 등록 하는 기능은 셀프 서비스와 동일 하지만, CSV 섹션에 설명 된 것 처럼 장치 컬렉션의 하드웨어 해시 속성은 선택 사항 이라는 차이가 있습니다. 
 
 ## <a name="troubleshooting"></a>문제 해결
 
 | 오류 메시지 | 세부 정보 |
 |---------------|-------------|
 | 장치를 찾을 수 없음 | 제공 된 제조업체, 모델 또는 일련 번호에 대해 일치 하는 항목을 찾을 수 없기 때문에이 장치를 등록할 수 없습니다. 장치 공급자에서 이러한 값을 확인 합니다. |
-| 장치를 찾을 수 없음 | 이 디바이스가 조직에 없으므로 등록을 취소할 수 없습니다. 추가 작업이 필요 하지 않습니다. |
 | 하드웨어 해시가 잘못 되었습니다. | 이 장치에 대해 제공한 하드웨어 해시가 올바르게 포맷 되지 않았습니다. 하드웨어 해시를 두 번 확인 한 다음 다시 제출 합니다. |
 | 장치가 이미 등록 됨 | 이 장치는 이미 조직에 등록 되어 있습니다. 추가 작업이 필요 하지 않습니다. |
 | 다른 조직에서 요구 하는 장치 | 이 장치는 다른 조직에서 이미 요구 되었습니다. 장치 공급자에 게 문의 하세요. |

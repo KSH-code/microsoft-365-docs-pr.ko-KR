@@ -3,7 +3,7 @@ title: Microsoft 365 Enterprise 개요
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 08/12/2019
+ms.date: 08/21/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: Microsoft 365 Enterprise의 구성 요소, 계획 및 배포 경로에 대해 소개 합니다.
-ms.openlocfilehash: de67f9e99fbb7a3a6e85001ec675f16672f4ef22
-ms.sourcegitcommit: 86dba00cd786ac8ea761cdfcd85dfbd33e64d088
+ms.openlocfilehash: b1750e1810556b8dadd4a16481c9ada3195f6c3c
+ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/12/2019
-ms.locfileid: "36297898"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "36982839"
 ---
 # <a name="microsoft-365-enterprise-overview"></a>Microsoft 365 Enterprise 개요
 
@@ -55,9 +55,9 @@ Microsoft 365 Entep76e3을 보유 하 고 있는 경우 다음과 같은 [제공
 
 자세한 내용은 [각 요금제의 기능 및](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans)기능을 참조 하십시오.
 
-## <a name="at-a-glance"></a>한눈에 보기
+## <a name="get-the-big-picture"></a>큰 그림 가져오기
 
-[Microsoft 365 엔터프라이즈 포스터](http://aka.ms/m365eposter) 는 다음을 볼 수 있는 중앙 위치입니다.
+[Microsoft 365 엔터프라이즈 포스터](media/Microsoft365Enterprise.pdf) 는 다음을 볼 수 있는 중앙 위치입니다.
 
 - Microsoft 365 Enterprise의 이점과 앱 및 서비스가 가치 핵심 요소로에 매핑되는 방식
 - Microsoft 365 Enterprise 요금제 및 해당 계획에 포함 되는 구성 요소 
@@ -65,22 +65,42 @@ Microsoft 365 Entep76e3을 보유 하 고 있는 경우 다음과 같은 [제공
 - 일반적인 조직 부서에 대 한 [Microsoft 365 생산성 라이브러리](https://www.microsoft.com/microsoft-365/success/) 및 대표적인 시나리오
 - Microsoft 365 엔터프라이즈 [배포 가이드](deploy-microsoft-365-enterprise.md) 를 강조 하는 채택 로드맵
 
-![](./media/m365-poster/m365e-poster.png)
+[![Microsoft 365 엔터프라이즈 포스터 용 이미지](./media/m365-poster/m365e-poster.png)](media/Microsoft365Enterprise.pdf)
 
 포스터 복사본을 다운로드 하려면 [여기](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/Microsoft365Enterprise.pdf)를 클릭 하세요.
 
 
 ## <a name="transition-your-entire-organization"></a>전체 조직 전환
 
-전체 조직을 Microsoft 365 Enterprise의 제품 및 서비스로 이동 하는 방법에 대 한 자세한 그림을 보려면 [전환 포스터](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/deploy-microsoft-365-enterprise/transitionorgtom365.pdf)를 다운로드 하세요.
+전체 조직을 Microsoft 365 Enterprise의 제품 및 서비스로 이동 하는 방법에 대 한 자세한 그림을 보려면 [전환 포스터](media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf)를 다운로드 하세요.
 
-![](./media/deploy-microsoft-365-enterprise/TransitionOrgToM365.png)
+[![Microsoft 365 포스터 전환 이미지](./media/deploy-microsoft-365-enterprise/transition-org-to-m365.png)](media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf)
 
 이 두 페이지 포스터는 기존 인프라를 신속 하 게 인벤토리에 제공 하 고 Microsoft 365 Enterprise에서 해당 제품 또는 서비스로 이동 하기 위한 지침을 얻을 수 있는 방법입니다. 여기에는 Windows 및 Office 제품과 기타 인프라 및 보안 요소 (예: 장치 관리, id, 정보 및 위협 보호)가 포함 됩니다.
 
-이 포스터는 letter, legal 또는 tabloid (11 x 17) 형식으로 인쇄할 수 있습니다.
+[이 포스터를 다운로드](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf) 하 여 letter, legal 또는 tabloid (11 x 17) 형식으로 인쇄할 수 있습니다.
 
-## <a name="deploying"></a>배치
+## <a name="avoid-end-of-support-for-office-2010-clients-and-servers-and-windows-7"></a>Office 2010 클라이언트 및 서버 및 Windows 7의 지원 종료 방지
+
+다음 제품은 **2010 년 1 월 14**일에 대 한 지원 종료에 도달 했습니다.
+
+- [Windows 7](https://aka.ms/win7upgrade)
+- [Exchange Server 2010](https://docs.microsoft.com/office365/enterprise/exchange-2010-end-of-support)
+
+다음 제품은 **2020 년 10 월 13 일**에 지원 종료에 도달 했습니다.
+
+- [Office 2010](https://docs.microsoft.com/DeployOffice/office-2010-end-support-roadmap)
+- [SharePoint Server 2010](https://docs.microsoft.com/office365/enterprise/upgrade-from-sharepoint-2010)
+
+이러한 제품의 업그레이드, 마이그레이션 및 클라우드 간 옵션에 대 한 자세한 요약을 보려면 [지원 종료 포스터](media/migration-microsoft-365-enterprise-workload/Office2010Windows7EndOfSupport.pdf)를 참조 하세요.
+
+[![Office 2010 클라이언트 및 서버 및 Windows 7 포스터에 대 한 지원 종료 이미지](./media/migration-microsoft-365-enterprise-workload/office2010-windows7-end-of-support.png)](media/migration-microsoft-365-enterprise-workload/Office2010Windows7EndOfSupport.pdf)
+
+이 한 페이지 포스터는 Office 2010 클라이언트 및 서버 제품 및 Windows 7의 지원 종료를 방지 하기 위해 수행할 수 있는 다양 한 경로를 이해 하는 빠른 방법 이며, Microsoft 365 Enterprise의 기본 설정 경로 및 옵션을 통해 강조 표시 됩니다.
+
+[이 포스터를 다운로드](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/migration-microsoft-365-enterprise-workload/Office2010Windows7EndOfSupport.pdf) 하 여 letter, legal 또는 tabloid (11 x 17) 형식으로 인쇄할 수 있습니다.
+
+## <a name="deploy"></a>배포
 
 Microsoft 365 Enterprise의 제품, 기능 및 구성 요소를 배포 하는 방법에는 다음 세 가지가 있습니다.
 
@@ -99,7 +119,7 @@ Microsoft 365 Enterprise의 제품, 기능 및 구성 요소를 배포 하는 �
 배포에 대 한 자세한 내용은 how to를 참조 하십시오.
 
 - [고객은](deploy-microsoft-365-enterprise.md#how-customers-use-microsoft-365-enterprise) Microsoft 365 Enterprise를 사용 합니다.
-- [](deploy-microsoft-365-enterprise.md#how-microsoft-uses-microsoft-365-enterprise) Microsoft는 Microsoft 365 Enterprise를 사용 합니다.
+- [Microsoft는 microsoft](deploy-microsoft-365-enterprise.md#how-microsoft-uses-microsoft-365-enterprise) 365 Enterprise를 사용 합니다.
 - 가상의 대표적인 다국적 조직인 [Contoso Corporation](contoso-overview.md)에는 Microsoft 365 Enterprise가 배포 되어 있습니다.
 
 ## <a name="additional-microsoft-365-solutions"></a>추가 Microsoft 365 솔루션

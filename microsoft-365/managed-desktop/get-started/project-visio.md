@@ -7,12 +7,12 @@ author: jaimeo
 ms.localizationpriority: normal
 ms.date: 03/07/2019
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 203db332e1fcd7861f40c69b138ac8274544dceb
-ms.sourcegitcommit: 6cabf0226de1c95bff6ddb1852dac5ecdb2d6b96
+ms.openlocfilehash: 30374e603350ecf9d5e5542263f004a22ccb0a67
+ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "35830476"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "36981709"
 ---
 # <a name="install-microsoft-project-or-microsoft-visio-on-microsoft-managed-desktop-devices"></a>Microsoft Managed Desktop 장치에 Microsoft Project 또는 Microsoft Visio 설치
 
@@ -39,9 +39,9 @@ Microsoft Managed Desktop 장치에 특정 단계를 설치 해야 합니다. �
 
 Azure AD 그룹 이름 | 어떤 사용자를 지정 해야 하나요?   
  --- | ---
-현대 회사-Office-프로젝트-설치 | 프로젝트만 필요한 사용자
-현대 회사-Office-Visio-설치 | Visio만 필요한 사용자
-현대적인 작업 공간-Office-프로젝트 및 Visio 설치 | 프로젝트 및 Visio가 필요한 사용자
+현대 회사-사무실-Project_Install | 프로젝트만 필요한 사용자
+현대 회사-사무실-Visio_Install | Visio만 필요한 사용자
+현대 회사-사무실-Visio_Project_Install | 프로젝트 및 Visio가 필요한 사용자
 
 이러한 그룹에 할당 되 면 회사 포털에서 응용 프로그램을 사용할 수 있습니다. 동기화 하는 데 몇 분 정도 걸릴 수 있지만 사용자가 회사 포털에서 앱을 설치할 수 있습니다. 
 

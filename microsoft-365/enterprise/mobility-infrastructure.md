@@ -5,7 +5,7 @@ keywords: Microsoft 365, Microsoft 365 Enterprise, Microsoft 365 설명서, 모�
 author: MandiOhlinger
 ms.author: mandia
 manager: dougeby
-ms.date: 09/18/2018
+ms.date: 08/28/2019
 ms.topic: conceptual
 ms.prod: microsoft-365-enterprise
 ms.service: ''
@@ -13,12 +13,12 @@ ms.technology: ''
 ms.assetid: fb4182e6-5e78-45d0-9641-d791c4519441
 audience: ITPro
 ms.custom: microsoft-intune
-ms.openlocfilehash: 0ee9696d441d61fb41359f6502e6f73988749156
-ms.sourcegitcommit: 12fbb429dba7517220191d90816e235583943fe0
+ms.openlocfilehash: 570b71a5e766738769b537a2601ede7f01bf078c
+ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/06/2019
-ms.locfileid: "33623152"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "36982809"
 ---
 # <a name="phase-5-mobile-device-management-for-microsoft-365-enterprise"></a>단계 5: Microsoft 365 엔터프라이즈에 대 한 모바일 장치 관리
 
@@ -26,17 +26,7 @@ ms.locfileid: "33623152"
 
 *이 기능은 Microsoft 365 Enterprise E3 및 E5 버전에 적용 됩니다.*
 
-Microsoft 365 Enterprise에는 조직 내에서 장치 및 해당 앱을 관리 하는 데 도움이 되는 기능이 포함 되어 있습니다. Microsoft Intune을 사용 하 여 iOS, Android, macOS 및 Windows 장치를 관리 하 여 데이터를 비롯 한 조직의 리소스에 대 한 액세스를 보호할 수 있습니다. Intune은 Azure Active Directory (Azure AD)와 통합 되며 Microsoft 365에 대해 다음과 같은 비즈니스 시나리오를 사용 하도록 설정 합니다.
-
-- 조직 내부 및 외부에서 파일을 저장 및 공유하여 조직 경계를 넘나들며 원활하게 작업 가능
-- 유연한 작업 스타일을 유지하면서 어떤 장치를 사용하든 장소나 시간의 구애를 받지 않고 안전하게 더 많은 작업 처리
-- 업계에서 인증된 방식으로 제어 및 가시성에 대한 전역 표준을 준수하여 안심하고 작업 가능
-- 사용자의 정보 보호 및 데이터 손실 위험 최소화
-- 외부 위협에 대 한 검색 및 보호
-- 조직 보안을 제공 하기 위해 즉시 대응할 활동을 모니터링, 보고 및 분석 합니다.
-- 사용자 및 계정 보호
-
-자세한 내용은 [Microsoft 365를 사용한 디지털 변환](http://transform.microsoft.com)을 참조하세요. 
+Microsoft 365 Enterprise에는 조직 내에서 장치 및 해당 앱을 관리 하는 데 도움이 되는 기능이 포함 되어 있습니다. Microsoft Intune을 사용 하 여 iOS, Android, macOS 및 Windows 장치를 관리 하 여 데이터를 비롯 한 조직의 리소스에 대 한 액세스를 보호할 수 있습니다. 
 
 이 단계에서는 Intune에서 장치를 등록 하 고 정책을 만들고 적용 하 여 데이터를 안전 하 고 보호 하는 데 도움이 됩니다. Intune 설명서의 전체 라이브러리는 [온라인에서 확인할 수 있습니다](https://docs.microsoft.com/intune). 시작 하기 전에 [Intune 배포 계획, 디자인 및 구현 가이드](https://docs.microsoft.com/intune/planning-guide) 를 검토 하는 것도 좋은 방법입니다.
 
@@ -146,7 +136,7 @@ Small을 시작 하 고 미리 구성 된 접근 방식을 사용 합니다. 파
 Intune은 강력한 서비스 이며 많은 기능을 포함 합니다. 다음은 Intune을 사용 하 여 수행할 수 있는 몇 가지 작업입니다.
 
 - Windows [장치](https://docs.microsoft.com/intune/windows-update-for-business-configure) & [pc](https://docs.microsoft.com/intune/keep-windows-pcs-up-to-date-with-software-updates-in-microsoft-intune)및 [iOS](https://docs.microsoft.com/intune/software-updates-ios) 장치에서 소프트웨어 및 업데이트 관리
-- Windows 10 장치에서 [Windows DEFENDER ATP (Advanced Threat Protection)](https://docs.microsoft.com/intune/advanced-threat-protection) 를 설정 하 고 규정 준수 및 조건부 액세스를 사용 하 여 SharePoint 또는 Exchange Online과 같은 회사 리소스에 대 한 액세스를 보호 합니다.
+- Windows 10 장치에서 [Microsoft DEFENDER ATP (Advanced Threat Protection)](https://docs.microsoft.com/intune/advanced-threat-protection) 를 설정 하 고 규정 준수 및 조건부 액세스를 사용 하 여 SharePoint 또는 Exchange Online과 같은 회사 리소스에 대 한 액세스를 보호 합니다.
 - [감시](https://docs.microsoft.com/intune/lookout-mobile-threat-defense-connector), [Symantec](https://docs.microsoft.com/intune/skycure-mobile-threat-defense-connector)및 기타 모바일 방어 위협 파트너 사용
 - 인증서 발급 및 갱신을 위한 [파트너 CA (인증 기관)](https://docs.microsoft.com/intune/certificate-authority-add-scep-overview) 추가
 - [최종 사용자에 게](https://docs.microsoft.com/intune/end-user-educate) 회사 포털 앱에 대 한 지침을 제공 하 고 앱을 가져옵니다.

@@ -17,17 +17,22 @@ search.appverid:
 - MET150
 ms.assetid: b0f4d010-9fd1-44d0-9d20-fabad2cdbab5
 description: Azure Active Directory에 가입 된 Windows 10 장치에서 비즈니스 앱, 파일 공유 및 프린터와 같은 온-프레미스 리소스에 액세스 하는 방법을 알아봅니다.
-ms.openlocfilehash: fa3cf640e799feb81ff08c5b7b81d57f707e0152
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: ab9049e78617372463b8446dc8f8bc0089d8c117
+ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34072033"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "36981664"
 ---
 # <a name="access-on-premises-resources-from-an-azure-ad-joined-device-in-microsoft-365-business"></a>Microsoft 365 Business의 Azure AD에 가입 된 장치에서 온-프레미스 리소스에 액세스
 
-Azure Active Directory에 가입 된 모든 Windows 10 장치는 Office 365 앱과 같은 모든 클라우드 기반 리소스에 액세스할 수 있으며 Microsoft 365 Business로 보호 가능 합니다. LOB (기간 업무) 앱, 파일 공유 및 프린터와 같은 온-프레미스 리소스에 대 한 액세스도 허용 하려면 [AZURE AD Connect](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect)를 사용 하 여 온-프레미스 Active Directory를 Azure active directory와 동기화 해야 합니다. 자세한 정보는 [Azure Active Directory의 장치 관리 소개](https://docs.microsoft.com/en-us/azure/active-directory/device-management-introduction) 를 참조 하세요. 
-  
+Azure Active Directory에 가입 된 모든 Windows 10 장치는 Office 365 앱과 같은 모든 클라우드 기반 리소스에 액세스할 수 있으며 Microsoft 365 Business로 보호 가능 합니다. LOB (기간 업무) 앱, 파일 공유 및 프린터와 같은 온-프레미스 리소스에 대 한 액세스도 허용 하려면 [AZURE AD Connect](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect)를 사용 하 여 온-프레미스 Active Directory를 Azure active directory와 동기화 해야 합니다. 다음 비디오에서는 가장 일반적인 시나리오에서이를 설정 하는 방법에 대 한 단계를 자세히 설명 합니다.
+ 
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3C9hO]
+
+자세한 정보는 [Azure Active Directory의 장치 관리 소개](https://docs.microsoft.com/en-us/azure/active-directory/device-management-introduction) 를 참조 하세요.
+이 단계는 다음 섹션에도 요약 되어 있습니다.
+
 ## <a name="run-azure-ad-connect"></a>Azure AD Connect 실행
 
 조직의 Azure AD 조인 장치에서 온-프레미스 리소스에 액세스 하도록 설정 하려면 다음 단계를 완료 합니다.

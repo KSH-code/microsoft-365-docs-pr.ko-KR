@@ -5,14 +5,13 @@ keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 설명서
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
-ms.date: 11/28/2018
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 1e98ef5a7c800ed3fb7fe1b7355e535ed3576c1e
-ms.sourcegitcommit: dd0d99d2ff930cd1777d6704f4d88a70adc9ca74
+ms.openlocfilehash: 0af9134880f018cf814715a8ca3a3b7dc55c5fcd
+ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/24/2019
-ms.locfileid: "35853167"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "36982399"
 ---
 # <a name="getting-help-for-end-users"></a>최종 사용자를 위한 도움말 보기
 
@@ -22,7 +21,7 @@ ms.locfileid: "35853167"
 
 ## <a name="get-help-app"></a>도움말 앱 보기
 
-사용자에 게 지원을 제공 하는 기본 방법은 최종 **** 사용자 장치에 기본적으로 제공 되는 편리한 인터페이스를 사용 하는 것입니다.  
+사용자에 게 지원을 제공 하는 기본 방법은 최종 사용자 장치에 기본적으로 제공 되는 편리한 **인터페이스를 사용 하는 것입니다**.  
 
 ![도움말 보기](images/get-help.png)
 
@@ -46,3 +45,4 @@ ms.locfileid: "35853167"
 ## <a name="additional-resources"></a>추가 리소스
 - [Microsoft Managed Desktop에 대 한 관리자 지원](admin-support.md) 
 - [Microsoft Managed Desktop에 대 한 지원](../service-description/support.md)
+- Microsoft Managed Desktop을 이미 구독 하 고 있는 경우 microsoft managed desktop Administration의 **온라인 리소스** 섹션에 있는 Microsoft Managed Desktop admin 가이드에서 자세한 절차, 프로세스 흐름, 작업 지침 및 faq를 확인할 수 있습니다. [ 포털](https://aka.ms/mwaasportal)

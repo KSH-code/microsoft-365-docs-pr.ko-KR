@@ -16,6 +16,7 @@
 #### [4단계: 안전한 사용자 인증 구성](identity-multi-factor-authentication.md)
 #### [5단계: 사용자에 대한 액세스 간소화](identity-password-reset.md)
 #### [6단계: 그룹을 사용하여 더 쉽게 관리하십시오.](identity-self-service-group-management.md)
+#### [7 단계: id 거 버 넌 스 구성](identity-governance.md)
 #### [Id 종료 조건](identity-exit-criteria.md)
 ### [3단계: Windows 10 Enterprise](windows10-infrastructure.md)
 #### [1 단계: 조직 준비](windows10-prepare-your-org.md)
@@ -96,7 +97,6 @@
 ## [Windows 7-Windows 10 자동 업그레이드](windows-7-to-windows-10-upgrade-automated.md)
 ## [Windows 및 Office 배포 및 랩 키트](modern-desktop-deployment-and-management-lab.md)
 ## [배포에 대 한 도움말 찾기](find-help-for-modern-desktop-deployment.md)
-## [온보딩 시 리더십 발휘: 가치 검색 및 비즈니스 사례](https://transform.microsoft.com)
 
 # [ID 및 장치 액세스 구성](microsoft-365-policies-configurations.md)
 ##[필수 구성 요소 작업](identity-access-prerequisites.md)

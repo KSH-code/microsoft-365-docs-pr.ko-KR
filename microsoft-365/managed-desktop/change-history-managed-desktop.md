@@ -8,16 +8,36 @@ author: jaimeo
 ms.author: jaimeo
 ms.topic: article
 ms.localizationpriority: normal
-ms.openlocfilehash: 7d09e2fbf9d21497aa9bd43d308978979a6c73c6
-ms.sourcegitcommit: c6ee468b4aeb3684d332cb79f5cd121f60f32d3e
+ms.openlocfilehash: a9755d1caae20694f1198dec0bf3e659bccee8ee
+ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35795624"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "36982609"
 ---
 # <a name="change-history-for-microsoft-managed-desktop-documentation"></a>Microsoft Managed Desktop 설명서에 대 한 변경 내용
 
 이 항목에서는 [Microsoft Managed Desktop 설명서](index.yml)의 새로운 항목과 업데이트 된 항목을 나열 합니다.
+
+## <a name="september-2019"></a>년 9 월 2019
+새로 만들기 또는 변경 된 항목 | 설명
+--- | ---
+[Microsoft Managed Desktop의 필수 구성 요소](get-ready/prerequisites.md) | 업데이트 된 항목
+[Microsoft Managed Desktop 장치 설정](get-started/set-up-devices.md) | 새 항목
+[직접 새 장치 등록](get-started/register-devices-self.md) | 업데이트 된 항목
+[직접 기존 장치 등록](get-started/register-reused-devices-self.md) | 새 항목
+[Microsoft Managed Desktop에서 업데이트를 처리 하는 방법](service-description/updates.md) | 업데이트 된 항목
+
+## <a name="august-2019"></a>8 월 2019
+새로 만들기 또는 변경 된 항목 | 설명
+--- | ---
+[Microsoft 컨설팅 서비스 작업](get-ready/apps-mcs.md) | 업데이트 된 항목
+[Microsoft Managed Desktop에 대 한 관리자 지원](working-with-managed-desktop/admin-support.md) | 업데이트 된 항목
+[최종 사용자를 위한 도움말 보기](working-with-managed-desktop/end-user-support.md) | 업데이트 된 항목
+[Microsoft Managed Desktop의 필수 구성 요소](get-ready/prerequisites.md) | 업데이트 된 항목
+[Microsoft Managed Desktop 기술](intro/technologies.md) | 업데이트 된 항목
+
+
 
 ## <a name="july-2019"></a>7 월 2019 일
 새로 만들기 또는 변경 된 항목 | 설명
@@ -46,7 +66,7 @@ ms.locfileid: "35795624"
 [Microsoft Managed Desktop에 대 한 매핑된 드라이브 준비](get-ready/mapped-drives.md) | 새 항목
 [Microsoft Managed Desktop에 대 한 인증서 및 네트워크 프로필 준비](get-ready/certs-wifi-lan.md) | 새 항목
 [Microsoft Managed Desktop 장치 주문](get-started/devices.md) | 업데이트 된 항목
-
+[최종 사용자를 위한 도움말 보기](working-with-managed-desktop/end-user-support.md)
 
 ## <a name="april-2019"></a>2019년 4월
 새로 만들기 또는 변경 된 항목 | 설명

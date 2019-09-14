@@ -6,16 +6,16 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: f6e707d776be89a75a69bf0a37ede017e332109a
-ms.sourcegitcommit: d57adf17de6bc3e67d104d134f43d899a20db252
+ms.openlocfilehash: c53b5e8002b8217055a29903719bda83e43ce554
+ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/01/2019
-ms.locfileid: "33520748"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "36982709"
 ---
 # <a name="order-microsoft-managed-desktop-devices"></a>Microsoft Managed Desktop 장치 주문
 
-승인 된 장치 파트너 중 하나를 사용 하는 것이 좋습니다. 장치 파트너 관계 설정에 대 한 자세한 도움말을 보려면 Microsoft 계정 담당자에 게 문의 하세요.
+승인 된 장치 파트너 중 하나를 사용 하는 것이 좋습니다. 장치 파트너 관계 설정에 대 한 자세한 내용은 Microsoft 계정 담당자와 함께 작업할 수 있습니다.
 
 이 경우에는 Microsoft Managed Desktop에서 사용 하도록 지원 되는 [현재 승인 된 장치](../service-description/device-list.md) 목록을 검토할 수 있습니다.
 

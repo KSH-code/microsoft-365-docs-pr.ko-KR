@@ -2,7 +2,7 @@
 title: Microsoft 365 Enterprise에 대 한 Exchange Online 배포
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 06/28/2018
+ms.date: 08/29/2018
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -11,12 +11,12 @@ ms.collection: M365-email-calendar
 ms.custom:
 - Strat_O365_Enterprise
 description: 조직 전체에서 Microsoft 365 Enterprise의 Exchange Online 가치를 계획, 롤아웃 및 추진 하는 프로세스를 안내 합니다.
-ms.openlocfilehash: c54c80a955d86028ac473857cbdcb8b1a8f272d3
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: a13cb36dd313ef3e6763c6c48720bb2b3e935880
+ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34072288"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "36981879"
 ---
 # <a name="deploy-exchange-online-for-microsoft-365-enterprise"></a>Microsoft 365 Enterprise에 대 한 Exchange Online 배포
 
@@ -53,21 +53,6 @@ Microsoft 365 Enterprise foundation 인프라의 [2 단계](identity-infrastruct
 Exchange Online은 다양 한 용도로 사용할 수 있습니다. 조직의 개별 수준, 비즈니스 그룹, 부서 또는 개별 작업 및 프로젝트 팀에서 비즈니스 요구 사항에 맞는 용도를 파악 해야 합니다. 개별 및 소규모 그룹의 단기 통신 및 일정 요구 사항을 해결 하기 위해 Exchange Online을 사용 해야 합니다. 
 
 Exchange Online의 이점을 확인 하는 한 가지 방법은 사용자, 팀 또는 v 팀이 현재 어떻게 상호 작용 하는지 검토 한 다음, 보다 쉬운 의사 소통, 모임 예약 및 공동 작업 방법을 제공 하는 적절 한 시나리오를 찾는 것입니다. 일부 공동 작업 시나리오에서는 [Microsoft 팀](teams-workload.md) 을 선택 하는 것이 더 적합할 수 있습니다.
-
-Exchange Online에서는 Microsoft 365 Enterprise에 대 한 다음과 같은 전략적 비즈니스 시나리오를 사용할 수 있습니다.
-
-- 실시간으로 또는 원하는 시간에 문서 공동 작업을 수행하여 공동 작성 프로세스 간소화
-- 비즈니스 목표에 맞게 프로젝트, 작업 및 기한 관리
-- 작업 습관을 이해하여 미치는 영향 개선
-- 팀과 소통하여 정보를 제공하고, 정보 제공을 요청하고, 협력 및 의견 합의 도달
-- 조직 내부 및 외부에서 파일을 저장 및 공유하여 조직 경계를 넘나들며 원활하게 작업 가능
-- 유연한 작업 스타일을 유지하면서 어떤 장치를 사용하든 장소나 시간의 구애를 받지 않고 안전하게 더 많은 작업 처리
-- 사용자의 정보 보호 및 데이터 손실 위험 최소화
-- 외부 위협에 대 한 검색 및 보호 
-- 조직 보안을 제공 하기 위해 즉시 대응할 활동을 모니터링, 보고 및 분석 합니다.
-- 개인 정보 보호 및 규정 준수로 조직이 GDPR(일반 데이터 보호 규정)을 준수하도록 지원
-
-자세한 내용은 [Microsoft 365를 사용한 디지털 변환](http://transform.microsoft.com)을 참조하세요. 
 
 #### <a name="result"></a>결과
 조직의 통신, 일정 및 단기 공동 작업에 대 한 요구를 해결 하는 Exchange Online 시나리오 목록
@@ -186,6 +171,6 @@ Microsoft 내부를 보고 회사를 Exchange Online으로 마이그레이션하
 
 Exchange Online의 지속적인 유지 관리에 대 한 다음 리소스를 참조 하세요.
 
-- [Exchange Online의 Exchange 관리 센터](https://technet.microsoft.com/library/jj200743(v=exchg.150).aspx) 
+- [Exchange Online의 exchange 관리 센터](https://technet.microsoft.com/library/jj200743(v=exchg.150).aspx) 
 - [Exchange Online의 모니터링, 보고 및 메시지 추적](https://technet.microsoft.com/library/jj200725(v=exchg.150).aspx)
 - [Exchange Online에서 전자 메일 백업](https://technet.microsoft.com/library/dn440734(v=exchg.150).aspx) 
