@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Microsoft 365에서 WIP(Windows Information Protection) 이해 및 배포
-ms.openlocfilehash: e32b09c20e86ff927748f7aedd8b8d769e07916e
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: a89d61367d3e07cabff0576f16fa359a06dc1ecc
+ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34073568"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "36981819"
 ---
 # <a name="step-4-configure-windows-information-protection"></a>4단계: WIP(Windows Information Protection) 구성
 
@@ -30,7 +30,7 @@ ms.locfileid: "34073568"
 
 WIP(Windows Information Protection)를 사용하여 Windows 10 장치에서 이러한 유형의 데이터 누출을 방지할 수 있습니다. 자세한 내용은 [WIP를 사용한 엔터프라이즈 데이터 보호](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/protect-enterprise-data-using-wip)를 참조하세요.
 
-Microsoft 365 Enterprise에서, WIP는 구독 시 Enterprise Mobility + Security(EMS)에 포함된 Windows 10 Enterprise 및 Microsoft Intune의 조합입니다. 
+Microsoft 365 Enterprise에서, WIP는 구독에 포함된 Windows 10 Enterprise 및 Microsoft Intune의 조합입니다. 
 
 Microsoft 365 Enterprise와 함께 조직에 WIP를 배포하려면 다음을 수행합니다.
 
@@ -46,7 +46,6 @@ Microsoft 365 Enterprise와 함께 조직에 WIP를 배포하려면 다음을 �
 중간 검사점으로 이 단계에 해당하는 [종료 조건](infoprotect-exit-criteria.md#crit-infoprotect-step4)을 확인하세요.
 
 ## <a name="next-step"></a>다음 단계
-
 
 |||
 |:-------|:-----|

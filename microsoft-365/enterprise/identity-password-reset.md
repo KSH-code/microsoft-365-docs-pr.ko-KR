@@ -3,7 +3,7 @@ title: '5단계: 사용자에 대한 액세스 간소화'
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 04/19/2019
+ms.date: 09/06/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Azure AD(Microsoft Azure Active Directory)에 대한 SSPR(셀프 서비스 암호 재설정)을 이해하고 구성하십시오.
-ms.openlocfilehash: b57291aabf1b51e7866dba10ba50eacc27291a2a
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: ec81b2931fd4ad599ffcf983ea8a7d764c56404a
+ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34073728"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "36981799"
 ---
 # <a name="step-5-simplify-access-for-users"></a>5단계: 사용자에 대한 액세스 간소화
 
@@ -32,7 +32,7 @@ ms.locfileid: "34073728"
 
 이 부문에서 사용자는 Azure 액티브 디렉토리(Azure AD-Microsoft Azure Active Directory)를 통해 암호를 재설정할 수 있으며 로컬 액티브 디렉토리 도메인 서비스(AD DS-Active Directory Domain Services)로 복제될 수 있습니다. 이 과정을 암호 쓰기 저장이라고 합니다. 암호 쓰기 저장에서 사용자는 사용자 계정과 속성이 저장된 온 프레미스 AD DS를 통한 암호의 업데이트가 필요 없습니다. 온-프레미스 네트워크에 대한 원격 액세스 연결이 없는 로밍 또는 원격 사용자에게 유용합니다.
 
-암호 쓰기 저장은 계정 손상의 높은 위험이 감지된 경우 사용자에게 온-프레미스 암호를 변경하도록 요구하는 등 ID 보호 기능을 최대한 활용하기 위해 필요합니다.
+암호 쓰기 저장은 계정 손상의 높은 위험이 감지된 경우 사용자에게 온-프레미스 암호를 변경하도록 요구하는 등 Azure AD ID 보호 기능을 최대한 활용하기 위해 필요합니다.
 
 추가 정보 및 구성 지침은 [암호 쓰기 저장을 지원하는 Azure AD SSPR](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-writeback)을 참조하세요.
 
@@ -92,20 +92,11 @@ Azure AD Connect 도구를 사용하여 Azure AD Seamless SSO를 구성합니다
 
 Microsoft 365 Enterprise를 사용하는 경우 회사 로고, 색 구성표 및 사용자 지정 사용자 정보를 포함하도록 로그인 및 액세스 패널 페이지의 모양을 사용자 지정할 수 있습니다. 
 
-사용자가 장치에서 로그인을 시도하면 다음 예와 같은 *사용자 지정 전* Office 365 로그인 페이지가 표시됩니다.
-
-![사용자 지정 전 Office 365 로그인 페이지 예](./media/identity-customize-office-365-sign-in/id-step01-sign-in-before.png)
-
-*사용자 지정 후* Contoso Corporation의 동일한 사용자에게 표시되는 페이지는 다음과 같습니다.
-
-![사용자 지정 후 Office 365 로그인 페이지의 예](./media/identity-customize-office-365-sign-in/id-step01-sign-in-after.png)
-
 자세한 내용은 [Office 365 로그인 페이지에 회사 브랜딩 추가](https://docs.microsoft.com/office365/admin/setup/customize-sign-in-page)를 참조하세요.
 
 구성 지침은 [로그인 및 액세스 패널에 회사 브랜딩 추가](http://aka.ms/aadpaddbranding)를 참조하세요.
 
 중간 검사점으로 이 단계에 대한 [종료 조건](identity-exit-criteria.md#crit-identity-custom-sign-in)을 확인할 수 있습니다.
-
 
 ## <a name="next-step"></a>다음 단계
 

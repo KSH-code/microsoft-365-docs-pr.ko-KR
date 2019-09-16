@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 조직에 Microsoft 365 Enterprise의 기본 인프라를 배포하는 주요 단계(핵심 배포라고도 함)를 이해합니다.
-ms.openlocfilehash: 0b54225d3ce9043564788e28ddd88426dae611e9
-ms.sourcegitcommit: 86dba00cd786ac8ea761cdfcd85dfbd33e64d088
+ms.openlocfilehash: c66a328becf03a179b3ef0526c3110783904e741
+ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/12/2019
-ms.locfileid: "36297918"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "36982099"
 ---
 # <a name="microsoft-365-enterprise-foundation-infrastructure"></a>Microsoft 365 Enterprise 기본 인프라
 
@@ -60,7 +60,7 @@ Microsoft 365 Enterprise의 종단 간 배포를 하는 경우, 먼저 응용프
 
 ## <a name="at-a-glance"></a>간략한 개요
 
-[Microsoft 365 Enterprise 기본 인프라 포스터](http://aka.ms/m365efoundinfraposter)는 각 단계에서 볼 수 있는 중앙 위치입니다.
+[Microsoft 365 Enterprise 기본 인프라 포스터](media/deploy-foundation-infrastructure/Microsoft365EnterpriseFoundInfra.pdf)는 각 단계에서 볼 수 있는 중앙 위치입니다.
 
 - 관리자 및 사용자를 위한 단계의 전반적인 목표
 - 서비스, 기능 및 도구
@@ -69,7 +69,7 @@ Microsoft 365 Enterprise의 종단 간 배포를 하는 경우, 먼저 응용프
 - 새 사용자를 온보딩하는 프로세스
 - 모니터링 및 업데이트 방법
 
-![](./media/deploy-foundation-infrastructure/Microsoft365EnterpriseFoundInfra.png)
+[![Microsoft 365 Enterprise 기본 인프라 포스터의 이미지](./media/deploy-foundation-infrastructure/Microsoft365EnterpriseFoundInfra.png)](media/deploy-foundation-infrastructure/Microsoft365EnterpriseFoundInfra.pdf)
 
 포스터 사본을 다운로드 하려면 [여기](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/deploy-foundation-infrastructure/Microsoft365EnterpriseFoundInfra.pdf)를 클릭하세요.
 

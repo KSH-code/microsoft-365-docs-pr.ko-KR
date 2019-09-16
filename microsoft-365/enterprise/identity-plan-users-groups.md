@@ -3,7 +3,7 @@ title: '1단계: 사용자 및 그룹 계획'
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 02/25/2019
+ms.date: 09/06/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 조직을 위해 일할 사용자 및 그룹 집합을 계획합니다.
-ms.openlocfilehash: 1f879c789e6b531dec7163fa252e0f85459c823d
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: 05b854c182b6f624cf143ed93920c344391ee416
+ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34072178"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "36981809"
 ---
 # <a name="step-1-plan-for-users-and-groups"></a>1단계: 사용자 및 그룹 계획
 
@@ -31,7 +31,7 @@ ms.locfileid: "34072178"
 - 사용자 환경의 리소스에 액세스할 수 있는 사용자에 대한 제어 권한 유지 관리
 - 강력한 ID 보증(사용자가 본인 소개)과 안전한 장치에서의 액세스를 보장하는 컨트롤로 액세스 보호
 - 위험 및 데이터 유출 가능성을 줄일 수 있는 적절한 권한으로 사용자 환경의 리소스 프로비전 
-- 사용자 환경에서 비정상적인 사용자 동작을 모니터링하고 자동으로 조치
+- 사용자 환경에서 비정상적인 사용자 동작을 모니터링하고 자동으로 조치합니다.
 
 ## <a name="plan-your-primary-identity-provider"></a>기본 ID 공급자 계획
 
@@ -67,10 +67,10 @@ Azure AD에서 사용자 및 그룹을 만든 후 다음을 수행할 수 있습
 
 클라우드 환경 관리를 간소화하는 여러 가지 목적으로 Azure AD에서 그룹을 사용할 수 있습니다. 예를 들어 Azure AD 그룹에 대해 다음을 수행할 수 있습니다.
 
-- 그룹 기반 라이선스를 사용하여 사용자 계정이 Azure AD에 추가되거나 AD DS에서 동기화되는 즉시 Office 365 및 EMS(Enterprise Mobility + Security)에 대한 라이선스를 자동으로 할당합니다. 
+- 그룹 기반 라이선스를 사용하여 사용자 계정이 Azure AD에 추가되거나 AD DS에서 동기화되는 즉시 사용자 계정에 대한 라이선스를 자동으로 할당합니다. 
 - 부서와 같은 사용자 계정 특성에 따라 특정 그룹에 동적으로 사용자 계정 추가  
 - Saas(Software as a Service) 응용 프로그램에 대해 사용자를 자동으로 프로비전하고 다단계 인증 및 기타 조건부 액세스 규칙을 사용하여 이러한 응용 프로그램에 대한 액세스 보호
-- SharePoint Online 팀 사이트에 대해 사용자 권한 및 액세스 수준을 프로비전할 수 있습니다. 또한 Azure AD 그룹을 범위가 지정된 Azure Information Protection 정책과 함께 사용하여 암호화 및 사용 권한으로 파일을 보호할 수 있습니다. 
+- SharePoint Online 팀 사이트에 대해 사용자 권한 및 액세스 수준을 프로비전할 수 있습니다. 또한 Azure AD 그룹을 민감도 또는 Azure Information Protection 레이블과 함께 사용하여 암호화 및 사용 권한으로 파일을 보호할 수 있습니다. 
 
 ## <a name="results"></a>결과
 
@@ -81,7 +81,7 @@ Azure AD에서 사용자 및 그룹을 만든 후 다음을 수행할 수 있습
 
 중간 검사점으로 이 단계에 대한 [종료 조건](identity-exit-criteria.md#crit-identity-user-groups)을 확인할 수 있습니다.
 
-Azure AD 사용자 및 그룹을 만든 후에 라이선스를 할당 하고 Exchange Online을 사용하여 시작할 수 있습니다. 사용자에게 Exchange Online을 공개하려면, 배포를[Microsoft 365 Enterprise에 대한 Exchange Online 배포](exchangeonline-workload.md)를 참조하십시오.
+Azure AD 사용자 및 그룹을 만든 후에 라이선스를 할당을 시작하고 비즈니스용 OneDrive 또는 Exchange Online과 같은 생산성 작업을 사용할 수 있습니다.
 
 ## <a name="next-step"></a>다음 단계
 

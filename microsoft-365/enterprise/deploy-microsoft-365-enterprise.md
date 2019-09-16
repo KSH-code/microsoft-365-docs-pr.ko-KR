@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 조직에서 Microsoft 365 Enterprise 배포하는 데 사용할 수 있는 리소스를 파악 합니다.
-ms.openlocfilehash: 2f527c8d3afe2d3d0690661c6f01efefd5b0d435
-ms.sourcegitcommit: 86dba00cd786ac8ea761cdfcd85dfbd33e64d088
+ms.openlocfilehash: 896ac2ec0f9964344a416d583858e90a1a59e8fd
+ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/12/2019
-ms.locfileid: "36297908"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "36982076"
 ---
 # <a name="deploy-microsoft-365-enterprise"></a>Microsoft 365 Enterprise 배포
 
@@ -87,13 +87,13 @@ TLG를 사용하면 복잡한 구성, 워크로드 또는 종단 간 시나리�
 
 ## <a name="transition-your-entire-organization"></a>전체 조직 전환
 
-전체 조직을 Microsoft 365 Enterprise의 제품 및 서비스로 전환하는 방법을 더 잘 이해하려면 [전환 포스터](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/deploy-microsoft-365-enterprise/transitionorgtom365.pdf)를 다운로드하세요.
+전체 조직을 Microsoft 365 Enterprise의 제품 및 서비스로 전환하는 방법을 더 잘 이해하려면 [Microsoft 365로 조직 전환](media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf)을 참조하세요.
 
-![](./media/deploy-microsoft-365-enterprise/TransitionOrgToM365.png)
+[![조직을 Microsoft 365 포스터로 전환합니다.](./media/deploy-microsoft-365-enterprise/transition-org-to-m365.png)](media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf)
 
 이 두 페이지 포스터는 신속하게 기존 인프라를 인벤터리하여 Microsoft 365 Enterprise에서 해당 제품이나 서비스로 전환하는 방법에 대한 지침을 제공합니다. 여기에는 Windows와 Office 제품, 장치 관리, ID, 정보 및 위협 방지와 같은 기타 인프라 및 보안 요소가 포함됩니다.
 
-이 포스터는 편지, 법적 또는 타블로이드(11 x 17) 형식으로 인쇄할 수 있습니다.
+[전환 포스터를 다운로드](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf)하고 편지형, 법률형 또는 타블로이드(11 x 17) 형식으로 인쇄할 수 있습니다.
 
 ## <a name="how-did-others-do-it"></a>다른 사용자는 어떻게 했습니까?
 
@@ -115,7 +115,7 @@ TLG를 사용하면 복잡한 구성, 워크로드 또는 종단 간 시나리�
 
 동시에, 지능형 보안 기능과 제품 통합이 적용되어 관리 요구 사항을 간소화하고 IT 수명 주기에서 총 소유 비용을 최소화합니다. 
 
-CSEO(Core Services Engineering and Operations)(이전의 Microsoft IT)가 안전한 환경에서 창의성을 발휘하고 팀워크를 조성하는 응용 프로그램과 서비스를 지원하기 위한 [토대를 계획하고 배포한](https://www.microsoft.com/en-us/itshowcase/deploying-and-managing-microsoft-365) 방법에 대해 알아봅니다.
+CSEO(Core Services Engineering and Operations)(이전의 Microsoft IT)가 안전한 환경에서 창의성을 발휘하고 팀워크를 조성하는 응용 프로그램과 서비스를 지원하기 위한 [토대를 계획하고 배포한](https://www.microsoft.com/ko-KR/itshowcase/deploying-and-managing-microsoft-365) 방법에 대해 알아봅니다.
 
 > [!Note]
 > 이 웹 페이지는 영어로만 제공됩니다.

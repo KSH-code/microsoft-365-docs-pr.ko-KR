@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 중요한 Windows/Office 보안 및 준수 고려 사항에 대해 알아봅니다.
-ms.openlocfilehash: 791006a6a836f28adb8d71b20e0e887b903752ba
-ms.sourcegitcommit: 7e806db3d44ec223754efe1e9613b2c7117c4788
+ms.openlocfilehash: 472a838c68ed06560f5b81f7854b05b1b2e8eefd
+ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/10/2019
-ms.locfileid: "34814589"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "36981759"
 ---
 # <a name="step-5-security-and-compliance-considerations"></a>5단계: 보안 및 준수 고려 사항
 
@@ -111,7 +111,7 @@ Microsoft는 또한 Office 앱에 대해 **[안전한 링크](https://docs.micro
 
 Windows 10의 **[Windows Defender 응용 프로그램 컨트롤](https://docs.microsoft.com/ko-KR/windows/security/threat-protection/windows-defender-application-control/windows-defender-application-control)** 은 Microsoft가 안전을 확인한 승인된 허용 및 거부 응용 프로그램 목록과 Microsoft Intune을 사용하여 끝점 보호 정책이 관리하는 모든 응용 프로그램 목록을 운영합니다.
 
-**[Windows Defender Advanced Threat Protection](https://docs.microsoft.com/ko-KR/windows/security/threat-protection/windows-defender-atp/overview)** 은 예방적 보호, 위반 후 감지, 자동화된 조사 및 대응을 위한 통합 플랫폼입니다. 이 플랫폼은 사이버 위협으로부터 끝점을 보호하고, 고급 공격 및 데이터 위반을 감지하고, 보안 인시던트를 자동화하고, 보안 태세를 개선합니다.
+**[Microsoft Defender Advanced Threat Protection](https://docs.microsoft.com/ko-KR/windows/security/threat-protection/windows-defender-atp/overview)** 은 예방적 보호, 위반 후 감지, 자동화된 조사 및 대응을 위한 통합 플랫폼입니다. 이 플랫폼은 사이버 위협으로부터 끝점을 보호하고, 고급 공격 및 데이터 위반을 감지하고, 보안 인시던트를 자동화하고, 보안 태세를 개선합니다.
 
 **[Exploit Guard](https://docs.microsoft.com/ko-KR/windows/security/threat-protection/windows-defender-exploit-guard/windows-defender-exploit-guard)** 는 맬웨어가 Windows에 유입되지 않도록 하고, 신뢰할 수 없는 프로세스가 보호된 폴더에 액세스하지 못하도록 하여 실행 중인 응용 프로그램에 대한 공격 표면을 줄이는 데 도움을 줍니다.
 

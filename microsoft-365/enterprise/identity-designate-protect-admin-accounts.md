@@ -3,7 +3,7 @@ title: '2단계: 권한이 부여된 ID 보안'
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 03/01/2018
+ms.date: 09/06/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 관리자 계정의 최대 보호를 위한 계정의 이해 및 구성.
-ms.openlocfilehash: 8a1d232ffc0242766d79b2e4884582f3b5524d22
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: b9c645d597dfeb2bdc42e2b0b7615252dc1f5ecb
+ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34074058"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "36981909"
 ---
 # <a name="step-2-secure-your-privileged-identities"></a>2단계: 권한이 부여된 ID 보안
 
@@ -37,28 +37,27 @@ ms.locfileid: "34074058"
 또한 전용 전역 관리자 계정에 대해 다음을 수행해야 합니다.
 
 1. 테스트 사용자 계정을 사용자별 계정 또는 조건부 액세스 기반 MFA(다단계 인증)를 테스트하여 MFA가 예상대로 올바르게 작동하는지 확인합니다. MFA는 스마트폰으로 전송되는 인증 코드와 같은 보조 인증 형식을 요구합니다.
-2. 각 전용 Office 365 전역 관리자 계정에 대해 MFA를 구성하고 조직에서 사용 가능한 가장 강력한 형태의 보조 인증을 사용합니다. 자세한 내용은 [다단계 인증](identity-multi-factor-authentication.md#identity-mfa)을 참조하세요.
-2. 조건부 액세스 정책을 사용하여 전역 관리자 계정에 대해 MFA를 요구합니다. 자세한 내용은 [관리자 계정 보호](identity-access-prerequisites.md#protecting-administrator-accounts)를 참조하세요.
+2. **기준 정책: 관리자에게 MFA 필요** 전역 관리자 계정에 대한 조건부 액세스 정책을 사용하도록 설정하고 조직에서 사용 가능한 가장 강력한 형태의 보조 인증 형식을 사용해야 합니다. 자세한 내용은 [다단계 인증 계획](identity-access-prerequisites.md#protecting-administrator-accounts)을 참조하세요.
 
-구성에 대한 자세한 내용은 [Office 365 전역 관리자 계정 보호](https://docs.microsoft.com/office365/enterprise/protect-your-global-administrator-accounts)를 참조하세요.
+추가 보호에 대한 내용은 [Office 365 전역 관리자 계정 보호](https://docs.microsoft.com/office365/enterprise/protect-your-global-administrator-accounts#additional-protections-for-enterprise-organizations)를 참조하세요.
 
 > [!Note]
 > 조직에서는 사이버 공격과 같은 비상 시나리오를 위해 클라우드 전용 ID를 사용하여 전역 관리자와 같은 권한 있는 계정을 만들어야 합니다. 자세한 내용은 [Azure AD의 비상 액세스 관리 계정 관리](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-emergency-access)를 참조하세요.
 
 이 부문의 결과는 다음과 같습니다:
 
-- 구독에서 전역 관리자 역할이 할당된 사용자 계정은 새로운 전용 전역 관리자 계정 집합뿐입니다. 다음의 Azure Active Directory PowerShell for Graph 명령으로 이를 확인하십시오. 
+- 구독에서 전역 관리자 역할이 할당된 사용자 계정은 새로운 전용 전역 관리자 계정뿐입니다. 다음의 Azure Active Directory PowerShell for Graph 명령으로 이를 확인하십시오. 
   ```
   Get-AzureADDirectoryRole | Where { $_.DisplayName -eq "Company Administrator" } | Get-AzureADDirectoryRoleMember | Ft DisplayName
   ```
-- 구독을 관리하는 다른 모든 일상적인 사용자 계정에는 업무 책임과 연관된 관리자 역할이 할당되어 있습니다.
+- 구독 서비스를 관리하는 다른 모든 사용자 계정에는 업무 책임과 연관된 관리자 역할이 할당되어 있습니다.
 
 > [!Note]
 > Azure Active Directory PowerShell for Graph 모듈 설치 및 로그인에 대한 지침은 [Office 365 PowerShell에 연결](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell)을 참조하십시오.
 
 |||
 |:-------|:-----|
-|![Microsoft 클라우드의 테스트 랩 가이드](media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)| [테스트 랩 가이드: 전역 관리자 계정 보호](protect-global-administrator-accounts-microsoft-365-test-environment.md) |
+|![Microsoft 클라우드의 테스트 랩 가이드](media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)|  테스트 랩 환경에서 이 구성을 연습하려면 [전역 관리자 계정 보호 테스트 랩 가이드](protect-global-administrator-accounts-microsoft-365-test-environment.md)를 참조하세요. |
 |||
 
 중간 검사점으로 이 단계에 대한 [종료 조건](identity-exit-criteria.md#crit-identity-global-admin)을 확인할 수 있습니다.

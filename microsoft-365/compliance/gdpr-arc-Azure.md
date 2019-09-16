@@ -10,12 +10,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: GDPR
-ms.openlocfilehash: 86254d388bc5134b7913ab5e93cde96a7bc4cc66
-ms.sourcegitcommit: 6e2a54ec395eaef4c4658ca52322c3d0f184ca02
+ms.openlocfilehash: b605bfa3d549b3359f8bb780cfffa7306db44d2d
+ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "34698410"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "36982417"
 ---
 # <a name="azure-accountability-readiness-checklist-for-the-gdpr"></a>GDPR에 대한 Azure 책임 준비 상태 검사 목록
 
@@ -23,12 +23,12 @@ ms.locfileid: "34698410"
 
 이 책임 준비 검사 목록은 Microsoft Azure를 사용하는 경우 GDPR(General Data Protection Regulation)을 지원하는 데 필요한 정보에 편리하게 액세스할 수 있는 방법을 제공합니다. 검사 목록은 다음에서 가져온 개인 데이터 프로세서의 개인 정보 및 보안 컨트롤 세트의 제목 및 참조 번호(각 검사 목록 항목에 대해 괄호 사용)를 사용하여 구성됩니다.
 
-- [ISO/IEC CD 27552](https://shop.bsigroup.com/ProductDetail?pid=000000000030351735) 보안 기술 요구 사항
+- [ISO/IEC CD 27701](https://shop.bsigroup.com/ProductDetail/?pid=000000000030351736) 보안 기술 요구 사항
 - 개인 정보 관리 요구 사항에 대한 [ISO/IEC 27001](https://shop.bsigroup.com/ProductDetail?pid=000000000030347472).
 
 GDPR 타일의 고객 관리 컨트롤에서 컨트롤 ID 및 컨트롤 제목을 참조하여 준수 관리자[16]를 통해 이 검사 목록의 항목을 관리할 수 있습니다. 이러한 컨트롤 구조는 GDPR을 지원하기 위해 Microsoft Azure에서 구현하는 내부 컨트롤의 프레젠테이션을 구성하는 데에도 사용됩니다(다운로드 위치: [서비스 신뢰 포털](https://servicetrust.microsoft.com/ViewPage/TrustDocuments)).
 
-이러한 컨트롤 구조는 [iGDPR을 지원하기 위해 Microsoft Office 365에서 구현하는 내부 컨트롤](https://aka.ms/gdprcontrols)의 프레젠테이션을 구성하는 데에도 사용됩니다.
+이러한 컨트롤 구조는 [iGDPR을 지원하기 위해 Microsoft Office 365에서 구현하는 내부 컨트롤](https://aka.ms/GDPRControls)의 프레젠테이션을 구성하는 데에도 사용됩니다.
 
 추가 GDPR 관련 설명서를 보려면 [https://aka.ms/gdprgetstarted](https://aka.ms/gdprgetstarted)를 방문하세요.
 
