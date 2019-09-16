@@ -10,12 +10,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: GDPR
-ms.openlocfilehash: db0cb3ed472d0f50808339624550f0e98082b737
-ms.sourcegitcommit: 6e2a54ec395eaef4c4658ca52322c3d0f184ca02
+ms.openlocfilehash: f14016d596f11869fb923106cb174fa5ce255ec3
+ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "34698370"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "36982309"
 ---
 # <a name="microsoft-support-and-professional-services-accountability-readiness-checklist-for-the-gdpr"></a>GDPR에 대한 Microsoft 지원 및 전문 서비스 책임 준비 상태 검사 목록
 
@@ -23,8 +23,8 @@ ms.locfileid: "34698370"
 
 이 책임 준비 검사 목록은 Microsoft 전문 서비스 및 지원 서비스를 사용하는 경우 GDPR을 지원하는 데 필요한 정보에 편리하게 액세스할 수 있는 방법을 제공합니다. 검사 목록은 다음에서 가져온 개인 데이터 프로세서의 개인 정보 및 보안 컨트롤 세트의 제목 및 참조 번호(각 검사 목록 항목에 대해 괄호 사용)를 사용하여 구성됩니다.
 
-- [ISO/IEC CD 27552](https://shop.bsigroup.com/ProductDetail?pid=000000000030351735) 보안 기술 요구 사항
-- 개인 정보 관리 요구 사항에 대한 [ISO/IEC 27001](https://shop.bsigroup.com/ProductDetail?pid=000000000030347472).
+- 개인 정보 관리 기술 및 요구 사항을 위한 [ISO/IEC 27701](https://shop.bsigroup.com/ProductDetail/?pid=000000000030351736)
+- 일반적인 정보 보안 관리 요구 사항에 대한 [ISO/IEC 27001](https://shop.bsigroup.com/ProductDetail?pid=000000000030347472)
 
 이러한 컨트롤 구조는 GDPR을 지원하기 위해 Microsoft 전문 서비스에서 구현하는 내부 컨트롤의 프레젠테이션을 구성하는 데에도 사용됩니다(다운로드 위치: [서비스 보안 센터](https://servicetrust.microsoft.com/ViewPage/TrustDocuments)).
 
