@@ -83,10 +83,10 @@ Windows Defender Exploit Guard를 배포하여 Windows 10 Enterprise 실행 장�
 필요한 경우 [5단계](../windows10-enable-security-features.md#windows10-sec-eg)를 통해 이 요구 사항을 충족할 수 있습니다.
 
 <a name="crit-windows10-step5c"></a>
-### <a name="required-you-are-using-windows-defender-advanced-threat-protection-microsoft-365-enterprise-e5-only"></a>필수 작업: Windows Defender Advanced Threat Protection 사용(Microsoft 365 Enterprise E5만 해당)
+### <a name="required-you-are-using-microsoft-defender-advanced-threat-protection-microsoft-365-enterprise-e5-only"></a>필수 작업: Microsoft Defender Advanced Threat Protection 사용(Microsoft 365 Enterprise E5만 해당)
 
-Windows Defender ATP(Advanced Threat Protection)를 배포하여 네트워크 및 Windows 10 Enterprise 실행 장치에 대한 고급 위협 감지, 조사, 대응 
+Microsoft Defender ATP(Advanced Threat Protection)를 배포하여 네트워크 및 Windows 10 Enterprise 실행 장치에 대한 고급 위협 감지, 조사, 대응 
 
-필요에 따라 다른 도구에 Windows Defender ATP를 통합하여 기능 확장
+필요에 따라 다른 도구에 Microsoft Defender ATP를 통합하여 기능 확장
 
 필요한 경우 [5단계](../windows10-enable-security-features.md#windows10-sec-atp)를 통해 이 요구 사항을 충족할 수 있습니다.
