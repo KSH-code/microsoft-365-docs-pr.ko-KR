@@ -13,18 +13,18 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Microsoft 365 Enterprise에 대한 네트워킹 인프라를 배포하는 단계입니다.
-ms.openlocfilehash: 4c1ea87e243d72920a3a56df270fab33bd722834
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: 35c65515854bb0c47a45e48d8e3c6af6a80d907c
+ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34074318"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "36982799"
 ---
 # <a name="phase-1-networking-infrastructure-for-microsoft-365-enterprise"></a>1단계: Microsoft 365 Enterprise에 대한 네트워킹 인프라
 
 ![](./media/deploy-foundation-infrastructure/networking_icon.png)
 
-Microsoft 365 Enterprise에는 EMS (Enterprise Management + Security)의 일부로 Office 365와 Microsoft Intune이 포함됩니다. 이러한 클라우드 기반 서비스 두 가지 모두 인터넷이나 전용 회선을 통해 클라이언트 장치의 연결 보안, 성능 및 안정성에 의존합니다. Microsoft는 이러한 서비스를 호스팅하고 전 세계 고객이 사용할 수 있도록하기 위해 성능 및 통합을 중점을 둔 네트워킹 인프라를 설계했습니다. 
+Microsoft 365 Enterprise에는 Office 365, Microsoft Intune 및 Microsoft Azure의 여러 ID와 보안 서비스가 포함되어 있습니다. 이러한 모든 클라우드 기반 서비스는 인터넷이나 전용 회선을 통해 클라이언트 장치의 연결 보안, 성능 및 안정성에 의존합니다. Microsoft는 이러한 서비스를 호스팅하고 전 세계 고객이 사용할 수 있도록하기 위해 성능 및 통합을 중점을 둔 네트워킹 인프라를 설계했습니다. 
 
 이 단계에서는 Microsoft 365 Enterprise의 클라우드 서비스에 대한 뛰어난 성능의 연결을 만들기 위한 주요 고려 사항을 안내합니다. 개요는 [Office 365 네트워킹 원칙](https://techcommunity.microsoft.com/t5/Office-365-Blog/Getting-the-best-connectivity-and-performance-in-Office-365/ba-p/124694)을 참조하세요.
 
@@ -48,7 +48,7 @@ Microsoft 365 Enterprise에는 EMS (Enterprise Management + Security)의 일부�
 
 ## <a name="how-microsoft-does-microsoft-365-enterprise"></a>Microsoft에서 Microsoft 365 Enterprise를 수행하는 방법
 
-Microsoft 내부를 살펴보고 회사가 [클라우드 서비스를 위한 Microsoft 네트워크를 최적화](https://www.microsoft.com/en-us/itshowcase/deploying-and-managing-microsoft-365#primaryR4)한 방법을 알아봅니다.
+Microsoft 내부를 살펴보고 회사가 [클라우드 서비스를 위한 Microsoft 네트워크를 최적화](https://www.microsoft.com/ko-KR/itshowcase/deploying-and-managing-microsoft-365#primaryR4)한 방법을 알아봅니다.
 
 ## <a name="how-contoso-did-microsoft-365-enterprise"></a>Contoso의 Microsoft 365 Enterprise 사용 방식
 

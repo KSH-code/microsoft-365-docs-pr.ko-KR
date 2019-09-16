@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 신뢰할 수 있는 Office 365 위치로의 트래픽 바이패스를 위해 웹 브라우저 및 에 장치를 이해하고 구성합니다.
-ms.openlocfilehash: c7d4391d3274fd36a3f6fbf208cd94ce7b0f9339
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: 416c93fd3f44e1cd9edba52a9d6117ac6d133760
+ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34074228"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "36982789"
 ---
 # <a name="step-4-configure-traffic-bypass"></a>4단계: 트래픽 바이패스 구성
 
@@ -40,7 +40,8 @@ ms.locfileid: "34074228"
 
 다음이 권장됩니다.
 
-- 온-프레미스 컴퓨터의 인터넷 브라우저에서 PAC(프록시 자동 구성) 스크립트를 사용하여 Microsoft 365 클라우드 기반 서비스의 DNS 도메인 이름에 대한 프록시 서버를 무시합니다. 최신 Microsoft 365 PAC 스크립트의 경우 Get-Pacfile PowerShell 스크립트를 참조하세요.
+- 온-프레미스 컴퓨터의 인터넷 브라우저에서 PAC(프록시 자동 구성) 스크립트를 사용하여 Microsoft 365 클라우드 기반 서비스의 DNS 도메인 이름에 대한 프록시 서버를 무시합니다. 최신 Microsoft 365 PAC 스크립트의 경우 [Get-Pacfile PowerShell 스크립트](https://docs.microsoft.com/office365/enterprise/managing-office-365-endpoints#use-a-pac-file-for-direct-routing-of-vital-office-365-traffic)를 참조하세요.
+- 
 - 에지 장치를 분석하여 중복 처리를 확인한 후, 처리하지 않고 최적화 및 허용 끝점으로 트래픽을 전달하도록 구성합니다. 이것을 트래픽 바이패스라고 합니다. 
 
 에지 장치에는 방화벽, SSL 중단 및 조사, 패킷 검사 장치, 데이터 손실 방지 시스템이 포함되어 있습니다. 에지 장치를 구성하고 구성을 업데이트하려면 스크립트 또는 REST 호출을 사용하여 Office 365 끝점 웹 서비스의 구조화된 끝점 목록을 사용할 수 있습니다. 자세한 내용은 [Office 365 IP 주소 및 URL 웹 서비스](https://docs.microsoft.com/office365/enterprise/office-365-ip-web-service)를 참조하세요.

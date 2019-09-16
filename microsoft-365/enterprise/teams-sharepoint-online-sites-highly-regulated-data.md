@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 보안 SharePoint Online 팀 사이트 및 Microsoft Teams 팀을 만들어 가장 소중하고 중요한 디지털 자산을 저장합니다.
-ms.openlocfilehash: d9740a27cdb90f8d490a6c9a323e968725876deb
-ms.sourcegitcommit: e87c9aa4d6f4756c0a761d3de7c70492b43bf0b9
+ms.openlocfilehash: d056acc9598abc2b896c775e0979451f4961e3fb
+ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/03/2019
-ms.locfileid: "34681071"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "36982759"
 ---
 # <a name="microsoft-teams-and-sharepoint-online-sites-for-highly-regulated-data"></a>높은 규제 대상 데이터에 대한 Microsoft Teams 및 SharePoint Online 사이트
 
@@ -67,7 +67,6 @@ Microsoft 365 Enterprise에는 높은 규제 대상 데이터를 만들고, 저�
 다음 단계에서는 높은 규제 대상 데이터에 대한 SharePoint Online 사이트 및 팀의 디자인 및 구성 작업과 채택을 유도하는 과정을 안내합니다.
 
 가상의 대표적인 다국적 기업인 Contoso Corporation에서 연구팀을 위해 SharePoint Online 사이트를 설계한 방법을 보려면 이 [예제 구성](contoso-sharepoint-online-site-for-highly-confidential-assets.md)을 참조하세요.
-
 
 높은 규제 대상 데이터에 대한 팀을 사용하려면 먼저 높은 규제 대상 데이터에 대한 SharePoint Online 팀 사이트를 만들어야 합니다. 그런 후 SharePoint Online 팀 사이트의 Office 365 그룹을 사용하는 새 팀을 만듭니다. 자세한 내용은 두 번째 작업 단계, 4단계를 참조하세요.
 

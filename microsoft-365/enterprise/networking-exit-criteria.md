@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 구성이 네트워킹 인프라에 대한 Microsoft 365 Enterprise 조건을 충족하는지 확인합니다.
-ms.openlocfilehash: 533707eec17483c8291b232821035752c9d09e43
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: 9d818a97e79465d639c52f96901bd1cbaa31144a
+ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34074208"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "36982779"
 ---
 # <a name="phase-1-networking-infrastructure-exit-criteria"></a>1단계: 네트워킹 인프라 종료 조건
 
@@ -30,7 +30,7 @@ ms.locfileid: "34074208"
 ## <a name="required-your-network-is-ready-for-microsoft-365-enterprise"></a>필수 사항: 네트워크에서 Microsoft 365 Enterprise 사용 준비 완료
 
 - 사무실에 Office 365, Microsoft Intune, Windows 10 Enterprise 설치 및 업데이트를 포함하여 Microsoft 365 트래픽에 적합한 인터넷 대역폭이 있습니다.
-- 전체 네트워크가 Office 365 참조 아키텍처에 매핑됩니다.
+- 전체 네트워크가 [Office 365 참조 아키텍처](https://docs.microsoft.com/office365/enterprise/office-365-network-connectivity-principles#BKMK_P2)에 매핑됩니다.
 - 네트워크 변경 사항이 시험 및 테스트되었으며 트래픽 대기 시간 요구 사항을 충족합니다. 
 
 필요한 경우 [1단계](networking-provide-bandwidth-cloud-services.md)를 통해 이 요구 사항을 충족할 수 있습니다.
