@@ -10,12 +10,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: GDPR
-ms.openlocfilehash: 2559734241a8b30ec43b26fb0b096faba18138b9
-ms.sourcegitcommit: 2f4a61f02ea90102ded8e5d71c9b78a1f7f6b789
+ms.openlocfilehash: 30d6e1566fda4dbc84800bbd4359a689f858f9e4
+ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35778153"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "36982689"
 ---
 # <a name="office-365-data-subject-requests-for-the-gdpr"></a>GDPR에 대한 Office 365 데이터 주체 요청
 
@@ -97,7 +97,7 @@ DSR 요청에 응답할 경우, DSR 요청에 해당되는 데이터가 Microsof
 | ![Excel 아이콘](media/o365-excel-64x64.png) <br> Excel | ![비즈니스용 Skype 아이콘](media/o365-skypeforbusiness-64x64.png) <br> 비즈니스용 Skype |
 | ![Office Lens 아이콘](media/o365-lens-64x64.png) <br> Office Lens | ![작업 아이콘](media/O365-DSR-Doc-Final_image8.png) <br> 작업 |
 | ![OneDrive 아이콘](media/o365-OneDrive-64x64.png) <br> 비즈니스용 OneDrive |![Teams 아이콘](media/o365-teams-64x64.png) <br> Teams |
-| ![OneNote 아이콘](media/o365-onenote-64x64.png) <br> OneNote| ![할 일 아이콘](media/o365-todo-64x64.png) <br> 할 일 |
+| ![OneNote 아이콘](media/o365-onenote-64x64.png) <br> OneNote| ![할 일 아이콘](media/o365-todo-64x64.png) <br> To Do |
 | ![Outlook 아이콘](media/o365-outlook-64x64.png) <br> Outlook/Exchange | ![비디오 아이콘](media/O365-DSR-Doc-Final_image14.png) <br> 비디오 |
 | ![사람 아이콘](media/O365-DSR-Doc-Final_image15.png) <br> 사람 | ![Visio 아이콘](media/o365-visio-64x64.png) <br> Visio |
 | ![PowerPoint 아이콘](media/o365-powerpoint-64x64.png) <br> PowerPoint | ![Word 아이콘](media/o365-word-64x64.png) <br> Word
@@ -149,7 +149,7 @@ DSR에 대응하는 첫 번째 단계는 DSR의 주체인 개인 데이터를 �
 
 조사 중인 DSR에는 검색 쿼리에서 사용할 수 있는 요청의 주체인 개인 데이터에 대한 식별자 및 기타 세부 정보가 포함될 가능성이 높습니다.
 
-전자 메일 주소 또는 직원 ID만 검색해도 많은 결과가 반환될 수 있습니다. 검색 범위를 좁혀 DSR과 가장 관련이 있는 콘텐츠를 반환하도록 검색 쿼리에 조건을 추가할 수 있습니다. 조건을 추가할 때 키워드와 검색 조건은 **and** 부울 연산자로 논리적으로 연결됩니다. 즉, 키워드와 조건 모두*와 일치하는 항목만 검색 결과에 반환됩니다.
+전자 메일 주소 또는 직원 ID만 검색해도 많은 결과가 반환될 수 있습니다. 검색 범위를 좁혀 DSR과 가장 관련이 있는 콘텐츠를 반환하도록 검색 쿼리에 조건을 추가할 수 있습니다. 조건을 추가할 때 키워드와 검색 조건은 **and** 부울 연산자로 논리적으로 연결됩니다. 즉, 키워드와 조건 *모두*와 일치하는 항목만 검색 결과에 반환됩니다.
 
 다음 표에서는 검색 범위를 좁히는 데 사용할 수 있는 몇 가지 조건을 보여 줍니다. 또한 특정 문서 유형 및 사서함 항목을 검색하기 위해 각 조건에 사용할 수 있는 값을 보여 줍니다.
 
@@ -159,7 +159,7 @@ DSR에 대응하는 첫 번째 단계는 DSR의 주체인 개인 데이터를 �
 | :--- | :--- |:--- |
 |**조건**|**설명** |**조건 값의 예**|
 | 파일 형식 | 문서 또는 파일의 확장명입니다. 이 조건을 사용하여 Office 365 응용 프로그램에서 만든 Office 문서와 파일을 검색합니다. SharePoint Online 사이트 및 비즈니스용 OneDrive 계정에서 문서를 검색하려면이 조건을 사용하세요.<br/>해당 문서 속성은 filetype입니다. <br/>검색할 수 있는 파일 확장명의 전체 목록은 SharePoint에서 크롤링되는 기본 파일 이름 확장명 및 구문 분석되는 파일 형식https://technet.microsoft.com/library/jj219530.aspx)을 참조하세요.|&nbsp;&bull;&nbsp;&nbsp;csv – CSV(쉼표로 구분된 값) 파일 검색. Excel 파일을 CSV 형식으로 저장할 수 있으며 CSV 파일을 Excel로 쉽게 가져올 수 있습니다.<br><br>&bull;&nbsp;&nbsp;docx - Word 파일 검색 <br><br>&bull;&nbsp;&nbsp;mpp – Project 파일 검색<br/><br>&bull;&nbsp;&nbsp;one – OneNote 파일 검색 <br><br>&bull;&nbsp;&nbsp;pdf - PDF 형식으로 저장된 파일 검색 <br><br>&bull;&nbsp;&nbsp;pptx – PowerPoint 파일 검색 <br><br>&bull;&nbsp;&nbsp;xlxs – Excel 파일 검색 <br><br>&bull;&nbsp;&nbsp;vsd – Visio 파일 검색 <br><br>&bull;&nbsp;&nbsp;wmv – Windows Media 동영상 파일 검색 <br>|
-| 메시지 유형 | 검색할 전자 메일 메시지의 유형입니다. 연락처(사람), 회의(일정) 작업 또는 비즈니스용 Skype 대화에 대해 사서함을 검색하려면 이 조건을 사용하세요. 해당 전자 메일 속성은 *유형*입니다.|&bull;&nbsp;&nbsp;*연락처 — 사서함의 내 연락처 목록(사용자) 검색 <br><br>&bull;&nbsp;&nbsp;* 전자 메일 — 전자 메일 메시지 검색 <br><br>im — 비즈니스용 Skype 대화 검색<br>&bull;&nbsp;* 모임 — 약속 및 모임 요청(일정) 검색 <br><br>&bull;&nbsp;&nbsp;*작업 – 내 작업 목록(작업) 검색. 이 값을 사용하면 Microsoft To-Do에서 만든 작업도 반환됩니다.<br>|
+| 메시지 유형 | 검색할 전자 메일 메시지의 유형입니다. 연락처(사람), 회의(일정) 작업 또는 비즈니스용 Skype 대화에 대해 사서함을 검색하려면 이 조건을 사용하세요. 해당 전자 메일 속성은 *유형*입니다.|&bull;&nbsp;&nbsp;*연락처 — 사서함의 내 연락처 목록(사용자) 검색 <br><br>&bull;&nbsp;&nbsp;* 전자 메일 — 전자 메일 메시지 검색 <br><br>&bull;&nbsp;&nbsp;*im — 비즈니스용 Skype 대화 검색<br><br>&bull;&nbsp;&nbsp;* 모임 — 약속 및 모임 요청(일정) 검색 <br><br>&bull;&nbsp;&nbsp;*작업 – 내 작업 목록(작업) 검색. 이 값을 사용하면 Microsoft To Do에서 만든 작업도 반환됩니다.<br>|
 | 준수 태그 |전자 메일 메시지 또는 문서에 할당되는 레이블입니다. 레이블은 데이터 거버넌스를 위해 전자 메일 및 문서를 분류하고, 레이블로 정의된 분류에 따라 보존 규칙을 적용하는 데 사용됩니다. 이 조건을 사용하여 자동 또는 수동으로 레이블이 할당된 항목을 검색할 수 있습니다.<br/>조직에서는 레이블을 사용하여 데이터 개인 정보와 관련되거나 개인 데이터 또는 중요한 정보가 포함된 콘텐츠를 분류할 수 있으므로 이는 DSR 조사에 유용한 조건입니다. [Office 365의 레이블 개요](https://support.office.com/article/overview-of-labels-af398293-c69d-465e-a249-d74561552d30)에서 "콘텐츠 검색을 사용하여 특정 레이블이 적용된 모든 콘텐츠 찾기" 섹션을 참조하세요.|compliancetag="개인 데이터"|
 ||||
 
@@ -256,7 +256,7 @@ DSR과 관련된 개인 데이터를 찾은 후에는 데이터를 찾는 데 �
 - [Office Lens](#office-lens)
 - [비즈니스용 OneDrive 및 SharePoint 환경 설정](#onedrive-for-business-and-sharepoint-online-experience-settings)
 - [교육용 Microsoft Teams](#microsoft-teams-for-education)
-- [Microsoft To-Do](#microsoft-to-do)
+- [Microsoft To Do](#microsoft-to-do)
 - [비즈니스용 Skype](#skype-for-business)
 
 #### <a name="office-lens"></a>Office Lens
@@ -362,9 +362,9 @@ OneNote 수업용 전자 필기장은 수업 팀 SharePoint Online 사이트에 
    ```
 6.  콘텐츠 검색을 다시 실행합니다. 검색 결과에 수업 팀의 수업용 전자 필기장에 대한 모든 OneNote 파일이 포함되어야 합니다.
 
-#### <a name="microsoft-to-do"></a>Microsoft To-Do
+#### <a name="microsoft-to-do"></a>Microsoft To Do
 
-Microsoft To-Do의 작업(*할 일*이라고 하며, *할 일 목록*에 저장됨)은 사용자의 Exchange Online 사서함에 작업으로 저장됩니다. 따라서 콘텐츠 검색 도구를 사용하여 할 일을 검색, 액세스, 삭제 및 내보낼 수 있습니다. 자세한 내용은 [Microsoft To-Do 설정](https://support.office.com/article/Set-up-Microsoft-To-Do-490c1a8c-2333-4952-8125-841afadb9620)을 참조하세요.
+Microsoft To Do의 작업(*to-do 목록*에 저장되는 *to-dos*)은 사용자의 Exchange Online 사서함에 작업으로 저장됩니다. 즉, 콘텐츠 검색 도구를 사용하여 할 일을 검색, 액세스, 삭제 및 내보낼 수 있습니다. 자세한 내용은 [Microsoft To Do 설정](https://support.office.com/article/Set-up-Microsoft-To-Do-490c1a8c-2333-4952-8125-841afadb9620)을 참조하세요.
 
 #### <a name="skype-for-business"></a>비즈니스용 Skype
 
@@ -411,7 +411,7 @@ DSR에 응답하는 개인 데이터를 찾은 후 여러분과 조직은 데이
 
 "데이터 이동권"을 통해 데이터 주체는 "구조화되고 자주 사용되며 컴퓨터가 읽을 수 있는 형식"으로 된 개인 데이터의 전자 복사본을 요청하고, 조직에서 이러한 전자 파일을 다른 데이터 통제자에게 전송하도록 요청할 수 있습니다. Microsoft는 다음 두 가지 방법으로 이 권한을 지원합니다.
 
-- 네이티브의 기계가 읽을 수 있고 일반적으로 사용되는 전자 형식으로 데이터를 저장하는 Office 365 애플리케이션을 제공합니다. Office 파일 형식에 대한 자세한 내용은 [Office 파일 형식-기술 문서를 참조 하세요.
+- 네이티브의 기계가 읽을 수 있고 일반적으로 사용되는 전자 형식으로 데이터를 저장하는 Office 365 애플리케이션을 제공합니다. Office 파일 형식에 대한 자세한 내용은 [Office 파일 형식-기술 문서](https://msdn.microsoft.com/library/office/cc313105(v=office.12).aspx)를 참조 하세요.
 - 조직에서 기본 파일 형식 또는 다른 응용 프로그램으로 쉽게 가져올 수 있는 형식(예: CSV, TXT 및 JSON)으로 데이터를 내보내도록 지원합니다.
 
 DSR 내보내기 요청을 충족하기 위해 Office 문서를 해당 기본 파일 형식으로 내보내고, 다른 Office 365 응용 프로그램에서 데이터를 내보낼 수 있습니다.
@@ -460,7 +460,7 @@ SharePoint Online 및 비즈니스용 OneDrive에서 데이터를 내보내는 �
 
 DSR에 응답하여 개인 데이터를 조사하거나 삭제할 준비를 할 때 Office 365에서 데이터 삭제(및 보존)가 작동하는 방식에 대해 이해해야 할 몇 가지 사항은 다음과 같습니다.
 
-- **일시 삭제 및 영구 삭제 – Exchange Online, SharePoint Online 및 비즈니스용 OneDrive와 같은 Office 365 서비스에는 삭제한 항목을 복구 기회 없이 Microsoft 클라우드에서 영구히 제거하기 전에 복구할 수 있는지(일반적으로 제한된 기간 동안)와 관련된 *일시 삭제* 및 *영구 삭제* 개념이 있습니다. 이 컨텍스트에서 일시 삭제한 항목은 영구 삭제하기 전에 제한된 기간 동안 사용자 및/또는 관리자가 복구할 수 있습니다. 항목이 영구 삭제되면 영구 제거 상태로 표시되며, 해당 Office 365 서비스에 의해 처리될 때 제거됩니다. 일시 삭제 및 영구 삭제가 사서함 및 사이트의 항목에 작동하는 방식은 다음과 같습니다(항목을 삭제한 사람이 데이터 소유자인지 또는 관리자인지는 관계없음).
+- **일시 삭제 및 영구 삭제:** Exchange Online, SharePoint Online 및 비즈니스용 OneDrive와 같은 Office 365 서비스에는 삭제한 항목을 복구 기회 없이 Microsoft 클라우드에서 영구히 제거하기 전에 복구할 수 있는지(일반적으로 제한된 기간 동안)와 관련된 *일시 삭제* 및 *영구 삭제* 개념이 있습니다. 이 컨텍스트에서 일시 삭제한 항목은 영구 삭제하기 전에 제한된 기간 동안 사용자 및/또는 관리자가 복구할 수 있습니다. 항목이 영구 삭제되면 영구 제거 상태로 표시되며, 해당 Office 365 서비스에 의해 처리될 때 제거됩니다. 일시 삭제 및 영구 삭제가 사서함 및 사이트의 항목에 작동하는 방식은 다음과 같습니다(항목을 삭제한 사람이 데이터 소유자인지 또는 관리자인지는 관계없음).
 
     - **사서함:** 항목은 지운 편지함 폴더에서 삭제되거나 사용자가 **Shift+Delete**를 눌러 삭제할 때까지 일시 삭제됩니다. 항목을 일시 삭제하면 사서함의 복구 가능한 항목 폴더로 이동됩니다. 이때 항목은 삭제한 항목 보존 기간이 만료될 때까지 사용자가 복구할 수 있습니다(Office 365에서 삭제한 항목 보존 기간은 14일이지만 관리자가 30일까지 늘릴 수 있음). 보존 기간이 만료되면 항목은 영구 삭제된 후 숨겨진 폴더(*제거* 폴더)로 이동됩니다. 항목은 다음 번에 사서함을 처리할 때 Office 365에서 영구적으로 제거됩니다(사서함은 7일마다 1번 처리됨).
 
@@ -469,7 +469,7 @@ DSR에 응답하여 개인 데이터를 조사하거나 삭제할 준비를 할 
 > [!NOTE]
 > 항목이 일시 삭제되거나 영구 삭제되는 작업을 이해하면 삭제 요청에 응답할 때 GDPR 요구 사항을 충족하는 방식으로 데이터를 삭제하는 방법을 결정하는 데 도움이 됩니다.
 
-- * * Legal 보류 및 보존 정책 - Office 365에서는 사서함과 사이트에 "보류"가 있을 수 있습니다. 간단히 말해서, 이는 사서함이나 사이트가 보류 중일 때, 항목의 보존 기간이 만료되거나 보류가 제거될 때까지 영구적으로 제거 (하드 삭제)되지 않는 것을 의미합니다. 이는 DSR에 대한 응답으로 고객 콘텐츠를 삭제하는 맥락에서 중요합니다. 보류중인 콘텐츠 위치에서 항목을 하드 삭제하면 해당 항목이 Office 365에서 영구적으로 제거되지 않습니다. 이는 IT 관리자가 복구할 수 있음을 의미합니다. 조직에서 DSR에 대한 응답으로 Office 365에서 데이터를 영구히 삭제하고 복구할 수 없는 요구 사항이나 정책이있는 경우 Office 365에서 데이터를 영구적으로 삭제하려면 보류를 사서함이나 사이트에서 제거해야합니다. DSR에 응답하기 위한 조직의 지침에는 특정 DSR 삭제 요청 또는 법적 보류가 우선하는지 여부를 결정하는 프로세스가 있습니다. 항목을 삭제하기 위해 보류가 제거되면 항목을 삭제한 후에 보류를 다시 구현할 수 있습니다.
+- **Legal 보류 및 보존 정책:** Office 365에서는 사서함과 사이트에 "보류"가 있을 수 있습니다. 간단히 말해서, 이는 사서함이나 사이트가 보류 중일 때, 항목의 보존 기간이 만료되거나 보류가 제거될 때까지 영구적으로 제거 (하드 삭제)되지 않는 것을 의미합니다. 이는 DSR에 대한 응답으로 고객 콘텐츠를 삭제하는 맥락에서 중요합니다. 보류중인 콘텐츠 위치에서 항목을 하드 삭제하면 해당 항목이 Office 365에서 영구적으로 제거되지 않습니다. 이는 IT 관리자가 복구할 수 있음을 의미합니다. 조직에서 DSR에 대한 응답으로 Office 365에서 데이터를 영구히 삭제하고 복구할 수 없는 요구 사항이나 정책이있는 경우 Office 365에서 데이터를 영구적으로 삭제하려면 보류를 사서함이나 사이트에서 제거해야합니다. DSR에 응답하기 위한 조직의 지침에는 특정 DSR 삭제 요청 또는 법적 보류가 우선하는지 여부를 결정하는 프로세스가 있습니다. 항목을 삭제하기 위해 보류가 제거되면 항목을 삭제한 후에 보류를 다시 구현할 수 있습니다.
 
 ### <a name="deleting-documents-in-sharepoint-online-and-onedrive-for-business"></a>SharePoint Online 및 비즈니스용 OneDrive에서 문서 삭제
 
@@ -960,7 +960,7 @@ Forms 사용자는 <https://forms.office.com>으로 이동한 후 **내 양식**
 
 #### <a name="access"></a>Access
 
-관련 Forms가 발견되면 **응답** 탭을 클릭하여 Forms에 대한 응답에 액세스할 수 있습니다. [퀴즈 결과](https://support.office.com/article/c4a9b45c-d62f-4eb7-b5db-ad81892c7c07)를 확인하거나 [form 결과](https://support.office.com/article/02859424-341d-406f-b32a-9a0fbaf357af)를 확인하는 방법에 대해 자세히 알아보십시오. Excel에서 응답 결과를 검토하려면 **응답 탭을 선택한 다음 **Excel에서 열기**를 클릭합니다. 데이터 주체에 Form 사본을 보내려는 경우 응용 프로그램에 표시된 관련 질문 및 답변의 스크린 샷을 서식있는 텍스트 형식으로 가져 오거나 데이터 주체에 결과의 Excel 복사본을 보낼 수 있습니다. Excel을 사용하면서 설문 결과의 데이터 주체 부분만 공유하려는 경우 결과를 공유하기 전에 특정 행이나 열을 삭제하거나 나머지 섹션을 삭제합니다. 또는 **공유\>복제본에 대한 링크를 가져오기**(서식 파일로 공유 아래)로 이동하여 전체 Form의 복제본을 데이터 주체에게 제공할 수 있습니다.
+관련 Forms가 발견되면 **응답** 탭을 클릭하여 Forms에 대한 응답에 액세스할 수 있습니다. [퀴즈 결과](https://support.office.com/article/c4a9b45c-d62f-4eb7-b5db-ad81892c7c07)를 확인하거나 [form 결과](https://support.office.com/article/02859424-341d-406f-b32a-9a0fbaf357af)를 확인하는 방법에 대해 자세히 알아보십시오. Excel에서 응답 결과를 검토하려면 **응답** 탭을 선택한 다음 **Excel에서 열기**를 클릭합니다. 데이터 주체에 Form 사본을 보내려는 경우 응용 프로그램에 표시된 관련 질문 및 답변의 스크린 샷을 서식있는 텍스트 형식으로 가져 오거나 데이터 주체에 결과의 Excel 복사본을 보낼 수 있습니다. Excel을 사용하면서 설문 결과의 데이터 주체 부분만 공유하려는 경우 결과를 공유하기 전에 특정 행이나 열을 삭제하거나 나머지 섹션을 삭제합니다. 또는 **공유\>복제본에 대한 링크를 가져오기**(서식 파일로 공유 아래)로 이동하여 전체 Form의 복제본을 데이터 주체에게 제공할 수 있습니다.
 
 #### <a name="delete"></a>삭제
 
@@ -1079,7 +1079,7 @@ PowerApps와 관련된 DSR 요청을 용이하게 하기 위해 [PowerApps 관�
 
 개인 데이터를 찾는 방법에 대한 자세한 내용은 [PowerApps 개인 데이터 검색](https://go.microsoft.com/fwlink/?linkid=871880)을 참조하세요.
 
-PowerApps 서비스에는 사용자가 Common Data Service 데이터베이스 내에 표준 및 사용자 지정 엔터티에 데이터를 저장할 수 있도록 하는 응용 프로그램에 대한 Common Data Service도 포함 되어 있습니다. PowerApps Maker 포털에서 이러한 엔터티에 저장된 데이터를 확인하고, [고급 검색](https://docs.microsoft.com/dynamics365/customer-engagement/basics/save-advanced-find-search)의 제품내 검색 기능을 사용하여 엔터티에서 특정 데이터를 검색할 수 있습니다. Common Data Service에서 개인 데이터를 검색하는 방법에 대한 자세한 내용은 [Common Data Service 개인 데이터 검색](https://go.microsoft.com/fwlink/?linkid=871881)을 참조 하세요.
+PowerApps 서비스에는 사용자가 Common Data Service 데이터베이스 내에 표준 및 사용자 지정 엔터티에 데이터를 저장할 수 있도록 하는 응용 프로그램에 대한 Common Data Service도 포함 되어 있습니다. [PowerApps Maker 포털](https://web.powerapps.com)에서 이러한 엔터티에 저장된 데이터를 확인하고, [고급 검색](https://docs.microsoft.com/dynamics365/customer-engagement/basics/save-advanced-find-search)의 제품내 검색 기능을 사용하여 엔터티에서 특정 데이터를 검색할 수 있습니다. Common Data Service에서 개인 데이터를 검색하는 방법에 대한 자세한 내용은 [Common Data Service 개인 데이터 검색](https://go.microsoft.com/fwlink/?linkid=871881)을 참조 하세요.
 
 #### <a name="access"></a>Access
 
@@ -1275,7 +1275,7 @@ Whiteboard 파일(.wbx 파일)은 사용자의 비즈니스용 OneDrive 계정�
 
 #### <a name="discover"></a>검색
 
-Yammer 관리 센터에서 Yammer 확인된 관리자 (Office 365 전역 관리자 또는 Yammer에 설정된 관리자)는 지정된 사용자에 관련된 데이터를 내보낼 수 있습니다. 내보내기에는 사용자가 게시하고 수정한 메시지와 파일 및 사용자가 만든 주제 및 그룹에 대한 정보가 포함됩니다. 사용자별 데이터 내보내기가 실행되면 관리자는 선택한 경우 사용자에게 제공할 수 있는 사용자의 계정 활동 데이터가 포함된 받은 편지함 메시지를 받습니다. 자세한 지침은 [Yammer Enterprise: 개인 정보를 참조하세요.
+Yammer 관리 센터에서 Yammer 확인된 관리자 (Office 365 전역 관리자 또는 Yammer에 설정된 관리자)는 지정된 사용자에 관련된 데이터를 내보낼 수 있습니다. 내보내기에는 사용자가 게시하고 수정한 메시지와 파일 및 사용자가 만든 주제 및 그룹에 대한 정보가 포함됩니다. 사용자별 데이터 내보내기가 실행되면 관리자는 선택한 경우 사용자에게 제공할 수 있는 사용자의 계정 활동 데이터가 포함된 받은 편지함 메시지를 받습니다. 자세한 지침은 [Yammer Enterprise: 개인 정보](https://support.office.com/article/enterprise-privacy-yammer-eae49f12-4661-4ba5-aa72-01248f0709bf)를 참조하세요.
 
 사용자별 내보내기는 단일 네트워크에 적용되므로 사용자가 외부 Yammer 네트워크에 있는 경우 관리자는 홈 네트워크뿐와 해당 외부 네트워크에 데이터를 내보내야 합니다.
 

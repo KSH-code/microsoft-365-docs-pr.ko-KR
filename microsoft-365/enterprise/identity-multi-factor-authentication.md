@@ -3,7 +3,7 @@ title: '4단계: 안전한 사용자 인증 구성'
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 04/17/2019
+ms.date: 09/06/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 사용자 계정에 대한 Multi-Factor Authentication을 이해하고 구성합니다.
-ms.openlocfilehash: 73e884802329765fd6a89cfb7d0e04116c17968c
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: 2a4a0926a08ae8279523219a2d7a2386ea0c6742
+ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34072088"
+ms.lasthandoff: 09/14/2019
+ms.locfileid: "36981849"
 ---
 # <a name="step-4-configure-secure-user-authentication"></a>4단계: 안전한 사용자 인증 구성
 
@@ -36,7 +36,7 @@ MFA를 사용하는 경우 두 번째 보안 계층은 다음과 같습니다.
 - 스마트폰과 같이 쉽게 스푸핑되거나 복제되지 않는 개인 및 신뢰할 수 있는 장치
 - 지문과 같은 생체 인식 특성
 
-MFA를 사용하도록 설정하고 사용자 계정 단위로 보조 인증 방법을 구성합니다. 사용자에게 MFA가 사용 중임을 알려, 로그인하려면 스마트폰을 필수적으로 사용해야 하는 등의 요구 사항을 이해하고 성공적으로 로그인할 수 있도록 해야 합니다.
+MFA를 사용하도록 설정하고 Azure AD(Azure Active Directory) 그룹을 사용하여 파일럿 사용자, 지리적 지역 또는 부서 등의 지정된 사용자 세트로 MFA를 롤아웃할 수 있는 [조건부 액세스 정책](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfa-getstarted#enable-multi-factor-authentication-with-conditional-access)을 통해 보조 인증 방법을 구성합니다. 사용자에게 MFA가 사용 중임을 알려, 로그인하려면 스마트폰을 필수적으로 사용해야 하는 등의 요구 사항을 이해하고 성공적으로 로그인할 수 있도록 해야 합니다. 
 
 자세한 내용은 [Multi-Factor Authentication 계획](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfa-getstarted)을 참조하세요.
 
@@ -51,7 +51,22 @@ MFA를 사용하도록 설정하고 사용자 계정 단위로 보조 인증 방
 
 중간 검사점으로 이 단계에 대한 [종료 조건](identity-exit-criteria.md#crit-identity-mfa)을 확인할 수 있습니다.
 
+<a name="identity-password-prot"></a>
+## <a name="prevent-bad-passwords"></a>잘못된 암호 방지
 
+*이 단계는 선택 사항이며, Microsoft 365 Enterprise E3 및 E5 버전에 적용됩니다.*
+
+사용자가 쉽게 확인할 수 있는 암호를 만들지 못하도록 하려면 전역 금지 암호 목록과 사용자가 지정한 선택적 사용자 지정 금지 암호 목록을 사용하는 Azure AD 암호 보호를 사용합니다. 예를 들어, 다음과 같이 조직에 맞는 조건을 지정할 수 있습니다.
+
+- 브랜드 이름
+- 제품 이름
+- 위치(예: 본사)
+- 회사 관련 내부 조건
+- 특정 회사 의미를 갖는 약어
+
+[클라우드](https://docs.microsoft.com/azure/active-directory/authentication/concept-password-ban-bad) 및 [온-프레미스 AD DS(Active Directory Domain Services)](https://docs.microsoft.com/azure/active-directory/authentication/concept-password-ban-bad-on-premises)에 대해 잘못된 암호를 금지할 수 있습니다.
+
+중간 검사점으로 이 단계에 대한 [종료 조건](identity-exit-criteria.md#crit-password-prot)을 확인할 수 있습니다.
 
 <a name="identity-ident-prot"></a>
 ## <a name="protect-against-credential-compromise"></a>자격 증명 손상으로부터 보호
@@ -64,8 +79,8 @@ Azure AD ID 보호를 사용하면 다음을 수행할 수 있습니다.
 
 |||
 |:---------|:---------|
-|조직의 ID에서 잠재적인 취약점 확인 및 해결|Azure AD는 기계 학습을 사용하여 로그인 및 로그인 후 활동과 같은 의심스러운 활동과 비정상적인 상태를 감지합니다. ID 보호는 이 데이터를 사용하여 보고서를 생성하며 사용자가 문제를 평가하고 조치를 취할 수 있도록 경고를 생성합니다.|
-|조직의 ID와 관련이 있는 의심스러운 동작을 감지하고 자동으로 대응|지정된 위험 수준에 도달했을 때 감지된 문제에 자동으로 대응하는 위험 기반 정책을 구성할 수 있습니다. 이러한 정책은 Azure Active Directory와 EMS(Enterprise Mobility + Security)에서 제공하는 다른 조건부 액세스 제어에 추가로 액세스를 자동으로 차단하거나 시정 조치(예: 암호 재설정, 후속 로그인에 다단계 인증 요구)를 취할 수 있습니다.|
+|조직의 ID에서 잠재적인 취약점 확인 및 해결|Azure AD는 기계 학습을 사용하여 로그인 및 로그인 후 활동과 같은 변칙 및 의심스러운 활동을 감지합니다. 이 데이터를 사용하여 Azure AD ID 보호는 문제를 평가하고 조치를 취하는 데 도움이 되는 보고서 및 경고를 생성합니다.|
+|조직의 ID와 관련이 있는 의심스러운 동작을 감지하고 자동으로 대응|지정된 위험 수준에 도달했을 때 검색된 문제에 자동으로 대응하는 위험 기반 정책을 구성할 수 있습니다. Azure AD 및 Microsoft Intune에서 제공하는 다른 조건부 액세스 제어 외에도, 이러한 정책은 액세스를 자동으로 차단하거나 암호 재설정을 포함하는 수정 조치를 취하고, 후속 로그인에 대해 Multi-Factor Authentication을 요구할 수 있습니다.|
 |의심스러운 사건을 조사하여 관리 작업으로 해결|보안 사건에 대한 정보를 사용하여 위험 이벤트를 조사할 수 있습니다. 기본 워크플로를 사용하여 조사를 추적하고 암호 재설정과 같은 수정 작업을 시작할 수 있습니다.|
 
 [Azure AD ID 보호에 대한 자세한 정보](https://docs.microsoft.com/azure/active-directory/active-directory-identityprotection)를 참조하세요.
@@ -106,8 +121,6 @@ Azure AD ID 보호를 사용하면 다음을 수행할 수 있습니다.
 보고서 및 보고서 액세스 방법에 대한 자세한 내용은 [Azure Active Directory 보고](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-azure-portal)를 참조하세요.
 
 이 단계를 마치면 이러한 보고서에 대해 알게 되고, 계획 및 보안을 위해 보고서를 사용하여 Azure AD 이벤트 및 활동에 대한 이해를 넓힐 수 있는 방법을 파악하게 됩니다.
-
-
 
 ## <a name="next-step"></a>다음 단계
 
