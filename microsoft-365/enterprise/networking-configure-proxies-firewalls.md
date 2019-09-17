@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 신뢰할 수 있는 Office 365 위치로의 트래픽 바이패스를 위해 웹 브라우저 및 에 장치를 이해하고 구성합니다.
-ms.openlocfilehash: 416c93fd3f44e1cd9edba52a9d6117ac6d133760
-ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
+ms.openlocfilehash: fbc4956525e2661ce791c6ec81b449dba685d0f0
+ms.sourcegitcommit: 1ca1062ccddd7a46fa0bb4af6ee5f0eb141e7280
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/14/2019
-ms.locfileid: "36982789"
+ms.lasthandoff: 09/16/2019
+ms.locfileid: "36999042"
 ---
 # <a name="step-4-configure-traffic-bypass"></a>4단계: 트래픽 바이패스 구성
 
@@ -44,7 +44,7 @@ ms.locfileid: "36982789"
 - 
 - 에지 장치를 분석하여 중복 처리를 확인한 후, 처리하지 않고 최적화 및 허용 끝점으로 트래픽을 전달하도록 구성합니다. 이것을 트래픽 바이패스라고 합니다. 
 
-에지 장치에는 방화벽, SSL 중단 및 조사, 패킷 검사 장치, 데이터 손실 방지 시스템이 포함되어 있습니다. 에지 장치를 구성하고 구성을 업데이트하려면 스크립트 또는 REST 호출을 사용하여 Office 365 끝점 웹 서비스의 구조화된 끝점 목록을 사용할 수 있습니다. 자세한 내용은 [Office 365 IP 주소 및 URL 웹 서비스](https://docs.microsoft.com/office365/enterprise/office-365-ip-web-service)를 참조하세요.
+에지 장치에는 방화벽, SSL 중단 및 조사, 패킷 검사 장치, 데이터 손실 방지 시스템이 포함되어 있습니다. 에지 장치를 구성하고 구성을 업데이트하려면 스크립트 또는 REST 호출을 사용하여 Office 365 끝점 웹 서비스의 구조화된 끝점 목록을 사용할 수 있습니다. 자세한 내용은 [Office 365 IP 주소 및 URL 웹 서비스](https://docs.microsoft.com/ko-KR/office365/enterprise/office-365-ip-web-service#exporting-a-proxy-pac-file)를 참조하세요.
 
 Microsoft 365 최적화 및 허용 범주 끝점에 대한 트래픽의 일반 프록시 및 네트워크 보안 처리만 우회하게 됩니다. 다른 모든 일반 인터넷 트래픽은 프록시 처리되며, 기존 네트워크 보안 처리를 따릅니다.
 
