@@ -5,14 +5,13 @@ keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 설명서, 배포
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
-ms.date: 2/17/2019
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: bfa769cab9f8d812fa2533232f66b0d4f8a4edb7
-ms.sourcegitcommit: 427c6459614d58f6ef7c74354ae1816423e22323
+ms.openlocfilehash: 5b6a2756514e94cb4f96141d6e7c9f6f2a6dd7ff
+ms.sourcegitcommit: a4657a499967751d4c2dfc6cd1904258ab8be193
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "35390515"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "37040811"
 ---
 # <a name="deploy-and-track-configurable-settings---microsoft-managed-desktop"></a>구성 가능한 설정 배포 및 추적-Microsoft Managed Desktop
 
@@ -20,7 +19,7 @@ ms.locfileid: "35390515"
 
 ## <a name="deployment-statuses"></a>배포 상태 
 
-각 배포에 대해 볼 수 있는 동상입니다.
+각 배포에 대해 표시 되는 상태는 다음과 같습니다.
 
 상태  | 설명 
 --- | --- 
@@ -39,15 +38,13 @@ Failed | 그룹의 활성 장치 중 10%에서 변경이 실패 하 여 배포�
 1. [Microsoft Managed Desktop administration 포털](http://aka.ms/mwaasportal) 에 로그인
 2. **설정**아래에서 **보안 계정 구성**을 선택 합니다.
 3. **배포 상태** 작업 영역에서 배포할 설정을 선택 하 고 배포할 미리 구성 된 배포를 선택 합니다.
-4. 배포 **** 를 선택 하 여 배치 그룹 중 하나에 변경 내용을 배포 합니다.
+4. 배포 **를 선택 하** 여 배치 그룹 중 하나에 변경 내용을 배포 합니다.
 
-![구성 가능한 설정 배포 상태 개요](images/deploy-cs-overview.png)
-
-Microsoft Managed Desktop은 Test, First, Fast, 폭넓은 순서로 배포 그룹에 배포 하는 것이 좋습니다. 
+![구성 가능한 설정 배포 상태](images/1deployedit.png) 개요 Microsoft Managed Desktop은 Test, First, Fast, 폭넓은 순서로 배포 그룹에 배포할 것을 권장 합니다. 
 
 각 그룹에서 변경 내용이 완료 되 면 상태가 **완료**로 변경 됩니다.
 
-![구성 가능한 설정 배포 완료](images/config-setting-complete.png)
+![구성 가능한 설정 배포 완료](images/2completeedit.png)
 
 ## <a name="revert-deployment"></a>배포 되돌리기
 
@@ -61,7 +58,7 @@ Microsoft Managed Desktop은 Test, First, Fast, 폭넓은 순서로 배포 그�
 3. **배포 상태** 작업 영역에서 되돌리려는 설정을 선택 하 고 되돌릴 미리 구성 된 배포를 선택 합니다.
 4. **이 변경 내용을 되돌릴 필요성**에서 **배포 되돌리기를**선택 합니다.
 
-![구성 가능한 설정 배포 되돌리기](images/config-setting-revert.png) 
+![구성 가능한 설정 배포 되돌리기](images/3revert.png) 
 
 ## <a name="additional-resources"></a>추가 리소스
 - [구성 가능한 설정 개요](config-setting-overview.md)
