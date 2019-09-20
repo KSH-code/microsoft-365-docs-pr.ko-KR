@@ -3,7 +3,7 @@ title: Microsoft 365 Enterprise 개요
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 08/21/2019
+ms.date: 09/19/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: Microsoft 365 Enterprise의 구성 요소, 계획 및 배포 경로에 대해 소개 합니다.
-ms.openlocfilehash: b1750e1810556b8dadd4a16481c9ada3195f6c3c
-ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
+ms.openlocfilehash: f08682709cc47dc8fa6b4fcd48dc4511ff251ba1
+ms.sourcegitcommit: 78fa107271252d902e600196a75cfa746bca73e6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/14/2019
-ms.locfileid: "36982839"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "37050289"
 ---
 # <a name="microsoft-365-enterprise-overview"></a>Microsoft 365 Enterprise 개요
 
@@ -78,27 +78,27 @@ Microsoft 365 Entep76e3을 보유 하 고 있는 경우 다음과 같은 [제공
 
 이 두 페이지 포스터는 기존 인프라를 신속 하 게 인벤토리에 제공 하 고 Microsoft 365 Enterprise에서 해당 제품 또는 서비스로 이동 하기 위한 지침을 얻을 수 있는 방법입니다. 여기에는 Windows 및 Office 제품과 기타 인프라 및 보안 요소 (예: 장치 관리, id, 정보 및 위협 보호)가 포함 됩니다.
 
-[이 포스터를 다운로드](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf) 하 여 letter, legal 또는 tabloid (11 x 17) 형식으로 인쇄할 수 있습니다.
+또한 [이 포스터를 다운로드](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf) 하 여 letter, legal 또는 tabloid (11 x 17) 형식으로 인쇄할 수 있습니다.
 
-## <a name="avoid-end-of-support-for-office-2010-clients-and-servers-and-windows-7"></a>Office 2010 클라이언트 및 서버 및 Windows 7의 지원 종료 방지
+## <a name="avoid-end-of-support-for-windows-7-and-office-2010-clients-and-servers"></a>Windows 7 및 Office 2010 클라이언트 및 서버에 대 한 지원 종료 방지
 
-다음 제품은 **2010 년 1 월 14**일에 대 한 지원 종료에 도달 했습니다.
+다음 제품은 **2020 년 1 월 14**일에 대 한 지원 종료에 도달 했습니다.
 
 - [Windows 7](https://aka.ms/win7upgrade)
-- [Exchange Server 2010](https://docs.microsoft.com/office365/enterprise/exchange-2010-end-of-support)
 
 다음 제품은 **2020 년 10 월 13 일**에 지원 종료에 도달 했습니다.
 
 - [Office 2010](https://docs.microsoft.com/DeployOffice/office-2010-end-support-roadmap)
+- [Exchange Server 2010](https://docs.microsoft.com/office365/enterprise/exchange-2010-end-of-support)
 - [SharePoint Server 2010](https://docs.microsoft.com/office365/enterprise/upgrade-from-sharepoint-2010)
 
 이러한 제품의 업그레이드, 마이그레이션 및 클라우드 간 옵션에 대 한 자세한 요약을 보려면 [지원 종료 포스터](media/migration-microsoft-365-enterprise-workload/Office2010Windows7EndOfSupport.pdf)를 참조 하세요.
 
 [![Office 2010 클라이언트 및 서버 및 Windows 7 포스터에 대 한 지원 종료 이미지](./media/migration-microsoft-365-enterprise-workload/office2010-windows7-end-of-support.png)](media/migration-microsoft-365-enterprise-workload/Office2010Windows7EndOfSupport.pdf)
 
-이 한 페이지 포스터는 Office 2010 클라이언트 및 서버 제품 및 Windows 7의 지원 종료를 방지 하기 위해 수행할 수 있는 다양 한 경로를 이해 하는 빠른 방법 이며, Microsoft 365 Enterprise의 기본 설정 경로 및 옵션을 통해 강조 표시 됩니다.
+이 한 페이지 포스터는 Windows 7 및 Office 2010 클라이언트 및 서버 제품이 지원 종료에 도달 하지 못하도록 하는 데 사용할 수 있는 다양 한 경로를 이해 하는 빠른 방법 이며, Microsoft 365 Enterprise의 기본 설정 경로 및 지원을 통해 강조 표시 됩니다.
 
-[이 포스터를 다운로드](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/migration-microsoft-365-enterprise-workload/Office2010Windows7EndOfSupport.pdf) 하 여 letter, legal 또는 tabloid (11 x 17) 형식으로 인쇄할 수 있습니다.
+또한 [이 포스터를 다운로드](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/migration-microsoft-365-enterprise-workload/Office2010Windows7EndOfSupport.pdf) 하 여 letter, legal 또는 tabloid (11 x 17) 형식으로 인쇄할 수 있습니다.
 
 ## <a name="deploy"></a>배포
 
@@ -146,7 +146,7 @@ Microsoft 365 Enterprise의 제품, 기능 및 구성 요소를 배포 하는 �
 
 ## <a name="next-step"></a>다음 단계
 
-직접 배포를 수행 하는 경우 [Microsoft 365 엔터프라이즈 배포 여행을](deploy-microsoft-365-enterprise.md)시작 합니다.
+배포를 직접 수행 하는 경우 [Microsoft 365 엔터프라이즈 배포 여행을](deploy-microsoft-365-enterprise.md)시작 합니다.
 
 ## <a name="see-also"></a>참고 항목
 

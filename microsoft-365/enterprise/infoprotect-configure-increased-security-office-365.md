@@ -3,7 +3,7 @@ title: '3단계: Office 365에 대한 향상된 보안 구성'
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 04/10/2019
+ms.date: 09/19/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Microsoft 365에 대한 향상된 보안을 이해하고 구성하십시오.
-ms.openlocfilehash: 81c39eb6a51e7596a72721c72084f1f255f7f451
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: b51cb38a386292b79fdfe264c9d8a86973aa6325
+ms.sourcegitcommit: 63e35b846d964dde5919a08c2fe432e749e8eff6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34073638"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "37047281"
 ---
 # <a name="step-3-configure-increased-security-for-microsoft-365"></a>3단계: Office 365에 대한 향상된 보안 구성
 
@@ -28,14 +28,14 @@ ms.locfileid: "34073638"
 
 Microsoft 365 구독 및 해당 데이터가 시작되어 악의적인 위협으로부터 안전하게 보호되도록 다음을 구성하십시오.
 
-- [위협 관리 정책 조정](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security#tune-threat-management-policies-in-the-office-365-security--compliance-center)
+- [위협 관리 정책 조정](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security#tune-threat-management-policies-in-the-microsoft-365-security-center)
 - [추가 Exchange 온라인 테넌트 전체 설정](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security#configure-additional-exchange-online-tenant-wide-settings)
 - [SharePoint 관리 센터의 테넌트 전체 공유 정책](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security#configure-tenant-wide-sharing-policies-in-sharepoint-admin-center)
 - [Azure Active Directory(Azure AD)의 설정](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security#configure-settings-in-azure-active-directory)
 
 구성한 후에는 다음에서 보안 상태에 대한 정보를 얻을 수 있습니다.
 
-- [Microsoft 보안 센터의 대시보드 및 보고서](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security#view-dashboards-and-reports-in-the-security--compliance-center)
+- [Microsoft 보안 센터의 대시보드 및 보고서](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security#view-dashboards-and-reports-in-the-security-and-compliance-centers)
 - [Microsoft 보안 점수](https://docs.microsoft.com/office365/securitycompliance/microsoft-secure-score)
 
 추가 보안 기능은 [Office 365 ATP(Advanced Threat Protection)](https://docs.microsoft.com/office365/securitycompliance/office-365-atp)로, 다음을 통해 조직이 보다 안전하게 협업할 수 있도록 도와줍니다.

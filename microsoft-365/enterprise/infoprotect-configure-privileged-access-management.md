@@ -1,5 +1,5 @@
 ---
-title: '6 단계: Office 365에 대 한 권한이 부여 된 액세스 관리 구성'
+title: '7 단계: Office 365에 대 한 권한이 부여 된 액세스 관리 구성'
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -13,14 +13,14 @@ ms.collection:
 - M365-security-compliance
 ms.custom: ''
 description: Office 365에 대한 권한이 부여된 액세스 관리를 이해하고 구성합니다.
-ms.openlocfilehash: fdfb0bc69d1dc05cffd717951cb493995d2123d4
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: 7ed7a69b89a519895e62b78be4a27cfb7fff2f74
+ms.sourcegitcommit: 63e35b846d964dde5919a08c2fe432e749e8eff6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34072098"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "37047291"
 ---
-# <a name="step-6-configure-privileged-access-management-for-office-365"></a>6 단계: Office 365에 대 한 권한이 부여 된 액세스 관리 구성
+# <a name="step-7-configure-privileged-access-management-for-office-365"></a>7 단계: Office 365에 대 한 권한이 부여 된 액세스 관리 구성
 
 *이 단계는 선택 사항이며 Microsoft 365 Enterprise E5 및 Advanced Compliance 버전에만 적용됩니다.*
 
@@ -39,11 +39,13 @@ Office 365 권한이 부여된 액세스 관리를 사용하도록 설정하려�
 
 자세한 내용은 [Office 365의 권한이 부여된 액세스 관리](https://docs.microsoft.com/office365/securitycompliance/privileged-access-management-overview) 항목을 참조하세요.
 
-## <a name="results"></a>결과
 
-이 단계에서는 조직의 핵심 데이터 및 구성 설정에 대해 JIT(Just-In-Time) 액세스 제어를 사용하도록 설정하여 Office 365의 보안이 개선되었습니다.
+|||
+|:-------|:-----|
+|![Microsoft 클라우드의 테스트 랩 가이드](media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)|  테스트 랩 환경에서이 구성을 연습 하려면 [권한이 부여 된 액세스 관리 테스트 랩 가이드](privileged-access-microsoft-365-enterprise-dev-test-environment.md)를 참조 하세요. |
+|||
 
-중간 검사점으로 이 단계에 해당하는 [종료 조건](infoprotect-exit-criteria.md#crit-infoprotect-step6)을 확인하세요.
+중간 검사점으로 이 단계에 해당하는 [종료 조건](infoprotect-exit-criteria.md#crit-infoprotect-step7)을 확인하세요.
 
 ## <a name="next-step"></a>다음 단계
 
