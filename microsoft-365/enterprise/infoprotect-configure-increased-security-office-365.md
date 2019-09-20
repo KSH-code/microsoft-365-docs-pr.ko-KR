@@ -3,7 +3,7 @@ title: '3단계: Office 365에 대한 향상된 보안 구성'
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 04/10/2019
+ms.date: 09/19/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,50 +13,50 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Microsoft 365에 대한 향상된 보안을 이해하고 구성하십시오.
-ms.openlocfilehash: 81c39eb6a51e7596a72721c72084f1f255f7f451
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: b51cb38a386292b79fdfe264c9d8a86973aa6325
+ms.sourcegitcommit: 63e35b846d964dde5919a08c2fe432e749e8eff6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34073638"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "37047281"
 ---
-# <a name="step-3-configure-increased-security-for-microsoft-365"></a><span data-ttu-id="4e497-103">3단계: Office 365에 대한 향상된 보안 구성</span><span class="sxs-lookup"><span data-stu-id="4e497-103">Step 3: Configure increased security for Microsoft 365</span></span>
+# <a name="step-3-configure-increased-security-for-microsoft-365"></a><span data-ttu-id="63396-103">3단계: Office 365에 대한 향상된 보안 구성</span><span class="sxs-lookup"><span data-stu-id="63396-103">Step 3: Configure increased security for Microsoft 365</span></span>
 
-<span data-ttu-id="4e497-104">*이 단계는 필수 사항이며, Microsoft 365 Enterprise E3 및 E5 버전에 적용됩니다.*</span><span class="sxs-lookup"><span data-stu-id="4e497-104">*This step is required and applies to both the E3 and E5 versions of Microsoft 365 Enterprise*</span></span>
+<span data-ttu-id="63396-104">*이 단계는 필수 사항이며, Microsoft 365 Enterprise E3 및 E5 버전에 적용됩니다.*</span><span class="sxs-lookup"><span data-stu-id="63396-104">*This step is required and applies to both the E3 and E5 versions of Microsoft 365 Enterprise*</span></span>
 
 ![](./media/deploy-foundation-infrastructure/infoprotection_icon-small.png)
 
-<span data-ttu-id="4e497-105">Microsoft 365 구독 및 해당 데이터가 시작되어 악의적인 위협으로부터 안전하게 보호되도록 다음을 구성하십시오.</span><span class="sxs-lookup"><span data-stu-id="4e497-105">To ensure that your Microsoft 365 subscription and its data start off and remain secure from malicious threats, configure the following:</span></span>
+<span data-ttu-id="63396-105">Microsoft 365 구독 및 해당 데이터가 시작되어 악의적인 위협으로부터 안전하게 보호되도록 다음을 구성하십시오.</span><span class="sxs-lookup"><span data-stu-id="63396-105">To ensure that your Microsoft 365 subscription and its data start off and remain secure from malicious threats, configure the following:</span></span>
 
-- [<span data-ttu-id="4e497-106">위협 관리 정책 조정</span><span class="sxs-lookup"><span data-stu-id="4e497-106">Tune threat management policies</span></span>](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security#tune-threat-management-policies-in-the-office-365-security--compliance-center)
-- [<span data-ttu-id="4e497-107">추가 Exchange 온라인 테넌트 전체 설정</span><span class="sxs-lookup"><span data-stu-id="4e497-107">Additional Exchange Online tenant-wide settings</span></span>](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security#configure-additional-exchange-online-tenant-wide-settings)
-- [<span data-ttu-id="4e497-108">SharePoint 관리 센터의 테넌트 전체 공유 정책</span><span class="sxs-lookup"><span data-stu-id="4e497-108">Tenant-wide sharing policies in the SharePoint admin center</span></span>](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security#configure-tenant-wide-sharing-policies-in-sharepoint-admin-center)
-- [<span data-ttu-id="4e497-109">Azure Active Directory(Azure AD)의 설정</span><span class="sxs-lookup"><span data-stu-id="4e497-109">Settings in Azure Active Directory (Azure AD)</span></span>](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security#configure-settings-in-azure-active-directory)
+- [<span data-ttu-id="63396-106">위협 관리 정책 조정</span><span class="sxs-lookup"><span data-stu-id="63396-106">Tune threat management policies</span></span>](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security#tune-threat-management-policies-in-the-microsoft-365-security-center)
+- [<span data-ttu-id="63396-107">추가 Exchange 온라인 테넌트 전체 설정</span><span class="sxs-lookup"><span data-stu-id="63396-107">Additional Exchange Online tenant-wide settings</span></span>](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security#configure-additional-exchange-online-tenant-wide-settings)
+- [<span data-ttu-id="63396-108">SharePoint 관리 센터의 테넌트 전체 공유 정책</span><span class="sxs-lookup"><span data-stu-id="63396-108">Tenant-wide sharing policies in the SharePoint admin center</span></span>](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security#configure-tenant-wide-sharing-policies-in-sharepoint-admin-center)
+- [<span data-ttu-id="63396-109">Azure Active Directory(Azure AD)의 설정</span><span class="sxs-lookup"><span data-stu-id="63396-109">Settings in Azure Active Directory (Azure AD)</span></span>](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security#configure-settings-in-azure-active-directory)
 
-<span data-ttu-id="4e497-110">구성한 후에는 다음에서 보안 상태에 대한 정보를 얻을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4e497-110">Once configured, you can obtain information about your security status from:</span></span>
+<span data-ttu-id="63396-110">구성한 후에는 다음에서 보안 상태에 대한 정보를 얻을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="63396-110">Once configured, you can obtain information about your security status from:</span></span>
 
-- [<span data-ttu-id="4e497-111">Microsoft 보안 센터의 대시보드 및 보고서</span><span class="sxs-lookup"><span data-stu-id="4e497-111">Dashboards and reports in the Microsoft security Center</span></span>](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security#view-dashboards-and-reports-in-the-security--compliance-center)
-- [<span data-ttu-id="4e497-112">Microsoft 보안 점수</span><span class="sxs-lookup"><span data-stu-id="4e497-112">Microsoft Secure Score</span></span>](https://docs.microsoft.com/office365/securitycompliance/microsoft-secure-score)
+- [<span data-ttu-id="63396-111">Microsoft 보안 센터의 대시보드 및 보고서</span><span class="sxs-lookup"><span data-stu-id="63396-111">Dashboards and reports in the Microsoft security Center</span></span>](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security#view-dashboards-and-reports-in-the-security-and-compliance-centers)
+- [<span data-ttu-id="63396-112">Microsoft 보안 점수</span><span class="sxs-lookup"><span data-stu-id="63396-112">Microsoft Secure Score</span></span>](https://docs.microsoft.com/office365/securitycompliance/microsoft-secure-score)
 
-<span data-ttu-id="4e497-113">추가 보안 기능은 [Office 365 ATP(Advanced Threat Protection)](https://docs.microsoft.com/office365/securitycompliance/office-365-atp)로, 다음을 통해 조직이 보다 안전하게 협업할 수 있도록 도와줍니다.</span><span class="sxs-lookup"><span data-stu-id="4e497-113">An additional security feature is [Office 365 Advanced Threat Protection (ATP)](https://docs.microsoft.com/office365/securitycompliance/office-365-atp), which helps your organization collaborate more securely by:</span></span>
+<span data-ttu-id="63396-113">추가 보안 기능은 [Office 365 ATP(Advanced Threat Protection)](https://docs.microsoft.com/office365/securitycompliance/office-365-atp)로, 다음을 통해 조직이 보다 안전하게 협업할 수 있도록 도와줍니다.</span><span class="sxs-lookup"><span data-stu-id="63396-113">An additional security feature is [Office 365 Advanced Threat Protection (ATP)](https://docs.microsoft.com/office365/securitycompliance/office-365-atp), which helps your organization collaborate more securely by:</span></span>
 
-- <span data-ttu-id="4e497-114">전자 메일의 [링크](https://docs.microsoft.com/office365/securitycompliance/atp-safe-links) 및 [첨부파일](https://docs.microsoft.com/office365/securitycompliance/atp-safe-attachments) 보호</span><span class="sxs-lookup"><span data-stu-id="4e497-114">Protecting [links](https://docs.microsoft.com/office365/securitycompliance/atp-safe-links) and [attachments](https://docs.microsoft.com/office365/securitycompliance/atp-safe-attachments) in email.</span></span> 
-- <span data-ttu-id="4e497-115">Exchange 온라인 및 [SharePoint Online, 비즈니스용 OneDrive 및 Microsoft 팀의 파일](https://docs.microsoft.com/office365/securitycompliance/atp-for-spo-odb-and-teams)에 정보 도용 및 피싱 방지 기능 제공</span><span class="sxs-lookup"><span data-stu-id="4e497-115">Providing spoof intelligence and anti-phishing capabilities for email in Exchange Online and [files in SharePoint Online, OneDrive for Business, and Microsoft Teams](https://docs.microsoft.com/office365/securitycompliance/atp-for-spo-odb-and-teams).</span></span> 
+- <span data-ttu-id="63396-114">전자 메일의 [링크](https://docs.microsoft.com/office365/securitycompliance/atp-safe-links) 및 [첨부파일](https://docs.microsoft.com/office365/securitycompliance/atp-safe-attachments) 보호</span><span class="sxs-lookup"><span data-stu-id="63396-114">Protecting [links](https://docs.microsoft.com/office365/securitycompliance/atp-safe-links) and [attachments](https://docs.microsoft.com/office365/securitycompliance/atp-safe-attachments) in email.</span></span> 
+- <span data-ttu-id="63396-115">Exchange 온라인 및 [SharePoint Online, 비즈니스용 OneDrive 및 Microsoft 팀의 파일](https://docs.microsoft.com/office365/securitycompliance/atp-for-spo-odb-and-teams)에 정보 도용 및 피싱 방지 기능 제공</span><span class="sxs-lookup"><span data-stu-id="63396-115">Providing spoof intelligence and anti-phishing capabilities for email in Exchange Online and [files in SharePoint Online, OneDrive for Business, and Microsoft Teams](https://docs.microsoft.com/office365/securitycompliance/atp-for-spo-odb-and-teams).</span></span> 
 
-<span data-ttu-id="4e497-116">Office 365 ATP 에서만 Microsoft 365 Enterprise E5와 함께 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4e497-116">Office 365 ATP is only available with Microsoft 365 Enterprise E5.</span></span>
-
-|||
-|:-------|:-----|
-|![Microsoft 클라우드의 테스트 랩 가이드](media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)| [<span data-ttu-id="4e497-118">테스트 랩 가이드: 강화된 Microsoft 365 보안 구성</span><span class="sxs-lookup"><span data-stu-id="4e497-118">Test Lab Guide: Configure increased Microsoft 365 security</span></span>](increased-o365-security-microsoft-365-enterprise-dev-test-environment.md) |
-|||
-
-<span data-ttu-id="4e497-119">중간 검사점으로 이 단계에 해당하는 [종료 조건](infoprotect-exit-criteria.md#crit-infoprotect-step3)을 확인하세요.</span><span class="sxs-lookup"><span data-stu-id="4e497-119">As an interim checkpoint, see the [exit criteria](infoprotect-exit-criteria.md#crit-infoprotect-step3) corresponding to this step.</span></span>
-
-## <a name="next-step"></a><span data-ttu-id="4e497-120">다음 단계</span><span class="sxs-lookup"><span data-stu-id="4e497-120">Next step</span></span>
-
+<span data-ttu-id="63396-116">Office 365 ATP 에서만 Microsoft 365 Enterprise E5와 함께 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="63396-116">Office 365 ATP is only available with Microsoft 365 Enterprise E5.</span></span>
 
 |||
 |:-------|:-----|
-|![](./media/stepnumbers/Step4.png)|[<span data-ttu-id="4e497-121">WIP(Windows Information Protection) 구성</span><span class="sxs-lookup"><span data-stu-id="4e497-121">Configure Windows Information Protection</span></span>](infoprotect-deploy-windows-information-protection.md)|
+|![Microsoft 클라우드의 테스트 랩 가이드](media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)| [<span data-ttu-id="63396-118">테스트 랩 가이드: 강화된 Microsoft 365 보안 구성</span><span class="sxs-lookup"><span data-stu-id="63396-118">Test Lab Guide: Configure increased Microsoft 365 security</span></span>](increased-o365-security-microsoft-365-enterprise-dev-test-environment.md) |
+|||
+
+<span data-ttu-id="63396-119">중간 검사점으로 이 단계에 해당하는 [종료 조건](infoprotect-exit-criteria.md#crit-infoprotect-step3)을 확인하세요.</span><span class="sxs-lookup"><span data-stu-id="63396-119">As an interim checkpoint, see the [exit criteria](infoprotect-exit-criteria.md#crit-infoprotect-step3) corresponding to this step.</span></span>
+
+## <a name="next-step"></a><span data-ttu-id="63396-120">다음 단계</span><span class="sxs-lookup"><span data-stu-id="63396-120">Next step</span></span>
+
+
+|||
+|:-------|:-----|
+|![](./media/stepnumbers/Step4.png)|[<span data-ttu-id="63396-121">WIP(Windows Information Protection) 구성</span><span class="sxs-lookup"><span data-stu-id="63396-121">Configure Windows Information Protection</span></span>](infoprotect-deploy-windows-information-protection.md)|
 
 
