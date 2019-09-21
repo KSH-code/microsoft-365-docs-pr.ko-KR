@@ -3,7 +3,7 @@ title: '2단계: ID'
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 09/06/2019
+ms.date: 09/20/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -12,13 +12,13 @@ ms.collection:
 - M365-identity-device-management
 - Strat_O365_Enterprise
 ms.custom: ''
-description: Microsoft 365 Enterprise에 대한 ID 인프라를 배포하는 단계입니다.
-ms.openlocfilehash: 07f95a249912826b80e0654cac4063b3d5763267
-ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
+description: Microsoft 365 Enterprise에 대한 사용자의 ID 인프라를 배포하는 단계입니다.
+ms.openlocfilehash: 2d9ffcc5122b5a5dfc94fb007167655e879d6799
+ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/14/2019
-ms.locfileid: "36981956"
+ms.lasthandoff: 09/20/2019
+ms.locfileid: "37071697"
 ---
 # <a name="phase-2-identity"></a>2단계: ID
 
@@ -27,6 +27,8 @@ ms.locfileid: "36981956"
 Microsoft 365 Enterprise에서 적절히 계획되고 실행되는 ID 인프라는 인증된 사용자와 장치에서만 생산성 작업 및 데이터에 액세스할 수 있도록 하고 보안을 강화할 수 있는 방법을 제공합니다.
 
 Microsoft 365 Enterprise에 대한 인증과 ID 모델의 개요에 대한 비디오를 시청하십시오.
+
+<p> </p>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2Pjwu]
 
@@ -48,13 +50,12 @@ Microsoft 365 Enterprise에 대한 인증과 ID 모델의 개요에 대한 비�
 
 |||
 |:-------|:-----|
-|![](./media/stepnumbers/Step1.png)| [사용자 및 그룹 계획](identity-plan-users-groups.md) |
-|![](./media/stepnumbers/Step2.png)| [권한이 부여된 ID 보안](identity-designate-protect-admin-accounts.md) |
-|![](./media/stepnumbers/Step3.png)| [하이브리드 ID 구성](identity-azure-ad-connect.md) |
-|![](./media/stepnumbers/Step4.png)| [안전한 사용자 인증을 구성](identity-multi-factor-authentication.md) |
-|![](./media/stepnumbers/Step5.png)| [사용자에 대한 액세스 간소화](identity-password-reset.md) |
-|![](./media/stepnumbers/Step6.png)| [더 쉬운 관리를 위한 그룹 사용](identity-self-service-group-management.md) |
-|![](./media/stepnumbers/Step7.png)| [ID 거버넌스란 구성](identity-governance.md) |
+|![](./media/stepnumbers/Step1.png)| [전역 관리자 계정 생성 및 보호](identity-create-protect-global-admins.md) |
+|![](./media/stepnumbers/Step2.png)| [암호를 보호](identity-secure-your-passwords.md) |
+|![](./media/stepnumbers/Step3.png)| [사용자 로그인 보안 및 관리](identity-secure-user-sign-ins.md) |
+|![](./media/stepnumbers/Step4.png)| [사용자 계정 추가](identity-add-user-accounts.md) |
+|![](./media/stepnumbers/Step5.png)| [그룹을 사용하여 관리](identity-use-group-management.md) |
+|![](./media/stepnumbers/Step6.png)| [ID 거버넌스 구성](identity-configure-identity-governance.md) |
 
 이러한 단계를 완료했으면 이 단계에 대한 [종료 조건](identity-exit-criteria.md)으로 이동하여 Microsoft 365 Enterprise ID에 대한 필수 및 선택적 조건을 충족하는지 확인하세요.
 
@@ -80,4 +81,4 @@ Microsoft의 IT 전문가가 [ID와 보안 액세스를 관리하는 방법](htt
 
 |||
 |:-------|:-----|
-|![](./media/stepnumbers/Step1.png)| [사용자 및 그룹 계획](identity-plan-users-groups.md) |
+|![](./media/stepnumbers/Step1.png)| [전역 관리자 계정 생성 및 보호](identity-create-protect-global-admins.md) |
