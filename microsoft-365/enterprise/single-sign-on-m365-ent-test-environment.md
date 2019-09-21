@@ -16,12 +16,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: ''
 description: '요약: Microsoft 365 테스트 환경을 위한 Azure AD Seamless Single Sign-On을 구성하고 테스트합니다.'
-ms.openlocfilehash: 51543b595a0adf6bd0abcad8bc59be4dc8834e36
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: 4d62405bc500bdf0dec8aa8aa6639e0802aa232e
+ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34074138"
+ms.lasthandoff: 09/20/2019
+ms.locfileid: "37071567"
 ---
 # <a name="azure-ad-seamless-single-sign-on-for-your-microsoft-365-test-environment"></a>Microsoft 365 테스트 환경을 위한 Azure AD Seamless Single Sign-On
 
@@ -109,7 +109,7 @@ User1에 TESTLAB AD DS 도메인에 대한 도메인 관리자 권한이 있더�
 - Azure AD Connect는 Office 365 및 EMS E5 구독의 Azure AD 테넌트에 있는 계정 및 그룹 목록을 테스트 랩 AD DS 도메인과 동기화하기 위해 APP1에서 실행됩니다. 
 - Azure AD Seamless SSO는 시뮬레이트된 인트라넷의 컴퓨터가 사용자 계정 암호를 지정하지 않아도 Microsoft 365 클라우드 리소스에 로그온할 수 있도록 하기 위해 설정됩니다.
 
-프로덕션 환경에서 Azure AD Seamless SSO를 구성하기 위한 정보 및 단계에 대해서는 ID 단계의 [사용자 로그인 간소화](identity-password-reset.md#identity-sso) 단계를 참조하세요.
+프로덕션 환경에서 Azure AD Seamless SSO를 구성하기 위한 정보 및 단계에 대해서는 ID 단계의 [사용자 로그인 간소화](identity-secure-your-passwords.md#identity-sso) 단계를 참조하세요.
 
 ## <a name="next-step"></a>다음 단계
 

@@ -16,12 +16,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: ''
 description: '요약: Microsoft 365 테스트 환경을 위한 암호 재설정을 구성하고 테스트합니다.'
-ms.openlocfilehash: de025d6b54b3cc1b69c8e50fec428f58d7754dcb
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: 8be1e898d0b995ddbed7b63c2f0ce07c969592c8
+ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34073118"
+ms.lasthandoff: 09/20/2019
+ms.locfileid: "37071597"
 ---
 # <a name="password-reset-for-your-microsoft-365-test-environment"></a>Microsoft 365 테스트 환경을 위한 암호 재설정
 
@@ -85,7 +85,7 @@ Azure AD(Azure Active Directory)를 사용하면 사용자가 암호 또는 계�
 9. **Get back into your account(계정에 다시 접속)** 에서 사용자 2 계정에 대한 새 암호를 입력하고 **마침**을 클릭합니다. 사용자 2 계정의 변경된 암호를 적어 안전한 위치에 저장합니다.
 10. 동일한 브라우저의 별도 탭에서 [https://portal.office.com](https://portal.office.com)으로 이동한 후 사용자 2 계정 이름과 해당 새 암호로 로그인합니다. **Microsoft Office 홈** 페이지가 표시됩니다.
 
-프로덕션 환경에서 암호 재설정을 구성하기 위한 정보 및 단계에 대해서는 ID 단계의 [암호 재설정 간소화](identity-password-reset.md#identity-pw-reset) 단계를 참조하세요.
+프로덕션 환경에서 암호 재설정을 구성하기 위한 정보 및 단계에 대해서는 ID 단계의 [암호 재설정 간소화](identity-secure-your-passwords.md#identity-pw-reset) 단계를 참조하세요.
 
 ## <a name="next-step"></a>다음 단계
 

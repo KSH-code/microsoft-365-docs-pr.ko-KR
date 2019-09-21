@@ -12,12 +12,12 @@ manager: douge
 ms.collection: GDPR
 ms.workload:
 - multiple
-ms.openlocfilehash: 91ab1c1e23b2f4f9aab5c4327c29ac6cea52d080
-ms.sourcegitcommit: 0dde96d5864e5b16ea24cfb302930b041c7a8091
+ms.openlocfilehash: ce5ccb1961fe1751604b32bb5b37595b0884b395
+ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/24/2019
-ms.locfileid: "34431779"
+ms.lasthandoff: 09/20/2019
+ms.locfileid: "37071487"
 ---
 # <a name="azure-devops-services-data-subject-requests-for-the-gdpr"></a>GDPR에 대한 Azure DevOps Services 데이터 주체 요청
 
@@ -43,7 +43,7 @@ Microsoft는 Azure DevOps Services를 작동하고 개선하기 위해 사용자
 
 통제자는 Azure DevOps 서비스에 로그인하는 데 사용한 ID 공급자(MSA 또는 AAD)에 따라, 두 가지 방법 중 하나로 데이터 주체에서 수집된 고객 데이터 및 시스템 생성 로그를 내보낼 수 있습니다.
 
-- Azure 테넌트가 지원하는 계정(예를 들어, Azure 구독과 관련된 AAD 계정 또는 MSA 계정)을 사용하여 인증을 받는 사용자는 [GDPR에 대한 Azure 데이터 주체 요청](../compliance/gdpr-dsr-azure.md)의 지침을 따를 수 있습니다.
+- Azure 테넌트가 지원하는 계정(예를 들어, Azure 구독과 관련된 AAD 계정 또는 MSA 계정)을 사용하여 인증을 받는 사용자는 [GDPR에 대한 Azure 데이터 주체 요청](gdpr-dsr-azure.md)의 지침을 따를 수 있습니다.
 
 - MSA ID를 사용하여 인증을 받는 사용자는 이 [개인 정보 요청 사이트](https://www.microsoft.com/concern/privacyrequest-msa)를 사용하여 여러 Microsoft 서비스에서 MSA ID에 연결된 작업 데이터를 볼 수 있습니다. 이 시나리오에서는 사용자가 자신의 개인 데이터에 대한 통제자가 됩니다.
 

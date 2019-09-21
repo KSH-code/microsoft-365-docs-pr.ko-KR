@@ -16,12 +16,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: ''
 description: '요약: Microsoft 365 테스트 환경을 위한 암호 쓰기 저장을 구성합니다.'
-ms.openlocfilehash: 815021fe2fd33d242ea41bb29174047e852043db
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: 7a0574fbb06a6652943cad24325d8a063f38c832
+ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34073068"
+ms.lasthandoff: 09/20/2019
+ms.locfileid: "37071587"
 ---
 # <a name="password-writeback-for-your-microsoft-365-test-environment"></a>Microsoft 365 테스트 환경을 위한 암호 쓰기 저장
 
@@ -129,7 +129,7 @@ ms.locfileid: "34073068"
 - Azure AD Connect는 Office 365 및 EMS E5 구독의 Azure AD 테넌트에 있는 계정 및 그룹 목록을 테스트 랩 AD DS 도메인과 동기화하기 위해 APP1에서 실행됩니다. 
 - 암호 쓰기 저장 기능은 사용자가 간소화된 인트라넷에 연결하지 않고도 Azure AD를 통해 암호를 변경할 수 있도록 합니다.
 
-프로덕션 환경에서 암호 업데이트를 구성하기 위한 정보 및 단계에 대해서는 ID 단계의 [암호 쓰기 저장 간소화](identity-password-reset.md#identity-pw-writeback) 단계를 참조하세요.
+프로덕션 환경에서 암호 업데이트를 구성하기 위한 정보 및 단계에 대해서는 ID 단계의 [암호 쓰기 저장 간소화](identity-add-user-accounts.md#identity-pw-writeback) 단계를 참조하세요.
 
 ## <a name="next-step"></a>다음 단계
 
