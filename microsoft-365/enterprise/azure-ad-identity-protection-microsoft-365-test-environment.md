@@ -13,12 +13,12 @@ ms.custom:
 - TLG
 - Ent_TLGs
 description: Azure AD Id 보호를 구성 하 고 Microsoft 365 Enterprise 테스트 환경에서 현재 계정을 분석 합니다.
-ms.openlocfilehash: d267bb9dff94acfec46fa1275887f9cade2a7285
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: 97530dcec9c32882bbe3b66eb53eaa6d4668a838
+ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34074088"
+ms.lasthandoff: 09/20/2019
+ms.locfileid: "37071717"
 ---
 # <a name="azure-ad-identity-protection-for-your-microsoft-365-enterprise-test-environment"></a>Microsoft 365 Enterprise 테스트 환경에 대 한 Azure AD Id 보호
 
@@ -57,7 +57,7 @@ Microsoft 365 Enterprise 테스트 환경에서 Azure AD Id 보호를 설정 하
 
 추가 테스트 및 실험을 위해 [위험 이벤트 시뮬레이트](https://docs.microsoft.com/azure/active-directory/active-directory-identityprotection-playbook)를 참조 하세요.
 
-프로덕션 환경에서 Azure AD Id 보호를 배포 하는 방법에 대 한 자세한 내용은 Id 단계의 [자격 증명 손상 보호](identity-multi-factor-authentication.md#identity-ident-prot) 단계를 참조 하세요.
+프로덕션 환경에서 Azure AD Id 보호를 배포 하는 방법에 대 한 자세한 내용은 Id 단계의 [자격 증명 손상 보호](identity-secure-user-sign-ins.md#identity-ident-prot) 단계를 참조 하세요.
 
 ## <a name="next-step"></a>다음 단계
 
