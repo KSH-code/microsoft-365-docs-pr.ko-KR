@@ -13,12 +13,12 @@ ms.custom:
 - TLG
 - Ent_TLGs
 description: 다음 단계를 사용 하 여 Microsoft 365 Enterprise 테스트 환경에서 전역 관리자 계정을 보호 합니다.
-ms.openlocfilehash: 7a6f99ae1123b07618dea9910a0bdd993e36ca13
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: 457ac33aa2242dc4b25cd662bf233bb1599a6fec
+ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34074148"
+ms.lasthandoff: 09/20/2019
+ms.locfileid: "37071557"
 ---
 # <a name="protect-global-administrator-accounts-in-your-microsoft-365-enterprise-test-environment"></a>Microsoft 365 Enterprise 테스트 환경에서 전역 관리자 계정 보호
 
@@ -88,12 +88,12 @@ Microsoft 365 Enterprise 테스트 환경에서는 다음과 같은 두 가지 �
 7. **조건** 블레이드에서 **로그인 위험**을 클릭 하 고, **구성**에 대해 **예** 를 클릭 하 고, **높음** 및 **중간**을 차례로 클릭 한 다음 **선택** 및 **완료**를 클릭 합니다.
 8. **새** 블레이드의 **액세스 제어** 섹션에서 **부여**를 클릭 합니다.
 9. **허용** 블레이드에서 **액세스 차단을**클릭 한 다음 **선택을**클릭 합니다.
-10. **새** 블레이드에서 **정책을 사용 하도록 설정을**클릭 하 고 **만들기**를 클릭 합니다. ****
+10. **새** 블레이드에서 **정책을 사용 하도록 설정을**클릭 하 고 **만들기** **를 클릭** 합니다.
 11. **Azure portal** 및 **Microsoft 365 관리 센터** 탭을 닫습니다.
 
 첫 번째 정책을 테스트 하려면 로그 아웃 하 고 DedicatedAdmin 계정을 사용 하 여 로그인 합니다. 사용자 계정에서 MFA를 구성 하 라는 메시지가 표시 됩니다. 이는 첫 번째 정책을 적용 하는 것을 보여 줍니다.
 
-프로덕션에서 전역 관리자 계정을 보호 하는 방법에 대 한 자세한 내용은 Identity 단계에서 [전역 관리자 계정 보호](identity-designate-protect-admin-accounts.md#identity-global-admin) 단계를 참조 하세요.
+프로덕션에서 전역 관리자 계정을 보호 하는 방법에 대 한 자세한 내용은 Identity 단계에서 [전역 관리자 계정 보호](identity-create-protect-global-admins.md#identity-global-admin) 단계를 참조 하세요.
 
 ## <a name="next-step"></a>다음 단계
 
