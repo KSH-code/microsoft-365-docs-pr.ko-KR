@@ -3,7 +3,7 @@ title: '2단계: ID 인프라 종료 조'
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 09/06/2019
+ms.date: 09/20/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 구성이 ID 기반 서비스 및 인프라에 대한 Microsoft 365 Enterprise 조건을 충족하는지 확인합니다.
-ms.openlocfilehash: 4621c9e12519e39931fe8b883b3a8c446c39dae3
-ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
+ms.openlocfilehash: 880bfa2b71158a2fa5c64fb09af2e8a34428a7a8
+ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/14/2019
-ms.locfileid: "36981859"
+ms.lasthandoff: 09/20/2019
+ms.locfileid: "37071687"
 ---
 # <a name="phase-2-identity-infrastructure-exit-criteria"></a>2단계: ID 인프라 종료 조
 
@@ -28,16 +28,6 @@ ID 인프라가 다음과 같은 필수 조건 및 선택 요소에 확실히 �
 
 ID 인프라 관련 추가 권장 사항에 대해서는 [필수 구성 요소](https://docs.microsoft.com/microsoft-365-enterprise/identity-access-policies#prerequisites)를 참조하세요.
 
-<a name="crit-identity-user-groups"></a>
-## <a name="required-your-users-groups-and-group-memberships-have-been-created"></a>필수: 사용자, 그룹 및 그룹 구성원 만들기
-
-다음을 위해 사용자 계정 및 그룹을 만들어야 합니다.
-
-- 조직의 직원과 조직을 위해 일하거나 조직과 협력하는 공급업체, 계약자 및 파트너가 Azure AD(Active Directory)에서 해당 사용자 계정을 가질 수 있도록 하기 위해
-- Azure AD 그룹과 해당 구성원이 Microsoft 클라우드 서비스에 대한 보안 설정 프로비전, 자동 라이선스 등 다양한 목적으로 사용자 계정 및 다른 그룹을 포함하도록 하기 위해
-
-필요한 경우 [1단계](identity-plan-users-groups.md)를 통해 이 요구 사항을 충족할 수 있습니다.
-
 <a name="crit-identity-global-admin"></a>
 ## <a name="required-your-global-administrator-accounts-are-protected"></a>필수: 전역 관리자 계정 보호 
 
@@ -45,17 +35,17 @@ Microsoft 365 구독을 위반할 수 있는 공격자의 자격 증명 손상�
 
 이 요구 사항을 건너뛰면 전역 관리자 계정이 공격 받고 손상되기 쉽기 때문에 공격자가 시스템 전체 액세스 권한을 얻어 데이터를 수집 또는 삭제하거나 금품을 요구하기 위해 보유할 수 있습니다.
 
-필요한 경우 [2단계](identity-designate-protect-admin-accounts.md#identity-global-admin)를 통해 이 요구 사항을 충족할 수 있습니다.
+필요한 경우 [1단계](identity-create-protect-global-admins.md#identity-global-admin)를 통해 이 요구 사항을 충족할 수 있습니다.
 
 ### <a name="how-to-test"></a>테스트하는 방법
 
 다음 단계를 사용하여 전역 관리자 계정을 보호했는지 확인합니다.
 
-1. PowerShell 명령 프롬프트에서 다음 Azure Active Directory PowerShell for Graph 명령을 실행합니다. 전용 전역 관리자 계정 목록만 표시되어야 합니다.
+1. PowerShell 명령 프롬프트에서 다음의 Azure Active Directory PowerShell for Graph 명령을 실행하세요. 전담 전역 관리자 계정 목록만 표시됩니다.
    ```
    Get-AzureADDirectoryRole | where { $_.DisplayName -eq "Company Administrator" } | Get-AzureADDirectoryRoleMember | Ft DisplayName
    ```
-2. 1단계에서 각 계정을 사용하여 Office 365에 로그인합니다. 로그인할 때마다 다단계 인증 및 조직에서 사용 가능한 가장 강력한 형태의 보조 인증을 요구해야 합니다.
+2. 1단계의 각 계정을 사용하여 Office 365에 로그인 합니다. 로그인할 때마다 Azure 다단계 인증 및 조직에서 사용 가능한 가장 강력한 형태의 보조 인증을 요구해야 합니다.
 
 > [!Note]
 > 그래프 모듈용 Azure Active Directory PowerShell 설치 및 Office 365 로그인에 대한 지침은 [Office 365 PowerShell에 연결](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell)을 참조하세요.
@@ -69,17 +59,96 @@ Microsoft 365 구독을 위반할 수 있는 공격자의 자격 증명 손상�
 
 이 옵션을 건너뛰면 전역 관리자 계정이 지속적인 온라인 공격을 받을 수 있으며, 손상된 경우 공격자가 중요한 정보를 수집 또는 삭제하거나 금품을 요구하기 위해 보유할 수 있습니다.
 
-필요한 경우 [2단계](identity-designate-protect-admin-accounts.md#identity-pim)를 통해 이 옵션을 충족할 수 있습니다.
+필요한 경우 [1단계](identity-create-protect-global-admins.md#identity-pim)를 통해 이 옵션을 충족할 수 있습니다.
 
+<a name="crit-identity-pam"></a>
+## <a name="optional-you-have-configure-privileged-access-management-in-office-365"></a>선택 사항: Office 365에 권한이 부여된 액세스 관리를 구성해야 합니다.
+
+권한이 부여된 액세스를 사용하고 조직에서 하나 이상의 권한이 부여된 액세스 정책을 만들어내기 위해 [Office 365에서 권한이 부여된 액세스 관리 구성](https://docs.microsoft.com/office365/securitycompliance/privileged-access-management-configuration)의 정보를 사용하였습니다. 이러한 정책을 구성하고 중요한 데이터에 대한 액세스 또는 중요한 구성 설정에 대한 액세스를 위해 적기에 맞는 액세스가 활성화됩니다.
+
+필요한 경우 [1단계](identity-create-protect-global-admins.md#identity-pam)를 통해 이 요구 사항을 충족할 수 있습니다. 
+
+<a name="crit-password-prot"></a>
+## <a name="optional-azure-ad-password-protection-is-banning-the-use-of-weak-passwords"></a>선택 사항: Azure AD 암호 보호를 사용하면 취약한 암호의 사용을 방지할 수 있습니다.
+
+전역적으로 금지된 암호 및 선택적으로 사용자 지정 약관에 대해 [클라우드](https://docs.microsoft.com/azure/active-directory/authentication/concept-password-ban-bad) 및 [온-프레미스 AD DS(Active Directory Domain Services)](https://docs.microsoft.com/azure/active-directory/authentication/concept-password-ban-bad-on-premises)에서 잘못된 암호 금지를 사용하도록 설정해야 합니다.
+
+필요한 경우 [2단계](identity-secure-your-passwords.md#identity-password-prot)를 통해 이 옵션을 충족할 수 있습니다.
+
+<a name="crit-identity-pw-reset"></a>
+## <a name="optional-users-can-reset-their-own-passwords"></a>선택: 사용자가 자신의 암호를 재설정할 수 있음
+
+[Azure AD 셀프 서비스 암호 재설정 신속 배포](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-getting-started)를 사용하여 사용자에 대해 암호 재설정을 구성해야 합니다.
+
+이 조건을 충족하지 않으면 사용자가 계정 관리자에게 암호 재설정을 요청해야 하므로 추가 IT 관리 오버헤드가 발생합니다.
+
+필요한 경우 [2단계](identity-secure-your-passwords.md#identity-pw-reset)를 통해 이 옵션을 충족할 수 있습니다.
+
+<a name="crit-identity-sso"></a>
+## <a name="optional-users-can-sign-in-using-azure-ad-seamless-single-sign-on"></a>선택: 사용자가 Azure AD Seamless Single Sign-On을 사용하여 로그인할 수 있음
+
+조직에서 [Azure AD Connect: Seamless Single Sign-On](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-sso-quick-start)을 사용하도록 설정하여 사용자가 Office 365와 같은 클라우드 기반 응용 프로그램에 로그인하는 방법을 간소화해야 합니다.
+
+이 옵션을 건너뛰면 사용자가 Azure AD 테넌트를 사용하는 추가 응용 프로그램에 액세스할 때 자격 증명을 제공하라는 메시지가 표시될 수 있습니다.
+
+필요한 경우 [2단계](identity-secure-your-passwords.md#identity-sso)를 통해 이 옵션을 충족할 수 있습니다.
+
+<a name="crit-identity-custom-sign-in"></a>
+## <a name="optional-the-office-365-sign-in-screen-is-personalized-for-your-organization"></a>선택: Office 365 로그인 화면을 조직에 맞게 개인 설
+
+[로그인 및 액세스 패널 페이지에 회사 브랜딩을 추가](http://aka.ms/aadpaddbranding)하여 Office 365 로그인 페이지를 조직의 브랜딩을 추가해야 합니다.
+
+이 옵션을 건너뛰면 사용자에게 일반 Office 365 로그인 화면이 표시되므로 조직의 사이트에 로그인 중인지 확신하지 못할 수 있습니다.
+
+필요한 경우 [2단계](identity-secure-your-passwords.md#identity-custom-sign-in)를 통해 이 옵션을 충족할 수 있습니다.
+
+
+<a name="crit-identity-mfa"></a>
+## <a name="optional-azure-multi-factor-authentication-is-enabled-for-your-users"></a>선택 사항: 사용자에 대해 Azure 다단계 인증 사용
+
+[Azure 다단계 인증 계획](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfa-getstarted) 및 [조건부 액세스 정책](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfa-getstarted#enable-multi-factor-authentication-with-conditional-access)을 사용하여 사용자 계정에 대해 Azure MFA(Multi-Factor Authentication)를 사용하도록 설정해야 합니다.
+
+이 옵션을 건너뛰면 사용자 계정이 사이버 공격자에 의한 자격 증명 손상에 취약해집니다. 사용자 계정의 암호가 손상되면 관리자 역할과 같은 계정의 모든 리소스 및 기능을 공격자가 사용할 수 있습니다. 따라서 공격자가 내부 문서 및 기타 데이터를 복사 또는 삭제하거나 금품을 요구하기 위해 보유할 수 있습니다.
+
+필요한 경우 [3단계](identity-secure-user-sign-ins.md#identity-mfa)를 통해 이 옵션을 충족할 수 있습니다.
+
+### <a name="how-to-test"></a>테스트하는 방법
+
+1.  테스트 사용자 계정을 만들고 이 계정에 라이선스를 할당합니다. 
+2.  휴대폰에 문자 메시지를 보내는 등 실제 사용자 계정에 사용 중인 추가 인증 방법으로 테스트 사용자 계정에 대해 Azure 다단계 인증을 구성합니다. 
+3.  테스트 사용자 계정을 사용하여 Office 365 포털에 로그인합니다.
+4.  MFA에서 추가 인증 정보를 묻고 인증에 성공하는지 확인합니다. 
+5.  테스트 사용자 계정을 삭제합니다.
+
+<a name="crit-identity-ident-prot"></a>
+## <a name="optional-azure-ad-identity-protection-is-enabled-to-protect-against-credential-compromise-microsoft-365-enterprise-e5-only"></a>선택: Azure AD ID 보호를 사용하도록 설정하여 자격 증명 손상으로부터 보호(Microsoft 365 Enterprise E5만 해당)
+
+다음을 위해 Azure AD ID 보호를 사용하도록 설정해야 합니다.
+
+- 잠재적인 ID 취약점 해결
+- 가능한 자격 증명 손상 시도 감지
+- 지속적인 의심스러운 ID 사건 조사 및 해결
+
+이 옵션을 건너뛰면 자격 증명 손상 시도를 감지하거나 자동으로 차단할 수 없으며 ID 관련 보안 사건을 조사할 수 없습니다. 이 경우 잠재적으로 조직이 성공적인 자격 증명 손상에 취약해져 조직의 중요한 데이터가 위협에 노출될 수 있습니다.
+
+필요한 경우 [3단계](identity-secure-user-sign-ins.md#identity-ident-prot)를 통해 이 옵션을 충족할 수 있습니다.
+
+
+### <a name="how-to-test"></a>테스트하는 방법
+
+1. 초기 암호를 사용하여 테스트 사용자 계정을 만듭니다.
+2. [사용자가 Office 365에서 암호를 직접 다시 설정하도록 허용](https://docs.microsoft.com/office365/admin/add-users/let-users-reset-passwords) 단계를 사용하여 테스트 사용자 계정의 암호를 다시 설정합니다.
+3. 로그아웃했다가 재설정 암호를 사용하여 테스트 사용자 계정에 다시 로그인합니다.
+4. 테스트 사용자 계정을 삭제합니다.
 
 <a name="crit-identity-sync"></a>
-## <a name="required-users-and-groups-are-synchronized-with-azure-ad"></a>필수: 사용자 및 그룹을 Azure AD와 동기화
+## <a name="required-for-hybrid-identity-users-and-groups-are-synchronized-with-azure-ad"></a>하이브리드 ID에 필수: 사용자 및 그룹을 Azure AD와 동기화
 
 기존 온-프레미스 AD DS(Active Directory Domain Services)가 있는 경우 Azure AD Connect를 사용하여 온-프레미스 AD DS의 사용자 계정 및 그룹을 Azure AD 테넌트에 동기화해야 합니다.
 
 디렉터리 동기화를 사용하는 경우 사용자는 자신의 컴퓨터에 로그인하고 온-프레미스 리소스에 액세스하는 데 사용하는 것과 동일한 자격 증명을 통해 Office 365 및 다른 Microsoft 클라우드 서비스에 로그인할 수 있습니다.
 
-필요한 경우 [3단계](identity-azure-ad-connect.md#identity-sync)를 통해 이 요구 사항을 충족할 수 있습니다.
+필요한 경우, [4단계](identity-add-user-accounts.md#identity-sync)를 통해 이 요구 사항을 충족할 수 있습니다.
 
 이 요구 사항을 건너뛰면 다음 두 가지 사용자 계정 및 그룹 집합을 가지게 됩니다.
 
@@ -107,63 +176,11 @@ Microsoft 365 구독을 위반할 수 있는 공격자의 자격 증명 손상�
 
 이 옵션을 건너뛰면 클라우드 기반 ID 인프라의 상태를 보다 정확하게 평가할 수 있습니다.
 
-필요한 경우 [3단계](identity-azure-ad-connect.md#identity-sync-health)를 통해 이 옵션을 충족할 수 있습니다.
+필요한 경우 [4단계](identity-add-user-accounts.md#identity-sync-health)를 통해 이 옵션을 충족할 수 있습니다.
 
 ### <a name="how-to-test"></a>테스트하는 방법
 Azure AD Connect Health 포털에는 온-프레미스 도메인 컨트롤러와 진행 중인 동기화의 현재 및 올바른 상태가 표시됩니다.
 
-<a name="crit-identity-mfa"></a>
-## <a name="optional-multi-factor-authentication-is-enabled-for-your-users"></a>선택: 사용자에 대해 다단계 인증 사용
-
-[다단계 인증 계획](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfa-getstarted) 및 [조건부 액세스 정책](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfa-getstarted#enable-multi-factor-authentication-with-conditional-access)을 사용하여 사용자 계정에 대해 MFA(Multi-Factor Authentication)를 사용하도록 설정해야 합니다.
-
-이 옵션을 건너뛰면 사용자 계정이 사이버 공격자에 의한 자격 증명 손상에 취약해집니다. 사용자 계정의 암호가 손상되면 관리자 역할과 같은 계정의 모든 리소스 및 기능을 공격자가 사용할 수 있습니다. 따라서 공격자가 내부 문서 및 기타 데이터를 복사 또는 삭제하거나 금품을 요구하기 위해 보유할 수 있습니다.
-
-필요한 경우 [4단계](identity-multi-factor-authentication.md#identity-mfa)를 통해 이 옵션을 충족할 수 있습니다.
-
-### <a name="how-to-test"></a>테스트하는 방법
-
-1.  테스트 사용자 계정을 만들고 이 계정에 라이선스를 할당합니다. 
-2.  휴대폰에 문자 메시지를 보내는 등 실제 사용자 계정에 사용 중인 추가 인증 방법으로 테스트 사용자 계정에 대해 다단계 인증을 구성합니다. 
-3.  테스트 사용자 계정을 사용하여 Office 365 포털에 로그인합니다.
-4.  MFA에서 추가 인증 정보를 묻고 인증에 성공하는지 확인합니다. 
-5.  테스트 사용자 계정을 삭제합니다.
-
-<a name="crit-password-prot"></a>
-## <a name="optional-azure-ad-password-protection-is-banning-the-use-of-weak-passwords"></a>선택: Azure AD 암호 보호를 사용하면 취약한 암호의 사용을 방지할 수 있습니다.
-
-전역적으로 금지된 암호 및 선택적으로 사용자 지정 약관에 대해 [클라우드](https://docs.microsoft.com/azure/active-directory/authentication/concept-password-ban-bad) 및 [온-프레미스 AD DS(Active Directory Domain Services)](https://docs.microsoft.com/azure/active-directory/authentication/concept-password-ban-bad-on-premises)에서 잘못된 암호 금지를 사용하도록 설정해야 합니다.
-
-필요한 경우 [4단계](identity-multi-factor-authentication.md#identity-password-prot)를 통해 이 옵션을 충족할 수 있습니다.
-
-<a name="crit-identity-ident-prot"></a>
-## <a name="optional-azure-ad-identity-protection-is-enabled-to-protect-against-credential-compromise-microsoft-365-enterprise-e5-only"></a>선택: Azure AD ID 보호를 사용하도록 설정하여 자격 증명 손상으로부터 보호(Microsoft 365 Enterprise E5만 해당)
-
-다음을 위해 Azure AD ID 보호를 사용하도록 설정해야 합니다.
-
-- 잠재적인 ID 취약점 해결
-- 가능한 자격 증명 손상 시도 감지
-- 지속적인 의심스러운 ID 사건 조사 및 해결
-
-이 옵션을 건너뛰면 자격 증명 손상 시도를 감지하거나 자동으로 차단할 수 없으며 ID 관련 보안 사건을 조사할 수 없습니다. 이 경우 잠재적으로 조직이 성공적인 자격 증명 손상에 취약해져 조직의 중요한 데이터가 위협에 노출될 수 있습니다.
-
-필요한 경우 [4단계](identity-multi-factor-authentication.md#identity-ident-prot)를 통해 이 옵션을 충족할 수 있습니다.
-
-<a name="crit-identity-pw-reset"></a>
-## <a name="optional-users-can-reset-their-own-passwords"></a>선택: 사용자가 자신의 암호를 재설정할 수 있음
-
-[Azure AD 셀프 서비스 암호 재설정 신속 배포](https://docs.microsoft.com/azure/active-directory/active-directory-passwords-getting-started)를 사용하여 사용자에 대해 암호 재설정을 구성해야 합니다.
-
-이 조건을 충족하지 않으면 사용자가 계정 관리자에게 암호 재설정을 요청해야 하므로 추가 IT 관리 오버헤드가 발생합니다.
-
-필요한 경우 [5단계](identity-password-reset.md#identity-pw-reset)를 통해 이 옵션을 충족할 수 있습니다.
-
-### <a name="how-to-test"></a>테스트하는 방법
-
-1. 초기 암호를 사용하여 테스트 사용자 계정을 만듭니다.
-2. [사용자가 Office 365에서 암호를 직접 다시 설정하도록 허용](https://docs.microsoft.com/office365/admin/add-users/let-users-reset-passwords) 단계를 사용하여 테스트 사용자 계정의 암호를 다시 설정합니다.
-3. 로그아웃했다가 재설정 암호를 사용하여 테스트 사용자 계정에 다시 로그인합니다.
-4. 테스트 사용자 계정을 삭제합니다.
 
 <a name="crit-identity-pw-writeback"></a>
 ## <a name="optional-password-writeback-is-enabled-for-your-users"></a>선택: 사용자에 대해 암호 쓰기 저장 사용
@@ -172,7 +189,7 @@ Azure AD Connect Health 포털에는 온-프레미스 도메인 컨트롤러와 
 
 이 옵션을 건너뛰면 온-프레미스 네트워크에 연결되지 않은 사용자가 IT 관리자를 통해 AD DS 암호를 다시 설정하거나 잠금을 해제해야 합니다.
 
-필요한 경우 [5단계](identity-password-reset.md#identity-pw-writeback)를 통해 이 옵션을 충족할 수 있습니다.
+필요한 경우 [4단계](identity-add-user-accounts.md#identity-pw-writeback)를 통해 이 옵션을 충족할 수 있습니다.
 
 >[!Note]
 >암호 쓰기 저장은 Azure AD에서 계정 손상의 높은 위험을 감지한 경우 사용자에게 온-프레미스 암호를 변경하도록 요구하는 등 Azure AD ID 보호 기능을 최대한 활용하기 위해 필요합니다.
@@ -188,27 +205,10 @@ Office 365에서 암호를 변경하여 암호 쓰기 저장을 테스트합니�
 4. 현재 암호와 새 암호를 차례로 입력하고 확인합니다.
 5. Office 포털과 원격 컴퓨터에서 로그아웃한 다음 테스트 사용자 계정과 새 암호를 사용하여 컴퓨터에 로그인합니다. 이는 Azure AD 테넌트를 사용하여 온-프레미스 AD DS 사용자 계정의 암호를 변경할 수 있음을 입증합니다.
 
-<a name="crit-identity-sso"></a>
-## <a name="optional-users-can-sign-in-using-azure-ad-seamless-single-sign-on"></a>선택: 사용자가 Azure AD Seamless Single Sign-On을 사용하여 로그인할 수 있음
-
-조직에서 [Azure AD Connect: Seamless Single Sign-On](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-sso-quick-start)을 사용하도록 설정하여 사용자가 Office 365와 같은 클라우드 기반 응용 프로그램에 로그인하는 방법을 간소화해야 합니다.
-
-이 옵션을 건너뛰면 사용자가 Azure AD 테넌트를 사용하는 추가 응용 프로그램에 액세스할 때 자격 증명을 제공하라는 메시지가 표시될 수 있습니다.
-
-필요한 경우 [5단계](identity-password-reset.md#identity-sso)를 통해 이 옵션을 충족할 수 있습니다.
-
-<a name="crit-identity-custom-sign-in"></a>
-## <a name="optional-the-office-365-sign-in-screen-is-personalized-for-your-organization"></a>선택: Office 365 로그인 화면을 조직에 맞게 개인 설
-
-[로그인 및 액세스 패널 페이지에 회사 브랜딩을 추가](http://aka.ms/aadpaddbranding)하여 Office 365 로그인 페이지를 조직의 브랜딩을 추가해야 합니다.
-
-이 옵션을 건너뛰면 사용자에게 일반 Office 365 로그인 화면이 표시되므로 조직의 사이트에 로그인 중인지 확신하지 못할 수 있습니다.
-
-필요한 경우 [5단계](identity-password-reset.md#identity-custom-sign-in)를 통해 이 옵션을 충족할 수 있습니다.
-
 ### <a name="how-to-test"></a>테스트하는 방법
 
-사용자 계정 이름과 다단계 인증을 사용하여 Office 365 포털에 로그인합니다. 로그인 페이지에 사용자 지정 브랜딩 요소가 표시되어야 합니다.
+사용자 계정 이름과 Azure 다단계 인증을 사용하 여 Office 365 포털에 로그인합니다. 로그인 페이지에서 사용자 지정 브랜드 요소를 확인할 수 있습니다.
+
 
 <a name="crit-identity-self-service-groups"></a>
 ## <a name="optional-self-service-group-management-is-enabled-for-specific-azure-ad-security-and-office-365-groups"></a>선택: 특정 Azure AD 보안 및 Office 365 그룹에 대해 셀프 서비스 관리 사용
@@ -217,7 +217,7 @@ Office 365에서 암호를 변경하여 암호 쓰기 저장을 테스트합니�
 
 이 옵션을 건너뛰면 모든 Azure AD 그룹 관리 작업을 IT 관리자가 수행해야 합니다.
 
-필요한 경우 [6단계](identity-self-service-group-management.md#identity-self-service-groups)를 통해 이 옵션을 충족할 수 있습니다.
+필요한 경우 [5단계](identity-use-group-management.md#identity-self-service-groups)를 통해 이 옵션을 충족할 수 있습니다.
 
 ### <a name="how-to-test"></a>테스트하는 방법
 1.  Azure Portal을 통해 Azure AD에서 테스트 사용자 계정을 만듭니다.
@@ -241,7 +241,7 @@ Azure AD 동적 그룹 집합을 확인하고 [Azure Active Directory의 특성 
 
 영업 및 회계 그룹이 동적인 경우 사용자 계정의 부서 값만 변경해야 합니다.
 
-필요한 경우 [6단계](identity-self-service-group-management.md#identity-dyn-groups)를 통해 이 옵션을 충족할 수 있습니다.
+필요한 경우 [5단계](identity-use-group-management.md#identity-dyn-groups)를 통해 이 옵션을 충족할 수 있습니다.
 
 ### <a name="how-to-test"></a>테스트하는 방법
 
@@ -262,7 +262,7 @@ Microsoft 365 Enterprise 라이선스가 자동으로 할당되거나 할당 해
 - 액세스 권한을 부여하려는 새 사용자에게 라이선스를 할당합니다.
 - 더 이상 조직과 관련이 없거나 액세스 권한이 없는 사용자로부터 라이선스를 할당 해제합니다.
 
-필요한 경우 [6단계](identity-self-service-group-management.md#identity-group-license)를 통해 이 옵션을 충족할 수 있습니다.
+필요한 경우 [5단계](identity-use-group-management.md#identity-group-license)를 통해 이 옵션을 충족할 수 있습니다.
 
 ### <a name="how-to-test"></a>테스트하는 방법
 
@@ -273,6 +273,7 @@ Microsoft 365 Enterprise 라이선스가 자동으로 할당되거나 할당 해
 5. 사용자 계정의 속성을 검사하여 Microsoft 365 Enterprise 라이선스가 더 이상 할당되지 않았는지 확인합니다.
 6. 테스트 보안 그룹과 테스트 사용자 계정을 삭제합니다.
 
+
 <a name="crit-identity-access-reviews"></a>
 ## <a name="optional-access-reviews-configured-and-being-used-to-monitor-access"></a>선택: 액세스 검토를 구성하고 액세스를 모니터링하는 데 사용
 
@@ -282,7 +283,8 @@ Microsoft 365 Enterprise 라이선스가 자동으로 할당되거나 할당 해
 - [Azure AD 역할](https://docs.microsoft.com/azure/active-directory/privileged-identity-management/pim-how-to-start-security-review?toc=%2fazure%2factive-directory%2fgovernance%2ftoc.json)
 - [Azure 리소스 역할](https://docs.microsoft.com/azure/active-directory/privileged-identity-management/pim-resource-roles-start-access-review?toc=%2fazure%2factive-directory%2fgovernance%2ftoc.json)
 
-필요한 경우 [7단계](identity-governance.md#identity-access-reviews)를 통해 이 옵션을 충족할 수 있습니다.
+필요한 경우 [6단계](identity-configure-identity-governance.md#identity-access-reviews)를 통해 이 옵션을 충족할 수 있습니다.
+
 
 ## <a name="results-and-next-steps"></a>결과 및 다음 단계
 

@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 비 엔터프라이즈 조직용 Microsoft 365 Enterprise에 대해 간소화된 기본 인프라 단계를 살펴보겠습니다.
-ms.openlocfilehash: 8e2c254bf352baa14ff62dad500e5cdfa0af4563
-ms.sourcegitcommit: 639607bbf02bdedd3fa5cd7b0984b422fe6c874e
+ms.openlocfilehash: 37bbf04eafeb3adc63d9dd01d052376f98856df4
+ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/11/2019
-ms.locfileid: "35624636"
+ms.lasthandoff: 09/20/2019
+ms.locfileid: "37071737"
 ---
 # <a name="microsoft-365-enterprise-foundation-infrastructure-for-non-enterprises"></a>비 엔터프라이즈용 Microsoft 365 Enterprise 기본 인프라
 
@@ -63,9 +63,9 @@ ms.locfileid: "35624636"
 
 ### <a name="administrator-accounts"></a>관리자 계정
 
-강력한 암호와 MFA(다단계 인증)를 요구 하여 전역 관리자 사용자 계정을 보호할 수 있습니다. 자세한 내용은 [전역 관리자 계정 보호](identity-designate-protect-admin-accounts.md#protect-global-administrator-accounts)를 참조하세요.
+강력한 암호와 MFA(다단계 인증)를 요구하여 전역 관리자 사용자 계정을 보호할 수 있습니다. 자세한 내용은 [전역 관리자 계정 보호](identity-create-protect-global-admins.md#protect-global-administrator-accounts)를 참조하세요.
 
-조직에서 높은 수준의 보안을 요구하고 Microsoft 365 Enterprise E5를 사용하는 경우, Azure AD Privileged Identity Management를 사용하여 적시 관리자 액세스 권한을 활성화합니다. 자세한 내용은 [주문형 전역 관리자 설정](identity-designate-protect-admin-accounts.md#set-up-on-demand-global-administrators)을 참조하세요.
+조직에서 높은 수준의 보안을 요구하고 Microsoft 365 Enterprise E5를 사용하는 경우, Azure AD Privileged Identity Management를 사용하여 적시 관리자 액세스 권한을 활성화합니다. 자세한 내용은 [주문형 전역 관리자 설정](identity-create-protect-global-admins.md#identity-pim)을 참조하세요.
 
 ### <a name="recommendations-for-groups"></a>그룹에 대한 권장 사항
 
@@ -82,7 +82,7 @@ ms.locfileid: "35624636"
 
 ### <a name="hybrid-identity"></a>하이브리드 ID
 
-온-프레미스 AD DS 도메인이 있는 경우 도메인의 사용자 계정, 그룹 및 연락처 세트를 Microsoft 365 Enterprise 구독의 Azure AD 테넌트와 동기화해야 합니다. 엔터프라이즈 이외에는 서버에서 PHS(암호 해시 동기화)를 사용하여 Azure AD Connect를 구성합니다. 자세한 내용은 [ID 동기화](identity-azure-ad-connect.md)를 참조하세요.
+온-프레미스 AD DS 도메인이 있는 경우 도메인의 사용자 계정, 그룹 및 연락처 세트를 Microsoft 365 Enterprise 구독의 Azure AD 테넌트와 동기화해야 합니다. 엔터프라이즈 이외에는 서버에서 PHS(암호 해시 동기화)를 사용하여 Azure AD Connect를 구성합니다. 자세한 내용은 [ID 동기화](identity-add-user-accounts.md)를 참조하세요.
 
 ### <a name="more-secure-user-access-with-conditional-access-policies"></a>조건부 액세스 정책을 사용하여 더욱 안전한 사용자 액세스
 
@@ -135,16 +135,16 @@ Azure AD는 사용자 로그인의 조건을 평가 하고, 조건부 액세스 
 
 | 기능 | 사용 |
 |:------|:-----|
-| 셀프 서비스 그룹 관리 | IT 담당자가 아닌 그룹 소유자로 Azure AD 그룹 관리를 허용합니다. 자세한 내용은 [셀프 서비스 그룹 관리](identity-self-service-group-management.md#allow-users-to-create-and-manage-their-own-groups)를 참조하세요. |
-| 동적 그룹 구성원 자격 | 사용자 계정 속성(예: 부서 또는 국가)에 따라 Azure AD 그룹에서 사용자 계정의 자동 추가 또는 제거를 구성합니다. 자세한 내용은 [동적 그룹 구성원 자격](identity-self-service-group-management.md#set-up-dynamic-group-membership)을 참조하세요. |
-| 그룹 기반 라이선스 | 구성원 자격을 사용하여 사용자 계정에 라이선스를 자동으로 할당하거나 할당 취소합니다. 자세한 [내용은 그룹 기반 라이선스](identity-self-service-group-management.md#set-up-automatic-licensing) 를 참조 하세요. |
+| 셀프 서비스 그룹 관리 | IT 담당자가 아닌 그룹 소유자로 Azure AD 그룹 관리를 허용합니다. 자세한 내용은 [셀프 서비스 그룹 관리](identity-use-group-management.md#allow-users-to-create-and-manage-their-own-groups)를 참조하세요. |
+| 동적 그룹 구성원 자격 | 사용자 계정 속성(예: 부서 또는 국가)에 따라 Azure AD 그룹에서 사용자 계정의 자동 추가 또는 제거를 구성합니다. 자세한 내용은 [동적 그룹 구성원 자격](identity-use-group-management.md#set-up-dynamic-group-membership)을 참조하세요. |
+| 그룹 기반 라이선스 | 구성원 자격을 사용하여 사용자 계정에 라이선스를 자동으로 할당하거나 할당 취소합니다. 자세한 [내용은 그룹 기반 라이선스](identity-use-group-management.md#set-up-automatic-licensing) 를 참조 하세요. |
 |  |  |
 
 그룹 기반 라이선스를 사용하는 경우 Microsoft 365 Enterprise 라이선스가 할당된 사용자 계정 이름을 포함하도록 LICENSED라는 그룹을 만듭니다.
 
 ### <a name="monitor-user-access"></a>사용자 액세스 모니터링
 
-Microsoft 365 Enterprise E5를 사용하는 경우 AD Identity Protection을 사용하여 사용자 로그인에 대한 자격 증명 해킹을 모니터링하고 분석할 수 있습니다. 자세한 내용은 [자격 증명 해킹으로부터 보호](identity-multi-factor-authentication.md#protect-against-credential-compromise)를 참조하세요.
+Microsoft 365 Enterprise E5를 사용하는 경우 AD Identity Protection을 사용하여 사용자 로그인에 대한 자격 증명 해킹을 모니터링하고 분석할 수 있습니다. 자세한 내용은 [자격 증명 해킹으로부터 보호](identity-secure-user-sign-ins.md#protect-against-credential-compromise)를 참조하세요.
 
 ### <a name="your-configuration-so-far"></a>지금까지의 구성
 

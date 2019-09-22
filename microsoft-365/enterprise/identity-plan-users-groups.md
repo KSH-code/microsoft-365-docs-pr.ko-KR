@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 조직을 위해 일할 사용자 및 그룹 집합을 계획합니다.
-ms.openlocfilehash: 05b854c182b6f624cf143ed93920c344391ee416
-ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
+ms.openlocfilehash: ac7f5e56bae882e01c31cacee856f73b0ead772f
+ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/14/2019
-ms.locfileid: "36981809"
+ms.lasthandoff: 09/20/2019
+ms.locfileid: "37071637"
 ---
 # <a name="step-1-plan-for-users-and-groups"></a>1단계: 사용자 및 그룹 계획
 
@@ -79,9 +79,7 @@ Azure AD에서 사용자 및 그룹을 만든 후 다음을 수행할 수 있습
 - 조직의 직원과 조직을 위해 일하거나 조직과 협력하는 공급업체, 계약자 및 파트너에게 해당하는 Azure AD의 사용자 계정 목록
 - Microsoft 클라우드 서비스 보안 설정의 자동 라이선싱 프로비전을 위해 논리적 사용자 계정 및 기타 그룹 집합을 반영하는 Azure AD의 그룹 및 해당 구성원 집합
 
-중간 검사점으로 이 단계에 대한 [종료 조건](identity-exit-criteria.md#crit-identity-user-groups)을 확인할 수 있습니다.
-
-Azure AD 사용자 및 그룹을 만든 후에 라이선스를 할당을 시작하고 비즈니스용 OneDrive 또는 Exchange Online과 같은 생산성 작업을 사용할 수 있습니다.
+Azure AD 사용자 및 그룹을 만든 후에 라이선스 할당을 시작하고 비즈니스용 OneDrive 또는 Exchange Online과 같은 생산성 작업을 사용할 수 있습니다.
 
 ## <a name="next-step"></a>다음 단계
 
