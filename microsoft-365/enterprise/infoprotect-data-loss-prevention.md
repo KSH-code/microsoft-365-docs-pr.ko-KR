@@ -3,7 +3,7 @@ title: '5단계: Office 365 데이터 손실 방지 구성'
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 04/25/2019
+ms.date: 09/19/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Microsoft 365의 Office 365 데이터 손실 방지를 이해 및 배포
-ms.openlocfilehash: f6b9291a2965552837f989c98b32674f6093b383
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: dbe88885812e51b0daefa89dae123af5907c60a8
+ms.sourcegitcommit: 63e35b846d964dde5919a08c2fe432e749e8eff6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34073564"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "37047251"
 ---
 # <a name="step-5-configure-office-365-data-loss-prevention"></a>5단계: Office 365 데이터 손실 방지 구성
 
@@ -56,9 +56,8 @@ DLP 정책을 지정합니다.
 
 ## <a name="next-step"></a>다음 단계
 
-
 |||
 |:-------|:-----|
-|![](./media/stepnumbers/Step6.png)|[Office 365에 대한 권한 있는 액세스 관리 구성](infoprotect-configure-privileged-access-management.md)|
+|![](./media/stepnumbers/Step6.png)|[전자 메일 암호화 구성](infoprotect-email-encryption.md)|
 
 
