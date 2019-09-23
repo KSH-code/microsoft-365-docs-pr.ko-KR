@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 보안 SharePoint Online 팀 사이트 및 Microsoft Teams 팀을 만들어 가장 소중하고 중요한 디지털 자산을 저장합니다.
-ms.openlocfilehash: d056acc9598abc2b896c775e0979451f4961e3fb
-ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
+ms.openlocfilehash: 04984be44ddb2cc1aabc2032970f92e71899b268
+ms.sourcegitcommit: 63e35b846d964dde5919a08c2fe432e749e8eff6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/14/2019
-ms.locfileid: "36982759"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "37047345"
 ---
 # <a name="microsoft-teams-and-sharepoint-online-sites-for-highly-regulated-data"></a>높은 규제 대상 데이터에 대한 Microsoft Teams 및 SharePoint Online 사이트
 
@@ -145,7 +145,7 @@ Office 365 레이블의 디자인 고려 사항에 대해서는 [Office 365 분�
 - 사이트에서 사용되는 각 SharePoint 권한 수준에 대한 액세스 그룹을 만들고 채웁니다.
 - 격리된 팀 사이트를 만들고 구성합니다.
 
-### <a name="step-2-configure-the-site-for-an-office-365-retention-label-dlp-policy"></a>2단계: Office 365 보존 레이블 DLP 정책에 맞게 사이트 구성
+### <a name="step-2-configure-the-site-for-an-office-365-retention-label"></a>2단계: Office 365 보존 레이블에 맞게 사이트 구성
 
 [Office 365 레이블 및 DLP를 사용하여 SharePoint Online 파일 보호](https://docs.microsoft.com/office365/enterprise/protect-sharepoint-online-files-with-office-365-labels-and-dlp)의 지침에 따라 다음을 수행합니다.
 

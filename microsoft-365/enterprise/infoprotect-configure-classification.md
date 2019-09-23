@@ -3,7 +3,7 @@ title: '2단계: 사용자 환경에 대한 분류 구성'
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 04/25/2019
+ms.date: 09/19/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 조직에서 데이터를 분류하는 다양한 방법을 이해하고 구성합니다.
-ms.openlocfilehash: 483549e7eaa7f6b77b775cf35bda7b0f42834ad2
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: ca1b4aefca7ee63f1c8fe098c115fc4f0074d9f6
+ms.sourcegitcommit: 63e35b846d964dde5919a08c2fe432e749e8eff6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34072258"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "37047301"
 ---
 # <a name="step-2-configure-classification-for-your-environment"></a>2단계: 사용자 환경에 대한 분류 구성
 
@@ -63,16 +63,17 @@ Microsoft 365에 저장된 문서의 경우 Exchange 전자 메일, SharePoint O
 특정 유형의 문서 또는 특정 내용의 문서에 대해 보안을 보호하고 구현하는 부분에는 추가 보안을 적용 할 수 있도록 레이블이 표시되어 있습니다. Microsoft 365의 민감도 레이블을 사용하면 다음을 수행할 수 있습니다.
 
 - 암호화, 사용 권한 또는 워터 마크 추가와 같은 보호 설정을 적용합니다.
-- Microsoft Intune에서 엔드 포인트 보호를 사용하여 중요한 콘텐츠가 Windows를 실행하는 장치에서 조직을 밖으로 나가지 않도록 합니다. 
 - WIP (Windows 정보 보호) 엔드포인트 보호를 사용하여 콘텐츠가 Twitter 또는 Gmail과 같은 타사 앱으로 복사되거나 USB 드라이브와 같은 이동식 저장소로 복제되지 않도록합니다.
-- Microsoft Cloud App Security를 사용하여 타사 앱 및 서비스의 콘텐츠를 보호하세요. 
+- Microsoft CAS(Cloud App Security)를 사용하여 타사 앱 및 서비스의 콘텐츠를 보호하세요. 
 - 보호 설정을 사용하지 않고 콘텐츠를 분류합니다.
 
 민감도 레이블을 사용하는 경우 각 보안 및 정보 보호 수준에 대한 레이블을 구성해야 합니다. 예를 들어 다음에 대해 세 가지 민감도 레이블을 만듭니다.
 
 - 기준
 - 중요
-- 높은 규제
+- 매우 엄격한 규제
+
+SharePoint Online 사이트에 규제가 엄격한 데이터가 포함된 파일을 저장한 후 파일이 사이트를 나갈 경우 해당 사이트와 동일한 권한을 파일에 사용하려는 경우, 권한이 해당 사이트와 동일한 추가 민감도 레이블을 만들어야 합니다.
 
 자세한 내용은 이 [민감도 레이블 개요](https://docs.microsoft.com/office365/securitycompliance/sensitivity-labels)를 참조하세요.
 

@@ -3,7 +3,7 @@ title: '6단계: 정보 보호'
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 04/01/2019
+ms.date: 09/19/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Microsoft 365 Enterprise에 대한 정보 보호 인프라를 배포하는 단계입니다.
-ms.openlocfilehash: a00f61cbf2f8d00929a67dae6d401fd99014ec26
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: 3174790d1ee6c9ed05605dd1c3c75405e3eac42b
+ms.sourcegitcommit: 63e35b846d964dde5919a08c2fe432e749e8eff6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34073688"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "37047311"
 ---
 # <a name="phase-6-information-protection"></a>6단계: 정보 보호
 
@@ -43,14 +43,15 @@ ms.locfileid: "34073688"
 |![](./media/stepnumbers/Step3.png)|[Microsoft 365에 대한 향상된 보안 구성](infoprotect-configure-increased-security-office-365.md)|
 |![](./media/stepnumbers/Step4.png)|[WIP(Windows Information Protection) 구성](infoprotect-deploy-windows-information-protection.md)|
 |![](./media/stepnumbers/Step5.png)|[Office 365 데이터 손실 방지 구성](infoprotect-data-loss-prevention.md)|
-|![](./media/stepnumbers/Step6.png)|[Office 365에 대한 권한이 부여된 액세스 관리 구성](infoprotect-configure-privileged-access-management.md)|
-
+|![](./media/stepnumbers/Step6.png)|[전자 메일 암호화 구성](infoprotect-email-encryption.md)|
+|![](./media/stepnumbers/Step7.png)|[Office 365에 대한 권한이 부여된 액세스 관리 구성](infoprotect-configure-privileged-access-management.md)|
+|||
 
 이러한 단계를 완료했으면 이 단계에 대한 [종료 조건](infoprotect-exit-criteria.md)으로 이동하여 Microsoft 365 Enterprise에 대한 필수 및 선택적 조건을 충족하는지 확인하세요.
 
 ## <a name="how-microsoft-does-microsoft-365-enterprise"></a>Microsoft에서 Microsoft 365 Enterprise를 수행하는 방법
 
-Microsoft의 IT 전문가가 [Azure Information Protection을 사용하고 데이터를 보호](https://www.microsoft.com/en-us/itshowcase/deploying-and-managing-microsoft-365#primaryR9)하는 방법을 알아보세요.
+Microsoft의 IT 전문가가 [Azure Information Protection을 사용하고 데이터를 보호](https://www.microsoft.com/ko-KR/itshowcase/deploying-and-managing-microsoft-365#primaryR9)하는 방법을 알아보세요.
 
 ## <a name="how-contoso-did-microsoft-365-enterprise"></a>Contoso의 Microsoft 365 Enterprise 사용 방식
 
