@@ -60,10 +60,24 @@
 
 필요한 경우 [5단계](../infoprotect-data-loss-prevention.md)를 통해 이 요구 사항을 충족할 수 있습니다. 
 
-
 <a name="crit-infoprotect-step6"></a>
+### <a name="optional-email-encryption-is-configured"></a>선택 사항: 전자 메일 암호화가 구성되었습니다.
+
+조직에 필요한 대로 다음 전자 메일 암호화를 구성했습니다.
+
+|||
+|:-------|:-----|
+| **암호화 방법** | **발송한 이메일** |
+| [OME(Office 365 메시지 암호화)](https://docs.microsoft.com/Office365/SecurityCompliance/ome)  | 암호화를 사용하는 조직 외부 |
+| [IRM(정보 권한 관리)](https://docs.microsoft.com/office365/SecurityCompliance/information-rights-management-in-exchange-online) | 암호화와 권한을 모두 사용 |
+| [S/MIME(Secure/Multipurpose Internet Mail Extensions)](https://docs.microsoft.com/Exchange/policy-and-compliance/smime) | 공개 키 암호방식을 사용하여 암호화와 전자 서명을 모두 사용 |
+|||
+
+필요한 경우 [6단계](../infoprotect-email-encryption.md)를 통해 이 요구 사항을 충족할 수 있습니다.
+
+<a name="crit-infoprotect-step7"></a>
 ### <a name="optional-configure-privileged-access-management-in-office-365"></a>선택 사항: Office 365의 권한이 부여된 액세스 관리 구성
 
 권한이 부여된 액세스를 사용하고 조직에서 하나 이상의 권한이 부여된 액세스 정책을 만들어내기 위해 [Office 365에서 권한이 부여된 액세스 관리 구성](https://docs.microsoft.com/office365/securitycompliance/privileged-access-management-configuration)의 정보를 사용하였습니다. 이러한 정책을 구성하고 중요한 데이터에 대한 액세스 또는 중요한 구성 설정에 대한 액세스를 위해 적기에 맞는 액세스가 활성화됩니다.
 
-필요한 경우 [6단계](../infoprotect-configure-privileged-access-management.md)를 통해 이 요구 사항을 충족할 수 있습니다. 
+필요한 경우 [7단계](../infoprotect-configure-privileged-access-management.md)를 통해 이 요구 사항을 충족할 수 있습니다. 

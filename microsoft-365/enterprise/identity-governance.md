@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Azure AD 테넌트에 대한 ID 거버넌스를 이해하고 구성합니다.
-ms.openlocfilehash: a965b74afc680c2ff506e0fc2ddebc280ee312a1
-ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
+ms.openlocfilehash: 1c0eab574e5436dd0c88a0b46d1916281bcf0577
+ms.sourcegitcommit: 63e35b846d964dde5919a08c2fe432e749e8eff6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/14/2019
-ms.locfileid: "36982911"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "37047361"
 ---
 # <a name="step-7-configure-identity-governance"></a>7단계: ID 거버넌스 구성
 
@@ -31,9 +31,9 @@ Azure ID(Azure Active Directory)의 ID 거버넌스에 대한 자세한 내용�
 <a name="identity-access-reviews"></a>
 ## <a name="set-up-azure-ad-access-reviews"></a>Azure AD 액세스 검토 설정
 
-*이 단계는 선택 사항이며 Microsoft 365 Enterprise E5 버전에만 적용됩니다.*
+*이 단계는 선택사항이며 Microsoft 365 Enterprise E5 버전에만 적용됩니다.*
 
-이 단계에서는 Azure AD 액세스 검토를 설정하여 사용자의 액세스를 검토함으로써 올바른 사용자가 계속 액세스할 수 있도록 합니다. 예:
+이 단계에서는 Azure AD 액세스 검토를 설정하여 사용자의 액세스를 검토함으로써 올바른 사용자만 계속 액세스할 수 있도록 합니다. 예:
 
 - 새 직원이 조직에 들어오면 올바른 액세스 권한을 제공하여 생산적으로 작업할 수 있도록 해야 합니다.
 - 해당 직원이 다른 팀, 위치 또는 부서로 이동하게 되면 필요에 따라 이전 팀, 위치 또는 부서에 대한 액세스 권한이 제거되도록 해야 합니다.

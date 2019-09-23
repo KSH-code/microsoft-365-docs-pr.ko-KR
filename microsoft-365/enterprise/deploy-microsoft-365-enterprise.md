@@ -3,7 +3,7 @@ title: Microsoft 365 Enterprise 배포
 author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
-ms.date: 08/09/2019
+ms.date: 09/19/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 조직에서 Microsoft 365 Enterprise 배포하는 데 사용할 수 있는 리소스를 파악 합니다.
-ms.openlocfilehash: 896ac2ec0f9964344a416d583858e90a1a59e8fd
-ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
+ms.openlocfilehash: ce4b3dfeb3c13f68b0218f5aea5740b6dc5252d0
+ms.sourcegitcommit: 78fa107271252d902e600196a75cfa746bca73e6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/14/2019
-ms.locfileid: "36982076"
+ms.lasthandoff: 09/19/2019
+ms.locfileid: "37050279"
 ---
 # <a name="deploy-microsoft-365-enterprise"></a>Microsoft 365 Enterprise 배포
 
@@ -39,7 +39,7 @@ Microsoft 365 Enterprise를 배포하는 세 가지 기본 방법이 있습니�
 
 ## <a name="fasttrack-for-microsoft-365"></a>Microsoft 365에 대한 FastTrack
 
-FastTrack은 Microsoft 엔지니어들이 제공하는 지속적인 반복 가능한 혜택으로 - 일부 사용료로 이용가능 합니다. - 사용자의 속도에 맞춰 클라우드로 전환할 수 있도록 도와줍니다. 또한 FastTrack은 추가 서비스를 위해 자격을 갖춘 파트너에 대한 액세스를 제공합니다. 현재까지 40,000명 이상의 고객이 활성화된 FastTrack은 조직 전반에서 ROI를 극대화하고, 배포를 가속화 하며, 채택률을 높이는 데 도움이 됩니다. [Microsoft 365에 대한 FastTrack](https://fasttrack.microsoft.com/microsoft365)을 참조하십시오.
+FastTrack은 *구독에 포함되어 비용 없이 제공되는* 지속적이고 반복 사용 가능한 혜택으로, Microsoft 엔지니어가 사용자의 속도에 맞춰 클라우드로 전환할 수 있도록 제공하는 서비스입니다. 또한 FastTrack은 추가 서비스를 위해 자격을 갖춘 파트너에 대한 액세스를 제공합니다. 현재까지 40,000명 이상의 고객이 활성화된 FastTrack은 조직 전반에서 ROI를 극대화하고, 배포를 가속화 하며, 채택률을 높이는 데 도움이 됩니다. [Microsoft 365에 대한 FastTrack](https://fasttrack.microsoft.com/microsoft365)을 참조하십시오.
 
 FastTrack을 활용하여 Microsoft 365 Enterprise를 배포하려는 경우, FastTrack [Microsoft 365 배포 관리자](https://aka.ms/microsoft365setupguide)를 사용하여 기초 인프라 배포 및 설정 방법에 대한 지침을 사용할 수 있습니다. 이 페이지에 액세스하려면 Office 365 또는 Microsoft 365 테넌트에서 글로벌 관리자로 로그인해야 합니다.
 
@@ -77,9 +77,9 @@ Microsoft 365 Enterprise를 직접 배포하려면 다음을 수행할 수 있�
 
 Microsoft 365 Enterprise 또는 특정 제품 또는 기능을 처음 접하는 경우, 이해하기 쉬운 가장 좋은 방법 중 하나는 직접 구축하여 작동하는 것을 보는 것입니다.
 
-TLG(Test Lab Guides)를 통해 평가판 또는 유료 구독을 사용하여 단순하지만 대표적인 환경에서 인프라 또는 기능을 구성하는 단계를 더 간단하게 했습니다.
+TLG(Test Lab Guides)는 평가판 또는 유료 구독을 통해 단순하면서도 일반적인 테스트 환경에서 인프라 또는 기능을 구성할 수 있도록 단계별로 안내하므로, 이 서비스를 더 편리하게 이용할 수 있습니다.
 
-TLG를 사용하면 복잡한 구성, 워크로드 또는 종단 간 시나리오의 개념 증명을 직접 배우고 보여주며 사용자를 지정하거나 구축할 수 있습니다.
+TLG를 사용하면 복잡한 구성, 워크로드 또는 종단 간 시나리오의 PoC(개념 증명)를 직접 배우고 보여주며 사용자 지정하거나 빌드할 수 있습니다.
 
 자세한 내용은 [Microsoft 365 Enterprise 테스트 랩 가이드](m365-enterprise-test-lab-guides.md)를 참조하세요.
 
@@ -87,11 +87,11 @@ TLG를 사용하면 복잡한 구성, 워크로드 또는 종단 간 시나리�
 
 ## <a name="transition-your-entire-organization"></a>전체 조직 전환
 
-전체 조직을 Microsoft 365 Enterprise의 제품 및 서비스로 전환하는 방법을 더 잘 이해하려면 [Microsoft 365로 조직 전환](media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf)을 참조하세요.
+전체 조직을 Microsoft 365 Enterprise의 제품 및 서비스로 전환하는 방법을 더 자세히 보려면 [Microsoft 365로 조직 전환](media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf) 포스터를 참조하세요.
 
-[![조직을 Microsoft 365 포스터로 전환합니다.](./media/deploy-microsoft-365-enterprise/transition-org-to-m365.png)](media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf)
+[![조직을 Microsoft 365로 전환 포스터](./media/deploy-microsoft-365-enterprise/transition-org-to-m365.png)](media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf)
 
-이 두 페이지 포스터는 신속하게 기존 인프라를 인벤터리하여 Microsoft 365 Enterprise에서 해당 제품이나 서비스로 전환하는 방법에 대한 지침을 제공합니다. 여기에는 Windows와 Office 제품, 장치 관리, ID, 정보 및 위협 방지와 같은 기타 인프라 및 보안 요소가 포함됩니다.
+이 두 페이지 포스터는 신속하게 기존 인프라를 인벤터리하여 Microsoft 365 Enterprise에서 해당 제품이나 서비스로 전환하는 방법에 대한 지침을 제공합니다. Windows와 Office 제품, 디바이스 관리, ID, 정보 및 위협 방지와 같은 기타 인프라 및 보안 요소가 포함됩니다.
 
 [전환 포스터를 다운로드](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf)하고 편지형, 법률형 또는 타블로이드(11 x 17) 형식으로 인쇄할 수 있습니다.
 
