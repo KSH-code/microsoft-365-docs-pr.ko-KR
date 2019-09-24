@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: be5b6d90-3344-4c5e-bf40-5733eb845beb
 description: Windows AutoPilot를 사용 하 여 비즈니스를 위한 새 Windows 10 장치를 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: 9a70978156fb26ac3aad08f1758b7ee125067d38
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: ee4b4a9b06c08b8f9456822b680542665c27baf3
+ms.sourcegitcommit: 7690c8bfdea6e6d245cfa7c5b09b913b092cde0a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34072153"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "37121201"
 ---
 # <a name="use-the-step-by-step-guide-to-add-autopilot-devices-and-profile"></a>단계별 가이드를 사용하여 AutoPilot 장치 및 프로필 추가
 
@@ -41,7 +41,7 @@ Windows AutoPilot를 사용 하 여 비즈니스에 대 한 **새** windows 10 �
     
 ## <a name="use-the-setup-guide-to-create-devices-and-profiles"></a>설정 가이드를 사용하여 장치와 프로필 만들기
 
-![를 https://aka.ms/aboutM365preview가리키는 배너입니다.](media/m365admincenterchanging.png)
+[![레이블-관리 센터가 변경 중 이며 aka.ms/aboutM365preview에서 자세한 내용을 확인할 수 있습니다.](media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
 
 장치 그룹 또는 프로필을 아직 만들지 않은 경우 시작하는 가장 좋은 방법은 단계별 가이드를 사용하는 것이지만, 가이드를 사용하지 않고 [장치를 추가](create-and-edit-autopilot-devices.md)하고 [프로필을 할당](create-and-edit-autopilot-profiles.md)할 수도 있습니다. 
   

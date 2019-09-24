@@ -19,16 +19,16 @@ search.appverid:
 - MET150
 ms.assetid: c4db6caf-74df-4734-b1dd-53e371c7a3c3
 description: 'Microsoft 365 Business를 사용 하 여 Windows 10 장치를 초기화 하는 방법을 알아봅니다. '
-ms.openlocfilehash: 7cb7afdc947766598ef5385078a1b2cab87601dd
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: 12e0bdbab430654fb80baa0313e63b2493e5077e
+ms.sourcegitcommit: 7690c8bfdea6e6d245cfa7c5b09b913b092cde0a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34074473"
+ms.lasthandoff: 09/23/2019
+ms.locfileid: "37121181"
 ---
 # <a name="reset-windows-10-devices-to-their-factory-settings"></a>Windows 10 장치를 공장 설정으로 초기화
 
-![를 https://aka.ms/aboutM365preview가리키는 배너입니다.](media/m365admincenterchanging.png)
+[![레이블-관리 센터가 변경 중 이며 aka.ms/aboutM365preview에서 자세한 내용을 확인할 수 있습니다.](media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
 
 초기화하면 장치를 구매했을 때의 원래 설정으로 되돌아갑니다. 장치를 구매한 후 설치한 앱과 데이터가 모두 제거됩니다. Microsoft 365 Business를 사용하여 관리 중인 Windows 10 장치를 초기화할 수 있습니다.
   

@@ -104,43 +104,11 @@
 ## [권장 Exchange Online 액세스 정책](secure-email-recommended-policies.md)
 ## [권장 SharePoint Online 액세스 정책](sharepoint-file-access-policies.md)
 
-# [규정 준수 솔루션](../compliance/compliance-solutions-overview.md?toc=/microsoft-365/enterprise/toc.json)
-## [ISO — 권장 작업 계획](../compliance/iso-action-plan.md)
-## [NIST-권장 작업 계획](../compliance/nist-action-plan.md) 
-## [GDPR](../compliance/gdpr.md?toc=/microsoft-365/enterprise/toc.json)
+# [Microsoft 365 준수](../compliance/index.yml)
+# [Microsoft 365 보안](../security/index.yml)
 
-### [GDPR에 대 한 권장 작업 계획](../compliance/gdpr-action-plan.md)
-
-### [책임 준비 상태 검사 목록](../compliance/gdpr-arc.md)
-#### [Office 365](../compliance/gdpr-arc-Office365.md)
-#### [Azure](../compliance/gdpr-arc-Azure.md)
-#### [Dynamics 365](../compliance/gdpr-arc-Dynamics365.md)
-#### [Microsoft 지원 및 전문 서비스](../compliance/gdpr-arc-prof-services.md)
-
-
-### [정보 보호](../compliance/gdpr-information-protection.md?toc=/microsoft-365/enterprise/toc.json)
-
-### [데이터 주체 요청](../compliance/gdpr-data-subject-requests.md?toc=/microsoft-365/enterprise/toc.json)
-#### [Office 365](../compliance/gdpr-dsr-Office365.md?toc=/microsoft-365/enterprise/toc.json)
-#### [Azure](../compliance/gdpr-dsr-Azure.md?toc=/microsoft-365/enterprise/toc.json)
-#### [Intune](../compliance/gdpr-dsr-Intune.md?toc=/microsoft-365/enterprise/toc.json)
-#### [Dynamics 365](../compliance/gdpr-dsr-Dynamics365.md?toc=/microsoft-365/enterprise/toc.json)
-#### [Visual Studio 제품군](../compliance/gdpr-dsr-visual-studio-family.md?toc=/microsoft-365/enterprise/toc.json)
-#### [Azure DevOps Services](../compliance/gdpr-dsr-vsts.md?toc=/microsoft-365/enterprise/toc.json)
-#### [Microsoft 지원 및 전문 서비스](../compliance/gdpr-dsr-prof-services.md?toc=/microsoft-365/enterprise/toc.json)
-
-### [위반 알림](../compliance/gdpr-breach-notification.md?toc=/microsoft-365/enterprise/toc.json)
-#### [Office 365](../compliance/gdpr-breach-Office365.md?toc=/microsoft-365/enterprise/toc.json)
-#### [Azure](../compliance/gdpr-breach-Azure.md?toc=/microsoft-365/enterprise/toc.json)
-#### [Dynamics 365](../compliance/gdpr-breach-Dynamics365.md?toc=/microsoft-365/enterprise/toc.json)
-#### [Microsoft 지원 및 전문 서비스](../compliance/gdpr-breach-Microsoft-Support-Professional-Services.md?toc=/microsoft-365/enterprise/toc.json)
-
-### [데이터 보호 영향 평가](../compliance/gdpr-data-protection-impact-assessments.md)
-#### [Office 365](../compliance/gdpr-dpia-office365.md)
-#### [Azure](../compliance/gdpr-dpia-azure.md)
-#### [Dynamics](../compliance/gdpr-dpia-dynamics.md)
-#### [Microsoft 지원 및 전문 서비스](../compliance/gdpr-dpia-prof-services.md)
-
-### [Microsoft의 데이터 보호 관리자](../compliance/gdpr-data-protection-officer.md)
-
-# [보안 솔루션](../security/index.yml)
+# [엔터프라이즈 비즈니스 연속성 관리 (EBCM) (클라우드 서비스 포함)](ebcm-understanding-ebcm-with-cloud-services.md)
+## [고객 및 클라우드 파트너 EBCM 책임](ebcm-customer-and-cloud-partner-ebcm-responsibilities.md)
+## [Microsoft 365 클라우드 서비스 복구](ebcm-m365-service-resiliency.md)
+## [연속성 계획 개발](ebcm-developing-your-ebcm-plan.md)
+## [서비스 인시던트 완화 시나리오](ebcm-microsoft-365-mitigations.md)
