@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 민감도 레이블을 사용하여 사용자의 생산성 및 공동 작업 능력이 저하되지 않도록 하면서 중요한 콘텐츠를 분류 및 보호할 수 있습니다. 민감도 레이블을 사용하여 레이블이 지정된 콘텐츠에 대해 암호화 또는 워터마크와 같은 보호 설정을 적용할 수 있습니다.
-ms.openlocfilehash: f6239c9378b540dd1e3b512711a7184dc4f45774
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: d732303db1c2b138349a88fde45bd2aefb745c89
+ms.sourcegitcommit: 328b31f69663669b3c656b2e4db529f70d1c753e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088969"
+ms.lasthandoff: 09/25/2019
+ms.locfileid: "37148522"
 ---
 # <a name="overview-of-sensitivity-labels"></a>민감도 레이블 개요
 
@@ -38,13 +38,13 @@ ms.locfileid: "37088969"
 
 - Microsoft Cloud App Security를 사용하여 **타사 앱 및 서비스의 콘텐츠 보호** Cloud App Security를 사용하여 SalesForce, Box 또는 DropBox 등의 타사 앱 및 서비스에 있는 콘텐츠를 감지, 분류, 레이블 지정 및 보호할 수 있습니다. 타사 앱 또는 서비스가 민감도 레이블을 읽지 않고 지원하지 않더라도 문제가 되지 않습니다.
 
-- **민감도 레이블을 타사 앱 및 서비스로 확장.** Microsoft Information Protection SDK를 사용할 경우 Windows, Mac 및 Linux의 타사 앱은 민감도 레이블을 읽고 보호 설정을 적용할 수 있습니다. iOS 및 Android 앱도 곧 지원될 예정입니다.
+- **민감도 레이블을 타사 앱 및 서비스로 확장.** Microsoft Information Protection SDK를 사용할 경우 [이러한 플랫폼](https://docs.microsoft.com/ko-KR/information-protection/develop/overview#microsoft-information-protection-sdk)의 타사 앱은 민감도 레이블을 읽고 보호 설정을 적용할 수 있습니다.
 
 - **보호 설정을 사용하지 않고 콘텐츠 분류.** 콘텐츠가 사용 및 공유될 때 콘텐츠와 함께 유지 및 로밍되는 분류(예: 스티커)를 콘텐츠에 간단히 지정할 수 있습니다. 이러한 분류를 사용하여 중요한 콘텐츠에 대한 사용 현황 보고서를 생성하고 활동 데이터를 확인할 수 있습니다. 이 정보를 토대로, 나중에 언제든지 보호 설정을 적용하도록 선택할 수 있습니다.
     
 이러한 모든 경우에 Office 365에서 민감도 레이블은 올바른 콘텐츠에 대해 올바른 작업을 수행하는 데 도움이 될 수 있습니다. 민감도 레이블을 사용하여 조직의 데이터를 분류하고 해당 분류에 따라 보호 설정을 적용할 수 있습니다.
   
-**분류** > **민감도 레이블** 아래에 Microsoft 365 규정 준수 센터, Microsoft 365 보안 센터 또는 Office 365 보안 및 규정 준수 센터에서 민감도 레이블을 만듭니다. 민감도 레이블은 Azure Information Protection, Office 앱 및 Office 365 서비스에서 사용할 수 있습니다.
+**분류** > **민감도 레이블**에 준하여 Microsoft 365 규정 준수 센터, Microsoft 365 보안 센터 또는 Office 365 보안 및 준수 센터에서 민감도 레이블을 만듭니다. 이러한 민감도 레이블은 Azure Information Protection, Office 앱 및 Office 365 서비스에서 사용할 수 있습니다.
 
 Azure Information Protection 고객의 경우 다른 관리 센터에서 Azure Information Protection 레이블을 사용할 수 있으며 추가 또는 고급 구성을 수행하기로 선택한 경우 레이블이 Azure 포털과 동기화됩니다. **Azure Information Protection 레이블과 Office 365 민감도 레이블은 서로 완벽하게 호환됩니다.** 예를 들어, Azure Information Protection으로 분류된 콘텐츠가 있는 경우 콘텐츠를 재 분류하거나 레이블을 다시 지정할 필요가 없습니다. 
 
@@ -68,7 +68,7 @@ Office 앱에서 민감도 레이블은 전자 메일 또는 문서에서 단순
 
 민감도 레이블을 전자 메일이나 문서에 적용되면 해당 레이블의 보호 설정이 콘텐츠에 적용됩니다. 민감도 레이블을 사용하여 다음을 수행할 수 있습니다.
 
-- 전자 메일만 또는 전자 메일 및 문서 모두 **암호화**합니다. 어떤 사용자 또는 그룹이 어떤 작업을 얼마 동안 수행할 수 있는지를 선택할 수 있습니다. 예를 들어, 콘텐츠에 레이블이 지정된 후 조직 외부의 특정 도메인에 있는 사용자가 7일 동안만 콘텐츠를 검토할 수 있는 권한을 사용하도록 선택할 수 있습니다. 또는, 권한을 직접 할당하는 대신, 귀하의 사용자가 레이블을 할당할 때 콘텐츠에 권한을 할당하도록 허용할 수 있습니다. 자세한 내용은 [민감도 레이블에서 암호화를 사용하여 콘텐츠 액세스 제한](encryption-sensitivity-labels.md)을 참조하세요.
+- 전자 메일만 또는 전자 메일 및 문서 모두 **암호화** 어떤 사용자 또는 그룹이 어떤 작업을 얼마나 오래 수행할 수 있는지를 선택할 수 있습니다. 예를 들어 조직 외부의 특정 도메인에 있는 사용자가 콘텐츠에 레이블이 지정된 후 7일 동안 콘텐츠를 검토할 수 있는 권한을 갖도록 선택할 수 있습니다. 또는 직접 권한을 할당하는 대신 사용자가 레이블을 적용할 때 콘텐츠에 사용 권한을 할당할 수 있습니다. 자세한 내용은 [민감도 레이블에서 암호화를 사용하여 콘텐츠 액세스 제한](encryption-sensitivity-labels.md)을 참조하세요.
 
 - 레이블이 적용된 이메일 또는 문서에 사용자 지정 워터마크, 머리글 또는 바닥글을 추가하여 **콘텐츠를 표시**합니다. 워터마크는 이메일이 아닌 문서에만 적용되며 255자로 제한됩니다. 또한, 머리글과 바닥글은 1024자로 제한되는데, Excel에서는 문서에 다른 머리글 또는 바닥글 및 기타 요소가 포함되어 있는지 여부에 따 예외적으로 253자 이하로 제한됩니다.
 
@@ -259,7 +259,7 @@ CAS(Cloud App Security)를 사용하여 타사 앱 및 서비스의 콘텐츠 �
 
 민감도 레이블은 문서의 메타데이터에 일반 텍스트 형식으로 유지되므로 타사 앱 및 서비스에서 이러한 레이블이 포함된 콘텐츠의 식별 및 보호를 지원하도록 선택할 수 있습니다. 다른 앱 및 서비스의 지원도 항상 활장되고 있습니다.
 
-[Microsoft Information Protection SDK](https://docs.microsoft.com/information-protection/develop/)를 사용하여 타사 앱 및 서비스는 민감도 레이블 및 보호를 읽고 문서에 적용할 수 있습니다. 이 SDK는 Windows, Mac 및 Linux의 앱을 지원합니다. IOS 및 Android 앱도 곧 지원될 예정입니다.
+[Microsoft Information Protection SDK](https://docs.microsoft.com/information-protection/develop/)를 사용하여 타사 앱 및 서비스는 민감도 레이블을 읽고 문서 보호에 적용할 수 있습니다. SDK는 [이러한 플랫폼](https://docs.microsoft.com/ko-KR/information-protection/develop/overview#microsoft-information-protection-sdk)의 앱을 지원합니다.
 
 이 SDK를 사용하여 Office 앱, Office 365 서비스, Azure Information Protection 검사 기능, Microsoft Cloud App Security 및 일부 기타 파트너 솔루션 등의 다른 Microsoft Information Protection 앱 및 서비스를 사용하는 방식으로 콘텐츠에 레이블을 지정하고 콘텐츠를 보호할 수 있습니다. 예를 들어, [Adobe Acrobat의 민감도 레이블 지원](https://techcommunity.microsoft.com/t5/Azure-Information-Protection/Starting-October-use-Adobe-Acrobat-Reader-for-PDFs-protected-by/ba-p/262738)에 대해 알아보세요.
 

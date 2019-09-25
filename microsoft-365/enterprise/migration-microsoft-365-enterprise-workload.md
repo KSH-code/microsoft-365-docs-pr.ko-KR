@@ -2,7 +2,7 @@
 title: Microsoft 365 Enterprise로 마이그레이션
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 08/21/2019
+ms.date: 09/23/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -12,12 +12,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 조직 전체에서 Microsoft Office, Office 서버 및 Windows 버전을 Microsoft 365 Enterprise로 마이그레이션하는 프로세스를 단계별로 안내합니다.
-ms.openlocfilehash: 0def2f90a016c6d81f2c05bb3571646d97edf4ca
-ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
+ms.openlocfilehash: 2f5b1b077346e3225252ef25a4e9e685c4892a7c
+ms.sourcegitcommit: 328b31f69663669b3c656b2e4db529f70d1c753e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/14/2019
-ms.locfileid: "36982826"
+ms.lasthandoff: 09/25/2019
+ms.locfileid: "37148492"
 ---
 # <a name="migration-to-microsoft-365-enterprise"></a>Microsoft 365 Enterprise로 마이그레이션
 
@@ -30,7 +30,7 @@ Microsoft 365 Enterprise 통합 제품군의 비즈니스 가치를 최대화하
 - 장치의 Windows 7 및 Windows 8.1을 Windows 10 Enterprise로
 
 >[!Note]
->Windows 7은 2020년 1월 14일에 지원이 종료됩니다. 자세한 내용은 [여기](https://support.microsoft.com/help/4057281/windows-7-support-will-end-on-january-14-2020)를 클릭하세요.
+>Windows 7은 **2020년 1월 14일**에 지원이 종료됩니다. 자세한 내용은 [여기](https://support.microsoft.com/help/4057281/windows-7-support-will-end-on-january-14-2020)를 클릭하세요.
 >
 
 시간이 지나면서 조직에서 이러한 모든 마이그레이션을 완료하게 되면 Microsoft 365 Enterprise를 통해 조직의 팀워크와 창의성이 극대화되는 보안 통합형 [최신 작업 환경](https://www.microsoft.com/microsoft-365/blog/2018/04/27/making-it-simpler-with-a-modern-workplace/)에 더 가까워지게 됩니다. 
@@ -47,8 +47,9 @@ Microsoft 365 Enterprise 통합 제품군의 비즈니스 가치를 최대화하
 
 - 최신 보안 업데이트 및 지원 수정 프로그램으로 [업데이트](https://support.office.com/article/install-office-updates-2ab296f3-7f03-43a2-8e50-46de917611c5)할 수 있지만 경우에 따라 이 프로세스가 수동으로 수행되며 조직 전체 규모로 진행되지 않을 수도 있습니다.
 - Microsoft의 클라우드 기술을 활용하여 비즈니스의 디지털 혁신을 이룰 수 있도록 최적화되지 않았습니다.
+- 새로운 기능이 포함되어 있지 않습니다.
  
-Microsoft 365 Enterprise에는 Microsoft 365 Enterprise 라이선스로 사용할 수 있고 Microsoft 클라우드에서 설치 및 업데이트되는 Office 클라이언트 제품 버전인 Office 365 ProPlus가 포함되어 있습니다. 자세한 내용은 [엔터프라이즈의 Office 365 ProPlus 정보](https://docs.microsoft.com/deployoffice/about-office-365-proplus-in-the-enterprise)를 참조하세요.
+Microsoft 365 Enterprise에는 Microsoft 365 Enterprise 라이선스로 사용할 수 있고 Microsoft 클라우드에서 설치 및 업데이트되는 Office 클라이언트 제품 버전인 Office 365 ProPlus가 포함되어 있습니다.  Office 365 ProPlus에는 보안 업데이트와 최신 기능이 포함되어 있습니다. 자세한 내용은 [엔터프라이즈의 Office 365 ProPlus](https://docs.microsoft.com/deployoffice/about-office-365-proplus-in-the-enterprise)를 참조하세요.
 
 ### <a name="office-2007"></a>Office 2007
 
@@ -72,17 +73,19 @@ Office 2010을 실행하는 컴퓨터를 Office 2013 또는 Office 2016으로 �
 2. 컴퓨터에서 Office 2010 제거
 3. 개별적으로 또는 IT 롤아웃 작업과 함께 Office 365 ProPlus 설치. 자세한 내용은 [4단계: Office 365 ProPlus](office365proplus-infrastructure.md)를 참조하세요.
 
-Office 365 ProPlus는 업데이트를 자동으로 설치하고 Office 365의 클라우드 기반 서비스를 활용하여 향상된 보안 및 생산성을 누릴 수 있습니다.
+Office 365 ProPlus는 보안 및 새로운 기능 업데이트를 자동으로 설치하고 Microsoft 365의 클라우드 기반 서비스를 활용하여 향상된 보안 및 생산성을 누릴 수 있습니다.
 
 ### <a name="office-2013-and-office-2016"></a>Office 2013 및 Office 2016
 
-Office 2013 및 Office 2016 버전의 Office에 대한 지원 종료 로드맵은 아직 결정되지 않았습니다. 그러나 Office 2010과 같이 여전히 [업데이트를 설치](https://support.office.com/article/install-office-updates-2ab296f3-7f03-43a2-8e50-46de917611c5)해야 합니다. 이렇게 설치한 업데이트는 조직의 규모에 따라 전체적으로 확장되지 않을 수도 있습니다. Office 2013 또는 Office 2016의 최신 업데이트로 컴퓨터를 최신 상태로 유지하거나 컴퓨터를 Office 2013에서 Office 2016으로 업데이트하는 대신, 다음을 수행하는 것이 좋습니다.
+Office 2013 및 Office 2016 버전의 Office에 대한 지원 로드맵의 종료는 아직 확인되지 않았습니다. 그러나 Office 2010과 같이 [보안 업데이트를 설치](https://support.office.com/article/install-office-updates-2ab296f3-7f03-43a2-8e50-46de917611c5)해야 합니다. 이는 조직 규모에 따라 적절히 확장이 되지 않을 수 있습니다.
+
+Office 2013 또는 Office 2016용 최신 보안 업데이트로 컴퓨터를 계속 업데이트하거나 Office 2013에서 Office 2016로 컴퓨터를 업데이트하는 대신 다음 사항을 고려해 보세요.
 
 1. 사용자를 위한 Microsoft 365 라이선스 획득 및 할당
 2. 컴퓨터에서 Office 2013 또는 Office 2016을 제거합니다.
 3. 개별적으로 또는 IT 롤아웃 작업과 함께 Office 365 ProPlus 설치. 자세한 내용은 [4단계: Office 365 ProPlus](office365proplus-infrastructure.md)를 참조하세요.
 
-Office 365 ProPlus는 업데이트를 자동으로 설치하고 Office 365의 클라우드 기반 서비스를 활용하여 향상된 보안 및 생산성을 누릴 수 있습니다.
+Office 365 ProPlus는 보안 및 새로운 기능 업데이트를 자동으로 설치하고 Microsoft 365의 클라우드 기반 서비스를 활용하여 향상된 보안 및 생산성을 누릴 수 있습니다.
 
 ## <a name="migration-for-microsoft-office-server-products"></a>Microsoft Office 서버 제품에 대한 마이그레이션
 
@@ -93,7 +96,7 @@ Office 365 ProPlus는 업데이트를 자동으로 설치하고 Office 365의 �
 - Microsoft Teams와 같은 새로운 생산성 응용 프로그램이 포함되어 있지 않습니다.
 - Exchange Advanced Threat Protection과 같은 최신 보안 기능이 포함되어 있지 않습니다.
 
-Microsoft 365 Enterprise에는 온-프레미스 버전의 Office 서버 소프트웨어와 일부 같은 도구(예: 웹 브라우저 및 Outlook 클라이언트)를 사용하는 클라우드 기반 버전의 Office 서버 서비스가 포함되어 있는 Office 365가 들어 있습니다. 이러한 서비스는 IT 부서에서 개입하지 않아도 지속적으로 업데이트되므로 온-프레미스 서버를 유지 관리하고 업데이트하는 데 드는 시간이 절약됩니다. 이러한 서비스에는 Office 서버 소프트웨어에 없는 개선 기능도 포함되어 있습니다. 
+Microsoft 365 Enterprise에는 웹 브라우저 및 Outlook 클라이언트와 같은 온-프레미스 버전의 Office 서버 소프트웨어와 동일한 도구 중 일부를 사용하는 클라우드 기반 Office server 서비스 버전을 포함하는 Office 365이 포함되어 있습니다.  이러한 서비스는 IT 부서가 연관되지 않고도 보안을 위해 지속적으로 업데이트되므로 온-프레미스 서버를 유지 관리하고 업데이트하는 데 걸리는 시간이 절약됩니다. 이러한 서비스에는 Office 서버 소프트웨어에 없는 새로운 기능 향상 기능도 있습니다. 
 
 ### <a name="office-server-2007"></a>Office Server 2007
 
@@ -113,14 +116,14 @@ Office 2007 릴리스의 서버 제품을 Office 2010, Office 2013 또는 Office
 
 ### <a name="office-server-2010"></a>Office Server 2010
 
-Office 2010 릴리스 서버 제품의 경우 다음에 대한 지원 종료가 결정되었습니다.
+Office 2010 릴리스 서버 제품의 경우 다음에 대한 지원 종료는 **2020년 10월 13일**입니다.
 
-- [Exchange Server 2010](https://docs.microsoft.com/office365/enterprise/exchange-2010-end-of-support)은 **2010년 1월 14일**에 지원이 종료됩니다.
-- [SharePoint Server 2010](https://docs.microsoft.com/office365/enterprise/upgrade-from-sharepoint-2010)은 **2020년 10월 13일**에 지원이 종료됩니다.
+- [Exchange Server 2010](https://docs.microsoft.com/office365/enterprise/exchange-2010-end-of-support)
+- [SharePoint Server 2010](https://docs.microsoft.com/office365/enterprise/upgrade-from-sharepoint-2010)
 
 Office 2010 릴리스의 서버 제품을 Office 2013 또는 Office 2016 릴리스의 서버 제품으로 업그레이드하는 대신, 다음을 수행하는 것이 좋습니다.
 
-1. Office 2010 서버의 데이터를 Office 365로 마이그레이션. 이를 지원하기 위해 [Microsoft 365에 대한 FastTrack](https://fasttrack.microsoft.com/microsoft365)을 참조하거나 Microsoft 파트너를 고용하세요.
+1. Office 2010 서버의 데이터 Microsoft 365로 마이그레이션 이에 대한 도움이 필요하면 [Microsoft 365의 FastTrack](https://fasttrack.microsoft.com/microsoft365) 또는 Microsoft 파트너 고용을 참조하세요.
 2. 사용자에게 새 기능 및 작업 프로세스 롤아웃
 3. Office 2010 서버 제품을 실행하는 온-프레미스 서버가 더 이상 필요하지 않은 경우 서비스 해제
 
@@ -142,7 +145,7 @@ Office 2016 릴리스 서버 제품의 경우, 지원 종료가 결정되지 않
 
 ## <a name="migration-for-microsoft-windows-7-and-81"></a>Microsoft Windows 7 및 8.1에 대한 마이그레이션
 
-Windows 7은 **2010년 1월 14일**에 지원이 종료됩니다. Windows 7 또는 Windows 8.1이 실행 중인 장치를 마이그레이션하려면 [현재 위치 업그레이드](https://docs.microsoft.com/microsoft-365/enterprise/windows10-deploy-inplaceupgrade)를 수행할 수 있습니다. 
+Windows 7은 **2020년 1월 14일**에 지원이 종료됩니다. Windows 7 또는 Windows 8.1이 실행 중인 장치를 마이그레이션하려면 [현재 위치 업그레이드](https://docs.microsoft.com/microsoft-365/enterprise/windows10-deploy-inplaceupgrade)를 수행할 수 있습니다. 
 
 추가 방법에 대해서는 [Windows 10 배포 시나리오](https://docs.microsoft.com/windows/deployment/windows-10-deployment-scenarios)를 참조하세요. 직접 [Windows 10 배포를 계획](https://aka.ms/planforwin10deployment)할 수도 있습니다.
 
@@ -152,7 +155,7 @@ Windows 7은 **2010년 1월 14일**에 지원이 종료됩니다. Windows 7 또�
 
 [![Office 2010 클라이언트 및 서버와 Windows 7에 대한 지원 종료 포스터 이미지](./media/migration-microsoft-365-enterprise-workload/office2010-windows7-end-of-support.png)](media/migration-microsoft-365-enterprise-workload/Office2010Windows7EndOfSupport.pdf)
 
-이 한 페이지짜리 포스터를 사용하여 Office 2010 클라이언트 및 서버 제품과 Windows 7의 지원 종료를 방지하는 다양한 방법을 빠르게 살펴보고 Microsoft 365 Enterprise에서 기본적으로 사용되는 경로와 옵션을 집중적으로 알 수 있습니다.
+Microsoft 365 Enterprise에서 기본적으로 사용되는 경로와 결과 목적지 지원이 강조된 이 한 페이지짜리 포스터를 사용하여 Office 2010 클라이언트 및 서버 제품과 Windows 7의 지원 종료를 방지하는 다양한 방법을 빠르게 파악합니다.
 
 [이 포스터를 다운로드](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/migration-microsoft-365-enterprise-workload/Office2010Windows7EndOfSupport.pdf)하고 편지형, 법률형 또는 타블로이드(11 x 17) 형식으로 인쇄할 수 있습니다.
 

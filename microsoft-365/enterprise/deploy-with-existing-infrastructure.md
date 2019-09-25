@@ -3,7 +3,7 @@ title: 기존 인프라를 사용하여 Microsoft 365 Enterprise 배포
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 06/04/2018
+ms.date: 09/24/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 기존 인프라가 있는 경우 Microsoft 365 Enterprise 배포에 대한 종료 조건을 안내합니다.
-ms.openlocfilehash: 8c9c1d1900e9fd1a025d3fd74cc9f358b612a4d1
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: 1b464398b981133e2851760d7bfe16869f1d1429
+ms.sourcegitcommit: 328b31f69663669b3c656b2e4db529f70d1c753e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34073918"
+ms.lasthandoff: 09/25/2019
+ms.locfileid: "37148512"
 ---
 # <a name="deployment-of-microsoft-365-enterprise-with-existing-infrastructure"></a>기존 인프라를 사용하여 Microsoft 365 Enterprise 배포
 
@@ -27,7 +27,7 @@ ms.locfileid: "34073918"
 각 단계를 종료하려면 먼저 반드시 충족해야 하는 필수 조건과 고려할 선택적 조건의 집합인 종료 조건을 검사해야 합니다. 각 단계의 종료 조건은 온-프레미스 및 클라우드 인프라와 결과적인 종단 간 구성이 Microsoft 365 Enterprise 배포에 대한 요구 사항을 충족하는지 확인합니다.
 
 > [!Note] 
-> FastTrack은 사용자가 원하는 일정에 따라 클라우드로 전환할 수 있도록 Microsoft 엔지니어가 제공하는 지속적이고 반복 가능한 혜택입니다(구독의 일부로 제공). 또한 FastTrack은 필요에 따라 적격 파트너에게 추가 서비스에 대한 액세스를 제공합니다. 지금까지 40,000여 명의 고객을 보유한 FastTrack은 조직 전체에서 ROI를 극대화하고, 배포를 가속화하고, 도입을 늘리도록 도와줍니다. [Microsoft 365용 FastTrack](https://fasttrack.microsoft.com/microsoft365)을 참조하세요.
+> FastTrack은 사용자가 원하는 일정에 따라 클라우드로 전환할 수 있도록 Microsoft 엔지니어가 제공하는 지속적이고 반복 가능한 혜택입니다(구독의 일부로 무료로 제공). 또한 FastTrack은 필요에 따라 적격 파트너에게 추가 서비스에 대한 액세스를 제공합니다. 지금까지 40,000여 명의 고객을 보유한 FastTrack은 조직 전체에서 ROI를 극대화하고, 배포를 가속화하고, 도입을 늘리도록 도와줍니다. [Microsoft 365용 FastTrack](https://fasttrack.microsoft.com/microsoft365)을 참조하세요.
 
 ## <a name="exit-criteria-for-networking-phase-1"></a>네트워킹에 대한 종료 조건(1단계)
 
@@ -49,7 +49,7 @@ Windows 10 Enterprise 인프라에 대한 다음과 같은 필수 및 선택적 
 
 ## <a name="exit-criteria-for-office-365-proplus-phase-4"></a>Office 365 ProPlus에 대한 종료 조건(4단계)
 
-Microsoft 365 Enterprise에 대한 Office 365 ProPlus 인프라의 평가, 배포 계획, 배포에 대한 요구 사항을 충족합니다.
+Office 365 ProPlus 인프라의 평가, 배포 계획, 배포에 대한 요구 사항을 충족합니다.
 
 [!INCLUDE [Deployment exit criteria for Office 365 ProPlus](./includes/deployment-exit-criteria-office365proplus.md)]
 
