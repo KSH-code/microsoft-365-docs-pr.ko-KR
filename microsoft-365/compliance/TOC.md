@@ -7,15 +7,17 @@
 ## [무료 Azure Active Directory 구독 사용](use-your-free-azure-ad-subscription-in-office-365.md)
 ## [Office 365의 보안 및 규정 준수 계획](plan-for-security-and-compliance.md)
 
-# 참가자 위험 관리
+# 내부 위험 관리
 ## [사용자 및 장치 액세스 보호](protect-access-to-data-and-services.md)
-## [권한이 부여된 액세스 관리](privileged-access-management-overview.md)
-## [권한이 부여된 액세스 관리 구성](privileged-access-management-configuration.md)
 ## [고객 Lockbox](customer-lockbox-requests.md)
+## [권한이 부여된 액세스 관리]()
+### [권한 있는 액세스 관리에 대해 자세히 알아보기](privileged-access-management-overview.md)
+### [권한이 부여된 액세스 관리 구성](privileged-access-management-configuration.md)
 ## 고객 키
 ### [고객 키를 사용하여 Office 365에서 데이터 제어](controlling-your-data-using-customer-key.md)
 ### [Office 365의 고객 키를 사용한 서비스 암호화 관련 자주하는 질문](service-encryption-with-customer-key-faq.md)
-## [커뮤니케이션 관리](supervision-policies.md)
+## [통신 감독]()
+### [통신 감독에 대해 자세히 알아보기](supervision-policies.md)
 ### [조직의 감독 정책 구성](configure-supervision-policies.md)
 ## [정보 장벽](information-barriers.md)
 ### [정보 장벽 정책 정의](information-barriers-policies.md)
@@ -285,6 +287,7 @@
 ## [eDiscovery 권한 할당](assign-ediscovery-permissions.md)
 ## [Office 365에서 eDiscovery 조사에 대한 준수 경계 설정](set-up-compliance-boundaries.md)
 ## [eDiscovery 솔루션 시리즈 - 데이터 유출 시나리오-검색 및 지우기](data-spillage-scenariosearch-and-purge.md)
+## [일반적인 eDiscovery 문제 해결](ediscovery-troubleshooting-common-issues.md)
 
 ## 보존 관리
 ### [eDiscovery 보존 만들기](ediscovery-cases.md#step-4-place-content-locations-on-hold)
