@@ -10,22 +10,18 @@ localization_priority: Normal
 ms.collection:
 - Adm_O365
 - M365-subscription-management
-ms.custom:
-- Adm_O365
-- Core_O365Admin_Migration
-- MiniMaven
-- MSB365
+ms.custom: OKR_SMB_M365
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Microsoft 365 Business를 설정하는 방법 알아보기
-ms.openlocfilehash: d309700761ee48ef66a8cd3886fd416c79463ed5
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: 52e3167986bb7ed835762540e8076a3b9b2a0b56
+ms.sourcegitcommit: 6003d6da0a85c97357eb3dba3918eb145f381fe1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34074303"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37287638"
 ---
 # <a name="get-started-with-microsoft-365-business"></a>Microsoft 365 Business 시작
 
@@ -92,6 +88,6 @@ Windows 10 PC를 설정한 후 장치에 [Office를 자동으로 설치](auto-in
 ## <a name="related-topics"></a>관련 주제
 [Microsoft 365 Business 문서 및 리소스](https://go.microsoft.com/fwlink/p/?linkid=853701)
   
-[Microsoft 365 Business 관리](manage.md) [Microsoft 365 Business로 마이그레이션](migrate-to-microsoft-365-business.md)
+Microsoft[365 business로](migrate-to-microsoft-365-business.md) 의 Microsoft [365 business 마이그레이션 관리](manage.md)
   
 

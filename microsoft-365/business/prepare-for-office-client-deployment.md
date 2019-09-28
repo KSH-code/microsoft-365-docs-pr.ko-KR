@@ -9,21 +9,18 @@ ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection: M365-subscription-management
-ms.custom:
-- Core_O365Admin_Migration
-- MiniMaven
-- MSB365
+ms.custom: OKR_SMB_M365
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: ed34fff3-2881-4ed4-9906-1ba6bb8dd804
 description: Windows 10 컴퓨터에 32 비트 Office 앱을 자동으로 설치 하 고 업데이트 된 상태로 유지 하는 방법을 알아봅니다.
-ms.openlocfilehash: 20269c493b0e3b5a7deb56a24a5e1a9583ef9d0a
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: fe1f946e4a216050e533604afa7c6e74e7b5980f
+ms.sourcegitcommit: 6003d6da0a85c97357eb3dba3918eb145f381fe1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34074653"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37288398"
 ---
 # <a name="prepare-for-office-client-deployment-by-microsoft-365-business"></a>Microsoft 365 Business를 사용한 Office 클라이언트 배포 준비
 

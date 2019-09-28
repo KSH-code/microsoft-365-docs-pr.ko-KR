@@ -11,22 +11,18 @@ ms.collection:
 - Adm_O365
 - M365-subscription-management
 - M365-identity-device-management
-ms.custom:
-- Adm_O365
-- Core_O365Admin_Migration
-- MiniMaven
-- MSB365
+ms.custom: OKR_SMB_M365
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 6f2b80b4-81c3-4714-a7bc-ae69313e8a33
 description: 앱 관리 정책을 만들고, 편집 하 고, 삭제 하 고, Android 또는 iOS 장치에서 작업 파일을 보호 하는 방법을 알아봅니다.
-ms.openlocfilehash: 21cc1d91c2952c6e9414d3742c26547fc36016a5
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: 68a338ffb4f9b6cab16c677f80d27481ccec4bd8
+ms.sourcegitcommit: 6003d6da0a85c97357eb3dba3918eb145f381fe1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34073513"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37287698"
 ---
 # <a name="set-app-protection-settings-for-android-or-ios-devices"></a>Android 또는 iOS 장치에서 앱 보호 설정 설정하기
 
@@ -64,7 +60,7 @@ ms.locfileid: "34073513"
     
 ## <a name="delete-an-app-management-policy"></a>앱 관리 정책 삭제
 
-1. 정책 페이지 **** 에서 정책을 선택 하 고 **삭제**를 클릭 합니다.
+1. **정책 페이지에서** 정책을 선택 하 고 **삭제**를 클릭 합니다.
     
 2. **정책 삭제** 창에서 **확인** 을 선택 하 여 선택한 정책 또는 정책을 삭제 합니다. 
     

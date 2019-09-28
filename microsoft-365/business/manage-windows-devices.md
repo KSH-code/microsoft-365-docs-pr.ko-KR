@@ -10,22 +10,18 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - M365-identity-device-management
-ms.custom:
-- Adm_O365
-- Core_O365Admin_Migration
-- MiniMaven
-- MSB365
+ms.custom: OKR_SMB_M365
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 9b4de218-f1ad-41fa-a61b-e9e8ac0cf993
 description: Microsoft 365에서 로컬 AD에 가입 된 Windows 10 장치를 보호 하도록 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: 15804a0bd6cf9d013c5138470aa4a4a7acec57e1
-ms.sourcegitcommit: 08c334b754bd6d64375b33d91a972a31f2f309cb
+ms.openlocfilehash: d1dbfc6a35d54db653ae0f911fad05ac2ce0a993
+ms.sourcegitcommit: 6003d6da0a85c97357eb3dba3918eb145f381fe1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/21/2019
-ms.locfileid: "37100444"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37288038"
 ---
 # <a name="enable-domain-joined-windows-10-devices-to-be-managed-by-microsoft-365-business"></a>도메인에 가입 된 Windows 10 장치를 Microsoft 365 Business에서 관리할 수 있도록 설정
 

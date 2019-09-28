@@ -13,21 +13,18 @@ localization_priority: Normal
 ms.collection:
 - Adm_O365
 - M365-subscription-management
-ms.custom:
-- Adm_O365
-- Core_O365Admin_Migration
-- MSB365
+ms.custom: OKR_SMB_M365
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: Microsoft 365 Business에 대 한 설정 단계 개요입니다.
-ms.openlocfilehash: ae7ed0aab36a6e759e0f0c1fbc3d3183273a284e
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: f156d236a783942ec06d457c9b7ca087d12d6f58
+ms.sourcegitcommit: 6003d6da0a85c97357eb3dba3918eb145f381fe1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34074408"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37288578"
 ---
 # <a name="overview-of-setup"></a>설치 개요
 
@@ -36,7 +33,7 @@ ms.locfileid: "34074408"
 
 ## <a name="step-1-add-your-domain-and-users"></a>1 단계: 도메인 및 사용자 추가
 
-   - **[도메인 추가](set-up.md#add-your-domain-to-personalize-sign-in)** ( [등록](sign-up.md)중에 도메인을 구매한 경우에는이 단계가 이미 완료 되었습니다.)
+   - **[도메인 추가](set-up.md#add-your-domain-to-personalize-sign-in)** ( [등록](sign-up.md)중에 도메인을 구매한 경우이 단계는 이미 완료 됨)
 
     - **사용자를 추가**합니다. 다음 세 가지 방법 중 하나를 통해이 작업을 수행할 수 있습니다.
         - [마법사](set-up.md#add-users-in-the-wizard)에서
@@ -81,6 +78,6 @@ ms.locfileid: "34074408"
 
      - 조직에서 Windows Server Active Directory 온-프레미스를 사용 하는 경우에는 Microsoft 365 Business를 설정 하 여 Windows 10 장치를 보호 하 되, 로컬 인증을 필요로 하는 온-프레미스 리소스에 대 한 액세스를 계속 유지할 수 있습니다. 이를 설정 하려면 [도메인에 가입 된 Windows 10 장치를 Microsoft 365 Business에서 관리할 수 있도록 설정](manage-windows-devices.md) 의 단계를 수행 합니다. 이 상태에서 기본 설정 방법 및 장치를 하이브리드 Azure AD 가입 장치 라고 합니다.
 
-    - 회사에 일부 온-프레미스 리소스 (예: 파일 공유 및 프린터)가 포함 된 로컬 Active Directory가 있는 경우 여기에 나와 있는 단계에 따라 Azure AD 조인 장치에 이러한 리소스에 대 한 액세스 권한을 부여할 수 있습니다. [ Azure AD-가입 된 장치 (Microsoft 365 Business)](access-resources.md)입니다.
+    - 회사에 일부 온-프레미스 리소스 (예: 파일 공유 및 프린터)가 포함 된 로컬 Active Directory가 있는 경우 여기에 나와 있는 단계에 따라 Azure AD 조인 장치에 이러한 리소스에 대 한 액세스 권한을 부여할 수 [있습니다. Azure AD-가입 된 장치 (Microsoft 365 Business)](access-resources.md)입니다.
 
   

@@ -14,12 +14,12 @@ ms.assetid: 5ed8abf1-c0e9-4e5b-a5b7-2059cea50b61
 ms.collection:
 - M365-security-compliance
 description: SharePoint, OneDrive 또는 팀에서 검색 된 악성 파일에 대 한 정보를 볼 수 있는 위치 및 해당 파일에 대해 작업을 수행 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: b16ba88cd4984754f92fac2917f0f2b393600692
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: f2271ec7822efd442474aa322535da26d42788db
+ms.sourcegitcommit: 84d88a857e82b1a8a0d466057a2e330e8b1692e4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37089129"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37306112"
 ---
 # <a name="view-information-about-malicious-files-detected-in-sharepoint-onedrive-or-microsoft-teams"></a>SharePoint, OneDrive 또는 Microsoft Teams에서 감지한 악성 파일에 대한 정보 보기
 
@@ -43,21 +43,21 @@ Office 365 ATP가 검색 한 파일에 대 한 상태 및 자세한 정보를 �
   
 ## <a name="view-and-take-action-on-files-in-quarantine"></a>격리에서 파일 보기 및 작업 수행
 
-1. Office 365 보안 &amp; 및 준수 센터에서 **위협 관리** \> **검토** \> **격리**를 선택 합니다.
+1. Office 365 보안 &amp; 및 준수 센터에서 **위협 관리** \> **검토** \> **격리**를 선택 합니다. (로 [https://protection.office.com/quarantine](https://protection.office.com/quarantine)직접 이동 해도 됩니다.)
     
-2. 왼쪽 위 모서리에서 **전자 메일** 에서 **콘텐트로**필터를 변경 합니다.
+2. 왼쪽 위 모서리에서 드롭다운 메뉴를 **전자 메일** 의 **파일로**변경 합니다. 결과 목록에 너무 많은 항목이 포함 되어 있으면 **필터** 기능을 사용 하 여 선택 범위를 좁힐 수 있습니다.
     
 3. 파일의 URL을 포함 하 여 세부 정보를 보려면 목록에서 항목을 선택 합니다.
     
 4. 사용 가능한 작업을 선택 합니다.
     
-  - 파일 차단을 해제 하려면 **릴리스 &amp; 보고서** 를 선택 합니다. 
+  - 파일 차단을 해제 하려면 **파일 릴리스** 를 선택 합니다. 
     
     Microsoft **에 보고서 보내기를** 선택 하 여 파일을 가양성으로 microsoft에 보고 합니다. 
     
   - 파일 **다운로드** 를 선택 하 여 파일을 더 조사 합니다. 
     
-  - **삭제** 를 선택 하 여 격리 된 항목 목록에서 파일을 제거 합니다. 이 옵션을 선택 하는 경우 SharePoint Online, 비즈니스용 OneDrive 또는 Microsoft 팀의 각 라이브러리 에서도 해당 파일을 삭제 해야 합니다. 이 옵션을 선택 해도 파일이 열리거나 공유 되지 않도록 차단 해제 되지 않습니다. 
+  - 격리 **에서 제거** 를 선택 하 여 격리 된 항목 목록에서 파일을 제거 합니다. 이 옵션을 선택 하는 경우 SharePoint Online, 비즈니스용 OneDrive 또는 Microsoft 팀의 각 라이브러리 에서도 해당 파일을 삭제 해야 합니다. 이 옵션을 선택 해도 파일이 열리거나 공유 되지 않도록 차단 해제 되지 않습니다. 
     
 5. **닫기를** 선택 하 여 선택한 항목에 대 한 세부 정보를 닫습니다. 
   

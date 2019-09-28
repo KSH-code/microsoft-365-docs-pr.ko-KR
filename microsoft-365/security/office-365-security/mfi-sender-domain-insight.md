@@ -9,12 +9,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: ''
 description: 관리자는 보안 & 준수 센터의 메일 흐름 대시보드에서 보낸 사람 도메인에 대 한 정보를 수정 하는 방법에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: 42a673c5e6b04109656ef35bb5a80504ed1f42a9
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: bda6482b2c9264337db9e95f84ff41ce08582363
+ms.sourcegitcommit: 84d88a857e82b1a8a0d466057a2e330e8b1692e4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37089059"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37306152"
 ---
 # <a name="fix-sender-domain-insight"></a>보낸 사람 도메인 정보 문제 해결
 

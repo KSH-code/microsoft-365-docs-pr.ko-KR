@@ -9,12 +9,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: ''
 description: 관리자는 보안 & 준수 센터의 메일 흐름 대시보드에서 SMTP 인증 클라이언트 보고서에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: 7d3977293b0456b9ab3d383c1a41be9858a66028
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: a273da9e0ebe7987a22669c54f3ebfe103e5933c
+ms.sourcegitcommit: 84d88a857e82b1a8a0d466057a2e330e8b1692e4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37089053"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37306032"
 ---
 # <a name="smtp-auth-clients-report"></a>SMTP 인증 클라이언트 보고서
 

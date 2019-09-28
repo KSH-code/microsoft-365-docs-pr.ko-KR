@@ -10,19 +10,17 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - M365-identity-device-management
-ms.custom:
-- MiniMaven
-- MSB365
+ms.custom: OKR_SMB_M365
 search.appverid:
 - BCS160
 - MET150
 description: Office 365 Advanced Threat Protection을 설정 하 고 중요 한 데이터를 보호 합니다.
-ms.openlocfilehash: b6e9941eee9de4f295b0f8056c1c91b7076e530c
-ms.sourcegitcommit: 7ac06563c6ff034358e8fd3f9298fc426187ade2
+ms.openlocfilehash: 81197a8baf1c4d0cbfd898c41a305c1a99bab57c
+ms.sourcegitcommit: 6003d6da0a85c97357eb3dba3918eb145f381fe1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "34668400"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37288118"
 ---
 # <a name="increase-threat-protection"></a>위협 방지 강화
 
@@ -145,7 +143,7 @@ ATP 피싱 방지 정책을 만들려면 [이 간략 한 교육 비디오](https
 |보호할 사용자 추가  <br/> |**조건을 추가 하 고 받는 사람**을 선택 합니다. 사용자 이름을 입력 하거나 후보, 캠페인 관리자 및 기타 중요 교직원 구성원의 전자 메일 주소를 입력 합니다. 가장을 보호 하려는 최대 20 개의 내부 및 외부 주소를 추가할 수 있습니다.  <br/> |
 |보호할 도메인 추가  <br/> |**조건 추가, 받는 사람 도메인**을 차례로 선택 합니다. Microsoft 365 구독에 연결 된 사용자 지정 도메인 (하나를 정의한 경우)을 입력 합니다. 둘 이상의 도메인을 입력할 수 있습니다.  <br/> |
 |작업 선택  <br/> |가장 된 사용자가 전자 메일을 보낸 경우: **다른 전자 메일 주소로 메시지 리디렉션을**선택 하 고 보안 관리자의 전자 메일 주소를 입력 합니다. 예를 들어 *Alice<span><span>@contoso 합니다.*          가장 된 도메인에서 전자 메일을 보낸 경우에는 **격리 메시지**를 선택 합니다.  <br/> |
-|사서함 인텔리전스  <br/> |기본적으로 새 피싱 방지 정책을 만들 때 사서함 인텔리전스가 선택 됩니다. 최상의 결과를 **** 위해이 설정을 유지 합니다.  <br/> |
+|사서함 인텔리전스  <br/> |기본적으로 새 피싱 방지 정책을 만들 때 사서함 인텔리전스가 선택 됩니다. 최상의 결과를 **위해이 설정을 유지 합니다.**  <br/> |
 |신뢰할 수 있는 보낸 사람 및 도메인 추가  <br/> |여기에서 자체 도메인 또는 다른 트러스트 된 도메인을 추가할 수 있습니다.  <br/> |
 |적용 대상  <br/> |**받는 사람 도메인을**선택 합니다. **다음 중 하나**에서 **선택을**선택 합니다. **+ 추가**를 선택 합니다. 도메인 이름 (예: contoso) 옆에 있는 확인란을 선택 합니다 *.<span> com <span>* 의 목록에서 **추가**를 선택 합니다. **완료**를 선택 합니다.  <br/> |
    

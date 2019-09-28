@@ -8,27 +8,22 @@ ms.topic: article
 ms.service: o365-administration
 ms.collection: M365-subscription-management
 localization_priority: Normal
-ms.custom:
-- Core_O365Admin_Migration
-- MiniMaven
-- MSB365
+ms.custom: OKR_SMB_M365
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: b0f4d010-9fd1-44d0-9d20-fabad2cdbab5
 description: Azure Active Directory에 가입 된 Windows 10 장치에서 비즈니스 앱, 파일 공유 및 프린터와 같은 온-프레미스 리소스에 액세스 하는 방법을 알아봅니다.
-ms.openlocfilehash: ab9049e78617372463b8446dc8f8bc0089d8c117
-ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
+ms.openlocfilehash: 26ba0ffb64ddce32369002120657456e47ac0c7f
+ms.sourcegitcommit: 6003d6da0a85c97357eb3dba3918eb145f381fe1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/14/2019
-ms.locfileid: "36981664"
+ms.lasthandoff: 09/27/2019
+ms.locfileid: "37287358"
 ---
 # <a name="access-on-premises-resources-from-an-azure-ad-joined-device-in-microsoft-365-business"></a>Microsoft 365 Business의 Azure AD에 가입 된 장치에서 온-프레미스 리소스에 액세스
 
-Azure Active Directory에 가입 된 모든 Windows 10 장치는 Office 365 앱과 같은 모든 클라우드 기반 리소스에 액세스할 수 있으며 Microsoft 365 Business로 보호 가능 합니다. LOB (기간 업무) 앱, 파일 공유 및 프린터와 같은 온-프레미스 리소스에 대 한 액세스도 허용 하려면 [AZURE AD Connect](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect)를 사용 하 여 온-프레미스 Active Directory를 Azure active directory와 동기화 해야 합니다. 다음 비디오에서는 가장 일반적인 시나리오에서이를 설정 하는 방법에 대 한 단계를 자세히 설명 합니다.
- 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3C9hO]
+Azure Active Directory에 가입 된 모든 Windows 10 장치는 Office 365 앱과 같은 모든 클라우드 기반 리소스에 액세스할 수 있으며 Microsoft 365 Business로 보호 가능 합니다. LOB (기간 업무) 앱, 파일 공유 및 프린터와 같은 온-프레미스 리소스에 대 한 액세스도 허용 하려면 [AZURE AD Connect](https://docs.microsoft.com/en-us/azure/active-directory/connect/active-directory-aadconnect)를 사용 하 여 온-프레미스 Active Directory를 Azure active directory와 동기화 해야 합니다. 
 
 자세한 정보는 [Azure Active Directory의 장치 관리 소개](https://docs.microsoft.com/en-us/azure/active-directory/device-management-introduction) 를 참조 하세요.
 이 단계는 다음 섹션에도 요약 되어 있습니다.
