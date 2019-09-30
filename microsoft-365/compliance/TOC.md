@@ -1,4 +1,4 @@
-# [Microsoft 365 준수](index.yml)
+# [Microsoft 365 규정 준수](index.yml)
 
 # 시작
 ## [준수 센터의 새로운 기능](whats-new.md)
@@ -11,17 +11,17 @@
 ## [사용자 및 장치 액세스 보호](protect-access-to-data-and-services.md)
 ## [고객 Lockbox](customer-lockbox-requests.md)
 ## [권한이 부여된 액세스 관리]()
-### [권한 있는 액세스 관리에 대해 자세히 알아보기](privileged-access-management-overview.md)
+### [권한이 부여된 액세스 관리에 대한 자세한 정보](privileged-access-management-overview.md)
 ### [권한이 부여된 액세스 관리 구성](privileged-access-management-configuration.md)
 ## 고객 키
 ### [고객 키를 사용하여 Office 365에서 데이터 제어](controlling-your-data-using-customer-key.md)
 ### [Office 365의 고객 키를 사용한 서비스 암호화 관련 자주하는 질문](service-encryption-with-customer-key-faq.md)
 ## [통신 감독]()
-### [통신 감독에 대해 자세히 알아보기](supervision-policies.md)
+### [통신 감독에 대한 자세한 정보](supervision-policies.md)
 ### [조직의 감독 정책 구성](configure-supervision-policies.md)
 ## [정보 장벽](information-barriers.md)
 ### [정보 장벽 정책 정의](information-barriers-policies.md)
-### [정보 장벽 정책의 특성](information-barriers-attributes.md)
+### [정보 장벽 정책의 속성](information-barriers-attributes.md)
 ### [정보 장벽 문제 해결](information-barriers-troubleshooting.md)
 ### [정보 장벽 정책 편집](information-barriers-edit-segments-policies.md.md)
 
@@ -52,7 +52,7 @@
 ### [사용자 지정 DLP 확장된 개요 보기](https://go.microsoft.com/fwlink/?linkid=852306)
 ### [기본 제공 중요한 정보 유형 사용자 지정](customize-a-built-in-sensitive-information-type.md)
 ### [사용자 지정 중요한 정보 유형](custom-sensitive-info-types.md)
-### [정확한 데이터 일치를 기반으로 하는 사용자 지정 중요 한 정보 유형 만들기 분류](create-custom-sensitive-information-types-with-exact-data-match-based-classification.md)
+### [분류에 기반한 정확한 데이터 매치로 사용자 지정 중요한 정보 유형 만들기](create-custom-sensitive-information-types-with-exact-data-match-based-classification.md)
 ### [보안 및 준수 센터에서 사용자 지정 중요한 정보 유형 만들기](create-a-custom-sensitive-information-type.md)
 ### [PowerShell을 사용한 사용자 지정 중요한 정보 유형 만들기](create-a-custom-sensitive-information-type-in-scc-powershell.md)
 ### [키워드 사전 만들기](create-a-keyword-dictionary.md)
@@ -61,7 +61,7 @@
 ### [사용자 지정 DLP 확장된 개요 보기](https://go.microsoft.com/fwlink/?linkid=852306)
 
 ## [전자 메일 암호화](email-encryption.md)
-### [Office 365 메시지 암호화 (OME)](ome.md)
+### [OME(Office 365 메시지 암호화)](ome.md)
 ### [새로운 Office 365 메시지 암호화 기능 설정](set-up-new-message-encryption-capabilities.md)
 ### [Office 365에서 전자 메일 메시지를 암호화하기 위한 메일의 흐름 규정을 정의](define-mail-flow-rules-to-encrypt-email.md)
 ### [암호화된 메시지에 조직의 브랜드 추가](add-your-organization-brand-to-encrypted-messages.md)
@@ -80,7 +80,7 @@
 #### [Office 365 메시지 암호화 레거시 정보](legacy-information-for-message-encryption.md)
 #### [Office 365 메시지 암호화에 대한 Azure 권한 관리 설정](set-up-azure-rms-for-previous-version-message-encryption.md)
 
-# 정보 거 버 넌 스 관리
+# 정보 거버넌스 관리
 ## [데이터 가져오기](importing-pst-files-to-office-365.md)
 ### [네트워크 업로드를 사용하여 PST 파일 가져오기](use-network-upload-to-import-pst-files.md)
 ### [드라이브 발송을 사용하여 PST 파일 가져오기](use-drive-shipping-to-import-pst-files-to-office-365.md)
@@ -89,10 +89,10 @@
 ### [네트워크 업로드를 사용하여 RMS 암호화 PST 파일 가져오기](use-network-upload-to-import-rms-encrypted-pst-files.md)
 ### [PST 파일 가져오기에 대한 FAQ](faqimporting-pst-files-to-office-365.md)
 ### [Office 365에서 타사 데이터 보관](archiving-third-party-data.md)
-#### [샘플 커넥터를 사용 하 여 Facebook 데이터 보관](archive-facebook-data-with-sample-connector.md)
-#### [샘플 커넥터를 사용 하 여 Twitter 데이터 보관](archive-twitter-data-with-sample-connector.md)
-#### [LinkedIn 데이터를 보관 하는 커넥터 설정](archive-linkedin-data.md)
-#### [인스턴트 Bloomberg 데이터를 보관 하는 커넥터 설정](archive-instant-bloomberg-data.md)
+#### [샘플 커넥터를 사용하여 Facebook 데이터 보관 ](archive-facebook-data-with-sample-connector.md)
+#### [샘플 커넥터를 사용하여 Twitter 데이터 보관](archive-twitter-data-with-sample-connector.md)
+#### [LinkedIn 데이터를 보관할 커넥터 설정](archive-linkedin-data.md)
+#### [즉석 Bloomberg 데이터를 보관할 커넥터 설정](archive-instant-bloomberg-data.md)
 #### [타사 데이터를 저장하는 데 파트너와 협력](work-with-partner-to-archive-third-party-data.md)
 ## 데이터 저장
 ### [보관 사서함 사용](enable-archive-mailboxes.md)
@@ -104,7 +104,7 @@
 ### [파일 플랜 관리자](file-plan-manager.md)
 ### [보존 레이블](labels.md)
 ### [SEC 규칙 17 a-4 준수](use-exchange-online-to-comply-with-sec-rule-17a-4.md)
-### [PowerShell을 사용하여 보존 레이블 만들기 및 게시](https://docs.microsoft.com/en-us/office365/securitycompliance/bulk-create-publish-labels-using-powershell)
+### [PowerShell을 사용하여 보존 레이블 만들기 및 게시](https://docs.microsoft.com/ko-KR/office365/securitycompliance/bulk-create-publish-labels-using-powershell)
 ### [이벤트 기반 보존](event-driven-retention.md)
 ### [이벤트 기반 보존 자동화](automate-event-driven-retention.md)
 ## [데이터 삭제](disposition-reviews.md)
@@ -125,7 +125,7 @@
 ### 파일 플랜
 #### [파일 플랜 관리자](file-plan-manager.md)
 #### [보존 레이블](labels.md)
-#### [PowerShell을 사용하여 보존 레이블 만들기 및 게시](https://docs.microsoft.com/en-us/office365/securitycompliance/bulk-create-publish-labels-using-powershell)
+#### [PowerShell을 사용하여 보존 레이블 만들기 및 게시](https://docs.microsoft.com/ko-KR/office365/securitycompliance/bulk-create-publish-labels-using-powershell)
 #### [레이블 분석을 통한 레이블 사용량 보기](label-analytics.md)
 #### [문서의 레이블 활동 보기](view-label-activity-for-documents.md)
 #### [데이터 거버넌스 보고서 보기](view-the-data-governance-reports.md)
@@ -191,7 +191,7 @@
 #### [데이터를 처리할 때 오류 수정](error-remediation-when-processing-data-in-advanced-ediscovery.md)
 
 ### [사례 데이터 수집](collecting-data-for-ediscovery.md)
-#### [Create a search](create-search-to-collect-data.md)
+#### [검색 만들기](create-search-to-collect-data.md)
 #### [검색 쿼리 작성](building-search-queries.md)
 #### [검색 통계](search-statistics.md)
 #### [검색 결과를 검토 집합에 추가](add-data-to-review-set.md)
@@ -205,7 +205,7 @@
 #### [검토 집합에서 문서 보기](view-documents-in-review-set.md)
 #### [검토 집합에서 데이터 쿼리](review-set-search.md)
 #### [검토 집합에서 문서 태그 지정](tagging-documents.md)
-#### [변호사 설정-클라이언트 권한 검색](attorney-privilege-detection.md)
+#### [비공개 유지 권한 검색 설정](attorney-privilege-detection.md)
 
 ### [대/소문자 데이터 분석](analyzing-data-in-review-set.md)
 #### [중복에 가까운 검색](near-duplicate-detection-in-advanced-ediscovery.md)
@@ -300,7 +300,7 @@
 # [데이터 조사 관리](overview-data-investigations.md)
 ## [데이터 유출 사고 관리](manage-data-spillage-incidents.md)
 ## [새 조사 만들기](create-new-investigation.md)
-## [데이터 조사에 대 한 사용 권한 할당](permissions.md)
+## [데이터 조사를 위한 권한 지정](permissions.md)
  
 ## [조사에서 데이터 검색](search-for-data.md)
 ### [검색 쿼리 작성](build-search-queries.md)
@@ -312,7 +312,7 @@
 ### [문서 주석 달기 및 수정](annotate-and-redact-documents.md)
 ### [비 Office 365 데이터 로드](load-non-office365-data.md)
 ### [데이터를 처리할 때 오류 수정](error-remediation.md)
-### [원래 위치에서 항목 삭제](delete-items-from-original-locations.md)
+### [Delete items from their original location](delete-items-from-original-locations.md)
 
 ## [신속한 조사를 위한 분석 실행](run-analytics-to-investigate-faster.md)
 ### [이메일 스레드](email-threading.md)
@@ -344,7 +344,7 @@
 ## [감사 로그 검색 켜기 또는 끄기](turn-audit-log-search-on-or-off.md)
 ## [사서함 감사 관리](enable-mailbox-auditing.md)
 ## [감사 로그의 자세한 속성](detailed-properties-in-the-office-365-audit-log.md)
-## [감사 로그 기록 내보내기, 구성 및 보기](export-view-audit-log-records.md)
+## [감사 로그 레코드 내보내기, 구성 및 보기](export-view-audit-log-records.md)
 ## [일반적인 시나리오 문제를 해결하기 위해 감사 로그 사용](auditing-troubleshooting-scenarios.md)
 ## [감사 로그에서 공유 감사 사용](use-sharing-auditing.md)
 ## [감사 로그에서 eDiscovery 활동 검색](search-for-ediscovery-activities-in-the-audit-log.md)
@@ -374,19 +374,19 @@
 ### [Office Web Apps Server 및 Office Online Server GDPR](gdpr-for-office-online-server.md)
 ### [온-프레미스 Windows Server 파일 공유](gdpr-for-on-premises-file-shares.md)
 
-# [규정 준수 작업 계획](compliance-solutions-overview.md)
+# [규정 준수 조치 계획](compliance-solutions-overview.md)
 
-## [ISO — 권장 작업 계획](iso-action-plan.md)
-## [NIST-권장 작업 계획](nist-action-plan.md) 
+## [ISO - 권장 실행 계획](iso-action-plan.md)
+## [NIST — 권장 실행 계획](nist-action-plan.md) 
 
 ## [GDPR](gdpr.md)
-### [GDPR에 대 한 권장 작업 계획](gdpr-action-plan.md)
+### [GDPR에 대한 권장 실행 계획](gdpr-action-plan.md)
 
 ### [책임 준비 상태 검사 목록]()
 #### [책임 준비 상태 검사 목록](gdpr-arc.md)
 #### [Azure](gdpr-arc-azure.md)
 #### [Dynamics 365](gdpr-arc-dynamics365.md)
-#### [Microsoft 지원 & 전문 서비스](gdpr-arc-prof-services.md)
+#### [Microsoft 지원 및 전문 서비스](gdpr-arc-prof-services.md)
 #### [Office 365](gdpr-arc-office365.md)
 
 ### [정보 보호](gdpr-information-protection.md)
@@ -394,10 +394,10 @@
 ### [데이터 주체 요청]()
 #### [데이터 주체 요청](gdpr-data-subject-requests.md)
 #### [Azure](gdpr-dsr-azure.md)
-#### [Azure DevOps Services](gdpr-dsr-vsts.md)
+#### [Azure DevOps 서비스](gdpr-dsr-vsts.md)
 #### [Dynamics 365](gdpr-dsr-dynamics365.md)
 #### [Intune](gdpr-dsr-intune.md)
-#### [Microsoft 지원 & 전문 서비스](gdpr-dsr-prof-services.md)
+#### [Microsoft 지원 및 전문 서비스](gdpr-dsr-prof-services.md)
 #### [Office 365](gdpr-dsr-office365.md)
 #### [Visual Studio 제품군](gdpr-dsr-visual-studio-family.md)
 
@@ -405,14 +405,14 @@
 #### [위반 알림](gdpr-breach-notification.md)
 #### [Azure](gdpr-breach-azure.md)
 #### [Dynamics 365](gdpr-breach-dynamics365.md)
-#### [Microsoft 지원 & 전문 서비스](gdpr-breach-microsoft-support-professional-services.md)
+#### [Microsoft 지원 및 전문 서비스](gdpr-breach-microsoft-support-professional-services.md)
 #### [Office 365](gdpr-breach-office365.md)
 
 ### [데이터 보호 영향 평가]()
 #### [데이터 보호 영향 평가](gdpr-data-protection-impact-assessments.md)
 #### [Azure](gdpr-dpia-azure.md)
 #### [Dynamics 365](gdpr-dpia-dynamics.md)
-#### [Microsoft 지원 & 전문 서비스](gdpr-dpia-prof-services.md)
+#### [Microsoft 지원 및 전문 서비스](gdpr-dpia-prof-services.md)
 #### [Office 365](gdpr-dpia-office365.md)
 
 ### [Microsoft의 데이터 보호 관리자](gdpr-data-protection-officer.md)
