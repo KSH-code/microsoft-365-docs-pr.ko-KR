@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 관리 검토 정책을 설정 하 여 검토를 위한 직원 정보를 수집 합니다.
-ms.openlocfilehash: ccbc5897ef8c6fb6018793ff7e3fe7731ee14710
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: dae8969598f5a71814c1b61db83341f30c0cb9d7
+ms.sourcegitcommit: 8e5b799efd3ddd0eae9dd2835c3783103817fb4b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37087615"
+ms.lasthandoff: 09/30/2019
+ms.locfileid: "37317620"
 ---
 # <a name="configure-supervision-policies-for-your-organization"></a>조직의 감독 정책 구성
 
@@ -52,10 +52,6 @@ Office 365 조직에서 감독을 설정 및 사용 하려면 다음 단계를 �
 - **5 단계 (선택 사항)**: [감독 정책 테스트](#step-5-test-your-supervision-policy-optional)
 
     감독 정책을 테스트 하 여 원하는 대로 작동 하는지 확인 합니다. 규정 준수 전략이 표준을 충족 하는지 확인 하는 것이 중요 합니다.
-
-- **6 단계 (선택 사항)**: [Office 365 감독 대시보드를 사용 하지 않고 감독 되는 통신을 검토 하는 검토자를 위해 Outlook을 구성](#step-6-configure-outlook-for-reviewers-optional) 합니다.
-
-    사용자가 각 항목을 평가 하 고 분류할 수 있도록 Outlook 클라이언트 내의 감독 기능에 대 한 액세스 권한을 검토자에 게 보내도록 Outlook을 구성 합니다.
 
 ## <a name="step-1-set-up-groups-for-supervision-optional"></a>1 단계: 감독에 대 한 그룹 설정 (선택 사항)
 
@@ -181,70 +177,10 @@ Office 365 조직에서 감독을 설정 및 사용 하려면 다음 단계를 �
 1. 테스트할 정책에 정의 된 감독 된 사용자로 로그인 한 전자 메일 클라이언트 또는 Microsoft 팀을 엽니다.
 2. 감독 정책에 정의한 기준을 충족 하는 전자 메일 또는 Microsoft 팀 채팅을 보냅니다. 키워드, 첨부 파일 크기, 도메인 등이 될 수 있습니다. 정책에서 구성 된 조건부 설정이 너무 제한적일 또는 너무 lenient 인지 확인 합니다.
 
-    > [!Note]
+    > [!NOTE]
     > 정의 된 정책이 적용 되는 전자 메일은 거의 실시간으로 처리 되며 정책이 구성 된 직후에 테스트할 수 있습니다. Microsoft 팀의 채팅에는 정책에서 전체 프로세스를 수행 하는 데 최대 24 시간이 걸릴 수 있습니다. 
 
 3. 감독 정책에 지정 된 검토자로 Office 365 테 넌 트에 로그인 합니다. *사용자 지정 정책이* > **열려** 있는 **감독** > 을 탐색 하 여 정책에 대 한 보고서를 확인 합니다.
-
-## <a name="step-6-configure-outlook-for-reviewers-optional"></a>6 단계: Outlook for 검토자별로 구성 (선택 사항)
-
-통신을 검토 하기 위해 Office 365의 감독 대시보드 대신 Outlook을 사용 하려는 검토자는 Outlook 클라이언트를 구성 해야 합니다.
-
-### <a name="step-1-copy-the-address-for-the-supervision-mailbox"></a>1 단계: 감독 사서함의 주소 복사
-
-Outlook 데스크톱에 대해 검토를 구성 하려면 감독 정책 설정의 일부로 만들어진 감독 사서함의 주소가 필요 합니다.
-  
-> [!NOTE]
-> 다른 사용자가 정책을 만든 경우이 주소에서 추가 기능을 설치 하도록 요청 받아야 합니다.
-
-**감독 사서함 주소를 찾으려면**
-  
-1. 조직의 관리자 계정에 대 한 자격 증명을 사용 하 여 [준수 센터](https://compliance.microsoft.com) 에 로그인 합니다.
-
-2. **감독**으로 이동 합니다.
-
-3. 검토 하려는 통신에 대 한 감독 정책을 선택 합니다.
-
-4. 정책 세부 정보 플라이 아웃의 **감독 사서함**에서 주소를 복사 합니다.<br/>![감독 사서함 주소가 강조 표시 된 감독 정책의 세부 정보 플라이 아웃의 ' 감독 사서함 ' 섹션](media/71779d0e-4f01-4dd3-8234-5f9c30eeb067.jpg)
-  
-### <a name="step-2-configure-the-supervision-mailbox-for-outlook-access"></a>2 단계: Outlook 액세스를 위한 감독 사서함 구성
-
-다음으로, Outlook을 감독 사서함에 연결할 수 있도록 검토자가 몇 개의 Exchange Online PowerShell 명령을 실행 해야 합니다.
-  
-1. Exchange Online PowerShell에 연결합니다. [어떻게 해야 합니까?](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell)
-
-2. 다음 명령을 실행 하면 *SupervisoryReview {GUID} @domain onmicrosoft.com* 는 위의 1 단계에서 복사한 주소이 고 *사용자* 는 3 단계에서 감독 사서함에 연결할 검토자의 이름입니다.
-
-    ```Add-MailboxPermission "SupervisoryReview{GUID}@domain.onmicrosoft.com" -User <alias or email address of the account that has reviewer permissions to the supervision mailbox> -AccessRights FullAccess```
-
-    ```Set-Mailbox "<SupervisoryReview{GUID}@domain.onmicrosoft.com>" -HiddenFromAddressListsEnabled: $false```
-
-3. 3 단계로 넘어가기 전까지 1 시간 이상 기다립니다.
-
-### <a name="step-3-create-an-outlook-profile-to-connect-to-the-supervision-mailbox"></a>3 단계: Outlook 프로필을 만들어 감독 사서함에 연결
-
-마지막 단계에서 검토자는 Outlook 프로필을 만들어 감독 사서함에 연결 해야 합니다.
-
-> [!NOTE]
-> 새 Outlook 프로필을 만들려면 Windows 제어판의 메일 설정을 사용 합니다. 이러한 설정에 액세스 하기 위해 수행 하는 경로는 사용 중인 Windows 운영 체제 (Windows 7, Windows 8 또는 Windows 10)와 설치 된 Outlook 버전에 따라 달라질 수 있습니다.
-  
-1. 제어판을 엽니다. 창 위쪽의 **검색** 상자에 **Mail**을 입력 합니다.<br/>(제어판을 표시 하는 방법에 대 한 자세한 내용을 확인 하세요. [제어판은 무엇 인가요?](https://support.microsoft.com/help/13764/windows-where-is-control-panel)를 참조 하세요.
-  
-2. **메일** 앱을 엽니다.
-
-3. **메일 설정-Outlook**에서 **프로필 보기**를 클릭 합니다.<br/>![' 프로필 표시 ' 단추가 강조 표시 된 상태로 ' 메일 설정-Outlook ' 대화 상자](media/28b5dae9-d10c-4f2b-926a-294c857d555c.jpg)
-  
-4. **메일**에서 **추가**를 클릭 합니다. 그런 다음 **새 프로필**에 감독 사서함의 이름을 입력 합니다 (예: **감독**).<br/>![' 프로필 이름 ' 상자에 ' 감독 ' 이름을 표시 하는 ' 새 프로필 ' 대화 상자가 있습니다.](media/d02ae181-b541-4ec6-8f51-698f30033204.jpg)
-  
-5. **Outlook을 Office 365에 연결**에서 **다른 계정에 연결**을 클릭 합니다.<br/>![' 다른 계정에 연결 ' 링크가 강조 표시 된 ' Outlook과 Office 365 연결 ' 메시지](media/fac49ff8-a7f0-4e82-a271-9ec045a95de1.jpg)
-  
-6. **자동 계정 설정**에서 **수동 설치 또는 추가 서버 유형을**선택 하 고 **다음**을 클릭 합니다.
-
-7. **계정 유형 선택**에서 **Office 365**을 선택 합니다. 그런 다음 **전자 메일 주소** 상자에 이전에 복사한 감독 사서함의 주소를 입력 합니다.<br/>![' 전자 메일 주소 ' 확인란이 강조 표시 된 Outlook의 ' 계정 추가 ' 대화 상자에서 ' 계정 유형 선택 ' 페이지입니다.](media/4f601236-9f69-4cf6-a58c-0b91204aa8cb.jpg)
-  
-8. 메시지가 나타나면 Office 365 자격 증명을 입력 합니다.
-
-9. 성공 하면 **감독 — \<정책 이름\> ** 폴더가 Outlook의 폴더 목록 보기에 표시 됩니다.
 
 ## <a name="powershell-reference"></a>PowerShell 참조
 
