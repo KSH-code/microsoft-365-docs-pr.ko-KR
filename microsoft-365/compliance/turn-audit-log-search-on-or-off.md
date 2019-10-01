@@ -17,16 +17,16 @@ search.appverid:
 - MET150
 ms.assetid: e893b19a-660c-41f2-9074-d3631c95a014
 description: 보안 & 준수 센터에서 감사 로그 검색 기능을 설정할 수 있습니다. 생각이 변경 되 면 언제 든 지 설정을 해제할 수 있습니다. 감사 로그 검색이 해제 되 면 관리자가 조직의 사용자 및 관리자 활동에 대 한 Office 365 감사 로그를 검색할 수 없습니다.
-ms.openlocfilehash: c5e1106617aa4828ec2db5afcc44ac55e91f2383
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 83ef355c4acd5e0af4fd7ffbf13157307bcac930
+ms.sourcegitcommit: 53d848ebd4799b285d0f67c49b0aa24c88bd0e23
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37089149"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "37334248"
 ---
 # <a name="turn-office-365-audit-log-search-on-or-off"></a>Office 365 감사 로그 검색 켜기 또는 끄기
 
-사용자 (또는 다른 관리자)가 감사 로깅을 켜야 Office 365 감사 로그 검색을 시작할 수 있습니다. 보안 & 준수 센터에서 감사 로그 검색이 설정 된 경우 조직의 사용자 및 관리 활동이 감사 로그에 기록 되 고 90 일 동안 보존 됩니다. 그러나 조직에서 감사 로그 데이터를 기록 하 고 보존 하지 않을 수도 있습니다. 또는 타사의 SIEM (보안 정보 및 이벤트 관리) 응용 프로그램을 사용 하 여 감사 데이터에 액세스할 수 있습니다. 이러한 경우 전역 관리자가 Office 365에서 감사 로그 검색을 해제할 수 있습니다.
+사용자 (또는 다른 관리자)가 감사 로깅을 켜야 Office 365 감사 로그 검색을 시작할 수 있습니다. 보안 & 준수 센터에서 감사 로그 검색이 설정 된 경우 조직의 사용자 및 관리 활동이 감사 로그에 기록 되 고 90 일 동안 보존 됩니다. 하지만 조직에서 감사 로그 데이터를 기록 및 보존 하지 않을 수 있습니다. 또는 타사의 SIEM (보안 정보 및 이벤트 관리) 응용 프로그램을 사용 하 여 감사 데이터에 액세스할 수 있습니다. 이러한 경우 전역 관리자가 Office 365에서 감사 로그 검색을 해제할 수 있습니다.
   
 ## <a name="before-you-begin"></a>시작하기 전에
 
@@ -47,15 +47,13 @@ ms.locfileid: "37089149"
 
 1. 보안 & 준수 센터에서 **검색** \> **감사 로그 검색**으로 이동 합니다.
     
-2. **사용자 및 관리 활동 기록을 시작**합니다 .를 클릭 합니다.
+   사용자 및 관리 활동을 기록 하기 위해 감사를 설정 해야 한다는 배너가 표시 됩니다.
+
+2. **감사 설정을**클릭 합니다.
     
-    ![사용자 및 관리 활동 기록 시작을 클릭 하 여 감사를 설정 합니다.](media/39a9d35f-88d0-4bbe-a962-0be2f838e2bf.png)
+    ![감사 사용을 클릭 합니다.](media/39a9d35f-88d0-4bbe-a962-0be2f838e2bf.png)
   
-    조직의 사용자 및 관리자 활동이 Office 365 감사 로그에 기록 되 고 보고서에서 볼 수 있음을 알리는 대화 상자가 표시 됩니다. 
-    
-3. **켜기**를 클릭합니다.
-    
-    감사 로그를 준비 중 이며 준비 완료 후 몇 시간 내에 검색을 실행할 수 있음을 알리는 메시지가 표시 됩니다.
+    이 배너는 감사 로그를 준비 중 이며 몇 시간 내에 사용자 및 관리자 활동을 검색할 수 있다고 표시 하도록 업데이트 됩니다.
     
 ### <a name="use-powershell-to-turn-on-audit-log-search"></a>PowerShell을 사용 하 여 감사 로그 검색 설정
 
@@ -67,7 +65,7 @@ ms.locfileid: "37089149"
     Set-AdminAuditLogConfig -UnifiedAuditLogIngestionEnabled $true
     ```
 
-    변경 내용이 적용 되는 데 최대 60 분이 걸릴 수 있다는 메시지가 표시 됩니다.
+    변경 내용이 적용 되는 데 최대 60 분이 걸릴 수 있음을 알리는 메시지가 표시 됩니다.
   
 ## <a name="turn-off-audit-log-search"></a>감사 로그 검색 해제
 
@@ -85,14 +83,12 @@ ms.locfileid: "37089149"
     
     - PowerShell에서 다음 명령을 실행 합니다.
 
-        ```
-        Get-AdminAuditLogConfig | FL UnifiedAuditLogIngestionEnabled
-        ```
+            ```
+            Get-AdminAuditLogConfig | FL UnifiedAuditLogIngestionEnabled
+            ```
 
-        UnifiedAuditLogIngestionEnabled 속성의 `False` 값은 __ 감사 로그 검색이 해제 됨을 나타냅니다. 
+           The value of  `False` for the  _UnifiedAuditLogIngestionEnabled_ property indicates that audit log search is turned off. 
     
-    - 보안 & 준수 센터에서 **검색** \> **감사 로그 검색**으로 이동한 다음 **검색**을 클릭 합니다.
+    - 보안 & 준수 센터에서 **검색** \> **감사 로그 검색**으로 이동 합니다.
     
-      감사 로그 검색이 설정 되지 않았다는 메시지가 표시 됩니다. 
-    
-      ![감사가 해제 된 경우 메시지가 표시 됨](media/dca53da6-1cbe-4fa3-9860-f0d674de9538.png)
+           A banner is displayed saying that auditing has to be turned on in order to record user and admin activity.
