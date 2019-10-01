@@ -12,18 +12,19 @@ metadata:
   author: mjcaparas
   ms.author: macapara
   ms.date: 09/13/2019
-  ms.openlocfilehash: c0d139fe824429bf6a9185c336168b4822558833
-  ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+  localization_priority: Priority
+  ms.openlocfilehash: a621e7fab430e332c44b45a84e0e1a8272025a16
+  ms.sourcegitcommit: a77c4889c5b7d3b8f16e74917079300e8f222941
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 09/20/2019
-  ms.locfileid: "37087195"
+  ms.lasthandoff: 09/30/2019
+  ms.locfileid: "37329196"
 landingContent:
-- title: Microsoft Threat Protection
+- title: Microsoft 위협 방지
   linkLists:
   - linkListType: overview
     links:
-    - text: Microsoft Threat Protection 이란?
+    - text: Microsoft 위협 방지란 무엇인가요?
       url: mtp/microsoft-threat-protection.md
     - text: Microsoft 365 보안 센터
       url: mtp/overview-security-center.md
@@ -57,7 +58,7 @@ landingContent:
     links:
     - text: Azure 보안 센터 란?
       url: https://docs.microsoft.com/en-us/azure/security-center/security-center-intro
-    - text: 지원 되는 기능
+    - text: 지원되는 기능
       url: https://docs.microsoft.com/en-us/azure/security-center/security-center-services
 - title: Microsoft Cloud App Security
   linkLists:
