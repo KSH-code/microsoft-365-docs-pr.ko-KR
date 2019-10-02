@@ -1,5 +1,5 @@
 ---
-title: '7 단계: Office 365에 대 한 권한이 부여 된 액세스 관리 구성'
+title: '7단계: Office 365에 대한 권한이 부여된 액세스 관리 구성'
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -13,18 +13,18 @@ ms.collection:
 - M365-security-compliance
 ms.custom: ''
 description: Office 365에 대한 권한이 부여된 액세스 관리를 이해하고 구성합니다.
-ms.openlocfilehash: 7ed7a69b89a519895e62b78be4a27cfb7fff2f74
-ms.sourcegitcommit: 63e35b846d964dde5919a08c2fe432e749e8eff6
+ms.openlocfilehash: e9c68e4fafb1e9537b403965b4360806938c6a6f
+ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "37047291"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37370425"
 ---
-# <a name="step-7-configure-privileged-access-management-for-office-365"></a>7 단계: Office 365에 대 한 권한이 부여 된 액세스 관리 구성
+# <a name="step-7-configure-privileged-access-management-for-office-365"></a>7단계: Office 365에 대한 권한이 부여된 액세스 관리 구성
 
 *이 단계는 선택 사항이며 Microsoft 365 Enterprise E5 및 Advanced Compliance 버전에만 적용됩니다.*
 
-![](./media/deploy-foundation-infrastructure/infoprotection_icon-small.png)
+![6 단계: 정보 보호](./media/deploy-foundation-infrastructure/infoprotection_icon-small.png)
 
 권한이 부여된 액세스 관리는 Office 365 테넌트의 태스크 기반 활동에 대해 JIT(Just-In-Time) 액세스를 지정하는 정책을 구성하여 적용됩니다. 이 기능은 중요한 데이터에 대한 대기 없는 액세스 권한 또는 중요한 구성 설정에 대한 액세스 권한이 부여된 기존 관리자 계정을 사용할 수 있는 보안 위반으로부터 조직을 보호하는 데 도움이 될 수 있습니다. 예를 들어, Office 365 테넌트의 조직 사서함 설정을 액세스 및 변경하기 위해 명시적 승인을 요구하는 권한이 부여된 액세스 관리 정책을 구성할 수 있습니다.
 

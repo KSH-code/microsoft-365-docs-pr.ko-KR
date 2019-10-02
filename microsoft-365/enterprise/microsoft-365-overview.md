@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: Microsoft 365 Enterprise의 구성 요소, 계획 및 배포 경로에 대해 소개 합니다.
-ms.openlocfilehash: f08682709cc47dc8fa6b4fcd48dc4511ff251ba1
-ms.sourcegitcommit: 78fa107271252d902e600196a75cfa746bca73e6
+ms.openlocfilehash: 8ae6462c2d1de32aa44820f4f417b92bad6db7d3
+ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "37050289"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37370465"
 ---
 # <a name="microsoft-365-enterprise-overview"></a>Microsoft 365 Enterprise 개요
 
@@ -140,7 +140,7 @@ Microsoft 365 Enterprise의 제품, 기능 및 구성 요소를 배포 하는 �
 
 |||
 |:-------|:-----|
-![](./media/m365-poster/m365-fundamentals.svg)| 직접 훈련 하 고 Microsoft 365 인증을 받아야 합니다. <BR> [Microsoft 365 기본](https://docs.microsoft.com/learn/paths/m365-fundamentals/)사항을 사용 하 여 시작 합니다.
+![Microsoft 365 기본 교육](./media/m365-poster/m365-fundamentals.svg)| 직접 훈련 하 고 Microsoft 365 인증을 받아야 합니다. <BR> [Microsoft 365 기본](https://docs.microsoft.com/learn/paths/m365-fundamentals/)사항을 사용 하 여 시작 합니다.
 |||
 
 

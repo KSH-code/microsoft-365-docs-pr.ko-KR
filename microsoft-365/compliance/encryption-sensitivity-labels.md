@@ -1,7 +1,7 @@
 ---
 title: 민감도 레이블에서 암호화를 사용하여 콘텐츠 액세스 제한
-ms.author: stephow
-author: stephow-MSFT
+ms.author: laurawi
+author: laurawi
 manager: laurawi
 audience: Admin
 ms.topic: article
@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 민감한 레이블을 만들면 레이블이 적용되는 콘텐츠에 대한 액세스를 제한할 수 있습니다. 민감도 레이블에서 암호화를 사용하여 내용을 보호할 수 있습니다.
-ms.openlocfilehash: ea7eda3558313389bfa2bc752a469e00cc7ae577
-ms.sourcegitcommit: 328b31f69663669b3c656b2e4db529f70d1c753e
+ms.openlocfilehash: be41f60f8d0210c779fb6c5a8fdc783cf23fcc19
+ms.sourcegitcommit: c6eab4a9f1b70e7ff0db6b2a1128a4db2591cbaf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/25/2019
-ms.locfileid: "37148482"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37369449"
 ---
 # <a name="restrict-access-to-content-by-using-encryption-in-sensitivity-labels"></a>민감도 레이블에서 암호화를 사용하여 콘텐츠 액세스 제한
 
@@ -135,7 +135,7 @@ ms.locfileid: "37148482"
 
 다음 옵션을 사용하여 사용자가 민감도 레이블을 콘텐츠에 수동으로 추가할 때 사용자가 권한을 할당하도록 허용할 수 있습니다.
 
-- Outlook에서, **전달 금지** 옵션과 동등한 제한 사항을 적용할 수 있습니다. 이 옵션은 Windows용 Outlook에서 기본적으로 지원되며 Azure Information Protection 통합 레이블 지정 클라이언트를 설치할 필요가 없습니다.
+- Outlook에서, [전달 금지](https://docs.microsoft.com/azure/information-protection/configure-usage-rights#do-not-forward-option-for-emails) 옵션과 동등한 제한 사항을 적용할 수 있습니다. 이 옵션은 Windows용 Outlook에서 기본적으로 지원되며 Azure Information Protection 통합 레이블 지정 클라이언트를 설치할 필요가 없습니다.
 - Word, PowerPoint 및 Excel의 경우, 특정 사용자, 그룹 또는 조직에 대한 권한 수준을 선택하라는 메시지가 표시됩니다. 이 옵션은 이 Office 앱에서 기본적으로 지원되지 않으므로 Azure Information Protection 통합 레이블 지정 클라이언트를 설치해야 합니다.
 
 다음 옵션에서는 민감도 레이블이 표시될 앱을 결정합니다.
