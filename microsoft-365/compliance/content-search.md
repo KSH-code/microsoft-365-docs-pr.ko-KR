@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 53390468-eec6-45cb-b6cd-7511f9c909e4
 description: Office 365 또는 Microsoft 365의 준수 센터의 콘텐츠 검색 도구를 사용하여 사서함, SharePoint Online 사이트, OneDrive 계정, Microsoft Teams, Office 365 그룹 및 비즈니스용 Skype 대화에서 콘텐츠를 검색할 수 있습니다. 키워드 검색 쿼리 및 검색 조건을 사용하여 검색 결과 범위를 좁힐 수 있습니다. 그런 다음 검색 결과를 미리 보고 내보낼 수 있습니다. 또한 콘텐츠 검색은 GDPR 데이터 주체 요청과 관련된 콘텐츠를 검색하는 데 효과적인 도구입니다.
-ms.openlocfilehash: ae09d49bdb0b51986e58db72f578de7fa2a0c931
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: e3553ff2e3c8398ac4bc00258e41e8d9607b3639
+ms.sourcegitcommit: 53d848ebd4799b285d0f67c49b0aa24c88bd0e23
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37087583"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "37334258"
 ---
 # <a name="content-search-in-office-365"></a>Office 365의 콘텐츠 검색
 
@@ -409,4 +409,4 @@ New-ComplianceSecurityFilter -FilterName "SPMultiGeo-APC" -Users ediscovery-apc@
 
 - **지역** 매개 변수가 Exchange 사서함의 검색을 제어하지 않습니다. 사서함을 검색하는 경우 모든 데이터 센터가 검색됩니다. 
     
-다중 지역 환경에서 검색 권한 필터를 사용하는 방법에 대한 자세한 내용은 [Office 365에서 eDiscovery 검사에 대한 규정 준수 경계 설정](tagging-and-assessment-in-advanced-ediscovery.md#searching-and-exporting-content-in-multi-geo-environments)의 "다중 지역 환경에서 콘텐츠 검색 및 내보내기" 섹션을 참조하세요.
+다중 지역 환경에서 검색 권한 필터를 사용하는 방법에 대한 자세한 내용은 [eDiscovery 검사에 대한 규정 준수 경계 설정](set-up-compliance-boundaries.md#searching-and-exporting-content-in-multi-geo-environments)의 "다중 지역 환경에서 콘텐츠 검색 및 내보내기" 섹션을 참조하세요.
