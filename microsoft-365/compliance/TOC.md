@@ -2,6 +2,7 @@
 
 # 시작
 ## [준수 센터의 새로운 기능](whats-new.md)
+## [준수 콘텐츠의 최신 업데이트](recently-updated-topics-mcc.md)
 ## [Microsoft 365 규정 준수 센터](microsoft-365-compliance-center.md)
 ## [보안 및 준수 센터로 이동](go-to-the-securitycompliance-center.md)
 ## [무료 Azure Active Directory 구독 사용](use-your-free-azure-ad-subscription-in-office-365.md)
@@ -104,7 +105,7 @@
 ### [파일 플랜 관리자](file-plan-manager.md)
 ### [보존 레이블](labels.md)
 ### [SEC 규칙 17 a-4 준수](use-exchange-online-to-comply-with-sec-rule-17a-4.md)
-### [PowerShell을 사용하여 보존 레이블 만들기 및 게시](https://docs.microsoft.com/ko-KR/office365/securitycompliance/bulk-create-publish-labels-using-powershell)
+### [PowerShell을 사용하여 보존 레이블 만들기 및 게시](https://docs.microsoft.com/en-us/office365/securitycompliance/bulk-create-publish-labels-using-powershell)
 ### [이벤트 기반 보존](event-driven-retention.md)
 ### [이벤트 기반 보존 자동화](automate-event-driven-retention.md)
 ## [데이터 삭제](disposition-reviews.md)
@@ -125,7 +126,7 @@
 ### 파일 플랜
 #### [파일 플랜 관리자](file-plan-manager.md)
 #### [보존 레이블](labels.md)
-#### [PowerShell을 사용하여 보존 레이블 만들기 및 게시](https://docs.microsoft.com/ko-KR/office365/securitycompliance/bulk-create-publish-labels-using-powershell)
+#### [PowerShell을 사용하여 보존 레이블 만들기 및 게시](https://docs.microsoft.com/en-us/office365/securitycompliance/bulk-create-publish-labels-using-powershell)
 #### [레이블 분석을 통한 레이블 사용량 보기](label-analytics.md)
 #### [문서의 레이블 활동 보기](view-label-activity-for-documents.md)
 #### [데이터 거버넌스 보고서 보기](view-the-data-governance-reports.md)
@@ -340,7 +341,9 @@
 ### [문서 메타데이터 필드](document-metadata-fields.md)
 ### [작업 관리](manage-jobs.md)
 
-# [감사 로그 검색](search-the-audit-log-in-security-and-compliance.md)
+# 감사 및 경고 정책 관리
+## [감사 로그 검색](search-the-audit-log-in-security-and-compliance.md)
+## [알림 정책 관리](alert-policies.md)
 ## [감사 로그 검색 켜기 또는 끄기](turn-audit-log-search-on-or-off.md)
 ## [사서함 감사 관리](enable-mailbox-auditing.md)
 ## [감사 로그의 자세한 속성](detailed-properties-in-the-office-365-audit-log.md)
