@@ -13,12 +13,12 @@ search.appverid:
 ms.collection: M365-security-compliance
 ms.custom: Ent_Architecture
 description: '요약: Contoso가 높은 규제 대상 데이터에 대 한 SharePoint Online 사이트를 구현 하 여 조사 팀 간의 공동 작업을 보다 쉽게 수행할 수 있도록 합니다.'
-ms.openlocfilehash: 99599829658e5dc46c8adebfe59f5c6d09b165de
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: 6c61d02c802a77afeb93a58b59114741c6630f9e
+ms.sourcegitcommit: c6eab4a9f1b70e7ff0db6b2a1128a4db2591cbaf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34072786"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37369529"
 ---
 # <a name="sharepoint-online-site-for-highly-confidential-digital-assets-of-the-contoso-corporation"></a>Contoso Corporation의 고도로 기밀 디지털 자산을 위한 SharePoint Online 사이트
 
@@ -56,7 +56,7 @@ Contoso SharePoint 관리자가 먼저 **Research**라는 새 팀 사이트를 �
 
 다음은 SharePoint 사용 권한 수준, SharePoint 그룹 및 해당 구성원에 대 한 결과입니다.
 
-![](./media/contoso-sharepoint-online-site-for-highly-confidential-assets/spo-permissions.png)
+![SharePoint 사용 권한 수준, SharePoint 그룹 및 해당 구성원](./media/contoso-sharepoint-online-site-for-highly-confidential-assets/spo-permissions.png)
 
 다음으로, 사이트에 대 한 추가 제한을 구성 합니다.
 
@@ -88,13 +88,13 @@ Contoso 관리자는 다음과 같은 범위가 지정 된 정책에서 기본 *
 
 높은 기밀 자산에 대 한 **리서치** 사이트의 결과 구성은 다음과 같습니다.
 
-![](./media/contoso-sharepoint-online-site-for-highly-confidential-assets/final-config.png)
+![높은 기밀 자산에 대 한 * * 리서치 * * 사이트의 결과 구성](./media/contoso-sharepoint-online-site-for-highly-confidential-assets/final-config.png)
 
 **리서치** 사이트의 폴더에 있는 파일은 다음과 같은 방법으로 보호 됩니다.
 
-- 리서치 **** Azure Information Protection Sublabel- **리서치** 사이트에서 이동 하거나 복사할 때 파일과 함께 이동 하는 각 파일에 암호화 및 permssions를 적용 합니다.
+- 리서치 **Azure Information** Protection Sublabel- **리서치** 사이트에서 이동 하거나 복사할 때 파일과 함께 이동 하는 각 파일에 암호화 및 permssions를 적용 합니다.
 - **중요 한** 보존 레이블과 파일을 외부 사용자와 공유 하지 않도록 하는 설정을 사용 하는 **연구** DLP 정책입니다.
-- 리서치- **구성원** 및 연구 보안 그룹의 구성원에 대 한 액세스를 허용 하는 사이트 **** 권한 집합을 사용 하 고,이를 관리 하 **** 는 데 사용할 수 있습니다.
+- 리서치- **구성원** **및 연구 보안 그룹** 의 구성원에 대 한 액세스를 허용 하는 사이트 권한 집합을 사용 하 고,이를 관리 하 **** 는 데 사용할 수 있습니다.
 
 ## <a name="step-5-migrated-the-on-premises-sharepoint-research-data"></a>5 단계: 온-프레미스 SharePoint 조사 데이터 마이그레이션
 
@@ -107,12 +107,12 @@ Contoso 보안 직원은 조사 팀을 단계별로 진행 하는 필수 과정�
 - 새 **리서치** SharePoint Online 사이트 및 기존 파일에 액세스 하는 방법
 - 사이트에서 새 파일을 만들고 로컬에 저장된 새 파일을 업로드하는 방법
 - DLP 정책이 외부에서 파일을 공유 하지 못하도록 차단 하는 방법에 대 한 데모입니다.
-- Azure Information Protection 클라이언트를 사용 하 여 리서치 하위 레이블로 조사 파일에 **** 레이블을 지정 하는 방법
+- Azure Information Protection 클라이언트를 사용 하 여 **리서치 하위 레이블로 조사 파일** 에 레이블을 지정 하는 방법
 - **리서치** 하위 레이블이 사이트에서 누설 된 경우에도 파일을 보호 하는 방법을 보여 주는 예제입니다.
 
 최종 결과는 보안 환경에서 조직 전체에서 공동 작업을 수행할 수 있는 안전한 환경입니다. 
 
-리서치 하위 레이블이 포함 된 조사 **** 문서가 **리서치** 사이트에서 누설 되는 경우에는 암호화 되 고 유효한 자격 증명을 가진 리서치- **검토자** 보안 그룹의 구성원 에게만 액세스 가능 합니다. ****
+**리서치 하위 레이블이** 포함 된 조사 문서가 **리서치** 사이트에서 누설 되는 경우에는 암호화 되 고 유효한 자격 증명을 가진 **리서치-** **검토자** 보안 그룹의 구성원 에게만 액세스 가능 합니다.
 
 ## <a name="next-step"></a>다음 단계
 

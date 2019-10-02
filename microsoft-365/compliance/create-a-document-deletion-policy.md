@@ -1,7 +1,7 @@
 ---
 title: 문서 삭제 정책 만들기
-ms.author: stephow
-author: stephow-MSFT
+ms.author: laurawi
+author: laurawi
 manager: laurawi
 ms.date: ''
 audience: Admin
@@ -12,12 +12,12 @@ search.appverid:
 - SPO160
 ms.assetid: 41b2ed73-eb8d-4429-945e-a8197894585a
 description: 조직은 규정 준수, 법률 및 기타 규정 때문에 특정 기간 동안 문서 보존이 필요한 경우가 많습니다. 그렇지만 필요 이상으로 오랫동안 문서를 보존하면 조직은 법적 위험에 노출될 수 있습니다.
-ms.openlocfilehash: e8f85f4cc9ae541d8a962dfb270e5216c912ac7d
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 00b10e1c86160917c96ed1062f0638acf56ef56e
+ms.sourcegitcommit: 1eecd7b127462585c35b0c96a179d37db45f6013
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37087546"
+ms.lasthandoff: 10/01/2019
+ms.locfileid: "37342981"
 ---
 # <a name="create-a-document-deletion-policy"></a>문서 삭제 정책 만들기
 

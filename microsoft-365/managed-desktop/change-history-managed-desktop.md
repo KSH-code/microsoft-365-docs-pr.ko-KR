@@ -1,5 +1,5 @@
 ---
-title: Microsoft Managed Desktop 설명서에 대 한 변경 내용
+title: Microsoft Managed Desktop 문서 변경 기록
 description: 이 항목에서는 Microsoft Managed Desktop의 업데이트 된 최신 항목을 소개 합니다.
 keywords: 변경 내용
 ms.prod: m365-md
@@ -8,30 +8,35 @@ author: jaimeo
 ms.author: jaimeo
 ms.topic: article
 ms.localizationpriority: normal
-ms.openlocfilehash: a9755d1caae20694f1198dec0bf3e659bccee8ee
-ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
+ms.openlocfilehash: a982b493027775add547a87700906a6cbbdaef60
+ms.sourcegitcommit: c6eab4a9f1b70e7ff0db6b2a1128a4db2591cbaf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/14/2019
-ms.locfileid: "36982609"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37369629"
 ---
-# <a name="change-history-for-microsoft-managed-desktop-documentation"></a>Microsoft Managed Desktop 설명서에 대 한 변경 내용
+# <a name="change-history-for-microsoft-managed-desktop-documentation"></a>Microsoft Managed Desktop 문서 변경 기록
 
-이 항목에서는 [Microsoft Managed Desktop 설명서](index.yml)의 새로운 항목과 업데이트 된 항목을 나열 합니다.
+이 항목에서는 [Microsoft Managed Desktop 설명서](index.yml)의 새로운 항목과 업데이트 된 항목을 나열 합니다. "업데이트 된" 항목은 재료가 추가 되거나 수정 된 항목이 며, 오타, 스타일 또는 서식 문제를 수정 하는 것과 같은 사소한 수정 사항이 나열 되지 않습니다. [GitHub의 리포지토리](https://github.com/MicrosoftDocs/microsoft-365-docs/tree/public/microsoft-365/managed-desktop)를 방문 하 여 언제 든 지 변경 세부 정보를 비롯 하 여 특정 커밋 기록을 볼 수 있습니다.
 
-## <a name="september-2019"></a>년 9 월 2019
+## <a name="september-2019"></a>2019년 9월
 새로 만들기 또는 변경 된 항목 | 설명
 --- | ---
+[Microsoft Managed Desktop 기술](intro/technologies.md) | 업데이트 된 항목
+[최종 사용자를 위한 도움말 보기](working-with-managed-desktop/end-user-support.md) | 업데이트 된 항목
+[Microsoft Managed Desktop 장치](service-description/device-list.md) | 업데이트 된 항목
+[구성 가능한 설정 배포 및 추적-Microsoft Managed Desktop](working-with-managed-desktop/config-setting-deploy.md) | 업데이트 된 항목
+[Microsoft Managed Desktop에 대 한 관리자 지원](working-with-managed-desktop/admin-support.md) | 업데이트 된 항목
 [Microsoft Managed Desktop의 필수 구성 요소](get-ready/prerequisites.md) | 업데이트 된 항목
 [Microsoft Managed Desktop 장치 설정](get-started/set-up-devices.md) | 새 항목
 [직접 새 장치 등록](get-started/register-devices-self.md) | 업데이트 된 항목
-[직접 기존 장치 등록](get-started/register-reused-devices-self.md) | 새 항목
+[직접 기존의 장치 등록](get-started/register-reused-devices-self.md) | 새 항목
 [Microsoft Managed Desktop에서 업데이트를 처리 하는 방법](service-description/updates.md) | 업데이트 된 항목
 
 ## <a name="august-2019"></a>8 월 2019
 새로 만들기 또는 변경 된 항목 | 설명
 --- | ---
-[Microsoft 컨설팅 서비스 작업](get-ready/apps-mcs.md) | 업데이트 된 항목
+[Microsoft 컨설팅 서비스 활용](get-ready/apps-mcs.md) | 업데이트 된 항목
 [Microsoft Managed Desktop에 대 한 관리자 지원](working-with-managed-desktop/admin-support.md) | 업데이트 된 항목
 [최종 사용자를 위한 도움말 보기](working-with-managed-desktop/end-user-support.md) | 업데이트 된 항목
 [Microsoft Managed Desktop의 필수 구성 요소](get-ready/prerequisites.md) | 업데이트 된 항목
@@ -42,7 +47,7 @@ ms.locfileid: "36982609"
 ## <a name="july-2019"></a>7 월 2019 일
 새로 만들기 또는 변경 된 항목 | 설명
 --- | ---
-[Microsoft 컨설팅 서비스 작업](get-ready/apps-mcs.md) | 업데이트 된 항목
+[Microsoft 컨설팅 서비스 활용](get-ready/apps-mcs.md) | 업데이트 된 항목
 [Microsoft Managed Desktop 및 ITIL](MMD-and-ITSM.md) | 새 항목
 [장치 구성](service-description/device-policies.md) | 업데이트 된 항목
 
@@ -51,7 +56,7 @@ ms.locfileid: "36982609"
 새로 만들기 또는 변경 된 항목 | 설명
 --- | ---
 [Microsoft Managed Desktop의 앱](get-ready/apps.md) | 업데이트 된 항목
-[Microsoft 컨설팅 서비스 작업](get-ready/apps-mcs.md) | 새 항목
+[Microsoft 컨설팅 서비스 활용](get-ready/apps-mcs.md) | 새 항목
 [Microsoft Managed Desktop 역할 및 책임](intro/roles-and-responsibilities.md) | 업데이트 된 항목
 [Microsoft Managed Desktop 제품 수명 주기](service-description/device-lifecycle.md) | 새 항목
 
@@ -63,8 +68,8 @@ ms.locfileid: "36982609"
 [Microsoft Managed Desktop 지원 지역 및 언어](service-description/regions-languages.md) | 업데이트 된 항목
 [Microsoft Managed Desktop 장치](service-description/device-list.md) | 업데이트 된 항목
 [Microsoft Managed Desktop 보관 장치](service-description/archived-device-list.md) | 새 항목
-[Microsoft Managed Desktop에 대 한 매핑된 드라이브 준비](get-ready/mapped-drives.md) | 새 항목
-[Microsoft Managed Desktop에 대 한 인증서 및 네트워크 프로필 준비](get-ready/certs-wifi-lan.md) | 새 항목
+[Microsoft Managed Desktop의 매핑된 드라이브 준비](get-ready/mapped-drives.md) | 새 항목
+[Microsoft Managed Desktop 인증서 및 네트워크 프로필 준비](get-ready/certs-wifi-lan.md) | 새 항목
 [Microsoft Managed Desktop 장치 주문](get-started/devices.md) | 업데이트 된 항목
 [최종 사용자를 위한 도움말 보기](working-with-managed-desktop/end-user-support.md)
 
@@ -73,7 +78,7 @@ ms.locfileid: "36982609"
 --- | ---
 [Microsoft Managed Desktop 장치에 Intune 회사 포털 설치](get-started/company-portal.md) | 새 항목
 [Microsoft Project 및 microsoft Visio (관리 되는 데스크톱 장치) 설치](get-started/project-visio.md) | 새 항목 
-[Microsoft Managed Desktop에 대 한 온-프레미스 리소스 액세스 준비](get-ready/authentication.md) | 새 항목
+[Microsoft Managed Desktop의 온-프레미스 리소스 액세스 준비](get-ready/authentication.md) | 새 항목
 [Microsoft Managed Desktop에서 장치 등록](get-started/register-devices-self.md) | 새 항목
 [파트너에 대 한 Microsoft Managed Desktop의 장치 등록](get-started/register-devices-partner.md) | 새 항목
 [Microsoft Managed Desktop 장치에 앱 배포](get-started/deploy-apps.md) | 업데이트 된 항목
