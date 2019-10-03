@@ -31,6 +31,7 @@
 ### [민감도 레이블에서 암호화를 사용하여 콘텐츠 액세스 제한](encryption-sensitivity-labels.md)
 ### [민감도 레이블을 콘텐츠에 자동으로 적용](apply-sensitivity-label-automatically.md)
 ### [레이블 분석을 통한 레이블 사용량 보기](label-analytics.md)
+### [Office 앱의 민감도 레이블](sensitivity-labels-office-apps.md)
 
 ## [DLP(데이터 손실 방지)](data-loss-prevention-policies.md)
 ### [DLP 및 Microsoft Teams](dlp-microsoft-teams.md)
