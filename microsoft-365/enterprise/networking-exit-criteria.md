@@ -3,7 +3,7 @@ title: '1단계: 네트워킹 인프라 종료 조건'
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 03/05/2019
+ms.date: 09/23/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,16 +13,16 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 구성이 네트워킹 인프라에 대한 Microsoft 365 Enterprise 조건을 충족하는지 확인합니다.
-ms.openlocfilehash: 9d818a97e79465d639c52f96901bd1cbaa31144a
-ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
+ms.openlocfilehash: ad54284fdbd00fef486a13a957af6f06cb6a7450
+ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/14/2019
-ms.locfileid: "36982779"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37370155"
 ---
 # <a name="phase-1-networking-infrastructure-exit-criteria"></a>1단계: 네트워킹 인프라 종료 조건
 
-![](./media/deploy-foundation-infrastructure/networking_icon-small.png)
+![1 단계-네트워킹](./media/deploy-foundation-infrastructure/networking_icon-small.png)
 
 네트워킹 인프라가 다음과 같은 필수 조건 및 선택 요소에 확실히 충족하는지 확인합니다.
 
@@ -31,14 +31,14 @@ ms.locfileid: "36982779"
 
 - 사무실에 Office 365, Microsoft Intune, Windows 10 Enterprise 설치 및 업데이트를 포함하여 Microsoft 365 트래픽에 적합한 인터넷 대역폭이 있습니다.
 - 전체 네트워크가 [Office 365 참조 아키텍처](https://docs.microsoft.com/office365/enterprise/office-365-network-connectivity-principles#BKMK_P2)에 매핑됩니다.
-- 네트워크 변경 사항이 시험 및 테스트되었으며 트래픽 대기 시간 요구 사항을 충족합니다. 
+- 네트워크 변경 사항이 시험 및 테스트되었으며 트래픽 대기 시간 요구 사항을 충족합니다.
 
 필요한 경우 [1단계](networking-provide-bandwidth-cloud-services.md)를 통해 이 요구 사항을 충족할 수 있습니다.
 
 <a name="crit-networking-step2"></a>
 ## <a name="required-your-local-offices-have-local-internet-connections-and-name-resolution"></a>필수 사항: 지사에 로컬 인터넷 연결 및 이름 확인 구성
 
-해당 DNS 서버가 인터넷상의 위치를 식별하는 로컬 공용 IP 주소를 사용하도록 각 지사에 로컬 ISP를 통한 인터넷 액세스를 구성해야 합니다. 이렇게 하면 Office 365 및 Intune에 액세스하는 사용자에 대해 최상의 성능이 보장됩니다.
+해당 DNS 서버가 인터넷상의 위치를 식별하는 로컬 공용 IP 주소를 사용하도록 각 지사에 로컬 ISP를 통한 인터넷 액세스를 구성해야 합니다. 이는 Microsoft 365 클라우드 서비스에 액세스 하는 사용자에게 최상의 가능한 성능을 보장 합니다.
 
 각 지사에 로컬 ISP를 사용하지 않으면 네트워크 트래픽이 조직의 백본 또는 원격 프런트 엔드 서버에서 제공하는 데이터 요청을 통과해야 하기 때문에 성능이 저하될 수 있습니다.
 
@@ -48,7 +48,7 @@ ms.locfileid: "36982779"
 필요한 경우 [2단계](networking-dns-resolution-same-location.md)를 통해 이 요구 사항을 충족할 수 있습니다.
 
 <a name="crit-networking-step3"></a>
-## <a name="optional-unneeded-network-hairpins-are-removed"></a>선택 사항: 불필요한 네트워크 헤어핀 제거
+## <a name="optional-unneccessary-network-hairpins-are-removed"></a>선택 사항: 불필요한 네트워크 헤어핀 제거
 
 네트워크 헤어핀을 검사하고 모든 사무실의 성능에 미치는 영향을 확인했습니다. 가능한 경우 네트워크 헤어핀을 제거하거나 타사 네트워크 또는 보안 공급자와 함께 네트워크에 대한 최적 Microsoft 365 피어링을 구현했습니다.
 
@@ -83,4 +83,4 @@ Exchange Online, 비즈니스용 Skype Online, SharePoint Online 및 Project Onl
 
 |||
 |:-------|:-----|
-|![](./media/deploy-foundation-infrastructure/identity_icon-small.png)| Microsoft 365 Enterprise의 종단 간 배포 단계를 수행중인 경우 다음 단계는 [ID](identity-infrastructure.md)입니다. |
+|![2단계-ID](./media/deploy-foundation-infrastructure/identity_icon-small.png)| Microsoft 365 Enterprise의 종단 간 배포 단계를 수행중인 경우 다음 단계는 [ID](identity-infrastructure.md)입니다. |
