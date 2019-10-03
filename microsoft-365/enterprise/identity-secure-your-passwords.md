@@ -13,16 +13,16 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 조직 전체에 암호를 강력하고 관리하기 쉽도록 설정해야 합니다.
-ms.openlocfilehash: 06d936a68432b55912b1c10839336dc94e698f51
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 7bb4e0f296b320aa8a24916ded40089246308a20
+ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088610"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37370405"
 ---
 # <a name="step-2-secure-your-passwords"></a>2단계: 암호 보호
 
-![](./media/deploy-foundation-infrastructure/identity_icon-small.png)
+![2단계-ID](./media/deploy-foundation-infrastructure/identity_icon-small.png)
 
 <a name="identity-password-prot"></a>
 ## <a name="prevent-bad-passwords"></a>잘못된 암호 방지
@@ -98,4 +98,4 @@ Microsoft 365 Enterprise를 사용하는 경우 회사 로고, 색 구성표 및
 
 |||
 |:-------|:-----|
-|![](./media/stepnumbers/Step3.png)| [사용자 로그인 보안 및 관리](identity-secure-user-sign-ins.md) |
+|![3단계](./media/stepnumbers/Step3.png)| [사용자 로그인 보안 및 관리](identity-secure-user-sign-ins.md) |

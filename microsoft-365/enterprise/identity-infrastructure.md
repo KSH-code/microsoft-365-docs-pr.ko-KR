@@ -13,16 +13,16 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Microsoft 365 Enterprise에 대한 사용자의 ID 인프라를 배포하는 단계입니다.
-ms.openlocfilehash: 2d9ffcc5122b5a5dfc94fb007167655e879d6799
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: cb5b714afcacd1e21951ec9f83fd7f09cbd88662
+ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37071697"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37370445"
 ---
 # <a name="phase-2-identity"></a>2단계: ID
 
-![](./media/deploy-foundation-infrastructure/identity_icon.png)
+![2단계: ID](./media/deploy-foundation-infrastructure/identity_icon.png)
 
 Microsoft 365 Enterprise에서 적절히 계획되고 실행되는 ID 인프라는 인증된 사용자와 장치에서만 생산성 작업 및 데이터에 액세스할 수 있도록 하고 보안을 강화할 수 있는 방법을 제공합니다.
 
@@ -50,12 +50,12 @@ Microsoft 365 Enterprise에 대한 인증과 ID 모델의 개요에 대한 비�
 
 |||
 |:-------|:-----|
-|![](./media/stepnumbers/Step1.png)| [전역 관리자 계정 생성 및 보호](identity-create-protect-global-admins.md) |
-|![](./media/stepnumbers/Step2.png)| [암호를 보호](identity-secure-your-passwords.md) |
-|![](./media/stepnumbers/Step3.png)| [사용자 로그인 보안 및 관리](identity-secure-user-sign-ins.md) |
-|![](./media/stepnumbers/Step4.png)| [사용자 계정 추가](identity-add-user-accounts.md) |
-|![](./media/stepnumbers/Step5.png)| [그룹을 사용하여 관리](identity-use-group-management.md) |
-|![](./media/stepnumbers/Step6.png)| [ID 거버넌스 구성](identity-configure-identity-governance.md) |
+|![1단계](./media/stepnumbers/Step1.png)| [전역 관리자 계정 생성 및 보호](identity-create-protect-global-admins.md) |
+|![2단계](./media/stepnumbers/Step2.png)| [암호 보호](identity-secure-your-passwords.md) |
+|![3단계](./media/stepnumbers/Step3.png)| [사용자 로그인 보안 및 관리](identity-secure-user-sign-ins.md) |
+|![4단계](./media/stepnumbers/Step4.png)| [사용자 계정 추가](identity-add-user-accounts.md) |
+|![5단계](./media/stepnumbers/Step5.png)| [그룹을 사용하여 관리](identity-use-group-management.md) |
+|![6단계](./media/stepnumbers/Step6.png)| [ID 거버넌스 구성](identity-configure-identity-governance.md) |
 
 이러한 단계를 완료했으면 이 단계에 대한 [종료 조건](identity-exit-criteria.md)으로 이동하여 Microsoft 365 Enterprise ID에 대한 필수 및 선택적 조건을 충족하는지 확인하세요.
 
@@ -74,11 +74,11 @@ Microsoft의 IT 전문가가 [ID와 보안 액세스를 관리하는 방법](htt
 
 가상의 대표적 다국적 기업인 Contoso Corporation이 Microsoft 365 클라우드 서비스를 위해 [Microsoft 용 하이브리드 ID 인프라를 구축](contoso-identity.md)한 방식을 알아봅니다.
 
-![](./media/contoso-overview/contoso-icon.png)
+![Contoso Corporation](./media/contoso-overview/contoso-icon.png)
 
 
 ## <a name="next-step"></a>다음 단계
 
 |||
 |:-------|:-----|
-|![](./media/stepnumbers/Step1.png)| [전역 관리자 계정 생성 및 보호](identity-create-protect-global-admins.md) |
+|![1단계](./media/stepnumbers/Step1.png)| [전역 관리자 계정 생성 및 보호](identity-create-protect-global-admins.md) |

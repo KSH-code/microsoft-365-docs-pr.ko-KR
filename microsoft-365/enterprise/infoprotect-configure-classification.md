@@ -13,18 +13,18 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 조직에서 데이터를 분류하는 다양한 방법을 이해하고 구성합니다.
-ms.openlocfilehash: ca1b4aefca7ee63f1c8fe098c115fc4f0074d9f6
-ms.sourcegitcommit: 63e35b846d964dde5919a08c2fe432e749e8eff6
+ms.openlocfilehash: e1f0a6b9bdc4b6844037e7e873ed321942e8258e
+ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "37047301"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37370415"
 ---
 # <a name="step-2-configure-classification-for-your-environment"></a>2단계: 사용자 환경에 대한 분류 구성
 
 *이 단계는 선택 사항이며, Microsoft 365 Enterprise E3 및 E5 버전에 적용됩니다.*
 
-![](./media/deploy-foundation-infrastructure/infoprotection_icon-small.png)
+![6단계: 정보 보호](./media/deploy-foundation-infrastructure/infoprotection_icon-small.png)
 
 이 단계에서는 법률 및 준수 팀과 함께 조직의 데이터에 대한 분류 체계를 정의합니다.
 
@@ -109,5 +109,5 @@ GDPR에 대한 개인 데이터를 포함하는 예제 분류 체계는 [개인 
 
 |||
 |:-------|:-----|
-|![](./media/stepnumbers/Step3.png)|[Office 365에 대한 향상된 보안 구성](infoprotect-configure-increased-security-office-365.md)|
+|![3단계](./media/stepnumbers/Step3.png)|[Office 365에 대한 향상된 보안 구성](infoprotect-configure-increased-security-office-365.md)|
 

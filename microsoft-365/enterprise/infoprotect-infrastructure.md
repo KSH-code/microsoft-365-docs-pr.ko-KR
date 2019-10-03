@@ -13,16 +13,16 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Microsoft 365 Enterprise에 대한 정보 보호 인프라를 배포하는 단계입니다.
-ms.openlocfilehash: 3174790d1ee6c9ed05605dd1c3c75405e3eac42b
-ms.sourcegitcommit: 63e35b846d964dde5919a08c2fe432e749e8eff6
+ms.openlocfilehash: 54866ceb1fa72f404a5d255cb130c70fe180c493
+ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "37047311"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37370455"
 ---
 # <a name="phase-6-information-protection"></a>6단계: 정보 보호
 
-![](./media/deploy-foundation-infrastructure/infoprotection_icon.png)
+![6단계: 정보 보호](./media/deploy-foundation-infrastructure/infoprotection_icon.png)
 
 정보 보호는 중요한 정보를 전송, 저장 및 처리하는 방법을 정의하는 정책 및 기술 집합입니다. 6단계에서는 클라우드 기반 워크로드 및 시나리오의 데이터를 보호하는 데 유용한 Microsoft 365 Enterprise의 정보 보호 설정 및 기능을 안내합니다.
 
@@ -38,13 +38,13 @@ ms.locfileid: "37047311"
 
 |||
 |:-------|:-----|
-|![](./media/stepnumbers/Step1.png)|[보안 및 정보 보호 수준 정의](infoprotect-define-sec-infoprotect-levels.md)|
-|![](./media/stepnumbers/Step2.png)|[사용자 환경에 대한 분류 구성](infoprotect-configure-classification.md)|
-|![](./media/stepnumbers/Step3.png)|[Microsoft 365에 대한 향상된 보안 구성](infoprotect-configure-increased-security-office-365.md)|
-|![](./media/stepnumbers/Step4.png)|[WIP(Windows Information Protection) 구성](infoprotect-deploy-windows-information-protection.md)|
-|![](./media/stepnumbers/Step5.png)|[Office 365 데이터 손실 방지 구성](infoprotect-data-loss-prevention.md)|
-|![](./media/stepnumbers/Step6.png)|[전자 메일 암호화 구성](infoprotect-email-encryption.md)|
-|![](./media/stepnumbers/Step7.png)|[Office 365에 대한 권한이 부여된 액세스 관리 구성](infoprotect-configure-privileged-access-management.md)|
+|![1단계](./media/stepnumbers/Step1.png)|[보안 및 정보 보호 수준 정의](infoprotect-define-sec-infoprotect-levels.md)|
+|![2단계](./media/stepnumbers/Step2.png)|[사용자 환경에 대한 분류 구성](infoprotect-configure-classification.md)|
+|![3단계](./media/stepnumbers/Step3.png)|[Microsoft 365에 대한 향상된 보안 구성](infoprotect-configure-increased-security-office-365.md)|
+|![4단계](./media/stepnumbers/Step4.png)|[WIP(Windows Information Protection) 구성](infoprotect-deploy-windows-information-protection.md)|
+|![5단계](./media/stepnumbers/Step5.png)|[Office 365 데이터 손실 방지 구성](infoprotect-data-loss-prevention.md)|
+|![6단계](./media/stepnumbers/Step6.png)|[전자 메일 암호화 구성](infoprotect-email-encryption.md)|
+|![7단계](./media/stepnumbers/Step7.png)|[Office 365에 대한 권한이 부여된 액세스 관리 구성](infoprotect-configure-privileged-access-management.md)|
 |||
 
 이러한 단계를 완료했으면 이 단계에 대한 [종료 조건](infoprotect-exit-criteria.md)으로 이동하여 Microsoft 365 Enterprise에 대한 필수 및 선택적 조건을 충족하는지 확인하세요.
@@ -57,11 +57,11 @@ Microsoft의 IT 전문가가 [Azure Information Protection을 사용하고 데�
 
 가상의 대표적 다국적 기업인 Contoso Corporation이 Microsoft 365 클라우드 서비스에 맞게 [정보 보호를 구현](contoso-info-protect.md)한 방식을 알아봅니다.
 
-![](./media/contoso-overview/contoso-icon.png)
+![Contoso Corporation](./media/contoso-overview/contoso-icon.png)
 
 ## <a name="next-step"></a>다음 단계
 
 |||
 |:-------|:-----|
-|![](./media/stepnumbers/Step1.png)|[보안 및 정보 보호 수준 정의](infoprotect-define-sec-infoprotect-levels.md)|
+|![1단계](./media/stepnumbers/Step1.png)|[보안 및 정보 보호 수준 정의](infoprotect-define-sec-infoprotect-levels.md)|
 

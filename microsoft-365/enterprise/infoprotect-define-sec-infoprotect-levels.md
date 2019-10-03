@@ -13,18 +13,18 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 조직의 보안 및 정보 보호 수준을 이해하고 구성합니다.
-ms.openlocfilehash: a216079e38b173a8b35c49317a072975b0c7f36e
-ms.sourcegitcommit: 63e35b846d964dde5919a08c2fe432e749e8eff6
+ms.openlocfilehash: 7f1f8a2099da8d99b1b7267e245a80d2143bb0ca
+ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "37047261"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37370395"
 ---
 # <a name="step-1-define-security-and-information-protection-levels"></a>1단계: 보안 및 정보 보호 수준 정의
 
 *이 단계는 필수 사항이며, Microsoft 365 Enterprise E3 및 E5 버전에 적용됩니다.*
 
-![](./media/deploy-foundation-infrastructure/infoprotection_icon-small.png)
+![6단계: 정보 보호](./media/deploy-foundation-infrastructure/infoprotection_icon-small.png)
 
 이 단계에서는 조직의 보안 및 보호 수준을 정의합니다. 예를 들어 판매 부서는 낮은 보안 수준만 요구할 수 있습니다. 그러나 연구 부서와 연구 부서의 매우 중요한 지적 재산은 파일을 암호화하고 연구원만 액세스할 수 있도록 높은 보안 수준을 요구할 수 있습니다.
 
@@ -42,4 +42,4 @@ ms.locfileid: "37047261"
 
 |||
 |:-------|:-----|
-|![](./media/stepnumbers/Step2.png)|[사용자 환경에 대한 분류 구성](infoprotect-configure-classification.md)|
+|![2단계](./media/stepnumbers/Step2.png)|[사용자 환경에 대한 분류 구성](infoprotect-configure-classification.md)|
