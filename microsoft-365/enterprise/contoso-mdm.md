@@ -3,7 +3,7 @@ title: Contoso의 모바일 장치 관리
 author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
-ms.date: 09/13/2018
+ms.date: 10/01/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -12,19 +12,19 @@ ms.collection:
 - M365-identity-device-management
 - Strat_O365_Enterprise
 ms.custom: ''
-description: Contoso에서 Microsoft 365 Enterprise의 Intune을 사용하여 장치와 장치에서 실행 중인 앱을 관리하는 방법을 이해합니다.
-ms.openlocfilehash: 9f3db160b01a54afa3457703b0333be1ff3a02ec
-ms.sourcegitcommit: d9b462e035416bfa4b3d42467902c75859c55381
+description: Contoso에서 Microsoft 365 Enterprise의 Microsoft Intune을 사용하여 장치와 장치에서 실행 중인 앱을 관리하는 방법을 이해합니다.
+ms.openlocfilehash: b083b7fed67eb08b47daf70c3fd22c181f5a8f77
+ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "36054990"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37370485"
 ---
 # <a name="mobile-device-management-for-contoso"></a>Contoso의 모바일 장치 관리
 
-**요약:** Contoso에서 Microsoft 365 Enterprise의 Intune을 사용하여 장치와 장치에서 실행 중인 앱을 관리하는 방법을 이해합니다.
+**요약:** Contoso에서 Microsoft 365 Enterprise의 Microsoft Intune을 사용하여 장치와 장치에서 실행 중인 앱을 관리하는 방법을 이해합니다.
 
-Microsoft 365 Enterprise에는 모바일 장치 및 응용 프로그램의 관리와 보안을 지원하기 위한 Azure 서비스 집합과 Microsoft Intune이 포함되어 있습니다.
+Microsoft 365 Enterprise에는 모바일 장치 및 응용 프로그램의 관리와 보안을 지원하기 위한 Azure 서비스 집합과 Intune이 포함되어 있습니다.
 
 Contoso에는 많은 모바일 사용 직원이 있으며, 일부는 Contoso 위치에 사무실을 보유하고, 일부는 사무실이 없습니다. Contoso는 직원 생산성을 유지하면서 장치, 해당 장치에 저장된 Contoso 데이터 및 응용 프로그램 동작을 안전하게 유지하는 방법이 필요했습니다.
 
@@ -64,6 +64,10 @@ Contoso가 모바일 장치 관리 인프라를 설정하는 방법은 다음과
   - 기업 및 개인 데이터의 명확한 분리. 사용자 또는 관리자는 그림, 개인 전자 메일 계정 및 개인 파일과 같은 개인 데이터는 그대로 두면서 장치에서 회사 데이터를 선택적으로 초기화할 수 있습니다.
 
 배포가 끝난 후에 Contoso는 PC 및 회사 소유의 스마트폰과 태블릿을 해당 Intune 장치 그룹에 추가하여 등록한 후, 직원이 개인 장치를 등록할 수 있는 BYOD 프로그램을 롤아웃했습니다. 등록된 장치에는 Intune 정책이 수신되므로 장치 및 해당 응용 프로그램을 관리하고 보안을 유지할 수 있습니다. 등록되지 않은 장치에는 허용되는 응용 프로그램을 지정하는 MAM(모바일 응용 프로그램 관리) 정책이 적용됩니다.
+
+여기 Contoso의 모바일 장치 관리 배포 구조가 있습니다.
+
+![Contoso의 모바일 장치 관리 배포 인프라](./media/contoso-mdm/contoso-mdm-fig1.png)
 
 ## <a name="next-step"></a>다음 단계
 
