@@ -3,7 +3,7 @@ title: Contoso의 Windows 10 Enterprise 배포
 author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
-ms.date: 09/13/2018
+ms.date: 10/01/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,18 +13,18 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 어떻게 Contoso에서 System Center Configuration Manager를 사용하여 Windows 10 Enterprise의 현재 위치에서 업그레이드를 배포했는지를 이해합니다.
-ms.openlocfilehash: 03ee4d9efcedf42eb976e001411299d2080abf83
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: a63a973bed4bf62ebf7c2534d4c55a4e3b8ef60c
+ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34073858"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37370475"
 ---
 # <a name="windows-10-enterprise-deployment-for-contoso"></a>Contoso의 Windows 10 Enterprise 배포
 
 **요약:** 어떻게 Contoso에서 System Center Configuration Manager를 사용하여 Windows 10 Enterprise의 현재 위치에서 업그레이드를 배포했는지를 이해합니다.
 
-Microsoft 365 Enterprise의 광범위한 롤아웃 전에, Contoso는 Windows 7(10%), Windows 8.1(65%) 및 Windows 10(25%)이 실행되는 Windows 호환 PC 및 장치를 보유했습니다. Contoso는 자동화된 업데이트 배포를 통해 보안을 향상시키고 IT 오버헤드를 낮추기 위해 Windows 10 Enterprise용 PC를 업그레이드하기 원했습니다. 
+Microsoft 365 Enterprise의 광범위한 출시 전에, Contoso는 Windows 7(10%), Windows 8.1(65%) 및 Windows 10(25%)이 실행되는 Windows 호환 PC 및 장치를 보유했습니다. Contoso는 자동화된 업데이트 배포를 통해 보안을 향상시키고 IT 오버헤드를 낮추기 위해 Windows 10 Enterprise용 PC를 업그레이드하기를 원했습니다. 
 
 Contoso는 해당 인프라 및 비즈니스 요구를 파악한 후 다음과 같은 핵심 배포 요구 사항을 확인했습니다.
 
@@ -45,11 +45,11 @@ Windows 10 Enterprise의 현재 위치 업그레이드 이전 및 도중에 Cont
 
 - 준수 업데이트  
 
-  Windows 업데이트 설치 진행 상황, WUfB(비즈니스용 Windows 업데이트) 구성 데이터, Windows Defender 바이러스 백신 데이터 및 기타 업데이트 관련 정보를 비롯한 시스템 및 진단 데이터를 수집한 후 클라우드 분석 및 사용을 위해 이 데이터를 저장합니다.
+  Windows 업데이트와 관련된 장치의 상태를 표시 하여 최신 업데이트를 적절하게 유지할 수 있도록 해줍니다.
 
 - 장치 상태  
 
-  Windows 업데이트 설치 진행 상황, WUfB(비즈니스용 Windows 업데이트) 구성 데이터, Windows Defender 바이러스 백신 데이터 및 기타 업데이트 관련 정보를 비롯한 Windows 10 시스템 및 진단 데이터를 수집한 후 클라우드 분석 및 사용을 위해 이 데이터를 저장합니다.
+  자주 충돌이 발생하여 다시 제조하거나 대체할 필요가 있는 장치 및 장치의 충돌을 발생시키는 장치 드라이버와 충돌 횟수를 줄일 수 있는 이들 드라이버의 대체 버전에 대한 제안과 함께 식별 합니다. 최종 사용자에게 프롬프트를 보내는 Windows Information Protection의 잘못된 구성에 대해 알립니다.
  
 Contoso는 기존의 System Center Configuration Manager(현재 분기) 인프라가 있습니다. Configuration Manager는 대규모 환경에 맞게 확장되며, 설치, 업데이트 및 설정을 포괄적으로 제어할 수 있도록 합니다. 그뿐 아니라 Windows 10 Enterprise를 보다 쉽고 효율적으로 배포 및 관리할 수 있도록 하는 기본 제공 기능도 제공합니다.
 
@@ -75,20 +75,18 @@ Windows 10 Enterprise의 현재 위치 업그레이드 배포를 완료하기 �
 4. Windows Analytics의 장치 상태 및 업데이트 준수 솔루션을 사용하여 3개의 유효성 검사 및 배포 준비 링의 PC 및 장치에 대한 배포 성공 여부를 평가했습니다.
 5. Windows Analytics 정보에 따라 Contoso는 광범위한 배포 링에 배포할 Windows 10 Enterprise의 버전을 확인했습니다.
 6. Configuration Manager 배포 작업 시퀀스를 실행하여 광범위한 배포 링에 선택한 Windows 패키지를 배포했습니다.
-7. Windows Analytics에서 문제 해결을 위해 제공하는 장치 상태 및 업데이트 준수 솔루션을 사용하여 광범위한 배포 링의 PC 및 장치를 모니터링했습니다.
+7. 문제 해결을 위해 제공하는 장치 상태 및 업데이트 준수 솔루션을 사용하여 광범위한 배포 링의 PC 및 장치를 모니터링했습니다.
 
-그림 1은 현재 위치 업그레이드 및 지속적인 업데이트 배포 아키텍처를 보여 줍니다.
+Contoso의 현재 위치 업그레이드 및 지속적인 업데이트 배포 아키텍처는 다음과 같습니다.
 
-![](./media/contoso-win10/contoso-win10-fig1.png)
- 
-**그림 1: Contoso의 Windows 10 Enterprise 배포 인프라**
+![Contoso의 Windows 10 Enterprise 배포 인프라](./media/contoso-win10/contoso-win10-fig1.png)
 
 이 인프라는 다음으로 구성됩니다.
 
 - 다음이 적용되는 System Center Configuration Manager
   - Microsoft Network의 Microsoft 볼륨 라이선스 센터에서 Windows 10 Enterprise 패키지에 대한 이미지를 가져옵니다.
   - 배포 패키지에 대한 중앙 관리 지점
-- 일반적으로 Contoso의 위성 사무실에 있는 지역별 배포 지점
+- 일반적으로 Contoso의 지역 허브 사무실에 있는 지역별 배포 지점
 - 링 멤버 자격에 따라 현재 위치 업그레이드 또는 지속적인 업데이트용 배포 패키지를 수신하여 설치하는 다양한 위치의 Windows PC 및 장치
 
 ## <a name="next-step"></a>다음 단계

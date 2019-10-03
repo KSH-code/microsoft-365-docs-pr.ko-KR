@@ -16,12 +16,12 @@ ms.assetid: e3c6df61-8513-499d-ad8e-8a91770bff63
 ms.collection:
 - M365-security-compliance
 description: Microsoft 365 준수 센터의 기능과 마찬가지로, 도움말 콘텐츠는 항상 발전 하 고 있습니다. Microsoft에서는 피드백에 따라 계속 새 문서를 만들고, 기존 기사를 업데이트 하 고, 변경 작업을 수행 하 고 있습니다. 이번 달의 새로운 기능과 업데이트 된 기능에 대해 알아보세요.
-ms.openlocfilehash: 744c1822331c71e718007105f58d1bc64b3c70df
-ms.sourcegitcommit: c6eab4a9f1b70e7ff0db6b2a1128a4db2591cbaf
+ms.openlocfilehash: d610ab37312a1305809d740a9353822293c48df0
+ms.sourcegitcommit: 3a632d8ec009abf1aac57363eaf78aeeda5db136
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 10/02/2019
-ms.locfileid: "37369656"
+ms.locfileid: "37376133"
 ---
 # <a name="recent-updates-to-microsoft-365-compliance-content"></a>Microsoft 365 준수 콘텐츠에 대 한 최신 업데이트
 
@@ -36,7 +36,7 @@ Microsoft 365 준수 센터의 기능과 마찬가지로, 도움말 콘텐츠는
 
 [일반적인 eDiscovery 문제 조사, 문제 해결 및 해결](ediscovery-troubleshooting-common-issues.md) (신규)<br> EDiscovery 검색 중에 발생할 수 있는 문제를 파악 하 고 해결 하기 위해 수행할 수 있는 기본 문제 해결 단계를 포함 합니다.
 
-###<a name="supervision"></a>감독
+### <a name="supervision"></a>감독
 
 [조직에 대 한 감독 정책 구성](configure-supervision-policies.md) (업데이트 됨)<br>Outlook을 사용한 검토에 대 한 세부 정보가 제거 되었습니다. 대신, 감독 사용자 인터페이스에서 사용할 수 있는 검토 및 태그 지정 옵션을 사용 합니다.
 

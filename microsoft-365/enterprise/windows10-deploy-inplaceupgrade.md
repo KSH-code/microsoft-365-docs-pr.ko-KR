@@ -10,18 +10,18 @@ ms.prod: microsoft-365-enterprise
 ms.topic: article
 ms.date: 08/30/2018
 ms.author: greglin
-ms.openlocfilehash: f7f1b8377769545c4399f54b0f2eab99a656d24f
-ms.sourcegitcommit: 18e03ab333175eccfc89e38b081022746976e513
+ms.openlocfilehash: 3e37cebc1721a1bdcce0a30223a8beeb38868e82
+ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/09/2019
-ms.locfileid: "35595304"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37370085"
 ---
 # <a name="step-2-deploy-windows-10-enterprise-for-existing-devices-as-an-in-place-upgrade"></a>2 단계: 현재 위치 업그레이드로 기존 장치에 대 한 Windows 10 Enterprise 배포
 
 *이 문서는 Microsoft 365 Enterprise E3 및 E5 버전에 모두 적용 됩니다.*
 
-![](./media/deploy-foundation-infrastructure/win10enterprise_icon-small.png)
+![3단계: Windows 10 Enterprise](./media/deploy-foundation-infrastructure/win10enterprise_icon-small.png)
 
 현재 Windows 7 또는 Windows 8.1를 실행 하는 Pc를 Windows 10으로 업그레이드 하는 가장 간단한 경로는 전체 업그레이드를 사용 하는 것입니다. System Center Configuration Manager (Configuration Manager) 작업 시퀀스를 사용 하 여 프로세스를 완벽 하 게 자동화할 수 있습니다. 
 
@@ -141,7 +141,7 @@ Windows 10 배포를 시작 하기 전에 다음 요구 사항을 검토 하십�
 
 |||
 |:-------|:-----|
-|![](./media/stepnumbers/Step3.png)| [Windows Autopilot를 사용 하 여 새 장치에 Windows 10 Enterprise 배포](windows10-deploy-autopilot.md) |
+|![3단계](./media/stepnumbers/Step3.png)| [Windows Autopilot를 사용 하 여 새 장치에 Windows 10 Enterprise 배포](windows10-deploy-autopilot.md) |
 
 
 

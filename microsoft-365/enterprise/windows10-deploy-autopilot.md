@@ -1,7 +1,7 @@
 ---
-title: windows Autopilot를 사용 하 여 새 장치에 windows 10 Enterprise 배포
-description: windows Autopilot를 사용 하 여 windows 10 Enterprise를 구성 및 배포 하기 위한 지침을 제공 합니다.
-keywords: microsoft 365, microsoft 365 Enterprise, microsoft 365 설명서, windows 10 Enterprise, deployment, windows Autopilot
+title: Windows Autopilot를 사용 하 여 새 장치에 Windows 10 Enterprise 배포
+description: Windows Autopilot를 사용 하 여 Windows 10 Enterprise를 구성 및 배포 하기 위한 지침을 제공 합니다.
+keywords: Microsoft 365, Microsoft 365 Enterprise, Microsoft 365 설명서, Windows 10 Enterprise, deployment, Windows Autopilot
 author: greg-lindsay
 localization_priority: Normal
 ms.collection: M365-modern-desktop
@@ -10,22 +10,22 @@ ms.prod: microsoft-365-enterprise
 ms.topic: article
 ms.date: 08/30/2018
 ms.author: greglin
-ms.openlocfilehash: f173bd2357d445b502a4b28b60399d5cdb087cd0
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 2ce02826ae2b0661d3b893c1074e692ce93cf9f3
+ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32289258"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37370285"
 ---
-# <a name="step-3-deploy-windows-10-enterprise-for-new-devices-with-windows-autopilot"></a>3 단계: windows Autopilot를 사용 하 여 새 장치에 windows 10 Enterprise 배포
+# <a name="step-3-deploy-windows-10-enterprise-for-new-devices-with-windows-autopilot"></a>3 단계: Windows Autopilot를 사용 하 여 새 장치에 Windows 10 Enterprise 배포
 
 *이 문서는 Microsoft 365 Enterprise E3 및 E5 버전에 모두 적용 됩니다.*
 
-![](./media/deploy-foundation-infrastructure/win10enterprise_icon-small.png)
+![3단계: Windows 10 Enterprise](./media/deploy-foundation-infrastructure/win10enterprise_icon-small.png)
 
-새 Windows 10 pc가 있는 경우 windows Autopilot을 사용 하 여 조직의 OOBE (기본 제공 경험)를 사용자 지정 하 고 앱 및 설정이 이미 구성 된 새 시스템을 배포할 수 있습니다. 배포할 이미지가 없으며, 드라이버를 주입할 수 없으며 관리할 인프라가 없습니다. 사용자는 IT 관리자에 게 문의 하지 않아도 배포 프로세스를 독립적으로 진행할 수 있습니다.
+새 Windows 10 Pc가 있는 경우 Windows Autopilot을 사용 하 여 조직의 OOBE (기본 제공 경험)를 사용자 지정 하 고 앱 및 설정이 이미 구성 된 새 시스템을 배포할 수 있습니다. 배포할 이미지가 없으며, 드라이버를 주입할 수 없으며 관리할 인프라가 없습니다. 사용자는 IT 관리자에 게 문의 하지 않아도 배포 프로세스를 독립적으로 진행할 수 있습니다.
 
-새 windows 10 장치를 설정 하 고 사전 구성할 수 있으며 windows Autopilot을 사용 하 여 생산적으로 사용할 준비가 되었습니다. 혜택 및 windows Autopilot 시나리오를 비롯 한 windows Autopilot에 대 한 자세한 내용은 [Overview for windows Autopilot](https://docs.microsoft.com/windows/deployment/windows-Autopilot/windows-10-Autopilot)를 참조 하십시오. 준비가 되 면 다음 부분에 따라 새 장치 설정을 시작 합니다.
+새 Windows 10 장치를 설정 하 고 사전 구성할 수 있으며 Windows Autopilot을 사용 하 여 생산적으로 사용할 준비가 되었습니다. 혜택 및 Windows Autopilot 시나리오를 비롯 한 Windows Autopilot에 대 한 자세한 내용은 [Overview For Windows Autopilot](https://docs.microsoft.com/windows/deployment/windows-Autopilot/windows-10-Autopilot)를 참조 하십시오. 준비가 되 면 다음 부분에 따라 새 장치 설정을 시작 합니다.
 
 ## <a name="part-1-start-windows-autopilot-deployment"></a>1 부: Windows Autopilot 배포 시작
 [Windows Autopilot 개요](https://docs.microsoft.com/windows/deployment/windows-Autopilot/windows-10-Autopilot) 를 참조 하세요.
@@ -33,7 +33,7 @@ ms.locfileid: "32289258"
 1. Windows Autopilot 배포에 대 한 필수 구성 요소 및 완료 방법을 설명 합니다. 필수 구성 요소는 다음과 같습니다.
     - **장치 등록 및 OOBE 사용자 지정**
 
-        장치를 등록 하려면 하드웨어 ID를 취득 하 여 등록 해야 합니다. microsoft는 다양 한 하드웨어 공급 업체와 협력 하 여 필요한 정보를 제공 하거나 대신 업로드 하도록 합니다. 장치의 하드웨어 ID와 함께 .csv 파일을 생성 하는 PowerShell 스크립트를 사용 하 여이 정보를 직접 캡처할 수도 있습니다.
+        장치를 등록 하려면 하드웨어 ID를 취득 하 여 등록 해야 합니다. Microsoft는 다양 한 하드웨어 공급 업체와 협력 하 여 필요한 정보를 제공 하거나 대신 업로드 하도록 합니다. 장치의 하드웨어 ID와 함께 .csv 파일을 생성 하는 PowerShell 스크립트를 사용 하 여이 정보를 직접 캡처할 수도 있습니다.
 
         장치를 등록 한 후에는 개인 정보 설정 및 EULA 건너뛰기를 포함 하 여 구성할 수 있는 OOBE 사용자 지정 옵션이 있습니다.
 
@@ -47,7 +47,7 @@ ms.locfileid: "32289258"
 
     - **Windows Autopilot에서 사용되는 클라우드 서비스에 대한 네트워크 연결**
 
-        windows Autopilot 배포 프로그램은 다양 한 클라우드 서비스를 사용 하 여 장치를 생산적 상태로 가져오고, 이러한 서비스는 Windows Autopilot 장치로 등록 된 장치에서 액세스할 수 있어야 합니다. 
+        Windows Autopilot 배포 프로그램은 다양 한 클라우드 서비스를 사용 하 여 장치를 생산적 상태로 가져오고, 이러한 서비스는 Windows Autopilot 장치로 등록 된 장치에서 액세스할 수 있어야 합니다. 
 
     - **장치에는 Windows 10, 버전 1703 이상이 미리 설치되어 있어야 합니다.**
 
@@ -57,12 +57,12 @@ ms.locfileid: "32289258"
     - **파트너 센터**
 
 ## <a name="part-2-set-up-a-windows-10-device-for-microsoft-365"></a>2 부: Microsoft 365 용 Windows 10 장치 설정
-Microsoft 365 사용자를 위해 windows 장치를 설정 하기 전에 모든 windows 장치가 windows 10, 버전 1703 (크리에이터 업데이트) 이상을 실행 하 고 있는지 확인 합니다.
+Microsoft 365 사용자를 위해 Windows 장치를 설정 하기 전에 모든 Windows 장치가 Windows 10, 버전 1703 (크리에이터 업데이트) 이상을 실행 하 고 있는지 확인 합니다.
 
-조직의 모든 windows 장치가 windows 10 크리에이터 업데이트로 업그레이드 되었거나 이미 windows 10 크리에이터 업데이트를 실행 하 고 있는 경우 이러한 장치를 조직의 Azure Active Directory에 연결할 수 있습니다.
+조직의 모든 Windows 장치가 Windows 10 크리에이터 업데이트로 업그레이드 되었거나 이미 Windows 10 크리에이터 업데이트를 실행 하 고 있는 경우 이러한 장치를 조직의 Azure Active Directory에 연결할 수 있습니다.
 
 ### <a name="set-up-a-brand-new-or-newly-upgraded-windows-10-device"></a>새로운 또는 새로 업그레이드 된 Windows 10 장치 설치
-windows 10 크리에이터 업데이트 (또는 이상)를 실행 하는 새 장치 또는 windows 10 크리에이터 업데이트 이상으로 업그레이드 한 장치에서 windows 10 OOBE를 사용 하 여 장치를 설정 하려면 다음 단계를 수행 합니다.
+Windows 10 크리에이터 업데이트 (또는 이상)를 실행 하는 새 장치 또는 Windows 10 크리에이터 업데이트 이상으로 업그레이드 한 장치에서 windows 10 OOBE를 사용 하 여 장치를 설정 하려면 다음 단계를 수행 합니다.
 
 1. 무선 네트워크가 구성 되어 있지 않은 경우 유선 또는 이더넷 연결을 통해 장치를 인터넷에 연결 해야 합니다.
 2. Windows 장치 설치 환경을 진행 합니다. 새로 만들거나 다시 설정 하는 장치에서는 설정 환경이 **Let의 시작 지역으로 시작 합니다. 적절 하나요?** 화면의.
@@ -75,7 +75,7 @@ windows 10 크리에이터 업데이트 (또는 이상)를 실행 하는 새 장
 ### <a name="set-up-a-device-that-has-already-completed-out-of-box-setup"></a>기본 설치가 이미 완료 된 장치 설정
 장치에 Windows 10 크리에이터 업데이트 (또는 이상)가 있고 기본 설정 설정이 이미 완료 된 경우에는 다음 단계를 수행 합니다.
 
-1. windows 10을 실행 하는 사용자의 windows PC, 버전 1703 (작성자 업데이트)에서 **windows** 로고를 선택 하 고 **설정** 아이콘을 선택 합니다.
+1. Windows 10을 실행 하는 사용자의 Windows PC, 버전 1703 (작성자 업데이트)에서 **windows** 로고를 선택 하 고 **설정** 아이콘을 선택 합니다.
 2. **설정**에서 **계정**으로 이동합니다.
 3. **정보** 페이지에서 **회사 또는 학교** > **연결**액세스를 선택 합니다.
 4. **회사 또는 학교 계정 설정** 대화 상자의 **대체 작업**에서 **Azure Active Directory에이 장치 가입**을 선택 합니다.
@@ -104,7 +104,7 @@ windows 10 크리에이터 업데이트 (또는 이상)를 실행 하는 새 장
 
 |||
 |:-------|:-----|
-|![](./media/stepnumbers/Step4.png)| [장치 상태 및 준수 모니터링](windows10-enable-windows-analytics.md) |
+|![4단계](./media/stepnumbers/Step4.png)| [장치 상태 및 준수 모니터링](windows10-enable-windows-analytics.md) |
 
 
 

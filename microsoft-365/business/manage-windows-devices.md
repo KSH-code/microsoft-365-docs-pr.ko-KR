@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 9b4de218-f1ad-41fa-a61b-e9e8ac0cf993
 description: Microsoft 365에서 로컬 AD에 가입 된 Windows 10 장치를 보호 하도록 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: d1dbfc6a35d54db653ae0f911fad05ac2ce0a993
-ms.sourcegitcommit: 6003d6da0a85c97357eb3dba3918eb145f381fe1
+ms.openlocfilehash: 452e884f952a4b2c2e87148bb7203ed48a48d944
+ms.sourcegitcommit: 3a632d8ec009abf1aac57363eaf78aeeda5db136
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37288038"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37376098"
 ---
 # <a name="enable-domain-joined-windows-10-devices-to-be-managed-by-microsoft-365-business"></a>도메인에 가입 된 Windows 10 장치를 Microsoft 365 Business에서 관리할 수 있도록 설정
 
@@ -39,7 +39,7 @@ ms.locfileid: "37288038"
 
    - **Mail**, **proxyAddresses**및 **userPrincipalName**특성에 대 한 중복 된 디렉터리가 디렉터리에 없는지 확인 합니다. 이러한 값은 고유 해야 하며 모든 중복 항목을 제거 해야 합니다.
    
-   - 각 로컬 사용자 계정에 대 한 **userPrincipalName** (UPN) 특성은 라이선스가 부여 된 Microsoft 365 사용자에 해당 하는 기본 전자 메일 주소와 일치 하도록 구성 하는 것이 좋습니다. 예를 들어 *shelley @<span>contoso를 예로<span> 들 있습니다. * *mary @ contoso. 로컬* 이 아닌 com
+   - 각 로컬 사용자 계정에 대 한 **userPrincipalName** (UPN) 특성은 사용이 허가 된 Microsoft 365 사용자에 해당 하는 기본 전자 메일 주소와 일치 하도록 구성 하는 것이 좋습니다. 예를 들어 *mary.shelley@contoso.com* 는 *mary @ contoso. 로컬* 이 아닌
    
    - Active Directory 도메인이 *.com* 또는 *org*와 같이 라우팅할 수 없는 접미사로 끝나는 *경우, 로컬*사용자 계정의 UPN 접미사는 다음에 설명 된 대로 먼저 조정 해야 합니다 (예: " *).* [디렉터리 동기화를 위해 라우팅할 수 없는 도메인을 준비](https://docs.microsoft.com/office365/enterprise/prepare-a-non-routable-domain-for-directory-synchronization)합니다. 
 

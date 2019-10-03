@@ -10,18 +10,18 @@ ms.prod: microsoft-365-enterprise
 ms.topic: article
 ms.date: 06/01/2018
 ms.author: josephd
-ms.openlocfilehash: 5deae85ae614079c23a373d4ecae7ce81aeb3fcd
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: aafd629b4efcfa1307a25bf8e340236f183998b5
+ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37071777"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37370245"
 ---
 # <a name="step-1-prepare-your-organization-for-windows-10-enterprise"></a>1 단계: Windows 10 Enterprise에 대 한 조직 준비
 
 *이 문서는 Microsoft 365 Enterprise E3 및 E5 버전에 모두 적용 됩니다.*
 
-![](./media/deploy-foundation-infrastructure/win10enterprise_icon-small.png)
+![3단계: Windows 10 Enterprise](./media/deploy-foundation-infrastructure/win10enterprise_icon-small.png)
 
 장치를 Windows 10 Enterprise로 업그레이드 하기 전에 다음 사항을 고려 하세요.
 
@@ -67,7 +67,7 @@ Windows 진단 데이터에 대 한 자세한 내용을 확인 하 고 선택한
 
 |||
 |:-------|:-----|
-|![](./media/stepnumbers/Step2.png)| [현재 위치 업그레이드로 기존 장치에 대 한 Windows 10 Enterprise 배포](windows10-deploy-inplaceupgrade.md) |
+|![목록 1의 텍스트](./media/stepnumbers/Step2.png)| [현재 위치 업그레이드로 기존 장치에 대 한 Windows 10 Enterprise 배포](windows10-deploy-inplaceupgrade.md) |
 
 
 
