@@ -3,7 +3,7 @@ title: Contoso Corporation에 대한 네트워킹
 author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
-ms.date: 09/18/2018
+ms.date: 10/01/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -12,31 +12,31 @@ ms.collection:
 - M365-subscription-management
 - Strat_O365_Enterprise
 ms.custom: ''
-description: Contoso 네트워킹 인프라와 이 인프라가 Microsoft 365 Enterprise 클라우드 기반 서비스에 대해 최적 성능의 네트워크 연결을 설정하기 위해 SD-WAN 기술을 사용하는 방법을 이해합니다.
-ms.openlocfilehash: 8eb6f17ffd7974169c0131fa81f05939a54854e1
-ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
+description: Contoso 네트워킹 인프라와 이 인프라가 Microsoft 365 Enterprise 클라우드 서비스에 최적의 성능을 제공하기 위해 SD-WAN 기술을 사용하는 방법을 이해합니다.
+ms.openlocfilehash: f448296828f350560451727efdd96097862da8dc
+ms.sourcegitcommit: c6eab4a9f1b70e7ff0db6b2a1128a4db2591cbaf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/14/2019
-ms.locfileid: "36982109"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37369549"
 ---
 # <a name="networking-for-the-contoso-corporation"></a>Contoso Corporation에 대한 네트워킹
 
-**요약:** Contoso 네트워킹 인프라와 이 인프라가 Microsoft 365 Enterprise 클라우드 기반 서비스에 대해 최적 성능의 네트워크 연결을 설정하기 위해 SD-WAN 기술을 사용하는 방법을 이해합니다.
+**요약**Contoso 네트워킹 인프라와 이 인프라가 Microsoft 365 Enterprise 클라우드 서비스에 최적의 성능을 제공하기 위해 SD-WAN 기술을 사용하는 방법을 이해합니다.
 
-Contoso의 네트워크 엔지니어들은 클라우드 포함 인프라를 채택하기 위해 클라우드 기반 서비스로의 네트워크 트래픽이 이동되는 방식이 기본적으로 달라진다는 사실을 인식했습니다. 본사의 네트워크 연결에 초점을 맞추는 허브 및 스포크 모델 대신, 사용자 위치를 인터넷의 Microsoft 네트워크 위치에 대한 로컬 인터넷 송신 및 로컬 연결에 매핑하기 위한 작업을 진행했습니다.
+Contoso의 네트워크 엔지니어들은 클라우드 포함 인프라를 채택하기 위해 클라우드 서비스로의 네트워크 트래픽이 이동되는 방식이 기본적으로 달라진다는 사실을 인식했습니다. 네트워크 연결 및 Contoso 사무실 계층 구조의 다음 단계 트래픽에 초점을 맞추는 내부 허브 및 스포크 모델 대신에 그들은 사용자 위치를 인터넷상의 가장 근전한 Microsoft 365 네트워크 위치로의 로컬 인터넷 송신 및 로컬 연결에 매핑하기 위한 작업을 진행했습니다.
 
 ## <a name="contosos-networking-infrastructure"></a>Contoso의 네트워킹 인프라
 
 다음은 전 세계의 사무실을 연결하는 Contoso의 네트워크 요소입니다.
 
-- MPLS WAN 네트워크
+- 멀티 프로토콜 레이블 전환 (MPLS) WAN 네트워크
 
-  MPLS WAN 네트워크는 스포크 및 허브 구성에서 파리 본사를 지점으로, 지점을 위성 사무실로 연결합니다. 이러한 연결은 사용자가 파리 사무실에서 LOB(기간 업무) 응용 프로그램을 구성하는 온-프레미스 서버에 액세스할 수 있도록 하기 위한 것입니다. 또한 모든 일반 인터넷 트래픽은 네트워크 보안 장치가 요청을 스크럽하는 파리 사무실로 라우팅됩니다. 각 사무실 내에서 라우터는 호스트 또는 개인 IP 주소 공간을 사용하는 서브넷의 무선 액세스 지점으로 트래픽을 전달합니다.
+  MPLS WAN 네트워크는 스포크 및 허브 구성에서 파리 본사를 지점으로, 지점을 위성 사무실로 연결합니다. 이러한 연결은 사용자가 파리 사무실에서 LOB(기간 업무) 응용 프로그램을 구성하는 온-프레미스 서버에 액세스할 수 있도록 하기 위한 것입니다. 또한 모든 일반 인터넷 트래픽은 네트워크 보안 장치가 요청을 스크럽하는 파리 사무실로 라우팅됩니다. 각 사무실 내에서 라우터는 유선 호스트 또는 개인 IP 주소 공간을 사용하는 서브넷의 무선 액세스 지점으로 트래픽을 전달합니다.
 
 - Office 365 트래픽에 대한 로컬 직접 인터넷 액세스
 
-  각 사무실에는 여러 로컬 인트라넷 ISP 네트워크 회로 중 하나를 사용하며 프록시 서버를 통해 고유한 인터넷 연결을 유지하는 SD-WAN 장치가 있습니다. 이러한 연결은 일반적으로 프록시 서버에 대해 공용 IP 주소 및 로컬 DNS 서버 IP 주소도 제공하는 로컬 ISP에 대한 WAN 연결로 구현됩니다.
+  각 사무실에는 여러 로컬 인트라넷 ISP 네트워크 회로 중 하나를 사용하며 프록시 서버를 통해 고유한 인터넷 연결을 유지하는 SD-WAN(소프트웨어 정의 WAN) 장치가 있습니다. 이러한 연결은 일반적으로 서버에 공용 IP 주소 및 로컬 DNS도 제공하는 로컬 ISP로의 WAN 연결로 구현됩니다.
 
 - 인터넷 서비스
 
@@ -44,7 +44,7 @@ Contoso의 네트워크 엔지니어들은 클라우드 포함 인프라를 채�
 
 그림 1은 Contoso의 네트워킹 인프라 및 해당 인터넷 연결을 보여 줍니다.
 
-![](./media/contoso-networking/contoso-networking-fig1.png)
+![Contoso의 네트워크](./media/contoso-networking/contoso-networking-fig1.png)
  
 **그림 1: Contoso의 네트워크**
 
@@ -57,17 +57,19 @@ Contoso는 다음과 같은 [Office 365 네트워크 연결 원칙](https://docs
 3. 네트워크 헤어핀 방지
 4. 중복된 네트워크 보안 장치 우회
 
-Office 365의 네트워크 트래픽의 세 가지 범주는 최적화, 허용 및 기본입니다. 최적화 및 허용 트래픽은 끝점에서 보호되고 Microsoft 데이터 센터를 목적지로 하는 신뢰할 수 있는 네트워크 트래픽입니다.
+Office 365의 네트워크 트래픽 범주에는 최적화, 허용 및 기본값 세 가지 범주가 있습니다. 트래픽 최적화 및 허용은 끝점에서 암호화되고 보안이 유지 되는 신뢰할 수 있는 네트워크 트래픽이며 Microsoft 365 network로 전송됩니다.
 
-Contoso는 최적화 및 허용 범주 트래픽에 대해 직접 인터넷 송신을 사용하고, 모든 기본 범주 트래픽은 파리에 기반을 둔 중앙 인터넷 연결로 전달하기로 결정했습니다.
+Contoso는 다음의 사항을 결정했습니다:
 
-또한 이러한 원칙을 준수하고 Microsoft 365 클라우드 기반 서비스에 대해 최적의 네트워크 성능에 도달하는 간단한 방법으로, 각 사무실에 SD-WAN 장치를 배포하기로 했습니다.
+- 최적화 및 허용 범주 트래픽에 대해 직접 인터넷 송신을 사용하고, 모든 기본 범주 트래픽은 파리에 기반을 둔 중앙 인터넷 연결로 전달.
 
-SD-WAN 장치에는 로컬 네트워크용 LAN 포트 1개와 여러 개의 WAN 포트가 있습니다. WAN 포트 1개는 해당 MPLS 네트워크에 연결되고 다른 WAN 포트는 로컬 ISP 회로에 연결됩니다. SD-WAN 장치는 최적화 및 허용 범주 네트워크 트래픽을 ISP 링크로 라우팅합니다.
+- 이러한 원칙을 준수하고 Microsoft 365 클라우드 기반 서비스에 대해 최적의 네트워크 성능에 도달하는 간단한 방법으로, 각 사무실에 SD-WAN 장치를 배포.
+
+  SD-WAN 장치에는 로컬 사무실 네트워크와 여러 대의 WAN 포트용 LAN 포트가 있습니다. 하나의 WAN 포트가 MPLS 네트워크에 연결되고 다른 WAN 포트가 로컬 ISP 회로에 연결됩니다. SD-WAN 장치는 ISP 링크를 통해 최적화 및 허용범주 네트워크 트래픽을 라우팅합니다.
 
 ## <a name="contosos-line-of-business-app-infrastructure"></a>Contoso의 LOB(기간 업무) 앱 인프라
 
-Contoso는 다음을 위한 LOB(기간 업무) 응용 프로그램 및 서버 인프라를 설계했습니다.
+Contoso는 다음을 위한 LOB(기간 업무) 응용 프로그램 및 서버 인트라넷을 인프라를 설계했습니다.
 
 - 위성 사무소는 로컬 캐싱 서버를 사용하여 자주 액세스하는 문서 및 내부 웹 사이트를 저장합니다.
 - 지역 허브는 지역 사무소와 위성 사무소에 지역 응용 프로그램 서버를 사용합니다. 이러한 서버는 파리 본사의 서버와 동기화됩니다.
@@ -75,7 +77,7 @@ Contoso는 다음을 위한 LOB(기간 업무) 응용 프로그램 및 서버 �
 
 그림 2에서는 Contoso의 인트라넷을 통해 서버에 액세스할 때의 네트워크 트래픽 비율을 보여 줍니다.
 
-![](./media/contoso-networking/contoso-networking-fig2.png)
+![내부 응용 프로그램에 대한 Contoso의 인프라](./media/contoso-networking/contoso-networking-fig2.png)
  
 **그림 2: 내부 응용 프로그램에 대한 Contoso의 인프라**
 
@@ -99,7 +101,7 @@ Contoso 사용자가 Microsoft 365 Enterprise 서비스를 성공적으로 채�
 
 4. Microsoft 네트워크 서비스에 맞춰 성능 최적화
 
-   Contoso는 Office 365, Intune 및 Azure 끝점 집합을 파악하고, 최적의 성능을 제공할 수 있도록 방화벽, 보안 장치 및 인터넷 경로의 기타 시스템을 구성했습니다. Office 365 최적화 및 허용 범주 트래픽에 대한 끝점은 직접 인터넷 액세스를 제공하는 SD-WAN 장치로 구성되었습니다.
+   Contoso는 최적의 성능을 위해 인터넷 경로에 설정된 Office 365, Intune 및 Azure 끝점을 설정하고 방화벽, 보안 장치 및 기타 시스템을 구성했습니다. Office 365의 끝점 최적화 및 허용 범주 트래픽은 ISP 회로를 통해 라우팅하기 위해 SD-WAN 장치에 맞게 구성되었습니다.
 
 5. 내부 DNS 구성
 
@@ -115,7 +117,7 @@ Contoso 사용자가 Microsoft 365 Enterprise 서비스를 성공적으로 채�
 
 ## <a name="next-step"></a>다음 단계
 
-Contoso가 어떻게 직원을 위해 클라우드에서 온-프레미스 ID 공급자를 활용하고, 고객 및 비즈니스 파트너의 인증을 페더레이션하는지 [알아봅니다](contoso-identity.md).
+Contoso가 어떻게 직원을 위해 클라우드에서 온-프레미스 활성 디렉터리 도메인 서비스 (AD DS)를 활용하고, 고객 및 비즈니스 파트너의 인증을 페더레이션하는지 [알아봅니다](contoso-identity.md).
 
 ## <a name="see-also"></a>참고 항목
 
