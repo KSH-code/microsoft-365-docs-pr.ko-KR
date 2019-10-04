@@ -1,10 +1,10 @@
 ---
-title: Office 365에서 위협에 대 한 자동 조사 및 응답
+title: Office 365의 위협에 대한 자동 조사 및 응답
 keywords: AIR, autoIR, ATP, 자동화, 조사, 대응, 재구성, 위협, 고급, 위협, 보호
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.date: 09/18/2019
+ms.date: 10/03/2019
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -14,18 +14,19 @@ search.appverid:
 - MOE150
 ms.collection: M365-security-compliance
 description: Office 365 Advanced Threat Protection 계획 2의 자동 보안 문제 대응 기능 사용을 시작 하세요.
-ms.openlocfilehash: 5def4ab38c14629f2840e4b833fa9430d234e75c
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 293b567cf24e9c6b0e33e28e9dd1ca0453fd0cd1
+ms.sourcegitcommit: d4aa94716b33e6c270ae7adfbdc4c19cf4a0087d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37089026"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "37385735"
 ---
-# <a name="automatically-investigate-and-respond-to-threats-in-office-365"></a>Office 365에서 위협에 대 한 자동 조사 및 응답
+# <a name="automatically-investigate-and-respond-to-threats-in-office-365"></a>Office 365의 위협에 대한 자동 조사 및 응답
 
 ## <a name="overview"></a>개요
 
-[Office 365 Advanced Threat Protection](office-365-atp.md) 요금제 2에는 경고 및 위협 처리에 대 한 보안 작업 팀의 시간과 노력을 줄일 수 있는 자동 인시던트 응답 (AIR) 기능이 포함 되어 있습니다. 
+구독에 따라 [Office 365 Advanced Threat Protection](office-365-atp.md) 에는 경고 및 위협 처리에 대 한 보안 작업 팀의 시간과 노력을 절감할 수 있는 자동화 된 문제 대응 (AIR) 기능이 포함 될 수 있습니다.
+
 - Office 365의 AIR 기능 사용을 시작 하려면이 문서를 사용 합니다. 
 - AIR의 작동 방식에 대 한 개요를 보려면 [Office 365에서 자동 인시던트 응답 (AIR)](automated-investigation-response-office.md)을 참조 하세요.
 
@@ -37,6 +38,12 @@ AIR을 사용 하 여 특정 알림이 트리거되면 하나 이상의 보안 p
 
 > [!NOTE]
 > 이 문서에서 설명 하는 작업을 수행 하려면 전역 관리자, 보안 관리자, 보안 운영자 또는 보안 독자 여야 합니다. 자세한 내용은 [Microsoft 365 보안 센터: 역할 및 사용 권한을](https://docs.microsoft.com/office365/securitycompliance/microsoft-security-and-compliance#required-licenses-and-permissions)참조 하세요.
+
+AIR은 다음 구독에 포함 되어 있습니다.
+- Microsoft 365 E5
+- Microsoft 365 E5 Security
+- Office 365 E5
+- Office 365 Advanced Threat Protection 계획 2
 
 ## <a name="view-details-of-an-investigation"></a>조사 세부 정보 보기
 

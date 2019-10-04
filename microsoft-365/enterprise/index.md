@@ -10,17 +10,17 @@ localization_priority: Normal
 audience: microsoft-business
 ms.prod: microsoft-365-enterprise
 title: Microsoft 365 Enterprise 설명서 및 리소스
-ms.openlocfilehash: 38d349fb17303ac9e9979ae9a58682e01578b70a
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: c96656495e9433703b85fb1c5f3610a617100253
+ms.sourcegitcommit: 4dc7b5b1ccdb7e8f683104f1b9eec90025b3ad0e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32283480"
+ms.lasthandoff: 10/04/2019
+ms.locfileid: "37391211"
 ---
 <div id="main" class="v2">
     <div class="container">
         <h1>Microsoft 365 Enterprise 설명서 및 리소스</h1>
-        <P>조직에서 Microsoft Office 365, Windows 10 및 Enterprise Mobility + security을 함께 계획, 배포 및 사용 하는 방법에 대해 알아봅니다. 이러한 서비스는 팀 작업을 사용 하도록 설정 하 고 지 수를 해제 하는 통합 및 보안 인프라를 제공 합니다.</p>
+        <P>조직에서 Microsoft Office 365, Windows 10 및 Enterprise Mobility + Security을 함께 계획, 배포 및 사용 하는 방법에 대해 알아봅니다. 이러한 서비스는 팀 작업을 사용 하도록 설정 하 고 지 수를 해제 하는 통합 및 보안 인프라를 제공 합니다.</p>
         <P></p>
         <ul class="pivots">
             <li>
@@ -78,9 +78,10 @@ ms.locfileid: "32283480"
                                             </div>
                                             <div class="cardText">
                                                 <h3>보안 &amp; 준수 관리</h3>
-                                                <P><a href="https://docs.microsoft.com/microsoft-365/compliance/compliance-solutions-overview" target="_blank">규정 준수 솔루션</a></p>
-                                                <P><a href="https://docs.microsoft.com/Office365/SecurityCompliance/" target="_blank">Office 365 보안 &amp; 준수</a></p>
-                                                <P><a href="microsoft-365-policies-configurations.md" target="_blank">id &amp; 장치 액세스</a></p>
+                                                <P><a href="https://docs.microsoft.com/microsoft-365/compliance/compliance-solutions-overview" target="_blank">준수 작업 계획</a></p>
+                                                <P><a href="https://docs.microsoft.com/microsoft-365/compliance/" target="_blank">Microsoft 365 규정 준수</a></p>
+                                                <P><a href="https://docs.microsoft.com/microsoft-365/security/" target="_blank">Microsoft 365 보안</a></p>
+                                                <P><a href="microsoft-365-policies-configurations.md" target="_blank">Id &amp; 장치 액세스</a></p>
                                                 <P><a href="https://docs.microsoft.com/windows/security/threat-protection/index" target="_blank">Windows Defender ATP</a></p>
                                             </div>
                                         </div>

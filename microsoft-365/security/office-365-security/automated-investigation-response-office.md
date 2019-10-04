@@ -3,7 +3,7 @@ title: Office 365의 자동화 된 조사 및 응답 (AIR)
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.date: 09/18/2019
+ms.date: 10/03/2019
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -13,21 +13,27 @@ search.appverid:
 - MOE150
 ms.collection: M365-security-compliance
 description: Office 365 Advanced Threat Protection의 자동화 된 조사 및 응답 기능에 대해 알아봅니다.
-ms.openlocfilehash: 1e600a7a392acc34fac2547a3daa17c0058322b5
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 99eea4d723a2d9f27528eb951c758b33e0390f93
+ms.sourcegitcommit: d4aa94716b33e6c270ae7adfbdc4c19cf4a0087d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088284"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "37386205"
 ---
 # <a name="automated-investigation-and-response-air-in-office-365"></a>Office 365의 자동화 된 조사 및 응답 (AIR)
 
-자동 조사 및 응답 (AIR) 기능 ( [Office 365 Advanced Threat Protection](office-365-atp.md) Plan 2에 포함)은 오늘 존재 하는 잘 알려진 위협에 대응 하 여 자동화 된 조사 프로세스를 실행할 수 있도록 합니다. AIR은 보안 운영 팀이 보다 효율적이 고 효과적으로 운영 하는 데 도움이 됩니다.
+자동 조사 및 응답 (AIR) 기능을 사용 하면 현재 존재 하는 잘 알려진 위협에 대응 하 여 자동화 된 조사 프로세스를 실행할 수 있습니다. AIR은 보안 운영 팀이 보다 효율적이 고 효과적으로 운영 하는 데 도움이 됩니다.
 - AIR의 작동 방식을 확인 하려면이 문서를 사용 하십시오.
 - AIR 사용을 시작 하려면 [Office 365의 위협에 대 한 자동 조사 및 응답](office-365-air.md)을 참조 하세요.
 
 > [!NOTE]
 > AIR 기능에 액세스 하려면 전역 관리자, 보안 관리자, 보안 운영자 또는 보안 판독기 여야 합니다. 이러한 사용 권한에 대 한 자세한 내용은 [Microsoft 365 보안 센터: 역할 및 사용 권한을](https://docs.microsoft.com/office365/securitycompliance/microsoft-security-and-compliance#required-licenses-and-permissions)참조 하세요.
+
+AIR은 다음 구독에 포함 되어 있습니다.
+- Microsoft 365 E5
+- Microsoft 365 E5 Security
+- Office 365 E5
+- Office 365 Advanced Threat Protection 계획 2
 
 ## <a name="the-overall-flow-of-air"></a>전체 공기 흐름
 
@@ -57,8 +63,12 @@ ms.locfileid: "37088284"
 
 - 배달 후 제거 된 피싱 Url을 포함 하는 전자 메일 메시지 *
 
+- 의심 스러운 전자 메일 전송 패턴 감지 #
+
+- 사용자가 전자 메일을 보내지 못하도록 제한 됨 #
+
 > [!NOTE]
-> 별표 (*)로 표시 된 경고에는 보안 & 준수 센터 내의 각 경고 정책에서 전자 메일 알림이 해제 된 *정보* 심각도가 할당 됩니다. [알림 정책 구성을](../../compliance/alert-policies.md#alert-policy-settings)통해 전자 메일 알림을 설정할 수 있습니다.
+> 별표 (*)로 표시 된 경고는 전자 메일 알림을 해제 한 상태에서 보안 & 준수 센터 내의 각 경고 정책에 *정보* 심각도를 할당 합니다. [알림 정책 구성을](../../compliance/alert-policies.md#alert-policy-settings)통해 전자 메일 알림을 설정할 수 있습니다. 해시 (#)로 표시 된 경고는 일반적으로 공개 미리 보기 playbooks에 연결 된 사용 가능한 알림입니다.
 
 알림을 보려면 보안 & 준수 센터 **에서 경고** > **보기**를 선택 합니다. 알림을 선택 하 여 세부 정보를 확인 하 고, **보기 조사** 링크를 사용 하 여 해당 [조사](#investigation-graph)로 이동 합니다. 정보 알림은 기본적으로 경고 보기에 표시 되지 않습니다. 이러한 항목을 보려면 알림 필터링을 변경 하 여 정보 알림을 포함 해야 합니다.
 
@@ -74,15 +84,18 @@ AIR에서 제공 하는 보안 playbook은 조직이 현재 직면 하 고 있�
 
 ### <a name="security-playbooks-are-rolling-out-in-phases"></a>보안 playbook가 단계별로 롤아웃 됨
 
-AIR의 일환으로 보안 playbook가 단계별로 배포 됩니다. 1 단계 (미리 보기는 4 월 2019에 출시 되기 시작) 중에 보안 관리자가 검토 하 고 승인 하는 작업에 대 한 권장 사항을 포함 하는 몇 가지 playbook가 릴리스 되었습니다.
+AIR의 일환으로 보안 playbook가 단계별로 배포 됩니다. 이제 1 단계를 일반적으로 사용할 수 있으며, 보안 관리자가 검토 하 고 승인할 수 있는 작업에 대 한 권장 사항을 제공 하는 몇 가지 playbook 포함 합니다.
 - 사용자가 보고 한 피싱 메시지
-- URL 결과 변경 클릭 
+- URL 결과 변경 클릭
 - 맬웨어 배달 후 검색 (맬웨어 ZAP)
 - 피싱 검색 된 배달 후 ZAP (피싱 ZAP)
 
-1 단계에는 [위협 탐색기](threat-explorer.md)를 사용 하는 수동 전자 메일 조사도 포함 됩니다.
+1 단계에는 [위협 탐색기](threat-explorer.md)를 사용 하 여 수동 전자 메일 조사에 대 한 지원도 포함 됩니다.
 
-2 단계가 현재 진행 중입니다. [Microsoft 365 로드맵을](https://www.microsoft.com/microsoft-365/roadmap) 방문 하 여 그 밖의 계획 및 출시 예정 사항을 확인 하세요.
+이제 2 단계에서는 **공개 미리 보기**의 다음 playbook을 사용 하 여 작업을 진행 하 고 있으며 문제 조사에 대 한 권장 사항 및 aiding 보안 관리자를 제공 합니다.
+- 사용자가 손상 된 것으로 보고 됨 (공개 미리 보기)
+
+추가 playbook 완료 되 면 릴리스됩니다. [Microsoft 365 로드맵을](https://www.microsoft.com/microsoft-365/roadmap) 방문 하 여 그 밖의 계획 및 출시 예정 사항을 확인 하세요.
 
 ### <a name="playbooks-include-investigation-and-recommendations"></a>Playbooks에는 조사 및 권장 사항이 포함 되어 있습니다.
 
@@ -99,7 +112,7 @@ AIR에서는 각 보안 playbook 다음이 포함 됩니다.
 
 ![AIR의 주 조사 페이지](../media/air-maininvestigationpage.png) 
   
-예를 들어 다음을 수행할 수 있습니다.
+다음을 수행할 수 있습니다.
 - 조사로 직접 이동 합니다 ( **조사 ID**선택).
 - 필터를 적용 합니다. **조사 유형**, **시간 범위**, **상태**또는 이들의 조합 중에서 선택 합니다.
 - 데이터를 .csv 파일로 내보냅니다.
@@ -124,7 +137,7 @@ AIR에서는 각 보안 playbook 다음이 포함 됩니다.
 
 ![AIR 조사 그래프 페이지](../media/air-investigationgraphpage.png)
 
-예를 들어 다음을 수행할 수 있습니다.
+다음을 수행할 수 있습니다.
 - 현재 조사에 대 한 시각적 개요를 볼 수 있습니다.
 - 조사 기간에 대 한 요약을 봅니다.
 - 시각화에서 노드를 선택 하 여 해당 노드의 세부 정보를 확인 합니다.
@@ -136,7 +149,7 @@ AIR에서는 각 보안 playbook 다음이 포함 됩니다.
 
 ![AIR 알림 페이지](../media/air-investigationalertspage.png)
 
-예를 들어 다음을 수행할 수 있습니다.
+다음을 수행할 수 있습니다.
 - 현재 트리거하는 경고 및 관련 경고에 대 한 시각적 개요를 볼 수 있습니다.
 - 목록에서 알림을 선택 하 여 전체 알림 세부 정보를 표시 하는 플라이 아웃 페이지를 엽니다.
 
@@ -169,7 +182,7 @@ AIR에서는 각 보안 playbook 다음이 포함 됩니다.
 
 ![AIR 전자 메일 조사 페이지](../media/air-investigationemailpage.png)
 
-예를 들어 다음을 수행할 수 있습니다.
+다음을 수행할 수 있습니다.
 - 현재 클러스터링 결과 및 발견 된 위협에 대 한 시각적 개요를 볼 수 있습니다.
 - 클러스터 엔터티 또는 위협 목록을 클릭 하 여 전체 알림 세부 정보를 표시 하는 플라이 아웃 페이지를 엽니다.
 - ' 전자 메일 클러스터 세부 정보 ' 탭 맨 위에 있는 ' 탐색기에서 열기 ' 링크를 클릭 하 여 전자 메일 클러스터를 자세히 조사 합니다.
@@ -186,7 +199,7 @@ AIR에서는 각 보안 playbook 다음이 포함 됩니다.
 
 ![AIR 조사 사용자 페이지](../media/air-investigationuserspage.png)
 
-예를 들어 다음을 수행할 수 있습니다.
+다음을 수행할 수 있습니다.
 - 발견 된 사용자 결과 및 위험에 대 한 시각적 개요를 확인 하세요.
 - 전체 알림 세부 정보를 표시 하는 플라이 아웃 페이지를 열 사용자를 선택 합니다.
 
@@ -199,7 +212,7 @@ AIR에서는 각 보안 playbook 다음이 포함 됩니다.
 조사 과정에서 AIR은 전자 메일 위협의 상관 관계를 장치에 맞게 합니다. 예를 들어 조사를 통해 조사를 위해 [Microsoft DEFENDER ATP](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection
 ) 에 게 악성 파일 해시를 전달 합니다. 이렇게 하면 사용자에 대 한 관련 시스템을 자동으로 조사 하 여 위협이 클라우드 및 끝점에서 모두 해결 되도록 할 수 있습니다. 
 
-예를 들어 다음을 수행할 수 있습니다.
+다음을 수행할 수 있습니다.
 - 발견 된 현재 컴퓨터 및 위협에 대 한 시각적 개요를 볼 수 있습니다.
 - 컴퓨터를 선택 하 여 Microsoft Defender 보안 센터에서 관련 [Microsoft DEFENDER ATP 조사](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/automated-investigations) 로 연결 되는 보기를 엽니다.
 
@@ -211,7 +224,7 @@ AIR에서는 각 보안 playbook 다음이 포함 됩니다.
 
 ![AIR 조사 엔터티 페이지](../media/air-investigationentitiespage.png)
 
-예를 들어 다음을 수행할 수 있습니다.
+다음을 수행할 수 있습니다.
 - 발견 된 조사 엔터티 및 위협에 대 한 시각적 개요를 확인 하세요.
 - 엔터티를 선택 하 여 관련 엔터티 세부 정보를 표시 하는 플라이 아웃 페이지를 엽니다.
 
@@ -223,7 +236,7 @@ AIR에서는 각 보안 playbook 다음이 포함 됩니다.
 
 ![AIR 조사 로그 페이지](../media/air-investigationlogpage.png)
 
-예를 들어 다음을 수행할 수 있습니다.
+다음을 수행할 수 있습니다.
 - Playbook 수행 된 단계에 대 한 시각적 개요를 참조 하세요.
 - 결과를 CSV 파일로 내보냅니다.
 - 보기를 필터링 합니다.
@@ -236,7 +249,7 @@ AIR에서는 각 보안 playbook 다음이 포함 됩니다.
 
 ![AIR 조사 작업 페이지](../media/air-investigationactionspage.png)
 
-예를 들어 다음을 수행할 수 있습니다.
+다음을 수행할 수 있습니다.
 - Playbook 권장 작업에 대 한 시각적 개요를 볼 수 있습니다.
 - 단일 작업 또는 여러 작업을 선택 합니다.
 - 설명으로 권장 작업을 승인 하거나 거부 합니다.
@@ -290,7 +303,7 @@ Office 365 AIR은 다음 구독에 포함 되어 있습니다.
 
 - Microsoft 365 Enterprise E5
 - Office 365 Enterprise E5
-- Microsoft Threat Protection
+- Microsoft 위협 방지
 - Office 365 Advanced Threat Protection 계획 2
 
 이러한 구독을 사용 하지 않는 경우 [무료 평가판을 시작](https://go.microsoft.com/fwlink/p/?LinkID=698279&culture=en-US&country=US)합니다.
