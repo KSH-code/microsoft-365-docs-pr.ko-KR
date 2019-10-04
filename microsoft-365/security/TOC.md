@@ -17,6 +17,8 @@
 #### [디바이스 모니터링 및 보고](./mtp/monitor-devices.md)
 #### [앱 모니터링 및 보고](./mtp/monitor-apps.md)
 
+### [ServiceNow를 통해 티켓 관리](./mtp/tickets.md)
+
 ## [Office 365 보안]() 
 ### [시작]()
 #### [Office 365 보안 로드맵](./office-365-security/security-roadmap.md)
