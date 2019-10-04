@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 조직에서 Microsoft 365 Enterprise 배포하는 데 사용할 수 있는 리소스를 파악 합니다.
-ms.openlocfilehash: ce4b3dfeb3c13f68b0218f5aea5740b6dc5252d0
-ms.sourcegitcommit: 78fa107271252d902e600196a75cfa746bca73e6
+ms.openlocfilehash: 1d88ed400d20b15823d3991a1cd099bbb16ffa84
+ms.sourcegitcommit: c6eab4a9f1b70e7ff0db6b2a1128a4db2591cbaf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "37050279"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37369539"
 ---
 # <a name="deploy-microsoft-365-enterprise"></a>Microsoft 365 Enterprise 배포
 
@@ -65,7 +65,7 @@ Microsoft 365 Enterprise를 직접 배포하려면 다음을 수행할 수 있�
 
 여기에 기초 인프라와 워크로드 및 시나리오 간의 관계가 나와 있습니다.
 
-![](./media/deploy-microsoft-365-enterprise/m365-deploy-content-arch.png)
+![기초 인프라와 워크로드 및 시나리오 간의 관계](./media/deploy-microsoft-365-enterprise/m365-deploy-content-arch.png)
 
 워크로드와 시나리오는 기초 인프라의 상단에 걸쳐 운영됩니다. 그러나 생산성 및 협업을 위한 워크로드를 사용하기 위해 모든 기초 인프라 단계가 구축되어야 하는 것은 아닙니다.
 

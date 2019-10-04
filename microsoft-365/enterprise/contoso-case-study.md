@@ -3,7 +3,7 @@ title: Contoso Corporation의 Microsoft 365 Enterprise
 author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
-ms.date: 09/13/2018
+ms.date: 10/01/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,12 +13,12 @@ ms.collection:
 - M365-subscription-management
 ms.custom: ''
 description: 대표적인 가상 글로벌 조직이 Microsoft 365 Enterprise를 채택한 방법
-ms.openlocfilehash: e587a2c6588faf32aa6882ef1659472365611517
-ms.sourcegitcommit: d9b462e035416bfa4b3d42467902c75859c55381
+ms.openlocfilehash: 0d5453a5f55314207e0c8403837a83dd66eb70d3
+ms.sourcegitcommit: c6eab4a9f1b70e7ff0db6b2a1128a4db2591cbaf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "36054920"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37369619"
 ---
 # <a name="microsoft-365-enterprise-for-the-contoso-corporation"></a>Contoso Corporation의 Microsoft 365 Enterprise
 
@@ -42,15 +42,15 @@ Microsoft 365 Enterprise에 대한 Contoso의 전반적인 목표는 클라우�
 
 - [네트워킹](contoso-networking.md)
 
-  Contoso의 네트워크 엔지니어는 인트라넷 에지 및 인터넷의 가장 가까운 Microsoft 네트워크 위치에 대한 트래픽을 최적화하고 있습니다.
+  Contoso의 네트워크 엔지니어는 온-프레미스 사용자의 인트라넷 에지 및 인터넷의 가장 가까운 Microsoft 네트워크 위치에 대한 트래픽을 최적화하고 있습니다.
 
 - [ID](contoso-identity.md)
 
-  클라우드 솔루션에서 Contoso의 ID가 해당 온-프레미스 ID 공급자를 활용하고 기존의 신뢰할 수 있는 타사 ID 공급자와 함께 페더레이션 인증을 포함합니다.
+  클라우드 솔루션에서 Contoso의 ID는 온-프레미스 AD DS (Active Directory Domain Service) 포리스트를 활용하며 기존의 신뢰할 수 있는 타사 ID 공급자와의 페더레이션 인증을 포함합니다.
 
 - [Windows 10 Enterprise](contoso-win10.md)
 
-  Contoso의 Windows 10 Enterprise 인프라는 해당 기본 PC 및 장치 운영 체제에 대한 업데이트를 배포하고 자동으로 설치합니다.
+  Contoso의 Windows 10 Enterprise 인프라는 해당 기본 PC 및 장치 운영 체제를 실행하는 장치에 대한 업데이트를 배포하고 자동으로 설치합니다.
 
 - [Office 365 ProPlus](contoso-o365pp.md)
 
@@ -58,7 +58,7 @@ Microsoft 365 Enterprise에 대한 Contoso의 전반적인 목표는 클라우�
 
 - [모바일 장치 관리](contoso-mdm.md)
 
-  많은 로밍 직원이 있고 회사 및 개인 스마트폰과 태블릿을 보유하고 있는 Contoso는 모바일 장치 관리를 사용하여 장치를 등록하고 장치 및 해당 데이터의 보안을 유지합니다.
+  많은 로밍 직원이 있고 회사 및 개인 스마트폰과 태블릿을 보유하고 있는 Contoso는 모바일 장치 관리를 사용하여 장치를 등록하고 장치 및 해당 데이터의 보안을 유지하고 앱을 관리합니다.
 
 - [정보 보호](contoso-info-protect.md)
 
@@ -70,7 +70,7 @@ Microsoft 365 Enterprise에 대한 Contoso의 전반적인 목표는 클라우�
 
 - [고도의 기밀 디지털 자산을 위한 SharePoint Online 사이트](contoso-sharepoint-online-site-for-highly-confidential-assets.md)
 
-  Contoso는 지적 재산권을 보호하고 연구팀이 보다 쉽게 공동 작업을 할 수 있도록 지원하기 위해 고도로 규제된 데이터를 위한 사이트에 SharePoint Online 사이트를 사용했습니다.
+  Contoso는 지적 재산권을 보호하고 연구팀이 보다 쉽게 공동 작업을 할 수 있도록 지원하기 위해 고도로 규제된 데이터에 SharePoint Online 사이트를 사용했습니다.
 
 
 ## <a name="next-step"></a>다음 단계

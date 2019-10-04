@@ -3,7 +3,7 @@ title: Contoso Corporation 개요
 author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
-ms.date: 09/13/2018
+ms.date: 10/01/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,26 +13,26 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Contoso Corporation의 기업 정보와 전 세계 사무소의 계층 구조를 파악합니다.
-ms.openlocfilehash: 2610cad2db4f5621759578b29e6a6e48c07b3654
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: ad2b3cce0e40161199513616a07ecd0a83a3e1b1
+ms.sourcegitcommit: c6eab4a9f1b70e7ff0db6b2a1128a4db2591cbaf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34072528"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37369559"
 ---
 # <a name="overview-of-the-contoso-corporation"></a>Contoso Corporation 개요
 
 **요약:** Contoso Corporation의 기업 정보와 전 세계 사무소의 계층 구조를 파악합니다.
 
-Contoso Corporation은 프랑스 파리에 본사가 있는 다국적 기업이자 10만 개가 넘는 제품의 제조, 판매 및 지원 업무를 처리하는 복합 기업입니다.
+![Contoso Corporation](./media/contoso-overview/contoso-icon.png)
 
-![](./media/contoso-overview/contoso-icon.png)
+Contoso Corporation은 프랑스 파리에 본사가 있는 다국적 기업이자 10만 개가 넘는 제품의 제조, 판매 및 지원 업무를 처리하는 복합 기업입니다.
 
 ## <a name="contoso-around-the-world"></a>전 세계 Contoso
 
 그림 1에서는 파리의 본사와 다양한 대륙에 위치한 지역 허브 및 위성 사무소를 보여 줍니다.
 
-![](./media/contoso-overview/contoso-overview-fig1.png)
+![Contoso의 전 세계 사무소](./media/contoso-overview/contoso-overview-fig1.png)
 
 **그림 1: Contoso의 전 세계 사무소**
  
@@ -60,7 +60,7 @@ Contoso의 직원 중 25%는 모바일만 사용하며 높은 비율의 모바�
 
 ## <a name="design-considerations-for-microsoft-365-enterprise"></a>Microsoft 365 Enterprise에 대한 디자인 고려 사항
 
-Contoso의 IT 설계자는 Microsoft 365 Enterprise를 배포할 때 다음과 같은 디자인 고려 사항을 파악했습니다. 
+Contoso의 IT 설계자는 Microsoft 365 Enterprise를 배포할 때 다음과 같은 디자인 요구 사항과 고려 사항을 파악했습니다. 
 
 - 현지 규정 및 준수 요구 사항이 있는 여러 지리적 위치
 - 본사의 중앙 인트라넷 데이터 센터와 내부 LOB(기간 업무) 응용 프로그램을 호스트하는 지역 응용 프로그램 서버
@@ -69,7 +69,7 @@ Contoso의 IT 설계자는 Microsoft 365 Enterprise를 배포할 때 다음과 �
 - iOS(iPhone 및 iPad) 및 Android 스마트폰과 태블릿을 포함하는 개인용 및 회사 소유의 모바일 장치
 - 많은 원격 및 모바일 근로자
 - 많은 비즈니스 파트너
-- 많은 고객 및 개인 식별 가능 데이터
+- 많은 고객 및 개인 식별 가능 정보
 - 디자인 사양 형태로 제공되는 제품 및 제조 영업 비밀에 대한 고가치의 방대한 지적 재산권
 
 ## <a name="next-step"></a>다음 단계
