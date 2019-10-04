@@ -13,18 +13,18 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Microsoft 365에서 WIP(Windows Information Protection) 이해 및 배포
-ms.openlocfilehash: b624db45c4fe3bd75b2158f225176b7a78ba30f8
-ms.sourcegitcommit: 63e35b846d964dde5919a08c2fe432e749e8eff6
+ms.openlocfilehash: 5d327ea97a24d4b1015940688b7702dc761e826d
+ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "37047271"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37370125"
 ---
 # <a name="step-4-configure-windows-information-protection"></a>4단계: WIP(Windows Information Protection) 구성
 
 *이 단계는 선택 사항이며, Microsoft 365 Enterprise E3 및 E5 버전에 적용됩니다.*
 
-![](./media/deploy-foundation-infrastructure/infoprotection_icon-small.png)
+![6단계: 정보 보호](./media/deploy-foundation-infrastructure/infoprotection_icon-small.png)
 
 더 많은 개인 장치를 작업에 사용할 수 있으므로, 개인 조직 데이터를 누출할 수 있는 앱 및 장치의 위험이 높아졌습니다. 예를 들어, 직원이 실수로 미래 제품에 대한 마케팅 계획의 사진을 소셜 미디어에 전송하거나 매우 중요한 정보를 공개 클라우드 스토리지에 저장합니다. 
 
@@ -49,6 +49,6 @@ Microsoft 365 Enterprise와 함께 조직에 WIP를 배포하려면 다음을 �
 
 |||
 |:-------|:-----|
-|![](./media/stepnumbers/Step5.png)|[Office 365 데이터 손실 방지 구성](infoprotect-data-loss-prevention.md)|
+|![5단계](./media/stepnumbers/Step5.png)|[Office 365 데이터 손실 방지 구성](infoprotect-data-loss-prevention.md)|
 
 

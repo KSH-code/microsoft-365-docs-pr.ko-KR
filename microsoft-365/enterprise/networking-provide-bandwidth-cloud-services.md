@@ -3,7 +3,7 @@ title: '1단계: Microsoft 365에 맞게 네트워크 준비'
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 01/29/2019
+ms.date: 09/23/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,18 +13,18 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Microsoft 365 Enterprise 클라우드 서비스에 대한 인터넷 대역폭 요구를 이해합니다.
-ms.openlocfilehash: a0af61e378618bba4fbda0518543d89ba8da2b4e
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: ea92bcbd19c0b4cef16292d652cf5f8aa45aee07
+ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34074188"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37370295"
 ---
 # <a name="step-1-prepare-your-network-for-microsoft-365"></a>1단계: Microsoft 365에 맞게 네트워크 준비
 
 *이 단계는 필수 사항이며, Microsoft 365 Enterprise E3 및 E5 버전에 적용됩니다.*
 
-![](./media/deploy-foundation-infrastructure/networking_icon-small.png)
+![1단계-네트워킹](./media/deploy-foundation-infrastructure/networking_icon-small.png)
 
 1단계에서 다음을 수행해야 합니다.
 
@@ -40,5 +40,5 @@ Office 365에서 ExpressRoute를 사용하고 Microsoft 365 Enterprise의 다른
 
 |||
 |:-------|:-----|
-|![](./media/stepnumbers/Step2.png)|[각 사무실에 대해 로컬 인터넷 연결 구성](networking-dns-resolution-same-location.md)|
+|![2단계](./media/stepnumbers/Step2.png)|[각 사무실에 대해 로컬 인터넷 연결 구성](networking-dns-resolution-same-location.md)|
 

@@ -13,16 +13,16 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 그룹을 사용하여 일부 관리 작업을 자동화할 수 있습니다.
-ms.openlocfilehash: 01bbce00457362ed0eb089e126f0d17f31237eb4
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 769fc0dd69b13978dbb9cf91d890ad271a7d9bb5
+ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088609"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37370185"
 ---
 # <a name="step-5-use-groups-for-management"></a>5단계: 그룹을 사용하여 관리하십시오.
 
-![](./media/deploy-foundation-infrastructure/identity_icon-small.png)
+![2단계-ID](./media/deploy-foundation-infrastructure/identity_icon-small.png)
 
 <a name="identity-self-service-groups"></a>
 ## <a name="allow-users-to-create-and-manage-their-own-groups"></a>사용자가 자신의 그룹을 만들고 관리하도록 허용하십시오.
@@ -100,8 +100,8 @@ Microsoft 365 Enterprise의 경우 적절한 Microsoft 365 Enterprise 라이선�
 |![Microsoft 클라우드의 테스트 랩 가이드](media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)| [테스트 랩 가이드: 라이선스 및 그룹 등록 자동화](automate-licenses-group-membership-microsoft-365-test-environment.md) |
 |||
 
-중간 검사점으로 이 단계에 대한 [종료 조건](identity-exit-criteria.md#crit-identity-group-license)을 확인할 수 있습니다.
+중간 검사점으로 이 섹션에 대한 [종료 조건](identity-exit-criteria.md#crit-identity-group-license)을 확인할 수 있습니다.
 
 |||
 |:-------|:-----|
-|![](./media/stepnumbers/Step6.png)| [ID 거버넌스 구성](identity-configure-identity-governance.md) |
+|![6단계](./media/stepnumbers/Step6.png)| [ID 거버넌스 구성](identity-configure-identity-governance.md) |

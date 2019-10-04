@@ -13,16 +13,16 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 사용자 계정 및 그룹을 클라우드에서 직접 추가하거나 온-프레미스 디렉터리와 동기화하는 방법으로 추가할 수 있습니다.
-ms.openlocfilehash: ce831a6866f61342f6eb93836d44637742007c03
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 559ea58a5fcee5860a797893230b587adc33a17d
+ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088616"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37370225"
 ---
 # <a name="step-4-add-your-user-accounts"></a>4단계: 사용자 계정 추가
 
-![](./media/deploy-foundation-infrastructure/identity_icon-small.png)
+![2단계-ID](./media/deploy-foundation-infrastructure/identity_icon-small.png)
 
 <a name="identity-cloud-only"></a>
 ## <a name="create-your-user-accounts-for-cloud-only-identity"></a>클라우드 전용 ID에 대한 사용자 계정 만들기
@@ -122,8 +122,8 @@ Azure AD Connect Health 사용 방법에 대한 주요 디자인 의사 결정�
 |![Microsoft 클라우드의 테스트 랩 가이드](media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)| [테스트 랩 가이드: 암호 쓰기 저장](password-writeback-m365-ent-test-environment.md) |
 |||
 
-중간 검사점으로 이 단계에 대한 [종료 조건](identity-exit-criteria.md#crit-identity-pw-writeback)을 확인할 수 있습니다.
+중간 검사점으로 이 섹션에 대한 [종료 조건](identity-exit-criteria.md#crit-identity-pw-writeback)을 확인할 수 있습니다.
 
 |||
 |:-------|:-----|
-|![](./media/stepnumbers/Step5.png)| [그룹을 사용하여 관리](identity-use-group-management.md) |
+|![5단계](./media/stepnumbers/Step5.png)| [그룹을 사용하여 관리](identity-use-group-management.md) |

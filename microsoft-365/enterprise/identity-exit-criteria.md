@@ -13,16 +13,16 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 구성이 ID 기반 서비스 및 인프라에 대한 Microsoft 365 Enterprise 조건을 충족하는지 확인합니다.
-ms.openlocfilehash: 880bfa2b71158a2fa5c64fb09af2e8a34428a7a8
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 4a93d0a9fb497daccba4fd2641fd5faf9c4fb384
+ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37071687"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37370205"
 ---
 # <a name="phase-2-identity-infrastructure-exit-criteria"></a>2단계: ID 인프라 종료 조
 
-![](./media/deploy-foundation-infrastructure/identity_icon-small.png)
+![2단계-ID](./media/deploy-foundation-infrastructure/identity_icon-small.png)
 
 ID 인프라가 다음과 같은 필수 조건 및 선택 요소에 확실히 충족하는지 확인합니다.
 
@@ -292,5 +292,5 @@ Microsoft 365 클라우드의 ID 인프라에서는 강력한 인증, 보호된 
 
 |||
 |:-------|:-----|
-|![](./media/deploy-foundation-infrastructure/win10enterprise_icon-small.png)| Microsoft 365 Enterprise의 종단 간 배포 단계를 수행 중인 경우 다음 단계는 [Windows 10 Enterprise](windows10-infrastructure.md)입니다. |
+|![3단계: Windows 10 Enterprise](./media/deploy-foundation-infrastructure/win10enterprise_icon-small.png)| Microsoft 365 Enterprise의 종단 간 배포 단계를 수행 중인 경우 다음 단계는 [Windows 10 Enterprise](windows10-infrastructure.md)입니다. |
 

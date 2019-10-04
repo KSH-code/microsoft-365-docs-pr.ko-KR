@@ -13,16 +13,16 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 전역 관리자 계정은 자격 증명의 노출로부터 안전하게 유지하기 위해 특별한 처리가 필요합니다.
-ms.openlocfilehash: a32781686cd972ca96f6bb08f31c15ede016c4cd
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 72de7d683a9c2a080f7be69e585d16d8122cd46d
+ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088612"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37370215"
 ---
-# <a name="step-1-create-and-protect-your-global-admin-accounts"></a>1단계:전역 관리자 계정 생성 및 보호
+# <a name="step-1-create-and-protect-your-global-admin-accounts"></a>1단계: 전역 관리자 계정 생성 및 보호
 
-![](./media/deploy-foundation-infrastructure/identity_icon-small.png)
+![2단계-ID](./media/deploy-foundation-infrastructure/identity_icon-small.png)
 
 <a name="identity-global-admin"></a>
 ## <a name="protect-global-administrator-accounts"></a>전역 관리자 계정 보호
@@ -110,5 +110,5 @@ Office 365 권한이 부여된 액세스 관리를 사용하도록 설정하려�
 
 |||
 |:-------|:-----|
-|![](./media/stepnumbers/Step2.png)| [암호를 보호](identity-secure-your-passwords.md) |
+|![2단계](./media/stepnumbers/Step2.png)| [암호 보호](identity-secure-your-passwords.md) |
 

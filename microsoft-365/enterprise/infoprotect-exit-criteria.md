@@ -13,16 +13,16 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 정보 보호 기반 서비스 및 인프라에 대한 조건을 검사하여 구성이 Microsoft 365 Enterprise 요구 사항을 충족하는지 확인합니다.
-ms.openlocfilehash: 02e972a80d4b42ae66193bbbc55d0f1e63be5ba6
-ms.sourcegitcommit: 63e35b846d964dde5919a08c2fe432e749e8eff6
+ms.openlocfilehash: f4896baeb4c18fc1eabac10b15f3ad8e150ab260
+ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "37047241"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37370135"
 ---
 # <a name="information-protection-infrastructure-exit-criteria"></a>정보 보호 인프라 종료 조건
 
-![](./media/deploy-foundation-infrastructure/infoprotection_icon-small.png)
+![6단계: 정보 보호](./media/deploy-foundation-infrastructure/infoprotection_icon-small.png)
 
 정보 보호 인프라를 다음과 같은 필수 조건 및 선택 요소에 확실히 충족하도록 하십시오.
 
@@ -96,9 +96,9 @@ ms.locfileid: "37047241"
 |||
 |:-------|:-----|
 | **암호화 방법** | **전자 메일이 전송될 경우** |
-| [Office 365 메시지 암호화(OME)](https://docs.microsoft.com/Office365/SecurityCompliance/ome)  | 암호화를 사용하는 조직 외부 |
-| [IRM(정보 권한 관리)](https://docs.microsoft.com/office365/SecurityCompliance/information-rights-management-in-exchange-online) | 암호화 및 권한 모두 사용 |
-| [S/MIME(Secure/Multipurpose Internet Mail Extensions)](https://docs.microsoft.com/Exchange/policy-and-compliance/smime) | 공개 키 암호 표준을 사용하여 암호화와 디지털 서명 모두 사용 |
+| [OME(Office 365 메시지 암호화)](https://docs.microsoft.com/Office365/SecurityCompliance/ome)  | 암호화를 사용하는 조직 외부 |
+| [IRM(정보 권한 관리)](https://docs.microsoft.com/office365/SecurityCompliance/information-rights-management-in-exchange-online) | 암호화와 권한을 모두 사용 |
+| [S/MIME(Secure/Multipurpose Internet Mail Extensions)](https://docs.microsoft.com/Exchange/policy-and-compliance/smime) | 공개 키 암호방식을 사용하여 암호화와 전자 서명을 모두 사용 |
 |||
 
 필요한 경우, [6단계](infoprotect-email-encryption.md)를 통해 이 요구 사항을 충족할 수 있습니다.

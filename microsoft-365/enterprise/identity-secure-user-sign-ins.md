@@ -13,16 +13,16 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 사용자가 Windows 장치 및 Microsoft 365에 더욱 안전하게 로그인할 수 있습니다.
-ms.openlocfilehash: edf51b344ed8f9c8e13587cc2ccf0ba1ed081da6
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 6f45d61694cabd10587ff13bd787fa42bdaeac01
+ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088611"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37370195"
 ---
 # <a name="step-3-secure-and-manage-your-user-sign-ins"></a>3단계: 사용자 로그인 보안 및 관리
 
-![](./media/deploy-foundation-infrastructure/identity_icon-small.png)
+![2단계-ID](./media/deploy-foundation-infrastructure/identity_icon-small.png)
 
 
 <a name="identity-windows-hello"></a>
@@ -89,8 +89,8 @@ Azure AD ID 보호를 사용하면 다음을 수행할 수 있습니다.
 |![Microsoft 클라우드의 테스트 랩 가이드](media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)| [테스트 랩 가이드: Azure AD ID 보호](azure-ad-identity-protection-microsoft-365-test-environment.md) |
 |||
 
-중간 검사점으로 이 단계에 대한 [종료 조건](identity-exit-criteria.md#crit-identity-ident-prot)을 확인할 수 있습니다.
+중간 검사점으로 이 섹션에 대한 [종료 조건](identity-exit-criteria.md#crit-identity-ident-prot)을 확인할 수 있습니다.
 
 |||
 |:-------|:-----|
-|![](./media/stepnumbers/Step4.png)| [사용자 계정 추가](identity-add-user-accounts.md) |
+|![4단계](./media/stepnumbers/Step4.png)| [사용자 계정 추가](identity-add-user-accounts.md) |

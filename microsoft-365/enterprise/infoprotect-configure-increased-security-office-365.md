@@ -13,18 +13,18 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Microsoft 365에 대한 향상된 보안을 이해하고 구성하십시오.
-ms.openlocfilehash: b51cb38a386292b79fdfe264c9d8a86973aa6325
-ms.sourcegitcommit: 63e35b846d964dde5919a08c2fe432e749e8eff6
+ms.openlocfilehash: 290b10dd8e0bf9a7180bae72669b22f3d575f914
+ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "37047281"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37370175"
 ---
 # <a name="step-3-configure-increased-security-for-microsoft-365"></a>3단계: Office 365에 대한 향상된 보안 구성
 
 *이 단계는 필수 사항이며, Microsoft 365 Enterprise E3 및 E5 버전에 적용됩니다.*
 
-![](./media/deploy-foundation-infrastructure/infoprotection_icon-small.png)
+![6단계: 정보 보호](./media/deploy-foundation-infrastructure/infoprotection_icon-small.png)
 
 Microsoft 365 구독 및 해당 데이터가 시작되어 악의적인 위협으로부터 안전하게 보호되도록 다음을 구성하십시오.
 
@@ -57,6 +57,6 @@ Office 365 ATP 에서만 Microsoft 365 Enterprise E5와 함께 사용할 수 있
 
 |||
 |:-------|:-----|
-|![](./media/stepnumbers/Step4.png)|[WIP(Windows Information Protection) 구성](infoprotect-deploy-windows-information-protection.md)|
+|![4단계](./media/stepnumbers/Step4.png)|[WIP(Windows Information Protection) 구성](infoprotect-deploy-windows-information-protection.md)|
 
 
