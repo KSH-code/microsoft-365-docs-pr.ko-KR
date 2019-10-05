@@ -3,7 +3,7 @@ title: Office 365 Advanced Threat Protection
 ms.author: tracyp
 author: msfttracyp
 manager: dansimp
-ms.date: 03/28/2019
+ms.date: 10/03/2019
 audience: Admin
 ms.topic: hub-page
 ms.service: O365-seccomp
@@ -15,12 +15,12 @@ ms.assetid: e100fe7c-f2a1-4b7d-9e08-622330b83653
 ms.collection:
 - M365-security-compliance
 description: Office 365 Advanced Threat Protection에는 안전한 첨부 파일, 안전한 링크, 고급 피싱 방지 도구, 보고 도구 및 위협 인텔리전스 기능이 포함되어 있습니다.
-ms.openlocfilehash: 3981d2bb37b1c9b91ed2b0a93f57a33940a25186
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 9f2bedaa436aa5f38d8929e6bc8eda2e34896575
+ms.sourcegitcommit: d4aa94716b33e6c270ae7adfbdc4c19cf4a0087d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37089025"
+ms.lasthandoff: 10/03/2019
+ms.locfileid: "37386155"
 ---
 # <a name="office-365-advanced-threat-protection"></a>Office 365 Advanced Threat Protection
 
@@ -87,7 +87,14 @@ Office 365 ATP Plan 2에는 조직의 보안팀이 악의적인 공격을 예측
     
 ## <a name="save-time-with-automated-investigation-and-response"></a>자동화된 조사 및 응답으로 시간 절약하기
 
-(**새로운 기능!**) 잠재적인 사이버 공격을 조사할 때는 시간이 가장 중요합니다. 위협을 빨리 식별하고 완화할 수록 조직을 보호하는 데 더욱 좋습니다. Office 365 ATP 플랜 2에는 이제 [자동화된 조사 및 응답 (AIR)](automated-investigation-response-office.md) 기능이 포함됩니다. (사용자에게 이러한 기능이 아직 제공되지 않은 경우, ATP 플랜 2에서 곧 사용할 수 있습니다.)
+(**새로운 기능!**) 잠재적인 사이버 공격을 조사할 때는 시간이 가장 중요합니다. 위협을 빨리 식별하고 완화할 수록 조직을 보호하는데 더욱 좋습니다. 아래 열거된 구독에는 이제 [자동화된 조사 및 응답 (AIR)](automated-investigation-response-office.md) 기능이 포함됩니다. (사용자에게 이러한 기능이 아직 제공되지 않은 경우, 이들 가운데 한 개를 구독하는 경우 곧 사용할 수 있습니다.)
+
+Office 365 AIR은 다음의 구독에 포함되어 있습니다.
+
+- Microsoft 365 E5
+- Microsoft 365 E5 Security
+- Office 365 E5
+- Office 365 Advanced Threat Protection Plan 2
 
 AIR에는 알림이 트리거되는 경우와 같이 자동으로 시작되거나 또는 Explorer 탐색기의 보기와 같이 수동으로 시작할 수 있는 보안 플레이북 세트가 포함되어 있습니다. AIR을 사용하면 보안 운영팀이 위협을 효과적이고 효율적으로 완화하도록 하는데 드는 시간과 노력을 절약할 수 있습니다. 자세한 내용은 [Office 365의 자동화된 조사 및 응답 (AIR)](automated-investigation-response-office.md)을 참조하세요.
 
