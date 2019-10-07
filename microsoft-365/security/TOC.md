@@ -96,8 +96,8 @@
 ##### [웹용 Outlook에서 정크 전자 메일 및 피싱 사기 보고](./office-365-security/report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md)
 ##### [Exchange Online Protection을 사용 하여 온-프레미스 사서함 보호](./office-365-security/protect-on-premises-mailboxes-with-exchange-online-protection.md)
 ##### [Microsoft Outlook용 정크 메일 보고 추가 기능 설치](./office-365-security/install-the-junk-email-reporting-add-in-for-microsoft-outlook.md)
-#####[웹상의 Outlook에서 정크 메일 보고 기능 해제](./office-365-security/turn-off-junk-email-reporting-in-outlook-on-the-web.md)
-#####[정크 메일과 대량 메일의 차이점이 무엇인가요?](./office-365-security/what-s-the-difference-between-junk-email-and-bulk-email.md)
+##### [웹상의 Outlook에서 정크 메일 보고 기능 해제](./office-365-security/turn-off-junk-email-reporting-in-outlook-on-the-web.md)
+##### [정크 메일과 대량 메일의 차이점이 무엇인가요?](./office-365-security/what-s-the-difference-between-junk-email-and-bulk-email.md)
 
 #### [Office 365 전자 메일 메시지 격리](./office-365-security/quarantine-email-messages.md)
 ##### [관리자로 격리된 메시지 및 파일 관리](./office-365-security/manage-quarantined-messages-and-files.md)
@@ -127,13 +127,14 @@
 
 
 ### [고급 위협 방지](./office-365-security/office-365-atp.md)
+#### [새로운 기능 보기]()
+##### [Office 365 ATP의 새로운 기능](office-365-security/whats-new-in-office-365-atp.md)
 #### [관리자를 위한 ATP 설정 작업]()
 ##### [전역 관리자 설정 작업]()
 ###### [ATP 안전한 링크 정책 설정](./office-365-security/set-up-atp-safe-links-policies.md)
 ###### [ATP 안전한 첨부 파일 정책 설정](./office-365-security/set-up-atp-safe-attachments-policies.md)
 ###### [사용자 지정 "재작성 금지" URL 목록 설정](./office-365-security/set-up-a-custom-do-not-rewrite-urls-list-with-atp.md)
 ###### [차단된 사용자 지정 URL 목록 설정](./office-365-security/set-up-a-custom-blocked-urls-list-wtih-atp.md)
-
 ##### [역할 관리자 설정 작업]()
 ###### [SharePoint, OneDrive 및 Microsoft Teams의 ATP 켜기](./office-365-security/turn-on-atp-for-spo-odb-and-teams.md)
 #### [위협 분석을 통해 최신 공격 캠페인 이해하기](./mtp/latest-attack-campaigns.md)
