@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 민감도 레이블을 사용하여 사용자의 생산성 및 공동 작업 능력이 저하되지 않도록 하면서 중요한 콘텐츠를 분류 및 보호할 수 있습니다. 민감도 레이블을 사용하여 레이블이 지정된 콘텐츠에 대해 암호화 또는 워터마크와 같은 보호 설정을 적용할 수 있습니다.
-ms.openlocfilehash: 1de7eadfcf95a54917c1d5e2cc0d42cc1ad486a5
-ms.sourcegitcommit: c7f7ff463141f7d7f0970b64e5a04341db7e4fa8
+ms.openlocfilehash: f702423f0b1074b5619ef1c321cc5e9f1daef1d7
+ms.sourcegitcommit: 15173ab87325b7d79bab683702b35d77a355cd6b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "37378657"
+ms.lasthandoff: 10/08/2019
+ms.locfileid: "37417567"
 ---
 # <a name="how-sensitivity-labels-work-in-office-apps"></a>Office 앱에서 민감도 레이블 작동 방식
 
@@ -131,7 +131,8 @@ PowerPoint
 <td><font size="-1">출시 예정<sup>3</sup>
 <td><font size="-1">출시 예정<sup>3</sup>
 
-<tr><td><font size="-1">미리 정의된 사용 권한 할당
+<tr><td><font size="-1">
+  <a href="https://docs.microsoft.com/en-us/microsoft-365/compliance/encryption-sensitivity-labels#assign-permissions-now">사전 정의된 사용 권한 할당</a>
 <td><font size="-1"><b>예</b><br><font size="-1">1910+</font>
 
 <td><font size="-1"><b>예</b><br><font size="-1">16.21.0+</font>
@@ -167,7 +168,8 @@ PowerPoint
 <td><font size="-1">TBD
 <td><font size="-1">TBD
 
-<tr><td><font size="-1">사용자가 전자 메일 및 문서에 레이블을 적용하도록 요구
+<tr><td><font size="-1">
+  <a href="https://docs.microsoft.com/en-us/microsoft-365/compliance/sensitivity-labels#what-label-policies-can-do">사용자가 전자 메일 및 문서에 레이블을 적용하도록 요구</a>
 <td><font size="-1">TBD
 
 <td><font size="-1">TBD
@@ -202,7 +204,7 @@ PowerPoint
 | --- | --- | --- |
 | 모든 플랫폼의 Word, Excel, PowerPoint | 즉시 | 즉시 |
 | PC 및 Mac용 Outlook | Exchange Online에서 전자 메일을 보낸 후 | 즉시 |
-| 모든 플랫폼의 Word, Excel, PowerPoint | Exchange Online에서 전자 메일을 보낸 후 | Exchange Online에서 전자 메일을 보낸 후 |
+| Mac, iOS 및 Android용 Outlook | Exchange Online에서 전자 메일을 보낸 후 | Exchange Online에서 전자 메일을 보낸 후 |
 
 ## <a name="can-sensitivity-labels-run-alongside-the-azure-information-protection-client-in-office-for-windows"></a>Windows용 Office에서 민감도 레이블을 Azure Information Protection 클라이언트와 함께 실행할 수 있나요?
 
@@ -228,11 +230,7 @@ Azure Information Protection 클라이언트가 설치되어있지만 대신 민
 
 ## <a name="can-a-file-or-email-have-more-than-one-classification"></a>파일 또는 전자 메일에 분류가 여러 개 있을 수 있나요?
 
-사용자는 각 문서 또는 전자 메일에 대해 한 번에 하나의 레이블만 선택할 수 있고 이는 보통 하나의 분류가 됩니다. 그러나 사용자가 하위 레이블을 선택하는 경우 실제로는 두 개의 레이블이 동시에 적용됩니다. 기본 레이블과 보조 레이블입니다. 하위 레이블을 사용하여 파일에는 추가 수준의 제어에 대 한 부모/자식 관계를 나타내는 두 개의 분류가 있을 수 있습니다. 
-
-예를 들어 레이블  **기밀** 에는  **법무** 와 **재무** 같은 하위 레이블이 포함될 수 있습니다. 이러한 하위 레이블에 다양한 분류 시각적 표시와 다른 권한 관리 템플릿을 적용할 수 있습니다. 사용자는  **기밀**  레이블을 단독으로 선택할 수 없습니다.  **법무** 같은 하위 레이블 중 하나만 선택할 수 있습니다. 따라서 표시되는 설정된 레이블은  **기밀** / **법무**입니다. 해당 파일의 메타 데이터에는  **기밀**에 대한 하나의 사용자 지정 텍스트 속성,  **법무**에 대한 하나의 사용자 지정 텍스트 속성 및 두 값(**기밀 법무**)이 포함된 다른 하나의 사용자 지정 텍스트 속성이 포함됩니다. 
-
-하위 레이블을 사용할 때는 기본 레이블에서 시각적 표시, 보호 및 조건을 구성하지 마세요. 하위 수준을 사용하는 경우 하위 레이블에서만 이 설정을 구성합니다. 기본 레이블 및 해당 하위 레이블에서 이러한 설정을 구성하면 하위 레이블의 설정이 우선합니다.
+아니요. 사용자는 각 문서 또는 전자 메일에 대해 한 번에 하나의 레이블만 선택할 수 있습니다.
 
 ## <a name="when-an-email-is-labeled-do-any-attachments-automatically-get-the-same-labeling"></a>전자 메일에 레이블을 지정하면 모든 첨부 파일에 자동으로 같은 레이블이 지정되나요?
 
