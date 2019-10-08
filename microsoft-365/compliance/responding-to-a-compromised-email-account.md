@@ -14,12 +14,12 @@ localization_priority: Priority
 search.appverid:
 - MET150
 description: Office 365에서 손상된 전자 메일 계정을 인식하고 응답하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 98a254ad6e356cecd44dac57bbe9f83171ddad73
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 239e880bbdd1b2ef7cbbde7e42fb8392777563a5
+ms.sourcegitcommit: 15173ab87325b7d79bab683702b35d77a355cd6b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37089181"
+ms.lasthandoff: 10/08/2019
+ms.locfileid: "37417577"
 ---
 # <a name="responding-to-a-compromised-email-account-in-office-365"></a>Office 365에서 손상된 이메일 계정에 응답
 
@@ -94,7 +94,7 @@ Office 365 사서함, 데이터 및 기타 서비스에 대한 액세스는 자�
 ### <a name="step-4-unblock-the-user-from-sending-mail"></a>4단계 사용자 메일 보내기 차단을 해제하기
 
 손상된 것으로 의심되는 사서함이 스팸 메일을 보내기 위해 불법적으로 사용된 경우 사서함이 메일을 보내지 못하도록 차단되었을 수 있습니다.
-1. 사서함의 메일 보내기 차단을 해제하려면 스팸 메일을 보낸 후 차단 목록에서 [사용자, 도메인 또는 IP 주소 제거](https://docs.microsoft.com/Office365/SecurityCompliance/removing-a-user-domain-or-ip-address-from-a-block-list-after-sending-spam-email )의 절차를 따릅니다.
+1. 사서함의 메일 보내기 차단을 해제하려면 스팸 메일을 보낸 후 차단 목록에서 [사용자, 도메인 또는 IP 주소 제거](https://docs.microsoft.com/microsoft-365/security/office-365-security/removing-user-from-restricted-users-portal-after-spam)의 절차를 따릅니다.
 
 ### <a name="step-5-optional-block-the-user-account-from-signing-in"></a>5단계 선택 사항 : 사용자 계정 로그인을 차단하기
 
