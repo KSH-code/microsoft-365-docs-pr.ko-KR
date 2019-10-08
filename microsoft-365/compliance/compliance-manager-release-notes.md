@@ -12,12 +12,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 준수 관리자는 Microsoft Service Trust Portal의 무료 워크플로 기반 위험 평가 도구입니다. 준수 관리자를 사용 하면 Microsoft 클라우드 서비스와 관련 된 규정 준수 활동을 추적, 할당 및 확인할 수 있습니다.
-ms.openlocfilehash: 815862616e1bdbf4b3be1d77de2a541ad703149f
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 3646d86cd9edac95975958458eb52a44fe30d2f5
+ms.sourcegitcommit: 15173ab87325b7d79bab683702b35d77a355cd6b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37087629"
+ms.lasthandoff: 10/08/2019
+ms.locfileid: "37417507"
 ---
 # <a name="release-notes-for-compliance-manager-preview"></a>준수 관리자를 위한 릴리스 정보 (미리 보기)
 
@@ -26,6 +26,8 @@ ms.locfileid: "37087629"
 [서비스 트러스트 포털](https://servicetrust.microsoft.com) 에서 업데이트 된 [준수 관리자](https://servicetrust.microsoft.com/ComplianceManager) 도구를 사용 하 여 Microsoft 클라우드 서비스와 관련 된 규정 준수 활동을 추적, 할당 및 확인할 수 있습니다.
 
 ## <a name="whats-new-in-compliance-manager-preview"></a>준수 관리자의 새로운 기능 (미리 보기)
+
+- **준수 관리자에 대 한 역할 기반 액세스:** 기본 **추측 액세스** 역할이 제거 되었습니다. 사용자가 준수 관리자에 액세스 하려면 전역 관리자가 각 사용자에 게 [권한을 할당](compliance-manager-overview#permissions.md)해야 합니다.
 
 - **Microsoft 보안 점수와의 통합:** 준수 관리자는 고객 관리 작업을 50 이상의 보안 점수 작업에 매핑하여 [Microsoft 보안 점수](../security/mtp/microsoft-secure-score.md) 와의 통합을 지원 합니다. 보안 점수에서 매핑된 작업을 완료 하면 해당 준수 관리자 작업이 자동으로 업데이트 됩니다.
 
@@ -38,7 +40,7 @@ ms.locfileid: "37087629"
     - **소유자:** 각 작업 항목의 소유자를 지정 합니다.
     - **고객 작업:** 준수 관리자 (미리 보기)에 포함 된 작업 항목의 전체 목록과 보안 점수와 통합 된 작업 항목에 대 한 보안 점수 모니터링 사용/사용 안 함을 관리 합니다.
 
-- **업데이트 된 준수 점수**: 방법론은 Microsoft 보안 점수와의 동기화를 지원 하기 위해 변경 되었습니다. 점수 매기기 시스템은 Microsoft에서 관리 하는 컨트롤의 제작진을 제거 하며 고객 관리 컨트롤의 완성에만 초점을 집중 합니다.
+- **업데이트 된 준수 점수**: 방법론은 Microsoft 보안 점수와의 동기화를 지원 하기 위해 변경 되었습니다. 점수는 Microsoft가 관리 하는 작업 점수 및 고객 관리 작업 점수를 기반으로 계산 됩니다.
 
 ## <a name="known-issues-in-compliance-manager-preview"></a>준수 관리자의 알려진 문제 (미리 보기)
 

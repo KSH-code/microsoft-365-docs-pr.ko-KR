@@ -12,12 +12,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 준수 관리자는 Microsoft Service Trust Portal의 무료 워크플로 기반 위험 평가 도구입니다. 준수 관리자를 사용 하면 Microsoft 클라우드 서비스와 관련 된 규정 준수 활동을 추적, 할당 및 확인할 수 있습니다.
-ms.openlocfilehash: c88b45fb568b0fe29bc967676ea09e89e9084a62
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 428e4ef319d53bf161903fc9584037800d0b3d3b
+ms.sourcegitcommit: 15173ab87325b7d79bab683702b35d77a355cd6b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37087631"
+ms.lasthandoff: 10/08/2019
+ms.locfileid: "37417537"
 ---
 # <a name="microsoft-compliance-manager-preview"></a>Microsoft 준수 관리자 (미리 보기)
 
@@ -109,13 +109,18 @@ ms.locfileid: "37087631"
 
 인증 컨트롤은 일반적으로 한 사람에 의해 구현 되며 다른 사용자가 테스트 합니다. 예를 들어 초기에 한 사람에 게 할당 된 작업 항목이 완료 된 후에는 다음 사용자에 게 증거를 테스트 및 업로드 하기 위한 작업 항목이 할당 됩니다. 컨트롤 할당에 대 한 충분 한 사용 권한이 있는 모든 사용자는 작업 항목을 할당 하 고 다시 할당할 수 있습니다. 이를 통해 제어 할당을 중앙 집중식으로 관리 하 고 implementors 및 테스터 간에 작업 항목을 분산 하 여 라우팅할 수 있습니다.
 
-## <a name="permissions"></a>사용 권한
+## <a name="permissions"></a>권한
 
-준수 관리자가 역할 기반 액세스 제어 [권한 모델](working-with-compliance-manager.md#permissions)을 사용 합니다. 기본적으로 Azure Active Directory (Azure AD) 계정을 사용 하는 조직의 모든 사용자에 게는 모든 권한이 있으며 준수 관리자에서 모든 작업을 수행할 수 있습니다. 조직에서 역할 기반 액세스 제어를 구현한 후에는 정의 된 준수 관리자 역할에 할당 되지 않은 모든 사용자에 게 게스트 액세스 권한을 할당 합니다. Microsoft 서비스 담당자는 입력 하거나 업로드 하는 모든 데이터에 대 한 액세스 권한이 없습니다.
+준수 관리자가 역할 기반 액세스 제어 권한 모델을 사용 합니다. 사용자 역할이 할당 된 사용자만 준수 관리자에 액세스할 수 있으며, 각 사용자가 허용한 작업은 역할 유형에 따라 제한 됩니다. 각 권한에 대해 허용 되는 작업을 보여 주는 [테이블을 봅니다](working-with-compliance-manager.md#permissions) .
 
-기본 사용 권한을 변경 하 고 전체 역할 기반 액세스 제어 모델을 구현 하려면 각 준수 관리자 역할에 하나 이상의 사용자를 추가 해야 합니다. 사용자가 역할에 추가 되 면 해당 역할에 할당 된 작업을 수행 하는 권한이 모든 사용자가 사용할 수 있는 기본 사용 권한 집합에서 제거 됩니다. 이 역할을 사용 하 여 프로 비전 된 사용자만 준수 관리자에 액세스 하 고 해당 역할에서 허용 하는 작업을 수행할 수 있습니다.
+준수 관리자에 대 한 포털 관리자는 다음 단계를 수행 하 여 준수 관리자 내에서 다른 사용자의 사용 권한을 설정할 수 있습니다.
 
-평가를 관리 하기 위해 역할에 사용자를 추가 하는 경우 해당 역할의 구성원만 평가를 관리할 수 있습니다. 사용자가 평가에서 데이터를 읽을 수 있도록 하는 사용자를 역할에 추가 하지 않으면 조직의 모든 사용자가 규정 준수 관리자에 액세스 하 고 모든 평가에서 데이터를 읽을 수 있습니다.
+1. 맨 위에 있는 **더 보기** 드롭다운 메뉴에서 **관리**, **설정을**차례로 선택 합니다.
+2. 여기에서 할당 하려는 역할을 선택한 다음 해당 역할에 할당 하려는 직원을 추가 합니다. 그러면 사용자가 특정 작업을 수행할 수 있게 됩니다.
+
+또한 azure [Active Directory (AZURE AD)에서 전역 독자 역할이](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/directory-assign-admin-roles#global-reader) 할당 된 사용자에 게는 준수 관리자 액세스를 위한 읽기 전용 권한이 부여 됩니다. 그러나 준수 관리자 내에서 데이터를 편집 하거나 작업을 수행할 수는 없습니다.
+
+기본 **게스트 액세스** 역할은 더 이상 존재 하지 않습니다. 준수 관리자 내에서 액세스 하 고 작업 하려면 각 사용자에 게 역할이 할당 되어야 합니다.
   
 ## <a name="manage-evidence"></a>증거 관리
 
