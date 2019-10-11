@@ -29,9 +29,9 @@
 ### [Intune 설정에 대한 맵 보호 기능](map-protection-features-to-intune-settings.md)
 ### [Android 및 iOS용 앱 보호 설정](app-protection-settings-for-android-and-ios.md)
 #### [Android 또는 iOS의 설정 확인](validate-settings-on-android-or-ios.md)
-### [Windows 10 PC의 보호 설정](protection-settings-for-windows-10-pcs.md)
+### [Windows 10 PC에 대한 장치 보호 설정](protection-settings-for-windows-10-pcs.md)
 #### [Windows 10 PC의 설정 확인](validate-settings-on-windows-10-pcs.md)
-### [Windows 10 장치의 보호 설정](protection-settings-for-windows-10-devices.md)
+### [Windows 10 PC의 앱 보호 설정](protection-settings-for-windows-10-devices.md)
 ## [Microsoft 365 Business로 마이그레이션](migrate-to-microsoft-365-business.md)
 ## 청구
 ### [청구서](/Office365/Admin/subscriptions-and-billing/view-your-bill-or-invoice?toc=/microsoft-365/business/toc.json&bc=/microsoft-365/business/breadcrumb/toc.json)
