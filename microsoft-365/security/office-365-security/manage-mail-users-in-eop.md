@@ -10,26 +10,26 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 4bfaf2ab-e633-4227-8bde-effefb41a3db
 description: 메일 사용자 정의는 EOP(Exchange Online Protection) 서비스 관리의 중요한 부분입니다.
-ms.openlocfilehash: d445bceb9e796c11c40ab778ed3d056df0f4c44b
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 85a2c3ee278af36b9743fd9ff70ea9ab21437de8
+ms.sourcegitcommit: cbf117a4cd92a907115c9f10752f3c557361e586
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37089126"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "37441245"
 ---
 # <a name="manage-mail-users-in-eop"></a>EOP에서 메일 사용자 관리
 
 메일 사용자 정의는 EOP(Exchange Online Protection) 서비스 관리의 중요한 부분입니다. EOP에서는 여러 가지 방식으로 사용자를 관리할 수 있습니다.
-  
-- 디렉터리 동기화를 사용 하 여 메일 사용자 관리: 회사의 온-프레미스 Active Directory 환경에 기존 사용자 계정이 있는 경우 해당 계정을 Azure AD (Active Directory)와 동기화 하 여 계정 복사본을 클라우드에 저장할 수 있습니다. 기존 사용자 계정을 Azure Active Directory에 동기화 할 때 EAC (Exchange 관리 센터)의 **받는 사람** 창에서 해당 사용자를 볼 수 있습니다. 디렉터리 동기화를 사용하는 것이 좋습니다. 
 
-- EAC를 사용하여 메일 사용자 관리: EAC에서 메일 사용자를 직접 추가하고 관리합니다. 이 방법이 메일 사용자를 추가하는 가장 쉬운 방법이며 한 번에 한 명의 사용자를 추가하는 데 유용합니다.
+- **디렉터리 동기화를 사용하여 메일 사용자 관리**: 회사의 온-프레미스 Active Directory 환경에 기존 사용자 계정이 있는 경우 이러한 계정을 Azure Active Directory(AD)로 동기화할 수 있습니다. 계정의 복사본은 클라우드에 저장됩니다. 기존 사용자 계정을 Azure Active Directory에 동기화할 때는 EAC(Exchange 관리 센터)의 **받는 사람** 창에서 해당 받는 사람을 볼 수 있습니다. 디렉터리 동기화를 사용하는 것이 좋습니다.
 
-- 원격 Windows PowerShell을 사용하여 메일 사용자 관리: 원격 Windows PowerShell을 실행하여 메일 사용자를 추가하고 관리합니다. 이 방법은 여러 레코드를 추가하고 스크립트를 만드는 데 유용합니다.
+- **EAC를 사용하여 메일 사용자 관리**: EAC에서 메일 사용자를 직접 추가하고 관리합니다. 이 방법이 메일 사용자를 추가하는 가장 쉬운 방법이며 한 번에 한 명의 사용자를 추가하는 데 유용합니다.
+
+- **PowerShell을 사용 하 여 메일 사용자 관리**: Exchange Online Protection PowerShell에서 메일 사용자 추가 및 관리를 수행 합니다. 이 방법은 여러 레코드를 추가하고 스크립트를 만드는 데 유용합니다.
 
 > [!NOTE]
 > Microsoft 365 관리 센터에서 사용자를 추가할 수 있지만 이러한 사용자는 메일 받는 사람으로 사용할 수 없습니다.
-  
+
 ## <a name="before-you-begin"></a>시작하기 전에
 
 - Exchange 관리 센터를 열려면 exchange [Online Protection의 exchange 관리 센터](exchange-admin-center-in-exchange-online-protection-eop.md)를 참조 하세요.
@@ -46,16 +46,27 @@ ms.locfileid: "37089126"
 
 > [!TIP]
 > 문제가 있습니까? [Exchange Online Protection](https://go.microsoft.com/fwlink/p/?linkId=285351) 포럼에서 도움을 요청 하세요.
-  
+
 ## <a name="use-directory-synchronization-to-manage-mail-users"></a>디렉터리 동기화를 사용하여 메일 사용자 관리
 
 이 섹션에서는 디렉터리 동기화를 사용하여 전자 메일 사용자를 관리하는 방법에 대해 설명합니다.
-  
-> [!NOTE]
-> 디렉터리 동기화를 사용 하 여 받는 사람을 관리 하는 경우에도 Microsoft 365 관리 센터에서 사용자를 추가 및 관리할 수 있지만 온-프레미스 Active Directory와 동기화 되지 않습니다. 디렉터리 동기화는 온-프레미스 Active Directory의 받는 사람만 클라우드로 동기화 하기 때문입니다. <br/><br/> 디렉터리 동기화는 다음과 같은 기능을 사용 하는 것이 좋습니다. <br/><br/>• **Outlook 수신 허용-보낸 사람 및 수신 거부 목록**: 서비스에 동기화 할 때 이러한 목록이 서비스의 스팸 필터링 보다 우선 합니다. 이를 통해 사용자는 사용자 또는 도메인 기준으로 수신 허용 및 수신 거부 보낸 사람 목록을 자체적으로 관리할 수 있습니다. <br/><br/>• **Dbeb (디렉터리 기반 Edge 차단)**: dbeb에 대 한 자세한 내용은 [Use Directory Based Edge 차단은 잘못 된 받는 사람에 게 보낸 메시지를 거부](http://technet.microsoft.com/library/ca7b7416-92ed-40ad-abdb-695be46ea2e4.aspx)를 참조 하세요. <br/><br/>• **최종 사용자 스팸 격리**: 최종 사용자 스팸 격리에 액세스 하려면 최종 사용자에 게 유효한 Office 365 사용자 ID 및 암호가 있어야 합니다. 온-프레미스 사서함을 보호하는 EOP 고객은 유효한 전자 메일 사용자여야 합니다. <br/><br/>• **메일 흐름 규칙**: 디렉터리 동기화를 사용 하는 경우 기존 Active directory 사용자 및 그룹이 클라우드로 자동 업로드 되 고 특정 사용자를 대상으로 하는 메일 흐름 규칙 (전송 규칙이 라고도 함)을 만들 수 있습니다. EAC 또는 Exchange Online Protection PowerShell을 통해 그룹을 수동으로 추가 하지 않아도 됩니다. [동적 메일 그룹](https://go.microsoft.com/fwlink/?LinkId=507569) 은 디렉터리 동기화를 통해 동기화 할 수 없습니다.
-  
+
+**참고:**
+
+- 디렉터리 동기화를 사용 하 여 받는 사람을 관리 하는 경우에도 Microsoft 365 관리 센터에서 사용자를 추가 및 관리할 수 있지만 온-프레미스 Active Directory와 동기화 되지 않습니다. 디렉터리 동기화는 온-프레미스 Active Directory **의** 받는 사람만 클라우드 **로** 동기화 하기 때문입니다.
+
+- 디렉터리 동기화는 다음과 같은 기능을 사용 하는 것이 좋습니다.
+
+  - **Outlook 수신 허용-보낸 사람 및 수신 거부 목록**: 서비스에 동기화 할 때 이러한 목록이 서비스의 스팸 필터링 보다 우선 합니다. 이를 통해 사용자는 사용자 또는 도메인 기준으로 수신 허용 및 수신 거부 보낸 사람 목록을 자체적으로 관리할 수 있습니다.
+
+  - **Dbeb (디렉터리 기반 Edge 차단)**: dbeb에 대 한 자세한 내용은 [Use Directory Based Edge 차단은 잘못 된 받는 사람에 게 보낸 메시지를 거부](http://technet.microsoft.com/library/ca7b7416-92ed-40ad-abdb-695be46ea2e4.aspx)합니다 .를 참조 하세요.
+
+  - **최종 사용자 스팸 격리**: 최종 사용자 스팸 격리에 액세스 하려면 최종 사용자에 게 유효한 Office 365 사용자 ID 및 암호가 있어야 합니다. 온-프레미스 사서함을 보호하는 EOP 고객은 유효한 전자 메일 사용자여야 합니다.
+ 
+  - **메일 흐름 규칙**: 디렉터리 동기화를 사용 하면 기존 Active directory 사용자 및 그룹이 클라우드로 자동 업로드 되 고 특정 사용자를 대상으로 하는 메일 흐름 규칙 (전송 규칙이 라고도 함)을 만들 수 있습니다. EAC 또는 Exchange Online Protection PowerShell을 통해 그룹을 수동으로 추가 하지 않아도 됩니다. [동적 메일 그룹](https://go.microsoft.com/fwlink/?LinkId=507569) 은 디렉터리 동기화를 통해 동기화 할 수 없습니다.
+
 [디렉터리 동기화 준비](https://go.microsoft.com/fwlink/p/?LinkId=308908)의 설명에 따라 필요한 사용 권한을 얻고 디렉터리 동기화를 준비합니다.
-  
+
 ### <a name="to-synchronize-user-directories-with-azure-active-directory-connect-aad-connect"></a>사용자 디렉터리를 Azure Active Directory Connect (AAD 연결)와 동기화 하려면
 
 사용자를 Azure Active Directory (AAD)로 동기화 하려면 먼저 [디렉터리 동기화 활성화](https://go.microsoft.com/fwlink/p/?LinkId=308909)에 설명 된 대로 **디렉터리 동기화를 활성화**해야 합니다.
@@ -72,12 +83,12 @@ ms.locfileid: "37089126"
 ## <a name="use-the-eac-to-manage-mail-users"></a>EAC를 사용하여 메일 사용자 관리
 
 이 섹션에서는 전자 메일 사용자를 EAC에서 직접 추가 및 관리하는 방법에 대해 설명합니다.
-  
+
 ### <a name="use-the-eac-to-add-a-mail-user"></a>EAC를 사용 하 여 메일 사용자 추가
 
 1. EAC에서 **받는 사람** \> **연락처**로 이동한 다음 **새로 만들기 +** 를 클릭하여 전자 메일 사용자를 만듭니다.
 
-2. **새 메일 사용자** 페이지에서 다음을 비롯한 사용자의 정보를 입력합니다. 
+2. **새 메일 사용자** 페이지에서 다음을 비롯한 사용자의 정보를 입력합니다.
 
    ****
 
@@ -95,16 +106,16 @@ ms.locfileid: "37089126"
 
 ### <a name="use-the-eac-to-edit-or-remove-a-mail-user"></a>EAC를 사용 하 여 메일 사용자 편집 또는 제거
 
-- EAC에서 **받는 사람** \> **연락처**로 이동합니다. 사용자 목록에서 보거나 변경 하려는 사용자를 클릭 한 다음 편집 아이콘](../media/ITPro-EAC-EditIcon.gif) **편집** ![을 선택 하 여 사용자 설정을 필요에 따라 업데이트 합니다. 사용자 이름, 별칭 또는 연락처 정보를 변경할 수 있으며 조직에서 사용자의 역할에 대한 상세 정보를 기록할 수 있습니다. 사용자를 선택한 다음 제거 아이콘](../media/ITPro-EAC-RemoveIcon.gif) **제거** ![를 선택 하 여 삭제를 삭제할 수도 있습니다. 
+- EAC에서 **받는 사람** \> **연락처**로 이동합니다. 사용자 목록에서 보거나 변경 하려는 사용자를 클릭 한 다음 편집 아이콘](../media/ITPro-EAC-EditIcon.gif) **편집** ![을 선택 하 여 사용자 설정을 필요에 따라 업데이트 합니다. 사용자 이름, 별칭 또는 연락처 정보를 변경할 수 있으며 조직에서 사용자의 역할에 대한 상세 정보를 기록할 수 있습니다. 사용자를 선택한 다음 제거 아이콘](../media/ITPro-EAC-RemoveIcon.gif) **제거** ![를 선택 하 여 삭제를 삭제할 수도 있습니다.
 
 ## <a name="use-exchange-online-protection-powershell-to-manage-mail-users"></a>Exchange Online Protection PowerShell을 사용 하 여 메일 사용자 관리
 
 이 섹션에서는 원격 Windows PowerShell을 사용하여 메일 사용자를 추가하고 관리하는 방법에 대한 정보가 제공됩니다.
-  
+
 ### <a name="use-eop-powershell-to-add-a-mail-user"></a>EOP PowerShell을 사용 하 여 메일 사용자 추가
-  
+
 이 예제에서는 다음 세부 정보를 사용하여 [New-EOPMailUser](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/new-eopmailuser) cmdlet을 통해 EOP에서 Jeffrey Zeng에 대한 메일 사용이 가능한 사용자 계정을 만듭니다.
-  
+
 - 이름은 Jeffrey고 성은 Zeng입니다.
 
 - 이름은 Jeffrey이고 표시 이름은 Jeffrey Zeng입니다.
@@ -117,62 +128,59 @@ ms.locfileid: "37089126"
 
 - 암호는 Pa$$word1입니다.
 
-```Powershell
+```PowerShell
 New-EOPMailUser -LastName Zeng -FirstName Jeffrey -DisplayName "Jeffrey Zeng" -Name Jeffrey -Alias jeffreyz -MicrosoftOnlineServicesID jeffreyz@contoso.onmicrosoft.com -ExternalEmailAddress jeffreyz@tailspintoys.com -Password (ConvertTo-SecureString -String 'Pa$$word1' -AsPlainText -Force)
 ```
 
 이 작업이 제대로 수행 되었는지 확인 하려면 다음 명령을 실행 하 여 새 메일 사용자 Jeffrey Zeng에 대 한 정보를 표시 합니다.
-  
-```Powershell
+
+```PowerShell
 Get-User -Identity "Jeffrey Zeng"
 ```
 
 구문 및 매개 변수에 대 한 자세한 내용은 [get-help](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/get-user)를 참조 하십시오.
 
 ### <a name="use-eop-powershell-to-edit-the-properties-of-a-mail-user"></a>EOP PowerShell을 사용 하 여 메일 사용자의 속성 편집
-  
+
 [Get-Recipient](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/get-recipient) 및 [Set-EOPMailUser](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/set-eopmailuser) cmdlet을 사용하여 메일 사용자의 속성을 보거나 변경할 수 있습니다.
-  
+
 다음 예에서는 Pilar Pinilla의 외부 전자 메일 주소를 설정합니다.
-  
-```Powershell
+
+```PowerShell
 Set-EOPMailUser -Identity "Pilar Pinilla" -EmailAddresses pilarp@tailspintoys.com
 ```
 
 다음 예에서는 모든 메일 사용자의 Company 속성을 Contoso로 설정합니다.
-  
-```Powershell
+
+```PowerShell
 $Recip = Get-Recipient -ResultSize unlimited -Filter {(RecipientTypeDetails -eq 'mailuser')}
 $Recip | foreach {Set-EOPUser -Identity $_.Alias -Company Contoso}
 ```
-  
+
 이 작업이 제대로 수행 되었는지 확인 하려면 [받는 사람](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/get-recipient) cmdlet을 사용 하 여 변경 내용을 확인 합니다. 여러 메일 연락처의 여러 속성을 확인할 수 있습니다.
-  
-```Powershell
+
+```PowerShell
 Get-Recipient -Identity "Pilar Pinilla" | Format-List
 ```
 
 모든 메일 사용자에 대한 Company 속성이 Contoso로 설정된 이전 예제에서 변경 사항을 확인하려면 다음 명령을 실행합니다.
-  
-```Powershell
+
+```PowerShell
 Get-Recipient -ResultSize unlimited -Filter {(RecipientTypeDetails -eq 'mailuser')} | Format-List Name,Company
 ```
 
 > [!IMPORTANT]
 > 이 cmdlet은 일괄 처리 방법을 사용하므로 cmdlet 결과가 보이기 몇 분 전에 전파 지연이 발생합니다.
-  
+
 ### <a name="use-eop-powershell-to-remove-a-mail-user"></a>EOP PowerShell을 사용 하 여 메일 사용자 제거
-  
+
 이 예제에서는 [Remove-EOPMailUser](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/get-recipient/remove-eopmailuser) cmdlet을 사용하여 사용자 Jeffrey Zeng을 삭제합니다.
-  
-```Powershell
+
+```PowerShell
 Remove-EOPMailUser -Identity Jeffrey
 ```
-
- **결과에 문제가 없는지 확인하려면**
-  
 이 작업이 제대로 수행 되었는지 확인 하려면 [받는 사람](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/get-recipient) cmdlet을 실행 하 여 메일 사용자가 더 이상 존재 하지 않는지 확인 합니다.
-  
-```Powershell
+
+```PowerShell
 Get-Recipient Jeffrey | Format-List
 ```

@@ -14,12 +14,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Office 365 메시지 암호화 버전 간의 차이점을 설명할 수 있습니다.
-ms.openlocfilehash: b617d6a9f61ae8ec5a0133d405f89038bdab9fc4
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 29c30c1630e6fbf24e9037837c162b4ac67950e2
+ms.sourcegitcommit: 27a7a373ca77375fdab0690a899135fad16c3cf5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088975"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37435522"
 ---
 # <a name="compare-versions-of-ome"></a>OME 버전 비교
 

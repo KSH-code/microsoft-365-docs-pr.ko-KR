@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 - Strat_O365_IP
 description: Office 365에서 스팸 및 정크 메일을 줄이는 데 도움이 되는 가장 일반적인 방법을 알아봅니다.
-ms.openlocfilehash: d99b5e1452c60be713f0f4cfbab965d30eeeb8ef
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 759d56862497444c27d0cc0f081731a3581337bd
+ms.sourcegitcommit: ef5bcfe1e3d7d5a2a3c476477a0f82c84ed709e9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088998"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37428429"
 ---
 # <a name="how-to-reduce-spam-email-in-office-365"></a>Office 365에서 스팸 메일을 줄이는 방법
 
@@ -35,7 +35,7 @@ ms.locfileid: "37088998"
 
 ## <a name="fixing-allowed-spam"></a>허용된 스팸 해결
 
-잘못된 구성으로 인해 고객의 받은 편지함으로 정크 메일이 들어오는 경우가 많습니다. 가장 일반적인 경우는 메일 흐름 규칙(전송 규칙이라고도 함)의 도메인이 필터를 무시하도록 구성하거나 사용자 도메인이 허용/수신 허용 - 보낸 사람 목록에 포함되는 경우입니다. 이러한 메시지는 스팸 필터링에 걸리지 않고 받은 편지함에 들어올 수 있으므로 바람직하지 않습니다.  
+잘못된 구성으로 인해 고객의 받은 편지함으로 정크 메일이 들어오는 경우가 많습니다. 가장 일반적인 경우는 메일 흐름 규칙(전송 규칙이라고도 함)의 도메인이 필터를 무시하도록 구성하거나 사용자 도메인이 허용/수신 허용 - 보낸 사람 목록에 포함되는 경우입니다. 이러한 메시지는 스팸 필터링에 걸리지 않고 받은 편지함에 들어올 수 있으므로 임시적 솔루션으로서 [안전 발신자 목록](https://docs.microsoft.com/microsoft-365/security/office-365-security/create-safe-sender-lists-in-office-365)을 작성해 둘 것을 고려합니다.   
 
 ## <a name="solutions-to-other-common-causes-of-getting-too-much-spam"></a>스팸을 너무 많이 증가하는 다른 일반적인 원인에 대한 해결 방법
 

@@ -12,12 +12,12 @@ ms.assetid: 5a6f2d7f-d998-4f31-b4f5-f7cbf6f38578
 ms.collection:
 - M365-security-compliance
 description: 피싱 방지 보호 (Office 365 Advanced Threat Protection의 일부로, 포괄적인 보호 기능이 있는 Office 365 Exchange Online Protection의 기본 보호 기능)은 악의적인 가장 기반 피싱 공격 으로부터 조직을 보호 하는 데 도움이 될 수 있습니다. 기타 피싱 공격이 있습니다.
-ms.openlocfilehash: e668a4681f37f4a3d6977f9d42c4aa661a07cac7
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 620a6f818d3de7c360c3dc22a0ca5822357fb487
+ms.sourcegitcommit: ef5bcfe1e3d7d5a2a3c476477a0f82c84ed709e9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088525"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37428409"
 ---
 # <a name="set-up-office-365-atp-anti-phishing-and-anti-phishing-policies"></a>Office 365 ATP 피싱 방지 및 피싱 방지 정책 설정
 
@@ -39,7 +39,7 @@ ms.locfileid: "37088525"
 3. 피싱 방지 정책 또는 ATP 피싱 방지 정책을 설정 합니다.
 
 >[!IMPORTANT]
-> 여러 기술이 적용 되는 방식을 알아보려면 [정책 및 보호를 결합 하는 방법을](https://docs.microsoft.com/office365/securitycompliance/how-policies-and-protections-are-combined)참조 하세요.
+> 여러 기술이 적용 되는 방식을 알아보려면 [정책 및 보호를 결합 하는 방법을](https://docs.microsoft.com/microsoft-365/security/office-365-security/how-policies-and-protections-are-combined)참조 하세요.
 
 ## <a name="review-the-prerequisites"></a>필수 구성 요소 검토
 
@@ -93,9 +93,6 @@ ATP 피싱 방지 정책을 설정 하거나 편집할 때 다음 표에 설명 
 |**신뢰할 수 있는 보낸 사람 및 도메인 추가** <br/> |이 정책에서 가장으로 간주 되지 않는 전자 메일 주소 및 도메인을 정의 합니다. 보낸 사람 전자 메일 주소 및 신뢰할 수 있는 보낸 사람 및 도메인으로 추가 하는 도메인의 메시지는 가장 기반 공격으로 분류 되지 않습니다. 따라서이 정책의 작업 및 설정은 이러한 보낸 사람과 도메인의 메시지에는 적용 되지 않습니다.  <br/><br/>이러한 목록의 최대 제한은 약 1000 엔트리입니다. |사용자가 가장을 트리거하는 도메인 또는 사용자와 상호 작용 하지만 안전한 것으로 간주 되는 경우 예를 들어 파트너에 목록에 정의 된 사용자와 동일한/비슷한 표시 이름 또는 도메인 이름이 있는 경우  <br/> |
 |**적용 대상** <br/> |받는 전자 메일 메시지에 정책 규칙이 적용 되는 받는 사람을 정의 합니다. 정책과 연결 된 받는 사람에 대 한 조건 및 예외를 만들 수 있습니다.  <br/> 예를 들어 도메인의 모든 받는 사람에 게 규칙을 적용 하 여 조직의 전역 정책을 만들 수 있습니다.  <br/> 특정 받는 사람 그룹에 대 한 전자 메일 메시지를 검색 하지 않는 규칙과 같은 예외 규칙을 만들 수도 있습니다.  <br/> |각 정책이 특정 그룹 또는 도메인의 사용자와 같은 사용자 집합과 연결 되어 있어야 합니다.  <br/> |
 |**고급 피싱 임계값** <br/> |피싱 메시지를 처리 하는 방법에 대 한 설정 수준을 정의 합니다.  <br/> **표준** 피싱 것으로 의심 되는 전자 메일은 표준 방식으로 처리 됩니다.  <br/> **적극적인** 높은 또는 매우 높은 확신을 가진 피싱으로 의심 되는 전자 메일은 시스템에서 동일한 방식으로 처리 됩니다.  <br/> **더 적극적인** 보통, 높음 또는 매우 높은 신뢰도로 피싱 되는 전자 메일은 동일한 방식으로 시스템에서 처리 됩니다.  <br/> **최대 적극적인** 낮음, 중간, 높음 또는 매우 높은 신뢰도의 피싱으로 의심 되는 전자 메일은 시스템에서 동일한 방식으로 처리 됩니다.  <br/> |Office 365 내에서 잠재적 피싱 메시지를 보다 적극적으로 처리 하려는 경우 예를 들어 피싱가 매우 높은 메시지는 가장 심한 작업을 수행 하는 반면, 낮은 확률의 메시지에는 수행 되는 적극적인 작업이 줄어듭니다. 또한이 설정은 신호를 함께 결합 하는 필터링 시스템의 다른 부분에도 영향을 줍니다. 반드시 다른 작업이 구현 되는 것은 아닙니다.  기본적으로 피싱 되는 메일의 가능성을 설정 하 여 동일한 지정 작업을 결정 합니다. 설정 수준이 늘어나면 좋은 메시지를 이동할 기회가 증가 합니다.  <br/>|
-
-> [!IMPORTANT]
-> ![이미지](../media/EnableMailboxIntelligenceBasedImpersonation.png) 새 중요 한 설정, separting * * 사서함 인텔리전스 "From" 사서함 인텔리전스 기반 가장 보호 " 가장은 사서함에 프로그래밍 방식으로 액세스 하 고 스크립트, API 또는 타사 소프트웨어를 사용 하거나 사서함에 포함 된 악성 코드도 실행 하는 경우입니다.
 
 ## <a name="learn-about-anti-phishing-policy-options"></a>피싱 방지 정책 옵션에 대해 자세히 알아보기
 

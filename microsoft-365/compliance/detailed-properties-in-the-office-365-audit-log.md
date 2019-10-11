@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ce004100-9e7f-443e-942b-9b04098fcfc3
 description: Office 365 감사 로그 레코드에 포함 된 추가 속성에 대 한 설명입니다.
-ms.openlocfilehash: 00f2eb2a9259247085973642b317ffbca8ba064a
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 04b2c0bf5d4a3a534e166e82b0261f71e7788294
+ms.sourcegitcommit: db580dc2626328d324f65c7380a5816a500688a7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37087360"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37437798"
 ---
 # <a name="detailed-properties-in-the-office-365-audit-log"></a>Office 365 감사 로그의 자세한 속성
 
@@ -32,7 +32,7 @@ ms.locfileid: "37087360"
 다음 표에서는 다중 속성 **Auditdata** 열에서 이벤트가 발생 하는 Office 365 서비스에 따라 포함 된 속성에 대해 설명 합니다. 이 속성 열이 있는 **Office 365 서비스** 는 해당 속성을 포함 하는 서비스 및 작업 유형 (사용자 또는 관리자)을 나타냅니다. 이러한 속성에 대 한 자세한 내용 또는이 항목에 나열 되지 않을 수 있는 속성에 대 한 자세한 내용은 [Office 365 Management ACTIVITY API Schema](https://go.microsoft.com/fwlink/p/?LinkId=717993)를 참조 하십시오.
   
 > [!TIP]
-> Excel에서 파워 쿼리를 사용 하 여이 열을 여러 열로 분할 하 여 각 속성에 자체 열을 표시할 수 있습니다. 이렇게 하면 이러한 속성 중 하나 이상을 정렬 및 필터링 할 수 있습니다. 이 작업을 수행 하는 방법에 대 한 자세한 내용은 [split a text 열 (Power Query)](https://support.office.com/article/5282d425-6dd0-46ca-95bf-8e0da9539662)에서 "구분 기호로 열 분할" 섹션을 참조 하십시오. 
+> Excel의 Power Query에서 JSON 변환 기능을 사용 하 여 각 속성에 자체 열이 포함 되도록 **Auditdata** 열을 여러 열로 분할할 수 있습니다. 이렇게 하면 이러한 속성 중 하나 이상을 정렬 및 필터링 할 수 있습니다. 이 작업을 수행 하는 방법을 알아보려면 [감사 로그 기록 내보내기, 구성 및 보기](export-view-audit-log-records.md)를 참조 하세요. 
   
 |**속성**|**설명**|**이 속성을 가진 Office 365 서비스**|
 |:-----|:-----|:-----|
@@ -44,7 +44,7 @@ ms.locfileid: "37087360"
 |ChannelName|Microsoft 팀 채널의 이름입니다. 채널이 있는 팀이 **Teamname** 및 **teamname** 속성으로 식별 됩니다.|Microsoft Teams|
 |클라이언트|클라이언트 장치, 장치 OS 및 login 이벤트에 사용 되는 장치 브라우저 (예: Nokia Lumia 920;) Windows Phone 8; IE Mobile 11).|Azure Active Directory|
 |ClientInfoString|브라우저 버전, Outlook 버전 및 모바일 장치 정보와 같이 작업을 수행 하는 데 사용한 전자 메일 클라이언트에 대 한 정보|Exchange (사서함 활동)|
-|ClientIP|활동을 로그할 때 사용 된 장치의 IP 주소입니다. IP 주소는 IPv4 또는 IPv6 주소 형식으로 표시 됩니다.|Exchange 및 Azure Active Directory|
+|ClientIP|활동을 로그할 때 사용 된 장치의 IP 주소입니다. IP 주소는 IPv4 또는 IPv6 주소 형식으로 표시 됩니다.<br/><br/>Azure Active Directory 관련 이벤트에 대 한 관리 활동의 경우 IP 주소가 로깅되지 않으며 ClientIP 속성 값은 `null`입니다. |Exchange 및 Azure Active Directory|
 |ClientIPAddress|ClientIP과 동일 합니다.|SharePoint|
 |CreationTime|사용자가 활동을 수행 했을 때 UTC (협정 세계시)로 표시 되는 날짜와 시간입니다.|모두|
 |DestinationFileExtension|복사 하거나 이동할 파일의 파일 확장명입니다. 이 속성은 FileCopied 및 FileMoved 사용자 작업에만 표시 됩니다.|SharePoint|
@@ -86,13 +86,14 @@ ms.locfileid: "37087360"
 |UserID|**작업** 속성에 지정 된 작업을 수행 하 여 레코드가 기록 되는 사용자입니다. 시스템 계정 (예: SHAREPOINT\system 또는 NT 권한 \ 컴퓨터)에서 수행 하는 작업에 대 한 레코드가 감사 로그에도 포함 되어 있습니다.|모두|
 |UserKey|**UserID** 속성에서 식별 된 사용자의 대체 ID입니다. 예를 들어이 속성은 SharePoint의 사용자가 수행한 이벤트에 대 한 passport 고유 ID (PUID)로 채워집니다. 또한이 속성은 다른 서비스에서 발생 하는 이벤트에 대 한 **UserID** 속성과 동일한 값과 시스템 계정에서 수행 하는 이벤트를 지정할 수 있습니다.|모두|
 |UserSharedWith|리소스를 공유한 사용자입니다. 이 속성은 **Operation** 속성의 값이 **SharingSet**인 경우에 포함 됩니다. 이 사용자는 보고서의 **공유** 됨 열에도 표시 됩니다.|SharePoint|
-|UserType|작업을 수행한 사용자의 유형입니다. 다음 값은 사용자 형식을 나타냅니다. <br/> <br/> **0** -일반 사용자입니다. <br/>**2** -Office 365 조직의 관리자입니다. <sup>개</sup> <br/>**3** -Microsoft 데이터 센터 관리자 또는 데이터 센터 시스템 계정입니다. <br/>**4** -시스템 계정입니다. <br/>**5** -응용 프로그램 <br/>**6** -서비스 사용자입니다.<br/>**7** -사용자 지정 정책<br/>**8** -시스템 정책.|모두|
+|UserType|작업을 수행한 사용자의 유형입니다. 다음 값은 사용자 형식을 나타냅니다. <br/> <br/> **0** -일반 사용자입니다. <br/>**2** -Office 365 조직의 관리자입니다. <sup>1</sup> <br/>**3** -Microsoft 데이터 센터 관리자 또는 데이터 센터 시스템 계정입니다. <br/>**4** -시스템 계정입니다. <br/>**5** -응용 프로그램 <br/>**6** -서비스 사용자입니다.<br/>**7** -사용자 지정 정책<br/>**8** -시스템 정책.|모두|
 |Version|기록 된 작업의 버전 번호 ( **Operation** 속성으로 식별 됨)를 나타냅니다.|모두|
 |작업량|활동이 발생 한 Office 365 서비스입니다. 이 속성에 사용할 수 있는 값은 다음과 같습니다.  <br/> <br/>**SharePoint<br/>OneDrive<br/>Exchange<br/>AzureActiveDirectory<br/>datac, 보안<br/>준수<br/>Sway<br/>비즈니스용 Skype<br/>SecurityComplianceCenter<br/>PowerBI CRM<br/><br/>Yammer<br/>MicrosoftTeams<br/>ThreatIntelligence<br/>MicrosoftFlow<br/>MicrosoftStream<br/>DlpSharePointClassificationData<br/>Project<br/>PowerApps<br/>작업 공간 분석**|모두|
 ||||
 
 > [!NOTE]
-> <sup>1</sup> Azure Active Directory 관련 이벤트의 경우 감사 레코드에서 관리자의 값을 사용 하지 않습니다. 관리자가 수행 하는 작업에 대 한 감사 레코드는 일반 사용자 (예 **: UserType, 0**)가 활동을 수행한 것을 나타냅니다. **UserID** 속성은 활동을 수행한 사람 (일반 사용자 또는 관리자)을 식별 합니다.
+><sup>1</sup> Azure Active Directory 관련 이벤트의 경우 감사 레코드에서 관리자의 값을 사용 하지 않습니다. 관리자가 수행 하는 작업에 대 한 감사 레코드는 일반 사용자 (예 **: UserType, 0**)가 활동을 수행한 것을 나타냅니다. **UserID** 속성은 활동을 수행한 사람 (일반 사용자 또는 관리자)을 식별 합니다.<br/>
+
 
 위에서 설명한 속성은 특정 이벤트의 세부 정보를 볼 때 **자세한 정보** 를 클릭 하면 표시 되기도 합니다. 
   

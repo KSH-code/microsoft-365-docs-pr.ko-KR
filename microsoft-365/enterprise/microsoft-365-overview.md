@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: Microsoft 365 Enterprise의 구성 요소, 계획 및 배포 경로에 대해 소개 합니다.
-ms.openlocfilehash: 8ae6462c2d1de32aa44820f4f417b92bad6db7d3
-ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
+ms.openlocfilehash: b5629edbdbd660a8548fc30809c408d88b18111b
+ms.sourcegitcommit: db580dc2626328d324f65c7380a5816a500688a7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "37370465"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37437845"
 ---
 # <a name="microsoft-365-enterprise-overview"></a>Microsoft 365 Enterprise 개요
 
@@ -30,7 +30,7 @@ Microsoft 365 Enterprise는 다음으로 구성 됩니다.
 
 |||
 |:-------|:-----|
-| 로컬 및 클라우드 기반 앱 및 생산성 서비스 | Office 365 ProPlus, PC 및 Mac 용 최신 Office 앱 (예: Word, Excel, PowerPoint, Outlook 등)과 전자 메일, 파일 저장 및 공동 작업, 모임 등에 대 한 전체 온라인 서비스 모음을 포함 합니다. |
+| 로컬 및 클라우드 기반 앱 및 생산성 서비스 | Office 365 ProPlus, PC 및 Mac용 최신 Office 앱(예: Word, Excel, PowerPoint, Outlook 등) 및 전자 메일, 파일 저장소 및 공동 작업, 모임 등을 위한 완전한 온라인 서비스 제품군이 포함됩니다. |
 | Windows 10 Enterprise | 광범위 한 배포, 장치 및 앱 관리를 통해 사용자에 게 가장 생산적이 고 안전한 버전의 Windows 및 IT 전문가가 제공 되는 대규모 및 중간 규모 조직 모두의 요구 사항을 해결 합니다. |
 | 장치 관리 및 고급 보안 서비스 | 회사 데이터를 보호 하는 동시에 직원의 생산성을 높일 수 있도록 하는 클라우드 기반 엔터프라이즈 이동성 관리 (EMM) 서비스인 Microsoft Intune이 포함 되어 있습니다. |
 |||
@@ -57,7 +57,7 @@ Microsoft 365 Entep76e3을 보유 하 고 있는 경우 다음과 같은 [제공
 
 ## <a name="get-the-big-picture"></a>큰 그림 가져오기
 
-[Microsoft 365 엔터프라이즈 포스터](media/Microsoft365Enterprise.pdf) 는 다음을 볼 수 있는 중앙 위치입니다.
+[Microsoft 365 엔터프라이즈 포스터](media/m365-poster/Microsoft365Enterprise.pdf) 는 다음을 볼 수 있는 중앙 위치입니다.
 
 - Microsoft 365 Enterprise의 이점과 앱 및 서비스가 가치 핵심 요소로에 매핑되는 방식
 - Microsoft 365 Enterprise 요금제 및 해당 계획에 포함 되는 구성 요소 
@@ -65,9 +65,9 @@ Microsoft 365 Entep76e3을 보유 하 고 있는 경우 다음과 같은 [제공
 - 일반적인 조직 부서에 대 한 [Microsoft 365 생산성 라이브러리](https://www.microsoft.com/microsoft-365/success/) 및 대표적인 시나리오
 - Microsoft 365 엔터프라이즈 [배포 가이드](deploy-microsoft-365-enterprise.md) 를 강조 하는 채택 로드맵
 
-[![Microsoft 365 엔터프라이즈 포스터 용 이미지](./media/m365-poster/m365e-poster.png)](media/Microsoft365Enterprise.pdf)
+[![Microsoft 365 엔터프라이즈 포스터 용 이미지](./media/m365-poster/m365e-poster.png)](media/m365-poster/Microsoft365Enterprise.pdf)
 
-포스터 복사본을 다운로드 하려면 [여기](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/Microsoft365Enterprise.pdf)를 클릭 하세요.
+포스터 사본을 다운로드 하려면 [여기](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/m365-poster/Microsoft365Enterprise.pdf)를 클릭하세요.
 
 
 ## <a name="transition-your-entire-organization"></a>전체 조직 전환
@@ -76,9 +76,9 @@ Microsoft 365 Entep76e3을 보유 하 고 있는 경우 다음과 같은 [제공
 
 [![Microsoft 365 포스터 전환 이미지](./media/deploy-microsoft-365-enterprise/transition-org-to-m365.png)](media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf)
 
-이 두 페이지 포스터는 기존 인프라를 신속 하 게 인벤토리에 제공 하 고 Microsoft 365 Enterprise에서 해당 제품 또는 서비스로 이동 하기 위한 지침을 얻을 수 있는 방법입니다. 여기에는 Windows 및 Office 제품과 기타 인프라 및 보안 요소 (예: 장치 관리, id, 정보 및 위협 보호)가 포함 됩니다.
+이 두 페이지 포스터는 신속하게 기존 인프라를 인벤터리하여 Microsoft 365 Enterprise에서 해당 제품이나 서비스로 전환하는 방법에 대한 지침을 제공합니다. Windows와 Office 제품, 디바이스 관리, ID, 정보 및 위협 방지와 같은 기타 인프라 및 보안 요소가 포함됩니다.
 
-또한 [이 포스터를 다운로드](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf) 하 여 letter, legal 또는 tabloid (11 x 17) 형식으로 인쇄할 수 있습니다.
+[이 포스터를 다운로드](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf)하고 편지형, 법률형 또는 타블로이드(11 x 17) 형식으로 인쇄할 수 있습니다.
 
 ## <a name="avoid-end-of-support-for-windows-7-and-office-2010-clients-and-servers"></a>Windows 7 및 Office 2010 클라이언트 및 서버에 대 한 지원 종료 방지
 
@@ -98,7 +98,7 @@ Microsoft 365 Entep76e3을 보유 하 고 있는 경우 다음과 같은 [제공
 
 이 한 페이지 포스터는 Windows 7 및 Office 2010 클라이언트 및 서버 제품이 지원 종료에 도달 하지 못하도록 하는 데 사용할 수 있는 다양 한 경로를 이해 하는 빠른 방법 이며, Microsoft 365 Enterprise의 기본 설정 경로 및 지원을 통해 강조 표시 됩니다.
 
-또한 [이 포스터를 다운로드](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/migration-microsoft-365-enterprise-workload/Office2010Windows7EndOfSupport.pdf) 하 여 letter, legal 또는 tabloid (11 x 17) 형식으로 인쇄할 수 있습니다.
+[이 포스터를 다운로드](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/migration-microsoft-365-enterprise-workload/Office2010Windows7EndOfSupport.pdf)하고 편지형, 법률형 또는 타블로이드(11 x 17) 형식으로 인쇄할 수 있습니다.
 
 ## <a name="deploy"></a>배포
 

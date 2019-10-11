@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 조직에서 Microsoft 365 Enterprise 배포하는 데 사용할 수 있는 리소스를 파악 합니다.
-ms.openlocfilehash: 1d88ed400d20b15823d3991a1cd099bbb16ffa84
-ms.sourcegitcommit: c6eab4a9f1b70e7ff0db6b2a1128a4db2591cbaf
+ms.openlocfilehash: 0dcbe9e39f33cab65dff6033f0b78ceb7e1c42cc
+ms.sourcegitcommit: db580dc2626328d324f65c7380a5816a500688a7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "37369539"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37437868"
 ---
 # <a name="deploy-microsoft-365-enterprise"></a>Microsoft 365 Enterprise 배포
 
@@ -123,6 +123,10 @@ CSEO(Core Services Engineering and Operations)(이전의 Microsoft IT)가 안전
 ### <a name="how-the-contoso-corporation-deployed-microsoft-365-enterprise"></a>Contoso Corporation에서 Microsoft 365 Enterprise를 배포한 방식
 
 Contoso 기업은 프랑스 파리에 본사를 둔 가상의 대표적인 글로벌 제조 대기업입니다. [Contoso가 Microsoft 365 Enterprise를 배포](contoso-case-study.md)하고 네트워킹, ID, Windows 10 Enterprise, Office 365 ProPlus, 모바일 장치 관리, 정보 보호 및 보안에 대한 중요 디자인 결정 및 구현 세부 사항을 진행하는 방식을 참조하십시오. 
+
+## <a name="stay-current-with-deployment-content"></a>배포 콘텐츠 최신 상태로 유지
+
+콘텐츠의 마지막 변경 내용을 확인하려면 [이 문서](microsoft-365-deploment-guide-changes.md)를 참조하십시오.
 
 ## <a name="next-step"></a>다음 단계
 

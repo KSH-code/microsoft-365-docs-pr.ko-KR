@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 직원들이 언제 어디서나 원격으로 작업할 수 있도록 하는 인프라와 보안을 구성합니다.
-ms.openlocfilehash: 2ff9923d0a301ba6ced720a9934ceb62bdff37c4
-ms.sourcegitcommit: 84d88a857e82b1a8a0d466057a2e330e8b1692e4
+ms.openlocfilehash: b73e16a52741a6587e9ed903cab6ddfedf896973
+ms.sourcegitcommit: e1ffb98ac8159d1dc814930fe388d3e37cbdc7e2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37306562"
+ms.lasthandoff: 10/05/2019
+ms.locfileid: "37403257"
 ---
 # <a name="empower-remote-workers"></a>원격 작업자 지원
 
@@ -201,5 +201,6 @@ ms.locfileid: "37306562"
 
 [워크로드 및 시나리오](deploy-workloads.md)
 
-[배포 가이드](deploy-microsoft-365-enterprise.md)
+[Microsoft 365 생산성 라이브러리](https://aka.ms/productivitylibrary) (https://aka.ms/productivitylibrary)
 
+[배포 가이드](deploy-microsoft-365-enterprise.md)

@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: c123694a-1efb-459e-a8d5-2187975373dc
 description: Microsoft 365 Business에 제공되는 보안 기능에 대해 알아봅니다.
-ms.openlocfilehash: 8e45d5fdb6a78f3966c46542189aa30ddd80998e
-ms.sourcegitcommit: 6003d6da0a85c97357eb3dba3918eb145f381fe1
+ms.openlocfilehash: c0c37b09fd0bb0218864b6bc97aa127feae1ff16
+ms.sourcegitcommit: 255e8194bb5767a9983d54d16e79d628732a1d97
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37288458"
+ms.lasthandoff: 10/11/2019
+ms.locfileid: "37453979"
 ---
 # <a name="microsoft-365-business-security-and-compliance-features"></a>Microsoft 365 Business 보안 및 규정 준수 기능
 
@@ -98,9 +98,9 @@ Microsoft 365 비즈니스 구독에는 준수 및 규정 표준을 유지 관�
     
     Exchange Online Archiving 라이선스가 있으면 연속 데이터 백업을 사용하여 메시지를 쉽게 보관할 수 있습니다. 이 기능은 나중에 검색 또는 복원에 필요한 경우에 대비하여 삭제한 항목을 포함하는 모든 사용자 전자 메일을 저장합니다. 또한 소송 보존, eDiscovery을 위해 전자 메일 데이터를 보존하거나 규정 준수 요구 사항을 충족할 수 있습니다.
     
-- **[Azure Information Protection](https://go.microsoft.com/fwlink/p/?linkid=871406)**
-    
-    정보 보호를 사용 하면 "전달 금지" 및 "복사 금지"와 같은 컨트롤을 사용 하 여 전자 메일 및 문서에서 중요 한 정보에 대 한 액세스를 제어할 수 있습니다. 중요 한 정보를 "기밀"으로 분류 하 고 분류 된 정보를 비즈니스 외부 및 내부에 공유 하는 방법을 지정할 수도 있습니다. 엔터프라이즈 등급 암호화는 전자 메일 및 문서에 쉽게 적용할 수 있으며 정보를 비공개로 유지 하는 데 사용 됩니다. Microsoft 365 Business에는 [Azure Information Protection 계획 1](https://go.microsoft.com/fwlink/p/?linkid=871407)의 모든 기능이 포함 되어 있습니다. Office 용 Azure Information Protection 클라이언트 추가 기능을 설치할 수도 있습니다. 자세한 내용은 [Azure Information Protection 클라이언트 관리자 가이드](https://docs.microsoft.com/azure/information-protection/rms-client/client-admin-guide)를 참조 하세요.
+- **[민감도 레이블](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels)**
+
+   Microsoft 365 Business에는 [Azure Information Protection 계획 1](https://go.microsoft.com/fwlink/p/?linkid=871407)의 모든 기능이 포함 되어 있습니다. 이 계획을 사용 하 여 **민감도 레이블을**만들어 전자 메일 및 문서에서 중요 한 정보에 대 한 액세스를 제어할 수 있는 "전달 금지" 및 "복사 금지" 등의 컨트롤이 있습니다. 중요 한 정보를 "기밀"으로 분류 하 고 분류 된 정보를 비즈니스 외부 및 내부에 공유 하는 방법을 지정할 수도 있습니다. 엔터프라이즈 등급 암호화는 전자 메일 및 문서에 쉽게 적용할 수 있으며 정보를 비공개로 유지 하는 데 사용 됩니다. Office 용 Azure Information Protection 클라이언트 추가 기능을 설치할 수도 있습니다. 자세한 내용은 [Azure Information Protection 통합 레이블 클라이언트](https://docs.microsoft.com/azure/information-protection/rms-client/unifiedlabelingclient-version-release-history)를 참조 하세요. 민감도 레이블의 경우 **AzInfoProtection_UL**를 설치 합니다.
 
 이러한 기능은 보안 &amp; 및 준수 센터 및 Intune 관리 센터에서 관리할 수 있습니다. 시간이 지남에 따라 간소화 된 컨트롤이 Microsoft 365 비즈니스 관리 센터에 추가 됩니다.
   
