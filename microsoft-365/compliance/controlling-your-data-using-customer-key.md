@@ -14,12 +14,12 @@ ms.assetid: f2cd475a-e592-46cf-80a3-1bfb0fa17697
 ms.collection:
 - M365-security-compliance
 description: Exchange Online, 비즈니스용 Skype, SharePoint Online 및 비즈니스용 OneDrive에 대 한 Office 365의 고객 키를 설정 하는 방법을 알아봅니다. 고객 키를 사용 하 여 조직의 암호화 키를 제어 하 고 Office 365을 구성 하 여 Microsoft의 데이터 센터에 있는 휴지 상태에 있는 사용자에 대 한 정보를 암호화 합니다.
-ms.openlocfilehash: 839d0b56b3748e2ab4ccecc30a084447f22131aa
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: d3e10a32aeedc90dc06257a29b63df8657157a0b
+ms.sourcegitcommit: 27a7a373ca77375fdab0690a899135fad16c3cf5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37087593"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37435532"
 ---
 # <a name="controlling-your-data-in-office-365-using-customer-key"></a>고객 키를 사용하여 Office 365에서 데이터 제어
 
@@ -205,7 +205,7 @@ Office 365 팀에 연락 하기 전에 고객 키와 함께 사용 하는 각 Az
   -UserPrincipalName <UPN of user> -PermissionsToKeys create,import,list,get,backup,restore
   ```
 
-  예를 들면 다음과 같습니다.
+  예:
     
   ```
   Set-AzureRmKeyVaultAccessPolicy -VaultName Contoso-O365EX-NA-VaultA1 
@@ -338,7 +338,7 @@ Backup-AzureKeyVaultKey -VaultName <vaultname> -Name <keyname>
 > [!TIP]
 > 출력 파일의 경우 자격 증명 모음 이름 및 키 이름을 조합 하 여 선택 합니다. 이렇게 하면 파일 이름이 자체 설명 됩니다. 또한 백업 파일 이름이 충돌 하지 않도록 해야 합니다. 
   
-예를 들면 다음과 같습니다.
+예:
   
 ```
 Backup-AzureKeyVaultKey -VaultName Contoso-O365EX-NA-VaultA1 -Name Contoso-O365EX-NA-VaultA1-Key001 -OutputFile Contoso-O365EX-NA-VaultA1-Key001-Backup-20170802.backup
@@ -504,7 +504,7 @@ SharePoint Online 및 비즈니스용 OneDrive에 대 한 고객 키를 설정 �
 ### <a name="create-a-data-encryption-policy-dep-for-each-sharepoint-online-and-onedrive-for-business-geo"></a>각 SharePoint Online 및 비즈니스용 OneDrive 지역에 대 한 DEP (데이터 암호화 정책)를 만듭니다.
 <a name="CreateDEP4SPOODfB"> </a>
 
-DEP는 Azure Key Vault에 저장 된 키 집합과 연결 됩니다. 한 지리적 위치에 있는 모든 데이터에 DEP를 적용 합니다 (geo 라고도 함). Office 365 (현재 미리 보기)의 다중 지역 기능을 사용 하는 경우에는 각 지역에 따라 하나의 DEP를 만들 수 있습니다. 다중 geo를 사용 하지 않는 경우에는 SharePoint Online 및 비즈니스용 OneDrive와 함께 사용 하기 위해 Office 365에서 DEP를 하나씩 만들 수 있습니다. 그러면 Office 365에서 DEP에 식별 된 키를 사용 하 여 해당 지역에서 데이터를 암호화 합니다. DEP를 만들려면 이전에 가져온 키 보관소 Uri가 필요 합니다. 지침은 [각 Azure 키 자격 증명 모음 키의 URI 가져오기를](controlling-your-data-using-customer-key.md#GetKeyURI) 참조 하세요. 
+DEP는 Azure Key Vault에 저장 된 키 집합과 연결 됩니다. 한 지리적 위치에 있는 모든 데이터에 DEP를 적용 합니다 (geo 라고도 함). Office 365의 다중 지역 기능을 사용 하는 경우에는 각 지역에 따라 하나의 DEP를 만들 수 있습니다. 다중 geo를 사용 하지 않는 경우에는 SharePoint Online 및 비즈니스용 OneDrive와 함께 사용 하기 위해 Office 365에서 DEP를 하나씩 만들 수 있습니다. 그러면 Office 365에서 DEP에 식별 된 키를 사용 하 여 해당 지역에서 데이터를 암호화 합니다. DEP를 만들려면 이전에 가져온 키 보관소 Uri가 필요 합니다. 지침은 [각 Azure 키 자격 증명 모음 키의 URI 가져오기를](controlling-your-data-using-customer-key.md#GetKeyURI) 참조 하세요. 
   
 항상! DEP를 만들 때 서로 다른 두 Azure 키 자격 증명 모음에 있는 두 개의 키를 지정 합니다. 이러한 키가 지리적 중복을 보장 하기 위해 별도의 두 Azure 지역에 위치 하는지 확인 합니다.
   
@@ -567,7 +567,7 @@ Office 365에 대 한 고객 키를 설정한 후에는 다음 추가 관리 작
 Restore-AzureKeyVaultKey -VaultName <vaultname> -InputFile <filename>
 ```
 
-예를 들면 다음과 같습니다.
+예:
   
 ```
 Restore-AzureKeyVaultKey -VaultName Contoso-O365EX-NA-VaultA1 -InputFile Contoso-O365EX-NA-VaultA1-Key001-Backup-20170802.backup
@@ -585,7 +585,7 @@ Azure 키 자격 증명 모음 또는 고객 키에 따라 롤링 키가 필요 
   
 키를 롤 포워드 하면 기존 키의 새 버전을 요청 하 게 됩니다. 기존 키의 새 버전을 요청 하려면 첫 번째 위치에서 키를 만드는 데 사용한 구문과 동일한 cmdlet, [AzureKeyVaultKey](https://docs.microsoft.com/powershell/module/AzureRM.KeyVault/Add-AzureKeyVaultKey)을 사용 합니다.
   
-예를 들면 다음과 같습니다.
+예:
   
 ```
 Add-AzureKeyVaultKey -VaultName Contoso-O365EX-NA-VaultA1 -Name Contoso-O365EX-NA-VaultA1-Key001 -Destination HSM -KeyOps @('wrapKey','unwrapKey') -NotBefore (Get-Date -Date "12/27/2016 12:01 AM")
@@ -630,7 +630,7 @@ Get-SPODataEncryptionPolicy -Identity <SPOAdminSiteUrl>
 Get-AzureRmKeyVault -VaultName <vaultname>
 ```
 
-예를 들면 다음과 같습니다.
+예:
   
 ```
 Get-AzureRmKeyVault -VaultName Contoso-O365EX-NA-VaultA1
@@ -643,7 +643,7 @@ Remove-AzureRmKeyVaultAccessPolicy -VaultName <vaultname>
 -UserPrincipalName <UPN of user>
 ```
 
-예를 들면 다음과 같습니다.
+예:
   
 ```
 Remove-AzureRmKeyVaultAccessPolicy -VaultName Contoso-O365EX-NA-VaultA1 

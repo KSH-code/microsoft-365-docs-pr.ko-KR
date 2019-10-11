@@ -1,7 +1,7 @@
 ---
 title: EOP 기능
-ms.author: tracyp
-author: MSFTTracyP
+ms.author: chrisda
+author: chrisda
 manager: dansimp
 ms.date: ''
 audience: ITPro
@@ -10,20 +10,20 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 599b8048-1056-457b-aae4-c063138fd319
 description: 다음 표에는 EOP(Exchange 온라인 보호) 호스팅 전자 메일 필터링 서비스에서 사용할 수 있는 기능 목록이 나와 있습니다.
-ms.openlocfilehash: a5a11204cff0392245c91d371aad0fcae9e4d124
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 1dd3ff638c9cb209c51a82fd2388057f3bf4b95e
+ms.sourcegitcommit: cbf117a4cd92a907115c9f10752f3c557361e586
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37087909"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "37441515"
 ---
 # <a name="eop-features"></a>EOP 기능
 
 다음 표에는 EOP(Exchange 온라인 보호) 호스팅 전자 메일 필터링 서비스에서 사용할 수 있는 기능 목록이 나와 있습니다.
-  
+
 > [!TIP]
-> [업무용 Office 365 로드맵](https://www.microsoft.com/microsoft-365/roadmap?filters=O365)에서는 예정된 새로운 기능에 대한 정보를 제공합니다. 여러 EOP 구독 계획에서 사용할 수 있는 기능에 대한 폭넓은 정보는 [Exchange 온라인 보호 서비스 설명](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)에서 확인할 수 있습니다. 
-  
+> [업무용 Office 365 로드맵](https://www.microsoft.com/microsoft-365/roadmap?filters=O365)에서는 예정된 새로운 기능에 대한 정보를 제공합니다. 여러 EOP 구독 계획에서 사용할 수 있는 기능에 대한 폭넓은 정보는 [Exchange 온라인 보호 서비스 설명](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)에서 확인할 수 있습니다.
+
 |||
 |:-----|:-----|
 |**기능**|**설명**|
@@ -35,13 +35,13 @@ ms.locfileid: "37087909"
 |악성 URL 차단 목록|EOP에서는 메시지 내에서 알려진 악성 링크를 검색하는 데 도움이 되는 여러 URL 차단 목록을 사용합니다.|
 |피싱 방지 보호 기능|EOP에는 750,000개의 알려진 스팸 발송자 도메인이 포함되어 있습니다.|
 |**스팸 관리**||
-|연결 필터 IP 허용 및 IP 차단 목록을 구성하는 기능|연결 필터에 지정된 IP 주소는 단일 IP 주소 및 CIDR IP 주소 범위에 적용됩니다. 이 서비스는 IPv6 주소도 지원합니다. 자세한 내용은 [Configure the connection filter policy](configure-the-connection-filter-policy.md)을 참조하세요.|
+|연결 필터 IP 허용 및 IP 차단 목록을 구성하는 기능|연결 필터에 지정된 IP 주소는 단일 IP 주소 및 CIDR IP 주소 범위에 적용됩니다. 이 서비스는 IPv6 주소도 지원합니다. 자세한 내용은 [Configure the connection filter policy](configure-the-connection-filter-policy.md)를 참조하십시오.|
 |콘텐츠 필터 정책을 사용자, 그룹 또는 도메인별로 사용자 지정하는 기능|세분성을 높이기 위해 사용자 지정 콘텐츠 필터 정책을 만들어서 조직의 지정된 사용자, 그룹 또는 도메인에 적용할 수 있습니다. 사용자 지정 정책은 항상 기본 정책보다 우선하지만 사용자 지정 정책의 우선 순위(즉, 실행 순서)를 변경할 수 있습니다. 자세한 내용은 [스팸 필터 정책 구성을](configure-your-spam-filter-policies.md)참조 하세요.|
 |콘텐츠가 필터링된 메시지에 대한 작업을 구성하는 기능|구성할 수 있는 작업이 여러 가지 있습니다. 예를 들어 콘텐츠가 필터링된 메시지를 삭제하거나 이러한 메시지를 격리 또는 정크 메일 폴더로 보낼 수 있습니다. 자세한 내용은 [스팸 필터 정책 구성을](configure-your-spam-filter-policies.md)참조 하세요.|
 |적극적인 스팸 필터링에 대한 고급 옵션을 구성하는 기능|자세한 내용은 [configure a 스팸 필터 정책](configure-your-spam-filter-policies.md) (이를 구성 하는 경우) 및 [고급 스팸 필터링 옵션](advanced-spam-filtering-asf-options.md) (각 옵션의 기능에 대 한 구체적인 세부 정보 제공)을 참조 하세요.|
 |다국어 스팸 필터링|특정 언어로 작성되었거나 특정 국가 또는 지역에서 보낸 메시지를 필터링하도록 EOP를 구성할 수 있습니다. 최대 86개 언어와 250개 지역을 구성할 수 있습니다. 서비스에서는 높은 스팸 지수에 대해 구성된 작업을 적용합니다. 자세한 내용은 [스팸 필터 정책 구성을](configure-your-spam-filter-policies.md)참조 하세요.|
 |Outlook 또는 웹용 Outlook을 통한 스팸 관리 (이전의 Outlook Web App)|관리자 및 최종 사용자가 안전한 보낸 사람 목록 및 차단된 보낸 사람 목록을 만들 수 있습니다. 자세한 내용은 다음을 참조하세요. <br/>• **웹용 Outlook**: [차단 또는 허용 (정크 메일 설정)](https://support.office.com/article/48c9f6f7-2309-4f95-9a4d-de987e880e46)을 참조 하세요.  <br/>• **Outlook**: [정크 메일 필터 개요](https://support.office.com/article/5ae3ea8e-cf41-4fa0-b02a-3b96e21de089)참조 <br/><br/> EOP을 사용 하 여 온-프레미스 사서함을 보호 하는 경우 이러한 설정이 서비스와 동기화 되도록 디렉터리 동기화를 사용 해야 합니다. 디렉터리 동기화 설정에 대한 자세한 내용은 [EOP에서 메일 사용자 관리](manage-mail-users-in-eop.md)에서 "디렉터리 동기화를 사용하여 메일 사용자 관리"를 참조하세요.|
-|Microsoft Office Outlook용 정크 메일 보고 추가 기능을 통한 스팸 전송|분석을 위해 Microsoft로 스팸 메시지를 제출할 수 있도록 해주는 Outlook 추가 기능을 다운로드할 수 있습니다. 이 도구를 다운로드 하 고 사용 하는 방법에 대 한 자세한 내용은 [보고서 메시지 추가 기능을 사용 하도록 설정을](https://support.office.com/article/4250c4bc-6102-420b-9e0a-a95064837676)참조 하십시오. <br/><br/> Exchange Server 2013 이상 버전을 사용 하는 경우에는 웹용 outlook에서 [정크 메일 및 피싱 사기 보고 ](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md)에 설명 된 대로 EOP를 웹에서 마우스 오른쪽 단추로 클릭 하 여 스팸 메시지를 제출할 수도 있습니다.|
+|Microsoft Office Outlook용 정크 메일 보고 추가 기능을 통한 스팸 전송|분석을 위해 Microsoft로 스팸 메시지를 제출할 수 있도록 해주는 Outlook 추가 기능을 다운로드할 수 있습니다. 이 도구를 다운로드 하 고 사용 하는 방법에 대 한 자세한 내용은 [보고서 메시지 추가 기능을 사용 하도록 설정을](https://support.office.com/article/4250c4bc-6102-420b-9e0a-a95064837676)참조 하십시오. <br/><br/> Exchange Server 2013 이상 버전을 사용 하는 경우에는 웹용 outlook에서 [정크 메일 및 피싱 사기 보고](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md)에 설명 된 대로 EOP를 웹에서 마우스 오른쪽 단추로 클릭 하 여 스팸 메시지를 제출할 수도 있습니다.|
 |전자 메일 별칭을 통해 스팸 및 비스팸 전송|전자 메일을 통해 스팸(정크) 및 비스팸(정크 아님) 메시지를 Microsoft에 제출할 수 있습니다. 자세한 내용은 [분석을 위해 Microsoft에 스팸 및 스팸이 아닌 메시지 제출을](submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md)참조 하세요.|
 |웹에서 Outlook을 통한 스팸 및 비 스팸 전송 정크 메일 보고|정크 메일 및 스팸이 아닌 메시지는 웹에서 Outlook을 통해 Microsoft에 제출할 수 있습니다. 자세한 내용은 [웹용 Outlook에서 정크 메일 및 피싱 사기 보고](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md)를 참조 하세요.  <br/><br/> 이 기능은 현재 Exchange Server 2013 SP1 이상 사서함이 EOP에 의해 필터링 되는 웹 고객의 Outlook에서 사용할 수 있습니다. 웹에서 Exchange Online Outlook 고객 에게도이 기능이 곧 출시 될 예정입니다.|
 |최종 사용자 스팸 격리 알림|최종 사용자는 자신의 스팸 격리 메시지를 릴리스하고, 필요한 경우 최종 사용자 스팸 알림 메시지를 통해 이를 정크 메일 아님으로 보고할 수 있습니다. 이러한 알림 전자 메일은 [Exchange Online에서 최종 사용자 스팸 알림 구성](configure-end-user-spam-notifications-in-exchange-online.md) 또는 [EOP에서 최종 사용자 스팸 알림 구성](configure-end-user-spam-notifications-in-eop.md)에 설명 된 대로 관리자가 구성 하 고 사용 하도록 설정 해야 합니다.|
@@ -77,7 +77,7 @@ ms.locfileid: "37087909"
 |규칙에 따라 메시지의 스팸 지수 변경|전송 중인 메시지를 검사하고 선택한 기준에 따라 스팸 지수를 할당할 수 있습니다. 자세한 내용은 [메일 흐름 규칙을 사용 하 여 메시지에서 SCL (스팸 지 수) 설정을](use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages.md)참조 하십시오.|
 |메시지 첨부 파일 검사|첨부 파일의 내용 또는 첨부된 파일의 특성을 조사하고 발견된 항목에 따라 수행할 작업을 정의할 수 있습니다. 자세한 내용은 [메일 흐름 규칙을 사용 하 여 Exchange Online의 메시지 첨부 파일 검사](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/inspect-message-attachments)를 참조 하세요.|
 |**관리**||
-|웹 기반 관리|EOP 관리자는 60개 언어로 지원되는 EAC(Exchange 관리 센터) 인터페이스를 통해 서비스를 관리할 수 있습니다. 자세한 내용은 exchange [Online Protection의 exchange 관리 센터 ](exchange-admin-center-in-exchange-online-protection-eop.md)를 참조 하세요.|
+|웹 기반 관리|EOP 관리자는 60개 언어로 지원되는 EAC(Exchange 관리 센터) 인터페이스를 통해 서비스를 관리할 수 있습니다. 자세한 내용은 [Exchange admin center in Exchange Online Protection](exchange-admin-center-in-exchange-online-protection-eop.md)를 참조하세요.|
 |디렉터리 동기화|디렉터리 동기화는 Azure Active Directory 동기화 도구를 통해 사용할 수 있습니다. 자세한 내용은 [EOP에서 메일 사용자 관리](manage-mail-users-in-eop.md)에서 "디렉터리 동기화를 사용하여 메일 사용자 관리" 섹션을 참조하세요.  |
 |DBEB(디렉터리 기반 Edge 차단)|DBEB 기능을 통해 서비스 네트워크 주변에서 잘못된 받는 사람에 대한 메시지를 거부할 수 있습니다. DBEB를 사용하면 메일 사용이 가능한 받는 사람을 Office 365에 추가하고 Office 365에 존재하지 않는 전자 메일로 전송되는 모든 메시지를 차단할 수 있습니다. DBEB를 구성 하는 방법에 대 한 자세한 내용은 [Use Directory 기반 Edge 블로킹을 통해 잘못 된 받는 사람에 게 보낸 메시지를 거부](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-directory-based-edge-blocking)를 참조 하세요.|
 |원격 Windows PowerShell 액세스|전체 EOP 기능을 원격 Windows PowerShell을 통해 사용할 수 있습니다. 자세한 내용은 [Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-eop/exchange-online-protection-powershell)을 참조 하세요.|

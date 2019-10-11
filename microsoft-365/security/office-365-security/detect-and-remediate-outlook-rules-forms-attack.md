@@ -14,12 +14,12 @@ localization_priority: Normal
 search.appverid:
 - MET150
 description: Office 365에서 Outlook 규칙 및 사용자 지정 양식 주입 공격을 인식 하 고 수정 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: ef2f08c953b91ccefcadd5947d2d0a9f39683ae2
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: d19a9c86dce42724aa2be00f11ea49ac7cc19d8a
+ms.sourcegitcommit: cbf117a4cd92a907115c9f10752f3c557361e586
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37087946"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "37440655"
 ---
 # <a name="detect-and-remediate-outlook-rules-and-custom-forms-injections-attacks-in-office-365"></a>Office 365에서 Outlook 규칙 및 사용자 지정 양식 주입 공격 감지 및 재구성
 
@@ -123,7 +123,7 @@ MailboxFormsExport-*yyyy-mm-dd-.csv*-일반적으로 사용자 지정 양식을 
 Exchange 서버에 있는 사서함에 대 한 단계
 
 1. 원격 PowerShell을 사용 하 여 Exchange 서버에 연결 합니다. [원격 PowerShell을 사용 하 여 Exchange server에 연결](https://docs.microsoft.com/powershell/exchange/exchange-server/connect-to-exchange-servers-using-remote-powershell?view=exchange-ps)의 단계를 수행 합니다.
-2. 단일 규칙, 여러 규칙 또는 사서함의 모든 규칙을 완전히 제거 하려면 [받은 편지함 제거 규칙 cmdlet ](https://docs.microsoft.com/powershell/module/exchange/mailboxes/Remove-InboxRule?view=exchange-ps)을 사용 하 여 사서함에서 하나, 여러 개 또는 모든 규칙을 완전히 제거 합니다.
+2. 단일 규칙, 여러 규칙 또는 사서함의 모든 규칙을 완전히 제거 하려면 [받은 편지함 제거 규칙 cmdlet](https://docs.microsoft.com/powershell/module/exchange/mailboxes/Remove-InboxRule?view=exchange-ps)을 사용 하 여 사서함에서 하나, 여러 개 또는 모든 규칙을 완전히 제거 합니다.
 3. 자세히 조사를 위해 규칙 및 해당 내용을 유지 하려면 [disable-inboxrule cmdlet](https://technet.microsoft.com/en-us/library/dd298120(v=exchg.160).aspx)을 사용 합니다. 
 
 Exchange Online의 사서함에 대 한 단계
@@ -144,8 +144,8 @@ Exchange Online의 사서함에 대 한 단계
     <li>사용자 계정을 <a href="https://docs.microsoft.com/azure/active-directory/active-directory-view-access-usage-reports">액세스 하 고 사용</a>하는 방법을 모니터링 합니다. 초기 위반을 막을 수는 없지만 위반의 기간과 영향을 더 일찍 검색 하는 것은 단축 됩니다. 다음을 사용할 수 있습니다. <a href="https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security">Office 365 Cloud App Security 정책을</a> 사용 하 여 계정을 모니터링 하 고 비정상적인 활동에 대 한 경고를 할 수도 있습니다. 
         <ol type="a">
             <li><b>여러 번 실패 한 로그인 시도</b> 이 정책은 사용자의 환경에 프로필을 지정 하 고 알려진 기준에 따라 단일 세션에서 여러 로그인 작업을 수행 하는 경우 경고를 트리거합니다.</li>
-            <li><b>불가능 한 여행</b> - 이 정책은 작업 환경에 프로 파일을 만들고, 두 위치 사이의 예상 이동 시간 보다 짧은 기간 동안 서로 다른 위치에 있는 동일한 사용자가 활동을 검색 하는 경우 경고를 트리거합니다. 이는 다른 사용자가 동일한 자격 증명을 사용 하 고 있음을 나타낼 수 있습니다. 이 비정상적인 동작을 검색 하는 경우 초기 학습 기간이 7 일 동안 새 사용자의 작업 패턴을 학습 하는 데 사용 됩니다.</li>
-            <li><b>비정상적으로 가장 된 활동 (사용자에 의해)</b> - 이 정책은 사용자가 사용 하는 환경의 프로필을 지정 하 고 배운 기준에 따라 단일 세션에서 여러 개의 가장 된 활동을 수행할 때 경고를 트리거합니다.</li>
+            <li><b>불가능 한 여행</b> - 이 정책은 환경에 프로필을 만들고, 두 위치 사이에 예상 되는 시간 보다 짧은 기간 동안 서로 다른 위치에 있는 동일한 사용자가 작업을 검색 하는 경우 경고를 트리거합니다. 이는 다른 사용자가 동일한 자격 증명을 사용 하 고 있음을 나타낼 수 있습니다. 이 비정상적인 동작을 검색 하는 경우 초기 학습 기간이 7 일 동안 새 사용자의 작업 패턴을 학습 하는 데 사용 됩니다.</li>
+            <li><b>비정상적으로 가장 된 활동 (사용자에 의해)</b> - 이 정책은 사용자가 작업 환경에 프로필을 지정 하 고 알려진 기준에 따라 단일 세션에서 여러 개의 가장 된 활동을 수행할 때 경고를 트리거합니다. 위반 시도가 있었습니다.</li>
         </ol>
     </li>
     <li><a href="https://securescore.office.com/">Office 365 보안 점수</a> 와 같은 도구를 활용 하 여 계정 보안 구성 및 동작을 관리 합니다. 

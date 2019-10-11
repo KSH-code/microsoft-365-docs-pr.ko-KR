@@ -1,27 +1,27 @@
 ---
 title: 여러 테넌트에 EOP 설정을 적용하기 위한 샘플 스크립트
-ms.author: krowley
-author: kccross
-manager: laurawi
-ms.date: 11/17/2014
+ms.author: chrisda
+author: chrisda
+manager: dansimp
+ms.date: ''
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: e87e84e1-7be0-44bf-a414-d91d60ed8817
 description: 다음 샘플 스크립트를 사용하여 여러 테넌트(회사)를 관리하는 Microsoft EOP(Exchange Online Protection) 관리자는 Windows PowerShell을 사용하여 해당 테넌트에 구성 설정을 적용할 수 있습니다.
-ms.openlocfilehash: 2886d2c1dd4dc2f324e8cc21babc3a9f4bf51e5f
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 17e63bada043bd03a3f3f1a9f2a27dced1a23422
+ms.sourcegitcommit: cbf117a4cd92a907115c9f10752f3c557361e586
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088418"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "37441255"
 ---
 # <a name="sample-script-for-applying-eop-settings-to-multiple-tenants"></a>여러 테넌트에 EOP 설정을 적용하기 위한 샘플 스크립트
 
 다음 샘플 스크립트를 사용하여 여러 테넌트(회사)를 관리하는 Microsoft EOP(Exchange Online Protection) 관리자는 Windows PowerShell을 사용하여 해당 테넌트에 구성 설정을 적용할 수 있습니다.
-  
-### <a name="to-run-a-script-or-cmdlet-on-multiple-tenants"></a>여러 테넌트에 대해 스크립트 또는 cmdlet을 실행하려면
+
+## <a name="to-run-a-script-or-cmdlet-on-multiple-tenants"></a>여러 테넌트에 대해 스크립트 또는 cmdlet을 실행하려면
 
 1. Excel과 같은 응용 프로그램을 사용하여 .csv 파일(예: c:\scripts\inputfile.csv)을 만듭니다.
 
@@ -37,7 +37,7 @@ ms.locfileid: "37088418"
    & "<file path>\RunCmdletOnMultipleTenants.ps1" "<file path>\inputfile.csv"
    ```
 
-   다음은 예입니다.
+   예를 들면 다음과 같습니다.
 
    ```Powershell
    & "c:\scripts\RunCmdletOnMultipleTenanats.ps1" "c:\scripts\inputfile.csv"
@@ -50,7 +50,7 @@ ms.locfileid: "37088418"
 ```Powershell
 # This script runs Windows PowerShell cmdlets on multiple tenants.
 # Usage: RunCmdletOnMultipleTenants.ps1 inputfile.csv
-#  
+#
 # .csv input file sample:
 # UserName,Cmdlet
 # admin@contoso.com,Get-AcceptedDomain | ft Name

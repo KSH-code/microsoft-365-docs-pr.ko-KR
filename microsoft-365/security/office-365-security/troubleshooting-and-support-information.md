@@ -1,9 +1,9 @@
 ---
 title: 문제 해결 및 지원 정보
-ms.author: tracyp
-author: MSFTTracyP
+ms.author: chrisda
+author: chrisda
 manager: dansimp
-ms.date: 11/17/2014
+ms.date: ''
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -14,84 +14,78 @@ ms.assetid: 5d9f75f5-bb7f-458c-ad30-5c8eae0b0e4e
 ms.collection:
 - M365-security-compliance
 description: 이 항목에서는 최종 사용자 및 관리자를 위한 문제 해결 단계 및 기술 지원 서비스에 문의하는 방법에 대해 설명합니다.
-ms.openlocfilehash: 2a8019ed58bfb88183d20a8292bd5a30d9b43f13
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: c87744608930603f70e6be1132a0b405e9646b57
+ms.sourcegitcommit: cbf117a4cd92a907115c9f10752f3c557361e586
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37089197"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "37441195"
 ---
 # <a name="troubleshooting-and-support-information"></a>문제 해결 및 지원 정보
 
 이 항목에서는 최종 사용자 및 관리자를 위한 문제 해결 단계 및 기술 지원 서비스에 문의하는 방법에 대해 설명합니다.
-  
+
 ## <a name="troubleshooting-for-users"></a>사용자를 위한 문제 해결
 
-경우에 따라 정크 메일 보고 추가 기능을 추가한 후 Microsoft Office Outlook에 문제가 발생할 수 있습니다. 아래에 발생할 수 있는 문제 및 이러한 문제를 해결하는 팁이 나와 있습니다. 
-  
-- **정크 메일 보고**를 클릭해도 아무 작업도 수행되지 않음
-    
-- 전자 메일 메시지를 선택한 후 Outlook의 응답이 중지됨
-    
-- "배달 불능" 응답으로 인해 보고된 정크 메일을 배달할 수 없음
-    
-### <a name="troubleshooting-tip"></a>문제 해결 팁
+경우에 따라 정크 메일 보고 추가 기능을 추가한 후 Microsoft Outlook에서 문제가 발생할 수 있습니다. 아래에 발생할 수 있는 문제 및 이러한 문제를 해결하는 팁이 나와 있습니다.
 
-1. Microsoft Office Outlook을 닫았다가 다시 시작합니다.
-    
+- **정크 메일 보고**를 클릭해도 아무 작업도 수행되지 않음
+
+- 전자 메일 메시지를 선택한 후 Outlook의 응답이 중지됨
+
+- "배달 불능" 응답으로 인해 보고된 정크 메일을 배달할 수 없음
+
+이 문제를 해결 하려면 다음 단계를 수행 합니다.
+
+1. Outlook을 닫았다가 다시 시작 합니다.
+
 2. 테스트 메시지를 만들고 보낼 수 있는지 확인합니다. 이렇게 하려면 테스트 메시지를 사용자의 다른 전자 메일 계정으로 보낸 다음 이 전자 메일 메시지가 수신되었는지 확인하면 됩니다.
-    
-문제가 계속되면 IT 관리자에게 문의하십시오.
-  
+
+문제가 계속 되 면 관리자에 게 문의 하세요.
+
 > [!TIP]
-> 또한 스팸 메시지는 전자 메일 주소 [junk@office365.microsoft.com](mailto:junk@office365.microsoft.com)으로, 그리고 가양성 메시지는 [not_junk@office365.microsoft.com](mailto: not_junk@office365.microsoft.com)으로 Microsoft에 직접 제출할 수도 있습니다. 자세한 내용은 [분석을 위해 Microsoft에 스팸 및 스팸이 아닌 메시지 제출을](submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md)참조 하세요. 
-  
+> 또한 스팸 메시지는 전자 메일 주소 [junk@office365.microsoft.com](mailto:junk@office365.microsoft.com)으로, 그리고 가양성 메시지는 [not_junk@office365.microsoft.com](mailto: not_junk@office365.microsoft.com)으로 Microsoft에 직접 제출할 수도 있습니다. 자세한 내용은 [분석을 위해 Microsoft에 스팸 및 스팸이 아닌 메시지 제출을](submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md)참조 하세요.
+
 ## <a name="troubleshooting-for-administrators"></a>관리자를 위한 문제 해결
 
-Microsoft Office Outlook용 정크 메일 신고 추가 기능을 관리자로서 사용하는 사용자에게 문제가 발생할 수 있습니다. 아래에 이러한 문제를 해결하는 일부 팁이 나와 있습니다. 
-  
- **문제:** 시스템 관리자에게 문의하라는 오류 메시지가 사용자에게 계속해서 표시됩니다. 
-  
-### <a name="troubleshooting-tip"></a>문제 해결 팁
+관리자는 Outlook 용 정크 메일 보고 추가 기능을 사용 하는 사용자에 게 문제가 발생할 수 있습니다. 아래에 이러한 문제를 해결하는 일부 팁이 나와 있습니다.
+
+### <a name="problem-an-error-message-asking-users-to-contact-their-system-administrator-continually-appears"></a>문제: 사용자에 게 시스템 관리자에 게 문의 하 라는 오류 메시지가 계속 표시 됨
 
 1. 다음 레지스트리 키 값을 "Verbose"로 설정합니다.
-    
-  - **32비트 운영 체제에 설치된 32비트 Outlook:**
-    
-    HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Junk Email Reporting\Addins\LoggingLevel
-    
-  - **64비트 운영 체제에 설치된 32비트 Outlook:**
-    
-    HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Junk Email Reporting\Addins\LoggingLevel
-    
-  - **64비트 Outlook(항상 64비트 운영 체제에 설치됨):**
-    
-    HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Junk Email Reporting\Addins\LoggingLevel
-    
-2. Microsoft Office Outlook을 다시 시작하고 오류 메시지가 표시되면 다시 보고하도록 사용자에게 요청합니다.
-    
-3. 다음 위치에 있는 로그 정보를 수집합니다. 
-    
-    %LOCALAPPDATA%\Microsoft\Junk Email Reporting Add-in\SpamReporterAddinLog.txt
-    
-4. Exchange Online Protection 기술 지원 서비스에 문의하여 로그 정보를 제공합니다. 
-    
- **문제:** 사용자가 정크 메일로 전자 메일을 보낼 때 확인을 수신하지 않도록 선택했지만 다시 확인을 수신하려고 합니다. 
-  
-### <a name="troubleshooting-tip"></a>문제 해결 팁
 
-1. 다음 레지스트리 키 값을 "True"로 설정합니다. HKEY_CURRENT_USER\Software\Microsoft\Junk E-mail Reporting\Preferences\ConfirmReportJunk
-    
-2. Microsoft Office Outlook을 다시 시작합니다.
-    
+   - **32 비트 운영 체제에 설치 된 32 비트 Outlook**:
+
+     `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Junk Email Reporting\Addins\LoggingLevel`
+
+   - **64 비트 운영 체제에 설치 된 32 비트 Outlook**:
+
+     `HKEY_LOCAL_MACHINE\SOFTWARE\Wow6432Node\Microsoft\Junk Email Reporting\Addins\LoggingLevel`
+
+   - **64 비트 Outlook (항상 64 비트 운영 체제에 설치 됨)**:
+
+     `HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Junk Email Reporting\Addins\LoggingLevel`
+
+2. Outlook을 다시 시작 하 고 오류 메시지가 표시 되 면 다시 사용자에 게 보고할지 묻습니다.
+
+3. 다음 위치에 있는 로그 정보를 수집합니다.
+
+   `%LOCALAPPDATA%\Microsoft\Junk Email Reporting Add-in\SpamReporterAddinLog.txt`
+
+4. Exchange Online Protection 기술 지원 서비스에 문의하여 로그 정보를 제공합니다.
+
+### <a name="problem-users-choose-not-to-receive-a-confirmation-when-they-submit-an-email-as-junk-and-now-they-want-the-option-back"></a>문제: 사용자가 정크 메일로 전자 메일을 전송할 때 확인을 수신 하지 않도록 선택 했지만 이제 해당 옵션을 다시 선택 합니다.
+
+1. 다음 레지스트리 키 값을 "True"로 설정 `HKEY_CURRENT_USER\Software\Microsoft\Junk E-mail Reporting\Preferences\ConfirmReportJunk`합니다.
+
+2. Outlook을 다시 시작 합니다.
+
 ## <a name="support-information"></a>지원 정보
 
 추가 기능의 설치, 구성 또는 제거에 대 한 도움이 필요한 경우 Microsoft 365 관리 센터의 지원 페이지에서 새 서비스 요청 링크를 사용 하 여 기술 지원에 문의 하세요. 전화 및 자가 지원 옵션을 통해 서비스 요청을 제출 하는 등의 추가 옵션을 보려면 [EOP에 대 한 도움말 및 지원을](help-and-support-for-eop.md)참조 하십시오.
-  
+
 ## <a name="for-more-information"></a>자세한 내용
 
 [보고서 메시지 추가 기능을 사용하도록 설정](https://support.office.com/article/4250c4bc-6102-420b-9e0a-a95064837676)
-  
-[Microsoft에 정크 메일 메시지 보고](report-junk-email-messages-to-microsoft.md)
-  
 
+[Microsoft에 정크 메일 메시지 보고](report-junk-email-messages-to-microsoft.md)

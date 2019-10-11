@@ -10,21 +10,19 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - M365-identity-device-management
-ms.custom:
-- MiniMaven
-- MSB365
+ms.custom: OKR_SMB_M365
 search.appverid:
 - BCS160
 - MET150
-description: Office 365 Advanced Threat Protection을 설정 하 고 중요 한 데이터를 보호 합니다.
-ms.openlocfilehash: 53741a7726222bb32329a401953be72257df95cc
-ms.sourcegitcommit: 7ac06563c6ff034358e8fd3f9298fc426187ade2
+description: 규정 준수 기능을 설정 하 여 데이터 손실 및 중요 한 데이터에 레이블을 지정 하지 않도록 합니다.
+ms.openlocfilehash: a0ba2fa6dbe7c786d577ad7098c1790f569f5acc
+ms.sourcegitcommit: 255e8194bb5767a9983d54d16e79d628732a1d97
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/31/2019
-ms.locfileid: "34668399"
+ms.lasthandoff: 10/11/2019
+ms.locfileid: "37453922"
 ---
-# <a name="set-up-compliance-features"></a>규정 준수 기능 설정
+# <a name="set-up-compliance-features"></a>준수 기능 설정
 
 Microsoft 365 Business에는 데이터 및 장치를 보호 하기 위한 기능이 제공 되며, 사용자와 고객의 중요 한 정보를 안전 하 게 유지 하는 데 도움이 됩니다.
 
@@ -52,48 +50,21 @@ DLP는 사용 준비가 완료된 여러 다른 로캘용 정책 템플릿을 �
     
 **보존:** 특정 기간 동안 보존하거나 보존 기간이 끝나면 영구적으로 콘텐츠를 삭제하는 것과 같은 사용자 지정된 보존 정책을 사용하도록 설정할 수 있습니다. 자세한 내용은 [보존 정책 개요](https://support.office.com/article/5e377752-700d-4870-9b6d-12bfc12d2423)를 참조하세요.
 
-## <a name="set-up-azure-information-protection-features"></a>Azure Information Protection 기능 설정
+## <a name="set-up-sensitivity-labels"></a>민감도 레이블 설정
 
-AIP (Azure Information Protection)를 사용 하면 레이블을 적용 하 여 문서와 전자 메일을 분류 하 고 선택적으로 보호할 수 있습니다. 규칙 및 조건을 정의 하는 관리자가 사용자에 의해 수동으로 또는 사용자에 게 권장 사항을 제공 하는 조합을 사용 하 여 레이블을 자동으로 적용할 수 있습니다.
+민감도 레이블은 Azure Information Protection (AIP) 계획 1과 함께 제공 되며 레이블을 적용 하 여 문서와 전자 메일을 분류 하 고 필요에 따라 보호 하는 데 도움이 됩니다. 규칙 및 조건을 정의 하는 관리자가 사용자에 의해 수동으로 또는 사용자에 게 권장 사항을 제공 하는 조합을 사용 하 여 레이블을 자동으로 적용할 수 있습니다.
 
-웹용 Outlook에서 전자 메일에 다음과 같은 기본 제공 레이블 및 제한을 적용할 수 있습니다.
-  
-- **전달 금지**: 받는 사람은 메시지를 읽을 수 있지만 콘텐츠를 전달, 인쇄 또는 복사할 수 없습니다
-    
-- **Encrypt**: 전체 메시지가 암호화 됩니다. 받는 사람은 암호화 된 콘텐츠에 액세스 하기 전에 해당 id를 확인 해야 하며 암호화를 제거할 수 없습니다.
-    
-- **기밀**: 조직의 직원들에게 전자 메일 콘텐츠 및 첨부 파일에 대한 모든 권한을 부여하지만, 조직 외부의 사람에게는 이러한 권한을 부여하지 않습니다. 데이터 소유자는 언제든지 콘텐츠를 추적하고 취소할 수 있습니다.
-    
-- **극비**: 이 제한은 극비 데이터에 적용할 수 있으며, 직원들이 데이터를 보고, 편집하고, 회신할 수 있지만 전달, 인쇄 또는 복사할 수는 없도록 합니다. 데이터 소유자는 언제든지 콘텐츠를 추적하고 취소할 수 있습니다.
+민감도 레이블을 설정 하려면 [만들기 및 관리 민감도 레이블](https://support.office.com/en-us/article/2fb96b54-7dd2-4f0c-ac8d-170790d4b8b9) 비디오를 확인 합니다.
 
-### <a name="make-sure-azure-information-protection-is-activated"></a>Azure Information Protection이 활성화되어 있는지 확인
 
-AIP가 활성화되었는지 확인하려면
-
-1. [Azure Portal](https://portal.azure.com/)에 로그인합니다.
-
-2. **모든 서비스**를 선택하고 **검색 상자**에 *Azure Information Protection*을 입력합니다.
-
-3. 결과가 표시되면 **Azure Information Protection** 옆에 있는 시작을 클릭하여 즐겨찾기로 지정하고 나중에 쉽게 찾을 수 있습니다.
-
-4. **Azure Information Protection** \> **보호 활성화**를 선택하고 상태가 활성화됨으로 설정되어 있는지 확인합니다. 
-
-### <a name="view-the-azure-information-protection-policy-and-default-labels"></a>Azure Information Protection 정책 및 기본 레이블 보기 
-
-기존 레이블을 보고 수정하려면
-
-1. Azure Information Protection 대시보드에서 **분류** \> **레이블**을 선택합니다. <br/>![Azure Information Protection의 표준 레이블](media/AIPLabels.png)
-
-2. 옵션을 보려면 아무 레이블이나 선택합니다. 표시 이름, 색 등을 변경할 수 있습니다.
- 
-3. 고유한 레이블을 만들려면 [레이블 수정 및 새로 만들기](https://docs.microsoft.com/azure/information-protection/infoprotect-tutorial-step2)를 참조하세요. 
 
 ### <a name="install-the-azure-information-protection-client-manually"></a>수동으로 Azure Information Protection 클라이언트 설치
 
 AIP 클라이언트를 수동으로 설치하려면
 
-1. [Microsoft 다운로드 센터](https://www.microsoft.com/download/details.aspx?id=53018)에서 **AzInfoProtection.exe**를 다운로드합니다.
+1. [Microsoft 다운로드 센터](https://www.microsoft.com/download/details.aspx?id=53018)에서 **AzinfoProtection_UL** 를 다운로드 합니다.
  
-2. Word 문서를 보고 **홈** 탭에서 **보호** 옵션을 사용할 수 있는지 확인하여 설치가 제대로 되었는지 확인할 수 있습니다. <br/>![Word 문서의 보호 탭 드롭다운](media/Word_Protect.png)
+2. Word 문서를 보고 **홈** 탭에서 **민감도** 옵션을 사용할 수 있는지 확인 하 여 설치가 제대로 되었는지 확인할 수 있습니다.
+<br/>![Word 문서의 보호 탭 드롭다운](media/word-sensitivity.png)
 
 자세한 내용은 [클라이언트 설치](https://docs.microsoft.com/azure/information-protection/infoprotect-tutorial-step3)를 참조 하세요.

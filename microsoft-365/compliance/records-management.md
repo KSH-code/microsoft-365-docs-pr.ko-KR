@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365의 레코드 관리
-ms.author: stephow
-author: stephow-MSFT
+ms.author: laurawi
+author: laurawi
 manager: laurawi
 ms.date: ''
 audience: Admin
@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 365의 레코드 관리를 사용하여 조직의 특정 보존 일정을 파일 플랜에 적용하여 전체 콘텐츠 수명 주기를 지원하는 보존, 레코드 선언, 처리를 관리할 수 있습니다.
-ms.openlocfilehash: b860c807fd936865c7a5a646096e212f138a2e79
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 97b5c1981cf2596554571e8b53059aa718aa561c
+ms.sourcegitcommit: cbf117a4cd92a907115c9f10752f3c557361e586
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088801"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "37440675"
 ---
 # <a name="records-management-in-microsoft-365"></a>Microsoft 365의 레코드 관리
 
@@ -38,6 +38,6 @@ ms.locfileid: "37088801"
 
 - **처리 검토를 통해 처리된 항목을 검토**하고 이후 유효성 검사 및 보고를 위해 [처리 보고서를 내보냅니다](disposition-reviews.md#export-the-disposition-items).
 
-- 조직 레코드 관리자 기능의 **특정 권한을 설정**하여 [올바른 액세스 권한을 보유](/security/office-365-security/protect-against-threats.md)합니다.
+- 조직 레코드 관리자 기능의 **특정 권한을 설정**하여 [올바른 액세스 권한을 보유](../security/office-365-security/permissions-in-the-security-and-compliance-center.md)합니다.
 
 Microsoft 365의 레코드 관리 솔루션을 사용하여 조직의 보존 일정을 파일 플랜에 반영하여 전체 콘텐츠 수명 주기를 지원하는 보존, 레코드 선언, 처리를 관리할 수 있습니다.

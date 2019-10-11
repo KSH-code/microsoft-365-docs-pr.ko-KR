@@ -1,7 +1,7 @@
 ---
 title: Exchange Online Protection의 메일 흐름 규칙(전송 규칙)
-ms.author: tracyp
-author: MSFTTracyP
+ms.author: chrisda
+author: chrisda
 manager: dansimp
 ms.date: ''
 audience: ITPro
@@ -10,25 +10,25 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 9c2cf227-eff7-48ef-87fb-487186e47363
 description: 메일 흐름 규칙 (전송 규칙)을 사용 하 여 Office 365 조직을 통해 전송 되는 메시지를 식별 하 고 작업을 수행할 수 있습니다.
-ms.openlocfilehash: 50b068c39ad02d04596b6598c31333be79ac28c2
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: acd661962c1223c4124c492ce66f463d27e7ca10
+ms.sourcegitcommit: cbf117a4cd92a907115c9f10752f3c557361e586
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088768"
+ms.lasthandoff: 10/10/2019
+ms.locfileid: "37441535"
 ---
 # <a name="mail-flow-rules-transport-rules-in-exchange-online-protection"></a>Exchange Online Protection의 메일 흐름 규칙(전송 규칙)
 
 메일 흐름 규칙 (전송 규칙이 라고도 함)을 사용 하 여 Office 365 조직을 통해 전송 되는 메시지를 식별 하 고 작업을 수행할 수 있습니다. 메일 흐름 규칙은 Outlook 및 웹용 Outlook에서 사용할 수 있는 받은 편지함 규칙과 유사 합니다. 주요 차이점은 메일 흐름 규칙은 메시지가 전송 되는 동안 메시지에 대 한 작업을 수행 하는 것이 고 메시지를 사서함으로 배달 한 후에는 그렇지 않습니다. 메일 흐름 규칙에는 다양 한 유형의 메시징 정책을 쉽게 구현할 수 있도록 하는 다양 한 조건, 예외 및 작업 집합이 포함 되어 있습니다.
-  
+
 이 문서에서는 메일 흐름 규칙의 구성 요소와 작동 방식을 설명 합니다.
-  
+
 메일 흐름 규칙을 만들고 복사 하 고 관리 하는 방법에 대 한 자세한 내용은 [Exchange Online에서 메일 흐름 규칙 관리](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/manage-mail-flow-rules)를 참조 하십시오. 각 규칙에 대해 규칙을 적용하거나, 규칙을 테스트하거나, 규칙을 테스트하고 보낸 사람에게 알릴 수 있는 옵션이 제공됩니다. 테스트 옵션에 대 한 자세한 내용은 [Exchange Online에서](https://docs.microsoft.com/exchange/security-and-compliance/data-loss-prevention/policy-tips) [메일 흐름 규칙](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/test-mail-flow-rules) 및 정책 팁 테스트를 참조 하십시오.
-  
+
 메일 흐름 규칙과 일치 하는 메시지에 대 한 요약 및 세부 보고서를 보려면 [Office 365의 메일 보호 보고서 사용을 참조 하 여 맬웨어, 스팸 및 규칙 감지에 대 한 데이터](https://docs.microsoft.com/exchange/monitoring/use-mail-protection-reports)를 확인 합니다.
-  
+
 메일 흐름 규칙을 사용해서 특정 메시징 정책을 실행하려면 다음 항목을 참조하세요.
-  
+
 - [메일 흐름 규칙을 사용 하 여 Exchange Online의 메시지 첨부 파일 검사](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/inspect-message-attachments)
 
 - [Office 365 Enterprise의 암호화 설정](../../compliance/set-up-encryption.md)
@@ -44,20 +44,20 @@ ms.locfileid: "37088768"
 - [전자 메일 메시지를 암호화하거나 암호를 해독하는 규칙 정의](https://go.microsoft.com/fwlink/p/?Linkid=402846)
 
 다음 비디오에서는 Exchange Online Protection에서 메일 흐름 규칙을 설정 하는 방법의 데모를 제공 합니다.
-  
+
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/7cdcd2cb-9382-4065-98e1-81257b32a189?autoplay=false]
-  
+
 ## <a name="mail-flow-rule-components"></a>메일 흐름 규칙 구성 요소
 
 메일 흐름 규칙은 조건, 예외, 작업 및 속성으로 구성 됩니다.
-  
-- **조건**: 작업을 적용할 메시지를 식별 합니다. 일부 조건은 받는 사람, 보낸 사람 또는 참조 필드와 같은 메시지 헤더 필드를 검사 합니다. 다른 조건은 메시지 제목, 본문, 첨부 파일, 메시지 크기 또는 메시지 분류와 같은 message 속성을 검사 합니다. 대부분의 경우 비교 연산자 (예: 같음, 같지 않음, 포함 하지 않음)와 일치 하는 값을 지정 해야 합니다. 조건이 나 예외가 없으면 규칙이 모든 메시지에 적용 됩니다. 
+
+- **조건**: 작업을 적용할 메시지를 식별 합니다. 일부 조건은 받는 사람, 보낸 사람 또는 참조 필드와 같은 메시지 헤더 필드를 검사 합니다. 다른 조건은 메시지 제목, 본문, 첨부 파일, 메시지 크기 또는 메시지 분류와 같은 message 속성을 검사 합니다. 대부분의 경우 비교 연산자 (예: 같음, 같지 않음, 포함 하지 않음)와 일치 하는 값을 지정 해야 합니다. 조건이 나 예외가 없으면 규칙이 모든 메시지에 적용 됩니다.
 
 메일 흐름 규칙 조건에 대 한 자세한 내용은 exchange Online Protection의 [메일 흐름 규칙 조건 및 예외 (조건자)](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/conditions-and-exceptions)를 참조 하십시오.
 
-- **예외**: 선택적으로 작업을 적용할 수 없는 메시지를 식별 합니다. 조건에서 사용할 수 있는 동일한 메시지 식별자를 예외에서도 사용할 수 있습니다. 예외는 조건을 재정의하며, 메시지가 구성된 모든 조건과 일치하더라도 규칙 작업이 메시지에 적용되지 않도록 합니다. 
+- **예외**: 선택적으로 작업을 적용할 수 없는 메시지를 식별 합니다. 조건에서 사용할 수 있는 동일한 메시지 식별자를 예외에서도 사용할 수 있습니다. 예외는 조건을 재정의하며, 메시지가 구성된 모든 조건과 일치하더라도 규칙 작업이 메시지에 적용되지 않도록 합니다.
 
-- **작업**: 규칙의 조건과 일치 하 고 예외와는 일치 하지 않는 메시지에 수행할 작업을 지정 합니다. 예외는 조건보다 우선하며, 메시지가 모든 조건과 일치하더라도 작업이 전자 메일 메시지에 적용되지 않도록 합니다. 
+- **작업**: 규칙의 조건과 일치 하 고 예외와는 일치 하지 않는 메시지에 수행할 작업을 지정 합니다. 예외는 조건보다 우선하며, 메시지가 모든 조건과 일치하더라도 작업이 전자 메일 메시지에 적용되지 않도록 합니다.
 
 Exchange Online Protection에서 사용할 수 있는 메일 흐름 규칙 작업에 대 한 자세한 내용은 [mail flow rule actions In Exchange online](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions)을 참조 하십시오.
 
@@ -68,7 +68,7 @@ Exchange Online Protection에서 사용할 수 있는 메일 흐름 규칙 작�
 ### <a name="multiple-conditions-exceptions-and-actions"></a>여러 조건, 예외 및 작업
 
 다음 표에는 규칙에서 여러 조건, 조건 값, 예외 및 작업이 처리되는 방식이 나와 있습니다.
-  
+
 |**구성 요소**|**추가한**|**Comments**|
 |:-----|:-----|:-----|
 |설명|한|메시지는 규칙의 모든 조건과 일치해야 합니다. 하나의 조건 또는 다른 조건과 일치해야 하는 경우 각 조건에 대해 별도의 규칙을 사용합니다. 예를 들어 첨부 파일이 있는 메시지와 특정 텍스트가 포함 된 메시지에 같은 고 지 사항을 추가 하려면 각 조건에 대해 규칙을 하나씩 만듭니다. EAC에서는 규칙을 쉽게 복사할 수 있습니다.|
@@ -79,7 +79,7 @@ Exchange Online Protection에서 사용할 수 있는 메일 흐름 규칙 작�
 ### <a name="mail-flow-rule-properties"></a>메일 흐름 규칙 속성
 
 다음 표에는 메일 흐름 규칙에서 사용할 수 있는 규칙 속성에 대 한 설명이 나와 있습니다.
-  
+
 |**EAC의 속성 이름**|**PowerShell의 매개 변수 이름**|**설명**|
 |:-----|:-----|:-----|
 |**우선 순위**|_우선 순위_|규칙이 메시지에 적용 되는 순서를 나타냅니다. 기본 우선 순위는 규칙을 만든 시기 (이전 규칙은 새 규칙 보다 우선 순위가 높고 우선 순위 규칙의 우선 순위가 낮은 규칙 보다 높음)에 따라 달라 집니다. <br/><br/> 규칙 목록에서 규칙을 위나 아래로 이동 하 여 EAC에서 규칙 우선 순위를 변경 합니다. PowerShell에서는 우선 순위 번호 (우선 순위가 가장 높은 값)를 설정 합니다. <br/><br/> 예를 들어 신용 카드 번호가 포함된 메시지는 거부하는 규칙과 승인을 요구하는 또 다른 규칙이 있을 때 거부 규칙이 먼저 적용되도록 한 다음 다른 규칙이 적용되지 않도록 할 수 있습니다.  |
@@ -94,13 +94,13 @@ Exchange Online Protection에서 사용할 수 있는 메일 흐름 규칙 작�
 ## <a name="how-mail-flow-rules-are-applied-to-messages"></a>메시지에 메일 흐름 규칙을 적용 하는 방법
 
 조직에서 흐르는 모든 메시지는 조직에서 사용 하도록 설정 된 메일 흐름 규칙을 기준으로 평가 됩니다. 규칙은 EAC의 **메일 흐름** \> **규칙** 페이지에 나열 된 순서 대로 처리 되거나 PowerShell의 해당 _Priority_ 매개 변수 값에 따라 진행 됩니다.
-  
+
 조직의 모든 메시지가 조직에 대해 사용하도록 설정된 전송 규칙을 기준으로 평가됩니다. 규칙은 EAC의 규칙 페이지에 표시된 순서 또는 exsdkExMSH의 Priority 매개 변수 값에 따라 처리됩니다.  이 설정은 여러 메일 흐름 규칙 (메시지에 적용 하려는 규칙)의 조건과 일치 하는 메시지에 중요 합니다. 모든? 단 1?
-  
+
 ### <a name="differences-in-processing-based-on-message-type"></a>메시지 유형에 따른 처리 방식의 차이
 
 조직을 통과하는 메시지 유형에는 몇 가지가 있습니다. 다음 표에는 메일 흐름 규칙에서 처리할 수 있는 메시지 유형이 나와 있습니다.
-  
+
 ****
 
 |**조직을 통과하는 메시지 유형에는 몇 가지가 있습니다. 다음 표에는 전송 규칙으로 처리될 수 있는 메시지 유형이 나와 있습니다.**|**메시지 유형**|
@@ -121,9 +121,9 @@ Exchange Online Protection에서 사용할 수 있는 메일 흐름 규칙 작�
 - 메일 흐름 규칙을 만들거나 수정한 후 새 규칙이 나 업데이트 된 규칙을 메시지에 적용 하는 데 최대 30 분이 걸릴 수 있습니다.
 
 ## <a name="for-more-information"></a>자세한 내용
-  
+
 [메일 흐름 규칙을 사용 하 여 Exchange Online의 메시지 첨부 파일 검사](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/inspect-message-attachments)
-  
+
 [Office 365의 전자 메일 암호화](https://docs.microsoft.com/office365/securitycompliance/email-encryption)
-  
+
 [저널, 전송 및 받은 편지함 규칙 제한](https://go.microsoft.com/fwlink/p/?LinkId=324584)

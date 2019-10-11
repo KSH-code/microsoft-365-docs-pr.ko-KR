@@ -12,12 +12,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 조직의 사용자에게 Microsoft 365 Enterprise의 생산성 워크로드를 제공합니다.
-ms.openlocfilehash: 9416efe6171f8f3aefee504e5f39d19a2a909073
-ms.sourcegitcommit: c6eab4a9f1b70e7ff0db6b2a1128a4db2591cbaf
+ms.openlocfilehash: a68b3a436daf6f1474f55676c6a167ecd4bdd39c
+ms.sourcegitcommit: e1ffb98ac8159d1dc814930fe388d3e37cbdc7e2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "37369429"
+ms.lasthandoff: 10/05/2019
+ms.locfileid: "37403247"
 ---
 # <a name="microsoft-365-enterprise-workloads-and-scenarios"></a>Microsoft 365 Enterprise 워크로드 및 시나리오
 
@@ -44,7 +44,7 @@ Microsoft 365 Enterprise의 독창성과 팀워크 이점을 얻으려면 기본
 
 ![전체 Microsoft 365 Enterprise 배포 가이드의 워크로드 및 시나리오는 다음과 같습니다.](./media/deploy-workloads/m365-deploy-content-arch-workloads.png)
 
-추가 시나리오는 [Microsoft 365 생산성 라이브러리](https://www.microsoft.com/microsoft-365/success/)를 참조하세요. 
+추가 시나리오는 [Microsoft 365 생산성 라이브러리](https://aka.ms/productivitylibrary)(https://aka.ms/productivitylibrary)를 참조하세요. 
 
 ## <a name="foundation-infrastructure-prerequisites"></a>기본 인프라 전제 조건
 

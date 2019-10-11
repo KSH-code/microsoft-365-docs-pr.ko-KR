@@ -10,12 +10,13 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: GDPR
-ms.openlocfilehash: f14016d596f11869fb923106cb174fa5ce255ec3
-ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
+hideEdit: true
+ms.openlocfilehash: 7b42333f23e674af07bf8acc15069d04605c5e84
+ms.sourcegitcommit: d9e9788abb31f6c876f81326569ccc9b716fc1c0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/14/2019
-ms.locfileid: "36982309"
+ms.lasthandoff: 10/08/2019
+ms.locfileid: "37422425"
 ---
 # <a name="microsoft-support-and-professional-services-accountability-readiness-checklist-for-the-gdpr"></a>GDPR에 대한 Microsoft 지원 및 전문 서비스 책임 준비 상태 검사 목록
 

@@ -10,12 +10,13 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: GDPR
-ms.openlocfilehash: da9ba78f11dad06a1bea72484e6ecc77e7619493
-ms.sourcegitcommit: 6e2a54ec395eaef4c4658ca52322c3d0f184ca02
+hideEdit: true
+ms.openlocfilehash: aa7df98b718e950a895cd1ff369e94707f81954a
+ms.sourcegitcommit: d9e9788abb31f6c876f81326569ccc9b716fc1c0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "34698300"
+ms.lasthandoff: 10/08/2019
+ms.locfileid: "37422375"
 ---
 # <a name="data-protection-impact-assessments-guidance-for-data-controllers-using-microsoft-office-365"></a>데이터 보호 영향 평가: Microsoft Office 365를 사용하는 데이터 컨트롤러의 참고 자료 
 
