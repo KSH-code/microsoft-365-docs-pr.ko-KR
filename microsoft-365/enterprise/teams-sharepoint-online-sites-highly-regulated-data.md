@@ -13,21 +13,25 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 가장 중요하고 민감한 파일을 저장할 수 있도록 안전한 SharePoint 팀 사이트를 만듭니다.
-ms.openlocfilehash: dc604870826075cee645dd466b82f908e1571339
-ms.sourcegitcommit: e1ffb98ac8159d1dc814930fe388d3e37cbdc7e2
+ms.openlocfilehash: ece6547ba596fe53c4f3b3f6bfbaa6570a724c6a
+ms.sourcegitcommit: db580dc2626328d324f65c7380a5816a500688a7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/05/2019
-ms.locfileid: "37403191"
+ms.lasthandoff: 10/09/2019
+ms.locfileid: "37437828"
 ---
 # <a name="sharepoint-sites-for-highly-regulated-data"></a>높은 규제 대상 데이터를 위한 SharePoint 사이트
 
 *이 시나리오는 Microsoft 365 Enterprise E3 및 E5 버전에 적용됩니다.*
 
-Microsoft 365 Enterprise에는 파일에 저장된 높은 규제 대상 데이터를 만들고, 저장하며, 보안을 설정할 수 있도록 하기 위해 전체 클라우드 기반 서비스 제품군이 포함되어 있습니다. 여기에는 다음과 같은 데이터가 포함됩니다.
+Microsoft 365 Enterprise에는 완전한 클라우드 기반 서비스 제품군이 포함되어 있어 파일에 저장된 고도로 집중적으로 규제되는 데이터를 생성, 저장, 보호 및 관리할 수 있습니다. 여기에는 다음과 같은 데이터가 포함됩니다.
 
 - 지역 규제를 받는 데이터
 - 영업 비밀, 재무 또는 인사 관련 정보와 조직의 전략과 같이 조직에서 가장 중요한 데이터
+
+>[!Note]
+> Microsoft Teams를 사용하는 비슷한 시나리오가 개발 중입니다.
+>
 
 이러한 비즈니스 요구를 충족하는 Microsoft 365 Enterprise 클라우드 기반 시나리오에서는 다음을 요구합니다.
 

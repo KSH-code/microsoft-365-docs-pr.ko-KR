@@ -11,12 +11,12 @@ ms.collection: M365-email-calendar
 ms.custom:
 - Strat_O365_Enterprise
 description: 조직 전체에서 Microsoft 365 Enterprise의 Exchange Online 가치를 계획, 롤아웃 및 추진 하는 프로세스를 안내 합니다.
-ms.openlocfilehash: c11a4ca0216d42f039005616c5d414759b8c0bad
-ms.sourcegitcommit: db580dc2626328d324f65c7380a5816a500688a7
+ms.openlocfilehash: 30ba71fbf2af684afbbffe0a2e2b1720a8eeec2c
+ms.sourcegitcommit: 255e8194bb5767a9983d54d16e79d628732a1d97
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37437818"
+ms.lasthandoff: 10/11/2019
+ms.locfileid: "37453864"
 ---
 # <a name="deploy-exchange-online-for-microsoft-365-enterprise"></a>Microsoft 365 Enterprise에 대 한 Exchange Online 배포
 
@@ -74,8 +74,11 @@ Exchange Online 사서함에 대 한 액세스를 보호 하려면 [id 및 장�
 다음 리소스를 사용 하 여 Exchange Online 롤아웃의 기술적 측면을 준비 합니다. 
 
 - [Office 365로 여러 전자 메일 계정을 마이그레이션하는 방법](https://docs.microsoft.com/Exchange/mailbox-migration/mailbox-migration)
+- [Exchange Online으로 Exchange Server 공용 폴더 마이그레이션](https://docs.microsoft.com/Exchange/collaboration/public-folders/migrate-to-exchange-online?view=exchserver-2019)
+- [Office 365 그룹으로 Exchange Server 공용 폴더 마이그레이션](https://docs.microsoft.com/Exchange/collaboration/public-folders/batch-migration-to-office-365-groups?view=exchserver-2019)
 - [Exchange Online의 공동 작업](https://docs.microsoft.com/exchange/collaboration-exo/collaboration-exo)
 - [Exchange Online의 받는 사람](https://docs.microsoft.com/exchange/recipients-in-exchange-online/recipients-in-exchange-online)
+- [iOS 및 Android용 Outlook](https://docs.microsoft.com/Exchange/clients-and-mobile-in-exchange-online/outlook-for-ios-and-android/outlook-for-ios-and-android)
 
 Exchange Online의 보안을 보다 잘 이해 하려면 다음 리소스를 검토 하십시오.
 
