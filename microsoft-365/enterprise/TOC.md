@@ -83,7 +83,7 @@
 ### [정보 보호](contoso-info-protect.md)
 ### [보안 요약](contoso-security-summary.md)
 ### [높은 규제 대상 데이터를 위한 SharePoint 사이트](contoso-sharepoint-online-site-for-highly-confidential-assets.md)
-
+## [Microsoft 365 Enterprise 배포 컨텐츠의 변경 사항](microsoft-365-deploment-guide-changes.md)
 # [데스크톱 배포 센터](desktop-deployment-center-home.md)
 ## [시작하기: 사용자, 프로세스 및 기술 지침](getting-started.md)
 ## [1단계: 장치 및 앱 준비](step-1-device-and-app-readiness.md)
