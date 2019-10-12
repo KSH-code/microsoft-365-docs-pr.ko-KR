@@ -99,11 +99,6 @@
 ## [Windows 및 Office 배포 및 랩 키트](modern-desktop-deployment-and-management-lab.md)
 ## [배포 관련 도움말 찾기](find-help-for-modern-desktop-deployment.md)
 
-# [ID 및 장치 액세스 구성](microsoft-365-policies-configurations.md)
-##[선행 조건 작업](identity-access-prerequisites.md)
-## [일반 ID 및 장치 액세스 정책](identity-access-policies.md)
-## [권장 Exchange Online 액세스 정책](secure-email-recommended-policies.md)
-## [권장 SharePoint Online 액세스 정책](sharepoint-file-access-policies.md)
 
 # [Microsoft 365 규정 준수](../compliance/index.yml)
 # [Microsoft 365 보안](../security/index.yml)
