@@ -1,5 +1,5 @@
 ---
-title: id 및 장치 액세스 구성-Microsoft 365 Enterprise
+title: Id 및 장치 액세스 구성-Microsoft 365 Enterprise
 description: 보안 전자 메일, 문서 및 앱 정책 및 구성을 배포 하기 위한 Microsoft 권장 사항 및 핵심 개념에 대해 설명 합니다.
 author: brendacarter
 manager: laurawi
@@ -14,28 +14,28 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: 9751d1e224d2fb4b879a5dbc37cb368af2152987
-ms.sourcegitcommit: 81273a9df49647286235b187fa2213c5ec7e8b62
+ms.openlocfilehash: 1fae59706a77663090d4f29cc6a34b339c11e92c
+ms.sourcegitcommit: 6ef9a98e3d9de44ee4f01870f9189fa676572419
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2019
-ms.locfileid: "32291386"
+ms.lasthandoff: 10/13/2019
+ms.locfileid: "37481306"
 ---
 # <a name="identity-and-device-access-configurations"></a>ID 및 장치 액세스 구성
 
-이 문서 시리즈에서는 규정 된 조건부 액세스 정책 집합을 비롯 하 여 권장 환경 및 구성을 구현 하 여 엔터프라이즈 이동성 + 보안 제품을 통해 클라우드 서비스에 대 한 보안 액세스를 구성 하는 방법을 설명 합니다. 관련 기능 이 지침을 사용 하 여 Office 365 서비스, 기타 SaaS 서비스 및 azure AD 응용 프로그램 프록시를 통해 게시 된 온-프레미스 응용 프로그램을 비롯 하 여 azure Active Directory와 통합 되는 모든 서비스에 대 한 액세스를 보호할 수 있습니다. 
+이 문서 시리즈에서는 규정 된 조건부 액세스 정책 집합을 비롯 하 여 권장 환경 및 구성을 구현 하 여 EMS (Enterprise Mobility + Security) 제품을 통한 클라우드 서비스에 대 한 보안 액세스를 구성 하는 방법을 설명 합니다. 관련 기능 EMS는 Microsoft 365의 핵심 구성 요소입니다. 이 지침을 사용 하 여 Office 365 서비스, 기타 SaaS 서비스 및 Azure AD 응용 프로그램 프록시를 통해 게시 된 온-프레미스 응용 프로그램을 비롯 하 여 Azure Active Directory와 통합 되는 모든 서비스에 대 한 액세스를 보호할 수 있습니다. 
 
-이러한 권장 사항은 Microsoft 보안 점수 및 [Azure AD의 id 점수](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/identity-secure-score)와 맞추고 조직에 대해 이러한 점수가 증가 합니다. 이러한 권장 사항은 다음 [다섯 단계를](https://docs.microsoft.com/en-us/azure/security/azure-ad-secure-steps)구현 하 여 id 인프라를 보호 하는 데도 도움이 됩니다. 
+이러한 권장 사항은 Microsoft 보안 점수 및 [AZURE AD의 id 점수](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/identity-secure-score)와 맞추고 조직에 대해 이러한 점수가 증가 합니다. 이러한 권장 사항은 다음 [다섯 단계를](https://docs.microsoft.com/en-us/azure/security/azure-ad-secure-steps)구현 하 여 id 인프라를 보호 하는 데도 도움이 됩니다. 
 
 Microsoft는 일부 조직이 고유한 환경 요구 사항이 나 복잡성을 갖는 것을 이해 하 고 있습니다. 이러한 조직 중 하나에 해당 하는 경우에는 이러한 권장 사항을 출발점으로 사용 합니다. 그러나 대부분의 조직은 이러한 권장 사항을 규정 된 대로 구현할 수 있습니다. 
 
 ## <a name="intended-audience"></a>대상 그룹
 
-이러한 권장 사항은 [Office 365](https://technet.microsoft.com/library/dn127064(v=office.14).aspx) 및 [microsoft enterprise Mobility + Security](http://microsoft.com/ems)에 익숙한 엔터프라이즈 설계자 및 IT 전문가를 위한 것으로, Azure Active Directory (identity), microsoft Intune (장치 관리) 및 Azure Information Protection (데이터 보호)
+이러한 권장 사항은 [Office 365](https://technet.microsoft.com/library/dn127064(v=office.14).aspx) 및 [microsoft Enterprise Mobility + Security](http://microsoft.com/ems)에 익숙한 엔터프라이즈 설계자 및 IT 전문가를 위한 것으로, Azure Active Directory (identity), microsoft Intune (장치 관리) 및 Azure Information Protection (데이터 보호)
 
 ### <a name="customer-environment"></a>고객 환경
 
-권장 정책은 전적으로 microsoft 클라우드 내에서 운영 하는 엔터프라이즈 조직이 나 하이브리드 인프라를 사용 하는 고객에 게 적용 됩니다 (온-프레미스와 Microsoft 클라우드 모두에 배포 됨).
+권장 정책은 전적으로 Microsoft 클라우드 내에서 운영 하는 엔터프라이즈 조직이 나 하이브리드 인프라를 사용 하는 고객에 게 적용 됩니다 (온-프레미스와 Microsoft 클라우드 모두에 배포 됨).
 
 제공 되는 추천 항목 대부분은 EMS (Enterprise Mobility + Security) E5 라이선스 에서만 사용할 수 있는 서비스를 사용 합니다. 권장 사항은 전체 EMS E5 라이선스 기능을 사용 하는 것입니다.
 
@@ -57,14 +57,14 @@ Enterprise Mobility + Security E5 라이선스가 없는 조직의 경우에는 
 - **중요 보호**: 일부 고객에 게는 높은 수준으로 보호 해야 하는 데이터의 하위 집합이 있거나, 모든 데이터가 더 높은 수준으로 보호 되어야 할 수 있습니다. Office 365 환경의 모든 또는 특정 데이터 집합에 대해 증가된 보호를 적용할 수 있습니다. 중요 데이터에 액세스하는 ID와 장치를 유사한 보안 수준으로 보호하는 것이 좋습니다.  
 - **높은 규제**: 일부 조직에는 고도로 분류 되거나 consititutes 영업 비밀이 있거나 데이터를 규제 하는 적은 양의 데이터가 있을 수 있습니다. Microsoft는 ID와 장치에 대한 추가된 보호를 포함하여 조직이 이러한 요구 사항을 충족하는 데 도움이 되는 기능을 제공합니다.
 
-![보안 원뿔형-일부 고객이 특정 고객을 > 하는 모든 고객이 >. 특정 응용 프로그램에 대 한 광범위 한 응용 프로그램](../images/M365-idquality-threetiers.png)
+![보안 원뿔형-일부 고객이 특정 고객을 > > 모든 고객입니다. 특정 응용 프로그램에 대 한 광범위 한 응용 프로그램](../images/M365-idquality-threetiers.png)
 
 이 가이드에서는 이러한 각 보호 계층에 대 한 id 및 장치에 대 한 보호를 구현 하는 방법을 보여 줍니다. 이 가이드를 조직의 시작 지점으로 사용 하 고 조직의 특정 요구 사항에 맞게 정책을 조정 합니다.
 
 데이터, ID 및 장치에서 일관된 보호 수준을 사용하는 것이 중요합니다. 예를 들어이 지침을 구현 하는 경우에는 비슷한 수준에서 데이터를 보호 해야 합니다. 이러한 아키텍처 모델에는 비교할 수 있는 기능이 나와 있습니다.
 
 **Office 365용 ID 및 디바이스 보호**<br/>
-![포스터 축소판 그림 "Office 365에 대 한 id 및 장치 보호"](../images/O365_Identity_device_protection_thumb.png)<br/>
+![포스터 축소판 그림 "Office 365에 대 한 Id 및 장치 보호"](../images/O365_Identity_device_protection_thumb.png)<br/>
 [PDF](https://go.microsoft.com/fwlink/p/?linkid=841656) | [Visio](https://go.microsoft.com/fwlink/p/?linkid=841657) | [더 많은 언어](https://www.microsoft.com/download/details.aspx?id=55032)
 
 **Office 365의 파일 보호 솔루션**<br/>
@@ -82,9 +82,9 @@ Enterprise Mobility + Security E5 라이선스가 없는 조직의 경우에는 
 - 대상 그룹을 파악 하 고 보안 및 기능 요구 사항에 유연성을 갖습니다.
 - 보안 정책을 적시에 적용 하 고 의미를 확인 합니다.
 
-## <a name="services-and-concepts-for-identity-and-device-access-protection"></a>id 및 장치 액세스 보호에 대 한 서비스 및 개념
+## <a name="services-and-concepts-for-identity-and-device-access-protection"></a>Id 및 장치 액세스 보호에 대 한 서비스 및 개념
 
-Microsoft 365 enterprise는 대규모 조직을 위해 설계 되었으며 Office 365 enterprise, Windows 10 enterprise 및 EMS (Enterprise Mobility + Security)를 통합 하 여 모든 사용자가 창의적인 작업을 수행 하 고 안전 하 게 함께 작업할 수 있도록 합니다.
+Microsoft 365 Enterprise는 대규모 조직을 위해 설계 되었으며 Office 365 Enterprise, Windows 10 Enterprise 및 EMS (Enterprise Mobility + Security)를 통합 하 여 모든 사용자가 창의적인 작업을 수행 하 고 안전 하 게 함께 작업할 수 있도록 합니다.
 
 이 섹션에서는 id 및 장치 액세스에 중요 한 Microsoft 365 서비스 및 기능에 대 한 개요를 제공 합니다.
 
@@ -94,19 +94,19 @@ Azure AD는 id 관리 기능을 완벽 하 게 제공 합니다. 액세스 보�
 
 - **[SSPR (셀프 서비스 암호 다시 설정)](/azure/active-directory/authentication/concept-sspr-howitworks)**: 관리자가 제어할 수 있는 여러 인증 방법에 대 한 확인을 제공 하 여 사용자가 헬프데스크 개입 없이 암호를 안전 하 게 다시 설정할 수 있도록 합니다.
 
-- **[mfa (multi-factor authentication)](/azure/active-directory/authentication/concept-mfa-howitworks)**: mfa를 사용 하려면 사용자 암호와 Microsoft 인증자 앱 또는 전화 통화의 알림과 같은 두 가지 유형의 확인을 제공 해야 합니다. MFA는 도난당 한 id가 Office 365 환경에 액세스 하는 데 사용할 수 있는 위험을 크게 줄여줍니다.
+- **[Mfa (multi-factor authentication)](/azure/active-directory/authentication/concept-mfa-howitworks)**: mfa를 사용 하려면 사용자 암호와 Microsoft 인증자 앱 또는 전화 통화의 알림과 같은 두 가지 유형의 확인을 제공 해야 합니다. MFA는 도난당 한 id가 Office 365 환경에 액세스 하는 데 사용할 수 있는 위험을 크게 줄여줍니다.
 
 - **[조건부 액세스](/azure/active-directory/conditional-access/overview)**: Azure AD는 사용자 로그인의 조건을 평가 하 고 만든 조건부 액세스 정책을 사용 하 여 액세스를 허용 합니다. 예를 들어이 가이드에서는 중요 한 데이터에 액세스 하기 위한 장치 준수를 요구 하는 조건부 액세스 정책을 만드는 방법을 보여 줍니다. 이렇게 하면 해커가 도난당 한 id를 가진 해커가 중요 한 데이터에 액세스할 수 있는 위험을 크게 줄여줍니다. 또한 장치는 상태 및 보안에 대 한 특정 요구 사항을 충족 하기 때문에 장치에서 중요 한 데이터를 보호 합니다.
 
-- **[Azure ad 그룹](/azure/active-directory/fundamentals/active-directory-manage-groups)**: 조건부 액세스 규칙, Intune을 사용한 장치 관리 및 조직의 파일 및 사이트에 대 한 사용 권한도 사용자 및/또는 Azure AD 그룹에 대 한 할당을 사용 합니다. 구현 하려는 보호 수준에 해당 하는 Azure AD 그룹을 만드는 것이 좋습니다. 예를 들어 경영 직원이 해커의 가치 목표 보다 높은 것을 들 수 있습니다. 따라서 이러한 직원을 Azure AD 그룹에 할당 하 고이 그룹을 조건부 액세스 정책 및 액세스를 위해 더 높은 수준의 보호를 적용 하는 기타 정책에 할당 하는 것이 좋습니다.
+- **[AZURE ad 그룹](/azure/active-directory/fundamentals/active-directory-manage-groups)**: 조건부 액세스 규칙, Intune을 사용한 장치 관리 및 조직의 파일 및 사이트에 대 한 사용 권한도 사용자 및/또는 Azure AD 그룹에 대 한 할당을 사용 합니다. 구현 하려는 보호 수준에 해당 하는 Azure AD 그룹을 만드는 것이 좋습니다. 예를 들어 경영 직원이 해커의 가치 목표 보다 높은 것을 들 수 있습니다. 따라서 이러한 직원을 Azure AD 그룹에 할당 하 고이 그룹을 조건부 액세스 정책 및 액세스를 위해 더 높은 수준의 보호를 적용 하는 기타 정책에 할당 하는 것이 좋습니다.
 
-- **[device registration](/azure/active-directory/devices/overview)**: 디바이스를 Azure AD에 등록 하 여 장치에 id를 제공 합니다. 이 id는 사용자가 로그인 할 때 장치를 인증 하 고 도메인에 가입 되거나 준수 된 pc가 필요한 조건부 액세스 규칙을 적용 하는 데 사용 됩니다. 이 지침에서는 장치 등록을 사용 하 여 도메인에 가입 된 Windows 컴퓨터를 자동으로 등록 합니다. Device registration은 Intune을 사용 하 여 장치를 관리 하기 위한 필수 구성 요소입니다. 
+- **[Device registration](/azure/active-directory/devices/overview)**: 디바이스를 Azure AD에 등록 하 여 장치에 id를 제공 합니다. 이 id는 사용자가 로그인 할 때 장치를 인증 하 고 도메인에 가입 되거나 준수 된 Pc가 필요한 조건부 액세스 규칙을 적용 하는 데 사용 됩니다. 이 지침에서는 장치 등록을 사용 하 여 도메인에 가입 된 Windows 컴퓨터를 자동으로 등록 합니다. Device registration은 Intune을 사용 하 여 장치를 관리 하기 위한 필수 구성 요소입니다. 
 
-- **[azure ad id 보호](/azure/active-directory/identity-protection/overview)**: azure ad id 보호를 사용 하면 조직의 id에 영향을 미치는 잠재적인 취약점을 검색 하 고 자동화 된 수정 정책을 낮음, 중간 및 높음 로그인 위험 및 사용자 위험에 대해 구성할 수 있습니다. 이 지침은이 위험 평가에 의존 하 여 다단계 인증에 대 한 조건부 액세스 정책을 적용 합니다. 또한이 지침에는 해당 계정에 대해 높은 위험 활동이 검색 되는 경우 사용자가 암호를 변경 해야 하는 조건부 액세스 정책도 포함 되어 있습니다.
+- **[AZURE Ad Id 보호](/azure/active-directory/identity-protection/overview)**: Azure Ad id 보호를 사용 하면 조직의 id에 영향을 미치는 잠재적인 취약점을 검색 하 고 자동화 된 수정 정책을 낮음, 중간 및 높음 로그인 위험 및 사용자 위험에 대해 구성할 수 있습니다. 이 지침은이 위험 평가에 의존 하 여 다단계 인증에 대 한 조건부 액세스 정책을 적용 합니다. 또한이 지침에는 해당 계정에 대해 높은 위험 활동이 검색 되는 경우 사용자가 암호를 변경 해야 하는 조건부 액세스 정책도 포함 되어 있습니다.
 
 ### <a name="microsoft-intune"></a>Microsoft Intune
 
-[Intune](https://docs.microsoft.com/intune/introduction-intune) 은 Microsoft의 클라우드 기반 모바일 장치 관리 서비스입니다. 이 지침은 Intune을 사용 하는 Windows pc의 장치 관리를 권장 하며 장치 준수 정책 구성을 권장 합니다. Intune은 장치가 호환 되는지 여부를 확인 하 고, 조건부 액세스 정책을 적용할 때 사용할 Azure AD로이 데이터를 보냅니다.
+[Intune](https://docs.microsoft.com/intune/introduction-intune) 은 Microsoft의 클라우드 기반 모바일 장치 관리 서비스입니다. 이 지침은 Intune을 사용 하는 Windows Pc의 장치 관리를 권장 하며 장치 준수 정책 구성을 권장 합니다. Intune은 장치가 호환 되는지 여부를 확인 하 고, 조건부 액세스 정책을 적용할 때 사용할 Azure AD로이 데이터를 보냅니다.
 
 #### <a name="intune-app-protection"></a>Intune 앱 보호
 
@@ -116,7 +116,7 @@ Azure AD는 id 관리 기능을 완벽 하 게 제공 합니다. 액세스 보�
 
 ### <a name="office-365"></a>Office 365
 
-이 가이드에서는 Exchange online, SharePoint Online 및 비즈니스용 OneDrive를 포함 하 여 Office 365에 대 한 액세스를 보호 하기 위한 정책 집합을 구현 하는 방법을 설명 합니다. 이러한 정책을 구현 하는 것 외에 다음과 같은 리소스를 사용 하 여 Office 365 테 넌 트의 보호 수준도 향상 시키는 것이 좋습니다.
+이 가이드에서는 Exchange Online, SharePoint Online 및 비즈니스용 OneDrive를 포함 하 여 Office 365에 대 한 액세스를 보호 하기 위한 정책 집합을 구현 하는 방법을 설명 합니다. 이러한 정책을 구현 하는 것 외에 다음과 같은 리소스를 사용 하 여 Office 365 테 넌 트의 보호 수준도 향상 시키는 것이 좋습니다.
 
 - [향상 된 보안을 위해 office 365 테 넌 트 구성](https://support.office.com/article/Configure-your-Office-365-tenant-for-increased-security-8d274fe3-db51-4107-ba64-865e7155b355): 이러한 권장 사항은 Office 365 테 넌 트의 기준 보안에 적용 됩니다.
 - [Office 365 보안 로드맵: 처음 30 일, 90 일 및 그 이상에 대 한 주요 우선 순위](https://support.office.com/article/Office-365-security-roadmap-Top-priorities-for-the-first-30-days-90-days-and-beyond-28c86a1c-e4dd-4aad-a2a6-c768a21cb352): 이러한 권장 사항에는 로깅, 데이터 관리, 관리자 액세스, 위협 방지 등이 있습니다.
@@ -124,7 +124,7 @@ Azure AD는 id 관리 기능을 완벽 하 게 제공 합니다. 액세스 보�
 
 ### <a name="windows-10-and-office-365-proplus"></a>Windows 10 및 Office 365 ProPlus
 
-Windows 10 및 Office 365 ProPlus는 pc에 권장 되는 클라이언트 환경입니다. azure는 온-프레미스 및 azure AD 둘 다에 사용할 수 있는 원활한 환경을 제공 하도록 디자인 되었기 때문에 Windows 10을 사용 하는 것이 좋습니다. Windows 10에는 Intune을 통해 관리할 수 있는 고급 보안 기능도 포함 되어 있습니다. office 365 ProPlus에는 최신 버전의 office 응용 프로그램이 포함 되어 있습니다. 이러한 기능은 더 안전 하 고 조건부 액세스에 대 한 요구 사항을 충족 하는 최신 인증을 사용 합니다. 이러한 앱에는 향상 된 보안 및 준수 도구도 포함 되어 있습니다.
+Windows 10 및 Office 365 ProPlus는 Pc에 권장 되는 클라이언트 환경입니다. Azure는 온-프레미스 및 Azure AD 둘 다에 사용할 수 있는 원활한 환경을 제공 하도록 디자인 되었기 때문에 Windows 10을 사용 하는 것이 좋습니다. Windows 10에는 Intune을 통해 관리할 수 있는 고급 보안 기능도 포함 되어 있습니다. Office 365 ProPlus에는 최신 버전의 Office 응용 프로그램이 포함 되어 있습니다. 이러한 기능은 더 안전 하 고 조건부 액세스에 대 한 요구 사항을 충족 하는 최신 인증을 사용 합니다. 이러한 앱에는 향상 된 보안 및 준수 도구도 포함 되어 있습니다.
 
 ## <a name="applying-these-capabilities-across-the-three-tiers-of-protection"></a>3 개의 보호 계층에 걸쳐 이러한 기능 적용
 
@@ -135,14 +135,14 @@ Windows 10 및 Office 365 ProPlus는 pc에 권장 되는 클라이언트 환경�
 |**MFA 강제 적용**|중간 이상 로그인 위험에 대해|낮음 이상 로그인 위험에 대해|모든 새 세션에 대해|
 |**암호 변경 적용**|위험성이 높은 사용자|위험성이 높은 사용자|위험성이 높은 사용자|
 |**Intune 응용 프로그램 보호 적용**|예|예|예|
-|**Intune 등록 적용 (COD)**|호환 또는 도메인에 가입 된 PC가 필요 하지만 byod 전화/태블릿을 허용 합니다.|호환 되거나 도메인에 가입 된 장치 필요|호환 되거나 도메인에 가입 된 장치 필요|
+|**Intune 등록 적용 (COD)**|호환 또는 도메인에 가입 된 PC가 필요 하지만 BYOD 전화/태블릿을 허용 합니다.|호환 되거나 도메인에 가입 된 장치 필요|호환 되거나 도메인에 가입 된 장치 필요|
 
 ## <a name="device-ownership"></a>장치 소유권
 
-위의 표에는 회사 소유의 장치를 함께 지원 하 고 개인 또는 자체 장치 (byods)를 사용 하 여 직원 들 간에 모바일 생산성을 설정 하기 위한 여러 조직에 대 한 추세가 반영 되어 있습니다. Intune 앱 보호 정책은 회사 소유 장치 및 byods 모두에서 Outlook 모바일 앱 및 기타 Office 모바일 앱에서 exfiltrating 로부터 전자 메일이 보호 되도록 합니다.  
+위의 표에는 회사 소유의 장치를 함께 지원 하 고 개인 또는 자체 장치 (BYODs)를 사용 하 여 직원 들 간에 모바일 생산성을 설정 하기 위한 여러 조직에 대 한 추세가 반영 되어 있습니다. Intune 앱 보호 정책은 회사 소유 장치 및 BYODs 모두에서 Outlook 모바일 앱 및 기타 Office 모바일 앱에서 exfiltrating 로부터 전자 메일이 보호 되도록 합니다.  
 
-추가 보호 및 제어를 적용 하기 위해 Intune 또는 도메인에 가입 하 여 회사 소유의 장치를 관리 하는 것이 좋습니다. 데이터 민감도에 따라 조직에서 특정 사용자 인구 또는 특정 앱에 대해 byods를 허용 하지 않도록 선택할 수 있습니다.
+추가 보호 및 제어를 적용 하기 위해 Intune 또는 도메인에 가입 하 여 회사 소유의 장치를 관리 하는 것이 좋습니다. 데이터 민감도에 따라 조직에서 특정 사용자 인구 또는 특정 앱에 대해 BYODs를 허용 하지 않도록 선택할 수 있습니다.
 
 ## <a name="next-steps"></a>다음 단계
 
-[id 및 장치 액세스 정책을 구현 하기 위한 필수 작업](identity-access-prerequisites.md)
+[Id 및 장치 액세스 정책을 구현 하기 위한 필수 작업](identity-access-prerequisites.md)
