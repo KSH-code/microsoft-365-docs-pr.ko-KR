@@ -16,8 +16,8 @@
 ### [모바일 장치 설정](set-up-mobile-devices.md)
 ### [Windows 장치 설정](set-up-windows-devices.md)
 ## [비즈니스 보호](security-features.md)
+### [MFA 설정](set-up-mfa.md)
 ### [위협 방지 강화](increase-threat-protection.md)
-### [조건부 액세스로 시작](set-up-conditional-access-policies.md)
 ### [준수 기능 설정](set-up-compliance.md)
 ## 사용자 관리
 ### [사용자 추가](add-users-m365b.md)
