@@ -3,7 +3,7 @@ title: 원격 작업자 지원
 author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
-ms.date: 09/27/2019
+ms.date: 10/10/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 직원들이 언제 어디서나 원격으로 작업할 수 있도록 하는 인프라와 보안을 구성합니다.
-ms.openlocfilehash: b73e16a52741a6587e9ed903cab6ddfedf896973
-ms.sourcegitcommit: e1ffb98ac8159d1dc814930fe388d3e37cbdc7e2
+ms.openlocfilehash: 198b01205e7419c4a3aa874c1e6213cce5284576
+ms.sourcegitcommit: 255e8194bb5767a9983d54d16e79d628732a1d97
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/05/2019
-ms.locfileid: "37403257"
+ms.lasthandoff: 10/11/2019
+ms.locfileid: "37453951"
 ---
 # <a name="empower-remote-workers"></a>원격 작업자 지원
 
@@ -69,6 +69,13 @@ ms.locfileid: "37403257"
   - 하이브리드 ID가 있는 조직에서는 VPN(가상 사설망) 연결 대신 Azure AD 애플리케이션 프록시를 사용할 수 있습니다.
 
 다음 단계에서는 원격 액세스를 위한 Microsoft 365 Enterprise 기능을 배포하고 원격 작업자의 채택을 유도합니다. 이러한 단계의 요소가 이미 배포된 경우에는 다음 요소로 이동하기 전에 규정된 요구 사항을 충족하는지 확인합니다.
+
+<a name="poster"></a> 이 시나리오의 1페이지 요약은 [원격 작업자 지원 포스터](media/empower-people-to-work-remotely/empower-remote-workers-scenario.pdf)를 참조하세요.
+
+[![원격 작업자 지원](./media/empower-people-to-work-remotely/empower-remote-workers-poster-half.png)](media/empower-people-to-work-remotely/empower-remote-workers-scenario.pdf)
+
+[이 포스터를 다운로드](https://github.com/MicrosoftDocs/microsoft-365-docs-pr/raw/public/microsoft-365/enterprise/media/empower-people-to-work-remotely/empower-remote-workers-scenario.pdf)하고 편지형, 법률형 또는 타블로이드(11 x 17) 형식으로 인쇄할 수 있습니다.
+
 
 ## <a name="phase-1-deploy-microsoft-365-features-and-capabilities-for-remote-workers"></a>1단계: 원격 작업자를 위한 Microsoft 365 특징과 기능 배포
 

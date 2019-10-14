@@ -19,6 +19,13 @@
 
 ### [ServiceNow를 통해 티켓 관리](./mtp/tickets.md)
 
+
+## [ID 및 장치 액세스 구성](../enterprise/microsoft-365-policies-configurations.md)
+### [선행 조건 작업](../enterprise/identity-access-prerequisites.md)
+### [일반 ID 및 장치 액세스 정책](../enterprise/identity-access-policies.md)
+### [권장 Exchange Online 액세스 정책](../enterprise/secure-email-recommended-policies.md)
+### [권장 SharePoint Online 액세스 정책](../enterprise/sharepoint-file-access-policies.md)
+
 ## [Office 365 보안]() 
 ### [시작]()
 #### [Office 365 보안 로드맵](./office-365-security/security-roadmap.md)
@@ -43,7 +50,6 @@
 ##### [맬웨어 방지 보호 FAQ](./office-365-security/anti-malware-protection-faq-eop.md)
 ##### [Office 365에서의 스팸 방지 및 맬웨어 방지 보호](./office-365-security/anti-malware-protection.md)
 ##### [스팸 방지 및 보호 FAQ](./office-365-security/anti-spam-protection-faq.md)
-##### [Office 365에서 아웃바운드 스팸 제어](./office-365-security/controlling-outbound-spam-in-Office-365.md)
 ##### [스팸 필터 규칙과 스팸 필터 정책에서 유효하지 않은 문자 방지](./office-365-security/invalid-characters-hosted-spam-filter-rules-policies.md)
 ##### [Exchange Online에서의 안전한 발신자 및 차단된 발신자 목록](./office-365-security/safe-sender-and-blocked-sender-lists-faq.md)
 ##### [Office 365에서의 전자 메일 메시지에 대한 안전 조언](./office-365-security/safety-tips-in-office-365.md)
@@ -253,4 +259,8 @@
 
 ### [Office 365 Enterprise](https://docs.microsoft.com/office-365-security/Enterprise)
 ### [Office 365 비즈니스 에디션](https://docs.microsoft.com/office-365-security/admin/admin-home)
+
+
+
+
 ## [Microsoft 365 규정 준수](https://docs.microsoft.com/microsoft-365/compliance/)
