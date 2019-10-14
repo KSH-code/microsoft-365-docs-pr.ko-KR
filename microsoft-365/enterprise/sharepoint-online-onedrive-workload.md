@@ -2,7 +2,7 @@
 title: Microsoft 365 Enterprise용 SharePoint 및 OneDrive 배포
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 09/30/2019
+ms.date: 10/11/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -12,12 +12,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 조직 전체에서 SharePoint를 계획하고 배포하며 가치를 창출하는 프로세스를 안내합니다.
-ms.openlocfilehash: d8a61a6bc6b4dae431d94e7ccfb9fb0ea8019427
-ms.sourcegitcommit: a77c4889c5b7d3b8f16e74917079300e8f222941
+ms.openlocfilehash: 0cad129cdca5f5dcc072f583b2b651a2547fc5fd
+ms.sourcegitcommit: 68c54a45dd663027528b99f883c6ef04b04b19b0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/30/2019
-ms.locfileid: "37329211"
+ms.lasthandoff: 10/11/2019
+ms.locfileid: "37469150"
 ---
 # <a name="deploy-sharepoint-and-onedrive-for-microsoft-365-enterprise"></a>Microsoft 365 Enterprise용 SharePoint 및 OneDrive 배포
 
@@ -27,7 +27,7 @@ SharePoint 및 Microsoft Teams는 사용자가 파일 저장 및 공유, 콘텐�
 
 또한 SharePoint는 사용 중이거나 미사용 상태일 때 권한 및 암호화를 사용한 액세스 제어를 포함하는 고급 보안 기능도 제공합니다. SharePoint 보안은 Microsoft 365 Enterprise가 제공하는 지능형 보안 가치에서 핵심적인 요소입니다.
 
-SharePoint를 완전히 처음 사용하는 경우 [SharePoint](https://products.office.com/sharepoint/sharepoint-online-collaboration-software) 및 [SharePoint 시작](https://support.office.com/article/Get-started-with-SharePoint-3a26444b-08c5-46ad-b80a-cda82b11b27b#ID0EAABAAA=Basics)을 참조하세요.
+SharePoint를 완전히 처음 사용하는 경우 [SharePoint](https://products.office.com/sharepoint/collaboration) 및 [SharePoint 시작](https://support.office.com/article/video-what-is-sharepoint-online-c17b6824-cc22-478f-8757-497cc6b57121)을 참조하세요.
 
 다음 단계에서는 조직에서 SharePoint 역할을 구상하고, 일련의 점진적 배포를 통해 조직을 온보딩하며, 사용 및 가치를 최종 사용자에게 전달하는 프로세스를 안내합니다. 시작하기 전에 SharePoint 사이트에서 필요한 보안 기능을 갖출 수 있도록 적절한 [기초 인프라](deploy-workloads.md#foundation-infrastructure-prerequisites) 단계를 구성했는지 확인합니다. 
 
@@ -50,18 +50,17 @@ Microsoft 365 Enterprise용 OneDrive를 배포하려면 [기업용 OneDrive 가�
 
 SharePoint는 다양한 용도로 사용할 수 있습니다. 비즈니스 요구에 해당되는 목적을 파악해야 합니다. SharePoint가 팀, 부서 또는 전체 조직이 갖는 문서 저장과 공유, 콘텐츠 관리, 공동 작업 요구 사항을 해결하는 데 사용되도록 해야 합니다. 
 
-시나리오 및 기능 목록은 [SharePoint](https://products.office.com/sharepoint/sharepoint-online-collaboration-software)를 참조하세요.
+시나리오 및 기능 목록은 [SharePoint](https://products.office.com/sharepoint/collaboration )를 참조하세요.
 
 다음과 같은 비즈니스 핵심 요소로 조직의 요구를 처리할 수 있습니다.
 
 |||
 |:-----|:-----|
-| 공유 및 공동 작업 | 팀 사이트, 공동 작업 사이트 및 동기화를 활용합니다. |
+| 공유 및 공동 작업 | 팀 사이트, 커뮤니케이션 사이트 및 동기화를 활용합니다. |
 | 정보 전달 및 소통 | 향후 제공될 정보입니다. |
-| 변환 | 흐름을 사용하여 저장소 또는 워크플로를 만듭니다. |
+| 변환 | 플로를 사용하여 앱과 서비스 사이에 자동화된 워크플로를 만듭니다. |
 | 집단 지성 활용 | 검색을 사용하여 조직 내에서 원하는 결과를 제공합니다. |
 | 보호 | 조직이 안전하게 보호되고 올바른 규정을 준수하는지 확인합니다. |
-| 외부/개발 | SharePoint 프레임워크를 사용하여 조직이 솔루션 및 앱을 개발할 수 있도록 합니다. |
 |||
 
 필요에 맞게 SharePoint를 구성하는 방법에 대한 리소스는 [SharePoint 관리자](https://docs.microsoft.com/sharepoint/sharepoint-online)를 참조하세요.
@@ -85,14 +84,11 @@ SharePoint 사이트에 대한 액세스를 보호하려면 [ID 및 장치 액�
 
 ### <a name="step-1-complete-your-technical-planning"></a>1단계: 기술 계획 완료
 
-기술 계획을 시작하기 전에 FastTrack을 사용할지를 결정합니다. 조직에 50개가 넘는 좌석이 있고 [사용할 수 있는 요금제 적격 요금제](https://technet.microsoft.com/library/dn783224.aspx)에 참여하고 있는 경우, 추가 비용 없이 FastTrack 혜택을 사용하여 계획, 마이그레이션, 배포 및 서비스 도입 방법의 안내를 받을 수 있습니다. 또는 Microsoft 365 계정으로 로그인한 후 [FastTrack](https://docs.microsoft.com/fasttrack/m365-fasttrack-benefit-overview)에서 사용할 수 있는 FastTrack 온보딩 마법사를 사용하여 직접 이 작업을 완료할 수 있습니다.
+기술 계획을 시작하기 전에 FastTrack을 사용할지를 결정합니다. 조직에 50개가 넘는 좌석이 있고 [적격 요금제](https://docs.microsoft.com/fasttrack/O365-fasttrack-benefit-for-office-365)에 참여하고 있는 경우, 추가 비용 없이 FastTrack 혜택을 사용하여 계획, 마이그레이션, 배포 및 서비스 도입 방법의 안내를 받을 수 있습니다. 또는 Microsoft 365 계정으로 로그인한 후 [FastTrack](https://docs.microsoft.com/fasttrack/m365-fasttrack-benefit-overview)에서 사용할 수 있는 FastTrack 온보딩 마법사를 사용하여 직접 이 작업을 완료할 수 있습니다.
 
-사용자 고유의 계획을 수행하거나 FastTrack과 연계해서 작업하는 경우, 네트워크 및 조직이 SharePoint를 사용할 준비가 되어 있는지 확인해야 합니다.  특히, SharePoint 기반 문서의 추가 트래픽 성능을 극대화하기 위해 인터넷 대역폭, 처리량 및 트래픽 지연에 중점을 두고 기본 인프라의 네트워킹에 대한 종료 조건을 충족해야 합니다.
+사용자 고유의 계획을 수행하거나 FastTrack과 연계해서 작업하는 경우, 네트워크 및 조직이 SharePoint를 사용할 준비가 되어 있는지 확인해야 합니다.  특히, SharePoint 기반 문서의 추가 트래픽 성능을 극대화하기 위해 인터넷 대역폭, 처리량 및 트래픽 지연에 중점을 두고 기본 인프라의 [네트워킹에 대한 종료 조건](networking-exit-criteria.md)을 충족해야 합니다.
 
-다음과 같은 리소스를 사용하여 SharePoint 배포의 기술적 측면을 대비하세요. 
-
-- [SharePoint 계획 가이드](https://docs.microsoft.com/sharepoint/planning-guide)
-- [SharePoint로 마이그레이션](https://docs.microsoft.com/sharepointmigration/migrate-to-sharepoint-online) 
+Sharepoint의 출시를 준비하려면 [Migrate to SharePoint](https://docs.microsoft.com/sharepointmigration/migrate-to-sharepoint-online)을 사용합니다. 
 
 SharePoint의 보안을 보다 잘 이해하려면 다음 리소스를 검토하세요.
 
@@ -108,8 +104,8 @@ SharePoint 사이트 및 온-프레미스 폴더 및 문서 마이그레이션�
 대부분의 중간 규모 및 대규모 조직에서는 1단계의 이해 관계자, 얼리어답터 및 기술 전문가와 함께 IT 파일럿을 실행해야 합니다. IT 파일럿 중에 수행하는 작업은 다음과 같습니다.
 
 - IT 파일럿 참가자가 연습해볼 수 있는 SharePoint 비즈니스 시나리오를 선택합니다.
-- 파일럿 참가자들에게 SharePoint 문서 저장, 공유, 공동 작업, 팀 기반 일정 관리 및 기타 기능을 테스트할 수 있는 일련의 연습을 제공합니다.
-- 변경 관리 전략을 결정하고 SharePoint의 조직 전체 사용자 채택을 관리할 수 있도록 자료를 생성합니다. 변경 관리 자료에는 전자 메일 알림 텍스트, 내부 교육 계획, 복도 포스터 및 프레젠테이션이 포함될 수 있습니다. 이 자료는 SharePoint에 대한 정보 및 인식을 높이고 사용을 추진하는 목표의 장점을 조직에 알려줍니다. 몇 가지 아이디어를 보려면 [Microsoft Teams](https://docs.microsoft.com/MicrosoftTeams/change-management-strategy) 문서에 대한 변경 관리 전략을 참조하세요.
+- 파일럿 참가자들에게 SharePoint 문서 저장, 공유, 공동 작업 및 기타 기능을 테스트할 수 있는 일련의 연습을 제공합니다.
+- 변경 관리 전략을 결정하고 SharePoint의 조직 전체 사용자 채택을 관리할 수 있도록 자료를 생성합니다. 변경 관리 자료에는 전자 메일 알림 텍스트, 내부 교육 계획, 복도 포스터 및 프레젠테이션이 포함될 수 있습니다. 이 자료는 SharePoint에 대한 정보 및 인식을 높이고 사용을 추진하는 목표의 장점을 조직에 알려줍니다. 시작하려면 [Sharepoint 도입 리소스](https://resources.techcommunity.microsoft.com/resources/SharePoint-adoption/)를 참조 하세요.
 - IT 파일럿 참여자가 자신의 경험을 기반으로 변경 관리 자료를 검토하도록 합니다. 이 참여자들이 모범 사례에 대한 팁과 SharePoint의 이점을 가장 잘 설명할 수 있는 방법과 사용 방법에 대한 유용한 정보를 제공할 수 있습니다.
 
 #### <a name="result"></a>결과
