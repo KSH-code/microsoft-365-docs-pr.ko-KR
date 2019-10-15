@@ -14,12 +14,12 @@ ms.assetid: 3aff33c5-1416-4867-a23b-e0c0c5b4d2be
 ms.collection:
 - M365-security-compliance
 description: 요약:이 문서에서는 Office 365에서 DNS의 SPF (Sender Policy Framework) TXT 레코드를 사용 하 여 대상 전자 메일 시스템이 사용자 지정 도메인에서 보낸 메시지를 신뢰 하는지 확인 하는 방법을 설명 합니다. 이는 Office 365에서 보내는 아웃 바운드 메일에 적용 됩니다. Office 365에서 Office 365 내의 받는 사람에 게 전송 되는 메시지는 항상 SPF를 통과 합니다.
-ms.openlocfilehash: 2845fc9b20b337764159d9debc04f165dcb4bf62
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 7db1259f4ec15fffe46955ba2166b244c5737d43
+ms.sourcegitcommit: 9db133b110956bff2942bc903a4484247fc7020a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37087849"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37510555"
 ---
 # <a name="how-office-365-uses-sender-policy-framework-spf-to-prevent-spoofing"></a>Office 365에서 SPF (Sender Policy Framework)를 사용 하 여 스푸핑을 방지 하는 방법
 
@@ -138,7 +138,7 @@ Office 365의 일반적인 SPF TXT 레코드는 다음 구문을 포함 합니�
 v=spf1 [<ip4>|<ip6>:<IP address>] [include:<domain name>] <enforcement rule>
 ```
 
-예를 들면 다음과 같습니다.
+예:
   
 ```
 v=spf1 ip4:192.168.0.1 ip4:192.168.0.2 include:spf.protection.outlook.com -all
@@ -189,7 +189,7 @@ v=spf1 ip4:192.168.0.1 include:spf.protection.outlook.com -all
 ### <a name="example-spf-txt-record-for-multiple-outbound-on-premises-mail-servers-and-office-365"></a>예: 여러 아웃 바운드 온-프레미스 메일 서버 및 Office 365에 대 한 SPF TXT 레코드
 <a name="ExampleSPFMultipleMailServerO365"> </a>
 
-아웃 바운드 메일 서버가 여러 개인 경우에는 각 메일 서버의 IP 주소를 SPF TXT 레코드에 포함 하 고 각 IP 주소를 공백으로 구분 하 고 "ip4:" 문을 입력 합니다. 예를 들면 다음과 같습니다.
+아웃 바운드 메일 서버가 여러 개인 경우에는 각 메일 서버의 IP 주소를 SPF TXT 레코드에 포함 하 고 각 IP 주소를 공백으로 구분 하 고 "ip4:" 문을 입력 합니다. 예:
   
 ```
 v=spf1 ip4:192.168.0.1 ip4:192.168.0.2 ip4:192.168.0.3 include:spf.protection.outlook.com -all
@@ -244,6 +244,6 @@ Nslookup을 사용 하 여 SPF TXT 레코드를 비롯 한 DNS 레코드를 볼 
 ## <a name="for-more-information"></a>자세한 내용
 <a name="SPFTroubleshoot"> </a>
 
-SPF TXT 레코드를 추가 하는 데 도움이 필요 하세요? 다양 한 인기 도메인 등록 기관에서 SPF (TXT) 레코드를 업데이트 하는 단계별 [지침](https://office.microsoft.com/en-us/office365-suite-help/create-dns-records-for-office-365-HA102851099.aspx?CTT=5&amp;origin=HA102818404) 을 제공 합니다. [스팸 방지 메시지 헤더](anti-spam-message-headers.md) 에는 SPF 확인을 위해 Office 365에서 사용 하는 구문 및 헤더 필드가 포함 되어 있습니다. 
+SPF TXT 레코드를 추가 하는 데 도움이 필요 하세요? Office 365에서 사용자 지정 도메인을 사용 하 여 보낸 사람 정책 프레임 워크를 사용 하는 방법에 대 한 자세한 내용은 [office 365 용 dns 호스팅 공급자에서 dns 레코드 만들기](https://docs.microsoft.com/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider?view=o365-worldwide#add-a-txt-record-for-spf-to-help-prevent-email-spam) 문서를 참조 하세요. [스팸 방지 메시지 헤더](anti-spam-message-headers.md) 에는 SPF 확인을 위해 Office 365에서 사용 하는 구문 및 헤더 필드가 포함 되어 있습니다. 
   
 

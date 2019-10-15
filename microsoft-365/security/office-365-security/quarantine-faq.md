@@ -14,12 +14,12 @@ ms.assetid: c440b2ac-cafa-4be5-ba4c-14278a7990ae
 ms.collection:
 - M365-security-compliance
 description: 이 항목에서는 호스팅되는 격리에 대한 질문과 대답을 제공합니다.
-ms.openlocfilehash: 389fa939c2fd35351abad4d355829656c3977deb
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 393542596eacd26a4f64237f666fabfe236dceed
+ms.sourcegitcommit: 9db133b110956bff2942bc903a4484247fc7020a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088999"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37510535"
 ---
 # <a name="quarantine-faq"></a>격리 FAQ
 
@@ -47,15 +47,15 @@ A. 관리자는 EAC(Exchange 관리 센터)에서 격리된 모든 전자 메일
   
  **질문. 스팸 이외의 항목을 격리로 보낼 수 있습니까?**
   
-대답. 메일 흐름 규칙 (전송 규칙이 라고도 함)과 일치 하는 메시지는 구성 된 작업 인 경우에도 관리자 격리로 보낼 수 있습니다. 최종 사용자 격리는 스팸 전용입니다.
+대답. 예. 메일 흐름 규칙 (전송 규칙이 라고도 함)과 일치 하는 메시지는 피싱으로 식별 되는 메시지와 함께 관리자 격리로 전송 될 수도 있습니다 (구성 된 작업 인 경우). 최종 사용자 격리는 스팸 전용입니다.
   
  **질문. 메시지는 얼마 동안 격리에 보관됩니까?**
   
-대답. 기본적으로 스팸 격리 메시지는 30 일 동안 격리 된 상태로 유지 되 고, 메일 흐름 규칙과 일치 하는 격리 된 메시지는 7 일 동안 격리 됩니다. 이 기간 후에 메시지는 삭제되며 검색할 수 없게 됩니다. 메일 흐름 규칙과 일치 하는 격리 된 메시지의 보존 기간은 구성할 수 없습니다. 그렇지만 스팸 격리 메시지의 보존 기간은 콘텐츠 필터 정책의 **스팸 보존 기간(일)** 설정을 통해 줄일 수 있습니다. 자세한 내용은 [스팸 필터 정책 구성을](configure-your-spam-filter-policies.md)참조 하세요.
+대답. 기본적으로 스팸 격리 메시지는 30 일 동안 격리 된 상태로 유지 되지만, 메일 흐름 규칙과 일치 하는 격리 된 메시지는 기본 콘텐츠 필터 정책에 설정 된 보존 기간을 기준으로 최대 30 일 동안 격리에 보관 됩니다. 이 기간 후에 메시지는 삭제되며 검색할 수 없게 됩니다. 메일 흐름 규칙과 일치 하는 격리 된 메시지의 보존 기간은 구성할 수 없습니다. 그렇지만 스팸 격리 메시지의 보존 기간은 콘텐츠 필터 정책의 **스팸 보존 기간(일)** 설정을 통해 줄일 수 있습니다. 자세한 내용은 [스팸 필터 정책 구성을](configure-your-spam-filter-policies.md)참조 하세요.
   
  **Q. 한 번에 2개 이상의 격리된 메시지를 해제하거나 보고할 수 있습니까?**
   
-A. 한 번에 여러 메시지를 릴리스 하거나 보고 하는 기능은 현재 EAC 또는 최종 사용자 스팸 격리에서 제공 되지 않습니다. 그렇지만 관리자는 이 작업을 수행하는 원격 Windows PowerShell 스크립트를 만들 수 있습니다. [Get-QuarantineMessage](http://technet.microsoft.com/library/88026da1-8dbc-49e7-80e8-112a32773c34.aspx) cmdlet을 사용하여 메시지를 검색하고 [Release-QuarantineMessage](http://technet.microsoft.com/library/4a3aa05c-238f-46f2-b8dd-b0e3c38eab3e.aspx) cmdlet을 사용하여 메시지를 해제할 수 있습니다. 
+A. 예, 격리 포털에서 한 번에 최대 100 개의 메시지를 릴리스할 수 있습니다. 또한 관리자는이 작업을 수행 하는 원격 Windows PowerShell 스크립트를 만들 수 있습니다. [Get-QuarantineMessage](http://technet.microsoft.com/library/88026da1-8dbc-49e7-80e8-112a32773c34.aspx) cmdlet을 사용하여 메시지를 검색하고 [Release-QuarantineMessage](http://technet.microsoft.com/library/4a3aa05c-238f-46f2-b8dd-b0e3c38eab3e.aspx) cmdlet을 사용하여 메시지를 해제할 수 있습니다. 
   
  **질문. 격리된 메시지 검색 시 와일드카드가 지원됩니까? 특정 도메인에 대해 격리된 메시지를 검색할 수 있습니까?**
   
