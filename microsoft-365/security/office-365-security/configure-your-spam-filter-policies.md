@@ -14,12 +14,12 @@ ms.assetid: 316544cb-db1d-4c25-a5b9-c73bbcf53047
 ms.collection:
 - M365-security-compliance
 description: 기본 스팸 필터 설정에는 스팸으로 식별되는 메시지에 관해 수행할 작업 선택이 포함됩니다.
-ms.openlocfilehash: 38160952827d8e60884877a67aea15521000f63f
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: fb46e735c4fae73565b6fe008d47a3e7ffd3f4cb
+ms.sourcegitcommit: 9db133b110956bff2942bc903a4484247fc7020a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088246"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37510565"
 ---
 # <a name="configure-your-spam-filter-policies"></a>스팸 필터 정책 구성
 스팸 필터 설정에는 스팸으로 식별되는 메시지에 관해 수행할 작업 선택이 포함됩니다. 스팸 필터 정책 설정은 인바운드 메시지에만 적용되며 다음 두 가지 유형이 있습니다.
@@ -50,7 +50,7 @@ ms.locfileid: "37088246"
 
 3. **스팸 및 대량 작업** 섹션에서 다음을 수행합니다.
 
-  - **스팸**, **높은 정확도 스팸**, **피싱 메일** 및 **대량 전자 메일** 유형을 위한 작업을 선택합니다. 사용 가능한 값은 다음과 같습니다. 
+  - **스팸**, **높은 정확도 스팸**, **높은 정확도 피싱 메일**, **피싱 메일** 및 **대량 전자 메일** 유형을 위한 작업을 선택합니다. 사용 가능한 값은 다음과 같습니다. 
 
     - **정크 메일 폴더로 메시지 이동:** 지정된 받는 사람의 정크 메일 폴더로 메시지를 보냅니다. 이 작업은 스팸, 높은 정확도 스팸 및 대량에 대한 기본 작업입니다.<br/><br/>
 
