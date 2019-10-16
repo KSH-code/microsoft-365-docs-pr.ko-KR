@@ -13,12 +13,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: 피싱 메시지가 사서함에 도착 하지 않도록 하기 위해 웹에서 Outlook.com 및 Outlook은 보낸 사람이 누구 인지를 확인 하 고 의심 스러운 메시지를 정크 메일로 표시 합니다.
-ms.openlocfilehash: 1b6c834f5d54c54a577b51edf5f135e30990a92c
-ms.sourcegitcommit: 9db133b110956bff2942bc903a4484247fc7020a
+ms.openlocfilehash: 6f3d11a510756871d6688dc948e2a50b4d59406d
+ms.sourcegitcommit: eed48c21790d31a85292f7e39bf1e30c42f10d36
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 10/15/2019
-ms.locfileid: "37510545"
+ms.locfileid: "37523633"
 ---
 # <a name="unverified-sender"></a>확인 되지 않은 보낸 사람
 
@@ -33,6 +33,15 @@ ms.locfileid: "37510545"
 ## <a name="how-can-i-identify-a-suspicious-message-in-my-inbox"></a>받은 편지함에서 의심 스러운 메시지를 어떻게 확인할 수 있나요?
 
 Outlook.com and Outlook에서 메시지를 보낸 사람이 식별 되지 않거나 id가 보낸 사람 주소에 표시 되는 내용과 다를 때 나타나는 지표를 표시 합니다.
+
+## <a name="you-see-a--in-the-sender-image"></a>보낸 사람 이미지에 '? '가 표시 됩니다.
+
+Outlook.com 및 웹용 Outlook에서 전자 메일 인증 기술을 사용 하 여 보낸 사람의 id를 확인할 수 없는 경우 보낸 사람 사진에 '? '가 표시 됩니다. 
+
+![메시지가 확인 통과 되지 않음](../media/message-did-not-pass-verification.jpg)
+
+인증에 실패 한 모든 메시지는 악성이 아닙니다. 그러나 보낸 사람을 인식 하지 못하는 경우 인증을 받지 않는 메시지와 상호 작용할 때는 주의 해야 합니다. 또는 일반적으로 보낸 사람 이미지에 '? '가 포함 되지 않는 보낸 사람을 인식할 수 있지만이를 갑자기 보면 보낸 사람이 위장 중 이라고 표시 됩니다.
+
 
 ## <a name="how-to-manage-which-messages-receive-the-unverified-sender-treatment"></a>확인 되지 않은 보낸 사람 처리를 수신 하는 메시지를 관리 하는 방법 
 
@@ -49,14 +58,6 @@ Office 365 고객 인 경우 보안 & 준수 센터를 통해이 기능을 관�
     - Get-phishfilterpolicy cmdlet을 통해 도메인 쌍을 추가 합니다. 자세한 내용은 Office 365의 Get-phishfilterpolicy 및 스푸핑 방지 보호를 참조 하세요.
 
 또한 ETRs (전자 메일 전송 규칙), 안전한 도메인 목록 (스팸 방지 정책), 수신 허용-보낸 사람 목록 또는 사용자가 해당 사용자를 "안전한 보낸 사람"으로 설정 하 여 관리자 허용 목록을 통해 받은 편지 함으로 배달 된 경우에는 확인 되지 않은 보낸 사람 처리가 적용 되지 않습니다. 받은 편지함.
-
-### <a name="you-see-a--in-the-sender-image"></a>보낸 사람 이미지에 '? '가 표시 됩니다.
-
-Outlook.com 및 웹용 Outlook에서 전자 메일 인증 기술을 사용 하 여 보낸 사람의 id를 확인할 수 없는 경우 보낸 사람 사진에 '? '가 표시 됩니다. 
-
-![메시지가 확인 통과 되지 않음](../media/message-did-not-pass-verification.jpg)
-
-인증에 실패 한 모든 메시지는 악성이 아닙니다. 그러나 보낸 사람을 인식 하지 못하는 경우 인증을 받지 않는 메시지와 상호 작용할 때는 주의 해야 합니다. 또는 일반적으로 보낸 사람 이미지에 '? '가 포함 되지 않는 보낸 사람을 인식할 수 있지만이를 갑자기 보면 보낸 사람이 위장 중 이라고 표시 됩니다.
 
 ## <a name="frequently-asked-questions"></a>자주하는 질문
 

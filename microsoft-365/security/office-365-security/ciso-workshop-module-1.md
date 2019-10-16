@@ -1,8 +1,8 @@
 ---
 title: '주요 정보 보안 담당자 (CISO) 워크숍, 모듈 1: Microsoft Cybersecurity 브리핑'
-ms.author: robmazz
-author: robmazz
-manager: laurawi
+ms.author: dansimp
+author: dansimp
+manager: dansimp
 audience: Admin
 ms.topic: tutorial
 ms.service: o365-seccomp
@@ -10,19 +10,19 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: 조직의 현대화 보안에 대 한 보안 원칙 및 권장 사항에 대해 자세히 알아보세요.
-ms.openlocfilehash: 5a4c2cf41ea7af809ba74fe5a4a59f52051850b2
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: fa572e24a549be2f8f9a56d3f83e53d43a6c5294
+ms.sourcegitcommit: 99a79b0ed3126fa17970481fb768414279e839c0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088265"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37517517"
 ---
 # <a name="ciso-workshop-module-1-microsoft-cybersecurity-briefing"></a>CISO 워크숍 모듈 1: Microsoft Cybersecurity 브리핑
 
 이 모듈에서는 중요 보안 바이러스, Microsoft cybersecurity 참조 아키텍처, cybersecurity 복구, IoT (인터넷 관련 사항) 및 운영 기술에 대 한 개요를 설명 합니다.
 
 - PDF 요약 다운로드: [모듈 1: Microsoft Cybersecurity 브리핑](../media/ciso-workshop-1-cybersecurity-briefing.pdf)
-- PowerPoint 요약 다운로드: [모듈 1: Microsoft Cybersecurity 브리핑](https://docs.microsoft.com/office365/securitycompliance/media/ciso-workshop-1-cybersecurity-briefing.pptx)
+- PowerPoint 요약 다운로드: [모듈 1: Microsoft Cybersecurity 브리핑](https://docs.microsoft.com/microsoft-365/security/media/ciso-workshop-1-cybersecurity-briefing.pptx)
 
 ## <a name="part-1-course-introduction-and-overview-913"></a>1 부: 과정 소개 및 개요 (9:13)
 

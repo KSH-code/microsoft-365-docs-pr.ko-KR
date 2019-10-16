@@ -1,8 +1,8 @@
 ---
 title: 주요 정보 보안 담당자 (CISO) 워크숍
-ms.author: robmazz
-author: robmazz
-manager: laurawi
+ms.author: dansimp
+author: dansimp
+manager: dansimp
 audience: Admin
 ms.topic: tutorial
 ms.service: o365-seccomp
@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: 조직의 현대화 보안에 대 한 보안 원칙 및 권장 사항에 대해 자세히 알아보세요.
-ms.openlocfilehash: 95bfc90211b90e129e6b208ab09b6123c61ccaae
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 6987f5fcb0504ad4b5bee91a417ff632faa11623
+ms.sourcegitcommit: eed48c21790d31a85292f7e39bf1e30c42f10d36
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088254"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37523623"
 ---
 # <a name="chief-information-security-officer-ciso-workshop-training"></a>최고 정보 보안 담당자 (CISO) 워크숍 교육
 
@@ -32,7 +32,7 @@ CISO를 통해 조직은 다음과 같은 두 가지 보안 문제를 충족할 
 
 - [모듈 2: 보안 관리](ciso-workshop-module-2.md): 통합 지침, 자동 정책 적용 및 모니터링을 통해 하이브리드 엔터프라이즈 공간에 대 한 가시성 및 제어를 향상 시키는 방법에 대해 알아봅니다.
 
-- [모듈 3: id 및 액세스 관리](ciso-workshop-module-3.md): 대부분의 최신 공격은 사용자 id를 손상 시 키도 기 때문에, 새 id 보안 경계를 구축 하 여 회사 네트워크 외부의 자산을 보호 하는 방법을 알아보세요.
+- [모듈 3: 모듈 3-id 및 제로 트러스트 사용자 액세스](ciso-workshop-module-3.md): 네트워크 경계 내부 및 외부에서 회사 데이터를 보다 효율적으로 보호 하기 위해 id 및 사용자 액세스 전략에 제로 신뢰 개념을 포함 하는 방법을 알아봅니다.
 
 - [모듈 4a: 위협 보호 전략, 1 부](ciso-workshop-module-4a.md): 위협 방지, 보안 진행, 전략 및 보안 로드맵에 대 한 주요 learnings를 알아봅니다.
 

@@ -1,8 +1,8 @@
 ---
 title: '최고 정보 보안 담당자 (CISO) 워크숍, 모듈 4b: 위협 보호 전략'
-ms.author: robmazz
-author: robmazz
-manager: laurawi
+ms.author: dansimp
+author: dansimp
+manager: dansimp
 audience: Admin
 ms.topic: tutorial
 ms.service: o365-seccomp
@@ -10,19 +10,19 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: 조직의 현대화 보안에 대 한 보안 원칙 및 권장 사항에 대해 자세히 알아보세요.
-ms.openlocfilehash: 5644ea7e69381b108dd3e90ec5fb0cbf8738886d
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 88cb6ab079afcd420202f5cca47f555895d0d46a
+ms.sourcegitcommit: 99a79b0ed3126fa17970481fb768414279e839c0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088264"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37517507"
 ---
 # <a name="ciso-workshop-module-4b-threat-protection-strategy"></a>CISO 워크숍 모듈 4b: 위협 방지 전략 
 
 이 모듈에서는 microsoft 지능형 보안 그래프의 신호를 trillions 하 여 Microsoft SOC (Security Operations Center)의 진화 및 궤적을 검토 합니다.
 
 - PDF 요약 다운로드: [모듈 4b: 위협 보호 전략](../media/ciso-workshop-4b-threat-protection-strategy.pdf)
-- PowerPoint 요약 다운로드: [Module 4b: 위협 보호 전략](https://docs.microsoft.com/office365/securitycompliance/media/ciso-workshop-4b-threat-protection-strategy.pptx)
+- PowerPoint 요약 다운로드: [Module 4b: 위협 보호 전략](https://docs.microsoft.com/microsoft-365/security/media/ciso-workshop-4b-threat-protection-strategy.pptx)
 
 ## <a name="introduction-threat-protection-strategy-detect-respond-recover-338"></a>소개: 위협 보호 전략 (검색-응답-복구) (3:38)
 

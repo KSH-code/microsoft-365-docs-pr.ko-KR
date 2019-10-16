@@ -1,8 +1,8 @@
 ---
 title: '주요 정보 보안 담당자 (CISO) 워크숍, 모듈 5: 정보 보호'
-ms.author: robmazz
-author: robmazz
-manager: laurawi
+ms.author: dansimp
+author: dansimp
+manager: dansimp
 audience: Admin
 ms.topic: tutorial
 ms.service: o365-seccomp
@@ -10,19 +10,19 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: 조직의 현대화 보안에 대 한 보안 원칙 및 권장 사항에 대해 자세히 알아보세요.
-ms.openlocfilehash: dc47a6eb6a7ff05afed86845699a459529de6dfc
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 766993729b416b360d559a2d8cacf29a2a29c183
+ms.sourcegitcommit: 99a79b0ed3126fa17970481fb768414279e839c0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088256"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37517567"
 ---
 # <a name="ciso-workshop-module-5-information-protection"></a>CISO 워크숍 모듈 5: 정보 보호
 
 장치 간의 자동 분류 및 영구 암호화와 함께 이동 하는 경우 중요 한 정보를 보호 하는 방법을 알아봅니다. 모바일 장치, 클라우드 서비스 및 기타 회사 자산에서 데이터를 지속적으로 모니터링 하는 방법에 대 한 정보가 포함 되어 있습니다.
 
 - PDF 요약 다운로드: [모듈 5: 정보 보호](../media/ciso-workshop-5-information-protection-strategy.pdf)
-- PowerPoint 요약 다운로드: [모듈 5: 정보 보호](https://docs.microsoft.com/office365/securitycompliance/media/ciso-workshop-5-information-protection-strategy.pptx)
+- PowerPoint 요약 다운로드: [모듈 5: 정보 보호](https://docs.microsoft.com/microsoft-365/security/media/ciso-workshop-5-information-protection-strategy.pptx)
 
 ## <a name="introduction-information-protection-304"></a>소개: 정보 보호 (3:04)
 

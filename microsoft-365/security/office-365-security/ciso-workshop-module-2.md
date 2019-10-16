@@ -1,8 +1,8 @@
 ---
 title: '주요 정보 보안 담당자 (CISO) 워크숍, 모듈 2: 보안 관리'
-ms.author: robmazz
-author: robmazz
-manager: laurawi
+ms.author: dansimp
+author: dansimp
+manager: dansimp
 audience: Admin
 ms.topic: tutorial
 ms.service: o365-seccomp
@@ -10,19 +10,19 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: 조직의 현대화 보안에 대 한 보안 원칙 및 권장 사항에 대해 자세히 알아보세요.
-ms.openlocfilehash: 9fba19de7d2fcc406d1c058cb0fad3c80242c64c
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 4b1403b35c9cea10c87f528c6f09c2948f316f27
+ms.sourcegitcommit: 99a79b0ed3126fa17970481fb768414279e839c0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088262"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37517587"
 ---
 # <a name="ciso-workshop-module-2-security-management"></a>CISO 워크숍 모듈 2: 보안 관리 
 
 통합 지침, 자동 정책 적용 및 모니터링을 통해 하이브리드 엔터프라이즈 공간에 대 한 가시성을 높이 거 나 제어 하는 방법을 알아봅니다.
 
 - PDF 요약 다운로드: [모듈 2: 보안 관리](../media/ciso-workshop-2-security-management.pdf)
-- PowerPoint 요약 다운로드: [모듈 2: 보안 관리](https://docs.microsoft.com/office365/securitycompliance/media/ciso-workshop-2-security-management.pptx)
+- PowerPoint 요약 다운로드: [모듈 2: 보안 관리](https://docs.microsoft.com/microsoft-365/security/media/ciso-workshop-2-security-management.pptx)
 
 ## <a name="introduction-security-management-125"></a>소개: 보안 관리 (1:25)
 
