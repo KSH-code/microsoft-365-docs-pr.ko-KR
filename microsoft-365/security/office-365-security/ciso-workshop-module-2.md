@@ -1,8 +1,8 @@
 ---
 title: '주요 정보 보안 담당자 (CISO) 워크숍, 모듈 2: 보안 관리'
-ms.author: robmazz
-author: robmazz
-manager: laurawi
+ms.author: dansimp
+author: dansimp
+manager: dansimp
 audience: Admin
 ms.topic: tutorial
 ms.service: o365-seccomp
@@ -10,48 +10,48 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: 조직의 현대화 보안에 대 한 보안 원칙 및 권장 사항에 대해 자세히 알아보세요.
-ms.openlocfilehash: 9fba19de7d2fcc406d1c058cb0fad3c80242c64c
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 4b1403b35c9cea10c87f528c6f09c2948f316f27
+ms.sourcegitcommit: 99a79b0ed3126fa17970481fb768414279e839c0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088262"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "37517587"
 ---
-# <a name="ciso-workshop-module-2-security-management"></a><span data-ttu-id="ffded-103">CISO 워크숍 모듈 2: 보안 관리</span><span class="sxs-lookup"><span data-stu-id="ffded-103">CISO Workshop Module 2: Security Management</span></span> 
+# <a name="ciso-workshop-module-2-security-management"></a><span data-ttu-id="87cd6-103">CISO 워크숍 모듈 2: 보안 관리</span><span class="sxs-lookup"><span data-stu-id="87cd6-103">CISO Workshop Module 2: Security Management</span></span> 
 
-<span data-ttu-id="ffded-104">통합 지침, 자동 정책 적용 및 모니터링을 통해 하이브리드 엔터프라이즈 공간에 대 한 가시성을 높이 거 나 제어 하는 방법을 알아봅니다.</span><span class="sxs-lookup"><span data-stu-id="ffded-104">Learn how to increase visibility and control over your hybrid enterprise estate with integrated guidance, automated policy enforcement, and monitoring.</span></span>
+<span data-ttu-id="87cd6-104">통합 지침, 자동 정책 적용 및 모니터링을 통해 하이브리드 엔터프라이즈 공간에 대 한 가시성을 높이 거 나 제어 하는 방법을 알아봅니다.</span><span class="sxs-lookup"><span data-stu-id="87cd6-104">Learn how to increase visibility and control over your hybrid enterprise estate with integrated guidance, automated policy enforcement, and monitoring.</span></span>
 
-- <span data-ttu-id="ffded-105">PDF 요약 다운로드: [모듈 2: 보안 관리](../media/ciso-workshop-2-security-management.pdf)</span><span class="sxs-lookup"><span data-stu-id="ffded-105">Download PDF summary: [Module 2: Security Management](../media/ciso-workshop-2-security-management.pdf)</span></span>
-- <span data-ttu-id="ffded-106">PowerPoint 요약 다운로드: [모듈 2: 보안 관리](https://docs.microsoft.com/office365/securitycompliance/media/ciso-workshop-2-security-management.pptx)</span><span class="sxs-lookup"><span data-stu-id="ffded-106">Download PowerPoint summary: [Module 2: Security Management](https://docs.microsoft.com/office365/securitycompliance/media/ciso-workshop-2-security-management.pptx)</span></span>
+- <span data-ttu-id="87cd6-105">PDF 요약 다운로드: [모듈 2: 보안 관리](../media/ciso-workshop-2-security-management.pdf)</span><span class="sxs-lookup"><span data-stu-id="87cd6-105">Download PDF summary: [Module 2: Security Management](../media/ciso-workshop-2-security-management.pdf)</span></span>
+- <span data-ttu-id="87cd6-106">PowerPoint 요약 다운로드: [모듈 2: 보안 관리](https://docs.microsoft.com/microsoft-365/security/media/ciso-workshop-2-security-management.pptx)</span><span class="sxs-lookup"><span data-stu-id="87cd6-106">Download PowerPoint summary: [Module 2: Security Management](https://docs.microsoft.com/microsoft-365/security/media/ciso-workshop-2-security-management.pptx)</span></span>
 
-## <a name="introduction-security-management-125"></a><span data-ttu-id="ffded-107">소개: 보안 관리 (1:25)</span><span class="sxs-lookup"><span data-stu-id="ffded-107">Introduction: Security Management (1:25)</span></span>
+## <a name="introduction-security-management-125"></a><span data-ttu-id="87cd6-107">소개: 보안 관리 (1:25)</span><span class="sxs-lookup"><span data-stu-id="87cd6-107">Introduction: Security Management (1:25)</span></span>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWtT8S]
 
-## <a name="part-1-disrupting-attacker-return-on-investment-1431"></a><span data-ttu-id="ffded-108">1 부: 공격자의 투자 수익률 (14:31)</span><span class="sxs-lookup"><span data-stu-id="ffded-108">Part 1: Disrupting Attacker Return on Investment (14:31)</span></span>
+## <a name="part-1-disrupting-attacker-return-on-investment-1431"></a><span data-ttu-id="87cd6-108">1 부: 공격자의 투자 수익률 (14:31)</span><span class="sxs-lookup"><span data-stu-id="87cd6-108">Part 1: Disrupting Attacker Return on Investment (14:31)</span></span>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWtGm1]
 
-## <a name="part-2-meet-productivity-and-security-goals-251"></a><span data-ttu-id="ffded-109">2 부: 생산성 및 보안 목표 달성 (2:51)</span><span class="sxs-lookup"><span data-stu-id="ffded-109">Part 2: Meet Productivity and Security goals (2:51)</span></span>
+## <a name="part-2-meet-productivity-and-security-goals-251"></a><span data-ttu-id="87cd6-109">2 부: 생산성 및 보안 목표 달성 (2:51)</span><span class="sxs-lookup"><span data-stu-id="87cd6-109">Part 2: Meet Productivity and Security goals (2:51)</span></span>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWtGm2]
 
-## <a name="part-3-assume-compromise-230"></a><span data-ttu-id="ffded-110">3 부: 손상 가정 (2:30)</span><span class="sxs-lookup"><span data-stu-id="ffded-110">Part 3: Assume Compromise (2:30)</span></span>
+## <a name="part-3-assume-compromise-230"></a><span data-ttu-id="87cd6-110">3 부: 손상 가정 (2:30)</span><span class="sxs-lookup"><span data-stu-id="87cd6-110">Part 3: Assume Compromise (2:30)</span></span>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWtLoQ]
 
-## <a name="part-4-shared-responsibility-540"></a><span data-ttu-id="ffded-111">4 부: 공유 책임 (5:40)</span><span class="sxs-lookup"><span data-stu-id="ffded-111">Part 4: Shared Responsibility (5:40)</span></span>
+## <a name="part-4-shared-responsibility-540"></a><span data-ttu-id="87cd6-111">4 부: 공유 책임 (5:40)</span><span class="sxs-lookup"><span data-stu-id="87cd6-111">Part 4: Shared Responsibility (5:40)</span></span>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWtYMa]
 
-## <a name="part-5-cloud-is-more-secure-901"></a><span data-ttu-id="ffded-112">5 부: 클라우드가 더 안전 합니다 (9:01).</span><span class="sxs-lookup"><span data-stu-id="ffded-112">Part 5: Cloud is More Secure (9:01)</span></span>
+## <a name="part-5-cloud-is-more-secure-901"></a><span data-ttu-id="87cd6-112">5 부: 클라우드가 더 안전 합니다 (9:01).</span><span class="sxs-lookup"><span data-stu-id="87cd6-112">Part 5: Cloud is More Secure (9:01)</span></span>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWtITn]
 
-## <a name="part-6-security-management-visibility-control-guidance-807"></a><span data-ttu-id="ffded-113">6 부: 보안 관리: 가시성, 제어, 지침 (8:07)</span><span class="sxs-lookup"><span data-stu-id="ffded-113">Part 6: Security Management: Visibility, Control, Guidance (8:07)</span></span>
+## <a name="part-6-security-management-visibility-control-guidance-807"></a><span data-ttu-id="87cd6-113">6 부: 보안 관리: 가시성, 제어, 지침 (8:07)</span><span class="sxs-lookup"><span data-stu-id="87cd6-113">Part 6: Security Management: Visibility, Control, Guidance (8:07)</span></span>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWtLoR]
 
-## <a name="part-7-evolution-of-vulnerability-management-1612"></a><span data-ttu-id="ffded-114">7 부: 취약성 관리의 발전 (16:12)</span><span class="sxs-lookup"><span data-stu-id="ffded-114">Part 7: Evolution of Vulnerability Management (16:12)</span></span>
+## <a name="part-7-evolution-of-vulnerability-management-1612"></a><span data-ttu-id="87cd6-114">7 부: 취약성 관리의 발전 (16:12)</span><span class="sxs-lookup"><span data-stu-id="87cd6-114">Part 7: Evolution of Vulnerability Management (16:12)</span></span>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWtNNR]
