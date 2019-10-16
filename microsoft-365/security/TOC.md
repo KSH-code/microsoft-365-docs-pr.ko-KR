@@ -1,14 +1,31 @@
 # [Microsoft 365 보안](index.yml)
 
+## 시작
+### [BDM에 대한 Microsoft 365 보안](Microsoft-365-security-for-bdm.md)
+### [Secure Score](./mtp/microsoft-secure-score.md)
+### [최고 정보 보안 책임자(CISO) 워크샵 교육](./office-365-security/ciso-workshop.md)
+#### [모듈 1 - Microsoft 사이버 보안 브리핑](./office-365-security/ciso-workshop-module-1.md)
+#### [모듈 2 - 보안 관리](./office-365-security/ciso-workshop-module-2.md)
+#### [모듈 3 - ID 및 액세스 관리](./office-365-security/ciso-workshop-module-3.md)
+#### [모듈 4a - 위협 방지 전략, 파트 I](./office-365-security/ciso-workshop-module-4a.md)
+#### [모듈 4b - 위협 방지 전략, 파트 II](./office-365-security/ciso-workshop-module-4b.md)
+#### [모듈 5 - 정보 보호](./office-365-security/ciso-workshop-module-5.md)
+
+
+## [ID 및 장치 액세스 구성](../enterprise/microsoft-365-policies-configurations.md)
+### [선행 조건 작업](../enterprise/identity-access-prerequisites.md)
+### [일반 ID 및 장치 액세스 정책](../enterprise/identity-access-policies.md)
+### [권장 Exchange Online 액세스 정책](../enterprise/secure-email-recommended-policies.md)
+### [권장 SharePoint Online 액세스 정책](../enterprise/sharepoint-file-access-policies.md)
+
+
 ## Microsoft 위협 방지
 ### [개요]()
 #### [Microsoft 위협 방지란 무엇인가요?](mtp/microsoft-threat-protection.md)
 #### [Microsoft 365 보안 센터](mtp/overview-security-center.md)
 
-
 ### [Microsoft 365에서 찾기](./mtp/hunting.md)
 
-### [보안 점수](./mtp/microsoft-secure-score.md)
 
 ### [보고서]()
 #### [보고서 모니터링 및 보기](./mtp/monitoring-and-reporting.md)
@@ -20,12 +37,6 @@
 ### [ServiceNow를 통해 티켓 관리](./mtp/tickets.md)
 
 
-## [ID 및 장치 액세스 구성](../enterprise/microsoft-365-policies-configurations.md)
-### [선행 조건 작업](../enterprise/identity-access-prerequisites.md)
-### [일반 ID 및 장치 액세스 정책](../enterprise/identity-access-policies.md)
-### [권장 Exchange Online 액세스 정책](../enterprise/secure-email-recommended-policies.md)
-### [권장 SharePoint Online 액세스 정책](../enterprise/sharepoint-file-access-policies.md)
-
 ## [Office 365 보안]() 
 ### [시작]()
 #### [Office 365 보안 로드맵](./office-365-security/security-roadmap.md)
@@ -34,13 +45,8 @@
 #### [보안 및 준수 센터의 사용 권한](./office-365-security/permissions-in-the-security-and-compliance-center.md)
 #### [사용자에게 보안 센터로의 액세스 권한 부여](./office-365-security/grant-access-to-the-security-and-compliance-center.md)
 
-#### [최고 정보 보안 책임자(CISO) 워크샵 교육](./office-365-security/ciso-workshop.md)
-##### [모듈 1 - Microsoft 사이버 보안 브리핑](./office-365-security/ciso-workshop-module-1.md)
-##### [모듈 2 - 보안 관리](./office-365-security/ciso-workshop-module-2.md)
-##### [모듈 3 - ID 및 액세스 관리](./office-365-security/ciso-workshop-module-3.md)
-##### [모듈 4a - 위협 방지 전략, 파트 I](./office-365-security/ciso-workshop-module-4a.md)
-##### [모듈 4b - 위협 방지 전략, 파트 II](./office-365-security/ciso-workshop-module-4b.md)
-##### [모듈 5 - 정보 보호](./office-365-security/ciso-workshop-module-5.md)
+
+
 
 
 ### [위협으로부터 보호](./office-365-security/protect-against-threats.md)
