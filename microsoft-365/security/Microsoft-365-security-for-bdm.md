@@ -10,16 +10,16 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: 현재 조직이 Microsoft 365 환경에 직면 하 게 되는 가장 일반적인 위협과 공격 시나리오로, 이러한 위험을 완화 하기 위한 권장 작업을 소개 합니다.
-ms.openlocfilehash: 16108f71702e2464721fa09fee4c6c298496a2c4
-ms.sourcegitcommit: 6ef9a98e3d9de44ee4f01870f9189fa676572419
+ms.openlocfilehash: c847e11d141dd6b3b4ce7601631259ba73e1703f
+ms.sourcegitcommit: fa9d24aae563727fc8d67c4054c8d307a1a540ad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2019
-ms.locfileid: "37481377"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37556823"
 ---
 # <a name="microsoft-365-security-for-business-decision-makers-bdms"></a>BDMs (비즈니스 의사 결정권자 용 Microsoft 365 Security)
 
-이 문서에서는 Microsoft 365 환경에 대해 조직이 현재 직면 한 가장 일반적인 위협 및 공격 시나리오와 이러한 위험을 완화 하기 위한 권장 작업에 대해 설명 합니다. Microsoft 365에는 미리 구성 된 다양 한 보안 기능과 함께 제공 되지만, 고객은 클라우드 서비스에 액세스 하는 데 사용 되는 고유한 id, 데이터 및 장치를 보호 해야 합니다. 
+이 문서에서는 Microsoft 365 환경에 대해 조직이 현재 직면 한 가장 일반적인 위협 및 공격 시나리오와 이러한 위험을 완화 하기 위한 권장 작업에 대해 설명 합니다. Microsoft 365에는 미리 구성 된 다양 한 보안 기능과 함께 제공 되지만, 고객은 클라우드 서비스에 액세스 하는 데 사용 되는 고유한 id, 데이터 및 장치를 보호 해야 합니다. 이 지침은 Kozeta 빔 (Microsoft Cloud Security 설계자) 및 Thiagaraj Sundararajan (Microsoft 선임 컨설턴트)가 개발 했습니다.
 
 이 문서는 테 넌 트, 전자 메일 및 SharePoint와 같은 가장 중요 한 서비스 및 자산을 관리 하는 데 사용 되는 계정을 보호 하기 시작 하 여 우선 순위에 따라 구성 됩니다. 이 기능은 보안에 대 한 체계적인 방법을 제공 하며, 조직 전체에서 관련자 및 팀의 진행 상황을 추적할 수 있도록 다음 스프레드시트와 함께 작동 합니다. [BDMs 스프레드시트에 대 한 Microsoft 365 security](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/Microsoft-365-BDM-security-recommendations-spreadsheet.xlsx). 
 
