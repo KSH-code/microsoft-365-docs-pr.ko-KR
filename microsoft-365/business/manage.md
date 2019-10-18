@@ -8,18 +8,23 @@ ms.topic: hub-page
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection: M365-subscription-management
-ms.custom: OKR_SMB_M365
+ms.custom:
+- Adm_O365
+- Core_O365Admin_Migration
+- MiniMaven
+- MSB365
+- OKR_SMB_M365
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 27ff1678-865a-4707-8145-e1155aa815d6
 description: Microsoft 365 Business 관련 관리 작업, 모바일 장치, Windows 10 Pc 등의 다양 한 작업을 관리 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 87ba4093a37c708fe405cd0876a53f8b9ae91567
-ms.sourcegitcommit: 6003d6da0a85c97357eb3dba3918eb145f381fe1
+ms.openlocfilehash: 1e39adad50688686ef1d03ef7ed51534e067e6b3
+ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37287973"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37575961"
 ---
 # <a name="manage-microsoft-365-business"></a>Microsoft 365 Business 관리
 
@@ -73,9 +78,9 @@ ms.locfileid: "37287973"
   
 - [단계별 가이드를 사용하여 AutoPilot 장치 및 프로필 추가](add-autopilot-devices-and-profile.md)
     
-- [AutoPilot 프로필 만들기 및 편집](create-and-edit-autopilot-profiles.md)
+- [Autopilot 프로필 만들기 및 편집](create-and-edit-autopilot-profiles.md)
     
-- [AutoPilot 장치 만들기 및 편집](create-and-edit-autopilot-devices.md)
+- [Autopilot 장치 만들기 및 편집](create-and-edit-autopilot-devices.md)
     
 - [AutoPilot 장치 오류 문제 해결](troubleshoot-autopilot-errors.md)
     

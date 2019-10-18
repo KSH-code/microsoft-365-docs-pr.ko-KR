@@ -14,18 +14,18 @@ ms.assetid: ab95bf17-bb09-4dd1-9990-ddd02ddecf05
 ms.collection:
 - M365-security-compliance
 description: 이 항목에서는 Exchange Online 및 exchange Online Protection (EOP) 관리자가 EAC (exchange 관리 센터)에서 격리 된 메시지를 찾아서 해제 하 고 보고 하는 방법에 대해 설명 합니다.
-ms.openlocfilehash: 80bc774d53b82ecd9295ed40f6c8254c7047a2e0
-ms.sourcegitcommit: cbf117a4cd92a907115c9f10752f3c557361e586
+ms.openlocfilehash: 8f127dd1e7c14bbf2ae1d3bf23e611ef5c3ac1dc
+ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "37441135"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37576036"
 ---
 # <a name="find-and-release-quarantined-messages-as-an-administrator"></a>관리자로 격리된 메시지 찾기 및 릴리스
 
 이 항목에서는 Exchange Online 및 exchange Online Protection (EOP) 관리자가 EAC (exchange 관리 센터)에서 격리 된 메시지를 찾아서 해제 하 고 보고 하는 방법에 대해 설명 합니다. Office 365에서는 메시지가 스팸으로 식별 되었거나 메일 흐름 규칙 (전송 규칙이 라고도 함)과 일치 하기 때문에 메시지를 격리로 보냅니다.
 
-EAC 대신 보안 &amp; 및 준수 센터를 사용 하 여 이러한 작업을 완료 하 고, 맬웨어가 포함 되어 있어 격리로 전송 된 메시지를 보고 작업 합니다. 자세한 내용은 [Office 365에서 전자 메일 메시지 격리](https://support.office.com/article/Quarantine-email-messages-in-Office-365-4c234874-015e-4768-8495-98fcccfc639b)를 참조 하세요.
+EAC 대신 보안 & 준수 센터를 사용 하 여 이러한 작업을 모두 완료할 수 있습니다. EAC (Exchange 관리 센터) 내의 격리 포털은 decommisioned로 설정 되어 있습니다.  자세한 내용은 [Office 365에서 전자 메일 메시지 격리](https://support.office.com/article/Quarantine-email-messages-in-Office-365-4c234874-015e-4768-8495-98fcccfc639b)를 참조 하세요.
 
 격리 된 메시지는 EAC의 **격리** 페이지에 나열 됩니다. 기본적으로 메시지는 **받은 날짜** 필드에서 가장 오래 된 항목 순으로 정렬 됩니다. 각 메시지에 대해 **보낸 사람**, **제목** 및 **만료 날짜** 값도 표시됩니다. 이러한 필드의 머리글을 클릭하여 각 필드를 정렬할 수 있습니다. 열 머리글을 두 번 클릭 하면 정렬 순서가 반전 됩니다. **격리** 페이지에 최대 500 개의 메시지가 표시 됩니다.
 
@@ -67,7 +67,7 @@ EAC(Exchange 관리 센터)에서 고급 검색을 사용하여 여러 조건에
    6. **Expires**: 다음 24 시간 이내 ( **오늘**), 다음 48 시간 이내 ( **다음 2 일**) 또는 다음 주 (다음 **7 일**) 이내에 메시지가 격리 되지 않도록 선택 하거나, 다음 중에 사용자 지정 시간 간격을 선택할 수 있습니다. 메시지가 격리에서 삭제 되는 대상입니다.
 
       > [!IMPORTANT]
-      > 기본적으로 스팸 격리 메시지는 15 일 동안 격리 된 상태로 유지 되 고, 메일 흐름 규칙과 일치 하는 격리 된 메시지는 7 일 동안 격리 됩니다. 이 기간 후에 Office 365에서 메시지를 삭제 하며 이러한 시간을 검색할 수 없습니다. 메일 흐름 규칙과 일치 하는 격리 된 메시지의 보존 기간은 구성할 수 없습니다. 그렇지만 스팸 격리 메시지의 보존 기간은 콘텐츠 필터 정책의 **스팸 보존 기간(일)** 설정을 통해 줄일 수 있습니다. 자세한 내용은 [스팸 필터 정책 구성을](configure-your-spam-filter-policies.md)참조 하세요.
+      > 기본적으로 스팸 격리 메시지는 30 일 동안 격리 되며, 메일 흐름 규칙과 일치 하는 격리 된 메시지는 기본 콘텐츠 필터 정책에 설정 된 보존 기간을 기준으로 최대 30 일 동안 격리에 보관 됩니다. 이 기간 후에 Office 365에서 메시지를 삭제 하며 이러한 시간을 검색할 수 없습니다. 메일 흐름 규칙과 일치 하는 격리 된 메시지의 보존 기간은 구성할 수 없습니다. 그렇지만 스팸 격리 메시지의 보존 기간은 콘텐츠 필터 정책의 **스팸 보존 기간(일)** 설정을 통해 줄일 수 있습니다. 자세한 내용은 [스팸 필터 정책 구성을](configure-your-spam-filter-policies.md)참조 하세요.
 
    7. **입력** **스팸으로**확인 된 격리 된 메시지를 검색할지 아니면 메일 흐름 규칙 (**전송 규칙**)과 일치 하는 메시지를 검색할지를 지정할 수 있습니다.
 

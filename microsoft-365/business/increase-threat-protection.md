@@ -10,17 +10,20 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - M365-identity-device-management
-ms.custom: OKR_SMB_M365
+ms.custom:
+- MiniMaven
+- MSB365
+- OKR_SMB_M365
 search.appverid:
 - BCS160
 - MET150
 description: Office 365 Advanced Threat Protection을 설정 하 고 중요 한 데이터를 보호 합니다.
-ms.openlocfilehash: 81197a8baf1c4d0cbfd898c41a305c1a99bab57c
-ms.sourcegitcommit: 6003d6da0a85c97357eb3dba3918eb145f381fe1
+ms.openlocfilehash: 0b0c1ac1d23bc7b167a58ecf93019a77c51c4366
+ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37288118"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37576021"
 ---
 # <a name="increase-threat-protection"></a>위협 방지 강화
 
@@ -146,8 +149,6 @@ ATP 피싱 방지 정책을 만들려면 [이 간략 한 교육 비디오](https
 |사서함 인텔리전스  <br/> |기본적으로 새 피싱 방지 정책을 만들 때 사서함 인텔리전스가 선택 됩니다. 최상의 결과를 **위해이 설정을 유지 합니다.**  <br/> |
 |신뢰할 수 있는 보낸 사람 및 도메인 추가  <br/> |여기에서 자체 도메인 또는 다른 트러스트 된 도메인을 추가할 수 있습니다.  <br/> |
 |적용 대상  <br/> |**받는 사람 도메인을**선택 합니다. **다음 중 하나**에서 **선택을**선택 합니다. **+ 추가**를 선택 합니다. 도메인 이름 (예: contoso) 옆에 있는 확인란을 선택 합니다 *.<span> com <span>* 의 목록에서 **추가**를 선택 합니다. **완료**를 선택 합니다.  <br/> |
-   
-자세한 내용은 [Set Up Office 365 ATP 피싱 방지 정책](https://go.microsoft.com/fwlink/?linkid=2016505&amp;clcid=0x409)를 참조 하세요.
   
 ## <a name="protect-against-malicious-attachments-and-files-with-atp-safe-attachments"></a>ATP 안전한 첨부 파일을 사용 하 여 악의 있는 첨부 파일과 파일을 보호 합니다.
 

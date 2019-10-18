@@ -10,18 +10,22 @@ localization_priority: Normal
 ms.collection:
 - M365-subscription-management
 - M365-identity-device-management
-ms.custom: OKR_SMB_M365
+ms.custom:
+- Core_O365Admin_Migration
+- MiniMaven
+- MSB365
+- OKR_SMB_M365
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 6b70fa27-d171-4593-8ecf-f78bb4ed2e99
 description: 전역 관리자 자격 증명을 사용 하 여 Microsoft 365 business에 로그인 하 여 장치 정책 및 작업을 확인 합니다.
-ms.openlocfilehash: 26cb0d4ebe819b6131aaa4d2e18ef3b2ad588a7c
-ms.sourcegitcommit: 6003d6da0a85c97357eb3dba3918eb145f381fe1
+ms.openlocfilehash: c961630f0698ed864bfb94b4672f92825089ea4c
+ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37287578"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37575451"
 ---
 # <a name="view-and-manage-policies-and-devices"></a>정책 및 장치 보기 및 관리
 
@@ -29,7 +33,7 @@ ms.locfileid: "37287578"
 
 ## <a name="view-and-edit-device-policies"></a>장치 정책 보기 및 편집
 
-1.  관리 센터 ()로 이동 <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>합니다.
+1.  <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> 의 관리 센터로 이동합니다.
 2. 왼쪽 탐색 창에서 **장치** \> **정책을**선택 합니다.
 
     이 페이지에서 대상 그룹을 만들고, 편집하고 변경하거나 정책을 삭제할 수 있습니다.

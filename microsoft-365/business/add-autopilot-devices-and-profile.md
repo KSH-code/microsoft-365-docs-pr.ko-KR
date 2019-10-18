@@ -10,19 +10,23 @@ ms.collection:
 - M365-subscription-management
 - M365-identity-device-management
 localization_priority: Normal
-ms.custom: OKR_SMB_M365
+ms.custom:
+- Core_O365Admin_Migration
+- MiniMaven
+- MSB365
+- OKR_SMB_M365
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: be5b6d90-3344-4c5e-bf40-5733eb845beb
 description: Windows AutoPilot를 사용 하 여 비즈니스를 위한 새 Windows 10 장치를 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: 563c3bbbc9f69996778417b35cfaa64d089770ef
-ms.sourcegitcommit: 6003d6da0a85c97357eb3dba3918eb145f381fe1
+ms.openlocfilehash: d028ea3e902965d55c445dc3b3a02aa315201b25
+ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37287598"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "37574791"
 ---
 # <a name="use-the-step-by-step-guide-to-add-autopilot-devices-and-profile"></a>단계별 가이드를 사용하여 AutoPilot 장치 및 프로필 추가
 
@@ -42,7 +46,7 @@ Windows AutoPilot를 사용 하 여 비즈니스에 대 한 **새** windows 10 �
 
 장치 그룹 또는 프로필을 아직 만들지 않은 경우 시작하는 가장 좋은 방법은 단계별 가이드를 사용하는 것이지만, 가이드를 사용하지 않고 [장치를 추가](create-and-edit-autopilot-devices.md)하고 [프로필을 할당](create-and-edit-autopilot-profiles.md)할 수도 있습니다. 
   
-1. 관리 센터 ()로 이동 <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>합니다.
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> 의 관리 센터로 이동합니다.
 
 2. 왼쪽 탐색 창에서 AutoPilot **장치** \> **** 를 선택 합니다.
 
