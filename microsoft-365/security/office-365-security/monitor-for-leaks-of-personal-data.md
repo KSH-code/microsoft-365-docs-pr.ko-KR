@@ -87,9 +87,9 @@ Microsoft Management Activity API를 통해 통합 감사 로그에 구독된 �
 
 -   [Office 365 감사 로그 검색 켜기 또는 끄기](https://support.office.com/ko-KR/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014)
 
--   [감사 로그 검색](https://support.office.com/ko-KR/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c?ui=en-US&rs=en-US&ad=US)
+-   [감사 로그 검색](https://support.office.com/en-us/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c?ui=en-US&rs=en-US&ad=US)
 
--   [Search-UnifiedAuditLog](https://technet.microsoft.com/ko-KR//library/mt238501(v=exchg.160).aspx)(cmdlet) 
+-   [Search-UnifiedAuditLog](https://technet.microsoft.com/en-us/library/mt238501(v=exchg.160).aspx)(cmdlet) 
 
 -   [Office 365 감사 로그의 자세한 속성](https://support.office.com/ko-KR/article/Detailed-properties-in-the-Office-365-audit-log-ce004100-9e7f-443e-942b-9b04098fcfc3)
 

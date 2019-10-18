@@ -24,7 +24,7 @@ ms.locfileid: "36982089"
 # <a name="desktop-deployment-center"></a>데스크톱 배포 센터
 
 <strong>Windows 7에서 Windows 10으로 업그레이드</strong>
-<p>Windows 7 연장 지원은 2020년 1월 14일에 종료됩니다. Windows 7에서 Windows 10으로의 전체 업그레이드가 가장 빠른 배포 방법입니다. System Center Configuration Manager를 사용하여 <a href="https://docs.microsoft.com/ko-KR/microsoft-365/enterprise/windows-7-to-windows-10-upgrade-manual">단일 PC를 업그레이드</a>하거나 <a href="https://docs.microsoft.com/ko-KR/microsoft-365/enterprise/windows-7-to-windows-10-upgrade-automated">수천 대의 PC를 업그레이드</a>할 수 있습니다. 전체 업그레이드를 사용하여 앱 제공, 파일 마이그레이션, 사용자 지정 이미징 또는 클라우드 기반 서비스 사용에 집중할 필요가 없습니다. 이미 가지고 있는 도구를 사용하여 기존 PC를 업그레이드하고 업그레이드를 위한 다음 배포 단계에 집중할 수 있습니다: </p>
+<p>Windows 7 연장 지원은 2020년 1월 14일에 종료됩니다. Windows 7에서 Windows 10으로의 전체 업그레이드가 가장 빠른 배포 방법입니다. System Center Configuration Manager를 사용하여 <a href="https://docs.microsoft.com/en-us/microsoft-365/enterprise/windows-7-to-windows-10-upgrade-manual">단일 PC를 업그레이드</a>하거나 <a href="https://docs.microsoft.com/en-us/microsoft-365/enterprise/windows-7-to-windows-10-upgrade-automated">수천 대의 PC를 업그레이드</a>할 수 있습니다. 전체 업그레이드를 사용하여 앱 제공, 파일 마이그레이션, 사용자 지정 이미징 또는 클라우드 기반 서비스 사용에 집중할 필요가 없습니다. 이미 가지고 있는 도구를 사용하여 기존 PC를 업그레이드하고 업그레이드를 위한 다음 배포 단계에 집중할 수 있습니다: </p>
 
 <p>
 </p>
