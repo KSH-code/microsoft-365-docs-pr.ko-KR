@@ -1,25 +1,22 @@
 ---
-title: Microsoft Managed Desktop 작업
+title: Microsoft Managed Desktop 사용
 description: ''
 keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 설명서
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
-ms.date: 06/06/2018
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 1ec402077eb20cfa39192e099de2d35e4e79399e
-ms.sourcegitcommit: 427c6459614d58f6ef7c74354ae1816423e22323
+ms.openlocfilehash: 2ee1b38497819f547b0dcf91ecd88249d0d2d704
+ms.sourcegitcommit: 0d423b50d2f1f4eccd64e35e00f67313244efba9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "35390375"
+ms.lasthandoff: 10/18/2019
+ms.locfileid: "37595414"
 ---
-# <a name="working-with-microsoft-managed-desktop"></a><span data-ttu-id="ac927-103">Microsoft Managed Desktop 작업</span><span class="sxs-lookup"><span data-stu-id="ac927-103">Working with Microsoft Managed Desktop</span></span>
+# <a name="working-with-microsoft-managed-desktop"></a><span data-ttu-id="67a65-103">Microsoft Managed Desktop 사용</span><span class="sxs-lookup"><span data-stu-id="67a65-103">Working with Microsoft Managed Desktop</span></span>
 
-<span data-ttu-id="ac927-104">Microsoft 계정 팀에서 Microsoft Managed Desktop을 등록 한 후에는 [관리 포털](https://aka.ms/mmdportal) 을 사용 하 여 환경을 관리할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ac927-104">After working with your Microsoft Account team to onboard to Microsoft Managed Desktop, you can use the [Admin portal](https://aka.ms/mmdportal) to manage your environment.</span></span> 
+<span data-ttu-id="67a65-104">이 섹션에는 IT 관리자가 필요한 경우 지원 되는 방법, 최종 사용자가 지 원하는 방식, 앱이 배포 된 후 관리 하는 방법, 장치에서 사용자 지정 가능한 설정으로 작업 하는 방법 등 서비스의 일상 수명에 대 한 정보가 포함 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="67a65-104">This section includes information about your day-to-day life with the service, such as how your IT admins can get support if needed, how your end users get support, managing your apps once deployed, and how to work the customizable settings on devices.</span></span>
 
-## <a name="in-this-section"></a><span data-ttu-id="ac927-105">이 섹션의 내용</span><span class="sxs-lookup"><span data-stu-id="ac927-105">In this section</span></span>
-
-- [<span data-ttu-id="ac927-106">Microsoft Managed Desktop에 대 한 최종 사용자 지원</span><span class="sxs-lookup"><span data-stu-id="ac927-106">End user support for Microsoft Managed Desktop</span></span>](end-user-support.md)
-- [<span data-ttu-id="ac927-107">Microsoft Managed Desktop에 대 한 관리자 지원</span><span class="sxs-lookup"><span data-stu-id="ac927-107">Admin support for Microsoft Managed Desktop</span></span>](admin-support.md)
-- [<span data-ttu-id="ac927-108">Microsoft Managed Desktop에서 앱 관리</span><span class="sxs-lookup"><span data-stu-id="ac927-108">Manage apps in Microsoft Managed Desktop</span></span>](manage-apps.md)
+- [<span data-ttu-id="67a65-105">Microsoft Managed Desktop에 대 한 관리자 지원</span><span class="sxs-lookup"><span data-stu-id="67a65-105">Admin support for Microsoft Managed Desktop</span></span>](admin-support.md)
+- [<span data-ttu-id="67a65-106">최종 사용자를 위한 도움말 보기</span><span class="sxs-lookup"><span data-stu-id="67a65-106">Getting help for end users</span></span>](end-user-support.md)
+- [<span data-ttu-id="67a65-107">구성 가능 설정-Microsoft Managed Desktop</span><span class="sxs-lookup"><span data-stu-id="67a65-107">Configurable settings - Microsoft Managed Desktop</span></span>](config-setting-overview.md)
