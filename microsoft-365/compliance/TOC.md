@@ -17,7 +17,7 @@
 ## 고객 키
 ### [고객 키를 사용하여 Office 365에서 데이터 제어](controlling-your-data-using-customer-key.md)
 ### [Office 365의 고객 키를 사용한 서비스 암호화 관련 자주하는 질문](service-encryption-with-customer-key-faq.md)
-## [감독]()
+## [커뮤니케이션 관리]()
 ### [감독 정책에 대해 알아보기](supervision-policies.md)
 ### [조직의 감독 정책 구성](configure-supervision-policies.md)
 ## [정보 장벽](information-barriers.md)
@@ -124,6 +124,7 @@
 ### [Microsoft 데이터 관리 팀의 비디오 보기](https://go.microsoft.com/fwlink/?linkid=867039)
 ## 레코드 관리
 ### [레코드 관리](records-management.md)
+### [레코드](records.md)
 ### 파일 플랜
 #### [파일 플랜 관리자](file-plan-manager.md)
 #### [보존 레이블](labels.md)
@@ -349,7 +350,7 @@
 ## [사서함 감사 관리](enable-mailbox-auditing.md)
 ## [감사 로그의 자세한 속성](detailed-properties-in-the-office-365-audit-log.md)
 ## [감사 로그 레코드 내보내기, 구성 및 보기](export-view-audit-log-records.md)
-## [일반적인 시나리오 문제를 해결하기 위해 감사 로그 사용](auditing-troubleshooting-scenarios.md)
+## [감사 로그를 사용하여 일반적인 문제 조사](auditing-troubleshooting-scenarios.md)
 ## [감사 로그에서 공유 감사 사용](use-sharing-auditing.md)
 ## [감사 로그에서 eDiscovery 활동 검색](search-for-ediscovery-activities-in-the-audit-log.md)
 
@@ -424,6 +425,165 @@
 # 하이브리드 준수 기능
 ## [AD RMS를 사용하여 Exchange Online 메일 암호화](information-rights-management-in-exchange-online.md)
 ### [온-프레미스 AD RMS 서버를 사용하도록 IRM 구성](configure-irm-to-use-an-on-premises-ad-rms-server.md)
+
+# 규정 준수 제품
+## [Microsoft 규정 준수 제품](offering-home.md)
+
+## 전역
+### [CIS Benchmark](offering-cis-benchmark.md)
+### [CSA-STAR attestation](offering-csa-star-attestation.md)
+### [CSA-STAR certification](offering-csa-star-certification.md)
+### [CSA-STAR self-Assessment](offering-csa-star-self-assessment.md)
+### [ISO 20000-1:2011](offering-iso-20000-1-2011.md)
+### [ISO 22301](offering-iso-22301.md)
+### [ISO 27001](offering-iso-27001.md)
+### [ISO 27017](offering-iso-27017.md)
+### [ISO 27018](offering-iso-27018.md)
+### [ISO 27701](offering-iso-27701.md)
+### [ISO-9001](offering-iso-9001.md)
+### [SOC](offering-soc.md)
+### [WCAG 2.1](offering-wcag-2-1.md)
+
+## 정부
+### [CJIS](offering-cjis.md)
+### [CNSSI 1253](offering-cnssi-1253.md)
+### [DFARS](offering-dfars.md)
+### [DoD DISA L2,L4,L5](offering-dod-disa-l2-l4-l5.md)
+### [DoE 10 CFR Part 810](offering-doe-10-cfr-part-810.md)
+### [EAR (미국 수출 관리 규제)](offering-ear.md)
+### [FedRAMP](offering-fedramp.md)
+### [FIPS 140-2](offering-fips-140-2.md)
+### [IRS 1075](offering-irs-1075.md)
+### [ITAR](offering-itar.md)
+### [NIST 800-171](offering-nist-sp-800-171.md)
+### [NIST CSF](offering-nist-csf.md)
+### [섹션 508 VPATS](offering-section-508-vpats.md)
+
+## 산업
+### 교육
+#### [FERPA](offering-ferpa.md)
+
+### 에너지
+#### [NERC](offering-nerc-cip.md)
+
+### 금융
+#### [23 NYCRR Part 500](offering-23-nycrr-part-500.md)
+#### [AFM + DNB (네덜란드)](offering-afm-dnb-netherlands.md)
+#### [APRA (오스트레일리아)](offering-apra-australia.md)
+#### [AMF 및 ACPR (프랑스)](offering-amf-acpr-france.md)
+#### [EBA (유럽 연합)](offering-eba-eu.md)
+#### [FCA (영국)](offering-fca-uk.md)
+#### [FFIEC (미국)](offering-ffiec-us.md)
+#### [FINMA (스위스)](offering-finma-switzerland.md)
+#### [FINRA 4511](offering-finra-4511.md)
+#### [FISC (일본)](offering-fisc-japan.md)
+#### [FSA (덴마크)](offering-fsa-denmark.md)
+#### [GLBA](offering-glba.md)
+#### [KNF (폴란드)](offering-knf-poland.md)
+#### [MAS + ABS (싱가포르)](offering-mas-abs-singapore.md)
+#### [NBB + FSMA (벨기에)](offering-nbb-fsma-belgium.md)
+#### [OSFI (캐나다)](offering-osfi-canada.md)
+#### [PCI DSS](offering-pci-dss.md)
+#### [RBI + IRDAI (인도)](offering-rbi-irdai-india.md)
+#### [SEC 17a-4](offering-sec-17a-4.md)
+#### [SOC](offering-soc.md)
+#### [SOX](offering-sox.md)
+#### [TruSight](offering-trusight.md)
+
+### 상태
+#### [HDS (프랑스)](offering-hds-france.md)
+#### [HIPAA/HITECH](offering-hipaa-hitech.md)
+#### [HITRUST](offering-hitrust.md)
+#### [MARS-E](offering-mars-e.md)
+#### [NEN-7510 (네덜란드)](offering-nen-7510-netherlands.md)
+#### [NHS IG 툴킷 (영국)](offering-nhs-ig-toolkit-uk.md)
+
+### 제조
+#### [FDA CFR Title 21 Part 11](offering-fda-cfr-title-21-part-11.md)
+#### [GxP](offering-gxp.md)
+#### [TISAX (독일)](offering-tisax-germany.md)
+
+### 미디어
+#### [CDSA](offering-cdsa.md)
+#### [DPP (영국)](offering-dpp-uk.md)
+#### [FACT (영국)](offering-fact-uk.md)
+#### [MPAA](offering-mpaa.md)
+
+### 소매
+#### [23 NYCRR Part 500](offering-23-nycrr-part-500.md)
+#### [AFM + DNB (네덜란드)](offering-afm-dnb-netherlands.md)
+#### [AMF 및 ACPR (프랑스)](offering-amf-acpr-france.md)
+#### [CDSA](offering-cdsa.md)
+#### [CIS Benchmark](offering-cis-benchmark.md)
+#### [CSA-STAR attestation](offering-csa-star-attestation.md)
+#### [DoE 10 CFR Part 810](offering-doe-10-cfr-part-810.md)
+#### [DPP (영국)](offering-dpp-uk.md)
+#### [EAR (미국 수출 관리 규제)](offering-ear.md)
+#### [ENISA IAF (유럽 연합)](https://aka.ms/ENISA)
+#### [EU 모델 조항](offering-eu-model-clauses.md)
+#### [EBA (유럽 연합)](offering-eba-eu.md)
+#### [유럽 연합 미국 프라이버시 쉴드](offering-eu-us-privacy-shield.md)
+#### [FACT (영국)](offering-fact-uk.md)
+#### [FCA (영국)](offering-fca-uk.md)
+#### [FFIEC (미국)](offering-ffiec-us.md)
+#### [FINMA (스위스)](offering-finma-switzerland.md)
+#### [GDPR (유럽 연합)](offering-gdpr-eu.md)
+#### [GLBA](offering-glba.md)
+#### [HITRUST](offering-hitrust.md)
+#### [IRS 1075](offering-irs-1075.md)
+#### [ISO 27018](offering-iso-27018.md)
+#### [ISO-9001](offering-iso-9001.md)
+#### [ITAR](offering-itar.md)
+#### [KNF (폴란드)](offering-knf-poland.md)
+#### [MARS-E](offering-mars-e.md)
+#### [MPAA](offering-mpaa.md)
+#### [NBB + FSMA (벨기에)](offering-nbb-fsma-belgium.md)
+#### [NHS IG 툴킷 (영국)](offering-nhs-ig-toolkit-uk.md)
+#### [NIST CSF](offering-nist-csf.md)
+#### [PCI DSS](offering-pci-dss.md)
+#### [섹션 508 VPATS](offering-section-508-vpats.md)
+#### [공유된 평가](offering-shared-assessments.md)
+#### [SOC](offering-soc.md)
+#### [LOPD (스페인)](offering-lopd-spain.md)
+#### [Cyber Essentials Plus (영국)](offering-cyber-essentials-plus-uk.md)
+#### [G-Cloud (영국)](offering-g-cloud-uk.md)
+
+## 국가별
+### 아시아
+#### [CS Mark (Gold) (일본))](offering-cs-mark-gold-japan.md)
+#### [DJCP (중국)](https://www.trustcenter.cn/compliance/default.html#DJCP)
+#### [GB 18030 (중국)](https://www.trustcenter.cn/compliance/default.html#GB18030)
+#### [ISMS (대한민국)](offering-ISMS-korea.md)
+#### [MeitY (인도)](offering-meity-india.md)
+#### [MTCS (싱가포르)](offering-mtcs-singapore.md)
+#### [My Number (일본)](offering-my-number-act-japan.md)
+#### [TRUCS (중국)](https://aka.ms/TRUCS-Compliance)
+
+### 오스트레일리아/태평양
+#### [CCSL/IRAP (오스트레일리아)](offering-CCSL-IRAP-Australia.md)
+#### [NZ CC 프레임 워크 (뉴질랜드)](offering-nz-cc-framework-nz.md)
+
+### 유럽
+#### [BIR 2012 (네덜란드)](offering-bir-2012-netherlands.md)
+#### [C5 (독일)](offering-c5-germany.md)
+#### [Cyber Essentials Plus (영국)](offering-cyber-essentials-plus-uk.md)
+#### [EN 301 549 (유럽 연합)](offering-en-301-549-eu.md)
+#### [ENS (스페인)](offering-ens-spain.md)
+#### [ENISA IAF (유럽 연합)](https://aka.ms/ENISA)
+#### [EU 모델 조항](offering-eu-model-clauses.md)
+#### [유럽 연합 미국 프라이버시 쉴드](offering-eu-us-privacy-shield.md)
+#### [GDPR (유럽 연합)](offering-gdpr-eu.md)
+#### [G-Cloud (영국)](offering-g-cloud-uk.md)
+#### [IDW PS 951 (독일)]()
+#### [IT Grundschutz 통합 문서 (독일)](offering-it-grundschutz-workbook-germany.md)
+#### [LOPD (스페인)](offering-lopd-spain.md)
+#### [PASF (영국)](offering-pasf-uk.md)
+
+### 북미
+#### [캐나다 개인정보 보호법](offering-canadian-privacy-laws.md)
+
+### 남미
+#### [PDPA (아르헨티나)](offering-pdpa-argentina.md)
 
 # [Office 365 Enterprise](https://docs.microsoft.com/Office365/Enterprise)
 # [Office 365 Business](https://docs.microsoft.com/office365/admin/admin-home)
