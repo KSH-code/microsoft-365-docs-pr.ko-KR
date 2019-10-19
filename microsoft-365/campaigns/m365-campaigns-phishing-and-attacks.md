@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Microsoft 365 for 캠페인을 통해 피싱 및 기타 공격 으로부터 보호 합니다.
-ms.openlocfilehash: 4902a2273eef110ced9ae16c3b91f39ac990a736
-ms.sourcegitcommit: 75b97d1ff617bc4b1b0ef9135dfe6a8842ea1b52
+ms.openlocfilehash: 66708fe214815640baf08adace292dee683e382b
+ms.sourcegitcommit: cccf6ceade81d27e9d0b65c17d26b5fc7493eecd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35772485"
+ms.lasthandoff: 10/18/2019
+ms.locfileid: "37593863"
 ---
 # <a name="protect-yourself-against-phishing-and-other-attacks"></a>피싱 및 기타 공격 으로부터 자신을 보호 합니다.
 
@@ -66,7 +66,7 @@ Microsoft 365에는 공격 으로부터 보호할 수 있는 다양 한 보호 �
 
 이 정보 그래픽은 사용자 및 캠페인 팀의 구성원에 대 한 팁으로 다운로드 합니다.
 
-[! 캠페인 정보 그래픽 보호 도움말](media/M365-Campaigns-WhatCanUsersDoToSecure-358x201.png)] (다운로드/M365CampaignsWhatCanUsersDoToSecure)
+[![캠페인 정보 그래픽 보호 도움말](media/M365-Campaigns-WhatCanUsersDoToSecure-358x201.png)](downloads/M365CampaignsWhatCanUsersDoToSecure.pdf)
 
 [PDF](downloads/M365CampaignsWhatCanUsersDoToSecure.pdf) | [PowerPoint](https://github.com/MicrosoftDocs/microsoft-365-docs-pr/raw/live/m365-democracy/microsoft-365/campaigns/downloads/M365CampaignsWhatCanUsersDoToSecure.pptx)
 

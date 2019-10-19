@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 40f26f83e8b3001d2010d3197020f067fc51aaae
-ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
+ms.openlocfilehash: 37c44a43662b6befd92c9710c65814399db4d54f
+ms.sourcegitcommit: 0d423b50d2f1f4eccd64e35e00f67313244efba9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/14/2019
-ms.locfileid: "36982479"
+ms.lasthandoff: 10/18/2019
+ms.locfileid: "37159686"
 ---
 # <a name="admin-support-for-microsoft-managed-desktop"></a>Microsoft Managed Desktop에 대 한 관리자 지원
 
@@ -50,7 +50,14 @@ Microsoft Managed Desktop 관리 포털을 사용 하 여 Microsoft에 지원 �
 - **업무 시간** -대부분의 국가에서 업무 시간은 태평양 표준시로 오전 9:00 시부터 5:00 오후까지입니다.
 - **응용 프로그램 호환성** -응용 프로그램 호환성 문제를 고려해 야 하는 경우 이전 버전과 현재 버전의 Windows 또는 Office 사이에 동일한 버전의 응용 프로그램에 대 한 reproduceable 오류가 발생 해야 합니다. 응용 프로그램 호환성 문제를 해결 하기 위해 Microsoft에서는 사용자의 연락처를 사용 해야 합니다. 이 문제를 조사 하 고 해결 하려면 개인이 빠른 추적 팀과 직접 작업을 해야 합니다.
 - **고객 응답 시간** 고객이 예상 되는 응답 요구 사항을 충족할 수 없는 경우 Microsoft는 심각도 수준 1 개 이상으로 요청을 다운 그레이드 합니다. 고객이 작업 요청에 응답 하지 않으면 Microsoft는 마지막 요청의 48 시간 이내에 지원 요청을 완화 하 고 닫습니다.
- 
+
+
+## <a name="providing-administrator-rights-to-specific-users"></a>특정 사용자에 게 관리자 권한 제공
+
+지원 담당자와 작업 하는 동안 문제 해결을 지원 하려면 장치에 대 한 로컬 관리자 권한을 사용자에 게 제공 해야 할 수 있습니다. 이렇게 하려면 사용자의 계정에 대해 이미 Microsoft Intune에 전역 관리자 또는 장치 관리자 권한이 있어야 합니다. 상황에 따라 다음 단계 중 하나를 수행 합니다.
+
+- 사용자가 온-프레미스 Active Directory 계정에서 동기화 된 경우 관리자 권한 명령 프롬프트에서 **net localgroup administrators/add "Contoso\username"** 를 실행 합니다.
+- 사용자가 Azure Active Directory에서 만들어진 경우 관리자 권한 명령 프롬프트에서 **net localgroup administrators/add "AzureAD\UserUpn"** 를 실행 합니다.
 
 ## <a name="additional-resources"></a>추가 리소스
 - [Microsoft Managed Desktop에 대 한 최종 사용자 지원을 제공](end-user-support.md)합니다. 

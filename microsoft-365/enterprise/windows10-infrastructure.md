@@ -10,16 +10,16 @@ ms.prod: microsoft-365-enterprise
 ms.topic: article
 ms.date: 08/28/2019
 ms.author: greglin
-ms.openlocfilehash: 0b98e48b128eeaea0e0dd5cb9613ece95e991861
-ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
+ms.openlocfilehash: 7253ea698613a38988bd7a6942a4908e9c797e2a
+ms.sourcegitcommit: 0d423b50d2f1f4eccd64e35e00f67313244efba9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/14/2019
-ms.locfileid: "36982749"
+ms.lasthandoff: 10/18/2019
+ms.locfileid: "37372769"
 ---
 # <a name="phase-3-windows-10-enterprise"></a>3단계: Windows 10 Enterprise
 
-![](./media/deploy-foundation-infrastructure/win10enterprise_icon.png)
+![3단계: Windows 10 Enterprise](./media/deploy-foundation-infrastructure/win10enterprise_icon.png)
 
 Microsoft 365 Enterprise에는 더 많은 작업을 수행 하 고 보안을 유지 하는 도구를 제공 하는 Windows 10 Enterprise가 포함 되어 있습니다. Windows 10 Enterprise:
 
@@ -42,7 +42,7 @@ Windows 10 운영 체제를 배포 하 고 조직에 적합 한 시스템을 선
 | [현재 위치 업그레이드로 System Center Configuration Manager 사용](windows10-deploy-inplaceupgrade.md) | Windows 7 또는 Windows 8.1 컴퓨터를 <a href="https://aka.ms/windows-10-release-information" target="_blank">현재 버전</a> 의 Windows 10 Enterprise로 업그레이드 해야 하 고 컴퓨터가 현재 <a href="https://aka.ms/introtosccm" target="_blank">System Center Configuration Manager (현재 분기)</a>를 사용 하 여 관리 되는 경우이 옵션을 선택 합니다. |
 | [Windows Autopilot 사용](windows10-deploy-autopilot.md) | Windows 10 Enterprise, 버전 1703 이상 사전 설치 된 새 Windows 컴퓨터를 설정 하는 경우이 옵션을 선택 합니다. 최종 사용자는 회사 또는 학교 계정 자격 증명을 입력 하 여 원하는 구성을 사용 하 여 설치 프로그램을 시작 합니다. |
 
-이러한 배포 시나리오가 조직의 요구 사항에 적합 하지 않은 경우에는 다른 시나리오에 대해 알아보고 [Windows 10 배포 시나리오](https://docs.microsoft.com/windows/deployment/windows-10-deployment-scenarios)에서 각각의 기능과 제한 사항을 이해할 수 있습니다. 또한 직접 <a href="https://aka.ms/planforwin10deployment" target="_blank">Windows 10 배포를 계획할</a> 수 있습니다.
+이러한 배포 시나리오가 조직의 요구 사항에 적합 하지 않은 경우에는 다른 시나리오에 대해 알아보고 [Windows 10 배포 시나리오](https://docs.microsoft.com/windows/deployment/windows-10-deployment-scenarios)에서 각각의 기능과 제한 사항을 이해할 수 있습니다. 직접 <a href="https://aka.ms/planforwin10deployment" target="_blank">Windows 10 배포를 계획</a>할 수도 있습니다.
 
 다음 문서를 사용 하 여 Windows 10에 대 한 자세한 내용을 확인할 수 있습니다.
 
@@ -78,10 +78,10 @@ Microsoft 내부를 살펴보고 회사에서 [Windows 10 Enterprise를 배포 �
 
 Contoso Corporation (가상의 대표적인 다국적 기업 비즈니스)과 [Windows 10 Enterprise를 배포](contoso-win10.md)하는 방법을 참조 하세요.
 
-![](./media/contoso-overview/contoso-icon.png)
+![Contoso Corporation](./media/contoso-overview/contoso-icon.png)
 
 ## <a name="next-step"></a>다음 단계
 
 |||
 |:-------|:-----|
-|![](./media/stepnumbers/Step1.png)| [Windows 10 Enterprise에 대 한 조직 준비](windows10-prepare-your-org.md) |
+|![1단계](./media/stepnumbers/Step1.png)| [Windows 10 Enterprise에 대 한 조직 준비](windows10-prepare-your-org.md) |
