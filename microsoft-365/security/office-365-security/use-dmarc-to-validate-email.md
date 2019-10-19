@@ -13,12 +13,12 @@ ms.assetid: 4a05898c-b8e4-4eab-bd70-ee912e349737
 ms.collection:
 - M365-security-compliance
 description: 사용자의 Office 365 조직에서 보낸 메시지의 유효성을 검사하기 위해 도메인 기반 메시지 인증, 보고 및 적합성 (DMARC)을 구성하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 24196139d46df8de7813e827e57d04c4bf9146b0
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 677b46f970edab98e950c9db49f264afc8d5dd73
+ms.sourcegitcommit: aa878adee65a1cdf87d4cabda41ab35673957f40
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088988"
+ms.lasthandoff: 10/18/2019
+ms.locfileid: "37590492"
 ---
 # <a name="use-dmarc-to-validate-email-in-office-365"></a>DMARC를 사용하여 Office 365에서 전자 메일 유효성 검사
 
@@ -209,6 +209,13 @@ DMARC 거부 정책 (p=reject)을 게시하면 서비스를 통해 아웃바운�
 - 사용자가 전자 메일 클라이언트를 사용하여 개별적으로 안전한 발신자를 추가
     
 - 관리자는 특정 발신자의 메시지를 허용하는 모든 사용자에 대해 Exchange 메일 흐름 규칙 (전송 규칙이라고도 함)을 만듭니다. 
+
+## <a name="how-office-365-utilizes-authenticated-received-chain-arc"></a>Office 365가 ARC(Authenticated Received Chain)를 활용하는 방법
+<a name="ARC"> </a>
+
+이제 Office 365에서 호스팅되는 모든 사서함은 메시지 배달 기능이 향상되고 스푸핑 방지 기능이 향상되는 ARC의 이점을 얻게 됩니다. ARC는 원래 서버에서 받는 사람 사서함으로 전자 메일이 라우팅될 때 모든 참여 중개자, 홉의 전자 메일 인증 결과를 보존합니다. ARC 이전에는 전달 규칙이나 자동 서명을 비롯한 전자 메일 라우팅의 중개자가 수행한 수정으로 전자 메일이 받는 사람의 사서함에 도달했을 때 DMARC 오류가 발생할 수 있었습니다. ARC를 사용하여 인증 결과에 대한 암호화를 보존하면 Office 365에서 전자 메일을 보낸 사람의 신뢰성을 확인할 수 있습니다. 
+
+Office 365는 현재 ARC를 사용하여 Microsoft가 ARC Sealer 경우 인증 결과를 확인하지만 향후 타사 ARC Sealer에 대한 지원을 추가할 계획입니다. 
     
 ## <a name="troubleshooting-your-dmarc-implementation"></a>DMARC 구현 문제 해결
 <a name="dmarctroubleshoot"> </a>
