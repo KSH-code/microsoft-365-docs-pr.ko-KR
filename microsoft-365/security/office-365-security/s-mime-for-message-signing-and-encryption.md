@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 ms.assetid: 887c710b-0ec6-4ff0-8065-5f05f74afef3
 description: 관리자는 Exchange Online에서 S/MIME을 사용 하는 방법에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: ddb244e9e0cb189dbeb78af49e34ed90f64e77cc
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 9b7ad73f1a7dd55abdc5a88a2f86344f5a2f0f5b
+ms.sourcegitcommit: 740278bb96fdfb329869a43f3bbe4ba5458c28e1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088424"
+ms.lasthandoff: 10/21/2019
+ms.locfileid: "37608589"
 ---
 # <a name="smime-for-message-signing-and-encryption-in-exchange-online"></a>Exchange Online의 메시지 서명 및 암호화를 위한 S/MIME
 
@@ -46,6 +46,9 @@ Exchange Online 관리자로 서 조직의 사서함에 대해 S/MIME 기반 보
 - S/MIME의 유효성을 검사하기 위해 가상 인증서 모음을 설정합니다. 이 정보는 전자 메일의 서명 유효성을 검사 하 고 신뢰할 수 있는 인증서로 서명 되었는지 확인할 때 웹에서 Outlook에서 사용 합니다.
 
 - S/MIME을 사용하도록 Outlook 또는 EAS 끝점을 설정합니다.
+
+> [!NOTE]
+> Mac, iOS, Android 또는 기타 비 Windows 장치에서는 Outlook에서 S/MIME 컨트롤을 설치할 수 없습니다. 자세한 내용은 [웹용 Outlook에서 S/MIME을 사용 하 여 메시지 암호화](https://support.office.com/article/878c79fc-7088-4b39-966f-14512658f480)를 참조 하세요.
 
 ## <a name="setup-smime-with-outlook-on-the-web"></a>웹에서 Outlook을 사용 하 여 S/MIME 설정
 

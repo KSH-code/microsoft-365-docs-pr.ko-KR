@@ -13,12 +13,12 @@ search.appverid:
 ms.collection: M365-security-compliance
 ms.custom: Ent_Architecture
 description: '요약: Contoso가 높은 규제 대상 데이터에 대 한 SharePoint 사이트를 구현 하 여 조사 팀 간의 공동 작업을 간편 하 게 수행 하는 방법'
-ms.openlocfilehash: bb3c178ee64d5925f82aef9887c06ceafe51f4ee
-ms.sourcegitcommit: e1ffb98ac8159d1dc814930fe388d3e37cbdc7e2
+ms.openlocfilehash: 08676f9fa89d9cbf932f9d70664ad1d17a153e3b
+ms.sourcegitcommit: 80dc9ceb14e3eb3ae61b0fc2c8c3d73d564a7ef9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/05/2019
-ms.locfileid: "37403231"
+ms.lasthandoff: 10/21/2019
+ms.locfileid: "37617256"
 ---
 # <a name="sharepoint-site-for-highly-confidential-digital-assets-of-the-contoso-corporation"></a>Contoso Corporation의 고도로 기밀 디지털 자산에 대 한 SharePoint 사이트
 
@@ -96,7 +96,7 @@ Contoso 보안 직원은 **리서치** Office 365 그룹의 구성원을 단계�
 
 최종 결과는 리서치 정보가 포함 된 파일에 대 한 보안 환경에서 Contoso를 통해 공동 작업을 수행할 수 있는 보안 환경입니다. 
 
-리서치 **팀** 이 포함 된 리서치 문서를 sublabel **하는 경우** 에는 암호화 되 고 유효한 사용자 계정 자격 증명을 사용 하 여 **리서치** Office 365 그룹의 구성원 에게만 액세스 가능 합니다.
+리서치 **팀** 이 포함 된 리서치 문서를 sublabel 하 게 되 면 유효한 사용자 계정 자격 증명을 사용 하 여 **리서치** Office 365 그룹의 구성원만 **이 사이트를** 암호화 하 고 액세스할 수 있습니다.
 
 ## <a name="next-step"></a>다음 단계
 
