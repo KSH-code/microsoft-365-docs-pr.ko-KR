@@ -37,4 +37,4 @@
 ## [장치를 공장 설정으로 초기화](../business/reset-devices-to-factory-settings.md?toc=/microsoft-365/campaigns/toc.json)
 
 # 보안 사고 관리
-## [위험에 노출된 이메일 계정에 대응](../compliance/responding-to-a-compromised-email-account?toc=/microsoft-365/campaigns/toc.json)
+## [위험에 노출된 이메일 계정에 대응](https://docs.microsoft.com/microsoft-365/compliance/responding-to-a-compromised-email-account)
