@@ -2,7 +2,7 @@
 title: Microsoft 365 Enterprise 워크로드 및 시나리오
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 09/30/2019
+ms.date: 10/21/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -12,12 +12,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 조직의 사용자에게 Microsoft 365 Enterprise의 생산성 워크로드를 제공합니다.
-ms.openlocfilehash: a68b3a436daf6f1474f55676c6a167ecd4bdd39c
-ms.sourcegitcommit: e1ffb98ac8159d1dc814930fe388d3e37cbdc7e2
+ms.openlocfilehash: 2fbc3b5063ab0ed675b9d1a3873877e5486a3d6c
+ms.sourcegitcommit: 740278bb96fdfb329869a43f3bbe4ba5458c28e1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/05/2019
-ms.locfileid: "37403247"
+ms.lasthandoff: 10/21/2019
+ms.locfileid: "37608599"
 ---
 # <a name="microsoft-365-enterprise-workloads-and-scenarios"></a>Microsoft 365 Enterprise 워크로드 및 시나리오
 
@@ -38,7 +38,12 @@ Microsoft 365 Enterprise의 독창성과 팀워크 이점을 얻으려면 기본
 - 지역 규제를 받는 데이터
 - 영업 비밀, 재무 또는 인사 관련 정보와 조직의 전략과 같이 조직에서 가장 중요한 데이터
 
-내부 및 외부 위협으로부터 이 데이터를 보호하려면 [규제가 엄격한 데이터를 위한 Microsoft Teams 및 SharePoint 사이트](teams-sharepoint-online-sites-highly-regulated-data.md)를 참조합니다. 이 시나리오에서는 가장 중요한 데이터를 안전하게 저장하기 위해 SharePoint 사이트 또는 Microsoft Teams 팀을 구성하는 방법을 단계별로 설명합니다.
+내부 및 외부 위협에서이 데이터를 보호하려면 다음을 참조하세요:
+
+- [높은 규제 대상 데이터를 위한 Teams](secure-teams-highly-regulated-data-scenario.md)
+- [높은 규제 대상 데이터를 위한 SharePoint 사이트](teams-sharepoint-online-sites-highly-regulated-data.md). 
+
+이들 시나리오에서는 가장 중요한 데이터를 안전하게 저장하기 위해 Microsoft Teams 팀을 구성하는 방법을 단계별로 설명합니다.
 
 전체 Microsoft 365 Enterprise 배포 가이드의 워크로드 및 시나리오는 다음과 같습니다.
 
