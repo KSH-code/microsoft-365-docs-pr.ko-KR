@@ -19,45 +19,64 @@ search.appverid:
 - BCS160
 - MET150
 description: Microsoft 365 Business에 대해 구입 하 고 등록 하는 방법을 알아봅니다.
-ms.openlocfilehash: bc9f8f7bc29d63feaa4eb63962eff12c963a63b2
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+ms.openlocfilehash: 6f8a3c328cd688d331482070eb4d2722529a54f6
+ms.sourcegitcommit: 7ee256132358a86f8c6ad143816fcfdde011ca74
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37575511"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "37628327"
 ---
 # <a name="sign-up-for-microsoft-365-business"></a>Microsoft 365 Business에 등록
 
-파트너 인 경우 microsoft [파트너 센터에서 microsoft 365 Business 가져오기](get-microsoft-365-business.md#get-microsoft-365-business-from-microsoft-partner-center)를 참조 하세요.
+Microsoft 365 Business에 포함 된 내용을 알아보려면 [간단한 비디오](https://support.office.com/article/901e2522-c2cf-4b8c-894e-f482cda3347a) 를 시청 하 고 [개요](microsoft-365-business-overview.md)를 확인 하세요. 
 
-Microsoft 365 Business online을 구매 하려면 microsoft [365 business 혜택 검색](https://www.microsoft.com/microsoft-365/business#pmg-cmp-desktop) 으로 이동 하 여 Microsoft 365 Business에서 **지금 구입** 을 선택 합니다.
+Microsoft 365 Business는 다음과 같은 세 가지 방법으로 얻을 수 있습니다.
+- **Microsoft 365 business를 구입 하 여 설치를 완료**합니다. Microsoft 365 business online을 구입 하려면 [아래 단계를 따르세요](#sign-up-steps).
+- **Microsoft 파트너의**경우: 파트너 인 경우 Microsoft [파트너 센터에서 Microsoft 365 Business 가져오기](get-microsoft-365-business.md#get-microsoft-365-business-from-microsoft-partner-center)를 참조 하세요.
+- **Microsoft store에서 도움을 받을**수 [있습니다.](https://www.microsoft.com/store/locations/find-a-store) Microsoft store는 계획에 대 한 질문을 하 고 비즈니스 요구에 적합 한 요금제를 구입 하 여 설치를 완료 하는 데 도움이 될 수 있습니다.
 
-Microsoft [Store](https://www.microsoft.com/en-us/store/locations/find-a-store?icid=en-us_UF_FAS) 로 이동 하 여 Microsoft 365 비즈니스를 구입 하 고 설정 된 도움말을 얻을 수도 있습니다.
-
-## <a name="complete-the-sign-up-steps"></a>등록 단계 완료
-
-Microsoft 365 Business를 구매한 후에는 다음 단계를 완료 하세요.
-
-1. 시작 화면에서 필요한 정보를 입력 **하 라고 알려주십시오** . 다음 사항에 유의 하십시오.
+**다른 사항이 필요 하십니까?** 다음을 수행할 수 있습니다.
+- [Office 365 요금제를 Microsoft 365 Business로 업그레이드](migrate-to-microsoft-365-business.md)
+- 1 개월 동안 Microsoft 365 Business [무료 평가판을 다운로드 하세요](https://go.microsoft.com/fwlink/p/?linkid=2102309) .
+- 보다 작은 기능의 요금제가 필요한 경우 [Office 365 Business Premium에 등록](https://go.microsoft.com/fwlink/p/?LinkID=510935) 합니다. [Products.office.com](https://products.office.com/compare-all-microsoft-office-products-4-column?&activetab=tab:primaryr1)에서 각 비즈니스 계획에 포함 된 내용을 알아봅니다.
+- 비즈니스를 구매 하지 않을 경우 [집 또는 가족 계획에 등록](https://products.office.com/compare-all-microsoft-office-products-4-column?&activetab=tab:primaryr1) 합니다. 
  
-    -  **국가 또는 지역:** 이는 수신 하는 서비스를 결정 하며 나중에 변경할 수 없습니다.
-    - **회사 전자 메일 주소:** 현재 전자 메일 주소를 입력 합니다. Microsoft는 Microsoft 365 구독과 관련 하 여이 주소를 사용 합니다.
-    - **회사 이름** 회사 이름은 관리 센터에 표시 됩니다. 여기에서 Microsoft 365 사용자, 라이선스 등을 관리할 수 있습니다. 여기에는 SharePoint 사이트 Url에도 포함 됩니다.
 
-2. **사용자 ID 만들기** 페이지에서 다음을 수행 합니다.
+## <a name="sign-up-steps"></a>등록 단계
 
-    - **사용자 이름**: 회사 전자 메일에 사용할 이름 (별칭 이라고 함)을 입력 합니다. 예를 들어 Robert 젊은은 RobY RobYoung을 work 별칭으로 사용할 수 있습니다.
-    - **회사**: 고유한 비즈니스 이름을 입력 합니다. 회사 웹 사이트에 사용 되는 이름으로, 회사 전자 메일을 받을 때 @ 기호 뒤에 포함할 이름 이기도 합니다. 이 이름을 도메인 이라고 합니다. 예를 들어 비즈니스가 Contoso 스키 이라고 하는 경우에는 @ 기호 다음에 ContosoSkis를 입력 합니다.
-    - **도메인 선택**: 도메인 이름을 이미 소유한 경우에는 드롭다운 메뉴에서 onmicrosoft.com을 선택 하 고 나중에 설정 하 라는 메시지가 표시 됩니다. 그렇지 않으면 비즈니스를 나타내는 도메인 이름을 쉽게 구매할 수 있습니다. 이렇게 하려면 드롭다운 메뉴에서 원하는 도메인을 선택 합니다. 예를 들어 전체 전자 메일 주소가 *Teresa@ContosoSkis.net*될 수 있습니다. 도메인 이름을 사용할 수 있으면 바로 알 수 있습니다. 이 경우 Microsoft 365 비즈니스 구독의 비용에 도메인 비용을 추가 합니다. 여기에서 구입 하는 경우 새 도메인도 설정 되 고 Microsoft 365에서 사용할 준비가 된 것입니다. 도메인에 대 한 자세한 내용은 [도메인 FAQ](https://docs.microsoft.com/office365/admin/setup/domains-faq)를 참조 하세요.
-    
-        ![사용자 ID 만들기 페이지의 스크린샷](media/signinuserid.png)
+비즈니스를 위해 Microsoft 365을 등록 하 고 구입 하려면 다음 단계를 완료 합니다.
 
-3. 나머지 필드에 내용을 입력 하 고 **내 계정 만들기**를 선택 합니다.
-4. 인지를 **입증 합니다. . 로봇이 아닌** 경우 페이지 전화 번호를 입력 하 여 텍스트 또는 통화를 통해 코드를 받고, **텍스트 me** 를 선택 하거나 **전화를 걸어** \> **다음**확인 코드를 입력 합니다.
-5. 이 페이지를 **사용 하는 위치** 에 회사 주소를 입력 합니다. 이 정보는 지불 하는 세금 및 사용 가능한 구독을 결정 합니다. 세금에 대 한 자세한 내용은 [어떤 세금을 부과할 것인가?](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/what-tax-will-i-be-charged?view=o365-worldwide) 를 참조 하세요. 
-1. **다음**을 선택 하 고 주문을 검토 한 후 **다음** 을 다시 선택 합니다.
-1. **어떻게 결제** 하 시겠습니까? 페이지에서 결제 정보를 입력 한 다음 **주문을**합니다.
-    그런 다음 [관리 센터로](https://docs.microsoft.com/en-us/office365/admin/subscriptions-and-billing/what-tax-will-i-be-charged?view=o365-worldwide) 이동 하 여 [설정을](set-up.md)완료할 수 있습니다.
-
+1. [비즈니스에 대 한 Microsoft 365 페이지](https://www.microsoft.com/microsoft-365/business)에서 **요금제 & 가격 책정 보기**를 선택 합니다. 
+2. 다음 페이지에서 월별 비용을 확인 하 고, 필요에 따라 페이지 아래쪽으로 스크롤하여 Microsoft 365 Business에 포함 된 기능에 대해 자세히 알아봅니다. Microsoft 365 Business에서 **지금 구입**을 선택 합니다.
+3. **Microsoft 365 비즈니스를 선택 하는 데 대 한 감사** 페이지에서 시작 하기 위한 정보를 입력 하세요.
+4. **1 단계**에서 이미 사용 하 고 있는 전자 메일 주소를 입력 합니다. 현재 회사 전자 메일 주소 또는 Microsoft에서 설치 중에 통신 하는 데 사용 하는 모든 주소 및 청구서 및 갱신에 대 한 정보를 보낼 수 있습니다. 다음을 선택 하 고 **계정을 설정**합니다.
+5. **2 단계**에서 이름, 회사 전화 번호, 회사 이름 및 위치를 입력 합니다. 이 단계를 완료 한 후에는 사용자의 국가나 지역이 Microsoft 로부터 수신 하는 서비스를 정확히 결정 하며 변경할 수 없습니다.  Select **Next**. 
     > [!NOTE]
-    > 설치 종료 시 링크를 선택한 후 **관리 센터로 이동**하면 [설정](set-up.md) 환경으로 바로 이동할 수 있습니다.
+    > 회사 이름은 관리 센터에 표시 됩니다. 여기에서 Microsoft 365 사용자, 라이선스 등을 관리할 수 있습니다. 또한 모든 내부 (SharePoint) 사이트 Url에도 포함 됩니다.
+6. **3 단계**:
+
+    1. 로봇을 사용할 수 없다는 사실을 입증 하세요! **텍스트 me** 를 선택 하거나 **전화를 걸어** 사용자에 게 연락할 수 있는 번호를 입력 합니다. **확인 코드 보내기를** 선택 하면 텍스트나 통화가 즉시 수신 됩니다. 코드를 입력 하 고 **확인**을 선택 합니다.
+    2. 다음으로 새 도메인 이름을 구매할 지 아니면 임시를 가져올 것인지를 결정 합니다.
+
+        - **도메인 이름을 소유 하지 않음** 
+        
+            전자 메일 주소에 회사 이름이 포함 되지 않은 경우 회사 이름을 사용 하는 웹 사이트가 없으면 도메인을 쉽게 구매할 수 있습니다. **새 도메인 이름을 구입** 하 고 회사의 이름을 입력 합니다. 예를 들어 회사를 *ContosoSkis*라고 했다면 Contosokis.com, Contososkis.org 또는 Contososkis.biz를 입력 해 보십시오. 그런 다음 **사용 가능성 확인** 을 선택 하 여 선택한 도메인을 사용할 수 있는지 여부를 확인 합니다. 결정을 내리기 전에 여러 가지 옵션을 시도해 볼 수 있습니다. 도메인 이름을 사용할 수 있는 경우에는 비용을 파악 하 고 새 요금제를 직접 사용 하는 것이 좋습니다. 
+       
+            > [!TIP]
+            > 새 도메인 (예: .com 또는 org)에 대해 어떤 도메인 확장을 선택 해야 할지 잘 모르겠으면 [도메인 이름 구입](https://docs.microsoft.com/office365/admin/get-help-with-domains/buy-a-domain-name) 을 참조 하십시오.
+        
+        - **확실 하지 않거나 도메인 이름을 이미 소유 하 고 있습니다.** 
+        
+             **지금은 Microsoft 도메인 가져오기를**선택 합니다. 이는 비용이 들지 않으며 나중에 비즈니스에 대 한 사용자 지정 이름을 가져오거나 회사에서 사용 하는 방법을 보여 드릴 수 있습니다.
+
+    3. 사용자 ID 및 비즈니스 전자 메일 주소를 만들려면 **다음** 을 선택 합니다. 사용할 이름 (별칭이 라고도 함)을 입력 합니다. 예를 들어 Robert 젊은은 RobY RobYoung을 work 별칭으로 사용할 수 있습니다. 암호를 추가 하 고 **등록**을 선택 합니다. 암호를 기록해 둡니다. 1 단계에서 입력 한 주소로 전자 메일을 보내 사용자 ID를 알려 줍니다.
+7. **4 단계**: 
+
+    1. 비즈니스에서 Microsoft 365 라이선스가 필요한 사용자 수를 결정 하거나, 현재 **사용자 수가** 1로 설정 된 채로 둔 후 나중에 사용자를 더 추가 하는 것이 좋습니다. 
+    2. 매월 또는 연간 대금 청구를 선택 하 고 총 비용을 확인 한 후 **다음**을 선택 합니다. 
+    3. 신용 카드 정보를 추가 합니다. 회사 주소가 신용 카드 주소와 일치 하지 않으면 회사 주소도 필요 합니다. 회사 주소에 따라 지불할 세금 및 사용 가능한 서비스를 결정 합니다. 세금에 대 한 자세한 내용은 [어떤 세금을 부과할 것인가?](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/what-tax-will-i-be-charged)를 참조 하세요.
+    4. **주문을**선택 합니다. Microsoft가 새 계획 설정을 완료 하는 데 잠시 시간이 걸립니다.
+
+## <a name="whats-next"></a>다음 작업
+비즈니스를 보호 하기 위한 보안 추가, Word 및 Excel 등의 Office 앱 다운로드 등의 다른 단계를 완료 하려면 **설정으로 이동을** 선택 합니다. 설치에 대 한 도움말을 보려면 [set up](set-up.md)을 참조 하십시오.
+
