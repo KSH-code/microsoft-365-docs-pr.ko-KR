@@ -3,7 +3,7 @@ title: 높은 규제 대상 데이터를 위한 SharePoint 사이트
 author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
-ms.date: 10/04/2019
+ms.date: 10/21/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 가장 중요하고 민감한 파일을 저장할 수 있도록 안전한 SharePoint 팀 사이트를 만듭니다.
-ms.openlocfilehash: ece6547ba596fe53c4f3b3f6bfbaa6570a724c6a
-ms.sourcegitcommit: db580dc2626328d324f65c7380a5816a500688a7
+ms.openlocfilehash: 7162ced48a64270713dc1eac6e73de053d24b2f4
+ms.sourcegitcommit: 7ee256132358a86f8c6ad143816fcfdde011ca74
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37437828"
+ms.lasthandoff: 10/22/2019
+ms.locfileid: "37628342"
 ---
 # <a name="sharepoint-sites-for-highly-regulated-data"></a>높은 규제 대상 데이터를 위한 SharePoint 사이트
 
@@ -30,7 +30,7 @@ Microsoft 365 Enterprise에는 완전한 클라우드 기반 서비스 제품군
 - 영업 비밀, 재무 또는 인사 관련 정보와 조직의 전략과 같이 조직에서 가장 중요한 데이터
 
 >[!Note]
-> Microsoft Teams를 사용하는 비슷한 시나리오가 개발 중입니다.
+> Microsoft Teams를 사용하는 비슷한 시나리오는 [여기서](secure-teams-highly-regulated-data-scenario.md) 확인할 수 있습니다.
 >
 
 이러한 비즈니스 요구를 충족하는 Microsoft 365 Enterprise 클라우드 기반 시나리오에서는 다음을 요구합니다.
@@ -50,14 +50,14 @@ Microsoft 365 Enterprise에는 완전한 클라우드 기반 서비스 제품군
 |:-------|:-----|
 | **요구 사항** | **Microsoft 365 Enterprise 기능** |
 | 파일 저장 | SharePoint 팀 사이트 |
-| 사이트 잠그기 | Azure Active Directory(Azure AD) 그룹 및 SharePoint 팀 사이트 권한 |
+| 사이트 잠그기 | Office 365 그룹 및 SharePoint 팀 사이트 사용 권한 |
 | 사이트 파일의 레이블 지정 | Office 365 보존 레이블 |
 | 사용자가 조직 외부로 파일을 보내지 못하도록 차단 | Office 365의 DLP(데이터 손실 방지) 정책 |
-| 사이트의 파일 모두 암호화 | Office 365 민감도 하위 레이블 |
-| 사이트의 파일에 권한 추가 | Office 365 민감도 하위 레이블 |
+| 사이트의 파일 모두 암호화 | Office 365 민감도 레이블 혹은 하위 레이블 |
+| 사이트의 파일에 권한 추가 | Office 365 민감도 레이블 혹은 하위 레이블 |
 |||
 
-다음은 보안 SharePoint 사이트의 구성입니다.
+다음은 보안 SharePoint 사이트의 구성 예시입니다.
 
 ![높은 규제 대상 데이터를 위한 SharePoint 사이트 시나리오](./media/teams-sharepoint-online-sites-highly-regulated-data/end-to-end-configuration.png)
 
@@ -99,12 +99,11 @@ SharePoint 사이트의 경우, 사용자가 외부 사용자와 파일을 공�
 
 ### <a name="step-2-your-office-365-sensitivity-sublabel"></a>2단계: Office 365 민감도 하위 레이블
 
-가장 중요한 파일에 암호화 및 권한 집합을 사용하려면 Office 365 민감도 하위 레이블을 적용해야 합니다.
+가장 민감한 파일에 암호화 및 사용 권한 집합을 사용하려면 Office 365 민감도 레이블 혹은 하위 레이블을 적용해야 합니다. 하위 레이블은 기존 레이블 아래에 있습니다. 
 
-하위 레이블은 기존 레이블 아래에 있습니다. 예를 들어, 높은 규제 대상 레이블 아래에 연구 및 개발 하위 레이블을 만들 수 있습니다. 높은 규제 대상 데이터를 위한 SharePoint 사이트의 경우, 사이트 구성원만 해당 레이블이 지정된 파일을 열고 변경할 수 있도록 권한을 구성합니다.
+전역적인 사용과 개별적 개인 팀에 소수의 레이블이 필요한 경우에는 민감도 레이블을 사용합니다. 다수의 레이블을 보유하고 있거나 귀하의 높은 규제 대상 레이블 아래에 보안 사이트의 레이블을 구성하려는 경우 민감도 하위 레이블을 사용합니다. 
 
-적용된 하위 레이블은 파일에 표시됩니다. 파일이 사이트 외부로 누출되는 경우에도 권한이 있는 인증된 사용자 계정만 파일을 열 수 있습니다.
-
+적용된 레이블 혹은 하위 레이블의 설정은 파일에 표시됩니다. 파일이 사이트 외부로 누출되는 경우에도 권한이 있는 인증된 사용자 계정만 파일을 열 수 있습니다.
 
 ### <a name="design-results"></a>디자인 결과
 
@@ -125,10 +124,10 @@ SharePoint 사이트의 경우, 사용자가 외부 사용자와 파일을 공�
 
 SharePoint 사이트에서 사용 권한 설정을 구성합니다.
 
-1.  도구 모음에서 설정 아이콘을 클릭한 다음, **사이트 권한**을 클릭합니다.
-2.  **사이트 권한** 창에서 **고급 권한 설정**을 클릭합니다.
-3.  브라우저의 새 **권한** 탭에서 **액세스 요청 설정**을 클릭합니다.
-4.  **액세스 요청 설정** 대화 상자에서 **구성원이 사이트와 개별 파일 및 폴더를 공유할 수 있도록 허용합니다.** 및 **액세스 요청 허용**(3개의 확인란이 모두 선택 취소됨)을 선택 취소하고 **확인**을 클릭합니다.
+1. 도구 모음에서 설정 아이콘을 클릭한 다음, **사이트 사용 권한**을 클릭합니다.
+2. **사이트 사용 권한** 창에 있는 **공유 설정**에서 **공유 설정 변경**을 클릭합니다.
+3. **사용 권한 공유**에서 **사이트 소유자만 파일, 폴더 및 사이트를 공유할 수 있습니다**를 선택합니다.
+4. **액세스 요청 허용**을 해제한 다음, **저장**을 클릭합니다.
 
 이 설정을 사용하는 경우, 사이트 그룹 구성원이 다른 구성원과 사이트를 공유하거나 구성원이 아닌 사용자가 해당 사이트의 액세스를 요청할 수 있는 기능을 사용할 수 없습니다.
 
@@ -145,13 +144,13 @@ SharePoint 사이트에서 사용 권한 설정을 구성합니다.
 모든 사용자가 모든 파일에 적용할 수 있는 높은 규제 대상 데이터의 민감도 레이블과 달리, 하위 레이블이 지정된 파일이 다음을 수행하려면 보안 사이트에 고유한 레이블이 필요합니다.
 
 - 암호화되고 해당 암호화가 파일에 표시됩니다.
--   사이트 그룹의 구성원만 파일을 열 수 있도록 사용자 지정 권한을 포함합니다.
+- 사이트 그룹의 구성원만 파일을 열 수 있도록 사용자 지정 권한을 포함합니다.
 
-사이트에 저장된 파일에 보안 수준을 추가적으로 설정하려면, 높은 규제 대상 파일에 대한 일반적인 레이블의 하위 레이블인 새 민감도 레이블을 구성해야 합니다. 사이트의 그룹 구성원만 높은 규제 대상 레이블의 하위 레이블 목록에서 이 레이블을 볼 수 있습니다.
+사이트에 저장된 파일에 보안 수준을 추가적으로 설정하려면, 높은 규제 대상 파일을 위한 일반적인 레이블의 새로운 민감도 레이블 혹은 하위 레이블을 구성해야 합니다. 이는 사이트의 그룹 구성원만이 높은 규제 대상 레이블의 하위 레이블 목록에서 볼 수 있습니다.
 
-[여기](https://docs.microsoft.com/microsoft-365/compliance/encryption-sensitivity-labels)에 있는 지침을 참조하여 높은 규제 대상 데이터에 사용할 레이블의 하위 레이블을 다음과 같은 설정으로 구성할 수 있습니다.
+[여기](https://docs.microsoft.com/microsoft-365/compliance/encryption-sensitivity-labels)에 있는 지침을 참조하여 높은 규제 대상 데이터에 사용하는 레이블 혹은 하위 레이블을 다음과 같은 설정으로 구성할 수 있습니다:
 
-- 파일에 하위 레이블을 지정할 때 쉽게 연상할 수 있도록 하위 레이블 이름에 사이트 이름을 포함합니다.
+- 파일에 레이블 혹은 하위 레이블을 지정할 때 쉽게 연상할 수 있도록 레이블 혹은 하위 레이블 이름은 사이트 이름을 포함합니다.
 - 암호화가 사용하도록 설정됩니다.
 - 사이트 그룹에 공동 작성자 권한이 있습니다.
 
@@ -162,14 +161,13 @@ SharePoint 사이트에서 사용 권한 설정을 구성합니다.
 - SharePoint 사이트에 더 제한적인 사용 권한 설정
 - SharePoint 사이트의 문서 부분에 할당된 Office 365 보존 레이블
 - Office 365 보존 레이블에 대한 DLP 정책
-- 파일을 암호화하고 팀 사이트 그룹의 구성원만 공동 작성자 액세스 권한이 있는 사이트에 저장된 가장 중요한 파일에 적용할 수 있는 Office 365 하위 레이블 
+- 파일을 암호화하고 팀 사이트 그룹의 구성원만 공동 작성자 액세스 권한이 있는 사이트에 저장된 가장 중요한 파일에 적용할 수 있는 Office 365 레이블 혹은 하위 레이블 
 
-구성 결과는 다음과 같습니다.
+다음은 높은 규제 대상의 레이블의 하위 레이블을 사용하는 결과의 구성입니다.
 
 ![높은 규제 대상 데이터를 위한 SharePoint 사이트 시나리오](./media/teams-sharepoint-online-sites-highly-regulated-data/end-to-end-configuration.png)
 
-
-다음은 해당 사이트에 저장된 파일에 민감도 하위 레이블을 적용한 사용자의 예입니다.
+다음은 해당 사이트에 저장된 파일에 하위 레이블을 적용한 사용자의 예시입니다.
 
 ![높은 규제 대상 데이터를 위한 SharePoint 사이트 시나리오](./media/teams-sharepoint-online-sites-highly-regulated-data/end-to-end-configuration-example-file.png)
 
@@ -182,14 +180,14 @@ SharePoint 사이트에서 사용 권한 설정을 구성합니다.
 
 ### <a name="step-1-train-your-users"></a>1단계: 사용자 교육
 
-구성을 완료한 후 사이트 액세스 그룹의 구성원인 사용자 집합에게 다음을 교육합니다.
+구성을 완료한 후 사이트의 구성원인 사용자 집합에게 다음을 교육합니다.
 
 - 새 사이트를 사용하여 중요한 파일을 보호해야 하는 중요성 및 높은 규제 대상 데이터 누출 결과(예: 법적 영향, 규제 벌금, 랜섬웨어 또는 경쟁적 우위 박탈)
 - 사이트 및 해당 파일에 액세스하는 방법
 - 사이트에서 새 파일을 만들고 로컬에 저장된 새 파일을 업로드하는 방법
 - DLP 정책으로 외부에서 파일을 공유하지 못하도록 차단하는 방법
-- 사이트의 하위 레이블을 사용하여 가장 중요한 파일의 레이블을 지정하는 방법
-- 파일이 사이트 외부로 누출된 경우에도 하위 레이블이 파일을 보호하는 방법
+- 사이트의 레이블 혹은 하위 레이블을 사용하여 가장 중요한 파일의 레이블을 지정하는 방법
+- 파일이 사이트 외부로 누출된 경우에도 레이블 혹은 하위 레이블이 파일을 보호하는 방법
 
 이 교육에는 사용자가 이러한 작업 및 해당 결과를 경험해볼 수 있도록 하기 위해 실무 위주의 연습이 포함되어 있습니다.
 
@@ -198,21 +196,27 @@ SharePoint 사이트에서 사용 권한 설정을 구성합니다.
 교육이 진행되고 몇 주 후에 SharePoint 사이트의 SharePoint 관리자는 다음을 수행할 수 있습니다.
 
 - 사이트의 사용 현황을 분석하고 예상 사용 현황과 비교합니다.
-- 매우 중요한 파일의 레이블이 민감도 하위 레이블로 지정되었는지 확인합니다.
+- 매우 민감한 파일에 민감도 레이블 혹은 하위 레이블이 적절히 할당되었는지 확인합니다.
+
+  SharePoint에서 폴더를 보고 **열 추가**의 **열 표시/숨기기** 옵션을 통해 **민감도** 열을 추가하여 레이블이 할당된 파일을 볼 수 있습니다.
+
 
 필요에 따라 사용자를 재교육합니다.
 
 ### <a name="user-adoption-results"></a>사용자 채택 계획
 
-높은 규제 대상 파일이 높은 규제 대상 데이터를 위한 SharePoint 사이트에만 저장되고 가장 중요한 파일에 해당 사이트의 민감도 하위 레이블이 적용되어 있습니다.
+높은 규제 대상 파일이 높은 규제 대상 데이터를 위한 SharePoint 사이트에만 저장되고 가장 중요한 파일에 해당 사이트의 민감도 레이블 혹은 하위 레이블이 적용되어 있습니다.
 
 ## <a name="how-the-contoso-corporation-deployed-microsoft-365-enterprise"></a>Contoso Corporation에서 Microsoft 365 Enterprise를 배포한 방식
 
-Contoso 기업은 프랑스 파리에 본사를 둔 가상의 대표적인 글로벌 제조 대기업입니다. Contoso가 파리, 모스크바, 뉴욕, 베이징, 방갈로르의 연구 팀을 위해 [보안 SharePoint 사이트](contoso-sharepoint-online-site-for-highly-confidential-assets.md)를 설계 및 구성한 다음 채택을 촉진하는 방법을 알아봅니다. 
+Contoso 기업은 가상의 대표적인 글로벌 제조 대기업입니다. Contoso가 파리, 모스크바, 뉴욕, 베이징, 방갈로르의 연구 팀을 위해 [보안 SharePoint 사이트](contoso-sharepoint-online-site-for-highly-confidential-assets.md)를 설계 및 구성한 다음 채택을 촉진하는 방법을 알아봅니다. 
 
 ## <a name="see-also"></a>참고 항목
 
+[높은 규제 대상 데이터를 위한 Teams](secure-teams-highly-regulated-data-scenario.md)
+
+[Microsoft 365 Enterprise 워크로드 및 시나리오](deploy-workloads.md)
+
+[Microsoft 365 생산성 라이브러리](https://aka.ms/productivitylibrary) (https://aka.ms/productivitylibrary)
+
 [배포 가이드](deploy-microsoft-365-enterprise.md)
-
-[테스트 랩 가이드](m365-enterprise-test-lab-guides.md)
-
