@@ -3,7 +3,7 @@ title: Microsoft 365 Enterprise 배포 컨텐츠의 변경 사항
 author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
-ms.date: 10/10/2019
+ms.date: 10/21/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,18 +13,22 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Microsoft 365 배포 가이드의 새로운 내용 및 콘텐츠에 대한 변경 사항을 확인하세요.
-ms.openlocfilehash: 67d0f51dd1f2602a21d199da1ed7ca6ba6e41c09
-ms.sourcegitcommit: 255e8194bb5767a9983d54d16e79d628732a1d97
+ms.openlocfilehash: e872b0c289a002b4a0e0459a9ee19aa78b039b31
+ms.sourcegitcommit: 80dc9ceb14e3eb3ae61b0fc2c8c3d73d564a7ef9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/11/2019
-ms.locfileid: "37453994"
+ms.lasthandoff: 10/21/2019
+ms.locfileid: "37617246"
 ---
 # <a name="changes-to-microsoft-365-enterprise-deployment-content"></a>Microsoft 365 Enterprise 배포 컨텐츠의 변경 사항
 
 ## <a name="october-2019"></a>2019년 10월
 
 ### <a name="new-content"></a>새로운 내용 
+
+- [규제가 엄격한 데이터 시나리오를 위한 Teams](secure-teams-highly-regulated-data-scenario.md)
+
+  [![규제가 엄격한 데이터 시나리오를 위한 Teams](./media/secure-teams-highly-regulated-data-scenario/secure-team-final.png)](secure-teams-highly-regulated-data-scenario.md)
 
 - [원격 작업자 지원](empower-people-to-work-remotely.md#poster)
 
@@ -34,7 +38,7 @@ ms.locfileid: "37453994"
 ### <a name="updates-and-enhancements"></a>업데이트 및 개선사항
 
 - [Contoso 사례 연구](contoso-case-study.md)의 새로 고침
-- [Exchange Online](exchangeonline-workload.md) 작업 부하의 새로 고침
+- [Microsoft Teams](teams-workload.md) 새로 고침, [Exchange Online](exchangeonline-workload.md) 및 [SharePoint Online](sharepoint-online-onedrive-workload.md) 작업 부하
 - [높은 규제 대상 데이터를 위한 SharePoint 사이트](teams-sharepoint-online-sites-highly-regulated-data.md) 시나리오의 새로 고침
  
   [![높은 규제 대상 데이터를 위한 SharePoint 사이트 시나리오](./media/teams-sharepoint-online-sites-highly-regulated-data/end-to-end-configuration.png)](teams-sharepoint-online-sites-highly-regulated-data.md)

@@ -46,6 +46,7 @@
 ### [SharePoint 및 비즈니스용 OneDrive](sharepoint-online-onedrive-workload.md)
 ### [마이그레이션](migration-microsoft-365-enterprise-workload.md)
 ### [원격 작업자에 권리 부여](empower-people-to-work-remotely.md)
+### [규제가 엄격한 대상 데이터를 위한 Teams](secure-teams-highly-regulated-data-scenario.md)
 ### [높은 규제 대상 데이터를 위한 SharePoint 사이트](teams-sharepoint-online-sites-highly-regulated-data.md)
 ## [테스트 랩 가이드](m365-enterprise-test-lab-guides.md)
 ### [기본 구성]()
