@@ -10,12 +10,12 @@ localization_priority: Normal
 audience: microsoft-business 
 keywords: Microsoft 365 Business, Microsoft 365, SMB, FAQ, 질문과 대답, 답변, 비즈니스
 ms.date: 06/08/2018
-ms.openlocfilehash: 18198007bf61d448581335594016433668edb47d
-ms.sourcegitcommit: 23173f7d0ca5079662ef4060371d8ee11bac228e
+ms.openlocfilehash: 23cf7c4770387050c60ac21f537fbd7738a8aab4
+ms.sourcegitcommit: 1e3916bbe94d4fbb858566e7db5018e1e46bcd0d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/21/2019
-ms.locfileid: "37611424"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "37646388"
 ---
 # <a name="microsoft-365-business-frequently-asked-questions"></a>Microsoft 365 Business 질문과 대답
 
@@ -164,7 +164,7 @@ Office 365 Business Premium에 추가할 수 있는 모든 추가 기능을 Micr
 현재 Office 365를 판매하는 파트너는 Microsoft 365 Business를 판매와 동일한 판매 상담 방식을 사용할 수 있습니다. 또한 판매 팀이 고객의 기존 데스크톱 환경, Active Directory 의존, 이동성 및 보안 요구 사항을 이해하여 효과적으로 고객에게 관련성 있는 방식으로 Microsoft 365 Business의 전체 가치를 전달할 수 있는 리소스 및 교육을 추가로 도입하고 있습니다. [http://partners.office.com/microsoft365business](http://partners.office.com/microsoft365business)에서 Office 파트너 포털에 대한 리소스를 찾아 보세요. 
 
 ### <a name="how-can-microsoft-365-business-help-partners-increase-the-profitability"></a>어떻게 파트너가 Microsoft 365 Business를 통해 수익성을 높일 수 있나요? 
-Microsoft 365 Business는 파트너사가 보다 높은 운영 효율성을 통해 비용을 절감하고 추가 서비스의 판매를 통해 수익을 개선하는 데 도움이 됩니다. Forrester 연구 Microsoft 365 Business Total Economic Impact (TEI) Study, 2017년 6월(https://partners.office.com/TEIBusiness)에서는 Microsoft 365 Business가 파트너 수익에 미치는 긍정적인 영향을 기술합니다. 
+Microsoft 365 Business는 파트너사가 보다 높은 운영 효율성을 통해 비용을 절감하고 추가 서비스의 판매를 통해 수익을 개선하는 데 도움이 됩니다. Forrester 연구 Microsoft 365 Business Total Economic Impact (TEI) Study, 2017년 6월(https://www.microsoft.com/microsoft-365/partners/PartnerTEI)에서는 Microsoft 365 Business가 파트너 수익에 미치는 긍정적인 영향을 기술합니다. 
 
 TEI 연구에서 파트너들은 Microsoft 365 Business를 통해 다음과 같은 사항을 기대한다고 보고했습니다. 
 

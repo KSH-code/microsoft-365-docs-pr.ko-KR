@@ -14,12 +14,12 @@ ms.assetid: a5b03b3c-37dd-429e-8e9b-2c1b25031794
 ms.collection:
 - M365-security-compliance
 description: Office 365의 BCL (대량 확인 수준) 값에 대해 알아봅니다.
-ms.openlocfilehash: 6f9314a5b96dbd641e461dfb564ed8605372a949
-ms.sourcegitcommit: b0396171d24c6298b809b43bb109d3afed4de5b8
+ms.openlocfilehash: 822c84ea9b36cfdae1d8faccf7e0c7d9f747c917
+ms.sourcegitcommit: 7830969c8fa41724359657910716f3ce312cc2cf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "37451100"
+ms.lasthandoff: 10/23/2019
+ms.locfileid: "37650120"
 ---
 # <a name="bulk-complaint-level-values"></a>대량 불만 수준 값
 
