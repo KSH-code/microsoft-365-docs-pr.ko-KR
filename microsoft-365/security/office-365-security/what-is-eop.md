@@ -14,14 +14,14 @@ search.appverid:
 - MET150
 ms.assetid: 393b0050-7c7e-49e6-a03d-b1e09fe4de9e
 description: 이 소개 문서는 EOP (Exchange Online Protection) 및 몇 가지 중요 한 용어를 이해 하는 데 도움이 됩니다. 이 기능은 exchange Online 클라우드 호스팅 사서함을 보호 하는 Office 365 고객 및 Exchange Server 2016와 같은 온-프레미스 사서함을 보호 하는 EOP 독립 실행형 고객에 게 적용 됩니다.
-ms.openlocfilehash: 0ca3e8215eb57a08362dd836b4519aedd0b6ab84
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 2e4de0b62b24498b1153c713523418193e8694b4
+ms.sourcegitcommit: 83b919f8a7fcc4f75044ffc09fecd66fb4ed35b5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088755"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "37662524"
 ---
-## <a name="what-is-exchange-online-protection-eop"></a>EOP (Exchange Online Protection)
+# <a name="what-is-exchange-online-protection-eop"></a>EOP (Exchange Online Protection)
 
 EOP (Exchange Online Protection)는 스팸 및 맬웨어로부터 조직을 보호 하는 클라우드 기반 전자 메일 필터링 서비스입니다. Office 365에 사서함이 있는 경우 서비스의 일부인 것 이므로 EOP에 의해 자동으로 보호 됩니다. 여기에는 Office 365 및 온-프레미스 둘 다에 사서함이 있는 조직이 포함 되며, 이러한 조직은 일반적으로 하이브리드 시나리오 라고 합니다. 또한 클라우드에서 사서함이 없지만 온-프레미스 사서함을 보호 하려는 고객에 게는 EOP 독립 실행형을 사용할 수 있습니다.
 

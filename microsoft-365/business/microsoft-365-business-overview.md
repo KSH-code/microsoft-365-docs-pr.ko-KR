@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Microsoft 365 Business를 설정하는 방법 알아보기
-ms.openlocfilehash: e6f99d6d2f2d7951303591a806a3618615a25310
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+ms.openlocfilehash: 0c717271da17ff4bf28d8d3546df3a9da427dba5
+ms.sourcegitcommit: 53148fc3663bdcfa9605684317785cb19f37e141
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37575921"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "37697768"
 ---
 # <a name="overview-of-microsoft-365-business"></a>Microsoft 365 비즈니스 개요
 
@@ -54,7 +54,43 @@ Microsoft 365 Business는 이러한 각 인스턴스에서 데이터를 보호 �
 
 ![M365B에서 비즈니스를 보호 하는 방법을 보여 주는 그림](media/m365businessvalueadd.png)
 
-전체 보안 기능 목록을 보려면 [Microsoft 365 Business security features](security-features.md)를 참조 하세요. [Microsoft 365 Business를 설정한](set-up.md)후 설치의 일부로 포함 되지 않은 보안 기능을 시작 하려면 [고급 보안 정책 설정을](set-up-advanced-security.md) 참조 하십시오. 사이버 범죄자 및 해커 로부터 보호를 설정 하는 방법에 대 한 자세한 내용은 [Office 365 및 Microsoft 365 비즈니스 요금제를 보호 하기 위한 상위 10 가지 방법을](https://docs.microsoft.com/office365/admin/security-and-compliance/secure-your-business-data) 읽어 보세요.
+## <a name="how-your-data-and-devices-are-protected"></a>데이터 및 장치가 보호 되는 방식
+
+Microsoft 365 Business는 다음과 같은 방법으로 **위협을 defended** 수 있도록 지원 합니다.
+
+전자 메일 및 문서의 링크를 실시간으로 검색 하 여 안전 하지 않은 웹 사이트 (ATP 안전한 링크)를 차단 합니다.
+
+- 샌드박스 환경에서 전자 메일 첨부 파일에 대 한 고급 분석을 수행 하 여 새로 개발한 맬웨어 (ATP 안전한 첨부 파일)를 검색 합니다. 
+
+- 기계 학습 모델 및 가장 검색을 사용 하는 피싱 방지 정책을 통해 고급 공격 (ATP 피싱 방지 인텔리전스)을 보호 합니다. 
+
+- 신뢰할 수 없는 위치에서 액세스를 사용 하지 않도록 설정 하거나 신뢰할 수 있는 Ip 및 조건부 액세스를 포함 하는 office 네트워크와 같은 신뢰 되는 위치의 다단계 인증을 우회 하는 고급 정책을 설정할 수 있습니다. 
+
+- 모든 회사의 Windows 10 장치에서 맬웨어 보호를 적용 하 고 컴퓨터 랜 섬 웨어가 수행한 변경 내용에서 주요 시스템 폴더의 파일을 보호 합니다 (Windows Defender).
+
+**비즈니스 데이터는** 다음에 의해 보호 됩니다.
+
+- 자동 검색 기능을 사용 하 여 사회 보장 번호 또는 신용 카드와 같은 중요 한 정보가 회사 외부에서 누설 되지 않도록 합니다 (데이터 손실 방지). 
+
+- 중요 한 전자 메일을 암호화 하 여 원하는 받는 사람만 메시지를 읽을 수 있도록 (Office 365 메시지 암호화) 합니다.
+
+- **복사 금지** , 전자 메일 및 문서에 **전달 하지** 않음 (Azure information Protection, 계획 1) 등의 제한을 적용 하 여 회사 정보에 액세스할 수 있는 사용자 제어
+
+- 이전 직원의 사서함을 포함 하 여 모든 회사의 전자 메일을 보존할 수 있도록 무제한 클라우드 보관을 사용 하도록 설정 (Exchange Online 보관)
+
+장치는 다음과 같은 방식으로 **보호 됩니다** .
+
+- Office 365 데이터에 액세스할 수 있는 장치 및 사용자 제어 사용자가 홈 컴퓨터, 승인 되지 않은 앱 또는 업무 시간 외 (조건부 액세스)에서 로그인 하지 못하도록 차단 하는 옵션을 사용 합니다.
+
+- 보안 정책을 적용 하 여 iOS 및 Android 장치에서 비즈니스 데이터를 보호 하는 방법  예를 들어 사용자가 비즈니스 데이터에 액세스 하려면 PIN 또는 지문을 제공 하 고 모바일 장치에서 데이터를 암호화 하려면 (Office 모바일 앱 용 앱 보호)를 사용 해야 합니다.
+
+- 승인 된 Office 모바일 앱 내에서 비즈니스 문서, 전자 메일 및 기타 데이터를 유지 하 고 직원이 허용 되지 않는 앱과 위치에 저장 하지 못하도록 방지 (Office 모바일 앱에 대 한 앱 보호)
+
+- 개인 정보 (Intune 선택 정리)에 영향을 주지 않고 분실 또는 도난 된 장치에서 비즈니스 데이터를 원격으로 닦아내기
+
+- 간소화 된 컨트롤을 사용 하 여 회사의 모든 Windows 10 Pc에 대 한 정책을 관리 하 고 BitLocker 암호화를 적용 하 고 중요 Windows 업데이트를 자동으로 설치 합니다 (Windows update 정책 적용).
+
+전체 보안 기능 목록을 보려면 [Microsoft 365 Business security features](security-features.md)를 참조 하세요. [Microsoft 365 Business를 설정한](set-up.md)후에는 안내 설치의 일부로 포함 되지 않은 보안 기능을 시작 하기 위한 [고급 보안 정책 설정을](set-up-advanced-security.md) 참조 하세요. 사이버 범죄자 및 해커 로부터 보호를 설정 하는 방법에 대 한 자세한 내용은 [Office 365 및 Microsoft 365 비즈니스 요금제를 보호 하기 위한 상위 10 가지 방법을](https://docs.microsoft.com/office365/admin/security-and-compliance/secure-your-business-data) 읽어 보세요.
 
 ## <a name="get-microsoft-365-business"></a>Microsoft 365 Business 받기
 

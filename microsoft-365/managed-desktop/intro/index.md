@@ -6,14 +6,14 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.date: 10/24/2018
-ms.openlocfilehash: 1cde7cda7cf6bb42508aa52460ff2ee254f62967
-ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
+ms.openlocfilehash: d3abfaa0901ff9dbc15aa6fcba3bb7a13e6afb84
+ms.sourcegitcommit: 53148fc3663bdcfa9605684317785cb19f37e141
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/14/2019
-ms.locfileid: "36982589"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "37697733"
 ---
-# <a name="what-is-microsoft-managed-desktop"></a>Microsoft Managed Desktop 이란 무엇 인가요?
+# <a name="what-is-microsoft-managed-desktop"></a>Microsoft Managed Desktop이란 무엇인가요?
 
 <!--from Overview-->
 
@@ -24,7 +24,7 @@ Microsoft Managed Desktop은 microsoft에서 제공 하 고 실행 하는 끝점
 
 <table>
 <tr><th>최종 사용자 안전 게</th><th>IT 역량 강화</th><th>Microsoft에서 지 원하는</th></tr>
-<tr><td><p>최신 장치</p><p>Windows 10</p><p>Office 365 ProPlus</p><p>보안 기본 제공</p><p>얼굴 인식을 사용 하 여 로그인</p><p>항상 최신 상태로 유지</p></td><td><p>기본 제공 보안</p><p>조치 가능한 통찰력</p><p>운영 지원</p><p>Microsoft 전문가가 제공 하는 지침</p></td><td><p>보안 운영 팀</p><p>상태 모니터링</p><p>데이터에 대 한 클라우드 백업</p><p>상태 비저장 원칙</p><p>연중 무휴 최종 사용자 지원</p></td></tr>
+<tr><td><p>최신 장치</p><p>Windows 10</p><p>Office 365 ProPlus</p><p>보안 기본 제공</p><p>얼굴 인식을 사용 하 여 로그인</p><p>항상 최신 상태로 유지</p></td><td><p>기본 제공 보안</p><p>조치 가능한 통찰력</p><p>운영 지원</p><p>Microsoft 전문가가 제공 하는 지침</p></td><td><p>보안 운영 팀</p><p>상태 모니터링</p><p>데이터에 대 한 클라우드 백업</p><p>연중 무휴 최종 사용자 지원</p></td></tr>
 </table>
 
 Microsoft Managed Desktop은 고객에 게 delights 하 고 중요 한 작업을 위해 IT 리소스를 확보 하는 포괄적인 IT 솔루션을 제공 합니다. 이 서비스는 일반적으로 들리는 의견을 기반으로 개발 되었습니다.

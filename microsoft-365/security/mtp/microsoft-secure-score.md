@@ -15,12 +15,12 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: b337f020702b60ceeb02043e9b66d5614f58c228
-ms.sourcegitcommit: 27a7a373ca77375fdab0690a899135fad16c3cf5
+ms.openlocfilehash: d8ba3626fc2b6cb7dbc56d32cb61baf34e43996e
+ms.sourcegitcommit: 53148fc3663bdcfa9605684317785cb19f37e141
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37435562"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "37697753"
 ---
 # <a name="microsoft-secure-score"></a>Microsoft Secure Score
 
@@ -32,9 +32,9 @@ Microsoft 보안 점수는 조직의 보안 상태를 측정 한 값으로, 더 
 * 검색, 표시 유형, 지침 및 제어 기능을 제공 하 여 보안 환경을 개선 합니다.  
 * 벤치 마크와 비교 하 여 Kpi (핵심 성과 지표)를 설정 합니다.
 
-보안 점수는 조직이 메트릭 및 추세의 강력한 시각화, 다른 Microsoft 제품과의 통합, 비슷한 조직과의 점수 비교 등에 액세스할 수 있도록 합니다. 이 점수는 타사 솔루션에서 권장 작업을 해결 한 경우에도 반영 될 수 있습니다.
+조직은 메트릭 및 추세의 견고한 시각화, 다른 Microsoft 제품과의 통합, 비슷한 조직과의 점수 비교에 대 한 액세스 권한을 얻습니다. 이 점수는 타사 솔루션에서 권장 작업을 해결 한 경우에도 반영 될 수 있습니다.
 
-또한 [Microsoft GRAPH API](https://docs.microsoft.com/graph/api/resources/securescores?view=graph-rest-beta)를 통해 권장 사항 및 점수에 액세스할 수 있습니다.
+또한 [Microsoft GRAPH API](https://www.microsoft.com/security/partnerships/graph-security-api)를 통해 권장 사항 및 점수에 액세스할 수 있습니다. [보안 점수 리소스 종류](https://go.microsoft.com/fwlink/?linkid=2092996)에 대해 자세히 알아봅니다.
 
 ## <a name="how-it-works"></a>작업 방법
 
@@ -45,6 +45,10 @@ Microsoft 보안 점수는 조직의 보안 상태를 측정 한 값으로, 더 
 ### <a name="how-improvement-actions-are-scored"></a>개선 작업의 점수를 획득 하는 방법
 
 대부분은 이진 방식으로 점수가 지정 되며, 새 정책을 만들거나 특정 설정을 설정 하는 것과 같이 개선 작업을 구현 하는 경우에는 점수가 100% 인 것입니다. 다른 향상 작업의 경우 점수는 전체 구성에 대 한 비율로 제공 됩니다. 예를 들어, 향상 작업에 다단계 인증을 사용 하 여 모든 사용자를 보호 하 여 30 점을 제공 하 고 총 사용자 수가 5 100 개인 경우 2 포인트 (5 개의 보호/100 전체 * 30 최대 포인트 = 2 pt)의 부분적인 점수가 부여 됩니다.  부분 점수)
+
+### <a name="products-included-in-secure-score"></a>안전한 점수에 포함 된 제품
+
+현재 Office 365 (SharePoint Online, Exchange Online, 비즈니스용 OneDrive, Microsoft Information Protection 등), Azure AD, Intune 및 Cloud App Security에 대 한 권장 사항이 포함 되어 있습니다. Azure ATP 및 Microsoft Defender ATP와 같은 다른 보안 제품에 대 한 권장 사항은 곧 제공 될 예정입니다. 권장 사항은 각 제품과 연결 된 모든 공격 표면을 다루지는 않지만 좋은 기준이 됩니다. 또한 개선 작업을 제 3 자에서 다룬 것으로 표시할 수도 있습니다. 
 
 ## <a name="required-permissions"></a>필요한 사용 권한
 
@@ -77,19 +81,17 @@ Microsoft 보안 점수에 액세스할 수 있는 권한을 부여 하려면 Az
 * SecurityEvents. All (읽기 전용 역할의 경우)
 * SecurityEvents. All (read 및 write role 용)
 
-## <a name="rich-experiences--security-recommendations"></a>다양 한 환경 & 보안 권장 사항
+## <a name="gain-visibility-into-your-security-posture"></a>보안 환경을 표시 합니다.
 
-Microsoft 보안 점수에는 Office 365, Azure AD, Intune 및 Cloud App Security에서 권장 사항이 제공 되며 Azure 보안 센터 및 Microsoft Defender 보안 센터의 권장 사항이 포함 되어 있습니다.
-
-필요한 정보를 보다 신속 하 게 지원 하기 위해 Microsoft 추천은 그룹으로 구성 됩니다.
+필요한 정보를 보다 신속 하 게 지원 하기 위해 Microsoft 개선 작업을 그룹으로 구성 합니다.
 
 * Id (Azure AD 계정 및 역할)
 * 데이터 (Office 365 문서)
-* 장치 (Microsoft Defender ATP 장치)
+* 장치 (Microsoft Defender ATP 디바이스, 곧 출시 예정)
 * 앱 (전자 메일 및 클라우드 앱)
 * 인프라 (Azure 리소스)
 
-Microsoft 보안 점수 개요 페이지에서 이러한 그룹 간의 점수가 분할 되는 방식과 사용할 수 있는 지점을 볼 수 있습니다. 개요 페이지는 또한 전체 점수에 대 한 모든 보기, 벤치 마크 비교를 사용한 보안 점수의 역사적 추세 및 점수를 높이기 위해 수행할 수 있는 향상 작업의 우선 순위를 지정 하는 위치를 제공 합니다. 이 데이터를 사용 하 여 보안 환경을 작동 하 고 큰 차이를 내릴 수 있습니다.  
+Microsoft 보안 점수 개요 페이지에서 이러한 그룹 간의 점수가 분할 되는 방식과 사용할 수 있는 지점을 볼 수 있습니다. 개요 페이지는 또한 전체 점수에 대 한 모든 보기, 벤치 마크 비교를 사용한 보안 점수의 역사적 추세 및 점수를 높이기 위해 수행할 수 있는 향상 작업의 우선 순위를 지정 하는 위치를 제공 합니다.
 
 ![보안 점수 홈페이지](../media/secure-score/homepage-original.png)
 *그림 1: Microsoft 보안 점수 개요 페이지*
