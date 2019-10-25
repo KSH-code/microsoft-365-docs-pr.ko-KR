@@ -11,13 +11,13 @@
 # 내부 위험 관리
 ## [사용자 및 장치 액세스 보호](protect-access-to-data-and-services.md)
 ## [고객 Lockbox](customer-lockbox-requests.md)
-## [권한이 부여된 액세스 관리]()
+## 권한 있는 액세스 관리
 ### [권한이 부여된 액세스 관리에 대한 자세한 정보](privileged-access-management-overview.md)
 ### [권한이 부여된 액세스 관리 구성](privileged-access-management-configuration.md)
 ## 고객 키
 ### [고객 키를 사용하여 Office 365에서 데이터 제어](controlling-your-data-using-customer-key.md)
 ### [Office 365의 고객 키를 사용한 서비스 암호화 관련 자주하는 질문](service-encryption-with-customer-key-faq.md)
-## [커뮤니케이션 관리]()
+## 커뮤니케이션 감독
 ### [감독 정책에 대해 알아보기](supervision-policies.md)
 ### [조직의 감독 정책 구성](configure-supervision-policies.md)
 ## [정보 장벽](information-barriers.md)
@@ -387,7 +387,7 @@
 ## [GDPR](gdpr.md)
 ### [GDPR에 대한 권장 실행 계획](gdpr-action-plan.md)
 
-### [책임 준비 상태 검사 목록]()
+### 책임 준비 상태 검사 목록
 #### [책임 준비 상태 검사 목록](gdpr-arc.md)
 #### [Azure](gdpr-arc-azure.md)
 #### [Dynamics 365](gdpr-arc-dynamics365.md)
@@ -396,7 +396,7 @@
 
 ### [정보 보호](gdpr-information-protection.md)
 
-### [데이터 주체 요청]()
+### 데이터 주체 요청
 #### [데이터 주체 요청](gdpr-data-subject-requests.md)
 #### [Azure](gdpr-dsr-azure.md)
 #### [Azure DevOps 서비스](gdpr-dsr-vsts.md)
@@ -406,14 +406,14 @@
 #### [Office 365](gdpr-dsr-office365.md)
 #### [Visual Studio 제품군](gdpr-dsr-visual-studio-family.md)
 
-### [위반 알림]()
+### 위반 알림
 #### [위반 알림](gdpr-breach-notification.md)
 #### [Azure](gdpr-breach-azure.md)
 #### [Dynamics 365](gdpr-breach-dynamics365.md)
 #### [Microsoft 지원 및 전문 서비스](gdpr-breach-microsoft-support-professional-services.md)
 #### [Office 365](gdpr-breach-office365.md)
 
-### [데이터 보호 영향 평가]()
+### 데이터 보호 영향 평가
 #### [데이터 보호 영향 평가](gdpr-data-protection-impact-assessments.md)
 #### [Azure](gdpr-dpia-azure.md)
 #### [Dynamics 365](gdpr-dpia-dynamics.md)
@@ -574,7 +574,7 @@
 #### [유럽 연합 미국 프라이버시 쉴드](offering-eu-us-privacy-shield.md)
 #### [GDPR (유럽 연합)](offering-gdpr-eu.md)
 #### [G-Cloud (영국)](offering-g-cloud-uk.md)
-#### [IDW PS 951 (독일)]()
+#### IDW PS 951(독일)
 #### [IT Grundschutz 통합 문서 (독일)](offering-it-grundschutz-workbook-germany.md)
 #### [LOPD (스페인)](offering-lopd-spain.md)
 #### [PASF (영국)](offering-pasf-uk.md)
