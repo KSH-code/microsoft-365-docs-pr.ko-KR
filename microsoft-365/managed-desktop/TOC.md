@@ -15,6 +15,8 @@
 ### [지원](service-description/support.md)
 ### [운영 및 모니터링](service-description/operations-and-monitoring.md)
 ### [응용 프로그램의 요구 사항](service-description/mmd-app-requirements.md)
+### [서비스 변경 및 커뮤니케이션](service-description/servicechanges.md)
+### [서비스 사용자 지정](service-description/customizing.md)
 ## [Microsoft Managed Desktop에 등록 준비](get-ready/index.md)
 ### [Microsoft Managed Desktop의 필수 구성 요소](get-ready/prerequisites.md)
 ### [네트워크 준비](get-ready/network.md)
