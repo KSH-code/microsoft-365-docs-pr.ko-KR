@@ -10,12 +10,12 @@ ms.prod: microsoft-365-enterprise
 ms.topic: article
 ms.date: 08/30/2018
 ms.author: greglin
-ms.openlocfilehash: 3e37cebc1721a1bdcce0a30223a8beeb38868e82
-ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
+ms.openlocfilehash: 69edcd65ada007ead9e0c0d628b96f6390e34696
+ms.sourcegitcommit: 64a21c59d31a283ccbe87d16f0a174998e3aeba8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "37370085"
+ms.lasthandoff: 10/26/2019
+ms.locfileid: "37733462"
 ---
 # <a name="step-2-deploy-windows-10-enterprise-for-existing-devices-as-an-in-place-upgrade"></a>2 단계: 현재 위치 업그레이드로 기존 장치에 대 한 Windows 10 Enterprise 배포
 
@@ -28,6 +28,17 @@ ms.locfileid: "37370085"
 Windows 7 또는 Windows 8.1을 실행 하는 기존 컴퓨터가 있는 경우 조직에서 Windows 10을 배포 하는 경우이 경로를 권장 합니다. 이렇게 하면 Windows 설치 프로그램 (setup.exe)을 활용 하 여 기존 운영 체제 버전에서 모든 데이터, 설정, 응용 프로그램 및 드라이버를 자동으로 보존 하는 전체 업그레이드를 수행할 수 있습니다. 이렇게 하면 복잡 한 배포 인프라가 필요 하지 않으므로 최소한의 IT 노력이 필요 합니다.
 
 다음 단계에 따라 구성 관리자를 사용 하 여 Windows 10 Enterprise 이미지를 현재 위치 업그레이드로 구성 하 고 배포 합니다.
+
+## <a name="the-windows-10-deployment-with-system-center-configuration-manager-poster"></a>System Center Configuration Manager 포스터를 사용한 Windows 10 배포
+
+구성 관리자 포스터는 가로 모드 (17x11)의 한 페이지입니다. 아래 이미지를 클릭 하면 브라우저에서 PDF를 볼 수 있습니다. 
+
+[![Configuration Manager 포스터를 사용 하 여 Windows 10 배포](./media/windows10-deploy-inplaceupgrade/windows10-deployment-config-manager.png)](https://opdhsblobprod04.blob.core.windows.net/contents/d0d41f25ce48460387a79ace64acad6b/810b475c713ebb3ad65d13746940ef91?sv=2015-04-05&sr=b&sig=tKD38RgLAoOCAWJ5ppEbLevBAHk7KHtWrXldy2Jl6mY%3D&st=2019-10-24T22%3A16%3A08Z&se=2019-10-25T22%3A26%3A08Z&sp=r)
+
+<!--
+
+You can also download this poster in [PDF](https://github.com/MicrosoftDocs/windows-docs/raw/public/windows/deployment/media/Windows10DeploymentConfigManager.pdf) or [Visio](https://github.com/MicrosoftDocs/windows-docs/raw/public/windows/deployment/media/Windows10DeploymentConfigManager.vsdx) format.
+-->
 
 ## <a name="part-1-verify-readiness-to-upgrade-windows"></a>1 부: Windows 업그레이드 준비 상태 확인
 

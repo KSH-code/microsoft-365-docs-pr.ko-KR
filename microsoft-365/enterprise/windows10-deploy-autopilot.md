@@ -10,12 +10,12 @@ ms.prod: microsoft-365-enterprise
 ms.topic: article
 ms.date: 08/30/2018
 ms.author: greglin
-ms.openlocfilehash: 2ce02826ae2b0661d3b893c1074e692ce93cf9f3
-ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
+ms.openlocfilehash: 131c48e89a5bb82381347e766b3f00451a852410
+ms.sourcegitcommit: 64a21c59d31a283ccbe87d16f0a174998e3aeba8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "37370285"
+ms.lasthandoff: 10/26/2019
+ms.locfileid: "37733463"
 ---
 # <a name="step-3-deploy-windows-10-enterprise-for-new-devices-with-windows-autopilot"></a>3 단계: Windows Autopilot를 사용 하 여 새 장치에 Windows 10 Enterprise 배포
 
@@ -23,9 +23,21 @@ ms.locfileid: "37370285"
 
 ![3단계: Windows 10 Enterprise](./media/deploy-foundation-infrastructure/win10enterprise_icon-small.png)
 
-새 Windows 10 Pc가 있는 경우 Windows Autopilot을 사용 하 여 조직의 OOBE (기본 제공 경험)를 사용자 지정 하 고 앱 및 설정이 이미 구성 된 새 시스템을 배포할 수 있습니다. 배포할 이미지가 없으며, 드라이버를 주입할 수 없으며 관리할 인프라가 없습니다. 사용자는 IT 관리자에 게 문의 하지 않아도 배포 프로세스를 독립적으로 진행할 수 있습니다.
+새 Windows 10 Pc가 있는 경우 Windows Autopilot을 사용 하 여 조직의 OOBE (기본 제공 경험)를 사용자 지정 하 고 앱 및 설정이 이미 구성 된 새 시스템을 배포할 수 있습니다. 배포할 이미지, 주입할 드라이버 및 관리할 인프라가 없습니다. 사용자는 IT 관리자에 게 문의 하지 않아도 배포 프로세스를 독립적으로 진행할 수 있습니다.
 
 새 Windows 10 장치를 설정 하 고 사전 구성할 수 있으며 Windows Autopilot을 사용 하 여 생산적으로 사용할 준비가 되었습니다. 혜택 및 Windows Autopilot 시나리오를 비롯 한 Windows Autopilot에 대 한 자세한 내용은 [Overview For Windows Autopilot](https://docs.microsoft.com/windows/deployment/windows-Autopilot/windows-10-Autopilot)를 참조 하십시오. 준비가 되 면 다음 부분에 따라 새 장치 설정을 시작 합니다.
+
+## <a name="the-windows-autopilot-deployment-process-poster"></a>Windows Autopilot 배포 프로세스 포스터
+
+Windows Autopilot 포스터는 세로 모드 (11x17)의 두 페이지로 되어 있습니다. 아래 이미지를 클릭 하면 브라우저에서 PDF를 볼 수 있습니다. 
+
+[![Autopilot 포스터를 사용 하 여 Windows 10 배포](./media/windows10-deploy-autopilot/windows10-autopilot-flowchart.png)](https://opdhsblobprod04.blob.core.windows.net/contents/d0d41f25ce48460387a79ace64acad6b/d00f8fc01db0b512e4953663c8331588?sv=2015-04-05&sr=b&sig=bfzlEl8SrShCQyj8E2QUf6LJfxlKre6ortODE4qHjrc%3D&st=2019-10-24T22%3A18%3A33Z&se=2019-10-25T22%3A28%3A33Z&sp=r)
+
+<!--
+
+You can also download this poster in [PDF](https://github.com/MicrosoftDocs/windows-docs/raw/public/windows/deployment/media/Windows10AutopilotFlowchart.pdf) or [Visio](https://github.com/MicrosoftDocs/windows-docs/raw/public/windows/deployment/media/Windows10Autopilotflowchart.vsdx) format.
+
+-->
 
 ## <a name="part-1-start-windows-autopilot-deployment"></a>1 부: Windows Autopilot 배포 시작
 [Windows Autopilot 개요](https://docs.microsoft.com/windows/deployment/windows-Autopilot/windows-10-Autopilot) 를 참조 하세요.
