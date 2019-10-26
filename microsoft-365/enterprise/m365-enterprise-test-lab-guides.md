@@ -15,12 +15,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: 다음 테스트 랩 가이드를 사용하여 Microsoft 365 Enterprise의 데모, 개념 증명 또는 개발/테스트 환경을 설정합니다.
-ms.openlocfilehash: 6293e6a4ee17453fd842cde27f909412bb34dab0
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: 082d110ca7b25d3613ee276b30066683cd0232b5
+ms.sourcegitcommit: 64a21c59d31a283ccbe87d16f0a174998e3aeba8
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34073478"
+ms.lasthandoff: 10/26/2019
+ms.locfileid: "37733427"
 ---
 # <a name="microsoft-365-enterprise-test-lab-guides"></a>Microsoft 365 Enterprise 테스트 랩 가이드
 
@@ -59,7 +59,7 @@ ID 관련 기능을 시연하려면 다음을 참조하세요.
   
    AD DS 도메인 컨트롤러를 사용하여 Azure AD Seamless SSO(Single Sign-On)를 사용하도록 설정하고 테스트합니다.
 
-- [다단계 인증](multi-factor-authentication-microsoft-365-test-environment.md)
+- [Multi-Factor authentication](multi-factor-authentication-microsoft-365-test-environment.md)
   
    특정 사용자 계정에 대해 휴대폰 기반 다단계 인증을 사용하고 테스트합니다.
 
