@@ -15,12 +15,12 @@ ms.assetid: eef8408b-54d3-4d7d-9cf7-ad2af10b2e0e
 ms.collection:
 - M365-security-compliance
 description: '피싱 방지를 위해 Office 365 및 Outlook.com에는 이제 From: 주소에 대 한 RFC 준수가 필요 합니다.'
-ms.openlocfilehash: 39c9898a31c715487f3bc934ad0986e9a7b3679d
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: da1728b59ce100d988538d572a24ca1a44fa9a7b
+ms.sourcegitcommit: 96cbcfe8b02a5efc2d5a4fc070753ea96f298fda
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37087845"
+ms.lasthandoff: 10/28/2019
+ms.locfileid: "37749160"
 ---
 # <a name="how-office-365-validates-the-from-address-to-prevent-phishing"></a>Office 365에서 보낸 사람 주소의 유효성을 검사 하 여 피싱을 방지 하는 방법
 
@@ -35,7 +35,7 @@ Microsoft는 2017 년 11 월 9 일에이 문서에서 설명 하는 정책의 �
   
 ## <a name="how-office-365-enforces-the-use-of-a-valid-from-address-to-prevent-phishing-attacks"></a>Office 365에서 유효한 보낸 사람 주소 사용을 적용 하 여 피싱 공격을 방지 하는 방법
 
-Office 365은 피싱 공격 으로부터 사용자를 보호 하기 위해 받은 메시지에 보낸 사람: 주소를 사용 하도록 강제 적용 하는 방식을 변경 하는 것입니다. 이 문서의 내용
+Office 365은 피싱 공격 으로부터 사용자를 보호 하기 위해 받은 메시지에 보낸 사람: 주소를 사용 하도록 강제 적용 하는 방식을 변경 하는 것입니다. 이 문서의 내용:
   
 - [모든 메시지에는 다음의 유효한 보낸 사람: 주소가 포함 되어야 합니다.](how-office-365-validates-the-from-address.md#MustIncludeFromAddress)
     
@@ -73,7 +73,7 @@ From: 주소 값의 형식은 여러 Rfc에서 세부 정보로 정의 됩니다
 From: "displayname " <emailaddress >
 ```
 
-여기서 각 부분이 나타내는 의미는 다음과 같습니다.
+여기서,
   
 - 반드시  *displayname* 은 전자 메일 주소의 소유자를 설명 하는 구입니다. 예를 들어 사서함 이름 보다 사용자에 게 친숙 한 이름을 사용 하 여 보낸 사람을 설명할 수 있습니다. 표시 이름을 사용 하는 것은 선택 사항입니다. 그러나 표시 이름을 사용 하도록 선택 하는 경우에는 다음과 같이 항상 따옴표로 묶어야 합니다. 
     
@@ -83,7 +83,7 @@ From: "displayname " <emailaddress >
   local-part @domain
   ```
 
-    여기서 각 부분이 나타내는 의미는 다음과 같습니다.
+    여기서,
     
   - 않아도  *로컬 부분-* 주소와 연결 된 사서함을 식별 하는 문자열입니다. 이는 도메인 내에서 고유 합니다. 일반적으로 사서함 소유자의 사용자 이름 또는 GUID는 로컬 부분에 대 한 값으로 사용 됩니다. 
     
@@ -121,7 +121,7 @@ From: "Office 365" <sender@contoso.com> (Sent by a process)
 
 보낸 사람: 표시 이름에 대 한 값을 포함 하는 주소에는 다음 규칙이 적용 됩니다.
   
-- 보낸 사람 주소에 표시 이름이 포함 되어 있고 표시 이름에 쉼표가 포함 되어 있으면 표시 이름을 따옴표 안에 넣어야 합니다. 예를 들면 다음과 같습니다.
+- 보낸 사람 주소에 표시 이름이 포함 되어 있고 표시 이름에 쉼표가 포함 되어 있으면 표시 이름을 따옴표 안에 넣어야 합니다. 예:
     
     다음 예를 사용할 수 있습니다.
     
@@ -223,7 +223,7 @@ Office 365에서 보내는 아웃 바운드 메일에 대해서는이 정책을 
 ### <a name="other-ways-to-prevent-and-protect-against-cybercrimes-in-office-365"></a>Office 365에서 cybercrimes을 방지 하 고 보호 하는 기타 방법
 <a name="OtherProtection"> </a>
 
-피싱, spamming, 데이터 위반 및 기타 위협과 같은 cybercrimes 로부터 조직을 강화 하는 방법에 대 한 자세한 내용은 [Office 365의 보안 모범 사례](https://support.office.com/article/9295e396-e53d-49b9-ae9b-0b5828cdedc3)를 참조 하세요.
+피싱, spamming, 데이터 위반 및 기타 위협과 같은 cybercrimes 로부터 조직을 강화 하는 방법에 대 한 자세한 내용은 [Office 365의 보안 모범 사례](https://docs.microsoft.com/office365/admin/security-and-compliance/secure-your-business-data)를 참조 하세요.
   
 ## <a name="related-topics"></a>관련 주제
 

@@ -10,12 +10,12 @@ ms.prod: microsoft-365-enterprise
 ms.topic: article
 ms.date: 08/28/2019
 ms.author: greglin
-ms.openlocfilehash: 7253ea698613a38988bd7a6942a4908e9c797e2a
-ms.sourcegitcommit: 0d423b50d2f1f4eccd64e35e00f67313244efba9
+ms.openlocfilehash: b1f655e5befd16058870542f2e595d36599006fd
+ms.sourcegitcommit: 2aeafb631aaabc53eea0a8029711eb891e48d249
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "37372769"
+ms.lasthandoff: 10/28/2019
+ms.locfileid: "37746710"
 ---
 # <a name="phase-3-windows-10-enterprise"></a>3단계: Windows 10 Enterprise
 
@@ -30,7 +30,7 @@ Microsoft 365 Enterprise에는 더 많은 작업을 수행 하 고 보안을 유
 Windows 10 운영 체제를 배포 하 고 조직에 적합 한 시스템을 선택할 수 있는 다양 한 방법을 이해 해야 합니다. Microsoft 365 Enterprise 구독에 따라 Windows 10 서비스 및 보안 기능을 구성 하는 데 필요한 windows 10 서비스가 제공 됩니다.
 
 >[!Note]
->Windows 10 Enterprise 및 Office 365 ProPlus를 함께 배포하고 [최신 데스크톱](https://www.microsoft.com/microsoft-365/modern-desktop)으로 전환하려면 [최신 데스크톱 배포 센터](http://aka.ms/howtoshift)를 참조하세요.
+>Windows 10 Enterprise 및 Office 365 ProPlus를 함께 배포하고 [최신 데스크톱](https://www.microsoft.com/microsoft-365/modern-desktop)으로 전환하려면 [최신 데스크톱 배포 센터](https://aka.ms/howtoshift)를 참조하세요.
 >
 
 ## <a name="windows-10-deployment"></a>Windows 10 배포
