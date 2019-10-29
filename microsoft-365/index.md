@@ -8,12 +8,12 @@ ms.topic: hub-page
 keywords: Microsoft 365, Microsoft 365 설명서, 비즈니스용 Microsoft 365, 365 엔터프라이즈에 대 한 microsoft 365, 교육, 엔터프라이즈, 비즈니스, 교육, 문서, 설명서
 title: Microsoft 365 설명서
 description: Office 365, Windows 10 및 Enterprise Mobility + Security를 포함 하 여 모든 사람이 창조적이 고 완벽 하 게 작동 하도록 하는 완전 한 지능형 솔루션 (Microsoft 365에 대 한 설명서 및 리소스)을 소개 합니다.
-ms.openlocfilehash: 6026926ad2dd8638a3a9165e99a36b454eeac6bc
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 137479d7e9705a579a6c5aa20cb3a0ae935a1fd8
+ms.sourcegitcommit: 96cbcfe8b02a5efc2d5a4fc070753ea96f298fda
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37071767"
+ms.lasthandoff: 10/28/2019
+ms.locfileid: "37749150"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -24,7 +24,7 @@ ms.locfileid: "37071767"
                 <ul id="home">
                     <li>
                         <a href="#home-all"></a>
-                        <ul id="home-all" class="cardsW">
+                        <ul id="home-all" class="cardsK">
                             <li class="fullSpan intro"><a href="https://www.microsoft.com/microsoft-365/default.aspx" data-raw-source="[Microsoft 365](https://www.microsoft.com/microsoft-365/default.aspx)">Microsoft 365</a> 는 Office 365, Windows 10 및 Enterprise Mobility + Security를 포함 하는 완전 한 지능형 솔루션으로, 모든 사용자가 창의적인 작업을 수행 하 고 안전 하 게 함께 작업할 수 있도록 합니다.
                             </li>
                             <li>
@@ -40,7 +40,7 @@ ms.locfileid: "37071767"
                                                 <div class="cardText">
                                                     <br />
                                                     <h3>Microsoft 365 Enterprise</h3>
-                                                    <p>Microsoft 365 Enterprise는 대규모 조직을 위해 설계 되었으며 Office 365 Enterprise, Windows 10 Enterprise 및 Enterprise Mobility + Security를 통합 합니다.</p>
+                                                    <p>Microsoft 365 Enterprise는 대규모 조직을 위해 설계 되었으며 Office 365 Enterprise, Windows 10 Enterprise 및 Enterprise Mobility + Security를 통합 합니다.<br></br></p>
                                                 </div>
                                             </div>
                                         </div>
@@ -80,7 +80,7 @@ ms.locfileid: "37071767"
                                                 <div class="cardText">
                                                     <br />
                                                     <h3>Microsoft 365 Education</h3>
-                                                    <p>Microsoft 365 교육 지원 전문가는 팀 작업의 수준을 올리고, 홍보 하 고, 교육을 위해 구축 된 단일 저렴 한 솔루션에서 간단 하 고 안전한 환경을 제공 합니다.</p>
+                                                    <p>Microsoft 365 Education은 강사들이 교육용으로 디자인된 저렴한 단일 솔루션에서 독창성을 발휘하고, 팀 작업을 촉진하고, 간편하고 안전한 환경을 제공하도록 지원합니다.<br></br></p>
                                                 </div>
                                             </div>
                                         </div>
@@ -121,6 +121,26 @@ ms.locfileid: "37071767"
                                                     <br />
                                                     <h3>Microsoft 365 보안</h3>
                                                     <p>Microsoft 365 보안 솔루션은 공격 표면에서 기업 보호를 지원 합니다.</p>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </a>
+                            </li>
+                            <li>
+                                <a href="https://docs.microsoft.com/microsoft-365/campaigns/" target="blank">
+                                    <div class="cardSize">
+                                        <div class="cardPadding">
+                                            <div class="card">
+                                                <div class="cardImageOuter">
+                                                    <div class="cardImage bgdAccent1">
+                                                        <img src="https://docs.microsoft.com/office/media/hub-tiles/M365-HubTile-Campaigns-Tile-400x140-new2.svg" alt="Microsoft 365 for Campaigns documentation and resources" />
+                                                    </div>
+                                                </div>
+                                                <div class="cardText">
+                                                    <br />
+                                                    <h3>캠페인을 위한 Microsoft 365</h3>
+                                                    <p>캠페인 또는 비즈니스의 데이터와 통신을 Microsoft 365 Business에 대 한이 권장 구성으로 안전 하 게 보호 합니다.</p>
                                                 </div>
                                             </div>
                                         </div>
