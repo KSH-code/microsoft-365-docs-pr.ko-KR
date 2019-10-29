@@ -15,12 +15,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 6f916a77-301c-4be2-b407-6cec4d80df76
 description: 이 테스트 랩 가이드를 사용하여 Microsoft 365 Enterprise 테스트를 위한 시뮬레이트된 엔터프라이즈 테스트 환경을 만듭니다.
-ms.openlocfilehash: b0bb241cb475b8ab3bdb0d7ebbbda6ab0936b29d
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: 7a23f0eabcd9b4b0b94f6f932570fed12de32cbe
+ms.sourcegitcommit: 2aeafb631aaabc53eea0a8029711eb891e48d249
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34073098"
+ms.lasthandoff: 10/28/2019
+ms.locfileid: "37746504"
 ---
 # <a name="the-simulated-enterprise-base-configuration"></a>시뮬레이트된 엔터프라이즈 기본 구성
 
@@ -371,7 +371,7 @@ CLIENT1을 다시 시작한 후에 TESTLAB\\User1 계정 이름 및 암호를 �
 
 다음, Microsoft 365 E5 평가판 구독을 추가하고 전역 관리자 계정에 Microsoft 365 라이선스를 할당합니다.
 
-1. 인터넷 브라우저의 개인 인스턴스를 사용하고 전역 관리자 계정 자격 증명으로 [http://admin.microsoft.com](http://admin.microsoft.com)의 Microsoft 365 관리 센터에 로그인합니다.
+1. 인터넷 브라우저의 개인 인스턴스를 사용하고 전역 관리자 계정 자격 증명으로 [https://admin.microsoft.com](https://admin.microsoft.com)의 Microsoft 365 관리 센터에 로그인합니다.
     
 2. **Microsoft 365 관리 센터** 페이지에 있는 왼쪽 탐색 영역에서 **대금 청구 > 서비스 구매**를 차례로 클릭합니다.
     

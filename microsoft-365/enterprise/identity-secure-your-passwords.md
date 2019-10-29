@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 조직 전체에 암호를 강력하고 관리하기 쉽도록 설정해야 합니다.
-ms.openlocfilehash: a3661eedc11e0c826422f540cf1e2e9abf911f9d
-ms.sourcegitcommit: 83b919f8a7fcc4f75044ffc09fecd66fb4ed35b5
+ms.openlocfilehash: 375f4a678e85dccb544ffaf56f648e98609841d9
+ms.sourcegitcommit: 2aeafb631aaabc53eea0a8029711eb891e48d249
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "37662554"
+ms.lasthandoff: 10/28/2019
+ms.locfileid: "37746514"
 ---
 # <a name="step-2-secure-your-passwords"></a>2단계: 암호 보호
 
@@ -90,7 +90,7 @@ Microsoft 365 Enterprise를 사용하는 경우 회사 로고, 색 구성표 및
 
 자세한 내용은 [Office 365 로그인 페이지에 회사 브랜딩 추가](https://docs.microsoft.com/office365/admin/setup/customize-sign-in-page)를 참조하세요.
 
-구성 지침은 [로그인 및 액세스 패널에 회사 브랜딩 추가](http://aka.ms/aadpaddbranding)를 참조하세요.
+구성 지침은 [로그인 및 액세스 패널에 회사 브랜딩 추가](https://aka.ms/aadpaddbranding)를 참조하세요.
 
 중간 검사점으로 이 단계에 대한 [종료 조건](identity-exit-criteria.md#crit-identity-custom-sign-in)을 확인할 수 있습니다.
 

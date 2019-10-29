@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 구성이 ID 기반 서비스 및 인프라에 대한 Microsoft 365 Enterprise 조건을 충족하는지 확인합니다.
-ms.openlocfilehash: 4a93d0a9fb497daccba4fd2641fd5faf9c4fb384
-ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
+ms.openlocfilehash: 84c2b97e064d3dba8a97767a31cc9fe7ccc6dd8c
+ms.sourcegitcommit: 2aeafb631aaabc53eea0a8029711eb891e48d249
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "37370205"
+ms.lasthandoff: 10/28/2019
+ms.locfileid: "37746524"
 ---
 # <a name="phase-2-identity-infrastructure-exit-criteria"></a>2단계: ID 인프라 종료 조
 
@@ -96,7 +96,7 @@ Microsoft 365 구독을 위반할 수 있는 공격자의 자격 증명 손상�
 <a name="crit-identity-custom-sign-in"></a>
 ## <a name="optional-the-office-365-sign-in-screen-is-personalized-for-your-organization"></a>선택: Office 365 로그인 화면을 조직에 맞게 개인 설
 
-[로그인 및 액세스 패널 페이지에 회사 브랜딩을 추가](http://aka.ms/aadpaddbranding)하여 Office 365 로그인 페이지를 조직의 브랜딩을 추가해야 합니다.
+[로그인 및 액세스 패널 페이지에 회사 브랜딩을 추가](https://aka.ms/aadpaddbranding)하여 Office 365 로그인 페이지를 조직의 브랜딩을 추가해야 합니다.
 
 이 옵션을 건너뛰면 사용자에게 일반 Office 365 로그인 화면이 표시되므로 조직의 사이트에 로그인 중인지 확신하지 못할 수 있습니다.
 

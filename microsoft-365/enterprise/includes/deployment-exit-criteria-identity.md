@@ -68,7 +68,7 @@ Microsoft 365 구독을 위반할 수 있는 공격자의 자격 증명 손상�
 <a name="crit-identity-custom-sign-in"></a>
 ### <a name="optional-the-office-365-sign-in-screen-is-personalized-for-your-organization"></a>선택: Office 365 로그인 화면을 조직에 맞게 개인 설
 
-[로그인 및 액세스 패널 페이지에 회사 브랜딩을 추가](http://aka.ms/aadpaddbranding)하여 Office 365 로그인 페이지를 조직의 브랜딩을 추가해야 합니다.
+[로그인 및 액세스 패널 페이지에 회사 브랜딩을 추가](https://aka.ms/aadpaddbranding)하여 Office 365 로그인 페이지를 조직의 브랜딩을 추가해야 합니다.
 
 이 옵션을 건너뛰면 사용자에게 일반 Office 365 로그인 화면이 표시되므로 조직의 사이트에 로그인 중인지 확신하지 못할 수 있습니다.
 
