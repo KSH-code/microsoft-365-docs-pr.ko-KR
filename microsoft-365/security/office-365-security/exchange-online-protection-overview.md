@@ -10,12 +10,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 1270a65f-ddc3-4430-b500-4d3a481efb1e
 description: Microsoft EOP(Exchange Online Protection)는 스팸 및 맬웨어로부터 조직을 보호하는 클라우드 기반 전자 메일 필터링 서비스로, 메시징 정책 위반으로부터 조직을 보호하는 기능을 포함합니다.
-ms.openlocfilehash: e091946792e78f47f5c0ab5a001bf45ca4de6b08
-ms.sourcegitcommit: cbf117a4cd92a907115c9f10752f3c557361e586
+ms.openlocfilehash: b00de649bf0517d3c5cda99f1c20579ad1dfeec5
+ms.sourcegitcommit: 333ecfb8bfeb34f9f08d82d295b40d37de6ba8b9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "37440455"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "37772272"
 ---
 # <a name="exchange-online-protection-overview"></a>Exchange Online Protection 개요
 
@@ -56,13 +56,13 @@ EOP는 특정 지역 내에서만 데이터 센터 간 부하 분산을 수행�
 
 ## <a name="eop-plans-and-features"></a>EOP 계획 및 기능
 
-다음은 사용 가능한 EOP 구독 계획입니다.
+사용 가능한 EOP 구독 계획은 다음과 같습니다.
 
-- **EOP 독립 실행형**: EOP에서 온-프레미스 사서함을 보호 합니다.
+- **EOP 독립 실행형**: EOP에 등록 하 여 온-프레미스 전자 메일 조직을 보호 합니다.
 
-- **Exchange online의 EOP 기능**: EOP에서 exchange online 클라우드 호스트 사서함을 보호 합니다.
+- **Exchange online의 EOP 기능**: exchange online (독립 실행형 또는 Office 365의 일부로)이 포함 된 모든 구독은 EOP을 사용 하 여 exchange online 사서함을 보호 합니다.
 
-- **Exchange ENTERPRISE CAL With Services**: EOP에서 EOP 독립 실행형과 같은 온-프레미스 사서함을 보호 하 고, 웹 서비스를 사용한 DLP (데이터 손실 방지) 및 보고 기능을 포함 합니다.
+- **Exchange ENTERPRISE cal With services**: 서비스 라이선스로 추가 EXCHANGE Enterprise cal을 구매한 온-프레미스 Exchange 조직이 있는 경우 EOP는 포함 된 서비스의 일부입니다.
 
 모든 EOP 구독 계획의 요구 사항, 중요 제한 및 기능 가용성에 대한 자세한 내용은 [Exchange Online Protection 서비스 설명](https://go.microsoft.com/fwlink/p/?LinkId=320619)을 참조하세요.
 

@@ -12,12 +12,12 @@ ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: 안전한 링크 기능은 Office 문서 및 전자 메일 메시지에서 하이퍼링크를 클릭 하 여 확인할 시간을 제공 합니다. 이 문서를 읽으면 ATP 안전한 링크가 작동 하는 방식을 확인할 수 있습니다.
-ms.openlocfilehash: 45053b51bb5a91698d90f61567aa7f5577518587
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: bb60d57a422d908b013caf7267f21f390769cfb4
+ms.sourcegitcommit: 333ecfb8bfeb34f9f08d82d295b40d37de6ba8b9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37087851"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "37772202"
 ---
 # <a name="how-office-365-atp-safe-links-works"></a>Office 365 ATP 안전한 링크가 작동 하는 방식
          
@@ -49,11 +49,11 @@ ms.locfileid: "37087851"
     
 ## <a name="how-atp-safe-links-works-with-urls-in-office-documents"></a>ATP 안전한 링크가 Office 문서의 Url과 작동 하는 방식
 
-높은 수준에서 [ATP 안전한 링크](atp-safe-links.md) 보호는 Office 365 ProPlus 응용 프로그램 (windows 또는 office의 최신 버전의 Word, Excel 및 PowerPoint, IOS 또는 Android 장치에 있는 사무용 앱, Windows의 Visio, OneNote, 브라우저에 있는 경우)의 url에 대해 작동 합니다. 브라우저의 Office):
+높은 수준에서 [ATP 안전한 링크](atp-safe-links.md) 보호는 Office 365 ProPlus 또는 Business Premium 응용 프로그램 (Windows, Mac 또는 브라우저의 최신 버전, IOS 또는 Android 장치에 있는 Office 앱, Visio on)의 url에 대해 작동 합니다. Windows, 브라우저의 OneNote:
   
-1. 사용자가 컴퓨터, 스마트폰 또는 태블릿에서 Office 365 ProPlus를 설치 했습니다. (또는 브라우저에서 Office를 사용 중인 경우)
+1. 사용자의 컴퓨터, 스마트폰 또는 태블릿에서 Office 365 ProPlus 또는 Business Premium을 설치 했습니다. (또는 브라우저에서 Office를 사용 중인 경우)
     
-2. 사용자가 회사 또는 학교 계정을 사용 하 여 Word, Excel, PowerPoint 또는 Visio를 열고 Office 365 Enterprise에 로그인 합니다. 문서에 Url이 포함 되어 있습니다.
+2. 사용자가 Word, Excel, PowerPoint, OneNote (웹) 또는 Visio (데스크톱)를 열고 회사 또는 학교 계정을 사용 하 여 Office 365 Enterprise에 로그인 합니다. 문서에 Url이 포함 되어 있습니다.
     
 3. 사용자가 문서에서 URL을 클릭 하면 해당 링크는 ATP Safe Links service에 의해 확인 됩니다.
     
@@ -66,4 +66,6 @@ ms.locfileid: "37087851"
       - URL이 다운로드 가능한 파일로 이동 하 고 [ATP Safe Links 정책이](set-up-atp-safe-links-policies.md) 이러한 다운로드를 검색 하도록 구성 된 경우 다운로드 가능한 파일이 검사 됩니다. 
     
       - URL이 안전한 것으로 간주 되 면 사용자는 웹 사이트로 이동 됩니다.
+      
+      - URL 확인이 실패 하면 안전한 링크 보호 기능이 트리거되지 않습니다. 데스크톱 클라이언트에서 사이트를 계속 진행 하기 전에 사용자에 게 경고가 표시 됩니다.
 
