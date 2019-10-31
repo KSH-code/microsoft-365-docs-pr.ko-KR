@@ -13,12 +13,12 @@ ms.custom: aka.ms/self-service-purchase-faq
 search.appverid:
 - MET150
 description: 셀프 서비스 구매에 대 한 일반적인 질문과 대답을 확인할 수 있습니다.
-ms.openlocfilehash: f88d815b83da1038f3c5854a7499a5efaa029320
-ms.sourcegitcommit: 96cbcfe8b02a5efc2d5a4fc070753ea96f298fda
+ms.openlocfilehash: 7cf1fa1b12ab11e777754cba8f75cc4bead95279
+ms.sourcegitcommit: 29d85279c76ffaaa3f45e7ea3bdb590f54847fd6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "37749170"
+ms.lasthandoff: 10/30/2019
+ms.locfileid: "37885582"
 ---
 # <a name="self-service-purchase-faq"></a>셀프 서비스 구매 FAQ
 
@@ -29,15 +29,15 @@ ms.locfileid: "37749170"
 
 ### <a name="what-changes-did-microsoft-announce-around-self-service-purchases-for-the-power-platform-products"></a>전원 플랫폼 제품에 대 한 셀프 서비스 구매 시 Microsoft에서 어떤 변경 사항을 알리지 않습니까?
 
-미국에서 대부분의 상업 클라우드 고객에 대해 11 월 19 일, 2019, 셀프 서비스 구매, 구독 및 라이선스 관리 기능을 사용할 수 있습니다. 셀프 서비스 구매 기능을 통해 사용자는 새로운 기술을 시험해 보고 궁극적으로 더 큰 조직에 이익이 되는 솔루션을 개발할 수 있습니다. 이 기능은 현재 정부, 비영리 또는 교육 인 테 넌 트에는 사용할 수 없습니다. 중앙 조달 및 IT 팀은 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 관리 센터</a>를 통해 셀프 서비스 구매 솔루션을 구입 하 고 배포 하는 모든 사용자에 게 표시 됩니다.
+미국에서 대부분의 상업 클라우드 고객에 대해 11 월 19 일, 2019, 셀프 서비스 구매, 구독 및 라이선스 관리 기능을 사용할 수 있습니다. 셀프 서비스 구매 기능을 통해 사용자는 새로운 기술을 시험해 보고 궁극적으로 더 큰 조직에 이익이 되는 솔루션을 개발할 수 있습니다. 지금은 정부, 비영리 또는 교육 인 테 넌 트에는이 기능을 사용할 수 없습니다. 중앙 조달 및 IT 팀은 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 관리 센터</a>를 통해 셀프 서비스 구매 솔루션을 구입 하 고 배포 하는 모든 사용자에 게 표시 됩니다.
 
 ### <a name="why-is-microsoft-adding-a-self-service-purchase-option-for-the-power-platform-products"></a>Microsoft가 전원 플랫폼 제품에 대해 셀프 서비스 구매 옵션을 추가 하는 이유는 무엇 인가요?
 
-디지털 변환의 결과로 기존 역할이 변경 됩니다. 직원 들이 보다 독립적이 고 versed 향상 되 면 사용자와 조직 모두의 요구가 증가 하 여 사용자가 구독을 직접 구매할 수 있도록 합니다. 셀프 서비스 구매 옵션을 사용 하면 조직의 데이터 거 버 넌 스 및 규정 준수를 촉진 하는 동시에 생산성을 해제 하 고 비즈니스에 영향을 줄 수 있는 자체 솔루션을 개발할 수 있습니다.
+오늘날의 세계에서는 최종 사용자 및 부서에서 기술 솔루션 자체를 점점 더 빠르게 확인할 수 있습니다. 이러한 고객 으로부터 다양 한 요청이 수신 되어 전원 플랫폼 제품의 셀프 서비스 구매를 사용할 수 있습니다. IT 관리자의 요구 사항에 대응 하 고, 조직 내의 개인이 사용자 모르게 타사 솔루션을 채택 하는 시기를 제어할 수 있는 경우에도이 고객에 게 필요한 정보를 제공 합니다. Power Platform 제품에 대해 예정 된 셀프 서비스 기능을 사용 하는 경우 IT 관리자는 조직 내에서 수행 되는 모든 셀프 서비스 구매를 완벽 하 게 수행할 수 있으며, 조직 수준에서 설정 된 데이터 거 버 넌 스를 계산 합니다. 셀프 서비스를 통해 구매한 구독 또한 관리자는 기존 라이선스를 할당 하거나, 셀프 서비스 구매에 할당 된 사용자에 대 한 기존 계약 및 가격 산정을 통해 전원 플랫폼 제품의 추가 구독을 구매할 수 있습니다. 중앙에서 구매한 라이선스를 할당 한 후 관리자는 purchasers에서 기존 구독을 취소 하도록 요청할 수 있습니다. Microsoft는 향후 관리자를 위해이 프로세스를 간소화 하 고 간소화 하는 방법을 탐색 하 고 있습니다.
 
 ### <a name="when-will-self-service-purchase-for-the-power-platform-products-be-available"></a>전원 플랫폼 제품에 대 한 셀프 서비스 구매를 사용할 수 있나요?
 
-Microsoft는 다음 달에 추가 시장을 사용할 수 있도록 미국 지역의 고객에 게 11 월 19 2019 일에 Power BI에 대 한 셀프 서비스 구매를 시작 합니다. PowerApps 및 Microsoft Flow는 2019 년 12 월 4 일에 추가 됩니다. 이 기능은 현재 정부, 비영리 또는 교육 인 테 넌 트에는 사용할 수 없습니다.
+Microsoft는 다음 달에 추가 시장을 사용할 수 있도록 미국 지역의 고객에 게 11 월 19 2019 일에 Power BI에 대 한 셀프 서비스 구매를 시작 합니다. PowerApps 및 Microsoft Flow는 2019 년 12 월 4 일에 추가 됩니다. 지금은 정부, 비영리 또는 교육 인 테 넌 트에는이 기능을 사용할 수 없습니다.
 
 ### <a name="will-self-service-purchase-be-enabled-for-services-beyond-the-power-platform-products"></a>파워 플랫폼 제품 이외의 서비스에 셀프 서비스 구매를 사용할 수 있나요?
 
@@ -97,11 +97,11 @@ Microsoft는 다음 달에 추가 시장을 사용할 수 있도록 미국 지�
 
 ### <a name="why-are-self-service-purchases-not-subject-to-admin-approval"></a>셀프 서비스 구매에 관리자 승인이 적용 되지 않는 이유는 무엇 인가요?
 
-관리자가 서비스에 대 한 제어를 유지 관리 하 고 데이터 거 버 넌 스 및 규정 준수를 준수할 수 있도록 하는 동시에이 기능을 요청한 고객에 게 응답 합니다. Azure AD 서비스 주체를 관리 하는 방법에 대 한 자세한 내용은 [(new-msolserviceprincipal](https://docs.microsoft.com/powershell/module/msonline/set-msolserviceprincipal?view=azureadps-1.0)를 참조 하십시오. 또한 관리자는 셀프 서비스 구매를 수행한 사람과 테 넌 트의 사용자가 셀프 서비스 구매에서 라이선스를 할당 받은 사람에 대 한 모든 시야를 확인할 수 있습니다. 그런 다음 조직은 자체 내부 정책, 절차 및 통신을 사용 하 여 셀프 서비스 구매를 수행 하는 개인이 회사 정책을 준수 하도록 할 수 있습니다. 
+서비스를 계속 관리 하는 동시에 셀프 서비스 구매를 요청 하는 고객에 게 응답 하 고 있습니다. 관리자는 셀프 서비스 구매를 수행한 사람과 테 넌 트의 사용자가 셀프 서비스 구매에서 라이선스를 할당 받은 사람에 대 한 모든 시야를 확인할 수 있습니다. 조직에서는 내부 정책, 절차 및 통신을 사용 하 여 셀프 서비스 구매를 수행 하는 개인이 회사 정책을 준수 하도록 할 수도 있습니다.  서비스에 대 한 액세스를 제어 하는 방법에 대 한 한 가지 예: [(new-msolserviceprincipal](https://docs.microsoft.com/powershell/module/msonline/set-msolserviceprincipal?view=azureadps-1.0) 를 사용 하 여 전체 테 넌 트에서 제품 사용을 방지 하는 방법을 확인할 수 있습니다.
 
 ### <a name="how-is-microsoft-respecting-data-governance-and-compliance-by-enabling-self-service-purchase"></a>Microsoft는 셀프 서비스 구매를 사용 하 여 데이터를 관리 하 고 규정 준수 하는 방법을 알아봅니다.
 
-관리자는 데이터 거 버 넌 스 및 규정 준수 요구 사항에 따라 해당 사용자의 해당 tenant에서 사용 하도록 설정 된 서비스 및 제품을 제어할 수 있습니다. 또한 조직이 사용 하도록 설정 된 모든 데이터 관리 및 액세스 정책은 계속 해 서 구매한 지원 서비스에 적용 됩니다.
+관리자는 데이터 거 버 넌 스 및 규정 준수 요구 사항에 따라 해당 사용자의 해당 tenant에서 사용 하도록 설정 된 서비스 및 제품을 제어할 수 있습니다. 또한 조직이 사용 하도록 설정 된 모든 데이터 관리 및 액세스 정책은 셀프 서비스를 구매한 지원 서비스에 적용 됩니다.
 
 ### <a name="who-owns-the-product-data-created-from-self-service-purchases"></a>셀프 서비스 구매에서 만든 제품 데이터는 누구 입니까?
 
