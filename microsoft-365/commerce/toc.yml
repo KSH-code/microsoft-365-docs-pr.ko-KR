@@ -25,7 +25,7 @@
         - name: 청구 프로필 관리
           href: /microsoft-365/commerce/billing-and-payments/manage-billing-profiles
         - name: 결제 서비스 지시어 2 및 강력한 고객 인증
-          href: /microsoft-365/commerce/billing-and-payments/psd2.md
+          href: /microsoft-365/commerce/billing-and-payments/psd2
     - name: 청구 계정
       items:
         - name: 청구 계정 정보 관리
