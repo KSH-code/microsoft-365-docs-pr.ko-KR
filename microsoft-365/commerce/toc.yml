@@ -9,11 +9,11 @@
         - name: 라이선스 구매
           href: /office365/admin/subscriptions-and-billing/buy-licenses?view=o365-worldwide&context=/microsoft-365/commerce/context/context-commerce
         - name: 라이선스 할당
-          href: /office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide&context=/microsoft-365/commerce/context/context-commerce
+          href: /office365/admin/manage/assign-licenses-to-users?view=o365-worldwide&context=/microsoft-365/commerce/context/context-commerce
+        - name: 라이선스 할당 해제
+          href: /office365/admin/manage/remove-licenses-from-users?view=o365-worldwide&context=/microsoft-365/commerce/context/context-commerce
         - name: 구독에서 라이선스 제거
           href: /office365/admin/subscriptions-and-billing/remove-licenses-from-subscription?view=o365-worldwide&context=/microsoft-365/commerce/context/context-commerce
-        - name: 사용자의 라이선스 제거
-          href: /office365/admin/subscriptions-and-billing/remove-licenses-from-users?view=o365-worldwide&context=/microsoft-365/commerce/context/context-commerce
         - name: 업그레이드 구독
           href: /office365/admin/subscriptions-and-billing/upgrade-to-different-plan?view=o365-worldwide&context=/microsoft-365/commerce/context/context-commerce
     - name: 자재 명세서 및 지불
@@ -21,7 +21,7 @@
         - name: 요금 청구 방식
           href: /microsoft-365/commerce/billing-and-payments/understand-your-invoice
         - name: 결제 방법 관리
-          href: /microsoft-store/payment-methods?context=/microsoft-365/commerce/context/context-commerce
+          href: /office365/Admin/subscriptions-and-billing/add-update-or-remove-credit-card-or-bank-account?view=o365-worldwide&context=/microsoft-365/commerce/context/context-commerce
         - name: 청구 프로필 관리
           href: /microsoft-365/commerce/billing-and-payments/manage-billing-profiles
         - name: 결제 서비스 지시어 2 및 강력한 고객 인증
