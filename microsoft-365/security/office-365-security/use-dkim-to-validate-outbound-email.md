@@ -14,12 +14,12 @@ ms.assetid: 56fee1c7-dc37-470e-9b09-33fff6d94617
 ms.collection:
 - M365-security-compliance
 description: '요약: 이 문서에서는 Office 365에서 도메인키 식별 메일(DKIM)을 사용하여 대상 전자 메일 시스템이 사용자 지정 도메인에서 보낸 메시지를 신뢰하도록 하는 방법을 설명합니다.'
-ms.openlocfilehash: 4d9228301a4cafd3728a349ad710496ba8f9d379
-ms.sourcegitcommit: ffdf576fbc62c4c316f6d8061d2bd973e7df9f56
+ms.openlocfilehash: 07cb90684bbbba4851697020ceac4756381f8b55
+ms.sourcegitcommit: 333ecfb8bfeb34f9f08d82d295b40d37de6ba8b9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/19/2019
-ms.locfileid: "37598292"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "37772242"
 ---
 # <a name="use-dkim-to-validate-outbound-email-sent-from-your-custom-domain-in-office-365"></a>DKIM을 사용하여 Office 365의 사용자 지정 도메인에서 전송한 아웃바운드 전자 메일의 유효성을 검사합니다.
 
@@ -129,7 +129,7 @@ Get-DkimSigningConfig 출력에서 참조되는 CNAME 만들기
 ```powershell
     Set-DkimSigningConfig -Identity <domain> -Enabled $true
 ```
-DNS의 CNAME 레코드는 Office 365용 Microsoft DNS 서버의 DNS에 생성되어 이미 존재하는 A 레코드를 가리킵니다.
+DNS의 CNAME 레코드는 Office 365용 Microsoft DNS 서버의 DNS에 생성되어 이미 존재하는 DKIM TXT 레코드를 가리킵니다.
   
 Office 365는 사용자가 설정한 두 개의 레코드를 사용하여 자동 키 순환을 수행합니다. Office 365의 초기 도메인 외에 사용자 지정 도메인을 프로비저닝한 경우에는 추가 도메인마다 두 개의 CNAME 레코드를 게시해야 합니다. 따라서 두 개의 도메인이 있는 경우 두 개의 CNAME 레코드를 모두 게시해야 합니다.
   
