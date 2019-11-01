@@ -13,12 +13,12 @@ ms.custom: aka.ms/self-service-purchase-faq
 search.appverid:
 - MET150
 description: 셀프 서비스 구매에 대 한 일반적인 질문과 대답을 확인할 수 있습니다.
-ms.openlocfilehash: 7cf1fa1b12ab11e777754cba8f75cc4bead95279
-ms.sourcegitcommit: 29d85279c76ffaaa3f45e7ea3bdb590f54847fd6
+ms.openlocfilehash: 9faa573ea2062af2fe49e2810eaecc75ce90c84c
+ms.sourcegitcommit: 9d0a025ea9e265d515a034de0102eabcf47d11f5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "37885582"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "37911389"
 ---
 # <a name="self-service-purchase-faq"></a>셀프 서비스 구매 FAQ
 
@@ -29,7 +29,12 @@ ms.locfileid: "37885582"
 
 ### <a name="what-changes-did-microsoft-announce-around-self-service-purchases-for-the-power-platform-products"></a>전원 플랫폼 제품에 대 한 셀프 서비스 구매 시 Microsoft에서 어떤 변경 사항을 알리지 않습니까?
 
-미국에서 대부분의 상업 클라우드 고객에 대해 11 월 19 일, 2019, 셀프 서비스 구매, 구독 및 라이선스 관리 기능을 사용할 수 있습니다. 셀프 서비스 구매 기능을 통해 사용자는 새로운 기술을 시험해 보고 궁극적으로 더 큰 조직에 이익이 되는 솔루션을 개발할 수 있습니다. 지금은 정부, 비영리 또는 교육 인 테 넌 트에는이 기능을 사용할 수 없습니다. 중앙 조달 및 IT 팀은 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 관리 센터</a>를 통해 셀프 서비스 구매 솔루션을 구입 하 고 배포 하는 모든 사용자에 게 표시 됩니다.
+UPDATE a 2019 년 10 월 31 일: 지난 주에 걸쳐 Power Platform 제품에 대 한 셀프 서비스 구매 기능의 롤아웃에 대 한 고객 의견을 듣고 있습니다. 의견에 따라 요금제를 다음과 같이 변경 합니다.
+
+- 11 월 19th 부터는 IT 관리자에 게 PowerShell을 통해 제품별로 셀프 서비스 구매를 해제할 수 있는 방법을 제공 합니다. 자세한 내용은 곧 제공 될 예정입니다.
+- 이 변경에 대비 하 여 준비할 시간을 추가로 제공 하려면 모든 상업용 클라우드 고객을 위해 1 월 14th에 power BI로 시작 하는 Power Platform 제품에 대 한 셀프 서비스 구매 기능에 대 한 시작을 업데이트 합니다.  
+
+고급 플랫폼 제품 (Power BI, PowerApps 및 Flow)에 대 한 1 월 14 일부터 2020, 셀프 서비스 구매, 구독 및 라이선스 관리 기능을 사용할 수 있습니다. 셀프 서비스 구매 기능을 통해 사용자는 새로운 기술을 시험해 보고 궁극적으로 더 큰 조직에 이익이 되는 솔루션을 개발할 수 있습니다. 지금은 정부, 비영리 또는 교육 인 테 넌 트에는이 기능을 사용할 수 없습니다. 중앙 조달 및 IT 팀은 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 관리 센터</a> 를 통해 셀프 서비스 구매 솔루션을 구입 하 고 배포 하는 모든 사용자에 게 표시 되 고 PowerShell을 통해 제품별로 셀프 서비스 구매를 해제할 수 있습니다.
 
 ### <a name="why-is-microsoft-adding-a-self-service-purchase-option-for-the-power-platform-products"></a>Microsoft가 전원 플랫폼 제품에 대해 셀프 서비스 구매 옵션을 추가 하는 이유는 무엇 인가요?
 
@@ -37,7 +42,7 @@ ms.locfileid: "37885582"
 
 ### <a name="when-will-self-service-purchase-for-the-power-platform-products-be-available"></a>전원 플랫폼 제품에 대 한 셀프 서비스 구매를 사용할 수 있나요?
 
-Microsoft는 다음 달에 추가 시장을 사용할 수 있도록 미국 지역의 고객에 게 11 월 19 2019 일에 Power BI에 대 한 셀프 서비스 구매를 시작 합니다. PowerApps 및 Microsoft Flow는 2019 년 12 월 4 일에 추가 됩니다. 지금은 정부, 비영리 또는 교육 인 테 넌 트에는이 기능을 사용할 수 없습니다.
+Microsoft는 미국의 1 월 2020 14 일에 Power BI에 대 한 셀프 서비스 구매를 시작 하며, 향후 달에 추가 시장을 사용할 수 있는 상태가 됩니다. PowerApps 및 Microsoft Flow가 다음 주에 추가 될 예정입니다. 지금은 정부, 비영리 또는 교육 인 테 넌 트에는이 기능을 사용할 수 없습니다.
 
 ### <a name="will-self-service-purchase-be-enabled-for-services-beyond-the-power-platform-products"></a>파워 플랫폼 제품 이외의 서비스에 셀프 서비스 구매를 사용할 수 있나요?
 
@@ -91,13 +96,7 @@ Microsoft는 다음 달에 추가 시장을 사용할 수 있도록 미국 지�
 
 ### <a name="what-capabilities-does-an-admin-have-for-self-service-purchases"></a>관리자가 셀프 서비스를 구매 하는 데 사용할 수 있는 기능은 무엇입니까?
 
-관리자는 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 관리 센터</a>에서 조직에 적용 된 모든 셀프 서비스 구매를 볼 수 있습니다. 제품, 구매자 이름, 구독 구입, 만료 날짜, 주문 내역, 구매 가격 및 각 셀프 서비스 구매에 대 한 사용자 지정을 볼 수 있습니다.
-
-적격 조직의 모든 Azure AD 사용자는 셀프 서비스 구매를 수행할 수 있고 구독에 대 한 모든 권한을 가지는 하지만 관리자는 셀프 서비스 구매를 통해 구매한 제품에 대해 동일한 데이터 관리 및 액세스 정책을 사용 하 게 됩니다. 관리할.
-
-### <a name="why-are-self-service-purchases-not-subject-to-admin-approval"></a>셀프 서비스 구매에 관리자 승인이 적용 되지 않는 이유는 무엇 인가요?
-
-서비스를 계속 관리 하는 동시에 셀프 서비스 구매를 요청 하는 고객에 게 응답 하 고 있습니다. 관리자는 셀프 서비스 구매를 수행한 사람과 테 넌 트의 사용자가 셀프 서비스 구매에서 라이선스를 할당 받은 사람에 대 한 모든 시야를 확인할 수 있습니다. 조직에서는 내부 정책, 절차 및 통신을 사용 하 여 셀프 서비스 구매를 수행 하는 개인이 회사 정책을 준수 하도록 할 수도 있습니다.  서비스에 대 한 액세스를 제어 하는 방법에 대 한 한 가지 예: [(new-msolserviceprincipal](https://docs.microsoft.com/powershell/module/msonline/set-msolserviceprincipal?view=azureadps-1.0) 를 사용 하 여 전체 테 넌 트에서 제품 사용을 방지 하는 방법을 확인할 수 있습니다.
+관리자는 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 관리 센터</a>에서 조직에 적용 된 모든 셀프 서비스 구매를 볼 수 있습니다. 제품, 구매자 이름, 구독 구입, 만료 날짜, 주문 내역, 구매 가격 및 각 셀프 서비스 구매에 대 한 사용자 지정을 볼 수 있습니다. 조직의 요구 사항에 따라 관리자는 PowerShell을 통해 제품별로 셀프 서비스 구매를 해제할 수 있습니다. 관리자는 셀프 서비스 구매 또는 중앙을 통해 구매한 제품에 대해 동일한 데이터 관리 및 액세스 정책을 사용 합니다.
 
 ### <a name="how-is-microsoft-respecting-data-governance-and-compliance-by-enabling-self-service-purchase"></a>Microsoft는 셀프 서비스 구매를 사용 하 여 데이터를 관리 하 고 규정 준수 하는 방법을 알아봅니다.
 
@@ -122,6 +121,11 @@ Microsoft는 다음 달에 추가 시장을 사용할 수 있도록 미국 지�
 ### <a name="are-customers-it-departments-or-partners-expected-to-support-products-bought-through-self-service-purchase"></a>고객의 IT 부서 또는 파트너가 셀프 서비스 구매를 통해 구매한 제품을 지원 하기를 기대 하나요?
 
 IT 부서 및 파트너가 셀프 서비스 구매를 통해 구매한 제품에 대 한 지원을 제공 하지 않을 것으로 예상 됩니다. Microsoft는 셀프 서비스 purchasers에 대 한 표준 지원을 제공 합니다.
+
+### <a name="if-a-self-service-purchaser-calls-support-will-they-use-the-customers-premier-support-incidents"></a>셀프 서비스 구매자가 지원을 요청 하는 경우 고객의 프리미어 지원 인시던트를 사용할 것인가?
+
+셀프 서비스 purchasers 고객의 프리미어 지원 인시던트를 사용 하 여 셀프 서비스 구매 지원을 받을 수 없습니다.
+
 
 ### <a name="how-are-users-expected-to-receive-training-on-the-products-they-buy-through-self-service-purchase"></a>사용자가 셀프 서비스 구매를 통해 구입한 제품에 대 한 교육을 받을 것으로 예상 되는 이유는 무엇 인가요?
 
