@@ -3,7 +3,7 @@ title: Microsoft 365 Enterprise 배포 컨텐츠의 변경 사항
 author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
-ms.date: 10/25/2019
+ms.date: 10/30/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Microsoft 365 배포 가이드의 새로운 내용 및 콘텐츠에 대한 변경 사항을 확인하세요.
-ms.openlocfilehash: 7c0ce7abed78f305bb3dc71e92628b25d48a040d
-ms.sourcegitcommit: 64a21c59d31a283ccbe87d16f0a174998e3aeba8
+ms.openlocfilehash: 6c965efcbbfebe4fd80ac983674a7d183793e946
+ms.sourcegitcommit: a75e3a93b3431bd26b0d072b37a9c5eb3dcb1c7f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/26/2019
-ms.locfileid: "37733489"
+ms.lasthandoff: 10/31/2019
+ms.locfileid: "37889937"
 ---
 # <a name="changes-to-microsoft-365-enterprise-deployment-content"></a>Microsoft 365 Enterprise 배포 컨텐츠의 변경 사항
 
@@ -30,21 +30,29 @@ ms.locfileid: "37733489"
 
   [![Autopilot 포스터를 사용하여 Windows 10 배포](./media/windows10-deploy-autopilot/windows10-autopilot-flowchart.png)](https://opdhsblobprod04.blob.core.windows.net/contents/d0d41f25ce48460387a79ace64acad6b/d00f8fc01db0b512e4953663c8331588?sv=2015-04-05&sr=b&sig=bfzlEl8SrShCQyj8E2QUf6LJfxlKre6ortODE4qHjrc%3D&st=2019-10-24T22%3A18%3A33Z&se=2019-10-25T22%3A28%3A33Z&sp=r)
 
+  [PDF](https://github.com/MicrosoftDocs/windows-itpro-docs/raw/public/windows/deployment/media/Windows10AutopilotFlowchart.pdf)나 [Visio](https://github.com/MicrosoftDocs/windows-itpro-docs/raw/public/windows/deployment/media/Windows10Autopilotflowchart.vsdx) 형식으로도 포스터를 다운로드 할 수 있습니다.
+
 - [System Center Configuration Manager 포스터를 사용하여 Windows 10 배포](windows10-deploy-inplaceupgrade.md)
 
   [![System Center Configuration Manager 포스터를 사용하여 Windows 10 배포](./media/windows10-deploy-inplaceupgrade/windows10-deployment-config-manager.png)](https://opdhsblobprod04.blob.core.windows.net/contents/d0d41f25ce48460387a79ace64acad6b/810b475c713ebb3ad65d13746940ef91?sv=2015-04-05&sr=b&sig=tKD38RgLAoOCAWJ5ppEbLevBAHk7KHtWrXldy2Jl6mY%3D&st=2019-10-24T22%3A16%3A08Z&se=2019-10-25T22%3A26%3A08Z&sp=r)
 
+  [PDF](https://github.com/MicrosoftDocs/windows-itpro-docs/raw/public/windows/deployment/media/Windows10DeploymentConfigManager.pdf)나 [Visio](https://github.com/MicrosoftDocs/windows-itpro-docs/raw/public/windows/deployment/media/Windows10DeploymentConfigManager.vsdx) 형식으로도 포스터를 다운로드 할 수 있습니다.
+
 - [규제가 엄격한 데이터 시나리오를 위한 Teams](secure-teams-highly-regulated-data-scenario.md)
 
   [![규제가 엄격한 데이터 시나리오를 위한 Teams](./media/secure-teams-highly-regulated-data-scenario/secure-team-final.png)](secure-teams-highly-regulated-data-scenario.md)
+
+  공지: [Microsoft 365 기술 커뮤니티 블로그](https://techcommunity.microsoft.com/t5/Microsoft-365-Blog/Protect-your-highly-regulated-files-in-Teams-with-Microsoft-365/ba-p/962985)  |  [LinkedIn](https://www.linkedin.com/pulse/how-can-i-lock-down-team-sensitive-top-secret-joe-davies/?published=t)
+
 
 - [원격 작업자 지원](empower-people-to-work-remotely.md#poster)
 
   [![원격 작업자 지원](./media/empower-people-to-work-remotely/empower-remote-workers-poster-half.png)](media/empower-people-to-work-remotely/empower-remote-workers-scenario.pdf) 
  
 
-### <a name="updates-and-enhancements"></a>업데이트 및 개선사항
+### <a name="updates-and-enhancements"></a>업데이트 및 향상된 기능
 
+- [4단계: Office 365 ProPlus](office365proplus-infrastructure.md)의 새로 고침
 - [Contoso 사례 연구](contoso-case-study.md)의 새로 고침
 - [Microsoft Teams](teams-workload.md) 새로 고침, [Exchange Online](exchangeonline-workload.md) 및 [SharePoint Online](sharepoint-online-onedrive-workload.md) 작업 부하
 - [높은 규제 대상 데이터를 위한 SharePoint 사이트](teams-sharepoint-online-sites-highly-regulated-data.md) 시나리오의 새로 고침
@@ -63,6 +71,8 @@ ms.locfileid: "37733489"
 
   [![하이브리드 ID를 사용하는 조직의 원거리 작업자 구성](./media/empower-people-to-work-remotely/remote-workers-hybrid.png)](empower-people-to-work-remotely.md) 
  
+  공지: [Microsoft 365 기술 커뮤니티 블로그](https://techcommunity.microsoft.com/t5/Microsoft-365-Blog/Empower-your-remote-workers-with-Microsoft-365-Enterprise/ba-p/935196#M236)  |  [LinkedIn](https://www.linkedin.com/pulse/how-do-i-configure-microsoft-365-enterprise-empower-my-joe-davies/)
+
 - [6 단계: 정보 보호](infoprotect-infrastructure.md)의 [전자 메일 암호화 단계](infoprotect-email-encryption.md)
 
 ### <a name="updates-and-enhancements"></a>업데이트 및 개선사항
