@@ -4,6 +4,7 @@
 ## [준수 센터의 새로운 기능](whats-new.md)
 ## [규정 준수 콘텐츠의 최신 업데이트](recently-updated-topics-mcc.md)
 ## [Microsoft 365 규정 준수 센터](microsoft-365-compliance-center.md)
+## [Microsoft 365 솔루션 카탈로그(미리 보기)](microsoft-365-solution-catalog.md)
 ## [보안 및 준수 센터로 이동](go-to-the-securitycompliance-center.md)
 ## [무료 Azure Active Directory 구독 사용](use-your-free-azure-ad-subscription-in-office-365.md)
 ## [Office 365의 보안 및 규정 준수 계획](plan-for-security-and-compliance.md)
@@ -17,9 +18,13 @@
 ## 고객 키
 ### [고객 키를 사용하여 Office 365에서 데이터 제어](controlling-your-data-using-customer-key.md)
 ### [Office 365의 고객 키를 사용한 서비스 암호화 관련 자주하는 질문](service-encryption-with-customer-key-faq.md)
-## 커뮤니케이션 감독
-### [감독 정책에 대해 알아보기](supervision-policies.md)
-### [조직의 감독 정책 구성](configure-supervision-policies.md)
+## 커뮤니케이션 규정 준수
+### [커뮤니케이션 규정 준수에 대해 알아보기(미리 보기)](communication-compliance.md)
+### [Microsoft 365에서의 커뮤니케이션 규정 준수 구성(미리 보기)](communication-compliance-configure.md)
+### [커뮤니케이션 규정 준수 알림 검사 및 수정(미리 보기)](communication-compliance-investigate-remediate.md)
+### [커뮤니케이션 규정 준수에 대한 기능 참조(미리 보기)](communication-compliance-feature-reference.md)
+### [Office 365에서의 감독 정책](supervision-policies.md)
+### [Office 365에 대한 감독 정책 구성](configure-supervision-policies.md)
 ## [정보 장벽](information-barriers.md)
 ### [정보 장벽 정책 정의](information-barriers-policies.md)
 ### [정보 장벽 정책의 속성](information-barriers-attributes.md)
@@ -31,6 +36,8 @@
 ### [민감도 레이블에서 암호화를 사용하여 콘텐츠 액세스 제한](encryption-sensitivity-labels.md)
 ### [민감도 레이블을 콘텐츠에 자동으로 적용](apply-sensitivity-label-automatically.md)
 ### [레이블 분석을 통한 레이블 사용량 보기](label-analytics.md)
+### [팀, 그룹 및 사이트와 민감도 레이블 사용](sensitivity-labels-teams-groups-sites.md)
+### [SharePoint 및 OneDrive에서 Office 파일에 대한 민감도 레이블 사용](sensitivity-labels-sharepoint-onedrive-files.md)
 ### [Office 앱의 민감도 레이블](sensitivity-labels-office-apps.md)
 
 ## [DLP(데이터 손실 방지)](data-loss-prevention-policies.md)
@@ -89,6 +96,7 @@
 ### [분류자 만들기 및 교육 (미리 보기)](classifier-creating-a-trainable-classifier.md)
 
 # 정보 거버넌스 관리
+## [정보 거버넌스 관리](manage-information-governance.md)
 ## [데이터 가져오기](importing-pst-files-to-office-365.md)
 ### [네트워크 업로드를 사용하여 PST 파일 가져오기](use-network-upload-to-import-pst-files.md)
 ### [드라이브 발송을 사용하여 PST 파일 가져오기](use-drive-shipping-to-import-pst-files-to-office-365.md)
@@ -372,7 +380,7 @@
 ### [규정 준수 관리자(미리 보기)](compliance-manager-overview.md)
 #### [준수 관리자(미리 보기)의 새로운 기능](compliance-manager-release-notes.md)
 #### [준수 관리자(미리 보기)로 작업하기](working-with-compliance-manager.md)
-#### [준수 관리자 (레거시)](meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md)
+#### [규정 준수 관리자(기본)](meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md)
 
 ## [GDPR 데이터 주체 요청 도구](manage-gdpr-data-subject-requests-with-the-dsr-case-tool.md)
 ## [GDPR에 대한 Office 365 정보 보호](office-365-information-protection-for-gdpr.md)
@@ -394,8 +402,8 @@
 # [규정 준수 조치 계획](compliance-solutions-overview.md)
 
 ## [ISO - 권장 실행 계획](iso-action-plan.md)
-## [NIST — 권장 실행 계획](nist-action-plan.md) 
-
+## [NIST — 권장 실행 계획](nist-action-plan.md)
+## [CCPA - 자주 묻는 질문](ccpa-faq.md)
 ## [GDPR](gdpr.md)
 ### [GDPR에 대한 권장 실행 계획](gdpr-action-plan.md)
 
@@ -592,6 +600,7 @@
 #### [PASF (영국)](offering-pasf-uk.md)
 
 ### 북미
+#### [캘리포니아 소비자 개인 정보 보호법(CCPA)](offering-ccpa.md)
 #### [캐나다 개인정보 보호법](offering-canadian-privacy-laws.md)
 
 ### 남미
