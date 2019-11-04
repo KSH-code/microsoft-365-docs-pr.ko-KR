@@ -15,6 +15,8 @@
 ## [ID 및 장치 액세스 구성](../enterprise/microsoft-365-policies-configurations.md)
 ### [선행 조건 작업](../enterprise/identity-access-prerequisites.md)
 ### [일반 ID 및 장치 액세스 정책](../enterprise/identity-access-policies.md)
+### [게스트 및 외부 사용자에 대한 정책](../enterprise/identity-access-policies-guest-access.md)
+### [권장 Teams 액세스 정책](../enterprise/teams-access-policies.md)
 ### [권장 Exchange Online 액세스 정책](../enterprise/secure-email-recommended-policies.md)
 ### [권장 SharePoint Online 액세스 정책](../enterprise/sharepoint-file-access-policies.md)
 
@@ -201,16 +203,16 @@
 ##### [정치적 캠페인 개발/테스트 환경에 대해 그룹 및 사용자 구성](./office-365-security/configure-groups-and-users-for-a-political-campaign-dev-test-environment.md)
 ##### [정치적 캠페인 개발/테스트 환경에서 팀 사이트 만들기](./office-365-security/create-team-sites-in-a-political-campaign-dev-test-environment.md)
 
+#### [Microsoft Teams에서의 파일 보호](./office-365-security/secure-files-in-teams.md)
+##### [파일의 3단계 보호를 위한 팀 배포](./office-365-security/deploy-teams-three-tiers.md)
+##### [보존 레이블 및 DLP를 사용하여 팀에서 파일을 보호](./office-365-security/deploy-teams-retention-DLP.md)
+##### [민감도 레이블을 사용하여 팀에서 파일 보호](./office-365-security/deploy-teams-sensitivity-labels.md)
+##### [개발/테스트 환경에서의 Teams 파일 보호](./office-365-security/secure-team-for-files-in-a-dev-test-environment.md)
+
 #### [SharePoint Online 사이트 및 파일 보호](./office-365-security/secure-sharepoint-online-sites-and-files.md)
 ##### [개발/테스트 환경의 보안 SharePoint Online 사이트](./office-365-security/secure-sharepoint-online-sites-in-a-dev-test-environment.md)
 
-#### [격리된 SharePoint Online 팀 사이트](./office-365-security/isolated-sharepoint-online-team-sites.md)
-##### [격리된 SharePoint Online 팀 사이트 디자인](./office-365-security/design-an-isolated-sharepoint-online-team-site.md)
-##### [격리된 SharePoint Online 팀 사이트 배포](./office-365-security/deploy-an-isolated-sharepoint-online-team-site.md)
-##### [격리된 SharePoint Online 팀 사이트 관리](./office-365-security/manage-an-isolated-sharepoint-online-team-site.md)
-##### [격리된 SharePoint Online 팀 사이트 개발/테스트 환경](./office-365-security/isolated-sharepoint-online-team-site-dev-test-environment.md)
 #### [SIEM 서버 통합](./office-365-security/siem-server-integration.md)
-
 
 #### [Exchange Online Protection](./office-365-security/exchange-online-protection-overview.md)
 ##### [EOP 기능](./office-365-security/eop-features.md)
