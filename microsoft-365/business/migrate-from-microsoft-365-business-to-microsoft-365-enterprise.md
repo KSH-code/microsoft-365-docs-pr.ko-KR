@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 ms.assetid: 5b4ba843-24b8-4526-8e1f-f9b9eab89d06
 description: Microsoft 365 Business에서 Microsoft 365 Enterprise e 3로 비즈니스를 이동 하는 방법을 알아봅니다.
-ms.openlocfilehash: efdf4030a2a638a3fd56d1c415fcc6e6ac261c1a
-ms.sourcegitcommit: 333ecfb8bfeb34f9f08d82d295b40d37de6ba8b9
+ms.openlocfilehash: 1ef32960905f1336f9ac92231d463959e3bfd01c
+ms.sourcegitcommit: 5c6c30ec5541d2fb77e53a1309db1fe7b75fc3e2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "37772725"
+ms.lasthandoff: 11/02/2019
+ms.locfileid: "37931856"
 ---
 # <a name="migrate-from-microsoft-365-business-to-microsoft-365-enterprise-e3"></a>Microsoft 365 Business에서 Microsoft 365 Enterprise e 3로 마이그레이션
 
@@ -34,10 +34,10 @@ Microsoft 365 Business에는 최고의 비즈니스에 필요한 모든 것이 �
 
 또는 회사에 Office 365 ProPlus, Windows 10 Enterprise E3 또는 엔터프라이즈 Cal (클라이언트 액세스 라이선스)과 같은 enterprise 기능이 필요 합니다.
 
-마이그레이션은 단순히 라이선스를 전환 하는 것이 쉽습니다. 현재 구독의 모든 데이터와 구성이 유지 됩니다. 새 기능을 사용 하는 경우를 제외 하 고는 마이그레이션을 준비 하 고 나중에 수행 해야 하는 작업이 없습니다. 
+업그레이드는 [관리 센터에서](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/upgrade-to-different-plan?view=o365-worldwide)업그레이드를 시작할 수 있습니다. 현재 구독의 모든 데이터와 구성이 유지 됩니다. 새 기능을 사용 하는 경우를 제외 하 고는 마이그레이션을 준비 하 고 나중에 수행 해야 하는 작업이 없습니다. 
 
 >[!Note]
->또한 최대 300의 사용자를 위해 Microsoft 365 비즈니스 구독을 사용할 수 있으며, 300 명 보다 더 많은 Microsoft 365 Enterprise E3 구독을 받을 수도 있습니다. 그러나 Office 365 ATP는 Microsoft 365 Enterprise e 3에 포함 되어 있지 않습니다. Microsoft 365 Enterprise E3 구독의 사용자에 대 한 Office 365 ATP 라이선스를 추가 해야 합니다.
+>또한 최대 300의 사용자를 위해 Microsoft 365 비즈니스 구독을 사용할 수 있으며, 300 명 보다 더 많은 Microsoft 365 Enterprise E3 구독을 받을 수도 있습니다. 그러나 Office 365 ATP는 Microsoft 365 Enterprise e 3에 포함 되어 있지 않습니다. 계속 해 서 위협 방지를 위해 office 365 ATP 정책 범위에 있는 모든 사용자에 게 라이선스가 있도록 Office 365 ATP 라이선스를 추가 해야 합니다.
 >
 
 ## <a name="differences-between-microsoft-365-business-and-microsoft-365-enterprise"></a>Microsoft 365 비즈니스 및 Microsoft 365 Enterprise의 차이점
@@ -104,7 +104,7 @@ Microsoft 365 Business에는 최고의 비즈니스에 필요한 모든 것이 �
 앱을 10 개 넘게 사용 하려면 Cloud App Discovery, Azure AD Connect Health 및 SSO를 사용할 수 있습니다.
 
 >[!Note]
->Microsoft 365 Enterprise e 3로 마이그레이션한 후에는 더 이상 Outlook 고객 관리자 및 MileIQ을 사용할 수 없습니다.
+>Microsoft 365 Enterprise e 3으로 마이그레이션된 사용자는 더 이상 Outlook 고객 관리자 및 MileIQ를 사용할 수 없습니다.
 >
 
 <a name="threat-protection"></a>
@@ -127,7 +127,7 @@ Windows 10 Business에는 다음과 같은 보호 기능이 포함 되어 있습
 Windows 10 Enterprise e 3에는 Microsoft Edge에 대 한 하드웨어 기반 격리의 엔터프라이즈 관리도 포함 됩니다.
 
 >[!Note]
->Microsoft 365 Enterprise e 3로 마이그레이션한 후 Office 365 ATP가 더 이상 없습니다. Microsoft 365 Enterprise E3 구독에 대 한 추가 Office 365 ATP 라이선스를 구매한 다음 사용자 계정에 할당할 수 있습니다.
+>Microsoft 365 Enterprise e 3로 마이그레이션된 사용자에 게는 계속 해 서 위협 방지를 위해 Office 365 ATP 라이선스가 필요 합니다. Office 365 ATP 정책 범위에 있는 모든 사용자에 게 라이선스가 있도록 추가 Office 365 ATP 라이선스를 구입 해야 합니다. 
 >
 
 ### <a name="device-management-with-intune"></a>Intune을 사용한 장치 관리
