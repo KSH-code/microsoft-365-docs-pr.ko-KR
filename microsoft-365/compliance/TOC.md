@@ -82,6 +82,12 @@
 #### [Office 365 메시지 암호화 레거시 정보](legacy-information-for-message-encryption.md)
 #### [Office 365 메시지 암호화에 대한 Azure 권한 관리 설정](set-up-azure-rms-for-previous-version-message-encryption.md)
 
+## [데이터 분류 이해 (미리 보기)](data-classification-overview.md)
+### [레이블 활동 보기 (미리 보기)](data-classification-activity-explorer.md)
+### [학습 가능한 분류자 시작 (미리 보기)](classifier-getting-started-with.md)
+### [바로 사용 가능한 분류자 사용 (미리 보기)](classifier-using-a-ready-to-use-classifier.md)
+### [분류자 만들기 및 교육 (미리 보기)](classifier-creating-a-trainable-classifier.md)
+
 # 정보 거버넌스 관리
 ## [데이터 가져오기](importing-pst-files-to-office-365.md)
 ### [네트워크 업로드를 사용하여 PST 파일 가져오기](use-network-upload-to-import-pst-files.md)
@@ -357,11 +363,16 @@
 
 # 규정 준수 위험 관리
 ## [Microsoft 서비스 보안 포털](get-started-with-service-trust-portal.md)
-## [규정 준수 관리자(기본)](meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md)
-## [규정 준수 관리자(미리 보기)](compliance-manager-overview.md)
-### [준수 관리자(미리 보기)의 새로운 기능](compliance-manager-release-notes.md)
-### [준수 관리자(미리 보기)로 작업하기](working-with-compliance-manager.md)
-### [규정 준수 점수 방법론(미리 보기)](compliance-score-methodology.md)
+## 준수 점수 및 준수 관리자
+### [준수 점수 (미리 보기)](compliance-score.md)
+### [준수 점수 설정 (미리 보기)](compliance-score-setup.md)
+### [준수 점수 작업 (미리 보기)](working-with-compliance-score.md)
+### [준수 점수 계산 (미리 보기)](compliance-score-methodology.md)
+### [준수 점수 릴리스 정보 (미리 보기)](compliance-score-release-notes.md)
+### [규정 준수 관리자(미리 보기)](compliance-manager-overview.md)
+#### [준수 관리자(미리 보기)의 새로운 기능](compliance-manager-release-notes.md)
+#### [준수 관리자(미리 보기)로 작업하기](working-with-compliance-manager.md)
+#### [준수 관리자 (레거시)](meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md)
 
 ## [GDPR 데이터 주체 요청 도구](manage-gdpr-data-subject-requests-with-the-dsr-case-tool.md)
 ## [GDPR에 대한 Office 365 정보 보호](office-365-information-protection-for-gdpr.md)

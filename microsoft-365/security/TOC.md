@@ -6,7 +6,7 @@
 ### [최고 정보 보안 책임자(CISO) 워크샵 교육](./office-365-security/ciso-workshop.md)
 #### [모듈 1 - Microsoft 사이버 보안 브리핑](./office-365-security/ciso-workshop-module-1.md)
 #### [모듈 2 - 보안 관리](./office-365-security/ciso-workshop-module-2.md)
-#### [모듈 3 - ID 및 액세스 관리](./office-365-security/ciso-workshop-module-3.md)
+#### [모듈 3 - ID 및 제로 트러스트 사용자 액세스](./office-365-security/ciso-workshop-module-3.md)
 #### [모듈 4a - 위협 방지 전략, 파트 I](./office-365-security/ciso-workshop-module-4a.md)
 #### [모듈 4b - 위협 방지 전략, 파트 II](./office-365-security/ciso-workshop-module-4b.md)
 #### [모듈 5 - 정보 보호](./office-365-security/ciso-workshop-module-5.md)
@@ -99,6 +99,7 @@
 #### [Office 365의 스푸핑 방지 보호 기능](./office-365-security/anti-spoofing-protection.md)
 ##### [스푸핑 인텔리전스에 대해 자세히 알아보기](./office-365-security/learn-about-spoof-intelligence.md)
 ##### [스푸프 정보 이해를 위한 검토회](./office-365-security/walkthrough-spoof-intelligence-insight.md)
+##### [Outlook.com 및 웹용 Outlook에서 의심스러운 메시지 식별](./office-365-security/unverified-sender-feature.md)
 
 #### [EOP란 무엇입니까?](./office-365-security/what-is-eop.md)
 ##### [IPv6을 통한 익명 인바운드 전자 메일 메시지 지원](./office-365-security/support-for-anonymous-inbound-email-messages-over-ipv6.md)
@@ -160,7 +161,7 @@
 
 #### [위협 탐색기 (실시간 검출)](./office-365-security/threat-explorer.md)
 ##### [위협 탐색기 보기](./office-365-security/threat-explorer-views.md)
-##### [Outlook.com 및 웹용 Outlook에서 의심스러운 메시지 식별](./office-365-security/unverified-sender-feature.md)
+
 
 #### [보안 강화를 위한 통합]()
 ##### [Office 365 ATP와 Microsoft Defender ATP를 통합](./office-365-security/integrate-office-365-ti-with-wdatp.md)
