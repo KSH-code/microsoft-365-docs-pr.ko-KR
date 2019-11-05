@@ -90,6 +90,7 @@
 #### [Office 365 메시지 암호화에 대한 Azure 권한 관리 설정](set-up-azure-rms-for-previous-version-message-encryption.md)
 
 ## [데이터 분류 이해 (미리 보기)](data-classification-overview.md)
+### [레이블이 지정된 콘텐츠 보기(미리 보기)](data-classification-content-explorer.md)
 ### [레이블 활동 보기 (미리 보기)](data-classification-activity-explorer.md)
 ### [학습 가능한 분류자 시작 (미리 보기)](classifier-getting-started-with.md)
 ### [바로 사용 가능한 분류자 사용 (미리 보기)](classifier-using-a-ready-to-use-classifier.md)
