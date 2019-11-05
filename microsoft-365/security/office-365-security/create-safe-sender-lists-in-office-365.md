@@ -12,12 +12,12 @@ search.appverid:
 - MET150s
 ms.assetid: 9721b46d-cbea-4121-be51-542395e6fd21
 description: 특정 보낸 사람의 메일을 수신 하는 경우 해당 사용자와 해당 메시지를 신뢰 하기 때문에 Exchange 관리 센터의 스팸 필터 정책에서 허용 목록을 조정할 수 있습니다.
-ms.openlocfilehash: b01abc327dd19a2d3098d3c49deed1edb1c07b68
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 8651b09d891a57cd5239311026af701064c9a4e1
+ms.sourcegitcommit: 78f2c5f89f4f59e4c1865369fc6ba82486881e8a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088942"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "37964454"
 ---
 # <a name="create-safe-sender-lists-in-office-365"></a>Office 365에서 수신 허용-보낸 사람 목록 만들기
 
@@ -59,7 +59,7 @@ ms.locfileid: "37088942"
 
 1. SCL (스팸 지 수)을-1 (스팸 필터링 바이패스)로 설정 합니다.
 
-2. 규칙이 수행 하는 작업을 표시 하는 X-헤더를 추가 합니다. 아래 예제에서는 간단한 헤더 "X-y r: 인증 된 보낸 사람 `contoso.com`에 대 한 스팸 필터링 바이패스"를 추가할 수 있습니다. 이 규칙에 도메인이 두 개 이상 있는 경우 머리글 텍스트를 적절 하 게 변경할 수 있습니다. **ETR로 인 한 메시지에 대 한 필터링을 생략 하면 스팸 방지-Report 헤더의 SFV를 스탬프** 처리 합니다. (**IP 허용 목록에 있는 경우 IPV: CAL에도 스탬프**처리 됩니다. 이는 문제 해결을 지원 합니다.
+2. 규칙이 수행 하는 작업을 표시 하는 X-헤더를 추가 합니다. 아래 예제에서는 간단한 헤더 "X-y r: 인증 된 보낸 사람 `contoso.com`에 대 한 스팸 필터링 바이패스"를 추가할 수 있습니다. 이 규칙에 도메인이 두 개 이상 있는 경우 머리글 텍스트를 적절 하 게 변경할 수 있습니다. **ETR로 인 한 메시지 필터링을 생략 하면 스팸 방지-Report 헤더의 SFV: e n i 스탬프** 처리 (**IP 허용 목록에 있는 경우 IPV: CAL**)가 사용 됩니다. 이는 문제 해결을 지원 합니다.
 
 ![스팸 필터링 바이패스 용 GUI](../media/1-AllowList-SkipFilteringFromContoso.png)
 

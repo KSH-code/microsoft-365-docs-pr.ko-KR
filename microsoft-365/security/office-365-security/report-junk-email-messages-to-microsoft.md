@@ -14,12 +14,12 @@ ms.assetid: c31406ea-2979-4fac-9288-f835269b9d2f
 ms.collection:
 - M365-security-compliance
 description: Microsoft Office Outlook용 Microsoft 정크 메일 보고 추가 기능은 정크 메일 메시지를 보고하는 다양한 방법을 제공합니다.
-ms.openlocfilehash: 622463be7aea51b0912965ff713c76e8961c51d3
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 4b53f6df11f2b0ee8fe6b20d3797d6e317c9a73e
+ms.sourcegitcommit: 78f2c5f89f4f59e4c1865369fc6ba82486881e8a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088795"
+ms.lasthandoff: 11/04/2019
+ms.locfileid: "37964444"
 ---
 # <a name="report-junk-email-messages-to-microsoft"></a>Microsoft에 정크 메일 메시지 보고
 
@@ -34,7 +34,7 @@ Microsoft Office Outlook용 Microsoft 정크 메일 보고 추가 기능은 정�
 정크 메일 보고 추가 기능을 사용하면 Microsoft EOP(Exchange Online Protection) 서비스에 보고서를 쉽게 제출할 수 있습니다. 사서함이 서비스에 의해 보호되지 않는 경우에 정크 전자 메일 보고서 제출은 스팸 필터에 영향을 주지 않습니다. 관리자는 [메시지가 스팸으로 표시되지 않는지 확인하는 방법](https://go.microsoft.com/fwlink/p/?LinkId=534224) 또는 [Office 365 스팸 필터로 전자 메일 스팸을 차단하여 거짓 부정 문제 방지](https://go.microsoft.com/fwlink/p/?LinkId=534225)에서 전체 조직에 적용되는 추가 스팸 설정을 확인할 수 있습니다. 이러한 정보는 관리자 수준의 권한이 있고 거짓 긍정 또는 거짓 부정을 방지하려는 경우에 유용합니다.
   
 > [!TIP]
-> 또한 [junk@office365.microsoft.com](mailto:junk@office365.microsoft.com) 전자 메일 주소와 [not_junk@office365.microsoft.com](mailto: not_junk@office365.microsoft.com) 전자 메일 주소를 사용 하 여 가양성 (스팸 아님) 메시지를 사용 하 여 Microsoft에 직접 스팸 메시지를 제출할 수 있습니다. 자세한 내용은 [분석을 위해 Microsoft에 스팸 및 스팸이 아닌 메시지 제출을](submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md)참조 하세요. 
+> 또한 [junk@office365.microsoft.com](mailto:junk@office365.microsoft.com) 전자 메일 주소와 [not_junk@office365.microsoft.com](mailto:not_junk@office365.microsoft.com) 전자 메일 주소를 사용 하 여 가양성 (스팸 아님) 메시지를 사용 하 여 Microsoft에 직접 스팸 메시지를 제출할 수 있습니다. 자세한 내용은 [분석을 위해 Microsoft에 스팸 및 스팸이 아닌 메시지 제출을](submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md)참조 하세요. 
   
 ### <a name="to-report-junk-email-messages-from-outlook"></a>Outlook에서 정크 메일 메시지를 보고 하려면
 
