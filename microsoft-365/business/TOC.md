@@ -1,5 +1,5 @@
 # Microsoft 365 Business
-## [Microsoft 365](index.md)
+## [Microsoft 365](index.yml)
 ## [Microsoft 365 Business란 무엇인가요?](microsoft-365-business-overview.md)
 ## [Microsoft 365 Business 얻기](sign-up.md)
 ## [데이터 보호를 위한 필요 조건](pre-requisites-for-data-protection.md)
@@ -32,7 +32,10 @@
 ### [Windows 10 PC에 대한 장치 보호 설정](protection-settings-for-windows-10-pcs.md)
 #### [Windows 10 PC의 설정 확인](validate-settings-on-windows-10-pcs.md)
 ### [Windows 10 PC의 앱 보호 설정](protection-settings-for-windows-10-devices.md)
-## [Microsoft 365 Business로 마이그레이션](migrate-to-microsoft-365-business.md)
+## Microsoft 365 Business로 마이그레이션
+### [Office 365 Business Premium Office에서 마이그레이션](migrate-to-microsoft-365-business.md)
+### [Office 365 E3에서 마이그레이션](migrate-from-e3.md)
+### [Microsoft 365 Enterprise로 마이그레이션](migrate-from-microsoft-365-business-to-microsoft-365-enterprise.md)
 ## 청구
 ### [청구서](/Office365/Admin/subscriptions-and-billing/view-your-bill-or-invoice?toc=/microsoft-365/business/toc.json&bc=/microsoft-365/business/breadcrumb/toc.json)
 ### [지불](/Office365/Admin/subscriptions-and-billing/pay-for-your-subscription?toc=/microsoft-365/business/toc.json&bc=/microsoft-365/business/breadcrumb/toc.json)
