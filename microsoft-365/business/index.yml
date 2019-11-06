@@ -1,0 +1,185 @@
+### YamlMime:Hub
+title: Microsoft 365 비즈니스 리소스
+summary: Microsoft 365 Business에는 Excel 및 Outlook과 같은 최신 버전의 Windows 및 Office 앱이 포함 되어 있습니다. 다운로드 하 여 실행 하 고 모든 비즈니스 장치에 확장 되는 데이터 보호 및 보안을 활용할 수 있습니다.
+brand: m365
+metadata:
+  title: Microsoft 365 비즈니스 리소스
+  description: 설명
+  ms.service: o365-administration
+  ms.topic: hub-page
+  ms.collection: collection
+  author: samanro
+  ms.author: samanro
+  ms.date: 10/01/2019
+  ms.openlocfilehash: 88c08b430fa67d81435b7b6a4eb079a216b228d7
+  ms.sourcegitcommit: 0fa897d06b664c0ed005817752da1426d4ee17cb
+  ms.translationtype: MT
+  ms.contentlocale: ko-KR
+  ms.lasthandoff: 11/06/2019
+  ms.locfileid: "38002441"
+conceptualContent:
+  items:
+  - title: Microsoft 365 Business란 무엇인가요?
+    links:
+    - url: microsoft-365-business-overview.md
+      itemType: overview
+      text: 개요
+    - url: https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816
+      itemType: video
+      text: Microsoft 365 Business 교육
+    - url: https://www.microsoft.com/microsoft-365/partners/resources/microsoft-365-business-licensing-deck
+      itemType: overview
+      text: 요금제 비교 (영어에만 해당)
+    - url: https://docs.microsoft.com/en-us/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-business-service-description
+      itemType: reference
+      text: 서비스 설명
+    - url: support/microsoft-365-business-faqs.md
+      itemType: reference
+      text: FAQ
+  - title: Microsoft 365 Business 설정
+    links:
+    - url: https://support.office.com/article/38003e30-9d10-44cf-b596-f1b5f662bfa1
+      itemType: video
+      text: 1. 설치 마법사 실행
+    - url: protection-settings-for-windows-10-pcs.md
+      itemType: how-to-guide
+      text: 2. Pc 보안
+    - url: https://docs.microsoft.com/MicrosoftTeams/get-started-with-teams-quick-start
+      itemType: video
+      text: 3. 팀 설정
+    - url: https://support.office.com/article/4d2a1b69-6d8c-45d1-88e0-6676a8efa5f1
+      itemType: get-started
+      text: 4. Office 설치
+  - title: 파트너에 대 한 리소스 (영어만 해당)
+    links:
+    - url: https://www.microsoft.com/microsoft-365/partners/business
+      itemType: overview
+      text: 파트너 페이지
+    - url: https://www.microsoft.com/microsoft-365/partners/resources/microsoft-365-business-customer-pitch-deck
+      itemType: download
+      text: 피치 데크 (고객 포커스)
+    - url: https://www.microsoft.com/microsoft-365/partners/resources/microsoft-365-business-partner-pitch-deck
+      itemType: download
+      text: 피치 데크 (파트너 포커스)
+    - url: https://www.microsoft.com/microsoft-365/partners/resources/microsoft-365-business-technical-fundamentals-decks-zip
+      itemType: download
+      text: 기술 기본 사항
+  - title: 사용자 관리
+    links:
+    - url: https://docs.microsoft.com/microsoft-365/business/add-users-m365b
+      itemType: how-to-guide
+      text: 사용자 추가
+    - url: https://docs.microsoft.com/office365/admin/add-users/remove-former-employee
+      itemType: how-to-guide
+      text: 사용자 제거
+    - url: https://docs.microsoft.com/office365/admin/add-users/reset-passwords
+      itemType: how-to-guide
+      text: 사용자 암호 다시 설정
+    footerLink:
+      url: https://docs.microsoft.com/office365/admin/admin-home
+      text: 자세히 보기
+  - title: 위협 관리
+    links:
+    - url: https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/office-365-atp
+      itemType: overview
+      text: Office 365 Advanced Threat Protection
+    - url: set-up-mfa.md
+      itemType: how-to-guide
+      text: MFA 설정
+    - url: https://docs.microsoft.com/en-us/microsoft-365/business/increase-threat-protection#protect-against-ransomware
+      itemType: how-to-guide
+      text: 랜 섬 웨어 로부터 보호
+    - url: https://docs.microsoft.com/azure/active-directory/conditional-access/overview
+      itemType: overview
+      text: 조건부 액세스
+    footerLink:
+      url: https://docs.microsoft.com/office365/admin/admin-home
+      text: 자세히 보기
+  - title: 데이터 관리
+    links:
+    - url: https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies
+      itemType: overview
+      text: 데이터 손실 방지
+    - url: https://support.office.com/article/eaa43495-9bbb-4fca-922a-df90dee51980
+      itemType: how-to-guide
+      text: 암호화된 전자 메일 보내기
+    - url: https://docs.microsoft.com/microsoft-365/business/set-up-compliance#set-up-email-retention-with-exchange-online-archiving
+      itemType: how-to-guide
+      text: 전자 메일 보존 설정
+    - url: https://support.office.com/article/2fb96b54-7dd2-4f0c-ac8d-170790d4b8b9
+      itemType: video
+      text: 민감도 레이블 만들기 및 사용
+    footerLink:
+      url: https://docs.microsoft.com/microsoft-365/compliance/
+      text: 자세히 보기
+  - title: 장치 관리
+    links:
+    - url: view-policies-and-devices.md
+      itemType: how-to-guide
+      text: PC & 모바일 장치
+    - url: remove-company-data.md
+      itemType: how-to-guide
+      text: 회사 데이터 제거
+    - url: reset-devices-to-factory-settings.md
+      itemType: how-to-guide
+      text: 닦아내기 및 다시 설정
+    - url: https://docs.microsoft.com/en-us/intune/index
+      itemType: overview
+      text: Intune
+    - url: manage-windows-devices.md
+      itemType: how-to-guide
+      text: 하이브리드 Azure AD 조인 설정
+    - url: access-resources.md
+      itemType: how-to-guide
+      text: Azure AD 조인 설정
+    - url: https://docs.microsoft.com/windows/deployment/windows-autopilot/windows-autopilot
+      text: Windows Autopilot
+      itemType: overview
+    footerLink:
+      url: manage-windows-devices.md
+      text: 자세히 보기
+  - title: 보안 모니터링
+    links:
+    - url: https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-secure-score
+      itemType: how-to-guide
+      text: 보안 점수
+    - url: https://docs.microsoft.com/intune/apps/app-protection-policies-monitor
+      itemType: overview
+      text: Intune 앱 보호 정책 보고서
+    - url: https://docs.microsoft.com/office365/enterprise/view-service-health
+      itemType: how-to-guide
+      text: 상태 모니터링 알림
+    footerLink:
+      url: https://docs.microsoft.com/microsoft-365/security/
+      text: 자세히 보기
+  - title: 지원 및 커뮤니티
+    links:
+    - url: https://techcommunity.microsoft.com/t5/Microsoft-365-Business-Blog/bg-p/Microsoft365BusinessBlog
+      itemType: whats-new
+      text: Announcements
+    - url: https://support.office.com/article/7f681212-c649-4a3e-a43b-32b1d1e58988
+      itemType: video
+      text: 도움말 보기
+    - url: https://techcommunity.microsoft.com/t5/Microsoft-365-Business/bd-p/Microsoft365business
+      itemType: overview
+      text: 사용자 의견 보내기
+    - url: https://techcommunity.microsoft.com/t5/Small-and-Medium-Businesses/ct-p/SMB
+      itemType: overview
+      text: 중소 기업 기술 커뮤니티
+  - title: 방법 ...
+    links:
+    - url: sign-up.md
+      itemType: get-started
+      text: Microsoft 365 Business에 등록
+    - url: https://support.office.com/article/where-to-store-files-c7c20284-bc94-47f4-9728-d28e9daf0790
+      itemType: video
+      text: 클라우드에 파일 저장
+    - url: https://support.office.com/article/9bc459c4-ce13-479b-b88b-b8ae49092732
+      itemType: video
+      text: Microsoft 팀과 공동 작업
+    - url: https://docs.microsoft.com/Office365/Admin/subscriptions-and-billing/view-your-bill-or-invoice?toc=%2Fmicrosoft-365%2Fbusiness%2Ftoc.json&bc=%2Fmicrosoft-365%2Fbusiness%2Fbreadcrumb%2Ftoc.json&view=o365-worldwide
+      itemType: how-to-guide
+      text: 내 청구서 보기
+    footerLink:
+      url: https://docs.microsoft.com/microsoft-365/security/
+      text: 자세히 보기
