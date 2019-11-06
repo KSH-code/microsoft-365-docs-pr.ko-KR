@@ -9,12 +9,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 3e64f99d-ac33-4aba-91c5-9cb4ca476803
 description: 관리자는 보안 & 준수 센터에서 메시지 추적을 사용 하 여 메시지에 대 한 변경 내용을 확인할 수 있습니다.
-ms.openlocfilehash: 3f5855f8951d91c1124a3f204c72e5f6e37d7e80
-ms.sourcegitcommit: 9206e7f2d61b5ba7f788fe5e7f75a2218c12c716
+ms.openlocfilehash: eb3730602fbef5162df48ec7795a9ac8c2b24bdd
+ms.sourcegitcommit: 83e564f07a2a039c0fb993ac5697241d33827acb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 11/05/2019
-ms.locfileid: "37968528"
+ms.locfileid: "37993733"
 ---
 # <a name="message-trace-in-the-security--compliance-center"></a>보안 및 준수 센터의 메시지 추적
 
@@ -63,7 +63,7 @@ ms.locfileid: "37968528"
 - 다음 **사용자에 게**:이 필드를 클릭 하 여 조직에서 하나 이상의 받는 사람을 선택 합니다.
 
 > [!NOTE]
-> 외부의 보낸 사람 및 받는 사람의 전자 메일 주소를 입력할 수도 있습니다. 와일드 카드는 지원 `*@contoso.com`되지만 같은 필드에서 동시에 여러 와일드 카드 항목을 사용할 수는 없습니다.<br/>여러 보낸 사람 또는 받는 사람 목록을 세미콜론 (`;`)으로 구분 하 여 붙여 넣을 수 있습니다. 공백 (`\s`), 캐리지 리턴 (`\r`) 또는 다음 줄 (`\n`) 기호를 사용할 수 있습니다.
+> 외부의 보낸 사람 및 받는 사람의 전자 메일 주소를 입력할 수도 있습니다. 와일드 카드는 지원 `*@contoso.com`되지만 같은 필드에서 동시에 여러 와일드 카드 항목을 사용할 수는 없습니다.<br/>여러 보낸 사람 또는 받는 사람 목록을 세미콜론 (`;`)으로 구분 하 여 붙여 넣을 수 있습니다. 공백 (`\s`), 캐리지 리턴 (`\r`) 또는 다음 줄 (`\n`)
 
 ### <a name="time-range"></a>시간 범위
 
