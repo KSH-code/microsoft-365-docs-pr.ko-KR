@@ -1,18 +1,18 @@
 ---
-title: 장치 등록을 위한 파트너 단계
+title: 파트너가 장치를 등록하기 위한 단계
 description: 파트너가 장치를 등록 하 여 Microsoft Managed Desktop에서 관리할 수 있도록 하는 방법
 ms.prod: w10
 author: jaimeo
 ms.author: jaimeo
 ms.localizationpriority: medium
-ms.openlocfilehash: 69d9387047cbb14a97f3da1d401b30a97bd7fd90
-ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
+ms.openlocfilehash: 971b17d3f9fad15d5c254d47af9b6eb30b66633c
+ms.sourcegitcommit: 3d37043c0447359c952dc99026c219dd69f6fb8d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/14/2019
-ms.locfileid: "36982719"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "38011949"
 ---
-# <a name="steps-for-partners-to-register-devices"></a>장치 등록을 위한 파트너 단계
+# <a name="steps-for-partners-to-register-devices"></a>파트너가 장치를 등록하기 위한 단계
 
 
 이 항목에서는 파트너가 장치를 등록 하기 위해 수행 해야 하는 단계에 대해 설명 합니다. 장치를 직접 등록 하는 프로세스는 [Microsoft Managed Desktop의 등록 장치에 직접](register-devices-self.md)기록 됩니다.
@@ -20,7 +20,7 @@ ms.locfileid: "36982719"
 
 
 ## <a name="prepare-for-registration"></a>등록 준비 
-고객에 대 한 등록을 완료 하기 전에 먼저 [파트너 센터](https://partner.microsoft.com/dashboard)에서 해당 사용자와의 관계를 설정 해야 합니다. **Azure Active Directory 및 Office 365에 대 한 위임 된 관리 권한 포함**을 선택 해야 합니다. 자세한 내용은 [파트너 센터 도움말을 참조](https://docs.microsoft.com/en-us/partner-center/request-a-relationship-with-a-customer)하십시오.
+고객에 대 한 등록을 완료 하기 전에 먼저 [파트너 센터](https://partner.microsoft.com/dashboard)에서 해당 사용자와의 관계를 설정 해야 합니다. **Azure Active Directory 및 Office 365에 대 한 위임 된 관리 권한 포함**을 선택 해야 합니다. 자세한 내용은 [파트너 센터 도움말을 참조](https://docs.microsoft.com/partner-center/request-a-relationship-with-a-customer)하십시오.
 
 고객에 대 한 등록을 완료 하려면 먼저 CSV 파일을 만듭니다.
 
@@ -49,7 +49,7 @@ ms.locfileid: "36982719"
 
 ## <a name="register-devices-by-using-the-azure-portal"></a>Azure Portal을 사용 하 여 장치 등록
 
-Azure Portal을 사용 하 여 등록 하는 것은 다른 방법으로 포털에 액세스 하는 것을 제외 하 고 셀프 서비스와 동일 합니다. 다음 단계를 따릅니다.
+Azure Portal을 사용 하 여 등록 하는 것은 다른 방법으로 포털에 액세스 하는 것을 제외 하 고 셀프 서비스와 동일 합니다. 다음 단계를 따릅니다:
 
 1. [파트너 센터로](https://partner.microsoft.com/dashboard) 이동
 2. **고객**을 선택 합니다.
@@ -65,7 +65,7 @@ Azure Portal을 사용 하 여 등록 하는 것은 다른 방법으로 포털�
 
 기본 **Microsoft Managed Desktop-Devices** 페이지에서 장치 등록의 진행 상태를 모니터링할 수 있습니다. 다음과 같은 가능한 상태가 보고 됩니다.
 
-| 시/도 | 설명 |
+| 시/도 | Description |
 |---------------|-------------|
 | 등록 보류 중 | 등록이 아직 완료 되지 않았습니다. 나중에 다시 확인 합니다. |
 | 등록 실패 | 등록을 완료할 수 없습니다. 자세한 내용은 [장치 등록 문제 해결](register-devices-self.md#troubleshooting-device-registration) 을 참조 하세요. |

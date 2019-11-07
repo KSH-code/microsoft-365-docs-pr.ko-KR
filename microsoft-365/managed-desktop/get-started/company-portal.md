@@ -1,20 +1,19 @@
 ---
-title: Intune 회사 포털 Microsoft Managed Desktop 장치 설치
+title: 장치에 Intune 회사 포털 설치
 description: Microsoft Managed Desktop 장치에 회사 포털 앱을 설치 하는 방법에 대 한 정보
 keywords: Microsoft Managed Desktop, Microsoft 365, 회사 포털
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
-ms.date: 03/08/2019
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: a9ce2b2455b6036170636ac564c450676473ac48
-ms.sourcegitcommit: 427c6459614d58f6ef7c74354ae1816423e22323
+ms.openlocfilehash: 121771dd2474d58e7bd6a0d56218563c8785d4bf
+ms.sourcegitcommit: 3d37043c0447359c952dc99026c219dd69f6fb8d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "35390705"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "38011959"
 ---
-# <a name="install-intune-company-portal-on-microsoft-managed-desktop-devices"></a>Microsoft Managed Desktop 장치에 Intune 회사 포털 설치
+# <a name="install-intune-company-portal-on-on-devices"></a>장치에 Intune 회사 포털 설치
 
 Microsoft Managed Desktop을 사용 하려면 IT 관리자가 Microsoft Managed Desktop devices 사용자를 위해 Intune 회사 포털을 설치 해야 합니다. 조직의 몇 가지 이점은 다음과 같습니다.
 - 사용자는 사용 가능한 응용 프로그램을 찾아보고 설치 하기 위한 한 가지 장소를가지고 있습니다. 
@@ -44,3 +43,14 @@ Microsoft Managed Desktop에서 지원 요청을 제출 하는 방법에 대 한
 조직의 IT 관리자로 서 사용자에 게 조직에서 회사 포털을 사용 하는 방법을 알려 주는 것이 중요 합니다. Microsoft Managed Desktop이 권장 됩니다.
 - 회사 포털에서 응용 프로그램을 설치 하는 단계 자세한 내용은 [장치에 앱 설치 및 공유](https://docs.microsoft.com/intune-user-help/install-apps-cpapp-windows)를 참조 하세요.
 - 현재 사용할 수 없는 응용 프로그램에 대 한 요청을 IT 관리자에 게 보내는 방법
+
+## <a name="steps-to-get-started-with-microsoft-managed-desktop"></a>Microsoft Managed Desktop을 시작 하기 위한 단계
+
+1. [관리 포털에서 관리자 연락처 추가 및 확인](add-admin-contacts.md)
+2. [조건부 액세스 조정](conditional-access.md)
+3. [라이선스 할당](assign-licenses.md)
+4. Intune 회사 포털 배포 (이 항목)
+5. [엔터프라이즈 상태 로밍 사용](enterprise-state-roaming.md)
+6. [장치 설정](set-up-devices.md)
+7. [사용자들이 장치를 사용할 수 있도록 준비시키기](get-started-devices.md)
+8. [앱 배포](deploy-apps.md)

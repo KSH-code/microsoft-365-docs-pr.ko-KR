@@ -7,12 +7,12 @@ author: jaimeo
 ms.localizationpriority: normal
 ms.date: 2/14/2019
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: da8f88251f6d1ae3185641dd408b29aa41cd7ea9
-ms.sourcegitcommit: 427c6459614d58f6ef7c74354ae1816423e22323
+ms.openlocfilehash: 9a405f96ee7a113197fbc9c237779db3e3e5e5ca
+ms.sourcegitcommit: 3d37043c0447359c952dc99026c219dd69f6fb8d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "35390415"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "38012263"
 ---
 # <a name="configurable-settings-reference---microsoft-managed-desktop"></a>구성 가능한 설정 참조-Microsoft Managed Desktop
 
@@ -31,7 +31,7 @@ ms.locfileid: "35390415"
 ### <a name="customize-and-deploy-desktop-background-picture"></a>데스크톱 배경 그림 사용자 지정 및 배포
 
 **사용자 지정 바탕 화면 배경 그림을 추가 하려면**
-1. [Microsoft Managed Desktop administration 포털](http://aka.ms/mwaasportal) 에 로그인
+1. [Microsoft Managed Desktop administration 포털](https://aka.ms/mwaasportal) 에 로그인
 2. **설정**아래에서 **보안 계정 구성**을 선택 합니다.
 3. **구성 가능한** 작업 영역에서 **바탕 화면 배경 그림**을 선택 합니다. 
 4. 사용 하려는 사진의 위치를 입력 합니다. 
@@ -47,7 +47,7 @@ ms.locfileid: "35390415"
 ### <a name="customize-and-deploy-browser-start-pages"></a>브라우저 시작 페이지 사용자 지정 및 배포
 
 **브라우저 시작 페이지를 추가 하려면**
-1. [Microsoft Managed Desktop administration 포털](http://aka.ms/mwaasportal) 에 로그인
+1. [Microsoft Managed Desktop administration 포털](https://aka.ms/mwaasportal) 에 로그인
 2. **설정**아래에서 **보안 계정 구성**을 선택 합니다.
 3. **구성 가능한** 작업 영역에서 **브라우저 시작 페이지**를 선택 합니다. 
 4. **시작 페이지 추가**를 선택 합니다.
@@ -72,13 +72,13 @@ Https://위치를 지정 하거나 엔터프라이즈 모드 사이트 목록을
 
 고객이 IT 인프라를 modernize 위해 결정을 내리는 데 도움이 되는 모범 사례가 제공 됩니다.
 - **제한 된 수의 사이트 선택** -Microsoft Managed Desktop은 microsoft Edge를 기본 브라우저로 사용 하 여 사용자의 조직 및 유용성에 대 한 전반적인 보안을 향상 시킵니다. 이 목록에 있는 대부분의 사이트는 보안 기능을 많이 포함 하지 않는 이전 버전의 브라우저가 필요한 레거시 웹 앱에 대 한 것입니다. 
-- **** 다른 사이트 또는 이전 브라우저가 필요 하지 않은 웹 앱을 고려 하세요. 또는 최신 브라우저를 사용할 수 있도록 사이트를 업데이트 하는 것이 좋습니다. 최신 버전의 브라우저에서는 최근 기술을 사용 하 여 보안을 향상 시킬 수 있습니다.
+- 다른 사이트 또는 이전 브라우저가 필요 하지 않은 웹 앱 **을 고려 하세요** . 또는 최신 브라우저를 사용할 수 있도록 사이트를 업데이트 하는 것이 좋습니다. 최신 버전의 브라우저에서는 최근 기술을 사용 하 여 보안을 향상 시킬 수 있습니다.
 
 ### <a name="customize-and-deploy-enterprise-site-mode-list-location"></a>엔터프라이즈 사이트 모드 목록 위치 사용자 지정 및 배포
 
 **엔터프라이즈 사이트 모드 목록 위치를 추가 하려면**
 
-1.  [Microsoft Managed Desktop administration 포털](http://aka.ms/mwaasportal) 에 로그인
+1.  [Microsoft Managed Desktop administration 포털](https://aka.ms/mwaasportal) 에 로그인
 2.  **설정**아래에서 **보안 계정 구성**을 선택 합니다.
 3.  **구성 가능한** 작업 영역에서 **엔터프라이즈 모드 사이트 목록 위치**를 선택 합니다. 
 4.  사이트 목록에 대 한 https 위치를 입력 합니다. 
@@ -100,7 +100,7 @@ Https://위치를 지정 하거나 엔터프라이즈 모드 사이트 목록을
 
 **신뢰할 수 있는 사이트를 추가 하려면**
 
-1. [Microsoft Managed Desktop administration 포털](http://aka.ms/mwaasportal) 에 로그인
+1. [Microsoft Managed Desktop administration 포털](https://aka.ms/mwaasportal) 에 로그인
 2. **설정**아래에서 **보안 계정 구성**을 선택 합니다.
 3. **구성 가능한** 작업 영역에서 **신뢰할 수**있는 사이트를 선택 하 고 **신뢰할 수 있는 사이트로 추가**를 선택 합니다. 
 4. **신뢰할 수 있는 사이트 추가**에서 URL을 입력 하 고 보안 영역을 선택한 다음 **신뢰할 수 있는 사이트 추가**를 선택 합니다. 
@@ -109,7 +109,7 @@ Https://위치를 지정 하거나 엔터프라이즈 모드 사이트 목록을
 
 **신뢰할 수 있는 사이트를 제거 하려면**
 
-1. [Microsoft Managed Desktop administration 포털](http://aka.ms/mwaasportal) 에 로그인
+1. [Microsoft Managed Desktop administration 포털](https://aka.ms/mwaasportal) 에 로그인
 2. **설정**아래에서 **보안 계정 구성**을 선택 합니다.
 3. **구성 가능한** 작업 영역에서 **신뢰할 수 있는 사이트**를 선택 합니다. 
 4. 삭제할 사이트를 선택 하 고 **삭제**를 선택 합니다. 
@@ -134,7 +134,7 @@ Microsoft Managed Desktop portal에서 추가 하는 프록시 사이트 예외�
 
 **개별 프록시 사이트 예외를 추가 하려면**
 
-1. [Microsoft Managed Desktop administration 포털](http://aka.ms/mwaasportal) 에 로그인
+1. [Microsoft Managed Desktop administration 포털](https://aka.ms/mwaasportal) 에 로그인
 2. **설정**아래에서 **보안 계정 구성**을 선택 합니다.
 3. **구성 가능한** 작업 영역에서 **프록시**를 선택 합니다. 
 4. 프록시 서버의 **주소** 와 **포트 번호** 를 입력 하 고 **프록시 예외 추가**를 선택 합니다. 

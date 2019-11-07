@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 5b6a2756514e94cb4f96141d6e7c9f6f2a6dd7ff
-ms.sourcegitcommit: a4657a499967751d4c2dfc6cd1904258ab8be193
+ms.openlocfilehash: 7e3827dc12c04d2c7952f9321a70714691c5ed47
+ms.sourcegitcommit: 3d37043c0447359c952dc99026c219dd69f6fb8d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/19/2019
-ms.locfileid: "37040811"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "38012303"
 ---
 # <a name="deploy-and-track-configurable-settings---microsoft-managed-desktop"></a>구성 가능한 설정 배포 및 추적-Microsoft Managed Desktop
 
@@ -35,7 +35,7 @@ Failed | 그룹의 활성 장치 중 10%에서 변경이 실패 하 여 배포�
 
 **변경 내용을 배포 하려면**
 
-1. [Microsoft Managed Desktop administration 포털](http://aka.ms/mwaasportal) 에 로그인
+1. [Microsoft Managed Desktop administration 포털](https://aka.ms/mwaasportal) 에 로그인
 2. **설정**아래에서 **보안 계정 구성**을 선택 합니다.
 3. **배포 상태** 작업 영역에서 배포할 설정을 선택 하 고 배포할 미리 구성 된 배포를 선택 합니다.
 4. 배포 **를 선택 하** 여 배치 그룹 중 하나에 변경 내용을 배포 합니다.
@@ -53,7 +53,7 @@ Failed | 그룹의 활성 장치 중 10%에서 변경이 실패 하 여 배포�
 예를 들어 데스크톱 배경 그림을 사용 하 여 변경 내용을 되돌리는 단계를 보여 줍니다. 
 
 **변경 내용을 되돌리려면**
-1. [Microsoft Managed Desktop administration 포털](http://aka.ms/mwaasportal) 에 로그인
+1. [Microsoft Managed Desktop administration 포털](https://aka.ms/mwaasportal) 에 로그인
 2. **설정**아래에서 **보안 계정 구성**을 선택 합니다.
 3. **배포 상태** 작업 영역에서 되돌리려는 설정을 선택 하 고 되돌릴 미리 구성 된 배포를 선택 합니다.
 4. **이 변경 내용을 되돌릴 필요성**에서 **배포 되돌리기를**선택 합니다.

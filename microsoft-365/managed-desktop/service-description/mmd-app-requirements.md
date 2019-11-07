@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 5e0ca142e2ef84f198ee154c5b7c7f4f6621c37c
-ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
+ms.openlocfilehash: 6b5f1d7cf8070808aecb57c7f5b2c16ec84b37d6
+ms.sourcegitcommit: 543ac29a15412a348b61db2297e7bcdcca842206
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/14/2019
-ms.locfileid: "36982459"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38020371"
 ---
 # <a name="microsoft-managed-desktop-app-requirements"></a>Microsoft Managed Desktop 응용 프로그램 요구 사항
 
@@ -38,7 +38,7 @@ Microsoft 관리 장치에 설치 된 모든 응용 프로그램 및 드라이�
 
 ## <a name="restricted-app-behaviors"></a>제한 된 앱 동작
 
-특정 앱 동작은 사용자 환경에 부정적인 영향을 주거나 Microsoft 관리 되는 데스크톱 장치에 보안 위험을 줄 수 있습니다. 다음 동작이 적용 되는 앱은 microsoft에서 특정 한 예외를 제외 하 고 Microsoft Managed Desktop environment에서 실행할 수 없습니다.
+특정 앱 동작은 사용자 환경에 부정적인 영향을 주거나 Microsoft 관리 되는 데스크톱 장치에 보안 위험을 줄 수 있습니다. 다음 동작이 적용 되는 앱은 microsoft와 관련 없는 Microsoft Managed Desktop environment에서 실행할 수 없습니다.
 
 사용자 환경:
 - 백그라운드 서비스 설치
@@ -58,5 +58,5 @@ Microsoft 관리 장치에 설치 된 모든 응용 프로그램 및 드라이�
 
 Microsoft Managed Desktop은 Microsoft 관리 장치를 사용 하 여 Windows Update 또는 설치 된 받은 편지함을 통해 제공 되는 장치 드라이버만 지원 합니다. 
 
-응용 프로그램에서 실행 해야 하는 특정 드라이버가 필요한 경우이를 제한 된 응용 프로그램으로 간주 하 고 예외를 Microsoft Managed Desktop에 배포 해야 합니다. 
+응용 프로그램에서 실행 해야 하는 특정 드라이버가 필요한 경우에는 제한 된 응용 프로그램으로 간주 되므로를 Microsoft Managed Desktop에 배포 해야 합니다. 
 

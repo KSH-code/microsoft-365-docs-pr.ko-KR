@@ -7,12 +7,12 @@ author: jaimeo
 ms.localizationpriority: normal
 ms.date: 01/18/2019
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 87968e1238ee5b3dce6e569846e253dada72dd6d
-ms.sourcegitcommit: 427c6459614d58f6ef7c74354ae1816423e22323
+ms.openlocfilehash: 425ba674ca9911e4c93bda4fc9ad61cec7fb85b7
+ms.sourcegitcommit: 3d37043c0447359c952dc99026c219dd69f6fb8d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "35390735"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "38012413"
 ---
 # <a name="manage-line-of-business-apps-in-microsoft-managed-desktop"></a>Microsoft Managed Desktop에서 기간 업무 (lob) 앱 관리
 
@@ -25,7 +25,7 @@ Microsoft Managed Desktop에 등록 Microsoft Managed Desktop 장치에 배포 �
 ## <a name="update-line-of-business-apps-in-microsoft-managed-desktop"></a>Microsoft Managed Desktop에서 기간 업무 (lob) 앱 업데이트
 
 **Microsoft Managed Desktop portal에서 기간 업무 (lob) 앱을 업데이트 하려면**
-1. [Microsoft Managed 데스크톱 관리 포털](http://aka.ms/mmdportal)에 로그인 합니다.
+1. [Microsoft Managed 데스크톱 관리 포털](https://aka.ms/mmdportal)에 로그인 합니다.
 2. **인벤토리에서** **앱**을 선택 합니다.  
 3. 업데이트할 앱을 선택 하 고 **편집**을 선택 합니다.
 4. **관리**에서 **속성**을 선택 합니다. 
@@ -58,7 +58,7 @@ Microsoft Managed Desktop에 등록 Microsoft Managed Desktop 장치에 배포 �
 
 **기간 업무 (lob) 앱을 이전 버전으로 롤백하는 방법**
 
-1. [Microsoft Managed 데스크톱 관리 포털](http://aka.ms/mmdportal)에 로그인 합니다.
+1. [Microsoft Managed 데스크톱 관리 포털](https://aka.ms/mmdportal)에 로그인 합니다.
 2. **인벤토리에서** **앱**을 선택 합니다.  
 3. 롤백하는 데 필요한 앱을 선택 하 고 **편집**을 선택 합니다.
 4. **관리**에서 **속성**을 선택 합니다. 

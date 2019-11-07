@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 37c44a43662b6befd92c9710c65814399db4d54f
-ms.sourcegitcommit: 0d423b50d2f1f4eccd64e35e00f67313244efba9
+ms.openlocfilehash: b17b5a3458458ff0c73c93fa184ef8ff6a064199
+ms.sourcegitcommit: 3d37043c0447359c952dc99026c219dd69f6fb8d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "37159686"
+ms.lasthandoff: 11/06/2019
+ms.locfileid: "38011999"
 ---
 # <a name="admin-support-for-microsoft-managed-desktop"></a>Microsoft Managed Desktop에 대 한 관리자 지원
 
@@ -21,7 +21,7 @@ Microsoft Managed Desktop 관리 포털을 사용 하 여 Microsoft에 지원 �
 >앱 패키징, 장치, 보안 및 기타에 대 한 [관리자 연락처를 설정](../get-started/add-admin-contacts.md) 했는지 확인 합니다. 관리자 연락처가 구성 되지 않은 경우 이러한 영역에서 지원 요청을 제출할 수 없습니다.
 
 **지원 요청을 제출 하려면**
-1. [Microsoft Managed 데스크톱 관리 포털](http://aka.ms/mwaasportal)에 로그인 합니다. 
+1. [Microsoft Managed 데스크톱 관리 포털](https://aka.ms/mwaasportal)에 로그인 합니다. 
 2. **지원 요청**에서 **+ 새 지원 티켓**을 선택 합니다.
 3. 필요한 도움말과 일치 하는 **지원 요청 유형을** 선택 합니다. 아래 표에는 옵션에 대 한 개요가 나와 있습니다. 
 4. **심각도 수준을**선택 합니다. 자세한 내용은 [지원 요청 심각도 정의](#sev)를 참조 하세요. 
