@@ -22,19 +22,19 @@ search.appverid:
 - ZWD160
 ms.assetid: dd6a1fef-ec4a-4cf4-a25a-bb591c5811e3
 description: 안전한 링크 기능은 Office 문서 및 전자 메일 메시지에서 하이퍼링크를 클릭 하 여 확인할 시간을 제공 합니다. 안전한 링크를 사용 하 여 피싱 및 기타 공격 으로부터 조직을 보호 합니다.
-ms.openlocfilehash: 725d5c331b330b2edca030b74a26eaa692f36465
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 9c429b51a471f570a5039054f8906c5d56e54218
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088306"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38034269"
 ---
 # <a name="office-365-atp-safe-links"></a>Office 365 ATP 안전한 링크
 
 ## <a name="overview-of-office-365-atp-safe-links"></a>Office 365 ATP 안전한 링크 개요
 
 > [!IMPORTANT]
-> 이 문서는 [Office 365 Advanced Threat Protection](office-365-atp.md)을 사용 하는 비즈니스 고객을 위한 것입니다. Outlook.com, Office 365 Home 또는 Office 365 Personal을 사용 하는 경우 Outlook의 안전한 링크에 대 한 정보를 찾으려면 [Advanced Outlook.com security](https://support.office.com/article/advanced-outlook-com-security-for-office-365-subscribers-882d2243-eab9-4545-a58a-b36fee4a46e2)를 참조 하세요.
+> 이 문서는 [Office 365 Advanced Threat Protection](office-365-atp.md)이 있는 비즈니스 고객을 대상으로 합니다. Outlook.com, Office 365 Home 또는 Office 365 Personal을 사용하고 있고 Outlook의 안전한 링크에 대한 정보를 찾고 있다면 [고급 Outlook.com 보안](https://support.office.com/article/advanced-outlook-com-security-for-office-365-subscribers-882d2243-eab9-4545-a58a-b36fee4a46e2)을 참조하세요.
 
 Office 365 ATP 안전한 링크 ( [Advanced Threat Protection](office-365-atp.md)의 일부)는 [전자 메일 메시지](how-atp-safe-links-works.md#how-atp-safe-links-works-with-urls-in-email) 및 [Office 문서](how-atp-safe-links-works.md#how-atp-safe-links-works-with-urls-in-office-documents)에서 웹 주소 (url)를 클릭 하 여 확인 하는 시간을 제공 하 여 조직을 보호 하는 데 도움이 될 수 있습니다. 보호는 Office 365 보안 팀에서 설정 하는 [ATP 안전한 링크 정책을](set-up-atp-safe-links-policies.md) 통해 정의 됩니다.
   
@@ -66,7 +66,7 @@ ATP 안전한 링크 정책이 마련 되 면 Office 365 전역 관리자, 보�
 |---------|---------|
 |Office 365 전역 관리자 |Office 365을 구매 하기 위해 등록 하는 사람은 기본적으로 전역 관리자입니다. 자세한 내용은 [Office 365 관리자 역할 정보](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) 를 참조 하세요.         |
 |보안 관리자 |Azure Active Directory 관리 센터 ([https://aad.portal.azure.com](https://aad.portal.azure.com))|
-|Exchange Online 조직 관리 |Exchange 관리 센터 ([https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)) <br>또는 <br>  PowerShell cmdlet ( [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps)참조) |
+|Exchange Online 조직 관리 |Exchange 관리 센터 ([https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)) <br> 선택하거나  <br>  PowerShell cmdlet ( [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps)참조) |
     
 ## <a name="how-to-make-sure-atp-safe-links-protection-is-in-place"></a>ATP 안전한 링크 보호가 적절 한지 확인 하는 방법
 
@@ -83,7 +83,7 @@ ATP 안전한 링크 정책이 마련 되 면 조직의 보안 팀은 [Advanced 
 |Jean은 전자 메일 및 Office 문서의 Url을 포함 하는 ATP 안전한 링크 정책이 있는 그룹의 구성원입니다. Jean에서 다른 사용자가 보낸 PowerPoint 프레젠테이션을 열고 프레젠테이션에서 URL을 클릭 합니다.  <br/> |예. 지정 된 ATP Safe Links 정책은 Jean가 로그인 하 고 Windows, iOS 또는 Android 장치에서 Office 365 ProPlus를 사용 하 여 Jean 열리는 Jean의 그룹, Jean의 전자 메일 및 Word, Excel, PowerPoint 또는 Visio 문서에 적용 됩니다.  <br/> |
 |Chris의 조직에서는 모든 글로벌 또는 보안 관리자가 ATP 안전한 링크 정책을 아직 정의 하지 않았습니다. Chris에 게 악성 웹 사이트에 대 한 URL을 포함 하는 전자 메일을 받습니다. 이 URL은 악성이 고 링크를 클릭 하는 것을 알 수 있습니다.  <br/> |아니요. 조직의 모든 사용자에 대 한 Url을 포함 하는 기본 정책은 보호를 적용 하기 위해 정의 해야 합니다.  <br/> |
 |Pat 조직의 글로벌 또는 보안 관리자가 ATP 안전한 링크 정책을 아직 정의 하거나 편집 하지 않은 경우 Word 문서를 열고 파일의 URL을 클릭 합니다.  <br/> |아니요. 보호 기능을 적용 하려면 Office 문서를 포함 하는 정책을 정의 해야 합니다. [Office 365에서 ATP 안전한 링크 정책 설정를](set-up-atp-safe-links-policies.md)참조 하세요.  <br/> |
-|Lee의 조직에는 차단 된 웹 사이트로 `http://tailspintoys.com` 나열 된 ATP 안전한 링크 정책이 있습니다. Lee는에 대 `http://tailspintoys.com/aboutus/trythispage`한 URL을 포함 하는 전자 메일 메시지를 받습니다. Lee에서 URL을 클릭 합니다.  <br/> |전체 사이트와 모든 하위 페이지가 차단 된 Url 목록에 포함 되어 있는지 여부에 따라 달라 집니다. [ATP 안전한 링크를 사용 하 여 차단 된 사용자 지정 url 목록 설정를](set-up-a-custom-blocked-urls-list-wtih-atp.md)참조 하세요.  <br/> |
+|Lee의 조직에는 차단 된 웹 사이트로 `https://tailspintoys.com` 나열 된 ATP 안전한 링크 정책이 있습니다. Lee는에 대 `https://tailspintoys.com/aboutus/trythispage`한 URL을 포함 하는 전자 메일 메시지를 받습니다. Lee에서 URL을 클릭 합니다.  <br/> |전체 사이트와 모든 하위 페이지가 차단 된 Url 목록에 포함 되어 있는지 여부에 따라 달라 집니다. [ATP 안전한 링크를 사용 하 여 차단 된 사용자 지정 url 목록 설정를](set-up-a-custom-blocked-urls-list-wtih-atp.md)참조 하세요.  <br/> |
 |Jean의 동료는 전자 메일에 악성 URL이 포함 되어 있다는 사실을 모르고 Jean에 게 전자 메일을 보냅니다.  <br/> |이는 조직 내에서 전송 되는 전자 메일에 대해 ATP 안전한 링크 정책이 정의 되어 있는지 여부에 따라 달라 집니다. [Office 365에서 ATP 안전한 링크 정책 설정를](set-up-atp-safe-links-policies.md)참조 하세요.  <br/> |
 
 

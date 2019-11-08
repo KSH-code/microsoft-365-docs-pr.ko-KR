@@ -1,5 +1,5 @@
 ---
-title: '웹용 Outlook에서 정크 메일 및 피싱 사기 신고 '
+title: '웹용 Outlook에서 정크 전자 메일 및 피싱 사기 보고 '
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
@@ -14,14 +14,14 @@ ms.assetid: 758822b5-0126-463a-9d08-7366bb2a807d
 ms.collection:
 - M365-security-compliance
 description: 웹 사용자의 Microsoft Outlook은 기본 제공 전자 메일 보고 옵션을 사용 하 여 정크 (스팸) 및 피싱 사기를 보고할 수 있습니다. 또한 전자 메일이 정크 (스팸)로 잘못 식별 되었는지 여부를 Microsoft에 게 알릴 수도 있습니다.
-ms.openlocfilehash: 0191394c1e0c0f43c65af977c219630c65b6a292
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: f066181e912060b137437893dee545787fa405a2
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37087211"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38031803"
 ---
-# <a name="report-junk-email-and-phishing-scams-in-outlook-on-the-web"></a>웹용 Outlook에서 정크 메일 및 피싱 사기 신고 
+# <a name="report-junk-email-and-phishing-scams-in-outlook-on-the-web"></a>웹용 Outlook에서 정크 전자 메일 및 피싱 사기 보고 
 
 조직의 사용자가 정크 메일을 받거나 스팸으로 잘못 식별 되어 중요 한 전자 메일이 누락 되는 경우에는 어려울 수 있습니다. Microsoft는 EOP (Exchange Online Protection) 스팸 필터를 보다 정확 하 게 조정 하 고 있으며, 사용자가이 프로세스를 도울 수 있습니다. 웹 사용자의 Microsoft Outlook은 기본 제공 전자 메일 보고 옵션을 사용 하 여 정크 (스팸) 및 피싱 사기를 보고할 수 있습니다. 또한 전자 메일이 정크 (스팸)로 잘못 식별 되었는지 여부를 Microsoft에 게 알릴 수도 있습니다.
   
@@ -64,7 +64,7 @@ Office 365에서 메시지가 정크 메일로 잘못 식별 된 경우 메시�
 
 [정크 메일 및 피싱에 대한 자세한 정보](https://go.microsoft.com/fwlink/p/?LinkId=270068)
 
-[Microsoft Outlook 용 정크 메일 보고 추가 기능](https://docs.microsoft.com/en-us/office365/securitycompliance/junk-email-reporting-add-in-for-microsoft-outlook)
+[Microsoft Outlook 용 정크 메일 보고 추가 기능](https://docs.microsoft.com/office365/securitycompliance/junk-email-reporting-add-in-for-microsoft-outlook)
   
   
 

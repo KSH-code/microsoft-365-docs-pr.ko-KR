@@ -14,12 +14,12 @@ ms.assetid: 3aff33c5-1416-4867-a23b-e0c0c5b4d2be
 ms.collection:
 - M365-security-compliance
 description: 요약:이 문서에서는 Office 365에서 DNS의 SPF (Sender Policy Framework) TXT 레코드를 사용 하 여 대상 전자 메일 시스템이 사용자 지정 도메인에서 보낸 메시지를 신뢰 하는지 확인 하는 방법을 설명 합니다. 이는 Office 365에서 보내는 아웃 바운드 메일에 적용 됩니다. Office 365에서 Office 365 내의 받는 사람에 게 전송 되는 메시지는 항상 SPF를 통과 합니다.
-ms.openlocfilehash: 9a0cbbe29a43a223a006b1a8495d2522ca2386c4
-ms.sourcegitcommit: 333ecfb8bfeb34f9f08d82d295b40d37de6ba8b9
+ms.openlocfilehash: 189b97de92386a7dc1a7a264ee1bb58cd367839a
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "37772222"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38033919"
 ---
 # <a name="how-office-365-uses-sender-policy-framework-spf-to-prevent-spoofing"></a>Office 365에서 SPF (Sender Policy Framework)를 사용하여 스푸핑을 방지하는 방법
 
@@ -127,7 +127,7 @@ v=spf1 include:spf.protection.outlook.com -all
 
 이 문서의 구문 정보를 사용 하 여 사용자 지정 도메인에 대 한 SPF TXT 레코드를 구성 합니다. 여기에 나와 있지 않은 다른 구문 옵션도 있지만 가장 일반적으로 사용 되는 옵션은 다음과 같습니다. 레코드를 구성한 후에는 도메인 등록 기관에서 레코드를 업데이트해야 합니다.
   
-Office 365에 대해 포함 해야 하는 도메인에 대 한 자세한 내용은 [SPF에 필요한 외부 DNS 레코드](https://support.office.com/article/External-Domain-Name-System-records-for-Office-365-c0531a6f-9e25-4f2d-ad0e-a70bfef09ac0?ui=en-US&amp;rs=en-US&amp;ad=US)를 참조 하세요. 도메인 등록 기관에 대 한 SPF (TXT) 레코드를 업데이트 하는 단계별 [지침](https://office.microsoft.com/en-us/office365-suite-help/create-dns-records-for-office-365-HA102851099.aspx?CTT=5&amp;origin=HA102818404) 을 사용 합니다. 등록 자가 나열 되지 않으면 레코드를 업데이트 하는 방법을 알아보려면 별도로 문의 해야 합니다. 
+Office 365에 대해 포함 해야 하는 도메인에 대 한 자세한 내용은 [SPF에 필요한 외부 DNS 레코드](https://support.office.com/article/External-Domain-Name-System-records-for-Office-365-c0531a6f-9e25-4f2d-ad0e-a70bfef09ac0?ui=en-US&amp;rs=en-US&amp;ad=US)를 참조 하세요. 도메인 등록 기관에 대 한 SPF (TXT) 레코드를 업데이트 하는 단계별 [지침](https://office.microsoft.com/office365-suite-help/create-dns-records-for-office-365-HA102851099.aspx?CTT=5&amp;origin=HA102818404) 을 사용 합니다. 등록 자가 나열 되지 않으면 레코드를 업데이트 하는 방법을 알아보려면 별도로 문의 해야 합니다. 
   
 ### <a name="spf-txt-record-syntax-for-office-365"></a>Office 365에 대 한 SPF TXT 레코드 구문
 <a name="SPFSyntaxO365"> </a>

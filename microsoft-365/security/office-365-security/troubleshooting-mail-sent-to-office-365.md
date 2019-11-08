@@ -14,12 +14,12 @@ ms.assetid: f4caa4e1-e414-4b21-8822-31c08064c059
 ms.collection:
 - M365-security-compliance
 description: 이 문서에서는 Office 365의 받은 편지함에 전자 메일을 보내려고 할 때 문제가 발생 하는 보낸 사람에 대 한 문제 해결 정보와 Office 365 고객에 게 대량 메일을 전송 하기 위한 모범 사례를 제공 합니다.
-ms.openlocfilehash: 59c02b31b759870892846947940744e123c73788
-ms.sourcegitcommit: cbf117a4cd92a907115c9f10752f3c557361e586
+ms.openlocfilehash: b87b0745c95cd043987f49ed7f21118339d3e592
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "37441185"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38030702"
 ---
 # <a name="troubleshooting-mail-sent-to-office-365"></a>Office 365로 전송한 문제 해결 메일
 
@@ -71,7 +71,7 @@ EOP 필터링 기술은 Microsoft Office 365에 대 한 스팸 방지 보호 기
 
 Microsoft가 보낸 사람의 IP 주소를 차단 했거나, 사용자 계정이 이전 스팸 활동으로 인해 금지 된 보낸 사람으로 식별 되었기 때문에 일부 배달 문제가 발생 합니다. 오류가 발생 한 NDR을 받은 것으로 생각 되 면 먼저 NDR 메시지의 지침을 따라 문제를 해결 합니다.
 
-수신 된 오류에 대 한 자세한 내용은 [온-프레미스 Exchange 2013 및 Office 365의 dsn 및 ndr](http://technet.microsoft.com/library/8e91de84-76fa-49b2-898c-c5eface76560.aspx)의 전체 SMTP 오류 코드 목록을 참조 하세요.
+수신 된 오류에 대 한 자세한 내용은 [온-프레미스 Exchange 2013 및 Office 365의 dsn 및 ndr](https://technet.microsoft.com/library/8e91de84-76fa-49b2-898c-c5eface76560.aspx)의 전체 SMTP 오류 코드 목록을 참조 하세요.
 
  예를 들어 다음 NDR이 수신 되는 경우 보내는 IP 주소가 Microsoft에 의해 차단 되었음을 나타냅니다.
 
@@ -108,7 +108,7 @@ IP 주소에서 의심 스러운 작업이 검색 되었으며 더 이상 평가
 
 ### <a name="i-cant-receive-email-from-senders-in-office-365"></a>Office 365의 보낸 사람 으로부터 전자 메일을 받을 수 없음
 
- 사용자가 보낸 메시지를 수신 하려면 네트워크에서 EOP에 사용 하는 IP 주소에서 연결을 허용 하는지 확인 합니다. 자세한 내용은 [Exchange Online PROTECTION IP 주소](https://docs.microsoft.com/en-us/office365/enterprise/urls-and-ip-address-ranges)를 참조 하세요.
+ 사용자가 보낸 메시지를 수신 하려면 네트워크에서 EOP에 사용 하는 IP 주소에서 연결을 허용 하는지 확인 합니다. 자세한 내용은 [Exchange Online PROTECTION IP 주소](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)를 참조 하세요.
 
 ## <a name="best-practices-for-bulk-emailing-to-office-365-users"></a>Office 365 사용자에 게 대량으로 전자 메일을 보내는 최상의 방법
 

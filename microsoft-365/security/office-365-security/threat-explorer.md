@@ -15,16 +15,16 @@ ms.assetid: 82ac9922-939c-41be-9c8a-7c75b0a4e27d
 ms.collection:
 - M365-security-compliance
 description: 보안 &amp; 및 준수 센터의 Explorer 및 실시간 검색에 대해 알아봅니다.
-ms.openlocfilehash: ee14e4a1309bcf1077a8901ce874dc2872b694be
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 70073197091e75ae7ca2740b9be53edce87e1d8a
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088379"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38030712"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>위협 탐색기 및 실시간 검색
 
-조직에 [office 365 Advanced Threat Protection](office-365-atp.md) (OFFICE 365 ATP)이 있고 [필요한 사용 권한이](#required-licenses-and-permissions)있는 경우에는 **Explorer** 또는 **실시간** 검색 (이전에는 *실시간 보고서* )을 통해 다음을 [참조 하십시오. 새로운 기능](#new-features-in-real-time-detections)! 보안 & 준수 센터에서 **위협 관리**로 이동한 다음 **Explorer** 또는 **실시간**검색을 선택 합니다. 
+조직에 [office 365 Advanced Threat Protection](office-365-atp.md) (OFFICE 365 ATP)이 있고 [필요한 사용 권한이](#required-licenses-and-permissions)있는 경우에는 **Explorer** 또는 **실시간** 검색 (이전에는 [새로운 기능을 참조 하세요](#new-features-in-real-time-detections) *.)을* 수행 해야 합니다. 보안 & 준수 센터에서 **위협 관리**로 이동한 다음 **Explorer** 또는 **실시간**검색을 선택 합니다. 
 
 |ATP 계획 2를 사용 하는 경우 다음을 확인할 수 있습니다.  |ATP 계획 1을 사용 하는 경우 다음을 확인할 수 있습니다.  |
 |---------|---------|
@@ -37,7 +37,7 @@ Explorer (또는 실시간 검색)를 사용 하는 경우 보안 운영 팀이 
 이 보고서를 사용 하 여 다음을 수행할 수 있습니다.
 - [Office 365 보안 기능으로 검색 된 맬웨어를 참조 하세요.](#see-malware-detected-in-email-by-technology)
 - [피싱 Url에 대 한 데이터를 확인 하 고 결과를 클릭 합니다.](#view-data-about-phishing-urls-and-click-verdict)
-- [탐색기의 보기에서 자동화 된 조사 및 응답 프로세스 시작](#start-automated-investigation-and-response) (ATP 요금제 2에만 해당)
+- [탐색기에서 보기 로부터 자동화 된 조사 및 응답 프로세스 시작](#start-automated-investigation-and-response) (ATP 요금제 2에만 해당)
 - ... [악성 전자 메일을 조사 하 고 더 많은 방법을 확인해](#more-ways-to-use-explorer-or-real-time-detections)보세요.
 
 ## <a name="new-features-in-real-time-detections"></a>실시간 검색의 새로운 기능
@@ -78,7 +78,7 @@ Explorer (또는 실시간 검색)를 사용 하는 경우 보안 운영 팀이 
 
 **전자 메일 시간 표시 막대** 는 관리자에 게 더 적합 한 사냥 환경을 구현 하기 위한 또 다른 새로운 탐색기 기능입니다. 다른 위치를 확인 하는 데 소요 되는 시간이 감소 하 여 이벤트를 이해 하기 위해 임의 시간에 대해 자세히 설명 합니다. 전자 메일에서 여러 이벤트가 발생 하거나 같은 시간에 발생할 경우 해당 이벤트가 시간 표시 막대 보기에 표시 됩니다. 실제로 메일에 대해 배달이 발생 하는 일부 이벤트는 ' 특수 동작 ' 열에 캡처됩니다. 해당 메일의 시간 표시줄에 있는 정보를 메일 발송에 대해 수행 된 특수 작업과 함께 사용 하면 관리자가 정책이 작동 하는 방식, 메일을 최종적으로 라우팅된 위치, 그리고 경우에 따라 최종 평가가 수행 된 방식을 파악할 수 있습니다.
 
-악의적인 전자 메일 조사에 대 한 자세한 내용은 [Office 365에서 제공 하는 악성 전자 메일 찾기 및 조사](https://docs.microsoft.com/en-us/office365/securitycompliance/investigate-malicious-email-that-was-delivered)를 참조 하세요.
+악의적인 전자 메일 조사에 대 한 자세한 내용은 [Office 365에서 제공 하는 악성 전자 메일 찾기 및 조사](https://docs.microsoft.com/office365/securitycompliance/investigate-malicious-email-that-was-delivered)를 참조 하세요.
 
 ## <a name="see-malware-detected-in-email-by-technology"></a>기술 별로 전자 메일에서 발견 된 맬웨어를 참조 하세요.
 

@@ -14,12 +14,12 @@ ms.assetid: c440b2ac-cafa-4be5-ba4c-14278a7990ae
 ms.collection:
 - M365-security-compliance
 description: 이 항목에서는 호스팅되는 격리에 대한 질문과 대답을 제공합니다.
-ms.openlocfilehash: 393542596eacd26a4f64237f666fabfe236dceed
-ms.sourcegitcommit: 9db133b110956bff2942bc903a4484247fc7020a
+ms.openlocfilehash: c61d2e3a9a6bcb847bf7e850e4bb13a7f1160d59
+ms.sourcegitcommit: 550ea6f093ec35182e7c65a2811e9bfb07ec7d01
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37510535"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "38039007"
 ---
 # <a name="quarantine-faq"></a>격리 FAQ
 
@@ -39,11 +39,11 @@ A. 관리자는 EAC(Exchange 관리 센터)에서 격리된 모든 전자 메일
   
 최종 사용자는 다음을 통해 스팸 격리된 메시지를 관리할 수 있습니다. 
   
-- 스팸 격리 사용자 인터페이스입니다. 자세한 내용은 [Find and Release Quarantined Messages (End Users)](http://technet.microsoft.com/library/e439b560-827a-4807-abd3-6b861c1ff786.aspx)을 참조하세요.
+- 스팸 격리 사용자 인터페이스입니다. 자세한 내용은 [Find and Release Quarantined Messages (End Users)](https://technet.microsoft.com/library/e439b560-827a-4807-abd3-6b861c1ff786.aspx)을 참조하세요.
         
  **Q. 최종 사용자에게 스팸 격리소에 대한 액세스 권한을 부여하려면 어떻게 합니까?**
   
-대답. 최종 사용자 스팸 격리에 액세스 하려면 최종 사용자에 게 유효한 Office 365 사용자 ID 및 암호가 있어야 합니다. 온-프레미스 사서함을 보호 하는 EOP 고객은 디렉터리 동기화 또는 EAC를 통해 만든 유효한 전자 메일 사용자 여야 합니다. 사용자를 관리 하는 방법에 대 한 자세한 내용은 EOP 관리자가 [EOP에서 메일 사용자 관리](manage-mail-users-in-eop.md)를 참조할 수 있습니다. EOP 독립 실행형 고객의 경우 디렉터리 동기화 및 디렉터리 기반 Edge 차단을 사용 하는 것이 좋습니다. 자세한 내용은 [디렉터리 기반 Edge 차단을 사용 하 여 잘못 된 받는 사람에 게 보낸 메시지 거부](http://technet.microsoft.com/library/ca7b7416-92ed-40ad-abdb-695be46ea2e4.aspx)를 참조 하세요.
+대답. 최종 사용자 스팸 격리에 액세스 하려면 최종 사용자에 게 유효한 Office 365 사용자 ID 및 암호가 있어야 합니다. 온-프레미스 사서함을 보호 하는 EOP 고객은 디렉터리 동기화 또는 EAC를 통해 만든 유효한 전자 메일 사용자 여야 합니다. 사용자를 관리 하는 방법에 대 한 자세한 내용은 EOP 관리자가 [EOP에서 메일 사용자 관리](manage-mail-users-in-eop.md)를 참조할 수 있습니다. EOP 독립 실행형 고객의 경우 디렉터리 동기화 및 디렉터리 기반 Edge 차단을 사용 하는 것이 좋습니다. 자세한 내용은 [디렉터리 기반 Edge 차단을 사용 하 여 잘못 된 받는 사람에 게 보낸 메시지 거부](https://technet.microsoft.com/library/ca7b7416-92ed-40ad-abdb-695be46ea2e4.aspx)를 참조 하세요.
   
  **질문. 스팸 이외의 항목을 격리로 보낼 수 있습니까?**
   
@@ -55,21 +55,21 @@ A. 관리자는 EAC(Exchange 관리 센터)에서 격리된 모든 전자 메일
   
  **Q. 한 번에 2개 이상의 격리된 메시지를 해제하거나 보고할 수 있습니까?**
   
-A. 예, 격리 포털에서 한 번에 최대 100 개의 메시지를 릴리스할 수 있습니다. 또한 관리자는이 작업을 수행 하는 원격 Windows PowerShell 스크립트를 만들 수 있습니다. [Get-QuarantineMessage](http://technet.microsoft.com/library/88026da1-8dbc-49e7-80e8-112a32773c34.aspx) cmdlet을 사용하여 메시지를 검색하고 [Release-QuarantineMessage](http://technet.microsoft.com/library/4a3aa05c-238f-46f2-b8dd-b0e3c38eab3e.aspx) cmdlet을 사용하여 메시지를 해제할 수 있습니다. 
+A. 예, 격리 포털에서 한 번에 최대 100 개의 메시지를 릴리스할 수 있습니다. 또한 관리자는이 작업을 수행 하는 원격 Windows PowerShell 스크립트를 만들 수 있습니다. [Get-QuarantineMessage](https://technet.microsoft.com/library/88026da1-8dbc-49e7-80e8-112a32773c34.aspx) cmdlet을 사용하여 메시지를 검색하고 [Release-QuarantineMessage](https://technet.microsoft.com/library/4a3aa05c-238f-46f2-b8dd-b0e3c38eab3e.aspx) cmdlet을 사용하여 메시지를 해제할 수 있습니다. 
   
  **질문. 격리된 메시지 검색 시 와일드카드가 지원됩니까? 특정 도메인에 대해 격리된 메시지를 검색할 수 있습니까?**
   
 대답. Exchange 관리 센터에서 검색 조건을 지정할 때는 와일드카드가 지원되지 않습니다. 예를 들어 보낸 사람을 검색할 때는 전체 전자 메일 주소를 지정해야 합니다.
   
-원격 Windows PowerShell을 통해 관리자는 [Get-QuarantineMessage](http://technet.microsoft.com/library/88026da1-8dbc-49e7-80e8-112a32773c34.aspx) cmdlet을 지정하여 contoso.com과 같은 특정 도메인에 대해 격리된 메시지를 검색할 수 있습니다. 
+원격 Windows PowerShell을 통해 관리자는 [Get-QuarantineMessage](https://technet.microsoft.com/library/88026da1-8dbc-49e7-80e8-112a32773c34.aspx) cmdlet을 지정하여 contoso.com과 같은 특정 도메인에 대해 격리된 메시지를 검색할 수 있습니다. 
   
-```
+```powershell
 Get-QuarantineMessage | ? {$_.Senderaddress -like "*@contoso.com"}
 ```
 
-이 결과는 [Release-QuarantineMessage](http://technet.microsoft.com/library/4a3aa05c-238f-46f2-b8dd-b0e3c38eab3e.aspx) cmdlet으로 전달될 수 있습니다. 메시지를 모든 받는 사람에게 릴리스하려면 -ReleaseToAll 매개 변수를 포함합니다. 메시지를 릴리스한 후에는 다시 릴리스할 수 없습니다. 
+이 결과는 [Release-QuarantineMessage](https://technet.microsoft.com/library/4a3aa05c-238f-46f2-b8dd-b0e3c38eab3e.aspx) cmdlet으로 전달될 수 있습니다. 메시지를 모든 받는 사람에게 릴리스하려면 -ReleaseToAll 매개 변수를 포함합니다. 메시지를 릴리스한 후에는 다시 릴리스할 수 없습니다. 
   
-```
+```powershell
 Get-QuarantineMessage | ? {$_.Senderaddress -like "*@contoso.com"}
 ```
 

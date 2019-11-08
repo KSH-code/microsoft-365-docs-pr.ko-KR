@@ -14,12 +14,12 @@ ms.assetid: c534a35d-b121-45da-9d0a-ce738ce51fce
 ms.collection:
 - M365-security-compliance
 description: 이 항목에서는 스팸 방지 보호 기능에 대한 질문과 대답을 제공합니다. 대답은 Microsoft Exchange Online 및 EOP(Exchange Online Protection) 고객에게 해당됩니다.
-ms.openlocfilehash: 504fb93a271a60db4c43aa48ba6578a904c8bb5a
-ms.sourcegitcommit: cbf117a4cd92a907115c9f10752f3c557361e586
+ms.openlocfilehash: 7e84aa35d3269e4b22fd8ea868b55249b422f268
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "37441095"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38034189"
 ---
 # <a name="anti-spam-protection-faq"></a>스팸 방지 및 보호 FAQ
 
@@ -33,13 +33,13 @@ ms.locfileid: "37441095"
 대답. **인바운드 메시지의 경우:** 스팸은 대부분 보낸 사람의 IP 주소를 기반으로 하는 연결 필터링을 통해 삭제됩니다. 그런 다음 서비스에서 메시지 내용을 검사합니다. 기본적으로 콘텐츠가 필터링된 스팸이 받는 사람의 정크 메일 폴더로 전송됩니다. 이 작업은 변경할 수 있습니다. 예를 들어 콘텐츠 필터 정책을 구성하여 스팸 메시지를 격리로 대신 보내도록 선택할 수 있습니다. 
   
 > [!IMPORTANT]
-> EOP 독립 실행형 고객의 경우: 온-프레미스 사서함에서 **정크 메일 폴더로 메시지 이동** 작업을 수행 하려면 온-프레미스 서버에서 두 개의 Exchange 메일 흐름 규칙 (전송 규칙이 라고도 함)을 구성 하 여 검색 해야 합니다. EOP에서 추가 된 스팸 헤더입니다. 자세한 내용은 [스팸이 각 사용자의 정크 메일 폴더로 라우팅되는지 확인](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md)을 참조하십시오. 
+> EOP 독립 실행형 고객의 경우: 온-프레미스 사서함에서 **정크 메일 폴더로 메시지 이동** 작업을 수행 하기 위해 온-프레미스 서버에서 두 개의 Exchange 메일 흐름 규칙 (전송 규칙이 라고도 함)을 구성 하 여 EOP에서 추가 된 스팸 헤더를 검색 해야 합니다. 자세한 내용은 [스팸이 각 사용자의 정크 메일 폴더로 라우팅되는지 확인](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md)을 참조하십시오. 
   
  **아웃바운드 메시지의 경우:** 메시지는 위험성이 높은 배달 풀을 통해 라우팅되거나 반송되어 배달되지 않습니다. 후자의 경우 보낸 사람은 메시지를 배달할 수 없음을 알리는 DSN(배달 상태 알림) 메시지를 받게 됩니다. 
   
  **Q. 제로 하루 스팸 변종, 서비스에서 처리 하는 방법**
   
-대답. 0 일의 스팸 변형은 첫 번째 세대 이며, 이전에는 캡처되지 않거나 분석 되지 않은 스팸의 변종 이며, 스팸 콘텐츠 필터에는 아직 정보를 검색할 수 있는 정보가 없습니다. 스팸 분석가에 의해 하루 (제로) 스팸 샘플이 캡처 및 분석 된 후 스팸 분류 기준을 충족 하는 경우 스팸 콘텐츠 필터가 업데이트 되어 더 이상 "0 일"로 간주 되지 않습니다. ( **참고:** 서비스를 개선 하는 데 도움이 되도록 0 일 동안의 스팸 변종 인 메시지를 받은 경우 microsoft에 [스팸, 스팸 아님 및 피싱 사기 메시지에 설명 된 방법 중 하나를 통해 microsoft에 메시지를 제출 하세요. 분석](submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md))
+대답. 0 일의 스팸 변형은 첫 번째 세대 이며, 이전에는 캡처되지 않거나 분석 되지 않은 스팸의 변종 이며, 스팸 콘텐츠 필터에는 아직 정보를 검색할 수 있는 정보가 없습니다. 스팸 분석가에 의해 하루 (제로) 스팸 샘플이 캡처 및 분석 된 후 스팸 분류 기준을 충족 하는 경우 스팸 콘텐츠 필터가 업데이트 되어 더 이상 "0 일"로 간주 되지 않습니다. ( **참고:** 서비스를 개선 하는 데 도움이 되도록 0 일 동안의 스팸 변종 인 메시지를 받는 경우에는 microsoft에 [게 스팸, 스팸이 아닌 메시지 및 피싱 사기](submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md)message에 설명 된 방법 중 하나를 사용 하 여 microsoft로 메시지를 제출 하십시오.)
   
  **질문. 스팸 방지 보호 기능을 제공하도록 서비스를 구성해야 합니까?**
   
@@ -73,13 +73,13 @@ ms.locfileid: "37441095"
   
 대답. 예를 들어 Microsoft 365 관리 센터에서 스팸 검색 보고서를 받을 수 있습니다. 이 보고서는 스팸 볼륨을 고유한 메시지의 수로 표시 합니다. 보고에 대한 자세한 내용은 다음 링크를 참조하십시오.
   
-Exchange Online 고객: [Exchange online의 모니터링, 보고 및 메시지 추적](http://technet.microsoft.com/library/87bdeeae-bd80-4a3b-95c5-62fbaf97c2e8.aspx)
+Exchange Online 고객: [Exchange online의 모니터링, 보고 및 메시지 추적](https://technet.microsoft.com/library/87bdeeae-bd80-4a3b-95c5-62fbaf97c2e8.aspx)
   
 Exchange Online Protection 고객: [Reporting and message trace In Exchange Online protection](reporting-and-message-trace-in-exchange-online-protection.md)
   
  **질문: 전송된 메시지를 찾을 수 없습니다. 해당 메시지가 스팸으로 검색된 것 같습니다. 이를 확인하는 데 사용할 수 있는 도구가 있습니까?**
   
-대답. 예, 메시지 추적 도구를 사용 하면 전자 메일 메시지가 서비스를 통과 하는 대로 진행 되는 상황을 확인할 수 있습니다. 메시지 추적 도구를 사용 하 여 메시지가 스팸으로 표시 된 이유를 확인 하는 방법에 대 한 자세한 내용은 [메시지가 스팸으로 표시 되었습니까?](http://technet.microsoft.com/library/aa49e3f9-a5b1-4410-aac2-ddbbf3f5bfb2.aspx#BKMB_Whywasamessagemarkedasspam) 를 참조 하세요.
+대답. 예, 메시지 추적 도구를 사용 하면 전자 메일 메시지가 서비스를 통과 하는 대로 진행 되는 상황을 확인할 수 있습니다. 메시지 추적 도구를 사용 하 여 메시지가 스팸으로 표시 된 이유를 확인 하는 방법에 대 한 자세한 내용은 [메시지가 스팸으로 표시 되었습니까?](https://technet.microsoft.com/library/aa49e3f9-a5b1-4410-aac2-ddbbf3f5bfb2.aspx#BKMB_Whywasamessagemarkedasspam) 를 참조 하세요.
   
  **질문: 사용자가 아웃바운드 스팸을 보내면 서비스에서 메일을 제한(속도 제한)합니까?**
   
@@ -89,15 +89,15 @@ Exchange Online Protection 고객: [Reporting and message trace In Exchange Onli
   
  **질문. 타사 스팸 방지 및 맬웨어 방지 공급자와 Exchange Online을 함께 사용할 수 있습니까?**
   
-대답. 예. Exchange Online 사서함을 보호하도록 다른 스팸 및 맬웨어 필터링 서비스를 구성할 수 있습니다. 인바운드 메일에 대해 이렇게 하려면 타사 공급자를 가리키도록 MX 레코드를 변경하여 이메일 메시지를 타사 공급자로 리디렉션한 다음 추가 처리를 위해 메시지를 EOP로 리디렉션해야 합니다. 아웃바운드 메일에 대해 이렇게 하려면 [Scenario: Outbound Smart Hosting](http://technet.microsoft.com/library/431b3f02-4efd-4bd3-94e7-eecd03f8ef5e.aspx)에 표시된 대로 메시지 배달 대상을 타사 공급자(스마트 호스트)로 구성합니다.
+대답. 예. Exchange Online 사서함을 보호하도록 다른 스팸 및 맬웨어 필터링 서비스를 구성할 수 있습니다. 인바운드 메일에 대해 이렇게 하려면 타사 공급자를 가리키도록 MX 레코드를 변경하여 이메일 메시지를 타사 공급자로 리디렉션한 다음 추가 처리를 위해 메시지를 EOP로 리디렉션해야 합니다. 아웃바운드 메일에 대해 이렇게 하려면 [Scenario: Outbound Smart Hosting](https://technet.microsoft.com/library/431b3f02-4efd-4bd3-94e7-eecd03f8ef5e.aspx)에 표시된 대로 메시지 배달 대상을 타사 공급자(스마트 호스트)로 구성합니다.
   
  **질문. Microsoft에 피싱 메일로부터 자기 자신을 보호할 수 있는 방법에 대한 설명서가 있습니까?**
   
 대답. 예. 있습니다. 다음 문서를 참조하세요.
   
-[피싱 메일, 복권 사기 및 기타 유형의 사기에 대한 도움말 보기](http://go.microsoft.com/fwlink/p/?LinkId=325606)
+[피싱 메일, 복권 사기 및 기타 유형의 사기에 대한 도움말 보기](https://go.microsoft.com/fwlink/p/?LinkId=325606)
   
-[전자 메일 및 웹 사기: 사용자 자신을 보호하는 방법](http://go.microsoft.com/fwlink/p/?LinkID=325607)
+[전자 메일 및 웹 사기: 사용자 자신을 보호하는 방법](https://go.microsoft.com/fwlink/p/?LinkID=325607)
   
  **질문. 스팸 및 맬웨어 메시지의 경우 보낸 사람을 조사하거나 법 집행 기관으로 전송됩니까?**
   

@@ -14,12 +14,12 @@ ms.assetid: ff3f140b-b005-445f-bfe0-7bc3f328aaf0
 ms.collection:
 - M365-security-compliance
 description: Microsoft는 다양 한 정책과 절차를 개발 하 고 사용자가 악성 전자 메일, 원치 않는 이메일 또는 악의적으로 보호 하는 데 도움이 되는 몇 가지 업계 모범 사례를 채택 했습니다.
-ms.openlocfilehash: e897b5ecf7fb31581c22e2a6e3cc80f927f43454
-ms.sourcegitcommit: cbf117a4cd92a907115c9f10752f3c557361e586
+ms.openlocfilehash: 0957e34008f4e05693218970c458656d73d9c0fe
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "37441425"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38031813"
 ---
 # <a name="reference-policies-practices-and-guidelines"></a>참조: 정책, 사례 및 지침
 
@@ -83,7 +83,7 @@ Microsoft는 인터넷 및 전자 메일 에코 시스템을 개선 하기 위�
 
 - [온라인 신뢰 동맹](https://www.otalliance.org/resources)
 
-- [전자 메일 &amp; 보낸 사람 공급자 Coalition](http://www.espcoalition.org/)
+- [전자 메일 &amp; 보낸 사람 공급자 Coalition](https://www.espcoalition.org/)
 
 ## <a name="abuse-and-spam-reporting"></a>불건전 및 스팸 보고
 

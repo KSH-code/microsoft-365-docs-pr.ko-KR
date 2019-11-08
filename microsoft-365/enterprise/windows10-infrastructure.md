@@ -10,12 +10,12 @@ ms.prod: microsoft-365-enterprise
 ms.topic: article
 ms.date: 08/28/2019
 ms.author: greglin
-ms.openlocfilehash: b1f655e5befd16058870542f2e595d36599006fd
-ms.sourcegitcommit: 2aeafb631aaabc53eea0a8029711eb891e48d249
+ms.openlocfilehash: d704f6392f5f0510478073299fcfe60569560105
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "37746710"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38033643"
 ---
 # <a name="phase-3-windows-10-enterprise"></a>3단계: Windows 10 Enterprise
 
@@ -72,7 +72,7 @@ Windows 10 Enterprise에서 제공 하는 보안 기능에 대 한 자세한 내
 
 ## <a name="how-microsoft-does-microsoft-365-enterprise"></a>Microsoft에서 Microsoft 365 Enterprise를 수행하는 방법
 
-Microsoft 내부를 살펴보고 회사에서 [Windows 10 Enterprise를 배포 하 고 강력한 인증, Intune 및 Microsoft DEFENDER ATP를 사용](https://www.microsoft.com/en-us/itshowcase/deploying-and-managing-microsoft-365#primaryR6)하는 방법을 알아봅니다.
+Microsoft 내부를 살펴보고 회사에서 [Windows 10 Enterprise를 배포 하 고 강력한 인증, Intune 및 Microsoft DEFENDER ATP를 사용](https://www.microsoft.com/itshowcase/deploying-and-managing-microsoft-365#primaryR6)하는 방법을 알아봅니다.
 
 ## <a name="how-contoso-did-microsoft-365-enterprise"></a>Contoso의 Microsoft 365 Enterprise 사용 방식
 

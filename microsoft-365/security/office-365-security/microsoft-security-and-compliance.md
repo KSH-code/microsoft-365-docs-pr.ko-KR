@@ -11,12 +11,12 @@ ms.collection:
 - M365-security-compliance
 localization_priority: Normal
 description: 새로운 Microsoft 365 보안 센터 및 준수 센터에 대 한 준비를 완료 하세요.
-ms.openlocfilehash: 839fe075f0d7d9038a3f3820f633ea9c643f3cf2
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 7b2cf40c812afc59116d42687cff6ceb0e7b0423
+ms.sourcegitcommit: b424ea039c5915975f3efce8793bfc8dd2fdf906
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37089043"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38034349"
 ---
 # <a name="the-new-microsoft-365-security-center-and-microsoft-365-compliance-center-are-now-generally-available"></a>이제 새로운 Microsoft 365 보안 센터와 Microsoft 365 준수 센터를 일반적으로 사용할 수 있습니다.
 
@@ -37,7 +37,7 @@ Microsoft 365 보안 센터에 액세스할 수 있게 됩니다 [https://securi
 
 ## <a name="microsoft-365-compliance-center"></a>Microsoft 365 규정 준수 센터
 
-새로운 [microsoft 365 준수 센터](../../compliance/microsoft-365-compliance-center.md) 를 통해 Microsoft 준수 관리자를 확인할 수 있으며,이를 통해 전반적인 규정 준수 상황을 반영 하 고 복잡 한 준수를 충족 하도록 설정을 구성 하는 데 도움이 되는 권장 조치를 얻을 수 있습니다. 책임. 
+새로운 [microsoft 365 준수 센터](../../compliance/microsoft-365-compliance-center.md) 에서는 Microsoft 준수 관리자를 표시 하 고 전반적인 준수 상태를 반영 하며, 복잡 한 준수 의무를 충족 하도록 설정을 구성 하는 데 도움이 되는 권장 조치를 제공 합니다. 
 
 민감도 및 보존 레이블과 정책, DLP (데이터 손실 방지), 데이터 거 버 넌 스, eDiscovery, 데이터 주체 요청 (DSRs), 사례 관리 및 Cloud App Security에 쉽게 액세스할 수 있습니다. 또한 실행 가능한 통찰력을 얻고 지능적인 자동화를 활용 하 여 준수 위험을 줄이고 디지털 공간을 보호할 수 있습니다. 
 
@@ -60,24 +60,24 @@ Office 365 보안 & 준수 센터를 포함 하는 독립 실행형 요금제와
 
 ### <a name="easy-access"></a>간편 하 게 액세스할 수 있습니다.
 
-향상 된 탐색, 통합 솔루션 및 능률적인 환경을 통해 가장 관심 있는 정보를 보고 액세스할 수 있으며 Microsoft 365의 강력한 보안 및 규정 준수 솔루션을 활용 하는 데 도움이 됩니다. 또한 향후 몇 개월에 더 많은 기능과 솔루션을 추가 하지만 Office 365 보안 & 준수 센터 ([https://protection.microsoft.com](https://protection.microsoft.com))는 계속 사용할 수 있습니다.
+향상 된 탐색, 통합 솔루션 및 능률적인 환경을 통해 가장 관심 있는 정보를 보고 액세스할 수 있으며 Microsoft 365의 강력한 보안 및 규정 준수 솔루션을 활용 하는 데 도움이 됩니다. 또한 향후 몇 개월에 더 많은 기능과 솔루션을 추가 하지만 Office 365 보안 & 준수 센터 ([https://protection.office.com](https://protection.office.com))는 계속 사용할 수 있습니다.
 
 Office 365 보안 & 준수 센터에 액세스 하려면 화면 왼쪽의 탐색 창에서 **기타 리소스**를 선택 합니다. 그런 다음 **Office 365 보안 & 준수 센터**에서 **열기**를 선택 합니다.
 
 ### <a name="smooth-transition"></a>부드러운 전환!
 
-새 센터로 원활 하 게 전환할 수 있습니다. 결국에는 이전 Microsoft 365 Security & 준수 센터 ([https://protection.microsoft.com](https://protection.microsoft.com))가 폐기 됩니다. 관리자 환경이 변경 되더라도 현재 보안 및 준수 구성에는 영향을 주지 않습니다. 조직에 Microsoft 365 Enterprise E3 또는 E5가 있는 경우 보안 및 준수 관리자는 다음을 수행할 수 있습니다.
+새 센터로 원활 하 게 전환할 수 있습니다. 결국에는 이전 Microsoft 365 보안 & 준수 센터가 중지 됩니다. 관리자 환경이 변경 되더라도 현재 보안 및 준수 구성에는 영향을 주지 않습니다. 조직에 Microsoft 365 Enterprise E3 또는 E5가 있는 경우 보안 및 준수 관리자는 다음을 수행할 수 있습니다.
 
-- 및 [https://compliance.microsoft.com](https://compliance.microsoft.com)로 직접 [https://security.microsoft.com](https://security.microsoft.com) 이동 합니다. <br>또는  
+- 및 [https://compliance.microsoft.com](https://compliance.microsoft.com)로 직접 [https://security.microsoft.com](https://security.microsoft.com) 이동 합니다. <br> 선택하거나   
 - Microsoft 365 관리[https://admin.microsoft.com](https://admin.microsoft.com)센터 ()로 이동 하 고 탐색 창에서 **모두 표시**를 클릭 한 다음 **보안** 또는 **규정 준수**를 선택 합니다.
 
-또한 기존 Office 365 보안 & 준수 센터 ([https://protection.office.com](http://protection.office.com)) 에서도 설정을 구성 및 관리할 수 있습니다. 구성은 기존 Office 365 & 보안 센터 및 Microsoft 365 준수 센터와 새로운 Microsoft 365 보안 센터가 함께 유지 됩니다.  
+또한 기존 Office 365 보안 & 준수 센터 ([https://protection.office.com](https://protection.office.com)) 에서도 설정을 구성 및 관리할 수 있습니다. 구성은 기존 Office 365 & 보안 센터 및 Microsoft 365 준수 센터와 새로운 Microsoft 365 보안 센터가 함께 유지 됩니다.  
 
 ## <a name="required-licenses-and-permissions"></a>필요한 라이선스 및 사용 권한
 
 ### <a name="licenses"></a>라이선스
 
-새로운 Microsoft 365 보안 센터와 Microsoft 365 준수 센터를 받으려면 조직에 Microsoft 365 E3 또는 E5에 대 한 구독 또는 Office 365 E3 또는 E5, Enterprise Mobility + Security E3/E5로 구성 된 볼륨 라이선스 (해당 하는 경우)이 포함 되어 있어야 합니다. Windows 10 Enterprise E3/E5 이러한 계획에 대 한 자세한 내용은 [사용자에 게 적합 한 Microsoft 365 솔루션 검색](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans)을 참조 하십시오.
+새로운 Microsoft 365 보안 센터와 Microsoft 365 준수 센터를 받으려면 조직에 Microsoft 365 E3 또는 E5에 대 한 구독 또는 Office 365 E3 또는 E5, Enterprise Mobility + Security E3/E5로 구성 된 볼륨 라이선스 (해당 하는 경우)이 포함 되어 있어야 합니다. 이러한 계획에 대 한 자세한 내용은 [사용자에 게 적합 한 Microsoft 365 솔루션 검색](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans)을 참조 하십시오.
 
 ### <a name="roles-and-permissions"></a>역할 및 사용 권한
 
@@ -95,7 +95,7 @@ Office 365 보안 & 준수 센터에 액세스 하려면 화면 왼쪽의 탐색
 
 |포탈 |전역 관리자 |보안 관리자, 보안 운영자 또는 보안 독자|준수 관리자 또는 준수 데이터 관리자 |
 |---------|---------|---------|---------|
-|[보안 & 준수 센터](https://protection.office.com) |예 |예  |예 |
+|[Office 365 보안 및 준수 센터](https://protection.office.com) |예 |예  |예 |
 |[Microsoft 365 보안 센터](https://security.microsoft.com) |예  | 예  | 아니요        |
 |[Microsoft 365 규정 준수 센터](https://compliance.microsoft.com) | 예 | 아니요 | 예 |
 |[규정 준수 관리자](https://aka.ms/compliancemanager) |예 | 예 |예  |
@@ -103,11 +103,11 @@ Office 365 보안 & 준수 센터에 액세스 하려면 화면 왼쪽의 탐색
 |[Azure Security Center](https://docs.microsoft.com/azure/security-center/)  |예 |예 |아니요 |
 |[Azure Advanced Threat Protection](https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp)  |예 |예 |아니요 |
 |[Microsoft Defender ATP](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) |예 |예 |아니요 |
-|[Id 보호](https://docs.microsoft.com/azure/active-directory/identity-protection)     |예 |예 |아니요 |
-|[권한 있는 Id 관리](https://docs.microsoft.com/azure/active-directory/privileged-identity-management)     |예 |예 |아니요 |
+|[ID 보호](https://docs.microsoft.com/azure/active-directory/identity-protection)     |예 |예 |아니요 |
+|[Privileged Identity Management](https://docs.microsoft.com/azure/active-directory/privileged-identity-management)     |예 |예 |아니요 |
 |[Intune](https://docs.microsoft.com/intune)     |예 |예 |예 |
 |[Cloud App Security](https://docs.microsoft.com/cloud-app-security/)     |예 |예 |예 |
-|[보안 점수](https://docs.microsoft.com/office365/securitycompliance/office-365-secure-score)     |예 |예 |아니요 |
+|[Secure Score](https://docs.microsoft.com/office365/securitycompliance/office-365-secure-score)     |예 |예 |아니요 |
 |[Exchange](https://docs.microsoft.com/exchange/)     |예 |예 |예 |
 
 ## <a name="additional-resources"></a>추가 리소스

@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Microsoft 365 캠페인에 대 한 조건부 액세스 정책을 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: 31f3b7f3678671af3b5ca3947dec37041b226fac
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+ms.openlocfilehash: 3772aa0d505ef54a0587423e890ede519d571e0c
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37575641"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38031398"
 ---
 # <a name="set-up-conditional-access-policies"></a>조건부 액세스 정책 설정
 
@@ -53,9 +53,9 @@ ms.locfileid: "37575641"
     ![조건부 액세스에 대 한 기준 정책을 나열 하는 페이지입니다.](media/baslinepolicies.png)
 1. 각 정책에 대해 다음과 같은 구체적인 지침을 참조 하세요.
 
-  - [관리자를 위해 MFA 필요](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/howto-baseline-protect-administrators)
-- [사용자에 대해 MFA 요구](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/howto-baseline-protect-end-users)  
- - [레거시 인증 차단](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/howto-baseline-protect-legacy-auth)
+  - [관리자를 위해 MFA 필요](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-administrators)
+- [사용자에 대해 MFA 요구](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-end-users)  
+ - [레거시 인증 차단](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-legacy-auth)
   - [서비스 관리를 위해 MFA 필요](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-azure)
 
 승인 된 클라이언트 앱을 요구 하는 등의 다양 한 추가 정책을 설정할 수 있습니다. 자세한 내용은 [조건부 액세스 설명서](https://docs.microsoft.com/azure/active-directory/conditional-access/) 를 참조 하세요.

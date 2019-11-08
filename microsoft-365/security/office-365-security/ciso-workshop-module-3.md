@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: 조직의 현대화 보안에 대 한 보안 원칙 및 권장 사항에 대해 자세히 알아보세요.
-ms.openlocfilehash: 89b275c621ef0d4d7fe1f95625c34a51ee4c506f
-ms.sourcegitcommit: 9d0a025ea9e265d515a034de0102eabcf47d11f5
+ms.openlocfilehash: 44a870263a832e2d130e0404c5e2ad0736a5fae5
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "37911399"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38034380"
 ---
 # <a name="ciso-workshop-module-3-identity-and-zero-trust-user-access"></a>CISO 워크숍 모듈 3: Id 및 제로 트러스트 사용자 액세스
 
@@ -26,15 +26,15 @@ ms.locfileid: "37911399"
 
 ## <a name="part-1-identity-and-zero-trust-history-933"></a>1 부: Id 및 제로 트러스트 기록 (9:33)
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE3Yyhs]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3Yyhs]
 
 ## <a name="part-2-zero-trust-definition-and-models-1537"></a>2 부: 제로 트러스트 정의 및 모델 (15:37)
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE3YaUL]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3YaUL]
 
 ## <a name="part-3-strategy-and-priorities-954"></a>3 부: 전략 및 우선 순위 (9:54)
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE3YvHy]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3YvHy]
 
 ## <a name="part-4-account-security-measuring-cost-of-attack-password-less-authentication-1311"></a>4 부: 계정 보안: 공격에 대 한 암호 인증 비용 측정 (13:11)
 
@@ -42,7 +42,7 @@ ms.locfileid: "37911399"
 
 ##  <a name="part-5-zero-trust-user-access-reference-architecture-842"></a>5 부: 제로 트러스트 사용자 액세스 참조 아키텍처 (8:42)
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RE3Yyhx]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3Yyhx]
 
 ##  <a name="part-6-build-an-identity-perimeter-1357"></a>6 부: Id 경계 만들기 (13:57)
 

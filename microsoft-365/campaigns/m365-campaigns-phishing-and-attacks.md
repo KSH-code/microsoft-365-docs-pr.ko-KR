@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Microsoft 365 for 캠페인을 통해 피싱 및 기타 공격 으로부터 보호 합니다.
-ms.openlocfilehash: 66708fe214815640baf08adace292dee683e382b
-ms.sourcegitcommit: cccf6ceade81d27e9d0b65c17d26b5fc7493eecd
+ms.openlocfilehash: be00cdc0c70c2a2f6ac9292e933031280b7c4616
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "37593863"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38029062"
 ---
 # <a name="protect-yourself-against-phishing-and-other-attacks"></a>피싱 및 기타 공격 으로부터 자신을 보호 합니다.
 
@@ -42,12 +42,12 @@ Microsoft 365에는 공격 으로부터 보호할 수 있는 다양 한 보호 �
 
 **스팸 메일을 줄입니다.**
 
-[스팸을 줄이는 방법에 대 한 다음 10 가지 팁](https://support.office.com/en-us/article/10-tips-on-how-to-help-reduce-spam-55F756E8-688B-41C3-A086-8F68CCC592F6)을 따릅니다.
+[스팸을 줄이는 방법에 대 한 다음 10 가지 팁](https://support.office.com/article/10-tips-on-how-to-help-reduce-spam-55F756E8-688B-41C3-A086-8F68CCC592F6)을 따릅니다.
 
 **보고서!**
 
 수신 하는 모든 피싱 또는 기타 사기 전자 메일을 보고 합니다. 메시지를 선택 하 고 리본 메뉴에서 **메시지 보고** 를 선택 합니다.
-[정크 메일 및 피싱 이메일을 보고 하](https://support.office.com/en-us/article/Use-the-Report-Message-add-in-b5caa9f1-cdf3-4443-af8c-ff724ea719d2)는 방법에 대 한 자세한 내용은 다음과 같습니다.
+[정크 메일 및 피싱 이메일을 보고 하](https://support.office.com/article/Use-the-Report-Message-add-in-b5caa9f1-cdf3-4443-af8c-ff724ea719d2)는 방법에 대 한 자세한 내용은 다음과 같습니다.
 
 **피싱 방지**
 - 개인 또는 계정 정보를 보내도록 요청 하는 전자 메일에 회신 하지 마십시오.
@@ -56,11 +56,11 @@ Microsoft 365에는 공격 으로부터 보호할 수 있는 다양 한 보호 �
 - 전자 메일이 회사에서 온 것으로 나타나면 전화 또는 웹 브라우저를 통해 회사의 고객 서비스에 연락 하 여 전자 메일이 합법적 인지 확인 합니다.
 - 웹에서 전자 메일 제목 줄을 검색 하 고, 다른 사람이이 사기를 보고 했는지 확인 합니다.
 
-[악용, 피싱 또는 스푸핑](https://support.office.com/en-us/article/Deal-with-abuse-phishing-or-spoofing-in-Outlook-com-0d882ea5-eedc-4bed-aebc-079ffa1105a3)에 대 한 처리의 5 가지 일반적인 사기 유형에 대해 알아봅니다.
+[악용, 피싱 또는 스푸핑](https://support.office.com/article/Deal-with-abuse-phishing-or-spoofing-in-Outlook-com-0d882ea5-eedc-4bed-aebc-079ffa1105a3)에 대 한 처리의 5 가지 일반적인 사기 유형에 대해 알아봅니다.
 
 **다른 사용자가 전자 메일을 볼 수 있는지 확인**
 
-고객이 귀하의 신원을 증명 하기 위해 디지털 서명을 추가 하 여 사용자의 통신을 신뢰 하는 것을 지원 합니다. [디지털 서명을 사용 하 여 보안 메시지](https://support.office.com/en-us/article/secure-messages-by-using-a-digital-signature-549ca2f1-a68f-4366-85fa-b3f4b5856fc6)를 참조 하세요.
+고객이 귀하의 신원을 증명 하기 위해 디지털 서명을 추가 하 여 사용자의 통신을 신뢰 하는 것을 지원 합니다. [디지털 서명을 사용 하 여 보안 메시지](https://support.office.com/article/secure-messages-by-using-a-digital-signature-549ca2f1-a68f-4366-85fa-b3f4b5856fc6)를 참조 하세요.
 
 ## <a name="help-protect-your-campaign-from-online-threats"></a>온라인 위협 으로부터 캠페인을 보호 합니다.
 
@@ -75,6 +75,6 @@ Microsoft 365에는 공격 으로부터 보호할 수 있는 다양 한 보호 �
 ## <a name="set-it-up"></a>설정하기
 
 자세한 내용은 다음을 참고 하세요.
-- [Office에서 파일 및 통신을 안전 하 게 유지](https://support.office.com/en-us/article/keep-your-files-and-communications-safe-with-office-c4ddc381-7395-42da-887c-8836a3bb975f)
-- [회사 보안 및 비공개로 유지](https://support.office.com/en-us/article/stay-secure-and-private-at-work-104c7d91-b25a-453d-beee-ba64b6c6fc2d)
+- [Office에서 파일 및 통신을 안전 하 게 유지](https://support.office.com/article/keep-your-files-and-communications-safe-with-office-c4ddc381-7395-42da-887c-8836a3bb975f)
+- [회사 보안 및 비공개로 유지](https://support.office.com/article/stay-secure-and-private-at-work-104c7d91-b25a-453d-beee-ba64b6c6fc2d)
   

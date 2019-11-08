@@ -22,18 +22,18 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Microsoft 365 Business를 설정하는 방법 알아보기
-ms.openlocfilehash: 0c717271da17ff4bf28d8d3546df3a9da427dba5
-ms.sourcegitcommit: 53148fc3663bdcfa9605684317785cb19f37e141
+ms.openlocfilehash: 86af927c05168fabe5a72f331c14c9f3e5cbc1dd
+ms.sourcegitcommit: 550ea6f093ec35182e7c65a2811e9bfb07ec7d01
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "37697768"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "38038952"
 ---
 # <a name="overview-of-microsoft-365-business"></a>Microsoft 365 비즈니스 개요
 
 ## <a name="what-is-microsoft-365-business"></a>Microsoft 365 Business란
 
-Microsoft 365 Business는 항상 최신 상태를 유지하는 Outlook, Word, Excel 등의 Office 제품과 같은 다양한 비즈니스 생산성 및 공동 작업 도구입니다. 간단하게 관리할 수 있는 엔터프라이즈급 보안을 사용하여 모든 iOS, Android 및 Windows 10 장치에서 작업 파일을 보호할 수 있습니다.
+Microsoft 365 Business는 cyberthreats 로부터 비즈니스를 보호 하 고 데이터를 보호 하 고 장치를 관리 하는 데 도움이 되는 Office 365 생산성 도구와 고급 기능을 포함 하는 구독 서비스입니다.
   
 Microsoft 365 Business는 최대 300개의 라이선스용으로 만들어졌으며, 라이선스가 더 필요한 경우 자세한 내용은 [Microsoft 365 Enterprise](https://go.microsoft.com/fwlink/p/?linkid=860986) 설명서를 참조하세요.
 
@@ -98,4 +98,4 @@ Microsoft 365 Business는 다음과 같은 방법으로 **위협을 defended** �
 
 - 파트너가 없고 Microsoft 365 Business를 받으려는 경우 [여기에서 구입](https://www.microsoft.com/microsoft-365/business) 하 여 [등록](sign-up.md) 지침을 따를 수 있습니다.
 
-- Microsoft [Store](https://www.microsoft.com/en-us/store/locations/find-a-store?icid=en-us_UF_FAS) 로 이동 하 여 Microsoft 365 비즈니스를 구입 하 고 설정 된 도움말을 얻을 수도 있습니다.
+- Microsoft [Store](https://www.microsoft.com/store/locations/find-a-store?icid=en-us_UF_FAS) 로 이동 하 여 Microsoft 365 비즈니스를 구입 하 고 설정 된 도움말을 얻을 수도 있습니다.

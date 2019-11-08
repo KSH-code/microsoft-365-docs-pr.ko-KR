@@ -14,24 +14,24 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: 1fae59706a77663090d4f29cc6a34b339c11e92c
-ms.sourcegitcommit: 6ef9a98e3d9de44ee4f01870f9189fa676572419
+ms.openlocfilehash: eba186233efa5bebb980c4e16aafb0fe854910c9
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/13/2019
-ms.locfileid: "37481306"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38031323"
 ---
 # <a name="identity-and-device-access-configurations"></a>ID 및 장치 액세스 구성
 
 이 문서 시리즈에서는 규정 된 조건부 액세스 정책 집합을 비롯 하 여 권장 환경 및 구성을 구현 하 여 EMS (Enterprise Mobility + Security) 제품을 통한 클라우드 서비스에 대 한 보안 액세스를 구성 하는 방법을 설명 합니다. 관련 기능 EMS는 Microsoft 365의 핵심 구성 요소입니다. 이 지침을 사용 하 여 Office 365 서비스, 기타 SaaS 서비스 및 Azure AD 응용 프로그램 프록시를 통해 게시 된 온-프레미스 응용 프로그램을 비롯 하 여 Azure Active Directory와 통합 되는 모든 서비스에 대 한 액세스를 보호할 수 있습니다. 
 
-이러한 권장 사항은 Microsoft 보안 점수 및 [AZURE AD의 id 점수](https://docs.microsoft.com/en-us/azure/active-directory/fundamentals/identity-secure-score)와 맞추고 조직에 대해 이러한 점수가 증가 합니다. 이러한 권장 사항은 다음 [다섯 단계를](https://docs.microsoft.com/en-us/azure/security/azure-ad-secure-steps)구현 하 여 id 인프라를 보호 하는 데도 도움이 됩니다. 
+이러한 권장 사항은 Microsoft 보안 점수 및 [AZURE AD의 id 점수](https://docs.microsoft.com/azure/active-directory/fundamentals/identity-secure-score)와 맞추고 조직에 대해 이러한 점수가 증가 합니다. 이러한 권장 사항은 다음 [다섯 단계를](https://docs.microsoft.com/azure/security/azure-ad-secure-steps)구현 하 여 id 인프라를 보호 하는 데도 도움이 됩니다. 
 
 Microsoft는 일부 조직이 고유한 환경 요구 사항이 나 복잡성을 갖는 것을 이해 하 고 있습니다. 이러한 조직 중 하나에 해당 하는 경우에는 이러한 권장 사항을 출발점으로 사용 합니다. 그러나 대부분의 조직은 이러한 권장 사항을 규정 된 대로 구현할 수 있습니다. 
 
 ## <a name="intended-audience"></a>대상 그룹
 
-이러한 권장 사항은 [Office 365](https://technet.microsoft.com/library/dn127064(v=office.14).aspx) 및 [microsoft Enterprise Mobility + Security](http://microsoft.com/ems)에 익숙한 엔터프라이즈 설계자 및 IT 전문가를 위한 것으로, Azure Active Directory (identity), microsoft Intune (장치 관리) 및 Azure Information Protection (데이터 보호)
+이러한 권장 사항은 [Office 365](https://technet.microsoft.com/library/dn127064(v=office.14).aspx) 및 [microsoft Enterprise Mobility + Security](https://microsoft.com/ems)에 익숙하고, azure Active Directory (Identity), microsoft Intune (장치 관리) 및 azure Information protection (데이터 보호)을 포함 하는 엔터프라이즈 설계자 및 IT 전문가를 위한 것입니다.
 
 ### <a name="customer-environment"></a>고객 환경
 
@@ -69,7 +69,7 @@ Enterprise Mobility + Security E5 라이선스가 없는 조직의 경우에는 
 
 **Office 365의 파일 보호 솔루션**<br/>
 ![포스터 축소판 그림 "Office 365의 파일 보호 솔루션"](../images/24be68b5-d852-4fdb-94ad-94491a19edd8.png)<br/>
-[PDF](http://download.microsoft.com/download/7/8/9/789645A5-BD10-4541-BC33-F8D1EFF5E911/MSFT_cloud_architecture_O365%20file%20protection.pdf) | [Visio](http://download.microsoft.com/download/7/8/9/789645A5-BD10-4541-BC33-F8D1EFF5E911/MSFT_cloud_architecture_O365%20file%20protection.vsdx)
+[PDF](https://download.microsoft.com/download/7/8/9/789645A5-BD10-4541-BC33-F8D1EFF5E911/MSFT_cloud_architecture_O365%20file%20protection.pdf) | [Visio](https://download.microsoft.com/download/7/8/9/789645A5-BD10-4541-BC33-F8D1EFF5E911/MSFT_cloud_architecture_O365%20file%20protection.vsdx)
 
 ## <a name="security-and-productivity-trade-offs"></a>보안과 생산성의 절충
 

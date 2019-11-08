@@ -12,12 +12,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: 852fd00692b4ceb204e80dc26a737b540bc79f10
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 218c78cd8737c3a963386ae0a58a79824ef1615f
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37089382"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38034390"
 ---
 # <a name="hunt-for-malware-and-other-threats-in-microsoft-365"></a>Microsoft 365의 맬웨어 및 기타 위협에 대 한 헌트
 
@@ -28,5 +28,5 @@ ms.locfileid: "37089382"
 자세한 정보:
 
 * Microsoft Defender Advanced Threat Protection의 [장치](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting)
-* Office 365 Advanced Threat Protection의 [전자 메일 및 데이터](https://docs.microsoft.com/en-us/office365/securitycompliance/office-365-atp)
-* Azure Advanced Threat Protection의 [id](https://docs.microsoft.com/en-us/azure-advanced-threat-protection/investigate-a-user)
+* Office 365 Advanced Threat Protection의 [전자 메일 및 데이터](https://docs.microsoft.com/office365/securitycompliance/office-365-atp)
+* Azure Advanced Threat Protection의 [id](https://docs.microsoft.com/azure-advanced-threat-protection/investigate-a-user)

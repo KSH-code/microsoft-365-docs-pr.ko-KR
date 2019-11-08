@@ -1,5 +1,5 @@
 ---
-title: Microsoft Threat Protection
+title: Microsoft 위협 방지
 description: Microsoft Threat Protection은 장치, id, 데이터 및 응용 프로그램을 보호 하도록 설계 된 보호 된 위협 방지 솔루션입니다.
 keywords: Microsoft Threat Protection 소개, 사이버 보안, 고급 영구 위협, 엔터프라이즈 보안, 장치, 장치, id, 사용자, 데이터, 응용 프로그램, 인시던트, 자동화 된 조사 및 개선, 고급 구하기
 search.product: eADQiWindows 10XVcnh
@@ -15,14 +15,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: 305f4e213d03f4ee7fccca5fee9bea8efb3d1e9e
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 6e2ca4405838f6e72603bcdb3024b8c0f70e3e99
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37089359"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38034299"
 ---
-# <a name="microsoft-threat-protection"></a>Microsoft Threat Protection
+# <a name="microsoft-threat-protection"></a>Microsoft 위협 방지
 
 Microsoft Threat Protection은 오늘날의 조직이 다음과 같은 작업을 수행할 수 있도록 하는 강력한 보안 기능을 함께 제공 하는 포괄적인 보안 솔루션입니다. 
 
@@ -38,7 +38,7 @@ Microsoft 365 보안 센터를 통해 Microsoft Threat Protection의 기능에 �
 <center><h2>Microsoft Threat Protection 서비스</center></h2>
 <table><tr><td><center><b><a href="https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection"><b>Microsoft Defender Advanced Threat Protection</b></center></a></td>
 <td><center><b><a href="https://docs.microsoft.com/office365/securitycompliance/office-365-atp"><b>Office 365 Advanced Threat Protection</b></center></a></td>
-<td><center><b><a href="https://docs.microsoft.com/en-us/azure-advanced-threat-protection/"><b>Azure Advanced Threat Protection</b></a></center></td>
+<td><center><b><a href="https://docs.microsoft.com/azure-advanced-threat-protection/"><b>Azure Advanced Threat Protection</b></a></center></td>
 <td><center><b><a href="https://docs.microsoft.com/azure/security-center/"><b>Azure 보안 센터</b></a></center></td>
 <td><center><b><a href="https://docs.microsoft.com/cloud-app-security/"><b>Microsoft Cloud App Security</b></a></center></td>
 <td><center><b><a href="https://docs.microsoft.com/azure/sentinel/overview"><b>Microsoft Azure 센티널</b></a></center></td>

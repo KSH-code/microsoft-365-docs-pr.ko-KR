@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 ms.assetid: 887c710b-0ec6-4ff0-8065-5f05f74afef3
 description: 관리자는 Exchange Online에서 S/MIME을 사용 하는 방법에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: 9b7ad73f1a7dd55abdc5a88a2f86344f5a2f0f5b
-ms.sourcegitcommit: 740278bb96fdfb329869a43f3bbe4ba5458c28e1
+ms.openlocfilehash: 64a76d1e9eebea86e548a06bf05d0030b0396d3d
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/21/2019
-ms.locfileid: "37608589"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38032153"
 ---
 # <a name="smime-for-message-signing-and-encryption-in-exchange-online"></a>Exchange Online의 메시지 서명 및 암호화를 위한 S/MIME
 
@@ -76,6 +76,6 @@ S/MIME을 사용하려면 대개 기업 간, 그리고 기업과 소비자 간�
 
 ## <a name="more-information"></a>추가 정보
 
-[웹용 Outlook](http://technet.microsoft.com/library/3814b665-01e8-4881-9a44-163f14789ee4.aspx)
+[웹용 Outlook](https://technet.microsoft.com/library/3814b665-01e8-4881-9a44-163f14789ee4.aspx)
 
-[보안 메일(2000)](https://technet.microsoft.com/en-us/library/cc962043.aspx)
+[보안 메일(2000)](https://technet.microsoft.com/library/cc962043.aspx)

@@ -14,12 +14,12 @@ localization_priority: Normal
 search.appverid:
 - MET150
 description: Office 365에서 Outlook 규칙 및 사용자 지정 양식 주입 공격을 인식 하 고 수정 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: d19a9c86dce42724aa2be00f11ea49ac7cc19d8a
-ms.sourcegitcommit: cbf117a4cd92a907115c9f10752f3c557361e586
+ms.openlocfilehash: 56882ca53852d33a642f6031c6a3fa6c68eb667d
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "37440655"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38033899"
 ---
 # <a name="detect-and-remediate-outlook-rules-and-custom-forms-injections-attacks-in-office-365"></a>Office 365에서 Outlook 규칙 및 사용자 지정 양식 주입 공격 감지 및 재구성
 
@@ -99,7 +99,7 @@ Forms 익스플로잇
 #### <a name="interpreting-the-output"></a>출력 해석
 
 MailboxRulesExport-*yyyy-mm-dd*– 응용 프로그램 또는 실행 파일이 포함 된 작업 조건에 대해 행 당 하나씩 규칙을 검사 합니다.
-- ActionType (A 열)-"ID_ACTION_CUSTOM" 값이 표시 되는 경우이 규칙은 악성 것일 수 있습니다.
+- ActionType (A column)-"ID_ACTION_CUSTOM" 값이 표시 되는 경우 규칙이 악성 것일 수 있습니다.
 - IsPotentiallyMalicious (열 D)-이 값이 "TRUE" 인 경우 규칙은 악성이 될 수 있습니다.
 - ActionCommand (column G)-.exe, .zip 확장명을 가진 파일이 나 URL을 참조 하는 항목을 나열 하는 경우 해당 규칙이 악성 인 것 같습니다.
 
@@ -124,18 +124,18 @@ Exchange 서버에 있는 사서함에 대 한 단계
 
 1. 원격 PowerShell을 사용 하 여 Exchange 서버에 연결 합니다. [원격 PowerShell을 사용 하 여 Exchange server에 연결](https://docs.microsoft.com/powershell/exchange/exchange-server/connect-to-exchange-servers-using-remote-powershell?view=exchange-ps)의 단계를 수행 합니다.
 2. 단일 규칙, 여러 규칙 또는 사서함의 모든 규칙을 완전히 제거 하려면 [받은 편지함 제거 규칙 cmdlet](https://docs.microsoft.com/powershell/module/exchange/mailboxes/Remove-InboxRule?view=exchange-ps)을 사용 하 여 사서함에서 하나, 여러 개 또는 모든 규칙을 완전히 제거 합니다.
-3. 자세히 조사를 위해 규칙 및 해당 내용을 유지 하려면 [disable-inboxrule cmdlet](https://technet.microsoft.com/en-us/library/dd298120(v=exchg.160).aspx)을 사용 합니다. 
+3. 자세히 조사를 위해 규칙 및 해당 내용을 유지 하려면 [disable-inboxrule cmdlet](https://technet.microsoft.com/library/dd298120(v=exchg.160).aspx)을 사용 합니다. 
 
 Exchange Online의 사서함에 대 한 단계
 1. [PowerShell을 사용 하 여 Exchange Online에 연결](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps)의 단계를 수행 합니다.
 2.  단일 규칙, 여러 규칙 또는 사서함의 모든 규칙을 완전히 제거 하려는 경우 [받은 편지함 제거 규칙 cmdlet](https://docs.microsoft.com/powershell/module/exchange/mailboxes/Remove-InboxRule?view=exchange-ps)을 사용 합니다.
-3.  자세히 조사를 위해 규칙 및 해당 내용을 유지 하려면 [disable-inboxrule cmdlet](https://technet.microsoft.com/en-us/library/dd298120(v=exchg.160).aspx)을 사용 합니다. 
+3.  자세히 조사를 위해 규칙 및 해당 내용을 유지 하려면 [disable-inboxrule cmdlet](https://technet.microsoft.com/library/dd298120(v=exchg.160).aspx)을 사용 합니다. 
 
 ## <a name="how-to-minimize-future-attacks"></a>향후 공격을 최소화 하는 방법
 
 ### <a name="first-protect-your-accounts"></a>1: 계정 보호
 
-규칙 및 양식 익스플로잇은 사용자 계정 중 하나를 도용 하거나 침해 한 후에만 공격자에 의해 사용 됩니다. 따라서 조직에 대해 이러한 악용을 사용 하는 것을 방지 하는 첫 번째 단계는 사용자 계정을 적극적으로 보호 하는 것입니다.  계정이 침해 되는 가장 일반적인 몇 가지 방법은 피싱 또는 [암호 spraying](http://www.dabcc.com/microsoft-defending-against-password-spray-attacks/) 공격을 통해 발생 합니다.
+규칙 및 양식 익스플로잇은 사용자 계정 중 하나를 도용 하거나 침해 한 후에만 공격자에 의해 사용 됩니다. 따라서 조직에 대해 이러한 악용을 사용 하는 것을 방지 하는 첫 번째 단계는 사용자 계정을 적극적으로 보호 하는 것입니다.  계정이 침해 되는 가장 일반적인 몇 가지 방법은 피싱 또는 [암호 spraying](https://www.dabcc.com/microsoft-defending-against-password-spray-attacks/) 공격을 통해 발생 합니다.
 
 
 
@@ -145,7 +145,7 @@ Exchange Online의 사서함에 대 한 단계
         <ol type="a">
             <li><b>여러 번 실패 한 로그인 시도</b> 이 정책은 사용자의 환경에 프로필을 지정 하 고 알려진 기준에 따라 단일 세션에서 여러 로그인 작업을 수행 하는 경우 경고를 트리거합니다.</li>
             <li><b>불가능 한 여행</b> - 이 정책은 환경에 프로필을 만들고, 두 위치 사이에 예상 되는 시간 보다 짧은 기간 동안 서로 다른 위치에 있는 동일한 사용자가 작업을 검색 하는 경우 경고를 트리거합니다. 이는 다른 사용자가 동일한 자격 증명을 사용 하 고 있음을 나타낼 수 있습니다. 이 비정상적인 동작을 검색 하는 경우 초기 학습 기간이 7 일 동안 새 사용자의 작업 패턴을 학습 하는 데 사용 됩니다.</li>
-            <li><b>비정상적으로 가장 된 활동 (사용자에 의해)</b> - 이 정책은 사용자가 작업 환경에 프로필을 지정 하 고 알려진 기준에 따라 단일 세션에서 여러 개의 가장 된 활동을 수행할 때 경고를 트리거합니다. 위반 시도가 있었습니다.</li>
+            <li><b>비정상적으로 가장 된 활동 (사용자에 의해)</b> - 이 정책은 사용자의 환경에 프로필을 지정 하 고 확인 된 기준에 따라 단일 세션에서 여러 개의 가장 된 활동을 수행할 때 경고를 트리거합니다.</li>
         </ol>
     </li>
     <li><a href="https://securescore.office.com/">Office 365 보안 점수</a> 와 같은 도구를 활용 하 여 계정 보안 구성 및 동작을 관리 합니다. 
@@ -161,19 +161,19 @@ Outlook 2013의 전체 업데이트 및 패치 버전 및 2016 "응용 프로그
 
 개별 보안 패치에 대 한 자세한 내용은 다음 항목을 참조 하십시오.
 
-- [Outlook 2013 보안 패치](https://support.microsoft.com/en-us/help/3191938) 
-- [Outlook 2016 보안 패치](https://support.microsoft.com/en-us/help/3191883)
+- [Outlook 2013 보안 패치](https://support.microsoft.com/help/3191938) 
+- [Outlook 2016 보안 패치](https://support.microsoft.com/help/3191883)
 
 ### <a name="third-monitor-your-outlook-clients"></a>세 번째: Outlook 클라이언트 모니터링
 패치와 업데이트가 설치 된 경우에도 공격자가 로컬 컴퓨터 구성을 변경 하 여 "응용 프로그램 시작" 동작을 다시 사용 하도록 설정할 수 있습니다. [고급 그룹 정책 관리](https://docs.microsoft.com/microsoft-desktop-optimization-pack/agpm/) 를 사용 하 여 클라이언트에서 로컬 컴퓨터 정책을 모니터링 하 고 적용할 수 있습니다.  
-[64 비트 버전의 Windows를 사용 하 여 시스템 레지스트리를 보는 방법](https://support.microsoft.com/en-us/help/305097/how-to-view-the-system-registry-by-using-64-bit-versions-of-windows)의 정보를 사용 하 여 "시작 응용 프로그램"이 레지스트리의 재정의를 통해 다시 사용 하도록 설정 되었는지 확인할 수 있습니다.  다음 하위 키를 확인 합니다. 
+[64 비트 버전의 Windows를 사용 하 여 시스템 레지스트리를 보는 방법](https://support.microsoft.com/help/305097/how-to-view-the-system-registry-by-using-64-bit-versions-of-windows)의 정보를 사용 하 여 "시작 응용 프로그램"이 레지스트리의 재정의를 통해 다시 사용 하도록 설정 되었는지 확인할 수 있습니다.  다음 하위 키를 확인 합니다. 
 
-- Outlook 2016: HKEY_CURRENT_USER\Software\Microsoft\Office\16.0\Outlook\Security\
-- Outlook 2013: HKEY_CURRENT_USER\Software\Microsoft\Office\15.0\Outlook\Security\
+- Outlook 2016: HKEY_CURRENT_USER \Software\Microsoft\Office\16.0\Outlook\Security\
+- Outlook 2013: HKEY_CURRENT_USER \Software\Microsoft\Office\15.0\Outlook\Security\
 
 EnableUnsafeClientMailRules 키를 찾습니다. 이 설정이 있고 1로 설정 되어 있으면 Outlook 보안 패치가 재정의 되 고 컴퓨터가 폼/규칙 공격에 취약할 수 있습니다. 값이 0 이면 "응용 프로그램 시작" 작업을 사용할 수 없습니다.  업데이트 되 고 패치가 적용 된 Outlook 버전이 설치 되어 있고이 레지스트리 키가 없으면 시스템이 이러한 공격에 취약 하지 않습니다.
 
-온-프레미스 Exchange 설치를 사용 하는 고객은 패치가 사용 가능 하지 않은 이전 버전의 Outlook을 차단 하는 것이 좋습니다. 이 프로세스에 대 한 자세한 내용은 [Configure Outlook client 블로킹이](https://technet.microsoft.com/en-us/library/dd335207(v=exchg.150).aspx)문서에 나와 있습니다.
+온-프레미스 Exchange 설치를 사용 하는 고객은 패치가 사용 가능 하지 않은 이전 버전의 Outlook을 차단 하는 것이 좋습니다. 이 프로세스에 대 한 자세한 내용은 [Configure Outlook client 블로킹이](https://technet.microsoft.com/library/dd335207(v=exchg.150).aspx)문서에 나와 있습니다.
 
 ## <a name="secure-office-365-like-a-cybersecurity-pro"></a>사이버 보안 전문가와 같은 Office 365 보안
 Office 365 구독에는 데이터 및 사용자를 보호하는 데 사용할 수있는 강력한 보안 기능이 함께 제공됩니다.  [Office 365 보안 로드맵: 최초 30일, 90일 및 그 이후의 최우선 순위](https://support.office.com/article/Office-365-security-roadmap-Top-priorities-for-the-first-30-days-90-days-and-beyond-28c86a1c-e4dd-4aad-a2a6-c768a21cb352)를 사용하여 Microsoft에서 권장하는 Office 365 테넌트 보안을 구현합니다.

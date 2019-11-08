@@ -11,23 +11,23 @@ ms.assetid: 8d57fe9e-57b8-4884-9317-80b380804b4a
 ms.collection:
 - M365-security-compliance
 description: Office 365 관리자는 사용자가 전자 메일을 정크 메일로 보고 하는 기능을 해제할 수 있습니다.
-ms.openlocfilehash: de0e5d1aa51ececafc0d344b9907f6751a613370
-ms.sourcegitcommit: cbf117a4cd92a907115c9f10752f3c557361e586
+ms.openlocfilehash: cec89b4298be76f1236e4e2ac7296cbe962696e3
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "37441175"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38030692"
 ---
 # <a name="turn-off-junk-email-reporting-in-outlook-on-the-web"></a>웹상의 Outlook에서 정크 메일 보고 기능 해제
 
-웹용 outlook [의 정크 메일 및 피싱 사기 보고](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md)에 설명 된 대로, 웹용 outlook (이전의 Outlook web App이 라고도 함) 정크 메일 보고 옵션을 사용 하 여 정크, 피싱 및 정크 메시지를 분석을 위해 Microsoft에 보낼 수 있습니다. 이러한 옵션을 사용 하지 않으려는 경우 관리자는 [set-owamailboxpolicy](http://technet.microsoft.com/library/530166f7-ab42-4609-ba73-9b5a39b567be.aspx) cmdlet을 통해이를 해제할 수 있습니다. 
+웹용 outlook [의 정크 메일 및 피싱 사기 보고](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md)에 설명 된 대로, 웹용 outlook (이전의 Outlook web App이 라고도 함) 정크 메일 보고 옵션을 사용 하 여 정크, 피싱 및 정크 메시지를 분석을 위해 Microsoft에 보낼 수 있습니다. 이러한 옵션을 사용 하지 않으려는 경우 관리자는 [set-owamailboxpolicy](https://technet.microsoft.com/library/530166f7-ab42-4609-ba73-9b5a39b567be.aspx) cmdlet을 통해이를 해제할 수 있습니다. 
   
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 사항은 무엇인가요?
 <a name="sectionSection0"> </a>
 
 - 예상 완료 시간: 5분
     
-- 이러한 절차를 수행하려면 먼저 사용 권한을 할당받아야 합니다. 필요한 사용 권한을 확인 하려면 [웹 사용 권한](http://technet.microsoft.com/library/57eca42a-5a7f-4c65-89f0-7a84f2dbea19.aspx#OutlookWebApp) 항목의 outlook에서 "웹 사서함 정책의 outlook" 항목을 참조 하십시오. 
+- 이러한 절차를 수행하려면 먼저 사용 권한을 할당받아야 합니다. 필요한 사용 권한을 확인 하려면 [웹 사용 권한](https://technet.microsoft.com/library/57eca42a-5a7f-4c65-89f0-7a84f2dbea19.aspx#OutlookWebApp) 항목의 outlook에서 "웹 사서함 정책의 outlook" 항목을 참조 하십시오. 
 
 - Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell)을 참조하세요.
 
@@ -52,7 +52,7 @@ Set-OwaMailboxPolicy -Identity "<OWAMailboxPolicyName>" -ReportJunkEmailEnabled 
 Set-OwaMailboxPolicy -Identity "OwaMailboxPolicy-Default" -ReportJunkEmailEnabled $false
 ```
 
-구문과 매개 변수에 대 한 자세한 내용은 [set-owamailboxpolicy](http://technet.microsoft.com/library/bdd580d3-8812-4b4a-93e8-c6401b0d2f0f.aspx) 및 [set-owamailboxpolicy](http://technet.microsoft.com/library/530166f7-ab42-4609-ba73-9b5a39b567be.aspx)를 참조 하십시오.
+구문과 매개 변수에 대 한 자세한 내용은 [set-owamailboxpolicy](https://technet.microsoft.com/library/bdd580d3-8812-4b4a-93e8-c6401b0d2f0f.aspx) 및 [set-owamailboxpolicy](https://technet.microsoft.com/library/530166f7-ab42-4609-ba73-9b5a39b567be.aspx)를 참조 하십시오.
 
 ## <a name="how-do-you-know-this-worked"></a>작동 여부는 어떻게 확인합니까?
 <a name="sectionSection2"> </a>

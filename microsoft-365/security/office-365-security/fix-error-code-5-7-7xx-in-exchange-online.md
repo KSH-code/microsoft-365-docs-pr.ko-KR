@@ -14,12 +14,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Exchange Online에서 오류 코드 5.7.7 xx의 전자 메일 문제를 해결 하는 방법에 대해 알아봅니다 (테 넌 트 차단 됨).
-ms.openlocfilehash: d55bc1f8a051a7f9932528a75aac8f1efa18911c
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 28ed444d821cbe00cfcb92872de15bb43a65ae28
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37087879"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38033879"
 ---
 # <a name="fix-email-delivery-issues-for-error-code-577xx-in-exchange-online"></a>Exchange Online에서 오류 코드 5.7.7 xx에 해당 하는 전자 메일 배달 문제 수정
 
@@ -49,25 +49,25 @@ Office 365을 사용 하면 테 넌 트에서 Exchange Online Protection (EOP)�
 
 전자 메일을 보내기 위해 테 넌 트가 차단 된 경우에는 몇 가지 작업을 수행 해야 합니다.
 
-1. 모든 도메인을 Microsoft 365 관리 센터에 등록 해야 합니다. 자세한 내용은 [여기](https://docs.microsoft.com/en-us/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains)에서 확인할 수 있습니다.
+1. 모든 도메인을 Microsoft 365 관리 센터에 등록 해야 합니다. 자세한 내용은 [여기](https://docs.microsoft.com/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains)에서 확인할 수 있습니다.
 
-2. 비정상적인 커넥터를 찾습니다. 악의적인 행위자는 종종 Office 365 테 넌 트에서 새 인바운드 커넥터를 만들어 스팸을 보냅니다. 커넥터를 확인 하는 방법에 대 한 자세한 내용은 [여기](https://docs.microsoft.com/en-us/powershell/module/exchange/mail-flow/get-inboundconnector?view=exchange-ps)에서 확인할 수 있습니다. 
+2. 비정상적인 커넥터를 찾습니다. 악의적인 행위자는 종종 Office 365 테 넌 트에서 새 인바운드 커넥터를 만들어 스팸을 보냅니다. 커넥터를 확인 하는 방법에 대 한 자세한 내용은 [여기](https://docs.microsoft.com/powershell/module/exchange/mail-flow/get-inboundconnector?view=exchange-ps)에서 확인할 수 있습니다. 
 
 3. 온-프레미스 서버를 잠그고 해당 서버가 손상 되지 않았는지 확인 합니다.
 
 > [!TIP]
 > 특히 타사 서버인 경우에는 여기에 포함 되는 여러 요소가 있습니다. 서버에서 나가는 모든 메일을 사용할 수 있는지 확인 해야 합니다.
 
-4. 작업이 완료 되 면 Microsoft 지원 서비스에 문의 하 여 등록 되지 않은 도메인에서 다시 보내기 위해 테 넌 트의 차단 해제를 요청 해야 합니다.  오류 코드를 제공 하는 것이 도움이 되지만 환경이 보호 되 고 스팸이 다시 보내지지 않도록 해야 합니다. 지원 사례를 여는 방법에 대 한 자세한 내용은 [여기](https://support.office.com/en-us/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b#ID0EAADAAA=online)에서 확인할 수 있습니다.
+4. 작업이 완료 되 면 Microsoft 지원 서비스에 문의 하 여 등록 되지 않은 도메인에서 다시 보내기 위해 테 넌 트의 차단 해제를 요청 해야 합니다.  오류 코드를 제공 하는 것이 도움이 되지만 환경이 보호 되 고 스팸이 다시 보내지지 않도록 해야 합니다. 지원 사례를 여는 방법에 대 한 자세한 내용은 [여기](https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b#ID0EAADAAA=online)에서 확인할 수 있습니다.
   
 ## <a name="for-more-information"></a>자세한 내용
 
-[Office 365 스팸 방지 보호](anti-spam-protection.md)
+[Office 365의 전자 메일 스팸 방지 및 보호](anti-spam-protection.md)
 
 [Office 365의 전자 메일 배달 못 함 보고서(NDR)](https://support.office.com/article/email-non-delivery-reports-in-office-365-51daa6b9-2e35-49c4-a0c9-df85bf8533c3)
 
-[사서함의 전자 메일 전달 구성](https://docs.microsoft.com/en-us/exchange/recipients-in-exchange-online/manage-user-mailboxes/configure-email-forwarding)
+[사서함의 전자 메일 전달 구성](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-user-mailboxes/configure-email-forwarding)
 
-[Office 365를 사용하여 전자 메일을 보내도록 다기능 장치 또는 응용 프로그램을 설정하는 방법](https://support.office.com/en-us/article/How-to-set-up-a-multifunction-device-or-application-to-send-email-using-Office-365-69f58e99-c550-4274-ad18-c805d654b4c4)
+[Office 365를 사용하여 전자 메일을 보내도록 다기능 장치 또는 응용 프로그램을 설정하는 방법](https://support.office.com/article/How-to-set-up-a-multifunction-device-or-application-to-send-email-using-Office-365-69f58e99-c550-4274-ad18-c805d654b4c4)
 
-[Exchange Online에서 허용 도메인을 관리](https://docs.microsoft.com/en-us/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains)합니다.
+[Exchange Online에서 허용 도메인을 관리](https://docs.microsoft.com/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains)합니다.

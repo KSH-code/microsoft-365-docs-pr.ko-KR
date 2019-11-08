@@ -1,5 +1,5 @@
 ---
-title: 스팸 필터 규칙 및 스팸 필터 정책에 잘못 된 문자 방지
+title: 스팸 필터 규칙과 스팸 필터 정책에서 유효하지 않은 문자 방지
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
@@ -13,12 +13,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: 스팸 방지 구성에 잘못 된 문자가 있는 관리자가 보안 &amp; 및 준수 센터를 사용 하려고 할 때 문제를 해결 하는 데 도움이 되는 정보를 제공 합니다.
-ms.openlocfilehash: 286a96814e0be5857499d7c54839d20142d0dd60
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 96d81c17c33c5ecf6e7b88ebe5676336b963cb4e
+ms.sourcegitcommit: 550ea6f093ec35182e7c65a2811e9bfb07ec7d01
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37087821"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "38039107"
 ---
 # <a name="avoid-invalid-characters-in-your-spam-filter-rules-and-spam-filter-policy"></a>스팸 필터 규칙 및 스팸 필터 정책에 잘못 된 문자 방지 
 
@@ -41,13 +41,13 @@ ms.locfileid: "37087821"
     
 2. 스팸 필터 정책의 이름을 변경 하려면 다음과 같이 Get-hostedcontentfilterpolicy cmdlet을 실행 합니다.
     
-    ```
+    ```powershell
     Set-HostedContentFilterPolicy -Identity "Old policy name" -Name "New policy name"
     ```  
 
 3. 스팸 필터 규칙의 이름을 변경 하려면 다음과 같이 Disable-hostedcontentfilterrule cmdlet을 실행 합니다.
     
-    ```
+    ```powershell
     Set-HostedContentFilterRule -Identity "Old rule name" -Name "New rule name"
     ```  
 

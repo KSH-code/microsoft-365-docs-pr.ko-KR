@@ -15,12 +15,12 @@ ms.assetid: 32405da5-bee1-4a4b-82e5-8399df94c512
 ms.collection:
 - M365-security-compliance
 description: Office 365 Advanced Threat Protection의 위협 인텔리전스 기능을 통해 조직에 대 한 위협을 파악 하 고, 맬웨어, 피싱 및 기타 공격에 대처 하 고 사용자를 대신 하 여 Office 365에서 검색 한 기타 공격과 위협을 검색할 수 있는 방법을 알아봅니다. 슬라이더.
-ms.openlocfilehash: 18350245036a39ccda32c6a09ba97fb9c9449d41
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 749ddef383839043141027ace4a2d906932b7e91
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37089018"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38031873"
 ---
 # <a name="office-365-threat-investigation-and-response"></a>Office 365 위협 조사 및 응답
 
@@ -38,7 +38,7 @@ ms.locfileid: "37089018"
 
 ## <a name="get-acquainted-with-threat-investigation-and-response-tools"></a>위협 조사 및 응답 도구 익히기
 
-&amp; [위협 대시보드](#threat-dashboard), [탐색기](#threat-explorer), [인시던트](#incidents), [공격 시뮬레이터](#attack-simulator)를 비롯 한 도구 및 응답 워크플로 집합으로, 보안 및 준수 센터의 위협 조사 및 응답 기능 [자동화 된 조사 & 응답](automated-investigation-response-office.md)입니다.
+보안 &amp; 준수 센터의 위협 조사 및 응답 기능- [위협 대시보드](#threat-dashboard), [탐색기](#threat-explorer), [인시던트](#incidents), [공격 시뮬레이터](#attack-simulator)및 [자동화 된 조사 & 응답](automated-investigation-response-office.md)등의 도구 및 응답 워크플로 집합입니다.
   
 ### <a name="threat-dashboard"></a>위협 대시보드
 
@@ -87,7 +87,7 @@ ms.locfileid: "37089018"
 Office 365 위협 조사 및 응답 기능은 Office 365 Advanced Threat Protection 계획 2 및 Enterprise E5에 포함 되어 있습니다. 
 
 > [!TIP]
-> 조직에 이러한 위협 조사 및 응답 기능이 포함 되지 않은 Office 365 구독이 있는 경우 Office 365 Advanced Threat Protection 계획 2를 추가 기능으로 구입할 수 있습니다. 계획 옵션에 대 한 자세한 내용은 [office 365 Advanced Threat Protection 서비스 설명](https://docs.microsoft.com/en-us/office365/servicedescriptions/office-365-advanced-threat-protection-service-description) 및 [비즈니스용 office 365 용 추가 기능 구입 또는 편집](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/buy-or-edit-an-add-on)을 참조 하세요.
+> 조직에 이러한 위협 조사 및 응답 기능이 포함 되지 않은 Office 365 구독이 있는 경우 Office 365 Advanced Threat Protection 계획 2를 추가 기능으로 구입할 수 있습니다. 계획 옵션에 대 한 자세한 내용은 [office 365 Advanced Threat Protection 서비스 설명](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description) 및 [비즈니스용 office 365 용 추가 기능 구입 또는 편집](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/buy-or-edit-an-add-on)을 참조 하세요.
   
 1. Office 365 전역 관리자 인 경우로 이동 [https://admin.microsoft.com](https://admin.microsoft.com) 하 여 office 365에 대 한 회사 또는 학교 계정을 사용 하 여 로그인 합니다. 
     

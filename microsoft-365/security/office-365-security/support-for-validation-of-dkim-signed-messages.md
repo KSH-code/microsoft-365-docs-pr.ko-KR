@@ -13,12 +13,12 @@ ms.assetid: a4c95148-a00c-4d12-85ed-88520b547d97
 ms.collection:
 - M365-security-compliance
 description: Exchange Online Protection 및 Exchange Online에서 DKIM 서명 된 메시지의 유효성 검사에 대해 자세히 알아보기
-ms.openlocfilehash: 75c104af4b3e6126bac37024de2c7f6ab337a028
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 347b47c0b182aab32d032abaa864357cc5b242ce
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37089238"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38031713"
 ---
 # <a name="support-for-validation-of-dkim-signed-messages"></a>DKIM으로 서명된 메시지의 유효성 검사 지원
 
@@ -28,6 +28,6 @@ DKIM은 메시지 헤더의 DKIM 서명 헤더에 표시되는 디지털 서명�
   
  `Authentication-Results: <contoso.com>; dkim=pass (signature was verified) header.d=example.com;`
   
-관리자는 DKIM 유효성 검사의 결과에 Exchange [메일 흐름 규칙](http://technet.microsoft.com/library/743bd525-0ca2-426d-b76c-b4a052bc8886.aspx) (전송 규칙이 라고도 함)을 만들어 필요에 따라 메시지를 필터링 하거나 라우팅할 수 있습니다. 
+관리자는 DKIM 유효성 검사의 결과에 Exchange [메일 흐름 규칙](https://technet.microsoft.com/library/743bd525-0ca2-426d-b76c-b4a052bc8886.aspx) (전송 규칙이 라고도 함)을 만들어 필요에 따라 메시지를 필터링 하거나 라우팅할 수 있습니다. 
   
 

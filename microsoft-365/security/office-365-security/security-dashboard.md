@@ -14,12 +14,12 @@ ms.assetid: fe0b9b8f-faa9-44ff-8095-4d1b2f507b74
 ms.collection:
 - M365-security-compliance
 description: 새 보안 대시보드를 사용 하 여 Office 365 위협 방지 상태를 검토 하 고 보안 경고를 보고 작동 합니다.
-ms.openlocfilehash: 8f86aa654c79bac2409d64b43d0cf7bb563c1412
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 8ce6e21bcc25853e641ee20126ffd38c785e76f7
+ms.sourcegitcommit: b424ea039c5915975f3efce8793bfc8dd2fdf906
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088365"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38033939"
 ---
 # <a name="security-dashboard"></a>보안 대시보드
 
@@ -64,7 +64,7 @@ ms.locfileid: "37088365"
 
 |구독에 다음이 포함 된 경우 ... |다음 정보가 표시 됩니다. |
 |---------|---------|
-|EOP는 아니지만 Office 365 ATP     |EOP에서 검색 및 차단 된 악의적인 전자 메일<br> [위협 방지 상태 보고서 (EOP)](../../compliance/view-email-security-reports.md#threat-protection-status-report)를 참조 하세요.| |
+|EOP는 아니지만 Office 365 ATP     |EOP에서 검색 및 차단 된 악의적인 전자 메일<br> [위협 방지 상태 보고서 (EOP)](../../compliance/view-email-security-reports.md#threat-protection-status-report)를 참조 하세요.| 
 |Office 365 ATP |EOP 및 Office 365 ATP가 검색 하 고 차단한 악성 콘텐츠 및 악성 전자 메일<br>맬웨어 방지 엔진, [자동 삭제](zero-hour-auto-purge.md)및 atp 기능 ( [안전한 링크](atp-safe-links.md), [안전한 첨부 파일](atp-safe-attachments.md)및 [atp 피싱 방지](atp-anti-phishing.md))에 의해 차단 되는 악성 콘텐츠가 포함 된 고유한 전자 메일 메시지의 집계 개수입니다.<br>[ATP (Threat Protection 상태 보고서)](view-reports-for-atp.md#threat-protection-status-report)를 참조 하세요. | 
 
 위협 방지 상태 위젯을 보거나 액세스 하려면 Advanced Threat Protection 보고서를 볼 수 있는 권한이 있어야 합니다. 자세한 내용은 [ATP 보고서를 확인 하는 데 필요한 사용 권한](view-reports-for-atp.md#what-permissions-are-needed-to-view-the-atp-reports)를 참조 하십시오. 
@@ -111,7 +111,7 @@ ms.locfileid: "37088365"
   
 ![조직에 대 한 전자 메일 흐름 추세를 요약 하는 추세 섹션](../media/trends.png)
   
-또한 조직의 Office 365 구독에 [office 365 Advanced Threat Protection 계획 2](office-365-ti.md)가 포함 되어 있는 경우이 섹션에서 **최신 위협 관리 경고** 보고서를 사용 하 여 보안 팀이 해당 작업을 보고 수행할 수 있도록 합니다. 우선 순위가 높은 보안 알림 
+또한 조직의 Office 365 구독에 [office 365 Advanced Threat Protection 계획 2](office-365-ti.md)가 포함 되어 있는 경우이 섹션에서 **최신 위협 관리 경고** 보고서를 사용 하 여 보안 팀이 우선 순위가 높은 보안 경고에 대 한 작업을 보고 수행할 수 있도록 합니다. 
 
 보내고 받은 전자 메일 위젯을 보거나 액세스 하려면 Advanced Threat Protection 보고서를 볼 수 있는 권한이 있어야 합니다. 자세한 내용은 [ATP 보고서를 확인 하는 데 필요한 사용 권한](view-reports-for-atp.md#what-permissions-are-needed-to-view-the-atp-reports)를 참조 하십시오. 
 

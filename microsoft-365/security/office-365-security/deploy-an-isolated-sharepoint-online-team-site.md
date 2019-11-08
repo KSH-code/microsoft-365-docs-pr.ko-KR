@@ -12,12 +12,12 @@ ms.collection: Ent_O365
 ms.custom: Ent_Solutions
 ms.assetid: 3033614b-e23b-4f68-9701-f62525eafaab
 description: '요약: 다음 단계별 지침을 사용 하 여 격리 된 SharePoint Online 팀 사이트를 새로 배포 합니다.'
-ms.openlocfilehash: bd5915f43c6ff70477077f0047e0f2dfc97a874b
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 67c6a5304e067ac847c9f8158d48a588ca118220
+ms.sourcegitcommit: 550ea6f093ec35182e7c65a2811e9bfb07ec7d01
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088937"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "38039117"
 ---
 # <a name="deploy-an-isolated-sharepoint-online-team-site"></a>격리된 SharePoint Online 팀 사이트 배포
 
@@ -109,7 +109,7 @@ PowerShell의 경우 먼저 [Graph 모듈에 대 한 Azure Active Directory Powe
   
 다음으로, 다음 명령 블록을 사용 하 여 액세스 그룹에 개별 사용자 계정을 추가 합니다.
   
-```
+```powershell
 $userUPN="<UPN of the user account>"
 $grpName="<display name of the access group>"
 Add-AzureADGroupMember -RefObjectId (Get-AzureADUser | Where { $_.UserPrincipalName -eq $userUPN }).ObjectID -ObjectId (Get-AzureADGroup | Where { $_.DisplayName -eq $grpName }).ObjectID
@@ -120,7 +120,7 @@ Add-AzureADGroupMember -RefObjectId (Get-AzureADUser | Where { $_.UserPrincipalN
   
 텍스트 파일의 액세스 그룹에 대 한 사용자 계정의 Upn을 저장 한 경우 다음 PowerShell 명령 블록을 사용 하 여 모든 항목을 한 번에 추가할 수 있습니다.
   
-```
+```powershell
 $grpName="<display name of the access group>"
 $fileName="<path and name of the file containing the list of account UPNs>"
 $grpID=(Get-AzureADGroup | Where { $_.DisplayName -eq $grpName }).ObjectID
@@ -129,7 +129,7 @@ Get-Content $fileName | ForEach { $userUPN=$_; Add-AzureADGroupMember -RefObject
 
 PowerShell의 경우 다음 명령 블록을 사용 하 여 액세스 그룹에 개별 그룹을 추가 합니다.
   
-```
+```powershell
 $nestedGrpName="<display name of the group to add to the access group>"
 $grpName="<display name of the access group>"
 Add-AzureADGroupMember -RefObjectId (Get-AzureADGroup | Where { $_.DisplayName -eq $nestedGrpName }).ObjectID -ObjectID (Get-AzureADGroup | Where { $_.DisplayName -eq $grpName }).ObjectID
@@ -146,7 +146,7 @@ Add-AzureADGroupMember -RefObjectId (Get-AzureADGroup | Where { $_.DisplayName -
     
 다음 PowerShell 명령 블록을 사용 하거나 Microsoft 365 관리 센터를 사용 하 여 각 액세스 그룹의 그룹 구성원 목록을 확인 합니다.
   
-```
+```powershell
 $grpName="<display name of the access group>"
 Get-AzureADGroupMember -ObjectId (Get-AzureADGroup | Where { $_.DisplayName -eq $grpName }).ObjectID | Sort UserPrincipalName | Select UserPrincipalName,DisplayName,UserType
 ```
@@ -185,7 +185,7 @@ Get-AzureADGroupMember -ObjectId (Get-AzureADGroup | Where { $_.DisplayName -eq 
     
 3. 브라우저의 새 **권한** 탭에서 **액세스 요청 설정**을 클릭합니다.
     
-4. **액세스 요청 설정** 대화 상자에서 **구성원이 사이트 및 개별 파일 및 폴더를 공유 하도록 허용** 을 선택 취소 하 고 세 확인란이 모두 선택 취소 되도록 **액세스 요청을 허용한** 다음 **확인**을 클릭 합니다.
+4. **액세스 요청 설정** 대화 상자에서 **구성원이 사이트와 개별 파일 및 폴더를 공유할 수 있도록 허용합니다.** 및 **액세스 요청 허용**(3개의 확인란이 모두 선택 취소됨)을 선택 취소하고 **확인**을 클릭합니다.
     
 5. 브라우저의 **사용 권한** 탭에 있는 목록에서 ** \<사이트 이름> 구성원** 을 클릭 합니다.
     

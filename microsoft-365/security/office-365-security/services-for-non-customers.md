@@ -14,12 +14,12 @@ ms.assetid: 19fd3e0f-8dbf-4049-a810-2c8ee6cefd48
 ms.collection:
 - M365-security-compliance
 description: 전자 메일을 사용할 때 사용자의 신뢰를 유지 하기 위해 Microsoft는 사용자를 보호 하기 위한 다양 한 정책 및 기술을 배치 했습니다.
-ms.openlocfilehash: 17d069a9bee76087790b608ba3c00bae9c644f99
-ms.sourcegitcommit: cbf117a4cd92a907115c9f10752f3c557361e586
+ms.openlocfilehash: cabb583aebc1baff1eb9f8286fceb2864b26deea
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "37441225"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38031773"
 ---
 # <a name="services-for-non-customers-sending-mail-to-office-365"></a>비 고객을 위한 Office 365 메일을 보내는 서비스
 
@@ -46,7 +46,7 @@ Microsoft에서는 Office 365 받은 편지함에 메일을 보내는 데 문제
 
 - [Office 365 목록 해제 포털](https://sender.office.com) 을 사용 하 여 수신 거부 목록에서 IP를 제거 하는 요청을 제출 합니다.
 
-- [Microsoft 커뮤니티 포럼](https://community.office365.com/en-us/f/)을 읽습니다.
+- [Microsoft 커뮤니티 포럼](https://community.office365.com/f/)을 읽습니다.
 
 - 다른 방법을 사용 하 여 전자 메일을 보내려고 하는 Office 365 고객에 게 문의 하 여 사용자에 게 Microsoft 지원에 문의 하 여 지원 티켓을 열도록 요청 합니다. 법적 이유가 있는 경우 Microsoft Support는 차단 되는 IP 공간을 소유한 보낸 사람과 직접 통신 해야 합니다. 그러나 일반적으로 고객은 지원 티켓을 열 수 없습니다.
 

@@ -12,19 +12,19 @@ search.appverid:
 - MET150s
 ms.assetid: 9721b46d-cbea-4121-be51-542395e6fd21
 description: 특정 보낸 사람의 메일을 수신 하는 경우 해당 사용자와 해당 메시지를 신뢰 하기 때문에 Exchange 관리 센터의 스팸 필터 정책에서 허용 목록을 조정할 수 있습니다.
-ms.openlocfilehash: 8651b09d891a57cd5239311026af701064c9a4e1
-ms.sourcegitcommit: 78f2c5f89f4f59e4c1865369fc6ba82486881e8a
+ms.openlocfilehash: 2a161573e3b51f12cd7582df26a021fab3f8de84
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "37964454"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38033693"
 ---
 # <a name="create-safe-sender-lists-in-office-365"></a>Office 365에서 수신 허용-보낸 사람 목록 만들기
 
 사용자가 특정 보낸 사람이 나 보낸 사람에 게 메시지를 신뢰 하 여 전자 메일을 받을 수 있도록 하려면 여러 가지 방법을 선택할 수 있습니다. 이러한 옵션에는 ETRs (Exchange 전송 규칙), Outlook 수신 허용-보낸 사람, IP 허용 목록, 스팸 방지 보낸 사람/도메인 허용 목록이 있습니다.
 
 > [!IMPORTANT]
-> 조직 허용 목록을 사용 하 여 가양성을 처리 하는 경우에는이를 임시 솔루션으로 간주 하 여 가능한 경우 피해 야 합니다. 실수로 조직을 위장, 가장 및 기타 공격까지 쉽게 열 수 있으므로 허용 목록을 사용 하 여 가양성을 관리 하는 것은 권장 되지 않습니다. 이 용도로 허용 목록을 사용 하는 경우에는 준비 상태에서 [스팸, 스팸 아님 및 피싱 메일을 분석용으로 Microsoft에 제출](https://docs.microsoft.com/en-us/office365/SecurityCompliance/submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis)하기 위한 문서를 vigilant 야 합니다.
+> 조직 허용 목록을 사용 하 여 가양성을 처리 하는 경우에는이를 임시 솔루션으로 간주 하 여 가능한 경우 피해 야 합니다. 실수로 조직을 위장, 가장 및 기타 공격까지 쉽게 열 수 있으므로 허용 목록을 사용 하 여 가양성을 관리 하는 것은 권장 되지 않습니다. 이 용도로 허용 목록을 사용 하는 경우에는 준비 상태에서 [스팸, 스팸 아님 및 피싱 메일을 분석용으로 Microsoft에 제출](https://docs.microsoft.com/office365/SecurityCompliance/submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis)하기 위한 문서를 vigilant 야 합니다.
 
 안전한 보낸 사람 목록을 구성 하는 권장 방법은 다음과 같이 ETRs (Exchange 전송 규칙)를 사용 하 여 올바른 메시지만 허용 되도록 하는 것입니다. *스팸 방지 정책 전자 메일 주소* 및 *도메인 기반 허용 목록은* 도메인을 쉽게 스푸핑 가능으로 하기 때문에 *IP 주소 기반 목록* 만큼 안전 하지 않습니다. 그러나 스팸 방지 정책 IP 기반 허용 목록에는 해당 IP를 통해 전송 되는 모든 도메인에서 스팸 필터링을 우회 하도록 허용 되는 위험도 표시 됩니다. 신중 하 게 수행 하 *고 예외를* 자세히 모니터링 하세요.
 
@@ -44,7 +44,7 @@ ms.locfileid: "37964454"
 
 조직에서 합법적인 메시지만 허용 되도록 하려면 조건이 다음 중 하나 여야 합니다.
 
-- 보내는 도메인의 보낸 사람 인증 상태를 사용 합니다. 이 작업을 수행 하려면 인증-결과 헤더를 확인 하 여 "dmarc = pass" 또는 "dmarc = bestguesspass"가 포함 되어 있는지 확인 합니다. 이렇게 하면 보내는 도메인이 인증 되었으며 위장 되지 않습니다. [SPF](https://docs.microsoft.com/en-us/office365/SecurityCompliance/set-up-spf-in-office-365-to-help-prevent-spoofing), [Dkim](https://docs.microsoft.com/en-us/office365/SecurityCompliance/use-dkim-to-validate-outbound-email)및 [DMARC](https://docs.microsoft.com/en-us/office365/SecurityCompliance/use-dmarc-to-validate-email) 전자 메일 인증에 대 한 자세한 내용을 보려면을 클릭 합니다.
+- 보내는 도메인의 보낸 사람 인증 상태를 사용 합니다. 이 작업을 수행 하려면 인증-결과 헤더를 확인 하 여 "dmarc = pass" 또는 "dmarc = bestguesspass"가 포함 되어 있는지 확인 합니다. 이렇게 하면 보내는 도메인이 인증 되었으며 위장 되지 않습니다. [SPF](https://docs.microsoft.com/office365/SecurityCompliance/set-up-spf-in-office-365-to-help-prevent-spoofing), [Dkim](https://docs.microsoft.com/office365/SecurityCompliance/use-dkim-to-validate-outbound-email)및 [DMARC](https://docs.microsoft.com/office365/SecurityCompliance/use-dmarc-to-validate-email) 전자 메일 인증에 대 한 자세한 내용을 보려면을 클릭 합니다.
 
 - 또는 보내는 도메인에 인증이 없는 경우 보내는 도메인 *및* 송신 ip (또는 IP 범위)를 사용 합니다. 가능한 한 안전 하 게 작업을 수행 하는 목표를 *최대한 제한적*으로 유지 해야 합니다. /24 보다 큰 IP 범위는 권장 *되지 않습니다* . 소비자 서비스 또는 공유 인프라에 속하는 IP 주소 범위를 추가 하지 않도록 합니다.
 
@@ -70,22 +70,22 @@ ms.locfileid: "37964454"
 
 소유한 도메인 또는 인기 있는 도메인 (예: `microsoft.com`)을 메일 흐름 규칙의 조건으로 추가 하지 마십시오. 이는 잘못 된 행위자가 메일을 필터링 할 수 있는 영업 기회를 만들기 때문에 높은 위험으로 간주 됩니다.
 
-[메일 흐름 규칙이 라고도 하는 ETR을 만드는 단계를 클릭](https://docs.microsoft.com/en-us/office365/SecurityCompliance/use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages)합니다.
+[메일 흐름 규칙이 라고도 하는 ETR을 만드는 단계를 클릭](https://docs.microsoft.com/office365/SecurityCompliance/use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages)합니다.
 
 ## <a name="use-outlook-safe-senders-end-user-managed"></a>Outlook 수신 허용-보낸 사람 (최종 사용자 관리) 사용
 
-최종 사용자는 주소, 도메인 또는 IP 주소에 전역적으로 권한을 부여 하는 대신 Outlook 수신 허용-보낸 사람을 통한 주소 보내기를 허용할 수도 있습니다. 이 작업을 설정 하는 단계는 [Outlook Web App](https://support.office.com/en-us/article/block-or-allow-junk-email-settings-48c9f6f7-2309-4f95-9a4d-de987e880e46) 과 [outlook 클라이언트](https://support.office.com/en-us/article/overview-of-the-junk-email-filter-5ae3ea8e-cf41-4fa0-b02a-3b96e21de089)간에 서로 다릅니다. **수신 허용-보낸 사람으로 인해 메시지가 성공적으로 인증 되 면 SFV: 스팸 방지-Report의 SFV에서** 스팸/스푸핑/피싱 필터링이 무시 된다는 것을 표시 합니다.
+최종 사용자는 주소, 도메인 또는 IP 주소에 전역적으로 권한을 부여 하는 대신 Outlook 수신 허용-보낸 사람을 통한 주소 보내기를 허용할 수도 있습니다. 이 작업을 설정 하는 단계는 [Outlook Web App](https://support.office.com/article/block-or-allow-junk-email-settings-48c9f6f7-2309-4f95-9a4d-de987e880e46) 과 [outlook 클라이언트](https://support.office.com/article/overview-of-the-junk-email-filter-5ae3ea8e-cf41-4fa0-b02a-3b96e21de089)간에 서로 다릅니다. **수신 허용-보낸 사람으로 인해 메시지가 성공적으로 인증 되 면 SFV: 스팸 방지-Report의 SFV에서** 스팸/스푸핑/피싱 필터링이 무시 된다는 것을 표시 합니다.
 
 ## <a name="use-anti-spam-policy-ip-allow-lists"></a>스팸 방지 정책 IP 허용 목록 사용
 
-ETRs를 사용 하 여 보낸 사람 인증의 유효성을 검사 하는 동안 특정 보낸 사람에 게 전역적으로 허용 하거나 도메인과 IP를 함께 연결할 수 없는 경우에는 해당 보낸 사람을 *스팸 방지 정책 IP 허용 목록*에 추가 하는 것이 좋습니다. [자세한 단계는 연결 필터 정책 문서 구성에서 찾을 수 있습니다](https://docs.microsoft.com/en-us/office365/securitycompliance/configure-the-connection-filter-policy). 허용 되는 IP 주소 목록을 최소로 유지 하 고 IP 주소 범위를 사용 하지 않는 것이 중요 합니다. 소비자 서비스 또는 공유 인프라에 속하는 IP 주소 범위를 추가 하는 것을 방지 하 고, 허용 되는 IP 주소 목록을 정기적으로 검토 하 고 더 이상 필요 하지 않은 항목을 제거 하는 *것이 좋습니다* .
+ETRs를 사용 하 여 보낸 사람 인증의 유효성을 검사 하는 동안 특정 보낸 사람에 게 전역적으로 허용 하거나 도메인과 IP를 함께 연결할 수 없는 경우에는 해당 보낸 사람을 *스팸 방지 정책 IP 허용 목록*에 추가 하는 것이 좋습니다. [자세한 단계는 연결 필터 정책 문서 구성에서 찾을 수 있습니다](https://docs.microsoft.com/office365/securitycompliance/configure-the-connection-filter-policy). 허용 되는 IP 주소 목록을 최소로 유지 하 고 IP 주소 범위를 사용 하지 않는 것이 중요 합니다. 소비자 서비스 또는 공유 인프라에 속하는 IP 주소 범위를 추가 하는 것을 방지 하 고, 허용 되는 IP 주소 목록을 정기적으로 검토 하 고 더 이상 필요 하지 않은 항목을 제거 하는 *것이 좋습니다* .
 
 > [!CAUTION]
 > 보낸 사람 IP 주소만을 기준으로 허용 하도록 스팸 방지 정책을 구성 하면 허용 규칙의 해당 IP 주소에 해당 하는 모든 메시지에 대 한 스팸 필터링이 무시 됩니다. 이렇게 하면 메일을 보내는 불량 행위자가 높은 위험을 초래할 수 있습니다. 또한이 방법은 모든 스팸 필터링, 보낸 사람 인증 확인 및 사용자의 받은 편지함에 있는 메시지를 건너뛰고 위험을 증가 시킵니다.
 
 ## <a name="use-anti-spam-policy-senderdomain-allow-lists"></a>스팸 방지 정책 보낸 사람/도메인 허용 목록 사용
 
-가장 바람직한 방법은 보낸 사람/도메인을 통해 권한을 부여 하는 것입니다. 이 옵션은 스팸/스푸핑/피싱 보호를 완전히 건너뛰고, 보낸 사람 인증을 평가 하지 않는 *경우에* 는 피해 야 합니다. 이 방법을 사용할 경우 잘못 된 행위자가 메일을 수신 하는 위험성이 높아지고 테스트할 때에만 일시적으로 권장 됩니다. 자세한 단계는 [스팸 필터 정책 문서 구성](https://docs.microsoft.com/en-us/office365/securitycompliance/configure-your-spam-filter-policies) 에서 찾을 수 있습니다.
+가장 바람직한 방법은 보낸 사람/도메인을 통해 권한을 부여 하는 것입니다. 이 옵션은 스팸/스푸핑/피싱 보호를 완전히 건너뛰고, 보낸 사람 인증을 평가 하지 않는 *경우에* 는 피해 야 합니다. 이 방법을 사용할 경우 잘못 된 행위자가 메일을 수신 하는 위험성이 높아지고 테스트할 때에만 일시적으로 권장 됩니다. 자세한 단계는 [스팸 필터 정책 문서 구성](https://docs.microsoft.com/office365/securitycompliance/configure-your-spam-filter-policies) 에서 찾을 수 있습니다.
 
 이러한 목록의 최대 제한은 약 1000 엔트리입니다.
 

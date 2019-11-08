@@ -13,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 ms.custom: Ent_TLGs
 description: 이 테스트 랩 가이드를 사용 하 여 Microsoft 365 Enterprise Test environment 권한 있는 액세스 관리를 사용 하도록 설정 합니다.
-ms.openlocfilehash: df3a2138de105b45f472ff0a862af2afe6dd2a34
-ms.sourcegitcommit: 64a21c59d31a283ccbe87d16f0a174998e3aeba8
+ms.openlocfilehash: f701f3f8f74036966de2c516d662ef77341f4842
+ms.sourcegitcommit: b424ea039c5915975f3efce8793bfc8dd2fdf906
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/26/2019
-ms.locfileid: "37733426"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38033613"
 ---
 # <a name="privileged-access-management-for-your-microsoft-365-enterprise-test-environment"></a>Microsoft 365 Enterprise 테스트 환경에 대한 권한이 부여된 액세스 관리
 
@@ -44,15 +44,16 @@ ms.locfileid: "37733426"
 
 Office 365 조직에서 권한 있는 액세스를 설정 및 사용 하려면 다음 단계를 수행 합니다.
 
-- [1 단계: 승인자 그룹 만들기](https://docs.microsoft.com/office365/securitycompliance/privileged-access-management-configuration#step-1---create-an-approvers-group)
+- [1 단계: 승인자 그룹 만들기](https://docs.microsoft.com/microsoft-365/compliance/privileged-access-management-configuration#step-1-create-an-approvers-group)
 
     권한 액세스 사용을 시작 하기 전에 권한 상승 및 권한 있는 작업에 대 한 수신 요청 액세스에 대 한 승인 기관을 사용자에 게 결정 합니다. 승인자 그룹에 속하는 모든 사용자는 액세스 요청을 승인할 수 있습니다. 이 기능은 Office 365에서 메일 사용이 가능한 보안 그룹을 만들어 사용할 수 있습니다. 테스트 환경에 "권한이 부여 된 액세스 승인자" 라는 새 보안 그룹을 만들고 이전 테스트 랩 가이드 단계에서 만든 "사용자 3"을 추가 합니다.
 
-- [2 단계: 권한 있는 액세스 사용](https://docs.microsoft.com/office365/securitycompliance/privileged-access-management-configuration#step-2---enable-privileged-access)
+- [2 단계: 권한 있는 액세스 사용](https://docs.microsoft.com/microsoft-365/compliance/privileged-access-management-configuration#step-2-enable-privileged-access)
 
     권한 있는 액세스는 Office 365에서 기본 승인자 그룹을 사용 하 고 권한 있는 액세스 관리 액세스 제어에서 제외할 시스템 계정 집합을 포함 하 여 명시적으로 설정 해야 합니다. 이 가이드의 3 단계를 시작 하기 전에 Office 365 조직에서 권한이 부여 된 액세스를 사용 하도록 설정 해야 합니다.
 
 ## <a name="phase-3-verify-that-approval-is-required-for-elevated-and-privileged-tasks"></a>3 단계: 관리자 권한 및 권한 있는 작업에 대 한 승인이 필요한 지 확인
+
 이 단계에서는 권한이 부여 된 액세스 정책이 작동 하 고 있는지 확인 하 고 사용자에 게 권한 상승 및 권한이 부여 된 작업을 실행 하기 위한 승인을 받아야 합니다.
 
 ### <a name="test-ability-to-execute-a-task-not-defined-in-a-privileged-access-policy"></a>권한 있는 액세스 정책에 정의 되지 않은 작업을 실행 하는 테스트 기능
@@ -63,9 +64,10 @@ Office 365 조직에서 권한 있는 액세스를 설정 및 사용 하려면 �
 
 2. Exchange 관리 Powershell에서 조직에 대 한 새 저널 규칙을 만듭니다.
 
-```
+```ExchangeManagementPowerShell
 New-JournalRule -Name "JournalRule1" -Recipient joe@contoso.onmicrosoft.com -JournalEmailAddress barbara@adatum.com -Scope Global -Enabled $true
 ```
+
 4. Exchange 관리 PowerShell에서 새 저널 규칙을 성공적으로 만들었는지 확인 합니다.
 
 ### <a name="create-a-new-privileged-access-policy-for-the-new-journalrule-task"></a>새 Set-journalrule 작업에 대 한 새 권한 있는 액세스 정책 만들기
@@ -82,7 +84,7 @@ New-JournalRule -Name "JournalRule1" -Recipient joe@contoso.onmicrosoft.com -Jou
 4. 정책 **구성을** 선택 하 고 **정책 추가**를 선택 합니다.
 
 5. 드롭다운 필드에서 다음 값을 선택 하거나 입력 합니다.
-    
+
     **정책 유형**: 작업
 
     **정책 범위**: Exchange
@@ -97,16 +99,17 @@ New-JournalRule -Name "JournalRule1" -Recipient joe@contoso.onmicrosoft.com -Jou
 
 ### <a name="test-approval-requirement-for-the-new-journalrule-task-defined-in-a-privileged-access-policy"></a>권한 있는 액세스 정책에 정의 된 Set-journalrule 작업에 대 한 승인 요구 사항 테스트
 
-1. 로컬 컴퓨터에서 테스트에 대 한 전역 관리자 계정을 사용 하 여 **microsoft Corporation** > **microsoft exchange online 원격 powershell** 모듈에서 Exchange online 원격 powershell 모듈을 열고 로그인 합니다. 환경.
+1. 로컬 컴퓨터에서 테스트 환경에 대 한 전역 관리자 계정을 사용 하 여 **microsoft Corporation** > **microsoft exchange online 원격 powershell 모듈** 의 Exchange online 원격 powershell 모듈을 열고 로그인 합니다.
 
 2. Exchange 관리 Powershell에서 조직에 대 한 새 저널 규칙을 만듭니다.
 
-```
+```ExchangeManagementPowerShell
 New-JournalRule -Name "JournalRule2" -Recipient user1@<your subscription domain> -JournalEmailAddress user1@<your subscription domain> -Scope Global -Enabled $true
 ```
+
 3. Exchange 관리 PowerShell에서 "Insuffient 사용 권한" 오류 보기:
 
-```
+```ExchangeManagementPowerShell
 Insufficient permissions. Please raise an elevated access request for this task.
     + CategoryInfo          : NotSpecified: (:) [], LocalizedException
     + FullyQualifiedErrorId : [Server=CY1PR00MB0220,RequestId=7b8c7470-ddd0-4528-a01e-5e20ecc9bd54,TimeStamp=9/19/2018
@@ -152,9 +155,10 @@ Insufficient permissions. Please raise an elevated access request for this task.
 
 2. Exchange 관리 Powershell에서 조직에 대 한 새 저널 규칙을 만듭니다.
 
-```
+```ExchangeManagementPowerShell
 New-JournalRule -Name "JournalRule2" -Recipient user1@<your subscription domain> -JournalEmailAddress user1@<your subscription domain> -Scope Global -Enabled $true
 ```
+
 3. Exchange 관리 PowerShell에서 새 저널 규칙을 성공적으로 만들었는지 확인 합니다.
 
 ## <a name="next-step"></a>다음 단계

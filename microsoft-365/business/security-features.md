@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 ms.assetid: c123694a-1efb-459e-a8d5-2187975373dc
 description: Microsoft 365 Business에 제공되는 보안 기능에 대해 알아봅니다.
-ms.openlocfilehash: 0d1c35192bf82ac61e59356cda4d9fb29cb3d995
-ms.sourcegitcommit: 4d5e4cb3fa3ab45ad15f103c720c77277b22fc23
+ms.openlocfilehash: 5e295480b1a578ca26646a89d6a0a4183a15428d
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "37636775"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38031448"
 ---
 # <a name="microsoft-365-business-security-and-compliance-features"></a>Microsoft 365 Business 보안 및 규정 준수 기능
 
@@ -33,7 +33,7 @@ Microsoft 365 Business는 PC, 휴대폰 및 태블릿의 데이터를 보호하�
     
 ## <a name="microsoft-365-business-admin-center-security-features"></a>Microsoft 365 Business 관리 센터 보안 기능
 
-[![레이블-관리 센터가 변경 중 이며 aka.ms/aboutM365preview에서 자세한 내용을 확인할 수 있습니다.](media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
+[![관리 센터가 변경되고 있음을 알리는 레이블이며 aka.ms/aboutM365preview에서 자세한 내용을 확인할 수 있습니다.](media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
 
 관리 센터에서 다양한 Microsoft 365 Business 보안 기능을 간편하게 설정 또는 해제하면서 편리하게 관리할 수 있습니다. 관리 센터에서는 다음을 수행할 수 있습니다.
   
@@ -73,7 +73,7 @@ Microsoft 365 Business의 고급 기능을 사용하여 사이버 위협으로�
 - **[Azure Portal의 Intune 전체 기능](https://go.microsoft.com/fwlink/p/?linkid=871403)**
     
     Azure Portal에서 Intune 관리 센터에 액세스하여 Microsoft 365 Business 관리 센터를 통해 사용할 수 없는 Windows용 고급 디바이스 관리와 함께 MacOS 디바이스, iPhone 및 Android 디바이스 관리와 같은 추가 보안 기능을 설정할 수 있습니다.
-- **Azure AD P1 계획과 동일한 [조건부 액세스](https://docs.microsoft.com/en-us/azure/active-directory/conditional-access/overview)**
+- **Azure AD P1 계획과 동일한 [조건부 액세스](https://docs.microsoft.com/azure/active-directory/conditional-access/overview)**
 
     조건부 액세스를 사용 하면 조직에서 로그인 위험 으로부터 보호 하 고, 예기치 않은 네트워크 또는 로캘에서 액세스를 시도 하 고, access에서 위험한 장치 유형을 형성 하는 등의 방법을 사용할 수 있습니다. 조건부 액세스 정책은 첫 번째 인증을 완료 한 후에 적용 되며 첫 번째 인증 이벤트의 신호를 사용 하 여 시도 된 액세스를 승인, 거부 또는 f 추가 증명 (예: 두 번째 유형의 식별)으로 할지 결정 합니다. 필수.
 
@@ -104,7 +104,7 @@ Microsoft 365 비즈니스 구독에는 준수 및 규정 표준을 유지 관�
     
 - **[민감도 레이블](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels)**
 
-   Microsoft 365 Business에는 [Azure Information Protection 계획 1](https://go.microsoft.com/fwlink/p/?linkid=871407)의 모든 기능이 포함 되어 있습니다. 이 계획을 사용 하 여 **민감도 레이블을**만들어 전자 메일 및 문서에서 중요 한 정보에 대 한 액세스를 제어할 수 있는 "전달 금지" 및 "복사 금지" 등의 컨트롤이 있습니다. 중요 한 정보를 "기밀"으로 분류 하 고 분류 된 정보를 비즈니스 외부 및 내부에 공유 하는 방법을 지정할 수도 있습니다. 엔터프라이즈 등급 암호화는 전자 메일 및 문서에 쉽게 적용할 수 있으며 정보를 비공개로 유지 하는 데 사용 됩니다. Office 용 Azure Information Protection 클라이언트 추가 기능을 설치할 수도 있습니다. 자세한 내용은 [Azure Information Protection 통합 레이블 클라이언트](https://docs.microsoft.com/azure/information-protection/rms-client/unifiedlabelingclient-version-release-history)를 참조 하세요. 민감도 레이블의 경우 **AzInfoProtection_UL**를 설치 합니다.
+   Microsoft 365 Business에는 [Azure Information Protection 계획 1](https://go.microsoft.com/fwlink/p/?linkid=871407)의 모든 기능이 포함 되어 있습니다. 이 계획을 사용 하 여 **민감도 레이블을**만들어 전자 메일 및 문서에서 중요 한 정보에 대 한 액세스를 제어할 수 있는 "전달 금지" 및 "복사 금지" 등의 컨트롤이 있습니다. 중요 한 정보를 "기밀"으로 분류 하 고 분류 된 정보를 비즈니스 외부 및 내부에 공유 하는 방법을 지정할 수도 있습니다. 엔터프라이즈 등급 암호화는 전자 메일 및 문서에 쉽게 적용할 수 있으며 정보를 비공개로 유지 하는 데 사용 됩니다. Office 용 Azure Information Protection 클라이언트 추가 기능을 설치할 수도 있습니다. 자세한 내용은 [Azure Information Protection 통합 레이블 클라이언트](https://docs.microsoft.com/azure/information-protection/rms-client/unifiedlabelingclient-version-release-history)를 참조 하세요. 민감도 레이블의 경우 AzInfoProtection_UL를 설치 합니다 **.**
 
 이러한 기능은 보안 &amp; 및 준수 센터 및 Intune 관리 센터에서 관리할 수 있습니다. 시간이 지남에 따라 간소화 된 컨트롤이 Microsoft 365 비즈니스 관리 센터에 추가 됩니다.
   
