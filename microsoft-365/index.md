@@ -8,12 +8,12 @@ ms.topic: hub-page
 keywords: Microsoft 365, Microsoft 365 설명서, 비즈니스용 Microsoft 365, 365 엔터프라이즈에 대 한 microsoft 365, 교육, 엔터프라이즈, 비즈니스, 교육, 문서, 설명서
 title: Microsoft 365 설명서
 description: Office 365, Windows 10 및 Enterprise Mobility + Security를 포함 하 여 모든 사람이 창조적이 고 완벽 하 게 작동 하도록 하는 완전 한 지능형 솔루션 (Microsoft 365에 대 한 설명서 및 리소스)을 소개 합니다.
-ms.openlocfilehash: 137479d7e9705a579a6c5aa20cb3a0ae935a1fd8
-ms.sourcegitcommit: 96cbcfe8b02a5efc2d5a4fc070753ea96f298fda
+ms.openlocfilehash: 00b714811e10af9dfb135aec4b090b17cf4fda73
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "37749150"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38031653"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -34,7 +34,7 @@ ms.locfileid: "37749150"
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/M365-HubTile-Enterprise-400x140.svg" alt="Microsoft 365 Enterprise documentation and resources" />
+                                                        <img src="https://docs.microsoft.com/office/media/hub-tiles/M365-HubTile-Enterprise-400x140.svg" alt="Microsoft 365 Enterprise documentation and resources" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -54,7 +54,7 @@ ms.locfileid: "37749150"
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/M365-HubTile-Business-400x140.svg" alt="Microsoft 365 Business documentation and resources" />
+                                                        <img src="https://docs.microsoft.com/office/media/hub-tiles/M365-HubTile-Business-400x140.svg" alt="Microsoft 365 Business documentation and resources" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -74,7 +74,7 @@ ms.locfileid: "37749150"
                                             <div class="card">
                                                 <div class="cardImageOuter">
                                                     <div class="cardImage bgdAccent1">
-                                                        <img src="https://docs.microsoft.com/en-us/office/media/hub-tiles/M365-HubTile-Education-400x140.svg" alt="Microsoft 365 Education documentation and resources" />
+                                                        <img src="https://docs.microsoft.com/office/media/hub-tiles/M365-HubTile-Education-400x140.svg" alt="Microsoft 365 Education documentation and resources" />
                                                     </div>
                                                 </div>
                                                 <div class="cardText">
@@ -99,7 +99,7 @@ ms.locfileid: "37749150"
                                                 </div>
                                                 <div class="cardText">
                                                     <br />
-                                                    <h3>Microsoft 365 준수</h3>
+                                                    <h3>Microsoft 365 규정 준수</h3>
                                                     <p>Microsoft 365 규정 준수 솔루션은 조직이 법적 또는 규제 표준을 준수 하는 데 도움이 됩니다.</p>
                                                 </div>
                                             </div>
