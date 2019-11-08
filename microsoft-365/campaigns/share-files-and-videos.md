@@ -1,5 +1,5 @@
 ---
-title: 파일 및 비디오 공유
+title: 파일 및 동영상 공유
 ms.author: stevhord
 author: twerner
 manager: scotv
@@ -22,14 +22,14 @@ search.appverid:
 - MET150
 - MOE150
 description: 캠페인 내부에서 Microsoft 팀과 SharePoint로 파일 및 비디오를 공유 합니다.
-ms.openlocfilehash: c554ba2b4e7945cefa9a1e7114b3726efa58561e
-ms.sourcegitcommit: 75b97d1ff617bc4b1b0ef9135dfe6a8842ea1b52
+ms.openlocfilehash: 14daa826e7df961baefaf7f6e7a17530842aad25
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35772345"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38031193"
 ---
-# <a name="share-files-and-videos"></a>파일 및 비디오 공유
+# <a name="share-files-and-videos"></a>파일 및 동영상 공유
 
 파일을 볼 수 있는 사람 및 편집할 수 있는 사용자를 제어 해야 하는 경우에는 해당 파일을 안전한 위치에 저장 해야 하며, 권한이 적절 하 게 적용 되는지 확인할 수 있습니다. Microsoft 팀을 사용 하 여 파일을 저장 한 다음 Microsoft 팀과 캠페인 내부나 외부에서 SharePoint 링크를 보내 파일을 공유할 수 있습니다. 전자 메일 첨부 파일이 아니라 링크를 보내는 것은 사용자가 파일을 보고 수정 하 고 있는지와 사용자의 권한 없이 보거나 수정할 수 없다는 것을 의미 합니다. 
 
@@ -62,7 +62,7 @@ Microsoft 팀을 사용 하지 않고 게스트와 보안 링크를 공유 하�
 
 비디오를 만들고 공유 하려면 다음 단계를 수행 합니다.
 
-> [!VIDEO https://www.microsoft.com/en-us/videoplayer/embed/RWrv0F]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWrv0F]
 
 [PDF](https://go.microsoft.com/fwlink/?linkid=2079435) 또는 [PowerPoint](https://go.microsoft.com/fwlink/?linkid=2079438) 에서 infographic을 다운로드 하 여 파일을 공유 하는 방법에 대 한 간략 한 개요를 볼 수 있습니다.
 

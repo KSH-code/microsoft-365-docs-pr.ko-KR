@@ -16,24 +16,24 @@ search.appverid:
 - MET150
 description: Microsoft 비즈니스 제품의 송장을 읽고 이해 하는 방법을 알아봅니다.
 keywords: 청구 계정, 조직 정보, 송장
-ms.openlocfilehash: e0af9ec0808de97e55ef550c6feb51a146dbb5f6
-ms.sourcegitcommit: 1e3916bbe94d4fbb858566e7db5018e1e46bcd0d
+ms.openlocfilehash: 79d652f56617837019322b7329d918488283659a
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "37646450"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38029042"
 ---
 # <a name="understand-your-invoice"></a>요금 청구 방식
 
 송장에서는 결제에 대 한 요금 및 지침을 요약해 서 제공 합니다. Microsoft 365 관리 센터에서 [온라인 송장을 볼](#view-your-online-invoice) 수 있습니다. 또한이 파일을 휴대용 문서 형식 (.pdf)으로 다운로드 하 여 전자 메일을 통해 보낼 수 있습니다.
 
-Office 365 구독이 있는 경우 [office 365 비즈니스 에디션에 대 한 청구서 보기](https://docs.microsoft.com/en-us/office365/admin/subscriptions-and-billing/view-your-bill-or-invoice)를 참조 하세요.
+Office 365 구독이 있는 경우 [office 365 비즈니스 에디션에 대 한 청구서 보기](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/view-your-bill-or-invoice)를 참조 하세요.
 
 ## <a name="understand-the-invoice-header"></a>송장 헤더 이해
 
 첫 페이지의 맨 위에는 결제를 담당 하는 사람, 청구서가 전송 되는 위치 및 청구 비용이 요약 되어 있습니다.
 
-| 용어 | 설명 |
+| 용어 | Description |
 | --- | --- |
 | 판매 대상 |지불을 담당 하는 법률 엔터티의 이름과 주소를 식별 하는 청구 계정입니다. 이 정보는 계정 계약을 찾고 역할 및 사용 권한을 관리할 수 있는 <a href="https://go.microsoft.com/fwlink/p/?linkid=2084771" target="_blank">청구 계정</a> 페이지에서 관리할 수 있습니다. |
 | 청구지 |송장을 받는 사람을 식별 합니다. 이 정보는 <a href="https://go.microsoft.com/fwlink/p/?linkid=2103629" target="_blank">청구 프로필</a> 페이지에서 관리할 수 있습니다. 대금 청구 프로필은 **송장 요약** 섹션의 온라인 송장 페이지에도 표시 됩니다. 청구 프로필에 대 한 자세한 내용과이를 사용 하 여 조직에 대 한 보다 유연한 대금 청구 옵션을 만드는 방법에 대 한 자세한 내용은 [청구 프로필 관리](manage-billing-profiles.md)를 참조 하세요. |
@@ -46,19 +46,19 @@ Office 365 구독이 있는 경우 [office 365 비즈니스 에디션에 대 한
 
 **대금 청구 요약** 에는 이전 대금 청구 기간 이후의 금액, 적용 된 제작진, 세금 및 총 금액에 대 한 요약이 표시 됩니다.
 
-| 용어 | 설명 |
+| 용어 | Description |
 | --- | --- |
 | 요금|이 대금 청구 기간에 대해 구매한 총 제품 수 및 관련 요금 및 세금입니다. 구매는 자재 명세서를 간결 하 게 볼 수 있도록 집계 됩니다. |
 | 크레딧 |반환 받은 제작진 |
-| Azure 제작진 적용 |Azure 크레딧이 각 대금 청구 기간에 자동으로 적용 됩니다. Azure 크레딧이 없는 경우이 필드는 숨겨집니다. Azure 크레딧에 대 한 자세한 내용은 [Microsoft 고객 계약 Azure 크레딧 잔액 추적](https://docs.microsoft.com/en-us/azure/billing/billing-mca-check-azure-credits-balance)을 참조 하십시오. |
+| Azure 제작진 적용 |Azure 크레딧이 각 대금 청구 기간에 자동으로 적용 됩니다. Azure 크레딧이 없는 경우이 필드는 숨겨집니다. Azure 크레딧에 대 한 자세한 내용은 [Microsoft 고객 계약 Azure 크레딧 잔액 추적](https://docs.microsoft.com/azure/billing/billing-mca-check-azure-credits-balance)을 참조 하십시오. |
 | 부분합과 |기한 전 금액 |
 | 세금 |대금 청구 프로필의 국가에 따라 지불 하는 세금의 유형 및 수량입니다. 세금을 지불할 필요가 없으면 송장에 세금을 표시 하지 않습니다. |
 
 ### <a name="understand-your-charges"></a>비용 이해
 
-비용 페이지에는 제품별로 세분화 된 비용이 표시 됩니다. Azure 고객의 경우 청구서 섹션에 따라 비용이 청구 될 수 있습니다. Azure 제품에서 송장 섹션을 사용 하는 방법에 대 한 자세한 내용은 [Microsoft 고객 계약 청구 계정 시작](https://docs.microsoft.com/en-us/azure/billing/billing-mca-overview)의 [송장 섹션](https://docs.microsoft.com/en-us/azure/billing/billing-mca-overview#invoice-sections) 을 참조 하세요. 각 제품 주문 내에서 비용은 서비스 제품군으로 구분 됩니다.
+비용 페이지에는 제품별로 세분화 된 비용이 표시 됩니다. Azure 고객의 경우 청구서 섹션에 따라 비용이 청구 될 수 있습니다. Azure 제품에서 송장 섹션을 사용 하는 방법에 대 한 자세한 내용은 [Microsoft 고객 계약 청구 계정 시작](https://docs.microsoft.com/azure/billing/billing-mca-overview)의 [송장 섹션](https://docs.microsoft.com/azure/billing/billing-mca-overview#invoice-sections) 을 참조 하세요. 각 제품 주문 내에서 비용은 서비스 제품군으로 구분 됩니다.
 
-| 용어 |설명 |
+| 용어 |Description |
 | --- | --- |
 | 단가 | 요금 청구를 계산 하는 데 사용 되는 서비스의 실제 단가 (가격 산정 금액)입니다. 이 가격은 제품, 서비스 제품군, 측정기 및 혜택에 고유 합니다. |
 | 수량 | 대금 청구 기간 중 구입 또는 소비 수량 |
@@ -76,7 +76,7 @@ Office 365 구독이 있는 경우 [office 365 비즈니스 에디션에 대 한
 
 `Total = Charges/Credits - Azure Credit + Tax`
 
-송장에 자세한 세부 정보를 보려는 Azure 요금이 있는 경우 [Microsoft 고객 계약 송장의 청구 요금 이해](https://docs.microsoft.com/en-us/azure/billing/billing-mca-understand-your-bill)를 참조 하세요.
+송장에 자세한 세부 정보를 보려는 Azure 요금이 있는 경우 [Microsoft 고객 계약 송장의 청구 요금 이해](https://docs.microsoft.com/azure/billing/billing-mca-understand-your-bill)를 참조 하세요.
 
 ## <a name="understand-the-last-invoice-page"></a>마지막 송장 페이지 이해
 
@@ -110,4 +110,4 @@ Office 365 구독이 있는 경우 [office 365 비즈니스 에디션에 대 한
 
 Azure 제작진 관련 질문이 있거나 도움이 필요한 경우 <a href="https://portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest" target="_blank">azure 지원 서비스를 통해 지원 요청을 만듭니다</a>.
 
-Microsoft 365 관리 센터의 청구서에 대 한 질문이 있거나 도움이 필요한 경우 [비즈니스 제품 지원 서비스에 문의 하세요](https://docs.microsoft.com/en-us/office365/admin/contact-support-for-business-products).
+Microsoft 365 관리 센터의 청구서에 대 한 질문이 있거나 도움이 필요한 경우 [비즈니스 제품 지원 서비스에 문의 하세요](https://docs.microsoft.com/office365/admin/contact-support-for-business-products).

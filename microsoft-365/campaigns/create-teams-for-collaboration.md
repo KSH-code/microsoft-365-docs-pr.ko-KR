@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Microsoft 팀과 함께 팀을 위한 공동 작업 공간을 확보 합니다.
-ms.openlocfilehash: 18a28364b02b15af9d7d4c69c432ecd26d61b802
-ms.sourcegitcommit: 75b97d1ff617bc4b1b0ef9135dfe6a8842ea1b52
+ms.openlocfilehash: 9b501daa61998b0b2daedd84c333552b42e5338f
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35772525"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38031353"
 ---
 # <a name="create-teams-for-collaboration-in-microsoft-teams"></a>Microsoft 팀에서 공동 작업을 위한 팀 만들기
 
@@ -46,9 +46,9 @@ Microsoft 팀은 모든 장치에서 직원 들의 구성을 유지 하 고 대�
 
 팀을 만들 때는 다음 작업을 수행 합니다.
 
-- 새 [Office 365 그룹](https://docs.microsoft.com/en-us/MicrosoftTeams/office-365-groups)
-- 팀 파일을 저장 하는 [SharePoint Online](https://docs.microsoft.com/en-us/MicrosoftTeams/sharepoint-onedrive-interact) 사이트 및 문서 라이브러리
-- [Exchange Online](https://docs.microsoft.com/en-us/MicrosoftTeams/exchange-teams-interact) 공유 사서함 및 일정
+- 새 [Office 365 그룹](https://docs.microsoft.com/MicrosoftTeams/office-365-groups)
+- 팀 파일을 저장 하는 [SharePoint Online](https://docs.microsoft.com/MicrosoftTeams/sharepoint-onedrive-interact) 사이트 및 문서 라이브러리
+- [Exchange Online](https://docs.microsoft.com/MicrosoftTeams/exchange-teams-interact) 공유 사서함 및 일정
 - OneNote 전자 필기장
 - Planner 및 Power BI와 같은 다른 Office 365 앱에 동률
 
@@ -79,9 +79,9 @@ Microsoft 팀 내에서 다음을 찾을 수 있습니다.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FQMp]
 
-Microsoft 팀의 Microsoft 팀 [기술 설명서](https://docs.microsoft.com/en-us/microsoftteams/microsoft-teams) 에 대 한 자세한 정보
+Microsoft 팀의 Microsoft 팀 [기술 설명서](https://docs.microsoft.com/microsoftteams/microsoft-teams) 에 대 한 자세한 정보
 
 ## <a name="admin-settings"></a>관리 설정
 
-조직 차원의 팀을 만들려면 관리자 여야 합니다. 자세한 내용은 [Office 365의 관리자 란?](https://support.office.com/en-us/article/what-is-an-admin-e123627e-4892-4461-b9aa-1b6d57a5cfa4?ui=en-US&rs=en-US&ad=US)를 참조 하세요.
+조직 차원의 팀을 만들려면 관리자 여야 합니다. 자세한 내용은 [Office 365의 관리자 란?](https://support.office.com/article/what-is-an-admin-e123627e-4892-4461-b9aa-1b6d57a5cfa4?ui=en-US&rs=en-US&ad=US)를 참조 하세요.
   

@@ -13,16 +13,16 @@ ms.technology: ''
 ms.assetid: fb4182e6-5e78-45d0-9641-d791c4519441
 audience: ITPro
 ms.custom: microsoft-intune
-ms.openlocfilehash: dd73f32ff3c830104777aeefb1271178031a5b0d
-ms.sourcegitcommit: d4aa94716b33e6c270ae7adfbdc4c19cf4a0087d
+ms.openlocfilehash: 72ddad03486bf2c7dcba682453fa3bcfbdd1162b
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "37386145"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38031153"
 ---
 # <a name="phase-5-mobile-device-management-for-microsoft-365-enterprise"></a>단계 5: Microsoft 365 엔터프라이즈에 대 한 모바일 장치 관리
 
-![단계 5: 모바일 장치 관리](./media/deploy-foundation-infrastructure/mobiledevicemgmt_icon.png)
+![5단계: 모바일 디바이스 관리](./media/deploy-foundation-infrastructure/mobiledevicemgmt_icon.png)
 
 *이 기능은 Microsoft 365 Enterprise E3 및 E5 버전에 적용 됩니다.*
 
@@ -119,7 +119,7 @@ Intune은 앱 추가, 다른 사용자 또는 그룹에 할당 및 기타 주요
 
 이러한 기능과 설정은 대개 Intune의 "멋진" 부분으로 간주 되며 매우 강력 합니다. 조건부 액세스를 사용 하 여 준수 정책을 성공적으로 적용 한 후에는 **장치 프로필**을 만들 수 있습니다.
 
-[Azure portal](https://portal.azure.com) 의 Intune을 사용 하면 장치 플랫폼-IOS, Macos, Android 및 Windows를 기반으로 다른 프로필을 만들 수 있습니다. 예를 들어 다음을 실행할 수 있습니다.
+[Azure portal](https://portal.azure.com) 의 Intune을 사용 하면 장치 플랫폼-IOS, Macos, Android 및 Windows를 기반으로 다른 프로필을 만들 수 있습니다. 예를 들어, 다음을 수행할 수 있습니다.
 
 - Windows 10 장치에서 Endpoint protection을 사용 하 여 암호화를 포함 하 여 서로 다른 BitLocker 옵션을 사용 하도록 설정 합니다.
 - IOS 장치에서 제한 된 앱 기능을 사용 하 여 설치할 수 있는 승인 된 앱 목록을 만듭니다. 또는 금지 된 앱 목록을 만듭니다.
@@ -151,7 +151,7 @@ Microsoft에서는 직원 안전과 생산성을 유지하기 위해 [ID 및 디
 
 ## <a name="how-microsoft-does-microsoft-365-enterprise"></a>Microsoft에서 Microsoft 365 Enterprise를 수행하는 방법
 
-Microsoft의 IT 전문가가 [EMS를 사용 하 여 장치를 관리](https://www.microsoft.com/en-us/itshowcase/deploying-and-managing-microsoft-365#primaryR8)하는 방법을 알아봅니다.
+Microsoft의 IT 전문가가 [EMS를 사용 하 여 장치를 관리](https://www.microsoft.com/itshowcase/deploying-and-managing-microsoft-365#primaryR8)하는 방법을 알아봅니다.
 
 ## <a name="how-contoso-did-microsoft-365-enterprise"></a>Contoso의 Microsoft 365 Enterprise 사용 방식
 

@@ -14,12 +14,12 @@ ms.assetid: 4ccab17a-6d49-4786-aa28-92fb28893e99
 ms.collection:
 - M365-security-compliance
 description: 관리자는 Exchange Online Protection에서 메시지의 SCL을 설정 하는 방법을 확인할 수 있습니다.
-ms.openlocfilehash: 627284a1c2a7463989ca3050b2becbff780cf3d6
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 8da95c5356f7cde47d378d93c721057959554631
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088990"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38030632"
 ---
 # <a name="use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages"></a>메일 흐름 규칙을 사용하여 메시지의 스팸 신뢰 수준(SCL) 설정
 
@@ -29,7 +29,7 @@ ms.locfileid: "37088990"
   
 - 이 절차의 예상 완료 시간: 10 분.
     
-- 이러한 절차를 수행하려면 먼저 사용 권한을 할당받아야 합니다. 필요한 사용 권한을 확인 하려면 [Feature permissions In Exchange Online](http://technet.microsoft.com/library/15073ce1-0917-403b-8839-02a2ebc96e16.aspx) 또는 [FEATURE permissions in EOP에서](feature-permissions-in-eop.md)"메일 흐름 규칙" 항목을 참조 하세요. 
+- 이러한 절차를 수행하려면 먼저 사용 권한을 할당받아야 합니다. 필요한 사용 권한을 확인 하려면 [Feature permissions In Exchange Online](https://technet.microsoft.com/library/15073ce1-0917-403b-8839-02a2ebc96e16.aspx) 또는 [FEATURE permissions in EOP에서](feature-permissions-in-eop.md)"메일 흐름 규칙" 항목을 참조 하세요. 
     
 - 이 항목의 절차에 적용할 수 있는 바로 가기 키에 대 한 자세한 내용은 [Exchange Online에서 exchange 관리 센터에 대 한 바로 가기 키](https://docs.microsoft.com/Exchange/accessibility/keyboard-shortcuts-in-admin-center)를 참조 하십시오.
     
@@ -67,6 +67,6 @@ ms.locfileid: "37088990"
   
 ## <a name="how-do-you-know-this-worked"></a>작동 여부는 어떻게 확인하나요?
 
-이 프로시저가 제대로 작동 하는지 확인 하려면 조직 내부의 사람에 게 전자 메일 메시지를 보내고 메시지에 대해 수행 된 작업이 예상 대로 진행 되는지 확인 합니다. 예를 들어 **SCL (스팸** 지 수)이 **스팸 필터링을 무시**하도록 설정 하는 경우 메시지를 지정 된 받는 사람의 받은 편지 함으로 보내야 합니다. 그러나 **SCL (스팸** 지 수)을 **9**로 설정 하 고 해당 콘텐츠 필터 정책에 대 한 **신뢰도가 높은 스팸** 작업을 정크 메일 폴더로 이동 하는 경우에는 지정 된 사용자에 게 메시지를 전송 해야 합니다. 받는 사람의 정크 메일 폴더입니다. 
+이 프로시저가 제대로 작동 하는지 확인 하려면 조직 내부의 사람에 게 전자 메일 메시지를 보내고 메시지에 대해 수행 된 작업이 예상 대로 진행 되는지 확인 합니다. 예를 들어 **SCL (스팸** 지 수)이 **스팸 필터링을 무시**하도록 설정 하는 경우 메시지를 지정 된 받는 사람의 받은 편지 함으로 보내야 합니다. 그러나 **SCL (스팸** 지 수)을 **9**로 설정 하 고 해당 콘텐츠 필터 정책에 대 한 **신뢰도가 높은 스팸** 작업을 정크 메일 폴더로 이동 하는 경우에는 해당 메시지를 지정 된 받는 사람의 정크 메일 폴더로 보내야 합니다. 
   
 

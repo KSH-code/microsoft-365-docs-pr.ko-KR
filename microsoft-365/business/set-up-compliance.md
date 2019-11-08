@@ -18,12 +18,12 @@ search.appverid:
 - BCS160
 - MET150
 description: 규정 준수 기능을 설정 하 여 데이터 손실 및 중요 한 데이터에 레이블을 지정 하지 않도록 합니다.
-ms.openlocfilehash: 73709c1302a2e9e46eb2d54ea021438b5f1743c5
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+ms.openlocfilehash: 5213c55f4a8ce0e223896f1b960847714d6d06cb
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37575661"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38031418"
 ---
 # <a name="set-up-compliance-features"></a>준수 기능 설정
 
@@ -57,7 +57,7 @@ DLP는 사용 준비가 완료된 여러 다른 로캘용 정책 템플릿을 �
 
 민감도 레이블은 Azure Information Protection (AIP) 계획 1과 함께 제공 되며 레이블을 적용 하 여 문서와 전자 메일을 분류 하 고 필요에 따라 보호 하는 데 도움이 됩니다. 규칙 및 조건을 정의 하는 관리자가 사용자에 의해 수동으로 또는 사용자에 게 권장 사항을 제공 하는 조합을 사용 하 여 레이블을 자동으로 적용할 수 있습니다.
 
-민감도 레이블을 설정 하려면 [만들기 및 관리 민감도 레이블](https://support.office.com/en-us/article/2fb96b54-7dd2-4f0c-ac8d-170790d4b8b9) 비디오를 확인 합니다.
+민감도 레이블을 설정 하려면 [만들기 및 관리 민감도 레이블](https://support.office.com/article/2fb96b54-7dd2-4f0c-ac8d-170790d4b8b9) 비디오를 확인 합니다.
 
 
 

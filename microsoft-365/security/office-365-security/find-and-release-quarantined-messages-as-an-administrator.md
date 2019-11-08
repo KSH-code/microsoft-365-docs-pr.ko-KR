@@ -14,12 +14,12 @@ ms.assetid: ab95bf17-bb09-4dd1-9990-ddd02ddecf05
 ms.collection:
 - M365-security-compliance
 description: 이 항목에서는 Exchange Online 및 exchange Online Protection (EOP) 관리자가 EAC (exchange 관리 센터)에서 격리 된 메시지를 찾아서 해제 하 고 보고 하는 방법에 대해 설명 합니다.
-ms.openlocfilehash: 8f127dd1e7c14bbf2ae1d3bf23e611ef5c3ac1dc
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+ms.openlocfilehash: c8779fb89ecb1deda92382ae2d91de4e54b303e7
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37576036"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38032363"
 ---
 # <a name="find-and-release-quarantined-messages-as-an-administrator"></a>관리자로 격리된 메시지 찾기 및 릴리스
 
@@ -37,9 +37,9 @@ EAC 대신 보안 & 준수 센터를 사용 하 여 이러한 작업을 모두 �
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
 
-- 이러한 절차를 수행하려면 먼저 사용 권한을 할당받아야 합니다. 필요한 사용 권한을 확인 하려면 [Feature permissions In Exchange Online](http://technet.microsoft.com/library/15073ce1-0917-403b-8839-02a2ebc96e16.aspx) 항목의 "격리" 항목을 참조 하십시오.
+- 이러한 절차를 수행하려면 먼저 사용 권한을 할당받아야 합니다. 필요한 사용 권한을 확인 하려면 [Feature permissions In Exchange Online](https://technet.microsoft.com/library/15073ce1-0917-403b-8839-02a2ebc96e16.aspx) 항목의 "격리" 항목을 참조 하십시오.
 
-- **격리** 페이지에서 한 번에 여러 메시지를 릴리스 하거나 보고할 수 있습니다. 또는이 작업을 수행 하는 원격 Windows PowerShell 스크립트를 만들 수 있습니다. [Get-QuarantineMessage](http://technet.microsoft.com/library/88026da1-8dbc-49e7-80e8-112a32773c34.aspx) cmdlet을 사용하여 메시지를 검색하고 [Release-QuarantineMessage](http://technet.microsoft.com/library/4a3aa05c-238f-46f2-b8dd-b0e3c38eab3e.aspx) cmdlet을 사용하여 메시지를 해제할 수 있습니다.
+- **격리** 페이지에서 한 번에 여러 메시지를 릴리스 하거나 보고할 수 있습니다. 또는이 작업을 수행 하는 원격 Windows PowerShell 스크립트를 만들 수 있습니다. [Get-QuarantineMessage](https://technet.microsoft.com/library/88026da1-8dbc-49e7-80e8-112a32773c34.aspx) cmdlet을 사용하여 메시지를 검색하고 [Release-QuarantineMessage](https://technet.microsoft.com/library/4a3aa05c-238f-46f2-b8dd-b0e3c38eab3e.aspx) cmdlet을 사용하여 메시지를 해제할 수 있습니다.
 
 - 이 항목의 절차에 적용할 수 있는 바로 가기 키에 대 한 자세한 내용은 [Exchange Online에서 exchange 관리 센터에 대 한 바로 가기 키](https://docs.microsoft.com/Exchange/accessibility/keyboard-shortcuts-in-admin-center)를 참조 하십시오.
 
@@ -54,7 +54,7 @@ EAC(Exchange 관리 센터)에서 고급 검색을 사용하여 여러 조건에
 
 2. **고급 검색** 창에서 다음 조건의 조합을 선택합니다. 연결 된 확인란을 선택 하 여 각 조건을 사용 하도록 설정 합니다. 와일드카드는 지원되지 않습니다.
 
-   1. **메시지 ID**:이 매개 변수를 사용 하 여 특정 메시지를 대상으로 하는 검색을 수행할 수 있습니다. 예를 들어 메시지 추적 기능을 사용하면 조직의 특정 사용자가 보냈거나 받아야 하는데 대상에 도착하지 않은 메시지를 검색할 수 있습니다. 자세한 내용은 [메시지 추적 실행 및 결과 보기](http://technet.microsoft.com/library/74a9fc59-7e0e-4832-baf9-2a86418b0079.aspx)를 참조하세요. 규칙과 일치하거나 스팸으로 확인되어 격리로 전송된 메시지가 있으면 해당 메시지 ID를 지정하여 격리에서 메시지를 쉽게 찾을 수 있습니다. 이때 전체 메시지 ID 문자열을 포함해야 합니다. 여기에는 꺾쇠 괄호 (\<\>)가 포함 될 수 있습니다.
+   1. **메시지 ID**:이 매개 변수를 사용 하 여 특정 메시지를 대상으로 하는 검색을 수행할 수 있습니다. 예를 들어 메시지 추적 기능을 사용하면 조직의 특정 사용자가 보냈거나 받아야 하는데 대상에 도착하지 않은 메시지를 검색할 수 있습니다. 자세한 내용은 [메시지 추적 실행 및 결과 보기](https://technet.microsoft.com/library/74a9fc59-7e0e-4832-baf9-2a86418b0079.aspx)를 참조하세요. 규칙과 일치하거나 스팸으로 확인되어 격리로 전송된 메시지가 있으면 해당 메시지 ID를 지정하여 격리에서 메시지를 쉽게 찾을 수 있습니다. 이때 전체 메시지 ID 문자열을 포함해야 합니다. 여기에는 꺾쇠 괄호 (\<\>)가 포함 될 수 있습니다.
 
    2. **보낸 사람 전자 메일 주소**: 메시지를 보낸 사람의 전자 메일 주소를 지정 합니다.
 
@@ -62,9 +62,9 @@ EAC(Exchange 관리 센터)에서 고급 검색을 사용하여 여러 조건에
 
    4. **제목**: 메시지의 제목 줄 텍스트를 지정 합니다.
 
-   5. **Received**: 지난 24 시간 이내 ( **오늘**), 지난 48 시간 ( **지난 2 일**), 지난 주 (지난 **7 일**) 내에 격리를 통해 메시지가 수신 되거나 사용자 지정 시간 간격을 선택할 수 있음을 선택할 수 있습니다. 격리에서 받은 메시지입니다.
+   5. **수신**: 지난 24 시간 이내 ( **오늘**), 지난 48 시간 ( **지난 2 일**), 지난 주 (지난 **7 일**) 또는 격리에서 메시지를 받은 사용자 지정 시간 간격을 선택할 수 있는 격리를 통해 메시지를 수신 하는 것을 선택 합니다.
 
-   6. **Expires**: 다음 24 시간 이내 ( **오늘**), 다음 48 시간 이내 ( **다음 2 일**) 또는 다음 주 (다음 **7 일**) 이내에 메시지가 격리 되지 않도록 선택 하거나, 다음 중에 사용자 지정 시간 간격을 선택할 수 있습니다. 메시지가 격리에서 삭제 되는 대상입니다.
+   6. **Expires**: 다음 24 시간 이내 ( **오늘**), 다음 48 시간 이내 ( **다음 2 일**) 또는 다음 주 ( **다음 7 일**) 이내에 메시지가 격리에서 삭제 되도록 선택 하거나, 메시지가 격리에서 삭제 되는 사용자 지정 시간 간격을 선택할 수 있습니다.
 
       > [!IMPORTANT]
       > 기본적으로 스팸 격리 메시지는 30 일 동안 격리 되며, 메일 흐름 규칙과 일치 하는 격리 된 메시지는 기본 콘텐츠 필터 정책에 설정 된 보존 기간을 기준으로 최대 30 일 동안 격리에 보관 됩니다. 이 기간 후에 Office 365에서 메시지를 삭제 하며 이러한 시간을 검색할 수 없습니다. 메일 흐름 규칙과 일치 하는 격리 된 메시지의 보존 기간은 구성할 수 없습니다. 그렇지만 스팸 격리 메시지의 보존 기간은 콘텐츠 필터 정책의 **스팸 보존 기간(일)** 설정을 통해 줄일 수 있습니다. 자세한 내용은 [스팸 필터 정책 구성을](configure-your-spam-filter-policies.md)참조 하세요.

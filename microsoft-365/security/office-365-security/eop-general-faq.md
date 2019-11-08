@@ -10,12 +10,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 9dbff00a-474e-4452-aeb5-5be9a6b8c6d5
 description: 다음은 Microsoft EOP(Exchange Online Protection) 클라우드 호스팅 전자 메일 필터링 서비스에 대한 가장 일반적인 질문과 그에 대한 대답입니다. 그 이외의 FAQ(질문과 대답) 항목은 다음 링크를 참조하십시오.
-ms.openlocfilehash: b49bb92cea781dc2c2120f1c0512a9de5182f16a
-ms.sourcegitcommit: cbf117a4cd92a907115c9f10752f3c557361e586
+ms.openlocfilehash: 838e69ad52dbb7f2012c5d8605e41c91ba4c6b7e
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "37441505"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38033869"
 ---
 # <a name="eop-general-faq"></a>EOP 관련 일반 FAQ(질문과 대답)
 
@@ -33,7 +33,7 @@ ms.locfileid: "37441505"
 
 - [맬웨어 방지 보호 FAQ](anti-malware-protection-faq-eop.md)
 
-- [메시지 추적 FAQ](http://technet.microsoft.com/library/aa49e3f9-a5b1-4410-aac2-ddbbf3f5bfb2.aspx)
+- [메시지 추적 FAQ](https://technet.microsoft.com/library/aa49e3f9-a5b1-4410-aac2-ddbbf3f5bfb2.aspx)
 
 **질문. EOP란 무엇입니까?**
   
@@ -63,7 +63,7 @@ ms.locfileid: "37441505"
   
 A. Microsoft 365 관리 센터에는 이러한 정보 중 일부가 포함 되어 있습니다. 서비스 수준 이벤트의 영향을 받는 경우 Microsoft 365 관리 센터에 로그인 한 후 통신 경고 (일반적으로 종 아이콘이 함께)가 표시 됩니다. 관련 정보를 확인하고 항목에 대한 작업을 적절하게 수행하는 것이 좋습니다.
   
-새 EOP 기능과 관련해서 [비즈니스용 Office 365 로드맵](https://www.microsoft.com/microsoft-365/roadmap?filters=O365)은 향후 출시될 새 기능에 대한 정보를 찾는 데 유용한 리소스입니다. 또한 [Microsoft 365 블로그](https://www.microsoft.com/en-us/microsoft-365/blog/) 웹 사이트에 새로운 기능에 대 한 블로그 문서를 게시 합니다.
+새 EOP 기능과 관련해서 [비즈니스용 Office 365 로드맵](https://www.microsoft.com/microsoft-365/roadmap?filters=O365)은 향후 출시될 새 기능에 대한 정보를 찾는 데 유용한 리소스입니다. 또한 [Microsoft 365 블로그](https://www.microsoft.com/microsoft-365/blog/) 웹 사이트에 새로운 기능에 대 한 블로그 문서를 게시 합니다.
   
 **질문. Exchange Server 2010 등의 레거시 Exchange 버전 및 Exchange 이외의 환경에서도 서비스가 작동합니까?**
   

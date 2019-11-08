@@ -15,12 +15,12 @@ ms.assetid: eef8408b-54d3-4d7d-9cf7-ad2af10b2e0e
 ms.collection:
 - M365-security-compliance
 description: '피싱 방지를 위해 Office 365 및 Outlook.com에는 이제 From: 주소에 대 한 RFC 준수가 필요 합니다.'
-ms.openlocfilehash: da1728b59ce100d988538d572a24ca1a44fa9a7b
-ms.sourcegitcommit: 96cbcfe8b02a5efc2d5a4fc070753ea96f298fda
+ms.openlocfilehash: ca3ec0ca6e9a2267c84549f26498b46479f74401
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "37749160"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38032353"
 ---
 # <a name="how-office-365-validates-the-from-address-to-prevent-phishing"></a>Office 365에서 보낸 사람 주소의 유효성을 검사 하 여 피싱을 방지 하는 방법
 
@@ -225,8 +225,8 @@ Office 365에서 보내는 아웃 바운드 메일에 대해서는이 정책을 
 
 피싱, spamming, 데이터 위반 및 기타 위협과 같은 cybercrimes 로부터 조직을 강화 하는 방법에 대 한 자세한 내용은 [Office 365의 보안 모범 사례](https://docs.microsoft.com/office365/admin/security-and-compliance/secure-your-business-data)를 참조 하세요.
   
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
-[후방 분산 메시지 및 EOP](https://technet.microsoft.com/en-us/library/dn499795%28v=exchg.150%29.aspx)
+[후방 분산 메시지 및 EOP](https://technet.microsoft.com/library/dn499795%28v=exchg.150%29.aspx)
   
 

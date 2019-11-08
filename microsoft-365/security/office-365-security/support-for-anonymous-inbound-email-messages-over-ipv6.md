@@ -13,12 +13,12 @@ ms.assetid: b68df621-0a5f-4824-8abc-41e0c4fd1398
 ms.collection:
 - M365-security-compliance
 description: Exchange Online Protection 및 Exchange Online에 대해 IPv6 원본에서 익명 메시지에 대 한 지원을 구성 하는 방법을 알아봅니다.
-ms.openlocfilehash: b6b1a0f42d879929de5059b6e197bd5fe14887dc
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: c29c1fa450ca2a2e213930c4f4a394aaf462e31d
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37089239"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38031993"
 ---
 # <a name="support-for-anonymous-inbound-email-messages-over-ipv6"></a>IPv6을 통한 익명 인바운드 전자 메일 메시지 지원
 
@@ -28,7 +28,7 @@ IPv6을 통해 서비스로 메시지를 전송하는 보낸 사람은 다음의
   
 1. 보내는 IPv6 주소에는 보내는 IPv6 주소의 유효한 PTR 레코드([역방향 DNS 레코드](https://en.wikipedia.org/wiki/Reverse_DNS_lookup))가 있어야 합니다. 
     
-2. 보낸 사람은 [RFC 7208](https://tools.ietf.org/html/rfc7208)에 정의되어 있는 SPF 확인 또는 [RFC 6376](http://dkim.org/)에 정의되어 있는 [DKIM 확인](https://www.rfc-editor.org/rfc/rfc6376.txt)을 통과해야 합니다.
+2. 보낸 사람은 [RFC 7208](https://tools.ietf.org/html/rfc7208)에 정의되어 있는 SPF 확인 또는 [RFC 6376](https://dkim.org/)에 정의되어 있는 [DKIM 확인](https://www.rfc-editor.org/rfc/rfc6376.txt)을 통과해야 합니다.
     
 IPv6에 옵트인하기 이전의 구성에 상관없이 이러한 요구 사항을 충족해야 합니다. 두 요구 사항이 모두 충족되면 메시지에 대해 서비스에서 제공되는 일반 전자 메일 메시지 필터링이 수행됩니다. 한 가지 또는 다른 조건이 충족 되지 않으면 다음 450 응답 중 하나로 메시지가 거부 됩니다.
   

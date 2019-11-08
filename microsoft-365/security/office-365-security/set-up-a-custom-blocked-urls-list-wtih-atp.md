@@ -15,17 +15,17 @@ ms.assetid: 896a7efb-1683-465e-a394-261349e5d866
 ms.collection:
 - M365-security-compliance
 description: Office 365 Advanced Threat Protection을 사용 하 여 조직에 대해 차단 된 Url 목록을 설정 하는 방법을 알아봅니다. 차단 된 Url은 ATP 안전한 링크 정책에 따라 전자 메일 메시지 및 Office 문서에 적용 됩니다.
-ms.openlocfilehash: 738509978bfafb44cd289113ef77c3d12fb79a78
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: ab79f86646ffd195b31d46980c3bd3bd3bb8f444
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088533"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38032063"
 ---
 # <a name="set-up-a-custom-blocked-urls-list-using-office-365-atp-safe-links"></a>Office 365 ATP 안전한 링크를 사용 하 여 차단 된 사용자 지정 Url 목록 설정
 
 > [!IMPORTANT]
-> 이 문서는 [Office 365 Advanced Threat Protection](office-365-atp.md)을 사용 하는 비즈니스 고객을 위한 것입니다. Outlook의 안전한 링크에 대 한 정보를 검색 하는 개인 사용자는 [Advanced Outlook.com security](https://support.office.com/article/advanced-outlook-com-security-for-office-365-subscribers-882d2243-eab9-4545-a58a-b36fee4a46e2)를 참조 하십시오.
+> 이 문서는 [Office 365 Advanced Threat Protection](office-365-atp.md)이 있는 비즈니스 고객을 대상으로 합니다. Outlook의 안전한 링크에 대 한 정보를 검색 하는 개인 사용자는 [Advanced Outlook.com security](https://support.office.com/article/advanced-outlook-com-security-for-office-365-subscribers-882d2243-eab9-4545-a58a-b36fee4a46e2)를 참조 하십시오.
 
 [Office 365 ATP (Advanced Threat Protection](office-365-atp.md) )를 사용 하는 경우 조직에는 차단 된 웹 사이트 주소 (url)의 사용자 지정 목록이 있을 수 있습니다. URL이 차단 되 면 차단 된 URL에 대 한 링크를 클릭 하는 사용자는 다음 이미지와 비슷한 [경고 페이지로](atp-safe-links-warning-pages.md) 이동 합니다. 
   
@@ -45,7 +45,7 @@ ATP 정책을 편집 하거나 정의 하려면 다음 표에 설명 된 역할 
 |---------|---------|
 |Office 365 전역 관리자 |Office 365을 구매 하기 위해 등록 하는 사람은 기본적으로 전역 관리자입니다. 자세한 내용은 [Office 365 관리자 역할 정보](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) 를 참조 하세요.         |
 |보안 관리자 |Azure Active Directory 관리 센터 ([https://aad.portal.azure.com](https://aad.portal.azure.com))|
-|Exchange Online 조직 관리 |Exchange 관리 센터 ([https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)) <br>또는 <br>  PowerShell cmdlet ( [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps)참조) |
+|Exchange Online 조직 관리 |Exchange 관리 센터 ([https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)) <br> 선택하거나  <br>  PowerShell cmdlet ( [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps)참조) |
 
 > [!TIP]
 > 역할 및 사용 권한에 대 한 자세한 내용은 [Office 365 보안 &amp; 및 준수 센터의 사용 권한을](permissions-in-the-security-and-compliance-center.md)참조 하세요.
@@ -66,7 +66,7 @@ ATP 정책을 편집 하거나 정의 하려면 다음 표에 설명 된 역할 
 
 목록에 Url을 추가 하는 동안 다음 사항을 염두에 두어야 합니다. 
 
-- URL의 끝에 슬래시 ( **/**)를 포함 하지 마십시오. 예를 들어 `http://www.contoso.com/`를 입력 하는 대신 `http://www.contoso.com`를 입력 합니다.
+- URL의 끝에 슬래시 ( **/**)를 포함 하지 마십시오. 예를 들어 `https://www.contoso.com/`를 입력 하는 대신 `https://www.contoso.com`를 입력 합니다.
     
 - 도메인 전용 URL (like `contoso.com` 또는 `tailspintoys.com`)을 지정할 수 있습니다. 이렇게 하면 도메인을 포함 하는 모든 URL의 클릭이 차단 됩니다.
 
@@ -76,10 +76,10 @@ ATP 정책을 편집 하거나 정의 하려면 다음 표에 설명 된 역할 
     
 |**예제 항목**|**수행 하는 작업**|
 |:-----|:-----|
-|`contoso.com`사용자나`*contoso.com*`  <br/> |는과 같은 `https://www.contoso.com` `http://sub.contoso.com`도메인, 하위 도메인과 경로를 차단 하며`http://contoso.com/abc`  <br/> |
-|`http://contoso.com/a`  <br/> |사이트 `http://contoso.com/a` 를 차단 하지만 추가 하위 경로는 제외 합니다.`http://contoso.com/a/b`  <br/> |
-|`http://contoso.com/a*`  <br/> |사이트 `http://contoso.com/a` 및 추가 하위 경로를 차단 합니다.`http://contoso.com/a/b`  <br/> |
-|`http://toys.contoso.com*`  <br/> |하위 도메인 (이 경우 "장난감")을 차단 하지만 클릭은 다른 도메인 Url (예 `http://contoso.com` , 또는 `http://home.contoso.com`)을 허용 합니다.  <br/> |
+|`contoso.com`사용자나`*contoso.com*`  <br/> |는과 같은 `https://www.contoso.com` `https://sub.contoso.com`도메인, 하위 도메인과 경로를 차단 하며`https://contoso.com/abc`  <br/> |
+|`https://contoso.com/a`  <br/> |사이트 `https://contoso.com/a` 를 차단 하지만 추가 하위 경로는 제외 합니다.`https://contoso.com/a/b`  <br/> |
+|`https://contoso.com/a*`  <br/> |사이트 `https://contoso.com/a` 및 추가 하위 경로를 차단 합니다.`https://contoso.com/a/b`  <br/> |
+|`https://toys.contoso.com*`  <br/> |하위 도메인 (이 경우 "장난감")을 차단 하지만 클릭은 다른 도메인 Url (예 `https://contoso.com` , 또는 `https://home.contoso.com`)을 허용 합니다.  <br/> |
    
 
 ## <a name="how-to-define-exceptions-for-certain-users-in-an-organization"></a>조직의 특정 사용자에 대 한 예외를 정의 하는 방법

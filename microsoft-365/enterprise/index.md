@@ -10,12 +10,12 @@ localization_priority: Normal
 audience: microsoft-business
 ms.prod: microsoft-365-enterprise
 title: Microsoft 365 Enterprise 설명서 및 리소스
-ms.openlocfilehash: c96656495e9433703b85fb1c5f3610a617100253
-ms.sourcegitcommit: 4dc7b5b1ccdb7e8f683104f1b9eec90025b3ad0e
+ms.openlocfilehash: 8740d999ff2ade06b5b2c4f168068e8827d0fb41
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "37391211"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38030883"
 ---
 <div id="main" class="v2">
     <div class="container">
@@ -39,10 +39,10 @@ ms.locfileid: "37391211"
                                                 </div>
                                             </div>
                                             <div class="cardText">
-                                                <h3>탐색기</h3>
+                                                <h3>살펴보기</h3>
                                                 <P><a href="microsoft-365-overview.md" target="_blank">개요</a></p>
                                                 <P><a href="https://docs.microsoft.com/Office365/Enterprise/microsoft-cloud-it-architecture-resources" target="_blank">아키텍처 모델</a></p>
-                                                <P><a href="http://Microsoft365.com/it" target="_blank">IT를 위한 Microsoft 365</a></p>
+                                                <P><a href="https://Microsoft365.com/it" target="_blank">IT를 위한 Microsoft 365</a></p>
                                             </div>
                                         </div>
                                     </div>
@@ -201,7 +201,7 @@ ms.locfileid: "37391211"
                                                         <h3>지원이 필요 하나요?</h3>
                                                         <P><a href="https://azure.microsoft.com/support/options/" target="_blank">Azure</a></p>
                                                         <P><a href="https://support.office.com/article/Contact-support-for-business-products-Admin-Help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b" target="_blank">Office 365</a></p>
-                                                        <P><a href="http://support.microsoft.com/products/windows" target="_blank">Windows 10</a></p>
+                                                        <P><a href="https://support.microsoft.com/products/windows" target="_blank">Windows 10</a></p>
                                                     </div>
                                                 </div>
                                             </div>

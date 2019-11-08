@@ -11,12 +11,12 @@ ms.author: TrudyHa
 ms.topic: article
 ms.localizationpriority: medium
 ms.date: 05/31/2019
-ms.openlocfilehash: 72ef33199f3cde42ec86b4d64d13828116510d8f
-ms.sourcegitcommit: a263fc5a598363ca809a3cb990d41393bf38d3b7
+ms.openlocfilehash: f14809e58c1580333ba4e412a2b442df79e61975
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/30/2019
-ms.locfileid: "34592358"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38029032"
 ---
 # <a name="manage-third-party-app-subscriptions-for-your-organization"></a>조직에 대 한 타사 앱 구독 관리
 
@@ -24,7 +24,7 @@ ms.locfileid: "34592358"
 
 ## <a name="how-to-get-software-as-a-service-apps"></a>서비스를 제공 하는 소프트웨어 앱을 가져오는 방법
 타사 앱을 구입 하는 방법에는 몇 가지가 있습니다.
-- **직접 구매** -고객은 [Azure Marketplace](https://azuremarketplace.microsoft.com/marketplace/)또는 [appsource](http://www.appsource.com/)에서 구독을 직접 구매할 수 있습니다. 
+- **직접 구매** -고객은 [Azure Marketplace](https://azuremarketplace.microsoft.com/marketplace/)또는 [appsource](https://www.appsource.com/)에서 구독을 직접 구매할 수 있습니다. 
 - **파트너 구매** -구독을 구매 하기 위해 파트너 센터를 통해 파트너와 협력 합니다. 
 - **Microsoft 제안서** -타사 앱이 포함 된 microsoft Sales의 제안에 응답 합니다. 
 
@@ -56,7 +56,7 @@ ms.locfileid: "34592358"
 1. [Microsoft 365 관리 센터로](https://go.microsoft.com/fwlink/p/?linkid=837890)이동 하 여 **미리 보기를 사용해 보세요**.
 2. **청구** > **제품 & 서비스** > **앱**을 선택 합니다.
 3. 관리 하려는 앱을 찾아 선택 합니다. 
-4. **설정 & 작업**아래에서 **Publisher 포털에서 관리**를 선택 합니다. 
+4. **작업 설정 &** 에서 **Publisher 포털에서 관리**를 선택 합니다. 
 
 앱을 정품 인증할 수 있는 앱 게시자의 사이트로 이동 합니다. 
 
@@ -78,7 +78,7 @@ ms.locfileid: "34592358"
 1. [Microsoft 365 관리 센터로](https://go.microsoft.com/fwlink/p/?linkid=837890)이동 하 여 **미리 보기를 사용해 보세요**.
 2. **청구** > **제품 & 서비스** > **앱**을 선택 합니다.
 3. 관리 하려는 앱을 찾아 선택 합니다. 
-4. **설정 & 작업**아래에서 **Publisher 포털에서 관리할**링크를 선택 합니다. 
+4. **작업 설정 &** 에서 **Publisher 포털에서 관리할**링크를 선택 합니다. 
  
 ## <a name="change-license-quantity"></a>라이선스 수량 변경
 관리자는 조직에서 소유한 라이선스 수를 변경할 수 있습니다. 이는 사용자의 중심 가격을 사용 하 여 구매한 앱에만 적용 됩니다.
@@ -116,4 +116,4 @@ ms.locfileid: "34592358"
 1. [Microsoft 365 관리 센터로](https://go.microsoft.com/fwlink/p/?linkid=837890)이동 하 여 **미리 보기를 사용해 보세요**.
 2. **청구** > **제품 & 서비스** > **앱**을 선택 합니다.
 3. 관리 하려는 앱을 찾아 선택 합니다. 
-4. **설정 & 작업**아래에서 **구독 취소**를 선택 합니다.
+4. **작업 설정 &** 에서 **구독 취소**를 선택 합니다.

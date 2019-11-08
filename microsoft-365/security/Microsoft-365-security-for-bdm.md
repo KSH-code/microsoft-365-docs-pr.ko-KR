@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: 현재 조직이 Microsoft 365 환경에 직면 하 게 되는 가장 일반적인 위협과 공격 시나리오로, 이러한 위험을 완화 하기 위한 권장 작업을 소개 합니다.
-ms.openlocfilehash: c847e11d141dd6b3b4ce7601631259ba73e1703f
-ms.sourcegitcommit: fa9d24aae563727fc8d67c4054c8d307a1a540ad
+ms.openlocfilehash: 7a8e593a1e4280327b82802bb08a57370e4db652
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37556823"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38030522"
 ---
 # <a name="microsoft-365-security-for-business-decision-makers-bdms"></a>BDMs (비즈니스 의사 결정권자 용 Microsoft 365 Security)
 
@@ -112,12 +112,12 @@ Microsoft 365 information protection 기능은 보유 한 정보, 저장 위치 
 |---------|---------|---------|
 |**제로 트러스트 네트워크에 대 한 목표에 맞게 조건부 액세스 및 관련 정책을 검토 하 고 최적화**합니다. 알려진 위협 으로부터 보호 하려면 [권장 되는 정책](../enterprise/microsoft-365-policies-configurations.md)집합을 구현 하는 것이 포함 됩니다. 이러한 정책의 구현을 검토 하 여 네트워크에 대 한 액세스 권한을 얻은 해커 로부터 앱 및 데이터를 보호 하 고 있는지 확인 합니다. Windows 10 용 권장 Intune 앱 보호 정책에는 WIP (Windows Information Protection)가 사용 됩니다. WIP는 전자 메일, 소셜 미디어, 공용 클라우드 등의 앱 및 서비스를 통해 조직 데이터를 실수로 누설 하지 않도록 보호 합니다. |         |![녹색 확인 표시](../images/green-check-mark.png)|
 |**외부 전자 메일 전달을 사용 하지 않도록 설정**합니다. 사용자의 사서함에 대 한 액세스 권한을 획득 하는 해커는 전자 메일을 자동으로 전달 하도록 사서함을 설정 하 여 메일을 도용할 수 있습니다. 사용자의 인식이 없어도이 문제가 발생할 수 있습니다. 메일 흐름 규칙을 구성 하 여 이러한 상황이 발생 하지 않도록 할 수 있습니다.|![녹색 확인 표시](../images/green-check-mark.png) |![녹색 확인 표시](../images/green-check-mark.png)|
-|**익명 외부 일정 공유를 사용 하지 않도록 설정**합니다. 기본적으로 외부 익명 일정 공유를 사용할 수 있습니다. [일정 공유를 사용 하지 않도록 설정](https://docs.microsoft.com/en-us/exchange/sharing/sharing-policies/modify-a-sharing-policy) 하 여 중요 한 정보의 잠재적 누출을 줄입니다.|![녹색 확인 표시](../images/green-check-mark.png) |![녹색 확인 표시](../images/green-check-mark.png)|
+|**익명 외부 일정 공유를 사용 하지 않도록 설정**합니다. 기본적으로 외부 익명 일정 공유를 사용할 수 있습니다. [일정 공유를 사용 하지 않도록 설정](https://docs.microsoft.com/exchange/sharing/sharing-policies/modify-a-sharing-policy) 하 여 중요 한 정보의 잠재적 누출을 줄입니다.|![녹색 확인 표시](../images/green-check-mark.png) |![녹색 확인 표시](../images/green-check-mark.png)|
 |**중요 한 데이터에 대 한 데이터 손실 방지 정책을 구성**합니다. Office 365 보안 및 준수 센터에서 데이터 손실 방지 정책을 만들어 신용 카드 번호, 주민 등록 번호 및 은행 계좌 번호와 같은 중요 한 데이터를 검색 하 고 보호 합니다. Office 365에는 데이터 손실 방지 정책에서 사용할 수 있는 미리 정의 된 중요 한 정보 유형이 많이 포함 되어 있습니다. 또한 환경에 사용자 지정 된 중요 한 데이터에 대 한 중요 한 정보 유형을 직접 만들 수도 있습니다. |![녹색 확인 표시](../images/green-check-mark.png)|![녹색 확인 표시](../images/green-check-mark.png)|
 |**데이터 분류 및 정보 보호 정책을 구현**합니다. Office 365에서 민감도 레이블을 구현 하 고이를 사용 하 여 중요 한 데이터에 보호 기능을 분류 하 고 적용 합니다. 데이터 손실 방지 정책 에서도 이러한 레이블을 사용할 수 있습니다. Azure Information Protection 레이블을 사용 하는 경우에는 다른 관리 센터에서 새 레이블을 만드는 것을 피하는 것이 좋습니다.|         |![녹색 확인 표시](../images/green-check-mark.png)|
 |**Cloud App Security를 사용 하 여 타사 앱 및 서비스의 데이터를 보호**합니다. Cloud App Security 정책을 구성 하 여 Salesforce, Box 또는 Dropbox와 같은 타사 클라우드 앱에서 중요 한 정보를 보호 합니다. Cloud App Security 정책의 Office 365에서 만든 민감도 레이블과 중요 한 정보 유형을 사용 하 고이를 SaaS 앱 전체에 적용할 수 있습니다. <br><br>Microsoft Cloud App Security를 사용 하면 다양 한 범위의 자동화 된 프로세스를 적용할 수 있습니다. 지속적인 준수 검사, 법적 eDiscovery 작업, 중요 한 콘텐츠에 대해 공유 되는 DLP를 제공 하는 정책을 설정할 수 있습니다. Cloud App Security에서는 20 개 이상의 메타 데이터 필터 (예: 액세스 수준, 파일 형식)를 기반으로 모든 파일 형식을 모니터링할 수 있습니다. |         |![녹색 확인 표시](../images/green-check-mark.png)|
-|** [MICROSOFT Defender ATP](https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/information-protection-in-windows-overview) 를 사용 하 여 사용자가 Windows 장치에 중요 한 정보를 저장 하는지 확인**합니다. |         |![녹색 확인 표시](../images/green-check-mark.png)|
-|** [Aip 스캐너](https://docs.microsoft.com/en-us/azure/information-protection/deploy-aip-scanner) 를 사용 하 여 서버 및 파일 공유에서 정보를 식별 하 고 분류**합니다. AIP 보고 도구를 사용 하 여 결과를 확인 하 고 적절 한 작업을 수행 합니다.|         |![녹색 확인 표시](../images/green-check-mark.png)|
+|** [MICROSOFT Defender ATP](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/information-protection-in-windows-overview) 를 사용 하 여 사용자가 Windows 장치에 중요 한 정보를 저장 하는지 확인**합니다. |         |![녹색 확인 표시](../images/green-check-mark.png)|
+|** [Aip 스캐너](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner) 를 사용 하 여 서버 및 파일 공유에서 정보를 식별 하 고 분류**합니다. AIP 보고 도구를 사용 하 여 결과를 확인 하 고 적절 한 작업을 수행 합니다.|         |![녹색 확인 표시](../images/green-check-mark.png)|
 
 다음 다이어그램에서는 이러한 기능을 보여 줍니다.
 ![위반 으로부터 보호 하기 위한 권장 기능](../images/m365-security-bdm-illustrations-assume-breach.png)
@@ -132,10 +132,10 @@ Microsoft 365 information protection 기능은 보유 한 정보, 저장 위치 
 |**Office 365 감사 로그가** 설정 되어 있는지 확인 합니다.|![녹색 확인 표시](../images/green-check-mark.png)|![녹색 확인 표시](../images/green-check-mark.png)|
 |**보안 점수 매주 검토** -보안 점수는 Office 365 테 넌 트의 보안 상태에 액세스 하 고 보안 점수 권장 사항을 기반으로 작업을 수행 하는 중앙 위치입니다. 매주이 검사를 수행 하는 것이 좋습니다.|![녹색 확인 표시](../images/green-check-mark.png)|![녹색 확인 표시](../images/green-check-mark.png)|
 |**Office 365 ATP** 도구 사용:<br>• 위협 조사 및 응답 기능<br> • 자동화 된 조사 및 응답 |         |![녹색 확인 표시](../images/green-check-mark.png)|
-|**Microsoft DEFENDER ATP**사용:<br> • [끝점 검색 및 응답](https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/overview-endpoint-detection-response) <br> • 자동화 된 조사 및 개선 보안 점수 <br>• [고급 구하기](https://docs.microsoft.com/en-us/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting-overview) <br>|         |![녹색 확인 표시](../images/green-check-mark.png)|
+|**Microsoft DEFENDER ATP**사용:<br> • [끝점 검색 및 응답](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/overview-endpoint-detection-response) <br> • 자동화 된 조사 및 개선 보안 점수 <br>• [고급 구하기](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting-overview) <br>|         |![녹색 확인 표시](../images/green-check-mark.png)|
 |**Microsoft Cloud App Security** 를 사용 하 여 클라우드 앱 간의 비정상적인 동작을 검색 하 여 랜 섬 웨어, 손상 된 사용자 또는 rogue 응용 프로그램을 식별 하 고, 높은 위험 사용을 분석 하 고, 자동으로 조직에 대 한 위험을 제한 합니다.|         |![녹색 확인 표시](../images/green-check-mark.png)|
 |**Microsoft Azure 센티널** 또는 **현재 siem** 도구를 사용 하 여 환경 전반의 위협을 모니터링 합니다. Azure 센티널은 미리 보기 기간 동안 자유롭게 사용할 수 있습니다. |         |![녹색 확인 표시](../images/green-check-mark.png)|
-|** [Azure ATP](https://docs.microsoft.com/en-us/azure-advanced-threat-protection/what-is-atp) 를 배포** 하 여 온-프레미스 Active Directory 환경을 대상으로 하는 위협 으로부터 모니터링 하 고 보호 합니다.   |         |![녹색 확인 표시](../images/green-check-mark.png) |
+|** [Azure ATP](https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp) 를 배포** 하 여 온-프레미스 Active Directory 환경을 대상으로 하는 위협 으로부터 모니터링 하 고 보호 합니다.   |         |![녹색 확인 표시](../images/green-check-mark.png) |
 |**Azure 보안 센터** 를 사용 하 여 하이브리드 및 클라우드 워크 로드 간의 위협을 모니터링 합니다. Azure 보안 센터에는 리소스 시간이 나 거래에 따라 지불 되는 기능에 대 한 무료 계층 및 표준 계층이 포함 되어 있습니다.|         |         |
 
 다음 다이어그램에서는 이러한 기능을 보여 줍니다.

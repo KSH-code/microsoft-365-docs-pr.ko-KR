@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: 청구 프로필에서 송장을 지 원하는 방법을 알아봅니다.
 keywords: 청구 프로필, 송장, 요금, 관리 비용
-ms.openlocfilehash: bd963ff993a064615f0f7ad06c8f2cc5c3401ad2
-ms.sourcegitcommit: 1e3916bbe94d4fbb858566e7db5018e1e46bcd0d
+ms.openlocfilehash: 9db8b949cb07c8386505234d9d88aa2627a752b5
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "37646449"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38029052"
 ---
 # <a name="manage-billing-profiles"></a>청구 프로필 관리
 Microsoft의 제품 및 서비스를 구입한 상용 고객의 경우 대금 청구 프로필을 사용 하 여 송장에 포함 되는 항목을 사용자 지정 하 고 청구서 비용을 지불 하는 방법을 확인할 수 있습니다.
@@ -70,4 +70,4 @@ Microsoft의 제품 및 서비스를 구입한 상용 고객의 경우 대금 �
 
 Azure 청구에 대 한 질문이 있거나 도움이 필요한 경우 <a href="https://portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest" target="_blank">azure 지원 서비스를 통해 지원 요청을 만듭니다</a>.
 
-Microsoft 365 관리 센터에서 청구 프로필에 대 한 질문이 있거나 도움이 필요한 경우 [비즈니스 제품 지원에 문의 하세요](https://docs.microsoft.com/en-us/office365/admin/contact-support-for-business-products).
+Microsoft 365 관리 센터에서 청구 프로필에 대 한 질문이 있거나 도움이 필요한 경우 [비즈니스 제품 지원에 문의 하세요](https://docs.microsoft.com/office365/admin/contact-support-for-business-products).

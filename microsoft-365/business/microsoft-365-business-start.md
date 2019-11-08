@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Microsoft 365 Business를 설정하는 방법 알아보기
-ms.openlocfilehash: ed302a79d125ffc9c6203d902f437749a5b0f8d4
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+ms.openlocfilehash: 4c744d6a900dba3c11ee51e75602a430268e15bb
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37575901"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38029107"
 ---
 # <a name="get-started-with-microsoft-365-business"></a>Microsoft 365 Business 시작
 
@@ -40,7 +40,7 @@ Microsoft 365 Business는 최대 300개의 라이선스용으로 만들어졌으
 
 - 파트너가 있는 경우 파트너가 Microsoft 365 Business를 받습니다([Microsoft 파트너 센터에서 Microsoft 365 Business 받기)](get-microsoft-365-business.md).
     
-- 파트너가 없는데 Microsoft 365 Business를 받으려면 [여기에서 구매](https://www.microsoft.com/en-us/microsoft-365/business)할 수 있습니다.
+- 파트너가 없는데 Microsoft 365 Business를 받으려면 [여기에서 구매](https://www.microsoft.com/microsoft-365/business)할 수 있습니다.
     
 ## <a name="set-up-microsoft-365-business"></a>Microsoft 365 Business 설정
 
@@ -90,7 +90,7 @@ Windows 10 PC를 설정한 후 장치에 [Office를 자동으로 설치](auto-in
     
 - Microsoft 365 Business 관리자는 고객 지원 팀, **[비즈니스 제품에 대해 고객 지원 센터 문의 - 관리자 도움말](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)** 에 액세스할 수 있습니다.
     
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 [Microsoft 365 Business 문서 및 리소스](https://go.microsoft.com/fwlink/p/?linkid=853701)
   
 Microsoft[365 business로](migrate-to-microsoft-365-business.md) 의 Microsoft [365 business 마이그레이션 관리](manage.md)

@@ -1,5 +1,5 @@
 ---
-title: Exchange Online의 수신 허용-보낸 사람 및 수신 거부 목록
+title: Exchange Online에서의 안전한 발신자 및 차단된 발신자 목록
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
@@ -13,24 +13,24 @@ ms.assetid: 111ab6b0-2dd2-4a87-a928-4931df6b3c4d
 ms.collection:
 - M365-security-compliance
 description: Exchange Online 또는 EOP (Exchange Online Protection) 관리자는 서비스를 통과 하는 전자 메일 메시지가 스팸으로 표시 되지 않도록 할 수 있습니다. 이 작업을 수행 하는 한 가지 방법은 조직의 사용자에 대해 수신 허용-보낸 사람 및 수신 거부 목록을 만드는 것입니다.
-ms.openlocfilehash: 5b1082e0a8f492da1ebc559b0958a6ef76f9a70c
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 03d0bb35f174b1dcc76fa93f5a5411e8a437ea25
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37089171"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38031783"
 ---
-# <a name="safe-sender-and-blocked-sender-lists-in-exchange-online"></a>Exchange Online의 수신 허용-보낸 사람 및 수신 거부 목록
+# <a name="safe-sender-and-blocked-sender-lists-in-exchange-online"></a>Exchange Online에서의 안전한 발신자 및 차단된 발신자 목록
 
 Exchange Online 또는 EOP (Exchange Online Protection) 관리자는 서비스를 통과 하는 전자 메일 메시지가 스팸으로 표시 되지 않도록 할 수 있습니다. 이 작업을 수행 하는 한 가지 방법은 조직의 사용자에 대해 수신 허용-보낸 사람 및 수신 거부 목록을 만드는 것입니다. 
   
- *에서이 목록을 사용 하 여 작업 하는 방법에 대 한 업데이트 된 버전의 팁 및 절차를 참조 하세요* . [수신 허용 목록 또는 기타 방법으로 스팸으로 표시 된 허위 긍정 전자 메일을 방지](https://go.microsoft.com/fwlink/p/?LinkID=534224)합니다. 
+ [수신 허용 목록 또는 기타 기법을 사용 하 여 스팸으로 표시 된 가양성 전자 메일을 방지](https://go.microsoft.com/fwlink/p/?LinkID=534224) *하려면이 목록을 관리자로 사용 하는 방법에 대 한 팁과 절차의 업데이트 된 버전을 참조 하십시오* . 
   
 관리자가 아닌 경우 Outlook에서 수신 허용-보낸 사람 목록을 사용 하 여 자신의 정크 메일을 관리 하려는 경우에는 [정크 메일 필터](https://go.microsoft.com/fwlink/?LinkId=817222)개요의 단계를 확인 합니다. 
   
 ## <a name="what-is-the-safe-and-blocked-sender-limits-in-exchange-online"></a>Exchange Online에서 수신 허용 및 차단 된 보낸 사람 제한은 무엇입니까?
 
-Exchange Online의 수신 및 차단 된 보낸 사람 제한은 Active Directory 및 Outlook 제한과 다릅니다. 출력은 다음과 같습니다.
+Exchange Online의 수신 및 차단 된 보낸 사람 제한은 Active Directory 및 Outlook 제한과 다릅니다. 해당 지식 영역은 다음과 같습니다.
   
 - 수신 허용-보낸 사람 제한: 1024
     
@@ -44,5 +44,5 @@ Exchange Online의 수신 및 차단 된 보낸 사람 제한은 Active Director
   
 ## <a name="see-also"></a>참고 항목
 
-[Exchange 2016의 보낸 사람 필터링](http://technet.microsoft.com/library/b833f864-ff10-46a0-a653-28fb9ba30896.aspx)
+[Exchange 2016의 보낸 사람 필터링](https://technet.microsoft.com/library/b833f864-ff10-46a0-a653-28fb9ba30896.aspx)
 

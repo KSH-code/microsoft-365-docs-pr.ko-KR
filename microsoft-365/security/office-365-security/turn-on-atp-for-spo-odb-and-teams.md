@@ -14,18 +14,19 @@ search.appverid:
 ms.assetid: 07e76024-0c80-40dc-8c48-1dd0d0f863cb
 ms.collection:
 - M365-security-compliance
+- SPO_Content
 description: 검색 된 파일에 대 한 알림을 설정 하는 방법을 포함 하 여 SharePoint, OneDrive 및 팀에 대 한 ATP를 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: 11e1fee6268c029e02f0432654c54f8adeb44e10
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 1f14a6a6017218b2e0689f7224cf95cb640856cb
+ms.sourcegitcommit: 6e01543b3fff50a28719478b19b644991ba7505a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37089196"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38035678"
 ---
 # <a name="turn-on-office-365-atp-for-sharepoint-onedrive-and-microsoft-teams"></a>SharePoint, OneDrive 및 Microsoft Teams에 대한 Office 365 ATP 실행
 
 > [!IMPORTANT]
-> 이 문서는 [Office 365 Advanced Threat Protection](office-365-atp.md)을 사용 하는 비즈니스 고객을 위한 것입니다. Outlook의 안전한 링크에 대 한 정보를 검색 하는 개인 사용자는 [Advanced Outlook.com security](https://support.office.com/article/advanced-outlook-com-security-for-office-365-subscribers-882d2243-eab9-4545-a58a-b36fee4a46e2)를 참조 하십시오.
+> 이 문서는 [Office 365 Advanced Threat Protection](office-365-atp.md)이 있는 비즈니스 고객을 대상으로 합니다. Outlook의 안전한 링크에 대 한 정보를 검색 하는 개인 사용자는 [Advanced Outlook.com security](https://support.office.com/article/advanced-outlook-com-security-for-office-365-subscribers-882d2243-eab9-4545-a58a-b36fee4a46e2)를 참조 하십시오.
 
 [Office 365 ATP For SharePoint, OneDrive 및 Microsoft 팀은](atp-for-spo-odb-and-teams.md) 악의적인 파일을 실수로 공유 하지 않도록 조직을 보호 합니다. 악성 파일이 검색 되 면 해당 파일이 차단 되므로 조직의 보안 팀이 추가 작업을 수행할 때까지 아무도 해당 파일을 열거나 복사 하거나 이동 하거나 공유할 수 없습니다. 이 문서를 읽으면 SharePoint, OneDrive 및 팀에 대 한 ATP를 켜고, 검색 된 파일에 대 한 알림을 받을 알림을 설정 하 고, 다음 단계를 수행 합니다. 
   
@@ -35,7 +36,7 @@ ATP 정책을 정의 하거나 편집 하려면 적절 한 역할이 할당 되�
 |---------|---------|
 |Office 365 전역 관리자 |Office 365을 구매 하기 위해 등록 하는 사람은 기본적으로 전역 관리자입니다. 자세한 내용은 [Office 365 관리자 역할 정보](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) 를 참조 하세요.         |
 |보안 관리자 |Azure Active Directory 관리 센터 ([https://aad.portal.azure.com](https://aad.portal.azure.com))|
-|Exchange Online 조직 관리 |Exchange 관리 센터 ([https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)) <br>또는 <br>  PowerShell cmdlet ( [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps)참조) |
+|Exchange Online 조직 관리 |Exchange 관리 센터 ([https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)) <br> 선택하거나  <br>  PowerShell cmdlet ( [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps)참조) |
   
 ## <a name="turn-on-atp-for-sharepoint-onedrive-and-microsoft-teams"></a>SharePoint, OneDrive 및 Microsoft Teams에 대한 ATP 켜기
 
@@ -77,7 +78,7 @@ SharePoint Online의 파일 (비즈니스용 OneDrive 또는 Microsoft 팀)이 �
     
 5. **알림 보내기** 위치 섹션에서 다음을 수행 합니다. 
     
-    위한. **작업** 목록에서 **검색 된 맬웨어를 파일에서**선택 합니다.
+    a. **작업** 목록에서 **검색 된 맬웨어를 파일에서**선택 합니다.
     
     b. **Users** 필드는 비워 둡니다. 
     

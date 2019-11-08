@@ -22,14 +22,14 @@ search.appverid:
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
 description: 캠페인에 대 한 Microsoft 365
-ms.openlocfilehash: 02fb7f62466f5830f83128126a89f7e6a830dc16
-ms.sourcegitcommit: 204deabd34e5ee38b59d4742d75e74e3873cf892
+ms.openlocfilehash: d80e25aedaf3a0160fc6ed926222dd3c12cf7466
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/21/2019
-ms.locfileid: "35183369"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38029082"
 ---
-<a name="microsoft-365-for-campaigns"></a>캠페인에 대 한 Microsoft 365
+<a name="microsoft-365-for-campaigns"></a>캠페인을 위한 Microsoft 365
 ===========================
 
 현재 세계에서 데이터와 통신을 안전 하 게 유지 하는 것은 특히 정치적 캠페인, 의료 및 법적 관행 및 기타 수많은 기업에 대 한 우선 순위입니다. 캠페인에 대 한 Microsoft 365에는 데이터를 보호 하는 데 도움이 되는 권장 사항 집합이 포함 되어 있습니다. 이 라이브러리에는 사용자가 캠페인이 아닌 경우에도이 권장 환경을 설정 및 사용 하는 데 필요한 도움말이 포함 되어 있습니다.
@@ -65,7 +65,7 @@ ms.locfileid: "35183369"
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="https://docs.microsoft.com/en-us/office/media/icons/walkthrough-map-blue.svg" alt="Roadmap" />
+                            <img src="https://docs.microsoft.com/office/media/icons/walkthrough-map-blue.svg" alt="Roadmap" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -134,7 +134,7 @@ Microsoft 365 보안 환경을 설정한 후에는 다음 솔루션을 사용 �
                     <div class="cardText">
                         <h3>중요 한 전자 메일 암호화 또는 레이블 지정</h3>
                         <p>암호화 및 민감도 레이블을 사용 하 여 기밀 정보나 중요 한 정보가 포함 된 전자 메일을 보호 합니다.</p>
-                        <p><a href="send-encrypted-email.md">암호화 된 전자 메일 보내기</a></p>
+                        <p><a href="send-encrypted-email.md">암호화된 전자 메일 보내기</a></p>
                     </div>
                 </div>
             </div>
@@ -168,7 +168,7 @@ Microsoft 365 보안 환경을 설정한 후에는 다음 솔루션을 사용 �
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>파일 및 비디오 공유</h3>
+                        <h3>파일 및 동영상 공유</h3>
                         <p>모든 해당 사용자가 사용할 수 있도록 파일 및 비디오를 클라우드에 저장 합니다.</p>
                         <p><a href="share-files-and-videos.md">공유 시작</a></p>
                     </div>
