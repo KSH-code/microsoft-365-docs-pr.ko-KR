@@ -14,12 +14,12 @@ ms.assetid: 316544cb-db1d-4c25-a5b9-c73bbcf53047
 ms.collection:
 - M365-security-compliance
 description: 기본 스팸 필터 설정에는 스팸으로 식별되는 메시지에 관해 수행할 작업 선택이 포함됩니다.
-ms.openlocfilehash: fb46e735c4fae73565b6fe008d47a3e7ffd3f4cb
-ms.sourcegitcommit: 9db133b110956bff2942bc903a4484247fc7020a
+ms.openlocfilehash: dd9385139e869fde094249d2dce014aa19056418
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37510565"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38032423"
 ---
 # <a name="configure-your-spam-filter-policies"></a>스팸 필터 정책 구성
 스팸 필터 설정에는 스팸으로 식별되는 메시지에 관해 수행할 작업 선택이 포함됩니다. 스팸 필터 정책 설정은 인바운드 메시지에만 적용되며 다음 두 가지 유형이 있습니다.
@@ -32,7 +32,7 @@ ms.locfileid: "37510565"
 
 예상 완료 시간: 30분
   
-이러한 절차를 수행하려면 먼저 사용 권한을 할당받아야 합니다. 필요한 권한을 확인하려면 [Exchange Online의 기능 사용 권한](http://technet.microsoft.com/library/15073ce1-0917-403b-8839-02a2ebc96e16.aspx) 항목에서 스팸 방지 항목을 참조하세요.
+이러한 절차를 수행하려면 먼저 사용 권한을 할당받아야 합니다. 필요한 권한을 확인하려면 [Exchange Online의 기능 사용 권한](https://technet.microsoft.com/library/15073ce1-0917-403b-8839-02a2ebc96e16.aspx) 항목에서 스팸 방지 항목을 참조하세요.
 
 스팸 필터 정책 설정은 모두 SCC(보안 및 준수 센터)에 있습니다. 자세한 내용은 [Office 365 보안 및 준수 센터로 이동](../../compliance/go-to-the-securitycompliance-center.md)을 참조하세요. 스팸 방지 설정 페이지는 SCC \> **위협 관리** \> **정책** \> **스팸 방지** 섹션 내에 있습니다.
 
@@ -104,15 +104,15 @@ ms.locfileid: "37510565"
 
 PowerShell에서 스팸 필터 정책을 구성하고 적용할 수도 있습니다. Windows PowerShell을 사용하여 Exchange Online에 연결하는 방법에 대한 자세한 내용은 [Connect to Exchange Online Using Remote PowerShell](https://go.microsoft.com/fwlink/p/?linkid=396554)을 참조하세요. Windows PowerShell을 사용하여 Exchange Online Protection에 연결하는 방법에 대한 자세한 내용은 [Exchange Online Protection PowerShell에 연결](https://go.microsoft.com/fwlink/p/?linkid=627290)을 참조하세요.
   
-- [Get-HostedContentFilterPolicy](http://technet.microsoft.com/library/d510471a-dda5-4df7-b3f8-2ee7a1948436.aspx) 스팸 필터 설정을 확인합니다. 
+- [Get-HostedContentFilterPolicy](https://technet.microsoft.com/library/d510471a-dda5-4df7-b3f8-2ee7a1948436.aspx) 스팸 필터 설정을 확인합니다. 
     
-- [Set-HostedContentFilterPolicy](http://technet.microsoft.com/library/f597aa65-baa7-49d0-8832-2a300073f211.aspx) 스팸 필터 설정을 편집합니다. 
+- [Set-HostedContentFilterPolicy](https://technet.microsoft.com/library/f597aa65-baa7-49d0-8832-2a300073f211.aspx) 스팸 필터 설정을 편집합니다. 
     
-- [New-HostedContentFilterPolicy](http://technet.microsoft.com/library/4d15128d-9e16-42a1-8ac5-36f07d4bbbf0.aspx) 사용자 지정 스팸 필터 정책을 새로 만듭니다. 
+- [New-HostedContentFilterPolicy](https://technet.microsoft.com/library/4d15128d-9e16-42a1-8ac5-36f07d4bbbf0.aspx) 사용자 지정 스팸 필터 정책을 새로 만듭니다. 
     
-- [Remove-HostedContentFilterPolicy](http://technet.microsoft.com/library/9fe1fe03-8f83-41e3-9bf5-084a392784d6.aspx) 사용자 지정 스팸 필터 정책을 삭제합니다. 
+- [Remove-HostedContentFilterPolicy](https://technet.microsoft.com/library/9fe1fe03-8f83-41e3-9bf5-084a392784d6.aspx) 사용자 지정 스팸 필터 정책을 삭제합니다. 
     
-사용자, 그룹 및/또는 도메인에 사용자 지정 스팸 필터 정책을 적용하려면 [New-HostedContentFilterRule](http://technet.microsoft.com/library/2df13ba9-1eb0-4da3-bd72-a79d5fa15e26.aspx) cmdlet(사용자 지정 정책에 적용할 수 있는 새 필터 규칙을 만들려는 경우) 또는 [Set-HostedContentFilterRule](http://technet.microsoft.com/library/ba259260-ffd3-43f3-8ef4-9d8659679d02.aspx) cmdlet(사용자 지정 정책에 적용할 수 있는 기존 필터 규칙을 편집하려는 경우)을 사용하면 됩니다. 정책에 적용되는 규칙을 사용하거나 사용하지 않도록 설정하려면 [Enable-HostedContentFilterRule](http://technet.microsoft.com/library/354ece28-dcde-4b5f-88ed-475115e7ea78.aspx) cmdlet 또는 [Disable-HostedContentFilterRule](http://technet.microsoft.com/library/c1f8dafc-ef5d-47e3-b0fb-71a88e145fc5.aspx) cmdlet을 사용합니다. 
+사용자, 그룹 및/또는 도메인에 사용자 지정 스팸 필터 정책을 적용하려면 [New-HostedContentFilterRule](https://technet.microsoft.com/library/2df13ba9-1eb0-4da3-bd72-a79d5fa15e26.aspx) cmdlet(사용자 지정 정책에 적용할 수 있는 새 필터 규칙을 만들려는 경우) 또는 [Set-HostedContentFilterRule](https://technet.microsoft.com/library/ba259260-ffd3-43f3-8ef4-9d8659679d02.aspx) cmdlet(사용자 지정 정책에 적용할 수 있는 기존 필터 규칙을 편집하려는 경우)을 사용하면 됩니다. 정책에 적용되는 규칙을 사용하거나 사용하지 않도록 설정하려면 [Enable-HostedContentFilterRule](https://technet.microsoft.com/library/354ece28-dcde-4b5f-88ed-475115e7ea78.aspx) cmdlet 또는 [Disable-HostedContentFilterRule](https://technet.microsoft.com/library/c1f8dafc-ef5d-47e3-b0fb-71a88e145fc5.aspx) cmdlet을 사용합니다. 
   
 ## <a name="how-do-you-know-this-worked"></a>작동 여부는 어떻게 확인하나요?
 

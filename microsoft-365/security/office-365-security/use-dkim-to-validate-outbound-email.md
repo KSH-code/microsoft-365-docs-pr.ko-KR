@@ -14,12 +14,12 @@ ms.assetid: 56fee1c7-dc37-470e-9b09-33fff6d94617
 ms.collection:
 - M365-security-compliance
 description: '요약: 이 문서에서는 Office 365에서 도메인키 식별 메일(DKIM)을 사용하여 대상 전자 메일 시스템이 사용자 지정 도메인에서 보낸 메시지를 신뢰하도록 하는 방법을 설명합니다.'
-ms.openlocfilehash: 07cb90684bbbba4851697020ceac4756381f8b55
-ms.sourcegitcommit: 333ecfb8bfeb34f9f08d82d295b40d37de6ba8b9
+ms.openlocfilehash: 0a65c5c02d9361efd65a7b3c58eb8a0e516033c3
+ms.sourcegitcommit: 550ea6f093ec35182e7c65a2811e9bfb07ec7d01
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "37772242"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "38038987"
 ---
 # <a name="use-dkim-to-validate-outbound-email-sent-from-your-custom-domain-in-office-365"></a>DKIM을 사용하여 Office 365의 사용자 지정 도메인에서 전송한 아웃바운드 전자 메일의 유효성을 검사합니다.
 
@@ -81,13 +81,13 @@ SPF는 메시지 봉투에 정보를 추가하지만 DKIM은 실제로 메시지
 1024 및 2048 비트가 모두 DKIM 키에 대한 지원 을 받게되므로 다음의 지침은 1024 비트 키를 2048로 업그레이드하는 방법을 설명할 것입니다. 다음은 두 가지 사용 사례에 대한 단계입니다. 구성에 가장 적합한 한 사례를 선택하세요.
 
 1. **이미 DKIM을 구성한 경우** 다음과 같이 비트를 회전시킵니다:
-    1. [PowerShell을 통해 Office 365 작업 부하에 연결합니다](https://docs.microsoft.com/ko-KR/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window). (Cmdlet은 Exchange Online에서 제공됩니다.)
+    1. [PowerShell을 통해 Office 365 작업 부하에 연결합니다](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window). (Cmdlet은 Exchange Online에서 제공됩니다.)
     1. 그리고 다음의 cmdlet 명령을 실행합니다:
 
 &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Rotate-DkimSigningConfig -KeySize 2048 -Identity {Guid of the existing Signing Config}`
 
 1. 또는 **DKIM의 새로운 구현의 경우**:
-    1. [PowerShell을 통해 Office 365 작업 부하에 연결합니다](https://docs.microsoft.com/ko-KR/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window). (이는 Exchange Online cmdlet입니다.)
+    1. [PowerShell을 통해 Office 365 작업 부하에 연결합니다](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window). (이는 Exchange Online cmdlet입니다.)
     1. 다음의 cmdlet을 실행합니다:
 
 &nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `New-DkimSigningConfig -DomainName {Domain for which config is to be created} -KeySize 2048 -Enabled $True`
@@ -115,7 +115,7 @@ DKIM을 구성하려면 다음 단계를 수행합니다.
 ### <a name="publish-two-cname-records-for-your-custom-domain-in-dns"></a>DNS에서 사용자 지정 도메인에 대해 두 개의 CNAME 레코드 게시
 <a name="Publish2CNAME"> </a>
 
-DNS에 DKIM 서명을 추가하려는 각 도메인에 대해 두 개의 CNAME 레코드를 게시해야 합니다. 
+DNS에 DKIM 서명을 추가하려는 각 도메인에 대해 두 개의 CNAME 레코드를 게시해야 합니다.
 
 다음의 명령을 실행합니다:
 
@@ -129,6 +129,7 @@ Get-DkimSigningConfig 출력에서 참조되는 CNAME 만들기
 ```powershell
     Set-DkimSigningConfig -Identity <domain> -Enabled $true
 ```
+
 DNS의 CNAME 레코드는 Office 365용 Microsoft DNS 서버의 DNS에 생성되어 이미 존재하는 DKIM TXT 레코드를 가리킵니다.
   
 Office 365는 사용자가 설정한 두 개의 레코드를 사용하여 자동 키 순환을 수행합니다. Office 365의 초기 도메인 외에 사용자 지정 도메인을 프로비저닝한 경우에는 추가 도메인마다 두 개의 CNAME 레코드를 게시해야 합니다. 따라서 두 개의 도메인이 있는 경우 두 개의 CNAME 레코드를 모두 게시해야 합니다.
@@ -210,8 +211,8 @@ CNAME 레코드를 DNS에 게시하면 Office 365를 통해 DKIM 서명을 사�
    여기서 _도메인_은 DKIM 서명을 활성화하려는 사용자 지정 도메인의 이름입니다. 
 
    예를 들어 contoso.com 도메인의 경우
-   
-   ```powershell
+
+    ```powershell
     Set-DkimSigningConfig -Identity contoso.com -Enabled $true
     ```
 
@@ -226,15 +227,15 @@ CNAME 레코드를 DNS에 게시하면 Office 365를 통해 DKIM 서명을 사�
 - 메시지를 열고 머리글을 확인합니다. 메시지 머리글 보기에 대한 지침은 메시징 클라이언트에 따라 다릅니다. Outlook에서 메시지 머리글을 보는 방법은 [전자 메일 메시지 머리글보기](https://support.office.com/article/CD039382-DC6E-4264-AC74-C048563D212C)를 참조하세요.
 
   DKIM 서명 메시지에는 CNAME 항목을 게시할 때 정의한 호스트 이름과 도메인이 포함됩니다. 메시지가 다음 예제와 같이 표시됩니다. 
-    
-    ```text
+
+  ```text
     From: Example User <example@contoso.com>
     DKIM-Signature: v=1; a=rsa-sha256; q=dns/txt; c=relaxed/relaxed;
         s=selector1; d=contoso.com; t=1429912795;
         h=From:To:Message-ID:Subject:MIME-Version:Content-Type;
         bh=<body hash>;
         b=<signed field>;
-    ```
+  ```
 
 - Authentication-Results 머리글을 찾습니다. 각 수신 서비스는 수신 메일을 스탬프 처리하기 위해 약간씩 다른 형식을 사용하지만 결과에는 **DKIM=pass** 또는 **DKIM=OK**가 포함되어야 합니다.
 

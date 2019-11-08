@@ -14,16 +14,17 @@ ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 - M365-security-compliance
+- SPO_Content
 ms.custom:
 - Ent_Architecture
 ms.assetid: 1d51bd87-17bf-457c-b698-61821de3afa0
 description: '요약: SharePoint Online 및 Office 365에서 파일을 보호하기 위한 구성 권장 사항입니다.'
-ms.openlocfilehash: b11edac77b5b4e3ebd26d1234bbebdf8b2e0880a
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 62b7227239c52f50f2dc437e1ddedc663a5bb01d
+ms.sourcegitcommit: 6e01543b3fff50a28719478b19b644991ba7505a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088543"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38035708"
 ---
 # <a name="secure-sharepoint-online-sites-and-files"></a>SharePoint Online 사이트 및 파일 보호
 
@@ -101,9 +102,9 @@ SharePoint Online 및 비즈니스용 OneDrive에는 모든 사이트 및 사용
   
 ### <a name="device-access-settings"></a>장치 액세스 설정
 
-SharePoint Online 및 비즈니스용 OneDrive에 대한 장치 액세스 설정을 통해 액세스가 브라우저에만 제한되는지(파일을 다운로드할 수 없는지) 또는 액세스가 차단되는지 여부를 결정할 수 있습니다. 자세한 내용은 [관리되지 않는 장치에서의 액세스 제어](https://docs.microsoft.com/ko-KR/sharepoint/control-access-from-unmanaged-devices)를 참조하세요. 
+SharePoint Online 및 비즈니스용 OneDrive에 대한 장치 액세스 설정을 통해 액세스가 브라우저에만 제한되는지(파일을 다운로드할 수 없는지) 또는 액세스가 차단되는지 여부를 결정할 수 있습니다. 자세한 내용은 [관리되지 않는 장치에서의 액세스 제어](https://docs.microsoft.com/sharepoint/control-access-from-unmanaged-devices)를 참조하세요. 
 
-Azure Active Directory에서 권장된 조건부 액세스 정책을 사용하여 장치 액세스 설정을 사용하려면 [SharePoint 사이트 및 파일 보호을 위한 정책 권장 사항](https://docs.microsoft.com/ko-KR/microsoft-365/enterprise/sharepoint-file-access-policies)을 참조하십시오.
+Azure Active Directory에서 권장된 조건부 액세스 정책을 사용하여 장치 액세스 설정을 사용하려면 [SharePoint 사이트 및 파일 보호을 위한 정책 권장 사항](https://docs.microsoft.com/microsoft-365/enterprise/sharepoint-file-access-policies)을 참조하십시오.
   
 ### <a name="onedrive-for-business"></a>비즈니스용 OneDrive
 
@@ -170,7 +171,7 @@ Azure Information Protection으로 보호된 파일에 대한 액세스 권한�
   
 - 레이블 보호를 구성하는 데 사용되는 외부 사용자를 Azure AD 그룹에 추가
     
-     먼저 계정을 디렉터리에 B2B 사용자로 추가해야 합니다. [Azure Rights Management에서 그룹 구성원 자격을 캐시](https://docs.microsoft.com/information-protection/plan-design/prepare#group-membership-caching-by-azure-rights-management)하는 데 몇 시간이 걸릴 수 있습니다. 이 방법을 사용하면 레이블로 보호된 기존의 모든 파일(사용자가 Azure AD 그룹에 추가되기 전에 보호된 파일도 포함)에 대한 권한이 부여됩니다.
+     먼저 계정을 디렉터리에 B2B 사용자로 추가해야 합니다. [Azure Rights Management에서 그룹 구성원 자격을 캐시](https://docs.microsoft.com/information-protection/plan-design/prepare)하는 데 몇 시간이 걸릴 수 있습니다. 이 방법을 사용하면 레이블로 보호된 기존의 모든 파일(사용자가 Azure AD 그룹에 추가되기 전에 보호된 파일도 포함)에 대한 권한이 부여됩니다.
     
 - 외부 사용자를 레이블 보호에 직접 추가
     

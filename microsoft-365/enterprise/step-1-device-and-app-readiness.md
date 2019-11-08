@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 환경에서 장치 및 앱 준비 상태를 평가하는 방법을 알아봅니다.
-ms.openlocfilehash: dda8291e8f57e4855e582614573d6971fa3919f1
-ms.sourcegitcommit: 0d423b50d2f1f4eccd64e35e00f67313244efba9
+ms.openlocfilehash: b24bd278804e81c53a28bf99971a087fe5b7c3c0
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "37422565"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38031633"
 ---
 # <a name="step-1-device-and-app-readiness"></a>1단계: 장치 및 앱 준비
 
@@ -59,7 +59,7 @@ Desktop Analytics 기존 데스크톱 관리 시스템에 비해 많은 이점�
 
 Desktop Analytics를 설정하려면 먼저 Azure 구독을 설정하고 Azure Log Analytics 작업 공간을 포함시켜야 합니다. Desktop Analytics 서비스가 실행되면 그룹 정책 설정을 통해 인터넷에 연결된 Windows 7 SP1 또는 최신 장치를 손쉽게 등록할 수 있습니다. 배포 에이전트가 없이, Desktop Analytics의 시각적 워크플로는 파일럿 배포에서 프로덕션 배포로 안내합니다. 원하는 경우 Desktop Analytics에서 System Center Configuration Manager(현재 분기)와 같은 소프트웨어 배포 도구로 데이터를 내보낼 수 있으므로 PC를 직접 대상으로하고 배포 준비가 된 컬렉션을 구축 할 수 있습니다.
 
-현재, 환경에 대해 Desktop Analytics를 설치하지 않았거나 평가판을 등록하려는 경우 Desktop Analytics 페이지](http://www.aka.ms/desktopanalytics)로 이동한 후 시작할 수 있습니다.
+현재, 환경에 대해 Desktop Analytics를 설치하지 않았거나 평가판을 등록하려는 경우 Desktop Analytics 페이지](https://www.aka.ms/desktopanalytics)로 이동한 후 시작할 수 있습니다.
 
 ## <a name="device-and-app-readiness-process"></a>장치 및 앱 준비 프로세스
 
@@ -85,9 +85,9 @@ Desktop Analytics는 에이전트 없는 프로세스를 사용하여 데스크�
 
 인벤토리 된 대부분의 응용 프로그램, 드라이버 및 추가 기능은 있는 그대로 작동합니다. Desktop Analytics에 문제가 있다고 평가할 경우 해당 항목에 대해 호환성 문제를 해결하기 위해 버전 업데이트를 찾을 수있는 위치를 비롯하여 알려진 정보가 제공됩니다. 중요도가 낮고 배포 빈도가 낮은 응용 프로그램 및 구형 장치에서 복잡한 문제를 해결하는 데 시간과 자원을 투입하는 대신 사용자와 협력하여 이러한 항목을 폐기하고 교체할 수 있습니다.
 
-Desktop Analytics를 사용하여 브라우저 기반 호환성 문제를 평가하고 ActiveX 컨트롤, 브라우저 도우미 개체, VBScript 또는 Microsoft Edge 브라우저에서 지원하지 않는 기타 레거시 기술을 사용하는 사용자가 액세스하는 웹 사이트 및 웹 앱을 식별할 수 있습니다. 사용자는 여전히 이러한 사이트에 Internet Explorer 11을 사용해야 하며 엔터프라이즈 모드 사이트 목록 관리자를 사용하여 [엔터프라이즈 모드 사이트 목록](https://docs.microsoft.com/ko-KR/microsoft-edge/deploy/emie-to-improve-compatibility)에 추가할 수 있습니다.
+Desktop Analytics를 사용하여 브라우저 기반 호환성 문제를 평가하고 ActiveX 컨트롤, 브라우저 도우미 개체, VBScript 또는 Microsoft Edge 브라우저에서 지원하지 않는 기타 레거시 기술을 사용하는 사용자가 액세스하는 웹 사이트 및 웹 앱을 식별할 수 있습니다. 사용자는 여전히 이러한 사이트에 Internet Explorer 11을 사용해야 하며 엔터프라이즈 모드 사이트 목록 관리자를 사용하여 [엔터프라이즈 모드 사이트 목록](https://docs.microsoft.com/microsoft-edge/deploy/emie-to-improve-compatibility)에 추가할 수 있습니다.
 
-또한 Office 365 ProPlus로의 이전을 지원하기 위해, [Office용 Readiness Toolkit](https://docs.microsoft.com/ko-KR/deployoffice/use-the-readiness-toolkit-to-assess-application-compatibility-for-office-365-pro)을 사용하여 추가 기능 및 Microsoft VBA(Visual Basic for Applications) 매크로의 호환성을 테스트할 수 있습니다.
+또한 Office 365 ProPlus로의 이전을 지원하기 위해, [Office용 Readiness Toolkit](https://docs.microsoft.com/deployoffice/use-the-readiness-toolkit-to-assess-application-compatibility-for-office-365-pro)을 사용하여 추가 기능 및 Microsoft VBA(Visual Basic for Applications) 매크로의 호환성을 테스트할 수 있습니다.
 
 ![](media/step-1-device-and-app-readiness-media/step-1-device-and-app-readiness-media-6.png)
 
@@ -103,7 +103,7 @@ Desktop Analytics를 사용하여 브라우저 기반 호환성 문제를 평가
 
 Configuration Manager 소프트웨어 인벤토리는 장치 및 응용 프로그램 준비에 클라우드 기반 분석 솔루션 사용의 대안으로 사용할 수 있습니다. 설치 횟수 및 특정 컴퓨터를 조사하여 호환성 테스트 및 유효성 검사의 우선 순위를 지정하고 패키지 설정을 통해 Windows 10과 호환되는 응용 프로그램 패키지를 설정할 수 있습니다. 이 옵션은 Microsoft의 분석 서비스와 알려진 호환성 정보를 비교하는 기능을 제공하지는 않지만 우선 순위가 지정된 앱들을 더 작은 집합의 대상으로 하는 수동 테스트에 효과적인 솔루션이 될 수 있습니다. 
 
-자세한 내용은 [System Center Configuration Manager의 소프트웨어 인벤토리 소개](https://docs.microsoft.com/ko-KR/sccm/core/clients/manage/inventory/introduction-to-software-inventory) 및 [System Center Configuration Manager의 패키지 및 프로그램](https://docs.microsoft.com/ko-KR/sccm/apps/deploy-use/packages-and-programs)에서 응용 프로그램 패키지의 플랫폼 요구 사항 설정을 참조하세요.
+자세한 내용은 [System Center Configuration Manager의 소프트웨어 인벤토리 소개](https://docs.microsoft.com/sccm/core/clients/manage/inventory/introduction-to-software-inventory) 및 [System Center Configuration Manager의 패키지 및 프로그램](https://docs.microsoft.com/sccm/apps/deploy-use/packages-and-programs)에서 응용 프로그램 패키지의 플랫폼 요구 사항 설정을 참조하세요.
 
 
 ## <a name="desktop-app-assure"></a>데스크톱 앱 Assure

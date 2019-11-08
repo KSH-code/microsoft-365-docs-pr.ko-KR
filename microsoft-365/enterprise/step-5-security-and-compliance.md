@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 중요한 Windows/Office 보안 및 준수 고려 사항에 대해 알아봅니다.
-ms.openlocfilehash: 472a838c68ed06560f5b81f7854b05b1b2e8eefd
-ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
+ms.openlocfilehash: 10fc9ca58d9b48f752bdfed860b805e4f5663d6a
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/14/2019
-ms.locfileid: "36981759"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38031693"
 ---
 # <a name="step-5-security-and-compliance-considerations"></a>5단계: 보안 및 준수 고려 사항
 
@@ -51,11 +51,11 @@ Windows 10 및 Office 365 ProPlus로 전환하고 이러한 환경을 클라우�
 
 이러한 문제를 해결하기 위한 한 가지 옵션은 Windows 10 Pro 이상 버전에 포함된 Windows 10의 BitLocker를 사용하는 것입니다. BitLocker를 사용하면 프로세스의 일부로 OS 업그레이드 및 기능 업데이트에 대한 보호를 일시 중단할 수 있습니다.
 
-[Bitlocker 기본 배포](https://docs.microsoft.com/ko-KR/windows/security/information-protection/bitlocker/bitlocker-basic-deployment)
+[Bitlocker 기본 배포](https://docs.microsoft.com/windows/security/information-protection/bitlocker/bitlocker-basic-deployment)
 
 ### <a name="antivirus-and-antimalware-application-compatibility"></a>바이러스 백신 및 맬웨어 방지 응용 프로그램 호환성
 
-둘째, Windows 7과 Windows 10 사이에서 [99% 이상의 Windows 응용 프로그램이 호환된다고](https://www.microsoft.com/ko-KR/microsoft-365/blog/2018/09/06/helping-customers-shift-to-a-modern-desktop/) 확인되었으나, 종종 AV(바이러스 백신) 앱 또는 VPN(가상 사설망) 클라이언트에서 예외가 나타납니다. 이러한 응용 프로그램은 종종 비표준 개발 사례와 API를 구현하며, 문서화되지 않은 방식을 사용해서 시스템을 보호하거나 네트워크 리소스에 연결하려고 합니다.
+둘째, Windows 7과 Windows 10 사이에서 [99% 이상의 Windows 응용 프로그램이 호환된다고](https://www.microsoft.com/microsoft-365/blog/2018/09/06/helping-customers-shift-to-a-modern-desktop/) 확인되었으나, 종종 AV(바이러스 백신) 앱 또는 VPN(가상 사설망) 클라이언트에서 예외가 나타납니다. 이러한 응용 프로그램은 종종 비표준 개발 사례와 API를 구현하며, 문서화되지 않은 방식을 사용해서 시스템을 보호하거나 네트워크 리소스에 연결하려고 합니다.
 
 결과적으로 이러한 앱은 본질적으로 새 버전의 Windows로 전환할 때 변화에 취약할 수 있습니다. AV 또는 VPN 소프트웨어가 Windows 10에서 또는 업그레이드 이후에 작동하지 않을 경우 사용 중인 앱을 Windows 10에서 지원되는 테스트를 거친 앱으로 바꿀 수 있습니다.
 
@@ -77,19 +77,19 @@ ID 및 액세스 관리를 먼저 살펴보겠습니다. Azure Active Directory�
 
 장치 수준에서 생체 인식은 암호를 없애는 목표를 달성하면서 좀 더 간편하고 안전하게 장치 및 앱에 액세스하기 위한 고유한 식별자를 제공할 수 있습니다. Windows Hello는 장치 기반, 다단계 인증을 제공합니다. 이 기능은 정책을 통해 장치 자체, 사용자의 PIN 또는 고유한 생체 인식 식별자(예: 얼굴 또는 지문)를 활용합니다.
 
-[Azure ID 관리의 기본 사항](https://docs.microsoft.com/ko-KR/azure/active-directory/fundamentals/identity-fundamentals)
+[Azure ID 관리의 기본 사항](https://docs.microsoft.com/azure/active-directory/fundamentals/identity-fundamentals)
 
-[Azure ID 솔루션 이해](https://docs.microsoft.com/ko-KR/azure/active-directory/fundamentals/understand-azure-identity-solutions)
+[Azure ID 솔루션 이해](https://docs.microsoft.com/azure/active-directory/fundamentals/understand-azure-identity-solutions)
 
-[Azure Active Directory 조건부 액세스](https://docs.microsoft.com/ko-KR/azure/active-directory/conditional-access/overview)
+[Azure Active Directory 조건부 액세스](https://docs.microsoft.com/azure/active-directory/conditional-access/overview)
 
-[비즈니스용 Windows Hello](https://docs.microsoft.com/ko-KR/windows/security/identity-protection/hello-for-business/hello-identity-verification)
+[비즈니스용 Windows Hello](https://docs.microsoft.com/windows/security/identity-protection/hello-for-business/hello-identity-verification)
 
 ### <a name="virtualization-based-security"></a>가상화 기반 보안
 
 이제 ID를 사용하는 것 외에도, 알려진 위협과 알려지지 않은 위협에 대해 지속적인 보호를 설정할 수 있습니다. 이를 위해 Windows 10에서는 핵심 영역에서 가상화 기반 보안을 사용하여 보안 부트를 통해 부팅 무결성 및 코드 무결성을 보장합니다. Microsoft는 Credential Guard를 통해 사용자 비밀을 Windows와 따로 유지 관리함으로써 자격 증명을 도난당하는 문제를 피하도록도와드릴 수 있습니다. 또한 Application Guard는 브라우저를 격리된 컨테이너에서 실행하여 브라우저 기반 위협을 격리하고 완화할 수 있습니다. 이러한 모든 기술은 Windows 10의 가상화 기반 보안을 사용하며, Windows 7에서는 복제할 수 없는 기본적인 변경 기능입니다. 또한 이러한 기능을 사용하려면 UEFI, 64비트 Windows 및 SLAT를 통한 가상화 확장 지원이 하드웨어 수준에서 구현되어야 합니다.
 
-[가상화 기반 보안에 대한 추가 정보](https://docs.microsoft.com/ko-KR/windows-hardware/design/device-experiences/oem-vbs)
+[가상화 기반 보안에 대한 추가 정보](https://docs.microsoft.com/windows-hardware/design/device-experiences/oem-vbs)
 
 ### <a name="security-enhancements-from-cloud-services"></a>클라우드 서비스를 통한 보안 향상
 
@@ -97,27 +97,27 @@ ID 및 액세스 관리를 먼저 살펴보겠습니다. Azure Active Directory�
 
 Microsoft Intelligent Security Graph를 사용하여 이러한 두 가지 정보에 빠르게 액세스하고 새로운 위협으로부터 보호할 수 있습니다. 다음은 활용할 수 있는 몇 가지 예제로, Office 관련 내용부터 제공됩니다.
 
-Office 365 ProPlus에 기본 제공되어 있는 **[데이터 손실 방지](https://docs.microsoft.com/ko-KR/office365/securitycompliance/data-loss-prevention-policies)** 는 신용 카드 또는 주민 등록 번호와 같은 고위험 콘텐츠가 감지될 때 사용장게 보안 정책을 알리는 데 도움을 줍니다. 정책은 관련 정보를 제공하거나, 알림을 제공한 후에 전송 및 공유를 차단할 수 있습니다.
+Office 365 ProPlus에 기본 제공되어 있는 **[데이터 손실 방지](https://docs.microsoft.com/office365/securitycompliance/data-loss-prevention-policies)** 는 신용 카드 또는 주민 등록 번호와 같은 고위험 콘텐츠가 감지될 때 사용장게 보안 정책을 알리는 데 도움을 줍니다. 정책은 관련 정보를 제공하거나, 알림을 제공한 후에 전송 및 공유를 차단할 수 있습니다.
 
-**[Azure Information Protection](https://docs.microsoft.com/ko-KR/azure/information-protection/rms-client/client-admin-guide)** 은 Office에서 사용할 수 있는 보충 서비스로, 사용자들이 Office 파일을 쉽게 분류하고 레이블을 지정할 수 있도록 합니다. 또한 레이블이 지정된 파일에 대해 암호화 또는 공유 잠금과 같은 자동 작업을 트리거할 수 있습니다.
+**[Azure Information Protection](https://docs.microsoft.com/azure/information-protection/rms-client/client-admin-guide)** 은 Office에서 사용할 수 있는 보충 서비스로, 사용자들이 Office 파일을 쉽게 분류하고 레이블을 지정할 수 있도록 합니다. 또한 레이블이 지정된 파일에 대해 암호화 또는 공유 잠금과 같은 자동 작업을 트리거할 수 있습니다.
 
-Microsoft는 또한 Office 앱에 대해 **[안전한 링크](https://docs.microsoft.com/ko-KR/office365/securitycompliance/atp-safe-links)** 보호 기능도 제공합니다. 이 기능을 사용하면 알려진 악성 웹 사이트의 동적 목록의 사이트로부터 보호할 수 있습니다.
+Microsoft는 또한 Office 앱에 대해 **[안전한 링크](https://docs.microsoft.com/office365/securitycompliance/atp-safe-links)** 보호 기능도 제공합니다. 이 기능을 사용하면 알려진 악성 웹 사이트의 동적 목록의 사이트로부터 보호할 수 있습니다.
 
-또한 Outlook 및 Exchange Online의 일부로 제공되는 **[안전한 첨부 파일](https://docs.microsoft.com/ko-KR/office365/securitycompliance/atp-safe-attachments)** 은 전자 메일 필터링 이상의 기능을 제공하여 첨부 파일을 검사합니다. 위험도가 높은 첨부 파일을 식별되면 안전한 첨부 파일 기능은 알려진 악성 첨부 파일을 사용자에게 알리고 전자 메일에서 제거합니다.
+또한 Outlook 및 Exchange Online의 일부로 제공되는 **[안전한 첨부 파일](https://docs.microsoft.com/office365/securitycompliance/atp-safe-attachments)** 은 전자 메일 필터링 이상의 기능을 제공하여 첨부 파일을 검사합니다. 위험도가 높은 첨부 파일을 식별되면 안전한 첨부 파일 기능은 알려진 악성 첨부 파일을 사용자에게 알리고 전자 메일에서 제거합니다.
 
-**[OEM(Office 365 메시지 암호화)](https://docs.microsoft.com/ko-KR/office365/securitycompliance/encryption)** 또한 전송된 전자 메일 및 첨부 파일을 보호하고, 의도한 받는 사람만 전자 메일 콘텐츠를 보도록 하는 데 사용될 수 있습니다. OME은 Google, Yahoo 및 Microsoft 소비자 계정 인증에서 원활하게 작동하며, 일회성 암호는 다른 전자 메일 서비스 사용자도 전자 메일을 안전하게 수신하도록 할 수 있습니다.
+**[OEM(Office 365 메시지 암호화)](https://docs.microsoft.com/office365/securitycompliance/encryption)** 또한 전송된 전자 메일 및 첨부 파일을 보호하고, 의도한 받는 사람만 전자 메일 콘텐츠를 보도록 하는 데 사용될 수 있습니다. OME은 Google, Yahoo 및 Microsoft 소비자 계정 인증에서 원활하게 작동하며, 일회성 암호는 다른 전자 메일 서비스 사용자도 전자 메일을 안전하게 수신하도록 할 수 있습니다.
 
 #### <a name="additional-windows-10-protections"></a>추가 Windows 10 보호
 
-Windows 10의 **[Windows Defender 응용 프로그램 컨트롤](https://docs.microsoft.com/ko-KR/windows/security/threat-protection/windows-defender-application-control/windows-defender-application-control)** 은 Microsoft가 안전을 확인한 승인된 허용 및 거부 응용 프로그램 목록과 Microsoft Intune을 사용하여 끝점 보호 정책이 관리하는 모든 응용 프로그램 목록을 운영합니다.
+Windows 10의 **[Windows Defender 응용 프로그램 컨트롤](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-application-control/windows-defender-application-control)** 은 Microsoft가 안전을 확인한 승인된 허용 및 거부 응용 프로그램 목록과 Microsoft Intune을 사용하여 끝점 보호 정책이 관리하는 모든 응용 프로그램 목록을 운영합니다.
 
-**[Microsoft Defender Advanced Threat Protection](https://docs.microsoft.com/ko-KR/windows/security/threat-protection/windows-defender-atp/overview)** 은 예방적 보호, 위반 후 감지, 자동화된 조사 및 대응을 위한 통합 플랫폼입니다. 이 플랫폼은 사이버 위협으로부터 끝점을 보호하고, 고급 공격 및 데이터 위반을 감지하고, 보안 인시던트를 자동화하고, 보안 태세를 개선합니다.
+**[Microsoft Defender Advanced Threat Protection](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/overview)** 은 예방적 보호, 위반 후 감지, 자동화된 조사 및 대응을 위한 통합 플랫폼입니다. 이 플랫폼은 사이버 위협으로부터 끝점을 보호하고, 고급 공격 및 데이터 위반을 감지하고, 보안 인시던트를 자동화하고, 보안 태세를 개선합니다.
 
-**[Exploit Guard](https://docs.microsoft.com/ko-KR/windows/security/threat-protection/windows-defender-exploit-guard/windows-defender-exploit-guard)** 는 맬웨어가 Windows에 유입되지 않도록 하고, 신뢰할 수 없는 프로세스가 보호된 폴더에 액세스하지 못하도록 하여 실행 중인 응용 프로그램에 대한 공격 표면을 줄이는 데 도움을 줍니다.
+**[Exploit Guard](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/windows-defender-exploit-guard)** 는 맬웨어가 Windows에 유입되지 않도록 하고, 신뢰할 수 없는 프로세스가 보호된 폴더에 액세스하지 못하도록 하여 실행 중인 응용 프로그램에 대한 공격 표면을 줄이는 데 도움을 줍니다.
 
 #### <a name="microsoft-intune"></a>Microsoft Intune
 
-[Microsoft Intune](https://docs.microsoft.com/ko-KR/intune/introduction-intune)은 IOS, Android 및 Windows 장치를 포함하는 모바일 시나리오에 대한 클라우드 기반 관리 서비스로 사용되며, 이제 공동 관리 부서에서 System Center Configuration Manager에서 관리되는 특정 워크로드에 대한 컨트롤을 보완하고 확장하도록 구성할 수 있습니다. 한 가지 장점은 보호된 리소스에 액세스하는 장치 중에서 관리되지 않거나 도메인에 가입되지 않았거나 Azure AD에 가입되지 않은 모든 장치의 경우 장치 관리 부서에 등록하도록 요구할 수 있다는 것입니다. 또한 운영 체제 및 응용 프로그램 수준에서 세분화된 구성 및 준수 정책 적용을 활용할 수도 있습니다. 응용 프로그램 정책 및 설정을 중앙에서 구성하고, Microsoft Intune을 사용하여 Office 365 ProPlus 및 Windows 10의 스토어 앱에 적용할 수 있습니다.
+[Microsoft Intune](https://docs.microsoft.com/intune/introduction-intune)은 IOS, Android 및 Windows 장치를 포함하는 모바일 시나리오에 대한 클라우드 기반 관리 서비스로 사용되며, 이제 공동 관리 부서에서 System Center Configuration Manager에서 관리되는 특정 워크로드에 대한 컨트롤을 보완하고 확장하도록 구성할 수 있습니다. 한 가지 장점은 보호된 리소스에 액세스하는 장치 중에서 관리되지 않거나 도메인에 가입되지 않았거나 Azure AD에 가입되지 않은 모든 장치의 경우 장치 관리 부서에 등록하도록 요구할 수 있다는 것입니다. 또한 운영 체제 및 응용 프로그램 수준에서 세분화된 구성 및 준수 정책 적용을 활용할 수도 있습니다. 응용 프로그램 정책 및 설정을 중앙에서 구성하고, Microsoft Intune을 사용하여 Office 365 ProPlus 및 Windows 10의 스토어 앱에 적용할 수 있습니다.
 
 ## <a name="next-step"></a>다음 단계
 

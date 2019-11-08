@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Windows 및 Office 배포 랩 키트에 액세스하는 방법 및 위치에 대해 알아보세요.
-ms.openlocfilehash: 045f0e0fd2375c4342896668f69ce1305f4a1d43
-ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
+ms.openlocfilehash: b8d6ae3a6721a3563cc68fcec9dd7f9d470bb31e
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/14/2019
-ms.locfileid: "36981699"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38031113"
 ---
 # <a name="windows-and-office-deployment-lab-kit"></a>Windows 및 Office 배포 랩 키트
 
@@ -26,7 +26,7 @@ ms.locfileid: "36981699"
 
 이 랩은 Windows 10 Enterprise 및 Office 365 ProPlus를 실행하는 데스크톱의 배포 및 관리를 계획, 테스트 및 검증하는 데 도움을 주기 위해 만들어졌습니다. 이 랩에서는 System Center Configuration Manager, Desktop Analytics, Office 사용자 지정 도구, OneDrive, Windows Autopilot 등의 데스크톱 배포 도구에 설명된 단계와 도구를 다룹니다.
 
-Windows 10 및 Office 365 ProPlus의 [데스크톱 배포](http://www.aka.ms/howtoshift) 프로세스의 일환으로 배포 도구 업데이트를 탐색하고 배포 관련 자동화를 테스트 할 때 샌드박스 또는 격리된 랩 환경을 만드는 것이 좋습니다.
+Windows 10 및 Office 365 ProPlus의 [데스크톱 배포](https://www.aka.ms/howtoshift) 프로세스의 일환으로 배포 도구 업데이트를 탐색하고 배포 관련 자동화를 테스트 할 때 샌드박스 또는 격리된 랩 환경을 만드는 것이 좋습니다.
 
 랩 키트는 무료로 다운로드할 수 있으며 평가판 소프트웨어를 사용합니다.
 
@@ -122,11 +122,11 @@ Windows 10 및 Office 365 ProPlus의 [데스크톱 배포](http://www.aka.ms/how
 
 ## <a name="additional-guidance"></a>**추가 지침**
 
-  - [데스크톱 배포 센터](http://www.aka.ms/howtoshift)
+  - [데스크톱 배포 센터](https://www.aka.ms/howtoshift)
 
-  - [Microsoft Mechanics의 데스크톱 배포 시리즈 비디오](http://www.aka.ms/watchhowtoshift)
+  - [Microsoft Mechanics의 데스크톱 배포 시리즈 비디오](https://www.aka.ms/watchhowtoshift)
 
-  - [System Center Configuration Manager OS 배포](https://docs.microsoft.com/ko-KR/sccm/osd/understand/introduction-to-operating-system-deployment)
+  - [System Center Configuration Manager OS 배포](https://docs.microsoft.com/sccm/osd/understand/introduction-to-operating-system-deployment)
 
   - [<span class="underline">Windows 10 배포 계획</span>](https://docs.microsoft.com/windows/deployment/planning/index)
 

@@ -15,12 +15,12 @@ ms.assetid: e100fe7c-f2a1-4b7d-9e08-622330b83653
 ms.collection:
 - M365-security-compliance
 description: Office 365 Advanced Threat Protection에는 안전한 첨부 파일, 안전한 링크, 고급 피싱 방지 도구, 보고 도구 및 위협 인텔리전스 기능이 포함되어 있습니다.
-ms.openlocfilehash: 9f2bedaa436aa5f38d8929e6bc8eda2e34896575
-ms.sourcegitcommit: d4aa94716b33e6c270ae7adfbdc4c19cf4a0087d
+ms.openlocfilehash: dbfff642563117a479db1ac36e76700cca71dd75
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "37386155"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38032203"
 ---
 # <a name="office-365-advanced-threat-protection"></a>Office 365 Advanced Threat Protection
 
@@ -41,7 +41,7 @@ Office 365 ATP (Advanced Threat Protection)는 전자 메일 메시지, 링크 (
 
 ## <a name="office-365-atp-plan-1-and-plan-2"></a>Office 365 ATP 플랜 1 및 플랜 2
 
-ATP는 Office 365 E5에 포함되어 있습니다. 그러나 또한 ATP 플랜 1 및 ATP 플랜 2는 특정 구독에 대한 추가 기능으로 각각 제공됩니다. 자세한 내용은 [ATP 플랜에서의 기능 가용성](https://docs.microsoft.com/ko-KR/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans)을 참조하세요.
+ATP는 Office 365 E5에 포함되어 있습니다. 그러나 또한 ATP 플랜 1 및 ATP 플랜 2는 특정 구독에 대한 추가 기능으로 각각 제공됩니다. 자세한 내용은 [ATP 플랜에서의 기능 가용성](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans)을 참조하세요.
 
 ## <a name="configure-atp-policies"></a>ATP 정책 구성
 
@@ -53,7 +53,7 @@ Office 365 ATP는 조직에 적합한 수준의 보호를 설정하기 위한 �
 
 - [ATP 안전한 첨부파일](atp-safe-attachments.md): 전자 메일의 첨부 파일에서 악성 콘텐츠가 있는지 확인하여 메시징 시스템을 보호하는 제로-데이 보호 기능을 제공합니다. 바이러스/맬웨어 서명이 없는 모든 메시지 및 첨부 파일을 특수 환경으로 경로 지정한 다음 기계 학습 및 분석 기법을 사용하여 악의적인 의도를 탐지합니다. 의심스러운 활동이 없는 경우 메시지가 사서함으로 전달됩니다. 자세한 내용은 [Office 365 ATP 안전한 첨부 파일 정책 설정](set-up-atp-safe-attachments-policies.md)을 참조하세요.
 
-- [ATP 안전한 링크](atp-safe-links.md): 전자 메일 메시지 및 Office 파일 등에서 URL의 클릭시간 확인기능을 제공합니다. 보호가 진행 중이며 메시징 및 Office 환경에 적용됩니다. 클릭 할 때마다 링크가 검색됩니다. 안전한 링크는 계속 액세스할 수 있으며 악성 링크는 동적으로 차단됩니다. 자세한 내용은 [Office 365 ATP 안전한 링크 정책 설정](https://docs.microsoft.com/ko-KR/office365/securitycompliance/set-up-atp-safe-links-policies)을 참조하세요. 
+- [ATP 안전한 링크](atp-safe-links.md): 전자 메일 메시지 및 Office 파일 등에서 URL의 클릭시간 확인기능을 제공합니다. 보호가 진행 중이며 메시징 및 Office 환경에 적용됩니다. 클릭 할 때마다 링크가 검색됩니다. 안전한 링크는 계속 액세스할 수 있으며 악성 링크는 동적으로 차단됩니다. 자세한 내용은 [Office 365 ATP 안전한 링크 정책 설정](https://docs.microsoft.com/office365/securitycompliance/set-up-atp-safe-links-policies)을 참조하세요. 
 
 - [SharePoint, OneDrive 및 Microsoft Teams용 ATP](atp-for-spo-odb-and-teams.md): 팀 사이트 및 문서 라이브러리에서 악성 파일을 식별하고 차단하여 사용자가 파일을 공동 작업하고 공유할 때 사용자 조직을 보호합니다. 자세한 내용은 [SharePoint, OneDrive 및 Microsoft Teams에 대한 Office 365 ATP 실행](turn-on-atp-for-spo-odb-and-teams.md)을 참조하세요. 
 
@@ -105,8 +105,8 @@ AIR에는 알림이 트리거되는 경우와 같이 자동으로 시작되거�
 |역할 또는 역할 그룹  |자세한 정보를 알아볼 수 있는 리소스  |
 |---------|---------|
 |Office 365 전역 관리자 |[Office 365 관리자 역할 정보](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles)|
-|보안 관리자 |[Azure Active Directory의 관리자 역할 권한](https://docs.microsoft.com/ko-KR/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
-|Exchange Online 조직 관리 |[Exchange Online의 사용 권한](https://docs.microsoft.com/ko-KR/exchange/permissions-exo/permissions-exo) <br>및<br> [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps)|
+|보안 관리자 |[Azure Active Directory의 관리자 역할 권한](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
+|Exchange Online 조직 관리 |[Exchange Online의 사용 권한](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo) <br>및<br> [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps)|
 
 자세한 내용은 다음을 참조하세요.
 
@@ -130,4 +130,4 @@ Office 365 ATP 플랜 2는 Office 365 Enterprise E5, Office 365 Education A5 및
 
 - [Microsoft 365 로드맵](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=advanced%2Cthreat%2Cprotection)은 개발 및 출시에 대한 새로운 기능 목록을 제공합니다.
 
-- [Office 365 Advanced Threat Protection 서비스 설명](https://docs.microsoft.com/ko-KR/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#whats-new-in-office-365-advanced-threat-protection-atp)에서는 ATP 플랜에 대한 기능 및 제공 여부에 대해 설명합니다.
+- [Office 365 Advanced Threat Protection 서비스 설명](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#whats-new-in-office-365-advanced-threat-protection-atp)에서는 ATP 플랜에 대한 기능 및 제공 여부에 대해 설명합니다.

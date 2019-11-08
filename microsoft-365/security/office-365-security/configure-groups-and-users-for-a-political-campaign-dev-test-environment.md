@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 0e22bcf3-bad3-42a4-b44f-276e0cf4790f
 description: '요약: 정치적 캠페인 개발/테스트 환경의 사용자 및 그룹을 사용하여 Office 365 및 EMS(Enterprise Mobility + Security) 평가판 구독을 만듭니다.'
-ms.openlocfilehash: 6cf9fb03c66f1cf4d1f20287f5dc121474898d5b
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: ca72ee800287bf8a90fe45f4aaa1de3400cb71e1
+ms.sourcegitcommit: 550ea6f093ec35182e7c65a2811e9bfb07ec7d01
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088604"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "38038887"
 ---
 # <a name="configure-groups-and-users-for-a-political-campaign-devtest-environment"></a>정치적 캠페인 개발/테스트 환경에 대해 그룹 및 사용자 구성
 
@@ -135,7 +135,7 @@ ms.locfileid: "37088604"
   
 다음으로 조직 이름, 사용자 위치 및 공통 암호를 입력합니다. PowerShell 명령 프롬프트 또는 ISE(Integrated Script Environment)에서 다음 명령을 실행합니다.
   
-```
+```powershell
 $orgName="<organization name, such as contoso for the contoso.onmicrosoft.com trial subscription domain name>"
 $location="<the ISO ALPHA2 country code, such as US for the United States>"
 $commonPassword="<common password for all the new accounts>"
@@ -170,31 +170,31 @@ foreach ($element in $userNames){ New-AzureADUser -DisplayName $element -Passwor
 다음 단계를 사용하여 동적 그룹 멤버 자격 및 그룹 기반 라이선스가 올바르게 작동하는지 확인합니다.
   
 1. 브라우저의 **Microsoft Office 홈** 탭에서 **관리** 타일을 클릭합니다.
-    
+
 2. 브라우저의 새 **Microsoft 365 관리 센터** 탭에서 **사용자**를 클릭합니다.
-    
+
 3. 사용자 목록에서 **후보**를 클릭합니다.
-    
+
 4. **후보** 사용자 계정의 속성을 나열하는 창에서 다음을 확인합니다.
-    
+
   - **Senior and strategic staff** 그룹의 멤버인지 여부(**그룹 멤버 자격**에서)
-    
+
   - **Enterprise Mobility + Security E5** 및 **Office 365 Enterprise E5** 라이선스가 할당되었는지 여부(**제품 라이선스**에서)
-    
+
 5. **후보** 사용자 계정 창을 닫습니다.
-    
+
 ## <a name="record-values-for-future-reference"></a>나중에 참조하기 위해 값 기록
 
 이 개발/테스트 환경에 대해 Office 365 및 EMS 평가판 구독을 사용하려면 이러한 값을 기록해둡니다.
   
 - 평가판 구독 조직 이름: ![](../media/Common-Images/TableLine.png) 
-    
+
     예를 들어 평가판 구독 도메인 이름 contoso.onmicrosoft.com의 경우 조직 이름은 "contoso"입니다.
-    
+
 - Office 365 전역 관리자 이름: ![](../media/Common-Images/TableLine.png).onmicrosoft.com
-    
+
     이 계정에 대한 암호와 다른 사용자 계정에 대한 일반적인 초기 암호를 안전한 위치에 기록해둡니다.
-    
+
 ## <a name="next-step"></a>다음 단계
 
 [정치적 캠페인 개발/테스트 환경에서 팀 사이트 만들기](create-team-sites-in-a-political-campaign-dev-test-environment.md)를 사용하여 이 개발/테스트 환경에서 4가지 다른 유형의 SharePoint Online 팀 사이트를 구축합니다.
@@ -208,7 +208,3 @@ foreach ($element in $userNames){ New-AzureADUser -DisplayName $element -Passwor
 [클라우드 도입 TLG(테스트 랩 가이드)](https://docs.microsoft.com/office365/enterprise/cloud-adoption-test-lab-guides-tlgs)
   
 [클라우드 도입 및 하이브리드 솔루션](https://docs.microsoft.com/office365/enterprise/cloud-adoption-and-hybrid-solutions)
-
-
-
-

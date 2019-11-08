@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: TopSMBIssues
 localization_priority: Priority
 description: 이 문서에서는 Office 365가 위조된 보낸 사람 도메인, 즉 스푸핑된 도메인을 사용하는 피싱 공격을 줄이는 방법에 대해 설명합니다. 표준 전자 메일 인증 방법이나 다른 보낸 사람 신뢰도 기술을 사용하지 않고 메시지를 분석하고 인증할 수 있는 메시지를 차단하여 이 작업을 수행합니다. 이 변경 사항은 Office 365의 조직이 피싱 공격에 노출된 수를 줄이기 위해 구현되었습니다.
-ms.openlocfilehash: e863a7fe580bdd6c60ba6f28d3fbf2df010e9384
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 7b793d3244343111f1894ff8aae77c2d6ea8f4f3
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088340"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38034289"
 ---
 # <a name="anti-spoofing-protection-in-office-365"></a>Office 365의 스푸핑 방지 보호 기능
 
@@ -115,7 +115,7 @@ Microsoft는 두 가지 유형의 스푸핑 메시지를 구분합니다.
   
  **조직 내 스푸핑**
   
-자체 스푸핑이라고도 하며 보낸 사람: 주소의 도메인이받는 사람 도메인과 동일하거나 일치할 때(수신자 도메인이 조직의 [수락 도메인](https://technet.microsoft.com/ko-KR/library/jj945194%28v=exchg.150%29.aspx) 중 하나인 경우) 또는 보낸 사람: 주소의 도메인이 동일한 조직의 일부인 경우에 발생합니다.
+자체 스푸핑이라고도 하며 보낸 사람: 주소의 도메인이받는 사람 도메인과 동일하거나 일치할 때(수신자 도메인이 조직의 [수락 도메인](https://technet.microsoft.com/library/jj945194%28v=exchg.150%29.aspx) 중 하나인 경우) 또는 보낸 사람: 주소의 도메인이 동일한 조직의 일부인 경우에 발생합니다.
   
 예를 들어, 다음은 동일한 도메인(contoso.com)의 보낸 사람과 받는 사람입니다. 이 페이지에서 스팸봇 수확을 방지하기 위해 전자 메일 주소에 공백이 삽입됩니다.
   
@@ -654,7 +654,7 @@ Microsoft 자체는 처음에 다른 고객들에게 배포하기 몇 주 전에
   
 ### <a name="how-can-i-report-spam-or-non-spam-messages-back-to-microsoft"></a>스팸 또는 비스팸 메시지를 Microsoft에 다시 보고하려면 어떻게 합니까?
 
-[Outlook용 보고서 메시지 추가 기능](https://support.office.com/article/use-the-report-message-add-in-b5caa9f1-cdf3-4443-af8c-ff724ea719d2)을 사용하거나 이것이 설치되어 있지 않은 경우 [분석용 Microsoft에 스팸, 스팸 방지 및 피싱 사기 메시지를 제출](https://technet.microsoft.com/ko-KR/library/jj200769%28v=exchg.150%29.aspx)할 수 있습니다.
+[Outlook용 보고서 메시지 추가 기능](https://support.office.com/article/use-the-report-message-add-in-b5caa9f1-cdf3-4443-af8c-ff724ea719d2)을 사용하거나 이것이 설치되어 있지 않은 경우 [분석용 Microsoft에 스팸, 스팸 방지 및 피싱 사기 메시지를 제출](https://technet.microsoft.com/library/jj200769%28v=exchg.150%29.aspx)할 수 있습니다.
   
 ### <a name="im-a-domain-administrator-who-doesnt-know-who-all-my-senders-are"></a>저는 도메인 관리자이고 나의 보낸 사람을 모두 다 알지 못합니다.
 

@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 클라우드 인식 비즈니스 연속성 계획을 개발할 때 고려해야 할 사항.
-ms.openlocfilehash: 4a133c65f6a5a2de44e871995886a01c2ce8e9a9
-ms.sourcegitcommit: 7690c8bfdea6e6d245cfa7c5b09b913b092cde0a
+ms.openlocfilehash: e7bd9ad7d1bd14db761ec399e260bbfc23954d99
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "37122338"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38031073"
 ---
 # <a name="developing-your-continuity-plan"></a>연속성 계획 개발
 
@@ -44,7 +44,7 @@ ms.locfileid: "37122338"
 |사업부|`name of the business unit that owns this business function`|
 |프로세스 (서비스, 특징)|`the name of the process, service, or feature`|
 |비즈니스 그룹 선임 리더|`the name and contact information of the senior leader of the business group that owns this business process`|
-|기술에 설정된 **내부 SLA 또는 OLA가 있나요?|`please explain in as much detail as possible`|
+|기술에 설정된 **내부** SLA 또는 OLA가 있나요?|`please explain in as much detail as possible`|
 |기술에 설정된 **외부** SLA 또는 OLA가 있나요?|`please explain in as much detail as possible`|
 |이 기술에는 특정 프로세스 SLA를 추진하는 알려진 경영진 요구사항이 있나요? 그렇다면 자세히 설명해주세요.|`details here`|
 |이 서비스와 연결된 데이터가 손실되거나 손상되면 주요 이벤트가 발생하나요? 그렇다면 자세히 설명해주세요.|`details here`|
@@ -61,7 +61,7 @@ ms.locfileid: "37122338"
 
 그런 다음 비즈니스 프로세스를 확인하여 연속되는 종속성 관계가 존재하는 위치를 확인합니다. 결과를 바탕으로 복원 전략 및 전략을 지원하는 표준 운영 절차의 우선 순위를 정하고 구성합니다.
 
-[Microsoft 서비스 맵](https://docs.microsoft.com/ko-KR/azure/azure-monitor/insights/service-map)을 사용하여 이 매핑에 대해 도움을 받을 수 있습니다. Microsoft 서비스 맵은 Windows 및 Linux 시스템에서 응용 프로그램 구성 요소를 자동으로 검색하고, 모든 TCP 종속성을 매핑하여 연결을 식별하고, 앱이 종속된 원격 타사 시스템을 확인합니다. Active Directory와 같이 일반적으로 어두운 네트워크 영역에도 종속성을 매핑합니다.
+[Microsoft 서비스 맵](https://docs.microsoft.com/azure/azure-monitor/insights/service-map)을 사용하여 이 매핑에 대해 도움을 받을 수 있습니다. Microsoft 서비스 맵은 Windows 및 Linux 시스템에서 응용 프로그램 구성 요소를 자동으로 검색하고, 모든 TCP 종속성을 매핑하여 연결을 식별하고, 앱이 종속된 원격 타사 시스템을 확인합니다. Active Directory와 같이 일반적으로 어두운 네트워크 영역에도 종속성을 매핑합니다.
 
 다음 샘플 종속성 분석 (DA)에서 시작하세요. 종속성 분석 (DA)에서 프로세스 종속성을 식별하고 검사합니다. 사용자, 공급자, 고객, 파트너십 및 시설을 포함하고 있는지 확인합니다. 이 분석의 데이터는 프로세스의 복구 요구 사항과 종속성을 지원하는 복구 기능 간의 차이를 식별하는 데 사용됩니다.
 

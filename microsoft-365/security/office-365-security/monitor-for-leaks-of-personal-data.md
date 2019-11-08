@@ -16,12 +16,12 @@ localization_priority: Priority
 search.appverid:
 - MET150
 description: 개인 데이터의 누수를 모니터링하는 데 사용할 수 있는 세 가지 도구에 대해 알아봅니다.
-ms.openlocfilehash: 51e681d751e9d36872a47fcde1390c3dda8a2184
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: b4ca34f3446a0067c6497d844e5b79a78d0eb35e
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37089030"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38032243"
 ---
 # <a name="monitor-for-leaks-of-personal-data"></a>개인 데이터 누수 모니터링
 
@@ -59,7 +59,7 @@ DLP 보고서를 사용하여 다음을 수행할 수 있습니다.
 
 DLP 보고서는 보안 센터 및 규정 준수 센터에 있습니다. 보고서 \> 보고서 보기로 이동합니다. DLP(데이터 손실 방지)에서 DLP 정책 및 규칙 일치 또는 DLP 가양성 및 재정의로 이동합니다.
 
-자세한 내용은 [데이터 손실 방지에 대한 보고서 보기](https://support.office.com/ko-KR/article/View-the-reports-for-data-loss-prevention-41eb4324-c513-4fa5-91c8-8fbd8aaba83b)를 참조하세요.
+자세한 내용은 [데이터 손실 방지에 대한 보고서 보기](https://support.office.com/article/View-the-reports-for-data-loss-prevention-41eb4324-c513-4fa5-91c8-8fbd8aaba83b)를 참조하세요.
 
 ![DLP 정책 일치를 표시하는 보고서](../media/Monitor-for-leaks-of-personal-data-image2.png)
 
@@ -77,21 +77,21 @@ Office 365 감사 로그에는 Exchange Online, SharePoint Online, 비즈니스�
 
 또한 정보 보안 팀은 감사 로그를 검색하여 의심되는 데이터 침해를 조사하고, 침해의 근본 원인과 범위를 확인할 수 있습니다. 이러한 기본 제공 기능은 GDPR 감독 기관 및 데이터 주체 자체에 특정 기간 동안 데이터 침해가 발생했음을 알리는 알림을 제공하도록 요구하는 GDPR 33 및 34절을 통해 규정이 준수되도록 합니다. 감사 로그 항목은 권장 지침대로 서비스 내에서 90일 동안만 유지되며, 많은 조직은 이러한 로그를 더 오랫 동안 보관해야 합니다.
 
-Microsoft Management Activity API를 통해 통합 감사 로그에 구독된 솔루션을 사용할 수 있으며, 필요에 따라 로그 항목을 저장할 수 있고 고급 대시보드 및 경고를 제공할 수 있습니다. 한 가지 예제는 [Microsoft OMS(Operations Management Suite)](https://docs.microsoft.com/ko-KR/azure/operations-management-suite/oms-solution-office-365)입니다.
+Microsoft Management Activity API를 통해 통합 감사 로그에 구독된 솔루션을 사용할 수 있으며, 필요에 따라 로그 항목을 저장할 수 있고 고급 대시보드 및 경고를 제공할 수 있습니다. 한 가지 예제는 [Microsoft OMS(Operations Management Suite)](https://docs.microsoft.com/azure/operations-management-suite/oms-solution-office-365)입니다.
 
 경고 정책 및 감사 로그 검색에 대한 자세한 정보:
 
--   [Microsoft 365 보안 및 규정 준수 센터의 알림 정책](https://support.office.com/ko-KR/article/Alert-policies-in-the-Office-365-Security-Compliance-Center-8927B8B9-C5BC-45A8-A9F9-96C732E58264)
+-   [Microsoft 365 보안 및 규정 준수 센터의 알림 정책](https://support.office.com/article/Alert-policies-in-the-Office-365-Security-Compliance-Center-8927B8B9-C5BC-45A8-A9F9-96C732E58264)
 
--   [Office 365의 감사 로그에서 사용자 및 관리자 활동 검색](https://support.office.com/ko-KR/article/Search-the-audit-log-for-user-and-admin-activity-in-Office-365-57CA5138-0AE0-4D34-BD40-240441EF2FB6)(소개)
+-   [Office 365의 감사 로그에서 사용자 및 관리자 활동 검색](https://support.office.com/article/Search-the-audit-log-for-user-and-admin-activity-in-Office-365-57CA5138-0AE0-4D34-BD40-240441EF2FB6)(소개)
 
--   [Office 365 감사 로그 검색 켜기 또는 끄기](https://support.office.com/ko-KR/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014)
+-   [Office 365 감사 로그 검색 켜기 또는 끄기](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014)
 
--   [감사 로그 검색](https://support.office.com/en-us/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c?ui=en-US&rs=en-US&ad=US)
+-   [감사 로그 검색](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c?ui=en-US&rs=en-US&ad=US)
 
--   [Search-UnifiedAuditLog](https://technet.microsoft.com/en-us/library/mt238501(v=exchg.160).aspx)(cmdlet) 
+-   [Search-UnifiedAuditLog](https://technet.microsoft.com/library/mt238501(v=exchg.160).aspx)(cmdlet) 
 
--   [Office 365 감사 로그의 자세한 속성](https://support.office.com/ko-KR/article/Detailed-properties-in-the-Office-365-audit-log-ce004100-9e7f-443e-942b-9b04098fcfc3)
+-   [Office 365 감사 로그의 자세한 속성](https://support.office.com/article/Detailed-properties-in-the-Office-365-audit-log-ce004100-9e7f-443e-942b-9b04098fcfc3)
 
 ## <a name="microsoft-cloud-app-security"></a>Microsoft Cloud App Security
 
@@ -125,11 +125,11 @@ Cloud App Security에 다음 특성 형식의 곧 제공될 예정입니다.
 
 추가 정보:
 
--   [Cloud App Security 배포](https://docs.microsoft.com/ko-KR/cloud-app-security/getting-started-with-cloud-app-security)
+-   [Cloud App Security 배포](https://docs.microsoft.com/cloud-app-security/getting-started-with-cloud-app-security)
 
--   [Microsoft Cloud App Security에 대한 자세한 정보](https://www.microsoft.com/ko-KR/cloud-platform/cloud-app-security)
+-   [Microsoft Cloud App Security에 대한 자세한 정보](https://www.microsoft.com/cloud-platform/cloud-app-security)
 
--   [Microsoft Cloud App Security 프록시를 사용하여 중요한 정보 다운로드 차단](https://docs.microsoft.com/ko-KR/cloud-app-security/use-case-proxy-block-session-aad)
+-   [Microsoft Cloud App Security 프록시를 사용하여 중요한 정보 다운로드 차단](https://docs.microsoft.com/cloud-app-security/use-case-proxy-block-session-aad)
 
 ## <a name="example-file-and-activity-policies-to-detect-sharing-of-personal-data"></a>개인 데이터의 공유를 감지하는 예제 파일 및 활동 정책
 

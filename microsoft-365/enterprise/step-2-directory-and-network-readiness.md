@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 환경에서 디렉터리 및 네트워크 준비 상태를 평가하는 방법을 알아봅니다.
-ms.openlocfilehash: 505099607b6c4744af29d00ff04e2535a2c0848e
-ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
+ms.openlocfilehash: c009a60849390cc9b796a56f66e63d44e12cdc68
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/14/2019
-ms.locfileid: "36982729"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38031563"
 ---
 # <a name="step-2-directory-and-network-readiness"></a>2단계: 디렉터리 및 네트워크 준비
 
@@ -49,7 +49,7 @@ Windows 10 및 Office 365 ProPlus로의 전환을 수행할 경우 클라우드 
 
 조직이 이미 Office 365, Exchange Online, Microsoft Intune 또는 기타 Microsoft Online 서비스를 사용하는 경우 사용자가 Azure Active Directory를 사용하고 있다면 매우 유용할 수 있습니다. 이 기능을 사용하고 있으면 데스크톱 배포의 대상 사용자가 Azure Active Directory에 있고 라이선스가 할당되어 있는지만 확인하면 됩니다.
 
-현재 Azure Active Directory를 사용하고 있지 않으면 [다양한 리소스](https://docs.microsoft.com/ko-KR/azure/active-directory/)의 도움을 받아 설정할 수 있습니다. 또한 Office 365 라이선스의 일부로 제공되는 Microsoft FastTrack을 통해 맞춤형 지원을 받을 수 있습니다. [여기](https://fasttrack.microsoft.com)에서 Microsoft Fastrack에 대한 자세한 내용을 알아볼 수 있습니다.
+현재 Azure Active Directory를 사용하고 있지 않으면 [다양한 리소스](https://docs.microsoft.com/azure/active-directory/)의 도움을 받아 설정할 수 있습니다. 또한 Office 365 라이선스의 일부로 제공되는 Microsoft FastTrack을 통해 맞춤형 지원을 받을 수 있습니다. [여기](https://fasttrack.microsoft.com)에서 Microsoft Fastrack에 대한 자세한 내용을 알아볼 수 있습니다.
 
 Azure Active Directory가 준비되면 사용자는 Office 365 ProPlus 앱에 로그인한 후 정품 인증을 수행할 수 있으며, 앱 및 정책의 자동 배포에 Microsoft Intune 또는 Windows Autopilot을 사용할 수 있습니다.
 
@@ -65,7 +65,7 @@ Azure Active Directory가 준비되면 사용자는 Office 365 ProPlus 앱에 �
 
 ### <a name="software-updates"></a>소프트웨어 업데이트
 
-소프트웨어 업데이트를 위해 네트워크 대역폭을 계획해야 합니다. Windows 10 및 Office 365 ProPlus는 월별 및 반기 업데이트를 제공하는 새로운 서비스 모델을 사용합니다. 이 모델을 처음 접하는 경우 [여기](https://docs.microsoft.com/ko-KR/windows/deployment/update/waas-overview)에서 작동 방식을 자세히 알아볼 수 있습니다.
+소프트웨어 업데이트를 위해 네트워크 대역폭을 계획해야 합니다. Windows 10 및 Office 365 ProPlus는 월별 및 반기 업데이트를 제공하는 새로운 서비스 모델을 사용합니다. 이 모델을 처음 접하는 경우 [여기](https://docs.microsoft.com/windows/deployment/update/waas-overview)에서 작동 방식을 자세히 알아볼 수 있습니다.
 
 새로운 서비스 모델에는 1년에 2번 Windows용 기능 업데이트, Office 반기 채널 업데이트 및 월별 품질 업데이트가 포함되어 있습니다. 기능 업데이트는 크기가 일반적으로 2-4GB이고, Office 반기 채널 업데이트는 업데이트당 300-400MB입니다. 그다음에는 월별 품질 업데이트가 있습니다. 이러한 업데이트 크기는 수백 메가바이트에서 1기가바이트 이상까지 다양합니다. 이러한 다양한 크기는 월별 업데이트가 누적되기 때문이며, 각 Windows 10 버전의 서비스 수명 주기 동안 크기가 커지게 됩니다. 따라서 업데이트를 구현하기 위해 네트워크를 통과해야 하는 데이터 양을 줄이는 데 도움이 되는 도구들이 있습니다. 아래에 이러한 도구에 대한 자세한 설명이 나와 있습니다.
 
@@ -77,7 +77,7 @@ Azure Active Directory가 준비되면 사용자는 Office 365 ProPlus 앱에 �
 
 배포 관련 트래픽이 네트워크에 미치는 영향을 제한하는 한 가지 방법은 클라이언트에서 BITS(Background Intelligent Transfer Service) 설정을 사용하여 제한하는 것입니다. BITS는 ABR(Adaptive Bit Rate)을 사용하여 배포 목적으로 사용할 수 있는 대역폭을 조정합니다. 이러한 BITS는 그룹 정책을 사용하여 클라이언트에서 구성할 수 있습니다.
 
-[BITS 정보](https://docs.microsoft.com/ko-KR/windows/desktop/bits/about-bits)
+[BITS 정보](https://docs.microsoft.com/windows/desktop/bits/about-bits)
 
 System Center Configuration Manager(현재 분기)를 사용하는 경우 BITS 지원 배포 지점을 구성하거나 WDS를 통해 멀티캐스트를 사용하도록 설정할 수도 있습니다.
 
@@ -119,7 +119,7 @@ System Center Configuration Manager에서 지원되는 **피어 캐시** 클라�
 
 **이진 델타 압축** Office 365 ProPlus는 Office 365 ProPlus의 최신 릴리스에서 다음 릴리스로 업데이트할 때 소프트웨어 업데이트가 사용하는 대역폭을 줄이기 위해 이진 델타 압축을 사용합니다. 이전 릴리스에서 이진 수준 변경 내용만 가져오므로 누적 업데이트의 월별 증가에 따른 영향이 최소화됩니다. 이로 인해 매월 PC 1대당 수백 메가바이트의 데이터가 감소될 수 있습니다. 그렇지만 이러한 기능을 사용하기 위해서는 릴리스를 건너뛰면 안 됩니다. 릴리스를 건너뛰게 되면 전체 누적 업데이트를 다운로드해야 합니다.
 
-[Office 365용 업데이트 다운로드](https://docs.microsoft.com/ko-KR/deployoffice/overview-of-the-update-process-for-office-365-proplus#download-the-updates-for-office-365-proplus)
+[Office 365용 업데이트 다운로드](https://docs.microsoft.com/deployoffice/overview-of-the-update-process-for-office-365-proplus#download-the-updates-for-office-365-proplus)
 
 **Outlook 데이터 파일**: 오프라인 사용을 위해 사용자의 전체 사서함을 로컬로 캐시하도록 Outlook을 구성하는 경우가 많습니다. 현재 위치 업그레이드를 제외하고 모든 Windows 배포에서 사용자의 Outlook 데이터 파일은 업그레이드 후에 자체적으로 다시 작성되어야 합니다. 이것은 자동화된 프로세스이지만, 일반적으로 Outlook 사서함 제한을 최대 100GB로 설정한 상태에서 모든 사용자에 대해 로컬로 전체 사서함을 다시 캐시하면 많은 데이터가 전송됩니다. 네트워크 부하를 줄이기 위해 그룹 정책을 사용하여 "오프라인으로 유지할 메일" 설정을 줄이는 것이 바람직할 수 있습니다. Office 365 ProPlus 또는 Office 2016에서 Outlook의 기본값은 12개월로 설정됩니다. 네트워크에 미치는 영향을 줄이려면 오프라인 캐시를 1~6개월 정도 유지하도록 설정하는 것이 좋습니다. 이 설정을 변경해도 온라인 사서함의 크기에는 영향을 주지 않으며, 온라인 상태에서 Outlook을 통해 전체 사서함을 계속 검색할 수 있습니다.
 
@@ -131,7 +131,7 @@ System Center Configuration Manager에서 지원되는 **피어 캐시** 클라�
 
 [알려진 폴더 이동 설정](https://techcommunity.microsoft.com/t5/Microsoft-OneDrive-Blog/Migrate-Your-Files-to-OneDrive-Easily-with-Known-Folder-Move/ba-p/207076)
 
-[OneDrive Files on Demand](https://www.microsoft.com/ko-KR/microsoft-365/blog/2017/05/11/introducing-onedrive-files-on-demand-and-additional-features-making-it-easier-to-access-and-share-files/)
+[OneDrive Files on Demand](https://www.microsoft.com/microsoft-365/blog/2017/05/11/introducing-onedrive-files-on-demand-and-additional-features-making-it-easier-to-access-and-share-files/)
 
 OneDrive를 아직 롤아웃하지 않은 경우 Windows 7에서 Windows 10으로 전환하는 것은 OneDrive를 사용하고 Office 365 ProPlus를 원활하게 통합할 수 있는 완벽한 기회가 될 수 있습니다. 앱 및 디바이스 준비를 진행하면서 이러한 롤아웃을 시작하는 것이 좋습니다. 이렇게 하면 Windows 이미지를 이동하고 네트워크를 통해 앱을 배포하기 전에 파일 동기화를 먼저 시작할 수 있습니다.
 

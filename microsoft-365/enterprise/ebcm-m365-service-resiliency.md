@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 복원력 항목에 대한 설명
-ms.openlocfilehash: 4c718674a70186b004d8fefc5381074dba81c164
-ms.sourcegitcommit: 7690c8bfdea6e6d245cfa7c5b09b913b092cde0a
+ms.openlocfilehash: f2fd50a662076904daf3133e0edf45808ef2c39d
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "37122288"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38031053"
 ---
 # <a name="built-in-resiliency"></a>기본 제공 복원력
 
@@ -26,7 +26,7 @@ Microsoft는 클라우드 공동 작업 공급자로서 일관되게 작동하�
 
 **"SharePoint Online 가동 중지 시간**: 사용자가 적절한 권한이 있는 SharePoint Online 사이트 모음의 일부를 읽거나 쓸 수 없는 기간입니다."
 
-[서비스 수준 계약](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=37)에서 각 서비스에 대한 가동 중지 시간 정의를 확인할 수 있습니다.
+[서비스 수준 계약](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=37)에서 각 서비스에 대한 가동 중지 시간 정의를 확인할 수 있습니다.
 
 계획되거나 예기치 않은 가동 중지 시간을 최소화하기 위해 Microsoft 365 서비스는 다음과 같은 네 가지 영역을 중심으로 장애에 탄력적으로 대처하고 높은 가용성을 유지하도록 설계 및 운영됩니다.
 

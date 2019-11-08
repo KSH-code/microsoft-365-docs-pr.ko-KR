@@ -12,12 +12,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 조직 전체에 대한 Microsoft Teams 교육 및 배포 단계.
-ms.openlocfilehash: e6a4ccc1b7ec5989707e2195b66fa1cf987cd091
-ms.sourcegitcommit: a75e3a93b3431bd26b0d072b37a9c5eb3dcb1c7f
+ms.openlocfilehash: 3f4ed40f3c28e9b8ce5c22dfa9bd93e9b1a9e1cb
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "37889927"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38033603"
 ---
 # <a name="deploy-microsoft-teams-for-microsoft-365-enterprise"></a>Microsoft 365 Enterprise용 Microsoft Teams 배포
 
@@ -63,8 +63,8 @@ Teams의 첫 번째 기능 집합에 대해서는 [Microsoft Teams의 채팅, �
 
 Microsoft 내부를 들여다보고 Microsoft가 Teams를 배포하고 사용하여 공동 작업을 하는 방법을 알아보려면 다음을 참조하세요:
 
-- [Microsoft Teams 도입 전략은 직원들이 새로운 업무 문화를 준비하도록 해줍니다](https://www.microsoft.com/ko-KR/itshowcase/microsoft-teams-adoption-strategy-prepares-employees-for-a-new-culture-of-work)
-- [광범위한 최신 모임 환경을 제공하는 Microsoft Teams Rooms](https://www.microsoft.com/ko-KR/itshowcase/with-microsoft-teams-rooms-comes-a-globally-scalable-modern-meeting-experience)
+- [Microsoft Teams 도입 전략은 직원들이 새로운 업무 문화를 준비하도록 해줍니다](https://www.microsoft.com/itshowcase/microsoft-teams-adoption-strategy-prepares-employees-for-a-new-culture-of-work)
+- [광범위한 최신 모임 환경을 제공하는 Microsoft Teams Rooms](https://www.microsoft.com/itshowcase/with-microsoft-teams-rooms-comes-a-globally-scalable-modern-meeting-experience)
 
 ## <a name="next-steps"></a>다음 단계
 

@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Microsoft 365 Enterprise에 대한 정보 보호 인프라를 배포하는 단계입니다.
-ms.openlocfilehash: 54866ceb1fa72f404a5d255cb130c70fe180c493
-ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
+ms.openlocfilehash: c90fc039124f479629acd5cca414c937a1f5a10d
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "37370455"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38030853"
 ---
 # <a name="phase-6-information-protection"></a>6단계: 정보 보호
 
@@ -51,7 +51,7 @@ ms.locfileid: "37370455"
 
 ## <a name="how-microsoft-does-microsoft-365-enterprise"></a>Microsoft에서 Microsoft 365 Enterprise를 수행하는 방법
 
-Microsoft의 IT 전문가가 [Azure Information Protection을 사용하고 데이터를 보호](https://www.microsoft.com/ko-KR/itshowcase/deploying-and-managing-microsoft-365#primaryR9)하는 방법을 알아보세요.
+Microsoft의 IT 전문가가 [Azure Information Protection을 사용하고 데이터를 보호](https://www.microsoft.com/itshowcase/deploying-and-managing-microsoft-365#primaryR9)하는 방법을 알아보세요.
 
 ## <a name="how-contoso-did-microsoft-365-enterprise"></a>Contoso의 Microsoft 365 Enterprise 사용 방식
 

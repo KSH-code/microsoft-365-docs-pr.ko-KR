@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Windows 7에서 Windows 10으로 수동 업그레이드.
-ms.openlocfilehash: f148815a72c9315db2a6d55f7b8433cc9dddf448
-ms.sourcegitcommit: 12c4d5444d6e0e8825fc85e3e8453fa376746495
+ms.openlocfilehash: 13cdb56b52655ed81932601dd3ff97c90c1daad8
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/29/2019
-ms.locfileid: "35395376"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38033683"
 ---
 # <a name="windows-7-to-windows-10-manual-upgrade-step-by-step-guide"></a>Windows 7에서 Windows 10으로 수동 업그레이드 단계별 가이드
 
@@ -26,7 +26,7 @@ ms.locfileid: "35395376"
 
 ## <a name="windows-10-upgrades-using-the-media-creation-tool-or-iso-files"></a>미디어 만들기 도구 또는 ISO 파일을 사용한 Windows 10 업그레이드
 
-[미디어 만들기 도구](https://www.microsoft.com/en-us/software-download/windows10ISO)를 사용하여 직접 Windows 10으로 업그레이드할 수도 있고, 미디어 만들기 도구를 사용하여 Windows 10을 ISO 파일로 다운로드할 수도 있습니다. 먼저 기존 시스템이 32비트인지 아니면 64비트인지와 Windows 7의 시스템 기본 언어 및 버전(예: Home, Professional 또는 Enterprise)을 확인해 두어야 합니다. Windows 7의 경우 이 정보는 제어판 \> 시스템 및 보안 \> 시스템에 있습니다. 미디어 만들기 도구는 Windows 10 Enterprise의 업그레이드, 설치 미디어 만들기 또는 ISO 파일 다운로드를 지원하지 않습니다. Windows 7 Enterprise에서 업그레이드하려는 경우에는 Windows 10 Enterprise가 필요합니다.
+[미디어 만들기 도구](https://www.microsoft.com/software-download/windows10ISO)를 사용하여 직접 Windows 10으로 업그레이드할 수도 있고, 미디어 만들기 도구를 사용하여 Windows 10을 ISO 파일로 다운로드할 수도 있습니다. 먼저 기존 시스템이 32비트인지 아니면 64비트인지와 Windows 7의 시스템 기본 언어 및 버전(예: Home, Professional 또는 Enterprise)을 확인해 두어야 합니다. Windows 7의 경우 이 정보는 제어판 \> 시스템 및 보안 \> 시스템에 있습니다. 미디어 만들기 도구는 Windows 10 Enterprise의 업그레이드, 설치 미디어 만들기 또는 ISO 파일 다운로드를 지원하지 않습니다. Windows 7 Enterprise에서 업그레이드하려는 경우에는 Windows 10 Enterprise가 필요합니다.
 
 ![](media/windows-7-to-windows-10-upgrade-manual-media/windows-7-to-windows-10-upgrade-manual-media-1.png)
 
@@ -108,6 +108,6 @@ Windows 7으로 돌아가기 프로세스를 시작하려면 설정 \> 업데이
 
 ## <a name="moving-to-windows-10-on-a-new-pc"></a>새 PC에서 Windows 10으로 이동
 
-새 PC에서 Windows 10으로 이동하는 것도 좋은 방법입니다. 새 PC에서 Windows 10으로 이동하려는 경우, [OneDrive](https://support.office.com/article/b5e918be-0fd4-4095-98da-bceed57f8e0c?ocid=MoveToWindows10) 백업 또는 [Windows에서 기본 제공하는 백업 및 복원](https://support.microsoft.com/help/4469209?ocid=MoveToWindows10)을 사용하거나, 수동으로 [외부 스토리지 디바이스](https://support.microsoft.com/en-us/help/4465814/windows-7-move-files-off-pc-with-an-external-storage-device?ocid=MoveToWindows10)를 사용하거나 [Laplink PCmover Express](https://www.microsoft.com/en-us/windows/transfer-your-data)와 같은 도구를 사용하여 기존 컴퓨터의 파일을 전송할 수 있습니다. 이 중에서 어떠한 옵션을 사용해도 Windows 10에 포함되어 있지 않으나 필요한 애플리케이션을 다시 설치할 수 있습니다. Windows 7을 실행하는 기존 PC에서 Windows 10을 실행하는 새 PC로 수동으로 이동하는 옵션에 대해 자세히 알아보려면 Windows 지원의 [Windows 10 PC로 이동](https://support.microsoft.com/en-us/help/4229823?ocid=MoveToWindows10)을 참조하세요.
+새 PC에서 Windows 10으로 이동하는 것도 좋은 방법입니다. 새 PC에서 Windows 10으로 이동하려는 경우, [OneDrive](https://support.office.com/article/b5e918be-0fd4-4095-98da-bceed57f8e0c?ocid=MoveToWindows10) 백업 또는 [Windows에서 기본 제공하는 백업 및 복원](https://support.microsoft.com/help/4469209?ocid=MoveToWindows10)을 사용하거나, 수동으로 [외부 스토리지 디바이스](https://support.microsoft.com/help/4465814/windows-7-move-files-off-pc-with-an-external-storage-device?ocid=MoveToWindows10)를 사용하거나 [Laplink PCmover Express](https://www.microsoft.com/windows/transfer-your-data)와 같은 도구를 사용하여 기존 컴퓨터의 파일을 전송할 수 있습니다. 이 중에서 어떠한 옵션을 사용해도 Windows 10에 포함되어 있지 않으나 필요한 애플리케이션을 다시 설치할 수 있습니다. Windows 7을 실행하는 기존 PC에서 Windows 10을 실행하는 새 PC로 수동으로 이동하는 옵션에 대해 자세히 알아보려면 Windows 지원의 [Windows 10 PC로 이동](https://support.microsoft.com/help/4229823?ocid=MoveToWindows10)을 참조하세요.
 
 ## <a name="desktop-deployment-centerhttpsakamshowtoshift"></a>[데스크톱 배포 센터](https://aka.ms/howtoshift)

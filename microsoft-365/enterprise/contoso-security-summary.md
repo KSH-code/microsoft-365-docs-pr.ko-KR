@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Contoso가 Microsoft 365 Enterprise에서 보안 기능을 사용하는 방법
-ms.openlocfilehash: 394120f811057258afe1bd29e60733e42bf5191a
-ms.sourcegitcommit: 4acd6fc368f547eb7a25d04799cb1a77003b143d
+ms.openlocfilehash: ada72460adffce46951b8784d90b6cfa29b35bc3
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "37372719"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38031103"
 ---
 # <a name="summary-of-microsoft-365-enterprise-security-for-the-contoso-corporation"></a>Contoso Corporation의 Microsoft 365 Enterprise 보안 요약
 
@@ -111,7 +111,7 @@ Contoso의 보안 관리자 및 IT 부서는 보안 모범 사례 및 Microsoft 
 
 - Office 365 데이터 손실 방지로 인트라넷 데이터 누수 방지
 
-  Contoso는 Exchange Online, SharePoint 및 비즈니스용 OneDrive에 대해 [데이터 손실 방지](https://docs.microsoft.com/ko-KR/microsoft-365/compliance/data-loss-prevention-policies) 정책을 구성하여 사용자들이 실수로 또는 의도적으로 중요한 데이터를 공유하지 못하도록 하고 있습니다.
+  Contoso는 Exchange Online, SharePoint 및 비즈니스용 OneDrive에 대해 [데이터 손실 방지](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies) 정책을 구성하여 사용자들이 실수로 또는 의도적으로 중요한 데이터를 공유하지 못하도록 하고 있습니다.
 
 - Windows Information Protection로 장치 데이터 누수 방지
 

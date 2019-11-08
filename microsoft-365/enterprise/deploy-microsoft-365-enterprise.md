@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 조직에서 Microsoft 365 Enterprise 배포하는 데 사용할 수 있는 리소스를 파악 합니다.
-ms.openlocfilehash: 0dcbe9e39f33cab65dff6033f0b78ceb7e1c42cc
-ms.sourcegitcommit: db580dc2626328d324f65c7380a5816a500688a7
+ms.openlocfilehash: 35f5c789d4e8db13cb46a568fc58f49bce4d3c96
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37437868"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38031963"
 ---
 # <a name="deploy-microsoft-365-enterprise"></a>Microsoft 365 Enterprise 배포
 
@@ -115,7 +115,7 @@ TLG를 사용하면 복잡한 구성, 워크로드 또는 종단 간 시나리�
 
 동시에, 지능형 보안 기능과 제품 통합이 적용되어 관리 요구 사항을 간소화하고 IT 수명 주기에서 총 소유 비용을 최소화합니다. 
 
-CSEO(Core Services Engineering and Operations)(이전의 Microsoft IT)가 안전한 환경에서 창의성을 발휘하고 팀워크를 조성하는 응용 프로그램과 서비스를 지원하기 위한 [토대를 계획하고 배포한](https://www.microsoft.com/ko-KR/itshowcase/deploying-and-managing-microsoft-365) 방법에 대해 알아봅니다.
+CSEO(Core Services Engineering and Operations)(이전의 Microsoft IT)가 안전한 환경에서 창의성을 발휘하고 팀워크를 조성하는 응용 프로그램과 서비스를 지원하기 위한 [토대를 계획하고 배포한](https://www.microsoft.com/itshowcase/deploying-and-managing-microsoft-365) 방법에 대해 알아봅니다.
 
 > [!Note]
 > 이 웹 페이지는 영어로만 제공됩니다.
