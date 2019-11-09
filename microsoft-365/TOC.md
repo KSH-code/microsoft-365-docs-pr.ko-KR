@@ -1,1 +1,1 @@
-# [색인](index.md)
+# [색인](index.yml)
