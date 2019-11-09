@@ -1,0 +1,67 @@
+### YamlMime:Hub
+title: 관리자 및 IT 전문가 용 Microsoft 365 도움말 센터
+summary: Microsoft 365 도움말 및 교육 리소스를 탐색 합니다.
+brand: m365
+metadata:
+  title: 관리자 및 IT 전문가 용 Microsoft 365 도움말 센터
+  description: 조직, 소규모 비즈니스, 캠페인 또는 교육자 및 학생을 지원 하기 위해 Microsoft 365를 설정, 배포 및 관리 합니다.
+  services: office-365-security-compliance
+  ms.service: O365-seccomp
+  ms.topic: hub-page
+  ms.collection: m365-security-compliance
+  author: robmazz
+  ms.author: robmazz
+  ms.date: 11/08/2019
+  localization_priority: Priority
+  ms.openlocfilehash: 770cd0927ebab80a545b56de04ed3d4de0226989
+  ms.sourcegitcommit: 93cef4906c5495ae293450ceb52d6cc336f52b53
+  ms.translationtype: MT
+  ms.contentlocale: ko-KR
+  ms.lasthandoff: 11/08/2019
+  ms.locfileid: "38076374"
+highlightedContent:
+  items:
+  - title: 관리자 및 IT 전문가를 위한 교육
+    itemType: learn
+    url: https://docs.microsoft.com/learn/m365/
+  - title: 최종 사용자를 위한 교육
+    itemType: learn
+    url: https://support.microsoft.com
+  - title: 소규모 기업을 위한 교육
+    itemType: learn
+    url: https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816
+  - title: IT 전문가를 위한 테스트 랩 가이드
+    itemType: how-to-guide
+    url: ./enterprise/m365-enterprise-test-lab-guides.md
+  - title: Microsoft 365 기술 커뮤니티
+    itemType: get-started
+    url: https://techcommunity.microsoft.com/t5/Microsoft-365/ct-p/microsoft365
+  - title: 개발자를 위한 리소스
+    itemType: reference
+    url: https://developer.microsoft.com/microsoft-365
+additionalContent:
+  sections:
+  - title: Microsoft 365에 대 한 도움말 보기
+    summary: Microsoft 365에 대 한 자세한 내용은 카드를 선택 합니다.
+    items:
+    - title: Microsoft 365 Business
+      summary: 중소 중소기업을 위해 설계 되었습니다. 최신 버전의 Windows 및 Excel 및 Outlook과 같은 Office 앱을 사용 하 여 비즈니스를 실행 합니다. 모든 비즈니스 장치에 확장 되는 데이터 보호 및 보안을 활용 합니다.
+      url: ./business/index.yml
+    - title: Microsoft 365 Enterprise
+      summary: 대규모 조직을 위해 설계 되었습니다. 비즈니스를 보호 하 고 Office 앱, Windows 10 및 Enterprise Mobility + Security에서 작업 하는 방식을 변환 합니다.
+      url: ./enterprise/index.md
+    - title: Microsoft 365 Education
+      summary: 교육자가 디자인을 해제 하 고, 팀 작업을 홍보 하며, 교육을 위해 구축 된 단일 저렴 한 솔루션에서 간단 하 고 안전한 환경을 제공 하도록 설계 되었습니다.
+      url: https://docs.microsoft.com/education/
+    - title: Microsoft 365 규정 준수
+      summary: 조직에서 정보를 관리 하 고 위험 으로부터 보호 하며 법률 또는 규제 표준을 준수 하도록 지원 합니다.
+      url: ./compliance/index.yml
+    - title: Microsoft 365 보안
+      summary: 공격 표면에서 기업 보호를 지원 합니다.
+      url: ./security/index.yml
+    - title: 캠페인을 위한 Microsoft 365
+      summary: 캠페인 또는 비즈니스 데이터와 통신은 Microsoft 365 Business에 대 한이 권장 구성을 사용 하 여 안전 하 게 유지 하세요.
+      url: ./campaigns/index.md
+    - title: 신규-microsoft에서 365 Microsoft에 대해 알아봅니다.
+      summary: 새로운 학습 경로를 통해 Microsoft 365 기술을 향상 하 고 인증을 획득 합니다.
+      url: https://docs.microsoft.com/learn/m365/
