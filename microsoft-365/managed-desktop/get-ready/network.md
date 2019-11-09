@@ -4,15 +4,15 @@ description: ''
 keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 설명서
 ms.service: m365-md
 author: jaimeo
+ms.author: jaimeo
 ms.localizationpriority: normal
-ms.date: 09/24/2018
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 5b2b1a147659bf58c9b8ded26d6774994a3c1682
-ms.sourcegitcommit: 3d37043c0447359c952dc99026c219dd69f6fb8d
+ms.openlocfilehash: a6397f1c78bb15e198ed75be50c51953b049ed68
+ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "38012213"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "38074696"
 ---
 #  <a name="network-configuration-for-microsoft-managed-desktop"></a>Microsoft Managed Desktop에 대 한 네트워크 구성
 
@@ -23,19 +23,19 @@ ms.locfileid: "38012213"
 
 Microsoft Managed Desktop은 클라우드 관리 서비스입니다. Microsoft Managed Desktop 서비스가 연결할 수 있어야 하는 끝점 집합이 있습니다. 이 섹션에는 Microsoft Managed Desktop service의 다양 한 측면에서 허용 해야 하는 끝점이 나열 되어 있습니다. 
 
-고객은 모든 신뢰할 수 있는 Microsoft 365 네트워크 요청을 방화벽/프록시를 통해 직접 보내거나 인증을 우회 하 고 모든 추가 패킷 수준 검사 또는 처리를 수행 하 여 네트워크를 최적화 합니다. 이렇게 하면 대기 시간 및 경계 용량 요구 사항이 줄어듭니다. 
+고객은 모든 신뢰할 수 있는 Microsoft 365 네트워크 요청을 방화벽 또는 프록시를 통해 직접 보내거나 인증을 우회 하 고 모든 추가 패킷 수준 검사 또는 처리를 수행 하 여 네트워크를 최적화 합니다. 이렇게 하면 대기 시간 및 경계 용량 요구 사항이 줄어듭니다. 
 
 또한 Microsoft Managed Desktop 클라우드 기반 서비스에 대 한 성능을 최적화 하기 위해 이러한 끝점에는 고객 클라이언트 브라우저 및 해당에 지 네트워크의 장치에서 특별 하 게 처리 해야 합니다. 이러한 장치에는 방화벽, SSL 중단 및 검사, 패킷 검사 장치 및 데이터 손실 방지 시스템이 포함 됩니다.
 
 ### <a name="proxy-requirement"></a>프록시 요구 사항
 
-프록시 또는 방화벽은 TLS 1.2를 지원 해야 합니다. 그렇지 않으면 고객이 프로토콜 검색을 사용 하지 않도록 설정할 수 있습니다.
+프록시 또는 방화벽은 TLS 1.2를 지원 해야 합니다. 그렇지 않으면 프로토콜 검색을 사용 하지 않도록 설정할 수 있습니다.
 
 ### <a name="endpoints-allowed---specific-for-microsoft-managed-desktop"></a>허용 되는 Microsoft Managed Desktop에 관련 된 끝점
 
 Microsoft Managed Desktop은 Azure Portal을 사용 하 여 웹 콘솔을 호스팅합니다. Microsoft 관리 되는 데스크톱 장치가 Microsoft 서비스와 통신할 수 있도록 아래 표에 나와 있는 다음 Url을 프록시 및 방화벽의 허용 목록에 두어야 합니다.  
 
-아래의 Microsoft Managed Desktop URL은 고객 API에서 서비스가 실행 되는 모든 용도로 사용 됩니다. 고객은 회사 네트워크에서이 URL에 항상 액세스할 수 있도록 해야 합니다.
+아래의 Microsoft Managed Desktop URL은 고객 API에서 서비스가 실행 되는 모든 용도로 사용 됩니다. 회사 네트워크에서이 URL에 항상 액세스할 수 있는지 확인 해야 합니다.
 
 Microsoft 서비스  | 허용 목록에 필요한 Url 
 --- | --- | ---
@@ -56,8 +56,7 @@ Microsoft 서비스 | 설명서 원본-허용 목록에 필요한 Url
 Office 365 | [Office 365 URL 및 IP 주소 범위](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)
 Azure Active Directory | [하이브리드 id 필수 포트 및 프로토콜](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-ports) , [Active Directory 및 Active Directory 도메인 서비스 포트 요구 사항](https://aka.ms/AA26ygm) 
 Microsoft Intune | [Intune 네트워크 구성 요구 사항](https://docs.microsoft.com/intune/network-bandwidth-use)
-Microsoft Defender ATP (Advanced Threat Protection) | [Microsoft Defender ATP 끝점] (https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/configure-proxy-internet-windows-defender-advanced-threat-protection#enable-access-to-windows-defender-atp-service-urls-in-the-proxy-server
-)
+Microsoft Defender ATP (Advanced Threat Protection) | [Microsoft Defender ATP 끝점](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-atp/configure-proxy-internet-windows-defender-advanced-threat-protection#enable-access-to-windows-defender-atp-service-urls-in-the-proxy-server)
 
 <!---
 Microsoft service  | URLs required on allow list | Documentation source

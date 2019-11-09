@@ -1,19 +1,20 @@
 ---
-title: Microsoft Managed Desktop에 대 한 인증서 및 네트워크 프로필 준비
+title: Microsoft Managed Desktop 인증서 및 네트워크 프로필 준비
 description: 인증서/i a c/lan
 keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 설명서
 ms.service: m365-md
 author: jaimeo
+ms.author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 7c260ce7b3fcb488cb22fb054eeb6ba322fee94b
-ms.sourcegitcommit: ef1382ca224a0c108df2633a6550786666691e1c
+ms.openlocfilehash: eadaa3ab7e381081be4e47054e70d7b8d1924385
+ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/22/2019
-ms.locfileid: "34391269"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "38074680"
 ---
-# <a name="prepare-certificates-and-network-profiles-for-microsoft-managed-desktop"></a>Microsoft Managed Desktop에 대 한 인증서 및 네트워크 프로필 준비  
+# <a name="prepare-certificates-and-network-profiles-for-microsoft-managed-desktop"></a>Microsoft Managed Desktop 인증서 및 네트워크 프로필 준비  
  
 인증서 기반 인증은 Microsoft Managed Desktop을 사용 하는 고객에 게 일반적인 요구 사항입니다. Wi-fi 또는 LAN에 액세스 하거나, VPN 솔루션에 연결 하거나, 조직의 내부 리소스에 액세스 하려면 인증서가 필요할 수 있습니다.   
  
@@ -49,8 +50,8 @@ Microsoft Managed Desktop 장치에 Wi-fi 구성을 배포 하기 전에 각 Wi-
 1. 기존 802.1 x 프로필이 구성 되어 있고 LAN 네트워크에 연결 되어 있는 장치에 로그온 합니다.  
 2. 관리 자격 증명을 사용 하 여 명령 프롬프트를 엽니다. 
 3. **Netsh interface show interface**를 실행 하 여 LAN 인터페이스 이름을 찾습니다. 
-4. **Netsh lan export profile folder =를 실행 하 여 LAN 프로필 XML을 내보냅니다.  Interface = "interface_name"**. 
-5. 내보낸 프로필을 Microsoft Managed Desktop 장치에서 테스트 해야 하는 경우 **netsh lan add 프로필 filename = "PATH_AND_FILENAME" interface = "INTERFACE_NAME"** 를 실행 합니다. 
+4. **Netsh lan export profile folder =를 실행 하 여 LAN 프로필 XML을 내보냅니다.  Interface = "interface_name"** 
+5. 내보낸 프로필을 Microsoft Managed Desktop 장치에서 테스트 해야 하는 경우에는 **netsh lan add profile filename = "PATH_AND_FILENAME .xml" interface = "INTERFACE_NAME"** 를 실행 합니다. 
  
  
 ## <a name="deploy-certificate-infrastructure"></a>인증서 인프라 배포  
@@ -78,8 +79,8 @@ LAN 프로필을 내보낸 후에는 다음 단계를 수행 하 여 Microsoft M
  
 인증서 및 프로필을 배포 하려면 다음 단계를 수행 합니다.
 
-1. 각 루트 및 중간 인증서에 대 한 프로필을 만듭니다 ( [신뢰할 수 있는 인증서 프로필 만들기](https://docs.microsoft.com/intune/certificates-configure#step-3-create-trusted-certificate-profiles)참조). 이러한 각 프로필에는 DD/MM/YYYY 형식의 만료 날짜가 포함 된 설명이 있어야 합니다. **만료 날짜가 없는 인증서 프로필은 배포 되지 않습니다.**
-2. 각 SCEP 또는 PKCS 인증서에 대 한 프로필 만들기 ( [scep 인증서 프로필](https://docs.microsoft.com/intune/certificates-scep-configure#create-a-scep-certificate-profile) 만들기 또는 [Pkcs 인증서 프로필 만들기](https://docs.microsoft.com/intune/certficates-pfx-configure#create-a-pkcs-certificate-profile)참조) 각 프로필에는 만료 날짜를 DD/MM/YYYY 형식으로 포함 하는 설명이 있어야 합니다. **만료 날짜가 없는 인증서 프로필은 배포 되지 않습니다.**
+1. 각 루트 및 중간 인증서에 대 한 프로필을 만듭니다 ( [신뢰할 수 있는 인증서 프로필 만들기](https://docs.microsoft.com/intune/protect/certificates-configure#step-3-create-trusted-certificate-profiles)참조). 이러한 각 프로필에는 DD/MM/YYYY 형식의 만료 날짜가 포함 된 설명이 있어야 합니다. **만료 날짜가 없는 인증서 프로필은 배포 되지 않습니다.**
+2. 각 SCEP 또는 PKCS 인증서에 대 한 프로필 만들기 ( [scep 인증서 프로필](https://docs.microsoft.com/intune/protect/certificates-scep-configure#create-a-scep-certificate-profile) 만들기 또는 [Pkcs 인증서 프로필 만들기](https://docs.microsoft.com/intune/protect/certficates-pfx-configure#create-a-pkcs-certificate-profile)참조) 각 프로필에는 만료 날짜를 DD/MM/YYYY 형식으로 포함 하는 설명이 있어야 합니다. **만료 날짜가 없는 인증서 프로필은 배포 되지 않습니다.**
 3. 각 회사 WiFi 네트워크에 대 한 프로필을 만듭니다 ( [Windows 10 이상 장치에 대 한 wi-fi 설정](https://docs.microsoft.com/intune/wi-fi-settings-windows)참조).
 4. 각 회사 VPN에 대 한 프로필을 만듭니다 ( [Intune을 사용 하 여 VPN 연결을 추가 하려면 windows 10 및 Windows Holographic 장치 설정](https://docs.microsoft.com/intune/vpn-settings-windows-10)참조).
 5. Microsoft Managed Desktop Administration portal을 사용 하 여 Microsoft Managed Desktop IT 작업에 "인증서 배포" 또는 "Wi-fi 프로필 배포" 라는 지원 요청을 제출 하 여 구성 프로필을 검토 하 고 "최신 작업 공간 장치-테스트"로 배포 합니다. ". Microsoft Managed Desktop IT 작업을 통해 관리자 포털의 지원 요청을 통해 요청이 완료 된 시기를 알 수 있습니다. 

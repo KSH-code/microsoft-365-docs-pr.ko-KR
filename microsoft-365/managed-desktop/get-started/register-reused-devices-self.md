@@ -5,12 +5,12 @@ ms.prod: w10
 author: jaimeo
 ms.author: jaimeo
 ms.localizationpriority: medium
-ms.openlocfilehash: 51db9c88710605c6203023b343edc4359556d57d
-ms.sourcegitcommit: 9aaedbab11fd1a1d289eeb8f853d321f32cb7edc
+ms.openlocfilehash: e11b72228dceb5a4999e6b9398efde02a41ca163
+ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37577774"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "38074740"
 ---
 # <a name="register-existing-devices-yourself"></a>직접 기존의 장치 등록
 
@@ -71,20 +71,25 @@ System Center Configuration Manager를 사용 하 여 Microsoft Managed Desktop�
 4. **보고서 작성기**에서 **데이터 원본:** 을 선택 합니다. "AutoGen"로 시작 하는 기본 데이터 원본을 선택 합니다. 
 5. **텍스트 형식 쿼리**를 선택 하 고 다음 쿼리를 입력 합니다.
 
-```
 
+
+
+```sql
 SELECT comp.manufacturer0      AS Manufacturer,  
        comp.model0             AS Model,  
        bios.serialnumber0      AS Serial_Number,  
        mdm.devicehardwaredata0 AS HardwareHash  
-FROM   Fn_rbac_gs_computer_system(@UserSIDs) comp  
+FROM   Fn_rbac_gs_computer_system(@UserSIDs) comp
+
        INNER JOIN Fn_rbac_gs_pc_bios(@UserSIDs) bios  
                ON comp.resourceid = bios.resourceid  
        INNER JOIN Fn_rbac_gs_mdm_devdetail_ext01(@UserSIDs) mdm  
                ON comp.resourceid = mdm.resourceid
-
-
 ```
+
+
+
+
 5. **필드** 탭으로 이동 하 고 **필드 이름** 및 **필드 원본** 에 대 한 wehre 값을 이미 채워야 합니다. 그렇지 않은 경우에는 **추가**를 선택한 다음 **쿼리 필드**를 선택 합니다. **필드 이름** 및 **필드 원본을**입력 합니다.
 6. 다음 각 값에 대해이 단계를 반복 합니다. 
     - 회사 
@@ -115,7 +120,7 @@ FROM   Fn_rbac_gs_computer_system(@UserSIDs) comp 
 
 
 > [!IMPORTANT]
-> 구성 관리자의 쿼리는 내보낸 열 이름에 공백을 사용할 수 없습니다. 이 단계에서는 "Serial_Number" 및 "HardwareHash"를 입력 했을 때의 이유입니다. 내보낸 CSV 파일이 있으므로 여기에 표시 된 것 처럼 *일련 번호* 및 *하드웨어 해시* 를 읽도록 보고서 헤더를 편집 해야 device registration을 계속 진행할 수 있습니다.
+> 구성 관리자의 쿼리는 내보낸 열 이름에 공백을 사용할 수 없습니다. 이러한 이유는 "Serial_Number" 및 "HardwareHash"를 입력 하는 단계입니다. 내보낸 CSV 파일이 있으므로 여기에 표시 된 것 처럼 *일련 번호* 및 *하드웨어 해시* 를 읽도록 보고서 헤더를 편집 해야 device registration을 계속 진행할 수 있습니다.
 
 이제 [Azure Portal을 사용 하 여 장치 등록](#register-devices-by-using-the-azure-portal)을 계속할 수 있습니다.
 
@@ -211,7 +216,7 @@ Microsoft Managed Desktop [Azure Portal](https://aka.ms/mmdportal)의 왼쪽 탐
 <!--Registering any existing devices with Managed Desktop will completely re-image them; make sure you've backed up any important data prior to starting the registration process.-->
 
 
-다음 단계를 따릅니다.
+다음 단계를 따릅니다:
 
 1. **파일 업로드**에서 이전에 만든 CSV 파일의 경로를 제공 합니다.
 2. 원하는 경우 사용자의 추적 목적으로 **주문 id** 또는 **구매 ID** 를 추가할 수 있습니다. 이러한 값에 대 한 형식 요구 사항은 없습니다.

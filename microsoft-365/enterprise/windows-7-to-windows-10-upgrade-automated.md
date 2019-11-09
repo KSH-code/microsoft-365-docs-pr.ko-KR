@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 대규모 조직을 위한 Windows 7에서 Windows 10으로 자동 업그레이드
-ms.openlocfilehash: 4d1601c23d160d5618d491cd168583c78b54181c
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 6cf7b25c584b94b077b95b35be58f6cd5ef75ac5
+ms.sourcegitcommit: 547bfc5f1fec7545cbe71b1919454425556c9227
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38033633"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "38078087"
 ---
 # <a name="windows-7-to-windows-10-automated-in-place-upgrades-for-large-organizations"></a>대규모 조직을 위한 Windows 7에서 Windows 10으로 현재 위치에서 자동 업그레이드
 
@@ -44,7 +44,7 @@ Windows 10의 현재 위치 업그레이드는 파일 마이그레이션 또는 
 
 ## <a name="upgrading-a-small-number-of-computers"></a>적은 수의 컴퓨터 업그레이드
 
-단일 컴퓨터 또는 소수의 컴퓨터의 경우 수동으로 업그레이드를 하는 접근법은 자동화된 접근법과 비교했을 때 가장 좋은 옵션입니다. [Microsoft Store](https://go.microsoft.com/fwlink/p/?LinkId=808282), 다른 소프트웨어 대리점 또는 볼륨 라이선스가 있는 경우 [볼륨 라이선스 서비스 센터](https://www.microsoft.com/licensing/servicecenter/default.aspx)에서 필수 소프트웨어와 라이선스를 확인할 수 있습니다. 단일 PC를 Windows 10으로 업그레이드하는 방법과 업그레이드 후 복원 옵션에 대한 자세한 내용은 [Windows 7에서 Windows 10으로 수동 업그레이드 단계별 가이드](https://docs.microsoft.com/ko-KR/microsoft-365/enterprise/windows-7-to-windows-10-upgrade)를 참조하세요.
+단일 컴퓨터 또는 소수의 컴퓨터의 경우 수동으로 업그레이드를 하는 접근법은 자동화된 접근법과 비교했을 때 가장 좋은 옵션입니다. [Microsoft Store](https://go.microsoft.com/fwlink/p/?LinkId=808282), 다른 소프트웨어 대리점 또는 볼륨 라이선스가 있는 경우 [볼륨 라이선스 서비스 센터](https://www.microsoft.com/licensing/servicecenter/default.aspx)에서 필수 소프트웨어와 라이선스를 확인할 수 있습니다. 단일 PC를 Windows 10으로 업그레이드하는 방법과 업그레이드 후 복원 옵션에 대한 자세한 내용은 [Windows 7에서 Windows 10으로 수동 업그레이드 단계별 가이드](https://docs.microsoft.com/microsoft-365/enterprise/windows-7-to-windows-10-upgrade)를 참조하세요.
 
 ## <a name="how-to-upgrade-many-computers"></a>많은 컴퓨터를 업그레이드하는 방법
 

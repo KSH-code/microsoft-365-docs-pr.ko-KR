@@ -14,12 +14,12 @@ ms.assetid: c534a35d-b121-45da-9d0a-ce738ce51fce
 ms.collection:
 - M365-security-compliance
 description: 이 항목에서는 스팸 방지 보호 기능에 대한 질문과 대답을 제공합니다. 대답은 Microsoft Exchange Online 및 EOP(Exchange Online Protection) 고객에게 해당됩니다.
-ms.openlocfilehash: 7e84aa35d3269e4b22fd8ea868b55249b422f268
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: d858706a80cf66772ea3a422e07d4f773935446c
+ms.sourcegitcommit: 93cef4906c5495ae293450ceb52d6cc336f52b53
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38034189"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "38076322"
 ---
 # <a name="anti-spam-protection-faq"></a>스팸 방지 및 보호 FAQ
 
@@ -89,7 +89,7 @@ Exchange Online Protection 고객: [Reporting and message trace In Exchange Onli
   
  **질문. 타사 스팸 방지 및 맬웨어 방지 공급자와 Exchange Online을 함께 사용할 수 있습니까?**
   
-대답. 예. Exchange Online 사서함을 보호하도록 다른 스팸 및 맬웨어 필터링 서비스를 구성할 수 있습니다. 인바운드 메일에 대해 이렇게 하려면 타사 공급자를 가리키도록 MX 레코드를 변경하여 이메일 메시지를 타사 공급자로 리디렉션한 다음 추가 처리를 위해 메시지를 EOP로 리디렉션해야 합니다. 아웃바운드 메일에 대해 이렇게 하려면 [Scenario: Outbound Smart Hosting](https://technet.microsoft.com/library/431b3f02-4efd-4bd3-94e7-eecd03f8ef5e.aspx)에 표시된 대로 메시지 배달 대상을 타사 공급자(스마트 호스트)로 구성합니다.
+대답. 예, 다른 스팸 및 맬웨어 필터링 서비스를 구성 하 여 Exchange Online 사서함을 보호할 수 있습니다. 인바운드 메일에 대해이 작업을 수행 하려면 타사 공급자를 가리키도록 MX 레코드를 변경 하 여 타사 공급자에 게 전자 메일 메시지를 리디렉션한 다음 추가 처리를 위해 메시지를 EOP로 리디렉션합니다. 아웃 바운드 메일에 대해이 작업을 수행 하려면 메시지 배달 대상을 타사 공급자 (스마트 호스트)로 구성 하십시오.
   
  **질문. Microsoft에 피싱 메일로부터 자기 자신을 보호할 수 있는 방법에 대한 설명서가 있습니까?**
   
@@ -125,7 +125,7 @@ Exchange Online Protection 고객: [Reporting and message trace In Exchange Onli
     
     [스푸핑을 방지할 수 있도록 Office 365에서 SPF 설정](set-up-spf-in-office-365-to-help-prevent-spoofing.md)
     
-    [Office 365용 DNS 레코드 만들기](https://go.microsoft.com/fwlink/?LinkID=275414)
+    [도메인 FAQ](/office365/admin/setup/domains-faq)
     
 5. **DKIM으로 전자 메일에 서명을 하는 경우 낮은 수준의 정규화로 서명합니다.**
     

@@ -5,12 +5,12 @@ ms.prod: w10
 author: jaimeo
 ms.author: jaimeo
 ms.localizationpriority: medium
-ms.openlocfilehash: 971b17d3f9fad15d5c254d47af9b6eb30b66633c
-ms.sourcegitcommit: 3d37043c0447359c952dc99026c219dd69f6fb8d
+ms.openlocfilehash: ceda5765ca6450959c99222daf457cf7584401ba
+ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "38011949"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "38074730"
 ---
 # <a name="steps-for-partners-to-register-devices"></a>파트너가 장치를 등록하기 위한 단계
 
@@ -35,6 +35,8 @@ ms.locfileid: "38011949"
   
   
   ```
+
+
 
 
 >[!NOTE]
@@ -65,7 +67,7 @@ Azure Portal을 사용 하 여 등록 하는 것은 다른 방법으로 포털�
 
 기본 **Microsoft Managed Desktop-Devices** 페이지에서 장치 등록의 진행 상태를 모니터링할 수 있습니다. 다음과 같은 가능한 상태가 보고 됩니다.
 
-| 시/도 | Description |
+| 시/도 | 설명 |
 |---------------|-------------|
 | 등록 보류 중 | 등록이 아직 완료 되지 않았습니다. 나중에 다시 확인 합니다. |
 | 등록 실패 | 등록을 완료할 수 없습니다. 자세한 내용은 [장치 등록 문제 해결](register-devices-self.md#troubleshooting-device-registration) 을 참조 하세요. |
