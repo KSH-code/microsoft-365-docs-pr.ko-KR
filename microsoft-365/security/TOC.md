@@ -3,6 +3,7 @@
 ## 시작
 ### [BDM에 대한 Microsoft 365 보안](Microsoft-365-security-for-bdm.md)
 ### [Secure Score](./mtp/microsoft-secure-score.md)
+### [보안 점수(미리 보기)](./mtp/microsoft-secure-score-preview.md)
 ### [최고 정보 보안 책임자(CISO) 워크샵 교육](./office-365-security/ciso-workshop.md)
 #### [모듈 1 - Microsoft 사이버 보안 브리핑](./office-365-security/ciso-workshop-module-1.md)
 #### [모듈 2 - 보안 관리](./office-365-security/ciso-workshop-module-2.md)
