@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 ms.assetid: 5b4ba843-24b8-4526-8e1f-f9b9eab89d06
 description: Office 365 Business Premium에서 Microsoft 365 Business로 비즈니스를 업그레이드 하는 단계입니다.
-ms.openlocfilehash: 1e337b908f848da1d33cbd8e662652550d302b14
-ms.sourcegitcommit: 0fa897d06b664c0ed005817752da1426d4ee17cb
+ms.openlocfilehash: f3a25746cf123fa471c29084a62a6fcfc1542a02
+ms.sourcegitcommit: f0a4290793e296474ecd3c6eb0ca96eae7faa434
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "38002132"
+ms.lasthandoff: 11/11/2019
+ms.locfileid: "38231414"
 ---
 # <a name="upgrade-to-microsoft-365-business-from-office-365-business-premium"></a>Office 365 Business Premium에서 Microsoft 365 Business로 업그레이드
 
@@ -38,39 +38,6 @@ Microsoft 365 Business ( [Microsoft.com](https://www.microsoft.com/microsoft-365
 ## <a name="whats-the-difference-between-office-365-business-premium-and-microsoft-365-business"></a>Office 365 Business Premium과 Microsoft 365 Business의 차이점은 무엇 인가요?
 [Microsoft 365 비즈니스 서비스 설명](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-business-service-description)에 이러한 두 요금제를 나란히 비교 하 여 추가 했습니다. 
 
-1. 새 라이선스를 구매한 후이를 처음 시작 하면 Microsoft 365 Business 설치 배너가 관리 센터 위에 표시 됩니다.
-    
-    > [!NOTE]
-    > 설치 배너는 새 사용자를 추가 하 고 새 도메인을 마이그레이션 하 고 새로운 사용자를 위해 전자 메일을 마이그레이션할 수 있습니다. 이 작업을 수행 하지 않으려면 마법사를 계속 진행 하 여 관리 홈 페이지에서 사라지게 할 기본 옵션을 선택 해야 합니다. 
-  
-   ![Microsoft 365 Business에서 설정 시작을 선택 하 여 배너를 설정할 준비가 되었습니다.](media/8d3b0d97-7cca-497f-9364-4b00ad670209.png)
-  
-    **설정 시작**을 선택합니다.
-    
-2. **로그인 및 전자 메일 개인 설정** 페이지에서이 기회를 사용 하 여 구독에 다른 도메인을 추가 하려는 경우 **이미 소유한 도메인 연결** 을 선택 하 여 도메인을 추가할 수 있습니다. 
-    
-    이미 도메인을 설정한 경우 두 번째 필드에는 **전자 메일 및 로그인에 대 한** _도메인 이름을_ \> **계속 사용** \<한다는 메시지가 표시 됩니다.   구독을 사용 하 여 도메인을 설정 하지 않은 경우 **계속 해 서** \< **전자 메일 및 로그인에 대 한** _회사 name.onmicrosoft.com_ \> 사용 됩니다.  
-    
-    
-            **다음**을 선택합니다.
-    
-    ![로그인 및 전자 메일 개인 설정 페이지에서 도메인 추가를 선택 하거나 사용 중이 던 사용자를 사용 합니다.](media/c3f5cfb2-1189-4d2f-803b-c9feb008a7a3.png)
-  
-3. 새 **사용자 추가** 페이지에서 Microsoft 365 비즈니스 라이선스를 할당 하려는 새 직원이 있는 경우 새 사용자를 추가할 수 있습니다. 
-    
-    새 직원을 추가 하 여 기존 사용자에 게 라이선스를 할당 하지 않으려면 **다음**을 선택 합니다.
-    
-4. **전자 메일 메시지 마이그레이션** 페이지에서 3 단계에서 추가한 새 사용자에 대 한 전자 메일을 마이그레이션하도록 선택할 수 있습니다. 또한이 단계를 건너뛸 수 있습니다. 
-            **다음**을 선택합니다.
-    
-5. 마지막 페이지에서 **관리 센터로 이동을**선택 하 고 설치를 계속 합니다.
-    
-6. 관리 센터에서 **사용자** \> **활성 사용자**로 이동 합니다.
-    
-7. **Microsoft 365 Business** license를 할당 하려는 사용자를 선택 하 고 **제품 라이선스**옆에 있는 **편집** 을 선택 합니다.
-    
-    ![사용자 카드에서 제품 라이선스 옆에 있는 편집을 선택 합니다.](media/be0fe2d8-7ff8-447c-88f6-d212ed78451c.png)
-  
 ## <a name="before-you-get-started"></a>시작 하기 전에
 
 - **업그레이드를 선택 해야 하는 경우** 단일 계획에 할당 된 **모든 사용자** 를 업그레이드 하려는 경우에는 업그레이드를 선택 하는 것이 적절 합니다. 업그레이드를 선택 하면 모든 요금제 사용자가 동시에 다른 요금제로 전환 됩니다. 단일 계획에 할당 된 모든 사용자를 업그레이드 하지 않으려면 새 요금제 (이 경우 Microsoft 365 Business)에 대 한 라이선스를 구입 하 고 업그레이드할 각 사용자에 게 [개별적으로 라이선스를 할당](https://docs.microsoft.com/office365/admin/manage/assign-licenses-to-users) 합니다. 
