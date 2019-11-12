@@ -208,6 +208,7 @@
 ### [오류 처리 작업](processing-data-for-case.md)
 #### [보유자 데이터의 고급 인덱싱](indexing-custodian-data.md)
 #### [데이터를 처리할 때 오류 수정](error-remediation-when-processing-data-in-advanced-ediscovery.md)
+#### [단일 항목 오류 수정](single-item-error-remediation.md)
 
 ### [사례 데이터 수집](collecting-data-for-ediscovery.md)
 #### [검색 만들기](create-search-to-collect-data.md)
@@ -429,8 +430,7 @@
 
 ### 위반 알림
 #### [위반 알림](gdpr-breach-notification.md)
-#### [Azure](gdpr-breach-azure.md)
-#### [Dynamics 365](gdpr-breach-dynamics365.md)
+#### [Azure & Dynamics 365](gdpr-breach-azure-dynamics.md)
 #### [Microsoft 지원 및 전문 서비스](gdpr-breach-microsoft-support-professional-services.md)
 #### [Office 365](gdpr-breach-office365.md)
 
