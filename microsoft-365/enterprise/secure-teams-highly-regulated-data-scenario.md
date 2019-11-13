@@ -3,7 +3,7 @@ title: 높은 규제 대상 데이터에 대한 Teams
 author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
-ms.date: 10/21/2019
+ms.date: 11/12/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,18 +13,22 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 안전한 팀을 만들어 중요하고 민감한 파일을 저장할 수 있습니다.
-ms.openlocfilehash: d917e14719744dad8a681e15a8547655c3a0457f
-ms.sourcegitcommit: d95aab99d7827dbb9248280044748ca05ebec786
+ms.openlocfilehash: 97cc19b0b0067dc0eaca845dd16621be823f1334
+ms.sourcegitcommit: 9083036e787cf997fbceb19c66af594d0fa81d0f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "37657805"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "38302955"
 ---
 # <a name="teams-for-highly-regulated-data"></a>높은 규제 대상 데이터에 대한 Teams
 
 이 문서에서는 개인 팀에 대해 Teams 기능(예: 채팅, 모임 및 파일)에 대한 액세스를 Office 365 그룹의 구성원과 소유자로 차단하는 개인 팀을 Microsoft Teams에서 구성하기 위한 권장 사항과 단계를 제공합니다. 
 
 Office 365 그룹을 기반으로 하는 개인 액세스를 넘어서, 이 문서에서는 기본 개인 SharePoint 팀 사이트를 구성하는 방법을 설명합니다. 여기서, 높은 규제 대상 데이터를 저장하는 데 필요한 추가 보안을 위해 팀 채널의 **파일** 섹션에서 액세스할 수 있습니다. 이 SharePoint 팀 사이트에서 파일, 페이지, 공유 일정, 작업, 전자 필기장 및 목록에 저장하고 공동 작업할 수 있습니다.
+
+>[!Note]
+> SharePoint를 사용하는 유사한 시나리오는 [여기](teams-sharepoint-online-sites-highly-regulated-data.md)에 있습니다.
+>
 
 높은 규제 대상 데이터의 구성 요소는 다음과 같습니다.
 
@@ -39,7 +43,13 @@ Office 365 그룹을 기반으로 하는 개인 액세스를 넘어서, 이 문�
 다음은 민감도 레이블이 포함된 결과 구성입니다.
 
 ![보안 팀 시나리오 구성](./media/secure-teams-highly-regulated-data-scenario/secure-team-final.png)
- 
+
+<a name="poster"></a> 이 시나리오의 1 페이지 요약서를 보려면 [규제 수준이 높은 데이터 포스터를 위한 Teams](./media/secure-teams-highly-regulated-data-scenario/TeamsHighlyRegulatedData.pdf)를 참조하세요.
+
+[![규제 수준이 높은 데이터 포스터를 위한 Teams](././media/secure-teams-highly-regulated-data-scenario/teams-highly-regulated-data-poster.png)](./media/secure-teams-highly-regulated-data-scenario/TeamsHighlyRegulatedData.pdf)
+
+이 포스터를 [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/secure-teams-highly-regulated-data-scenario/TeamsHighlyRegulatedData.pdf)로 다운로드하고 편지형, 법률형 또는 타블로이드(11 x 17) 형식으로 인쇄할 수 있습니다.
+
 ## <a name="phase-1-configure-a-team-for-highly-regulated-data"></a>1단계: 고도로 규제된 데이터를 위한 팀 구성
 
 보안 팀의 엔드 투 엔드 (End-to-end) 구성은 다음의 단계로 구성됩니다:
@@ -105,7 +115,7 @@ Office 365 그룹을 기반으로 하는 개인 액세스를 넘어서, 이 문�
  
 ### <a name="step-4-create-a-retention-label-and-dlp-policy"></a>4단계: 보존 레이블 및 DLP 정책 만들기
 
-[이 지침](https://docs.microsoft.com/microsoft-365/compliance/protect-sharepoint-online-files-with-office-365-labels-and-dlp)을 사용하여 다음을 수행합니다.
+[이 지침](https://docs.microsoft.com/microsoft-365/security/office-365-security/deploy-teams-retention-dlp)을 사용하여 다음을 수행합니다.
 
 1. 필요한 경우, 높은 규제 대상 데이터의 보존 레이블을 만들고 게시합니다.
 2. 1단계에서 만든 보존 레이블에 맞게 팀 사이트를 구성합니다.

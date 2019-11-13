@@ -3,7 +3,7 @@ title: Microsoft 365 Enterprise 배포 컨텐츠의 변경 사항
 author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
-ms.date: 10/30/2019
+ms.date: 11/12/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Microsoft 365 배포 가이드의 새로운 내용 및 콘텐츠에 대한 변경 사항을 확인하세요.
-ms.openlocfilehash: 6c965efcbbfebe4fd80ac983674a7d183793e946
-ms.sourcegitcommit: a75e3a93b3431bd26b0d072b37a9c5eb3dcb1c7f
+ms.openlocfilehash: 59f40ad2870be8d1b74b03123a7c161b132e565d
+ms.sourcegitcommit: 9083036e787cf997fbceb19c66af594d0fa81d0f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/31/2019
-ms.locfileid: "37889937"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "38302965"
 ---
 # <a name="changes-to-microsoft-365-enterprise-deployment-content"></a>Microsoft 365 Enterprise 배포 컨텐츠의 변경 사항
 
@@ -26,15 +26,27 @@ ms.locfileid: "37889937"
 
 ### <a name="new-content"></a>새로운 내용 
 
+- [높은 규제 대상 데이터를 위한 Teams 포스터](secure-teams-highly-regulated-data-scenario.md#poster)
+
+  [![높은 규제 대상 데이터를 위한 Teams 포스터](././media/secure-teams-highly-regulated-data-scenario/teams-highly-regulated-data-poster.png)](./media/secure-teams-highly-regulated-data-scenario/TeamsHighlyRegulatedData.pdf)
+
+  이 포스터를 [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/secure-teams-highly-regulated-data-scenario/TeamsHighlyRegulatedData.pdf)로 다운로드하고 편지형, 법률형 또는 타블로이드(11 x 17) 형식으로 인쇄할 수 있습니다.
+
+- [높은 규제 대상 데이터를 위한 SharePoint 사이트 포스터](teams-sharepoint-online-sites-highly-regulated-data.md#poster)
+
+  [![높은 규제 대상 데이터를 위한 SharePoint 사이트 포스터](./media/teams-sharepoint-online-sites-highly-regulated-data/sharepoint-sites-highly-regulated-data-poster.png)](./media/teams-sharepoint-online-sites-highly-regulated-data/SharePointSitesHighlyRegulatedData.pdf)
+
+  이 포스터를 [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/teams-sharepoint-online-sites-highly-regulated-data/SharePointSitesHighlyRegulatedData.pdf)로 다운로드하고 편지형, 법률형 또는 타블로이드(11 x 17) 형식으로 인쇄할 수 있습니다.
+
 - [Autopilot 포스터를 사용하여 Windows 10 배포](windows10-deploy-autopilot.md) 
 
-  [![Autopilot 포스터를 사용하여 Windows 10 배포](./media/windows10-deploy-autopilot/windows10-autopilot-flowchart.png)](https://opdhsblobprod04.blob.core.windows.net/contents/d0d41f25ce48460387a79ace64acad6b/d00f8fc01db0b512e4953663c8331588?sv=2015-04-05&sr=b&sig=bfzlEl8SrShCQyj8E2QUf6LJfxlKre6ortODE4qHjrc%3D&st=2019-10-24T22%3A18%3A33Z&se=2019-10-25T22%3A28%3A33Z&sp=r)
+  [![Autopilot 포스터를 사용하여 Windows 10 배포](./media/windows10-deploy-autopilot/windows10-autopilot-flowchart.png)](https://opdhsblobprod04.blob.core.windows.net/contents/d0d41f25ce48460387a79ace64acad6b/d00f8fc01db0b512e4953663c8331588?sv=2015-04-05&sr=b&sig=RWOcP%2BhJZYpYcGKMhuTUEL6lcuWdBFefqR%2BQQfmj6IM%3D&st=2019-11-12T23%3A48%3A59Z&se=2019-11-13T23%3A58%3A59Z&sp=r)
 
   [PDF](https://github.com/MicrosoftDocs/windows-itpro-docs/raw/public/windows/deployment/media/Windows10AutopilotFlowchart.pdf)나 [Visio](https://github.com/MicrosoftDocs/windows-itpro-docs/raw/public/windows/deployment/media/Windows10Autopilotflowchart.vsdx) 형식으로도 포스터를 다운로드 할 수 있습니다.
 
 - [System Center Configuration Manager 포스터를 사용하여 Windows 10 배포](windows10-deploy-inplaceupgrade.md)
 
-  [![System Center Configuration Manager 포스터를 사용하여 Windows 10 배포](./media/windows10-deploy-inplaceupgrade/windows10-deployment-config-manager.png)](https://opdhsblobprod04.blob.core.windows.net/contents/d0d41f25ce48460387a79ace64acad6b/810b475c713ebb3ad65d13746940ef91?sv=2015-04-05&sr=b&sig=tKD38RgLAoOCAWJ5ppEbLevBAHk7KHtWrXldy2Jl6mY%3D&st=2019-10-24T22%3A16%3A08Z&se=2019-10-25T22%3A26%3A08Z&sp=r)
+  [![System Center Configuration Manager 포스터를 사용하여 Windows 10 배포](./media/windows10-deploy-inplaceupgrade/windows10-deployment-config-manager.png)](https://opdhsblobprod04.blob.core.windows.net/contents/d0d41f25ce48460387a79ace64acad6b/810b475c713ebb3ad65d13746940ef91?sv=2015-04-05&sr=b&sig=jjP0k8Y9ClANZptzS5IPwxs61kocwCg6bLUBdjZp6lY%3D&st=2019-11-12T23%3A51%3A28Z&se=2019-11-14T00%3A01%3A28Z&sp=r)
 
   [PDF](https://github.com/MicrosoftDocs/windows-itpro-docs/raw/public/windows/deployment/media/Windows10DeploymentConfigManager.pdf)나 [Visio](https://github.com/MicrosoftDocs/windows-itpro-docs/raw/public/windows/deployment/media/Windows10DeploymentConfigManager.vsdx) 형식으로도 포스터를 다운로드 할 수 있습니다.
 
@@ -44,11 +56,11 @@ ms.locfileid: "37889937"
 
   공지: [Microsoft 365 기술 커뮤니티 블로그](https://techcommunity.microsoft.com/t5/Microsoft-365-Blog/Protect-your-highly-regulated-files-in-Teams-with-Microsoft-365/ba-p/962985)  |  [LinkedIn](https://www.linkedin.com/pulse/how-can-i-lock-down-team-sensitive-top-secret-joe-davies/?published=t)
 
-
 - [원격 작업자 지원](empower-people-to-work-remotely.md#poster)
 
-  [![원격 작업자 지원](./media/empower-people-to-work-remotely/empower-remote-workers-poster-half.png)](media/empower-people-to-work-remotely/empower-remote-workers-scenario.pdf) 
- 
+  [![원격 작업자 지원](./media/empower-people-to-work-remotely/empower-remote-workers-poster.png)](media/empower-people-to-work-remotely/empower-remote-workers-scenario.pdf) 
+
+- [Microsoft 365 Business에서 Microsoft 365 Enterprise E3로 마이그레이션](https://docs.microsoft.com/microsoft-365/business/migrate-from-microsoft-365-business-to-microsoft-365-enterprise)
 
 ### <a name="updates-and-enhancements"></a>업데이트 및 향상된 기능
 
