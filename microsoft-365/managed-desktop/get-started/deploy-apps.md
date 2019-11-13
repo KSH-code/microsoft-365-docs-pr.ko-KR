@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 5f1e2bd2440b5c38c958d3182684e87643f2e853
-ms.sourcegitcommit: 3d37043c0447359c952dc99026c219dd69f6fb8d
+ms.openlocfilehash: a064a41fc7ab69e31d49553f600dfd6bb91ef7b0
+ms.sourcegitcommit: 9083036e787cf997fbceb19c66af594d0fa81d0f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "38012029"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "38302915"
 ---
 # <a name="deploy-apps-to-devices"></a>장치에 앱 배포
 Microsoft Managed Desktop 온 보 딩에는 사용자의 장치에 앱을 추가 및 배포 하는 작업이 포함 됩니다. Microsoft Managed Desktop portal을 사용 하 고 나면 앱을 추가 및 배포할 수 있습니다. 
@@ -83,7 +83,7 @@ Microsoft Store for Business에 등록 하지 않은 경우 앱을 쇼핑 하면
 --- | --- | ---
 사용할 수 있음 |  이 앱은 회사 포털 앱 또는 웹 사이트에서 사용할 수 있습니다. | MMD- *응용 프로그램 이름* -사용 가능
 필수 |  앱이 선택한 그룹의 장치에 설치 되어 있습니다. | MMD- *응용 프로그램 이름* -필수
-Uninstall |  창의 앱이 선택한 그룹의 장치에서 제거 되었습니다. | MMD- *응용 프로그램 이름* -제거
+Uninstall |  앱이 선택한 그룹의 장치에서 제거 되었습니다. | MMD- *응용 프로그램 이름* -제거
 
 이러한 그룹에 사용자를 추가 하 여 앱을 availabe, 앱을 설치 하거나, Microsoft Managed Desktop 장치에서 앱을 제거 합니다. 
 
