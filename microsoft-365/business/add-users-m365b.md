@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 Business에 다른 사용자를 추가합니다.
+title: Microsoft 365 Business에 더 많은 사용자 추가
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -21,29 +21,29 @@ search.appverid:
 - MET150
 ms.assetid: 96153102-1db1-4df8-bca5-38cea80b65ce
 description: Microsoft 365 Business에서 새 사용자를 추가 하 고, 해당 장치를 보호 하 고, 역할을 할당 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 0ea3a4845e46ed1d13abf966eea895aa394aebca
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+ms.openlocfilehash: 25f19873400dad1c57445a63dd354bbb5d1fce49
+ms.sourcegitcommit: 8193b7da5b1a415835d02ca96883c351df7326ed
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37574761"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38322538"
 ---
-# <a name="add-additional-users-to-microsoft-365-business"></a><span data-ttu-id="455e0-103">Microsoft 365 Business에 다른 사용자를 추가합니다.</span><span class="sxs-lookup"><span data-stu-id="455e0-103">Add additional users to Microsoft 365 Business</span></span>
+# <a name="add-more-users-to-microsoft-365-business"></a><span data-ttu-id="342b2-103">Microsoft 365 Business에 더 많은 사용자 추가</span><span class="sxs-lookup"><span data-stu-id="342b2-103">Add more users to Microsoft 365 Business</span></span>
 
-## <a name="add-new-users"></a><span data-ttu-id="455e0-104">새 사용자 추가</span><span class="sxs-lookup"><span data-stu-id="455e0-104">Add new users</span></span>
+## <a name="add-new-users"></a><span data-ttu-id="342b2-104">새 사용자 추가</span><span class="sxs-lookup"><span data-stu-id="342b2-104">Add new users</span></span>
 
-1. <span data-ttu-id="455e0-105"><a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> 의 관리 센터로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="455e0-105">Go to the admin center at <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>.</span></span> 
-2. <span data-ttu-id="455e0-106">왼쪽 탐색 창에서 **사용자** \> **활성 사용자**를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="455e0-106">In the left nav choose **Users** \> **Active users**.</span></span>
-1. <span data-ttu-id="455e0-107">**활성 사용자** 페이지에서 **사용자 추가**를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="455e0-107">On the **Active users** page, choose **Add a user**.</span></span>
- 4. <span data-ttu-id="455e0-108">**새 사용자** 패널에서 필수 정보를 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="455e0-108">In the **New user** panel, type in the required information.</span></span> 
+1. <span data-ttu-id="342b2-105"><a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> 의 관리 센터로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="342b2-105">Go to the admin center at <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>.</span></span> 
+2. <span data-ttu-id="342b2-106">왼쪽 탐색 창에서 **사용자** \> **활성 사용자**를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="342b2-106">In the left navigation pane, choose **Users** \> **Active users**.</span></span>
+3. <span data-ttu-id="342b2-107">**활성 사용자** 페이지에서 **사용자 추가**를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="342b2-107">On the **Active users** page, choose **Add a user**.</span></span>
+4. <span data-ttu-id="342b2-108">**새 사용자** 패널에서 필요한 정보를 입력 합니다.</span><span class="sxs-lookup"><span data-stu-id="342b2-108">In the **New user** panel, type the required information.</span></span> 
   
-    <span data-ttu-id="455e0-109">**연락처 정보**에 추가 정보를 입력하고 **암호** 설정에서 암호 설정 방법을 선택하고 **역할**에서 역할을 할당할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="455e0-109">You can also enter additional information under **Contact information**, choose how you set the password under **Password** setting, and assign roles under the **Roles**.</span></span>
+    <span data-ttu-id="342b2-109">**연락처 정보**에 추가 정보를 입력 하 고, **암호** 설정에서 암호 설정 방법을 선택 하 고, **역할**에서 역할을 할당할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="342b2-109">You can enter more information under **Contact information**, choose how you set the password under **Password** setting, and assign roles under **Roles**.</span></span>
       
     ![Enter user information in the New user card](media/f04d39ca-48be-4868-8330-8552a4754c8b.png)
       
-    <span data-ttu-id="455e0-111">제품 라이선스 섹션에서 **Microsoft 365 Business** 제품 라이선스를 **켜기**로 설정합니다.</span><span class="sxs-lookup"><span data-stu-id="455e0-111">In the Product licenses section, set **Microsoft 365 Business** product license setting to **On**.</span></span>
+    <span data-ttu-id="342b2-111">제품 라이선스 섹션에서 **Microsoft 365 Business** 제품 라이선스 설정을 켜기로 설정 **합니다.**</span><span class="sxs-lookup"><span data-stu-id="342b2-111">In the Product licenses section, set the **Microsoft 365 Business** product license setting to **On**.</span></span>
       
     ![Set the license setting to On position](media/7404f7f7-93bc-44a3-9ffb-4208b5b17402.png)
   
-<span data-ttu-id="455e0-113">또한 [사용자를 개별적으로 또는 대량으로 추가를](https://docs.microsoft.com/office365/admin/add-users/add-users)참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="455e0-113">See also [Add users individually or in bulk](https://docs.microsoft.com/office365/admin/add-users/add-users).</span></span>
+<span data-ttu-id="342b2-113">사용자를 추가 하는 방법에 대 한 자세한 내용은 [사용자를 개별적으로 또는 대량으로 추가](https://docs.microsoft.com/office365/admin/add-users/add-users)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="342b2-113">For  more information about adding users, see [Add users individually or in bulk](https://docs.microsoft.com/office365/admin/add-users/add-users).</span></span>
   
