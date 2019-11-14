@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
 description: Microsoft 파트너 센터에서 Microsoft 365 Business를 구입 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 09d2f24fba1725278b663d5c3159163a56dcdc59
-ms.sourcegitcommit: 550ea6f093ec35182e7c65a2811e9bfb07ec7d01
+ms.openlocfilehash: be38ba6869ed9419b2c34e6b4f86ce4aad6a6c52
+ms.sourcegitcommit: 8193b7da5b1a415835d02ca96883c351df7326ed
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38038922"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38320171"
 ---
 # <a name="get-microsoft-365-business"></a>Microsoft 365 Business 받기
 
@@ -36,23 +36,23 @@ ms.locfileid: "38038922"
 
 자세한 내용은 [Microsoft 365 Business에 등록을](sign-up.md) 참조 하세요.
 
-Microsoft [Store](https://www.microsoft.com/en-us/store/locations/find-a-store?icid=en_US_Store_UH_FAS) 로 이동 하 여 Microsoft 365 비즈니스를 구입 하 고 설정 된 도움말을 얻을 수도 있습니다.
+Microsoft [Store](https://www.microsoft.com/en-us/store/locations/find-a-store?icid=en_US_Store_UH_FAS) 에가 서 Microsoft 365 Business를 구입 하 고 설정 도움말을 받을 수도 있습니다.
   
 ## <a name="get-microsoft-365-business-from-microsoft-partner-center"></a>Microsoft 파트너 센터에서 Microsoft 365 Business 사용
 
 1. CSP(클라우드 서비스 공급자) 프로그램에 등록할 때 만들었던 자격 증명을 사용하여 [Microsoft 파트너 센터](https://go.microsoft.com/fwlink/p/?linkid=849910)에 로그인합니다. 
     
-2. Microsoft 365 Business를 사용하기 전에 파트너 대시보드에서 고객을 선택한 다음 해당 고객을 선택하거나 새 고객을 추가합니다.
+2. Microsoft 365 Business를 받기 전에 파트너 대시보드에서 **고객**을 선택한 다음 고객을 선택 하거나 새 고객을 추가 합니다.
     
-    ![In the Microsoft Partner center, add a new customer.](media/ec807d07-bbd2-411f-8fe1-c644cf9a3882.png)
+    ![Microsoft 파트너 센터에서 고객을 추가 합니다.](media/ec807d07-bbd2-411f-8fe1-c644cf9a3882.png)
   
 3. 고객의 **구독** 페이지에서 **구독 추가**를 선택 하 고 카탈로그 아래의 Small business 옵션을 선택한 다음 **Microsoft 365 business**를 선택 합니다.
     
     필요한 라이선스 수(최대 300개)를 선택합니다. 사용자가 300 명 이상인 경우 [Microsoft 365 Enterprise](https://go.microsoft.com/fwlink/p/?linkid=862316) 를 참조 하세요. 
     
-    ![On the New subscription page choose small business.](media/52d99e89-2175-4974-84bb-dd626048541b.png)
+    ![새 구독 페이지에서 small business를 선택 합니다.](media/52d99e89-2175-4974-84bb-dd626048541b.png)
   
-    비즈니스 이름을 포함하여 새 고객 추가 작업의 나머지 단계를 완료합니다.
+    비즈니스 이름을 포함 하 여 새 고객을 추가 하기 위한 나머지 단계를 완료 합니다.
     
 
 

@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: 5cf7139e-cfa1-4765-8aad-001af1c74faa
 description: AutoPilot 프로필 만들기, 편집, 삭제 또는 제거 방법에 대해 알아봅니다.
-ms.openlocfilehash: 4305340a2fc5df8202cf4d85f9e2541690bf9ed0
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+ms.openlocfilehash: f7fdc2632e93c48e043fe158842f8395d6a89e14
+ms.sourcegitcommit: 8193b7da5b1a415835d02ca96883c351df7326ed
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37574721"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38320241"
 ---
 # <a name="create-and-edit-autopilot-profiles"></a>AutoPilot 프로필 만들기 및 편집
 
@@ -40,17 +40,17 @@ ms.locfileid: "37574721"
   
 2. **AutoPilot** 페이지 **에서 프로 파일 탭** \> **프로필 만들기**를 선택 합니다.
     
-3. **프로필 만들기** 페이지에서 프로필을 식별하는 데 도움이 되는 프로필 이름(예: 마케팅)을 입력하고 원하는 설정을 켠 다음(자세한 내용은 [AutoPilot 프로필 설정 정보](autopilot-profile-settings.md) 참조) **저장**을 선택합니다.
+3. **프로필 만들기** 페이지에서 마케팅 등을 식별 하는 데 도움이 되는 프로필의 이름을 입력 합니다. 원하는 설정을 켠 다음 **저장**을 선택 합니다. AutoPilot 프로필 설정에 대 한 자세한 내용은 [About AutoPilot profile settings](autopilot-profile-settings.md)를 참조 하십시오.
     
     ![Enter name and turn on settings in the Create profile panel.](media/63b5a00d-6a5d-48d0-9557-e7531e80702a.png)
   
 ### <a name="apply-profile-to-a-device"></a>장치에 프로필 적용
 
-프로필을 만든 후 장치 또는 장치 그룹에 적용할 수 있습니다. [단계별 가이드](add-autopilot-devices-and-profile.md)에서 기존 프로필을 선택하거나, 새 장치에 적용하거나, 장치 또는 장치 그룹의 기존 프로필을 바꿀 수 있습니다. 
+프로필을 만든 후 장치 또는 장치 그룹에 적용할 수 있습니다. 단계별 [가이드](add-autopilot-devices-and-profile.md) 에서 기존 프로필을 선택 하 여 새 장치에 적용 하거나 장치 또는 장치 그룹에 대 한 기존 프로필을 바꿀 수 있습니다. 
   
 1. **Windows 준비** 페이지에서 **장치** 탭을 선택합니다. 
     
-2. Click the check-box next to a device name and in the **Device** panel, choose a profile from the **Assigned profile** drop-down \> **Save**.
+2. 장치 이름 옆의 확인란을 선택 하 고 **장치** 패널의 **할당 된 프로필** \> **드롭다운 목록에서**프로필을 선택 합니다.
     
     ![In the Device panel, select an Assigned profile to apply it.](media/ed0ce33f-9241-4403-a5de-2dddffdc6fb9.png)
   
@@ -62,7 +62,7 @@ ms.locfileid: "37574721"
 
 1. **Windows 준비** 페이지에서 **프로필** 탭을 선택합니다. 
     
-2. Click the check-box next to a device name and in the **Profile** panel update any of the available settings \> **Save**.
+2. 장치 이름 옆의 확인란을 선택 하 고 **프로필** 패널에서 사용 가능한 설정 \> **저장**을 업데이트 합니다.
     
     사용자가 장치를 인터넷에 연결하기 전에 이 작업을 수행하면 프로필이 설정 프로세스에 적용됩니다.
     
@@ -70,7 +70,7 @@ ms.locfileid: "37574721"
 
 1. **Windows 준비** 페이지에서 **프로필** 탭을 선택합니다. 
     
-2. 장치 이름 옆의 확인란을 클릭하고 **프로필** 패널에서 **프로필 삭제** \> **저장**을 클릭합니다.
+2. 장치 이름 옆의 확인란을 선택 하 고 **프로필** 패널에서 **프로필** \> **저장**삭제를 선택 합니다.
     
     프로필을 삭제하면 프로필이 할당된 장치 또는 장치 그룹에서 제거됩니다.
     
@@ -78,5 +78,5 @@ ms.locfileid: "37574721"
 
 1. **Windows 준비** 페이지에서 **장치** 탭을 선택합니다. 
     
-2. Click the check-box next to a device name and in the **Device** panel, choose a **None** from the **Assigned profile** drop-down \> **Save**.
+2. 장치 이름 옆의 확인란을 선택 하 고 **장치** 패널의 **할당 된 프로필** \> **드롭다운 목록에서** **없음** 을 선택 합니다.
     

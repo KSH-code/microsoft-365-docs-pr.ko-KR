@@ -22,16 +22,14 @@ search.appverid:
 - MOE150
 ms.assetid: c3ac23c5-d4b4-4b1b-b7ce-ea759521bf8c
 description: Microsoft 365 Business의 장치 상태에 대해 알아봅니다.
-ms.openlocfilehash: 06e5c800e6a104785c1fd0724223e05d7729722e
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: b55e6a5d538ec28d195225e93797cea27afd2e8b
+ms.sourcegitcommit: 8193b7da5b1a415835d02ca96883c351df7326ed
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34072723"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38320211"
 ---
 # <a name="device-states"></a>장치 상태
-
-## <a name="device-states"></a>장치 상태
 
 **장치 작업** 목록(관리 홈 \> **장치 작업**)의 장치는 다음 상태를 가질 수 있습니다.
   
@@ -43,12 +41,12 @@ ms.locfileid: "34072723"
 |사용 중지 보류 중  <br/> |Microsoft 365 Business가 장치에서 회사 데이터를 제거하기 위해 준비 중입니다.  <br/> |
 |사용 중지 진행 중  <br/> |Microsoft 365 Business가 현재 장치에서 회사 데이터를 제거 중입니다.  <br/> |
 |사용 중지 실패  <br/> | 회사 데이터 제거 작업이 실패했습니다.  <br/> |
-|사용 중지 취소됨  <br/> |사용 중지 작업이 취소되었습니다.  <br/> |
+|사용 중지 취소 됨  <br/> |사용 중지 작업이 취소 되었습니다.  <br/> |
 |초기화 보류 중  <br/> |초기화를 시작하기 위해 대기 중입니다.  <br/> |
 |초기화 진행 중  <br/> |초기화가 실행되었습니다.  <br/> |
-|초기화 실패  <br/> |초기화를 수행할 수 없습니다.  <br/> |
-|초기화 취소됨  <br/> |초기화가 취소되었습니다.  <br/> |
-|비정상  <br/> |작업이 보류 중(또는 진행 중)이지만, 장치가 30 이상 체크 인하지 않았음을 의미합니다.  <br/> |
+|초기화 실패  <br/> |공장 초기화를 수행할 수 없습니다.  <br/> |
+|닦아내기 취소  <br/> |공장 초기화가 취소 되었습니다.  <br/> |
+|비정상  <br/> |작업은 보류 중 (또는 진행 중) 이지만 장치가 30 + 일 동안 체크 인 되지 않았습니다.  <br/> |
 |삭제 보류 중  <br/> |삭제 작업이 보류 중입니다.  <br/> |
 |검색됨  <br/> |Microsoft 365 Business가 장치를 검색했습니다.  <br/> |
    
