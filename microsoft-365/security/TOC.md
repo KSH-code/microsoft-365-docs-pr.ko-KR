@@ -222,6 +222,7 @@
 
 ##### [EOP 서비스 설정](./office-365-security/set-up-your-eop-service.md)
 ###### [EOP 구성을 위한 모범 사례](./office-365-security/best-practices-for-configuring-eop.md)
+###### [EOP 및 Office365 ATP 보안 구성을 위한 모범 사례](./office-365-security/best-practices-for-eop-office365-atp.md)
 ###### [여러 테넌트에 EOP 설정을 적용하기 위한 샘플 스크립트](./office-365-security/sample-script-for-applying-eop-settings-to-multiple-tenants.md)
 ###### [EOP 조직 간에 도메인 및 설정 이동](./office-365-security/move-domains-and-settings-from-one-eop-organization-to-another-eop-organization.md)
 ###### [Google Postini, Barracuda Spam and Virus Firewall 또는 Cisco IronPor에서 EOP로 전환](./office-365-security/switch-to-eop-from-google-postini-the-barracuda-spam-and-virus-firewall-or-cisco.md)
