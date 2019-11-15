@@ -3,7 +3,7 @@ title: Contoso의 Office 365 ProPlus 배포
 author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
-ms.date: 09/13/2018
+ms.date: 10/01/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -12,17 +12,17 @@ ms.collection:
 - M365-modern-desktop
 - Strat_O365_Enterprise
 ms.custom: ''
-description: Contoso에서 System Center Configuration Manager를 사용하여 Office 365 ProPlus를 배포하는 방식을 이해합니다.
-ms.openlocfilehash: 8367f6456b6e32c62e03f611114177f4dbe6622f
-ms.sourcegitcommit: d9b462e035416bfa4b3d42467902c75859c55381
+description: Contoso에서 Microsoft Endpoint Configuration Manager를 사용하여 Office 365 ProPlus를 배포하는 방식을 이해합니다.
+ms.openlocfilehash: ef13ac14be68b12e9483bd20f385e0cd16f51152
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "36055000"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38627354"
 ---
 # <a name="office-365-proplus-deployment-for-contoso"></a>Contoso의 Office 365 ProPlus 배포
 
-**요약:** Contoso에서 System Center Configuration Manager를 사용하여 Office 365 ProPlus를 배포하는 방식을 이해합니다.
+**요약:** Contoso에서 Microsoft Endpoint Configuration Manager를 사용하여 Office 365 ProPlus를 배포하는 방식을 이해합니다.
 
 Contoso는 보다 효과적인 공동 작업, 더 나은 보안 및 최신 데스크톱 환경을 사용하기 위해 PC를 Windows 10 Enterprise 및 Office 365 ProPlus로 업그레이드했습니다. Contoso는 해당 인프라 및 비즈니스 요구를 파악한 후 배포에 대한 다음과 같은 주요 요구 사항을 파악했습니다.
 
@@ -33,7 +33,7 @@ Contoso는 보다 효과적인 공동 작업, 더 나은 보안 및 최신 데�
 
 ## <a name="deployment-tools"></a>배포 도구
 
-Contoso는 해당 요구 사항을 토대로, System Center Configuration Manager(현재 분기)를 사용하여 Windows 및 Office를 배포하기로 선택했습니다. Configuration Manager는 대규모 환경에 맞게 확장되며, 설치, 업데이트 및 설정을 포괄적으로 제어할 수 있도록 합니다. 그뿐 아니라 Office를 보다 쉽고 효율적으로 배포 및 관리할 수 있도록 하는 다음과 같은 기본 제공 기능도 제공합니다.
+Contoso는 해당 요구 사항을 토대로, Configuration Manager(현재 분기)를 사용하여 Windows 10 Enterprise 및 Office 365 ProPlus를 배포하기로 선택했습니다. Configuration Manager는 대규모 환경에 맞게 확장되며, 설치, 업데이트 및 설정을 포괄적으로 제어할 수 있도록 합니다. 그뿐 아니라 Office를 보다 쉽고 효율적으로 배포 및 관리할 수 있도록 하는 다음과 같은 기본 제공 기능도 제공합니다.
 
 - 피어 캐시: 원격 위치에 장치를 배포할 때 네트워크 용량이 제한적인 경우 도움이 될 수 있습니다.
 - Office 클라이언트 관리 대시보드: Office를 쉽게 배포하고 업데이트를 모니터링할 수 있도록 하고, 관리자에게 최신 배포 및 관리 기능에 대한 액세스 권한을 부여합니다.
@@ -73,9 +73,13 @@ Office 배포를 완료하기 위해 Contoso는 Microsoft의 모범 사례 권�
 
 Contoso는 자동으로 클라우드로부터 장치를 업데이트하도록 선택했기 때문에 구성 관리자에서 프로세스를 관리할 필요가 없습니다. 그 장치는 초기 배포의 부분으로 정의된 업데이트 채널을 기반으로 한 클라우드로부터 직접적으로 자동 업데이트됩니다. 
 
+Contoso의 Office 365 ProPlus 설치 및 지속적인 업데이트 배포 아키텍처는 다음과 같습니다.
+
+![Contoso의 Office 365 ProPlus 배포 인프라](./media/contoso-o365pp/contoso-o365pp-fig1.png)
+ 
 ## <a name="next-step"></a>다음 단계
 
-Contoso가 어떻게 Microsoft 365 Enterprise의 Intune을 사용하여 조직에서 실행되는 해당 장치 및 앱을 관리하고 있는지 [알아봅니다](contoso-mdm.md).
+Contoso가 어떻게 Microsoft 365 Enterprise의 Microsoft Intune을 사용하여 조직에서 실행되는 해당 장치 및 앱을 관리하고 있는지 [알아봅니다](contoso-mdm.md).
 
 ## <a name="see-also"></a>참고 항목
 
