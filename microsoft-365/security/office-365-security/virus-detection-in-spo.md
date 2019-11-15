@@ -1,5 +1,5 @@
 ---
-title: SharePoint Online의 바이러스 검색
+title: SharePoint Online에서의 바이러스 탐지
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
@@ -16,14 +16,17 @@ ms.assetid: e3c6df61-8513-499d-ad8e-8a91770bff63
 ms.collection:
 - M365-security-compliance
 description: Office 365은 사용자가 SharePoint Online에 업로드 하는 파일에서 바이러스를 검색 하 여 맬웨어 로부터 환경을 보호 하는 데 도움이 됩니다. 업로드 후 파일에서 바이러스를 검사 합니다. 파일이 감염 된 것으로 확인 되 면 사용자가 파일을 다운로드 하거나 동기화 할 수 없도록 속성이 설정 됩니다.
-ms.openlocfilehash: 60dc2cbd1b2d248f13c2b8c32738c4f195d6a7a0
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 9776dd7791d8543e0fd401a3c21c95d9fbf60f09
+ms.sourcegitcommit: 2c2248b03f7753d64490f2f7e56ec644a235b65a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088754"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "38639828"
 ---
-# <a name="virus-detection-in-sharepoint-online"></a>SharePoint Online의 바이러스 검색
+# <a name="virus-detection-in-sharepoint-online"></a>SharePoint Online에서의 바이러스 탐지
+
+> [!IMPORTANT]
+> 이 기능을 사용 하려면 Office 365 ATP (Advanced Threat Protection)가 필요 합니다. 자세한 내용은 [SharePoint, OneDrive 및 Microsoft Teams에 대한 Office 365 ATP 실행](https://docs.microsoft.com/microsoft-365/security/office-365-security/turn-on-atp-for-spo-odb-and-teams)을 참조하세요.
 
 Office 365은 사용자가 SharePoint Online에 업로드 하는 파일에서 바이러스를 검색 하 여 맬웨어 로부터 환경을 보호 하는 데 도움이 됩니다. 업로드 후 파일에서 바이러스를 검사 합니다. 파일이 감염 된 것으로 확인 되 면 사용자가 파일을 다운로드 하거나 동기화 할 수 없도록 속성이 설정 됩니다.
   

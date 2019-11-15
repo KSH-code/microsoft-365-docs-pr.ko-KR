@@ -10,12 +10,12 @@ ms.prod: microsoft-365-enterprise
 ms.topic: article
 ms.date: 06/01/2018
 ms.author: greglin
-ms.openlocfilehash: 0f7b4ddec9c52861b4ecf4a7e86831efcce402d6
-ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
+ms.openlocfilehash: c1c39745b2dc891b4dc079ecd657eaf0d883af23
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "37370265"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38627462"
 ---
 # <a name="step-5-deploy-windows-10-enterprise-security-features"></a>5 단계: Windows 10 Enterprise 보안 기능 배포
 
@@ -57,8 +57,8 @@ Windows Defender AV를 배포 하 고 관리 하려면 다음 지침을 따르�
 
 [Windows DEFENDER av 보호 평가 가이드](https://docs.microsoft.com/windows/threat-protection/windows-defender-antivirus/evaluate-windows-defender-antivirus) 를 사용 하 여 네트워크에서 WINDOWS defender av의 보호 수준 및 영향을 평가할 수 있습니다. 이는 초기 구성 또는 ' 빠른 시작 가이드 '를 만드는 데도 유용 하며, 최대 보호를 위해 기능을 구성 및 사용 하도록 설정 하는 데 가장 적합 한 권장 사항을 제공 하기 위해 정기적으로 업데이트 됩니다.
 
-### <a name="reporting"></a>보고
-System Center Configuration Manager 또는 Microsoft Intune과 같은 구성 도구를 사용 하 여 보고를 가져올 수 있습니다. 또한 OMS (업데이트 준수)를 사용 하거나, SIEM에서 Windows 이벤트 로그를 사용 하 여 보고를 받을 수도 있습니다. Microsoft Defender ATP에 대 한 라이선스가 있는 경우 Windows Defender AV 검색에 보고 하 고 기본 수정을 수행할 수도 있습니다. 자세한 내용은 다음 리소스를 참조 하세요.
+### <a name="reporting"></a>Reporting
+Microsoft Endpoint Configuration Manager 또는 Microsoft Intune과 같은 구성 도구를 사용 하 여 보고를 가져올 수 있습니다. 또한 OMS (업데이트 준수)를 사용 하거나, SIEM에서 Windows 이벤트 로그를 사용 하 여 보고를 받을 수도 있습니다. Microsoft Defender ATP에 대 한 라이선스가 있는 경우 Windows Defender AV 검색에 보고 하 고 기본 수정을 수행할 수도 있습니다. 자세한 내용은 다음 리소스를 참조 하세요.
 * [Windows Defender AV에 대 한 배포, 관리 및 보고](https://docs.microsoft.com/windows/threat-protection/windows-defender-antivirus/deploy-manage-report-windows-defender-antivirus)
 * [Windows Defender AV 보호에 대 한 보고서](https://docs.microsoft.com/windows/threat-protection/windows-defender-antivirus/report-monitor-windows-defender-antivirus)
 * [Microsoft Defender ATP 포털 개요](https://go.microsoft.com/fwlink/?linkid=861596)
@@ -81,8 +81,8 @@ Windows Defender Exploit Guard를 배포, 관리 및 구성 하려면 다음 지
 
 여러 평가 항목을 사용 하 여 네트워크에서 Windows Defender Exploit Guard의 보호 수준 및 영향을 평가 하는 데 도움이 되는 정보를 확인할 수 있습니다. 이는 초기 구성 또는 ' 빠른 시작 가이드 '를 만들 때 유용 하며, 최대 보호를 위해 기능을 구성 및 사용 하도록 설정 하는 데 가장 유용한 권장 사항을 제공 하기 위해 정기적으로 업데이트 됩니다. 자세한 정보는 [Windows Defender Exploit Guard](https://docs.microsoft.com/windows/threat-protection/windows-defender-exploit-guard/evaluate-windows-defender-exploit-guard)를 확인 하세요.
 
-### <a name="reporting"></a>보고
-System Center Configuration Manager 또는 Intune과 같은 구성 도구를 사용 하 여 보고를 받을 수 있습니다. 또한 SIEM에서 Windows 이벤트 로그를 사용 하 여 보고를 받을 수 있습니다. Microsoft Defender ATP에 대 한 라이선스가 있는 경우 Windows Defender AV 검색에 보고 하 고 기본 수정을 수행할 수도 있습니다. 자세한 내용은 다음 리소스를 참조 하세요.
+### <a name="reporting"></a>Reporting
+구성 관리자 또는 Intune과 같은 구성 도구를 사용 하 여 보고를 받을 수 있습니다. 또한 SIEM에서 Windows 이벤트 로그를 사용 하 여 보고를 받을 수 있습니다. Microsoft Defender ATP에 대 한 라이선스가 있는 경우 Windows Defender AV 검색에 보고 하 고 기본 수정을 수행할 수도 있습니다. 자세한 내용은 다음 리소스를 참조 하세요.
 * [Windows Defender Exploit Guard 이벤트 보기](https://docs.microsoft.com/windows/threat-protection/windows-defender-exploit-guard/event-views-exploit-guard)
 * [Microsoft Defender ATP 포털 개요](https://go.microsoft.com/fwlink/?linkid=861596)
 

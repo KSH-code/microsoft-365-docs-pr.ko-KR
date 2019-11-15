@@ -1,7 +1,7 @@
 ---
 title: 현재 위치 업그레이드로 기존 장치에 대 한 Windows 10 Enterprise 배포
-description: Windows 10 Enterprise 이미지를 현재 위치 업그레이드로 System Center Configuration Manager를 사용 하 여 구성 및 배포 하는 방법에 대해 설명 합니다.
-keywords: Microsoft 365, Microsoft 365 Enterprise, Microsoft 365 설명서, Windows 10 Enterprise, 배포, 현재 위치 업그레이드, 구성 관리자, System Center Configuration Manager
+description: Microsoft Endpoint Configuration Manager를 사용 하 여 전체 업그레이드로 Windows 10 Enterprise 이미지를 구성 및 배포 하는 방법에 대 한 지침을 제공 합니다.
+keywords: Microsoft 365, Microsoft 365 Enterprise, Microsoft 365 설명서, Windows 10 Enterprise, 배포, 전체 업그레이드, 구성 관리자, Configuration Manager
 author: greg-lindsay
 localization_priority: Normal
 ms.collection: M365-modern-desktop
@@ -10,12 +10,12 @@ ms.prod: microsoft-365-enterprise
 ms.topic: article
 ms.date: 08/30/2018
 ms.author: greglin
-ms.openlocfilehash: f7dfa5c72a98dacc7a772ea034df6696621a8ef6
-ms.sourcegitcommit: 9083036e787cf997fbceb19c66af594d0fa81d0f
+ms.openlocfilehash: f3a518ca448bf56c4328bbc34fe29a41d5f16488
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "38302935"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38627472"
 ---
 # <a name="step-2-deploy-windows-10-enterprise-for-existing-devices-as-an-in-place-upgrade"></a>2 단계: 현재 위치 업그레이드로 기존 장치에 대 한 Windows 10 Enterprise 배포
 
@@ -23,13 +23,13 @@ ms.locfileid: "38302935"
 
 ![3단계: Windows 10 Enterprise](./media/deploy-foundation-infrastructure/win10enterprise_icon-small.png)
 
-현재 Windows 7 또는 Windows 8.1를 실행 하는 Pc를 Windows 10으로 업그레이드 하는 가장 간단한 경로는 전체 업그레이드를 사용 하는 것입니다. System Center Configuration Manager (Configuration Manager) 작업 시퀀스를 사용 하 여 프로세스를 완벽 하 게 자동화할 수 있습니다. 
+현재 Windows 7 또는 Windows 8.1를 실행 하는 Pc를 Windows 10으로 업그레이드 하는 가장 간단한 경로는 전체 업그레이드를 사용 하는 것입니다. 구성 관리자 (Configuration Manager) 작업 시퀀스를 사용 하 여 프로세스를 완벽 하 게 자동화할 수 있습니다. 
 
 Windows 7 또는 Windows 8.1을 실행 하는 기존 컴퓨터가 있는 경우 조직에서 Windows 10을 배포 하는 경우이 경로를 권장 합니다. 이렇게 하면 Windows 설치 프로그램 (setup.exe)을 활용 하 여 기존 운영 체제 버전에서 모든 데이터, 설정, 응용 프로그램 및 드라이버를 자동으로 보존 하는 전체 업그레이드를 수행할 수 있습니다. 이렇게 하면 복잡 한 배포 인프라가 필요 하지 않으므로 최소한의 IT 노력이 필요 합니다.
 
 다음 단계에 따라 구성 관리자를 사용 하 여 Windows 10 Enterprise 이미지를 현재 위치 업그레이드로 구성 하 고 배포 합니다.
 
-## <a name="the-windows-10-deployment-with-system-center-configuration-manager-poster"></a>System Center Configuration Manager 포스터를 사용하여 Windows 10 배포
+## <a name="the-windows-10-deployment-with-configuration-manager-poster"></a>Configuration Manager 포스터를 사용한 Windows 10 배포
 
 구성 관리자 포스터는 가로 모드 (17x11)의 한 페이지입니다. 아래 이미지를 클릭 하면 브라우저에서 PDF를 볼 수 있습니다. 
 
@@ -43,9 +43,9 @@ Windows 7 또는 Windows 8.1을 실행 하는 기존 컴퓨터가 있는 경우 
 
 업그레이드 준비 상태에 대 한 자세한 내용은 [업그레이드 준비를 통해 Windows 업그레이드 관리](https://docs.microsoft.com/windows/deployment/upgrade/manage-windows-upgrades-with-upgrade-readiness) 를 참조 하세요.
 
-다음으로, System Center Configuration Manager (현재 분기)를 사용 하 여 Windows 7 이상 운영 체제를 Windows 10으로 업그레이드 하는 가이드에 따릅니다. 위험도가 높은 배포와 마찬가지로, 계속 하기 전에 사용자 데이터를 백업 하는 것이 좋습니다. OneDrive 클라우드 저장소는 라이선스가 있는 Microsoft 365 사용자에 게 사용할 준비가 되었으며 파일을 안전 하 게 저장 하는 데 사용할 수 있습니다. 자세한 내용은 [OneDrive 빠른 시작 가이드](https://aka.ms/ODfBquickstartguide)를 참조 하세요. 이 페이지에 액세스 하려면 Office 365 또는 Microsoft 365 테 넌 트에서 테 넌 트 관리자 또는 전역 관리자로 로그인 해야 합니다.
+그런 다음 가이드에 따라 Configuration Manager (현재 분기)를 사용 하 여 Windows 7 이상 운영 체제를 Windows 10으로 업그레이드 합니다. 위험도가 높은 배포와 마찬가지로, 계속 하기 전에 사용자 데이터를 백업 하는 것이 좋습니다. OneDrive 클라우드 저장소는 라이선스가 있는 Microsoft 365 사용자에 게 사용할 준비가 되었으며 파일을 안전 하 게 저장 하는 데 사용할 수 있습니다. 자세한 내용은 [OneDrive 빠른 시작 가이드](https://aka.ms/ODfBquickstartguide)를 참조 하세요. 이 페이지에 액세스 하려면 Office 365 또는 Microsoft 365 테 넌 트에서 테 넌 트 관리자 또는 전역 관리자로 로그인 해야 합니다.
 
-지원 되는 Windows 10 클라이언트 버전 및 구성 관리자 버전 목록은 [System Center Configuration manager에 대 한 windows 10 지원을](https://aka.ms/supportforwin10sccm)참조 하십시오.
+지원 되는 Windows 10 클라이언트 버전 및 구성 관리자 버전 목록은 [Configuration manager에 대 한 Windows 10 지원을](https://aka.ms/supportforwin10sccm)참조 하십시오.
 
 **Windows 업그레이드 준비 상태를 확인 하려면**
 
@@ -58,12 +58,12 @@ Windows 10 배포를 시작 하기 전에 다음 요구 사항을 검토 하십�
     - 사용자 데이터 백업-사용자 데이터가 업그레이드에서 마이그레이션될 수 있지만 백업 시나리오를 구성 하는 것이 가장 좋습니다. 예를 들어 모든 사용자 데이터를 OneDrive 계정, BitLocker에서 이동 암호화 USB 플래시 드라이브 또는 네트워크 파일 서버로 내보냅니다. 자세한 내용은 [Windows에서 데이터 백업 또는 전송을](https://aka.ms/backuptransferdatawindows)참조 하세요.
 - **환경 준비** -기존 Configuration Manager 서버 구조를 사용 하 여 운영 체제 배포를 준비 합니다. 기본 설정 외에도 Configuration Manager 환경에서 다음과 같은 구성을 수행 해야 합니다.
     1. [Active Directory 스키마를 확장](https://aka.ms/extendadschema) 하 고 [시스템 관리 컨테이너를 만듭니다](https://aka.ms/createsysmancontainer).
-    2. Active Directory 포리스트 검색 및 Active Directory 시스템 검색을 사용 하도록 설정 합니다. 자세한 내용은 [System Center Configuration Manager에 대 한 검색 방법](https://aka.ms/configurediscoverymethods)구성을 참조 하십시오.
-    3. 콘텐츠 및 사이트 할당에 대 한 IP 범위 경계 및 경계 그룹을 만듭니다. 자세한 내용은 [System Center Configuration Manager의 사이트 경계 및 경계 그룹 정의](https://aka.ms/definesiteboundaries)를 참조 하세요.
+    2. Active Directory 포리스트 검색 및 Active Directory 시스템 검색을 사용 하도록 설정 합니다. 자세한 내용은 [Configuration Manager에 대 한 검색 방법 구성](https://aka.ms/configurediscoverymethods)를 참조 하세요.
+    3. 콘텐츠 및 사이트 할당에 대 한 IP 범위 경계 및 경계 그룹을 만듭니다. 자세한 내용은 [Configuration Manager에 대 한 사이트 경계 및 경계 그룹 정의](https://aka.ms/definesiteboundaries)를 참조 하세요.
     4. Configuration Manager reporting services 지점 역할을 추가 하 고 구성 합니다. 자세한 내용은 [Configuration Manager에서 보고](https://aka.ms/configurereporting)구성을 참조 하세요.
     5. 패키지에 대 한 파일 시스템 폴더 구조를 만듭니다.
     6. 패키지에 대 한 Configuration Manager 콘솔 폴더 구조를 만듭니다.
-    7. System Center Configuration Manager (현재 분기) 업데이트 및 추가 Windows 10 필수 구성 요소를 설치 합니다.
+    7. Configuration Manager (현재 분기) 업데이트 및 추가 Windows 10 필수 구성 요소를 설치 합니다.
 
 ## <a name="part-2-add-a-windows-10-os-image-using-configuration-manager"></a>2 부: Configuration Manager를 사용 하 여 Windows 10 OS 이미지 추가
 이제 전체 Windows 10 설치 미디어를 포함 하는 운영 체제 업그레이드 패키지를 만들어야 합니다. 다음 단계에서는 Configuration Manager를 사용 하 여 Windows 10 Enterprise x64 용 업그레이드 패키지를 만듭니다.
@@ -94,7 +94,7 @@ Windows 10 배포를 시작 하기 전에 다음 요구 사항을 검토 하십�
 업그레이드 작업 시퀀스를 만든 후에는 업그레이드할 장치를 포함 하는 컬렉션을 만들어야 합니다.
 
 > [!NOTE]
-> 다음 설정을 사용 하 여 단일 장치에서 배포를 테스트 합니다. 준비가 되 면 다른 멤버 자격 규칙을 사용 하 여 장치 그룹을 포함할 수 있습니다. 자세한 내용은 [System Center Configuration Manager에서 컬렉션을 만드는 방법을](https://aka.ms/sccm-create-collections)참조 하세요.
+> 다음 설정을 사용 하 여 단일 장치에서 배포를 테스트 합니다. 준비가 되 면 다른 멤버 자격 규칙을 사용 하 여 장치 그룹을 포함할 수 있습니다. 자세한 내용은 [Configuration Manager에서 컬렉션을 만드는 방법을](https://aka.ms/sccm-create-collections)참조 하세요.
 
 1. Configuration Manager 콘솔의 **자산 및 준수** 작업 영역에서 **장치 모음**을 마우스 오른쪽 단추로 클릭 한 다음 **장치 모음 만들기**를 선택 합니다. 
 2. 장치 컬렉션 만들기 마법사의 **일반** 페이지에서 다음 설정을 입력 하 고 **다음**을 선택 합니다.

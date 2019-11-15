@@ -19,14 +19,14 @@ search.appverid:
 - MET150
 ms.assetid: 5b4ba843-24b8-4526-8e1f-f9b9eab89d06
 description: Microsoft 365 Business에서 Microsoft 365 Enterprise e 3로 비즈니스를 이동 하는 방법을 알아봅니다.
-ms.openlocfilehash: 1ef32960905f1336f9ac92231d463959e3bfd01c
-ms.sourcegitcommit: 5c6c30ec5541d2fb77e53a1309db1fe7b75fc3e2
+ms.openlocfilehash: 77760aa8ea5b79f39d4c069d86e79a3cec6844e9
+ms.sourcegitcommit: 2c2248b03f7753d64490f2f7e56ec644a235b65a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/02/2019
-ms.locfileid: "37931856"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "38640787"
 ---
-# <a name="migrate-from-microsoft-365-business-to-microsoft-365-enterprise-e3"></a>Microsoft 365 Business에서 Microsoft 365 Enterprise e 3로 마이그레이션
+# <a name="migrate-from-microsoft-365-business-to-microsoft-365-enterprise-e3"></a>Microsoft 365 Business에서 Microsoft 365 Enterprise E3로 마이그레이션
 
 Microsoft 365 Business에는 최고의 비즈니스에 필요한 모든 것이 있으며, 최상의 클라우드 기반 생산성 앱을 간단한 장치 관리 및 보안과 함께 사용 하 여 직원 들이 최고의 작업을 수행할 수 있도록 합니다. 그러나 경우에 따라 Microsoft 365 비즈니스 구독을 Microsoft 365 Enterprise로 마이그레이션해야 할 수도 있습니다. 
 
@@ -87,13 +87,13 @@ Microsoft 365 Business에는 최고의 비즈니스에 필요한 모든 것이 �
 
 ## <a name="migration"></a>마이그레이션
 
-마이그레이션 하려면 파트너와 협력 하 여 365 Microsoft 365 Enterprise E3 구독을 해당 라이선스와 함께 사용 하는 것이 좋습니다.
+마이그레이션하기 위해 파트너와 협력 하 여 Microsoft 365 비즈니스 구독 및 라이선스를 해당 라이선스와 함께 적절 한 Microsoft 365 Enterprise E3 구독으로 이동 합니다.
 
 다음 섹션에서는 마이그레이션 후에 수행 해야 하는 작업 및 변경 내용에 대해 설명 합니다.
 
 ### <a name="microsoft-365-subscription-configuration-and-data"></a>Microsoft 365 구독 구성 및 데이터
 
-다음과 같은 마이그레이션 전에는 현재 구독 또는 데이터를 변경할 필요가 없습니다.
+마이그레이션을 수행 하기 전에 다음을 비롯 하 여 현재 구독 또는 데이터를 변경할 필요는 없습니다.
 
 - 구독 구성 (예: DNS 도메인 이름)
 - 사용자 및 그룹 계정 및 인증 설정 (예: 다단계 인증 또는 조건부 액세스 정책)
@@ -132,11 +132,11 @@ Windows 10 Enterprise e 3에는 Microsoft Edge에 대 한 하드웨어 기반 �
 
 ### <a name="device-management-with-intune"></a>Intune을 사용한 장치 관리
 
-마이그레이션 전에 현재 Intune 구성을 변경할 필요가 없으며, 등록 된 장치 및 장치 및 앱 설정이 포함 됩니다.
+마이그레이션 전에 현재 Intune 구성을 변경할 필요가 없습니다 (등록 된 장치 및 장치 및 앱 설정 포함).
 
 ### <a name="windows-10"></a>Windows 10
 
-Microsoft 365 Business에는 windows Autopilot를 사용 하 여 설치할 수 있는 Windows 10 Business가 포함 되어 있습니다. Microsoft 365 Enterprise e 3로 마이그레이션하는 경우 각 사용자 라이선스에는 windows Autopilot를 사용 하 여 설치할 수도 있습니다.
+Microsoft 365 Business에는 windows AutoPilot를 사용 하 여 설치할 수 있는 Windows 10 Business가 포함 되어 있습니다. Microsoft 365 Enterprise e 3로 마이그레이션하는 경우 각 사용자 라이선스에는 windows Autopilot를 사용 하 여 설치할 수도 있습니다.
 
 <a name="office-365-business"></a>
 ### <a name="office-365-business"></a>Office 365 Business

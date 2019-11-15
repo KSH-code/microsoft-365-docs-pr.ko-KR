@@ -12,12 +12,12 @@ ms.collection: M365-security-compliance
 ms.custom: Ent_TLGs
 ms.assetid: 1aa9639b-2862-49c4-bc33-1586dda636b8
 description: 이 테스트 랩 가이드를 사용 하 여 Microsoft 365 Enterprise 테스트 환경의 문서에 대해 Office 365 보존 레이블을 만들고 사용 합니다.
-ms.openlocfilehash: 66e06f9a89b102c131bc29af17c4564fabbab9b4
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: 1bcd3ab2d8069ad85d48ecf682d3b7d49e7cf739
+ms.sourcegitcommit: 2c2248b03f7753d64490f2f7e56ec644a235b65a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34072418"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "38639788"
 ---
 # <a name="data-classification-for-your-microsoft-365-enterprise-test-environment"></a>Microsoft 365 Enterprise 테스트 환경에 대 한 데이터 분류
 
@@ -26,7 +26,7 @@ ms.locfileid: "34072418"
 ![Microsoft 클라우드의 테스트 랩 가이드](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
 
 > [!TIP]
-> [여기](https://aka.ms/m365etlgstack)를 클릭하여 Microsoft 365 Enterprise 테스트 랩 가이드 스택의 모든 문서에 대한 가상 맵을 확인할 수 있습니다.
+> [여기](media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf)를 클릭하여 Microsoft 365 Enterprise 테스트 랩 가이드 스택의 모든 문서에 대한 가상 맵을 확인할 수 있습니다.
   
 ## <a name="phase-1-build-out-your-microsoft-365-enterprise-test-environment"></a>1 단계: Microsoft 365 Enterprise 테스트 환경 구축
 
@@ -99,15 +99,15 @@ ms.locfileid: "34072418"
     
 6. **팀 사이트 설명**에서 **중요 한 파일에 대 한 SharePoint 사이트**를 입력 합니다.
     
-7.  **개인 정보 설정**에서 **비공개 – 구성원만 이 사이트에 액세스할 수 있습니다.** 를 선택하고 **다음**을 클릭합니다.
+7.  **개인 정보 설정**에서 **개인 - 구성원만 이 사이트에 액세스할 수 있음**을 선택하고 **다음**을 클릭합니다.
     
-8. **어떤 사람을 추가하시겠습니까?** 창에서 **마침**을 클릭합니다.
+8. **누구를 추가하시겠습니까?** 창에서 **마침**을 클릭합니다.
     
 그런 다음 SensitiveFiles 팀 사이트의 문서 폴더를 구성 하 여 중요 한 보존 레이블을 지정 합니다.
   
 1. 브라우저의 **SensitiveFiles** 탭에서 **문서**를 클릭 합니다.
     
-2. 설정 아이콘을 클릭한 다음, **라이브러리 설정**을 클릭합니다.
+2. 설정 아이콘을 클릭한 다음 **라이브러리 설정**을 클릭합니다.
     
 3. **권한 및 관리** 아래에서 **이 라이브러리의 항목에 레이블 적용**을 클릭합니다.
     
@@ -115,7 +115,7 @@ ms.locfileid: "34072418"
 
 다음으로, SensitiveFiles 사이트에서 새 문서를 만들고 해당 보존 레이블을 변경 합니다.
     
-1. 문서 폴더에서 **새 _GT_ Word 문서**를 클릭 합니다.
+1. 문서 폴더에서 **Word 문서 > 새로 만들기**를 클릭 합니다.
     
 2. 빈 문서에 텍스트를 입력 합니다. 텍스트가 저장 될 때까지 기다립니다.
     

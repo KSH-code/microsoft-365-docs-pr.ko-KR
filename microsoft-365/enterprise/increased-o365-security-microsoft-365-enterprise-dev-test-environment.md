@@ -12,12 +12,12 @@ ms.collection: M365-security-compliance
 ms.custom: Ent_TLGs
 ms.assetid: 1aa9639b-2862-49c4-bc33-1586dda636b8
 description: 이 테스트 랩 가이드를 사용 하 여 microsoft 365 Enterprise Test environment 추가 Microsoft 365 보안 설정을 사용 하도록 설정 합니다.
-ms.openlocfilehash: d51f9ada68969823eadbb4fad55392358a6ddee8
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: f430acb4a7fd1842a4ae26025ad5a63cccf8392f
+ms.sourcegitcommit: 2c2248b03f7753d64490f2f7e56ec644a235b65a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34072138"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "38640370"
 ---
 # <a name="increased-microsoft-365-security-for-your-microsoft-365-enterprise-test-environment"></a>Microsoft 365 Enterprise 테스트 환경에 대 한 Microsoft 365 보안이 향상 되었습니다.
 
@@ -26,7 +26,7 @@ ms.locfileid: "34072138"
 ![Microsoft 클라우드의 테스트 랩 가이드](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
 
 > [!TIP]
-> [여기](https://aka.ms/m365etlgstack)를 클릭하여 Microsoft 365 Enterprise 테스트 랩 가이드 스택의 모든 문서에 대한 가상 맵을 확인할 수 있습니다.
+> [여기](media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf)를 클릭하여 Microsoft 365 Enterprise 테스트 랩 가이드 스택의 모든 문서에 대한 가상 맵을 확인할 수 있습니다.
   
 ## <a name="phase-1-build-out-your-microsoft-365-enterprise-test-environment"></a>1 단계: Microsoft 365 Enterprise 테스트 환경 구축
 
@@ -61,9 +61,9 @@ ms.locfileid: "34072138"
 
 SharePoint, OneDrive 및 Microsoft 팀의 Office 365 Advanced Threat Protection (ATP)은 악의적인 파일을 실수로 공유 하지 않도록 조직을 보호 합니다.
 
-1. [Office 365 Security _AMP_ 준수 센터로](https://protection.office.com) 이동 하 여 전역 관리자 계정으로 로그인 합니다.
+1. [Office 365 Security & 준수 센터로](https://protection.office.com) 이동한 후 전역 관리자 계정으로 로그인 합니다.
 
-2. 왼쪽 탐색 창의 **위협 관리**에서 **정책 _GT_ 안전한 첨부 파일**을 선택 합니다. 
+2. 왼쪽 탐색 창의 **위협 관리**에서 **안전한 첨부 파일 정책 >** 선택 합니다. 
 
 3. **SharePoint, OneDrive 및 Microsoft 팀에 대해 ATP 사용**을 선택 합니다.
 
@@ -74,7 +74,7 @@ SharePoint, OneDrive 및 Microsoft 팀의 Office 365 Advanced Threat Protection 
 
 맬웨어는 바이러스 및 스파이웨어로 구성됩니다. 바이러스는 다른 프로그램 및 데이터를 감염시키며 컴퓨터 전체로 전파되어 감염시킬 프로그램을 찾습니다. 스파이웨어는 로그인 정보와 개인 데이터 등의 개인 정보를 수집하여 이를 맬웨어 작성자에게 보내는 맬웨어입니다. 
 
-Office 365에는 악성 소프트웨어 로부터 인바운드 및 아웃 바운드 메시지를 보호 하 고 스팸을 보호 하는 데 도움이 되는 맬웨어 및 스팸 필터링 기능이 기본적으로 제공 됩니다. 자세한 내용은 [스팸 방지 & 맬웨어 방지 보호 기능 (Office 365의](https://docs.microsoft.com/office365/securitycompliance/anti-spam-and-anti-malware-protection) )을 참조 하세요.
+Office 365에는 악성 소프트웨어 로부터 인바운드 및 아웃 바운드 메시지를 보호 하 고 스팸을 보호 하는 데 도움이 되는 맬웨어 및 스팸 필터링 기능이 기본적으로 제공 됩니다. 자세한 내용은 [스팸 방지 & 맬웨어 방지 보호 기능 (Office 365](https://docs.microsoft.com/office365/securitycompliance/anti-spam-and-anti-malware-protection) )을 참조 하세요.
 
 일반적인 첨부 파일 형식이 포함 된 파일에서 맬웨어 방지 처리가 수행 되 고 있는지 확인 하려면 다음과 같이 합니다.
 
@@ -82,7 +82,7 @@ Office 365에는 악성 소프트웨어 로부터 인바운드 및 아웃 바운
 2. **맬웨어 방지**를 클릭 합니다.
 3. **Default**라는 정책을 두 번 클릭 합니다.
 4. **맬웨어 방지 정책** 창에서 **설정을**클릭 합니다.
-4. **일반 첨부 파일 형식 필터**에서 **> 저장을**클릭 합니다.
+4. **일반 첨부 파일 형식 필터**에서 **> 저장**을 클릭 합니다.
 
 
 ## <a name="phase-3-examine-the-threat-management-dashboard"></a>3 단계: 위협 관리 대시보드 검사

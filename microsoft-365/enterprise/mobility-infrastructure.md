@@ -13,12 +13,12 @@ ms.technology: ''
 ms.assetid: fb4182e6-5e78-45d0-9641-d791c4519441
 audience: ITPro
 ms.custom: microsoft-intune
-ms.openlocfilehash: 72ddad03486bf2c7dcba682453fa3bcfbdd1162b
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: c507db0d2867b006772f5aca83d8b5342e55113d
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38031153"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38627432"
 ---
 # <a name="phase-5-mobile-device-management-for-microsoft-365-enterprise"></a>단계 5: Microsoft 365 엔터프라이즈에 대 한 모바일 장치 관리
 
@@ -62,7 +62,7 @@ Intune에서는 도메인, 사용자 및 그룹을 비롯 하 여 Azure AD의 �
 
 3. **[Intune에 로그인](https://docs.microsoft.com/intune/account-sign-up)** 합니다. 로그인 할 때 조직에 대 한 정보를 입력 하 라는 메시지가 표시 될 수 있습니다. Intune은 Microsoft 365에 포함 되어 있으며 [microsoft 365 관리 센터](https://admin.microsoft.com)에서 직접 열 수 있습니다. [Azure portal](https://portal.azure.com)에서 직접 Intune을 열 수도 있습니다.
 
-4. **[모바일 장치 관리 구성을 선택](https://docs.microsoft.com/intune/mdm-authority-set)** 합니다. 처음 Intune을 사용 하려면 장치 관리를 사용 하도록 설정 해야 합니다. Intune은 클라우드 전용 서비스, Intune 및 System Center Configuration Manager를 사용한 하이브리드 또는 Office 365에 대 한 모바일 장치 관리를 사용 하 여 사용할 수 있습니다. 조직에 가장 적합 한 설정을 선택할 수 있습니다.
+4. **[모바일 장치 관리 구성을 선택](https://docs.microsoft.com/intune/mdm-authority-set)** 합니다. 처음 Intune을 사용 하려면 장치 관리를 사용 하도록 설정 해야 합니다. Intune은 클라우드 전용 서비스, Intune 및 Microsoft Endpoint Configuration Manager를 사용한 하이브리드 또는 Office 365에 대 한 모바일 장치 관리를 사용 하 여 사용할 수 있습니다. 조직에 가장 적합 한 설정을 선택할 수 있습니다.
 
 5. **[사용자를 추가](https://docs.microsoft.com/intune/users-add)** 하 고 **[그룹을 추가](https://docs.microsoft.com/intune/groups-add)** 합니다. 
 

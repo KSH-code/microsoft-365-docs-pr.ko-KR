@@ -18,21 +18,21 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 27ff1678-865a-4707-8145-e1155aa815d6
-description: Microsoft 365 Business 관련 관리 작업, 모바일 장치, Windows 10 Pc 등의 다양 한 작업을 관리 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 1e39adad50688686ef1d03ef7ed51534e067e6b3
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+description: Microsoft 365 Business 관련 관리 작업, 모바일 장치, Windows 10 Pc 및 여러 가지 작업을 관리 하는 방법에 대해 알아봅니다.
+ms.openlocfilehash: ee1c856c6c0005842df8b3581a602dd539490bea
+ms.sourcegitcommit: 9a057e70637dcfe06d4f729a96c02be989cf9e25
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37575961"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38633312"
 ---
 # <a name="manage-microsoft-365-business"></a>Microsoft 365 Business 관리
 
 ## <a name="general-microsoft-365-business-admin-tasks"></a>일반 Microsoft 365 Business 관리 작업
 
-비즈니스용 Office 365에 대 한 대부분의 [관리자 콘텐츠가](/Office365/Admin/admin-home.md) Microsoft 365 business에도 적용 됩니다.
+비즈니스용 Office 365에 대 한 대부분의 [관리자 콘텐츠](/Office365/Admin/admin-home.md) 는 Microsoft 365 business에도 적용 됩니다.
 
-- [Microsoft 365 Business에 다른 사용자 추가](add-users-m365b.md)
+- [Microsoft 365 Business에 더 많은 사용자 추가](add-users-m365b.md)
     
 - [정책 및 장치 보기](view-policies-and-devices.md)
     
@@ -40,7 +40,7 @@ ms.locfileid: "37575961"
     
 - [Microsoft 365 Business의 보호 기능을 Intune 설정에 매핑하는 방법](map-protection-features-to-intune-settings.md)
     
-다음 섹션에서 PC 및 모바일 장치에서 조직의 데이터를 보호하기 위해 Microsoft 365 Business를 사용하는 방법을 알아보세요.
+Microsoft 365 Business를 사용 하 여 Pc 및 모바일 장치에서 조직의 데이터를 보호 하는 방법에 대 한 다음 섹션을 참조 하세요.
   
 ## <a name="manage-mobile-devices"></a>모바일 장치 관리
 
@@ -48,7 +48,7 @@ ms.locfileid: "37575961"
     
 - [Android 또는 iOS 장치에서 앱 보호 설정 설정하기](app-protection-settings-for-android-and-ios.md)
     
-    [Android 또는 iOS 장치에서 앱 보호 설정 유효성 검사](validate-settings-on-android-or-ios.md) 를 참조 하 여 제대로 작동 하는지 확인 합니다. 
+    작동 여부를 확인 하려면 [Android 또는 iOS 장치에서 앱 보호 설정 유효성 검사](validate-settings-on-android-or-ios.md)를 참조 하세요. 
     
 - [장치에서 회사 데이터 제거](remove-company-data.md)
     
@@ -62,11 +62,11 @@ ms.locfileid: "37575961"
     
 - [Windows 10 장치에서 장치 보호 설정 설정하기](protection-settings-for-windows-10-pcs.md)
     
-    [Windows 10 장치에서 장치 보호 설정 유효성 검사](validate-settings-on-windows-10-pcs.md) 를 참조하여 작업이 제대로 수행되었는지 확인하세요. 
+    이 작업이 제대로 수행 되었는지 확인 하려면 [Windows 10 장치에서 장치 보호 설정 유효성 검사](validate-settings-on-windows-10-pcs.md)를 참조 하세요. 
     
 - [Windows 10 장치에서 응용 프로그램 보호 설정 설정하기](protection-settings-for-windows-10-devices.md)
     
-    [Windows 10 장치에서 앱 보호 설정 유효성 검사](validate-protection-settings-on-windows-10-pcs.md) 를 확인하여 작업이 제대로 수행되었는지 확인하세요. 
+    이 작업이 제대로 수행 되었는지 확인 하려면 [Windows 10 pc에서 앱 보호 설정 유효성 검사](validate-protection-settings-on-windows-10-pcs.md)를 참조 하세요. 
     
 - [장치에서 회사 데이터 제거](remove-company-data.md)
     
@@ -88,9 +88,9 @@ ms.locfileid: "37575961"
     
 - [AutoPilot 프로필 설정 정보](autopilot-profile-settings.md)
     
-## <a name="set-up-and-pre-requisite-information"></a>설정 및 필수 조건 정보
+## <a name="set-up-and-prerequisite-information"></a>설정 및 필수 사항 정보
 
-- [Microsoft 365 Business를 사용하여 장치의 데이터를 보호하기 위한 필수 조건](pre-requisites-for-data-protection.md)
+- [Microsoft 365 Business를 사용 하 여 장치의 데이터를 보호 하기 위한 필수 구성 요소](pre-requisites-for-data-protection.md)
     
 - [설정 마법사를 사용하여 Microsoft 365 Business 설정](set-up.md)
     
@@ -98,8 +98,4 @@ ms.locfileid: "37575961"
     
 - [도메인에 가입 된 Windows 10 장치를 Microsoft 365 Business에서 관리할 수 있도록 설정](manage-windows-devices.md)
     
-[추가 보안 기능](security-features.md#additional-security-features)
-    
-
-  
-
+- [추가 보안 기능](security-features.md#additional-security-features)

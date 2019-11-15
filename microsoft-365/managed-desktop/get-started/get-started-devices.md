@@ -1,36 +1,44 @@
 ---
-title: 관리자-사용자가 Microsoft Managed Desktop 장치를 시작 하는 데 도움이 됩니다.
+title: 사용자들이 장치를 사용할 수 있도록 준비시키기
 description: ''
 keywords: Microsoft Managed Desktop, device, 시작, Microsoft 365
 ms.service: m365-md
 author: jaimeo
+ms.author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 9b87156a66d2f7a8d69a6c6f1a22353a52c69385
-ms.sourcegitcommit: 3d37043c0447359c952dc99026c219dd69f6fb8d
+ms.openlocfilehash: eec0243b7724eac852a9145a4e4fadcc13fae097
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "38012403"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38627562"
 ---
 # <a name="get-your-users-ready-to-use-devices"></a>사용자들이 장치를 사용할 수 있도록 준비시키기
 
-Microsoft Managed Desktop 장치는 현재 버전의 Windows를 사용 하 여 미리 구성 됩니다. 사용자가 장치 설정을 완료 하면 클라우드에서 구성 및 앱이 설치 됩니다. 
+Microsoft Managed Desktop 장치가 최종 사용자의 손에 온 후에는 빠르고 쉽게 시작할 수 있습니다. 장치는 현재 버전의 Windows를 사용 하 여 미리 구성 되며, 사용자가 설치를 완료 하면 클라우드에서 구성 및 앱이 설치 됩니다. 
  
-장치를 사용 하 여 생산성을 설정 하는 동안에는 사용자가 수행 해야 하는 몇 가지 단계가 있습니다. Microsoft Managed Desktop은 아래 연결 된 *장치 가이드를* 사용 하 여 시작 하는 것이 좋습니다. 다운로드 가능한이 가이드에서는 새로운 Microsoft Managed Desktop 장치를 설정 하는 기본 지침을 제공 합니다. 이 가이드는 IT 관리자를 위한 기준으로 설계 되었습니다. 이를 그대로 사용 하거나 업데이트 하 여 사용자가 자신의 장치를 설정 하는 데 도움이 되는 단계 또는 정보를 추가 합니다. 
+이 작업을 보다 쉽게 수행 하기 위해 초기 설치 과정을 안내 하 고 필요한 경우 설치 및 나중에 사용할 수 있도록 도움말 리소스를 제공 하는 가이드도 제공 됩니다. 이 가이드를 사용자 지정 하 여 조직에 특정 한 세부 정보를 포함할 수 있습니다. 그런 다음 해당 장치와 함께 사용자에 게 직접 가이드를 배포 합니다. Microsoft의 지원 시스템 (Get Help app)을 사용 하는 조직에 대 한 두 가지 버전, 즉 고유한 최종 사용자 지원을 제공 하는 조직을 위한 버전이 있습니다.
 
-## <a name="get-started-guide"></a>시작 가이드 
-가이드: [Microsoft Managed Desktop-장치를 사용 하 여 시작 해 보기](https://www.microsoft.com/download/details.aspx?id=57918)를 다운로드할 수 있습니다.
+## <a name="to-prepare-the-guide"></a>가이드를 준비 하려면
 
-## <a name="what-should-i-update-in-the-get-started-guide"></a>시작 가이드에서 업데이트 해야 하는 사항
+1. 조직에 적합 한 버전을 다운로드 합니다.
+- [Microsoft Managed Desktop-장치에서 시작 하기 (도움말 버전 보기)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-started/downloads/microsoft-managed-desktop-user-guide-help-custom-v2.pdf) -최종 사용자가 Microsoft의 지원 시스템을 사용 하는 경우이 버전을 사용 합니다.
+- [Microsoft Managed Desktop-장치에서 시작](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-started/downloads/microsoft-managed-desktop-user-guide-no-help-custom-v2.pdf) -최종 사용자가 Microsoft의 지원 시스템을 사용 *하지 않는* 경우에는이 버전을 사용 하세요.
+2. PDF 파일을 열 수 있는 앱을 사용 하 여 조직과 관련 된 세부 정보를 입력 합니다.
+    - 설치를 계속 하기 위해 사용자가 연결할 네트워크의 이름입니다 (가이드의 3 단계).
+    - 조직의 Azure 테 넌 트 계정 이름 (가이드의 4 단계)
+    - 조직의 내부 IT 지원에 대 한 연락처 정보 (두 번째 페이지의 맨 위)
+3. 편집한 PDF를 저장 한 다음 최종 사용자에 게 배포 합니다. 
 
-다음과 같은 몇 가지 방법으로 IT 관리자가 *장치를 사용 하 여*개인 설정를 시작할 수 있습니다.
-- 사용자가 2 단계에서 연결 해야 하는 기본 인터넷 포함
-- 3 단계에서 입력할 적절 한 사용자 이름 또는 도메인 이름을 사용자에 게 제공 합니다.
-- Microsoft Managed Desktop 지원 외부에서 지원에 대 한 지원 담당자를 조직 내에 추가 합니다.
-- 장치 선택 위치에 대 한 지침 추가 (이 지침과 별도의 경우)
+## <a name="ready-to-use-guide"></a>"사용 준비가 완료 된 가이드"
 
-이제 시작 단계를 계속할 준비가 되었습니다.
+또한 사용자 지정할 필요가 없는 조직에 대해 보다 일반적인 가이드 버전을 제공 합니다. Microsoft의 지원 시스템 (Get Help app)을 사용 하는 조직에 대 한 두 가지 버전, 즉 고유한 최종 사용자 지원을 제공 하는 조직을 위한 버전이 있습니다.
+
+- [Microsoft Managed Desktop-장치 시작 (도움말 버전-사용 준비)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-started/downloads/microsoft-managed-desktop-user-guide-help-v2.pdf) -최종 사용자가 Microsoft의 지원 시스템을 사용 하는 경우이 버전을 사용 합니다.
+- [Microsoft Managed Desktop-장치 작업 시작 (사용 준비)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-started/downloads/microsoft-managed-desktop-user-guide-no-help-v2.pdf) -최종 사용자가 Microsoft의 지원 시스템을 사용 *하지 않는* 경우이 버전을 사용 하세요.
+
+이제 앱을 배포 하는 작업을 진행할 준비가 되었습니다.
 
 
 ## <a name="steps-to-get-started-with-microsoft-managed-desktop"></a>Microsoft Managed Desktop을 시작 하기 위한 단계

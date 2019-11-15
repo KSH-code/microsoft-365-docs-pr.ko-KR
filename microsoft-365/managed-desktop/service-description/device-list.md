@@ -5,12 +5,12 @@ keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 설명서
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
-ms.openlocfilehash: cfa46fa61483f68031ef508779dd71bd43fa92ae
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 11cbdaf47e06536afd996fd41c3ea603967e2685
+ms.sourcegitcommit: 2c2248b03f7753d64490f2f7e56ec644a235b65a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38034249"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "38640350"
 ---
 # <a name="microsoft-managed-desktop-devices"></a>Microsoft Managed Desktop 장치 
 
@@ -33,13 +33,14 @@ Microsoft Managed Desktop에 등록 하려면 장치는 다음 모델 중 하나
 
 | 모델    | 최소 사양  | 추가 요구 사항    | 보관 날짜   | 퇴직 날짜   |
 |----------|----------------|---------------------------|----------------|--------------------|
-|[Dell Precision 3530](https://www.dell.com/work/shop/cty/pdp/spd/precision-15-3530-laptop?cid=265720&st=dell%2Bprecision%2B3530&VEN1=ihEzXzFB,73667408703289,901q5c14135,c,,%7BProductid%7D&VEN2=be,dell%2Bprecision%2B3530&lid=42076560130&dgc=st&dgseg=so&acd=12309152537461020&VEN3=112504543746142297) | 256 GB/Intel i5/8gb RAM | IR 카메라 필요 | 5 월 22 일, 2020  | 5 월 22 일, 2023 |
-|[Dell Latitude 5300/5400/5500](https://www.dell.com/work/shop/dell-laptops-and-notebooks/latitude-5400-business-laptop/spd/latitude-14-5400-laptop) | 256 GB/Intel i5/8gb RAM | IR 카메라 필요 | 2021 년 6 월 1 일  | 2024 년 6 월 1 일  |
-[Dell Latitude 5490](https://www.dell.com/work/shop/cty/pdp/spd/latitude-14-5490-laptop?cid=265768&st=dell%2Blatitude%2B5490&VEN1=yKFOheND,73873544881479,901q5c14135,c,,%7BProductid%7D&VEN2=be,dell%2Blatitude%2B5490&lid=5980636&dgc=st&dgseg=so&acd=12309152537461020&VEN3=112504543746142297) | 256 GB/Intel i5/8gb RAM | IR 카메라 필요 | 1 월 9 일, 2020  | 1 월 9 일, 2023  |
-[Dell Latitude 7200 2-1/7300/7400](https://www.dell.com/work/shop/dell-laptops-and-notebooks/latitude-7200-2-in-1-business-laptop/spd/latitude-12-7200-2-in-1-laptop) | 256 GB/Intel i5/8gb RAM | IR 카메라 필요 | 5 월 1 일, 2021  | 5 월 1 일, 2024  |
-[Dell Latitude 7390 7390 2-1/7490](https://www.dell.com/work/shop/cty/pdp/spd/latitude-13-7390-2-in-1-laptop?cid=265768&st=dell%2Blatitude%2B7390%2B2-in-1&VEN1=bRXisqe7,73255069985268,901q5c14135,c,,%7BProductid%7D&VEN2=be,dell%2Blatitude%2B7390%2B2-in-1&lid=5981275&dgc=st&dgseg=so&acd=12309152537461020&VEN3=112504543746142297)   | 256 GB/Intel i5/8gb RAM   | IR 카메라 필요 | 1 월 9 일, 2020 | 1 월 9 일, 2023 |
+| [Dell Precision 3530](https://www.dell.com/en-us/work/shop/cty/pdp/spd/precision-15-3530-laptop?cid=265720&st=dell%2Bprecision%2B3530&VEN1=ihEzXzFB,73667408703289,901q5c14135,c,,%7BProductid%7D&VEN2=be,dell%2Bprecision%2B3530&lid=42076560130&dgc=st&dgseg=so&acd=12309152537461020&VEN3=112504543746142297) | 256 GB/Intel i5/8gb RAM | IR 카메라 필요 | 5 월 22 일, 2020  | 5 월 22 일, 2023 |
+| [Dell Latitude 5300/5400/5500](https://www.dell.com/en-us/work/shop/dell-laptops-and-notebooks/latitude-5400-business-laptop/spd/latitude-14-5400-laptop) | 256 GB/Intel i5/8gb RAM | IR 카메라 필요 | 2021 년 6 월 1 일  | 2024 년 6 월 1 일  |
+| [Dell Latitude 5490](https://www.dell.com/en-us/work/shop/cty/pdp/spd/latitude-14-5490-laptop?cid=265768&st=dell%2Blatitude%2B5490&VEN1=yKFOheND,73873544881479,901q5c14135,c,,%7BProductid%7D&VEN2=be,dell%2Blatitude%2B5490&lid=5980636&dgc=st&dgseg=so&acd=12309152537461020&VEN3=112504543746142297) | 256 GB/Intel i5/8gb RAM | IR 카메라 필요 | 1 월 9 일, 2020  | 1 월 9 일, 2023  |
+| [Dell Latitude 7200 2-1/7300/7400](https://www.dell.com/en-us/work/shop/dell-laptops-and-notebooks/latitude-7200-2-in-1-business-laptop/spd/latitude-12-7200-2-in-1-laptop) | 256 GB/Intel i5/8gb RAM | IR 카메라 필요 | 5 월 1 일, 2021  | 5 월 1 일, 2024  |
+| [Dell Latitude 7390 7390 2-1/7490](https://www.dell.com/en-us/work/shop/cty/pdp/spd/latitude-13-7390-2-in-1-laptop?cid=265768&st=dell%2Blatitude%2B7390%2B2-in-1&VEN1=bRXisqe7,73255069985268,901q5c14135,c,,%7BProductid%7D&VEN2=be,dell%2Blatitude%2B7390%2B2-in-1&lid=5981275&dgc=st&dgseg=so&acd=12309152537461020&VEN3=112504543746142297) | 256 GB/Intel i5/8gb RAM   | IR 카메라 필요 | 1 월 9 일, 2020 | 1 월 9 일, 2023 |
+| [HP EliteBook 830/840/850 G6 노트북 PC](https://store.hp.com/us/en/mdp/laptops/elitebook-840#!&tab=features) | 128 GB/Intel i5/8gb RAM | 5VS01AV, IR 카메라 또는 지문 센서가 필요한 SKU | 11 월 30 일, 2020 | 11 월 30 일, 2023 |
+| [HP EliteBook x360 830 G6 노트북 PC](https://store.hp.com/us/en/pdp/hp-elitebook-x360-830-g6-notebook-pc) | 128 GB/Intel i5/8gb RAM | 5VS01AV, IR 카메라 또는 지문 센서가 필요한 SKU | 11 월 30 일, 2020 | 11 월 30 일, 2023 |
 | [HP 정예 x2 1013 G3](https://store.hp.com/us/en/mdp/laptops/hp-elite-x2-1013-3074457345617296670--1#!&tab=features) | 256 GB/Intel i5/8gb RAM | 5VS03AV를 사용한 SKU, IR 카메라 필요 | 5 월 14 일 2020 | 5 월 14 일 2023 |
-| [HP EliteBook 830/840/850 G5](https://store.hp.com/us/en/mdp/laptops/elitebook-840#!&tab=features) | 128 GB/Intel i5/8gb RAM | 5VS01AV, IR 카메라 또는 지문 센서가 필요한 SKU | 2 월 15 일 2020 | 2 월 15 일 2023 |
 | [HP EliteBook x360 1030 G3](https://store.hp.com/us/en/mdp/laptops/hp-elitebook-x360-1030-g2--1#tab=features) | 56 GB/Intel i5/8gb RAM | 5VS01AV를 사용한 SKU, IR 카메라 필요 | 5 월 14 일 2020 | 5 월 14 일 2023 |
 | [HP EliteBook x360 1040 G5](https://store.hp.com/us/en/mdp/laptops/hp-elitebook-x360-1040-3074457345617328670--1#!&tab=features) | 256 GB/Intel i5/8gb RAM | 5VS01AV를 사용한 SKU, IR 카메라 필요 | 2020 년 10 월 23 일 | 2023 년 10 월 23 일 |
 | [HP EliteDesk 800 G4 DM](https://store.hp.com/us/en/mdp/desktops/elitedesk-800-mini-349547--1#!&tab=features) | 128 GB/Intel i3/8gb RAM | 5VS04AV를 사용한 SKU | 7 월 18 일 2020 | 7 월 18 일 2023 |
@@ -51,7 +52,9 @@ Microsoft Managed Desktop에 등록 하려면 장치는 다음 모델 중 하나
 | [Surface 랩탑 2](https://www.microsoft.com/p/surface-laptop-2-for-business/8xlk0g60tlb6/hkq9?cid=msft_web_collection&CustomerIntent=Consumer) | 256 GB/Intel i5/8gb RAM | 없음 | 2020 년 10 월 16 일 | 2023 년 10 월 16 일 |
 | [Surface Pro 6](https://www.microsoft.com/p/surface-pro-6-for-business/8xjq3d3lrp0r/grf9?cid=msft_web_collection&CustomerIntent=Consumer&activetab=pivot%3aoverviewtab) | 256 GB/Intel i5/8gb RAM | 없음 | 2020 년 10 월 16 일 | 2023 년 10 월 16 일 |
 
-또한 장치는 다음을 수행 해야 합니다.     
+
+
+또한 장치는 다음 기준을 충족 해야 합니다.     
 
 - Microsoft Managed Desktop에서 이미지를 승인 받아야 합니다. 장치를 주문할 때 Microsoft Managed Desktop과 함께 사용 되도록 지정 해야 합니다.
 - Windows 최초 실행 환경을 완료 하지 않은 경우
@@ -63,7 +66,7 @@ Microsoft Managed Desktop에 등록 하려면 장치는 다음 모델 중 하나
 
 - Dell 장치에 대 한 자세한 내용은 <a href="mailto:MMD_at_dell@dell.com">MMD_at_dell@dell.com</a>에 문의 하십시오.
 
-- HP 장치에 대 한 자세한 내용은 미국 (<a href="mailto:mmd-americas@hp.com">mmd-americas@hp.com</a>)에 문의 하세요. 유럽/중동/아프리카 (<a href="mailto:mmd-emea@hp.com">mmd-emea@hp.com</a>); 아시아 태평양/일본 (<a href="mailto:mmd-apj@hp.com">mmd-apj@hp.com</a>); Global (<a href="mailto:mmd@hp.com">mmd@hp.com</a>)
+- HP 장치 및 장치 주문 지침에 대 한 자세한 내용은 미주 (<a href="mailto:mmd-americas@hp.com">mmd-americas@hp.com</a>)를 참조 하세요. 유럽/중동/아프리카 (<a href="mailto:mmd-emea@hp.com">mmd-emea@hp.com</a>); 아시아 태평양/일본 (<a href="mailto:mmd-apj@hp.com">mmd-apj@hp.com</a>); Global (<a href="mailto:mmd@hp.com">mmd@hp.com</a>)
 
 
 

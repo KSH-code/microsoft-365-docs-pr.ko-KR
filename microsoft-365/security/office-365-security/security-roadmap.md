@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 28c86a1c-e4dd-4aad-a2a6-c768a21cb352
 description: 'Office 365 환경을 보호 하기 위한 보안 기능을 구현 하기 위한 Microsoft의 cybersecurity 팀의 주요 권장 사항입니다. '
-ms.openlocfilehash: e9731b9e64fa552363a52422146e1ae6eccf64ab
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: ab2d780ff947ac829ba2565cf3fd142208fcf8b0
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38032103"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38627572"
 ---
 # <a name="office-365-security-roadmap---top-priorities-for-the-first-30-days-90-days-and-beyond"></a>Office 365 보안 로드맵-처음 30 일, 90 일 및 그 이상에 대 한 주요 우선 순위
 
@@ -74,7 +74,7 @@ ms.locfileid: "38032103"
 |영역  <br/> |작업  <br/> |
 |보안 관리  <br/> | • 환경에 대 한 권장 작업 ( [https://securescore.office.com](https://securescore.office.com))에 대 한 보안 점수를 확인 합니다.  <br/>  • Microsoft 365 보안 센터, Cloud App Security 및 SIEM 도구에서 대시보드 및 보고서를 정기적으로 계속 검토 합니다.  <br/>  • 소프트웨어 업데이트를 찾고 구현 합니다.  <br/>  • [Attack 시뮬레이터](https://support.office.com/article/attack-simulator-office-365-da5845db-c578-4a41-b2cb-5a09689a551b) ( [Office 365 위협 인텔리전스](office-365-ti.md)에 포함)를 사용 하 여 스피어-피싱, 암호-스프레이 및 무작위 암호 공격에 대 한 공격 시뮬레이션을 수행 합니다.  <br/>  • Cloud App Security의 기본 제공 보고서 (조사 탭)를 검토 하 여 공유 위험을 확인 합니다.  <br/>  • [준수 관리자](../../compliance/meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md) 를 확인 하 여 조직에 적용 되는 규정에 대 한 상태를 검토 합니다 (예: GDPR, NIST 800-171).  <br/> |
 |위협 방지  <br/> | 관리자 계정에 대해 향상 된 보호를 구현 합니다.  <br/>  • 관리 활동에 대 한 PAWs ( [권한이 부여 된 액세스 워크스테이션](https://docs.microsoft.com/windows-server/identity/securing-privileged-access/privileged-access-workstations) )를 구성 합니다.  <br/>  • [AZURE AD 권한이 부여 된 Id 관리](https://docs.microsoft.com/azure/active-directory/active-directory-privileged-identity-management-configure)를 구성 합니다.  <br/>  • Office 365, Cloud App Security 및 AD FS를 비롯 한 기타 서비스에서 로깅 데이터를 수집 하도록 SIEM (보안 정보 및 이벤트 관리) 도구를 구성 합니다. Office 365 감사 로그에는 90 일 동안만 데이터가 저장 됩니다. SIEM 도구에서이 데이터를 캡처하면 더 긴 기간에 대 한 데이터를 저장할 수 있습니다.  <br/> |
-|ID 및 액세스 관리  <br/> | • 모든 사용자에 대해 MFA를 사용 하도록 설정 하 고 적용 합니다.  <br/>  • [조건부 액세스 및 관련 정책](https://docs.microsoft.com/en-us/microsoft-365/enterprise/microsoft-365-policies-configurations)집합을 구현 합니다. |
+|ID 및 액세스 관리  <br/> | • 모든 사용자에 대해 MFA를 사용 하도록 설정 하 고 적용 합니다.  <br/>  • [조건부 액세스 및 관련 정책](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-policies-configurations)집합을 구현 합니다. |
 |정보 보호  <br/> | 정보 보호 정책을 적용 하 고 구현 합니다. 이러한 리소스에는 다음 예가 포함 됩니다.  <br/> • [GDPR에 대 한 Office 365 정보 보호](https://aka.ms/o365gdpr) <br/> • [SharePoint Online 사이트 및 파일 보호](https://docs.microsoft.com/Office365/enterprise/secure-sharepoint-online-sites-and-files) <br/> <br> Cloud App Security 대신 Office 365에 저장 된 데이터에 대 한 Office 365의 데이터 손실 방지 정책 및 모니터링 도구를 사용 합니다. <br><br>데이터 손실 방지를 제외 하 고 고급 경고 기능을 위해 Cloud App Security with Office 365을 사용 합니다.  <br/> |
    
 ## <a name="beyond"></a>많은

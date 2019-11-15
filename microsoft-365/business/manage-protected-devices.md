@@ -24,16 +24,18 @@ search.appverid:
 - MOE150
 ms.assetid: 018a2a96-3811-4b5d-b751-3b6330b34256
 description: 보호 정책을 통해 관리 되는 장치를 다시 설정 하거나 초기화 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 78eff4b4d29ee5de6f773841cc77239f6acf0634
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: ef3b8ed0e3b3f8b9136d3929bce1b835309498c7
+ms.sourcegitcommit: 9a057e70637dcfe06d4f729a96c02be989cf9e25
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34074673"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38633332"
 ---
 # <a name="manage-protected-devices-with-microsoft-365-business"></a>Microsoft 365 Business로 보호된 장치 관리
 
-사용자가 장치에서 장치 또는 장치의 Office 앱에 회사 계정으로 로그인하여 조직에 접속하면 관리자가 설정한 정책으로 장치가 보호되는 동시에 해당 장치가 **장치** 페이지에 표시됩니다. 장치를 분실하거나 도난당한 경우 이 페이지에서 회사 데이터를 제거할 수 있습니다. Windows 10 장치의 경우 공장 설정으로 초기화하여 사용자 지정 설정을 지울 수 있습니다. 장치 관리 시 수행할 수 있는 작업에 대한 자세한 내용은 다음 문서를 참조하세요. 
+사용자가 회사에 장치를 연결 하 고 장치의 장치 또는 Office 앱에 로그인 하 여 디바이스를 조직에 연결한 후에는 설정한 정책에 따라 장치를 보호할 수 있습니다. 연결 된 장치는 **장치** 페이지에 나열 됩니다. 장치를 분실하거나 도난당한 경우 이 페이지에서 회사 데이터를 제거할 수 있습니다. Windows 10 장치의 경우 공장 설정으로 초기화하여 사용자 지정 설정을 지울 수 있습니다. 
+
+장치를 관리 하는 데 사용할 수 있는 작업에 대 한 자세한 내용은 다음 문서를 참조 하세요. 
   
 [장치에서 회사 데이터 제거](remove-company-data.md)
   
