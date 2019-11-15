@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 구성이 ID 기반 서비스 및 인프라에 대한 Microsoft 365 Enterprise 조건을 충족하는지 확인합니다.
-ms.openlocfilehash: 84c2b97e064d3dba8a97767a31cc9fe7ccc6dd8c
-ms.sourcegitcommit: 2aeafb631aaabc53eea0a8029711eb891e48d249
+ms.openlocfilehash: 94343400482083b2e793ff218816f06cb982187e
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "37746524"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38627394"
 ---
 # <a name="phase-2-identity-infrastructure-exit-criteria"></a>2단계: ID 인프라 종료 조
 
@@ -42,7 +42,7 @@ Microsoft 365 구독을 위반할 수 있는 공격자의 자격 증명 손상�
 다음 단계를 사용하여 전역 관리자 계정을 보호했는지 확인합니다.
 
 1. PowerShell 명령 프롬프트에서 다음의 Azure Active Directory PowerShell for Graph 명령을 실행하세요. 전담 전역 관리자 계정 목록만 표시됩니다.
-   ```
+   ```powershell
    Get-AzureADDirectoryRole | where { $_.DisplayName -eq "Company Administrator" } | Get-AzureADDirectoryRoleMember | Ft DisplayName
    ```
 2. 1단계의 각 계정을 사용하여 Office 365에 로그인 합니다. 로그인할 때마다 Azure 다단계 인증 및 조직에서 사용 가능한 가장 강력한 형태의 보조 인증을 요구해야 합니다.

@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 암호 해시 동기화를 위한 필수 구성 요소를 사용하여 ID 및 장치 액세스를 테스트하는 Microsoft 365 환경을 만듭니다.
-ms.openlocfilehash: 274f73b1cd6a925b972ab14417c9d854c48c2f00
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: 9544f59f638eb590ad5f43158b33229ec5703580
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34074158"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38627512"
 ---
 # <a name="identity-and-device-access-prerequisites-for-password-hash-synchronization-in-your-microsoft-365-test-environment"></a>Microsoft 365 테스트 환경에서 암호 해시 동기화를 위한 ID 및 장치 액세스 필수 구성 요소
 
@@ -96,13 +96,13 @@ Online 비즈니스용 Skype의 경우:
 
 2. 이 명령을 실행합니다.
 
-  ```
+  ```powershell
   Set-CsOAuthConfiguration -ClientAdalAuthOverride Allowed
   ```
 
 3. 이 명령을 사용하여 변경되었는지 확인합니다.
 
-  ```
+  ```powershell
   Get-CsOAuthConfiguration
   ```
 

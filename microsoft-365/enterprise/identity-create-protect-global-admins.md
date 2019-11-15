@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 전역 관리자 계정은 자격 증명의 노출로부터 안전하게 유지하기 위해 특별한 처리가 필요합니다.
-ms.openlocfilehash: 72de7d683a9c2a080f7be69e585d16d8122cd46d
-ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
+ms.openlocfilehash: 257caf197df74d32b438a17158598237cf4c58b5
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "37370215"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38627084"
 ---
 # <a name="step-1-create-and-protect-your-global-admin-accounts"></a>1단계: 전역 관리자 계정 생성 및 보호
 
@@ -47,7 +47,7 @@ ms.locfileid: "37370215"
 이 섹션의 결과는 다음과 같습니다:
 
 - 구독에서 전역 관리자 역할이 할당된 사용자 계정은 새로운 전용 전역 관리자 계정뿐입니다. 다음의 Azure Active Directory PowerShell for Graph 명령으로 이를 확인하십시오. 
-  ```
+  ```powershell
   Get-AzureADDirectoryRole | Where { $_.DisplayName -eq "Company Administrator" } | Get-AzureADDirectoryRoleMember | Ft DisplayName
   ```
 - 구독 서비스를 관리하는 다른 모든 사용자 계정에는 업무 책임과 연관된 관리자 역할이 할당되어 있습니다.

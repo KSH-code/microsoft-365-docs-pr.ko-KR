@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 클라우드 전용 인증을 위한 필수 구성 요소를 사용하여 ID 및 장치 액세스를 테스트하는 Microsoft 365 환경을 만듭니다.
-ms.openlocfilehash: 08f805f77771a056cc9d847dd064b472a46cb166
-ms.sourcegitcommit: d9b462e035416bfa4b3d42467902c75859c55381
+ms.openlocfilehash: eb70153bc2868289fde41ad9a68ffa3a44b01b59
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/01/2019
-ms.locfileid: "36055010"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38627374"
 ---
 # <a name="identity-and-device-access-prerequisites-for-cloud-only-in-your-microsoft-365-test-environment"></a>Microsoft 365 테스트 환경에서 클라우드 전용 ID 및 장치 액세스 필수 구성 요소
 
@@ -92,13 +92,13 @@ Online 비즈니스용 Skype의 경우:
 
 2. 이 명령을 실행합니다.
 
-  ```
+  ```powershell
   Set-CsOAuthConfiguration -ClientAdalAuthOverride Allowed
   ```
 
 3. 이 명령을 사용하여 변경되었는지 확인합니다.
 
-  ```
+  ```powershell
   Get-CsOAuthConfiguration
   ```
 
