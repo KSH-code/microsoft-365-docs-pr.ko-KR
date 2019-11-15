@@ -1,45 +1,53 @@
 ---
-title: 관리자-사용자가 Microsoft Managed Desktop 장치를 시작 하는 데 도움이 됩니다.
+title: 사용자들이 장치를 사용할 수 있도록 준비시키기
 description: ''
 keywords: Microsoft Managed Desktop, device, 시작, Microsoft 365
 ms.service: m365-md
 author: jaimeo
+ms.author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 9b87156a66d2f7a8d69a6c6f1a22353a52c69385
-ms.sourcegitcommit: 3d37043c0447359c952dc99026c219dd69f6fb8d
+ms.openlocfilehash: eec0243b7724eac852a9145a4e4fadcc13fae097
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "38012403"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38627562"
 ---
-# <a name="get-your-users-ready-to-use-devices"></a><span data-ttu-id="6e495-103">사용자들이 장치를 사용할 수 있도록 준비시키기</span><span class="sxs-lookup"><span data-stu-id="6e495-103">Get your users ready to use devices</span></span>
+# <a name="get-your-users-ready-to-use-devices"></a><span data-ttu-id="2c71f-103">사용자들이 장치를 사용할 수 있도록 준비시키기</span><span class="sxs-lookup"><span data-stu-id="2c71f-103">Get your users ready to use devices</span></span>
 
-<span data-ttu-id="6e495-104">Microsoft Managed Desktop 장치는 현재 버전의 Windows를 사용 하 여 미리 구성 됩니다.</span><span class="sxs-lookup"><span data-stu-id="6e495-104">Microsoft Managed Desktop devices come pre-configured with the current version of Windows.</span></span> <span data-ttu-id="6e495-105">사용자가 장치 설정을 완료 하면 클라우드에서 구성 및 앱이 설치 됩니다.</span><span class="sxs-lookup"><span data-stu-id="6e495-105">Configurations and apps will be installed from the cloud as the user completes setting up the device.</span></span> 
+<span data-ttu-id="2c71f-104">Microsoft Managed Desktop 장치가 최종 사용자의 손에 온 후에는 빠르고 쉽게 시작할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2c71f-104">Once a Microsoft Managed Desktop device is in the hands of your end user, getting started with it is fast and easy.</span></span> <span data-ttu-id="2c71f-105">장치는 현재 버전의 Windows를 사용 하 여 미리 구성 되며, 사용자가 설치를 완료 하면 클라우드에서 구성 및 앱이 설치 됩니다.</span><span class="sxs-lookup"><span data-stu-id="2c71f-105">Devices come pre-configured with the current version of Windows, and configurations and apps are installed from the cloud as the user completes setup.</span></span> 
  
-<span data-ttu-id="6e495-106">장치를 사용 하 여 생산성을 설정 하는 동안에는 사용자가 수행 해야 하는 몇 가지 단계가 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6e495-106">There are only a few steps a user needs to take during device set up to be productive with their device.</span></span> <span data-ttu-id="6e495-107">Microsoft Managed Desktop은 아래 연결 된 *장치 가이드를* 사용 하 여 시작 하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="6e495-107">Microsoft Managed Desktop recommends using *Get started with your device* guide linked below.</span></span> <span data-ttu-id="6e495-108">다운로드 가능한이 가이드에서는 새로운 Microsoft Managed Desktop 장치를 설정 하는 기본 지침을 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="6e495-108">This downloadable guide provides basic instructions for setting up a new Microsoft Managed Desktop device.</span></span> <span data-ttu-id="6e495-109">이 가이드는 IT 관리자를 위한 기준으로 설계 되었습니다.</span><span class="sxs-lookup"><span data-stu-id="6e495-109">We've designed this guide to be a baseline for IT administrators.</span></span> <span data-ttu-id="6e495-110">이를 그대로 사용 하거나 업데이트 하 여 사용자가 자신의 장치를 설정 하는 데 도움이 되는 단계 또는 정보를 추가 합니다.</span><span class="sxs-lookup"><span data-stu-id="6e495-110">Use it as is, or update it to add steps or info that will help your users set up their devices.</span></span> 
+<span data-ttu-id="2c71f-106">이 작업을 보다 쉽게 수행 하기 위해 초기 설치 과정을 안내 하 고 필요한 경우 설치 및 나중에 사용할 수 있도록 도움말 리소스를 제공 하는 가이드도 제공 됩니다.</span><span class="sxs-lookup"><span data-stu-id="2c71f-106">To make this even easier, we offer a guide that walks your users through the initial setup and provides help resources both for the setup and for use later, if needed.</span></span> <span data-ttu-id="2c71f-107">이 가이드를 사용자 지정 하 여 조직에 특정 한 세부 정보를 포함할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2c71f-107">You can customize this guide to include certain details specific to your organization.</span></span> <span data-ttu-id="2c71f-108">그런 다음 해당 장치와 함께 사용자에 게 직접 가이드를 배포 합니다.</span><span class="sxs-lookup"><span data-stu-id="2c71f-108">You then distribute the guide directly to your users along with their device.</span></span> <span data-ttu-id="2c71f-109">Microsoft의 지원 시스템 (Get Help app)을 사용 하는 조직에 대 한 두 가지 버전, 즉 고유한 최종 사용자 지원을 제공 하는 조직을 위한 버전이 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2c71f-109">There are two versions, one for organizations using Microsoft's support system (the Get Help app), one for those providing their own internal end-user support.</span></span>
 
-## <a name="get-started-guide"></a><span data-ttu-id="6e495-111">시작 가이드</span><span class="sxs-lookup"><span data-stu-id="6e495-111">Get started guide</span></span> 
-<span data-ttu-id="6e495-112">가이드: [Microsoft Managed Desktop-장치를 사용 하 여 시작 해 보기](https://www.microsoft.com/download/details.aspx?id=57918)를 다운로드할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6e495-112">You can download the guide: [Microsoft Managed Desktop - Get started with your device](https://www.microsoft.com/download/details.aspx?id=57918).</span></span>
+## <a name="to-prepare-the-guide"></a><span data-ttu-id="2c71f-110">가이드를 준비 하려면</span><span class="sxs-lookup"><span data-stu-id="2c71f-110">To prepare the guide</span></span>
 
-## <a name="what-should-i-update-in-the-get-started-guide"></a><span data-ttu-id="6e495-113">시작 가이드에서 업데이트 해야 하는 사항</span><span class="sxs-lookup"><span data-stu-id="6e495-113">What should I update in the Get started guide?</span></span>
+1. <span data-ttu-id="2c71f-111">조직에 적합 한 버전을 다운로드 합니다.</span><span class="sxs-lookup"><span data-stu-id="2c71f-111">Download the version appropriate to your organization:</span></span>
+- <span data-ttu-id="2c71f-112">[Microsoft Managed Desktop-장치에서 시작 하기 (도움말 버전 보기)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-started/downloads/microsoft-managed-desktop-user-guide-help-custom-v2.pdf) -최종 사용자가 Microsoft의 지원 시스템을 사용 하는 경우이 버전을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="2c71f-112">[Microsoft Managed Desktop - Get started with your device (Get Help version)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-started/downloads/microsoft-managed-desktop-user-guide-help-custom-v2.pdf) - use this version if your end users will use Microsoft's support system.</span></span>
+- <span data-ttu-id="2c71f-113">[Microsoft Managed Desktop-장치에서 시작](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-started/downloads/microsoft-managed-desktop-user-guide-no-help-custom-v2.pdf) -최종 사용자가 Microsoft의 지원 시스템을 사용 *하지 않는* 경우에는이 버전을 사용 하세요.</span><span class="sxs-lookup"><span data-stu-id="2c71f-113">[Microsoft Managed Desktop - Get started with your device](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-started/downloads/microsoft-managed-desktop-user-guide-no-help-custom-v2.pdf) - use this version if your end users will *not* use Microsoft's support system.</span></span>
+2. <span data-ttu-id="2c71f-114">PDF 파일을 열 수 있는 앱을 사용 하 여 조직과 관련 된 세부 정보를 입력 합니다.</span><span class="sxs-lookup"><span data-stu-id="2c71f-114">Use any app capable of opening PDF files to fill in details relevant to your organization:</span></span>
+    - <span data-ttu-id="2c71f-115">설치를 계속 하기 위해 사용자가 연결할 네트워크의 이름입니다 (가이드의 3 단계).</span><span class="sxs-lookup"><span data-stu-id="2c71f-115">The name of the network your users should connect to in order to continue setup (Step 3 in the guide)</span></span>
+    - <span data-ttu-id="2c71f-116">조직의 Azure 테 넌 트 계정 이름 (가이드의 4 단계)</span><span class="sxs-lookup"><span data-stu-id="2c71f-116">The name of your organization's Azure tenant account (Step 4 in the guide)</span></span>
+    - <span data-ttu-id="2c71f-117">조직의 내부 IT 지원에 대 한 연락처 정보 (두 번째 페이지의 맨 위)</span><span class="sxs-lookup"><span data-stu-id="2c71f-117">Contact information for your organization's internal IT support (top of second page)</span></span>
+3. <span data-ttu-id="2c71f-118">편집한 PDF를 저장 한 다음 최종 사용자에 게 배포 합니다.</span><span class="sxs-lookup"><span data-stu-id="2c71f-118">Save the edited PDF, and then distribute to your end users.</span></span> 
 
-<span data-ttu-id="6e495-114">다음과 같은 몇 가지 방법으로 IT 관리자가 *장치를 사용 하 여*개인 설정를 시작할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6e495-114">Here are a few ways IT administrators can personalize *Get started with your device*:</span></span>
-- <span data-ttu-id="6e495-115">사용자가 2 단계에서 연결 해야 하는 기본 인터넷 포함</span><span class="sxs-lookup"><span data-stu-id="6e495-115">Include the preferred internet the user should connect to in step 2</span></span>
-- <span data-ttu-id="6e495-116">3 단계에서 입력할 적절 한 사용자 이름 또는 도메인 이름을 사용자에 게 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="6e495-116">Give the user with the appropriate username, or domain name to enter at step 3</span></span>
-- <span data-ttu-id="6e495-117">Microsoft Managed Desktop 지원 외부에서 지원에 대 한 지원 담당자를 조직 내에 추가 합니다.</span><span class="sxs-lookup"><span data-stu-id="6e495-117">Add a support contact within your organization for support outside of Microsoft Managed Desktop support</span></span>
-- <span data-ttu-id="6e495-118">장치 선택 위치에 대 한 지침 추가 (이 지침과 별도의 경우)</span><span class="sxs-lookup"><span data-stu-id="6e495-118">Add instructions about where to pick up their device (if this is separate from these instructions)</span></span>
+## <a name="ready-to-use-guide"></a><span data-ttu-id="2c71f-119">"사용 준비가 완료 된 가이드"</span><span class="sxs-lookup"><span data-stu-id="2c71f-119">"Ready-to-use guide"</span></span>
 
-<span data-ttu-id="6e495-119">이제 시작 단계를 계속할 준비가 되었습니다.</span><span class="sxs-lookup"><span data-stu-id="6e495-119">At this point, you're ready to continue with the getting started steps:</span></span>
+<span data-ttu-id="2c71f-120">또한 사용자 지정할 필요가 없는 조직에 대해 보다 일반적인 가이드 버전을 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="2c71f-120">We also provide a more generic version of the guide for those organizations that don't need to customize it.</span></span> <span data-ttu-id="2c71f-121">Microsoft의 지원 시스템 (Get Help app)을 사용 하는 조직에 대 한 두 가지 버전, 즉 고유한 최종 사용자 지원을 제공 하는 조직을 위한 버전이 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2c71f-121">There are two versions, one for organizations using Microsoft's support system (the Get Help app), one for those providing their own internal end-user support.</span></span>
+
+- <span data-ttu-id="2c71f-122">[Microsoft Managed Desktop-장치 시작 (도움말 버전-사용 준비)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-started/downloads/microsoft-managed-desktop-user-guide-help-v2.pdf) -최종 사용자가 Microsoft의 지원 시스템을 사용 하는 경우이 버전을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="2c71f-122">[Microsoft Managed Desktop - Get started with your device (Get Help version - ready to use)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-started/downloads/microsoft-managed-desktop-user-guide-help-v2.pdf) - use this version if your end users will use Microsoft's support system.</span></span>
+- <span data-ttu-id="2c71f-123">[Microsoft Managed Desktop-장치 작업 시작 (사용 준비)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-started/downloads/microsoft-managed-desktop-user-guide-no-help-v2.pdf) -최종 사용자가 Microsoft의 지원 시스템을 사용 *하지 않는* 경우이 버전을 사용 하세요.</span><span class="sxs-lookup"><span data-stu-id="2c71f-123">[Microsoft Managed Desktop - Get started with your device (ready to use)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-started/downloads/microsoft-managed-desktop-user-guide-no-help-v2.pdf) - use this version if your end users will *not* use Microsoft's support system.</span></span>
+
+<span data-ttu-id="2c71f-124">이제 앱을 배포 하는 작업을 진행할 준비가 되었습니다.</span><span class="sxs-lookup"><span data-stu-id="2c71f-124">At this point, you're ready to move on to deploying apps:</span></span>
 
 
-## <a name="steps-to-get-started-with-microsoft-managed-desktop"></a><span data-ttu-id="6e495-120">Microsoft Managed Desktop을 시작 하기 위한 단계</span><span class="sxs-lookup"><span data-stu-id="6e495-120">Steps to get started with Microsoft Managed Desktop</span></span>
+## <a name="steps-to-get-started-with-microsoft-managed-desktop"></a><span data-ttu-id="2c71f-125">Microsoft Managed Desktop을 시작 하기 위한 단계</span><span class="sxs-lookup"><span data-stu-id="2c71f-125">Steps to get started with Microsoft Managed Desktop</span></span>
 
-1. [<span data-ttu-id="6e495-121">관리 포털에서 관리자 연락처 추가 및 확인</span><span class="sxs-lookup"><span data-stu-id="6e495-121">Add and verify admin contacts in the Admin portal</span></span>](add-admin-contacts.md)
-2. [<span data-ttu-id="6e495-122">조건부 액세스 조정</span><span class="sxs-lookup"><span data-stu-id="6e495-122">Adjust conditional access</span></span>](conditional-access.md)
-3. [<span data-ttu-id="6e495-123">라이선스 할당</span><span class="sxs-lookup"><span data-stu-id="6e495-123">Assign licenses</span></span>](assign-licenses.md)
-4. [<span data-ttu-id="6e495-124">Intune 회사 포털 배포</span><span class="sxs-lookup"><span data-stu-id="6e495-124">Deploy Intune Company Portal</span></span>](company-portal.md)
-5. [<span data-ttu-id="6e495-125">엔터프라이즈 상태 로밍 사용</span><span class="sxs-lookup"><span data-stu-id="6e495-125">Enable Enterprise State Roaming</span></span>](enterprise-state-roaming.md)
-6. [<span data-ttu-id="6e495-126">장치 설정</span><span class="sxs-lookup"><span data-stu-id="6e495-126">Set up devices</span></span>](set-up-devices.md)
-7. <span data-ttu-id="6e495-127">사용자가 장치를 사용할 수 있도록 가져오기 (이 항목)</span><span class="sxs-lookup"><span data-stu-id="6e495-127">Get your users ready to use devices (this topic)</span></span>
-8. [<span data-ttu-id="6e495-128">앱 배포</span><span class="sxs-lookup"><span data-stu-id="6e495-128">Deploy apps</span></span>](deploy-apps.md)
+1. [<span data-ttu-id="2c71f-126">관리 포털에서 관리자 연락처 추가 및 확인</span><span class="sxs-lookup"><span data-stu-id="2c71f-126">Add and verify admin contacts in the Admin portal</span></span>](add-admin-contacts.md)
+2. [<span data-ttu-id="2c71f-127">조건부 액세스 조정</span><span class="sxs-lookup"><span data-stu-id="2c71f-127">Adjust conditional access</span></span>](conditional-access.md)
+3. [<span data-ttu-id="2c71f-128">라이선스 할당</span><span class="sxs-lookup"><span data-stu-id="2c71f-128">Assign licenses</span></span>](assign-licenses.md)
+4. [<span data-ttu-id="2c71f-129">Intune 회사 포털 배포</span><span class="sxs-lookup"><span data-stu-id="2c71f-129">Deploy Intune Company Portal</span></span>](company-portal.md)
+5. [<span data-ttu-id="2c71f-130">엔터프라이즈 상태 로밍 사용</span><span class="sxs-lookup"><span data-stu-id="2c71f-130">Enable Enterprise State Roaming</span></span>](enterprise-state-roaming.md)
+6. [<span data-ttu-id="2c71f-131">장치 설정</span><span class="sxs-lookup"><span data-stu-id="2c71f-131">Set up devices</span></span>](set-up-devices.md)
+7. <span data-ttu-id="2c71f-132">사용자가 장치를 사용할 수 있도록 가져오기 (이 항목)</span><span class="sxs-lookup"><span data-stu-id="2c71f-132">Get your users ready to use devices (this topic)</span></span>
+8. [<span data-ttu-id="2c71f-133">앱 배포</span><span class="sxs-lookup"><span data-stu-id="2c71f-133">Deploy apps</span></span>](deploy-apps.md)
