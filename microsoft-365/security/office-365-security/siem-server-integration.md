@@ -1,11 +1,11 @@
 ---
-title: Microsoft 365과의 SIEM 서버 통합
+title: Microsoft 365 서비스 및 응용 프로그램과의 SIEM 서버 통합
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
 audience: ITPro
 ms.topic: article
-ms.date: 06/17/2019
+ms.date: 11/15/2019
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection:
@@ -13,35 +13,45 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 - SIEM
-description: 요약:이 문서를 읽으면 Microsoft 365과의 SIEM server 통합에 대 한 개요를 확인할 수 있습니다.
-ms.openlocfilehash: 97f1c1d1f1862d140e014b4460ac9f40cb1934bb
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+description: 이 문서를 읽으면 Microsoft 365과의 SIEM server 통합에 대 한 개요를 확인할 수 있습니다.
+ms.openlocfilehash: bea6141022fef1275a7e291217f698f52613f170
+ms.sourcegitcommit: d8d001c03c28c10bea005d1c9b5f4a8f393af706
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37089245"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38677511"
 ---
 # <a name="siem-server-integration-with-microsoft-365-services-and-applications"></a>Microsoft 365 서비스 및 응용 프로그램과의 SIEM 서버 통합
 
-## <a name="overview"></a>개요
+## <a name="summary"></a>요약
 
-조직에서 SIEM (보안 정보 및 이벤트 관리) 서버를 사용 하는 경우 또는 SIEM 서버를 곧 가져올 계획인 경우 Office 365 E5를 포함 하 여 Microsoft 365와 통합 되는 방법을 궁금할 것입니다. SIEM 서버가 필요한 지 여부는 조직의 보안 요구 사항 등의 많은 요인에 따라 달라 집니다. Microsoft 365에서는 다양 한 보안 기능을 제공 합니다. 그러나 조직에서 온-프레미스와 클라우드에서 콘텐츠 및 응용 프로그램이 있는 경우 (하이브리드 클라우드 배포의 경우), 추가 보호를 위해 SIEM 서버를 추가 하는 것을 고려할 수 있습니다. 또는 조직이 특히 엄격한 보안 요구 사항을 충족 하는 경우에는 환경에 SIEM server를 추가 하는 것을 고려할 수 있습니다.
+조직에서 SIEM (보안 정보 및 이벤트 관리) 서버를 사용 하는 경우 또는 SIEM 서버를 곧 가져올 계획인 경우 Microsoft 365 또는 Office 365와 통합 되는 방법을 궁금할 것입니다. 이 문서에서는 Microsoft 365 서비스 및 응용 프로그램과의 SIEM server 통합을 설정 하는 데 사용할 수 있는 리소스 목록을 제공 합니다.
 
-## <a name="siem-server-integration-microsoft-365"></a>SIEM 서버 통합 Microsoft 365
+> [!TIP]
+> 아직 SIEM 서버가 없고 옵션을 탐색 하는 경우 **[Microsoft Azure 센티널](https://docs.microsoft.com/azure/sentinel/overview)** 을 고려 하세요.
 
-SIEM 서버는 다양 한 Microsoft 365 서비스 및 응용 프로그램에서 데이터를 받을 수 있습니다. 다음 표에는 몇 가지 Microsoft 365 서비스와 응용 프로그램과 SIEM server의 입력과 함께, SIEM 서버 통합에 대해 자세히 알아볼 수 있는 위치가 나와 있습니다. 
+## <a name="do-i-need-a-siem-server"></a>SIEM 서버가 필요 합니까?
 
-| Microsoft 365 서비스 또는 응용 프로그램 | SIEM 서버 입력 | 자세한 정보를 볼 수 있는 리소스 |
+SIEM 서버가 필요한 지 여부는 조직의 보안 요구 사항 및 데이터 위치와 같은 많은 요인에 따라 달라 집니다. Microsoft 365에는 SIEM 서버와 같은 추가 서버 없이 다양 한 조직의 보안 요구 사항을 충족 하는 다양 한 보안 기능이 포함 되어 있습니다. 일부 조직에는 SIEM 서버를 사용 해야 하는 특별 한 상황이 있습니다. 그 예는 다음과 같습니다.
+
+- *Fabrikam* 에는 온-프레미스와 일부 콘텐츠 및 응용 프로그램, 클라우드 (하이브리드 클라우드 배포)가 있습니다. 모든 콘텐츠 및 응용 프로그램에서 보안 보고서를 가져오려면 Fabrikam은 SIEM 서버를 구현 했습니다. 
+
+- *Contoso* 는 보안 요구 사항이 특별히 엄격한 금융 서비스 조직입니다. 필요한 추가 보안 보호 기능을 활용 하기 위해 해당 환경에 SIEM 서버를 추가 했습니다.
+
+## <a name="siem-server-integration-with-microsoft-365"></a>Microsoft 365과의 SIEM 서버 통합
+
+SIEM 서버는 다양 한 Microsoft 365 서비스 및 응용 프로그램에서 데이터를 받을 수 있습니다. 다음 표에서는 siem 서버 입력과 함께 몇 가지 Microsoft 365 서비스 및 응용 프로그램과 siem 서버 통합에 대해 자세히 알아볼 수 있는 리소스를 보여 줍니다. 
+
+| Microsoft 365 서비스 또는 응용 프로그램 | SIEM 서버 입력 | 자세한 정보를 알아볼 수 있는 리소스 |
 | --- | --- | --- |
-| [Office 365 Advanced Threat Protection](office-365-atp.md) <br/>또는<br/>[Office 365 Threat Intelligence](office-365-ti.md) | 감사 로그 | [SIEM과 Office 365 Advanced Threat Protection의 통합](siem-integration-with-office-365-ti.md) |
+| [Office 365 Advanced Threat Protection](office-365-atp.md)  | 감사 로그 | [SIEM과 Office 365 Advanced Threat Protection의 통합](siem-integration-with-office-365-ti.md) |
+| [Microsoft Defender Advanced Threat Protection](https://docs.microsoft.com/windows/security/threat-protection/) | Azure에서 호스트 되는 HTTPS 끝점 <br/>REST API| [SIEM 도구에 대 한 알림 가져오기](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-siem) |
 | [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security) | 로그 통합 | [Microsoft Cloud App Security와의 SIEM 통합](https://docs.microsoft.com/cloud-app-security/siem) |
-| [Microsoft Threat Protection](https://docs.microsoft.com/windows/security/threat-protection/) | 로그 통합 | [SIEM 도구에 대 한 알림 가져오기](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-siem) |
-| [Azure 보안 센터](https://docs.microsoft.com/azure/security-center/security-center-intro) (위협 방지 및 위협 검색) | 경고 | [Azure 보안 데이터를 SIEM 파이프라인 구성으로 내보내기-미리 보기](https://docs.microsoft.com/azure/security-center/security-center-export-data-to-siem) |
-|[Azure Advanced Threat Analytics](https://docs.microsoft.com/azure/security/azure-threat-detection) | Azure 모니터 | [블로그로 Azure Monitor를 사용 하 여 SIEM 도구와 통합](https://azure.microsoft.com/blog/use-azure-monitor-to-integrate-with-siem-tools) |
-|[Azure Active Directory Id 보호](https://docs.microsoft.com/azure/active-directory/identity-protection/overview) |로그 통합 |[SIEM을 사용 하 여 Microsoft Graph 보안 API 알림 통합](https://docs.microsoft.com/graph/security-siemintegration) |
 
+> [!TIP]
+> Microsoft 솔루션용으로 제공 되는 다양 한 유형의 [Azure 센티널](https://docs.microsoft.com/azure/sentinel/overview), Microsoft 위협 보호 솔루션을 포함 하 여 실시간 통합 제공, Office 365, azure AD, azure ATP, Microsoft Cloud App 보안 등의 microsoft 365 원본에 포함 된
 
-## <a name="audit-logging-must-be-turned-on"></a>감사 로깅을 설정 해야 합니다.
+### <a name="audit-logging-must-be-turned-on"></a>감사 로깅을 설정 해야 합니다.
 
 SIEM 서버 통합을 구성 하기 전에 감사 로깅이 설정 되어 있는지 확인 합니다. 
 
@@ -49,10 +59,8 @@ SIEM 서버 통합을 구성 하기 전에 감사 로깅이 설정 되어 있는
 
 - Exchange Online의 경우 [감사 로깅은 Windows PowerShell을 사용 하 여 설정 됩니다](https://docs.microsoft.com/office365/securitycompliance/enable-mailbox-auditing).
  
-## <a name="see-also"></a>참고 항목
+## <a name="additional-resources"></a>추가 리소스
 
-[클라우드 채택 및 하이브리드 솔루션](https://docs.microsoft.com/office365/enterprise/cloud-adoption-and-hybrid-solutions)
-  
-[클라우드 도입 TLG(테스트 랩 가이드)](https://docs.microsoft.com/office365/enterprise/cloud-adoption-test-lab-guides-tlgs)
+[Azure 보안 센터에서 보안 솔루션 통합](https://docs.microsoft.com/azure/security-center/security-center-partner-integration#exporting-data-to-a-siem)
 
-
+[SIEM을 사용 하 여 Microsoft Graph 보안 API 알림 통합](https://docs.microsoft.com/graph/security-integration)
