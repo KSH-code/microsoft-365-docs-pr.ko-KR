@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Microsoft 365 Business에 대해 자세히 알아보세요.
-ms.openlocfilehash: 03e16c336a2d6d3d8ffd5875ed7419bba3c7e378
-ms.sourcegitcommit: 9a057e70637dcfe06d4f729a96c02be989cf9e25
+ms.openlocfilehash: abd1e8374ef7530a879de71ab7ad0125f1ca4616
+ms.sourcegitcommit: 8ca97fa879ae4ea44468be629d6c32b429efeeec
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38633402"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38676083"
 ---
 # <a name="overview-of-microsoft-365-business"></a>Microsoft 365 비즈니스 개요
 
@@ -98,4 +98,7 @@ Microsoft 365 Business는 다음과 같은 방법으로 **위협을 defended** �
 
 - 파트너가 없고 Microsoft 365 Business를 받으려는 경우 [여기에서 구입](https://www.microsoft.com/microsoft-365/business) 하 여 [등록](sign-up.md) 지침을 따를 수 있습니다.
 
-- Microsoft [Store](https://www.microsoft.com/store/locations/find-a-store?icid=en-us_UF_FAS) 로 이동 하 여 Microsoft 365 비즈니스를 구입 하 고 설정 된 도움말을 얻을 수도 있습니다.
+- Microsoft [Store](https://www.microsoft.com/en-us/store/locations/find-a-store?icid=gm_fy18_hol_bopis_feature3&CustomerIntent=Consumer) 로 이동 하 여 Microsoft 365 비즈니스를 구입 하 고 설정 된 도움말을 얻을 수도 있습니다.
+
+    > [!NOTE]
+    > 이 링크는 미국만 스토어에 대 한 것입니다.

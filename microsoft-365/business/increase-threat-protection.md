@@ -18,12 +18,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Office 365 Advanced Threat Protection을 설정 하 고 중요 한 데이터를 보호 합니다.
-ms.openlocfilehash: 00a40ceb6d51add2ebe8cc7ca4c299fe07a10b89
-ms.sourcegitcommit: 8193b7da5b1a415835d02ca96883c351df7326ed
+ms.openlocfilehash: bca5400a04ca2986496c4a704289474887eb834b
+ms.sourcegitcommit: 8ca97fa879ae4ea44468be629d6c32b429efeeec
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38320111"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38676011"
 ---
 # <a name="increase-threat-protection"></a>위협 방지 강화
 
@@ -86,7 +86,7 @@ Office 365 또는 Microsoft 365 환경에는 맬웨어에 대 한 보호 기능�
    
 자세한 내용은 다음을 참조하세요.
   
-- [랜 섬 웨어를 처리 하는 방법](https://go.microsoft.com/fwlink/?linkid=2016501&amp;clcid=0x409)
+- [랜 섬 웨어를 처리 하는 방법](https://go.microsoft.com/fwlink/?linkid=2016501)
     
 - [OneDrive 복원](https://support.office.com/article/fa231298-759d-41cf-bcd0-25ac53eb8a15.aspx)
 
@@ -178,7 +178,7 @@ ATP 안전한 첨부 파일 정책을 만들려면 [이 짧은 비디오](https:
 |검색 시 첨부 파일 리디렉션  <br/> |리디렉션 사용 (이 상자를 선택 합니다.) 격리를 위해 관리자 계정 또는 사서함 설정을 입력 합니다.          첨부 파일에 대 한 맬웨어 검사 시간이 초과 되거나 오류가 발생 하면 (이 상자를 선택 하십시오.) 위의 선택 사항을 적용 합니다.  <br/> |
 |적용 대상  <br/> |받는 사람 도메인은입니다. . . 도메인을 선택 합니다.  <br/> |
    
-자세한 내용은 [Set Up Office 365 ATP 피싱 방지 정책](https://go.microsoft.com/fwlink/?linkid=2016505&amp;clcid=0x409)를 참조 하세요.
+자세한 내용은 [Set Up Office 365 ATP 피싱 방지 정책](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-anti-phishing-policies)를 참조 하세요.
   
 
 

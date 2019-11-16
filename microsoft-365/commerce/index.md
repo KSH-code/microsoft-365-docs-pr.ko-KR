@@ -11,17 +11,17 @@ ms.date: 5/29/2019
 ms.topic: conceptual
 ms.localizationpriority: medium
 ms.openlocfilehash: f25274c1cf06bf2900de3a45686156f33d3143aa
-ms.sourcegitcommit: a75e3a93b3431bd26b0d072b37a9c5eb3dcb1c7f
+ms.sourcegitcommit: 2c2248b03f7753d64490f2f7e56ec644a235b65a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/31/2019
+ms.lasthandoff: 11/15/2019
 ms.locfileid: "37889916"
 ---
 # <a name="manage-commercial-purchases-in-microsoft-365-admin-center"></a>Microsoft 365 관리 센터에서 상업용 구매 관리
 
 ## <a name="in-this-section"></a>이 섹션의 내용
 
-| 항목 | Description |
+| 항목 | 설명 |
 | ----- | ----------- |
 | [타사 앱 관리](manage-saas-apps.md) | 관리자는 조직에 대 한 타사 앱 구독을 관리할 수 있습니다. |
 | [라이선스 구매](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/buy-licenses?view=o365-worldwide) | 조직에 대 한 Office 365 라이선스를 구입 합니다. |

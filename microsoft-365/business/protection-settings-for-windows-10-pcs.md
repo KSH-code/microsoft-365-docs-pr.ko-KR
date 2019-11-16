@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 ms.assetid: bd66c26c-73a4-45a8-8642-3ea4ee7cd89d
 description: Microsoft 365 Business에서 사용할 수 있는 기본 및 기타 설정에 대해 설명 하 고 Windows 10 장치를 보호 합니다.
-ms.openlocfilehash: ab306e3d5a6011a0e7d537c98ecca6ef49ff82d9
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+ms.openlocfilehash: 5d4bce02df1276dc9b284c7b0709c7dc26b0dbce
+ms.sourcegitcommit: 8ca97fa879ae4ea44468be629d6c32b429efeeec
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37575761"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38676051"
 ---
 # <a name="set-device-protection-settings-for-windows-10-pcs"></a>Windows 10 PC에서 장치 보호 설정 설정하기
 
@@ -64,9 +64,9 @@ Microsoft 365 Business를 사용하여 Windows 10 장치를 안전하게 보호�
 |설정  <br/> |설명  <br/> |
 |Windows Defender Antivirus를 사용하여 바이러스 및 기타 위협으로부터 PC를 보호하도록 지원  <br/> |인터넷에 연결하여 발생할 수 있는 위험으로부터 PC를 보호하기 위해 Windows Defender Antivirus가 켜져 있어야 합니다.  <br/> |
 |Microsoft Edge에서 웹 기반 위협으로부터 PC를 보호하도록 지원  <br/> |Edge에서 사용자를 악성 사이트와 다운로드로부터 보호하는 설정을 켭니다.  <br/> |
-|장치의 공격 표면을 줄이는 규칙 사용  <br/> |'켬'으로 설정하면 공격 표면이 감소하여 일반적으로 맬웨어가 장치를 감염시키는 데 사용되는 작업 및 앱을 차단할 수 있습니다. 이 설정은 Windows Defender 바이러스 백신을 '켬'으로 설정한 경우에만 사용할 수 있습니다. 자세한 내용은 [공격 표면 축소](https://go.microsoft.com/fwlink/?linkid=870417)를 참조하세요.  <br/> |
-|랜섬웨어와 같은 위협으로부터 폴더 보호  <br/> |이 설정은 제어된 폴더 액세스를 사용하여 랜섬웨어와 같은 의심스러운 앱이나 악성 앱에 의해 회사 데이터가 수정되는 것을 방지합니다. 이러한 유형의 앱은 보호된 폴더를 변경할 수 없도록 차단됩니다. 이 설정은 Windows Defender 바이러스 백신을 '켬'으로 설정한 경우에만 사용할 수 있습니다. 자세한 내용은 [제어된 폴더 액세스를 사용하여 폴더 보호](https://go.microsoft.com/fwlink/?linkid=870418)를 참조하세요.  <br/> |
-|인터넷의 의심스러운 콘텐츠에 대한 네트워크 액세스 차단  <br/> |피싱 메일, 익스플로잇 또는 기타 악의적 콘텐츠를 호스트할 수 있는 평판이 낮은 인터넷 위치에 대한 아웃바운드 사용자 연결을 차단하려면 이 설정을 사용합니다. 이 설정은 Windows Defender 바이러스 백신을 '켬'으로 설정한 경우에만 사용할 수 있습니다. 자세한 내용은 [네트워크 보호](https://go.microsoft.com/fwlink/?linkid=870419)를 참조하세요.  <br/> |
+|장치의 공격 표면을 줄이는 규칙 사용  <br/> |'켬'으로 설정하면 공격 표면이 감소하여 일반적으로 맬웨어가 장치를 감염시키는 데 사용되는 작업 및 앱을 차단할 수 있습니다. 이 설정은 Windows Defender 바이러스 백신을 '켬'으로 설정한 경우에만 사용할 수 있습니다. 자세한 내용은 [공격 표면 축소](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/exploit-protection)를 참조하세요.  <br/> |
+|랜섬웨어와 같은 위협으로부터 폴더 보호  <br/> |이 설정은 제어된 폴더 액세스를 사용하여 랜섬웨어와 같은 의심스러운 앱이나 악성 앱에 의해 회사 데이터가 수정되는 것을 방지합니다. 이러한 유형의 앱은 보호된 폴더를 변경할 수 없도록 차단됩니다. 이 설정은 Windows Defender 바이러스 백신을 '켬'으로 설정한 경우에만 사용할 수 있습니다. 자세한 내용은 [제어 된 폴더 액세스 권한을 가진 폴더 보호](https://docs.microsoft.com/configmgr/protect/deploy-use/create-deploy-exploit-guard-policy#bkmk_CFA) 를 참조 하세요.  <br/> |
+|인터넷의 의심스러운 콘텐츠에 대한 네트워크 액세스 차단  <br/> |피싱 메일, 익스플로잇 또는 기타 악의적 콘텐츠를 호스트할 수 있는 평판이 낮은 인터넷 위치에 대한 아웃바운드 사용자 연결을 차단하려면 이 설정을 사용합니다. 이 설정은 Windows Defender 바이러스 백신을 '켬'으로 설정한 경우에만 사용할 수 있습니다. 자세한 내용은 [네트워크 보호](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-antivirus/configure-real-time-protection-windows-defender-antivirus)를 참조하세요.  <br/> |
 |BitLocker를 사용하여 PC의 파일 및 폴더를 무단 액세스로부터 보호  <br/> |Bitlocker는 컴퓨터 하드 드라이브를 암호화하여 데이터를 보호하고, 컴퓨터가 분실되거나 도난당한 경우 데이터 노출을 방지합니다. 자세한 내용은 [Bitlocker FAQ](https://go.microsoft.com/fwlink/?linkid=871000)를 참조하세요.  <br/> |
 |사용자가 Microsoft Store에서 앱을 다운로드할 수 있도록 허용  <br/> |사용자가 Microsoft Store에서 앱을 다운로드하여 설치할 수 있도록 허용합니다. 앱에는 게임에서 생산성 도구에 이르기까지 다양한 종류가 있습니다. 따라서 기본값은 **켜기**이지만 관리자가 보안을 위해 끌 수 있습니다.  <br/> |
 |사용자가 Cortana에 액세스할 수 있도록 허용  <br/> |Cortana는 매우 유용한 도구입니다. Cortana는 사용자 대신 설정을 끄거나 켜고, 길을 안내해 주고, 약속을 상기시켜 줍니다. 기본값은 **켜기**입니다.  <br/> |

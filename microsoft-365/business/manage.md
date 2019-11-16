@@ -19,18 +19,18 @@ search.appverid:
 - MET150
 ms.assetid: 27ff1678-865a-4707-8145-e1155aa815d6
 description: Microsoft 365 Business 관련 관리 작업, 모바일 장치, Windows 10 Pc 및 여러 가지 작업을 관리 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: ee1c856c6c0005842df8b3581a602dd539490bea
-ms.sourcegitcommit: 9a057e70637dcfe06d4f729a96c02be989cf9e25
+ms.openlocfilehash: 77b8757d9e6ab644b16e97ff20f50c0ce3123088
+ms.sourcegitcommit: 8ca97fa879ae4ea44468be629d6c32b429efeeec
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38633312"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38675971"
 ---
 # <a name="manage-microsoft-365-business"></a>Microsoft 365 Business 관리
 
 ## <a name="general-microsoft-365-business-admin-tasks"></a>일반 Microsoft 365 Business 관리 작업
 
-비즈니스용 Office 365에 대 한 대부분의 [관리자 콘텐츠](/Office365/Admin/admin-home.md) 는 Microsoft 365 business에도 적용 됩니다.
+비즈니스용 Office 365에 대 한 대부분의 [관리자 콘텐츠](https://docs.microsoft.com/office365/admin/admin-home) 는 Microsoft 365 business에도 적용 됩니다.
 
 - [Microsoft 365 Business에 더 많은 사용자 추가](add-users-m365b.md)
     
@@ -55,9 +55,7 @@ Microsoft 365 Business를 사용 하 여 Pc 및 모바일 장치에서 조직의
 ## <a name="manage-windows-10-pcs"></a>Windows 10 PC 관리
 
 - [Microsoft 365 Business 사용자를 위한 Windows 장치 설정](set-up-windows-devices.md)
-    
-- [Windows 10 장치에서 Office를 자동으로 설치 또는 제거](auto-install-or-uninstall-office.md)
-    
+
     Office를 자동으로 설치하기 전에 [Microsoft 365 Business를 사용한 Office 클라이언트 배포 준비](prepare-for-office-client-deployment.md)를 읽어 보세요. 
     
 - [Windows 10 장치에서 장치 보호 설정 설정하기](protection-settings-for-windows-10-pcs.md)

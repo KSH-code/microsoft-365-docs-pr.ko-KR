@@ -13,16 +13,14 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Contoso가 Microsoft 365 Enterprise에서 보안 기능을 사용하는 방법
-ms.openlocfilehash: ada72460adffce46951b8784d90b6cfa29b35bc3
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: b49312b94aef35afc5febeae0fd4dc71b7c642af
+ms.sourcegitcommit: 9ee873c6a2f738a0c99921e036894b646742e706
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38031103"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "38672684"
 ---
 # <a name="summary-of-microsoft-365-enterprise-security-for-the-contoso-corporation"></a>Contoso Corporation의 Microsoft 365 Enterprise 보안 요약
-
-**요약:** Contoso가 Microsoft 365 Enterprise에서 보안 기능을 사용하는 방법이 제공됩니다.
 
 IT 보안 부서에서 Microsoft 365 Enterprise 배포 작업의 승인을 얻기 위해 철저한 보안 검토가 수행되었습니다. 다음은 클라우드에 대한 Contoso의 보안 요구 사항입니다.
 

@@ -15,12 +15,12 @@ ms.assetid: 82ac9922-939c-41be-9c8a-7c75b0a4e27d
 ms.collection:
 - M365-security-compliance
 description: 보안 &amp; 및 준수 센터의 Explorer 및 실시간 검색에 대해 알아봅니다.
-ms.openlocfilehash: 01985c69d1d89536d16b166eafc23df37ee53d0a
-ms.sourcegitcommit: 2c2248b03f7753d64490f2f7e56ec644a235b65a
+ms.openlocfilehash: e3f205a75c30397382b63112df4503f7a1d23582
+ms.sourcegitcommit: 9ee873c6a2f738a0c99921e036894b646742e706
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 11/15/2019
-ms.locfileid: "38639895"
+ms.locfileid: "38673284"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>위협 탐색기 및 실시간 검색
 
@@ -81,11 +81,15 @@ Explorer (또는 실시간 검색)를 사용 하는 경우 보안 운영 팀이 
 악의적인 전자 메일 조사에 대 한 자세한 내용은 [Office 365에서 제공 하는 악성 전자 메일 찾기 및 조사](https://docs.microsoft.com/office365/securitycompliance/investigate-malicious-email-that-was-delivered)를 참조 하세요.
 
 
-또한 네트워크 메시지 ID를 모두 확인 하기 위해 Microsoft Excel로 **보고서를 내보낼** 수 있으며, 결과 클릭 하 여 트래픽이 더 쉬운 위치를 이해 하는 작업을 수행할 수도 있습니다. 작동 방식은 다음과 같습니다. Office 365 빠른 실행의 위협 관리에서이 체인을 통해를 클릭 합니다.
+또한 이제는 URL 클릭에 **대 한 보고서** 를 Microsoft Excel로 내보내 해당 네트워크 메시지 ID를 확인 하 고, 결과 클릭 하 여 url이 더 쉽게 전송 되는 위치를 이해 하는 작업을 수행할 수 있습니다. 작동 방식은 다음과 같습니다. Office 365 빠른 실행의 위협 관리에서이 체인을 통해를 클릭 합니다.
 
-**Explorer > 보기 피싱 > 클릭 > 상위 Url**
+**Explorer > 보기 피싱 > 클릭 > 위쪽 url 또는 URL 위쪽 클릭 > 모든 레코드를 클릭 하 여 URL 플라이 아웃을 엽니다.**
 
 목록에서 URL을 클릭 하면 플라이 아웃 패널에 새 내보내기 단추가 표시 됩니다. 이 단추를 사용 하 여 데이터를 보다 쉽게 보고 하도록 Excel 스프레드시트로 이동 합니다.
+
+다음과 같은 실시간 검색에서 같은 위치를 찾을 수 있습니다.
+
+**Explorer > 실시간 검색 > View 피싱 > Url을 > 위쪽 Url 또는 Top 클릭 > 모든 레코드를 클릭 하 여 URL 플라이 아웃을 열고 클릭 탭으로 이동 > 합니다.**
 
 > [!TIP]
 > Network Message ID는 네트워크 메시지 ID를 통해 탐색기나 연결 된 타사 도구를 검색할 때 클릭을 특정 메일에 다시 매핑합니다. 네트워크 메시지 ID를 통해 검색 하면 관리자가 클릭 결과와 연결 된 특정 전자 메일을 제공 합니다. 내보낼 때 네트워크 메시지 ID의 일치 확인을 통해 더 빠르고 강력한 분석이 가능 합니다.

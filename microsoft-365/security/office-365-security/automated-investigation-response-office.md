@@ -1,9 +1,9 @@
 ---
-title: Office 365의 자동화 된 조사 및 응답 (AIR)
+title: Office 365의 AIR (자동 사고 응답)
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.date: 10/03/2019
+ms.date: 11/15/2019
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -12,40 +12,34 @@ search.appverid:
 - MET150
 - MOE150
 ms.collection: M365-security-compliance
-description: Office 365 Advanced Threat Protection의 자동화 된 조사 및 응답 기능에 대해 알아봅니다.
-ms.openlocfilehash: 99eea4d723a2d9f27528eb951c758b33e0390f93
-ms.sourcegitcommit: d4aa94716b33e6c270ae7adfbdc4c19cf4a0087d
+description: Office 365 Advanced Threat Protection 계획 2의 자동화 된 조사 및 응답 기능에 대 한 개요를 확인 하세요.
+ms.openlocfilehash: 18da20491f9641b8313304e350f9c224b63cc5d9
+ms.sourcegitcommit: 9ee873c6a2f738a0c99921e036894b646742e706
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "37386205"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "38673404"
 ---
-# <a name="automated-investigation-and-response-air-in-office-365"></a>Office 365의 자동화 된 조사 및 응답 (AIR)
+# <a name="automated-incident-response-air-in-office-365"></a>Office 365의 AIR (자동 사고 응답)
 
-자동 조사 및 응답 (AIR) 기능을 사용 하면 현재 존재 하는 잘 알려진 위협에 대응 하 여 자동화 된 조사 프로세스를 실행할 수 있습니다. AIR은 보안 운영 팀이 보다 효율적이 고 효과적으로 운영 하는 데 도움이 됩니다.
+자동 인시던트 대응 (AIR) 기능을 사용 하면 오늘 존재 하는 잘 알려진 위협에 대응 하 여 자동화 된 조사 프로세스를 실행할 수 있습니다. AIR은 보안 운영 팀이 보다 효율적이 고 효과적으로 운영 하는 데 도움이 됩니다.
 - AIR의 작동 방식을 확인 하려면이 문서를 사용 하십시오.
 - AIR 사용을 시작 하려면 [Office 365의 위협에 대 한 자동 조사 및 응답](office-365-air.md)을 참조 하세요.
 
 > [!NOTE]
 > AIR 기능에 액세스 하려면 전역 관리자, 보안 관리자, 보안 운영자 또는 보안 판독기 여야 합니다. 이러한 사용 권한에 대 한 자세한 내용은 [Microsoft 365 보안 센터: 역할 및 사용 권한을](https://docs.microsoft.com/office365/securitycompliance/microsoft-security-and-compliance#required-licenses-and-permissions)참조 하세요.
 
-AIR은 다음 구독에 포함 되어 있습니다.
-- Microsoft 365 E5
-- Microsoft 365 E5 Security
-- Office 365 E5
-- Office 365 Advanced Threat Protection 계획 2
-
 ## <a name="the-overall-flow-of-air"></a>전체 공기 흐름
 
 높은 수준에서 AIR 흐름은 다음과 같은 방식으로 작동 합니다.
 
-|단계  |관련 기능  |
+|단계  |관련 항목  |
 |---------|---------|
-|1      |트리거된 [경고](#alerts) 및 [보안 playbook](#security-playbooks) 시작 됩니다.         |
-|2      |특정 경고 및 보안 playbook에 따라 [자동 조사가 즉시 시작](#example-a-user-reported-phish-message-launches-an-investigation-playbook)됩니다. 또는 보안 분석가가 [자동화 된 조사를 수동으로 시작](#example-a-security-administrator-triggers-an-investigation-from-threat-explorer)하 고 (예: [Explorer](threat-explorer.md)등의 보고서 값에서 자동 검사를 시작할 수 있습니다.)         |
-|3      |자동화 된 조사가 실행 되는 동안 해당 범위가 새로 새롭게 연결 되 면 관련 경고가 트리거됩니다.         |
-|4      |자동화 된 조사 도중 및 후에 [세부 정보 및 결과](#investigation-graph) 를 볼 수 있습니다. 결과에는 발견 된 모든 위협을 응답 하 고 수정 하기 위해 취할 수 있는 [권장 작업이](#recommended-actions) 포함 됩니다. 또한 모든 조사 활동을 추적 하는 [playbook 로그](#playbook-log) 를 사용할 수 있습니다.<br/>조직에서 사용자 지정 보고 솔루션 또는 타사 솔루션을 사용 하는 경우에는 [Office 365 관리 활동 API를 사용](office-365-air.md#use-the-office-365-management-activity-api-for-custom-or-third-party-reporting-solutions) 하 여 자동화 된 조사 및 위협에 대 한 정보를 볼 수 있습니다.         |
-|5      |보안 운영 팀은 결과 및 권장 사항을 검토 하 고 업데이트 관리 작업을 승인 합니다. Office 365에서 조직의 보안 팀이 승인 하는 경우에만 재구성 작업이 수행 됩니다.         |
+|개     |트리거된 [경고](#alerts) 및 [보안 playbook](#security-playbooks) 시작 됩니다.         |
+|2     |특정 경고 및 보안 playbook에 따라 [자동 조사가 즉시 시작](#example-a-user-reported-phish-message-launches-an-investigation-playbook)됩니다. 또는 보안 분석가가 [자동화 된 조사를 수동으로 시작](#example-a-security-administrator-triggers-an-investigation-from-threat-explorer)하 고 (예: [Explorer](threat-explorer.md)등의 보고서 값에서 자동 검사를 시작할 수 있습니다.)         |
+|3(sp3)     |자동화된 조사를 실행하는 동안 새로운 관련 알림이 트리거되면 조사 범위가 늘어날 수 있습니다.         |
+|1-4     |자동화 된 조사 도중 및 후에 [세부 정보 및 결과](#investigation-graph) 를 볼 수 있습니다. 결과에는 발견 된 모든 위협을 응답 하 고 수정 하기 위해 취할 수 있는 [권장 작업이](#recommended-actions) 포함 됩니다. 또한 모든 조사 활동을 추적 하는 [playbook 로그](#playbook-log) 를 사용할 수 있습니다.<br/>조직에서 사용자 지정 보고 솔루션 또는 타사 솔루션을 사용 하는 경우에는 [Office 365 관리 활동 API를 사용](office-365-air.md#use-the-office-365-management-activity-api-for-custom-or-third-party-reporting-solutions) 하 여 자동화 된 조사 및 위협에 대 한 정보를 볼 수 있습니다.         |
+|2-5     |보안 운영 팀은 결과 및 권장 사항을 검토하고 수정 작업을 승인할 수 있습니다. Office 365에서 수정 작업은 조직의 보안 팀이 승인한 경우에만 적용될 수 있습니다.         |
 
 다음 섹션에서는 경고, 보안 playbooks 및 조사 세부 정보를 비롯 하 여 AIR에 대 한 자세한 정보를 제공 합니다. 또한이 문서에는 AIR works의 두 가지 예제가 포함 되어 있습니다. AIR 사용을 시작 하려면 [Office 365의 위협에 대 한 자동 조사 및 응답](office-365-air.md)을 참조 하세요.
 
@@ -72,7 +66,7 @@ AIR은 다음 구독에 포함 되어 있습니다.
 
 알림을 보려면 보안 & 준수 센터 **에서 경고** > **보기**를 선택 합니다. 알림을 선택 하 여 세부 정보를 확인 하 고, **보기 조사** 링크를 사용 하 여 해당 [조사](#investigation-graph)로 이동 합니다. 정보 알림은 기본적으로 경고 보기에 표시 되지 않습니다. 이러한 항목을 보려면 알림 필터링을 변경 하 여 정보 알림을 포함 해야 합니다.
 
-조직에서 경고 관리 시스템, 서비스 관리 시스템 또는 SIEM (보안 정보 및 이벤트 관리) 시스템을 통해 보안 경고를 관리 하는 경우 전자 메일 알림을 통해 또는 다음을 통해 [해당 시스템에 Office 365 알림 메시지를 보낼 수 있습니다. Office 365 관리 활동 API](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-reference) 전자 메일 또는 API를 통한 조사 경고 알림에는 보안 & 준수 센터의 경고에 액세스 하 여 할당 된 보안 관리자가 조사로 신속 하 게 이동할 수 있도록 하는 링크가 포함 되어 있습니다.
+조직에서 경고 관리 시스템, 서비스 관리 시스템 또는 SIEM (보안 정보 및 이벤트 관리) 시스템을 통해 보안 경고를 관리 하는 경우 전자 메일 알림을 통해 또는 [office 365 관리 활동 API](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-reference)를 통해 해당 시스템에 office 365 알림을 보낼 수 있습니다. 전자 메일 또는 API를 통한 조사 경고 알림에는 보안 & 준수 센터의 경고에 액세스 하 여 할당 된 보안 관리자가 조사로 신속 하 게 이동할 수 있도록 하는 링크가 포함 되어 있습니다.
 
 ![조사로 연결 되는 경고](../media/air-alerts-page-details.png) 
 
@@ -118,18 +112,22 @@ AIR에서는 각 보안 playbook 다음이 포함 됩니다.
 - 데이터를 .csv 파일로 내보냅니다.
 
 조사 상태는 분석 및 작업의 진행률을 나타냅니다. 조사가 실행 되 면 상태가 변경 되어 위협이 발견 되었는지 여부와 작업이 승인 되었는지 여부를 나타냅니다. 
-- **시작**: 조사가 곧 시작 되기 위해 대기 중입니다.
-- **실행**중: 조사가 시작 되었으며 분석을 수행 하 고 있습니다.
-- **발견 된 위협이 없는**경우: 조사가 분석을 완료 했으며 위협이 발견 되지 않음
-- **시스템 종료**: 7 일 후에 조사가 종료 및 만료 되지 않았습니다.
-- **보류 중인 작업**: 조사에서 권장 되는 작업을 발견 했습니다.
-- **발견 된 위협**: 조사에서 위협이 발견 되었지만 해당 위협이 AIR 내에서 사용할 수 있는 작업을 포함 하지 않음
-- **재구성**됨: 조사가 완료 되어 완전히 재구성 되었습니다 (모든 작업이 승인 됨).
-- **부분적으로 재구성**됨: 조사가 완료 되었으며 일부 권장 작업을 승인 했습니다.
-- **종료**됨: 관리자가 조사를 종료 했습니다.
-- **실패**: 조사 중에 위협의 결론에 도달 하지 못하도록 차단 하는 동안 오류가 발생 했습니다.
-- **제한 대기**: 시스템 처리 제한 (서비스 성능 보호)을 통해 조사가 분석을 기다리는 중입니다.
-- **종료 된 제한**: 조사 볼륨 및 시스템 처리 제한으로 인해 조사를 충분 한 시간 내에 완료할 수 없습니다. 탐색기에서 전자 메일을 선택 하 고 조사 작업을 선택 하 여 조사를 다시 트리거할 수 있습니다.
+
+
+|상태  |의미  |
+|---------|---------|
+|시작 중 | 조사가 곧 시작 되기 위해 대기 중입니다. |
+|부족 | 조사가 시작 되었으며 분석을 수행 하 고 있습니다. |
+|발견 된 위협 없음 | 조사가 분석을 완료 했으며 위협이 발견 되지 않음 |
+|시스템 종료 | 7 일 후에 조사가 종료 되지 않고 만료 되었습니다. |
+|보류 중인 작업 | 조사에서 권장 되는 작업의 위협을 발견 했습니다. |
+|발견 된 위협 | 조사에서 위협이 발견 되었지만 해당 위협이 AIR 내에서 사용할 수 있는 작업을 포함 하지 않음 |
+|수정 | 조사가 완료 되어 완전히 재구성 되었습니다 (모든 작업이 승인 됨). |
+|부분 재구성 | 조사가 완료 되었으며 일부 권장 작업을 승인 했습니다. |
+|사용자가 종료 | 관리자가 조사를 종료 했습니다. |
+|Failed | 조사 중에 위협의 결론에 도달 하지 못하도록 차단 하는 동안 오류가 발생 했습니다. |
+|제한에 의해 대기 | 조사에서 시스템 처리 제한 (서비스 성능 보호)으로 인해 분석을 기다리는 중입니다. |
+|제한에 의해 종료 됨 | 조사 볼륨 및 시스템 처리 제한으로 인해 조사를 충분 한 시간 내에 완료할 수 없습니다. 탐색기에서 전자 메일을 선택 하 고 조사 작업을 선택 하 여 조사를 다시 트리거할 수 있습니다. |
 
 ### <a name="investigation-graph"></a>조사 그래프
 
@@ -189,7 +187,8 @@ AIR에서는 각 보안 playbook 다음이 포함 됩니다.
 
 ![플라이 아웃 세부 정보를 사용한 AIR 조사 전자 메일](../media/air-investigationemailpageflyoutdetails.png)
 
-* 참고: 전자 메일 컨텍스트에서 조사 중에 볼륨 변칙 위협 표면을 볼 수 있습니다. 볼륨 변칙은 이전 기간에 비해 조사 이벤트에 대 한 유사한 전자 메일 메시지의 스파이크를 나타냅니다. 전자 메일 트래픽 (예: 제목 및 보낸 사람 도메인, 본문 유사성 및 보낸 사람 IP)이 비슷한 방식으로 전자 메일을 사용 하는 것이 일반적입니다. 그러나 일반적으로 대량, 스팸 및 합법적인 전자 메일 캠페인은 이러한 특성을 공유 합니다. 볼륨 예외는 잠재적 위협을 나타내므로, 바이러스 백신 엔진, 샌드 박싱 또는 악의적인 평판을 사용 하 여 식별 된 맬웨어 또는 피싱 위협과 비교 하는 것이 더 심각 하지 않습니다.
+> [!NOTE]
+> 전자 메일 컨텍스트에서 조사를 진행 하는 동안 볼륨 변칙 위협 표면을 볼 수 있습니다. 볼륨 변칙은 이전 기간에 비해 조사 이벤트에 대 한 유사한 전자 메일 메시지의 스파이크를 나타냅니다. 전자 메일 트래픽 (예: 제목 및 보낸 사람 도메인, 본문 유사성 및 보낸 사람 IP)이 비슷한 방식으로 전자 메일을 사용 하는 것이 일반적입니다. 그러나 일반적으로 대량, 스팸 및 합법적인 전자 메일 캠페인은 이러한 특성을 공유 합니다. 볼륨 예외는 잠재적 위협을 나타내므로, 바이러스 백신 엔진, 샌드 박싱 또는 악의적인 평판을 사용 하 여 식별 된 맬웨어 또는 피싱 위협과 비교 하는 것이 더 심각 하지 않습니다.
 
 ### <a name="user-investigation"></a>사용자 조사
 
@@ -260,7 +259,7 @@ AIR에서는 각 보안 playbook 다음이 포함 됩니다.
 
 조직의 사용자가 전자 메일 메시지를 전송 하 고 [outlook 또는 Outlook Web Access 용 보고서 메시지 추가 기능](enable-the-report-message-add-in.md)을 사용 하 여 Microsoft에 보고 하는 경우 보고서도 시스템에 전송 되며 사용자가 보고 한 보기의 탐색기에 표시 됩니다. 이 사용자가 보고 한이 메시지는 이제 조사 playbook를 자동으로 시작 하는 시스템 기반 정보 알림을 트리거합니다.
 
-루트 조사 단계에서는 전자 메일의 다양 한 측면을 평가 합니다. 다음과 같은 다양한 알고리즘과 방법이 있습니다.
+루트 조사 단계에서는 전자 메일의 다양 한 측면을 평가 합니다. 여기에는 다음이 포함됩니다.
 - 사용할 수 있는 위협의 유형에 대 한 결정
 - 보낸 사람
 - 전자 메일이 전송 되는 위치 (보내는 인프라)
@@ -299,12 +298,12 @@ AIR에서는 각 보안 playbook 다음이 포함 됩니다.
 
 ## <a name="how-to-get-air"></a>공기를 얻는 방법
 
-Office 365 AIR은 다음 구독에 포함 되어 있습니다.
+Office 365 AIR은 다음의 구독에 포함되어 있습니다.
 
-- Microsoft 365 Enterprise E5
-- Office 365 Enterprise E5
+- Microsoft 365 E5
+- Office 365 E5
 - Microsoft 위협 방지
-- Office 365 Advanced Threat Protection 계획 2
+- Office 365 Advanced Threat Protection Plan 2
 
 이러한 구독을 사용 하지 않는 경우 [무료 평가판을 시작](https://go.microsoft.com/fwlink/p/?LinkID=698279&culture=en-US&country=US)합니다.
 
@@ -317,3 +316,4 @@ Office 365 AIR은 다음 구독에 포함 되어 있습니다.
 [Microsoft Defender ATP의 AIR에 대해 자세히 알아보기](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/automated-investigations) 
 
 [Microsoft 365 로드맵를 방문 하 여 곧 제공 되는 항목을 확인 하 고 롤아웃](https://www.microsoft.com/microsoft-365/roadmap?filters=)
+

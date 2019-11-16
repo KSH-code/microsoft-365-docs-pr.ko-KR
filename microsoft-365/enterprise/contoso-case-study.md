@@ -13,16 +13,14 @@ ms.collection:
 - M365-subscription-management
 ms.custom: ''
 description: 대표적인 가상 글로벌 조직이 Microsoft 365 Enterprise를 채택한 방법
-ms.openlocfilehash: 0d5453a5f55314207e0c8403837a83dd66eb70d3
-ms.sourcegitcommit: c6eab4a9f1b70e7ff0db6b2a1128a4db2591cbaf
+ms.openlocfilehash: e7c79612b18bdd21d8fd137abe11f8f26cfd6eff
+ms.sourcegitcommit: 9ee873c6a2f738a0c99921e036894b646742e706
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "37369619"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "38673224"
 ---
 # <a name="microsoft-365-enterprise-for-the-contoso-corporation"></a>Contoso Corporation의 Microsoft 365 Enterprise
-
-**요약:** 대표적인 가상 글로벌 조직이 Microsoft 365 Enterprise를 채택한 방법을 알아봅니다.
 
 Microsoft 365 Enterprise는 로컬 및 클라우드 기반 생산성 응용 프로그램 및 서비스를 Windows 10 Enterprise 및 고급 보안 기능과 결합하여 모든 사람이 창의적이고 안전하게 공동 작업할 수있는 지능형 솔루션으로 통합 된 Microsoft의 최고의 클라우드 서비스입니다. 
 
