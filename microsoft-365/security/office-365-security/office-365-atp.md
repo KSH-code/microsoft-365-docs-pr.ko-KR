@@ -3,7 +3,7 @@ title: Office 365 Advanced Threat Protection
 ms.author: tracyp
 author: msfttracyp
 manager: dansimp
-ms.date: 10/03/2019
+ms.date: 11/15/2019
 audience: Admin
 ms.topic: hub-page
 ms.service: O365-seccomp
@@ -15,12 +15,12 @@ ms.assetid: e100fe7c-f2a1-4b7d-9e08-622330b83653
 ms.collection:
 - M365-security-compliance
 description: Office 365 Advanced Threat Protection에는 안전한 첨부 파일, 안전한 링크, 고급 피싱 방지 도구, 보고 도구 및 위협 인텔리전스 기능이 포함되어 있습니다.
-ms.openlocfilehash: dbfff642563117a479db1ac36e76700cca71dd75
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: abe11acd2b254405ec432288ae87d12b626f617c
+ms.sourcegitcommit: 9ee873c6a2f738a0c99921e036894b646742e706
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38032203"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "38673414"
 ---
 # <a name="office-365-advanced-threat-protection"></a>Office 365 Advanced Threat Protection
 
@@ -33,21 +33,25 @@ Office 365 ATP (Advanced Threat Protection)는 전자 메일 메시지, 링크 (
 
 - [위협 방지 정책](#configure-atp-policies): 위협 방지 정책을 정의하여 조직에 적합한 수준의 보호를 설정합니다. 
 
-- [보고서](#view-atp-reports): 조직의 ATP 성능을 모니터링하는 실시간 보고서를 볼 수 있습니다. 
+- [보고서](#view-office-365-atp-reports): 조직의 ATP 성능을 모니터링하는 실시간 보고서를 볼 수 있습니다. 
 
 - [위협 조사 및 응답 기능](#use-threat-investigation-and-response-capabilities): 최첨단 도구를 사용하여 위협을 조사, 이해, 시뮬레이션 및 예방할 수 있습니다. 
 
-- [자동화된 조사 및 응답 기능](#save-time-with-automated-investigation-and-response): 위협을 조사하고 완화하는 시간과 노력을 줄여줍니다.
+- [자동화된 사고 대응 기능](#save-time-with-automated-incident-response): 위협에 대한 조사 및 위협을 낮추기 위한 시간과 노력을 줄입니다.
 
 ## <a name="office-365-atp-plan-1-and-plan-2"></a>Office 365 ATP 플랜 1 및 플랜 2
 
-ATP는 Office 365 E5에 포함되어 있습니다. 그러나 또한 ATP 플랜 1 및 ATP 플랜 2는 특정 구독에 대한 추가 기능으로 각각 제공됩니다. 자세한 내용은 [ATP 플랜에서의 기능 가용성](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans)을 참조하세요.
+ATP는 Office 365 E5에 포함되어 있습니다. 그러나 또한 Office 365 ATP 플랜 1 및 Office 365 ATP 플랜 2는 특정 구독에 대한 추가 기능으로 각각 제공됩니다. 자세한 내용은 [ATP 플랜에서의 기능 가용성](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans)을 참조하세요.
+
+Office 365 ATP가 없다면 [무료 평가판을 시작합니다.](https://go.microsoft.com/fwlink/p/?LinkID=698279)
+
 
 ## <a name="configure-atp-policies"></a>ATP 정책 구성
 
-Office 365 ATP는 조직에 적합한 수준의 보호를 설정하기 위한 다양한 도구를 제공합니다. 
+Office 365 ATP를 사용하여 조직의 보안팀이 Office 365 보안 및 준수 센터에서 정책을 정의하여 보호를 구성할 수 있습니다.([https://protection.office.com](https://protection.office.com) > **위협 관리** > **정책**.) 
 
-조직의 보안팀은 Office 365 보안 및 준수 센터에서 각 ATP 도구에 대한 정책을 정의해야 합니다. **위협 관리** > **정책**으로 이동하여 정책 옵션에 액세스합니다. 자세한 내용은 [위협으로부터 보호](protect-against-threats.md)를 참조하세요.
+> [!TIP]
+> 정의할 정책의 빠른 목록을 보려면 [위협으로부터 보호](protect-against-threats.md)를 참조하세요.
 
 조직에 정의된 정책에 따라 미리 정의된 위협에 대한 동작 및 보호 수준이 결정됩니다. 정책 옵션은 매우 유동적입니다. 예를 들어 조직의 보안팀은 사용자, 조직, 수신자 및 도메인 수준에서 세분화된 위협 방지를 설정할 수 있습니다. 새로운 위협과 문제점이 매일 발생하므로 정책을 정기적으로 검토하는 것이 중요합니다.  
 
@@ -59,9 +63,9 @@ Office 365 ATP는 조직에 적합한 수준의 보호를 설정하기 위한 �
 
 - [ATP 피싱 방지 보호](atp-anti-phishing.md): 사용자 및 사용자 지정 도메인으로 위장하려는 시도를 탐지합니다. 피싱 공격을 피하기 위해 기계 학습 모델과 고급 위장 탐지 알고리즘을 적용합니다. 자세한 내용은 [Office 365 ATP 피싱 방지 및 피싱 방지 정책 설정](set-up-anti-phishing-policies.md)을 참조하세요.
 
-## <a name="view-atp-reports"></a>ATP 보고서 보기
+## <a name="view-office-365-atp-reports"></a>Office 365 ATP 보고서 보기
 
-Office 365 ATP에는 ATP 성능을 모니터링하는 고급 [보고 대시보드](view-reports-for-atp.md)가 포함되어 있습니다. 보안 및 준수 센터의 **보고서 > 대시보드**에서 액세스할 수 있습니다. 
+Office 365 ATP에는 ATP 성능을 모니터링하는 고급 [보고 대시보드](view-reports-for-atp.md)가 포함되어 있습니다. 보안 및 준수 센터의 **보고서** > **대시보드**에서 액세스할 수 있습니다. 
 
 보고서는 실시간으로 업데이트되어 최신 정보를 제공합니다. 이 보고서는 또한 권장 사항을 제공하고 임박한 위협에 대해 경고합니다. 사전 정의된 보고서에는 다음이 포함됩니다. 
 
@@ -85,18 +89,9 @@ Office 365 ATP Plan 2에는 조직의 보안팀이 악의적인 공격을 예측
 
 - [Attack Simulator](attack-simulator.md)를 사용하면 사용자 조직에서 실제적인 공격 시나리오를 실행하여 취약성을 식별할 수 있습니다. [표시 이름 스피어피싱 공격](attack-simulator.md#display-name-spear-phishing-attack), [비밀번호 분무 공격](attack-simulator.md#password-spray-attack), [무차별 비밀번호 대입 공격](attack-simulator.md#brute-force-password-attack) 등을 포함하여 최근 유형의 공격에 대한 시뮬레이션을 사용할 수 있습니다.
     
-## <a name="save-time-with-automated-investigation-and-response"></a>자동화된 조사 및 응답으로 시간 절약하기
+## <a name="save-time-with-automated-incident-response"></a>자동화된 사고 대응으로 시간 절약
 
-(**새로운 기능!**) 잠재적인 사이버 공격을 조사할 때는 시간이 가장 중요합니다. 위협을 빨리 식별하고 완화할 수록 조직을 보호하는데 더욱 좋습니다. 아래 열거된 구독에는 이제 [자동화된 조사 및 응답 (AIR)](automated-investigation-response-office.md) 기능이 포함됩니다. (사용자에게 이러한 기능이 아직 제공되지 않은 경우, 이들 가운데 한 개를 구독하는 경우 곧 사용할 수 있습니다.)
-
-Office 365 AIR은 다음의 구독에 포함되어 있습니다.
-
-- Microsoft 365 E5
-- Microsoft 365 E5 Security
-- Office 365 E5
-- Office 365 Advanced Threat Protection Plan 2
-
-AIR에는 알림이 트리거되는 경우와 같이 자동으로 시작되거나 또는 Explorer 탐색기의 보기와 같이 수동으로 시작할 수 있는 보안 플레이북 세트가 포함되어 있습니다. AIR을 사용하면 보안 운영팀이 위협을 효과적이고 효율적으로 완화하도록 하는데 드는 시간과 노력을 절약할 수 있습니다. 자세한 내용은 [Office 365의 자동화된 조사 및 응답 (AIR)](automated-investigation-response-office.md)을 참조하세요.
+(**새로운 기능!**) 잠재적인 사이버 공격을 조사할 때는 시간이 가장 중요합니다. 위협을 빨리 식별하고 완화할 수록 조직을 보호하는데 더욱 좋습니다. [자동화된 사고 대응](automated-investigation-response-office.md) (AIR) 기능에는 알림이 트리거되는 경우와 같이 자동으로 시작되거나 또는 Explorer 탐색기의 보기와 같이 수동으로 시작할 수 있는 보안 플레이북 세트가 포함되어 있습니다. AIR을 사용하면 보안 운영팀이 위협을 효과적이고 효율적으로 완화하도록 하는데 드는 시간과 노력을 절약할 수 있습니다. 자세한 내용은 [Office 365의 자동화된 사고 대응](automated-investigation-response-office.md)을 참조하세요.
 
 ## <a name="permissions-required-to-use-atp-features"></a>ATP 기능을 사용하는 데 필요한 사용 권한
 
@@ -108,21 +103,19 @@ AIR에는 알림이 트리거되는 경우와 같이 자동으로 시작되거�
 |보안 관리자 |[Azure Active Directory의 관리자 역할 권한](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
 |Exchange Online 조직 관리 |[Exchange Online의 사용 권한](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo) <br>및<br> [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps)|
 
-자세한 내용은 다음을 참조하세요.
-
-- [보안 및 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md) 
-
-- [사용자에게 보안 및 준수 센터에 대한 액세스 권한 부여](grant-access-to-the-security-and-compliance-center.md)
+자세한 내용은 [보안 및 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)을 참조하세요.
 
 ## <a name="get-office-365-atp"></a>Office 365 ATP 받기
 
-Office 365 ATP 플랜 2는 Office 365 Enterprise E5, Office 365 Education A5 및 Microsoft 365 Business에 포함되어 있습니다. 구독에 Office 365 ATP가 포함되어있지 않은 경우 ATP 플랜 1 또는 ATP 플랜 2를 특정 구독에 대한 추가 기능으로 구매할 수 있습니다. 자세한 내용은 다음 리소스를 참조하세요.
+Office 365 ATP는 Microsoft 365 E5, Office 365 E5, Office 365 A5, Microsoft 365 Business 등의 특정 구독에 포함되어 있습니다. 구독에 Office 365 ATP가 포함되어있지 않은 경우 ATP 플랜 1 또는 ATP 플랜 2를 특정 구독에 대한 추가 기능으로 구매할 수 있습니다. 자세한 내용은 다음 리소스를 참조하세요.
 
-- ATP 플랜이 포함된 구독 목록은 [Office 365 ATP (Advanced Threat Protection) 제공 여부](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#office-365-advanced-threat-protection-atp-availability)를 참조하세요.
+- ATP 플랜이 포함된 구독 목록은 [Office 365 Advanced Threat Protection 제공 여부](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#office-365-advanced-threat-protection-atp-availability)
 
-- 플랜 1 및 2에 포함된 기능 목록은 [ATP (Advanced Threat Protection) 플랜의 기능 제공 여부](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans)를 참조하세요.
+- 플랜 1 및 2에 포함된 기능 목록은 [ATP(Advanced Threat Protection) 플랜의 기능 제공 여부](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans)
 
-- 플랜을 비교하고 Office 365 ATP를 구매하려면 [올바른 Office 365 Advanced Threat Protection 구매하기](https://products.office.com/exchange/advance-threat-protection#pmg-allup-content)를 참조하세요.
+- 플랜을 비교하고 Office 365 ATP를 구매하려면 [올바른 Office 365 Advanced Threat Protection 구매하기](https://products.office.com/exchange/advance-threat-protection#pmg-allup-content)
+
+- [무료 평가판 시작](https://go.microsoft.com/fwlink/p/?LinkID=698279)
 
 ## <a name="new-features-in-office-365-atp"></a>Office 365 ATP의 새로운 기능
 
