@@ -14,22 +14,23 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 4631a60554f463cf6403807ec04b40690e591ecb
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: d16343328e4d4ff0a67d2d3a1a9fac4219588746
+ms.sourcegitcommit: f0a4290793e296474ecd3c6eb0ca96eae7faa434
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088826"
+ms.lasthandoff: 11/11/2019
+ms.locfileid: "38687137"
 ---
-# <a name="work-with-processing-errors-in-advanced-ediscovery"></a><span data-ttu-id="0ed1b-102">Advanced eDiscovery에서의 처리 오류 작업</span><span class="sxs-lookup"><span data-stu-id="0ed1b-102">Work with processing errors in Advanced eDiscovery</span></span>
+# <a name="work-with-processing-errors-in-advanced-ediscovery"></a><span data-ttu-id="9a3df-102">Advanced eDiscovery에서의 처리 오류 작업</span><span class="sxs-lookup"><span data-stu-id="9a3df-102">Work with processing errors in Advanced eDiscovery</span></span>
 
-<span data-ttu-id="0ed1b-103">처리는 파일 id, 포함 된 문서 및 첨부 파일의 확장, 텍스트 추출, OCR (광학 인식) 및 해당 콘텐츠의 인덱싱 프로세스입니다.</span><span class="sxs-lookup"><span data-stu-id="0ed1b-103">Processing is the process of file identification, expansion of embedded documents and attachments, text extraction, OCR (Optical Character Recognition) of image files and indexing of that content.</span></span>  
+<span data-ttu-id="9a3df-103">처리는 파일 id, 포함 된 문서 및 첨부 파일의 확장, 텍스트 추출, OCR (광학 인식) 및 해당 콘텐츠의 인덱싱 프로세스입니다.</span><span class="sxs-lookup"><span data-stu-id="9a3df-103">Processing is the process of file identification, expansion of embedded documents and attachments, text extraction, OCR (Optical Character Recognition) of image files and indexing of that content.</span></span>  
 
-<span data-ttu-id="0ed1b-104">**Custodians** 탭의 케이스에 custodian이 추가 되 면 Office 365에서 부분적으로 인덱싱된 모든 항목이 처리 되어 완전히 검색할 수 있게 됩니다.</span><span class="sxs-lookup"><span data-stu-id="0ed1b-104">When a custodian is added to the case from the **Custodians** tab, all partially indexed items from Office 365 are processed to make them fully searchable.</span></span>  <span data-ttu-id="0ed1b-105">마찬가지로 Office 365 데이터 원본 또는 Office가 아닌 365 데이터 원본의 검토 집합에 콘텐츠가 추가 될 때에도 콘텐츠가 처리 됩니다.</span><span class="sxs-lookup"><span data-stu-id="0ed1b-105">Likewise, when content is added to a review set from Office 365 data sources or non-Office 365 data sources, the content is also processed.</span></span>
+<span data-ttu-id="9a3df-104">**Custodians** 탭의 사례에 custodian을 추가 하면 Office 365에서 모든 부분 인덱싱된 항목이 처리 되어 완전히 검색 가능 하 게 됩니다.</span><span class="sxs-lookup"><span data-stu-id="9a3df-104">When you add a custodian to a case on the **Custodians** tab, all partially indexed items from Office 365 are processed to make them fully searchable.</span></span> <span data-ttu-id="9a3df-105">마찬가지로 Office 365 및 비 Office 365 데이터 원본의 검토 집합에 콘텐츠가 추가 되는 경우에도이 콘텐츠가 처리 됩니다.</span><span class="sxs-lookup"><span data-stu-id="9a3df-105">Likewise, when content is added to a review set from both Office 365 and  non-Office 365 data sources, this content is also processed.</span></span>
 
-<span data-ttu-id="0ed1b-106">고급 eDiscovery의 **처리** 탭에서는 이러한 모든 시나리오에 대 한 *고급 인덱싱* 상태에 투명도를 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="0ed1b-106">The **Processing** tab in Advanced eDiscovery provides transparency into the status of *Advanced Indexing* for all of these scenarios.</span></span>
+<span data-ttu-id="9a3df-106">고급 eDiscovery의 **처리** 탭에서는 다양 한 처리 시나리오에 대 한 고급 인덱싱 상태에 대 한 통찰력을 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="9a3df-106">The **Processing** tab in Advanced eDiscovery provides insight into the status of advanced indexing for different processing scenarios.</span></span>
 
-<span data-ttu-id="0ed1b-107">자세한 내용은 다음 문서를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="0ed1b-107">See the following articles for more details.</span></span>
+<span data-ttu-id="9a3df-107">자세한 내용은 다음 문서를 참조하십시오.</span><span class="sxs-lookup"><span data-stu-id="9a3df-107">For more information, see the following articles:</span></span>
 
-- [<span data-ttu-id="0ed1b-108">보유자 데이터의 고급 인덱싱</span><span class="sxs-lookup"><span data-stu-id="0ed1b-108">Advanced indexing of custodian data</span></span>](indexing-custodian-data.md)
-- [<span data-ttu-id="0ed1b-109">데이터를 처리할 때 오류 수정</span><span class="sxs-lookup"><span data-stu-id="0ed1b-109">Error remediation when processing data</span></span>](error-remediation.md)
+- [<span data-ttu-id="9a3df-108">보유자 데이터의 고급 인덱싱</span><span class="sxs-lookup"><span data-stu-id="9a3df-108">Advanced indexing of custodian data</span></span>](indexing-custodian-data.md)
+- [<span data-ttu-id="9a3df-109">데이터를 처리할 때 오류 수정</span><span class="sxs-lookup"><span data-stu-id="9a3df-109">Error remediation when processing data</span></span>](error-remediation.md)
+- [<span data-ttu-id="9a3df-110">단일 항목 오류 수정</span><span class="sxs-lookup"><span data-stu-id="9a3df-110">Single item error remediation</span></span>](single-item-error-remediation.md)

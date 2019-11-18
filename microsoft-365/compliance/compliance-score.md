@@ -1,0 +1,135 @@
+---
+title: Microsoft 규정 준수 점수
+ms.author: chvukosw
+author: chvukosw
+manager: laurawi
+audience: Admin
+ms.topic: article
+ms.service: O365-seccomp
+localization_priority: Normal
+ms.collection: M365-security-compliance
+search.appverid:
+- MOE150
+- MET150
+description: Microsoft 규정 준수 점수는 조직이 위험 평가를 간소화 하 고 자동화 하는 데 도움이 되며, 위험을 해결 하기 위한 권장 조치를 제시 합니다.
+ms.openlocfilehash: f604f52fd66664aeb1b61fb873cfe40e8f48115c
+ms.sourcegitcommit: 544b10cc3abe04a47438085d51c4250c9238f76f
+ms.translationtype: MT
+ms.contentlocale: ko-KR
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "38686986"
+---
+# <a name="microsoft-compliance-score-preview"></a><span data-ttu-id="f60fa-103">Microsoft 준수 점수 (미리 보기)</span><span class="sxs-lookup"><span data-stu-id="f60fa-103">Microsoft Compliance Score (Preview)</span></span>
+
+<span data-ttu-id="f60fa-104">Microsoft 규정 준수 점수가 규정 준수를 관리 하 고 사용자에 게 친숙 한 환경을 통해 규정 준수 위험을 줄이는 방식을 단순화 하는 데 도움이 됩니다.</span><span class="sxs-lookup"><span data-stu-id="f60fa-104">Microsoft Compliance Score helps to simplify the way you manage compliance and reduce compliance risks through a user-friendly experience.</span></span> <span data-ttu-id="f60fa-105">이제 [Microsoft 365 준수 센터](microsoft-365-compliance-center.md)의 공개 미리 보기에 준수 점수를 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f60fa-105">Compliance Score is now available for public preview in the  [Microsoft 365 compliance center](microsoft-365-compliance-center.md).</span></span> <span data-ttu-id="f60fa-106">이 문서를 읽으면 준수 점수가 무엇 이며, 조직에 대 한 준수를 관리 하는 방법을 이해 하 고, 시작 하는 방법을 이해할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f60fa-106">Read this article to understand what Compliance Score is, how it can help you manage compliance for your organization, and how to get started.</span></span>
+
+## <a name="what-is-compliance-score"></a><span data-ttu-id="f60fa-107">준수 점수 란?</span><span class="sxs-lookup"><span data-stu-id="f60fa-107">What is Compliance Score</span></span>
+
+<span data-ttu-id="f60fa-108">Microsoft 준수 점수는 조직의 규정 준수 상태를 이해 하는 데 도움이 되는 Microsoft 365 준수 센터의 미리 보기 기능입니다.</span><span class="sxs-lookup"><span data-stu-id="f60fa-108">Microsoft Compliance Score is a preview feature in the Microsoft 365 compliance center to help you understand your organization’s compliance posture.</span></span> <span data-ttu-id="f60fa-109">데이터 보호 및 규정 표준에 대 한 위험을 줄이는 데 도움이 되는 작업 완료의 진행 상태를 측정 하는 위험 기반 점수를 계산 합니다.</span><span class="sxs-lookup"><span data-stu-id="f60fa-109">It calculates a risk-based score measuring your progress in completing actions that help reduce risks around data protection and regulatory standards.</span></span>
+
+<span data-ttu-id="f60fa-110">규정 준수 점수를 모든 위험 평가를 추적 하는 도구로 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f60fa-110">You can use Compliance Score as a tool to track all of your risk assessments.</span></span> <span data-ttu-id="f60fa-111">또한 일반 도구를 통해 위험 평가를 효율적으로 수행 하 고 완료 하는 데 도움이 되는 워크플로 기능을 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="f60fa-111">It provides workflow capabilities to help you efficiently perform and complete your risk assessments through a common tool.</span></span>
+
+<span data-ttu-id="f60fa-112">현재 [준수 관리자](compliance-manager-overview.md)를 사용 하는 경우 준수 점수가 보다 간단 하 고 사용자에 게 친숙 한 디자인을 갖춘 독립 실행형 기능 이므로 더 쉽게 준수를 관리 하는 데 도움이 됩니다.</span><span class="sxs-lookup"><span data-stu-id="f60fa-112">If you currently use [Compliance Manager](compliance-manager-overview.md), you’ll notice that Compliance Score is now a standalone feature with a simpler, more user-friendly design to help you manage compliance more easily.</span></span> 
+
+<span data-ttu-id="f60fa-113">기본 준수 점수 페이지는 사용자 지정 대시보드입니다.</span><span class="sxs-lookup"><span data-stu-id="f60fa-113">The main Compliance Score page is your custom dashboard.</span></span> <span data-ttu-id="f60fa-114">현재 점수를 표시 하 고, 주의 해야 하는 사항을 확인 하 고, 점수를 높이기 위한 작업을 안내 합니다.</span><span class="sxs-lookup"><span data-stu-id="f60fa-114">It shows your current score, helps you see what needs attention, and guides you to actions to improve your score.</span></span> <span data-ttu-id="f60fa-115">준수 점수 대시보드는 다음과 같이 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="f60fa-115">This is what your Compliance Score dashboard will look like:</span></span>
+
+<span data-ttu-id="f60fa-116">![준수 점수-대시보드](media/compliance-score-dashboard.png "준수 점수 대시보드")</span><span class="sxs-lookup"><span data-stu-id="f60fa-116">![Compliance Score - dashboard](media/compliance-score-dashboard.png "Compliance Score dashboard")</span></span>
+
+### <a name="simplified-compliance-management"></a><span data-ttu-id="f60fa-117">간소화 된 준수 관리</span><span class="sxs-lookup"><span data-stu-id="f60fa-117">Simplified compliance management</span></span>
+
+<span data-ttu-id="f60fa-118">규정 준수 점수가 다음을 제공 하 여 준수 관리를 간소화 하도록 지원 합니다.</span><span class="sxs-lookup"><span data-stu-id="f60fa-118">Compliance Score helps simplify compliance management by providing:</span></span>
+
+- <span data-ttu-id="f60fa-119">**지속적인 평가**: Microsoft 365 환경을 자동으로 검색 하 여 시스템에서 데이터 보호 컨트롤의 효율성을 검색 하 고 모니터링 합니다.</span><span class="sxs-lookup"><span data-stu-id="f60fa-119">**Continuous assessments**: automatically scans through your Microsoft 365 environments to detect and monitor the effectiveness of data protection controls in your system</span></span>
+- <span data-ttu-id="f60fa-120">**권장 작업**: 점수를 최대화 하는 컨트롤을 구현 하는 방법에 대 한 권장 사항 및 단계별 지침을 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="f60fa-120">**Recommended actions**: provides recommendations and step-by-step guidance for how to implement controls to maximize your score</span></span>
+-  <span data-ttu-id="f60fa-121">**기본 제공 컨트롤 매핑**: 기본 제공 되는 일반 컨트롤 프레임 워크를 제공 하 여 진화 하는 준수 가로를 유지 하는 데 도움이 됩니다.</span><span class="sxs-lookup"><span data-stu-id="f60fa-121">**Built-in control mapping**: helps you stay current with the evolving compliance landscape by providing a built-in common control framework</span></span>
+
+> [!IMPORTANT] 
+> <span data-ttu-id="f60fa-122">규정 준수 점수가 특정 표준 또는 규정에 대 한 조직 준수를 절대 측정 하지는 않습니다.</span><span class="sxs-lookup"><span data-stu-id="f60fa-122">Compliance Score does not express an absolute measure of organizational compliance with any particular standard or regulation.</span></span> <span data-ttu-id="f60fa-123">개인 데이터 및 개별 개인 정보에 대 한 위험을 줄일 수 있는 컨트롤을 채택한 범위를 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="f60fa-123">It expresses the extent to which you have adopted controls which can reduce the risks to personal data and individual privacy.</span></span> <span data-ttu-id="f60fa-124">준수 점수 및 준수 관리자의 권장 사항은 준수 보장으로 해석 되어서는 안 됩니다.</span><span class="sxs-lookup"><span data-stu-id="f60fa-124">Recommendations from Compliance Score and Compliance Manager should not be interpreted as a guarantee of compliance.</span></span> <span data-ttu-id="f60fa-125">이 서비스는 현재 미리 볼 수 있으며 [온라인 서비스 약관](https://go.microsoft.com/fwlink/?linkid=2108910)의 사용 약관에 따라 달라 집니다.</span><span class="sxs-lookup"><span data-stu-id="f60fa-125">This service is currently in preview and is subject to the terms and conditions in the [Online Services Terms](https://go.microsoft.com/fwlink/?linkid=2108910).</span></span>
+
+## <a name="relationship-to-compliance-manager"></a><span data-ttu-id="f60fa-126">준수 관리자와의 관계</span><span class="sxs-lookup"><span data-stu-id="f60fa-126">Relationship to Compliance Manager</span></span>
+
+<span data-ttu-id="f60fa-127">준수 점수가 규정 준수 관리자의 단순화 된 버전으로 간주 됩니다.</span><span class="sxs-lookup"><span data-stu-id="f60fa-127">Think of Compliance Score as a simplified version of Compliance Manager.</span></span> <span data-ttu-id="f60fa-128">두 가지가 서로 다른 통합 도구로 존재 하지만, 규정 준수 점수를 통해 전반적인 준수 상태를 보다 쉽게 모니터링 하 고 단계를 수행 하 여이를 개선할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f60fa-128">While the two exist as distinct yet integrated tools, Compliance Score makes it easier to monitor your overall compliance posture and take steps to improve it.</span></span>
+
+<span data-ttu-id="f60fa-129">준수 점수가 준수 관리자와 동일한 백엔드를 공유 하므로 준수 관리자에 게 이미 있을 수 있는 모든 데이터는 준수 점수에 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="f60fa-129">Compliance Score shares the same backend with Compliance Manager, so any data you may already have in Compliance Manager will show in Compliance Score.</span></span>
+
+<span data-ttu-id="f60fa-130">공개 미리 보기 중 일부 기능은 규정 검사 관리 및 템플릿 만들기와 같은 준수 관리자 에게만 유지 됩니다.</span><span class="sxs-lookup"><span data-stu-id="f60fa-130">During public preview, some functionality remains solely in Compliance Manager, such as managing assessments and creating templates.</span></span> <span data-ttu-id="f60fa-131">준수 점수의 모든 준수 관리 활동을 시작 하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="f60fa-131">We recommend beginning all of your compliance management activities in Compliance Score.</span></span> <span data-ttu-id="f60fa-132">준수 관리자가 처리 한 함수에 대 한 자세한 내용은 해당 도구에 대 한 안내가 제공 됩니다.</span><span class="sxs-lookup"><span data-stu-id="f60fa-132">When you come to functions handled by Compliance Manager, you will be guided to that tool.</span></span> <span data-ttu-id="f60fa-133">따라서이 설명서 중 일부는 준수 관리자 항목으로 안내 합니다.</span><span class="sxs-lookup"><span data-stu-id="f60fa-133">For that reason, some of this documentation directs you to Compliance Manager topics.</span></span>
+
+<span data-ttu-id="f60fa-134">준수 [점수 릴리스 정보](compliance-score-release-notes.md)에서 준수 점수와 준수 관리자 간의 관계에 대해 자세히 알아보세요.</span><span class="sxs-lookup"><span data-stu-id="f60fa-134">Learn more about the relationship between Compliance Score and Compliance Manager in the [Compliance Score release notes](compliance-score-release-notes.md).</span></span>
+
+## <a name="understanding-your-score"></a><span data-ttu-id="f60fa-135">점수 이해</span><span class="sxs-lookup"><span data-stu-id="f60fa-135">Understanding your score</span></span>
+
+<span data-ttu-id="f60fa-136">규정 준수 점수는 일반적인 업계 규정 및 표준을 포함 하는 컨트롤 집합인 Microsoft 365 데이터 보호 기준을 기반으로 하는 기본 점수를 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="f60fa-136">Compliance Score gives you an out-of-the-box score based on the Microsoft 365 data protection baseline, which is a set of controls that includes common industry regulations and standards.</span></span> <span data-ttu-id="f60fa-137">이 점수는 준수 상태를 평가 하는 데 적합 한 출발점 이지만 조직과 보다 관련성이 높은 평가를 추가한 후에는 준수 점수가 더 강력 합니다.</span><span class="sxs-lookup"><span data-stu-id="f60fa-137">While this score is a good starting point for assessing your compliance posture, Compliance Score becomes more powerful for you once you add assessments that are more relevant to your organization.</span></span>
+
+<span data-ttu-id="f60fa-138">예를 들어 조직이 금융 서비스 업계에 속하는 경우 FFIEC 평가를 추가할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f60fa-138">For example, if your organization belongs to the financial services industry, you may want to add the FFIEC assessment.</span></span> <span data-ttu-id="f60fa-139">조직이 의료 업계에 속하는 경우 HIPAA/HITECH 평가를 추가할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f60fa-139">If your organization belongs to the healthcare industry, you can add the HIPAA/HITECH assessment.</span></span> <span data-ttu-id="f60fa-140">[준수 관리자에서 평가를 추가](working-with-compliance-manager.md#assessments)하는 방법을 알아봅니다.</span><span class="sxs-lookup"><span data-stu-id="f60fa-140">Learn how to [add assessments in Compliance Manager](working-with-compliance-manager.md#assessments).</span></span>
+
+<span data-ttu-id="f60fa-141">[준수 점수가 계산 되 고 지속적으로 모니터링 되는 방식](compliance-score-methodology.md)에 대해 자세히 알아보세요.</span><span class="sxs-lookup"><span data-stu-id="f60fa-141">Learn more about [how your compliance score is calculated and continuously monitored](compliance-score-methodology.md).</span></span>
+
+
+## <a name="key-components-controls-assessments-templates-groups"></a><span data-ttu-id="f60fa-142">주요 구성 요소: 컨트롤, 평가, 템플릿, 그룹</span><span class="sxs-lookup"><span data-stu-id="f60fa-142">Key components: controls, assessments, templates, groups</span></span>
+
+<span data-ttu-id="f60fa-143">규정 준수 점수에서는 준수 작업을 관리 하는 데 도움이 되는 여러 구성 요소를 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="f60fa-143">Compliance Score uses several components to help you manage your compliance activities.</span></span> <span data-ttu-id="f60fa-144">규정 준수 점수를 사용 하 여 준수 작업을 할당, 테스트 및 모니터링 하는 경우 이러한 주요 구성 요소에 대 한 기본적인 이해가 도움이 됩니다.</span><span class="sxs-lookup"><span data-stu-id="f60fa-144">As you use Compliance Score to assign, test, and monitor compliance activities, it’s helpful to have a basic understanding of these key components.</span></span> <span data-ttu-id="f60fa-145">다음 다이어그램은 이러한 항목 간의 관계를 보여 줍니다.</span><span class="sxs-lookup"><span data-stu-id="f60fa-145">This diagram shows the relationships among them:</span></span>
+
+<span data-ttu-id="f60fa-146">![준수 관리자 버전 3의 관계](media/compliance-manager-relationships.png "규정 준수 점수 구성 요소")</span><span class="sxs-lookup"><span data-stu-id="f60fa-146">![Relationships in Compliance Manager Version 3](media/compliance-manager-relationships.png "Compliance Score components")</span></span>
+
+### <a name="controls"></a><span data-ttu-id="f60fa-147">컨트롤</span><span class="sxs-lookup"><span data-stu-id="f60fa-147">Controls</span></span>
+
+<span data-ttu-id="f60fa-148">제어는 규정, 표준 또는 내부 정책의 특정 요구 사항을 충족 하기 위해 시스템 구성, 조직 프로세스 및 사용자 책임을 평가 하 고 관리 하는 방법을 정의 합니다.</span><span class="sxs-lookup"><span data-stu-id="f60fa-148">A control defines how you assess and manage system configuration, organizational process, and people accountability to meet a specific requirement of a regulation, standard, or internal policy.</span></span>
+
+<span data-ttu-id="f60fa-149">규정 준수 점수에는 다음과 같은 두 가지 유형의 컨트롤이 추적 됩니다.</span><span class="sxs-lookup"><span data-stu-id="f60fa-149">Compliance Score tracks two types of controls:</span></span>
+
+1. <span data-ttu-id="f60fa-150">**Microsoft 관리 되는 컨트롤**: microsoft 클라우드 서비스에 대 한 컨트롤 (이러한 기능</span><span class="sxs-lookup"><span data-stu-id="f60fa-150">**Microsoft-managed controls**: these are controls for Microsoft cloud services, which Microsoft is responsible for implementing</span></span>
+2. <span data-ttu-id="f60fa-151">**고객 관리 컨트롤**: 조직에서 관리 하는 컨트롤로, 사용자가이를 구현 하는 데 책임이 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f60fa-151">**Customer-managed controls**: these are controls managed by your organization, which you are responsible for implementing</span></span>
+ 
+### <a name="assessments"></a><span data-ttu-id="f60fa-152">평가가</span><span class="sxs-lookup"><span data-stu-id="f60fa-152">Assessments</span></span>
+
+<span data-ttu-id="f60fa-153">평가는 조직의 점수 매기기 프로세스를 시작 하는 서식 파일을 평가 하는 것입니다.</span><span class="sxs-lookup"><span data-stu-id="f60fa-153">An assessment is an evaluation of a template that initiates the scoring process for your organization.</span></span> <span data-ttu-id="f60fa-154">평가는 표준, 규정 또는 법률 요구 사항을 충족 하는 데 필요한 작업을 그룹화 합니다.</span><span class="sxs-lookup"><span data-stu-id="f60fa-154">Assessments group the actions necessary to meet the requirements of a standard, regulation, or law.</span></span> <span data-ttu-id="f60fa-155">예를 들어 내 모든 작업을 완료 하면 Office 365 설정이 ISO 27001 요구 사항을 충족 하는 줄에 표시 된다는 평가가 있을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f60fa-155">For example, you may have an assessment that, when you complete all actions within it, brings your Office 365 settings in line with ISO 27001 requirements.</span></span>
+
+<span data-ttu-id="f60fa-156">기본적으로 규정 준수 점수는 조직에 Microsoft 365 데이터 보호 기준을 기반으로 하는 평가를 제공 하며, 데이터 보호 및 규정 준수 위험을 줄이는 데 권장 됩니다 ([자세한 정보](compliance-score-methodology.md#initial-score-based-on-microsoft-365-data-protection-baseline)).</span><span class="sxs-lookup"><span data-stu-id="f60fa-156">By default, Compliance Score provides your organization with an assessment based on the Microsoft 365 data protection baseline, a recommendation for reducing your data protection and compliance risks ([learn more](compliance-score-methodology.md#initial-score-based-on-microsoft-365-data-protection-baseline)).</span></span>
+
+<span data-ttu-id="f60fa-157">평가에는 다음과 같은 몇 가지 구성 요소가 포함 됩니다.</span><span class="sxs-lookup"><span data-stu-id="f60fa-157">Assessments include several components:</span></span>
+
+- <span data-ttu-id="f60fa-158">**범위 내 서비스**: 평가에 적용할 수 있는 특정 Microsoft 서비스 집합</span><span class="sxs-lookup"><span data-stu-id="f60fa-158">**In-scope services**: the specific set of Microsoft services applicable to the assessment</span></span>
+- <span data-ttu-id="f60fa-159">**Microsoft 관리 컨트롤**: microsoft에서 구현 하 고 테스트 하는 컨트롤</span><span class="sxs-lookup"><span data-stu-id="f60fa-159">**Microsoft-managed controls**: controls that Microsoft implemented and tested</span></span>
+- <span data-ttu-id="f60fa-160">**고객 관리 컨트롤**: 관리 하는 컨트롤</span><span class="sxs-lookup"><span data-stu-id="f60fa-160">**Customer-managed controls**: controls that you manage</span></span>
+- <span data-ttu-id="f60fa-161">**평가 점수**: 해당 평가 내에서 작업을 완료 하 여 얻은 점수 비율입니다.</span><span class="sxs-lookup"><span data-stu-id="f60fa-161">**Assessment score**: the percentage of the points achieved by completing actions within that assessment</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="f60fa-162">규정 준수 점수에는 평가 및 해당 평가가 전체 점수에 미치는 영향을 표시 합니다.</span><span class="sxs-lookup"><span data-stu-id="f60fa-162">Compliance Score displays your assessments and how they factor into your overall score.</span></span> <span data-ttu-id="f60fa-163">그러나 공개 미리 보기 동안에는 규정 준수 관리자에 게 평가를 관리 하도록 지시할 것입니다.</span><span class="sxs-lookup"><span data-stu-id="f60fa-163">However, during public preview you will be directed to Compliance Manager to manage your assessments.</span></span>
+
+<span data-ttu-id="f60fa-164">[준수 관리자에서 평가 작업](working-with-compliance-manager.md#assessments)을 수행 하기 위한 자세한 지침을 봅니다.</span><span class="sxs-lookup"><span data-stu-id="f60fa-164">View detailed instructions for [working with assessments in Compliance Manager](working-with-compliance-manager.md#assessments).</span></span>
+
+### <a name="templates"></a><span data-ttu-id="f60fa-165">템플릿</span><span class="sxs-lookup"><span data-stu-id="f60fa-165">Templates</span></span>
+
+<span data-ttu-id="f60fa-166">규정 준수 점수는 미리 구성 된 서식 파일을 평가에 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="f60fa-166">Compliance Score provides pre-configured templates for assessments.</span></span> <span data-ttu-id="f60fa-167">규정 준수 점수를 사용 하 여 사용자의 요구에 맞게 자체 평가를 위한 템플릿을 만들 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f60fa-167">Compliance Score also allows you to create templates for your own assessments to suit your needs.</span></span> <span data-ttu-id="f60fa-168">예를 들어 비즈니스 프로세스 컨트롤에 대 한 서식 파일을 만들거나 미리 구성 된 서식 파일 중 하나에 포함 되지 않는 지역별 데이터 보호 또는 규정 준수 표준을 위한 서식 파일을 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f60fa-168">For example, you can create a template for your business process control, or a template for a regional data protection or compliance standard that isn’t covered by one of the pre-configured templates.</span></span>  <span data-ttu-id="f60fa-169">템플릿을 직접 만들면 사용자 지정 평가를 만들어 준수 점수가 Microsoft 클라우드 평가 뿐 아니라 조직의 범위에 있는 다른 위험 평가에도 추적 되도록 할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f60fa-169">By creating your own templates, you can create custom assessments to ensure that Compliance Score tracks not only Microsoft cloud assessments, but also any other risk assessments in scope for your organization.</span></span>
+
+<span data-ttu-id="f60fa-170">기존 서식 파일을 복사 하거나 Excel 파일에서 컨트롤 정보를 가져와서 새 서식 파일을 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f60fa-170">You can create new templates by copying an existing template, or by importing controls information from an Excel file.</span></span> <span data-ttu-id="f60fa-171">[준수 관리자에서 서식 파일을 만드는](working-with-compliance-manager.md#templates)방법에 대 한 자세한 지침을 봅니다.</span><span class="sxs-lookup"><span data-stu-id="f60fa-171">View detailed instructions for [creating templates in Compliance Manager](working-with-compliance-manager.md#templates).</span></span>
+
+<span data-ttu-id="f60fa-172">규정 준수 점수를 위해 미리 구성 된 서식 파일은 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="f60fa-172">The pre-configured templates for Compliance Score are:</span></span>
+
+1. [<span data-ttu-id="f60fa-173">ISO 27001:2013</span><span class="sxs-lookup"><span data-stu-id="f60fa-173">ISO 27001: 2013</span></span>](https://go.microsoft.com/fwlink/?linkid=2109073)
+2. [<span data-ttu-id="f60fa-174">ISO 27018:2014</span><span class="sxs-lookup"><span data-stu-id="f60fa-174">ISO 27018: 2014</span></span>](https://go.microsoft.com/fwlink/?linkid=2109074)
+3. [<span data-ttu-id="f60fa-175">NIST 800-53 Rev. 4</span><span class="sxs-lookup"><span data-stu-id="f60fa-175">NIST 800-53 Rev. 4</span></span>](https://go.microsoft.com/fwlink/?linkid=2109075)
+4. [<span data-ttu-id="f60fa-176">NIST 800-171</span><span class="sxs-lookup"><span data-stu-id="f60fa-176">NIST 800-171</span></span>](https://go.microsoft.com/fwlink/?linkid=2108867)
+5. [<span data-ttu-id="f60fa-177">NIST Cybersecurity Framework (CSF)</span><span class="sxs-lookup"><span data-stu-id="f60fa-177">NIST Cybersecurity Framework (CSF)</span></span>](https://go.microsoft.com/fwlink/?linkid=2108868)
+6. [<span data-ttu-id="f60fa-178">CSA (cloud Security 제휴) 3.0.1 (CCM)</span><span class="sxs-lookup"><span data-stu-id="f60fa-178">Cloud Security Alliance (CSA) Cloud Controls Matrix (CCM) 3.0.1</span></span>](https://go.microsoft.com/fwlink/?linkid=2109076)
+8. [<span data-ttu-id="f60fa-179">연방 금융 기관 검사 Council (FFIEC) 정보 보안 소책자</span><span class="sxs-lookup"><span data-stu-id="f60fa-179">Federal Financial Institutions Examination Council (FFIEC) Information Security Booklet</span></span>](https://go.microsoft.com/fwlink/?linkid=2109077) 
+8. <span data-ttu-id="f60fa-180">[HIPAA](https://go.microsoft.com/fwlink/?linkid=2109078) / [HITECH](https://go.microsoft.com/fwlink/?linkid=2109079)</span><span class="sxs-lookup"><span data-stu-id="f60fa-180">[HIPAA](https://go.microsoft.com/fwlink/?linkid=2109078) / [HITECH](https://go.microsoft.com/fwlink/?linkid=2109079)</span></span>
+9. [<span data-ttu-id="f60fa-181">FedRAMP 보통</span><span class="sxs-lookup"><span data-stu-id="f60fa-181">FedRAMP Moderate</span></span>](https://go.microsoft.com/fwlink/?linkid=2108869)
+10. [<span data-ttu-id="f60fa-182">유럽 연합 GDPR</span><span class="sxs-lookup"><span data-stu-id="f60fa-182">European Union GDPR</span></span>](https://go.microsoft.com/fwlink/?linkid=2108870)
+11. [<span data-ttu-id="f60fa-183">캘리포니아 CCPA (소비자 개인 정보 취급 방침)-미리 보기</span><span class="sxs-lookup"><span data-stu-id="f60fa-183">California Consumer Privacy Act (CCPA)- Preview</span></span>](https://go.microsoft.com/fwlink/?linkid=2108871)
+12. [<span data-ttu-id="f60fa-184">Microsoft 365 데이터 보호 초기 계획</span><span class="sxs-lookup"><span data-stu-id="f60fa-184">Microsoft 365 Data Protection Baseline</span></span>](compliance-score-methodology.md#initial-score-based-on-microsoft-365-data-protection-baseline)
+
+> [!NOTE]
+> <span data-ttu-id="f60fa-185">공개 미리 보기 중에 규정 준수 관리자로 이동 하 여 템플릿을 만들고 관리 합니다.</span><span class="sxs-lookup"><span data-stu-id="f60fa-185">During public preview, go to Compliance Manager to create and manage your templates.</span></span>
+
+### <a name="groups"></a><span data-ttu-id="f60fa-186">그룹</span><span class="sxs-lookup"><span data-stu-id="f60fa-186">Groups</span></span>
+
+<span data-ttu-id="f60fa-187">그룹을 사용 하면 사용자에 게 논리적으로 평가를 구성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f60fa-187">Groups allow you to organize assessments in a way that is logical to you.</span></span> <span data-ttu-id="f60fa-188">예를 들어 평가를 연, 규정 준수 standard, 서비스, 조직 내의 팀 또는 기타 다른 방식으로 그룹화 할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f60fa-188">For example, you may choose to group assessments by year, compliance standard, service, teams within your organization, or some other way.</span></span> 
+
+<span data-ttu-id="f60fa-189">같은 그룹의 서로 다른 두 평가에서 고객 관리 작업을 공유 하는 경우 한 평가에서의 구현 세부 정보, 테스트 및 상태는 그룹의 다른 평가에 있는 동일한 작업과 자동으로 동기화 됩니다.</span><span class="sxs-lookup"><span data-stu-id="f60fa-189">When two different assessments in the same group share customer-managed actions, the completion of implementation details, testing, and status for the action in one assessment automatically synchronizes to the same action in any other assessment in the group.</span></span> <span data-ttu-id="f60fa-190">이렇게 하면 그룹 전체에 대해 할당 된 개선 작업을 통합 하 고 복제 작업을 줄일 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f60fa-190">This unifies the assigned improvement actions across the group and reduces duplicating work.</span></span>
+
+<span data-ttu-id="f60fa-191">[준수 관리자에서 그룹을 만드는](working-with-compliance-manager.md#groups)방법을 알아봅니다.</span><span class="sxs-lookup"><span data-stu-id="f60fa-191">Learn how to [create groups in Compliance Manager](working-with-compliance-manager.md#groups).</span></span>
+
+## <a name="next-step"></a><span data-ttu-id="f60fa-192">다음 단계</span><span class="sxs-lookup"><span data-stu-id="f60fa-192">Next step</span></span>
+
+<span data-ttu-id="f60fa-193">에 로그인 하 고, 사용 권한을 설정 하 고, [준수 점수 설정](compliance-score-setup.md)의 준수 점수 대시보드에 대해 알아보세요.</span><span class="sxs-lookup"><span data-stu-id="f60fa-193">Sign in, set up permissions, and learn about your Compliance Score dashboard in [Compliance Score setup](compliance-score-setup.md).</span></span>
