@@ -13,12 +13,12 @@ metadata:
   ms.author: robmazz
   ms.date: 09/20/2019
   localization_priority: Priority
-  ms.openlocfilehash: c502be734ec6fdc86a64968ecf1859587869cdf9
-  ms.sourcegitcommit: a77c4889c5b7d3b8f16e74917079300e8f222941
+  ms.openlocfilehash: b6c5cf658bcd10b4ec7f7ffafad2532efdeb7b58
+  ms.sourcegitcommit: 33242c260439de0d8db41247e9414913f24adc22
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 09/30/2019
-  ms.locfileid: "37329186"
+  ms.lasthandoff: 11/01/2019
+  ms.locfileid: "38690765"
 landingContent:
 - title: 정보 보호 관리
   linkLists:
@@ -60,8 +60,8 @@ landingContent:
       url: privileged-access-management-overview.md
     - text: Customer Lockbox
       url: customer-lockbox-requests.md
-    - text: 커뮤니케이션 관리
-      url: supervision-policies.md
+    - text: 커뮤니케이션 규정 준수
+      url: communication-compliance.md
     - text: 정보 장벽
       url: information-barriers.md
     - text: 고객 키
@@ -82,8 +82,8 @@ landingContent:
   linkLists:
   - linkListType: get-started
     links:
-    - text: 준수 관리자
-      url: compliance-manager-overview.md
+    - text: 준수 점수
+      url: compliance-score.md
     - text: GDPR 준수 작업 계획
       url: gdpr-action-plan.md
     - text: GDPR에 대 한 정보 보호
