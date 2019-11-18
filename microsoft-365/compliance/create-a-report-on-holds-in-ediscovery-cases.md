@@ -8,22 +8,24 @@ audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
-ms.collection: M365-security-compliance
+ms.collection:
+- M365-security-compliance
+- SPO_Content
 search.appverid: MOE150
 ms.assetid: cca08d26-6fbf-4b2c-b102-b226e4cd7381
 description: 이 문서의 스크립트를 사용 하 여 Office 365 또는 Microsoft 365의 준수 센터에서 eDiscovery 사례와 관련 된 모든 보류에 대 한 정보를 포함 하는 보고서를 생성 합니다.
-ms.openlocfilehash: 7118b62dcd42413309e33c45e80516c8822faeff
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: e07e628b21c9e8f7485f3012a8740823fe301fc2
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37087520"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38687173"
 ---
 # <a name="create-a-report-on-holds-in-ediscovery-cases-in-office-365"></a>Office 365의 eDiscovery 사례에 대 한 보고서를 작성 합니다.
   
 이 문서의 스크립트를 통해 eDiscovery 관리자 및 eDiscovery 관리자는 Office 365 또는 Microsoft 365의 준수 센터에 있는 eDiscovery 사례와 관련 된 모든 보존 정보를 포함 하는 보고서를 생성할 수 있습니다. 이 보고서에는 보류가 연결 된 사례 이름, 보류 중인 콘텐츠 위치, 쿼리 기반 인지 여부 등의 정보가 포함 됩니다. 보류 된 상태가 없는 경우가 있으면 스크립트는 보류가 없는 사례 목록이 포함 된 추가 보고서를 만듭니다.
 
-보고서에 포함 된 정보에 대 한 자세한 [내용은 추가 정보](#more-information) 섹션을 참조 하십시오. 
+보고서에 포함 된 정보에 대 한 자세한 [내용은 추가 정보](#more-information) 섹션을 참조 하십시오.
   
 ## <a name="before-you-begin"></a>시작하기 전에
 
@@ -39,7 +41,7 @@ ms.locfileid: "37087520"
   
 1. 파일 이름 접미사. p s 1을 사용 하 여 Windows PowerShell 스크립트 파일에 다음 텍스트를 저장 합니다. 예를 `ConnectSCC.ps1`들면입니다. 
     
-      ```
+      ```powershell
       # Get login credentials 
       $UserCredential = Get-Credential 
       $Session = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://ps.compliance.protection.outlook.com/powershell-liveid -Credential $UserCredential -Authentication Basic -AllowRedirection 
@@ -51,10 +53,10 @@ ms.locfileid: "37087520"
     
 3. 스크립트를 실행 합니다. 예를 들어:
 
-    ```
+    ```powershell
     .\ConnectSCC.ps1
     ```
-   
+
 4. 자격 증명을 묻는 메시지가 표시 되 면 전자 메일 주소와 암호를 입력 하 고 **확인**을 클릭 합니다. 
   
 ## <a name="step-2-run-the-script-to-report-on-holds-associated-with-ediscovery-cases"></a>2 단계: 스크립트를 실행 하 여 eDiscovery 사례와 연결 된 보류에 대해 보고
@@ -63,7 +65,7 @@ ms.locfileid: "37087520"
   
 1. 파일 이름 접미사. p s 1을 사용 하 여 Windows PowerShell 스크립트 파일에 다음 텍스트를 저장 합니다. 예: CaseHoldsReport. 
     
-  ```
+  ```powershell
 #script begin
 " " 
 write-host "***********************************************"
@@ -155,7 +157,7 @@ Write-host "Script complete! Report files saved to this folder: '$Path'"
     
 3. 스크립트를 실행 합니다. 예를 들어:
 
-    ```
+    ```powershell
     .\CaseHoldsReport.ps1
     ```
 

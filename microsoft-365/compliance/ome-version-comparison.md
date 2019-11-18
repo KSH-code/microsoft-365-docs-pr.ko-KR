@@ -14,12 +14,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Office 365 메시지 암호화 버전 간의 차이점을 설명할 수 있습니다.
-ms.openlocfilehash: 29c30c1630e6fbf24e9037837c162b4ac67950e2
-ms.sourcegitcommit: 27a7a373ca77375fdab0690a899135fad16c3cf5
+ms.openlocfilehash: 1d4016e3fa0576a52ef9627539ecd96416a53fae
+ms.sourcegitcommit: fa9d24aae563727fc8d67c4054c8d307a1a540ad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37435522"
+ms.lasthandoff: 10/17/2019
+ms.locfileid: "38686972"
 ---
 # <a name="compare-versions-of-ome"></a>OME 버전 비교
 
@@ -72,11 +72,9 @@ Office 365 고급 메시지 암호화는 GCC (높은)에서 지원 되지 않습
 
 ## <a name="unique-characteristics-of-office-365-message-encryption-in-a-gcc-high-deployment"></a>GCC High 배포의 Office 365 메시지 암호화에 대 한 고유한 특성
 
-Office 365 고급 메시지 암호화는 GCC 상위 환경에서는 사용할 수 없습니다. GCC High 환경에서는 여전히 단일 브랜드 서식 파일을 사용할 수 있습니다.
+Office 365 고급 메시지 암호화는 GCC 상위 환경에서는 사용할 수 없습니다. GCC High 환경에서는 여전히 단일 브랜드 서식 파일을 사용 하 고 사용자 지정할 수 있습니다.
 
 또한 GCC High 환경에서 Office 365 메시지 암호화를 사용 하려는 경우에는 받는 사람 환경에 대 한 몇 가지 고유한 특성이 있습니다.
-
-Office 365 고급 메시지 암호화는 GCC (높은)에서 지원 되지 않습니다.
 
 ### <a name="encrypted-email-from-gcc-high-to-gcc-high-recipients"></a>GCC High에서 GCC 높은 받는 사람에 게 암호화 된 전자 메일
 

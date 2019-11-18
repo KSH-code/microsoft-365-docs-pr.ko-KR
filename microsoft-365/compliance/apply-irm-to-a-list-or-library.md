@@ -16,13 +16,14 @@ search.appverid:
 ms.assetid: 3bdb5c4e-94fc-4741-b02f-4e7cc3c54aa1
 ms.collection:
 - M365-security-compliance
+- SPO_Content
 description: IRM (정보 권한 관리)을 사용 하 여 목록 또는 라이브러리에서 다운로드 한 파일을 제어 하 고 보호 하는 데 도움을 받을 수 있습니다.
-ms.openlocfilehash: 3c350a3648b77992dd8e86ee47498efc327b2af8
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 82cbbf7fdea4a534c2bc73bf0f817d6fc3a249de
+ms.sourcegitcommit: e2ed110c4c3a8434f9fcc9d610069bc77bc39220
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37087737"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "38687160"
 ---
 # <a name="apply-information-rights-management-irm-to-a-list-or-library"></a>목록 또는 라이브러리에 IRM (정보 권한 관리) 적용
 
@@ -131,7 +132,7 @@ IRM 보호는 목록 또는 라이브러리 수준의 파일에 적용 됩니다
   
 |**사용 권한**|**IRM 사용 권한**|
 |:-----|:-----|
-|사용 권한 관리, 웹 사이트 관리  <br/> |**모든** 권한 (클라이언트 프로그램에서 정의 됨):이 권한을 사용 하면 일반적으로 권한 관리 콘텐츠의 사용 권한을 읽고, 편집 하 고, 복사 하 고, 저장 하 고, 수정할 수 있습니다.  <br/> |
+|사용 권한 관리, 웹 사이트 관리  <br/> |**모든** 권한 (클라이언트 프로그램에서 정의):이 권한을 사용 하면 일반적으로 권한을 관리 되는 콘텐츠의 사용 권한을 읽고, 편집 하 고, 복사 하 고, 저장 하 고, 수정할 수 있습니다.  <br/> |
 |항목 편집, 목록 관리, 페이지 추가 및 사용자 지정  <br/> |**편집**, **복사**및 **저장**: 목록 또는 라이브러리에 대 한 정보 권한 관리 설정 페이지에서 사용자 **가 문서 인쇄 허용** 확인란이 선택 되어 있는 경우에만 파일을 인쇄할 수 있습니다.  <br/> |
 |항목 보기  <br/> |**읽기**: 사용자가 문서를 읽을 수 있지만 콘텐츠를 복사 하거나 수정할 수 없습니다. 목록 또는 라이브러리에 대 한 정보 권한 관리 설정 페이지에서 사용자 **가 문서 인쇄 허용** 확인란이 선택 되어 있는 경우에만 인쇄할 수 있습니다.  <br/> |
 |기타  <br/> |다른 사용 권한은 IRM 사용 권한에 직접 대응 되지 않습니다.  <br/> |

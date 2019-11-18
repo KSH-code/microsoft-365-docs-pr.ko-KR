@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: f5caf497-5e8d-4b7a-bfff-d02942f38150
 description: 더 이상 Office 365 비활성 사서함의 내용을 보존 하지 않아도 되는 경우에는 보류를 제거 하 여 비활성 사서함을 영구적으로 삭제할 수 있습니다. 보류를 제거한 후 비활성 사서함은 삭제 되도록 표시 되 고 처리 된 후 영구적으로 삭제 됩니다.
-ms.openlocfilehash: b6cea7284ccb930ef10ec96c082291acb9f66f2f
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: c4cf9385d5b642f410c210c6372e4ff469838377
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37070660"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38687228"
 ---
 # <a name="delete-an-inactive-mailbox-in-office-365"></a>Office 365에서 비활성 사서함 삭제
 
@@ -46,13 +46,13 @@ ms.locfileid: "37070660"
   
 다음 명령을 실행 하 여 조직의 모든 비활성 사서함에 대 한 보류 정보를 표시 합니다.
   
-```
+```powershell
 Get-Mailbox -InactiveMailboxOnly | FL DisplayName,Name,IsInactiveMailbox,LitigationHoldEnabled,InPlaceHolds
 ```
 
 **LitigationHoldEnabled** 속성의 **True** 값은 비활성 사서함이 소송 보존 상태를 나타냅니다. 비활성 사서함에 원본 위치 유지를 적용 하면 보류에 대 한 GUID가 **InPlaceHolds** 속성의 값으로 표시 됩니다. 예를 들어 두 비활성 사서함에 대 한 다음 결과는 소송 보존을 Ann Beebe에 배치 하 고 두 개의 원본 위치 유지가 Pilar Pinilla에 배치 된다는 것을 보여 줍니다. 
   
-```
+```text
 DisplayName           : Ann Beebe
 Name                  : annb
 IsInactiveMailbox     : True
@@ -77,7 +77,7 @@ InPlaceHolds          : {c0ba3ce811b6432a8751430937152491, ba6f4ba25b62490aaaa25
 
 앞에서 설명한 것 처럼, Windows PowerShell을 사용 하 여 비활성 사서함에서 소송 보존을 제거 해야 합니다. EAC는 사용할 수 없습니다. 다음 명령을 실행 하 여 소송 보존을 제거 합니다.
   
-```
+```powershell
 Set-Mailbox -InactiveMailbox -Identity <identity of inactive mailbox> -LitigationHoldEnabled $false
 ```
 
@@ -99,9 +99,9 @@ Set-Mailbox -InactiveMailbox -Identity <identity of inactive mailbox> -Litigatio
 
 1. 삭제할 원본 위치 유지의 이름을 알고 있는 경우 다음 단계를 진행할 수 있습니다. 그렇지 않으면 다음 명령을 실행 하 여 영구적으로 삭제 하려는 비활성 사서함에 저장 된 원본 위치 유지의 이름을 가져옵니다. [1 단계: 비활성 사서함에서 보류 확인](#step-1-identify-the-holds-on-an-inactive-mailbox)에서 얻은 원본 위치 유지 GUID를 사용 합니다.
     
-```
-  Get-MailboxSearch -InPlaceHoldIdentity <In-Place Hold GUID> | FL Name
-```
+   ```powershell
+   Get-MailboxSearch -InPlaceHoldIdentity <In-Place Hold GUID> | FL Name
+   ```
 
 2. EAC에서 **규정 준수 관리** \> 원본 ** &amp; 위치 eDiscovery 유지**로 이동 합니다.
     
@@ -117,29 +117,29 @@ Set-Mailbox -InactiveMailbox -Identity <identity of inactive mailbox> -Litigatio
 
 1. 삭제할 원본 위치 유지의 속성을 포함 하는 변수를 만듭니다. [1 단계: 비활성 사서함에서 보류 확인](#step-1-identify-the-holds-on-an-inactive-mailbox)에서 얻은 원본 위치 유지 GUID를 사용 합니다.
     
-```
-  $InPlaceHold = Get-MailboxSearch -InPlaceHoldIdentity <In-Place Hold GUID>
-```
+   ```powershell
+   $InPlaceHold = Get-MailboxSearch -InPlaceHoldIdentity <In-Place Hold GUID>
+   ```
 
 2. 원본 위치 유지에 대 한 보류를 사용 하지 않도록 설정 합니다.
     
-```
-  Set-MailboxSearch $InPlaceHold.Name -InPlaceHoldEnabled $false
-```
+   ```powershell
+   Set-MailboxSearch $InPlaceHold.Name -InPlaceHoldEnabled $false
+   ```
 
 3. 원본 위치 유지를 삭제 합니다.
     
-```
-  Remove-MailboxSearch $InPlaceHold.Name
-```
+   ```powershell
+   Remove-MailboxSearch $InPlaceHold.Name
+   ```
 
 #### <a name="use-the-eac-to-remove-an-inactive-mailbox-from-an-in-place-hold"></a>EAC를 사용 하 여 원본 위치 유지에서 비활성 사서함 제거
 
 1. 비활성 사서함에 배치 된 원본 위치 유지의 이름을 알고 있는 경우 다음 단계를 진행할 수 있습니다. 그렇지 않으면 다음 명령을 실행 하 여 사서함에 배치 된 원본 위치 유지의 이름을 가져옵니다. [1 단계: 비활성 사서함에서 보류 확인](#step-1-identify-the-holds-on-an-inactive-mailbox)에서 얻은 원본 위치 유지 GUID를 사용 합니다.
     
-```
-  Get-MailboxSearch -InPlaceHoldIdentity <In-Place Hold GUID> | FL Name
-```
+   ```powershell
+   Get-MailboxSearch -InPlaceHoldIdentity <In-Place Hold GUID> | FL Name
+   ```
 
 2. EAC에서 **규정 준수 관리** \> 원본 ** &amp; 위치 eDiscovery 유지**로 이동 합니다.
     
@@ -159,47 +159,47 @@ Set-Mailbox -InactiveMailbox -Identity <identity of inactive mailbox> -Litigatio
   
 1. 비활성 사서함에 배치 된 원본 위치 유지의 속성을 포함 하는 변수를 만듭니다. [1 단계: 비활성 사서함에서 보류 확인](#step-1-identify-the-holds-on-an-inactive-mailbox)에서 얻은 원본 위치 유지 GUID를 사용 합니다.
     
-```
-  $InPlaceHold = Get-MailboxSearch -InPlaceHoldIdentity <In-Place Hold GUID>
-```
+    ```powershell
+    $InPlaceHold = Get-MailboxSearch -InPlaceHoldIdentity <In-Place Hold GUID>
+    ```
 
 2. 비활성 사서함이 현재 위치 유지에 대 한 원본 사서함으로 나열 되어 있는지 확인 합니다. 
     
-```
-  $InPlaceHold.Sources
-```
+   ```powershell
+   $InPlaceHold.Sources
+   ```
 
    **참고:** 원본 위치 유지의 *Sources* 속성은 소스 사서함을 해당 *LegacyExchangeDN* 속성으로 식별 합니다. 이 속성은 비활성 사서함을 고유 하 게 식별 하므로 원본 위치 유지의 *Sources* 속성을 사용 하면 잘못 된 사서함을 제거할 수 없습니다. 이는 두 사서함의 별칭이 나 SMTP 주소가 같을 때 발생 하는 문제를 방지 하는 데도 도움이 됩니다. 
    
 3. 변수의 원본 사서함 목록에서 비활성 사서함을 제거 합니다. 이전 단계에서 명령에 의해 반환 되는 비활성 사서함의 **LegacyExchangeDN** 을 사용 해야 합니다. 
     
-```
-  $InPlaceHold.Sources.Remove("<LegacyExchangeDN of the inactive mailbox>")
-```
+    ```powershell
+    $InPlaceHold.Sources.Remove("<LegacyExchangeDN of the inactive mailbox>")
+    ```
 
-    For example, the following command removes the inactive mailbox for Pilar Pinilla.
+    예를 들어 다음 명령은 Pilar Pinilla의 비활성 사서함을 제거 합니다.
     
-  ```
-  $InPlaceHold.Sources.Remove("/o=contoso/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/cn=9c8dfff651ec4908950f5df60cbbda06-pilarp")
-  ```
+    ```powershell
+    $InPlaceHold.Sources.Remove("/o=contoso/ou=Exchange Administrative Group (FYDIBOHF23SPDLT)/cn=Recipients/ cn=9c8dfff651ec4908950f5df60cbbda06-pilarp")
+    ```
 
 4. 비활성 사서함이 변수의 원본 사서함 목록에서 제거 되었는지 확인 합니다.
     
-```
-  $InPlaceHold.Sources
-```
+   ```powershell
+   $InPlaceHold.Sources
+   ```
 
 5. 비활성 사서함이 포함 되지 않은 업데이트 된 원본 사서함 목록을 사용 하 여 현재 위치 유지를 수정 합니다.
     
-```
-  Set-MailboxSearch $InPlaceHold.Name -SourceMailboxes $InPlaceHold.Sources
-```
+   ```powershell
+   Set-MailboxSearch $InPlaceHold.Name -SourceMailboxes $InPlaceHold.Sources
+   ```
 
 6. 현재 위치 유지를 위해 비활성 사서함이 원본 사서함 목록에서 제거 되었는지 확인 합니다.
     
-```
-  Get-MailboxSearch $InPlaceHold.Name | FL Sources
-```
+   ```powershell
+   Get-MailboxSearch $InPlaceHold.Name | FL Sources
+   ```
 
 ## <a name="more-information"></a>추가 정보
 
@@ -211,9 +211,9 @@ Set-Mailbox -InactiveMailbox -Identity <identity of inactive mailbox> -Litigatio
     
 - **일시 삭제 된 사서함 보존 기간은 비활성 사서함에 어떤 영향을 줍니까?** 비활성 사서함의 일시 삭제 된 날짜가 보존을 제거한 날짜 보다 30 일 보다 많은 경우에는 사서함이 영구적으로 삭제 되도록 표시 됩니다. 그러나 비활성 사서함의 지난 30 일 이내에 일시 삭제 된 날짜가 있고 보존을 제거 하면 일시 삭제 된 사서함 보존 기간이 만료 될 때까지 사서함을 복구할 수 있습니다. 자세한 내용은 [Exchange Online에서 사용자 사서함 삭제 또는 복원을](https://go.microsoft.com/fwlink/?linkid=856835)참조 하십시오. 일시 삭제 된 사서함 보존 기간이 만료 되 면 비활성 사서함을 복구 하기 위한 절차를 따릅니다. 자세한 내용은 [Office 365에서 비활성 사서함 복구](recover-an-inactive-mailbox.md)를 참조 하십시오.
     
-- **보류를 제거한 후 비활성 사서함에 대 한 정보를 표시 하는 방법은 무엇 인가요?** 보류를 제거 하 고 비활성 사서함이 일시 삭제 된 사서함으로 다시 되돌아간 후에는 **사서함** cmdlet과 함께 *Inactivemailboxonly* 매개 변수를 사용 하 여 반환 되지 않습니다. 그러나 **undo-softdeletedmailbox** 명령을 사용 하 여 사서함에 대 한 정보를 표시할 수 있습니다. 예를 들면 다음과 같습니다. 
+- **보류를 제거한 후 비활성 사서함에 대 한 정보를 표시 하는 방법은 무엇 인가요?** 보류를 제거 하 고 비활성 사서함이 일시 삭제 된 사서함으로 다시 되돌아간 후에는 **사서함** cmdlet과 함께 *Inactivemailboxonly* 매개 변수를 사용 하 여 반환 되지 않습니다. 그러나 **undo-softdeletedmailbox** 명령을 사용 하 여 사서함에 대 한 정보를 표시할 수 있습니다. 예: 
     
-```
+  ```text
   Get-Mailbox -SoftDeletedMailbox -Identity pilarp | FL Name,Identity,LitigationHoldEnabled,In
   Placeholds,WhenSoftDeleted,IsInactiveMailbox
   Name                   : pilarp
@@ -222,7 +222,7 @@ Set-Mailbox -InactiveMailbox -Identity <identity of inactive mailbox> -Litigatio
   InPlaceHolds           : {}
   WhenSoftDeleted        : 10/30/2014 1:19:04 AM
   IsInactiveMailbox      : False
-```
-  
-위의 예제에서, 다음 예제에서는 *일시 삭제 된* 날짜를 식별 하며이 예에서는 10 월 30 일을 2014 합니다. 이 일시 삭제 된 사서함이 보존을 제거한 이전에 비활성화 된 사서함 인 경우에는 소송 *소프트 deleted* 속성 값 다음에 30 일이 영구적으로 삭제 됩니다. 이 경우 사서함은 11 월 30 2014 일 이후에 영구적으로 삭제 됩니다.
+  ```
+
+  위의 예제에서, 다음 예제에서는 *일시 삭제 된* 날짜를 식별 하며이 예에서는 10 월 30 일을 2014 합니다. 이 일시 삭제 된 사서함이 보존을 제거한 이전에 비활성화 된 사서함 인 경우에는 소송 *소프트 deleted* 속성 값 다음에 30 일이 영구적으로 삭제 됩니다. 이 경우 사서함은 11 월 30 2014 일 이후에 영구적으로 삭제 됩니다.
 

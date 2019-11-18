@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: a85e1c87-a48e-4715-bfa9-d5275cde67b0
 description: '관리자: 해당 사서함이 법적 보존 상태로 설정 된 경우에도 Exchange Online 사서함에 대 한 사용자의 복구 가능한 항목 폴더에서 항목을 삭제 합니다. 이 방법은 실수로 Office 365에 분산 된 데이터를 삭제 하는 효율적인 방법입니다.'
-ms.openlocfilehash: 9da469af900c2610762338029aa80d31c7f10363
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 1954ac4db8b978b0b1c3cdc8cee080cc0f0e6c22
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37070737"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38687223"
 ---
 # <a name="delete-items-in-the-recoverable-items-folder-of-cloud-based-mailboxes-on-hold---admin-help"></a>보류에서 클라우드 기반 사서함의 복구 가능한 항목 폴더에 있는 항목 삭제-관리자 도움말
 
@@ -71,7 +71,7 @@ Exchange Online 사서함에 대 한 복구 가능한 항목 폴더는 실수로
     
 2. 다음 명령을 실행 하 여 단일 항목 복구 및 삭제 된 항목 보존 기간에 대 한 정보를 가져옵니다.
 
-    ```
+    ```powershell
     Get-Mailbox <username> | FL SingleItemRecoveryEnabled,RetainDeletedItemsFor
     ```
 
@@ -79,7 +79,7 @@ Exchange Online 사서함에 대 한 복구 가능한 항목 폴더는 실수로
     
 3. 다음 명령을 실행 하 여 사서함에 대 한 사서함 액세스 설정을 가져옵니다. 
     
-    ```
+    ```powershell
     Get-CASMailbox <username> | FL EwsEnabled,ActiveSyncEnabled,MAPIEnabled,OWAEnabled,ImapEnabled,PopEnabled
     ```
 
@@ -87,7 +87,7 @@ Exchange Online 사서함에 대 한 복구 가능한 항목 폴더는 실수로
     
 4. 다음 명령을 실행 하 여 사서함에 적용 된 보류 및 Office 365 보존 정책에 대 한 정보를 가져옵니다.
     
-    ```
+    ```powershell
     Get-Mailbox <username> | FL LitigationHoldEnabled,InPlaceHolds
     ```
 
@@ -97,9 +97,10 @@ Exchange Online 사서함에 대 한 복구 가능한 항목 폴더는 실수로
   
 5. 다음 명령을 실행 하 여 조직 전체 Office 365 보존 정책에 대 한 정보를 가져옵니다. 
 
-    ```
+    ```powershell
     Get-OrganizationConfig | FL InPlaceHolds
     ```
+   
    조직에서 조직 차원의 Office 365 보존 정책을 사용 하는 경우에는 3 단계에서 이러한 정책 으로부터 사서함을 제외 해야 합니다.
 
    > [!TIP]
@@ -107,7 +108,7 @@ Exchange Online 사서함에 대 한 복구 가능한 항목 폴더는 실수로
   
 6. 다음 명령을 실행 하 여 사용자의 기본 사서함에 있는 복구할 수 있는 항목 폴더에서 폴더 및 하위 폴더의 현재 크기와 총 항목 수를 가져옵니다. 
 
-    ```
+    ```powershell
     Get-MailboxFolderStatistics <username> -FolderScope RecoverableItems | FL Name,FolderAndSubfolderSize,ItemsInFolderAndSubfolders
     ```
 
@@ -138,19 +139,19 @@ Exchange Online PowerShell에서 다음 단계를 수행 합니다.
     ```   
     Set-CASMailbox <username> -EwsEnabled $false -ActiveSyncEnabled $false -MAPIEnabled $false -OWAEnabled $false -ImapEnabled $false -PopEnabled $false
     ```
-   
+
    > [!NOTE]
     > 사서함에 대 한 모든 클라이언트 액세스 방법을 사용 하지 않도록 설정 하는 데 최대 60 분이 걸릴 수 있습니다. 이러한 access 메서드를 사용 하지 않도록 설정 해도 현재 로그인 되어 있는 사서함 소유자와의 연결이 끊어집니다. 소유자가 로그인 되어 있지 않으면 이러한 액세스 방법을 사용 하지 않도록 설정한 후에 사서함에 액세스할 수 없게 됩니다. 
   
 2. 다음 명령을 실행 하 여 삭제 된 항목 보존 기간을 최대 30 일로 늘립니다. 이 경우 현재 설정이 30 일 미만인 것으로 가정 합니다. 
 
-    ```
+    ```powershell
     Set-Mailbox <username> -RetainDeletedItemsFor 30
     ```
 
 3. 다음 명령을 실행 하 여 단일 항목 복구를 사용 하지 않도록 설정 합니다.
     
-    ```
+    ```powershell
     Set-Mailbox <username> -SingleItemRecoveryEnabled $false
     ```
 
@@ -159,7 +160,7 @@ Exchange Online PowerShell에서 다음 단계를 수행 합니다.
   
 4. 다음 명령을 실행 하 여 관리 되는 폴더 도우미가 사서함을 처리 하지 못하게 합니다. 앞에서 설명한 것 처럼 보존 잠금이 있는 Office 365 보존 정책이 사서함에 적용 되지 않는 경우에만 관리 되는 폴더 도우미를 사용 하지 않도록 설정할 수 있습니다. 
 
-    ```
+    ```powershell
     Set-Mailbox <username> -ElcProcessingDisabled $true
     ```
 
@@ -174,7 +175,7 @@ Exchange Online PowerShell에서 다음 단계를 수행 합니다.
   
 Exchange Online PowerShell에서 다음 명령을 실행 하 여 사서함에서 소송 보존을 제거 합니다.
 
-```
+```powershell
 Set-Mailbox <username> -LitigationHoldEnabled $false
 ```
 
@@ -186,31 +187,31 @@ Set-Mailbox <username> -LitigationHoldEnabled $false
   
 Exchange Online PowerShell에서 다음 명령을 실행 하 여 사서함에 배치 된 원본 위치 유지를 식별 합니다. 1 단계에서 확인 한 원본 위치 유지에 대해 GUID를 사용 합니다. 
 
-```
+```powershell
 Get-MailboxSearch -InPlaceHoldIdentity <hold GUID> | FL Name
 ```
-   
+
 원본 위치 유지를 확인 한 후 EAC (Exchange 관리 센터) 또는 Exchange Online PowerShell을 사용 하 여 보류에서 사서함을 제거할 수 있습니다. 자세한 내용은 [만들기 또는 In-place Hold 제거](https://go.microsoft.com/fwlink/?linkid=852668) 항목을 참조하십시오.
   
  ### <a name="office-365-retention-policies-applied-to-specific-mailboxes"></a>특정 사서함에 적용 되는 Office 365 보존 정책
   
 [Security & 준수 센터 PowerShell](https://go.microsoft.com/fwlink/?linkid=627084) 에서 다음 명령을 실행 하 여 사서함에 적용 되는 Office 365 보존 정책을 식별 합니다. 1 단계에서 확인 한 보존 정책 `mbx` 에 `skp` 대해 또는 접두사를 제외 하 고 GUID를 사용 합니다. 
 
-```
+```powershell
 Get-RetentionCompliancePolicy <retention policy GUID without prefix> | FL Name
 ```
-   
-보존 정책을 식별 한 후에는 보안 & 준수 센터의 **날짜 관리** \> **보존** 페이지로 이동 하 여 이전 단계에서 식별 한 보존 정책을 편집한 다음, 해당 사서함을 제거 합니다. 보존 정책에 포함 된 받는 사람입니다. 
+
+보존 정책을 식별 한 후에는 보안 & 준수 센터의 **날짜 관리** \> **보존** 페이지로 이동 하 고, 이전 단계에서 식별 한 보존 정책을 편집 하 고, 보존 정책에 포함 된 받는 사람 목록에서 해당 사서함을 제거 합니다. 
   
  ### <a name="organization-wide-office-365-retention-policies"></a>조직 전체 Office 365 보존 정책
   
 조직 전체 및 Exchange 전체 Office 365 보존 정책은 조직의 모든 사서함에 적용 됩니다. 이러한 사용자는 조직 수준 (사서함 수준이 아님)에서 적용 되며 1 단계에서 **set-organizationconfig** cmdlet을 실행 하면 반환 됩니다. [보안 & 준수 센터 PowerShell](https://go.microsoft.com/fwlink/?linkid=627084) 에서 다음 명령을 실행 하 여 조직 전반의 Office 365 보존 정책을 식별 합니다. 1 단계에서 확인 한 조직 차원의 `mbx` 보존 정책에 대해 접두사를 제외한 GUID를 사용 합니다. 
 
-```
+```powershell
 Get-RetentionCompliancePolicy <retention policy GUID without prefix> | FL Name
 ```
 
-조직 전반의 Office 365 보존 정책을 파악 한 후에는 보안 & 준수 센터의 **날짜 관리** \> 방식 **보존** 페이지로 이동 하 고, 이전 단계를 진행 하 고 제외 된 받는 사람 목록에 사서함을 추가 합니다. 이렇게 하면 보존 정책에서 사용자의 사서함이 제거 됩니다. 
+조직 전반의 Office 365 보존 정책을 파악 한 후에는 보안 & 준수 센터의 **날짜 관리** \> **보존** 페이지로 이동 하 고, 이전 단계에서 식별 한 각 조직 차원의 보존 정책을 편집 하 고, 제외 된 받는 사람 목록에 사서함을 추가 합니다. 이렇게 하면 보존 정책에서 사용자의 사서함이 제거 됩니다. 
 
 ### <a name="office-365-retention-labels"></a>Office 365 보존 레이블
 
@@ -218,7 +219,7 @@ Get-RetentionCompliancePolicy <retention policy GUID without prefix> | FL Name
 
 *ComplianceTagHoldApplied* 속성의 값을 확인 하려면 Exchange Online PowerShell에서 다음 명령을 실행 합니다.
 
-```
+```powershell
 Get-Mailbox <username> |FL ComplianceTagHoldApplied
 ```
 
@@ -230,15 +231,15 @@ Get-Mailbox <username> |FL ComplianceTagHoldApplied
   
 [Security & 준수 센터 PowerShell](https://go.microsoft.com/fwlink/?linkid=627084) 에서 다음 명령을 실행 하 여 사서함에 적용 된 eDiscovery 사례와 관련 된 보류를 식별 합니다. 1 단계에서 확인 한 eDiscovery 보존 `UniH` 에 대 한 GUID (접두사를 포함 하지 않음)를 사용 합니다. 두 번째 명령은 보류가 연결 된 eDiscovery 사례의 이름을 표시 합니다. 세 번째 명령은 보류의 이름을 표시 합니다. 
   
-```
+```powershell
 $CaseHold = Get-CaseHoldPolicy <hold GUID without prefix>
 ```
 
-```
+```powershell
 Get-ComplianceCase $CaseHold.CaseId | FL Name
 ```
 
-```
+```powershell
 $CaseHold.Name
 ```
 
@@ -250,7 +251,7 @@ Ediscovery 사례 및 보류의 이름을 식별 한 후에는 준수 센터의 
 
 5 단계에서 항목을 삭제 하려면 먼저 사서함에서 지연 유지를 제거 해야 합니다. 먼저 Exchange Online PowerShell에서 다음 명령을 실행 하 여 지연 보류가 사서함에 적용 되는지 확인 합니다.
 
-```
+```powershell
 Get-Mailbox <username> | FL DelayHoldApplied
 ```
 
@@ -258,9 +259,10 @@ Get-Mailbox <username> | FL DelayHoldApplied
 
 *DelayHoldApplied* 속성 값이 **True**로 설정 된 경우 다음 명령을 실행 하 여 지연 보존을 제거 합니다.
 
-```
+```powershell
 Set-Mailbox <username> -RemoveDelayHoldApplied
 ```
+
 *RemoveDelayHoldApplied* 매개 변수를 사용 하려면 Exchange Online의 법적 보존 역할을 할당 받아야 합니다.
 
 ## <a name="step-5-delete-items-in-the-recoverable-items-folder"></a>5 단계: 복구 가능한 항목 폴더에서 항목 삭제
@@ -284,7 +286,7 @@ Set-Mailbox <username> -RemoveDelayHoldApplied
 
 이 예에서는 사용자의 복구할 수 있는 항목 폴더에 있는 모든 항목을 조직의 검색 사서함에 있는 폴더로 복사 합니다. 이렇게 하면 항목을 영구적으로 삭제 하기 전에 검토할 수 있습니다.
 
-```
+```powershell
 Search-Mailbox <username> -SearchQuery size>0 -SearchDumpsterOnly -TargetMailbox "Discovery Search Mailbox" -TargetFolder "<foldername>"
 ```
 
@@ -294,15 +296,15 @@ Search-Mailbox <username> -SearchQuery size>0 -SearchDumpsterOnly -TargetMailbox
 
 이 예에서는 복구 가능한 항목 폴더의 모든 항목을 조직의 검색 사서함에 있는 폴더로 복사한 다음 사용자의 복구 가능한 항목 폴더에서 해당 항목을 삭제 합니다.
 
-```
+```powershell
 Search-Mailbox <username> -SearchQuery size>0 -SearchDumpsterOnly -TargetMailbox "Discovery Search Mailbox" -TargetFolder "<foldername>" -DeleteContent
 ```
- 
+
 ### <a name="example-3"></a>예 3
 
 이 예에서는 사용자의 복구 가능한 항목 폴더에서 대상 사서함으로 복사 하지 않고 모든 항목을 삭제 합니다. 
 
-```
+```powershell
 Search-Mailbox <username> -SearchQuery size>0 -SearchDumpsterOnly -DeleteContent
 ```
 
@@ -312,41 +314,41 @@ Search-Mailbox <username> -SearchQuery size>0 -SearchDumpsterOnly -DeleteContent
   
 다음은 제목 필드에 특정 구를 포함 하는 메시지를 반환 하는 예제입니다.
   
-```
+```powershell
 SearchQuery 'subject:"MAIL_BOX VALIDATION/UPGRADE!!!"' 
 ```
 
 이 예에서는 지정 된 날짜 범위 내에 전송 된 메시지를 반환 합니다.
   
-```
+```powershell
 SearchQuery 'sent>=06/01/2016 AND sent<=09/01/2016'
 ```
- 
+
 이 예제에서는 지정 된 사람에 게 전송 된 메시지를 반환 합니다.
 
-```
+```powershell
 SearchQuery 'to:garthf@alpinehouse.com'
 ```
-   
+
 ### <a name="verify-that-items-were-deleted"></a>항목이 삭제 되었는지 확인
 
 사서함의 복구할 수 있는 항목 폴더에서 항목이 삭제 되었는지 확인 하려면 Exchange Online PowerShell에서 **get-mailboxfolderstatistics** cmdlet을 사용 하 여 복구 가능한 항목 폴더의 항목 크기 및 수를 확인 합니다. 이러한 통계를 1 단계에서 수집한 것과 비교할 수 있습니다. 
   
 에서 다음 명령을 실행 하 여 사용자의 기본 사서함에 있는 복구할 수 있는 항목 폴더에서 폴더 및 하위 폴더의 현재 크기와 총 항목 수를 가져옵니다. 
   
-```
+```powershell
 Get-MailboxFolderStatistics <username> -FolderScope RecoverableItems | FL Name,FolderAndSubfolderSize,ItemsInFolderAndSubfolders
 ```
-   
+
 다음 명령을 실행 하 여 사용자의 보관 사서함에 있는 복구 가능한 항목 폴더의 폴더 및 하위 폴더에 있는 항목의 크기 및 총 수를 가져옵니다. 
 
-```
+```powershell
 Get-MailboxFolderStatistics <username> -FolderScope RecoverableItems -Archive | FL Name,FolderAndSubfolderSize,ItemsInFolderAndSubfolders
 ```
-  
+
 ## <a name="step-6-revert-the-mailbox-to-its-previous-state"></a>6 단계: 사서함을 이전 상태로 되돌리기
 
-마지막 단계는 사서함을 다시 이전 구성으로 되돌리는 것입니다. 즉, 2 단계에서 변경한 속성을 다시 설정 하 고 3 단계에서 제거한 보존을 다시 적용 합니다. 성능 저하를 줄여주는 방법에는 다음이 포함됩니다.
+마지막 단계는 사서함을 다시 이전 구성으로 되돌리는 것입니다. 즉, 2 단계에서 변경한 속성을 다시 설정 하 고 3 단계에서 제거한 보존을 다시 적용 합니다. 여기에는 다음이 포함됩니다.
   
 - 삭제 된 항목 보존 기간을 이전 값으로 변경 또는 Exchange Online에서이 설정을 최대 30 일로 그대로 두면 됩니다.
     
@@ -365,29 +367,29 @@ Exchange Online PowerShell에서 지정 된 순서 대로 다음 단계를 수�
   
 1. 다음 명령을 실행 하 여 삭제 된 항목 보존 기간을 원래 값으로 변경 합니다. 이는 이전 설정이 30 일 보다 작은 것으로 가정 합니다. 예: 14 일 
     
-    ```
+    ```powershell
     Set-Mailbox <username> -RetainDeletedItemsFor 14
     ```
-   
+
 2. 다음 명령을 실행 하 여 단일 항목 복구를 다시 사용 하도록 설정 합니다.
    
-    ```
+    ```powershell
     Set-Mailbox <username> -SingleItemRecoveryEnabled $true
     ```
 
 3. 다음 명령을 실행 하 여 사서함에 대 한 모든 클라이언트 액세스 방법을 다시 사용 하도록 설정 합니다.
     
-    ```
+    ```powershell
     Set-CASMailbox <username> -EwsEnabled $true -ActiveSyncEnabled $true -MAPIEnabled $true -OWAEnabled $true -ImapEnabled $true -PopEnabled $true
     ```
-   
+
 4. 3 단계에서 제거한 보존을 다시 적용 합니다. 보존 유형에 따라 다음 절차 중 하나를 사용 합니다.
     
     **소송 대기**
     
     다음 명령을 실행 하 여 사서함에 대 한 소송 보존을 다시 사용 하도록 설정 합니다.
     
-    ```
+    ```powershell
     Set-Mailbox <username> -LitigationHoldEnabled $true
     ```
 
@@ -409,20 +411,20 @@ Exchange Online PowerShell에서 지정 된 순서 대로 다음 단계를 수�
     
 5. 다음 명령을 실행 하 여 관리 되는 폴더 도우미가 사서함을 다시 처리할 수 있도록 합니다. 앞에서 설명한 것 처럼 관리 되는 폴더 도우미를 다시 사용 하도록 설정 하기 전에 보류 또는 Office 365 보존 정책을 다시 적용 하 고 현재 위치에 있는지 확인 한 후 24 시간을 기다리는 것이 좋습니다. 
 
-    ```
+    ```powershell
     Set-Mailbox <username> -ElcProcessingDisabled $false
     ```
-   
+
 6. 사서함이 이전 구성으로 되돌아간 것을 확인 하려면 다음 명령을 실행 하 여 1 단계에서 수집한 설정과 비교 합니다.
 
-    ```
+    ```powershell
     Get-Mailbox <username> | FL ElcProcessingDisabled,InPlaceHolds,LitigationHoldEnabled,RetainDeletedItemsFor,SingleItemRecoveryEnabled
     ```
 
-    ```
+    ```powershell
     Get-CASMailbox <username> | FL EwsEnabled,ActiveSyncEnabled,MAPIEnabled,OWAEnabled,ImapEnabled,PopEnabled
     ```
-  
+
 ## <a name="more-information"></a>추가 정보
 
 다음은 *InPlaceHolds* 속성의 값에 따라 **get-Mailbox** 또는 **set-organizationconfig** cmdlet을 실행할 때 서로 다른 유형의 보류를 식별 하는 방법을 설명 하는 표입니다. 자세한 내용은 [Exchange Online 사서함에 대해 설정 된 보류 유형을 식별](identify-a-hold-on-an-exchange-online-mailbox.md)하는 방법을 참조 하세요.

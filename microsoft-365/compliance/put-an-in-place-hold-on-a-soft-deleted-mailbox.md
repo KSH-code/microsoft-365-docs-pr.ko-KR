@@ -10,12 +10,12 @@ localization_priority: Normal
 search.appverid: ''
 ms.assetid: 421f72bd-dd43-4be1-82f5-0ae9ac43bd00
 description: 일시 삭제 된 사서함의 원본 위치 유지를 사용 하 여 비활성 상태로 만들고 해당 콘텐츠를 보존 하는 방법을 알아봅니다. 그런 다음 Microsoft eDiscovery 도구를 사용 하 여 비활성 사서함을 검색할 수 있습니다.
-ms.openlocfilehash: ce4121e6187a765b5a9e23d6e6e11d8cc2640161
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: ab8ab8b8eff0eefd91a87fb72439547c7d2fe97b
+ms.sourcegitcommit: 550ea6f093ec35182e7c65a2811e9bfb07ec7d01
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088803"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "38687093"
 ---
 # <a name="put-an-in-place-hold-on-a-soft-deleted-mailbox-in-exchange-online"></a>Exchange Online에서 일시 삭제 된 사서함에 원본 위치 유지
 
@@ -32,24 +32,24 @@ ms.locfileid: "37088803"
 ## <a name="before-you-begin"></a>시작하기 전에
 
 - Windows PowerShell에서 **new-mailboxsearch** cmdlet을 사용 하 여 일시 삭제 된 사서함을 원본 위치 유지 상태로 설정 해야 합니다. SharePoint Online의 EAC (Exchange 관리 센터) 또는 eDiscovery 센터를 사용할 수 없습니다. 
-    
+
 - Windows PowerShell을 사용하여 Exchange Online에 연결하는 방법에 대한 자세한 내용은 [Connect to Exchange Online Using Remote PowerShell](https://go.microsoft.com/fwlink/p/?linkid=396554)을 참조하세요.
-    
+
 - 다음 명령을 실행 하 여 조직의 일시 삭제 된 사서함에 대 한 id 정보를 가져옵니다. 
-    
-  ```
+
+  ```powershell
   Get-Mailbox -SoftDeletedMailbox | FL Name,WhenSoftDeleted,DistinguishedName,ExchangeGuid,PrimarySmtpAddress
   ```
 
 - 비활성 사서함에 대 한 자세한 내용은 [Overview In Office 365의 비활성 사서함 개요](inactive-mailboxes-in-office-365.md)를 참조 하세요.
-    
+
 ## <a name="put-an-in-place-hold-on-a-soft-deleted-mailbox-to-make-it-an-inactive-mailbox"></a>일시 삭제 된 사서함에 원본 위치 유지를 적용 하 여 비활성 사서함으로 설정
 
-**New-mailboxsearch** cmdlet을 사용 하 여 일시 삭제 된 사서함을 비활성 사서함으로 만들 수 있습니다. 자세한 내용은 [new-mailboxsearch](http://technet.microsoft.com/library/74303b47-bb49-407c-a43b-590356eae35c.aspx)를 참조 하십시오.
+**New-mailboxsearch** cmdlet을 사용 하 여 일시 삭제 된 사서함을 비활성 사서함으로 만들 수 있습니다. 자세한 내용은 [new-mailboxsearch](https://technet.microsoft.com/library/74303b47-bb49-407c-a43b-590356eae35c.aspx)를 참조 하십시오.
   
-1. 일시 삭제 된 사서함의 속성이 포함 된 변수를 만듭니다. 
-    
-   ```
+1. 일시 삭제 된 사서함의 속성이 포함 된 변수를 만듭니다.
+
+   ```powershell
    $SoftDeletedMailbox = Get-Mailbox -SoftDeletedMailbox -Identity <identity of soft-deleted mailbox>
    ```
 
@@ -57,25 +57,26 @@ ms.locfileid: "37088803"
     > 이전 명령에서 **DistinguishedName** 또는 **ExchangeGuid** 속성 값을 사용 하 여 일시 삭제 된 사서함을 식별 합니다. 이러한 속성은 조직의 각 사서함에 대해 고유 하지만 활성 사서함과 일시 삭제 된 사서함의 기본 SMTP 주소가 같을 수 있습니다. 
   
 2. 원본 위치 유지를 만들고 일시 삭제 된 사서함에 배치 합니다. 이 예에서는 보존 기간을 지정 하지 않습니다. 즉, 항목이 무기한으로 또는 비활성 사서함에서 제거 될 때까지 유지 됩니다.
-    
-   ```
+
+   ```powershell
    New-MailboxSearch -Name "InactiveMailboxHold" -SourceMailboxes $SoftDeletedMailbox.DistinguishedName -InPlaceHoldEnabled $true
     ```
+
    원본 위치 유지를 만들 때 보존 기간을 지정할 수도 있습니다. 이 예에서는 약 7 년 동안 비활성 사서함의 항목을 포함 합니다.
-    
-   ```
+
+   ```powershell
    New-MailboxSearch -Name "InactiveMailboxHold" -SourceMailboxes $SoftDeletedMailbox.DistinguishedName -InPlaceHoldEnabled $true -ItemHoldPeriod 2777
    ```
 
 3. 잠시 후에 다음 명령 중 하나를 실행 하 여 일시 삭제 된 사서함이 비활성 사서함 인지 확인 합니다.
-    
-   ```
+
+   ```powershell
    Get-Mailbox -InactiveMailboxOnly
    ```
 
     또는
     
-   ```
+   ```powershell
    Get-Mailbox -InactiveMailboxOnly -Identity $SoftDeletedMailbox.DistinguishedName  | FL IsInactiveMailbox
    ```
 
@@ -84,9 +85,9 @@ ms.locfileid: "37088803"
 일시 삭제 된 사서함을 비활성 사서함으로 설정한 후 사서함을 관리 하는 방법에는 여러 가지가 있습니다. 자세한 내용은 다음을 참조하세요.
   
 - [비활성 사서함의 유지 보존 기간 변경](change-the-hold-duration-for-an-inactive-mailbox.md)
-    
+
 - [비활성 사서함 복구](recover-an-inactive-mailbox.md)
-    
+
 - [비활성 사서함 복원](restore-an-inactive-mailbox.md)
-    
-- [비활성 사서함 삭제](delete-an-inactive-mailbox.md) (보류 제거)
+
+- [비활성 사서함 삭제](delete-an-inactive-mailbox.md) (보존 제거)

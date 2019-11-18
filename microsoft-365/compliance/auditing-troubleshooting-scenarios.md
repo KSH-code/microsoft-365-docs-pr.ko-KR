@@ -14,16 +14,16 @@ search.appverid:
 - MET150
 - MOE150
 description: Office 365 감사 로그 검색 도구를 사용 하면 손상 된 계정을 조사 하거나, 사서함에 대 한 전자 메일 전달을 설정 하는 사람을 찾거나, 외부 사용자가 사용자에 게 로그인 할 수 있던 이유를 확인 하는 등의 일반적인 문제를 해결 하는 데 도움이 될 수 있습니다. 조직.
-ms.openlocfilehash: 255fd323ca08dd4ea759648fbe0673f5e5254c22
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: f075d4317e8da748b6eca654747a2757c0040558
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37087697"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38687180"
 ---
-# <a name="search-the-office-365-audit-log-to-troubleshoot-common-scenarios"></a>일반적인 시나리오 문제를 해결 하기 위해 Office 365 감사 로그 검색
+# <a name="search-the-office-365-audit-log-to-investigate-common-support-issues"></a>Office 365 감사 로그를 검색 하 여 일반적인 지원 문제 조사
 
-이 문서에서는 일반적인 지원 시나리오를 해결 하는 데 도움이 되는 Office 365 감사 로그 검색 도구를 사용 하는 방법에 대해 설명 합니다. 여기에는 다음에 대 한 감사 로그 사용이 포함 됩니다.
+이 문서에서는 Office 365 감사 로그 검색 도구를 사용 하 여 일반적인 지원 문제를 조사 하는 방법에 대해 설명 합니다. 여기에는 다음에 대 한 감사 로그 사용이 포함 됩니다.
 
 - 손상 된 계정에 액세스 하는 데 사용 되는 컴퓨터의 IP 주소 찾기
 - 사서함에 대 한 전자 메일 전달을 설정한 사람 결정
@@ -51,7 +51,7 @@ Office 365 감사 로그를 검색 하려면 Exchange Online에서 보기 전용
   
 4. 다음 검색 조건을 구성할 수 있습니다. 이 문서의 각 문제 해결 시나리오에서는 이러한 필드를 구성 하기 위한 구체적인 지침을 제공 합니다.
     
-    위한. **활동:** 드롭다운 목록을 클릭 하 여 검색할 수 있는 활동을 표시 합니다. 검색을 실행 한 후에는 선택한 활동에 대 한 감사 레코드만 표시 됩니다. **모든 작업에 대해 결과 표시** 를 선택 하면 다른 검색 조건을 충족 하는 모든 작업에 대 한 결과가 표시 됩니다. 일부 문제 해결 시나리오에서는이 필드를 비워 두어야 합니다.
+    a. **활동:** 드롭다운 목록을 클릭 하 여 검색할 수 있는 활동을 표시 합니다. 검색을 실행 한 후에는 선택한 활동에 대 한 감사 레코드만 표시 됩니다. **모든 작업에 대해 결과 표시** 를 선택 하면 다른 검색 조건을 충족 하는 모든 작업에 대 한 결과가 표시 됩니다. 일부 문제 해결 시나리오에서는이 필드를 비워 두어야 합니다.
     
     b. **시작 날짜** 및 **종료 날짜:** 해당 기간 내에 발생 한 이벤트를 표시 하려면 날짜 및 시간 범위를 선택 합니다. 지난 7 일이 기본적으로 선택 됩니다. 날짜와 시간은 UTC (협정 세계시) 형식으로 표시 됩니다. 지정할 수 있는 최대 날짜 범위는 90 일입니다.
 
@@ -110,17 +110,17 @@ Office 365 감사 로그를 검색 하려면 Exchange Online에서 보기 전용
 
 ![감사 레코드에서 자세한 정보](media/emailforwarding2.png)
 
-위한. **ObjectId** 필드에는 전자 메일 전달이 설정 된 사서함의 별칭이 표시 됩니다. 이 사서함은 검색 결과 페이지의 **항목** 열에도 표시 됩니다.
+a. **ObjectId** 필드에는 전자 메일 전달이 설정 된 사서함의 별칭이 표시 됩니다. 이 사서함은 검색 결과 페이지의 **항목** 열에도 표시 됩니다.
 
 b. **매개 변수** 필드에서 *ForwardingSmtpAddress* 값은 사서함에 대해 전자 메일 전달이 설정 되었음을 나타냅니다. 이 예에서는 메일이 alpinehouse.onmicrosoft.com 조직 외부에 있는 전자 메일 주소 mike@contoso.com 전달 됩니다.
 
-&. *DeliverToMailboxAndForward* 매개 변수의 값이 *True 이면* sarad@alpinehouse.onmicrosoft.com에 배달 된 메시지의 복사본이 ForwardingSmtpAddress에서 지정한 전자 메일 주소로 *전달 됨을* 나타냅니다. * *이 예제에서는 mike@contoso.com에 해당 하는 매개 변수를 사용할 수 있습니다. *DeliverToMailboxAndForward* 매개 변수의 값이 *False*로 설정 된 경우 전자 메일은 *ForwardingSmtpAddress* 매개 변수로 지정 된 주소로만 전달 됩니다. 이는 **ObjectId** 필드에 지정 된 사서함으로 배달 되지 않습니다.
+&. *DeliverToMailboxAndForward* 매개 변수의 값이 *True 이면* sarad@alpinehouse.onmicrosoft.com에 배달 된 메시지의 복사본이 *ForwardingSmtpAddress* 매개 변수로 지정 된 전자 메일 주소로 *전달 되며이* 예에서는 mike@contoso.com입니다. *DeliverToMailboxAndForward* 매개 변수의 값이 *False*로 설정 된 경우 전자 메일은 *ForwardingSmtpAddress* 매개 변수로 지정 된 주소로만 전달 됩니다. 이는 **ObjectId** 필드에 지정 된 사서함으로 배달 되지 않습니다.
 
 &. **UserId** 필드에는 **ObjectId** 필드에 지정 된 사서함에 대해 전자 메일 전달을 설정한 사용자가 표시 됩니다. 이 사용자는 검색 결과 페이지의 **사용자** 열에도 표시 됩니다. 이 경우 사서함 소유자가 사서함에서 전자 메일을 전달 하는 것으로 보입니다.
 
 사서함에 대해 전자 메일 전달이 설정 되어 있지 않은 것으로 확인 되 면 Exchange Online PowerShell에서 다음 명령을 실행 하 여 제거할 수 있습니다.
 
-```
+```powershell
 Set-Mailbox <mailbox alias> -ForwardingSmtpAddress $null 
 ```
 
@@ -186,7 +186,7 @@ Set-Mailbox <mailbox alias> -ForwardingSmtpAddress $null
 
 ![새 받은 편지함 규칙에 대 한 감사 레코드](media/NewInboxRuleRecord.png)
 
-위한. **ObjectId** 필드에 받은 편지함 규칙의 전체 이름이 표시 됩니다. 이 이름에는 사용자 사서함의 별칭 (예: SaraD)과 받은 편지함 규칙 이름 (예: "관리자 로부터 메시지 이동")이 포함 됩니다.
+a. **ObjectId** 필드에 받은 편지함 규칙의 전체 이름이 표시 됩니다. 이 이름에는 사용자 사서함의 별칭 (예: SaraD)과 받은 편지함 규칙 이름 (예: "관리자 로부터 메시지 이동")이 포함 됩니다.
 
 b. **매개 변수** 필드에 받은 편지함 규칙의 조건이 표시 됩니다. 이 예제에서는 *From* 매개 변수를 통해 조건을 지정 합니다. *From* 매개 변수에 대해 정의 된 값은 받은 편지함 규칙이 admin@alpinehouse.onmicrosoft.com에서 보내는 전자 메일을 작동 함을 나타냅니다. 받은 편지함 규칙의 조건을 정의 하는 데 사용할 수 있는 매개 변수의 전체 목록은 [disable-inboxrule](https://docs.microsoft.com/powershell/module/exchange/mailboxes/new-inboxrule) 문서를 참조 하십시오.
 
@@ -207,7 +207,7 @@ Office 365 감사 로그에서 감사 레코드를 검토할 때 외부 사용�
 
 ![성공적인 통과 인증에 대 한 감사 레코드의 예](media/PassThroughAuth1.png)
 
-   위한. 이 필드는 조직의 Azure AD에서 조직에 있는 리소스에 액세스 하려고 한 사용자를 찾을 수 없음을 나타냅니다.
+   a. 이 필드는 조직의 Azure AD에서 조직에 있는 리소스에 액세스 하려고 한 사용자를 찾을 수 없음을 나타냅니다.
 
    b. 이 필드에는 조직의 리소스에 액세스 하려고 한 외부 사용자의 UPN이 표시 됩니다. 이 사용자 ID는 감사 레코드의 **사용자** 및 **UserId** 속성 에서도 식별 됩니다.
 
@@ -221,9 +221,9 @@ UserLoggedIn 감사 레코드에 표시 되는 다른 속성에 대 한 자세�
 
 다음은 통과 인증으로 인해 **사용자가** 감사 작업을 성공적으로 로그인 한 경우의 두 가지 예입니다. 
 
-  - Microsoft 계정 (예: SaraD@outlook.com)이 있는 사용자가 fourthcoffee.onmicrosoft.com의 비즈니스용 OneDrive 계정에 있는 문서에 액세스 하려고 했지만 SaraD@outlook.com의 해당 guest 사용자 계정이 아닙니다. fourthcoffee.onmicrosoft.com
+  - Microsoft 계정 (예: SaraD@outlook.com)이 있는 사용자가 fourthcoffee.onmicrosoft.com의 비즈니스용 OneDrive 계정에 있는 문서에 액세스 하려고 했지만 fourthcoffee.onmicrosoft.com의 SaraD@outlook.com에 해당 하는 게스트 사용자 계정이 아닙니다.
 
-  - Office 365 조직에서 회사 또는 학교 계정 (예: pilarp@fabrikam.onmicrosoft.com)을 가진 사용자가 contoso.onmicrosoft.com에서 SharePoint 사이트에 액세스 하려고 했지만 pilarp@fabrikam.com의 해당 guest 사용자 계정이 아닙니다. contoso.onmicrosoft.com
+  - Office 365 조직에서 회사 또는 학교 계정 (예: pilarp@fabrikam.onmicrosoft.com)을 가진 사용자가 contoso.onmicrosoft.com에서 SharePoint 사이트에 액세스 하려고 했지만 contoso.onmicrosoft.com의 pilarp@fabrikam.com에 해당 하는 게스트 사용자 계정이 아닙니다.
 
 
 ### <a name="tips-for-investigating-successful-logins-resulting-from-pass-through-authentication"></a>통과 인증의 성공한 로그인을 조사 하기 위한 팁
@@ -232,7 +232,7 @@ UserLoggedIn 감사 레코드에 표시 되는 다른 속성에 대 한 자세�
 
    ![외부 사용자가 수행한 모든 작업을 검색 합니다.](media/PassThroughAuth2.png)
 
-    **사용자가 로그인** 한 활동 외에, 외부 사용자와 조직 내의 사용자를 표시 하는 다른 감사 레코드가 반환 되거나 외부 사용자가 해당 문서에 액세스, 수정 또는 다운로드를 수행할 수 있습니다. 과 (와) 공유 되었습니다.
+    **사용자가 로그인** 한 활동 외에, 외부 사용자와 조직의 사용자를 표시 하는 다른 감사 레코드가 반환 될 수 있으며, 외부 사용자가 공유 된 문서를 액세스, 수정 또는 다운로드 했는지 여부가 결정 됩니다.
 
 - **사용자가 로그인** 한 감사 레코드에 의해 식별 된 외부 사용자와 파일이 공유 되었음을 나타내는 SharePoint 공유 활동을 검색 합니다. 자세한 내용은 [Office 365 감사 로그에서 공유 감사 사용](use-sharing-auditing.md)을 참조 하십시오.
 

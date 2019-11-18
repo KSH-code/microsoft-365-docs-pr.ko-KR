@@ -13,19 +13,19 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: Advanced eDiscovery의 검토 집합에서 내보낸 문서를 Azure 저장소 탐색기를 설치 하 고 사용 하 여 다운로드 합니다.
-ms.openlocfilehash: d7af50b37383e69c666084a93b5b91591a76c114
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+description: Azure 저장소 탐색기를 설치 하 고 사용 하 여 데이터 조사의 증거에서 내보낸 문서를 다운로드 합니다.
+ms.openlocfilehash: af71cb43f91c940e4c5edb8ca7be39f4bca9b3be
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37087320"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38687218"
 ---
 # <a name="download-export-jobs"></a>내보내기 작업 다운로드
 
-고급 eDiscovery 사례의 검토 집합에서 문서를 내보낼 때 문서는 Microsoft에서 제공한 Azure 저장소 위치 또는 조직에서 관리 하는 Azure 저장소 위치에 업로드 됩니다. 사용 되는 Azure Storage location 유형은 문서를 내보낼 때 선택한 옵션에 따라 달라 집니다. 
+데이터 조사에서 문서를 내보낼 때 문서는 Microsoft에서 제공한 Azure 저장소 위치 또는 조직에서 관리 하는 Azure 저장소 위치로 업로드 됩니다. 사용 되는 Azure Storage location 유형은 문서를 내보낼 때 선택한 옵션에 따라 달라 집니다. 
 
-이 문서에서는 Microsoft Azure Storage Explorer를 사용 하 여 Azure 저장소 위치에 연결 하 여 내보낸 문서를 찾아보고 다운로드 하는 방법에 대 한 지침을 제공 합니다. Azure Storage Explorer에 대 한 자세한 내용은 [빠른 시작: Azure Storage Explorer 사용](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-quickstart-blobs-storage-explorer)을 참조 하십시오.
+이 문서에서는 Microsoft Azure Storage Explorer를 사용 하 여 Azure 저장소 위치에 연결 하 여 내보낸 문서를 찾아보고 다운로드 하는 방법에 대 한 지침을 제공 합니다. Azure Storage Explorer에 대 한 자세한 내용은 [빠른 시작: Azure Storage Explorer 사용](https://docs.microsoft.com/azure/storage/blobs/storage-quickstart-blobs-storage-explorer)을 참조 하십시오.
 
 ## <a name="step-1-install-the-azure-storage-explorer"></a>1 단계: Azure Storage Explorer 설치
 
@@ -35,7 +35,7 @@ ms.locfileid: "37087320"
 
 다음 단계에서는 [검토 집합에서 문서를 내보내기](export-documents-from-review-set.md)위해 내보내기 작업을 만들 때 생성 되는 SAS (공유 액세스 서명) URL을 가져옵니다. Microsoft에서 제공한 Azure 저장소 위치 또는 조직에서 관리 하는 Azure 저장소 위치에 업로드 된 문서에 대 한 SAS URL을 복사할 수 있습니다. 두 경우 모두 SAS URL을 사용 하 여 3 단계에서 Azure 저장소 위치에 연결 합니다.
 
-1. **고급 eDiscovery** 페이지에서 사례로 이동한 후 **내보내기** 탭을 클릭 합니다.
+1. **데이터 조사** 페이지에서 조사로 이동한 후 **내보내기** 탭을 클릭 합니다.
 
 2. **내보내기 탭에서** 다운로드 하려는 내보내기 작업을 클릭 합니다.
 
@@ -61,7 +61,7 @@ ms.locfileid: "37087320"
 
     ![URI 상자에 SAS URL을 붙여 넣습니다.](media/AzureStorageConnect3.png)
 
-    **표시 이름** 상자에 SAS URL의 일부가 표시 됩니다. 이 이름은 저장소 위치에 연결한 후 **저장소 계정** 에 만들어지는 컨테이너의 표시 이름으로 사용 됩니다. 이 이름은 Advanced eDiscovery 사례의 ID와 고유 식별자로 구성 됩니다. 기본 표시 이름을 그대로 유지 하거나 변경할 수 있습니다. 이름을 변경 하는 경우에는 표시 이름이 고유 해야 합니다.
+    **표시 이름** 상자에 SAS URL의 일부가 표시 됩니다. 이 이름은 저장소 위치에 연결한 후 **저장소 계정** 에 만들어지는 컨테이너의 표시 이름으로 사용 됩니다. 이 이름은 데이터 조사의 ID와 고유 식별자로 구성 됩니다. 기본 표시 이름을 그대로 유지 하거나 변경할 수 있습니다. 이름을 변경 하는 경우에는 표시 이름이 고유 해야 합니다.
 
 5.  **다음**을 클릭합니다.
 
@@ -73,7 +73,7 @@ ms.locfileid: "37087320"
 
     **Blob 컨테이너** 노드 ( **저장소 계정** > **(연결 된 컨테이너))** \> 가 열립니다. 
 
-    ![](media/AzureStorageConnect5.png)
+    ![Blob 컨테이너 노드의 작업 내보내기](media/AzureStorageConnect5.png)
 
     여기에는 4 단계의 표시 이름으로 이름이 지정 된 컨테이너가 포함 되어 있습니다. 이 컨테이너에는 사용자가 만든 각 내보내기 작업에 대 한 폴더가 포함 됩니다. 이러한 폴더는 내보내기 작업의 ID에 해당 하는 ID로 이름이 지정 됩니다. **작업** 탭에 나열 된 각 **내보내기 데이터 준비** 작업에 대 한 플라이 아웃 페이지의 **지원 정보** 아래에서 이러한 내보내기 id와 내보내기 이름을 찾을 수 있습니다.
 
@@ -85,7 +85,7 @@ ms.locfileid: "37087320"
 
    내보내기 작업 폴더에는 다음과 같은 항목이 포함 됩니다. 내보내기 폴더의 실제 항목은 내보내기 작업을 만들 때 구성 된 내보내기 옵션에 따라 결정 됩니다. 자세한 내용은 [문서를 검토 집합에서 내보내기를](export-documents-from-review-set.md)참조 하십시오.
 
-    - Export_load_file:이 CSV 파일은 내보낸 각 문서에 대 한 정보를 포함 하는 세부 내보내기 보고서입니다. 이 파일은 문서에 대 한 각 metadata 속성의 열로 구성 됩니다. 이 보고서에 포함 된 메타 데이터의 목록 및 설명에 대 한 자세한 내용은 [Advanced eDiscovery의 문서 메타 데이터 필드](document-metadata-fields.md)에 있는 표에서 **내보낸 필드 이름** 열을 참조 하십시오.
+    - Export_load_file .csv:이 CSV 파일은 내보낸 각 문서에 대 한 정보가 포함 된 자세한 내보내기 보고서입니다. 이 파일은 문서에 대 한 각 metadata 속성의 열로 구성 됩니다. 이 보고서에 포함 된 메타 데이터의 목록 및 설명에 대 한 자세한 내용은 [Advanced eDiscovery의 문서 메타 데이터 필드](document-metadata-fields.md)에 있는 표에서 **내보낸 필드 이름** 열을 참조 하십시오.
     
     - 요약 .txt: 내보내기 통계를 포함 하 여 내보내기 요약이 포함 된 텍스트 파일입니다.
     
@@ -101,7 +101,7 @@ ms.locfileid: "37087320"
  
 8. 내보내기에서 모든 콘텐츠를 내보내려면 내보내기 폴더를 선택 하 고 **다운로드**를 클릭 합니다.
 
-9. 내보낸 파일을 다운로드 하려는 위치를 지정 하 고 폴더 선택을 클릭 합니다.
+9. 내보낸 파일을 다운로드 하려는 위치를 지정 하 고 **폴더 선택을**클릭 합니다.
 
     Azure Storage Explorer가 내보내기 프로세스를 시작 합니다. 내보낸 항목을 다운로드 하는 상태가 **활동** 창에 표시 됩니다. 다운로드가 완료 되 면 메시지가 표시 됩니다.
 

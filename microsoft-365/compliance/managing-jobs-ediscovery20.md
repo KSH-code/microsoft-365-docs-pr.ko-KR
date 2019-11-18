@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: c0dd3b19f1fb666e07f70c36db05ed520093bfac
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 9f3a27cc86bb764191aa23cd9159c97635f62e09
+ms.sourcegitcommit: f0a4290793e296474ecd3c6eb0ca96eae7faa434
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088175"
+ms.lasthandoff: 11/11/2019
+ms.locfileid: "38687129"
 ---
 # <a name="manage-jobs-in-advanced-ediscovery"></a>Advanced eDiscovery에서 작업 관리
 
@@ -27,10 +27,10 @@ ms.locfileid: "37088175"
 
 | 작업 유형           | 설명     |
 | :----------------- | :----------     |
-|검토 집합에 데이터 추가 | 사용자가 검색 결과를 검토 집합에 추가 합니다. 이 작업은 다음과 같은 두 개의 하위 작업으로 구성 됩니다. </br> </br>• **GatheringItems** -검색 쿼리와 일치 하는 항목 목록 (및 해당 위치에 있는 Office 365 데이터 원본)이 생성 됩니다. </br>• **& Indexing** 수집-검색 쿼리와 일치 하는 항목은 azure 저장소 위치 ( *수집 이라는 프로세스*)로 복사 된 다음 azure 저장소 위치에 있는 해당 항목은 다시 인덱싱됩니다. 이 새 인덱스는 데이터 집합의 항목을 쿼리하고 분석할 때 사용 됩니다. </br></br>자세한 내용은 [검토 집합에 검색 결과 추가](add-data-to-review-set.md)를 참조 하세요. |
+|검토 집합에 데이터 추가 | 사용자가 검색 결과를 검토 집합에 추가 합니다. 이 작업은 다음과 같은 두 개의 하위 작업으로 구성 됩니다. </br>• **GatheringItems** -검색 쿼리와 일치 하는 항목 목록 (및 해당 위치에 있는 Office 365 데이터 원본)이 생성 됩니다. </br>• **& Indexing** 수집-검색 쿼리와 일치 하는 항목은 azure 저장소 위치 ( *수집 이라는 프로세스*)로 복사 된 다음 azure 저장소 위치에 있는 해당 항목은 다시 인덱싱됩니다. 이 새 인덱스는 데이터 집합의 항목을 쿼리하고 분석할 때 사용 됩니다. </br></br>자세한 내용은 [검토 집합에 검색 결과 추가](add-data-to-review-set.md)를 참조 하세요. |
 |다른 검토 집합에 데이터 추가 | 한 검토 집합의 문서를 동일한 대/소문자로 다른 검토 집합으로 추가 합니다. 자세한 내용은 [다른 검토 집합에서 검토 집합에 데이터 추가](add-data-to-review-set-from-another-review-set.md)를 참조 하세요.|
 |검토 집합에 Office가 아닌 365 데이터 추가 | 사용자가 Office 365 이외의 데이터를 검토 집합에 업로드 합니다. 이 프로세스 중에도 데이터가 인덱싱됩니다. 예를 들어 온-프레미스 파일 서버 또는 클라이언트 컴퓨터의 파일은 검토 집합에 업로드 됩니다. 자세한 내용은 [검토 집합에 비 Office 365 데이터 로드](load-non-office365-data.md)를 참조 하세요.| 
-|재구성 된 데이터를 검토 집합에 추가 | 처리 오류가 발생 한 데이터는 재구성 되 고 검토 집합으로 다시 로드 됩니다. 자세한 내용은 [데이터를 처리할 때 오류 수정을](error-remediation.md)참조 하십시오. | 
+|재구성 된 데이터를 검토 집합에 추가 | 처리 오류가 발생 한 데이터는 재구성 되 고 검토 집합으로 다시 로드 됩니다. 자세한 내용은 다음을 참조하세요.</br>• [데이터 처리 시 오류 수정](error-remediation-when-processing-data-in-advanced-ediscovery.md)</br>• [단일 항목 오류 수정](single-item-error-remediation.md)| 
 |부하 집합 비교 | 사용자가 검토 집합에서 서로 다른 부하 집합 간의 차이점을 살펴봅니다. 부하 집합은 검토 집합에 데이터를 추가 하는 인스턴스입니다. 예를 들어 서로 다른 두 검색의 결과를 동일한 검토 집합에 추가 하는 경우 각각은 로드 집합을 나타냅니다. 자세한 내용은 [부하 집합 관리](manage-load-sets.md)를 참조 하세요. |
 |Redacted 문서를 PDF로 변환|사용자가 문서를 검토 집합으로 annotates 한 부분을 redacts 후에는 redacted 문서를 PDF 파일로 변환 하도록 선택할 수 있습니다. 이렇게 하면 프레젠테이션을 위해 문서를 내보낼 때 redacted 부분이 표시 되지 않습니다. 자세한 내용은 [문서 보기의 검토 집합](annotating-and-redacting-documents.md)을 참조 하십시오. |
 |검색 결과 예측 | 사용자가 새 검색을 만들고 실행 한 후 (또는 기존 검색을 다시 실행) 검색 도구는 검색 쿼리와 일치 하는 항목에 대 한 인덱스를 검색 하 고 검색을 통해 모든 항목의 수와 총 크기를 포함 하는 예상 값과 데이터 원본 sear의 수를 준비 합니다. ched.  자세한 내용은 [사례에 대 한 데이터 수집](collecting-data-for-ediscovery.md)을 참조 하십시오. | 

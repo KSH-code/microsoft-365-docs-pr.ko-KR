@@ -14,12 +14,12 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: Office 365 보안 &amp; 및 준수 센터의 dlp (데이터 손실 방지)에는 dlp 정책에서 사용할 준비가 된 80 중요 한 정보 유형이 포함 되어 있습니다. 이 항목에서는 이러한 모든 중요한 정보 유형의 목록과 DLP 정책이 이러한 각 유형을 검색할 때 찾는 내용을 보여 줍니다.
-ms.openlocfilehash: 820bab0a128f952cf5d96208f5d561f4994bd859
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 9c3111069ff30784af5fe781200de5e770c79066
+ms.sourcegitcommit: 8aa9f204b056f01bfb4c357347dc1592d0c9b688
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088642"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "38687279"
 ---
 # <a name="what-the-sensitive-information-types-look-for"></a>중요한 정보 형식이 찾는 항목
 
@@ -588,7 +588,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
 - 정규식 CEP_Regex_AzureDocumentDBAuthKey 해당 패턴과 일치 하는 콘텐츠를 찾습니다.
-- CEP_CommonExampleKeywords 정규식이 해당 패턴과 일치 하는 콘텐츠 **를 찾지 않습니다** .
+- 정규식 CEP_CommonExampleKeywords에서 해당 패턴과 일치 하는 콘텐츠 **를 찾지 않습니다** .
 
 ```xml
 <!-- Azure Document DB Auth Key -->
@@ -648,7 +648,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
 - 정규식 CEP_Regex_AzureConnectionString 해당 패턴과 일치 하는 콘텐츠를 찾습니다.
-- CEP_CommonExampleKeywords 정규식이 해당 패턴과 일치 하는 콘텐츠 **를 찾지 않습니다** .
+- 정규식 CEP_CommonExampleKeywords에서 해당 패턴과 일치 하는 콘텐츠 **를 찾지 않습니다** .
 
 ```xml
 <!--Azure IAAS Database Connection String and Azure SQL Connection String-->
@@ -708,7 +708,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
 - 정규식 CEP_Regex_AzureIoTConnectionString 해당 패턴과 일치 하는 콘텐츠를 찾습니다.
-- CEP_CommonExampleKeywords 정규식이 해당 패턴과 일치 하는 콘텐츠 **를 찾지 않습니다** .
+- 정규식 CEP_CommonExampleKeywords에서 해당 패턴과 일치 하는 콘텐츠 **를 찾지 않습니다** .
 
 ```xml
 <!--Azure IoT Connection String-->
@@ -758,7 +758,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
 - 정규식 CEP_Regex_AzurePublishSettingPasswords 해당 패턴과 일치 하는 콘텐츠를 찾습니다.
-- CEP_CommonExampleKeywords 정규식이 해당 패턴과 일치 하는 콘텐츠 **를 찾지 않습니다** .
+- 정규식 CEP_CommonExampleKeywords에서 해당 패턴과 일치 하는 콘텐츠 **를 찾지 않습니다** .
 
 
 ```xml
@@ -813,8 +813,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 ### <a name="definition"></a>정의
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
-- 정규식 CEP_Regex_AzureRedisCacheConnectionString가 해당 패턴과 일치 하는 콘텐츠를 찾습니다.
-- CEP_CommonExampleKeywords 정규식이 해당 패턴과 일치 하는 콘텐츠 **를 찾지 않습니다** .
+- 정규식 CEP_Regex_AzureRedisCacheConnectionString 해당 패턴과 일치 하는 콘텐츠를 찾습니다.
+- 정규식 CEP_CommonExampleKeywords에서 해당 패턴과 일치 하는 콘텐츠 **를 찾지 않습니다** .
 
 ```xml
 <!--Azure Redis Cache Connection String-->
@@ -907,8 +907,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 ### <a name="definition"></a>정의
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
-- 정규식 CEP_Regex_AzureServiceBusConnectionString가 해당 패턴과 일치 하는 콘텐츠를 찾습니다.
-- CEP_CommonExampleKeywords 정규식이 해당 패턴과 일치 하는 콘텐츠 **를 찾지 않습니다** .
+- 정규식 CEP_Regex_AzureServiceBusConnectionString 해당 패턴과 일치 하는 콘텐츠를 찾습니다.
+- 정규식 CEP_CommonExampleKeywords에서 해당 패턴과 일치 하는 콘텐츠 **를 찾지 않습니다** .
 
 ```xml
 <!--Azure Service Bus Connection String-->
@@ -966,8 +966,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
 - 정규식 CEP_Regex_AzureStorageAccountKey 해당 패턴과 일치 하는 콘텐츠를 찾습니다.
-- CEP_AzureEmulatorStorageAccountFilter 정규식이 해당 패턴과 일치 하는 콘텐츠 **를 찾지 않습니다** .
-- CEP_CommonExampleKeywords 정규식이 해당 패턴과 일치 하는 콘텐츠 **를 찾지 않습니다** .
+- 정규식 CEP_AzureEmulatorStorageAccountFilter에서 해당 패턴과 일치 하는 콘텐츠 **를 찾지 않습니다** .
+- 정규식 CEP_CommonExampleKeywords에서 해당 패턴과 일치 하는 콘텐츠 **를 찾지 않습니다** .
 
 ```xml
 <!--Azure Storage Account Key-->
@@ -1440,7 +1440,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 ### <a name="keywords"></a>키워드
 
-#### <a name="keyword_province_name_drivers_license_name"></a>Keyword_[province_name]_drivers_license_name
+#### <a name="keyword_province_name_drivers_license_name"></a>Keyword_ [province_name] _drivers_license_name
 
 - 시/도 약어(예: AB)
 - 시/도 이름(예: 앨버타)
@@ -1707,8 +1707,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 ### <a name="definition"></a>정의
 
-DLP 정책은 300 문자 (예: Regex_canada_phin)에서 해당 패턴과 일치 하는 콘텐츠를 찾는 경우이 유형의 중요 한 정보를 검색 한다는 것을 75% 확신 합니다.
-Keyword_canada_phin 또는 Keyword_canada_provinces의 키워드를 두 개 이상 찾았습니다.
+DLP 정책은 300 Regex_canada_phin 문자 근사에서 해당 패턴과 일치 하는 콘텐츠를 찾는 경우이 유형의 중요 한 정보를 검색 한다는 것을 75% 확신 합니다.
+Keyword_canada_phin 또는 Keyword_canada_provinces에서 키워드가 두 개 이상 있습니다.
 
 ```xml
 <!-- Canada PHIN -->
@@ -2325,7 +2325,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 ### <a name="definition"></a>정의
 
-DLP 정책은 300 문자 근사에서 Func_czech_id_card 함수가 해당 패턴과 일치 하는 콘텐츠를 발견 하는 경우이 유형의 중요 한 정보를 검색 한다는 것을 85% 확신 합니다.
+DLP 정책은 300 Func_czech_id_card 문자에 근접 한 경우에는이 유형의 중요 한 정보를 검색 하는 것으로 85% 확신 합니다.
 Keyword_czech_id_card에서 키워드가 발견 되었습니다.
 체크섬이 통과됩니다.
 
@@ -2362,7 +2362,7 @@ Keyword_czech_id_card에서 키워드가 발견 되었습니다.
 
 ### <a name="definition"></a>정의
 
-DLP 정책은 300 문자 (예: Regex_denmark_id)에서 해당 패턴과 일치 하는 콘텐츠를 찾는 경우이 유형의 중요 한 정보를 검색 한다는 것을 75% 확신 합니다.
+DLP 정책은 300 Regex_denmark_id 문자 근사에서 해당 패턴과 일치 하는 콘텐츠를 찾는 경우이 유형의 중요 한 정보를 검색 한다는 것을 75% 확신 합니다.
 Keyword_denmark_id에서 키워드가 발견 되었습니다.
 체크섬이 통과됩니다.
 
@@ -2841,7 +2841,7 @@ Keyword_finland_passport_number에서 키워드가 발견 되었습니다.
 <!-- Finland Passport Number -->
 <Entity id="d1685ac3-1d3a-40f8-8198-32ef5669c7a5" recommendedConfidence="75" patternsProximity="300"> <Pattern confidenceLevel="75"> <IdMatch idRef="Regex_finland_passport_number"/> <Match idRef="Keyword_finland_passport_number"/> </Pattern>
 </Entity>
-Passport Keyword_finland_passport_number 키워드
+Passport Keyword_finland_passport_number의 키워드
    
 ## <a name="france-drivers-license-number"></a>프랑스 운전 면허 번호
 
@@ -3522,10 +3522,10 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 ### <a name="definition"></a>정의
 
-DLP 정책은 300 문자 근사에서 Func_india_aadhaar 함수가 해당 패턴과 일치 하는 콘텐츠를 발견 하는 경우이 유형의 중요 한 정보를 검색 한다는 것을 85% 확신 합니다.
+DLP 정책은 300 Func_india_aadhaar 문자에 근접 한 경우에는이 유형의 중요 한 정보를 검색 하는 것으로 85% 확신 합니다.
 Keyword_india_aadhar에서 키워드가 발견 되었습니다.
 체크섬이 통과됩니다.
-DLP 정책은 300 문자 근사에서 Func_india_aadhaar 함수가 해당 패턴과 일치 하는 콘텐츠를 발견 하는 경우이 유형의 중요 한 정보를 검색 한다는 것을 75% 확신 합니다.
+DLP 정책은 300 Func_india_aadhaar 문자에 근접 한 경우에는이 유형의 중요 한 정보를 검색 하는 것으로 75% 확신 합니다.
 체크섬이 통과됩니다.
 ```xml
 <!-- India Unique Identification (Aadhaar) number -->
@@ -3726,7 +3726,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - Dictionary_icd_10_codes에서 키워드가 발견 되었습니다.
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
-- 업데이트 된 Dictionary_icd_10_에서 키워드가 발견 되었습니다.
+- 업데이트 된 Dictionary_icd_10_ 키워드를 찾았습니다.
 
 ```xml
       <!-- ICD-10 CM -->
@@ -3743,9 +3743,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 키워드
 
-Dictionary_icd_10_updated 키워드 사전의 모든 용어 이며, [Diseases의 국제 분류, 10 번째 수정, 임상 수정 (icd-10-CM)](https://go.microsoft.com/fwlink/?linkid=852604)을 기반으로 합니다. 이 유형은 보험 코드가 아니라 용어에 대해서만 찾습니다.
+[Diseases의 국제 분류, 10 번째 개정판, 임상 수정 (icd-10CM)](https://go.microsoft.com/fwlink/?linkid=852604)을 기반으로 하는 Dictionary_icd_10_updated 키워드 사전의 모든 용어입니다. 이 유형은 보험 코드가 아니라 용어에 대해서만 찾습니다.
 
-Dictionary_icd_10_codes 키워드 사전의 모든 용어 이며, [Diseases의 국제 분류, 10 번째 수정, 임상 수정 (icd-10-CM)](https://go.microsoft.com/fwlink/?linkid=852604)을 기반으로 합니다. 이 유형은 설명에 해당 하는 보험 코드 에서만 찾습니다.
+[Diseases의 국제 분류, 10 번째 개정판, 임상 수정 (icd-10CM)](https://go.microsoft.com/fwlink/?linkid=852604)을 기반으로 하는 Dictionary_icd_10_codes 키워드 사전의 모든 용어입니다. 이 유형은 설명에 해당 하는 보험 코드 에서만 찾습니다.
 
 ## <a name="international-classification-of-diseases-icd-9-cm"></a>Diseases의 국제 분류 (ICD-9-CM)
 
@@ -3784,9 +3784,9 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 ### <a name="keywords"></a>키워드
 
-[Diseases의 국가별 분류, 9 번째 버전의 임상 수정 (icd-9CM)](https://go.microsoft.com/fwlink/?linkid=852605)을 기반으로 하는 Dictionary_icd_9_updated 키워드 사전의 모든 용어입니다. 이 유형은 보험 코드가 아니라 용어에 대해서만 찾습니다.
+[Diseases, 아홉 번째 Revision, 임상 수정 (icd-9CM)의 국가별 분류](https://go.microsoft.com/fwlink/?linkid=852605)를 기반으로 하는 Dictionary_icd_9_updated 키워드 사전의 모든 용어입니다. 이 유형은 보험 코드가 아니라 용어에 대해서만 찾습니다.
 
-[Diseases의 국가별 분류, 9 번째 버전의 임상 수정 (icd-9CM)](https://go.microsoft.com/fwlink/?linkid=852605)을 기반으로 하는 Dictionary_icd_9_codes 키워드 사전의 모든 용어입니다. 이 유형은 설명에 해당 하는 보험 코드 에서만 찾습니다.
+[Diseases, 아홉 번째 Revision, 임상 수정 (icd-9CM)의 국가별 분류](https://go.microsoft.com/fwlink/?linkid=852605)를 기반으로 하는 Dictionary_icd_9_codes 키워드 사전의 모든 용어입니다. 이 유형은 설명에 해당 하는 보험 코드 에서만 찾습니다.
 
 ## <a name="ireland-personal-public-service-pps-number"></a>아일랜드 PPS(개인 공공 서비스) 번호
 
@@ -4435,7 +4435,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
 - Func_netherlands_bsn 함수가 해당 패턴과 일치 하는 콘텐츠를 찾습니다.
 - Keyword_netherlands_bsn에서 키워드가 발견 되었습니다.
-- Func_eu_date2 함수가 올바른 날짜 형식의 날짜를 찾습니다.
+- Func_eu_date2 함수는 올바른 날짜 형식의 날짜를 찾습니다.
 - 체크섬이 통과됩니다.
 
 ```xml
@@ -4615,7 +4615,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 ### <a name="definition"></a>정의
 
-DLP 정책은 300 문자 근사에서 Func_polish_national_id 함수가 해당 패턴과 일치 하는 콘텐츠를 발견 하는 경우이 유형의 중요 한 정보를 검색 한다는 것을 75% 확신 합니다.
+DLP 정책은 300 Func_polish_national_id 문자에 근접 한 경우에는이 유형의 중요 한 정보를 검색 하는 것으로 75% 확신 합니다.
 Keyword_polish_national_id_passport_number의 키워드가 발견되었습니다.
 체크섬이 통과됩니다.
 
@@ -5019,8 +5019,8 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
 - 정규식 CEP_Regex_SQLServerConnectionString 해당 패턴과 일치 하는 콘텐츠를 찾습니다.
 - CEP_GlobalFilter의 키워드를 찾을 수 **없습니다** .
-- CEP_PasswordPlaceHolder 정규식이 해당 패턴과 일치 하는 콘텐츠 **를 찾지 않습니다** .
-- CEP_CommonExampleKeywords 정규식이 해당 패턴과 일치 하는 콘텐츠 **를 찾지 않습니다** .
+- 정규식 CEP_PasswordPlaceHolder에서 해당 패턴과 일치 하는 콘텐츠 **를 찾지 않습니다** .
+- 정규식 CEP_CommonExampleKeywords에서 해당 패턴과 일치 하는 콘텐츠 **를 찾지 않습니다** .
 
 ```sql
 <!---SQL Server Connection String>
@@ -5501,7 +5501,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 18개의 문자 및 숫자:
 - 5개 문자(대/소문자 구분 안 함) 또는 문자 대신 숫자 "9" 사용 
 - 1자리 숫자 
-- 생년월일에 대한 DDMMY 날짜 형식의 5자리 숫자 
+- 날짜 형식의 5 자리 숫자 MMDDY 생년월일 (드라이버가 암 인 경우 50이 고 62 51은 01부터 12까지)로 증가 합니다.
 - 2개 문자(대/소문자 구분 안 함) 또는 문자 대신 숫자 "9" 사용 
 - 5자리 숫자
 
@@ -5989,7 +5989,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - identification cards# 
 
 
-#### <a name="keyword_state_name_drivers_license_name"></a>Keyword_[state_name]_drivers_license_name
+#### <a name="keyword_state_name_drivers_license_name"></a>Keyword_ [state_name] _drivers_license_name
 
 - 주 약어(예: "NY") 
 - 주 이름(예: "New York")    
@@ -6099,10 +6099,10 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 ### <a name="pattern"></a>패턴
 
 다음의 네 가지 패턴에서 SSNs를 검색 하는 함수는 다음과 같습니다.
-- Func_ssn는 대시 또는 공백을 사용 하 여 서식이 지정 된 2011 이전의 고급 서식 (ddd-dd-dddd 또는 ddd dd dd)을 사용 하 여 SSNs를 찾습니다.
-- Func_unformatted_ssn는 형식이 지정 되지 않은 2011 이전 형식으로 서식이 지정 된 SSNs를 찾습니다 (ddddddddd).
+- Func_ssn는 대시 또는 공백으로 서식이 지정 된 2011 이전 수준의 서식으로 SSNs를 찾습니다 (ddd-dd-dddd 또는 ddd dd dddd).
+- Func_unformatted_ssn는 형식이 지정 되지 않은 2011 이전 형식으로 서식이 지정 된 SSNs를 찾고 (ddddddddd)
 - Func_randomized_formatted_ssn는 대시 또는 공백으로 서식이 지정 된 post-2011 SSNs를 찾습니다 (ddd-dd-dddd 또는 ddd dd dddd).
-- Func_randomized_unformatted_ssn는 형식 없는 2011 SSNs를 찾고, 서식이 없는 9 자리 숫자 (ddddddddd)를 찾습니다.
+- Func_randomized_unformatted_ssn는 형식 없는 2011 SSNs를 찾습니다 (ddddddddd).
 
 ### <a name="checksum"></a>제외
 
@@ -6138,14 +6138,14 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 DLP 정책은 300 문자에 근접 한 경우이 유형의 중요 한 정보를 검색 한다는 것을 40% 확신 합니다.
 - Func_ssn 함수가 해당 패턴과 일치하는 콘텐츠를 찾습니다.
 - Func_unformatted_ssn 함수가 해당 패턴과 일치하는 콘텐츠를 찾지 않습니다.
-- Func_randomized_unformatted_ssn 함수가 해당 패턴과 일치 하는 콘텐츠를 찾지 않습니다.
+- Func_randomized_unformatted_ssn 함수가 해당 패턴과 일치 하는 콘텐츠를 찾을 수 없습니다.
 - Keyword_ssn의 키워드를 찾을 수 없습니다.
  
 또는
 
 - Func_randomized_formatted_ssn 함수가 해당 패턴과 일치하는 콘텐츠를 찾습니다.
 - Func_unformatted_ssn 함수가 해당 패턴과 일치하는 콘텐츠를 찾지 않습니다.
-- Func_randomized_unformatted_ssn 함수가 해당 패턴과 일치 하는 콘텐츠를 찾지 않습니다.
+- Func_randomized_unformatted_ssn 함수가 해당 패턴과 일치 하는 콘텐츠를 찾을 수 없습니다.
 - Keyword_ssn의 키워드를 찾을 수 없습니다.
 
 ```xml

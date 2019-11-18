@@ -10,12 +10,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: 관리자는 네이티브 커넥터를 설정 하 여 Twitter 데이터를 Office 365로 가져올 수 있습니다. 이를 통해 Office 365의 타사 데이터 원본에서 데이터를 보관할 수 있으므로 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용 하 여 조직의 타사 데이터를 관리 하는 것을 관리할 수도 있습니다.
-ms.openlocfilehash: 6780e3fbb53e2326994e03815403c1e5ae0d0616
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: cf738f67778dbe435e60098b9fc6d753583858a8
+ms.sourcegitcommit: 6e01543b3fff50a28719478b19b644991ba7505a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37087707"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38687084"
 ---
 # <a name="use-a-sample-connector-to-archive-twitter-data-in-office-365-preview"></a>샘플 커넥터를 사용 하 여 Office 365에서 Twitter 데이터 보관 (미리 보기)
 
@@ -23,7 +23,7 @@ Office 365에서 Twitter 데이터를 보관 하는 샘플 커넥터 기능은 �
 
 Office 365의 보안 & 준수 센터에 있는 예제 커넥터를 사용 하 여 Twitter에서 데이터를 가져오고 보관 합니다. 샘플 커넥터를 설정 하 고 구성한 후에는 예약 된 방식으로 조직의 Twitter 계정에 연결 하 고, 항목의 콘텐츠를 전자 메일 메시지 형식으로 변환한 다음 해당 항목을 Office 365의 사서함으로 가져옵니다.
 
-Twitter 데이터를 가져온 후에는 사서함에 저장 된 데이터에 소송 보존, 콘텐츠 검색, 원본 위치 보관, 감사, 감독 및 Office 365 고정 정책 등의 Office 365 준수 기능을 적용할 수 있습니다. 예를 들어 콘텐츠 검색을 사용 하 여 Twitter 데이터를 검색 하거나, 데이터가 고급 eDiscovery 사례에 custodian으로 저장 된 사서함을 연결할 수 있습니다. 샘플 커넥터를 사용 하 여 Office 365에서 Twitter 데이터를 가져오고 보관 하면 조직이 정부 및 규정 정책을 준수 하는 데 도움이 될 수 있습니다.
+Twitter 데이터를 가져온 후에는 사서함에 저장 된 데이터에 소송 보존, 콘텐츠 검색, 원본 위치 보관, 감사, [통신 준수](communication-compliance.md)및 office 365 고정 정책 등의 office 365 준수 기능을 적용할 수 있습니다. 예를 들어 콘텐츠 검색을 사용 하 여 Twitter 데이터를 검색 하거나, 데이터가 고급 eDiscovery 사례에 custodian으로 저장 된 사서함을 연결할 수 있습니다. 샘플 커넥터를 사용 하 여 Office 365에서 Twitter 데이터를 가져오고 보관 하면 조직이 정부 및 규정 정책을 준수 하는 데 도움이 될 수 있습니다.
 
 > [!NOTE]
 > 현재로 서는 Twitter 및 [Facebook Business 페이지](archive-facebook-data-with-sample-connector.md) 에 대 한 샘플 커넥터만 미리 볼 수 있습니다. 더 많은 샘플 커넥터가 곧 제공 될 예정입니다.
@@ -91,7 +91,7 @@ Twitter 데이터를 가져온 후에는 사서함에 저장 된 데이터에 �
 
 또한이 단계에서 1 단계에서 다운로드 한 SampleConnector 파일을 업로드 하 여 Twitter 커넥터 응용 프로그램에 대 한 소스 코드를 배포 합니다.
 
-이 단계를 완료 한 후 Azure 앱 서비스 URL (예:을 https://twitterconnector.azurewebsites.net)복사 해야 합니다. 이를 사용 하 여 5 단계, 6 단계 및 7 단계를 완료 해야 합니다.
+이 단계를 완료 한 후 Azure 앱 서비스 URL (예: `https://twitterconnector.azurewebsites.net`)을 복사 해야 합니다. 이를 사용 하 여 5 단계, 6 단계 및 7 단계를 완료 해야 합니다.
 
 ## <a name="step-5-create-developer-app-on-twitter"></a>5 단계: Twitter에서 개발자 앱 만들기
 
@@ -120,7 +120,7 @@ Twitter 데이터를 가져온 후에는 사서함에 저장 된 데이터에 �
 - Twitter 액세스 토큰 암호 (5 단계에서 가져옴)
 - Azure Active Directory 응용 프로그램 ID (2 단계에서 가져온 AAD 응용 프로그램 ID)
 - Azure Active Directory 응용 프로그램 비밀 (2 단계에서 얻은 AAD 응용 프로그램 암호)
-- Azure Active Directory 응용 프로그램 Uri (2 단계에서 가져온 AAD 응용 프로그램 Uri (예:https://microsoft.onmicrosoft.com/2688yu6n-12q3-23we-e3ee-121111123213)
+- Azure Active Directory 응용 프로그램 Uri (2 단계에서 가져온 AAD 응용 프로그램 Uri (예:`https://microsoft.onmicrosoft.com/2688yu6n-12q3-23we-e3ee-121111123213)`
 
 ## <a name="step-7-set-up-a-custom-connector-in-the-security--compliance-center"></a>7 단계: 보안 & 준수 센터에서 사용자 지정 커넥터 설정
 
@@ -130,5 +130,5 @@ Twitter 데이터를 가져온 후에는 사서함에 저장 된 데이터에 �
 
 단계별 지침에 따라이 단계를 완료 하는 동안 다음 정보를 제공 합니다 (단계 완료 후 텍스트 파일로 복사).
 
-- 4 단계에서 얻은 Azure app service URL (예:https://twitterconnector.azurewebsites.net)
+- Azure app service URL (예를 들어, `https://twitterconnector.azurewebsites.net`4 단계에서 가져옴)
 - APISecretKey (4 단계에서 만든 것)

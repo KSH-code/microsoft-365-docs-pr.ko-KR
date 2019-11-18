@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 문제가 발생 하는 경우 Microsoft 지원 엔지니어가 데이터에 액세스 하는 방법을 제어할 수 있도록 하는 고객 Lockbox 요청에 대해 알아봅니다.
-ms.openlocfilehash: 2cbf19ad3c648373704c379794e24590fcb6d290
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: a19b8f7933cfae06c462d204148f53b441126f58
+ms.sourcegitcommit: f0a4290793e296474ecd3c6eb0ca96eae7faa434
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37087426"
+ms.lasthandoff: 11/11/2019
+ms.locfileid: "38687135"
 ---
 # <a name="customer-lockbox-in-office-365"></a>Office 365의 고객 Lockbox
 
@@ -114,7 +114,7 @@ Office 365 관리자는 Microsoft 365 관리 센터에서 고객 Lockbox 컨트�
 고객 Lockbox 요청에 해당 하는 감사 기록은 Office 365 감사 로그에 기록 되며, Office 365 Security & 준수 센터에서 [감사 로그 검색 도구](https://docs.microsoft.com/office365/securitycompliance/search-the-audit-log-in-security-and-compliance) 를 사용 하 여 액세스할 수 있습니다. 고객 Lockbox 요청을 수락 하거나 거부 하는 사용자와 관련 된 작업 및 Microsoft 엔지니어가 수행한 작업 (액세스 요청이 승인 된 경우)이 Office 365 감사 로그에 기록 됩니다. 이러한 감사 레코드를 검색 하 고 검토할 수 있습니다.
 
 > [!NOTE]
-> Office 365 감사 로그를 검색 하려면 Exchange Online에서 보기 전용 감사 로그 또는 감사 로그 역할을 할당 받아야 합니다. 자세한 내용은 [Office 365 보안 & 준수 센터에서 감사 로그 검색](https://docs.microsoft.com/en-us/office365/securitycompliance/search-the-audit-log-in-security-and-compliance#before-you-begin)을 참조 하세요.
+> Office 365 감사 로그를 검색 하려면 Exchange Online에서 보기 전용 감사 로그 또는 감사 로그 역할을 할당 받아야 합니다. 자세한 내용은 [Office 365 보안 & 준수 센터에서 감사 로그 검색](https://docs.microsoft.com/office365/securitycompliance/search-the-audit-log-in-security-and-compliance#before-you-begin)을 참조 하세요.
 
 ### <a name="search-the-audit-log-for-activity-related-to-customer-lockbox-requests"></a>고객 Lockbox 요청과 관련 된 작업에 대 한 감사 로그 검색
 
@@ -132,7 +132,7 @@ Office 365 관리자는 Microsoft 365 관리 센터에서 고객 Lockbox 컨트�
   
 4. 다음 검색 조건을 구성 합니다.
 
-    위한. **활동** -검색에서 모든 활동에 대 한 감사 레코드를 반환 하도록이 필드를 비워 둡니다. 이는 고객 Lockbox 요청과 관련 된 감사 레코드와 Microsoft 엔지니어가 수행한 해당 작업을 반환 하는 데 필요 합니다.
+    a. **활동** -검색에서 모든 활동에 대 한 감사 레코드를 반환 하도록이 필드를 비워 둡니다. 이는 고객 Lockbox 요청과 관련 된 감사 레코드와 Microsoft 엔지니어가 수행한 해당 작업을 반환 하는 데 필요 합니다.
 
     b. **시작 날짜** 및 **종료 날짜** -해당 기간 내에 발생 한 이벤트를 표시 하려면 날짜 및 시간 범위를 선택 합니다.
 
@@ -162,7 +162,7 @@ Office 365 관리자는 Microsoft 365 관리 센터에서 고객 Lockbox 컨트�
 |:---------- |:----------|
 | 날짜       | 고객 인증 키 저장소 요청이 승인 또는 거부 된 날짜 및 시간입니다.
 | IP 주소 | 승인자가 요청을 승인 하거나 거부 하는 데 사용 하는 컴퓨터의 IP 주소입니다. |
-| 사용자       | 서비스 계정 BOXServiceAccount @\[customerforest\]. prod.outlook.com.            |
+| 사용자       | 서비스 계정 BOXServiceAccount@\[customerforest\].            |
 | 활동   | AccessToCustomerDataRequest; 이는 고객 Lockbox 요청을 승인 하거나 거부할 때 기록 되는 감사 작업입니다.                                |
 | 항목       | 고객 Lockbox 요청의 Guid입니다.                             |
 
@@ -216,7 +216,7 @@ Office 365 관리자는 Microsoft 365 관리 센터에서 고객 Lockbox 컨트�
 
 - Inferences 및 모든 후속 Inferences (고객 콘텐츠가 유지 되는 경우)
 
-Office 365의 고객 콘텐츠에 대 한 자세한 내용은 [office 365 보안 센터](https://products.office.com/en-US/business/office-365-trust-center-privacy/)를 참조 하세요.
+Office 365의 고객 콘텐츠에 대 한 자세한 내용은 [office 365 보안 센터](https://products.office.com/business/office-365-trust-center-privacy/)를 참조 하세요.
 
 #### <a name="who-is-notified-when-there-is-a-request-to-access-my-content"></a>콘텐츠에 액세스 하는 요청이 있을 때 사용자에 게 알림을 받는 사람은 누구 인가요?
 
@@ -270,9 +270,9 @@ Office 365의 고객 콘텐츠에 대 한 자세한 내용은 [office 365 보안
 
 #### <a name="does-customer-lockbox-protect-against-data-requests-from-law-enforcement-agencies-or-other-third-parties"></a>고객 Lockbox가 법률 집행 기관 또는 기타 타사 로부터의 데이터 요청을 보호 합니까?
 
-아니요. Microsoft는 고객 데이터에 대 한 타사 요청을 심각 하 게 받아들입니다. 클라우드 서비스 공급자는 Microsoft는 항상 고객 데이터에 대 한 개인 정보를 대표 합니다. 소환장가 발생 하는 경우 Microsoft는 항상 제 3 자를 고객에 게 리디렉션하여 정보를 취득 하려고 시도 합니다. (Brad Smith의 블로그, 즉 [정부 스누핑에서 고객 데이터를 보호](https://blogs.microsoft.com/blog/2013/12/04/protecting-customer-data-from-government-snooping/)합니다.) Microsoft가 받는 법 집행 요청에 대 한 [자세한 정보](https://www.microsoft.com/en-us/corporate-responsibility/lerr) 를 주기적으로 게시 합니다.
+아니요. Microsoft는 고객 데이터에 대 한 타사 요청을 심각 하 게 받아들입니다. 클라우드 서비스 공급자는 Microsoft는 항상 고객 데이터에 대 한 개인 정보를 대표 합니다. 소환장가 발생 하는 경우 Microsoft는 항상 제 3 자를 고객에 게 리디렉션하여 정보를 취득 하려고 시도 합니다. (Brad Smith의 블로그, 즉 [정부 스누핑에서 고객 데이터를 보호](https://blogs.microsoft.com/blog/2013/12/04/protecting-customer-data-from-government-snooping/)합니다.) Microsoft가 받는 법 집행 요청에 대 한 [자세한 정보](https://www.microsoft.com/corporate-responsibility/lerr) 를 주기적으로 게시 합니다.
 
-자세한 내용은 타사 데이터 요청과 관련 된 [Microsoft 보안 센터](https://www.microsoft.com/en-us/trustcenter/default.aspx) 및 [온라인 서비스 약관](https://www.microsoft.com/Licensing/product-licensing/products.aspx) 의 "고객 데이터 공개" 섹션을 참조 하세요.
+자세한 내용은 타사 데이터 요청과 관련 된 [Microsoft 보안 센터](https://www.microsoft.com/trustcenter/default.aspx) 및 [온라인 서비스 약관](https://www.microsoft.com/Licensing/product-licensing/products.aspx) 의 "고객 데이터 공개" 섹션을 참조 하세요.
 
 #### <a name="how-does-microsoft-ensure-that-a-member-of-its-staff-doesnt-have-standing-access-to-customer-content-in-office-365-applications"></a>Microsoft는 직원 구성원이 Office 365 응용 프로그램의 고객 콘텐츠에 대 한 액세스 권한을 보유 하 고 있는지 어떻게 확인 하나요?
 

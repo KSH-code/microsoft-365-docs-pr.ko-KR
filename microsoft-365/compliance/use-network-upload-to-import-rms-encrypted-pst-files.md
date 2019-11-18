@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 84a595b8-cd77-4f66-ac52-57a33ddd4773
 description: 네트워크 업로드를 사용 하 여 RMS 암호화 PST 파일을 Office 365의 사용자 사서함으로 가져오는 방법에 대해 알아봅니다.
-ms.openlocfilehash: e14c5a7260bc8b2092075dd2ab711f4da2d3b9c2
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: c31658ead08fd1c72447f1182af28c32db421842
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37089289"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38687265"
 ---
 # <a name="use-network-upload-to-import-rms-encrypted-pst-files-to-office-365"></a>네트워크 업로드를 사용하여 RMS 암호화 PST 파일을 Office 365로 가져오기
 
@@ -110,7 +110,7 @@ Azure RMS는 기본적으로 사용 하지 않도록 설정 되어 있지만, �
     
 2. 다음 명령을 실행하여 RMS 키 공유 URL을 설정합니다.
     
-    ```
+    ```powershell
     Set-IRMConfiguration -RMSOnlineKeySharingLocation <RMS key sharing location>
     ```
 
@@ -129,13 +129,13 @@ Azure RMS는 기본적으로 사용 하지 않도록 설정 되어 있지만, �
   
     예를 들어이 명령은 북미에 있는 고객을 위해 Exchange Online에서 RMS Online 키 공유 위치를 구성 합니다.
     
-    ```
+    ```powershell
     Set-IRMConfiguration -RMSOnlineKeySharingLocation "https://sp-rms.na.aadrm.com/TenantManagement/ServicePartner.svc"
     ```
 
 3. 다음 명령을 실행 하 여 RMS Online에서 Office 365 조직으로의 TPD (트러스트 된 게시 도메인)를 가져옵니다. 
     
-    ```
+    ```powershell
     Import-RMSTrustedPublishingDomain -RMSOnline -Name "RMS Online"
     ```
 
@@ -143,7 +143,7 @@ Azure RMS는 기본적으로 사용 하지 않도록 설정 되어 있지만, �
     
 4. 다음 명령을 실행 하 여 Office 365 조 직에 대해 IRM을 사용 하도록 설정 합니다.
     
-    ```
+    ```powershell
     Set-IRMConfiguration -InternalLicensingEnabled $true
     ```
 
@@ -151,7 +151,7 @@ Azure RMS는 기본적으로 사용 하지 않도록 설정 되어 있지만, �
 
 이 섹션의 마지막 단계에서는 RMS(권한 관리 서비스) 클라이언트 2.1을 다운로드하는 것입니다. 이 소프트웨어는 Azure RMS에 대 한 액세스를 보호 하 고 Azure RMS를 사용 하는 응용 프로그램을 통한 정보 흐름을 보호 합니다. 5 단계에서 PST 파일을 암호화 하 고 업로드 하는 데 사용할 컴퓨터에 RMS 클라이언트를 설치 합니다. 
   
-1. [권한 관리 서비스 클라이언트 2.1](https://www.microsoft.com/en-us/download/details.aspx?id=38396)을 다운로드 합니다.
+1. [권한 관리 서비스 클라이언트 2.1](https://www.microsoft.com/download/details.aspx?id=38396)을 다운로드 합니다.
     
 2. Active Directory 권한 관리 서비스 클라이언트 2.1 마법사를 실행하여 클라이언트를 설치합니다.
 
@@ -163,7 +163,7 @@ Azure RMS를 설정한 후에는 Office 365에 업로드 하는 PST 파일을 �
     
 2. 다음 명령을 실행하여 Microsoft Online 서비스에 연결합니다.
     
-    ```
+    ```powershell
     Connect-MsolService
     ```
 
@@ -171,7 +171,7 @@ Azure RMS를 설정한 후에는 Office 365에 업로드 하는 PST 파일을 �
     
 4. 다음 명령을 실행하여 암호화 키(대칭 키)를 생성합니다. 새 PST 암호화 보안 주체를 만들어 이 작업을 수행합니다.
     
-    ```
+    ```powershell
     New-MsolServicePrincipal -DisplayName PstEncryptionPrincipal
     ```
 
@@ -192,7 +192,7 @@ Windows PowerShell 용 Azure Active Directory 모듈을 열어 두고 Microsoft 
   
 1. Windows PowerShell 용 Azure Active Directory 모듈 (Microsoft Online 서비스에 연결 됨)에서 다음 명령을 실행 하 여 Office 365 조직의 Azure RMS 서비스에 연결 합니다.
     
-    ```
+    ```powershell
     Connect-AadrmService 
     ```
 
@@ -200,7 +200,7 @@ Windows PowerShell 용 Azure Active Directory 모듈을 열어 두고 Microsoft 
     
 3. 다음 명령을 실행 하 여 Office 365 조직의 Azure RMS 서비스에 대 한 테 넌 트 ID를 표시 합니다.
     
-    ```
+    ```powershell
     Get-AadrmConfiguration | FL BPOSId
     ```
 
@@ -208,7 +208,7 @@ Windows PowerShell 용 Azure Active Directory 모듈을 열어 두고 Microsoft 
     
 4. 다음 명령을 실행 하 여 Azure RMS 서비스의 라이선스 위치를 표시 합니다.
     
-    ```
+    ```powershell
     Get-AadrmConfiguration | FL LicensingIntranetDistributionPointUrl
     ```
 
@@ -260,7 +260,7 @@ Azure RMS를 구성 하 고 PST 파일을 암호화 하는 데 필요한 Id를 �
     
 3. 다음 명령을 실행 하 여 PST 파일을 암호화 하 고 Office 365에 업로드 합니다.
     
-    ```
+    ```powershell
     O365ImportTool.exe /srcdir:<Location of PST files> /protect-rmsserver:<RMS licensing location> /protect-tenantid:<BPOSId> /protect-key:<Symmetric key> /transfer:upload /upload-dest:<Network upload URL> /upload-destSAS:<SAS key>
     ```
 
@@ -273,13 +273,13 @@ Azure RMS를 구성 하 고 PST 파일을 암호화 하는 데 필요한 Id를 �
     | `/protect-tenantid:` <br/> |Azure RMS 조직의 id를 지정 합니다. 3 단계에서 구한 `BPOSId` 속성 값을 사용 합니다.  <br/> | `/protect-tenantid:42745b33-2a5c-4726-8a2a-ca43caa0f74b` <br/> |
     | `/protect-key:` <br/> |2단계에서 획득한 대칭 키를 지정합니다. 이 매개 변수의 값을 큰따옴표(" ")로 묶으세요.  <br/> | `/protect-key:"l+R+Umc5RGmSBh1oW+DoyMxm/h5h2JJXFcNOFiNp867="` <br/> |
     | `/transfer:` <br/> |네트워크를 통해 PST 파일을 업로드할지 또는 하드 드라이브를 통해 발송할지를 지정합니다. 이 값 `upload` 은 네트워크를 통해 파일을 업로드 하 고 있음을 나타냅니다. 이 값 `drive` 은 pst를 하드 드라이브에 공급 중임을 나타냅니다.  <br/> | `/transfer:upload` <br/> |
-    | `/upload-dest:` <br/> |PST 파일이 업로드 되는 Office 365의 대상을 지정 합니다. 조직의 Azure 저장소 위치입니다. 이 매개 변수의 값은 4 단계에서 복사한 SAS URL의 네트워크 업로드 URL로 구성 됩니다. 이 매개 변수의 값을 큰따옴표(" ")로 묶으세요.  <br/><br/> **팁:** 반드시 Azure storage 위치에 하위 폴더를 지정 하 여 암호화 된 PST 파일을 업로드할 수 있습니다. 이렇게 하려면 네트워크 업로드 URL에 하위 폴더 위치 ("ingestiondata")를 추가 합니다. 첫 번째 예에서는 하위 폴더를 지정 하지 않습니다. 즉, Pst가 Azure 저장소 위치의 루트 ( *ingestiondata* )로 업로드 됩니다. 두 번째 예에서는 PST 파일을 Azure 저장소 위치에 *encryptedpsts* 라는 하위 폴더에 업로드 합니다.           | `/upload-dest:"https://3c3e5952a2764023ad14984.blob.core.windows.net/ingestiondata"` <br/> 또는  <br/>  `/upload-dest:"https://3c3e5952a2764023ad14984.blob.core.windows.net/ingestiondata/EncryptedPSTs"` <br/> |
+    | `/upload-dest:` <br/> |PST 파일이 업로드 되는 Office 365의 대상을 지정 합니다. 조직의 Azure 저장소 위치입니다. 이 매개 변수의 값은 4 단계에서 복사한 SAS URL의 네트워크 업로드 URL로 구성 됩니다. 이 매개 변수의 값을 큰따옴표(" ")로 묶으세요.  <br/><br/> **팁:** (선택 사항) Azure 저장소 위치에 하위 폴더를 지정 하 여 암호화 된 PST 파일을 업로드할 수 있습니다. 이렇게 하려면 네트워크 업로드 URL에 하위 폴더 위치 ("ingestiondata")를 추가 합니다. 첫 번째 예에서는 하위 폴더를 지정 하지 않습니다. 즉, Pst가 Azure 저장소 위치의 루트 ( *ingestiondata* )로 업로드 됩니다. 두 번째 예에서는 PST 파일을 Azure 저장소 위치에 *encryptedpsts* 라는 하위 폴더에 업로드 합니다.           | `/upload-dest:"https://3c3e5952a2764023ad14984.blob.core.windows.net/ingestiondata"` <br/> 또는  <br/>  `/upload-dest:"https://3c3e5952a2764023ad14984.blob.core.windows.net/ingestiondata/EncryptedPSTs"` <br/> |
     | `/upload-destSAS:` <br/> |조직의 SAS 키를 지정 합니다. 이 매개 변수의 값은 4 단계에서 복사한 SAS URL의 SAS 키로 구성 됩니다. SAS 키의 첫 번째 문자는 물음표 ("?")입니다. 이 매개 변수의 값을 큰따옴표(" ")로 묶으세요.  <br/> | `/upload-destSAS:"?sv=2012-02-12&amp;se=9999-12-31T23%3A59%3A59Z&amp;sr=c&amp;si=IngestionSasForAzCopy201601121920498117&amp;sig=Vt5S4hVzlzMcBkuH8bH711atBffdrOS72TlV1mNdORg%3D"` <br/> |
     | `/recurse` <br/> |이 선택적 스위치는 O365importtool.zip 도구에서 `/srcdir:` 매개 변수로 지정 된 원본 디렉터리의 하위 폴더에 있는 pst 파일을 복사 하도록 재귀 모드를 지정 합니다.  <br/><br/> **참고:** 이 스위치를 포함 하는 경우 하위 폴더의 PST 파일은 업로드 된 후 Azure 저장소 위치에서 파일 경로 이름이 다릅니다. 7단계에서 만드는 CSV 파일의 정확한 파일 경로 이름을 지정해야 합니다.           | `/recurse` <br/> |
    
     다음은 각 매개 변수의 실제 값을 사용하는 O365ImportTool.exe 도구의 구문 예입니다.
     
-    ```
+    ```powershell
     O365ImportTool.exe /srcdir:\\FILESERVER01\PSTs /protect-rmsserver:"https://afcbd8ec-cb2b-4a1a-8246-0b4bc22d1978.rms.na.aadrm.com/_wmcs/licensing" /protect-tenantid:42745b33-2a5c-4726-8a2a-ca43caa0f74b  /protect-key:"l+R+Umc5RGmSBh1oW+DoyMxm/h5h2JJXFcNOFiNp867=" /transfer:upload /upload-dest:"https://3c3e5952a2764023ad14984.blob.core.windows.net/ingestiondata" /upload-destSAS:"?sv=2012-02-12&amp;se=9999-12-31T23%3A59%3A59Z&amp;sr=c&amp;si=IngestionSasForAzCopy201601121920498117&amp;sig=Vt5S4hVzlzMcBkuH8bH711atBffdrOS72TlV1mNdORg%3D"
     ```
 
@@ -339,7 +339,7 @@ PST 파일을 암호화 하 고 Office 365 조 직의 Azure 저장 위치로 업
     
 2. CSV 파일을 열거나 로컬 컴퓨터에 저장합니다. 다음 예에서는 완료된 PST 가져오기 매핑 파일(메모장에서 열림)을 보여 줍니다. CSV 파일을 편집할 경우 Microsoft Excel을 사용하는 것이 훨씬 더 쉽습니다.
     
-    ```
+    ```text
     Workload,FilePath,Name,Mailbox,IsArchive,TargetRootFolder,ContentCodePage,SPFileContainer,SPManifestContainer,SPSiteUrl
     Exchange,,annb.pst.pfile,annb@contoso.onmicrosoft.com,FALSE,/,,,,
     Exchange,,annb_archive.pst.pfile,annb@contoso.onmicrosoft.com,TRUE,/ImportedPst,,,,
@@ -434,7 +434,7 @@ PST 파일을 암호화 하 고 Office 365 조 직의 Azure 저장 위치로 업
     
 - 다음은 2, 3, 4 단계에서 얻은 키, Id 및 Url의 예입니다. 또한이 예제에는 O365importtool.zip 도구에서 실행 하 여 PST 파일을 암호화 하 고 Office 365에 업로드 하는 명령에 대 한 구문도 포함 되어 있습니다. 암호나 기타 보안 관련 정보를 보호하는 것처럼 특히 주의해서 이러한 항목을 보호해야 합니다.
     
-  ```
+  ```text
   Symmetric key: l+R+Umc5RGmSBh1oW+DoyMxm/h5h2JJXFcNOFiNp867=
 
   BPOSId: 42745b33-2a5c-4726-8a2a-ca43caa0f74b

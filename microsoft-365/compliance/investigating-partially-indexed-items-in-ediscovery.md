@@ -12,12 +12,12 @@ ms.collection: M365-security-compliance
 search.appverid: MOE150
 ms.assetid: 4e8ff113-6361-41e2-915a-6338a7e2a1ed
 description: 부분적으로 인덱싱된 항목 (또한 인덱싱되지 않은 항목)은 Exchange 사서함 항목 및 몇 가지 이유로 인해 콘텐츠 검색을 위해 완전히 인덱싱되지 않은 SharePoint 및 OneDrive 사이트의 문서입니다. 이 문서에서는 검색을 위해 항목을 인덱싱할 수 없으며 부분적으로 인덱싱된 항목으로 반환 되며, 부분적으로 인덱싱된 항목에 대 한 검색 오류를 식별 하 고, PowerShell 스크립트를 사용 하 여 부분적으로 인덱싱된 전자 메일에 대 한 조직의 노출을 확인 하는 이유를 알 수 있습니다. 항목.
-ms.openlocfilehash: 78ce6fc9816707e4d8bb18da71ca2ee89386b9b8
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 4e1430fe80c01b1cc9e67777c6955790ea1c6540
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37087232"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38687201"
 ---
 # <a name="investigating-partially-indexed-items-in-office-365-ediscovery"></a>Office 365 eDiscovery에서 부분적으로 인덱싱된 항목 조사
 
@@ -84,7 +84,7 @@ ms.locfileid: "37087232"
 
 Error 태그는 두 가지 정보, 오류 및 파일 형식으로 구성 됩니다. 예를 들어 다음 오류/filetype 쌍에서 다음을 수행 합니다.
 
-```
+```text
  parseroutputsize_xls
 ```
 
@@ -120,7 +120,7 @@ Error 태그는 두 가지 정보, 오류 및 파일 형식으로 구성 됩니�
   
 1. 파일 이름 접미사. p s 1을 사용 하 여 Windows PowerShell 스크립트 파일에 다음 텍스트를 저장 합니다. 예를 `PartiallyIndexedItems.ps1`들면입니다.
 
-```
+```powershell
   write-host "**************************************************"
   write-host "     Security & Compliance Center      " -foregroundColor yellow -backgroundcolor darkgreen
   write-host "   eDiscovery Partially Indexed Item Statistics   " -foregroundColor yellow -backgroundcolor darkgreen
@@ -163,15 +163,15 @@ Error 태그는 두 가지 정보, 오류 및 파일 형식으로 구성 됩니�
   }
   
 ```
-   
+
 2. [보안 & 준수 센터 PowerShell에 연결](https://go.microsoft.com/fwlink/p/?linkid=627084)합니다.
     
 3. 보안 & 준수 센터 PowerShell에서 1 단계에서 스크립트를 저장 한 폴더로 이동한 후 스크립트를 실행 합니다. 예를 들어:
 
-    ```
+    ```powershell
     .\PartiallyIndexedItems.ps1
     ```
-   
+
 스크립트에서 반환 하는 출력의 예는 다음과 같습니다.
   
 ![조직에서 부분적으로 인덱싱된 전자 메일 항목에 대 한 보고서를 생성 하는 스크립트의 출력 예](media/aeab5943-c15d-431a-bdb2-82f135abc2f3.png)

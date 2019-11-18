@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 296a02bd-ebde-4022-900e-547acf38ddd7
 description: 사서함에 보류 또는 Office 365 보존 정책을 적용 한 다음 해당 하는 Office 365 사용자 계정을 삭제 하 여 Office 365에서 비활성 사서함을 만들 수 있습니다. 비활성 사서함의 항목은 비활성 상태가 되기 전에 적용 된 보류 또는 보존 정책의 기간 동안 보존 됩니다. 비활성 사서함을 영구적으로 삭제 하려면 보류 또는 보존 정책을 제거 하면 됩니다.
-ms.openlocfilehash: ca6fc5b579b6974ce89db14d318a6dc5a50f3f5c
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: cf2484dad9e9fda105985e9291a16a5f8a83f5c3
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37087496"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38687179"
 ---
 # <a name="create-and-manage-inactive-mailboxes-in-office-365"></a>Office 365에서 비활성 사서함 만들기 및 관리
 
@@ -73,7 +73,7 @@ Office 365에서는 삭제 된 사서함의 콘텐츠를 보존할 수 있습니
   
 1. 으로 이동 [https://protection.office.com](https://protection.office.com) 하 고 Office 365 조직의 관리자 계정에 대 한 자격 증명을 사용 하 여 로그인 합니다. 
     
-2. **데이터 거 버 넌 스** > **보존**을 클릭 합니다.
+2. **정보 거 버 넌 스** > **보존**을 클릭 합니다.
     
 3. **보존** 페이지에서 **기타**![탐색 모음 줄임표](media/9723029d-e5cd-4740-b5b1-2806e4f28208.gif)를 클릭 한 다음 **비활성 사서함**을 클릭 합니다.
     
@@ -85,7 +85,7 @@ Office 365에서는 삭제 된 사서함의 콘텐츠를 보존할 수 있습니
   
 또는 Exchange Online PowerShell에서 다음 명령을 실행 하 여 비활성 사서함 목록을 표시할 수도 있습니다.
 
-```
+```powershell
  Get-Mailbox -InactiveMailboxOnly | FT DisplayName,PrimarySMTPAddress,WhenSoftDeleted
 ```
 
@@ -93,10 +93,10 @@ Office 365에서는 삭제 된 사서함의 콘텐츠를 보존할 수 있습니
   
 다음 명령을 실행 하 여 비활성 사서함 목록과 기타 정보를 CSV 파일로 내보낼 수도 있습니다. 이 예제에서는 CSV 파일이 현재 디렉터리에 만들어집니다.
 
-```
+```powershell
 Get-Mailbox -InactiveMailboxOnly | Select Displayname,PrimarySMTPAddress,DistinguishedName,ExchangeGuid,WhenSoftDeleted | Export-Csv InactiveMailboxes.csv -NoType
 ```
-   
+
 > [!NOTE]
 > 비활성 사서함의 SMTP 주소가 활성 사용자 사서함과 같을 수 있습니다. 이 경우에는 **DistinguishedName** 또는 **ExchangeGuid** 속성 값을 사용 하 여 비활성 사서함을 고유 하 게 식별할 수 있습니다. 
   
@@ -108,13 +108,13 @@ Get-Mailbox -InactiveMailboxOnly | Select Displayname,PrimarySMTPAddress,Disting
     
 - [콘텐츠 검색 결과 내보내기](export-search-results.md)
     
-비활성 사서함을 검색할 때는 다음과 같은 몇 가지 사항을 염두에 두어야 합니다.
+다음은 비활성 사서함을 검색할 때 유의해야 하는 몇 가지 사항입니다.
   
 - 콘텐츠 검색에 사용자 사서함이 포함 된 경우 해당 사서함이 비활성 상태가 되 면 검색을 다시 실행할 때 비활성 사서함이 계속 검색 됩니다.
     
 - 일부 경우에는 사용자에 게 활성 사서함과 SMTP 주소가 같은 비활성 사서함이 있을 수 있습니다. 이 경우에는 콘텐츠 검색 위치로 선택한 특정 사서함만 검색 됩니다. 즉, 사용자의 사서함을 검색에 추가 하는 경우에는 활성 및 비활성 사서함이 모두 검색 된다고 가정할 수 없습니다. 검색에 명시적으로 추가 하는 사서함만 검색 됩니다.
     
-- 활성 사서함과 비활성 사서함을 같은 SMTP 주소로 사용 하지 않는 것이 좋습니다. 비활성 사서함에 현재 할당 되어 있는 SMTP 주소를 다시 사용 해야 하는 경우 비활성 사서함을 복구 하거나 비활성 사서함의 내용을 활성 사서함 (또는 활성 사서함의 보관 함)로 복원 하는 것이 좋습니다. 비활성 사서함
+- 동일한 SMTP 주소를 사용하는 활성 사서함과 비활성 사서함은 없는 것이 좋습니다. 비활성 사서함에 현재 할당 되어 있는 SMTP 주소를 다시 사용 해야 하는 경우 비활성 사서함을 복구 하거나 비활성 사서함의 내용을 활성 사서함 (또는 활성 사서함의 보관 함)로 복원 하는 것이 좋습니다. 비활성 사서함
     
 ## <a name="change-the-hold-duration-for-an-inactive-mailbox"></a>비활성 사서함의 보존 기간 변경
 

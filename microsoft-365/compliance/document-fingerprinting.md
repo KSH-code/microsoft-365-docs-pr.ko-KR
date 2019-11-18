@@ -10,12 +10,12 @@ ms.service: exchange-online
 ms.collection: M365-security-compliance
 localization_priority: Normal
 description: 조직에서 정보 근로자는 일상적으로 다양한 종류의 중요한 정보를 처리합니다. 문서 지문을 사용하면 조직 전체에서 사용되는 표준 양식을 식별하여 이 정보를 보다 쉽게 보호할 수 있습니다. 이 항목에서는 문서 지문을 개념 및 PowerShell을 사용 하 여 만드는 방법에 대해 설명 합니다.
-ms.openlocfilehash: 776410ec042e629e32fa6b03a2cb4fe0f2bacd2e
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 8ac8e0f44c71f0f52d362f6c6c84f7fc9e55face
+ms.sourcegitcommit: 547bfc5f1fec7545cbe71b1919454425556c9227
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37070120"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "38687108"
 ---
 # <a name="document-fingerprinting"></a>문서 지문
 
@@ -51,7 +51,7 @@ ms.locfileid: "37070120"
   
 ### <a name="supported-file-types"></a>지원되는 파일 형식
 
-문서 지문을는 메일 흐름 규칙 (전송 규칙이 라고도 함)에서 지원 되는 것과 동일한 파일 형식을 지원 합니다. 지원 되는 파일 형식 목록은 [메일 흐름 규칙 콘텐츠 검사에 지원 되는 파일 형식을](https://docs.microsoft.com/en-us/exchange/security-and-compliance/mail-flow-rules/inspect-message-attachments#supported-file-types-for-mail-flow-rule-content-inspection)참조 하세요. 파일 형식에 대 한 한 가지 간단한 참고 사항: 메일 흐름 규칙 및 문서 지문을는 dotx 파일 형식을 지원 하지 않으므로 Word의 서식 파일 이기 때문에 혼란을 가져올 수 있습니다. 이 문서 및 기타 Document 지문을 항목에 "template" 이라는 단어가 표시 되 면 서식 파일 형식이 아닌 표준 양식으로 설정한 문서를 참조 합니다.
+문서 지문을는 메일 흐름 규칙 (전송 규칙이 라고도 함)에서 지원 되는 것과 동일한 파일 형식을 지원 합니다. 지원 되는 파일 형식 목록은 [메일 흐름 규칙 콘텐츠 검사에 지원 되는 파일 형식을](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/inspect-message-attachments#supported-file-types-for-mail-flow-rule-content-inspection)참조 하세요. 파일 형식에 대 한 한 가지 간단한 참고 사항: 메일 흐름 규칙 및 문서 지문을는 dotx 파일 형식을 지원 하지 않으므로 Word의 서식 파일 이기 때문에 혼란을 가져올 수 있습니다. 이 문서 및 기타 Document 지문을 항목에 "template" 이라는 단어가 표시 되 면 서식 파일 형식이 아닌 표준 양식으로 설정한 문서를 참조 합니다.
   
 #### <a name="limitations-of-document-fingerprinting"></a>문서 지문의 제한
 
@@ -65,18 +65,18 @@ ms.locfileid: "37070120"
     
 ## <a name="use-powershell-to-create-a-classification-rule-package-based-on-document-fingerprinting"></a>PowerShell을 사용 하 여 문서 지문을를 기반으로 분류 규칙 패키지 만들기
 
-현재 보안 &amp; 및 준수 센터에서 PowerShell을 사용 하 여 문서 지문을 만들 수 있습니다. 연결 하려면 [보안 & 준수 센터 PowerShell에 연결을](https://docs.microsoft.com/en-us/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell)참조 하세요.
+현재 보안 &amp; 및 준수 센터에서 PowerShell을 사용 하 여 문서 지문을 만들 수 있습니다. 연결 하려면 [보안 & 준수 센터 PowerShell에 연결을](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell)참조 하세요.
 
-DLP는 분류 규칙 패키지를 사용 하 여 중요 한 콘텐츠를 검색 합니다. 문서 지문을 기준으로 분류 규칙 패키지를 만들려면 **DlpSensitiveInformationType** cmdlet을 **사용 합니다.** **새-dlpfingerprint** 의 결과는 데이터 분류 규칙의 외부에 저장 되지 않으므로 항상 **DlpSensitiveInformationType** 에서 **새-dlpfingerprint** 및 **DlpSensitiveInformationType** 를 실행 합니다. PowerShell 세션 다음 예에서는 C:\My Documents\Contoso Employee Template.docx 파일을 기반으로 새 문서 지문을 만듭니다. 새 지문을 변수로 저장 하 여 동일한 PowerShell 세션에서 **DlpSensitiveInformationType** cmdlet과 함께 사용할 수 있도록 합니다. 
+DLP는 분류 규칙 패키지를 사용 하 여 중요 한 콘텐츠를 검색 합니다. 문서 지문을 기준으로 분류 규칙 패키지를 만들려면 **DlpSensitiveInformationType** cmdlet을 **사용 합니다.** **새-dlpfingerprint** 의 결과는 데이터 분류 규칙의 외부에 저장 되지 않으므로 항상 동일한 PowerShell 세션에서 **DlpSensitiveInformationType** 또는 **DlpSensitiveInformationType** **를 실행 합니다** . 다음 예에서는 C:\My Documents\Contoso Employee Template.docx 파일을 기반으로 새 문서 지문을 만듭니다. 새 지문을 변수로 저장 하 여 동일한 PowerShell 세션에서 **DlpSensitiveInformationType** cmdlet과 함께 사용할 수 있도록 합니다.
   
-```
+```powershell
 $Employee_Template = Get-Content "C:\My Documents\Contoso Employee Template.docx" -Encoding byte -ReadCount 0
 $Employee_Fingerprint = New-DlpFingerprint -FileData $Employee_Template -Description "Contoso Employee Template"
 ```
 
 C:\My Documents\Contoso Customer Information Form.docx 파일의 문서 지문을 사용하는 "Contoso Employee Confidential"이라는 새 데이터 분류 규칙을 만들어 보겠습니다.
   
-```
+```powershell
 $Customer_Form = Get-Content "C:\My Documents\Contoso Customer Information Form.docx" -Encoding byte -ReadCount 0
 $Customer_Fingerprint = New-DlpFingerprint -FileData $Customer_Form -Description "Contoso Customer Information Form"
 New-DlpSensitiveInformationType -Name "Contoso Customer Confidential" -Fingerprints $Customer_Fingerprint -Description "Message contains Contoso customer information." 
@@ -86,15 +86,14 @@ New-DlpSensitiveInformationType -Name "Contoso Customer Confidential" -Fingerpri
   
 마지막으로, 보안 &amp; 및 준수 센터에서 "Contoso 고객 기밀" 데이터 분류 규칙 패키지를 DLP 정책에 추가 합니다. 이 예에서는 "ConfidentialPolicy" 라는 기존 DLP 정책에 규칙을 추가 합니다.
 
-```
+```powershell
 New-DlpComplianceRule -Name "ContosoConfidentialRule" -Policy "ConfidentialPolicy" -ContentContainsSensitiveInformation @{Name="Contoso Customer Confidential"} -BlockAccess $True
 ```
 
-다음 예제와 같이 Exchange Online의 메일 흐름 규칙에서 데이터 분류 규칙 패키지를 사용할 수도 있습니다. 이 명령을 실행 하려면 먼저 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/en-us/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell)해야 합니다. 또한 규칙 패키지를 보안 &amp; 준수 센터에서 Exchange 관리 센터와 동기화 하는 데 시간이 오래 걸립니다.
+다음 예제와 같이 Exchange Online의 메일 흐름 규칙에서 데이터 분류 규칙 패키지를 사용할 수도 있습니다. 이 명령을 실행 하려면 먼저 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell)해야 합니다. 또한 규칙 패키지를 보안 &amp; 준수 센터에서 Exchange 관리 센터와 동기화 하는 데 시간이 오래 걸립니다.
   
-```
+```powershell
 New-TransportRule -Name "Notify :External Recipient Contoso confidential" -NotifySender NotifyOnly -Mode Enforce -SentToScope NotInOrganization -MessageContainsDataClassification @{Name=" Contoso Customer Confidential"}
-
 ```
 
 이제 DLP는 Contoso Customer 양식과 일치 하는 문서를 검색 합니다.

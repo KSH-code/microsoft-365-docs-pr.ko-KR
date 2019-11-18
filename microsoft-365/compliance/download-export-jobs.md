@@ -14,18 +14,18 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Advanced eDiscovery의 검토 집합에서 내보낸 문서를 Azure 저장소 탐색기를 설치 하 고 사용 하 여 다운로드 합니다.
-ms.openlocfilehash: 4846a77d26079303f85778e71e6bdf2804ccea5e
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 412ec48865c6cb7e511e3f6068fe02d87a99f831
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37087311"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38687215"
 ---
 # <a name="download-export-jobs"></a>내보내기 작업 다운로드
 
 고급 eDiscovery 사례의 검토 집합에서 문서를 내보낼 때 문서는 Microsoft에서 제공한 Azure 저장소 위치 또는 조직에서 관리 하는 Azure 저장소 위치에 업로드 됩니다. 사용 되는 Azure Storage location 유형은 문서를 내보낼 때 선택한 옵션에 따라 달라 집니다. 
 
-이 문서에서는 Microsoft Azure Storage Explorer를 사용 하 여 Azure 저장소 위치에 연결 하 여 내보낸 문서를 찾아보고 다운로드 하는 방법에 대 한 지침을 제공 합니다. Azure Storage Explorer에 대 한 자세한 내용은 [빠른 시작: Azure Storage Explorer 사용](https://docs.microsoft.com/en-us/azure/storage/blobs/storage-quickstart-blobs-storage-explorer)을 참조 하십시오.
+이 문서에서는 Microsoft Azure Storage Explorer를 사용 하 여 Azure 저장소 위치에 연결 하 여 내보낸 문서를 찾아보고 다운로드 하는 방법에 대 한 지침을 제공 합니다. Azure Storage Explorer에 대 한 자세한 내용은 [빠른 시작: Azure Storage Explorer 사용](https://docs.microsoft.com/azure/storage/blobs/storage-quickstart-blobs-storage-explorer)을 참조 하십시오.
 
 ## <a name="step-1-install-the-azure-storage-explorer"></a>1 단계: Azure Storage Explorer 설치
 
@@ -73,7 +73,7 @@ ms.locfileid: "37087311"
 
     **Blob 컨테이너** 노드 ( **저장소 계정** > **(연결 된 컨테이너))** \> 가 열립니다. 
 
-    ![](./media/AzureStorageConnect5.png)
+    ![Blob 컨테이너 노드의 작업 내보내기](./media/AzureStorageConnect5.png)
 
     여기에는 4 단계의 표시 이름으로 이름이 지정 된 컨테이너가 포함 되어 있습니다. 이 컨테이너에는 사용자가 만든 각 내보내기 작업에 대 한 폴더가 포함 됩니다. 이러한 폴더는 내보내기 작업의 ID에 해당 하는 ID로 이름이 지정 됩니다. **작업** 탭에 나열 된 각 **내보내기 데이터 준비** 작업에 대 한 플라이 아웃 페이지의 **지원 정보** 아래에서 이러한 내보내기 id와 내보내기 이름을 찾을 수 있습니다.
 
@@ -85,7 +85,7 @@ ms.locfileid: "37087311"
 
    내보내기 작업 폴더에는 다음과 같은 항목이 포함 됩니다. 내보내기 폴더의 실제 항목은 내보내기 작업을 만들 때 구성 된 내보내기 옵션에 따라 결정 됩니다. 자세한 내용은 [문서를 검토 집합에서 내보내기를](export-documents-from-review-set.md)참조 하십시오.
 
-    - Export_load_file:이 CSV 파일은 내보낸 각 문서에 대 한 정보를 포함 하는 세부 내보내기 보고서입니다. 이 파일은 문서에 대 한 각 metadata 속성의 열로 구성 됩니다. 이 보고서에 포함 된 메타 데이터의 목록 및 설명에 대 한 자세한 내용은 [Advanced eDiscovery의 문서 메타 데이터 필드](document-metadata-fields.md)에 있는 표에서 **내보낸 필드 이름** 열을 참조 하십시오.
+    - Export_load_file .csv:이 CSV 파일은 내보낸 각 문서에 대 한 정보가 포함 된 자세한 내보내기 보고서입니다. 이 파일은 문서에 대 한 각 metadata 속성의 열로 구성 됩니다. 이 보고서에 포함 된 메타 데이터의 목록 및 설명에 대 한 자세한 내용은 [Advanced eDiscovery의 문서 메타 데이터 필드](document-metadata-fields.md)에 있는 표에서 **내보낸 필드 이름** 열을 참조 하십시오.
     
     - 요약 .txt: 내보내기 통계를 포함 하 여 내보내기 요약이 포함 된 텍스트 파일입니다.
     

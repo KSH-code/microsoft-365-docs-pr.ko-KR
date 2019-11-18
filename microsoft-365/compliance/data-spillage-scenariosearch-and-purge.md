@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 ms.assetid: d945f7dd-f62f-4ca7-b3e7-469824cfd493
 description: Office 365 eDiscovery 및 검색 도구를 사용 하 여 조직의 데이터 유출 인시던트를 관리 하 고 대응 합니다.
-ms.openlocfilehash: bf6c22a593a2611b86012cd51e3e2932a13dfe4d
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 39419982bf343c7fcc1568a1550b3cdd41968296
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37087387"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38687225"
 ---
 # <a name="ediscovery-solution-series-data-spillage-scenario---search-and-purge"></a>eDiscovery 솔루션 시리즈: 데이터 유출 시나리오-검색 및 삭제
 
@@ -82,7 +82,7 @@ EDiscovery 사례와 연결 된 콘텐츠 검색을 만들려면 [ediscovery 사
 
 콘텐츠 검색을 만든 후에는 검색 결과를 검토 하 고 유효성을 검사 하 여 삭제 해야 하는 전자 메일 메시지에 대해서만 구성 되는지 확인 해야 합니다. 콘텐츠 검색에서는 검색 결과를 내보내지 않고 1000 전자 메일 메시지의 임의 샘플링을 미리 볼 수 있으므로 더 이상 데이터 유출 되지 않습니다. [콘텐츠 검색 제한](limits-for-content-search.md)에서 미리 보기 제한 사항에 대 한 자세한 내용을 확인할 수 있습니다.
   
-사서함이 1000 개 보다 많은 사서함이 있거나 검토 하기 위해 전자 메일 메시지 수가 100 개 보다 많은 경우에는 날짜 범위 또는 보낸 사람/받는 사람과 같은 추가 키워드나 조건을 사용 하 여 초기 검색을 여러 검색으로 나누고 각 검색의 결과를 검토할 수 있습니다. 개별적으로. [7 단계](#step-7-permanently-delete-the-spilled-data)에서 메시지를 삭제할 때 사용할 모든 검색 쿼리를 기록해 두어야 합니다.
+사서함이 1000 개 보다 많은 사서함이 있거나 검토 하기 위해 전자 메일 메시지 수가 100 개 보다 많은 경우에는 날짜 범위 또는 보낸 사람/받는 사람과 같은 추가 키워드나 조건을 사용 하 여 초기 검색을 여러 검색으로 나누고 각 검색의 결과를 개별적으로 검토할 수 있습니다. [7 단계](#step-7-permanently-delete-the-spilled-data)에서 메시지를 삭제할 때 사용할 모든 검색 쿼리를 기록해 두어야 합니다.
 
 Custodian 또는 최종 사용자에 게 Office 36 E5 라이선스가 할당 된 경우 Office 365 Advanced eDiscovery를 사용 하 여 한 번에 최대 1만의 검색 결과를 확인할 수 있습니다. 검토 해야 하는 전자 메일 메시지가 1만 개 보다 많으면 검색 쿼리를 날짜별로 나누고 검색 결과가 날짜별로 정렬 되어 개별적으로 각 결과를 검토할 수 있습니다. 고급 eDiscovery에서는 미리 보기 패널에서 **레이블** 표시 기능을 사용 하 여 검색 결과에 태그를 지정 하 고, 해당 태그에 따라 검색 결과를 필터링 할 수 있습니다. 이 기능은 보조 검토자와 공동 작업할 때 유용 합니다. 고급 eDiscovery에서 광학 인식, 전자 메일 스레딩 및 예측 코딩 같은 추가 분석 도구를 사용 하 여 수천 개의 메시지를 빠르게 처리 및 검토 하 고 추가 검토를 위해 태그를 지정할 수 있습니다. [Office 365 Advanced eDiscovery에 대 한 빠른 설치를](quick-setup-for-advanced-ediscovery.md)참조 하세요.
 
@@ -154,7 +154,7 @@ Custodian 또는 최종 사용자에 게 Office 36 E5 라이선스가 할당 된
 
 단일 항목 복구를 사용 하거나 사서함을 보류 중인 경우 영구 삭제 된 메시지를 복구 가능한 항목 폴더에 보존 됩니다. 따라서 분산 된 데이터를 제거 하려면 기존 사서함 구성을 확인 하 고 단일 항목 복구를 사용 하지 않도록 설정 하 고 보류 또는 Office 365 보존 정책을 제거 해야 합니다. 한 번에 하나의 사서함을 준비한 다음 서로 다른 사서함에서 동일한 명령을 실행 하거나 PowerShell 스크립트를 만들어 여러 사서함을 동시에 준비할 수 있다는 점에 유의 하세요.
 
-- 단일 항목 복구를 사용할 수 있는지 확인 하는 방법에 대 한 지침을 보려면 [보류 중인 클라우드 기반 사서함의 복구 가능한 항목 폴더에 있는 항목 삭제](delete-items-in-the-recoverable-items-folder-of-mailboxes-on-hold.md#step-1-collect-information-about-the-mailbox) 의 "1 단계: 사서함에 대 한 정보 수집"을 참조 하세요. 보존 정책 
+- 단일 항목 복구를 사용할 수 있는지 확인 하는 방법에 대 한 지침을 보려면 [보류 중인 클라우드 기반 사서함의 복구 가능한 항목 폴더에서](delete-items-in-the-recoverable-items-folder-of-mailboxes-on-hold.md#step-1-collect-information-about-the-mailbox) 사서함에 대 한 정보 수집 "을 참조 하십시오. 
     
 - 단일 항목 복구를 사용 하지 않도록 설정 하는 방법에 대 한 지침은 [보류 중인 클라우드 기반 사서함의 복구 가능한 항목 폴더에서 항목 삭제](delete-items-in-the-recoverable-items-folder-of-mailboxes-on-hold.md#step-2-prepare-the-mailbox) 의 "2 단계: 사서함 준비"를 참조 하세요. 
     
@@ -174,24 +174,24 @@ Custodian 또는 최종 사용자에 게 Office 36 E5 라이선스가 할당 된
     
 2. 다음 명령을 실행합니다.
     
-    ```
+    ```powershell
     Search-Mailbox -Identity <mailbox identity> -SearchDumpster -DeleteContent $true -SearchQuery <search query>
     ```
-  
+
 3. Identity 매개 변수의 값을 바꿔서, 분산 된 데이터를 포함 하는 각 사서함에 대해 이전 명령을 다시 실행 합니다. 예를 들어:
 
-    ```
+    ```powershell
     Search-Mailbox -Identity sarad@contoso.onmicrosoft.com -SearchQuery <search query> -DeleteContent
     ```
 
-    ```
+    ```powershell
     Search-Mailbox -Identity janets@contoso.onmicrosoft.com -SearchQuery <search query> -DeleteContent
     ```
 
-   ```
+   ```powershell
    Search-Mailbox -Identity pilarp@contoso.onmicrosoft.com -SearchQuery <search query> -DeleteContent
    ```
-  
+
 앞에서 설명한 것 처럼 [powershell 스크립트](https://docs.microsoft.com/powershell/scripting/powershell-scripting?view=powershell-6) 를 만들어 사서함 목록에 대해 실행 하 여 스크립트가 각 사서함에서 분산 데이터를 삭제할 수도 있습니다.
   
 ## <a name="step-8-verify-provide-a-proof-of-deletion-and-audit"></a>8 단계: 확인, 삭제 증거 제공 및 감사

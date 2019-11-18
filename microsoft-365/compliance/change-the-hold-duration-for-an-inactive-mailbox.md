@@ -14,12 +14,12 @@ ms.collection:
 search.appverid: MOE150
 ms.assetid: bdee24ed-b8cf-4dd0-92ae-b86ec4661e6b
 description: Office 365 사서함이 비활성 상태가 되 면 비활성 사서함에 할당 된 보류 또는 Office 365 보존 정책의 기간을 변경할 수 있습니다. 보류 기간은 복구 가능한 항목 폴더에서 항목이 보관 되는 기간을 정의 합니다.
-ms.openlocfilehash: 7840131af3df32b8b8e5a0faa1b101f9ec8ef541
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: c07c360a557dfad5b13447bbc9fbf800f96e75d5
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37087650"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38687178"
 ---
 # <a name="change-the-hold-duration-for-an-inactive-mailbox-in-office-365"></a>Office 365에서 비활성 사서함에 대 한 보존 기간 변경
 
@@ -48,16 +48,16 @@ ms.locfileid: "37087650"
   
 Exchange Online PowerShell에서 다음 명령을 실행 하 여 조직의 모든 비활성 사서함에 대 한 보류 정보를 표시 합니다.
   
-```
+```powershell
 Get-Mailbox -InactiveMailboxOnly | FL DisplayName,Name,IsInactiveMailbox,LitigationHoldEnabled,LitigationHoldDuration,InPlaceHolds
 ```
-   
+
 **LitigationHoldEnabled** 속성의 **True** 값은 비활성 사서함이 소송 보존 상태를 나타냅니다. 원본 위치 유지, eDiscovery 보존 또는 Office 365 보존 정책이 비활성 사서함에 배치 되 면 보류 또는 보존 정책에 대 한 GUID가 **InPlaceHolds** 속성의 값으로 표시 됩니다. 예를 들어 다음은 5 개의 비활성 사서함에 대 한 결과를 보여 줍니다. 
   
 ||
 |:-----|
 |
-```
+```text
 DisplayName           : Ann Beebe
 Name                  : annb
 IsInactiveMailbox     : True
@@ -93,7 +93,7 @@ LitigationHoldEnabled : False
 LitigationHoldDuration: Unlimited
 InPlaceHolds          : {UniH7d895d48-7e23-4a8d-8346-533c3beac15d}
 ```
-   
+
 다음 표에는 각 사서함을 비활성화 하는 데 사용 되는 5 가지 서로 다른 보존 유형이 나와 있습니다.
   
 |**비활성 사서함**|**보류 유형**|**비활성 사서함에서 보류를 확인 하는 방법**|
@@ -114,7 +114,7 @@ Office 365 보존 정책에 대 한 자세한 내용은 [Overview의 보존 정�
 
 Exchange Online PowerShell을 사용 하 여 비활성 사서함에 있는 소송 보존의 보존 기간을 변경 하는 방법은 다음과 같습니다. EAC는 사용할 수 없습니다. 다음 명령을 실행 하 여 보존 기간을 변경 합니다. 이 예에서는 보존 기간이 무제한으로 변경 됩니다.
   
-```
+```powershell
 Set-Mailbox -InactiveMailbox -Identity <identity of inactive mailbox> -LitigationHoldDuration unlimited
 ```
 
@@ -131,7 +131,7 @@ Set-Mailbox -InactiveMailbox -Identity <identity of inactive mailbox> -Litigatio
 
 1. 변경할 원본 위치 유지의 이름을 알고 있는 경우 다음 단계로 이동 합니다. 그렇지 않으면 다음 명령을 실행 하 여 비활성 사서함에 배치 된 원본 위치 유지의 이름을 가져옵니다. [1 단계](#step-1-identify-the-holds-on-an-inactive-mailbox)에서 구한 원본 위치 유지 GUID를 사용 합니다.
 
-    ```
+    ```powershell
     Get-MailboxSearch -InPlaceHoldIdentity <In-Place Hold GUID> | FL Name
     ```
 
@@ -155,13 +155,13 @@ Set-Mailbox -InactiveMailbox -Identity <identity of inactive mailbox> -Litigatio
 
 1. 변경할 원본 위치 유지의 이름을 알고 있는 경우 다음 단계로 이동 합니다. 그렇지 않으면 다음 명령을 실행 하 여 비활성 사서함에 배치 된 원본 위치 유지의 이름을 가져옵니다. [1 단계](#step-1-identify-the-holds-on-an-inactive-mailbox)에서 구한 원본 위치 유지 GUID를 사용 합니다.
 
-    ```
+    ```powershell
     Get-MailboxSearch -InPlaceHoldIdentity <In-Place Hold GUID> | FL Name
     ```
 
 2. 다음 명령을 실행 하 여 보존 기간을 변경 합니다. 이 예에서는 보존 기간이 2555 일 (약 7 년)으로 변경 됩니다. 
     
-    ```
+    ```powershell
     Set-MailboxSearch <identity of In-Place Hold> -ItemHoldPeriod 2555
     ```
 
@@ -173,28 +173,28 @@ Set-Mailbox -InactiveMailbox -Identity <identity of inactive mailbox> -Litigatio
     
 - **보존 기간이 만료 되 면 어떻게 됩니까?** 복구 가능한 항목 폴더의 사서함 항목에 대해 보존 기간이 만료 되 면 해당 항목이 비활성 사서함에서 영구적으로 삭제 (제거) 됩니다. 비활성 사서함에 대 한 보존 기간을 지정 하지 않은 경우에는 복구 가능한 항목 폴더의 항목은 제거 되지 않습니다 (비활성 사서함의 보존 기간이 변경 되지 않은 경우). 
     
-- **비활성 사서함에서 Exchange 보존 정책이 여전히 처리 되 고 있습니까?** 사용 하지 않을 때 Exchange 보존 정책 (메시징 레코드 관리 또는 MRM, Exchange Online 기능)을 사서함에 적용 한 경우 **삭제** 보존 작업을 사용 하 여 구성 된 보존 태그에 해당 하는 삭제 정책이 비활성 사서함에서 계속 처리 됩니다. 즉, 삭제 정책을 사용 하 여 태그가 지정 된 항목은 보존 기간이 만료 될 때 복구 가능한 항목 폴더로 이동 됩니다. 그런 다음 항목의 보존 기간이 만료 되 면 해당 항목이 비활성 사서함에서 제거 됩니다. 
+- **비활성 사서함에서 Exchange 보존 정책이 여전히 처리 되 고 있습니까?** 사용 하지 않을 경우 Exchange 보존 정책 (메시징 레코드 관리 또는 MRM, Exchange Online 기능)이 사서함에 적용 된 경우 **삭제** 보존 작업을 사용 하 여 구성 된 보존 태그는 비활성 사서함에서 계속 처리 됩니다. 즉, 삭제 정책을 사용 하 여 태그가 지정 된 항목은 보존 기간이 만료 될 때 복구 가능한 항목 폴더로 이동 됩니다. 그런 다음 항목의 보존 기간이 만료 되 면 해당 항목이 비활성 사서함에서 제거 됩니다. 
     
     이와 반대로 비활성 사서함에 할당 된 보존 정책에 포함 된 모든 보관 정책 (인, **보관 폴더로 이동** 보존 작업을 사용 하 여 구성 하는 보존 태그)은 무시 됩니다. 즉, 보존 기간이 만료 되 면 보관 정책으로 태그가 지정 된 비활성 사서함의 항목이 기본 사서함에 남아 있습니다. 보관 사서함으로 또는 보관 사서함의 복구 가능한 항목 폴더를 이동 하지는 합니다. 사용자가 비활성 사서함에 로그인 할 수 없기 때문에 보관 정책을 처리 하기 위해 데이터 센터 리소스를 사용 해야 하는 이유는 없습니다. 
     
 - **새로 보존 기간을 확인 하려면 다음 명령 중 하나를 실행 합니다.** 첫 번째 명령은 소송 보존에 대 한 것입니다. 두 번째는 원본 위치 유지를 위한 것입니다. 
 
-    ```
+    ```powershell
     Get-Mailbox -InactiveMailboxOnly -Identity <identity of inactive mailbox> | FL LitigationHoldDuration
     ```
 
-    ```
+    ```powershell
     Get-MailboxSearch <identity of In-Place Hold> | FL ItemHoldPeriod
     ```
 
 - **일반 사서함 처럼 MFA (관리 되는 폴더 도우미)도 비활성 사서함을 처리 합니다.** Exchange Online에서 MFA는 사서함을 약 7 일 마다 처리 합니다. 비활성 사서함에 대 한 보존 기간을 변경한 후에는 **시작 ManagedFolderAssistant** cmdlet을 사용 하 여 비활성 사서함에 대 한 새 보존 기간을 즉시 처리 하도록 시작할 수 있습니다. 다음 명령을 실행합니다. 
 
-    ```
+    ```powershell
     Start-ManagedFolderAssistant -InactiveMailbox <identity of inactive mailbox>
     ```
    
 - **비활성 사서함에 많은 보존을 적용 하는 경우 보류 Guid 중 일부가 표시 되지 않습니다.** 다음 명령을 실행 하 여 비활성 사서함에 저장 된 모든 보류 (소송 보존 제외)의 Guid를 표시할 수 있습니다. 
     
-    ```
+    ```powershell
     Get-Mailbox -InactiveMailboxOnly -Identity <identity of inactive mailbox> | Select-Object -ExpandProperty InPlaceHolds
     ```

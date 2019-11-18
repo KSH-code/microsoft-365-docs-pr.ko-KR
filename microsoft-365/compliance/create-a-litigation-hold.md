@@ -10,12 +10,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid: MET150
 ms.assetid: 39db1659-0b12-4243-a21c-2614512dcb44
-ms.openlocfilehash: e6201fc938f7481a524a8d3c4171d4c1b67997e9
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 720381c067ba17614df253ffdf0543821a0bf192
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37087524"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38687184"
 ---
 # <a name="create-a-litigation-hold"></a>소송 보존 만들기
 
@@ -64,17 +64,17 @@ ms.locfileid: "37087524"
 
 [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell)에서 다음 명령을 실행 하 여 소송 보존을 만들 수도 있습니다.
 
-```
+```powershell
 Set-Mailbox <username> -LitigationHoldEnabled $true
 ```
 
 이전 명령은 보존 기간이 지정 되지 않았으므로 항목을 무기한 보존 합니다. 다음 명령을 사용 하 여 시간 기반 보존을 만들 수 있습니다.
 
-```
+```powershell
 Set-Mailbox <username> -LitigationHoldEnabled $true -LitigationHoldDuration <number of days>
 ```
 
-자세한 내용은 [Set-Mailbox](https://docs.microsoft.com/en-us/powershell/module/exchange/mailboxes/set-mailbox)를 참조 하십시오.
+자세한 내용은 [Set-Mailbox](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-mailbox)를 참조 하십시오.
 
 ## <a name="how-does-litigation-hold-work"></a>소송 보존의 작동 방식
 

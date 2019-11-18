@@ -3,7 +3,7 @@ title: Office 365의 &amp; 보안 준수 계획
 ms.author: chrfox
 author: chrfox
 manager: laurawi
-ms.date: 3/15/2018
+ms.date: ''
 audience: Admin
 ms.topic: hub-page
 ms.service: O365-seccomp
@@ -14,12 +14,12 @@ search.appverid:
 ms.assetid: dc4f704c-6fcc-4cab-9a02-95a824e4fb57
 description: 계획 보안 및 규정 준수에 대 한 랜딩 페이지
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 3619a5e22a5bc957b001dd4f42a9569a7543e6b5
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 86eef432f30ea9a437f0857f693d62eb23f4ba8d
+ms.sourcegitcommit: 547bfc5f1fec7545cbe71b1919454425556c9227
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088556"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "38687113"
 ---
 # <a name="plan-for-security-amp-compliance-in-office-365"></a>Office 365의 &amp; 보안 준수 계획
 
@@ -51,7 +51,7 @@ Office 365 데이터 및 서비스에 대 한 액세스를 보호 하는 것은 
 
 3 가지 보호 수준으로 구성 된 파일 보호 기능을 검토 하 고 계획 합니다.
   
-[PDF](http://download.microsoft.com/download/7/8/9/789645A5-BD10-4541-BC33-F8D1EFF5E911/MSFT_cloud_architecture_O365%20file%20protection.pdf) | [Visio](http://download.microsoft.com/download/7/8/9/789645A5-BD10-4541-BC33-F8D1EFF5E911/MSFT_cloud_architecture_O365%20file%20protection.vsdx)
+[PDF](https://download.microsoft.com/download/7/8/9/789645A5-BD10-4541-BC33-F8D1EFF5E911/MSFT_cloud_architecture_O365%20file%20protection.pdf) | [Visio](https://download.microsoft.com/download/7/8/9/789645A5-BD10-4541-BC33-F8D1EFF5E911/MSFT_cloud_architecture_O365%20file%20protection.vsdx)
   
 ## <a name="step-5-leverage-the-microsoft-365-security-amp-compliance-center"></a>5 단계: Microsoft 365 보안 &amp; 및 준수 센터 활용
 
@@ -59,9 +59,9 @@ Office 365 데이터 및 서비스에 대 한 액세스를 보호 하는 것은 
   
 - [Office 365 보안 &amp; 및 준수 센터로 이동](go-to-the-securitycompliance-center.md)
     
-- [Permissions in the Office 365 Security &amp; Compliance Center](/security/office-365-security/protect-against-threats.md)
+- [Permissions in the Office 365 Security &amp; Compliance Center](~/security/office-365-security/protect-against-threats.md)
     
-- [사용자에 게 Office 365 보안 &amp; 및 준수 센터에 대 한 액세스 권한 부여](/security/office-365-security/grant-access-to-the-security-and-compliance-center.md)
+- [사용자에 게 Office 365 보안 &amp; 및 준수 센터에 대 한 액세스 권한 부여](~/security/office-365-security/grant-access-to-the-security-and-compliance-center.md)
     
 ## <a name="step-6-use-end-to-end-security-scenarios-as-starting-points"></a>6 단계: 시작 점으로 종단 간 보안 시나리오 사용
 
@@ -69,7 +69,7 @@ Office 365 데이터 및 서비스에 대 한 액세스를 보호 하는 것은 
   
 - [전자 메일 정책 및 구성 보안](https://docs.microsoft.com/microsoft-365/enterprise/secure-email-recommended-policies)
     
-- [Microsoft 클라우드의 Contoso](http://aka.ms/cloudarchcontoso)
+- [Microsoft 클라우드의 Contoso](https://aka.ms/cloudarchcontoso)
     
 ## <a name="microsoft-365-admin-centers-and-dashboards"></a>Microsoft 365 관리 센터 및 대시보드
 
@@ -80,5 +80,3 @@ Office 365 데이터 및 서비스에 대 한 액세스를 보호 하는 것은 
 |Office 365  <br/> |`https://admin.microsoft.com`  <br/> | Microsoft 365 관리 센터  <br/>  Security &amp; Compliance Center  <br/>  Exchange 관리 센터  <br/>  SharePoint 관리 센터 및 비즈니스용 OneDrive 관리 센터  <br/> |
 |Enterprise Mobility + Security  <br/> |`https://portal.azure.com`  <br/> | Azure Active Directory  <br/>  Microsoft 모바일 응용 프로그램 관리  <br/>  Microsoft Intune  <br/> |
 |Enterprise Mobility + Security  <br/> |`https://portal.cloudappsecurity.com`  <br/> | Cloud App Security  <br/> |
-   
-

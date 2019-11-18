@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 59414438-99f5-488b-975c-5023f2254369
 description: 'DLP 정책을 사용하여 가장 쉽고 가장 일반적인 방법은 Office 365에 포함된 템플릿 중 하나를 사용하는 것입니다. '
-ms.openlocfilehash: b13dab63514dc8658479dbd68d5a014dc7347bb8
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 9748e3dc51a322ad3a77bab800d64925da95eeeb
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37087460"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38687049"
 ---
 # <a name="create-test-and-tune-a-dlp-policy"></a>DLP 정책 만들기, 테스트 및 조정
 
@@ -107,7 +107,7 @@ TFN 검색을 대신 사용 하는 방법에 대 한 자세한 내용은 "세금
 
 ![호주 세금 파일 번호 체크섬을 통과 하지 않음](media/DLP-create-test-tune-email-test1.png)
 
-비교에서는 "세금 파일 번호" 라는 단어가 포함 된 전자 메일 및 체크섬을 통과 하는 유효한 TFN이 정책을 트리거합니다. 여기에서 사용 중인 TFN은 정품이 아닌 유효한 TFNs를 생성 하는 웹 사이트에서 가져온 것 이었습니다. [유효 하지만 가짜 신용 카드 번호](http://www.fakecreditcardgenerator.net/)를 생성 하는 비슷한 사이트가 있습니다. 이러한 사이트는 DLP 정책을 테스트할 때 가장 흔히 발생 하는 실수 중 하나는 유효 하지 않은 가짜 번호를 사용 하 고 체크섬을 전달 하지 않으므로 정책을 트리거하지 않으므로 매우 유용 합니다.
+비교에서는 "세금 파일 번호" 라는 단어가 포함 된 전자 메일 및 체크섬을 통과 하는 유효한 TFN이 정책을 트리거합니다. 여기에서 사용 중인 TFN은 정품이 아닌 유효한 TFNs를 생성 하는 웹 사이트에서 가져온 것 이었습니다. [유효 하지만 가짜 신용 카드 번호](https://www.fakecreditcardgenerator.net/)를 생성 하는 비슷한 사이트가 있습니다. 이러한 사이트는 DLP 정책을 테스트할 때 가장 흔히 발생 하는 실수 중 하나는 유효 하지 않은 가짜 번호를 사용 하 고 체크섬을 전달 하지 않으므로 정책을 트리거하지 않으므로 매우 유용 합니다.
 
 ![오스트레일리아 세금 검사를 통과 한 파일 번호](media/DLP-create-test-tune-email-test2.png)
 
@@ -203,7 +203,7 @@ DLP 정책이 정확 하 고 효과적으로 중요 한 정보 유형을 검색 
 
 ![정책을 설정 하는 옵션](media/DLP-create-test-tune-turn-on-policy.png)
  
-정책이 적용 될 시기를 확인 하려면 [Security & 준수 센터 PowerShell에 연결](https://docs.microsoft.com/en-us/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps) 하 고 [remove-dlpcompliancepolicy cmdlet](https://docs.microsoft.com/en-us/powershell/module/exchange/policy-and-compliance-dlp/get-dlpcompliancepolicy?view=exchange-ps) 을 실행 하 여 DistributionStatus를 확인 하세요.
+정책이 적용 될 시기를 확인 하려면 [Security & 준수 센터 PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps) 하 고 [remove-dlpcompliancepolicy cmdlet](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-dlp/get-dlpcompliancepolicy?view=exchange-ps) 을 실행 하 여 DistributionStatus를 확인 하세요.
 
 ![PowerShell에서 cmdlet 실행](media/DLP-create-test-tune-PowerShell.png)
 

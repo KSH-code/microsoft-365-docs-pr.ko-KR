@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: ba85ef90570dfbf2228148bf5211a4b041a1cb61
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: a6259d839dd9a0ca196bae37afe374d1d8f21d53
+ms.sourcegitcommit: f0a4290793e296474ecd3c6eb0ca96eae7faa434
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37087257"
+ms.lasthandoff: 11/11/2019
+ms.locfileid: "38687116"
 ---
 # <a name="advanced-indexing-of-custodian-data"></a>보유자 데이터의 고급 인덱싱
 
@@ -29,14 +29,17 @@ Office 365 및 부분적으로 인덱싱된 항목의 처리 지원에 대 한 �
 
 - [고급 eDiscovery에서 지원 되는 파일 형식](supported-filetypes-ediscovery20.md)
 - [Office 365의 콘텐츠 검색에서 부분적으로 인덱싱된 항목](partially-indexed-items-in-content-search.md)
-- [Exchange 검색에서 인덱싱하는 파일 형식](https://docs.microsoft.com/en-us/exchange/file-formats-indexed-by-exchange-search-exchange-2013-help)
-- [SharePoint Server의 크롤링되는 기본 파일 이름 확장명 및 구문 분석되는 파일 형식](https://docs.microsoft.com/en-us/SharePoint/technical-reference/default-crawled-file-name-extensions-and-parsed-file-types)
+- [Exchange 검색에서 인덱싱하는 파일 형식](https://docs.microsoft.com/exchange/file-formats-indexed-by-exchange-search-exchange-2013-help)
+- [SharePoint Server의 크롤링되는 기본 파일 이름 확장명 및 구문 분석되는 파일 형식](https://docs.microsoft.com/SharePoint/technical-reference/default-crawled-file-name-extensions-and-parsed-file-types)
 
 ## <a name="viewing-advanced-indexing-results"></a>고급 인덱싱 결과 보기
 
 고급 인덱싱 프로세스가 완료 되 면 다시 처리할 때의 효과를 이해 하는 데 도움이 될 수 있습니다.  Custodian 인덱싱 보기에서 그래프에는 *하이브리드 인덱스*에 추가 된 모든 항목이 나열 됩니다.  하이브리드 인덱스는 고급 eDiscovery가 다시 처리 된 콘텐츠를 저장 하는 위치입니다.
 
-또한 그래프에는 수정이 필요한 항목 수와 파일 형식별로 다른 오류 그래프가 포함 되어 있습니다. 자세한 내용은 [데이터를 처리할 때 오류 수정을](error-remediation.md)참조 하십시오.
+또한 그래프에는 수정이 필요한 항목 수와 파일 형식별로 다른 오류 그래프가 포함 되어 있습니다. 자세한 내용은 다음을 참조하세요.
+
+- [데이터를 처리할 때 오류 수정](error-remediation.md)
+- [단일 항목 오류 수정](single-item-error-remediation.md)
 
 ## <a name="updating-advanced-indexes-for-custodians"></a>Custodians에 대 한 고급 인덱스 업데이트
 

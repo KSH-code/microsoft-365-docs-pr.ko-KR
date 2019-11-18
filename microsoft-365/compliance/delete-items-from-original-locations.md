@@ -1,5 +1,5 @@
 ---
-title: 원래 위치에서 항목 삭제
+title: Delete items from their original location
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -8,18 +8,20 @@ ms.audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
-ms.collection: M365-security-compliance
+ms.collection:
+- M365-security-compliance
+- SPO_Content
 search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
 description: 이 문서에서는 보안 & 준수 센터에서 새 데이터 조사 (미리 보기) 도구를 사용 하 여 원래 위치에서 항목을 삭제 하는 방법을 설명 합니다.
-ms.openlocfilehash: d855a8e4c69d64cdb37c40b37b042c2571af67a8
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: c121cda03a4f5143275074aa288ae1f0a5548bfc
+ms.sourcegitcommit: e4f2f06daa264b8b476813a2dfe80cffb59f968f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37070661"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "38687168"
 ---
 # <a name="delete-items-from-their-original-location-preview"></a>원래 위치에서 항목 삭제 (미리 보기)
 
@@ -29,7 +31,7 @@ ms.locfileid: "37070661"
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
-- 항목을 삭제 하려면 보안 & 준수 센터에서 **검색 및 삭제** 역할을 할당 받아야 합니다. 이 역할은 기본 제공 Data Investigator 역할 그룹에 기본적으로 할당 됩니다. 
+- 항목을 삭제 하려면 보안 & 준수 센터에서 **검색 및 삭제** 역할을 할당 받아야 합니다. 이 역할은 기본 제공 Data Investigator 역할 그룹에 기본적으로 할당 됩니다.
 
 - 이 항목의 절차에서는 조사와 연결 된 검색을 실행 하 고 검색 결과를 증거 집합에 추가 했다고 가정 합니다. 검색 결과가 증명 정보에 있는 후 삭제할 항목을 하나 이상 선택할 수 있습니다. 자세한 내용은 [조사에서 데이터 검색](search-for-data.md)을 참조 하십시오.
 
@@ -41,7 +43,7 @@ ms.locfileid: "37070661"
 
 1. **데이터 조사** 도구에서 삭제 하려는 항목이 포함 된 데이터 조사를 열고 **증거** 탭을 클릭 합니다.
 
-2. 삭제 하려는 항목을 선택 합니다. 증거 집합의 모든 항목을 선택 하거나 항목의 하위 집합만 선택할 수 있습니다. 
+2. 삭제 하려는 항목을 선택 합니다. 증거 집합의 모든 항목을 선택 하거나 항목의 하위 집합만 선택할 수 있습니다.
 
    > [!NOTE]
    > SharePoint 및 OneDrive의 문서에 첨부 된 전자 메일 또는 첨부 파일을 선택 하는 경우 해당 항목이 원래 위치에서 삭제 되 면 상위 항목도 선택 되 고 삭제 됩니다. 마찬가지로 첨부 파일이 있는 항목을 선택 하는 경우에는 상위 항목 항목과 모든 첨부 파일이 삭제 됩니다.
@@ -57,11 +59,11 @@ ms.locfileid: "37070661"
    > [!NOTE]
    > 이전 스크린샷에서 항목 수는 삭제 하기 위해 선택한 항목 수를 나타냅니다. 문서 수는 부모 항목에 첨부 된 모든 파일을 포함 하는 총 항목 수를 나타냅니다. 예를 들어 하나의 전자 메일 메시지를 선택 하 고 해당 메시지에 첨부 된 Word 문서가 있는 경우 **선택한 문서** 아래에 표시 되는 항목 및 문서 수는 **1 개 항목 (문서 2 개)** 일 뿐입니다.
 
-**작업 탭에서** **원래 위치에서 항목 삭제** 작업의 진행 상태를 추적할 수 있습니다. 작업을 클릭 하 여 플라이 아웃 페이지를 표시 합니다. 
+**작업 탭에서** **원래 위치에서 항목 삭제** 작업의 진행 상태를 추적할 수 있습니다. 작업을 클릭 하 여 플라이 아웃 페이지를 표시 합니다.
 
 ![원래 위치 작업의 삭제 항목에 대 한 플라이 아웃 페이지](media/DataInvestigationsDeleteItems3.png)
 
-작업의 항목이 삭제 되 면 작업 상태가 **성공**으로 설정 됩니다. 또한 완료 된 작업의 시간 및 날짜도 표시 됩니다. 
+작업의 항목이 삭제 되 면 작업 상태가 **성공**으로 설정 됩니다. 또한 완료 된 작업의 시간 및 날짜도 표시 됩니다.
 
 ![완료 된 항목 삭제 작업](media/DataInvestigationsDeleteItems4.png)
 

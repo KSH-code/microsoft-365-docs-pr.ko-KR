@@ -8,18 +8,20 @@ audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
-ms.collection: M365-security-compliance
+ms.collection:
+- M365-security-compliance
+- SPO_Content
 search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 1e457ffa05670e6a8b48692bbb382ebd8f2b404e
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 1cea83ffec8af8b22b5a27e9d760946e71ba7f68
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088176"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38687233"
 ---
 # <a name="manage-holds-in-advanced-ediscovery"></a>Advanced eDiscovery에서 보류 관리
 
@@ -27,7 +29,7 @@ ms.locfileid: "37088176"
 
 ## <a name="manage-custodian-based-holds"></a>Custodian 유지 관리
 
-경우에 따라 식별 하 고 choosen 보존을 위해 custodians 데이터 집합을 가질 수 있습니다. 고급 eDiscovery에서 이러한 custodians 보존 되 면 사용자 및 선택한 데이터 원본이 custodian 보류 정책에 자동으로 추가 됩니다. 
+경우에 따라 식별 하 고, 사례 중에 데이터를 보존 하도록 결정 하는 custodians 집합이 있을 수 있습니다. 고급 eDiscovery에서 이러한 custodians 보존 되 면 사용자 및 선택한 데이터 원본이 custodian 보류 정책에 자동으로 추가 됩니다. 
 
 Custodian 보류 정책을 보려면 다음을 수행 합니다.
 
@@ -64,7 +66,7 @@ Custodian 보류 정책을 보려면 다음을 수행 합니다.
   
 8. 보류 상태로 설정할 콘텐츠 위치를 선택 합니다. 사서함, 사이트 및 공용 폴더를 보류에 배치할 수 있습니다.
 
-   위한. **Exchange 전자 메일** - **사용자, 그룹 또는 팀 선택을** 클릭 한 다음 **사용자, 그룹 또는 팀** 을 다시 선택을 클릭 하 여 보류할 사서함을 지정 합니다. 검색 상자를 사용 하 여 사용자 사서함과 메일 그룹 (그룹 구성원의 사서함을 보류)을 보류 상태로 설정 합니다. Office 365 그룹 또는 Microsoft 팀에 대 한 연결 된 사서함을 보류할 수도 있습니다. 사용자, 그룹, 팀 확인란을 선택 하 고 **선택을**클릭 한 후 **완료**를 클릭 합니다.
+   a. **Exchange 전자 메일** - **사용자, 그룹 또는 팀 선택을** 클릭 한 다음 **사용자, 그룹 또는 팀** 을 다시 선택을 클릭 하 여 보류할 사서함을 지정 합니다. 검색 상자를 사용 하 여 사용자 사서함과 메일 그룹 (그룹 구성원의 사서함을 보류)을 보류 상태로 설정 합니다. Office 365 그룹 또는 Microsoft 팀에 대 한 연결 된 사서함을 보류할 수도 있습니다. 사용자, 그룹, 팀 확인란을 선택 하 고 **선택을**클릭 한 후 **완료**를 클릭 합니다.
  
     > [!NOTE]
     > **사용자, 그룹 또는 팀 선택을** 클릭 하 여 보류 중인 사서함을 지정 하는 경우 표시 되는 사서함 선택은 비어 있습니다. 이것은 성능을 향상시키기 위한 것입니다. 이 목록에 사용자를 추가 하려면 검색 상자에 이름 (최소 3 자)을 입력 합니다.
@@ -86,7 +88,7 @@ Custodian 보류 정책을 보려면 다음을 수행 합니다.
 
     - 조건 **추가** 를 클릭 하 여 보류에 대 한 검색 쿼리 범위를 좁히는 조건을 하나 이상 추가 합니다. 각 조건은 보류를 만들 때 만들어지고 실행 되는 KQL 검색 쿼리에 절을 추가 합니다. 예를 들어 날짜 범위를 지정 하 여 원거리 시간 내에 만들어진 전자 메일 또는 사이트 문서를 보류할 수 있습니다. 조건은 AND 연산자를 사용하여 키워드 쿼리(키워드 상자에 지정)에 논리적으로 연결됩니다. 즉, 항목이 유지 되도록 키워드 쿼리와 조건을 모두 충족 해야 합니다.
 
-     검색 쿼리를 만들고 조건을 사용 하는 방법에 대 한 자세한 내용은 [키워드 쿼리 및 검색 조건을](https://docs.microsoft.com/en-us/office365/SecurityCompliance/keyword-queries-and-search-conditions)참조 하십시오.
+     검색 쿼리를 만들고 조건을 사용 하는 방법에 대 한 자세한 내용은 [키워드 쿼리 및 검색 조건을](https://docs.microsoft.com/office365/SecurityCompliance/keyword-queries-and-search-conditions)참조 하십시오.
 
 12. 쿼리 기반 보존을 구성한 후 **다음**을 클릭 합니다.
  
@@ -116,10 +118,10 @@ Custodian 보류 정책을 보려면 다음을 수행 합니다.
 - **추가 Office 365 그룹 또는 Microsoft 팀 사이트를 custodian에 매핑하는 방법은 무엇 인가요? Office 365 그룹 및 Microsoft 팀에 Custodial 되지 않는 보류를 배치 하는 방법은 무엇 인가요?** Microsoft 팀은 Office 365 그룹을 기반으로 작성 됩니다. 따라서 eDiscovery 사례에서 보류를 설정 하는 것은 매우 유사 합니다. Office 365 그룹과 Microsoft 팀을 보류할 때 다음과 같은 사항을 염두에 두어야 합니다.
   - 보류 중인 Office 365 그룹 및 Microsoft 팀에 있는 콘텐츠를 배치 하려면 그룹 또는 팀과 연결 된 사서함 및 SharePoint 사이트를 지정 해야 합니다.
   
-  - Exchange Online에서 **remove-unifiedgroup** cmdlet을 실행 하 여 Office 365 그룹 또는 Microsoft Team의 속성을 볼 수 있습니다. 이를 통해 Office 365 그룹 또는 Microsoft 팀에 연결 된 사이트의 URL을 가져올 수 있습니다. 예를 들어 다음 명령은 선임 리더십 팀 이라는 Office 365 그룹에 대해 선택 된 속성을 표시 합니다.
+  - Exchange Online에서 **remove-unifiedgroup** cmdlet을 실행 하 여 Office 365 그룹 또는 Microsoft Team의 속성을 볼 수 있습니다. 이를 통해 Office 365 그룹 또는 Microsoft 팀에 연결 된 사이트의 URL을 가져올 수 있습니다. 예를 들어 다음 명령을 실행하면 Senior Leadership Team이라는 Office 365 그룹의 선택된 속성이 표시됩니다.
 
 
-    ```
+    ```text
     Get-UnifiedGroup "Senior Leadership Team" | FL DisplayName,Alias,PrimarySmtpAddress,SharePointSiteUrl
     DisplayName            : Senior Leadership Team
     Alias                  : seniorleadershipteam
@@ -128,24 +130,24 @@ Custodian 보류 정책을 보려면 다음을 수행 합니다.
     ```
 
     > [!NOTE]
-    > Remove-unifiedgroup cmdlet을 실행 하려면 Exchange Online에서 보기 전용 받는 사람 역할을 할당 받거나 보기 전용 받는 사람 역할이 할당 된 역할 그룹의 구성원 이어야 합니다.
+    > Get-UnifiedGroup cmdlet를 실행하려면 Exchange Online에서 보기 전용 받는 사람 역할을 할당받았거나 보기 전용 받는 사람 역할이 할당된 역할 그룹의 구성원이어야 합니다.
 
  - 사용자의 사서함이 검색 되 면 사용자가 구성원으로 속해 있는 모든 Office 365 그룹 또는 Microsoft 팀이 검색 되지 않습니다. 마찬가지로, Office 365 그룹 또는 Microsoft 팀을 유지 하면 그룹 사서함과 그룹 사이트만 보존 됩니다. 그룹 구성원의 사서함 및 비즈니스용 OneDrive 사이트는 명시적으로 custodians로 추가 하거나 데이터 원본을 유지 하는 경우가 아니면 보류 되지 않습니다. 따라서 특정 custodian으로 Office 365 그룹이 나 Microsoft Team을 보류할 필요가 있는 경우 그룹 사이트 및 그룹 사서함을 custodian에 매핑하는 것이 좋습니다 (Advanced eDiscovery에서 Custodians 관리 참조). Office 365 그룹 또는 Microsoft 팀이 단일 custodian으로 인 한 경우에는 custodial 되지 않은 보류에 원본을 추가 하는 것이 좋습니다. 
  
- - Office 365 그룹 또는 Microsoft Team의 구성원 목록을 가져오려면 Microsoft 365 관리 센터의 홈 > 그룹 페이지에서 속성을 볼 수 있습니다. 또는 Exchange Online PowerShell에서 다음 명령을 실행할 수도 있습니다.
+ - Office 365 그룹 또는 Microsoft Team의 구성원 목록을 가져오려면 Microsoft 365 관리 센터의 홈 > 그룹 페이지에서 속성을 볼 수 있습니다. 또는 Exchange Online PowerShell에서 다음 명령을 실행할 수 있습니다.
 
-   ``` 
+   ```powershell
    Get-UnifiedGroupLinks <group or team name> -LinkType Members | FL DisplayName,PrimarySmtpAddress
    ```
 
     > [!NOTE]
-    > **Add-unifiedgrouplinks** cmdlet을 실행 하려면 Exchange Online에서 보기 전용 받는 사람 역할을 할당 받거나 보기 전용 받는 사람 역할이 할당 된 역할 그룹의 구성원 이어야 합니다.
+    > **Get-UnifiedGroupLinks** cmdlet를 실행하려면 Exchange Online에서 보기 전용 받는 사람 역할을 할당받았거나 보기 전용 받는 사람 역할이 할당된 역할 그룹의 구성원이어야 합니다.
 
-- Microsoft 팀 채널의 일부인 채널 대화는 팀과 연결 된 사서함에 저장 됩니다. 마찬가지로 팀 구성원이 채널에서 공유 하는 파일은 팀의 SharePoint 사이트에 저장 됩니다. 따라서 대화 및 파일을 채널에 유지 하려면 Microsoft 팀 사서함 및 SharePoint 사이트를 보류 상태로 설정 해야 합니다.
+- Microsoft 팀 채널의 일부인 채널 대화는 팀과 연결 된 사서함에 저장 됩니다. 마찬가지로 팀 구성원이 채널에서 공유하는 파일은 팀의 SharePoint 사이트에 저장됩니다. 따라서 대화 및 파일을 채널에 유지 하려면 Microsoft 팀 사서함 및 SharePoint 사이트를 보류 상태로 설정 해야 합니다.
   
 - 또는 Microsoft 팀의 채팅 목록에 포함 된 대화는 채팅에 참가 하는 사용자의 사서함에 저장 됩니다.  사용자가 채팅 대화에서 공유 하는 파일은 해당 파일을 공유 하는 사용자의 비즈니스용 OneDrive 사이트에 저장 됩니다. 따라서 채팅 목록에 있는 대화 및 파일을 유지 하려면 개별 사용자 사서함과 비즈니스용 OneDrive 사이트를 보존 해야 합니다. 
   
-- 모든 Microsoft 팀 또는 팀 채널에는 노트 기록 및 공동 작업을 위한 Wiki가 포함 되어 있습니다. Wiki 콘텐츠가 .mht 형식의 파일에 자동으로 저장 됩니다. 이 파일은 팀의 SharePoint 사이트에 있는 팀 위 키 데이터 문서 라이브러리에 저장 됩니다. 팀의 SharePoint 사이트를 보류 하 여 해당 콘텐츠를 Wiki에 배치할 수 있습니다.
+- 모든 Microsoft 팀 또는 팀 채널에는 노트 기록 및 공동 작업을 위한 Wiki가 포함 되어 있습니다. Wiki 콘텐츠는 자동으로 .mht 형식의 파일에 저장됩니다. 이 파일은 팀의 SharePoint 사이트에 있는 Teams Wiki Data 문서 라이브러리에 저장됩니다. 팀의 SharePoint 사이트를 보류 하 여 해당 콘텐츠를 Wiki에 배치할 수 있습니다.
 
   > [!NOTE]
   > Microsoft 팀 또는 팀 채널에 대 한 Wiki 콘텐츠를 보존 하는 기능 (팀의 SharePoint 사이트를 보류할 때)은 6 월 22 2017 일에 릴리스 되었습니다. 팀 사이트를 보류 중인 경우에는 해당 날짜에 대해 Wiki 콘텐츠가 유지 됩니다. 그러나 팀 사이트가 유지 되 고 Wiki 콘텐츠가 6 월 22 2017 일 이전에 삭제 된 경우에는 Wiki 콘텐츠가 보존 되지 않습니다.

@@ -12,12 +12,12 @@ mscollection: M365-security-compliance
 ms.custom: Adm_O365
 ms.assetid: f30e2353-0bd6-41ed-8347-eea1fb8d2662
 description: Office 365, Azure 및 Dynamics 365 Online 규정 준수 보고서의 경우 타사 감사를 보려면 Microsoft에서 고객 데이터를 안전 하 게 보호 하는 방법과 이러한 온라인 서비스를 사용할 때 ISO, HIPAA, NIST, FINRA, GDPR 및 FedRAMP를 준수 하는 방법을 확인 하세요.
-ms.openlocfilehash: 80dd054787957941353cbb76489fc7063d17a416
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 22968c23b1d521b8fd48e9eccd4679e0a6dd2ed2
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37087286"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38687199"
 ---
 # <a name="get-started-with-the-microsoft-service-trust-portal"></a>Microsoft Service Trust Portal 시작
 
@@ -58,7 +58,7 @@ Microsoft Service Trust Portal은 Microsoft 보안, 개인 정보 및 규정 준
 
 다음 섹션에서는 주 메뉴의 각 항목에 대해 설명 합니다.
   
-### <a name="service-trust-portal"></a>서비스 보안 포털
+### <a name="service-trust-portal"></a>Service Trust Portal
 
 **서비스 신뢰 포털** 링크에 홈 페이지가 표시 됩니다. 이를 통해 홈 페이지로 빠르게 다시 이동할 수 있습니다.
 
@@ -76,7 +76,7 @@ Microsoft Service Trust Portal은 Microsoft 보안, 개인 정보 및 규정 준
 
   감사 보고서 및 **감사 보고서** 의 링크에 대 한 정보는 Service Trust Portal 홈 페이지에도 표시 됩니다. 
   
-- **준수** 관리자-준수 관리자는 Office 365, Dynamics 365와 같은 Microsoft 클라우드 서비스와 관련 된 조직의 규정 준수 활동을 추적, 할당 및 확인 하는 데 도움이 되는 워크플로 기반 위험 평가 도구입니다. Microsoft. 준수 관리자를 사용 하 여 클라우드의 공유 책임 모델 내에서 규정 준수를 관리 합니다. 자세한 내용은 [Microsoft 클라우드 서비스를 사용 하는 경우 준수 관리자를 사용 하 여 데이터 보호 및 규정 요구 사항을 충족](meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md)합니다 .를 참조 하세요.
+- **준수** 관리자-준수 관리자는 Office 365, Dynamics 365 및 Azure와 같은 Microsoft 클라우드 서비스와 관련 된 조직의 규정 준수 활동을 추적, 할당 및 확인 하는 데 도움이 되는 워크플로 기반 위험 평가 도구입니다. 준수 관리자를 사용 하 여 클라우드의 공유 책임 모델 내에서 규정 준수를 관리 합니다. 자세한 내용은 [Microsoft 클라우드 서비스를 사용 하는 경우 준수 관리자를 사용 하 여 데이터 보호 및 규정 요구 사항을 충족](meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md)합니다 .를 참조 하세요.
 
 ### <a name="industries--regions"></a>산업 & 지역
 
@@ -86,14 +86,14 @@ Microsoft 클라우드 서비스에 대 한 업계 및 지역별 규정 준수 �
 
     - Education
     - 금융 서비스
-    - 주민
+    - 정부
     - 상태
     - 제조
-    - 판매점
+    - 소매
 
 - **지역** -Microsoft 클라우드 서비스에서 다양 한 국가의 다양 한 법칙을 준수 하는 법적 의견을 제공 합니다. 특정 국가에는 오스트레일리아, 체코 공화국, 독일, 폴란드, 루마니아, 스페인, 영국 등이 있습니다.
   
-### <a name="documents--resources"></a>문서 & 리소스
+### <a name="documents--resources"></a>문서 및 리소스
 
 Microsoft 클라우드 서비스가 데이터를 안전 하 게 유지 하는 방법을 이해 하 여 규정 준수 목표를 보다 쉽게 이해할 수 있도록 하는 다양 한 보안 구현 및 디자인 정보를 제공 합니다. 콘텐츠를 검토 하려면 **문서 & 자원** 페이지의 옵션 중 하나를 선택 합니다.
 
@@ -112,7 +112,7 @@ Microsoft 클라우드에서 보안, 규정 준수 및 개인 정보 보호에 �
 
 이 새로운 기능을 사용 하면 문서를 저장 하거나 *고정*하 여 내 라이브러리 페이지에서 빠르게 액세스할 수 있습니다. 내 라이브러리의 문서가 업데이트 되 면 Microsoft에서 전자 메일 메시지를 보내도록 알림을 설정할 수도 있습니다. 자세한 내용은이 문서의 [My Library (내 라이브러리](#my-library-1) ) 섹션을 참조 하십시오.
 
-### <a name="admin"></a>관리자
+### <a name="admin"></a>관리
 
 전역 관리자 계정 에서만 사용할 수 있는 관리 기능입니다. 이 옵션은 전역 관리자로 로그인 한 경우에만 표시 됩니다.
   
@@ -169,4 +169,4 @@ Microsoft 클라우드에서 보안, 규정 준수 및 개인 정보 보호에 �
   
 여러분의 의견은 매우 중요 합니다. 페이지 아래쪽에 있는 사용자 의견 단추를 클릭 하 여 사용자가 수행 하거나 선호 하지 않는 사항에 대 한 의견을 보내거나, 제품 또는 제품 기능을 개선 하는 데 필요한 제안을 제공 합니다.
   
-![](media/5a949f4c-cd2d-4258-aa33-394f3f9feb7b.jpg)
+![사용자 의견의 종류](media/5a949f4c-cd2d-4258-aa33-394f3f9feb7b.jpg)

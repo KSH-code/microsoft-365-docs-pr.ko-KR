@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 5b9a067b-9d2e-4aa5-bb33-99d8c0d0b5d7
 description: 보안 & 준수 센터를 사용 하 여 eDiscovery 관련 작업을 수행 하는 데 필요한 사용 권한을 할당 합니다.
-ms.openlocfilehash: 5a9036908d97a62897b7d52b875a46008a7a337c
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 61b55c221c11a577a64d0d2358c89253b1e90714
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37087688"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38687186"
 ---
 # <a name="assign-ediscovery-permissions-in-the-security--compliance-center"></a>보안 & 준수 센터에서 eDiscovery 권한 할당
 
@@ -47,7 +47,7 @@ ms.locfileid: "37087688"
 
 - 보안 & 준수 센터에서 eDiscovery 권한을 할당 하려면 조직 관리 역할 그룹의 구성원 이거나 역할 관리 역할을 할당 받아야 합니다.
     
-- Security & 준수 센터 PowerShell의 [추가-RoleGroupMember](https://technet.microsoft.com/en-us/library/dd638207%28v=exchg.160%29.aspx) cmdlet을 사용 하 여 메일 사용이 가능한 보안 그룹을 ediscovery 관리자 역할 그룹에 있는 ediscovery 관리자의 구성원으로 추가할 수 있습니다. 그러나 메일 사용이 가능한 보안 그룹은 eDiscovery Administrators 그룹에 추가할 수 없습니다. 자세한 [내용은 추가 정보](#more-information) 섹션을 참조 하세요. 
+- Security & 준수 센터 PowerShell의 [추가-RoleGroupMember](https://docs.microsoft.com/powershell/module/exchange/role-based-access-control/Add-RoleGroupMember) cmdlet을 사용 하 여 메일 사용이 가능한 보안 그룹을 ediscovery 관리자 역할 그룹에 있는 ediscovery 관리자의 구성원으로 추가할 수 있습니다. 그러나 메일 사용이 가능한 보안 그룹은 eDiscovery Administrators 그룹에 추가할 수 없습니다. 자세한 [내용은 추가 정보](#more-information) 섹션을 참조 하세요. 
     
 ## <a name="assign-ediscovery-permissions-in-the-security--compliance-center"></a>보안 & 준수 센터에서 eDiscovery 권한 할당
 
@@ -58,11 +58,11 @@ ms.locfileid: "37087688"
 3. 보안 및 준수 센터의 왼쪽 창에서 **사용 권한을**클릭 하 고 **eDiscovery 관리자**옆에 있는 확인란을 클릭 합니다.
     
 4. **Ediscovery 관리자** 플라이 아웃 페이지에서 할당 하려는 eDiscovery 권한에 따라 다음 중 하나를 수행 합니다. 
-    
-  - **사용자를 EDiscovery 관리자로 설정 하려면** **EDiscovery 관리자**옆에 있는 **편집**을 클릭 합니다. **선택한 eDiscovery 관리자**에서 **편집** ![](media/ITPro-EAC-AddIcon.gif) **, 아이콘 추가 추가를**차례로 클릭 합니다. EDiscovery 관리자로 추가할 사용자 (또는 사용자)를 선택한 다음 **추가**를 클릭 합니다. 사용자 추가가 완료 되 면 **완료**를 클릭 합니다. 그런 다음 **Ediscovery 관리자** 플라이 아웃 선택 페이지에서 **저장** 을 클릭 하 여 ediscovery 관리자 멤버 자격에 대 한 변경 내용을 저장 합니다. 
-    
-  - **사용자를 EDiscovery 관리자로 설정 하려면** **EDiscovery 관리자**옆에 있는 **편집**을 클릭 합니다. **선택한 eDiscovery 관리자**에서 **편집** ![](media/ITPro-EAC-AddIcon.gif) **, 아이콘 추가 추가를**차례로 클릭 합니다. EDiscovery 관리자로 추가할 사용자 (또는 사용자)를 선택한 다음 **추가**를 클릭 합니다. 사용자 추가가 완료 되 면 **완료**를 클릭 합니다. 그런 다음 **Ediscovery 관리자** 플라이 아웃 선택 페이지에서 **저장** 을 클릭 하 여 ediscovery 관리자 멤버 자격에 대 한 변경 내용을 저장 합니다. 
-    
+  
+    **사용자를 EDiscovery 관리자로 지정 하려면 다음을** 수행 합니다. **EDiscovery 관리자**옆에 있는 **편집**을 클릭 합니다. **Ediscovery 관리자 선택** 섹션에서 **ediscovery 관리자 선택** 하이퍼링크를 클릭 한 다음 아이콘 ![](media/ITPro-EAC-AddIcon.gif) **추가**를 클릭 합니다. EDiscovery 관리자로 추가할 사용자 (또는 사용자)를 선택한 다음 **추가**를 클릭 합니다. 사용자 추가가 완료 되 면 **완료**를 클릭 합니다. 그런 다음 **Ediscovery 관리자** 플라이 아웃 선택 페이지에서 **저장** 을 클릭 하 여 ediscovery 관리자 멤버 자격에 대 한 변경 내용을 저장 합니다.
+  
+    **사용자를 EDiscovery 관리자로 설정 하려면 다음을** 수행 합니다. **EDiscovery 관리자**옆에 있는 **편집**을 클릭 합니다. Ediscovery **관리자 선택** 섹션의 **ediscovery 관리자**에서 **ediscovery 관리자 선택을** 클릭 한 다음 **편집**, 아이콘 ![](media/ITPro-EAC-AddIcon.gif) **추가**추가를 차례로 클릭 합니다. **EDiscovery 관리자로**추가할 사용자 (또는 사용자)를 선택한 다음 **추가**를 클릭 합니다. 사용자 추가가 완료 되 면 **완료**를 클릭 합니다. 그런 다음 **Ediscovery 관리자** 플라이 아웃 선택 페이지에서 **저장** 을 클릭 하 여 ediscovery 관리자 멤버 자격에 대 한 변경 내용을 저장 합니다.
+      
 > [!NOTE]
 > **EDiscoveryCaseAdmin** cmdlet을 사용 하 여 사용자를 eDiscovery 관리자로 설정할 수도 있습니다. 그러나이 cmdlet을 eDiscovery 관리자로 설정 하려면 사용자에 게 사례 관리 역할을 할당 받아야 합니다. 자세한 내용은 [Add-eDiscoveryCaseAdmin](https://go.microsoft.com/fwlink/p/?LinkID=798217)를 참조 하세요. 
   
@@ -77,9 +77,9 @@ ms.locfileid: "37087688"
 |사례 관리 <br/> |![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> |![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> |![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> | <br/> |
 |규격 검색 <br/> |![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> |![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> |![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> | <br/> |
 |내보내기 <br/> | <br/> |![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> | <br/> | <br/> |
-|놓습니다 <br/>  |![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> |![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> |![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> | <br/> |
+|Hold <br/>  |![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> |![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> |![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> | <br/> |
 |미리 보기 <br/>  | <br/> |![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> | <br/> | <br/> |
-|검토 <br/>  | <br/> |![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> | <br/> |![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> |
+|Review <br/>  | <br/> |![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> | <br/> |![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> |
 |RMS 암호 해독 <br/>  ||![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> |||
 |검색 및 제거 <br/> | <br/> | <br/> |![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> | <br/> | 
 ||||
@@ -106,7 +106,7 @@ ms.locfileid: "37087688"
 
 검색 결과를 내보내는 방법에 대 한 자세한 내용은 [Export search results From Security & 준수 센터](export-search-results.md)를 참조 하세요.
 
-### <a name="hold"></a>놓습니다
+### <a name="hold"></a>Hold
 
 사용자는이 역할을 사용 하 여 사서함, 공용 폴더, 사이트, 비즈니스용 Skype 대화 및 Office 365 그룹에 콘텐츠를 저장할 수 있습니다. 콘텐츠가 보존 되는 동안에는 콘텐츠 소유자가 원본 콘텐츠를 수정 하거나 삭제할 수는 있지만 보류를 제거 하거나 보존 기간이 만료 될 때까지 콘텐츠가 보존 됩니다. 
 
@@ -119,7 +119,7 @@ ms.locfileid: "37087688"
 
 이 역할을 통해 사용자는 콘텐츠 검색에서 반환 된 항목의 목록을 볼 수 있습니다. 또한 목록의 각 항목을 열고 콘텐츠를 볼 수 있습니다.
 
-### <a name="review"></a>검토
+### <a name="review"></a>Review
 
 이 역할을 사용 하면 사용자가 Office 365 Advanced eDiscovery에서 사례 데이터에 액세스할 수 있습니다. 이 역할의 기본 목적은 사용자에 게 고급 eDiscovery에 대 한 액세스 권한을 부여 하는 것입니다. 이 역할이 할당 된 사용자는 보안 & 준수 센터에서 구성원으로 있는 eDiscovery 페이지의 사례 목록을 보고 열 수 있습니다. 사용자가 보안 & 준수 센터의 사례에 액세스 한 후 advanced **ediscovery로 전환을** 클릭 하 여 advanced ediscovery에서 사례 데이터에 액세스 하 고 분석할 수 있습니다. 이 역할은 사용자가 사례와 연결 된 콘텐츠 검색의 결과를 미리 보거나 기타 콘텐츠 검색 또는 사례 관리 작업을 수행 하는 것을 허용 하지 않습니다.
 
@@ -144,7 +144,7 @@ ms.locfileid: "37087688"
     
 - **그룹을 eDiscovery 관리자 역할 그룹의 구성원으로 추가할 수 있나요?** 앞에서 설명한 것 처럼, Security & 준수 센터 PowerShell의 **추가 기능 그룹 구성원** cmdlet을 사용 하 여 ediscovery 관리자 역할 그룹에서 메일 사용이 가능한 보안 그룹의 구성원으로이를 추가할 수 있습니다. 예를 들어 다음 명령을 실행 하 여 eDiscovery 관리자 역할 그룹에 메일 사용이 가능한 보안 그룹을 추가할 수 있습니다. 
     
-  ```
+  ```powershell
   Add-RoleGroupMember "eDiscovery Manager" -Member <name of security group>
   ```
 

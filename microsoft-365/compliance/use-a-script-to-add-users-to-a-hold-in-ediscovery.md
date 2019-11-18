@@ -7,6 +7,8 @@ ms.date: 1/23/2017
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
+ms.collection:
+- SPO_Content
 localization_priority: Normal
 search.appverid:
 - MOE150
@@ -14,26 +16,26 @@ search.appverid:
 - MBS150
 ms.assetid: bad352ff-d5d2-45d8-ac2a-6cb832f10e73
 description: 스크립트를 실행 하 여 보안 & 준수 센터에서 eDiscovery 사례와 연결 된 새 보류에 사서함 및 비즈니스용 OneDrive 사이트를 빠르게 추가 합니다.
-ms.openlocfilehash: c680e584a6f729b3d6d0d74b84ddd0e03da6dc9a
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 7a7ea582391e2fbfcef8b63d331d64f52db4460c
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088460"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38687241"
 ---
 # <a name="use-a-script-to-add-users-to-a-hold-in-an-ediscovery-case-in-the-security--compliance-center"></a>스크립트를 사용 하 여 보안 & 준수 센터에서 eDiscovery 사례의 보류에 사용자 추가
 
 보안 & 준수 센터에서는 eDiscovery 사례를 만들고 관리 하는 데 관련 된 시간이 오래 걸리는 작업을 자동화할 수 있는 다양 한 Windows PowerShell cmdlet을 제공 합니다. 현재는 보안 & 준수 센터에서 eDiscovery 사례 도구를 사용 하 여 많은 수의 custodian 콘텐츠 위치를 유지 하는 데 시간이 오래 걸리고 준비를 진행 합니다. 예를 들어 보류를 만들기 전에 보류 하려는 각 비즈니스용 OneDrive 사이트의 URL을 수집 해야 합니다. 그런 다음 보류 하려는 각 사용자에 대해 해당 사서함 및 비즈니스용 OneDrive 사이트를 보류에 추가 해야 합니다. 향후 릴리스된 보안 & 준수 센터에서이 작업을 수행 하는 것이 더 쉽습니다. 그때까지이 문서의 스크립트를 사용 하 여이 프로세스를 자동화할 수 있습니다.
   
-스크립트는 URL https://contoso-my.sharepoint.com)의 **Contoso** , 기존 eDiscovery 사례 이름, 사례와 연결 된 새 보류의 이름, 원하는 사용자의 전자 메일 주소 목록 등을 묻는 메시지를 표시 하는 것입니다. 유지 하 고 쿼리 기반 보존을 만들려는 경우 사용할 검색 쿼리를 선택 합니다. 그런 다음 스크립트는 목록에 있는 각 사용자의 비즈니스용 OneDrive 사이트에 대 한 URL을 가져오고, 새로 보존을 만든 다음 목록에 있는 각 사용자에 대 한 비즈니스용 OneDrive 사이트를 보류에 추가 합니다. 또한이 스크립트는 새로 보존에 대 한 정보가 포함 된 로그 파일을 생성 합니다. 
+이 스크립트는 URL https://contoso-my.sharepoint.com)의 **Contoso** , 기존 eDiscovery 사례 이름, 사례와 연결 된 새 보류의 이름, 유지 하려는 사용자의 전자 메일 주소 목록, 쿼리 기반 보존을 만들려는 경우 사용할 검색 쿼리 등의 조직 내 사이트 도메인 이름을 입력 하 라는 메시지를 표시 합니다 (예: 그런 다음 스크립트는 목록에 있는 각 사용자의 비즈니스용 OneDrive 사이트에 대 한 URL을 가져오고, 새로 보존을 만든 다음 목록에 있는 각 사용자에 대 한 비즈니스용 OneDrive 사이트를 보류에 추가 합니다. 또한이 스크립트는 새로 보존에 대 한 정보가 포함 된 로그 파일을 생성 합니다. 
   
 이 작업을 수행 하는 단계는 다음과 같습니다.
   
 [1단계: SharePoint Online 관리 셸 설치](#step-1-install-the-sharepoint-online-management-shell)
   
-[2 단계: 사용자 목록 생성](use-a-script-to-add-users-to-a-hold-in-ediscovery.md#step2)
+[2 단계: 사용자 목록 생성](#step-2-generate-a-list-of-users)
   
-[3 단계: 스크립트를 실행 하 여 보류 만들기 및 사용자 추가](use-a-script-to-add-users-to-a-hold-in-ediscovery.md#step3)
+[3 단계: 스크립트를 실행 하 여 보류 만들기 및 사용자 추가](#step-3-run-the-script-to-create-a-hold-and-add-users)
   
 ## <a name="before-you-begin"></a>시작하기 전에
 
@@ -56,22 +58,18 @@ ms.locfileid: "37088460"
 [Sharepoint Online 관리 셸 Windows PowerShell 환경 설정](https://go.microsoft.com/fwlink/p/?LinkID=286318) 으로 이동 하 여 1 단계와 2 단계를 수행 하 여 로컬 컴퓨터에 SharePoint Online 관리 셸을 설치 합니다. 
 
 ## <a name="step-2-generate-a-list-of-users"></a>2 단계: 사용자 목록 생성
-<a name="step2"> </a>
 
 3 단계의 스크립트에서는 eDiscovery 사례와 연결 된 보류를 만들고 사용자 목록의 사서함 및 비즈니스용 OneDrive 사이트를 보류에 추가 합니다. 텍스트 파일에 전자 메일 주소를 입력 하거나, Windows PowerShell에서 명령을 실행 하 여 전자 메일 주소 목록을 가져오고이를 파일 (3 단계에서 스크립트를 저장할 동일한 폴더에 있음)에 저장할 수 있습니다.
   
 다음은 Exchange Online 조직에 연결 된 원격 PowerShell을 사용 하 여 실행 하는 PowerShell 명령으로, 조직의 모든 사용자에 대 한 전자 메일 주소 목록을 가져오고이를 HoldUsers 이라는 텍스트 파일에 저장 하는 것입니다.
   
-```
+```powershell
 Get-Mailbox -ResultSize unlimited -Filter { RecipientTypeDetails -eq 'UserMailbox'} | Select-Object PrimarySmtpAddress > HoldUsers.txt
 ```
 
 이 명령을 실행 한 후에는 텍스트 파일을 열고 속성 이름이 포함 된 헤더를 제거 `PrimarySmtpAddress`합니다. 그런 다음 3 단계에서 만들 보류에 추가할 사용자에 대 한 전자 메일 주소를 제외 하 고 모두 제거 합니다. 전자 메일 주소 목록 앞 이나 뒤에 빈 행이 없는지 확인 합니다.
   
-
-  
 ## <a name="step-3-run-the-script-to-create-a-hold-and-add-users"></a>3 단계: 스크립트를 실행 하 여 보류 만들기 및 사용자 추가
-<a name="step3"> </a>
 
 이 단계에서 스크립트를 실행 하면 다음 정보를 입력 하 라는 메시지가 표시 됩니다. 스크립트를 실행 하기 전에이 정보를 준비 해야 합니다.
   
@@ -87,11 +85,11 @@ Get-Mailbox -ResultSize unlimited -Filter { RecipientTypeDetails -eq 'UserMailbo
     
 - **보류를 설정 하지 않을 지 여부를 지정 하** 는 경우에는 스크립트를 만든 후에이를 설정할 수 있으며, 스크립트를 사용 하지 않고 보류를 만들 수 있습니다. 스크립트를 설정 하지 않은 경우 나중에 보안 & 준수 센터에서 또는 다음 PowerShell 명령을 실행 하 여 설정할 수 있습니다. 
     
-  ```
+  ```powershell
   Set-CaseHoldPolicy -Identity <name of the hold> -Enabled $true
   ```
 
-  ```
+  ```powershell
   Set-CaseHoldRule -Identity <name of the hold> -Disabled $false
   ```
 
@@ -101,7 +99,7 @@ Get-Mailbox -ResultSize unlimited -Filter { RecipientTypeDetails -eq 'UserMailbo
   
 1. 파일 이름 접미사. p s 1을 사용 하 여 Windows PowerShell 스크립트 파일에 다음 텍스트를 저장 합니다. 예를 `AddUsersToHold.ps1`들면입니다.
     
-  ```
+  ```powershell
   #script begin
   " " 
   write-host "***********************************************"
@@ -119,7 +117,7 @@ Get-Mailbox -ResultSize unlimited -Filter { RecipientTypeDetails -eq 'UserMailbo
           return;
       }
   # Load the SharePoint assemblies from the SharePoint Online Management Shell
-  # To install, go to http://go.microsoft.com/fwlink/p/?LinkId=255251
+  # To install, go to https://go.microsoft.com/fwlink/p/?LinkId=255251
   if (!$SharePointClient -or !$SPRuntime -or !$SPUserProfile)
   {
       $SharePointClient = [System.Reflection.Assembly]::LoadWithPartialName("Microsoft.SharePoint.Client")
@@ -127,7 +125,7 @@ Get-Mailbox -ResultSize unlimited -Filter { RecipientTypeDetails -eq 'UserMailbo
       $SPUserProfile = [System.Reflection.Assembly]::LoadWithPartialName("Microsoft.SharePoint.Client.UserProfiles")
       if (!$SharePointClient)
       {
-          Write-Error "The SharePoint Online Management Shell isn't installed. Please install it from: http://go.microsoft.com/fwlink/p/?LinkId=255251 and then re-run this script."
+          Write-Error "The SharePoint Online Management Shell isn't installed. Please install it from: https://go.microsoft.com/fwlink/p/?LinkId=255251 and then re-run this script."
           return;
       }
   }
@@ -278,7 +276,7 @@ Get-Mailbox -ResultSize unlimited -Filter { RecipientTypeDetails -eq 'UserMailbo
     
 3. 스크립트를 실행 합니다. 예를 들어:
     
-      ```
+      ```powershell
     .\AddUsersToHold.ps1
       ```
 

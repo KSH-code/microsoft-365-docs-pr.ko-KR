@@ -17,12 +17,12 @@ search.appverid:
 - BCS160
 ms.assetid: ec3587e4-7b4a-40fb-8fb8-8aa05aeae2ce
 description: 항목을 사용자의 보관 사서함으로 자동으로 이동 하는 보관 및 삭제 정책을 Office 365에서 만듭니다.
-ms.openlocfilehash: ca43498d785f1a5525a8159e7e553bd36257a7c2
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 801f97b658df08cd3c548c6aed99018a8613b473
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088403"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38687253"
 ---
 # <a name="set-up-an-archive-and-deletion-policy-for-mailboxes-in-your-office-365-organization"></a>Office 365 조 직의 사서함에 대 한 보관 및 삭제 정책 설정
 
@@ -125,7 +125,7 @@ ms.locfileid: "37088403"
     
 3. **보존 기간** **항목이 다음 연령 (일)에 도달한 경우**를 선택 하 고 보존 기간 기간을 입력 합니다. 이 시나리오에서 항목은 1095 일 (3 년) 후에 보관 사서함으로 이동 됩니다.
     
-4. **설명** 반드시 사용자 지정 보존 태그의 목적을 설명 하는 설명을 입력 합니다. 
+4. **설명** (선택 사항) 사용자 지정 보존 태그의 목적을 설명 하는 설명을 입력 합니다. 
     
 3. **저장** 을 클릭 하 여 사용자 지정 보관 DPT를 만듭니다. 
     
@@ -147,7 +147,7 @@ ms.locfileid: "37088403"
     
 3. **보존 기간** **항목이 다음 연령 (일)에 도달한 경우**를 선택 하 고 보존 기간 기간을 입력 합니다. 이 시나리오의 경우 2555 일 (7 년) 후에 항목이 제거 됩니다.
     
-4. **설명** 반드시 사용자 지정 보존 태그의 목적을 설명 하는 설명을 입력 합니다. 
+4. **설명** (선택 사항) 사용자 지정 보존 태그의 목적을 설명 하는 설명을 입력 합니다. 
     
 3. **저장** 을 클릭 하 여 사용자 지정 삭제 DPT를 만듭니다. 
     
@@ -171,7 +171,7 @@ ms.locfileid: "37088403"
     
 4. **보존 기간** **항목이 다음 연령 (일)에 도달한 경우**를 선택 하 고 보존 기간 기간을 입력 합니다. 이 시나리오에서는 1825 일 (5 년) 후에 항목이 삭제 됩니다.
     
-5. **설명** 반드시 사용자 지정 보존 태그의 목적을 설명 하는 설명을 입력 합니다. 
+5. **설명** (선택 사항) 사용자 지정 보존 태그의 목적을 설명 하는 설명을 입력 합니다. 
     
 3. **저장** 을 클릭 하 여 지운 편지함 폴더에 대 한 사용자 지정 RPT를 만듭니다. 
     
@@ -242,7 +242,7 @@ ms.locfileid: "37088403"
   
 1. 로컬 컴퓨터에서 Windows PowerShell을 열고 다음 명령을 실행합니다.
     
-    ```
+    ```powershell
     $UserCredential = Get-Credential
     ```
 
@@ -250,19 +250,19 @@ ms.locfileid: "37088403"
     
 2. 다음 명령을 실행합니다.
     
-    ```
+    ```powershell
     $Session = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://outlook.office365.com/powershell-liveid/ -Credential $UserCredential -Authentication Basic -AllowRedirection
     ```
 
 3. 다음 명령을 실행합니다.
     
-    ```
+    ```powershell
     Import-PSSession $Session
     ```
 
 4. Exchange Online 조직에 연결 되었는지 확인 하려면 다음 명령을 실행 하 여 조직의 모든 사서함 목록을 가져옵니다.
     
-    ```
+    ```powershell
     Get-Mailbox
     ```
 
@@ -271,11 +271,11 @@ ms.locfileid: "37088403"
   
 5. 조직의 모든 사용자 사서함에 대해 관리 되는 폴더 도우미를 시작 하려면 다음 두 명령을 실행 합니다.
     
-    ```
+    ```powershell
     $Mailboxes = Get-Mailbox -ResultSize Unlimited -Filter {RecipientTypeDetails -eq "UserMailbox"}
     ```
 
-    ```
+    ```powershell
     $Mailboxes.Identity | Start-ManagedFolderAssistant
     ```
 
@@ -289,16 +289,18 @@ ms.locfileid: "37088403"
 
 2. 다음 명령을 실행 하 여 조직의 사서함 계획에 대 한 정보를 표시 합니다.
 
-    ```
+    ```powershell
     Get-MailboxPlan | Format-Table DisplayName,RetentionPolicy,IsDefault
     ```
+    
     기본값으로 설정 된 사서함 요금제를 확인 합니다.
 
 3. 다음 명령을 실행 하 여 3 단계 (예: **알파인 하우스 보관 함 및 보존 정책**)에서 만든 새 보존 정책을 기본 사서함 요금제에 할당 합니다. 이 예에서는 기본 사서함 계획의 이름이 **ExchangeOnlineEnterprise**라고 가정 합니다.
 
-    ```
+    ```powershell
     Set-MailboxPlan "ExchangeOnlineEnterprise" -RetentionPolicy "Alpine House Archive and Retention Policy"
     ```
+
 4. 2 단계에서 명령을 다시 실행 하 여 기본 사서함 계획에 할당 된 보존 정책이 변경 되었는지 확인할 수 있습니다.
 
 ## <a name="more-information"></a>추가 정보
@@ -307,7 +309,7 @@ ms.locfileid: "37088403"
     
 - 다음 표에는이 항목의 단계를 수행 하 여 만든 사용자 지정 보존 정책에 추가 되는 각 보존 태그에 대 한 자세한 정보가 나와 있습니다.
     
-    |**보존 태그**|**이 태그의 역할**|**기본 제공 또는 사용자 지정 여부**|**유형**|
+    |**보존 태그**|**이 태그의 역할**|**기본 제공 또는 사용자 지정 여부**|**Type**|
     |:-----|:-----|:-----|:-----|
     |알파인 하우스 3 년 후 보관 함으로 이동  <br/> |1095 일 (3 년)이 지난 항목을 보관 사서함으로 이동 합니다.  <br/> |사용자 지정 ( [2 단계: 보관 및 삭제 정책에 대 한 새 보존 태그 만들기](#step-2-create-new-retention-tags-for-the-archive-and-deletion-policies)참조)  <br/> |기본 정책 태그 (보관); 이 태그는 전체 사서함에 자동으로 적용 됩니다.  <br/> |
     |알파인 하우스 7 년 영구 삭제  <br/> |기본 사서함 또는 보관 사서함의 항목이 7 년이 지난 경우 영구적으로 삭제 합니다.  <br/> |사용자 지정 ( [2 단계: 보관 및 삭제 정책에 대 한 새 보존 태그 만들기](#step-2-create-new-retention-tags-for-the-archive-and-deletion-policies)참조)  <br/> |기본 정책 태그 (삭제) 이 태그는 전체 사서함에 자동으로 적용 됩니다.  <br/> |

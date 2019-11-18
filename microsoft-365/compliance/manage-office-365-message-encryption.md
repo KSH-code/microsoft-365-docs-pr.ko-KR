@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: Office 365 메시지 암호화 (OME) 설정을 완료 한 후에는 여러 가지 방법으로 배포 구성을 사용자 지정할 수 있습니다. 예를 들어, 웹의 Outlook에서 1 회 통과, 보호 단추를 표시할 것인지 여부를 구성할 수 있습니다. 이 문서의 작업에서는 이러한 방법을 설명 합니다.
-ms.openlocfilehash: 5e087211ec72c9cc37896a9a48cc01ce3c1a8d07
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 780be179485fa18f7e0da0fabc7bb5365238da94
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088186"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38687060"
 ---
 # <a name="manage-office-365-message-encryption"></a>Office 365 메시지 암호화 관리
 
@@ -32,7 +32,7 @@ Office 365 메시지 암호화 (OME) 설정을 완료 한 후에는 여러 가�
   
 ### <a name="to-manage-whether-recipients-can-use-social-ids-to-sign-in-to-the-ome-portal"></a>받는 사람이 공유 Id를 사용 하 여 OME 포털에 로그인 할 수 있는지 여부를 관리 하려면
   
-1. [원격 PowerShell을 사용 하 여 Exchange Online에 연결](http://technet.microsoft.com/library/jj984289%28v=exchg.150%29.aspx)합니다.
+1. [원격 PowerShell을 사용 하 여 Exchange Online에 연결](https://technet.microsoft.com/library/jj984289%28v=exchg.150%29.aspx)합니다.
 
 2. 다음과 같이, Set-omeconfiguration cmdlet을 사회 Alidsignin 매개 변수를 사용 하 여 실행 합니다.
 

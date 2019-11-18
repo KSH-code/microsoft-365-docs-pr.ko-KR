@@ -10,12 +10,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 55f31488-288a-473a-9b9e-831a11e3711a
 description: 'PowerShell 스크립트를 사용 하 여 보안 & 준수 센터에서 만든 검색을 기반으로 Exchange Online의 원본 위치 eDiscovery 검색을 만듭니다. '
-ms.openlocfilehash: f3d5eb76dfa91334bccae42e0ddb66a71f739a6f
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: a16bf747da2d2eb8219ac4c13f4ff8c34d37b2c3
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088462"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38687244"
 ---
 # <a name="use-content-search-in-your-ediscovery-workflow"></a>eDiscovery 워크플로에서 콘텐츠 검색 사용
 
@@ -62,11 +62,11 @@ ms.locfileid: "37088462"
   
 다음은 PowerShell을 사용 하 여 조직의 모든 사서함을 검색 하는 예입니다. 검색 쿼리는 제목 줄에 "재무 보고서" 라는 구가 포함 되어 있고 2015 년 1 월 1 일부 터 2015 년 6 월 30 일 사이에 전송 된 모든 메시지를 반환 합니다. 첫 번째 명령은 검색을 만들고 두 번째 명령은 검색을 실행 합니다. 
   
-```
+```powershell
 New-ComplianceSearch -Name "Search All-Financial Report" -ExchangeLocation all -ContentMatchQuery 'sent>=01/01/2015 AND sent<=06/30/2015 AND subject:"financial report"'
 ```
 
-```
+```powershell
 Start-ComplianceSearch -Identity "Search All-Financial Report"
 ```
 
@@ -80,7 +80,7 @@ Start-ComplianceSearch -Identity "Search All-Financial Report"
   
 1. Filename 접미사. p s c 1을 사용 하 여 PowerShell 스크립트 파일에 다음 텍스트를 저장 합니다. 예를 들어 이름이 이라는 `SourceMailboxes.ps1`파일에 저장할 수 있습니다.
     
-  ```
+  ```powershell
   [CmdletBinding()]
   Param(
       [Parameter(Mandatory=$True,Position=1)]
@@ -112,7 +112,7 @@ Start-ComplianceSearch -Identity "Search All-Financial Report"
 
 2. 보안 & 준수 센터 PowerShell에서 이전 단계에서 만든 스크립트가 있는 폴더로 이동한 다음 스크립트를 실행 합니다. 예를 들어:
     
-    ```
+    ```powershell
     .\SourceMailboxes.ps1
     ```
 
@@ -128,7 +128,7 @@ Start-ComplianceSearch -Identity "Search All-Financial Report"
   
 1. 파일 이름 접미사. p s e c 1을 사용 하 여 Windows PowerShell 스크립트 파일에 다음 텍스트를 저장 합니다. 예를 들어 이름이 이라는 `ConnectEXO-CC.ps1`파일에 저장할 수 있습니다.
     
-    ```
+    ```powershell
     $UserCredential = Get-Credential
     $Session = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://ps.outlook.com/powershell-liveid -Credential $UserCredential -Authentication Basic -AllowRedirection
     Import-PSSession $Session -DisableNameChecking
@@ -139,7 +139,7 @@ Start-ComplianceSearch -Identity "Search All-Financial Report"
 
 2. 로컬 컴퓨터에서 Windows PowerShell을 열고, 이전 단계에서 만든 스크립트가 있는 폴더로 이동한 다음 스크립트를 실행 합니다. 예를 들어:
     
-    ```
+    ```powershell
     .\ConnectEXO-CC.ps1
     ```
 
@@ -157,7 +157,7 @@ Start-ComplianceSearch -Identity "Search All-Financial Report"
     
 - 다음 속성을 사용 하 여 새로운 원본 위치 eDiscovery 검색을 만듭니다. 새 검색이 시작 되지 않습니다. 이 문서는 4 단계에서 시작 합니다.
     
-  - **Name** -새 검색의 이름에 사용 되는 형식은 Content \<search\>_MBSearch1의 이름입니다. 스크립트를 다시 실행 하 여 동일한 원본 콘텐츠 검색을 사용 하는 경우에는 콘텐츠 검색 \<\>_MBSearch2 라는 이름이 검색 됩니다.
+  - **Name** -새 검색의 이름은 다음 형식을 사용 합니다: \<콘텐츠 검색\>_MBSearch1의 이름입니다. 스크립트를 다시 실행 하 여 동일한 원본 콘텐츠 검색을 사용 하는 경우에는 콘텐츠 검색 \<\>_MBSearch2 라는 이름이 검색 됩니다.
     
   - **원본 사서함** -검색 결과를 포함 하는 콘텐츠 검색의 모든 사서함입니다. 
     
@@ -167,7 +167,7 @@ Start-ComplianceSearch -Identity "Search All-Financial Report"
     
 1. Ps1의 filename 접미사를 사용 하 여 Windows PowerShell 스크립트 파일에 다음 텍스트를 저장 합니다. 예를 들어 이름이 이라는 `CreateMBSearchFromComplianceSearch.ps1`파일에 저장할 수 있습니다.
     
-  ```
+  ```powershell
   [CmdletBinding()]
   Param(
       [Parameter(Mandatory=$True,Position=1)]
@@ -231,12 +231,11 @@ Start-ComplianceSearch -Identity "Search All-Financial Report"
   {
     New-MailboxSearch "$msPrefix$i" -SourceMailboxes $mailboxes -SearchQuery $query -EstimateOnly;
   }
-  
   ```
 
 2. 2 단계에서 만든 Windows PowerShell 세션에서 이전 단계에서 만든 스크립트가 있는 폴더로 이동한 다음 스크립트를 실행 합니다. 예를 들어:
     
-    ```
+    ```powershell
     .\CreateMBSearchFromComplianceSearch.ps1
     ```
 

@@ -1,5 +1,5 @@
 ---
-title: 감사 로그 기록 내보내기, 구성 및 보기
+title: 감사 로그 레코드 내보내기, 구성 및 보기
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -15,14 +15,14 @@ search.appverid:
 - MET150
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: Office 365 감사 로그 검색 결과를 CSV 파일로 내보내고 다운로드 한 후 Excel의 파워 쿼리 편집기에서 JSON 변환 기능을 사용 하 여 AuditData 열에 있는 JSON 개체의 각 속성을 자체 열로 분할할 수 있습니다. 이를 통해 원하는 특정 감사 데이터를 빠르게 찾을 수 있습니다.
-ms.openlocfilehash: 7dac373e8f25ead38dddbe2663e521b35b3153ef
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 9b422877c10f086553a695e43c50f02d389dd2b5
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088035"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38687207"
 ---
-# <a name="export-configure-and-view-audit-log-records"></a>감사 로그 기록 내보내기, 구성 및 보기
+# <a name="export-configure-and-view-audit-log-records"></a>감사 로그 레코드 내보내기, 구성 및 보기
 
 Office 365 감사 로그를 검색 하 고 검색 결과를 CSV 파일로 다운로드 한 후 해당 파일에는 각 이벤트에 대 한 추가 정보를 포함 하는 **Auditdata**라는 열이 포함 되어 있습니다. 이 열의 데이터는 JSON 개체로 형식이 지정 되며,이 개체는 쉼표로 구분 된 *값* 쌍으로 구성 된 여러 속성을 포함 합니다. Excel의 파워 쿼리 편집기에서 JSON 변환 기능을 사용 하 여 각 속성에 자체 열이 포함 되도록 **Auditdata** 열에 있는 json 개체의 각 속성을 여러 열로 분할할 수 있습니다. 이를 통해 이러한 속성 중 하나 이상을 정렬 및 필터링 하 여 원하는 특정 감사 데이터를 빠르게 찾을 수 있습니다.
 
@@ -108,11 +108,11 @@ CSV 파일이 **쿼리 편집기**에서 열립니다. **CreationDate**, **UserI
 
    이 예제에서는 다음 명령을 실행 하 여 SharePoint 공유 작업과 관련 된 모든 레코드를 반환 합니다. 
    
-   ```
+   ```powershell
    $auditlog = Search-UnifiedAuditLog -StartDate 06/01/2019 -EndDate 06/30/2019 -RecordType SharePointSharingOperation
    ```
 
-   ```
+   ```powershell
    $auditlog | Select-Object -Property CreationDate,UserIds,RecordType,AuditData | Export-Csv -Path c:\AuditLogs\PowerShellAuditlog.csv -NoTypeInformation
    ```
 
@@ -122,10 +122,10 @@ CSV 파일이 **쿼리 편집기**에서 열립니다. **CreationDate**, **UserI
    
    - 이 매개 변수에는 단일 값만 포함할 수 있습니다. 다른 레코드 종류에 대 한 감사 레코드를 검색 하려면 이전 두 명령을 다시 실행 하 여 다른 레코드 종류를 지정 하 고 해당 결과를 원래의 CSV 파일에 추가 해야 합니다. 예를 들어 다음 두 명령을 실행 하 여 동일한 날짜 범위의 SharePoint 파일 활동을 PowerShellAuditlog 파일에 추가 합니다.
 
-       ```
+       ```powershell
       $auditlog = Search-UnifiedAuditLog -StartDate 06/01/2019 -EndDate 06/30/2019 -RecordType SharePointFileOperation
       ```
 
-      ```
+      ```powershell
       $auditlog | Select-Object -Property CreationDate,UserIds,RecordType,AuditData | Export-Csv -Append -Path c:\AuditLogs\PowerShellAuditlog.csv -NoTypeInformation
-      ```
+      ```powershell

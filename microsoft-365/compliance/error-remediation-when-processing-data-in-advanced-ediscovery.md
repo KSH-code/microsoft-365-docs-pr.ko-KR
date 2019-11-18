@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 02fa8870d6edb4e1a6616604ee0e98638b217237
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 66c515ff083d8b71a9ec4851986639063858514d
+ms.sourcegitcommit: 0d423b50d2f1f4eccd64e35e00f67313244efba9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088167"
+ms.lasthandoff: 10/18/2019
+ms.locfileid: "38686978"
 ---
 # <a name="error-remediation-when-processing-data"></a>데이터를 처리할 때 오류 수정
 
@@ -95,6 +95,14 @@ ms.locfileid: "37088167"
 11. AzCopy 명령을 실행 한 후에 **다음: 프로세스 파일**을 클릭 합니다.
 
     처리가 완료 되 면 검토 설정으로 이동 하 여 재구성 한 파일을 볼 수 있습니다. 
+
+## <a name="remediating-errors-in-container-files"></a>컨테이너 파일의 수정 오류
+
+고급 eDiscovery로 컨테이너 파일의 내용 (예: .zip 파일)을 추출할 수 없는 경우 컨테이너를 다운로드 하 고 원래 컨테이너가 있는 동일한 폴더에 콘텐츠를 확장할 수 있습니다. 확장 된 파일은 처음에 고급 eDiscovery로 확장 된 것 처럼 부모 컨테이너에 대 한 특성이 됩니다. 이 프로세스는 한 파일을 대체 파일로 업로드 하는 것을 제외 하 고 위에 설명 된 대로 작동 합니다.  재구성 한 파일을 업로드 하는 경우 원본 컨테이너 파일을 포함 하지 마십시오.
+
+## <a name="remediating-errors-by-uploading-the-extracted-text"></a>추출 된 텍스트를 업로드 하 여 오류 수정
+
+고급 eDiscovery에서 해석할 수 있는 기본 형식으로 파일을 수정 하는 것이 불가능할 수도 있습니다. 하지만 원본 파일을 *텍스트 층*이라는 프로세스의 원본 텍스트가 포함 된 텍스트 파일로 바꿀 수 있습니다. 이 작업을 수행 하려면이 문서에서 설명 하는 단계를 수행 하 되, 원본 파일을 기본 형식으로 수정 않고 원본 파일에서 추출한 텍스트를 포함 하는 텍스트 파일을 만든 다음 원래 filename을 사용 하 여 텍스트 파일을 업로드 합니다. .txt 접미사가 추가 됩니다. 예를 들어, 파일 이름 335850cc-6602-4af0-acfa-1d14d9128ca2를 사용 하 여 오류를 수정 하는 중에 파일이 다운로드 됩니다. 네이티브 응용 프로그램에서 파일을 열고 텍스트를 복사한 다음 335850cc-6602-4af0-acfa-1d14d9128ca2 라는 새 파일에 붙여 넣습니다. 이 작업을 수행할 때는 재구성 된 텍스트 파일을 고급 eDiscovery로 업로드 하기 전에 로컬 컴퓨터의 재구성 된 파일 위치에서 원본 파일을 원시 형식으로 제거 해야 합니다.
 
 ## <a name="what-happens-when-files-are-remediated"></a>파일을 수정 하는 경우 수행 되는 작업
 

@@ -15,12 +15,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: 'DLP 정책을 사용하여 가장 쉽고 가장 일반적인 방법은 Office 365에 포함된 템플릿 중 하나를 사용하는 것입니다. '
-ms.openlocfilehash: db32748b25296ef82c56160e95535ac488eb65a5
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 2f7618f80f02865816a1f937b36c9f09b794b77d
+ms.sourcegitcommit: 8ad30e6c5cd77a72e5c1ce463c9f693132cc0b15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37087560"
+ms.lasthandoff: 10/24/2019
+ms.locfileid: "38686984"
 ---
 # <a name="create-a-dlp-policy-from-a-template"></a>템플릿에서 DLP 정책 만들기
 
@@ -168,7 +168,7 @@ DLP 정책을 만들고 켠 후에는 정책이 포함 된 모든 콘텐츠 원�
 |**켜짐** <br/> |정책이 활성 상태이며 적용됩니다. 정책이 모든 콘텐츠 원본으로 배포되었습니다.  <br/> |
 |**끄는 중...** <br/> |정책이 포함하는 콘텐츠 원본에서 제거 중입니다. 정책이 여전히 활성 상태이며 일부 원본에 적용될 수 있습니다. 정책을 끄는 데 45시간까지 소요될 수 있습니다.  <br/> |
 |**해제** <br/> |정책이 활성 상태가 아니며 적용되지 않습니다. 정책에 대한 설정(원본, 키워드, 기간 등)은 저장됩니다.  <br/> |
-|**삭제 중 ...** <br/> |정책이 삭제되는 중입니다. 정책이 활성 상태가 아니며 적용되지 않습니다.  <br/> |
+|**삭제 중 ...** <br/> |정책이 삭제되는 중입니다. 정책이 활성 상태가 아니며 적용되지 않습니다. 정책을 사용 하지 않는 데는 보통 1 시간 정도 걸립니다. <br/> |
    
 ## <a name="turn-off-a-dlp-policy"></a>DLP 정책 끄기
 

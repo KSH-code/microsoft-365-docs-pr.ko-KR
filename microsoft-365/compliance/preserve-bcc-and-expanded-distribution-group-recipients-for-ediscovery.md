@@ -10,25 +10,24 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: eb8ddf15-0080-457e-9d83-e73e193da334
 description: 원본 위치 유지, 소송 유지 및 Office 365 보존 정책을 사용 하면 규정 준수 및 eDiscovery 요구 사항을 충족 하기 위해 사서함 콘텐츠를 보존할 수 있습니다.
-ms.openlocfilehash: 85e291b5fb4e12ad077c98d805ac232b17e6e647
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 46ec9f39f4fe5629ca1854fab44304f30784dbf4
+ms.sourcegitcommit: f0a4290793e296474ecd3c6eb0ca96eae7faa434
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088836"
+ms.lasthandoff: 11/11/2019
+ms.locfileid: "38687117"
 ---
 # <a name="preserve-bcc-and-expanded-distribution-group-recipients-for-ediscovery"></a>eDiscovery의 숨은 참조 및 확장된 메일 그룹 수신자 보존
   
-원본 위치 유지, 소송 보존 및 [Office 365 보존 정책](http://go.microsoft.com/fwlink/?LinkID=827811) (보안 & 준수 센터에서 만들어짐)을 통해 규정 준수 및 eDiscovery 요구 사항을 충족 하도록 사서함 콘텐츠를 보존할 수 있습니다. 메시지의 받는 사람 및 참조 필드에서 직접 주소를 지정 하는 사용자에 대 한 정보는 기본적으로 모든 메시지에 포함 되지만, 조직에서는 메시지의 모든 받는 사람에 대 한 세부 정보를 검색 하 고 재현할 수 있어야 합니다. 성능 저하를 줄여주는 방법에는 다음이 포함됩니다. 
+원본 위치 유지, 소송 보존 및 [Office 365 보존 정책](https://go.microsoft.com/fwlink/?LinkID=827811) (보안 & 준수 센터에서 만들어짐)을 통해 규정 준수 및 eDiscovery 요구 사항을 충족 하도록 사서함 콘텐츠를 보존할 수 있습니다. 메시지의 받는 사람 및 참조 필드에서 직접 주소를 지정 하는 사용자에 대 한 정보는 기본적으로 모든 메시지에 포함 되지만, 조직에서는 메시지의 모든 받는 사람에 대 한 세부 정보를 검색 하 고 재현할 수 있어야 합니다. 여기에는 다음이 포함됩니다. 
   
-- **메시지의 숨은 참조 필드를 사용 하 여 주소가 지정 된 받는 사람** 숨은 참조 받는 사람은 보낸 사람의 사서함에 있는 메시지에 저장 되지만 받는 사람에 게 배달 되는 메시지의 머리글에는 포함 되지 않습니다. 
+- **받는 사람은 메시지의 숨은 참조 필드를 사용 하 여 주소를 지정 합니다.** 숨은 참조 받는 사람은 보낸 사람의 사서함에 있는 메시지에 저장 되지만 받는 사람에 게 배달 되는 메시지의 머리글에는 포함 되지 않습니다. 
     
-- **확장 된 메일 그룹 받는 사람** 메시지를 받는 사람은 받는 사람, 참조 또는 숨은 참조 필드에 메시지가 주소가 지정 된 메일 그룹의 구성원 이기 때문입니다. 
+- **확장 된 메일 그룹 받는 사람:** 메시지를 받는 사람은 받는 사람, 참조 또는 숨은 참조 필드에 메시지가 주소가 지정 된 메일 그룹의 구성원 이기 때문입니다. 
     
 Exchange Online 및 Exchange Server 2013 (누적 업데이트 7 이상 버전)에서는 숨은 참조 및 확장 된 메일 그룹 받는 사람에 대 한 정보를 유지 합니다. EAC (Exchange 관리 센터)의 원본 위치 eDiscovery 검색 또는 보안 & 준수 센터의 콘텐츠 검색을 사용 하 여이 정보를 검색할 수 있습니다. 
   
 ## <a name="how-bcc-recipients-and-expanded-distribution-group-recipients-are-preserved"></a>숨은 참조 받는 사람 및 확장 된 메일 그룹 받는 사람이 보존 되는 방식
-<a name="sectionSection0"> </a>
 
 앞에서 설명한 것 처럼, Bcc'ed 받는 사람에 대 한 정보는 보낸 사람의 사서함에 메시지와 함께 저장 됩니다. 이 정보는 인덱싱 및 eDiscovery 검색 및 보류에 사용 될 수 있습니다. 
   
@@ -41,7 +40,6 @@ Exchange Online 및 Exchange Server 2013 (누적 업데이트 7 이상 버전)�
 |확장 된 메일 그룹 받는 사람  <br/> |보낸 사람의 사서함에 있는 메시지 속성  <br/> |아니요. 확장 된 메일 그룹 받는 사람 정보는 사서함이 원본 위치 유지 또는 소송 보존 상태로 설정 되거나 Office 365 보관 정책에 할당 된 후에 저장 됩니다.  <br/> |규정 준수 관리자  <br/> |
    
 ## <a name="searching-for-messages-sent-to-bcc-and-expanded-distribution-group-recipients"></a>숨은 참조 및 확장 된 메일 그룹 받는 사람에 게 전송 되는 메시지 검색
-<a name="sectionSection1"> </a>
 
 받는 사람에 게 보낸 메시지를 검색할 때 eDiscovery 검색 결과는 받는 사람이 구성원으로 속해 있는 메일 그룹으로 전송 된 메시지를 포함 합니다. 다음 표에서는 숨은 참조 및 확장 된 메일 그룹 받는 사람에 게 보낸 메시지가 eDiscovery 검색에서 반환 되는 시나리오를 보여 줍니다.
   
@@ -69,7 +67,6 @@ Exchange Online 및 Exchange Server 2013 (누적 업데이트 7 이상 버전)�
 |잭 사서함  <br/> |숨은 참조: 잭 (직접 또는 메일 그룹을 통해)  <br/> |아니요  <br/> |숨은 참조 정보는 받는 사람에 게 배달 되는 메시지에 저장 되지 않습니다. 보낸 사람의 사서함을 검색 해야 합니다.  <br/> |
    
 ## <a name="frequently-asked-questions"></a>자주하는 질문
-<a name="sectionSection2"> </a>
 
  **Q. 숨은 참조 받는 사람 정보는 언제 및 어디에 저장 됩니까?**
   
@@ -85,7 +82,7 @@ Exchange Online 및 Exchange Server 2013 (누적 업데이트 7 이상 버전)�
   
  **Q. 확장 된 메일 그룹 받는 사람이 항상 보존 되도록 하려면 어떻게 해야 합니까?**
   
-대답. 확장 된 메일 그룹 구성원이 항상 메시지와 함께 보존 되도록 하려면 [모든 사서함을 보류](http://technet.microsoft.com/library/4c141604-3210-44cc-b98e-f3e0f15613b8.aspx) 하거나 조직 전체의 Office 365 보존 정책을 만듭니다. 
+대답. 확장 된 메일 그룹 구성원이 항상 메시지와 함께 보존 되도록 하려면 [모든 사서함을 보류](https://technet.microsoft.com/library/4c141604-3210-44cc-b98e-f3e0f15613b8.aspx) 하거나 조직 전체 Office 365 보존 정책을 만듭니다. 
   
  **Q. 지원 되는 그룹 유형은 무엇입니까?**
   
@@ -105,6 +102,4 @@ Exchange Online 및 Exchange Server 2013 (누적 업데이트 7 이상 버전)�
   
  **Q. 메일 그룹의 구성원이 조직의 GAL (전체 주소 목록)에서 숨겨지면 어떻게 됩니까?**
   
-대답. 영향을 주지 않습니다. 받는 사람이 GAL에서 숨겨지면 확장 된 메일 그룹의 받는 사람 목록에도 계속 포함 됩니다.
-  
-
+대답. 영향을 주지 않습니다. 받는 사람이 GAL에서 숨겨지면 여전히 확장 된 메일 그룹의 받는 사람 목록에 포함 됩니다.

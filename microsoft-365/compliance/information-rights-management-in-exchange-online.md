@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 ms.assetid: 2c956776-0016-4be6-b4cd-133a237f4a9e
 description: 필요한 경우 조직 요구 사항을 충족 하기 위해 온-프레미스 AD RMS (Active Directory Rights Management Service)를 사용 하도록 Exchange Online IRM을 구성할 수 있습니다. 이는 일반적인 것이 아닙니다. AD RMS를 사용 해야 하는 요구 사항이 없는 경우에는 Office 메시지 암호화를 대신 사용 합니다.
-ms.openlocfilehash: f5611ca7efeae0ab60ef90ebf4f8a225ea1332e7
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 1c3bdf02f31f57f1328f0244d539d0dc88e7ba89
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37087231"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38687062"
 ---
 # <a name="exchange-online-mail-encryption-with-ad-rms"></a>AD RMS를 사용하여 Exchange Online 메일 암호화
 
@@ -43,6 +43,6 @@ IRM을 사용하도록 설정한 후에는 다음과 같이 메시지에 IRM 보
     
 - **관리자는 전송 보호 규칙을 사용 하 여 Outlook 및 웹용 Outlook에 모두 IRM 보호를 자동으로 적용할 수 있습니다.** IRM 보호 메시지에 대한 전송 보호 규칙을 만들 수 있습니다. 규칙 조건에 맞는 메시지에 AD RMS 권한 정책 템플릿을 적용하도록 전송 보호 규칙 동작을 구성합니다. IRM을 사용하도록 설정하고 나면 조직의 AD RMS 권한 정책 템플릿을 **다음을 포함하는 메시지에 권한 보호 적용**이라는 전송 보호 규칙 동작과 함께 사용할 수 있게 됩니다.
     
-- **관리자가 Outlook 보호 규칙을 만들 수 있습니다.** Outlook 보호 규칙은 보낸 사람의 부서, 메시지를 보낸 사람 및 받는 사람이 외부에 있는지 여부를 포함 하는 메시지 조건을 기준으로 Outlook 2010 (웹에서 Outlook이 아님)의 메시지에 IRM 보호를 자동으로 적용 합니다. 조직. 자세한 내용은 [Create an Outlook Protection Rule](http://technet.microsoft.com/library/da64750d-faaf-44de-ad8c-888eba7fbdbf.aspx)를 참조하십시오.
+- **관리자가 Outlook 보호 규칙을 만들 수 있습니다.** Outlook 보호 규칙은 보낸 사람의 부서, 메시지를 보낸 사람 및 받는 사람이 외부에 있는지 여부를 포함 하는 메시지 조건을 기준으로 Outlook 2010 (웹에서 Outlook이 아님)의 메시지에 IRM 보호를 자동으로 적용 합니다. 조직. 자세한 내용은 [Create an Outlook Protection Rule](https://technet.microsoft.com/library/da64750d-faaf-44de-ad8c-888eba7fbdbf.aspx)를 참조하십시오.
     
 

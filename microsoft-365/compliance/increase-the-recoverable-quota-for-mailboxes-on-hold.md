@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: a8bdcbdd-9298-462f-b889-df26037a990c
 description: '보관 사서함을 사용 하도록 설정 하 고 자동 확장 보관을 설정 하 여 Office 365에서 사서함에 대 한 복구 가능한 항목 폴더의 크기를 늘립니다. '
-ms.openlocfilehash: 4c2e36dae3c8677579569d55a9c5b88efb5c54e5
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 266437d77ba4f3a82fa69db6a997fd58748fa834
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37087267"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38687205"
 ---
 # <a name="increase-the-recoverable-items-quota-for-mailboxes-on-hold"></a>보류된 사물함의 복구 가능한 항목 할당량 증가
 
@@ -40,12 +40,12 @@ Exchange Online의 사서함에 대 한 보존을 설정 하면이 제한을 초
   
 보류된 사서함의 기본 사서함에 있는 복구 가능한 항목 폴더의 저장소 할당량이 한도에 도달하려는 경우 다음 항목을 수행할 수 있습니다.
   
-- **보관 사서함을 사용 하도록 설정 하 고 자동 확장 보관을 설정** 하면 보관 사서함을 사용 하도록 설정 하 고 Exchange에서 자동 확장 보관 기능을 설정 하 여 복구 가능한 항목 폴더에 대해 무제한 저장소 용량을 사용 하도록 설정할 수 있습니다. 온라인. 이를 통해 기본 사서함의 복구 가능한 항목 폴더에 대해 110이 발생 하 고 사용자 보관의 복구 가능한 항목 폴더에 대해 무제한의 저장 용량을 사용할 수 있습니다. 방법: [보안 & 준수 센터에서 보관 사서함을 사용 하도록 설정](enable-archive-mailboxes.md) 하 고 [Office 365에서 무제한 보관을 사용 하도록 설정](enable-unlimited-archiving.md)합니다.
+- **보관 사서함을 사용 하도록 설정 하 고 자동 확장 보관을 설정** 하려면 보관 사서함을 사용 하도록 설정한 다음 Exchange Online에서 자동 확장 보관 기능을 설정 하 여 복구 가능한 항목 폴더에 대해 무제한 저장소 용량을 사용 하도록 설정할 수 있습니다. 이를 통해 기본 사서함의 복구 가능한 항목 폴더에 대해 110이 발생 하 고 사용자 보관의 복구 가능한 항목 폴더에 대해 무제한의 저장 용량을 사용할 수 있습니다. 방법: [보안 & 준수 센터에서 보관 사서함을 사용 하도록 설정](enable-archive-mailboxes.md) 하 고 [Office 365에서 무제한 보관을 사용 하도록 설정](enable-unlimited-archiving.md)합니다.
     
     > [!NOTE]
     > 복구 가능한 항목 폴더가 저장소 할당량을 초과하기 직전인 사서함에서 보관함을 사용하도록 설정하고 난 다음에는 관리되는 폴더 도우미를 실행함으로써 도우미를 수동으로 실행시켜 도우미가 사서함을 보관 사서함의 복구 가능한 항목 폴더에서 만료된 항목이 이동되도록 합니다. [4단계](#optional-step-4-run-the-managed-folder-assistant-to-apply-the-new-retention-settings)에서 지침을 확인하세요. 사용자의 사서함에 있는 다른 항목이 새로운 보관 사서함으로 이동되었을 수 있다는 점에 유의하시기 바랍니다. 보관 사서함을 사용 하도록 설정한 후 사용자에 게이를 알리는 것을 고려할 수 있습니다. 
   
-- **보류 중인 사서함에 대 한 사용자 지정 보존 정책 만들기** -보관 사서함을 사용 하도록 설정 하 고 사서함에 대해 소송 보존 또는 원본 위치 유지를 자동 확장 하는 데 사용할 수 있습니다. 놓습니다. 이를 통해 보류 중인 사서함에 적용 되는 기본 MRM 정책과는 다른 보류 중인 사서함에 보존 정책을 적용할 수 있습니다. 이를 통해 특별히 사서함에 맞게 디자인 된 보존 태그를 적용할 수 있습니다. 여기에는 복구 가능한 항목 폴더에 대 한 새 보존 태그를 만드는 작업이 포함 됩니다. 
+- **보류 중인 사서함에 대 한 사용자 지정 보존 정책 만들기** -보관 사서함을 사용 하도록 설정 하 고 사서함에 대해 소송 보존 또는 원본 위치 유지를 자동 확장 하는 기능을 사용할 수도 있습니다. 이를 통해 보류 중인 사서함에 적용 되는 기본 MRM 정책과는 다른 보류 중인 사서함에 보존 정책을 적용할 수 있습니다. 이를 통해 특별히 사서함에 맞게 디자인 된 보존 태그를 적용할 수 있습니다. 여기에는 복구 가능한 항목 폴더에 대 한 새 보존 태그를 만드는 작업이 포함 됩니다. 
     
 이 항목의 나머지 부분에서는 보류된 사서함에 대한 사용자 지정 보존 정책을 만드는 단계별 절차를 설명합니다.
   
@@ -65,13 +65,13 @@ Exchange Online의 사서함에 대 한 보존을 설정 하면이 제한을 초
     
 2. 복구할 수 있는 항목 폴더에 대한 새로운 RPT를 만들려면 다음 명령을 실행합니다.  
     
-    ```
+    ```powershell
     New-RetentionPolicyTag -Name <Name of RPT> -Type RecoverableItems -AgeLimitForRetention <Number of days> -RetentionAction MoveToArchive
     ```
 
     예를 들어 다음 명령을 사용하면 보존 기간이 30일인 “보류된 사서함의 30일 복구 가능한 항목”이라는 복구 가능한 항목 폴더에 대한 RPT가 만들어집니다. 이는 어떤 항목이 복구 가능한 항목 폴더에서 30일 동안 있은 후 사용자의 보관 사서함에 있는 복구 가능한 항목 폴더로 이동함을 의미합니다.
     
-    ```
+    ```powershell
     New-RetentionPolicyTag -Name "Recoverable Items 30 days for mailboxes on hold" -Type RecoverableItems -AgeLimitForRetention 30 -RetentionAction MoveToArchive
     ```
 
@@ -118,17 +118,17 @@ EAC 또는 Exchange Online PowerShell을 사용 하 여 보존 정책을 만들 
   
 보류된 사서함에 대한 새 보존 정책을 만들려면 다음 명령을 실행합니다.  
   
-```
+```powershell
 New-RetentionPolicy <Name of retention policy>  -RetentionPolicyTagLinks <list of retention tags>
 
 ```
 
 예를 들어 다음 명령을 사용하면 보존 정책 및 이전 그림에 표시되어 있는 연결된 보존 태그가 생성됩니다.
   
-```
+```powershell
 New-RetentionPolicy "MRM Policy for Mailboxes on Hold"  -RetentionPolicyTagLinks "Recoverable Items 30 days for mailboxes on hold","1 Month Delete","1 Week Delete","1 Year Delete","5 Year Delete","6 Month Delete","Default 2 year move to archive","Junk Email","Never Delete","Personal 1 year move to archive","Personal 5 year move to archive"
 ```
-  
+
 ## <a name="step-3-apply-the-new-retention-policy-to-mailboxes-on-hold"></a>3단계: 보류된 사서함에 새로운 보존 정책을 적용합니다.
 
 마지막 단계는 조직의 보류된 사서함에 2단계에서 만든 새로운 보존 정책을 적용하는 것입니다. EAC 또는 Exchange Online PowerShell을 사용 하 여 단일 사서함 이나 여러 사서함에 보존 정책을 적용할 수 있습니다. 
@@ -161,27 +161,27 @@ Exchange Online PowerShell을 사용 하 여 단일 사서함에 새 보존 정�
   
 이 예에서는 Pilar Pinilla의 사서함에 새로운 보존 정책을 적용합니다.
   
-```
+```powershell
 Set-Mailbox "Pilar Pinilla" -RetentionPolicy "MRM Policy for Mailboxes on Hold"
 ```
 
 이 예에서는 조직의 모든 소송 보존 사서함에 새로운 보존 정책을 적용합니다.
   
-```
+```powershell
 $LitigationHolds = Get-Mailbox -ResultSize unlimited | Where-Object {$_.LitigationHoldEnabled -eq 'True'}
 ```
 
-```
+```powershell
 $LitigationHolds.DistinguishedName | Set-Mailbox -RetentionPolicy "MRM Policy for Mailboxes on Hold"
 ```
 
 이 예에서는 조직의 모든 원본 위치 유지 사서함에 새로운 보존 정책을 적용합니다.
   
-```
+```powershell
 $InPlaceHolds = Get-Mailbox -ResultSize unlimited | Where-Object {$_.InPlaceHolds -ne $null}
 ```
 
-```
+```powershell
 $InPlaceHolds.DistinguishedName | Set-Mailbox -RetentionPolicy "MRM Policy for Mailboxes on Hold"
 ```
 
@@ -189,35 +189,35 @@ $InPlaceHolds.DistinguishedName | Set-Mailbox -RetentionPolicy "MRM Policy for M
   
 다음은 이전 예에서 소송 보존 사서함 및 원본 위치 유지 사서함에 "보류된 사서함에 대한 MRM 정책" 보존 정책이 적용되었는지 확인하기 위한 몇 가지 예입니다.
   
-```
+```powershell
 Get-Mailbox "Pilar Pinilla" | Select RetentionPolicy
 ```
 
-```
+```powershell
 Get-Mailbox -ResultSize unlimited | Where-Object {$_.LitigationHoldEnabled -eq 'True'} | FT DisplayName,RetentionPolicy -Auto
 ```
 
-```
+```powershell
 Get-Mailbox -ResultSize unlimited | Where-Object {$_.InPlaceHolds -ne $null} | FT DisplayName,RetentionPolicy -Auto
 ```
-  
+
 ## <a name="optional-step-4-run-the-managed-folder-assistant-to-apply-the-new-retention-settings"></a>(옵션) 4단계: 관리되는 폴더 도우미를 실행하여 새로운 보존 설정을 적용합니다.
 
 보류 중인 사서함에 새 보존 정책을 적용 하 고 나면 Exchange Online에서 관리 되는 폴더 도우미가 새 보존 정책의 설정을 사용 하 여 이러한 사서함을 처리 하는 데 최대 7 일이 걸릴 수 있습니다. 관리되는 폴더 도우미가 실행되기를 기다리는 대신 **Start-ManagedFolderAssistant** cmdlet를 사용하여 새로운 보존 정책이 적용된 사서함을 처리하도록 도우미를 수동으로 트리거할 수 있습니다. 
   
 다음 명령을 실행하여 Pilar Pinilla의 사서함에 관리되는 폴더 도우미를 실행합니다. 
   
-```
+```powershell
 Start-ManagedFolderAssistant "Pilar Pinilla"
 ```
 
 다음 명령을 실행하여 보류된 모든 사서함에 관리되는 폴더 도우미를 실행합니다. 
   
-```
+```powershell
 $MailboxesOnHold = Get-Mailbox -ResultSize unlimited | Where-Object {($_.InPlaceHolds -ne $null) -or ($_.LitigationHoldEnabled -eq "True")}
 ```
 
-```
+```powershell
 $MailboxesOnHold.DistinguishedName | Start-ManagedFolderAssistant
 ```
 

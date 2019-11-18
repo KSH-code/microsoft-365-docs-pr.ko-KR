@@ -1,9 +1,9 @@
 ---
 title: Office 365 Advanced eDiscovery에서 사용자 및 사례 설정
-ms.author: chrfox
-author: chrfox
+ms.author: markjjo
+author: markjjo
 manager: laurawi
-ms.date: 9/14/2017
+ms.date: ''
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: 60ffd80b-4376-419d-b6e4-a72029b9907c
 description: 'Office 365 Advanced eDiscovery에서 사용자 역할을 구성 하 고 사례를 만들고 사용자를 사례에 할당 하는 방법에 대해 알아봅니다.  '
-ms.openlocfilehash: e53d304445aa7d171766d38496d95a0d6cb47792
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: e6fa3581fe15c089292e7585e7d053b817ae167b
+ms.sourcegitcommit: 547bfc5f1fec7545cbe71b1919454425556c9227
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088515"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "38687106"
 ---
 # <a name="set-up-users-and-cases-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery에서 사용자 및 사례 설정
 
@@ -35,7 +35,7 @@ ms.locfileid: "37088515"
     
 - EDiscovery 사례를 만들고 여기에 구성원을 추가 하려면 Office 365 보안 &amp; 및 준수 센터에서 ediscovery 관리자 역할 그룹의 구성원 이어야 합니다. 보안 &amp; 및 준수 센터에서 eDiscovery 관리자 역할 그룹에 자신을 추가 하려면 Office 365 조 직의 전역 관리자 여야 합니다. 전역 관리자가 아닌 경우에는 전역 관리자에 게 사용자를 eDiscovery 관리자 역할 그룹에 추가 해 달라고 요청 해야 합니다. 자세한 내용은 다음을 참조하세요.
     
-  - [Microsoft 365 보안 &amp; 및 준수 센터의 사용 권한](/security/office-365-security/protect-against-threats.md)
+  - [Microsoft 365 보안 &amp; 및 준수 센터의 사용 권한](~/security/office-365-security/protect-against-threats.md)
     
   - [Microsoft 365 보안 &amp; 및 준수 센터에서 eDiscovery 권한 할당](assign-ediscovery-permissions.md)
     

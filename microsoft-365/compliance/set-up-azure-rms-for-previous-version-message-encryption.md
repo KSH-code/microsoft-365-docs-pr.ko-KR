@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: 2cba47b3-f09e-4911-9207-ac056fcb9db7
 description: 이전 버전의 Office 365 메시지 암호화는 Microsoft Azure 권한 관리 (이전에는 Windows Azure Active Directory Rights Management)에 따라 달라 집니다.
-ms.openlocfilehash: 84922a57c6245cf3214f17ba922417b5e025b796
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: a6ba18982a65ff9687374b9e5dc370646817d96d
+ms.sourcegitcommit: 550ea6f093ec35182e7c65a2811e9bfb07ec7d01
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088396"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "38687092"
 ---
 # <a name="set-up-azure-rights-management-for-the-previous-version-of-office-365-message-encryption"></a>Office 365 메시지 암호화에 대한 Azure 권한 관리 설정
 
@@ -69,46 +69,46 @@ TPD는 조직의 권한 관리 설정에 대 한 정보가 포함 된 XML 파일
    
 3. 다음과 같이 [Set-IRMConfiguration](https://technet.microsoft.com/library/dd979792%28v=exchg.160%29.aspx) cmdlet을 실행 하 여 키 공유 위치를 구성 합니다. 
     
-  ```
+  ```powershell
   Set-IRMConfiguration -RMSOnlineKeySharingLocation "<RMSKeySharingURL >"
   ```
 
     예를 들어 조직이 북미에 있는 경우 키 공유 위치를 구성 하려면 다음을 수행 합니다.
-    
-  ```
+
+  ```powershell
   Set-IRMConfiguration -RMSOnlineKeySharingLocation "https://sp-rms.na.aadrm.com/TenantManagement/ServicePartner.svc"
   ```
 
 4. -RMSOnline 스위치를 사용 하 여 [import-rmstrustedpublishingdomain](https://technet.microsoft.com/library/jj200724%28v=exchg.150%29.aspx) cmdlet을 실행 하 여 Azure 권한 관리에서 TPD를 가져옵니다. 
-    
-  ```
+
+  ```powershell
   Import-RMSTrustedPublishingDomain -RMSOnline -Name "<TPDName> "
   ```
 
     여기서 *T사용자 이름은* TPD에 사용할 이름입니다. 예를 들어 "Contoso 북미 미국식 TPD"을 사용할 때 
-    
+
 5. Azure 권한 관리 서비스를 사용 하도록 Office 365 조 직을 성공적으로 구성 했는지 확인 하려면 다음과 같이-RMSOnline 스위치를 통해 [테스트-IRMConfiguration](https://technet.microsoft.com/library/dd979798%28v=exchg.160%29.aspx) cmdlet을 실행 합니다. 
-    
-  ```
+
+  ```powershell
   Test-IRMConfiguration -RMSOnline
   ```
 
     무엇 보다도이 cmdlet은 Azure 권한 관리 서비스와의 연결을 확인 하 고, TPD를 다운로드 하 고, 유효성을 검사 합니다.
-    
+
 6. 다음과 같이 [Set-IRMConfiguration](https://technet.microsoft.com/library/dd979792%28v=exchg.150%29.aspx) cmdlet을 실행 하 여 웹 및 Outlook에서 Outlook에서 Azure 권한 관리 템플릿을 사용할 수 없도록 설정 합니다. 
-    
-  ```
+
+  ```powershell
   Set-IRMConfiguration -ClientAccessServerEnabled $false
   ```
 
 7. 클라우드 기반 전자 메일 조직에 대해 Azure 권한 관리를 사용 하도록 설정 하 고 Office 365 메시지 암호화에 대해 Azure 권한 관리를 사용 하도록 configure [-IRMConfiguration](https://technet.microsoft.com/library/dd979792%28v=exchg.150%29.aspx) cmdlet을 실행 합니다. 
-    
-  ```
+
+  ```powershell
   Set-IRMConfiguration -InternalLicensingEnabled $true
   ```
 
 8. TPD를 올바르게 가져왔는지 Azure 권한 관리를 사용 하도록 설정 했는지 확인 하려면 IRMConfiguration cmdlet을 사용 하 여 Azure 권한 관리 기능을 테스트 합니다. 자세한 내용은 [테스트-IRMConfiguration](https://technet.microsoft.com/library/dd979798%28v=exchg.150%29.aspx)의 "예제 1"을 참조 하십시오.
-    
+
 ## <a name="i-have-the-previous-version-of-ome-set-up-with-active-directory-rights-management-not-azure-information-protection-what-do-i-do"></a>이전 버전의 OME가 Azure Information Protection이 아닌 Active Directory Rights Management로 설정 되어 있습니다.
 <a name="importTPDs"> </a>
 
@@ -129,5 +129,3 @@ Azure 권한 관리 설치를 완료 한 후에 새 OME 기능을 사용 하도�
 [Office 365의 암호화에 대한 기술 관련 세부 정보](technical-reference-details-about-encryption.md)
   
 [Azure 권한 관리 란?](https://docs.microsoft.com/information-protection/understand-explore/what-is-azure-rms)
-  
-

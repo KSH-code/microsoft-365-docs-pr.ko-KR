@@ -12,17 +12,18 @@ localization_priority: Normal
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
+- SPO_Content
 search.appverid:
 - MOE150
 - MET150
 ms.assetid: c4639c2e-7223-4302-8e0d-b6e10f1c3be3
 description: '보안 & 준수 센터의 콘텐츠 검색 도구를 사용 하 여 Exchange Online 사서함 및 SharePoint 또는 비즈니스용 OneDrive 사이트에서 검색할 수 있는 전자 메일 및 파일 속성에 대해 알아봅니다.  '
-ms.openlocfilehash: 5b3438537e2936fa140052c6869f84937e103746
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: e01953c6397c8c7ca9f38780537f3f7546b238fb
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37087292"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38687196"
 ---
 # <a name="keyword-queries-and-search-conditions-for-content-search"></a>콘텐츠 검색에 대한 키워드 쿼리 및 검색 조건
 
@@ -74,7 +75,7 @@ ms.locfileid: "37087292"
 
 ## <a name="searchable-site-properties"></a>검색 가능한 사이트 속성
 
-다음 표에는 보안 & 준수 센터의 콘텐츠 검색 기능을 사용 하거나 **ComplianceSearch** 또는 ComplianceSearch을 사용 하 여 검색할 수 있는 SharePoint 및 비즈니스용 OneDrive 속성이 나와 있습니다. ** **cmdlet 이 표에는 각 속성에 대 한 _속성의 값_ 구문과 예제에서 반환 된 검색 결과에 대 한 설명이 포함 되어 있습니다. 
+다음 표에는 보안 & 준수 센터의 콘텐츠 검색 기능을 사용 하거나 **ComplianceSearch** **cmdlet을 사용** 하 여 검색할 수 있는 SharePoint 및 비즈니스용 OneDrive 속성이 나와 있습니다. 이 표에는 각 속성에 대 한 _속성의 값_ 구문과 예제에서 반환 된 검색 결과에 대 한 설명이 포함 되어 있습니다. 
   
 검색할 수 있는 SharePoint 속성의 전체 목록을 보려면 [sharepoint에서 크롤링 및 관리 속성 개요](https://go.microsoft.com/fwlink/p/?LinkId=331599)를 참조 하세요. **쿼리** 가능 열에 **예** 로 표시 된 속성을 검색할 수 있습니다. 
   
@@ -152,7 +153,7 @@ ms.locfileid: "37087292"
 |ONEAR|keyword1 ONEAR(n) keyword2|**Near**과 유사 하지만 지정 된 순서로 서로 근접 한 단어를 포함 하는 항목을 반환 합니다. 예를 들어 `best ONEAR(5) worst` "최상" 이라는 단어가 "최악의" 단어 보다 앞에 있고 두 단어는 서로 다섯 단어 내에 있는 항목을 모두 반환 합니다. 숫자를 지정하지 않으면 기본 거리는 8단어입니다. <sup>2</sup> <br/> > [!NOTE]>에서는 사서함을 검색할 때 **Onear** 연산자를 지원 하지 않습니다. SharePoint 및 비즈니스용 OneDrive 사이트를 검색 하는 경우에만 작동 합니다. 같은 검색에서 사서함 및 사이트를 검색 하는 경우 쿼리에 **Onear** 연산자가 포함 된 경우에는 **NEAR** 연산자를 사용 하는 것 처럼 검색에서 사서함 항목을 반환 합니다. 즉, 검색 기능은 단어가 나타나는 순서에 관계 없이 지정 된 단어가 서로 가까이 있는 항목을 반환 합니다.|
 |:|속성: 값|콜론 (:) `property:value` 구문에서 검색 되는 속성의 값에 지정 된 값이 포함 되도록 지정 합니다. 예를 들어 `recipients:garthf@contoso.com` garthf@contoso.com로 전송 된 모든 메시지를 반환 합니다.|
 |=|속성 = 값|**:** 연산자와 같습니다.|
-|\<|속성\<값|검색 중인 속성이 지정된 값보다 작음을 나타냅니다.  <sup>개</sup>|
+|\<|속성\<값|검색 중인 속성이 지정된 값보다 작음을 나타냅니다.  <sup>1</sup>|
 |\>|속성\>값|검색 중인 속성이 지정 된 값 보다 크다는 것을 나타냅니다. <sup>1</sup>|
 |\<=|속성\<= 값|검색 중인 속성이 특정 값 보다 작거나 같음을 나타냅니다. <sup>1</sup>|
 |\>=|속성\>= 값|검색 중인 속성이 특정 값 보다 크거나 같음을 나타냅니다. <sup>1</sup>|
@@ -277,7 +278,7 @@ SharePoint 및 비즈니스용 OneDrive 사이트에서 문서를 검색할 때 
   
 ### <a name="examples-of-using-conditions-in-search-queries"></a>예제
 
-다음 예제에서는 조건이 포함 된 검색 쿼리의 GUI 기반 버전, 선택한 검색의 세부 정보 창에 표시 되는 검색 쿼리 구문 ( **ComplianceSearch** cmdlet에 의해서도 반환 됨) 및 해당 논리를 보여 줍니다. 해당 KQL 쿼리 
+다음은 선택한 검색의 세부 정보 창에 표시 되는 검색 쿼리 구문 ( **ComplianceSearch** cmdlet에 의해 반환 됨) 및 해당 하는 KQL 쿼리의 논리를 보여 주는 예제입니다. 
   
 #### <a name="example-1"></a>예 1
 
@@ -379,13 +380,13 @@ SharePoint 및 비즈니스용 OneDrive 사이트에서 문서를 검색할 때 
 
 다음 키워드 쿼리를 사용 하 여 비즈니스용 Skype 대화에서 콘텐츠를 구체적으로 검색할 수 있습니다.
 
-```
+```powershell
 kind:im
 ```
 
 이전 검색 쿼리는 Microsoft 팀에서 채팅을 반환 하기도 합니다. 이를 방지 하려면 다음 키워드 쿼리를 사용 하 여 비즈니스용 Skype 대화만 포함 되도록 검색 결과 범위를 좁힐 수 있습니다.
 
-```
+```powershell
 kind:im AND subject:conversation
 ```
 
@@ -393,7 +394,7 @@ kind:im AND subject:conversation
 
 특정 날짜 범위 내에서 발생 한 비즈니스용 Skype 대화를 검색 하려면 다음 키워드 쿼리를 사용 합니다.
 
-```
+```powershell
 kind:im AND subject:conversation AND (received=startdate..enddate)
 ```
 

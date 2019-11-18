@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Office 365의 DLP 보고서를 사용 하 여 DLP 정책 일치, 재정의 또는 가양성의 수를 빠르게 확인할 수 있습니다. 시간이 경과 함에 따라 작업 시간을 초과 하 고 있는지 여부를 확인할 수 있습니다. 다양 한 방법으로 보고서를 필터링 합니다. 그래프의 선에서 점을 선택 하 여 추가 세부 정보를 확인 합니다.
-ms.openlocfilehash: f3161854a19f9f9a04390eec508ae43e92119f96
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 94569ef24814204263820fb5fdb7a8cb72da20e4
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088655"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38687052"
 ---
 # <a name="view-the-reports-for-data-loss-prevention"></a>데이터 손실 방지에 대한 보고서 보기
 
@@ -85,18 +85,18 @@ DLP (데이터 손실 방지) 정책을 만든 후에는 해당 정책이 의도
 
 보안 &amp; 및 준수 센터에 대 한 cmdlet을 대부분 사용 하려면 다음 작업을 수행 해야 합니다.
   
-1. [원격 PowerShell을 사용하여 Office 365 보안 및 준수 센터에 연결](http://go.microsoft.com/fwlink/?LinkID=799771&amp;clcid=0x409)
+1. [원격 PowerShell을 사용하여 Office 365 보안 및 준수 센터에 연결](https://go.microsoft.com/fwlink/?LinkID=799771&amp;clcid=0x409)
     
-2. 다음 [Office 365 보안 &amp; 및 준수 센터 cmdlet](http://go.microsoft.com/fwlink/?LinkID=799772&amp;clcid=0x409) 사용
+2. 다음 [Office 365 보안 &amp; 및 준수 센터 cmdlet](https://go.microsoft.com/fwlink/?LinkID=799772&amp;clcid=0x409) 사용
     
 그러나 DLP 보고서는 Exchange Online을 포함 하 여 Office 365 간에 데이터를 가져올 필요가 있습니다. 이러한 이유로 DLP 보고서용 cmdlet은 보안 &amp; 및 준수 센터 powershell이 아닌 Exchange Online Powershell에서 사용할 수 있습니다. 따라서 DLP 보고서에 대해 cmdlet을 사용 하려면 다음을 수행 해야 합니다.
   
-1. [Connect to Exchange Online using remote PowerShell](http://go.microsoft.com/fwlink/?LinkID=799773&amp;clcid=0x409)(원격 PowerShell을 사용하여 Exchange Online에 연결)
+1. [Connect to Exchange Online using remote PowerShell](https://go.microsoft.com/fwlink/?LinkID=799773&amp;clcid=0x409)(원격 PowerShell을 사용하여 Exchange Online에 연결)
     
 2. DLP 보고서에 대해 다음 cmdlet 중 하나를 사용 합니다.
     
-      - [Get-dlpdetectionsreport](http://go.microsoft.com/fwlink/?LinkID=799774&amp;clcid=0x409)
+      - [Get-dlpdetectionsreport](https://go.microsoft.com/fwlink/?LinkID=799774&amp;clcid=0x409)
     
-      - [Get-dlpdetailreport](http://go.microsoft.com/fwlink/?LinkID=799775&amp;clcid=0x409)
+      - [Get-dlpdetailreport](https://go.microsoft.com/fwlink/?LinkID=799775&amp;clcid=0x409)
     
 

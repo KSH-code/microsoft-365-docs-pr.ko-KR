@@ -13,15 +13,17 @@ search.appverid:
 - MOE150
 - BCS160
 - MET150
-ms.collection: M365-security-compliance
+ms.collection:
+- M365-security-compliance
+- SPO_Content
 ms.assetid: 50bbf89f-7870-4c2a-ae14-42635e0cfc01
 description: '공유는 SharePoint Online 및 비즈니스용 OneDrive의 주요 활동입니다. 이제 관리자는 Office 365 감사 로그의 공유 감사를 사용 하 여 조직 외부의 사용자와 공유 되는 리소스를 식별할 수 있습니다. '
-ms.openlocfilehash: 48fc1a67f501c807e76ba2333170df83a1248428
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 8d473a3e3fb1c8e5e8753265c3982b27271ed39c
+ms.sourcegitcommit: e2ed110c4c3a8434f9fcc9d610069bc77bc39220
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37089268"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "38687153"
 ---
 # <a name="use-sharing-auditing-in-the-office-365-audit-log"></a>외부 사용자와 공유된 리소스를 찾기 위한 감사 공유
 

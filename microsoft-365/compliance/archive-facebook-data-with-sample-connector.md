@@ -10,12 +10,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: 관리자는 기본 커넥터를 설정 하 여 Facebook Business 페이지, Twitter, LinkedIn 회사 페이지 및 인스턴트 Bloomberg 같은 데이터 원본에서 타사 데이터를 가져올 수 있습니다. 이를 통해 Office 365의 타사 데이터 원본에서 데이터를 보관할 수 있으므로 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용 하 여 조직의 타사 데이터를 관리 하는 것을 관리할 수도 있습니다.
-ms.openlocfilehash: 2dde58e4d3ead0064e28c1ba1bfc04485c7a25df
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 74b35281f72277c4698b835a63613288dce7d9ce
+ms.sourcegitcommit: 6e01543b3fff50a28719478b19b644991ba7505a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37087713"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38687085"
 ---
 # <a name="use-a-sample-connector-to-archive-facebook-data-in-office-365-preview"></a>샘플 커넥터를 사용 하 여 Office 365에서 Facebook 데이터 보관 (미리 보기)
 
@@ -23,7 +23,7 @@ Office 365에서 Facebook 데이터를 보관 하는 샘플 커넥터 기능은 
 
 Office 365의 보안 & 준수 센터에 있는 예제 커넥터를 사용 하 여 Facebook Business 페이지의 데이터를 Office 365로 가져오고 보관 합니다. 샘플 커넥터를 설정 하 고 구성한 후에는 해당 커넥터가 Facebook Business 페이지에 연결 되 고 (예약 된 방식) Facebook 항목의 콘텐츠가 전자 메일 메시지 형식으로 변환 된 다음 해당 항목을 Office 365의 사서함으로 가져옵니다.
 
-Facebook 데이터를 가져온 후에 소송 보존, 콘텐츠 검색, 원본 위치 보관, 감사, 감독 및 Office 365 고정 정책과 같은 Office 365 준수 기능을 Facebook 데이터에 적용할 수 있습니다. 예를 들어 사서함이 소송 보존으로 설정 되거나 할당 되 면 Facebook 데이터가 보존 됩니다. 콘텐츠 검색을 사용 하 여 타사 데이터를 검색 하거나, 고급 eDiscovery 사례에서 Facebook 데이터가 custodian와 함께 저장 된 사서함을 연결할 수 있습니다. 커넥터를 사용 하 여 Office 365에서 Facebook 데이터를 가져오고 보관 하면 조직이 정부 및 규정 정책을 준수 하는 데 도움이 될 수 있습니다.
+Facebook 데이터를 가져온 후에는 해당 Facebook 데이터에 소송 보존, 콘텐츠 검색, 원본 위치 보관, 감사, [통신 준수](communication-compliance.md)및 office 365 보존 정책과 같은 office 365 준수 기능을 적용할 수 있습니다. 예를 들어 사서함이 소송 보존으로 설정 되거나 할당 되 면 Facebook 데이터가 보존 됩니다. 콘텐츠 검색을 사용 하 여 타사 데이터를 검색 하거나, 고급 eDiscovery 사례에서 Facebook 데이터가 custodian와 함께 저장 된 사서함을 연결할 수 있습니다. 커넥터를 사용 하 여 Office 365에서 Facebook 데이터를 가져오고 보관 하면 조직이 정부 및 규정 정책을 준수 하는 데 도움이 될 수 있습니다.
 
 > [!NOTE]
 > 현재로 서는 Facebook Business pages 및 [Twitter](archive-twitter-data-with-sample-connector.md) 에 대 한 샘플 커넥터만 미리 볼 수 있습니다. 더 많은 샘플 커넥터가 곧 제공 될 예정입니다.
@@ -85,9 +85,9 @@ Facebook 데이터를 가져온 후에 소송 보존, 콘텐츠 검색, 원본 �
 
 이 단계를 완료 하는 동안 단계별 지침을 따라 웹 앱 리소스를 만들 때 다음 정보 (이전 단계를 완료 한 후에 텍스트 파일로 복사)를 제공 합니다.
 
-- APISecretKey-이 단계를 완료 하는 동안이 비밀을 만듭니다. 7 단계에서 사용 됩니다.
-- StorageAccountConnectionString-3 단계에서 Azure storage 계정을 만든 후 복사한 연결 문자열 Uri입니다.
-- tenantId-2 단계에서 Azure Active Directory에 Facebook 커넥터 앱을 만든 후 복사한 Office 365 조직의 테 넌 트 ID입니다.
+- APISecretKey:이 단계를 완료 하는 동안이 암호를 만듭니다. 7 단계에서 사용 됩니다.
+- StorageAccountConnectionString: 3 단계에서 Azure storage 계정을 만든 후에 복사한 연결 문자열 Uri입니다.
+- tenantId: 2 단계에서 Azure Active Directory에 Facebook connector 앱을 만든 후 복사한 Office 365 조직의 테 넌 트 ID입니다.
 
 또한이 단계에서 1 단계에서 다운로드 한 SampleConnector 파일을 업로드 하 여 Facebook 커넥터 응용 프로그램에 대 한 소스 코드를 배포 합니다.
 
@@ -118,7 +118,7 @@ Facebook 데이터를 가져온 후에 소송 보존, 콘텐츠 검색, 원본 �
 - Facebook webhook 확인 토큰 (5 단계에서 가져옴)
 - Azure Active Directory 응용 프로그램 ID (2 단계에서 가져온 AAD 응용 프로그램 ID)
 - Azure Active Directory 응용 프로그램 비밀 (2 단계에서 얻은 AAD 응용 프로그램 암호)
-- Azure Active Directory 응용 프로그램 Uri (2 단계에서 가져온 AAD 응용 프로그램 Uri (예:https://microsoft.onmicrosoft.com/2688yu6n-12q3-23we-e3ee-121111123213)
+- Azure Active Directory 응용 프로그램 Uri (2 단계에서 가져온 AAD 응용 프로그램 Uri (예:`https://microsoft.onmicrosoft.com/2688yu6n-12q3-23we-e3ee-121111123213)`
 
 ## <a name="step-7-set-up-a-custom-connector-in-the-security--compliance-center"></a>7 단계: 보안 & 준수 센터에서 사용자 지정 커넥터 설정
 

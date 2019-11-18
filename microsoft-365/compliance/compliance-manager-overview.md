@@ -12,12 +12,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 준수 관리자는 Microsoft Service Trust Portal의 무료 워크플로 기반 위험 평가 도구입니다. 준수 관리자를 사용 하면 Microsoft 클라우드 서비스와 관련 된 규정 준수 활동을 추적, 할당 및 확인할 수 있습니다.
-ms.openlocfilehash: 428e4ef319d53bf161903fc9584037800d0b3d3b
-ms.sourcegitcommit: 15173ab87325b7d79bab683702b35d77a355cd6b
+ms.openlocfilehash: 723f1372b9214367985cc6b42c41e94c3f201b89
+ms.sourcegitcommit: 544b10cc3abe04a47438085d51c4250c9238f76f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/08/2019
-ms.locfileid: "37417537"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "38686989"
 ---
 # <a name="microsoft-compliance-manager-preview"></a>Microsoft 준수 관리자 (미리 보기)
 
@@ -105,22 +105,22 @@ ms.locfileid: "37417537"
 
 [작업 항목](working-with-compliance-manager.md#controls-and-actions) 은 평가 완료 진행률을 관리 하 고 추적 하는 데 사용할 수 있는 기본 제공 워크플로 관리 기능의 일부로 서 고객 관리 되는 컨트롤에 포함 됩니다.
 
-조직의 구성원은 준수 관리자를 사용 하 여 해당 사용자가 할당 된 모든 평가에서 고객 관리 되는 컨트롤을 검토할 수 있습니다. 사용자가 준수 관리자에 로그인 하 고 **작업 항목** 대시보드를 열면 할당 된 작업 항목 목록이 표시 됩니다. 사용자에 게 할당 된 준수 관리자 역할에 따라 구현 또는 테스트 세부 정보를 제공 하거나 상태를 업데이트 하거나 작업 항목을 할당할 수 있습니다.
+조직의 구성원은 준수 관리자를 사용 하 여 해당 사용자가 할당 된 모든 평가에서 고객 관리 되는 컨트롤을 검토할 수 있습니다. 사용자가 준수 관리자에 로그인하여 **작업 항목** 대시보드를 열면 할당된 작업 항목 목록이 표시됩니다. 사용자에게 할당된 준수 관리자 역할에 따라 구현 또는 테스트 세부 정보를 제공하거나, 상태를 업데이트하거나, 작업 항목을 할당할 수 있습니다.
 
 인증 컨트롤은 일반적으로 한 사람에 의해 구현 되며 다른 사용자가 테스트 합니다. 예를 들어 초기에 한 사람에 게 할당 된 작업 항목이 완료 된 후에는 다음 사용자에 게 증거를 테스트 및 업로드 하기 위한 작업 항목이 할당 됩니다. 컨트롤 할당에 대 한 충분 한 사용 권한이 있는 모든 사용자는 작업 항목을 할당 하 고 다시 할당할 수 있습니다. 이를 통해 제어 할당을 중앙 집중식으로 관리 하 고 implementors 및 테스터 간에 작업 항목을 분산 하 여 라우팅할 수 있습니다.
 
 ## <a name="permissions"></a>권한
 
-준수 관리자가 역할 기반 액세스 제어 권한 모델을 사용 합니다. 사용자 역할이 할당 된 사용자만 준수 관리자에 액세스할 수 있으며, 각 사용자가 허용한 작업은 역할 유형에 따라 제한 됩니다. 각 권한에 대해 허용 되는 작업을 보여 주는 [테이블을 봅니다](working-with-compliance-manager.md#permissions) .
+준수 관리자는 역할 기반 액세스 제어 사용 권한 모델을 사용합니다. 사용자 역할이 할당된 사용자만 준수 관리자에 액세스할 수 있으며, 각 사용자가 허용하는 작업은 역할 유형에 따라 제한됩니다. 각 권한에 대해 허용 되는 작업을 보여 주는 [테이블을 봅니다](working-with-compliance-manager.md#permissions) .
 
 준수 관리자에 대 한 포털 관리자는 다음 단계를 수행 하 여 준수 관리자 내에서 다른 사용자의 사용 권한을 설정할 수 있습니다.
 
 1. 맨 위에 있는 **더 보기** 드롭다운 메뉴에서 **관리**, **설정을**차례로 선택 합니다.
 2. 여기에서 할당 하려는 역할을 선택한 다음 해당 역할에 할당 하려는 직원을 추가 합니다. 그러면 사용자가 특정 작업을 수행할 수 있게 됩니다.
 
-또한 azure [Active Directory (AZURE AD)에서 전역 독자 역할이](https://docs.microsoft.com/en-us/azure/active-directory/users-groups-roles/directory-assign-admin-roles#global-reader) 할당 된 사용자에 게는 준수 관리자 액세스를 위한 읽기 전용 권한이 부여 됩니다. 그러나 준수 관리자 내에서 데이터를 편집 하거나 작업을 수행할 수는 없습니다.
+또한 azure [Active Directory (AZURE AD)에서 전역 독자 역할이](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#global-reader) 할당 된 사용자에 게는 준수 관리자 액세스를 위한 읽기 전용 권한이 부여 됩니다. 그러나 준수 관리자 내에서 데이터를 편집 하거나 작업을 수행할 수는 없습니다.
 
-기본 **게스트 액세스** 역할은 더 이상 존재 하지 않습니다. 준수 관리자 내에서 액세스 하 고 작업 하려면 각 사용자에 게 역할이 할당 되어야 합니다.
+더 이상 기본 **게스트 액세스** 역할이 없음을 참고하세요. 각 사용자에게는 준수 관리자로 액세스하고 작업을 하기 위해 역할이 할당되어야 합니다.
   
 ## <a name="manage-evidence"></a>증거 관리
 
@@ -131,28 +131,30 @@ ms.locfileid: "37417537"
 준수 관리자는 미리 구성 된 [서식 파일](working-with-compliance-manager.md#templates) 을 평가에 제공 하며, 규정 준수 요구 사항에 맞게 고객 관리 컨트롤에 대 한 사용자 지정 서식 파일을 만들 수 있습니다. 새 템플릿은 Excel 파일에서 컨트롤 정보를 가져오거나, 기존 서식 파일의 복사본에서 서식 파일을 만들 수 있습니다.
 
 준수 관리자에 포함 된 미리 구성 된 서식 파일은 다음과 같습니다.
- 
-- [ISO 27001:2013](https://www.iso.org/obp/ui/#iso:std:iso-iec:27001:ed-2:v1:en)
-- [ISO 27018:2019](https://www.iso.org/obp/ui/#iso:std:iso-iec:27018:ed-2:v1:en)
-- [NIST 800-53](https://csrc.nist.gov/publications/detail/sp/800-53/rev-4/final)
-- [NIST 800-171](https://csrc.nist.gov/publications/detail/sp/800-171/rev-1/final)
-- [NIST Cybersecurity Framework (CSF)](https://www.nist.gov/cyberframework)
-- [CSA (cloud Security 제휴) 3.0.1 (CCM)](https://cloudsecurityalliance.org/working-groups/cloud-controls-matrix/#_overview)
-- [연방 금융 기관 검사 Council (FFIEC) 정보 보안 소책자](https://ithandbook.ffiec.gov/it-booklets/information-security.aspx) 
-- [HIPAA](https://www.hhs.gov/hipaa/for-professionals/index.html) / [HITECH](https://www.hhs.gov/hipaa/for-professionals/special-topics/hitech-act-enforcement-interim-final-rule/index.html)
-- [FedRAMP 보통](https://www.fedramp.gov/documents/)
-- [유럽 연합 GDPR](https://eur-lex.europa.eu/legal-content/EN/TXT/HTML/?uri=CELEX:32016R0679&from=EN)
+
+1. [ISO 27001:2013](https://go.microsoft.com/fwlink/?linkid=2109073)
+2. [ISO 27018:2014](https://go.microsoft.com/fwlink/?linkid=2109074)
+3. [NIST 800-53 Rev. 4](https://go.microsoft.com/fwlink/?linkid=2109075)
+4. [NIST 800-171](https://go.microsoft.com/fwlink/?linkid=2108867)
+5. [NIST Cybersecurity Framework (CSF)](https://go.microsoft.com/fwlink/?linkid=2108868)
+6. [CSA (cloud Security 제휴) 3.0.1 (CCM)](https://go.microsoft.com/fwlink/?linkid=2109076)
+8. [연방 금융 기관 검사 Council (FFIEC) 정보 보안 소책자](https://go.microsoft.com/fwlink/?linkid=2109077) 
+8. [HIPAA](https://go.microsoft.com/fwlink/?linkid=2109078) / [HITECH](https://go.microsoft.com/fwlink/?linkid=2109079)
+9. [FedRAMP 보통](https://go.microsoft.com/fwlink/?linkid=2108869)
+10. [유럽 연합 GDPR](https://go.microsoft.com/fwlink/?linkid=2108870)
+11. [캘리포니아 CCPA (소비자 개인 정보 취급 방침)-미리 보기](https://go.microsoft.com/fwlink/?linkid=2108871)
+12. [Microsoft 365 데이터 보호 초기 계획](compliance-score-methodology.md#initial-score-based-on-microsoft-365-data-protection-baseline)
 
 ## <a name="compliance-score"></a>준수 점수
 
-[준수 점수](compliance-score-methodology.md) 는 조직에서 규정 준수를 이해 하 고 관리 하는 데 도움이 되는 준수 관리자의 핵심 구성 요소입니다. [Microsoft 보안 점수](../security/mtp/microsoft-secure-score.md)와 마찬가지로 준수 점수는 조직의 데이터 보호, 개인 정보 및 보안과 관련 된 활동에 대 한 동작 기반 점수 매기기 시스템입니다. 평가에 대 한 준수 점수는 지정 된 표준 또는 규정을 준수 하는 식입니다. 수치 점수가 높을수록 평가에 대 한 준수도가 향상 됩니다. 규정 준수 성과를 이해 하는 것은 필요한 고객 관리 제어 작업의 우선 순위를 지정 하는 데 중요 합니다.
+[Microsoft 준수 점수 (Preview)](compliance-score.md) 는 조직의 규정 준수 상태를 이해 하는 데 도움이 되는 microsoft 365 준수 센터의 기능입니다. 데이터 보호 및 규정 표준에 대 한 위험을 줄이는 데 도움이 되는 작업 완료의 진행 상태를 측정 하는 위험 기반 점수를 계산 합니다. 전체 준수 점수를 알면 조직에서 규정 준수를 이해 하 고 관리할 수 있습니다. [준수 점수가 계산 되는 방식을](compliance-score-methodology.md)이해 합니다.
   
 > [!IMPORTANT]
-> 준수 점수는 특정 표준 및 규정에 대해 조직 차원의 규정 준수에 대한 절대 측정 결과를 나타내지 않습니다. 개인 데이터 및 개별 개인 정보 보호에 대한 위험을 줄일 수 있는 컨트롤 채택 수준을 나타냅니다. 사용자의 표준 또는 규정 준수를 보장하는 서비스는 없으며, 준수 점수는 어떤 경우든 준수 보장으로 해셕되면 안 됩니다.
+> 규정 준수 점수가 특정 표준 또는 규정에 대 한 조직 준수를 절대 측정 하지는 않습니다. 개인 데이터 및 개별 개인 정보에 대 한 위험을 줄일 수 있는 컨트롤을 채택한 범위를 나타냅니다. 어떤 서비스 에서도 표준 또는 규정을 준수 하는 것을 보증할 수 없으며 규정 준수 점수가 어떤 식으로든 보장으로 해석 되어서는 안 됩니다.
 
 ## <a name="secure-score-integration"></a>보안 점수 통합
 
-준수 관리자는 동기화 된 작업 항목에 대 한 준수 점수에 보안 점수 학점을 자동으로 적용 하기 위해 [Microsoft 보안 점수](../security/mtp/microsoft-secure-score.md) 와 통합 되어 있습니다. 개별 작업 항목에 대해 구성할 수 있으며 항목 간의 지속적인 업데이트를 제공 합니다.
+준수 관리자는 동기화 된 작업 항목에 대 한 준수 점수에 보안 점수 학점을 자동으로 적용 하기 위해 [Microsoft 보안 점수](../security/mtp/microsoft-secure-score.md) 와 통합 되어 있습니다. 이 기능은 개별 작업 항목 또는 모든 작업에 대해 구성할 수 있으며, 보안 점수 로부터의 업데이트를 제공 합니다.
 
 예를 들어 조직에서 준수 관련 작업 항목에도 적용 되는 Azure 권한 관리를 활성화 하는 데 필요한 보안 관련 요구 사항이 있습니다. Azure 권한 관리가 정품 인증 되 고 보안 점수에 의해 처리 되 면 준수 관리자는 업데이트 알림을 받으며, 작업 항목의 점수가 완료 크레딧을 통해 자동으로 업데이트 됩니다.
 

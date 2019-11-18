@@ -10,18 +10,18 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: 관리자는 기본 커넥터를 설정 하 여 인스턴트 Bloomberg 채팅 도구에서 Office 365로 데이터를 가져올 수 있습니다. 이렇게 하면 Office 365의 타사 데이터 원본에서 데이터를 보관할 수 있으므로 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용 하 여 조직의 타사 데이터를 관리할 수도 있습니다.
-ms.openlocfilehash: eda68a0fdc887a2042a78683eaef0693264d0684
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 97923fbd9bec8f5ae5fad822947c57bab08fe218
+ms.sourcegitcommit: 33242c260439de0d8db41247e9414913f24adc22
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37087708"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "38687011"
 ---
 # <a name="set-up-a-connector-to-archive-instant-bloomberg-data-in-office-365"></a>Office 365에서 인스턴트 Bloomberg 데이터를 보관 하는 커넥터 설정
 
 Office 365의 보안 & 준수 센터에서 네이티브 커넥터를 사용 하 여 [인스턴트 Bloomberg](https://www.bloomberg.com/professional/product/collaboration/) 공동 작업 도구에서 금융 서비스 채팅 데이터를 가져오고 보관 합니다. 커넥터를 설정 하 고 구성한 후에는 조직에서 매월 Bloomberg 보안 FTP 사이트 (SFTP)에 연결 하 고, 채팅 메시지의 콘텐츠를 전자 메일 메시지 형식으로 변환한 다음, 해당 항목을 Office 365의 사서함으로 가져옵니다.
 
-인스턴트 Bloomberg 데이터를 사용자 사서함에 저장 한 후에는 소송 보존, 콘텐츠 검색, 원본 위치 보관, 감사 및 Office 365 고정 정책과 같은 Office 365 준수 기능을 인스턴트 Bloomberg 데이터에 적용할 수 있습니다. 예를 들어 콘텐츠 검색을 사용 하 여 인스턴트 Bloomberg 채팅 메시지를 검색 하거나, 고급 eDiscovery 사례의 custodian에 인스턴트 Bloomberg 데이터가 포함 된 사서함을 연결할 수 있습니다. 인스턴트 Bloomberg 커넥터를 사용 하 여 Office 365에서 데이터를 가져오고 보관 하면 조직이 정부 및 규정 정책을 준수 하는 데 도움이 될 수 있습니다.
+인스턴트 Bloomberg 데이터를 사용자 사서함에 저장 한 후에는 소송 보존, 콘텐츠 검색, 원본 위치 보관, 감사, [통신 준수](communication-compliance.md)및 office 365 보존 정책과 같은 office 365 준수 기능을 인스턴트 Bloomberg 데이터에 적용할 수 있습니다. 예를 들어 콘텐츠 검색을 사용 하 여 인스턴트 Bloomberg 채팅 메시지를 검색 하거나, 고급 eDiscovery 사례의 custodian에 인스턴트 Bloomberg 데이터가 포함 된 사서함을 연결할 수 있습니다. 인스턴트 Bloomberg 커넥터를 사용 하 여 Office 365에서 데이터를 가져오고 보관 하면 조직이 정부 및 규정 정책을 준수 하는 데 도움이 될 수 있습니다.
 
 ## <a name="overview-of-archiving-instant-bloomberg-data"></a>인스턴트 Bloomberg 데이터 보관 개요
 
@@ -37,7 +37,7 @@ Office 365의 보안 & 준수 센터에서 네이티브 커넥터를 사용 하 
     
 4. 커넥터는 채팅 메시지 항목을 특정 사용자의 사서함 또는 대체 사서함으로 가져옵니다. 커넥터에서 *CorporateEmailAddress* 속성 값을 사용 합니다. 모든 채팅 메시지에는 채팅 메시지의 모든 참가자의 전자 메일 주소로 채워지는이 속성이 포함 되어 있습니다. 특정 사용자 사서함 또는 대체 사서함으로 항목을 가져올지 여부는 다음 기준에 따라 결정 됩니다.
     
-    위한. **CorporateEmailAddress 속성에 Office 365 사용자 계정에 해당 하는 값이 있는 항목은 다음과 같습니다.** 커넥터가 *CorporateEmailAddress* 속성의 전자 메일 주소를 Office 365의 특정 사용자 계정에 연결할 수 있는 경우 해당 항목은 사용자의 office 365 사서함에 있는 받은 편지함 폴더에 복사 됩니다.
+    a. **CorporateEmailAddress 속성에 Office 365 사용자 계정에 해당 하는 값이 있는 항목은 다음과 같습니다.** 커넥터가 *CorporateEmailAddress* 속성의 전자 메일 주소를 Office 365의 특정 사용자 계정에 연결할 수 있는 경우 해당 항목은 사용자의 office 365 사서함에 있는 받은 편지함 폴더에 복사 됩니다.
     
     b. **CorporateEmailAddress 속성의 값이 Office 365 사용자 계정에 해당 하지 않는 항목은 다음과 같습니다.** 커넥터가 *CorporateEmailAddress* 속성의 전자 메일 주소를 office 365의 특정 사용자 계정과 연결할 수 없는 경우에는 항목이 office 365의 대체 "수신-전체" 사서함의 받은 편지함 폴더에 복사 됩니다.
 
@@ -119,7 +119,7 @@ Office 365의 보안 & 준수 센터에서 네이티브 커넥터를 사용 하 
 5. **대체 사서함** 페이지에서 조직의 사용자 사서함과 연결 되지 않은 인스턴트 Bloomberg의 채팅 메시지를 저장 하는 데 사용 되는 사서함의 전자 메일 주소를 입력 합니다.
 
    > [!NOTE]
-   > 인스턴트 Bloomberg에 있는 모든 대화의 모든 채팅 메시지에는 채팅 참가자의 조직의 전자 메일 주소를 포함 하는 *CorporateEmailAddress*라는 속성이 포함 되어 있습니다. 가져오기 프로세스 중에 커넥터는 *CorporateEmailAddress* 속성에 있는 것과 동일한 전자 메일 주소를 가진 Office 365의 사용자 사서함으로 채팅 메시지를 가져오려고 시도 합니다. *CorporateEmailAddress* 속성에 있는 것과 같은 주소를 가진 Office 365 사서함이 없는 경우 커넥터는이 페이지에서 지정한 대체 사서함으로 채팅 메시지를 가져옵니다. 현재 대체 사서함에 보관 된 인스턴트 Bloomberg 채팅 메시지는 Office 365의 감독 정책에 의해 모니터링 되지 않습니다.
+   > 인스턴트 Bloomberg에 있는 모든 대화의 모든 채팅 메시지에는 채팅 참가자의 조직의 전자 메일 주소를 포함 하는 *CorporateEmailAddress*라는 속성이 포함 되어 있습니다. 가져오기 프로세스 중에 커넥터는 *CorporateEmailAddress* 속성에 있는 것과 동일한 전자 메일 주소를 가진 Office 365의 사용자 사서함으로 채팅 메시지를 가져오려고 시도 합니다. *CorporateEmailAddress* 속성에 있는 것과 주소가 같은 Office 365 사서함이 없는 경우 커넥터는이 페이지에서 지정한 대체 사서함으로 채팅 메시지를 가져옵니다.
 
 6. **다음**을 클릭 하 고 설정을 검토 한 다음 **준비** 를 클릭 하 여 커넥터를 만듭니다.
 

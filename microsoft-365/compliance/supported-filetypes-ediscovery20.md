@@ -14,16 +14,17 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 3dbebb20d179f78e97a8ae18fb810a8cb53c45ed
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 5f574fa4fa53e83e2af4ea563c63106e8206c3d5
+ms.sourcegitcommit: 0d423b50d2f1f4eccd64e35e00f67313244efba9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088501"
+ms.lasthandoff: 10/18/2019
+ms.locfileid: "38686982"
 ---
 # <a name="supported-file-types-in-advanced-ediscovery"></a>고급 eDiscovery에서 지원 되는 파일 형식
 
 고급 eDiscovery에서는 다음 표에 설명 된 여러 다른 수준의 다양 한 파일 형식을 지원 합니다. 이 목록은 마무리 되지 않으며 유효성 검사 테스트를 계속할 때 새 파일 형식을 추가 합니다. 이 표에서는 파일 형식이 텍스트 추출 (이미지의 경우 OCR)에서 지원 되며, 기본 뷰어에 표시 되며, 고급 eDiscovery의 주석 달기 뷰어에도 지원 되는지 여부를 나타냅니다.
+
 
 ## <a name="archive--container"></a>보관/컨테이너
 
@@ -35,6 +36,18 @@ ms.locfileid: "37088501"
 | 응용 프로그램/우편 번호 | 예 | 예 | 예 | .zip |
 ||||||||
 
+## <a name="audio--video"></a>오디오/비디오
+
+| Mime 형식 | 파일 id | 메타 데이터 추출 | 텍스트 추출 | 네이티브 뷰어 | 주석 달기 보기 | 가능한 내선 번호 |
+| :- |  :- |  :- |  :- |  :- |  :- |  :- |
+| application/mp4 | 예 | 예 | 아니요 | 예 | 아니요 | f4v;. m4a;. m4v;. mp4;. mp4v; mpeg; mpeg4 |
+| 오디오/mpeg | 예 | 예 | 아니요 | 예 | 아니요 | mpeg |
+| 비디오/3gpp | 예 | 예 | 아니요 | 예 | 아니요 | .3gp |
+| video/3gpp2 | 예 | 예 | 아니요 | 예 | 아니요 | .3g2;. 3gp2 |
+| 비디오/quicktime | 예 | 예 | 아니요 | 예 | 아니요 | . moov; .mov; qt |
+| 비디오/x-m4v | 예 | 예 | 아니요 | 예 | 아니요 | .m4v |
+||||||||
+
 ## <a name="database"></a>데이터베이스
 
 | Mime 형식 | 파일 id | 메타 데이터 추출 | 텍스트 추출 | 네이티브 뷰어 | 주석 달기 보기 | 가능한 내선 번호 |
@@ -42,7 +55,7 @@ ms.locfileid: "37088501"
 | 응용 프로그램/x-msaccess.exe | 예 | 예 | 예 | 아니요 | 아니요 | .mdb |
 ||||||||
 
-## <a name="email"></a>메일
+## <a name="email"></a>전자 메일
 
 | Mime 형식 | 파일 id | 메타 데이터 추출 | 텍스트 추출 | 네이티브 뷰어 | 주석 달기 보기 | 가능한 내선 번호 |
 | :- |  :- |  :- |  :- |  :- |  :- |  :- |
@@ -95,6 +108,13 @@ ms.locfileid: "37088501"
 | application/vnd. spreadsheetml | 예 | 예 | 예 | 예 | 예 | . .xltx |
 ||||||||
 
+## <a name="microsoft-onenote"></a>Microsoft OneNote
+
+| Mime 형식 | 파일 id | 메타 데이터 추출 | 텍스트 추출 | 네이티브 뷰어 | 주석 달기 보기 | 가능한 내선 번호 |
+| :- |  :- |  :- |  :- |  :- |  :- |  :- |
+| 응용 프로그램/onenote | 예 | 예 | 예 | 예 | 아니요 | 합니다. one |
+||||||||
+
 ## <a name="microsoft-powerpoint"></a>Microsoft PowerPoint
 
 | Mime 형식 | 파일 id | 메타 데이터 추출 | 텍스트 추출 | 네이티브 뷰어 | 주석 달기 보기 | 가능한 내선 번호 |
@@ -103,6 +123,13 @@ ms.locfileid: "37088501"
 | 응용 프로그램/vnd presentationml presentation | 예 | 예 | 예 | 예 | 예 | .pptx |
 | 응용 프로그램/vnd. presentationml | 예 | 예 | 예 | 예 | 예 | . ppsx |
 | application/vnd. presentationml | 예 | 예 | 예 | 예 | 예 | . potx |
+||||||||
+
+## <a name="microsoft-project"></a>Microsoft Project
+
+| Mime 형식 | 파일 id | 메타 데이터 추출 | 텍스트 추출 | 네이티브 뷰어 | 주석 달기 보기 | 가능한 내선 번호 |
+| :- |  :- |  :- |  :- |  :- |  :- |  :- |
+| application/vnd | 예 | 예 | 예 | 아니요 | 예 | mpp |
 ||||||||
 
 ## <a name="microsoft-publisher"></a>Microsoft Publisher

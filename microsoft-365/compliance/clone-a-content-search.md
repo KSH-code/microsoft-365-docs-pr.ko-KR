@@ -13,12 +13,12 @@ search.appverid:
 - MED150
 ms.assetid: 7b40eeaa-544c-4534-b89b-9f79998e374c
 description: 이 문서의 Windows PowerShell 스크립트를 사용 하 여 Office 365 또는 Microsoft 365의 준수 센터에서 기존 콘텐츠 검색을 빠르게 복제 합니다. 검색을 복제 하면 원래 검색과 같은 속성을 포함 하는 새 검색 (새 이름 포함)이 만들어집니다. 그런 다음 키워드 쿼리 또는 날짜 범위를 변경 하 여 새 검색을 편집한 다음 실행할 수 있습니다.
-ms.openlocfilehash: 2622b77045d3b4a92ad2e8a1852e1ddbaaca3368
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 25aa5d6a1ba19f697a6ccf474e055faf6a19d6bd
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37087647"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38687191"
 ---
 # <a name="clone-a-content-search"></a>콘텐츠 검색 복제
 
@@ -58,7 +58,7 @@ Office 365 또는 Microsoft 365의 준수 센터에서 콘텐츠 검색을 만�
   
 1. 파일 이름 접미사. p s 1을 사용 하 여 Windows PowerShell 스크립트 파일에 다음 텍스트를 저장 합니다. 예를 `CloneSearch.ps1`들면입니다.
     
-  ```
+  ```powershell
   # This PowerShell script clones an existing Content Search in the Office 365 security and compliance center.
   # Get login credentials from the user
   if(!$UserCredential)
@@ -120,7 +120,7 @@ Office 365 또는 Microsoft 365의 준수 센터에서 콘텐츠 검색을 만�
     
 3. 스크립트를 실행 합니다. 예를 들어:
     
-    ```
+    ```powershell
     .\CloneSearch.ps1
     ```
 

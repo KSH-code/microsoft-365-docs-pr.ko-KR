@@ -7,17 +7,19 @@ ms.date: 1/3/2017
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
-ms.collection: M365-security-compliance
+ms.collection:
+- M365-security-compliance
+- SPO_Content
 localization_priority: Normal
 search.appverid: MOE150
 ms.assetid: 5f4f8206-2d6a-4cb2-bbc6-7a0698703cc0
 description: 이 문서의 콘텐츠 검색 및 스크립트를 사용 하 여 사용자 그룹에 대 한 사서함 및 비즈니스용 OneDrive 사이트를 검색할 수 있습니다.
-ms.openlocfilehash: 9c8de90f8d2faee73ba269466f90478bc72b708e
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 02b89646fdb4175d30dce8840ac069f62995cbbc
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088547"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38687189"
 ---
 # <a name="use-content-search-to-search-the-mailbox-and-onedrive-for-business-site-for-a-list-of-users"></a>콘텐츠 검색을 사용하여 사용자 목록에 대 한 사서함 및 비즈니스용 OneDrive 검색
 
@@ -45,7 +47,7 @@ ms.locfileid: "37088547"
   
 다음은 조직의 모든 사용자에 대 한 전자 메일 주소 목록을 가져와이를 이름이 이라는 `Users.txt`텍스트 파일에 저장 하는 데 사용할 수 있는 [Exchange Online PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=517283) 명령입니다. 
   
-```
+```powershell
 Get-Mailbox -ResultSize unlimited -Filter { RecipientTypeDetails -eq 'UserMailbox'} | Select-Object PrimarySmtpAddress > Users.txt
 ```
 
@@ -70,7 +72,7 @@ Get-Mailbox -ResultSize unlimited -Filter { RecipientTypeDetails -eq 'UserMailbo
     
 1. 파일 이름 접미사. p s 1을 사용 하 여 Windows PowerShell 스크립트 파일에 다음 텍스트를 저장 합니다. 예를 `SearchEXOOD4B.ps1`들면입니다. 2 단계에서 사용자 목록을 저장 한 동일한 폴더에 파일을 저장 합니다.
     
-  ```
+  ```powershell
   # This PowerShell script will prompt you for the following information:
   #    * Your user credentials 
   #    * The name of your organization's MySite domain                                              
@@ -106,7 +108,7 @@ Get-Mailbox -ResultSize unlimited -Filter { RecipientTypeDetails -eq 'UserMailbo
       }
   }
   # Load the SharePoint assemblies from the SharePoint Online Management Shell
-  # To install, go to http://go.microsoft.com/fwlink/p/?LinkId=255251
+  # To install, go to https://go.microsoft.com/fwlink/p/?LinkId=255251
   if (!$SharePointClient -or !$SPRuntime -or !$SPUserProfile)
   {
       $SharePointClient = [System.Reflection.Assembly]::LoadWithPartialName("Microsoft.SharePoint.Client")
@@ -114,7 +116,7 @@ Get-Mailbox -ResultSize unlimited -Filter { RecipientTypeDetails -eq 'UserMailbo
       $SPUserProfile = [System.Reflection.Assembly]::LoadWithPartialName("Microsoft.SharePoint.Client.UserProfiles")
       if (!$SharePointClient)
       {
-          Write-Error "SharePoint Online Management Shell isn't installed, please install from: http://go.microsoft.com/fwlink/p/?LinkId=255251 and then run this script again"
+          Write-Error "SharePoint Online Management Shell isn't installed, please install from: https://go.microsoft.com/fwlink/p/?LinkId=255251 and then run this script again"
           return;
       }
   }
@@ -164,7 +166,7 @@ Get-Mailbox -ResultSize unlimited -Filter { RecipientTypeDetails -eq 'UserMailbo
     
 3. 스크립트를 시작 합니다. 예를 들어:
     
-    ```
+    ```powershell
     .\SearchEXOOD4B.ps1
     ```
 
@@ -180,4 +182,4 @@ Get-Mailbox -ResultSize unlimited -Filter { RecipientTypeDetails -eq 'UserMailbo
     
     - 검색 쿼리 (이 값을 비워 두면 콘텐츠 위치의 모든 항목이 반환 됩니다.)
     
-    이 스크립트는 각 비즈니스용 OneDrive 사이트에 대 한 Url을 가져온 다음 검색을 만들고 시작 합니다. 보안 & 준수 센터 PowerShell에서 **ComplianceSearch** cmdlet을 실행 하 여 검색 통계 및 결과를 표시 하거나, 보안 & 준수 센터의 **콘텐츠 검색** 페이지로 이동 하 여 정보를 볼 수 있습니다. 검색 정보 
+    이 스크립트는 각 비즈니스용 OneDrive 사이트에 대 한 Url을 가져온 다음 검색을 만들고 시작 합니다. 보안 & 준수 센터 PowerShell에서 **ComplianceSearch** cmdlet을 실행 하 여 검색 통계 및 결과를 표시 하거나, 보안 & 준수 센터의 **콘텐츠 검색** 페이지로 이동 하 여 검색에 대 한 정보를 볼 수 있습니다. 

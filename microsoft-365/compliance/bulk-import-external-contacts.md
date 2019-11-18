@@ -13,12 +13,12 @@ search.appverid:
 - MOP150
 ms.assetid: bed936bc-0969-4a6d-a7a5-66305c14e958
 description: 관리자가 Exchange Online PowerShell 및 CSV 파일을 사용 하 여 전체 주소 목록에 외부 연락처를 대량으로 가져오는 방법을 알아봅니다.
-ms.openlocfilehash: 08fe7666f03c7fe60555133292be9e27a9ffa413
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 272223d9ab61b2c5ae17043cf4523d49da306de9
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37087653"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38687175"
 ---
 # <a name="bulk-import-external-contacts-to-exchange-online"></a>Exchange Online으로 외부 연락처 대량 가져오기
 
@@ -47,10 +47,10 @@ ms.locfileid: "37087653"
     > [!TIP]
     > 언어에 특수 문자 (예: **å**, **ä**및 **ö** )가 포함 되어 있는 경우 메모장에 파일을 저장할 때 CSV 파일을 utf-8 또는 기타 유니코드 인코딩으로 저장 합니다. 
   
-    ```
+    ```text
     ExternalEmailAddress,Name,FirstName,LastName,StreetAddress,City,StateorProvince,PostalCode,Phone,MobilePhone,Pager,HomePhone,Company,Title,OtherTelephone,Department,CountryOrRegion,Fax,Initials,Notes,Office,Manager
     danp@fabrikam.com,Dan Park,Dan,Park,1234 23rd Ave,Golden,CO,80215,206-111-1234,303-900-1234,555-1212,123-456-7890,Fabrikam,Shipping clerk,555-5555,Shipping,US,123-4567,R.,Good worker,31/1663,Dan Park
-    pilar@contoso.com,Pilar Pinilla,Pilar,Pinilla,1234 Main St.,Seattle,WA,98017,206-555-0100,206-555-0101,206-555-0102,206-555-1234,Contoso,HR Manager,206-555-0104,Executive,US,206-555-0105,P.,Technical decision maker,31/1000,Dan Park 
+    pilar@contoso.com,Pilar Pinilla,Pilar,Pinilla,1234 Main St.,Seattle,WA,98017,206-555-0100,206-555-0101,206-555-0102,206-555-1234,Contoso,HR Manager,206-555-0104,Executive,US,206-555-0105,P.,Technical decision maker,31/1000,Dan Park
     ```
 
     CSV 파일의 첫 번째 행 또는 머리글 행에는 Exchange Online으로 가져올 때 사용할 수 있는 연락처의 속성이 나열 됩니다. 각 속성 이름은 쉼표로 구분 됩니다. 머리글 행 아래의 각 행은 단일 외부 연락처를 가져오기 위한 속성 값을 나타냅니다. 
@@ -75,7 +75,7 @@ ms.locfileid: "37087653"
     
 3. 다음 명령을 실행 하 여 외부 연락처를 만듭니다.
 
-    ```
+    ```powershell
     Import-Csv .\ExternalContacts.csv|%{New-MailContact -Name $_.Name -DisplayName $_.Name -ExternalEmailAddress $_.ExternalEmailAddress -FirstName $_.FirstName -LastName $_.LastName}
     ```
 
@@ -86,7 +86,7 @@ ms.locfileid: "37087653"
     > [!TIP]
     > EAC에 연결 하는 방법에 대 한 자세한 내용은 exchange [Online의 exchange 관리 센터](https://go.microsoft.com/fwlink/p/?LinkId=328197)를 참조 하십시오. 
   
-5. 필요한 경우 새로 고침 아이콘](media/O365-MDM-Policy-RefreshIcon.gif) **새로 고침** ![을 클릭 하 여 목록을 업데이트 하 고 가져온 외부 연락처를 확인 합니다. 
+5. 필요한 경우 **새로 고침** 을 클릭 하 여 목록을 업데이트 하 고 가져온 외부 연락처를 확인 합니다. 
     
     가져온 연락처가 Outlook 및 웹용 Outlook의 공유 주소록에 나타납니다.
     
@@ -103,12 +103,12 @@ ms.locfileid: "37087653"
     
 3. 다음 두 명령을 실행 하 여 CSV 파일의 다른 속성을 2 단계에서 만든 외부 연락처에 추가 합니다.
     
-    ```
+    ```powershell
     $Contacts = Import-CSV .\ExternalContacts.csv
   
     ```
 
-    ```
+    ```powershell
     $contacts | ForEach {Set-Contact $_.Name -StreetAddress $_.StreetAddress -City $_.City -StateorProvince $_.StateorProvince -PostalCode $_.PostalCode -Phone $_.Phone -MobilePhone $_.MobilePhone -Pager $_.Pager -HomePhone $_.HomePhone -Company $_.Company -Title $_.Title -OtherTelephone $_.OtherTelephone -Department $_.Department -Fax $_.Fax -Initials $_.Initials -Notes  $_.Notes -Office $_.Office -Manager $_.Manager}
     ```
 
@@ -140,19 +140,19 @@ Exchange Online에서 새 외부 연락처를 추가 하려면 1 ~ 3 단계를 �
     
 2. 단일 외부 연락처를 숨기려면 다음 명령을 실행 합니다.
     
-    ```
+    ```powershell
     Set-MailContact <external contact> -HiddenFromAddressListsEnabled $true 
     ```
- 
+
     예를 들어 Pilar Pinilla을 공유 주소록에서 숨기려면 다음 명령을 실행 합니다.
 
-    ```
+    ```powershell
     Set-MailContact "Pilar Pinilla" -HiddenFromAddressListsEnabled $true
     ```
-   
+
 3. 공유 주소록에서 모든 외부 연락처를 숨기려면 다음 명령을 실행 합니다.
 
-    ```
+    ```powershell
     Get-Contact -ResultSize unlimited -Filter {(RecipientTypeDetails -eq 'MailContact')} | Set-MailContact -HiddenFromAddressListsEnabled $true  
     ```
 

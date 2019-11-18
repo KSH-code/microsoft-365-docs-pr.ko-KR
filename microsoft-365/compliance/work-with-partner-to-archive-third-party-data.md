@@ -10,12 +10,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: 조직에서 Microsoft 파트너와 협력 하 여 Salesforce Chatter, Yahoo Messenger 또는 Yammer와 같은 데이터 원본의 타사 데이터를 가져올 사용자 지정 커넥터를 설정할 수 있습니다. 이를 통해 Office 365의 타사 데이터 원본에서 데이터를 보관할 수 있으므로 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 Office 365 규정 준수 기능을 사용 하 여 조직의 타사 데이터를 관리 하는 방법을 관리할 수도 있습니다.
-ms.openlocfilehash: a22b4226efb582969072bbd92149080cca9b749c
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 9a1767baadb237196161032166f78c06dc7e099b
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088636"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38687270"
 ---
 # <a name="work-with-a-partner-to-archive-third-party-data-in-office-365"></a>Office 365에서 파트너와 협력 하 여 타사 데이터 보관
 
@@ -47,7 +47,7 @@ Microsoft 파트너와 협력 하 여 타사 데이터 원본의 데이터를 �
     
 4. 항목은 특정 사용자의 사서함 또는 "범용" 타사 데이터 사서함으로 가져오기됩니다. 항목을 특정 사용자 사서함으로 가져올지 또는 타사 데이터 사서함으로 가져올지는 다음 기준을 기반으로 합니다.
     
-    위한. **Office 365 사용자 계정에 해당 하는 사용자 ID가 있는 항목:** 파트너 커넥터가 타사 데이터 원본 항목의 사용자 ID를 Office 365의 특정 사용자 ID에 매핑할 수 있는 경우 해당 항목은 사용자의 복구 가능한 항목 폴더에 있는 **제거** 폴더에 복사 됩니다. 제거 폴더의 항목에는 액세스할 수 없습니다. 그러나 Office 365 eDiscovery 도구를 사용 하 여 제거 폴더에서 항목을 검색할 수는 있습니다.
+    a. **Office 365 사용자 계정에 해당 하는 사용자 ID가 있는 항목:** 파트너 커넥터가 타사 데이터 원본 항목의 사용자 ID를 Office 365의 특정 사용자 ID에 매핑할 수 있는 경우 해당 항목은 사용자의 복구 가능한 항목 폴더에 있는 **제거** 폴더에 복사 됩니다. 제거 폴더의 항목에는 액세스할 수 없습니다. 그러나 Office 365 eDiscovery 도구를 사용 하 여 제거 폴더에서 항목을 검색할 수는 있습니다.
     
     b. **Office 365 사용자 계정에 해당 하는 사용자 ID가 없는 항목:** 파트너 커넥터가 항목의 사용자 ID를 Office 365의 특정 사용자 ID에 매핑할 수 없는 경우 항목은 타사 데이터 사서함의 **받은 편지함** 폴더에 복사 됩니다. 받은 편지함에 항목을 가져올 수 있으면 관리자 또는 조직의 누군가가 타사 사서함에 로그인하여 이러한 항목을 보고 관리할 수 있으며 파트너 커넥터 구성을 조정해야 하는지 확인할 수 있습니다.
  
@@ -479,7 +479,7 @@ Office 365에서 타사 데이터를 보관 하기 위한 주요 구성 요소�
   
 1. 조직의 주소록 및 기타 주소 목록에서 타사 데이터 사서함을 숨깁니다. [사용자 사서함 관리](https://go.microsoft.com/fwlink/p/?LinkId=616058)를 참조 하세요. 또는 다음 PowerShell 명령을 실행할 수 있습니다.
     
-    ```
+    ```powershell
     Set-Mailbox -Identity <identity of third-party data mailbox> -HiddenFromAddressListsEnabled $true
     ```
 
@@ -494,8 +494,6 @@ Office 365에서 타사 데이터를 보관 하기 위한 주요 구성 요소�
       - [사서함을 소송 자료 보존으로 설정](https://go.microsoft.com/fwlink/p/?LinkId=404420)
     
       - [Office 365의 보존 정책 개요](retention-policies.md)
-    
-       
     
     - 타사 데이터 사서함에 대 한 소유자, 대리인 및 관리자 액세스에 대 한 사서함 감사 로깅을 사용 하도록 설정 합니다. [Office 365에서 사서함 감사 사용을](enable-mailbox-auditing.md)참조 하세요. 이렇게 하면 타사 데이터 사서함에 대 한 액세스 권한이 있는 모든 사용자가 수행한 모든 작업을 감사할 수 있습니다.
 
@@ -519,7 +517,7 @@ Office 365에서 타사 데이터를 보관 하기 위한 주요 구성 요소�
   
 - Office 365에서 Azure 서비스에 연결 하는 데 사용 되는 끝점:
 
-    ```
+    ```text
     https://office365ingestionsvc.gble1.protection.outlook.com/service/ThirdPartyIngestionService.svc
     ```
 
@@ -529,7 +527,7 @@ Office 365에서 타사 데이터를 보관 하기 위한 주요 구성 요소�
 
 2018 년 9 월 30 일부부터 Office 365의 Azure service는 Exchange Online의 최신 인증을 사용 하 여 데이터를 가져오기 위해 Office 365 조직에 연결을 시도 하는 타사 데이터 커넥터를 인증 합니다. 이러한 변경이 발생 하는 이유는 최신 인증이 이전에 설명한 끝점을 사용 하 여 Azure 서비스에 연결 하는 허용 목록이 타사 커넥터를 기반으로 하는 현재 방법 보다 더 많은 보안 기능을 제공 한다는 것입니다.
 
-최신 인증 방법을 사용 하 여 타사 데이터 커넥터가 Office 365에 연결 되도록 하려면 Office 365 조직의 관리자가 해당 커넥터를 Azure Active Directory의 신뢰할 수 있는 서비스 응용 프로그램으로 등록 하는 것이 동의 해야 합니다. 이 작업은 사용 권한 요청을 수락 하 여 커넥터가 Azure Active Directory에서 조직의 데이터에 액세스할 수 있도록 허용 합니다. 이 요청을 수락 하면 타사 데이터 커넥터가 엔터프라이즈 응용 프로그램으로 Azure Active Directory에 추가 되 고 서비스 사용자로 표시 됩니다. 승인 프로세스에 대 한 자세한 내용은 [테 넌 트 관리자 동의](https://docs.microsoft.com/en-us/skype-sdk/trusted-application-api/docs/tenantadminconsent)를 참조 하십시오.
+최신 인증 방법을 사용 하 여 타사 데이터 커넥터가 Office 365에 연결 되도록 하려면 Office 365 조직의 관리자가 해당 커넥터를 Azure Active Directory의 신뢰할 수 있는 서비스 응용 프로그램으로 등록 하는 것이 동의 해야 합니다. 이 작업은 사용 권한 요청을 수락 하 여 커넥터가 Azure Active Directory에서 조직의 데이터에 액세스할 수 있도록 허용 합니다. 이 요청을 수락 하면 타사 데이터 커넥터가 엔터프라이즈 응용 프로그램으로 Azure Active Directory에 추가 되 고 서비스 사용자로 표시 됩니다. 승인 프로세스에 대 한 자세한 내용은 [테 넌 트 관리자 동의](https://docs.microsoft.com/skype-sdk/trusted-application-api/docs/tenantadminconsent)를 참조 하십시오.
 
 커넥터 등록을 위한 요청에 액세스 하 고 수락 하는 단계는 다음과 같습니다.
 
@@ -545,7 +543,7 @@ Office 365에서 타사 데이터를 보관 하기 위한 주요 구성 요소�
 
 조직이 Azure Active Directory에서 타사 데이터 커넥터를 등록 하기 위해 권한 요청을 consents 후에는 조직에서 언제 든 지 해당 동의를 해지할 수 있습니다. 그러나 커넥터에 대 한 동의를 취소 하는 것은 타사 데이터 원본의 데이터를 더 이상 Office 365로 가져올 수 없다는 것을 의미 합니다.
 
-타사 데이터 커넥터에 대 한 동의를 해지 하려면 Azure portal에서 **엔터프라이즈 응용 프로그램** 블레이드를 사용 하 여 Azure Active Directory에서 해당 서비스 사용자를 삭제 하거나, 다음을 [사용 하 여 응용 프로그램을 삭제 하면 됩니다. Remove-(New-msolserviceprincipal](https://docs.microsoft.com/en-us/powershell/module/msonline/remove-msolserviceprincipal) In Office 365 PowerShell. Azure Active Directory PowerShell에서 [AzureADServicePrincipal](https://docs.microsoft.com/en-us/powershell/module/azuread/remove-azureadserviceprincipal) cmdlet을 사용할 수도 있습니다.
+타사 데이터 커넥터에 대 한 동의를 해지 하려면 Azure portal에서 **엔터프라이즈 응용 프로그램** 블레이드를 사용 하 여 Azure Active Directory에서 해당 서비스 사용자를 삭제 하거나 Office 365 PowerShell의 [(new-msolserviceprincipal에서 제거](https://docs.microsoft.com/powershell/module/msonline/remove-msolserviceprincipal) 를 사용 하 여 응용 프로그램을 삭제할 수 있습니다. Azure Active Directory PowerShell에서 [AzureADServicePrincipal](https://docs.microsoft.com/powershell/module/azuread/remove-azureadserviceprincipal) cmdlet을 사용할 수도 있습니다.
   
 ## <a name="more-information"></a>추가 정보
 
@@ -563,7 +561,7 @@ Office 365에서 타사 데이터를 보관 하기 위한 주요 구성 요소�
    
 - Office 365에서 사서함에 항목을 성공적으로 가져오면 고유한 식별자가 HTTP 응답의 일부로 다시 발신자에 게 반환 됩니다. 이 식별자 `x-IngestionCorrelationID`는 종단 간 항목 추적을 위해 파트너의 후속 문제 해결을 위해 사용 될 수 있습니다. 파트너는 이 정보를 수집하고 적절하게 기록해두는 것이 좋습니다. 이 식별자를 나타내는 HTTP 응답의 예는 다음과 같습니다.
 
-    ```
+    ```text
     HTTP/1.1 200 OK
     Content-Type: text/xml; charset=utf-8
     Server: Microsoft-IIS/8.5
@@ -572,7 +570,7 @@ Office 365에서 타사 데이터를 보관 하기 위한 주요 구성 요소�
     X-Powered-By: ASP.NET
     Date: Tue, 02 Feb 2016 22:55:33 GMT 
     ```
- 
+
 - 보안 및 준수 센터의 콘텐츠 검색 도구를 사용 하 여 타사 데이터 원본에서 Office 365의 사서함으로 가져온 항목을 검색할 수 있습니다. 이러한 가져온 항목을 구체적으로 검색 하려면 콘텐츠 검색의 키워드 상자에 다음과 같은 메시지 속성-값 쌍을 사용할 수 있습니다.
     
   - **`kind:externaldata`**:이 속성-값 쌍을 사용 하 여 모든 타사 데이터 형식을 검색 합니다. 예를 들어 타사 데이터 원본에서 가져온 항목과 가져온 항목의 Subject 속성에 "contoso" 라는 단어가 포함 된 항목을 검색 하려면 keyword 쿼리 `kind:externaldata AND subject:contoso`를 사용 합니다.

@@ -7,15 +7,17 @@ ms.date: 10/12/2018
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
+ms.collection:
+- SPO_Content
 localization_priority: Normal
 ms.assetid: 9a00b9ea-33fd-4772-8ea6-9d3c65e829e6
 description: 보안 & 준수 센터를 사용 하 여 조직에서 eDiscovery 보류를 만들고 eDiscovery 사례에 액세스 하 고 관리를 관리할 수 있습니다.
-ms.openlocfilehash: 026bd31145dc73261012a9cde1b6befd19ddba4d
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: a2c276b80f5f713ad8c044aa8f1339413bb3f0bd
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088221"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38687197"
 ---
 # <a name="manage-ediscovery-cases-in-the-security--compliance-center"></a>보안 및 준수 센터에서 eDiscovery 사례 관리
 
@@ -104,7 +106,7 @@ eDiscovery 사례를 사용하여 사례에 구성원을 추가하고, 특정 �
     
     ![새 사례 페이지](media/538f66b8-eb6e-4c4c-83d8-7154fd85883a.png)
   
-    새 사례가 **eDiscovery** 페이지의 사례 목록에 표시 됩니다. 케이스의 상태 ( **활성** 또는 **닫힘**), 사례에 대 한 설명 (이전 단계에서 만들어짐), 사례를 마지막으로 변경 하는 시기 등을 포함 하 여 케이스에 대 한 정보를 표시 하려면 커서를 사례 이름 위에 가리킵니다. 누가 변경 했습니다.
+    새 사례가 **eDiscovery** 페이지의 사례 목록에 표시 됩니다. 사례 이름 위를 가리키면 사례 상태 ( **활성** / **닫힘**), 사례에 대 한 설명 (이전 단계에서 만들어짐), 사례를 마지막으로 변경 한 시간 및 변경한 사람 등을 포함 하 여 사례에 대 한 정보를 표시할 수 있습니다.
     
     > [!TIP]
     > 새 사례를 만든 후에는 언제 든 지 이름을 바꿀 수 있습니다. **EDiscovery** 페이지에서 사례 이름을 클릭 하면 됩니다. **이 사례** 플라이 아웃 관리 페이지에서 **이름**아래의 상자에 표시 되는 이름을 변경 하 고 변경 내용을 저장 합니다. 
@@ -248,7 +250,7 @@ eDiscovery 사례를 만들고 사례와 연결된 관리자를 보류 상태로
     
   - 추가 아이콘](media/ITPro-EAC-AddIcon.gif) **추가**![를 클릭 하 여 검색할 사서함을 지정 하는 경우 표시 되는 사서함 선택은 비어 있습니다. 이것은 성능을 향상시키기 위한 것입니다. 이 목록에 받는 사람을 추가 하려면 검색 상자에 이름 (최소 3 자)을 입력 하 **고 검색**![검색 아이콘](media/5f6f9463-50e9-460b-8738-b67e759c2efc.gif)을 클릭 합니다.
     
-  - 비활성 사서함, Office 365 그룹, Microsoft 팀 및 메일 그룹을 검색할 사서함 목록에 추가할 수 있습니다. 동적 메일 그룹은 지원 되지 않습니다. Office 365 그룹 또는 Microsoft 팀을 추가 하는 경우 그룹 또는 팀 사서함이 검색 됩니다. 그룹 구성원의 사서함이 검색 되지 않습니다.
+  - 비활성 사서함, Office 365 그룹, Microsoft 팀 및 메일 그룹을 검색할 사서함 목록에 추가할 수 있습니다. 동적 메일 그룹은 지정할 수 없습니다. Office 365 그룹 또는 Microsoft 팀을 추가 하는 경우 그룹 또는 팀 사서함이 검색 됩니다. 그룹 구성원의 사서함이 검색 되지 않습니다.
     
   - 검색에 사서함 이나 사이트를 포함 하지 않으려는 경우 검색할 **특정 사서함 선택** 또는 검색할 **특정 사이트**선택을 선택 하 고 목록에 사서함 이나 사이트를 추가 하지는 않습니다.
     
@@ -258,17 +260,17 @@ eDiscovery 사례를 만들고 사례와 연결된 관리자를 보류 상태로
     
 8. **새 검색** 페이지에서 키워드 및 조건을 추가하여 검색 쿼리를 만들 수 있습니다. <br/>![검색 조건 및 조건](media/9064147e-feac-4090-bbf6-2298ad7622c6.png)
   
-9. **무엇을 검색하시겠습니까?** 아래의 상자에 검색 쿼리를 입력합니다. 키워드, 메시지 속성(보낸 날짜 및 받은 날짜) 또는 문서 속성(예: 파일 이름 또는 문서를 마지막으로 변경한 날짜)을 지정할 수 있습니다. **AND**, **OR**, **NOT**, **NEAR**또는 **onear**와 같은 부울 연산자를 사용 하는 보다 복잡 한 쿼리를 사용할 수 있습니다. 문서에서 중요 한 정보 (예: 주민 등록 번호)를 검색 하거나 외부에서 공유한 문서를 검색할 수도 있습니다. 키워드 상자를 비워 두면 지정 된 콘텐츠 위치에 있는 모든 콘텐츠가 검색 결과에 포함 됩니다. 
+9. **무엇을 검색하시겠습니까?** 아래의 상자에 검색 쿼리를 입력합니다. 키워드, 메시지 속성(보낸 날짜 및 받은 날짜) 또는 문서 속성(예: 파일 이름 또는 문서를 마지막으로 변경한 날짜)을 지정할 수 있습니다. **AND**, **OR**, **NOT**, **NEAR**또는 **onear**와 같은 부울 연산자를 사용 하는 보다 복잡 한 쿼리를 사용할 수 있습니다. 문서에서 중요한 정보(예: 사회 보장 번호)를 검색하거나 외부에서 공유되는 문서를 검색할 수도 있습니다. 키워드 상자를 비워 두면 지정 된 콘텐츠 위치에 있는 모든 콘텐츠가 검색 결과에 포함 됩니다. 
     
 10. **키워드 목록 표시** 확인란을 클릭 하 고 각 행에 키워드를 입력할 수 있습니다. 이 경우 각 행의 키워드는 생성 된 검색 쿼리의 **OR** 연산자로 연결 됩니다. 
     
     ![검색 키워드](media/c3ef511a-e0a3-4b5d-9779-36803270a193.png)
   
-    키워드 목록을 사용 하는 이유 각 키워드와 일치 하는 항목의 수를 보여 주는 통계를 가져올 수 있습니다. 이를 통해 가장 효과적이 고 효과적인 키워드를 빠르게 확인할 수 있습니다. 행에 괄호를 사용 하 여 키워드로 묶은 키워드 구를 사용할 수도 있습니다. 검색 통계에 대 한 자세한 내용은 [콘텐츠 검색 결과에 대 한 키워드 통계 보기](view-keyword-statistics-for-content-search.md)를 참조 하십시오.
+    키워드 목록을 사용하는 이유 각 키워드와 일치하는 항목 수를 보여주는 통계를 얻을 수 있습니다. 이를 통해 가장 (및 가장 덜) 유효한 키워드를 신속하게 파악할 수 있습니다. 키워드 문구(괄호로 묶음)를 연속으로 사용할 수도 있습니다. 검색 통계에 대한 자세한 내용은 [콘텐츠 검색 결과에 대한 키워드 통계 보기](view-keyword-statistics-for-content-search.md)를 참조하세요.
     
     키워드 목록을 사용 하는 방법에 대 한 자세한 내용은 [추가 정보](run-a-content-search-in-the-security-and-compliance-center.md#moreinfo)를 참조 하십시오.
     
-11. **오타에 대 한 쿼리 검사** 를 클릭 하 여 쿼리를 검사 하 여 지원 되지 않는 문자 인지와 그렇지 않을 수 있는 부울 연산자에 대해 확인 합니다. 지원 되지 않는 문자는 대개 숨겨지고 대개 검색 오류가 발생 하거나 의도 하지 않은 결과를 반환 합니다. 검사 되는 지원 되지 않는 문자에 대 한 자세한 내용은 [콘텐츠 검색 쿼리 확인에서 오류](check-your-content-search-query-for-errors.md)를 참조 하세요.
+11. **오타에 대 한 쿼리 검사** 를 클릭 하 여 쿼리를 검사 하 여 지원 되지 않는 문자 인지와 그렇지 않을 수 있는 부울 연산자에 대해 확인 합니다. 지원되지 않는 문자는 종종 숨겨져 있으며 일반적으로 검색 오류를 발생시키거나 예기치 않은 결과를 반환할 수 있습니다. 검사의 대상이 되는 지원되지 않는 문자에 대한 자세한 내용은 [오류에 대한 콘텐츠 검색 쿼리 확인](check-your-content-search-query-for-errors.md)을 참조하세요.
     
 12. **조건**에서 검색 쿼리에 조건을 추가 하 여 검색 범위를 좁히고 보다 구체화 된 결과 집합을 반환 합니다. 각 조건은 검색을 시작할 때 생성되고 실행되는 KQL 검색 쿼리에 절을 추가합니다. 조건은 **AND** 연산자에 의해 키워드 쿼리(키워드 상자에 지정)에 논리적으로 연결됩니다. 즉, 결과에 포함되려면 항목이 키워드 쿼리와 조건을 모두 만족해야 합니다. 조건은 이런 방식으로 결과 범위를 좁히는 데 도움이 됩니다. 
     
@@ -307,7 +309,7 @@ eDiscovery 사례를 만들고 사례와 연결된 관리자를 보류 상태로
     
     ![내보내기를 클릭 하 여 내보내기 작업 목록을 표시 합니다.](media/b7b95bf7-134e-471e-961e-f86c1bb633eb.png)
   
-    새로 고침 아이콘](media/O365-MDM-Policy-RefreshIcon.gif) **새로 고침**![을 클릭 하 여 방금 만든 내보내기 작업을 표시 하도록 내보내기 작업 목록을 업데이트 해야 할 수 있습니다. 내보내기 작업의 이름은 검색의 끝에 추가 하는 **export** 가 포함 된 해당 콘텐츠 검색과 같습니다. 
+    새로 고침 아이콘](media/O365-MDM-Policy-RefreshIcon.gif) **새로 고침**![을 클릭 하 여 방금 만든 내보내기 작업을 표시 하도록 내보내기 작업 목록을 업데이트 해야 할 수 있습니다. 내보내기 작업의 이름은 검색 이름 끝에 **_Export** 추가 된 해당 콘텐츠 검색과 같습니다. 
     
 6. 방금 만든 내보내기 작업을 클릭 하 여 세부 정보 창에 상태 정보를 표시 합니다. 이 정보에는 Microsoft 클라우드에서 Azure 저장소 영역으로 전송 된 항목의 백분율이 포함 됩니다.
     
@@ -533,9 +535,9 @@ EDiscovery 사례에서 지 원하는 법적 사례 또는 조사가 완료 되 
     
   - 보류 중인 Office 365 그룹 및 Microsoft 팀에 있는 콘텐츠를 배치 하려면 그룹 또는 팀과 연결 된 사서함 및 SharePoint 사이트를 지정 해야 합니다.
     
-  - Exchange Online에서 **remove-unifiedgroup** cmdlet을 실행 하 여 Office 365 그룹 또는 Microsoft Team의 속성을 볼 수 있습니다. 이를 통해 Office 365 그룹 또는 Microsoft 팀에 연결 된 사이트의 URL을 가져올 수 있습니다. 예를 들어 다음 명령은 선임 리더십 팀 이라는 Office 365 그룹에 대해 선택 된 속성을 표시 합니다. 
+  - Exchange Online에서 **remove-unifiedgroup** cmdlet을 실행 하 여 Office 365 그룹 또는 Microsoft Team의 속성을 볼 수 있습니다. 이를 통해 Office 365 그룹 또는 Microsoft 팀에 연결 된 사이트의 URL을 가져올 수 있습니다. 예를 들어 다음 명령을 실행하면 Senior Leadership Team이라는 Office 365 그룹의 선택된 속성이 표시됩니다. 
     
-  ```
+  ```text
   Get-UnifiedGroup "Senior Leadership Team" | FL DisplayName,Alias,PrimarySmtpAddress,SharePointSiteUrl
   DisplayName            : Senior Leadership Team
   Alias                  : seniorleadershipteam
@@ -545,29 +547,29 @@ EDiscovery 사례에서 지 원하는 법적 사례 또는 조사가 완료 되 
   ```
 
     > [!NOTE]
-    > **Remove-unifiedgroup** cmdlet을 실행 하려면 Exchange Online에서 보기 전용 받는 사람 역할을 할당 받거나 보기 전용 받는 사람 역할이 할당 된 역할 그룹의 구성원 이어야 합니다. 
+    > **Get-UnifiedGroup** cmdlet를 실행하려면 Exchange Online에서 보기 전용 받는 사람 역할을 할당받았거나 보기 전용 받는 사람 역할이 할당된 역할 그룹의 구성원이어야 합니다. 
   
   - 사용자의 사서함이 검색 되 면 사용자가 구성원으로 속해 있는 모든 Office 365 그룹 또는 Microsoft 팀이 검색 되지 않습니다. 마찬가지로, Office 365 그룹 또는 Microsoft 팀을 유지 하면 그룹 사서함과 그룹 사이트만 보존 됩니다. 그룹 구성원의 사서함 및 비즈니스용 OneDrive 사이트를 보류에 명시적으로 추가 하지 않으면 해당 사이트가 보류 되지 않습니다. 따라서 법적 이유로 Office 365 그룹 또는 Microsoft 팀을 유지 해야 하는 경우 그룹 및 팀 구성원에 대 한 비즈니스용 OneDrive 사이트를 동일한 보류에 추가 하는 것이 좋습니다.
     
-  - Office 365 그룹 또는 Microsoft Team의 구성원 목록을 가져오려면 Microsoft 365 관리 센터의 **홈 \> 그룹** 페이지에서 속성을 볼 수 있습니다. 또는 Exchange Online PowerShell에서 다음 명령을 실행할 수도 있습니다. 
+  - Office 365 그룹 또는 Microsoft Team의 구성원 목록을 가져오려면 Microsoft 365 관리 센터의 **홈 \> 그룹** 페이지에서 속성을 볼 수 있습니다. 또는 Exchange Online PowerShell에서 다음 명령을 실행할 수 있습니다. 
     
-  ```
-  Get-UnifiedGroupLinks <group or team name> -LinkType Members | FL DisplayName,PrimarySmtpAddress 
-  ```
+    ```powershell
+    Get-UnifiedGroupLinks <group or team name> -LinkType Members | FL DisplayName,PrimarySmtpAddress 
+    ```
 
     > [!NOTE]
-    > **Add-unifiedgrouplinks** cmdlet을 실행 하려면 Exchange Online에서 보기 전용 받는 사람 역할을 할당 받거나 보기 전용 받는 사람 역할이 할당 된 역할 그룹의 구성원 이어야 합니다. 
+    > **Get-UnifiedGroupLinks** cmdlet를 실행하려면 Exchange Online에서 보기 전용 받는 사람 역할을 할당받았거나 보기 전용 받는 사람 역할이 할당된 역할 그룹의 구성원이어야 합니다. 
   
-  - Microsoft 팀 채널의 일부인 대화는 Microsoft 팀과 연결 된 사서함에 저장 됩니다. 마찬가지로 팀 구성원이 채널에서 공유 하는 파일은 팀의 SharePoint 사이트에 저장 됩니다. 따라서 대화 및 파일을 채널에 유지 하려면 Microsoft 팀 사서함 및 SharePoint 사이트를 보류 상태로 설정 해야 합니다.
+  - Microsoft 팀 채널의 일부인 대화는 Microsoft 팀과 연결 된 사서함에 저장 됩니다. 마찬가지로 팀 구성원이 채널에서 공유하는 파일은 팀의 SharePoint 사이트에 저장됩니다. 따라서 대화 및 파일을 채널에 유지 하려면 Microsoft 팀 사서함 및 SharePoint 사이트를 보류 상태로 설정 해야 합니다.
     
     또는 Microsoft 팀의 채팅 목록에 포함 된 대화는 채팅에 참가 하는 사용자의 사서함에 저장 됩니다. 사용자가 채팅 대화에서 공유 하는 파일은 해당 파일을 공유 하는 사용자의 비즈니스용 OneDrive 사이트에 저장 됩니다. 따라서 채팅 목록에 있는 대화 및 파일을 유지 하려면 개별 사용자 사서함과 비즈니스용 OneDrive 사이트를 보존 해야 합니다. 이 때문에 팀 사서함 (및 사이트)을 유지 하는 것 외에도 Microsoft 팀 구성원의 사서함을 유지 하는 것이 좋습니다.
     
     > [!IMPORTANT]
     > Microsoft 팀에서 채팅 목록의 일부인 대화에 참여 한 사용자는 사서함이 eDiscovery 보류에 있을 때 채팅 대화를 계속 하려면 Exchange Online (클라우드 기반) 사서함을 사용 해야 합니다. 채팅 목록의 일부인 대화는 채팅 참가자의 클라우드 기반 사서함에 저장 되기 때문입니다. 채팅 참가자에 게 Exchange Online 사서함이 없으면 채팅 대화를 유지할 수 없습니다. 예를 들어 Exchange 하이브리드 배포에서 온-프레미스 사서함이 있는 사용자는 Microsoft 팀의 채팅 목록에 속하는 대화에 참가할 수 있습니다. 그러나이 경우 사용자에 게 클라우드 기반 사서함이 없으므로 이러한 대화의 콘텐츠를 보존할 수 없습니다. 
   
-  - 모든 Microsoft 팀 또는 팀 채널에는 노트 기록 및 공동 작업을 위한 Wiki가 포함 되어 있습니다. Wiki 콘텐츠가 .mht 형식의 파일에 자동으로 저장 됩니다. 이 파일은 팀의 SharePoint 사이트에 있는 팀 위 키 데이터 문서 라이브러리에 저장 됩니다. 팀의 SharePoint 사이트를 보류 하 여 해당 콘텐츠를 Wiki에 배치할 수 있습니다.
+  - 모든 Microsoft 팀 또는 팀 채널에는 노트 기록 및 공동 작업을 위한 Wiki가 포함 되어 있습니다. Wiki 콘텐츠는 자동으로 .mht 형식의 파일에 저장됩니다. 이 파일은 팀의 SharePoint 사이트에 있는 Teams Wiki Data 문서 라이브러리에 저장됩니다. 팀의 SharePoint 사이트를 보류 하 여 해당 콘텐츠를 Wiki에 배치할 수 있습니다.
     
     > [!NOTE]
     > Microsoft 팀 또는 팀 채널에 대 한 Wiki 콘텐츠를 보존 하는 기능 (팀의 SharePoint 사이트를 보류할 때)은 6 월 22 2017 일에 릴리스 되었습니다. 팀 사이트를 보류 중인 경우에는 해당 날짜에 대해 Wiki 콘텐츠가 유지 됩니다. 그러나 팀 사이트가 유지 되 고 Wiki 콘텐츠가 6 월 22 2017 일 이전에 삭제 된 경우에는 Wiki 콘텐츠가 보존 되지 않습니다. 
   
-- **비즈니스용 OneDrive 사이트의 URL을 찾는 방법은 무엇 인가요?** EDiscovery 사례와 연결 된 보류 또는 검색에 추가할 수 있도록 조직의 비즈니스용 OneDrive 사이트에 대 한 Url 목록을 수집 하려면 [조직의 모든 OneDrive 위치 목록 만들기](https://support.office.com/article/8e200cb2-c768-49cb-88ec-53493e8ad80a)를 참조 하십시오. 이 문서에 나와 있는 스크립트는 모든 OneDrive 사이트의 목록이 포함 된 텍스트 파일을 만듭니다. 이 스크립트를 실행 하려면 SharePoint Online 관리 셸을 설치 하 고 사용 해야 합니다. 조직의 내 사이트 도메인에 대 한 URL을 검색 하려는 각 OneDrive 사이트로 추가 해야 합니다. 모든 OneDrive를 포함 하는 도메인입니다. 예를 `https://contoso-my.sharepoint.com`들면입니다. 다음은 사용자의 OneDrive 사이트에 대 한 URL의 예 `https://contoso-my.sharepoint.com/personal/sarad_contoso_onmicrosoft.com`입니다.
+- **비즈니스용 OneDrive 사이트의 URL을 찾는 방법은 무엇 인가요?** EDiscovery 사례와 연결 된 보류 또는 검색에 추가할 수 있도록 조직의 비즈니스용 OneDrive 사이트에 대 한 Url 목록을 수집 하려면 [조직의 모든 OneDrive 위치 목록 만들기](https://support.office.com/article/8e200cb2-c768-49cb-88ec-53493e8ad80a)를 참조 하십시오. 이 문서의 스크립트는 모든 OneDrive 사이트 목록이 포함된 텍스트 파일을 만듭니다. 이 스크립트를 실행 하려면 SharePoint Online 관리 셸을 설치 하 고 사용 해야 합니다. 조직의 MySite 도메인에 대한 URL을 검색하려는 각 OneDrive 사이트 앞에 붙입니다. 이것은 모든 OneDrive 도메인을 포함하는 도메인입니다(예: `https://contoso-my.sharepoint.com`). 사용자의 OneDrive 사이트에 대한 URL의 예는 다음과 같습니다.  `https://contoso-my.sharepoint.com/personal/sarad_contoso_onmicrosoft.com`.

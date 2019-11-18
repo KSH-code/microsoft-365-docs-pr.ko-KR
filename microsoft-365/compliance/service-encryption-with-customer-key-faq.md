@@ -7,23 +7,25 @@ ms.date: 7/31/2018
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
+ms.collection:
+- SPO_Content
 localization_priority: Normal
 search.appverid:
 - MET150
 ms.assetid: 41ae293a-bd5c-4083-acd8-e1a2b4329da6
 description: Office 365에서는 BitLocker 및 DKM (분산 키 관리자)를 통해 사용 하도록 설정 되는 초기 볼륨 수준 암호화와 함께 Exchange의 데이터를 포함 하 여 Office 365의 고객 콘텐츠에 대 한 응용 프로그램 수준에 추가 된 암호화 계층을 제공 합니다. 온라인, 비즈니스용 Skype, SharePoint Online 및 비즈니스용 OneDrive 이를 서비스 암호화 라고 합니다.
-ms.openlocfilehash: 8b15369571e3a6c021ae0c7337782a0d64436297
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 0dbc3839d5dfda98460db70de667e2f469bc1291
+ms.sourcegitcommit: 1c962bd0d51dc12419c4e6e393bb734c972b7e38
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088411"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "38687139"
 ---
 # <a name="service-encryption-with-customer-key-for-office-365-faq"></a>Office 365의 고객 키를 사용한 서비스 암호화 관련 자주하는 질문
 
 Office 365에서는 BitLocker 및 DKM (분산 키 관리자)를 통해 사용 하도록 설정 되는 초기 볼륨 수준 암호화와 함께 Exchange의 데이터를 포함 하 여 Office 365의 고객 콘텐츠에 대 한 응용 프로그램 수준에 추가 된 암호화 계층을 제공 합니다. 온라인, 비즈니스용 Skype, SharePoint Online 및 비즈니스용 OneDrive 이를 서비스 암호화 라고 합니다.
   
-고객 키는 서비스 암호화를 기반으로 하며, [OST (온라인 서비스 약관)](https://www.microsoft.com/en-us/Licensing/product-licensing/products.aspx)에 설명 된 대로 Office 365에서 휴지 상태의 데이터를 암호화 하는 데 사용 되는 키를 제공 하 고 제어할 수 있습니다. 고객 키를 사용하면 Office 365가 데이터의 암호를 해독하는 데 사용하는 암호화 키를 제어하므로 준수 의무를 이행할 수 있습니다.
+고객 키는 서비스 암호화를 기반으로 하며, [OST (온라인 서비스 약관)](https://www.microsoft.com/Licensing/product-licensing/products.aspx)에 설명 된 대로 Office 365에서 휴지 상태의 데이터를 암호화 하는 데 사용 되는 키를 제공 하 고 제어할 수 있습니다. 고객 키를 사용하면 Office 365가 데이터의 암호를 해독하는 데 사용하는 암호화 키를 제어하므로 준수 의무를 이행할 수 있습니다.
   
 설명서를 포함 하 여 고객 키에 대 한 의견을 제공 하려면 아이디어, 제안 사항 및 전망을 customerkeyfeedback@microsoft.com으로 전송 합니다.
   
@@ -46,16 +48,16 @@ Office 365 메시지 암호화 기능에서는 Exchange Online에 대 한 Azure 
 ## <a name="does-office-365-message-encryption-and-bring-your-own-key-with-azure-information-protection-change-microsofts-approach-to-third-party-data-requests-such-as-subpoenas"></a>Office 365 메시지 암호화를 수행 하 고 Azure Information Protection을 사용 하 여 사용자의 키 가져오기 subpoenas와 같은 타사 데이터 요청에 대 한 Microsoft의 접근 방식을 변경 합니다.
 <a name="DiffCustomerKeyandBYOKAzureIP"> </a>
 
-아니요. Office 365 메시지 암호화 및 Azure Information Protection에 대 한 개인 키 (BYOK)를 제공 하는 암호화 키를 사용자 지정 하 고 제어 하는 옵션은 사법 기관에 대응 하도록 설계 되지 않았습니다. Office 365 메시지 암호화 온-AIP가 내부 또는 외부 규정 준수 의무를 충족 해야 하는 규정 준수 중심 고객을 위해 설계 되었습니다. Microsoft는 고객 데이터에 대 한 타사 요청을 매우 심각 하 게 수행 합니다. 클라우드 서비스 공급자는 항상 고객 데이터에 대 한 개인 정보를 제공 합니다. 소환장이 발생 하는 경우에는 항상 제 3 자가 고객에 게 리디렉션되어 정보를 얻도록 시도 합니다. (정부 Smith의 블로그에서 [고객 데이터 보호 스누핑](https://blogs.microsoft.com/blog/2013/12/04/protecting-customer-data-from-government-snooping/))를 읽어 보십시오. [여기](https://www.microsoft.com/en-us/trustcenter/Privacy/govt-requests-for-data)에서 받은 요청의 세부 정보를 주기적으로 게시 합니다.
+아니요. Office 365 메시지 암호화 및 Azure Information Protection에 대 한 개인 키 (BYOK)를 제공 하는 암호화 키를 사용자 지정 하 고 제어 하는 옵션은 사법 기관에 대응 하도록 설계 되지 않았습니다. Office 365 메시지 암호화 온-AIP가 내부 또는 외부 규정 준수 의무를 충족 해야 하는 규정 준수 중심 고객을 위해 설계 되었습니다. Microsoft는 고객 데이터에 대 한 타사 요청을 매우 심각 하 게 수행 합니다. 클라우드 서비스 공급자는 항상 고객 데이터에 대 한 개인 정보를 제공 합니다. 소환장이 발생 하는 경우에는 항상 제 3 자가 고객에 게 리디렉션되어 정보를 얻도록 시도 합니다. (정부 Smith의 블로그에서 [고객 데이터 보호 스누핑](https://blogs.microsoft.com/blog/2013/12/04/protecting-customer-data-from-government-snooping/))를 읽어 보십시오. [여기](https://www.microsoft.com/trustcenter/Privacy/govt-requests-for-data)에서 받은 요청의 세부 정보를 주기적으로 게시 합니다.
   
-자세한 내용은 [온라인 서비스 약관 (OST) ](https://www.microsoft.com/en-us/Licensing/product-licensing/products.aspx)의 "고객 데이터 공개" 및 타사 데이터 요청과 관련 된 [Microsoft 보안 센터](https://www.microsoft.com/en-us/trustcenter/default.aspx) 를 참조 하세요.
+자세한 내용은 [온라인 서비스 약관 (OST) ](https://www.microsoft.com/Licensing/product-licensing/products.aspx)의 "고객 데이터 공개" 및 타사 데이터 요청과 관련 된 [Microsoft 보안 센터](https://www.microsoft.com/trustcenter/default.aspx) 를 참조 하세요.
   
 ## <a name="does-service-encryption-with-customer-key-change-microsofts-approach-to-third-party-data-requests-such-as-subpoenas"></a>고객 키를 사용한 서비스 암호화는 subpoenas와 같은 타사 데이터 요청에 대 한 Microsoft의 접근 방식을 변경 합니까?
 <a name="DiffCustomerKeyandBYOKAzureIP"> </a>
 
-아니요. 고객 키가 법률 집행 하위 poenas에 응답 하도록 설계 되지 않았습니다. 이는 규제 고객이 내부 또는 외부 규정 준수 의무를 충족 하도록 설계 되었습니다. Microsoft는 고객 데이터에 대 한 타사 요청을 매우 심각 하 게 수행 합니다. 클라우드 서비스 공급자는 항상 고객 데이터에 대 한 개인 정보를 제공 합니다. 소환장이 발생 하는 경우에는 항상 제 3 자가 고객에 게 리디렉션되어 정보를 얻도록 시도 합니다. (정부 Smith의 블로그에서 [고객 데이터 보호 스누핑](http://blogs.microsoft.com/blog/2013/12/04/protecting-customer-data-from-government-snooping/))를 읽어 보십시오. [여기](https://www.microsoft.com/en-us/trustcenter/Privacy/govt-requests-for-data)에서 받은 요청의 세부 정보를 주기적으로 게시 합니다.
+아니요. 고객 키가 법률 집행 하위 poenas에 응답 하도록 설계 되지 않았습니다. 이는 규제 고객이 내부 또는 외부 규정 준수 의무를 충족 하도록 설계 되었습니다. Microsoft는 고객 데이터에 대 한 타사 요청을 매우 심각 하 게 수행 합니다. 클라우드 서비스 공급자는 항상 고객 데이터에 대 한 개인 정보를 제공 합니다. 소환장이 발생 하는 경우에는 항상 제 3 자가 고객에 게 리디렉션되어 정보를 얻도록 시도 합니다. (정부 Smith의 블로그에서 [고객 데이터 보호 스누핑](https://blogs.microsoft.com/blog/2013/12/04/protecting-customer-data-from-government-snooping/))를 읽어 보십시오. [여기](https://www.microsoft.com/en-us/trustcenter/Privacy/govt-requests-for-data)에서 받은 요청의 세부 정보를 주기적으로 게시 합니다.
   
-자세한 내용은 [온라인 서비스 약관 (OST)](https://www.microsoft.com/en-us/Licensing/product-licensing/products.aspx) 의 "고객 데이터 공개" 및 타사 데이터 요청과 관련 된 [Microsoft 보안 센터](https://www.microsoft.com/en-us/trustcenter/Privacy/govt-requests-for-data) 를 참조 하세요. 
+자세한 내용은 [온라인 서비스 약관 (OST)](https://www.microsoft.com/Licensing/product-licensing/products.aspx) 의 "고객 데이터 공개" 및 타사 데이터 요청과 관련 된 [Microsoft 보안 센터](https://www.microsoft.com/trustcenter/Privacy/govt-requests-for-data) 를 참조 하세요. 
   
 ## <a name="is-fasttrack-support-available-for-implementing-customer-key"></a>FastTrack에서 고객 키를 구현 하는 데 사용할 수 있나요?
 <a name="DiffCustomerKeyandBYOKAzureIP"> </a>
@@ -89,15 +91,15 @@ Office 365 메시지 암호화 기능에서는 Exchange Online에 대 한 Azure 
 ## <a name="how-do-i-verify-that-encryption-with-customer-key-is-activated-and-office-365-has-finished-encrypting-with-customer-key"></a>고객 키를 사용한 암호화가 정품 인증 되 고 Office 365에서 고객 키 암호화가 완료 되었는지 확인 하는 방법은 무엇 인가요?
 <a name="DiffCustomerKeyandBYOKAzureIP"> </a>
 
- **Exchange Online 및 비즈니스용 Skype:** [원격 PowerShell을 사용 하 여 Exchange Online에 연결한](https://technet.microsoft.com/en-us/library/jj984289%28v=exchg.160%29.aspx) 다음 확인할 각 사서함에 대해 **[get-mailboxstatistics]** cmdlet을 사용할 수 있습니다. Get-mailboxstatistics cmdlet의 출력에서 _IsEncrypted_ 속성은 사서함이 암호화 된 경우 **true** 값을 반환 하 고 그렇지 않은 경우 **false** 값으로 설정 합니다. 사서함이 암호화 된 경우 _dataencryptionpolicyid_ 속성에 대해 반환 되는 값은 사서함이 암호화 된 DEP의 GUID입니다. 이 cmdlet을 실행 하는 방법에 대 한 자세한 내용은 [Get-get-mailboxstatistics](https://technet.microsoft.com/en-us/library/bb124612%28v=exchg.160%29.aspx) 및 using PowerShell With Exchange Online을 참조 하세요. 
+ **Exchange Online 및 비즈니스용 Skype:** [원격 PowerShell을 사용 하 여 Exchange Online에 연결한](https://technet.microsoft.com/library/jj984289%28v=exchg.160%29.aspx) 다음 확인할 각 사서함에 대해 **[get-mailboxstatistics]** cmdlet을 사용할 수 있습니다. Get-mailboxstatistics cmdlet의 출력에서 _IsEncrypted_ 속성은 사서함이 암호화 된 경우 **true** 값을 반환 하 고 그렇지 않은 경우 **false** 값으로 설정 합니다. 사서함이 암호화 된 경우 _dataencryptionpolicyid_ 속성에 대해 반환 되는 값은 사서함이 암호화 된 DEP의 GUID입니다. 이 cmdlet을 실행 하는 방법에 대 한 자세한 내용은 [Get-get-mailboxstatistics](https://technet.microsoft.com/library/bb124612%28v=exchg.160%29.aspx) 및 using PowerShell With Exchange Online을 참조 하세요. 
   
-사서함이 DEP를 할당 한 시간부터 72 시간을 기다린 후 암호화 되지 않으면 사서함 이동을 시작 합니다. 이렇게 하려면 [원격 PowerShell을 사용 하 여 Exchange Online에 연결한](https://technet.microsoft.com/en-us/library/jj984289%28v=exchg.160%29.aspx) 다음 new-moverequest cmdlet을 사용 하 여 다음과 같이 사서함의 별칭을 제공 합니다. 
+사서함이 DEP를 할당 한 시간부터 72 시간을 기다린 후 암호화 되지 않으면 사서함 이동을 시작 합니다. 이렇게 하려면 [원격 PowerShell을 사용 하 여 Exchange Online에 연결한](https://technet.microsoft.com/library/jj984289%28v=exchg.160%29.aspx) 다음 new-moverequest cmdlet을 사용 하 여 다음과 같이 사서함의 별칭을 제공 합니다. 
   
-```
+```powershell
 New-MoveRequest <alias>
 ```
 
- **SharePoint Online 및 비즈니스용 OneDrive:** [SharePoint Online PowerShell에 연결한](https://technet.microsoft.com/en-us/library/fp161372.aspx)다음 **[SPODataEncryptionPolicy]** cmdlet을 사용 하 여 테 넌 트의 상태를 확인할 수 있습니다. 고객 키 암호화가 사용 되 고 모든 사이트의 모든 파일이 암호화 된 경우 * * _State_* * 속성은 **등록** 값을 반환 합니다. 암호화가 아직 진행 중인 경우이 cmdlet은 완료 된 사이트 비율에 대 한 정보를 제공 합니다. 
+ **SharePoint Online 및 비즈니스용 OneDrive:** [SharePoint Online PowerShell에 연결한](https://technet.microsoft.com/library/fp161372.aspx)다음 **[SPODataEncryptionPolicy]** cmdlet을 사용 하 여 테 넌 트의 상태를 확인할 수 있습니다. 고객 키 암호화가 사용 되 고 모든 사이트의 모든 파일이 암호화 된 경우 * * _State_* * 속성은 **등록** 값을 반환 합니다. 암호화가 아직 진행 중인 경우이 cmdlet은 완료 된 사이트 비율에 대 한 정보를 제공 합니다. 
   
 ## <a name="if-i-want-to-switch-to-a-different-set-of-keys-how-long-does-it-take-for-the-new-set-of-keys-to-protect-my-data"></a>다른 키 집합으로 전환 하려는 경우에는 데이터를 보호 하기 위해 새 키 집합에 어떤 시간이 걸립니까?
 <a name="DiffCustomerKeyandBYOKAzureIP"> </a>
@@ -140,7 +142,7 @@ New-MoveRequest <alias>
   
 Office 365에서는 가용성 키를 사용 하 여 서비스 가용성과 Exchange Online에 대 한 비정상 고객 키 상태 로부터의 복구를 모두 지원 합니다. 고객 키에 사용 되는 키 계층 구조가 있습니다. 다음 그림에서는이 계층 구조를 보여 줍니다.
   
-![](media/a760156b-737f-469a-80ab-c28b7a8b9160.png)
+![그래픽에는 고객 키의 키 계층 구조가 표시 됩니다.](media/a760156b-737f-469a-80ab-c28b7a8b9160.png)
   
 단일 DEP (데이터 암호화 정책)의 Azure 키 보관소 키를 모두 사용할 수 없으면 Office 365에서 가용성 키를 사용 하 여 새 DEP로 변경할 수 있습니다. Office 365에서는 사용자가 시작한 활동 (예: 사용자가 Outlook 클라이언트에 전자 메일을 다운로드 하는 경우)이 든, 인덱싱 등의 시스템 시작 활동에 따라 서비스 가용성을 위해 가용성 키를 사용할지 여부를 결정 합니다. 사서함 콘텐츠 또는 eDiscovery 검색에 대해 프로세스를 트리거 했습니다.
   
@@ -206,11 +208,11 @@ SharePoint Online의 경우, 설치 단계를 수행 하려면 고객 키를 구
   
 Exchange Online의 경우 "사용자" 사서함 및 "메일 사용자" 사서함의 사용이 허가 되어야 합니다. 공유 사서함과 같은 다른 모든 사용자는 고객 키에 대 한 라이선스를 가질 필요가 없습니다. Exchange Online 사서함이 올바르게 사용이 허가 되었는지 확인 하려면 다음 cmdlet을 실행 합니다.
   
-```
+```powershell
 (Get-Mailbox <alias >).PersistedCapabilities
 ```
 
-문자열 BPOS_S_EquivioAnalytics 있으면 사서함이 적절 하 게 사용 허가 된 것입니다. 그렇지 않은 경우에는이 사서함에 대 한 고객 키 기능을 사용 하기 위해 적절 한 라이선스를 적용 해야 합니다.
+문자열이 BPOS_S_EquivioAnalytics 있으면 사서함이 올바르게 사용 허가 된 것입니다. 그렇지 않은 경우에는이 사서함에 대 한 고객 키 기능을 사용 하기 위해 적절 한 라이선스를 적용 해야 합니다.
   
 ## <a name="can-i-enable-customer-key-for-a-trial-subscription"></a>평가판 구독에 대해 고객 키를 사용 하도록 설정할 수 있습니까?
 <a name="DiffCustomerKeyandBYOKAzureIP"> </a>
@@ -220,7 +222,7 @@ Exchange Online의 경우 "사용자" 사서함 및 "메일 사용자" 사서함
 ## <a name="how-much-will-using-customer-key-cost"></a>고객 주요 비용을 얼마나 많이 사용 하나요?
 <a name="DiffCustomerKeyandBYOKAzureIP"> </a>
 
-고객 키에 필요한 라이선스 외에도, 고객은 키 자격 증명 사용에 대 한 비용을 초래 하 게 됩니다. [Azure Key Vault 가격 세부 정보](https://azure.microsoft.com/en-us/pricing/details/key-vault/) 비용 모델을 기술 하 고 예측을 지원 합니다. 사용 패턴이 다르기 때문에 고객에 게 발생 하는 정확한 비용을 예측할 수 있는 방법은 없습니다. 이 비용은 비용이 매우 낮고, 일반적으로 매달 사용자 당 $0.005 $0.002의 범위와 HSM에서 지 원하는 키 비용을 더한 것을 보여 줍니다. 이 비용은 고객이 선택한 로깅 구성과 Azure 키 자격 증명 모음 로그에 사용 되는 Azure 저장소의 크기에 따라 달라 집니다. 
+고객 키에 필요한 라이선스 외에도, 고객은 키 자격 증명 사용에 대 한 비용을 초래 하 게 됩니다. [Azure Key Vault 가격 세부 정보](https://azure.microsoft.com/pricing/details/key-vault/) 비용 모델을 기술 하 고 예측을 지원 합니다. 사용 패턴이 다르기 때문에 고객에 게 발생 하는 정확한 비용을 예측할 수 있는 방법은 없습니다. 이 비용은 비용이 매우 낮고, 일반적으로 매달 사용자 당 $0.005 $0.002의 범위와 HSM에서 지 원하는 키 비용을 더한 것을 보여 줍니다. 이 비용은 고객이 선택한 로깅 구성과 Azure 키 자격 증명 모음 로그에 사용 되는 Azure 저장소의 크기에 따라 달라 집니다. 
   
 ## <a name="for-more-information"></a>자세한 내용
 <a name="DiffCustomerKeyandBYOKAzureIP"> </a>

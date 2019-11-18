@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: 44055727-56e8-42d7-9dc3-fb942f3901cc
 description: 'Office 365 Advanced eDiscovery에서 Analyze 및 Process 모듈을 사용할 때 특정 텍스트를 무시 하는 규칙을 정의 하는 방법을 알아봅니다.  '
-ms.openlocfilehash: 70d9879f1cb6b3def06ff978fc2f7fa8f20a92f0
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: cb40ebe946b65f08de9ffc27ff830fbf76d4f8a7
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088774"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38687066"
 ---
 # <a name="set-ignore-text-option-for-analyze-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery에서 분석에 대 한 텍스트 무시 옵션 설정
 
@@ -96,7 +96,7 @@ ms.locfileid: "37088774"
   - 일반 eExpression 필드의 길이에는 제한이 없습니다.
     
 > [!TIP]
-> 정규식의 자세한 설명과 자세한 내용은 [정규식 언어-빠른 참조](https://msdn.microsoft.com/en-us/library/az24scfc%28v=vs.110%29.aspx)를 참조 하십시오. 
+> 정규식의 자세한 설명과 자세한 내용은 [정규식 언어-빠른 참조](https://msdn.microsoft.com/library/az24scfc%28v=vs.110%29.aspx)를 참조 하십시오. 
   
 ## <a name="define-ignore-text-rule"></a>무시 텍스트 규칙 정의
 

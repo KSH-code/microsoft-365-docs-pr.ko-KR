@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: 35d0ecdb-7cb0-44be-ad5c-69df2f8f8b25
 description: '이전 직원이 조직에 반환 되는 경우 또는 이거나 퇴직 한 직원의 직무에 따라 새 직원을 고용 하는 경우 Office 365에서 비활성 사서함의 콘텐츠를 복구할 수 있습니다. 비활성 사서함을 복구 하면 비활성 사서함의 내용이 포함 된 새 사서함으로 변환 됩니다. '
-ms.openlocfilehash: be7935472363e406a978c09f926776e69c3024fe
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 9caa5d8f8c44ee5a916129e7f181532c8c0dd1a2
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37089153"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38687258"
 ---
 # <a name="recover-an-inactive-mailbox-in-office-365"></a>Office 365에서 비활성 사서함 복구
 
@@ -40,7 +40,7 @@ ms.locfileid: "37089153"
     
 - 다음 명령을 실행 하 여 조직의 비활성 사서함에 대 한 id 정보를 가져옵니다. 
 
-    ```
+    ```powershell
     Get-Mailbox -InactiveMailboxOnly | FL Name,DistinguishedName,ExchangeGuid,PrimarySmtpAddress
     ```
 
@@ -54,16 +54,16 @@ ms.locfileid: "37089153"
   
 1. 비활성 사서함의 속성을 포함 하는 변수를 만듭니다. 
     
-    ```
+    ```powershell
     $InactiveMailbox = Get-Mailbox -InactiveMailboxOnly -Identity <identity of inactive mailbox>
     ```
-   
+
     > [!IMPORTANT]
     > 이전 명령에서 **DistinguishedName** 또는 **ExchangeGUID** 속성 값을 사용 하 여 비활성 사서함을 식별 합니다. 이러한 속성은 조직의 각 사서함에 대해 고유 하지만 활성 및 비활성 사서함의 기본 SMTP 주소가 같을 수 있습니다. 
   
 2. 이 예에서는 이전 명령에서 가져온 속성을 사용 하 고 비활성 사서함을 사용자 Ann Beebe의 활성 사서함에 복구 합니다. *Name* 및 *MicrosoftOnlineServicesID* 매개 변수에 지정 된 값은 조직 내에서 고유 해야 합니다. 
 
-    ```
+    ```powershell
     New-Mailbox -InactiveMailbox $InactiveMailbox.DistinguishedName -Name annbeebe -FirstName Ann -LastName Beebe -DisplayName "Ann Beebe" -MicrosoftOnlineServicesID Ann.Beebe@contoso.com -Password (ConvertTo-SecureString -String 'P@ssw0rd' -AsPlainText -Force) -ResetPasswordOnNextLogon $true
     ```
 
@@ -95,7 +95,7 @@ ms.locfileid: "37089153"
     
 - **비활성 사서함의 일시 삭제 된 사서함 보존 기간이 만료 되었는지 어떻게 알 수 있나요?** 다음 명령을 실행합니다. 
     
-    ```
+    ```powershell
     Get-Mailbox -InactiveMailboxOnly <identity of inactive mailbox> | FL ExternalDirectoryObjectId
   ```
 

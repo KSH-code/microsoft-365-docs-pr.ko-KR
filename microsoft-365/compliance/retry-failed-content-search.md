@@ -13,18 +13,18 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: 다시 시도 단추를 사용 하 여 콘텐츠 위치 오류가 있는 콘텐츠 검색 문제를 해결 합니다.
-ms.openlocfilehash: 91c656a05111391ad93e03946cf367133f2c25a2
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: b35c2985efeafa3192a2404047fe62e28e04157e
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37089177"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38687254"
 ---
 # <a name="retry-a-content-search-to-resolve-a-content-location-error"></a>콘텐츠 검색을 다시 시도 하 여 콘텐츠 위치 오류 해결
 
 보안 및 준수 센터에서 콘텐츠 검색을 사용 하 여 많은 수의 사서함을 검색 하는 경우 다음과 유사한 검색 오류를 가져올 수 있습니다.
 
-```
+```text
 Error
 
 The search on the following locations failed:

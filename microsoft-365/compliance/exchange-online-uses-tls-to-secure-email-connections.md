@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 - Strat_O365_IP
 description: Exchange Online 및 Office 365에서 TLS (전송 계층 보안)를 사용 하 여 전자 메일 통신의 보안을 유지 하는 방법을 알아봅니다. 또한 Exchange Online에 대해 Microsoft에서 발급 한 인증서에 대 한 정보도 확인 하세요.
-ms.openlocfilehash: e165be9a3407abfcc165054f7f147eeb2d2c0a82
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 34667714840e23be5d19aed8f47a539ea1474ab4
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088050"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38687044"
 ---
 # <a name="how-exchange-online-uses-tls-to-secure-email-connections-in-office-365"></a>Office 365의 전자 메일 연결 보안을 위해 Exchange Online에서 TLS를 사용하는 방법
 
@@ -88,7 +88,7 @@ Exchange Online 고객의 경우 강제 TLS가 전송 및 수신 전자 메일�
 새 인증서를 사용 하려면 인증서 유효성 검사의 일환으로 새 CA의 끝점에 연결 해야 합니다. 이렇게 하지 않으면 메일 흐름에 부정적인 영향을 줄 수 있습니다. 메일 서버를 특정 대상에만 연결 하도록 하는 방화벽을 사용 하 여 메일 서버를 보호 하는 경우 서버에서 새 인증서를 확인할 수 있는지 확인 해야 합니다. 서버에서 새 인증서를 사용할 수 있는지 확인 하려면 다음 단계를 완료 합니다.
 
 1. Windows PowerShell을 사용 하 여 로컬 Exchange 서버에 연결한 후 다음 명령을 실행 합니다.  
-  `certutil -URL http://crl.globalsign.com/gsorganizationvalsha2g3.crl`
+  `certutil -URL https://crl.globalsign.com/gsorganizationvalsha2g3.crl`
 2. 표시 된 창에서 **검색**을 선택 합니다.
 3. 유틸리티가 확인을 완료 하면 상태를 반환 합니다. 상태에 **OK**가 표시 되 면 메일 서버에서 새 인증서의 유효성을 검사할 수 있습니다. 그렇지 않은 경우에는 연결이 실패 하는 원인을 확인 해야 합니다. 대개 방화벽 설정을 업데이트 해야 합니다. 액세스 해야 하는 끝점의 전체 목록은 다음과 같습니다.
     - ocsp.globalsign.com

@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 614397a81fd898975e5163c669fb8693fcdfe77c
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: c7bc6043722059b04d7fb99663a7dfb8815de697
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088077"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38687057"
 ---
 # <a name="error-remediation-when-processing-data-for-an-investigation"></a>조사를 위해 데이터를 처리할 때의 오류 수정
 
@@ -54,7 +54,7 @@ ms.locfileid: "37088077"
     >최적의 성능을 위해 원격 네트워크 경로 대신 로컬 파일 경로를 사용 하는 것이 좋습니다.
 
     > [!NOTE]
-    > AzCopy을 설치 하지 않은 경우 여기에서 설치할 수 있습니다.https://docs.microsoft.com/en-us/azure/storage/common/storage-use-azcopy
+    > AzCopy을 설치 하지 않은 경우 여기에서 설치할 수 있습니다.https://docs.microsoft.com/azure/storage/common/storage-use-azcopy
 
 6. **클립보드에 복사를**클릭 하 여 미리 정의 된 명령을 복사 합니다. Windows 명령 프롬프트를 시작 하 고 명령을 붙여 넣은 다음 enter 키 **를 누릅니다.**  
 

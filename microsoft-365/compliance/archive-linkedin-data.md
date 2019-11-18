@@ -10,12 +10,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: 관리자는 기본 커넥터를 설정 하 여 LinkedIn 회사 페이지에서 Office 365로 데이터를 가져올 수 있습니다. 이를 통해 Office 365의 타사 데이터 원본에서 데이터를 보관할 수 있으므로 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용 하 여 조직의 타사 데이터에 대 한 준수를 관리할 수도 있습니다.
-ms.openlocfilehash: 618cef7c0208378179d41a94f4a274a0bddadee9
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 1117eb6b7c756519ad07cafc52a635d65999d9e0
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37087709"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38687176"
 ---
 # <a name="set-up-a-connector-to-archive-linkedin-data-in-office-365-preview"></a>Office 365에서 LinkedIn 데이터를 보관 하는 커넥터 설정 (미리 보기)
 
@@ -71,14 +71,10 @@ LinkedIn 회사 페이지 데이터가 사서함에 저장 되 면 소송 보존
 
 - 이전 동작으로 인해 Microsoft eDiscovery 도구를 사용 하 `from` 여 `subject` Office 365에 보관 된 LinkedIn 항목을 검색할 때 또는 전자 메일 속성을 검색할 수 있습니다. 예를 들어 회사 페이지의 이름이 "Contoso Company Page" 인 경우 키워드 검색 쿼리의 다음 *속성: 값* 쌍 중 하나를 사용할 수 있습니다.
    
-   ```
-   from:"Contoso Company Page"
-   ```
+   > 보낸 사람: "Contoso Company Page"
 
     또는
 
-   ```
-   subject:"Contoso Company Page"
-   ```
+   > 제목: "Contoso Company Page"
 
 - Office 365로 가져온 LinkedIn 항목을 쉽게 찾거나 관리 하기 위해 저장소 사서함 (또는 FullAccess 권한이 할당 된 사용자)의 소유자가 항목을 LinkedIn 회사 페이지에서 특정 폴더로 이동 하는 받은 편지함 규칙을 설정할 수 있습니다. 이 기능은 저장소 사서함을 사용 하 여 다른 타사 데이터 원본에서 가져온 항목을 보관 하는 경우에 유용 합니다. 예를 들어 제목 필드에 있는 특정 LinkedIn 회사 페이지의 이름을 포함 하는 모든 항목을 특정 폴더로 이동 하는 받은 편지함 규칙을 만들 수 있습니다.

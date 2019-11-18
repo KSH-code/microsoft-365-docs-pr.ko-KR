@@ -11,12 +11,12 @@ localization_priority: Normal
 search.appverid: MOE150
 ms.assetid: 04e9de2d-765b-457b-a98a-d0f60bfb13f2
 description: EDiscovery 검색 결과를 내보낼 때 컴퓨터로 다운로드 되는 PST 파일의 기본 크기를 변경할 수 있습니다.
-ms.openlocfilehash: 82a3d80cae04cd8d08b126c800ec2b4a1995f262
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: b3bba45ce336b143ed948db384673f0a1a5a456f
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37087654"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38687177"
 ---
 # <a name="change-the-size-of-pst-files-when-exporting-ediscovery-search-results"></a>EDiscovery 검색 결과를 내보낼 때 PST 파일 크기 변경
 
@@ -33,7 +33,7 @@ EDiscovery 검색의 결과를 내보내는 데 사용할 컴퓨터에서 다음
     
 2. 파일 이름 접미사를 사용 하 여 Windows 레지스트리 파일에 다음 텍스트를 저장 합니다. 예: PstExportSize. 
     
-    ```
+    ```text
     Windows Registry Editor Version 5.00
     [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Exchange\Client\eDiscovery\ExportTool]
     "PstSizeLimitInBytes"="1073741824"

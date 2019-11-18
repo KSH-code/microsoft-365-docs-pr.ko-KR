@@ -11,12 +11,12 @@ ms.collection: ''
 search.appverid: MOE150
 ms.assetid: 7a150c84-049c-4a9c-8c91-22355b35f2a7
 description: Microsoft PST 수집 도구를 사용 하 여 조직의 네트워크를 검색 하 여 조직 전체에 분산 된 PST 파일의 인벤토리를 가져옵니다. PST 파일을 찾은 후에는 PST 컬렉션 도구를 사용 하 여이를 중앙 위치에 복사 하 여 Office 365로 가져올 수 있습니다.
-ms.openlocfilehash: 000da8aec988e85f935a96aabe9faa48932aaeaa
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 703208b574a723eb4f91aad0a892d6ea4abf427b
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088140"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38687204"
 ---
 # <a name="use-the-pst-collection-tool-to-find-copy-and-delete-pst-files-in-your-organization"></a>PST 컬렉션 도구를 사용 하 여 조직의 PST 파일 찾기, 복사 및 삭제
 
@@ -41,7 +41,7 @@ PST 컬렉션 도구를 사용 하면 사용자가 새 PST 파일을 만들고 �
     
 4. **[4 단계: pst 파일을 Office 365로 가져오기](#step-4-import-the-pst-files-to-office-365)** -pst 파일을 한 위치에 복사한 후 Exchange Online 사서함으로 가져올 수 있습니다. 
     
-5. **[5 단계: 네트워크에서 찾은 pst 파일 삭제](#step-5-delete-the-pst-files-found-on-your-network)** -Office 365에서 Exchange Online 사서함으로 가져온 pst 파일을 삭제 한 후에 pst 모음 도구를 사용 하 여 해당 pst 파일을 삭제할 수 있습니다. 1 단계에서 찾을 수 있습니다. 
+5. **[5 단계: 네트워크에서 찾은 pst 파일 삭제](#step-5-delete-the-pst-files-found-on-your-network)** -검색 하 여 수집한 pst 파일을 Office 365에서 Exchange Online 사서함으로 가져온 후에는 pst 컬렉션 도구를 사용 하 여 1 단계에서 찾은 원래 위치에서 pst 파일을 삭제할 수 있습니다. 
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
@@ -78,7 +78,7 @@ PST 컬렉션 도구를 사용 하면 사용자가 새 PST 파일을 만들고 �
     
 4. 다음 명령을 실행 하 여 지정 된 위치에서 PST 파일을 찾습니다.
     
-    ```
+    ```powershell
     DataCollectorMaster.exe -DataSource Pst -Mode Find -JobName <Name> -Locations <Locations to search for PSTs> -LogLocation <Location to store log files> -ConfigurationLocation <Location to store configuration files>
     ```
 
@@ -97,7 +97,7 @@ PST 컬렉션 도구를 사용 하면 사용자가 새 PST 파일을 만들고 �
    
     다음은 각 매개 변수에 대 한 실제 값을 사용 하는 DataCollectorMaster 명령 구문의 예입니다.
     
-    ```
+    ```powershell
     DataCollectorMaster.exe -DataSource Pst -Mode Find -JobName PstSearch1 -Locations "CN=FILESERVER01,CN=Computers,DC=contoso,DC=com";"CN=FILESERVER02,CN=Computers,DC=contoso,DC=com" -LogLocation "c:\users\admin\desktop\PSTCollection" -ConfigurationLocation "c:\users\admin\desktop\PSTCollection\Configuration"
     ```
 
@@ -138,7 +138,7 @@ PST 파일에 대 한 액세스를 차단 하려면:
     
 3. 1 단계에서 찾은 PST 파일에 대 한 액세스를 차단 하려면 다음 명령을 실행 합니다.
 
-    ```
+    ```powershell
     DataCollectorMaster.exe -DataSource Pst -Mode Block -JobName <Name of job from Step 1> -ConfigurationLocation <Location of configuration files from Step 1> -BlockChangesToFiles -BlockNewFiles
     ```
 
@@ -156,10 +156,10 @@ PST 파일에 대 한 액세스를 차단 하려면:
    
     다음은 각 매개 변수에 대 한 실제 값을 사용 하는 DataCollectorMaster 명령 구문의 예입니다.
 
-    ```
+    ```powershell
     DataCollectorMaster.exe -DataSource Pst -Mode Block -JobName PstSearch1 -ConfigurationLocation "c:\users\admin\desktop\PSTCollection\Configuration" -LogLocation "c:\users\admin\desktop\PSTCollection" -BlockChangesToFiles -BlockNewFiles
     ```
-    
+
     새 PST 파일 또는 기존 PST 파일에 대 한 변경 내용을 차단할지 확인 하는 메시지가 표시 됩니다. 계속할 것을 확인 하 고 명령이 성공적으로 실행 되 면 "PST 사용 컨트롤" 이라는 새 GPO가 만들어져 있음을 알리는 메시지가 표시 됩니다.
     
 ## <a name="step-3-copy-the-pst-files-to-a-collection-location"></a>3 단계: PST 파일을 모음 위치에 복사
@@ -175,7 +175,7 @@ PST 파일에 대 한 액세스를 차단 하려면:
     
 3. 다음 명령을 실행 하 여 PST 파일을 지정 된 위치에 복사 합니다.
     
-    ```
+    ```powershell
     DataCollectorMaster.exe -DataSource Pst -Mode Collect -JobName <Name of job from Step 1> -Locations <same locations from Step 1> -ConfigurationLocation <Location of configuration files from Step 1> -CopyLocation <Location to copy PST files to>
     ```
 
@@ -190,11 +190,11 @@ PST 파일에 대 한 액세스를 차단 하려면:
     | `ConfigurationLocation` <br/> |찾기 모드에서 도구를 실행할 때 만들어진 .xml 구성 파일을 포함 하는 폴더를 지정 합니다. 1 단계에서이 매개 변수에 사용한 것과 같은 값을 사용 합니다.  <br/> | `-ConfigurationLocation "c:\users\admin\desktop \PSTCollection\Configuration"` <br/> |
     | `CopyLocation` <br/> |PST 파일을 복사해 넣을 컬렉션 위치를 지정 합니다. 파일 서버, 네트워크 파일 공유 또는 하드 드라이브로 파일을 복사할 수 있습니다. 수집 모드에서 도구를 실행 하기 전에 위치가 존재 해야 합니다. 도구에서 위치를 만들지 않으며 해당 위치가 존재 하지 않는다는 오류가 반환 됩니다.  <br/> 또한이 매개 변수로 지정 된 컬렉션 위치에 대 한 사용 권한을 써야 합니다.  <br/> | `-CopyLocation "\\FILESERVER03\PSTs"` <br/> |
     | `LogLocation` <br/> |수집 모드의 로그 파일이 복사 될 폴더를 지정 합니다. 선택적 매개 변수입니다. 이 파일을 포함 하지 않으면 PST 컬렉션 도구를 다운로드 한 폴더에 로그 파일이 복사 됩니다. 모든 로그 파일이 같은 폴더에 저장 되도록 1 단계의 찾기 모드에서 도구를 실행할 때 사용한 것과 동일한 로그 위치를 사용 하는 것이 좋습니다.  <br/> | `-LogLocation "c:\users\admin\desktop\PSTCollection"` <br/> |
-    | `ForceRestart` <br/> |이 선택적 스위치를 사용 하면 기존 PST 수집 작업에 대 한 도구를 모음 모드로 다시 실행할 수 있습니다. 이전에 수집 모드에서 도구를 실행 했지만 PST 파일에 대 한 다시 검사 위치를 사용 하 여 찾기 모드 `ForceRestart` 에서 도구를 다시 실행 한 경우에는이 스위치를 사용 하 여 도구를 모음 모드에서 다시 실행할 수 있고, 해당 사용자가 찾은 pst 파일을 다시 복사할 수도 있습니다. 위치를 다시 검사 합니다. 컬렉션 모드에서 `ForceRestart` 스위치를 사용 하는 경우이 도구는 이전 수집 작업을 무시 하 고 PST 파일을 처음부터 복사 하려고 시도 합니다.  <br/> | `-ForceRestart` <br/> |
+    | `ForceRestart` <br/> |이 선택적 스위치를 사용 하면 기존 PST 수집 작업에 대 한 도구를 모음 모드로 다시 실행할 수 있습니다. 이전에 수집 모드에서 도구를 실행 했지만 PST 파일의 위치를 다시 검사 하는 `ForceRestart` 스위치를 사용 하 여 찾기 모드에서 도구를 다시 실행 한 경우이 스위치를 사용 하 여 컬렉션 모드에서 도구를 재실행 하 고 위치를 다시 검색할 때 발견 된 PST 파일을 다시 복사할 수 있습니다. 컬렉션 모드에서 `ForceRestart` 스위치를 사용 하는 경우이 도구는 이전 수집 작업을 무시 하 고 PST 파일을 처음부터 복사 하려고 시도 합니다.  <br/> | `-ForceRestart` <br/> |
    
     다음은 각 매개 변수에 대 한 실제 값을 사용 하는 DataCollectorMaster의 구문 예입니다.
     
-    ```
+    ```powershell
     DataCollectorMaster.exe -DataSource Pst -Mode Collect -JobName PstSearch1 -Locations "CN=FILESERVER01,CN=Computers,DC=contoso,DC=com";"CN=FILESERVER02,CN=Computers,DC=contoso,DC=com" -ConfigurationLocation "c:\users\admin\desktop\PSTCollection\Configuration" -CopyLocation "\\FILESERVER03\PSTs" -LogLocation "c:\users\admin\desktop\PSTCollection"
     ```
 
@@ -230,7 +230,7 @@ PST 파일을 Office 365로 가져오는 단계별 지침은 다음 항목 중 �
     
 3. 다음 명령을 실행 하 여 PST 파일을 삭제 합니다.
 
-    ```
+    ```powershell
     DataCollectorMaster.exe -DataSource Pst -Mode Delete -JobName <Name of job from Step 1> -ConfigurationLocation <Location of configuration files from Step 1> -CopyLocation <Location to copy PST files to>
     ```
 
@@ -243,14 +243,14 @@ PST 파일을 Office 365로 가져오는 단계별 지침은 다음 항목 중 �
     | `JobName` <br/> |기존 PST 컬렉션 작업의 이름을 지정 합니다. 찾기 모드에서 도구를 실행할 때 사용한 것과 동일한 작업 이름과 1 단계 및 3 단계의 수집 모드를 사용 해야 합니다. 이 작업 이름은 삭제 모드에서 도구를 실행할 때 만들어지는 로그 파일의 이름에도 추가 됩니다.  <br/> | `-JobName PstSearch1` <br/> |
     | `ConfigurationLocation` <br/> |수집 모드에서 도구를 실행할 때 만든 .xml 구성 파일이 포함 된 폴더를 지정 합니다. 3 단계에서이 매개 변수에 사용한 것과 같은 값을 사용 합니다.  <br/> | `-ConfigurationLocation "c:\users\admin\ desktop\PSTCollection\Configuration"` <br/> |
     | `LogLocation` <br/> |삭제 모드에 대 한 로그 파일이 복사 될 폴더를 지정 합니다. 선택적 매개 변수입니다. 이 파일을 포함 하지 않으면 PST 컬렉션 도구를 다운로드 한 폴더에 로그 파일이 복사 됩니다. 모든 로그 파일이 같은 폴더에 저장 되도록 1 단계와 3 단계의 찾기 및 수집 모드에서 도구를 실행할 때 사용한 것과 동일한 로그 위치를 사용 하는 것이 좋습니다.  <br/> | `-LogLocation "c:\users\admin\desktop\PSTCollection"` <br/> |
-    | `ForceRestart` <br/> |이 선택적 스위치를 사용 하 여 기존 PST 수집 작업에 대 한 삭제 모드에서 도구를 다시 실행할 수 있습니다. 이전에 삭제 모드에서 도구를 실행 했지만 PST 파일의 위치를 다시 검사 하는 `ForceRestart` 스위치를 사용 하 여 찾기 모드에서 도구를 다시 실행 한 경우이 스위치를 사용 하 여 삭제 모드에서 도구를 재실행 하 고 다시 sca에서 찾은 PST 파일을 삭제할 수 있습니다. n 위치를 했습니다. 삭제 모드에서 `ForceRestart` 스위치를 사용 하는 경우이 도구는 이전 삭제 작업을 무시 하 고 PST 파일 삭제를 시도 합니다.  <br/> | `-ForceRestart` <br/> 
+    | `ForceRestart` <br/> |이 선택적 스위치를 사용 하 여 기존 PST 수집 작업에 대 한 삭제 모드에서 도구를 다시 실행할 수 있습니다. 이전에 삭제 모드에서 도구를 실행 했지만 PST 파일에 대 한 다시 검사 위치를 사용 `ForceRestart` 하 여 찾기 모드에서 도구를 다시 실행 한 경우이 스위치를 사용 하 여 삭제 모드에서 도구를 재실행 하 고 위치를 다시 검색할 때 찾은 PST 파일을 삭제할 수 있습니다. 삭제 모드에서 `ForceRestart` 스위치를 사용 하는 경우이 도구는 이전 삭제 작업을 무시 하 고 PST 파일 삭제를 시도 합니다.  <br/> | `-ForceRestart` <br/> 
 
     다음은 각 매개 변수에 대 한 실제 값을 사용 하는 DataCollectorMaster의 구문 예입니다.
     
-    ```
+    ```powershell
     DataCollectorMaster.exe -DataSource Pst -Mode Delete -JobName PstSearch1 -ConfigurationLocation "c:\users\admin\desktop\PSTCollection\Configuration" -LogLocation "c:\users\admin\desktop\PSTCollection"
     ```
-   
+
     명령을 실행 하면 1 단계에서 확인 하 여 3 단계에서 수집한 PST 파일 삭제 진행률을 보여 주는 자세한 상태 메시지가 표시 됩니다. 잠시 후에 오류 및 로그를 복사 하는 위치에 대 한 최종 상태 메시지가 표시 됩니다. 동일한 상태 메시지가 .log 파일에 복사 됩니다.
     
 ### <a name="results-of-running-datacollectormasterexe-in-the-delete-mode"></a>삭제 모드에서 DataCollectorMaster를 실행 한 결과

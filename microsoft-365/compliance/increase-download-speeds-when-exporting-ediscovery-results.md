@@ -12,16 +12,16 @@ ms.collection: M365-security-compliance
 search.appverid: MOE150
 ms.assetid: c4c8f689-9d52-4e80-ae4b-1411ee9efc43
 description: 검색 결과를 다운로드할 때 데이터 처리량을 높이도록 Windows 레지스트리를 구성 하는 방법과 Office 365의 보안 & 준수 센터 및 고급 eDiscovery에서 데이터를 검색 하는 방법을 알아봅니다.
-ms.openlocfilehash: 44f595e6beffcc3d6789ad7b6f70ad77a48381cb
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: f74d164250f9d5b9b8315fe2651d3374457451ed
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37087995"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38687200"
 ---
 # <a name="increase-the-download-speed-when-exporting-ediscovery-search-results-from-office-365"></a>Office 365에서 eDiscovery 검색 결과를 내보낼 때 다운로드 속도 높이기
 
-Office 365 eDiscovery 내보내기 도구를 사용 하 여 보안 & 준수 센터에서 콘텐츠 검색 결과를 다운로드 하거나 Office 365 Advanced eDiscovery에서 데이터를 다운로드 하는 경우이 도구는 특정 개수의 동시 내보내기 작업을 시작 하 여 로컬 컴퓨터에 데이터를 추가할 수 있습니다. 기본적으로 동시 작업의 수는 데이터를 다운로드 하는 데 사용 하는 컴퓨터의 코어 수의 8 배로 설정 됩니다. 예를 들어 이중 코어 컴퓨터 (칩 하나에 두 개의 중앙 처리 장치)가 있는 경우 기본 동시 내보내기 작업 수는 16 개입니다. 데이터 전송 처리량을 늘리기 위해 다운로드 프로세스의 속도를 높이려면 검색 결과를 다운로드 하는 데 사용 하는 컴퓨터에서 Windows 레지스트리 설정을 구성 하 여 동시 작업 수를 늘릴 수 있습니다. 다운로드 프로세스의 속도를 향상 시키려면 24 개의 동시 작업을 설정 하는 것으로 시작 하는 것이 좋습니다.
+Office 365 eDiscovery 내보내기 도구를 사용 하 여 보안 & 준수 센터에서 콘텐츠 검색 결과를 다운로드 하거나 Office 365 Advanced eDiscovery에서 데이터를 다운로드 하는 경우이 도구는 특정 개수의 동시 내보내기 작업을 시작 하 여 로컬 컴퓨터에 데이터를 다운로드 합니다. 기본적으로 동시 작업의 수는 데이터를 다운로드 하는 데 사용 하는 컴퓨터의 코어 수의 8 배로 설정 됩니다. 예를 들어 이중 코어 컴퓨터 (칩 하나에 두 개의 중앙 처리 장치)가 있는 경우 기본 동시 내보내기 작업 수는 16 개입니다. 데이터 전송 처리량을 늘리기 위해 다운로드 프로세스의 속도를 높이려면 검색 결과를 다운로드 하는 데 사용 하는 컴퓨터에서 Windows 레지스트리 설정을 구성 하 여 동시 작업 수를 늘릴 수 있습니다. 다운로드 프로세스의 속도를 향상 시키려면 24 개의 동시 작업을 설정 하는 것으로 시작 하는 것이 좋습니다.
   
 낮은 대역폭의 네트워크를 통해 검색 결과를 다운로드 하는 경우이 설정을 높이면 부정적인 영향을 줄 수 있습니다. 또는 고대역폭 네트워크에서 24 개 보다 많은 동시 작업을 설정할 수 있습니다 (최대 동시 작업 수는 48). 이 레지스트리 설정을 구성한 후에는 환경에 대 한 최적의 동시 작업 수를 찾기 위해 변경 해야 할 수 있습니다.
   
@@ -33,7 +33,7 @@ Office 365 eDiscovery 내보내기 도구를 사용 하 여 보안 & 준수 센�
     
 2. 파일 이름 접미사를 사용 하 여 Windows 레지스트리 파일에 다음 텍스트를 저장 합니다. 예: ConcurrentOperations. 
     
-    ```
+    ```text
     Windows Registry Editor Version 5.00
     [HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Exchange\Client\eDiscovery\ExportTool]
     "DownloadConcurrency"="24"

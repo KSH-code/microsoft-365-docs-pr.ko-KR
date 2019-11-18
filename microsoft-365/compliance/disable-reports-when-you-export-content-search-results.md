@@ -11,12 +11,12 @@ localization_priority: Normal
 search.appverid: MOE150
 ms.assetid: c9b0ff0c-282b-4a44-b43f-cfc5b96557f9
 description: 로컬 컴퓨터에서 Windows 레지스트리를 편집 하 여 Office 365의 보안 & 준수 센터에서 콘텐츠 검색 결과를 내보낼 때 보고서를 사용 하지 않도록 설정 합니다. 이러한 보고서를 사용 하지 않도록 설정 하면 다운로드 시간을 단축 하 고 디스크 공간을 절약할 수 있습니다.
-ms.openlocfilehash: f6abcf8afe70bc6ce04f0f9343e28879f7fed885
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: f9b999eaf3f1924012c9d4899b0e234f0893fc2c
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37087333"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38687220"
 ---
 # <a name="disable-reports-when-you-export-content-search-results"></a>콘텐츠 검색 결과를 내보낼 때 보고서를 사용하지 않도록 설정
 
@@ -34,7 +34,7 @@ Office 365 eDiscovery 내보내기 도구를 사용 하 여 보안 & 준수 센�
     
       파일 이름 접미사를 사용 하 여 Windows 레지스트리 파일에 다음 텍스트를 저장 합니다. 예: DisableResultsCsv.
     
-      ```
+      ```text
       Windows Registry Editor Version 5.00
       reg add HKLM\SOFTWARE\Microsoft\Exchange\Client\eDiscovery\ExportTool /v ResultCsvEnabled /t REG_SZ /d False 
       ```
@@ -43,7 +43,7 @@ Office 365 eDiscovery 내보내기 도구를 사용 하 여 보안 & 준수 센�
     
       파일 이름 접미사를 사용 하 여 Windows 레지스트리 파일에 다음 텍스트를 저장 합니다. 예: DisableManifestXml.
     
-      ```
+      ```text
       Windows Registry Editor Version 5.00
       reg add HKLM\SOFTWARE\Microsoft\Exchange\Client\eDiscovery\ExportTool /v ResultEdrmEnabled /t REG_SZ /d False 
       ```
@@ -68,7 +68,7 @@ Office 365 eDiscovery 내보내기 도구를 사용 하 여 보안 & 준수 센�
     
         메모장에서 DisableResultsCsv 파일을 열고 값 `False` 을로 `True`변경한 다음 파일을 저장 합니다. 예를 들어 파일을 편집한 후에는 다음과 같이 표시 됩니다.
     
-        ```
+        ```text
         Windows Registry Editor Version 5.00
       reg add HKLM\SOFTWARE\Microsoft\Exchange\Client\eDiscovery\ExportTool /v ResultCsvEnabled /t REG_SZ /d True
         ```
@@ -77,7 +77,7 @@ Office 365 eDiscovery 내보내기 도구를 사용 하 여 보안 & 준수 센�
     
         메모장에서 DisableManifestXml 파일을 열고 값 `False` 을로 `True`변경한 다음 파일을 저장 합니다. 예를 들어 파일을 편집한 후에는 다음과 같이 표시 됩니다.
     
-      ```
+      ```text
       Windows Registry Editor Version 5.00
       reg add HKLM\SOFTWARE\Microsoft\Exchange\Client\eDiscovery\ExportTool /v ResultEdrmEnabled /t REG_SZ /d True
       ```
@@ -91,7 +91,6 @@ Office 365 eDiscovery 내보내기 도구를 사용 하 여 보안 & 준수 센�
     레지스트리 편집기에 설정이 레지스트리에 성공적으로 추가 되었다는 메시지가 표시 됩니다.
   
 ## <a name="frequently-asked-questions-about-disabling-export-reports"></a>보고서 내보내기를 사용 하지 않도록 설정 하는 방법에 대 한 질문과 대답
-<a name="faqs"> </a>
 
  **결과는 무엇입니까? .csv 및 Manifest.xml 보고서?**
   

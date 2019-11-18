@@ -12,12 +12,12 @@ localization_priority: Normal
 search.appverid: MOE150
 ms.assetid: ec2677ff-c4d7-4363-a9e7-22c80e015688
 description: 콘텐츠 검색 eDiscovery 도구를 사용 하 여 타사 데이터 원본에서 Office 365의 사서함으로 가져온 항목을 검색 합니다. 가져온 모든 항목을 검색 하는 쿼리를 만들거나 특정 타사 데이터 형식을 검색 하기 위한 쿼리를 만들 수 있습니다. 이 문서에서는 키워드 쿼리에서 Office 365로 가져올 수 있는 타사 데이터 형식을 검색 하는 데 사용할 수 있는 값을 보여 줍니다.
-ms.openlocfilehash: 2d531557054398be4ca963a9b09943f1bf583d10
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 57a39049ae1df3707a96311c9138195b7cc4c83a
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088441"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38687238"
 ---
 # <a name="use-content-search-to-search-third-party-data-imported-to-office-365"></a>콘텐츠 검색을 사용 하 여 Office 365로 가져온 타사 데이터 검색
 
@@ -29,7 +29,7 @@ ms.locfileid: "37088441"
 
 Office 365로 가져온 모든 타사 데이터 형식을 검색 하거나 보류 하려면 콘텐츠 검색의 키워드 상자에 `kind:externaldata` 메시지 속성-값 쌍을 사용 하거나 쿼리 기반 보존을 만들 때 사용할 수 있습니다. 예를 들어 모든 타사 데이터 원본에서 가져온 항목을 검색 하 고 가져온 항목의 Subject 속성에 "contoso" 라는 단어를 포함 하려면 다음 쿼리를 사용 합니다. 
   
-```
+```powershell
 kind:externaldata AND subject:contoso
 ```
 
@@ -41,13 +41,13 @@ kind:externaldata AND subject:contoso
 
 모든 유형의 타사 데이터를 검색 하는 대신 콘텐츠 검색의 키워드 상자에 있는 다음 메시지 *속성* 을 사용 하 여 타사 데이터의 지정만 검색 하는 쿼리를 만들 수 있습니다.
   
-```
+```powershell
 itemclass:ipm.externaldata.<third-party data type>* 
 ```
 
 예를 들어 Subject 속성에서 "contoso" 라는 단어가 포함 된 Facebook 데이터를 검색 하려면 다음 쿼리를 사용 합니다.
   
-```
+```powershell
 itemclass:ipm.externaldata.Facebook* AND subject:contoso
 ```
 

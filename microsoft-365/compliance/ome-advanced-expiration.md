@@ -14,12 +14,12 @@ ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: Office 365 메시지 암호화 (OME)의 맨 위에 Office 365 고급 메시지 암호화 기능을 사용 하 여 사용자 지정 브랜드 서식 파일을 통해 전자 메일에 만료 날짜를 설정 하 여 이메일 보안을 확장할 수 있습니다.
-ms.openlocfilehash: 59e014a69214c8085ad248ad1c1a0c21142abd47
-ms.sourcegitcommit: 27a7a373ca77375fdab0690a899135fad16c3cf5
+ms.openlocfilehash: 6790cc7103ad098419bde96b93738424626cd0cc
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37435542"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38687072"
 ---
 # <a name="set-an-expiration-date-for-email-encrypted-by-office-365-advanced-message-encryption"></a>Office 365 고급 메시지 암호화로 암호화 된 전자 메일의 만료 날짜 설정
 
@@ -37,7 +37,7 @@ Office 365 고급 메시지 암호화를 사용 하 여 사용자 지정 브랜�
 
 ## <a name="create-a-custom-branding-template-to-force-mail-expiration-by-using-powershell"></a>PowerShell을 사용 하 여 메일 만료를 적용 하는 사용자 지정 브랜딩 서식 파일 만들기
 
-1. Office 365 조직에서 전역 관리자 권한이 있는 계정을 사용 하 여 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/en-us/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell) 합니다.
+1. Office 365 조직에서 전역 관리자 권한이 있는 계정을 사용 하 여 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell) 합니다.
 
 2. Set-omeconfiguration cmdlet을 실행 합니다.
 
@@ -45,7 +45,7 @@ Office 365 고급 메시지 암호화를 사용 하 여 사용자 지정 브랜�
      New-OMEConfiguration -Identity "Expire in 7 days" -ExternalMailExpiryInDays 7
      ```
 
-여기서 각 부분이 나타내는 의미는 다음과 같습니다.
+여기서,
 
 - `Identity`은 사용자 지정 서식 파일의 이름입니다.
 
@@ -57,4 +57,4 @@ Office 365 고급 메시지 암호화를 사용 하 여 사용자 지정 브랜�
 
 - [Office 365 고급 메시지 암호화로 암호화된 전자 메일 취소](revoke-ome-encrypted-mail.md)
 
-- [메시지 정책 및 규정 준수 서비스 설명](https://docs.microsoft.com/en-us/office365/servicedescriptions/exchange-online-service-description/message-policy-and-compliance)
+- [메시지 정책 및 규정 준수 서비스 설명](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/message-policy-and-compliance)

@@ -3,7 +3,7 @@ title: FCI 또는 기타 속성을 갖는 문서를 보호하는 DLP 정책 만�
 ms.author: chrfox
 author: chrfox
 manager: laurawi
-ms.date: 6/29/2018
+ms.date: ''
 audience: Admin
 ms.topic: article
 f1_keywords:
@@ -15,12 +15,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: 많은 조직에서는 이미 Windows Server FCI(파일 분류 인프라)의 분류 속성, SharePoint의 문서 속성 또는 타사 시스템을 통해 적용된 문서 속성을 사용하여 중요한 정보를 식별하고 분류하는 프로세스를 유지하고 있습니다. 이 정책이 조직에 대해 설명하는 경우 Office 365에서 Windows Server FCI 또는 다른 시스템을 통해 문서에 적용된 속성을 인식하는 DLP 정책을 만들어 DLP 정책이 특정 FCI 또는 기타 속성 값을 갖는 Office 문서에 적용되도록 할 수 있습니다.
-ms.openlocfilehash: 5f464c2918d7ea91fa5c65b28bc477ee7cc768e3
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 286a66968727737c906ba24ac900eacd7732276e
+ms.sourcegitcommit: 547bfc5f1fec7545cbe71b1919454425556c9227
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088813"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "38687112"
 ---
 # <a name="create-a-dlp-policy-to-protect-documents-with-fci-or-other-properties"></a>FCI 또는 기타 속성을 갖는 문서를 보호하는 DLP 정책 만들기
 
@@ -42,7 +42,7 @@ DLP 정책에서 Windows Server FCI 속성 또는 기타 속성을 사용하려�
   
 Office 365의 DLP는 검색 크롤러를 사용하여 사이트의 중요한 정보를 식별하고 분류한 다음, 검색 인덱스의 보안 부분에 중요한 정보를 저장하기 때문에 이 기능이 중요합니다. Office 365로 문서를 업로드하는 경우 SharePoint는 문서 속성을 기준으로 크롤링된 속성을 자동으로 만듭니다. 그러나 FCI 또는 DLP 정책의 다른 속성을 사용하려면 해당 속성을 갖는 콘텐츠가 인덱스에 보관될 수 있게 크롤링된 속성이 관리 속성에 매핑되어야 합니다.
   
-검색 및 관리 속성에 대 한 자세한 내용은 [SharePoint Online에서 검색 스키마 관리](http://go.microsoft.com/fwlink/p/?LinkID=627454)를 참조 하세요.
+검색 및 관리 속성에 대 한 자세한 내용은 [SharePoint Online에서 검색 스키마 관리](https://go.microsoft.com/fwlink/p/?LinkID=627454)를 참조 하세요.
   
 ### <a name="step-1-upload-a-document-with-the-needed-property-to-office-365"></a>1단계: 필요한 속성을 갖는 문서를 Office 365에 업로드합니다.
 
@@ -92,29 +92,29 @@ Office 365의 DLP는 검색 크롤러를 사용하여 사이트의 중요한 정
 
 조건 **문서 속성** 에는 보안 &amp; 및 준수 센터의 UI에서 일시적으로 사용할 수 없지만 PowerShell을 사용 하 여이 조건을 계속 사용할 수 있습니다. `New\Set\Get-DlpCompliancePolicy` Cmdlet을 사용 하 여 DLP 정책에 대 한 작업을 수행 하 고 `New\Set\Get-DlpComplianceRule` `ContentPropertyContainsWords` 매개 변수와 함께 cmdlet을 사용 하 여 조건을 추가할 수 있습니다 **문서 속성에 이러한 값이 포함 되어**있습니다.
   
-이러한 cmdlet에 대 한 자세한 내용은 [Office 365 보안 &amp; 및 준수 센터 cmdlet](http://go.microsoft.com/fwlink/?LinkID=799772&amp;clcid=0x409)를 참조 하세요.
+이러한 cmdlet에 대 한 자세한 내용은 [Office 365 보안 &amp; 및 준수 센터 cmdlet](https://go.microsoft.com/fwlink/?LinkID=799772&amp;clcid=0x409)를 참조 하세요.
   
-1. [원격 PowerShell을 사용하여 Office 365 보안 및 준수 센터에 연결](http://go.microsoft.com/fwlink/?LinkID=799771&amp;clcid=0x409)
+1. [원격 PowerShell을 사용하여 Office 365 보안 및 준수 센터에 연결](https://go.microsoft.com/fwlink/?LinkID=799771&amp;clcid=0x409)
     
 2. 을 사용 하 `New-DlpCompliancePolicy`여 정책을 만듭니다.
-    
-    다음은 모든 위치에 적용 되는 DLP 정책을 만드는 PowerShell 예제입니다.
-    
-      ```
-      New-DlpCompliancePolicy -Name FCI_PII_policy -ExchangeLocation All -SharePointLocation All -OneDriveLocation All -Mode Enable
-      ```
+
+다음은 모든 위치에 적용 되는 DLP 정책을 만드는 PowerShell 예제입니다.
+
+```powershell
+New-DlpCompliancePolicy -Name FCI_PII_policy -ExchangeLocation All -SharePointLocation All -OneDriveLocation All -Mode Enable
+```
 
 3. 위에서 설명한 두 가지 규칙을 사용 하 `New-DlpComplianceRule`여, 즉 **낮은** 값에 대 한 규칙을 만들고, **높은** 값과 **중간** 가치에 대해 다른 규칙을 만듭니다. 
     
     다음은 이러한 두 가지 규칙을 만드는 PowerShell 예제입니다. 속성 이름/값 쌍은 따옴표로 묶여 있고 속성 이름에는 다음과 같이 공백 없이 쉼표로 구분 하 여 여러 값을 지정할 수 있습니다.`"<Property1>:<Value1>,<Value2>","<Property2>:<Value3>,<Value4>"....`
-    
-      ```
-      New-DlpComplianceRule -Name FCI_PII_content-High,Moderate -Policy FCI_PII_policy -AccessScope NotInOrganization -BlockAccess $true -ContentPropertyContainsWords "Personally Identifiable Information:High,Moderate" -Disabled $falseNew-DlpComplianceRule -Name FCI_PII_content-Low -Policy FCI_PII_policy -AccessScope NotInOrganization -BlockAccess $false -ContentPropertyContainsWords "Personally Identifiable Information:Low" -Disabled $false -NotifyUser Owner
-      ```
 
-    Windows Server FCI에는이 예에서 사용 되는 **개인 식별** 이 가능한 정보를 포함 하 여 기본 제공 되는 여러 속성이 포함 되어 있습니다. 각 속성에 사용할 수 있는 값은 조직 마다 다를 수 있습니다. 여기에서 사용 되는 **높은**값, **중간 규모**및 **낮음을** 예로 들 수 있습니다. 조직의 경우 Windows server FCI 분류 속성을 사용할 수 있는 값을 포함 하는 파일 서버 기반 파일 서버 자세한 내용은 [분류 속성 만들기](http://go.microsoft.com/fwlink/p/?LinkID=627456)항목을 참조 하십시오.
+```powershell
+New-DlpComplianceRule -Name FCI_PII_content-High,Moderate -Policy FCI_PII_policy -AccessScope NotInOrganization -BlockAccess $true -ContentPropertyContainsWords "Personally Identifiable Information:High,Moderate" -Disabled $falseNew-DlpComplianceRule -Name FCI_PII_content-Low -Policy FCI_PII_policy -AccessScope NotInOrganization -BlockAccess $false -ContentPropertyContainsWords "Personally Identifiable Information:Low" -Disabled $false -NotifyUser Owner
+```
+
+    Note that Windows Server FCI includes many built-in properties, including **Personally Identifiable Information** used in this example. The possible values for each property can be different for every organization. The **High**, **Moderate**, and **Low** values used here are only an example. For your organization, you can view the Windows Server FCI classification properties with their possible values in the file Server Resource Manager on the Windows Server-based file server. For more information, see [Create a classification property](https://go.microsoft.com/fwlink/p/?LinkID=627456).
     
-완료 되 면 정책에는 문서 속성을 사용 하는 두 가지 새 규칙에 **이러한 값 조건이 포함** 되어 있어야 합니다. 이 조건은 UI에는 표시 되지 않지만 다른 조건, 작업 및 설정은 표시 됩니다. 
+완료 되 면 정책에는 문서 속성을 사용 하는 두 가지 새 규칙에 **이러한 값 조건이 포함** 되어 있어야 합니다. 이 조건은 UI에는 표시 되지 않지만 다른 조건, 작업 및 설정은 표시 됩니다.
   
 규칙 하나는 **개인 식별 정보** 속성이 **높은** 또는 **보통**인 콘텐츠에 대한 액세스를 차단합니다. 또 다른 규칙은 **개인 식별 정보** 속성이 **낮음**인 콘텐츠에 대해 알림을 보냅니다.
   
@@ -129,7 +129,7 @@ Office 365의 DLP는 검색 크롤러를 사용하여 사이트의 중요한 정
 > [!CAUTION]
 > 사이트를 다시 인덱싱하면 검색 시스템에서 대량의 부하가 발생할 수 있습니다. 시나리오에서 절대적으로 필요한 경우가 아니면 사이트를 다시 인덱싱하지 마세요. 
   
-자세한 내용은 [사이트, 라이브러리 또는 목록에 대 한 크롤링 수동 요청과 다시 인덱싱](http://go.microsoft.com/fwlink/p/?LinkID=627457)를 참조 하세요.
+자세한 내용은 [사이트, 라이브러리 또는 목록에 대 한 크롤링 수동 요청과 다시 인덱싱](https://go.microsoft.com/fwlink/p/?LinkID=627457)를 참조 하세요.
   
 ### <a name="re-index-a-site-optional"></a>사이트 다시 인덱싱(선택 사항)
 
@@ -148,5 +148,3 @@ Office 365의 DLP는 검색 크롤러를 사용하여 사이트의 중요한 정
 - [DLP 정책 템플릿에 포함되는 내용](what-the-dlp-policy-templates-include.md)
     
 - [중요 한 정보 유형 목록](what-the-sensitive-information-types-look-for.md)
-    
-

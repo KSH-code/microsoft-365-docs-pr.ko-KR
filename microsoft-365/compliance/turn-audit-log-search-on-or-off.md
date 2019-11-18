@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: e893b19a-660c-41f2-9074-d3631c95a014
 description: 보안 & 준수 센터에서 감사 로그 검색 기능을 설정할 수 있습니다. 생각이 변경 되 면 언제 든 지 설정을 해제할 수 있습니다. 감사 로그 검색이 해제 되 면 관리자가 조직의 사용자 및 관리자 활동에 대 한 Office 365 감사 로그를 검색할 수 없습니다.
-ms.openlocfilehash: 83ef355c4acd5e0af4fd7ffbf13157307bcac930
-ms.sourcegitcommit: 53d848ebd4799b285d0f67c49b0aa24c88bd0e23
+ms.openlocfilehash: 4e382c9916a9460d2c837a336607734427416a1a
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "37334248"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38687242"
 ---
 # <a name="turn-office-365-audit-log-search-on-or-off"></a>Office 365 감사 로그 검색 켜기 또는 끄기
 
@@ -35,7 +35,7 @@ ms.locfileid: "37334248"
     > [!IMPORTANT]
     > 감사 로그 검색을 설정 또는 해제 하려면 사용자에 게 Exchange Online의 사용 권한을 할당 해야 합니다. 보안 & 준수 센터의 **사용 권한** 페이지에서 사용자에 게 감사 로그 역할을 할당 하면 감사 로그 검색을 설정 하거나 해제할 수 없습니다. 이는 기본 cmdlet이 Exchange Online cmdlet 이기 때문입니다. 
   
-- Office 365에서 감사 로그 검색을 해제 하면 Office 365 관리 작업 API를 사용 하 여 조직의 감사 데이터에 액세스할 수 없습니다. 이 문서에서 설명 하는 단계에 따라 감사 로그 검색을 해제 하면 보안 & 준수 센터를 사용 하 여 감사 로그를 검색 하거나 Exchange Online PowerShell에서 **search-unifiedauditlog** cmdlet을 실행할 때 결과가 반환 되지 않습니다. . 이는 또한 Office 365 관리 활동 API를 통해 감사 로그를 사용할 수 없다는 것을 의미 합니다.  
+- Office 365에서 감사 로그 검색을 해제 하면 Office 365 관리 작업 API를 사용 하 여 조직의 감사 데이터에 액세스할 수 없습니다. 이 문서에서 설명 하는 단계에 따라 감사 로그 검색을 해제 하면 보안 & 준수 센터를 사용 하 여 감사 로그를 검색 하거나 Exchange Online PowerShell에서 **search-unifiedauditlog** cmdlet을 실행할 때 결과가 반환 되지 않습니다. 이는 또한 Office 365 관리 활동 API를 통해 감사 로그를 사용할 수 없다는 것을 의미 합니다.  
     
 - Office 365 감사 로그를 검색 하는 방법에 대 한 단계별 지침은 [Security & 준수 센터에서 감사 로그 검색](search-the-audit-log-in-security-and-compliance.md)을 참조 하십시오.
     
@@ -61,7 +61,7 @@ ms.locfileid: "37334248"
     
 2. 다음 PowerShell 명령을 실행 하 여 Office 365에서 감사 로그 검색을 사용 하도록 설정 합니다.
     
-    ```
+    ```powershell
     Set-AdminAuditLogConfig -UnifiedAuditLogIngestionEnabled $true
     ```
 
@@ -75,7 +75,7 @@ ms.locfileid: "37334248"
     
 2. 다음 PowerShell 명령을 실행 하 여 Office 365에서 감사 로그 검색을 해제 합니다.
     
-    ```
+    ```powershell
     Set-AdminAuditLogConfig -UnifiedAuditLogIngestionEnabled $false
     ```
 
@@ -83,12 +83,12 @@ ms.locfileid: "37334248"
     
     - PowerShell에서 다음 명령을 실행 합니다.
 
-            ```
-            Get-AdminAuditLogConfig | FL UnifiedAuditLogIngestionEnabled
-            ```
+    ```powershell
+    Get-AdminAuditLogConfig | FL UnifiedAuditLogIngestionEnabled
+    ```
 
-           The value of  `False` for the  _UnifiedAuditLogIngestionEnabled_ property indicates that audit log search is turned off. 
+      UnifiedAuditLogIngestionEnabled 속성의 `False` 값은 __ 감사 로그 검색이 해제 됨을 나타냅니다. 
     
     - 보안 & 준수 센터에서 **검색** \> **감사 로그 검색**으로 이동 합니다.
     
-           A banner is displayed saying that auditing has to be turned on in order to record user and admin activity.
+      사용자 및 관리 활동을 기록 하기 위해 감사를 설정 해야 한다는 배너가 표시 됩니다.

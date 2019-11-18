@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 3d562dbc1fc696b1e6d2acccc92f69385da49510
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: d49f94d4f77d7ed386db02eab4e4bf29a0e8fd04
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37087259"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38687045"
 ---
 # <a name="advanced-indexing-of-data-for-an-investigation"></a>조사를 위한 데이터의 고급 인덱싱
 
@@ -31,9 +31,9 @@ Office 365 및 부분적으로 인덱싱된 항목의 처리 지원에 대 한 �
 
 - [Office 365의 콘텐츠 검색에서 부분적으로 인덱싱된 항목](partially-indexed-items-in-content-search.md)
 
-- [Exchange 검색에서 인덱싱하는 파일 형식](https://docs.microsoft.com/en-us/exchange/file-formats-indexed-by-exchange-search-exchange-2013-help)
+- [Exchange 검색에서 인덱싱하는 파일 형식](https://docs.microsoft.com/exchange/file-formats-indexed-by-exchange-search-exchange-2013-help)
 
-- [SharePoint Server의 크롤링되는 기본 파일 이름 확장명 및 구문 분석되는 파일 형식](https://docs.microsoft.com/en-us/SharePoint/technical-reference/default-crawled-file-name-extensions-and-parsed-file-types)
+- [SharePoint Server의 크롤링되는 기본 파일 이름 확장명 및 구문 분석되는 파일 형식](https://docs.microsoft.com/SharePoint/technical-reference/default-crawled-file-name-extensions-and-parsed-file-types)
 
 ## <a name="viewing-advanced-indexing-results"></a>고급 인덱싱 결과 보기
 
