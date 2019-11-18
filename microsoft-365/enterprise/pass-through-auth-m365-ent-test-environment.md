@@ -16,14 +16,16 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: ''
 description: '요약: Microsoft 365 테스트 환경을 위한 통과 인증을 구성합니다.'
-ms.openlocfilehash: 4835b909dbe20f449828b604192d9f3957f54c5c
-ms.sourcegitcommit: 2c2248b03f7753d64490f2f7e56ec644a235b65a
+ms.openlocfilehash: 21289d01f85f7e7e5e92b4f84d7ba0c1a4f6e8a9
+ms.sourcegitcommit: 9ee873c6a2f738a0c99921e036894b646742e706
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 11/15/2019
-ms.locfileid: "38640737"
+ms.locfileid: "38673394"
 ---
 # <a name="pass-through-authentication-for-your-microsoft-365-test-environment"></a>Microsoft 365 테스트 환경을 위한 통과 인증
+
+*이 테스트 랩 가이드는 Microsoft 365 Enterprise와 Office 365 Enterprise 테스트 환경 모두에서 사용할 수 있습니다.*
 
 Microsoft 클라우드 기반 서비스 및 응용 프로그램에 대한 인증을 위해 AD DS (Active Directory 도메인 서비스) 인프라를 직접 사용하려는 조직은 통과 인증을 사용할 수 있습니다. 이 문서에서는 통과 인증에 대해 Microsoft 365 테스트 환경을 구성하여 다음과 같은 결과를 얻는 방법을 설명합니다.
   

@@ -16,16 +16,18 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: ''
 description: '요약: Microsoft 365 테스트 환경을 위한 암호 재설정을 구성하고 테스트합니다.'
-ms.openlocfilehash: 4ddcb0718fbb5546a0e37b648b698b46d7e55ec0
-ms.sourcegitcommit: 2c2248b03f7753d64490f2f7e56ec644a235b65a
+ms.openlocfilehash: 3ad5a1477bfc40b541c0b048b9b68b896a748e0a
+ms.sourcegitcommit: 9ee873c6a2f738a0c99921e036894b646742e706
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 11/15/2019
-ms.locfileid: "38640727"
+ms.locfileid: "38673374"
 ---
 # <a name="password-reset-for-your-microsoft-365-test-environment"></a>Microsoft 365 테스트 환경을 위한 암호 재설정
 
-Azure AD(Azure Active Directory)를 사용하면 사용자가 암호 또는 계정을 다시 설정하거나 잠금을 해제할 수 있습니다. 
+*이 테스트 랩 가이드는 Microsoft 365 Enterprise 테스트 환경에만 사용할 수 있습니다.*
+
+Azure AD(Azure Active Directory) SSPR(셀프 서비스 암호 재설정)을 사용하면 사용자가 암호 또는 계정을 다시 설정하거나 잠금을 해제할 수 있습니다. 
 
 이 문서에서는 Microsoft 365 테스트 환경에서 암호 재설정을 구성 및 테스트하는 방법을 세 단계로 설명합니다.
 

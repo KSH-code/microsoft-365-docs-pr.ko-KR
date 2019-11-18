@@ -16,14 +16,16 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: ''
 description: '요약: Microsoft 365 테스트 환경을 위한 암호 쓰기 저장을 구성합니다.'
-ms.openlocfilehash: d946aefa38884923d70d2c530d61f84861cc914e
-ms.sourcegitcommit: 2c2248b03f7753d64490f2f7e56ec644a235b65a
+ms.openlocfilehash: f0f10d34cd761f7e7e3c60a1816bd79eea8ecd9b
+ms.sourcegitcommit: 9ee873c6a2f738a0c99921e036894b646742e706
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 11/15/2019
-ms.locfileid: "38639758"
+ms.locfileid: "38673364"
 ---
 # <a name="password-writeback-for-your-microsoft-365-test-environment"></a>Microsoft 365 테스트 환경을 위한 암호 쓰기 저장
+
+*이 테스트 랩 가이드는 Microsoft 365 Enterprise 테스트 환경에만 사용할 수 있습니다.*
 
 암호 쓰기 저장은 Azure AD(Azure Active Directory)를 통해 자신의 암호를 업데이트하도록 허용합니다. 이는 로컬 AD DS(Active Directory Domain Services)에 복제됩니다. 암호 쓰기 저장을 사용하면 사용자가 원래 사용자 계정이 저장된 온-프레미스 AD DS를 통해 암호를 업데이트할 필요가 없습니다. 이는 온-프레미스 네트워크에 대한 원격 액세스 연결이 없는 로밍 또는 원격 사용자에게 도움이 됩니다.
 
