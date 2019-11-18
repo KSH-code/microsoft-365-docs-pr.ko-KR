@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: TopSMBIssues
 localization_priority: Priority
 description: 이 문서에서는 Office 365가 위조된 보낸 사람 도메인, 즉 스푸핑된 도메인을 사용하는 피싱 공격을 줄이는 방법에 대해 설명합니다. 표준 전자 메일 인증 방법이나 다른 보낸 사람 신뢰도 기술을 사용하지 않고 메시지를 분석하고 인증할 수 있는 메시지를 차단하여 이 작업을 수행합니다. 이 변경 사항은 Office 365의 조직이 피싱 공격에 노출된 수를 줄이기 위해 구현되었습니다.
-ms.openlocfilehash: 7b793d3244343111f1894ff8aae77c2d6ea8f4f3
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: d435df901bf460c58a5b49e82458be1d6cf39eaf
+ms.sourcegitcommit: 2c2248b03f7753d64490f2f7e56ec644a235b65a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38034289"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "38640807"
 ---
 # <a name="anti-spoofing-protection-in-office-365"></a>Office 365의 스푸핑 방지 보호 기능
 
@@ -59,7 +59,7 @@ ms.locfileid: "38034289"
   
 위의 메시지는 Microsoft에서 발송되었지만 사용자는 링크를 클릭해 자격 증명을 포기하거나 맬웨어를 다운로드하게 하고 또는 중요한 콘텐츠가 포함된 메시지에 회신하도록 만드는 피싱 메시지를 받는 데 익숙합니다.  실제 암호 재설정과 가짜 암호 변경의 차이점을 알기 어렵기 때문에 많은 사용자가 이러한 메시지를 무시하거나 스팸으로 신고하고 또는 불필요하게 Microsoft에 이를 누락된 피싱(Phishing) 메시지로 다시 보고합니다.
 
-스푸핑을 중단하기 위해 이메일 필터링 업계에서는 [SPF](https://docs.microsoft.com/office365/SecurityCompliance/set-up-spf-in-office-365-to-help-prevent-spoofing), [DKIM](https://docs.microsoft.com/office365/SecurityCompliance/use-dkim-to-validate-outbound-email) 및 [DMARC](https://docs.microsoft.com/office365/SecurityCompliance/use-dmarc-to-validate-email)와 같은 전자 메일 인증 프로토콜을 개발했습니다. DMARC는 SPF를 통과한 도메인 또는 DKIM를 통해 사용자가 전자 메일 클라이언트에서 볼 수 있는 메시지 보낸 사람(위의 예에서는 service.outlook.com, outlook.com 및 accountprotection.microsoft.com)을 검사해 스푸핑을 방지합니다. 즉, 사용자가 보는 도메인은 인증되었으므로 스푸핑되지 않습니다. 더 자세한 내용은 이 문서의 "*전자 메일 인증만으로 스푸핑을 막을 수 없는 이유 이해하기"* 섹션을 참조하십시오.
+스푸핑을 중단하기 위해 이메일 필터링 업계에서는 [SPF](https://docs.microsoft.com/office365/SecurityCompliance/set-up-spf-in-office-365-to-help-prevent-spoofing), [DKIM](https://docs.microsoft.com/office365/SecurityCompliance/use-dkim-to-validate-outbound-email) 및 [DMARC](https://docs.microsoft.com/office365/SecurityCompliance/use-dmarc-to-validate-email)와 같은 전자 메일 인증 프로토콜을 개발했습니다. DMARC를 통해 메시지의 보낸 사람을 검사하는 스푸핑을 방지할 수 있습니다. 즉, 전자 메일 클라이언트에서 사용자에게 표시되는 보낸 사람 (예를 들어, service.outlook.com, outlook.com 및 accountprotection.microsoft.com)입니다. 또한 사용자는 도메인이 SPF 또는 DKIM을 통과했음을 확인할 수 있습니다. 이는 도메인이 인증되어 스푸핑되지 않았음을 의미합니다. 더 자세한 내용은 이 문서의 "*전자 메일 인증만으로 스푸핑을 막을 수 없는 이유 이해하기"* 섹션을 참조하십시오.
   
 그러나 문제는 전자 메일 인증 레코드가 선택 사항이며 의무가 아니라는 것입니다. 따라서 microsoft.com 및 skype.com과 같은 강력한 인증 정책을 사용하는 도메인은 스푸핑으로부터 보호되지만, 인증 정책을 약하게 게시하거나 전혀 정책을 게시하지 않는 도메인은 스푸핑의 대상이 됩니다. 2018년 3월 현재 Fortune지 500대 기업 의 도메인 중 9%만이 강력한 전자 메일 인증 정책을 발표했습니다. 나머지 91%는 피셔가 스푸핑을 할 수 있으며 전자 메일 필터가 다른 정책을 사용하여 이를 탐지하지 않는 한 최종 사용자에게 전달되어 사용자를 속일 수 있습니다.
   

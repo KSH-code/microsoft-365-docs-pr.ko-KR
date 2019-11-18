@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Microsoft 365에서 WIP(Windows Information Protection) 이해 및 배포
-ms.openlocfilehash: 5d327ea97a24d4b1015940688b7702dc761e826d
-ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
+ms.openlocfilehash: 23c3298545a288b459fd3bb858bb7c1d1714ee75
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "37370125"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38627384"
 ---
 # <a name="step-4-configure-windows-information-protection"></a>4단계: WIP(Windows Information Protection) 구성
 
@@ -39,7 +39,7 @@ Microsoft 365 Enterprise와 함께 조직에 WIP를 배포하려면 다음을 �
   - 제한된 앱 목록을 작성했는지 확인합니다.
   - WIP 보호 수준을 선택합니다.
 
-[System Center Configuration Manager](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/overview-create-wip-policy-sccm)에 WIP를 사용할 수 있습니다. 
+[Microsoft Endpoint Configuration Manager](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/overview-create-wip-policy-sccm)에서 WIP를 사용할 수도 있습니다. 
 
 자세한 내용은 [WIP 모범 사례]( https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/guidance-and-best-practices-wip)를 참조하세요.
 

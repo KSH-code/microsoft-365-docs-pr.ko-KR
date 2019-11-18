@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Contoso Corporation의 기업 정보와 전 세계 사무소의 계층 구조를 파악합니다.
-ms.openlocfilehash: ad2b3cce0e40161199513616a07ecd0a83a3e1b1
-ms.sourcegitcommit: c6eab4a9f1b70e7ff0db6b2a1128a4db2591cbaf
+ms.openlocfilehash: 429d74c66198c1b4a3dea735127a4fb569aa7bb0
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "37369559"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38627344"
 ---
 # <a name="overview-of-the-contoso-corporation"></a>Contoso Corporation 개요
 
@@ -64,7 +64,7 @@ Contoso의 IT 설계자는 Microsoft 365 Enterprise를 배포할 때 다음과 �
 
 - 현지 규정 및 준수 요구 사항이 있는 여러 지리적 위치
 - 본사의 중앙 인트라넷 데이터 센터와 내부 LOB(기간 업무) 응용 프로그램을 호스트하는 지역 응용 프로그램 서버
-- 기존 System Center Configuration Manager 인프라
+- 기존 Microsoft Endpoint Configuration Manager 인프라
 - Windows, Mac 및 Linux를 포함하는 다양한 클라이언트 컴퓨팅 장치
 - iOS(iPhone 및 iPad) 및 Android 스마트폰과 태블릿을 포함하는 개인용 및 회사 소유의 모바일 장치
 - 많은 원격 및 모바일 근로자

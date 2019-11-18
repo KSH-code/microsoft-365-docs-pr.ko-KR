@@ -12,24 +12,24 @@ ms.collection:
 - M365-modern-desktop
 - Strat_O365_Enterprise
 ms.custom: ''
-description: 어떻게 Contoso에서 System Center Configuration Manager를 사용하여 Windows 10 Enterprise의 현재 위치에서 업그레이드를 배포했는지를 이해합니다.
-ms.openlocfilehash: a63a973bed4bf62ebf7c2534d4c55a4e3b8ef60c
-ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
+description: 어떻게 Contoso에서 Microsoft Endpoint Configuration Manager를 사용하여 Windows 10 Enterprise의 현재 위치에서 업그레이드를 배포했는지를 이해합니다.
+ms.openlocfilehash: a36e933d31ac6d629b649f07d6b8c9a4fe950ec8
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "37370475"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38627334"
 ---
 # <a name="windows-10-enterprise-deployment-for-contoso"></a>Contoso의 Windows 10 Enterprise 배포
 
-**요약:** 어떻게 Contoso에서 System Center Configuration Manager를 사용하여 Windows 10 Enterprise의 현재 위치에서 업그레이드를 배포했는지를 이해합니다.
+**요약:** 어떻게 Contoso에서 Microsoft Endpoint Configuration Manager를 사용하여 Windows 10 Enterprise의 현재 위치에서 업그레이드를 배포했는지를 이해합니다.
 
 Microsoft 365 Enterprise의 광범위한 출시 전에, Contoso는 Windows 7(10%), Windows 8.1(65%) 및 Windows 10(25%)이 실행되는 Windows 호환 PC 및 장치를 보유했습니다. Contoso는 자동화된 업데이트 배포를 통해 보안을 향상시키고 IT 오버헤드를 낮추기 위해 Windows 10 Enterprise용 PC를 업그레이드하기를 원했습니다. 
 
 Contoso는 해당 인프라 및 비즈니스 요구를 파악한 후 다음과 같은 핵심 배포 요구 사항을 확인했습니다.
 
 - 가능한 한 많은 PC 및 장치에서 Windows 10 Enterprise를 실행해야 합니다.
-- 현재 위치 업그레이드의 롤아웃은 기존 System Center Configuration Manager 인프라를 활용해야 합니다.
+- 현재 위치 업그레이드의 롤아웃은 기존 Configuration Manager 인프라를 활용해야 합니다.
 - 배포할 Windows 10 Enterprise 버전 및 업데이트에 대한 제어는 링을 통해 수행됩니다.
 - PC 및 장치는 최소한의 IT 관리 비용을 들이고 최종 사용자에게 최소한의 영향을 미치면서 최신 상태로 유지해야 합니다.
 
@@ -51,7 +51,7 @@ Windows 10 Enterprise의 현재 위치 업그레이드 이전 및 도중에 Cont
 
   자주 충돌이 발생하여 다시 제조하거나 대체할 필요가 있는 장치 및 장치의 충돌을 발생시키는 장치 드라이버와 충돌 횟수를 줄일 수 있는 이들 드라이버의 대체 버전에 대한 제안과 함께 식별 합니다. 최종 사용자에게 프롬프트를 보내는 Windows Information Protection의 잘못된 구성에 대해 알립니다.
  
-Contoso는 기존의 System Center Configuration Manager(현재 분기) 인프라가 있습니다. Configuration Manager는 대규모 환경에 맞게 확장되며, 설치, 업데이트 및 설정을 포괄적으로 제어할 수 있도록 합니다. 그뿐 아니라 Windows 10 Enterprise를 보다 쉽고 효율적으로 배포 및 관리할 수 있도록 하는 기본 제공 기능도 제공합니다.
+Contoso는 기존의 Configuration Manager(현재 분기) 인프라가 있습니다. Configuration Manager는 대규모 환경에 맞게 확장되며, 설치, 업데이트 및 설정을 포괄적으로 제어할 수 있도록 합니다. 그뿐 아니라 Windows 10 Enterprise를 보다 쉽고 효율적으로 배포 및 관리할 수 있도록 하는 기본 제공 기능도 제공합니다.
 
 ## <a name="planning-process"></a>계획 프로세스
 
@@ -83,7 +83,7 @@ Contoso의 현재 위치 업그레이드 및 지속적인 업데이트 배포 �
 
 이 인프라는 다음으로 구성됩니다.
 
-- 다음이 적용되는 System Center Configuration Manager
+- 다음과 같은 Configuration Manager:
   - Microsoft Network의 Microsoft 볼륨 라이선스 센터에서 Windows 10 Enterprise 패키지에 대한 이미지를 가져옵니다.
   - 배포 패키지에 대한 중앙 관리 지점
 - 일반적으로 Contoso의 지역 허브 사무실에 있는 지역별 배포 지점
@@ -91,7 +91,7 @@ Contoso의 현재 위치 업그레이드 및 지속적인 업데이트 배포 �
 
 ## <a name="next-step"></a>다음 단계
 
-Contoso가 해당 System Center Configuration Manager 인프라를 활용하여 조직 내에서 최신 Office 365 ProPlus를 배포하고 유지하는 방법을 [알아봅니다](contoso-o365pp.md). 
+Contoso가 해당 Configuration Manager 인프라를 활용하여 조직 내에서 최신 Office 365 ProPlus를 배포하고 유지하는 방법을 [알아봅니다](contoso-o365pp.md). 
 
 ## <a name="see-also"></a>참고 항목
 

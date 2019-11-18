@@ -3,7 +3,7 @@ title: Microsoft 365의 시뮬레이이트된 엔터프라이즈 기반 구성
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 05/01/2019
+ms.date: 11/14/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -15,12 +15,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 6f916a77-301c-4be2-b407-6cec4d80df76
 description: 이 테스트 랩 가이드를 사용하여 Microsoft 365 Enterprise 테스트를 위한 시뮬레이트된 엔터프라이즈 테스트 환경을 만듭니다.
-ms.openlocfilehash: 7a23f0eabcd9b4b0b94f6f932570fed12de32cbe
-ms.sourcegitcommit: 2aeafb631aaabc53eea0a8029711eb891e48d249
+ms.openlocfilehash: 5faa6857de42049cbcfc237e3e617de294794530
+ms.sourcegitcommit: 2c2248b03f7753d64490f2f7e56ec644a235b65a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "37746504"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "38640390"
 ---
 # <a name="the-simulated-enterprise-base-configuration"></a>시뮬레이트된 엔터프라이즈 기본 구성
 
@@ -36,7 +36,7 @@ ms.locfileid: "37746504"
 ![Microsoft 클라우드의 테스트 랩 가이드](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
 
 > [!TIP]
-> [여기](https://aka.ms/m365etlgstack)를 클릭하여 Microsoft 365 Enterprise 테스트 랩 가이드 스택의 모든 문서에 대한 가상 맵을 확인할 수 있습니다.
+> [여기](media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf)를 클릭하여 Microsoft 365 Enterprise 테스트 랩 가이드 스택의 모든 문서에 대한 가상 맵을 확인할 수 있습니다.
 
 ## <a name="phase-1-create-a-simulated-intranet"></a>1단계: 시뮬레이트된 인트라넷 만들기
 
@@ -80,32 +80,32 @@ PowerShell을 통해 한 번에 하나의 단계씩 Azure 인프라의 요소를
   
 다음 명령을 사용하여 Azure 계정에 로그인합니다.
   
-```
+```powershell
 Connect-AzAccount
 ```
 
 다음 명령을 사용하여 구독 이름을 가져옵니다.
   
-```
+```powershell
 Get-AzSubscription | Sort Name | Select Name
 ```
 
 Azure 구독을 설정합니다. < 및 > 문자를 포함하여 따옴표 안에 있는 모든 것을 올바른 이름으로 바꿉니다.
   
-```
+```powershell
 $subscr="<subscription name>"
 Get-AzSubscription -SubscriptionName $subscr | Select-AzSubscription
 ```
 
 다음으로 시뮬레이트된 엔터프라이즈 테스트 랩에 대한 새 리소스 그룹을 만듭니다. 고유한 리소스 그룹 이름을 확인하려면 이 명령을 사용하여 기존 리소스 그룹을 나열합니다.
   
-```
+```powershell
 Get-AzResourceGroup | Sort ResourceGroupName | Select ResourceGroupName
 ```
 
 이러한 명령을 사용하여 새 리소스 그룹을 만듭니다. < 및 > 문자를 포함하여 따옴표 안에 있는 모든 내용을 올바른 이름으로 바꿉니다.
   
-```
+```powershell
 $rgName="<resource group name>"
 $locName="<location name, such as West US>"
 New-AzResourceGroup -Name $rgName -Location $locName
@@ -113,7 +113,7 @@ New-AzResourceGroup -Name $rgName -Location $locName
 
 다음으로, 시뮬레이트된 엔터프라이즈 환경의 Corpnet 서브넷을 호스트하는 테스트 랩 가상 네트워크를 만들고 네트워크 보안 그룹을 사용하여 보호합니다. 리소스 그룹의 이름을 입력하고 로컬 컴퓨터의 PowerShell 명령 프롬프트에서 다음 명령을 실행합니다.
   
-```
+```powershell
 $rgName="<name of your new resource group>"
 $locName=(Get-AzResourceGroup -Name $rgName).Location
 $corpnetSubnet=New-AzVirtualNetworkSubnetConfig -Name Corpnet -AddressPrefix 10.0.0.0/24
@@ -130,7 +130,7 @@ $vnet | Set-AzVirtualNetwork
   
 DC1에 대한 Azure Virtual Machine을 만들려면 리소스 그룹의 이름을 입력하고 로컬 컴퓨터의 PowerShell 명령 프롬프트에서 다음 명령을 실행합니다.
   
-```
+```powershell
 $rgName="<resource group name>"
 $locName=(Get-AzResourceGroup -Name $rgName).Location
 $vnet=Get-AzVirtualNetwork -Name TestLab -ResourceGroupName $rgName
@@ -172,13 +172,13 @@ DC1의 로컬 관리자 계정에 대한 사용자 이름과 암호를 입력하
     
 다음으로 DC1의 관리자 수준 Windows PowerShell 명령 프롬프트에서 다음 명령을 사용하여 추가 데이터 디스크를 드라이브 문자 F:의 새로운 볼륨으로 추가합니다.
   
-```
+```powershell
 Get-Disk | Where PartitionStyle -eq "RAW" | Initialize-Disk -PartitionStyle MBR -PassThru | New-Partition -AssignDriveLetter -UseMaximumSize | Format-Volume -FileSystem NTFS -NewFileSystemLabel "WSAD Data"
 ```
 
 그런 후 DC1을 **testlab.**\<공용 도메인 > 도메인에 대한 도메인 컨트롤러 및 DNS 서버로 구성합니다. 공용 도메인 이름을 지정하고 \< 및 > 문자를 제거한 후 DC1의 관리자 수준 Windows PowerShell 명령 프롬프트에서 다음 명령을 실행합니다.
   
-```
+```powershell
 $yourDomain="<your public domain>"
 Install-WindowsFeature AD-Domain-Services -IncludeManagementTools
 Install-ADDSForest -DomainName testlab.$yourDomain -DatabasePath "F:\NTDS" -SysvolPath "F:\SYSVOL" -LogPath "F:\Logs"
@@ -201,7 +201,7 @@ DC1이 다시 시작되면 DC1 가상 머신에 다시 연결합니다.
     
 다음으로, TESTLAB 도메인 구성원 컴퓨터에 로그인할 때 사용할 사용자 계정을 Active Directory에서 만듭니다. 관리자 수준 Windows PowerShell 명령 프롬프트에서 다음 명령을 실행합니다.
   
-```
+```powershell
 New-ADUser -SamAccountName User1 -AccountPassword (read-host "Set user password" -assecurestring) -name "User1" -enabled $true -PasswordNeverExpires $true -ChangePasswordAtLogon $false
 ```
 
@@ -209,7 +209,7 @@ New-ADUser -SamAccountName User1 -AccountPassword (read-host "Set user password"
   
 다음으로, 새 User1 계정을 도메인, 엔터프라이즈 및 스키마 관리자로 구성합니다. 관리자 수준 Windows PowerShell 명령 프롬프트에서 다음 명령을 실행합니다.
   
-```
+```powershell
 $yourDomain="<your public domain>"
 $domainName = "testlab"+$yourDomain
 $userName="user1@" + $domainName
@@ -222,7 +222,7 @@ DC1과의 원격 데스크톱 세션을 닫은 후 TESTLAB\\User1 계정을 사�
   
 다음으로, Ping 도구에 대한 트래픽을 허용하려면 관리자 수준의 Windows PowerShell 명령 프롬프트에서 다음 명령을 실행합니다.
   
-```
+```powershell
 Set-NetFirewallRule -DisplayName "File and Printer Sharing (Echo Request - ICMPv4-In)" -enabled True
 ```
 
@@ -236,7 +236,7 @@ Set-NetFirewallRule -DisplayName "File and Printer Sharing (Echo Request - ICMPv
 
 APP1에 대한 Azure Virtual Machine을 만들려면 리소스 그룹의 이름을 입력하고 로컬 컴퓨터의 명령 프롬프트에서 다음 명령을 실행합니다.
   
-```
+```powershell
 $rgName="<resource group name>"
 $locName=(Get-AzResourceGroup -Name $rgName).Location
 $vnet=Get-AzVirtualNetwork -Name TestLab -ResourceGroupName $rgName
@@ -257,7 +257,7 @@ APP1과 DC1 사이의 이름 확인 및 네트워크 통신을 확인하려면 *
   
 다음으로, Windows PowerShell 프롬프트에 다음 명령을 사용하여 APP1 가상 머신을 TESTLAB 도메인에 가입합니다.
   
-```
+```powershell
 $yourDomain="<your public domain name>"
 Add-Computer -DomainName ("testlab" + $yourDomain)
 Restart-Computer
@@ -269,13 +269,13 @@ APP1을 다시 시작한 후에 TESTLAB\\User1 계정을 사용하여 연결한 
   
 다음으로, APP1의 관리자 수준 Windows PowerShell 명령 프롬프트에서 다음 명령을 사용하여 APP1을 웹 서버로 만듭니다.
   
-```
+```powershell
 Install-WindowsFeature Web-WebServer -IncludeManagementTools
 ```
 
 그런 후 다음 PowerShell 명령을 사용하여 APP1의 폴더 내에 공유 폴더 및 텍스트 파일을 만듭니다.
   
-```
+```powershell
 New-Item -path c:\files -type directory
 Write-Output "This is a shared file." | out-file c:\files\example.txt
 New-SmbShare -name files -path c:\files -changeaccess TESTLAB\User1
@@ -294,7 +294,7 @@ New-SmbShare -name files -path c:\files -changeaccess TESTLAB\User1
   
 CLIENT1에 대한 Azure Virtual Machine을 만들려면 리소스 그룹의 이름을 입력하고 로컬 컴퓨터의 명령 프롬프트에서 다음 명령을 실행합니다.
   
-```
+```powershell
 $rgName="<resource group name>"
 $locName=(Get-AzResourceGroup -Name $rgName).Location
 $vnet=Get-AzVirtualNetwork -Name TestLab -ResourceGroupName $rgName
@@ -315,7 +315,7 @@ CLIENT1과 DC1 사이의 이름 확인 및 네트워크 통신을 확인하려�
   
 다음으로, Windows PowerShell 프롬프트에 다음 명령을 사용하여 CLIENT1 가상 머신을 TESTLAB 도메인에 가입합니다.
   
-```
+```powershell
 $yourDomain="<your public domain name>"
 Add-Computer -DomainName ("testlab" + $yourDomain)
 Restart-Computer
@@ -350,27 +350,163 @@ CLIENT1을 다시 시작한 후에 TESTLAB\\User1 계정 이름 및 암호를 �
 ![시뮬레이트된 엔터프라이즈 기반 구성 3단계](media/simulated-ent-base-configuration-microsoft-365-enterprise/Phase3.png)
 
 
-## <a name="phase-2-create-your-microsoft-365-e5-subscriptions"></a>2단계: Microsoft 365 E5 구독 만들기
+## <a name="phase-2-create-your-microsoft-365-e5-subscription"></a>2단계: Microsoft 365 E5 구독 만들기
 
 이 단계에서는 프로덕션 구독과는 별개인 새롭고 일반적인 Azure AD 테넌트를 사용하는 새 Microsoft 365 E5 구독을 만듭니다. 이 작업은 다음 두 가지 방법으로 수행할 수 있습니다.
 
 - Microsoft 365 E5 평가판 구독을 사용 합니다. 
 
   Microsoft 365 E5 평가판 구독 기간은 30일로, 60일까지 쉽게 연장할 수 있습니다. 평가판 구독이 만료되면 유료 구독으로 전환하거나 새 평가판 구독을 만들어야 합니다. 새 평가판 구독을 만든다는 것은 복잡한 시나리오를 포함하는 구성을 벗어난다는 것을 의미합니다.  
+
 - 적은 수의 라이선스로 Microsoft 365 E5의 별도 프로덕션 구독을 사용합니다.
 
   이 경우 추가 비용이 발생하지만, 만료되지 않는 기능, 구성 및 시나리오를 사용해볼 수 있는 작업 테스트 환경을 보유하게 됩니다. 개념 증명, 피어 및 관리 부서에 데모 제공, 응용 프로그램 개발 및 테스트를 위해 장기간 동일한 테스트 환경을 사용할 수 있습니다. 이것이 권장되는 방법입니다.
 
-### <a name="use-trial-subscriptions"></a>평가판 구독 사용
+Microsoft 365 E5 평가판 구독을 시작하려면 먼저 가상의 회사 이름 및 새 Microsoft 계정이 필요합니다.
+  
+1. 회사 이름으로 Microsoft 샘플 콘텐츠에 사용되는 가상의 회사인 Contoso의 변형을 사용하는 것이 좋지만 필수는 아닙니다. 여기에 가상의 회사 이름을 기록하세요. ![](./media/Common-Images/TableLine.png)
+    
+2. 새 Microsoft 계정을 등록하려면으로 [https://outlook.com](https://outlook.com)으로 이동한 후 새 전자 메일 계정 및 주소를 사용하여 계정을 만듭니다. 이 계정을 사용하여 Office 365에 등록합니다.
+    
+  - 여기에 새 계정의 이름과 성을 기록합니다. ![](./media/Common-Images/TableLine.png)
+    
+  - 여기서 새 전자 메일 계정 주소를 기록합니다. ![](./media/Common-Images/TableLine.png)@outlook.com
+    
+### <a name="sign-up-for-an-office-365-e5-trial-subscription"></a>Office 365 E5 평가판 구독 등록
 
-우선, [Office 365 개발/테스트 환경](https://docs.microsoft.com/office365/enterprise/office-365-dev-test-environment)의 2, 3단계의 세부 단계를 수행하여 경량의 Office 365 개발/테스트 환경을 만듭니다.
+Office 365 E5 평가판 구독으로 시작하여 Microsoft 365 E5 구독을 추가합니다.
 
->[!Note]
->우리는 사용자의 Office 365의 평가판 구독을 생성하여 개발/테스트 환경에 사용자가 현재 보유하고 있는 유료 구독과 별도의 Azure AD 테넌트를 보유하게 합니다. 이러한 분리는 프로덕션 구독에 영향없이 테스트 테넌트의 사용자 및 그룹을 추가 및 제거할 수 있음을 의미합니다.
->
+1. 시뮬레이트된 엔터프라이즈 Office 365 개발/테스트 환경의 경우 Azure Portal에서 CORP\User1 계정을 사용하여 CLIENT1에 연결합니다.  시작 화면에서 Microsoft Edge를 실행하고 [https://aka.ms/e5trial](https://aka.ms/e5trial)로 이동합니다.
+    
+2. **반갑습니다. 자기소개 정보를 제공해 주세요.** 페이지에서 다음을 지정합니다.
+    
+  - 사용자의 실제 위치
+    
+  - 새 Microsoft 계정의 이름 및 성
+    
+  - 새 전자 메일 계정 주소
+    
+  - 회사 전화 번호
+    
+  - 가상의 회사 이름
+    
+  - 250-999명의 사용자로 구성된 조직 규모
+    
+3. **마지막 단계만 남음**을 클릭합니다.
+    
+4. **사용자 ID 만들기** 페이지에서 새 전자 메일 주소를 기준으로 하는 사용자 이름을 입력하고 @ 기호를 입력한 후 가상의 회사를 입력하고(이름에서 모든 공백 제거), 이 새 Office 365 계정에 대한 암호를 입력합니다(두 번).
+    
+    입력한 암호를 안전한 위치에 기록해둡니다.
+    
+    **조직 이름**으로 지칭될 가상의 회사 이름을 여기에 기록합니다. ![](./media/Common-Images/TableLine.png)
+    
+5. **내 계정 만들기**를 클릭합니다.
+    
+6. **자동 가입 방지를 위한 절차입니다.** 페이지에서 문자 입력이 가능한 휴대폰의 전화 번호를 입력하고 **문자 메시지 받기**를 클릭합니다.
+    
+7. 받은 문자 메시지의 확인 코드를 입력하고 **다음**을 클릭합니다.
+    
+8. 여기에 로그인 페이지 URL을 기록합니다(선택 후 복사). ![](./media/Common-Images/TableLine.png)
+    
+9. 여기에 사용자 ID를 기록합니다(선택 후 복사). ![](./media/Common-Images/TableLine.png).onmicrosoft.com
+    
+    이 값은 **Office 365 전역 관리자 이름**으로 사용됩니다.
+    
+10. **준비가 되었습니다.** 가 표시되면 클릭합니다.
+    
+11. 다음 페이지에서 Office 365 설정이 완료되고 모든 타일을 사용할 수 있게 될 때까지 기다립니다.
+    
+Office 서비스 및 Microsoft 365 관리 센터에 액세스할 수 있는 기본 Office 365 포털 페이지가 표시됩니다.
+  
+우리는 사용자의 Office 365의 평가판 구독을 생성하여 개발/테스트 환경에 사용자가 현재 보유하고 있는 유료 구독과 별도의 Azure AD 테넌트를 보유하게 합니다. 이러한 분리는 프로덕션 구독에 영향을 주지 않고 테스트 테넌트의 사용자 및 그룹을 추가 및 제거할 수 있음을 의미합니다.
+    
+### <a name="configure-your-office-365-e5-trial-subscription"></a>Office 365 E5 평가판 구독 구성
 
-다음, Microsoft 365 E5 평가판 구독을 추가하고 전역 관리자 계정에 Microsoft 365 라이선스를 할당합니다.
+그런 다음 추가 사용자로 Office 365 E5 구독을 구성하고 Office 365 E5 라이선스를 할당합니다.
+  
+[Office 365 PowerShell에 연결](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module)의 지침을 사용하여 CLIENT1 가상 머신에서 그래프 모듈용 Azure Active Directory PowerShell을 사용하여 Office 365 구독에 연결합니다.
+    
+Windows PowerShell 자격 증명 요청 대화 상자에서 Office 365 전역 관리자 이름(예: jdoe@contosotoycompany.onmicrosoft.com)과 암호를 입력합니다.
+  
+조직 이름(예 : contosotoycompany), 위치에 대한 2 자리 국가 코드, 공통 계정 암호를 입력 한 다음 PowerShell 프롬프트에서 다음 명령을 실행합니다.
 
+```powershell
+$orgName="<organization name>"
+$loc="<two-character country code, such as US>"
+$commonPW="<common user account password>"
+$PasswordProfile=New-Object -TypeName Microsoft.Open.AzureAD.Model.PasswordProfile
+$PasswordProfile.Password=$commonPW
+
+$userUPN= "user2@" + $orgName + ".onmicrosoft.com"
+New-AzureADUser -DisplayName "User 2" -GivenName User -SurName 2 -UserPrincipalName $userUPN -UsageLocation $loc -AccountEnabled $true -PasswordProfile $PasswordProfile -MailNickName "user2"
+$License = New-Object -TypeName Microsoft.Open.AzureAD.Model.AssignedLicense
+$License.SkuId = (Get-AzureADSubscribedSku | Where-Object -Property SkuPartNumber -Value "ENTERPRISEPREMIUM" -EQ).SkuID
+$LicensesToAssign = New-Object -TypeName Microsoft.Open.AzureAD.Model.AssignedLicenses
+$LicensesToAssign.AddLicenses = $License
+Set-AzureADUserLicense -ObjectId $userUPN -AssignedLicenses $LicensesToAssign
+
+$userUPN= "user3@" + $orgName + ".onmicrosoft.com"
+New-AzureADUser -DisplayName "User 3" -GivenName User -SurName 3 -UserPrincipalName $userUPN -UsageLocation $loc -AccountEnabled $true -PasswordProfile $PasswordProfile -MailNickName "user3"
+$License = New-Object -TypeName Microsoft.Open.AzureAD.Model.AssignedLicense
+$License.SkuId = (Get-AzureADSubscribedSku | Where-Object -Property SkuPartNumber -Value "ENTERPRISEPREMIUM" -EQ).SkuID
+$LicensesToAssign = New-Object -TypeName Microsoft.Open.AzureAD.Model.AssignedLicenses
+$LicensesToAssign.AddLicenses = $License
+Set-AzureADUserLicense -ObjectId $userUPN -AssignedLicenses $LicensesToAssign
+
+$userUPN= "user4@" + $orgName + ".onmicrosoft.com"
+New-AzureADUser -DisplayName "User 4" -GivenName User -SurName 4 -UserPrincipalName $userUPN -UsageLocation $loc -AccountEnabled $true -PasswordProfile $PasswordProfile -MailNickName "user4"
+$License = New-Object -TypeName Microsoft.Open.AzureAD.Model.AssignedLicense
+$License.SkuId = (Get-AzureADSubscribedSku | Where-Object -Property SkuPartNumber -Value "ENTERPRISEPREMIUM" -EQ).SkuID
+$LicensesToAssign = New-Object -TypeName Microsoft.Open.AzureAD.Model.AssignedLicenses
+$LicensesToAssign.AddLicenses = $License
+Set-AzureADUserLicense -ObjectId $userUPN -AssignedLicenses $LicensesToAssign
+```
+> [!NOTE]
+> 여기서 공통 암호를 사용하는 것은 자동화 및 개발/테스트 환경에 대한 구성 용이성을 위한 것입니다. 물론 프로덕션 구독에서는 공통 암호를 사용하지 않는 것이 좋습니다. 
+
+#### <a name="record-key-information-for-future-reference"></a>나중에 참조할 수 있도록 주요 정보 기록
+
+이 문서를 인쇄하여 30일 동안의 Office 365 평가판 구독 기간 동안 환경에 필요한 특정 정보를 기록할 수 있습니다. 추가 30일 동안 평가판 구독을 쉽게 연장할 수 있습니다. 영구 개발/테스트 환경의 경우 별도의 Azure AD 테넌트와 소수의 라이선스를 사용해서 유료 구독을 새로 만듭니다.
+
+다음 값을 기록합니다.
+  
+- Office 365 전역 관리자 이름: ![](./media/Common-Images/TableLine.png).onmicrosoft.com(2단계의 9번째 작업 단계)
+    
+    이 계정의 암호도 안전한 위치에 적어둡니다.
+    
+- 평가판 구독 조 직 이름: ![](./media/Common-Images/TableLine.png)(4단계의 2번째 작업 단계)
+    
+- 사용자 2, 사용자 3, 사용자 4, 사용자 5에 대한 계정을 나열하려면 Windows PowerShell 프롬프트에 대한 Microsoft Azure Active Directory 모듈에서 다음 명령을 실행합니다.
+    
+  ```powershell
+  Get-AzureADUser | Sort UserPrincipalName | Select UserPrincipalName
+  ```
+
+    여기에 계정 이름을 기록합니다.
+    
+  - 사용자 2 계정 이름: user2@![](./media/Common-Images/TableLine.png).onmicrosoft.com
+    
+  - 사용자 3 계정 이름: user3@![](./media/Common-Images/TableLine.png).onmicrosoft.com
+    
+  - 사용자 4 계정 이름: user4@![](./media/Common-Images/TableLine.png).onmicrosoft.com
+    
+  - 사용자 5 계정 이름: user5@![](./media/Common-Images/TableLine.png).onmicrosoft.com
+    
+    해당 계정의 공통 암호도 안전한 위치에 적어둡니다.
+   
+
+#### <a name="using-an-office-365-e5-devtest-environment"></a>Office 365 E5 개발/테스트 환경 사용
+
+Office 365 개발/테스트 환경만을 필요로 하는 경우 여기에서 중단할 수 있습니다. 
+
+Office 365 및 Microsoft 365 모두에 적용되는 추가 테스트 랩 가이드는 [Microsoft 365 Enterprise 테스트 랩 가이드](m365-enterprise-test-lab-guides.md)를 참조하세요.
+  
+### <a name="add-a-microsoft-365-e5-trial-subscription"></a>Microsoft 365 E5 평가판 구독 추가
+
+그런 다음 Microsoft 365 E5 평가판 구독을 등록하고 Office 365 E5 평가판 구독과 동일한 조직에 추가합니다.
+  
+우선, Microsoft 365 E5 평가판 구독을 추가하고 전역 관리자 계정에 Microsoft 365 라이선스를 할당합니다.
+  
 1. 인터넷 브라우저의 개인 인스턴스를 사용하고 전역 관리자 계정 자격 증명으로 [https://admin.microsoft.com](https://admin.microsoft.com)의 Microsoft 365 관리 센터에 로그인합니다.
     
 2. **Microsoft 365 관리 센터** 페이지에 있는 왼쪽 탐색 영역에서 **대금 청구 > 서비스 구매**를 차례로 클릭합니다.
@@ -391,26 +527,22 @@ CLIENT1을 다시 시작한 후에 TESTLAB\\User1 계정 이름 및 암호를 �
 
 10. **저장 > 닫기 > 닫기**를 클릭합니다.
 
- 다음, [Office 365 개발/테스트 환경](https://docs.microsoft.com/office365/enterprise/office-365-dev-test-environment)의 ***3단계를 완료한 경우,*** 다른 모든 계정(사용자 2, 사용자 3, 사용자 4 및 사용자 5)에 대해 이전 절차의 8 및 11단계를 반복합니다.
+다음, 다른 모든 계정 (사용자 2, 사용자 3, 사용자 4 및 사용자 5)에 대해 이전 절차의 8단계에서 11단계를 반복합니다.
   
 > [!NOTE]
-> Microsoft 365 E5 평가판 구독은 30일입니다. 영구 테스트 환경의 경우 소수의 라이선스를 사용해서 이 평가판 구독을 유료 구독으로 전환합니다.
+> Microsoft 365 E5 평가판 구독은 30일입니다. 영구 테스트 환경의 경우 소수의 라이선스를 사용해서 이 평가판 구독을 유료 구독으로 전환합니다. 
   
-이제 테스트 환경에는 다음이 구현됩니다.
-  
-- Microsoft 365 E5 평가판 구독.
-- 모든 해당 사용자 계정(전역 관리자만 또는 5개의 사용자 계정 모두)이 Microsoft 365 E5를 사용하도록 설정됩니다.
-    
 ### <a name="results"></a>결과
 
 이제 테스트 환경에는 다음이 구현됩니다.
   
 - Microsoft 365 E5 평가판 구독.
-- 모든 해당 사용자 계정(전역 관리자만 또는 5개의 사용자 계정 모두)이 Microsoft 365 E5를 사용하도록 설정됩니다.
+- 모든 적절한 사용자 계정이 Microsoft 365 E5를 사용할 수 있습니다.
+- 시뮬레이션되고 단순화된 인트라넷.
     
 다음은 최종 구성입니다.
   
-![시뮬레이트된 엔터프라이즈 기반 구성 4단계](media/simulated-ent-base-configuration-microsoft-365-enterprise/Phase4.png)
+![시뮬레이트된 엔터프라이즈 기반 구성 2단계](media/simulated-ent-base-configuration-microsoft-365-enterprise/Phase4.png)
   
 이제 [Microsoft 365 Enterprise](https://www.microsoft.com/microsoft-365/enterprise)의 추가 기능을 사용해볼 준비가 되었습니다.
   
