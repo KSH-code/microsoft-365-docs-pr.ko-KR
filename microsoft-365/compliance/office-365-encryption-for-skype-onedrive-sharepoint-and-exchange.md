@@ -13,13 +13,14 @@ ms.collection:
 - Strat_O365_Enterprise
 - M365-security-compliance
 - Strat_O365_Enterprise
+- SPO_Content
 description: '요약: Skype, OneDrive, SharePoint 및 Exchange Online의 암호화에 대 한 설명입니다.'
-ms.openlocfilehash: 55141f671e6cb3d7ea837bfcf9701e37a18fb7ba
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 220f3060bd9581b22183bbb56e68c3ec930d0c24
+ms.sourcegitcommit: 1c962bd0d51dc12419c4e6e393bb734c972b7e38
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088869"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "38690859"
 ---
 # <a name="office-365-encryption-for-skype-for-business-onedrive-for-business-sharepoint-online-and-exchange-online"></a>비즈니스용 Skype, 비즈니스용 OneDrive, SharePoint Online 및 Exchange Online에 대 한 Office 365 암호화
 
@@ -63,7 +64,7 @@ Azure 저장소 컨테이너에 액세스 하는 데 사용 되는 자격 증명
 > [!NOTE]
 > Office 365 미국 정부 고객의 경우 데이터 blob은 Azure U.S. 정부 저장소에 저장 됩니다. 또한 Office 365 미국 정부의 SharePoint Online 키에 대 한 액세스는 특별히 스크린 된 Office 365 직원으로 제한 됩니다. Azure 미국 정부 운영 인력은 데이터 blob를 암호화 하는 데 사용 되는 SharePoint Online 키 저장소에 액세스할 수 없습니다.
 
-SharePoint Online 및 비즈니스용 OneDrive의 데이터 암호화에 대 한 자세한 내용은 [비즈니스용 onedrive 및 Sharepoint online의 데이터 암호화](https://technet.microsoft.com/en-us/library/dn905447.aspx)를 참조 하세요.
+SharePoint Online 및 비즈니스용 OneDrive의 데이터 암호화에 대 한 자세한 내용은 [비즈니스용 onedrive 및 Sharepoint online의 데이터 암호화](https://technet.microsoft.com/library/dn905447.aspx)를 참조 하세요.
 
 ### <a name="list-items-in-sharepoint-online"></a>SharePoint Online의 목록 항목
 

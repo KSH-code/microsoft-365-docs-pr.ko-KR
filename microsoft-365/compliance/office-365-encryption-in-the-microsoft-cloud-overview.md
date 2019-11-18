@@ -14,12 +14,12 @@ ms.collection:
 - M365-security-compliance
 - Strat_O365_Enterprise
 description: Microsoft 클라우드의 암호화 개요
-ms.openlocfilehash: 36bb50cda5f39461401b14ca3e7ada77a6e2cc0d
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 1ca3d1711589ab2d65a27a8d1eeb6da265ce727b
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088861"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38690776"
 ---
 # <a name="encryption-in-the-microsoft-cloud"></a>Microsoft 클라우드의 암호화
 
@@ -27,11 +27,11 @@ Microsoft 엔터프라이즈 클라우드 서비스 내의 고객 데이터는 �
 
 고객 구성에 관계 없이 Microsoft의 엔터프라이즈 클라우드 서비스 내에 저장 된 고객 데이터는 하나 이상의 암호화 형식을 사용 하 여 보호 됩니다. (암호화 정책에 대 한 유효성 검사 및 해당 적용은 여러 타사 감사자에 의해 독립적으로 확인 되며, 이러한 감사에 대 한 보고서는 [서비스 트러스트 포털](https://aka.ms/stp)에서 사용할 수 있습니다.)
 
-Microsoft는 전송 중에 고객 데이터를 암호화 하는 서비스 쪽 기술을 제공 합니다. 예를 들어 나머지 고객 데이터의 경우 Microsoft Azure는 [bitlocker](https://docs.microsoft.com/windows/device-security/bitlocker/bitlocker-overview) 및 [DM-자리](https://en.wikipedia.org/wiki/Dm-crypt)를 사용 하며, Microsoft Office 365에서는 Bitlocker, [Azure Storage Service Encryption](https://azure.microsoft.com/documentation/articles/storage-service-encryption/), DKM ( [분산 키 관리자](https://support.office.com/article/989ba10c-f73f-4efb-ad1b-af3322e5f376) ) 및 Office 365 서비스를 사용 합니다. encryption. 전송, Azure, Office 365, Microsoft 상업용 지원, microsoft Dynamics 365, microsoft Power BI 및 Visual Studio Team Services에서는 IPsec (인터넷 프로토콜 보안)과 같은 업계 표준 보안 전송 프로토콜을 사용 하는 고객 데이터를 제공 합니다. Microsoft 데이터 센터와 사용자 장치 및 Microsoft 데이터 센터 간의 TLS (전송 계층 보안)
+Microsoft는 전송 중에 고객 데이터를 암호화 하는 서비스 쪽 기술을 제공 합니다. 예를 들어 나머지 고객 데이터의 경우 Microsoft Azure는 [bitlocker](https://docs.microsoft.com/windows/device-security/bitlocker/bitlocker-overview) 및 [DM-자리](https://en.wikipedia.org/wiki/Dm-crypt)를 사용 하며, Microsoft Office 365에서는 Bitlocker, [Azure Storage Service Encryption](https://azure.microsoft.com/documentation/articles/storage-service-encryption/), DKM ( [Distributed Key Manager](https://support.office.com/article/989ba10c-f73f-4efb-ad1b-af3322e5f376) ) 및 Office 365 서비스 암호화를 사용 합니다. 전송, Azure, Office 365, Microsoft 상업용 지원, microsoft Dynamics 365, microsoft Power BI 및 Visual Studio Team Services에서는 IPsec (인터넷 프로토콜 보안)과 같은 업계 표준 보안 전송 프로토콜을 사용 하는 고객 데이터를 제공 합니다. Microsoft 데이터 센터와 사용자 장치 및 Microsoft 데이터 센터 간의 TLS (전송 계층 보안)
 
 클라우드 서비스에는 Microsoft에서 제공 하는 암호화 보안의 기본 수준 외에도 관리할 수 있는 추가 암호화 옵션도 포함 되어 있습니다. 예를 들어 Azure Vm (가상 컴퓨터)과 해당 사용자 간의 트래픽에 대해 암호화를 사용 하도록 설정할 수 있습니다. [Azure 가상 네트워크](https://azure.microsoft.com/services/virtual-network/)를 사용 하는 경우 업계 표준 IPsec 프로토콜을 통해 회사 VPN 게이트웨이와 Azure와 가상 네트워크에 있는 vm 간에 트래픽을 암호화할 수 있습니다. 또한 [새로운 Office 365 메시지 암호화 기능](set-up-new-message-encryption-capabilities.md) 을 사용 하면 모든 사용자에 게 암호화 된 메일을 보낼 수 있습니다.
 
-[Microsoft 보안 정책의](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=5868ecc8-50b7-4f91-b43f-640e2b99e86e&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ%20and%20White%20Papers)구성 요소인 공개 키 인프라 작동 보안 표준에 따라 microsoft는 인증서에 대해 Windows 운영 체제에 포함 된 암호화 기능을 활용 하 고 미국 정부의 FIPS ( [연방 정보 처리 표준](http://csrc.nist.gov/publications/PubsFIPS.html) ) 140-2 표준을 충족 하는 암호화 모듈을 사용 하는 인증 메커니즘 (Microsoft에 대 한 관련 NIST 인증서 번호는 다음 위치에서 찾을 수 있습니다.http://csrc.nist.gov/groups/STM/cmvp/documents/140-1/1401vend.htm.)
+[Microsoft 보안 정책의](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=5868ecc8-50b7-4f91-b43f-640e2b99e86e&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ%20and%20White%20Papers)구성 요소인 공개 키 인프라 작동 보안 표준에 따라 microsoft는 미국 정부의 FIPS ( [정보 처리 표준](https://csrc.nist.gov/publications/PubsFIPS.html) ) 140-2 표준을 충족 하는 암호화 모듈을 사용 하는 경우 인증서 및 인증 메커니즘에 대 한 Windows 운영 체제에 포함 된 암호화 기능을 활용 합니다. (Microsoft에 대 한 관련 NIST 인증서 번호는 다음 위치에서 찾을 수 있습니다.https://csrc.nist.gov/groups/STM/cmvp/documents/140-1/1401vend.htm.)
 
 > 참고 Microsoft 보안 정책에 리소스로 액세스 하려면 회사 또는 학교 계정을 사용 하 여 로그인 해야 합니다. 아직 구독 하지 않는 경우 [무료 평가판에 등록할 수](https://servicetrust.microsoft.com/Home/TrialSubscriptions)있습니다.
 

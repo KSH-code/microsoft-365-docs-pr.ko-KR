@@ -11,12 +11,12 @@ ms.collection:
 - M365-security-compliance
 localization_priority: None
 description: Microsoft 팀에서 정보 장벽에 대 한 정책을 정의 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 8ad6dd5e098438de0904fb511c631afbc761ff5b
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 3d5dfbcb4410739d8d935b50a8e4ad069145e6a5
+ms.sourcegitcommit: 8ca97fa879ae4ea44468be629d6c32b429efeeec
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088139"
+ms.lasthandoff: 11/16/2019
+ms.locfileid: "38690864"
 ---
 # <a name="define-policies-for-information-barriers"></a>정보 장벽에 대 한 정책 정의
 
@@ -45,7 +45,7 @@ ms.locfileid: "37088139"
 
 ## <a name="the-work-flow-at-a-glance"></a>작업 흐름 살펴보기
 
-|단계    |관련 기능  |
+|단계    |관련 항목  |
 |---------|---------|
 |[필수 구성 요소를 충족 하는지 확인](#prerequisites)     |- [필요한 라이선스 및 사용 권한이](information-barriers.md#required-licenses-and-permissions) 있는지 확인<br/>-디렉터리에 조각화 된 사용자에 대 한 데이터가 포함 되어 있는지 확인<br/>-Microsoft 팀에 대해 범위 디렉터리 검색 사용<br/>-감사 로깅이 설정 되어 있는지 확인<br/>-Exchange 주소록 정책이 현재 위치에 없는지 확인<br/>-PowerShell 사용 (예제가 제공 됨)<br/>-Microsoft 팀에 관리자 동의를 제공 합니다 (단계 포함).          |
 |[1 부: 조직의 사용자 분류](#part-1-segment-users)     |-필요한 정책을 결정 합니다.<br/>-정의할 세그먼트 목록을 만듭니다.<br/>-사용할 특성 식별<br/>-정책 필터 용어로 세그먼트를 정의 합니다.        |
@@ -58,8 +58,8 @@ ms.locfileid: "37088139"
 
 [필요한 라이선스 및 사용 권한](information-barriers.md#required-licenses-and-permissions)외에도 다음과 같은 요구 사항을 충족 하는지 확인 합니다. 
      
-- **디렉터리 데이터** 조직의 구조가 디렉터리 데이터에 반영 되는지 확인 합니다. 이렇게 하려면 그룹 구성원 자격, 부서 이름 등의 사용자 계정 특성이 Azure Active Directory 또는 Exchange Online에서 올바르게 채워졌는지 확인 합니다. 자세한 내용은 다음 리소스를 참조 하십시오.
-  - [정보 장벽 정책의 특성](information-barriers-attributes.md)
+- **디렉터리 데이터** 조직의 구조가 디렉터리 데이터에 반영 되는지 확인 합니다. 이렇게 하려면 그룹 구성원 자격, 부서 이름 등의 사용자 계정 특성이 Azure Active Directory 또는 Exchange Online에서 올바르게 채워졌는지 확인 합니다. 자세한 내용은 다음 리소스를 참조하세요.
+  - [정보 장벽 정책의 속성](information-barriers-attributes.md)
   - [Azure Active Directory를 사용 하 여 사용자 프로필 정보 추가 또는 업데이트](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal)
   - [Office 365 PowerShell를 사용 하 여 사용자 계정 속성 구성](https://docs.microsoft.com/office365/enterprise/powershell/configure-user-account-properties-with-office-365-powershell)
 
@@ -77,7 +77,7 @@ ms.locfileid: "37088139"
 
    1. 다음 PowerShell cmdlet을 실행 합니다.
 
-      ```
+      ```powershell
       Login-AzureRmAccount 
       $appId="bcf62038-e005-436d-b970-2a472f8c1982" 
       $sp=Get-AzureRmADServicePrincipal -ServicePrincipalName $appId
@@ -108,7 +108,10 @@ ms.locfileid: "37088139"
 
 ### <a name="identify-segments"></a>세그먼트 식별
 
-초기 정책 목록 외에, 조직의 세그먼트 목록을 만듭니다. 정보 장벽 정책에 포함 될 사용자는 세그먼트에 속해야 하며, 사용자는 둘 이상의 세그먼트에 속해야 합니다. 각 세그먼트에는 하나의 정보 장벽 정책만 적용 될 수 있습니다. 
+초기 정책 목록 외에, 조직의 세그먼트 목록을 만듭니다. 정보 장벽 정책에 포함 될 사용자는 세그먼트에 속해야 합니다. 사용자가 하나의 세그먼트에만 있을 수 있으므로 세그먼트를 신중 하 게 계획 합니다. 각 세그먼트에는 하나의 정보 장벽 정책만 적용 될 수 있습니다.
+
+> [!IMPORTANT]
+> 사용자는 하나의 세그먼트에만 있을 수 있습니다.
 
 세그먼트를 정의 하는 데 사용할 조직의 디렉터리 데이터 특성을 결정 합니다. *부서*, *MemberOf*또는 지원 되는 특성을 사용할 수 있습니다. 사용자에 대해 선택한 특성에 값이 있는지 확인 합니다. [정보 장벽에 대해 지원 되는 특성 목록을 참조 하세요](information-barriers-attributes.md).
 
@@ -243,7 +246,7 @@ ms.locfileid: "37088139"
 
 PowerShell을 사용 하 여 다음 표에 나와 있는 것 처럼 사용자 계정, 세그먼트, 정책 및 정책 응용 프로그램의 상태를 볼 수 있습니다.
 
-|이를 보려면  |수행 작업  |
+|이를 보려면  |실행할 작업  |
 |---------|---------|
 |사용자 계정     |Identity 매개 변수와 함께 **InformationBarrierRecipientStatus** cmdlet을 사용 합니다. <p>구문과`Get-InformationBarrierRecipientStatus -Identity <value> -Identity2 <value>` <p>이름, 별칭, 고유 이름, 정식 도메인 이름, 전자 메일 주소 또는 GUID와 같은 각 사용자를 고유 하 게 식별 하는 모든 값을 사용할 수 있습니다. <p>예제: `Get-InformationBarrierRecipientStatus -Identity meganb -Identity2 alexw` <p>이 예에서는 Office 365의 두 사용자 계정 ( *Megan*용 *meganb* 및 *Alex*용 *alexw* )을 참조 합니다. <p>(단일 사용자에 대해이 cmdlet을 사용할 수도 있습니다. `Get-InformationBarrierRecipientStatus -Identity <value>`) <p>이 cmdlet은 특성 값 및 적용 되는 정보 장벽 정책과 같은 사용자에 대 한 정보를 반환 합니다.|
 |세그먼트     |**OrganizationSegment** cmdlet을 사용 합니다.<p>구문과`Get-OrganizationSegment` <p>이렇게 하면 조직에 대해 정의 된 모든 세그먼트의 목록이 표시 됩니다.         |

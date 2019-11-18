@@ -14,12 +14,12 @@ ms.assetid: 5986b9e1-c824-4f8f-9b7d-a2b0ae2a7fe9
 ms.collection:
 - M365-security-compliance
 description: 아직 Office 365 조 직을 새 OME 기능으로 이동 하지 않았지만 이미 OME을 배포한 경우이 문서의 정보가 조직에 적용 됩니다. 조직에 적합 한 시기에 새 OME 기능으로 바로 이동 하는 계획을 수립 하는 것이 좋습니다. 자세한 내용은 Azure Information Protection 기반으로 구축 된 새 Office 365 메시지 암호화 기능 설치를 참조 하세요. 새 기능이 먼저 작동 하는 방식에 대해 자세히 알아보려면 Office 365 메시지 암호화를 참조 하세요. 이 문서의 나머지 부분에서는 새 OME 기능이 출시 되기 전에 발생 하는 OME 동작을 나타냅니다.
-ms.openlocfilehash: 70529e9aa5c444ab8fc57d4a9698295e50198725
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 5320c678dee5ef08f7095c4415a22841e6202b5f
+ms.sourcegitcommit: 93cef4906c5495ae293450ceb52d6cc336f52b53
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088124"
+ms.lasthandoff: 11/08/2019
+ms.locfileid: "38690855"
 ---
 # <a name="legacy-information-for-office-365-message-encryption"></a>Office 365 메시지 암호화 레거시 정보
 
@@ -91,7 +91,7 @@ Exchange Online 및 Exchange Online Protection 관리자는 암호화 된 메시
   
 1. [원격 powershell을 사용 하 여 Exchange online에 연결](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-exchange-online-tenants-with-remote-windows-powershell-for-delegated)하는 방법에 설명 된 대로 원격 powershell을 사용 하 여 exchange online에 연결 합니다.
 
-2. 여기에 설명 된 대로 Set-omeconfiguration cmdlet을 사용 하 여 Set-omeconfiguration를 참조 하거나 다음 표를 사용 하 여 지침을 [제공](http://technet.microsoft.com/en-us/3ef0aec0-ce28-411d-abe8-7236f082af1b) 합니다.
+2. 여기에 설명 된 대로 Set-omeconfiguration cmdlet을 사용 하 여 Set-omeconfiguration를 참조 하거나 다음 표를 사용 하 여 지침을 [제공](https://technet.microsoft.com/3ef0aec0-ce28-411d-abe8-7236f082af1b) 합니다.
 
    **암호화 사용자 지정 옵션**
 
@@ -104,9 +104,9 @@ Exchange Online 및 Exchange Online Protection 관리자는 암호화 된 메시
 
  **암호화 된 전자 메일 메시지와 암호화 포털에서 브랜드 사용자 지정을 제거 하려면**
   
-1. [원격 powershell을 사용 하 여 Exchange online에 연결](http://technet.microsoft.com/en-us/library/jj984289%28v=exchg.150%29.aspx)하는 방법에 설명 된 대로 원격 powershell을 사용 하 여 exchange online에 연결 합니다.
+1. [원격 powershell을 사용 하 여 Exchange online에 연결](https://technet.microsoft.com/library/jj984289%28v=exchg.150%29.aspx)하는 방법에 설명 된 대로 원격 powershell을 사용 하 여 exchange online에 연결 합니다.
 
-2. 여기에 설명 된 대로 Set-omeconfiguration cmdlet을 사용 하 여 [set-omeconfiguration를 설정](http://technet.microsoft.com/3ef0aec0-ce28-411d-abe8-7236f082af1b)합니다. DisclaimerText, EmailText 및 PortalText 값에서 조직의 브랜드 사용자 지정을 제거 하려면이 값을 빈 문자열 ( `""`)로 설정 합니다. 로고 등의 모든 이미지 값에 대해 값을로 `"$null"`설정 합니다.
+2. 여기에 설명 된 대로 Set-omeconfiguration cmdlet을 사용 하 여 [set-omeconfiguration를 설정](https://technet.microsoft.com/3ef0aec0-ce28-411d-abe8-7236f082af1b)합니다. DisclaimerText, EmailText 및 PortalText 값에서 조직의 브랜드 사용자 지정을 제거 하려면이 값을 빈 문자열 ( `""`)로 설정 합니다. 로고 등의 모든 이미지 값에 대해 값을로 `"$null"`설정 합니다.
 
    **암호화 사용자 지정 옵션**
 
@@ -125,17 +125,17 @@ Exchange Online 및 Exchange Online Protection 관리자는 암호화 된 메시
 |**서비스 정보**|**설명**|
 |:-----|:-----|
 |클라이언트 장치 요구 사항  <br/> |양식 게시를 지원하는 최신 브라우저에서 HTML 첨부 파일을 열 수 있으면 모든 클라이언트 장치에서 암호화된 메시지를 확인할 수 있습니다.  <br/> |
-|암호화 알고리즘 및 FIPS(Federal Information Processing Standard) 규정 준수  <br/> |Office 365 메시지 암호화에서는 Windows Azure IRM(정보 권한 관리)과 같은 암호화 키를 사용하며 암호화 모드 2(RSA용 2K 키 및 SHA-1 시스템용 256비트 키)가 지원됩니다. 기본 IRM 암호화 모드에 대 한 자세한 내용은 [AD RMS 암호화 모드](http://technet.microsoft.com/library/hh867439%28WS.10%29.aspx)를 참조 하십시오.  <br/> |
+|암호화 알고리즘 및 FIPS(Federal Information Processing Standard) 규정 준수  <br/> |Office 365 메시지 암호화에서는 Windows Azure IRM(정보 권한 관리)과 같은 암호화 키를 사용하며 암호화 모드 2(RSA용 2K 키 및 SHA-1 시스템용 256비트 키)가 지원됩니다. 기본 IRM 암호화 모드에 대 한 자세한 내용은 [AD RMS 암호화 모드](https://technet.microsoft.com/library/hh867439%28WS.10%29.aspx)를 참조 하십시오.  <br/> |
 |지원되는 메시지 유형  <br/> |Office 365 메시지 암호화는 메시지 클래스 ID가 **IPM.Note**인 항목에 대해서만 지원됩니다. 자세한 내용은 [항목 형식 및 메시지 클래스](https://msdn.microsoft.com/library/office/ff861573.aspx)를 참조 하십시오.  <br/> |
-|메시지 크기 제한  <br/> |Office 365 메시지 암호화는 최대 25MB의 메시지를 암호화할 수 있습니다. 메시지 크기 제한에 대 한 자세한 내용은 [Exchange Online 제한을](http://technet.microsoft.com/library/exchange-online-limits.aspx)참조 하세요.  <br/> |
+|메시지 크기 제한  <br/> |Office 365 메시지 암호화는 최대 25MB의 메시지를 암호화할 수 있습니다. 메시지 크기 제한에 대 한 자세한 내용은 [Exchange Online 제한을](https://technet.microsoft.com/library/exchange-online-limits.aspx)참조 하세요.  <br/> |
 |Exchange Online 전자 메일 보존 정책  <br/> |Exchange Online에서는 암호화 된 메시지를 저장 하지 않습니다.  <br/> |
 |Office 365 메시지 암호화에 대한 언어 지원  <br/> | Office 365 메시지 암호화는 Office 365 언어를 다음과 같이 지원합니다.  <br/>  받는 전자 메일 메시지와 첨부 된 HTML 파일은 보낸 사람의 언어 설정에 따라 지역화 됩니다.  <br/>  보기 포털은 받는 사람의 브라우저 설정에 따라 지역화됩니다.  <br/>  암호화된 메시지의 본문(내용)은 지역화되지 않습니다.  <br/> |
-|OME 포털 및 OME 뷰어 앱에 대한 개인 정보 취급 방침 정보  <br/> |[Office 365 Messaging Encryption Portal privacy statement](https://privacy.microsoft.com/en-US/privacystatement)은 Microsoft가 귀하의 개인 정보로 수행하는 작업과 수행하지 않는 작업에 대한 자세한 정보를 제공합니다.  <br/> |
+|OME 포털 및 OME 뷰어 앱에 대한 개인 정보 취급 방침 정보  <br/> |[Office 365 Messaging Encryption Portal privacy statement](https://privacy.microsoft.com/privacystatement)은 Microsoft가 귀하의 개인 정보로 수행하는 작업과 수행하지 않는 작업에 대한 자세한 정보를 제공합니다.  <br/> |
 
 ## <a name="frequently-asked-questions-about-legacy-ome"></a>레거시 OME에 대 한 질문과 대답
 <a name="LegacyServiceInfo"> </a>
 
-Office 365 메시지 암호화에 대 한 질문이 있나요? 몇 가지 답은 다음과 같습니다. 필요한 정보를 찾을 수 없으면 office [365 커뮤니티](http://community.office365.com/en-us/forums/default.aspx)의 office 365 커뮤니티 포럼을 확인 하세요.
+Office 365 메시지 암호화에 대 한 질문이 있나요? 몇 가지 답은 다음과 같습니다. 필요한 정보를 찾을 수 없는 경우 [Microsoft 기술 커뮤니티 포럼 For Office 365](https://techcommunity.microsoft.com/t5/Office-365/ct-p/Office365)를 확인 하세요.
   
  **Q. 사용자가 조직 외부의 받는 사람에 게 암호화 된 전자 메일 메시지를 보냅니다. Office 365 메시지 암호화로 암호화 된 전자 메일 메시지를 읽고 회신 하기 위해 외부 받는 사람이 수행 해야 하는 작업이 있습니까?**
   
@@ -171,7 +171,7 @@ S/MIME은 기본적으로 클라이언트 쪽 암호화 기술이며, 사용하�
   
  **Q. 모바일 장치에서 암호화된 메시지를 읽을 수 있나요?**
   
-예, [Google Play 스토어](http://go.microsoft.com/fwlink/?LinkID=525995&amp;clcid=0x409) 및 [Apple 앱 스토어](http://go.microsoft.com/fwlink/?LinkID=525996&amp;clcid=0x409)에서 OME Viewer 앱을 다운로드 하 여 Android 및 iOS에서 메시지를 볼 수 있습니다. OME 뷰어 앱에서 HTML 첨부 파일을 연 다음 지시에 따라 암호화된 메시지를 엽니다. 모바일 장치에서는 메일 클라이언트에서 폼 게시를 지원하는 경우 HTML 첨부 파일을 열 수 있습니다.
+예, Google Play 스토어 및 Apple 앱 스토어에서 OME Viewer 앱을 다운로드 하 여 Android 및 iOS에서 메시지를 볼 수 있습니다. OME 뷰어 앱에서 HTML 첨부 파일을 연 다음 지시에 따라 암호화된 메시지를 엽니다. 모바일 장치에서는 메일 클라이언트에서 폼 게시를 지원하는 경우 HTML 첨부 파일을 열 수 있습니다.
   
  **Q. 회신과 전달된 메시지도 암호화되나요?**
   
@@ -189,7 +189,7 @@ Office 365 메시지 암호화는 RMS (권한 관리 서비스)를 암호화 인
 
 - AD(Active Directory) RMS를 사용하여 키를 얻은 경우 암호화 모드 1 또는 암호화 모드 2가 사용됩니다. 사용되는 방법은 온-프레미스 AD RMS 배포에 따라 다릅니다. 암호화 모드 1은 원래 AD RMS 암호화 구현으로, 서명 및 암호화에 RSA 1024을 지원하고 서명에 SHA-1을 지원합니다. 이 모드는 RMS의 모든 현재 버전에서 계속 지원됩니다.
 
-자세한 내용은 [AD RMS 암호화 모드](http://go.microsoft.com/fwlink/p/?LinkId=398616)를 참조 하세요.
+자세한 내용은 [AD RMS 암호화 모드](https://go.microsoft.com/fwlink/p/?LinkId=398616)를 참조 하세요.
   
  **Q. 일부 암호화 된 메시지는 Office365@messaging.microsoft.com에서 제공 되는 이유는 무엇** 인가요?
   
@@ -197,11 +197,11 @@ Office 365 메시지 암호화는 RMS (권한 관리 서비스)를 암호화 인
   
  **Q. EHE (Exchange Hosted Encryption) 구독자 Office 365 메시지 암호화로의 업그레이드에 대 한 자세한 내용은 어디에서 확인할 수 있나요?**
   
-모든 EHE 고객은 Office 365 메시지 암호화로 업그레이드되었습니다. 자세한 내용은 [Exchange Hosted Encryption Upgrade Center](http://go.microsoft.com/fwlink/p/?LinkID=511077)를 참조 하십시오.
+모든 EHE 고객은 Office 365 메시지 암호화로 업그레이드되었습니다. 자세한 내용은 [Exchange Hosted Encryption Upgrade Center](https://go.microsoft.com/fwlink/p/?LinkID=511077)를 참조 하십시오.
   
  **Q. Office 365 메시지 암호화를 지원 하기 위해 조직의 방화벽에 있는 Url, IP 주소 또는 포트를 열어야 하나요?**
   
-예. Office 365 메시지 암호화로 암호화 된 메시지에 대 한 인증을 사용 하도록 설정 하려면 Exchange Online에 대 한 Url을 조직의 허용 목록에 추가 해야 합니다. Exchange Online URL 목록은 [Office 365 URLs and IP Address Ranges](https://support.office.com/article/f57e35b7-0a45-42f0-855e-11aa5e7f13fd.aspx)를 참조하세요.
+예. Office 365 메시지 암호화로 암호화 된 메시지에 대 한 인증을 사용 하도록 설정 하려면 Exchange Online에 대 한 Url을 조직의 허용 목록에 추가 해야 합니다. Exchange Online Url 목록은 [Office 365 url 및 IP 주소 범위](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)를 참조 하세요.
   
  **Q. Office 365 암호화 메시지를 한 번에 몇 명에게 보낼 수 있습니까?**
   
@@ -217,5 +217,4 @@ Office 365 메시지 암호화는 RMS (권한 관리 서비스)를 암호화 인
   
  **Q. Microsoft는 OME 포털 및 OME 뷰어 앱을 통해 제공한 정보로 어떤 작업을 수행하나요?**
   
-[Office 365 메시징 암호화 포털 개인 정보 취급 방침](https://privacy.microsoft.com/en-US/privacystatement) 은 Microsoft가 어떤 작업을 수행 하 고 있는지에 대 한 자세한 정보를 제공 합니다.
- 
+[Office 365 메시징 암호화 포털 개인 정보 취급 방침](https://privacy.microsoft.com/privacystatement) 은 Microsoft가 어떤 작업을 수행 하 고 있는지에 대 한 자세한 정보를 제공 합니다.
