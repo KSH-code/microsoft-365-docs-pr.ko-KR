@@ -13,16 +13,14 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Contoso가 IDaaS(Identity as a Service)를 활용하고 직원을 위해 클라우드 기반 인증을 제공하고, 파트너 및 고객을 위해 페더레이션 인증을 제공하는 방법을 알아봅니다.
-ms.openlocfilehash: 81a1542edf82bbf773360af6b09e1f940f5fd061
-ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
+ms.openlocfilehash: dc893fb1e632cf15a612ebf13e911173933d9af3
+ms.sourcegitcommit: 9ee873c6a2f738a0c99921e036894b646742e706
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38627364"
+ms.lasthandoff: 11/15/2019
+ms.locfileid: "38673214"
 ---
 # <a name="identity-for-the-contoso-corporation"></a>Contoso Corporation의 ID
-
-**요약:** Contoso가 IDaaS(Identity as a Service)를 활용하고 직원을 위해 클라우드 기반 인증을 제공하고, 파트너 및 고객을 위해 페더레이션 인증을 제공하는 방법을 알아봅니다.
 
 Microsoft은 Azure AD(Azure Active Directory)를 사용하는 해당 클라우드 서비스에서 IDaaS(Identity as a Service)를 제공합니다. Microsoft 365 Enterprise를 채택하기 위해 Contoso의 IDaaS 솔루션은 해당 온-프레미스 ID 공급자를 활용해야 했으며, 기존의 신뢰할 수 있는 타사 ID 공급자와 함께 페더레이션 인증을 여전히 포함합니다.
 
