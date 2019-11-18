@@ -49,9 +49,6 @@
 #### [사용자에게 보안 센터로의 액세스 권한 부여](./office-365-security/grant-access-to-the-security-and-compliance-center.md)
 
 
-
-
-
 ### [위협으로부터 보호](./office-365-security/protect-against-threats.md)
 #### [스팸 방지 및 맬웨어 방지 보호](./office-365-security/anti-spam-and-anti-malware-protection.md)
 ##### [고급 스팸 필터링 옵션](./office-365-security/advanced-spam-filtering-asf-options.md)
@@ -141,7 +138,6 @@
 ##### [악성 파일에 대한 정보 보기](./office-365-security/malicious-files-detected-in-spo-odb-or-teams.md)
 
 
-
 ### [고급 위협 방지](./office-365-security/office-365-atp.md)
 #### [새로운 기능 보기]()
 ##### [Office 365 ATP의 새로운 기능](office-365-security/whats-new-in-office-365-atp.md)
@@ -182,6 +178,7 @@
 #### [Office 365 보안 사고 대응](./office-365-security/office365-security-incident-response-overview.md)
 #### [Office 365에서 불법 동의 권한 부여 검색 및 교정](./office-365-security/detect-and-remediate-illicit-consent-grants.md)
 #### [Office 365에서 Outlook 규칙 및 사용자 지정 양식 주입 공격 감지 및 재구성](./office-365-security/detect-and-remediate-outlook-rules-forms-attack.md)
+#### [Office 365에서 손상된 이메일 계정에 응답](office-365-security/responding-to-a-compromised-email-account.md)
 
 ### [메일 흐름]()
 #### [보고서 메시지 추가 기능을 사용하도록 설정](./office-365-security/enable-the-report-message-add-in.md)
@@ -222,7 +219,7 @@
 
 ##### [EOP 서비스 설정](./office-365-security/set-up-your-eop-service.md)
 ###### [EOP 구성을 위한 모범 사례](./office-365-security/best-practices-for-configuring-eop.md)
-###### [EOP 및 Office365 ATP 보안 구성을 위한 모범 사례](./office-365-security/best-practices-for-eop-office365-atp.md)
+###### [EOP 및 Office 365 ATP 보안 구성에 대한 권장 설정](./office-365-security/recommended-settings-for-eop-and-office365-atp.md)
 ###### [여러 테넌트에 EOP 설정을 적용하기 위한 샘플 스크립트](./office-365-security/sample-script-for-applying-eop-settings-to-multiple-tenants.md)
 ###### [EOP 조직 간에 도메인 및 설정 이동](./office-365-security/move-domains-and-settings-from-one-eop-organization-to-another-eop-organization.md)
 ###### [Google Postini, Barracuda Spam and Virus Firewall 또는 Cisco IronPor에서 EOP로 전환](./office-365-security/switch-to-eop-from-google-postini-the-barracuda-spam-and-virus-firewall-or-cisco.md)
