@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Microsoft 365 Business를 설정하는 방법 알아보기
-ms.openlocfilehash: 5986e3fb7786ebb3fa7bcf42b34345be98af44a2
-ms.sourcegitcommit: 9a057e70637dcfe06d4f729a96c02be989cf9e25
+ms.openlocfilehash: f269e970cc1ee5ba7455ea799b238db577116f09
+ms.sourcegitcommit: 38934a2115d5cdeb44c7484d57be07686c6f7720
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38633432"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "38704118"
 ---
 # <a name="get-started-with-microsoft-365-business"></a>Microsoft 365 Business 시작
 
@@ -80,7 +80,6 @@ Microsoft 365 Business는 최대 300의 라이선스를 의미 합니다. 라이
   
 일부 온-프레미스 리소스가 포함 된 로컬 Active Directory (예: 파일 공유 및 프린터)를 유지 하는 경우 **azure ad 조인** 장치에서 [Microsoft 365 BUSINESS의 azure ad 조인 장치 로부터 온-프레미스 리소스에 액세스](access-resources.md)하 여 이러한 리소스에 액세스할 수 있습니다.
   
-Windows 10 PC를 설정한 후 장치에 [Office를 자동으로 설치](auto-install-or-uninstall-office.md)할 수 있습니다. 
   
 ## <a name="contact-support"></a>지원 센터 문의
 

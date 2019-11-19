@@ -7,18 +7,18 @@ author: jaimeo
 ms.author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: eec0243b7724eac852a9145a4e4fadcc13fae097
-ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
+ms.openlocfilehash: ae544592184b9de1b5a515ccd21af74185486d58
+ms.sourcegitcommit: f64397f3b144de36605da8d7116c46010765346d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38627562"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "38697161"
 ---
 # <a name="get-your-users-ready-to-use-devices"></a>사용자들이 장치를 사용할 수 있도록 준비시키기
 
 Microsoft Managed Desktop 장치가 최종 사용자의 손에 온 후에는 빠르고 쉽게 시작할 수 있습니다. 장치는 현재 버전의 Windows를 사용 하 여 미리 구성 되며, 사용자가 설치를 완료 하면 클라우드에서 구성 및 앱이 설치 됩니다. 
  
-이 작업을 보다 쉽게 수행 하기 위해 초기 설치 과정을 안내 하 고 필요한 경우 설치 및 나중에 사용할 수 있도록 도움말 리소스를 제공 하는 가이드도 제공 됩니다. 이 가이드를 사용자 지정 하 여 조직에 특정 한 세부 정보를 포함할 수 있습니다. 그런 다음 해당 장치와 함께 사용자에 게 직접 가이드를 배포 합니다. Microsoft의 지원 시스템 (Get Help app)을 사용 하는 조직에 대 한 두 가지 버전, 즉 고유한 최종 사용자 지원을 제공 하는 조직을 위한 버전이 있습니다.
+이 작업을 보다 쉽게 수행 하기 위해 초기 설치 과정을 안내 하 고 필요한 경우 설치 및 나중에 사용할 수 있도록 도움말 리소스를 제공 하는 가이드도 제공 됩니다. 이 가이드를 사용자 지정 하 여 조직에 특정 한 세부 정보를 포함할 수 있습니다. 그런 다음 해당 장치와 함께 사용자에 게 직접 가이드를 배포 합니다. Microsoft의 지원 시스템 (Get Help app)을 사용 하는 조직에는 사용자에 게 다른 지원을 제공 하는 두 가지 버전이 있습니다.
 
 ## <a name="to-prepare-the-guide"></a>가이드를 준비 하려면
 
