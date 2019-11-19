@@ -3,7 +3,7 @@ title: 높은 규제 대상 데이터를 위한 SharePoint 사이트
 author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
-ms.date: 10/21/2019
+ms.date: 10/31/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 가장 중요하고 민감한 파일을 저장할 수 있도록 안전한 SharePoint 팀 사이트를 만듭니다.
-ms.openlocfilehash: 7162ced48a64270713dc1eac6e73de053d24b2f4
-ms.sourcegitcommit: 7ee256132358a86f8c6ad143816fcfdde011ca74
+ms.openlocfilehash: f8ccda85256e1f590f80a9302897e2950c59d154
+ms.sourcegitcommit: 0ceb79a633f7004e82b80e69b6f7a7329ccec7ff
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/22/2019
-ms.locfileid: "37628342"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "38699748"
 ---
 # <a name="sharepoint-sites-for-highly-regulated-data"></a>높은 규제 대상 데이터를 위한 SharePoint 사이트
 
@@ -68,7 +68,12 @@ Microsoft 365 Enterprise에는 완전한 클라우드 기반 서비스 제품군
 
 다음 단계에서는 높은 규제 대상 데이터를 위한 SharePoint 사이트의 디자인 및 구성 작업과 채택을 유도하는 과정을 안내합니다.
 
-가상의 대표적인 다국적 기업인 Contoso Corporation에서 연구팀을 위해 SharePoint 사이트를 설계한 방법을 보려면 이 [예제 구성](contoso-sharepoint-online-site-for-highly-confidential-assets.md)을 참조하세요.
+<a name="poster"></a> 이 시나리오의 1 페이지 요약서를 보려면 [높은 규제 대상 데이터를 위한 SharePoint 사이트 포스터](./media/teams-sharepoint-online-sites-highly-regulated-data/SharePointSitesHighlyRegulatedData.pdf)를 참조하세요.
+
+[![높은 규제 대상 데이터를 위한 SharePoint 사이트 포스터](./media/teams-sharepoint-online-sites-highly-regulated-data/sharepoint-sites-highly-regulated-data-poster.png)](./media/teams-sharepoint-online-sites-highly-regulated-data/SharePointSitesHighlyRegulatedData.pdf)
+
+이 포스터를 [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/teams-sharepoint-online-sites-highly-regulated-data/SharePointSitesHighlyRegulatedData.pdf)나 [PowerPoint](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/teams-sharepoint-online-sites-highly-regulated-data/SharePoint-Sites-Highly-Regulated-Data.pptx) 형식으로 다운로드할 수 있고, Letter, Legal, Tabloid(11 x 17) 크기 용지에 인쇄할 수도 있습니다.
+
 
 ## <a name="identity-and-device-access-prerequisites"></a>ID 및 장치 액세스 필수 구성 요소
 
@@ -207,7 +212,7 @@ SharePoint 사이트에서 사용 권한 설정을 구성합니다.
 
 높은 규제 대상 파일이 높은 규제 대상 데이터를 위한 SharePoint 사이트에만 저장되고 가장 중요한 파일에 해당 사이트의 민감도 레이블 혹은 하위 레이블이 적용되어 있습니다.
 
-## <a name="how-the-contoso-corporation-deployed-microsoft-365-enterprise"></a>Contoso Corporation에서 Microsoft 365 Enterprise를 배포한 방식
+## <a name="how-the-contoso-corporation-used-a-sharepoint-site-for-highly-regulated-data"></a>Contoso Corporation에서 높은 규제 대상 데이터를 위해 SharePoint 사이트를 사용한 방법
 
 Contoso 기업은 가상의 대표적인 글로벌 제조 대기업입니다. Contoso가 파리, 모스크바, 뉴욕, 베이징, 방갈로르의 연구 팀을 위해 [보안 SharePoint 사이트](contoso-sharepoint-online-site-for-highly-confidential-assets.md)를 설계 및 구성한 다음 채택을 촉진하는 방법을 알아봅니다. 
 

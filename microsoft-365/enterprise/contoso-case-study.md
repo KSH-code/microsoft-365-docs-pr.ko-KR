@@ -3,7 +3,7 @@ title: Contoso Corporation의 Microsoft 365 Enterprise
 author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
-ms.date: 10/01/2019
+ms.date: 11/18/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,12 +13,12 @@ ms.collection:
 - M365-subscription-management
 ms.custom: ''
 description: 대표적인 가상 글로벌 조직이 Microsoft 365 Enterprise를 채택한 방법
-ms.openlocfilehash: e7c79612b18bdd21d8fd137abe11f8f26cfd6eff
-ms.sourcegitcommit: 9ee873c6a2f738a0c99921e036894b646742e706
+ms.openlocfilehash: 08f2adfac801ad317fc9aeb812685c2ca061eb3c
+ms.sourcegitcommit: 0ceb79a633f7004e82b80e69b6f7a7329ccec7ff
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38673224"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "38699698"
 ---
 # <a name="microsoft-365-enterprise-for-the-contoso-corporation"></a>Contoso Corporation의 Microsoft 365 Enterprise
 
@@ -65,6 +65,10 @@ Microsoft 365 Enterprise에 대한 Contoso의 전반적인 목표는 클라우�
 - [Microsoft 365 엔터프라이즈 보안 요약](contoso-security-summary.md)
 
   Contoso는 ID 및 액세스 관리, 위협 방지, 정보 보호 및 보안 관리를 위해 Microsoft 365 Enterprise의 전체 보안 기능을 사용합니다.
+
+- [극비 프로젝트를 위한 팀](contoso-team-for-top-secret-project.md)
+
+  극비 프로젝트를 위한 안전한 공동 작업 환경을 만들기 위해 Contoso는 높은 규제 대상 데이터를 위한 팀을 사용했습니다.
 
 - [고도의 기밀 디지털 자산을 위한 SharePoint Online 사이트](contoso-sharepoint-online-site-for-highly-confidential-assets.md)
 
