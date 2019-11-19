@@ -13,16 +13,17 @@ search.appverid:
 ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
+- SPO_Content
 ms.custom:
 - Ent_Solutions
 ms.assetid: 1e8e3cfd-b878-4088-b941-9940363a5fae
 description: '요약: 다양한 정보 보호 수준에 맞게 SharePoint Online 팀 사이트를 만들고 구성합니다.'
-ms.openlocfilehash: 2ddf3de7180d384c387bdc335afda6214508e3c5
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 4ff892d57d4fe6e707e4cbcb4f1562a3594fe70b
+ms.sourcegitcommit: e4f2f06daa264b8b476813a2dfe80cffb59f968f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37070717"
+ms.lasthandoff: 11/13/2019
+ms.locfileid: "38708190"
 ---
 # <a name="deploy-sharepoint-online-sites-for-three-tiers-of-protection"></a>3단계 보호를 위한 SharePoint Online 사이트 배포
 
@@ -46,7 +47,7 @@ ms.locfileid: "37070717"
     
 4. **사이트 만들기** 페이지에서 **팀 사이트**를 클릭합니다.
     
-5. **사이트 이름**에서 공용 팀 사이트의 이름을 입력합니다. 
+5. **사이트 이름**에서 공용 팀 사이트의 이름을 입력합니다.
     
 6. **팀 사이트 설명**에서 사이트의 목적에 대한 설명을 입력합니다.
     
@@ -70,7 +71,7 @@ ms.locfileid: "37070717"
     
 4. **사이트 만들기** 페이지에서 **팀 사이트**를 클릭합니다.
     
-5. **사이트 이름**에서 개인 팀 사이트의 이름을 입력합니다. 
+5. **사이트 이름**에서 개인 팀 사이트의 이름을 입력합니다.
     
 6. **팀 사이트 설명**에서 사이트의 목적에 대한 설명을 입력합니다.
     

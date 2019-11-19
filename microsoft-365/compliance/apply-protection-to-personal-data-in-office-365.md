@@ -11,17 +11,18 @@ ms.collection:
 - Strat_O365_Enterprise
 - GDPR
 - M365-security-compliance
+- SPO_Content
 ms.service: O365-seccomp
 localization_priority: Priority
 search.appverid:
 - MET150
 description: Office 365에서 DLP 정책을 사용하여 개인 데이터를 보호하는 방법을 알아봅니다.
-ms.openlocfilehash: f6d6d69f7c776b9b49ea360367117a9ce86293b2
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 12d6de9b8012062e26daec922d5c55fa0f52381a
+ms.sourcegitcommit: 1c962bd0d51dc12419c4e6e393bb734c972b7e38
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37087735"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "38708187"
 ---
 # <a name="apply-protection-to-personal-data-in-office-365"></a>Office 365의 개인 데이터에 보호 적용
 
@@ -41,7 +42,7 @@ DLP를 사용하면 다음과 같은 작업을 수행할 수 있습니다.
 
 -   DLP 정책과 일치하는 내용을 표시하는 DLP 보고서를 확인합니다.
 
-자세한 내용은 [데이터 손실 방지 정책 개요](https://support.office.com/ko-KR/article/Overview-of-data-loss-prevention-policies-1966b2a7-d1e2-4d92-ab61-42efbb137f5e)를 참조하세요.
+자세한 내용은 [데이터 손실 방지 정책 개요](https://support.office.com/article/Overview-of-data-loss-prevention-policies-1966b2a7-d1e2-4d92-ab61-42efbb137f5e)를 참조하세요.
 
 ![데이터 손실 방지 정책을 만들기 위한 옵션](Media/Apply-protection-to-personal-data-in-Office-365-image1.png)
 
@@ -142,7 +143,7 @@ Office 365 DLP의 기본적인 사용 중 하나는 Office 365 환경에서 EU �
 <tr class="odd">
 <td align="left">정책 설정과 일치하는 콘텐츠가 있을 때 사용자에게 알림</td>
 <td align="left"><p>이 확인란("사용자에게 정책 팁 표시 및 전자 메일 알림 전송")을 선택합니다.</p>
-<p>'팁 및 전자 메일 사용자 지정'을 클릭하고 작업 환경에 맞게 업데이트합니다. <a href="https://support.office.com/ko-KR/article/Send-email-notifications-and-show-policy-tips-for-DLP-policies-87496bc5-9601-4473-8021-cb05c71369c1?ui=en-US&amp;rs=en-US&amp;ad=US">전자 메일 알림 보내기 및 DLP 정책에 대한 정책 팁 표시</a> 문서에서 기본 알림을 참조하세요.</p></td>
+<p>'팁 및 전자 메일 사용자 지정'을 클릭하고 작업 환경에 맞게 업데이트합니다. <a href="https://support.office.com/article/Send-email-notifications-and-show-policy-tips-for-DLP-policies-87496bc5-9601-4473-8021-cb05c71369c1?ui=en-US&amp;rs=en-US&amp;ad=US">전자 메일 알림 보내기 및 DLP 정책에 대한 정책 팁 표시</a> 문서에서 기본 알림을 참조하세요.</p></td>
 </tr>
 <tr class="even">
 <td align="left">한 번에 특정 양의 중요한 정보가 공유되는 경우 감지</td>
@@ -182,7 +183,7 @@ Office 365 DLP의 기본적인 사용 중 하나는 Office 365 환경에서 EU �
 </thead>
 <tbody>
 <tr class="odd">
-<td align="left">문서 및 전자 메일 수준의 보호(전송 중인 메일은 포함되지만 현재 휴지 상태의 사서함의 메일은 포함되지 않음)</td>
+<td align="left">문서 및 전자 메일 수준 보호(전송 중인 메일은 포함되지만, 현재, 휴지 상태의 사서함의 메일은 포함되지 않음)</td>
 <td align="left"><p>중요한 정보 유형</p>
 <p>Office 레이블</p>
 <p>데이터 손실 방지 정책</p>
@@ -300,7 +301,7 @@ SharePoint의 사용 권한을 사용하여 사용자에게 사이트 또는 해
 
 추가 정보:
 
--   [SharePoint Online 환경에 대해 외부 공유 관리](https://support.office.com/ko-KR/article/Manage-external-sharing-for-your-SharePoint-Online-environment-C8A462EB-0723-4B0B-8D0A-70FEAFE4BE85?ui=en-US&rs=en-US&ad=US)
+-   [SharePoint Online 환경에 대해 외부 공유 관리](https://support.office.com/article/Manage-external-sharing-for-your-SharePoint-Online-environment-C8A462EB-0723-4B0B-8D0A-70FEAFE4BE85?ui=en-US&rs=en-US&ad=US)
 
 -   [조직 외부의 사용자와 사이트 또는 문서 공유](https://support.office.com/ko-KR/article/Share-sites-or-documents-with-people-outside-your-organization-80e49744-e30f-44db-8d51-16661b1d4232)
 
@@ -351,7 +352,7 @@ SharePoint 및 비즈니스용 OneDrive에 대한 장치 액세스 정책은 구
 </tbody>
 </table>
 
-자세한 내용: [SharePoint Online 관리 센터: 관리되지 않는 장치의 액세스 제어](https://support.office.com/ko-KR/article/Control-access-from-unmanaged-devices-5ae550c4-bd20-4257-847b-5c20fb053622?ui=en-US&rs=en-US&ad=US)
+자세한 내용: [SharePoint Online 관리 센터: 관리되지 않는 장치의 액세스 제어](https://support.office.com/article/Control-access-from-unmanaged-devices-5ae550c4-bd20-4257-847b-5c20fb053622?ui=en-US&rs=en-US&ad=US)
 
 ## <a name="service-access-protection-for-identities-and-devices"></a>ID 및 장치에 대한 서비스 액세스 보호
 
@@ -359,9 +360,9 @@ SharePoint 및 비즈니스용 OneDrive에 대한 장치 액세스 정책은 구
 
 ID 및 장치에 대한 액세스 보호는 ID가 손상되지 않고, 장치가 안전하고, 장치에서 액세스되는 조직 데이터가 격리 및 보호되도록 하는 보호 기준을 제공합니다.
 
-권장 시작점 및 구성 지침에 대해서는 [정치적 캠페인, 비영리 조직 및 기타 기밀 조직에 대한 Microsoft 보안 지침](https://docs.microsoft.com/ko-KR/microsoft-365-enterprise/microsoft-security-guidance)을 참조하세요.
+권장 시작점 및 구성 지침에 대해서는 [정치적 캠페인, 비영리 조직 및 기타 기밀 조직에 대한 Microsoft 보안 지침](https://docs.microsoft.com/microsoft-365-enterprise/microsoft-security-guidance)을 참조하세요.
 
-AD FS를 사용하는 하이브리드 ID 환경에 대해서는 [권장되는 보안 정책 및 구성](https://docs.microsoft.com/ko-KR/microsoft-365-enterprise/microsoft-security-guidance)을 참조하세요.
+AD FS를 사용하는 하이브리드 ID 환경에 대해서는 [권장되는 보안 정책 및 구성](https://docs.microsoft.com/microsoft-365-enterprise/microsoft-security-guidance)을 참조하세요.
 
 다음 그림에서는 클라우드 서비스(SaaS, PaaS), 계정 유형(테넌트 도메인 계정 및 B2B 계정), 서비스 액세스 기능이 관련디는 방식을 보여 줍니다. B2B 계정에 사용할 수 있는 기능을 이해하는 것도 중요합니다.
 

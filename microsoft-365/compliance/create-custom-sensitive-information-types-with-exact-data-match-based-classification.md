@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 분류에 기반한 정확한 데이터 매치를 사용한 사용자 지정 중요한 정보 유형 만들기
-ms.openlocfilehash: 3d4936a03ab9b2e5d766f514472ea862009da553
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: a639c71753602ffd381c9240cf6e7273f3ba8bbe
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37087511"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38708177"
 ---
 # <a name="create-custom-sensitive-information-types-with-exact-data-match-based-classification"></a>분류에 기반한 정확한 데이터 매치를 사용한 사용자 지정 중요한 정보 유형 만들기
 
@@ -82,7 +82,7 @@ EDM 기반 분류를 설정하고 구성하려면 중요한 데이터를 .csv �
 (여기에 있는 예제를 복사, 수정 및 사용할 수 있습니다.)
 
  ```xml
-<EdmSchema xmlns="http://schemas.microsoft.com/office/2018/edm">
+<EdmSchema xmlns="https://schemas.microsoft.com/office/2018/edm">
       <DataStore name="PatientRecords" description="Schema for patient records" version="1">
             <Field name="PatientID" searchable="true" />
             <Field name="MRN" searchable="true" />
@@ -186,7 +186,7 @@ Remove-DlpEdmSchema -Identity patientrecords
 
 규칙 패키지를 설정하는 경우 .csv 파일과 edm.xml 파일을 정확하게 참조하도록 하십시오. (여기에 있는 예제를 복사, 수정 및 사용할 수 있습니다.) 이 샘플 xml에서 EDM 중요 유형을 만들려면 다음 필드를 사용자 지정해야 합니다.
 
-- **RulePack ID & ExactMatch ID**: [New-GUID](https://docs.microsoft.com/ko-KR/powershell/module/microsoft.powershell.utility/new-guid?view=powershell-6)를  사용하여 GUID를 생성합니다.
+- **RulePack ID & ExactMatch ID**: [New-GUID](https://docs.microsoft.com/powershell/module/microsoft.powershell.utility/new-guid?view=powershell-6)를  사용하여 GUID를 생성합니다.
 
 - **Datastore**: 이 필드는 사용할 EDM 조회 데이터 저장소를 지정합니다. 구성된 EDM 스키마의 데이터 원본 이름을 입력합니다.
 
@@ -201,7 +201,7 @@ Remove-DlpEdmSchema -Identity patientrecords
   - Name & des 스키마 설명 편집: 필요에 따라 사용자 지정합니다.
 
 ```xml
-<RulePackage xmlns="http://schemas.microsoft.com/office/2018/edm">
+<RulePackage xmlns="https://schemas.microsoft.com/office/2018/edm">
   <RulePack id="fd098e03-1796-41a5-8ab6-198c93c62b11">
     <Version build="0" major="2" minor="0" revision="0" />
     <Publisher id="eb553734-8306-44b4-9ad5-c388ad970528" />
@@ -488,7 +488,7 @@ Exchange Online용 Office 365 DLP(전자 메일), Business용 OneDrive(파일), 
 
 [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security)
 
-[New-DlpEdmSchema](https://docs.microsoft.com/ko-KR/powershell/module/exchange/policy-and-compliance-dlp/new-dlpedmschema?view=exchange-ps)
+[New-DlpEdmSchema](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-dlp/new-dlpedmschema?view=exchange-ps)
 
 ## <a name="feedback"></a>피드백
 

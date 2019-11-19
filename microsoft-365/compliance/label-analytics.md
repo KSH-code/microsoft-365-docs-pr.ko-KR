@@ -1,7 +1,7 @@
 ---
 title: 레이블 분석을 통한 레이블 사용량 보기
-ms.author: stephow
-author: stephow-MSFT
+ms.author: chrfox
+author: chrfox
 manager: laurawi
 ms.date: ''
 audience: Admin
@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 레이블 및 민감도 레이블을 만든 이후 테넌트 전체에서 얼마나 사용되는지 알고자 할 것입니다. Microsoft 365 규정 준수 센터 및 Microsoft 365 보안 센터의 레이블 분석을 사용하여 어떤 레이블이 사장 많이 사용되고 레이블이 적용된 위치를 빠르게 알 수 있습니다.
-ms.openlocfilehash: 297987d420b5ed05bf4fdeb86513bc7c4ddec609
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 45cebbe67a773b76289920554d4e39fcbce789cc
+ms.sourcegitcommit: 547bfc5f1fec7545cbe71b1919454425556c9227
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088130"
+ms.lasthandoff: 11/09/2019
+ms.locfileid: "38710106"
 ---
 # <a name="view-label-usage-with-label-analytics"></a>레이블 분석을 통한 레이블 사용량 보기
 
@@ -38,9 +38,9 @@ ms.locfileid: "37088130"
 
 ## <a name="sensitivity-label-usage"></a>민감도 레이블 사용량
 
-민감도 레이블 사용량에 대한 데이터는 Azure Information Protection 보고서에서 가져옵니다. 자세한 내용은 [Azure Information Protection에 대한 중앙 보고](https://docs.microsoft.com/ko-KR/azure/information-protection/reports-aip)를 참조하세요.
+민감도 레이블 사용량에 대한 데이터는 Azure Information Protection 보고서에서 가져옵니다. 자세한 내용은 [Azure Information Protection에 대한 중앙 보고](https://docs.microsoft.com/azure/information-protection/reports-aip)를 참조하세요.
 
-Azure Information Protection 보고서에는 Microsoft 365 규정 준수 센터 및 Microsofot 365 보안 센터의 민감도 레이블에 레이블 분석을 적용하는 [필수 조건](https://docs.microsoft.com/ko-KR/azure/information-protection/reports-aip#prerequisites-for-azure-information-protection-analytics)이 있습니다. 예를 들어 Log Analytics를 포함한 Azure 구독이 필요한데, 이러한 보고서가 Azure Information Protection 클라이언트 및 스캐너에서 Azure Log Analytics 서비스를 기준으로 중앙화된 위치로 정보 보호 감사 이벤트를 전송한 결과이기 때문입니다.
+Azure Information Protection 보고서에는 Microsoft 365 규정 준수 센터 및 Microsofot 365 보안 센터의 민감도 레이블에 레이블 분석을 적용하는 [필수 조건](/azure/information-protection/reports-aip#prerequisites)이 있습니다. 예를 들어 Log Analytics를 포함한 Azure 구독이 필요한데, 이러한 보고서가 Azure Information Protection 클라이언트 및 스캐너에서 Azure Log Analytics 서비스를 기준으로 중앙화된 위치로 정보 보호 감사 이벤트를 전송한 결과이기 때문입니다.
 
 민감도 레이블 사용량:
 
@@ -97,5 +97,5 @@ Azure Information Protection 보고서에는 Microsoft 365 규정 준수 센터 
 - 보안 관리자
 - 보안 읽기 권한자
 
-또한 이러한 보고서는 Azure Monitor를 사용하여 조직이 소유한 Log Analytics 작업 영역에 있는 데이터를 저장합니다. 따라서 사용자가 데이터를 보유한 Azure Monitor 작업 영역에 읽기 권한자로 추가되어야 합니다. 자세한 내용은 [Azure Information Protection 분석에 대해 필요한 권한](https://docs.microsoft.com/ko-KR/azure/information-protection/reports-aip#permissions-required-for-azure-information-protection-analytics)을 참조하세요.
+또한 이러한 보고서는 Azure Monitor를 사용하여 조직이 소유한 Log Analytics 작업 영역에 있는 데이터를 저장합니다. 따라서 사용자가 데이터를 보유한 Azure Monitor 작업 영역에 읽기 권한자로 추가되어야 합니다. 자세한 내용은 [Azure Information Protection 분석에 대해 필요한 권한](https://docs.microsoft.com/azure/information-protection/reports-aip#permissions-required-for-azure-information-protection-analytics)을 참조하세요.
 

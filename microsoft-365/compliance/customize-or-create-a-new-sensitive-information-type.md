@@ -18,12 +18,12 @@ search.appverid:
 ms.custom: ''
 ms.assetid: ''
 description: GDPR에 대한 Office 365 중요한 정보 유형을 수정하거나 새로 만드는 방법을 알아봅니다.
-ms.openlocfilehash: 264e310c019c47d1b3109b20fbdd61b323ec5530
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 81717e10de794f5ab5885470d0bcbcd795e43044
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37087416"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38708180"
 ---
 # <a name="customize-or-create-a-new-sensitive-information-type"></a>중요한 정보 유형 사용자 지정 또는 새로 만들기
 
@@ -71,7 +71,7 @@ ms.locfileid: "37087416"
 
 7.  새 중요한 정보 유형을 업로드합니다.
 
-8.  중요한 정보를 식별하도록 콘텐츠를 다시 크롤링합니다. [사이트 크롤링 및 재인덱싱 수동 요청](https://support.office.com/ko-KR/article/Manually-request-crawling-and-re-indexing-of-a-site-a-library-or-a-list-9AFA977D-39DE-4321-B4CA-8C7C7E6D264E)을 참조하세요.
+8.  중요한 정보를 식별하도록 콘텐츠를 다시 크롤링합니다. [사이트 크롤링 및 재인덱싱 수동 요청](https://support.office.com/article/Manually-request-crawling-and-re-indexing-of-a-site-a-library-or-a-list-9AFA977D-39DE-4321-B4CA-8C7C7E6D264E)을 참조하세요.
 
 ## <a name="example-modify-the-eu-debit-card-number-sensitive-information-type"></a>예제: '유럽 직불 카드 번호' 중요한 정보 유형 수정
 
@@ -141,15 +141,15 @@ GDPR이 적용되는 개인 데이터를 찾기 위한 추가 쿼리를 만들�
 
 KQL을 사용하여 쿼리를 작성하고 최적화하려면 다음 리소스를 사용합니다.
 
--   [KQL(키워드 쿼리 언어) 구문 참조(DMC)](https://docs.microsoft.com/ko-KR/sharepoint/dev/general-development/keyword-query-language-kql-syntax-reference)
+-   [KQL(키워드 쿼리 언어) 구문 참조(DMC)](https://docs.microsoft.com/sharepoint/dev/general-development/keyword-query-language-kql-syntax-reference)
 
--   [콘텐츠 검색 실행](https://support.office.com/ko-KR/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a) 
+-   [콘텐츠 검색 실행](https://support.office.com/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a) 
 
-콘텐츠 검색은 KQL 쿼리 및 중요한 정보 유형을 개발하는 데 도움이 되는 또 다른 리소스인 키워드를 제공합니다. 키워드 목록은 왜 사용할까요? 많은 항목이 각 키워드와 일치하는 방식을 보여 주는 통계를 얻을 수 있습니다. 이러한 통계는 가장 많이(덜) 효과적인 키워드를 빠르게 식별하는 데 도움이 됩니다. 검색 통계에 대한 자세한 내용은 [콘텐츠 검색 결과에 대한 키워드 통계 보기](https://support.office.com/ko-KR/article/View-keyword-statistics-for-Content-Search-results-9701a024-c52e-43f0-b545-9a53478aec04)를 참조하세요.
+콘텐츠 검색은 KQL 쿼리 및 중요한 정보 유형을 개발하는 데 도움이 되는 또 다른 리소스인 키워드를 제공합니다. 키워드 목록은 왜 사용할까요? 많은 항목이 각 키워드와 일치하는 방식을 보여 주는 통계를 얻을 수 있습니다. 이러한 통계는 가장 많이(덜) 효과적인 키워드를 빠르게 식별하는 데 도움이 됩니다. 검색 통계에 대한 자세한 내용은 [콘텐츠 검색 결과에 대한 키워드 통계 보기](https://support.office.com/article/View-keyword-statistics-for-Content-Search-results-9701a024-c52e-43f0-b545-9a53478aec04)를 참조하세요.
 
 각 행의 키워드는 만들어지는 검색 쿼리에서 OR 연산자로 연결됩니다. 행에 키워드 구(괄호 사용)를 사용할 수도 있습니다.
 
-자세한 내용은 [콘텐츠 검색에 대한 키워드 쿼리 및 검색 조건](https://support.office.com/ko-KR/article/Keyword-queries-and-search-conditions-for-Content-Search-c4639c2e-7223-4302-8e0d-b6e10f1c3be3)을 참조하세요.
+자세한 내용은 [콘텐츠 검색에 대한 키워드 쿼리 및 검색 조건](https://support.office.com/article/Keyword-queries-and-search-conditions-for-Content-Search-c4639c2e-7223-4302-8e0d-b6e10f1c3be3)을 참조하세요.
 
 ### <a name="exampleusing-content-search-to-identify-email-addresses"></a>예제 - 콘텐츠 검색을 사용하여 전자 메일 주소 식별
 
@@ -374,7 +374,7 @@ Contoso는 내부 서신, 외부 서신, 문서 등에서 항상 CCN을 사용�
 ```xml
 \<?xml version="1.0" encoding="utf-8"?\>
 
-\<RulePackage xmlns="http://schemas.microsoft.com/office/2011/mce"\>
+\<RulePackage xmlns="https://schemas.microsoft.com/office/2011/mce"\>
 
 \<RulePack id="130ae63b-a91e-4a12-9e02-a90e36a83d7f"\>
 

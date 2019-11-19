@@ -16,12 +16,12 @@ localization_priority: Priority
 search.appverid:
 - MET150
 description: Office 365에서 개인 데이터를 검색하고 찾는 방법을 알아봅니다.
-ms.openlocfilehash: b63cf930a38feab6df815b5350d60184a6339927
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: f553f29ac1327fa84c2d52f80379593c9291d610
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088553"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38710100"
 ---
 # <a name="search-for-and-find-personal-data"></a>개인 데이터 검색 및 찾기
 
@@ -79,7 +79,7 @@ Office 365에 포함된 중요한 정보 유형을 사용하여 개인 데이터
 
 이 주제에는 유럽 연합 시민에게 적용되는 일부 중요한 정보 유형 목록이 포함됩니다. GDPR 규정 준수에 도움이 될 수 있는 추가 사항은 보안 센터 또는 규정 준수 센터를 확인하세요.
 
-또한 [중요한 정보 유형 및 각 유형이 확인하는 내용 목록](https://support.office.com/ko-KR/article/What-the-sensitive-information-types-look-for-fd505979-76be-4d9f-b459-abef3fc9e86b)을 참조하세요.
+또한 [중요한 정보 유형 및 각 유형이 확인하는 내용 목록](https://support.office.com/article/What-the-sensitive-information-types-look-for-fd505979-76be-4d9f-b459-abef3fc9e86b)을 참조하세요.
 
 중요한 정보 유형은 정규식이나 함수로 식별될 수 있는 패턴으로 정의됩니다. 또한 키워드 및 체크섬과 같은 확증적인 증거를 사용하여 중요한 정보 유형을 식별할 수 있습니다. 이러한 평가 프로세스에서 신뢰 수준 및 근접성도 사용됩니다. 중요한 정보 유형은 정규식이나 함수로 식별될 수 있는 패턴으로 정의됩니다. 또한 키워드 및 체크섬과 같은 보완적 증거를 사용하여 중요한 정보 유형을 식별할 수 있습니다. 신뢰도 및 근접성도 평가 프로세스에서 활용됩니다.
 
@@ -97,7 +97,7 @@ Office 365에 포함된 중요한 정보 유형을 사용하여 개인 데이터
 <tbody>
 <tr class="odd"><td align="left"><p>보안 및 준수 센터에서 콘텐츠 검색으로 이동</p></td>
 <td align="left"><p>보안 및 준수 센터의 왼쪽 창에서 **검색 및 조사** &gt; **콘텐츠 검색**을 클릭합니다.</p>
-<p><a href="https://support.office.com/ko-KR/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a">Office 365 보안 및 준수 센터에서 콘텐츠 검색 실행</a>을 참조하세요.</p></td>
+<p><a href="https://support.office.com/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a">Office 365 보안 및 준수 센터에서 콘텐츠 검색 실행</a>을 참조하세요.</p></td>
 </tr>
 <tr class="even">
 <td align="left"><p>각 중요한 정보 유형에 대해 새 검색 항목 만들기</p></td>
@@ -110,14 +110,14 @@ Office 365에 포함된 중요한 정보 유형을 사용하여 개인 데이터
 <p>SensitiveType:&quot;France Passport Number&quot;</p>
 </blockquote>
 <p>검색 범위를 SharePoint(비즈니스용 OneDrive 포함)으로 지정합니다. 구문이 정확한지와 불필요한 공백이나 입력 오류가 없는지 확인합니다.</p>
-<p><a href="https://support.office.com/ko-KR/article/Form-a-query-to-find-sensitive-data-stored-on-sites-3019fbc5-7f15-4972-8d0e-dc182dc7f836">사이트에 저장된 중요한 데이터를 찾기 위한 쿼리 작성</a>을 참조하세요.</p></td>
+<p><a href="https://support.office.com/article/Form-a-query-to-find-sensitive-data-stored-on-sites-3019fbc5-7f15-4972-8d0e-dc182dc7f836">사이트에 저장된 중요한 데이터를 찾기 위한 쿼리 작성</a>을 참조하세요.</p></td>
 </tr>
 <tr class="odd">
 <td align="left"><p>각 검색에 대한 결과 검토</p></td>
 <td align="left"><p>다음 유형의 문제를 찾아 쿼리 정확도가 원하는 수준인지 확인합니다.</p>
 <p><li>많은 가양성</li></p>
 <p><li>누락된 데이터의 알려진 인스턴스</li></p>
-<p><a href="https://support.office.com/ko-KR/article/Export-Content-Search-results-from-the-Office-365-Security-Compliance-Center-ed48d448-3714-4c42-85f5-10f75f6a4278">Office 365 보안 및 준수 센터에서 콘텐츠 검색 결과 내보내기</a>를 참조하세요.</p>
+<p><a href="https://support.office.com/article/Export-Content-Search-results-from-the-Office-365-Security-Compliance-Center-ed48d448-3714-4c42-85f5-10f75f6a4278">Office 365 보안 및 준수 센터에서 콘텐츠 검색 결과 내보내기</a>를 참조하세요.</p>
 <p>참고: Mozilla Firefox 또는 Chrome을 사용하는 경우 필요한 추가 기능을 설치하기 위해 먼저 Internet Explorer 또는 Edge를 사용하여 보고서를 다운로드해야 할 수 있습니다.</p></td>
 </tr>
 </tbody>
@@ -217,4 +217,4 @@ Office 365에 포함된 중요한 정보 유형을 사용하여 개인 데이터
 
 참고: "SensitiveType"은 대/소문자를 구분하지만 쿼리의 나머지 부분은 그렇지 않습니다.
 
-또한 속성 및 연산자를 사용하여 쿼리를 구체화하는 방법을 보여줄 수도 있습니다. 자세한 내용 및 예제에 대해서는 [사이트에 저장된 중요한 데이터를 찾기 위한 쿼리 작성](https://support.office.com/ko-KR/article/Form-a-query-to-find-sensitive-data-stored-on-sites-3019fbc5-7f15-4972-8d0e-dc182dc7f836)을 참조하세요.
+또한 속성 및 연산자를 사용하여 쿼리를 구체화하는 방법을 보여줄 수도 있습니다. 자세한 내용 및 예제에 대해서는 [사이트에 저장된 중요한 데이터를 찾기 위한 쿼리 작성](https://support.office.com/article/Form-a-query-to-find-sensitive-data-stored-on-sites-3019fbc5-7f15-4972-8d0e-dc182dc7f836)을 참조하세요.

@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 103f940c-0468-4e1a-b527-cc8ad13a5ea6
 description: '관리자: 네트워크 업로드를 사용하여 Office 365의 사용자 사서함으로 여러 PST 파일을 대량으로 가져오는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: a11bd934cf45a8f90ae7f558814a1b6d9e839914
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 8596108902cadd82cbab4bd128d457858b5c63c3
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37089291"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38710110"
 ---
 # <a name="use-network-upload-to-import-your-organization-pst-files-to-office-365"></a>네트워크 업로드를 사용하여 조직의 PST 파일을 Office 365로 가져오기
 
@@ -127,11 +127,11 @@ Office 365 사서함으로 PST 파일을 가져오려면 1단계를 한 번만 �
     
 3. 다음 명령을 실행하여 PST 파일을 Office 365로 업로드합니다.
 
-    ```
+    ```powershell
     AzCopy.exe /Source:<Location of PST files> /Dest:<SAS URL> /V:<Log file location> /Y
   
     ```
- 
+
     > [!IMPORTANT] 
     > 이전 명령에서 원본 위치로 디렉터리를 지정해야 합니다. 개별 PST 파일은 지정할 수 없습니다. 원본 디렉터리에 있는 모든 PST 파일이 업로드 됩니다.
  
@@ -147,9 +147,8 @@ Office 365 사서함으로 PST 파일을 가져오려면 1단계를 한 번만 �
    
 다음은 각 매개 변수에 대한 실제 값을 사용하는 AzCopy.exe 도구에 대한 구문 예입니다.
     
-```
+```powershell
   AzCopy.exe /Source:"\\FILESERVER1\PSTs" /Dest:"https://3c3e5952a2764023ad14984.blob.core.windows.net/ingestiondata?sv=2012-02-12&amp;se=9999-12-31T23%3A59%3A59Z&amp;sr=c&amp;si=IngestionSasForAzCopy201601121920498117&amp;sig=Vt5S4hVzlzMcBkuH8bH711atBffdrOS72TlV1mNdORg%3D" /V:"c:\Users\Admin\Desktop\AzCopy1.log" /Y
-  
 ```
 
 이 명령을 실행하면 PST 파일의 업로드 진행률을 보여 주는 상태 메시지가 표시됩니다. 마지막 상태 메시지에는 성공적으로 업로드된 파일의 총 수가 표시됩니다.
@@ -200,8 +199,7 @@ PST 파일을 Office 365 조직의 Azure 저장소 위치에 업로드한 후에
     
 2. CSV 파일을 열거나 로컬 컴퓨터에 저장합니다. 다음 예에서는 완료된 PST 가져오기 매핑 파일(메모장에서 열림)을 보여 줍니다. CSV 파일을 편집할 경우 Microsoft Excel을 사용하는 것이 훨씬 더 쉽습니다.
 
-
-    ```
+    ```text
     Workload,FilePath,Name,Mailbox,IsArchive,TargetRootFolder,ContentCodePage,SPFileContainer,SPManifestContainer,SPSiteUrl
     Exchange,,annb.pst,annb@contoso.onmicrosoft.com,FALSE,/,,,,
     Exchange,,annb_archive.pst,annb@contoso.onmicrosoft.com,TRUE,,,,,
@@ -214,6 +212,7 @@ PST 파일을 Office 365 조직의 Azure 저장소 위치에 업로드한 후에
     Exchange,PSTFiles,zrinkam.pst,zrinkam@contoso.onmicrosoft.com,FALSE,,,,,
     Exchange,PSTFiles,zrinkam_archive.pst,zrinkam@contoso.onmicrosoft.com,TRUE,/ImportedPst,,,,
     ```
+    
     CSV 파일의 첫 번째 행 또는 머리글 행은 PST 가져오기 서비스에서 PST 파일을 사용자 사서함으로 가져오는 데 사용하는 매개 변수를 나열합니다. 각 매개 변수 이름은 쉼표로 구분됩니다. 머리글 행 아래의 각 행은 PST 파일을 특정 사서함으로 가져오기 위한 매개 변수 값을 나타냅니다. 사용자 사서함에 가져오려는 각 PST 파일에 대해 하나의 행이 필요합니다. 매핑 파일의 자리 표시자 데이터를 실제 데이터로 바꾸어야 합니다.
 
    **참조:** SharePoint 매개 변수를 포함하여 머리글 행의 어떤 내용도 변경하지 않도록 합니다. 변경한 내용은 PST 가져오기 프로세스 동안 무시됩니다. 
@@ -354,7 +353,7 @@ PST 파일을 Office 365 조직의 Azure 저장소 위치에 업로드한 후에
   
 - 다음은 1단계에서 획득한 SAS (공유 액세스 서명) URL의 예입니다. 이 예에서는 PST 파일을 Office 365에 업로드하기 위해 AzCopy.exe 도구에서 실행하는 명령 구문도 포함되어 있습니다. 암호 또는 기타 보안 관련 정보를 보호하는 것처럼 주의해서 SAS URL을 보호해야 합니다.
 
-    ```
+    ```text
     SAS URL: https://3c3e5952a2764023ad14984.blob.core.windows.net/ingestiondata?sv=2012-02-12&amp;se=9999-12-31T23%3A59%3A59Z&amp;sr=c&amp;si=IngestionSasForAzCopy201601121920498117&amp;sig=Vt5S4hVzlzMcBkuH8bH711atBffdrOS72TlV1mNdORg%3D
 
     AzCopy.exe /Source:<Location of PST files> /Dest:<SAS URL> /V:<Log file location> /Y

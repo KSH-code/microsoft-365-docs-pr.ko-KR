@@ -15,18 +15,18 @@ ms.assetid: c0d87cbe-6d65-4c03-88ad-5216ea5564e8
 ms.collection:
 - M365-security-compliance
 description: OME(Office 메시지 암호화), S/MIME, IRM(정보 권한 관리)을 비롯한 Office 365의 암호화 옵션을 비교하고 TLS(전송 계층 보안)에 대해 알아봅니다.
-ms.openlocfilehash: 79a7ddd13e437255fa671e949236c879b235c2ba
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 70c22f9627c804c201cb23b7b3c38a4f6a349ece
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088116"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "38708173"
 ---
 # <a name="email-encryption-in-office-365"></a>Office 365의 전자 메일 암호화
 
 이 문서에서는 OME(Office 메시지 암호화), S/MIME, IRM(정보 권한 관리)을 비롯한 Office 365의 암호화 옵션을 비교하고 TLS(전송 계층 보안)을 소개합니다.
   
-Office 365 전자 메일 보안에 대한 비즈니스 요구를 충족하는데 도움이 되는 여러 암호화 옵션을 제공합니다. 이 문서에서는 Office 365에서 전자 메일을 암호화하는 세 가지 방법을 제공합니다. Office 365의 모든 보안 기능에 대한 자세한 내용을 보려면 [office 365 보안 센터](http://go.microsoft.com/fwlink/p/?LinkID=282470)를 방문하세요. 이 문서에서는 Office 365에서 Office 365 관리자가 전자 메일 보안을 위해 사용할 수 있는 세 가지 암호화 유형을 소개합니다.
+Office 365 전자 메일 보안에 대한 비즈니스 요구를 충족하는데 도움이 되는 여러 암호화 옵션을 제공합니다. 이 문서에서는 Office 365에서 전자 메일을 암호화하는 세 가지 방법을 제공합니다. Office 365의 모든 보안 기능에 대한 자세한 내용을 보려면 [office 365 보안 센터](https://go.microsoft.com/fwlink/p/?LinkID=282470)를 방문하세요. 이 문서에서는 Office 365에서 Office 365 관리자가 전자 메일 보안을 위해 사용할 수 있는 세 가지 암호화 유형을 소개합니다.
   
 - OME(Office 메시지 암호화)
 
@@ -66,7 +66,7 @@ Office 365 내에서 조직 간의 통신, Office 365와 Office 365 외부의 �
 
 ## <a name="what-encryption-options-are-available-for-my-office-365-subscription"></a>내 Office 365 구독에 대해 사용할 수 있는 암호화 옵션은 무엇이 있나요?
 
-Office 365 구독의 전자 메일 암호화 옵션에 대한 내용은 [Exchange Online 서비스 설명](https://technet.microsoft.com/ko-KR/library/exchange-online-service-description.aspx)을 참조하세요. 여기서 다음 암호화 기능에 대한 정보를 찾을 수 있습니다.
+Office 365 구독의 전자 메일 암호화 옵션에 대한 내용은 [Exchange Online 서비스 설명](https://technet.microsoft.com/library/exchange-online-service-description.aspx)을 참조하세요. 여기서 다음 암호화 기능에 대한 정보를 찾을 수 있습니다.
   
 - IRM 기능 및 OME 모두를 비롯한 Azure RMS
 
@@ -92,7 +92,7 @@ Office 365와 함께 PGP (Pretty Good Privacy)와 같은 타사 암호화 도구
   
 **IRM**
   
-[Exchange Online의 정보 권한 관리](https://technet.microsoft.com/ko-KR/library/jj983436%28v=exchg.150%29.aspx)
+[Exchange Online의 정보 권한 관리](https://technet.microsoft.com/library/jj983436%28v=exchg.150%29.aspx)
   
 [Azure 권한 관리란?](https://technet.microsoft.com/library/jj585026)
   
@@ -106,4 +106,4 @@ Office 365와 함께 PGP (Pretty Good Privacy)와 같은 타사 암호화 도구
   
 **TLS**
   
-[Office 365에서 커넥터를 사용하여 사용자 지정 메일 흐름 구성](https://technet.microsoft.com/ko-KR/library/jj723138%28v=exchg.150%29.aspx)
+[Office 365에서 커넥터를 사용하여 사용자 지정 메일 흐름 구성](https://technet.microsoft.com/library/jj723138%28v=exchg.150%29.aspx)

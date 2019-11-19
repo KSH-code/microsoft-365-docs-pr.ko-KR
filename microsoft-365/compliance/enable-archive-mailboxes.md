@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 268a109e-7843-405b-bb3d-b9393b2342ce
 description: Office 365의 보안 및 규정 준수 센터를 사용하면 조직의 메시지 보존, 전자 검색 및 보유 요구 사항을 지원하기 위해 보관 사서함을 사용할 수 있습니다.
-ms.openlocfilehash: 5cf399b311b6c342aff2d84477edaa945f8e0cd4
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: ea6448c4d47eb89d16266644e5a4ab06f774e0da
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088105"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "38708192"
 ---
 # <a name="enable-archive-mailboxes-in-the-security--compliance-center"></a>보안 및 준수 센터에서 보관 사서함 사용
   
@@ -101,27 +101,27 @@ Exchange Online에 연결되면 다음 섹션의 명령을 실행하여 보관 �
 
 다음 명령을 실행하여 단일 사용자가 보관 사서함을 사용하도록 설정합니다.
     
-  ```
+  ```powershell
   Enable-Mailbox -Identity <username> -Archive
   ```
 
 다음 명령을 실행하여 조직의 모든 사용자(현재 보관 사서함을 사용할 수 없는 사용자)의 보관 사서함을 사용하도록 설정합니다.
     
-  ```
+  ```powershell
   Get-Mailbox -Filter {ArchiveStatus -Eq "None" -AND RecipientTypeDetails -eq "UserMailbox"} | Enable-Mailbox -Archive
   ```
-  
+
 ### <a name="disable-archive-mailboxes"></a>보관 사서함을 사용하지 않도록 설정
 
 다음 명령을 실행하여 단일 사용자가 보관 사서함을 사용하지 않도록 설정합니다.
     
-  ```
+  ```powershell
   Disable-Mailbox -Identity <username> -Archive
   ```
 
 다음 명령을 실행하여 조직의 모든 사용자(현재 보관 사서함을 사용할 수 있는 사용자)의 보관 사서함을 사용하지 않도록 설정합니다.
     
-  ```
+  ```powershell
   Get-Mailbox -Filter {ArchiveStatus -Eq "Active" -AND RecipientTypeDetails -eq "UserMailbox"} | Disable-Mailbox -Archive
   ```
 

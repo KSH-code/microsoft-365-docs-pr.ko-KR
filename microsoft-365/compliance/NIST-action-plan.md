@@ -12,12 +12,12 @@ manager: laurawi
 audience: itpro
 ms.collection:
 - M365-security-compliance
-ms.openlocfilehash: 8ee0d1d8dd20dac6a865e39ca12dea8b07352e6e
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 5c43a0e26dfc052c23cbaf349bd541d996dca558
+ms.sourcegitcommit: 99a79b0ed3126fa17970481fb768414279e839c0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37071457"
+ms.lasthandoff: 10/15/2019
+ms.locfileid: "38710096"
 ---
 # <a name="microsoft-365-nist-800-53-action-plan--top-priorities-for-your-first-30-days-90-days-and-beyond"></a>Microsoft 365 NIST 800-53 작업 계획 - 처음 30일, 90일 및 그 이상 기간에 대한 최고 우선 순위 지정
 
@@ -77,6 +77,6 @@ Microsoft는 클라우드 보안 분야에서 업계 선두주자로 인식되�
 
 ## <a name="learn-more"></a>자세한 정보
 
-[Microsoft 및 NIST CSF(Cyber Security Framework)](https://www.microsoft.com/trustcenter/compliance/NIST_CSF)(NIST 800-53 포함)에 대해 자세히 알아봅니다.
+[Microsoft 및 NIST CSF(Cyber Security Framework)](offering-nist-csf.md)(NIST 800-53 포함)에 대해 자세히 알아봅니다.
 
 [Microsoft 보안 센터](https://www.microsoft.com/TrustCenter/Privacy/gdpr/default.aspx)
