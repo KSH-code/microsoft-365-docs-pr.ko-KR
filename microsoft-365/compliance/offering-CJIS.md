@@ -11,12 +11,12 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 52b5718ecbd558cf1bf5e89702b6574c87841040
-ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
+ms.openlocfilehash: 069f4dac1b04a75ff30339f8cecde4e8f82c044a
+ms.sourcegitcommit: 0ceb79a633f7004e82b80e69b6f7a7329ccec7ff
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38690806"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "38699738"
 ---
 # <a name="compliance-offering-criminal-justice-information-services-cjis-security-policy"></a>준수 제공: CJIS (범죄 규정 정보 서비스) 보안 정책
 
@@ -53,13 +53,13 @@ FBI에서는 CJIS 요구 사항을 준수 하는 Microsoft의 인증을 제공 �
 
 [Microsoft CJIS 클라우드 요구 사항](https://aka.ms/MicrosoftCJISCloudRequirements)
 
-## <a name="cjis-status-in-the-united-states"></a>미국에서의 CJIS 상태
+## <a name="cjis-status-in-the-united-states-current-as-of-9232019"></a>미국 (현재 상태는 9/23/2019) 인 CJIS 상태
 
-36: 관리 계약을 포함 한 콜롬비아의 학구 및 해당 지역에 녹색으로 강조 표시 됩니다.
+37: 관리 계약을 포함 한 콜롬비아의 학구 및 해당 지역에 녹색으로 강조 표시 됩니다.
 
-앨라배마, 알래스카, Arkansas, 애리조나, 캘리포니아, Colorado,, Florida, 인디애나, Illinois, Iowa,, Kansas, Maine, Massachusetts, Michigan, Minnesota, Missouri,,, 서울 Montana Pennsylvania, Rhode 아일랜드, 남부 Carolina, Tennessee, 텍사스, Utah, Vermont, Virginia, 인천, 인천 D.C., 서쪽 Virginia
+앨라배마, 알래스카, Arkansas, 애리조나, 캘리포니아, Colorado,, Florida, 인디애나, Illinois, Iowa,, Kansas, Maine, Massachusetts, Michigan, Minnesota, Missouri,,, 서울 Montana Pennsylvania, Rhode 아일랜드, 남부 Carolina, Tennessee, 텍사스, Utah, Vermont, Virginia, 인천,, and D.C., Virginia
 
-해당 하는 CJIS 규정 제어를 충족 하기 위해 Microsoft는 범죄자가 클라우드 기반 솔루션을 구현 하 고 CJIS 보안 정책 V 5.7과 호환 되도록 하는 것을 허용 합니다.
+해당 하는 CJIS 규정 제어를 충족 하기 위해 Microsoft는 범죄자가 클라우드 기반 솔루션을 구현 하 고 CJIS 보안 정책 V 5.8을 준수할 수 있도록 합니다.
 
 ## <a name="frequently-asked-questions"></a>자주하는 질문
 
