@@ -15,97 +15,97 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 6f916a77-301c-4be2-b407-6cec4d80df76
 description: 이 테스트 랩 가이드를 사용하여 Microsoft 365 Enterprise 테스트를 위한 간단한 테스트 환경을 만듭니다.
-ms.openlocfilehash: ff9577fb461429fd8d4628dc0eea6b8a35664fbc
-ms.sourcegitcommit: 9ee873c6a2f738a0c99921e036894b646742e706
+ms.openlocfilehash: fce612000fac79fe9552fa9882d6c48fdacda1c2
+ms.sourcegitcommit: ea48c86c727dcd9d4b3b970b14a4260337f158f9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38672744"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "38694125"
 ---
-# <a name="the-lightweight-base-configuration"></a><span data-ttu-id="6b375-103">간단한 기본 구성</span><span class="sxs-lookup"><span data-stu-id="6b375-103">The lightweight base configuration</span></span>
+# <a name="the-lightweight-base-configuration"></a><span data-ttu-id="01cf1-103">간단한 기본 구성</span><span class="sxs-lookup"><span data-stu-id="01cf1-103">The lightweight base configuration</span></span>
 
-<span data-ttu-id="6b375-104">*이 테스트 랩 가이드는 Microsoft 365 Enterprise와 Office 365 Enterprise 테스트 환경 모두에서 사용할 수 있습니다.*</span><span class="sxs-lookup"><span data-stu-id="6b375-104">*This Test Lab Guide can be used for both Microsoft 365 Enterprise and Office 365 Enterprise test environments.*</span></span>
+<span data-ttu-id="01cf1-104">*이 테스트 랩 가이드는 Microsoft 365 Enterprise와 Office 365 Enterprise 테스트 환경 모두에서 사용할 수 있습니다.*</span><span class="sxs-lookup"><span data-stu-id="01cf1-104">*This Test Lab Guide can be used for both Microsoft 365 Enterprise and Office 365 Enterprise test environments.*</span></span>
 
-<span data-ttu-id="6b375-105">이 문서에서는 Microsoft 365 E5 구독 및 Windows 10 Enterprise를 실행하는 컴퓨터에서 간소화된 환경을 만드는 방법에 대한 단계별 지침을 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="6b375-105">This article provides you with step-by-step instructions to create a simplified environment with a Microsoft 365 E5 subscription and a computer running Windows 10 Enterprise.</span></span> 
+<span data-ttu-id="01cf1-105">이 문서에서는 Microsoft 365 E5 구독 및 Windows 10 Enterprise를 실행하는 컴퓨터에서 간소화된 환경을 만드는 방법에 대한 단계별 지침을 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="01cf1-105">This article provides you with step-by-step instructions to create a simplified environment with a Microsoft 365 E5 subscription and a computer running Windows 10 Enterprise.</span></span> 
 
 ![간단한 Microsoft 365 Enterprise 테스트 환경](media/lightweight-base-configuration-microsoft-365-enterprise/Phase4.png)
 
-<span data-ttu-id="6b375-107">결과로 나타난 환경을 사용하여 [Microsoft 365 Enterprise](https://www.microsoft.com/microsoft-365/enterprise)의 기능을 테스트합니다.</span><span class="sxs-lookup"><span data-stu-id="6b375-107">Use the resulting environment to test the features and functionality of [Microsoft 365 Enterprise](https://www.microsoft.com/microsoft-365/enterprise).</span></span>
+<span data-ttu-id="01cf1-107">결과로 나타난 환경을 사용하여 [Microsoft 365 Enterprise](https://www.microsoft.com/microsoft-365/enterprise)의 기능을 테스트합니다.</span><span class="sxs-lookup"><span data-stu-id="01cf1-107">Use the resulting environment to test the features and functionality of [Microsoft 365 Enterprise](https://www.microsoft.com/microsoft-365/enterprise).</span></span>
 
 ![Microsoft 클라우드의 테스트 랩 가이드](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
   
 > [!TIP]
-> <span data-ttu-id="6b375-109">[여기](media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf)를 클릭하여 Microsoft 365 Enterprise 테스트 랩 가이드 스택의 모든 문서에 대한 가상 맵을 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6b375-109">Click [here](media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) for a visual map to all the articles in the Microsoft 365 Enterprise Test Lab Guide stack.</span></span>
+> <span data-ttu-id="01cf1-109">[여기](media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf)를 클릭하여 Microsoft 365 Enterprise 테스트 랩 가이드 스택의 모든 문서에 대한 가상 맵을 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="01cf1-109">Click [here](media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf) for a visual map to all the articles in the Microsoft 365 Enterprise Test Lab Guide stack.</span></span>
 
-## <a name="phase-1-create-your-office-365-e5-subscription"></a><span data-ttu-id="6b375-110">1단계: Office 365 E5 구독 만들기</span><span class="sxs-lookup"><span data-stu-id="6b375-110">Phase 1: Create your Office 365 E5 subscription</span></span>
+## <a name="phase-1-create-your-office-365-e5-subscription"></a><span data-ttu-id="01cf1-110">1단계: Office 365 E5 구독 만들기</span><span class="sxs-lookup"><span data-stu-id="01cf1-110">Phase 1: Create your Office 365 E5 subscription</span></span>
 
-<span data-ttu-id="6b375-111">Office 365 E5 평가판 구독으로 시작하여 Microsoft 365 E5 구독을 추가합니다.</span><span class="sxs-lookup"><span data-stu-id="6b375-111">We start with an Office 365 E5 trial subscription and then add the Microsoft 365 E5 subscription to it.</span></span>
+<span data-ttu-id="01cf1-111">Office 365 E5 평가판 구독으로 시작하여 Microsoft 365 E5 구독을 추가합니다.</span><span class="sxs-lookup"><span data-stu-id="01cf1-111">We start with an Office 365 E5 trial subscription and then add the Microsoft 365 E5 subscription to it.</span></span>
 
-<span data-ttu-id="6b375-112">Office 365 E5 평가판 구독을 시작하려면 먼저 가상의 회사 이름 및 새 Microsoft 계정이 필요합니다.</span><span class="sxs-lookup"><span data-stu-id="6b375-112">To start your Office 365 E5 trial subscription, you first need a fictitious company name and a new Microsoft account.</span></span>
+<span data-ttu-id="01cf1-112">Office 365 E5 평가판 구독을 시작하려면 먼저 가상의 회사 이름 및 새 Microsoft 계정이 필요합니다.</span><span class="sxs-lookup"><span data-stu-id="01cf1-112">To start your Office 365 E5 trial subscription, you first need a fictitious company name and a new Microsoft account.</span></span>
   
-1. <span data-ttu-id="6b375-p101">회사 이름으로 Microsoft 샘플 콘텐츠에 사용되는 가상의 회사인 Contoso의 변형을 사용하는 것이 좋지만 필수는 아닙니다. 여기에 가상의 회사 이름을 기록하세요. ![](./media/Common-Images/TableLine.png)</span><span class="sxs-lookup"><span data-stu-id="6b375-p101">We recommend that you use a variant of the company name Contoso for your company name, which is a fictitious company used in Microsoft sample content, but it isn't required. Record your fictitious company name here: ![](./media/Common-Images/TableLine.png)</span></span>
+1. <span data-ttu-id="01cf1-p101">회사 이름으로 Microsoft 샘플 콘텐츠에 사용되는 가상의 회사인 Contoso의 변형을 사용하는 것이 좋지만 필수는 아닙니다. 여기에 가상의 회사 이름을 기록하세요. ![](./media/Common-Images/TableLine.png)</span><span class="sxs-lookup"><span data-stu-id="01cf1-p101">We recommend that you use a variant of the company name Contoso for your company name, which is a fictitious company used in Microsoft sample content, but it isn't required. Record your fictitious company name here: ![](./media/Common-Images/TableLine.png)</span></span>
     
-2. <span data-ttu-id="6b375-p102">새 Microsoft 계정을 등록하려면으로 [https://outlook.com](https://outlook.com)으로 이동한 후 새 전자 메일 계정 및 주소를 사용하여 계정을 만듭니다. 이 계정을 사용하여 Office 365에 등록합니다.</span><span class="sxs-lookup"><span data-stu-id="6b375-p102">To sign up for a new Microsoft account, go to [https://outlook.com](https://outlook.com) and create an account with a new email account and address. You will use this account to sign up for Office 365.</span></span>
+2. <span data-ttu-id="01cf1-p102">새 Microsoft 계정을 등록하려면으로 [https://outlook.com](https://outlook.com)으로 이동한 후 새 전자 메일 계정 및 주소를 사용하여 계정을 만듭니다. 이 계정을 사용하여 Office 365에 등록합니다.</span><span class="sxs-lookup"><span data-stu-id="01cf1-p102">To sign up for a new Microsoft account, go to [https://outlook.com](https://outlook.com) and create an account with a new email account and address. You will use this account to sign up for Office 365.</span></span>
     
-  - <span data-ttu-id="6b375-117">여기에 새 계정의 이름과 성을 기록합니다. ![](./media/Common-Images/TableLine.png)</span><span class="sxs-lookup"><span data-stu-id="6b375-117">Record the first and last name of your new account here: ![](./media/Common-Images/TableLine.png)</span></span>
+  - <span data-ttu-id="01cf1-117">여기에 새 계정의 이름과 성을 기록합니다. ![](./media/Common-Images/TableLine.png)</span><span class="sxs-lookup"><span data-stu-id="01cf1-117">Record the first and last name of your new account here: ![](./media/Common-Images/TableLine.png)</span></span>
     
-  - <span data-ttu-id="6b375-118">여기서 새 전자 메일 계정 주소를 기록합니다. ![](./media/Common-Images/TableLine.png)@outlook.com</span><span class="sxs-lookup"><span data-stu-id="6b375-118">Record the new email account address here: ![](./media/Common-Images/TableLine.png)@outlook.com</span></span>
+  - <span data-ttu-id="01cf1-118">여기서 새 전자 메일 계정 주소를 기록합니다. ![](./media/Common-Images/TableLine.png)@outlook.com</span><span class="sxs-lookup"><span data-stu-id="01cf1-118">Record the new email account address here: ![](./media/Common-Images/TableLine.png)@outlook.com</span></span>
     
-### <a name="sign-up-for-an-office-365-e5-trial-subscription"></a><span data-ttu-id="6b375-119">Office 365 E5 평가판 구독 등록</span><span class="sxs-lookup"><span data-stu-id="6b375-119">Sign up for an Office 365 E5 trial subscription</span></span>
+### <a name="sign-up-for-an-office-365-e5-trial-subscription"></a><span data-ttu-id="01cf1-119">Office 365 E5 평가판 구독 등록</span><span class="sxs-lookup"><span data-stu-id="01cf1-119">Sign up for an Office 365 E5 trial subscription</span></span>
 
-1. <span data-ttu-id="6b375-120">컴퓨터에서 인터넷 브라우저를 열고 [https://aka.ms/e5trial](https://aka.ms/e5trial)으로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="6b375-120">For the lightweight Office 365 dev/test environment, open the Internet browser on your computer and go to [https://aka.ms/e5trial](https://aka.ms/e5trial).</span></span>
+1. <span data-ttu-id="01cf1-120">컴퓨터에서 인터넷 브라우저를 열고 [https://aka.ms/e5trial](https://aka.ms/e5trial)으로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="01cf1-120">Open the Internet browser on your computer and go to [https://aka.ms/e5trial](https://aka.ms/e5trial).</span></span>
     
-2. <span data-ttu-id="6b375-121">**반갑습니다. 자기소개 정보를 제공해 주세요.** 페이지에서 다음을 지정합니다.</span><span class="sxs-lookup"><span data-stu-id="6b375-121">On the **Welcome, let's get to know you** page, specify:</span></span>
+2. <span data-ttu-id="01cf1-121">**반갑습니다. 자기소개 정보를 제공해 주세요.** 페이지에서 다음을 지정합니다.</span><span class="sxs-lookup"><span data-stu-id="01cf1-121">On the **Welcome, let's get to know you** page, specify:</span></span>
     
-  - <span data-ttu-id="6b375-122">사용자의 실제 위치</span><span class="sxs-lookup"><span data-stu-id="6b375-122">Your physical location</span></span>
+  - <span data-ttu-id="01cf1-122">사용자의 실제 위치</span><span class="sxs-lookup"><span data-stu-id="01cf1-122">Your physical location</span></span>
     
-  - <span data-ttu-id="6b375-123">새 Microsoft 계정의 이름 및 성</span><span class="sxs-lookup"><span data-stu-id="6b375-123">The first and last name of your new Microsoft account</span></span>
+  - <span data-ttu-id="01cf1-123">새 Microsoft 계정의 이름 및 성</span><span class="sxs-lookup"><span data-stu-id="01cf1-123">The first and last name of your new Microsoft account</span></span>
     
-  - <span data-ttu-id="6b375-124">새 전자 메일 계정 주소</span><span class="sxs-lookup"><span data-stu-id="6b375-124">Your new email account address</span></span>
+  - <span data-ttu-id="01cf1-124">새 전자 메일 계정 주소</span><span class="sxs-lookup"><span data-stu-id="01cf1-124">Your new email account address</span></span>
     
-  - <span data-ttu-id="6b375-125">회사 전화 번호</span><span class="sxs-lookup"><span data-stu-id="6b375-125">A business phone number</span></span>
+  - <span data-ttu-id="01cf1-125">회사 전화 번호</span><span class="sxs-lookup"><span data-stu-id="01cf1-125">A business phone number</span></span>
     
-  - <span data-ttu-id="6b375-126">가상의 회사 이름</span><span class="sxs-lookup"><span data-stu-id="6b375-126">Your fictional company name</span></span>
+  - <span data-ttu-id="01cf1-126">가상의 회사 이름</span><span class="sxs-lookup"><span data-stu-id="01cf1-126">Your fictional company name</span></span>
     
-  - <span data-ttu-id="6b375-127">250-999명의 사용자로 구성된 조직 규모</span><span class="sxs-lookup"><span data-stu-id="6b375-127">An organization size of 250-999 people</span></span>
+  - <span data-ttu-id="01cf1-127">250-999명의 사용자로 구성된 조직 규모</span><span class="sxs-lookup"><span data-stu-id="01cf1-127">An organization size of 250-999 people</span></span>
     
-3. <span data-ttu-id="6b375-128">**마지막 단계만 남음**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="6b375-128">Click **Just one more step**.</span></span>
+3. <span data-ttu-id="01cf1-128">**마지막 단계만 남음**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="01cf1-128">Click **Just one more step**.</span></span>
     
-4. <span data-ttu-id="6b375-129">**사용자 ID 만들기** 페이지에서 새 전자 메일 주소를 기준으로 하는 사용자 이름을 입력하고 @ 기호를 입력한 후 가상의 회사를 입력하고(이름에서 모든 공백 제거), 이 새 Office 365 계정에 대한 암호를 입력합니다(두 번).</span><span class="sxs-lookup"><span data-stu-id="6b375-129">On the **Create your user ID** page, type a user name based on your new email address, your fictional company after the @ sign (remove all spaces in the name), then a password (twice) for this new Office 365 account.</span></span>
+4. <span data-ttu-id="01cf1-129">**사용자 ID 만들기** 페이지에서 새 전자 메일 주소를 기준으로 하는 사용자 이름을 입력하고 @ 기호를 입력한 후 가상의 회사를 입력하고(이름에서 모든 공백 제거), 이 새 Office 365 계정에 대한 암호를 입력합니다(두 번).</span><span class="sxs-lookup"><span data-stu-id="01cf1-129">On the **Create your user ID** page, type a user name based on your new email address, your fictional company after the @ sign (remove all spaces in the name), then a password (twice) for this new Office 365 account.</span></span>
     
-    <span data-ttu-id="6b375-130">입력한 암호를 안전한 위치에 기록해둡니다.</span><span class="sxs-lookup"><span data-stu-id="6b375-130">Record the password that you typed in a secure location.</span></span>
+    <span data-ttu-id="01cf1-130">입력한 암호를 안전한 위치에 기록해둡니다.</span><span class="sxs-lookup"><span data-stu-id="01cf1-130">Record the password that you typed in a secure location.</span></span>
     
-    <span data-ttu-id="6b375-131">**조직 이름**으로 지칭될 가상의 회사 이름을 여기에 기록합니다. ![](./media/Common-Images/TableLine.png)</span><span class="sxs-lookup"><span data-stu-id="6b375-131">Record your fictional company name, to be referred to as the **organization name**, here: ![](./media/Common-Images/TableLine.png)</span></span>
+    <span data-ttu-id="01cf1-131">**조직 이름**으로 지칭될 가상의 회사 이름을 여기에 기록합니다. ![](./media/Common-Images/TableLine.png)</span><span class="sxs-lookup"><span data-stu-id="01cf1-131">Record your fictional company name, to be referred to as the **organization name**, here: ![](./media/Common-Images/TableLine.png)</span></span>
     
-5. <span data-ttu-id="6b375-132">**내 계정 만들기**를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="6b375-132">Click **Create my account**.</span></span>
+5. <span data-ttu-id="01cf1-132">**내 계정 만들기**를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="01cf1-132">Click **Create my account**.</span></span>
     
-6. <span data-ttu-id="6b375-p103">**자동 가입 방지를 위한 절차입니다.** 페이지에서 문자 입력이 가능한 휴대폰의 전화 번호를 입력하고 **문자 메시지 받기**를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="6b375-p103">On the **Prove. You're. Not. A. Robot.** page, type the phone number of your text-capable phone, and then click **Text me**.</span></span>
+6. <span data-ttu-id="01cf1-p103">**자동 가입 방지를 위한 절차입니다.** 페이지에서 문자 입력이 가능한 휴대폰의 전화 번호를 입력하고 **문자 메시지 받기**를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="01cf1-p103">On the **Prove. You're. Not. A. Robot.** page, type the phone number of your text-capable phone, and then click **Text me**.</span></span>
     
-7. <span data-ttu-id="6b375-135">받은 문자 메시지의 확인 코드를 입력하고 **다음**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="6b375-135">Type the verification code from the received text message, and then click **Next**.</span></span>
+7. <span data-ttu-id="01cf1-135">받은 문자 메시지의 확인 코드를 입력하고 **다음**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="01cf1-135">Type the verification code from the received text message, and then click **Next**.</span></span>
     
-8. <span data-ttu-id="6b375-136">여기에 로그인 페이지 URL을 기록합니다(선택 후 복사). ![](./media/Common-Images/TableLine.png)</span><span class="sxs-lookup"><span data-stu-id="6b375-136">Record the sign-in page URL here (select and copy): ![](./media/Common-Images/TableLine.png)</span></span>
+8. <span data-ttu-id="01cf1-136">여기에 로그인 페이지 URL을 기록합니다(선택 후 복사). ![](./media/Common-Images/TableLine.png)</span><span class="sxs-lookup"><span data-stu-id="01cf1-136">Record the sign-in page URL here (select and copy): ![](./media/Common-Images/TableLine.png)</span></span>
     
-9. <span data-ttu-id="6b375-137">여기에 사용자 ID를 기록합니다(선택 후 복사). ![](./media/Common-Images/TableLine.png).onmicrosoft.com</span><span class="sxs-lookup"><span data-stu-id="6b375-137">Record the user ID here (select and copy): ![](./media/Common-Images/TableLine.png).onmicrosoft.com</span></span>
+9. <span data-ttu-id="01cf1-137">여기에 사용자 ID를 기록합니다(선택 후 복사). ![](./media/Common-Images/TableLine.png).onmicrosoft.com</span><span class="sxs-lookup"><span data-stu-id="01cf1-137">Record the user ID here (select and copy): ![](./media/Common-Images/TableLine.png).onmicrosoft.com</span></span>
     
-    <span data-ttu-id="6b375-138">이 값은 **Office 365 전역 관리자 이름**으로 사용됩니다.</span><span class="sxs-lookup"><span data-stu-id="6b375-138">This value will be referred to as the **Office 365 global administrator name**.</span></span>
+    <span data-ttu-id="01cf1-138">이 값은 **Office 365 전역 관리자 이름**으로 사용됩니다.</span><span class="sxs-lookup"><span data-stu-id="01cf1-138">This value will be referred to as the **Office 365 global administrator name**.</span></span>
     
-10. <span data-ttu-id="6b375-139">**준비가 되었습니다.** 가 표시되면 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="6b375-139">When you see **You're ready to go**, click it.</span></span>
+10. <span data-ttu-id="01cf1-139">**준비가 되었습니다.** 가 표시되면 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="01cf1-139">When you see **You're ready to go**, click it.</span></span>
     
-11. <span data-ttu-id="6b375-140">다음 페이지에서 Office 365 설정이 완료되고 모든 타일을 사용할 수 있게 될 때까지 기다립니다.</span><span class="sxs-lookup"><span data-stu-id="6b375-140">On the next page, wait until Office 365 completes setting up and all the tiles are available.</span></span>
+11. <span data-ttu-id="01cf1-140">다음 페이지에서 Office 365 설정이 완료되고 모든 타일을 사용할 수 있게 될 때까지 기다립니다.</span><span class="sxs-lookup"><span data-stu-id="01cf1-140">On the next page, wait until Office 365 completes setting up and all the tiles are available.</span></span>
     
-<span data-ttu-id="6b375-141">Office 서비스 및 Microsoft 365 관리 센터에 액세스할 수 있는 기본 Office 365 포털 페이지가 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="6b375-141">You should see main Office 365 portal page from which you can access Office services and the Microsoft 365 admin center.</span></span>
+<span data-ttu-id="01cf1-141">Office 서비스 및 Microsoft 365 관리 센터에 액세스할 수 있는 기본 Office 365 포털 페이지가 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="01cf1-141">You should see main Office 365 portal page from which you can access Office services and the Microsoft 365 admin center.</span></span>
   
-<span data-ttu-id="6b375-142">우리는 사용자의 Office 365의 평가판 구독을 생성하여 개발/테스트 환경에 사용자가 현재 보유하고 있는 유료 구독과 별도의 Azure AD 테넌트를 보유하게 합니다.</span><span class="sxs-lookup"><span data-stu-id="6b375-142">We have you create a trial subscription of Office 365 so that your dev/test environment has a separate Azure AD tenant from any paid subscriptions you currently have.</span></span> <span data-ttu-id="6b375-143">이러한 분리는 프로덕션 구독에 영향을 주지 않고 테스트 테넌트의 사용자 및 그룹을 추가 및 제거할 수 있음을 의미합니다.</span><span class="sxs-lookup"><span data-stu-id="6b375-143">This separation means you can add and remove users and groups in the test tenant without affecting your production subscriptions.</span></span>
+<span data-ttu-id="01cf1-142">우리는 사용자의 Office 365의 평가판 구독을 생성하여 개발/테스트 환경에 사용자가 현재 보유하고 있는 유료 구독과 별도의 Azure AD 테넌트를 보유하게 합니다.</span><span class="sxs-lookup"><span data-stu-id="01cf1-142">We have you create a trial subscription of Office 365 so that your dev/test environment has a separate Azure AD tenant from any paid subscriptions you currently have.</span></span> <span data-ttu-id="01cf1-143">이러한 분리는 프로덕션 구독에 영향을 주지 않고 테스트 테넌트의 사용자 및 그룹을 추가 및 제거할 수 있음을 의미합니다.</span><span class="sxs-lookup"><span data-stu-id="01cf1-143">This separation means you can add and remove users and groups in the test tenant without affecting your production subscriptions.</span></span>
     
-## <a name="phase-2-configure-your-office-365-trial-subscription"></a><span data-ttu-id="6b375-144">2단계: Office 365 평가판 구독 구성</span><span class="sxs-lookup"><span data-stu-id="6b375-144">Phase 3: Configure your Office 365 trial subscription</span></span>
+## <a name="phase-2-configure-your-office-365-trial-subscription"></a><span data-ttu-id="01cf1-144">2단계: Office 365 평가판 구독 구성</span><span class="sxs-lookup"><span data-stu-id="01cf1-144">Phase 2: Configure your Office 365 trial subscription</span></span>
 
-<span data-ttu-id="6b375-145">이 단계에서는 추가 사용자로 Office 365 구독을 구성하고 Office 365 E5 라이선스를 할당합니다.</span><span class="sxs-lookup"><span data-stu-id="6b375-145">In this phase, you configure your Office 365 subscription with additional users and assign them Office 365 E5 licenses.</span></span>
+<span data-ttu-id="01cf1-145">이 단계에서는 추가 사용자로 Office 365 구독을 구성하고 Office 365 E5 라이선스를 할당합니다.</span><span class="sxs-lookup"><span data-stu-id="01cf1-145">In this phase, you configure your Office 365 subscription with additional users and assign them Office 365 E5 licenses.</span></span>
   
-<span data-ttu-id="6b375-146">[Office 365 PowerShell에 연결](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module)의 지침을 사용하여 컴퓨터에서 그래프 모듈용 Azure Active Directory PowerShell을 사용하여 Office 365 구독에 연결합니다.</span><span class="sxs-lookup"><span data-stu-id="6b375-146">Use the instructions in [Connect to Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module) to connect to your Office 365 subscription with the Azure Active Directory PowerShell for Graph module from:</span></span>
+<span data-ttu-id="01cf1-146">[Office 365 PowerShell에 연결](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module)의 지침을 사용하여 컴퓨터에서 그래프 모듈용 Azure Active Directory PowerShell을 사용하여 Office 365 구독에 연결합니다.</span><span class="sxs-lookup"><span data-stu-id="01cf1-146">Use the instructions in [Connect to Office 365 PowerShell](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module) to connect to your Office 365 subscription with the Azure Active Directory PowerShell for Graph module from your computer.</span></span>
     
-<span data-ttu-id="6b375-147">Windows PowerShell 자격 증명 요청 대화 상자에서 Office 365 전역 관리자 이름(예: jdoe@contosotoycompany.onmicrosoft.com)과 암호를 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="6b375-147">In the Windows PowerShell Credential Request dialog box, type the Office 365 global administrator name (example: jdoe@contosotoycompany.onmicrosoft.com) and password.</span></span>
+<span data-ttu-id="01cf1-147">Windows PowerShell 자격 증명 요청 대화 상자에서 Office 365 전역 관리자 이름(예: jdoe@contosotoycompany.onmicrosoft.com)과 암호를 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="01cf1-147">In the Windows PowerShell Credential Request dialog box, type the Office 365 global administrator name (example: jdoe@contosotoycompany.onmicrosoft.com) and password.</span></span>
   
-<span data-ttu-id="6b375-148">조직 이름(예 : contosotoycompany), 위치에 대한 2 자리 국가 코드, 공통 계정 암호를 입력 한 다음 PowerShell 프롬프트에서 다음 명령을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="6b375-148">Fill in your organization name (example: contosotoycompany), the two-character country code for your location, a common account password, and then run the following commands from the PowerShell prompt:</span></span>
+<span data-ttu-id="01cf1-148">조직 이름(예 : contosotoycompany), 위치에 대한 2 자리 국가 코드, 공통 계정 암호를 입력 한 다음 PowerShell 프롬프트에서 다음 명령을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="01cf1-148">Fill in your organization name (example: contosotoycompany), the two-character country code for your location, a common account password, and then run the following commands from the PowerShell prompt:</span></span>
 
 ```powershell
 $orgName="<organization name>"
@@ -139,132 +139,132 @@ $LicensesToAssign.AddLicenses = $License
 Set-AzureADUserLicense -ObjectId $userUPN -AssignedLicenses $LicensesToAssign
 ```
 > [!NOTE]
-> <span data-ttu-id="6b375-149">여기서 공통 암호를 사용하는 것은 자동화 및 개발/테스트 환경에 대한 구성 용이성을 위한 것입니다.</span><span class="sxs-lookup"><span data-stu-id="6b375-149">The use of a common password here is for automation and ease of configuration for a dev/test environment.</span></span> <span data-ttu-id="6b375-150">물론 프로덕션 구독에서는 공통 암호를 사용하지 않는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="6b375-150">Obviously, this is highly discouraged for production subscriptions.</span></span> 
+> <span data-ttu-id="01cf1-149">여기서 공통 암호를 사용하는 것은 자동화 및 개발/테스트 환경에 대한 구성 용이성을 위한 것입니다.</span><span class="sxs-lookup"><span data-stu-id="01cf1-149">The use of a common password here is for automation and ease of configuration for a dev/test environment.</span></span> <span data-ttu-id="01cf1-150">물론 프로덕션 구독에서는 공통 암호를 사용하지 않는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="01cf1-150">Obviously, this is highly discouraged for production subscriptions.</span></span> 
 
-### <a name="record-key-information-for-future-reference"></a><span data-ttu-id="6b375-151">나중에 참조할 수 있도록 주요 정보 기록</span><span class="sxs-lookup"><span data-stu-id="6b375-151">Record key information for future reference</span></span>
+### <a name="record-key-information-for-future-reference"></a><span data-ttu-id="01cf1-151">나중에 참조할 수 있도록 주요 정보 기록</span><span class="sxs-lookup"><span data-stu-id="01cf1-151">Record key information for future reference</span></span>
 
-<span data-ttu-id="6b375-152">이 문서를 인쇄하여 30일 동안의 Office 365 평가판 구독 기간 동안 환경에 필요한 특정 정보를 기록할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6b375-152">You might want to print this article to record the specific values that you will need for this environment over the 30 days of the Office 365 trial subscription. You can easily extend the trail subscription for another 30 days. For a permanent dev/test environment, create a new paid subscription with a small number of licenses.</span></span> <span data-ttu-id="6b375-153">추가 30일 동안 평가판 구독을 쉽게 연장할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6b375-153">You can easily extend the trail subscription for another 30 days.</span></span> <span data-ttu-id="6b375-154">영구 개발/테스트 환경의 경우 별도의 Azure AD 테넌트와 소수의 라이선스를 사용해서 유료 구독을 새로 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="6b375-154">For a permanent dev/test environment, create a new paid subscription with a small number of licenses.</span></span>
+<span data-ttu-id="01cf1-152">이 문서를 인쇄하여 30일 동안의 Office 365 평가판 구독 기간 동안 환경에 필요한 특정 정보를 기록할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="01cf1-152">You might want to print this article to record the specific information that you will need for this environment over the 30 days of the Office 365 trial subscription.</span></span> <span data-ttu-id="01cf1-153">추가 30일 동안 평가판 구독을 쉽게 연장할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="01cf1-153">You can easily extend the trail subscription for another 30 days.</span></span> <span data-ttu-id="01cf1-154">영구 개발/테스트 환경의 경우 별도의 Azure AD 테넌트와 소수의 라이선스를 사용해서 유료 구독을 새로 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="01cf1-154">For a permanent dev/test environment, create a new paid subscription with a separate Azure AD tenant and a small number of licenses.</span></span>
 
-<span data-ttu-id="6b375-155">다음 값을 기록합니다.</span><span class="sxs-lookup"><span data-stu-id="6b375-155">Record these values:</span></span>
+<span data-ttu-id="01cf1-155">다음 값을 기록합니다.</span><span class="sxs-lookup"><span data-stu-id="01cf1-155">Record these values:</span></span>
   
-- <span data-ttu-id="6b375-156">Office 365 전역 관리자 이름: ![](./media/Common-Images/TableLine.png).onmicrosoft.com(2단계의 9번째 작업 단계)</span><span class="sxs-lookup"><span data-stu-id="6b375-156">Office 365 global administrator name: ![](./media/Common-Images/TableLine.png).onmicrosoft.com (from step 9 of Phase 2)</span></span>
+- <span data-ttu-id="01cf1-156">Office 365 전역 관리자 이름: ![](./media/Common-Images/TableLine.png).onmicrosoft.com(2단계의 9번째 작업 단계)</span><span class="sxs-lookup"><span data-stu-id="01cf1-156">Office 365 global administrator name: ![](./media/Common-Images/TableLine.png).onmicrosoft.com (from step 9 of Phase 2)</span></span>
     
-    <span data-ttu-id="6b375-157">이 계정의 암호도 안전한 위치에 적어둡니다.</span><span class="sxs-lookup"><span data-stu-id="6b375-157">Also record the password for this account in a secure location.</span></span>
+    <span data-ttu-id="01cf1-157">이 계정의 암호도 안전한 위치에 적어둡니다.</span><span class="sxs-lookup"><span data-stu-id="01cf1-157">Also record the password for this account in a secure location.</span></span>
     
-- <span data-ttu-id="6b375-158">평가판 구독 조 직 이름: ![](./media/Common-Images/TableLine.png)(4단계의 2번째 작업 단계)</span><span class="sxs-lookup"><span data-stu-id="6b375-158">Your trial subscription organization name: ![](./media/Common-Images/TableLine.png) (from step 4 of Phase 2)</span></span>
+- <span data-ttu-id="01cf1-158">평가판 구독 조 직 이름: ![](./media/Common-Images/TableLine.png)(4단계의 2번째 작업 단계)</span><span class="sxs-lookup"><span data-stu-id="01cf1-158">Your trial subscription organization name: ![](./media/Common-Images/TableLine.png) (from step 4 of Phase 2)</span></span>
     
-- <span data-ttu-id="6b375-159">사용자 2, 사용자 3, 사용자 4, 사용자 5에 대한 계정을 나열하려면 Windows PowerShell 프롬프트에 대한 Microsoft Azure Active Directory 모듈에서 다음 명령을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="6b375-159">To list the accounts for User 2, User 3, User 4, and User 5, run the following command from the Windows Azure Active Directory Module for Windows PowerShell prompt:</span></span>
+- <span data-ttu-id="01cf1-159">사용자 2, 사용자 3, 사용자 4, 사용자 5에 대한 계정을 나열하려면 Windows PowerShell 프롬프트에 대한 Microsoft Azure Active Directory 모듈에서 다음 명령을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="01cf1-159">To list the accounts for User 2, User 3, User 4, and User 5, run the following command from the Windows Azure Active Directory Module for Windows PowerShell prompt:</span></span>
     
   ```powershell
   Get-AzureADUser | Sort UserPrincipalName | Select UserPrincipalName
   ```
 
-    <span data-ttu-id="6b375-160">여기에 계정 이름을 기록합니다.</span><span class="sxs-lookup"><span data-stu-id="6b375-160">Record the account names here:</span></span>
+    <span data-ttu-id="01cf1-160">여기에 계정 이름을 기록합니다.</span><span class="sxs-lookup"><span data-stu-id="01cf1-160">Record the account names here:</span></span>
     
-  - <span data-ttu-id="6b375-161">사용자 2 계정 이름: user2@![](./media/Common-Images/TableLine.png).onmicrosoft.com</span><span class="sxs-lookup"><span data-stu-id="6b375-161">User 2 account name: user2@![](./media/Common-Images/TableLine.png).onmicrosoft.com</span></span>
+  - <span data-ttu-id="01cf1-161">사용자 2 계정 이름: user2@![](./media/Common-Images/TableLine.png).onmicrosoft.com</span><span class="sxs-lookup"><span data-stu-id="01cf1-161">User 2 account name: user2@![](./media/Common-Images/TableLine.png).onmicrosoft.com</span></span>
     
-  - <span data-ttu-id="6b375-162">사용자 3 계정 이름: user3@![](./media/Common-Images/TableLine.png).onmicrosoft.com</span><span class="sxs-lookup"><span data-stu-id="6b375-162">User 3 account name: user3@![](./media/Common-Images/TableLine.png).onmicrosoft.com</span></span>
+  - <span data-ttu-id="01cf1-162">사용자 3 계정 이름: user3@![](./media/Common-Images/TableLine.png).onmicrosoft.com</span><span class="sxs-lookup"><span data-stu-id="01cf1-162">User 3 account name: user3@![](./media/Common-Images/TableLine.png).onmicrosoft.com</span></span>
     
-  - <span data-ttu-id="6b375-163">사용자 4 계정 이름: user4@![](./media/Common-Images/TableLine.png).onmicrosoft.com</span><span class="sxs-lookup"><span data-stu-id="6b375-163">User 4 account name: user4@![](./media/Common-Images/TableLine.png).onmicrosoft.com</span></span>
+  - <span data-ttu-id="01cf1-163">사용자 4 계정 이름: user4@![](./media/Common-Images/TableLine.png).onmicrosoft.com</span><span class="sxs-lookup"><span data-stu-id="01cf1-163">User 4 account name: user4@![](./media/Common-Images/TableLine.png).onmicrosoft.com</span></span>
     
-  - <span data-ttu-id="6b375-164">사용자 5 계정 이름: user5@![](./media/Common-Images/TableLine.png).onmicrosoft.com</span><span class="sxs-lookup"><span data-stu-id="6b375-164">User 5 account name: user5@![](./media/Common-Images/TableLine.png).onmicrosoft.com</span></span>
+  - <span data-ttu-id="01cf1-164">사용자 5 계정 이름: user5@![](./media/Common-Images/TableLine.png).onmicrosoft.com</span><span class="sxs-lookup"><span data-stu-id="01cf1-164">User 5 account name: user5@![](./media/Common-Images/TableLine.png).onmicrosoft.com</span></span>
     
-    <span data-ttu-id="6b375-165">해당 계정의 공통 암호도 안전한 위치에 적어둡니다.</span><span class="sxs-lookup"><span data-stu-id="6b375-165">Also record the passwords for these accounts in a secure location.</span></span>
+    <span data-ttu-id="01cf1-165">해당 계정의 공통 암호도 안전한 위치에 적어둡니다.</span><span class="sxs-lookup"><span data-stu-id="01cf1-165">Also record the common password for these accounts in a secure location.</span></span>
    
 
-### <a name="using-an-office-365-devtest-environment"></a><span data-ttu-id="6b375-166">Office 365 개발/테스트 환경 사용</span><span class="sxs-lookup"><span data-stu-id="6b375-166">Phase 1: Create an Office 365 dev/test environment</span></span>
+### <a name="using-an-office-365-devtest-environment"></a><span data-ttu-id="01cf1-166">Office 365 개발/테스트 환경 사용</span><span class="sxs-lookup"><span data-stu-id="01cf1-166">Using an Office 365 dev/test environment</span></span>
 
-<span data-ttu-id="6b375-167">Office 365 개발/테스트 환경만을 필요로 하는 경우 여기에서 중단할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6b375-167">If all you need is an Office 365 dev/test environment, you can stop here.</span></span> 
+<span data-ttu-id="01cf1-167">Office 365 개발/테스트 환경만을 필요로 하는 경우 여기에서 중단할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="01cf1-167">If all you need is an Office 365 dev/test environment, you can stop here.</span></span> 
 
-<span data-ttu-id="6b375-168">Office 365 및 Microsoft 365 모두에 적용되는 추가 테스트 랩 가이드는 [Microsoft 365 Enterprise 테스트 랩 가이드](m365-enterprise-test-lab-guides.md)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="6b375-168">See [Microsoft 365 Enterprise Test Lab Guides](m365-enterprise-test-lab-guides.md) for additional Test Lab Guides that apply to both Office 365 and Microsoft 365.</span></span>
+<span data-ttu-id="01cf1-168">Office 365 및 Microsoft 365 모두에 적용되는 추가 테스트 랩 가이드는 [Microsoft 365 Enterprise 테스트 랩 가이드](m365-enterprise-test-lab-guides.md)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="01cf1-168">See [Microsoft 365 Enterprise Test Lab Guides](m365-enterprise-test-lab-guides.md) for additional Test Lab Guides that apply to both Office 365 and Microsoft 365.</span></span>
   
-## <a name="phase-3-add-a-microsoft-365-e5-trial-subscription"></a><span data-ttu-id="6b375-169">3단계: Microsoft 365 E5 평가판 구독 추가.</span><span class="sxs-lookup"><span data-stu-id="6b375-169">Phase 2: Add a Microsoft 365 E5 trial subscription</span></span>
+## <a name="phase-3-add-a-microsoft-365-e5-trial-subscription"></a><span data-ttu-id="01cf1-169">3단계: Microsoft 365 E5 평가판 구독 추가.</span><span class="sxs-lookup"><span data-stu-id="01cf1-169">Phase 3: Add a Microsoft 365 E5 trial subscription</span></span>
 
-<span data-ttu-id="6b375-170">이 단계에서는 Microsoft 365 E5 평가판 구독을 등록하고 Office 365 E5 평가판 구독과 동일한 조직에 추가합니다.</span><span class="sxs-lookup"><span data-stu-id="6b375-170">In this phase, you sign up for the Microsoft 365 E5 trial subscription and add it to the same organization as your Office 365 E5 trial subscription.</span></span>
+<span data-ttu-id="01cf1-170">이 단계에서는 Microsoft 365 E5 평가판 구독을 등록하고 Office 365 E5 평가판 구독과 동일한 조직에 추가합니다.</span><span class="sxs-lookup"><span data-stu-id="01cf1-170">In this phase, you sign up for the Microsoft 365 E5 trial subscription and add it to the same organization as your Office 365 E5 trial subscription.</span></span>
   
-<span data-ttu-id="6b375-171">우선, Microsoft 365 E5 평가판 구독을 추가하고 전역 관리자 계정에 Microsoft 365 라이선스를 할당합니다.</span><span class="sxs-lookup"><span data-stu-id="6b375-171">First, add the Microsoft 365 E5 trial subscription and assign a Microsoft 365 license to your global administrator account.</span></span>
+<span data-ttu-id="01cf1-171">우선, Microsoft 365 E5 평가판 구독을 추가하고 전역 관리자 계정에 Microsoft 365 라이선스를 할당합니다.</span><span class="sxs-lookup"><span data-stu-id="01cf1-171">First, add the Microsoft 365 E5 trial subscription and assign a Microsoft 365 license to your global administrator account.</span></span>
   
-1. <span data-ttu-id="6b375-172">인터넷 브라우저의 개인 인스턴스를 사용하고 전역 관리자 계정 자격 증명으로 [https://admin.microsoft.com](https://admin.microsoft.com)의 Microsoft 365 관리 센터에 로그인합니다.</span><span class="sxs-lookup"><span data-stu-id="6b375-172">With a private instance of an Internet browser, sign in to the Microsoft 365 admin center at [https://admin.microsoft.com](https://admin.microsoft.com) with your global administrator account credentials.</span></span>
+1. <span data-ttu-id="01cf1-172">인터넷 브라우저의 개인 인스턴스를 사용하고 전역 관리자 계정 자격 증명으로 [https://admin.microsoft.com](https://admin.microsoft.com)의 Microsoft 365 관리 센터에 로그인합니다.</span><span class="sxs-lookup"><span data-stu-id="01cf1-172">With a private instance of an Internet browser, sign in to the Microsoft 365 admin center at [https://admin.microsoft.com](https://admin.microsoft.com) with your global administrator account credentials.</span></span>
     
-2. <span data-ttu-id="6b375-173">**Microsoft 365 관리 센터** 페이지에 있는 왼쪽 탐색 영역에서 **대금 청구 > 서비스 구매**를 차례로 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="6b375-173">On the **Microsoft 365 admin center** page, in the left navigation, click **Billing > Purchase services**.</span></span>
+2. <span data-ttu-id="01cf1-173">**Microsoft 365 관리 센터** 페이지에 있는 왼쪽 탐색 영역에서 **대금 청구 > 서비스 구매**를 차례로 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="01cf1-173">On the **Microsoft 365 admin center** page, in the left navigation, click **Billing > Purchase services**.</span></span>
     
-3. <span data-ttu-id="6b375-174">**서비스 구매** 페이지에서, **Microsoft 365 E5** 항목을 찾습니다.</span><span class="sxs-lookup"><span data-stu-id="6b375-174">On the **Purchase services** page, find the **Microsoft 365 E5** item.</span></span> <span data-ttu-id="6b375-175">마우스 포인터를 가져간 후 **평가판 시작**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="6b375-175">Hover your mouse pointer over it and click **Start free trial**.</span></span>
+3. <span data-ttu-id="01cf1-174">**서비스 구매** 페이지에서, **Microsoft 365 E5** 항목을 찾습니다.</span><span class="sxs-lookup"><span data-stu-id="01cf1-174">On the **Purchase services** page, find the **Microsoft 365 E5** item.</span></span> <span data-ttu-id="01cf1-175">마우스 포인터를 가져간 후 **평가판 시작**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="01cf1-175">Hover your mouse pointer over it and click **Start free trial**.</span></span>
 
-4. <span data-ttu-id="6b375-176">**Microsoft 365 E5 평가판** 페이지에서 텍스트 또는 전화를 받도록 선택한 다음, 전화 번호를 입력하고, **문자 받기** 또는 **전화 받기**를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="6b375-176">On the **Microsoft 365 E5 Trial** page, choose to receive a text or a call, enter your phone number, then click **Text me** or **Call me**.</span></span>
+4. <span data-ttu-id="01cf1-176">**Microsoft 365 E5 평가판** 페이지에서 텍스트 또는 전화를 받도록 선택한 다음, 전화 번호를 입력하고, **문자 받기** 또는 **전화 받기**를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="01cf1-176">On the **Microsoft 365 E5 Trial** page, choose to receive a text or a call, enter your phone number, then click **Text me** or **Call me**.</span></span>
 
-5. <span data-ttu-id="6b375-177">**주문 확인** 페이지에서 **지금 평가판 사용**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="6b375-177">On the **Confirm your order** page, click **Try now**.</span></span>
+5. <span data-ttu-id="01cf1-177">**주문 확인** 페이지에서 **지금 평가판 사용**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="01cf1-177">On the **Confirm your order** page, click **Try now**.</span></span>
 
-6. <span data-ttu-id="6b375-178">**주문 접수** 페이지에서 **계속**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="6b375-178">On the **Order receipt** page, click **Continue**.</span></span>
+6. <span data-ttu-id="01cf1-178">**주문 접수** 페이지에서 **계속**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="01cf1-178">On the **Order receipt** page, click **Continue**.</span></span>
 
-7. <span data-ttu-id="6b375-179">Microsoft 365 관리 센터에서 **활성 사용자**를 클릭 한 다음 관리자 계정을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="6b375-179">In the Microsoft 365 admin center, click **Active users**, and then your administrator account.</span></span>
+7. <span data-ttu-id="01cf1-179">Microsoft 365 관리 센터에서 **활성 사용자**를 클릭 한 다음 관리자 계정을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="01cf1-179">In the Microsoft 365 admin center, click **Active users**, and then your administrator account.</span></span>
 
-8. <span data-ttu-id="6b375-180">**제품 라이센스**에 대한 **편집**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="6b375-180">Click **Edit** for **Product licenses**.</span></span>
+8. <span data-ttu-id="01cf1-180">**제품 라이센스**에 대한 **편집**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="01cf1-180">Click **Edit** for **Product licenses**.</span></span>
 
-9. <span data-ttu-id="6b375-181">Office 365 Enterprise E5의 라이센스를 끄고 Microsoft 365 E5의 라이센스를 켭니다.</span><span class="sxs-lookup"><span data-stu-id="6b375-181">Turn off the license for Office 365 Enterprise E5 and turn on the license for Microsoft 365 E5.</span></span>
+9. <span data-ttu-id="01cf1-181">Office 365 Enterprise E5의 라이센스를 끄고 Microsoft 365 E5의 라이센스를 켭니다.</span><span class="sxs-lookup"><span data-stu-id="01cf1-181">Turn off the license for Office 365 Enterprise E5 and turn on the license for Microsoft 365 E5.</span></span>
 
-10. <span data-ttu-id="6b375-182">**저장 > 닫기 > 닫기**를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="6b375-182">Click **Save > Close > Close**.</span></span>
+10. <span data-ttu-id="01cf1-182">**저장 > 닫기 > 닫기**를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="01cf1-182">Click **Save > Close > Close**.</span></span>
 
-<span data-ttu-id="6b375-183">다음, 다른 모든 계정 (사용자 2, 사용자 3, 사용자 4 및 사용자 5)에 대해 이전 절차의 8단계에서 11단계를 반복합니다.</span><span class="sxs-lookup"><span data-stu-id="6b375-183">Next, repeat steps 8 and 9 of the previous procedure for all of your other accounts (User 2, User 3, User 4, and User 5).</span></span>
+<span data-ttu-id="01cf1-183">다음, 다른 모든 계정 (사용자 2, 사용자 3, 사용자 4 및 사용자 5)에 대해 이전 절차의 8단계에서 11단계를 반복합니다.</span><span class="sxs-lookup"><span data-stu-id="01cf1-183">Next, repeat steps 8 through 11 of the previous procedure for all of your other accounts (User 2, User 3, User 4, and User 5).</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="6b375-184">Microsoft 365 E5 평가판 구독은 30일입니다.</span><span class="sxs-lookup"><span data-stu-id="6b375-184">The Microsoft 365 E5 trial subscription is 30 days.</span></span> <span data-ttu-id="6b375-185">영구 테스트 환경의 경우 소수의 라이선스를 사용해서 이 평가판 구독을 유료 구독으로 전환합니다.</span><span class="sxs-lookup"><span data-stu-id="6b375-185">For a permanent test environment, convert this trial subscription to a paid subscription with a small number of licenses.</span></span> 
+> <span data-ttu-id="01cf1-184">Microsoft 365 E5 평가판 구독은 30일입니다.</span><span class="sxs-lookup"><span data-stu-id="01cf1-184">The Microsoft 365 E5 trial subscription is 30 days.</span></span> <span data-ttu-id="01cf1-185">영구 테스트 환경의 경우 소수의 라이선스를 사용해서 이 평가판 구독을 유료 구독으로 전환합니다.</span><span class="sxs-lookup"><span data-stu-id="01cf1-185">For a permanent test environment, convert this trial subscription to a paid subscription with a small number of licenses.</span></span> 
   
-<span data-ttu-id="6b375-186">이제 테스트 환경에는 다음이 구현됩니다.</span><span class="sxs-lookup"><span data-stu-id="6b375-186">Your test environment now has:</span></span>
+<span data-ttu-id="01cf1-186">이제 테스트 환경에는 다음이 구현됩니다.</span><span class="sxs-lookup"><span data-stu-id="01cf1-186">Your test environment now has:</span></span>
   
-- <span data-ttu-id="6b375-187">Microsoft 365 E5 평가판 구독.</span><span class="sxs-lookup"><span data-stu-id="6b375-187">A Microsoft 365 E5 trial subscription.</span></span>
-- <span data-ttu-id="6b375-188">모든 해당 사용자 계정(전역 관리자만 또는 5개의 사용자 계정 모두)이 Microsoft 365 E5를 사용하도록 설정됩니다.</span><span class="sxs-lookup"><span data-stu-id="6b375-188">All your appropriate user accounts (either just the global administrator or all five user accounts) are enabled to use Microsoft 365 E5.</span></span>
+- <span data-ttu-id="01cf1-187">Microsoft 365 E5 평가판 구독.</span><span class="sxs-lookup"><span data-stu-id="01cf1-187">A Microsoft 365 E5 trial subscription.</span></span>
+- <span data-ttu-id="01cf1-188">모든 해당 사용자 계정(전역 관리자만 또는 5개의 사용자 계정 모두)이 Microsoft 365 E5를 사용하도록 설정됩니다.</span><span class="sxs-lookup"><span data-stu-id="01cf1-188">All your appropriate user accounts (either just the global administrator or all five user accounts) are enabled to use Microsoft 365 E5.</span></span>
     
-<span data-ttu-id="6b375-189">다음에서는 구성 결과, Microsoft 365 E5를 추가하는 계정, Office 365 및 EMS(Enterprise Security + Management)를 포함하는 계정을 보여줍니다.</span><span class="sxs-lookup"><span data-stu-id="6b375-189">Figure 1 shows your resulting configuration, which adds Microsoft 365 E5, which includes both Office 365 and Enterprise Security + Management (EMS).</span></span>
+<span data-ttu-id="01cf1-189">다음에서는 구성 결과, Microsoft 365 E5를 추가하는 계정, Office 365 및 EMS(Enterprise Security + Management)를 포함하는 계정을 보여줍니다.</span><span class="sxs-lookup"><span data-stu-id="01cf1-189">Here is your resulting configuration, which adds Microsoft 365 E5, which includes both Office 365 and Enterprise Security + Management (EMS).</span></span>
   
 ![Microsoft 365 Enterprise 테스트 환경 2단계](media/lightweight-base-configuration-microsoft-365-enterprise/Phase2.png)
   
-## <a name="phase-4-create-a-windows-10-enterprise-computer"></a><span data-ttu-id="6b375-191">4단계: Windows 10 Enterprise 컴퓨터 만들기</span><span class="sxs-lookup"><span data-stu-id="6b375-191">Phase 3: Create a Windows 10 Enterprise computer</span></span>
+## <a name="phase-4-create-a-windows-10-enterprise-computer"></a><span data-ttu-id="01cf1-191">4단계: Windows 10 Enterprise 컴퓨터 만들기</span><span class="sxs-lookup"><span data-stu-id="01cf1-191">Phase 4: Create a Windows 10 Enterprise computer</span></span>
 
-<span data-ttu-id="6b375-192">이 단계에서는 Windows 10 Enterprise를 실행하는 독립 실행형 컴퓨터를 실제 컴퓨터, 가상 머신 또는 Azure Virtual Machine으로 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="6b375-192">In this phase, you create a standalone computer running Windows 10 Enterprise as either a physical computer, a virtual machine, or an Azure virtual machine.</span></span>
+<span data-ttu-id="01cf1-192">이 단계에서는 Windows 10 Enterprise를 실행하는 독립 실행형 컴퓨터를 실제 컴퓨터, 가상 머신 또는 Azure Virtual Machine으로 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="01cf1-192">In this phase, you create a standalone computer running Windows 10 Enterprise as either a physical computer, a virtual machine, or an Azure virtual machine.</span></span>
   
-### <a name="physical-computer"></a><span data-ttu-id="6b375-193">실제 컴퓨터</span><span class="sxs-lookup"><span data-stu-id="6b375-193">Physical computer</span></span>
+### <a name="physical-computer"></a><span data-ttu-id="01cf1-193">실제 컴퓨터</span><span class="sxs-lookup"><span data-stu-id="01cf1-193">Physical computer</span></span>
 
-<span data-ttu-id="6b375-p109">개인용 컴퓨터를 구한 후 Windows 10 Enterprise를 설치합니다. Windows 10 Enterprise 평가판을 [여기](https://www.microsoft.com/evalcenter/evaluate-windows-10-enterprise)에서 다운로드할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6b375-p109">Obtain a personal computer and install Windows 10 Enterprise on it. You can download the Windows 10 Enterprise trial [here](https://www.microsoft.com/evalcenter/evaluate-windows-10-enterprise).</span></span>
+<span data-ttu-id="01cf1-p109">개인용 컴퓨터를 구한 후 Windows 10 Enterprise를 설치합니다. Windows 10 Enterprise 평가판을 [여기](https://www.microsoft.com/evalcenter/evaluate-windows-10-enterprise)에서 다운로드할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="01cf1-p109">Obtain a personal computer and install Windows 10 Enterprise on it. You can download the Windows 10 Enterprise trial [here](https://www.microsoft.com/evalcenter/evaluate-windows-10-enterprise).</span></span>
   
-### <a name="virtual-machine"></a><span data-ttu-id="6b375-196">가상 컴퓨터</span><span class="sxs-lookup"><span data-stu-id="6b375-196">Virtual machine</span></span>
+### <a name="virtual-machine"></a><span data-ttu-id="01cf1-196">가상 컴퓨터</span><span class="sxs-lookup"><span data-stu-id="01cf1-196">Virtual machine</span></span>
 
-<span data-ttu-id="6b375-p110">사용자가 선택한 하이퍼바이저를 사용하여 가상 머신을 만들고 Windows 10 Enterprise를 설치합니다. Windows 10 Enterprise 평가판을 [여기](https://www.microsoft.com/evalcenter/evaluate-windows-10-enterprise)에서 다운로드할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6b375-p110">Create a virtual machine using the hypervisor of your choice and install Windows 10 Enterprise on it. You can download the Windows 10 Enterprise trial [here](https://www.microsoft.com/evalcenter/evaluate-windows-10-enterprise).</span></span>
+<span data-ttu-id="01cf1-p110">사용자가 선택한 하이퍼바이저를 사용하여 가상 머신을 만들고 Windows 10 Enterprise를 설치합니다. Windows 10 Enterprise 평가판을 [여기](https://www.microsoft.com/evalcenter/evaluate-windows-10-enterprise)에서 다운로드할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="01cf1-p110">Create a virtual machine using the hypervisor of your choice and install Windows 10 Enterprise on it. You can download the Windows 10 Enterprise trial [here](https://www.microsoft.com/evalcenter/evaluate-windows-10-enterprise).</span></span>
   
-### <a name="virtual-machine-in-azure"></a><span data-ttu-id="6b375-199">Azure의 가상 머신</span><span class="sxs-lookup"><span data-stu-id="6b375-199">Virtual machine in Azure</span></span>
+### <a name="virtual-machine-in-azure"></a><span data-ttu-id="01cf1-199">Azure의 가상 머신</span><span class="sxs-lookup"><span data-stu-id="01cf1-199">Virtual machine in Azure</span></span>
 
-<span data-ttu-id="6b375-p111">Microsoft Azure에서 Windows 10 가상 머신을 만들려면 Windows 10 Enterprise에 대한 이미지에 액세스할 수 있는 ***Visual Studio 기반 구독이 있어야 합니다***. 다른 유형의 Azure 구독(예: 평가판 및 유료 구독)으로는 이 이미지에 액세스할 수 없습니다. 최신 정보를 보려면 [개발/테스트 시나리오에 Azure의 Windows 클라이언트 사용](https://docs.microsoft.com/azure/virtual-machines/windows/client-images)을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="6b375-p111">To create a Windows 10 virtual machine in Microsoft Azure, ***you must have a Visual Studio-based subscription***, which has access to the image for Windows 10 Enterprise. Other types of Azure subscriptions, such as trial and paid subscriptions, do not have access to this image. For the latest information, see [Use Windows client in Azure for dev/test scenarios](https://docs.microsoft.com/azure/virtual-machines/windows/client-images).</span></span>
+<span data-ttu-id="01cf1-p111">Microsoft Azure에서 Windows 10 가상 머신을 만들려면 Windows 10 Enterprise에 대한 이미지에 액세스할 수 있는 ***Visual Studio 기반 구독이 있어야 합니다***. 다른 유형의 Azure 구독(예: 평가판 및 유료 구독)으로는 이 이미지에 액세스할 수 없습니다. 최신 정보를 보려면 [개발/테스트 시나리오에 Azure의 Windows 클라이언트 사용](https://docs.microsoft.com/azure/virtual-machines/windows/client-images)을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="01cf1-p111">To create a Windows 10 virtual machine in Microsoft Azure, ***you must have a Visual Studio-based subscription***, which has access to the image for Windows 10 Enterprise. Other types of Azure subscriptions, such as trial and paid subscriptions, do not have access to this image. For the latest information, see [Use Windows client in Azure for dev/test scenarios](https://docs.microsoft.com/azure/virtual-machines/windows/client-images).</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="6b375-p112">다음 명령에서는 최신 버전의 Azure PowerShell을 사용합니다. [Azure PowerShell cmdlet 시작](https://docs.microsoft.com/powershell/azureps-cmdlets-docs/)을 참조하세요. 이러한 명령 집합은 WIN10이라는 Windows 10 Enterprise 가상 머신과 리소스 그룹, 저장소 계정 및 가상 네트워크를 포함하는 모든 필수 인프라를 빌드합니다. Azure 인프라 서비스에 이미 익숙한 경우 혅 배포된 인프라에 맞게 이러한 지침을 조정하세요.</span><span class="sxs-lookup"><span data-stu-id="6b375-p112">The following command sets use the latest version of Azure PowerShell. See [Get started with Azure PowerShell cmdlets](https://docs.microsoft.com/powershell/azureps-cmdlets-docs/). These command sets build a Windows 10 Enterprise virtual machine named WIN10 and all of its required infrastructure, including a resource group, a storage account, and a virtual network. If you are already familiar with Azure infrastructure services, please adapt these instructions to suit your currently deployed infrastructure.</span></span> 
+> <span data-ttu-id="01cf1-p112">다음 명령에서는 최신 버전의 Azure PowerShell을 사용합니다. [Azure PowerShell cmdlet 시작](https://docs.microsoft.com/powershell/azureps-cmdlets-docs/)을 참조하세요. 이러한 명령 집합은 WIN10이라는 Windows 10 Enterprise 가상 머신과 리소스 그룹, 저장소 계정 및 가상 네트워크를 포함하는 모든 필수 인프라를 빌드합니다. Azure 인프라 서비스에 이미 익숙한 경우 혅 배포된 인프라에 맞게 이러한 지침을 조정하세요.</span><span class="sxs-lookup"><span data-stu-id="01cf1-p112">The following command sets use the latest version of Azure PowerShell. See [Get started with Azure PowerShell cmdlets](https://docs.microsoft.com/powershell/azureps-cmdlets-docs/). These command sets build a Windows 10 Enterprise virtual machine named WIN10 and all of its required infrastructure, including a resource group, a storage account, and a virtual network. If you are already familiar with Azure infrastructure services, please adapt these instructions to suit your currently deployed infrastructure.</span></span> 
   
-<span data-ttu-id="6b375-207">먼저 Microsoft PowerShell 프롬프트를 시작합니다.</span><span class="sxs-lookup"><span data-stu-id="6b375-207">First, start a Microsoft PowerShell prompt.</span></span>
+<span data-ttu-id="01cf1-207">먼저 Microsoft PowerShell 프롬프트를 시작합니다.</span><span class="sxs-lookup"><span data-stu-id="01cf1-207">First, start a Microsoft PowerShell prompt.</span></span>
   
-<span data-ttu-id="6b375-208">다음 명령을 사용하여 Azure 계정에 로그인합니다.</span><span class="sxs-lookup"><span data-stu-id="6b375-208">Sign in to your Azure account with the following command.</span></span>
+<span data-ttu-id="01cf1-208">다음 명령을 사용하여 Azure 계정에 로그인합니다.</span><span class="sxs-lookup"><span data-stu-id="01cf1-208">Sign in to your Azure account with the following command.</span></span>
   
 ```powershell
 Connect-AzAccount
 ```
 
-<span data-ttu-id="6b375-209">다음 명령을 사용하여 구독 이름을 가져옵니다.</span><span class="sxs-lookup"><span data-stu-id="6b375-209">Get your subscription name using the following command.</span></span>
+<span data-ttu-id="01cf1-209">다음 명령을 사용하여 구독 이름을 가져옵니다.</span><span class="sxs-lookup"><span data-stu-id="01cf1-209">Get your subscription name using the following command.</span></span>
   
 ```powershell
 Get-AzSubscription | Sort Name | Select Name
 ```
 
-<span data-ttu-id="6b375-p113">Azure 구독을 설정합니다. \< 및 > 문자를 포함하여 따옴표 안에 있는 모든 것을 올바른 이름으로 바꿉니다.</span><span class="sxs-lookup"><span data-stu-id="6b375-p113">Set your Azure subscription. Replace everything within the quotes, including the \< and > characters, with the correct name.</span></span>
+<span data-ttu-id="01cf1-p113">Azure 구독을 설정합니다. \< 및 > 문자를 포함하여 따옴표 안에 있는 모든 것을 올바른 이름으로 바꿉니다.</span><span class="sxs-lookup"><span data-stu-id="01cf1-p113">Set your Azure subscription. Replace everything within the quotes, including the \< and > characters, with the correct name.</span></span>
   
 ```powershell
 $subscr="<subscription name>"
 Get-AzSubscription -SubscriptionName $subscr | Select-AzSubscription
 ```
 
-<span data-ttu-id="6b375-p114">다음으로 새 리소스 그룹을 만듭니다. 고유한 리소스 그룹 이름을 확인하려면 이 명령을 사용하여 기존 리소스 그룹을 나열합니다.</span><span class="sxs-lookup"><span data-stu-id="6b375-p114">Next, create a new resource group. To determine a unique resource group name, use this command to list your existing resource groups.</span></span>
+<span data-ttu-id="01cf1-p114">다음으로 새 리소스 그룹을 만듭니다. 고유한 리소스 그룹 이름을 확인하려면 이 명령을 사용하여 기존 리소스 그룹을 나열합니다.</span><span class="sxs-lookup"><span data-stu-id="01cf1-p114">Next, create a new resource group. To determine a unique resource group name, use this command to list your existing resource groups.</span></span>
   
 ```powershell
 Get-AzResourceGroup | Sort ResourceGroupName | Select ResourceGroupName
 ```
 
-<span data-ttu-id="6b375-p115">이러한 명령을 사용하여 새 리소스 그룹을 만듭니다. \< 및 > 문자를 포함하여 따옴표 안에 있는 모든 내용을 올바른 이름으로 바꿉니다.</span><span class="sxs-lookup"><span data-stu-id="6b375-p115">Create your new resource group with these commands. Replace everything within the quotes, including the \< and > characters, with the correct names.</span></span>
+<span data-ttu-id="01cf1-p115">이러한 명령을 사용하여 새 리소스 그룹을 만듭니다. \< 및 > 문자를 포함하여 따옴표 안에 있는 모든 내용을 올바른 이름으로 바꿉니다.</span><span class="sxs-lookup"><span data-stu-id="01cf1-p115">Create your new resource group with these commands. Replace everything within the quotes, including the \< and > characters, with the correct names.</span></span>
   
 ```powershell
 $rgName="<resource group name>"
@@ -272,7 +272,7 @@ $locName="<location name, such as West US>"
 New-AzResourceGroup -Name $rgName -Location $locName
 ```
 
-<span data-ttu-id="6b375-p116">그런 후 다음 명령을 사용하여 새 가상 네트워크와 WIN10 가상 머신을 만듭니다. 메시지가 표시되면 WIN10의 로컬 관리자 계정에 대한 이름 및 암호를 제공하고 이러한 항목을 안전한 장소에 저장합니다.</span><span class="sxs-lookup"><span data-stu-id="6b375-p116">Next, you create a new virtual network and the WIN10 virtual machine with these commands. When prompted, provide the name and password of the local administrator account for WIN10 and store these in a secure location.</span></span>
+<span data-ttu-id="01cf1-p116">그런 후 다음 명령을 사용하여 새 가상 네트워크와 WIN10 가상 머신을 만듭니다. 메시지가 표시되면 WIN10의 로컬 관리자 계정에 대한 이름 및 암호를 제공하고 이러한 항목을 안전한 장소에 저장합니다.</span><span class="sxs-lookup"><span data-stu-id="01cf1-p116">Next, you create a new virtual network and the WIN10 virtual machine with these commands. When prompted, provide the name and password of the local administrator account for WIN10 and store these in a secure location.</span></span>
   
 ```powershell
 $corpnetSubnet=New-AzVirtualNetworkSubnetConfig -Name Corpnet -AddressPrefix 10.0.0.0/24
@@ -285,7 +285,7 @@ Set-AzVirtualNetworkSubnetConfig -VirtualNetwork $vnet -Name Corpnet -AddressPre
 $vnet | Set-AzVirtualNetwork
 $pip=New-AzPublicIpAddress -Name WIN10-PIP -ResourceGroupName $rgName -Location $locName -AllocationMethod Dynamic
 $nic=New-AzNetworkInterface -Name WIN10-NIC -ResourceGroupName $rgName -Location $locName -SubnetId $vnet.Subnets[0].Id -PublicIpAddressId $pip.Id
-$vm=New-AzVMConfig -VMName WIN10 -VMSize Standard_D1_V2
+$vm=New-AzVMConfig -VMName WIN10 -VMSize Standard_A2_V2
 $cred=Get-Credential -Message "Type the name and password of the local administrator account for WIN10."
 $vm=Set-AzVMOperatingSystem -VM $vm -Windows -ComputerName WIN10 -Credential $cred -ProvisionVMAgent -EnableAutoUpdate
 $vm=Set-AzVMSourceImage -VM $vm -PublisherName MicrosoftWindowsDesktop -Offer Windows-10 -Skus RS3-Pro -Version "latest"
@@ -294,62 +294,62 @@ $vm=Set-AzVMOSDisk -VM $vm -Name WIN10-TestLab-OSDisk -DiskSizeInGB 128 -CreateO
 New-AzVM -ResourceGroupName $rgName -Location $locName -VM $vm
 ```
 
-## <a name="phase-5-join-your-windows-10-computer-to-azure-ad"></a><span data-ttu-id="6b375-218">5단계: Azure AD에 Windows 10 컴퓨터 가입</span><span class="sxs-lookup"><span data-stu-id="6b375-218">Phase 4: Join your Windows 10 computer to Azure AD</span></span>
+## <a name="phase-5-join-your-windows-10-computer-to-azure-ad"></a><span data-ttu-id="01cf1-218">5단계: Azure AD에 Windows 10 컴퓨터 가입</span><span class="sxs-lookup"><span data-stu-id="01cf1-218">Phase 5: Join your Windows 10 computer to Azure AD</span></span>
 
-<span data-ttu-id="6b375-219">Windows 10 Enterprise가 있는 실제 또는 가상 머신을 만든 후에 로컬 관리자 계정으로 로그인합니다.</span><span class="sxs-lookup"><span data-stu-id="6b375-219">After the physical or virtual machine with Windows 10 Enterprise is created, sign in with a local administrator account.</span></span>
+<span data-ttu-id="01cf1-219">Windows 10 Enterprise가 있는 실제 또는 가상 머신을 만든 후에 로컬 관리자 계정으로 로그인합니다.</span><span class="sxs-lookup"><span data-stu-id="01cf1-219">After the physical or virtual machine with Windows 10 Enterprise is created, sign in with a local administrator account.</span></span>
   
 > [!NOTE]
-> <span data-ttu-id="6b375-220">Azure에 있는 가상 머신에는 [다음 지침](https://docs.microsoft.com/azure/virtual-machines/windows/connect-logon)에 따라 연결합니다.</span><span class="sxs-lookup"><span data-stu-id="6b375-220">For a virtual machine in Azure, connect to it using [these instructions](https://docs.microsoft.com/azure/virtual-machines/windows/connect-logon).</span></span>
+> <span data-ttu-id="01cf1-220">Azure에 있는 가상 머신에는 [다음 지침](https://docs.microsoft.com/azure/virtual-machines/windows/connect-logon)에 따라 연결합니다.</span><span class="sxs-lookup"><span data-stu-id="01cf1-220">For a virtual machine in Azure, connect to it using [these instructions](https://docs.microsoft.com/azure/virtual-machines/windows/connect-logon).</span></span>
   
-<span data-ttu-id="6b375-221">다음으로, WIN10 컴퓨터를 Microsoft 365 E5 구독의 Azure AD 테넌트에 가입합니다.</span><span class="sxs-lookup"><span data-stu-id="6b375-221">Next, join the WIN10 computer to the Azure AD tenant of your Microsoft 365 E5 subscription.</span></span>
+<span data-ttu-id="01cf1-221">다음으로, WIN10 컴퓨터를 Microsoft 365 E5 구독의 Azure AD 테넌트에 가입합니다.</span><span class="sxs-lookup"><span data-stu-id="01cf1-221">Next, join the WIN10 computer to the Azure AD tenant of your Microsoft 365 E5 subscription.</span></span>
   
-1. <span data-ttu-id="6b375-222">WIN10 컴퓨터의 데스크톱에서 **시작 > 설정 > 계정 > 회사 또는 학교 액세스 > 연결**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="6b375-222">At the desktop of the WIN10 computer, click **Start > Settings > Accounts > Access work or school > Connect**.</span></span>
+1. <span data-ttu-id="01cf1-222">WIN10 컴퓨터의 데스크톱에서 **시작 > 설정 > 계정 > 회사 또는 학교 액세스 > 연결**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="01cf1-222">At the desktop of the WIN10 computer, click **Start > Settings > Accounts > Access work or school > Connect**.</span></span>
     
-2. <span data-ttu-id="6b375-223">**회사 또는 학교 계정 설정** 대화 상자에서 **Azure Active Directory에 이 장치 가입**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="6b375-223">In the **Set up a work or school account** dialog box, click **Join this device to Azure Active Directory**.</span></span>
+2. <span data-ttu-id="01cf1-223">**회사 또는 학교 계정 설정** 대화 상자에서 **Azure Active Directory에 이 장치 가입**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="01cf1-223">In the **Set up a work or school account** dialog box, click **Join this device to Azure Active Directory**.</span></span>
     
-3. <span data-ttu-id="6b375-224">**회사 또는 학교 계정**에서 Microsoft 365 E5 구독의 전역 관리자 계정 이름을 입력하고 **다음**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="6b375-224">In **Work or school account**, type the global administrator account name of your Microsoft 365 E5 subscription, and then click **Next**.</span></span>
+3. <span data-ttu-id="01cf1-224">**회사 또는 학교 계정**에서 Microsoft 365 E5 구독의 전역 관리자 계정 이름을 입력하고 **다음**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="01cf1-224">In **Work or school account**, type the global administrator account name of your Microsoft 365 E5 subscription, and then click **Next**.</span></span>
     
-4. <span data-ttu-id="6b375-225">**암호 입력**에 전역 관리자 계정의 암호를 입력하고 **로그인**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="6b375-225">In **Enter password**, type the password for your global administrator account, and then click **Sign in**.</span></span>
+4. <span data-ttu-id="01cf1-225">**암호 입력**에 전역 관리자 계정의 암호를 입력하고 **로그인**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="01cf1-225">In **Enter password**, type the password for your global administrator account, and then click **Sign in**.</span></span>
     
-5. <span data-ttu-id="6b375-226">사용자의 조직이 맞는지 묻는 메시지가 표시되면 **가입**을 클릭하고 **완료**를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="6b375-226">When prompted to make sure this is your organization, click **Join**, and then click **Done**.</span></span>
+5. <span data-ttu-id="01cf1-226">사용자의 조직이 맞는지 묻는 메시지가 표시되면 **가입**을 클릭하고 **완료**를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="01cf1-226">When prompted to make sure this is your organization, click **Join**, and then click **Done**.</span></span>
     
-6. <span data-ttu-id="6b375-227">설정 창을 닫습니다.</span><span class="sxs-lookup"><span data-stu-id="6b375-227">Close the settings window.</span></span>
+6. <span data-ttu-id="01cf1-227">설정 창을 닫습니다.</span><span class="sxs-lookup"><span data-stu-id="01cf1-227">Close the settings window.</span></span>
     
-<span data-ttu-id="6b375-228">다음으로, WIN10 컴퓨터에 Office 365 ProPlus를 설치합니다.</span><span class="sxs-lookup"><span data-stu-id="6b375-228">Next, install Office 365 ProPlus on the WIN10 computer.</span></span>
+<span data-ttu-id="01cf1-228">다음으로, WIN10 컴퓨터에 Office 365 ProPlus를 설치합니다.</span><span class="sxs-lookup"><span data-stu-id="01cf1-228">Next, install Office 365 ProPlus on the WIN10 computer.</span></span>
   
-1. <span data-ttu-id="6b375-229">Microsoft Edge 브라우저를 열고 글로벌 관리자 계정 자격 증명으로 Office 포털에 로그인합니다.</span><span class="sxs-lookup"><span data-stu-id="6b375-229">Open the Microsoft Edge browser and sign in to the Office portal with your global administrator account credentials.</span></span> <span data-ttu-id="6b375-230">도움을 받으려면 [Office 365에 로그인하는 위치](https://support.office.com/Article/Where-to-sign-in-to-Office-365-e9eb7d51-5430-4929-91ab-6157c5a050b4)를 참조하십시오.</span><span class="sxs-lookup"><span data-stu-id="6b375-230">For help, see [Where to sign in to Office 365](https://support.office.com/Article/Where-to-sign-in-to-Office-365-e9eb7d51-5430-4929-91ab-6157c5a050b4).</span></span>
+1. <span data-ttu-id="01cf1-229">Microsoft Edge 브라우저를 열고 글로벌 관리자 계정 자격 증명으로 Office 포털에 로그인합니다.</span><span class="sxs-lookup"><span data-stu-id="01cf1-229">Open the Microsoft Edge browser and sign in to the Office portal with your global administrator account credentials.</span></span> <span data-ttu-id="01cf1-230">도움을 받으려면 [Office 365에 로그인하는 위치](https://support.office.com/Article/Where-to-sign-in-to-Office-365-e9eb7d51-5430-4929-91ab-6157c5a050b4)를 참조하십시오.</span><span class="sxs-lookup"><span data-stu-id="01cf1-230">For help, see [Where to sign in to Office 365](https://support.office.com/Article/Where-to-sign-in-to-Office-365-e9eb7d51-5430-4929-91ab-6157c5a050b4).</span></span>
     
-2. <span data-ttu-id="6b375-231">**Microsoft Office 홈** 탭에서 **Office 설치**를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="6b375-231">On the **Microsoft Office Home** tab, click **Install Office**.</span></span>
+2. <span data-ttu-id="01cf1-231">**Microsoft Office 홈** 탭에서 **Office 설치**를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="01cf1-231">On the **Microsoft Office Home** tab, click **Install Office**.</span></span>
     
-3. <span data-ttu-id="6b375-232">수행할 작업을 묻는 메시지가 표시되면 **실행**을 클릭하고 **사용자 계정 컨트롤**에 대해 **예**를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="6b375-232">When prompted with what to do, click **Run**, and then click **Yes** for **User Account Control**.</span></span>
+3. <span data-ttu-id="01cf1-232">수행할 작업을 묻는 메시지가 표시되면 **실행**을 클릭하고 **사용자 계정 컨트롤**에 대해 **예**를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="01cf1-232">When prompted with what to do, click **Run**, and then click **Yes** for **User Account Control**.</span></span>
     
-4. <span data-ttu-id="6b375-p118">Office 설치가 완료될 때까지 기다립니다. **모두 완료되었습니다.** 가 표시되면 **닫기**를 두 번 차례로 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="6b375-p118">Wait for Office to complete its installation. When you see **You're all set!**, click **Close** twice.</span></span>
+4. <span data-ttu-id="01cf1-p118">Office 설치가 완료될 때까지 기다립니다. **모두 완료되었습니다.** 가 표시되면 **닫기**를 두 번 차례로 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="01cf1-p118">Wait for Office to complete its installation. When you see **You're all set!**, click **Close** twice.</span></span>
     
-<span data-ttu-id="6b375-235">결과 환경은 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="6b375-235">Here is your resulting configuration.</span></span>
+<span data-ttu-id="01cf1-235">결과 환경은 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="01cf1-235">Here is your resulting environment.</span></span>
 
 ![Microsoft 365 Enterprise 테스트 환경 5단계](media/lightweight-base-configuration-microsoft-365-enterprise/Phase4.png)
 
-<span data-ttu-id="6b375-237">여기에는 다음과 같은 WIN10 컴퓨터가 포함됩니다.</span><span class="sxs-lookup"><span data-stu-id="6b375-237">This includes the WIN10 computer that has:</span></span>
+<span data-ttu-id="01cf1-237">여기에는 다음과 같은 WIN10 컴퓨터가 포함됩니다.</span><span class="sxs-lookup"><span data-stu-id="01cf1-237">This includes the WIN10 computer that has:</span></span>
 
-- <span data-ttu-id="6b375-238">Microsoft 365 E5 구독의 Azure AD 테넌트에 가입했습니다.</span><span class="sxs-lookup"><span data-stu-id="6b375-238">Joined the Azure AD tenant of your Microsoft 365 E5 subscription.</span></span>
-- <span data-ttu-id="6b375-239">Microsoft Intune(EMS)에서 Azure AD 장치로 등록합니다.</span><span class="sxs-lookup"><span data-stu-id="6b375-239">Enrolled as an Azure AD device in Microsoft Intune (EMS).</span></span>
-- <span data-ttu-id="6b375-240">Office 365 ProPlus가 설치되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6b375-240">Has Office 365 ProPlus installed.</span></span>
+- <span data-ttu-id="01cf1-238">Microsoft 365 E5 구독의 Azure AD 테넌트에 가입했습니다.</span><span class="sxs-lookup"><span data-stu-id="01cf1-238">Joined the Azure AD tenant of your Microsoft 365 E5 subscription.</span></span>
+- <span data-ttu-id="01cf1-239">Microsoft Intune(EMS)에서 Azure AD 장치로 등록합니다.</span><span class="sxs-lookup"><span data-stu-id="01cf1-239">Enrolled as an Azure AD device in Microsoft Intune (EMS).</span></span>
+- <span data-ttu-id="01cf1-240">Office 365 ProPlus가 설치되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="01cf1-240">Has Office 365 ProPlus installed.</span></span>
   
-<span data-ttu-id="6b375-241">이제 [Microsoft 365 Enterprise](https://www.microsoft.com/microsoft-365/enterprise)의 추가 기능을 사용해볼 준비가 되었습니다.</span><span class="sxs-lookup"><span data-stu-id="6b375-241">You are now ready to experiment with additional features of [Microsoft 365 Enterprise](https://www.microsoft.com/microsoft-365/enterprise).</span></span>
+<span data-ttu-id="01cf1-241">이제 [Microsoft 365 Enterprise](https://www.microsoft.com/microsoft-365/enterprise)의 추가 기능을 사용해볼 준비가 되었습니다.</span><span class="sxs-lookup"><span data-stu-id="01cf1-241">You are now ready to experiment with additional features of [Microsoft 365 Enterprise](https://www.microsoft.com/microsoft-365/enterprise).</span></span>
   
-## <a name="next-steps"></a><span data-ttu-id="6b375-242">다음 단계</span><span class="sxs-lookup"><span data-stu-id="6b375-242">Next steps</span></span>
+## <a name="next-steps"></a><span data-ttu-id="01cf1-242">다음 단계</span><span class="sxs-lookup"><span data-stu-id="01cf1-242">Next steps</span></span>
 
-<span data-ttu-id="6b375-243">다음과 같은 추가 테스트 랩 가이드 집합에 대해 알아봅니다.</span><span class="sxs-lookup"><span data-stu-id="6b375-243">Explore these additional sets of Test Lab Guides:</span></span>
+<span data-ttu-id="01cf1-243">다음과 같은 추가 테스트 랩 가이드 집합에 대해 알아봅니다.</span><span class="sxs-lookup"><span data-stu-id="01cf1-243">Explore these additional sets of Test Lab Guides:</span></span>
   
-- [<span data-ttu-id="6b375-244">ID</span><span class="sxs-lookup"><span data-stu-id="6b375-244">Identity</span></span>](m365-enterprise-test-lab-guides.md#identity)
-- [<span data-ttu-id="6b375-245">모바일 장치 관리</span><span class="sxs-lookup"><span data-stu-id="6b375-245">Mobile device management</span></span>](m365-enterprise-test-lab-guides.md#mobile-device-management)
-- [<span data-ttu-id="6b375-246">정보 보호</span><span class="sxs-lookup"><span data-stu-id="6b375-246">Information protection</span></span>](m365-enterprise-test-lab-guides.md#information-protection)
+- [<span data-ttu-id="01cf1-244">ID</span><span class="sxs-lookup"><span data-stu-id="01cf1-244">Identity</span></span>](m365-enterprise-test-lab-guides.md#identity)
+- [<span data-ttu-id="01cf1-245">모바일 장치 관리</span><span class="sxs-lookup"><span data-stu-id="01cf1-245">Mobile device management</span></span>](m365-enterprise-test-lab-guides.md#mobile-device-management)
+- [<span data-ttu-id="01cf1-246">정보 보호</span><span class="sxs-lookup"><span data-stu-id="01cf1-246">Information protection</span></span>](m365-enterprise-test-lab-guides.md#information-protection)
    
 
-## <a name="see-also"></a><span data-ttu-id="6b375-247">참고 항목</span><span class="sxs-lookup"><span data-stu-id="6b375-247">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="01cf1-247">참고 항목</span><span class="sxs-lookup"><span data-stu-id="01cf1-247">See also</span></span>
 
-[<span data-ttu-id="6b375-248">Microsoft 365 Enterprise 테스트 랩 가이드</span><span class="sxs-lookup"><span data-stu-id="6b375-248">Microsoft 365 Enterprise Test Lab Guides</span></span>](m365-enterprise-test-lab-guides.md)
+[<span data-ttu-id="01cf1-248">Microsoft 365 Enterprise 테스트 랩 가이드</span><span class="sxs-lookup"><span data-stu-id="01cf1-248">Microsoft 365 Enterprise Test Lab Guides</span></span>](m365-enterprise-test-lab-guides.md)
 
-[<span data-ttu-id="6b375-249">Microsoft 365 Enterprise 배포</span><span class="sxs-lookup"><span data-stu-id="6b375-249">Deploy Microsoft 365 Enterprise</span></span>](deploy-microsoft-365-enterprise.md)
+[<span data-ttu-id="01cf1-249">Microsoft 365 Enterprise 배포</span><span class="sxs-lookup"><span data-stu-id="01cf1-249">Deploy Microsoft 365 Enterprise</span></span>](deploy-microsoft-365-enterprise.md)
 
-[<span data-ttu-id="6b375-250">Microsoft 365 Enterprise 설명서</span><span class="sxs-lookup"><span data-stu-id="6b375-250">Microsoft 365 Enterprise documentation</span></span>](https://docs.microsoft.com/microsoft-365-enterprise/)
+[<span data-ttu-id="01cf1-250">Microsoft 365 Enterprise 설명서</span><span class="sxs-lookup"><span data-stu-id="01cf1-250">Microsoft 365 Enterprise documentation</span></span>](https://docs.microsoft.com/microsoft-365-enterprise/)
