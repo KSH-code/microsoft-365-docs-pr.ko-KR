@@ -19,18 +19,18 @@ search.appverid:
 - MET150
 ms.assetid: fae8819d-7235-495f-9f07-d016f545887f
 description: Windows 10 장치에서 Microsoft 365 Business 앱 보호 설정을 확인 하는 방법을 알아봅니다.
-ms.openlocfilehash: 7710accf9a3cd1db788dd5215ab6d7bbb97e48a6
-ms.sourcegitcommit: 66bb5af851947078872a4d31d3246e69f7dd42bb
+ms.openlocfilehash: c54b053c1f6efbca8fd02431c416793a044c6821
+ms.sourcegitcommit: 6a413a65b8c2e10cea08f0a15635b28a1362a582
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/15/2019
-ms.locfileid: "34074383"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "38721863"
 ---
 # <a name="validate-app-protection-settings-on-windows-10-pcs"></a>Windows 10 PC에서 앱 보호 설정 유효성 검사
 
 ## <a name="verify-that-users-cannot-copy-company-data-to-personal-files-on-corporate-devices"></a>사용자가 회사 장치의 개인 파일에 회사 데이터를 복사할 수 없는지 확인합니다.
 
-[앱 보호 정책을 설정한](protection-settings-for-windows-10-devices.md) 후 사용자의 장치에 정책이 적용될 때까지 최대 몇 시간이 걸릴 수 있습니다. 회사 소유 장치에 대해 **사용자가 회사 데이터를 개인 파일로 복사하는 것을 차단하고 회사 파일은 비즈니스용 OneDrive에 저장하도록 합니다.** 설정을 **켜기**로 설정한 경우 Azure AD에 연결하고 로그인한 후 사용자의 장치에서 이를 확인할 수 있습니다. 
+[앱 보호 정책을 설정한](protection-settings-for-windows-10-devices.md)후에는 정책이 사용자 장치에 적용 되는 데 몇 시간이 걸릴 수 있습니다. **사용자가 회사 데이터를 개인 파일로 복사 하지 않도록** 설정 하 고 회사 소유의 장치에 대 한 비즈니스용 OneDrive 설정에 작업을 강제로 저장 하 **는 경우에는 사용자** 의 장치에서 Azure AD에 연결 하 여 로그인 한 후에이를 확인할 수 있습니다. 
   
  **연결 설정 확인**
   
@@ -38,11 +38,11 @@ ms.locfileid: "34074383"
     
     ![Click or tap Info on the Connected to Azure AD dialog.](media/a36ede2b-d1a0-4d4e-8ea7-af39b4b63890.png)
   
-2. **관리자** \<테넌트 이름\> 페이지에서 다음 그림에 표시된 것 같은 **관리 서버 주소**를 포함하는 **연결 정보**를 확인할 수 있습니다. 
+2. 테 \<넌 트\> 이름 **으로 관리** 페이지에서 다음 그림에 표시 된 것과 같은 **관리 서버 주소** 를 포함 하는 **연결 정보** 를 볼 수 있습니다. 
     
     ![Managed by page shows connection info of the device manager URL.](media/47515a8e-2d0c-4bea-99f0-6b2545b88a11.png)
   
- **관리되지 않는 앱에 회사 데이터를 붙여넣을 수 없는지 확인**
+ **관리 되지 않는 앱에 회사 데이터를 붙여넣을 수 없는지 확인**
   
 1. Microsoft 365 Business가 설치한 Outlook 2016을 엽니다.
     
@@ -50,7 +50,7 @@ ms.locfileid: "34074383"
     
     메모장을 열고 콘텐츠 붙여넣기를 시도합니다.
     
-    앱에서 콘텐츠에 액세스할 수 없다는 오류 메시지가 표시됩니다.
+    앱에서 콘텐츠에 액세스할 수 없다는 오류 메시지가 표시 됩니다.
     
     ![A dialog that states app can't access content when you paste into an unmanaged app.](media/5e82b154-cf2f-43c8-ae80-b45d8ad80e56.png)
   
@@ -60,7 +60,7 @@ ms.locfileid: "34074383"
 
  **연결 설정 확인**
   
-1. 로컬 사용자로 로그인한 Windows 10 개인 장치에서 **Windows 설정**으로 이동하고 **계정** \> **회사 또는 학교 액세스**를 클릭하거나 탭합니다.
+1. 로컬 사용자로 로그인 한 windows 10 개인 디바이스에서 **windows 설정**으로 이동 하 고 **계정** \> **액세스 회사 또는 학교**를 클릭 하거나 탭 합니다.
     
 2. **회사 또는 학교 액세스**에서 **연결**을 선택합니다.
     
@@ -68,13 +68,13 @@ ms.locfileid: "34074383"
     
 4. **회사 또는 학교 액세스** 페이지에서 **회사 또는 학교 계정**을 선택한 다음 **정보**를 선택합니다.
     
-    ![Click or tap Info on the Work or school account dalog.](media/63bd8b32-cb32-4afa-8ce0-6070ac403abc.png)
+    ![회사 또는 학교 계정 대화 상자에서 정보를 클릭 하거나 탭 합니다.](media/63bd8b32-cb32-4afa-8ce0-6070ac403abc.png)
   
-5. **회사 또는 학교 액세스** 페이지에서 다음 그림에 표시된 것 같은 **관리 서버 주소**를 포함하는 **연결 정보**를 확인할 수 있으며, 여기에 단어  *wip*  ,  *mam*  이 포함됩니다. 
+5. **액세스 회사 또는 학교** 페이지에서 다음 그림에 표시 된 것과 같은 **관리 서버 주소** 를 포함 하는 **연결 정보** 를 볼 수 있으며,에는 *wip* 및 *mam* 이라는 단어가 포함 됩니다. 
     
     ![Managed by page shows connection info URL that includes the words mam and wpi.](media/abd4eaf4-44fa-4538-a3e8-1e0d331dfe1e.png)
   
- **관리되지 않는 앱에 회사 데이터를 붙여넣을 수 없는지 확인**
+ **관리 되지 않는 앱에 회사 데이터를 붙여넣을 수 없는지 확인**
   
 1. Outlook 2016을 열고 필요한 경우 Microsoft 365 Business 계정을 추가하고 Microsoft 365 Business 자격 증명으로 로그인합니다.
     
@@ -82,7 +82,7 @@ ms.locfileid: "34074383"
     
     메모장을 열고 콘텐츠 붙여넣기를 시도합니다.
     
-    앱에서 콘텐츠에 액세스할 수 없다는 오류 메시지가 표시됩니다.
+    앱에서 콘텐츠에 액세스할 수 없다는 오류가 표시 됩니다.
     
     ![A dialog that states app can't access content when you paste into an unmanaged app.](media/5e82b154-cf2f-43c8-ae80-b45d8ad80e56.png)
   

@@ -20,20 +20,20 @@ search.appverid:
 - MET150
 ms.assetid: c4db6caf-74df-4734-b1dd-53e371c7a3c3
 description: 'Microsoft 365 Business를 사용 하 여 Windows 10 장치를 초기화 하는 방법을 알아봅니다. '
-ms.openlocfilehash: 70e4fac2112db177587c04f58fbe8f8d0247ffa9
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+ms.openlocfilehash: 867b87b488ec13c7b84a9eb810a076fbb6da545d
+ms.sourcegitcommit: 5d11f516e78ea4a74145e19ba2300f0792c8bac1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37575721"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "38715165"
 ---
 # <a name="reset-windows-10-devices-to-their-factory-settings"></a>Windows 10 장치를 공장 설정으로 초기화
 
-[![레이블-관리 센터가 변경 중 이며 aka.ms/aboutM365preview에서 자세한 내용을 확인할 수 있습니다.](media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
+[![관리 센터가 변경되고 있음을 알리는 레이블이며 aka.ms/aboutM365preview에서 자세한 내용을 확인할 수 있습니다.](media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
 
 초기화하면 장치를 구매했을 때의 원래 설정으로 되돌아갑니다. 장치를 구매한 후 설치한 앱과 데이터가 모두 제거됩니다. Microsoft 365 Business를 사용하여 관리 중인 Windows 10 장치를 초기화할 수 있습니다.
   
-1. 관리 센터 ()로 이동 <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>합니다. 
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> 의 관리 센터로 이동합니다.
     
 2. 왼쪽 탐색 창에서 **장치** \> **관리**를 선택 합니다.
 

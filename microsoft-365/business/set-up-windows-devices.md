@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 ms.assetid: 2d7ff45e-0da0-4caa-89a9-48cabf41f193
 description: 'Microsoft 365 Business 사용자 Windows 10 Pro를 실행하는 Windows 장치를 설정하는 방법에 대해 알아보십시오. '
-ms.openlocfilehash: 7b6fa2ce3243500c3ddcff7883fa9d8da27dcf86
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+ms.openlocfilehash: f929c64b00e4ebf24e9f82fcfea433119abf2f1c
+ms.sourcegitcommit: 6a413a65b8c2e10cea08f0a15635b28a1362a582
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37575571"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "38718882"
 ---
 # <a name="set-up-windows-devices-for-microsoft-365-business-users"></a>Microsoft 365 Business 사용자를 위해 Windows 장치 설정
 
@@ -41,7 +41,7 @@ Windows 장치를 Windows 10 Pro 크리에이터 업데이트로 업그레이드
   
 ## <a name="join-windows-10-devices-to-your-organizations-azure-ad"></a>Windows 10 장치를 조직의 Azure AD에 연결
 
-조직의 모든 Windows 장치가 Windows 10 Pro 크리에이터 업데이트로 업그레이드되었거나 이미 Windows 10 Pro 크리에이터 업데이트를 실행하고 있는 경우 장치를 조직의 Azure Active Directory에 연결할 수 있습니다. 장치가 연결되면 자동으로 Microsoft 365 Business 구독의 일부인 Windows 10 Business로 장치가 업그레이드됩니다.
+조직의 모든 Windows 장치가 Windows 10 Pro 크리에이터 업데이트로 업그레이드 되었거나 이미 Windows 10 Pro 작성자 업데이트를 실행 하 고 있는 경우 이러한 장치를 조직의 Azure Active Directory에 연결할 수 있습니다. 장치가 연결 되 면 Microsoft 365 비즈니스 구독의 일부인 Windows 10 Business로 자동으로 업그레이드 됩니다.
   
 ### <a name="for-a-brand-new-or-newly-upgraded-windows-10-pro-device"></a>최신 또는 새로 업그레이드된 Windows 10 Pro 장치의 경우
 
@@ -89,7 +89,7 @@ Windows 10 Pro 크리에이터 업데이트를 실행하는 새로운 장치 또
   
    ![On the Make sure this is your organization screen, click Join](media/c749c0a2-5191-4347-a451-c062682aa1fb.png)
   
-비즈니스용 OneDrive에 파일을 업로드한 경우 파일을 다시 동기화하세요. 타사 도구를 사용하여 프로필 및 파일을 마이그레이션한 경우 새 프로필과도 동기화합니다.
+비즈니스용 OneDrive에 파일을 업로드 한 경우 다시 동기화 하세요. 타사 도구를 사용 하 여 프로필 및 파일을 마이그레이션한 경우이를 새 프로필과 동기화 해야 합니다.
   
 ## <a name="verify-the-device-is-connected-to-azure-ad"></a>장치가 Azure AD에 연결되었는지 확인
 
@@ -97,7 +97,7 @@ Windows 10 Pro 크리에이터 업데이트를 실행하는 새로운 장치 또
   
 동기화 상태 페이지에서 동기화를 클릭하여 최신 모바일 장치 관리 정책을 PC로 이동합니다.
   
-Microsoft 365 Business 계정을 사용하려면 Windows **시작** 단추로 이동하여 현재 계정 사진을 마우스 오른쪽 단추로 클릭한 다음 **계정 전환**을 클릭합니다. 조직 전자 메일 및 암호를 사용하여 로그인합니다.
+Microsoft 365 Business 계정을 사용 하려면 Windows **시작** 단추로 이동 하 여 현재 계정 사진을 마우스 오른쪽 단추로 클릭 한 다음 **계정을 전환**합니다. 조직 전자 메일 및 암호를 사용 하 여 로그인 합니다.
   
 ![동기화 상태를 보려면 정보 버튼을 클릭합니다.](media/818f7043-adbf-402a-844a-59d50034911d.png)
   

@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 ms.assetid: c123694a-1efb-459e-a8d5-2187975373dc
 description: Microsoft 365 Business에 제공되는 보안 기능에 대해 알아봅니다.
-ms.openlocfilehash: 5e295480b1a578ca26646a89d6a0a4183a15428d
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: f24836ef93c529eddc05c767d6e4fa8af6aef314
+ms.sourcegitcommit: 5d11f516e78ea4a74145e19ba2300f0792c8bac1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38031448"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "38715145"
 ---
 # <a name="microsoft-365-business-security-and-compliance-features"></a>Microsoft 365 Business 보안 및 규정 준수 기능
 
@@ -35,16 +35,15 @@ Microsoft 365 Business는 PC, 휴대폰 및 태블릿의 데이터를 보호하�
 
 [![관리 센터가 변경되고 있음을 알리는 레이블이며 aka.ms/aboutM365preview에서 자세한 내용을 확인할 수 있습니다.](media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
 
-관리 센터에서 다양한 Microsoft 365 Business 보안 기능을 간편하게 설정 또는 해제하면서 편리하게 관리할 수 있습니다. 관리 센터에서는 다음을 수행할 수 있습니다.
-  
+관리 센터에서 이러한 기능을 설정 하거나 해제 하는 간단한 방법을 제공 하는 다양 한 Microsoft 365 Business 보안 기능을 관리할 수 있습니다. 관리 센터에서는 다음을 수행할 수 있습니다.
   
 - [Android 또는 iOS 디바이스에 대한 애플리케이션 관리 설정 지정](app-protection-settings-for-android-and-ios.md). 
     
-    이러한 설정을 통해 지정된 기간 후에 비활성 상태인 디바이스에서 파일을 삭제하고, 작업 파일을 암호화하고, 사용자가 PIN 등을 설정하도록 요구할 수 있습니다.
+    이러한 설정에는 기간이 만료 된 후 비활성 장치에서 파일을 삭제 하 고, 작업 파일을 암호화 하 고, 사용자가 PIN을 설정 해야 하는 등의 작업이 포함 됩니다.
     
 - [Windows 10 디바이스의 애플리케이션 설정 지정](protection-settings-for-windows-10-devices.md) 
     
-    이러한 설정은 회사 소유 또는 개인 소유의 디바이스에 있는 회사 데이터에 적용될 수 있습니다.
+    이러한 설정은 회사 소유 또는 개인 소유의 장치에서 모두 회사 데이터에 적용할 수 있습니다.
     
 - [Windows 10 디바이스의 디바이스 보호 설정 지정](protection-settings-for-windows-10-pcs.md). 
     
@@ -68,14 +67,14 @@ Microsoft 365 Business의 고급 기능을 사용하여 사이버 위협으로�
     
   - 위험한 메시지를 감지하고 삭제하기 위한 정교한 첨부 파일 검색 및 AI 기반 분석
     
-  - 전자 메일의 링크를 자동으로 확인 하 여 피싱 체계의 일부인 경우 평가 합니다. 이렇게 하면 안전 하지 않은 웹 사이트에 안전 하 게 액세스할 수 없습니다.
+  - 전자 메일의 링크를 자동으로 검사 하 여 피싱 체계에 포함 된 경우 평가 합니다. 이렇게 하면 안전 하지 않은 웹 사이트에 안전 하 게 액세스할 수 없습니다.
 
 - **[Azure Portal의 Intune 전체 기능](https://go.microsoft.com/fwlink/p/?linkid=871403)**
     
-    Azure Portal에서 Intune 관리 센터에 액세스하여 Microsoft 365 Business 관리 센터를 통해 사용할 수 없는 Windows용 고급 디바이스 관리와 함께 MacOS 디바이스, iPhone 및 Android 디바이스 관리와 같은 추가 보안 기능을 설정할 수 있습니다.
+    Azure portal의 Intune 관리 센터에 액세스 하 여 MacOS 장치, iPhone 및 Android 장치 관리와 같은 추가 보안 기능을 Windows 용 고급 장치 관리와 함께 Microsoft를 통해 사용할 수 없도록 설정할 수 있습니다. 365 비즈니스 관리 센터
 - **Azure AD P1 계획과 동일한 [조건부 액세스](https://docs.microsoft.com/azure/active-directory/conditional-access/overview)**
 
-    조건부 액세스를 사용 하면 조직에서 로그인 위험 으로부터 보호 하 고, 예기치 않은 네트워크 또는 로캘에서 액세스를 시도 하 고, access에서 위험한 장치 유형을 형성 하는 등의 방법을 사용할 수 있습니다. 조건부 액세스 정책은 첫 번째 인증을 완료 한 후에 적용 되며 첫 번째 인증 이벤트의 신호를 사용 하 여 시도 된 액세스를 승인, 거부 또는 f 추가 증명 (예: 두 번째 유형의 식별)으로 할지 결정 합니다. 필수.
+    조건부 액세스를 사용 하면 조직에서 로그인 위험을 방지 하 고, 예기치 않은 네트워크 또는 로캘에서 액세스를 시도 하 고, 위험한 장치 유형의 액세스를 시도할 수 있습니다. 조건부 액세스 정책은 첫 번째 인증을 완료 한 후 적용 되며 첫 번째 인증 이벤트의 신호를 사용 하 여 시도 된 액세스를 승인, 거부할지, 아니면 추가 증명 (예: 두 번째 형태의 id)이 필요 합니다.
 
     다음과 같은 조건부 액세스 기능이 포함 되어 있습니다.
 
@@ -85,7 +84,7 @@ Microsoft 365 Business의 고급 기능을 사용하여 사이버 위협으로�
     - 액세스를 위해 MFA 필요
     - [레거시 인증](https://docs.microsoft.com/azure/active-directory/conditional-access/block-legacy-authentication) 을 사용 하는 앱에 대 한 액세스 차단
     - 앱 tp에 [Intune 앱 보호](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access) 사용
-    - 타사 공급자가 포함 된 MFA와 같은 사용자 지정 인증 (예: DUO)
+    - 타사 공급자와의 MFA와 같은 사용자 지정 인증 (예: DUO)
    
     기타 기능:
     - 하이브리드 Azure AD에 대 한 [셀프 서비스 암호 재설정](https://docs.microsoft.com/azure/active-directory/authentication/concept-sspr-customization)
@@ -96,15 +95,15 @@ Microsoft 365 비즈니스 구독에는 준수 및 규정 표준을 유지 관�
 
 - **[데이터 손실 방지 정책 개요](https://support.office.com/article/1966b2a7-d1e2-4d92-ab61-42efbb137f5e)**(DLP) 
     
-    신용 카드 번호, 주민 등록 번호 등의 중요한 정보를 자동으로 감지하도록 DLP를 설정하여 회사 외부에서 함부로 공유하는 일을 방지할 수 있습니다.
+    신용 카드 번호, 주민 등록 번호 등의 중요 한 정보를 자동으로 검색 하도록 DLP를 설정 하 여 회사 외부에서 실수로 공유 되는 것을 방지할 수 있습니다.
     
 - **[Exchange Online Archiving](https://products.office.com/exchange/microsoft-exchange-online-archiving-email)**
     
-    Exchange Online Archiving 라이선스가 있으면 연속 데이터 백업을 사용하여 메시지를 쉽게 보관할 수 있습니다. 이 기능은 나중에 검색 또는 복원에 필요한 경우에 대비하여 삭제한 항목을 포함하는 모든 사용자 전자 메일을 저장합니다. 또한 소송 보존, eDiscovery을 위해 전자 메일 데이터를 보존하거나 규정 준수 요구 사항을 충족할 수 있습니다.
+    Exchange Online 보관 라이선스를 사용 하면 지속적인 데이터 백업과 함께 메시지를 쉽게 보관할 수 있습니다. 나중에 검색 또는 복원에 필요한 경우 삭제 된 항목을 포함 하 여 모든 사용자의 전자 메일이 저장 됩니다. 또한 서로 다른 보존 정책을 사용 하 여 소송 보존, eDiscovery 또는 준수 요구 사항에 맞게 전자 메일 데이터를 보존할 수 있습니다.
     
 - **[민감도 레이블](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels)**
 
-   Microsoft 365 Business에는 [Azure Information Protection 계획 1](https://go.microsoft.com/fwlink/p/?linkid=871407)의 모든 기능이 포함 되어 있습니다. 이 계획을 사용 하 여 **민감도 레이블을**만들어 전자 메일 및 문서에서 중요 한 정보에 대 한 액세스를 제어할 수 있는 "전달 금지" 및 "복사 금지" 등의 컨트롤이 있습니다. 중요 한 정보를 "기밀"으로 분류 하 고 분류 된 정보를 비즈니스 외부 및 내부에 공유 하는 방법을 지정할 수도 있습니다. 엔터프라이즈 등급 암호화는 전자 메일 및 문서에 쉽게 적용할 수 있으며 정보를 비공개로 유지 하는 데 사용 됩니다. Office 용 Azure Information Protection 클라이언트 추가 기능을 설치할 수도 있습니다. 자세한 내용은 [Azure Information Protection 통합 레이블 클라이언트](https://docs.microsoft.com/azure/information-protection/rms-client/unifiedlabelingclient-version-release-history)를 참조 하세요. 민감도 레이블의 경우 AzInfoProtection_UL를 설치 합니다 **.**
+   Microsoft 365 Business에는 [Azure Information Protection 계획 1](https://go.microsoft.com/fwlink/p/?linkid=871407)의 모든 기능이 포함 되어 있습니다. 이 요금제를 사용 하면 전자 메일 및 문서에 있는 중요 한 정보에 대 한 액세스를 제어 하는 **민감도 레이블을** 만들 수 있으며 "전달 금지" 및 "복사 하지 않음" 등의 컨트롤이 있습니다. 중요 한 정보를 "기밀"으로 분류 하 고 분류 된 정보를 비즈니스 외부 및 내부에 공유 하는 방법을 지정할 수도 있습니다. 엔터프라이즈 등급 암호화는 전자 메일 및 문서에 쉽게 적용할 수 있으며 정보를 비공개로 유지 하는 데 사용 됩니다. Office 용 Azure Information Protection 클라이언트 추가 기능을 설치할 수도 있습니다. 자세한 내용은 [Azure Information Protection 통합 레이블 클라이언트](https://docs.microsoft.com/azure/information-protection/rms-client/unifiedlabelingclient-version-release-history)를 참조 하세요. 민감도 레이블의 경우 AzInfoProtection_UL를 설치 합니다 **.**
 
 이러한 기능은 보안 &amp; 및 준수 센터 및 Intune 관리 센터에서 관리할 수 있습니다. 시간이 지남에 따라 간소화 된 컨트롤이 Microsoft 365 비즈니스 관리 센터에 추가 됩니다.
   

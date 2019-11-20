@@ -1,5 +1,5 @@
 ---
-title: AllowSelfServicePurchase을 사용 하 여 셀프 서비스 구매를 사용 하거나 사용 하지 않도록 설정
+title: MSCommerce PowerShell 모듈에 대해 AllowSelfServicePurchase 사용
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: mnirkhe
@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 description: AllowSelfServicePurchase PowerShell cmdlet을 사용 하 여 셀프 서비스 구매를 설정 하거나 해제 하는 방법을 알아봅니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 9093e018ed24a9e9735f5b6b71084246967cb59d
-ms.sourcegitcommit: 8ca97fa879ae4ea44468be629d6c32b429efeeec
+ms.openlocfilehash: cb035294ff7f6007e73464f88fc69376fc5b8cc1
+ms.sourcegitcommit: b535fe233234fd25146cfe15478e20d954f71e03
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38676273"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38748249"
 ---
 # <a name="use-allowselfservicepurchase-for-the-mscommerce-powershell-module"></a>MSCommerce PowerShell 모듈에 대해 AllowSelfServicePurchase 사용
 
@@ -123,6 +123,21 @@ Connect-MSCommerce #sign-in with your global or billing administrator account wh
 $product = Get-MSCommerceProductPolicies -PolicyId AllowSelfServicePurchase | where {$_.ProductName -match 'Power Automate'}
 Update-MSCommerceProductPolicy -PolicyId AllowSelfServicePurchase -ProductId $product.ProductID -Enabled $false
 ```
+
+## <a name="troubleshooting"></a>문제 해결
+
+**데**
+
+다음과 같은 오류 메시지가 표시 됩니다.
+
+    HandleError : Failed to retrieve policy with PolicyId 'AllowSelfServicePurchase', ErrorMessage - The underlying
+    connection was closed: An unexpected error occurred on a send.
+
+이전 버전의 TLS (전송 계층 보안)로 인 한 것일 수 있습니다. 이 서비스에 연결 하려면 TLS 1.2 이상을 사용 해야 합니다.
+
+**솔루션**
+
+TLS 1.2으로 업그레이드 합니다.[https://docs.microsoft.com/configmgr/core/plan-design/security/enable-tls-1-2](https://docs.microsoft.com/configmgr/core/plan-design/security/enable-tls-1-2)
 
 <!--
 ## Uninstall the MSCommerce module

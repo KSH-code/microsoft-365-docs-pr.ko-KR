@@ -5,12 +5,12 @@ keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 설명서
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
-ms.openlocfilehash: 11cbdaf47e06536afd996fd41c3ea603967e2685
-ms.sourcegitcommit: 2c2248b03f7753d64490f2f7e56ec644a235b65a
+ms.openlocfilehash: 64b5ffab59b19945b20bc614f09963ca43027afe
+ms.sourcegitcommit: 5d11f516e78ea4a74145e19ba2300f0792c8bac1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38640350"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "38715510"
 ---
 # <a name="microsoft-managed-desktop-devices"></a>Microsoft Managed Desktop 장치 
 
@@ -20,7 +20,7 @@ Microsoft Managed Desktop에 대 한 자세한 내용은 [Microsoft Managed desk
 
 <!-- Microsoft 365 E5; Device as a Service -->
 <!-- Split from device & technologies topic. Destination topic for aka.ms/device-list  -->
-Microsoft Managed Desktop에 등록 하려면 장치는 다음 모델 중 하나 여야 하며, RAM, 프로세서 제품군 및 디스크 공간에 대해 나열 된 사양을 충족 하거나 초과 해야 합니다. 다른 사용자 지정은 지원 되지 않습니다.
+Microsoft Managed Desktop에 등록 하려면 장치는 다음 모델 중 하나 여야 하며, RAM, 프로세서 제품군 및 디스크 공간에 대해 나열 된 사양을 충족 하거나 초과 해야 합니다. 
 
 여기에 장치에 대 한 링크는 참조용 으로만 제공 됩니다. 장치를 주문 하려면 상업용 채널 대화 상대와 협력 하 여 올바른 구성을 선택 했는지 확인 합니다. 이 표에서 *보관 날짜* 는 이러한 모델이 보다 짧은 Microsoft Managed Desktop service 수명에 적용 되는 날짜입니다. 이 날짜 이후에 등록 되는 모든 장치는 Microsoft Managed Desktop의 3 년 전체 지원 기간을 받지 않습니다. 보관 된 장치는 [Microsoft Managed Desktop 아카이브된 장치](archived-device-list.md)에도 나열 됩니다. *퇴직 date* 는 Microsoft Managed Desktop에서 더 이상이 모델을 지원 하지 않는 날짜입니다. 해당 날짜에이 모델의 등록 된 모든 장치는 등록 시점에 관계 없이 Microsoft Managed Desktop에서 제거 됩니다.
 
@@ -41,7 +41,7 @@ Microsoft Managed Desktop에 등록 하려면 장치는 다음 모델 중 하나
 | [HP EliteBook 830/840/850 G6 노트북 PC](https://store.hp.com/us/en/mdp/laptops/elitebook-840#!&tab=features) | 128 GB/Intel i5/8gb RAM | 5VS01AV, IR 카메라 또는 지문 센서가 필요한 SKU | 11 월 30 일, 2020 | 11 월 30 일, 2023 |
 | [HP EliteBook x360 830 G6 노트북 PC](https://store.hp.com/us/en/pdp/hp-elitebook-x360-830-g6-notebook-pc) | 128 GB/Intel i5/8gb RAM | 5VS01AV, IR 카메라 또는 지문 센서가 필요한 SKU | 11 월 30 일, 2020 | 11 월 30 일, 2023 |
 | [HP 정예 x2 1013 G3](https://store.hp.com/us/en/mdp/laptops/hp-elite-x2-1013-3074457345617296670--1#!&tab=features) | 256 GB/Intel i5/8gb RAM | 5VS03AV를 사용한 SKU, IR 카메라 필요 | 5 월 14 일 2020 | 5 월 14 일 2023 |
-| [HP EliteBook x360 1030 G3](https://store.hp.com/us/en/mdp/laptops/hp-elitebook-x360-1030-g2--1#tab=features) | 56 GB/Intel i5/8gb RAM | 5VS01AV를 사용한 SKU, IR 카메라 필요 | 5 월 14 일 2020 | 5 월 14 일 2023 |
+| [HP EliteBook x360 1030 G3](https://store.hp.com/us/en/mdp/laptops/hp-elitebook-x360-1030-g2--1#tab=features) | 256 GB/Intel i5/8gb RAM | 5VS01AV를 사용한 SKU, IR 카메라 필요 | 5 월 14 일 2020 | 5 월 14 일 2023 |
 | [HP EliteBook x360 1040 G5](https://store.hp.com/us/en/mdp/laptops/hp-elitebook-x360-1040-3074457345617328670--1#!&tab=features) | 256 GB/Intel i5/8gb RAM | 5VS01AV를 사용한 SKU, IR 카메라 필요 | 2020 년 10 월 23 일 | 2023 년 10 월 23 일 |
 | [HP EliteDesk 800 G4 DM](https://store.hp.com/us/en/mdp/desktops/elitedesk-800-mini-349547--1#!&tab=features) | 128 GB/Intel i3/8gb RAM | 5VS04AV를 사용한 SKU | 7 월 18 일 2020 | 7 월 18 일 2023 |
 | [HP EliteDesk 800 G4 SFF](https://store.hp.com/us/en/mdp/desktops/elitedesk-800-small-form-factor-349548--1#!&tab=features) | 128 GB/Intel i3/8gb RAM | 5VS04AV를 사용한 SKU | 7 월 18 일 2020 | 7 월 18 일 2023 |

@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Microsoft 365 for 캠페인을 통해 피싱 및 기타 공격 으로부터 보호 합니다.
-ms.openlocfilehash: be00cdc0c70c2a2f6ac9292e933031280b7c4616
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 04779d1c69b57811cf493a9f48185eed2435c82e
+ms.sourcegitcommit: b535fe233234fd25146cfe15478e20d954f71e03
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38029062"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38748259"
 ---
 # <a name="protect-yourself-against-phishing-and-other-attacks"></a>피싱 및 기타 공격 으로부터 자신을 보호 합니다.
 
@@ -36,7 +36,6 @@ Microsoft 365에는 공격 으로부터 보호할 수 있는 다양 한 보호 �
 - **피싱** 피싱 사기는 합법적인 것 처럼 보이지만 개인 정보를 얻고 돈을 도용 하려는 전자 메일입니다.
 - **스푸핑** 또한 Scammers는 자신 으로부터 전자 메일을 받은 것 처럼 보이도록 하기 위해 스푸핑 이라는 기법을 사용할 수 있습니다. 
 - **맬웨어** 는 일반적으로 링크를 클릭 하거나 전자 메일에서 문서를 연 후에 설치 되는 컴퓨터에 설치할 수 있는 악성 소프트웨어입니다. 다양 한 유형의 맬웨어 (예: 컴퓨터를 처음 사용할 때 랜 섬 웨어)가 있지만이를 포함 하지 않으려고 합니다. 
-
 
 ## <a name="best-practices"></a>모범 사례
 
@@ -70,11 +69,9 @@ Microsoft 365에는 공격 으로부터 보호할 수 있는 다양 한 보호 �
 
 [PDF](downloads/M365CampaignsWhatCanUsersDoToSecure.pdf) | [PowerPoint](https://github.com/MicrosoftDocs/microsoft-365-docs-pr/raw/live/m365-democracy/microsoft-365/campaigns/downloads/M365CampaignsWhatCanUsersDoToSecure.pptx)
 
- 
-
 ## <a name="set-it-up"></a>설정하기
 
 자세한 내용은 다음을 참고 하세요.
-- [Office에서 파일 및 통신을 안전 하 게 유지](https://support.office.com/article/keep-your-files-and-communications-safe-with-office-c4ddc381-7395-42da-887c-8836a3bb975f)
-- [회사 보안 및 비공개로 유지](https://support.office.com/article/stay-secure-and-private-at-work-104c7d91-b25a-453d-beee-ba64b6c6fc2d)
+- [파일 및 통신을 Office와 안전 하 게 유지](https://support.office.com/article/keep-your-files-and-communications-safe-with-office-c4ddc381-7395-42da-887c-8836a3bb975f)합니다.
+- [회사에서 보안 및 사설을 유지](https://support.office.com/article/stay-secure-and-private-at-work-104c7d91-b25a-453d-beee-ba64b6c6fc2d)합니다.
   

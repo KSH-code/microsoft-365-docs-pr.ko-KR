@@ -25,12 +25,12 @@ search.appverid:
 - MOE150
 ms.assetid: 02e74022-44af-414b-9d74-0ebf5c2197f0
 description: Windows 10 장치에서 앱 관리 정책을 만들고 작업 파일을 보호 하는 방법을 알아봅니다.
-ms.openlocfilehash: 0e1221e533418166b80afd94431414016774f247
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+ms.openlocfilehash: ca6d789e0242975a0395e6cf5653d3f43f819801
+ms.sourcegitcommit: 5d11f516e78ea4a74145e19ba2300f0792c8bac1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37575781"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "38715255"
 ---
 # <a name="set-application-protection-settings-for-windows-10-devices"></a>Windows 10 장치에서 응용 프로그램 보호 설정 설정하기
 
@@ -52,15 +52,15 @@ ms.locfileid: "37575781"
     
 7. 사용자가 작업 파일을 개인 PC에 저장하지 않도록 하려면 **사용자가 회사 데이터를 개인 파일로 복사하는 것을 차단하고 회사 파일은 비즈니스용 OneDrive에 저장하도록 합니다.** 를 **켜기**로 설정하세요. 
     
-9. **Windows 장치에서 데이터 복구**를 확장하여 **켜기**로 설정하는 것이 좋습니다.
+9. **Windows 장치에서 데이터 복구를**확장 합니다. 이 기능을 켜는 것이 **좋습니다.**
     
-    데이터 복구 에이전트 인증서의 위치를 찾기 전에 먼저 하나 만들어야 합니다. 지침은 [EFS(파일 시스템 암호화) DRA(데이터 복구 에이전트) 인증서 만들기 및 확인](https://go.microsoft.com/fwlink/p/?linkid=853700)을 참조하세요.
+    데이터 복구 에이전트 인증서의 위치를 찾기 전에 먼저 하나 만들어야 합니다. 자세한 내용은 [efs (파일 시스템 암호화) 및 DRA (데이터 복구 에이전트) 인증서 만들기 및 확인](https://go.microsoft.com/fwlink/p/?linkid=853700)을 참조 하세요.
     
-    기본적으로 작업 파일은 장치에 저장되고 사용자 프로필과 연결된 비밀 키를 사용하여 암호화됩니다. 사용자만 파일을 열고 암호 해독할 수 있습니다. 그러나 장치를 분실하거나 사용자가 제거된 경우 파일이 암호화된 상태에 계속 머물러 있을 수 있습니다. 관리자가 DRA(데이터 복구 에이전트) 인증서를 사용하여 파일의 암호를 해독할 수 있습니다.
+    기본적으로 작업 파일은 장치에 저장되고 사용자 프로필과 연결된 비밀 키를 사용하여 암호화됩니다. 사용자만 파일을 열고 암호 해독할 수 있습니다. 그러나 장치를 분실하거나 사용자가 제거된 경우 파일이 암호화된 상태에 계속 머물러 있을 수 있습니다. 관리자는 DRA (데이터 복구 에이전트) 인증서를 사용 하 여 파일의 암호를 해독할 수 있습니다.
     
     ![Browse to Data Recovery Agent certificate.](media/7d7d664f-b72f-4293-a3e7-d0fa7371366c.png)
   
-10. 추가 도메인 또는 SharePoint Online 위치를 추가하여 나열된 모든 앱이 보호되는지 확인하려면 **Protect additional network and cloud locations**(추가 네트워크 및 클라우드 위치 보호)를 확장합니다. 필드에 2개 이상의 항목을 입력해야 하는 경우 항목 사이에 세미콜론(;)을 사용하세요.
+10. 나열 된 모든 앱의 파일이 보호 되도록 추가 도메인 또는 SharePoint Online 위치를 추가 하려는 경우 **추가 네트워크 및 클라우드 위치 보호** 를 확장 합니다. 필드에 2개 이상의 항목을 입력해야 하는 경우 항목 사이에 세미콜론(;)을 사용하세요.
     
     ![Expand Protect additional network and cloud locations, and enter domains or SharePoint Online sites you own.](media/7afaa0c7-ba53-456d-8c61-312c45e09625.png)
   

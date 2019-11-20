@@ -16,14 +16,16 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: ''
 description: '요약: Microsoft 365 테스트 환경을 위한 암호 해시 동기화 및 로그인을 구성하고 보여 줍니다.'
-ms.openlocfilehash: dcf5e4301d6c9c91068abc1d12db8e6de1083376
-ms.sourcegitcommit: 9ee873c6a2f738a0c99921e036894b646742e706
+ms.openlocfilehash: 019a1f80712c426d678603b467bf19815d25f391
+ms.sourcegitcommit: ea48c86c727dcd9d4b3b970b14a4260337f158f9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38673384"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "38694115"
 ---
 # <a name="password-hash-synchronization-for-your-microsoft-365-test-environment"></a>Microsoft 365 테스트 환경을 위한 암호 해시 동기화
+
+*이 테스트 랩 가이드는 Microsoft 365 Enterprise와 Office 365 Enterprise 테스트 환경 모두에서 사용할 수 있습니다.*
 
 많은 조직에서 Azure AD Connect와 암호 해시 동기화를 사용하여 온 - 프레미스 AD DS (Active Directory 도메인 서비스) 포리스트의 계정 집합을 Office 365 및 EMS E5 구독의 Azure AD 테넌트 계정 집합과 동기화합니다. 이 문서에서는 Microsoft 365 테스트 환경에 암호 해시 동기화를 추가하여 다음과 같은 구성을 수행하는 방법에 대해 설명합니다.
   
@@ -72,8 +74,6 @@ testlab.\<공용 도메인 이름>에 대해 현재 다음 작업이 어떻게 �
 - 시뮬레이트된 인트라넷의 AD DS 도메인입니다.
      
 ## <a name="phase-3-install-azure-ad-connect-on-app1"></a>3단계: APP1에 Azure AD Connect 설치
-
-*이 테스트 랩 가이드는 Microsoft 365 Enterprise와 Office 365 Enterprise 테스트 환경 모두에서 사용할 수 있습니다.*
 
 이 단계에서는 APP1에서 Azure AD Connect 도구를 설치 및 구성한 후 잘 작동하는지 확인합니다.
   

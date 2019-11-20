@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Microsoft 365 Business에 대해 MFA를 요구 하 고 조건부 액세스 정책을 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: b4ea67037339ae1a00f12d7b51e4584d259264e4
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 0279fff8dd4143c883b2f1633907ac197c65f04a
+ms.sourcegitcommit: b535fe233234fd25146cfe15478e20d954f71e03
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38031343"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38748289"
 ---
 # <a name="require-multi-factor-authentication-and-set-up-conditional-access-policies"></a>다단계 인증 필요 및 조건부 액세스 정책 설정
 
@@ -70,16 +70,14 @@ ms.locfileid: "38031343"
 
 1. [Azure 포털로](https://portal.azure.com)이동한 다음 **azure Active Directory** \> **조건부 액세스**로 이동 합니다.
     
-    기본 정책은 페이지에 나열 되며, [mfa](#require-mfa)에 대 한 mfa 필요의 단계를 완료 한 후에는 관리자 및 최종 사용자 보호를 사용 하도록 설정 해야 한다는 것을 확인할 수 있습니다.
+    기본 정책은 페이지에 나열 되며, [mfa](#require-mfa) **에 대 한 mfa** 필요의 단계를 완료 한 후에는 관리자 및 **최종 사용자 보호** 를 사용 하도록 설정 해야 한다는 것을 확인할 수 있습니다.
 
     ![조건부 액세스에 대 한 기준 정책을 나열 하는 페이지입니다.](media/casettings.png)
 2. 각 정책에 대해 다음과 같은 구체적인 지침을 참조 하세요.
 
     - [관리자를 위해 MFA 필요](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-administrators)
-
-       
-    -   [사용자에 대해 MFA 요구](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-end-users)  
+    - [사용자에 대해 MFA 요구](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-end-users)  
     - [레거시 인증 차단](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-legacy-auth)
     - [서비스 관리를 위해 MFA 필요](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-azure)
 
-승인 된 클라이언트 앱을 요구 하는 등 추가 정책을 설정할 수 있습니다. 자세한 내용은 [조건부 액세스 설명서](https://docs.microsoft.com/azure/active-directory/conditional-access/) 를 참조 하세요.
+승인 된 클라이언트 앱을 요구 하는 등 추가 정책을 설정할 수 있습니다. 자세한 내용은 [조건부 액세스 설명서](https://docs.microsoft.com/azure/active-directory/conditional-access/)를 참조 하세요.

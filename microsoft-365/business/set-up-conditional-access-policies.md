@@ -21,24 +21,24 @@ search.appverid:
 - MET150
 - MOE150
 description: Microsoft 365 캠페인에 대 한 조건부 액세스 정책을 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: 3772aa0d505ef54a0587423e890ede519d571e0c
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: aebdb733c2dd9a05947335ad4f151104d801568e
+ms.sourcegitcommit: 6a413a65b8c2e10cea08f0a15635b28a1362a582
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38031398"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "38718832"
 ---
 # <a name="set-up-conditional-access-policies"></a>조건부 액세스 정책 설정
 
-[조건부 액세스](https://docs.microsoft.com/azure/active-directory/conditional-access/overview) 정책은 substancial 추가 보안을 추가 합니다. Microsoft는 모든 고객에 게 권장 되는 기본 조건부 액세스 정책 집합을 제공 합니다. 기본 정책은 일반적인 여러 공격 으로부터 조직을 보호 하는 데 도움이 되는 미리 정의 된 정책의 집합입니다. 이러한 일반적인 공격에는 암호 스프레이, replay 및 피싱이 포함 될 수 있습니다.
+[조건부 액세스](https://docs.microsoft.com/azure/active-directory/conditional-access/overview) 정책은 상당히 추가 보안을 추가 합니다. Microsoft는 모든 고객에 게 권장 되는 기본 조건부 액세스 정책 집합을 제공 합니다. 기본 정책은 일반적인 여러 공격 으로부터 조직을 보호 하는 데 도움이 되는 미리 정의 된 정책의 집합입니다. 이러한 일반적인 공격에는 암호 스프레이, replay 및 피싱이 포함 될 수 있습니다.
 
 관리자 및 사용자는 이러한 정책을 통해 특정 조건이 충족 될 때 다단계 인증 또는 MFA 라는 두 번째 인증 양식을 입력 해야 합니다. 예를 들어 사용자가 다른 국가에서 로그인 하는 경우 로그인이 위험한 것으로 간주 될 수 있으며 사용자는 추가 인증 양식을 제공 해야 합니다. 
 
 현재 기본 정책에는 다음이 포함 됩니다.
-- 관리자 **에 대해 MFA 필요** -전역 관리자를 비롯 하 여 권한이 가장 높은 관리자 역할에 대해 multi-factor authentication이 필요 합니다.
-- **최종 사용자 보호** -로그인이 위험한 경우에만 사용자에 대해 multi-factor authentication을 사용 해야 합니다. 
-- **레거시 인증 차단** -오래 된 클라이언트 앱과 일부 새 앱은 더 최신의 비보안 인증 프로토콜을 사용 하지 않습니다. 이러한 이전 앱은 조건부 액세스 정책을 우회 하 여 환경에 대 한 무단 액세스를 얻을 수 있습니다. 이 정책은 조건부 액세스를 지원 하지 않는 클라이언트의 액세스를 차단 합니다. 
-- **서비스 관리를 위해 MFA 필요** -Azure portal을 포함 하 여 관리 도구에 액세스 하기 위한 다단계 인증 필요 (기준 정책 구성). 
+- 관리자 **에 게 MFA 필요를 요구** &ndash; 하는 경우 전역 관리자를 포함 하 여 가장 권한이 부여 된 관리자 역할에 대해 다단계 인증이 필요 합니다.
+- **최종 사용자 보호** &ndash; 를 사용 하려면 로그인이 위험한 경우에만 사용자에 대 한 다단계 인증이 필요 합니다. 
+- **레거시 인증** &ndash; 차단 이전 버전의 클라이언트 앱과 일부 새 앱은 보다 새로운 비보안 인증 프로토콜을 사용 하지 않습니다. 이러한 이전 앱은 조건부 액세스 정책을 우회 하 여 환경에 대 한 무단 액세스를 얻을 수 있습니다. 이 정책은 조건부 액세스를 지원 하지 않는 클라이언트의 액세스를 차단 합니다. 
+- &ndash; **서비스 관리에 MFA 필요를 요구** 하는 경우 Azure portal을 비롯 하 여 관리 도구에 액세스 하기 위한 다단계 인증이 필요 합니다 (기준 정책 구성). 
 
 이러한 모든 기본 정책을 사용 하도록 설정 하는 것이 좋습니다. 이러한 정책을 사용 하도록 설정 하 고 나면 관리자 및 사용자에 게 Azure Multii-요인 인증을 등록 하 라는 메시지가 표시 됩니다.
 
@@ -58,4 +58,4 @@ ms.locfileid: "38031398"
  - [레거시 인증 차단](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-legacy-auth)
   - [서비스 관리를 위해 MFA 필요](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-azure)
 
-승인 된 클라이언트 앱을 요구 하는 등의 다양 한 추가 정책을 설정할 수 있습니다. 자세한 내용은 [조건부 액세스 설명서](https://docs.microsoft.com/azure/active-directory/conditional-access/) 를 참조 하세요.
+승인 된 클라이언트 앱을 요구 하는 등의 다양 한 추가 정책을 설정할 수 있습니다. 자세한 내용은 [조건부 액세스 설명서](https://docs.microsoft.com/azure/active-directory/conditional-access/)를 참조 하세요.

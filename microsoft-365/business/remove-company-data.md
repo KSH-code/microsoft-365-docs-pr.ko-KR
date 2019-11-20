@@ -20,16 +20,16 @@ search.appverid:
 - MET150
 ms.assetid: 80bdae57-f8bc-4e40-a58c-956007117ecb
 description: 'Microsoft 365 Business를 사용 하 여 사용자 장치 또는 Windows Pc에서 회사 데이터를 제거 하는 방법을 알아봅니다. '
-ms.openlocfilehash: 169bc7d849bb934de2788daebb90308b1a086111
-ms.sourcegitcommit: bd52f7b662887f552f90c46f69d6a2a42fb66914
+ms.openlocfilehash: 59e94a08e149a5cb119aabbbe816ccd2f4a9f9fb
+ms.sourcegitcommit: 5d11f516e78ea4a74145e19ba2300f0792c8bac1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37575741"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "38715235"
 ---
 # <a name="remove-company-data-from-devices"></a>장치에서 회사 데이터 제거
 
-[![레이블-관리 센터가 변경 중 이며 aka.ms/aboutM365preview에서 자세한 내용을 확인할 수 있습니다.](media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
+[![관리 센터가 변경되고 있음을 알리는 레이블이며 aka.ms/aboutM365preview에서 자세한 내용을 확인할 수 있습니다.](media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
 
 ## <a name="remove-company-data"></a>회사 데이터 제거
 
@@ -41,9 +41,9 @@ Microsoft 365 Business을(를) 사용하여 사용자가 Microsoft 365로 보호
   
 3. **관리** 페이지에서 데이터를 제거할 사용자를 선택 하거나 검색 하 고 이름을 선택 합니다. 
     
-4. 다음 창의 **장치 목록에서 장치 또는** 장치를 선택 하 고 열리는 장치 창에서 장치를 공장 설정으로 다시 설정 하거나 회사 데이터를 제거할 수 있습니다 (장치 유형에 따라 다름). 
+4. 다음 창의 **장치 목록에서 장치를** 하나 이상 선택 합니다. 장치 창에서 장치 유형에 따라 장치를 공장 설정으로 초기화 하거나 회사 데이터를 제거할 수 있습니다. 
     
-    ![On the remove comapany data pane, select the device from which you want to remove the data.](media/resetorremove.png)
+    ![회사 데이터 제거 창에서 데이터를 제거할 장치를 선택 합니다.](media/resetorremove.png)
   
 5. 확인 창에서 **닫기** **확인** \> 을 선택 합니다.
     

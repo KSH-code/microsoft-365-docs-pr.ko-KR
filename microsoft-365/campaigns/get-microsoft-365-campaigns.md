@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
 description: Cybersecurity 위협 으로부터 전자 메일, 데이터 및 통신으로 캠페인을 보호할 수 있도록 Microsoft 365 for 캠페인을 확인 하세요.
-ms.openlocfilehash: 0e038f3b33db957d3503ee091b075b767c30eeda
-ms.sourcegitcommit: 75b97d1ff617bc4b1b0ef9135dfe6a8842ea1b52
+ms.openlocfilehash: 96c86c3cbd942e0ffe31cfdf29a216c63c52bfc4
+ms.sourcegitcommit: b535fe233234fd25146cfe15478e20d954f71e03
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35772515"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38748269"
 ---
 # <a name="get-microsoft-365-for-campaigns"></a>캠페인에 대 한 Microsoft 365 받기
 
@@ -49,7 +49,7 @@ Microsoft 365 비즈니스를 포함 하는 모든 사람에 게이 지침을 �
 
 ## <a name="what-does-it-cost-who-needs-it-and-what-is-the-commitment"></a>It 비용은 무엇이 고, 필요한 지, 그리고 약정 이란?
 캠페인이 월별 사용자 당 캠페인 비용 $5에 해당 하는 특별 가격 365 산정을 사용 하는 경우 캠페인을 보호 하려면 지원자, 캠페인 관리자, 캠페인 또는 파티에 속하는 모든 선임 직원, 대개 모든 정규 직원에 대 한 라이선스를 사용 하는 것이 좋습니다. 특정 자원 봉사 직원에 게 라이선스가 필요할 수도 있습니다. 일반적으로 캠페인에서 보호 된 전자 메일 및 장치를 필요로 하는 모든 사용자에 게 라이선스를 할당 합니다.
-캠페인에 대해 Microsoft 365에 등록할 때 최소 시간 약정을 사용할 수 없습니다. 필요한 라이선스를 매월 지불 하 고 언제 든 지 서비스 사용을 중지할 수 있습니다.
+캠페인에 대해 Microsoft 365에 등록할 때 최소 시간 약정을 갖지 않습니다. 필요한 라이선스를 매월 지불 하 고 언제 든 지 서비스 사용을 중지할 수 있습니다.
 
 ## <a name="how-do-i-qualify-for-special-pricing"></a>특별 가격 산정을 위해서는 어떻게 해야 합니까?
 

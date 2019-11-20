@@ -20,18 +20,18 @@ search.appverid:
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
 description: Microsoft 365 Business의 보호 수준 향상에 대 한 도움말 보기
-ms.openlocfilehash: 9b17af7f6dde321fb8da758f0cc8223e5f488121
-ms.sourcegitcommit: 8ca97fa879ae4ea44468be629d6c32b429efeeec
+ms.openlocfilehash: ce37f6d31037c442d6cabd6adc07f5f0138add54
+ms.sourcegitcommit: b535fe233234fd25146cfe15478e20d954f71e03
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38676106"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38748309"
 ---
 # <a name="increase-threat-protection"></a>위협 방지 강화
 
 이 문서는 Microsoft 365 구독의 보호를 향상 시켜 피싱, 맬웨어 및 기타 위협 으로부터 보호 하는 데 도움이 됩니다. 이러한 권장 사항은 정치적 캠페인, 법률 사무소 및 의료 보험 clinics 같은 보안 요구 사항이 증가 하는 조직에 적합 합니다. 
 
-시작 하기 전에 Office 365 보안 점수를 확인 하세요. Office 365 안전한 점수는 일반 활동 및 보안 설정에 따라 Office 365 조직의 보안을 분석 하 고 점수를 할당 합니다. 먼저 현재 점수를 기록 합니다. 이 문서에서 권장 하는 작업을 수행 하면 점수가 증가 합니다. 목표는 최대 점수를 얻는 것이 아니라 사용자의 생산성에 부정적인 영향을 주지 않는 환경을 보호 하기 위한 기회를 확보 하기 위한 것입니다. 
+시작 하기 전에 Office 365 보안 점수를 확인 하세요. Office 365 안전한 점수는 일반 활동 및 보안 설정에 따라 Office 365 조직의 보안을 분석 하 고 점수를 할당 합니다. 먼저 현재 점수를 기록 합니다. 이 문서에서 권장 하는 작업을 수행 하면 점수가 증가 합니다. 목표는 최대 점수를 얻는 것이 아니라 사용자의 생산성에 부정적인 영향을 주지 않는 환경을 보호 하기 위한 기회를 얻기 위한 것입니다. 
 
 자세한 내용은 [Microsoft 보안 점수](https://docs.microsoft.com/office365/securitycompliance/microsoft-secure-score)를 참조 하세요.
 
@@ -59,11 +59,11 @@ Office 365 또는 Microsoft 365 환경에는 맬웨어에 대 한 보호 기능�
 
 ## <a name="protect-against-ransomware"></a>랜 섬 웨어 로부터 보호
 
-랜 섬 웨어는 파일 암호화 또는 컴퓨터 화면 잠금을 통해 데이터에 대 한 액세스를 제한 합니다. 그런 다음 "ransom"를 사용 하 여 victims에서 데이터에 액세스 하는 데 사용 하는 것이 좋습니다. 
+랜 섬 웨어는 파일 암호화 또는 컴퓨터 화면 잠금을 통해 데이터에 대 한 액세스를 제한 합니다. 그런 다음 일반적으로 데이터에 액세스 하기 위해 exchange에서 "ransom" (예를 들어, Bits 동전) 형식을 사용 하 여 victims에서 ort money를 요청 합니다. 
   
 메일 흐름 규칙을 하나 이상 만들어 차단에 일반적으로 사용 되는 파일 확장명 (즉, [메일 단계에서 맬웨어에 대 한 보호 수준 올리기](#raise-the-level-of-protection-against-malware-in-mail) )이 나 전자 메일로 이러한 첨부 파일을 받는 사용자에 게 경고 메시지를 표시 하 여 랜 섬 웨어 로부터 보호할 수 있습니다.
 
-이전 단계에서 차단한 파일 외에도 매크로를 포함 하는 Office 첨부 파일을 열기 전에 사용자에 게 경고 하는 규칙을 만드는 것이 좋습니다. 매크로를 사용할 수 없도록이 파일을 사용자에 게 경고 합니다.
+이전 단계에서 차단한 파일 외에도 매크로를 포함 하는 Office 첨부 파일을 열기 전에 사용자에 게 경고 하는 규칙을 만드는 것이 좋습니다. 매크로 내에서 랜 섬 웨어를 숨길 수 있으므로 사용자가 알지 못하는 사용자 로부터 이러한 파일을 열지 않도록 경고 메시지를 표시 합니다.
 
 메일 전송 규칙을 만들려면 다음을 수행 합니다.
   
@@ -128,7 +128,6 @@ Office 365 또는 Microsoft 365 환경용으로 하나 이상의 사용자 지�
   
 가장 중요 한 사용자와 사용자 지정 도메인을 보호 하는 정책을 만들어이 보호를 시작 하는 것이 좋습니다. 
 
-  
 ATP 피싱 방지 정책을 만들려면 [이 간략 한 교육 비디오](https://support.office.com/article/86c425e1-1686-430a-9151-f7176cce4f2c)를 시청 하거나 다음 단계를 완료 하세요.
   
 1. [https://protection.office.com](https://protection.office.com)으로 이동합니다. 
@@ -139,7 +138,7 @@ ATP 피싱 방지 정책을 만들려면 [이 간략 한 교육 비디오](https
     
 4. **피싱 방지** 페이지에서 **+ 만들기**를 선택 합니다. 피싱 방지 정책을 정의 하는 과정을 안내 하는 마법사가 시작 됩니다.
     
-5. 아래 차트에서 권장 하는 대로 정책에 대 한 이름, 설명 및 설정을 지정 합니다. 자세한 내용은 [ATP 피싱 방지 정책 옵션에 대 한](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-anti-phishing-policies) 정보를 참조 하세요. 
+5. 아래 차트에서 권장 하는 대로 정책에 대 한 이름, 설명 및 설정을 지정 합니다. 자세한 내용은 [ATP 피싱 방지 정책 옵션에 대 한](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-anti-phishing-policies)정보를 참조 하세요. 
     
 6. 설정을 검토 한 후에는 **이 정책 만들기** 또는 적절 한 **저장**을 선택 합니다.
     
@@ -157,26 +156,26 @@ ATP 피싱 방지 정책을 만들려면 [이 간략 한 교육 비디오](https
    
 자세한 내용은 [Set Up Office 365 ATP 피싱 방지 정책](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-anti-phishing-policies)를 참조 하세요.
   
-## <a name="protect-against-malicious-attachments-files-and-links-with-advanced-threat-protection-atp"></a>ATP (Advanced Threat Protection)를 사용한 악의적 첨부 파일 및 링크 방지
+## <a name="protect-against-malicious-attachments-files-and-links-with-advanced-threat-protection-atp"></a>ATP (Advanced Threat Protection)를 사용한 악의 있는 첨부 파일 및 링크 로부터 보호
 
 ![를 https://aka.ms/aboutM365preview가리키는 배너입니다.](../business/media/m365admincenterchanging.png)
 
-먼저, 관리 센터 <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> 에서 새 관리 센터 미리 보기가 설정 되어 있는지 확인 합니다. 텍스트 옆의 토글을 **새 관리 센터로**설정 합니다.
+먼저 관리 센터 <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> 에서 새 관리 센터 미리 보기가 설정 되어 있는지 확인 합니다. 텍스트 옆의 토글을 **새 관리 센터로**설정 합니다.
 
    ![새 관리 센터 미리 보기가 설정 되어 있습니다.](media/previewon.png)
 
 아직 테 넌 트에 카드가 포함 된 **설정** 페이지가 표시 되지 않으면 Office 365 보안 &amp; 및 준수 센터에서 다음 단계를 완료 하는 방법을 참조 하세요. Security [& 준수 센터에서 atp 안전한 첨부 파일 설정을](#set-up-atp-safe-attachments-in-the-security--compliance-center) 참조 하 고 [보안 & 준수 센터에서 atp 안전한 링크를 설정](#set-up-atp-safe-links-in-the-security--compliance-center)합니다.
 
 1.  왼쪽 탐색 창에서 **설치**를 선택 합니다.
-2. **설정** 페이지에서 **고급 위협 으로부터 보호 기능 강화** 카드에서 **보기** 를 선택 합니다.</br></br>
+2. **설정** 페이지에서 **고급 위협 으로부터 보호 강화** 카드에서 **보기** 를 선택 합니다.</br></br>
     ![고급 위협 으로부터 보호 향상에서 보기를 선택 합니다.](media/startatp.png) 
 
 3. **고급 위협 으로부터 보호 기능 향상** 페이지에서 **시작**을 선택 합니다.
-4. 열리는 창에서 **전자 메일의 링크 및 첨부**파일 옆에 있는 확인란을 선택 하 고, **SharePoint, OneDrive 및 팀에서 파일을 검색**하 고, **악성 콘텐츠를 검색**하는 동안 **office desktop 및 office Online 앱에서 링크** 를 검사 합니다.
+4. 열려 있는 창에서 **전자 메일의 링크 및 첨부**파일 옆에 있는 확인란을 선택 하 고 **SharePoint, OneDrive 및 팀**에서 검색 항목, **office desktop 및 office Online 앱에서** 바이러스 검사 링크를 클릭 하 여 **악성 콘텐츠**를 검사 합니다.
 
       - **전자 메일의 링크 및 첨부 파일**에서 모든 사용자 또는 전자 메일을 스캔할 특정 사용자를 입력 합니다.
 
-    ![모든 확인란의 선택 protestion 고급 위협 으로부터 증가 합니다.](media/setatp.png)
+    ![고급 위협의 보호 수준에서 모든 확인란을 선택 합니다.](media/setatp.png)
 5. ATP 안전한 첨부 파일 및 ATP 안전한 링크를 설정 하려면 **정책 만들기** 를 선택 합니다.
 
 ### <a name="set-up-atp-safe-attachments-in-the-security--compliance-center"></a>보안 & 준수 센터에서 ATP 안전한 첨부 파일 설정
@@ -288,9 +287,9 @@ Microsoft 365 비즈니스 구독에서 감사 로그 검색을 설정 하거나
 
 조직의 사용자가 일정을 공유 하지 못하도록 하거나, 공유할 수 있는 항목을 관리할 수도 있습니다. 예를 들어 약속 있음/없음 시간만으로 공유를 제한할 수 있습니다.
 
-1. 관리 센터로 이동 <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> 하 여 **설정** \> **서비스 & 추가 기능** 을 선택 합니다.
+1. 관리 센터로 이동 <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> 하 여 **설정** \> **서비스 & 추가 기능**을 선택 합니다.
 2. **서비스 & 추가 기능** 페이지에서 **일정**을 선택 하 고 조직의 사용자가 Office 365 또는 Exchange를 사용 하는 외부 사용자와 일정을 공유할 수 있는지 여부를 선택 합니다. 
-    모든 사용자와 공유를 선택 하는 경우 약속 있음/없음 정보만 공유 하도록 결정할 수 있습니다.
+    모든 사용자와 공유 옵션을 선택 하는 경우 약속 있음/없음 정보만 공유 하도록 결정할 수 있습니다.
 
 3. 페이지 아래쪽에서 **변경 내용 저장** 을 선택 합니다.
 

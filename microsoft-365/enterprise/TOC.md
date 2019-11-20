@@ -83,6 +83,7 @@
 ### [모바일 장치 관리](contoso-mdm.md)
 ### [정보 보호](contoso-info-protect.md)
 ### [보안 요약](contoso-security-summary.md)
+### [극비 프로젝트를 위한 팀](contoso-team-for-top-secret-project.md)
 ### [높은 규제 대상 데이터를 위한 SharePoint 사이트](contoso-sharepoint-online-site-for-highly-confidential-assets.md)
 ## [Microsoft 365 Enterprise 배포 컨텐츠의 변경 사항](microsoft-365-deploment-guide-changes.md)
 # [데스크톱 배포 센터](desktop-deployment-center-home.md)
