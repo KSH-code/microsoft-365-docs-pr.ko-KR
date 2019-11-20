@@ -3,7 +3,7 @@ title: Microsoft 365 Enterprise 배포 컨텐츠의 변경 사항
 author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
-ms.date: 11/12/2019
+ms.date: 11/19/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,14 +13,24 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Microsoft 365 배포 가이드의 새로운 내용 및 콘텐츠에 대한 변경 사항을 확인하세요.
-ms.openlocfilehash: d2946034c4f5bd5e650a18859c1fbd6fe3c6fdd4
-ms.sourcegitcommit: 8aa9f204b056f01bfb4c357347dc1592d0c9b688
+ms.openlocfilehash: 529d781f31157c6e9ad63a83ef5f8bb96873049d
+ms.sourcegitcommit: 2bdd7b535a7d2a4896df130b7047f8c85f4d47b4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38669719"
+ms.lasthandoff: 11/19/2019
+ms.locfileid: "38711892"
 ---
 # <a name="changes-to-microsoft-365-enterprise-deployment-content"></a>Microsoft 365 Enterprise 배포 컨텐츠의 변경 사항
+
+## <a name="november-2019"></a>2019년 11월
+
+### <a name="new-content"></a>새로운 내용 
+
+- [Microsoft 365 Business에서 Microsoft 365 Enterprise E3로 마이그레이션](https://docs.microsoft.com/microsoft-365/business/migrate-from-microsoft-365-business-to-microsoft-365-enterprise)
+
+- [Contoso Corporation의 극비 프로젝트를 위한 팀](contoso-team-for-top-secret-project.md)
+
+  [![Contoso Corporation의 극비 프로젝트를 위한 팀](./media/contoso-team-for-highly-confidential-assets/final-config-example-file.png)](contoso-team-for-top-secret-project.md)
 
 ## <a name="october-2019"></a>2019년 10월
 
@@ -28,15 +38,15 @@ ms.locfileid: "38669719"
 
 - [높은 규제 대상 데이터를 위한 Teams 포스터](secure-teams-highly-regulated-data-scenario.md#poster)
 
-  [![높은 규제 대상 데이터를 위한 Teams 포스터](././media/secure-teams-highly-regulated-data-scenario/teams-highly-regulated-data-poster.png)](./media/secure-teams-highly-regulated-data-scenario/TeamsHighlyRegulatedData.pdf)
+  [![규제 수준이 높은 데이터 포스터를 위한 Teams](././media/secure-teams-highly-regulated-data-scenario/teams-highly-regulated-data-poster.png)](./media/secure-teams-highly-regulated-data-scenario/TeamsHighlyRegulatedData.pdf)
 
-  이 포스터를 [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/secure-teams-highly-regulated-data-scenario/TeamsHighlyRegulatedData.pdf)로 다운로드하고 편지형, 법률형 또는 타블로이드(11 x 17) 형식으로 인쇄할 수 있습니다.
+  이 포스터를 [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/secure-teams-highly-regulated-data-scenario/TeamsHighlyRegulatedData.pdf)나 [PowerPoint](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/secure-teams-highly-regulated-data-scenario/Teams-Highly-Regulated-Data-Poster.pptx) 형식으로 다운로드할 수 있고, Letter, Legal, Tabloid(11 x 17) 크기 용지에 인쇄할 수도 있습니다.
 
 - [높은 규제 대상 데이터를 위한 SharePoint 사이트 포스터](teams-sharepoint-online-sites-highly-regulated-data.md#poster)
 
   [![높은 규제 대상 데이터를 위한 SharePoint 사이트 포스터](./media/teams-sharepoint-online-sites-highly-regulated-data/sharepoint-sites-highly-regulated-data-poster.png)](./media/teams-sharepoint-online-sites-highly-regulated-data/SharePointSitesHighlyRegulatedData.pdf)
 
-  이 포스터를 [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/teams-sharepoint-online-sites-highly-regulated-data/SharePointSitesHighlyRegulatedData.pdf)로 다운로드하고 편지형, 법률형 또는 타블로이드(11 x 17) 형식으로 인쇄할 수 있습니다.
+  이 포스터를 [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/teams-sharepoint-online-sites-highly-regulated-data/SharePointSitesHighlyRegulatedData.pdf)나 [PowerPoint](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/teams-sharepoint-online-sites-highly-regulated-data/SharePoint-Sites-Highly-Regulated-Data.pptx) 형식으로 다운로드할 수 있고, Letter, Legal, Tabloid(11 x 17) 크기 용지에 인쇄할 수도 있습니다.
 
 - [Autopilot 포스터를 사용하여 Windows 10 배포](windows10-deploy-autopilot.md) 
 
@@ -60,7 +70,7 @@ ms.locfileid: "38669719"
 
   [![원격 작업자 지원](./media/empower-people-to-work-remotely/empower-remote-workers-poster.png)](media/empower-people-to-work-remotely/empower-remote-workers-scenario.pdf) 
 
-- [Microsoft 365 Business에서 Microsoft 365 Enterprise E3로 마이그레이션](https://docs.microsoft.com/microsoft-365/business/migrate-from-microsoft-365-business-to-microsoft-365-enterprise)
+  이 포스터를 [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/empower-people-to-work-remotely/empower-remote-workers-scenario.pdf)나 [PowerPoint](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/empower-people-to-work-remotely/Empower-Remote-Workers-Poster.pptx) 형식으로 다운로드할 수 있고, Letter, Legal, Tabloid(11 x 17) 크기 용지에 인쇄할 수도 있습니다.
 
 ### <a name="updates-and-enhancements"></a>업데이트 및 향상된 기능
 
