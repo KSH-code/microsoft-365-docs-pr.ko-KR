@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Priority
 description: 온-프레미스 Exchange Server에서 GDPR 요구 사항을 해결하는 방법을 알아보세요.
-ms.openlocfilehash: 9b15934f598adcd692d8c47358db357bcea58814
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: b1cf86beeeb195396e45e0bc262f1d1b81b21057
+ms.sourcegitcommit: 33242c260439de0d8db41247e9414913f24adc22
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37087302"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "38749912"
 ---
 # <a name="gdpr-for-office-web-apps-server-and-office-online-server"></a>Office Web Apps Server 및 Office Online Server GDPR
 
-Office Online Server 및 Office Web Apps Server 원격 분석 데이터는 ULS 로그의 형식으로 저장됩니다. [ULS 뷰어](https://www.microsoft.com/en-us/download/details.aspx?id=44020)를 사용하여 온-프레미스 테넌트에서 ULS 로그를 볼 수 있습니다.
+Office Online Server 및 Office Web Apps Server 원격 분석 데이터는 ULS 로그의 형식으로 저장됩니다. [ULS 뷰어](https://www.microsoft.com/download/details.aspx?id=44020)를 사용하여 온-프레미스 테넌트에서 ULS 로그를 볼 수 있습니다.
 
 모든 로그 줄에는 CorrelationID가 있습니다. 관련된 로그 줄은 동일한 CorrelationID를 공유합니다. 각 CorrelationID는 단일 SessionID에 연결되고, 한 개의 SessionID는 많은 CorrelationID에 관련되어 있을 수 있습니다. 각 SessionID는 단일 UserID에 연결되어 있을 수 있지만 일부 세션은 익명으로 만들어져 연결된 UserID가 없을 수 있습니다. 그러므로 특정 사용자와 연결된 데이터를 확인하려면 단일 UserID에서 해당 사용자와 연결된 SessionID로 매핑하고, 이러한 SessionID에서 연결된 CorrelationID로 매핑하고, 이러한 CorrelationID에서 이러한 상관 관계에 있는 모든 로그로 매핑할 수 있습니다. 여러 ID 간의 관계는 아래 다이어그램을 참조하세요.
 

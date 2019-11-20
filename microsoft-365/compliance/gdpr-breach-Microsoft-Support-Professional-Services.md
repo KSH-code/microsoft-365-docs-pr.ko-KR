@@ -9,13 +9,15 @@ ms.author: robmazz
 author: robmazz
 manager: laurawi
 audience: itpro
-ms.collection: GDPR
-ms.openlocfilehash: 3a07400f6c3e788734b4d959080e2008eb7b0cfe
-ms.sourcegitcommit: 6e2a54ec395eaef4c4658ca52322c3d0f184ca02
+ms.collection:
+- GDPR
+- M365-security-compliance
+ms.openlocfilehash: c4e9cdeb953e01ee44caa1ba8031332da4e245be
+ms.sourcegitcommit: 33242c260439de0d8db41247e9414913f24adc22
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "34698290"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "38749925"
 ---
 # <a name="microsoft-support-and-professional-services-and-breach-notification-under-the-gdpr"></a>Microsoft 고객 지원 및 전문 서비스와 GDPR에 따른 위반 알림
 
@@ -27,7 +29,7 @@ Microsoft 전문 서비스 전역 데이터 보호 인시던트 대응 팀은 (a
 
 ## <a name="data-protection-incident-response-overview"></a>데이터 보호 인시던트 대응 개요 
 
-Microsoft 전문 서비스는 고객을 보호하기 위해 노력하며, 고객의 신뢰를 유지하는 수단으로서, 데이터 보호 인시던트가 발생하지 않도록 하기 위해 최선을 다합니다. 전문 서비스 조직에서 데이터 보호 인시던트가 발생하면 는 보안을 침해하게 되머 Microsoft에서 개인 데이터나 지원 또는 컨설팅 데이터를 처리하는 동안 이러한 데이터의 우발적이거나 불법적인 파괴, 손실, 변경, 무단 공개 또는 액세스를 야기합니다. 프리미어 지원, 통합 지원 또는 Microsoft 컨설팅 서비스를 구입한 기업 고객은 <http://aka.ms/professionalservicesdpa/>에 제공되는 전문 서비스 데이터 보호 부록에서 해당 데이터 보호 인시던트 대응 내용을 참조하세요.
+Microsoft 전문 서비스는 고객을 보호하기 위해 노력하며, 고객의 신뢰를 유지하는 수단으로서, 데이터 보호 인시던트가 발생하지 않도록 하기 위해 최선을 다합니다. 전문 서비스 조직에서 데이터 보호 인시던트가 발생하면 는 보안을 침해하게 되머 Microsoft에서 개인 데이터나 지원 또는 컨설팅 데이터를 처리하는 동안 이러한 데이터의 우발적이거나 불법적인 파괴, 손실, 변경, 무단 공개 또는 액세스를 야기합니다. 프리미어 지원, 통합 지원 또는 Microsoft 컨설팅 서비스를 구입한 기업 고객은 <https://aka.ms/professionalservicesdpa/>에 제공되는 전문 서비스 데이터 보호 부록에서 해당 데이터 보호 인시던트 대응 내용을 참조하세요.
 
 ## <a name="scope--limits-of-data-protection-incident-response-process"></a>데이터 보호 인시던트 대응 프로세스의 범위 및 제한 사항
 
@@ -54,7 +56,7 @@ Microsoft 전문 서비스는 온라인 및 오프라인으로 개인 데이터�
 Microsoft 전문 서비스에서 사용하는 감지 프로세스는 데이터 보호 인시던트를 검색하고 조사를 트리거하도록 디자인되었습니다. 예를 들면 다음과 같습니다.
 
 - 조회가 가능하도록 Microsoft 전체 보고 시스템으로 보안 취약성이 보고되거나, 전문 서비스 데이터 보호 인시던트 대응 팀으로 직접 보호됩니다.
-- 고객은 [고객 지원 포털](http://support.microsoft.com)을 통해 의심스러운 활동을 설명하는 보고서를 제출합니다.
+- 고객은 [고객 지원 포털](https://support.microsoft.com)을 통해 의심스러운 활동을 설명하는 보고서를 제출합니다.
 - 전문 서비스 직원은 에스컬레이션을 제출합니다. Microsoft 직원들은 잠재적인 보안 문제를 식별하고 에스컬레이션하도록 교육을 받습니다.
 - 전문 서비스 제공 프로세스에서 사용되는 도구 및 시스템을 위해, 운영 팀은 내부 모니터링 및 경고 프레임워크를 통한 자동화된 시스템 경고를 사용합니다. 이러한 경고는 맬웨어 방지, 침입 감지와 같은 서명 기반 경보나 비정상 상황 발생 시 예상되는 작업 및 경고를 프로파일링하도록 설계된 알고리즘을 통해 제공됩니다.
 

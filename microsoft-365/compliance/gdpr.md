@@ -9,13 +9,15 @@ ms.author: robmazz
 author: robmazz
 manager: laurawi
 audience: itpro
-ms.collection: GDPR
-ms.openlocfilehash: 11bf048dd1cd913d8344929b5025a65638d47f4b
-ms.sourcegitcommit: c201f5cc13d501e5207ebad166e42f90260af0c4
+ms.collection:
+- GDPR
+- M365-security-compliance
+ms.openlocfilehash: cfd39d25689785be2af80008b6d823beb5a7bc01
+ms.sourcegitcommit: 33242c260439de0d8db41247e9414913f24adc22
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "35078938"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "38749909"
 ---
 # <a name="general-data-protection-regulation-summary"></a>일반 데이터 보호 규정 요약
 
@@ -66,7 +68,7 @@ GDPR 표준을 충족하기 위해 다음과 같은 작업이 수행됩니다. �
 - **DSR을 완료하는 데 필요한 작업은 무엇인가요?**: DSR에는 6가지 활동인 검색, 액세스, 수정, 제한, 내보내기 및 삭제가 포함됩니다.
 - **데이터 원본이란 무엇인가요?**: Excel 및 Outlook과 같은 [Office 애플리케이션](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-office365#using-the-content-search-ediscovery-tool-to-respond-to-dsrs)에서 조직 데이터의 상당 부분이 생성됩니다.  Microsoft 제품 및 서비스에서 생성된 [인사이트](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-office365#part-2-responding-to-dsrs-with-respect-to-insights-generated-by-office-365)와 [시스템 생성 로그](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-office365#part-3-responding-to-dsrs-for-system-generated-logs)에서도 DSR 관련 데이터를 찾을 수 있습니다.
 - **어떤 종류의 데이터를 검색해야 하나요?**: 개인 데이터는 고객 데이터, Microsoft 제품 및 서비스에서 생성된 인사이트 및 시스템 생성 로그에서 찾을 수 있습니다.
-- **개인 데이터는 어떤 방식으로 검색되나요?**: 개인 데이터 검색은 Microsoft 제품 및 서비스에 따라 다를 수 있습니다. 검색 도구에는 [콘텐츠 검색](https://docs.microsoft.com/ko-KR/microsoft-365/compliance/gdpr-dsr-office365#using-the-content-search-ediscovery-tool-to-respond-to-dsrs) 또는 [앱 내 검색](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-office365#using-in-app-functionality-to-respond-to-dsrs) 용량이 포함됩니다. 관리자는 사용자 활동과 연결된 [시스템 생성 로그](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-office365#part-3-responding-to-dsrs-for-system-generated-logs)에 액세스할 수 있습니다.  
+- **개인 데이터는 어떤 방식으로 검색되나요?**: 개인 데이터 검색은 Microsoft 제품 및 서비스에 따라 다를 수 있습니다. 검색 도구에는 [콘텐츠 검색](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-office365#using-the-content-search-ediscovery-tool-to-respond-to-dsrs) 또는 [앱 내 검색](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-office365#using-in-app-functionality-to-respond-to-dsrs) 용량이 포함됩니다. 관리자는 사용자 활동과 연결된 [시스템 생성 로그](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-office365#part-3-responding-to-dsrs-for-system-generated-logs)에 액세스할 수 있습니다.  
 - **개인 데이터는 어떤 형식으로 사용할 수 있어야 하나요?**: GDPR "데이터 이동권"을 통해 데이터 주체는 "구조화되고 자주 사용되며 컴퓨터가 읽을 수 있는 형식"으로 된 개인 데이터의 복사본을 요청하고, 조직에서 이러한 파일을 다른 데이터 통제자에게 전송하도록 요청할 수 있습니다.
 
 ### <a name="data-protection-impact-assessment"></a>데이터 보호 영향 평가

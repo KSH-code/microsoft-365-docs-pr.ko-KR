@@ -9,13 +9,16 @@ ms.author: robmazz
 author: robmazz
 manager: laurawi
 audience: itpro
-ms.collection: GDPR
-ms.openlocfilehash: b605bfa3d549b3359f8bb780cfffa7306db44d2d
-ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
+ms.collection:
+- GDPR
+- M365-security-compliance
+hideEdit: true
+ms.openlocfilehash: 92d7e08c17d2f67781b5d261e103717ab57578d9
+ms.sourcegitcommit: 33242c260439de0d8db41247e9414913f24adc22
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/14/2019
-ms.locfileid: "36982417"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "38749933"
 ---
 # <a name="azure-accountability-readiness-checklist-for-the-gdpr"></a>GDPR에 대한 Azure 책임 준비 상태 검사 목록
 
@@ -111,21 +114,21 @@ GDPR 타일의 고객 관리 컨트롤에서 컨트롤 ID 및 컨트롤 제목�
 | ***정보 전송 정책 및 절차(6.10.1)*** | 고객은 물리적 미디어(예: 서버 또는 시설 간 이동되는 하드 드라이브)에서 개인 데이터를 전송할 수 있는 경우에 대한 절차가 있어야 합니다. 여기에는 로그, 인증, 추적이 포함될 수 있습니다. 타사 또는 다른 프로세서가 물리적 미디어를 전송할 수 있는 경우 고객은 해당 조직에 개인 데이터의 보안을 보장하는 절차가 마련되어 있는지 확인해야 합니다. | Microsoft 서비스가 전송이 발생할 수 있는 상황, 데이터를 보호하기 위해 취해진 보호 조치를 비롯하여 개인 데이터를 포함할 수 있는 실제 미디어를 전송하는 방법<br>- *FedRAMP Moderate FedRAMP 시스템 보안 계획*[[3](gdpr-arc-Azure.md#3)] 13.10 미디어 보호(MP) 참조 | (5)(1)(f) |
 | ***기밀 또는 비공개 계약(6.10.2)*** | 고객은 기밀 계약 또는 개인 데이터와 관련된 책임 또는 액세스가 있는 개인에 대한 동등한 사항의 필요성을 결정해야 합니다.  | Microsoft 서비스가 개인 데이터에 대한 인증된 액세스를 가진 개인이 기밀 유지를 위해 노력하고 있음을 보장하는 방법<br>- *SOC 2 유형 2 감사 보고서* [[12](gdpr-arc-Azure.md#12)], CC1.4 pp72, SOC2 — 13 참조 | (5)(1)(f), (28)(3)(b), (38)(5) |
 | ***공용 네트워크에서 응용 프로그램 서비스 보안(6.11.1)*** | 고객은 특히 공용 네트워크를 통해 전송할 때 개인 데이터의 암호화에 대한 요구 사항을 이해해야 합니다. 시스템이 데이터 암호화 메커니즘을 제공하는 경우 고객은 필요한 경우 해당 메커니즘을 활용해야 합니다. | 데이터 암호화를 포함하여 전송 중인 데이터를 보호하기 위해 Microsoft 서비스에서 취하는 조치 및 Microsoft 서비스가 암호화 수단을 포함하여 공용 데이터 네트워크를 통해 전달된 개인 데이터를 포함할 수도 있는 데이터를 보호하는 방법에 대한 설명<br>- Azure 보안 설명서[[2](gdpr-arc-Azure.md#2)] [암호화로 전송 중인 개인 데이터 보호](https://docs.microsoft.com/azure/security/protect-personal-data-in-transit-encryption) 참조 | (5)(1)(f), (32)(1)(a) |
-| ***안전한 시스템 엔지니어링 원칙(6.11.2)*** | 고객은 시스템이 개인 데이터를 보호하도록 디자인되고 설계되는 방법을 이해해야 합니다. 고객이 타사에서 설계한 시스템을 사용하는 경우, 그와 같은 보호를 고려했는지에 대한 확인은 고객의 책임입니다. | Microsoft 서비스가 개인 데이터 보호 원칙을 보안 설계/엔지니어링 원칙의 필수 부분으로 포함하는 방법<br>- SOC 2 유형 2 감사 보고서 [12], CC7.1 pp90 및 [보안 개발 수명 주기란?](https://www.microsoft.com/sdl/) 참조 | (25)(1) |
+| ***안전한 시스템 엔지니어링 원칙(6.11.2)*** | 고객은 개인 데이터 보호를 고려하여 시스템이 어떻게 설계되는지 이해해야 합니다. 고객이 타사에 의해 설계된 시스템을 사용하는 경우 고객은 이러한 보호가 고려되었는지 확인해야 합니다. | Microsoft 서비스가 개인 데이터 보호 원칙을 보안 설계/엔지니어링 원칙의 필수 부분으로 포함하는 방법<br>- SOC 2 유형 2 감사 보고서 [12], CC7.1 pp90 및 [보안 개발 수명 주기란?](https://www.microsoft.com/sdl/) 참조 | (25)(1) |
 | ***공급자 관계(6.12)*** | 고객은 계약 정보 또는 기타 계약서에서 언급된 정보 보안 및 개인 정보 보호 요구 사항과 타사 책임 사항을 확인해야 합니다. 계약에는 처리 지침도 언급되어야 합니다. | Microsoft 서비스가 공급자와의 계약에서 보안 및 데이터 보호를 처리하는 방법과 해당 계약이 효과적으로 구현되었는지 확인하는 방법.<br>- 사용자 데이터에 액세스할 수 있는 사람 및 관련 약관[[7](gdpr-arc-Azure.md#7)] | (5)(1)(f), (28)(1), (28)(3)(a), (28)(3)(b), (28)(3)(c), (28)(3)(d), (28)(3)(e), (28)(3)(f), (28)(3)(g), (28)(3)(h),(30)(2)(d), (32)(1)(b) |
 | ***정보 보안 인시던트 및 개선 사항 관리(6.13.1)*** | 고객은 개인 데이터 위반이 언제 발생했는지 판단할 수 있는 프로세스가 있어야 합니다. | Microsoft 서비스가 보안 인시던트가 개인 데이터의 위반인지 결정하는 방법 및 위반 사실을 알리는 방법<br>-*Azure 및 GDPR의 위반 알림*[[10](gdpr-arc-Azure.md#10)] | (33)(2) |
 | ***책임 및 절차(정보 보안 인시던트 동안)(6.13.2)*** | 고객은 개인 데이터가 포함된 데이터 위반 또는 보안 인시던트 발생 시 책임을 이해하고 문서화해야 합니다. 책임은 필수 당사자, 프로세서 또는 기타 타사와의 커뮤니케이션 및 고객 조직 내의 책임에 대한 알림을 포함할 수 있습니다. | Microsoft 서비스가 보안 인시던트 또는 개인 데이터 위반을 감지한 경우 알리는 방법<br>-*Azure 및 GDPR의 위반 알림*[[10](gdpr-arc-Azure.md#10)] | (5)(1)(f), (33)(1), (33)(3)(a), (33)(3)(b), (33)(3)(c), (33)(3)(d), (33)(4), (33)(5), (34)(1), (34)(2), (34)(3)(a), (34)(3)(b), (34)(3)(c), (34)(4) |
 | ***정보 보안 인시던트에 대한 응답(6.13.3)*** | 고객은 개인 데이터 위반이 언제 발생했는지 판단할 수 있는 프로세스가 있어야 합니다. | Microsoft 서비스가 개인 데이터 위반이 발생했는지 결정하는 데 도움이 되도록 제공한 정보의 설명<br>- *Azure 및 GDPR의 위반 알림*[[10](gdpr-arc-Azure.md#10)] | (33)(1), (33)(2), (33)(3)(a), (33)(3)(b), (33)(3)(c), (33)(3)(d), (33)(4), (33)(5), (34)(1), (34)(2) |
 | ***레코드 보호(6.15.1)*** | 고객은 유지 관리되어야 하는 개인 데이터 처리와 관련된 기록의 요구 사항을 이해해야 합니다. | Microsoft 서비스가 개인 데이터 처리와 관련된 기록을 저장하는 방법<br>- 사용자의 Azure 보안 설명서 등록<br>Azure 보안 설명서[[2](gdpr-arc-Azure.md#2)] [Azure 보고 도구를 통해 개인 데이터의 문서 보호](https://docs.microsoft.com/azure/security/protection-personal-data-azure-reporting-tools) 참조 | (5)(2), (24)(2)  |
-| ***독립적인 정보 보안 검토(6.15.2)*** | 고객은 개인 데이터 처리의 보안을 평가하는 데 필요한 요구 사항을 알고 있어야 합니다. 여기에는 내부 또는 외부 감사를 비롯하여 처리 보안을 평가하는 기타 조치가 포함될 수 있습니다. 고객이 처리의 전체 또는 일부에 대해 타사의 다른 조직에 의존하는 경우, 고객이 수행하는 해당 평가에 대한 정보를 수집해야 합니다. | Microsoft 서비스가 타사 감사를 포함하여 처리의 보안을 보장하기 위해 기술적 및 조직적 조치의 효과를 테스트하고 평가하는 방법<br/>*Microsoft Online Services 약관, 데이터 보호 약관, 데이터 보안 참조, 감사 준수*[[1](gdpr-arc-Azure.md#1)] | (32)(1)(d), (32)(2) |
-| ***기술 준수 검토(6.15.3)*** | 고객은 개인 데이터 처리의 보안을 테스트하고 평가하는 데 필요한 요구 사항을 알고 있어야 합니다. 여기에는 침투 테스트와 같은 기술적 테스트가 포함될 수 있습니다. 고객이 타사 시스템 또는 프로세서를 사용하는 경우, 고객은 보안을 보호하고 테스트하는 데 어떤 책임이 있는지를 이해해야 합니다(예: 구성을 관리하여 데이터를 보호하고 구성 설정을 테스팅)  타사가 처리의 보안에 전체적 또는 부분적으로 책임이 있는 경우, 고객은 타사가 처리의 보안을 보장하기 위해 수행하는 테스팅 또는 평가 유형을 이해해야 합니다. | Microsoft 서비스가 타사의 테스트, 기술 테스트 유형, 테스트의 사용 가능한 보고서를 포함하여 식별된 위험을 기반으로 보안을 테스트하는 방법<br>- *Microsoft Online Services 약관, 데이터 보호 약관, 데이터 보안 참조, 감사 준수*[[1](gdpr-arc-Azure.md#1)]<br>- 외부 인증 목록은 **Microsoft 보안 센터 규정 준수** 제품[[14](gdpr-arc-Azure.md#14)] 참조<br>- 응용 프로그램 침투 테스트에 대한 자세한 내용은 *Azure 보안 설명서*[[2](gdpr-arc-Azure.md#2)] [펜 테스트](https://docs.microsoft.com/azure/security/azure-security-pen-testing) 참조 | (32)(1)(d), (32)(2) |
+| ***독립적인 정보 보안 검토(6.15.2)*** | 고객은 개인 데이터 처리의 보안 평가에 대한 요구 사항을 인식하고 있어야 합니다. 여기에는 내부나 외부 감사 또는 처리 보안 평가를 위한 기타 조치가 포함될 수 있습니다. 고객이 모든 처리 과정 또는 일부 과정을 타사의 다른 조직에 의존하는 경우 고객은 해당 평가에 대한 정보를 수집해야 합니다. | Microsoft 서비스가 타사 감사를 포함하여 처리의 보안을 보장하기 위해 기술적 및 조직적 조치의 효과를 테스트하고 평가하는 방법<br/>*Microsoft Online Services 약관, 데이터 보호 약관, 데이터 보안 참조, 감사 준수*[[1](gdpr-arc-Azure.md#1)] | (32)(1)(d), (32)(2) |
+| ***기술 준수 검토(6.15.3)*** | 고객은 개인 데이터 처리의 보안 테스트 및 평가의 요구 사항을 이해해야 합니다. 여기에는 침투 테스트와 같은 기술 테스트가 포함될 수 있습니다. 고객이 타사 시스템이나 프로세서를 사용하는 경우 보안 확인 및 테스트(예: 데이터 보호를 위한 구성 관리 및 해당 구성 설정 테스트)와 관련된 책임을 이해해야 합니다. 타사가 처리 보안의 모든 부분 또는 일부분에 책임이 있는 경우 고객은 처리의 보안을 보장하기 위해 타사가 수행하는 테스트나 평가를 이해해야 합니다. | Microsoft 서비스가 타사의 테스트, 기술 테스트 유형, 테스트의 사용 가능한 보고서를 포함하여 식별된 위험을 기반으로 보안을 테스트하는 방법<br>- *Microsoft Online Services 약관, 데이터 보호 약관, 데이터 보안 참조, 감사 준수*[[1](gdpr-arc-Azure.md#1)]<br>- 외부 인증 목록은 **Microsoft 보안 센터 규정 준수** 제품[[14](gdpr-arc-Azure.md#14)] 참조<br>- 응용 프로그램 침투 테스트에 대한 자세한 내용은 *Azure 보안 설명서*[[2](gdpr-arc-Azure.md#2)] [펜 테스트](https://docs.microsoft.com/azure/security/azure-security-pen-testing) 참조 | (32)(1)(d), (32)(2) |
 
 ## <a name="6-bibliography-of-resources-and-links"></a>6. 리소스 및 링크의 참고 문헌
 
 ||||
 |:-----|:-----|:-------|
 |**ID**|**설명/링크**|
-| 1 <a name="1"> </a> | [온라인 서비스 약관](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=46) |
+| 1 <a name="1"> </a> | [온라인 서비스 약관](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=46) |
 | 2 <a name="2"></a>  | [Azure 보안 설명서](https://docs.microsoft.com/azure/security/), 거버넌스 및 준수, GDPR 참조 |
 | 3 <a name="3"> </a> | [FedRAMP Moderate FedRAMP SSP(시스템 보안 계획)](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=e46a519a-bcf6-4dc2-8f60-6d0e4e00a85e&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_FedRAMP_Reports) |
 | 4 <a name="4"> </a>   | [Microsoft 클라우드 보안 정책](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=5868ecc8-50b7-4f91-b43f-640e2b99e86e&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers)  |
@@ -138,7 +141,7 @@ GDPR 타일의 고객 관리 컨트롤에서 컨트롤 ID 및 컨트롤 제목�
 | 11 <a name="11"> </a> | [고객 데이터 보호 영향 평가를 위한 Azure의 주요 정보](https://aka.ms/DPIAAzure) |
 | 12 <a name="12"> </a> | [SOC 2 유형 2 감사 보고서 [12]](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=3c7123a5-f507-48b7-8dce-cd948e6150e6&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_SOC_%2F_SSAE_16_Reports) |
 | 13 <a name="13"> </a> | [Microsoft Azure(All-Up) ISO/IEC 27001:2013 ISMS 적용성 보고서](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=47d89200-b24b-491d-b657-7c523ddfb6f9&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_ISO_Reports) |
-| 14 <a name="14"> </a> | [Microsoft 보안 센터 준수 제공 사항](https://www.microsoft.com/trustcenter/compliance/complianceofferings)  |
+| 14 <a name="14"> </a> | [Microsoft 보안 센터 준수 제공 사항](offering-home.md)  |
 | 15 <a name="15"> </a> | [Intune의 개인 정보 및 개인 데이터](https://review.docs.microsoft.com/intune/privacy-personal-data) |
 | 16 <a name="16"> </a> | [다운로드 가능한 Azure GDPR 컨트롤 집합 완료](https://aka.ms/GDPRControls) 또는 [준수 관리자 도구를 통해](https://servicetrust.microsoft.com/ComplianceManager) |
 | 17 <a name="17"> </a> | [Microsoft DPO 정보](https://aka.ms/GDPRDPO) |
