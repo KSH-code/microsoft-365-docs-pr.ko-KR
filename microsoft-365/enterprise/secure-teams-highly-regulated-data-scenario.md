@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 안전한 팀을 만들어 중요하고 민감한 파일을 저장할 수 있습니다.
-ms.openlocfilehash: f787951748cc1fb0b6b207b4b3aca0de1c29e3d7
-ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
+ms.openlocfilehash: d875c3148a019774e038d18a75bb6fb2c2413463
+ms.sourcegitcommit: 0ceb79a633f7004e82b80e69b6f7a7329ccec7ff
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38627502"
+ms.lasthandoff: 11/18/2019
+ms.locfileid: "38699768"
 ---
 # <a name="teams-for-highly-regulated-data"></a>높은 규제 대상 데이터에 대한 Teams
 
@@ -48,7 +48,7 @@ Office 365 그룹을 기반으로 하는 개인 액세스를 넘어서, 이 문�
 
 [![규제 수준이 높은 데이터 포스터를 위한 Teams](././media/secure-teams-highly-regulated-data-scenario/teams-highly-regulated-data-poster.png)](./media/secure-teams-highly-regulated-data-scenario/TeamsHighlyRegulatedData.pdf)
 
-이 포스터를 [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/secure-teams-highly-regulated-data-scenario/TeamsHighlyRegulatedData.pdf)로 다운로드하고 편지형, 법률형 또는 타블로이드(11 x 17) 형식으로 인쇄할 수 있습니다.
+이 포스터를 [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/secure-teams-highly-regulated-data-scenario/TeamsHighlyRegulatedData.pdf)나 [PowerPoint](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/secure-teams-highly-regulated-data-scenario/Teams-Highly-Regulated-Data-Poster.pptx) 형식으로 다운로드할 수 있고 편지형, 법률형, 타블로이드(11 x 17) 크기 용지에 인쇄할 수도 있습니다.
 
 ## <a name="phase-1-configure-a-team-for-highly-regulated-data"></a>1단계: 고도로 규제된 데이터를 위한 팀 구성
 
@@ -213,6 +213,10 @@ Office 365 그룹을 기반으로 하는 개인 액세스를 넘어서, 이 문�
   SharePoint에서 폴더를 보고 **열 추가**의 **열 표시/숨기기** 옵션을 통해 **민감도** 열을 추가하여 레이블이 할당된 파일을 볼 수 있습니다.
 
 필요에 따라 사용자를 재교육합니다.
+
+## <a name="how-the-contoso-corporation-used-a-secure-team-for-a-top-secret-project"></a>Contoso Corporation이 극비 프로젝트를 위해 보안 팀을 사용하는 방법
+
+Contoso Corporation은 가상의 대표적인 글로벌 제조 대기업입니다. Contoso에서 신제품 및 서비스 집합을 개발하고 시장에 출시하기 위한 극비 프로젝트에 대해 [보안 팀](contoso-team-for-top-secret-project.md)을 구성하고 채택하는 방법을 알아봅니다. 
 
 ## <a name="see-also"></a>참고 항목
 
