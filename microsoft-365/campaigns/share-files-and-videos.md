@@ -22,16 +22,16 @@ search.appverid:
 - MET150
 - MOE150
 description: 캠페인 내부에서 Microsoft 팀과 SharePoint로 파일 및 비디오를 공유 합니다.
-ms.openlocfilehash: 14daa826e7df961baefaf7f6e7a17530842aad25
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 446285c375b64c6622905d3320de92c4ddb2dca0
+ms.sourcegitcommit: 7713e777731025c165e9e936198609503ade5665
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38031193"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38753617"
 ---
 # <a name="share-files-and-videos"></a>파일 및 동영상 공유
 
-파일을 볼 수 있는 사람 및 편집할 수 있는 사용자를 제어 해야 하는 경우에는 해당 파일을 안전한 위치에 저장 해야 하며, 권한이 적절 하 게 적용 되는지 확인할 수 있습니다. Microsoft 팀을 사용 하 여 파일을 저장 한 다음 Microsoft 팀과 캠페인 내부나 외부에서 SharePoint 링크를 보내 파일을 공유할 수 있습니다. 전자 메일 첨부 파일이 아니라 링크를 보내는 것은 사용자가 파일을 보고 수정 하 고 있는지와 사용자의 권한 없이 보거나 수정할 수 없다는 것을 의미 합니다. 
+파일을 볼 수 있고 편집할 수 있는 사용자를 제어 해야 하는 경우에는 사용 권한이 적절 하 게 적용 되는지 확인할 수 있는 안전한 위치에 파일을 저장 해야 합니다. Microsoft 팀을 사용 하 여 파일을 저장 한 다음 Microsoft 팀을 사용 하거나 SharePoint 링크를 보내 캠페인 내부 또는 외부에서 파일을 공유할 수 있습니다. 전자 메일 첨부 파일이 아니라 링크를 보내는 것은 사용자가 파일을 보고 수정 하 고 있는지와 사용자의 권한 없이 보거나 수정할 수 없다는 것을 의미 합니다. 
 
 ![파일 탭을 표시 하 고 메뉴의 링크를 가져올 수 있는 Microsoft 팀 창 다이어그램](media/m365-democracy-teams-sharefiles.png)
 

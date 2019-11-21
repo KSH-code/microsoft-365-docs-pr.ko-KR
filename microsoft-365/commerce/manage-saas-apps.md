@@ -11,12 +11,12 @@ ms.author: TrudyHa
 ms.topic: article
 ms.localizationpriority: medium
 ms.date: 05/31/2019
-ms.openlocfilehash: f14809e58c1580333ba4e412a2b442df79e61975
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 047c93dd6dbeeb1e55bfc22b337f42870f34e104
+ms.sourcegitcommit: 7713e777731025c165e9e936198609503ade5665
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38029032"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38753557"
 ---
 # <a name="manage-third-party-app-subscriptions-for-your-organization"></a>조직에 대 한 타사 앱 구독 관리
 
@@ -35,7 +35,7 @@ ms.locfileid: "38029032"
 - **라이선스** -앱이 라이선스로 가격이 책정 됩니다. 고객은 조직의 각 사용자에 게 라이선스를 할당 합니다.
 
 ## <a name="supported-regions"></a>지원 지역
-다음 지역에서 타사 앱에 대 한 지원을 받을 수 있습니다.
+타사 앱에 대 한 지원은 다음 지역에서 제공 됩니다.
 - 아르헨티나
 - 오스트레일리아
 - 캐나다
@@ -50,7 +50,7 @@ ms.locfileid: "38029032"
 - 서유럽
 
 ## <a name="set-up-app"></a>앱 설정
-관리자가 타사 앱을 사용자에 게 할당 하기 전에 정품 인증을 받아야 합니다. 이러한 사용자는 타사 게시자 포털에서 활성화 됩니다. 
+관리자는 타사 앱을 사용자에 게 할당 하기 전에 정품 인증을 받아야 합니다. 이러한 앱은 타사 게시자 포털에서 활성화 됩니다. 
 
 **타사 앱을 정품 인증 하려면**
 1. [Microsoft 365 관리 센터로](https://go.microsoft.com/fwlink/p/?linkid=837890)이동 하 여 **미리 보기를 사용해 보세요**.
@@ -60,8 +60,8 @@ ms.locfileid: "38029032"
 
 앱을 정품 인증할 수 있는 앱 게시자의 사이트로 이동 합니다. 
 
-## <a name="managing-3rd-party-apps"></a>타사 앱 관리
-관리자는 Microsoft 365 관리 센터 및 타사 앱 공급자 포털의 두 위치에서 타사 앱을 관리 합니다. 각 포털에서 수행할 수 있는 작업은 다음과 같습니다.
+## <a name="managing-third-party-apps"></a>타사 앱 관리
+관리자는 타사 앱을 Microsoft 365 관리 센터 및 타사 앱 공급자 포털의 두 위치에서 관리 합니다. 각 포털에서 수행할 수 있는 작업은 다음과 같습니다.
 
 ### <a name="app-status"></a>앱 상태
 일단 활성화 되 면 앱은 취소 되거나 만료 되거나 지불이 현재 상태로 유지 되지 않는 한 활성 상태를 유지 합니다. 이러한 이벤트는 앱 상태를 사용 안 함으로 변경 합니다. 앱이 사용 하지 않도록 설정 되 면 다시 활성화할 수 없습니다. 계속 사용 하려면 앱의 다른 복사본을 구입 해야 합니다.
@@ -71,7 +71,7 @@ ms.locfileid: "38029032"
 | 라이선스 수량 변경 <br> 청구 비용 결제 방법 관리 <br> 청구 비용 결제 방법 관리 <br> 결제 방법 변경 (신용 카드) <br> 송장 보기 <br> 앱 구독 취소 | 앱 설정 (각 앱에 대해 한 번) <br> 사용자에게 라이선스 할당 <br> 기술 지원 |
 
 ## <a name="assign-licenses"></a>라이선스 할당
-관리자가 타사 앱을 사용자에 게 할당 하기 전에 정품 인증을 받아야 합니다. 이러한 사용자는 타사 게시자 포털에서 활성화 됩니다. 앱 페이지의 설정 & 작업에서 라이선스를 할당 하는 링크를 선택 합니다.
+관리자는 타사 앱을 사용자에 게 할당 하기 전에 정품 인증을 받아야 합니다. 타사 게시자 포털에서 활성화 됩니다. 앱 페이지의 **설정 & 작업**에서 라이선스를 할당 하는 링크를 선택 합니다.
 
 **타사 앱을 할당 하려면**
 

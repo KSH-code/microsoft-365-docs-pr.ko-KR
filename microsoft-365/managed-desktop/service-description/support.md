@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 6c30f9e9a9f45ac8a68c285f4c594b238874f768
-ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
+ms.openlocfilehash: 134e971e00fc64d3ea005d32ed95359ed8fb8feb
+ms.sourcegitcommit: 7ae0389cf06e2f481ee646556720ab3f3e93ea32
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/14/2019
-ms.locfileid: "36982509"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "38757665"
 ---
 # <a name="support-for-microsoft-managed-desktop"></a>Microsoft Managed Desktop에 대 한 지원
 
@@ -39,7 +39,7 @@ Microsoft 관리형 데스크톱 지원에는 다음이 포함 됩니다.
 
 지원 세부 정보:
 
-- 현재: 북미, 캐나다 (퀘벡 제외), 영국, 오스트레일리아 및 뉴질랜드 전용 (연중 무휴) 
+- 현재: 미국, 캐나다 (퀘벡 제외), 영국, 벨기에, 룩셈부르크, 네덜란드, 오스트레일리아 및 뉴질랜드 (연중 무휴) 
 - 고객과 채팅 대화에 대해 지원 되는 언어는 영어입니다. 
 - Microsoft는 회사 지원 센터를 교체 하지 않고 파트너에 게 제공 합니다. LOB (기간 업무) 앱, 네트워크 리소스 등은 여전히 지원 센터에서 처리 됩니다. 
 - "Test" 그룹의 microsoft 관리 되는 데스크톱 장치와 Microsoft Managed Desktop의 일부가 아닌 장치는 범위를 벗어납니다. 

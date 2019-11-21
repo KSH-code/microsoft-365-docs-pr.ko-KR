@@ -12,12 +12,12 @@ ms.collection:
 - commerce
 ms.custom: ''
 description: 새 서비스 구성 기능에 대해 알아봅니다.
-ms.openlocfilehash: 3414fce02844629826edc6d9474f746aa27cfa2e
-ms.sourcegitcommit: 3d37043c0447359c952dc99026c219dd69f6fb8d
+ms.openlocfilehash: fff63b3c61ad95696e7f7677a34154ad65e82259
+ms.sourcegitcommit: 7713e777731025c165e9e936198609503ade5665
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "38012494"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38753577"
 ---
 # <a name="allotment-basics"></a>서비스 기본 사항
 
@@ -45,6 +45,6 @@ ms.locfileid: "38012494"
 
 할당을 시작 하려면 전역 또는 라이선스 관리자 여야 합니다.
 
-## <a name="getting-started"></a>시작하기
+## <a name="getting-started"></a>시작
 
-서비스 구성 기능은 소수의 고객 에게만 전용 미리 보기에서 사용할 수 있습니다. 참석 하려는 경우이 양식을 작성 하세요.[https://aka.ms/allotment-pilot-signup](https://aka.ms/allotment-pilot-signup)
+서비스 구성 기능은 소수의 고객 에게만 전용 미리 보기에서 사용할 수 있습니다. 참석 하려는 경우이 양식을 작성 [https://aka.ms/allotment-pilot-signup](https://aka.ms/allotment-pilot-signup)합니다.

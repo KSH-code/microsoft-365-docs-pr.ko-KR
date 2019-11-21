@@ -1,242 +1,153 @@
 ---
-title: Office 앱에서 민감도 레이블 작동 방식
-ms.author: greglin
-author: greg-lindsay
+title: Office 앱의 민감도 레이블
+ms.author: krowley
+author: kccross
 manager: laurawi
-ms.date: ''
+ms.date: 11/20/2019
 audience: Admin
 ms.topic: conceptual
 ms.service: O365-seccomp
-localization_priority: Priority
+localization_priority: Normal
 ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
-description: 민감도 레이블을 사용하여 사용자의 생산성 및 공동 작업 능력이 저하되지 않도록 하면서 중요한 콘텐츠를 분류 및 보호할 수 있습니다. 민감도 레이블을 사용하여 레이블이 지정된 콘텐츠에 대해 암호화 또는 워터마크와 같은 보호 설정을 적용할 수 있습니다.
-ms.openlocfilehash: f702423f0b1074b5619ef1c321cc5e9f1daef1d7
-ms.sourcegitcommit: 15173ab87325b7d79bab683702b35d77a355cd6b
-ms.translationtype: HT
+description: 사용자가 데스크톱에 대 한 Office 앱, 모바일 용 Office 앱 및 웹 용 Office 앱에서 민감도 레이블을 사용 하는 방법에 대해 알아봅니다. 민감도 레이블을 지 원하는 앱을 찾습니다.
+ms.openlocfilehash: 1b472185df2d45717cba6cfca30176768bf9cd4e
+ms.sourcegitcommit: 5f96fa472cbdca30c2cfe24d66c9c6fcaedb1a6b
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/08/2019
-ms.locfileid: "37417567"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38755596"
 ---
-# <a name="how-sensitivity-labels-work-in-office-apps"></a>Office 앱에서 민감도 레이블 작동 방식
+# <a name="sensitivity-labels-in-office-apps"></a>Office 앱의 민감도 레이블
 
-## <a name="what-prerequisites-are-there-to-use-sensitivity-labels-in-office-applications"></a>Office 응용 프로그램에서 민감도 레이블을 사용하는 데 필요한 필수 사항은 무엇인가요?
+이 문서에서는 다음에 대해 설명합니다.
 
-### <a name="common-requirements"></a>일반적인 요구 사항 
+- 전자 메일, 파일 및 첨부 파일에 민감도 레이블을 적용 하기 전 환경의 요구 사항입니다.
+- 각 Office 앱에서 지 원하는 민감도 레이블 기능
+- 민감도 레이블을 Office 앱에서 작동 하는 다른 Microsoft 보안 및 준수 기술과 결합 하면 어떻게 될까요?
+- 조직의 사용자가 Windows 용 Office 앱 및 웹 용 Office 앱으로 작업할 때 민감도 레이블을 사용할 수 있는 방법
+- 우편물 민감도 레이블로 시작 하 여 조직의 사용자를 가져올 수 있는 위치입니다.
 
-- 통합 민감도 레이블은 [보안 및 준수 센터에서 구성되고 게시](https://aka.ms/managemip)되어야 합니다.
-- 사용자는 회사 계정으로 Office에 로그인해야 합니다.
-- 사용자에게는 Office 365 E3 이상의 라이선스가 할당되어 있어야 합니다.
+## <a name="subscription-and-licensing-requirements-for-sensitivity-labels"></a>민감도 레이블의 구독 및 라이선스 요구 사항
 
-### <a name="additional-requirements-for-office-for-windows"></a>Windows용 Office에 대한 추가 요구 사항 
+사용자에 게 다음 라이선스 중 하나 이상이 할당 되어 있어야 합니다.
 
-- Azure Information Protection 클라이언트가 Office에서 실행되고 있지 않아야 합니다. 참고 항목: [Windows용 Office에서 민감도 레이블을 Azure Information Protection 클라이언트와 함께 실행할 수 있나요?](#can-sensitivity-labels-run-alongside-the-azure-information-protection-client-in-office-for-windows)
+- [Microsoft 365 E3](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans) 이상
 
-### <a name="additional-requirements-for-outlook-on-all-platforms"></a>모든 플랫폼에서 Outlook에 대한 추가 요구 사항 
+- [Office 365 E3](https://www.microsoft.com/microsoft-365/business/office-365-enterprise-e3-business-software) 이상
 
-- 레이블 구성에서 콘텐츠 표시를 설정하는 경우에는 Exchange Online을 사용하여 전송에 콘텐츠 표시를 삽입해야 합니다.
+- [Azure Information Protection Premium P1](https://azure.microsoft.com/pricing/details/information-protection/) 이상
 
-## <a name="what-sensitivity-label-capabilities-are-supported-in-office-today"></a>현재 Office에서는 어떤 민감도 레이블 기능이 지원되나요? 
+Office 기본 제공 레이블 클라이언트는 Office 구독 버전의 민감도 레이블을 지원 합니다. 클라이언트에서 독립 실행형 버전 (예: Office 2016 또는 Office 2019)을 지원 하지 않습니다.
 
-<table border="1" cellspacing="0" cellpadding="0">
-<th><font size="-1">기능<th><font size="-1">Windows<th><font size="-1">Mac<th colspan="2"><font size="-1">iOS<th colspan="2"><font size="-1">Android<th colspan="2"><font size="-1">Web</tr>
-<tr><td>
+자동 또는 권장 민감도 레이블을 사용 하려면 사용자에 게 다음 라이선스 중 하나가 필요 합니다.
 
-<td><font size="-1"> Word<br>
-Excel<br>
-PowerPoint<br>
-Outlook
+- [Microsoft 365 E5](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans) 이상
 
+- [Office 365 E5](https://www.microsoft.com/microsoft-365/business/office-365-enterprise-e5-business-software) 이상
 
-<td><font size="-1"> Word<br>
-Excel<br>
-PowerPoint<br>
-Outlook
+- [Azure Information Protection Premium P2](https://azure.microsoft.com/pricing/details/information-protection/) 이상
 
-<td><font size="-1"> Word<br>
-Excel<br>
-PowerPoint
-<td><font size="-1"> Outlook
+## <a name="support-for-sensitivity-label-capabilities-in-word-excel-and-powerpoint"></a>Word, Excel 및 PowerPoint의 민감도 레이블 기능 지원
 
-<td><font size="-1"> Word<br>
-Excel<br>
-PowerPoint
-<td><font size="-1"> Outlook
+다음 표에는 각 기능에 대해 해당 앱에 필요한 최소 버전이 나와 있습니다. TBD는 해당 플랫폼에서 해당 기능을 사용할 수 없음을 의미 합니다.
 
-<td><font size="-1"> Word<br>
-Excel<br>
-PowerPoint
-<td><font size="-1"> Outlook </b>
-</tr>
+|기능                                                                                                        |Windows 데스크톱 |Mac 데스크톱 |iOS    |Android      |웹                                                         |
+|------------------------------------------------------------------------------------------------------------------|----------------|------------|-------|-------------|------------------------------------------------------------|
+|[수동으로 레이블 적용, 변경 또는 제거](https://support.office.com/article/2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9)| 1910+          | 16.21 +     | 2.21+ | 16.0.11231+ | [미리 보기](sensitivity-labels-sharepoint-onedrive-files.md) |
+|[기본 레이블 적용](sensitivity-labels.md#what-label-policies-can-do)                                         | 1910+          | 16.21 +     | 2.21+ | 16.0.11231+ | TBD                                                        |
+|[레이블을 변경 하려면 사유 필요](sensitivity-labels.md#what-label-policies-can-do)                     | 1910+          | 16.21 +     | 2.21+ | 16.0.11231+ | [미리 보기](sensitivity-labels-sharepoint-onedrive-files.md) |
+|[사용자 지정 도움말 페이지에 도움말 링크 제공](sensitivity-labels.md#what-label-policies-can-do)                       | 1910+          | 16.21 +     | 2.21+ | 16.0.11231+ | [미리 보기](sensitivity-labels-sharepoint-onedrive-files.md) |
+|[콘텐츠 표시](sensitivity-labels.md#what-label-policies-can-do)                                              | 1910+          | 16.21 +     | 2.21+ | 16.0.11231+ | [미리 보기](sensitivity-labels-sharepoint-onedrive-files.md) |
+|[지금 권한 할당](encryption-sensitivity-labels.md#assign-permissions-now)                                 | 1910+          | 16.21 +     | 2.21+ | 16.0.11231+ | [미리 보기](sensitivity-labels-sharepoint-onedrive-files.md) |
+|[사용자가 권한을 할당하도록 허용](encryption-sensitivity-labels.md#let-users-assign-permissions)                     | TBD            | TBD        | TBD   | TBD         | TBD                                                        |
+|[레이블 분석을 사용 하 여 레이블 사용을 확인](label-analytics.md) 하 고 관리자를 위해 데이터 보내기                      | TBD            | TBD        | TBD   | TBD         | TBD                                                        |
+|
+  [사용자가 전자 메일 및 문서에 레이블을 적용하도록 요구](sensitivity-labels.md#what-label-policies-can-do)   | TBD            | TBD        | TBD   | TBD         | TBD                                                        |
+|[민감도 레이블을 콘텐츠에 자동으로 적용](apply-sensitivity-label-automatically.md)                    | 미리 보기: [Office 참가자](https://office.com/insider) 에 게 롤아웃                                  | TBD | TBD | TBD | [미리 보기](sensitivity-labels-sharepoint-onedrive-files.md) |
+|레이블이 지정 되 고 보호 된 문서에서 [자동 저장](https://support.office.com/article/6d6bd723-ebfd-4e40-b5f6-ae6e8088f7a5) 및 [공동](https://support.office.com/article/ee1509b4-1f6e-401e-b04a-782d26f564a4) 작성 지원 | TBD | TBD | TBD | TBD | [미리 보기](sensitivity-labels-sharepoint-onedrive-files.md) |
+|
 
-<tr>
-<td><font size="-1">수동으로 레이블 적용, 변경 또는 제거<td><font size="-1"><b>예</b><br><font size="-1">1910+</font>
+## <a name="support-for-sensitivity-label-capabilities-in-outlook"></a>Outlook의 민감도 레이블 기능 지원
 
-<td><font size="-1"><b>예</b><br><font size="-1">16.21.0+</font>
+다음 표에는 각 기능에 대해 해당 앱에 필요한 최소 버전이 나와 있습니다. TBD는 해당 플랫폼에서 해당 기능을 사용할 수 없음을 의미 합니다.
 
-<td><font size="-1"><b>예</b><br><font size="-1">2.21+</font>
-<td><font size="-1">출시 예정<sup>3</sup>
-<td><font size="-1"><b>예</b><br><font size="-1">16.0.11231+</font>
-<td><font size="-1">출시 예정<sup>3</sup>
-<td><font size="-1">출시 예정<sup>3</sup><td><font size="-1">출시 예정<sup>3</sup>
+|기능                                                                                                        |Windows 데스크톱의 Outlook |Mac 데스크톱 Outlook  |IOS의 Outlook |Android의 Outlook |웹용 Outlook |
+|------------------------------------------------------------------------------------------------------------------|---------------------------|------------------------|---------------|-------------------|-------------------|
+|[수동으로 레이블 적용, 변경 또는 제거](https://support.office.com/article/2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9)| 1910+                     | 16.21 +                 | 4.71 +         | 4.0.39 +           | 예               |
+|[기본 레이블 적용](sensitivity-labels.md#what-label-policies-can-do)                                         | 1910+                     | 16.21 +                 | 4.71 +         | 4.0.39 +           | 예               |
+|[레이블을 변경 하려면 사유 필요](sensitivity-labels.md#what-label-policies-can-do)                     | 1910+                     | 16.21 +                 | 4.71 +         | 4.0.39 +           | 예               |
+|[사용자 지정 도움말 페이지에 도움말 링크 제공](sensitivity-labels.md#what-label-policies-can-do)                       | 1910+                     | 16.21 +                 | 4.71 +         | 4.0.39 +           | 예               |
+|[콘텐츠 표시](sensitivity-labels.md#what-label-policies-can-do)                                              | 1910+                     | 16.21 +                 | 4.71 +         | 4.0.39 +           | 예               |
+|[지금 권한 할당](encryption-sensitivity-labels.md#assign-permissions-now)                                 | 1910+                     | 16.21 +                 | 4.71 +         | 4.0.39 +           | 예               |
+|[사용자가 권한을 할당하도록 허용](encryption-sensitivity-labels.md#let-users-assign-permissions)                     | 1910+                     | 16.21 +                 | 4.71 +         | 4.0.39 +           | 예               |
+|[레이블 분석을 사용 하 여 레이블 사용을 확인](label-analytics.md) 하 고 관리자를 위해 데이터 보내기                      | TBD                       | TBD                    | TBD           | TBD               | TBD               |
+|
+  [사용자가 전자 메일 및 문서에 레이블을 적용하도록 요구](sensitivity-labels.md#what-label-policies-can-do)   | TBD                       | TBD                    | TBD           | TBD               | TBD               |
+|[민감도 레이블을 콘텐츠에 자동으로 적용](apply-sensitivity-label-automatically.md)                    | TBD                       | TBD                    | TBD           | TBD               | 미리 보기: [대상 릴리스로](https://docs.microsoft.com/office365/admin/manage/release-options-in-office-365?view=o365-worldwide) 롤업 |
+|
 
-<tr>
-<td><font size="-1"><a href="https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels#what-label-policies-can-do">기본 레이블 적용</a>
-<td><font size="-1"><b>예</b><br><font size="-1">1910+</font>
+## <a name="about-the-office-built-in-labeling-client"></a>Office 기본 제공 레이블 클라이언트 정보
 
-<td><font size="-1"><b>예</b><br><font size="-1">16.21.0+</font>
+Office 기본 제공 레이블 클라이언트는 다음 관리 센터에서 레이블 및 정책 설정을 다운로드 합니다.
 
-<td><font size="-1"><b>예</b><br><font size="-1">2.21+</font>
-<td><font size="-1">출시 예정<sup>3</sup>
-<td><font size="-1"><b>예</b><br><font size="-1">16.0.11231+</font>
-<td><font size="-1">출시 예정<sup>3</sup>
-<td><font size="-1">출시 예정<sup>3</sup>
-<td><font size="-1">출시 예정<sup>3</sup>
+- Office 365 보안 및 준수 센터
 
-<tr><td><font size="-1"><a href="https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels#what-label-policies-can-do">레이블을 변경하는 데 사유 요구</a><sup>1</sup>
-<td><font size="-1"><b>예</b><br><font size="-1">1910+</font>
+- Microsoft 365 보안 센터
 
-<td><font size="-1"><b>예</b><br><font size="-1">16.21.0+</font>
+- Microsoft 365 규정 준수 센터
 
-<td><font size="-1"><b>예</b><br><font size="-1">2.21+</font>
-<td><font size="-1">출시 예정<sup>3</sup>
-<td><font size="-1"><b>예</b><br><font size="-1">16.0.11231+</font>
-<td><font size="-1">출시 예정<sup>3</sup>
-<td><font size="-1">출시 예정<sup>3</sup>
-<td><font size="-1">출시 예정<sup>3</sup>
+Office 기본 제공 레이블 클라이언트는 하나 이상의 [레이블 정책이 게시](sensitivity-labels.md#what-label-policies-can-do) 된 사용자에 대해 자동으로 사용 하도록 설정 됩니다.
 
-<tr><td><font size="-1"><a href="https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels#what-label-policies-can-do">사용자 지정 도움말 페이지에 도움말 링크 제공</a>
-<td><font size="-1"><b>예</b><br><font size="-1">1910+</font>
+Windows의 Office에서 기본 제공 레이블 클라이언트를 사용 하려면 Office에서 Azure Information Protection 추가 기능을 동시에 실행할 수 없습니다. Azure Information Protection 클라이언트를 일시적으로 또는 영구적으로 제거 하거나, 설치를 그대로 유지 하 고 Office를 구성 하 여 실행을 방지할 수 있습니다.
 
-<td><font size="-1"><b>예</b><br><font size="-1">16.21.0+</font>
+1. 다음 옵션 중 하나를 완료 합니다.
 
-<td><font size="-1"><b>예</b><br><font size="-1">2.21+</font>
-<td><font size="-1">출시 예정<sup>3</sup>
-<td><font size="-1"><b>예</b><br><font size="-1">16.0.11231+</font>
-<td><font size="-1">출시 예정<sup>3</sup>
-<td><font size="-1">출시 예정<sup>3</sup>
-<td><font size="-1">출시 예정<sup>3</sup>
+    **여러 컴퓨터의 경우:**  **Office의 민감도 기능을 사용 하 여 민감도 레이블 그룹 정책 설정을 적용 하 고 보기를** 구성 합니다. **사용자 구성/관리 템플릿/Microsoft Office 2016/보안 설정**에서이 설정을 찾습니다. 그룹 정책을 통해 또는 [Office 클라우드 정책 서비스](https://docs.microsoft.com/DeployOffice/overview-office-cloud-policy-service)를 사용 하 여이 설정을 배포 합니다.
 
-<tr><td><font size="-1"><a href="https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels#what-sensitivity-labels-can-do">콘텐츠 표시</a>
-<td><font size="-1"><b>예</b><br><font size="-1">1910+</font>
-
-<td><font size="-1"><b>예</b><br><font size="-1">16.21.0+</font>
-
-<td><font size="-1"><b>예</b><br><font size="-1">2.21+</font>
-<td><font size="-1">출시 예정<sup>3</sup>
-<td><font size="-1"><b>예</b><br><font size="-1">16.0.11231+</font
-><td><font size="-1">출시 예정<sup>3</sup>
-<td><font size="-1">출시 예정<sup>3</sup>
-<td><font size="-1">출시 예정<sup>3</sup>
-
-<tr><td><font size="-1">
-  <a href="https://docs.microsoft.com/en-us/microsoft-365/compliance/encryption-sensitivity-labels#assign-permissions-now">사전 정의된 사용 권한 할당</a>
-<td><font size="-1"><b>예</b><br><font size="-1">1910+</font>
-
-<td><font size="-1"><b>예</b><br><font size="-1">16.21.0+</font>
-
-<td><font size="-1"><b>예</b><br><font size="-1">2.21+</font>
-<td><font size="-1">출시 예정<sup>3</sup>
-<td><font size="-1"><b>예</b><br><font size="-1">16.0.11231+</font>
-<td><font size="-1">출시 예정<sup>3</sup>
-<td><font size="-1">출시 예정<sup>3</sup>
-<td><font size="-1">출시 예정<sup>3</sup>
-
-<tr><td><font size="-1"><a href="https://docs.microsoft.com/microsoft-365/compliance/encryption-sensitivity-labels#let-users-assign-permissions">사용자가 권한을 할당하도록 허용</a>
-<td><font size="-1"><b>예</b><sup>2</sup><br><font size="-1">1910+</font>
-
-<td><font size="-1"><b>예</b><sup>2</sup><br><font size="-1">16.21.0+</font>
-
-<td><font size="-1">TBD
-<td><font size="-1">출시 예정<sup>3</sup>
-<td><font size="-1">TBD<td
-><font size="-1">출시 예정<sup>3</sup>
-<td><font size="-1">TBD
-<td><font size="-1">출시 예정<sup>3</sup>
-
-<tr><td><font size="-1">관리자를 위한 <a href="https://docs.microsoft.com/microsoft-365/compliance/label-analytics">레이블 분석</a> 데이터 보내기
-<td><font size="-1">TBD
-
-<td><font size="-1">TBD
-
-<td><font size="-1">TBD
-<td><font size="-1">TBD
-<td><font size="-1">TBD
-<td><font size="-1">TBD
-<td><font size="-1">TBD
-<td><font size="-1">TBD
-
-<tr><td><font size="-1">
-  <a href="https://docs.microsoft.com/en-us/microsoft-365/compliance/sensitivity-labels#what-label-policies-can-do">사용자가 전자 메일 및 문서에 레이블을 적용하도록 요구</a>
-<td><font size="-1">TBD
-
-<td><font size="-1">TBD
-
-<td><font size="-1">TBD
-<td><font size="-1">TBD
-<td><font size="-1">TBD
-<td><font size="-1">TBD
-<td><font size="-1">TBD
-<td><font size="-1">TBD
-
-<tr><td><font size="-1"><a href="https://docs.microsoft.com/microsoft-365/compliance/apply-sensitivity-label-automatically">민감도 레이블을 콘텐츠에 자동으로 적용</a>
-<td><font size="-1">TBD
-
-<td><font size="-1">TBD
-
-<td><font size="-1">TBD
-<td><font size="-1">TBD
-<td><font size="-1">TBD
-<td><font size="-1">TBD
-<td><font size="-1">TBD
-<td><font size="-1">TBD
-</table>
-
-<br><sup>1</sup>구성된 경우 사용자에게 레이블 다운그레이드를 정당화하라는 메시지가 표시됩니다. 그러나 아직 관리자는 사유 데이터를 사용할 수 없습니다. "관리자를 위한 레이블 분석 데이터 보내기" 기능이 지원 되는 경우 이 기능을 사용할 수 있게 됩니다.
-<br><sup>2</sup>사용자가 권한을 할당하도록 허용은 현재 Windows 및 Mac용 Outlook에서만 사용할 수 있습니다. Word, Excel 및 PowerPoint의 사용 가능성은 TBD입니다.
-<br><sup>3</sup>2019년 4분기 예상
-
-## <a name="when-do-content-marks-or-encryption-get-applied-after-content-is-given-a-sensitivity-label"></a>콘텐츠에 민감도 레이블이 지정된 후 콘텐츠 표시 또는 암호화가 적용되는 시점은 언제인가요?
-
-| 응용 프로그램 | 콘텐츠 표시 | 암호화
-| --- | --- | --- |
-| 모든 플랫폼의 Word, Excel, PowerPoint | 즉시 | 즉시 |
-| PC 및 Mac용 Outlook | Exchange Online에서 전자 메일을 보낸 후 | 즉시 |
-| Mac, iOS 및 Android용 Outlook | Exchange Online에서 전자 메일을 보낸 후 | Exchange Online에서 전자 메일을 보낸 후 |
-
-## <a name="can-sensitivity-labels-run-alongside-the-azure-information-protection-client-in-office-for-windows"></a>Windows용 Office에서 민감도 레이블을 Azure Information Protection 클라이언트와 함께 실행할 수 있나요?
-
-아니요. Windows용 Office에서 Azure Information Protection 클라이언트를 로드하면 민감도 레이블이 꺼집니다.
-
-Azure Information Protection 클라이언트가 설치되어있지만 대신 민감도 레이블을 사용하려면 다음을 수행할 수 있습니다.
-
-1.  **Office에서 민감도 기능을 사용하여 민감도 레이블을 적용하고 보도록** 그룹 정책 설정을 구성합니다. 이 설정은 **사용자 구성/관리 템플릿/Microsoft Office 2016/보안 설정**에 있습니다. 
-
-  >참고: 이 설정은 기존 그룹 정책 배포 메커니즘 또는 [Office 클라우드 정책 서비스](https://docs.microsoft.com/DeployOffice/overview-office-cloud-policy-service)를 통해 배포될 수 있습니다. 
- 
-  또는 Azure Information Protection 클라이언트를 제거하거나  [사용지 않도록](https://support.office.com/article/view-manage-and-install-add-ins-in-office-programs-16278816-1948-4028-91e5-76dca5380f8d) 설정할 수 있습니다. 
+    **단일 컴퓨터에 대해 다음을 수행 합니다.** "Office 프로그램에서 추가 기능 보기, 관리 및 설치"를 참조 하 고 단일 컴퓨터에서 Azure Information Protection 추가 기능을 [영구적으로 사용 하지 않도록 설정 하거나 제거](https://support.office.com/article/16278816-1948-4028-91e5-76dca5380f8d) 합니다.
 
 2. 모든 Office 응용 프로그램을 다시 시작합니다.
 
-## <a name="will-sensitivity-labels-be-supported-in-non-subscription-versions-of-office-like-office-2016-or-office-2019"></a>Office 2016 또는 Office 2019와 같은 비구독 버전의 Office에서 민감도 레이블이 지원되나요?
+정보 보호를 위한 클라이언트 응용 프로그램에 대 한 자세한 내용은 [Azure Information protection의 클라이언트 쪽](https://docs.microsoft.com/azure/information-protection/rms-client/use-client)을 참조 하십시오.
 
-아니요. 민감도 레이블은 Office 365 구독에서만 지원되고 비구독 버전에서는 지원되지 않습니다. 그러나 Azure Information Protection 통합 레이블 클라이언트는 비등록 버전의 Office에서 사용할 수 있습니다. 
+## <a name="protection-templates-and-sensitivity-labels"></a>보호 서식 파일 및 민감도 레이블
 
-## <a name="i-previously-deployed-protection-templates-before-setting-up-sensitivity-labels-where-did-they-go"></a>민감도 레이블을 설정하기 전에 이전에 보호 템플릿을 배포했습니다. 어디에 있나요?
+Office 365 메시지 암호화에 대해 정의 하는 것과 같은 관리자 정의 [보호 템플릿은](https://docs.microsoft.com/azure/information-protection/configure-policy-templates)암호화가 설정 된 민감도 레이블과 중복 되므로 민감도 레이블이 사용 하도록 설정 된 경우 office 사용자 환경에서 숨겨집니다.
 
-관리자 정의 [보호 템플릿](https://docs.microsoft.com/azure/information-protection/configure-policy-templates)은 민감도 레이블이 사용되는 경우 암호화가 설정된 민감도 레이블과 중복되므로 Office 사용자 환경에서 숨겨집니다. 
+## <a name="apply-sensitivity-labels-to-files-emails-and-attachments"></a>파일, 전자 메일 및 첨부 파일로 민감도 레이블 적용
 
-## <a name="can-a-file-or-email-have-more-than-one-classification"></a>파일 또는 전자 메일에 분류가 여러 개 있을 수 있나요?
+사용자는 각 문서 또는 전자 메일에 대해 한 번에 하나의 레이블만 적용할 수 있습니다.
 
-아니요. 사용자는 각 문서 또는 전자 메일에 대해 한 번에 하나의 레이블만 선택할 수 있습니다.
+첨부 파일이 있는 전자 메일 메시지에 레이블을 지정 하면 첨부 파일이 레이블을 상속 하지 않습니다. 첨부 파일에 레이블이 있으면 별도로 적용 된 레이블을 유지 합니다. 첨부 파일에 레이블이 없으면 첨부 파일은 레이블을 사용 하지 않고 그대로 유지 됩니다. 그러나 전자 메일에 대한 레이블이 보호를 적용하는 경우 해당 보호는 Office 첨부 파일에 적용됩니다.
 
-## <a name="when-an-email-is-labeled-do-any-attachments-automatically-get-the-same-labeling"></a>전자 메일에 레이블을 지정하면 모든 첨부 파일에 자동으로 같은 레이블이 지정되나요?
+## <a name="sensitivity-label-compatibility"></a>민감도 레이블 호환성
 
-아니요. 첨부 파일이 포함된 전자 메일 메시지에 레이블을 지정하는 경우 해당 첨부 파일은 같은 레이블을 상속하지 않습니다. 첨부 파일은 레이블이 없는 상태로 유지되거나 따로 적용된 레이블이 유지됩니다. 그러나 전자 메일에 대한 레이블이 보호를 적용하는 경우 해당 보호는 Office 첨부 파일에 적용됩니다.
+**RMS-인식 된 Apps를 사용**합니다. 민감도 레이블을 지원 하지 않는 [RMS-인식 된 응용 프로그램](https://docs.microsoft.com/azure/information-protection/requirements-applications#rms-enlightened-applications) 에서 레이블이 지정 되 _고 암호화_ 된 문서 또는 전자 메일을 열면 앱은 여전히 암호화 및 권한 관리를 적용 합니다.
 
-## <a name="additional-resources"></a>추가 리소스
+**Azure Information Protection 클라이언트를 사용**합니다. Azure Information Protection 클라이언트를 사용 하는 Office 기본 제공 레이블 클라이언트와 문서 및 전자 메일에 적용 하는 민감도 레이블을 보고 변경할 수 있습니다.
 
-[Azure Information Protection의 분류 및 레이블링에 대한 질문과 대답](https://docs.microsoft.com/azure/information-protection/faqs-infoprotect)<br>
-[Office 내의 문서 및 전자 메일에 민감도 레이블 적용](https://support.office.com/article/apply-sensitivity-labels-to-your-documents-and-email-within-office-2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9)
+**다른 버전의 Office와 함께 사용**합니다. 권한이 부여 된 모든 사용자는 다른 버전의 Office에서 레이블이 붙은 문서 및 전자 메일을 열 수 있습니다. 그러나 지원 되는 Office 버전 또는 Azure Information Protection 클라이언트 에서만 레이블을 보거나 변경할 수 있습니다. 지원 되는 Office 앱 버전은이 문서의 표에 나와 있습니다.
+
+## <a name="support-for-sharepoint-and-onedrive-files-protected-by-sensitivity-labels"></a>민감도 레이블로 보호 되는 SharePoint 및 OneDrive 파일에 대 한 지원
+
+웹에서 office의 Office 기본 제공 레이블 클라이언트를 사용 하려면 문서가 [SharePoint 및 OneDrive에서 office 파일에 대해 민감도 레이블 사용을 설정](sensitivity-labels-sharepoint-onedrive-files.md)하는 비즈니스용 OneDrive 또는 SharePoint Online 인스턴스에 있어야 합니다.
+
+## <a name="when-office-365-applies-marks-and-encryption-to-content"></a>Office 365에서 콘텐츠에 대 한 표시 및 암호화를 적용 하는 경우
+
+Office 365에서는 사용 하는 응용 프로그램에 따라 민감도 레이블이 있는 콘텐츠 표시 또는 암호화를 다르게 적용 합니다.
+
+| 응용 프로그램 | 콘텐츠 표시 | 암호화 |
+| --- | --- | --- |
+| 모든 플랫폼의 Word, Excel, PowerPoint | 즉시 | 즉시 |
+| PC 및 Mac용 Outlook | Exchange Online이 전자 메일을 보낸 후 | 즉시 |
+| Mac, iOS 및 Android용 Outlook | Exchange Online이 전자 메일을 보낸 후 | Exchange Online이 전자 메일을 보낸 후 |
+|
+
+## <a name="more-resources"></a>추가 리소스
+
+[Azure Information Protection의 분류 및 레이블링에 대한 질문과 대답](https://docs.microsoft.com/azure/information-protection/faqs-infoprotect)
+
+[Office 내의 문서 및 전자 메일에 민감도 레이블 적용](https://support.office.com/article/2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9)

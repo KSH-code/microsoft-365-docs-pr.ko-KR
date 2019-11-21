@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Microsoft 365이 사용자에 게 미치는 영향에 대해 알아봅니다.
-ms.openlocfilehash: beded4f9346a8e05244a28cb28c06a1b5410b12a
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 11a141ba24aa45c0c60dec064877f319f0b5ded2
+ms.sourcegitcommit: 7713e777731025c165e9e936198609503ade5665
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38031243"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38753597"
 ---
 # <a name="how-microsoft-365-for-campaigns-affects-your-users"></a>캠페인에 대 한 Microsoft 365이 사용자에 게 미치는 영향
 
@@ -53,7 +53,7 @@ ms.locfileid: "38031243"
 이러한 장치를 설정 하 고 나면 메일을 포함 하 여 사용자에 게 이러한 장치의 조직 데이터에 액세스할 때 인증자 앱을 사용 하 라는 메시지가 표시 됩니다. 
 
 ## <a name="keep-byod-macs-and-windows-10-pcs-fresh"></a>최신 상태로 유지 (Mac 및 Windows 10 Pc) 
-또한 사용자가 기본 작업 장치를 최신 상태로 유지 하는 것도 중요 합니다.
+사용자가 기본 작업 장치를 최신 상태로 유지 하는 것도 중요 합니다.
 - 메시지가 표시 되 면 최신 버전의 Office 데스크톱 앱을 설치 하 고 새로 업데이트를 유지 합니다. 
 - Windows 업데이트와 같은 운영 체제 업데이트를 유지 하는 것이 중요 합니다.
 
@@ -74,7 +74,3 @@ ms.locfileid: "38031243"
 
 ## <a name="set-up-managed-windows-10-devices"></a>관리 되는 Windows 10 장치 설정
 가장 중요 한 직원 구성원은 사용자가 관리 하는 새로 취득 한 Windows 10 장치를 사용 하는 것이 좋습니다. [이러한 장치를 관리 하 고 보호](../business/set-up-windows-devices.md?toc=/microsoft-365/campaigns/toc.json)하는 방법을 알아봅니다. 이렇게 하면 해커에 게 가장 높은 가치 대상이 되는 직원 구성원이 가장 많은 보호를 받을 수 있습니다. 
-
-
-
-  

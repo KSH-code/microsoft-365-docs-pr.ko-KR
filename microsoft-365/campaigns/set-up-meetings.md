@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Microsoft 팀과 온라인 모임을 설정 합니다.
-ms.openlocfilehash: 67a58b17d3e5153d8e0f36788f68ca7c0e204d6f
-ms.sourcegitcommit: 75b97d1ff617bc4b1b0ef9135dfe6a8842ea1b52
+ms.openlocfilehash: 7ecdec3f7dc329f1ff70bf8d72a7ca5bc946636f
+ms.sourcegitcommit: 7713e777731025c165e9e936198609503ade5665
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35772305"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38753587"
 ---
 # <a name="set-up-meetings"></a>모임 설정
 
@@ -40,8 +40,8 @@ Microsoft 팀의 모임에는 오디오, 비디오 및 공유가 포함 됩니�
 ## <a name="best-practices"></a>모범 사례
 
 온라인 모임에 대 한 다음 모범 사례를 따르세요.
-1. Microsoft 팀에서 바로 온라인 모임을 예약 합니다. 팀과 채널을 선택할 수 있으며 팀은 해당 팀 이나 채널에 참석자를 자동으로 초대 합니다.
-2. 즉석 모임이 필요 한가요? 일대일 채팅 인 경우 **지금 모임** 시작을 선택 하 여 채팅 중인 사용자와 비디오 또는 오디오 통화를 시작할 수 있습니다. 
+- Microsoft 팀에서 바로 온라인 모임을 예약 합니다. 팀과 채널을 선택할 수 있으며 팀은 해당 팀 이나 채널에 참석자를 자동으로 초대 합니다.
+- 즉석 모임이 필요 한가요? 일대일 채팅 인 경우 **지금 모임** 시작을 선택 하 여 채팅 중인 사용자와 비디오 또는 오디오 통화를 시작할 수 있습니다. 
 
 
 ## <a name="schedule-a-meeting"></a>모임 예약

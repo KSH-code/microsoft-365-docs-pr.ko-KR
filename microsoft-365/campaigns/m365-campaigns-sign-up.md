@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
 description: 캠페인에 대 한 Microsoft 365에 대 한 단계별 등록입니다. Cybersecurity 위협 으로부터 전자 메일, 데이터 및 통신으로 캠페인을 보호 합니다.
-ms.openlocfilehash: 178fa371d0f299c58168957b82b0c7da74b37742
-ms.sourcegitcommit: 75b97d1ff617bc4b1b0ef9135dfe6a8842ea1b52
+ms.openlocfilehash: b6866a3c2291b00934b5808777f795e5b99faa34
+ms.sourcegitcommit: 7713e777731025c165e9e936198609503ade5665
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35772465"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "38753607"
 ---
 # <a name="sign-up-for-microsoft-365-for-campaigns"></a>캠페인에 대 한 Microsoft 365 등록 
 
@@ -75,14 +75,14 @@ Office 365 Business Premium과 같은 비즈니스용 Office 365에 대 한 기�
 > 기존 Microsoft 365 Business 테 넌 트에 대 한 Microsoft 365 캠페인 혜택을 추가할 수는 없습니다.
 
 1. 캠페인 전자 메일에 대 한 Microsoft 365 초대에서 **조직 등록 >** 를 선택 합니다. 그러면 Microsoft 365 등록을 수행 하는 데 도움이 됩니다.
-2. 시작 화면에서 사용자에 게 **확인** 하 시겠습니까? 페이지에서 원하는 항목을 클릭 하거나 탭 하 여 **기존 구독에 추가 해 보세요. 로그인**합니다.
+2. 시작 화면에서 사용자에 게 **확인** 하 시겠습니까? 페이지에서이 항목을 **기존 구독에 추가 하려면 클릭 하거나 탭 하세요. 로그인**합니다.
     
     ![오른쪽 위 모서리에서 로그인을 선택 합니다.](media/addtoexisting.png)
-3. 로그인 페이지에서 기존 구독에 대 한 관리자 별칭 (예: *Alice @ VoteContoso<span></span>* )을 입력 하 고 **다음**을 선택 하 고 암호를 입력 한 다음 **로그인**을 선택 합니다.
-4. 모양을 어떻게 **확인 하 시겠습니까?** 사용자 수를 입력 하 고 **다음**을 선택 합니다. 홍보 코드는 이미 초대 URL에 포함 되어 있으므로 여기에 입력 하지 않아도 된다는 점에 유의 하십시오.
+3. 로그인 페이지에서 기존 구독에 대 한 관리자 별칭 (예: *<span></span>Alice@VoteContoso*)을 입력 하 고 **다음**을 선택 하 고 암호를 입력 한 다음 **로그인**을 선택 합니다.
+4. 모양을 어떻게 **확인 하 시겠습니까?** 사용자 수를 입력 하 고 **다음**을 선택 합니다. 홍보 코드는 이미 초대 URL에 포함 되어 있으므로 여기에 입력 하지 않아도 됩니다.
 5. **어떻게 결제** 하 시겠습니까? 페이지에서 결제 방법을 입력 하 고 **주문 하기**를 선택 합니다.
 
-이러한 단계를 완료 하면 캠페인 직원에 게 [새 라이선스를 할당할](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide) 준비가 된 것입니다. 
+이러한 단계를 완료 하면 캠페인 직원에 게 [새 라이선스를 할당할](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide) 수 있습니다. 
 
 
 ## <a name="whats-next"></a>다음 작업
