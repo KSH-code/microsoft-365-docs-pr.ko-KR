@@ -13,18 +13,17 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: ''
-ms.openlocfilehash: 5f574fa4fa53e83e2af4ea563c63106e8206c3d5
-ms.sourcegitcommit: 0d423b50d2f1f4eccd64e35e00f67313244efba9
+description: 지원 되는 파일 형식 목록 (Microsoft 365 Advanced eDiscovery) 여기에는 Advanced eDiscovery의 OCR 기능에서 지 원하는 이미지 파일 형식 목록이 포함 됩니다.
+ms.openlocfilehash: ff9fdc77226ee476de3fe89a980b2658720749bf
+ms.sourcegitcommit: caa3f681a68daf5e463093a922c3d6f378143d91
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "38686982"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "39191243"
 ---
 # <a name="supported-file-types-in-advanced-ediscovery"></a>고급 eDiscovery에서 지원 되는 파일 형식
 
-고급 eDiscovery에서는 다음 표에 설명 된 여러 다른 수준의 다양 한 파일 형식을 지원 합니다. 이 목록은 마무리 되지 않으며 유효성 검사 테스트를 계속할 때 새 파일 형식을 추가 합니다. 이 표에서는 파일 형식이 텍스트 추출 (이미지의 경우 OCR)에서 지원 되며, 기본 뷰어에 표시 되며, 고급 eDiscovery의 주석 달기 뷰어에도 지원 되는지 여부를 나타냅니다.
-
+고급 eDiscovery에서는 다음 표에 설명 된 여러 다른 수준의 다양 한 파일 형식을 지원 합니다. 이 목록은 마무리 되지 않으며 유효성 검사 테스트를 계속할 때 새 파일 형식을 추가 합니다. 이러한 표는 기본 뷰어에서 볼 수 있는 텍스트 추출 및 이미지 파일에 대 한 OCR 텍스트 추출을 지원 하며 고급 eDiscovery의 주석 달기 뷰어에도 지원 되는지 여부를 나타냅니다.
 
 ## <a name="archive--container"></a>보관/컨테이너
 

@@ -12,14 +12,14 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 규정 준수 점수가 위험을 해결 하 고 준수 상태를 개선 하기 위해 수행한 조치에 따라 개인 설정 점수를 계산 하는 방법을 이해 합니다.
-ms.openlocfilehash: e3bb9bc2d9d833eea8c5a9e4a29334d9777aebac
-ms.sourcegitcommit: 544b10cc3abe04a47438085d51c4250c9238f76f
+ms.openlocfilehash: a94b1051af383041a89fa136ae490875ea48782d
+ms.sourcegitcommit: 3eae8fe39cea912d29e211a1c9fd035d6b606f91
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "38686988"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "38793662"
 ---
-# <a name="microsoft-compliance-score-calculation-preview"></a>Microsoft 준수 점수 계산 (미리 보기)
+# <a name="microsoft-compliance-score-preview-calculation"></a>Microsoft 규정 준수 점수 (미리 보기) 계산
 
 > [!IMPORTANT]
 > 규정 준수 점수가 특정 표준 또는 규정에 대 한 조직 준수를 절대 측정 하지는 않습니다. 개인 데이터 및 개별 개인 정보에 대 한 위험을 줄일 수 있는 컨트롤을 채택한 범위를 나타냅니다. 준수 점수 및 준수 관리자의 권장 사항은 준수 보장으로 해석 되어서는 안 됩니다. 이 서비스는 현재 미리 볼 수 있으며 [온라인 서비스 약관](https://go.microsoft.com/fwlink/?linkid=2108910)의 사용 약관에 따라 달라 집니다.
@@ -74,12 +74,12 @@ ms.locfileid: "38686988"
   
 각 컨트롤은 표시 되는 위험에 따라 규정 준수 점수에 할당 된 값을 갖습니다.
 
-|**Type**|**할당 된 점수**|
+|**유형**|**할당 된 점수**|
 |:-----|:-----|
 | 예방적 필수 | kb(56kbps |
-| 예방적 임의 | 까지의 |
-| 예방용 인지 필수 | 3(sp3) |
-| 예방용 인지 임의 | 1 |
-| 정정 필수 | 3(sp3) |
-| 정정 임의 | 1 |
+| 예방적 임의 | 9  |
+| 예방용 인지 필수 | 3  |
+| 예방용 인지 임의 | 1  |
+| 정정 필수 | 3  |
+| 정정 임의 | 1  |
   

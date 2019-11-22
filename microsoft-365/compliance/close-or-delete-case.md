@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 30697bfafdd7db69444b97345733f3d8ec5be92a
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: e2719df640a202f5ad88534920ef525f6da97189
+ms.sourcegitcommit: caa3f681a68daf5e463093a922c3d6f378143d91
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37087643"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "39191173"
 ---
 # <a name="close-or-delete-a-case"></a>사례 닫기 또는 삭제
 
@@ -35,16 +35,16 @@ EDiscovery 사례에서 지 원하는 법적 사례 또는 조사가 완료 되 
 
 사례를 닫으려면:
 
-1. **고급 eDiscovery** 페이지에서 해당 사례로 이동 합니다.
+1. **고급 eDiscovery** 페이지에서 닫으려는 사례를 선택 합니다.
 
-2. **설정** 으로 이동 하 여 **사례 정보**를 선택 합니다. 
+2. **설정** 탭의 **사례 정보**에서 **선택을**클릭 합니다.
 
-3. **대/소문자 닫기를**클릭 합니다. 
+3. **대/소문자 닫기를**클릭 합니다.
 
 사례를 삭제 하려면 다음을 수행 합니다.
 
-1. **고급 eDiscovery** 페이지에서 해당 사례로 이동 합니다.
+1. **고급 eDiscovery** 페이지에서 삭제할 사례를 선택 합니다.
 
-2. **설정** 으로 이동 하 여 **사례 정보**를 선택 합니다. 
+2. **설정** 탭의 **사례 정보**에서 **선택을**클릭 합니다.
 
 3. **대/소문자 삭제**를 클릭 합니다. 

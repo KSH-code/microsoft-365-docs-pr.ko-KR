@@ -12,14 +12,14 @@ search.appverid:
 - MOE150
 - MET150
 description: 위험 평가를 간소화 하 고 자동화 하는 데 도움이 되는 Microsoft 규정 준수 점수에 대해 로그인 하 고 사용 권한을 설정 하 고 대시보드를 이해 하는 방법을 알아봅니다.
-ms.openlocfilehash: 8c9bc7d1605bad66228bb47de8f86042839ac5be
-ms.sourcegitcommit: 33242c260439de0d8db41247e9414913f24adc22
+ms.openlocfilehash: 7bff479d4cd7e3f200f7fc169eb351299eec8a39
+ms.sourcegitcommit: 3eae8fe39cea912d29e211a1c9fd035d6b606f91
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "38686994"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "38793652"
 ---
-# <a name="microsoft-compliance-score-setup-preview"></a>Microsoft 준수 점수 설정 (미리 보기)
+# <a name="microsoft-compliance-score-preview-setup"></a>Microsoft 준수 점수 (미리 보기) 설치
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
