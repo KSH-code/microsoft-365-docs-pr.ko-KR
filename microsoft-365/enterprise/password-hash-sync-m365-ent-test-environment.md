@@ -16,18 +16,18 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: ''
 description: '요약: Microsoft 365 테스트 환경을 위한 암호 해시 동기화 및 로그인을 구성하고 보여 줍니다.'
-ms.openlocfilehash: 019a1f80712c426d678603b467bf19815d25f391
-ms.sourcegitcommit: ea48c86c727dcd9d4b3b970b14a4260337f158f9
+ms.openlocfilehash: e1055f9a4a64c05f55d4a5446f637ba195c0377c
+ms.sourcegitcommit: 7ae0389cf06e2f481ee646556720ab3f3e93ea32
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "38694115"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "38757735"
 ---
 # <a name="password-hash-synchronization-for-your-microsoft-365-test-environment"></a>Microsoft 365 테스트 환경을 위한 암호 해시 동기화
 
 *이 테스트 랩 가이드는 Microsoft 365 Enterprise와 Office 365 Enterprise 테스트 환경 모두에서 사용할 수 있습니다.*
 
-많은 조직에서 Azure AD Connect와 암호 해시 동기화를 사용하여 온 - 프레미스 AD DS (Active Directory 도메인 서비스) 포리스트의 계정 집합을 Office 365 및 EMS E5 구독의 Azure AD 테넌트 계정 집합과 동기화합니다. 이 문서에서는 Microsoft 365 테스트 환경에 암호 해시 동기화를 추가하여 다음과 같은 구성을 수행하는 방법에 대해 설명합니다.
+다수의 조직은 Azure AD Connect와 암호 해시 동기화를 사용하여 온-프레미스 AD DS(Active Directory Domain Services) 포리스트의 계정 집합을 Microsoft 365 또는 Office 365 구독의 Azure AD 테넌트의 계정 집합과 동기화합니다. 이 문서에서는 Microsoft 365 테스트 환경에 암호 해시 동기화를 추가하여 다음과 같은 구성을 수행하는 방법에 대해 설명합니다.
   
 ![암호 해시 동기화 테스트 환경으로 시뮬레이트된 엔터프라이즈](media/password-hash-sync-m365-ent-test-environment/Phase3.png)
   
@@ -47,7 +47,7 @@ ms.locfileid: "38694115"
   
 이 구성은 다음으로 이루어집니다. 
   
-- Office 365 E5 및 EMS E5 평가판 또는 유료 구독
+- Microsoft 365 E5, Office 365 E5 평가판 또는 유료 구독.
 - 인터넷에 연결된 간소화된 조직 인트라넷: Azure 가상 네트워크에 있는 DC1, APP1 및 CLIENT1 가상 머신으로 구성됩니다. DC1은 testlab.\<공용 도메인 이름> AD DS 도메인의 도메인 컨트롤러입니다.
 
 ## <a name="phase-2-create-and-register-the-testlab-domain"></a>2단계: 테스트 랩 도메인 만들기 및 등록
@@ -64,7 +64,7 @@ ms.locfileid: "38694115"
   
 이 구성은 다음으로 이루어집니다.
 
-- Office 365 E5 및 EMS E5 평가판 또는 DNS 도메인 TESTLAB 유료 구독.\<공용 도메인 이름>이 등록된 유료 구독.
+- Microsoft 365 E5, Office 365 E5 평가판 또는 유료 구독(DNS 도메인 Test Lab 포함).\<공용 도메인 이름> 등록됨.
 - 인터넷에 연결된 간소화된 조직 인트라넷: Azure Virtual Network 서브넷에 있는 DC1, APP1 및 CLIENT1 가상 머신으로 구성됩니다.
 
 testlab.\<공용 도메인 이름>에 대해 현재 다음 작업이 어떻게 진행되는지 확인합니다.
@@ -131,8 +131,8 @@ User1에 TESTLAB AD DS 도메인에 대한 도메인 관리자 권한이 있더�
 
 이 구성은 다음으로 이루어집니다. 
   
-- Office 365 E5 및 EMS E5 평가판 또는 DNS 도메인 TESTLAB.\<도메인 이름>이 등록된 유료 구독
-- 인터넷에 연결된 간소화된 조직 인트라넷: Azure Virtual Network 서브넷에 있는 DC1, APP1 및 CLIENT1 가상 머신으로 구성됩니다. Azure AD Connect는 테스트 랩 AD DS 도메인을 Office 365 및 EMS E5 구독의 Azure AD 테넌트와 주기적으로 동기화하기 위해 APP1에서 실행됩니다.
+- Microsoft 365 E5, Office 365 E5 평가판 또는 유료 구독(DNS 도메인 Test Lab 포함).\<도메인 이름> 등록됨.
+- 인터넷에 연결된 간소화된 조직 인트라넷: Azure Virtual Network 서브넷에 있는 DC1, APP1 및 CLIENT1 가상 머신으로 구성됩니다. Azure AD Connect는 Test Lab AD DS 도메인을 Microsoft 365 또는 Office 365 구독의 Azure AD 테넌트와 주기적으로 동기화하기 위해 APP1에서 실행됩니다.
 - TESTLAB AD DS 도메인의 User1 계정이 Azure AD 테넌트와 동기화되었습니다.
 
 ## <a name="next-step"></a>다음 단계
