@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 8eadfbeb1a78edd12129c97dc3144a45c5c409cf
-ms.sourcegitcommit: caa3f681a68daf5e463093a922c3d6f378143d91
+ms.openlocfilehash: b37ff9bf96ff641750acc9ac47ef9c27b566651c
+ms.sourcegitcommit: fb3815ee186b2b3ec790ee32a9d7b1628d623b0b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 11/22/2019
-ms.locfileid: "39191273"
+ms.locfileid: "39202349"
 ---
 # <a name="query-the-data-in-a-review-set"></a>검토 집합에서 데이터 쿼리
 
@@ -51,11 +51,11 @@ ms.locfileid: "39191273"
 
 ### <a name="query-language"></a>쿼리 언어
 
-조건 카드 외에도 키워드 카드에서 KQL 같은 쿼리 언어를 사용 하 여 쿼리를 작성할 수 있습니다. 검토 집합 쿼리 언어에서는 AND, OR, NOT 및 NEAR (n)과 같은 표준 부울 연산자를 지원 합니다. 또한 단일 문자 와일드 카드 (?) 및 여러 문자 와일드 카드 (*)를 지원 합니다.
+조건 카드 외에도 키워드 카드에서 KQL 같은 쿼리 언어를 사용 하 여 쿼리를 작성할 수 있습니다. 검토 집합 쿼리 언어에서는 **AND**, **OR**, **NOT**및 **NEAR**과 같은 표준 부울 연산자를 지원 합니다. 또한 단일 문자 와일드 카드 (?) 및 여러 문자 와일드 카드 (*)를 지원 합니다.
 
 ## <a name="using-filters"></a>필터 사용
 
-검토할 수 있는 쿼리 외에도 검토 집합 필터를 사용 하 여 검토 집합 쿼리에 추가 조건을 빠르게 적용할 수 있습니다. 이를 통해 검토 집합 쿼리로 표시 되는 결과를 보다 구체화 하는 데 도움이 됩니다. 
+검토할 수 있는 쿼리 외에도 검토 집합 필터를 사용 하 여 검토 집합 쿼리에 추가 조건을 빠르게 적용할 수 있습니다. 이를 통해 검토 집합 쿼리로 표시 되는 결과를 보다 구체화 하는 데 도움이 됩니다.
 
 ![집합 필터 검토](media/AeDReviewSetFilters.png)
 

@@ -12,12 +12,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 준수 관리자는 Microsoft Service Trust Portal의 무료 워크플로 기반 위험 평가 도구입니다. 준수 관리자를 사용 하면 Microsoft 클라우드 서비스와 관련 된 규정 준수 활동을 추적, 할당 및 확인할 수 있습니다.
-ms.openlocfilehash: b1d67a71d8440923552e4702f7035bd24b166fec
-ms.sourcegitcommit: 6a413a65b8c2e10cea08f0a15635b28a1362a582
+ms.openlocfilehash: c50122f390809e145af621ed6341d02ae9c3b8cf
+ms.sourcegitcommit: fb3815ee186b2b3ec790ee32a9d7b1628d623b0b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/19/2019
-ms.locfileid: "38718687"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "39202359"
 ---
 # <a name="work-with-microsoft-compliance-manager-preview"></a>Microsoft 준수 관리자 사용 (미리 보기)
 
@@ -149,7 +149,7 @@ Service Trust Portal에서 준수 관리자에 액세스할 수 있습니다. Mi
 
 고객 작업 영역에는 준수 관리자 (미리 보기)의 모든 템플릿 및 평가에 대 한 모든 고객 작업이 표시 됩니다.
 
-![준수 관리자-사용자 추가](media/compliance-manager-customer-actions.png)
+![준수 관리자-사용자 추가](media/compliance-manager-customer-actions.png "준수 관리자 고객 작업")
 
 작업의 제목, 소유자, 범주, 적용 및 점수를 한눈에 확인 하 고 보안 점수와 통합 되어 있는지 확인할 수 있습니다. 작업을 확장 하 고 **자세히 읽기** 를 선택 하 여 작업의 설명을 읽고 설명에 있는 링크에 액세스할 수 있습니다. 또한이 인터페이스를 사용 하 여 동작 별로 보안 점수 통합을 사용 하거나 사용 하지 않도록 설정 하 고 사용자 지정 작업을 추가할 수 있습니다. 보안 점수 통합 기능을 가진 작업에는 줄임표 (...)가 있습니다 (사용자 지정 작업 옆에는 줄임표 (...))가 있습니다.
 
@@ -158,6 +158,10 @@ Service Trust Portal에서 준수 관리자에 액세스할 수 있습니다. Mi
 1. 수정할 작업의 줄임표 (...)를 선택 하 고 **편집**을 선택 합니다.
 2. 보안 점수를 통한 지속적인 모니터링을 사용 하거나 사용 하지 않도록 설정 하려면 안전한 점수 연속 업데이트에 대 한 스위치를 설정 또는 해제로 전환 합니다.
 3. **저장**을 선택합니다.
+
+조직에서 Microsoft 365 또는 Office 365을 처음 배포할 때는 보안 점수가 약 7 일 정도 소요 되어 데이터를 완벽 하 게 수집 하 고 해당 점수를 파악 합니다. 이 시간 동안에는 보안 점수 연속 업데이트 스위치를 **Off** 로 설정 하 고, 수동으로 작업을 수행 하도록 **설정 하면 점수를 받을 수** 있습니다. 초기 7 일이 지나면 보안 점수 연속 업데이트를 다시 설정 하면 해당 시점부터의 지속적인 모니터링이 가능 합니다.
+
+보안 점수 통합에서 지원 되지 않는 모든 작업은 수동으로 구현할 수 있습니다. 수동 구현은 해당 작업 그룹의 점수를 발생 시키는 기능을 합니다.
 
 #### <a name="add-a-customer-action"></a>고객 작업 추가
 

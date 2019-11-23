@@ -701,6 +701,8 @@
           href: compliance-score-methodology.md
         - name: 준수 점수 릴리스 정보 (미리 보기)
           href: compliance-score-release-notes.md
+        - name: 준수 점수 FAQ (미리 보기)
+          href: compliance-score-faq.md
         - name: 규정 준수 관리자(미리 보기)
           href: compliance-manager-overview.md
           items:

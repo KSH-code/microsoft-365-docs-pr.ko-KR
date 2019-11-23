@@ -14,21 +14,25 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: 사례에서 모든 검토 설정에 적용 되는 고급 eDiscovery 설정을 구성 합니다. 여기에는 분석 및 OCR에 대 한 설정이 포함 됩니다.
-ms.openlocfilehash: f34f10c08be582389346b3aedc899bd9f4906a93
-ms.sourcegitcommit: caa3f681a68daf5e463093a922c3d6f378143d91
+ms.openlocfilehash: 2def41ecc090b54cd3d6b789c2d9890392d1e0d3
+ms.sourcegitcommit: fb3815ee186b2b3ec790ee32a9d7b1628d623b0b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 11/22/2019
-ms.locfileid: "39191143"
+ms.locfileid: "39202199"
 ---
 # <a name="configure-search-and-analytics-settings"></a>검색 및 분석 설정 구성
 
 각 고급 eDiscovery 사례에 대 한 설정을 구성 하 여 다음 기능을 제어할 수 있습니다.
 
 - 유사 중복 및 전자 메일 스레딩
+
 - 테마
+
 - 자동 생성 검토 집합 쿼리
+
 - 텍스트 무시
+
 - 광학 인식
 
 사례에 대 한 검색 및 분석 설정을 구성 하려면:
@@ -69,7 +73,7 @@ ms.locfileid: "39191143"
 
 ![자동 생성 된 검토 쿼리](media/AeDForReviewQuery.png)
 
-이 쿼리는 기본적으로 검토 집합에서 중복 된 항목을 필터링 합니다. 이렇게 하면 검토 집합에서 고유한 항목을 검토할 수 있습니다. 이 쿼리는 사례에서 검토 집합에 대 한 분석을 실행할 때만 만들어집니다. 자세한 내용을 보려면 set queries (검토 집합) [에서 데이터 쿼리](review-set-search.md)를 참고 하십시오.
+이 쿼리는 기본적으로 검토 집합에서 중복 된 항목을 필터링 합니다. 이렇게 하면 검토 집합의 고유한 항목을 검토할 수 있습니다. 이 쿼리는 사례에서 검토 집합에 대 한 분석을 실행 한 경우에만 만들어집니다. 자세한 내용을 보려면 set queries (검토 집합) [에서 데이터 쿼리](review-set-search.md)를 참고 하십시오.
 
 ## <a name="ignore-text"></a>텍스트 무시
 
@@ -77,7 +81,8 @@ ms.locfileid: "39191143"
 
 ## <a name="optical-character-recognition-ocr"></a>OCR (광학 문자 인식)
 
-이 설정을 사용 하도록 설정 하면 검토 집합에 추가 된 이미지 파일에서 OCR이 실행 되므로 이미지 텍스트를 검토, 검색, 태그 지정 및 분석할 수 있습니다. 자세한 내용은 다음을 참조하세요.
+이 설정을 사용 하도록 설정 하면 검토 집합에 추가 된 이미지 파일에서 OCR이 실행 되므로 이미지 텍스트를 검토, 검색, 태그 지정 및 분석할 수 있습니다. 검토 집합에서 선택한 이미지 파일의 텍스트 뷰어에서 추출한 텍스트를 볼 수 있습니다. 자세한 내용은 다음을 참조하세요.
 
 - [검색 결과를 검토 집합에 추가](add-data-to-review-set.md#optical-character-recognition)
+
 - [지원 되는 이미지 파일 형식](supported-filetypes-ediscovery20.md#image)

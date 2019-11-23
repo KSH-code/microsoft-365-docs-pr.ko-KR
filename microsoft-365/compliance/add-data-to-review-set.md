@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: 고급 eDiscovery 사례와 연결 된 검색 결과를 추가 합니다. 항목이 원래 위치에서 복사 되 고 Microsoft에서 제공한 Azure 저장소 위치로 복사 됩니다. 또한 항목은 다시 인덱싱되 고 고급 eDiscovery는 이미지 파일에서 OCR (광학 인식)을 수행 하 고 검토 및 분석을 위해 이미지 텍스트를 업로드 합니다.
-ms.openlocfilehash: 0a1b2a245e3a650d6a35bc1032539e7b7e969dc9
-ms.sourcegitcommit: caa3f681a68daf5e463093a922c3d6f378143d91
+ms.openlocfilehash: 99fe0cce8bd872ecd5f4a94699857c36c3a4d617
+ms.sourcegitcommit: fb3815ee186b2b3ec790ee32a9d7b1628d623b0b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 11/22/2019
-ms.locfileid: "39191183"
+ms.locfileid: "39202329"
 ---
 # <a name="add-search-results-to-a-review-set"></a>검색 결과를 검토 집합에 추가
 
@@ -57,6 +57,6 @@ ms.locfileid: "39191183"
 
 ## <a name="optical-character-recognition"></a>광학 인식
 
-검토 집합에 검색 결과를 추가 하면 고급 eDiscovery의 OCR (광학 인식) 기능은 이미지에서 텍스트를 자동으로 추출 하며, 검토 집합에 추가 되는 데이터와 함께 이미지 텍스트를 포함 합니다. 이렇게 하면 이미지의 텍스트에 대 한 추가 검토 및 분석을 수행할 수 있습니다. OCR은 느슨한 파일, 전자 메일 첨부 파일 및 포함 된 이미지에 대해 지원 됩니다. OCR에 대해 지원 되는 이미지 파일 형식 목록은 [Advanced eDiscovery에서 지원 되는 파일 형식을](supported-filetypes-ediscovery20.md#image)참조 하세요.
+검토 집합에 검색 결과를 추가 하면 고급 eDiscovery의 OCR (광학 인식) 기능은 이미지에서 텍스트를 자동으로 추출 하며, 검토 집합에 추가 되는 데이터와 함께 이미지 텍스트를 포함 합니다. 검토 집합에서 선택한 이미지 파일의 텍스트 뷰어에서 추출한 텍스트를 볼 수 있습니다. 이렇게 하면 이미지의 텍스트에 대 한 추가 검토 및 분석을 수행할 수 있습니다. OCR은 느슨한 파일, 전자 메일 첨부 파일 및 포함 된 이미지에 대해 지원 됩니다. OCR에 대해 지원 되는 이미지 파일 형식 목록은 [Advanced eDiscovery에서 지원 되는 파일 형식을](supported-filetypes-ediscovery20.md#image)참조 하세요.
 
 고급 eDiscovery에서 만드는 각 사례에 대해 OCR 기능을 사용 하도록 설정 해야 합니다. 자세한 내용은 [Configure search and analytics settings](configure-search-and-analytics-settings-in-advanced-ediscovery.md#optical-character-recognition-ocr)을 참조 하십시오.

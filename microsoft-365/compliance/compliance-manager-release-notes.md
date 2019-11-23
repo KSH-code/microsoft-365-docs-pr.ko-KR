@@ -12,12 +12,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 준수 관리자는 Microsoft Service Trust Portal의 무료 워크플로 기반 위험 평가 도구입니다. 준수 관리자를 사용 하면 Microsoft 클라우드 서비스와 관련 된 규정 준수 활동을 추적, 할당 및 확인할 수 있습니다.
-ms.openlocfilehash: 1a490212b2275b9f297e2585e7242f5331d0fe56
-ms.sourcegitcommit: 5c6c30ec5541d2fb77e53a1309db1fe7b75fc3e2
+ms.openlocfilehash: 1f233a6bc19f4a7afa495f49ad77e39e496c1dc5
+ms.sourcegitcommit: fb3815ee186b2b3ec790ee32a9d7b1628d623b0b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/02/2019
-ms.locfileid: "38687013"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "39202169"
 ---
 # <a name="release-notes-for-compliance-manager-preview"></a>준수 관리자를 위한 릴리스 정보 (미리 보기)
 
@@ -51,8 +51,10 @@ ms.locfileid: "38687013"
 - 특정 Microsoft 365 및 Office 365 구독의 일부 작업 항목에는 보안 점수 결과를 사용할 수 없습니다. 이러한 경우에는 보안 점수 결과를 **검색할** 수 없습니다.
 - 경우에 따라 해당 정책에 대 한 보안 점수 결과가 반환 되 고 작업 항목이 완료 되지 않을 수 있습니다.
 - 새 테 넌 트의 경우 모든 작업에 대 한 보안 점수 업데이트가 자동으로 켜 집니다. 전역 관리자는 보안 점수 연속 업데이트 스위치를 off로 설정 하 여 모든 작업에 대 한 업데이트를 해제할 수 있습니다.
+  - **참고**: 조직에서 Microsoft 365 또는 Office 365를 처음 배포 하는 경우 보안 점수가 약 7 일인 경우에만 데이터를 완벽 하 게 수집 하 고 해당 점수를 요소에 활용할 수 있습니다. 이 시간 동안에는 보안 점수 연속 업데이트 스위치를 **Off** 로 설정 하 고, 수동으로 작업을 수행 하도록 **설정 하면 점수를 받을 수** 있습니다. 초기 7 일이 지나면 보안 점수 연속 업데이트를 다시 설정 하면 해당 시점부터의 지속적인 모니터링이 가능 합니다.
 - 보안 점수 업데이트가 설정 되 면 작업의 테스트 날짜가 모니터링을 반영 하도록 업데이트 되지 않지만 작업은 보안 점수에 의해 적극적으로 모니터링 됩니다.
 - 새 평가를 만들 때 점수에는 Microsoft가 관리 하는 제어 점수와 보안 점수 통합이 자동으로 포함 됩니다.
+- 보안 점수 통합에서 지원 되지 않는 모든 작업은 수동으로 구현할 수 있습니다. 수동 구현은 해당 작업 그룹의 점수를 발생 시키는 기능을 합니다.
 
 ### <a name="microsoft-managed-controls"></a>Microsoft 관리 컨트롤
 
