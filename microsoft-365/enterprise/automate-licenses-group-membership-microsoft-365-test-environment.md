@@ -3,7 +3,7 @@ title: Microsoft 365 Enterprise 테스트 환경에 대 한 라이선싱 및 그
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 08/21/2018
+ms.date: 11/21/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,12 +13,12 @@ ms.custom:
 - TLG
 - Ent_TLGs
 description: Microsoft 365 Enterprise 테스트 환경에서 그룹 기반 라이선싱 및 동적 그룹 구성원을 구성 합니다.
-ms.openlocfilehash: fe6380d94919556904a1fb1ac0624fac3496fe30
-ms.sourcegitcommit: 9ee873c6a2f738a0c99921e036894b646742e706
+ms.openlocfilehash: b1f3bc4a44e66d162360e82295c8f2877131cd07
+ms.sourcegitcommit: fb3815ee186b2b3ec790ee32a9d7b1628d623b0b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38673254"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "39202479"
 ---
 # <a name="automate-licensing-and-group-membership-for-your-microsoft-365-enterprise-test-environment"></a>Microsoft 365 Enterprise 테스트 환경에 대 한 라이선싱 및 그룹 구성원을 자동화 합니다.
 
@@ -63,10 +63,10 @@ Microsoft 365 Enterprise 테스트 환경에서 자동 라이선싱 및 동적 �
 12. **쿼리 추가**를 클릭한 다음, **만들기**를 클릭합니다.
 13. **그룹** 및 그룹 **(모든 그룹 날개)** 을 닫습니다.
 
-다음으로, 구성원에 게 Office 365 E5 및 Enterprise Mobility + Security E5 라이선스가 자동으로 할당 되도록 Sales 그룹을 구성 합니다.
+다음으로, 구성원에 게 Microsoft 365 E5 라이선스가 자동으로 할당 되도록 Sales 그룹을 구성 합니다.
 
 1. Azure Active Directory의 **개요** 블레이드에서 **모든 제품 > 라이선스**를 클릭 합니다.
-2. 목록에서 **Enterprise Mobility + Security E5** 및 **Office 365 Enterprise E5**를 선택하고 **할당**을 클릭합니다.
+2. 목록에서 **Micrsooft 365 E5**를 선택 하 고 **할당**을 클릭 합니다.
 3. **라이선스 할당** 블레이드에서 **사용자 및 그룹**을 클릭 합니다.
 4. 그룹 목록에서 **Sales** 그룹을 선택 합니다.
 5. **선택**을 클릭하고 **할당**을 클릭합니다.
@@ -78,7 +78,7 @@ Microsoft 365 Enterprise 테스트 환경에서 자동 라이선싱 및 동적 �
 2. **Microsoft 365 관리 센터** 탭에서 **활성 사용자**를 클릭 합니다.
 3. **활성 사용자** 페이지에서 **사용자 4** 계정을 클릭 합니다.
 4. **사용자 4** 창에서 **제품 라이선스**에 대 한 **편집** 을 클릭 합니다.
-5. **제품 라이선스** 창에서 **Enterprise Mobility + Security E5** 및 **Office 365 enterprise E5** 라이선스를 해제 한 다음 **저장 > 닫기를**클릭 합니다.
+5. **제품 라이선스** 창에서 **Microsoft 365 E5** 라이선스를 사용 하지 않도록 설정 하 고 **닫기 > 저장**을 클릭 합니다.
 6. 사용자 4 계정의 속성에서 제품 라이선스가 할당 되어 있지 않으며 그룹 구성원 자격이 없음을 확인 합니다.
 7. **연락처 정보**에 대해 **편집** 을 클릭 합니다.
 8. **연락처 정보 편집** 창에서 **연락처 정보**를 클릭 합니다.
@@ -88,7 +88,7 @@ Microsoft 365 Enterprise 테스트 환경에서 자동 라이선싱 및 동적 �
 다음을 확인할 수 있습니다.
 
 - **Sales** 그룹으로 업데이트 된 **그룹 멤버 자격** 속성
-- **Enterprise Mobility + Security e5** 및 **Office 365 Enterprise E5** 라이선스로 업데이트 된 **제품 라이선스** 속성
+- **Microsoft 365 E5** 라이선스로 **제품 라이선스** 속성을 업데이트 했습니다.
 
 프로덕션 환경에서 동적 그룹 구성원 자격 및 자동 라이선싱을 배포 하는 방법에 대 한 자세한 내용과 링크는 Identity 단계에서 다음 단계를 참조 하세요.
 

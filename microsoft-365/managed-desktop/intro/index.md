@@ -5,12 +5,12 @@ keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 설명서
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
-ms.openlocfilehash: a0f48fefcbb77f5972b91f7fbfbd9dffa6ad7f32
-ms.sourcegitcommit: caa3f681a68daf5e463093a922c3d6f378143d91
+ms.openlocfilehash: 7c2cb707f606d6f3f622a72a9fea9fb437626b2b
+ms.sourcegitcommit: 2de2faea7da80712f448e35c2d6c425944013b7e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/22/2019
-ms.locfileid: "39191210"
+ms.lasthandoff: 11/23/2019
+ms.locfileid: "39204237"
 ---
 # <a name="what-is-microsoft-managed-desktop"></a>Microsoft Managed Desktop이란 무엇인가요?
 
@@ -35,14 +35,14 @@ Microsoft Managed Desktop은 오늘날 직면 한 몇 가지 문제와 해당 �
 
 물론 자신만의 장치 및 Microsoft 365 배포를 중지 하는 것을 중지할 것이 없습니다. 그렇다면 Microsoft Managed Desktop이 그 이상 혜택을 제공 하는 것은 무엇 인가요?
 
-최종 사용자의 경우:
+이 정책 및 보안 기준은 최종 사용자에 게 다음과 같은 이점을 제공 합니다.
 
 - Microsoft 관리 되는 데스크톱 장치에 대 한 부팅 시간이 1 분에 해당 하는 시간입니다.
 - 배터리 수명 최소 두 번
 - 연간 한 번에 여러 장치 작동이 중단 되는 경우
 - [엔터프라이즈 상태 로밍을](https://docs.microsoft.com/azure/active-directory/devices/enterprise-state-roaming-overview)통한 장치 이동성을 통해 사용자가 로그인 하는 장치에 관계 없이 동일한 환경을 경험할 수 있습니다.
 
-IT 관리자는 다음을 수행 합니다.
+IT 관리자는 다음과 같은 기능을 활용 합니다.
 
 - 통찰력 대시보드는 장치 및 사용자의 사용 현황, 안정성, 장치 상태 및 기타 데이터에 대 한 최신 정보를 지속적으로 유지 합니다.
 - 약 *1/10 분* 분량의 장치를 업데이트 하는 데 필요한 시간 (95%)
@@ -65,7 +65,7 @@ Microsoft Managed Desktop은 등록 된 장치 및 사용 하는 Microsoft 소�
 
 
 ## <a name="need-more-details"></a>자세한 정보가 필요 하세요?
-고객 스토리를 포함 하 여 Microsoft Managed desktop의 값에 대 한 자세한 내용은 [Microsoft Managed desktop](https://aka.ms/mmd)를 참조 하십시오. 더 많은 기능을 시작할 수 있는 좋은 위치는 [로드맵](https://aka.ms/AA6jiam) 및 다운로드 가능한 [1 페이지 요약](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/intro/downloads/microsoft-managed-desktop-data-sheet-v20191114.pdf)입니다. Microsoft Managed Desktop [블로그에서](https://techcommunity.microsoft.com/t5/Microsoft-Managed-Desktop/bg-p/MicrosoftManagedDesktop)최신 뉴스를 찾을 수 있습니다.
+고객 스토리를 포함 하 여 Microsoft Managed desktop의 값에 대 한 자세한 내용은 [Microsoft Managed desktop](https://aka.ms/mmd)를 참조 하십시오. 더 많은 기능을 시작할 수 있는 좋은 위치는 [로드맵](https://aka.ms/AA6jiam) 및 다운로드 가능한 [1 페이지 요약](https://aka.ms/AA6ob3h)입니다. Microsoft Managed Desktop [블로그에서](https://aka.ms/AA6l2dd)최신 뉴스를 찾을 수 있습니다.
 
 Microsoft Managed Desktop이 조직에 적합 한 것 처럼 보이는 경우 서비스에 대해 자세히 설명 하는 추가 설명서를 확인 하 고, 조직에서 등록을 준비 하는 방법, 서비스를 시작 하는 방법 및 이후 진행 중인 작업을 확인할 수 있습니다. 필요한 경우 사용자와 최종 사용자가 쉽게 도움을 얻을 수 있는 방법을 포함 합니다. 이미 보드에 온 경우에는 [로컬 계정 팀](https://pages.email.office.com/contactmmd/)에 문의 하 여 시작 합니다.
 
@@ -87,9 +87,14 @@ Microsoft Managed Desktop이 조직에 적합 한 것 처럼 보이는 경우 �
 
 **시작 하기** 등록할 준비가 되 면이 섹션에는 실제로 서비스에 참여 하 고, 장치를 확보 및 설정 하 고, 최종 사용자를 준비 하 고, 앱을 배포 하기 위해 수행 해야 하는 단계가 포함 됩니다.
 
-- [Microsoft Managed Desktop Administration 포털에서 관리자 연락처 추가](../get-started/add-admin-contacts.md)
+- [관리 포털에서 관리자 연락처 추가 및 확인](../get-started/add-admin-contacts.md)
+- [조건부 액세스 조정](../get-started/conditional-access.md)
+- [라이선스 할당](../get-started/assign-licenses.md)
+- [장치에 Intune 회사 포털 설치](../get-started/company-portal.md)
+- [엔터프라이즈 상태 로밍 사용](../get-started/enterprise-state-roaming.md)
 - [Microsoft Managed Desktop 장치 설정](../get-started/set-up-devices.md)
-- [Microsoft Managed Desktop 장치에 앱 배포](../get-started/deploy-apps.md)
+- [사용자들이 장치를 사용할 수 있도록 준비시키기](../get-started/get-started-devices.md)
+- [장치에 앱 배포](../get-started/deploy-apps.md)
 
 **Microsoft Managed Desktop 작업** 이 섹션에는 IT 관리자가 필요한 경우 지원 되는 방법, 최종 사용자가 지 원하는 방식, 앱이 배포 된 후 관리 하는 방법, 장치에서 사용자 지정 가능한 설정으로 작업 하는 방법 등 서비스의 일상 수명에 대 한 정보가 포함 되어 있습니다.
 

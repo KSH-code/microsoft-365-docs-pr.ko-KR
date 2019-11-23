@@ -14,12 +14,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: d1795031-beef-49ea-a6fc-5da5450d320d
 description: '요약: Office 365 개발/테스트 환경에서 조직의 나머지 부분과 격리 된 SharePoint Online 팀 사이트를 구성 합니다.'
-ms.openlocfilehash: 0f91bcce140fd1ad00c51b27e8b1e134e5f2a283
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 8f49e449d7053642bd1c926765156f495bc36801
+ms.sourcegitcommit: fb3815ee186b2b3ec790ee32a9d7b1628d623b0b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38032343"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "39202209"
 ---
 # <a name="isolated-sharepoint-online-team-site-devtest-environment"></a>격리된 SharePoint Online 팀 사이트 개발/테스트 환경
 
@@ -83,9 +83,6 @@ $groupDesc="People allowed to view the SharePoint resources for ProjectX."
 New-MsolGroup -DisplayName $groupName -Description $groupDesc
 ```
 
-> [!TIP]
-> 이 문서의 PowerShell 명령을 모두 포함 하는 텍스트 파일을 보려면 [여기](https://gallery.technet.microsoft.com/PowerShell-commands-for-an-b2608df1) 를 클릭 하십시오.
-  
 조직 이름(예: contosotoycompany), 위치에 대한 2자리 국가 코드를 입력한 후 Windows PowerShell 프롬프트에 대한 Microsoft Azure Active Directory 모듈에서 다음 명령을 실행합니다.
   
 ```

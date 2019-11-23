@@ -10,12 +10,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: faf1efd1-3b0c-411a-804d-17f37292eac0
 description: 일반적인 구성 오류를 방지하고 구성 설정에 성공하려면 Exchange Online Protection EOP 모범 사례 권장 사항을 따르세요.
-ms.openlocfilehash: 2a6a05093dc27b3e6c681a6f66474c3499d65cfd
-ms.sourcegitcommit: cbf117a4cd92a907115c9f10752f3c557361e586
+ms.openlocfilehash: 95b415038fdddd1548b23edb89921084d70850c6
+ms.sourcegitcommit: 2de2faea7da80712f448e35c2d6c425944013b7e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "37440555"
+ms.lasthandoff: 11/23/2019
+ms.locfileid: "39204247"
 ---
 # <a name="best-practices-for-configuring-eop"></a>EOP 구성을 위한 모범 사례
 
@@ -31,16 +31,16 @@ ms.locfileid: "37440555"
 
 ## <a name="spf-record-customization-to-help-prevent-spoofing"></a>스푸핑을 방지하기 위한 SPF 레코드 사용자 지정
 
-EOP를 설정할 때 EOP용 SPF(보낸 사람 정책 프레임워크) 레코드를 DNS 레코드에 추가했을 것입니다. SPF 레코드는 스푸핑을 방지하는 데 도움이 됩니다. SPF 레코드에서 스푸핑을 방지 하는 방법과 온-프레미스 IP 주소를 SPF 레코드에 추가 하는 방법에 대 한 자세한 내용은 [스푸핑 방지를 위해 Office 365에서 spf를 설정](set-up-spf-in-office-365-to-help-prevent-spoofing.md)합니다 .를 참조 하세요.
+EOP를 설정할 때 EOP 용 SPF (보낸 사람 정책 프레임 워크) 레코드를 DNS 레코드에 추가 했습니다. SPF 레코드는 스푸핑을 방지하는 데 도움이 됩니다. SPF 레코드에서 스푸핑을 방지 하는 방법과 온-프레미스 IP 주소를 SPF 레코드에 추가 하는 방법에 대 한 자세한 내용은 [스푸핑 방지를 위해 Office 365에서 spf를 설정](set-up-spf-in-office-365-to-help-prevent-spoofing.md)합니다 .를 참조 하세요.
 
 ## <a name="set-anti-spam-options"></a>스팸 방지 옵션 설정
 
-IP 허용 및 IP 차단 목록에 IP 주소를 추가하고 **수신 허용 목록 사용** 옵션을 선택하여 연결 필터 설정을 관리하면 수신되는 가양성(스팸으로 분류된 정상 메일) 수가 줄어듭니다. 자세한 내용은 [Configure the connection filter policy](configure-the-connection-filter-policy.md)을 참고 하십시오. 전체 조직에 적용 되는 추가 스팸 설정에 대 한 자세한 내용은 [office 365에서 실제 전자 메일이 스팸으로 표시 되지 않도록](../../compliance/prevent-email-from-being-marked-as-spam.md) 하는 방법 또는 [office 365의 스팸 메일을 줄이는](reduce-spam-email.md)방법에 대 한 내용을 확인 하세요. 이러한 항목은 관리자 수준 컨트롤이 있고 가양성 이나 거짓 네거티브를 방지 하려는 경우에 유용 합니다.
+Ip 주소를 IP 허용 및 IP 차단 목록에 추가 하 여 연결 필터 설정을 관리 하 고, 수신 하는 가양성 **목록 사용** 옵션 (스팸으로 잘못 분류 되는 가짜 메시지)의 수를 줄여야 합니다. 자세한 내용은 [Configure the connection filter policy](configure-the-connection-filter-policy.md)을 참고 하십시오. 전체 조직에 적용 되는 추가 스팸 설정에 대 한 자세한 내용은 [office 365에서 실제 전자 메일이 스팸으로 표시 되지 않도록](../../compliance/prevent-email-from-being-marked-as-spam.md) 하는 방법 또는 [office 365의 스팸 메일을 줄이는](reduce-spam-email.md)방법에 대 한 내용을 확인 하세요. 이러한 항목은 관리자 수준 컨트롤이 있고 가양성 이나 거짓 네거티브를 방지 하려는 경우에 유용 합니다.
 
-기본 설정을 검토 하 고 필요에 따라 변경 하 여 콘텐츠 필터를 관리 합니다. 예를 들어, 스팸 검색 메시지에 미치는 작업을 변경할 수 있습니다. 스팸 필터링에 대 한 적극적인 접근 방법을 사용 하려면 고급 스팸 필터링 옵션을 구성 하면 됩니다. 프로덕션 환경에서 이러한 옵션을 구현 하기 전에 먼저 테스트를 수행 하는 것이 좋으며, 이렇게 설정 하는 것이 피싱에 관심이 있는 조직이 **SPF 레코드: hard fail** 옵션을 사용 하는 것이 좋습니다. 자세한 내용은 [스팸 필터 정책 구성](configure-your-spam-filter-policies.md) 및 [고급 스팸 필터링 옵션](advanced-spam-filtering-asf-options.md)을 참고 하세요.
+기본 설정을 검토 하 고 필요에 따라 변경 하 여 콘텐츠 필터를 관리 합니다. 예를 들어, 스팸 검색 메시지에 미치는 작업을 변경할 수 있습니다. 스팸 필터링에 대 한 적극적인 접근 방법을 사용 하려면 고급 스팸 필터링 옵션을 구성 하면 됩니다. 이러한 옵션은 프로덕션 환경에서 구현 하기 전에 먼저 테스트 하는 것이 좋습니다 (설정). 피싱에 관심이 있는 조직은 **SPF 레코드: 하드 실패** 옵션을 설정 하는 것이 좋습니다. 자세한 내용은 [스팸 필터 정책 구성](configure-your-spam-filter-policies.md) 및 [고급 스팸 필터링 옵션](advanced-spam-filtering-asf-options.md)을 참고 하세요.
 
 > [!IMPORTANT]
-> 기본 콘텐츠 필터 동작을 사용 하는 경우이 작업이 온-프레미스 사서함과 함께 작동 하도록 하려면 **메시지를 정크 메일 폴더로 이동**하 고 온-프레미스 Exchange에서 메일 흐름 규칙 (전송 규칙이 라고도 함)을 구성 해야 합니다. EOP에서 추가한 스팸 헤더를 검색 하기 위한 서버 자세한 내용은 [스팸이 각 사용자의 정크 메일 폴더로 라우팅되는지 확인](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md)을 참조하십시오.
+> 기본 콘텐츠 필터 동작을 사용 하는 경우 **메시지를 정크 메일 폴더로 이동**하 여 온-프레미스 사서함에서 작업을 사용할 수 있도록 온-프레미스 Exchange 조직에서 메일 흐름 규칙 (전송 규칙이 라고도 함)을 구성 하 여 EOP에서 추가 된 스팸 헤더를 검색 해야 합니다. 자세한 내용은 [스팸이 각 사용자의 정크 메일 폴더로 라우팅되는지 확인](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md)을 참조하십시오.
 
 아웃 바운드 메일이 배달 되도록 하는 데 도움이 되는 아웃 바운드 메일 모범 사례를 포함 하 여 [스팸 방지 보호 관련 FAQ](anti-spam-protection-faq.md)를 검토 하는 것이 좋습니다.
 
@@ -48,15 +48,15 @@ IP 허용 및 IP 차단 목록에 IP 주소를 추가하고 **수신 허용 목�
 
 ## <a name="set-anti-malware-options"></a>맬웨어 방지 옵션 설정
 
-EAC(Exchange 관리 센터)에서 맬웨어 필터 설정을 검토하고 세부 조정합니다. 자세한 내용은 [맬웨어 방지 정책 구성](configure-anti-malware-policies.md)를 참고 하십시오. 또한 [Anti-malware protection FAQ](anti-malware-protection-faq-eop.md)에서 기타 맬웨어 보호 기능에 대한 질문과 대답을 읽어보는 것이 좋습니다.
+맬웨어 필터 설정을 검토 하 고 세부적으로 조정 합니다. 자세한 내용은 [맬웨어 방지 정책 구성](configure-anti-malware-policies.md)를 참고 하십시오. 또한 [Anti-malware protection FAQ](anti-malware-protection-faq-eop.md)에서 기타 맬웨어 보호 기능에 대한 질문과 대답을 읽어보는 것이 좋습니다.
 
-맬웨어가 포함된 실행 파일이 우려되는 경우 실행 파일이 있는 모든 전자 메일 첨부 파일을 차단하는 Exchange 메일 흐름 규칙을 만들 수 있습니다. Exchange online Protection에서 [첨부 파일 차단을](https://support.microsoft.com/kb/2959596) 사용 하 여 exchange online의 [메시지 첨부 파일을 검사 하](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/inspect-message-attachments#supported-file-types-for-mail-flow-rule-content-inspection)는 방법에 나열 되지 않도록 차단 하기 위해이 문서의 단계를 수행 합니다.
+맬웨어를 포함 하는 실행 파일이 염려 되는 경우 실행 가능한 콘텐츠가 포함 된 모든 전자 메일 첨부 파일을 차단 하는 메일 흐름 규칙을 만들 수 있습니다. Exchange online Protection에서 [첨부 파일 차단을](https://support.microsoft.com/kb/2959596) 사용 하 여 exchange online의 [메시지 첨부 파일을 검사 하](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/inspect-message-attachments#supported-file-types-for-mail-flow-rule-content-inspection)는 방법에 나열 되지 않도록 차단 하기 위해이 문서의 단계를 수행 합니다.
 
-EAC의 일반 첨부 파일 유형 필터를 사용할 수 있습니다. **보호** \> **맬웨어 필터**를 선택 합니다. 실행 가능한 콘텐츠가 포함 된 모든 전자 메일 첨부 파일을 차단 하는 메일 흐름 규칙을 만들 수 있습니다.
+맬웨어 방지 정책에서 [일반 첨부 파일 유형 필터](protect-against-threats.md#part-1---anti-malware-protection) 를 사용할 수 있습니다.
 
-또한 보호 수준을 높이려면 메일 흐름 규칙을 사용하여 ade, adp, ani, bas, bat, chm, cmd, com, cpl, crt, hlp, ht, hta, inf, ins, isp, job, js, jse, lnk, mda, mdb, mde, mdz, msc, msi, msp, mst, pcd, reg, scr, sct, shs, url, vb, vbe, vbs, wsc, wsf, wsh 확장명을 일부 또는 전부를 차단하는 것이 좋습니다. **모든 첨부 파일 확장명에 다음 단어 포함** 조건을 사용하면 됩니다.
+또한 보호 수준을 높이려면 메일 흐름 규칙을 사용하여 ade, adp, ani, bas, bat, chm, cmd, com, cpl, crt, hlp, ht, hta, inf, ins, isp, job, js, jse, lnk, mda, mdb, mde, mdz, msc, msi, msp, mst, pcd, reg, scr, sct, shs, url, vb, vbe, vbs, wsc, wsf, wsh 확장명을 일부 또는 전부를 차단하는 것이 좋습니다. **모든 첨부 파일 확장명에 다음 단어 조건을 포함** 하 여이 작업을 수행할 수 있습니다.
 
-관리자와 최종 사용자는 분석을 위해 Microsoft로 보내 필터를 통과하게 만든 맬웨어를 제출하거나 맬웨어로 잘못 식별된 파일을 제출하여 Microsoft로 보내 분석하도록 할 수 있습니다. 자세한 내용은 [Submitting malware and non-malware to Microsoft for analysis](submitting-malware-and-non-malware-to-microsoft-for-analysis.md)을 참조하세요.
+관리자 및 최종 사용자는 필터를 통해 만든 맬웨어를 제출 하거나, 분석을 위해 Microsoft에 보내 잘못 식별 된 파일을 전송 합니다. 자세한 내용은 [Submitting malware and non-malware to Microsoft for analysis](submitting-malware-and-non-malware-to-microsoft-for-analysis.md)을 참조하세요.
 
 ## <a name="create-mail-flow-rules"></a>메일 흐름 규칙 만들기
 
@@ -66,9 +66,9 @@ EAC의 일반 첨부 파일 유형 필터를 사용할 수 있습니다. **보�
 
 새 규칙을 배포할 때는 적용된 규칙을 모니터링하기 위해 **문제 보고서 생성** 동작을 추가할 수 있습니다.
 
-조직의 일부는 온-프레미스에 있고 나머지는 Office 365에 있는 하이브리드 배포 구성에서는 전체 조직에 적용되는 규칙을 만들 수 있습니다. 이렇게 하려면 온-프레미스와 Office 365에서 모두 사용 가능한 조건을 사용합니다. 대부분의 조건은 두 배포에서 모두 사용할 수 있지만, 일부 항목은 특정 배포 시나리오에서만 사용 가능합니다. 자세한 내용은 [메일 흐름 규칙 (전송 규칙)에서 Exchange Online을](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/mail-flow-rules)확인 하세요.
+조직에 온-프레미스 Exchange 및 Office 365이 모두 포함 된 하이브리드 환경에서는 메일 흐름 규칙에서 사용 하는 조건을 고려해 야 합니다. 규칙을 전체 조직에 적용 하려면 온-프레미스 Exchange와 Office 365에서 모두 사용할 수 있는 조건을 사용 해야 합니다. 대부분의 조건은 두 환경 모두에서 사용할 수 있지만, 한 환경 에서만 사용할 수 있는 경우도 있습니다. 자세한 내용은 [메일 흐름 규칙 (전송 규칙)에서 Exchange Online을](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/mail-flow-rules)확인 하세요.
 
-조직 내에서 전송되는 메시지의 전자 메일 첨부 파일을 조사하려는 경우 메일 흐름 규칙을 설정하면 됩니다. 그런 후 해당 첨부 파일의 내용이나 특성에 따라 조사한 메시지에 대해 작업을 수행할 수 있습니다. 자세한 내용은 [메일 흐름 규칙을 사용 하 여 Exchange Online의 메시지 첨부 파일 검사를](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/inspect-message-attachments)참고 하십시오.
+메일 흐름 규칙을 사용 하 여 조직 내에서 메시지가 전송 되는 메시지의 첨부 파일을 검사할 수 있습니다. 첨부 파일을 찾을 규칙 조건을 구성한 다음 검색 된 첨부 파일에 대해 작업을 수행 합니다. 자세한 내용은 [메일 흐름 규칙을 사용 하 여 Exchange Online의 메시지 첨부 파일 검사를](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/inspect-message-attachments)참고 하십시오.
 
 ### <a name="phishing-and-spoofing-prevention"></a>피싱 및 스푸핑 방지
 
@@ -86,12 +86,6 @@ EAC의 일반 첨부 파일 유형 필터를 사용할 수 있습니다. **보�
 
 > [!CAUTION]
 > 도메인의 적법한 전자 메일을 인터넷에서 메일 서버로 보내는 경우가 전혀 없는 경우에만 이 거부 규칙을 만드는 것이 좋습니다. 이는 조직의 사용자가 외부 받는 사람에게 보낸 메시지가 조직 내의 다른 받는 사람에게 전달되는 경우에는 발생할 수 있습니다.
-
-### <a name="extension-blocking"></a>확장명 차단
-
-맬웨어가 포함된 실행 파일이 우려되는 경우 실행 파일이 있는 모든 전자 메일 첨부 파일을 차단하도록 맬웨어 방지 정책을 구성할 수 있습니다. [맬웨어 방지 정책 구성](configure-anti-malware-policies.md)의 단계를 따릅니다.
-
-보호 수준을 높이려면 ade, adp, ani, bas, bat, chm, cmd, com, cpl, crt, hlp, ht, hta, inf, ins, isp, job, js, jse, lnk, mda, mdb, mde, mdz, msc, msi, msp, mst, pcd, reg, scr, sct, shs, url, vb, vbe, vbs, wsc, wsf, wsh 확장명도 일부 또는 모두 차단하는 것이 좋습니다.
 
 ## <a name="reporting-and-troubleshooting"></a>보고 및 문제 해결
 

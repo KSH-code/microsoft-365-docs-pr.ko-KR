@@ -7,12 +7,12 @@ author: jaimeo
 ms.localizationpriority: normal
 ms.date: 09/24/2018
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 6eb10fda5df4d21068c9a3194cc4b97ba1afaaf3
-ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
+ms.openlocfilehash: 0288dfd2ee84f406c4bcdf4a604d1370afeefed7
+ms.sourcegitcommit: fb3815ee186b2b3ec790ee32a9d7b1628d623b0b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/14/2019
-ms.locfileid: "36982549"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "39202179"
 ---
 # <a name="microsoft-managed-desktop-roles-and-responsibilities"></a>Microsoft Managed Desktop 역할 및 책임
 
@@ -41,7 +41,7 @@ Microsoft Managed Desktop 서비스 지원 | Microsoft는 Microsoft 관리 데�
 
 역할 또는 책임 | 설명
 --- | ---
-변경 관리 | Microsoft는 Microsoft의 관리 되는 데스크톱 환경을 변경 해야 하는 경우이에 대 한 알림을 고객에 게 미리 알립니다. 고객은 자신의 변경 관리 프로세스를 수행 하 고 Microsoft Managed Desktop Operations team을 사용 하 여 연락처를 설정 해야 합니다. 또한 고객에 게 이러한 변경 내용을 검토 하 고 승인 하는 리소스가 있어야 합니다. 자세한 내용은 [작업 및 모니터링](../service-description/operations-and-monitoring.md)를 참조 하세요.  
+변경 관리 | Microsoft는 Microsoft의 관리 되는 데스크톱 환경을 변경 해야 하는 경우이에 대 한 알림을 고객에 게 미리 알립니다. 자세한 내용은 [서비스 변경 및 통신](../service-description/servicechanges.md) 을 참조 하세요.<br><br>고객은 자신의 변경 관리 프로세스를 수행 하 고 Microsoft Managed Desktop Operations team을 사용 하 여 연락처를 설정 해야 합니다. 또한 고객에 게 이러한 변경 내용을 검토 하 고 승인 하는 리소스가 있어야 합니다. 자세한 내용은 [작업 및 모니터링](../service-description/operations-and-monitoring.md)를 참조 하세요.  
 Id 관리 | 고객은 사용자 계정을 만들고 그룹에 사용자를 할당 하 고 메타 데이터를 최신 상태로 유지 하는 일을 담당 합니다. 
 Office 365 ProPlus 구성 및 관리 | Microsoft는 최종 사용자에 게 Office 응용 프로그램을 배포 하 고 해당 응용 프로그램을 최신 상태로 유지 하 고 있는지를 담당 합니다. <br><br> 고객은 Exchange Online 관리 책임을 포함 하 여 Office 365 서비스 및 정책 관리를 담당 합니다.<br>-전자 메일 관리<br>-사서함 및 규칙 구성<br>-Exchange 온-프레미스 관리<br><br>또한 고객은 Office 365 관리 포털에 설정 된 공동 작업 도구, SharePoint server 관리, 도메인 관리, 보안 및 정보 정책을 담당 합니다. 
 최종 사용자 지원 | 고객은 다음에 대 한 최종 사용자 지원을 제공 해야 합니다. <br>-사이트 인프라: 모든 네트워크 및 인터넷 연결, VPN 인프라 및 클라이언트 구성, 로컬 전화 회의 대화방 장비, 프린터, 프록시 서버 및 구성, 방화벽<br><br>-회사 전체의 클라우드 리소스: 전자 메일, SharePoint, 공동 작업 서비스 및 회사 전체의 기술 공간과 관련 된 기타 클라우드 인프라<br><br>-비즈니스 및 기타 모든 회사 관련 응용 프로그램입니다.

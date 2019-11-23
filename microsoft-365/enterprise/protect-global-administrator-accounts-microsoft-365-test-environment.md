@@ -3,7 +3,7 @@ title: Microsoft 365 Enterprise 테스트 환경에서 전역 관리자 계정 �
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 04/16/2019
+ms.date: 11/21/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,12 +13,12 @@ ms.custom:
 - TLG
 - Ent_TLGs
 description: 다음 단계를 사용 하 여 Microsoft 365 Enterprise 테스트 환경에서 전역 관리자 계정을 보호 합니다.
-ms.openlocfilehash: 89985f99f5471aab87189e78035062add2c6bad9
-ms.sourcegitcommit: 9ee873c6a2f738a0c99921e036894b646742e706
+ms.openlocfilehash: 5447177c6581b69d48272ceef7718552ea84dc9d
+ms.sourcegitcommit: fb3815ee186b2b3ec790ee32a9d7b1628d623b0b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38673334"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "39202229"
 ---
 # <a name="protect-global-administrator-accounts-in-your-microsoft-365-enterprise-test-environment"></a>Microsoft 365 Enterprise 테스트 환경에서 전역 관리자 계정 보호
 
@@ -56,7 +56,7 @@ Microsoft 365 Enterprise 테스트 환경에서는 다음과 같은 두 가지 �
 4. **암호**를 클릭 하 고 **암호 만들기**를 클릭 한 다음 강력한 암호를 입력 합니다. 이 새 계정의 암호를 안전한 위치에 기록 합니다.
 5. **이 사용자가 처음 로그인 할 때 암호를 변경 하도록**합니다 .를 선택 합니다.
 6. **역할**을 클릭 하 고 **전역 관리자**를 클릭 합니다.
-7. **제품 라이선스**를 클릭 하 고 **Enterprise Mobility + Security e5** 및 **Office 365 enterprise E5 라이선스** 를 켭니다.
+7. **제품 라이선스**를 클릭 하 고 **Microsoft 365 E5** 라이선스를 사용 하도록 설정 합니다.
 8. **추가**를 클릭합니다.
 9. **사용자 추가 됨 페이지**에서 **전자 메일로 암호 보내기를**선택 취소 하 고 **닫기를**클릭 합니다.
 

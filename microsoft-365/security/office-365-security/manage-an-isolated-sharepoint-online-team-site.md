@@ -12,12 +12,12 @@ ms.collection: Ent_O365
 ms.custom: Ent_Solutions
 ms.assetid: 79a61003-4905-4ba8-9e8a-16def7add37c
 description: '요약: 이러한 절차를 사용 하 여 격리 된 SharePoint Online 팀 사이트를 관리 합니다.'
-ms.openlocfilehash: e6ed86421ec199ce785e2daff5e9c5447939e69b
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: fd34a8af35b546266cf5d7cf308dbd387207eb1e
+ms.sourcegitcommit: fb3815ee186b2b3ec790ee32a9d7b1628d623b0b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088767"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "39202449"
 ---
 # <a name="manage-an-isolated-sharepoint-online-team-site"></a>격리된 SharePoint Online 팀 사이트 관리
 
@@ -48,9 +48,6 @@ $userUPN="<UPN of the user account>"
 $grpName="<display name of the group>"
 Add-AzureADGroupMember -RefObjectId (Get-AzureADUser | Where { $_.UserPrincipalName -eq $userUPN }).ObjectID -ObjectID (Get-AzureADGroup | Where { $_.DisplayName -eq $grpName }).ObjectID
 ```
-
-> [!TIP]
-> 모든 PowerShell 명령 및 그룹 및 사용자 계정 이름에 따라 PowerShell 명령을 생성 하는 Excel 구성 워크시트가 포함 된 텍스트 파일의 경우 [격리 된 SharePoint Online 팀 사이트 배포 키트](https://gallery.technet.microsoft.com/Isolated-SharePoint-Online-0b364907)를 다운로드 합니다. 
 
 표시 이름이 있는 access 그룹에 사용자 계정을 추가 하려면 다음 PowerShell 명령 블록을 사용 합니다.
 
