@@ -15,46 +15,41 @@ ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: 새 Office 365 메시지 암호화 기능은 Azure Information Protection을 바탕으로 하여 구현되었고, 이 기능을 사용하면 조직 내부나 조직 외부의 사람과 보호된 전자 메일을 사용하여 통신할 수 있습니다. 새 OME 기능은 다른 Office 365 조직, Outlook.com, Gmail 및 기타 전자 메일 서비스와 함께 동작합니다.
-ms.openlocfilehash: 835b1d6f40868684536dbea8f75dab0665950210
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: c772151250d30e62a3f2689df5cd853536af3ede
+ms.sourcegitcommit: 1c962bd0d51dc12419c4e6e393bb734c972b7e38
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088518"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "39218737"
 ---
 # <a name="set-up-new-office-365-message-encryption-capabilities"></a>새로운 Office 365 메시지 암호화 기능 설정
 
 새 Office 365 메시지 암호화(OME) 기능을 사용하면 조직은 모든 장치에 있는 모든 사용자와 보호된 전자 메일을 공유할 수 있습니다. 사용자는 다른 Office 365 조직은 물론, Outlook.com, Gmail 및 기타 전자 메일 서비스를 사용하지만 Office 365 고객이 아닌 사용자와도 보호된 메시지를 주고받을 수 있습니다.
 
-||
-|:-----|
-|이 문서는 Office 365 메시지 암호화에 관한 일련의 문서 중 일부입니다. 이 문서는 관리자 및 IT 전문가를 대상으로 작성되었습니다. 암호화된 메시지의 전송 및 수신에 관한 정보를 찾고 있는 경우에는 [Office 365 메시지 암호화(OME)](ome.md) 문서 목록을 참조하여 필요한 문서를 찾아보세요. |
-||
-
 Office 365 조직에서 새 OME 기능을 사용할 수 있는지 여부는 아래 단계를 실시하여 확인하세요.
 
 ## <a name="verify-that-azure-rights-management-is-active"></a>Azure 권한 관리의 활성화 여부 확인
 
-새 OME 기능은 암호화 및 액세스 제어를 통한 전자 메일 및 문서 보호를 위해 [Azure Information Protection](https://docs.microsoft.com/ko-KR/azure/information-protection/what-is-azure-rms)이 사용하는 기술인 [Azure 권한 관리 서비스(Azure RMS)](https://docs.microsoft.com/ko-KR/azure/information-protection/what-is-information-protection)에 있는 보호 기능을 활용합니다.
+새 OME 기능은 암호화 및 액세스 제어를 통한 전자 메일 및 문서 보호를 위해 [Azure Information Protection](https://docs.microsoft.com/azure/information-protection/what-is-azure-rms)이 사용하는 기술인 [Azure 권한 관리 서비스(Azure RMS)](https://docs.microsoft.com/azure/information-protection/what-is-information-protection)에 있는 보호 기능을 활용합니다.
 
-새 OME 기능을 사용하기 위해서는 조직의 테넌트에서 [Azure 권한 관리](https://docs.microsoft.com/ko-KR/azure/information-protection/what-is-azure-rms)가 활성화되어 있기만 하면 됩니다. 활성화된 경우에는 Office 365가 새 OME 기능을 자동으로 활성화하므로 다른 작업이 필요 없습니다.
+새 OME 기능을 사용하기 위해서는 조직의 테넌트에서 [Azure 권한 관리](https://docs.microsoft.com/azure/information-protection/what-is-azure-rms)가 활성화되어 있기만 하면 됩니다. 활성화된 경우에는 Office 365가 새 OME 기능을 자동으로 활성화하므로 다른 작업이 필요 없습니다.
 
-대부분의 사용 가능한 플랜에서 Azure RMS가 자동으로 활성화되기 때문에, 여기에서도 보통의 경우 다른 추가 작업이 필요없습니다. 자세한 내용은 [Azure 권한 관리 활성화](https://docs.microsoft.com/en-gb/azure/information-protection/activate-service)를 참조하세요.
+대부분의 사용 가능한 플랜에서 Azure RMS가 자동으로 활성화되기 때문에, 여기에서도 보통의 경우 다른 추가 작업이 필요없습니다. 자세한 내용은 [Azure 권한 관리 활성화](https://docs.microsoft.com/azure/information-protection/activate-service)를 참조하세요.
 
 >[!IMPORTANT]
->Exchange Online과 함께 Active Directory Rights Management Service(AD RMS)를 사용하는 경우에 새 OME 기능을 사용하려면, 먼저 [Azure Information Protection 마이그레이션](https://docs.microsoft.com/ko-KR/azure/information-protection/migrate-from-ad-rms-to-azure-rms)을 해야 합니다. OME는 AD RMS와 호환되지 않습니다.  
+>Exchange Online과 함께 Active Directory Rights Management Service(AD RMS)를 사용하는 경우에 새 OME 기능을 사용하려면, 먼저 [Azure Information Protection 마이그레이션](https://docs.microsoft.com/azure/information-protection/migrate-from-ad-rms-to-azure-rms)을 해야 합니다. OME는 AD RMS와 호환되지 않습니다.  
 
 자세한 내용은 다음을 참조하세요.
 
 - 현재의 구독에 Azure Information Protection이 포함되었는지 여부를 확인하려면 [새 OME 기능을 사용하기 위해서는 어떤 구독이 필요한가요?](ome-faq.md#what-subscriptions-do-i-need-to-use-the-new-ome-capabilities)를 참조하세요.
-- 적절한 구독을 구입하기 위해서는 [Azure Information Protection](https://azure.microsoft.com/ko-KR/services/information-protection/)에서 자세한 내용을 참조하세요.  
+- 적절한 구독을 구입하기 위해서는 [Azure Information Protection](https://azure.microsoft.com/services/information-protection/)에서 자세한 내용을 참조하세요.  
 
 ### <a name="manually-activating-azure-rights-management"></a>Azure AD Rights Management 수동 활성화
 
 Azure RMS를 비활성화로 설정한 경우나, 어떤 이유에서 자동으로 활성화되지 못한 경우에는 수동으로 활성화할 수 있습니다.
 
-- **Microsoft 365 관리 센터**: [관리 센터에서 Azure 권한 관리 활성화 방법](https://docs.microsoft.com/ko-KR/azure/information-protection/activate-office365)을 확인하세요.
-- **Azure Portal**: [Azure Portal에서 Azure 권한 관리 활성화 방법](https://docs.microsoft.com/en-gb/azure/information-protection/activate-azure)을 확인하세요.
+- **Microsoft 365 관리 센터**: [관리 센터에서 Azure 권한 관리 활성화 방법](https://docs.microsoft.com/azure/information-protection/activate-office365)을 확인하세요.
+- **Azure Portal**: [Azure Portal에서 Azure 권한 관리 활성화 방법](https://docs.microsoft.com/azure/information-protection/activate-azure)을 확인하세요.
 
 ## <a name="configure-management-of-your-azure-information-protection-tenant-key"></a>Azure Information Protection 테넌트 키 관리 구성
 
@@ -64,9 +59,9 @@ Azure RMS를 비활성화로 설정한 경우나, 어떤 이유에서 자동으�
 
 ## <a name="verify-new-ome-configuration-in-exchange-online-powershell"></a>Exchange Online PowerShell에서 새 OME 구성 확인
 
-[Exchange Online PowerShell](https://docs.microsoft.com/ko-KR/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps)에서 새 OME 기능을 사용할 수 있도록 Office 365 테넌트가 올바르게 구성되었는지 확인할 수 있습니다.
+[Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps)에서 새 OME 기능을 사용할 수 있도록 Office 365 테넌트가 올바르게 구성되었는지 확인할 수 있습니다.
   
-1. Office 365 테넌트에서 전역 관리자 권한을 사용하여 [Exchange Online PowerShell 연결](https://docs.microsoft.com/ko-KR/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell)을 합니다.
+1. Office 365 테넌트에서 전역 관리자 권한을 사용하여 [Exchange Online PowerShell 연결](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell)을 합니다.
 
 2. Get-IRMConfiguration cmdlet을 실행합니다.
 
@@ -104,7 +99,7 @@ Azure RMS를 비활성화로 설정한 경우나, 어떤 이유에서 자동으�
 
    - *Contoso* 자리에 Office 365 조직 이름이 표시됩니다.
 
-   - 기본 템플릿 이름은 위에 표시된 이름과 다를 수 있습니다. 자세한 내용은 [Azure Information Protection의 템플릿 구성 및 관리](https://docs.microsoft.com/ko-KR/azure/information-protection/configure-policy-templates)를 참조하세요.
+   - 기본 템플릿 이름은 위에 표시된 이름과 다를 수 있습니다. 자세한 내용은 [Azure Information Protection의 템플릿 구성 및 관리](https://docs.microsoft.com/azure/information-protection/configure-policy-templates)를 참조하세요.
 
 4. Remove-PSSession cmdle을 실행하여 권한 관리 서비스와의 연결을 해제합니다.
 

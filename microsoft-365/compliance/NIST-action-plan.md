@@ -12,12 +12,12 @@ manager: laurawi
 audience: itpro
 ms.collection:
 - M365-security-compliance
-ms.openlocfilehash: 5c43a0e26dfc052c23cbaf349bd541d996dca558
-ms.sourcegitcommit: 99a79b0ed3126fa17970481fb768414279e839c0
+ms.openlocfilehash: 9a1ca4898696923b7dcbe22879906b25ccebcd13
+ms.sourcegitcommit: 7ae0389cf06e2f481ee646556720ab3f3e93ea32
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "38710096"
+ms.lasthandoff: 11/21/2019
+ms.locfileid: "38757655"
 ---
 # <a name="microsoft-365-nist-800-53-action-plan--top-priorities-for-your-first-30-days-90-days-and-beyond"></a>Microsoft 365 NIST 800-53 작업 계획 - 처음 30일, 90일 및 그 이상 기간에 대한 최고 우선 순위 지정
 
@@ -25,7 +25,7 @@ Microsoft 365는 다수 규정 표준과 함께 제어를 조절하는 클라우
 
 Microsoft는 클라우드 보안 분야에서 업계 선두주자로 인식되고 있습니다. 엔터프라이즈 소프트웨어 구축 및 온라인 서비스 실행에 대한 다년 간의 경험을 토대로, 현재 서비스 및 응용 프로그램을 지속적으로 학습하고 업데이트함으로써 규정 준수에 대한 엄격한 업계 표준을 준수하는 보안 클라우드 생산성 서비스를 제공합니다. Office 365 U.S. Government를 포함하는 Microsoft의 정부 클라우드 서비스는 US FedRAMP(Federal Risk and Authorization Management Program)의 까다로운 요구 사항을 충족하여, 미국 연방 기관이 Microsoft 클라우드의 비용 절감 및 엄격한 보안 혜택을 누리도록 합니다.
 
-이 문서에는 NIST 800-53 요구 사항을 준수하기 위해 작업할 때 따라야 하는 우선 순위가 지정된 작업 계획이 포함되어 있습니다. 이 작업 계획은 규정 준수 전문 업체인 Microsoft 파트너, Protiviti와 협력하여 개발되었습니다. Maithili Dandige(Microsoft) 및 Antonio Maio(Protiviti)가 발표한 [Microsoft 365 준수 경로 및 정보 보호 전략 차트](https://myignite.techcommunity.microsoft.com/sessions/65720?source=sessions) 세션에 참석하여 Microsoft Ignite에서 이 작업 계획을 사용하는 방법을 알아보세요.
+이 문서에는 NIST 800-53 요구 사항을 충족하기 위해 사용할 수 있는 작업 계획이 우선 순위대로 포함되어 있습니다. 이 액션 계획은 규정 준수 전문 업체인 Microsoft 파트너가 있는 Protiviti와 공동 작업으로 개발되었습니다. 
 
 ## <a name="action-plan-outcomes"></a>작업 계획 결과
 
