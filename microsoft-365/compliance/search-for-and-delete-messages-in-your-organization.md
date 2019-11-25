@@ -1,5 +1,5 @@
 ---
-title: Office 365 조직의 전자 메일 메시지 검색 및 삭제 - 관리자 도움말
+title: Office 365 조직의 전자 메일 메시지 검색 및 삭제
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -15,14 +15,14 @@ search.appverid:
 - MET150
 ms.assetid: 3526fd06-b45f-445b-aed4-5ebd37b3762a
 description: Office365 보안 및 준수 센터의 검색 및 지우기 기능을 사용하여 조직의 모든 사서함에서 전자 메일 메시지를 검색하고 삭제할 수 있습니다.
-ms.openlocfilehash: cd592ca48fdb2390e8449672920aa697cc297495
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 0c2b54b8e2d18a91075c577d65d7023e3b1d2c44
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37087202"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "39218863"
 ---
-# <a name="search-for-and-delete-email-messages-in-your-office-365-organization---admin-help"></a>Office 365 조직의 전자 메일 메시지 검색 및 삭제 - 관리자 도움말
+# <a name="search-for-and-delete-email-messages-in-your-office-365-organization"></a>Office 365 조직의 전자 메일 메시지 검색 및 삭제
 
 **이 문서는 관리자를 위해 작성되었습니다. 사서함에서 삭제할 항목을 찾으려고 하나요? [빠른 검색을 사용하여 메시지 또는 항목 찾기](https://support.office.com/article/69748862-5976-47b9-98e8-ed179f1b9e4d)**|을 참조하세요.
    
@@ -39,11 +39,11 @@ Office365의 콘텐츠 검색 기능을 사용하여 조직의 모든 사서함�
   
 ## <a name="before-you-begin"></a>시작하기 전에
 
-- 콘텐츠 검색을 만들고 실행하려면 **eDiscovery 관리자** 역할 그룹의 구성원이거나 **준수 검색** 관리 역할을 할당 받아야 합니다. 메시지를 삭제하려면 **조직 관리** 역할 그룹의 구성원이거나 **검색 및 삭제** 관리 역할을 할당 받아야 합니다. 역할 그룹에 사용자를 추가하는 방법에 대한 자세한 내용은 [사용자에게 보안 및 준수 센터에 대한 액세스 권한 부여](/security/office-365-security/grant-access-to-the-security-and-compliance-center.md)를 참조하세요.
+- 콘텐츠 검색을 만들고 실행하려면 **eDiscovery 관리자** 역할 그룹의 구성원이거나 **준수 검색** 관리 역할을 할당 받아야 합니다. 메시지를 삭제하려면 **조직 관리** 역할 그룹의 구성원이거나 **검색 및 삭제** 관리 역할을 할당 받아야 합니다. 역할 그룹에 사용자를 추가하는 방법에 대한 자세한 내용은 [사용자에게 보안 및 준수 센터에 대한 액세스 권한 부여](../security/office-365-security/grant-access-to-the-security-and-compliance-center.md)를 참조하세요.
     
 - 메시지를 삭제하려면 보안 및 준수 센터 PowerShell을 사용해야 합니다. 연결하는 방법에 대한 자세한 내용은 [2단계](#step-2-connect-to-security--compliance-center-powershell)를 참조하세요.
     
-- 사서함마다 한 번에 최대 10개의 항목을 제거할 수 있습니다. 메시지를 검색하고 제거하는 기능은 인시던트 응답 도구로 고안되었으므로 이러한 제한은 사서함에서 메시지가 빠르게 제거되도록 합니다. 이 기능은 사용자 사서함을 정리하기 위한 것이 아닙니다. 10개를 초과하는 항목을 삭제하려면 Exchange Online PowerShell에서 **Search-Mailbox -DeleteContent** 명령을 사용할 수 있습니다. [메시지 검색 및 삭제 - 관리자 도움말](search-for-and-delete-messagesadmin-help.md)을 참조하세요.
+- 사서함마다 한 번에 최대 10개의 항목을 제거할 수 있습니다. 메시지를 검색하고 제거하는 기능은 인시던트 응답 도구로 고안되었으므로 이러한 제한은 사서함에서 메시지가 빠르게 제거되도록 합니다. 이 기능은 사용자 사서함을 정리하기 위한 것이 아닙니다. 10개를 초과하는 항목을 삭제하려면 Exchange Online PowerShell에서 **Search-Mailbox -DeleteContent** 명령을 사용할 수 있습니다. [메시지 검색 및 삭제](search-for-and-delete-messagesadmin-help.md)를 참조하세요.
     
 - 콘텐츠 검색에서 검색 및 삭제 작업을 수행하여 항목을 삭제할 수 있는 최대 사서함 수는 50,000개입니다. [1단계](#step-1-create-a-content-search-to-find-the-message-to-delete)에서 만든 콘텐츠 검색에 50,000개를 초과하는 원본 사서함이 있는 경우 3단계에서 만드는 삭제 작업이 실패합니다. 50,000개 이상의 사서함에 대해 검색 및 삭제 작업을 수행하는 방법에 대한 자세한 내용은 [추가 정보](#more-information) 섹션을 참조하세요. 
     
@@ -82,13 +82,13 @@ Office365의 콘텐츠 검색 기능을 사용하여 조직의 모든 사서함�
   
 - 이 쿼리는 2016년 4월 13일과 2016년 4월 14일 사이에 사용자가 받은 메시지 중에서 제목 줄에 "action" 및 "required"가 포함된 메시지를 반환합니다.
     
-    ```
+    ```powershell
     (Received:4/13/2016..4/14/2016) AND (Subject:'Action required')
     ```
-   
+
 - 이 쿼리는 chatsuwloginsset12345@outlook.com에서 보낸 메시지 중에서 제목 줄에 "Update your account information"이 포함된 메시지를 반환합니다.
     
-    ```
+    ```powershell
     (From:chatsuwloginsset12345@outlook.com) AND (Subject:"Update your account information")
     ```
 
@@ -104,13 +104,13 @@ Office 365 계정에서 MFA(다단계 인증) 또는 페더레이션된 인증�
   
 다음 예에서 명령은 “피싱 메시지 제거”라는 콘텐츠 검색에 의해 반환된 검색 결과를 일시 삭제합니다. 
 
-```
+```powershell
 New-ComplianceSearchAction -SearchName "Remove Phishing Message" -Purge -PurgeType SoftDelete
 ```
 
 "피싱 메시지 제거" 콘텐츠 검색에서 반환되는 항목을 영구 삭제하려면 다음 명령을 실행합니다.
 
-```
+```powershell
 New-ComplianceSearchAction -SearchName "Remove Phishing Message" -Purge -PurgeType HardDelete
 ```
 

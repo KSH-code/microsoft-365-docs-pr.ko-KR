@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 ms.assetid: ba688e0a-0fcb-4bd7-8e57-2b669564ea84
 description: '관리자용: 보안 & 준수 센터에서 가져오기 서비스를 사용하여 Exchange Online의 전자 메일 데이터 (PST 파일)를 사용자 사서함으로 한 번에 대량으로 가져오는 방법에 대해 알아보세요. 이 항목에서는 FAQ를 제공하고 PST 가져 오기 프로세스가 어떻게 작동하는지 설명합니다.'
-ms.openlocfilehash: 4682114ad150f818dfe39fe662bc3440d655e4ea
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 948ba22ff88b72a3af92edb39bfdc28cfde4c385
+ms.sourcegitcommit: 33242c260439de0d8db41247e9414913f24adc22
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37087983"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "39218843"
 ---
 # <a name="overview-of-importing-your-organization-pst-files-to-office-365"></a>조직의 PST 파일을 Office 365로 가져오기 개요
 
@@ -96,9 +96,9 @@ ms.locfileid: "37087983"
     
   - 보안 & 준수 센터의 [보존 정책](retention-policies.md)을 사용하여 사서함 콘텐츠의 보존 기간을 제어하고, 보존 기간이 만료되면 콘텐츠를 삭제합니다. 
 
-  - [감독 정책](supervision-policies.md)을 사용하여 메시지 표준을 준수하는지 확인하고 분류 유형을 추가합니다.
+  - [커뮤니케이션 규정 준수 정책](communication-compliance.md)을 사용하여 메시지 표준을 준수하는지 확인하고 분류 유형을 추가합니다.
     
-- Office365로 데이터를 가져오면 데이터 손실을 막을 수 있습니다. Office 365로 가져온 전자 메일 데이터는 Exchange Online의 고가용성 기능을 상속합니다.
+- Office 365로 데이터를 가져오면 데이터 손실을 막을 수 있습니다. Office 365로 가져온 전자 메일 데이터는 Exchange Online의 고가용성 기능을 상속합니다.
     
 - Office365의 전자 메일 데이터는 클라우드에 저장되므로 모든 장치에서 사용할 수 있습니다.
     
