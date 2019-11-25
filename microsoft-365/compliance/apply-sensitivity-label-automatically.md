@@ -1,10 +1,11 @@
 ---
 title: 민감도 레이블을 콘텐츠에 자동으로 적용
-ms.author: laurawi
-author: laurawi
+ms.author: krowley
+author: kccross
 manager: laurawi
 audience: Admin
 ms.service: O365-seccomp
+ms.date: 11/01/2019
 localization_priority: Priority
 ms.collection:
 - M365-security-compliance
@@ -13,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 민감도 레이블을 만들 때 문서 또는 전자 메일에 레이블을 자동으로 할당하거나 사용자에게 권장 레이블을 선택하라는 메시지를 표시할 수 있습니다.
-ms.openlocfilehash: f0287eff3a462bc6f30c18c561203ba1a9a9dc19
-ms.sourcegitcommit: 1eecd7b127462585c35b0c96a179d37db45f6013
+ms.openlocfilehash: eccc60dc7a306f3e7b2eb128ed45a92af65491a5
+ms.sourcegitcommit: cd748ca00088275372f51fbf8c4bc72bfd3e1437
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "37343111"
+ms.lasthandoff: 11/02/2019
+ms.locfileid: "39233231"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>민감도 레이블을 콘텐츠에 자동으로 적용
 
@@ -32,8 +33,7 @@ ms.locfileid: "37343111"
 
 - 사용자가 더 이상 정책을 알아야 할 필요가 없으며, 그 대신 업무에 집중할 수 있습니다.
 
-> [!NOTE]
-> 레이블을 자동으로 적용하는 기능을 사용하려면 Azure Information Protection P2 구독이 필요합니다. 이 기능을 사용하려면 [Azure Information Protection 통합 레이블 클라이언트 ](https://docs.microsoft.com/ko-KR/azure/information-protection/rms-client/install-unifiedlabelingclient-app)를 다운로드하고 설치해야 합니다. 우리는 Azure Information Protection 통합 레이블 클라이언트가 필요하지 않도록 Office 앱에서 이 기능에 대한 기본 지원을 마련하고 있습니다. 또한 통합 레이블 클라이언트는 Windows에서만 실행되므로 아직 이 기능은 Mac, iOS 및 Android에서는 지원되지 않습니다.
+라이선스 요구 사항에 대한 자세한 내용은 [Office 앱의 민감도 레이블](sensitivity-labels-office-apps.md)을 참조하세요.
 
 자동 라벨링 설정은 **분류** > **민감도 레이블**에 준하여 Microsoft 365 규정 준수 센터, Microsoft 365 보안 센터 또는 Office 365 보안 및 규정 준수 센터에서 민감도 레이블을 만들 때 사용할 수 있습니다.
 
@@ -41,15 +41,15 @@ ms.locfileid: "37343111"
 
 ## <a name="apply-a-sensitivity-label-automatically-based-on-conditions"></a>조건에 따라 자동으로 민감도 레이블 적용
 
-민감도 레이블의 가장 강력한 기능 중 하나는 특정 조건과 일치하는 콘텐츠에 자동으로 레이블을 적용하는 기능입니다. 이 경우 조직의 사용자는 민감도 레이블을 적용할 필요가 없습니다. Office 365에서 이러한 작업을 자동으로 수행합니다.
-   
-특정 종류 민감 정보가 포함된 콘텐츠에 대해 민감도 레이블을 자동으로 적용하도록 선택할 수 있습니다. 민감도 레이블을 자동으로 적용하도록 구성하면 DLP(데이터 손실 방지) 정책을 만들 때처럼 민감 정보 유형 목록이 나타납니다. 예를 들어 신용 카드 번호나 주민등록번호와 같이 고객의 개인 식별 정보(PII)가 포함된 모든 컨텐츠에 고기밀 레이블을 자동으로 적용할 수 있습니다. 
+민감도 레이블의 가장 강력한 기능 중 하나는 특정 조건과 일치하는 콘텐츠에 자동으로 레이블을 적용하는 기능입니다. 이 경우 조직의 사용자는 민감도 레이블을 적용할 필요가 없습니다. Office 365에서 이 작업을 수행합니다.
+
+특정 종류 민감 정보가 포함된 콘텐츠에 대해 민감도 레이블을 자동으로 적용하도록 선택할 수 있습니다. 민감도 레이블을 자동으로 적용하도록 구성하면 DLP(데이터 손실 방지) 정책을 만들 때처럼 민감 정보 유형 목록이 나타납니다. 예를 들어 신용 카드 번호나 주민등록번호와 같이 고객의 개인 식별 정보(PII)가 포함된 모든 컨텐츠에 고기밀 레이블을 자동으로 적용할 수 있습니다.
 
 ![인스턴스 개수 및 일치 정확도 옵션](media/Sensitivity-labels-instance-count-match-accuracy.png)
 
-민감 정보 유형을 선택하면 인스턴스 수 또는 일치 정확도를 변경하여 조건을 구체화 할 수 있습니다. 자세한 내용은 [ 규칙을 조정하여 더욱 쉽게 또는 더욱 일치하기 어렵게 하기](data-loss-prevention-policies.md#tuning-rules-to-make-them-easier-or-harder-to-match)를 확인하십시오.
+민감 정보 유형을 선택하면 인스턴스 수 또는 일치 정확도를 변경하여 조건을 구체화 할 수 있습니다. 자세한 내용은 [규칙을 조정하여 더욱 쉽게 또는 더욱 일치하기 어렵게 하기](data-loss-prevention-policies.md#tuning-rules-to-make-them-easier-or-harder-to-match)를 참조하세요.
 
-또한 조건이 모든 중요한 정보 유형을 감지해야하는지 또는 그 중 하나만 감지해야하는지 여부를 선택할 수 있습니다. 조건을 보다 유연하게 또는 복잡하게 만들려면 그룹을 추가하고 그룹 간에 논리 연산자를 사용할 수 있습니다. 자세한 내용은 [ 그룹화 및 논리 연산자](data-loss-prevention-policies.md#grouping-and-logical-operators)를 참조하십시오.
+또한 조건이 모든 민감 정보 유형을 감지해야 하는지 또는 한 가지 유형만 감지하면 되는지를 선택할 수 있습니다. 조건을 더 유연하게 만들거나 복잡하게 만들려면 그룹을 추가하고 그룹 간에 논리 연산자를 사용할 수 있습니다. 자세한 내용은 [그룹화 및 논리 연산자](data-loss-prevention-policies.md#grouping-and-logical-operators)를 참조하세요.
 
 민감도 레이블이 자동으로 적용되면 사용자는 Office 앱에서 알림을 보게 됩니다. ** OK **를 선택하여 알림을 닫을 수 있습니다.
 
@@ -57,9 +57,9 @@ ms.locfileid: "37343111"
 
 ## <a name="recommend-that-the-user-apply-a-sensitivity-label"></a>사용자가 민감도 레이블을 적용할 것을 권장합니다
 
-원하는 경우 민감한 레이블을 자동으로 콘텐츠에 적용하는 대신 사용자에게 레이블을 적용하도록 권장할 수 있습니다. 이 옵션은 사용자가 분류 및 관련 보호를 수락하거나 레이블이 자신의 문서 또는 이메일에 적합하지 않은 경우 권장 사항을 취소할 수 있는 유연성을 제공합니다.
+원하는 경우 사용자에게 레이블을 적용할 것을 권장할 수 있습니다. 이 옵션을 사용하면 사용자가 분류 및 관련 보호를 수락하거나, 레이블이 문서 또는 전자 메일에 적합하지 않은 경우에는 권장 사항을 취소할 수 있습니다.
 
-권장 레이블은 Word, PowerPoint 및 Excel에서 지원됩니다(또한 Azure Information Proteciton 통합 레이블 클라이언트가 설치되어 있어야 합니다). Outlook에서 권장 레이블을 지원하기 위해 노력하고 있습니다.
+권장 레이블은 Word, PowerPoint 및 Excel에서 지원됩니다(또한 Azure Information Proteciton 통합 레이블 클라이언트가 설치되어 있어야 합니다).
 
 ![사용자에게 민감도 레이블 권장 옵션](media/Sensitivity-labels-Recommended-label-option.png)
 
@@ -69,13 +69,13 @@ ms.locfileid: "37343111"
 
 ## <a name="how-automatic-or-recommended-labels-are-applied"></a>자동 또는 권장 레이블이 적용되는 방식
 
-- 자동 레이블 지정은 문서를 저장할 때 Word, Excel 및 PowerPoint에 적용되고 전자 메일을 보낼 때는 Outlook에 적용됩니다. 이러한 조건은 문서 및 전자 메일, 머리글 및 바닥글의 본문 텍스트에 있는 중요한 정보를 탐지하지만 전자 메일의 제목 줄이나 첨부 파일에서는 해당되지 않습니다.
+- 자동 레이블은 문서를 저장할 때는 Word, Excel 및 PowerPoint에 적용되고, 전자 메일을 보낼 때는 Outlook에 적용됩니다. 이러한 조건은 문서 및 전자 메일의 본문 텍스트와 머리글 및 바닥글에서 중요한 정보를 검색하지만, 전자 메일의 제목 줄이나 첨부 파일에서는 중요한 정보를 검색하지 않습니다.
 
-- 이전에 수동으로 레이블을 지정했거나 상위 분류로 자동 분류한 문서 및 전자 메일에는 자동 분류를 사용할 수 없습니다. 문서 또는 전자 메일에는 단일 보존 레이블 이외에 단일 민감도 레이블만 적용될 수 있습니다.
+- 이전에 수동으로 레이블을 지정했거나, 이전에 더 높은 분류로 레이블이 자동으로 지정된 문서 및 전자 메일에는 자동 분류를 사용할 수 없습니다. 문서 또는 전자 메일에는 단일 보존 레이블 외에 단일 민감도 레이블만 적용할 수 있습니다.
 
-- 권장 분류는 문서를 저장할 때 Word, Excel 및 PowerPoint에 적용됩니다. 저희는 Outlook에서 권장 레이블 지정을 지원하기 위해 노력하고 있습니다.
+- 권장된 분류는 문서를 저장할 때는 Word, Excel 및 PowerPoint에 적용됩니다.
 
-- 이전에 상위 분류로 분류 문서에는 권장 분류를 사용할 수 없습니다. 이 경우 콘텐츠가 이미 상위 분류로 분류된 때에는 사용자는 추천 및 정책 팁이 포함된 메시지를 확인하지 못합니다.
+- 이전에 더 높은 분류로 레이블이 지정된 문서에는 권장 분류를 사용할 수 없습니다. 콘텐츠에 더 높은 분류로 레이블이 지정되면 사용자에게 권장 사항 및 정책 팁이 포함된 프롬프트가 표시되지 않습니다.
 
 ## <a name="how-multiple-conditions-are-evaluated-when-they-apply-to-more-than-one-label"></a>두 개 이상 레이블에 적용했을 때 여러 조건의 평가 방식
 
