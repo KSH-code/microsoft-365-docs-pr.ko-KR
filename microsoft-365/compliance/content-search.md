@@ -10,18 +10,19 @@ localization_priority: Priority
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
+- SPO_Content
 search.appverid:
 - MOE150
 - MED150
 - MET150
 ms.assetid: 53390468-eec6-45cb-b6cd-7511f9c909e4
 description: Office 365 또는 Microsoft 365의 준수 센터의 콘텐츠 검색 도구를 사용하여 사서함, SharePoint Online 사이트, OneDrive 계정, Microsoft Teams, Office 365 그룹 및 비즈니스용 Skype 대화에서 콘텐츠를 검색할 수 있습니다. 키워드 검색 쿼리 및 검색 조건을 사용하여 검색 결과 범위를 좁힐 수 있습니다. 그런 다음 검색 결과를 미리 보고 내보낼 수 있습니다. 또한 콘텐츠 검색은 GDPR 데이터 주체 요청과 관련된 콘텐츠를 검색하는 데 효과적인 도구입니다.
-ms.openlocfilehash: e3553ff2e3c8398ac4bc00258e41e8d9607b3639
-ms.sourcegitcommit: 53d848ebd4799b285d0f67c49b0aa24c88bd0e23
+ms.openlocfilehash: ba3a8ffd495d58726c24ad7abd2e115d2e1c2b8b
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "37334258"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "39266167"
 ---
 # <a name="content-search-in-office-365"></a>Office 365의 콘텐츠 검색
 
@@ -37,7 +38,7 @@ Office 365 또는 Microsoft 365의 준수 센터의 콘텐츠 검색 eDiscovery 
     
 - Office 365 그룹
     
-콘텐츠 검색을 실행하고 나면 검색 프로필에 콘텐츠 위치의 수와 예상 검색 결과 수가 표시됩니다. 검색 쿼리와 일치하는 항목이 가장 많은 콘텐츠 위치와 같은 통계도 빠르게 볼 수 있습니다. 검색을 실행한 후에는 결과를 미리 보거나 로컬 컴퓨터로 내보낼 수 있습니다.
+콘텐츠 검색을 실행하고 나면 검색 통계에 콘텐츠 위치의 수와 예상 검색 결과 수가 표시됩니다. 검색 쿼리와 일치하는 항목이 가장 많은 콘텐츠 위치와 같은 통계도 빠르게 볼 수 있습니다. 검색을 실행한 후에는 결과를 미리 보거나 로컬 컴퓨터로 내보낼 수 있습니다.
 
 ## <a name="create-a-search"></a>검색 만들기
 
@@ -103,11 +104,10 @@ Office 365 또는 Microsoft 365의 준수 센터의 콘텐츠 검색 eDiscovery 
 이 콘텐츠 검색에 다시 액세스하거나 **콘텐츠 검색** 페이지에 나열된 다른 콘텐츠 검색에 액세스하려면 검색을 선택한 다음 **열기**를 클릭합니다. 
   
 결과를 지우거나 다른 검색을 만들려면 ![아이콘 추가](media/O365-MDM-CreatePolicy-AddIcon.gif) **새 검색**을 클릭합니다. 
-
   
 ## <a name="preview-search-results"></a>검색 결과 미리 보기
 
-검색 결과 미리 보기에 대한 두 가지 구성 설정이 있습니다. 새 검색을 실행하거나 기존 검색을 연 후 ** 개별 결과 **를 클릭하여 다음 미리보기 설정을 표시할 수 있습니다. 
+검색 결과 미리 보기에 대한 두 가지 구성 설정이 있습니다. 새 검색을 실행하거나 기존 검색을 연 후 **개별 결과**를 클릭하여 다음 미리보기 설정을 표시할 수 있습니다. 
   
 ![검색 결과 미리 보기 설정](media/83519477-1c85-4442-8886-481f186fd758.png)
   
@@ -133,7 +133,7 @@ Office 365 또는 Microsoft 365의 준수 센터의 콘텐츠 검색 eDiscovery 
     
 2. 플라이 아웃 페이지에서 **쿼리 열기**를 클릭합니다. 
     
-3. **개별 결과** 드롭다운 목록에서 **프로필** 검색을 클릭합니다.
+3. **개별 결과** 드롭다운 목록에서 **검색 통계**를 클릭합니다.
     
 4. **유형** 드롭다운 목록에서 보려는 검색 통계에 따라 다음 옵션 중 하나를 클릭합니다. 
     
@@ -244,13 +244,12 @@ Microsoft Teams 및 Office 365 그룹에서 콘텐츠를 검색할 때 다음 �
     
 - Exchange Online에서 **Get-UnifiedGroup** cmdlet를 실행하여 팀 또는 Office 365 그룹의 속성을 볼 수 있습니다. 이는 팀 또는 그룹에 연결된 사이트의 URL을 가져오는 데 적합합니다. 예를 들어 다음 명령을 실행하면 Senior Leadership Team이라는 Office 365 그룹의 선택된 속성이 표시됩니다. 
     
-  ```
+  ```text
   Get-UnifiedGroup "Senior Leadership Team" | FL DisplayName,Alias,PrimarySmtpAddress,SharePointSiteUrl
   DisplayName            : Senior Leadership Team
   Alias                  : seniorleadershipteam
   PrimarySmtpAddress     : seniorleadershipteam@contoso.onmicrosoft.com
   SharePointSiteUrl      : https://contoso.sharepoint.com/sites/seniorleadershipteam
-  
   ```
 
     > [!NOTE]
@@ -260,7 +259,7 @@ Microsoft Teams 및 Office 365 그룹에서 콘텐츠를 검색할 때 다음 �
     
 - Teams 또는 Office 365 그룹의 구성원 목록을 가져오려면 Microsoft 365 관리 센터의 **홈 \> 그룹** 페이지에서 속성을 볼 수 있습니다. 또는 Exchange Online PowerShell에서 다음 명령을 실행할 수 있습니다. 
     
-  ```
+  ```powershell
   Get-UnifiedGroupLinks <group or team name> -LinkType Members | FL DisplayName,PrimarySmtpAddress 
   ```
 
@@ -387,19 +386,19 @@ eDiscovery 관리자가 [SharePoint 다중 지역 환경](https://go.microsoft.c
 
 **북미**
 
-```
+```powershell
 New-ComplianceSecurityFilter -FilterName "SPMultiGeo-NAM" -Users ediscovery-nam@contoso.com -Region NAM -Action ALL
 ```
 
 **유럽**
 
-```
+```powershell
 New-ComplianceSecurityFilter -FilterName "SPMultiGeo-EUR" -Users ediscovery-eur@contoso.com -Region EUR -Action ALL
 ```
 
 **아시아 태평양**
 
-```
+```powershell
 New-ComplianceSecurityFilter -FilterName "SPMultiGeo-APC" -Users ediscovery-apc@contoso.com -Region APC -Action ALL
 ```
 

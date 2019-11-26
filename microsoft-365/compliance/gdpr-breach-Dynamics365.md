@@ -9,13 +9,15 @@ ms.author: robmazz
 author: robmazz
 manager: laurawi
 audience: itpro
-ms.collection: GDPR
-ms.openlocfilehash: 1cd1a73395a7bfeb190f8a31589c27bb95312484
-ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
+ms.collection:
+- GDPR
+- M365-security-compliance
+ms.openlocfilehash: 92979fd66ac2d51c48b7a0836be5eb1133ae242a
+ms.sourcegitcommit: 33242c260439de0d8db41247e9414913f24adc22
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/14/2019
-ms.locfileid: "36982339"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "39266161"
 ---
 # <a name="dynamics-365-and-breach-notification-under-the-gdpr"></a>Dynamics 365 및 GDPR의 위반 알림
 
@@ -71,7 +73,7 @@ Microsoft는 업무에 미치는 영향, 복구 가능성 및 인시던트의 �
 
 보안 대응 팀은 Microsoft Dynamics 365 보안 엔지니어 및 SME(실무 전문가)와 공조하여 증거를 통한 실제 데이터를 기준으로 이벤트를 분류합니다. 보안 이벤트를 다음과 같이 분류할 수 있습니다.
 
-- **가양성:** 검색 조건을 충족하지만 정상적인 비즈니스 방식의 일부로 확인되며 필터링할 필요가 있는 이벤트입니다. 서비스 팀은 가양성에 대한 근본 원인을 파악하고, 감지 원본을 활용하고 필요에 따라 미세 <span id="_Toc350859432" class="anchor"></span>조정하여 체계적인 방식으로 처리합니다.
+- **가양성:** 검색 기준을 충족하지만 일반적인 비즈니스 사례에 해당되며 필터링해야 하는 이벤트입니다. 서비스 팀은 가양성의 근본 원인을 파악한 후, 탐지 원본을 활용하고 필요에 따라 미세 조정하는 체계적인 방식을 통해 해결합니다.
 - **보안 인시던트:** Microsoft 장비 또는 Microsoft 시설에 저장되어 있는 모든 고객 데이터 또는 지원 데이터에 대한 불법 액세스 또는 이러한 장비 또는 시설에 대한 무단 액세스로 인해 고객 데이터 또는 지원 데이터가 손실, 노출 또는 변경되는 인시던트입니다.
 - **CRSPI(고객 보고 가능 보안/개인 정보 보호 인시던트):** Microsoft의 시스템, 장비 또는 시설을 불법적으로 또는 허가 없이 액세스하거나 사용하여 고객 데이터를 공개, 수정 또는 손실하는 경우입니다.
 - **개인 정보 보호 위반:** 개인 데이터와 관련된 보안 사고의 하위 유형입니다. 처리 절차는 보안 인시던트와 다르지 않습니다.
@@ -97,8 +99,8 @@ Microsoft Dynamics 365는 알림 프로세스를 과도하게 지연시키지 �
 
 개인 데이터 침해에 대한 알림은 전자 메일을 포함하여 Microsoft가 선택한 모든 방법을 통해 고객에게 전달됩니다. 데이터 침해 알림은 고객/테넌트 관리자가 구성할 수 있는 Office 보안 센터에 제공된 고객 연락처/관리자(영향 받은 테넌트만 해당) 목록으로 전달됩니다. 이러한 알림이 성공적으로 전달되도록 하기 위해 고객은 적용 가능한 각 구독 및 온라인 서비스 포털의 관리 연락처 정보가 올바른지 확인해야 합니다.
 
-Microsoft Dynamics 365 팀은 CSS(고객 서비스) 및 고객 AM(계정 관리자) 또는 TAM(기술 계정 관리자)과 같은 추가 Microsoft 직원에게도 알리도록 선택할 수 있습니다. 이러한 개인은 고객과 밀접하게 관련되어 있는 경우가 많으며 보다 빠른 수정이 이루어지는 데 도움이 될 수 있습니다.<span id="_Appendix_A" class="anchor"></span>
+Microsoft Dynamics 365 팀은 CSS(고객 서비스) 및 고객 AM(계정 관리자) 또는 TAM(기술 계정 관리자)과 같은 추가 Microsoft 직원에게도 알리도록 선택할 수 있습니다. 이러한 개인은 고객과 밀접하게 관련되어 있는 경우가 많으며 보다 빠른 수정이 이루어지는 데 도움이 될 수 있습니다.
 
-## <a name="learn-more"></a>자세한 정보
+## <a name="learn-more"></a>자세히 알아보기
 
 - [Microsoft 보안 센터](https://www.microsoft.com/TrustCenter/Privacy/gdpr/default.aspx)

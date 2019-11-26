@@ -12,15 +12,16 @@ ms.service: O365-seccomp
 localization_priority: Priority
 ms.collection:
 - M365-security-compliance
+- SPO_Content
 search.appverid:
 - MET150
 description: 보안 &amp; 준수 센터의 DLP(데이터 손실 방지) 정책을 사용하여 Office 365 전체의 중요한 정보를 식별하고 모니터링하며 자동으로 보호할 수 있습니다.
-ms.openlocfilehash: 940db3e32c67ee0c457bd499f63a562343f09e2b
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: b9035fde858d8040be14073f61d6c4e9629df53b
+ms.sourcegitcommit: 1c962bd0d51dc12419c4e6e393bb734c972b7e38
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37087397"
+ms.lasthandoff: 11/12/2019
+ms.locfileid: "39266165"
 ---
 # <a name="overview-of-data-loss-prevention"></a>데이터 손실 방지 개요
 <!-- this topic needs to be split into smaller, more coherent ones. It is confusing as it is. -->
@@ -106,6 +107,9 @@ DLP 정책은 정보가 Exchange Online, SharePoint Online, 비즈니스용 OneD
 - 콘텐츠가 레이블을 포함합니다. 더 자세한 내용은 아래의 [DLP 정책에서 레이블을 조건으로 사용하기](#using-a-label-as-a-condition-in-a-dlp-policy) 장을 참고하십시오.
     
 - 콘텐츠를 조직 내부 또는 외부 사용자와 공유합니다.
+
+> [!NOTE]
+> 호스트 조직의 Active Directory 또는 Azure Active Directory 테넌트에 게스트가 아닌 계정을 보유하고 있는 사용자는 조직 내부의 사용자로 간주됩니다.
     
 #### <a name="types-of-sensitive-information"></a>중요한 정보 유형
 
@@ -322,7 +326,11 @@ DLP 정책을 만들고 설정한 후에 다음과 같은 문제가 발생하기
     
 레이블에 대한 자세한 내용은 [보존 레이블 개요](labels.md)를 참고하십시오.
   
-레이블을 생성한 후 해당 레이블을 DLP 정책에서 조건으로 사용할 수 있습니다. 예를 들어 다음과 같은 이유로 이렇게 하려고 할 수 있습니다.
+레이블을 생성한 후 해당 레이블을 DLP 정책에서 조건으로 사용할 수 있습니다. 
+
+![조건으로서의 레이블](media/5b1752b4-a129-4a88-b010-8dcf8a38bb09.png)
+
+예를 들어 다음과 같은 이유로 이렇게 하려고 할 수 있습니다.
   
 - 조직의 사용자가 수동으로 레이블을 기밀 전자 메일 및 문서에 적용할 수 있도록 **기밀**이라는 레이블을 게시했습니다. 해당 레이블을 DLP 정책에서 조건으로 사용하여 **기밀**이라는 레이블이 지정된 콘텐츠가 조직 외부의 사람들과 공유되지 않도록 제한할 수 있습니다. 
     
@@ -332,9 +340,10 @@ DLP 정책을 만들고 설정한 후에 다음과 같은 문제가 발생하기
     
 - 경영진 그룹의 Exchange 사서함과 OneDrive 계정에 **경영진 리더십 팀 - 중요**이라는 레이블을 게시했습니다. 해당 레이블을 DLP 정책에서 조건으로 사용하여 동일한 콘텐츠 및 사용자 서브넷에 보존 작업과 보호 작업을 둘 다 적용할 수 있습니다. 
     
-레이블을 DLP 규칙에서 조건으로 사용하여 특정 콘텐츠, 위치 또는 사용자 집합에 선택적으로 보호 작업을 적용할 수 있습니다.
-  
-![조건으로서의 레이블](media/5b1752b4-a129-4a88-b010-8dcf8a38bb09.png)
+레이블을 DLP 규칙에서 조건으로 사용하여 특정 콘텐츠, 위치 또는 사용자 집합에 선택적으로 보호 작업을 적용할 수 있습니다. 
+
+> [!NOTE]
+> 보존 레이블을 DLP 정책에서 조건으로 지정하고 Exchange 및/또는 Teams을 위치로 포함하는 경우 "전자 메일 및 팀 메시지에서 레이블이 지정된 콘텐츠를 보호 하는 것은 지원되지 않습니다. 아래에서 레이블을 제거하거나 Exchange 및 Teams를 위치로 포함하는 것을 해제합니다." 이는 Exchange 전송에서 메시지 제출 및 배달이 진행되는 동안 레이블 메타 데이터를 평가하지 않기 때문입니다. 
 
 ### <a name="support-for-sensitivity-labels-is-coming"></a>민감도 레이블 지원이 곧 제공됩니다.
 
