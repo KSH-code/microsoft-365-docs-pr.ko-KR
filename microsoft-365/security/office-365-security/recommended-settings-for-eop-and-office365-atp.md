@@ -13,12 +13,12 @@ ms.assetid: 6f64f2de-d626-48ed-8084-03cc72301aa4
 ms.collection:
 - M365-security-compliance
 description: EOP (Exchange Online Protection) 및 ATP (Advanced Threat Protection) 보안 설정에 대 한 모범 사례 표준 보호에 대 한 최신 권장 사항은 무엇 인가요? 보다 엄격한 기능을 사용 하려면 어떻게 해야 합니까? 또한 ATP (Advanced Threat Protection)를 사용 하는 경우에는 어떤 것을 얻게 됩니까?
-ms.openlocfilehash: d49f465aa66cd3c720e83b28569da2770300067e
-ms.sourcegitcommit: 2de2faea7da80712f448e35c2d6c425944013b7e
+ms.openlocfilehash: 895715c35dd124bbcea56ed0eb479cfc4281d157
+ms.sourcegitcommit: e292e9f0181d722a11398fbd012bb84589aef052
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "39204261"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "39257553"
 ---
 # <a name="recommended-settings-for-eop-and-office-365-atp-security"></a>EOP 및 Office 365 ATP 보안에 대 한 권장 설정
 
@@ -164,24 +164,3 @@ EOP 고객은 앞에서 설명한 것 처럼 기본 피싱 방지를 제공 하�
 |검색 시 첨부 파일 리디렉션|사용|사용|첨부 파일이 맬웨어 인지 여부를 확인 하는 방법을 알고 있는 보안 관리자의 전자 메일 주소로 리디렉션|
 |ATP 안전한 첨부 파일 응답에 대 한 맬웨어 검색 시간이 초과 되거나 오류가 발생 하는 경우|사용|사용||
 
-## <a name="miscellaneous-settings"></a>기타 설정
-
-이러한 설정은 위의 특정 범주에 적합 하지 않을 수도 있는 다양 한 기능을 포함 합니다. 일부 설정은 보안 & 준수 센터에 대 한 외부에 있습니다.
-
-보안 기능 이름|표준을|항등|댓글|
-|---------|---------|---------|---------|
-|[스푸핑을 방지할 수 있도록 Office 365에서 SPF 설정](set-up-spf-in-office-365-to-help-prevent-spoofing.md)|예|예||
-|[DKIM을 사용하여 Office 365의 사용자 지정 도메인에서 전송한 아웃바운드 전자 메일의 유효성 검사](use-dkim-to-validate-outbound-email.md)|예|예||
-|[DMARC를 사용하여 Office 365에서 전자 메일 유효성 검사](use-dmarc-to-validate-email.md)|예|예|Action = Standard에 대해 격리를 사용 하 고, action은 Strict에 대 한 작업을 거부 합니다.|
-|보고서 메시지 추가 기능을 배포 하 여 최종 사용자가 의심 스러운 전자 메일 보고 기능을 개선 합니다.|예|예||
-|맬웨어 및 스팸 보고서 예약|예|예||
-|외부 도메인에 대 한 자동 전달은 허용 하거나 모니터링 하지 않아야 합니다.|예|예||
-|통합 감사를 사용 하도록 설정 해야 함|예|예||
-|사서함에 대 한 IMAP 연결|사용 안 함|사용 안 함||
-|사서함에 대 한 POP 연결|사용 안 함|사용 안 함||
-|사서함에 대 한 SMTP 인증 된 전송|사용 안 함|사용 안 함||
-|사서함에 대 한 EWS 연결|사용 안 함|사용 안 함||
-|PowerShell 연결|사용 안 함|사용 안 함||
-|가능한 경우 위장 인텔리전스를 사용 하 여 보낸 사람에 게 허용 목록|예|예||
-|DBEB (디렉터리 기반 Edge 차단)|사용|사용|도메인 유형 = 신뢰할 수 있음|
-|[모든 관리자 계정에 대해 multi-factor authentication 설정](https://docs.microsoft.com/office365/admin/security-and-compliance/set-up-multi-factor-authentication)|사용|사용||

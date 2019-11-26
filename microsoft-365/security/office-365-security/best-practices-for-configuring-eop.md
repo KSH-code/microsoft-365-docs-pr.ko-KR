@@ -1,5 +1,5 @@
 ---
-title: EOP 구성을 위한 모범 사례
+title: EOP 및 Office 365 ATP 구성 모범 사례
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
@@ -10,16 +10,16 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: faf1efd1-3b0c-411a-804d-17f37292eac0
 description: 일반적인 구성 오류를 방지하고 구성 설정에 성공하려면 Exchange Online Protection EOP 모범 사례 권장 사항을 따르세요.
-ms.openlocfilehash: 95b415038fdddd1548b23edb89921084d70850c6
-ms.sourcegitcommit: 2de2faea7da80712f448e35c2d6c425944013b7e
+ms.openlocfilehash: ccc312d6e3e9954ea38b10ebe9b4c8877a85b925
+ms.sourcegitcommit: e292e9f0181d722a11398fbd012bb84589aef052
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "39204247"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "39257293"
 ---
 # <a name="best-practices-for-configuring-eop"></a>EOP 구성을 위한 모범 사례
 
-일반적인 구성 오류를 방지하고 구성 설정에 성공하려면 Exchange Online Protection EOP 모범 사례 권장 사항을 따르세요. 일반적으로는 기본 구성 설정을 사용하는 것이 좋습니다. 이 항목에서는 설정 프로세스를 이미 완료했다고 가정합니다. EOP 설정을 완료하지 않은 경우 [EOP 서비스 설정](set-up-your-eop-service.md)을 참조하세요.
+일반적인 구성 오류를 방지하고 구성 설정에 성공하려면 Exchange Online Protection EOP 모범 사례 권장 사항을 따르세요. 이 항목에서는 설정 프로세스를 이미 완료했다고 가정합니다. EOP 설정을 완료하지 않은 경우 [EOP 서비스 설정](set-up-your-eop-service.md)을 참조하세요.
 
 ## <a name="use-a-test-domain"></a>테스트 도메인 사용
 
@@ -27,36 +27,44 @@ ms.locfileid: "39204247"
 
 ## <a name="synchronize-recipients"></a>받는 사람 동기화
 
-조직의 온-프레미스 Active Directory 환경에 기존 사용자 계정이 있는 경우 클라우드의 Azure Active Directory에 해당 계정을 동기화할 수 있습니다. 디렉터리 동기화를 사용하는 것이 좋습니다. 디렉터리 동기화를 사용할 경우의 이점 및 이를 설정하기 위해 수행해야 하는 단계에 대한 자세한 내용은 [EOP에서 메일 사용자 관리](manage-mail-users-in-eop.md)를 참조하세요.
+조직의 온-프레미스 Active Directory 환경에 기존 사용자 계정이 있는 경우 해당 계정을 클라우드의 Azure Active Directory와 동기화 할 수 있습니다. 디렉터리 동기화를 사용하는 것이 좋습니다. 디렉터리 동기화를 사용할 경우의 이점 및 이를 설정하기 위해 수행해야 하는 단계에 대한 자세한 내용은 [EOP에서 메일 사용자 관리](manage-mail-users-in-eop.md)를 참조하세요.
 
-## <a name="spf-record-customization-to-help-prevent-spoofing"></a>스푸핑을 방지하기 위한 SPF 레코드 사용자 지정
+## <a name="recommended-settings"></a>권장 설정
 
-EOP를 설정할 때 EOP 용 SPF (보낸 사람 정책 프레임 워크) 레코드를 DNS 레코드에 추가 했습니다. SPF 레코드는 스푸핑을 방지하는 데 도움이 됩니다. SPF 레코드에서 스푸핑을 방지 하는 방법과 온-프레미스 IP 주소를 SPF 레코드에 추가 하는 방법에 대 한 자세한 내용은 [스푸핑 방지를 위해 Office 365에서 spf를 설정](set-up-spf-in-office-365-to-help-prevent-spoofing.md)합니다 .를 참조 하세요.
+Microsoft는 보안 관리자에 게 환경의 요구 사항을 satistfy 하는 보안 설정을 사용자 지정 하는 능력을 부여 합니다. 일반적으로 EOP 및 Office 365 ATP에는 표준 및 Strict의 두 가지 보안 수준이 권장 됩니다. 이러한 설정은 [EOP 및 Office 365 ATP 보안에 대 한 권장 설정](recommended-settings-for-eop-and-office365-atp.md)에 나와 있습니다. 
 
-## <a name="set-anti-spam-options"></a>스팸 방지 옵션 설정
+### <a name="miscellaneousnon-policy-settings"></a>기타/정책 외 설정
 
-Ip 주소를 IP 허용 및 IP 차단 목록에 추가 하 여 연결 필터 설정을 관리 하 고, 수신 하는 가양성 **목록 사용** 옵션 (스팸으로 잘못 분류 되는 가짜 메시지)의 수를 줄여야 합니다. 자세한 내용은 [Configure the connection filter policy](configure-the-connection-filter-policy.md)을 참고 하십시오. 전체 조직에 적용 되는 추가 스팸 설정에 대 한 자세한 내용은 [office 365에서 실제 전자 메일이 스팸으로 표시 되지 않도록](../../compliance/prevent-email-from-being-marked-as-spam.md) 하는 방법 또는 [office 365의 스팸 메일을 줄이는](reduce-spam-email.md)방법에 대 한 내용을 확인 하세요. 이러한 항목은 관리자 수준 컨트롤이 있고 가양성 이나 거짓 네거티브를 방지 하려는 경우에 유용 합니다.
+이러한 설정은 보안 정책 밖에 있는 다양 한 기능을 포함 합니다.
 
-기본 설정을 검토 하 고 필요에 따라 변경 하 여 콘텐츠 필터를 관리 합니다. 예를 들어, 스팸 검색 메시지에 미치는 작업을 변경할 수 있습니다. 스팸 필터링에 대 한 적극적인 접근 방법을 사용 하려면 고급 스팸 필터링 옵션을 구성 하면 됩니다. 이러한 옵션은 프로덕션 환경에서 구현 하기 전에 먼저 테스트 하는 것이 좋습니다 (설정). 피싱에 관심이 있는 조직은 **SPF 레코드: 하드 실패** 옵션을 설정 하는 것이 좋습니다. 자세한 내용은 [스팸 필터 정책 구성](configure-your-spam-filter-policies.md) 및 [고급 스팸 필터링 옵션](advanced-spam-filtering-asf-options.md)을 참고 하세요.
+보안 기능 이름|표준을|항등|댓글|
+|---------|---------|---------|---------|
+|[스푸핑을 방지할 수 있도록 Office 365에서 SPF 설정](set-up-spf-in-office-365-to-help-prevent-spoofing.md)|예|예||
+|[DKIM을 사용하여 Office 365의 사용자 지정 도메인에서 전송한 아웃바운드 전자 메일의 유효성 검사](use-dkim-to-validate-outbound-email.md)|예|예||
+|[DMARC를 사용하여 Office 365에서 전자 메일 유효성 검사](use-dmarc-to-validate-email.md)|예|예|Action = Standard에 대해 격리를 사용 하 고, action은 Strict에 대 한 작업을 거부 합니다.|
+|보고서 메시지 추가 기능을 배포 하 여 최종 사용자가 의심 스러운 전자 메일 보고 기능을 개선 합니다.|예|예||
+|맬웨어 및 스팸 보고서 예약|예|예||
+|외부 도메인에 대 한 자동 전달은 허용 하거나 모니터링 하지 않아야 합니다.|예|예||
+|통합 감사를 사용 하도록 설정 해야 함|예|예||
+|사서함에 대 한 IMAP 연결|사용 안 함|사용 안 함||
+|사서함에 대 한 POP 연결|사용 안 함|사용 안 함||
+|사서함에 대 한 SMTP 인증 된 전송|사용 안 함|사용 안 함||
+|사서함에 대 한 EWS 연결|사용 안 함|사용 안 함||
+|PowerShell 연결|사용 안 함|사용 안 함||
+|가능한 경우 위장 인텔리전스를 사용 하 여 보낸 사람에 게 허용 목록|예|예||
+|DBEB (디렉터리 기반 Edge 차단)|사용|사용|도메인 유형 = 신뢰할 수 있음|
+|[모든 관리자 계정에 대해 multi-factor authentication 설정](https://docs.microsoft.com/office365/admin/security-and-compliance/set-up-multi-factor-authentication)|사용|사용||
 
-> [!IMPORTANT]
-> 기본 콘텐츠 필터 동작을 사용 하는 경우 **메시지를 정크 메일 폴더로 이동**하 여 온-프레미스 사서함에서 작업을 사용할 수 있도록 온-프레미스 Exchange 조직에서 메일 흐름 규칙 (전송 규칙이 라고도 함)을 구성 하 여 EOP에서 추가 된 스팸 헤더를 검색 해야 합니다. 자세한 내용은 [스팸이 각 사용자의 정크 메일 폴더로 라우팅되는지 확인](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md)을 참조하십시오.
+## <a name="troubleshooting"></a>문제 해결
 
-아웃 바운드 메일이 배달 되도록 하는 데 도움이 되는 아웃 바운드 메일 모범 사례를 포함 하 여 [스팸 방지 보호 관련 FAQ](anti-spam-protection-faq.md)를 검토 하는 것이 좋습니다.
+관리 센터의 보고서를 사용 하 여 일반적인 문제 및 추세 문제를 해결 합니다. 메시지 추적 도구를 사용하면 메시지에 대한 단일 지점 관련 데이터를 찾을 수 있습니다. 보고에 대한 자세한 내용은 [Exchange Online Protection의 보고 및 메시지 추적](reporting-and-message-trace-in-exchange-online-protection.md)을 참조하세요. 메시지 추적 도구에 대한 자세한 내용은 [Trace an Email Message](https://docs.microsoft.com/exchange/monitoring/trace-an-email-message/trace-an-email-message)을 참조하세요.
 
-여러 가지 방법을 통해 거짓 부정(스팸) 및 가양성(스팸 아님) 항목을 Microsoft에 분석용으로 제출할 수 있습니다. 자세한 내용은 분석을 [위해 Microsoft에 스팸, 스팸이 아닌 정보 및 피싱 사기 메시지 제출을](submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md)참조 하세요.
+## <a name="reporting-false-positive-and-false-negatives-to-microsoft"></a>Microsoft에 거짓 긍정 및 거짓 네거티브 보고
 
-## <a name="set-anti-malware-options"></a>맬웨어 방지 옵션 설정
+관리자는 관리 되는 전송 포털을 통해 거짓 네거티브 (스팸) 및 가양성 (스팸 아님)을 Microsoft에 제출 해야 합니다. 관리자가 최종 사용자에 게 메시지를 배달 했는지 여부를 확인할 수 있도록 전자 메일, 파일 및 Url을 제출 합니다. 자세한 내용은 [의심 스러운 스팸, 피싱, url 및 파일을 Microsoft에 Office 365 검색을 제출 하는 방법을](admin-submission.md)참조 하세요.
 
-맬웨어 필터 설정을 검토 하 고 세부적으로 조정 합니다. 자세한 내용은 [맬웨어 방지 정책 구성](configure-anti-malware-policies.md)를 참고 하십시오. 또한 [Anti-malware protection FAQ](anti-malware-protection-faq-eop.md)에서 기타 맬웨어 보호 기능에 대한 질문과 대답을 읽어보는 것이 좋습니다.
+최종 사용자는 지정 된 verdicts에 동의 하지 않을 경우 Microsoft에 분석을 위해 거짓 부정 (스팸) 및 가양성 (스팸 아님)을 직접 보고할 수도 있습니다. 자세한 내용은 분석을 [위해 Microsoft에 스팸, 스팸이 아닌 정보 및 피싱 사기 메시지 제출을](submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md)참조 하세요.
 
-맬웨어를 포함 하는 실행 파일이 염려 되는 경우 실행 가능한 콘텐츠가 포함 된 모든 전자 메일 첨부 파일을 차단 하는 메일 흐름 규칙을 만들 수 있습니다. Exchange online Protection에서 [첨부 파일 차단을](https://support.microsoft.com/kb/2959596) 사용 하 여 exchange online의 [메시지 첨부 파일을 검사 하](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/inspect-message-attachments#supported-file-types-for-mail-flow-rule-content-inspection)는 방법에 나열 되지 않도록 차단 하기 위해이 문서의 단계를 수행 합니다.
-
-맬웨어 방지 정책에서 [일반 첨부 파일 유형 필터](protect-against-threats.md#part-1---anti-malware-protection) 를 사용할 수 있습니다.
-
-또한 보호 수준을 높이려면 메일 흐름 규칙을 사용하여 ade, adp, ani, bas, bat, chm, cmd, com, cpl, crt, hlp, ht, hta, inf, ins, isp, job, js, jse, lnk, mda, mdb, mde, mdz, msc, msi, msp, mst, pcd, reg, scr, sct, shs, url, vb, vbe, vbs, wsc, wsf, wsh 확장명을 일부 또는 전부를 차단하는 것이 좋습니다. **모든 첨부 파일 확장명에 다음 단어 조건을 포함** 하 여이 작업을 수행할 수 있습니다.
-
-관리자 및 최종 사용자는 필터를 통해 만든 맬웨어를 제출 하거나, 분석을 위해 Microsoft에 보내 잘못 식별 된 파일을 전송 합니다. 자세한 내용은 [Submitting malware and non-malware to Microsoft for analysis](submitting-malware-and-non-malware-to-microsoft-for-analysis.md)을 참조하세요.
 
 ## <a name="create-mail-flow-rules"></a>메일 흐름 규칙 만들기
 
@@ -68,35 +76,4 @@ Ip 주소를 IP 허용 및 IP 차단 목록에 추가 하 여 연결 필터 설�
 
 조직에 온-프레미스 Exchange 및 Office 365이 모두 포함 된 하이브리드 환경에서는 메일 흐름 규칙에서 사용 하는 조건을 고려해 야 합니다. 규칙을 전체 조직에 적용 하려면 온-프레미스 Exchange와 Office 365에서 모두 사용할 수 있는 조건을 사용 해야 합니다. 대부분의 조건은 두 환경 모두에서 사용할 수 있지만, 한 환경 에서만 사용할 수 있는 경우도 있습니다. 자세한 내용은 [메일 흐름 규칙 (전송 규칙)에서 Exchange Online을](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/mail-flow-rules)확인 하세요.
 
-메일 흐름 규칙을 사용 하 여 조직 내에서 메시지가 전송 되는 메시지의 첨부 파일을 검사할 수 있습니다. 첨부 파일을 찾을 규칙 조건을 구성한 다음 검색 된 첨부 파일에 대해 작업을 수행 합니다. 자세한 내용은 [메일 흐름 규칙을 사용 하 여 Exchange Online의 메시지 첨부 파일 검사를](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/inspect-message-attachments)참고 하십시오.
 
-### <a name="phishing-and-spoofing-prevention"></a>피싱 및 스푸핑 방지
-
-개인 정보가 조직을 벗어날 때 전자 메일을 검색하여 피싱 방지 보호를 향상시킬 수 있습니다. 예를 들어 메일 흐름 규칙에서 다음 정규식을 사용하면 개인 재무 데이터 또는 개인 정보를 노출할 수 있는 정보의 전송을 감지할 수 있습니다.
-
-- `\d\d\d\d\s\d\d\d\d\s\d\d\d\d\s\d\d\d\d`(MasterCard 또는를)
-
-- `\d\d\d\d\s\d\d\d\d\d\d\s\d\d\d\d\d`(미국 Express)
-
-- `\d\d\d\d\d\d\d\d\d\d\d\d\d\d\d\d`(16 자리 숫자)
-
-- `\d\d\d\-\d\d\-\d\d\d\d`(주민 등록 번호)
-
-자체 도메인에서 보낸 것으로 표시되는 악의적인 인바운드 전자 메일을 차단하여 스팸 및 피싱을 줄일 수도 있습니다. 예를 들어 회사 도메인에서 동일한 회사 도메인으로 보내는 메시지를 거부하는 메일 흐름 규칙을 만들어 이러한 유형의 보낸 사람 위조를 방지할 수 있습니다.
-
-> [!CAUTION]
-> 도메인의 적법한 전자 메일을 인터넷에서 메일 서버로 보내는 경우가 전혀 없는 경우에만 이 거부 규칙을 만드는 것이 좋습니다. 이는 조직의 사용자가 외부 받는 사람에게 보낸 메시지가 조직 내의 다른 받는 사람에게 전달되는 경우에는 발생할 수 있습니다.
-
-## <a name="reporting-and-troubleshooting"></a>보고 및 문제 해결
-
-관리 센터의 보고서를 사용 하 여 일반적인 문제 및 추세 문제를 해결 합니다. 메시지 추적 도구를 사용하면 메시지에 대한 단일 지점 관련 데이터를 찾을 수 있습니다. 보고에 대한 자세한 내용은 [Exchange Online Protection의 보고 및 메시지 추적](reporting-and-message-trace-in-exchange-online-protection.md)을 참조하세요. 메시지 추적 도구에 대한 자세한 내용은 [Trace an Email Message](https://docs.microsoft.com/exchange/monitoring/trace-an-email-message/trace-an-email-message)을 참조하세요.
-
-## <a name="for-more-information"></a>자세한 내용
-
-[EOP 관련 일반 FAQ(질문과 대답)](eop-general-faq.md)
-
-[EOP에 대한 도움말 및 지원](help-and-support-for-eop.md)
-
-[Office 365에서 실제 전자 메일이 스팸으로 표시되는 일을 방지하는 방법](../../compliance/prevent-email-from-being-marked-as-spam.md)
-
-[Office 365에서 스팸 메일을 줄이는 방법](reduce-spam-email.md)
