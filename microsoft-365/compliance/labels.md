@@ -1,7 +1,7 @@
 ---
 title: 보존 레이블 개요
-ms.author: stephow
-author: stephow-MSFT
+ms.author: laurawi
+author: laurawi
 manager: laurawi
 ms.date: ''
 audience: Admin
@@ -10,16 +10,17 @@ ms.service: O365-seccomp
 localization_priority: Priority
 ms.collection:
 - M365-security-compliance
+- SPO_Content
 search.appverid:
 - MOE150
 - MET150
 description: Office 365에서 레이블은 올바른 콘텐츠에 대해 올바른 작업을 수행하는 데 도움이 될 수 있습니다. 보존 레이블을 사용하여 거버넌스를 위해 조직의 데이터를 분류하고 해당 분류에 따라 보존 규칙을 적용할 수 있습니다. Office 365에서 기록 관리를 구현할 때도 보존 레이블을 사용할 수 있습니다.
-ms.openlocfilehash: 71630812e75ef8b4af2f172f73e51d0084fb0df1
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 143d3fb97afca5b6a3b18e47b7be472f35a857ba
+ms.sourcegitcommit: fb3815ee186b2b3ec790ee32a9d7b1628d623b0b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37087252"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "39266169"
 ---
 # <a name="overview-of-retention-labels"></a>보존 레이블 개요
 
@@ -113,7 +114,7 @@ SharePoint 또는 OneDrive에 보존 레이블을 게시하면 해당 보존 레
   
 ### <a name="auto-apply-retention-labels"></a>보존 레이블 작동 적용
 
-특정 조건과 일치하는 콘텐츠에 보존 레이블을 자동으로 적용하는 경우 보존 레이블이 조건과 일치하는 모든 기존 콘텐츠에 적용되는 데 7일이 걸릴 수 있습니다. 그러나 보존 레이블을 배포하면 이 레이블은 보통 15분 이내에 새로운 콘텐츠에 신속하게 적용됩니다.
+특정 조건과 일치하는 콘텐츠에 보존 레이블을 자동으로 적용하는 경우 보존 레이블이 조건과 일치하는 모든 기존 콘텐츠에 적용되는 데 7일이 걸릴 수 있습니다.
   
 ![자동 적용 레이블이 적용되는 경우를 나타내는 다이어그램](media/b8c00657-477a-4ade-b914-e643ef97a10d.png)
   
@@ -125,17 +126,17 @@ Exchange Online에서는 7일 간격으로 실행되는 프로세스를 통해 �
     
 2. 다음 명령을 실행합니다.
     
-  ```
-  $logProps = Export-MailboxDiagnosticLogs <user> -ExtendedProperties
-  ```
+   ```powershell
+   $logProps = Export-MailboxDiagnosticLogs <user> -ExtendedProperties
+   ```
 
-  ```
-  $xmlprops = [xml]($logProps.MailboxLog)
-  ```
+   ```powershell
+   $xmlprops = [xml]($logProps.MailboxLog)
+   ```
 
-  ```
-  $xmlprops.Properties.MailboxTable.Property | ? {$_.Name -like "ELC*"}
-  ```
+   ```powershell
+   $xmlprops.Properties.MailboxTable.Property | ? {$_.Name -like "ELC*"}
+   ```
 
 결과에서 `ELCLastSuccessTimeStamp`(UTC) 속성은 시스템에서 사서함을 마지막으로 처리한 시간을 보여 줍니다. 정책을 만든 이후로 이러한 처리가 발생하지 않은 경우 레이블은 표시되지 않습니다. 강제로 처리하려면 `Start-ManagedFolderAssistant -Identity <user>`를 실행합니다.
     
@@ -151,13 +152,13 @@ Exchange Online에서는 7일 간격으로 실행되는 프로세스를 통해 �
 |중요한 정보 유형에 따라 자동으로 적용  <br/> |Exchange(모든 사서함만), SharePoint, OneDrive  <br/> |
 |쿼리에 따라 자동 적용  <br/> |Exchange, SharePoint, OneDrive, Office 365 그룹  <br/> |
    
-Exchange에서 자동 적용 보존 레이블(쿼리 및 중요한 정보 유형 둘 다에 해당)은 현재 사서함에 있는 모든 항목(미사용 데이터)이 아니라 새로 전송된 메시지(전송 중인 데이터)에만 적용됩니다. 또한 중요한 정보 유형에 대한 자동 적용 보존 레이블은 모든 사서함에만 적용될 수 있으며 특정 사서함을 선택할 수 없습니다.
+Exchange에서 자동 적용 보존 레이블(쿼리 및 중요한 정보 유형 모두에 대한)은 현재 사서함에 있는 모든 항목(미사용 데이터)이 아닌 새로 전송된 메시지(전송 중인 데이터)에만 적용됩니다. 또한 민감한 정보 유형에 대한 자동 적용 보존 레이블은 모든 사서함에만 적용되며 특정 사서함을 선택할 수 없습니다.
   
 Exchange 공용 폴더 및 Skype는 레이블을 지원하지 않습니다.
   
 ## <a name="how-retention-labels-enforce-retention"></a>보존 레이블이 보존을 적용하는 방법
 
-보존 레이블은 보존 정책이 수행할 수 있는 동일한 보존 작업을 적용할 수 있습니다. 보존 레이블을 사용하여 정교한 콘텐츠 계획(또는 파일 계획)을 구현할 수 있습니다. 보존 작업이 작동하는 방식에 대한 자세한 내용은 [보존 정책 개요](retention-policies.md)를 참조하세요.
+보존 레이블은 보존 정책이 할 수 있는 것과 같은 보존 작업을 적용할 수 있습니다. 보존 레이블을 사용하여 정교한 콘텐츠 계획(또는 파일 계획)을 구현할 수 있습니다. 보존 작업이 작동하는 방법에 대한 자세한 내용은 [보존 정책 개요](retention-policies.md)를 참조하세요.
   
 또한 보존 레이블에는 보존 정책이 아니라 보존 레이블에서만 사용할 수 있는 2가지 보존 옵션이 있습니다. 보존 레이블을 사용하면 다음과 같은 작업을 수행할 수 있습니다.
   
@@ -205,13 +206,15 @@ Exchange 공용 폴더 및 Skype는 레이블을 지원하지 않습니다.
     
 ### <a name="outlook-2010-and-later"></a>Outlook 2010 이상
 
-웹용 Outlook에서 항목에 레이블을 지정하려면 마우스 오른쪽 단추로 **리본**의 항목 \> \> **정책 할당**을 클릭하고 \> 보존 레이블을 선택합니다. 
+Outlook 데스크톱 클라이언트에서 항목에 레이블을 지정하려면 해당 항목을 선택합니다. 리본 메뉴의 **홈** 탭에서 **정책 할당**을 클릭한 다음, 보존 레이블을 선택합니다. 
   
 ![정책 할당 단추](media/30684dea-dd73-4e4a-9185-8e29f403b6ca.png)
   
+항목을 마우스 오른쪽 단추로 클릭하고, 상황에 맞는 메뉴에서 **정책 할당**를 클릭한 다음, 보존 레이블을 선택할 수도 있습니다. 
+
 보존 레이블이 적용된 후 항목 맨 위에서 해당 보존 레이블과 해당 레이블이 수행하는 작업을 볼 수 있습니다. 연결된 보존 기간이 있는 보존 레이블이 전자 메일에 적용된 경우, 해당 전자 메일이 만료되는 시간을 한눈에 알 수 있습니다.
   
-또한 폴더에도 보존 레이블을 적용할 수 있습니다. Outlook 2010 이상에서도 웹용 Outlook의 경우와 마찬가지로 작동합니다. 자세한 내용은 이전 섹션을 참조하세요.
+폴더에 보존 레이블을 적용할 수도 있습니다. 이 내용은 웹용 Outlook에서와 마찬가지로 Outlook 2010 이상에서도 적용됩니다. 자세한 내용은 이전 섹션을 참조하세요.
   
 ### <a name="onedrive-and-sharepoint"></a>OneDrive 및 SharePoint
 
@@ -239,7 +242,7 @@ Office 365 그룹 콘텐츠를 보존하려면 Office 365 그룹 위치를 사�
   
 ## <a name="applying-a-retention-label-automatically-based-on-conditions"></a>조건에 따라 자동으로 보존 레이블 적용
 
-보존 레이블의 가장 강력한 기능 중 하나는 특정 조건과 일치하는 콘텐츠에 자동으로 레이블을 적용하는 기능입니다. 이 경우 조직의 사용자는 보존 레이블을 적용할 필요가 없습니다. Office 365에서 이러한 작업을 자동으로 수행합니다.
+보존 레이블의 가장 강력한 기능 중 하나는 특정 조건과 일치하는 콘텐츠에 자동으로 레이블을 적용하는 기능입니다. 이 경우 조직의 사용자는 레이블을 적용할 필요가 없습니다. Office 365에서 이 작업을 수행합니다.
   
 ![자동 적용 레이블의 역할 및 작업 다이어그램](media/32f2f2fd-18a8-43fd-839d-72ad7a43e069.png)
   
@@ -257,13 +260,17 @@ Office 365 그룹 콘텐츠를 보존하려면 Office 365 그룹 위치를 사�
     
 - 만든 쿼리와 일치하는 특정 키워드
     
-![자동 적용 레이블에 대한 조건 페이지 선택](media/c0b7a3ef-bda0-494c-941d-f1f93753ecdd.png)
-  
+![자동 적용 레이블에 대한 조건 페이지 선택](media/classifier-pre-trained-apply-label-match-trainable-classifier.png)
+
+
 자동 적용 보존 레이블에는 Office 365 Enterprise E5 구독이 필요하며, 위에 설명한 것처럼 조건과 일치하는 모든 콘텐츠에 자동 적용 보존 레이블이 적용되는 데는 7일까지 소요될 수 있습니다.
   
+> [!TIP]
+> SharePont에서 관리 속성을 사용하여 보존 레이블을 자동 적용하고 이벤트 중심 보존을 구현하는 방법에 대한 자세한 시나리오는 [보존 레이블로 SharePoint 문서의 수명 주기 관리](auto-apply-retention-labels-scenario.md)를 참조하세요.
+
 ### <a name="auto-apply-retention-labels-to-content-with-specific-types-of-sensitive-information"></a>특정 유형의 중요한 정보가 있는 콘텐츠에 보존 레이블 자동 적용
 
-중요한 정보에 대한 자동 적용 보존 레이블을 만들 경우 DLP(데이터 손실 방지) 정책을 만들 때 같은 정책 템플릿 목록이 표시됩니다. 각 정책 템플릿은 특정 유형의 중요한 정보를 찾도록 미리 구성됩니다. 예를 들어, 여기에 표시되는 템플릿은 미국 ITIN, SSN 및 여권 번호를 찾습니다. DLP에 대한 자세한 내용은 [데이터 손실 방지 정책 개요](data-loss-prevention-policies.md)를 참조하세요.
+중요한 정보에 대한 자동 적용 보존 레이블을 만들면 DLP(데이터 손실 방지) 정책을 만들 때 같은 정책 템플릿 목록이 표시됩니다. 각 정책 템플릿은 특정 중요한 정보 유형을 찾도록 미리 구성되어 있습니다. 예를 들어, 여기에 표시된 템플릿은 미국 ITIN, SSN 및 여권 번호를 검색합니다. DLP에 대한 자세한 내용은 [데이터 손실 방지 정책 개요](data-loss-prevention-policies.md)를 참조하세요.
   
 ![중요한 정보 유형을 갖는 정책 템플릿](media/dafd87d4-c7bb-439a-ac7b-193c018f98a5.png)
   
@@ -283,12 +290,12 @@ Office 365 그룹 콘텐츠를 보존하려면 Office 365 그룹 위치를 사�
 
 쿼리 구문에 대한 자세한 내용은 다음을 참조하세요.
 
-- [KQL(키워드 쿼리 언어) 구문 참조](https://docs.microsoft.com/ko-KR/sharepoint/dev/general-development/keyword-query-language-kql-syntax-reference)
+- [KQL(키워드 쿼리 언어) 구문 참조](https://docs.microsoft.com/sharepoint/dev/general-development/keyword-query-language-kql-syntax-reference)
 
 쿼리 기반 레이블은 검색 인덱스를 사용하여 콘텐츠를 식별합니다. 유효한 검색 가능 속성에 대한 자세한 내용은 다음을 참조하세요.
 
 - [콘텐츠 검색에 대한 키워드 쿼리 및 검색 조건](keyword-queries-and-search-conditions.md)
-- [SharePoint Server에서 크롤링 및 관리 속성의 개요](https://docs.microsoft.com/ko-KR/SharePoint/technical-reference/crawled-and-managed-properties-overview)
+- [SharePoint Server에서 크롤링 및 관리 속성의 개요](https://docs.microsoft.com/SharePoint/technical-reference/crawled-and-managed-properties-overview)
 
 예제 쿼리:
 
@@ -305,7 +312,7 @@ Office 365 그룹 콘텐츠를 보존하려면 Office 365 그룹 위치를 사�
 
 사용자가 개별 문서에 보존 레이블을 적용할 수 있도록 하는 것 외에, SharePoint 라이브러리, 폴더 또는 문서 집합의 모든 문서에 기본 보존 레이블이 적용되도록 해당 위치에 기본 보존 레이블을 적용할 수도 있습니다.
   
-문서 라이브러리의 경우 이 작업은 문서 라이브러리에 대한 **라이브러리 설정** 페이지에서 수행됩니다. 기본 보존 레이블을 선택할 때 라이브러리의 모든 기존 항목에 적용되도록 선택할 수도 있습니다. 
+문서 라이브러리의 경우 이 작업은 문서 라이브러리의 **라이브러리 설정** 페이지에서 수행합니다. 기본 보존 레이블을 선택하는 경우 라이브러리의 기존 항목에 적용하도록 선택할 수도 있습니다. 
   
 예를 들어 마케팅 자료에 대한 태그가 있고 특정 문서 라이브러리에 해당 유형의 콘텐츠만 포함된다는 것을 알 경우 마케팅 자료 태그를 해당 라이브러리의 모든 문서에 대한 기본 태그로 지정할 수 있습니다.
   
@@ -313,11 +320,19 @@ Office 365 그룹 콘텐츠를 보존하려면 Office 365 그룹 위치를 사�
   
 라이브러리, 폴더 또는 문서 집합의 기존 항목에 기본 보존 레이블을 적용하는 경우 다음 작업이 수행됩니다.
   
-- 레이블이 명시적으로 적용된 항목을 **제외**하고 라이브러리, 폴더 또는 문서 집합의 모든 항목에는 자동으로 같은 보존 레이블이 지정됩니다. 명시적으로 보존 레이블이 지정된 항목은 기존 레이블이 유지됩니다. 자세한 내용은 아래에서 [T보존 원칙 또는 우선 순위](#the-principles-of-retention-or-what-takes-precedence)에 대한 섹션을 참조하세요.
+- 명시적으로 적용된 보존 레이블이 있는 항목의 경우를 **제외하고** 라이브러리, 폴더 또는 문서의 모든 항목에 자동으로 같은 보존 레이블이 적용됩니다. 명시적으로 레이블이 지정된 항목은 기존 레이블을 유지합니다. 자세한 내용은 [보존 원칙 또는 우선 순위](#the-principles-of-retention-or-what-takes-precedence)에 대한 아래 섹션을 참조하세요.
     
 - 라이브러리, 폴더 또는 문서 집합의 기본 보존 레이블을 변경하거나 제거하는 경우 명시적 보존 레이블이 지정된 항목을 **제외**하고 라이브러리, 폴더 또는 문서 집합의 모든 항목에 대해서도 보존 레이블이 변경되거나 제거됩니다. 
     
 - 한 라이브러리, 폴더 또는 문서 집합에서 기본 보존 레이블이 있는 항목을 다른 라이브러리, 폴더 또는 문서 집합으로 이동하면 새 위치에 다른 기본 보존 레이블이 있더라도 해당 항목은 기존의 기본 보존 레이블을 유지합니다.
+
+- 라이브러리, 폴더 또는 문서 집합의 기본 보존 레이블이 콘텐츠를 레코드(*레코드 레이블*이라고도 함)로 선언하면 다음 특성이 적용됩니다.
+
+   - 기본 보존 레이블을 레코드로 선언하지 않는 레이블로 변경하면 항목은 기존 기본 레코드 레이블을 유지합니다. 새 기본 보존 레이블은 해당 항목에 적용되지 않습니다. 사이트 모음 관리자는 보존 레이블을 확실하게 제거하거나 변경해야 합니다.
+
+   - 콘텐츠를 레코드로 선언하는 기본 보존 레이블을 제거하면 라이브러리, 폴더 또는 문서 집합의 항목에서 레코드 레이블이 제거되지 않습니다. 사이트 모음 관리자는 보존 레이블을 확실하게 제거해야 합니다.
+
+   콘텐츠를 레코드로 선언하는 보존 레이블에 대한 자세한 내용은 [레코드 개요](records.md)를 참조하세요.
     
 ## <a name="applying-a-retention-label-to-email-by-using-rules"></a>규칙을 사용하여 전자 메일에 보존 레이블 적용
 
@@ -338,48 +353,8 @@ Outlook 2010 이상에서는 보존 레이블 또는 보존 정책을 적용하�
 ![보존이 해제된 레이블 설정 페이지](media/17ce863b-a823-426e-aaad-83718465f762.png)
   
 ## <a name="using-retention-labels-for-records-management"></a>기록 관리에 보존 레이블 사용
-
-높은 수준에서 기록 관리는 다음을 의미합니다.
-  
-- 사용자는 중요한 콘텐츠를 기록으로 분류합니다.
     
-- 기록은 수정하거나 삭제할 수 없습니다.
-    
-- 기록은 명시된 수명이 경과되면 최종적으로 폐기됩니다.
-    
-기록 센터와 같은 기타 기록 관리 기능은 SharePoint 콘텐츠에만 적용되지만, 보존 레이블을 사용하면 Office 365에서 일관된 단일 기록 관리 전략을 구현할 수 있습니다. 또한 수명이 지나면 자동으로 폐기되도록 기록에 대해 보존 작업을 적용할 수 있습니다.
-  
-보존 레이블을 만들 때 보존 레이블을 사용하여 콘텐츠를 기록으로 분류하는 옵션이 제공됩니다.
-  
-![콘텐츠를 기록으로 분류 확인란](media/9c300739-d5d0-41d2-88dd-137f1cfc9cb6.png)
-  
-항목에 기록으로 레이블이 지정되면 다음 4가지 결과가 나타납니다.
-  
-- 항목을 영구적으로 삭제할 수 없습니다.
-    
-- 항목을 편집할 수 없습니다.
-    
-- 레이블을 변경할 수 없습니다.
-    
-- 레이블을 제거할 수 없습니다.
-    
-### <a name="who-can-classify-content-as-a-record"></a>콘텐츠를 기록으로 분류할 수 있는 사람
-
-SharePoint 콘텐츠의 경우 기본 구성원 그룹(참가 권한 수준)의 모든 사용자는 콘텐츠에 기록 레이블을 적용할 수 있습니다. 사이트 모음 관리자만 적용된 보존 레이블을 제거하거나 변경할 수 있습니다. 또한 콘텐츠를 기록으로 분류하는 보존 레이블은 [콘텐츠에 자동으로 적용](#auto-apply-retention-labels)할 수 있습니다.
-  
-### <a name="records-and-folders"></a>기록 및 폴더
-
-Exchange, SharePoint 또는 OneDrive의 폴더에 보존 레이블을 적용할 수 있습니다. 폴더가 기록으로 레이블이 지정되고 항목을 해당 폴더로 이동하면 해당 항목도 기록으로 레이블이 지정됩니다. 항목을 해당 폴더 외부로 이동해도 계속 기록으로 레이블이 지정됩니다.
-  
-### <a name="records-cant-be-deleted"></a>기록을 삭제할 수 없음
-
-Exchange에서 기록을 삭제하려고 하면 [보존 정책이 원본 위치의 콘텐츠에 작동하는 방식](retention-policies.md#how-a-retention-policy-works-with-content-in-place)에 설명된 것처럼 항목이 복구 가능한 항목 폴더로 이동됩니다.
-  
-SharePoint에서 기록을 삭제하려고 하면 항목이 삭제되지 않았다는 오류 메시지가 표시되고 항목은 라이브러리에 남아 있습니다.
-  
-![SharePoint에서 항목이 삭제되지 않았다는 메시지](media/d0020726-1593-4a96-b07c-89b275e75c49.png)
-  
-OneDrive에서 기록을 삭제하려고 하면 [보존 정책이 원본 위치의 콘텐츠에 작동하는 방식](retention-policies.md#how-a-retention-policy-works-with-content-in-place)에 설명된 것처럼 항목이 자료 보존 라이브러리로 이동됩니다.
+보존 레이블을 사용하여 콘텐츠를 레코드로 선언할 수 있습니다. 따라서 Office 365에서 일관된 단일 레코드 관리 전략을 구현할 수 있습니다. 자세한 내용은 [레코드 개요](records.md)를 참조하세요.
   
 ## <a name="using-a-retention-label-as-a-condition-in-a-dlp-policy"></a>보존 레이블을 DLP 정책의 조건으로 사용
 
@@ -421,7 +396,7 @@ OneDrive에서 기록을 삭제하려고 하면 [보존 정책이 원본 위치�
     
 3. **명시적 포함이 암시적 포함보다 우선합니다.** 이것은 다음을 의미합니다. 
     
-    1. 사용자가 보존 설정이 포함된 보존 레이블을 Exchange 전자 메일 또는 OneDrive 문서와 같은 항목에 수동으로 할당하면 해당 보존 레이블은 사이트 또는 사서함 수준에서 할당된 정책과 문서 라이브러리에 의해 할당된 기본 보존 레이블보다 우선적으로 적용됩니다. 예를 들어, 명시적 보존 레이블에 10년 동안 보존하도록 지정되어 있지만 사이트에 할당된 보존 정책은 5년만 보존하도록 지정하는 경우 보존 레이블이 우선합니다. 자동 적용 보존 레이블은 Office 365에 의해 자동으로 적용되므로 명시적이 아니라 암시적으로 간주됩니다.
+    1. 보존 설정이 포함된 보존 레이블이 사용자에 의해 수동으로 항목(예: Exchange 전자 메일 또는 OneDrive 문서)에 할당된 경우 해당 보존 레이블은 사이트 또는 사서함 수준에서 할당된 정책이나 문서 라이브러리에 의해 할당된 기본 보존 레이블보다 우선합니다. 예를 들어 명시적 보존 레이블에서 10년 동안 보존하라고 하지만, 사이트에 할당된 보존 정책에서 5년 동안만 보존하라고 한다면 보존 레이블이 우선합니다. 자동 적용 보존 레이블은 Office 365에 의해 자동으로 적용되므로 명시적이 아니라 암시적으로 간주됩니다.
     
     2. 보존 정책에 특정 사용자의 사서함 또는 OneDrive용 비즈니스 계정과 같은 특정 위치가 포함되는 경우 해당 정책이 모든 사용자의 사서함 또는 비즈니스용 OneDrive 계정에 적용되지만 해당 사용자의 사서함을 특별히 포함하지 않는 다른 보존 정책보다 우선합니다.
     
@@ -449,9 +424,9 @@ OneDrive에서 기록을 삭제하려고 하면 [보존 정책이 원본 위치�
     
 - [정보 관리 정책](intro-to-info-mgmt-policies.md)(삭제만 해당) 
     
-## <a name="permissions"></a>사용 권한
+## <a name="permissions"></a>권한
 
-보존 레이블을 만드는 규정 준수 팀의 구성원에게는 보안 및 준수 센터에 대한 권한이 필요합니다. 기본적으로 테넌트 관리자는 이 위치에 액세스할 수 있으며, 준수 관리자 및 기타 사용자에게 테넌트 관리를 위한 모든 권한을 부여하지는 않으면서, 보안 및 준수 센터에 대한 액세스 권한을 부여할 수 있습니다. 이렇게 하기 위해 보안 및 준수 센터의 **권한** 페이지로 이동한 후 **준수 관리자** 역할 그룹을 편집하고 해당 역할 그룹에 구성원을 추가하는 것이 좋습니다. 
+보존 레이블을 만드는 규정 준수 팀의 구성원은 보안 및 준수 센터에 대한 사용 권한이 필요합니다. 기본적으로 테넌트 관리자는 이 위치에 액세스할 수 있으며, 준수 관리자 및 기타 사용자에게 테넌트 관리를 위한 모든 권한을 부여하지는 않으면서, 보안 및 준수 센터에 대한 액세스 권한을 부여할 수 있습니다. 이렇게 하기 위해 보안 및 준수 센터의 **권한** 페이지로 이동한 후 **준수 관리자** 역할 그룹을 편집하고 해당 역할 그룹에 구성원을 추가하는 것이 좋습니다. 
   
 자세한 내용은 [사용자에게 Office 365 보안 및 준수 센터에 대한 액세스 권한 부여](../security/office-365-security/grant-access-to-the-security-and-compliance-center.md)를 참조하세요.
   

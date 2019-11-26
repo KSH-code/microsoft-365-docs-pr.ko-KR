@@ -15,12 +15,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 6f916a77-301c-4be2-b407-6cec4d80df76
 description: 이 테스트 랩 가이드를 사용하여 Microsoft 365 Enterprise 테스트를 위한 간단한 테스트 환경을 만듭니다.
-ms.openlocfilehash: fce612000fac79fe9552fa9882d6c48fdacda1c2
-ms.sourcegitcommit: ea48c86c727dcd9d4b3b970b14a4260337f158f9
+ms.openlocfilehash: 6f49982fe71196f3c147c1638b402ee63bb861c1
+ms.sourcegitcommit: fb3815ee186b2b3ec790ee32a9d7b1628d623b0b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "38694125"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "39202309"
 ---
 # <a name="the-lightweight-base-configuration"></a>간단한 기본 구성
 
@@ -55,47 +55,19 @@ Office 365 E5 평가판 구독을 시작하려면 먼저 가상의 회사 이름
 
 1. 컴퓨터에서 인터넷 브라우저를 열고 [https://aka.ms/e5trial](https://aka.ms/e5trial)으로 이동합니다.
     
-2. **반갑습니다. 자기소개 정보를 제공해 주세요.** 페이지에서 다음을 지정합니다.
-    
-  - 사용자의 실제 위치
-    
-  - 새 Microsoft 계정의 이름 및 성
-    
-  - 새 전자 메일 계정 주소
-    
-  - 회사 전화 번호
-    
-  - 가상의 회사 이름
-    
-  - 250-999명의 사용자로 구성된 조직 규모
-    
-3. **마지막 단계만 남음**을 클릭합니다.
-    
-4. **사용자 ID 만들기** 페이지에서 새 전자 메일 주소를 기준으로 하는 사용자 이름을 입력하고 @ 기호를 입력한 후 가상의 회사를 입력하고(이름에서 모든 공백 제거), 이 새 Office 365 계정에 대한 암호를 입력합니다(두 번).
-    
-    입력한 암호를 안전한 위치에 기록해둡니다.
-    
-    **조직 이름**으로 지칭될 가상의 회사 이름을 여기에 기록합니다. ![](./media/Common-Images/TableLine.png)
-    
-5. **내 계정 만들기**를 클릭합니다.
-    
-6. **자동 가입 방지를 위한 절차입니다.** 페이지에서 문자 입력이 가능한 휴대폰의 전화 번호를 입력하고 **문자 메시지 받기**를 클릭합니다.
-    
-7. 받은 문자 메시지의 확인 코드를 입력하고 **다음**을 클릭합니다.
-    
-8. 여기에 로그인 페이지 URL을 기록합니다(선택 후 복사). ![](./media/Common-Images/TableLine.png)
-    
-9. 여기에 사용자 ID를 기록합니다(선택 후 복사). ![](./media/Common-Images/TableLine.png).onmicrosoft.com
-    
-    이 값은 **Office 365 전역 관리자 이름**으로 사용됩니다.
-    
-10. **준비가 되었습니다.** 가 표시되면 클릭합니다.
-    
-11. 다음 페이지에서 Office 365 설정이 완료되고 모든 타일을 사용할 수 있게 될 때까지 기다립니다.
-    
-Office 서비스 및 Microsoft 365 관리 센터에 액세스할 수 있는 기본 Office 365 포털 페이지가 표시됩니다.
+2. **Office 365 E5를 선택해 주셔서 감사합니다** 페이지에서 1단계의 새 이메일 계정 주소를 지정하십시오.
+3. 추적 구독 프로세스의 2단계에서 요청된 정보를 입력한 다음 확인을 수행하십시오.
+4. 3단계에서 조직 이름과 구독의 글로벌 관리자가 될 계정 이름을 입력하십시오. 
+5. 4단계에서 여기에 로그인 페이지를 기록합니다(선택 후 복사). ![](./media/Common-Images/TableLine.png) 
+6. 여기에 사용자 ID를 기록합니다. ![](./media/Common-Images/TableLine.png).onmicrosoft.com  
+   입력한 암호를 안전한 위치에 기록해둡니다.
+   이 값은 **Office 365 전역 관리자 이름**으로 사용됩니다.
+8. **설정으로 이동**을 클릭합니다.
+9. Office 365 E5 설정에서 **전자 메일 및 로그인에 대해 *조직*.onmicrosoft.com 계속 사용**을 클릭한 다음 **종료 및 나중에 계속**을 클릭합니다.
+
+Microsoft 365 관리 센터가 나타납니다.
   
-우리는 사용자의 Office 365의 평가판 구독을 생성하여 개발/테스트 환경에 사용자가 현재 보유하고 있는 유료 구독과 별도의 Azure AD 테넌트를 보유하게 합니다. 이러한 분리는 프로덕션 구독에 영향을 주지 않고 테스트 테넌트의 사용자 및 그룹을 추가 및 제거할 수 있음을 의미합니다.
+우리는 사용자의 Office 365의 평가판 구독을 생성하여 테스트 환경에 사용자가 현재 보유하고 있는 유료 구독과 별도의 Azure AD 테넌트를 보유하게 합니다. 이러한 분리는 프로덕션 구독에 영향을 주지 않고 테스트 테넌트의 사용자 및 그룹을 추가 및 제거할 수 있음을 의미합니다.
     
 ## <a name="phase-2-configure-your-office-365-trial-subscription"></a>2단계: Office 365 평가판 구독 구성
 
@@ -103,7 +75,7 @@ Office 서비스 및 Microsoft 365 관리 센터에 액세스할 수 있는 기�
   
 [Office 365 PowerShell에 연결](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module)의 지침을 사용하여 컴퓨터에서 그래프 모듈용 Azure Active Directory PowerShell을 사용하여 Office 365 구독에 연결합니다.
     
-Windows PowerShell 자격 증명 요청 대화 상자에서 Office 365 전역 관리자 이름(예: jdoe@contosotoycompany.onmicrosoft.com)과 암호를 입력합니다.
+**Windows PowerShell 자격 증명 요청** 대화 상자에서 Office 365 전역 관리자 이름(예: jdoe@contosotoycompany.onmicrosoft.com)과 암호를 입력합니다.
   
 조직 이름(예 : contosotoycompany), 위치에 대한 2 자리 국가 코드, 공통 계정 암호를 입력 한 다음 PowerShell 프롬프트에서 다음 명령을 실행합니다.
 
@@ -139,19 +111,19 @@ $LicensesToAssign.AddLicenses = $License
 Set-AzureADUserLicense -ObjectId $userUPN -AssignedLicenses $LicensesToAssign
 ```
 > [!NOTE]
-> 여기서 공통 암호를 사용하는 것은 자동화 및 개발/테스트 환경에 대한 구성 용이성을 위한 것입니다. 물론 프로덕션 구독에서는 공통 암호를 사용하지 않는 것이 좋습니다. 
+> 여기서 공통 암호를 사용하는 것은 자동화 및 테스트 환경에 대한 구성 용이성을 위한 것입니다. 물론 프로덕션 구독에서는 공통 암호를 사용하지 않는 것이 좋습니다. 
 
 ### <a name="record-key-information-for-future-reference"></a>나중에 참조할 수 있도록 주요 정보 기록
 
-이 문서를 인쇄하여 30일 동안의 Office 365 평가판 구독 기간 동안 환경에 필요한 특정 정보를 기록할 수 있습니다. 추가 30일 동안 평가판 구독을 쉽게 연장할 수 있습니다. 영구 개발/테스트 환경의 경우 별도의 Azure AD 테넌트와 소수의 라이선스를 사용해서 유료 구독을 새로 만듭니다.
+이 문서를 인쇄하여 30일 동안의 Office 365 평가판 구독 기간 동안 환경에 필요한 특정 정보를 기록할 수 있습니다. 추가 30일 동안 평가판 구독을 쉽게 연장할 수 있습니다. 영구 테스트 환경의 경우 별도의 Azure AD 테넌트와 소수의 라이선스를 사용해서 유료 구독을 새로 만듭니다.
 
 다음 값을 기록합니다.
   
-- Office 365 전역 관리자 이름: ![](./media/Common-Images/TableLine.png).onmicrosoft.com(2단계의 9번째 작업 단계)
+- Office 365 전역 관리자 이름: ![](./media/Common-Images/TableLine.png).onmicrosoft.com(6단계의 1번째 작업 단계)
     
     이 계정의 암호도 안전한 위치에 적어둡니다.
     
-- 평가판 구독 조 직 이름: ![](./media/Common-Images/TableLine.png)(4단계의 2번째 작업 단계)
+- 평가판 구독 조 직 이름: ![](./media/Common-Images/TableLine.png)(4단계의 1번째 작업 단계)
     
 - 사용자 2, 사용자 3, 사용자 4, 사용자 5에 대한 계정을 나열하려면 Windows PowerShell 프롬프트에 대한 Microsoft Azure Active Directory 모듈에서 다음 명령을 실행합니다.
     
@@ -172,9 +144,9 @@ Set-AzureADUserLicense -ObjectId $userUPN -AssignedLicenses $LicensesToAssign
     해당 계정의 공통 암호도 안전한 위치에 적어둡니다.
    
 
-### <a name="using-an-office-365-devtest-environment"></a>Office 365 개발/테스트 환경 사용
+### <a name="using-an-office-365-test-environment"></a>Office 365 테스트 환경 사용
 
-Office 365 개발/테스트 환경만을 필요로 하는 경우 여기에서 중단할 수 있습니다. 
+Office 365 테스트 환경만을 필요로 하는 경우 여기에서 중단할 수 있습니다. 
 
 Office 365 및 Microsoft 365 모두에 적용되는 추가 테스트 랩 가이드는 [Microsoft 365 Enterprise 테스트 랩 가이드](m365-enterprise-test-lab-guides.md)를 참조하세요.
   
@@ -182,27 +154,29 @@ Office 365 및 Microsoft 365 모두에 적용되는 추가 테스트 랩 가이�
 
 이 단계에서는 Microsoft 365 E5 평가판 구독을 등록하고 Office 365 E5 평가판 구독과 동일한 조직에 추가합니다.
   
-우선, Microsoft 365 E5 평가판 구독을 추가하고 전역 관리자 계정에 Microsoft 365 라이선스를 할당합니다.
+우선, Microsoft 365 E5 평가판 구독을 추가하고 전역 관리자 계정에 새로운 Microsoft 365 라이선스를 할당합니다.
   
 1. 인터넷 브라우저의 개인 인스턴스를 사용하고 전역 관리자 계정 자격 증명으로 [https://admin.microsoft.com](https://admin.microsoft.com)의 Microsoft 365 관리 센터에 로그인합니다.
     
 2. **Microsoft 365 관리 센터** 페이지에 있는 왼쪽 탐색 영역에서 **대금 청구 > 서비스 구매**를 차례로 클릭합니다.
     
-3. **서비스 구매** 페이지에서, **Microsoft 365 E5** 항목을 찾습니다. 마우스 포인터를 가져간 후 **평가판 시작**을 클릭합니다.
+3. **구입 서비스** 페이지에서 **Microsoft 365 E5**를 클릭한 다음 **무료 평가판 받기**를 클릭합니다.
 
-4. **Microsoft 365 E5 평가판** 페이지에서 텍스트 또는 전화를 받도록 선택한 다음, 전화 번호를 입력하고, **문자 받기** 또는 **전화 받기**를 클릭합니다.
+4. **Microsoft 365 E5 평가판** 페이지에서 텍스트 또는 전화를 받도록 선택한 다음, 전화 번호를 입력하고, **문자 받기** 또는 **전화 받기**를 클릭합니다. 인증을 수행합니다.
 
 5. **주문 확인** 페이지에서 **지금 평가판 사용**을 클릭합니다.
 
 6. **주문 접수** 페이지에서 **계속**을 클릭합니다.
 
-7. Microsoft 365 관리 센터에서 **활성 사용자**를 클릭 한 다음 관리자 계정을 클릭합니다.
+7. Microsoft 365 관리 센터에서 **사용자> 활성 사용자**를 클릭하십시오.
 
-8. **제품 라이센스**에 대한 **편집**을 클릭합니다.
+8. **활성 사용자**에서 관리자 계정을 클릭합니다.
 
-9. Office 365 Enterprise E5의 라이센스를 끄고 Microsoft 365 E5의 라이센스를 켭니다.
+9. **라이선스와 앱**을 클릭합니다.
 
-10. **저장 > 닫기 > 닫기**를 클릭합니다.
+10. Office 365 Enterprise E5의 라이센스를 비활성화하고 Microsoft 365 E5의 라이센스를 활성화합니다.
+
+11. **변경 내용 저장**을 클릭한 다음 사용자 계정 정보 창을 닫습니다.
 
 다음, 다른 모든 계정 (사용자 2, 사용자 3, 사용자 4 및 사용자 5)에 대해 이전 절차의 8단계에서 11단계를 반복합니다.
   
@@ -216,7 +190,7 @@ Office 365 및 Microsoft 365 모두에 적용되는 추가 테스트 랩 가이�
     
 다음에서는 구성 결과, Microsoft 365 E5를 추가하는 계정, Office 365 및 EMS(Enterprise Security + Management)를 포함하는 계정을 보여줍니다.
   
-![Microsoft 365 Enterprise 테스트 환경 2단계](media/lightweight-base-configuration-microsoft-365-enterprise/Phase2.png)
+![Microsoft 365 Enterprise 테스트 환경 3단계](media/lightweight-base-configuration-microsoft-365-enterprise/Phase2.png)
   
 ## <a name="phase-4-create-a-windows-10-enterprise-computer"></a>4단계: Windows 10 Enterprise 컴퓨터 만들기
 

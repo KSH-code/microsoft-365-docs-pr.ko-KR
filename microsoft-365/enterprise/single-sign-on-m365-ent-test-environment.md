@@ -3,7 +3,7 @@ title: Microsoft 365 테스트 환경을 위한 Azure AD Seamless Single Sign-On
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 08/21/2018
+ms.date: 11/21/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -16,12 +16,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: ''
 description: '요약: Microsoft 365 테스트 환경을 위한 Azure AD Seamless Single Sign-On을 구성하고 테스트합니다.'
-ms.openlocfilehash: 2845b3ec7d1725219fcbbb14ed4c1067a11a90bc
-ms.sourcegitcommit: 9ee873c6a2f738a0c99921e036894b646742e706
+ms.openlocfilehash: f263ab507e392c1172d28b5d6ef111d8d9f40682
+ms.sourcegitcommit: fb3815ee186b2b3ec790ee32a9d7b1628d623b0b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38673294"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "39202239"
 ---
 # <a name="azure-ad-seamless-single-sign-on-for-your-microsoft-365-test-environment"></a>Microsoft 365 테스트 환경을 위한 Azure AD Seamless Single Sign-On
 
@@ -49,9 +49,9 @@ Azure AD Seamless SSO(Single Sign-On)는 조직 네트워크에 연결된 PC 또
   
 이 구성은 다음으로 이루어집니다. 
   
-- Office 365 E5 및 EMS E5 평가판 또는 유료 구독
+- Microsoft 365 E5, Office 365 E5 평가판 또는 유료 구독
 - 인터넷에 연결된 간소화된 조직 인트라넷: Azure Virtual Network 서브넷에 있는 DC1, APP1 및 CLIENT1 가상 머신으로 구성됩니다. 
-- Azure AD Connect는 테스트 랩 AD DS(Active Directory 도메인 서비스) 도메인을 Office 365 및 EMS E5 구독의 Azure AD 테넌트와 주기적으로 동기화하기 위해 APP1에서 실행됩니다.
+- Azure AD Connect는 테스트 랩 AD DS(Active Directory 도메인 서비스) 도메인을 Microsoft 365 또는 Office 365 구독의 Azure AD 테넌트와 주기적으로 동기화하기 위해 APP1에서 실행됩니다.
 
 ## <a name="phase-2-configure-azure-ad-connect-on-app1-for-azure-ad-seamless-sso"></a>2단계: APP1에서 Azure AD Seamless SSO에 대한 Azure AD Connect 구성
 
@@ -81,7 +81,7 @@ Azure AD Seamless SSO(Single Sign-On)는 조직 네트워크에 연결된 PC 또
 
 11. Azure Portal의 왼쪽 창에서 **Azure Active Directory > Azure AD Connect**를 클릭합니다. **Seamless Single Sign-On** 기능이 **사용**으로 표시되는지 확인합니다.
 
-다음으로, user1 계정의 <strong>user1@testlab.</strong>\<사용자의 공용 도메인> 사용자 이름으로 Office 365 구독에 로그인하는 기능을 테스트합니다.
+다음으로, user1 계정의 <strong>user1@testlab.</strong>\<사용자의 공용 도메인> 사용자 이름으로 구독에 로그인하는 기능을 테스트합니다.
 
 1. APP1의 Internet Explorer에서 설정 아이콘을 클릭하고 **인터넷 옵션**을 클릭합니다.
  
@@ -93,11 +93,11 @@ Azure AD Seamless SSO(Single Sign-On)는 조직 네트워크에 연결된 PC 또
 
 5. **영역에 이 웹 사이트 추가**에서 **https<span>://</span>autologon.microsoftazuread sso.com**을 입력하고 **추가 > 닫기 > 확인 > 확인**을 클릭합니다.
 
-6. Office 365로부터 로그아웃했다가 다른 계정을 지정하여 다시 로그인합니다.
+6. 로그아웃했다가 다른 계정을 지정하여 다시 로그인합니다.
 
 7. 로그인하라는 메시지가 표시되면 <strong>user1@testlab.</strong>\<공용 도메인> 이름을 지정한 다음 **다음**을 클릭합니다. 암호를 묻는 창이 뜨지 않고 User1로 성공적으로 로그인해야 합니다. 이는 Azure AD Seamless SSO가 제대로 작동하고 있음을 증명합니다.
 
-User1에 TESTLAB AD DS 도메인에 대한 도메인 관리자 권한이 있더라도 Azure AD 및 Office 365 전역 관리자는 아닙니다. 따라서 **관리자** 아이콘이 옵션으로 표시되지 않습니다.
+User1에 TESTLAB AD DS 도메인에 대한 도메인 관리자 권한이 있더라도 Azure AD 전역 관리자는 아닙니다. 따라서 **관리자** 아이콘이 옵션으로 표시되지 않습니다.
 
 구성 결과는 다음과 같습니다.
 
@@ -106,9 +106,9 @@ User1에 TESTLAB AD DS 도메인에 대한 도메인 관리자 권한이 있더�
  
 이 구성은 다음으로 이루어집니다.
 
-- Office 365 E5 및 EMS E5 평가판 또는 DNS 도메인 TESTLAB.\<도메인 이름>이 등록된 유료 구독.
+- Microsoft 365 E5, Office 365 E5 평가판 또는 유료 구독(DNS 도메인 Test Lab 포함).\<도메인 이름> 등록됨.
 - 인터넷에 연결된 간소화된 조직 인트라넷: Azure Virtual Network 서브넷에 있는 DC1, APP1 및 CLIENT1 가상 머신으로 구성됩니다. 
-- Azure AD Connect는 Office 365 및 EMS E5 구독의 Azure AD 테넌트에 있는 계정 및 그룹 목록을 테스트 랩 AD DS 도메인과 동기화하기 위해 APP1에서 실행됩니다. 
+- Azure AD Connect는 Microsoft 365 또는 Office 365 구독의 Azure AD 테넌트에 있는 계정 및 그룹 목록을 테스트 랩 AD DS 도메인과 동기화하기 위해 APP1에서 실행됩니다. 
 - Azure AD Seamless SSO는 시뮬레이트된 인트라넷의 컴퓨터가 사용자 계정 암호를 지정하지 않아도 Microsoft 365 클라우드 리소스에 로그온할 수 있도록 하기 위해 설정됩니다.
 
 프로덕션 환경에서 Azure AD Seamless SSO를 구성하기 위한 정보 및 단계에 대해서는 ID 단계의 [사용자 로그인 간소화](identity-secure-your-passwords.md#identity-sso) 단계를 참조하세요.

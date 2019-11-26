@@ -16,13 +16,13 @@ ms.service: O365-seccomp
 localization_priority: Priority
 search.appverid:
 - MET150
-description: Office 365에서 DLP 정책을 사용하여 개인 데이터를 보호하는 방법을 알아봅니다.
-ms.openlocfilehash: 12d6de9b8012062e26daec922d5c55fa0f52381a
-ms.sourcegitcommit: 1c962bd0d51dc12419c4e6e393bb734c972b7e38
+description: Office 365에서 DLP(데이터 손실 방지) 정책을 사용하여 개인 데이터를 보호하는 방법을 알아봅니다.
+ms.openlocfilehash: e3f7bdc589b34da0aad8baabd5b54bcfd59f25b9
+ms.sourcegitcommit: e292e9f0181d722a11398fbd012bb84589aef052
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "38708187"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "39256785"
 ---
 # <a name="apply-protection-to-personal-data-in-office-365"></a>Office 365의 개인 데이터에 보호 적용
 
@@ -84,7 +84,7 @@ Office 365 DLP의 기본적인 사용 중 하나는 Office 365 환경에서 EU �
 <td align="left"><p>이 데이터가 SharePoint Online 및 비즈니스용 OneDrive의 문서에서 확인될 때 규정 준수 팀에게 전자 메일 알림을 보냅니다.</p>
 <p>이 데이터가 들어 있는 문서에 액세스할 때 정책 팁을 사용자 지정한 후 SharePoint 및 비즈니스용 OneDrive의 직원에게 표시합니다.</p>
 <p>이 데이터가 공유되는 경우를 감지하고 보고합니다.</p></td>
-<td align="left"><p>이 데이터가 저장된 위치와 관련해서 직원은 물론 규정 준수 팀의 인식을 높입니다.</p>
+<td align="left"><p>이 데이터가 저장된 위치와 관련해서 규정 준수 팀과 직원의 인식을 높입니다.</p>
 <p>이 데이터를 포함하는 문서의 처리에 대한 회사 정책을 직원에게 교육합니다.</p>
 <p>직원이 내부 또는 외부적으로 이 데이터를 공유하지 못하게 합니다.</p>
 <p>공유 데이터에 대한 DLP 보고서를 검토하고 있는 보호를 강화해야 하는지 여부를 결정할 수 있습니다.</p></td>
@@ -156,11 +156,11 @@ Office 365 DLP의 기본적인 사용 중 하나는 Office 365 환경에서 EU �
 
 모든 위치에는 다음이 포함됩니다.
 
--   SharePoint Online
+- SharePoint Online
 
--   비즈니스용 OneDrive 계정
+- 비즈니스용 OneDrive 계정
 
--   Exchange 사서함
+- Exchange 사서함
 
 현재 콘텐츠 검색 기능으로 전자 메일을 포함하는 중요한 정보 유형을 테스트할 수 없으므로, 각 정책의 중요한 정보 유형 부분에 대한 Exchange용 정책을 따로 만들고 이러한 정책의 롤아웃을 모니터링하는 것이 좋습니다.
 

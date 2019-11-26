@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 안전한 팀을 만들어 중요하고 민감한 파일을 저장할 수 있습니다.
-ms.openlocfilehash: d875c3148a019774e038d18a75bb6fb2c2413463
-ms.sourcegitcommit: 0ceb79a633f7004e82b80e69b6f7a7329ccec7ff
+ms.openlocfilehash: cc29bbc076bf4d66593f785a1e4d1f881a530d83
+ms.sourcegitcommit: fb3815ee186b2b3ec790ee32a9d7b1628d623b0b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "38699768"
+ms.lasthandoff: 11/22/2019
+ms.locfileid: "39202429"
 ---
 # <a name="teams-for-highly-regulated-data"></a>높은 규제 대상 데이터에 대한 Teams
 
@@ -213,6 +213,12 @@ Office 365 그룹을 기반으로 하는 개인 액세스를 넘어서, 이 문�
   SharePoint에서 폴더를 보고 **열 추가**의 **열 표시/숨기기** 옵션을 통해 **민감도** 열을 추가하여 레이블이 할당된 파일을 볼 수 있습니다.
 
 필요에 따라 사용자를 재교육합니다.
+
+## <a name="demonstrate-this-in-a-test-environment"></a>테스트 환경에서 이에 대해 설명
+
+민감 또는 기밀 파일이 있는지 팀을 테스트하기 위한 자체 테스트 환경을 구축하려면 [이 지침](https://docs.microsoft.com/microsoft-365/security/office-365-security/secure-team-for-files-in-a-dev-test-environment)을 참조하십시오. 
+
+![Microsoft 클라우드의 테스트 랩 가이드](media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)
 
 ## <a name="how-the-contoso-corporation-used-a-secure-team-for-a-top-secret-project"></a>Contoso Corporation이 극비 프로젝트를 위해 보안 팀을 사용하는 방법
 
