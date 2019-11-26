@@ -10,17 +10,18 @@ localization_priority: Priority
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
+- SPO_Content
 search.appverid:
 - MOE150
 - MET150
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: '보안 및 준수 센터를 사용하여 통합 감사 로그를 검색해 Office 365 조직의 사용자 및 관리자 활동을 확인합니다. '
-ms.openlocfilehash: 9885463e61c36713cbd7be82ac1ef2caaee70e7a
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 43ab1083ad028ee53ad355a84fda17b02decbc70
+ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37087205"
+ms.lasthandoff: 11/14/2019
+ms.locfileid: "39233521"
 ---
 # <a name="search-the-audit-log-in-the-security--compliance-center"></a>보안 및 준수 센터에서 감사 로그 검색
 
@@ -86,13 +87,13 @@ Office 365 감사 로그의 검색을 시작하기 전에 반드시 아래 내�
 
 - 조직에서 Office 365 감사 로그 검색을 해제하려면 Exchange Online 조직에 연결된 원격 PowerShell에서 다음과 같은 명령을 실행하세요.
 
-  ```
+  ```powershell
   Set-AdminAuditLogConfig -UnifiedAuditLogIngestionEnabled $false
   ```
 
     감사 검색을 다시 설정하기 위해 Exchange Online PowerShell에서 다음 명령을 실행할 수 있습니다.
 
-  ```
+  ```powershell
   Set-AdminAuditLogConfig -UnifiedAuditLogIngestionEnabled $true
   ```
 
@@ -213,6 +214,9 @@ Office 365에서 감사 로그를 검색하는 과정은 다음과 같습니다.
 
 - **IP 주소**: 활동을 기록할 때 사용된 장치의 IP 주소입니다. IP 주소는 IPv4 또는 IPv6 주소 형식으로 표시됩니다.
 
+   > [!NOTE]
+  > 일부 서비스의 경우 이 필드에 표시되는 값은 활동을 수행한 사람이 사용한 장치의 IP 주소가 아니라 사용자 대신 서비스를 호출하는 신뢰할 수 있는 응용 프로그램(예: 웹 앱의 Office)에 대한 IP 주소일 수 있습니다.  또한 Azure Active Directory 관련 이벤트에 대한 관리자 활동(또는 시스템 계정에서 수행한 활동)의 경우 IP 주소가 로깅되지 않으며 이 필드에 표시되는 값은 `null`입니다.
+
 - **사용자**: 이벤트를 트리거한 작업을 수행한 사용자(또는 서비스 계정)입니다.
 
 - **활동**: 사용자가 수행한 활동입니다. 이 값은 **활동** 드롭다운 목록에서 선택한 활동에 해당합니다. Exchange 관리자 감사 로그의 이벤트에 대한 이 열의 값은 Exchange cmdlet입니다.
@@ -296,8 +300,9 @@ Office 365에서 감사 로그를 검색하는 과정은 다음과 같습니다.
 |[사용자 관리 활동](#user-administration-activities)|[Azure AD 그룹 관리 활동](#azure-ad-group-administration-activities)|[응용 프로그램 관리 활동](#application-administration-activities)|
 |[역할 관리 활동](#role-administration-activities)|[디렉터리 관리 활동](#directory-administration-activities)|[eDiscovery 활동](#ediscovery-activities)|
 |[고급 eDiscovery 활동](#advanced-ediscovery-activities)|[Power BI 활동](#power-bi-activities)|[Microsoft Workplace Analytics](#microsoft-workplace-analytics-activities)|
-|[Microsoft Teams 활동](#microsoft-teams-activities)|[Yammer 활동](#yammer-activities)|[Microsoft Flow 활동](#microsoft-flow-activities)|
-|[Microsoft PowerApps 활동](#microsoft-powerapps)|[Microsoft Stream 활동](#microsoft-stream-activities)|[Exchange 관리자 활동](#exchange-admin-audit-log)|
+|[Microsoft Teams 활동](#microsoft-teams-activities)|[Microsoft Teams 보건 활동](#microsoft-teams-healthcare-activities)|[Yammer 활동](#yammer-activities)|
+|[Microsoft Flow 활동](#microsoft-flow-activities)|[Microsoft PowerApps 활동](#microsoft-powerapps)|[Microsoft Stream 활동](#microsoft-stream-activities)|
+[Exchange 관리자 활동](#exchange-admin-audit-log)|||
 ||||
 
 ### <a name="file-and-page-activities"></a>파일 및 페이지 활동
@@ -439,7 +444,7 @@ Office 365에서 감사 로그를 검색하는 과정은 다음과 같습니다.
 
 |**친숙한 이름**|**작업**|**설명**|
 |:-----|:-----|:-----|
-|사이트 모음 관리자 추가됨|SiteCollectionAdminAdded|사이트 모음 관리자 또는 소유자가 사이트에 대한 사이트 모음 관리자로 사용자를 추가합니다. 사이트 모음 관리자는 사이트 모음 및 모든 하위 사이트에 대한 모든 권한을 갖습니다. 이 활동은 또한 관리자가 사용자의 OneDrive 계정에 액세스할 수 있는 경우(SharePoint 관리 센터에서 사용자 프로필을 편집하거나 [Microsoft 365 관리 센터를 사용하는 경우](https://docs.microsoft.com/office365/admin/add-users/get-access-to-and-back-up-a-former-user-s-data#part-1---get-access-to-the-former-employees-onedrive-for-business-documents))에도 기록됩니다.|
+|사이트 모음 관리자 추가됨|SiteCollectionAdminAdded|사이트 모음 관리자 또는 소유자가 사이트에 대한 사이트 모음 관리자로 사용자를 추가합니다. 사이트 모음 관리자는 사이트 모음 및 모든 하위 사이트에 대한 모든 권한을 갖습니다. 이 활동은 또한 관리자가 사용자의 OneDrive 계정에 액세스할 수 있는 경우(SharePoint 관리 센터에서 사용자 프로필을 편집하거나 [Microsoft 365 관리 센터를 사용하는 경우](https://docs.microsoft.com/office365/admin/add-users/get-access-to-and-back-up-a-former-user-s-data))에도 기록됩니다.|
 |SharePoint 그룹에 사용자 또는 그룹 추가됨|AddedToGroup|사용자가 SharePoint 그룹에 구성원 또는 게스트를 추가했습니다. 이는 의도된 작업이거나 공유 이벤트와 같은 다른 활동의 결과일 수 있습니다.|
 |사용 권한 수준 상속 해제|PermissionLevelsInheritanceBroken|항목이 더 이상 부모에서 사용 권한을 상속하지 않도록 변경되었습니다.|
 |상속 공유 해제|SharingInheritanceBroken|항목이 더 이상 부모에서 공유 권한을 상속하지 않도록 변경되었습니다.|
@@ -680,7 +685,7 @@ Power BI에 대 한 감사 로깅은 기본적으로 사용하지 않도록 설�
 
 ### <a name="microsoft-workplace-analytics-activities"></a>Microsoft Workplace Analytics 활동
 
-Workplace Analytics는 Office 365 조직에서 그룹이 공동으로 작업하는 방법에 대한 정보를 줍니다. 다음 표는 Workplace Analytics에서 관리자 역할 또는 분석가 역할이 할당된 사용자가 수행한 활동을 나열합니다. 분석 역할이 할당된 사용자는 모든 서비스 기능에 대한 전체 액세스 권한을 가지며 제품을 사용하여 분석을 수행합니다. 관리자 역할이 할당된 사용자는 개인 정보 설정 및 시스템 기본값을 구성하고 Workplace Analytics에서 조직 데이터를 준비, 업로드 및 확인할 수 있습니다. 자세한 내용은 [Workplace Analytics](https://docs.microsoft.com/ko-KR/workplace-analytics/index-orig)를 참조하세요.
+Workplace Analytics는 Office 365 조직에서 그룹이 공동으로 작업하는 방법에 대한 정보를 줍니다. 다음 표는 Workplace Analytics에서 관리자 역할 또는 분석가 역할이 할당된 사용자가 수행한 활동을 나열합니다. 분석 역할이 할당된 사용자는 모든 서비스 기능에 대한 전체 액세스 권한을 가지며 제품을 사용하여 분석을 수행합니다. 관리자 역할이 할당된 사용자는 개인 정보 설정 및 시스템 기본값을 구성하고 Workplace Analytics에서 조직 데이터를 준비, 업로드 및 확인할 수 있습니다. 자세한 내용은 [Workplace Analytics](https://docs.microsoft.com/workplace-analytics/index-orig)를 참조하세요.
 
 |**친숙한 이름**|**작업**|**설명**|
 |:-----|:-----|:-----|
@@ -724,8 +729,16 @@ Workplace Analytics는 Office 365 조직에서 그룹이 공동으로 작업하�
 |탭 제거됨|TabRemoved|사용자는 채널에서 탭을 제거합니다.|
 |커넥터가 업데이트됨|ConnectorUpdated|사용자가 채널의 커넥터를 수정했습니다.|
 |탭이 업데이트됨|TabUpdated|사용자가 채널의 탭을 수정했습니다.|
-|사용자가 Teams에 로그인함|TeamsSessionStarted|사용자가 Microsoft Teams 클라이언트에 로그인합니다.|
+|사용자가 Teams에 로그인함|TeamsSessionStarted|사용자가 Microsoft Teams 클라이언트에 로그인합니다. 이 이벤트는 토큰 새로 고침 활동을 캡처하지 않습니다.|
 ||||
+
+### <a name="microsoft-teams-healthcare-activities"></a>Microsoft Teams 보건 활동
+
+조직에서 Microsoft Teams의 [환자 응용 프로그램](https://docs.microsoft.com/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app-overview)을 사용하는 경우 환자 앱을 사용과 관련된 활동에 대한 감사 로그를 검색할 수 있습니다. 환자 앱을 지원하도록 환경을 구성한 경우 이러한 활동에 대한 추가 활동 그룹을 **활동** 선택기 목록에서 사용할 수 있습니다.
+
+![활동 선택기 목록에서 Microsoft Teams의 보건 활동](media/TeamsHealthcareAuditActivities.png)
+
+환자 앱 활동에 대한 자세한 내용은 [환자 앱에 대한 감사 로그](https://docs.microsoft.com/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-audit)를 참조하세요.
 
 ### <a name="yammer-activities"></a>Yammer 활동
 
@@ -758,7 +771,7 @@ Microsoft Flow에서 활동에 대한 감사 로그를 검색할 수 있습니�
 
 ### <a name="microsoft-powerapps"></a>Microsoft PowerApps
 
-PowerApps에서 활동에 대한 감사 로그를 검색할 수 있습니다. 이러한 활동에는 앱을 만들고, 시작하고, 게시하는 작업이 포함됩니다. 앱에 대한 사용 권한을 할당하는 방법도 감사할 수 있습니다. 모든 PowerApps 활동에 대한 설명은 [PowerApps에 대한 활동 로깅](https://docs.microsoft.com/ko-KR/power-platform/admin/logging-powerapps#what-events-are-audited)을 참조하세요.
+PowerApps에서 활동에 대한 감사 로그를 검색할 수 있습니다. 이러한 활동에는 앱을 만들고, 시작하고, 게시하는 작업이 포함됩니다. 앱에 대한 사용 권한을 할당하는 방법도 감사할 수 있습니다. 모든 PowerApps 활동에 대한 설명은 [PowerApps에 대한 활동 로깅](https://docs.microsoft.com/power-platform/admin/logging-powerapps#what-events-are-audited)을 참조하세요.
 
 ### <a name="microsoft-stream-activities"></a>Microsoft Stream 활동
 
