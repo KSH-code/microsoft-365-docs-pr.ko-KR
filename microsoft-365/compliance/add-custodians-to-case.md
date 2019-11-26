@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 287d5252fd787d80a20ff6cff77a7b1f7cf7e0bf
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: fc8002d900c38dee1b8487bbc0167b956f63b97f
+ms.sourcegitcommit: e292e9f0181d722a11398fbd012bb84589aef052
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37087783"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "39257056"
 ---
 # <a name="add-custodians-to-an-advanced-ediscovery-case"></a>고급 eDiscovery 사례에 custodians 추가
 
@@ -50,17 +50,17 @@ Custodians를 사례에 추가 하려면 eDiscovery 관리자 역할 그룹의 �
   
 ## <a name="step-2-select-custodian-data-sources"></a>2 단계: custodian 데이터 원본 선택
 
-Custodians을 추가한 후에는 custodian 도구를 통해 각 custodian에서 소유 하는 기본 데이터 원본을 확인할 수 있습니다. 특히 이러한 데이터 위치는 custodian의 Exchange 사서함 및 OneDrive 계정입니다. 
+Custodians을 추가한 후에는 custodian 도구를 통해 각 custodian에서 소유한 기본 데이터 원본을 식별할 수 있습니다. 이러한 데이터 위치는 custodian의 Exchange 사서함 및 OneDrive 계정입니다. 
 
 Custodian 데이터 원본을 확인 하려면 다음을 수행 합니다. 
 
-1. 모든 custodians에 대 한 Exchange 사서함을 선택 하려면 열 맨 위에 있는 **exchange** 확인란을 클릭 합니다. 그런 다음 특정 custodian의 확인란을 선택 취소 하 여 사서함을 custodial 위치로 제거할 수 있습니다. 또는 열 맨 위에 있는 **Exchange** 확인란을 선택 하지 않은 채로 둔 다음 개별 custodians에 대 한 확인란을 선택할 수 있습니다. 
+1. 모든 custodians에 대 한 Exchange 사서함을 선택 하려면 열 맨 위에 있는 **exchange** 확인란을 선택 합니다. 그런 다음 특정 custodian에 대 한 확인란의 선택을 취소 하 여 사서함을 custodial 위치로 제거할 수 있습니다. 또는 열 위쪽에 있는 **Exchange** 확인란을 선택 하지 않은 채로 둔 다음 개별 custodians에 대 한 확인란을 선택할 수 있습니다. 
  
    ![Custodial 데이터 원본 선택](media/AddCustodianStep2.png)
  
 2. Custodians의 OneDrive 계정에 대해 동일한 작업을 반복 합니다. 
 
-    Custodian 데이터 원본을 선택한 후에는 자동으로 이러한 데이터 원본을 식별 하 고 확인 한 다음 custodians와 연결 된 데이터 원본으로이를 사례에 추가 합니다.
+    Custodian 데이터 원본을 선택한 후에는 시스템에서 이러한 데이터 원본을 자동으로 식별 하 고 확인 한 다음 custodians와 연결 된 데이터 원본으로이를 사례에 추가 합니다.
  
 4. **다음** 을 클릭 하 여 대/소문자를 구분 하 여 추가 데이터 원본을 custodians에 연결 합니다.
 
@@ -74,7 +74,7 @@ Custodian 데이터 원본을 확인 하려면 다음을 수행 합니다.
   
    ![추가 데이터 원본 매핑](media/AddCustodianStep3.PNG)
 
-2. 플라이 아웃 페이지에서 다음 Office 365 서비스의 데이터 원본을 지정할 수 있습니다.
+2. 플라이 아웃 페이지에서는 다음 Office 365 서비스 중 하나에서 데이터 원본을 지정할 수 있습니다.
   
    -  **Exchange 전자 메일** - **사용자, 그룹 또는 팀 선택을** 클릭 한 다음 **사용자, 그룹 또는 팀 선택을** 클릭 합니다. 검색 상자를 사용 하 여 custodian와 연결할 사서함을 찾습니다. 선택한 custodian에 할당할 사서함을 지정 하려면 검색 상자를 사용 하 여 사용자 사서함 및 메일 그룹을 찾습니다. 또한 Office 365 그룹 또는 Microsoft 팀에 연결 된 사서함을 할당할 수 있습니다. 사용자, 그룹, 팀 확인란을 선택 하 고 **선택을**클릭 한 후 **완료**를 클릭 합니다.
 
@@ -94,17 +94,17 @@ Custodian 데이터 원본을 확인 하려면 다음을 수행 합니다.
 
 ## <a name="step-4-place-custodians-on-hold"></a>4 단계: custodians를 보류에 배치
 
-사례에 추가할 custodians 및 데이터 원본을 완성 한 후에는 필요에 따라 custodians 중 일부 또는 전체를 보류할 수 있습니다. Custodian을 보류할 때 custodian에 연결 된 모든 콘텐츠 위치의 모든 콘텐츠는 보류를 제거 하거나에서 custodian를 해제할 때까지 보존 됩니다. 경우에 따라 custodians를 보류 하지 않고 대/소문자에 추가할 수 있습니다.
+사례에 추가할 custodians 및 데이터 원본을 완성 한 후에는 필요에 따라 custodians 중 일부 또는 전체를 보류할 수 있습니다. Custodian을 보류할 경우 custodian와 연결 된 모든 콘텐츠 위치의 모든 콘텐츠는 보류를 제거 하거나 보류에서 custodian를 해제할 때까지 보존 됩니다. 경우에 따라 custodians를 보류 하지 않고 대/소문자에 추가할 수 있습니다.
 
 Custodians 및 데이터 원본을 보류 하려면 다음을 수행 합니다.
 
-1. **선택한 custodians** 페이지를 유지 하려면 열 맨 위에 있는 **보류** 확인란을 클릭 하 여 모든 custodians을 보류 상태로 둡니다. 그런 다음 보류에서 제거할 특정 custodian의 확인란을 선택 취소할 수 있습니다. 또는 열 맨 위에 있는 **보류** 확인란을 선택 하지 않은 상태로 둔 다음 개별 custodians에 대 한 확인란을 선택할 수 있습니다. 
+1. **선택한 custodians** 페이지를 유지 하려면 열 위쪽에 있는 **보류** 확인란을 선택 하 여 모든 custodians를 보류 상태로 설정 합니다. 그런 다음 특정 custodian에 대 한 확인란의 선택을 취소 하 여 보류에서 제거할 수 있습니다. 선택 하지 않은 열 위에 있는 **보류** 확인란을 선택 하지 않은 상태로 둔 다음 개별 custodians에 대 한 확인란을 선택할 수도 있습니다. 
  
    ![위치 유지](media/AddCustodianStep5.PNG)
 
 2. Custodian 보류 선택 사항을 확인 하 고 **완료**를 클릭 합니다.
 
-A custodian를 설치 하지 않으면 custodian 및 연결 된 데이터 원본이 사례에 추가 되지만 해당 데이터 원본의 콘텐츠가 보존 되지 않습니다.
+Custodian에 대 한 보류를 설정 하지 않으면 custodian 및 연결 된 데이터 원본이 사례에 추가 되지만 해당 데이터 원본의 콘텐츠는 보존 되지 않습니다.
 
 Custodian가 보존 된 후에는 모든 custodial 원본이 포함 된 custodian 보류 정책이 자동으로 만들어집니다. 이 정책을 보려면 다음을 수행 합니다.
 

@@ -14,16 +14,16 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: b331bba76f45a11a4d1c8c0552b27759cf49608a
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 60436db997d75d92e7d17fc27f66eb3944b419d8
+ms.sourcegitcommit: e292e9f0181d722a11398fbd012bb84589aef052
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37087747"
+ms.lasthandoff: 11/25/2019
+ms.locfileid: "39256905"
 ---
 # <a name="analyze-data-in-a-review-set-in-advanced-ediscovery"></a>고급 eDiscovery에서 검토 집합의 데이터 분석
 
-수집 된 문서 수가 크면 검토 하는 것이 상당히 어려울 수 있습니다. 고급 eDiscovery에서는 문서를 분석 하 여 정보 손실 없이 검토할 문서 크기를 줄이고 일관 된 방식으로 문서를 구성 하는 데 도움이 되는 다양 한 도구를 제공 합니다. 이러한 기능에 대 한 자세한 내용은 다음 항목을 참조 하십시오.
+수집 된 문서 수가 크면 검토 하기가 어려울 수 있습니다. 고급 eDiscovery에서는 문서를 분석 하 여 정보 손실 없이 검토할 문서 크기를 줄이고 일관 된 방식으로 문서를 구성 하는 데 도움이 되는 다양 한 도구를 제공 합니다. 이러한 기능에 대 한 자세한 내용은 다음 항목을 참조 하십시오.
 
 - [중복에 가까운 검색](near-duplicates.md)
 
@@ -43,7 +43,7 @@ ms.locfileid: "37087747"
 
 사례에 대 한 **작업** 탭에서 분석 진행률을 확인할 수 있습니다.
 
- 분석이 완료 되 면 분석 보고서를 보고, 분석 출력에 대 한 검토 집합 내에서 쿼리를 실행 하 고 ( [검토 집합 내의 쿼리](review-set-search.md)참조), 지정 된 문서의 관련 문서를 볼 수 있습니다 ( [검토 집합의 데이터 검토](reviewing-data-in-review-set.md)참조).
+ 분석이 완료 되 면 분석 보고서를 보고, 분석 출력에 대 한 검토 집합 내에서 쿼리를 실행 하 고 ( [검토 집합 내의 쿼리](review-set-search.md)참조), 지정 된 문서의 관련 문서를 볼 수 있습니다 ( [검토 설정에서 데이터 검토](reviewing-data-in-review-set.md)참조).
 
 ## <a name="analytics-report"></a>분석 보고서
 
@@ -63,4 +63,4 @@ ms.locfileid: "37087747"
 
 - **전자 메일** -inclusives, 포함 복사본, 포함 minuses 또는이 중 어느 것도 사용 되지 않은 전자 메일 메시지의 수입니다.
 
-- **첨부 파일** -검토 집합에 있는 다른 전자 메일 첨부 파일의 고유 복사본 또는 중복 된 전자 메일 첨부 파일의 수입니다.
+- **첨부 파일** -검토 집합에 있는 다른 전자 메일 첨부 파일의 고유 또는 중복 되는 전자 메일 첨부 파일의 수입니다.

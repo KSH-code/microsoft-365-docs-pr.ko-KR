@@ -10,14 +10,14 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: faf1efd1-3b0c-411a-804d-17f37292eac0
 description: 일반적인 구성 오류를 방지하고 구성 설정에 성공하려면 Exchange Online Protection EOP 모범 사례 권장 사항을 따르세요.
-ms.openlocfilehash: ccc312d6e3e9954ea38b10ebe9b4c8877a85b925
-ms.sourcegitcommit: e292e9f0181d722a11398fbd012bb84589aef052
+ms.openlocfilehash: 3146cb9a5141dfe87e9f31791c107be296121126
+ms.sourcegitcommit: e27fe0d97b9c446b1cc80561f7190d08c12d9e0c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "39257293"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "39262701"
 ---
-# <a name="best-practices-for-configuring-eop"></a>EOP 구성을 위한 모범 사례
+# <a name="best-practices-for-configuring-eop-and-office-365-atp"></a>EOP 및 Office 365 ATP 구성 모범 사례
 
 일반적인 구성 오류를 방지하고 구성 설정에 성공하려면 Exchange Online Protection EOP 모범 사례 권장 사항을 따르세요. 이 항목에서는 설정 프로세스를 이미 완료했다고 가정합니다. EOP 설정을 완료하지 않은 경우 [EOP 서비스 설정](set-up-your-eop-service.md)을 참조하세요.
 
