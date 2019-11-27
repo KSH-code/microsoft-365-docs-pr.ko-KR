@@ -13,14 +13,17 @@ search.appverid:
 - MET150
 ms.assetid: 429e686f-d8a6-455e-a2b6-3791d763f000
 description: 'Microsoft Service Trust Portal의 준수 관리자는 Office 365 및 Microsoft Azure와 같은 Microsoft 클라우드 서비스에 대해 측정했을 때 조직이 보안 및 데이터 보호 산업 표준(예: GDPR, ISO 27001 및 27018, HIPAA)을 준수하는 데 도움이 되는 컨트롤을 추적, 구현 및 관리하기 위한 도구를 제공합니다. 준수 관리자는 조직의 데이터 보호 및 개인 정보 보호 전략을 감독하는 담당자가 규정 준수 및 위험 평가 프로세스를 관리하는 데 도움을 줍니다.'
-ms.openlocfilehash: 95816ca13818d068066c4e3c7fce371f1eeccc25
-ms.sourcegitcommit: 15173ab87325b7d79bab683702b35d77a355cd6b
+ms.openlocfilehash: 4c3f979caf2fdc3a2dc942e49fd33a09d2d1589a
+ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/08/2019
-ms.locfileid: "37417597"
+ms.lasthandoff: 11/07/2019
+ms.locfileid: "39268602"
 ---
-# <a name="use-compliance-manager-to-help-meet-data-protection-and-regulatory-requirements-when-using-microsoft-cloud-services"></a>Microsoft 클라우드 서비스를 사용하는 경우 준수 관리자를 사용하여 데이터 보호 및 규정 요구 사항 충족
+# <a name="microsoft-compliance-manager-classic"></a>Microsoft 준수 관리자(기본)
+
+> [!NOTE]
+> 이 문서에서는 레거시 제품에 대해 설명합니다. 사용자는 이 버전의 준수 관리자를 사용하지 말고 대신 새로운 [Microsoft 준수 점수](compliance-score.md)를 사용하는 것이 좋습니다.
 
  *준수 관리자는 21Vianet, Office 365 Germany, Office 365 미국 GCC(Government Community High) 또는 Office 365 미국방부에서 운영하는 Office 365에서 사용할 수 없습니다.* 
   
@@ -831,4 +834,4 @@ Service Trust Portal에서 다양한 언어로 페이지 콘텐츠를 볼 수 �
 
 - [준수 관리자 일반 공급 발표](https://techcommunity.microsoft.com/t5/Security-Privacy-and-Compliance/Announcing-Compliance-Manager-general-availability/ba-p/161922)
 
-- [Microsoft 365에서 GDPR에 도움이 되는 정보 보호 전략 제공](https://blogs.office.com/ko-KR/2018/02/22/microsoft-365-provides-an-information-protection-strategy-to-help-with-the-gdpr)
+- [Microsoft 365에서 GDPR에 도움이 되는 정보 보호 전략 제공](https://blogs.office.com/2018/02/22/microsoft-365-provides-an-information-protection-strategy-to-help-with-the-gdpr)

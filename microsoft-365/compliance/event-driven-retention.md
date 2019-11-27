@@ -1,7 +1,7 @@
 ---
 title: 이벤트 구동 보존 개요
-ms.author: stephow
-author: stephow-MSFT
+ms.author: laurawi
+author: laurawi
 manager: laurawi
 ms.date: ''
 audience: Admin
@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 레이블을 사용하여 특정 유형의 이벤트가 발생하는 시점을 기준으로 보존 기간을 지정할 수 있습니다. 이벤트는 보존 기간의 시작을 트리거하며, 해당 유형의 이벤트에 적용된 보존 레이블이 있는 모든 콘텐츠에 대해 레이블 보존 작업이 적용됩니다. 이벤트 기반 보존은 일반적으로 기록 관리 프로세스의 일부로 사용됩니다.
-ms.openlocfilehash: 1f258296017734c80cb3719eb0b830593f69b220
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 08e4f8b5a761cfd80d1b2039c5e2b7a9c1fee981
+ms.sourcegitcommit: 0830be61e21570ee3a2589e35c21f358b52585c0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088054"
+ms.lasthandoff: 10/29/2019
+ms.locfileid: "39268587"
 ---
 # <a name="overview-of-event-driven-retention"></a>이벤트 구동 보존 개요
 
@@ -42,7 +42,7 @@ ms.locfileid: "37088054"
 - 일반적으로 이벤트를 기준으로 하는 레이블은 보존 기간이 끝나면 처리 검토를 트리거하므로 기록 관리자는 콘텐츠를 수동으로 검토하고 처리할 수 있습니다. 자세한 내용은 [처리 검토 개요](disposition-reviews.md)를 참조하세요.
     
 이벤트를 기준으로 하는 레이블은 Office 365의 레이블과 동일한 기능을 제공합니다. 자세한 내용은 [레이블 개요](labels.md)를 참조하세요.
-    
+
 ## <a name="understanding-the-relationship-between-event-types-labels-events-and-asset-ids"></a>이벤트 유형, 레이블, 이벤트 및 자산 ID 간 관계 이해
 
 이벤트 구동 보존을 성공적으로 사용하려면 여기에 설명된 것처럼 이벤트 유형, 레이블, 이벤트 및 자산 ID 간 관계를 이해하는 것이 중요합니다. 다이어그램 다음에 설명이 제공됩니다.
@@ -75,6 +75,9 @@ ms.locfileid: "37088054"
   
 ![이벤트 구동 보존을 설정하는 워크플로 다이어그램](media/161146d9-e0fc-4248-abc1-a18045eaad5c.png)
   
+> [!TIP]
+> SharePoint에서 관리 속성을 사용하여 보존 레이블을 자동 적용하고 이벤트 중심 보존을 구현하는 방법에 대한 자세한 시나리오는 [보존 레이블로 SharePoint 문서의 수명 주기 관리](auto-apply-retention-labels-scenario.md)를 참조하세요.
+
 ### <a name="step-1-create-a-label-whose-retention-period-is-based-on-an-event"></a>1단계: 보존 기간이 이벤트에 따라 조정되는 레이블 만들기
 
 Microsoft 365 규정 준수 센터, Microsoft 365 보안 센터 또는 Office 365 보안 &amp; 규정 센터의 왼쪽 탐색에서 **분류** > **보존 레이블** > **레이블** 탭 > **레이블 만들기**를 선택합니다.
@@ -103,7 +106,7 @@ Microsoft 365 규정 준수 센터, Microsoft 365 보안 센터 또는 Office 36
   
 ### <a name="step-3-publish-or-auto-apply-the-label"></a>3단계: 레이블 게시 또는 자동 적용
 
-다른 레이블과 마찬가지로 이벤트 기반 레이블을 게시하거나 자동 적용해야만 콘텐츠에 수동 또는 자동으로 적용됩니다. 이는 **분류** > **보존 레이블** 페이지에서 적용할 수 있습니다.
+다른 레이블과 마찬가지로 이벤트 기반 레이블을 게시하거나 자동 적용해야만 콘텐츠에 수동 또는 자동으로 적용됩니다. **분류** > **보존 레이블** 페이지에서 이 작업을 수행할 수 있습니다.
   
 ![보존 레이블 게시 또는 자동 적용 옵션](media/options-to-publish-auto-apply-retention-label.png)
 
@@ -123,9 +126,7 @@ Microsoft 365 규정 준수 센터, Microsoft 365 보안 센터 또는 Office 36
   
 ### <a name="step-5-create-an-event"></a>5단계: 이벤트 만들기
 
-해당 이벤트 유형의 특정 인스턴스가 발생하면(예: 제품이 수명 종료에 도달) 보안 및 준수 센터의 이벤트 페이지로 가서 이벤트를 만듭니다. 이벤트를 만들어 수동으로 트리거해야 합니다.
-  
-![보안 및 준수 센터의 이벤트 페이지](media/811bddfb-a7e9-4990-bf5e-abe0dfb91809.png)
+해당 이벤트 유형의 특정 인스턴스가 발생하면(예: 제품이 수명 종료에 도달) 보안 &amp; 준수 센터의 **레코드 관리** > **이벤트** 페이지로 가서 이벤트를 만듭니다. 이벤트를 만들어 수동으로 트리거해야 합니다.
   
 ### <a name="step-6-choose-the-same-event-type-used-by-the-label-in-step-2"></a>6단계: 2단계에서 레이블에 사용된 것과 동일한 이벤트 유형 선택
 

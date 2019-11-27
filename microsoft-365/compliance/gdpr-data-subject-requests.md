@@ -1,7 +1,7 @@
 ---
-title: GDPR에 대한 데이터 주체 요청
+title: GDPR 및 CCPA에 대한 데이터 주체 요청
 description: ''
-keywords: Microsoft 365, Microsoft 365 Education, Microsoft 365 설명서, GDPR
+keywords: Microsoft 365, Microsoft 365 Education, Microsoft 365 설명서, GDPR, CCPA
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -9,21 +9,25 @@ ms.author: robmazz
 author: robmazz
 manager: laurawi
 audience: itpro
-ms.collection: GDPR
-ms.openlocfilehash: dc4352ac14f42a227f1572b0c7f1442aa4dec838
-ms.sourcegitcommit: c201f5cc13d501e5207ebad166e42f90260af0c4
+ms.collection:
+- GDPR
+- M365-security-compliance
+ms.openlocfilehash: f5ab5230cae7dcc31c487ecbc6a2bbdcbcaaa0dd
+ms.sourcegitcommit: 33242c260439de0d8db41247e9414913f24adc22
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/19/2019
-ms.locfileid: "35078908"
+ms.lasthandoff: 11/01/2019
+ms.locfileid: "39268590"
 ---
-# <a name="data-subject-requests-and-the-gdpr"></a>데이터 주제 요청 및 GDPR
+# <a name="data-subject-requests-and-the-gdpr-and-ccpa"></a>데이터 주체 요청과 GDPR 및 CCPA
 
-GDPR(일반 데이터 보호 규제)는 EU(유럽 연합) 회원국 국민에게 제품과 서비스를 제공하거나 귀하 또는 귀사가 어디에 있는지 관계없이 EU 거주자의 데이터를 수집하고 분석하는 조직에 새로운 규칙을 도입합니다.  추가 세부 정보는 [GDPR 요약 항목](gdpr.md)에 있습니다. <br><br>
+GDPR(일반 데이터 보호 규제)는 EU(유럽 연합) 회원국 국민에게 제품과 서비스를 제공하거나 귀하 또는 귀사가 어디에 있는지 관계없이 EU 거주자의 데이터를 수집하고 분석하는 조직에 새로운 규칙을 도입합니다. 추가 세부 정보는 [GDPR 요약 항목](gdpr.md)에 있습니다.
+
+마찬가지로 캘리포니아 소비자 개인 정보 보호법(CCPA)은 캘리포니아 소비자에게 GDPR의 데이터 주체 권리와 유사한 권리를 포함하여, 소비자의 개인 정보 삭제, 액세스 및 수신(이식성)과 같은 개인 정보 보호 권리 및 의무를 제공합니다.  또한 CCPA는 특정 공개, 실행 권리 행사 시 차별 대우로부터 보호, “판매"로 분류되는 특정 데이터 전송에 대한 "옵트아웃(opt-out)/옵트인(opt in)" 요구도 허용합니다.  <br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RWs1SI] 
 
-이 문서에서는 Microsoft 제품 및 서비스를 사용 하 여 GDPR 하에서 DSRs(데이터 주제 요청)를 완료하는 방법에 대한 정보를 안내합니다.
+이 문서에서는 Microsoft 제품 및 서비스를 사용 하 여 GDPR 및 CCPA 하에서 DSRs(데이터 주제 요청)를 완료하는 방법에 대한 정보를 안내합니다.
 
 - [Office 365](gdpr-dsr-Office365.md)
 - [Azure](gdpr-dsr-Azure.md)
@@ -45,6 +49,8 @@ GDPR(일반 데이터 보호 규제)는 EU(유럽 연합) 회원국 국민에게
 ## <a name="what-is-a-dsr"></a>DSR이란 무엇인가요?
 
 GDPR(일반 데이터 보호 규정)은 사람들(규정에서 데이터 주체)에게 고용주 또는 다른 유형의 기관이나 조직(데이터 컨트롤러 또는 간단하게 컨트롤러)에 의해 수집된 개인 데이터를 관리할 권한을 제공합니다. GDPR은 데이터 주체에게 개인 데이터에 대한 특정 권한을 제공합니다. 이러한 권한에는 개인 데이터의 복사본을 얻거나, 수정을 요청하거나, 처리를 제한하거나, 삭제하거나, 다른 관리자에게 전달할 수 있도록 전자 형식으로 개인 데이터를 수신할 권한이 포함됩니다.
+
+캘리포니아 소비자 개인 정보 보호법(CCPA)은 캘리포니아 소비자에게 GDPR의 데이터 주체 권리와 유사한 권리를 포함하여, 소비자의 개인 정보 삭제, 액세스 및 수신(이식성)과 같은 개인 정보 보호 권리 및 의무를 제공합니다.  
 
 컨트롤러는 요청된 조치를 취하거나 DSR을 컨트롤러가 수용할 수 없는 이유에 대한 설명을 제공함으로써 각 DSR을 즉시 고려하고 실질적인 응답을 제공해야 합니다. 컨트롤러는 주어진 DSR의 적절한 처분과 관련하여 자체 법률 또는 준수 고문과 상의해야 합니다.
 
