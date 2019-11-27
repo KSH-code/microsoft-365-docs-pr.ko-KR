@@ -13,19 +13,19 @@ search.appverid:
 - MET150
 ms.assetid: 1d33d4fb-91ed-41c0-b72e-5a26eca3a2a7
 description: Office 365 Advanced eDiscovery의 관련성 교육 중에 다양 한 문제를 파악 하기 위한 평가 단계 및 해당 역할에 대 한 개요를 확인할 수 있습니다.
-ms.openlocfilehash: 77d9449ad15fd3a53709f2a28a96b06ab54556eb
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 727b432a541e1316952faa7dc9c5b8e40ac4295c
+ms.sourcegitcommit: 7f26840a4330b0fd29807ec091c6915d283b3dd2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37087691"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "39615638"
 ---
 # <a name="understand-assessment-in-relevance-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery에서 관련성 평가 이해
 
 > [!NOTE]
 > Advanced eDiscovery를 사용하려면 Office 365 E3의 고급 준수 추가 기능이나 조직을 위한 E5 구독이 필요합니다. 이 요금제가 없는 상태에서 Advanced eDiscovery를 사용하려는 경우에는 [Office 365 Enterprise E5 평가판을 등록](https://go.microsoft.com/fwlink/p/?LinkID=698279)할 수 있습니다. 
   
-고급 eDiscovery에서는 정의 된 문제와 사례에 대해 가져온 데이터에 대 한 초기 평가를 수행할 수 있습니다. 고급 eDiscovery를 사용 하면 전문가가 채택 된 방법과 관련 하 여 의사 결정을 내리고 문서 검토 프로젝트에 적용할 수 있습니다.
+고급 eDiscovery에서는 정의 된 문제와 사례에 대해 가져온 데이터에 대 한 초기 평가를 수행할 수 있습니다. 고급 eDiscovery를 사용 하면 전문가가 채택 된 접근 방식을 결정 하 고 문서 검토 프로젝트에 이러한 결정을 적용할 수 있습니다.
   
 ## <a name="understanding-assessment"></a>평가 이해
 
@@ -35,7 +35,7 @@ ms.locfileid: "37087691"
   
 성향 습득 중 및 일괄 처리를 수행 하는 동안 Track 및 결정 탭에 표시 되는 통계는 서로 다른 검토 집합에 대 한 회수의 추정치를 포함 합니다. 통계에서 예제 집합을 기반으로 하는 추정치 (이 경우 평가 파일)에는 오류의 여백과 해당 오류 여백에 대 한 신뢰 수준이 포함 됩니다. 예를 들어, 80%의 예상 회수는 신뢰도가 95% 인 + 또는-5%의 오차를 포함할 수 있습니다. 즉, 예상 회수는 실제로 75%-85%이 고이 예상은 95%의 신뢰도를 나타냅니다. 평가 설정이 클수록 오류 여백이 작아지고 통계가 더 정확 합니다. 
   
-전문가가 500 파일의 초기 평가 집합을 검토 한 후에는 관련성을 통해 회수 값의 현재 오류 여백을 확인할 수 있습니다. 또한 평가 집합을 최적화 하기 위해 권장 되는 기본 오류 여백도 함께 설정 됩니다. 몇 가지 예는 다음과 같습니다.
+전문가가 500 파일의 초기 평가 집합을 검토 한 후 관련성에 따라 회수 값 오류의 현재 여백을 결정할 수 있습니다. 또한 평가 집합을 최적화 하기 위해 기본적으로 오류가 발생 하는 것이 좋습니다. 그 예는 다음과 같습니다.
   
 - 평가 집합에서 + 또는-10%의 오류 여백이 이미 발생 한 경우 교육을 진행 하는 것이 좋습니다 (추가 평가 검토가 필요 하지 않음). 
     

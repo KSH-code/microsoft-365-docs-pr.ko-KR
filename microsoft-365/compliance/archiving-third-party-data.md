@@ -14,12 +14,12 @@ ms.collection:
 search.appverid: MOE150
 ms.assetid: 0ce338d5-3666-4a18-86ab-c6910ff408cc
 description: '관리자는 소셜 미디어 플랫폼, 인스턴트 메시징 플랫폼 및 문서 공동 작업 플랫폼에서 Office 365 조 직의 사서함으로 타사 데이터를 가져올 수 있습니다. 이를 통해 Office 365의 Facebook, Twitter 및 기타 타사 데이터 원본에서 데이터를 보관할 수 있습니다. 그런 다음 타사 데이터에 대해 Office 365 준수 기능 (예: 법적 보존, eDiscovery, 원본 위치 보관 및 보존 정책)을 사용 하 여 적용할 수 있습니다.'
-ms.openlocfilehash: 1e4cc8fc322b4e7e447cc053bd1b0a74ffe40aeb
-ms.sourcegitcommit: 33242c260439de0d8db41247e9414913f24adc22
+ms.openlocfilehash: 084cacf1c2bef8b5786e6dba804f9a1e87001338
+ms.sourcegitcommit: 7f26840a4330b0fd29807ec091c6915d283b3dd2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "38687005"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "39615588"
 ---
 # <a name="archive-third-party-data-in-office-365"></a>Office 365에서 타사 데이터 보관
 
@@ -35,7 +35,7 @@ ms.locfileid: "38687005"
     
 - **SMS/문자 메시징:** BlackBerry 
     
-타사 데이터를 가져온 후에는이 데이터에 소송 보존, eDiscovery, 원본 위치 보관, 감사, [통신 준수](communication-compliance.md)및 office 365 보존 정책 등의 Office 365 준수 기능을 적용할 수 있습니다. 예를 들어 사서함이 소송 보존 상태에 있는 경우 타사 데이터는 보존 됩니다. Microsoft eDiscovery 도구를 사용 하 여 타사 데이터를 검색할 수 있습니다. 또는 Microsoft 데이터에 대해 사용할 수 있는 것과 마찬가지로 보관 및 보존 정책을 타사 데이터에 적용할 수도 있습니다. 간단히 말해서 Office 365에서 타사 데이터를 보관 하면 조직이 정부 및 규정 정책을 준수 하는 데 도움이 될 수 있습니다.
+타사 데이터를 가져온 후에는이 데이터에 소송 보존, eDiscovery,&mdash;원본 위치 보관, 감사, [통신 준수](communication-compliance.md)및 office 365 고정 정책&mdash;같은 Office 365 준수 기능을 적용할 수 있습니다. 예를 들어 사서함이 소송 보존 상태에 있는 경우 타사 데이터는 보존 됩니다. Microsoft eDiscovery 도구를 사용 하 여 타사 데이터를 검색할 수 있습니다. 또는 Microsoft 데이터에 대해 사용할 수 있는 것과 마찬가지로 보관 및 보존 정책을 타사 데이터에 적용할 수도 있습니다. 간단히 말해서 Office 365에서 타사 데이터를 보관 하면 조직이 정부 및 규정 정책을 준수 하는 데 도움이 될 수 있습니다.
 
 Office 365에서는 두 가지 방법으로 타사 데이터를 가져오고 보관할 수 있습니다.
 

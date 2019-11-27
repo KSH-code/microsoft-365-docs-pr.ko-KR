@@ -10,12 +10,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: 관리자는 네이티브 커넥터를 설정 하 여 Twitter 데이터를 Office 365로 가져올 수 있습니다. 이를 통해 Office 365의 타사 데이터 원본에서 데이터를 보관할 수 있으므로 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용 하 여 조직의 타사 데이터를 관리 하는 것을 관리할 수도 있습니다.
-ms.openlocfilehash: cf738f67778dbe435e60098b9fc6d753583858a8
-ms.sourcegitcommit: 6e01543b3fff50a28719478b19b644991ba7505a
+ms.openlocfilehash: 86362193b0c64afa182c2f49ff27bd7e5f27935c
+ms.sourcegitcommit: 7f26840a4330b0fd29807ec091c6915d283b3dd2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38687084"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "39615578"
 ---
 # <a name="use-a-sample-connector-to-archive-twitter-data-in-office-365-preview"></a>샘플 커넥터를 사용 하 여 Office 365에서 Twitter 데이터 보관 (미리 보기)
 
@@ -31,13 +31,13 @@ Twitter 데이터를 가져온 후에는 사서함에 저장 된 데이터에 �
 
 ## <a name="prerequisites-for-setting-up-a-connector-for-twitter"></a>Twitter에 대 한 커넥터를 설정 하기 위한 필수 구성 요소
 
-조직의 Twitter 계정에서 데이터를 가져오고 보관 하려면 보안 & 준수 센터에서 샘플 커넥터를 설정 및 구성 하기 전에 다음 필수 구성 요소를 완료 해야 합니다. 
+조직의 Twitter 계정에서 데이터를 가져오고 보관 하기 위해 보안 & 준수 센터에서 샘플 커넥터를 설정 및 구성 하기 전에 다음 필수 구성 요소를 완료 합니다. 
 
 - 조직에 대 한 Twitter 계정이 필요 합니다. 커넥터를 설정 하는 경우이 계정에 로그인 해야 합니다.
 
 - 조직에 유효한 Azure 구독이 있어야 합니다. 기존 Azure 구독이 없는 경우 다음 옵션 중 하나를 등록할 수 있습니다.
 
-    - [무료 1 년 Azure 구독 등록](https://azure.microsoft.com/free) 
+    - [무료 1 년간 Azure 구독 등록](https://azure.microsoft.com/free) 
 
     - [방문 비용 청구 Azure 구독에 등록](https://azure.microsoft.com/pricing/purchase-options/pay-as-you-go/)
 
@@ -46,14 +46,14 @@ Twitter 데이터를 가져온 후에는 사서함에 저장 된 데이터에 �
 
 - 조직에서는 Office 365 가져오기 서비스가 조직의 사서함 데이터에 액세스할 수 있도록 허용 해야 합니다. 이 요청에 동의 하려면 [이 페이지로](https://login.microsoftonline.com/common/oauth2/authorize?client_id=570d0bec-d001-4c4e-985e-3ab17fdc3073&response_type=code&redirect_uri=https://portal.azure.com/&nonce=1234&prompt=admin_consent)이동 하 여 Office 365 전역 관리자의 자격 증명으로 로그인 한 다음 요청을 수락 합니다.
 
-- 보안 & 준수 (7 단계)에서 사용자 지정 커넥터를 설정 하는 사용자에 게 Exchange Online의 사서함 가져오기 내보내기 역할이 할당 되어야 합니다. 기본적으로이 역할은 Exchange Online의 어떠한 역할 그룹에도 할당 되지 않습니다. Exchange Online의 조직 관리 역할 그룹에 사서함 가져오기 내보내기 역할을 추가할 수 있습니다. 또는 새 역할 그룹을 만들고 사서함 가져오기 내보내기 역할을 할당 한 다음 해당 사용자를 구성원으로 추가할 수 있습니다. 자세한 내용은 "Exchange Online에서 역할 그룹 관리" 문서의 [역할 그룹 만들기](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#create-role-groups) 또는 [역할 그룹 수정](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#modify-role-groups) 섹션을 참조 하세요.
+- 보안 & 준수 (7 단계)에서 사용자 지정 커넥터를 설정 하는 사용자에 게 Exchange Online의 사서함 가져오기 내보내기 역할이 할당 되어야 합니다. 기본적으로이 역할은 Exchange Online의 어떤 역할 그룹에도 할당되지 않습니다. Exchange Online의 조직 관리 역할 그룹에 사서함 가져오기 내보내기 역할을 추가할 수 있습니다. 또는 새 역할 그룹을 만들고 사서함 가져오기 내보내기 역할을 할당 한 다음 해당 사용자를 구성원으로 추가할 수 있습니다. 자세한 내용은 "Exchange Online에서 역할 그룹 관리" 문서의 [역할 그룹 만들기](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#create-role-groups) 또는 [역할 그룹 수정](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#modify-role-groups) 섹션을 참조 하세요.
 
-## <a name="step-1-download-the-pre-built-connector-app-package-from-github"></a>1 단계: Github에서 미리 작성 된 커넥터 앱 패키지 다운로드
+## <a name="step-1-download-the-pre-built-connector-app-package-from-github"></a>1 단계: GitHub에서 미리 작성 된 커넥터 앱 패키지 다운로드
 
 첫 번째 단계는 twitter API를 사용 하 여 twitter 계정에 연결 하 고 데이터를 추출 하 여 Office 365로 가져올 수 있는 Twitter 샘플 커넥터 응용 프로그램에 대 한 소스 코드를 다운로드 하는 것입니다.
 
 1. [이 GitHub 사이트로](https://github.com/microsoft/m365-sample-twitter-connector-csharp-aspnet/releases)이동 합니다. 
-2. 최신 버전에서 **SampleConnector** 파일을 클릭 합니다.
+2. 최신 버전에서 **SampleConnector** 파일을 선택 합니다.
 3. 로컬 컴퓨터의 위치에 ZIP 파일을 저장 합니다. 4 단계에서이 zip 파일을 Azure에 업로드 합니다.
 
 ## <a name="step-2-create-an-app-in-azure-active-directory"></a>2 단계: Azure Active Directory에 앱 만들기
@@ -69,13 +69,13 @@ Twitter 데이터를 가져온 후에는 사서함에 저장 된 데이터에 �
 - AAD 응용 프로그램 Uri
 - 테 넌 트 Id
 
-## <a name="step-3-create-an-azure-storage-account"></a>3 단계: Azure storage 계정 만들기
+## <a name="step-3-create-an-azure-storage-account"></a>3 단계: Azure Storage 계정 만들기
 
-조직에 대해 배포 하는 Twitter 커넥터는 Twitter의 항목을이 단계에서 만든 Azure storage 위치로 업로드 합니다. 보안 & 준수 센터 (7 단계)에서 사용자 지정 커넥터를 만든 후에는 Office 365 가져오기 서비스가 Azure storage 위치에서 Twitter 데이터를 Office 365의 사서함으로 복사 합니다. 앞에서 설명한 것 처럼 [필수 구성 요소](#prerequisites-for-setting-up-a-connector-for-twitter) 섹션에서 azure storage 계정을 만들려면 유효한 azure 구독이 있어야 합니다.
+조직에 대해 배포 하는 Twitter 커넥터는 Twitter의 항목을이 단계에서 만든 Azure Storage 위치로 업로드 합니다. 보안 & 준수 센터 (7 단계)에서 사용자 지정 커넥터를 만든 후에는 Office 365 가져오기 서비스가 Azure Storage 위치에서 Twitter 데이터를 Office 365의 사서함으로 복사 합니다. 앞에서 설명한 것 처럼 [필수 구성 요소](#prerequisites-for-setting-up-a-connector-for-twitter) 섹션에서 azure Storage 계정을 만들려면 유효한 azure 구독이 있어야 합니다.
 
-단계별 지침은 [3 단계: Azure storage Account 만들기](deploy-twitter-connector.md#step-3-create-an-azure-storage-account)를 참조 하십시오.
+단계별 지침은 [3 단계: Azure Storage Account 만들기](deploy-twitter-connector.md#step-3-create-an-azure-storage-account)를 참조 하십시오.
 
-이 단계를 완료 하는 동안 단계별 지침에 따라 생성 되는 연결 문자열 Uri를 저장 합니다. 4 단계에서 Azure에서 웹 앱 리소스를 만들 때이 문자열을 사용 합니다.
+단계별 지침에 따라이 단계를 완료 하는 동안 생성 되는 연결 문자열 Uri를 저장 합니다. 4 단계에서 Azure에서 웹 앱 리소스를 만들 때이 문자열을 사용 합니다.
 
 ## <a name="step-4-create-a-web-app-resource-in-azure"></a>4 단계: Azure에서 웹 앱 리소스 만들기
 
@@ -86,12 +86,12 @@ Twitter 데이터를 가져온 후에는 사서함에 저장 된 데이터에 �
 이 단계를 완료 하는 동안 단계별 지침을 따라 웹 앱 리소스를 만들 때 다음 정보 (이전 단계를 완료 한 후에 텍스트 파일로 복사)를 제공 합니다.
 
 - APISecretKey –이 단계를 완료 하는 동안이 비밀을 만듭니다. 7 단계에서 사용 됩니다.
-- StorageAccountConnectionString-3 단계에서 Azure storage 계정을 만든 후 복사한 연결 문자열 Uri입니다.
+- StorageAccountConnectionString-3 단계에서 Azure Storage 계정을 만든 후 복사한 연결 문자열 Uri입니다.
 - tenantId-2 단계에서 Azure Active Directory에 Twitter 커넥터 앱을 만든 후 복사한 Office 365 조직의 테 넌 트 ID입니다.
 
 또한이 단계에서 1 단계에서 다운로드 한 SampleConnector 파일을 업로드 하 여 Twitter 커넥터 응용 프로그램에 대 한 소스 코드를 배포 합니다.
 
-이 단계를 완료 한 후 Azure 앱 서비스 URL (예: `https://twitterconnector.azurewebsites.net`)을 복사 해야 합니다. 이를 사용 하 여 5 단계, 6 단계 및 7 단계를 완료 해야 합니다.
+이 단계를 완료 한 후 Azure 앱 서비스 URL (예: `https://twitterconnector.azurewebsites.net`)을 복사 해야 합니다. 5 단계, 6 단계 및 7 단계를 완료 하려면이 URL을 사용 해야 합니다.
 
 ## <a name="step-5-create-developer-app-on-twitter"></a>5 단계: Twitter에서 개발자 앱 만들기
 
@@ -124,7 +124,7 @@ Twitter 데이터를 가져온 후에는 사서함에 저장 된 데이터에 �
 
 ## <a name="step-7-set-up-a-custom-connector-in-the-security--compliance-center"></a>7 단계: 보안 & 준수 센터에서 사용자 지정 커넥터 설정
 
-마지막 단계는 조직의 Twitter 계정에서 Office 365의 지정 된 사서함으로 데이터를 가져오는 사용자 지정 커넥터를 보안 & 준수 센터에 설정 하는 것입니다. 이 단계를 성공적으로 완료 하면 Office 365 가져오기 서비스가 Twitter에서 Office 365로 데이터를 가져오는 프로세스를 시작 합니다. 
+마지막 단계는 조직의 Twitter 계정에서 Office 365의 지정 된 사서함으로 데이터를 가져오는 사용자 지정 커넥터를 보안 & 준수 센터에 설정 하는 것입니다. 이 단계를 성공적으로 완료 하면 Office 365 가져오기 서비스가 Twitter에서 Office 365로 데이터 가져오기를 시작 합니다. 
 
 단계별 지침은 [보안 및 준수 센터에서 7 단계: 사용자 지정 커넥터 설정](deploy-twitter-connector.md#step-7-set-up-a-custom-connector-in-the-security-and-compliance-center)를 참조 하십시오. 
 

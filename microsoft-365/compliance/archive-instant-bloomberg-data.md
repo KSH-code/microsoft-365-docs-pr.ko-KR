@@ -10,12 +10,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: 관리자는 기본 커넥터를 설정 하 여 인스턴트 Bloomberg 채팅 도구에서 Office 365로 데이터를 가져올 수 있습니다. 이렇게 하면 Office 365의 타사 데이터 원본에서 데이터를 보관할 수 있으므로 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용 하 여 조직의 타사 데이터를 관리할 수도 있습니다.
-ms.openlocfilehash: 97923fbd9bec8f5ae5fad822947c57bab08fe218
-ms.sourcegitcommit: 33242c260439de0d8db41247e9414913f24adc22
+ms.openlocfilehash: 8a9a388c62ca59dfcdb2f123fd0776e619f8d38e
+ms.sourcegitcommit: 7f26840a4330b0fd29807ec091c6915d283b3dd2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "38687011"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "39615608"
 ---
 # <a name="set-up-a-connector-to-archive-instant-bloomberg-data-in-office-365"></a>Office 365에서 인스턴트 Bloomberg 데이터를 보관 하는 커넥터 설정
 
@@ -67,7 +67,7 @@ Office 365의 보안 & 준수 센터에서 네이티브 커넥터를 사용 하 
 
     - Bloomberg SFTP 사이트의 포트 번호
 
-- 3 단계에서 인스턴트 Bloomberg 커넥터를 만들고 1 단계에서 공개 키와 IP 주소를 다운로드 하는 사용자에 게 Exchange Online의 사서함 가져오기 내보내기 역할이 할당 되어야 합니다. 이는 보안 & 준수 센터에서 **타사 데이터 보관** 페이지에 액세스 하는 데 필요 합니다. 기본적으로이 역할은 Exchange Online의 어떠한 역할 그룹에도 할당 되지 않습니다. Exchange Online의 조직 관리 역할 그룹에 사서함 가져오기 내보내기 역할을 추가할 수 있습니다. 또는 역할 그룹을 만들고 사서함 가져오기 내보내기 역할을 할당 한 다음 해당 사용자를 구성원으로 추가할 수 있습니다. 자세한 내용은 "Exchange Online에서 역할 그룹 관리" 문서의 [역할 그룹 만들기](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#create-role-groups) 또는 [역할 그룹 수정](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#modify-role-groups) 섹션을 참조 하세요.
+- 3 단계에서 인스턴트 Bloomberg 커넥터를 만들고 1 단계에서 공개 키와 IP 주소를 다운로드 하는 사용자에 게 Exchange Online의 사서함 가져오기 내보내기 역할이 할당 되어야 합니다. 이는 보안 & 준수 센터에서 **타사 데이터 보관** 페이지에 액세스 하는 데 필요 합니다. 기본적으로이 역할은 Exchange Online의 어떤 역할 그룹에도 할당되지 않습니다. Exchange Online의 조직 관리 역할 그룹에 사서함 가져오기 내보내기 역할을 추가할 수 있습니다. 또는 역할 그룹을 만들고 사서함 가져오기 내보내기 역할을 할당 한 다음 해당 사용자를 구성원으로 추가할 수 있습니다. 자세한 내용은 "Exchange Online에서 역할 그룹 관리" 문서의 [역할 그룹 만들기](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#create-role-groups) 또는 [역할 그룹 수정](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#modify-role-groups) 섹션을 참조 하세요.
 
 ## <a name="step-1-obtain-ssh-and-pgp-public-keys"></a>1 단계: SSH 및 PGP 공개 키 획득
 
@@ -114,7 +114,7 @@ Office 365의 보안 & 준수 센터에서 네이티브 커넥터를 사용 하 
 
     - **SFTP URL:** Bloomberg SFTP 사이트의 URL (예: sftp.bloomberg.com)입니다.
 
-    - **SFTP 포트:** Bloomberg SFTP 사이트의 포트 번호입니다. 커넥터는이를 사용 하 여 SFTP 사이트에 연결 합니다.
+    - **SFTP 포트:** Bloomberg SFTP 사이트의 포트 번호입니다. 커넥터는이 포트를 사용 하 여 SFTP 사이트에 연결 합니다.
 
 5. **대체 사서함** 페이지에서 조직의 사용자 사서함과 연결 되지 않은 인스턴트 Bloomberg의 채팅 메시지를 저장 하는 데 사용 되는 사서함의 전자 메일 주소를 입력 합니다.
 

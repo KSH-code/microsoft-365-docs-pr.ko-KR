@@ -12,12 +12,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 준수 관리자는 Microsoft Service Trust Portal의 무료 워크플로 기반 위험 평가 도구입니다. 준수 관리자를 사용 하면 Microsoft 클라우드 서비스와 관련 된 규정 준수 활동을 추적, 할당 및 확인할 수 있습니다.
-ms.openlocfilehash: 723f1372b9214367985cc6b42c41e94c3f201b89
-ms.sourcegitcommit: 544b10cc3abe04a47438085d51c4250c9238f76f
+ms.openlocfilehash: be2ba99f7779640df90c35101e96839fb87156d4
+ms.sourcegitcommit: 7f26840a4330b0fd29807ec091c6915d283b3dd2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "38686989"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "39615618"
 ---
 # <a name="microsoft-compliance-manager-preview"></a>Microsoft 준수 관리자 (미리 보기)
 
@@ -39,7 +39,7 @@ ms.locfileid: "38686989"
 
 ## <a name="compliance-manager-relationships"></a>준수 관리자 관계
 
-준수 관리자는 준수 관리 활동에 도움이 되는 여러 구성 요소를 사용 합니다. 이러한 구성 요소는 함께 작동 하 여 감사자에 대 한 완전 한 관리 작업 흐름과 필요 없는 준수 보고서를 제공 합니다.
+준수 관리자는 준수 관리 활동에 도움이 되는 다양 한 구성 요소를 사용 합니다. 이러한 구성 요소는 함께 작동 하 여 감사자에 대 한 완전 한 관리 작업 흐름과 필요 없는 준수 보고서를 제공 합니다.
 
 다음 다이어그램은 준수 관리자의 기본 구성 요소 간의 관계를 보여 줍니다.
 
