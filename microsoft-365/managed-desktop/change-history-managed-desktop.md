@@ -8,16 +8,43 @@ author: jaimeo
 ms.author: jaimeo
 ms.topic: article
 ms.localizationpriority: normal
-ms.openlocfilehash: a982b493027775add547a87700906a6cbbdaef60
-ms.sourcegitcommit: c6eab4a9f1b70e7ff0db6b2a1128a4db2591cbaf
+ms.openlocfilehash: b66fb73b635eb102bcd474cc884db6d0fa4cdfb6
+ms.sourcegitcommit: e386037c9cc335c86896dc153344850735afbccd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "37369629"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "39634065"
 ---
 # <a name="change-history-for-microsoft-managed-desktop-documentation"></a>Microsoft Managed Desktop 문서 변경 기록
 
 이 항목에서는 [Microsoft Managed Desktop 설명서](index.yml)의 새로운 항목과 업데이트 된 항목을 나열 합니다. "업데이트 된" 항목은 재료가 추가 되거나 수정 된 항목이 며, 오타, 스타일 또는 서식 문제를 수정 하는 것과 같은 사소한 수정 사항이 나열 되지 않습니다. [GitHub의 리포지토리](https://github.com/MicrosoftDocs/microsoft-365-docs/tree/public/microsoft-365/managed-desktop)를 방문 하 여 언제 든 지 변경 세부 정보를 비롯 하 여 특정 커밋 기록을 볼 수 있습니다.
+
+## <a name="november-2019"></a>2019년 11월
+새로 만들기 또는 변경 된 항목 | 설명
+--- | ---
+[Insights 사용](working-with-managed-desktop/insights.md) | 새 항목
+[사용 현황 정보 활용](working-with-managed-desktop/usage-insights.md) | 새 항목
+[안정성 통찰력](working-with-managed-desktop/reliability-insights.md) | 새 항목
+[Microsoft Managed Desktop 장치](service-description/device-list.md) | 업데이트 된 항목
+[Microsoft Managed Desktop 기본 페이지](https://docs.microsoft.com/microsoft-365/managed-desktop/) | 업데이트 된 항목
+[Microsoft Managed Desktop이란 무엇인가요?](https://docs.microsoft.com/microsoft-365/managed-desktop/intro/index) | 업데이트 된 항목
+[사용자들이 장치를 사용할 수 있도록 준비시키기](get-started/get-started-devices.md) | 업데이트 된 항목
+[서비스 계획에 대 한 예외](service-description/customizing.md) | 업데이트 된 항목
+
+
+## <a name="october-2019"></a>2019년 10월
+새로 만들기 또는 변경 된 항목 | 설명
+--- | ---
+[서비스 계획에 대 한 예외](service-description/customizing.md) | 새 항목
+[최종 사용자를 위한 도움말 보기](working-with-managed-desktop/end-user-support.md) | 업데이트 된 항목
+[Microsoft Managed Desktop에 대 한 관리자 지원](working-with-managed-desktop/admin-support.md) | 업데이트 된 항목
+[서비스 변경 및 커뮤니케이션](service-description/servicechanges.md) | 새 항목
+[직접 새 장치 등록](get-started/register-devices-self.md) | 업데이트 된 항목
+[직접 기존의 장치 등록](get-started/register-reused-devices-self.md) | 업데이트 된 항목
+[Microsoft Managed Desktop 지원 지역 및 언어](service-description/regions-languages.md) | 업데이트 된 항목
+
+
+
 
 ## <a name="september-2019"></a>2019년 9월
 새로 만들기 또는 변경 된 항목 | 설명
@@ -33,7 +60,7 @@ ms.locfileid: "37369629"
 [직접 기존의 장치 등록](get-started/register-reused-devices-self.md) | 새 항목
 [Microsoft Managed Desktop에서 업데이트를 처리 하는 방법](service-description/updates.md) | 업데이트 된 항목
 
-## <a name="august-2019"></a>8 월 2019
+## <a name="august-2019"></a>2019년 8월
 새로 만들기 또는 변경 된 항목 | 설명
 --- | ---
 [Microsoft 컨설팅 서비스 활용](get-ready/apps-mcs.md) | 업데이트 된 항목
@@ -44,7 +71,7 @@ ms.locfileid: "37369629"
 
 
 
-## <a name="july-2019"></a>7 월 2019 일
+## <a name="july-2019"></a>2019년 7월
 새로 만들기 또는 변경 된 항목 | 설명
 --- | ---
 [Microsoft 컨설팅 서비스 활용](get-ready/apps-mcs.md) | 업데이트 된 항목
@@ -52,7 +79,7 @@ ms.locfileid: "37369629"
 [장치 구성](service-description/device-policies.md) | 업데이트 된 항목
 
 
-## <a name="june-2019"></a>2019 년 6 월
+## <a name="june-2019"></a>2019년 6월
 새로 만들기 또는 변경 된 항목 | 설명
 --- | ---
 [Microsoft Managed Desktop의 앱](get-ready/apps.md) | 업데이트 된 항목
@@ -62,7 +89,7 @@ ms.locfileid: "37369629"
 
 
 
-## <a name="may-2019"></a>5 월 2019
+## <a name="may-2019"></a>2019년 5월
 새로 만들기 또는 변경 된 항목 | 설명
 --- | ---
 [Microsoft Managed Desktop 지원 지역 및 언어](service-description/regions-languages.md) | 업데이트 된 항목

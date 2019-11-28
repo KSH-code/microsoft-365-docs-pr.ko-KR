@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: f830e01d54aef9065727971533633f8e63bc1214
-ms.sourcegitcommit: e292e9f0181d722a11398fbd012bb84589aef052
+ms.openlocfilehash: 8ecc117b2bc6e7cec3dcf0470a6d3c61ad34adf0
+ms.sourcegitcommit: e386037c9cc335c86896dc153344850735afbccd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "39257036"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "39634035"
 ---
 # <a name="reliability-insights"></a>안정성 통찰력
 
@@ -35,5 +35,12 @@ ms.locfileid: "39257036"
 - 해당 숫자가 나타내는 관리 되는 장치의 백분율
 - 특정 문제의 총 발생 횟수입니다.
 - 문제의 원인이 되는 것으로 표시 되는 소프트웨어 구성 요소입니다.
+- 검색 된 문제의 범주:
+    - 브라우저 (Edge, Chrome, IE)
+    - 알 수 없음 (Microsoft 구성 요소 아님)
+    - 드라이버 (오디오, 그래픽 또는 기타 드라이버)
+    - 생산성 (여유 시간, G-제품군, Microsoft Office 및 해당 추가 기능 또는 확장, 팀)
+    - 미디어 (이미지, 음악 또는 비디오 앱)
+    - 보안 (Windows 보안 구성 요소)
 - Microsoft Managed Desktop 작업으로 인 한 현재 상태 조사 및 remediates 문제 해결
 

@@ -6,15 +6,15 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 3f1d1deb031d26f9dec687b73be86ec8a2491a50
-ms.sourcegitcommit: e292e9f0181d722a11398fbd012bb84589aef052
+ms.openlocfilehash: a3367785d858c1d2546571fa1ad8a8c1b96cf59f
+ms.sourcegitcommit: e386037c9cc335c86896dc153344850735afbccd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "39256865"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "39634025"
 ---
 # <a name="usage-insights"></a>사용 현황 정보 활용
-이 보기는 Microsoft 관리 데스크톱 장치에 대 한 사용 메트릭을 제공 합니다. 
+이 보기는 Microsoft 관리 데스크톱 장치에 대 한 사용 메트릭을 제공 합니다. 이러한 용도의 앱은 실행 중이 고 포커스가 있는 경우 "사용 중"으로 간주 됩니다.
 
 사용 현황 데이터를 보려면 **사용 현황** 탭을 선택 합니다.
 

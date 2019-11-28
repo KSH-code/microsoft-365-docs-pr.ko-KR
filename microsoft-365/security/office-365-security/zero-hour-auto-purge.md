@@ -17,12 +17,12 @@ ms.assetid: 96deb75f-64e8-4c10-b570-84c99c674e15
 ms.collection:
 - M365-security-compliance
 description: ZAP (자동 삭제)은 사용자의 받은 편지 함으로 이미 배달 된 스팸 또는 맬웨어가 있는 메시지를 검색 한 다음 악의적인 콘텐츠를 렌더링 하는 전자 메일 보호 기능입니다. ZAP이 수행 하는 방법은 검색 된 악의적인 콘텐츠의 유형에 따라 다릅니다.
-ms.openlocfilehash: dd702e88dc2400367330d9cb1b54b5b0017334e4
-ms.sourcegitcommit: caa3f681a68daf5e463093a922c3d6f378143d91
+ms.openlocfilehash: 8496887f135e5a2c6496f969d420ae6eaa8f4908
+ms.sourcegitcommit: bf30a2314376f0b7d577741b97df017969737d11
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/22/2019
-ms.locfileid: "39191233"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "39631588"
 ---
 # <a name="zero-hour-auto-purge---protection-against-spam-and-malware"></a>제로 아워 자동 비우기 - 스팸 및 맬웨어로부터 보호
 
@@ -42,7 +42,7 @@ Office 365에서는 매일 실시간으로 스팸 방지 엔진 및 맬웨어 �
 
 ### <a name="malware-zap"></a>맬웨어 ZAP
 
-새로 검색 된 맬웨어의 경우 ZAP은 전자 메일 메시지에서 첨부 파일을 제거 하 고 사용자 사서함에는 메시지 본문을 남겨 둡니다. 메일의 읽기 상태에 관계 없이 첨부 파일이 제거 됩니다.
+새로 검색 된 맬웨어의 경우 ZAP은 첨부 파일을 포함 하 여 전체 메시지를 맬웨어 격리로 이동 합니다. 메시지는 메일의 읽기 상태와 관계 없이 이동 됩니다. 동적 배달 검색 프로세스에서 메시지에 대 한 맬웨어 신호가 수신 되 면 메시지에 대해 스팸 메일로 이동 작업이 수행 됩니다. 그런 다음 동적 배달이 배달 검사 시간을 완료 하 고 적절 한 조치를 취할 수 있도록 합니다.
 
 맬웨어 ZAP은 맬웨어 정책에서 기본적으로 사용 하도록 설정 됩니다. Exchange Online PowerShell 또는 Exchange Online Protection PowerShell의 [get-malwarefilterpolicy](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/set-malwarefilterpolicy) Cmdlet에서 *ZapEnabled* 매개 변수를 사용 하 여 맬웨어 ZAP을 사용 하지 않도록 설정할 수 있습니다. 보안 및 준수 센터에서 맬웨어 정책을 편집 하 여 맬웨어 ZAP을 사용 하거나 사용 하지 않도록 설정할 수도 있습니다.
 
@@ -58,7 +58,7 @@ Office 365에서는 매일 실시간으로 스팸 방지 엔진 및 맬웨어 �
 
 스팸 ZAP은 스팸 정책에서 기본적으로 사용 하도록 설정 되어 있습니다. Exchange Online PowerShell 또는 Exchange Online Protection PowerShell에서 [get-hostedcontentfilterpolicy](https://go.microsoft.com/fwlink/p/?LinkId=722758) Cmdlet의 *SpamZapEnabled* 매개 변수를 사용 하 여 스팸 ZAP을 사용 하지 않도록 설정할 수 있습니다.
 
-###<a name="phish-and-spam-zap-requirements-exclusions-and-notices"></a>피싱 및 스팸 ZAP 요구 사항, 제외 및 알림
+### <a name="phish-and-spam-zap-requirements-exclusions-and-notices"></a>피싱 및 스팸 ZAP 요구 사항, 제외 및 알림
 
 > [!IMPORTANT]
 > 피싱 및 스팸 ZAP을 모두 제어 하는 이전 *ZapEnabled* cmdlet 매개 변수는 **사용 되지 않으며, 2020 년 2 월 1**일입니다. ZapEnabled 매개 변수를 사용 하는 스크립트를 작성 한 경우이를 SpamZapEnabled 및 PhishZapEnabled를 사용 하도록 업데이트 하는 것이 좋습니다. 전환 기간에는 cmdlet을 통해 모든 3 개의 매개 변수 (ZapEnabled, PhishZapEnabled 및 SpamZapEnabled)를 사용할 수 있습니다. UI 또는 PowerShell을 통해 명시적으로 설정 하기 전에는 PhishZapEnabled 및 SpamZapEnabled에 ZapEnabled 매개 변수의 상속 된 값이 표시 됩니다. 새 매개 변수를 설정한 후에는 ZapEnabled 매개 변수에서 더 이상 상속 되지 않습니다. 더 이상 사용 되지 않도록 설정 된 후에 ZapEnabled는 PhishZapEnabled 또는 SpamZapEnabled 속성에 영향을 주지 않으며 ZapEnabled가 cmdlet의 매개 변수 목록에서 제거 됩니다.

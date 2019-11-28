@@ -5,12 +5,12 @@ keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 설명서
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
-ms.openlocfilehash: 70be19947e31d8c2b918d12887d63b1b360cf37b
-ms.sourcegitcommit: 3df6b6092542d466661c0fa08b7bfe7cec441b55
+ms.openlocfilehash: f46f5164340ec257a056a2f31bec8f846bb4a54a
+ms.sourcegitcommit: e386037c9cc335c86896dc153344850735afbccd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "39254377"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "39634055"
 ---
 # <a name="microsoft-managed-desktop-devices"></a>Microsoft Managed Desktop 장치 
 
@@ -25,7 +25,7 @@ Microsoft Managed Desktop에 등록 하려면 장치는 다음 모델 중 하나
 여기에 장치에 대 한 링크는 참조용 으로만 제공 됩니다. 장치를 주문 하려면 상업용 채널 대화 상대와 협력 하 여 올바른 구성을 선택 했는지 확인 합니다. 이 표에서 *보관 날짜* 는 이러한 모델이 보다 짧은 Microsoft Managed Desktop service 수명에 적용 되는 날짜입니다. 이 날짜 이후에 등록 되는 모든 장치는 Microsoft Managed Desktop의 3 년 전체 지원 기간을 받지 않습니다. 보관 된 장치는 [Microsoft Managed Desktop 아카이브된 장치](archived-device-list.md)에도 나열 됩니다. *퇴직 date* 는 Microsoft Managed Desktop에서 더 이상이 모델을 지원 하지 않는 날짜입니다. 해당 날짜에이 모델의 등록 된 모든 장치는 등록 시점에 관계 없이 Microsoft Managed Desktop에서 제거 됩니다.
 
 >[!NOTE]
->언제 든 지이 테이블에 장치를 추가할 수 있지만 보관 또는 만료 날짜에 영향을 주는 변경 내용은 90 days를 제공 합니다.
+>언제 든 지이 테이블에 장치를 추가할 수 있지만 보관 또는 만료 날짜에 영향을 주는 변경 내용은 90 days를 제공 합니다. 가장 최근에 추가 된 장치는로 **\*** 표시 됩니다.
 
 
 **Microsoft Managed Desktop 장치**
@@ -38,8 +38,8 @@ Microsoft Managed Desktop에 등록 하려면 장치는 다음 모델 중 하나
 | [Dell Latitude 5490](https://www.dell.com/en-us/work/shop/cty/pdp/spd/latitude-14-5490-laptop?cid=265768&st=dell%2Blatitude%2B5490&VEN1=yKFOheND,73873544881479,901q5c14135,c,,%7BProductid%7D&VEN2=be,dell%2Blatitude%2B5490&lid=5980636&dgc=st&dgseg=so&acd=12309152537461020&VEN3=112504543746142297) | 256 GB/Intel i5/8gb RAM | IR 카메라 필요 | 1 월 9 일, 2020  | 1 월 9 일, 2023  |
 | [Dell Latitude 7200 2-1/7300/7400](https://www.dell.com/en-us/work/shop/dell-laptops-and-notebooks/latitude-7200-2-in-1-business-laptop/spd/latitude-12-7200-2-in-1-laptop) | 256 GB/Intel i5/8gb RAM | IR 카메라 필요 | 5 월 1 일, 2021  | 5 월 1 일, 2024  |
 | [Dell Latitude 7390 7390 2-1/7490](https://www.dell.com/en-us/work/shop/cty/pdp/spd/latitude-13-7390-2-in-1-laptop?cid=265768&st=dell%2Blatitude%2B7390%2B2-in-1&VEN1=bRXisqe7,73255069985268,901q5c14135,c,,%7BProductid%7D&VEN2=be,dell%2Blatitude%2B7390%2B2-in-1&lid=5981275&dgc=st&dgseg=so&acd=12309152537461020&VEN3=112504543746142297) | 256 GB/Intel i5/8gb RAM   | IR 카메라 필요 | 1 월 9 일, 2020 | 1 월 9 일, 2023 |
-| [HP EliteBook 830/840/850 G6 노트북 PC](https://store.hp.com/us/en/mdp/laptops/elitebook-840#!&tab=features) | 128 GB/Intel i5/8gb RAM | 5VS01AV, IR 카메라 또는 지문 센서가 필요한 SKU | 11 월 30 일, 2020 | 11 월 30 일, 2023 |
-| [HP EliteBook x360 830 G6 노트북 PC](https://store.hp.com/us/en/pdp/hp-elitebook-x360-830-g6-notebook-pc) | 128 GB/Intel i5/8gb RAM | 5VS01AV, IR 카메라 또는 지문 센서가 필요한 SKU | 11 월 30 일, 2020 | 11 월 30 일, 2023 |
+| **\*[HP EliteBook 830/840/850 G6 노트북 PC](https://store.hp.com/us/en/mdp/laptops/elitebook-840#!&tab=features)** | 128 GB/Intel i5/8gb RAM | 5VS01AV, IR 카메라 또는 지문 센서가 필요한 SKU | 11 월 30 일, 2020 | 11 월 30 일, 2023 |
+| **\*[HP EliteBook x360 830 G6 노트북 PC](https://store.hp.com/us/en/pdp/hp-elitebook-x360-830-g6-notebook-pc)** | 128 GB/Intel i5/8gb RAM | 5VS01AV, IR 카메라 또는 지문 센서가 필요한 SKU | 11 월 30 일, 2020 | 11 월 30 일, 2023 |
 | [HP 정예 x2 1013 G3](https://store.hp.com/us/en/mdp/laptops/hp-elite-x2-1013-3074457345617296670--1#!&tab=features) | 256 GB/Intel i5/8gb RAM | 5VS03AV를 사용한 SKU, IR 카메라 필요 | 5 월 14 일 2020 | 5 월 14 일 2023 |
 | [HP EliteBook x360 1030 G3](https://store.hp.com/us/en/mdp/laptops/hp-elitebook-x360-1030-g2--1#tab=features) | 256 GB/Intel i5/8gb RAM | 5VS01AV를 사용한 SKU, IR 카메라 필요 | 5 월 14 일 2020 | 5 월 14 일 2023 |
 | [HP EliteBook x360 1040 G5](https://store.hp.com/us/en/mdp/laptops/hp-elitebook-x360-1040-3074457345617328670--1#!&tab=features) | 256 GB/Intel i5/8gb RAM | 5VS01AV를 사용한 SKU, IR 카메라 필요 | 2020 년 10 월 23 일 | 2023 년 10 월 23 일 |
