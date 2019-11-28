@@ -13,12 +13,12 @@ search.appverid:
 - MOP150
 ms.assetid: bed936bc-0969-4a6d-a7a5-66305c14e958
 description: 관리자가 Exchange Online PowerShell 및 CSV 파일을 사용 하 여 전체 주소 목록에 외부 연락처를 대량으로 가져오는 방법을 알아봅니다.
-ms.openlocfilehash: 272223d9ab61b2c5ae17043cf4523d49da306de9
-ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
+ms.openlocfilehash: 12fc8ec47881ce5cb3dc00a7a646966588bd5cca
+ms.sourcegitcommit: bf30a2314376f0b7d577741b97df017969737d11
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38687175"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "39630988"
 ---
 # <a name="bulk-import-external-contacts-to-exchange-online"></a>Exchange Online으로 외부 연락처 대량 가져오기
 
@@ -42,7 +42,7 @@ ms.locfileid: "38687175"
 
 첫 번째 단계는 Exchange Online으로 가져오려는 각 외부 연락처에 대 한 정보가 포함 된 CSV 파일을 만드는 것입니다. 
   
-1. 다음 텍스트를 메모장에서 텍스트 파일로 복사 하 고 파일 이름 접미사를 사용 하 여 데스크톱에 CSV 파일로 저장 합니다. 예: ExternalContacts.
+1. 다음 텍스트를 메모장의 텍스트 파일에 복사 하 고 파일 이름 접미사를 사용 하 여 데스크톱에 CSV 파일로 저장 합니다. 예: ExternalContacts.
     
     > [!TIP]
     > 언어에 특수 문자 (예: **å**, **ä**및 **ö** )가 포함 되어 있는 경우 메모장에 파일을 저장할 때 CSV 파일을 utf-8 또는 기타 유니코드 인코딩으로 저장 합니다. 
@@ -95,11 +95,11 @@ ms.locfileid: "38687175"
 
 ## <a name="step-3-add-information-to-the-properties-of-the-external-contacts"></a>3 단계: 외부 연락처의 속성에 정보 추가
 
-2 단계에서 명령을 실행 한 후에는 외부 연락처가 만들어지지만, 연락처 또는 조직 정보 (CSV 파일에 있는 대부분의 셀 정보)는 포함 되지 않습니다. 이는 새 외부 연락처를 만들 때 필요한 속성만 채워져 있기 때문입니다. CSV 파일에 모든 정보가 채워지지 않더라도 걱정할 필요는 없습니다. 해당 내용이 없는 경우에는 추가 되지 않습니다.
+2 단계에서 명령을 실행 한 후에는 외부 연락처가 만들어지지만, 연락처 또는 조직 정보 (CSV 파일에 있는 대부분의 셀의 정보)는 포함 되지 않습니다. 이는 새 외부 연락처를 만들 때 필요한 속성만 채워져 있기 때문입니다. CSV 파일에 모든 정보가 채워지지 않더라도 걱정할 필요는 없습니다. 해당 내용이 없는 경우에는 추가 되지 않습니다.
   
 1.  Exchange Online 조직에 PowerShell을 연결 합니다. 단계별 지침은 [Exchange Online PowerShell에 연결을](https://go.microsoft.com/fwlink/p/?LinkId=396554)참조 하십시오.
     
-2. 1 단계에서 CSV 파일을 저장 한 데스크톱 폴더로 이동 합니다. 예를 `C:\Users\Administrator\desktop`들어
+2. 1 단계에서 CSV 파일을 저장 한 데스크톱 폴더로 이동 합니다. 예를 `C:\Users\Administrator\desktop`들면입니다.
     
 3. 다음 두 명령을 실행 하 여 CSV 파일의 다른 속성을 2 단계에서 만든 외부 연락처에 추가 합니다.
     

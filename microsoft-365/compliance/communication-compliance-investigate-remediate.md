@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Microsoft 365에서 통신 준수 알림을 조사 하 고 수정 합니다.
-ms.openlocfilehash: 8aaf74ceafc737487bd97bb7c71b26fc139aacf0
-ms.sourcegitcommit: 33242c260439de0d8db41247e9414913f24adc22
+ms.openlocfilehash: 336ce22813b60a4543941b18e11acf525570bb26
+ms.sourcegitcommit: e386037c9cc335c86896dc153344850735afbccd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "38687000"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "39633687"
 ---
 # <a name="investigate-and-remediate-communication-compliance-alerts-preview"></a>커뮤니케이션 규정 준수 알림 검사 및 수정(미리 보기)
 
@@ -31,7 +31,7 @@ ms.locfileid: "38687000"
 
 정책에서 감지한 문제를 조사 하는 첫 번째 단계는 Microsoft 365 준수 센터에서 생성 된 경고를 검토 하는 것입니다. 알림 그룹을 보는 방법에 따라 준수 센터에 몇 가지 영역이 있으며, 알림을 신속 하 게 조사 하는 데 도움이 됩니다.
 
-- **통신 준수 홈 페이지**: Microsoft 365 조직의 관리자 [https://compliance.microsoft.com](https://compliance.microsoft.com) 계정에 대 한 자격 증명을 사용 하 여 로그인 하는 경우 통신 준수 홈 페이지를**표시 하는** 데 도움이 되는 **정보** > 를 확인 합니다 .를 선택 합니다. 여기에는 다음이 표시 됩니다.
+- **통신 준수 홈 페이지**: Microsoft 365 조직의 관리자 계정 [https://compliance.microsoft.com](https://compliance.microsoft.com) 에 대 한 자격 증명을 사용 하 여에 로그인 할 때 통신 준수 홈 페이지를 표시 하려면 **통신 적합성** > **개요** 를 선택 합니다. 여기에는 다음이 표시 됩니다.
     - 검토가 필요한 경고가 높은 심각도로 나열 됩니다. 경고를 선택 하 여 알림 세부 정보 페이지를 시작 하 고 업데이트 관리 작업을 시작 합니다.
     - 정책 이름별로 나열 된 최근 정책 일치 항목
     - 확인 된 항목은 정책 이름별로 나열 됩니다.

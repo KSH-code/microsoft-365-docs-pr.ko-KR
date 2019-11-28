@@ -14,12 +14,12 @@ ms.collection:
 search.appverid: MOE150
 ms.assetid: bdee24ed-b8cf-4dd0-92ae-b86ec4661e6b
 description: Office 365 사서함이 비활성 상태가 되 면 비활성 사서함에 할당 된 보류 또는 Office 365 보존 정책의 기간을 변경할 수 있습니다. 보류 기간은 복구 가능한 항목 폴더에서 항목이 보관 되는 기간을 정의 합니다.
-ms.openlocfilehash: c07c360a557dfad5b13447bbc9fbf800f96e75d5
-ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
+ms.openlocfilehash: 05f9b218098a48ca374e31fad1e9dc049e0062bc
+ms.sourcegitcommit: bf30a2314376f0b7d577741b97df017969737d11
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38687178"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "39630898"
 ---
 # <a name="change-the-hold-duration-for-an-inactive-mailbox-in-office-365"></a>Office 365에서 비활성 사서함에 대 한 보존 기간 변경
 
@@ -36,9 +36,9 @@ ms.locfileid: "38687178"
     
   - [Exchange Online PowerShell에 연결](https://go.microsoft.com/fwlink/p/?linkid=396554)
     
-  - [Office 365 보안& 준수 센터 PowerShell에 연결](https://go.microsoft.com/fwlink/?linkid=799771)
+  - [Office 365 보안 및 준수 센터 PowerShell에 연결](https://go.microsoft.com/fwlink/?linkid=799771)
     
-- EDiscovery 사례와 관련 된 보류는 무제한 보존으로, 변경할 수 있는 보존 기간은 없습니다. 항목이 영구적으로 또는 보류를 제거 하 고 비활성 사서함이 삭제 될 때까지 유지 됩니다.
+- EDiscovery 사례와 관련 된 보류는 무제한 보존으로, 변경할 수 있는 보존 기간이 없음을 의미 합니다. 항목이 영구적으로 또는 보류를 제거 하 고 비활성 사서함이 삭제 될 때까지 유지 됩니다.
     
 - 비활성 사서함에 대 한 자세한 내용은 [Office 365의 비활성 사서함](inactive-mailboxes-in-office-365.md)을 참조 하십시오.
     
@@ -100,8 +100,8 @@ InPlaceHolds          : {UniH7d895d48-7e23-4a8d-8346-533c3beac15d}
 |:-----|:-----|:-----|
 |Ann Beebe  <br/> |소송 대기  <br/> |*LitigationHoldEnabled* 속성은로 `True`설정 됩니다.  <br/> |
 |Pilar Pinilla  <br/> |원본 위치 유지  <br/> |*InPlaceHolds* 속성은 비활성 사서함에 배치 된 원본 위치 유지의 GUID를 포함 합니다. ID가 접두사로 시작 되지 않으므로 현재 위치 유지로 설정할 수 있습니다.  <br/> Exchange Online PowerShell의 `Get-MailboxSearch -InPlaceHoldIdentity <hold GUID> | FL` 명령을 사용 하 여 비활성 사서함의 원본 위치 유지에 대 한 정보를 가져올 수 있습니다.  <br/> |
-|고 대 Necaise  <br/> |보안 & 준수 센터의 조직 전체 Office 365 보존 정책  <br/> |*InPlaceHolds* 속성은 비어 있습니다. 이는 하나 이상의 조직 전체 또는 (Exchange 전체) Office 365 보존 정책이 비활성 사서함에 적용 됨을 나타냅니다. 이 경우 Exchange Online PowerShell에서 `Get-OrganizationConfig | Select-Object -ExpandProperty InPlaceHolds` 명령을 실행 하 여 조직 전반의 Office 365 보존 정책의 guid 목록을 가져올 수 있습니다. Exchange 사서함에 적용 되는 조직 전체 보존 정책의 GUID는 `mbx` 접두사로 시작 합니다. 예를 `mbxa3056bb15562480fadb46ce523ff7b02`들어  <br/> <br/>비활성 사서함에 적용 되는 Office 365 보존 정책을 식별 하려면 Security & 준수 센터 PowerShell에서 다음 명령을 실행 합니다.  <br/><br/> `Get-RetentionCompliancePolicy <retention policy GUID without prefix> | FL Name`<br/><br/>
-|에이 옛 아들  <br/> |특정 사서함에 적용 되는 보안 & 준수 센터의 Office 365 보존 정책  <br/> |*InPlaceHolds* 속성은 비활성 사서함에 적용 되는 Office 365 보존 정책의 GUID를 포함 합니다. GUID는 `mbx` 접두사로 시작 되므로 특정 사서함에 적용 되는 보존 정책 임을 확인할 수 있습니다. 비활성 사서함에 적용 된 보존 정책의 GUID가 `skp` 접두사로 시작 되 면 보존 정책이 비즈니스용 Skype 대화에 적용 되었음을 나타냅니다.  <br/><br/> 비활성 사서함에 적용 되는 Office 365 보존 정책을 식별 하려면 Security & 준수 센터 PowerShell에서 다음 명령을 실행 합니다.<br/><br/> `Get-RetentionCompliancePolicy <retention policy GUID without prefix> | FL Name` <br/><br/>이 명령을 실행할 때 `mbx` or `skp` 접두사를 제거 해야 합니다.  <br/> |
+|고 대 Necaise  <br/> |보안 & 준수 센터의 조직 전체 Office 365 보존 정책  <br/> |*InPlaceHolds* 속성은 비어 있습니다. 이는 하나 이상의 조직 전체 또는 (Exchange 전체) Office 365 보존 정책이 비활성 사서함에 적용 됨을 나타냅니다. 이 경우 Exchange Online PowerShell에서 `Get-OrganizationConfig | Select-Object -ExpandProperty InPlaceHolds` 명령을 실행 하 여 조직 전반의 Office 365 보존 정책의 guid 목록을 가져올 수 있습니다. Exchange 사서함에 적용 되는 조직 전체 보존 정책의 GUID는 `mbx` 접두사로 시작 합니다. 예를 `mbxa3056bb15562480fadb46ce523ff7b02`들면입니다.  <br/> <br/>비활성 사서함에 적용 되는 Office 365 보존 정책을 식별 하려면 Security & 준수 센터 PowerShell에서 다음 명령을 실행 합니다.  <br/><br/> `Get-RetentionCompliancePolicy <retention policy GUID without prefix> | FL Name`<br/><br/>
+|에이 옛 아들  <br/> |특정 사서함에 적용 되는 보안 & 준수 센터의 Office 365 보존 정책  <br/> |*InPlaceHolds* 속성은 비활성 사서함에 적용 되는 Office 365 보존 정책의 GUID를 포함 합니다. GUID는 `mbx` 접두사로 시작 되므로 특정 사서함에 적용 되는 보존 정책 임을 확인할 수 있습니다. 비활성 사서함에 적용 된 보존 정책의 GUID가 `skp` 접두사로 시작 되 면 보존 정책이 비즈니스용 Skype 대화에 적용 됨을 나타냅니다.  <br/><br/> 비활성 사서함에 적용 되는 Office 365 보존 정책을 식별 하려면 Security & 준수 센터 PowerShell에서 다음 명령을 실행 합니다.<br/><br/> `Get-RetentionCompliancePolicy <retention policy GUID without prefix> | FL Name` <br/><br/>이 명령을 실행할 때 `mbx` or `skp` 접두사를 제거 해야 합니다.  <br/> |
 |Abraham McMahon  <br/> |보안 & 준수 센터의 eDiscovery 사례 보류  <br/> |*InPlaceHolds* 속성은 비활성 사서함에 저장 된 eDiscovery 사례 보류의 GUID를 포함 합니다. GUID는 `UniH` 접두사로 시작 되므로 eDiscovery 사례 보류 임을 확인할 수 있습니다.  <br/> 보안 & 준수 센터 `Get-CaseHoldPolicy` PowerShell에서 cmdlet을 사용 하 여 비활성 사서함의 보류가 연결 된 eDiscovery 사례에 대 한 정보를 확인할 수 있습니다. 예를 들어 명령을 `Get-CaseHoldPolicy <hold GUID without prefix> | FL Name` 실행 하 여 비활성 사서함에 대 한 사례 보류의 이름을 표시할 수 있습니다. 이 명령을 실행할 때 `UniH` 접두사를 제거 해야 합니다.  <br/><br/> 비활성 사서함의 보류가 연결 된 eDiscovery 사례를 식별 하려면 다음 명령을 실행 합니다.  <br/><br/> `$CaseHold = Get-CaseHoldPolicy <hold GUID without prefix>`<br/><br/> `Get-ComplianceCase $CaseHold.CaseId | FL Name`<br/><br/><br/> **참고:** 비활성 사서함에 대해서는 eDiscovery 보류를 사용 하지 않는 것이 좋습니다. That's because eDiscovery cases are intended for specific, time-bound cases related to a legal issue. 특정 시점에 법적 사례가 종료 되 고 사례와 관련 된 보류가 제거 되 고 eDiscovery 사례가 닫히거나 삭제 됩니다. 실제로 비활성 사서함에 있는 보류가 eDiscovery 사례와 연결 되 고 보류가 해제 되거나 eDiscovery 사례가 종료 되거나 삭제 되 면 비활성 사서함이 영구적으로 삭제 됩니다. 
 
 Office 365 보존 정책에 대 한 자세한 내용은 [Overview의 보존 정책 개요](retention-policies.md)를 참조 하세요.
@@ -137,19 +137,19 @@ Set-Mailbox -InactiveMailbox -Identity <identity of inactive mailbox> -Litigatio
 
 2. EAC에서 **규정 준수 관리** \> 원본 ** &amp; 위치 eDiscovery 유지**로 이동 합니다.
     
-3. 변경 하려는 원본 위치 유지를 선택 하 고 편집 아이콘](media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif) **편집** ![을 클릭 합니다.
+3. 변경 하려는 원본 위치 유지를 선택 하 고 편집 아이콘](media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif) **편집** ![을 선택 합니다.
     
-4. 원본 **위치 eDiscovery &amp; 보류** 속성 페이지에서 원본 **위치 유지**를 클릭 합니다. 
+4. 원본 **위치 eDiscovery &amp; 보류** 속성 페이지에서 원본 **위치 유지**를 선택 합니다. 
     
 5. 현재 보존 기간에 따라 다음 중 하나를 수행 합니다.
     
-1. **무기한 보존** 을 클릭 하 여 항목을 무제한으로 저장 합니다. 
+    1. 무제한 **보존** 을 선택 하 여 일정 기간 동안 항목을 보존 합니다. 
     
-2. 특정 기간에 대 한 항목을 포함 하도록 **받은 날짜를 기준으로 항목을 보관할 일 수 지정** 을 클릭 합니다. 항목을 보유할 일 수를 입력 합니다. 
+    2. 특정 기간에 대 한 항목을 포함 하도록 **받은 날짜를 기준으로 항목을 보관할 일 수를 지정** 합니다 .를 선택 합니다. 항목을 보유할 일 수를 입력 합니다. 
     
     ![원본 위치 유지 기간을 변경하는 작업의 스크린샷입니다.](media/cfcfd92a-9d65-40c0-90ef-ab72697b0166.png)
   
-6. **저장**을 클릭합니다.
+6. **저장**을 선택합니다.
     
 #### <a name="use-exchange-online-powershell-to-change-the-hold-duration"></a>Exchange Online PowerShell을 사용 하 여 보존 기간 변경
 
@@ -193,7 +193,7 @@ Set-Mailbox -InactiveMailbox -Identity <identity of inactive mailbox> -Litigatio
     Start-ManagedFolderAssistant -InactiveMailbox <identity of inactive mailbox>
     ```
    
-- **비활성 사서함에 많은 보존을 적용 하는 경우 보류 Guid 중 일부가 표시 되지 않습니다.** 다음 명령을 실행 하 여 비활성 사서함에 저장 된 모든 보류 (소송 보존 제외)의 Guid를 표시할 수 있습니다. 
+- **비활성 사서함에 많은 보류를 적용 하는 경우에는 보류 Guid 중 일부가 표시 되지 않습니다.** 다음 명령을 실행 하 여 비활성 사서함에 저장 된 모든 보류 (소송 보존 제외)의 Guid를 표시할 수 있습니다. 
     
     ```powershell
     Get-Mailbox -InactiveMailboxOnly -Identity <identity of inactive mailbox> | Select-Object -ExpandProperty InPlaceHolds

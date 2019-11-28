@@ -11,19 +11,19 @@ localization_priority: Normal
 search.appverid: MOE150
 ms.assetid: 04e9de2d-765b-457b-a98a-d0f60bfb13f2
 description: EDiscovery 검색 결과를 내보낼 때 컴퓨터로 다운로드 되는 PST 파일의 기본 크기를 변경할 수 있습니다.
-ms.openlocfilehash: b3bba45ce336b143ed948db384673f0a1a5a456f
-ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
+ms.openlocfilehash: 3a302164a1de6d383e2e120dd7a849e692e622eb
+ms.sourcegitcommit: e386037c9cc335c86896dc153344850735afbccd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38687177"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "39634005"
 ---
 # <a name="change-the-size-of-pst-files-when-exporting-ediscovery-search-results"></a>EDiscovery 검색 결과를 내보낼 때 PST 파일 크기 변경
 
 Office 365 eDiscovery 내보내기 도구를 사용 하 여 다른 Microsoft eDiscovery 도구에서 eDiscovery 검색의 전자 메일 결과를 내보낼 때 내보낼 수 있는 PST 파일의 기본 크기는 10gb입니다. 이 기본 크기를 변경 하려는 경우 검색 결과를 내보내는 데 사용 하는 컴퓨터에서 Windows 레지스트리를 편집할 수 있습니다. 이 작업을 수행 하는 한 가지 이유는 PST 파일이 DVD, 컴팩트 디스크 또는 USB 드라이브 같은 이동식 미디어에 들어갈 수 있도록 하는 것입니다. 
   
 > [!NOTE]
->  Office 365 eDiscovery 내보내기 도구는 보안 및 준수 센터의 콘텐츠 검색 도구, Exchange Online의 원본 위치 eDiscovery 및 SharePoint Online의 eDiscovery 센터를 사용 하는 경우 검색 결과를 내보내는 데 사용 됩니다.
+> Office 365 eDiscovery 내보내기 도구는 보안 및 준수 센터의 콘텐츠 검색 도구, Exchange Online의 원본 위치 eDiscovery 및 SharePoint Online의 eDiscovery 센터를 사용 하는 경우 검색 결과를 내보내는 데 사용 됩니다.
   
 ## <a name="create-a-registry-setting-to-change-the-size-of-pst-files-when-you-export-ediscovery-search-results"></a>EDiscovery 검색 결과를 내보낼 때 PST 파일 크기를 변경 하는 레지스트리 설정 만들기
 
@@ -43,7 +43,7 @@ EDiscovery 검색의 결과를 내보내는 데 사용할 컴퓨터에서 다음
     
     |**크기 (GB)**|**크기 (바이트)**|
     |:-----|:-----|
-    |7G B (700 MB)  <br/> |751619277  <br/> |
+    |0.7 GB (700 MB)  <br/> |751619277  <br/> |
     |2GB  <br/> |2147483648  <br/> |
     |4 GB  <br/> |4294967296  <br/> |
     |8GB  <br/> |8589934592  <br/> |
@@ -68,7 +68,7 @@ EDiscovery 검색의 결과를 내보내는 데 사용할 컴퓨터에서 다음
   
  **PST 파일의 기본 크기를 늘리거나 줄여야 하나요?**
   
-고객은 사용자가 조직의 다른 위치를 물리적으로 배송 하는 데 사용할 수 있는 이동식 미디어에 대 한 검색 결과에 맞게 크기 제한을 줄이는 경향이 있습니다. 10mb를 초과 하는 PST 파일에 손상 문제가 있을 수 있으므로 기본 크기를 늘리지 않는 것이 좋습니다.
+고객은 사용자가 조직의 다른 위치에 실제로 제공할 수 있는 이동식 미디어에 검색 결과에 맞게 크기 제한을 줄이는 경향이 있습니다. 10mb를 초과 하는 PST 파일에 손상 문제가 있을 수 있으므로 기본 크기를 늘리지 않는 것이 좋습니다.
   
  **어떤 컴퓨터에서이 작업을 수행 해야 하나요?**
   

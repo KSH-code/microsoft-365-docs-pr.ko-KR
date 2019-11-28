@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 준수 관리자는 Microsoft Service Trust Portal의 무료 워크플로 기반 위험 평가 도구입니다. 준수 관리자를 사용 하면 Microsoft 클라우드 서비스와 관련 된 규정 준수 활동을 추적, 할당 및 확인할 수 있습니다.
-ms.openlocfilehash: e41b28972dc2ada5c0591de0e73c04ea3306e039
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 0d2edb2f7362fa8e8bea6ae82c417f61072bccff
+ms.sourcegitcommit: e386037c9cc335c86896dc153344850735afbccd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37087641"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "39633617"
 ---
 # <a name="microsoft-compliance-manager-and-the-gdpr"></a>Microsoft 준수 관리자 및 GDPR
 
@@ -48,9 +48,9 @@ ms.locfileid: "37087641"
 
 ## <a name="export-a-report-of-account-data-history"></a>계정 데이터 기록의 보고서 내보내기
 
-식별 된 각 사용자 계정에 대해이 계정에 연결 된 종속성 보고서를 생성할 수 있습니다. 이 정보를 사용 하 여 열려 있는 작업 항목을 다시 할당 하거나 이전에 업로드 한 증거에 액세스할 수 있습니다.
+식별 된 각 사용자 계정에 대해 해당 계정에 연결 된 종속성 보고서를 생성할 수 있습니다. 이 정보를 사용 하 여 열려 있는 작업 항목을 다시 할당 하거나 이전에 업로드 한 증거에 액세스할 수 있습니다.
   
- 보고서를 생성하고 내보내려면
+ 보고서를 생성하고 내보내려면:
   
 1. 반환 된 사용자 계정에 현재 할당 된 준수 관리자 제어 작업 항목 및 해당 사용자가 업로드 한 문서 목록에 대 한 보고서를 생성 하 고 다운로드 하려면 **내보내기를** 선택 합니다. 작업을 할당 하지 않았거나 문서를 업로드 하지 않은 경우에는 "이 사용자에 대 한 데이터가 없습니다." 라는 오류 메시지가 표시 됩니다.
 
@@ -69,6 +69,6 @@ ms.locfileid: "37087641"
   
 1. **삭제**를 선택 합니다.
 
-    확인 대화 상자가 표시 되 면*선택한 사용자에 대 한 모든 컨트롤 작업 항목 할당 및 문서 업로드 기록이 제거 됩니다. 이 작업은 영구적입니다. 계속*하 시겠습니까? "
+    "*이렇게 하면 선택한 사용자에 대 한 모든 컨트롤 작업 항목 할당 및 문서 업로드 기록이 제거 됩니다. 이 작업은 영구적입니다. 계속*하 시겠습니까? "
 
 2. 계속 하려면 **확인**을 선택 하 고 그렇지 않으면 **취소**를 선택 합니다.

@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: 6057daa8-6372-4e77-a636-7ea599a76128
 description: Office 365 사서함에 저장할 수 있는 다양 한 유형의 보존을 식별 하는 방법에 대해 알아봅니다. 이러한 보류 유형에는 소송 보존, eDiscovery 보류 및 Office 365 보존 정책이 포함 됩니다. 사용자가 조직 차원의 보존 정책에서 제외 되었는지 여부도 확인할 수 있습니다.
-ms.openlocfilehash: 3319d65f7260a50cdcd38a36b6135a3cc42fb874
-ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
+ms.openlocfilehash: 13e7bcec4d6ce7a04b069552b599e742c8777e8a
+ms.sourcegitcommit: e386037c9cc335c86896dc153344850735afbccd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38687202"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "39634015"
 ---
 # <a name="how-to-identify-the-type-of-hold-placed-on-an-exchange-online-mailbox"></a>Exchange Online 사서함의 보류 유형을 식별하는 방법
 
@@ -175,30 +175,56 @@ Get-Mailbox <username> |FL ComplianceTagHoldApplied
 
 ## <a name="managing-mailboxes-on-delay-hold"></a>지연 보류 시 사서함 관리
 
-사서함에서 모든 유형의 보류가 제거 된 후에는 *DelayHoldApplied* mailbox 속성의 값이 **True**로 설정 됩니다. 다음 번에 관리 되는 폴더 도우미가 사서함을 처리 하 고 보류가 제거 되었음을 감지할 때이 작업이 수행 됩니다. 이를 *지연 보존* 이라고 하며, 사서함에서 데이터를 영구적으로 삭제 (제거) 하지 못하도록 30 일 동안 실제로 보존을 제거 하는 작업이 지연 됨을 의미 합니다. 이를 통해 관리자는 보존을 제거한 후 제거 되는 사서함 항목을 검색 하거나 복구할 수 있습니다. 사서함에 연기 대기를 설정 하면 사서함이 소송 보존 상태에 있는 것 처럼 여전히 무제한 기간 동안 유지 되는 것으로 간주 됩니다. 30 일 후에 지연 보류가 만료 되 고 Office 365에서 자동으로 지연 대기 ( *DelayHoldApplied* 속성을 **False**로 설정)을 제거 하 여 보류가 제거 되도록 시도 합니다. *DelayHoldApplied* 속성을 False로 **설정**하면 다음에 관리 되는 폴더 도우미가 사서함을 처리할 때 제거 하도록 표시 된 항목을 제거 합니다.
+사서함에서 모든 유형의 보류가 제거 되 면 *지연 보류가* 적용 됩니다. 즉, 사서함에서 데이터가 영구적으로 삭제 (제거) 되는 것을 방지 하기 위해 보류의 실제 제거가 30 일 동안 지연 됩니다. 이를 통해 관리자는 보존을 제거한 후 제거 되는 사서함 항목을 검색 하거나 복구할 수 있습니다. 다음 번에 관리 되는 폴더 도우미가 사서함을 처리 하 고 보류가 제거 되었음을 감지할 때 지연 보류가 사서함에 저장 됩니다. 특히 관리 되는 폴더 도우미가 다음 사서함 속성 중 하나를 **True**로 설정 하면 사서함에 지연 보류가 적용 됩니다.
 
-사서함에 대 한 *DelayHoldApplied* 속성의 값을 확인 하려면 Exchange Online PowerShell에서 다음 명령을 실행 합니다.
+- **DelayHoldApplied:** 이 속성은 사용자의 사서함에 저장 된 전자 메일 관련 콘텐츠 (Outlook 및 웹에서 Outlook을 사용 하는 사용자가 생성)에 적용 됩니다.
+
+- **DelayReleaseHoldApplied:** 이 속성은 사용자의 사서함에 저장 되어 있는 Microsoft 팀, Microsoft Forms 및 Microsoft Yammer와 같은 Outlook 이외의 앱에 의해 생성 된 클라우드 기반 콘텐츠에 적용 됩니다. Microsoft 앱에서 생성 되는 클라우드 데이터는 일반적으로 사용자 사서함의 숨겨진 폴더에 저장 됩니다.
+ 
+ 이전 속성을 True로 설정 하는 경우 사서함에 지연 보류가 **적용**되 면 사서함이 소송 보존 상태에 있는 것 처럼 보류 시간에 무제한 유지 되는 것으로 간주 됩니다. 30 일 후에 지연 보류가 만료 되 고 Office 365에서 자동으로 지연 대기 (DelayHoldApplied 또는 DelayReleaseHoldApplied 속성을 **False**로 설정)을 제거 하 여 보류를 제거 합니다. 이러한 속성 중 하나를 **False**로 설정 하면 다음에 관리 되는 폴더 도우미가 사서함을 처리할 때 제거 하도록 표시 된 해당 항목을 제거 합니다.
+
+사서함에 대 한 DelayHoldApplied 및 DelayReleaseHoldApplied 속성의 값을 확인 하려면 Exchange Online PowerShell에서 다음 명령을 실행 합니다.
 
 ```powershell
-Get-Mailbox <username> | FL DelayHoldApplied
+Get-Mailbox <username> | FL *HoldApplied*
 ```
 
-만료 되기 전에 지연 보존을 제거 하려면 Exchange Online PowerShell에서 다음 명령을 실행 하면 됩니다. 
+만료 되기 전에 지연 보존을 제거 하려면 변경 하려는 속성에 따라 Exchange Online PowerShell에서 다음 명령을 하나 또는 둘 다 실행 하면 됩니다. 
  
 ```powershell
 Set-Mailbox <username> -RemoveDelayHoldApplied
 ```
 
-*RemoveDelayHoldApplied* 매개 변수를 사용 하려면 Exchange Online의 법적 보존 역할을 할당 받아야 합니다. 
+또는
+ 
+```powershell
+Set-Mailbox <username> -RemoveDelayReleaseHoldApplied
+```
 
-비활성 사서함에 대 한 지연 대기를 제거 하려면 Exchange Online PowerShell에서 다음 명령을 실행 합니다.
+*RemoveDelayHoldApplied* 또는 *RemoveDelayReleaseHoldApplied* 매개 변수를 사용 하려면 Exchange Online에서 법적 보존 역할을 할당 받아야 합니다. 
+
+비활성 사서함에 대 한 지연 대기를 제거 하려면 Exchange Online PowerShell에서 다음 명령 중 하나를 실행 합니다.
 
 ```powershell
 Set-Mailbox <DN or Exchange GUID> -InactiveMailbox -RemoveDelayHoldApplied
 ```
 
+또는
+
+```powershell
+Set-Mailbox <DN or Exchange GUID> -InactiveMailbox -RemoveDelayReleaseHoldApplied
+```
+
 > [!TIP]
 > 이전 명령에서 비활성 사서함을 지정 하는 가장 좋은 방법은 해당 고유 이름이 나 Exchange GUID 값을 사용 하는 것입니다. 이러한 값 중 하나를 사용 하면 실수로 잘못 된 사서함을 지정 하는 것을 방지할 수 있습니다. 
+
+이러한 매개 변수를 사용 하 여 지연 보류를 관리 하는 방법에 대 한 자세한 내용은 [사서함](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-mailbox)을 참조 하십시오.
+
+지연 대기에서 사서함을 관리할 때는 다음 사항을 염두에 두어야 합니다.
+
+- DelayHoldApplied 또는 DelayReleaseHoldApplied 속성을 **True** 로 설정 하 고 사서함 (또는 해당 Office 365 사용자 계정)이 삭제 되 면 사서함이 비활성 사서함이 됩니다. 두 속성 중 하나를 **True**로 설정 하 고 보류 중인 사서함을 삭제 하면 비활성 사서함이 있는 경우 사서함이 보류 중인 것으로 간주 되기 때문입니다. 사서함을 삭제 하 고 비활성 사서함으로 만들지 않으려면 두 속성을 모두 **False**로 설정 해야 합니다.
+
+- 앞에서 설명한 것 처럼, DelayHoldApplied 또는 DelayReleaseHoldApplied 속성을 **True**로 설정 하면 사서함이 무제한 보존 기간 동안 유지 되는 것으로 간주 됩니다. 그러나이는 사서함의 *모든* 콘텐츠가 보존 된다는 것을 의미 하지는 않습니다. 각 속성에 대해 설정 되는 값에 따라 달라 집니다. 예를 들어 사서함에서 보류가 제거 되었으므로 두 속성을 모두 **True** 로 설정 한다고 가정해 보겠습니다. 그런 다음 *RemoveDelayReleaseHoldApplied* 매개 변수를 사용 하 여 Outlook이 아닌 클라우드 데이터에 적용 된 지연 보존만 제거 합니다. 다음 번에 관리 되는 폴더 도우미가 사서함을 처리할 때 제거 하도록 표시 된 Outlook 이외의 항목은 제거 됩니다. DelayHoldApplied 속성은 여전히 **True**로 설정 되어 있으므로 제거 하도록 표시 된 Outlook 항목은 제거 되지 않습니다. 또한 DelayHoldApplied가 **False** 로 설정 되 고 DelayReleaseHoldApplied이 **true**로 설정 된 경우에는 제거 하도록 표시 된 Outlook 항목만 제거 됩니다.
 
 ## <a name="next-steps"></a>다음 단계
 

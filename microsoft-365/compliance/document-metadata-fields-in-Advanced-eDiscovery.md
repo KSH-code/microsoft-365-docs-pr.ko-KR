@@ -14,16 +14,26 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: fc198bd5aa042cad2aadbe35ae4f19f66effe2bf
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 51f242408e749e7d9bde60a9d462d4a9156f68fc
+ms.sourcegitcommit: e386037c9cc335c86896dc153344850735afbccd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37087330"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "39633587"
 ---
 # <a name="document-metadata-fields-in-advanced-ediscovery"></a>고급 eDiscovery의 문서 메타 데이터 필드
 
-다음 표에는 고급 eDiscovery의 사례에 있는 검토 집합의 문서에 대 한 메타 데이터 필드가 나와 있습니다. 이 테이블은 메타 데이터 필드의 이름, 검토 집합에서 쿼리를 실행할 때 필드를 검색할 수 있는지 여부, 검토 집합에서 선택한 문서의 파일 메타 데이터를 볼 때 필드가 있는지 여부 및 문서 a에서 필드를 포함할지 여부를 나타냅니다. 다시 내보냅니다.
+다음 표에는 고급 eDiscovery의 사례에 있는 검토 집합의 문서에 대 한 메타 데이터 필드가 나와 있습니다. 이 표에서는 다음 정보를 제공 합니다.
+
+- 메타 데이터 필드의 이름 ( **필드 이름** 열)입니다.
+
+- 검색 **가능한 필드 이름** 열에서 [검토 집합 쿼리](review-set-search.md) 를 실행할 때 검색할 수 있는 속성의 이름입니다. 빈 셀은 검토 집합 쿼리에서 필드를 검색할 수 없음을 의미 합니다.
+
+- 문서를 내보낼 때 포함 되는 메타 데이터 필드의 이름입니다 ( **내보낸 필드 이름** 열에).  빈 셀은 메타 데이터 필드가 내보낸 메타 데이터에 포함 되어 있지 않음을 의미 합니다.
+
+- 검토 집합 ( **표시 필드 이름** 열)에서 선택한 문서의 파일 메타 데이터를 볼 때 표시 되는 메타 데이터 필드의 이름입니다. 빈 셀은 문서의 파일 메타 데이터를 볼 때 메타 데이터 필드가 포함 되지 않음을 의미 합니다.
+
+- **설명 열의**메타 데이터 필드에 대 한 설명입니다.
 
 | 필드 이름 | 검색 가능한 필드 이름 | 내보낸 필드 이름 | 표시 필드 이름 | 설명 |
 | :- |  :- |  :- |  :- |  :- |
@@ -75,7 +85,7 @@ ms.locfileid: "37087330"
 | 가족 번호 | FamilyId | Family_ID | 가족 번호 | 가족 번호 모든 항목을 그룹화 합니다. 전자 메일의 경우 메시지 및 모든 첨부 파일을 포함 합니다. 문서의 경우 여기에는 문서 및 포함 된 항목이 포함 됩니다. |
 | 패밀리 크기 |  | Family_size | 패밀리 크기 | 가족에 있는 문서 수입니다. |
 | 파일 관련성 점수 케이스 1 |  | File_relevance_score_case_issue_1 |  | 파일 관련성 점수 사례 1과 관련성을 구분 합니다. |
-| File 클래스 | FileClass | File_class | File 클래스 | SharePoint 및 OneDrive의 콘텐츠: **문서**; Exchange의 콘텐츠: **전자 메일**또는 **첨부 파일** |
+| File 클래스 | FileClass | File_class | File 클래스 | SharePoint 및 OneDrive의 콘텐츠: **문서**; Exchange의 콘텐츠: * * 전자 메일 또는 **첨부 파일** |
 | 파일 ID | 열려 | File_ID | 파일 ID | 문서 식별자가 사례 내에서 고유 합니다.|
 | 파일 시스템 작성일 |  | File_system_date_created | 파일 시스템 작성일 | 파일 시스템에서 만든 날짜 (비 Office 365 데이터에만 적용 됨) |
 | 파일 시스템 날짜 수정 됨 |  | File_system_date_modified | 파일 시스템 날짜 수정 됨 | 파일 시스템에서 수정한 날짜 (비 Office 365 데이터에만 적용 됨) |
@@ -87,7 +97,7 @@ ms.locfileid: "37087330"
 | 포함 유형 | InclusiveType | Inclusive_type | 포함 유형 | 분석에 대해 계산 된 포괄 유형: **0** -포함 안 함 **1 개** (포함) **2 개** 포함 마이너스; **3** -포함 복사본 |
 | 다음에 대 한 회신 Id |  | In_reply_to_ID | 다음에 대 한 회신 Id | 메시지의 Id에 대 한 회신에서 |
 | 대표 | IsRepresentative | Is_representative | 대표 | 정확 하 게 일치 하는 모든 집합의 문서 하나는 담당자로 표시 됩니다. |
-| Item 클래스 | ItemClass | Item_class | Item 클래스 | Exchange server에서 제공 하는 항목 클래스 예: **IPM. 참고 사항** |
+| Item 클래스 | ItemClass | Item_class | Item 클래스 | Exchange server에서 제공 하는 항목 클래스 예를 들어 **IPM. 참고 사항** |
 | Last modified date | LastModifiedDate | Doc_date_modified | Last modified date | 문서 메타 데이터에서 마지막으로 수정한 날짜입니다. |
 | 부하 ID | LoadId | Load_ID | 부하 ID | 항목이 검토 집합에 로드 된 부하 Id입니다. |
 | 위치 | 위치 | 위치 | 위치 | 문서에서 원본으로 사용한 위치 유형을 나타내는 문자열입니다.<br />비-O365-> 가져온 데이터<br />팀-> 팀<br />EXO-> Exchange<br />SPO > SharePoint<br />비즈니스용 OneDrive-> OneDrive |
@@ -142,11 +152,11 @@ ms.locfileid: "37087330"
 | 사이 | 사이 | 사이 | 사이 | 검토 집합에 적용 된 태그 |
 | 테마 목록 | 기타 Eslist | Themes_list | 테마 목록 | 분석을 위해 계산 되는 테마 목록 |
 | 제목 | 제목 | Doc_title | 제목 | 문서 메타 데이터의 제목입니다. |
-| 받는 사람 | 받는 사람 | Email_to | 받는 사람 | 메시지 유형에 대 한 To 필드입니다.  형식이 **\<DisplayName SmtpAddress>** |
+| 받는 사람 | 받는 사람 | Email_to | 받는 사람 | 메시지 유형의 대상 필드  형식이 **\<DisplayName SmtpAddress>** |
 | 전자 메일 설정의 고유 | UniqueInEmailSet |  | 전자 메일 설정의 고유 | 전자 메일 집합에 첨부 파일이 중복 된 경우 False입니다. |
 | 재구성 됨 | WasRemediated | Was_Remediated | 재구성 됨 | 항목이 재구성 된 경우 True이 고 그렇지 않으면 False입니다. |
 | 단어 개수 | WordCount | Word_count | 단어 개수 | 항목의 단어 수입니다. |
 ||||||
 
   > [!NOTE]
-  > Office 365에서 직접 검색할 때 검색 가능한 필드에 대 한 자세한 내용은 [키워드 쿼리 및 검색 조건을](keyword-queries-and-search-conditions.md) 참조 하 여 콘텐츠 검색
+  > 고급 eDiscovery 사례에 대 한 데이터를 수집할 때 Office 365 콘텐츠 위치를 검색할 때 검색 가능한 속성에 대 한 자세한 내용은 [키워드 쿼리 및 검색 조건을 콘텐츠 검색](keyword-queries-and-search-conditions.md)을 참조 하십시오.

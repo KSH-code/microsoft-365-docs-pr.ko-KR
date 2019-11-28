@@ -14,24 +14,24 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 4d74685aec0de4d26a7bd52c3cb53f475ca8490b
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 3a888458dce090091fbba020d1fa17ec6d56e0f5
+ms.sourcegitcommit: e386037c9cc335c86896dc153344850735afbccd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37087642"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "39633827"
 ---
 # <a name="close-or-delete-an-investigation"></a>조사 닫기 또는 조사 삭제
 
 ## <a name="close-an-investigation"></a>조사 닫기
 
- 조사를 완료 하 고 적절 한 수정 작업을 수행한 후에는 수집한 증거를 보존 해야 하지만 나중에 참조를 쉽게 추적할 수 있도록 사례를 닫아야 합니다. 조사가 종료 되 면 보안 & 준수 센터의 데이터 조사 페이지에 여전히 표시 됩니다. 닫힌 사례에 대 한 세부 정보, 보류, 검색 및 구성원은 그대로 유지 됩니다. 나중에 마감 조사를 다시 열 수 있습니다.
+ 조사를 완료 하 고 적절 한 수정 작업을 수행한 후에는 수집한 증거를 보존 하 되 사례를 닫고 나중에 다시 쉽게 참조할 수 있습니다. 조사가 종료 되 면 보안 & 준수 센터의 데이터 조사 페이지에 계속 표시 됩니다. 닫힌 사례에 대 한 세부 정보, 보류, 검색 및 구성원은 그대로 유지 됩니다. 나중에 닫은 조사를 다시 열 수 있습니다.
 
 조사를 닫으려면 다음을 수행 합니다.
 
-1. **설정** 탭에서 **조사 정보**를 클릭 합니다.
+1. **설정** 탭에서 **조사 정보**를 선택 합니다.
 
-2. **닫기 조사**를 클릭 합니다. 
+2. **닫기 조사**를 선택 합니다. 
 
 
 ## <a name="delete-an-investigation"></a>조사 삭제
@@ -40,6 +40,6 @@ ms.locfileid: "37087642"
 
 조사를 삭제 하려면:
 
-1. **설정** 탭에서 **조사 정보**를 클릭 합니다.
+1. **설정** 탭에서 **조사 정보**를 선택 합니다.
 
-2. **조사 삭제**를 클릭 합니다. 
+2. **삭제**확인을 선택 합니다. 
