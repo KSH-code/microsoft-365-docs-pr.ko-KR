@@ -3,7 +3,7 @@ title: 보존 레이블 및 DLP를 사용하여 SharePoint Online 파일 보호
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 06/18/2019
+ms.date: 11/27/2019
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -18,18 +18,16 @@ ms.custom:
 - Ent_Solutions
 ms.assetid: c9f837af-8d71-4df1-a285-dedb1c5618b3
 description: '요약: 다양한 정보 보호 수준을 통해 SharePoint Online 팀 사이트에 보존 레이블 및 DLP(데이터 손실 방지) 정책을 적용합니다.'
-ms.openlocfilehash: 5c7d267b37f024d4defa34b4dfbeff3ba9255ac5
-ms.sourcegitcommit: 6e01543b3fff50a28719478b19b644991ba7505a
+ms.openlocfilehash: 4c9eb83cbde7d54706f109484257e97c22c4733c
+ms.sourcegitcommit: bf30a2314376f0b7d577741b97df017969737d11
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38710102"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "39631027"
 ---
 # <a name="protect-sharepoint-online-files-with-retention-labels-and-dlp"></a>보존 레이블 및 DLP를 사용하여 SharePoint Online 파일 보호
 
- **요약:** 다양한 정보 보호 수준을 통해 SharePoint Online 팀 사이트에 보존 레이블 및 DLP(데이터 손실 방지) 정책을 적용합니다.
-  
-이 문서의 단계를 사용하여 초기, 중요 및 극비 SharePoint Online 팀 사이트에 대한 레이블 및 DLP 정책을 디자인하고 배포합니다. 이러한 3계층 보호에 대한 자세한 내용은 [SharePoint Online 사이트 및 파일 보호](/security/office-365-security/secure-sharepoint-online-sites-and-files.md)를 참조하세요.
+이 문서의 단계를 사용하여 초기, 중요 및 극비 SharePoint Online 팀 사이트에 대한 레이블 및 DLP 정책을 디자인하고 배포합니다. 이러한 3계층 보호에 대한 자세한 내용은 [SharePoint Online 사이트 및 파일 보호](https://docs.microsoft.com/microsoft-365/compliance/deploy-sharepoint-online-sites-for-three-tiers-of-protection)를 참조하세요.
   
 ## <a name="how-this-works"></a>작동 방식
 
@@ -150,9 +148,9 @@ SharePoint Online 팀 사이트에 보존 레이블을 만들고 할당하는 �
 
 13. **중요한 정보를 발견하면 ** 창에서 **팁 및 전자 메일 사용자 지정**을 클릭합니다.
     
-14. **정책 팁 및 전자 메일 알림 사용자 지정** 창에서 **정책 팁 텍스트 사용자 지정**을 클릭합니다.
+14. **Customize policy tips and email notifications(정책 팁 및 전자 메일 알림 사용자 지정)** 창에서 **Customize the policy tip text(정책 팁 텍스트 사용자 지정)** 를 클릭합니다.
     
-15. Azure Information Protection에서 극비 파일을 보호하도록 구현했는지에 따라 텍스트 상자에 다음 팁 중 하나를 입력하거나 붙여 넣습니다.
+15. Azure Information Protection에서 극비 파일을 보호하도록 민감도 레이블을 사용하는지에 따라 텍스트 상자에 다음 팁 중 하나를 입력하거나 붙여 넣습니다.
     
   - 조직 외부의 사용자와 공유하려면 파일을 다운로드한 다음 파일을 엽니다. 파일, 문서 보호, 암호 설정을 차례로 클릭한 다음 강력한 암호를 지정합니다. 암호를 별도의 전자 메일 또는 다른 통신 수단으로 보냅니다.
   - 극비 파일은 암호화를 통해 보호됩니다. IT 부서에서 사용 권한을 부여받은 외부 사용자만 극비 파일을 읽을 수 있습니다.
@@ -219,7 +217,7 @@ SharePoint Online 팀 사이트에 보존 레이블을 만들고 할당하는 �
   
 ## <a name="next-step"></a>다음 단계
 
-[Azure Information Protection을 사용한 SharePoint Online 파일 보호](protect-sharepoint-online-files-with-azure-information-protection.md)
+[민감도 레이블을 사용하여 SharePoint Online 파일 보호](protect-sharepoint-online-files-with-sensitivity-label.md)
     
 ## <a name="see-also"></a>참고 항목
 

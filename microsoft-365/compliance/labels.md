@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Office 365에서 레이블은 올바른 콘텐츠에 대해 올바른 작업을 수행하는 데 도움이 될 수 있습니다. 보존 레이블을 사용하여 거버넌스를 위해 조직의 데이터를 분류하고 해당 분류에 따라 보존 규칙을 적용할 수 있습니다. Office 365에서 기록 관리를 구현할 때도 보존 레이블을 사용할 수 있습니다.
-ms.openlocfilehash: 143d3fb97afca5b6a3b18e47b7be472f35a857ba
-ms.sourcegitcommit: fb3815ee186b2b3ec790ee32a9d7b1628d623b0b
+ms.openlocfilehash: dcf350f34a30d27aa66d3e4395b2441694537bae
+ms.sourcegitcommit: 9a420b16aaa401a822ccfd9b133977ad8bd1024b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/22/2019
-ms.locfileid: "39266169"
+ms.lasthandoff: 11/26/2019
+ms.locfileid: "39621111"
 ---
 # <a name="overview-of-retention-labels"></a>보존 레이블 개요
 
@@ -310,7 +310,7 @@ Office 365 그룹 콘텐츠를 보존하려면 Office 365 그룹 위치를 사�
 
 ## <a name="applying-a-default-retention-label-to-all-content-in-a-sharepoint-library-folder-or-document-set"></a>SharePoint 라이브러리, 폴더 또는 문서 집합의 모든 콘텐츠에 기본 보존 레이블 적용
 
-사용자가 개별 문서에 보존 레이블을 적용할 수 있도록 하는 것 외에, SharePoint 라이브러리, 폴더 또는 문서 집합의 모든 문서에 기본 보존 레이블이 적용되도록 해당 위치에 기본 보존 레이블을 적용할 수도 있습니다.
+사용자가 개별 문서에 보존 레이블을 적용할 수 있도록 하는 것 외에, SharePoint 라이브러리, 폴더 또는 문서 집합의 모든 문서에 기본 보존 레이블이 적용되도록 해당 위치에 기본 보존 레이블을 적용할 수도 있습니다.(기본 레이블은 E5 기능)
   
 문서 라이브러리의 경우 이 작업은 문서 라이브러리의 **라이브러리 설정** 페이지에서 수행합니다. 기본 보존 레이블을 선택하는 경우 라이브러리의 기존 항목에 적용하도록 선택할 수도 있습니다. 
   

@@ -1,7 +1,7 @@
 ---
-title: GDPR에 대한 Dynamics 365 데이터 주체 요청
-description: Microsoft 제품, 서비스 및 관리 도구를 사용하여 통제자 고객이 개인 데이터를 찾아 조치를 취함으로써 DSR 요청에 대처하는 데 도움을 주는 방법에 대한 지침입니다.
-keywords: Microsoft 365, Microsoft 365 Education, Microsoft 365 설명서, GDPR
+title: GDPR 및 CCPA에 대한 Dynamics 365 데이터 주체 요청
+description: Microsoft 제품, 서비스 및 관리 도구를 사용하여 통제자 고객이 개인 데이터를 찾아 조치를 취함으로써 DSR 및 CCPA 요청에 대처하는 데 도움을 주는 방법에 대한 지침입니다.
+keywords: Microsoft 365, Microsoft 365 Education, Microsoft 365 설명서, GDPR, CCPA
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -9,26 +9,31 @@ ms.author: robmazz
 author: robmazz
 manager: laurawi
 audience: itpro
-ms.collection: GDPR
-ms.openlocfilehash: 72277ec2dfe7681aa5f596e655d5e275bbb64dd1
-ms.sourcegitcommit: 5615e790dc53ccc74f3c475ca43d69ca56be348a
+ms.collection:
+- GDPR
+- M365-security-compliance
+hideEdit: true
+ms.openlocfilehash: ca3da7e4fcfc5e639ea29b41f92fbfbb2711d450
+ms.sourcegitcommit: 7713e777731025c165e9e936198609503ade5665
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/31/2019
-ms.locfileid: "36041182"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "39268607"
 ---
-# <a name="dynamics-365-data-subject-requests-for-the-gdpr"></a>GDPR에 대한 Dynamics 365 데이터 주체 요청
+# <a name="dynamics-365-data-subject-requests-for-the-gdpr-and-ccpa"></a>GDPR 및 CCPA에 대한 Dynamics 365 데이터 주체 요청
 
 EU(유럽 연합) [GDPR(일반 데이터 보호 규정)](https://ec.europa.eu/justice/data-protection/reform/index_en.htm)은 사용자(규정에 *데이터 주체*로 알려짐)에게 고용주 또는 다른 유형의 대리점 및 조직(*데이터 통제자* 또는 단순히 *통제자*로 지칭)이 수집한 개인 데이터를 관리할 수 있는 권한을 부여합니다. 개인 데이터는 GDPR에서는 보다 광범위하게 식별되었거나 식별 가능한 자연인과 관련된 모든 데이터로 정의됩니다. GDPR은 데이터 주체에게 개인 데이터에 대한 특정 권한을 부여합니다. 이러한 권한에는 개인 데이터 복사본 획득, 변경 요청, 처리 제한, 삭제 또는 다른 통제자에게 이동될 수 있도록 전자 형식으로 수신하는 권한이 포함됩니다. 데이터 주체가 통제자에게 개인 데이터에 대해 조치를 취할 것을 요구하는 공식적인 요청을 이 문서에서는 *데이터 주체 권한 요청* 또는 DSR 요청이라고 합니다.
 
-이 가이드에서는 Microsoft 제품, 서비스 및 관리 도구를 사용하여 통제자 고객이 DSR 요청에 응답하기 위해 개인 데이터를 찾고 조치를 취하는 데 도움을 주는 방식을 설명합니다. 특히, Microsoft 클라우드에 있는 개인 데이터를 찾고, 액세스하고, 조치를 취하는 방법도 포함되어 있습니다. 이 가이드에 설명된 프로세스에 대한 간략한 개요는 다음과 같습니다.
+마찬가지로 캘리포니아 소비자 개인 정보 보호법(CCPA)은 캘리포니아 소비자에게 GDPR의 데이터 주체 권리와 유사한 권리를 포함하여, 소비자의 개인 정보 삭제, 액세스 및 수신(이식성)과 같은 개인 정보 보호 권리 및 의무를 제공합니다.  또한 CCPA는 특정 공개, 실행 권리 행사 시 차별 대우로부터 보호, “판매"로 분류되는 특정 데이터 전송에 대한 "옵트아웃(opt-out)/옵트인(opt-in)" 요구도 허용합니다. 판매는 가치 있는 대가관계를 위하여 데이터 공유를 포함하도록 광범위하게 정의됩니다. CCPA에 대한 자세한 내용은 [캘리포니아 소비자 개인 정보 보호법](offering-ccpa.md) 및 [캘리포니아 소비자 개인 정보 보호법 FAQ](ccpa-faq.md)를 참조하세요.
 
-- **검색:** 검색 도구를 사용하여 DSR 요청의 대상이 될 수 있는 고객 데이터를 좀 더 쉽게 찾을 수 있습니다. 잠재적인 반응형 문서가 일단 수집되면 다음 단계에 설명된 DSR 작업 중 하나 이상을 수행하여 요청에 응답할 수 있습니다. 또는 요청이 DSR 요청에 응답하기 위한 조직 지침을 충족하지 않는지도 확인할 수 있습니다.
+이 가이드에서는 Microsoft 제품, 서비스 및 관리 도구를 사용하여 통제자 고객이 개인 데이터를 찾아 조치를 취함으로써 DSR 요청에 대처하는 데 도움을 주는 방법을 설명합니다. 특히 여기에는 Microsoft 클라우드에 있는 개인 데이터 또는 개인 정보를 찾고, 액세스하고, 조치를 취하는 방법이 포함됩니다. 이 가이드에 설명된 프로세스에 대한 간략한 개요는 다음과 같습니다.
+
+- **검색:** 검색 및 검색 도구를 사용하여 DSR 요청의 대상이 될 수 있는 고객 데이터를 더 쉽게 찾을 수 있습니다. 잠재적으로 반응형 문서가 수집되면 다음 단계에 설명된 DSR 작업을 수행하여 요청에 응답할 수 있습니다. 또는 요청이 DSR 요청에 응답하기 위한 조직의 지침을 충족하지 않는다고 판단할 수 있습니다.
 - **액세스:** Microsoft 클라우드에 있는 개인 데이터를 검색하고, 요청될 경우 데이터 주체가 사용할 수 있는 복사본을 만듭니다.
 - **수정:** 해당되는 경우 개인 데이터를 변경하거나 요청된 다른 작업을 구현합니다.
-- **제한:** 다양한 온라인 서비스에 대한 라이선스를 제거하거나 가능한 경우 원하는 서비스를 꺼서 개인 데이터의 처리를 제한합니다.
+- **제한**: 다양한 온라인 서비스에 대한 라이선스를 제거하거나 가능한 경우 원하는 서비스를 꺼서 개인 데이터의 처리를 제한합니다. 다음을 수행할 수 있습니다.
 - **삭제:** Microsoft 클라우드에 있는 개인 데이터를 영구적으로 제거합니다.
-- **내보내기:** 개인 데이터의 전자 사본(컴퓨터가 읽을 수 있는 형식)을 데이터 주체에게 제공합니다.
+- **내보내기/수신(이식성):** 개인 데이터 또는 개인 정보의 전자 사본(컴퓨터가 읽을 수 있는 형식)을 데이터 주체에게 제공합니다. CCPA 하에서 개인 정보는 식별된 또는 식별 가능한 개인과 관련 있는 모든 정보입니다. 이때 개인의 비공개, 공개 또는 업무 역할이 구분되지 않습니다. 정의된 "개인 정보"라는 용어는 GDPR에 따른 "개인 데이터"와 대략 일치합니다. 그러나 CCPA에는 가족 및 가정 데이터가 포함되어 있습니다. CCPA에 대한 자세한 내용은 [캘리포니아 소비자 개인 정보 보호법](offering-ccpa.md) 및 [캘리포니아 소비자 개인 정보 보호법 FAQ](ccpa-faq.md)를 참조하세요.
 
 이 가이드의 각 섹션에서는 데이터 통제자가 Microsoft 클라우드의 개인 데이터에 대한 DSR 요청에 응답하기 위해 수행할 수 있는 기술적 절차를 간략하게 설명합니다.
 
@@ -47,7 +52,7 @@ EU(유럽 연합) [GDPR(일반 데이터 보호 규정)](https://ec.europa.eu/ju
 2부로 나누어진 이 가이드에서는 Dynamics 365 제품, 서비스 및 관리 도구를 사용하여 Microsoft 클라우드에서 데이터를 검색하고 작업하는 방법을 설명하여 GDPR에 따라 권리를 행사하는 데이터 주체의 요청에 응답하여 Microsoft 클라우드에서 데이터를 찾고 활용하도록 도와줍니다. 첫 번째 부분은 고객 데이터에 포함된 개인 데이터를 다루고, 다음 부분은 시스템 생성 로그에 캡처된 기타 가명 처리된 개인 데이터를 다룹니다.
 
 - **1부: 고객 데이터에 포함된 개인 데이터에 대한 DSR(Data Subject Right) 요청에 응답:** 이 가이드의 1부에서는 Dynamics 365 응용 프로그램(Software as a Service)에서 온라인 서비스에 제공한 고객 데이터의 일부로 처리되는 개인 데이터를 액세스, 수정, 제한, 삭제 및 내보내는 방법을 설명합니다.
-- **2부: 필명화된 데이터의 데이터 주체 권리 요청에 응답:** Dynamics 365 엔터프라이즈 서비스를 사용할 경우 Microsoft는 서비스를 제공하기 위해 일부 정보(이 문서 내에서 *시스템 생성 로그*로 지침)를 생성합니다. 이 정보는 최종 사용자가 시스템에서 해당 작업을 식별하기 위해 남겨 놓은 사용 공간으로 제한됩니다. 이 데이터는 추가 정보가 없으면 특정 데이터 주체의 정보로 인식될 수 없지만, GDPR에 따라 일부는 개인적인 것으로 인식될 수 있습니다. 이 가이드의 2부에서는 Dynamics 365에서 생성한 시스템 생성 로그를 액세스, 삭제 및 내보내는 방법을 설명합니다.
+- **2부: 필명화된 데이터에 대한 데이터 주체 권한 요청에 응답:** Dynamics 365 엔터프라이즈 서비스를 사용하는 경우 Microsoft는 서비스를 제공하기 위해 일부 정보(이 문서 내에서 *시스템 생성 로그*라고 함)를 생성하며, 이 정보는 시스템에서 작업을 식별하기 위해 최종 사용자가 남겨둔 사용 공간으로 제한됩니다. 이 데이터를 추가 정보를 사용하지 않고 특정 데이터 주체에 속하는 것으로 할 수 없는 경우에도, 일부 데이터는 GDPR에서 개인용으로 간주될 수 있습니다. 이 가이드의 2부에서는 Dynamics 365에서 생성되는 시스템 생성 로그에 액세스하며 이를 삭제하고 내보내는 방법을 설명합니다.
 
 ### <a name="preparing-for-data-subject-rights-investigations"></a>데이터 주체 권리 조사 준비
 
@@ -105,7 +110,7 @@ Dynamics 365 for Marketing에서는 다음과 같은 추가 기능을 사용할 
 
 ### <a name="providing-a-copy-of-customer-data"></a>고객 데이터의 복사본 제공
 
-***Dynamics 365 for Customer Engagement***의 고객 데이터는 포괄적 인 엔티티 내보내기 기능을 사용하여 내보낼 수 있습니다. 데이터 이동성 요청을 용이하게 하기 위해 고객 데이터를 정적 Excel 파일로 내보낼 수 있습니다. Excel을 사용하면 이식 가능성 요청에 포함되도록 개인 데이터를 편집 한 다음 .csv 또는 .xml과 같이 일반적으로 사용되는 기계 가독 형식으로 저장할 수 있습니다.
+***Dynamics 365 for Customer Engagement***의 고객 데이터는 포괄적 인 엔티티 내보내기 기능을 사용하여 내보낼 수 있습니다. 데이터 이동성 요청을 용이하게 하기 위해 고객 데이터를 정적 Excel 파일로 내보낼 수 있습니다. Excel을 사용하면 이식 가능성 요청에 포함되도록 개인 데이터를 편집 한 다음 .csv 또는 .xml과 같이 일반적으로 사용되는 기계 가독 형식으로 저장할 수 있습니다. 또한 [Common Data Service 웹 API](https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/overview)를 통해 Dynamics 365 for Customer Engagement 레코드를 내보낼 수 있습니다.
 
 또한 Dynamics 365 for Marketing의 경우 고객이 개인 데이터가 포함되어 있을 수 있는 캡처된 고객 상호 작용에 대한 추가 레코드를 검색하는 확장 프로그램을 빌드할 수 있도록 하는 [전용 API](https://docs.microsoft.com/dynamics365/customer-engagement/marketing/developer/retrieve-interactions-contact)도 제공됩니다. 이 API는 백 엔드 시스템에서 모든 관련 정보를 로드한 후 하나의 이식 가능 문서로 조합합니다.
 
@@ -115,7 +120,7 @@ Dynamics 365 for Marketing에서는 다음과 같은 추가 기능을 사용할 
 
 ***Dynamics 365 Business Central***에서 다음 두 가지 기능을 활용하여 데이터 주체에게 고객 데이터 사본을 제공할 수 있습니다.
 
-고객 데이터를 Excel 파일로 내보낼 수 있습니다. Excel에서 이식 가능성 요청에 포함되도록 고객 데이터를 편집하고 .csv 또는 .xml과 같이 일반적으로 사용되는 기계 가독 형식으로 저장할 수 있습니다. 자세한 내용은 [비즈니스 데이터를 Excel로 내보내기](https://docs.microsoft.com/ko-KR/dynamics365/business-central/about-export-data)를 참고하십시오.
+고객 데이터를 Excel 파일로 내보낼 수 있습니다. Excel에서 이식 가능성 요청에 포함되도록 고객 데이터를 편집하고 .csv 또는 .xml과 같이 일반적으로 사용되는 기계 가독 형식으로 저장할 수 있습니다. 자세한 내용은 [비즈니스 데이터를 Excel로 내보내기](https://docs.microsoft.com/dynamics365/business-central/about-export-data)를 참고하십시오.
 
 ***Dynamics 365 for Talent***에서 [사용자 검색 보고서 확장](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/gdpr/gdpr-extend-person-search-report)을 사용하여 데이터 주체의 개인 데이터 사본에 대한 요청을 지원하기 위해 정보를 수집합니다.
 
@@ -131,13 +136,13 @@ Dynamics 365 for Marketing에서는 다음과 같은 추가 기능을 사용할 
 - 단일 또는 여러 행을 직접 편집하여 내 데이터 방문 페이지 업데이트
 - 포한될 수 있는 많은 편집 가능한 연락처 필드가 있는 [구독 센터](https://docs.microsoft.com/dynamics365/customer-engagement/marketing/set-up-subscription-center) 페이지를 준비합니다. 이 페이지에서 최종 사용자는 가능한 한, 많이 자체 정보를 업데이트할 수 있습니다.
 
-***Dynamics 365 고객 서비스 정보 활용***은 조직이 [고객 데이터를 수정하거나 변경](https://docs.microsoft.com/dynamics365/ai/customer-service-insights/gdpr-summary#a=note-about-requests-to-rectify-personal-data)할 수 있는 기능을 제공합니다.
+***Dynamics 365 고객 서비스 정보 활용***은 조직이 [고객 데이터를 수정하거나 변경](https://docs.microsoft.com/dynamics365/ai/customer-service-insights/gdpr-summary)할 수 있는 기능을 제공합니다.
 
 ***Dynamics 365 for Finance and Operations***에서 [*사용자 지정 도구*](https://docs.microsoft.com/dynamics365/unified-operations/dev-itpro/dev-tools/developer-home-page)사용할 수도 있지만, 의사 결정 및 구현은 사용자의 책임입니다.
 
 ***Dynamics 365 Business Central***에서 부정확하거나 불완전한 고객 데이터를 수정하는 2가지 방법을 제공합니다.
 
-여러 Business Central 보고서를 대량으로 빠르게 편집하려면 [Business Central Excel 추가 기능](https://docs.microsoft.com/ko-KR/dynamics365/business-central/finance-analyze-excel#the--excel-add-in)통해 목록을 Excel로 내보낸 후 여러 레코드를 수정한 후 Excel에서 수정한 데이터를 Business Central에 게시할 수 있습니다. 자세한 내용은 [비즈니스 데이터를 Excel로 내보내기](https://docs.microsoft.com/ko-KR/dynamics365/business-central/about-export-data)를 참조하세요.
+여러 Business Central 보고서를 대량으로 빠르게 편집하려면 [Business Central Excel 추가 기능](https://docs.microsoft.com/dynamics365/business-central/finance-analyze-excel#the--excel-add-in)통해 목록을 Excel로 내보낸 후 여러 레코드를 수정한 후 Excel에서 수정한 데이터를 Business Central에 게시할 수 있습니다. 자세한 내용은 [비즈니스 데이터를 Excel로 내보내기](https://docs.microsoft.com/dynamics365/business-central/about-export-data)를 참조하세요.
 
 대상 개인 데이터가 포함된 데이터 요소를 수동으로 편집하여 고객 카드의 고객 정보와 같이 모든 필드에 저장된 고객 데이터를 변경할 수 있습니다. 자세한 내용은 [데이터 입력](https://docs.microsoft.com/dynamics365/business-central/ui-enter-data)을 참조하세요.
 
@@ -168,7 +173,7 @@ Dynamics 365 for Marketing에서는 다음과 같은 추가 기능을 사용할 
 
 ***Dynamics 365 Business Central***에서 데이터 주체가 고객 데이터에 포함될 수 있는 개인 데이터를 삭제할 것을 요청하면 다음과 같은 몇 가지 방법으로 이 요청을 처리할 수 있습니다.
 
-- 여러 Business Central 보고서를 대량으로 빠르게 편집하려면 [Business Central Excel 추가 기능](https://docs.microsoft.com/ko-KR/dynamics365/business-central/finance-analyze-excel#the--excel-add-in)통해 데이터를 Excel로 내보낸 후 여러 레코드를 삭제한 후 Excel에서 이러한 변경 내용을 Business Central에 다시 게시할 수 있습니다. 자세한 내용은 [비즈니스 데이터를 Excel로 내보내기](https://docs.microsoft.com/ko-KR/dynamics365/business-central/about-export-data)를 참조하세요.
+- 여러 Business Central 보고서를 대량으로 빠르게 편집하려면 [Business Central Excel 추가 기능](https://docs.microsoft.com/dynamics365/business-central/finance-analyze-excel#the--excel-add-in)통해 데이터를 Excel로 내보낸 후 여러 레코드를 삭제한 후 Excel에서 이러한 변경 내용을 Business Central에 다시 게시할 수 있습니다. 자세한 내용은 [비즈니스 데이터를 Excel로 내보내기](https://docs.microsoft.com/dynamics365/business-central/about-export-data)를 참조하세요.
 - 대상 고객 데이터를 포함하는 데이터 요소를 수동으로 삭제하여 모든 필드에 저장된 고객 데이터를 삭제할 수 있습니다. 자세한 내용은 [데이터 입력](https://docs.microsoft.com/dynamics365/business-central/ui-enter-data)을 참조하세요.
 - 고객 데이터를 직접 삭제할 수 있습니다. 예를 들어 연락처를 삭제한 후 취소된 상호 작용 로그 항목 삭제 일괄 작업을 실행하여 해당 연락처에 대한 상호 작용을 삭제합니다.
 - 메모, 게시된 판매 및 구매 송장과 같이 개인 데이터가 포함된 [문서를 삭제](https://docs.microsoft.com/dynamics365/business-central/admin-manage-documents)할 수 있습니다.
@@ -190,7 +195,7 @@ Dynamics 365 for Finance and Operations 및 ***Dynamics 365 for Talent*** 둘 �
 ***Dynamics 365 Business Central***은 다음과 같은 기능을 제공합니다.
 
 - 고객 데이터를 Excel 파일로 내보낼 수 있습니다. Excel에서 이식 가능성 요청에 포함되도록 고객 데이터를 편집하고 .csv 또는 .xml과 같이 일반적으로 사용되는 기계 가독 형식으로 저장할 수 있습니다. 자세한 내용은 [비즈니스 데이터를 Excel로 내보내기](https://docs.microsoft.com/dynamics365/business-central/about-export-data)를 참조하십시오.
-- 고객 데이터를 Excel 파일로 내보낼 수 있습니다. Excel에서 이식 가능성 요청에 포함되도록 고객 데이터를 편집하고 .csv 또는 .xml과 같이 일반적으로 사용되는 기계 가독 형식으로 저장할 수 있습니다. 자세한 내용은 [비즈니스 데이터를 Excel로 내보내기](https://docs.microsoft.com/ko-KR/dynamics365/business-central/about-export-data)를 참조하십시오.
+- 고객 데이터를 Excel 파일로 내보낼 수 있습니다. Excel에서 이식 가능성 요청에 포함되도록 고객 데이터를 편집하고 .csv 또는 .xml과 같이 일반적으로 사용되는 기계 가독 형식으로 저장할 수 있습니다. 자세한 내용은 [비즈니스 데이터를 Excel로 내보내기](https://docs.microsoft.com/dynamics365/business-central/about-export-data)를 참조하십시오.
 
 ### <a name="microsoft-social-engagement"></a>Microsoft Social Engagement
 
@@ -217,7 +222,7 @@ Microsoft Social Engagement는 고객 데이터 및 소셜 콘텐츠에서 찾�
 #### <a name="social-media-users-authors"></a>소셜 미디어 사용자(작성자)
 
 - 자신의 개인 데이터를 찾으려면 [작성자 찾기 및 삭제](https://docs.microsoft.com/dynamics365/customer-engagement/social-engagement/manage-authors#find-and-delete-an-author)의 처음 네 단계를 따릅니다.
-- 직원은 소셜 플랫폼에서 정의된 특정 콘텐츠를 검색하는 Social Engagement 규칙을 만들 수 있습니다. 이러한 검색 규칙에는 작성자 이름이 포함될 수 있습니다. 이러한 규칙을 찾으려면 [Twitter](https://docs.microsoft.com/dynamics365/customer-engagement/social-engagement/add-rules-search-topic#add-a-twitter-rule), [Instagram](https://docs.microsoft.com/dynamics365/customer-engagement/social-engagement/add-rules-search-topic#add-an-instagram-rule) 및 [YouTube](https://docs.microsoft.com/dynamics365/customer-engagement/social-engagement/add-rules-search-topic#add-a-includetnyoutubeincludestn-youtubemd-rule)와 같은 해당 계정에 대한 소셜 계정 검색 규칙을 검토합니다.
+- 직원은 소셜 플랫폼에서 정의된 특정 콘텐츠를 검색하는 Social Engagement 규칙을 만들 수 있습니다. 이러한 검색 규칙에는 작성자 이름이 포함될 수 있습니다. 이러한 규칙을 찾으려면 [Twitter](https://docs.microsoft.com/dynamics365/social-engagement/add-rules-search-topic#add-a-private-messages-rule), [Instagram](https://docs.microsoft.com/dynamics365/social-engagement/add-rules-search-topic#add-a-custom-sources-rule) 및 [YouTube](https://docs.microsoft.com/dynamics365/social-engagement/add-rules-search-topic#add-a--rule)와 같은 해당 계정에 대한 소셜 계정 검색 규칙을 검토합니다.
 - 작성자에 대한 작성자 태그를 찾으려면 먼저 [작성자](https://docs.microsoft.com/dynamics365/customer-engagement/social-engagement/understand-filters#authors)를 기준으로 [게시물을 필터링](https://docs.microsoft.com/dynamics365/customer-engagement/social-engagement/use-filters#add-edit-or-remove-a-filter)하고 [작성자 태그를 확인합니다](https://go.microsoft.com/fwlink/?linkid=864795).
 
 ##### <a name="your-employees"></a>직원
@@ -244,7 +249,7 @@ GDPR은 요청에 따라 개인 데이터의 복사본을 받을 권리를 데�
 
 - 사용자 프로필의 고객 데이터는 [관리 센터](https://portal.office.com/adminportal/home)로 이동합니다. **관리 센터**에서 **사용자**를 선택합니다. **활성 사용자** 페이지에서 내보내려는 데이터의 사용자를 검색하십시오. 대상 사용자를 제외한 모든 사용자를 삭제한 다음 **내보내기**를 선택해 Excel을 사용하여 정보를 볼 수 있는 .csv 파일로 데이터를 내보냅니다.
 - 경고 수신자의 전자 메일 주소(경고 상태의 유일한 고객 데이터). [경고받는 사람을 관리자로 관리](https://docs.microsoft.com/dynamics365/customer-engagement/social-engagement/email-alerts#manage-alert-recipients-as-administrator)의 단계를 따르십시오. 그런 다음 **내보내기**를 선택하여 이 수신자가 포함된 경고의 Excel 목록을 다운로드하십시오.
-- Power BI의 사용자 이름: [계약 보고](https://docs.microsoft.com/dynamics365/customer-engagement/social-engagement/get-content-pack-for-power-bi)에서 소셜 미디어에 대한 팀 성과 보고서에는 사용자 이름이 표시됩니다. 이 데이터를 내보내려면 PowerBI 대시보드 또는 [보고서](https://docs.microsoft.com/power-bi/power-bi-report-add-filter)에서 사용자를 기준으로 필터링하고 [데이터를 내보냅니다](https://docs.microsoft.com/power-bi/power-bi-visualization-export-data).
+- Power BI의 사용자 이름: [계약 보고](https://docs.microsoft.com/dynamics365/customer-engagement/social-engagement/get-content-pack-for-power-bi)에서 소셜 미디어에 대한 팀 성과 보고서에는 사용자 이름이 표시됩니다. 이 데이터를 내보내려면 PowerBI 대시보드 또는 [보고서](https://docs.microsoft.com/power-bi/power-bi-report-add-filter)에서 사용자를 기준으로 필터링하고 [데이터를 내보냅니다](https://docs.microsoft.com/power-bi/service-export-to-pbix).
 
 ### <a name="rectifying-personal-data"></a>개인 데이터 수정
 
@@ -319,7 +324,7 @@ Social Engagement는 소셜 플랫폼에서 직접 트리거된 게시물 삭제
 
 - 사용자 프로필의 고객 데이터는 [관리 센터](https://portal.office.com/adminportal/home)로 이동합니다. **관리 센터**에서 **사용자**를 선택합니다. **활성 사용자** 페이지에서 내보내려는 데이터의 사용자를 검색하십시오. 대상 사용자를 제외한 모든 사용자를 삭제한 다음 **내보내기**를 선택해 Excel을 사용하여 정보를 볼 수 있는 .csv 파일로 데이터를 내보냅니다.
 - 경고 수신자의 전자 메일 주소(경고의 유일한 개인 데이터): [관리자 권한으로 경고 수신자 관리](https://docs.microsoft.com/dynamics365/customer-engagement/social-engagement/email-alerts#manage-alert-recipients-as-administrator)의 단계를 따릅니다. 그런 후 **내보내기**를 선택하여 이 수신자가 포함된 경고의 Excel 목록을 다운로드합니다.
-- Power BI의 사용자 이름: [계약 보고](https://docs.microsoft.com/dynamics365/customer-engagement/social-engagement/get-content-pack-for-power-bi)에서 소셜 미디어에 대한 팀 성과 보고서에는 사용자 이름이 표시됩니다. 이 데이터를 내보내려면 PowerBI 대시보드 또는 [보고서](https://docs.microsoft.com/power-bi/power-bi-report-add-filter)에서 사용자를 기준으로 필터링하고 [데이터를 내보냅니다](https://docs.microsoft.com/power-bi/power-bi-visualization-export-data).
+- Power BI의 사용자 이름: [계약 보고](https://docs.microsoft.com/dynamics365/customer-engagement/social-engagement/get-content-pack-for-power-bi)에서 소셜 미디어에 대한 팀 성과 보고서에는 사용자 이름이 표시됩니다. 이 데이터를 내보내려면 PowerBI 대시보드 또는 [보고서](https://docs.microsoft.com/power-bi/power-bi-report-add-filter)에서 사용자를 기준으로 필터링하고 [데이터를 내보냅니다](https://docs.microsoft.com/power-bi/service-export-to-pbix).
 
 ## <a name="part-2-responding-to-dsrs-for-system-generated-logs"></a>2단계: 시스템 생성 로그에 대한 DSR에 응답
 
@@ -370,6 +375,6 @@ Azure에서는 조직이 네이티브 JSON 형식의 데이터를 지정된 Azur
 
 사용자 계정을 영구적으로 삭제하면 30일 이내에 거의 모든 Dynamics 365 서비스에 대한 시스템 생성 로그에서 해당 사용자의 데이터가 제거됩니다.
 
-## <a name="learn-more"></a>자세한 정보
+## <a name="learn-more"></a>자세히 알아보기
 
-- [Microsoft 보안 센터](https://www.microsoft.com/en-us/TrustCenter/Privacy/gdpr/default.aspx)
+- [Microsoft 보안 센터](https://www.microsoft.com/TrustCenter/Privacy/gdpr/default.aspx)

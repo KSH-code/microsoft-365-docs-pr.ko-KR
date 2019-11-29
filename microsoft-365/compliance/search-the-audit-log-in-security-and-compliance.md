@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: '보안 및 준수 센터를 사용하여 통합 감사 로그를 검색해 Office 365 조직의 사용자 및 관리자 활동을 확인합니다. '
-ms.openlocfilehash: 43ab1083ad028ee53ad355a84fda17b02decbc70
-ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
+ms.openlocfilehash: 4a43573893ecc16539810cfcfe85c8df469d06dd
+ms.sourcegitcommit: e386037c9cc335c86896dc153344850735afbccd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "39233521"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "39634045"
 ---
 # <a name="search-the-audit-log-in-the-security--compliance-center"></a>보안 및 준수 센터에서 감사 로그 검색
 
@@ -58,6 +58,8 @@ ms.locfileid: "39233521"
 - Microsoft Workplace Analytics의 분석가 및 관리자 활동
 
 - Microsoft PowerApps의 사용자 및 관리자 활동
+
+- Microsoft Forms의 사용자 및 관리자 활동
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
@@ -125,7 +127,9 @@ Office 365 감사 로그의 검색을 시작하기 전에 반드시 아래 내�
   |SharePoint Online 및 비즈니스용 OneDrive|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
   |Sway||![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
   |Workplace Analytics|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
-  |Yammer||![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
+  |Yammer||![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
+  |Microsoft Forms|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
+  ||||
 
 - Azure A (azure Active Directory)는 Office 365의 디렉터리 서비스입니다. 통합 감사 로그에는 Microsoft 365 관리 센터 또는 Azure 관리 포털에서 수행된 사용자, 그룹, 응용 프로그램, 도메인 및 디렉터리 활동이 포함됩니다. Azure AD 이벤트의 전체 목록은 [Azure Active Directory 감사 보고서 이벤트](https://go.microsoft.com/fwlink/p/?LinkID=616549)를 참조하세요.
 
@@ -302,7 +306,7 @@ Office 365에서 감사 로그를 검색하는 과정은 다음과 같습니다.
 |[고급 eDiscovery 활동](#advanced-ediscovery-activities)|[Power BI 활동](#power-bi-activities)|[Microsoft Workplace Analytics](#microsoft-workplace-analytics-activities)|
 |[Microsoft Teams 활동](#microsoft-teams-activities)|[Microsoft Teams 보건 활동](#microsoft-teams-healthcare-activities)|[Yammer 활동](#yammer-activities)|
 |[Microsoft Flow 활동](#microsoft-flow-activities)|[Microsoft PowerApps 활동](#microsoft-powerapps)|[Microsoft Stream 활동](#microsoft-stream-activities)|
-[Exchange 관리자 활동](#exchange-admin-audit-log)|||
+|[Microsoft Forms 활동](#microsoft-forms-activities)|[Exchange 관리자 활동](#exchange-admin-audit-log)|||
 ||||
 
 ### <a name="file-and-page-activities"></a>파일 및 페이지 활동
@@ -776,6 +780,43 @@ PowerApps에서 활동에 대한 감사 로그를 검색할 수 있습니다. �
 ### <a name="microsoft-stream-activities"></a>Microsoft Stream 활동
 
 Microsoft Stream에서 활동에 대한 감사 로그를 검색할 수 있습니다. 이러한 활동에는 사용자가 수행한 비디오 활동, 그룹 채널 활동 및 관리자 활동(예: 사용자 관리, 조직 설정 관리, 보고서 내보내기 등)이 포함됩니다. 이러한 활동에 대 한 설명은 [Microsoft Stream의 감사 로그](https://docs.microsoft.com/stream/audit-logs)에서 "Microsoft Stream에 기록된 활동" 섹션을 참조하세요.
+
+### <a name="microsoft-forms-activities"></a>Microsoft Forms 활동
+
+다음 표에서는 Microsoft Forms에서 Office 365 감사 로그에 기록되는 사용자 및 관리자 활동을 보여 줍니다. Microsoft Forms는 분석 데이터를 수집하는 데 사용되는 양식/퀴즈/설문 조사 도구입니다. 
+
+아래의 설명에서 언급된 것과 같이, 일부 작업은 추가 활동 매개 변수를 포함합니다.
+
+|**친숙한 이름**|**작업**|**설명**|
+|:-----|:-----|:-----|
+|메모가 작성됨|CreateComment|양식 소유자가 퀴즈에 메모 또는 점수를 추가합니다.|
+|양식이 만들어짐|CreateForm|양식 소유자가 새 양식을 만듭니다.|
+|양식이 편집됨|EditForm|양식 소유자는 질문을 만들거나, 제거하거나, 편집하는 등 양식을 편집합니다. <br><br>속성 EditOperation: 문자열은 편집 작업의 이름을 나타냅니다. CreateQuestion, CreateQuestionChoice, DeleteQuestion, DeleteQuestionChoice, DeleteFormImage, DeleteQuestionImage, UpdateQuestion, UpdateQuestionChoice, UploadFormImage/Bing/Onedrive, UploadQuestionImage, ChangeTheme 등의 작업을 수행할 수 있습니다.  <br><br>대부분의 작업 이름에는 따로 설명이 필요 없습니다. <br><br>FormImage에는 사용자가 이미지를 업로드할 수 있는 양식 내의 모든 위치(예: 쿼리나 배경 테마)가 포함됩니다.|
+|양식 이동됨|MoveForm|양식 소유자가 양식을 이동합니다. <br><br>속성 DestinationUserId: 문자열은 양식을 이동한 사람의 사용자 ID를 나타냅니다. 속성 NewFormId: 문자열은 새로 복사한 양식의 새 ID입니다.|
+|양식 삭제됨|DeleteForm|양식 소유자가 양식을 삭제합니다. 여기에는 SoftDelete(삭제 옵션이 사용되고 양식은 휴지통으로 이동) 및 HardDelete(휴지통 비워짐)가 포함됩니다.|
+|양식을 확인함(디자인 타임)|ViewForm|양식 소유자가 편집할 기존 양식을 엽니다.|
+|양식을 미리 봄|PreviewForm|양식 소유자가 미리 보기 기능을 사용하여 양식을 미리 봅니다.|
+|양식을 내보냄|ExportForm|양식 소유자가 Excel로 결과를 내보냅니다. <br><br>속성 ExportFormat: 문자열은 Excel 파일이 다운로드이거나 온라인인 경우를 나타냅니다.|
+|공유 양식 복사가 허용됨|AllowShareFormForCopy|양식 소유자는 다른 사용자와 양식을 공유하는 서식 파일 링크를 만듭니다. 이 이벤트는 양식 소유자가 서식 파일 URL을 생성하기 위해 클릭할 때 기록됩니다.|
+|공유 양식 복사가 허용되지 않음|DisallowShareFormForCopy|양식 소유자 서식 파일 링크를 삭제합니다.|
+|양식 공동 작성이 추가됨|AddFormCoauthor|사용자가 공동 작업 링크를 사용하여 응답을 설계/볼 수 있습니다. 이 이벤트는 사용자가 collab URL을 사용하는 경우 기록됩니다(collab URL이 처음 생성될 때 아님).|
+|양식 공동 작성이 제거됨|RemoveFormCoauthor|양식 소유자가 공동 작업 링크를 삭제합니다.|
+|응답 페이지를 확인함|ViewRuntimeForm|사용자가 보기 위해 응답 페이지를 열었습니다. 이 이벤트는 사용자가 응답을 제출하는지 여부에 관계없이 기록됩니다.|
+|응답이 만들어짐|CreateResponse|새 응답을 받는 것과 비슷함.  사용자가 양식에 응답을 제출했습니다. <br><br>속성 ResponseId: 문자열 및 속성 ResponderId: 문자열은 어떤 결과를 보고 있는지 나타냅니다. <br><br>익명 응답자의 경우 ResponderId 속성은 null입니다.|
+|응답이 업데이트됨|UpdateResponse|양식 소유자가 퀴즈에 대한 메모나 점수를 업데이트했습니다. <br><br>속성 ResponseId: 문자열 및 속성 ResponderId: 문자열은 어떤 결과를 보고 있는지 나타냅니다. <br><br>익명 응답자의 경우 ResponderId 속성은 null입니다.|
+|모든 응답이 삭제됨|DeleteAllResponses|양식 소유자가 모든 응답 데이터를 삭제합니다.|
+|응답이 삭제됨|DeleteResponse|양식 소유자가 하나의 응답을 삭제합니다. <br><br>속성 ResponseId: 문자열은 삭제되는 응답을 나타냅니다.|
+|응답을 확인함|ViewResponses|양식 소유자가 집계된 응답 목록을 봅니다. <br><br>속성 ViewType: 문자열은 양식 소유자가 세부 정보를 보는지 집계를 보는지 여부를 나타냅니다.|
+|응답을 확인함|ViewResponse|양식 소유자가 특정 응답을 봅니다. <br><br>속성 ResponseId: 문자열 및 속성 ResponderId: 문자열은 어떤 결과를 보고 있는지 나타냅니다. <br><br>익명 응답자의 경우 ResponderId 속성은 null입니다.|
+|요약 링크가 만들어짐|GetSummaryLink|양식 소유자는 결과를 공유하기 위한 요약 결과 링크를 만듭니다.|
+|요약 링크가 삭제됨|DeleteSummaryLink|양식 소유자가 요약 결과 링크를 삭제합니다.|
+|양식 피싱 상태가 업데이트됨|UpdatePhishingStatus|이 이벤트는 최종 보안 상태가 변경되었는지에 관계없이 내부 보안 상태 세부 값이 변경될 때마다 기록됩니다(예: 이제 양식이 닫힘 또는 열림). 즉, 최종 보안 상태 변경이 없는 중복 이벤트를 볼 수 있습니다.|
+|Forms Pro 초대가 보내짐|ProInvitation|사용자가 클릭하여 Pro 평가판을 활성화합니다.|
+|양식 설정을 업데이트함|UpdateFormSetting|양식 소유자가 양식 설정을 업데이트합니다. <br><br>속성 FormSettingName: 문자열은 설정의 이름과 새 값을 나타냅니다.|
+|사용자 설정이 업데이트됨|UpdateUserSetting|양식 소유자가 사용자 설정을 업데이트합니다. <br><br>속성 UserSettingName: 문자열은 설정의 이름과 새 값을 나타냅니다.|
+|양식이 나열됨|ListForms|양식 소유자가 양식 목록을 보고 있습니다. <br><br>속성 ViewType: 문자열은 모든 양식, 나와 공유된 항목, 그룹 양식과 같이 양식 소유자가 보고 있는 것을 나타냅니다.|
+|응답이 제출됨|SubmitResponse|사용자가 양식에 응답을 제출합니다. <br><br>속성 IsInternalForm: 부울은 응답자가 양식 소유자와 동일한 조직 내에 있는 경우를 나타냅니다.|
+||||
 
 ### <a name="exchange-admin-audit-log"></a>Exchange 관리자 감사 로그
 

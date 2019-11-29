@@ -1,7 +1,7 @@
 ---
-title: GDPR에 대한 Microsoft 고객 지원 및 전문 서비스 데이터 주체 요청
+title: GDPR 및 CCPA에 대한 Microsoft 고객 지원 및 전문 서비스 데이터 주체 요청
 description: Microsoft 고객 지원 및 전문 서비스가 데이터 주체 요청을 처리하는 방법입니다.
-keywords: 전문 서비스, Microsoft 365, Microsoft 365 Education, Microsoft 365 설명서, GDPR
+keywords: 전문 서비스, Microsoft 365, Microsoft 365 Education, Microsoft 365 설명서, GDPR, CCPA
 author: robmazz
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
@@ -9,25 +9,29 @@ ms.topic: article
 ms.author: robmazz
 manager: laurawi
 audience: itpro
-ms.collection: GDPR
-ms.openlocfilehash: bc0b8d5b6d2a2a1590829a710d8aa51627d9afd0
-ms.sourcegitcommit: 6e2a54ec395eaef4c4658ca52322c3d0f184ca02
+ms.collection:
+- GDPR
+- M365-security-compliance
+ms.openlocfilehash: b54f3ceb056d182951ea7c2d8d21ffa2eeda2db3
+ms.sourcegitcommit: 7713e777731025c165e9e936198609503ade5665
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/04/2019
-ms.locfileid: "34698030"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "39268606"
 ---
-# <a name="microsoft-support-and-professional-services-data-subject-requests-for-the-gdpr"></a>GDPR에 대한 Microsoft 고객 지원 및 전문 서비스 데이터 주체 요청
+# <a name="microsoft-support-and-professional-services-data-subject-requests-for-the-gdpr-and-ccpa"></a>GDPR 및 CCPA에 대한 Microsoft 고객 지원 및 전문 서비스 데이터 주체 요청
 
 ## <a name="introduction-to-microsoft-professional-services"></a>Microsoft 전문 서비스 소개
 
 Microsoft 전문 서비스에는 고객이 더 많은 작업을 수행하고 더 많은 성과를 거두도록 지원하려는 Microsoft 임무를 전담하는 다양한 기술 설계자, 엔지니어, 컨설턴트 및 지원 전문가 그룹이 포함되어 있습니다. Microsoft 전문 서비스 팀에는 총 21,000명 이상의 컨설턴트, 디지털 관리자, 프리미어 지원, 엔지니어 및 영업 전문가가 191개국에서 46개의 다른 언어로 온-프레미스, 전화, 웹, 커뮤니티 및 자동 도구를 통해 매월 수백만 개의 계약을 관리하고, 고객 및 파트너 상호 작용에 참여하고 있습니다. 조직은 Microsoft 포트폴리오 전체에서 광범위한 전문 지식을 제공하며 Microsoft를 엔터프라이즈 고객과 연결하는 확장된 파트너, 기술 커뮤니티, 도구, 진단 및 채널 네트워크를 활용합니다.
 
-Microsoft 보안 센터(<https://www.microsoft.com/trustcenter/professional-services>)에서 Microsoft 전문 서비스 섹션으로 이동하여 Microsoft 전문 서비스에 대해 자세히 알아보세요. Microsoft 전문 서비스는 GDPR(일반 데이터 보호 규정)에 따라 의무를 다합니다. 이 문서의 정보는 Microsoft의 고객 지원 및 컨설팅 서비스에서 GDPR 하의 DSR(Data Subject Request) 의무에 따라 어떻게 고객에게 응답하고 고객을 지원하는지에 대한 고객의 질문에 답변하도록 설계되었습니다.<span id="_Toc508792502" class="anchor"><span id="_Toc510704608" class="anchor"></span></span>
+Microsoft 보안 센터(<https://www.microsoft.com/trustcenter/professional-services>)에서 Microsoft 전문 서비스 섹션으로 이동하여 Microsoft 전문 서비스에 대해 자세히 알아보세요. Microsoft 전문 서비스는 GDPR(일반 데이터 보호 규정)에 따라 의무를 다합니다. 이 문서의 정보는 Microsoft의 고객 지원 및 컨설팅 서비스에서 GDPR 하의 DSR(Data Subject Request) 의무에 따라 어떻게 고객에게 응답하고 고객을 지원하는지에 대한 고객의 질문에 답변하도록 설계되었습니다.
 
 ### <a name="introduction-to-dsrs"></a>DSR 소개 
 
 GDPR은 사용자(규정에 *데이터 주체*로 알려짐)에게 고용주 또는 다른 유형의 대리점 및 조직(*데이터 통제자* 또는 단순히 *통제자*로 지칭)이 수집한 개인 데이터를 관리할 수 있는 권한을 부여합니다. 개인 데이터는 GDPR에서는 보다 광범위하게 식별되었거나 식별 가능한 자연인과 관련된 모든 데이터로 정의됩니다. GDPR은 데이터 주체에게 개인 데이터에 대한 특정 권한을 부여합니다. 이러한 권한에는 개인 데이터 복사본 획득, 변경 요청, 처리 제한 및 삭제 권한이 포함됩니다. 데이터 주체가 통제자에게 개인 데이터에 대해 조치를 취할 것을 요구하는 공식적인 요청을 *데이터 주체 요청* 또는 DSR이라고 합니다. 또한 통제자를 대신하는 회사(*데이터 처리자* 또는 단순히 *처리자*로 알려져 있음)는 통제자의 DSR 이행을 지원할 의무가 있습니다.
+
+마찬가지로 캘리포니아 소비자 개인 정보 보호법(CCPA)은 캘리포니아 소비자에게 GDPR의 데이터 주체 권리와 유사한 권리를 포함하여, 소비자의 개인 정보 삭제, 액세스 및 수신(이식성)과 같은 개인 정보 보호 권리 및 의무를 제공합니다.  또한 CCPA는 특정 공개, 실행 권리 행사 시 차별 대우로부터 보호, “판매"로 분류되는 특정 데이터 전송에 대한 "옵트아웃(opt-out)/옵트인(opt-in)" 요구도 허용합니다. 판매는 가치 있는 대가관계를 위하여 데이터 공유를 포함하도록 광범위하게 정의됩니다. CCPA에 대한 자세한 내용은 [캘리포니아 소비자 개인 정보 보호법](offering-ccpa.md) 및 [캘리포니아 소비자 개인 정보 보호법 FAQ](ccpa-faq.md)를 참조하세요.
 
 이 가이드에서는 지원 및 기타 전문 서비스를 제공하기 위해 수집되었을 수 있는 Microsoft IT 시스템의 개인 데이터를 찾고 액세스하고 관련 작업을 수행하는 방법을 설명합니다.
 
@@ -37,12 +41,12 @@ DSR에 대한 응답을 개발할 때 Microsoft 고객은 지원 및 컨설팅 �
 
 #### <a name="overview-of-the-processes-outlined-in-this-guide"></a>이 가이드에 설명된 프로세스 개요
 
-- **검색:** 검색 도구를 사용하여 DSR의 대상이 될 수 있는 고객 데이터를 좀 더 쉽게 찾을 수 있습니다. 잠재적인 반응형 문서가 일단 수집되면 다음 단계에 설명된 DSR 작업 중 하나 이상을 수행하여 요청에 응답할 수 있습니다. 또는 요청이 DSR에 응답하기 위한 조직 지침을 충족하지 않는지도 확인할 수 있습니다.
+- **검색:** 검색 및 검색 도구를 사용하여 DSR의 대상이 될 수 있는 고객 데이터를 더 쉽게 찾을 수 있습니다. 잠재적으로 반응형 문서가 수집되면 다음 단계에 설명된 DSR 작업을 수행하여 요청에 응답할 수 있습니다. 또는 요청이 DSR에 응답하기 위한 조직의 지침을 충족하지 않는다고 판단할 수 있습니다.
 - **액세스:** Microsoft 클라우드에 있는 개인 데이터를 검색하고, 요청될 경우 데이터 주체가 사용할 수 있는 복사본을 만듭니다.
 - **수정:** 해당되는 경우 개인 데이터를 변경하거나 요청된 다른 작업을 구현합니다.
 - **제한** 다양한 Azure 서비스에 대한 라이선스를 제거하거나 가능한 경우 원하는 서비스를 꺼서 개인 데이터의 처리를 제한합니다. Microsoft 클라우드에서 데이터를 제거하고 온-프레미스 또는 다른 위치에 보존할 수도 있습니다.
 - **삭제:** Microsoft 클라우드에 있는 개인 데이터를 영구적으로 제거합니다.
-- **내보내기:** 개인 데이터의 전자 사본(컴퓨터가 읽을 수 있는 형식)을 데이터 주체에게 제공합니다.
+- **내보내기/수신(이식성):** 개인 데이터 또는 개인 정보의 전자 사본(컴퓨터가 읽을 수 있는 형식)을 데이터 주체에게 제공합니다. CCPA 하에서 개인 정보는 식별된 또는 식별 가능한 개인과 관련 있는 모든 정보입니다. 이때 개인의 비공개, 공개 또는 업무 역할이 구분되지 않습니다. 정의된 "개인 정보"라는 용어는 GDPR에 따른 "개인 데이터"와 대략 일치합니다. 그러나 CCPA에는 가족 및 가정 데이터가 포함되어 있습니다. CCPA에 대한 자세한 내용은 [캘리포니아 소비자 개인 정보 보호법](offering-ccpa.md) 및 [캘리포니아 소비자 개인 정보 보호법 FAQ](ccpa-faq.md)를 참조하세요.
 
 ### <a name="terminology"></a>용어
 
@@ -77,7 +81,7 @@ DSR에 대한 응답을 개발할 때 Microsoft 고객은 지원 및 컨설팅 �
 
 고객은 DSR이 고객 담당자의 개인 데이터에만 관여하며, 계약의 일부로 전송된 고객 데이터(예: 대화 내용, 사례 설명, 파일, 작업 산출물)를 변경하거나 삭제하지 않을 것임을 이해해야 합니다. 또한 계약의 기록 레코드를 유지하기 위해 계약을 시작한 사람의 기록을 포함하여 마감된 계약에 대해 어떤 변경도 수행되지 않도록 합니다.
 
-DSR에 대한 고객 담당자의 문의를 수신할 경우, Microsoft 직원은 고객 담당자에게 [Microsoft 개인 정보 지원](http://go.microsoft.com/fwlink/?LinkId=321116)을 확인할 것을 추천합니다. 이것은 Microsoft의 개인 정보 관련 문의 및 불만 사항을 위한 기본적인 입력 메커니즘입니다. 문의가 수신되면, Microsoft 개인 정보 팀은 상업적 계정인지 또는 조직 계정인지를 식별하고 그에 따라 대응합니다.
+DSR에 대한 고객 담당자의 문의를 수신할 경우, Microsoft 직원은 고객 담당자에게 [Microsoft 개인 정보 지원](https://go.microsoft.com/fwlink/?LinkId=321116)을 확인할 것을 추천합니다. 이것은 Microsoft의 개인 정보 관련 문의 및 불만 사항을 위한 기본적인 입력 메커니즘입니다. 문의가 수신되면, Microsoft 개인 정보 팀은 상업적 계정인지 또는 조직 계정인지를 식별하고 그에 따라 대응합니다.
 
 고객의 비즈니스 연속성을 유지하기 위해 Microsoft는 대체 담당자가 확인될 때까지 계약과 관련된 DSR을 처리하지 않습니다. 새 담당자가 확인되면 Microsoft는 열린 계약에서 이전 담당자를 새 담당자로 교체합니다.
 
@@ -125,7 +129,7 @@ Microsoft가 고객의 DSR 확인을 지원할 경우, 이것은 비즈니스 �
 
 특정 계약을 식별하기 위해 고객은 여러 계약을 검색해야 합니다. 프리미어 고객의 경우 고객을 위한 “CSM”(계약 서비스 관리자)를 해당 계약 일정에 따라 생성된 모든 SR(지원 요청)에서 볼 수 있습니다. 프리미어 이외 고객의 경우, 온라인 서비스 지원 영역 등과 같은 동등한 지원 계약 포털을 사용할 수 있습니다.
 
-![](media/Prof-Serv-DSR-Doc-Final_image3.png)CSM은 “SMC”(Support.Microsoft.Com([https://support.microsoft.com/\<local language code\>/premier](https://support.microsoft.com/%3clocal%20language%20code%3e/premier))의 포털로 이동한 후 지원 요청을 선택하고 검토할 수 있습니다. (참고: URL에서 사용하는 로컬 언어 코드로 바꾸십시오.)
+![SMC에서 검색](media/Prof-Serv-DSR-Doc-Final_image3.png)CSM은 “SMC”(Support.Microsoft.Com([https://support.microsoft.com/\<local language code\>/premier](https://support.microsoft.com/%3clocal%20language%20code%3e/premier))의 포털로 이동한 후 지원 요청을 선택하고 검토할 수 있습니다. (참고: URL에서 사용하는 로컬 언어 코드로 바꾸세요.)
 
 >[!IMPORTANT]
 >SMC의 사례 기록 외에, 고객은 지원 계약 동안 Microsoft가 수집한(또는 고객의 권한에 따라 온라인 서비스에서 제거된) 최종 사용자의 개인 데이터가 파일에 있을 수 있습니다. 예로는 고객의 Exchange 사서함, Azure VM 또는 데이터베이스의 복사본이 있습니다. 이 개인 데이터는 특정 계약에 대한 사례 내역(즉, 티켓)에 언급될 수도 있고 언급되지 않을 수도 있습니다. 해당 데이터를 검토하려면 고객 담당자가 Microsoft 지원 DTM(데이터 전송 및 관리 도구)에서 작업 영역에 대한 URL을 수신한 인증된 특정(AAD 또는 MSA) 지원 요청 담당자여야 합니다. 고객 담당자는 파일에 대한 액세스 권한을 가지지만 전역 보기를 사용할 수 없으며 SMC는 파일이 있는지를 나타내지 않습니다.
@@ -206,9 +210,9 @@ Microsoft 지원 팀은 이러한 모든 삭제를 수행하고, 고객 요청�
 
 ## <a name="microsoft-consulting-services"></a>Microsoft 컨설팅 서비스
 
-계약된 Microsoft 컨설팅 서비스로, 데이터 보호 부록(<http://aka.ms/professionalservicesdpa>)이 적용됩니다.
+계약된 Microsoft 컨설팅 서비스로, 데이터 보호 부록(<https://aka.ms/professionalservicesdpa>)이 적용됩니다.
 
-Microsoft는 계약 팀과 함께 작업하는 고객 담당자를 위한 데이터 통제자입니다. 해당 개인은 데이터 주체 권리를 이행하기 위해 [Microsoft 개인 정보 지원](http://go.microsoft.com/fwlink/?LinkId=321116) 팀에 문의해야 합니다.
+Microsoft는 계약 팀과 함께 작업하는 고객 담당자를 위한 데이터 통제자입니다. 해당 개인은 데이터 주체 권리를 이행하기 위해 [Microsoft 개인 정보 지원](https://go.microsoft.com/fwlink/?LinkId=321116) 팀에 문의해야 합니다.
 
 Microsoft는 컨설팅 계약 동안 제공된 데이터에 포함되어 있는 DSR에 대한 데이터 처리자입니다. 고객은 계약 관리자에게 문의하여 수집된 데이터 및 제공된 특정 유형의 컨설팅 서비스를 토대로 DSR에 대한 응답 지원 계획을 세워야 합니다. Microsoft 컨설팅 서비스 계약 내에서 일반적인 수준으로 요청이 이행된다고 가정할 경우, 추가적인 작업 지시가 요구될 수 있습니다. 또한 특정 기간(컨설팅 계약 유형에 따라 달라질 수 있음) 내에 각 컨설팅 계약이 끝나면 개인 데이터가 삭제됩니다. 고객은 데이터가 더 빨리 삭제되도록 요청할 수 있으며, 삭제 증명을 요청할 수 있습니다.
 
@@ -226,4 +230,4 @@ FastTrack 마이그레이션 서비스의 경우, Microsoft는 데이터 프로�
 
 ## <a name="other-consulting-services"></a>기타 컨설팅 서비스
 
-Microsoft를 통해 다른 전문 서비스를 수신하는 고객은 모든 GDPR 요구 사항의 이행을 위해 계약 팀과 협의해야 합니다. 계약 팀이 GDPR DSR 이행에 대한 명확한 지침을 제공할 수 없으면 고객은 [Microsoft 개인 정보 지원](http://go.microsoft.com/fwlink/?LinkId=321116)에 도움을 요청할 수 있습니다.
+Microsoft를 통해 다른 전문 서비스를 수신하는 고객은 모든 GDPR 요구 사항의 이행을 위해 계약 팀과 협의해야 합니다. 계약 팀이 GDPR DSR 이행에 대한 명확한 지침을 제공할 수 없으면 고객은 [Microsoft 개인 정보 지원](https://go.microsoft.com/fwlink/?LinkId=321116)에 도움을 요청할 수 있습니다.
