@@ -19,17 +19,15 @@ ms.custom:
 - Ent_Architecture
 ms.assetid: 1d51bd87-17bf-457c-b698-61821de3afa0
 description: '요약: SharePoint Online 및 Office 365에서 파일을 보호하기 위한 구성 권장 사항입니다.'
-ms.openlocfilehash: 15b67d2569f2c8ceafb16973ae2bf6862ebb9ded
-ms.sourcegitcommit: e4f2f06daa264b8b476813a2dfe80cffb59f968f
+ms.openlocfilehash: e724370c439f8330b28c32fc36d2ea39b303f6ec
+ms.sourcegitcommit: bf30a2314376f0b7d577741b97df017969737d11
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "38311112"
+ms.lasthandoff: 11/27/2019
+ms.locfileid: "39631315"
 ---
 # <a name="secure-sharepoint-online-sites-and-files"></a>SharePoint Online 사이트 및 파일 보호
 
- **요약:** SharePoint Online 및 Office 365에서 파일을 보호하기 위한 구성 권장 사항입니다.
-  
 이 문서에서는 SharePoint Online 팀 사이트 및 간편한 공동 작업으로 보안 균형을 조정하는 파일 보호를 구성하기 위한 권장 사항을 제공합니다. 그리고 가장 공개적인 공유 정책을 사용하여 조직 내에서 공용 사이트를 시작하는 별도의 네 가지 구성을 정의합니다. 각각의 추가 구성은 의미 있는 보호 단계를 나타내지만, 리소스에 대한 액세스 및 공동 작업 기능은 관련 사용자 집합으로 축소됩니다. 이러한 권장 사항에 기반하여 시작하고 조직의 요구 사항에 맞게 해당 구성을 조정합니다.
   
 이 문서의 구성은 데이터, ID 및 장치의 3계층 보호에 대한 Microsoft 권장 사항과 일치합니다.
@@ -62,7 +60,7 @@ SharePoint Online 팀 사이트에 대한 권장 사항은 다양한 Microsoft 3
     
 - 사용자가 조직 외부로 이러한 종류의 파일을 보내려고 할 때 경고하거나 방지하기 위해 중요 및 극비 보존 레이블에 대한 [데이터 손실 방지](../../compliance/data-loss-prevention-policies.md)(DLP) 정책이 구성됩니다.
     
-- 시나리오에 필요한 경우 [민감도 레이블](../../compliance/sensitivity-labels.md)을 사용하여 기밀성이 높은 파일을 암호화 및 사용 권한으로 보호할 수 있습니다. Azure Information Protection 고객의 경우 Microsoft 365 준수 센터에서 Azure Information Protection 레이블을 사용할 수 있으며 추가 또는 고급 구성을 수행하기로 선택한 경우 레이블이 Azure 포털과 동기화됩니다. Azure Information Protection 레이블과 Office 365 민감도 레이블은 서로 완벽하게 호환됩니다. 예를 들어, Azure Information Protection으로 분류된 콘텐츠가 있는 경우 콘텐츠를 재 분류하거나 레이블을 다시 지정할 필요가 없습니다. 모든 고객에게 이러한 수준의 보호가 필요하지 않습니다. 
+- 시나리오에 필요한 경우 [민감도 레이블](../../compliance/sensitivity-labels.md)을 사용하여 기밀성이 높은 파일을 암호화 및 사용 권한으로 보호할 수 있습니다. Azure Information Protection 고객의 경우 Microsoft 365 준수 센터에서 Azure Information Protection 레이블을 사용할 수 있으며 추가 또는 고급 구성을 수행하기로 선택한 경우 레이블이 Azure 포털과 동기화됩니다. Azure Information Protection 레이블과 Office 365 민감도 레이블은 서로 완벽하게 호환됩니다. 예를 들어, Azure Information Protection으로 분류된 콘텐츠가 있는 경우 콘텐츠를 재 분류하거나 레이블을 다시 지정할 필요가 없습니다.  일부 고객은 이러한 보호 수준을 필요로 하지 않습니다. 
     
 ## <a name="tenant-wide-settings-for-sharepoint-online-and-onedrive-for-business"></a>SharePoint Online 및 비즈니스용 OneDrive에 대한 테넌트 수준 설정
 
@@ -117,20 +115,20 @@ Azure Active Directory에서 권장된 조건부 액세스 정책을 사용하�
 ||||||
 |:-----|:-----|:-----|:-----|:-----|
 ||**초기 보호 #1** <br/> |**초기 보호 #2** <br/> |**중요 보호** <br/> |**극비** <br/> |
-|설명  <br/> |조직 내에서 검색 및 공동 작업을 허용합니다.  <br/> |그룹 외부와의 공유가 허용되는 개인 사이트 및 그룹입니다.  <br/> |격리된 사이트이며, 액세스 수준이 특정 그룹의 구성원으로 정의됩니다. 사이트의 구성원에게만 공유가 허용됩니다. DLP에서 조직 외부로 파일을 보내려고 할 때 사용자에게 경고합니다.  <br/> |Azure Information Protection을 사용한 파일 암호화 및 권한 부여로 격리된 사이트입니다. DLP에서 사용자가 조직 외부로 파일을 보내지 못하도록 방지합니다.  <br/> |
+|설명  <br/> |조직 내에서 검색 및 공동 작업을 허용합니다.  <br/> |그룹 외부와의 공유가 허용되는 개인 사이트 및 그룹입니다.  <br/> |사이트의 구성원만 공유가 허용되는 개인 사이트입니다. DLP는 조직 외부로 파일을 보내려고 할 때 사용자에게 경고합니다.  <br/> |민감도 레이블을 사용한 개인 사이트 및 파일의 암호화 그리고 사용 권한 부여. DLP는 사용자가 조직 외부로 파일을 보내지 못하도록 차단합니다.  <br/> |
 |개인 또는 공용 팀 사이트  <br/> |Public  <br/> |개인  <br/> |개인  <br/> |개인  <br/> |
 |액세스 가능한 사용자  <br/> |B2B 사용자 및 게스트 사용자를 포함한 조직의 모든 사용자  <br/> |사이트 구성원만 - 다른 사용자는 액세스를 요청할 수 있습니다.  <br/> |사이트 구성원만 - 다른 사용자는 액세스를 요청할 수 있습니다.  <br/> |구성원만 - 다른 사용자는 액세스를 요청할 수 없습니다.  <br/> |
 |사이트 수준 공유 제어  <br/> |모든 사용자에게 공유가 허용됩니다. 기본 설정입니다.  <br/> |모든 사용자에게 공유가 허용됩니다. 기본 설정입니다.  <br/> |구성원은 사이트에 대한 액세스를 공유할 수 없습니다.  <br/> 구성원이 아닌 사용자는 사이트에 대한 액세스를 요청할 수 있지만, 사이트 관리자가 이러한 요청을 처리해야 합니다.  <br/> |구성원은 사이트에 대한 액세스를 공유할 수 없습니다.  <br/> 구성원이 아닌 사용자는 사이트 또는 콘텐츠에 대한 액세스를 요청할 수 없습니다.  <br/> |
 |사이트 수준 장치 액세스 제어  <br/> |추가 제어가 없습니다.  <br/> |추가 제어가 없습니다.  <br/> |사용자는 비호환 또는 비도메인 가입 장치로 파일을 다운로드할 수 없습니다. 이렇게 하면 다른 모든 장치에서 브라우저 전용으로 액세스할 수 있습니다.  <br/> |호환되지 않거나 도메인에 가입되지 않은 장치로의 파일 다운로드를 차단합니다.  <br/> |
 |보존 레이블  <br/> |내부 공용  <br/> |개인  <br/> |중요  <br/> |극비  <br/> |
 |DLP 정책  <br/> |||레이블이 중요 계층으로 지정된 파일을 조직 외부로 보낼 때 사용자에게 경고합니다.  <br/> 신용 카드 번호 또는 기타 개인 데이터와 같은 중요 데이터 형식의 외부 공유를 차단하기 위해 이러한 데이터 형식(구성한 사용자 지정 데이터 형식 포함)에 대한 추가 DLP 정책을 구성할 수 있습니다.  <br/> |사용자가 극비 계층으로 레이블이 지정된 파일을 외부 조직으로 보내지 못하도록 차단합니다. 사용자(파일을 공유하는 사용자 포함)는 근거를 제공하여 이 설정을 재정의할 수 있습니다.  <br/> |
-|민감도 레이블  <br/> ||||민감도 레이블을 사용하여 파일에 대한 권한을 자동으로 암호화하고 부여합니다. 민감도 레이블을 사용하여 파일을 암호화 파일이 누출되는 경우 이러한 보호는 해당 파일과 함께 이동합니다.  <br/> Office 365는 Azure Information Protection으로 암호화된 파일을 읽을 수 없습니다. 또한 DLP 정책은 메타데이터(레이블 포함)에만 작동할 수 있지만 파일의 내용(예: 파일 내의 신용 카드 번호)에는 작동할 수 없습니다.  <br/> |
+|민감도 레이블  <br/> ||||민감도 레이블을 사용하여 파일에 대한 권한을 자동으로 암호화하고 부여합니다. 파일이 누출되는 경우 이러한 보호는 해당 파일과 함께 이동합니다.  <br/> Office 365는 민감도 레이블을 사용하여 암호화된 파일을 읽을 수 없습니다. 또한 DLP 정책은 메타데이터(레이블 포함)에만 작동할 수 있지만 파일의 내용(예: 파일 내의 신용 카드 번호)에는 작동할 수 없습니다.  <br/> |
    
 네 가지 유형의 SharePoint Online 팀 사이트를 이 솔루션에 배포하는 단계는 [3계층 보호를 위한 SharePoint Online 사이트 배포](../../compliance/deploy-sharepoint-online-sites-for-three-tiers-of-protection.md)를 참조하세요. 
   
 ## <a name="office-365-retention-labels"></a>Office 365 보존 레이블
 
-중요 데이터가 있는 환경에서는 보존 레이블을 사용하는 것이 좋습니다. 보존 레이블을 구성하고 게시한 후 다음 작업을 수행할 수 있습니다.
+중요한 기밀 데이터가 있는 환경에서는 보존 레이블을 사용하는 것이 좋습니다. 보존 레이블을 구성하고 게시한 후 다음 작업을 수행할 수 있습니다.
   
 - SharePoint Online 팀 사이트의 문서 라이브러리에 기본 레이블을 적용하여 해당 라이브러리의 모든 문서에서 기본 레이블을 사용하도록 할 수 있습니다. 
     
@@ -158,16 +156,16 @@ Azure Active Directory에서 권장된 조건부 액세스 정책을 사용하�
   
 ## <a name="sensitivity-labels"></a>민감도 레이블 
 
-보안 시나리오에 적합한 경우 민감도 레이블을 사용하여 항상 파일에 수반되는 보호 기능을 적용할 수 있습니다. Microsoft 365 규정 준수 센터의 민감도 레이블과 Azure Information Protection 레이블은 동일합니다. 이 솔루션의 경우 Azure Information Protection 범위 지정 정책 및 극비 레이블의 하위 레이블을 사용하여 최고 수준의 보안으로 보호해야 하는 파일에 대한 권한을 암호화하고 부여하는 것이 좋습니다. 
+보안 시나리오에 적합한 경우 민감도 레이블을 사용하여 항상 파일에 수반되는 보호 기능을 적용할 수 있습니다. Microsoft 365 규정 준수 센터의 민감도 레이블과 Azure Information Protection 레이블은 동일합니다. 이 솔루션의 경우 민감도 레이블 또는 기밀 민감도 레이블의 하위 레이블을 사용하여 최고 수준의 보안으로 보호해야 하는 파일에 대한 권한을 암호화하여 부여하는 것이 좋습니다. 
   
-Office 365에 저장된 파일에 Azure Information Protection 암호화가 적용되어 있으면 이 파일의 내용을 처리할 수 없습니다. 즉 공동 작성, eDiscovery, 검색, Delve 및 기타 공동 작업 기능이 작동하지 않습니다. DLP 정책은 메타데이터(보존 레이블 포함)에만 작동할 수 있지만 파일의 내용(예: 파일 내의 신용 카드 번호)에는 작동할 수 없습니다.
+Office 365에 저장된 파일에 민감도 레이블 암호화가 적용되어 있으면 이 파일의 내용을 처리할 수 없습니다. 즉 공동 작성, eDiscovery, 검색, Delve 및 기타 공동 작업 기능이 작동하지 않습니다. DLP 정책은 메타데이터(보존 레이블 포함)에만 작동할 수 있지만 파일의 내용(예: 파일 내의 신용 카드 번호)에는 작동할 수 없습니다.
 
 자세한 내용은 [민감도 레이블 개요](../../compliance/sensitivity-labels.md)를 참조하세요.
 
     
 ### <a name="adding-permissions-for-external-users"></a>외부 사용자에 대한 권한 추가
 
-Azure Information Protection으로 보호된 파일에 대한 액세스 권한을 외부 사용자에게 부여할 수 있는 두 가지 방법이 있습니다. 이 두 가지 방법에서는 모두 Azure AD 계정이 외부 사용자에게 있어야 합니다. 외부 사용자가 Azure AD를 사용하는 조직의 구성원이 아닌 경우 [https://aka.ms/aip-signup](https://aka.ms/aip-signup) 등록 페이지를 사용하여 Azure AD 계정을 개별로 가져올 수 있습니다.
+민감도 레이블로 보호된 파일에 대한 액세스 권한을 외부 사용자에게 부여할 수 있는 두 가지 방법이 있습니다. 이 두 가지 방법에서는 모두 외부 사용자에게 Azure AD 계정이 있어야 합니다. 외부 사용자가 Azure AD를 사용하는 조직의 구성원이 아닌 경우 [https://aka.ms/aip-signup](https://aka.ms/aip-signup) 등록 페이지를 사용하여 Azure AD 계정을 개별로 가져올 수 있습니다.
   
 - 레이블 보호를 구성하는 데 사용되는 외부 사용자를 Azure AD 그룹에 추가
     
@@ -177,9 +175,9 @@ Azure Information Protection으로 보호된 파일에 대한 액세스 권한�
     
      조직(예: Fabrikam.com), Azure AD 그룹(조직 내의 재무 그룹) 또는 개별 사용자의 모든 사용자를 추가할 수 있습니다. 예를 들어 조절기의 외부 팀을 레이블 보호에 추가할 수 있습니다. 이 방법을 사용하면 외부 엔터티가 보호에 추가된 후 레이블로 보호된 파일에 대한 권한만 부여됩니다.
     
-### <a name="deploying-and-using-azure-information-protection"></a>Azure Information Protection 배포 및 사용
+### <a name="deploying-and-using-a-sensitivity-label"></a>민감도 레이블 배포 및 사용
 
-이 솔루션에서 Azure Information Protection을 구성하는 단계는 [Azure Information Protection을 사용하여 SharePoint Online 파일 보호](../../compliance/protect-sharepoint-online-files-with-azure-information-protection.md)를 참조하세요.
+이 솔루션에서 민감도 레이블을 구성하는 단계에 대한 자세한 내용은 [민감도 레이블을 사용하여 SharePoint Online 파일 보호](../../compliance/protect-sharepoint-online-files-with-sensitivity-label.md)를 참조하세요.
   
 
 ## <a name="next-step"></a>다음 단계
