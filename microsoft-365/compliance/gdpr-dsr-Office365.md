@@ -1,7 +1,7 @@
 ---
-title: GDPR에 따른 Office 365 데이터 서비스 요청
-description: GDPR에 따른 사용자 권한 및 기업에서 Office 365를 사용하여 DSR에 대한 응답으로 데이터를 찾고 작업하는 방법을 이해합니다.
-keywords: Office 365, DSR, Microsoft 365, Microsoft 365 Education, Microsoft 365 설명서, GDPR
+title: GDPR 및 CCPA에 따른 Office 365 데이터 서비스 요청
+description: GDPR 및 CCPA에 따른 사용자 권한 및 기업에서 Office 365를 사용하여 DSR에 대한 응답으로 데이터를 찾고 작업하는 방법을 이해합니다.
+keywords: Office 365, DSR, Microsoft 365, Microsoft 365 Education, Microsoft 365 설명서, GDPR, CCPA
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -9,28 +9,32 @@ ms.author: robmazz
 author: robmazz
 manager: laurawi
 audience: itpro
-ms.collection: GDPR
-ms.openlocfilehash: bacf6b55bc4c92987511bdf1ab4ac5b120f11836
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.collection:
+- GDPR
+- M365-security-compliance
+ms.openlocfilehash: 9f2d17c6165a028061cf7d155f828c683f09543f
+ms.sourcegitcommit: 7713e777731025c165e9e936198609503ade5665
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37071497"
+ms.lasthandoff: 11/20/2019
+ms.locfileid: "39624526"
 ---
-# <a name="office-365-data-subject-requests-for-the-gdpr"></a>GDPR에 대한 Office 365 데이터 주체 요청
+# <a name="office-365-data-subject-requests-for-the-gdpr-and-ccpa"></a>GDPR 및 CCPA에 대한 Office 365 데이터 주체 요청
 
 ## <a name="introduction-to-dsrs"></a>DSR 소개
 
 EU(유럽 연합) [GDPR(일반 데이터 보호 규정)](https://ec.europa.eu/justice/data-protection/reform/index_en.htm)은 사용자(규정에 *데이터 주체*로 알려짐)에게 고용주 또는 다른 유형의 대리점 및 조직(*정보 통제자* 또는 단순히 *통제자*로 지칭)이 수집한 개인 데이터를 관리할 수 있는 권한을 부여합니다. 개인 데이터는 GDPR에서는 광범위하게 식별되었거나 식별 가능한 자연인과 관련된 모든 데이터로 정의됩니다. GDPR은 데이터 주체에게 개인 데이터에 대한 특정 권한을 부여합니다. 이러한 권한에는 데이터 복사본 획득, 변경 요청, 처리 제한, 삭제 또는 다른 통제자에게 이동될 수 있도록 전자 형식으로 수신하는 권한이 포함됩니다. 데이터 주체가 통제자에게 개인 데이터에 대해 조치를 취할 것을 요구하는 공식적인 요청을 *데이터 주체 요청* 또는 DSR이라고 합니다. 통제자는 각 DSR을 즉시 고려하고, 요청된 조치를 취하거나 통제자가 해당 DSR을 처리할 수 없는 이유에 대한 설명을 제공하여 실질적인 응답을 제공할 의무가 있습니다.
 
-이 가이드에서는 Office 365 제품, 서비스 및 관리 도구를 사용하여 고객이 DSR에 응답하기 위해 개인 데이터를 찾고 조치를 취하는 데 도움을 주는 방식을 설명합니다. 특히, Microsoft 클라우드에 있는 개인 데이터를 찾고, 액세스하고, 조치를 취하는 방법도 포함되어 있습니다. 이 가이드에 설명된 프로세스에 대한 간략한 개요는 다음과 같습니다.
+마찬가지로 캘리포니아 소비자 개인 정보 보호법(CCPA)은 캘리포니아 소비자에게 GDPR의 데이터 주체 권리와 유사한 권리를 포함하여, 소비자의 개인 정보 삭제, 액세스 및 수신(이식성)과 같은 개인 정보 보호 권리 및 의무를 제공합니다. 또한 CCPA는 특정 공개, 실행 권리 행사 시 차별 대우로부터 보호, “판매"로 분류되는 특정 데이터 전송에 대한 "옵트아웃(opt-out)/옵트인(opt-in)" 요구도 허용합니다. 판매는 가치 있는 대가관계를 위하여 데이터 공유를 포함하도록 광범위하게 정의됩니다. CCPA에 대한 자세한 내용은 [캘리포니아 소비자 개인 정보 보호법](offering-ccpa.md) 및 [캘리포니아 소비자 개인 정보 보호법 FAQ](ccpa-faq.md)를 참조하세요.
 
-- **검색:** 검색 도구를 사용하여 DSR의 주체가 될 수 있는 고객 데이터를 좀 더 쉽게 찾을 수 있습니다. 잠재적인 반응형 문서가 일단 수집되면 다음 단계에 설명된 DSR 작업 중 하나 이상을 수행하여 요청에 응답할 수 있습니다. 또는 요청이 DSR에 응답하기 위한 조직 지침을 충족하지 않는지도 확인할 수 있습니다.
+이 가이드에서는 Office 365 제품, 서비스 및 관리 도구를 사용하여 개인 데이터 또는 개인 정보를 찾아 조치를 취함으로써 DSR에 대처하는 데 도움을 주는 방법을 설명합니다. 특히 여기에는 Microsoft 클라우드에 있는 개인 데이터 또는 개인 정보를 찾고, 액세스하고, 조치를 취하는 방법이 포함됩니다. 이 가이드에 설명된 프로세스에 대한 간략한 개요는 다음과 같습니다.
+
+- **검색:** 검색 및 검색 도구를 사용하여 DSR의 대상이 될 수 있는 고객 데이터를 더 쉽게 찾을 수 있습니다. 잠재적으로 반응형 문서가 수집되면 다음 단계에 설명된 DSR 작업을 수행하여 요청에 응답할 수 있습니다. 또는 요청이 DSR에 응답하기 위한 조직의 지침을 충족하지 않는다고 판단할 수 있습니다.
 - **액세스:** Microsoft 클라우드에 있는 개인 데이터를 검색하고, 요청될 경우 데이터 주체가 사용할 수 있는 복사본을 만듭니다.
 - **수정:** 해당되는 경우 개인 데이터를 변경하거나 요청된 다른 작업을 구현합니다.
-- **제한:** 가능한 경우 다양한 Azure 서비스에 대한 라이선스를 제거하거나 원하는 서비스를 해제하여 개인 데이터의 처리를 제한합니다. 또한 Microsoft 클라우드에서 데이터를 제거하고 온-프레미스 또는 다른 위치에 유지할 수도 있습니다.
+- **제한** 다양한 Azure 서비스에 대한 라이선스를 제거하거나 가능한 경우 원하는 서비스를 꺼서 개인 데이터의 처리를 제한합니다. Microsoft 클라우드에서 데이터를 제거하고 온-프레미스 또는 다른 위치에 보존할 수도 있습니다.
 - **삭제:** Microsoft 클라우드에 있는 개인 데이터를 영구적으로 제거합니다.
-- **내보내기:** 개인 데이터의 전자 사본(컴퓨터가 읽을 수 있는 형식)을 데이터 주체에게 제공합니다.
+- **내보내기/수신(이식성):** 개인 데이터 또는 개인 정보의 전자 사본(컴퓨터가 읽을 수 있는 형식)을 데이터 주체에게 제공합니다. CCPA 하에서 개인 정보는 식별된 또는 식별 가능한 개인과 관련 있는 모든 정보입니다. 이때 개인의 비공개, 공개 또는 업무 역할이 구분되지 않습니다. 정의된 "개인 정보"라는 용어는 GDPR에 따른 "개인 데이터"와 대략 일치합니다. 그러나 CCPA에는 가족 및 가정 데이터가 포함되어 있습니다. CCPA에 대한 자세한 내용은 [캘리포니아 소비자 개인 정보 보호법](offering-ccpa.md) 및 [캘리포니아 소비자 개인 정보 보호법 FAQ](ccpa-faq.md)를 참조하세요.
 
 ### <a name="terminology"></a>용어
 
@@ -183,13 +187,13 @@ DSR에 대응하는 첫 번째 단계는 DSR의 주체인 개인 데이터를 �
 
 ***키워드 구문***
 
-```
+```Query
 pilar@contoso.com AND filetype="xlxs"
 ```
 
 ***GUI***
 
-![](media/O365-DSR-Doc_image18.png)
+![키워드 대화 상자](media/O365-DSR-Doc_image18.png)
 
 ##### <a name="example-2"></a>예 2
 
@@ -199,19 +203,19 @@ pilar@contoso.com AND filetype="xlxs"
 
 ***GUI***
 
-![](media/O365-DSR-Doc_image19.png)
+![키워드 대화 상자](media/O365-DSR-Doc_image19.png)
 
 ##### <a name="example-3"></a>예 3
 
 이 예에서는 지정된 ID 번호, 즉 프랑스 사회 보장 번호(INSEE)가 포함된 전자 메일 메시지를 반환합니다.
 
-```
+```Query
 "1600330345678 97" AND kind="email"
 ```
 
 ***GUI***
 
-![](media/O365-DSR-Doc_image20.png)
+![키워드 대화 상자](media/O365-DSR-Doc_image20.png)
 
 #### <a name="working-with-partially-indexed-items-in-content-search"></a>콘텐츠 검색에서 부분적으로 인덱싱된 항목 사용
 
@@ -281,13 +285,13 @@ Office Lens (iOS, Android 및 Windows를 실행하는 장치에서 지원되는 
 
 사용자가 자신의 SharePoint 프로필 데이터에 액세스하는 또 다른 방법은 비즈니스용 OneDrive 계정에서 **프로필 편집 페이지**로 이동하는 것입니다. 이 페이지에 액세스하려면 비즈니스용 OneDrive 계정 URL 아래의 **EditProfile.aspx** 경로로 이동하면 됩니다. 예를 들어 <strong>user1@contoso.com</strong>사용자의 경우 비즈니스용 OneDrive 계정은 다음 위치에 있습니다.
 
-```
+```URL
 `https://contoso-my.sharepoint.com/personal/user1\_contoso\_com/\_layouts/15/OneDrive.aspx`
 ```
 
 프로필 편집 페이지의 URL은 다음과 같습니다.
 
-```
+```URL
 `https://contoso-my.sharepoint.com/personal/user1\_contoso\_com/\_layouts/15/EditProfile.aspx`
 ```
 
@@ -357,9 +361,11 @@ OneNote 수업용 전자 필기장은 수업 팀 SharePoint Online 사이트에 
 3. 이 항목을 선택한 다음 세부 정보 창에 표시되는 폴더 경로를 복사합니다. 이 폴더는 수업용 전자 필기장의 루트 폴더입니다.
 4. 1단계에서 만든 검색을 편집하여 키워드 쿼리의 학습 이름을 수업용 전자 필기장의 폴더 경로로 바꾸고 이 폴더 경로 앞에 **path** 사이트 속성을 입력합니다(예: **path:"<https://contosoedu.onmicrosoft.com/sites/9C> Biology/SiteAssets/9C Biology Notebook/"**). 따옴표와 후행 슬래시를 포함해야 합니다.
 5. 검색 조건을 추가하고 파일 형식 조건을 선택하고 파일 형식의 값으로 조건을 사용합니다. 그러면 모든 OneNote 파일이 검색 결과에 반환됩니다. 결과로 생성되는 키워드 구문은 다음과 같습니다.[](#building-search-queries-to-find-personal-data)
-    ```
+
+    ```Query
    path:"<https://contosoedu.onmicrosoft.com/sites/9C> Biology/SiteAssets/9C Biology Notebook/" AND filetype="one"
    ```
+
 6.  콘텐츠 검색을 다시 실행합니다. 검색 결과에 수업 팀의 수업용 전자 필기장에 대한 모든 OneNote 파일이 포함되어야 합니다.
 
 #### <a name="microsoft-to-do"></a>Microsoft To Do
@@ -426,13 +432,13 @@ DSR 내보내기 요청을 충족하기 위해 Office 문서를 해당 기본 �
 항목을 내보내고 다운로드하려면
 
 1. 보안 및 준수 센터에서 콘텐츠 검색을 엽니다.
-2. 검색 플라이아웃 페이지에서 ![](media/o365-dsr_image21.png) **자세히**를 클릭한 다음 **결과 내보내기**를 클릭합니다. 보고서를 내보낼 수도 있습니다.
+2. 검색 플라이아웃 페이지에서 ![다운로드 아이콘](media/o365-dsr_image21.png) **자세히**를 클릭한 다음 **결과 내보내기**를 클릭합니다. 보고서를 내보낼 수도 있습니다.
 3. **결과 내보내기** 플라이아웃 페이지의 섹션을 완료합니다. 스크롤 막대를 사용하여 모든 내보내기 옵션을 확인해야 합니다.
 4. 보안 및 준수 센터의 콘텐츠 검색 페이지로 돌아가 **내보내기** 탭을 클릭합니다.
 5. **새로 고침**을 클릭하여 페이지를 업데이트합니다.
 6. **이름** 열에서 작성한 내보내기 작업을 클릭합니다. 내보내기 작업의 이름은 **\_내보내기**와 함께 추가된 콘텐츠 검색의 이름입니다.
 7. 내보내기 플라이 아웃 페이지의 **키 내보내기**에서 **클립 보드로 복사를 클릭**합니다. 10단계에서 이 키를 사용하여 검색 결과를 다운로드하게 됩니다.
-8. 플라이아웃 페이지 위쪽에서 ![](media/o365-dsr_image21.png) **결과 다운로드**를 클릭합니다.
+8. 플라이아웃 페이지 위쪽에서 ![다운로드 아이콘](media/o365-dsr_image21.png) **결과 다운로드**를 클릭합니다.
 9. **Microsoft Office 365 eDiscovery 내보내기 도구**를 설치하라는 메시지가 표시되면 **설치**를 클릭합니다.
 10. **eDiscovery 내보내기 도구**에서 7단계에서 복사한 내보내기 키를 해당 상자에 붙여 넣습니다.
 11. **찾아보기**를 클릭하여 검색 결과 파일을 다운로드하려는 위치를 지정합니다.
@@ -847,13 +853,16 @@ Assignments는 교사와 학생이 생성한 정보를 모두 저장합니다. �
 
 관리자는 Office 365 보안 & 준수 센터의 콘텐츠 검색 도구를 사용하여 과제 및 과제와 관련된 파일에 관련된 제출물과 관련된 학생 파일(학생 작업 및 수업 파일 라이브러리에서)을 검색할 수 있습니다. 예를 들어 관리자는 조직의 모든 SharePoint 사이트를 검색하고 검색 쿼리에서 학생의 이름과 수업 또는 과제 이름을 사용하여 DSR 요청과 관련된 데이터를 찾을 수 있습니다.
 
-마찬가지로, 관리자는 교사가 학생에게 배포한 파일의 과제 관련 교사 파일을 검색할 수 있습니다. 예를 들어, 관리자는 조직의 모든 SharePoint 사이트를 검색할 수 있으며, 검색 쿼리에 교사 이름 및 클래스 또는 과제 이름을 사용하여 DSR 요청 관련 데이터를 찾을 수 있습니다.
+마찬가지로 관리자는 교사가 학생에게 배포한 파일 과제와 관련된 교사 파일을 검색할 수 있습니다. 예를 들어 관리자는 조직의 모든 SharePoint 사이트를 검색하고 검색 쿼리에서 교사의 이름과 수업 또는 과제 이름을 사용하여 DSR 요청과 관련된 데이터를 찾을 수 있습니다.
 
-이 가이드의 [콘텐츠 검색 eDiscovery 도구를 사용하여 DSR에 응답](#using-the-content-search-ediscovery-tool-to-respond-to-dsrs)을 참조하세요.
+자세한 내용은 다음을 참조하세요.
+
+- [과제 관리자 설명서](https://docs.microsoft.com/microsoft-365/education/deploy/assignments-admin-documentation)
+- [콘텐츠 검색 eDiscovery 도구를 사용하여 DSR에 응답](#using-the-content-search-ediscovery-tool-to-respond-to-dsrs)(이 가이드에 포함)
 
 ##### <a name="finding-assignments-data-not-stored-in-sharepoint"></a>SharePoint에 저장되지 않은 Assignments 데이터 찾기
 
-다음과 같은 유형의 과제 데이터는 수업 팀 SharePoint 사이트에 저장되지 않으므로 콘텐츠 검색을 사용하여 검색할 수 없습니다.  이러한 데이터에는 다음이 포함됩니다.
+다음과 같은 유형의 과제 데이터는 수업 팀 SharePoint 사이트에 저장되지 않으므로 콘텐츠 검색을 사용하여 검색할 수 없습니다. 이러한 데이터에는 다음이 포함됩니다.
 
 - 학생의 성적과 교사의 피드백
 - 각 학생이 과제에 대해 제출한 문서 목록
@@ -865,24 +874,27 @@ Assignments는 교사와 학생이 생성한 정보를 모두 저장합니다. �
 
 ##### <a name="export"></a>내보내기
 
-PowerShell 스크립트를 사용하여 학생이 등록되어 있는 모든 클래스에 대해 특정 학생의 과제 데이터를 내보낼 수 있습니다. 자세한 내용은 다음을 참조하세요.
+PowerShell 스크립트를 사용하여 학생의 수업 목록을 가져온 다음 PowerShell 스크립트를 사용하여 데이터를 내보내면, 특정 학생이 등록된 모든 수업에서 해당 학생에 대한 Assignments 데이터를 내보낼 수 있습니다. 자세한 내용은 다음을 참조하세요.
 
-- [스크립트를 사용하여 Assignments에서 사용자 데이터 내보내기 및 삭제](https://support.office.com/article/04473375-6c00-4dda-bfe5-b55a772958fe)
-- [Assignments에서 학생 및 교사 데이터 내보내기](https://support.office.com/article/e8c36e0e-fb6e-42c5-97fd-66f90f92a13a)
+- [Teams에 대한 Assignments 구성](https://docs.microsoft.com/microsoft-365/education/deploy/configure-assignments-for-teams)
+- [특정 학생에 대한 수업 목록 가져오기](https://docs.microsoft.com/microsoft-365/education/deploy/assignments-script-get)
+- [Assignments에서 학생 및 교사 데이터 내보내기](https://docs.microsoft.com/microsoft-365/education/deploy/assignments-script-export)
 
 수업 팀 사이트에서 학생을 제거한 경우 관리자는 export 스크립트를 실행하기 전에 해당 학생을 사이트에 다시 추가할 수 있습니다. 또는 관리자가 스크립트의 입력 파일을 사용하여 학생이 이미 등록된 모든 클래스를 식별할 수 있습니다. 또한 Assignment export 스크립트를 사용하여 교사가 액세스할 수 있는 모든 과제에 대한 제출 데이터를 내보낼 수도 있습니다.
 
 ##### <a name="delete"></a>삭제
 
-PowerShell 스크립트를 사용하여 학생이 등록되어 있는 모든 클래스에 대해 특정 학생의 과제 데이터를 삭제할 수 있습니다. 수업에서 학생을 제거하기 전에 먼저 이 작업을 수행해야 합니다. 자세한 내용은 다음을 참조하세요.
+PowerShell 스크립트를 사용하여 학생의 수업 목록을 가져온 다음 PowerShell 스크립트를 사용하여 데이터를 삭제하면, 특정 학생이 등록된 모든 수업에서 해당 학생에 대한 Assignments 데이터를 삭제할 수 있습니다. 수업에서 학생을 제거하기 전에 먼저 이 작업을 수행해야 합니다. 자세한 내용은 다음을 참조하세요.
 
-- [스크립트를 사용하여 Assignments에서 사용자 데이터 내보내기 및 삭제](https://support.office.com/article/04473375-6c00-4dda-bfe5-b55a772958fe)
-
-- [Assignments에서 학생 데이터 삭제](https://support.office.com/article/a368853a-9565-4320-8e86-2f9423e932a4)
+- [Teams에 대한 Assignments 구성](https://docs.microsoft.com/microsoft-365/education/deploy/configure-assignments-for-teams)
+- [특정 학생에 대한 수업 목록 가져오기](https://docs.microsoft.com/microsoft-365/education/deploy/assignments-script-get)
+- [Assignments에서 학생 데이터 삭제](https://docs.microsoft.com/microsoft-365/education/deploy/assignments-script-delete)
 
 수업 팀 사이트에서 학생을 제거한 경우 관리자는 export 스크립트를 실행하기 전에 해당 학생을 사이트에 다시 추가할 수 있습니다. 또는 관리자가 스크립트의 입력 파일을 사용하여 학생이 이미 등록된 모든 클래스를 식별할 수 있습니다. 모든 Assignments가 수업 팀 사이트에서 공유되므로 교사 데이터를 삭제할 때는 Assignment deletion 스크립트를 사용할 수 없습니다. 따라서 관리자는 교사 데이터를 삭제하려면 자기 자신을 수업 팀 사이트에 추가한 후 특정 과제를 삭제해야 합니다.
 
-**수업용 전자 필기장:** 수업용 전자 필기장에서 콘텐츠를 검색하는 방법은 이 가이드에서 이전에 설명되어 있습니다. [OneNote 수업용 전자 필기장](#onenote-class-notebook) 섹션을 참조하세요. 콘텐츠 검색 도구를 사용하여 수업용 전자 필기장에서 데이터를 내보낼 수도 있습니다. 또는 관리자 또는 데이터 주체가 수업용 전자 필기장에서 데이터를 내보낼 수 있습니다. 수업용 [전자 필기장의 복사본 저장](https://support.office.com/article/44733e18-0ef1-4d4b-be51-fc2ac5bfe9ec)을 참조 하세요.
+#### <a name="class-notebook"></a>수업용 전자 필기장
+
+수업용 전자 필기장에서 콘텐츠를 검색하는 방법은 이 가이드의 앞에서 설명되어 있습니다. [OneNote 수업용 전자 필기장](#onenote-class-notebook) 섹션을 참조하세요. 콘텐츠 검색 도구를 사용하여 수업용 전자 필기장에서 데이터를 내보낼 수도 있습니다. 또는 관리자 또는 데이터 주체가 수업용 전자 필기장에서 데이터를 내보낼 수 있습니다. 수업용 [전자 필기장의 복사본 저장](https://support.office.com/article/44733e18-0ef1-4d4b-be51-fc2ac5bfe9ec)을 참조 하세요.
 
 ### <a name="flow"></a>Flow
 
@@ -1073,7 +1085,7 @@ PowerApps는 조직 내에서 공유 및 사용할 수 있는 응용 프로그�
 
 PowerApps와 관련된 DSR 요청을 용이하게 하기 위해 [PowerApps 관리 센터](https://admin.powerapps.com/) 및 [PowerApps 관리 PowerShell cmdlet](https://go.microsoft.com/fwlink/?linkid=871804)에 노출된 관리 작업을 활용할 수 있습니다. 이러한 도구에 액세스하려면 다음 권한이 있는 계정이 필요합니다.
 
-- 유료 PowerApps Plan 2 라이선스 또는 PowerApps Plan 2 평가판 라이선스. [여기](http://web.powerapps.com/trial)에서 30일 평가판 라이선스에 등록할 수 있습니다.
+- 유료 PowerApps Plan 2 라이선스 또는 PowerApps Plan 2 평가판 라이선스. [여기](https://web.powerapps.com/trial)에서 30일 평가판 라이선스에 등록할 수 있습니다.
 - [Office 365 전역 관리자](https://support.office.com/article/assign-admin-roles-in-office-365-for-business-eac4d046-1afd-4f1a-85fc-8219c79e1504) 또는
 - [Azure Active Directory 전역 관리자](https://docs.microsoft.com/azure/active-directory/active-directory-assign-admin-roles-azure-portal)
 
@@ -1168,7 +1180,7 @@ StaffHub 내의 데이터는 대부분 모든 StaffHub 팀 구성원과 관리�
 - **공유 파일:** StaffHub의 모든 파일은 SharePoint Online에 저장되므로 앞에 설명된 대로 콘텐츠 검색을 사용하여 검색하고 액세스하며 내보낼 수 있습니다. **파일** 탭 아래 StaffHub에서 볼 수도 있습니다.
 - **메시지:** 현재, 다음 항목에서 사용자 관련 데이터에 액세스 하는 단계를 따라 메시지에 액세스할 수 있습니다. 향후에는, StaffHub의 모든 메시지가 Microsoft Teams에 저장되므로, 콘텐츠 검색 도구를 사용하여 여기에 액세스할 수 있습니다.
 - **사용자별 데이터:** 사용자별 데이터는 사용자 설정, 사용자 활동 피드 및 사용자 교대 요청 기록으로 구성되고, 팀 구성원이나 관리자는 이 데이터를 볼 수 없습니다. 사용자별 데이터에 액세스하거나 이 데이터를 내보내려면 데이터 주체가 StaffHub 계정에 로그인하여 사용할 수 있도록 합니다. 또는 데이터 주체가 조직을 떠난 경우, 관리자가 이 데이터 주체의 사용자 암호를 재설정하여 사용자 또는 관리자가 해당 계정에 로그인할 수 있도록 하여 이 데이터를 사용할 수 있습니다.
-- **Kronos:** StaffHub는 타사 직원 관리 도구인 [Kronos](http://www.kronos.com/)에 대한 연결을 지원합니다. StaffHub 및 Kronos는 독립적인 프로세서이므로 각 당사자와 서명한 개별 조건 하에 조직 데이터를 처리합니다. DSR이 Kronos가 보유한 데이터와 관련된 경우에는 DSR 지원이 필요하면 Kronos에 문의해야 하고 그 반대의 경우도 마찬가지입니다.
+- **Kronos:** StaffHub는 타사 직원 관리 도구인 [Kronos](https://www.kronos.com/)에 대한 연결을 지원합니다. StaffHub 및 Kronos는 독립적인 프로세서이므로 각 당사자와 서명한 개별 조건 하에 조직 데이터를 처리합니다. DSR이 Kronos가 보유한 데이터와 관련된 경우에는 DSR 지원이 필요하면 Kronos에 문의해야 하고 그 반대의 경우도 마찬가지입니다.
 
 #### <a name="delete"></a>삭제
 
@@ -1205,7 +1217,7 @@ Stream에 대한 액세스 섹션을 참조하세요.
 
 #### <a name="discover"></a>검색
 
-Sway ([www.sway.com](http://www.sway.com)에서 찾음)를 사용하여 만든 콘텐츠는 소유자와 작성자가 Sway를 볼 수 있도록 허용한 사람만 볼 수 있습니다. [Sway의 개인 정보 설정](https://support.office.com/article/privacy-settings-in-sway-394b551c-be6f-4bd7-a70a-f318d72bf217)을 참조하세요. Sway가 사용자의 DSR에 대응하는 개인 데이터가 있는 장소인지 여부를 확인하려면 데이터 주체 및 데이터 주체에 대한 컨텐츠를 생성 할 가능성이 있는 조직 사용자에게 Sways를 검색하고 데이터 주체의 요청에 응답하는 개인 데이터를 포함할 가능성이 있는 Sways를 공유하도록 요청할 수 있습니다. Sway를 공유하는 방법에 대한 자세한 내용은 이 [Sway 공유](https://support.office.com/article/share-your-sway-1cf853b8-ef7e-46b0-b704-003e58d28998) 문서에서 "조직 계정에서 Sway를 공유하세요"를 참조합니다.
+Sway ([www.sway.com](https://www.sway.com)에서 찾음)를 사용하여 만든 콘텐츠는 소유자와 작성자가 Sway를 볼 수 있도록 허용한 사람만 볼 수 있습니다. [Sway의 개인 정보 설정](https://support.office.com/article/privacy-settings-in-sway-394b551c-be6f-4bd7-a70a-f318d72bf217)을 참조하세요. Sway가 사용자의 DSR에 대응하는 개인 데이터가 있는 장소인지 여부를 확인하려면 데이터 주체 및 데이터 주체에 대한 컨텐츠를 생성 할 가능성이 있는 조직 사용자에게 Sways를 검색하고 데이터 주체의 요청에 응답하는 개인 데이터를 포함할 가능성이 있는 Sways를 공유하도록 요청할 수 있습니다. Sway를 공유하는 방법에 대한 자세한 내용은 이 [Sway 공유](https://support.office.com/article/share-your-sway-1cf853b8-ef7e-46b0-b704-003e58d28998) 문서에서 "조직 계정에서 Sway를 공유하세요"를 참조합니다.
 
 #### <a name="access"></a>Access
 
@@ -1531,7 +1543,7 @@ Delve에서 조직에 대한 처리를 제한하기 위해 Office Graph를 해�
 
 ### <a name="myanalytics"></a>MyAnalytics
 
-MyAnalytics는 사용자에게 회사에서 시간을 어떻게 보냈는지 이해하는 데 도움이 되는 통계를 제공합니다. 사용자가 자신의 개인 대시보드에 표시되는 데이터 및 이러한 데이터의 계산 방식을 보다 잘 이해하도록 도와주려면 [MyAnalytics 개인 대시보드](https://docs.microsoft.com/workplace-analytics/myanalytics/use/dashboard) 도움말 항목으로 안내하세요.
+MyAnalytics는 사용자에게 회사에서 시간을 어떻게 보냈는지 이해하는 데 도움이 되는 통계를 제공합니다. 사용자가 자신의 개인 대시보드에 표시되는 데이터 및 이러한 데이터의 계산 방식을 보다 잘 이해하도록 도와주려면 [MyAnalytics 개인 대시보드](https://docs.microsoft.com/workplace-analytics/myanalytics/use/dashboard-2) 도움말 항목으로 안내하세요.
 
 #### <a name="access-and-export"></a>액세스 및 내보내기
 
@@ -1543,7 +1555,7 @@ MyAnalytics에서 생성되는 모든 정보는 사용자의 메일 및 일정 �
 
 #### <a name="restrict"></a>제한
 
-특정 사용자에 대한 처리를 제한하려면 이들을 MyAnalytics에서 옵트아웃하면 됩니다. 방법은 [MyAnalytics 사용자 설정 구성](https://docs.microsoft.com/workplace-analytics/myanalytics/setup/configure-mya-user-settings)을 참조하세요.
+특정 사용자에 대한 처리를 제한하려면 이들을 MyAnalytics에서 옵트아웃하면 됩니다. 방법은 [MyAnalytics 사용자 설정 구성](https://docs.microsoft.com/workplace-analytics/myanalytics/setup/configure-myanalytics)을 참조하세요.
 
 #### <a name="delete"></a>삭제
 
@@ -1551,7 +1563,7 @@ MyAnalytics 데이터를 포함하는 모든 사서함 콘텐츠는 Active Direc
 
 ### <a name="workplace-analytics"></a>Workplace Analytics
 
-조직에서는 Workplace Analytics를 통해 자체 비즈니스 데이터로 Office 365 데이터를 보강하여 조직의 생산성, 공동 작업 패턴 및 직원 참여도에 대한 정보를 얻을 수 있습니다. [이 문서](https://docs.microsoft.com/workplace-analytics/overview/privacy-and-data-access)에서는 Workplace Analytics에서 처리하는 데이터 및 이러한 데이터에 액세스할 수 있는 사람에 대한 조직의 제어 기능을 설명합니다.
+조직에서는 Workplace Analytics를 통해 자체 비즈니스 데이터로 Office 365 데이터를 보강하여 조직의 생산성, 공동 작업 패턴 및 직원 참여도에 대한 정보를 얻을 수 있습니다. [이 문서](https://docs.microsoft.com/workplace-analytics/index-orig)에서는 Workplace Analytics에서 처리하는 데이터 및 이러한 데이터에 액세스할 수 있는 사람에 대한 조직의 제어 기능을 설명합니다.
 
 Workplace Analytics에서 DSR을 지원하려면 
 
@@ -1580,7 +1592,7 @@ Workplace Analytics 보고서 또는 보고서 집합에서 데이터 주체를 
 1. 데이터 주체에서 Workplace Analytics 라이선스를 제거합니다.
 2. 데이터 주체에 대한 Azure Active Directory(AAD) 항목을 삭제합니다. (자세한 내용은 [사용자 삭제](https://docs.microsoft.com/azure/active-directory/fundamentals/add-users-azure-active-directory#delete-a-user)를 참조하세요.)
 3. 고객 지원에 문의하여 데이터 주체 권한(DSR) 사용자 삭제 요청 티켓을 엽니다. 이 티켓의 사용자 보안 주체 이름(UPN)을 사용하여 데이터 주체를 식별합니다.
-4. 회사의 HR 시스템의 HR 데이터 사본을 내보내고([데이터 내보내기 ](https://docs.microsoft.com/workplace-analytics/setup/prepare-organizational-data#step-three--export-data) 참조) 해당 HR 데이터 파일에서 데이터 주체 정보를 제거한 다음, 편집된 HR 데이터 파일을 .csv 형식으로 Workplace Analytics에 업로드합니다.([조직 데이터 업로드](https://docs.microsoft.com/workplace-analytics/setup/upload-organizational-data) 참조)
+4. 회사의 HR 시스템의 HR 데이터 사본을 내보내고([데이터 내보내기 ](https://docs.microsoft.com/workplace-analytics/setup/prepare-organizational-data) 참조) 해당 HR 데이터 파일에서 데이터 주체 정보를 제거한 다음, 편집된 HR 데이터 파일을 .csv 형식으로 Workplace Analytics에 업로드합니다.([조직 데이터 업로드](https://docs.microsoft.com/workplace-analytics/setup/upload-organizational-data) 참조)
 
 ## <a name="part-3-responding-to-dsrs-for-system-generated-logs"></a>3부: 시스템 생성 로그에 대한 DSR에 응답
 
@@ -1625,7 +1637,7 @@ Workplace Analytics 보고서 또는 보고서 집합에서 데이터 주체를 
 
 - **시스템 생성 로그의 데이터는 어떤 모습으로 표시되나요?:** JSON 형식의 시스템 생성 로그 레코드 예:
 
-   ```
+   ```JSON
    [{
             "DateTime": "2017-04-28T12:09:29-07:00",
              "AppName": "SharePoint",
@@ -1666,7 +1678,7 @@ Exchange Online, SharePoint Online, 비즈니스용 Skype, Yammer 및 Office 365
 다음 국가별 클라우드에서 전역 IT 관리자는 다음을 수행하여 시스템 생성 로그를 삭제해야 합니다.
 
 - Office 365 Germany - 사용자 계정이 영구적으로 삭제되면 시스템 생성 로그도 삭제됩니다. 
-- Office 365 미국 정부 - [Office 365 관리자 포털](http://portal.office365.us)을 통해 Microsoft 지원 서비스로 요청을 제출합니다.
+- Office 365 미국 정부 - [Office 365 관리자 포털](https://portal.office365.us)을 통해 Microsoft 지원 서비스로 요청을 제출합니다.
 - 21Vianet에서 운영하는 Office 365(중국) - 이 [URL](https://portal.partner.microsoftonline.cn/AdminPortal/Home#/homepage)의 Office 365 관리 포털을 통해 Microsoft 지원 서비스에 요청을 제출합니다. **상거래**로 이동한 후 **구독** -> **개인 정보** -> **GDPR**을 선택하고 필수 정보를 입력합니다.
 
 ## <a name="part-4-additional-resources-to-assist-you-with-dsrs"></a>4부: DSR을 지원하는 추가 리소스
@@ -1783,5 +1795,6 @@ IT 관리자는 보안 및 준수 센터에서 감사 로그 검색 도구를 �
 |2018년 11월 12일| 모두| 끊어진 책갈피 및 외부 항목에 대한 끊어진 링크를 수정했습니다.|
 |2019년 1월 9일|[StaffHub](#staffhub)|삭제 섹션에서는 사용자 계정을 영구적으로 삭제할 때 발생하는 작업에 대한 설명이 업데이트되었습니다.|
 |2019년 5월 8일| [Publisher](#publisher)|Publisher의 DSR에 대한 응답 관련 콘텐츠가 추가되었습니다.|
-|2019년 7월 11일| [MyAnalytics](#myanalytics)|모든 사용자가 MyAnalytics 앱에서 해당 데이터를 볼 수 있기 때문에 관리자가 Office 365 보안 & 준수 센터에서 DSR 사례 도구를 사용하여 MyAnalytics 데이터를 내보내는 기능이 제거되었습니다. |
+|2019년 7월 11일| [MyAnalytics](#myanalytics)|모든 사용자가 MyAnalytics 앱에서 해당 데이터를 볼 수 있기 때문에 관리자가 Office 365 보안 및 준수 센터에서 DSR 사례 도구를 사용하여 MyAnalytics 데이터를 내보내는 기능이 제거되었습니다. |
+|2019/11/6|[교육](#education)|PowerShell 스크립트를 사용하여 특정 학생의 수업 목록을 가져온 다음 해당 학생의 데이터를 내보내거나 삭제하는 방법에 대한 새 주제에 연결되었습니다.|
 ||||
