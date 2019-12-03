@@ -1,4 +1,4 @@
-# [Microsoft 365 Enterprise 설명서 및 리소스](index.md)
+# [Microsoft 365 Enterprise 설명서 및 리소스](index.yml)
 # [Microsoft 365 Enterprise 개요](microsoft-365-overview.md)
 # [Microsoft 365 Enterprise 배포](deploy-microsoft-365-enterprise.md)
 ## [Foundation 인프라 배포](deploy-foundation-infrastructure.md)
