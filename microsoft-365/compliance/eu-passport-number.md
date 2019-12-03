@@ -1,7 +1,7 @@
 ---
 title: EU 여권 번호
-ms.author: stephow
-author: stephow-MSFT
+ms.author: laurawi
+author: laurawi
 manager: laurawi
 ms.date: 8/16/2018
 audience: Admin
@@ -10,12 +10,12 @@ ms.service: O365-seccomp
 ms.collection: M365-security-compliance
 localization_priority: Normal
 description: 이 항목에서는 DLP (데이터 손실 방지) 정책이 EU (유럽 여권 번호) 중요 한 정보 유형을 검색할 때 찾는 항목을 보여 줍니다. 이 중요 한 정보 유형은 각 국가에 대 한 다양 한 패턴, 키워드 및 기타 증거를 정의 합니다.
-ms.openlocfilehash: fa3be04dec0f71a2568e046abd6b0af3e20181c5
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 44ee6e7b46d79772bcd3aec0fd26265f58f6c4c6
+ms.sourcegitcommit: 3fd6d175c1954ce463198e835d1d8f2f91d80d79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088072"
+ms.lasthandoff: 12/02/2019
+ms.locfileid: "39662803"
 ---
 # <a name="eu-passport-number"></a>EU 여권 번호
 
@@ -939,5 +939,5 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 ## <a name="see-also"></a>참고 항목
 
-[중요한 정보 형식이 찾는 항목](what-the-sensitive-information-types-look-for.md)
+[중요한 정보 유형이 찾는 항목](what-the-sensitive-information-types-look-for.md)
 

@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 ms.assetid: c123694a-1efb-459e-a8d5-2187975373dc
 description: Microsoft 365 Business에 제공되는 보안 기능에 대해 알아봅니다.
-ms.openlocfilehash: f24836ef93c529eddc05c767d6e4fa8af6aef314
-ms.sourcegitcommit: 5d11f516e78ea4a74145e19ba2300f0792c8bac1
+ms.openlocfilehash: 98eb0c2015ed6088b2d5e8621c8e72a5b63f2a17
+ms.sourcegitcommit: 58a7bd70a4bcf52530baf5f82507fd5dc4455fd9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/19/2019
-ms.locfileid: "38715145"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39668851"
 ---
 # <a name="microsoft-365-business-security-and-compliance-features"></a>Microsoft 365 Business 보안 및 규정 준수 기능
 
@@ -74,7 +74,8 @@ Microsoft 365 Business의 고급 기능을 사용하여 사이버 위협으로�
     Azure portal의 Intune 관리 센터에 액세스 하 여 MacOS 장치, iPhone 및 Android 장치 관리와 같은 추가 보안 기능을 Windows 용 고급 장치 관리와 함께 Microsoft를 통해 사용할 수 없도록 설정할 수 있습니다. 365 비즈니스 관리 센터
 - **Azure AD P1 계획과 동일한 [조건부 액세스](https://docs.microsoft.com/azure/active-directory/conditional-access/overview)**
 
-    조건부 액세스를 사용 하면 조직에서 로그인 위험을 방지 하 고, 예기치 않은 네트워크 또는 로캘에서 액세스를 시도 하 고, 위험한 장치 유형의 액세스를 시도할 수 있습니다. 조건부 액세스 정책은 첫 번째 인증을 완료 한 후 적용 되며 첫 번째 인증 이벤트의 신호를 사용 하 여 시도 된 액세스를 승인, 거부할지, 아니면 추가 증명 (예: 두 번째 형태의 id)이 필요 합니다.
+
+    조건부 액세스를 사용 하면 조직에서 로그인 위험을 방지 하 고, 예기치 않은 네트워크 또는 로캘에서 액세스를 시도 하 고, 위험한 장치 유형의 액세스를 시도할 수 있습니다. 조건부 액세스 정책은 첫 번째 인증을 완료 한 후 적용 되며 첫 번째 인증 이벤트의 신호를 사용 하 여 시도 된 액세스를 승인, 거부 또는 증명 (예: 두 번째 유형의 식별)으로 할지 여부를 결정 합니다. 필수입니다.
 
     다음과 같은 조건부 액세스 기능이 포함 되어 있습니다.
 

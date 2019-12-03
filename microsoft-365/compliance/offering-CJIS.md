@@ -1,7 +1,7 @@
 ---
 title: 형사법 (CJIS) 보안 정책
 description: Microsoft 정부 클라우드 서비스는 미국 범죄를 대상으로 하는 정보 서비스 보안 정책을 따릅니다.
-keywords: Microsoft 365, 규정 준수, 제공
+keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -11,12 +11,12 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 069f4dac1b04a75ff30339f8cecde4e8f82c044a
-ms.sourcegitcommit: 0ceb79a633f7004e82b80e69b6f7a7329ccec7ff
+ms.openlocfilehash: 7fb31d007b7935d8a2beef93b80ca1958c7a3a27
+ms.sourcegitcommit: 58a7bd70a4bcf52530baf5f82507fd5dc4455fd9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "38699738"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39668816"
 ---
 # <a name="compliance-offering-criminal-justice-information-services-cjis-security-policy"></a>준수 제공: CJIS (범죄 규정 정보 서비스) 보안 정책
 
@@ -45,7 +45,7 @@ Azure 보안 및 준수 청사진을 사용 하 여 CJIS 보안 정책을 가속
 - [Azure 정부](https://aka.ms/AzureCompliance)
 - [Dynamics 365 미국 정부](https://aka.ms/d365-compliance-list)
 - [Office 365 미국 정부](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
-- Power BI 클라우드 서비스를 독립 실행형 서비스로 또는 Office 365 브랜드 요금제 또는 suite에 포함
+- 독립 실행형 서비스 혹은 Office 365에 브랜딩된 플랜 또는 제품군에 포함된 형태로서의 Power BI 클라우드 서비스
 
 ## <a name="audits-reports-and-certificates"></a>감사, 보고서 및 인증서
 
@@ -71,8 +71,6 @@ FBI에서는 CJIS 요구 사항을 준수 하는 Microsoft의 인증을 제공 �
 
 Microsoft는 CSA (CJIS Systems 에이전시)를 사용 하 여 정보 계약에 서명 합니다. state의 CSA에서 복사본을 요청할 수 있습니다. 또한 Microsoft는 고객에 게 심층 보안, 개인 정보 보호 및 준수 정보를 제공 합니다. 고객은 또한 관련 감사 범위에 적합 한 보안 제어 (예: ISO 27001)를 구현 했는지 확인할 수 있도록 독립 감사자를 통해 준비 된 보안 및 준수 보고서를 검토 해야 할 수도 있습니다.
 
-적절 한 CJIS 2017 설명서 (예: 알래스카, 애리조나, Arkansas, 캘리포니아, Colorado, 하와이, 그루지야, Illinois, 인디애나, Iowa, Kansas, 켄터키, Massachusetts, Michigan, Minnesota, Missouri , 뉴욕, 북쪽 Carolina, Oregon, Pennsylvania, Rhode 아일랜드, 사우스 Carolina, Tennessee, 텍사스, Virginia, Utah, Vermont 및 인천
-
 **에이전시의 규정 준수 관련 활동은 어디에서 시작 하나요?**
 
 [Cjis 보안 정책은](https://aka.ms/cjis-security-policy) CJI을 보호 하기 위해 에이전시에서 수행 해야 하는 예방 조치를 다룹니다. 또한 Microsoft 계정 담당자는 관할지 요구 사항에 익숙한 사용자에 게 연락할 수 있습니다.
@@ -83,10 +81,10 @@ Microsoft는 CSA (CJIS Systems 에이전시)를 사용 하 여 정보 계약에 
 - [CJIS 보안 정책](https://aka.ms/cjis-security-policy)
 - [CJIS 보안 정책 버전 5.3 backgrounder](https://aka.ms/cjis-backgrounder)
 - [Azure 정부에 대 한 CJIS 구현 지침](https://aka.ms/cjisimplementationguidelines)
-- [Microsoft Common Controls 허브 규정 준수 프레임 워크](https://www.microsoft.com/trustcenter/common-controls-hub)
-- [Microsoft 정부 클라우드](https://go.microsoft.com/fwlink/?linkid=2087246)
-- [Microsoft 보안 센터 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Microsoft 공통 컨트롤 허브 규정 준수 프레임 워크](https://www.microsoft.com/trustcenter/common-controls-hub)
+- [Microsoft Government 클라우드](https://go.microsoft.com/fwlink/?linkid=2087246)
+- [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
-## <a name="download-the-offering-backgrounder"></a>제공 backgrounder 다운로드
+## <a name="download-the-offering-backgrounder"></a>제공 사항의 배경 설명 다운로드
 
-이 제품에 대 한 backgrounder 문서가 필요 한가요? [PDF](https://download.microsoft.com/download/4/D/0/4D008840-B8C4-480B-ACD1-D55CB34AD6BC/CJIS_Compliance_Backgrounder.pdf)를 다운로드 합니다.
+이 제공 사항에 대한 배경 설명 문서가 필요한가요? [PDF](https://download.microsoft.com/download/4/D/0/4D008840-B8C4-480B-ACD1-D55CB34AD6BC/CJIS_Compliance_Backgrounder.pdf)를 다운로드합니다.

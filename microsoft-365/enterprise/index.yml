@@ -1,0 +1,106 @@
+### YamlMime:Hub
+title: Microsoft 365 Enterprise 설명서 및 리소스
+summary: 업무 방식을 변환 하는 지능형 클라우드 서비스가 포함 된 최고의 생산성 앱
+brand: m365
+metadata:
+  title: Microsoft 365 Enterprise 설명서 및 리소스
+  description: IT 전문가, 정보 근로자 및 파트너를 위해 Microsoft 365 Enterprise에 제공 되는 제품 설명서 및 리소스에 대해 알아봅니다.
+  services: service
+  ms.prod: microsoft-365-enterprise
+  ms.service: O365-seccomp
+  ms.topic: hub-page
+  ms.collection: M365-subscription-management
+  author: robmazz
+  ms.author: robmazz
+  ms.date: 11/29/2019
+  ms.openlocfilehash: 945412e8e66fe558971ceacf3a57023b5bba6e5f
+  ms.sourcegitcommit: 58a7bd70a4bcf52530baf5f82507fd5dc4455fd9
+  ms.translationtype: MT
+  ms.contentlocale: ko-KR
+  ms.lasthandoff: 12/03/2019
+  ms.locfileid: "39669543"
+highlightedContent:
+  items:
+  - title: Microsoft 365 Enterprise에 대 한 자세한 정보
+    itemType: get-started
+    url: microsoft-365-overview.md
+  - title: FastTrack을 사용 하 여 배포 속도를 높입니다.
+    itemType: quickstart
+    url: https://www.microsoft.com/fasttrack/microsoft-365
+  - title: IT 전문가 및 관리자 교육
+    itemType: learn
+    url: https://docs.microsoft.com/learn/m365/
+conceptualContent:
+  title: Microsoft 365 Enterprise 및 기타 리소스에 대 한 도움말 보기
+  summary: Microsoft 365 엔터프라이즈 배포 지침, 기능 및 서비스에 대해 알아봅니다.
+  items:
+  - title: 배포 로드맵 준수
+    links:
+    - url: deploy-microsoft-365-enterprise.md
+      itemType: deploy
+      text: 배포 개요
+    - url: deploy-foundation-infrastructure.md
+      itemType: how-to-guide
+      text: 기본 인프라
+    - url: deploy-workloads.md
+      itemType: how-to-guide
+      text: 워크로드 및 시나리오
+    - url: desktop-deployment-center-home.md
+      itemType: get-started
+      text: 데스크톱 배포 센터
+  - title: 주요 요소 배포
+    links:
+    - url: identity-infrastructure.md
+      itemType: how-to-guide
+      text: Id 인프라
+    - url: https://docs.microsoft.com/windows/deployment/
+      itemType: get-started
+      text: Windows 10 Enterprise
+    - url: https://docs.microsoft.com/deployoffice/plan-office-365-proplus
+      itemType: deploy
+      text: Office 365 ProPlus
+    - url: https://docs.microsoft.com/intune/fundamentals/planning-guide
+      itemType: deploy
+      text: Microsoft Intune
+  - title: 주요 시나리오 배포
+    links:
+    - url: secure-teams-highly-regulated-data-scenario.md
+      itemType: how-to-guide
+      text: 높은 규제 대상 데이터에 대한 Microsoft Teams
+    - url: teams-sharepoint-online-sites-highly-regulated-data.md
+      itemType: how-to-guide
+      text: 높은 규제 대상 데이터를 위한 SharePoint 사이트
+    - url: empower-people-to-work-remotely.md
+      itemType: how-to-guide
+      text: 원격 작업자
+    - url: migration-microsoft-365-enterprise-workload.md
+      itemType: deploy
+      text: Office 클라이언트 및 서버 및 Windows 마이그레이션
+  - title: Microsoft 365 Enterprise 관리
+    links:
+    - url: https://docs.microsoft.com/windows/deployment/update/
+      itemType: how-to-guide
+      text: Windows 10 Enterprise
+    - url: https://docs.microsoft.com/deployoffice/overview-of-update-channels-for-office-365-proplus
+      itemType: concept
+      text: Office 365 ProPlus
+    - url: https://docs.microsoft.com/intune/apps/app-management
+      itemType: get-started
+      text: Intune을 사용 하는 앱
+    - url: https://docs.microsoft.com/office365/
+      itemType: get-started
+      text: Office 365 서비스
+additionalContent:
+  sections:
+  - title: 추가 리소스
+    summary: 기타 Microsoft 365 기능 및 리소스에 대해 자세히 알아보세요.
+    items:
+    - title: Microsoft 365 준수
+      summary: 조직에서 정보를 관리 하 고 위험 으로부터 보호 하며 법률 또는 규제 표준을 준수 하도록 지원 합니다.
+      url: https://docs.microsoft.com/microsoft-365/compliance/index
+    - title: Microsoft 365 보안
+      summary: 강력한 보안 서비스 및 솔루션을 사용 하 여 공격 대상에 걸쳐 조직을 보호 합니다.
+      url: https://docs.microsoft.com/microsoft-365/security/index
+    - title: Microsoft 365 기술 커뮤니티
+      summary: Microsoft 기술 커뮤니티에서 피어 및 전문가와 연결 하 고 공동 작업 하 고 Microsoft 365 모범 사례를 공유 합니다.
+      url: https://techcommunity.microsoft.com/t5/Microsoft-365/ct-p/microsoft365

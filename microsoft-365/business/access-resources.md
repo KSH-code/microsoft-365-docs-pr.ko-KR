@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: b0f4d010-9fd1-44d0-9d20-fabad2cdbab5
 description: Azure Active Directory에 가입 된 Windows 10 장치에서 비즈니스 앱, 파일 공유 및 프린터와 같은 온-프레미스 리소스에 액세스 하는 방법을 알아봅니다.
-ms.openlocfilehash: fdc1eca6913ba6af4f6b65691fdee2165e7c827e
-ms.sourcegitcommit: 8193b7da5b1a415835d02ca96883c351df7326ed
+ms.openlocfilehash: 4a2ff28107c6e2ec4473859c75bf720df7662747
+ms.sourcegitcommit: 58a7bd70a4bcf52530baf5f82507fd5dc4455fd9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38323398"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39668791"
 ---
 # <a name="access-on-premises-resources-from-an-azure-ad-joined-device-in-microsoft-365-business"></a>Microsoft 365 Business의 Azure AD에 가입 된 장치에서 온-프레미스 리소스에 액세스
 
@@ -32,6 +32,9 @@ Azure Active Directory에 가입 된 모든 Windows 10 장치에는 Office 365 �
 자세한 내용은 [Azure Active Directory의 장치 관리 소개](https://docs.microsoft.com/azure/active-directory/device-management-introduction)를 참조 하세요.
 이 단계는 다음 섹션에도 요약 되어 있습니다.
 
+> [!IMPORTANT]
+> 이 절차는 OAuth 및 NTLM에만 적용 됩니다. Kerberos는 지원 되지 않습니다.
+ 
 ## <a name="run-azure-ad-connect"></a>Azure AD Connect 실행
 
 조직의 Azure AD 조인 장치에서 온-프레미스 리소스에 액세스 하도록 설정 하려면 다음 단계를 완료 합니다.
@@ -43,6 +46,8 @@ Azure Active Directory에 가입 된 모든 Windows 10 장치에는 Office 365 �
 3. Windows 10 장치가 Azure AD에 가입 되 면 각 사용자는 자신의 장치를 다시 부팅 하 고 Microsoft 365 Business 자격 증명으로 로그인 해야 합니다. 이제 모든 장치에 온-프레미스 리소스에 대 한 액세스 권한이 있습니다.
     
 Azure AD에 가입 된 장치에 대 한 온-프레미스 리소스에 액세스 하기 위해 추가 단계를 수행할 필요는 없습니다. 이 기능은 Windows 10에서 기본 제공 됩니다. 
+
+WHFB 자격 증명 로그인을 통해 PIN/Bio-metric 같은 암호 방법 외에 AADJ 장치에 로그인 할 계획인 경우 온-프레미스 리소스 (공유, 프린터)에 액세스 해야 합니다. 등), 다음을 수행 하세요.https://docs.microsoft.com/en-us/windows/security/identity-protection/hello-for-business/hello-hybrid-aadj-sso-base
   
 조직이 앞에서 설명한 Azure AD 조인한 장치 구성에 배포할 준비가 되지 않은 경우 [하이브리드 AZURE AD 조인한 장치 구성을](manage-windows-devices.md)설정 하는 것이 좋습니다.
   
