@@ -18,18 +18,18 @@ ms.custom:
 - Ent_Solutions
 ms.assetid: 5b9c8e41-25d2-436d-89bb-9aecb9ec2b80
 description: '요약: Azure Information Protection을 적용하여 극비 SharePoint Online 팀 사이트의 파일을 보호합니다.'
-ms.openlocfilehash: b5251d393249e9023f6f437cb3df6c074ebdf436
-ms.sourcegitcommit: bf30a2314376f0b7d577741b97df017969737d11
+ms.openlocfilehash: 51950bd3c9790dedd2801e98234ff16470db6421
+ms.sourcegitcommit: 58a7bd70a4bcf52530baf5f82507fd5dc4455fd9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "39638062"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39668806"
 ---
 # <a name="protect-sharepoint-online-files-with-a-sensitivity-label"></a>민감도 레이블을 사용하여 SharePoint Online 파일 보호
 
 이 문서의 단계를 사용하여 파일에 대한 암호화 및 권한을 제공하도록 Office 365 민감도 레이블을 구성합니다. 이러한 파일은 극비 보호를 위해 구성된 SharePoint 라이브러리에 추가할 수 있습니다. 또는 사이트에서 직접 파일을 열고 레이블을 적용할 수 있습니다. 암호와 및 권한 보호는 사이트에서 다운로드할 때에도 파일과 함께 이동합니다. 
 
-다음 단계는 이러한 사이트 내에서 SharePoint 사이트 및 파일에 대해 극비 보호를 구성하기 위한 보다 큰 솔루션의 일부입니다. 자세한 내용은 [SharePoint Online 사이트 및 파일 보호](https://docs.microsoft.com/microsoft-365/compliance/deploy-sharepoint-online-sites-for-three-tiers-of-protection)를 참조하세요. 
+다음 단계는 이러한 사이트 내에서 SharePoint 사이트 및 파일에 대해 극비 보호를 구성하기 위한 보다 큰 솔루션의 일부입니다. 자세한 내용은 [SharePoint Online 사이트 및 파일 보호](../security/office-365-security/secure-sharepoint-online-sites-and-files.md)를 참조하세요. 
 
 SharePoint Online의 파일에 대해 민감도 레이블을 사용하는 것이 모든 고객에게 권장되는 것은 아니지만 일부 파일에 대해 이러한 수준의 보호가 필요한 고객에게는 적절할 수 있습니다.
 
@@ -44,7 +44,7 @@ SharePoint Online의 파일에 대해 민감도 레이블을 사용하는 것이
 
 - 전역적인 사용과 개별적 개인 팀에 소수의 레이블이 필요한 경우에는 민감도 레이블을 사용합니다.
 
-- 다수의 레이블을 보유하고 있거나 높은 규제 대상 레이블 아래에 극비 팀의 레이블을 구성하려는 경우는 민감도 하위 레이블을 사용합니다.
+- 다수의 레이블을 보유하고 있거나 극비 파일에 일반 레이블로 극비 팀의 레이블을 구성하려는 경우 민감도 하위 레이블을 사용합니다.
 
 [이 지침](encryption-sensitivity-labels.md)을 사용하여 다음의 설정으로 개별 레이블이나 하위 레이블을 구성합니다.
 
@@ -67,7 +67,7 @@ SharePoint Online의 파일에 대해 민감도 레이블을 사용하는 것이
 
 ## <a name="see-also"></a>참고 항목
 
-[SharePoint Online 사이트 및 파일 보호](https://docs.microsoft.com/microsoft-365/compliance/deploy-sharepoint-online-sites-for-three-tiers-of-protection)
+[SharePoint Online 사이트 및 파일 보호](../security/office-365-security/secure-sharepoint-online-sites-and-files.md)
   
 [정치적 캠페인, 비영리 조직 및 기타 기밀 조직을 위한 Microsoft 보안 지침](/security/office-365-security/microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o.md)
   
