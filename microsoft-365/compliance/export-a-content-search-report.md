@@ -19,18 +19,18 @@ search.appverid:
 - MET150
 ms.assetid: 5c8c1db6-d8ac-4dbb-8a7a-f65d452169b9
 description: Office 365의 보안 & 준수 센터에서 콘텐츠 검색의 실제 결과를 내보내는 대신 검색 결과 보고서를 내보낼 수 있습니다. 이 보고서에는 검색 결과에 대 한 요약과 내보낼 각 항목에 대 한 자세한 정보가 있는 문서가 포함 되어 있습니다.
-ms.openlocfilehash: 9fe006ba595920f938a4d070eb87987137d73f7e
-ms.sourcegitcommit: db580dc2626328d324f65c7380a5816a500688a7
+ms.openlocfilehash: 5146120afd9ea36845f5a0d19619da35379438d5
+ms.sourcegitcommit: 062be618f0b18611001552273bb175020420e463
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37437788"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39676795"
 ---
 # <a name="export-a-content-search-report"></a>콘텐츠 검색 보고서 내보내기
 
 보안 & 준수 센터 (및 eDiscovery 사례와 연결 된 콘텐츠 검색)의 콘텐츠 검색에서 전체 검색 결과 집합을 내보내는 대신 검색 결과를 내보낼 때 생성 되는 것과 동일한 보고서를 내보낼 수 있습니다.
   
-보고서를 내보낼 때는 콘텐츠 검색과 이름이 같은 폴더에 다운로드 되지만 *_ReportsOnly*에 추가 됩니다.. 예를 들어 콘텐츠 검색의 이름이 *ContosoCase0815*인 경우 보고서가 *ContosoCase0815_ReportsOnly*라는 폴더에 다운로드 됩니다. 보고서에 포함 되는 문서 목록은 [보고서에 포함 된 항목](#whats-included-in-the-report)을 참조 하십시오.
+보고서를 내보낼 때 콘텐츠 검색과 이름이 같은 폴더에 다운로드 되지만 *_ReportsOnly*에 추가 되어 있습니다. 예를 들어 콘텐츠 검색의 이름이 *ContosoCase0815*인 경우 보고서가 *ContosoCase0815_ReportsOnly*라는 폴더에 다운로드 됩니다. 보고서에 포함 되는 문서 목록은 [보고서에 포함 된 항목](#whats-included-in-the-report)을 참조 하십시오.
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
@@ -44,15 +44,17 @@ ms.locfileid: "37437788"
     
   - Microsoft .NET Framework 4.7
     
-  - 지원되는 브라우저:
-    
-    - Microsoft Edge
-    
-      또는
-    
-    - Microsoft Internet Explorer 10 이상 버전
-    
-    **참고:** Microsoft는 ClickOnce 응용 프로그램에 대 한 타사 확장 또는 추가 기능을 제조 하지 않습니다. 타사 확장 또는 추가 기능에서 지원 되지 않는 브라우저를 사용 하 여 검색 결과를 내보낼 수는 없습니다. 
+- EDiscovery 내보내기 도구<sup>1</sup>을 실행 하려면 다음과 같은 지원 되는 브라우저 중 하나를 사용 해야 합니다.
+
+  - Microsoft Edge <sup>2</sup>
+
+    또는
+
+  - Microsoft Internet Explorer 10 이상 버전
+
+  > [!NOTE]
+  > <sup>1</sup> Microsoft는 ClickOnce 응용 프로그램에 대 한 타사 확장 또는 추가 기능을 제조 하지 않습니다. 타사 확장 또는 추가 기능에서 지원 되지 않는 브라우저를 사용 하 여 검색 결과를 내보낼 수는 없습니다.<br/>
+  > <sup>2</sup> Microsoft Edge의 최근 변경 사항으로 인해 ClickOnce 지원은 더 이상 기본적으로 사용 되지 않도록 설정 되어 있습니다. Edge에서 ClickOnce 지원을 사용 하도록 설정 하는 방법에 대 한 자세한 내용은 [Microsoft Edge에서 Office 365 EDiscovery 내보내기 도구 사용](configure-edge-to-export-search-results.md)을 참조 하십시오.
 
 - 콘텐츠 검색에서 반환 되는 결과의 예상 전체 크기가 2TB를 초과 하면 보고서를 내보낼 때 오류가 발생 합니다. 보고서를 성공적으로 내보내려면 범위를 좁히고 검색을 다시 실행 하 여 예상 결과 크기를 2TB 보다 작게 합니다.
 

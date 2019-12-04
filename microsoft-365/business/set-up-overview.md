@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: Microsoft 365 Business의 설치 단계에 대 한 개요입니다.
-ms.openlocfilehash: 3447f06d031462a7bebc6f129238de9f0c5dee41
-ms.sourcegitcommit: 6a413a65b8c2e10cea08f0a15635b28a1362a582
+ms.openlocfilehash: 425c465262c266ca764ae8c7a52130903fa635a5
+ms.sourcegitcommit: 8fda7852b2a5baa92b8a365865b014ea6d100bbc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/19/2019
-ms.locfileid: "38721562"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39812781"
 ---
 # <a name="overview-of-setup"></a>설치 개요
 
@@ -44,16 +44,15 @@ ms.locfileid: "38721562"
         - 나중에 관리 센터에서 [사용자를 추가할](add-users-m365b.md) 수도 있습니다.
 ## <a name="step-2-set-up-security-policies-and-configure-devices"></a>2 단계: 보안 정책 설정 및 장치 구성 
 
-  - [설치 마법사](set-up.md#protect-data-and-devices) 를 사용 하 여 장치 및 보안 정책을 구성 합니다. 
+  - [설치 마법사](set-up.md#protect-your-organization) 를 사용 하 여 장치 정책을 구성 합니다. 
   - [관리 센터](view-policies-and-devices.md) 및 [Intune 포털](https://docs.microsoft.com/intune/tutorial-walkthrough-intune-portal)에서 나중에 추가 하거나 편집할 수도 있습니다.
-  - 설치 마법사의 보안 설정 외에도 다음 설정을 추가 하 여 보안을 강화할 수 있습니다.
+  - 또한 설정 마법사는 기본 위협 보호 및 데이터 손실 방지 설정을 설정 합니다.
+  
+  설치 마법사의 보안 설정 외에도 다음 설정을 추가 하 여 보안을 강화할 수 있습니다.
 
       - **전자 메일 맬웨어 방지**
-      - **ATP (Advanced Threat Protection) 안전한 링크**
-      - **ATP 안전한 첨부 파일**
       - **ATP 피싱 방지**
       - **Exchange Online Archiving**
-      - **Data Loss Prevention (DLP)**
       - **Azure Information Protection (Plan1**)
 
           시작 하려면 [고급 보안 정책을 설정](set-up-advanced-security.md)합니다 .를 참조 하세요.
@@ -62,10 +61,12 @@ ms.locfileid: "38721562"
 
 ## <a name="step-3-set-up-and-manage-windows-10-devices"></a>3 단계: Windows 10 장치 설정 및 관리
 
-   Windows 10 장치를 Azure AD에 가입 하면 [2 단계](#step-2-set-up-security-policies-and-configure-devices) 에서 설정한 정책이 적용 됩니다.
+설정 마법사를 실행 한 후에는 조직의 모든 Windwos 10 컴퓨터를 다시 사용할 수 있습니다.
+  
+- Windows 10 Pro는 Microsoft 365 Business에 대 한 [필수 구성 요소](pre-requisites-for-data-protection.md) 지만, Windows 7 Pro, Windows 8 Pro 또는 Windows 8.1 pro가 있는 경우 구독을 통해 [windows 10 Pro로 업그레이드할](https://docs.microsoft.com/microsoft-365/business/upgrade-to-windows-pro-creators-update)수 있습니다.
+- Windows 10 용 정책 정책을 설정 하는 windows 10 [pc 보안](secure-win-10-pcs.md) 의 단계를 수행 합니다.
 
-   - Windows 10 Pro는 Microsoft 365 Business에 대 한 [필수 구성 요소](pre-requisites-for-data-protection.md) 지만, Windows 7 Pro, Windows 8 Pro 또는 Windows 8.1 pro가 있는 경우 구독을 통해 [windows 10 Pro로 업그레이드할](https://docs.microsoft.com/microsoft-365/business/upgrade-to-windows-pro-creators-update)수 있습니다.
-    - [설치 마법사](set-up.md#protect-data-and-devices) 를 사용 하 여 Windows 10 장치에 대 한 정책을 구성 합니다.
+Windows 10 장치를 Azure AD에 가입 하면 Windows 10 컴퓨터에 대해 설정한 정책이 적용 됩니다. 자세한 내용은 [Set Up Windows devices For Microsoft 365 Business users](set-up-windows-devices.md)를 참조 하세요.
 
 ## <a name="step-4-install-office-365-business"></a>4 단계: Office 365 Business 설치
 - [설치 마법사](set-up.md#deploy-office-365-client-apps)를 사용 하 여 Windows 장치에 Office를 자동으로 설치할 수 있습니다.
@@ -82,4 +83,6 @@ ms.locfileid: "38721562"
 
     - 회사에 일부 온-프레미스 리소스 (예: 파일 공유 및 프린터)가 포함 된 로컬 Active Directory가 있는 경우 Azure ad 가입 장치에서 [Microsoft 365 business의 AZURE ad 조인 장치 로부터 온-프레미스 리소스에 액세스](access-resources.md)하 여 이러한 리소스에 대 한 액세스 권한을 부여할 수 있습니다.
 
-  
+## <a name="see-also"></a>참고 항목
+
+[Microsoft 365 Business 교육 비디오](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

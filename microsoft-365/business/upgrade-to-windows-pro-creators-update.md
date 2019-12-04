@@ -7,7 +7,9 @@ audience: Admin
 ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
-ms.collection: M365-subscription-management
+ms.collection:
+- M365-subscription-management
+- TRN_SMB
 ms.custom:
 - Adm_O365
 - Core_O365Admin_Migration
@@ -18,14 +20,20 @@ search.appverid:
 - MOE150
 ms.assetid: ffc4d886-9e1d-453d-a0d0-2f62f18635e2
 description: 'Windows 장치를 Windows 10 Pro 크리에이터 업데이트로 업그레이드 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 72522626d3d5cd836b47e896202e6c18c06fe0b1
-ms.sourcegitcommit: 6a413a65b8c2e10cea08f0a15635b28a1362a582
+ms.openlocfilehash: 7aaf1f64e93c05a0ffc7de47c8eab9c787b6c220
+ms.sourcegitcommit: 8fda7852b2a5baa92b8a365865b014ea6d100bbc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/19/2019
-ms.locfileid: "38718852"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39812751"
 ---
 # <a name="upgrade-windows-devices-to-windows-pro-creators-update"></a>Windows Pro 크리에이터 업데이트로 Windows 장치 업그레이드
+
+Windows 장치를 Windows 10 Pro로 업그레이드 하는 방법에 대 한 간단한 비디오를 시청 하세요.<br><br>
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3t58j] 
+
+이 비디오를 통해 도움이 되는 경우에는 [소규모 기업을 위한 전체 교육 시리즈 및 Microsoft 365에 새로 소개 하](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)고 있습니다.
 
 ## <a name="upgrade-to-windows-10-pro-creators-update"></a>Windows 10 Pro 크리에이터 업데이트로 업그레이드
   
@@ -46,3 +54,6 @@ Windows 10 장치 설정을 완료 하려면 [Microsoft 365 비즈니스 사용�
   
 Android 및 iOS 장치 설정에 [대 한 자세한 내용은 Microsoft 365 비즈니스 사용자를 위한 모바일 장치](set-up-mobile-devices.md) 설정을 참조 하세요. 
   
+## <a name="see-also"></a>참고 항목
+
+[Microsoft 365 Business 교육 비디오](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

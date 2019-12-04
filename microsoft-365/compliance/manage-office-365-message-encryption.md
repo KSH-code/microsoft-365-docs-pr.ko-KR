@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: Office 365 메시지 암호화 (OME) 설정을 완료 한 후에는 여러 가지 방법으로 배포 구성을 사용자 지정할 수 있습니다. 예를 들어, 웹의 Outlook에서 1 회 통과, 보호 단추를 표시할 것인지 여부를 구성할 수 있습니다. 이 문서의 작업에서는 이러한 방법을 설명 합니다.
-ms.openlocfilehash: 780be179485fa18f7e0da0fabc7bb5365238da94
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 6222825872dc512918b512d0dfc1918dd8a0cbe3
+ms.sourcegitcommit: 8fda7852b2a5baa92b8a365865b014ea6d100bbc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38687060"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39813116"
 ---
 # <a name="manage-office-365-message-encryption"></a>Office 365 메시지 암호화 관리
 
@@ -58,7 +58,7 @@ Office 365 메시지 암호화 (OME) 설정을 완료 한 후에는 여러 가�
   
 ### <a name="to-manage-whether-ome-generates-one-time-pass-codes"></a>OME에서 1 회 통과 코드를 생성할지 여부를 관리 하려면
   
-1. Office 365 조직에서 전역 관리자 권한이 있는 회사 또는 학교 계정을 사용 하 고, Windows PowerShell 세션을 시작 하 고, Exchange Online에 연결 합니다. 자세한 내용은 [Exchange Online PowerShell에 연결을](https://aka.ms/exopowershell)참조 하십시오.
+1. Office 365 조직에서 전역 관리자 권한이 있는 회사 또는 학교 계정을 사용 하 고, Windows PowerShell 세션을 시작 하 고, Exchange Online에 연결 합니다. 지침을 확인하려면 [Exchange Online PowerShell에 연결](https://aka.ms/exopowershell)을 참조하세요.
 
 2. OTPEnabled 매개 변수를 사용 하 여 Set-omeconfiguration cmdlet을 실행 합니다.
 
@@ -84,7 +84,7 @@ Office 365 메시지 암호화 (OME) 설정을 완료 한 후에는 여러 가�
   
 ### <a name="to-manage-whether-the-encrypt-button-appears-in-outlook-on-the-web"></a>웹에서 Outlook에 암호화 단추를 표시할지 여부를 관리 하려면
   
-1. Office 365 조직에서 전역 관리자 권한이 있는 회사 또는 학교 계정을 사용 하 고, Windows PowerShell 세션을 시작 하 고, Exchange Online에 연결 합니다. 자세한 내용은 [Exchange Online PowerShell에 연결을](https://aka.ms/exopowershell)참조 하십시오.
+1. Office 365 조직에서 전역 관리자 권한이 있는 회사 또는 학교 계정을 사용 하 고, Windows PowerShell 세션을 시작 하 고, Exchange Online에 연결 합니다. 지침을 확인하려면 [Exchange Online PowerShell에 연결](https://aka.ms/exopowershell)을 참조하세요.
 
 2. -SimplifiedClientAccessEnabled 매개 변수를 사용 하 여 IRMConfiguration cmdlet을 실행 합니다.
 
@@ -114,7 +114,7 @@ IOS 메일 앱은 Office 365 메시지 암호화로 보호 된 메시지의 암�
   
 ### <a name="to-manage-whether-ios-mail-app-users-can-view-messages-protected-by-office-365-message-encryption"></a>IOS 메일 앱 사용자가 Office 365 메시지 암호화로 보호 된 메시지를 볼 수 있는지 여부를 관리 하려면
   
-1. Office 365 조직에서 전역 관리자 권한이 있는 회사 또는 학교 계정을 사용 하 고, Windows PowerShell 세션을 시작 하 고, Exchange Online에 연결 합니다. 자세한 내용은 [Exchange Online PowerShell에 연결을](https://aka.ms/exopowershell)참조 하십시오.
+1. Office 365 조직에서 전역 관리자 권한이 있는 회사 또는 학교 계정을 사용 하 고, Windows PowerShell 세션을 시작 하 고, Exchange Online에 연결 합니다. 지침을 확인하려면 [Exchange Online PowerShell에 연결](https://aka.ms/exopowershell)을 참조하세요.
 
 2. AllowRMSSupportForUnenlightenedApps 매개 변수를 사용 하 여 ActiveSyncOrganizations cmdlet을 실행 합니다.
 
@@ -151,24 +151,24 @@ Office 365에서 암호화 전용 옵션을 사용 하 여 전자 메일 첨부 
   
 ### <a name="to-manage-whether-email-attachments-are-decrypted-on-download-from-a-web-browser"></a>웹 브라우저에서 전자 메일 첨부 파일을 다운로드 하 여 암호를 해독 하는지 여부를 관리 하려면
   
-1. Office 365 조직에서 전역 관리자 권한이 있는 회사 또는 학교 계정을 사용 하 고, Windows PowerShell 세션을 시작 하 고, Exchange Online에 연결 합니다. 자세한 내용은 [Exchange Online PowerShell에 연결을](https://aka.ms/exopowershell)참조 하십시오.
+1. Office 365 조직에서 전역 관리자 권한이 있는 회사 또는 학교 계정을 사용 하 고, Windows PowerShell 세션을 시작 하 고, Exchange Online에 연결 합니다. 지침을 확인하려면 [Exchange Online PowerShell에 연결](https://aka.ms/exopowershell)을 참조하세요.
 
-2. DecryptAttachmentFromPortal 매개 변수를 사용 하 여 Set-IRMConfiguration cmdlet을 실행 합니다.
+2. DecryptAttachmentForEncryptOnly 매개 변수를 사용 하 여 Set-IRMConfiguration cmdlet을 실행 합니다.
 
    ```powershell
-   Set-IRMConfiguration -DecryptAttachmentFromPortal <$true|$false>
+   Set-IRMConfiguration -DecryptAttachmentForEncryptOnly <$true|$false>
    ```
 
    예를 들어 사용자가 웹 브라우저에서 전자 메일 첨부 파일을 다운로드할 때 암호를 해독 하도록 서비스를 구성 하려면 다음을 수행 합니다.
 
    ```powershell
-   Set-IRMConfiguration -DecryptAttachmentFromPortal $true
+   Set-IRMConfiguration -DecryptAttachmentForEncryptOnly $true
    ```
 
    암호화 된 전자 메일 첨부 파일을 다운로드 하는 동안 남길 수 있도록 서비스를 구성 하려면 다음을 수행 합니다.
 
    ```powershell
-   Set-IRMConfiguration -DecryptAttachmentFromPortal $false
+   Set-IRMConfiguration -DecryptAttachmentForEncryptOnly $false
    ```
 
 ## <a name="ensure-all-external-recipients-use-the-ome-portal-to-read-encrypted-mail--office-365-advanced-message-encryption-only"></a>모든 외부 받는 사람이 OME 포털을 사용 하 여 암호화 된 메일을 읽도록 확인-Office 365 Advanced Message Encryption만 해당
@@ -177,7 +177,7 @@ Office 365 고급 메시지 암호화가 있는 경우 사용자 지정 브랜�
 
 ### <a name="create-a-custom-template-to-force-all-external-recipients-to-use-the-ome-portal-and-for-encrypted-email-to-be-revocable-and-expire-in-7-days"></a>모든 외부 받는 사람이 OME 포털을 사용 하 고 암호화 된 전자 메일이 7 일 후에 revocable 및 만료 되도록 하려면 사용자 지정 서식 파일을 만듭니다.
 
-1. Office 365 조직에서 전역 관리자 권한이 있는 회사 또는 학교 계정을 사용 하 고, Windows PowerShell 세션을 시작 하 고, Exchange Online에 연결 합니다. 자세한 내용은 [Exchange Online PowerShell에 연결을](https://aka.ms/exopowershell)참조 하십시오.
+1. Office 365 조직에서 전역 관리자 권한이 있는 회사 또는 학교 계정을 사용 하 고, Windows PowerShell 세션을 시작 하 고, Exchange Online에 연결 합니다. 지침을 확인하려면 [Exchange Online PowerShell에 연결](https://aka.ms/exopowershell)을 참조하세요.
 
 2. Set-omeconfiguration cmdlet을 실행 합니다.
 
@@ -227,7 +227,7 @@ OME에 대 한 새로운 기능을 사용 하지 않도록 설정 하는 것은 
   
 ### <a name="to-disable-the-new-capabilities-for-ome"></a>OME에 대 한 새 기능을 사용 하지 않도록 설정 하려면
   
-1. Office 365 조직에서 전역 관리자 권한이 있는 회사 또는 학교 계정을 사용 하는 경우 Windows PowerShell 세션을 시작 하 고 Exchange Online에 연결 합니다. 자세한 내용은 [Exchange Online PowerShell에 연결을](https://aka.ms/exopowershell)참조 하십시오.
+1. Office 365 조직에서 전역 관리자 권한이 있는 회사 또는 학교 계정을 사용 하는 경우 Windows PowerShell 세션을 시작 하 고 Exchange Online에 연결 합니다. 지침을 확인하려면 [Exchange Online PowerShell에 연결](https://aka.ms/exopowershell)을 참조하세요.
 
 2. 웹용 Outlook에서 **암호화** 단추를 사용 하도록 설정한 경우에는 SimplifiedClientAccessEnabled 매개 변수를 사용 하 여 Set-IRMConfiguration cmdlet을 실행 하 여 사용 하지 않도록 설정 합니다. 그렇지 않으면이 단계를 건너뜁니다.
 

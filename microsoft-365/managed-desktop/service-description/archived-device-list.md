@@ -4,13 +4,14 @@ description: 여전히 등록이 가능 하지만 지원 기간이 줄어들 것
 keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 설명서
 ms.service: m365-md
 author: jaimeo
+ms.author: jaimeo
 ms.localizationpriority: normal
-ms.openlocfilehash: ccc4d7e2fae0a8e5ee6e3a7d71fb55edc8f04930
-ms.sourcegitcommit: 2c2248b03f7753d64490f2f7e56ec644a235b65a
+ms.openlocfilehash: 3372332529f9391b5cea8da4095d04178e8b731b
+ms.sourcegitcommit: 8fda7852b2a5baa92b8a365865b014ea6d100bbc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38640589"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39813878"
 ---
 # <a name="microsoft-managed-desktop-archived-devices"></a>Microsoft Managed Desktop 보관 장치
 
@@ -23,7 +24,7 @@ ms.locfileid: "38640589"
 <!-- Split from device & technologies topic. Destination topic for aka.ms/device-list  -->
 Microsoft Managed Desktop에 등록 하려면 장치는 다음 모델 중 하나 여야 하며, RAM, 프로세서 제품군 및 디스크 공간에 대해 나열 된 사양을 충족 하거나 초과 해야 합니다. 다른 사용자 지정은 지원 되지 않습니다.
 
-여기에 장치에 대 한 링크는 참조용 으로만 제공 됩니다. 장치를 주문 하려면 상업용 채널 대화 상대와 협력 하 여 올바른 구성을 선택 했는지 확인 합니다.
+
 
 >[!NOTE]
 >이 표에서 "퇴직 date"는 Microsoft Managed Desktop에서이 모델을 더 이상 지원 하지 않는 날짜입니다. 해당 날짜에이 모델의 등록 된 모든 장치는 등록 시점에 관계 없이 Microsoft Managed Desktop에서 제거 됩니다.
@@ -32,9 +33,9 @@ Microsoft Managed Desktop에 등록 하려면 장치는 다음 모델 중 하나
 
 | 모델  | 최소 사양  | 추가 요구 사항   | 퇴직 날짜 |
 |---------|---------|---------|---------|
-| [HP EliteBook 830/840/850 G5](https://store.hp.com/us/en/mdp/laptops/elitebook-840#!&tab=features) | 128 GB/Intel i5/8gb RAM | 5VS01AV, IR 카메라 또는 지문 센서가 필요한 SKU  | **2 월 15 일 2023** |
-|[Surface 랩탑](https://www.microsoft.com/p/surface-laptop-1st-gen-for-business/8w36k32zm453/g4vs?cid=msft_web_collection&CustomerIntent=Consumer&activetab=pivot%3aoverviewtab) | 256 GB/Intel i5/8gb RAM | 없음 | **5 월 20 일, 2022** |
-|[Surface Pro](https://www.microsoft.com/p/surface-pro-5th-gen-for-business/907tds4dgwwv/kkzn?cid=msft_web_collection&CustomerIntent=Consumer) | 256 GB/Intel i5/8gb RAM | 없음 | **6 월 15 일 2022** |
+| HP EliteBook 830/840/850 G5| 128 GB/Intel i5/8gb RAM | 5VS01AV, IR 카메라 또는 지문 센서가 필요한 SKU  | **2 월 15 일 2023** |
+|Surface 랩탑| 256 GB/Intel i5/8gb RAM | 없음 | **5 월 20 일, 2022** |
+|Surface Pro| 256 GB/Intel i5/8gb RAM | 없음 | **6 월 15 일 2022** |
 
 
 또한 장치는 다음을 수행 해야 합니다.

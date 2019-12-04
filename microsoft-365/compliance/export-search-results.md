@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 ms.assetid: ed48d448-3714-4c42-85f5-10f75f6a4278
 description: '보안 & 준수 센터의 콘텐츠 검색에서 로컬 컴퓨터로 검색 결과를 내보냅니다. 전자 메일 결과를 PST 파일로 내보냅니다. SharePoint의 콘텐츠 및 비즈니스용 OneDrive 사이트는 기본 Office 문서로 내보내집니다. '
-ms.openlocfilehash: 3d416e1e808ae6045f5510e0a051f038e4b38c06
-ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
+ms.openlocfilehash: b3c978f57533623a6e58d22919430f4e02e78b77
+ms.sourcegitcommit: 062be618f0b18611001552273bb175020420e463
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38687210"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39676785"
 ---
 # <a name="export-content-search-results"></a>콘텐츠 검색 결과 내보내기
 
@@ -44,15 +44,17 @@ ms.locfileid: "38687210"
     
   - Microsoft .NET Framework 4.7
     
-  - 지원되는 브라우저:
+- EDiscovery 내보내기 도구<sup>1</sup>을 실행 하려면 다음과 같은 지원 되는 브라우저 중 하나를 사용 해야 합니다.
+
+  - Microsoft Edge <sup>2</sup>
+  
+    또는
+
+  - Microsoft Internet Explorer 10 이상 버전
     
-     - Microsoft Edge
-    
-        또는
-    
-     - Microsoft Internet Explorer 10 이상 버전
-    
-    **참고:** Microsoft는 ClickOnce 응용 프로그램에 대 한 타사 확장 또는 추가 기능을 제조 하지 않습니다. 타사 확장 또는 추가 기능에서 지원 되지 않는 브라우저를 사용 하 여 검색 결과를 내보낼 수는 없습니다. 
+  > [!NOTE]
+  > <sup>1</sup> Microsoft는 ClickOnce 응용 프로그램에 대 한 타사 확장 또는 추가 기능을 제조 하지 않습니다. 타사 확장 또는 추가 기능에서 지원 되지 않는 브라우저를 사용 하 여 검색 결과를 내보낼 수는 없습니다.<br/>
+  > <sup>2</sup> Microsoft Edge의 최근 변경 사항으로 인해 ClickOnce 지원은 더 이상 기본적으로 사용 되지 않도록 설정 되어 있습니다. Edge에서 ClickOnce 지원을 사용 하도록 설정 하는 방법에 대 한 자세한 내용은 [Microsoft Edge에서 Office 365 EDiscovery 내보내기 도구 사용](configure-edge-to-export-search-results.md)을 참조 하십시오.
     
 - 2 단계에 설명 된 대로 검색 결과를 다운로드할 때 검색 결과를 내보내는 데 사용 하는 컴퓨터에서 Windows 레지스트리 설정을 구성 하 여 다운로드 속도를 높일 수 있습니다. 자세한 내용은 [Office 365에서 eDiscovery 검색 결과를 내보낼 때 다운로드 속도 높이기](increase-download-speeds-when-exporting-ediscovery-results.md)를 참조 하세요.
     
@@ -274,7 +276,7 @@ ms.locfileid: "38687210"
     
     b. 사이트에서 검색 조건과 일치 하는 인덱스 된 항목이 없는 경우 해당 사이트에서 부분적으로 인덱싱된 항목을 내보내지 않습니다. 사이트의 인덱싱된 항목이 검색 결과에 반환 되 면 해당 사이트에서 부분적으로 인덱싱된 항목이 내보내집니다. 즉, 검색 조건과 일치 하는 항목을 포함 하는 사이트의 부분적으로 인덱싱된 항목만 내보내집니다.
     
-    &. 사이트에 검색 조건과 일치 하는 항목이 포함 되어 있는지 여부에 관계 없이 검색의 모든 사이트에서 모든 부분적으로 인덱싱된 항목을 내보냅니다.
+    c. 사이트에 검색 조건과 일치 하는 항목이 포함 되어 있는지 여부에 관계 없이 검색의 모든 사이트에서 모든 부분적으로 인덱싱된 항목을 내보냅니다.
     
     부분적으로 인덱싱된 항목을 내보내도록 선택 하는 경우에는 **Exchange 콘텐츠를 내보낼 때**선택한 옵션에 관계 없이 부분적으로 인덱싱된 사서함 항목이 별도의 PST 파일로 내보내집니다.
 

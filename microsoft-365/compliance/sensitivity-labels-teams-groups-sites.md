@@ -1,9 +1,9 @@
 ---
-title: Microsoft 팀, Office 365 그룹 및 SharePoint 사이트에 민감도 레이블 사용 (공개 미리 보기)
+title: Microsoft Teams, Office 365 그룹 및 SharePoint 사이트(공개 미리 보기)에서 민감도 레이블 사용
 ms.author: krowley
 author: kccross
 manager: laurawi
-ms.date: 11/13/2019
+ms.date: 12/03/2019
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
@@ -15,14 +15,14 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 팀, Office 365 그룹 및 SharePoint 사이트에 레이블을 적용할 수 있습니다.
-ms.openlocfilehash: 5fc7fec199482449baf9174d6e854d0a5564faa6
-ms.sourcegitcommit: 8193b7da5b1a415835d02ca96883c351df7326ed
+ms.openlocfilehash: 72bdfef27ba20fabb0d59852e4e20425b2747425
+ms.sourcegitcommit: 99d759d5c4e7d81266c3ebc087eaa37486cc0bc1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38687171"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "39818840"
 ---
-# <a name="use-sensitivity-labels-with-microsoft-teams-office-365-groups-and-sharepoint-sites-public-preview"></a>Microsoft 팀, Office 365 그룹 및 SharePoint 사이트에 민감도 레이블 사용 (공개 미리 보기)
+# <a name="use-sensitivity-labels-with-microsoft-teams-office-365-groups-and-sharepoint-sites-public-preview"></a>Microsoft Teams, Office 365 그룹 및 SharePoint 사이트(공개 미리 보기)에서 민감도 레이블 사용
 
 [Microsoft 365 준수 센터](https://protection.office.com/)에서 민감도 레이블을 만들 때는 이제 microsoft 팀, Office 365 그룹 및 SharePoint 사이트에 해당 우편물을 적용할 수 있습니다. 다음과 같이 레이블에 정책을 연결 하 여 제어할 수 있습니다.
 
@@ -37,6 +37,8 @@ ms.locfileid: "38687171"
 ## <a name="about-the-public-preview-for-microsoft-teams-office-365-groups-and-sharepoint-sites"></a>Microsoft 팀, Office 365 그룹 및 SharePoint 사이트에 대 한 공개 미리 보기
 
 Microsoft 팀, Office 365 그룹 및 SharePoint 사이트에 대 한 민감도 레이블은 테 넌 트에 점진적으로 롤아웃 되며 최종 릴리스 전에 변경 될 수 있습니다.
+
+Office 365 Content Delivery Networks (CDNs)에서는 공개 미리 보기가 작동 하지 않습니다.
 
 ## <a name="overview"></a>개요
 
@@ -77,9 +79,9 @@ Microsoft 팀, Office 365 그룹 및 SharePoint 사이트에 대 한 민감도 �
 
 이 미리 보기를 사용 하도록 설정 하면 Office 365에서 새 그룹 및 SharePoint 사이트에 대 한 이전 분류를 더 이상 사용 하지 않습니다. [AZURE AD 사이트 분류](/sharepoint/dev/solution-guidance/modern-experience-site-classification) ($setting ["ClassificationList"])를 사용 하는 경우 기존 그룹 및 사이트에서 이전 분류를 계속 표시 합니다. 새 분류를 표시 하려면 변환 합니다. 이를 변환 하는 방법에 대 한 자세한 내용은 [클래식 AZURE AD 사이트 분류를 사용 하는지](#if-you-used-classic-azure-ad-site-classification)확인 하세요.
 
-## <a name="set-site-and-group-settings-when-you-create-sensitivity-labels"></a>민감도 레이블을 만들 때 사이트 및 그룹 설정 설정
+## <a name="set-site-and-group-settings-when-you-create-or-edit-sensitivity-labels"></a>민감도 레이블을 만들거나 편집할 때 사이트 및 그룹 설정 설정
 
-미리 보기를 사용 하도록 설정한 후에는 다음 단계를 수행 합니다.
+미리 보기를 사용 하도록 설정한 후에는 다음 단계에 따라 민감도 레이블을 만들 수 있습니다. 이러한 설정에 대 한 변경 내용은 동기화를 최대 24 시간까지 걸릴 수 있습니다.
 
 1. Microsoft 365 준수 센터에서 **분류** > **민감도 레이블을**선택 합니다.
 
@@ -158,7 +160,7 @@ Microsoft 팀, Office 365 그룹 및 SharePoint 사이트에 대 한 민감도 �
 - Mac 용 Outlook
 - Outlook 모바일  
 - Windows 용 Outlook 데스크톱
-- 양식  
+- Forms  
 - Dynamics 365  
 - Yammer  
 - Stream  

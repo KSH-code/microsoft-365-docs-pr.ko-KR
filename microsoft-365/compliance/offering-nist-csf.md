@@ -1,7 +1,7 @@
 ---
 title: 국내 표준 협회 및 기술 (NIST) Cybersecurity Framework (CSF)
 description: Microsoft 클라우드 서비스는 NIST (표준 협회) Cybersecurity Framework (CSF)를 충족 합니다.
-keywords: Microsoft 365, 규정 준수, 제공
+keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -11,12 +11,12 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 6ea67a9214f5c52f02f7b4d5888b59971951d033
-ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
+ms.openlocfilehash: 7dae370f9fd41ba0a04dd4c327a238dac3841da3
+ms.sourcegitcommit: 062be618f0b18611001552273bb175020420e463
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38690848"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39676655"
 ---
 # <a name="compliance-offering-national-institute-of-standards-and-technology-nist-cybersecurity-framework-csf"></a>규정 준수 제공: 국내 표준 및 기술 (NIST) Cybersecurity Framework (CSF)
 
@@ -26,7 +26,7 @@ ms.locfileid: "38690848"
 
 FICIC의 주요 우선 순위는 기업이 cybersecurity 위험을 관리 하는 데 도움이 되는 표준 및 사례 집합을 설정 하는 것 이었습니다. NIST 프레임 워크는 정부 및 사설 섹터 조직 모두에 대 한 추가 규정 요구 사항을 적용 하지 않고 cybersecurity 위험을 해결 합니다.
 
-FICIC은 [중요 한 인프라 Cybersecurity 개선을 위해 nist 2014 프레임 워크](https://www.nist.gov/sites/default/files/documents/cyberframework/cybersecurity-framework-021214.pdf)의 부록 a에서 찾은 nist SP 800-53을 포함 하 여 전역적으로 인식 되는 표준을 참조 합니다. FICIC 프레임 워크 내의 각 컨트롤은 FedRAMP 일반 기준선 내의 해당 NIST 800-53 컨트롤에 매핑됩니다.
+FICIC은 [중요 한 인프라 Cybersecurity 개선을 위해 Nist 프레임 워크](https://www.nist.gov/publications/framework-improving-critical-infrastructure-cybersecurity-version-11)의 부록 a에 나와 있는 nist SP 800-53를 포함 하는 전역적으로 인식 되는 표준을 참조 합니다. FICIC 프레임 워크 내의 각 컨트롤은 FedRAMP 일반 기준선 내의 해당 NIST 800-53 컨트롤에 매핑됩니다.
 
 ## <a name="microsoft-and-the-nist-csf"></a>Microsoft 및 NIST CSF
 
@@ -41,7 +41,7 @@ NIST Cybersecurity Framework (CSF)는 Cybersecurity 관련 위험을 관리 하�
 
 - [Azure 정부](https://aka.ms/AzureCompliance)
 - [정부용 Dynamics 365](https://aka.ms/d365-compliance-list)
-- [Office 365 및 Office 365 미국 정부](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
+- [Office 365 및 Office 365 U.S. Government](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
 
 ## <a name="audit-cycle-and-certification"></a>감사 순서 및 인증
 
@@ -98,12 +98,12 @@ Microsoft는 다른 클라우드 서비스 공급자에 비해 가장 포괄적�
 
 - [Microsoft 클라우드 서비스 권한 부여](https://marketplace.fedramp.gov/index.html#/products?status=Compliant&sort=productName)
 - [Microsoft 사이버 제품 매핑: NIST Cybersecurity Framework (CSF), CIS 컨트롤, ISO27001:2013 및 HITRUST CSF](https://go.microsoft.com/fwlink/p/?linkid=2074025)
-- [중요 한 인프라 Cybersecurity 개선을 위한 2014 프레임 워크](https://www.nist.gov/sites/default/files/documents/cyberframework/cybersecurity-framework-021214.pdf)
+- [중요 한 인프라를 개선 하기 위한 프레임 워크 Cybersecurity](https://www.nist.gov/publications/framework-improving-critical-infrastructure-cybersecurity-version-11)
 - [연방 네트워크 및 중요 한 인프라의 Cybersecurity을 강화 하는 Presidential Executive 주문](https://www.whitehouse.gov/the-press-office/2017/05/11/presidential-executive-order-strengthening-cybersecurity-federal)
-- [Microsoft 정부 클라우드](https://go.microsoft.com/fwlink/p/?linkid=2087246)
+- [Microsoft Government 클라우드](https://go.microsoft.com/fwlink/p/?linkid=2087246)
 - [온라인 서비스 약관](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=31)
-- [Microsoft 보안 센터 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
-## <a name="download-the-offering-backgrounder"></a>제공 backgrounder 다운로드
+## <a name="download-the-offering-backgrounder"></a>제공 사항의 배경 설명 다운로드
 
-이 제품에 대 한 backgrounder 문서가 필요 한가요? [PDF](https://download.microsoft.com/download/D/D/3/DD302CDD-5EF9-471E-9695-BDC5EF7F44E4/NIST_CSF-Compliance.pdf)를 다운로드 합니다.
+이 제공 사항에 대한 배경 설명 문서가 필요한가요? [PDF](https://download.microsoft.com/download/D/D/3/DD302CDD-5EF9-471E-9695-BDC5EF7F44E4/NIST_CSF-Compliance.pdf)를 다운로드합니다.

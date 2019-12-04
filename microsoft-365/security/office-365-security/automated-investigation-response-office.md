@@ -3,7 +3,7 @@ title: Office 365의 AIR (자동 사고 응답)
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.date: 11/15/2019
+ms.date: 12/03/2019
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -13,21 +13,18 @@ search.appverid:
 - MOE150
 ms.collection: M365-security-compliance
 description: Office 365 Advanced Threat Protection 계획 2의 자동화 된 조사 및 응답 기능에 대 한 개요를 확인 하세요.
-ms.openlocfilehash: 18da20491f9641b8313304e350f9c224b63cc5d9
-ms.sourcegitcommit: 9ee873c6a2f738a0c99921e036894b646742e706
+ms.openlocfilehash: dc1f2a4c0c91cf7b1e2d351f173367e34c5d3323
+ms.sourcegitcommit: 8fda7852b2a5baa92b8a365865b014ea6d100bbc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38673404"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39813918"
 ---
 # <a name="automated-incident-response-air-in-office-365"></a>Office 365의 AIR (자동 사고 응답)
 
 자동 인시던트 대응 (AIR) 기능을 사용 하면 오늘 존재 하는 잘 알려진 위협에 대응 하 여 자동화 된 조사 프로세스를 실행할 수 있습니다. AIR은 보안 운영 팀이 보다 효율적이 고 효과적으로 운영 하는 데 도움이 됩니다.
 - AIR의 작동 방식을 확인 하려면이 문서를 사용 하십시오.
 - AIR 사용을 시작 하려면 [Office 365의 위협에 대 한 자동 조사 및 응답](office-365-air.md)을 참조 하세요.
-
-> [!NOTE]
-> AIR 기능에 액세스 하려면 전역 관리자, 보안 관리자, 보안 운영자 또는 보안 판독기 여야 합니다. 이러한 사용 권한에 대 한 자세한 내용은 [Microsoft 365 보안 센터: 역할 및 사용 권한을](https://docs.microsoft.com/office365/securitycompliance/microsoft-security-and-compliance#required-licenses-and-permissions)참조 하세요.
 
 ## <a name="the-overall-flow-of-air"></a>전체 공기 흐름
 
@@ -47,24 +44,22 @@ ms.locfileid: "38673404"
 
 [경고](../../compliance/alert-policies.md#viewing-alerts) 는 보안 운영 팀 워크플로에서 문제를 대응 하기 위한 트리거를 나타냅니다. 확인을 위해 적절 한 경고 집합에 우선 순위를 지정 하는 동시에, 주소가 지정 되지 않은 위협에 대 한 해결 방법은 어렵습니다. 경고에 대 한 조사가 수동으로 수행 되 면 보안 운영 팀이 엔터티 (예: 콘텐츠, 장치 및 사용자)를 위협 으로부터 찾아서 상호 연결 해야 합니다. 이러한 작업과 워크플로는 시간을 많이 소비 하며 여러 도구와 시스템을 포함 합니다. AIR을 사용 하는 경우 조사 및 응답은 보안 대응 playbook 자동으로 트리거하는 주요 보안 및 위협 관리 경고로 자동화 됩니다. 
 
-초기 AIR 버전 (2019 년 4 월)에는 다음 단일 이벤트 경고 정책에서 생성 된 경고가 자동으로 조사 됩니다. 
+초기 AIR 버전의 경우 (4 월 2019까지) 다음과 같은 유형의 단일 이벤트 경고 정책에서 생성 된 경고가 자동으로 조사 됩니다.  
 
 - 잠재적으로 악의적인 URL 클릭이 검색 되었습니다.
-
 - 사용자가 피싱으로 보고 한 전자 메일
-
 - 배달 후 제거 된 맬웨어를 포함 하는 전자 메일 메시지 *
-
 - 배달 후 제거 된 피싱 Url을 포함 하는 전자 메일 메시지 *
-
 - 의심 스러운 전자 메일 전송 패턴 감지 #
-
 - 사용자가 전자 메일을 보내지 못하도록 제한 됨 #
 
 > [!NOTE]
 > 별표 (*)로 표시 된 경고는 전자 메일 알림을 해제 한 상태에서 보안 & 준수 센터 내의 각 경고 정책에 *정보* 심각도를 할당 합니다. [알림 정책 구성을](../../compliance/alert-policies.md#alert-policy-settings)통해 전자 메일 알림을 설정할 수 있습니다. 해시 (#)로 표시 된 경고는 일반적으로 공개 미리 보기 playbooks에 연결 된 사용 가능한 알림입니다.
 
-알림을 보려면 보안 & 준수 센터 **에서 경고** > **보기**를 선택 합니다. 알림을 선택 하 여 세부 정보를 확인 하 고, **보기 조사** 링크를 사용 하 여 해당 [조사](#investigation-graph)로 이동 합니다. 정보 알림은 기본적으로 경고 보기에 표시 되지 않습니다. 이러한 항목을 보려면 알림 필터링을 변경 하 여 정보 알림을 포함 해야 합니다.
+알림을 보려면 보안 & 준수 센터 **에서 경고** > **보기**를 선택 합니다. 알림을 선택 하 여 세부 정보를 확인 하 고, **보기 조사** 링크를 사용 하 여 해당 [조사](#investigation-graph)로 이동 합니다. 
+
+> [!NOTE]
+> 정보 알림은 기본적으로 경고 보기에 숨겨집니다. 이러한 항목을 보려면 알림 필터링을 변경 하 여 정보 알림 메시지를 포함 합니다.
 
 조직에서 경고 관리 시스템, 서비스 관리 시스템 또는 SIEM (보안 정보 및 이벤트 관리) 시스템을 통해 보안 경고를 관리 하는 경우 전자 메일 알림을 통해 또는 [office 365 관리 활동 API](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-reference)를 통해 해당 시스템에 office 365 알림을 보낼 수 있습니다. 전자 메일 또는 API를 통한 조사 경고 알림에는 보안 & 준수 센터의 경고에 액세스 하 여 할당 된 보안 관리자가 조사로 신속 하 게 이동할 수 있도록 하는 링크가 포함 되어 있습니다.
 
@@ -308,6 +303,15 @@ Office 365 AIR은 다음의 구독에 포함되어 있습니다.
 이러한 구독을 사용 하지 않는 경우 [무료 평가판을 시작](https://go.microsoft.com/fwlink/p/?LinkID=698279&culture=en-US&country=US)합니다.
 
 기능 가용성에 대 한 자세한 내용은 [ATP (Advanced Threat Protection) 계획에서 사용 가능한 기능](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans)을 참조 하세요.
+
+## <a name="required-permissions-to-use-air-capabilities"></a>AIR 기능을 사용 하는 데 필요한 사용 권한
+
+사용 권한은 다음 표에 설명 된 것과 같은 특정 역할을 통해 부여 됩니다. 
+
+|작업 |필요한 역할 |
+|--|--|
+|AIR 기능을 설정 하려면 |다음 중 하나가 필요합니다. <br/>- **전역 관리자**<br/>- **보안 관리자** <br/>이러한 역할은 [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles) 또는 [Office 365 보안 & 준수 센터](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center)에서 할당 될 수 있습니다. |
+|권장 작업을 승인 하거나 거부 하려면|다음 중 하나 ( [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles) 또는 [Office 365 보안 & 준수 센터](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center))에서 이러한 역할을 할당할 수 있습니다.<br/>- **전역 관리자** <br/>- **보안 관리자**<br/>- **보안 독자** <br/>---및---<br/>- **검색 및 제거** (이 역할은 [Office 365 보안 & 준수 센터](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center)에만 할당 됨)
 
 ## <a name="next-steps"></a>다음 단계
 

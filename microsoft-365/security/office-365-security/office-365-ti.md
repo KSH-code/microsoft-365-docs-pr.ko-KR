@@ -3,7 +3,7 @@ title: Office 365 위협 조사 및 응답
 ms.author: tracyp
 author: msfttracyp
 manager: dansimp
-ms.date: 11/15/2019
+ms.date: 12/03/2019
 audience: Admin
 ms.topic: overview
 ms.service: O365-seccomp
@@ -15,12 +15,12 @@ ms.assetid: 32405da5-bee1-4a4b-82e5-8399df94c512
 ms.collection:
 - M365-security-compliance
 description: Office 365 Advanced Threat Protection의 위협 인텔리전스 기능을 통해 조직에 대 한 위협을 파악 하 고, 맬웨어, 피싱 및 기타 공격에 대처 하 고 사용자를 대신 하 여 Office 365에서 검색 한 기타 공격과 위협을 검색할 수 있는 방법을 알아봅니다. 슬라이더.
-ms.openlocfilehash: 047fb99a32fdd7e86572c5a96370f351da50f139
-ms.sourcegitcommit: 9ee873c6a2f738a0c99921e036894b646742e706
+ms.openlocfilehash: 63b5579c5a3e52273064f85a901a6b592e7dd939
+ms.sourcegitcommit: 8fda7852b2a5baa92b8a365865b014ea6d100bbc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38673274"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39813738"
 ---
 # <a name="office-365-threat-investigation-and-response"></a>Office 365 위협 조사 및 응답
 
@@ -47,8 +47,6 @@ ms.locfileid: "38673274"
 ![위협 대시보드](../media/ce013a31-3f80-4d09-bb95-bfb7623b8bc4.png)
   
 이 대시보드 &amp; 를 보고 사용 하려면 Office 365 보안 및 준수 센터에서 **위협 관리** \> **대시보드로**이동 합니다.
-
-자세한 내용은 
   
 ### <a name="threat-explorer"></a>위협 탐색기
 
@@ -74,7 +72,7 @@ ms.locfileid: "38673274"
 
 ### <a name="automated-investigation-and-response"></a>자동화된 조사 및 응답
 
-자동화 된 조사 및 응답 (AIR) 기능을 사용 하 여 조직의 위협 으로부터 발생 하는 콘텐츠, 장치 및 사용자와 관련 된 시간과 노력을 절감할 수 있습니다. AIR 프로세스는 특정 알림이 트리거될 때 또는 보안 운영 팀이 시작 될 때 시작 될 수 있습니다. 자세한 내용은 [Office 365의 자동화 된 인시던트 응답](automated-investigation-response-office.md)을 참조 하세요. 
+자동화 된 조사 및 응답 (AIR) 기능을 사용 하 여 조직의 위협 으로부터 발생 하는 콘텐츠, 장치 및 사용자와 관련 된 시간과 노력을 절감할 수 있습니다. AIR 프로세스는 특정 알림이 트리거될 때 또는 보안 운영 팀이 시작 될 때 시작 될 수 있습니다. 자세한 내용은 [Office 365의 자동화된 사고 대응](automated-investigation-response-office.md)을 참조하세요. 
   
 ## <a name="threat-intelligence-widgets"></a>위협 인텔리전스 위젯
 
@@ -99,15 +97,16 @@ Office 365 위협 조사 및 응답 기능은 Office 365 Advanced Threat Protect
     
 4. 모든 활성 사용자에 게 Office 365 Advanced Threat Protection 계획 2 라이선스를 할당 합니다. (이에 대 한 라이선스가 있는 사용자만 탐색기와 같은 보고서에 표시 됩니다.)
     
-5. Office 365 Advanced Threat Protection으로 작업할 조직의 사용자에 게 역할을 할당 합니다. [사용자에 게 Office 365 보안 &amp; 및 준수 센터에 대 한 액세스 권한을 부여](grant-access-to-the-security-and-compliance-center.md)하 고 다음 표를 참조 하세요.<br/>
+5. Office 365 Advanced Threat Protection으로 작업할 조직의 사용자에 게 역할을 할당 합니다. [사용자에 게 Office 365 보안 &amp; 및 준수 센터에 대 한 액세스 권한을 부여](grant-access-to-the-security-and-compliance-center.md)하 고 다음 표를 참조 하세요.<br/><br/>
 
-  |**이 작업을 수행 하려면 ...** <br/> |**다음 역할 중 하나가 있어야 합니다.** <br/> |  
+
+  |**이 작업을 수행 하려면 ...** <br/> |**다음 역할이 있어야 합니다.** <br/> |  
   |:-----|:-----|
-  |위협 대시보드 (또는 새 [보안 대시보드](security-dashboard.md)) 사용<br/> 최근 또는 현재 위협에 대 한 정보 보기  <br/> |Office 365 전역 관리자  <br/> 보안 관리자 (보안 &amp; 및 준수 센터에서 할당 됨)  <br/> 보안 독자 (보안 &amp; 및 준수 센터에서 할당 됨)  <br/> |
-  |[위협 탐색기 (및 실시간 검색)](threat-explorer.md) 를 사용 하 여 위협 분석  <br/> |Office 365 전역 관리자  <br/> 보안 관리자 (보안 &amp; 및 준수 센터에서 할당 됨)  <br/> 보안 독자 (보안 &amp; 및 준수 센터에서 할당 됨)  <br/> |
-  |인시던트 보기 (조사가 라고도 함) <br/> 인시던트에 전자 메일 메시지 추가  <br/> |Office 365 전역 관리자  <br/> 보안 관리자 (보안 &amp; 및 준수 센터에서 할당 됨)  <br/> 보안 독자 (보안 &amp; 및 준수 센터에서 할당 됨)  <br/> |
-  |인시던트에서 전자 메일 작업 트리거  <br/> 의심 스러운 전자 메일 메시지 찾기 및 삭제  <br/> |Office 365 전역 관리자 또는 보안 관리자  <br/> 위 역할과 검색 및 제거 (보안 &amp; 및 준수 센터에서 할당 됨) 중 하나  <br/> |
-  |Microsoft Defender ATP에 Office 365 Advanced Threat Protection 계획 2 통합  <br/> SIEM 서버를 사용 하 여 Office 365 Advanced Threat Protection 계획 2 통합  <br/> |Office 365 전역 관리자  <br/> 보안 관리자 (보안 &amp; 및 준수 센터에서 할당 됨)  <br/> 추가 응용 프로그램에서 할당 되는 적절 한 역할 (예: Microsoft Defender 보안 센터 또는 SIEM server)  <br/> |
+  |위협 대시보드 (또는 새 [보안 대시보드](security-dashboard.md)) 사용<br/> 최근 또는 현재 위협에 대 한 정보 보기  <br/> |Azure Active Directory 또는 Office 365 보안 &amp; 및 준수 센터에 할당 된 다음 중 하나입니다. <br/>- **Office 365 전역 관리자**  <br/> - **보안 관리자** <br/>- **보안 독자** <br/> |
+  |[위협 탐색기 (및 실시간 검색)](threat-explorer.md) 를 사용 하 여 위협 분석  <br/> |Azure Active Directory 또는 Office 365 보안 &amp; 및 준수 센터에 할당 된 다음 중 하나입니다. <br/>- **Office 365 전역 관리자**  <br/> - **보안 관리자** <br/>- **보안 독자** <br/> |
+  |인시던트 보기 (조사가 라고도 함) <br/> 인시던트에 전자 메일 메시지 추가  <br/> |Azure Active Directory 또는 Office 365 보안 &amp; 및 준수 센터에 할당 된 다음 중 하나입니다. <br/>- **Office 365 전역 관리자**  <br/> - **보안 관리자** <br/>- **보안 독자** <br/>  <br/> |
+  |인시던트에서 전자 메일 작업 트리거  <br/> 의심 스러운 전자 메일 메시지 찾기 및 삭제  <br/> |Azure Active Directory 또는 Office 365 보안 &amp; 및 준수 센터에 할당 된 다음 중 하나입니다. <br/>- **Office 365 전역 관리자**  <br/> - **보안 관리자** <br/>---및---<br/>- **검색 및 제거** (Office 365 보안 &amp; 및 준수 센터에만 할당 됨)  <br/> |
+  |Microsoft Defender ATP에 Office 365 Advanced Threat Protection 계획 2 통합  <br/> SIEM 서버를 사용 하 여 Office 365 Advanced Threat Protection 계획 2 통합  <br/> |Azure Active Directory 또는 Office 365 보안 &amp; 및 준수 센터에 할당 된 다음 중 하나입니다. <br/>- **Office 365 전역 관리자**  <br/> - **보안 관리자** <br/>---및---<br/>추가 응용 프로그램에서 할당 되는 적절 한 역할 (예: Microsoft Defender 보안 센터 또는 SIEM server)  <br/> |
    
 역할, 역할 그룹 및 권한에 대 한 자세한 내용은 [Office 365 보안 &amp; 및 준수 센터의 사용 권한을](permissions-in-the-security-and-compliance-center.md)참조 하세요.
     

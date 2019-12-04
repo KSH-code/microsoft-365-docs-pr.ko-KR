@@ -3,7 +3,7 @@ title: Office 365 메시지 암호화 FAQ
 ms.author: krowley
 author: kccross
 manager: laurawi
-ms.date: 11/14/2019
+ms.date: 12/03/2019
 audience: ITPro
 ms.topic: overview
 ms.service: O365-seccomp
@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 ms.assetid: 0432dce9-d9b6-4e73-8a13-4a932eb0081e
 description: Office 365의 새 메시지 보호 기능이 작동 하는 방식에 대 한 질문이 있나요? 여기에서 대답을 확인 하세요.
-ms.openlocfilehash: 8fea73b73ab49dcfb0ac67935a9e027e87eb721a
-ms.sourcegitcommit: 2c2248b03f7753d64490f2f7e56ec644a235b65a
+ms.openlocfilehash: 95efde63ff9cf4c53522c0242a33001a35d2e334
+ms.sourcegitcommit: 99d759d5c4e7d81266c3ebc087eaa37486cc0bc1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38687273"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "39818850"
 ---
 # <a name="office-365-message-encryption-faq"></a>Office 365 메시지 암호화 FAQ
 
@@ -133,7 +133,11 @@ Not yet. 비즈니스용 OneDrive 첨부 파일이 지원 되지 않으며 최�
   
 ## <a name="can-i-open-encrypted-messages-sent-to-a-shared-mailbox"></a>공유 사서함으로 보낸 암호화 된 메시지를 열 수 있습니까?
 
-예로! 암호화 된 메시지는 공유 사서함에 대해 지원 됩니다. 일부 제한이 적용 됩니다.
+예로! 암호화 된 메시지는 공유 사서함에 대해 지원 됩니다.
+
+- 사용자는 공유 사서함이 보호 된 메일을 메일 그룹의 일부로 받은 공유 사서함에서 제한 된 전자 메일을 열 수 있습니다.
+
+- 사용자는 Outlook for Windows, Mac 용 Outlook 및 웹용 Outlook을 사용할 때 전자 메일에서 보호를 상속 하는 첨부 파일을 볼 수 있습니다.
 
 ## <a name="is-delegated-access-supported"></a>위임 된 액세스를 지원 하나요?
 

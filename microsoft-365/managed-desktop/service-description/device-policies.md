@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 93c7cca75f513008706b4a52b4bbc1bc033341aa
-ms.sourcegitcommit: 6cabf0226de1c95bff6ddb1852dac5ecdb2d6b96
+ms.openlocfilehash: 5eb91a45d844863b27ee208bda2bee812789851e
+ms.sourcegitcommit: 8fda7852b2a5baa92b8a365865b014ea6d100bbc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2019
-ms.locfileid: "35830486"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39813848"
 ---
 # <a name="device-configuration"></a>장치 구성
 
@@ -20,19 +20,12 @@ ms.locfileid: "35830486"
 
 <!-- Device configuration and Security Addendum-->
 
-새 Microsoft Managed Desktop 장치를 설정 하는 경우 Microsoft Managed Desktop에 대 한 적절 한 구성이 최적화 되어 있는지 확인 합니다. 여기에는 온 보 딩 프로세스의 일부로 설정 된 기본 정책 집합이 포함 됩니다. 충돌을 방지 하기 위해 이러한 정책을 변경해 서는 안 됩니다. 
+새 Microsoft Managed Desktop 장치를 설정 하는 경우 Microsoft Managed Desktop에 대 한 적절 한 구성이 최적화 되어 있는지 확인 합니다. 여기에는 온 보 딩 프로세스의 일부로 설정 된 기본 정책 집합이 포함 됩니다. 이러한 정책은 가능한 경우 MDM (모바일 장치 관리)을 사용 하 여 배달 됩니다. 자세한 내용은 [모바일 장치 관리](https://docs.microsoft.com/windows/client-management/mdm/)를 참조 하세요. 
 
-장치가 서명 이미지와 함께 도착 하 고 첫 번째 사용자가 로그인 할 때 Azure Active Directory 도메인에 참가 합니다. 장치는 IT 개입 없이 필요한 정책 및 응용 프로그램을 자동으로 설치 합니다.
+>[!NOTE]
+>충돌을 방지 하기 위해 이러한 정책을 변경해 서는 안 됩니다.
 
-## <a name="why-mdm-over-group-policy"></a>MDM이 그룹 정책을 초과 하는 이유
-
-그룹 정책 대신 MDM (모바일 장치 관리)을 사용 하는 몇 가지 이유는 다음과 같습니다.
-
-- 보안-MDM 정책이 보다 안전 합니다. 그룹 정책은 MDM이 클라우드 id 관리 (Azure Active Directory)와 가장 잘 작동 하도록 설계 된 동안 온-프레미스 id와 가장 잘 작동 하도록 설계 되었습니다.
-- 안정성-MDM 정책을 통해 보다 안정적인 정책 배포를 제공 합니다. 또한 MDM 설정은 GPO (그룹 정책 개체) 정책을 덮어씁니다. Windows 10부터 버전 1803까지, MDM 설정은 최신 관리로 전환 하는 고객을 지 원하는 그룹 정책 값 보다 우선 순위가 지정 됩니다. 
-- Microsoft Managed Desktop 비전과 맞춤-정책 배포를 보다 포괄적으로 모니터링 하 고, 필요한 경우 배포를 일시 중지/다시 시작 하는 기능으로 점진적으로 정책 변경을 단계적으로 롤아웃 하는 그룹 기반 접근 방식을 지원 합니다.
-
-자세한 내용은 [모바일 장치 관리](https://docs.microsoft.com/windows/client-management/mdm/)를 참조 하세요. 
+장치가 서명 이미지와 함께 도착 하 고 첫 번째 사용자가 로그인 할 때 Azure Active Directory 도메인에 참가 합니다. 장치는 IT 직원의 개입 없이 필요한 정책 및 응용 프로그램을 자동으로 설치 합니다.
 
 ## <a name="default-policies"></a>기본 정책
 

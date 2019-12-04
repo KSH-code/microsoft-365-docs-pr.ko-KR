@@ -10,6 +10,7 @@ localization_priority: Normal
 ms.collection:
 - Adm_O365
 - M365-subscription-management
+- TRN_SMB
 ms.custom:
 - Adm_O365
 - Core_O365Admin_Migration
@@ -19,12 +20,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Microsoft 365 Business에 대해 구입 하 고 등록 하는 방법을 알아봅니다.
-ms.openlocfilehash: 16953f7c752c3105af795e721332e2e6d6bdebe5
-ms.sourcegitcommit: 6a413a65b8c2e10cea08f0a15635b28a1362a582
+ms.openlocfilehash: 3470d07f98a1c5806a27d8f21f152a818e4a0371
+ms.sourcegitcommit: 8fda7852b2a5baa92b8a365865b014ea6d100bbc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/19/2019
-ms.locfileid: "38718722"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39812801"
 ---
 # <a name="sign-up-for-microsoft-365-business"></a>Microsoft 365 Business에 등록
 
@@ -42,6 +43,12 @@ Microsoft 365 Business는 다음과 같은 세 가지 방법으로 얻을 수 �
 - 비즈니스를 구매 하지 않을 경우 [집 또는 가족 계획에 등록](https://go.microsoft.com/fwlink/?linkid=2109398) 합니다. 
 
 ## <a name="sign-up-steps"></a>등록 단계
+
+등록 프로세스에 대 한 간략 한 개요를 보려면이 비디오를 시청 하세요.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3znhX] 
+
+이 비디오를 통해 도움이 되는 경우에는 [소규모 기업을 위한 전체 교육 시리즈 및 Microsoft 365에 새로 소개 하](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)고 있습니다.
 
 비즈니스를 위해 Microsoft 365을 등록 하 고 구입 하려면 다음 단계를 완료 합니다.
 
@@ -82,3 +89,6 @@ Microsoft 365 Business는 다음과 같은 세 가지 방법으로 얻을 수 �
 
 설치에 대 한 도움말을 보려면 [set up](set-up.md)을 참조 하십시오.
 
+## <a name="see-also"></a>참고 항목
+
+[Microsoft 365 Business 교육 비디오](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

@@ -12,12 +12,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 사용 준비 상자 분류자 중 하나가 사용자의 요구 사항을 충족 하지 않는 경우 trainable 분류자를 사용 합니다. Microsoft 365 분류자는 다양 한 유형의 콘텐츠를 확인할 수 있도록 교육을 제공 하는 도구입니다. 이 항목에서는 사용자 지정 분류자를 만드는 방법을 보여 줍니다.
-ms.openlocfilehash: 2b1955a2079a26792e973eec1848fcdac8c58218
-ms.sourcegitcommit: e386037c9cc335c86896dc153344850735afbccd
+ms.openlocfilehash: cb3cda9777d692a56263e92cd908eb09bfa99895
+ms.sourcegitcommit: 8fda7852b2a5baa92b8a365865b014ea6d100bbc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "39633985"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39813376"
 ---
 # <a name="creating-a-trainable-classifier-preview"></a>Trainable 분류자 만들기 (미리 보기)
 
@@ -28,6 +28,9 @@ ms.locfileid: "39633985"
 이 타임 라인은 예제 배포를 반영 합니다.
 
 ![trainable-분류자-timeline](media/trainable-classifier-deployment-timeline_border.png)
+
+> [!TIP]
+> Trainable 분류자에 대해 처음으로 옵트인이 필요 합니다. Microsoft 365에서 조직의 콘텐츠를 기준으로 평가 하는 데 12 일이 걸립니다.
 
 ## <a name="seed-content"></a>콘텐츠 시드
 
@@ -42,9 +45,6 @@ Trainable 분류자가 예측 모델을 작성 하기에 충분 한 긍정적인
 
 > [!TIP]
 > 최상의 결과를 위해서는 테스트 샘플 집합에 1만 항목에 긍정 및 음의 일치를 고르게 분산 하 여 사용 해야 합니다.
-
-> [!TIP]
-> Trainable 분류자에 대해 처음으로 옵트인이 필요 합니다. Microsoft 365에서 조직의 콘텐츠를 기준으로 평가 하는 데 12 일이 걸립니다.
 
 ## <a name="how-to-create-a-trainable-classifier"></a>Trainable 분류자를 만드는 방법
 
@@ -107,6 +107,8 @@ Trainable 분류자가 예측 모델을 작성 하기에 충분 한 긍정적인
 ![검토 항목 상자](media/classifier-trainable-review-detail.png)
 
 19. *최소* 200 항목을 검토 합니다.
+
+<!-- insert Analyze steps here-->
 
 20. 정확도가 최소 70%이 고 `Publish the classifier` 상태가 인지 `Ready to use`때까지 계속 검토 합니다.
 

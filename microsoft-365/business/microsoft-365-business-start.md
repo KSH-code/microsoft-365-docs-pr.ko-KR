@@ -10,6 +10,7 @@ localization_priority: Normal
 ms.collection:
 - Adm_O365
 - M365-subscription-management
+- TRN_SMB
 ms.custom:
 - Adm_O365
 - Core_O365Admin_Migration
@@ -21,18 +22,22 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Microsoft 365 Business를 설정하는 방법 알아보기
-ms.openlocfilehash: f269e970cc1ee5ba7455ea799b238db577116f09
-ms.sourcegitcommit: 38934a2115d5cdeb44c7484d57be07686c6f7720
+ms.openlocfilehash: 2e6e1e6153fe4033aa7dd47280c737957d0e4bd5
+ms.sourcegitcommit: 8fda7852b2a5baa92b8a365865b014ea6d100bbc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/19/2019
-ms.locfileid: "38704118"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39813061"
 ---
 # <a name="get-started-with-microsoft-365-business"></a>Microsoft 365 Business 시작
 
 ## <a name="what-is-microsoft-365-business"></a>Microsoft 365 Business란
 
 Microsoft 365 Business는 항상 최신 상태를 유지 하는 Outlook, Word, Excel 및 기타 Office 제품과 같은 광범위 한 비즈니스 생산성 및 공동 작업 도구입니다. 관리 작업을 간단 하 게 수행할 수 있는 엔터프라이즈급 보안을 사용 하 여 모든 iOS, Android 및 Windows 10 장치에서 회사 파일을 보호 합니다.
+
+Microsoft 365 Business에 대 한 간략 한 개요를 보려면이 비디오를 시청 하세요.<br><br>
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2mhaA] 
   
 Microsoft 365 Business는 최대 300의 라이선스를 의미 합니다. 라이선스가 더 필요한 경우 자세한 내용은 [Microsoft 365 Enterprise](https://go.microsoft.com/fwlink/p/?linkid=860986) 설명서를 참조 하세요. 
   
@@ -49,6 +54,13 @@ Microsoft 365 Business는 최대 300의 라이선스를 의미 합니다. 라이
 다음 다이어그램에서는 관리자가 Microsoft 365 Business를 설정 하는 방법을 설명 합니다. 또한 Microsoft 365 Business를 위해 Windows PC를 준비하는 단계를 설명합니다. [Windows AutoPilot](add-autopilot-devices-and-profile.md)를 사용 하 여 Microsoft 365 Business 관리 센터에서 새 장치를 추가할 수도 있습니다. AutoPilot을 사용 하 여 새 장치를 설정 하 고 사전 구성 하 여 사용자가 Microsoft 365 Business 자격 증명으로 로그인 하는 즉시 생산적으로 사용할 준비가 되도록 할 수 있습니다.
   
 ![관리자 및 사용자의 설정 및 관리 흐름을 보여 주는 다이어그램](media/249f81fc-7e79-44c7-8425-3a0b7b651c3b.png)
+
+이 비디오에서 Microsoft 365 Business setup의 개요를 확인 하세요.<br><br>
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FYSM] 
+
+이 비디오를 통해 도움이 되는 경우에는 [소규모 기업을 위한 전체 교육 시리즈 및 Microsoft 365에 새로 소개 하](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)고 있습니다.
+
   
 ### <a name="1-set-up-microsoft-365-business-admin"></a>1: Microsoft 365 Business 설정(관리자)
 
@@ -89,9 +101,10 @@ Microsoft 365 Business는 최대 300의 라이선스를 의미 합니다. 라이
     
 - Microsoft 365 비즈니스 관리자는 고객 지원 팀에 액세스할 수 있습니다. ** [비즈니스 제품에 대 한 지원 문의-관리자 도움말](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)**
     
-## <a name="related-topics"></a>관련 항목
+## <a name="see-also"></a>참고 항목
+
 [Microsoft 365 Business 문서 및 리소스](https://go.microsoft.com/fwlink/p/?linkid=853701)
   
 Microsoft[365 business로](migrate-to-microsoft-365-business.md) 의 Microsoft [365 business 마이그레이션 관리](manage.md)
-  
 
+[Microsoft 365 Business 교육 비디오](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816) 

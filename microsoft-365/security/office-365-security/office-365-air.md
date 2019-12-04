@@ -4,7 +4,7 @@ keywords: AIR, autoIR, ATP, 자동화, 조사, 대응, 재구성, 위협, 고급
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.date: 11/15/2019
+ms.date: 12/03/2019
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 ms.collection: M365-security-compliance
 description: Office 365 Advanced Threat Protection 계획 2의 자동 보안 문제 대응 기능 사용을 시작 하세요.
-ms.openlocfilehash: 13f7e95829b8cf3adf17a40cf7b02c5322b15ea7
-ms.sourcegitcommit: 9ee873c6a2f738a0c99921e036894b646742e706
+ms.openlocfilehash: 9db3a788f5a2f2c7101b5165935884c1d76bccbd
+ms.sourcegitcommit: 8fda7852b2a5baa92b8a365865b014ea6d100bbc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38673424"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39813868"
 ---
 # <a name="automatically-investigate-and-respond-to-threats-in-office-365"></a>Office 365의 위협에 대한 자동 조사 및 응답
 
@@ -35,17 +35,6 @@ AIR을 사용 하 여 특정 알림이 트리거되면 하나 이상의 보안 p
 - [조사 세부 정보 보기](#view-details-of-an-investigation)
 - [조사 결과로 작업 검토 및 승인](#review-and-approve-actions) 
 - [조사와 관련 된 경고에 대 한 세부 정보 보기](#view-details-about-an-alert-related-to-an-investigation)
-
-> [!NOTE]
-> 이 문서에서 설명 하는 작업을 수행 하려면 적절 한 사용 권한이 있어야 합니다. 예를 들어 myst는 전역 관리자, 보안 관리자, 보안 운영자 또는 보안 판독기입니다. [Microsoft 365 보안 센터 역할 및 권한에](https://docs.microsoft.com/office365/securitycompliance/microsoft-security-and-compliance#required-licenses-and-permissions)대해 자세히 알아보세요.
-
-AIR은 다음 구독에 포함 되어 있습니다.
-- Microsoft 365 E5
-- Microsoft 365 E5 Security
-- Office 365 E5
-- Office 365 Advanced Threat Protection Plan 2
-
-이러한 구독 중 하나가 없으면 [무료 평가판을 시작](https://go.microsoft.com/fwlink/p/?LinkID=698279)합니다.
 
 ## <a name="view-details-of-an-investigation"></a>조사 세부 정보 보기
 
@@ -120,10 +109,8 @@ Office 365에서 자동화 된 조사는 일반적으로 하나 이상의 권장
 
 ## <a name="next-steps"></a>다음 단계
 
-[알림에 대해 자세히 알아보기](../../compliance/alert-policies.md)
-
-[Office 365에서 제공 된 악성 전자 메일을 수동으로 찾아서 조사](investigate-malicious-email-that-was-delivered.md)
-
-[Microsoft Defender ATP의 AIR에 대해 자세히 알아보기](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/automated-investigations)
-
-[Microsoft 365 로드맵를 방문 하 여 곧 제공 되는 항목을 확인 하 고 롤아웃](https://www.microsoft.com/microsoft-365/roadmap?filters=)
+- [공기를 가져오고 필요한 권한을 확인 하는 방법 알아보기](automated-investigation-response-office.md#how-to-get-air)
+- [알림에 대해 자세히 알아보기](../../compliance/alert-policies.md)
+- [Office 365에서 제공 된 악성 전자 메일을 수동으로 찾아서 조사](investigate-malicious-email-that-was-delivered.md)
+- [Microsoft Defender ATP의 AIR에 대해 자세히 알아보기](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/automated-investigations)
+- [Microsoft 365 로드맵를 방문 하 여 곧 제공 되는 항목을 확인 하 고 롤아웃](https://www.microsoft.com/microsoft-365/roadmap?filters=)

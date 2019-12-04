@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 ms.assetid: 2d7ff45e-0da0-4caa-89a9-48cabf41f193
 description: 'Microsoft 365 Business 사용자 Windows 10 Pro를 실행하는 Windows 장치를 설정하는 방법에 대해 알아보십시오. '
-ms.openlocfilehash: f929c64b00e4ebf24e9f82fcfea433119abf2f1c
-ms.sourcegitcommit: 6a413a65b8c2e10cea08f0a15635b28a1362a582
+ms.openlocfilehash: b377c1e69d117b893b256880cd3b9972e33345c7
+ms.sourcegitcommit: 8fda7852b2a5baa92b8a365865b014ea6d100bbc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/19/2019
-ms.locfileid: "38718882"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39812881"
 ---
 # <a name="set-up-windows-devices-for-microsoft-365-business-users"></a>Microsoft 365 Business 사용자를 위해 Windows 장치 설정
 
@@ -37,7 +37,13 @@ Windows 장치에서 Windows 7 Pro, Windows 8 Pro 또는 Windows 8.1 Pro를 실�
   
 Windows 장치를 Windows 10 Pro 크리에이터 업데이트로 업그레이드하는 방법에 대한 자세한 내용은 [Windows Pro 크리에이터 업데이트로 Windows 장치 업그레이드](upgrade-to-windows-pro-creators-update.md)의 단계를 따르세요.
   
-[장치가 AZURE AD에 연결 되었는지 확인](#verify-the-device-is-connected-to-azure-ad) 을 참조 하 여 업그레이드가 있는지 확인 하거나 업그레이드가 제대로 수행 되었는지 확인 합니다. 
+[장치가 AZURE AD에 연결 되었는지 확인](#verify-the-device-is-connected-to-azure-ad) 을 참조 하 여 업그레이드가 있는지 확인 하거나 업그레이드가 제대로 수행 되었는지 확인 합니다.
+
+Microsoft 365에 Windows를 연결 하는 방법에 대 한 간단한 비디오를 시청 하세요.<br><br>
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3yXh3] 
+
+이 비디오를 통해 도움이 되는 경우에는 [소규모 기업을 위한 전체 교육 시리즈 및 Microsoft 365에 새로 소개 하](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)고 있습니다.
   
 ## <a name="join-windows-10-devices-to-your-organizations-azure-ad"></a>Windows 10 장치를 조직의 Azure AD에 연결
 
@@ -115,3 +121,6 @@ Azure AD에 연결된 Windows 10 장치가 Microsoft 365 Business 구독의 일�
 
 모바일 장치를 설정하려면 [Microsoft 365 Business 사용자를 위한 모바일 장치 설정](set-up-mobile-devices.md)을 참조하고 장치 보호 또는 앱 보호를 설정하려면 [Microsoft 365 Business 관리](manage.md)를 참조하세요.
   
+## <a name="see-also"></a>참고 항목
+
+[Microsoft 365 Business 교육 비디오](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
