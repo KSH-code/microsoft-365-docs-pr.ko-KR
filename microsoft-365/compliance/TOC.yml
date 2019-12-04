@@ -176,7 +176,7 @@
       items:
         - name: 레이블이 지정된 콘텐츠 보기(미리 보기)
           href: data-classification-content-explorer.md
-        - name: 레이블 활동 보기 (미리 보기)
+        - name: 레이블 활동 보기(미리 보기)
           href: data-classification-activity-explorer.md
         - name: 학습 가능한 분류자 시작 (미리 보기)
           href: classifier-getting-started-with.md
@@ -317,6 +317,8 @@
           href: export-search-results.md
         - name: 콘텐츠 검색 보고서 내보내기
           href: export-a-content-search-report.md
+        - name: Microsoft Edge에서 eDiscovery 내보내기 도구 사용
+          href: configure-edge-to-export-search-results.md
         - name: 전자 메일 메시지 검색 및 삭제
           href: search-for-and-delete-messages-in-your-organization.md
         - name: Office 365에서 온-프레미스 사용자의 클라우드 기반 사서함 검색
@@ -780,7 +782,7 @@
               href: gdpr-data-subject-requests.md
             - name: Azure
               href: gdpr-dsr-azure.md
-            - name: Azure DevOps 서비스
+            - name: Azure DevOps Services
               href: gdpr-dsr-vsts.md
             - name: Dynamics 365
               href: gdpr-dsr-dynamics365.md
@@ -1106,7 +1108,7 @@
           items:
             - name: 캘리포니아 소비자 개인 정보 보호법(CCPA)
               href: offering-ccpa.md
-            - name: 캐나다 개인정보 보호법
+            - name: 캐나다 개인 정보 보호법
               href: offering-canadian-privacy-laws.md
         - name: 남미
           items:

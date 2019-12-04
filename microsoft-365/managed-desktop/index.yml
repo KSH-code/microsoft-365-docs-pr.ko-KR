@@ -24,26 +24,31 @@ sections:
             html: '<p>의사 결정권자를 위한 Microsoft Managed Desktop--정의, 작동 방식 및 사용자가 수행할 수 있는 작업에 대 한 소개</p>'
             image:
               src: 'https://docs.microsoft.com/media/common/i_overview.svg'
+              alt: ''
             title: Microsoft Managed Desktop이란 무엇인가요?
           - href: service-description/index.md
             html: <p>Microsoft Managed Desktop의 모든 부분에 대 한 자세한 설명</p>
             image:
               src: 'https://docs.microsoft.com/media/common/i_get-started.svg'
+              alt: ''
             title: 서비스 설명
           - href: get-ready/index.md
             html: <p>사용자 환경 및 조직을 서비스와 함께 사용할 수 있도록 하기 위한 모든 단계</p>
             image:
               src: 'https://docs.microsoft.com/media/common/i_support.svg'
+              alt: ''
             title: 준비하기
           - href: get-started/index.md
             html: <p>장치 설정 및 앱 배포를 포함 하 여 Microsoft Managed Desktop을 사용 하 여 조직의 조직 가져오기</p>
             image:
               src: 'https://docs.microsoft.com/media/common/i_whats-new.svg'
+              alt: ''
             title: 시작
           - href: working-with-managed-desktop/index.md
             html: <p>서비스의 일상 작업에 대 한 모든 정보</p>
             image:
               src: 'https://docs.microsoft.com/media/common/i_portal.svg'
+              alt: ''
             title: Microsoft Managed Desktop 사용
   - title: 새 문서 및 블로그 게시물
     items:
