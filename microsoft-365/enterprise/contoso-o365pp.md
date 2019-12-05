@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Contoso에서 Microsoft Endpoint Configuration Manager를 사용하여 Office 365 ProPlus를 배포하는 방식을 이해합니다.
-ms.openlocfilehash: e0e1343d2ed36b1c76ad4708545c4e6d4010bb45
-ms.sourcegitcommit: 9ee873c6a2f738a0c99921e036894b646742e706
+ms.openlocfilehash: 7649a4a5c77c7f743e3339db6f91b7afc3b1343f
+ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38673164"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "39831989"
 ---
 # <a name="office-365-proplus-deployment-for-contoso"></a>Contoso의 Office 365 ProPlus 배포
 

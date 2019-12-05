@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Microsoft 365 서비스 인시던트 시나리오에 대한 몇 가지 샘플 완화
-ms.openlocfilehash: 830d8c3ac9993185bbb60ff15c08903e298b9b78
-ms.sourcegitcommit: 7690c8bfdea6e6d245cfa7c5b09b913b092cde0a
+ms.openlocfilehash: c2eaa51bd6980893780f6e0534f33cac636ad716
+ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "37122268"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "39831979"
 ---
 # <a name="service-incident-mitigation-strategies"></a>서비스 인시던트 완화 전략
 

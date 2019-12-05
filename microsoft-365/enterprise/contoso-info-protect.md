@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Contoso에서 Microsoft 365 Enterprise의 정보 보호 기능을 사용하여 클라우드에서 디지털 자산을 보호하는 방법을 이해합니다.
-ms.openlocfilehash: f5893414a0aab3d0ab89eb180f0c907d4379194c
-ms.sourcegitcommit: 9ee873c6a2f738a0c99921e036894b646742e706
+ms.openlocfilehash: d6167896c3e42c5fef373de7c5be7123467936f4
+ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38673204"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "39831681"
 ---
 # <a name="information-protection-for-the-contoso-corporation"></a>Contoso Corporation의 정보 보호
 
@@ -65,7 +65,7 @@ Contoso는 다음 단계를 사용하여 정보 보호 요구에 맞게 Microsof
 
 4. 액세스를 잠그는 권한을 사용하여 중요한 데이터 및 높은 규제 대상 데이터에 대해 보호된 SharePoint 사이트 생성
 
-   중요 및 높은 규제 대상 사이트 모두 기본 SharePoint 팀 사이트 권한이 사용자 지정되는 [격리된 사이트](https://docs.microsoft.com/office365/enterprise/isolated-sharepoint-online-team-sites)로 구성되었습니다. 또한 중요 및 높은 규제 대상 SharePoint 사이트도 해당 보존 레이블로 구성했습니다. 높은 규제 대상 SharePoint 사이트에 저장된 파일은 높은 규제 대상 레이블의 민감도 하위 레이블로 보호됩니다. 자세한 내용은 [높은 규제 대상 데이터를 위한 SharePoint 사이트](teams-sharepoint-online-sites-highly-regulated-data.md) 시나리오를 참조하세요.
+   중요하고 고도로 규제된 사이트는 추가 권한 제한이 있는 비공개 팀 사이드로 구성되었습니다. 또한 중요 및 높은 규제 대상 SharePoint 사이트도 해당 보존 레이블로 구성했습니다. 높은 규제 대상 SharePoint 사이트에 저장된 파일은 높은 규제 대상 레이블의 민감도 하위 레이블로 보호됩니다. 자세한 내용은 [높은 규제 대상 데이터를 위한 SharePoint 사이트](teams-sharepoint-online-sites-highly-regulated-data.md) 시나리오를 참조하세요.
 
 5.  온-프레미스 SharePoint 사이트 및 파일 공유의 데이터를 새 SharePoint 사이트로 이동
 

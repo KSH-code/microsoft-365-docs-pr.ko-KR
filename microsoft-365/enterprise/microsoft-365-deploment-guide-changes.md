@@ -3,7 +3,7 @@ title: Microsoft 365 Enterprise 배포 컨텐츠의 변경 사항
 author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
-ms.date: 11/19/2019
+ms.date: 12/03/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,14 +13,26 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Microsoft 365 배포 가이드의 새로운 내용 및 콘텐츠에 대한 변경 사항을 확인하세요.
-ms.openlocfilehash: 529d781f31157c6e9ad63a83ef5f8bb96873049d
-ms.sourcegitcommit: 2bdd7b535a7d2a4896df130b7047f8c85f4d47b4
+ms.openlocfilehash: bf7cda762d2ac7a8fd57135b985d893ee03c0646
+ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/19/2019
-ms.locfileid: "38711892"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "39831829"
 ---
 # <a name="changes-to-microsoft-365-enterprise-deployment-content"></a>Microsoft 365 Enterprise 배포 컨텐츠의 변경 사항
+
+## <a name="december-2019"></a>2019년 12월
+
+### <a name="new-content"></a>새로운 내용 
+
+- [파일에 대한 보안 팀용 테스트 랩 가이드](https://docs.microsoft.com/microsoft-365/security/office-365-security/secure-team-for-files-in-a-dev-test-environment)
+
+### <a name="updates-and-enhancements"></a>업데이트 및 향상된 기능
+
+- [SharePoint Online 사이트 및 파일 보호](https://docs.microsoft.com/microsoft-365/security/office-365-security/secure-sharepoint-online-sites-and-files)
+-  새 평가판 구독 절차에 대한 [간단한 기본 구성](lightweight-base-configuration-microsoft-365-enterprise.md) 및 [시뮬레이트된 엔터프라이즈 기본 구성](simulated-ent-base-configuration-microsoft-365-enterprise.md)
+- 
 
 ## <a name="november-2019"></a>2019년 11월
 

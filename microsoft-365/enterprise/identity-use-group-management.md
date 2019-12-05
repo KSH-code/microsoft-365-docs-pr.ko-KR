@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 그룹을 사용하여 일부 관리 작업을 자동화할 수 있습니다.
-ms.openlocfilehash: 769fc0dd69b13978dbb9cf91d890ad271a7d9bb5
-ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
+ms.openlocfilehash: 0d46a2af5683b8da40275302460d453f1f14acbe
+ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "37370185"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "39831661"
 ---
 # <a name="step-5-use-groups-for-management"></a>5단계: 그룹을 사용하여 관리하십시오.
 

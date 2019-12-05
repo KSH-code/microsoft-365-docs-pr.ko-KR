@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 클라우드 인식 비즈니스 연속성 계획을 개발할 때 고려해야 할 사항.
-ms.openlocfilehash: e7bd9ad7d1bd14db761ec399e260bbfc23954d99
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: a9f8b7f6950375fb976202a10da03662c3b2715a
+ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38031073"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "39831671"
 ---
 # <a name="developing-your-continuity-plan"></a>연속성 계획 개발
 
@@ -26,7 +26,7 @@ ms.locfileid: "38031073"
 
 광범위하게 비즈니스 연속성 계획에는 4가지 측면인 평가, 계획, 기능 유효성 검사, 통신 및 조정이 포함됩니다.
 
-## <a name="assesment"></a>평가
+## <a name="assessment"></a>평가
 먼저 조직의 비즈니스 기능과 해당 기능을 지원하는 서비스 및 프로세스를 확인해야 합니다. 여기에는 각 비즈니스 기능의 중요도에 따라 순위를 지정하고 각 비즈니스 기능에 종속된 프로세스와 서비스를 식별하는 비즈니스 영향 분석 완료가 포함됩니다. 다음은 자체 평가를 시작하는 데 도움이 되는 샘플 표입니다.
 
 **샘플 비즈니스 영향 평가 (BIA)**
@@ -49,7 +49,7 @@ ms.locfileid: "38031073"
 |이 기술에는 특정 프로세스 SLA를 추진하는 알려진 경영진 요구사항이 있나요? 그렇다면 자세히 설명해주세요.|`details here`|
 |이 서비스와 연결된 데이터가 손실되거나 손상되면 주요 이벤트가 발생하나요? 그렇다면 자세히 설명해주세요.|`details here`|
 |서비스의 주요 기능 중 일부 또는 전부에 대한 해결 방법이나 대안이 있습니까? 그렇다면 자세히 설명해주세요.|`details here`|
-|서비스에서 고객 데이터 (PII)를 처리, 저장 또는 전송하나요? 그렇다면 자세히 설명해주세요.|`details here`|
+|서비스에서 PII (개인 식별 정보)와 같은 고객 데이터를 처리, 저장하거나 전송하나요? 그렇다면 자세히 설명해주세요.|`details here`|
 |BIA 상태|`develop your own status classification, here are some examples: planned, started, in-progress, complete, on-hold, expired`|
 |완료 날짜|`the date this BIA was completed`|
 |BIA 촉진자|`name of the person or group who is responsible for developing and maintaining this BIA`|

@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 구성이 네트워킹 인프라에 대한 Microsoft 365 Enterprise 조건을 충족하는지 확인합니다.
-ms.openlocfilehash: ad54284fdbd00fef486a13a957af6f06cb6a7450
-ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
+ms.openlocfilehash: f3d2861af90e9a6f8a9b0b64b307dac6b1b76eb1
+ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "37370155"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "39831949"
 ---
 # <a name="phase-1-networking-infrastructure-exit-criteria"></a>1단계: 네트워킹 인프라 종료 조건
 
@@ -48,7 +48,7 @@ ms.locfileid: "37370155"
 필요한 경우 [2단계](networking-dns-resolution-same-location.md)를 통해 이 요구 사항을 충족할 수 있습니다.
 
 <a name="crit-networking-step3"></a>
-## <a name="optional-unneccessary-network-hairpins-are-removed"></a>선택 사항: 불필요한 네트워크 헤어핀 제거
+## <a name="optional-unnecessary-network-hairpins-are-removed"></a>선택 사항: 불필요한 네트워크 헤어핀 제거
 
 네트워크 헤어핀을 검사하고 모든 사무실의 성능에 미치는 영향을 확인했습니다. 가능한 경우 네트워크 헤어핀을 제거하거나 타사 네트워크 또는 보안 공급자와 함께 네트워크에 대한 최적 Microsoft 365 피어링을 구현했습니다.
 

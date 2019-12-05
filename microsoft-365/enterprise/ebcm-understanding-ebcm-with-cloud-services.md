@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 클라우드 서비스가 IT 제공의 일부일 때 비즈니스 연속성을 계획하고 구현하는 방법에 대해 알아보세요.
-ms.openlocfilehash: 9b8d769670b53a75c2b48254cb0026488995274a
-ms.sourcegitcommit: 7690c8bfdea6e6d245cfa7c5b09b913b092cde0a
+ms.openlocfilehash: 86ceac67b90acfbb90a35d9a528a89d619668722
+ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/23/2019
-ms.locfileid: "37122258"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "39831839"
 ---
 # <a name="enterprise-business-continuity-management-ebcm-with-cloud-services"></a>클라우드 서비스를 사용한 엔터프라이즈 비즈니스 연속성 관리(EBCM)
 

@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 비즈니스 연속성 계획을 준비할 수 있도록 서비스 인시던트 발생 시 Microsoft가 수행하는 작업을 이해합니다.
-ms.openlocfilehash: c74bb83352f87faf0bb7f50e8aec4ac813516d3c
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 02ab818a6b26fc6b9902747f6c0211545d4b4704
+ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38031083"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "39831869"
 ---
 # <a name="enterprise-business-continuity-management-customer-and-cloud-partner-responsibilities"></a>엔터프라이즈 비즈니스 연속성 관리 고객 및 클라우드 파트너 책임
 
@@ -34,7 +34,7 @@ Microsoft는 Microsoft 365 관리 포털에서 테넌트 관련 서비스 상태
 ## <a name="targeted"></a>대상
 대개 모니터링 시스템에서 문제가 감지되었을 때, 이에 영향을 받는 개인 고객부터 지역 혹은 그 이상까지 고객 기반을 식별하고 고객들에게 필요한 커뮤니케이션을 전달합니다. 이는 알아야 하는 비즈니스 관련 사항을 파악하는 데 도움이 됩니다. 또한 소음 알림은 업무에 영향을 주지 않기 때문에 기업을 방해하지 않습니다. 예를 들어 특정 사서함 데이터베이스가 영향을 받는 경우, 어떤 고객의 사용자가 인프라에 영향을 받았는지 정확히 식별하고 고객과의 커뮤니케이션을 살핍니다. 인시던트의 영향 범위가 명확하지 않은 경우에는 커뮤니케이션 영역을 영향을 받을 수 있는 고객까지 확장합니다.
 
-## <a name="highly-avaliable"></a>높은 가용성
+## <a name="highly-available"></a>고가용성
 Microsoft는 고객이 사용할 수 있는 서비스 커뮤니케이션 상태 채널을 여러 개 갖고 있습니다.
 
 - 관리 센터에서 관리 센터 또는 서비스 상태 대시보드를 사용할 수 없는 경우에는 [백업 사이트](https://status.office365.com/)를 사용하여 서비스 상태를 모니터링할 수 있습니다.

@@ -15,12 +15,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 6f916a77-301c-4be2-b407-6cec4d80df76
 description: 이 테스트 랩 가이드를 사용하여 Microsoft 365 Enterprise 테스트를 위한 시뮬레이트된 엔터프라이즈 테스트 환경을 만듭니다.
-ms.openlocfilehash: febfa4e9ce3fdc430cf53a9cce61a15f0a4247fb
-ms.sourcegitcommit: 3fd6d175c1954ce463198e835d1d8f2f91d80d79
+ms.openlocfilehash: d279ea4eaea1e167b18f48db3c7484885ed48fea
+ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/02/2019
-ms.locfileid: "39662813"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "39831701"
 ---
 # <a name="the-simulated-enterprise-base-configuration"></a>시뮬레이트된 엔터프라이즈 기본 구성
 
