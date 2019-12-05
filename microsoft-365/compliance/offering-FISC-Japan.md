@@ -11,12 +11,12 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 0cf7a32d50c6fd648894934ccbb32d84959bd12b
-ms.sourcegitcommit: fb3815ee186b2b3ec790ee32a9d7b1628d623b0b
+ms.openlocfilehash: 275781c8e5b25555e7b65f830b8c703827d80849
+ms.sourcegitcommit: 062be618f0b18611001552273bb175020420e463
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/22/2019
-ms.locfileid: "39232912"
+ms.lasthandoff: 12/03/2019
+ms.locfileid: "39676685"
 ---
 # <a name="compliance-offering-center-for-financial-industry-information-systems-fisc"></a>규정 준수 제안: FISC(Center for Financial Industry Information Systems: 금융 산업 정보 시스템 센터)
 
@@ -40,10 +40,7 @@ Microsoft에서는 Microsoft Azure, Dynamics 365 및 Microsoft Office 365가 금
 
 금융 기관에서는 Azure, Dynamics 365, Office 365 및 Microsoft Cloud App Security의 범위 내 인프라 및 플랫폼 서비스에 대해 이 세 가지 영역의 준수 평가를 신뢰할 수 있습니다. 
 
-Microsoft Cloud에서 FISC의 이점에 대해 알아보세요.
-
-- [FISC 일본 배경 설명 다운로드](https://aka.ms/fisc-backgrounder)
-- [외부 평가자의 유효성 검사 및 평가자의 사이트에 대 한 링크 (일본어만 해당)에 대해 자세히 알아보기](https://www.microsoft.com/ja-jp/business/enterprise-security/twc/finance-fisc.aspx) 
+[외부 평가자의 유효성 검사 및 평가자의 사이트에 대 한 링크 (일본어만 해당)에 대해 자세히 알아보기](https://www.microsoft.com/ja-jp/business/enterprise-security/twc/finance-fisc.aspx)
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 범위 내 클라우드 서비스
 
