@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 정책을 사용하여 콘텐츠를 보존할지, 삭제할지, 아니면 보존한 다음 삭제할지 사전에 결정할 수 있습니다. 조직 전체에 또는 특정 위치 또는 사용자에게 하나의 정책을 적용할 수 있고, 모든 콘텐츠에 또는 특정 조건에 부합하는 콘텐츠에 정책을 적용할 수 있습니다.
-ms.openlocfilehash: e8014b04df0991c89c6f487b3f9d8e176b9cff75
-ms.sourcegitcommit: 9083036e787cf997fbceb19c66af594d0fa81d0f
+ms.openlocfilehash: caeec733b3b5722f25210d0d2566e1dd9a5cd95e
+ms.sourcegitcommit: 99d759d5c4e7d81266c3ebc087eaa37486cc0bc1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "39638042"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "39818990"
 ---
 # <a name="overview-of-retention-policies"></a>보존 정책 개요
 
@@ -213,9 +213,9 @@ SharePoint 사이트 모음의 경우, 사용자가 콘텐츠를 편집하거나
   
 ### <a name="a-policy-with-specific-inclusions-or-exclusions"></a>특정 포함 또는 제외가 적용된 정책
 
-특정 사용자에게 보존 정책을 적용할 수도 있습니다. 이를 위해 해당 위치의 **상태**를 설정으로 전환한 후 링크를 사용하여 특정 사용자, Office 365 그룹 또는 위치를 포함하거나 제외합니다. 
+특정 사용자, Office 365 그룹 또는 사이트에 보존 정책을 적용할 수도 있습니다. 이를 위해 해당 위치의 **상태**를 설정으로 전환한 후 링크를 사용하여 특정 사용자, Office 365 그룹 또는 사이트를 포함하거나 제외합니다. 
   
-그러나 1,000명이 넘는 특정 사용자를 포함하거나 제외하는 보존 정책에는 다음과 같은 제한이 적용됩니다.
+그러나 1,000명이 넘는 특정 위치를 포함하거나 제외하는 보존 정책에는 다음과 같은 제한이 적용됩니다.
   
 - 이러한 보존 정책에는 1,000개 이하의 사서함과 100개 이하의 사이트 모음을 포함할 수 있습니다.
     
