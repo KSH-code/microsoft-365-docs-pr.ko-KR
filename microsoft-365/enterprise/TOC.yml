@@ -1,0 +1,234 @@
+- name: Microsoft 365 Enterprise 설명서 및 리소스
+  href: index.yml
+- name: Microsoft 365 Enterprise 개요
+  href: microsoft-365-overview.md
+- name: Microsoft 365 Enterprise 배포
+  href: deploy-microsoft-365-enterprise.md
+  items:
+    - name: Foundation 인프라 배포
+      href: deploy-foundation-infrastructure.md
+      items:
+        - name: 1 단계-네트워킹
+          href: networking-infrastructure.md
+          items:
+            - name: 1 단계-Microsoft 365에 대 한 네트워크 준비
+              href: networking-provide-bandwidth-cloud-services.md
+            - name: 2 단계-각 사무실에 대해 로컬 인터넷 연결 구성
+              href: networking-dns-resolution-same-location.md
+            - name: 3 단계-네트워크 헤어핀 방지 방지
+              href: networking-avoid-network-hairpins.md
+            - name: 4 단계-트래픽 바이패스 구성
+              href: networking-configure-proxies-firewalls.md
+            - name: 5 단계-클라이언트 및 Office 365 서비스 성능 최적화
+              href: networking-optimize-tcp-performance.md
+            - name: 네트워킹 종료 조건
+              href: networking-exit-criteria.md
+        - name: 2 단계-Id
+          href: identity-infrastructure.md
+          items:
+            - name: 1 단계-전역 관리자 계정 만들기 및 보호
+              href: identity-create-protect-global-admins.md
+            - name: 2 단계-암호 보안
+              href: identity-secure-your-passwords.md
+            - name: 3 단계-사용자 로그인 보안 및 관리
+              href: identity-secure-user-sign-ins.md
+            - name: 4 단계-사용자 계정 추가
+              href: identity-add-user-accounts.md
+            - name: 5 단계-관리 그룹 사용
+              href: identity-use-group-management.md
+            - name: 6 단계-id 거 버 넌 스 구성
+              href: identity-configure-identity-governance.md
+            - name: ID 종료 기준
+              href: identity-exit-criteria.md
+        - name: 3 단계-Windows 10 Enterprise
+          href: windows10-infrastructure.md
+          items:
+            - name: 1 단계-조직 준비
+              href: windows10-prepare-your-org.md
+            - name: 2 단계-현재 위치 업그레이드로 배포
+              href: windows10-deploy-inplaceupgrade.md
+            - name: 3 단계-새 장치용으로 배포
+              href: windows10-deploy-autopilot.md
+            - name: 4 단계-장치 상태 및 준수 모니터링
+              href: windows10-enable-windows-analytics.md
+            - name: 5 단계-보안 기능 배포
+              href: windows10-enable-security-features.md
+            - name: Windows 10 Enterprise 종료 조건
+              href: windows10-exit-criteria.md
+        - name: 4 단계-Office 365 ProPlus
+          href: office365proplus-infrastructure.md
+          items:
+            - name: Office 365 ProPlus 종료 조건
+              href: office365proplus-exit-criteria.md
+        - name: 5 단계-모바일 장치 관리
+          href: mobility-infrastructure.md
+          items:
+            - name: 모바일 장치 관리 종료 조건
+              href: mobility-infrastructure-exit-criteria.md
+        - name: 6 단계-정보 보호
+          href: infoprotect-infrastructure.md
+          items:
+            - name: 1 단계-보안 및 정보 보호 수준 정의
+              href: infoprotect-define-sec-infoprotect-levels.md
+            - name: 2 단계-사용자 환경에 대 한 분류 구성
+              href: infoprotect-configure-classification.md
+            - name: 3 단계-Microsoft 365에 대 한 향상 된 보안 구성
+              href: infoprotect-configure-increased-security-office-365.md
+            - name: 4 단계-Windows Information Protection 구성
+              href: infoprotect-deploy-windows-information-protection.md
+            - name: 5 단계-Office 365 데이터 손실 방지 구성
+              href: infoprotect-data-loss-prevention.md
+            - name: 6 단계-전자 메일 암호화 구성
+              href: infoprotect-email-encryption.md
+            - name: 7 단계-Office 365에 대 한 권한이 부여 된 액세스 관리 구성
+              href: infoprotect-configure-privileged-access-management.md
+            - name: 정보 보호 종료 기준
+              href: infoprotect-exit-criteria.md
+        - name: 배포 전략
+          href: deployment-strategies-microsoft-365-enterprise.md
+        - name: 기존 인프라를 사용하여 배포
+          href: deploy-with-existing-infrastructure.md
+        - name: 비 엔터프라이즈에 배포
+          href: deploy-foundation-infrastructure-non-enterprises.md
+    - name: 작업 부하 및 시나리오 배포
+      href: deploy-workloads.md
+      items:
+        - name: Microsoft Teams
+          href: teams-workload.md
+        - name: Exchange Online
+          href: exchangeonline-workload.md
+        - name: SharePoint 및 비즈니스용 OneDrive
+          href: sharepoint-online-onedrive-workload.md
+        - name: 마이그레이션
+          href: migration-microsoft-365-enterprise-workload.md
+        - name: 원격 작업자 지원
+          href: empower-people-to-work-remotely.md
+        - name: 높은 규제 대상 데이터에 대한 Teams
+          href: secure-teams-highly-regulated-data-scenario.md
+        - name: 높은 규제 대상 데이터를 위한 SharePoint 사이트
+          href: teams-sharepoint-online-sites-highly-regulated-data.md
+    - name: 테스트 랩 가이드
+      href: m365-enterprise-test-lab-guides.md
+      items:
+        - name: 기본 구성
+          items:
+            - name: Lightweight
+              href: lightweight-base-configuration-microsoft-365-enterprise.md
+            - name: 시뮬레이트된 엔터프라이즈
+              href: simulated-ent-base-configuration-microsoft-365-enterprise.md
+        - name: ID
+          items:
+            - name: 비밀번호 해시 동기화
+              href: password-hash-sync-m365-ent-test-environment.md
+            - name: 통과 인증
+              href: pass-through-auth-m365-ent-test-environment.md
+            - name: 페더레이션 인증
+              href: federated-identity-for-your-office-365-dev-test-environment.md
+            - name: Azure AD Seamless Single Sign-on
+              href: single-sign-on-m365-ent-test-environment.md
+            - name: Multi-Factor Authentication
+              href: multi-factor-authentication-microsoft-365-test-environment.md
+            - name: 전역 관리자 계정 보호
+              href: protect-global-administrator-accounts-microsoft-365-test-environment.md
+            - name: 비밀번호 쓰기 저장
+              href: password-writeback-m365-ent-test-environment.md
+            - name: 비밀번호 재설정
+              href: password-reset-m365-ent-test-environment.md
+            - name: 자동 라이선싱 및 그룹 등록
+              href: automate-licenses-group-membership-microsoft-365-test-environment.md
+            - name: Azure AD ID 보호
+              href: azure-ad-identity-protection-microsoft-365-test-environment.md
+            - name: ID 및 장치 액세스
+              href: identity-device-access-m365-test-environment.md
+              items:
+                - name: 클라우드 전용
+                  href: cloud-only-prereqs-m365-test-environment.md
+                - name: 비밀번호 해시 동기화
+                  href: phs-prereqs-m365-test-environment.md
+                - name: 통과 인증
+                  href: pta-prereqs-m365-test-environment.md
+        - name: 모바일 장치 관리
+          items:
+            - name: iOS 및 Android 장치 등록
+              href: enroll-ios-and-android-devices-in-your-microsoft-enterprise-365-dev-test-environ.md
+            - name: 장치 준수 정책
+              href: mam-policies-for-your-microsoft-365-enterprise-dev-test-environment.md
+        - name: 정보 보호
+          items:
+            - name: 강화된 Microsoft 365 보안
+              href: increased-o365-security-microsoft-365-enterprise-dev-test-environment.md
+            - name: 데이터 분류
+              href: data-classification-microsoft-365-enterprise-dev-test-environment.md
+            - name: 권한이 부여된 액세스 관리
+              href: privileged-access-microsoft-365-enterprise-dev-test-environment.md
+    - name: Contoso 사례 연구
+      href: contoso-case-study.md
+      items:
+        - name: 개요
+          href: contoso-overview.md
+        - name: Contoso의 IT 인프라 및 요구 사항
+          href: contoso-infra-needs.md
+        - name: 네트워킹
+          href: contoso-networking.md
+        - name: ID
+          href: contoso-identity.md
+        - name: Windows 10 Enterprise
+          href: contoso-win10.md
+        - name: Office 365 ProPlus
+          href: contoso-o365pp.md
+        - name: 모바일 장치 관리
+          href: contoso-mdm.md
+        - name: 정보 보호
+          href: contoso-info-protect.md
+        - name: 보안 요약
+          href: contoso-security-summary.md
+        - name: 극비 프로젝트를 위한 팀
+          href: contoso-team-for-top-secret-project.md
+        - name: 강도 높은 규제 대상 데이터를 위한 SharePoint 사이트
+          href: contoso-sharepoint-online-site-for-highly-confidential-assets.md
+    - name: Microsoft 365 Enterprise 배포 컨텐츠의 변경 사항
+      href: microsoft-365-deploment-guide-changes.md
+- name: 데스크톱 배포 센터
+  href: desktop-deployment-center-home.md
+  items:
+    - name: '시작 하기-사용자, 프로세스 및 기술 지침'
+      href: getting-started.md
+    - name: 1단계 - 장치 및 앱 준비
+      href: step-1-device-and-app-readiness.md
+    - name: '2단계: 디렉터리 및 네트워크 준비'
+      href: step-2-directory-and-network-readiness.md
+    - name: 3단계 - Office 및 LOB 앱 배달
+      href: step-3-office-and-lob-app-delivery.md
+    - name: '4단계: 사용자 파일 및 설정'
+      href: step-4-user-files-and-settings-migration.md
+    - name: 5단계 - 보안 및 준수 고려 사항
+      href: step-5-security-and-compliance.md
+    - name: 6단계 - 운영 체제 배포 및 기능 업데이트
+      href: step-6-os-deployment-and-feature-updates.md
+    - name: 7단계 - Windows 및 Office Servicing
+      href: step-7-windows-and-office-as-a-service.md
+    - name: '8단계: 사용자 커뮤니케이션 및 교육'
+      href: step-8-user-communications-and-training.md
+    - name: Windows 7에서 Windows 10으로 수동 업그레이드
+      href: windows-7-to-windows-10-upgrade-manual.md
+    - name: Windows 7에서 Windows 10으로 자동 업그레이드
+      href: windows-7-to-windows-10-upgrade-automated.md
+    - name: Windows 및 Office 배포 및 랩 키트
+      href: modern-desktop-deployment-and-management-lab.md
+    - name: 배포 관련 도움말 찾기
+      href: find-help-for-modern-desktop-deployment.md
+- name: Microsoft 365 규정 준수
+  href: ../compliance/index.yml
+- name: Microsoft 365 보안
+  href: ../security/index.yml
+- name: 클라우드 서비스를 사용한 엔터프라이즈 비즈니스 연속성 관리(EBCM)
+  href: ebcm-understanding-ebcm-with-cloud-services.md
+  items:
+    - name: 고객 및 클라우드 파트너의 EBCM 책임
+      href: ebcm-customer-and-cloud-partner-ebcm-responsibilities.md
+    - name: Microsoft 365 클라우드 서비스 복원
+      href: ebcm-m365-service-resiliency.md
+    - name: 연속성 계획 개발
+      href: ebcm-developing-your-ebcm-plan.md
+    - name: 서비스 사고 완화 시나리오
+      href: ebcm-microsoft-365-mitigations.md
