@@ -6,10 +6,11 @@
 ## 설정
 ### [설치 개요](set-up-overview.md)
 ### [Microsoft 365 Business 설정](set-up.md)
+### [Windows 10 컴퓨터 보안](secure-win-10-pcs.md)
 ### [Windows Pro Creators 업데이트로 업그레이드](upgrade-to-windows-pro-creators-update.md)
 ### [Office 클라이언트 배포 준비](prepare-for-office-client-deployment.md)
 ### [사용자 Office 설치 지원](help-users-install-office.md)
-### [온-프레미스 리소스 액세스]()
+### [온-프레미스 리소스 액세스]
 #### [도메인이 결합된 Windows 10 장치가 관리되도록 설정](manage-windows-devices.md)
 #### [Azure AD가 결합된 장치에서 리소스에 액세스](access-resources.md)
 ## 사용자 장치 설정
