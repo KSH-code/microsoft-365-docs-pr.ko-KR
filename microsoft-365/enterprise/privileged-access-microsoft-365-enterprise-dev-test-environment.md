@@ -13,16 +13,16 @@ ms.collection:
 - M365-security-compliance
 ms.custom: Ent_TLGs
 description: 이 테스트 랩 가이드를 사용 하 여 Microsoft 365 Enterprise Test environment 권한 있는 액세스 관리를 사용 하도록 설정 합니다.
-ms.openlocfilehash: 68d542b3f97022abc65b94162f333e7059f614a8
-ms.sourcegitcommit: 9ee873c6a2f738a0c99921e036894b646742e706
+ms.openlocfilehash: 7e6a2ddea341f49c737409d8586bd9e70c9b2b79
+ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38673344"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "39831819"
 ---
 # <a name="privileged-access-management-for-your-microsoft-365-enterprise-test-environment"></a>Microsoft 365 Enterprise 테스트 환경에 대한 권한이 부여된 액세스 관리
 
-*이 테스트 랩 가이드는 Microsoft 365 Enterprise 및 Office 365 Enterprise 테스트 환경 둘 다에 사용할 수 있습니다.*
+*이 테스트 랩 가이드는 Microsoft 365 Enterprise와 Office 365 Enterprise 테스트 환경 모두에서 사용할 수 있습니다.*
 
 이 문서의 지침을 사용 하 여 Microsoft 365 Enterprise 테스트 환경에서 보안을 강화 하도록 권한이 부여 된 액세스 관리를 구성 합니다.
 
@@ -31,7 +31,7 @@ ms.locfileid: "38673344"
 > [!TIP]
 > [여기](media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf)를 클릭하여 Microsoft 365 Enterprise 테스트 랩 가이드 스택의 모든 문서에 대한 가상 맵을 확인할 수 있습니다.
   
-## <a name="phase-1-build-out-your-microsoft-365-enterprise-test-environment"></a>1 단계: Microsoft 365 Enterprise 테스트 환경 구축
+## <a name="phase-1-build-out-your-microsoft-365-enterprise-test-environment"></a>1단계: Microsoft 365 Enterprise 테스트 환경 구축
 
 최소 요구 사항에 따라 간단한 방식으로 권한 있는 액세스 관리를 구성 하려는 경우에는 [간단한 기본 구성](lightweight-base-configuration-microsoft-365-enterprise.md)의 지침을 따릅니다.
   
@@ -62,9 +62,9 @@ Office 365 조직에서 권한 있는 액세스를 설정 및 사용 하려면 �
 
 먼저 테스트 환경에서 전역 관리자로 구성 된 사용자의 자격 증명을 사용 하 여 Exchange 관리 PowerShell에 연결한 다음 새 저널 규칙을 만들려고 합니다. [Set-journalrule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/new-journalrule?view=exchange-ps) 작업은 현재 조직에 대해 권한이 부여 된 액세스 정책에 정의 되어 있지 않습니다.
 
-1. 로컬 컴퓨터에서 테스트 환경의 전역 관리자 계정을 사용 하 여 **microsoft Corporation** > **microsoft exchange online 원격 powershell** 모듈의 Exchange online 원격 powershell 모듈을 열고 로그인 합니다.
+1. 로컬 컴퓨터에서 테스트 환경에 대 한 전역 관리자 계정을 사용 하 여 **microsoft Corporation** > **microsoft exchange online 원격 powershell** 모듈에서 Exchange online 원격 powershell 모듈을 열고 로그인 합니다.
 
-2. Exchange 관리 Powershell에서 조직에 대 한 새 저널 규칙을 만듭니다.
+2. Exchange 관리 PowerShell에서 조직에 대 한 새 저널 규칙을 만듭니다.
 
 ```ExchangeManagementPowerShell
 New-JournalRule -Name "JournalRule1" -Recipient joe@contoso.onmicrosoft.com -JournalEmailAddress barbara@adatum.com -Scope Global -Enabled $true
@@ -101,15 +101,15 @@ New-JournalRule -Name "JournalRule1" -Recipient joe@contoso.onmicrosoft.com -Jou
 
 ### <a name="test-approval-requirement-for-the-new-journalrule-task-defined-in-a-privileged-access-policy"></a>권한 있는 액세스 정책에 정의 된 Set-journalrule 작업에 대 한 승인 요구 사항 테스트
 
-1. 로컬 컴퓨터에서 테스트 환경에 대 한 전역 관리자 계정을 사용 하 여 **microsoft Corporation** > **microsoft exchange online 원격 powershell 모듈** 의 Exchange online 원격 powershell 모듈을 열고 로그인 합니다.
+1. 로컬 컴퓨터에서 테스트 환경에 대 한 전역 관리자 계정을 사용 하 여 **microsoft Corporation** > **microsoft exchange online 원격 powershell 모듈** 에서 Exchange online 원격 powershell 모듈을 열고 로그인 합니다.
 
-2. Exchange 관리 Powershell에서 조직에 대 한 새 저널 규칙을 만듭니다.
+2. Exchange 관리 PowerShell에서 조직에 대 한 새 저널 규칙을 만듭니다.
 
 ```ExchangeManagementPowerShell
 New-JournalRule -Name "JournalRule2" -Recipient user1@<your subscription domain> -JournalEmailAddress user1@<your subscription domain> -Scope Global -Enabled $true
 ```
 
-3. Exchange 관리 PowerShell에서 "Insuffient 사용 권한" 오류 보기:
+3. Exchange 관리 PowerShell에서 "사용 권한 부족" 오류 보기:
 
 ```ExchangeManagementPowerShell
 Insufficient permissions. Please raise an elevated access request for this task.
@@ -153,9 +153,9 @@ Insufficient permissions. Please raise an elevated access request for this task.
 
 ### <a name="test-creating-a-new-journal-rule-with-privileged-access-approved-for-the-new-journalrule-task"></a>Set-journalrule 작업에 대해 승인 된 액세스 권한을 사용 하 여 새 저널 규칙 만들기 테스트
 
-1. 로컬 컴퓨터에서 테스트 환경의 전역 관리자 계정을 사용 하 여 **microsoft Corporation** > **microsoft exchange online 원격 powershell** 모듈의 Exchange online 원격 powershell 모듈을 열고 로그인 합니다.
+1. 로컬 컴퓨터에서 테스트 환경에 대 한 전역 관리자 계정을 사용 하 여 **microsoft Corporation** > **microsoft exchange online 원격 powershell** 모듈에서 Exchange online 원격 powershell 모듈을 열고 로그인 합니다.
 
-2. Exchange 관리 Powershell에서 조직에 대 한 새 저널 규칙을 만듭니다.
+2. Exchange 관리 PowerShell에서 조직에 대 한 새 저널 규칙을 만듭니다.
 
 ```ExchangeManagementPowerShell
 New-JournalRule -Name "JournalRule2" -Recipient user1@<your subscription domain> -JournalEmailAddress user1@<your subscription domain> -Scope Global -Enabled $true

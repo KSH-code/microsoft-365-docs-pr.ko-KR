@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 팀, Office 365 그룹 및 SharePoint 사이트에 레이블을 적용할 수 있습니다.
-ms.openlocfilehash: a6c187227703395ed5fe3d926dabe30e6203fca5
-ms.sourcegitcommit: 909f18d6c497086899fa239b5b5e0bb91f1e7804
+ms.openlocfilehash: ebe5e00c3458782e1874274cb508326968461ce3
+ms.sourcegitcommit: 1bd81cf48c7fab1b8aaf7c3f550ce42ab02136dc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 12/04/2019
-ms.locfileid: "39819134"
+ms.locfileid: "39822494"
 ---
 # <a name="use-sensitivity-labels-with-microsoft-teams-office-365-groups-and-sharepoint-sites-public-preview"></a>Microsoft Teams, Office 365 그룹 및 SharePoint 사이트(공개 미리 보기)에서 민감도 레이블 사용
 
@@ -102,11 +102,9 @@ Office 365 Content Delivery Networks (CDNs)에서는 공개 미리 보기가 작
 
 ## <a name="troubleshoot-sensitivity-label-deployment"></a>민감도 레이블 배포 문제 해결
 
-이러한 설정을 사용 하도록 설정 하거나 레이블의 설명을 변경한 후에 팀 또는 Office 365 그룹을 만들 때 문제가 발생 하면 레이블을 저장 하 고 몇 시간 기다린 후 팀 또는 Office 365 그룹을 다시 만듭니다.
+이러한 설정을 사용 하도록 설정 하거나 민감도 레이블의 설명을 변경한 후에 팀 또는 Office 365 그룹을 만들 때 문제가 발생 하면 레이블을 저장 하 고 몇 시간 기다린 후 팀 또는 Office 365 그룹을 다시 만들어 봅니다.
 
-아직 SharePoint Online의 새 민감도 레이블을 볼 수 없으면 Microsoft Support에 즉시 문의 하세요.
-
-[민감도 레이블을 게시 하는 방법 알아보기](/microsoft-365/compliance/sensitivity-labels#what-label-policies-can-do)
+아직 SharePoint Online에서 새 민감도 레이블을 볼 수 없는 경우 Microsoft Support에 즉시 문의 하세요.
 
 ## <a name="apply-a-sensitivity-label-to-a-new-team"></a>새 팀에 민감도 레이블 적용
 

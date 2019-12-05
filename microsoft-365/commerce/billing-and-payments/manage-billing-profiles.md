@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: 청구 프로필에서 송장을 지 원하는 방법을 알아봅니다.
 keywords: 청구 프로필, 송장, 요금, 관리 비용
-ms.openlocfilehash: 4b46709cf877ea8689f72b66d5ac357272e4737d
-ms.sourcegitcommit: 7713e777731025c165e9e936198609503ade5665
+ms.openlocfilehash: 3dbdbb57b46b915891640483bde56ebc8ad1cff6
+ms.sourcegitcommit: 95a07b328166f637a481c8b5c53669eaf8ff0db8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "38753547"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "39837392"
 ---
 # <a name="manage-billing-profiles"></a>청구 프로필 관리
 Microsoft의 제품 및 서비스를 구입한 상용 고객의 경우 대금 청구 프로필을 사용 하 여 송장에 포함 되는 항목을 사용자 지정 하 고 청구서 비용을 지불 하는 방법을 확인할 수 있습니다.

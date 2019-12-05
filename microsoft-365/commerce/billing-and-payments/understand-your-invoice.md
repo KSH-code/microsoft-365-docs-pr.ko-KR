@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: Microsoft 비즈니스 제품의 송장을 읽고 이해 하는 방법을 알아봅니다.
 keywords: 청구 계정, 조직 정보, 송장
-ms.openlocfilehash: 79d652f56617837019322b7329d918488283659a
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 0319f8ce1cfc0fcfeec095e6dedccefdcb1a0a4d
+ms.sourcegitcommit: 95a07b328166f637a481c8b5c53669eaf8ff0db8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38029042"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "39837382"
 ---
 # <a name="understand-your-invoice"></a>요금 청구 방식
 
@@ -33,7 +33,7 @@ Office 365 구독이 있는 경우 [office 365 비즈니스 에디션에 대 한
 
 첫 페이지의 맨 위에는 결제를 담당 하는 사람, 청구서가 전송 되는 위치 및 청구 비용이 요약 되어 있습니다.
 
-| 용어 | Description |
+| 용어 | 설명 |
 | --- | --- |
 | 판매 대상 |지불을 담당 하는 법률 엔터티의 이름과 주소를 식별 하는 청구 계정입니다. 이 정보는 계정 계약을 찾고 역할 및 사용 권한을 관리할 수 있는 <a href="https://go.microsoft.com/fwlink/p/?linkid=2084771" target="_blank">청구 계정</a> 페이지에서 관리할 수 있습니다. |
 | 청구지 |송장을 받는 사람을 식별 합니다. 이 정보는 <a href="https://go.microsoft.com/fwlink/p/?linkid=2103629" target="_blank">청구 프로필</a> 페이지에서 관리할 수 있습니다. 대금 청구 프로필은 **송장 요약** 섹션의 온라인 송장 페이지에도 표시 됩니다. 청구 프로필에 대 한 자세한 내용과이를 사용 하 여 조직에 대 한 보다 유연한 대금 청구 옵션을 만드는 방법에 대 한 자세한 내용은 [청구 프로필 관리](manage-billing-profiles.md)를 참조 하세요. |
@@ -46,7 +46,7 @@ Office 365 구독이 있는 경우 [office 365 비즈니스 에디션에 대 한
 
 **대금 청구 요약** 에는 이전 대금 청구 기간 이후의 금액, 적용 된 제작진, 세금 및 총 금액에 대 한 요약이 표시 됩니다.
 
-| 용어 | Description |
+| 용어 | 설명 |
 | --- | --- |
 | 요금|이 대금 청구 기간에 대해 구매한 총 제품 수 및 관련 요금 및 세금입니다. 구매는 자재 명세서를 간결 하 게 볼 수 있도록 집계 됩니다. |
 | 크레딧 |반환 받은 제작진 |
@@ -58,7 +58,7 @@ Office 365 구독이 있는 경우 [office 365 비즈니스 에디션에 대 한
 
 비용 페이지에는 제품별로 세분화 된 비용이 표시 됩니다. Azure 고객의 경우 청구서 섹션에 따라 비용이 청구 될 수 있습니다. Azure 제품에서 송장 섹션을 사용 하는 방법에 대 한 자세한 내용은 [Microsoft 고객 계약 청구 계정 시작](https://docs.microsoft.com/azure/billing/billing-mca-overview)의 [송장 섹션](https://docs.microsoft.com/azure/billing/billing-mca-overview#invoice-sections) 을 참조 하세요. 각 제품 주문 내에서 비용은 서비스 제품군으로 구분 됩니다.
 
-| 용어 |Description |
+| 용어 |설명 |
 | --- | --- |
 | 단가 | 요금 청구를 계산 하는 데 사용 되는 서비스의 실제 단가 (가격 산정 금액)입니다. 이 가격은 제품, 서비스 제품군, 측정기 및 혜택에 고유 합니다. |
 | 수량 | 대금 청구 기간 중 구입 또는 소비 수량 |

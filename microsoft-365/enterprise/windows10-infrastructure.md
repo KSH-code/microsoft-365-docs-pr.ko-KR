@@ -10,12 +10,12 @@ ms.prod: microsoft-365-enterprise
 ms.topic: article
 ms.date: 08/28/2019
 ms.author: greglin
-ms.openlocfilehash: 3cdb5fd6644d76a843e109ff53f73eb9ec4638f8
-ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
+ms.openlocfilehash: 147dd0ec0276d685177ae389092ec18ace0d7bed
+ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38627542"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "39831691"
 ---
 # <a name="phase-3-windows-10-enterprise"></a>3단계: Windows 10 Enterprise
 
@@ -68,7 +68,7 @@ Windows는 진단 데이터를 사용 하 여 사용자 환경에서 Windows 10 
 
 Windows 10에서는 위협 으로부터 보호 하 고, 장치를 보호 하 고, 액세스 제어에 도움을 주는 기능을 제공 합니다. Windows 10을 사용 하는 경우 시작에서 바로 장치를 보호 하는 중요 한 보안 기능을 얻게 됩니다. Microsoft 365 E3 Windows Hello for Business, Windows Defender Application Control 및 Windows Information Protection과 같은 보안 기능을 추가 합니다. Microsoft 365 E5를 사용 하 여 Microsoft 365 E3 보안 및 클라우드 기반 보안 기능과 Microsoft Defender Advanced Threat Protection의 모든 보호 기능을 이용할 수 있습니다. 
 
-Windows 10 Enterprise에서 제공 하는 보안 기능에 대 한 자세한 내용을 알아보고 3 가지 주요 ecurity 기능을 배포, 관리, 구성 및 문제를 해결 하는 방법에 대 한 지침을 확인 하려면 [5 단계: Windows 10 Enterprise 보안 기능 배포](windows10-enable-security-features.md)를 참조 하세요.
+Windows 10 Enterprise에서 제공 하는 보안 기능에 대 한 자세한 내용을 알아보고 3 가지 주요 보안 기능을 배포, 관리, 구성 및 문제 해결 하는 방법에 대 한 지침을 확인 하려면 [5 단계: Windows 10 Enterprise 보안 기능 배포](windows10-enable-security-features.md)를 참조 하세요.
 
 ## <a name="how-microsoft-does-microsoft-365-enterprise"></a>Microsoft에서 Microsoft 365 Enterprise를 수행하는 방법
 

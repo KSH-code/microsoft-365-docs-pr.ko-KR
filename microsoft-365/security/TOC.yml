@@ -1,0 +1,484 @@
+- name: Microsoft 365 보안
+  href: index.yml
+  items:
+    - name: 시작
+      items:
+        - name: BDM에 대한 Microsoft 365 보안
+          href: Microsoft-365-security-for-bdm.md
+        - name: 보안 점수
+          href: ./mtp/microsoft-secure-score.md
+        - name: 보안 점수(미리 보기)
+          href: ./mtp/microsoft-secure-score-preview.md
+        - name: '최고 정보 보안 책임자(CISO) 워크샵 교육 '
+          href: ./office-365-security/ciso-workshop.md
+          items:
+            - name: 모듈 1 - Microsoft 사이버 보안 브리핑
+              href: ./office-365-security/ciso-workshop-module-1.md
+            - name: 모듈 2 - 보안 관리
+              href: ./office-365-security/ciso-workshop-module-2.md
+            - name: 모듈 3 - ID 및 제로 트러스트 사용자 액세스
+              href: ./office-365-security/ciso-workshop-module-3.md
+            - name: '모듈 4a - 위협 방지 전략, 파트 I'
+              href: ./office-365-security/ciso-workshop-module-4a.md
+            - name: '모듈 4b - 위협 방지 전략, 파트 II'
+              href: ./office-365-security/ciso-workshop-module-4b.md
+            - name: 모듈 5 - 정보 보호
+              href: ./office-365-security/ciso-workshop-module-5.md
+    - name: ID 및 장치 액세스 구성
+      href: ../enterprise/microsoft-365-policies-configurations.md
+      items:
+        - name: 선행 조건 작업
+          href: ../enterprise/identity-access-prerequisites.md
+        - name: 일반 ID 및 장치 액세스 정책
+          href: ../enterprise/identity-access-policies.md
+        - name: 게스트 및 외부 사용자에 대한 정책
+          href: ../enterprise/identity-access-policies-guest-access.md
+        - name: 권장 Teams 액세스 정책
+          href: ../enterprise/teams-access-policies.md
+        - name: 권장 Exchange Online 액세스 정책
+          href: ../enterprise/secure-email-recommended-policies.md
+        - name: 권장 SharePoint Online 액세스 정책
+          href: ../enterprise/sharepoint-file-access-policies.md
+    - name: Microsoft 위협 방지
+      items:
+        - name: 개요
+          items:
+            - name: Microsoft 위협 방지란 무엇인가요?
+              href: mtp/microsoft-threat-protection.md
+            - name: Microsoft 365 보안 센터
+              href: mtp/overview-security-center.md
+        - name: Microsoft 365에서 찾기
+          href: ./mtp/hunting.md
+        - name: 보고서
+          items:
+            - name: 보고서 모니터링 및 보기
+              href: ./mtp/monitoring-and-reporting.md
+            - name: ID 모니터링 및 보고
+              href: ./mtp/monitor-and-report-identities.md
+            - name: 데이터 모니터링 및 보고
+              href: ./mtp/monitor-data.md
+            - name: 디바이스 모니터링 및 보고
+              href: ./mtp/monitor-devices.md
+            - name: 앱 모니터링 및 보고
+              href: ./mtp/monitor-apps.md
+        - name: ServiceNow를 통해 티켓 관리
+          href: ./mtp/tickets.md
+    - name: Office 365 보안
+      items:
+        - name: 시작
+          items:
+            - name: Office 365 보안 로드맵
+              href: ./office-365-security/security-roadmap.md
+            - name: 보안 강화를 위해 Office 365 테넌트 구성
+              href: ./office-365-security/tenant-wide-setup-for-increased-security.md
+            - name: 새로운 Microsoft 365 보안 센터
+              href: ./mtp/overview-security-center.md
+            - name: 보안 및 준수 센터의 사용 권한
+              href: ./office-365-security/permissions-in-the-security-and-compliance-center.md
+            - name: 사용자에게 보안 센터로의 액세스 권한 부여
+              href: ./office-365-security/grant-access-to-the-security-and-compliance-center.md
+        - name: 위협으로부터 보호
+          href: ./office-365-security/protect-against-threats.md
+          items:
+            - name: 스팸 방지 및 맬웨어 방지 보호
+              href: ./office-365-security/anti-spam-and-anti-malware-protection.md
+              items:
+                - name: 고급 스팸 필터링 옵션
+                  href: ./office-365-security/advanced-spam-filtering-asf-options.md
+                - name: 아웃바운드 메시지용 고위험 전달 풀
+                  href: ./office-365-security/high-risk-delivery-pool-for-outbound-messages.md
+                - name: 맬웨어 방지 보호 FAQ
+                  href: ./office-365-security/anti-malware-protection-faq-eop.md
+                - name: Office 365의 스팸 방지 및 맬웨어 방지 보호
+                  href: ./office-365-security/anti-malware-protection.md
+                - name: 스팸 방지 및 보호 FAQ
+                  href: ./office-365-security/anti-spam-protection-faq.md
+                - name: 스팸 필터 규칙과 스팸 필터 정책에서 유효하지 않은 문자 방지
+                  href: ./office-365-security/invalid-characters-hosted-spam-filter-rules-policies.md
+                - name: Exchange Online에서의 안전한 발신자 및 차단된 발신자 목록
+                  href: ./office-365-security/safe-sender-and-blocked-sender-lists-faq.md
+                - name: Office 365에서의 전자 메일 메시지에 대한 안전 조언
+                  href: ./office-365-security/safety-tips-in-office-365.md
+                - name: 발신자가 아웃 바운드 스팸을 보내지 못하도록 차단될 시의 알림 샘플
+                  href: ./office-365-security/sample-notification-when-a-sender-is-blocked-sending-outbound-spam.md
+                - name: 최종 사용자 스팸 알림을 사용하여 스팸으로 격리된 메시지 릴리스 및 보고
+                  href: ./office-365-security/use-end-user-spam-notifications-to-release-and-report-spam-quarantined-messages.md
+                - name: Office 365에 전송되는 정크 메일에 맞서기
+                  href: ./office-365-security/fighting-junk-email.md
+                - name: SharePoint Online에서의 바이러스 탐지
+                  href: ./office-365-security/virus-detection-in-spo.md
+                - name: Office 365 전자 메일 스팸 방지 보호
+                  href: ./office-365-security/anti-spam-protection.md
+                - name: 정책 및 보호 조치의 결합 방식
+                  href: ./office-365-security/how-policies-and-protections-are-combined.md
+                - name: Office 365에서 스팸 메일을 줄이는 방법
+                  href: ./office-365-security/reduce-spam-email.md
+                - name: Office 365에서 아웃바운드 스팸 제어
+                  href: ./office-365-security/outbound-spam-controls.md
+                - name: Office 365 스팸 필터로 전자 메일 스팸을 차단하여 거짓 부정 문제 방지
+                  href: ./office-365-security/reduce-spam-email.md
+                - name: 제로 아워 자동 비우기 - 스팸 및 맬웨어로부터 보호
+                  href: ./office-365-security/zero-hour-auto-purge.md
+                - name: 스팸이 각 사용자의 정크 메일 폴더로 라우팅되는지 확인
+                  href: ./office-365-security/ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md
+                - name: Microsoft에 정크 메일 메시지 보고
+                  href: ./office-365-security/report-junk-email-messages-to-microsoft.md
+                - name: 대량 메일에 대해 수신 허용 - 보낸 사람 목록 관리
+                  href: ./office-365-security/manage-safe-sender-lists-for-bulk-mailers.md
+                - name: 맬웨어 방지 정책 구성
+                  href: ./office-365-security/configure-anti-malware-policies.md
+                - name: 스팸 방지 정책 구성
+                  href: ./office-365-security/configure-the-anti-spam-policies.md
+                - name: Create-block-sender-lists-in-office-365
+                  href: ./office-365-security/Create-block-sender-lists-in-office-365.md
+                - name: Create-safe-sender-lists-in-office-365
+                  href: ./office-365-security/Create-safe-sender-lists-in-office-365.md
+                - name: 스팸 필터 정책 구성
+                  href: ./office-365-security/configure-your-spam-filter-policies.md
+                - name: 연결 필터 정책 구성
+                  href: ./office-365-security/configure-the-connection-filter-policy.md
+                - name: 아웃바운드 스팸 정책 구성
+                  href: ./office-365-security/configure-the-outbound-spam-policy.md
+                - name: 스팸 메일을 보낸 후 제한된 사용자 포털에서 사용자 제거
+                  href: ./office-365-security/removing-user-from-restricted-users-portal-after-spam.md
+                - name: 스팸 지수
+                  href: ./office-365-security/spam-confidence-levels.md
+                - name: Exchange Online의 오류 코드 5.7.7xx 수정
+                  href: ./office-365-security/fix-error-code-5-7-7xx-in-exchange-online.md
+                - name: 메일 흐름 규칙을 사용하여 메시지의 스팸 신뢰 수준(SCL) 설정
+                  href: ./office-365-security/use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages.md
+                - name: '분석을 위해 Microsoft에 스팸 메시지, 스팸이 아닌 메시지 및 피싱 스캠 메시지 제출'
+                  href: ./office-365-security/submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md
+                - name: Office 365에서 관리자 제출
+                  href: ./office-365-security/admin-submission.md
+                - name: 분석을 위해 맬웨어 및 비 맬웨어를 Microsoft에 제출
+                  href: ./office-365-security/submitting-malware-and-non-malware-to-microsoft-for-analysis.md
+                - name: 목록 해제 포털을 사용하여 Office 365 수신 거부 목록에서 본인 제거
+                  href: ./office-365-security/use-the-delist-portal-to-remove-yourself-from-the-office-365-blocked-senders-lis.md
+                - name: 스팸 방지 메시지 헤더
+                  href: ./office-365-security/anti-spam-message-headers.md
+            - name: Office 365의 피싱 방지 보호 기능
+              href: ./office-365-security/anti-phishing-protection.md
+              items:
+                - name: 피싱 방지 보호 기능 조정
+                  href: ./office-365-security/tuning-anti-phishing.md
+                - name: Office 365의 ATP 피싱 방지 기능
+                  href: ./office-365-security/atp-anti-phishing.md
+                - name: 피싱 방지 및 ATP 피싱 방지 정책 설정
+                  href: ./office-365-security/set-up-anti-phishing-policies.md
+                - name: '보낸 사람: 주소의 유효성을 검사하여 Office 365에서 피싱을 방지하는 방법'
+                  href: ./office-365-security/how-office-365-validates-the-from-address.md
+            - name: Office 365의 스푸핑 방지 보호 기능
+              href: ./office-365-security/anti-spoofing-protection.md
+              items:
+                - name: 스푸핑 인텔리전스에 대해 자세히 알아보기
+                  href: ./office-365-security/learn-about-spoof-intelligence.md
+                - name: 스푸프 정보 이해를 위한 검토회
+                  href: ./office-365-security/walkthrough-spoof-intelligence-insight.md
+                - name: Outlook.com 및 웹용 Outlook에서 의심스러운 메시지 식별
+                  href: ./office-365-security/unverified-sender-feature.md
+            - name: EOP란 무엇입니까?
+              href: ./office-365-security/what-is-eop.md
+              items:
+                - name: IPv6을 통한 익명 인바운드 전자 메일 메시지 지원
+                  href: ./office-365-security/support-for-anonymous-inbound-email-messages-over-ipv6.md
+                - name: EOP 독립 실행형에서 전자 메일 스팸 차단
+                  href: ./office-365-security/block-email-spam-in-EOPStandalone.md
+                - name: EOP에서 최종 사용자 스팸 알림 구성
+                  href: ./office-365-security/configure-end-user-spam-notifications-in-eop.md
+                - name: Exchange Online에서 최종 사용자 스팸 알림 구성
+                  href: ./office-365-security/configure-end-user-spam-notifications-in-exchange-online.md
+                - name: 웹용 Outlook에서 정크 전자 메일 및 피싱 사기 보고
+                  href: ./office-365-security/report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md
+                - name: Exchange Online Protection을 사용 하여 온-프레미스 사서함 보호
+                  href: ./office-365-security/protect-on-premises-mailboxes-with-exchange-online-protection.md
+                - name: Microsoft Outlook용 정크 메일 보고 추가 기능 설치
+                  href: ./office-365-security/install-the-junk-email-reporting-add-in-for-microsoft-outlook.md
+                - name: 웹상의 Outlook에서 정크 메일 보고 기능 해제
+                  href: ./office-365-security/turn-off-junk-email-reporting-in-outlook-on-the-web.md
+                - name: 정크 메일과 대량 전자 메일의 차이점
+                  href: ./office-365-security/what-s-the-difference-between-junk-email-and-bulk-email.md
+            - name: Office 365 전자 메일 메시지 격리
+              href: ./office-365-security/quarantine-email-messages.md
+              items:
+                - name: 관리자로 격리된 메시지 및 파일 관리
+                  href: ./office-365-security/manage-quarantined-messages-and-files.md
+                - name: 사용자로 격리된 메시지 찾기 및 릴리스
+                  href: ./office-365-security/find-and-release-quarantined-messages-as-a-user.md
+                - name: Office 365에 대한 격리 FAQ
+                  href: ./office-365-security/quarantine-faq.md
+                - name: Office 365에서 사용자 스팸 알림을 사용하여 격리된 메시지 릴리스 및 보고
+                  href: ./office-365-security/use-spam-notifications-to-release-and-report-quarantined-messages.md
+            - name: 전자 메일 유효성 검사 및 인증
+              items:
+                - name: Office 365에서 SPF를 사용해 스푸핑을 차단하는 방법
+                  href: ./office-365-security/how-office-365-uses-spf-to-prevent-spoofing.md
+                - name: 스푸핑을 방지할 수 있도록 Office 365에서 SPF 설정
+                  href: ./office-365-security/set-up-spf-in-office-365-to-help-prevent-spoofing.md
+                - name: DKIM을 사용하 여 아웃바운드 전자 메일 유효성 검사
+                  href: ./office-365-security/use-dkim-to-validate-outbound-email.md
+                - name: DKIM으로 서명된 메시지의 유효성 검사 지원
+                  href: ./office-365-security/support-for-validation-of-dkim-signed-messages.md
+                - name: DMARC를 사용하여 전자 메일의 유효성 검사
+                  href: ./office-365-security/use-dmarc-to-validate-email.md
+            - name: 보안 및 준수 센터의 똑똑한 보고서 및 분석
+              href: ./office-365-security/reports-and-insights-in-security-and-compliance.md
+              items:
+                - name: 보안 대시보드 개요
+                  href: ./office-365-security/security-dashboard.md
+                  items:
+                    - name: 연습 - 자세한 보고서에서 통찰력에 이르기까지
+                      href: ./office-365-security/from-a-detailed-report-to-an-insight.md
+                    - name: 연습 - 통찰력에서 자세한 보고서
+                      href: ./office-365-security/from-an-insight-to-a-detailed-report.md
+                    - name: 연습 - 대시보드에서 통찰력에 이르기까지
+                      href: ./office-365-security/from-a-dashboard-to-an-insight.md
+                    - name: 보고서에 대한 일정 만들기
+                      href: ./office-365-security/create-a-schedule-for-a-report.md
+                    - name: 여러 보고서에 대한 일정 관리
+                      href: ./office-365-security/manage-schedules-for-multiple-reports.md
+                    - name: 사용자 지정 보고서 설치 및 다운로드
+                      href: ./office-365-security/set-up-and-download-a-custom-report.md
+                    - name: 기존 보고서 다운로드
+                      href: ./office-365-security/download-existing-reports.md
+                - name: Office 365에서 보안 팁 사용 여부 설정
+                  href: ./office-365-security/enable-or-disable-safety-tips.md
+                - name: 악성 파일에 대한 정보 보기
+                  href: ./office-365-security/malicious-files-detected-in-spo-odb-or-teams.md
+        - name: Advanced Threat Protection
+          href: ./office-365-security/office-365-atp.md
+          items:
+            - name: 새로운 기능 보기
+              items:
+                - name: Office 365 ATP의 새로운 기능
+                  href: office-365-security/whats-new-in-office-365-atp.md
+            - name: 관리자를 위한 ATP 설정 작업
+              items:
+                - name: 전역 관리자 설정 작업
+                  items:
+                    - name: ATP 안전한 링크 정책 설정
+                      href: ./office-365-security/set-up-atp-safe-links-policies.md
+                    - name: ATP 안전한 첨부 파일 정책 설정
+                      href: ./office-365-security/set-up-atp-safe-attachments-policies.md
+                    - name: 사용자 지정 "재작성 금지" URL 목록 설정
+                      href: ./office-365-security/set-up-a-custom-do-not-rewrite-urls-list-with-atp.md
+                    - name: 차단된 사용자 지정 URL 목록 설정
+                      href: ./office-365-security/set-up-a-custom-blocked-urls-list-wtih-atp.md
+                - name: 역할 관리자 설정 작업
+                  items:
+                    - name: 'SharePoint, OneDrive 및 Microsoft Teams에 대한 ATP 켜기'
+                      href: ./office-365-security/turn-on-atp-for-spo-odb-and-teams.md
+            - name: 위협 분석을 통해 최신 공격 캠페인 이해하기
+              href: ./mtp/latest-attack-campaigns.md
+            - name: ATP 보고서 보기 및 읽기
+              href: ./office-365-security/view-reports-for-atp.md
+            - name: ATP 안전한 링크 경고 페이지의 의미
+              href: ./office-365-security/atp-safe-links-warning-pages.md
+            - name: 위협 트래커 사용
+              href: ./office-365-security/threat-trackers.md
+            - name: Office 365에서의 공격 시뮬레이터 사용
+              href: ./office-365-security/attack-simulator.md
+            - name: 위협 조사 및 응답을 활용하여 사용자 안전 보장
+              href: ./office-365-security/keep-users-safe-with-office-365-ti.md
+            - name: Office 365의 위협에 대한 자동 조사 및 응답
+              href: ./office-365-security/office-365-air.md
+            - name: 배달된 악성 전자 메일 찾기 및 조사
+              href: ./office-365-security/investigate-malicious-email-that-was-delivered.md
+            - name: 위협 탐색기 (실시간 검출)
+              href: ./office-365-security/threat-explorer.md
+              items:
+                - name: 위협 탐색기 보기
+                  href: ./office-365-security/threat-explorer-views.md
+            - name: 보안 강화를 위한 통합
+              items:
+                - name: Office 365 ATP와 Microsoft Defender ATP를 통합
+                  href: ./office-365-security/integrate-office-365-ti-with-wdatp.md
+                - name: Office 365 ATP와 SIEM 통합
+                  href: ./office-365-security/siem-integration-with-office-365-ti.md
+            - name: ATP의 작동 방식
+              items:
+                - name: ATP 안전한 링크가 작동하는 방식
+                  href: ./office-365-security/how-atp-safe-links-works.md
+                - name: ATP 안전한 첨부 정책의 작동 방식
+                  href: ./office-365-security/how-atp-safe-attachments-works.md
+                - name: 동적 배달 및 미리 보기 세부 정보
+                  href: ./office-365-security/dynamic-delivery-and-previewing.md
+                - name: 'SharePoint, OneDrive 및 Microsoft Teams에 대한 ATP'
+                  href: ./office-365-security/atp-for-spo-odb-and-teams.md
+                - name: 위협 조사 및 응답이 작동하는 방식
+                  href: ./office-365-security/office-365-ti.md
+                - name: 자동화된 조사 및 대응이 작동하는 방식
+                  href: ./office-365-security/automated-investigation-response-office.md
+        - name: 보안 사고 관리
+          items:
+            - name: Office 365 보안 사고 대응
+              href: ./office-365-security/office365-security-incident-response-overview.md
+            - name: Office 365에서 불법 동의 권한 부여 검색 및 교정
+              href: ./office-365-security/detect-and-remediate-illicit-consent-grants.md
+            - name: Office 365에서 Outlook 규칙 및 사용자 지정 양식 주입 공격 감지 및 재구성
+              href: ./office-365-security/detect-and-remediate-outlook-rules-forms-attack.md
+            - name: Office 365에서 손상된 이메일 계정에 응답
+              href: office-365-security/responding-to-a-compromised-email-account.md
+        - name: 메일 흐름
+          items:
+            - name: 보고서 메시지 추가 기능을 사용하도록 설정
+              href: ./office-365-security/enable-the-report-message-add-in.md
+            - name: 보안 및 준수 센터의 메시지 추적
+              href: ./office-365-security/message-trace-scc.md
+            - name: 보안 및 준수 센터의 메일 흐름 파악
+              href: ./office-365-security/mail-flow-insights-v2.md
+              items:
+                - name: 메일 흐름 맵 보고서
+                  href: ./office-365-security/mfi-mail-flow-map-report.md
+                - name: 최상위 도메인 메일 흐름 상태 정보
+                  href: ./office-365-security/mfi-domain-mail-flow-status-insight.md
+                - name: SMTP 인증 클라이언트 보고서
+                  href: ./office-365-security/mfi-smtp-auth-clients-report.md
+                - name: 보낸 사람 도메인 정보 문제 해결
+                  href: ./office-365-security/mfi-sender-domain-insight.md
+                - name: 미실행 보고서
+                  href: ./office-365-security/mfi-non-delivery-report.md
+                - name: 비허용 도메인 보고서
+                  href: ./office-365-security/mfi-non-accepted-domain-report.md
+                - name: 아웃바운드 및 인바운드 메일 흐름
+                  href: ./office-365-security/mfi-outbound-and-inbound-mail-flow.md
+                - name: 큐 알림 및 큐
+                  href: ./office-365-security/mfi-queue-alerts-and-queues.md
+                - name: 자동 전달 메시지 보고서
+                  href: ./office-365-security/mfi-auto-forwarded-messages-report.md
+                - name: 메일 루프 파악
+                  href: ./office-365-security/mfi-mail-loop-insight.md
+                - name: 느린 메일 흐름 규칙 파악
+                  href: ./office-365-security/mfi-slow-mail-flow-rules-insight.md
+        - name: 보안 솔루션
+          items:
+            - name: '정치적 캠페인, 비영리 조직 및 기타 기밀 조직에 대한 Microsoft 보안 지침'
+              href: ./office-365-security/microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o.md
+              items:
+                - name: 정치적 캠페인 개발/테스트 환경에 대해 그룹 및 사용자 구성
+                  href: ./office-365-security/configure-groups-and-users-for-a-political-campaign-dev-test-environment.md
+                - name: 정치적 캠페인 개발/테스트 환경에서 팀 사이트 만들기
+                  href: ./office-365-security/create-team-sites-in-a-political-campaign-dev-test-environment.md
+            - name: Microsoft Teams에서의 파일 보호
+              href: ./office-365-security/secure-files-in-teams.md
+              items:
+                - name: 파일의 3단계 보호를 위한 팀 배포
+                  href: ./office-365-security/deploy-teams-three-tiers.md
+                - name: 보존 레이블 및 DLP를 사용하여 팀에서 파일을 보호
+                  href: ./office-365-security/deploy-teams-retention-DLP.md
+                - name: 민감도 레이블을 사용하여 팀에서 파일 보호
+                  href: ./office-365-security/deploy-teams-sensitivity-labels.md
+                - name: 개발/테스트 환경에서의 파일을 위한 Teams 보안
+                  href: ./office-365-security/secure-team-for-files-in-a-dev-test-environment.md
+            - name: SharePoint Online 사이트 및 파일 보호
+              href: ./office-365-security/secure-sharepoint-online-sites-and-files.md
+              items:
+                - name: 개발/테스트 환경의 SharePoint Online 사이트 보호
+                  href: ./office-365-security/secure-sharepoint-online-sites-in-a-dev-test-environment.md
+            - name: SIEM 서버 통합
+              href: ./office-365-security/siem-server-integration.md
+            - name: Exchange Online Protection
+              href: ./office-365-security/exchange-online-protection-overview.md
+              items:
+                - name: EOP 기능
+                  href: ./office-365-security/eop-features.md
+                - name: EOP의 기능 사용 권한
+                  href: ./office-365-security/feature-permissions-in-eop.md
+                - name: Exchange Online Protection의 Exchange 관리 센터
+                  href: ./office-365-security/exchange-admin-center-in-exchange-online-protection-eop.md
+                - name: EOP 서비스 설정
+                  href: ./office-365-security/set-up-your-eop-service.md
+                  items:
+                    - name: EOP 구성을 위한 모범 사례
+                      href: ./office-365-security/best-practices-for-configuring-eop.md
+                    - name: EOP 및 Office 365 ATP 보안 구성에 대한 권장 설정
+                      href: ./office-365-security/recommended-settings-for-eop-and-office365-atp.md
+                    - name: 여러 테넌트에 EOP 설정을 적용하기 위한 샘플 스크립트
+                      href: ./office-365-security/sample-script-for-applying-eop-settings-to-multiple-tenants.md
+                    - name: EOP 조직 간에 도메인 및 설정 이동
+                      href: ./office-365-security/move-domains-and-settings-from-one-eop-organization-to-another-eop-organization.md
+                    - name: 'Google Postini, Barracuda Spam and Virus Firewall 또는 Cisco IronPor에서 EOP로 전환'
+                      href: ./office-365-security/switch-to-eop-from-google-postini-the-barracuda-spam-and-virus-firewall-or-cisco.md
+                    - name: 후방 분산 메시지 및 EOP
+                      href: ./office-365-security/backscatter-messages-and-eop.md
+                - name: EOP의 메시징 정책 및 준수
+                  href: ./office-365-security/messaging-policy-and-compliance-in-eop.md
+                  items:
+                    - name: EOP의 감사 보고서
+                      href: ./office-365-security/auditing-reports-in-eop.md
+                    - name: EOP에서 관리자 역할 그룹 보고서 실행
+                      href: ./office-365-security/run-an-administrator-role-group-report-in-eop-eop.md
+                - name: EOP에서 받는 사람 및 관리자 역할 그룹 관리
+                  href: ./office-365-security/manage-recipients-and-admin-role-groups-in-eop.md
+                  items:
+                    - name: EOP에서 받는 사람 관리
+                      href: ./office-365-security/manage-recipients-in-eop.md
+                    - name: EOP에서 메일 사용자 관리
+                      href: ./office-365-security/manage-mail-users-in-eop.md
+                    - name: EOP에서 그룹 관리
+                      href: ./office-365-security/manage-groups-in-eop.md
+                    - name: EOP에서 관리자 역할 그룹 권한 관리
+                      href: ./office-365-security/manage-admin-role-group-permissions-in-eop.md
+                - name: EOP의 메일 흐름
+                  href: ./office-365-security/mail-flow-in-eop.md
+                  items:
+                    - name: 메시지가 스팸으로 표시되지 않도록 하는 방법
+                      href: ./office-365-security/how-to-help-ensure-that-a-message-isn-t-marked-as-spam.md
+                    - name: 메일 흐름 규칙(전송 규칙)
+                      href: ./office-365-security/mail-flow-rules-transport-rules-0.md
+                    - name: 메일 흐름 규칙을 사용하여 대량 전자 메일 필터링 구성
+                      href: ./office-365-security/use-transport-rules-to-configure-bulk-email-filtering.md
+                    - name: 메일 흐름 규칙을 사용하여 사용자가 Microsoft에 보고한 내용 확인
+                      href: ./office-365-security/use-mail-flow-rules-to-see-what-your-users-are-reporting-to-microsoft.md
+                    - name: 첨부 파일 차단을 통해 맬웨어 위협 줄이기
+                      href: ./office-365-security/reducing-malware-threats-through-file-attachment-blocking-in-exchange-online-pro.md
+                    - name: 보고 및 메시지 추적
+                      href: ./office-365-security/reporting-and-message-trace-in-exchange-online-protection.md
+                    - name: Office 365의 메일 흐름 인텔리전스
+                      href: ./office-365-security/mail-flow-intelligence-in-office-365.md
+                - name: 격리
+                  href: ./office-365-security/quarantine.md
+                  items:
+                    - name: 관리자로 격리된 메시지 찾기 및 릴리스
+                      href: ./office-365-security/find-and-release-quarantined-messages-as-an-administrator.md
+                - name: 문제 해결 및 지원 정보
+                  href: ./office-365-security/troubleshooting-and-support-information.md
+                  items:
+                    - name: Office 365로 전송한 문제 해결 메일
+                      href: ./office-365-security/troubleshooting-mail-sent-to-office-365.md
+                    - name: EOP에 대한 도움말 및 지원
+                      href: ./office-365-security/help-and-support-for-eop.md
+                    - name: EOP 관련 일반 FAQ(질문과 대답)
+                      href: ./office-365-security/eop-general-faq.md
+                    - name: 'EOP 대기, 지연 및 반송 메시지 FAQ'
+                      href: ./office-365-security/eop-queued-deferred-and-bounced-messages-faq.md
+                    - name: 위임된 관리 FAQ
+                      href: ./office-365-security/delegated-administration-faq.md
+                - name: '참조: 정책, 사례 및 지침'
+                  href: ./office-365-security/reference-policies-practices-and-guidelines.md
+                  items:
+                    - name: Office 365에 메일 보내기
+                      href: ./office-365-security/sending-mail-to-office-365.md
+                    - name: 비 고객에 대한 서비스
+                      href: ./office-365-security/services-for-non-customers.md
+        - name: 레거시 보안 기능
+          items:
+            - name: S/MIME
+              href: ./office-365-security/s-mime-for-message-signing-and-encryption.md
+              items:
+                - name: 메시지 서명 및 암호화를 위한 S/MIME
+                  href: ./office-365-security/s-mime-for-message-signing-and-encryption.md
+                - name: 웹용 Outlook용 S/MIME 설정 구성
+                  href: ./office-365-security/configure-s-mime-settings-for-outlook-web-app.md
+                - name: S/MIME으로 서명 및 암호화된 전자 메일 보내기/받기
+                  href: ./office-365-security/send-and-receive-s-mime-signed-and-encrypted-email.md
+                - name: S/MIME용으로 Office 365에 사용자 인증서 동기화
+                  href: ./office-365-security/sync-user-certificates-to-office-365-for-s-mime.md
+                - name: S/MIME 유효성 검사를 위한 가상 인증서 컬렉션 설정
+                  href: ./office-365-security/set-up-virtual-certificate-collection-to-validate-s-mime.md
+        - name: Office 365 Enterprise
+          href: 'https://docs.microsoft.com/office-365-security/Enterprise'
+        - name: 비즈니스용 Office 365
+          href: 'https://docs.microsoft.com/office-365-security/admin/admin-home'
+    - name: Microsoft 365 준수
+      href: 'https://docs.microsoft.com/microsoft-365/compliance/'

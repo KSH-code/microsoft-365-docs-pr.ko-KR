@@ -13,12 +13,12 @@ ms.assetid: 6f64f2de-d626-48ed-8084-03cc72301aa4
 ms.collection:
 - M365-security-compliance
 description: EOP (Exchange Online Protection) 및 ATP (Advanced Threat Protection) 보안 설정에 대 한 모범 사례 표준 보호에 대 한 최신 권장 사항은 무엇 인가요? 보다 엄격한 기능을 사용 하려면 어떻게 해야 합니까? 또한 ATP (Advanced Threat Protection)를 사용 하는 경우에는 어떤 것을 얻게 됩니까?
-ms.openlocfilehash: fa88f80a0f7423a57850e2d8ad690f2472a23a7c
-ms.sourcegitcommit: 7f26840a4330b0fd29807ec091c6915d283b3dd2
+ms.openlocfilehash: 5f91c321e0644bc526b8f02028e794935cac3265
+ms.sourcegitcommit: 95a07b328166f637a481c8b5c53669eaf8ff0db8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "39615658"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "39837332"
 ---
 # <a name="recommended-settings-for-eop-and-office-365-atp-security"></a>EOP 및 Office 365 ATP 보안에 대 한 권장 설정
 
@@ -41,7 +41,7 @@ ms.locfileid: "39615658"
 |피싱 전자 메일 검색 작업|메시지 격리|메시지 격리||
 |높은 신뢰도 피싱 전자 메일 검색 작업|메시지 격리|메시지 격리||
 |대량 전자 메일 검색 작업|정크 메일 폴더로 메시지 이동|메시지 격리||
-|대량 전자 메일 임계값을 다음으로 설정|번|1-4|기본값은 현재 7 이지만 대부분의 조직에서는이를 최소 6 개 이상으로 mvoe 것을 권장 합니다.|
+|대량 전자 메일 임계값을 다음으로 설정|번|1-4|기본값은 현재 7 이지만 대부분의 조직에서 6 개 이상으로 이동 하는 것이 좋습니다.|
 |격리 보존 기간|30일|30일||
 |보안 팁|켜짐|켜짐||
 |허용 된 보낸 사람|없음|없음||
@@ -134,10 +134,10 @@ EOP 고객은 앞에서 설명한 것 처럼 기본 피싱 방지를 제공 하�
 |스푸핑 방지 보호 사용|켜짐|켜짐||
 |인증 되지 않은 보낸 사람 (태깅) 사용|켜짐|켜짐||
 |도메인을 스푸핑할 수 없는 사용자가 전자 메일을 보낸 경우|받는 사람의 정크 메일 폴더로 메시지 이동|메시지 격리||
-|EnableAuthenticationSafetyTip|True|True|이 설정은 PowerShell 에서만 사용할 수 있습니다.|
-|EnableAuthenticationSoftPassSafetyTip|False|True|이 설정은 PowerShell 에서만 사용할 수 있습니다.|
-|EnableSuspiciousSafetyTip|False|True|이 설정은 PowerShell 에서만 사용할 수 있습니다.|
-|TreatSoftPassAsAuthenticated|True|False|이 설정은 PowerShell 에서만 사용할 수 있습니다.|
+|EnableAuthenticationSafetyTip|참|참|이 설정은 PowerShell 에서만 사용할 수 있습니다.|
+|EnableAuthenticationSoftPassSafetyTip|거짓|참|이 설정은 PowerShell 에서만 사용할 수 있습니다.|
+|EnableSuspiciousSafetyTip|거짓|참|이 설정은 PowerShell 에서만 사용할 수 있습니다.|
+|TreatSoftPassAsAuthenticated|참|거짓|이 설정은 PowerShell 에서만 사용할 수 있습니다.|
 
 |고급 설정 보안 기능 이름|표준을|항등|댓글|
 |---------|---------|---------|---------|

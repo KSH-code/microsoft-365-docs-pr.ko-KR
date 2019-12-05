@@ -9,12 +9,12 @@ ms.service: o365-seccomp
 localization_priority: Normal
 description: 포함 된 내용, 가져오는 방법 및 다음 단계를 포함 하 여 Microsoft 365 솔루션 카탈로그에 대해 알아봅니다.
 ms.collection: M365-security-compliance
-ms.openlocfilehash: a789aca60bbb34f6831c27afea4b1ec5d3135f59
-ms.sourcegitcommit: 5c6c30ec5541d2fb77e53a1309db1fe7b75fc3e2
+ms.openlocfilehash: 1d313720d2b9397b866898a55fb5ba2972234edb
+ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/02/2019
-ms.locfileid: "38687016"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "39831641"
 ---
 # <a name="overview-of-the-microsoft-365-solution-catalog-preview"></a>Microsoft 365 솔루션 카탈로그 개요 (미리 보기)
 
@@ -80,13 +80,11 @@ Microsoft 365의 규정 준수 솔루션은 종단 간 규정 준수 시나리�
 
 - Microsoft 365 솔루션 카탈로그를 방문 하려면로 [https://compliance.microsoft.com](https://compliance.microsoft.com) 이동 하 고 전역 관리자, 준수 관리자 또는 준수 데이터 관리자로 로그인 합니다. 화면 왼쪽의 탐색 창에서 **카탈로그** 를 선택 하 여 카탈로그 홈 페이지를 엽니다.
 
-- 요구 사항에 대 한 자세한 내용은 [필요한 라이선스 및 사용 권한을](../security/office-365-security/microsoft-security-and-compliance.md#required-licenses-and-permissions)참조 하세요.
-
 ## <a name="frequently-asked-questions"></a>자주하는 질문
 
 **새 Microsoft 365 솔루션 카탈로그가 아직 표시 되지 않는 이유는 무엇 인가요?**
 
-먼저 적절 한 [라이선스 및 사용 권한이](../security/office-365-security/microsoft-security-and-compliance.md#required-licenses-and-permissions)있는지 확인 합니다. 그런 다음 전역 관리자, [https://compliance.microsoft.com](https://compliance.microsoft.com) 준수 관리자 또는 준수 데이터 관리자 권한으로 로그인 합니다. 아직 왼쪽 탐색 창에 새 솔루션 카탈로그가 표시 되지 않으면 곧 제공 될 예정입니다.
+먼저 적절 한 라이선스 및 사용 권한이 있는지 확인 합니다. 그런 다음 전역 관리자, [https://compliance.microsoft.com](https://compliance.microsoft.com) 준수 관리자 또는 준수 데이터 관리자 권한으로 로그인 합니다. 아직 왼쪽 탐색 창에 새 솔루션 카탈로그가 표시 되지 않으면 곧 제공 될 예정입니다.
 
 **솔루션 카탈로그 페이지에 나열 된 규정 준수 기능 중 일부는 Microsoft 365 준수 센터에서 사용할 수 없습니다. 뭐 할까요?**
 

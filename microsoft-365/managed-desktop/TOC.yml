@@ -1,0 +1,115 @@
+- name: Microsoft Managed Desktop
+  href: index.yml
+  items:
+    - name: Microsoft Managed Desktop이란 무엇인가요?
+      href: intro/index.md
+      items:
+        - name: 역할 및 책임
+          href: intro/roles-and-responsibilities.md
+        - name: Microsoft Managed Desktop의 기술
+          href: intro/technologies.md
+        - name: Microsoft Managed Desktop 및 ITIL
+          href: MMD-and-ITSM.md
+    - name: Microsoft Managed Desktop 서비스 설명
+      href: service-description/index.md
+      items:
+        - name: 지원되는 국가 및 언어
+          href: service-description/regions-languages.md
+        - name: 제품 수명 주기
+          href: service-description/device-lifecycle.md
+        - name: 프로그램 장치
+          href: service-description/device-list.md
+          items:
+            - name: 보관된 프로그램 장치
+              href: service-description/archived-device-list.md
+        - name: 장치 서비스
+          href: service-description/device-services.md
+        - name: 장치 구성
+          href: service-description/device-policies.md
+        - name: 보안
+          href: service-description/security.md
+        - name: '업데이트 '
+          href: service-description/updates.md
+        - name: 지원
+          href: service-description/support.md
+        - name: 운영 및 모니터링
+          href: service-description/operations-and-monitoring.md
+        - name: 응용 프로그램의 요구 사항
+          href: service-description/mmd-app-requirements.md
+        - name: 서비스 변경 및 커뮤니케이션
+          href: service-description/servicechanges.md
+        - name: 서비스 계획에 대 한 예외
+          href: service-description/customizing.md
+    - name: Microsoft Managed Desktop에 등록 준비
+      href: get-ready/index.md
+      items:
+        - name: Microsoft Managed Desktop의 필수 구성 요소
+          href: get-ready/prerequisites.md
+        - name: 네트워크 준비
+          href: get-ready/network.md
+        - name: Microsoft Managed Desktop의 온-프레미스 리소스 액세스 준비
+          href: get-ready/authentication.md
+        - name: Microsoft Managed Desktop의 매핑된 드라이브 준비
+          href: get-ready/mapped-drives.md
+        - name: Microsoft Managed Desktop 인증서 및 네트워크 프로필 준비
+          href: get-ready/certs-wifi-lan.md
+        - name: 앱 준비
+          href: get-ready/apps.md
+          items:
+            - name: Microsoft 컨설팅 서비스 활용
+              href: get-ready/apps-MCS.md
+    - name: Microsoft Managed Desktop 시작
+      href: get-started/index.md
+      items:
+        - name: 관리 포털에서 관리자 연락처 추가 및 확인
+          href: get-started/add-admin-contacts.md
+        - name: 조건부 액세스 조정
+          href: get-started/conditional-access.md
+        - name: 라이선스 할당
+          href: get-started/assign-licenses.md
+        - name: Intune 회사 포털 배포
+          href: get-started/company-portal.md
+        - name: 엔터프라이즈 상태 로밍 사용
+          href: get-started/enterprise-state-roaming.md
+        - name: 장치 설정
+          href: get-started/set-up-devices.md
+          items:
+            - name: 직접 새 장치 등록
+              href: get-started/register-devices-self.md
+              items:
+                - name: 파트너가 장치를 등록하기 위한 단계
+                  href: get-started/register-devices-partner.md
+            - name: 직접 기존의 장치 등록
+              href: get-started/register-reused-devices-self.md
+        - name: 사용자들이 장치를 사용할 수 있도록 준비시키기
+          href: get-started/get-started-devices.md
+        - name: 앱 배포
+          href: get-started/deploy-apps.md
+          items:
+            - name: Microsoft Project 및 Microsoft Visio
+              href: get-started/project-visio.md
+    - name: Microsoft Managed Desktop 사용
+      href: working-with-managed-desktop/index.md
+      items:
+        - name: 인사이트를 활용한 작업
+          href: working-with-managed-desktop/insights.md
+          items:
+            - name: 인사이트 활용
+              href: working-with-managed-desktop/usage-insights.md
+            - name: 안정성 인사이트
+              href: working-with-managed-desktop/reliability-insights.md
+        - name: 관리자 지원
+          href: working-with-managed-desktop/admin-support.md
+        - name: 최종 사용자 지원
+          href: working-with-managed-desktop/end-user-support.md
+        - name: 앱 관리
+          href: working-with-managed-desktop/manage-apps.md
+        - name: 구성 가능한 설정
+          href: working-with-managed-desktop/config-setting-overview.md
+          items:
+            - name: 구성 가능한 설정 참조
+              href: working-with-managed-desktop/config-setting-ref.md
+            - name: 구성 가능한 설정 배포
+              href: working-with-managed-desktop/config-setting-deploy.md
+    - name: Microsoft Managed Desktop 문서 변경 기록
+      href: change-history-managed-desktop.md

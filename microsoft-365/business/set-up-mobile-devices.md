@@ -15,30 +15,31 @@ ms.custom:
 - MiniMaven
 - MSB365
 - OKR_SMB_M365
+- TRN_M365B
+- OKR_SMB_Videos
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: d868561b-d340-4c04-a973-e2575d7f09bc
 description: IPhone 또는 Android 휴대폰에 Office를 설치 하 고 Office 앱의 작업 파일이 Microsoft 365 Business에 의해 보호 됩니다.
-ms.openlocfilehash: e09db43705d601df0c0b30a46ee36cf0295ecae3
-ms.sourcegitcommit: 6a413a65b8c2e10cea08f0a15635b28a1362a582
+ms.openlocfilehash: d87ea714f578130d05be57d1f66270b306f37c7c
+ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/19/2019
-ms.locfileid: "38718942"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "39831386"
 ---
 # <a name="set-up-mobile-devices-for-microsoft-365-business-users"></a>Microsoft 365 Business 사용자를 위한 모바일 장치 설정
 
 iPhone 또는 Android 휴대폰에서 Office를 설치하려면 탭의 지침을 따르세요. 지침의 단계를 따르면 Office 앱에서 만든 작업 파일이 Microsoft 365 Business에 의해 보호됩니다.
 
-  
 다음은 Outlook에 대한 단계를 보여주는 예제이지만 설치하려는 모든 Office 앱에 적용되는 내용입니다.
   
 ## <a name="set-up-mobile-devices"></a>모바일 장치 설정
 
 ## <a name="iphonetabiphone"></a>[iPhone](#tab/iPhone)
   
-Microsoft 365 Business를 사용 하 여 iOS 장치에서 Office 앱을 설정 하는 방법에 대 한 비디오를 시청 하세요.
+Microsoft 365 Business를 사용 하 여 iOS 장치에서 Office 앱을 설정 하는 방법에 대 한 비디오를 시청 하세요.<br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/e0ee7052-e0f4-4c42-a4f1-5e91b9776ce9?autoplay=false] 
 
@@ -68,6 +69,12 @@ iPhone에서 Outlook을 찾아 다시 시작합니다. 메시지가 표시 되 �
   
 ## <a name="androidtabandroid"></a>[Android](#tab/Android)
   
+Android 장치에 Outlook 및 Office를 설치 하는 방법에 대 한 비디오를 시청 하세요.<br><br>
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/ecc2e9c0-bc7e-4f26-8b14-91d84dbcfef0] 
+
+이 비디오를 통해 도움이 되는 경우에는 [소규모 기업을 위한 전체 교육 시리즈 및 Microsoft 365에 새로 소개 하](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)고 있습니다.
+
 Android 휴대폰에서 설치 프로그램을 시작 하려면 Play 스토어로 이동 합니다.
   
 ![On the Android home screen, tap Play Store](media/93df88e7-c778-40e1-b35e-868ca6e97f6c.png)
@@ -91,7 +98,9 @@ Play 스토어에서 Intune 회사 포털을 설치 합니다.
 Outlook을 다시 열어 PIN을 입력하고 확인합니다. 이제 Outlook 앱을 사용할 준비가 되었습니다.
   
 ![Set  PIN for Outlook app in Android](media/edb91afb-f1ed-451a-bc6b-8ccba664e055.png)
-  
+
+## <a name="see-also"></a>참고 항목
+
+[Microsoft 365 Business 교육 비디오](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+
 ---
-
-

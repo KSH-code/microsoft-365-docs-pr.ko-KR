@@ -17,6 +17,7 @@
         - name: 업그레이드 구독
           href: /office365/admin/subscriptions-and-billing/upgrade-to-different-plan?view=o365-worldwide&context=/microsoft-365/commerce/context/context-commerce
     - name: 자재 명세서 및 지불
+      expanded: true
       items:
         - name: 요금 청구 방식
           href: /microsoft-365/commerce/billing-and-payments/understand-your-invoice
@@ -28,8 +29,8 @@
           href: /microsoft-365/commerce/billing-and-payments/psd2
     - name: 청구 계정
       items:
-        - name: 청구 계정 정보 관리
-          href: /microsoft-store/update-microsoft-store-for-business-account-settings?context=/microsoft-365/commerce/context/context-commerce
+        - name: 청구 계정 관리
+          href: /microsoft-365/commerce/billing-accounts/manage-billing-accounts
         - name: 내 청구 계정에 테 넌 트 연결
           href: /microsoft-store/manage-mpsa-software-microsoft-store-for-business?context=/microsoft-365/commerce/context/context-commerce
     - name: 파트너와의 관계 관리

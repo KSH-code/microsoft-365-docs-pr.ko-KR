@@ -13,24 +13,33 @@ localization_priority: Normal
 ms.collection:
 - Adm_O365
 - M365-subscription-management
+- TRN_SMB
 ms.custom:
 - Adm_O365
 - Core_O365Admin_Migration
 - MSB365
 - OKR_SMB_M365
+- TRN_M365B
+- OKR_SMB_Videos
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: Microsoft 365 Business를 설정 하는 방법을 알아보세요.
-ms.openlocfilehash: f29dbdb61636fdfe573a1a6920d0aed963b737ad
-ms.sourcegitcommit: 6a413a65b8c2e10cea08f0a15635b28a1362a582
+ms.openlocfilehash: 0001c2b9962f6cce0be1f77cbf427c68f9ee3249
+ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/19/2019
-ms.locfileid: "38721492"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "39831306"
 ---
 # <a name="set-up-microsoft-365-business-in-the-setup-wizard"></a>설치 마법사에서 Microsoft 365 Business 설정
+
+이 비디오에서 Microsoft 365 Business setup의 개요를 확인 하세요.<br><br>
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FYSM] 
+
+이 비디오를 통해 도움이 되는 경우에는 [소규모 기업을 위한 전체 교육 시리즈 및 Microsoft 365에 새로 소개 하](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)고 있습니다.
 
 ## <a name="add-your-domain-users-and-set-up-policies"></a>도메인, 사용자 및 정책 설정 추가
 
@@ -44,16 +53,18 @@ Microsoft 365 Business를 구매 하는 경우 소유 하 고 있는 도메인�
 
 1. 전역 관리자 자격 증명을 사용 하 여 [Microsoft 365 관리 센터](https://admin.microsoft.com) 에 로그인 합니다. 
 
-2. **도메인 추가** 또는 **사용자 추가** 를 선택 하 여 마법사를 시작 합니다.
+2. **설정으로 이동을** 선택 하 여 마법사를 시작 합니다.
+
+    ![설정으로 이동을 선택 합니다.](media/gotosetupinadmincenter.png)
+
+3. **Office 앱 설치** 페이지에서 필요에 따라 컴퓨터에 앱을 설치할 수 있습니다.
+    
+4. **도메인 추가** 단계에서 사용 하려는 도메인 이름 (예 contoso.com)을 입력 합니다.
+
     > [!IMPORTANT]
     > 등록할 때 도메인을 구매한 경우에 **는 추가 도메인** 단계가 표시 되지 않습니다. 대신 [사용자 추가](#add-users-and-assign-licenses) 로 이동 합니다.
 
-    ![설정으로 이동을 선택 합니다.](media/gotosetupinadmincenter.png)
-    
-3. 마법사에서 사용 하려는 도메인 이름 (예 contoso.com)을 입력 합니다.
-
-
-    ![로그인 페이지를 개인 설정 합니다.](media/personalizesignin.png)
+    ![로그인 페이지를 개인 설정 합니다.](media/adddomain.png)
 
     
 4. 마법사의 단계에 따라 도메인을 소유 하 고 있는지 확인 하는 [dns 호스팅 공급자 (Office 365)에 dns 레코드를 만듭니다](https://docs.microsoft.com/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) . 도메인 호스트를 알고 있는 경우에는 [호스트 관련 지침](https://docs.microsoft.com/office365/admin/get-help-with-domains/set-up-your-domain-host-specific-instructions)도 참조 하세요.
@@ -76,13 +87,6 @@ Microsoft 365 Business를 구매 하는 경우 소유 하 고 있는 도메인�
 
 2. 사용자를 추가한 후에는 추가한 새 사용자와 자격 증명을 공유 하는 옵션도 제공 됩니다. 자격 증명을 인쇄, 전자 메일로 전송 또는 다운로드할 수 있습니다.
 
-3. 조직에 대 한 팀 만들기에서 팀을 추가 하 고 사용자를 추가 하도록 선택할 수 있습니다. 나중에이 작업을 수행할 수도 있습니다. 자세한 내용은 [회사 전체 팀 만들기](https://support.office.com/article/037bb27a-bcc9-48fe-8d72-44d9482420a3)를 참조 하세요.
-
-4. 전자 메일 메시지 마이그레이션을 건너뛰고 **전자 메일 메시지 마이그레이션** 페이지에서 **다음**을 선택합니다. 
-
-    다른 전자 메일 공급자에서 전환 중이 고 나중에 데이터를 복사 하려는 경우 [전자 메일 및 연락처를 Office 365로 마이그레이션할](https://support.office.com/article/a3e3bddb-582e-4133-8670-e61b9f58627e)수 있습니다.
-
-
 ### <a name="connect-your-domain"></a>도메인 연결
 
 > [!NOTE]
@@ -95,31 +99,29 @@ Microsoft 365 Business를 구매 하는 경우 소유 하 고 있는 도메인�
     - 기존 웹 사이트와 같이 기존 DNS 레코드가 있지만 DNS 호스트가 [도메인 연결](https://docs.microsoft.com/office365/admin/get-help-with-domains/domain-connect)을 사용 하도록 설정 된 경우 **에는 레코드 추가**를 선택 합니다. **온라인 서비스 선택** 페이지에서 기본값을 모두 적용 하 고 **다음**을 선택한 다음, DNS 호스트의 페이지에서 **권한 부여** 를 선택 합니다.
     - 다른 DNS 호스트 (도메인 연결에 대해 사용 하도록 설정 되지 않음)의 기존 DNS 레코드가 있는 경우에는 자체 DNS 레코드를 관리 하 여 기존 서비스가 계속 연결 되어 있는지 확인 해야 합니다. 자세한 내용은 [도메인 기본 사항을](https://docs.microsoft.com/office365/admin/get-help-with-domains/dns-basics) 참조 하세요.
 
-        ![도메인 연결 페이지에서 자체 DNS 레코드를 관리 합니다.](media/connectyourdomainpage.png)
+        ![레코드 활성화 페이지](media/activaterecords.png)
 
 2. 마법사의 단계를 따르고 전자 메일 및 기타 서비스가 설정 됩니다.
 
-### <a name="protect-data-and-devices"></a>데이터 및 장치 보호 
+### <a name="protect-your-organization"></a>조직 보호 
 
 마법사에서 설정한 정책이 *모든 사용자*라는 [보안 그룹](https://docs.microsoft.com/office365/admin/create-groups/compare-groups#security-groups) 에 자동으로 적용 됩니다. 관리 센터에서 정책을 할당 하는 추가 그룹을 만들 수도 있습니다.
 
-1. **모바일 장치에서 작업 파일 보호**에서는 기본적으로 **장치를 분실 하거나 도난당 한 경우 작업 파일을 보호** 하는 옵션을 선택 합니다. **사용자가 모바일 장치에서 Office 파일에 액세스 하는 방법 관리**를 설정 하는 옵션을 사용할 수 있으며,이는 권장 되는 방법입니다.
+1. **고급 사이버 위협 으로부터 보호를 강화**하려면 기본값을 사용 하 여 [Office 365 advanced Threat protection](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp) 이 office 앱에서 파일 및 링크를 검사 하도록 하는 것이 좋습니다.
 
-    ![모바일 장치에서 작업 파일 보호 페이지의 스크린샷](media/protectworkfilesondevices.png)
+    ![보호 기능 향상 페이지 스크린샷](media/increasetreatprotection.png)
 
-     - **장치를 분실 하거나 도난당** 하 여 [기본값](protect-work-files-on-lost-or-stolen-device.md)을 표시 하려면 작업 파일 보호를 확장 합니다.
 
-        ![손실 된 장치에서 파일을 보호 하는 기본값의 스크린샷](media/protectworkfilesondevicesdefault.png)
+2. **중요 한 데이터의 누출 방지** 페이지에서 OFFICE 365 DLP (데이터 손실 방지)를 설정 하 여 office 앱에서 중요 한 데이터를 추적 하 고 조직 외부에서 실수로 공유 하지 않도록 하는 기본값을 적용 합니다.
 
-    - **사용자가 모바일 장치에서 Office 파일에 액세스 하는 방법 관리** 를 선택 하 고 확장 하 여 [기본값](manage-user-access-on-mobile-devices.md)을 표시 합니다. 설치 중에 기본값을 사용 하 여 모든 사용자에 게 적용 되는 Android, iOS 및 Windows 10에 대 한 응용 프로그램 정책을 만드는 것이 좋습니다. 설치가 완료되면 추가로 정책을 만들 수 있습니다.
+3. **비즈니스용 Office의 데이터 보호** 페이지에서 모바일 앱 관리를 유지 하 고 설정을 확장 하 고 검토 한 다음, **모바일 앱 관리 정책 만들기**를 선택 합니다.
 
-        ![휴대폰의 Office 파일에 대 한 보호 설정 스크린샷](media/useraccessonmobile.png)
+    ![Mobile 용 Office의 데이터 보호 페이지 스크린샷](media/protectdatainmobile.png)
 
-2. 데이터 및 장치를 보호 하는 마지막 단계에서는 Windows 10 장치를 보호 하기 위한 정책을 설정할 수 있습니다. 사용자의 Windows 10이 조직에 연결할 때 이러한 설정이 자동으로 적용 됩니다. **보안 Windows 10 장치** 를 확장 하 여 [기본값](secure-windows-10-devices.md)을 보고 수정할 수 있습니다.
-3. Windows 10 장치에 [Office를 자동으로 설치](install-office-on-windows-10-during-setup.md) 하도록 선택할 수도 있습니다.
 
-    ![Set Windows 10 장치 구성 페이지의 스크린샷](media/setwin10config.png)
+## <a name="secure-windows-10-pcs"></a>Windows 10 Pc 보안
 
+왼쪽 탐색 창에서 **설치** 를 선택 하 고 공동 **인 및 보안**에서 **Windows 10 컴퓨터 보안**을 선택 합니다. 시작 하려면 **보기** 를 선택 합니다. 전체 지침은 [Windows 10 컴퓨터 보안](secure-win-10-pcs.md) 을 참조 하세요.
 
 ## <a name="deploy-office-365-client-apps"></a>Office 365 클라이언트 앱 배포
 
@@ -128,3 +130,7 @@ Microsoft 365 Business를 구매 하는 경우 소유 하 고 있는 도메인�
 모바일 iOS 또는 Android 장치에 Office를 설치 하려면 [Set up 모바일 장치 For Microsoft 365 Business users](set-up-mobile-devices.md)를 참조 하세요.
 
 Office를 개별적으로 설치할 수도 있습니다. 자세한 내용은 [PC 또는 Mac에 Office 설치](https://support.office.com/article/4414eaaf-0478-48be-9c42-23adc4716658) 를 참조 하세요.
+
+## <a name="see-also"></a>참고 항목
+
+[Microsoft 365 Business 교육 비디오](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

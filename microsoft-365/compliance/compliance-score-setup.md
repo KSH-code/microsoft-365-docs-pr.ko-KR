@@ -12,12 +12,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 위험 평가를 간소화 하 고 자동화 하는 데 도움이 되는 Microsoft 규정 준수 점수에 대해 로그인 하 고 사용 권한을 설정 하 고 대시보드를 이해 하는 방법을 알아봅니다.
-ms.openlocfilehash: 7bff479d4cd7e3f200f7fc169eb351299eec8a39
-ms.sourcegitcommit: 3eae8fe39cea912d29e211a1c9fd035d6b606f91
+ms.openlocfilehash: 03bcc5663e3b57728eb4ba791bbcba9593e5afc7
+ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "38793652"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "39831181"
 ---
 # <a name="microsoft-compliance-score-preview-setup"></a>Microsoft 준수 점수 (미리 보기) 설치
 
@@ -63,8 +63,6 @@ Microsoft 365 준수 센터에서 사용 권한을 설정 하려면 다음을 �
 
 1. [Microsoft 365 준수 센터로](https://compliance.microsoft.com) 이동 하 여 전역 관리자 계정으로 로그인 합니다.
 2. 왼쪽 탐색 창에서 **사용 권한을** 선택 합니다. 여기에서 역할을 확인 하 고 사용 권한을 할당할 수 있습니다.
-
-자세한 내용은 [Microsoft 365 준수 센터에서 역할 및 사용 권한](../security/office-365-security/microsoft-security-and-compliance.md#required-licenses-and-permissions)를 참조 하세요.
 
 ## <a name="understand-the-compliance-score-dashboard"></a>준수 점수 대시보드 이해
 

@@ -12,12 +12,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: 5779bc02575a01c86333eaa9dbc9e9667c87f5ee
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 12446dcb69b9f2324afcece9f230605fdcfcfdc8
+ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38034209"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "39831999"
 ---
 # <a name="overview-of-the-microsoft-365-security-center"></a>Microsoft 365 보안 센터 개요
 
@@ -25,9 +25,7 @@ ms.locfileid: "38034209"
 
 Microsoft 365 보안 센터 (microsoft id, 데이터, 장치, 앱 및 인프라 간의 보안을 모니터링 하 고 관리 하는 새로운 홈)를 입력 합니다. 여기에서 조직의 보안 상태를 쉽게 확인 하 고, 장치, 사용자 및 앱을 구성 하 고, 의심 스러운 활동에 대 한 알림을 받을 수 있습니다. Microsoft 365 보안 센터는 보안 관리자 및 보안 운영 팀이 조직에 보다 효율적으로 관리 하 고 보호할 수 있도록 설계 되었습니다.
 
-새로운 Microsoft 365 보안 센터와 Microsoft 365 준수 센터는 보안 팀 및 규정 준수 팀의 요구를 충족 하기 위해 설계 된 특수 한 작업 영역입니다. 이러한 솔루션은 Microsoft 365 서비스에 통합 되어 있으며 위험을 줄이고 디지털 공간을 보호 하는 데 도움이 되는 정보를 제공 합니다.
-
-[자세한 내용을 알아보고](https://docs.microsoft.com/office365/securitycompliance/microsoft-security-and-compliance) 새로운 microsoft 365 보안 센터 및 microsoft 365 준수 센터에 대 한 준비를 완료 하세요.
+새로운 Microsoft 365 보안 센터와 [Microsoft 365 준수 센터](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center) 는 보안 팀 및 규정 준수 팀의 요구를 충족 하기 위해 설계 된 특수 한 작업 영역입니다. 이러한 솔루션은 Microsoft 365 서비스에 통합 되어 있으며 위험을 줄이고 디지털 공간을 보호 하는 데 도움이 되는 정보를 제공 합니다.
 
 Security.microsoft.com의 Microsoft 365 보안 센터를 방문 합니다.  
 

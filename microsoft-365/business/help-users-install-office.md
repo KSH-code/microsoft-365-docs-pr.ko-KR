@@ -16,17 +16,19 @@ ms.custom:
 - MiniMaven
 - MSB365
 - OKR_SMB_M365
+- TRN_M365B
+- OKR_SMB_Videos
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: cbc6bfe5-565a-4fb8-95f0-b06e7b74ac46
 description: 사용자가 Office 앱을 설치 하도록 지원 합니다.
-ms.openlocfilehash: dd2d32ee04402ef977ee1530c20d77512c2d8336
-ms.sourcegitcommit: 8193b7da5b1a415835d02ca96883c351df7326ed
+ms.openlocfilehash: 73eb3ed9bb88dca4232865b2ecd9015441875c07
+ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38320226"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "39831211"
 ---
 # <a name="help-your-users-install-office-on-windows-10-devices"></a>사용자가 Windows 10 장치에 Office를 설치 하도록 지원
 
@@ -34,8 +36,14 @@ ms.locfileid: "38320226"
 
 Microsoft 365 Business 관리 센터에서 Windows 10 Pc에 Office를 빠르고 쉽게 설치할 수 있습니다.
   
-이전에 설치한 Office 앱에서의 작동 방식을 알아보려면 시작하기 전에 [Office 클라이언트 설치 준비](prepare-for-office-client-deployment.md)를 확인하세요. 
-  
+이전에 설치한 Office 앱에서의 작동 방식을 알아보려면 시작하기 전에 [Office 클라이언트 설치 준비](prepare-for-office-client-deployment.md)를 확인하세요.
+
+Office 앱을 설치 하는 방법에 대 한 간단한 비디오를 시청 하세요.<br><br>
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/acce002c-0756-4b64-ac5d-2198ee96a9b1] 
+
+이 비디오를 통해 도움이 되는 경우에는 [소규모 기업을 위한 전체 교육 시리즈 및 Microsoft 365에 새로 소개 하](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)고 있습니다.
+
 ## <a name="manage-office-deployments"></a>Office 배포 관리
 
 1. 에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>관리 센터로 이동 하 여 전역 관리자 자격 증명으로 로그인 합니다. 
@@ -51,4 +59,6 @@ Microsoft 365 Business 관리 센터에서 Windows 10 Pc에 Office를 빠르고 
     
       :::image type="content" source="media/sendemailtousers.png" alt-text="Office 다운로드 링크를 사용 하 여 전자 메일을 보내려면 사용자를 선택 합니다.":::
 
+## <a name="see-also"></a>참고 항목
 
+[Microsoft 365 Business 교육 비디오](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

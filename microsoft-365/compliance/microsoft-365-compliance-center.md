@@ -9,12 +9,12 @@ ms.service: o365-seccomp
 localization_priority: Normal
 description: 포함 된 내용을 비롯 하 여 Microsoft 365 준수 센터, 다운로드 방법 및 다음 단계에 대해 알아봅니다.
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 619f18f1113d3c84cb9629c60fca6dd044d1de76
-ms.sourcegitcommit: 5c6c30ec5541d2fb77e53a1309db1fe7b75fc3e2
+ms.openlocfilehash: 920de48cf81134a22f117ee8d1dea0160b0daaa8
+ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/02/2019
-ms.locfileid: "38687029"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "39831651"
 ---
 # <a name="overview-of-the-microsoft-365-compliance-center"></a>Microsoft 365 준수 센터 개요
 
@@ -70,8 +70,6 @@ Microsoft 365 준수 센터를 처음 방문 하면 홈 페이지의 카드 구�
 
 - 전역 관리자, 규정 준수 관리자 또는 규정 준수 데이터 관리자는 Microsoft 365 준수 센터를 방문 하 여 로그인 [https://compliance.microsoft.com](https://compliance.microsoft.com) 한 후 로그온 합니다.
 
-- 요구 사항에 대 한 자세한 내용은 [필요한 라이선스 및 사용 권한을](../security/office-365-security/microsoft-security-and-compliance.md#required-licenses-and-permissions)참조 하세요.
-
 ## <a name="frequently-asked-questions"></a>자주하는 질문
 
 **특정 정책을 정의 하는 것과 같은 일부 작업을 완료 하기 위해 Office 365 보안 & 준수 센터에 수행 해야 하는 이유는 무엇 인가요?**
@@ -80,7 +78,7 @@ Microsoft 365 준수 센터를 아직 개발 중 이며, 향후 몇 개월에 �
 
 **아직 새로운 Microsoft 365 준수 센터가 표시 되지 않는 이유는 무엇 인가요?**
 
-먼저 적절 한 [라이선스 및 사용 권한이](../security/office-365-security/microsoft-security-and-compliance.md#required-licenses-and-permissions)있는지 확인 합니다. 그런 후에 [https://compliance.microsoft.com](https://compliance.microsoft.com)로그인 합니다. 새 준수 센터가 아직 표시 되지 않으면 곧 제공 될 예정입니다.
+먼저 적절 한 라이선스 및 사용 권한이 있는지 확인 합니다. 그런 후에 [https://compliance.microsoft.com](https://compliance.microsoft.com)로그인 합니다. 새 준수 센터가 아직 표시 되지 않으면 곧 제공 될 예정입니다.
 
 **Microsoft 365 준수 센터에서는 일부 준수 기능을 사용할 수 없습니다. 뭐 할까요?**
 

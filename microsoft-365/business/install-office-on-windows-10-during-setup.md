@@ -22,17 +22,17 @@ search.appverid:
 - MOE150
 ms.assetid: 5ffd5327-a83a-4d53-94d6-22ba2f9fd090
 description: 설치 중에 Windows 10 장치에 Office를 자동으로 배포 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 6bcb85a0acdf738d939c10d4fe418646b00b0b95
-ms.sourcegitcommit: 38934a2115d5cdeb44c7484d57be07686c6f7720
+ms.openlocfilehash: 7b58fd3db6c6f15effe2bc4876903a9f480366b1
+ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/19/2019
-ms.locfileid: "38704098"
+ms.lasthandoff: 12/04/2019
+ms.locfileid: "39831626"
 ---
 # <a name="install-office-on-windows-10-during-setup"></a>설치 시 Windows 10에 Office 설치
 
 ![를 https://aka.ms/aboutM365preview가리키는 배너입니다.](media/m365admincenterchanging.png)
 
-이 설정은 기본적으로 해제되어 있습니다. 사용자가 모든 Windows 10 장치에서 최신 버전의 Office를 사용할 수 있도록 설정 하 고, 먼저 모든 필수 구성 요소가 충족 되는지 확인 합니다. [Microsoft 365 business에서 Office 클라이언트 배포 준비](prepare-for-office-client-deployment.md)에 설명 된 기타 요구 사항 외에,이 설정을 사용 하 여 소프트웨어를 장치로 푸시할 수 있도록 Microsoft 365 business에 대 한 라이선스가 있어야 합니다. 
+이 설정은 기본적으로 해제되어 있습니다. 사용자가 모든 Windows 10 장치에서 최신 버전의 Office를 사용할 수 있도록 설정 하 고, 먼저 모든 필수 구성 요소가 충족 되는지 확인 합니다. [Microsoft 365 business에서 Office 클라이언트 배포 준비](prepare-for-office-client-deployment.md)에 설명 된 기타 요구 사항 외에,이 설정을 사용 하 여 소프트웨어를 장치로 푸시할 수 있도록 Microsoft 365 business에 대 한 라이선스가 있어야 합니다.
   
-설치 중에 기본 설정을 수락 하는 것이 좋습니다. 
+설치 중에 기본 설정을 수락 하는 것이 좋습니다.
