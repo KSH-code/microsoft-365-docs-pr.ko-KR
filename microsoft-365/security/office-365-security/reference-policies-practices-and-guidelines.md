@@ -14,12 +14,12 @@ ms.assetid: ff3f140b-b005-445f-bfe0-7bc3f328aaf0
 ms.collection:
 - M365-security-compliance
 description: Microsoft는 다양 한 정책과 절차를 개발 하 고 사용자가 악성 전자 메일, 원치 않는 이메일 또는 악의적으로 보호 하는 데 도움이 되는 몇 가지 업계 모범 사례를 채택 했습니다.
-ms.openlocfilehash: 0957e34008f4e05693218970c458656d73d9c0fe
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: a1e1e213c01eea5a07b616e72955303f21c6d2ae
+ms.sourcegitcommit: 2468bcb01625f97a322459814d81b9faad717859
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38031813"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39872064"
 ---
 # <a name="reference-policies-practices-and-guidelines"></a>참조: 정책, 사례 및 지침
 
@@ -73,7 +73,7 @@ Office 365로 전송 되는 전자 메일은 아래 문서에 나열 된 적용 
 
 ## <a name="office-365-limits"></a>Office 365 제한
 
-보낸 사람은 [Exchange Online Protection 제한](https://technet.microsoft.com/library/exchange-online-protection-limits.aspx)에 나열 된 Office 365 제한을 준수 해야 합니다.
+보낸 사람은 [Exchange Online Protection 제한](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-limits)에 나열 된 Office 365 제한을 준수 해야 합니다.
 
 ## <a name="email-delivery-resources-and-organizations"></a>전자 메일 배달 리소스 및 조직
 

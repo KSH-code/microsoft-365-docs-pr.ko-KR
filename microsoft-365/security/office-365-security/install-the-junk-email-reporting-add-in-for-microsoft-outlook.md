@@ -12,12 +12,12 @@ ms.assetid: 8dcc752f-e22e-44ce-a104-4cc4d7e439f3
 ms.collection:
 - M365-security-compliance
 description: 이 articleSupported LanguagesInstall에서 정크 메일 보고 추가 기능에 대 한 자세한 내용은 정크 메일 보고 추가를 제거 합니다.
-ms.openlocfilehash: 7f294ed78affba6e55f2372b81b517bbd25d3f08
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 508d542be4862a6a06b795fc7a4b97bdc405d430
+ms.sourcegitcommit: ba223b4fd069fc6fd09c2a2e34c770a18bc7b2a2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37087835"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39865890"
 ---
 # <a name="install-the-junk-email-reporting-add-in-for-microsoft-outlook"></a>Microsoft Outlook용 정크 메일 보고 추가 기능 설치
   
@@ -59,13 +59,12 @@ ms.locfileid: "37087835"
 - 스페인어
     
 ## <a name="install-the-junk-email-reporting-add-in"></a>정크 메일 보고 추가 기능 설치
-<a name="sectionSection1"> </a>
 
 다음과 같이 정크 메일 보고 추가 기능을 설치할 수 있습니다.
   
-- 여타 .msi 파일과 마찬가지로 Windows Installer 패키지를 실행하여 설치합니다. 추가 기능을 설치할 경우 설치 화면을 안내하는 GUI 인터페이스가 열립니다. 자세한 내용은 [설치 마법사를 사용하여 정크 메일 보고 추가 기능 설치](install-the-junk-email-reporting-add-in-for-microsoft-outlook.md#BKMK_InstalltheJunkEmailReportingAdd-InUsingtheSetupWizard)를 참조하세요.
+- 여타 .msi 파일과 마찬가지로 Windows Installer 패키지를 실행하여 설치합니다. 추가 기능을 설치할 경우 설치 화면을 안내하는 GUI 인터페이스가 열립니다. 자세한 내용은 [설치 마법사를 사용하여 정크 메일 보고 추가 기능 설치](#install-the-junk-email-reporting-add-in-using-the-setup-wizard)를 참조하세요.
     
-- 사용자 인터페이스를 표시하지 않는 자동 설치를 실행하여 설치합니다. 대신 설치 스크립트를 실행하는 명령줄 옵션을 지정합니다. 추가 기능을 설치할 경우 GUI 인터페이스를 통해 제공되지 않는 추가 구성 옵션이 표시됩니다. 자세한 내용은 [자동 모드를 사용하여 정크 메일 보고 추가 기능 설치](install-the-junk-email-reporting-add-in-for-microsoft-outlook.md#BKMK_InstalltheJunkEmailReportingAdd-IninSilentMode)를 참조하세요.
+- 사용자 인터페이스를 표시하지 않는 자동 설치를 실행하여 설치합니다. 대신 설치 스크립트를 실행하는 명령줄 옵션을 지정합니다. 추가 기능을 설치할 경우 GUI 인터페이스를 통해 제공되지 않는 추가 구성 옵션이 표시됩니다. 자세한 내용은 [자동 모드를 사용하여 정크 메일 보고 추가 기능 설치](#install-the-junk-email-reporting-add-in-using-silent-mode)를 참조하세요.
     
 ### <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
 
@@ -87,7 +86,6 @@ Microsoft Outlook용 Microsoft 정크 메일 보고 추가 기능을 설치하�
 > 추가 기능을 설치할 컴퓨터에 대해 관리자 권한이 있어야 합니다. 
   
 ### <a name="install-the-junk-email-reporting-add-in-using-the-setup-wizard"></a>설치 마법사를 사용하여 정크 메일 보고 추가 기능 설치
-<a name="BKMK_InstalltheJunkEmailReportingAdd-InUsingtheSetupWizard"> </a>
 
 1. 컴퓨터에서 Outlook을 종료합니다.
     
@@ -108,7 +106,6 @@ Microsoft Outlook용 Microsoft 정크 메일 보고 추가 기능을 설치하�
 9. Microsoft에 피싱 메일을 보고하려는 경우 **피싱 메일로 보고**와 같은 기타 옵션을 보려면 **정크** 옆에 있는 아래쪽 화살표를 선택합니다. 전자 메일이 정크 메일로 잘못 식별된 경우 정크 메일 폴더에서 **정크 메일 아님으로 보고**를 선택할 수도 있습니다. 
     
 ### <a name="install-the-junk-email-reporting-add-in-using-silent-mode"></a>자동 모드를 사용하여 정크 메일 보고 추가 기능 설치
-<a name="BKMK_InstalltheJunkEmailReportingAdd-IninSilentMode"> </a>
 
 1. 컴퓨터에서 Outlook을 종료합니다.
     
@@ -135,9 +132,9 @@ Microsoft Outlook용 Microsoft 정크 메일 보고 추가 기능을 설치하�
   
     위의 예를 바탕으로 이 선택적 매개 변수를 모두 추가하려면 x86 Outlook을 실행하는 컴퓨터에 대해 다음을 지정합니다. 
     
-  ```
-  msiexec /qn /i JunkReportingAdd-in.x86-en.msi. MaxMessageSelection=16 BccEmailAddress="junkReports@contoso.com; hollyd@treyresearch.net"
-  ```
+      ```
+      msiexec /qn /i JunkReportingAdd-in.x86-en.msi. MaxMessageSelection=16 BccEmailAddress="junkReports@contoso.com; hollyd@treyresearch.net"
+      ```
 
 4. 설치가 완료되면 Outlook을 시작합니다.
     
@@ -146,21 +143,19 @@ Microsoft Outlook용 Microsoft 정크 메일 보고 추가 기능을 설치하�
 6. Microsoft에 피싱 메일을 보고하려는 경우 **피싱 메일로 보고**와 같은 기타 옵션을 보려면 **정크** 옆에 있는 아래쪽 화살표를 선택합니다. 전자 메일이 정크 메일로 잘못 식별된 경우 정크 메일 폴더에서 **정크 메일 아님으로 보고**를 선택할 수도 있습니다. 
     
 ## <a name="uninstall-the-junk-email-reporting-add-in"></a>정크 메일 보고 추가 기능 제거
-<a name="sectionSection2"> </a>
 
 다음과 같은 옵션 중 하나를 사용하여 정크 메일 보고 추가 기능을 제거할 수 있습니다.
   
-- Windows 제어판에서 추가 기능을 제거합니다. 자세한 내용은 [제어판에서 정크 메일 보고 추가 기능 제거](install-the-junk-email-reporting-add-in-for-microsoft-outlook.md#BKMK_UninstalltheJunkEmailReportingAdd-infromControlPanel)를 참조하세요.
+- Windows 제어판을 사용 하 여 추가 기능을 제거 합니다. 자세한 내용은 [제어판에서 정크 메일 보고 추가 기능 제거](#uninstall-the-junk-email-reporting-add-in-from-control-panel)를 참조 하세요.
     
-- Windows Installer 패키지를 실행하고 제거 옵션을 선택합니다. 자세한 내용은 [Windows Installer 패키지를 실행하여 정크 메일 보고 추가 기능 제거](install-the-junk-email-reporting-add-in-for-microsoft-outlook.md#BKMK_UninstalltheJunkEmailReportingAddinbyRunningtheWindowsInstallerPackage)를 참조하세요.
+- Windows Installer 패키지를 실행하고 제거 옵션을 선택합니다. 자세한 내용은 [Windows Installer 패키지를 실행 하 여 정크 메일 보고 추가 기능 제거](#uninstall-the-junk-email-reporting-add-in-by-running-the-windows-installer-package)를 참조 하세요.
     
-- 제거 옵션을 사용하여 자동 설치를 실행합니다. 자세한 내용은 [자동 모드로 정크 메일 보고 추가 기능 제거](install-the-junk-email-reporting-add-in-for-microsoft-outlook.md#MK_UninstalltheJunkEmailReportingAdd-ininSilentMode)를 참조하세요.
+- 제거 옵션을 사용하여 자동 설치를 실행합니다. 자세한 내용은 [자동 모드로 정크 메일 보고 추가 기능 제거](#uninstall-the-junk-email-reporting-add-in-in-silent-mode)를 참조하세요.
     
 > [!NOTE]
 > 추가 기능을 제거할 컴퓨터에 대해 관리자 권한이 있어야 합니다. 
   
 ### <a name="uninstall-the-junk-email-reporting-add-in-from-control-panel"></a>제어판에서 정크 메일 보고 추가 기능 제거
-<a name="BKMK_UninstalltheJunkEmailReportingAdd-infromControlPanel"> </a>
 
 1. 컴퓨터에서 Outlook을 종료합니다.
     
@@ -175,7 +170,6 @@ Microsoft Outlook용 Microsoft 정크 메일 보고 추가 기능을 설치하�
 6. Outlook을 다시 시작하여 Outlook 리본에 추가 기능이 더 이상 표시되지 않는지 확인합니다.
     
 ### <a name="uninstall-the-junk-email-reporting-add-in-by-running-the-windows-installer-package"></a>Windows Installer 패키지를 실행하여 정크 메일 보고 추가 기능 제거
-<a name="BKMK_UninstalltheJunkEmailReportingAddinbyRunningtheWindowsInstallerPackage"> </a>
 
 1. 컴퓨터에서 Outlook을 종료합니다.
     
@@ -191,7 +185,6 @@ Microsoft Outlook용 Microsoft 정크 메일 보고 추가 기능을 설치하�
 4. Outlook을 다시 시작하여 Outlook 리본에 추가 기능이 더 이상 표시되지 않는지 확인합니다.
     
 ### <a name="uninstall-the-junk-email-reporting-add-in-in-silent-mode"></a>자동 모드로 정크 메일 보고 추가 기능 제거
-<a name="MK_UninstalltheJunkEmailReportingAdd-ininSilentMode"> </a>
 
 1. 컴퓨터에서 Outlook을 종료합니다.
     
@@ -209,7 +202,6 @@ Microsoft Outlook용 Microsoft 정크 메일 보고 추가 기능을 설치하�
 4. Outlook을 다시 시작하여 Outlook 리본에 추가 기능이 더 이상 표시되지 않는지 확인합니다.
     
 ## <a name="for-more-information"></a>자세한 내용
-<a name="sectionSection3"> </a>
 
 [Microsoft에 정크 메일 메시지 보고](report-junk-email-messages-to-microsoft.md)
   

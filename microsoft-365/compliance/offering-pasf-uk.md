@@ -1,7 +1,7 @@
 ---
 title: 경찰서 (보안 강화 기능) 영국
 description: Microsoft business cloud services는 경찰서 보안 기능이 클라우드에서 데이터를 처리 하 고 저장 하도록 요구 하는 영국 법 집행을 지원 합니다.
-keywords: Microsoft 365, 규정 준수, 제공
+keywords: Microsoft 365, 규정 준수, 제품
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 3ec66f54c8db21bf4d94feb22c5dd17ee4b45ef5
-ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
+ms.openlocfilehash: 1cfd4b00c8c23aedb33ca832c37e0147d3beca0c
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38690846"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859298"
 ---
-# <a name="compliance-offering-police-assured-secure-facilities-pasf-united-kingdom"></a>규정 준수 제공: 경찰서-강화 된 보안 기능 (영국)
+# <a name="police-assured-secure-facilities-pasf-united-kingdom"></a>경찰서 (보안 강화 기능) 영국
 
 ## <a name="about-pasf"></a>정보 f
 
@@ -59,9 +59,9 @@ NPIRMT은 매년 한 번씩 Azure datacenter를 감사 하며, 매년 영국 4 �
 - [국가 치안 인정 정책](http://library.college.police.uk/docs/APP-National-Policing-Accreditation-Policy-2013.pdf)
 - [Azure 시설, 프레미스 및 실제 보안](https://azure.microsoft.com/blog/azure-layered-approach-to-physical-security/)
 - [Microsoft 및 ISO/IEC 27001:2013 ISM 표준](offering-iso-27001.md)
-- [Microsoft Online Services 용어](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=31)
-- [Microsoft 보안 센터 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Microsoft 온라인 서비스 사용 약관](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=31)
+- [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
-## <a name="download-the-offering-backgrounder"></a>제공 backgrounder 다운로드
+## <a name="download-the-offering-backgrounder"></a>제공 사항의 배경 설명 다운로드
 
-이 제품에 대 한 backgrounder 문서가 필요 한가요? [PDF](https://download.microsoft.com/download/C/9/7/C97C7B62-F582-4C25-8ABB-80DFB87628CA/PASF-Compliance.pdf)를 다운로드 합니다.
+이 제공 사항에 대한 배경 설명 문서가 필요한가요? [PDF](https://download.microsoft.com/download/C/9/7/C97C7B62-F582-4C25-8ABB-80DFB87628CA/PASF-Compliance.pdf)를 다운로드합니다.

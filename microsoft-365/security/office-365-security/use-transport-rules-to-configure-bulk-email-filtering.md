@@ -13,16 +13,16 @@ ms.assetid: 2889c82e-fab0-4e85-87b0-b001b2ccd4f7
 ms.collection:
 - M365-security-compliance
 description: 관리자는 대량 전자 메일 필터링에 대해 Exchange Online Protection의 메일 흐름 규칙을 사용 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 557a12455284519cc224cbee5e40a564aa3d4f14
-ms.sourcegitcommit: cbf117a4cd92a907115c9f10752f3c557361e586
+ms.openlocfilehash: 4f53ee482567a3c76acb4ee8ca0ffb10f6f8cca0
+ms.sourcegitcommit: ba223b4fd069fc6fd09c2a2e34c770a18bc7b2a2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "37441153"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39866750"
 ---
 # <a name="use-mail-flow-rules-to-configure-bulk-email-filtering-in-exchange-online-protection"></a>메일 흐름 규칙을 사용 하 여 Exchange Online Protection에서 대량 전자 메일 필터링 구성
 
-기본 스팸 콘텐츠 필터 정책을 사용 하 여 스팸 및 대량 전자 메일에 대 한 회사 전체의 콘텐츠 필터를 설정할 수 있습니다. 이 문서에서는 [스팸 필터 정책 구성](configure-your-spam-filter-policies.md) 및 [get-hostedcontentfilterpolicy](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/Set-HostedContentFilterPolicy?view=exchange-ps) 에서 콘텐츠 필터 정책을 설정 하는 방법에 대 한 설정을 확인 합니다.
+기본 스팸 콘텐츠 필터 정책을 사용 하 여 스팸 및 대량 전자 메일에 대 한 회사 전체의 콘텐츠 필터를 설정할 수 있습니다. 이 문서에서는 [스팸 필터 정책 구성](configure-your-spam-filter-policies.md) 및 [get-hostedcontentfilterpolicy](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/Set-HostedContentFilterPolicy) 에서 콘텐츠 필터 정책을 설정 하는 방법에 대 한 설정을 확인 합니다.
 
 대량 메시지를 필터링 하는 더 많은 옵션을 원하는 경우 메일 흐름 규칙 (전송 규칙이 라고도 함)을 만들어 대량 전자 메일에서 자주 발견 되는 텍스트 패턴이 나 구를 검색할 수 있습니다. 이러한 특성을 포함 하는 모든 메시지는 스팸으로 표시 됩니다. 이러한 규칙을 사용하면 조직에 수신되는 원치 않는 대량 전자 메일을 줄일 수 있습니다.
 

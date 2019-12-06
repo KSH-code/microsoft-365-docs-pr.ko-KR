@@ -1,0 +1,107 @@
+- name: Microsoft 365 Business
+  items:
+    - name: Microsoft 365
+      href: index.yml
+    - name: Microsoft 365 Business란 무엇인가요?
+      href: microsoft-365-business-overview.md
+    - name: Microsoft 365 Business 받기
+      href: sign-up.md
+    - name: 데이터 보호를 위한 필요 조건
+      href: pre-requisites-for-data-protection.md
+    - name: 설정
+      items:
+        - name: 설치 개요
+          href: set-up-overview.md
+        - name: Microsoft 365 Business 설정
+          href: set-up.md
+        - name: Windows 10 컴퓨터 보안
+          href: secure-win-10-pcs.md
+        - name: Windows Pro Creators 업데이트로 업그레이드
+          href: upgrade-to-windows-pro-creators-update.md
+        - name: Office 클라이언트 배포 준비
+          href: prepare-for-office-client-deployment.md
+        - name: 사용자 Office 설치 지원
+          href: help-users-install-office.md
+        - name: 온-프레미스 리소스 액세스
+          items:
+            - name: 도메인이 결합된 Windows 10 장치가 관리되도록 설정
+              href: manage-windows-devices.md
+            - name: Azure AD가 결합된 장치에서 리소스에 액세스
+              href: access-resources.md
+    - name: 사용자 장치 설정
+      items:
+        - name: 모바일 장치 설정
+          href: set-up-mobile-devices.md
+        - name: Windows 장치 설정
+          href: set-up-windows-devices.md
+    - name: 비즈니스 보호
+      href: security-features.md
+      items:
+        - name: MFA 설정
+          href: set-up-mfa.md
+        - name: 위협 방지 강화
+          href: increase-threat-protection.md
+        - name: 준수 기능 설정
+          href: set-up-compliance.md
+    - name: 사용자 관리
+      items:
+        - name: Add users
+          href: add-users-m365b.md
+        - name: 직원 제거
+          href: /Office365/Admin/add-users/remove-former-employee?toc=/microsoft-365/business/toc.json&bc=/microsoft-365/business/breadcrumb/toc.json
+    - name: 장치 관리
+      items:
+        - name: 정책 및 장치 보기 및 편집
+          href: view-policies-and-devices.md
+        - name: 회사 데이터 제거
+          href: remove-company-data.md
+        - name: 장치를 공장 설정으로 초기화
+          href: reset-devices-to-factory-settings.md
+        - name: Intune 설정에 대한 맵 보호 기능
+          href: map-protection-features-to-intune-settings.md
+        - name: Android 및 iOS용 앱 보호 설정
+          href: app-protection-settings-for-android-and-ios.md
+          items:
+            - name: Android 또는 iOS의 설정 확인
+              href: validate-settings-on-android-or-ios.md
+        - name: Windows 10 PC에 대한 장치 보호 설정
+          href: protection-settings-for-windows-10-pcs.md
+          items:
+            - name: Windows 10 PC의 설정 확인
+              href: validate-settings-on-windows-10-pcs.md
+        - name: Windows 10 PC의 앱 보호 설정
+          href: protection-settings-for-windows-10-devices.md
+    - name: Microsoft 365 Business로 마이그레이션
+      items:
+        - name: Office 365 Business Premium Office에서 마이그레이션
+          href: migrate-to-microsoft-365-business.md
+        - name: Office 365 E3에서 마이그레이션
+          href: migrate-from-e3.md
+        - name: Microsoft 365 Enterprise로 마이그레이션
+          href: migrate-from-microsoft-365-business-to-microsoft-365-enterprise.md
+    - name: 청구
+      items:
+        - name: 청구서
+          href: /Office365/Admin/subscriptions-and-billing/view-your-bill-or-invoice?toc=/microsoft-365/business/toc.json&bc=/microsoft-365/business/breadcrumb/toc.json
+        - name: 지불
+          href: /Office365/Admin/subscriptions-and-billing/pay-for-your-subscription?toc=/microsoft-365/business/toc.json&bc=/microsoft-365/business/breadcrumb/toc.json
+        - name: 취소
+          href: /Office365/Admin/subscriptions-and-billing/cancel-your-subscription?toc=/microsoft-365/business/toc.json&bc=/microsoft-365/business/breadcrumb/toc.json
+    - name: Autopilot
+      items:
+        - name: Autopilot 장치 및 프로필 추가
+          href: add-autopilot-devices-and-profile.md
+        - name: AutoPilot 프로필 만들기 및 편집
+          href: create-and-edit-autopilot-profiles.md
+        - name: AutoPilot 장치 만들기 및 편집
+          href: create-and-edit-autopilot-devices.md
+        - name: Autopilot 프로필 설정
+          href: autopilot-profile-settings.md
+        - name: 장치 상태
+          href: device-states.md
+    - name: Microsoft 365 Business FAQ
+      href: support/microsoft-365-business-faqs.md
+- name: Office 365 Enterprise
+  href: 'https://docs.microsoft.com/office365/enterprise'
+- name: Microsoft 365 설명서
+  href: 'https://docs.microsoft.com/microsoft-365'

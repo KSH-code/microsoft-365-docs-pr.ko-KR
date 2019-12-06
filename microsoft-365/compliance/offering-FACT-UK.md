@@ -1,7 +1,7 @@
 ---
 title: 저작권 도용 (사실)에 대 한 페더레이션
 description: Microsoft Azure는 영국의 저작권 도용 으로부터 인증을 획득 했습니다.
-keywords: Microsoft 365, 규정 준수, 제공
+keywords: Microsoft 365, 규정 준수, 제품
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 1a3fe8adac9dae1b2dcbc04430e9d7d3f49bc201
-ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
+ms.openlocfilehash: 378f03c5c579939abed84cfdea436845f37292af
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38690791"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859898"
 ---
-# <a name="compliance-offering-federation-against-copyright-theft-fact"></a>규정 준수 제공: 저작권 절도 (사실)에 대 한 페더레이션
+# <a name="federation-against-copyright-theft-fact"></a>저작권 도용 (사실)에 대 한 페더레이션
 
 ## <a name="fact-overview"></a>팩트 개요
 
@@ -34,7 +34,7 @@ Microsoft 클라우드에서 실제로 수행 되는 혜택에 대해 알아봅�
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 범위 내 클라우드 서비스
 
-[Azure 및 Azure 정부](https://aka.ms/AzureCompliance)
+[Azure 및 Azure Government](https://aka.ms/AzureCompliance)
 
 ## <a name="audits-reports-and-certificates"></a>감사, 보고서 및 인증서
 
@@ -57,9 +57,9 @@ Azure 인증은 매년 갱신 됩니다. [AZURE 팩트 인증서](https://aka.ms
 - [Azure 미디어 서비스의 CDSA 인증](https://aka.ms/cdsa-cert)
 - [Azure ISO 27001 인증](https://aka.ms/Azure-BSI-Cert)
 - [MPAA 평가](offering-mpaa.md)
-- [CSA CAIQ v 3.0.1에 대 한 Azure 응답](https://aka.ms/csacaiqresponses)
-- [Microsoft 보안 센터 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [CSA CAIQ v3.0.1에 대한 Azure의 답변](https://aka.ms/csacaiqresponses)
+- [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
-## <a name="download-the-offering-backgrounder"></a>제공 backgrounder 다운로드
+## <a name="download-the-offering-backgrounder"></a>제공 사항의 배경 설명 다운로드
 
-이 제품에 대 한 backgrounder 문서가 필요 한가요? [PDF](https://download.microsoft.com/download/D/B/B/DBBA0998-F08A-4CA8-B668-41A5EE0CFBED/FACT-Compliance.pdf)를 다운로드 합니다.
+이 제공 사항에 대한 배경 설명 문서가 필요한가요? [PDF](https://download.microsoft.com/download/D/B/B/DBBA0998-F08A-4CA8-B668-41A5EE0CFBED/FACT-Compliance.pdf)를 다운로드합니다.

@@ -1,7 +1,7 @@
 ---
 title: 증권 및 Exchange 위원회 (SEC) 규칙 17a-4 (미국)
 description: 독립적인 평가 기업에서는 Azure 및 Office 365에서 재무 기업이 초 규칙 17a-4 (f) 레코드 보존 및 불변의 저장소 요구 사항을 충족 하도록 도울 수 있음을 확인 했습니다.
-keywords: Microsoft 365, 규정 준수, 제공
+keywords: Microsoft 365, 규정 준수, 제품
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 54a221458da57cb403072dcbd91a55ba2e2021df
-ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
+ms.openlocfilehash: 08ae4841f2523d5b5df576906bdf04e798d8e60f
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38690830"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859518"
 ---
-# <a name="compliance-offering-securities-and-exchange-commission-sec-rule-17a-4f-united-states"></a>규정 준수 제공: 증권 및 Exchange 위원회 (초) 미국 (f)의 규칙 17a-4
+# <a name="securities-and-exchange-commission-sec-rule-17a-4f-united-states"></a>증권 및 Exchange 위원회 (SEC) 규칙 17a-4 (미국)
 
 ## <a name="microsoft-and-sec-rule-17a-4f"></a>Microsoft 및 SEC 규칙 17a-4 (f)
 
@@ -73,12 +73,12 @@ Microsoft 클라우드 서비스에 대 한 위험 평가를 위한 거 버 넌 
 - Microsoft Office 365, 데이터 보존 및 규칙 17a-4의 보관
 - [준수 Microsoft 금융 서비스](https://download.microsoft.com/download/6/4/7/64707E3E-6D3E-45D0-8207-A0EA3201B4A6/Microsoft%20Cloud%20-%20Financial%20Services%20Compliance%20Program%20\(Print\).pdf)
 - [준수 프로그램 Microsoft business cloud services 및 금융 서비스](https://servicetrust.microsoft.com/viewpage/financialservicesoverview)
-- [Azure의 금융 서비스 준수](https://azure.microsoft.com/resources/videos/azurecon-2015-financial-services-compliance-in-azure/)
+- [Azure에서의 금융 서비스 규정 준수](https://azure.microsoft.com/resources/videos/azurecon-2015-financial-services-compliance-in-azure/)
 - [Azure 금융 서비스 클라우드 위험 평가 도구](https://servicetrust.microsoft.com/ViewPage/FFIECBlueprint?command=Download&downloadType=Document&downloadId=079a1973-711a-428f-9312-9ddd290cff7b&docTab=c726d5c0-2d1e-11e8-a485-57140ec19669_PaaS)
 - [Microsoft Office 365 보존 정책](https://docs.microsoft.com/office365/securitycompliance/retention-policies)
 - [Microsoft 금융 서비스 블로그](https://techcommunity.microsoft.com/t5/Financial-Services-Blog/bg-p/FinancialServicesBlog)
-- [Microsoft 보안 센터 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
-## <a name="download-the-offering-backgrounder"></a>제공 backgrounder 다운로드
+## <a name="download-the-offering-backgrounder"></a>제공 사항의 배경 설명 다운로드
 
-이 제품에 대 한 backgrounder 문서가 필요 한가요? [PDF](https://download.microsoft.com/download/E/5/2/E52103E7-C1BB-4118-9725-4452FEA931D8/SEC17a-4(f)-Compliance.pdf)를 다운로드 합니다.
+이 제공 사항에 대한 배경 설명 문서가 필요한가요? [PDF](https://download.microsoft.com/download/E/5/2/E52103E7-C1BB-4118-9725-4452FEA931D8/SEC17a-4(f)-Compliance.pdf)를 다운로드합니다.

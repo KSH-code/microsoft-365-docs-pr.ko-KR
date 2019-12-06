@@ -14,12 +14,12 @@ ms.assetid: a44764e9-a5d2-4c67-8888-e7fb871c17c7
 ms.collection:
 - M365-security-compliance
 description: 아웃바운드 전자 메일 보내기 서비스를 사용하는 경우 아웃바운드 스팸 필터링이 항상 사용하도록 설정되므로 서비스와 받는 사람을 사용하여 조직을 보호할 수 있습니다.
-ms.openlocfilehash: d59d167a3e62dcb3d0f0532331902644c6b469dc
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: baf6999923a4c4cf346915800b8f97a0d0378f58
+ms.sourcegitcommit: 2468bcb01625f97a322459814d81b9faad717859
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38033859"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39871914"
 ---
 # <a name="configure-the-outbound-spam-policy"></a>아웃바운드 스팸 정책 구성
 
@@ -37,9 +37,9 @@ ms.locfileid: "38033859"
 
 예상 완료 시간: 5분
 
-이러한 절차를 수행하려면 먼저 사용 권한을 할당받아야 합니다. 필요한 권한을 확인하려면 [Exchange Online의 기능 사용 권한](https://technet.microsoft.com/library/15073ce1-0917-403b-8839-02a2ebc96e16.aspx) 항목에서 스팸 방지 항목을 참조하세요.
+이러한 절차를 수행하려면 먼저 사용 권한을 할당받아야 합니다. 필요한 권한을 확인하려면 [Exchange Online의 기능 사용 권한](https://docs.microsoft.com/exchange/permissions-exo/feature-permissions) 항목에서 스팸 방지 항목을 참조하세요.
 
-또한 원격 PowerShell을 통해 다음 절차를 수행할 수 있습니다. [Get-HostedOutboundSpamFilterPolicy](https://technet.microsoft.com/library/8f15c83c-c10a-4d9d-b135-35321430bdc2.aspx) cmdlet을 사용하여 설정을 검토하고 [Set-HostedOutboundSpamFilterPolicy](https://technet.microsoft.com/library/665d1b04-d4b5-4a0e-811a-4e37096ccbfd.aspx) cmdlet을 사용하여 아웃바운드 스팸 정책 설정을 편집할 수 있습니다. Windows PowerShell을 사용하여 Exchange Online Protection에 연결하는 방법에 대한 자세한 내용은 [Exchange Online Protection PowerShell에 연결](https://go.microsoft.com/fwlink/p/?linkid=627290)을 참조하세요. Windows PowerShell을 사용하여 Exchange Online에 연결하는 방법에 대한 자세한 내용은 [Connect to Exchange Online Using Remote PowerShell](https://go.microsoft.com/fwlink/p/?linkid=396554)을 참조하세요.
+또한 원격 PowerShell을 통해 다음 절차를 수행할 수 있습니다. [Get-HostedOutboundSpamFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/get-hostedoutboundspamfilterpolicy) cmdlet을 사용하여 설정을 검토하고 [Set-HostedOutboundSpamFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/set-hostedoutboundspamfilterpolicy) cmdlet을 사용하여 아웃바운드 스팸 정책 설정을 편집할 수 있습니다. Windows PowerShell을 사용하여 Exchange Online Protection에 연결하는 방법에 대한 자세한 내용은 [Exchange Online Protection PowerShell에 연결](https://go.microsoft.com/fwlink/p/?linkid=627290)을 참조하세요. Windows PowerShell을 사용하여 Exchange Online에 연결하는 방법에 대한 자세한 내용은 [Connect to Exchange Online Using Remote PowerShell](https://go.microsoft.com/fwlink/p/?linkid=396554)을 참조하세요.
 
 ## <a name="use-the-security-and-compliance-center-scc-to-edit-the-default-outbound-spam-policy"></a>SCC (보안 및 준수 센터)를 사용 하 여 기본 아웃 바운드 스팸 정책 편집
 

@@ -14,18 +14,18 @@ ms.assetid: f9d4b5b6-8f4c-44df-9b06-2f9b3058ca20
 ms.collection:
 - M365-security-compliance
 description: 이러한 문서는 외부 보낸 사람이 신뢰도를 개선 하 고 Office 365에서 사용자에 게 전자 메일을 배달 하는 기능을 향상 시키는 데 도움이 됩니다. 또한 Office 365 사용자가 아닌 경우에도 정크 메일 및 피싱 시도를 보고 하는 방법에 대 한 몇 가지 정보를 제공 합니다.
-ms.openlocfilehash: 335118eb49a078b79ae36f4813c530fe15643bae
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: da19605f97c906fae158bb8299339ffb82755faf
+ms.sourcegitcommit: 2468bcb01625f97a322459814d81b9faad717859
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38032083"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39872034"
 ---
 # <a name="sending-mail-to-office-365"></a>Office 365에 메일 보내기
 
 이러한 문서는 외부 보낸 사람이 신뢰도를 개선 하 고 Office 365에서 사용자에 게 전자 메일을 배달 하는 기능을 향상 시키는 데 도움이 됩니다. 또한 Office 365 사용자가 아닌 경우에도 정크 메일 및 피싱 시도를 보고 하는 방법에 대 한 몇 가지 정보를 제공 합니다.
 
-Office 365 고객이 아니지만 해당 사용자에 게 메일을 보내려고 하는 경우 해당 위치에 있는 것입니다. Office 365 관리자이 고 스팸을 방지 하는 데 도움이 필요한 경우에는이 섹션을 적절 하 게 사용할 수 없습니다. 대신 [스팸 방지 및 맬웨어 방지 보호](https://technet.microsoft.com/library/93c6c227-7442-4293-b64d-ec8f15c928db.aspx)로 이동 합니다.
+Office 365 고객이 아니지만 해당 사용자에 게 메일을 보내려고 하는 경우 해당 위치에 있는 것입니다. Office 365 관리자이 고 스팸을 방지 하는 데 도움이 필요한 경우에는이 섹션을 적절 하 게 사용할 수 없습니다. 대신, [Office 365에서 스팸 방지 및 맬웨어 방지 보호](anti-spam-and-anti-malware-protection.md)로 이동 합니다.
 
 |**자세한 내용**|**참조 하세요.**|
 |:-----|:-----|

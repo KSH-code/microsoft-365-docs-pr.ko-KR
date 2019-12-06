@@ -14,12 +14,12 @@ ms.assetid: 4ccab17a-6d49-4786-aa28-92fb28893e99
 ms.collection:
 - M365-security-compliance
 description: 관리자는 Exchange Online Protection에서 메시지의 SCL을 설정 하는 방법을 확인할 수 있습니다.
-ms.openlocfilehash: 8da95c5356f7cde47d378d93c721057959554631
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 35a1235ee8bbb1a61bf37c3cd29e06e62252351d
+ms.sourcegitcommit: 2468bcb01625f97a322459814d81b9faad717859
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38030632"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39871224"
 ---
 # <a name="use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages"></a>메일 흐름 규칙을 사용하여 메시지의 스팸 신뢰 수준(SCL) 설정
 
@@ -29,7 +29,7 @@ ms.locfileid: "38030632"
   
 - 이 절차의 예상 완료 시간: 10 분.
     
-- 이러한 절차를 수행하려면 먼저 사용 권한을 할당받아야 합니다. 필요한 사용 권한을 확인 하려면 [Feature permissions In Exchange Online](https://technet.microsoft.com/library/15073ce1-0917-403b-8839-02a2ebc96e16.aspx) 또는 [FEATURE permissions in EOP에서](feature-permissions-in-eop.md)"메일 흐름 규칙" 항목을 참조 하세요. 
+- 이러한 절차를 수행하려면 먼저 사용 권한을 할당받아야 합니다. 필요한 사용 권한을 확인 하려면 [Feature permissions In Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/feature-permissions) 또는 [FEATURE permissions in EOP에서](feature-permissions-in-eop.md)"메일 흐름 규칙" 항목을 참조 하세요. 
     
 - 이 항목의 절차에 적용할 수 있는 바로 가기 키에 대 한 자세한 내용은 [Exchange Online에서 exchange 관리 센터에 대 한 바로 가기 키](https://docs.microsoft.com/Exchange/accessibility/keyboard-shortcuts-in-admin-center)를 참조 하십시오.
     

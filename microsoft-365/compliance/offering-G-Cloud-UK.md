@@ -1,7 +1,7 @@
 ---
 title: 영국 정부-클라우드 (G-클라우드)
 description: Crown 상업용 서비스가 Microsoft 클라우드 서비스 분류를 정부 클라우드 v. 6으로 갱신 했습니다.
-keywords: Microsoft 365, 규정 준수, 제공
+keywords: Microsoft 365, 규정 준수, 제품
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: a79b56bc5f6150439cd945f99b53a69b34a04a45
-ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
+ms.openlocfilehash: 525ea4c129e351b157463efdf02280a1f55797ad
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38690825"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859788"
 ---
-# <a name="compliance-offering-united-kingdom-government-cloud-g-cloud"></a>규정 준수 제공: 영국 정부-클라우드 (G-Cloud)
+# <a name="united-kingdom-government-cloud-g-cloud"></a>영국 정부-클라우드 (G-클라우드)
 
 ## <a name="uk-g-cloud-overview"></a>영국 G-클라우드 개요
 
@@ -44,10 +44,10 @@ Azure 보안 및 준수 청사진을 사용 하 여 영국 G-Cloud v6 배포를 
 - Cloud App Security
 - [Dynamics 365](https://aka.ms/d365-compliance-list)
 - Intune
-- Microsoft Flow cloud service as 독립 실행형 서비스로 또는 Office 365 또는 Dynamics 365 브랜드 요금제 또는 suite에 포함
+- 독립 실행형 서비스 혹은 Office 365 혹은 Dynamics 365에 브랜딩된 플랜 또는 제품군에 포함된 형태로서의 Microsoft Flow 클라우드 서비스
 - Office 365: Exchange Online, SharePoint Online 및 비즈니스용 Skype Online
-- PowerApps 클라우드 서비스를 독립 실행형 서비스로 또는 Office 365 또는 Dynamics 365 브랜드 요금제 또는 suite에 포함
-- Power BI 클라우드 서비스를 독립 실행형 서비스로 또는 Office 365 브랜드 요금제 또는 suite에 포함
+- 독립 실행형 서비스 혹은 Office 365 혹은 Dynamics 365에 브랜딩된 플랜 또는 제품군에 포함된 형태로서의 PowerApps 클라우드 서비스
+- 독립 실행형 서비스 혹은 Office 365에 브랜딩된 플랜 또는 제품군에 포함된 형태로서의 Power BI 클라우드 서비스
 
 ## <a name="audits-reports-and-certificates"></a>감사, 보고서 및 인증서
 
@@ -102,7 +102,7 @@ It는 영국 정부에 의해 투자 되는 조직이 나 에이전시 이며 �
 
 **감사자 보고서의 복사본은 어떻게 얻을 수 있나요?**
 
-[서비스 신뢰 포털](https://support.office.com/article/Get-started-with-the-Service-Trust-Portal-for-Office-365-for-business-Azure-and-Dynamics-CRM-Online-subscriptions-f30e2353-0bd6-41ed-8347-eea1fb8d2662) 은 독립적으로 감사 된 준수 보고서를 제공 합니다. 이 포털을 사용 하 여 감사 보고서를 요청 하 여 감사자가 Microsoft 결과를 사용자의 법적 및 규정 요구 사항과 비교할 수 있습니다.
+[서비스 보안 포털](https://support.office.com/article/Get-started-with-the-Service-Trust-Portal-for-Office-365-for-business-Azure-and-Dynamics-CRM-Online-subscriptions-f30e2353-0bd6-41ed-8347-eea1fb8d2662)은 독립적으로 감사를 거친 규정 준수 보고서를 제공합니다. 이 포털을 사용 하 여 감사 보고서를 요청 하 여 감사자가 Microsoft 결과를 사용자의 법적 및 규정 요구 사항과 비교할 수 있습니다.
 
 ## <a name="resources"></a>리소스
 
@@ -111,8 +111,8 @@ It는 영국 정부에 의해 투자 되는 조직이 나 에이전시 이며 �
 - [G-Cloud 보안 원칙](https://aka.ms/UK-G-Cloud)
 - [디지털 마켓플레이스](https://www.digitalmarketplace.service.gov.uk/)
 - [Microsoft Online Services](https://aka.ms/Online-Services-Terms)
-- [Microsoft 보안 센터 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
-## <a name="download-the-offering-backgrounder"></a>제공 backgrounder 다운로드
+## <a name="download-the-offering-backgrounder"></a>제공 사항의 배경 설명 다운로드
 
-이 제품에 대 한 backgrounder 문서가 필요 한가요? [PDF](https://download.microsoft.com/download/9/E/0/9E008CC0-6783-4472-B19D-F5B6970DD73A/UK_GCloud_Compliance_Backgrounder.pdf)를 다운로드 합니다.
+이 제공 사항에 대한 배경 설명 문서가 필요한가요? [PDF](https://download.microsoft.com/download/9/E/0/9E008CC0-6783-4472-B19D-F5B6970DD73A/UK_GCloud_Compliance_Backgrounder.pdf)를 다운로드합니다.

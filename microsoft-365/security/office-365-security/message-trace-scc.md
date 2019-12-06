@@ -9,12 +9,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 3e64f99d-ac33-4aba-91c5-9cb4ca476803
 description: 관리자는 보안 & 준수 센터에서 메시지 추적을 사용 하 여 메시지에 대 한 변경 내용을 확인할 수 있습니다.
-ms.openlocfilehash: eb3730602fbef5162df48ec7795a9ac8c2b24bdd
-ms.sourcegitcommit: 83e564f07a2a039c0fb993ac5697241d33827acb
+ms.openlocfilehash: 040747a540c7f5e63d61eb149f9183ed2e5d2782
+ms.sourcegitcommit: 2468bcb01625f97a322459814d81b9faad717859
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "37993733"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39871764"
 ---
 # <a name="message-trace-in-the-security--compliance-center"></a>보안 및 준수 센터의 메시지 추적
 
@@ -131,7 +131,7 @@ ms.locfileid: "37993733"
 
 - **요약**: 시간 범위가 10 일 미만이 면 사용 가능, 추가 필터링 옵션을 사용 하지 않아도 됩니다. 결과는 **검색**을 클릭 하면 즉시 사용할 수 있습니다.
 
-- **향상 된 요약** 또는 **확장**: 이러한 보고서는 다운로드 가능한 CSV 파일로만 제공 되며, **이러한 사용자** **** **에의 한 시간 범위에 관계 없이 다음 필터링 옵션 중 하나 이상이 필요 합니다. 메시지 ID**입니다. 보낸 사람 또는 받는 사람 (예: \*@contoso .com)에 와일드 카드를 사용할 수 있습니다.
+- **향상 된 요약** 또는 **확장**: 이러한 보고서는 다운로드 가능한 CSV 파일로만 제공 되며 시간 범위: **이러한 사용자**에 **대**한 다음 필터링 옵션 중 **하나 이상이 필요 합니다.** 보낸 사람 또는 받는 사람 (예: \*@contoso .com)에 와일드 카드를 사용할 수 있습니다.
 
 **참고:**
 
@@ -139,7 +139,7 @@ ms.locfileid: "37993733"
 
 - 날짜/시간 범위에 대해 고급 요약 또는 확장 보고서를 선택할 수 있지만 일반적으로 이러한 두 가지 유형의 보고서에서는 보관 된 데이터의 마지막 4 시간을 사용할 수 없습니다.
 
-**다음**을 클릭 하면 선택한 필터링 옵션, 보고서의 고유한 제목, 메시지 추적이 완료 되 면 알림을 받는 전자 메일 주소 (편집 가능)가 나열 된 요약 페이지와 함께 표시 됩니다. 조직의 허용 도메인 중 하나에 있어야 합니다. **보고서 준비** 를 클릭 하 여 메시지 추적을 제출 합니다. 주 **메시지 추적** 페이지에서 **다운로드 가능한 보고서** 섹션에서 보고서의 상태를 확인할 수 있습니다.
+**다음**을 클릭 하면 선택한 필터링 옵션, 보고서의 고유한 제목, 메시지 추적이 완료 되 면 (편집 가능 및 조직의 허용 도메인 중 하나에 있어야 함) 알림이 수신 되는 전자 메일 주소가 나열 되는 요약 페이지가 표시 됩니다. **보고서 준비** 를 클릭 하 여 메시지 추적을 제출 합니다. 주 **메시지 추적** 페이지에서 **다운로드 가능한 보고서** 섹션에서 보고서의 상태를 확인할 수 있습니다.
 
 서로 다른 보고서 유형에 서 반환 되는 정보에 대 한 자세한 내용은 다음 섹션을 참조 하십시오.
 
@@ -235,7 +235,7 @@ ms.locfileid: "37993733"
 
 - **sender_address**: 보낸 사람의 전자 메일 주소 (*별칭*@*도메인*)입니다.
 
-- **Recipient_status**: 받는 사람에 대 한 메시지 배달 상태입니다. 메시지가 여러 받는 사람에 게 전송 되 면 \< *전자 메일 주소*\>##\<*상태*\>와 같은 형식으로 모든 받는 사람과 해당 상태가 표시 됩니다. 예:
+- **Recipient_status**: 받는 사람에 대 한 메시지 배달 상태입니다. 메시지가 여러 받는 사람에 게 전송 되 면 \< *전자 메일 주소*\>##\<*상태*\>와 같은 형식으로 모든 받는 사람과 해당 상태가 표시 됩니다. 예시는 다음과 같습니다:
 
   - **# #Receive, Send** 는 서비스에서 메시지를 받았으며 의도 한 대상으로 전송 되었음을 의미 합니다.
 
@@ -243,7 +243,7 @@ ms.locfileid: "37993733"
 
   - **# #Receive, 배달** 이란 서비스가 메시지를 받았으며 받는 사람의 사서함으로 배달 되었음을 의미 합니다.
 
-- **message_subject**: 메시지의 **제목** 필드에서 처음 256 자입니다.
+- **message_subject**: 메시지 **제목** 필드의 처음 256 자입니다.
 
 - **total_bytes**: 첨부 파일을 포함 한 메시지의 크기 (바이트)입니다.
 
@@ -257,13 +257,13 @@ ms.locfileid: "37993733"
 
 - **connector_id**: 원본 또는 대상 커넥터의 이름입니다. Exchange Online의 커넥터에 대 한 자세한 내용은 [Office 365에서 커넥터를 사용 하 여 메일 흐름 구성을](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow)참조 하세요.
 
-- **delivery_priority**<sup>*</sup>: 메시지가 **높음**, **낮음**또는 **보통** 우선 순위와 함께 전송 되었는지 여부
+- **delivery_priority**<sup>*</sup>: 메시지를 보내는 우선 순위 ( **높음**, **낮음**또는 **보통** )를 지정 합니다.
 
 <sup>*</sup>이러한 속성은 향상 된 요약 보고서 에서만 사용할 수 있습니다.
 
 ### <a name="extended-reports"></a>확장 된 보고서
 
-사용 가능 (완료 됨) 확장 보고서는 메시지 추적을 시작할 때 **다운로드 가능한 보고서** 섹션에서 사용할 수 있습니다. 고급 요약 보고서의 모든 정보는 **origin_timestamp** 및 **delivery_priority**를 제외 하 고 확장 된 보고서에서 사용할 수 있습니다. 다음 추가 정보는 확장 된 보고서 에서만 사용할 수 있습니다.
+사용 가능 (완료 됨) 확장 보고서는 메시지 추적을 시작할 때 **다운로드 가능한 보고서** 섹션에서 사용할 수 있습니다. 고급 요약 보고서의 모든 정보는 **origin_timestamp** 및 **delivery_priority**을 제외 하 고 확장 된 보고서에서 사용할 수 있습니다. 다음 추가 정보는 확장 된 보고서 에서만 사용할 수 있습니다.
 
 - **client_ip**: 메시지를 전송한 전자 메일 서버 또는 메시징 클라이언트의 ip 주소입니다.
 
@@ -273,13 +273,13 @@ ms.locfileid: "37993733"
 
 - **server_hostname**: 대상 서버의 호스트 이름 또는 FQDN입니다.
 
-- **source_context**: **원본** 필드와 관련 된 추가 정보입니다. 예:
+- **source_context**: **원본** 필드와 관련 된 추가 정보입니다. 예시는 다음과 같습니다:
 
   - `Protocol Filter Agent`
 
   - `3489061114359050000`
 
-- **원본**: 이벤트를 담당 하는 Exchange Online 구성 요소입니다. 예:
+- **원본**: 이벤트를 담당 하는 Exchange Online 구성 요소입니다. 예시는 다음과 같습니다:
 
   - `AGENT`
 
@@ -293,13 +293,13 @@ ms.locfileid: "37993733"
 
 - **recipient_address**: 메시지 받는 사람의 전자 메일 주소입니다. 전자 메일 주소가 여러 개인 경우 세미콜론(;)으로 구분합니다.
 
-- **recipient_count**: 메시지의 총 받는 사람 수입니다.
+- **recipient_count**: 메시지에 있는 받는 사람의 총 개수입니다.
 
-- **related_recipient_address**:, 및 `EXPAND` `RESOLVE` 이벤트 `REDIRECT`와 함께 사용 하 여 메시지와 연결 된 다른 받는 사람의 전자 메일 주소를 표시 합니다.
+- **related_recipient_address**: 및 `RESOLVE` 이벤트 `EXPAND`를 `REDIRECT`사용 하 여 메시지와 관련 된 다른 받는 사람의 전자 메일 주소를 표시 합니다.
 
-- **참조**:이 필드에는 특정 유형의 이벤트에 대 한 추가 정보가 포함 되어 있습니다. 예:
+- **참조**:이 필드에는 특정 유형의 이벤트에 대 한 추가 정보가 포함 되어 있습니다. 예시는 다음과 같습니다:
 
-  - **Dsn**:이 이벤트 다음에 dsn이 생성 되는 경우 관련 된 배달 상태 알림 (dsn, 배달 못 함 보고서, NDR 또는 바운스 메시지)의 **message_id** 값을 나타내는 보고서 링크가 포함 되어 있습니다. DSN 메시지의 경우이 필드에는 DSN이 생성 된 원본 메시지의 **message_id** 값이 포함 됩니다.
+  - **Dsn**:이 이벤트 이후에 dsn이 생성 되는 경우 연결 된 배달 상태 알림 (dsn, 배달 못 함 보고서, NDR 또는 바운스 메시지)의 **message_id** 값을 나타내는 보고서 링크를 포함 합니다. DSN 메시지의 경우이 필드에는 DSN이 생성 된 원본 메시지의 **message_id** 값이 포함 됩니다.
 
   - **EXPAND**: 관련 메시지의 **related_recipient_address** 값을 포함 합니다.
 
@@ -307,7 +307,7 @@ ms.locfileid: "37993733"
 
   - **SEND**: DSN 메시지의 **internal_message_id** 값을 포함 합니다.
 
-  - **TRANSFER**: 분기 중인 메시지의 **internal_message_id** 값을 포함 합니다 (예를 들어 콘텐츠 변환, 메시지 받는 사람 제한 또는 에이전트).
+  - **TRANSFER**: 분기 중인 메시지의 **internal_message_id** 값을 포함 합니다 (예를 들어 콘텐츠 변환, 메시지 받는 사람 제한 또는 에이전트로).
 
   - **MAILBOXRULE**: 받은 편지함 규칙에서 아웃 바운드 메시지를 생성 하도록 만든 인바운드 메시지의 **internal_message_id** 값을 포함 합니다.
 
@@ -315,9 +315,9 @@ ms.locfileid: "37993733"
 
 - **return_path**: 메시지를 보낸 **메일** 보낸 사람 명령에 지정 된 반송 전자 메일 주소입니다. 이 필드는 비어 있지 않지만로 `<>`표시 되는 null 보낸 사람 주소 값을 가질 수 있습니다.
 
-- **message_info**: 메시지에 대 한 추가 정보입니다. 예:
+- **message_info**: 메시지에 대 한 추가 정보입니다. 예시는 다음과 같습니다:
 
-  - 이벤트에 대 한 `DELIVER` UTC의 메시지 시작 날짜 및 `SEND` 시간입니다. 시작 날짜-시간은 메시지가 처음으로 Exchange Online 조직에 입력 되는 시간입니다. UTC 날짜 `yyyy-mm-ddThh:mm:ss.fffZ`-시간은 ISO 8601 날짜/시간 형식으로 표시 되며, 여기서 `yyyy` = 년, `mm` = month, `dd` = 일은 시간 구성 요소의 `T` 시작을 `hh` 나타내고 = hour, `mm` = minute, `ss` = second, `fff` =를 나타냅니다. 초의 소수 부분을 나타내고 UTC `Z` 를 `Zulu`표시 하는 또 다른 방법인 의미입니다.
+  - 이벤트에 대 한 `DELIVER` UTC의 메시지 시작 날짜 및 `SEND` 시간입니다. 시작 날짜-시간은 메시지가 처음으로 Exchange Online 조직에 입력 되는 시간입니다. UTC `yyyy-mm-ddThh:mm:ss.fffZ`날짜 및 시간 형식은 ISO 8601 날짜/시간 형식으로 표시 되며, 여기서 `yyyy` = 년, `mm` = month, `dd` = 일은 시간 구성 `T` 요소의 시작, `hh` = 시간, `mm` = 분, `ss` = 초, `fff` = 초의 초, 그리고 `Z` UTC를 표시 하는 또 다른 방법인 `Zulu`의미를 나타냅니다.
 
   - 인증 오류입니다. 예를 들어, 인증 오류가 발생 했 `11a` 을 때 사용 된 인증의 유형 및 값을 확인할 수 있습니다.
 
@@ -329,11 +329,11 @@ ms.locfileid: "37993733"
 
 #### <a name="custom_data-values"></a>custom_data 값
 
-이벤트의 custom_data 필드는 다양 한 Exchange Online 에이전트에서 메시지 처리 정보를 기록 하는 데 사용 됩니다. **** `AGENTINFO` 다음 섹션에서는 보다 흥미로운 에이전트 중 일부에 대해 설명 합니다.
+이벤트에 대 한 custom_data 필드는 다양 한 Exchange Online 에이전트에서 메시지 처리 정보를 기록 하는 데 사용 됩니다. **** `AGENTINFO` 다음 섹션에서는 보다 흥미로운 에이전트 중 일부에 대해 설명 합니다.
 
 #### <a name="spam-filter-agent"></a>스팸 필터 에이전트
 
-다음 **** 으로 `S:SFA` 시작 하는 custom_data 값은 스팸 필터 에이전트입니다. 주요 세부 정보는 다음 표에 설명 되어 있습니다.
+다음 **** 으로 `S:SFA` 시작 하는 custom_data 값은 스팸 필터 에이전트에서 가져온 것입니다. 주요 세부 정보는 다음 표에 설명 되어 있습니다.
 
 |**값**|**설명**|
 |:-----|:-----|
@@ -341,20 +341,20 @@ ms.locfileid: "37993733"
 |`SFV=SPM`|메시지가 콘텐츠 필터에 의해 스팸으로 표시되었습니다.|
 |`SFV=BLK`|수신 거부된 보낸 사람이 보낸 메시지이므로 필터링을 건너뛰었으며 메시지가 차단되었습니다.|
 |`SFV=SKS`|메시지가 콘텐츠 필터에 의해 처리되기 전에 이미 스팸으로 표시되었습니다. 전송 규칙과 일치하여 스팸으로 자동 표시되고 모든 추가 필터링을 무시하는 메시지가 여기에 포함됩니다.|
-|`SCL=<number>`|다양 한 SCL 값과 그 의미에 대 한 자세한 내용은 [스팸 신뢰 수준](https://technet.microsoft.com/library/jj200686.aspx)를 참조 하세요.|
-|`PCL=<number>`|메시지의 PCL(피싱 지수) 값입니다. 스팸 지 수 [수준](https://technet.microsoft.com/library/jj200686.aspx)에 문서화 된 SCL 값과 같은 방식으로 해석 될 수도 있습니다.|
+|`SCL=<number>`|다양 한 SCL 값과 그 의미에 대 한 자세한 내용은 [스팸 신뢰 수준](spam-confidence-levels.md)를 참조 하세요.|
+|`PCL=<number>`|메시지의 PCL(피싱 지수) 값입니다. 스팸 지 수 [수준](spam-confidence-levels.md)에 문서화 된 SCL 값과 같은 방식으로 해석 될 수도 있습니다.|
 |`DI=SB`|메시지의 보낸 사람이 차단되었습니다.|
 |`DI=SQ`|메시지가 격리되었습니다.|
 |`DI=SD`|메시지가 삭제되었습니다.|
 |`DI=SJ`|메시지가 받는 사람의 정크 메일 폴더로 전송 되었습니다.|
-|`DI=SN`|메시지가 위험 수준이 높은 배달 풀을 통해 라우팅되었습니다. 자세한 내용은 [아웃 바운드 메시지에 대 한 위험성이 높은 배달 풀](https://technet.microsoft.com/library/jj200746.aspx)을 참조 하십시오.|
+|`DI=SN`|메시지가 위험 수준이 높은 배달 풀을 통해 라우팅되었습니다. 자세한 내용은 [아웃 바운드 메시지에 대 한 위험성이 높은 배달 풀](high-risk-delivery-pool-for-outbound-messages.md)을 참조 하십시오.|
 |`DI=SO`|메시지가 일반 아웃바운드 배달 풀을 통해 라우팅되었습니다.|
 |`SFS=[a]|SFS=[b]`|스팸 규칙이 일치했음을 나타냅니다.|
 |`IPV=CAL`|연결 필터의 IP 허용 목록에 IP 주소가 지정되어 있어 메시지가 스팸 필터를 통과하도록 허용되었습니다.|
 |`H=<EHLOstring>`|연결 하는 전자 메일 서버의 HELO 또는 EHLO 문자열입니다.|
 |`PTR=<ReverseDNS>`|보내는 IP 주소의 PTR 레코드로, 역방향 DNS 주소라고도 합니다.|
 
-다음과 같이 스팸을 필터링 한 메시지에 대 한 예제 **custom_data** 값입니다.
+다음과 같은 스팸 메일에 대해 필터링 된 메시지에 대 한 **custom_data** 값을 예로 들 있습니다.
 
 `S:SFA=SUM|SFV=SPM|IPV=CAL|SRV=BULK|SFS=470454002|SFS=349001|SCL=9|SCORE=-1|LIST=0|DI=SN|RD=ftmail.inc.com|H=ftmail.inc.com|CIP=98.129.140.74|SFP=1501|ASF=1|CTRY=US|CLTCTRY=|LANG=en|LAT=287|LAT=260|LAT=18;`
 
@@ -377,21 +377,21 @@ ms.locfileid: "37993733"
 |`Name=<malware>`|검색된 맬웨어의 이름입니다.|
 |`File=<filename>`|맬웨어가 포함된 파일의 이름입니다.|
 
-맬웨어를 포함 하는 메시지에 대 한 **custom_data** 값 예는 다음과 같습니다.
+맬웨어를 포함 하는 메시지에 대 한 **custom_data** 값의 예는 다음과 같습니다.
 
 `S:AMA=SUM|v=1|action=b|error=|atch=1;S:AMA=EV|engine=M|v=1|sig=1.155.974.0|name=DOS/Test_File|file=filename;S:AMA=EV|engine=A|v=1|sig=201707282038|name=Test_File|file=filename`
 
 #### <a name="transport-rule-agent"></a>전송 규칙 에이전트
 
-다음 **** 으로`S:TRA` 시작 하는 custom_data 값은 메일 흐름 규칙 (전송 규칙이 라고도 함)에 대 한 전송 규칙 에이전트입니다. 주요 세부 정보는 다음 표에 설명 되어 있습니다.
+메일 **** 흐름 규칙 (전송 규칙이`S:TRA` 라고도 함)에 대 한 전송 규칙 에이전트에서 다음으로 시작 하는 custom_data 값입니다. 주요 세부 정보는 다음 표에 설명 되어 있습니다.
 
 |**값**|**설명**|
 |:-----|:-----|
 |`ETR|ruleId=<guid>`|일치된 규칙 ID입니다.|
 |`St=<datetime>`|규칙 일치가 발생 한 날짜 및 시간 (UTC)입니다.|
-|`Action=<ActionDefinition>`|적용된 작업입니다. 사용 가능한 작업 목록은 [Mail flow rule actions In Exchange Online](https://technet.microsoft.com/library/jj919237.aspx)을 참조 하십시오.|
+|`Action=<ActionDefinition>`|적용된 작업입니다. 사용 가능한 작업 목록은 [Mail flow rule actions In Exchange Online](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions)을 참조 하십시오.|
 |`Mode=<Mode>`|규칙의 모드입니다. 사용할 수 있는 값은 다음과 같습니다. <br/>• **적용**: 규칙에 대 한 모든 작업이 적용 됩니다. <br/>• **정책 팁으로 테스트:**: 모든 정책 설명 작업이 전송 되지만 다른 적용 작업은 실행 되지 않습니다. <br/>• **정책 설명이 없는 테스트**: 작업이 로그 파일에 나열 되지만 보낸 사람에 게 어떤 식으로도 알림이 제공 되지 않으며 적용 작업이 실행 되지 않습니다.|
 
-메일 흐름 규칙의 조건과 일치 하는 메시지에 대 한 **custom_data** 값 예는 다음과 같습니다.
+메일 흐름 규칙의 조건과 일치 하는 메시지에 대 한 **custom_data** 값의 예는 다음과 같습니다.
 
 `S:TRA=ETR|ruleId=19a25eb2-3e43-4896-ad9e-47b6c359779d|st=7/17/2017 12:31:25 AM|action=ApplyHtmlDisclaimer|sev=1|mode=Enforce`

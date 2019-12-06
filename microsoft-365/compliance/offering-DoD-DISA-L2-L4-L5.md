@@ -1,7 +1,7 @@
 ---
 title: 미국 보안 (DoD) Provisional 권한 부여
 description: Microsoft에서 영향 수준 5, 4 및 2에 DoD (수준 보안) Provisional 권한 부여를 받았습니다.
-keywords: Microsoft 365, 규정 준수, 제공
+keywords: Microsoft 365, 규정 준수, 제품
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: ad34c497e82ef8e61e61d6953afcca5815f1bc06
-ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
+ms.openlocfilehash: d805c5dab7e8ebeb31ea94895356a6529bcd970d
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38690792"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859958"
 ---
-# <a name="compliance-offering-us-department-of-defense-dod-provisional-authorization-at-impact-levels-2-4-and-5"></a>규정 준수 제공: 보안 수준 2, 4 및 5에서 DoD (US) Provisional 권한 부여
+# <a name="us-department-of-defense-dod-provisional-authorization-at-impact-levels-2-4-and-5"></a>보안 수준 2, 4 및 5에서 DoD (US) Provisional 권한 부여
 
 ## <a name="dod-and-disa-overview"></a>DoD 및 DISA 개요
 
@@ -60,19 +60,19 @@ FedRAMP 권한 부여에 따라 DISA 클라우드 서비스 지원에 DoD 영향
 ### <a name="covered-services-for-dod-impact-level-5"></a>DoD 영향 수준 5에 대 한 검사 된 서비스
 
 - [DoD에 대 한 Azure 정부](https://aka.ms/AzureCompliance)
-- [Office 365 미국 정부 방어](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
+- [Office 365 US Government Defense](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
 
 ### <a name="covered-services-for-dod-impact-level-4"></a>DoD 영향 수준 4에 대 한 검사 된 서비스
 
 - [Azure 정부](https://aka.ms/AzureCompliance)
-- [Office 365 미국 정부 방어](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
+- [Office 365 US Government Defense](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
 
 ### <a name="covered-services-for-dod-impact-level-2"></a>DoD 영향 수준 2에 대 한 포함 된 서비스
 
 - [Azure](https://aka.ms/AzureCompliance)
 - [Dynamics 365 미국 정부](https://aka.ms/d365-compliance-list)
 - [Office 365 미국 정부](https://aka.ms/o365-compliance-framework)
-- Power BI 클라우드 서비스를 독립 실행형 서비스로 또는 Office 365 브랜드 요금제 또는 suite에 포함
+- 독립 실행형 서비스 혹은 Office 365에 브랜딩된 플랜 또는 제품군에 포함된 형태로서의 Power BI 클라우드 서비스
 
 ## <a name="audits-reports-and-certificates"></a>감사, 보고서 및 인증서
 
@@ -84,7 +84,7 @@ DoD PA가 부여 되 면 Microsoft 클라우드 서비스를 매년 모니터링
 
 ## <a name="frequently-asked-questions"></a>자주하는 질문
 
-**조직의 인증 프로세스에서 Microsoft의 준수를 사용할 수 있나요?**
+**우리 회사의 인증 프로세스에 Microsoft의 규정 준수를 사용할 수 있나요?**
 
 예. 모든 DoD 기관은 DoD 인증을 필요로 하는 모든 프로그램 또는 이니셔티브의 기반으로 Microsoft 클라우드 서비스의 인증을 사용할 수 있습니다. (이는 DoD를 지 원하는 다른 조직에도 적용 되며 클라우드 서비스가 필요 합니다.) 그러나 이러한 서비스 외부의 구성 요소에 대 한 사용자의 권한 부여를 구현 해야 합니다.
 
@@ -102,10 +102,10 @@ DoD PA가 부여 되 면 Microsoft 클라우드 서비스를 매년 모니터링
 - [DISA 클라우드 서비스 지원](http://www.disa.mil/Computing/Cloud-Services/Cloud-Support)
 - [비 연방 정보 시스템 및 조직에서 제어 되지 않는 분류 정보 보호](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-171.pdf)
 - [NIST Cybersecurity 프레임 워크](https://www.nist.gov/cyberframework)
-- [Microsoft Common Controls 허브 규정 준수 프레임 워크](https://www.microsoft.com/trustcenter/common-controls-hub)
-- [Microsoft 정부 클라우드](https://go.microsoft.com/fwlink/p/?linkid=2087246)
-- [Microsoft 보안 센터 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Microsoft 공통 컨트롤 허브 규정 준수 프레임 워크](https://www.microsoft.com/trustcenter/common-controls-hub)
+- [Microsoft Government 클라우드](https://go.microsoft.com/fwlink/p/?linkid=2087246)
+- [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
-## <a name="download-the-offering-backgrounder"></a>제공 backgrounder 다운로드
+## <a name="download-the-offering-backgrounder"></a>제공 사항의 배경 설명 다운로드
 
-이 제품에 대 한 backgrounder 문서가 필요 한가요? [PDF](https://download.microsoft.com/download/5/0/C/50C2C028-3048-49BC-B820-D83C76BF2E52/DISA_Compliance_Backgrounder.pdf)를 다운로드 합니다.
+이 제공 사항에 대한 배경 설명 문서가 필요한가요? [PDF](https://download.microsoft.com/download/5/0/C/50C2C028-3048-49BC-B820-D83C76BF2E52/DISA_Compliance_Backgrounder.pdf)를 다운로드합니다.

@@ -1,7 +1,7 @@
 ---
 title: ITAR (무장 규정)의 국제 트래픽
 description: Azure 정부는 Arm Regs 지원 시스템에서 국제 트래픽을 구축 하는 고객을 지원 합니다.
-keywords: Microsoft 365, 규정 준수, 제공
+keywords: Microsoft 365, 규정 준수, 제품
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: b79cd30c225631b93c92f8199d008d24ecc9a06d
-ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
+ms.openlocfilehash: 9fa4195daa12ebbdafa33851f2bf458bde3d36ac
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38690818"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859658"
 ---
-# <a name="compliance-offering-international-traffic-in-arms-regulations-itar"></a>규정 준수 제공: ITAR (무장 규정)의 국제 트래픽
+# <a name="international-traffic-in-arms-regulations-itar"></a>ITAR (무장 규정)의 국제 트래픽
 
 ## <a name="itar-overview"></a>ITAR 개요
 
@@ -39,7 +39,7 @@ ITAR 규정 데이터를 호스트 하려는 고객은 Microsoft 계정 및 라�
 ## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 범위 내 클라우드 서비스
 
 - [Azure 정부](https://aka.ms/AzureCompliance)
-- [Office 365 미국 정부 방어](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
+- [Office 365 US Government Defense](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
 
 ## <a name="frequently-asked-questions"></a>자주하는 질문
 
@@ -54,8 +54,8 @@ Microsoft 계정 담당자에 게 문의 하세요.
 - [ITAR 제어 된 데이터와 함께 Azure 정부 사용](https://aka.ms/azure-itar-guide)
 - [Azure 정부](https://azure.microsoft.com/features/gov/)
 - [Office 365 미국 정부](https://products.office.com/government/office-365-web-services-for-government)
-- [Microsoft 보안 센터 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
-## <a name="download-the-offering-backgrounder"></a>제공 backgrounder 다운로드
+## <a name="download-the-offering-backgrounder"></a>제공 사항의 배경 설명 다운로드
 
-이 제품에 대 한 backgrounder 문서가 필요 한가요? [PDF](https://download.microsoft.com/download/A/7/4/A74AFF71-6EAC-4CFD-A09B-51852E1A1200/ITAR-Compliance.pdf)를 다운로드 합니다.
+이 제공 사항에 대한 배경 설명 문서가 필요한가요? [PDF](https://download.microsoft.com/download/A/7/4/A74AFF71-6EAC-4CFD-A09B-51852E1A1200/ITAR-Compliance.pdf)를 다운로드합니다.

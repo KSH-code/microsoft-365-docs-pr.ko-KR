@@ -1,7 +1,7 @@
 ---
 title: Health Information Trust 제휴 (HITRUST) 일반 보안 프레임 워크 (CSF)
 description: Azure 및 Office 365는 HITRUST (Health Information Trust 제휴) (CSF)를 인증 합니다.
-keywords: Microsoft 365, 규정 준수, 제공
+keywords: Microsoft 365, 규정 준수, 제품
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: fae04170595b953b2ec88c34e2fec5a2a7ffa9cb
-ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
+ms.openlocfilehash: ebe89a7dc63a9adbe2c40961f92c1a6656d9ae9d
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38690817"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859738"
 ---
-# <a name="compliance-offering-health-information-trust-alliance-hitrust-common-security-framework-csf"></a>규정 준수 제공: HITRUST (상태 정보 신뢰 동맹) 일반 보안 프레임 워크 (CSF)
+# <a name="health-information-trust-alliance-hitrust-common-security-framework-csf"></a>Health Information Trust 제휴 (HITRUST) 일반 보안 프레임 워크 (CSF)
 
 ## <a name="hitrust--csf-overview"></a>HITRUST-CSF 개요
 
@@ -38,9 +38,9 @@ Azure 보안 및 준수 청사진을 사용 하 여 HITRUST 배포를 가속화 
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 범위 내 클라우드 서비스
 
-- [Azure 및 Azure 정부](https://aka.ms/AzureCompliance)
+- [Azure 및 Azure Government](https://aka.ms/AzureCompliance)
 - Intune
-- [Office 365 및 Office 365 미국 정부](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
+- [Office 365 및 Office 365 U.S. Government](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
 
 ## <a name="audits-reports-and-certificates"></a>감사, 보고서 및 인증서
 
@@ -106,8 +106,8 @@ HITRUST MyCSF® 도구에 로그인 하 고 Azure에 대 한 완전히 상속 �
 - [HITRUST CSF 8.1](https://hitrustalliance.net/csf-license-agreement/)
 - [CSF 이해 및 활용](https://hitrustalliance.net/understanding-leveraging-csf/)
 - [HITRUST 공유 책임 프로그램에 대해 자세히 알아보기](https://go.microsoft.com/fwlink/p/?linkid=2100268)
-- [Microsoft 보안 센터 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
-## <a name="download-the-offering-backgrounder"></a>제공 backgrounder 다운로드
+## <a name="download-the-offering-backgrounder"></a>제공 사항의 배경 설명 다운로드
 
-이 제품에 대 한 backgrounder 문서가 필요 한가요? [PDF](https://download.microsoft.com/download/7/2/6/7265470A-862D-4665-91E8-E17BF0C8A1E2/HITRUST-Compliance.pdf)를 다운로드 합니다.
+이 제공 사항에 대한 배경 설명 문서가 필요한가요? [PDF](https://download.microsoft.com/download/7/2/6/7265470A-862D-4665-91E8-E17BF0C8A1E2/HITRUST-Compliance.pdf)를 다운로드합니다.

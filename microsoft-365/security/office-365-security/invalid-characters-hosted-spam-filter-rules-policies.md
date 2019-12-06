@@ -13,12 +13,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: 스팸 방지 구성에 잘못 된 문자가 있는 관리자가 보안 &amp; 및 준수 센터를 사용 하려고 할 때 문제를 해결 하는 데 도움이 되는 정보를 제공 합니다.
-ms.openlocfilehash: 96d81c17c33c5ecf6e7b88ebe5676336b963cb4e
-ms.sourcegitcommit: 550ea6f093ec35182e7c65a2811e9bfb07ec7d01
+ms.openlocfilehash: 5e6fa97a3f325b6fc6fdc449ba4a61282f67b644
+ms.sourcegitcommit: ba223b4fd069fc6fd09c2a2e34c770a18bc7b2a2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38039107"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39866720"
 ---
 # <a name="avoid-invalid-characters-in-your-spam-filter-rules-and-spam-filter-policy"></a>스팸 필터 규칙 및 스팸 필터 정책에 잘못 된 문자 방지 
 
@@ -37,7 +37,7 @@ ms.locfileid: "38039107"
 
 잘못 된 문자를 포함 하는 정책 및 규칙을 식별 한 후에는 Windows PowerShell cmdlet을 사용 하 여 이름을 변경할 수 있습니다. 
 
-1. [원격 PowerShell을 사용 하 여 Exchange Online에 연결](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps)합니다.
+1. [원격 PowerShell을 사용 하 여 Exchange Online에 연결](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell)합니다.
     
 2. 스팸 필터 정책의 이름을 변경 하려면 다음과 같이 Get-hostedcontentfilterpolicy cmdlet을 실행 합니다.
     
@@ -56,6 +56,6 @@ ms.locfileid: "38039107"
 
 [보안 &amp; 및 준수 센터의 위협 관리](protect-against-threats.md)
   
-[Get-hostedcontentfilterpolicy](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/set-hostedcontentfilterpolicy?view=exchange-ps)
+[Get-hostedcontentfilterpolicy](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/set-hostedcontentfilterpolicy)
 
-[Disable-hostedcontentfilterrule](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/set-hostedcontentfilterrule?view=exchange-ps)
+[Disable-hostedcontentfilterrule](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/set-hostedcontentfilterrule)

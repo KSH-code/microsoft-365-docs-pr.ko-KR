@@ -1,7 +1,7 @@
 ---
 title: NIST SP 800 – 171
 description: Microsoft 클라우드 서비스는 NIST SP 800을 준수 하며, 비 연방 정보 시스템에서 통제 되지 않은 171 (미분류 정보)를 보호 하기 위한 지침입니다.
-keywords: Microsoft 365, 규정 준수, 제공
+keywords: Microsoft 365, 규정 준수, 제품
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 8924905e83d1911dc30a420319d61940b75bfe05
-ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
+ms.openlocfilehash: e7b3dbad49fd57005dffd7e39e61906efdab771d
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38690847"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859348"
 ---
-# <a name="compliance-offering-nist-sp-800171"></a>규정 준수 제공: NIST SP 800 – 171
+# <a name="nist-sp-800171"></a>NIST SP 800 – 171
 
 ## <a name="about-nist-sp-800171"></a>정보 NIST SP 800-171
 
@@ -67,9 +67,9 @@ US 정부 기관, 컨설팅 회사, 제조 계약자 등을 처리 하거나 저
 - [Microsoft Cloud Services FedRAMP 권한 부여](https://marketplace.fedramp.gov/index.html?status=Compliant&sort=productName#/products)
 - [NIST 800-171 3.3 감사 및 책임에 대 한 Office 365 GCC High](https://info.summit7systems.com/blog/nist-3.3-audit-and-accountability-with-office-365)
 - [Microsoft 및 NIST Cybersecurity 프레임 워크](offering-nist-csf.md)
-- [Microsoft 정부 클라우드](https://www.microsoft.com/enterprise/government)
-- [Microsoft 보안 센터 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Microsoft Government 클라우드](https://www.microsoft.com/enterprise/government)
+- [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
-## <a name="download-the-offering-backgrounder"></a>제공 backgrounder 다운로드
+## <a name="download-the-offering-backgrounder"></a>제공 사항의 배경 설명 다운로드
 
-이 제품에 대 한 backgrounder 문서가 필요 한가요? [PDF](https://download.microsoft.com/download/9/8/F/98F1D966-FB62-4B58-B6F0-8F3DCCAC484A/NIST_SP-800-171-Compliance.pdf )를 다운로드 합니다.
+이 제공 사항에 대한 배경 설명 문서가 필요한가요? [PDF](https://download.microsoft.com/download/9/8/F/98F1D966-FB62-4B58-B6F0-8F3DCCAC484A/NIST_SP-800-171-Compliance.pdf )를 다운로드합니다.

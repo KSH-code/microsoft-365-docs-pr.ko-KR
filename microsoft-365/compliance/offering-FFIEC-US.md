@@ -1,7 +1,7 @@
 ---
 title: 연방 금융 기관 검사 Council (FFIEC)
 description: Microsoft는 금융 서비스 클라이언트에 게 연방 금융 기관 검사 Council (FFIEC)의 감사 요구 사항을 준수 하도록 지원 합니다.
-keywords: Microsoft 365, 규정 준수, 제공
+keywords: Microsoft 365, 규정 준수, 제품
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 61028937f469c21d50688912d9acccde7d1c117c
-ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
+ms.openlocfilehash: 3ee932493aca94109381edde1b2df0aae342a4c2
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38690786"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859858"
 ---
-# <a name="compliance-offering-federal-financial-institutions-examination-council-ffiec"></a>규정 준수 제공: 연방 금융 기관 검사 Council (FFIEC)
+# <a name="federal-financial-institutions-examination-council-ffiec"></a>연방 금융 기관 검사 Council (FFIEC)
 
 ## <a name="ffiec-overview"></a>FFIEC 개요
 
@@ -44,7 +44,7 @@ FFIEC 요구 사항을 준수 하는 데 도움이 되도록 Microsoft 클라우
 - [Azure](https://aka.ms/AzureCompliance)
 - Intune
 - [Office 365](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
-- Power BI 클라우드 서비스를 독립 실행형 서비스로 또는 Office 365 브랜드 요금제 또는 suite에 포함
+- 독립 실행형 서비스 혹은 Office 365에 브랜딩된 플랜 또는 제품군에 포함된 형태로서의 Power BI 클라우드 서비스
 
 ## <a name="audits-reports-and-certificates"></a>감사, 보고서 및 인증서
 
@@ -65,14 +65,14 @@ Azure 및 Office 365 SOC 증명 보고서
 - [Azure 금융 서비스 클라우드 위험 평가 도구](https://aka.ms/FFIEC-CSDT)
 - [Azure 보안 및 규정 준수 FFIEC 금융 서비스 청사진](https://servicetrust.microsoft.com/ViewPage/FFIECBlueprint)
 
-## <a name="other-microsoft-resources-for-financial-services"></a>재무 서비스용 기타 Microsoft 리소스
+## <a name="other-microsoft-resources-for-financial-services"></a>금융 서비스에 대한 기타 Microsoft 리소스
 
 - [Microsoft 금융 서비스 준수 프로그램](https://www.microsoft.com/download/details.aspx?id=55332)
-- [Azure의 금융 서비스 준수](https://azure.microsoft.com/resources/videos/azurecon-2015-financial-services-compliance-in-azure/)
-- [Microsoft business cloud services 및 금융 서비스](https://servicetrust.microsoft.com/viewpage/financialservicesoverview)
-- [클라우드 컴퓨팅에 대 한 공유 책임](https://aka.ms/sharedresponsibility)
-- [Microsoft 보안 센터 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Azure에서의 금융 서비스 규정 준수](https://azure.microsoft.com/resources/videos/azurecon-2015-financial-services-compliance-in-azure/)
+- [Microsoft 비즈니스 클라우드 서비스 및 금융 서비스](https://servicetrust.microsoft.com/viewpage/financialservicesoverview)
+- [클라우드 컴퓨팅에 대한 공동 책임](https://aka.ms/sharedresponsibility)
+- [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
-## <a name="download-the-offering-backgrounder"></a>제공 backgrounder 다운로드
+## <a name="download-the-offering-backgrounder"></a>제공 사항의 배경 설명 다운로드
 
-이 제품에 대 한 backgrounder 문서가 필요 한가요? [PDF](https://download.microsoft.com/download/6/2/7/62760960-C4B5-456B-9CF8-DCB7D692AAC4/FFIEC-Compliance.pdf)를 다운로드 합니다.
+이 제공 사항에 대한 배경 설명 문서가 필요한가요? [PDF](https://download.microsoft.com/download/6/2/7/62760960-C4B5-456B-9CF8-DCB7D692AAC4/FFIEC-Compliance.pdf)를 다운로드합니다.

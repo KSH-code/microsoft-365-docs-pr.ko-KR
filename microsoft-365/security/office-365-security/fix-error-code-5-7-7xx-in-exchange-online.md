@@ -14,12 +14,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Exchange Online에서 오류 코드 5.7.7 xx의 전자 메일 문제를 해결 하는 방법에 대해 알아봅니다 (테 넌 트 차단 됨).
-ms.openlocfilehash: 28ed444d821cbe00cfcb92872de15bb43a65ae28
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: d89cc0caeebbf37336a3b00346b3393dd5e74e78
+ms.sourcegitcommit: ba223b4fd069fc6fd09c2a2e34c770a18bc7b2a2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38033879"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39865850"
 ---
 # <a name="fix-email-delivery-issues-for-error-code-577xx-in-exchange-online"></a>Exchange Online에서 오류 코드 5.7.7 xx에 해당 하는 전자 메일 배달 문제 수정
 
@@ -51,7 +51,7 @@ Office 365을 사용 하면 테 넌 트에서 Exchange Online Protection (EOP)�
 
 1. 모든 도메인을 Microsoft 365 관리 센터에 등록 해야 합니다. 자세한 내용은 [여기](https://docs.microsoft.com/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains)에서 확인할 수 있습니다.
 
-2. 비정상적인 커넥터를 찾습니다. 악의적인 행위자는 종종 Office 365 테 넌 트에서 새 인바운드 커넥터를 만들어 스팸을 보냅니다. 커넥터를 확인 하는 방법에 대 한 자세한 내용은 [여기](https://docs.microsoft.com/powershell/module/exchange/mail-flow/get-inboundconnector?view=exchange-ps)에서 확인할 수 있습니다. 
+2. 비정상적인 커넥터를 찾습니다. 악의적인 행위자는 종종 Office 365 테 넌 트에서 새 인바운드 커넥터를 만들어 스팸을 보냅니다. 커넥터를 확인 하는 방법에 대 한 자세한 내용은 [여기](https://docs.microsoft.com/powershell/module/exchange/mail-flow/get-inboundconnector)에서 확인할 수 있습니다. 
 
 3. 온-프레미스 서버를 잠그고 해당 서버가 손상 되지 않았는지 확인 합니다.
 

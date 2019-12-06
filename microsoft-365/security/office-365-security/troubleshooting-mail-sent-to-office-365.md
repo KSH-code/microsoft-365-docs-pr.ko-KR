@@ -14,12 +14,12 @@ ms.assetid: f4caa4e1-e414-4b21-8822-31c08064c059
 ms.collection:
 - M365-security-compliance
 description: 이 문서에서는 Office 365의 받은 편지함에 전자 메일을 보내려고 할 때 문제가 발생 하는 보낸 사람에 대 한 문제 해결 정보와 Office 365 고객에 게 대량 메일을 전송 하기 위한 모범 사례를 제공 합니다.
-ms.openlocfilehash: b87b0745c95cd043987f49ed7f21118339d3e592
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 44fe5b984c22a4560da6cf8d63096775f5b47095
+ms.sourcegitcommit: 2468bcb01625f97a322459814d81b9faad717859
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38030702"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39872014"
 ---
 # <a name="troubleshooting-mail-sent-to-office-365"></a>Office 365로 전송한 문제 해결 메일
 
@@ -71,7 +71,7 @@ EOP 필터링 기술은 Microsoft Office 365에 대 한 스팸 방지 보호 기
 
 Microsoft가 보낸 사람의 IP 주소를 차단 했거나, 사용자 계정이 이전 스팸 활동으로 인해 금지 된 보낸 사람으로 식별 되었기 때문에 일부 배달 문제가 발생 합니다. 오류가 발생 한 NDR을 받은 것으로 생각 되 면 먼저 NDR 메시지의 지침을 따라 문제를 해결 합니다.
 
-수신 된 오류에 대 한 자세한 내용은 [온-프레미스 Exchange 2013 및 Office 365의 dsn 및 ndr](https://technet.microsoft.com/library/8e91de84-76fa-49b2-898c-c5eface76560.aspx)의 전체 SMTP 오류 코드 목록을 참조 하세요.
+수신 된 오류에 대 한 자세한 내용은 [Exchange Online의 전자 메일 배달 못 함 보고서](https://docs.microsoft.com/exchange/mail-flow-best-practices/non-delivery-reports-in-exchange-online/non-delivery-reports-in-exchange-online)의 오류 코드 목록을 참조 하십시오.
 
  예를 들어 다음 NDR이 수신 되는 경우 보내는 IP 주소가 Microsoft에 의해 차단 되었음을 나타냅니다.
 
@@ -116,7 +116,7 @@ Office 365 사용자에 게 대량 전자 메일 캠페인을 자주 수행 하 
 
 ### <a name="ensure-that-the-from-name-reflects-who-is-sending-the-message"></a>보낸 사람: 이름이 메시지를 보내는 사용자를 반영 하는지 확인 합니다.
 
-제목은 메시지의 내용에 대 한 간략 한 요약으로, 메시지 본문은 명확 하 고 succinctly 제공, 서비스 또는 제품에 대 한 정보를 나타내야 합니다. 예:
+제목은 메시지의 내용에 대 한 간략 한 요약으로, 메시지 본문은 명확 하 고 succinctly 제공, 서비스 또는 제품에 대 한 정보를 나타내야 합니다. 예시는 다음과 같습니다:
 
 정확함:
 
@@ -130,7 +130,7 @@ Office 365 사용자에 게 대량 전자 메일 캠페인을 자주 수행 하 
 
 ### <a name="always-include-an-unsubscribe-option-in-campaign-emails"></a>캠페인 전자 메일에 항상 구독 취소 옵션 포함
 
-마케팅 전자 메일, 특히 뉴스레터에는 이후의 전자 메일에 대 한 구독 취소 방법이 항상 포함 되어야 합니다. 예:
+마케팅 전자 메일, 특히 뉴스레터에는 이후의 전자 메일에 대 한 구독 취소 방법이 항상 포함 되어야 합니다. 예시는 다음과 같습니다:
 
  `This email was sent to example@contoso.com by sender@fabrikam.com.`
 
@@ -154,7 +154,7 @@ Office 365 사용자에 게 대량 전자 메일 캠페인을 자주 수행 하 
 
 - 전자 메일 메시지가 받는 사람이 보낸 사람을 주소록에 추가 하도록 요청 하면 해당 작업을 수행 해도 배달이 보장 되지 않는다는 것을 명확 하 게 명시 해야 합니다.
 
-- 메시지 본문에 포함 되는 리디렉션은 유사 하 고 일관적 이어야 하며, 여러 가지 및 다양화와 다를 수 있습니다. 이 컨텍스트의 리디렉션은 링크 및 문서와 같이 메시지를 벗어나는 모든 것을 가리킵니다. 알림 또는 구독 취소 링크가 많거나 프로필 링크를 업데이트 하는 경우 모두 같은 도메인을 가리켜야 합니다. 예:
+- 메시지 본문에 포함 되는 리디렉션은 유사 하 고 일관적 이어야 하며, 여러 가지 및 다양화와 다를 수 있습니다. 이 컨텍스트의 리디렉션은 링크 및 문서와 같이 메시지를 벗어나는 모든 것을 가리킵니다. 알림 또는 구독 취소 링크가 많거나 프로필 링크를 업데이트 하는 경우 모두 같은 도메인을 가리켜야 합니다. 예시는 다음과 같습니다:
 
   정확함:
 

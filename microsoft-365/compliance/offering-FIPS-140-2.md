@@ -1,7 +1,7 @@
 ---
 title: FIPS (연방 정보 처리 표준) 게시 140-2
 description: Microsoft는 해당 암호화 모듈이 미국 연방 정보 처리 표준을 따르는지 인증 합니다.
-keywords: Microsoft 365, 규정 준수, 제공
+keywords: Microsoft 365, 규정 준수, 제품
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 91dab1a0f064d35e836a921864817e670fd998b5
-ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
+ms.openlocfilehash: 4921fdaa2c6dc7199adb810f5320972f0c1ef8db
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38690790"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859828"
 ---
-# <a name="compliance-offering-federal-information-processing-standard-fips-publication-140-2"></a>규정 준수 제공: FIPS (정보 처리 표준) 게시 140-2
+# <a name="federal-information-processing-standard-fips-publication-140-2"></a>FIPS (연방 정보 처리 표준) 게시 140-2
 
 ## <a name="fips-140-2-standard-overview"></a>FIPS 140-2 표준 개요
 
@@ -36,9 +36,9 @@ Microsoft Windows 암호화 모듈, 각 모듈에 대 한 보안 정책 및 NVP 
 
 현재 CMVP FIPS 140-2 구현 지침은 클라우드 서비스 자체에 대 한 FIPS 140-2 유효성 검사를 수행 하지 않습니다. 클라우드 서비스 공급자는 클라우드 서비스를 구성 하는 컴퓨팅 요소에 대해 FIPS 140 유효성 검사 암호화 모듈을 얻고 작동 하도록 선택할 수 있습니다. FIPS 140-2 유효성이 검사 된 구성 요소를 포함 하는 Microsoft online services에는 다음이 포함 됩니다.
 
-- [Azure 및 Azure 정부](https://docs.microsoft.com/azure/azure-government/documentation-government-plan-security)
+- [Azure 및 Azure Government](https://docs.microsoft.com/azure/azure-government/documentation-government-plan-security)
 - [Dynamics 365 및 Dynamics 365 정부](https://docs.microsoft.com/microsoft-365/compliance/office-365-encryption-in-microsoft-dynamics-365)
-- [Office 365, Office 365 미국 정부 및 Office 365 미국 정부 방어](https://docs.microsoft.com/microsoft-365/compliance/office-365-encryption-risks-and-protections)
+- [Office 365, Office 365 U.S. Government, Office 365 U.S. Government Defense](https://docs.microsoft.com/microsoft-365/compliance/office-365-encryption-risks-and-protections)
 
 ## <a name="frequently-asked-questions"></a>자주하는 질문
 
@@ -83,8 +83,8 @@ FIPS 140-2을 준수 하려면 시스템을 FIPS 승인 모드 (암호화 모듈
 - [FIPS Pub 140-2 암호화 모듈에 대 한 보안 요구 사항](https://csrc.nist.gov/publications/fips/fips140-2/fips1402.pdf)
 - [NIST 암호화 모듈 유효성 검사 프로그램](https://csrc.nist.gov/groups/STM/cmvp/index.html)
 - [Windows, Windows Server 및 FIPS 140-2](https://docs.microsoft.com/windows/security/threat-protection/fips-140-validation)
-- [Microsoft 보안 센터 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
-## <a name="download-the-offering-backgrounder"></a>제공 backgrounder 다운로드
+## <a name="download-the-offering-backgrounder"></a>제공 사항의 배경 설명 다운로드
 
-이 제품에 대 한 backgrounder 문서가 필요 한가요? [PDF](https://download.microsoft.com/download/B/7/2/B7226B91-1A56-41E4-AC01-43FCFEE50B7F/FIPS_Compliance_Backgrounder.pdf)를 다운로드 합니다.
+이 제공 사항에 대한 배경 설명 문서가 필요한가요? [PDF](https://download.microsoft.com/download/B/7/2/B7226B91-1A56-41E4-AC01-43FCFEE50B7F/FIPS_Compliance_Backgrounder.pdf)를 다운로드합니다.

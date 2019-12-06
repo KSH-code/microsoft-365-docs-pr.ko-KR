@@ -14,18 +14,18 @@ ms.assetid: 97921f0e-832f-40c7-b56d-414faede5191
 ms.collection:
 - M365-security-compliance
 description: EAC(Exchange 관리 센터)는 Microsoft EOP(Exchange Online Protection)의 웹 기반 관리 콘솔입니다.
-ms.openlocfilehash: bc825f7ebefa5d2d73a6e9cb954389a7d76cbd73
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 6ef800b9f440f67d45f3eaa08b4731989fcf2652
+ms.sourcegitcommit: 2468bcb01625f97a322459814d81b9faad717859
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38032383"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39871864"
 ---
 # <a name="exchange-admin-center-in-exchange-online-protection"></a>Exchange Online Protection의 Exchange 관리 센터
 
 EAC(Exchange 관리 센터)는 Microsoft EOP(Exchange Online Protection)의 웹 기반 관리 콘솔입니다.
 
-이 항목의 Exchange Server 버전을 찾으십니까? Exchange [2013의 exchange 관리 센터를](https://technet.microsoft.com/library/a9aea11a-6ba3-4f4a-a76e-79072e7cfc7d.aspx)참조 하세요.
+이 항목의 Exchange Server 버전을 찾으십니까? [Exchange 관리 센터를](https://docs.microsoft.com/exchange/architecture/client-access/exchange-admin-center)참조 하십시오.
 
 이 항목의 Exchange Online 버전을 찾으시나요? Exchange [Online의 exchange 관리 센터를](https://docs.microsoft.com/exchange/exchange-admin-center)참조 하세요.
 

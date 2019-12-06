@@ -1,7 +1,7 @@
 ---
 title: APRA (오스트레일리아 Prudential 규정 기관)
 description: 금융 서비스 클라이언트가 오스트레일리아 Prudential 규정 기관의 아웃소싱 표준을 준수 하는 데 도움이 되는 Microsoft 지침입니다.
-keywords: Microsoft 365, 규정 준수, 제공
+keywords: Microsoft 365, 규정 준수, 제품
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: dbbe64b20578860d3635876ec9fb1bd3c523c9b1
-ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
+ms.openlocfilehash: 8d6314b7a2adf3f677c8343ddece9cb27bff073e
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38690783"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859248"
 ---
-# <a name="compliance-offering-australian-prudential-regulation-authority-apra"></a>규정 준수 제공: 오스트레일리아 Prudential 규제 기관 (APRA)
+# <a name="australian-prudential-regulation-authority-apra"></a>APRA (오스트레일리아 Prudential 규정 기관)
 
 ## <a name="apra-overview"></a>APRA 개요
 
@@ -75,10 +75,10 @@ APRA 규정 준수에서 데이터 및 작업 부하를 Azure로 이동 하기 �
 - [클라우드로 이동 하는 방식 탐색: 호주 금융 기관에 대 한 준수 검사 목록](https://aka.ms/microsoftaprachecklistjun17)
 - [Microsoft 오스트레일리아: 금융 서비스 클라우드](https://www.microsoft.com/en-sg/apac/trustedcloud/australia-financial-service.aspx)
 - [Microsoft 금융 서비스 준수 프로그램](https://www.microsoft.com/download/details.aspx?id=55332)
-- [Azure의 금융 서비스 준수](https://azure.microsoft.com/resources/videos/azurecon-2015-financial-services-compliance-in-azure/)
-- [Microsoft business cloud services 및 금융 서비스](https://www.microsoft.com/trustcenter/cloudservices/financialservices)
-- [Microsoft 보안 센터 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Azure에서의 금융 서비스 규정 준수](https://azure.microsoft.com/resources/videos/azurecon-2015-financial-services-compliance-in-azure/)
+- [Microsoft 비즈니스 클라우드 서비스 및 금융 서비스](https://www.microsoft.com/trustcenter/cloudservices/financialservices)
+- [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
-## <a name="download-the-offering-backgrounder"></a>제공 backgrounder 다운로드
+## <a name="download-the-offering-backgrounder"></a>제공 사항의 배경 설명 다운로드
 
-이 제품에 대 한 backgrounder 문서가 필요 한가요? [PDF](https://download.microsoft.com/download/2/6/0/26056353-2F4C-4A6A-AE5D-019E35EB8E2C/APRA-Compliance.pdf)를 다운로드 합니다.
+이 제공 사항에 대한 배경 설명 문서가 필요한가요? [PDF](https://download.microsoft.com/download/2/6/0/26056353-2F4C-4A6A-AE5D-019E35EB8E2C/APRA-Compliance.pdf)를 다운로드합니다.

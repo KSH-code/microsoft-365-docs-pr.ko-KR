@@ -1,7 +1,7 @@
 ---
 title: 영국 재무 관련 기관 (FCA)
 description: 영국의 금융 기업에 대 한 Microsoft의 지침은 재무 거래에 대 한 지침과 클라우드로의 아웃소싱에 대 한 지침이 따릅니다.
-keywords: Microsoft 365, 규정 준수, 제공
+keywords: Microsoft 365, 규정 준수, 제품
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 55cb9e1901231f63b5e02b44b97c029359718625
-ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
+ms.openlocfilehash: f009914f2a5178104968fe443bbac0655f5541b9
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38690785"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859888"
 ---
-# <a name="compliance-offering-united-kingdom-financial-conduct-authority-fca"></a>규정 준수 제공: 영국 재무 준수 기관 (FCA)
+# <a name="united-kingdom-financial-conduct-authority-fca"></a>영국 재무 관련 기관 (FCA)
 
 ## <a name="fca-uk-overview"></a>FCA (영국) 개요
 
@@ -44,7 +44,7 @@ Azure가 유 은행은 FCA 준수를 사용 하도록 설정 하는 방법을 �
 
 - [Azure](https://aka.ms/AzureCompliance)
 - Intune
-- Power BI 클라우드 서비스를 독립 실행형 서비스로 또는 Office 365 브랜드 요금제 또는 suite에 포함
+- 독립 실행형 서비스 혹은 Office 365에 브랜딩된 플랜 또는 제품군에 포함된 형태로서의 Power BI 클라우드 서비스
 
 ## <a name="frequently-asked-questions"></a>자주하는 질문
 
@@ -60,10 +60,10 @@ Azure가 유 은행은 FCA 준수를 사용 하도록 설정 하는 방법을 �
 - [FG 16/5-클라우드 및 기타 타사 IT 서비스에 대 한 회사 외주에 대 한 지침](https://www.fca.org.uk/publication/finalised-guidance/fg16-5.pdf)
 - [준수 사용: FCA 완성 된 클라우드 지침에 대 한 Microsoft 접근 방법](https://go.microsoft.com/fwlink/p/?linkid=2101561)
 - [Microsoft 금융 서비스 준수 프로그램](https://www.microsoft.com/download/details.aspx?id=55332)
-- [Azure의 금융 서비스 준수](https://azure.microsoft.com/resources/videos/azurecon-2015-financial-services-compliance-in-azure/)
-- [Microsoft business cloud services 및 금융 서비스](https://www.microsoft.com/trustcenter/cloudservices/financialservices)
-- [Microsoft 보안 센터 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Azure에서의 금융 서비스 규정 준수](https://azure.microsoft.com/resources/videos/azurecon-2015-financial-services-compliance-in-azure/)
+- [Microsoft 비즈니스 클라우드 서비스 및 금융 서비스](https://www.microsoft.com/trustcenter/cloudservices/financialservices)
+- [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
-## <a name="download-the-offering-backgrounder"></a>제공 backgrounder 다운로드
+## <a name="download-the-offering-backgrounder"></a>제공 사항의 배경 설명 다운로드
 
-이 제품에 대 한 backgrounder 문서가 필요 한가요? [PDF](https://download.microsoft.com/download/E/F/4/EF49C18B-BB31-44F8-BCDD-655702C63BE8/FCA-PRA-Compliance.pdf)를 다운로드 합니다.
+이 제공 사항에 대한 배경 설명 문서가 필요한가요? [PDF](https://download.microsoft.com/download/E/F/4/EF49C18B-BB31-44F8-BCDD-655702C63BE8/FCA-PRA-Compliance.pdf)를 다운로드합니다.

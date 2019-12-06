@@ -1,7 +1,7 @@
 ---
 title: 가족 교육 기관 권한 및 FERPA (개인 정보 취급 방침)
 description: Microsoft는 미국 가족 교육 기관 권리 및 개인 정보 취급 방침의 요구 사항을 충족 합니다.
-keywords: Microsoft 365, 규정 준수, 제공
+keywords: Microsoft 365, 규정 준수, 제품
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 02259b8c9e957e29ce695330a80b2a252478c0e1
-ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
+ms.openlocfilehash: 7ed252a681942d7c00840d3902f4c48e80231331
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38690784"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859868"
 ---
-# <a name="compliance-offering-family-educational-rights-and-privacy-act-ferpa"></a>규정 준수 제공: FERPA (가족 교육 기관 권리 및 개인 정보 보호 Act)
+# <a name="family-educational-rights-and-privacy-act-ferpa"></a>가족 교육 기관 권한 및 FERPA (개인 정보 취급 방침)
 
 ## <a name="ferpa-overview"></a>FERPA 개요
 
@@ -47,9 +47,9 @@ Microsoft 클라우드에서 FERPA의 혜택에 대해 알아봅니다. [FERPA b
 - [Azure](https://aka.ms/AzureCompliance)
 - [Dynamics 365](https://aka.ms/d365-compliance-list)
 - Intune
-- [Office 365, Office 365 미국 정부 및 Office 365 미국 정부 방어](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
+- [Office 365, Office 365 U.S. Government, Office 365 U.S. Government Defense](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
 - Power BI, PowerApps 및 Microsoft가 독립 실행형 서비스로 또는 Office 365 브랜드 요금제 또는 suite에 포함 된 것으로 이동
-- Azure DevOps 서비스
+- Azure DevOps Services
 - Windows Defender ATP
 
 ## <a name="audits-reports-and-certificates"></a>감사, 보고서 및 인증서
@@ -74,9 +74,9 @@ FERPA는 감사 또는 인증을 요구 하거나 인식 하지 않습니다.
 - [연방 레지스터: FERPA Final Rule](https://aka.ms/ferpa-reg)
 - [Microsoft Azure에 대 한 FERPA 구현 가이드](https://aka.ms/azureferpa)
 - [Azure FERPA 준수 프레임 워크 매핑](https://aka.ms/AzureFERPAMapping)
-- [Microsoft Online Services 용어](https://aka.ms/Online-Services-Terms)
-- [Microsoft 보안 센터 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Microsoft 온라인 서비스 사용 약관](https://aka.ms/Online-Services-Terms)
+- [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
-## <a name="download-the-offering-backgrounder"></a>제공 backgrounder 다운로드
+## <a name="download-the-offering-backgrounder"></a>제공 사항의 배경 설명 다운로드
 
-이 제품에 대 한 backgrounder 문서가 필요 한가요? [PDF](https://download.microsoft.com/download/2/8/3/2839FB21-353E-472E-BE57-883EC9C6185F/FERPA_Compliance_Backgrounder.pdf)를 다운로드 합니다.
+이 제공 사항에 대한 배경 설명 문서가 필요한가요? [PDF](https://download.microsoft.com/download/2/8/3/2839FB21-353E-472E-BE57-883EC9C6185F/FERPA_Compliance_Backgrounder.pdf)를 다운로드합니다.

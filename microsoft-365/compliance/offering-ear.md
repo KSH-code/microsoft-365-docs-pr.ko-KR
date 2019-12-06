@@ -1,7 +1,7 @@
 ---
 title: US 수출 관리 규정 (귀)
 description: Microsoft 클라우드 서비스 지원 고객이 미국 수출 관리 규정 (귀)이 준수 요구 사항을 충족 하 고 수출 통제 위험을 관리 하는 데 도움이 됩니다.
-keywords: Microsoft 365, 규정 준수, 제공
+keywords: Microsoft 365, 규정 준수, 제품
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 283b6a45807547f9a8d0521cf2c6793a2a15c4d6
-ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
+ms.openlocfilehash: b0bb12a4c7f7120d1a607de53ec97d7e8ce915e8
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38690833"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859398"
 ---
-# <a name="compliance-offering-us-export-administration-regulations-ear"></a>규정 준수 제공: US 수출 관리 규정 (귀)
+# <a name="us-export-administration-regulations-ear"></a>US 수출 관리 규정 (귀)
 
 ## <a name="about-the-ear"></a>귀 정보
 
@@ -48,7 +48,7 @@ Microsoft 기술, 제품 및 서비스는 귀를 들을 수 있습니다. 귀, M
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 범위 내 클라우드 서비스
 
-- [Azure 및 Azure 정부](https://aka.ms/AzureCompliance)
+- [Azure 및 Azure Government](https://aka.ms/AzureCompliance)
 - [Office 365 정부 (GCC-High 및 DoD)](https://aka.ms/Office-365-Export-Controls)
 - Intune
 
@@ -88,4 +88,4 @@ Microsoft 기술, 제품 및 서비스는 귀를 들을 수 있습니다. 귀, M
 - [암호화에 대 한 수출 제한 사항](https://docs.microsoft.com/windows/uwp/security/export-restrictions-on-cryptography)
 - [Microsoft 및 FIPS 140-2](offering-fips-140-2.md)
 - [Microsoft 및 ITAR](offering-itar.md)
-- [Microsoft 보안 센터 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)

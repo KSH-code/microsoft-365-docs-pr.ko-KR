@@ -1,7 +1,7 @@
 ---
 title: 금융 업계의 FINRA (규정 기관) Rule 4511 (c) 미국
 description: 독립적인 평가 회사에서는 Azure 및 Office 365에서 재무 기업이 FINRA 규칙 4511 레코드 보존 및 불변의 저장소 요구 사항을 충족 하도록 도울 수 있음을 확인 했습니다.
-keywords: Microsoft 365, 규정 준수, 제공
+keywords: Microsoft 365, 규정 준수, 제품
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 80114436580e388afce0508f69dc892c0eaaf435
-ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
+ms.openlocfilehash: af2e282ac992dbf6935e9a2c1a9c7144d26aad39
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38690788"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859838"
 ---
-# <a name="compliance-offering-financial-industry-regulatory-authority-finra-rule-4511c-united-states"></a>규정 준수 제공: 금융 업계 규정 기관 (FINRA) Rule 4511 (c) 미국
+# <a name="financial-industry-regulatory-authority-finra-rule-4511c-united-states"></a>금융 업계의 FINRA (규정 기관) Rule 4511 (c) 미국
 
 ## <a name="about-finra-rule-4511"></a>정보-FINRA 규칙 4511
 
@@ -66,21 +66,21 @@ Office 365의 보관 기능은 전자 메일, 음성 메일, 공유 문서, 인�
 ## <a name="how-to-implement"></a>구현 방법
 
 - **금융 서비스 규정**: 클라우드 컴퓨팅 및 Microsoft online 서비스에 대 한 주요 US 규정 원칙을 준수 합니다. [자세한 정보](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=5b483567-00b0-4d86-96ae-ee887dadb61c&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides)
-- **위험 요소 분석 & 준수 가이드**: Microsoft 클라우드 서비스의 위험 요소를 평가 하는 거 버 넌 스 모델을 만들고, 조정기 알림을 만듭니다. [자세한 정보](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=edee9b14-3661-4a16-ba83-c35caf672bd7&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers)
-- **재무 사용 사례**: 사례 개요, 자습서 및 기타 리소스를 사용 하 여 금융 서비스용 Azure 솔루션을 작성 합니다.
+- **위험 평가 및 준수 가이드**: Microsoft 클라우드 서비스의 위험 평가와 규제 기관 공지에 대한 거버넌스 모델을 만들 수 있습니다. [자세한 정보](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=edee9b14-3661-4a16-ba83-c35caf672bd7&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers)
+- **금융 유스케이스**: 금융 서비스용 Azure 솔루션을 구축하기 위한 유스케이스 개요, 자습서 및 기타 리소스..
 
 [자세한 정보](https://docs.microsoft.com/azure/industry/financial/)
 
 ## <a name="resources"></a>리소스
 
 - [Microsoft 금융 서비스 준수 프로그램](https://download.microsoft.com/download/6/4/7/64707E3E-6D3E-45D0-8207-A0EA3201B4A6/Microsoft%20Cloud%20-%20Financial%20Services%20Compliance%20Program%20\(Print\).pdf)
-- [Microsoft business cloud services 및 금융 서비스](https://servicetrust.microsoft.com/viewpage/financialservicesoverview)
-- [Azure의 금융 서비스 준수](https://azure.microsoft.com/resources/videos/azurecon-2015-financial-services-compliance-in-azure/)
+- [Microsoft 비즈니스 클라우드 서비스 및 금융 서비스](https://servicetrust.microsoft.com/viewpage/financialservicesoverview)
+- [Azure에서의 금융 서비스 규정 준수](https://azure.microsoft.com/resources/videos/azurecon-2015-financial-services-compliance-in-azure/)
 - [Azure 금융 서비스 클라우드 위험 평가 도구](https://servicetrust.microsoft.com/ViewPage/FFIECBlueprint?command=Download&downloadType=Document&downloadId=079a1973-711a-428f-9312-9ddd290cff7b&docTab=c726d5c0-2d1e-11e8-a485-57140ec19669_PaaS)
 - [Microsoft Office 365 보존 정책](https://docs.microsoft.com/office365/securitycompliance/retention-policies)
 - [Microsoft 금융 서비스 블로그](https://techcommunity.microsoft.com/t5/Financial-Services-Blog/bg-p/FinancialServicesBlog)
-- [Microsoft 보안 센터 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
-## <a name="download-the-offering-backgrounder"></a>제공 backgrounder 다운로드
+## <a name="download-the-offering-backgrounder"></a>제공 사항의 배경 설명 다운로드
 
-이 제품에 대 한 backgrounder 문서가 필요 한가요? [PDF](https://download.microsoft.com/download/6/B/2/6B20520B-E264-4B58-9EE2-DD6C87D9E254/FINRA-Compliance.pdf)를 다운로드 합니다.
+이 제공 사항에 대한 배경 설명 문서가 필요한가요? [PDF](https://download.microsoft.com/download/6/B/2/6B20520B-E264-4B58-9EE2-DD6C87D9E254/FINRA-Compliance.pdf)를 다운로드합니다.

@@ -1,7 +1,7 @@
 ---
 title: 형사법 (CJIS) 보안 정책
 description: Microsoft 정부 클라우드 서비스는 미국 범죄를 대상으로 하는 정보 서비스 보안 정책을 따릅니다.
-keywords: Microsoft 365, 규정 준수, 제안
+keywords: Microsoft 365, 규정 준수, 제품
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 7fb31d007b7935d8a2beef93b80ca1958c7a3a27
-ms.sourcegitcommit: 58a7bd70a4bcf52530baf5f82507fd5dc4455fd9
+ms.openlocfilehash: 8d28327e4627351c27140e954c2fa26571d1689d
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "39668816"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39860048"
 ---
-# <a name="compliance-offering-criminal-justice-information-services-cjis-security-policy"></a>준수 제공: CJIS (범죄 규정 정보 서비스) 보안 정책
+# <a name="criminal-justice-information-services-cjis-security-policy"></a>형사법 (CJIS) 보안 정책
 
 ## <a name="cjis-overview"></a>CJIS 개요
 

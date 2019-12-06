@@ -1,7 +1,7 @@
 ---
 title: 연방 위험 및 권한 부여 관리 프로그램 (FedRAMP)
 description: Microsoft에는 미국 연방 위험 및 권한 부여 관리 프로그램인 P-ATOs 및 ATOs가 부여 되었습니다.
-keywords: Microsoft 365, 규정 준수, 제공
+keywords: Microsoft 365, 규정 준수, 제품
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 5edd043db7d5f8c401aa287032ddf7cfd9b63982
-ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
+ms.openlocfilehash: 0e967520dbbac845861168d3eea5053e18a46edf
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38690829"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859808"
 ---
-# <a name="compliance-offering-federal-risk-and-authorization-management-program-fedramp"></a>규정 준수 제공: FedRAMP (미 연방 위험 및 권한 부여 관리 프로그램)
+# <a name="federal-risk-and-authorization-management-program-fedramp"></a>연방 위험 및 권한 부여 관리 프로그램 (FedRAMP)
 
 ## <a name="fedramp-overview"></a>FedRAMP 개요
 
@@ -64,12 +64,12 @@ P-ATO에 대 한 권한이 부여 되 면 CSP는 여전히 인증을 받아야 �
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 범위 내 클라우드 서비스
 
-- [Azure 및 Azure 정부](https://go.microsoft.com/fwlink/p/?linkid=2095323)
+- [Azure 및 Azure Government](https://go.microsoft.com/fwlink/p/?linkid=2095323)
 - [Dynamics 365 미국 정부](https://aka.ms/d365-compliance-list)
 - Intune
-- [Office 365 및 Office 365 미국 정부](https://aka.ms/o365-compliance-framework)
-- Office 365 미국 정부 방어
-- Power BI 클라우드 서비스를 독립 실행형 서비스로 또는 Office 365 브랜드 요금제 또는 suite에 포함
+- [Office 365 및 Office 365 U.S. Government](https://aka.ms/o365-compliance-framework)
+- Office 365 US Government Defense
+- 독립 실행형 서비스 혹은 Office 365에 브랜딩된 플랜 또는 제품군에 포함된 형태로서의 Power BI 클라우드 서비스
 - Microsoft Defender ATP
 
 > [!NOTE]
@@ -79,7 +79,7 @@ P-ATO에 대 한 권한이 부여 되 면 CSP는 여전히 인증을 받아야 �
 
 Microsoft는 ATO 및 ATOs를 유지 하기 위해 매년 클라우드 서비스를 recertify 해야 합니다. 이렇게 하려면 Microsoft에서 해당 보안 제어를 지속적으로 모니터링 하 고 평가 해야 하며 해당 서비스의 보안이 준수 되 고 있음을 보여 줍니다.
 
-- [Microsoft 클라우드 서비스 권한 부여](https://marketplace.fedramp.gov/#/product/azure-government?sort=productName&productNameSearch=azure)
+- [Microsoft 클라우드 서비스 인증](https://marketplace.fedramp.gov/#/product/azure-government?sort=productName&productNameSearch=azure)
 - [Microsoft FedRAMP 감사 보고서](https://aka.ms/MicrosoftFedRAMPAuditDocuments)
 
 ## <a name="ramp-up-your-fedramp-solutions-on-azure-government"></a>Azure 정부에서 FedRAMP 솔루션 진입
@@ -109,11 +109,11 @@ FedRAMP을 성공적으로 탐색 하 고 요구 사항을 충족 하기 위해 
 ## <a name="resources"></a>리소스
 
 - [연방 위험 및 권한 부여 관리 프로그램](https://www.fedramp.gov/)
-- [Microsoft Common Controls 허브 규정 준수 프레임 워크](https://www.microsoft.com/trustcenter/common-controls-hub)
-- [Microsoft 정부 클라우드](https://go.microsoft.com/fwlink/p/?linkid=2087246)
+- [Microsoft 공통 컨트롤 허브 규정 준수 프레임 워크](https://www.microsoft.com/trustcenter/common-controls-hub)
+- [Microsoft Government 클라우드](https://go.microsoft.com/fwlink/p/?linkid=2087246)
 - [FedRAMP 보안 평가 프레임 워크](https://go.microsoft.com/fwlink/p/?linkid=2099507)
-- [Microsoft 보안 센터 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
-## <a name="download-the-offering-backgrounder"></a>제공 backgrounder 다운로드
+## <a name="download-the-offering-backgrounder"></a>제공 사항의 배경 설명 다운로드
 
-이 제품에 대 한 backgrounder 문서가 필요 한가요? [PDF](https://download.microsoft.com/download/6/B/7/6B7B25B8-D44F-439A-80A9-1ED04C88B922/FedRAMP_backgrounder-2018.pdf)를 다운로드 합니다.
+이 제공 사항에 대한 배경 설명 문서가 필요한가요? [PDF](https://download.microsoft.com/download/6/B/7/6B7B25B8-D44F-439A-80A9-1ED04C88B922/FedRAMP_backgrounder-2018.pdf)를 다운로드합니다.

@@ -1,7 +1,7 @@
 ---
 title: 새로운 뉴질랜드 정부 클라우드 컴퓨팅 보안 및 개인 정보 고려 사항
 description: Microsoft NZ는 새로운 뉴질랜드 클라우드 컴퓨팅 프레임 워크에 게시 된 질문을 해결 합니다.
-keywords: Microsoft 365, 규정 준수, 제공
+keywords: Microsoft 365, 규정 준수, 제품
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: eb14bbe784685fb79ba09f28bc9ca12216b24d57
-ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
+ms.openlocfilehash: 2722c5df4b96f28a449057abae353350b036a13b
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38690844"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859338"
 ---
-# <a name="compliance-offering-new-zealand-government-cloud-computing-security-and-privacy-considerations"></a>준수 제공: 뉴질랜드 정부 클라우드 컴퓨팅 보안 및 개인 정보 보호 고려 사항
+# <a name="new-zealand-government-cloud-computing-security-and-privacy-considerations"></a>새로운 뉴질랜드 정부 클라우드 컴퓨팅 보안 및 개인 정보 고려 사항
 
 ## <a name="new-zealand-government-cloud-computing-security-and-privacy-overview"></a>새로운 뉴질랜드 정부 클라우드 컴퓨팅 보안 및 개인 정보 보호 개요
 
@@ -38,10 +38,10 @@ Azure 보안 및 준수 청사진을 사용 하 여 NZ CC Framework 배포를 �
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 범위 내 클라우드 서비스
 
-- [Azure 및 Azure 정부](https://aka.ms/AzureCompliance)
+- [Azure 및 Azure Government](https://aka.ms/AzureCompliance)
 - [Dynamics 365](https://aka.ms/d365-compliance-list)
 - Intune
-- Power BI 클라우드 서비스를 독립 실행형 서비스로 또는 Office 365 브랜드 요금제 또는 suite에 포함
+- 독립형 서비스 혹은 Office 365에 브랜딩된 플랜 또는 제품군에 포함된 형태로서의 Power BI 클라우드 서비스
 - [Office 365](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
 - Exchange Online, SharePoint Online 및 비즈니스용 Skype Online Microsoft NZ는 GCIO 팀과 협력 하 여 Exchange Online에 대 한 참조 아키텍처를 개발 하 고 백서 [Office 365: seemail And Reference architecture](https://download.microsoft.com/download/8/5/9/859CDCEE-D293-47D8-9B6A-670B108B48E1/Microsoft_Office_365_white_paper_EN_US.pdf) 에 설명 된 전자 메일을 통합 했습니다.
 
@@ -62,9 +62,9 @@ GCIO 요구 사항이 적용 되는 조직 (공용 및 비공용 서비스 부�
 - [NZ 정부 ICT 전략 2015](https://www.ict.govt.nz/strategy-and-action-plan/strategy/)
 - [클라우드 컴퓨팅을 위한 NZ 정부 요구 사항](https://aka.ms/NZ-Cloud-Requirements)
 - [클라우드 컴퓨팅: 정보 보안 및 개인 정보 보호 고려 사항 (ISPC)](https://aka.ms/NZ-Cloud-Computing-Considerations)
-- [Microsoft Online Services 용어](https://aka.ms/Online-Services-Terms)
+- [Microsoft 온라인 서비스 사용 약관](https://aka.ms/Online-Services-Terms)
 - [Office 365: SEEMail 통합 및 참조 아키텍처](https://download.microsoft.com/download/8/5/9/859CDCEE-D293-47D8-9B6A-670B108B48E1/Microsoft_Office_365_white_paper_EN_US.pdf) (클라우드 서비스 채택에 대 한 추가 Microsoft NZ 지침)
-- [Microsoft 보안 센터 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
 ## <a name="microsoft-responses-to-cloud-computing-ipsc"></a>"클라우드 컴퓨팅 IPSC"에 대 한 Microsoft 응답
 
@@ -74,6 +74,6 @@ GCIO 요구 사항이 적용 되는 조직 (공용 및 비공용 서비스 부�
 - [Office 365](https://aka.ms/O365-NZ-Response)
 - [Power BI](https://download.microsoft.com/download/5/1/7/51726B9B-2E76-49C4-9D4F-A36BF025CB93/Response-to-GCIO-105-questions-Power-BI.pdf)
 
-## <a name="download-the-offering-backgrounder"></a>제공 backgrounder 다운로드
+## <a name="download-the-offering-backgrounder"></a>제품 배경 설명 다운로드
 
-이 제품에 대 한 backgrounder 문서가 필요 한가요? [PDF](https://download.microsoft.com/download/6/6/4/664E4B6F-15C6-421E-8F74-3FA468587A47/NZ_CC_Compliance_Backgrounder.pdf)를 다운로드 합니다.
+이 제공 사항에 대한 배경 설명 문서가 필요한가요? [PDF](https://download.microsoft.com/download/6/6/4/664E4B6F-15C6-421E-8F74-3FA468587A47/NZ_CC_Compliance_Backgrounder.pdf)를 다운로드합니다.

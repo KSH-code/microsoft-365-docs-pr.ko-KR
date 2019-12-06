@@ -1,7 +1,7 @@
 ---
 title: 보건부 전자 제품 및 정보 기술 (MeitY)
 description: Microsoft는 인도의 전자 제품 및 정보 기술에 대 한 보건부의 모든 인정을 받습니다.
-keywords: Microsoft 365, 규정 준수, 제공
+keywords: Microsoft 365, 규정 준수, 제품
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 34e20578d09079031d4a41bafdf199d055ced09a
-ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
+ms.openlocfilehash: b5fb48ebaf16d2f7c17645c347185326cde6eefa
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38690810"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859578"
 ---
-# <a name="compliance-offering-ministry-of-electronics-and-information-technology-meity"></a>규정 준수 제공: 보건부 전자 제품 및 정보 기술 (MeitY)
+# <a name="ministry-of-electronics-and-information-technology-meity"></a>보건부 전자 제품 및 정보 기술 (MeitY)
 
 ## <a name="meity-overview"></a>MeitY 개요
 
@@ -58,8 +58,8 @@ Microsoft의 MeitY 인정은 품질 보증 서비스를 제공 하는 정부 조
 - [전자 제품 및 정보 기술 보건부](https://meity.gov.in/)
 - [MeghRaj 클라우드 이니셔티브](https://meity.gov.in/content/gi-cloud-meghraj)
 - [공인 클라우드 서비스 공급자](https://meity.gov.in/content/gi-cloud-meghraj)
-- [Microsoft 보안 센터 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
-## <a name="download-the-offering-backgrounder"></a>제공 backgrounder 다운로드
+## <a name="download-the-offering-backgrounder"></a>제공 사항의 배경 설명 다운로드
 
-이 제품에 대 한 backgrounder 문서가 필요 한가요? [PDF](https://download.microsoft.com/download/E/8/B/E8B5BC95-2B66-4759-8BBE-31D2F641B3FD/MeitY-Compliance.pdf)를 다운로드 합니다.
+이 제공 사항에 대한 배경 설명 문서가 필요한가요? [PDF](https://download.microsoft.com/download/E/8/B/E8B5BC95-2B66-4759-8BBE-31D2F641B3FD/MeitY-Compliance.pdf)를 다운로드합니다.

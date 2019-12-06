@@ -14,12 +14,12 @@ ms.assetid: 19fd3e0f-8dbf-4049-a810-2c8ee6cefd48
 ms.collection:
 - M365-security-compliance
 description: 전자 메일을 사용할 때 사용자의 신뢰를 유지 하기 위해 Microsoft는 사용자를 보호 하기 위한 다양 한 정책 및 기술을 배치 했습니다.
-ms.openlocfilehash: cabb583aebc1baff1eb9f8286fceb2864b26deea
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: f98044b65b49bd9594708ea9e6f798156037ac34
+ms.sourcegitcommit: 2468bcb01625f97a322459814d81b9faad717859
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38031773"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39871264"
 ---
 # <a name="services-for-non-customers-sending-mail-to-office-365"></a>비 고객을 위한 Office 365 메일을 보내는 서비스
 
@@ -50,7 +50,7 @@ Microsoft에서는 Office 365 받은 편지함에 메일을 보내는 데 문제
 
 - 다른 방법을 사용 하 여 전자 메일을 보내려고 하는 Office 365 고객에 게 문의 하 여 사용자에 게 Microsoft 지원에 문의 하 여 지원 티켓을 열도록 요청 합니다. 법적 이유가 있는 경우 Microsoft Support는 차단 되는 IP 공간을 소유한 보낸 사람과 직접 통신 해야 합니다. 그러나 일반적으로 고객은 지원 티켓을 열 수 없습니다.
 
-  Office 365에 대 한 Microsoft 기술 지원에 대 한 자세한 내용은 [지원](https://technet.microsoft.com/library/office-365-support.aspx)항목을 참조 하십시오.
+  Office 365에 대 한 Microsoft 기술 지원에 대 한 자세한 내용은 [지원](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/support)항목을 참조 하십시오.
 
 ## <a name="office-365-anti-spam-ip-delist-portal"></a>Office 365 스팸 방지 IP 목록 포털
 

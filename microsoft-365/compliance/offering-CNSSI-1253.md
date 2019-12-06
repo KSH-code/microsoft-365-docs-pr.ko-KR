@@ -1,7 +1,7 @@
 ---
 title: 위원회의 국가 보안 시스템 명령 아니요 1253 (CNSSI 1253)
 description: Azure 정부용 CNSSI 1253 보안 제어를 사용 하 여 높은 기밀성, 높은 무결성 및 높은 가용성이 필요한 미국 정부 시스템을 지원 합니다.
-keywords: Microsoft 365, 규정 준수, 제공
+keywords: Microsoft 365, 규정 준수, 제품
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 232d8ddcdcd108d069247bc76850d7d17f18b629
-ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
+ms.openlocfilehash: 12af7c84a922e3db0b7d234dce6f4095ba062a64
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38690805"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39860038"
 ---
-# <a name="compliance-offering-committee-on-national-security-systems-instruction-no-1253-cnssi-1253"></a>규정 준수 제공: 국립 보안 시스템에 대 한 위원회의 지침 아니오 1253 (CNSSI 1253)
+# <a name="committee-on-national-security-systems-instruction-no-1253-cnssi-1253"></a>위원회의 국가 보안 시스템 명령 아니요 1253 (CNSSI 1253)
 
 ## <a name="about-cnss-instruction-1253"></a>CNSS 명령 1253 정보
 
@@ -64,9 +64,9 @@ Azure 정부 (FedRAMP 패키지 ID F1603087869)에서 이러한 컨트롤을 다
 - [Azure 정부](https://aka.ms/Azure-Government)
 - [Microsoft 및 FedRAMP](offering-fedramp.md)
 - [Microsoft 및 DoD Provisional 권한 부여](offering-DoD-DISA-L2-L4-L5.md)
-- [Microsoft 정부 클라우드](https://www.microsoft.com/enterprise/government)
-- [Microsoft 보안 센터 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Microsoft Government 클라우드](https://www.microsoft.com/enterprise/government)
+- [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
-## <a name="download-the-offering-backgrounder"></a>제공 backgrounder 다운로드
+## <a name="download-the-offering-backgrounder"></a>제공 사항의 배경 설명 다운로드
 
-이 제품에 대 한 backgrounder 문서가 필요 한가요? [PDF](https://download.microsoft.com/download/6/E/C/6EC27E89-826E-44CB-A107-2A37AC879206/CNSSI_1253-Compliance.pdf)를 다운로드 합니다.
+이 제공 사항에 대한 배경 설명 문서가 필요한가요? [PDF](https://download.microsoft.com/download/6/E/C/6EC27E89-826E-44CB-A107-2A37AC879206/CNSSI_1253-Compliance.pdf)를 다운로드합니다.

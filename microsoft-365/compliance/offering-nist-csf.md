@@ -1,7 +1,7 @@
 ---
 title: 국내 표준 협회 및 기술 (NIST) Cybersecurity Framework (CSF)
 description: Microsoft 클라우드 서비스는 NIST (표준 협회) Cybersecurity Framework (CSF)를 충족 합니다.
-keywords: Microsoft 365, 규정 준수, 제안
+keywords: Microsoft 365, 규정 준수, 제품
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 7dae370f9fd41ba0a04dd4c327a238dac3841da3
-ms.sourcegitcommit: 062be618f0b18611001552273bb175020420e463
+ms.openlocfilehash: 8ed1da925da40b439d449638887808aa9830d6e0
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "39676655"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859366"
 ---
-# <a name="compliance-offering-national-institute-of-standards-and-technology-nist-cybersecurity-framework-csf"></a>규정 준수 제공: 국내 표준 및 기술 (NIST) Cybersecurity Framework (CSF)
+# <a name="national-institute-of-standards-and-technology-nist-cybersecurity-framework-csf"></a>국내 표준 협회 및 기술 (NIST) Cybersecurity Framework (CSF)
 
 ## <a name="nist-csf-overview"></a>NIST CSF 개요
 

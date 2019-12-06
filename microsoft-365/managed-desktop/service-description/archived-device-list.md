@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.author: jaimeo
 ms.localizationpriority: normal
-ms.openlocfilehash: 3372332529f9391b5cea8da4095d04178e8b731b
-ms.sourcegitcommit: 8fda7852b2a5baa92b8a365865b014ea6d100bbc
+ms.openlocfilehash: 437029198d48ef8b2d9d91466108fbef989486c2
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "39813878"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859288"
 ---
 # <a name="microsoft-managed-desktop-archived-devices"></a>Microsoft Managed Desktop 보관 장치
 
@@ -34,6 +34,7 @@ Microsoft Managed Desktop에 등록 하려면 장치는 다음 모델 중 하나
 | 모델  | 최소 사양  | 추가 요구 사항   | 퇴직 날짜 |
 |---------|---------|---------|---------|
 | HP EliteBook 830/840/850 G5| 128 GB/Intel i5/8gb RAM | 5VS01AV, IR 카메라 또는 지문 센서가 필요한 SKU  | **2 월 15 일 2023** |
+|Surface Book 2| 256 GB/Intel i5/8gb RAM | 없음 | **2022 년 11 월 16 일** |
 |Surface 랩탑| 256 GB/Intel i5/8gb RAM | 없음 | **5 월 20 일, 2022** |
 |Surface Pro| 256 GB/Intel i5/8gb RAM | 없음 | **6 월 15 일 2022** |
 

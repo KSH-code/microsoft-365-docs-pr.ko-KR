@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 ms.assetid: 887c710b-0ec6-4ff0-8065-5f05f74afef3
 description: 관리자는 Exchange Online에서 S/MIME을 사용 하는 방법에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: 64a76d1e9eebea86e548a06bf05d0030b0396d3d
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 87f7438b8297b0c7d6d7674cd2c02db6be14bb28
+ms.sourcegitcommit: 2468bcb01625f97a322459814d81b9faad717859
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38032153"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39872054"
 ---
 # <a name="smime-for-message-signing-and-encryption-in-exchange-online"></a>Exchange Online의 메시지 서명 및 암호화를 위한 S/MIME
 
@@ -37,7 +37,7 @@ Exchange Online 관리자로 서 조직의 사서함에 대해 S/MIME 기반 보
 
 이러한 각 끝점에 대해 S/MIME을 설정 하기 위해 수행 하는 단계는 약간 다릅니다. 일반적으로는 다음 단계를 수행 해야 합니다.
 
-- S/MIME 인증서를 발급하도록 Windows 기반 인증 기관을 설치하고 공개 키 인프라를 설정합니다. 타사 인증서 공급자가 발급한 인증서도 지원됩니다. 자세한 내용은 [Active Directory 인증서 서비스 개요](https://technet.microsoft.com/library/hh831740.aspx)를 참조하세요.
+- S/MIME 인증서를 발급하도록 Windows 기반 인증 기관을 설치하고 공개 키 인프라를 설정합니다. 타사 인증서 공급자가 발급한 인증서도 지원됩니다. 자세한 내용은 [Active Directory 인증서 서비스 개요](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/hh831740(v=ws.11))를 참조하세요.
 
 - **UserSMIMECertificate** 및/또는 **UserCertificate** 특성의 온-프레미스 AD DS 계정에 사용자 인증서를 게시 합니다.
 
@@ -76,6 +76,6 @@ S/MIME을 사용하려면 대개 기업 간, 그리고 기업과 소비자 간�
 
 ## <a name="more-information"></a>추가 정보
 
-[웹용 Outlook](https://technet.microsoft.com/library/3814b665-01e8-4881-9a44-163f14789ee4.aspx)
+[웹용 Outlook](https://docs.microsoft.com/exchange/exchange-admin-center)
 
-[보안 메일(2000)](https://technet.microsoft.com/library/cc962043.aspx)
+[보안 메일(2000)](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-2000-server/cc962043(v=technet.10))

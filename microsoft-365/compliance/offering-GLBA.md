@@ -1,7 +1,7 @@
 ---
 title: GLBA(Gramm-Leach-Bliley Act)
 description: Microsoft는 금융 서비스 클라이언트가 금융-Gramm-leach-bliley-Gramm-leach-bliley Act (GLBA)의 개인 정보 및 보안 요구 사항을 준수 하도록 지원 합니다.
-keywords: Microsoft 365, 규정 준수, 제공
+keywords: Microsoft 365, 규정 준수, 제품
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 8da59d5571b559915b3c4cd7f0e1c6bc6bec8866
-ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
+ms.openlocfilehash: dc0e77623346bb3cb089069196780870e87af8ac
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38690821"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859768"
 ---
-# <a name="compliance-offering-gramm-leach-bliley-act-glba"></a>규정 준수 제공: 금융-Gramm-leach-bliley-Gramm-leach-bliley Act (GLBA)
+# <a name="gramm-leach-bliley-act-glba"></a>GLBA(Gramm-Leach-Bliley Act)
 
 ## <a name="glba-overview"></a>GLBA 개요
 
@@ -41,7 +41,7 @@ Microsoft는 azure 및 office 365 서비스에 대 한 위험 평가를 보다 �
 - [Dynamics 365](https://aka.ms/d365-compliance-list)
 - Intune
 - [Office 365](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
-- Power BI 클라우드 서비스를 독립 실행형 서비스로 또는 Office 365 브랜드 요금제 또는 suite에 포함
+- 독립 실행형 서비스 혹은 Office 365에 브랜딩된 플랜 또는 제품군에 포함된 형태로서의 Power BI 클라우드 서비스
 
 ## <a name="frequently-asked-questions"></a>자주하는 질문
 
@@ -54,15 +54,15 @@ FTC은 [개인 정보 취급 방침에 포함 된](https://www.ftc.gov/tips-advi
 - [금융-Gramm-leach-bliley-Gramm-leach-bliley Act](https://www.ftc.gov/tips-advice/business-center/privacy-and-security/gramm-leach-bliley-act)
 - [Azure 금융 서비스 클라우드 위험 평가 도구](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=6b218946-c235-4234-9beb-d557e39a3f44&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides)
 - [Office 365 클라우드 위험 평가 도구](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=55702ffd-c35a-4619-8722-ab71c0c02002&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides)
-- [Microsoft 보안 센터 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Microsoft 보안 센터의 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
-## <a name="other-microsoft-resources-for-financial-services"></a>재무 서비스용 기타 Microsoft 리소스
+## <a name="other-microsoft-resources-for-financial-services"></a>금융 서비스에 대한 기타 Microsoft 리소스
 
 - [Microsoft 금융 서비스 준수 프로그램](https://www.microsoft.com/download/details.aspx?id=55332)
-- [Azure의 금융 서비스 준수](https://azure.microsoft.com/resources/videos/azurecon-2015-financial-services-compliance-in-azure/)
-- [Microsoft business cloud services 및 금융 서비스](https://www.microsoft.com/trustcenter/cloudservices/financialservices)
-- [클라우드 컴퓨팅에 대 한 공유 책임](https://aka.ms/sharedresponsibility)
+- [Azure에서의 금융 서비스 규정 준수](https://azure.microsoft.com/resources/videos/azurecon-2015-financial-services-compliance-in-azure/)
+- [Microsoft 비즈니스 클라우드 서비스 및 금융 서비스](https://www.microsoft.com/trustcenter/cloudservices/financialservices)
+- [클라우드 컴퓨팅에 대한 공동 책임](https://aka.ms/sharedresponsibility)
 
-## <a name="download-the-offering-backgrounder"></a>제공 backgrounder 다운로드
+## <a name="download-the-offering-backgrounder"></a>제품 배경 설명 다운로드
 
-이 제품에 대 한 backgrounder 문서가 필요 한가요? [PDF](https://download.microsoft.com/download/2/A/C/2AC21A04-CE23-4963-BE1A-515DB4A17C6E/GLBA-Compliance.pdf)를 다운로드 합니다.
+이 제공 사항에 대한 배경 설명 문서가 필요한가요? [PDF](https://download.microsoft.com/download/2/A/C/2AC21A04-CE23-4963-BE1A-515DB4A17C6E/GLBA-Compliance.pdf)를 다운로드합니다.

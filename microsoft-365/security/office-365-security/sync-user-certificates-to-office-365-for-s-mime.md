@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 ms.assetid: 351c932e-99c1-4512-a6e8-788e90b7838f
 description: S/MIME로 보호된 메시지를 보내려면 적절한 인증서를 설정해야 합니다. Exchange Online을 통해 암호화된 메시지를 보내기 위해 보낸 사람의 전자 메일 프로그램은 받는 사람의 공용 인증서를 사용하여 메시지를 암호화합니다. 이 공용 X.509 인증서를 Office 365에 게시해야 합니다.
-ms.openlocfilehash: 7b42f757ade54e362afc65f920096252bf69eb31
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: e03d7be2a7a1fcb8c5ef56395b4046442802cf2a
+ms.sourcegitcommit: 2468bcb01625f97a322459814d81b9faad717859
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38030842"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39872024"
 ---
 # <a name="sync-user-certificates-to-office-365-for-smime"></a>S/MIME용으로 Office 365에 사용자 인증서 동기화
 
@@ -25,7 +25,7 @@ ms.locfileid: "38030842"
 
 ## <a name="to-sync-certificates-that-support-smime"></a>S/MIME을 지원하는 인증서를 동기화하려면
 
-인증서를 발급하고 로컬 Active Directory 도메인 서비스에 게시하여 S/MIME 설정을 시작합니다. Exchange Server에서 인증서를 관리 하는 방법에 대 한 자세한 내용은 [디지털 인증서 및 SSL](https://technet.microsoft.com/library/a9e2e08c-d46a-4135-a387-eb653212b676.aspx)을 참조 하십시오.
+인증서를 발급하고 로컬 Active Directory 도메인 서비스에 게시하여 S/MIME 설정을 시작합니다. 자세한 내용은 [Active Directory 인증서 서비스 개요](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831740(v=ws.11))를 참조 하세요.
 
 인증서를 게시 한 후에는 Azure Active Directory 동기화 도구를 사용 하 여 온-프레미스 Exchange 환경의 사용자 데이터를 Office 365와 동기화 합니다. 이 프로세스에 대 한 자세한 내용은 [DirSync: 디렉터리 동기화 도구 버전 릴리스 기록을](https://go.microsoft.com/fwlink/p/?LinkId=392587)참조 하세요.
 

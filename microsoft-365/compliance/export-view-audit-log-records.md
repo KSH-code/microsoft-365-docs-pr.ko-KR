@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: Office 365 감사 로그 검색 결과를 CSV 파일로 내보내고 다운로드 한 후 Excel의 파워 쿼리 편집기에서 JSON 변환 기능을 사용 하 여 AuditData 열에 있는 JSON 개체의 각 속성을 자체 열로 분할할 수 있습니다. 이를 통해 원하는 특정 감사 데이터를 빠르게 찾을 수 있습니다.
-ms.openlocfilehash: 9b422877c10f086553a695e43c50f02d389dd2b5
-ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
+ms.openlocfilehash: dc96bb8fbcf3acbab66bdb8d4b3d1450e9d3aeaf
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38687207"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39858184"
 ---
 # <a name="export-configure-and-view-audit-log-records"></a>감사 로그 레코드 내보내기, 구성 및 보기
 
@@ -45,7 +45,7 @@ Office 365 감사 로그를 검색 하 고 검색 결과를 CSV 파일로 다운
    ![CSV 파일 다운로드가 완료 되 면 표시 되는 메시지](media/ExportAuditSearchResultsFinish.png)
 
 > [!NOTE]
-  > 단일 감사 로그 검색에서 최대 5만 개의 항목을 CSV 파일에 다운로드할 수 있습니다. 5만 항목이 CSV 파일에 다운로드 되는 경우 검색 조건을 충족 하는 이벤트가 5만 개 보다 많은 것으로 간주할 수 있습니다. 이 제한 보다 많은 시간을 내보내려면 날짜 범위를 사용 하 여 감사 로그 레코드 수를 줄이십시오. 5만 개 보다 많은 항목을 내보내려면 날짜 범위가 더 작은 검색을 여러 개 실행 해야 할 수 있습니다.
+  > 단일 감사 로그 검색에서 최대 50,000의 항목을 CSV 파일로 다운로드할 수 있습니다. 50,000개의 항목이 CSV 파일로 다운로드되면 검색 조건에 맞는 이벤트가 50,000개 이상 있다고 가정할 수 있습니다. 이 제한 보다 많은 시간을 내보내려면 날짜 범위를 사용 하 여 감사 로그 레코드 수를 줄이십시오. 50,000개 이상의 항목을 내보내기 위해 더 작은 날짜 범위로 여러 번 검색을 실행해야 할 수 있습니다.
 
 ## <a name="step-2-format-the-exported-audit-log-using-the-power-query-editor"></a>2 단계: 파워 쿼리 편집기를 사용 하 여 내보낸 감사 로그 서식 지정
 
@@ -122,10 +122,10 @@ CSV 파일이 **쿼리 편집기**에서 열립니다. **CreationDate**, **UserI
    
    - 이 매개 변수에는 단일 값만 포함할 수 있습니다. 다른 레코드 종류에 대 한 감사 레코드를 검색 하려면 이전 두 명령을 다시 실행 하 여 다른 레코드 종류를 지정 하 고 해당 결과를 원래의 CSV 파일에 추가 해야 합니다. 예를 들어 다음 두 명령을 실행 하 여 동일한 날짜 범위의 SharePoint 파일 활동을 PowerShellAuditlog 파일에 추가 합니다.
 
-       ```powershell
-      $auditlog = Search-UnifiedAuditLog -StartDate 06/01/2019 -EndDate 06/30/2019 -RecordType SharePointFileOperation
-      ```
+          ```powershell
+          $auditlog = Search-UnifiedAuditLog -StartDate 06/01/2019 -EndDate 06/30/2019 -RecordType SharePointFileOperation
+          ```
 
-      ```powershell
-      $auditlog | Select-Object -Property CreationDate,UserIds,RecordType,AuditData | Export-Csv -Append -Path c:\AuditLogs\PowerShellAuditlog.csv -NoTypeInformation
-      ```powershell
+          ```powershell
+          $auditlog | Select-Object -Property CreationDate,UserIds,RecordType,AuditData | Export-Csv -Append -Path c:\AuditLogs\PowerShellAuditlog.csv -NoTypeInformation
+          ```

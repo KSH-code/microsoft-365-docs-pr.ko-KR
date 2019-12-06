@@ -5,12 +5,12 @@ keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 설명서
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
-ms.openlocfilehash: f46f5164340ec257a056a2f31bec8f846bb4a54a
-ms.sourcegitcommit: e386037c9cc335c86896dc153344850735afbccd
+ms.openlocfilehash: f8d5b9321d8aad77ae25dcc7563a9e0db7dfc754
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "39634055"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859328"
 ---
 # <a name="microsoft-managed-desktop-devices"></a>Microsoft Managed Desktop 장치 
 
@@ -47,10 +47,11 @@ Microsoft Managed Desktop에 등록 하려면 장치는 다음 모델 중 하나
 | [HP EliteDesk 800 G4 SFF](https://store.hp.com/us/en/mdp/desktops/elitedesk-800-small-form-factor-349548--1#!&tab=features) | 128 GB/Intel i3/8gb RAM | 5VS04AV를 사용한 SKU | 7 월 18 일 2020 | 7 월 18 일 2023 |
 | [AIO HP EliteOne 800 G4 23.8](https://store.hp.com/us/en/mdp/desktops/eliteone-800-all-in-one-349552--1#!&tab=features) | 128 GB/Intel i3/8gb RAM | 5VS04AV를 사용한 SKU | 7 월 18 일 2020 | 7 월 18 일 2023 |
 | [HP ProBook x360 440 G1](https://store.hp.com/us/en/mdp/laptops/hp-probook-x360-440-3074457345617293669--1#!&tab=features) | 128 GB/Intel i3/8gb RAM | 5VS04AV, IR 카메라 또는 지문 판독기가 필요한 SKU | 7 월 6 일 2020 | 7 월 6 일 2023 |
-| [Surface Book 2](https://www.microsoft.com/p/surface-book-2-for-business/8x4htznfgg38/lbh3?cid=msft_web_collection&CustomerIntent=Consumer) | 256 GB/Intel i5/8gb RAM | 15 인치 디스플레이 | 2019 년 11 월 16 일 | 2022 년 11 월 16 일 |
 | [표면 이동](https://www.microsoft.com/p/surface-go-for-business/909wr0x3sgfk/8khl?cid=msft_web_collection&CustomerIntent=Consumer&activetab=pivot%3aoverviewtab) | 128 GB/Intel 4415Y/8GB RAM | 없음 | 8 월 2 일, 2020 | 8 월 2 일, 2023 |
 | [Surface 랩탑 2](https://www.microsoft.com/p/surface-laptop-2-for-business/8xlk0g60tlb6/hkq9?cid=msft_web_collection&CustomerIntent=Consumer) | 128 GB/Intel i5/8gb RAM | 없음 | 2020 년 10 월 16 일 | 2023 년 10 월 16 일 |
+| **\*[Surface 랩탑 3](https://www.microsoft.com/en-us/surface/business/surface-laptop-3)** | 128 GB/Intel i5/8gb RAM | 없음 | 2021 년 10 월 22 일 | 2024 년 10 월 22 일 |
 | [Surface Pro 6](https://www.microsoft.com/p/surface-pro-6-for-business/8xjq3d3lrp0r/grf9?cid=msft_web_collection&CustomerIntent=Consumer&activetab=pivot%3aoverviewtab) | 128 GB/Intel i5/8gb RAM | 없음 | 2020 년 10 월 16 일 | 2023 년 10 월 16 일 |
+| **\*[Surface Pro 7](https://www.microsoft.com/en-us/surface/business/surface-pro-7)** | 128 GB/Intel i5/8gb RAM | 없음 | 2021 년 10 월 22 일 | 2024 년 10 월 22 일 |
 
 
 

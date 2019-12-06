@@ -1,7 +1,7 @@
 ---
 title: 필수품 퓨처 거래 위원회 (CFTC) Rule 1.31 (c 차원) 미국
 description: 독립적인 평가 회사에서는 Azure 및 Office 365이 재무 기업이 CFTC Rule 1.31 레코드 보존 및 불변의 저장소 요구 사항을 충족 하도록 도울 수 있음을 확인 했습니다.
-keywords: Microsoft 365, 규정 준수, 제공
+keywords: Microsoft 365, 규정 준수, 제품
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 72b5f8301dd32ed9188f52153498853720d883c1
-ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
+ms.openlocfilehash: db357418b87e98ee0f649e48b1c00f9073d5e5de
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38690807"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39860068"
 ---
-# <a name="compliance-offering-commodity-futures-trading-commission-cftc-rule-131c-d-united-states"></a>규정 준수 제공: 필수품 퓨처 거래 위원회 (CFTC) Rule 1.31 (c-d) 미국
+# <a name="commodity-futures-trading-commission-cftc-rule-131c-d-united-states"></a>필수품 퓨처 거래 위원회 (CFTC) Rule 1.31 (c 차원) 미국
 
 ## <a name="about-cftc-rule-13c-d"></a>About CFTC Rule 1.3 (c-d)
 
@@ -56,19 +56,19 @@ Office 365의 보관 기능은 전자 메일, 음성 메일, 공유 문서, 인�
 ## <a name="how-to-implement"></a>구현 방법
 
 - [금융 서비스 규정](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=5b483567-00b0-4d86-96ae-ee887dadb61c&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides): 클라우드 컴퓨팅 및 Microsoft online 서비스에 대 한 주요 US 규정 원칙을 준수 합니다.
-- [위험 요소 분석 & 준수 가이드](https://aka.ms/RiskGovernanceGuide): Microsoft 클라우드 서비스의 위험 요소를 평가 하는 거 버 넌 스 모델을 만들고, 조정기 알림을 만듭니다.
-- [재무 사용 사례](https://docs.microsoft.com/azure/industry/financial/): 사례 개요, 자습서 및 기타 리소스를 사용 하 여 금융 서비스용 Azure 솔루션을 작성 합니다.
+- [위험 평가 & 준수 가이드](https://aka.ms/RiskGovernanceGuide): Microsoft 클라우드 서비스의 위험 평가 및 규제 기관의 알림에 대한 거버넌스 모델을 만들 수 있습니다.
+- [금융 유스케이스](https://docs.microsoft.com/azure/industry/financial/): 금융 서비스용 Azure 솔루션을 구축하기 위한 유스케이스 개요, 자습서 및 기타 리소스..
 
 ## <a name="resources"></a>리소스
 
 - [Microsoft 금융 서비스 준수 프로그램](https://aka.ms/FSCP-Print)
-- [Microsoft business cloud services 및 금융 서비스](https://www.microsoft.com/trustcenter/cloudservices/financialservices)
-- [Azure의 금융 서비스 준수](https://azure.microsoft.com/resources/videos/azurecon-2015-financial-services-compliance-in-azure/)
+- [Microsoft 비즈니스 클라우드 서비스 및 금융 서비스](https://www.microsoft.com/trustcenter/cloudservices/financialservices)
+- [Azure에서의 금융 서비스 규정 준수](https://azure.microsoft.com/resources/videos/azurecon-2015-financial-services-compliance-in-azure/)
 - [Azure 금융 서비스 클라우드 위험 평가 도구](https://aka.ms/FFIEC-CSDT)
 - [Microsoft Office 365 보존 정책](https://docs.microsoft.com/office365/securitycompliance/retention-policies)
 - [Microsoft 금융 서비스 블로그](https://techcommunity.microsoft.com/t5/Financial-Services-Blog/bg-p/FinancialServicesBlog)
-- [Microsoft 보안 센터 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
-## <a name="download-the-offering-backgrounder"></a>제공 backgrounder 다운로드
+## <a name="download-the-offering-backgrounder"></a>제공 사항의 배경 설명 다운로드
 
-이 제품에 대 한 backgrounder 문서가 필요 한가요? [PDF](https://download.microsoft.com/download/9/A/9/9A9847FE-164A-4321-8112-50719D9EA877/CFTC1.31-Compliance.pdf)를 다운로드 합니다.
+이 제공 사항에 대한 배경 설명 문서가 필요한가요? [PDF](https://download.microsoft.com/download/9/A/9/9A9847FE-164A-4321-8112-50719D9EA877/CFTC1.31-Compliance.pdf)를 다운로드합니다.

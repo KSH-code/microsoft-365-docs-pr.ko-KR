@@ -15,17 +15,17 @@ ms.assetid: 078eb946-819a-4e13-8673-fe0c0ad3a775
 ms.collection:
 - M365-security-compliance
 description: 안전한 첨부 파일 정책을 정의 하 여 전자 메일의 악의적인 파일 로부터 조직을 보호 합니다.
-ms.openlocfilehash: 80e698faf012f56b809cd88d33e0c8227723127e
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 0c81c8323db417d6e462812efe8686389139e915
+ms.sourcegitcommit: ba223b4fd069fc6fd09c2a2e34c770a18bc7b2a2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088524"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39866640"
 ---
 # <a name="set-up-office-365-atp-safe-attachments-policies"></a>Office 365 ATP 안전한 첨부 파일 정책 설정
 
 > [!IMPORTANT]
-> 이 문서는 [Office 365 Advanced Threat Protection](office-365-atp.md)을 사용 하는 비즈니스 고객을 위한 것입니다. Outlook에서 안전한 첨부 파일에 대 한 정보를 검색 하는 개인 사용자는 [Advanced Outlook.com security](https://support.office.com/article/advanced-outlook-com-security-for-office-365-subscribers-882d2243-eab9-4545-a58a-b36fee4a46e2)를 참조 하십시오.
+> 이 문서는 [Office 365 Advanced Threat Protection](office-365-atp.md)이 있는 비즈니스 고객을 대상으로 합니다. Outlook에서 안전한 첨부 파일에 대 한 정보를 검색 하는 개인 사용자는 [Advanced Outlook.com security](https://support.office.com/article/advanced-outlook-com-security-for-office-365-subscribers-882d2243-eab9-4545-a58a-b36fee4a46e2)를 참조 하십시오.
 
 사용자가 문서, 프레젠테이션, 스프레드시트 등의 첨부 파일을 정기적으로 보내고 받고 공유 합니다. 전자 메일 메시지를 확인 하기만 하면 첨부 파일이 안전한 지 또는 악의적 임을 쉽게 알 수 있습니다. 그리고 마지막으로는 조직에 대 한 wreaking havoc에 액세스할 수 있는 악의적인 첨부 파일이 됩니다. 다행히도 [Office 365 ATP (Advanced Threat Protection](office-365-atp.md) )가 도움이 될 수 있습니다. [ATP 안전한 첨부 파일](atp-safe-attachments.md) 정책을 설정 하 여 조직이 안전 하지 않은 전자 메일 첨부 파일을 통해 공격 으로부터 보호 되도록 할 수 있습니다. 
   
@@ -47,11 +47,11 @@ ms.locfileid: "37088524"
     |---------|---------|
     |Office 365 전역 관리자 |Office 365을 구매 하기 위해 등록 하는 사람은 기본적으로 전역 관리자입니다. 자세한 내용은 [Office 365 관리자 역할 정보](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) 를 참조 하세요.         |
     |보안 관리자 |Azure Active Directory 관리 센터 ([https://aad.portal.azure.com](https://aad.portal.azure.com))|
-    |Exchange Online 조직 관리 |Exchange 관리 센터 ([https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)) <br>또는 <br>  PowerShell cmdlet ( [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps)참조) |
+    |Exchange Online 조직 관리 |Exchange 관리 센터 ([https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)) <br>또는 <br>  PowerShell cmdlet ( [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell)참조) |
     
     역할 및 사용 권한에 대 한 자세한 내용은 [Office 365 보안 &amp; 및 준수 센터의 사용 권한을](permissions-in-the-security-and-compliance-center.md)참조 하세요.
 
-- [ATP 안전한 첨부 파일 정책 옵션에 대 한 자세한](#step-3-learn-about-atp-safe-attachments-policy-options) 정보 이 문서에서 설명 합니다. 일부 옵션 (예: 모니터 또는 바꾸기 옵션)을 사용할 경우 첨부 파일을 검색 하는 동안 전자 메일이 약간 지연 될 수 있습니다. 메시지 지연을 방지 하려면 [동적 배달 및 미리 보기](dynamic-delivery-and-previewing.md)를 사용 하는 것이 좋습니다.
+- 이 문서에서 [ATP 안전한 첨부 파일 정책 옵션에 대해 알아봅니다](#step-3-learn-about-atp-safe-attachments-policy-options) . 일부 옵션 (예: 모니터 또는 바꾸기 옵션)을 사용할 경우 첨부 파일을 검색 하는 동안 전자 메일이 약간 지연 될 수 있습니다. 메시지 지연을 방지 하려면 [동적 배달 및 미리 보기](dynamic-delivery-and-previewing.md)를 사용 하는 것이 좋습니다.
     
 - 새 정책이 나 업데이트 된 정책을 모든 Office 365 데이터 센터에 전파 하는 데 최대 30 분 정도 걸릴 수 있습니다.
     

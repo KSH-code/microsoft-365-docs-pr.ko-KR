@@ -1,7 +1,7 @@
 ---
 title: HITECH의 상태 보험 이식성 및 책임 (HIPAA) &
 description: Microsoft는 책임 업무 비즈니스 연결 동의 (BAAs)를 & 건강 보험 이식성을 제공 합니다.
-keywords: Microsoft 365, 규정 준수, 제공
+keywords: Microsoft 365, 규정 준수, 제품
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: b603cc6b946f62a8ca6b7cfa5c0dd7faf64dfbe4
-ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
+ms.openlocfilehash: c125b3cf01824c5791917bed45766b62cea7cdd5
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38690820"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859748"
 ---
-# <a name="compliance-offering-health-insurance-portability-and-accountability-hipaa--hitech-acts"></a>규정 준수 제공: HITECH의 상태 보험 이식성 및 책임 (HIPAA) &
+# <a name="health-insurance-portability-and-accountability-hipaa--hitech-acts"></a>HITECH의 상태 보험 이식성 및 책임 (HIPAA) &
 
 ## <a name="hipaa-and-the-hitech-act-overview"></a>HIPAA 및 HITECH Act 개요
 
@@ -50,18 +50,18 @@ Microsoft 클라우드에서 HIPAA 및 HITECH의 장점 [(Zwanger-Pesiri Radiolo
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 범위 내 클라우드 서비스
 
-- [Azure 및 Azure 정부](https://aka.ms/AzureCompliance)
+- [Azure 및 Azure Government](https://aka.ms/AzureCompliance)
 - Cloud App Security
 - Microsoft Health Bot 서비스
 - Microsoft Stream
-- Microsoft 전문 서비스: Azure, Dynamics 365, Intune, 중소 기업 및 기업 고객용 Office 365의 프리미어 및 온-프레미스
-- [Dynamics 365 및 Dynamics 365 미국 정부](https://aka.ms/d365-compliance-list)
-- Microsoft Flow cloud service as 독립 실행형 서비스로 또는 Office 365 또는 Dynamics 365 브랜드 요금제 또는 suite에 포함
+- Microsoft 전문 서비스: Azure, Dynamics 365, Intune, Office 365의 중간 규모 비즈니스 및 엔터프라이즈 고객 대상 프리미어 및 온-프레미스
+- [Dynamics 365 및 Dynamics 365 U.S. Government](https://aka.ms/d365-compliance-list)
+- 독립 실행형 서비스 혹은 Office 365 혹은 Dynamics 365에 브랜딩된 플랜 또는 제품군에 포함된 형태로서의 Microsoft Flow 클라우드 서비스
 - Intune
-- [Office 365, Office 365 미국 정부 및 Office 365 미국 정부 방어](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
-- PowerApps 클라우드 서비스를 독립 실행형 서비스로 또는 Office 365 또는 Dynamics 365 브랜드 요금제 또는 suite에 포함
+- [Office 365, Office 365 U.S. Government, Office 365 U.S. Government Defense](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
+- 독립 실행형 서비스 혹은 Office 365 혹은 Dynamics 365에 브랜딩된 플랜 또는 제품군에 포함된 형태로서의 PowerApps 클라우드 서비스
 - Power BI 클라우드 서비스를 독립 실행형 서비스로 또는 Office 365 또는 Dynamics 365 브랜드 요금제 또는 suite에 포함
-- Azure DevOps 서비스
+- Azure DevOps Services
 
 ## <a name="accelerate-your-deployment-of-hipaahitrust-solutions-on-azure"></a>Azure에서 HIPAA/HITRUST 솔루션 배포를 가속화 합니다.
 
@@ -89,7 +89,7 @@ Microsoft 서비스가 모든 고객에 대해 일관성이 있으므로 microso
 
 **감사자 보고서의 복사본은 어떻게 얻을 수 있나요?**
 
-[서비스 신뢰 포털](https://www.microsoft.com/trustcenter/STP/default.aspx) 은 독립적으로 감사 된 준수 보고서를 제공 합니다. 이 포털을 사용 하 여 감사자가 Microsoft의 클라우드 서비스 결과와 사용자의 법적 및 규정 요구 사항을 비교할 수 있도록 감사 보고서를 요청할 수 있습니다.
+[서비스 보안 포털](https://www.microsoft.com/trustcenter/STP/default.aspx)은 독립적으로 감사를 거친 규정 준수 보고서를 제공합니다. 이 포털을 사용 하 여 감사자가 Microsoft의 클라우드 서비스 결과와 사용자의 법적 및 규정 요구 사항을 비교할 수 있도록 감사 보고서를 요청할 수 있습니다.
 
 **HIPAA 및 HITECH Act 준수에 대 한 자세한 내용은 어떻게 확인할 수 있나요?**
 
@@ -102,13 +102,13 @@ Microsoft 서비스가 모든 고객에 대해 일관성이 있으므로 microso
 ## <a name="resources"></a>리소스
 
 - [Hipaa Omnibus 규칙](https://aka.ms/HIPAA-omnibus) (최종 규정-hipaa 규칙 수정)
-- [Microsoft Common Controls 허브 규정 준수 프레임 워크](https://www.microsoft.com/trustcenter/common-controls-hub)
-- [Microsoft Online Services 용어](https://aka.ms/Online-Services-Terms)
-- [Microsoft 정부 클라우드](https://go.microsoft.com/fwlink/p/?linkid=2087246)
+- [Microsoft 공통 컨트롤 허브 규정 준수 프레임 워크](https://www.microsoft.com/trustcenter/common-controls-hub)
+- [Microsoft 온라인 서비스 사용 약관](https://aka.ms/Online-Services-Terms)
+- [Microsoft Government 클라우드](https://go.microsoft.com/fwlink/p/?linkid=2087246)
 - [Azure에서 HIPAA 준수 이해](https://www.youtube.com/embed/6ptdye1LZ5k?autoplay=0)(5 월 19 2016 일)
 - [Azure HIPAA 구현 지침](https://aka.ms/azure-hipaa-guide)
-- [Microsoft 보안 센터 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
-## <a name="download-the-offering-backgrounder"></a>제공 backgrounder 다운로드
+## <a name="download-the-offering-backgrounder"></a>제공 사항의 배경 설명 다운로드
 
-이 제품에 대 한 backgrounder 문서가 필요 한가요? [PDF](https://download.microsoft.com/download/4/6/B/46BB3C98-AE2B-42C1-A2CD-F7C0040FB6B8/HIPAA_Compliance_Backgrounder.pdf)를 다운로드 합니다.
+이 제공 사항에 대한 배경 설명 문서가 필요한가요? [PDF](https://download.microsoft.com/download/4/6/B/46BB3C98-AE2B-42C1-A2CD-F7C0040FB6B8/HIPAA_Compliance_Backgrounder.pdf)를 다운로드합니다.

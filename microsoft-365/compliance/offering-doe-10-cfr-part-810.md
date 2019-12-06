@@ -1,7 +1,7 @@
 ---
 title: US DoE 10 CFR 부분 810
 description: 고객은 Azure 정부를 사용할 수 있는 US DoE 10 CFR 파트 810의 수출 관리 요구 사항을 따릅니다.
-keywords: Microsoft 365, 규정 준수, 제공
+keywords: Microsoft 365, 규정 준수, 제품
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 1e7f850a06a95f86c2afd5c8bccc77ff5431dda4
-ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
+ms.openlocfilehash: fe87cde60847a0f5d935b50f433cd9b95702bebf
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38690832"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859408"
 ---
-# <a name="compliance-offering-us-doe-10-cfr-part-810"></a>규정 준수 제공: US DoE 10 CFR 부분 810
+# <a name="us-doe-10-cfr-part-810"></a>US DoE 10 CFR 부분 810
 
 ## <a name="microsoft-and-doe-10-cfr-part-810"></a>Microsoft 및 DoE 10 CFR 부분 810
 
@@ -63,9 +63,9 @@ Azure 정부에 데이터를 배포 하는 고객은 자체 보안 분류 프로
 - [Azure 클라우드 서비스 및 US 수출 컨트롤](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=c24c11f2-2cd4-444a-9160-19762855ad3a&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers)
 - [Microsoft 및 FedRAMP](offering-fedramp.md)
 - [Microsoft 및 DoD](offering-dod-disa-l2-l4-l5.md)
-- [Microsoft 정부 클라우드](https://www.microsoft.com/enterprise/government)
-- [Microsoft 보안 센터 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Microsoft Government 클라우드](https://www.microsoft.com/enterprise/government)
+- [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
-## <a name="download-the-offering-backgrounder"></a>제공 backgrounder 다운로드
+## <a name="download-the-offering-backgrounder"></a>제공 사항의 배경 설명 다운로드
 
-이 제품에 대 한 backgrounder 문서가 필요 한가요? [PDF](https://download.microsoft.com/download/A/E/3/AE309D0E-F8D5-42C9-9B36-86FF51464AFC/DOE_10CFR_Part810-Compliance.pdf)를 다운로드 합니다.
+이 제공 사항에 대한 배경 설명 문서가 필요한가요? [PDF](https://download.microsoft.com/download/A/E/3/AE309D0E-F8D5-42C9-9B36-86FF51464AFC/DOE_10CFR_Part810-Compliance.pdf)를 다운로드합니다.

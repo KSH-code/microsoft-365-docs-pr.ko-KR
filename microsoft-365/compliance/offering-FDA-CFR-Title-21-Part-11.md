@@ -1,7 +1,7 @@
 ---
 title: 음식 및 마약 관리 CFR 제목 21 부
 description: Microsoft는 고객이 이러한 음식 및 마약 관리 규정을 준수할 수 있도록 지원 합니다.
-keywords: Microsoft 365, 규정 준수, 제공
+keywords: Microsoft 365, 규정 준수, 제품
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: d37557c1df1edfc026960b5a7d256d5d3fbc7a0b
-ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
+ms.openlocfilehash: 7e8d24aecb2343ed03a1d224b21060619426717f
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38690787"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859878"
 ---
-# <a name="compliance-offering-food-and-drug-administration-cfr-title-21-part-11"></a>규정 준수 제공: 음식 및 마약 관리 CFR 제목 21 부
+# <a name="food-and-drug-administration-cfr-title-21-part-11"></a>음식 및 마약 관리 CFR 제목 21 부
 
 ## <a name="fda-cfr-title-21-overview"></a>FDA CFR 제목 21 개요
 
@@ -48,8 +48,8 @@ CFR 제목 21 부를 준수 하기 위한 인증을 사용 하지 않지만 다�
 
 - Azure: 클라우드 서비스, 저장소, 트래픽 관리자, 가상 컴퓨터 및 가상 네트워크
 - Intune
-- [Dynamics 365 및 Dynamics 365 미국 정부](https://aka.ms/d365-compliance-list)
-- [Office 365 및 Office 365 미국 정부](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
+- [Dynamics 365 및 Dynamics 365 U.S. Government](https://aka.ms/d365-compliance-list)
+- [Office 365 및 Office 365 U.S. Government](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
 
 ## <a name="audits-reports-and-certificates"></a>감사, 보고서 및 인증서
 
@@ -57,7 +57,7 @@ SOC 1 및 SOC 2 유형 2, ISO/IEC 27001 및 ISO/IEC 27018 표준에 대 한 감�
 
 ## <a name="frequently-asked-questions"></a>자주하는 질문
 
-**표준에 적용 되는 사람은 누구 인가요?**
+**이 표준은 누구에게 적용되나요?**
 
 FDA CFR 제목 21 Part 11은 생명 과학 제품의 연구, 임상 연구, 유지 관리, 제조 및 배포에 대 한 FDA 규정을 처리 하는 제품 및 서비스가 포함 된 조직에 적용 됩니다.
 
@@ -69,7 +69,7 @@ Microsoft에서 구현 하는 감사 된 컨트롤은 데이터의 기밀성, �
 
 **감사자 보고서의 복사본은 어떻게 얻을 수 있나요?**
 
-[서비스 신뢰 포털](https://aka.ms/stphelp) 은 독립적으로 감사 된 준수 보고서를 제공 합니다. 이 포털을 사용 하 여 감사 보고서를 요청 하 여 감사자가 Microsoft의 클라우드 서비스 결과를 사용자의 법적 및 규정 요구 사항과 비교할 수 있습니다.
+[서비스 보안 포털](https://aka.ms/stphelp)은 독립적으로 감사를 거친 규정 준수 보고서를 제공합니다. 이 포털을 사용 하 여 감사 보고서를 요청 하 여 감사자가 Microsoft의 클라우드 서비스 결과를 사용자의 법적 및 규정 요구 사항과 비교할 수 있습니다.
 
 **조직의 인증 프로세스에서 Microsoft의 준수를 사용할 수 있나요?**
 
@@ -86,11 +86,11 @@ Microsoft는 해당 엔터프라이즈 클라우드 서비스가 [온라인 서�
 - [업계 부를 위한 FDA 지침 11: 전자 레코드 및 서명](https://www.fda.gov/RegulatoryInformation/Guidances/ucm125067.htm)
 - [Azure에 대 한 자격 규정 지침](https://aka.ms/azurefda21cfrpart11qualguide)
 - [Office 365에 대 한 자격 규정 지침](https://aka.ms/o365-qualification-guideline)
-- [Microsoft Common Controls 허브 규정 준수 프레임 워크](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-- [Microsoft Online Services 용어](https://aka.ms/Online-Services-Terms)
-- [정부용 Microsoft Cloud](https://aka.ms/govt-cloud)
-- [Microsoft 보안 센터 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Microsoft 공통 컨트롤 허브 규정 준수 프레임 워크](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Microsoft 온라인 서비스 사용 약관](https://aka.ms/Online-Services-Terms)
+- [Microsoft Cloud for Government](https://aka.ms/govt-cloud)
+- [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
-## <a name="download-the-offering-backgrounder"></a>제공 backgrounder 다운로드
+## <a name="download-the-offering-backgrounder"></a>제공 사항의 배경 설명 다운로드
 
-이 제품에 대 한 backgrounder 문서가 필요 한가요? [PDF](https://download.microsoft.com/download/8/8/D/88DA8B65-8CEE-46A5-8E93-DAFC3699AD06/FDA_Compliance_Backgrounder.pdf)를 다운로드 합니다.
+이 제공 사항에 대한 배경 설명 문서가 필요한가요? [PDF](https://download.microsoft.com/download/8/8/D/88DA8B65-8CEE-46A5-8E93-DAFC3699AD06/FDA_Compliance_Backgrounder.pdf)를 다운로드합니다.

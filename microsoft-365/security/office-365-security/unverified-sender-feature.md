@@ -13,12 +13,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: 피싱 메시지가 사서함에 도착 하지 않도록 하기 위해 웹에서 Outlook.com 및 Outlook은 보낸 사람이 누구 인지를 확인 하 고 의심 스러운 메시지를 정크 메일로 표시 합니다.
-ms.openlocfilehash: f758213802d32b4154924d1ab4a3d8bbff49e717
-ms.sourcegitcommit: 2de2faea7da80712f448e35c2d6c425944013b7e
+ms.openlocfilehash: 89cd473a7b7f2ff663d7ee1eee41f84144dee6d7
+ms.sourcegitcommit: ba223b4fd069fc6fd09c2a2e34c770a18bc7b2a2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "39204265"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39866440"
 ---
 # <a name="unverified-sender"></a>확인 되지 않은 보낸 사람
 
@@ -47,7 +47,7 @@ Outlook.com 및 웹용 Outlook에서 전자 메일 인증 기술을 사용 하 �
 
 Office 365 고객 인 경우 보안 & 준수 센터를 통해이 기능을 관리할 수 있습니다. 
 
-- Office 365 보안 & 준수 센터에서 전역 또는 보안 관리자는 피싱 정책 아래에 있는 스푸핑 방지 보호를 통해이 기능을 설정 하거나 해제할 수 있습니다. 또한 ' AntiPhishPolicy ' cmdlet을 통해 관리할 수 있습니다. 자세한 내용은 [Office 365 및 AntiPhishPolicy의 피싱 방지 보호](anti-phishing-protection.md) 를 참조 하세요 [](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/set-antiphishpolicy?view=exchange-ps).
+- Office 365 보안 & 준수 센터에서 전역 또는 보안 관리자는 피싱 정책 아래에 있는 스푸핑 방지 보호를 통해이 기능을 설정 하거나 해제할 수 있습니다. 또한 ' AntiPhishPolicy ' cmdlet을 통해 관리할 수 있습니다. 자세한 내용은 [Office 365 및 AntiPhishPolicy의 피싱 방지 보호](anti-phishing-protection.md) 를 참조 하세요 [](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/set-antiphishpolicy).
 
     ![그래픽 인터페이스에서 인증 되지 않은 보낸 사람 편집](../media/unverified-sender-article-editing-unauthenticated-senders.jpg)
 

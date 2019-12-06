@@ -15,12 +15,12 @@ ms.assetid: 82ac9922-939c-41be-9c8a-7c75b0a4e27d
 ms.collection:
 - M365-security-compliance
 description: 보안 &amp; 및 준수 센터의 Explorer 및 실시간 검색에 대해 알아봅니다.
-ms.openlocfilehash: e3f205a75c30397382b63112df4503f7a1d23582
-ms.sourcegitcommit: 9ee873c6a2f738a0c99921e036894b646742e706
+ms.openlocfilehash: 4507155acf3a973484f8228803660abf65167121
+ms.sourcegitcommit: ba223b4fd069fc6fd09c2a2e34c770a18bc7b2a2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38673284"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39866370"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>위협 탐색기 및 실시간 검색
 
@@ -166,7 +166,7 @@ Office 365 기술을 통해 전자 메일로 검색 된 맬웨어를 확인 하�
 - [SharePoint Online, OneDrive 및 Microsoft 팀에서 검색 된 악의적인 파일 보기](malicious-files-detected-in-spo-odb-or-teams.md)
 - [위협 탐색기 및 실시간 검색의 보기에 대 한 개요 보기](threat-explorer-views.md)
 
-## <a name="required-licenses-and-permissions"></a>필요한 라이선스 및 사용 권한
+## <a name="required-licenses-and-permissions"></a>필수 라이선스 및 사용 권한
 
 Explorer 또는 실시간 검색을 하려면 [Office 365 ATP](office-365-atp.md) 가 있어야 합니다.
 - Explorer는 Office 365 ATP 계획 2에 포함 되어 있습니다. 
@@ -180,7 +180,7 @@ Explorer 또는 실시간 검색을 하려면 [Office 365 ATP](office-365-atp.md
     - 보안 관리자 (Azure Active Directory 관리 센터[https://aad.portal.azure.com](https://aad.portal.azure.com)에서 할당할 수 있음)
     - 보안 독자
 
-- Exchange Online의 경우 Exchange 관리 센터 ([https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)) 또는 PowerShell Cmdlet ( [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell?view=exchange-ps)참조)에서 다음 역할 중 하나를 할당 받아야 합니다.
+- Exchange Online의 경우 Exchange 관리 센터 ([https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)) 또는 PowerShell Cmdlet ( [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell)참조)에서 다음 역할 중 하나를 할당 받아야 합니다.
     - 조직 관리
     - 보기 전용 조직 관리
     - 보기 권한만 있는 받는 사람 역할

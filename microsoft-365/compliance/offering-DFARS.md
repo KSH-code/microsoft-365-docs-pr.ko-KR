@@ -1,7 +1,7 @@
 ---
 title: 방어 연방 취득 규정 보완 (DFARS)
 description: Microsoft Azure 정부는 DFARS (수출 연방 취득 규정) 요구 사항을 지원 합니다.
-keywords: Microsoft 365, 규정 준수, 제공
+keywords: Microsoft 365, 규정 준수, 제품
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: de25c210fb5b361cf9bba1d7efe15e27d386e200
-ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
+ms.openlocfilehash: 267a506881e8eecdf2ded50e9858054c022dfae1
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38690795"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859978"
 ---
-# <a name="compliance-offering-defense-federal-acquisition-regulation-supplement-dfars"></a>규정 준수 제공: DFARS (방어가 연방 취득 규정 보완)
+# <a name="defense-federal-acquisition-regulation-supplement-dfars"></a>방어 연방 취득 규정 보완 (DFARS)
 
 ## <a name="dfars-overview"></a>DFARS 개요
 
@@ -36,14 +36,14 @@ Azure 보안 및 준수 청사진을 사용 하 여 DFARS 배포를 가속화 �
 
 DoD 영향 수준 5에 대 한 검사 된 서비스
 
-- [Azure 및 Azure 정부](https://aka.ms/AzureCompliance)
+- [Azure 및 Azure Government](https://aka.ms/AzureCompliance)
 - [Office 365 미국 정부 및 Office 365 미국 정부 방어](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
 
 ## <a name="audits-reports-and-certificates"></a>감사, 보고서 및 인증서
 
 - [Microsoft 클라우드 서비스 권한 부여](https://marketplace.fedramp.gov/index.html#/products?status=Compliant&sort=productName)
 - [Azure P-ATO 문자 서명 2017 년 3 월 3 일](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=94ff5b42-4077-4612-8cf7-3194ded323dc&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_GRC_Assessment_Reports)
-- [추가 감사 보고서 참조](https://aka.ms/auditreports)
+- [추가 감사 보고서 보기](https://aka.ms/auditreports)
 
 ## <a name="frequently-asked-questions"></a>자주하는 질문
 
@@ -75,7 +75,7 @@ CDI는 보호 또는 보급 컨트롤을 사용 해야 하는 기술 정보 또�
 ## <a name="resources"></a>리소스
 
 - [방어 연방 취득 규정 보완 (DFARS)](https://www.acq.osd.mil/dpap/dars/dfarspgi/current/index.html)
-- [정부용 Microsoft Cloud](https://enterprise.microsoft.com/industries/government/start-your-microsoft-cloud-for-government-trial-today)
+- [Microsoft Cloud for Government](https://enterprise.microsoft.com/industries/government/start-your-microsoft-cloud-for-government-trial-today)
 - [온라인 서비스 약관](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=31)
 - [제어 되는 미분류 정보 (의)](https://www.archives.gov/cui/registry/category-list)
-- [Microsoft 보안 센터 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)

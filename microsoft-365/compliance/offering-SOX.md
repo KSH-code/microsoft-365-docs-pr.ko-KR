@@ -1,7 +1,7 @@
 ---
 title: Sarbanes-Oxley Act of 2002(SOX)
 description: 금융 서비스 기업은 Microsoft 준수 보고서를 사용 하 여 Sarbanes-oxley of-Sarbanes-oxley Act와의 준수를 처리할 수 있습니다.
-keywords: Microsoft 365, 규정 준수, 제공
+keywords: Microsoft 365, 규정 준수, 제품
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 2f496db53cde8779dd45f7d15cc9d6bd7789a75c
-ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
+ms.openlocfilehash: 1bc568d6db13dd91d0e16e29633dccc58e28fc2a
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38690836"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859478"
 ---
-# <a name="compliance-offering-sarbanes-oxley-act-of-2002-sox"></a>규정 준수 제공: Sarbanes-oxley of-Sarbanes-oxley Act 2002 (SOX)
+# <a name="sarbanes-oxley-act-of-2002-sox"></a>Sarbanes-Oxley Act of 2002(SOX)
 
 ## <a name="sox-overview"></a>SOX 개요
 
@@ -46,7 +46,7 @@ SOX 준수 의무를 해결 하는 경우 Microsoft Azure 준수 보고서를 �
 - [Dynamics 365](https://aka.ms/d365-compliance-list)
 - Intune
 - [Office 365](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
-- Power BI 클라우드 서비스를 독립 실행형 서비스로 또는 Office 365 브랜드 요금제 또는 suite에 포함
+- 독립 실행형 서비스 혹은 Office 365에 브랜딩된 플랜 또는 제품군에 포함된 형태로서의 Power BI 클라우드 서비스
 
 ## <a name="audits-reports-and-certificates"></a>감사, 보고서 및 인증서
 
@@ -66,11 +66,11 @@ SOX 준수 의무를 해결 하는 경우 Microsoft Azure 준수 보고서를 �
 
 - [Sarbanes-oxley of에 대 한 Azure 지침-Sarbanes-oxley](https://aka.ms/Azure-SOX-Guide)
 - [Microsoft 금융 서비스 준수 프로그램](https://www.microsoft.com/download/details.aspx?id=55332)
-- [Azure의 금융 서비스 준수](https://azure.microsoft.com/resources/videos/azurecon-2015-financial-services-compliance-in-azure/)
-- [Microsoft business cloud services 및 금융 서비스](https://www.microsoft.com/trustcenter/cloudservices/financialservices)
-- [클라우드 컴퓨팅에 대 한 공유 책임](https://aka.ms/sharedresponsibility)
-- [Microsoft 보안 센터 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Azure에서의 금융 서비스 규정 준수](https://azure.microsoft.com/resources/videos/azurecon-2015-financial-services-compliance-in-azure/)
+- [Microsoft 비즈니스 클라우드 서비스 및 금융 서비스](https://www.microsoft.com/trustcenter/cloudservices/financialservices)
+- [클라우드 컴퓨팅에 대한 공동 책임](https://aka.ms/sharedresponsibility)
+- [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
-## <a name="download-the-offering-backgrounder"></a>제공 backgrounder 다운로드
+## <a name="download-the-offering-backgrounder"></a>제공 사항의 배경 설명 다운로드
 
-이 제품에 대 한 backgrounder 문서가 필요 한가요? [PDF](https://download.microsoft.com/download/5/D/2/5D278460-AF57-470F-B166-5BD9258BCE3E/SOX-Compliance.pdf)를 다운로드 합니다.
+이 제공 사항에 대한 배경 설명 문서가 필요한가요? [PDF](https://download.microsoft.com/download/5/D/2/5D278460-AF57-470F-B166-5BD9258BCE3E/SOX-Compliance.pdf)를 다운로드합니다.

@@ -13,12 +13,12 @@ ms.assetid: 8401f520-8e7c-467b-9e06-4a9fdb2ba548
 ms.collection:
 - M365-security-compliance
 description: 사용자가 분석을 위해 Microsoft에 전자 메일 메시지를 보내지 못하도록 하 고 자체 보안 프로세스에서 사용 하는 것을 방지 하는 Exchange 메일 흐름 규칙을 만들 수 있습니다.
-ms.openlocfilehash: d1b67d60d10ea9ce5d3ed47e20959c85d785e437
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 11033b0d4b0ab9da0109fd31907a1537adc09c4d
+ms.sourcegitcommit: 2468bcb01625f97a322459814d81b9faad717859
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38030642"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39871294"
 ---
 # <a name="use-mail-flow-rules-to-see-what-your-users-are-reporting-to-microsoft"></a>메일 흐름 규칙을 사용하여 사용자가 Microsoft에 보고한 내용 확인
 
@@ -28,7 +28,7 @@ ms.locfileid: "38030642"
 
 예상 완료 시간: 5분
 
-이러한 절차를 수행하려면 먼저 사용 권한을 할당받아야 합니다. 필요한 사용 권한을 확인 하려면 [클라이언트 및 모바일 장치 사용 권한](https://technet.microsoft.com/library/57eca42a-5a7f-4c65-89f0-7a84f2dbea19.aspx) 항목의 [메시징 정책 및 준수 권한](https://technet.microsoft.com/library/ec4d3b9f-b85a-4cb9-95f5-6fc149c3899b.aspx) 항목과 "웹 사서함 정책의 Outlook" 항목의 "메일 흐름 규칙" 항목을 참조 하십시오.
+이러한 절차를 수행하려면 먼저 사용 권한을 할당받아야 합니다. 필요한 사용 권한을 확인 하려면 [Exchange Online 권한의](https://docs.microsoft.com/exchange/permissions-exo/feature-permissions#exchange-online-permissions)"메일 흐름" 및 "웹 사서함 정책에서 Outlook" 항목을 참조 하세요.
 
 이 항목의 절차에 적용할 수 있는 바로 가기 키에 대 한 자세한 내용은 [Exchange Online에서 exchange 관리 센터에 대 한 바로 가기 키](https://docs.microsoft.com/Exchange/accessibility/keyboard-shortcuts-in-admin-center)를 참조 하십시오.
 
