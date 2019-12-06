@@ -14,12 +14,12 @@ ms.assetid: 56fee1c7-dc37-470e-9b09-33fff6d94617
 ms.collection:
 - M365-security-compliance
 description: '요약: 이 문서에서는 Office 365에서 도메인키 식별 메일(DKIM)을 사용하여 대상 전자 메일 시스템이 사용자 지정 도메인에서 보낸 메시지를 신뢰하도록 하는 방법을 설명합니다.'
-ms.openlocfilehash: 0a65c5c02d9361efd65a7b3c58eb8a0e516033c3
-ms.sourcegitcommit: 550ea6f093ec35182e7c65a2811e9bfb07ec7d01
+ms.openlocfilehash: a570ec0c8002cc81a83da078705687b56ffe0bf1
+ms.sourcegitcommit: ba223b4fd069fc6fd09c2a2e34c770a18bc7b2a2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38038987"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39866430"
 ---
 # <a name="use-dkim-to-validate-outbound-email-sent-from-your-custom-domain-in-office-365"></a>DKIM을 사용하여 Office 365의 사용자 지정 도메인에서 전송한 아웃바운드 전자 메일의 유효성을 검사합니다.
 
@@ -200,7 +200,7 @@ CNAME 레코드를 DNS에 게시하면 Office 365를 통해 DKIM 서명을 사�
 
 #### <a name="to-enable-dkim-signing-for-your-custom-domain-by-using-powershell"></a>PowerShell을 사용하여 사용자 지정 도메인에 DKIM 서명 사용
 
-1. [Exchange Online PowerShell에 연결합니다](https://technet.microsoft.com/library/jj984289.aspx).
+1. [Exchange Online PowerShell에 연결합니다](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell).
 
 2. 다음 명령을 실행합니다.
 
@@ -251,7 +251,7 @@ CNAME 레코드를 DNS에 게시하면 Office 365를 통해 DKIM 서명을 사�
   
 ### <a name="to-disable-the-dkim-signing-policy-by-using-windows-powershell"></a>Windows PowerShell을 사용하여 DKIM 서명 정책을 비활성화하려면
 
-1. [Exchange Online PowerShell에 연결합니다](https://technet.microsoft.com/library/jj984289.aspx).
+1. [Exchange Online PowerShell에 연결합니다](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell).
 
 2. DKIM 서명을 비활성화하려는 각 도메인에 대해 다음 명령 중 하나를 실행합니다.
     

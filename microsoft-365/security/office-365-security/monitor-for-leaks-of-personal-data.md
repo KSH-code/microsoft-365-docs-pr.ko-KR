@@ -16,12 +16,12 @@ localization_priority: Priority
 search.appverid:
 - MET150
 description: 개인 데이터의 누수를 모니터링하는 데 사용할 수 있는 세 가지 도구에 대해 알아봅니다.
-ms.openlocfilehash: b4ca34f3446a0067c6497d844e5b79a78d0eb35e
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 995f0b273753d7b3a92b8c5acef6eb94d51458b3
+ms.sourcegitcommit: 2468bcb01625f97a322459814d81b9faad717859
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38032243"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39872104"
 ---
 # <a name="monitor-for-leaks-of-personal-data"></a>개인 데이터 누수 모니터링
 
@@ -81,17 +81,17 @@ Microsoft Management Activity API를 통해 통합 감사 로그에 구독된 �
 
 경고 정책 및 감사 로그 검색에 대한 자세한 정보:
 
--   [Microsoft 365 보안 및 규정 준수 센터의 알림 정책](https://support.office.com/article/Alert-policies-in-the-Office-365-Security-Compliance-Center-8927B8B9-C5BC-45A8-A9F9-96C732E58264)
+- [Microsoft 365 보안 및 규정 준수 센터의 알림 정책](https://support.office.com/article/Alert-policies-in-the-Office-365-Security-Compliance-Center-8927B8B9-C5BC-45A8-A9F9-96C732E58264)
 
--   [Office 365의 감사 로그에서 사용자 및 관리자 활동 검색](https://support.office.com/article/Search-the-audit-log-for-user-and-admin-activity-in-Office-365-57CA5138-0AE0-4D34-BD40-240441EF2FB6)(소개)
+- [Office 365의 감사 로그에서 사용자 및 관리자 활동 검색](https://support.office.com/article/Search-the-audit-log-for-user-and-admin-activity-in-Office-365-57CA5138-0AE0-4D34-BD40-240441EF2FB6)(소개)
 
--   [Office 365 감사 로그 검색 켜기 또는 끄기](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014)
+- [Office 365 감사 로그 검색 켜기 또는 끄기](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014)
 
--   [감사 로그 검색](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c?ui=en-US&rs=en-US&ad=US)
+- [감사 로그 검색](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c?ui=en-US&rs=en-US&ad=US)
 
--   [Search-UnifiedAuditLog](https://technet.microsoft.com/library/mt238501(v=exchg.160).aspx)(cmdlet) 
+- [Search-UnifiedAuditLog](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-audit/search-unifiedauditlog)(cmdlet)
 
--   [Office 365 감사 로그의 자세한 속성](https://support.office.com/article/Detailed-properties-in-the-Office-365-audit-log-ce004100-9e7f-443e-942b-9b04098fcfc3)
+- [Office 365 감사 로그의 자세한 속성](https://support.office.com/article/Detailed-properties-in-the-Office-365-audit-log-ce004100-9e7f-443e-942b-9b04098fcfc3)
 
 ## <a name="microsoft-cloud-app-security"></a>Microsoft Cloud App Security
 

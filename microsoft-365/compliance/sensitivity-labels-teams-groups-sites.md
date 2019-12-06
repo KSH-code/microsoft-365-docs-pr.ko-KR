@@ -3,7 +3,7 @@ title: Microsoft Teams, Office 365 그룹 및 SharePoint 사이트(공개 미리
 ms.author: krowley
 author: kccross
 manager: laurawi
-ms.date: 12/03/2019
+ms.date: 12/05/2019
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 팀, Office 365 그룹 및 SharePoint 사이트에 레이블을 적용할 수 있습니다.
-ms.openlocfilehash: ebe5e00c3458782e1874274cb508326968461ce3
-ms.sourcegitcommit: 1bd81cf48c7fab1b8aaf7c3f550ce42ab02136dc
+ms.openlocfilehash: e69968ad5939069ca8ae1611f3bbdc674f9dd7de
+ms.sourcegitcommit: 2468bcb01625f97a322459814d81b9faad717859
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39822494"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39871254"
 ---
 # <a name="use-sensitivity-labels-with-microsoft-teams-office-365-groups-and-sharepoint-sites-public-preview"></a>Microsoft Teams, Office 365 그룹 및 SharePoint 사이트(공개 미리 보기)에서 민감도 레이블 사용
 
@@ -102,7 +102,7 @@ Office 365 Content Delivery Networks (CDNs)에서는 공개 미리 보기가 작
 
 ## <a name="troubleshoot-sensitivity-label-deployment"></a>민감도 레이블 배포 문제 해결
 
-이러한 설정을 사용 하도록 설정 하거나 민감도 레이블의 설명을 변경한 후에 팀 또는 Office 365 그룹을 만들 때 문제가 발생 하면 레이블을 저장 하 고 몇 시간 기다린 후 팀 또는 Office 365 그룹을 다시 만들어 봅니다.
+이러한 설정을 사용 하도록 설정 하거나 민감도 레이블의 설명을 변경한 후에 팀 또는 Office 365 그룹을 만들 때 문제가 발생 하면 레이블을 저장 하 고 몇 시간 기다린 후 팀 또는 Office 365 그룹을 다시 만들어 봅니다. 자세한 내용은 [민감도 레이블을 만들거나 변경한 후 일정 롤업을](sensitivity-labels-sharepoint-onedrive-files.md#schedule-roll-out-after-you-create-or-change-a-sensitivity-label)참조 하십시오.
 
 아직 SharePoint Online에서 새 민감도 레이블을 볼 수 없는 경우 Microsoft Support에 즉시 문의 하세요.
 

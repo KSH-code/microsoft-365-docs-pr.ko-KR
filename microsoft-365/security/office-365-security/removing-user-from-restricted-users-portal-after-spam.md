@@ -16,12 +16,12 @@ ms.assetid: 712cfcc1-31e8-4e51-8561-b64258a8f1e5
 ms.collection:
 - M365-security-compliance
 description: 사용자가 스팸으로 분류되는 Office 365에서 계속해서 전자 메일을 보내는 경우 더 이상 메시지를 보낼 수 없게 됩니다.
-ms.openlocfilehash: 4abb37bbda20d17b19144d6f62b4ef1a4fc8fb4c
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 7d900e154e60b49b3fcfe63552b6ad3288adfc82
+ms.sourcegitcommit: 2468bcb01625f97a322459814d81b9faad717859
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38032163"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39871744"
 ---
 # <a name="removing-a-user-from-the-restricted-users-portal-after-sending-spam-email"></a>스팸 메일을 보낸 후 제한된 사용자 포털에서 사용자 제거
 
@@ -34,7 +34,7 @@ ms.locfileid: "38032163"
 
 예상 완료 시간: 5분
   
-이러한 절차를 수행하려면 먼저 사용 권한을 할당받아야 합니다. 필요한 권한을 확인하려면 [Exchange Online의 기능 사용 권한](https://technet.microsoft.com/library/15073ce1-0917-403b-8839-02a2ebc96e16.aspx) 항목에서 스팸 방지 항목을 참조하세요.
+이러한 절차를 수행하려면 먼저 사용 권한을 할당받아야 합니다. 필요한 권한을 확인하려면 [Exchange Online의 기능 사용 권한](https://docs.microsoft.com/exchange/permissions-exo/feature-permissions) 항목에서 스팸 방지 항목을 참조하세요.
 
 또한 원격 PowerShell을 통해 다음 절차를 수행할 수 있습니다. BlockedSenderAddress cmdlet을 사용하여 제한된 사용자 목록을 가져오고 Remove-BlockedSenderAddress을 사용하여 제한을 제거합니다. Windows PowerShell을 사용하여 Exchange Online에 연결하는 방법에 대한 자세한 내용은 [Connect to Exchange Online Using Remote PowerShell](https://go.microsoft.com/fwlink/p/?linkid=396554)을 참조하세요.
 

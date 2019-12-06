@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 ms.assetid: 0432dce9-d9b6-4e73-8a13-4a932eb0081e
 description: Office 365의 새 메시지 보호 기능이 작동 하는 방식에 대 한 질문이 있나요? 여기에서 대답을 확인 하세요.
-ms.openlocfilehash: 95efde63ff9cf4c53522c0242a33001a35d2e334
-ms.sourcegitcommit: 99d759d5c4e7d81266c3ebc087eaa37486cc0bc1
+ms.openlocfilehash: f8b92e7156921548499ecbb1876787f63eeb3259
+ms.sourcegitcommit: ba223b4fd069fc6fd09c2a2e34c770a18bc7b2a2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39818850"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39866420"
 ---
 # <a name="office-365-message-encryption-faq"></a>Office 365 메시지 암호화 FAQ
 
@@ -119,6 +119,10 @@ PDF 암호화를 사용 하면 보안 통신 또는 안전한 공동 작업을 �
 
 Not yet. 비즈니스용 OneDrive 첨부 파일이 지원 되지 않으며 최종 사용자가 비즈니스용 OneDrive 첨부 파일을 포함 하는 메일을 암호화할 수 없습니다.
   
+## <a name="what-email-clients-support-preview-of-encrypted-attachments-in-protected-emails"></a>보호 된 전자 메일에서 암호화 된 첨부 파일의 미리 보기를 지 원하는 전자 메일 클라이언트는 무엇입니까?
+
+보호 된 메일로 첨부 파일을 보호 하는 경우 Outlook 클라이언트는 문서를 직접 미리 볼 수 있는 tha 기능을 제공 합니다. Outlook에서는 Office 문서 (.Docx, .xlsx, .pptx, doc, xls, ppt)의 미리 보기가 지원 됩니다. 웹용 Outlook은 Office 문서 (.docx, .xlsx, .pptx) 및 PDF의 미리 보기를 지원 합니다.  
+
 ## <a name="can-i-automatically-encrypt-messages-by-setting-up-policies"></a>정책을 설정 하 여 메시지를 자동으로 암호화할 수 있습니까?
 
 예. Exchange Online의 메일 흐름 규칙을 사용 하 여 특정 조건에 따라 메시지를 자동으로 암호화 합니다. 예를 들어 받는 사람 ID, 받는 사람 도메인을 기반으로 하거나 메시지의 본문 또는 제목에 있는 콘텐츠를 사용 하 여 정책을 만들 수 있습니다. [Office 365에서 전자 메일 메시지를 암호화 하기 위한 메일 흐름 규칙 정의를](define-mail-flow-rules-to-encrypt-email.md)참조 하세요.
