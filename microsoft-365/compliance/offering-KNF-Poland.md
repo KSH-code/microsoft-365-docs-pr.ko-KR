@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: c7f001f094c610d15e5e4775dc9ae94216a7ff56
-ms.sourcegitcommit: b2197dbf723d11992bbad568a84df3ef3cff421d
+ms.openlocfilehash: 433082c5fac3f1fef4aa680ebaeb8f4897d88569
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "39268762"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859638"
 ---
-# <a name="compliance-offering-financial-supervision-authority-knf-poland"></a>규정 준수 제안: KNF (Financial Supervision Authority) 폴란드
+# <a name="financial-supervision-authority-knf-poland"></a>KNF (금융 감독 기관) 폴란드
 
 ## <a name="about-the-knf"></a>KNF 정보
 

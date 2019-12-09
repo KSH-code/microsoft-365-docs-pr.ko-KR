@@ -1,7 +1,7 @@
 ---
 title: NEN 7510
 description: 네덜란드의 조직은 NEN 7510 표준에 따라 환자 건강 데이터에 대한 통제력을 입증해야 합니다.
-keywords: Microsoft 365, 규정 준수, 제품
+keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 51d167a4aea3abcbef6348cf2a7b9c7fde52d6ea
-ms.sourcegitcommit: b2197dbf723d11992bbad568a84df3ef3cff421d
+ms.openlocfilehash: 168519277be7b19d0d3e864e39aa506b1bf0ed0d
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "39268764"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859548"
 ---
-# <a name="compliance-offering-nen-7510"></a>규정 준수 제품: NEN 7510
+# <a name="nen-7510"></a>NEN 7510
 
 ## <a name="nen-7510-overview"></a>NEN 7510 개요
 

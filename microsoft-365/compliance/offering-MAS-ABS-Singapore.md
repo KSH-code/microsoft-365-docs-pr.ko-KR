@@ -1,7 +1,7 @@
 ---
 title: 싱가포르 통화청(MAS) 및 싱가포르 은행 연합(ABS)
 description: Microsoft는 금융 클라이언트가 싱가포르 통화청(MAS)의 아웃소싱 지침을 준수하고 싱가포르 은행 연합의 가이드를 적용할 수 있도록 지원합니다.
-keywords: Microsoft 365, 규정 준수, 제품
+keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 36b6253a2b880704dea1875dc1fcbfad4a90af2e
-ms.sourcegitcommit: b2197dbf723d11992bbad568a84df3ef3cff421d
+ms.openlocfilehash: e8755b89184b52b128e2f3c1060db6cf32e2f9e4
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "39218627"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859618"
 ---
-# <a name="compliance-offering-monetary-authority-of-singapore-mas-and-association-of-banks-in-singapore-abs"></a>규정 준수 제공: 싱가포르 통화청(MAS) 및 싱가포르 은행 연합(ABS)
+# <a name="monetary-authority-of-singapore-mas-and-association-of-banks-in-singapore-abs"></a>싱가포르 통화청(MAS) 및 싱가포르 은행 연합(ABS)
 
 ## <a name="mas-and-abs-overview"></a>MAS 및 ABS 개요
 

@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 4ba32661be241aab061609b97468c073d0c8d67c
-ms.sourcegitcommit: b2197dbf723d11992bbad568a84df3ef3cff421d
+ms.openlocfilehash: 9eb781ccaab7f7af00cc3c34bc7f7d9fb312fa26
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "39625315"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859648"
 ---
-# <a name="compliance-offering-iso-90012015-quality-management-systems-standards"></a>규정 준수 제안: ISO 9001:2015 품질 관리 시스템 표준
+# <a name="iso-90012015-quality-management-systems-standards"></a>ISO 9001:2015 품질 관리 시스템 표준
 
 ## <a name="iso-9001-overview"></a>ISO 9001 개요
 

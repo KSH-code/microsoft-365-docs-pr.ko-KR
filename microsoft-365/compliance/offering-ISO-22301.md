@@ -1,7 +1,7 @@
 ---
 title: ISO 22301:2012 비즈니스 연속성 관리 표준
 description: Microsoft는 이러한 비즈니스 연속성 관리 표준의 구현에 대한 인증을 받았습니다.
-keywords: Microsoft 365, 규정 준수, 제공품
+keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: d04a087ee0c58ec544128c6b8a510da1e1ae9bce
-ms.sourcegitcommit: b2197dbf723d11992bbad568a84df3ef3cff421d
+ms.openlocfilehash: 1f4bfd1c219de2126bc6cb9443f3b899b99945c6
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "39233561"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859698"
 ---
-# <a name="compliance-offering-iso-223012012-business-continuity-management-standard"></a>규정 준수 제공품: ISO 22301:2012 비즈니스 연속성 관리 표준
+# <a name="iso-223012012-business-continuity-management-standard"></a>ISO 22301:2012 비즈니스 연속성 관리 표준
 
 ## <a name="iso-22301-overview"></a>ISO 22301 개요
 

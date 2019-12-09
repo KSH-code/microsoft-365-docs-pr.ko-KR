@@ -1,7 +1,7 @@
 ---
 title: 신뢰할 수 있는 정보 보안 평가 교환(TISAX) 독일
 description: 독립된 ENX 공인 감사자는 TISAX 보안 요구 사항에 기반하여 Microsoft 클라우드 데이터 센터를 평가했습니다.
-keywords: Microsoft 365, 규정 준수, 제공품
+keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: a96c362d9992e4d21e96ae475ebdd95a5aa6791d
-ms.sourcegitcommit: b2197dbf723d11992bbad568a84df3ef3cff421d
+ms.openlocfilehash: 89656556e4cba8fca12708e558aef3254c37bfba
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "39233701"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859458"
 ---
-# <a name="compliance-offering-trusted-information-security-assessment-exchange-tisax-germany"></a>규정 준수 제공품: 신뢰할 수 있는 정보 보안 평가 교환(TISAX) 독일
+# <a name="trusted-information-security-assessment-exchange-tisax-germany"></a>신뢰할 수 있는 정보 보안 평가 교환(TISAX) 독일
 
 ## <a name="about-tisax"></a>TISAX에 대한 정보
 

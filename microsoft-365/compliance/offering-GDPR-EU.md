@@ -1,7 +1,7 @@
 ---
 title: GDPR(일반 데이터 보호 규정)
 description: Microsoft 클라우드로 개별 개인 정보 보호 권한을 숙지하고 Microsoft 365 및 Microsoft 클라우드로 조직에서 규정을 준수하는 방법을 비롯하여 GDPR(일반 데이터 보호 규정)에 관한 기본적인 주제에 대해 알아보세요.
-keywords: Microsoft 365, 규정 준수, 제공
+keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: ab50ba0a901672b2bd6f21f95f04612bba3f8cfd
-ms.sourcegitcommit: b2197dbf723d11992bbad568a84df3ef3cff421d
+ms.openlocfilehash: 3002d8bca20f7505287420d700aff60fec1af966
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "39233541"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859778"
 ---
-# <a name="compliance-offering-general-data-protection-regulation-gdpr"></a>규정 준수 제공: 일반 GDPR(일반 데이터 보호 규정)
+# <a name="general-data-protection-regulation-gdpr"></a>GDPR(일반 데이터 보호 규정)
 
 ## <a name="learn-about-gdpr-compliance-best-practices"></a>GDPR 준수 모범 사례 알아보기
 

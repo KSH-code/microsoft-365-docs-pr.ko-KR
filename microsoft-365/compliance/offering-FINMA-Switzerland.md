@@ -1,7 +1,7 @@
 ---
 title: 스위스 금융시장감독청 (FINMA, Financial Market Supervisory Authority)
 description: 스위스 금융 기관의 클라우드 도입에 도움을 주는 Microsoft 안내서입니다.
-keywords: Microsoft 365, 규정 준수, 제품
+keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: a98c628296e1b030413212ea03b48efd5ab052a5
-ms.sourcegitcommit: b2197dbf723d11992bbad568a84df3ef3cff421d
+ms.openlocfilehash: a2c2fa9fbd27e3519bc993c8e94be6d802cb91dc
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "39233641"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859848"
 ---
-# <a name="compliance-offering-financial-market-supervisory-authority-finma-switzerland"></a>규정 준수 제안: 스위스 금융시장감독청 (FINMA, Financial Market Supervisory Authority)
+# <a name="financial-market-supervisory-authority-finma-switzerland"></a>스위스 금융시장감독청 (FINMA, Financial Market Supervisory Authority)
 
 ## <a name="about-finma"></a>FINMA 관련 정보
 

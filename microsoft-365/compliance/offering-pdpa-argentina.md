@@ -11,22 +11,22 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 3c1bfd0d77eb2dd1a928355441cd8bb1ca5d574c
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 3bb251b888ba98bd1a815bde0aed0584a4a9bc13
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "39625363"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859308"
 ---
-# <a name="compliance-offering-personal-data-protection-act-pdpa-argentina"></a>규정 준수 제안: PDPA(개인 데이터 보호법) 아르헨티나
+# <a name="personal-data-protection-act-pdpa-argentina"></a>PDPA(개인 데이터 보호법) 아르헨티나
 
 ## <a name="about-the-pdpa"></a>PDPA 정보
 
-아르헨티나 국가 헌법에 따라 2000년에 [개인 데이터 보호법 25.326](https://unpan1.un.org/intradoc/groups/public/documents/un-dpadm/unpan044147.pdf)(PDPA)([Ley de Protección de los Datos Personales](https://servicios.infoleg.gob.ar/infolegInternet/anexos/60000-64999/64790/norma.htm))이 개인 데이터의 개인 정보를 보호하고 개인에게 공공 및 개인 데이터베이스 및 레지스트리에 저장된 모든 정보에 대한 액세스를 제공하기 위해 시행되었습니다. 내각부 장관 내 아르헨티나 공공 정보 접근 기관([Agencia de Acceso a la Información Pública, AAIP](https://www.argentina.gob.ar/aaip))은 이 법을 적용할 책임이 있습니다.
+아르헨티나 국가 헌법에 따라 2000년에 [개인 데이터 보호법 25.326](https://unpan1.un.org/intradoc/groups/public/documents/un-dpadm/unpan044147.pdf)(PDPA)([Ley de Protección de los Datos Personales](http://servicios.infoleg.gob.ar/infolegInternet/anexos/60000-64999/64790/norma.htm))이 개인 데이터의 개인 정보를 보호하고 개인에게 공공 및 개인 데이터베이스 및 레지스트리에 저장된 모든 정보에 대한 액세스를 제공하기 위해 시행되었습니다. 내각부 장관 내 아르헨티나 공공 정보 접근 기관([Agencia de Acceso a la Información Pública, AAIP](https://www.argentina.gob.ar/aaip))은 이 법을 적용할 책임이 있습니다.
 
 PDPA는 데이터 개인 정보 보호를 위한 유럽 입법 모델과 일치하며 아르헨티나는 EU로부터 데이터 전송에 대한 "적절한" 자격을 획득한 최초의 라틴 아메리카 국가였습니다.
 
-2016년에 AAIP는 개인 데이터의 국경 간 전송에 관한 새 규정인 [규정 60-E/2016](https://servicios.infoleg.gob.ar/infolegInternet/anexos/265000-269999/267922/norma.htm)(스페인)을 발표했습니다. 이 규정에 따라 데이터 컨트롤러와 데이터 프로세서로의 전송에 대한 모델 형식(일부 EU의 데이터 전송 모델을 기반으로 함)을 승인했습니다.
+2016년에 AAIP는 개인 데이터의 국경 간 전송에 관한 새 규정인 [규정 60-E/2016](http://servicios.infoleg.gob.ar/infolegInternet/anexos/265000-269999/267922/norma.htm)(스페인)을 발표했습니다. 이 규정에 따라 데이터 컨트롤러와 데이터 프로세서로의 전송에 대한 모델 형식(일부 EU의 데이터 전송 모델을 기반으로 함)을 승인했습니다.
 
 ## <a name="microsoft-and-the-pdpa"></a>Microsoft와 PDPA
 

@@ -1,7 +1,7 @@
 ---
 title: 'MPAA(Motion Picture Association of America: 미국 영화 협회)'
 description: Azure는 미국 영화 협회의 공식 평가를 성공적으로 완료했습니다.
-keywords: Microsoft 365, 규정 준수, 제공품
+keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: f564e61c7549a7566a72ce02ddf7d291d6cfc7d1
-ms.sourcegitcommit: b2197dbf723d11992bbad568a84df3ef3cff421d
+ms.openlocfilehash: 8877155507bb99a187ca65044d6620c7eaeb2dd8
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "39233441"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859598"
 ---
-# <a name="compliance-offering-motion-picture-association-of-america-mpaa"></a>규정 준수 제공품: MPAA(Motion Picture Association of America: 미국 영화 협회)
+# <a name="motion-picture-association-of-america-mpaa"></a>MPAA(Motion Picture Association of America: 미국 영화 협회)
 
 ## <a name="mpaa-overview"></a>MPAA의 개요
 

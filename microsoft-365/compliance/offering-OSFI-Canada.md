@@ -1,7 +1,7 @@
 ---
 title: Office of the Superintendent of Financial Institution(금융감독원:OSFI) 캐나다
 description: 캐나다에 있는 금융 기관의 클라우드 도입에 도움을 주는 Microsoft 안내서입니다.
-keywords: Microsoft 365, 규정 준수, 제공품
+keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -11,20 +11,20 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: d91663a2217f3ff1f1753f9f94a44de9c1536d8c
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 9ca6323d5c5ffd019c7d79f283b98cb25816cf62
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "39233721"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859528"
 ---
-# <a name="compliance-offering-office-of-the-superintendent-of-financial-institutions-osfi-canada"></a>규정 준수 제공품: Office of the Superintendent of Financial Institution(금융감독원:OSFI) 캐나다
+# <a name="office-of-the-superintendent-of-financial-institutions-osfi-canada"></a>Office of the Superintendent of Financial Institution(금융감독원:OSFI) 캐나다
 
 ## <a name="about-the-osfi"></a>OSFI에 대한 정보
 
-[Office of the Superintendent of Financial Institution](https://www.osfi-bsif.gc.ca/Eng/Pages/default.aspx)(금융감독원:OSFI)은 캐나다의 연방 차원에서 규제되는 금융 기관 및 연금 제도의 세심한 규제 및 감독에 대한 책임이 있는 캐나다 정부의 독립된 기관입니다.
+[Office of the Superintendent of Financial Institution](http://www.osfi-bsif.gc.ca/Eng/Pages/default.aspx)(금융감독원:OSFI)은 캐나다의 연방 차원에서 규제되는 금융 기관 및 연금 제도의 세심한 규제 및 감독에 대한 책임이 있는 캐나다 정부의 독립된 기관입니다.
 
-해당 감독 역할의 일환으로 OSFI는 [비즈니스 활동, 기능 및 프로세스의 아웃소싱](https://www.osfi-bsif.gc.ca/Eng/fi-if/rg-ro/gdn-ort/gl-ld/Pages/b10.aspx)에 대한 B-10 지침서를 발행했습니다. 지침서에는 서비스 공급업체로의 비즈니스 아웃소싱과 관련된 위험을 평가하고 관리하기 위해 연방 차원에서 규제되는 금융 기관을 위한 "세심한 관행, 절차 또는 표준"이 확립되어 있습니다.   이에 뒤이은 OSFI의 각서 [새로운 기술 기반의 아웃소싱 요구 사항](https://www.osfi-bsif.gc.ca/Eng/fi-if/rg-ro/gdn-ort/gl-ld/Pages/cldcmp.aspx)은 이들 기관에 B-10 지침서는 최신 상태로 유지되고 중요한 아웃소싱을 준비하는 경우 OSFI의 기대치를 충족해야 함을 상기시켜주었습니다.
+해당 감독 역할의 일환으로 OSFI는 [비즈니스 활동, 기능 및 프로세스의 아웃소싱](http://www.osfi-bsif.gc.ca/Eng/fi-if/rg-ro/gdn-ort/gl-ld/Pages/b10.aspx)에 대한 B-10 지침서를 발행했습니다. 지침서에는 서비스 공급업체로의 비즈니스 아웃소싱과 관련된 위험을 평가하고 관리하기 위해 연방 차원에서 규제되는 금융 기관을 위한 "세심한 관행, 절차 또는 표준"이 확립되어 있습니다.   이에 뒤이은 OSFI의 각서 [새로운 기술 기반의 아웃소싱 요구 사항](http://www.osfi-bsif.gc.ca/Eng/fi-if/rg-ro/gdn-ort/gl-ld/Pages/cldcmp.aspx)은 이들 기관에 B-10 지침서는 최신 상태로 유지되고 중요한 아웃소싱을 준비하는 경우 OSFI의 기대치를 충족해야 함을 상기시켜주었습니다.
 
 또한 금융 기관은 클라우드 서비스를 사용 시 [개인 정보 보호 및 전자 문서 법률](https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-personal-information-protection-and-electronic-documents-act-pipeda/)(PIPEDA)과 일부의 경우에는 지역의 데이터 개인 정보 보호법을 준수해야 합니다.
 
@@ -32,7 +32,7 @@ ms.locfileid: "39233721"
 
 캐나다에서 클라우드로 비즈니스 기능을 아웃소싱하려 고려하는 금융 기관에 대한 안내를 지원하기 위해 Microsoft는 [캐나다의 금융 기관을 위한 규정 준수 점검 목록인 클라우드에 이르는 길](https://aka.ms/Azure-Canada-Compliance)을 게시했습니다. 이 점검 목록을 검토하고 완료함으로서 금융 기관은 해당 규제적 요구 사항의 준수에 대한 확신을 가지고 Microsoft 비즈니스 클라우드 서비스를 도입할 수 있습니다.
 
-캐나다의 금융 기관에서 비즈니스 활동을 아웃소싱하는 경우 기관은 Office of the Superintendent of Financial Institution(금융감독원:OSFI)이 발행한 [비즈니스 활동, 기능 및 프로세스의 아웃소싱](https://www.osfi-bsif.gc.ca/Eng/fi-if/rg-ro/gdn-ort/gl-ld/Pages/b10.aspx)에 대한 B-10 지침서 뿐만 아니라 [개인 정보 보호 및 전자 문서 법률](https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-personal-information-protection-and-electronic-documents-act-pipeda/)(PIPEDA)를 포함하여 캐나다 개인 정보 보호법을 준수해야 합니다.
+캐나다의 금융 기관에서 비즈니스 활동을 아웃소싱하는 경우 기관은 Office of the Superintendent of Financial Institution(금융감독원:OSFI)이 발행한 [비즈니스 활동, 기능 및 프로세스의 아웃소싱](http://www.osfi-bsif.gc.ca/Eng/fi-if/rg-ro/gdn-ort/gl-ld/Pages/b10.aspx)에 대한 B-10 지침서 뿐만 아니라 [개인 정보 보호 및 전자 문서 법률](https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-personal-information-protection-and-electronic-documents-act-pipeda/)(PIPEDA)를 포함하여 캐나다 개인 정보 보호법을 준수해야 합니다.
 
 이 Microsoft의 점검 목록은 Microsoft 비즈니스 클라우드 서비스에 대한 실사 평가를 수행하는 캐나다의 금융 회사에 도움을 주며 다음의 사항을 포함합니다.
 
@@ -58,7 +58,7 @@ ms.locfileid: "39233721"
 
 아니요. 이전의 알림, 컨설팅 또는 승인에 대한 요구 사항은 없습니다. 공공 클라우드 컴퓨팅의 사용은 OSFI의 요구 사항을 항시 준수하는 경우 허용됩니다.
 
-[OSFI B-10 지침서](https://www.osfi-bsif.gc.ca/Eng/fi-if/rg-ro/gdn-ort/gl-ld/Pages/b10.aspx)는 OSFI가 금융 기관이 모든 아웃소싱 계획에 적용되는 위험 관리 프로그램을 관련 위험에 부합하는 위험 완화책과 함께 설계할 것을 기대하고 있음을 알려줍니다. 그러나 중요한 아웃소싱 계획만 지침서에 있는 보호 수단을 다루는 서면상의 계약서를 통해 문서화하면 됩니다. Microsoft [점검 목록](https://aka.ms/Azure-Canada-Compliance)의 2부(53 페이지)는 이 사항들을 Microsoft 계약 문서에서 그들이 언급되는 섹션에 매핑을 합니다.
+[OSFI B-10 지침서](http://www.osfi-bsif.gc.ca/Eng/fi-if/rg-ro/gdn-ort/gl-ld/Pages/b10.aspx)는 OSFI가 금융 기관이 모든 아웃소싱 계획에 적용되는 위험 관리 프로그램을 관련 위험에 부합하는 위험 완화책과 함께 설계할 것을 기대하고 있음을 알려줍니다. 그러나 중요한 아웃소싱 계획만 지침서에 있는 보호 수단을 다루는 서면상의 계약서를 통해 문서화하면 됩니다. Microsoft [점검 목록](https://aka.ms/Azure-Canada-Compliance)의 2부(53 페이지)는 이 사항들을 Microsoft 계약 문서에서 그들이 언급되는 섹션에 매핑을 합니다.
 
 **클라우드 서비스 공급 업체와의 계약에 포함 해야 하는 필수 약관이 있나요?**
 

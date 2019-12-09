@@ -1,7 +1,7 @@
 ---
 title: European Banking Authority(유럽은행관리국:EBA)
 description: 유럽의 금융 기관에 도움을 주는 Microsoft 지침은 클라우드 도입에 대한 EBA의 권장 사항을 준수합니다..
-keywords: Microsoft 365, 규정 준수, 제공품
+keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 67fa87edfeb8db2c97854e062a9b1d24910d67d8
-ms.sourcegitcommit: b2197dbf723d11992bbad568a84df3ef3cff421d
+ms.openlocfilehash: 9c202d6710d1615dcdc34698687826c768ac55b3
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "39233461"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859948"
 ---
-# <a name="compliance-offering-european-banking-authority-eba"></a>규정 준수 제공품: European Banking Authority(유럽은행관리국:EBA)
+# <a name="european-banking-authority-eba"></a>European Banking Authority(유럽은행관리국:EBA)
 
 ## <a name="about-the-eba"></a>EBA에 대한 정보
 

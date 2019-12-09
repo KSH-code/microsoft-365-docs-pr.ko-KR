@@ -1,7 +1,7 @@
 ---
 title: 클라우드 내 개인 데이터 보호를 위한 ISO/IEC 27018 규약
 description: Microsoft는 클라우드 개인 정보 보호 정책에 대한 이 규약을 준수하는 최초의 클라우드 공급자입니다.
-keywords: Microsoft 365, 규정 준수, 제품
+keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 405b730e845cd1f27d2d495b9437bf46a4499f5e
-ms.sourcegitcommit: b2197dbf723d11992bbad568a84df3ef3cff421d
+ms.openlocfilehash: 300a6c5d43bdb3653426b451abb3c82709194039
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "39218607"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859678"
 ---
-# <a name="compliance-offering-isoiec-27018-code-of-practice-for-protecting-personal-data-in-the-cloud"></a>규정 준수 제품: 클라우드 내 개인 데이터 보호를 위한 ISO/IEC 27018 규약
+# <a name="isoiec-27018-code-of-practice-for-protecting-personal-data-in-the-cloud"></a>클라우드 내 개인 데이터 보호를 위한 ISO/IEC 27018 규약
 
 ## <a name="isoiec-27018-overview"></a>ISO/IEC 27018 개요
 
@@ -46,7 +46,7 @@ Microsoft 클라우드에서 ISO-IEC-27018 의 혜택에 대해 알아보세요.
 - Microsoft 전문 서비스: Azure, Dynamics 365, Intune, Office 365의 중간 규모 비즈니스 및 엔터프라이즈 고객 대상 프리미어 및 온-프레미스
 - [Dynamics 365 및 Dynamics 365 U.S. Government](https://aka.ms/d365-compliance-list)
 - 유전체학
-- Graph
+- 그래프
 - Health Bot
 - Intune
 - 독립 실행형 서비스 혹은 Office 365 혹은 Dynamics 365에 브랜딩된 플랜 또는 제품군에 포함된 형태로서의 Microsoft Flow 클라우드 서비스

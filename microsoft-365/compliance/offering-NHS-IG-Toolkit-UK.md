@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: dbf59e28a911bff5b5e94bfe956c6fac49917ad5
-ms.sourcegitcommit: b2197dbf723d11992bbad568a84df3ef3cff421d
+ms.openlocfilehash: 69cc897f749a591da9bdc69057bccf2dc96351da
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "39622610"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859538"
 ---
-# <a name="compliance-offering-national-health-service-nhs-information-governance-ig-toolkit"></a>규정 준수 제품: NHS(전국 의료 서비스) 정보 거버넌스(IG) 도구 키트
+# <a name="national-health-service-nhs-information-governance-ig-toolkit"></a>NHS(전국 의료 서비스) 정보 거버넌스(IG) 도구 키트
 
 ## <a name="nhs-ig-toolkit-overview"></a>NHS IG 도구 키트 개요
 

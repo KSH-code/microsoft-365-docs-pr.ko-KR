@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 95f3d0a8a502dc1a3100366d9c73419b2e7d06d4
-ms.sourcegitcommit: b2197dbf723d11992bbad568a84df3ef3cff421d
+ms.openlocfilehash: df2c929523f651b7220fb0546928509dd8c0b6ad
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "39195429"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859588"
 ---
-# <a name="compliance-offering-multi-tier-cloud-security-mtcs-standard-for-singapore"></a>규정 준수 제안: 싱가포르 MTCS(다단계 클라우드 보안) 표준
+# <a name="multi-tier-cloud-security-mtcs-standard-for-singapore"></a>싱가포르 MTCS(다단계 클라우드 보안) 표준
 
 ## <a name="mtcs-overview"></a>MTCS 개요
 
@@ -47,7 +47,7 @@ Microsoft 클라우드에서의 MTCS의 혜택에 대해 알아보세요. [싱�
 - [Dynamics 365](https://go.microsoft.com/fwlink/p/?linkid=2051700)
 - Cloud App Security
 - Genomics
-- Graph
+- 그래프
 - Health Bot
 - Intune
 - Flow

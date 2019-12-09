@@ -1,7 +1,7 @@
 ---
 title: 대한민국-정보보호관리체계(K-ISMS, Korea-Information Security Management System)
 description: Microsoft Azure는 대한민국-정보보호관리체계(K-ISMS, Korea-Information Security Management System)에 대한 인증을 획득했습니다.
-keywords: Microsoft 365, 규정 준수, 제품
+keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 58bae4b2579a92b88859aaac6e0d338c0f688349
-ms.sourcegitcommit: b2197dbf723d11992bbad568a84df3ef3cff421d
+ms.openlocfilehash: 5685acf9bd03503dcee5c4b40533265bf25e0ee3
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "39622527"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859718"
 ---
-# <a name="compliance-offering-korea-information-security-management-system-k-isms"></a>규정 준수 제안: 대한민국-정보보호관리체계(K-ISMS, Korea-Information Security Management System)
+# <a name="korea-information-security-management-system-k-isms"></a>대한민국-정보보호관리체계(K-ISMS, Korea-Information Security Management System)
 
 ## <a name="about-k-isms"></a>K-ISMS 관련 정보
 

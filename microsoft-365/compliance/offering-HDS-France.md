@@ -1,7 +1,7 @@
 ---
 title: 건강 데이터 호스팅 (HDS) 프랑스
 description: Microsoft 클라우드 서비스는 표준 건강 데이터 호스팅 (Hébergeurs de Données de Santé)을 준수하도록 인증되었습니다.
-keywords: Microsoft 365, 규정 준수, 제품
+keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 01af4fd17ecbf88377605101d05de662d37e4c12
-ms.sourcegitcommit: b2197dbf723d11992bbad568a84df3ef3cff421d
+ms.openlocfilehash: e4591a6050dd6d1805b4d8904ce5f9b6497c3706
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "39622522"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859758"
 ---
-# <a name="compliance-offering-health-data-hosting-hds-france"></a>규정 준수 제품: 건강 데이터 호스팅 (HDS) 프랑스
+# <a name="health-data-hosting-hds-france"></a>건강 데이터 호스팅 (HDS) 프랑스
 
 ## <a name="about-hds"></a>HDS 정보
 

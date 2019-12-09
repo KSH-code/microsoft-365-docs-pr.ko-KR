@@ -1,7 +1,7 @@
 ---
 title: TruSight
 description: TruSight는 금융 서비스 고객의 엄격한 요구사항을 충족하도록 설계된 Microsoft 클라우드 서비스에 대한 종합적인 위험 평가를 수행했습니다.
-keywords: Microsoft 365, 규정 준수, 제품
+keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 73c8a187b018a2471a933a13062c1d3e4505ea02
-ms.sourcegitcommit: b2197dbf723d11992bbad568a84df3ef3cff421d
+ms.openlocfilehash: ea0732693f01f2c2898a3bb2f5067b406e613fa0
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "39233681"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859278"
 ---
-# <a name="compliance-offering-trusight"></a>규정 준수 제품: TruSight
+# <a name="trusight"></a>TruSight
 
 ## <a name="about-trusight"></a>TruSight 정보
 

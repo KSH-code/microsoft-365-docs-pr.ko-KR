@@ -1,7 +1,7 @@
 ---
 title: Spain Esquema Nacional de Seguridad(ENS) 높은 수준의 보안 조치
 description: Microsoft는 스페인의 Esquema Nacional de Seguridad(전국 보안 프레임워크) 인증을 받았습니다.
-keywords: Microsoft 365, 규정 준수, 제공품
+keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -11,14 +11,14 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 921728f67377cced15be3e730db9598d322fc49b
-ms.sourcegitcommit: b2197dbf723d11992bbad568a84df3ef3cff421d
+ms.openlocfilehash: 2aa99ca339f6842447fd9e440960bec327c38025
+ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "39233651"
+ms.lasthandoff: 12/05/2019
+ms.locfileid: "39859928"
 ---
-# <a name="compliance-offering-spain-esquema-nacional-de-seguridad-ens-high-level-security-measures"></a>규정 준수 제공품: Spain Esquema Nacional de Seguridad(ENS) 높은 수준의 보안 조치
+# <a name="spain-esquema-nacional-de-seguridad-ens-high-level-security-measures"></a>Spain Esquema Nacional de Seguridad(ENS) 높은 수준의 보안 조치
 
 ## <a name="spain-ens-overview"></a>스페인 ENS의 개요
 
