@@ -11,12 +11,12 @@ search.appverid:
 - MET150
 ms.assetid: c29f75e5-c16e-409e-a123-430691e38276
 description: 관리자는 메일 흐름 인텔리전스 라고도 하는 Office 365의 커넥터를 사용 하 여 메시지 배달과 관련 된 오류 코드에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: d49937afb379b43821d905001e8aee21ca86eb52
-ms.sourcegitcommit: b91d75d2631166ddd158d26a0a476e26391a58ac
+ms.openlocfilehash: ee02be439cd3bd9405aea7a94410af794808f259
+ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/30/2019
-ms.locfileid: "37886861"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "39971776"
 ---
 # <a name="mail-flow-intelligence-in-office-365"></a>Office 365의 메일 흐름 인텔리전스
 
@@ -60,7 +60,7 @@ ms.locfileid: "37886861"
 
 ### <a name="how-do-i-fix-error-code-450-44316"></a>오류 코드 450 4.4.316를 수정 하려면 어떻게 해야 하나요?
 
-- 온-프레미스 환경에 사서함이 있는 경우 TCP 포트 25의 Office 365 IP 주소에서 온-프레미스 전자 메일 서버에 연결할 수 있도록 방화벽 설정을 수정 해야 합니다. Office 365 IP 주소 목록은 [office 365 url 및 IP 주소 범위](https://support.office.com/article/8548a211-3fe7-47cb-abb1-355ea5aa88a2.aspx)를 참조 하세요.
+- 온-프레미스 환경에 사서함이 있는 경우 TCP 포트 25의 Office 365 IP 주소에서 온-프레미스 전자 메일 서버에 연결할 수 있도록 방화벽 설정을 수정 해야 합니다. Office 365 IP 주소 목록은 [office 365 url 및 IP 주소 범위](https://docs.microsoft.com/office365/enterprise/urls-and-ip-address-ranges)를 참조 하세요.
 
 - 온-프레미스 환경으로 더 이상 메시지를 배달 하지 않을 경우에는 알림에서 **지금 해결** 을 클릭 하 여 Office 365에서 잘못 된 받는 사람이 있는 메시지를 즉시 거부할 수 있도록 합니다. 이렇게 하면 정상적인 메시지 배달에 영향을 줄 수 있는 잘못 된 받는 사람에 대 한 조직의 할당량을 초과할 위험이 줄어듭니다. 또는 다음 지침을 사용 하 여 문제를 수동으로 해결할 수도 있습니다.
 
@@ -74,7 +74,7 @@ ms.locfileid: "37886861"
 
        - 편집 아이콘](../media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif) **편집** ![및 선택 취소를 클릭 하 여 커넥터를 사용 하지 **않도록 설정 합니다.**
 
-  - 온-프레미스 전자 메일 환경과 연결 된 Office 365의 허용 도메인을 **내부 중계** 에서 **신뢰할**수 있는 것으로 변경 합니다. 자세한 내용은 [Exchange Online에서 허용 도메인 관리](https://go.microsoft.com/fwlink/p/?linkid=785428)를 참조 하세요.
+  - 온-프레미스 전자 메일 환경과 연결 된 Office 365의 허용 도메인을 **내부 중계** 에서 **신뢰할**수 있는 것으로 변경 합니다. 자세한 내용은 [Exchange Online에서 허용 도메인 관리](https://docs.microsoft.com/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains)를 참조 하세요.
 
   **참고**: 일반적으로 이러한 변경 내용은 30 분에서 1 시간 마다 적용 됩니다. 1 시간 후에 오류가 더 이상 표시 되지 않는지 확인 합니다.
 

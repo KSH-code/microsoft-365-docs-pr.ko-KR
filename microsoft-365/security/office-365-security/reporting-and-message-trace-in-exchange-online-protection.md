@@ -10,12 +10,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: f40253f2-50a1-426e-9979-be74ba74cb61
 description: Microsoft EOP(Exchange Online Protection)에서는 조직의 전체 상태를 확인할 수 있는 다양한 보고서를 제공합니다. 받는 사람에게 메시지가 도착하지 않는 등 특정 이벤트에 대한 문제를 해결할 수 있는 도구와 규정 준수 요구 사항을 지원하는 감사 보고서도 있습니다. 다음 표에서는 EOP 관리자가 사용할 수 있는 보고서 및 문제 해결 도구를 설명합니다.
-ms.openlocfilehash: 81b4ce3d22fbf33dc2f22a4b0a73a3459b1874ee
-ms.sourcegitcommit: cbf117a4cd92a907115c9f10752f3c557361e586
+ms.openlocfilehash: 251286fca4ed54b87809c46e6e0f47ea618df747
+ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "37441415"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "39971514"
 ---
 # <a name="reporting-and-message-trace-in-exchange-online-protection"></a>Exchange Online Protection의 보고 및 메시지 추적
 
@@ -33,13 +33,13 @@ Microsoft EOP(Exchange Online Protection)에서는 조직의 전체 상태를 �
 
 자세한 내용은 다음 리소스를 참조 하십시오.
 
-- [관리 센터의 office 365 보고서-Office 365 그룹](https://go.microsoft.com/fwlink/p/?linkid=861610)
+- [관리 센터의 office 365 보고서-Office 365 그룹](https://docs.microsoft.com/office365/admin/activity-reports/office-365-groups)
 
-- [관리 센터의 Office 365 보고서-전자 메일 활동](https://go.microsoft.com/fwlink/p/?linkid=859706)
+- [관리 센터의 Office 365 보고서-전자 메일 활동](https://docs.microsoft.com/office365/admin/activity-reports/email-activity)
 
-- [관리 센터의 Office 365 보고서-전자 메일 앱 사용](https://go.microsoft.com/fwlink/p/?linkid=859707)
+- [관리 센터의 Office 365 보고서-전자 메일 앱 사용](https://docs.microsoft.com/office365/admin/activity-reports/email-apps-usage)
 
-- [관리 센터의 Office 365 보고서-사서함 사용량](https://go.microsoft.com/fwlink/p/?linkid=859708)
+- [관리 센터의 Office 365 보고서-사서함 사용량](https://docs.microsoft.com/office365/admin/activity-reports/mailbox-usage)
 
 ## <a name="security--compliance-reports-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터의 보안 & 준수 보고서
 
@@ -49,17 +49,15 @@ Microsoft EOP(Exchange Online Protection)에서는 조직의 전체 상태를 �
 
 **EOP**: 조직에서 보내고 보낸 맬웨어 감지, 스푸핑된 메일, 스팸 감지 및 메일 흐름에 대 한 정보를 확인 합니다.
 
-[Advanced Threat Protection 및 Exchange Online Protection에 대 한 보고서 보기](https://go.microsoft.com/fwlink/p/?linkid=852409)
+[Office 365 Advanced Threat Protection에 대 한 보고서 보기](view-reports-for-atp.md)
 
 ## <a name="custom-reports-using-microsoft-graph"></a>Microsoft Graph를 사용한 사용자 지정 보고서
 
-Microsoft Graph를 사용 하 여 Microsoft 365 관리 센터에서 사용할 수 있는 보고서를 프로그래밍 방식으로 만들기 microsoft [graph에서 Office 365 사용 현황 보고서 작업](https://go.microsoft.com/fwlink/p/?linkid=865135) 을 참조 하세요.
+Microsoft Graph를 사용 하 여 Microsoft 365 관리 센터에서 사용할 수 있는 보고서를 프로그래밍 방식으로 만듭니다. [Microsoft Graph에서 Office 365 사용 현황 보고서 작업](https://docs.microsoft.com/graph/api/resources/report)의 하위 주제를 참조 하세요.
 
-## <a name="custom-reports-using-reporting-web-services"></a>보고 웹 서비스를 사용한 사용자 지정 보고서
+## <a name="custom-reports-using-microsoft-graph"></a>Microsoft Graph를 사용한 사용자 지정 보고서
 
-REST/ODATA2 쿼리 필터링을 사용 하 여 사용 가능한 Exchange Online Protection PowerShell 보고 cmdlet에서 프로그래밍 방식으로 보고서를 만듭니다.
-
-[Office 365 Reporting Web Services](https://go.microsoft.com/fwlink/p/?LinkId=279926) 참조
+프로그래밍 방식으로 보고서를 만듭니다. [Overview For Microsoft Graph를](https://docs.microsoft.com/graph/overview)참조 하세요.
 
 ## <a name="message-trace"></a>Message trace
 

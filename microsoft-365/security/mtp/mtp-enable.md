@@ -1,0 +1,82 @@
+---
+title: Microsoft 365 보안 센터에서 Microsoft Threat Protection 사용 설정
+description: Microsoft Threat Protection를 사용하도록 설정하고 보안 인시던트 및 대응 통합을 시작하는 방법을 알아봅니다.
+keywords: 시작하기, MTP, Microsoft Threat Protection, M365, 보안, 데이터 위치
+search.product: eADQiWindows 10XVcnh
+ms.prod: microsoft-365-enterprise
+ms.mktglfcycl: deploy
+ms.sitesec: library
+ms.pagetype: security
+ms.author: lomayor
+author: lomayor
+ms.localizationpriority: medium
+manager: dansimp
+audience: ITPro
+ms.collection: M365-security-compliance
+ms.topic: conceptual
+search.appverid:
+- MOE150
+- MET150
+ms.openlocfilehash: a70754be6e1bd37d292a44e3ada82b3ae13ee6b7
+ms.sourcegitcommit: 0c9c28a87201c7470716216d99175356fb3d1a47
+ms.translationtype: MT + HT Review
+ms.contentlocale: ko-KR
+ms.lasthandoff: 12/09/2019
+ms.locfileid: "39911469"
+---
+# <a name="turn-on-microsoft-threat-protection"></a>Microsoft Threat Protection 사용 설정
+
+**적용 대상:**
+- Microsoft Threat Protection
+
+[!include[Prerelease information](prerelease.md)]
+
+Microsoft Threat Protection은 Microsoft Defender의 ATP(Advanced Threat Protection), Office 365 ATP, Microsoft Cloud App Security, Azure ATP에 주요 기능을 통합하여 인시던트 대응 프로세스를 통합합니다. 이 통합된 환경은 Microsoft 365 보안 센터에서 액세스할 수 있는 강력한 기능을 추가합니다.
+
+## <a name="check-your-eligibility"></a>자격 확인
+Microsoft 365 E5 또는 이와 동등한 라이선스가 있는 고객은 Microsoft Threat Protection을 사용할 수 있습니다. 자세한 내용은 [라이선스 요구 사항 읽기](prerequisites.md#licensing-requirements)를 참조하세요.
+
+## <a name="start-using-the-service"></a>서비스 사용 시작
+Microsoft Threat Protection 서비스를 사용하도록 설정하면 다양한 통합된 서비스에서 데이터를 집계합니다. 데이터는 중앙에서 처리되고 저장되어 새 정보를 식별하고 중앙 집중식 대응 워크플로를 가능하게 합니다.
+
+서비스를 사용하도록 설정하기 전에 Microsoft 365 보안 센터([security.microsoft.com](https://security.microsoft.com))는 메뉴에 **인시던트**와 **알림 센터** 옵션을 표시하지 않습니다.
+
+![Microsoft Threat Protection 기능을 사용하지 않는 Microsoft 365 보안 센터 메뉴의 이미지](../images/mtp-off.png)
+Microsoft Threat Protection이 꺼져 있는 Microsoft 365 보안 센터 **
+
+Microsoft Threat Protection 서비스 사용을 설정하려면 Microsoft 365 보안 센터에서 **설정** > **Microsoft Threat Protection** > **옵트인/옵트아웃**으로 이동합니다. 이 작업을 수행하려면 [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles)에서 전역 관리자 또는 보안 관리자여야 합니다.
+
+Microsoft Defender ATP가 조직에 프로비전된 경우 [Microsoft Defender ATP 데이터](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy)를 위해 선택한 것과 동일한 데이터 센터 위치에 데이터가 저장되고 처리됩니다. Microsoft Defender ATP가 없는 경우 Microsoft Threat Protection를 위한 새로운 데이터 센터 위치를 선택하라는 메시지가 표시됩니다. 서비스와 집계된 데이터가 공유되기 전에 동의를 제공해야 합니다.
+
+### <a name="confirm-that-the-service-is-on"></a>서비스가 켜져 있는지 확인합니다.
+서비스를 프로비전하면 다음이 추가됩니다.
+
+- [인시던트 관리](incidents-overview.md)
+- [자동화 조사 및 대응](mtp-autoir.md)을 관리하는 알림 센터
+- 기존 **헌팅** 페이지에 대한 [고급 헌팅](advanced-hunting-overview.md) 기능
+
+![Microsoft Threat Protection 기능을 사용하는 Microsoft 365 보안 센터 메뉴의 이미지](../images/mtp-on.png)
+*인시던트 관리와 Microsoft Threat Protection 기능이 있는 Microsoft 365 보안 센터*
+
+### <a name="getting-azure-atp-data"></a>Azure ATP 데이터 가져오기
+Azure ATP 데이터를 Microsoft Threat Protection 기능과 공유하려면 Microsoft Cloud App Security 및 Azure ATP 통합이 사용하도록 설정되어 있는지 확인하세요. [이 통합에 대한 자세한 정보](https://docs.microsoft.com/cloud-app-security/aatp-integration)
+
+
+## <a name="turn-off-microsoft-threat-protection"></a>Microsoft Threat Protection 해제
+Microsoft Threat Protection 사용을 중지하려면 Microsoft 365 보안 센터에서 **설정** > **Microsoft Threat Protection** > **옵트인/옵트아웃**으로 이동합니다. **Microsoft Threat Protection 사용**을 선택 취소하고 변경 내용을 저장합니다.
+
+데이터가 영구적으로 삭제되고 해당 기능이 Microsoft 365 보안 센터에서 제거됩니다.
+
+## <a name="get-assistance"></a>지원 받기
+
+Microsoft 직원은 테넌트의 서비스 및 관련 리소스를 프로비저닝하거나 프로비전 해제하는 데 도움을 줄 수 있습니다. 도움이 필요한 경우 [프리미어 지원에 문의](https://go.microsoft.com/fwlink/?LinkID=733758)하세요.
+
+## <a name="related-topics"></a>관련 항목
+
+- [Microsoft Threat Protection 개요](microsoft-threat-protection.md)
+- [라이선스 요구 사항 및 기타 필수 구성 요소](prerequisites.md)
+- [Microsoft Defender ATP 개요](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection)
+- [Office 365 ATP 개요](../office-365-security/office-365-atp.md)
+- [Microsoft Cloud App Security 개요](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security)
+- [Azure ATP 개요](https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp)
+- [Microsoft Defender ATP 데이터 저장소](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy)

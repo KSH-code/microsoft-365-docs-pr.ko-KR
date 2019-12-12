@@ -11,12 +11,12 @@ localization_priority: Normal
 search.appverid:
 - MET150s
 description: 보낸 사람 목록 옵션에는 Outlook 수신 거부, 스팸 방지 보낸 사람/도메인 차단 목록, IP 차단 목록 및 ETRs (Exchange 전송 규칙)가 메일 흐름 규칙이 라고도 합니다.
-ms.openlocfilehash: 27e0a1881c50031f180192b6bc02f3d606e7b76c
-ms.sourcegitcommit: 3eae8fe39cea912d29e211a1c9fd035d6b606f91
+ms.openlocfilehash: f4fab732a92df2a2500212c9825d2b3e710b0a07
+ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "38793712"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "39970894"
 ---
 # <a name="create-block-sender-lists-in-office-365"></a>Office 365에서 수신 거부 목록 만들기
 
@@ -43,7 +43,7 @@ ms.locfileid: "38793712"
 > [!IMPORTANT]
 > 원치 않는 메시지가 믿을 수 있는 출처의 뉴스레터가 면 전자 메일을 구독 하지 않는 것이 나중에 사용자가 전자 메일을 받지 못하도록 하는 또 다른 옵션입니다.
 
-이 작업을 설정 하는 단계는 [Outlook Web App](https://support.office.com/article/block-or-allow-junk-email-settings-48c9f6f7-2309-4f95-9a4d-de987e880e46) 과 [outlook 클라이언트](https://support.office.com/article/overview-of-the-junk-email-filter-5ae3ea8e-cf41-4fa0-b02a-3b96e21de089)간에 다릅니다. **수신 거부로 인해 메시지가 성공적으로 차단 되 면 SFV: BLK에서** 메시지가 차단 중임을 나타내는 스팸 방지가 표시 됩니다.
+이를 설정 하는 단계는 웹 및 [outlook 클라이언트](https://support.office.com/article/5ae3ea8e-cf41-4fa0-b02a-3b96e21de089) [의 outlook](https://support.office.com/article/48c9f6f7-2309-4f95-9a4d-de987e880e46) 과는 다릅니다. **수신 거부로 인해 메시지가 성공적으로 차단 되 면 SFV: BLK에서** 메시지가 차단 중임을 나타내는 스팸 방지가 표시 됩니다.
 
 ## <a name="use-anti-spam-policy-senderdomain-block-lists"></a>스팸 방지 정책 보낸 사람/도메인 차단 목록 사용
 

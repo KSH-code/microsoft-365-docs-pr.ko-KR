@@ -14,18 +14,18 @@ ms.assetid: ab95bf17-bb09-4dd1-9990-ddd02ddecf05
 ms.collection:
 - M365-security-compliance
 description: 이 항목에서는 Exchange Online 및 exchange Online Protection (EOP) 관리자가 EAC (exchange 관리 센터)에서 격리 된 메시지를 찾아서 해제 하 고 보고 하는 방법에 대해 설명 합니다.
-ms.openlocfilehash: e60c0ae87f050b6e72e53b6069a61cd52df0641a
-ms.sourcegitcommit: 2468bcb01625f97a322459814d81b9faad717859
+ms.openlocfilehash: 7d7288b85660c5569c748a3cb24a1d3cd027b72d
+ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39871844"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "39971756"
 ---
 # <a name="find-and-release-quarantined-messages-as-an-administrator"></a>관리자로 격리된 메시지 찾기 및 릴리스
 
 이 항목에서는 Exchange Online 및 exchange Online Protection (EOP) 관리자가 EAC (exchange 관리 센터)에서 격리 된 메시지를 찾아서 해제 하 고 보고 하는 방법에 대해 설명 합니다. Office 365에서는 메시지가 스팸으로 식별 되었거나 메일 흐름 규칙 (전송 규칙이 라고도 함)과 일치 하기 때문에 메시지를 격리로 보냅니다.
 
-EAC 대신 보안 & 준수 센터를 사용 하 여 이러한 작업을 모두 완료할 수 있습니다. EAC (Exchange 관리 센터) 내의 격리 포털은 decommisioned로 설정 되어 있습니다.  자세한 내용은 [Office 365에서 전자 메일 메시지 격리](https://support.office.com/article/Quarantine-email-messages-in-Office-365-4c234874-015e-4768-8495-98fcccfc639b)를 참조 하세요.
+EAC 대신 보안 & 준수 센터를 사용 하 여 이러한 작업을 모두 완료할 수 있습니다. EAC (Exchange 관리 센터) 내의 격리 포털은 decommisioned로 설정 되어 있습니다. 자세한 내용은 [Office 365에서 전자 메일 메시지 격리](quarantine-email-messages.md)를 참조 하세요.
 
 격리 된 메시지는 EAC의 **격리** 페이지에 나열 됩니다. 기본적으로 메시지는 **받은 날짜** 필드에서 가장 오래 된 항목 순으로 정렬 됩니다. 각 메시지에 대해 **보낸 사람**, **제목** 및 **만료 날짜** 값도 표시됩니다. 이러한 필드의 머리글을 클릭하여 각 필드를 정렬할 수 있습니다. 열 머리글을 두 번 클릭 하면 정렬 순서가 반전 됩니다. **격리** 페이지에 최대 500 개의 메시지가 표시 됩니다.
 
@@ -44,7 +44,7 @@ EAC 대신 보안 & 준수 센터를 사용 하 여 이러한 작업을 모두 �
 - 이 항목의 절차에 적용할 수 있는 바로 가기 키에 대 한 자세한 내용은 [Exchange Online에서 exchange 관리 센터에 대 한 바로 가기 키](https://docs.microsoft.com/Exchange/accessibility/keyboard-shortcuts-in-admin-center)를 참조 하십시오.
 
 > [!TIP]
-> 문제가 있습니까? Exchange 포럼에서 도움을 요청하세요. 포럼 주소는 다음과 같습니다.[Exchange Server](https://go.microsoft.com/fwlink/p/?linkId=60612),[Exchange Online](https://go.microsoft.com/fwlink/p/?linkId=267542), 또는 [Exchange Online Protection](https://go.microsoft.com/fwlink/p/?linkId=285351)
+> 문제가 있습니까? [Exchange Online Protection](https://go.microsoft.com/fwlink/p/?linkId=285351) 포럼에서 도움을 요청 하세요.
 
 ## <a name="use-advanced-search-to-filter-and-locate-quarantined-messages"></a>고급 검색을 사용하여 격리된 메시지 필터링 및 찾기
 

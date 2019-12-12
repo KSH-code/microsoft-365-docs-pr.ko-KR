@@ -13,18 +13,21 @@ ms.assetid: 6f64f2de-d626-48ed-8084-03cc72301aa4
 ms.collection:
 - M365-security-compliance
 description: EOP (Exchange Online Protection) 및 ATP (Advanced Threat Protection) 보안 설정에 대 한 모범 사례 표준 보호에 대 한 최신 권장 사항은 무엇 인가요? 보다 엄격한 기능을 사용 하려면 어떻게 해야 합니까? 또한 ATP (Advanced Threat Protection)를 사용 하는 경우에는 어떤 것을 얻게 됩니까?
-ms.openlocfilehash: 5f91c321e0644bc526b8f02028e794935cac3265
-ms.sourcegitcommit: 95a07b328166f637a481c8b5c53669eaf8ff0db8
+ms.openlocfilehash: 4afdb87adebfa9e685e1109f4532e4356f44a710
+ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39837332"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "39971546"
 ---
 # <a name="recommended-settings-for-eop-and-office-365-atp-security"></a>EOP 및 Office 365 ATP 보안에 대 한 권장 설정
 
 **EOP (Exchange Online Protection)** 는 Office 365 구독의 보안 핵심으로, 악의적인 전자 메일이 직원의 받은 편지함에 도달 하지 못하도록 합니다. 하지만 매일 보다 정교한 공격이 새로 등장 하면서도 향상 된 보호 기능은 대개 필요 합니다. **Office 365 ATP (Advanced Threat Protection)** ATP 계획 1 또는 ATP 계획 2에는 관리자가 더 많은 보안, 제어 및 조사 계층을 제공 하는 추가 기능이 포함 되어 있습니다.
 
 보안 관리자는 보안 설정을 사용자 지정할 수 있도록 하지만 EOP 및 Office 365 ATP에는 **표준** 및 **Strict**의 두 가지 보안 수준이 권장 됩니다. 각 고객의 환경과 요구 사항은 서로 다르지만, 이러한 수준의 메일 필터링 구성은 대부분의 상황에서 원치 않는 메일이 직원의 받은 편지함에 도달 하지 못하도록 방지 하는 데 도움이 됩니다.
+
+> [!IMPORTANT]
+> 필터링이 제대로 작동 하려면 사서함에서 정크 메일 구성을 사용 하도록 설정 해야 합니다. 이 옵션은 기본적으로 사용 하도록 설정 되어 있지만 필터링이 작동 하지 않는 것 처럼 보이는 경우에는 확인 해야 합니다. 자세한 내용은 [set-mailboxjunkemailconfiguration](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/set-mailboxjunkemailconfiguration) 를 참조 하십시오. 
 
 이 항목에서는 Office 365 사용자를 보호 하기 위해 이러한 Microsoft 권장 설정에 대해 설명 합니다.
 
@@ -41,7 +44,7 @@ ms.locfileid: "39837332"
 |피싱 전자 메일 검색 작업|메시지 격리|메시지 격리||
 |높은 신뢰도 피싱 전자 메일 검색 작업|메시지 격리|메시지 격리||
 |대량 전자 메일 검색 작업|정크 메일 폴더로 메시지 이동|메시지 격리||
-|대량 전자 메일 임계값을 다음으로 설정|번|1-4|기본값은 현재 7 이지만 대부분의 조직에서 6 개 이상으로 이동 하는 것이 좋습니다.|
+|대량 전자 메일 임계값을 다음으로 설정|6 |4 |기본값은 7 이지만이 값을 6으로 변경 하는 것이 좋습니다. 자세한 내용은 [대량 불만 수준 값](bulk-complaint-level-values.md)을 참조 하십시오.|
 |격리 보존 기간|30일|30일||
 |보안 팁|켜짐|켜짐||
 |허용 된 보낸 사람|없음|없음||
@@ -135,9 +138,9 @@ EOP 고객은 앞에서 설명한 것 처럼 기본 피싱 방지를 제공 하�
 |인증 되지 않은 보낸 사람 (태깅) 사용|켜짐|켜짐||
 |도메인을 스푸핑할 수 없는 사용자가 전자 메일을 보낸 경우|받는 사람의 정크 메일 폴더로 메시지 이동|메시지 격리||
 |EnableAuthenticationSafetyTip|참|참|이 설정은 PowerShell 에서만 사용할 수 있습니다.|
-|EnableAuthenticationSoftPassSafetyTip|거짓|참|이 설정은 PowerShell 에서만 사용할 수 있습니다.|
-|EnableSuspiciousSafetyTip|거짓|참|이 설정은 PowerShell 에서만 사용할 수 있습니다.|
-|TreatSoftPassAsAuthenticated|참|거짓|이 설정은 PowerShell 에서만 사용할 수 있습니다.|
+|EnableAuthenticationSoftPassSafetyTip|False|참|이 설정은 PowerShell 에서만 사용할 수 있습니다.|
+|EnableSuspiciousSafetyTip|False|참|이 설정은 PowerShell 에서만 사용할 수 있습니다.|
+|TreatSoftPassAsAuthenticated|참|False|이 설정은 PowerShell 에서만 사용할 수 있습니다.|
 
 |고급 설정 보안 기능 이름|표준을|항등|댓글|
 |---------|---------|---------|---------|
@@ -163,4 +166,3 @@ EOP 고객은 앞에서 설명한 것 처럼 기본 피싱 방지를 제공 하�
 |ATP 안전한 첨부 파일 알 수 없는 맬웨어 응답|정책의|정책의||
 |검색 시 첨부 파일 리디렉션|사용|사용|첨부 파일이 맬웨어 인지 여부를 확인 하는 방법을 알고 있는 보안 관리자의 전자 메일 주소로 리디렉션|
 |ATP 안전한 첨부 파일 응답에 대 한 맬웨어 검색 시간이 초과 되거나 오류가 발생 하는 경우|사용|사용||
-

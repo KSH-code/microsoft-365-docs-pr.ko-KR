@@ -14,12 +14,12 @@ ms.assetid: 5d9f75f5-bb7f-458c-ad30-5c8eae0b0e4e
 ms.collection:
 - M365-security-compliance
 description: 이 항목에서는 최종 사용자 및 관리자를 위한 문제 해결 단계 및 기술 지원 서비스에 문의하는 방법에 대해 설명합니다.
-ms.openlocfilehash: c87744608930603f70e6be1132a0b405e9646b57
-ms.sourcegitcommit: cbf117a4cd92a907115c9f10752f3c557361e586
+ms.openlocfilehash: a6a4b94db3e34442d326942641b10db15d104d71
+ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "37441195"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "39971626"
 ---
 # <a name="troubleshooting-and-support-information"></a>문제 해결 및 지원 정보
 
@@ -86,6 +86,6 @@ ms.locfileid: "37441195"
 
 ## <a name="for-more-information"></a>자세한 내용
 
-[보고서 메시지 추가 기능을 사용하도록 설정](https://support.office.com/article/4250c4bc-6102-420b-9e0a-a95064837676)
+[보고서 메시지 추가 기능을 사용하도록 설정](enable-the-report-message-add-in.md)
 
 [Microsoft에 정크 메일 메시지 보고](report-junk-email-messages-to-microsoft.md)
