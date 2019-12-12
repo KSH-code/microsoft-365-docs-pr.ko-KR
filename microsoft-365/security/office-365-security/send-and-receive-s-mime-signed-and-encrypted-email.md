@@ -12,17 +12,17 @@ search.appverid:
 - MET150
 ms.assetid: 1ce37ada-0a80-4b47-8611-d008979589ff
 description: Microsoft Outlook에서 S/MIME으로 암호화된 메시지를 보내거나 해당 메시지에 회신하는 환경은 암호화되지 않은 메시지의 환경과 매우 비슷합니다.
-ms.openlocfilehash: 63f45688946f1946f0b0a63cec748d0f0c6a50ee
-ms.sourcegitcommit: 84d88a857e82b1a8a0d466057a2e330e8b1692e4
+ms.openlocfilehash: ccea4e3359ecb9a5b214e4d19afa3e188b1b2865
+ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37305932"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "39970284"
 ---
-# <a name="send-and-receive-smime-signed-and-encrypted-email-in-exchange-online"></a><span data-ttu-id="28288-103">Exchange Online에서 S/MIME으로 서명 및 암호화 된 전자 메일 보내기/받기</span><span class="sxs-lookup"><span data-stu-id="28288-103">Send and receive S/MIME signed and encrypted email in Exchange Online</span></span>
+# <a name="send-and-receive-smime-signed-and-encrypted-email-in-exchange-online"></a><span data-ttu-id="e4ea4-103">Exchange Online에서 S/MIME으로 서명 및 암호화 된 전자 메일 보내기/받기</span><span class="sxs-lookup"><span data-stu-id="e4ea4-103">Send and receive S/MIME signed and encrypted email in Exchange Online</span></span>
 
-<span data-ttu-id="28288-104">Microsoft Outlook에서 S/MIME으로 암호화된 메시지를 보내거나 해당 메시지에 회신하는 환경은 암호화되지 않은 메시지의 환경과 매우 비슷합니다.</span><span class="sxs-lookup"><span data-stu-id="28288-104">Sending or replying to an S/MIME-encrypted message in Microsoft Outlook is very similar to the experience with a non-encrypted message.</span></span> <span data-ttu-id="28288-105">웹에서 Outlook (이전의 Outlook Web App)과 같은 전자 메일 프로그램에서 S/MIME으로 암호화 된 메시지를 읽거나 보내는 방법에 대 한 자세한 내용은 [outlook을 사용 하 여 s/mime으로 암호화 된 메시지 보내기 및 회신](https://go.microsoft.com/fwlink/p/?LinkId=392520)을 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="28288-105">For more information about reading or sending S/MIME-encrypted messages from an email program such as Outlook on the web (formerly known as Outlook Web App), see [Use Outlook to send and reply to S/MIME encrypted messages](https://go.microsoft.com/fwlink/p/?LinkId=392520).</span></span>
+<span data-ttu-id="e4ea4-104">Microsoft Outlook에서 S/MIME으로 암호화된 메시지를 보내거나 해당 메시지에 회신하는 환경은 암호화되지 않은 메시지의 환경과 매우 비슷합니다.</span><span class="sxs-lookup"><span data-stu-id="e4ea4-104">Sending or replying to an S/MIME-encrypted message in Microsoft Outlook is very similar to the experience with a non-encrypted message.</span></span> <span data-ttu-id="e4ea4-105">웹에서 Outlook (이전의 Outlook Web App)과 같은 전자 메일 프로그램에서 S/MIME으로 암호화 된 메시지를 읽거나 보내는 방법에 대 한 자세한 내용은 [웹용 outlook에서 s/mime을 사용 하 여 메시지 암호화](https://support.office.com/article/878c79fc-7088-4b39-966f-14512658f480)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="e4ea4-105">For more information about reading or sending S/MIME-encrypted messages from an email program such as Outlook on the web (formerly known as Outlook Web App), see [Encrypt messages by using S/MIME in Outlook on the web](https://support.office.com/article/878c79fc-7088-4b39-966f-14512658f480).</span></span>
 
-## <a name="for-more-information"></a><span data-ttu-id="28288-106">자세한 내용</span><span class="sxs-lookup"><span data-stu-id="28288-106">For more information</span></span>
+## <a name="for-more-information"></a><span data-ttu-id="e4ea4-106">자세한 내용</span><span class="sxs-lookup"><span data-stu-id="e4ea4-106">For more information</span></span>
 
-[<span data-ttu-id="28288-107">메시지 서명 및 암호화를 위한 S/MIME</span><span class="sxs-lookup"><span data-stu-id="28288-107">S/MIME for message signing and encryption</span></span>](s-mime-for-message-signing-and-encryption.md)
+[<span data-ttu-id="e4ea4-107">메시지 서명 및 암호화를 위한 S/MIME</span><span class="sxs-lookup"><span data-stu-id="e4ea4-107">S/MIME for message signing and encryption</span></span>](s-mime-for-message-signing-and-encryption.md)
