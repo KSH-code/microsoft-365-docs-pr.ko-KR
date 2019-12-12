@@ -10,19 +10,19 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: d74c6ddf-11b0-43ee-b298-8bb0340895f0
 description: 이 항목에서는 Microsoft EOP(Exchange Online Protection)를 설정하는 방법에 대해 설명합니다. Office 365 도메인 마법사에서 여기로 이동했으며 Exchange Online Protection를 사용하지 않으려면 Office 365 도메인 마법사로 돌아갑니다. 커넥터 구성 방법에 대한 자세한 내용를 보려면 Configure mail flow using connectors in Office 365을 참조하세요.
-ms.openlocfilehash: 189c3bb08609eb2604e77b5140e866711e8f1a09
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 4cd7d6e82c07d0b5a942427c947181b2d4e80c37
+ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38032003"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "39970114"
 ---
 # <a name="set-up-your-eop-service"></a>EOP 서비스 설정
 
 이 항목에서는 Microsoft EOP(Exchange Online Protection)를 설정하는 방법에 대해 설명합니다. Office 365 도메인 마법사에서 여기로 이동했으며 Exchange Online Protection를 사용하지 않으려면 Office 365 도메인 마법사로 돌아갑니다. 커넥터 구성 방법에 대한 자세한 내용를 보려면 [Configure mail flow using connectors in Office 365](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow)을 참조하세요.
 
 > [!NOTE]
-> 이 항목에서는 온-프레미스 사서함이 있고 EOP을 사용 하 여이를 보호 하려고 한다고 가정 합니다 (독립 실행형 시나리오 라고 함). Exchange Online을 사용 하 여 클라우드의 모든 사서함을 호스팅하려면이 항목의 모든 단계를 완료 하지 않아도 됩니다. [Exchange Online](https://go.microsoft.com/fwlink/p/?LinkId=286312) 으로 이동 하 여 클라우드 사서함에 등록 하 고 구입 합니다. 온-프레미스의 일부 사서함과 클라우드에서 일부를 호스트 하려는 경우이를 하이브리드 시나리오 라고 합니다. 이를 위해서는 보다 고급 메일 흐름 설정이 필요 합니다. [Exchange Server 하이브리드 배포](https://docs.microsoft.com/exchange/exchange-hybrid) 에서는 하이브리드 메일 흐름에 대해 설명 하 고이를 설정 하는 방법을 보여 주는 리소스에 대 한 링크를 제공 합니다.
+> 이 항목에서는 온-프레미스 사서함이 있고 EOP을 사용 하 여이를 보호 하려고 한다고 가정 합니다 (독립 실행형 시나리오 라고 함). Exchange Online을 사용 하 여 클라우드의 모든 사서함을 호스팅하려면이 항목의 모든 단계를 완료 하지 않아도 됩니다. [Exchange Online 계획 비교](https://products.office.com/exchange/compare-microsoft-exchange-online-plans) 로 이동 하 여 클라우드 사서함에 등록 하 고 구입 합니다. 온-프레미스의 일부 사서함과 클라우드에서 일부를 호스트 하려는 경우이를 하이브리드 시나리오 라고 합니다. 이를 위해서는 보다 고급 메일 흐름 설정이 필요 합니다. [Exchange Server 하이브리드 배포](https://docs.microsoft.com/exchange/exchange-hybrid) 에서는 하이브리드 메일 흐름에 대해 설명 하 고이를 설정 하는 방법을 보여 주는 리소스에 대 한 링크를 제공 합니다.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
 
@@ -30,7 +30,7 @@ ms.locfileid: "38032003"
 
 - 커넥터를 구성하려면 Office 365 전역 관리자 또는 Exchange 회사 관리자(조직 관리 역할 그룹)여야 합니다. 자세한 내용은 [EOP의 Feature permissions](feature-permissions-in-eop.md)를 참조 하십시오.
 
-- 아직 EOP에 등록하지 않은 경우 [Exchange Online Protection](https://go.microsoft.com/fwlink/p/?LinkId=282660)을 방문하여 서비스를 구입하거나 평가판을 신청합니다.
+- 아직 EOP에 등록하지 않은 경우 [Exchange Online Protection](https://products.office.com/exchange/exchange-email-security-spam-protection)을 방문하여 서비스를 구입하거나 평가판을 신청합니다.
 
 - 이 항목의 절차에 적용할 수 있는 바로 가기 키에 대 한 자세한 내용은 [Exchange Online에서 exchange 관리 센터에 대 한 바로 가기 키](https://docs.microsoft.com/Exchange/accessibility/keyboard-shortcuts-in-admin-center)를 참조 하십시오.
 
@@ -39,7 +39,7 @@ ms.locfileid: "38032003"
 
 ## <a name="step-1-use-the-microsoft-365-admin-center-to-add-and-verify-your-domain"></a>1 단계: Microsoft 365 관리 센터를 사용 하 여 도메인 추가 및 확인
 
-1. [Microsoft 365 관리 센터](https://go.microsoft.com/fwlink/p/?LinkId=521888)에서 **설정** 으로 이동 하 여 서비스에 도메인을 추가 합니다.
+1. [Microsoft 365 관리 센터](https://docs.microsoft.com/office365/admin/admin-overview/about-the-admin-center)에서 **설정** 으로 이동 하 여 서비스에 도메인을 추가 합니다.
 
 2. 도메인 소유권 확인을 위해 해당 DNS 레코드를 DNS 호스팅 공급자에 추가하는 단계를 수행합니다.
 

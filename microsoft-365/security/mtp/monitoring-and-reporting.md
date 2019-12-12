@@ -2,7 +2,7 @@
 title: Microsoft 365 보안 센터에서 보고서 모니터링 및 보기
 description: Microsoft 365 보안 센터가 보호 및 보안 상태의 요약 정보를 한눈에 제공 하는 방법에 대해 설명 합니다.
 keywords: 보안, 맬웨어, Microsoft 365, M365, 보안 센터, 모니터, 보고서, 상태
-ms.prod: w10
+ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
 ms.localizationpriority: medium
 ms.author: ellevin
@@ -12,14 +12,14 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: 80b7bf07790b7f5cb8cf0e07acd6abb921404d6f
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 5b2dee5916a793221e8030dd41c8c0ba33ea7a0d
+ms.sourcegitcommit: 0c9c28a87201c7470716216d99175356fb3d1a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37089336"
+ms.lasthandoff: 12/09/2019
+ms.locfileid: "39910135"
 ---
-# <a name="monitor-and-view-reports-in-microsoft-365-security-center"></a>Microsoft 365 보안 센터에서 보고서 모니터링 및 보기
+# <a name="monitor-and-view-reports-in-the-microsoft-365-security-center"></a>Microsoft 365 보안 센터에서 보고서 모니터링 및 보기
 
 Microsoft 365 보안 센터에서는 Microsoft 365 환경 전반의 보호 및 보안 상태에 대 한 요약 정보를 제공 합니다.
 
@@ -36,7 +36,7 @@ Microsoft 365 보안 센터에서는 Microsoft 365 환경 전반의 보호 및 �
 
 그룹화 방법 **항목**으로 전환 하 여 카드를 다시 정렬 하 고 다음으로 그룹화 합니다.
 
-* **위험** – 위험에 노출 될 수 있는 계정 및 장치와 같은 엔터티를 강조 표시 하는 카드입니다. 이러한 카드는 새 위협 캠페인 및 권한이 부여 된 클라우드 앱과 같은 가능한 위험 출처를 강조 합니다.  
+* **위험** -계정 및 장치와 같이 위험에 노출 될 수 있는 엔터티를 강조 표시 하는 카드입니다. 이러한 카드는 새 위협 캠페인 및 권한이 부여 된 클라우드 앱과 같은 가능한 위험 출처를 강조 합니다.  
 * **검색 경향** -새로운 위협 감지, 예외 및 정책 위반을 강조 표시 하는 카드
 * 관리 서비스에 대 한 장치 온 보 딩 상태를 포함 하 여 보안 제어의 구성 및 배포를 다루는 **구성 및 상태** 카드
 * **기타** -기타 항목 아래에 분류 되지 않은 다른 모든 카드

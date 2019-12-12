@@ -13,16 +13,16 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: 피싱 메시지가 사서함에 도착 하지 않도록 하기 위해 웹에서 Outlook.com 및 Outlook은 보낸 사람이 누구 인지를 확인 하 고 의심 스러운 메시지를 정크 메일로 표시 합니다.
-ms.openlocfilehash: 89cd473a7b7f2ff663d7ee1eee41f84144dee6d7
-ms.sourcegitcommit: ba223b4fd069fc6fd09c2a2e34c770a18bc7b2a2
+ms.openlocfilehash: 4c8b8a0711ab66607d0db5923c1115c436537bd0
+ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39866440"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "39970934"
 ---
 # <a name="unverified-sender"></a>확인 되지 않은 보낸 사람
 
-> [!NOTE] 
+> [!NOTE]
 > 이러한 업데이트는 현재 롤아웃 중 이며, 아직 모든 사용자에 대해 사용이 가능 하지 않을 수 있습니다. 이 기능은 Enterprise outlook.com 사용자에 대해 지원 됩니다. 현재 소비자 outlook.com는 사용할 수 없습니다.
 
 피싱 메시지가 사서함에 도착 하지 않도록 하기 위해 웹에서 Outlook.com 및 Outlook은 보낸 사람이 누구 인지를 확인 하 고 의심 스러운 메시지를 정크 메일로 표시 합니다.
@@ -36,12 +36,11 @@ Outlook.com and Outlook에서 메시지를 보낸 사람이 식별 되지 않거
 
 ## <a name="you-see-a--in-the-sender-image"></a>보낸 사람 이미지에 '? '가 표시 됩니다.
 
-Outlook.com 및 웹용 Outlook에서 전자 메일 인증 기술을 사용 하 여 보낸 사람의 id를 확인할 수 없는 경우 보낸 사람 사진에 '? '가 표시 됩니다. 
+Outlook.com 및 웹용 Outlook에서 전자 메일 인증 기술을 사용 하 여 보낸 사람의 id를 확인할 수 없는 경우 보낸 사람 사진에 '? '가 표시 됩니다.
 
 ![메시지가 확인 통과 되지 않음](../media/message-did-not-pass-verification.jpg)
 
 인증에 실패 한 모든 메시지는 악성이 아닙니다. 그러나 보낸 사람을 인식 하지 못하는 경우 인증을 받지 않는 메시지와 상호 작용할 때는 주의 해야 합니다. 또는 일반적으로 보낸 사람 이미지에 '? '가 포함 되지 않는 보낸 사람을 인식할 수 있지만이를 갑자기 보면 보낸 사람이 위장 중 이라고 표시 됩니다.
-
 
 ## <a name="how-to-manage-which-messages-receive-the-unverified-sender-treatment"></a>확인 되지 않은 보낸 사람 처리를 수신 하는 메시지를 관리 하는 방법 
 
@@ -52,10 +51,10 @@ Office 365 고객 인 경우 보안 & 준수 센터를 통해이 기능을 관�
     ![그래픽 인터페이스에서 인증 되지 않은 보낸 사람 편집](../media/unverified-sender-article-editing-unauthenticated-senders.jpg)
 
 - 관리자가 가양성을 식별 했 고 보낸 사람이 확인 되지 않은 보낸 사람 처리를 수신 하지 않아야 하는 경우 다음 작업 중 하나를 수행 하 여 위장 인텔리전스 스푸핑 허용 목록에 보낸 사람을 추가할 수 있습니다.
-        
-    - 스푸핑 인텔리전스 이해를 통해 도메인 쌍을 추가 합니다. 자세한 내용은 [연습용: 스푸핑 인텔리전스 이해](https://docs.microsoft.com/microsoft-365/security/office-365-security/walkthrough-spoof-intelligence-insight)를 참조 하세요.
-                
-    - Get-phishfilterpolicy cmdlet을 통해 도메인 쌍을 추가 합니다. 자세한 내용은 [get-phishfilterpolicy](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/set-phishfilterpolicy) 및 [set UP Office 365 ATP 안티 피싱 및 피싱 방지 정책을](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-anti-phishing-policies)참조 하세요.
+
+  - 스푸핑 인텔리전스 이해를 통해 도메인 쌍을 추가 합니다. 자세한 내용은 [연습용: 스푸핑 인텔리전스 이해](walkthrough-spoof-intelligence-insight.md)를 참조 하세요.
+
+  - Get-phishfilterpolicy cmdlet을 통해 도메인 쌍을 추가 합니다. 자세한 내용은 [get-phishfilterpolicy](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/set-phishfilterpolicy) 및 [set UP Office 365 ATP 안티 피싱 및 피싱 방지 정책을](set-up-anti-phishing-policies.md)참조 하세요.
 
 또한 ETRs (전자 메일 전송 규칙), 안전한 도메인 목록 (스팸 방지 정책), 수신 허용-보낸 사람 목록 또는 사용자가 해당 사용자를 "안전한 보낸 사람"으로 설정 하 여 관리자 허용 목록을 통해 받은 편지 함으로 배달 된 경우에는 확인 되지 않은 보낸 사람 처리가 적용 되지 않습니다. 받은 편지함.
 
@@ -81,6 +80,6 @@ Via 태그: 보낸 사람으로 서, DKIM 서명 또는 SMTP 메일의 도메인
 
 [Outlook.com 전자 메일 계정 보호](https://support.office.com/article/a4f20fc5-4307-4ece-8231-6d4d4bd8a9ba)
 
-[Outlook.com에서 불건전, 피싱 또는 스푸핑 처리](https://support.office.com/article/0d882ea5-eedc-4bed-aebc-079ffa1105a3)
+[Outlook.com의 피싱 또는 스푸핑 처리](https://support.office.com/article/0d882ea5-eedc-4bed-aebc-079ffa1105a3)
 
 [웹용 Outlook에서 정크 메일 및 스팸 필터링](https://support.office.com/article/db786e79-54e2-40cc-904f-d89d57b7f41d)

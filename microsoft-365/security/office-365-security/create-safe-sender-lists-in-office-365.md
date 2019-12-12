@@ -12,12 +12,12 @@ search.appverid:
 - MET150s
 ms.assetid: 9721b46d-cbea-4121-be51-542395e6fd21
 description: 특정 보낸 사람의 메일을 수신 하는 경우 해당 사용자와 해당 메시지를 신뢰 하기 때문에 Exchange 관리 센터의 스팸 필터 정책에서 허용 목록을 조정할 수 있습니다.
-ms.openlocfilehash: f4ece6f7528b301ed7046df84ca18915d833dbbf
-ms.sourcegitcommit: 3eae8fe39cea912d29e211a1c9fd035d6b606f91
+ms.openlocfilehash: 1e804e73b8e2b98107c955004bac240793375ab9
+ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "38793682"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "39970854"
 ---
 # <a name="create-safe-sender-lists-in-office-365"></a>Office 365에서 수신 허용-보낸 사람 목록 만들기
 
@@ -74,7 +74,7 @@ ms.locfileid: "38793682"
 
 ## <a name="use-outlook-safe-senders-end-user-managed"></a>Outlook 수신 허용-보낸 사람 (최종 사용자 관리) 사용
 
-최종 사용자는 주소, 도메인 또는 IP 주소에 전역적으로 권한을 부여 하는 대신 Outlook 수신 허용-보낸 사람을 통한 주소 보내기를 허용할 수도 있습니다. 이 작업을 설정 하는 단계는 [Outlook Web App](https://support.office.com/article/block-or-allow-junk-email-settings-48c9f6f7-2309-4f95-9a4d-de987e880e46) 과 [outlook 클라이언트](https://support.office.com/article/overview-of-the-junk-email-filter-5ae3ea8e-cf41-4fa0-b02a-3b96e21de089)간에 서로 다릅니다. **수신 허용-보낸 사람으로 인해 메시지가 성공적으로 인증 되 면 SFV: 스팸 방지-Report의 SFV에서** 스팸/스푸핑/피싱 필터링이 무시 된다는 것을 표시 합니다.
+최종 사용자는 주소, 도메인 또는 IP 주소에 전역적으로 권한을 부여 하는 대신 Outlook 수신 허용-보낸 사람을 통한 주소 보내기를 허용할 수도 있습니다. 이 작업을 설정 하는 단계는 [웹의 outlook](https://support.office.com/article/48c9f6f7-2309-4f95-9a4d-de987e880e46) 과 [outlook 클라이언트](https://support.office.com/article/5ae3ea8e-cf41-4fa0-b02a-3b96e21de089)에 따라 다릅니다. **수신 허용-보낸 사람으로 인해 메시지가 성공적으로 인증 되 면 SFV: 스팸 방지-Report의 SFV에서** 스팸/스푸핑/피싱 필터링이 무시 된다는 것을 표시 합니다.
 
 ## <a name="use-anti-spam-policy-ip-allow-lists"></a>스팸 방지 정책 IP 허용 목록 사용
 

@@ -10,18 +10,18 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 70ab4af2-fec4-4886-8e12-27d348649204
 description: 다음은 EOP을 사용 하 여 작업을 시작 하기 전에 알아야 할 몇 가지 사항입니다.
-ms.openlocfilehash: 707e909821c4a394e230b1746bde86521d8fb10a
-ms.sourcegitcommit: cbf117a4cd92a907115c9f10752f3c557361e586
+ms.openlocfilehash: ae08ff17a3ef25f0b0903d02ffe396cd201bd06c
+ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "37441565"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "39970524"
 ---
 # <a name="exchange-online-protection"></a>Exchange Online Protection
 
 Microsoft EOP(Exchange Online Protection) 호스팅 전자 메일 필터링 서비스를 시작합니다. 다음은 EOP 작업을 수행하고 이 콘텐츠를 사용하기 전에 알아야 할 몇 가지 사항입니다.
 
-- EOP에 대한 자세한 내용은 [Exchange Online Protection 서비스 설명](https://go.microsoft.com/fwlink/p/?LinkId=320619)을 참조하세요. 기타 유용한 리소스로는 [Exchange Online Protection 개요](exchange-online-protection-overview.md), [EOP 관련 일반 FAQ(질문과 대답)](eop-general-faq.md), [EOP 기능](eop-features.md) 및 [Exchange Online Protection 홈 페이지](https://go.microsoft.com/fwlink/?LinkId=279912)가 있습니다.
+- EOP에 대 한 자세한 내용은 [Exchange Online Protection 서비스 설명을](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)참조 하세요. 기타 유용한 리소스로는 [Exchange Online Protection 개요](exchange-online-protection-overview.md), [EOP 관련 일반 FAQ(질문과 대답)](eop-general-faq.md), [EOP 기능](eop-features.md) 및 [Exchange Online Protection 홈 페이지](https://products.office.com/exchange/exchange-email-security-spam-protection)가 있습니다.
 
 - 새 고객이 EOP를 시작하려면 [EOP 서비스 설정](set-up-your-eop-service.md)부터 시작해야 합니다. 이 항목에서는 EOP를 실행하는 데 도움이 되는 단계를 제공합니다.
 
@@ -67,6 +67,6 @@ The EOP 최종 사용자가 스팸을 관리하도록 지원하기 위한 도움
 
 - [분석용 맬웨어 및 비 맬웨어를 Microsoft에 제출](submitting-malware-and-non-malware-to-microsoft-for-analysis.md): 최종 사용자가 필터를 통해 만든 맬웨어를 제출 하거나 맬웨어로 잘못 식별 된 파일을 제출 하는 방법에 대해 설명 합니다.
 
-- 최종 사용자는 Outlook 또는 웹용 Outlook에서 정크 메일 설정을 구성 하 여 수신 허용-보낸 사람 목록 또는 수신 거부 목록에 특정 사용자 또는 도메인을 추가할 수 있습니다. 차단 된 보낸 사람 으로부터 보낸 메시지는 거부 되지 않고 스팸으로 표시 되며, 관리자가 스팸을 보내도록 서비스를 구성한 위치에 따라 정크 메일 폴더 또는 격리에서 해당 메시지가 검색 될 수 있다는 것을 의미 합니다. 자세한 내용은 [보고서 메시지 추가 기능 사용](https://support.office.com/article/addin-b5caa9f1-cdf3-4443-af8c-ff724ea719d2)을 참조 하십시오.
+- 최종 사용자는 Outlook 또는 웹용 Outlook에서 정크 메일 설정을 구성 하 여 수신 허용-보낸 사람 목록 또는 수신 거부 목록에 특정 사용자 또는 도메인을 추가할 수 있습니다. 차단 된 보낸 사람 으로부터 보낸 메시지는 거부 되지 않고 스팸으로 표시 되며, 관리자가 스팸을 보내도록 서비스를 구성한 위치에 따라 정크 메일 폴더 또는 격리에서 해당 메시지가 검색 될 수 있다는 것을 의미 합니다. 자세한 내용은 [보고서 메시지 추가 기능 사용](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2)을 참조 하십시오.
 
 - [EOP에 대한 도움말 및 지원](help-and-support-for-eop.md) 도움말 및 기술 지원 서비스를 구하는 내용에 대해 설명합니다.

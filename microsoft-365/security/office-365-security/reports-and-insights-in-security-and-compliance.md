@@ -15,12 +15,12 @@ ms.assetid: e3e95f68-36e9-4256-bcca-78fe7fe5ea5d
 ms.collection:
 - M365-security-compliance
 description: 보안 &amp; 및 준수 센터의 보고서 및 insights avialable에 대 한 개요를 확인 하세요.
-ms.openlocfilehash: 5c6ef13bbbb46de63dfb0cfecfa0824d8e50547d
-ms.sourcegitcommit: b424ea039c5915975f3efce8793bfc8dd2fdf906
+ms.openlocfilehash: 33e02ff96621df72b2224cc8dc9b3666caab3429
+ms.sourcegitcommit: 8c244b38c43dd00c4ef0102f8bed02ab36639a6b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38034179"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "39967971"
 ---
 # <a name="smart-reports-and-insights-in-the-office-365-security-amp-compliance-center"></a>Office 365 보안 &amp; 및 준수 센터의 Smart reports 및 정보
 
@@ -50,7 +50,7 @@ Office 365 보안 &amp; 및 준수 센터에서 사용할 수 있는 모니터�
 |:-----|:-----|:-----|
 |**보안 &amp; 및 준수 센터 보고서** (모두)  <br/> 주요 정보 보호법 및 권장 사항 및 데이터 손실 &amp; 방지 보고서, 레이블, 전자 메일 보안 보고서, Advanced Threat Protection 보고서 등을 비롯 한 보안 준수 보고서에 대 한 링크  <br/> |보안 &amp; 및 준수 센터에서 **보고서** \> **대시보드로** 이동 합니다. <br/> |[Microsoft 365 보안 센터에서 보고서 모니터링 및 보기](../mtp/monitoring-and-reporting.md) <br/> |
 |**데이터 손실 방지** <br/> 데이터 손실 방지 정책 일치, 가양성 및 재정의 및 정책 만들기 또는 편집에 대 한 링크  <br/> |보안 &amp; 및 준수 센터에서 **데이터 손실 방지** \> **정책** 으로 이동 합니다. <br/> |[데이터 손실 방지에 대한 보고서 보기](../../compliance/view-the-dlp-reports.md) <br/> |
-|**데이터 거버넌스** <br/> 레이블이 적용 되는 방식, 레코드를 레코드로 분류, 레이블 추세 등을 설명 하는 방법에 대 한 정보  <br/> |보안 &amp; 및 준수 센터에서 **데이터 거 버 넌 스** \> **대시보드로** 이동 합니다. <br/> |[데이터 거버넌스 보고서 보기](../../compliance/view-the-data-governance-reports.md) <br/> |
+|**데이터 거버넌스** <br/> 레이블이 적용 되는 방식, 레코드를 레코드로 분류, 레이블 추세 등을 설명 하는 방법에 대 한 정보  <br/> |보안 &amp; 및 준수 센터에서 **정보 거 버 넌 스** \> **대시보드로** 이동 합니다. <br/> |[데이터 거버넌스 보고서 보기](../../compliance/view-the-data-governance-reports.md) <br/> |
 |**위협 관리 대시보드** (보안 대시보드 및 위협 인텔리전스 대시보드 라고도 함)  <br/> 위협 감지, 맬웨어 추세, 상위 대상 사용자, 보내고 받은 전자 메일 메시지에 대 한 세부 정보  <br/> |보안 &amp; 및 준수 센터에서 **위협 관리** \> **대시보드로** 이동 합니다. <br/> |[보안 대시보드 개요](security-dashboard.md) <br/> |
 |**위협 탐색기** (탐색기 라고도 함) 또는 **실시간 감지** <br/> Office 365의 전자 메일 및 파일에서 의심 되는 맬웨어가 검색 됨  <br/> |보안 &amp; 및 준수 센터에서 **위협 관리** \> **탐색기나** **실시간** 검색으로 이동 합니다.<br/> |[위협 탐색기 (또는 실시간 검출)](threat-explorer.md) <br/> |
 |**Advanced Threat Protection 및 전자 메일 보안 보고서** <br/> 전자 메일 보안 및 위협 보호 보고서 (맬웨어, 스팸, 피싱 및 스푸핑 보고서 포함)  <br/> |보안 &amp; 및 준수 센터에서 **보고서** \> **대시보드로** 이동 합니다. <br/> |[Office 365 Advanced Threat Protection에 대 한 보고서 보기](view-reports-for-atp.md) <br/><br/> [보안 &amp; 및 준수 센터의 전자 메일 보안 보고서 보기](../../compliance/view-email-security-reports.md) <br/> |

@@ -1,8 +1,8 @@
 ---
-title: 위협 분석을 사용한 최신 공격 캠페인 및 기법 이해
-description: 위협 분석 대화형 보고서에 대해 설명 합니다.
+title: Microsoft 365 보안 센터의 위협 분석을 사용한 최신 공격 캠페인 및 기술 이해
+description: Microsoft 365 보안 센터의 위협 분석 대화형 보고서에 대해 설명 합니다.
 keywords: 보안, 맬웨어, Microsoft 365, M365, 보안 센터, 위협 분석, Microsoft Defender ATP, 사이버, 보안 상황, 최신 위협
-ms.prod: w10
+ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
 ms.localizationpriority: medium
 ms.author: ellevin
@@ -12,14 +12,14 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: 24d4e5c227ddcb3366e5573b8b04b04a52437873
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: fca4a16c2b5526cf5fe004e0d836921a7d5c9b84
+ms.sourcegitcommit: 0c9c28a87201c7470716216d99175356fb3d1a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37089381"
+ms.lasthandoff: 12/09/2019
+ms.locfileid: "39910539"
 ---
-# <a name="understand-the-latest-attack-campaigns-and-techniques-with-threat-analytics"></a>위협 분석을 사용한 최신 공격 캠페인 및 기술 이해
+# <a name="understand-the-latest-attack-campaigns-and-techniques-with-threat-analytics"></a>위협 분석을 사용한 최신 공격 캠페인 및 기술 이해 
 
 사이버 위협은 점점 더 빈도가 높아지고 있습니다. 조직의 보안 상태 및 복구 력을 신속 하 게 평가 하는 것이 중요 합니다.
 

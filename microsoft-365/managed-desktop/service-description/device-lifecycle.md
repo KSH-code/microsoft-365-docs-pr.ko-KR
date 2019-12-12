@@ -5,12 +5,12 @@ keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 설명서
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
-ms.openlocfilehash: 88abd7bd8b2b4a9af37a1daf5579ac6268a9f927
-ms.sourcegitcommit: e5aa684dab9b4dbe92002d31e69e7225bd8f95a1
+ms.openlocfilehash: 431b28635f856ebd50e1de4129c00149e1e7c78d
+ms.sourcegitcommit: b65c80051e53d9be223f4769f4d42a39f5a07735
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/28/2019
-ms.locfileid: "35348897"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "39962345"
 ---
 # <a name="microsoft-managed-desktop-product-lifecycle"></a>Microsoft Managed Desktop 제품 수명 주기
 
@@ -33,9 +33,9 @@ Microsoft Managed Desktop 복지 최종 사용자는 항상 최상의 성능, �
 
 전체 순서는 다음 그림에 나와 있습니다.
 
-![수명 주기 시간 표시 막대](images/non-dark1-edits.PNG)
+![수명 주기 시간 표시 막대: 제품 일반 가용성부터 시작 하 여 "기본 가용성"은 2 년 동안 지속 됩니다. 이 시간 동안에는 인증 윈도우가 종료 되 고 특정 지점에서 장치가 등록 됩니다. 기본 가용성이 끝나면 제품이 보관 되 고 "유예 기간"이 3 년 후에 시작 됩니다. 시작 중에는 장치가 등록 때부터 관리에서 제거 될 때까지 3 년 동안 사용할 수 있습니다. 유예 기간이 끝나면 카탈로그에서 제품을 제거 합니다.](images/non-dark1-edits.PNG)
 
-제품은 최대 24 개월 동안 카탈로그에 유지 되지만 *장치* 는 개별 등록 날짜에 따라 3 년 동안 관리 됩니다. 실제로 각 제품에는 세 가지 중요 한 날짜가 있지만 각 장치에는 하나만 있습니다. 제품의 경우 이러한 날짜 중 세 가지는 *승인 날짜*를 기준으로 계산 되므로 언제 든 지 승인 시에 해당 날짜를 게시 하 여 제품의 전체 수명 주기에 적절 하 게 사용할 수 있도록 합니다.
+제품은 최대 24 개월 동안 카탈로그에 유지 되지만 <em>장치</em> 는 개별 등록 날짜에 따라 3 년 동안 관리 됩니다. 실제로 각 제품에는 세 가지 중요 한 날짜가 있지만 각 장치에는 하나만 있습니다. 제품의 경우 이러한 날짜 중 세 가지는 <em>승인 날짜</em>를 기준으로 계산 되므로 언제 든 지 승인 시에 해당 날짜를 게시 하 여 제품의 전체 수명 주기에 적절 하 게 사용할 수 있도록 합니다.
 
 이 표에서는 이론적인 제품의 예제 날짜를 보여 줍니다.
 
@@ -75,7 +75,7 @@ Microsoft Managed Desktop은 처음 6 개월 이내에 인증 장치를 평가 �
 
 이 기간 중에 등록 된 모든 장치에는 Microsoft Managed Desktop (파란색 시간 표시 막대)에서 지원 되는 3 년간의 모든 지원이 제공 됩니다. 이 기간은 일반 사용 가능 날짜 로부터 24 개월 후로 설정 될 때까지 지속 됩니다.
 
-이 기간을 "열기 등록"으로 간주할 수 있으므로 Microsoft Managed Desktop의 값을 최대화 하려면 조달 모델을 대상으로 하 고 선택한 제품을이 기간 내에 포함 하도록 지정 해야 합니다. 예를 들어 고객은 기본 가용성의 마지막 달에 해당 하는 제품을 사용 하 여 2 년간의 settling을 방지 해야 하며, 이러한 장치 대부분은 Microsoft Managed 데스크톱 관리의 최대 3 년간 수신 되지 않습니다 (유예 참조). [ ](#product-grace-period)자세한 내용은 마침표).  
+이 기간을 "열기 등록"으로 간주할 수 있으므로 Microsoft Managed Desktop의 값을 최대화 하려면 조달 모델을 대상으로 하 고 선택한 제품을이 기간 내에 포함 하도록 지정 해야 합니다. 예를 들어 고객은 기본 가용성의 마지막 달에 해당 하는 제품을 사용 하 여 2 년간의 settling을 방지 해야 하며, 이러한 장치 대부분은 Microsoft Managed 데스크톱 관리의 최대 3 년간 수신 되지 않습니다 (자세한 내용은 [유예 기간](#product-grace-period) 참조).  
 
 ## <a name="product-grace-period"></a>제품 유예 기간
 

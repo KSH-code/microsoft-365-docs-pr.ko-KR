@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: Microsoft 365 Business의 설치 단계에 대 한 개요입니다.
-ms.openlocfilehash: 425c465262c266ca764ae8c7a52130903fa635a5
-ms.sourcegitcommit: 8fda7852b2a5baa92b8a365865b014ea6d100bbc
+ms.openlocfilehash: f531830bffbe1cb6ce4e39ee2ba12da5738a2684
+ms.sourcegitcommit: 8c244b38c43dd00c4ef0102f8bed02ab36639a6b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "39812781"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "39967626"
 ---
 # <a name="overview-of-setup"></a>설치 개요
 
@@ -50,14 +50,16 @@ ms.locfileid: "39812781"
   
   설치 마법사의 보안 설정 외에도 다음 설정을 추가 하 여 보안을 강화할 수 있습니다.
 
-      - **전자 메일 맬웨어 방지**
-      - **ATP 피싱 방지**
-      - **Exchange Online Archiving**
-      - **Azure Information Protection (Plan1**)
 
-          시작 하려면 [고급 보안 정책을 설정](set-up-advanced-security.md)합니다 .를 참조 하세요.
+- **전자 메일 맬웨어 방지**
+- **ATP 피싱 방지**
+- **Exchange Online Archiving**
+- **Azure Information Protection (Plan1**)
 
-        모범 보안 관행 로드맵에 대해서는 [Microsoft 365 Business의 보안을 위한 상위 10 가지 방법](https://docs.microsoft.com/office365/admin/security-and-compliance/secure-your-business-data) 도 참조 하세요.
+
+시작 하려면 [고급 보안 정책을 설정](set-up-advanced-security.md)합니다 .를 참조 하세요.
+
+모범 보안 관행 로드맵에 대해서는 [Microsoft 365 Business의 보안을 위한 상위 10 가지 방법](https://docs.microsoft.com/office365/admin/security-and-compliance/secure-your-business-data) 도 참조 하세요.
 
 ## <a name="step-3-set-up-and-manage-windows-10-devices"></a>3 단계: Windows 10 장치 설정 및 관리
 

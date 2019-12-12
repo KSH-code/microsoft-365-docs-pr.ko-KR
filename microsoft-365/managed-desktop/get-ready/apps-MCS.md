@@ -1,19 +1,19 @@
 ---
-title: Microsoft 컨설팅 서비스 작업
+title: Microsoft 컨설팅 서비스 활용
 description: 앱을 패키지로 하기 위해 MCS에서 수행 해야 하는 준비 및 단계
 keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 설명서, 앱, MCS, 패키징
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 3687966fd49db3fd58c4ecbb3917e45ec6dfa3c3
-ms.sourcegitcommit: b9663acecf0bfdca2486818ec7e08a6f882d0dc9
+ms.openlocfilehash: 4491504616eb4bb447f12d08dddb12c73c2a88ac
+ms.sourcegitcommit: b65c80051e53d9be223f4769f4d42a39f5a07735
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/02/2019
-ms.locfileid: "35425741"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "39962625"
 ---
-# <a name="working-with-microsoft-consulting-services"></a>Microsoft 컨설팅 서비스 작업
+# <a name="working-with-microsoft-consulting-services"></a>Microsoft 컨설팅 서비스 활용
 
 MCS (Microsoft 컨설팅 서비스)를 사용 하 여 Microsoft Managed Desktop과 함께 사용할 수 있도록 앱 패키지를 가져올 수도 있습니다. 자세한 내용은 계정 담당자와 함께 MCS에 문의 하 여 특정 앱 패키징 프로젝트의 범위를 지정 합니다.
 
@@ -35,7 +35,7 @@ MCS 앱 패키지로 작업 하려면 **다음 요소를 제공 해야 합니다
 
 Microsoft Managed Desktop portal에 앱 정보를 업로드 하 여 패키지 프로세스를 시작 합니다. 패키지 팀은 목요일 마다 새 제출을 검토 합니다. 검토 및 패키징에 따라 패키징된 앱에는 다음과 같은 금요일이 배달 됩니다. 주당 최대 5 개의 앱을 시작 하도록 패키지할 수 있지만 서비스는 사용자의 요구에 맞게 확장 될 수 있습니다.
 
-![앱 검토, 패키징 및 배달 날짜를 보여 주는 일정](images/MCS-cal.png)
+![매월 목요일에 앱 유입량을 표시 하는 달력 (이 예에서는 21), 다음 날에 대 한 패키징 (25) 및 이후 금요일 (29 일)에 대 한 앱 배달](images/MCS-cal.png)
 
 앱이 전달 되 면 알림을 받을 수 있습니다. 이 시점에서 승인 테스트를 수행 하 고 Microsoft Managed Desktop portal에서 작업을 진행 하는 데 21 일이 소요 됩니다. 승인 테스트 중에 앱에서 문제가 발견 되는 경우 Microsoft Managed Desktop portal에서 앱을 거부 하 고이 문제를 이해 하 고 해결 하기 위해 전자 메일을 통해 MCS 포장기를 통해 연결 합니다.
 

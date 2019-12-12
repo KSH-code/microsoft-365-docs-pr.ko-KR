@@ -5,12 +5,12 @@ ms.prod: w10
 author: jaimeo
 ms.author: jaimeo
 ms.localizationpriority: medium
-ms.openlocfilehash: 952fac18db8ecc31fcd041dbfdf45e6ee8edee75
-ms.sourcegitcommit: 9aaedbab11fd1a1d289eeb8f853d321f32cb7edc
+ms.openlocfilehash: a1dbb5708cad32a0e37ddc25c97c70a765580f86
+ms.sourcegitcommit: b65c80051e53d9be223f4769f4d42a39f5a07735
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/17/2019
-ms.locfileid: "37577764"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "39962525"
 ---
 # <a name="register-new-devices-yourself"></a>직접 새 장치 등록
 
@@ -89,7 +89,7 @@ Microsoft Managed Desktop은 해당 하드웨어 해시를 참조 하 여 각 �
 
 Microsoft Managed Desktop [Azure Portal](https://aka.ms/mmdportal)의 왼쪽 탐색 창에서 **장치** 를 선택 합니다. **+ 장치 등록**을 선택 합니다. 날아오기는 다음과 같이 열립니다.
 
-[![레지스터 장치를 선택한 후 날아오기](images/register-devices-flyin-sterile.png)](images/register-devices-flyin-sterile.png)
+[![등록 장치를 선택한 후 날아오기, 할당 된 사용자, 일련 번호, 상태, 마지막으로 표시 된 날짜 및 연령에 해당 하는 열이 있는 장치 나열](images/register-devices-flyin-sterile.png)](images/register-devices-flyin-sterile.png)
 
 
 [//]: # (Sadly이는 그렇지 않습니다. 이 노트를 제거할 수는 있지만,이 정보를 다시 한 번에 채팅할 때까지 계속 남아 있습니다.)
@@ -97,7 +97,7 @@ Microsoft Managed Desktop [Azure Portal](https://aka.ms/mmdportal)의 왼쪽 탐
 <!--Registering any existing devices with Managed Desktop will completely re-image them; make sure you've backed up any important data prior to starting the registration process.-->
 
 
-다음 단계를 따릅니다.
+다음 단계를 따릅니다:
 
 1. **파일 업로드**에서 이전에 만든 CSV 파일의 경로를 제공 합니다.
 2. 원하는 경우 사용자의 추적 목적으로 **주문 id** 또는 **구매 ID** 를 추가할 수 있습니다. 이러한 값에 대 한 형식 요구 사항은 없습니다.

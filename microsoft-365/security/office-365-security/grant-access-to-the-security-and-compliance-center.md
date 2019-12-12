@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 2cfce2c8-20c5-47f9-afc4-24b059c1bd76
 description: 사용자는 보안 또는 규정 준수 기능을 관리 하기 전에 Office 365 보안 & 준수 센터에서 사용 권한을 할당 받아야 합니다.
-ms.openlocfilehash: 5f9688662714a4a33f2c6e3483cf902e0f61def9
-ms.sourcegitcommit: 84d88a857e82b1a8a0d466057a2e330e8b1692e4
+ms.openlocfilehash: 698a319b4297a00e0c248df495b7013fa3ae3542
+ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37305952"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "39970444"
 ---
 # <a name="give-users-access-to-the-office-365-security--compliance-center"></a>사용자에게 Office 365 보안 및 준수 센터에 대한 액세스 권한 부여
 
@@ -41,7 +41,7 @@ ms.locfileid: "37305952"
 
 ## <a name="use-the-admin-center-to-give-another-user-access-to-the-security--compliance-center"></a>관리 센터를 사용 하 여 다른 사용자에 게 보안 & 준수 센터에 대 한 액세스 권한 부여
 
-1. [Office 365에 로그인 하 고 관리 센터로 이동](https://go.microsoft.com/fwlink/p/?LinkId=525275)합니다.
+1. [Office 365에 로그인 하 고 관리 센터로 이동](https://docs.microsoft.com/microsoft-365/compliance/go-to-the-securitycompliance-center)합니다.
 
 2. Microsoft 365 관리 센터에서 **관리 센터** 를 열고 **보안 & 준수**를 클릭 합니다.
 
@@ -65,7 +65,7 @@ ms.locfileid: "37305952"
 
 ## <a name="use-powershell-to-give-another-user-access-to-the-security--compliance-center"></a>PowerShell을 사용 하 여 다른 사용자에 게 보안 & 준수 센터에 대 한 액세스 권한 부여
 
-1. [Office 365 보안 & 준수 센터 PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell)합니다.
+1. [Office 365 보안 및 준수 센터 PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell)
 
 2. 다음 예와 같이 **Add-RoleGroupMember** 명령을 사용하여 사용자를 조직 관리 역할에 추가합니다.
 
@@ -79,7 +79,7 @@ ms.locfileid: "37305952"
 
    - _구성원_ 은 역할 그룹에 추가할 사서함, USG (유니버설 보안 그룹) 또는 컴퓨터입니다. 구성원은 한 번에 하나만 지정할 수 있습니다.
 
-구문 및 매개 변수에 대 한 자세한 내용은 [추가-RoleGroupMember](https://go.microsoft.com/fwlink/p/?LinkId=510859)를 참조 하십시오.
+구문 및 매개 변수에 대 한 자세한 내용은 [추가-RoleGroupMember](https://docs.microsoft.com/powershell/module/exchange/role-based-access-control/Add-RoleGroupMember)를 참조 하십시오.
 
 ### <a name="how-do-you-know-this-worked"></a>작동 여부는 어떻게 확인하나요?
 
@@ -89,4 +89,4 @@ ms.locfileid: "37305952"
 Get-RoleGroupMember -Identity "Organization Management"
 ```
 
-구문 및 매개 변수에 대 한 자세한 내용은 [Get-RoleGroupMember](https://go.microsoft.com/fwlink/p/?LinkId=510860)를 참조 하십시오.
+구문 및 매개 변수에 대 한 자세한 내용은 [Get-RoleGroupMember](https://docs.microsoft.com/powershell/module/exchange/role-based-access-control/Get-RoleGroupMember)를 참조 하십시오.

@@ -14,26 +14,26 @@ ms.assetid: da5845db-c578-4a41-b2cb-5a09689a551b
 ms.collection:
 - M365-security-compliance
 description: Office 365 전역 관리자는 공격 시뮬레이터를 사용 하 여 조직에서 현실적인 공격 시나리오를 실행할 수 있습니다. 이를 통해 실질적인 공격이 비즈니스에 방문 하기 전에 취약 한 사용자를 식별 하 고 찾을 수 있습니다.
-ms.openlocfilehash: bb68850587647f7e96c940de10e3da23cd5e83de
-ms.sourcegitcommit: 84d88a857e82b1a8a0d466057a2e330e8b1692e4
+ms.openlocfilehash: e5f304a7c706875216c58330b1225d341b2b59df
+ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37306182"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "39971936"
 ---
 # <a name="attack-simulator-in-office-365"></a>Office 365의 공격 시뮬레이터
 
-**요약** Office 365 전역 관리자 또는 보안 관리자이 고 조직에 [위협 조사 및 응답 기능이](office-365-ti.md)포함 된 Office 365 Advanced Threat Protection 계획 2가 있는 경우 Attack 시뮬레이터를 사용 하 여 실행할 수 있습니다. 조직의 현실적인 공격 시나리오 이를 통해 실질적인 공격이 아래 줄에 영향을 주는 이전에 취약 한 사용자를 식별 하 고 찾을 수 있습니다. 자세한 내용은이 문서를 참조 하세요.
+**요약** Office 365 전역 관리자 또는 보안 관리자이 고 조직에 [위협 조사 및 응답 기능이](office-365-ti.md)포함 된 Office 365 Advanced Threat Protection 계획 2가 있는 경우 공격 시뮬레이터를 사용 하 여 조직에서 현실적인 공격 시나리오를 실행할 수 있습니다. 이를 통해 실질적인 공격이 수익에 영향을 미치기 전에 취약한 사용자를 식별하고 찾을 수 있습니다. 자세한 내용은이 문서를 참조 하세요.
 
 ## <a name="the-attacks"></a>공격
 
-현재 다음과 같은 세 가지 유형의 공격 시뮬레이션이 제공 됩니다.
+현재 세 가지 유형의 공격 시뮬레이션을 사용할 수 있습니다.
 
-- [표시 이름 스피어-피싱 공격](#display-name-spear-phishing-attack)
+- [표시 이름 스피어피싱 공격](#display-name-spear-phishing-attack)
 
-- [암호 분무 공격](#password-spray-attack)
+- [암호 스프레이 공격](#password-spray-attack)
 
-- [무작위 암호 공격](#brute-force-password-attack)
+- [무제한 비밀번호 공격](#brute-force-password-attack)
 
 공격이 정상적으로 시작 되려면 시뮬레이트된 공격을 실행 하는 데 사용 하는 계정이 다단계 인증을 사용 하 고 있는지 확인 합니다. 또한 Office 365 전역 관리자 또는 보안 관리자 여야 합니다. 역할 및 사용 권한에 대 한 자세한 내용은 [Office 365 보안 & 준수 센터의 사용 권한을](permissions-in-the-security-and-compliance-center.md)참조 하세요.
 
@@ -47,13 +47,13 @@ ms.locfileid: "37306182"
 
 - Office 365 전역 관리자 또는 보안 관리자 인 경우
 
-- 하나 이상의 Office 365 전역 관리자 계정 및 보안 관리자에 게 공격 시뮬레이터를 사용할 수 있도록 [다단계 인증/조건부 액세스가](https://docs.microsoft.com/office365/admin/security-and-compliance/set-up-multi-factor-authentication?view=o365-worldwide) 설정 되어 있어야 합니다. 이상적으로는 조직의 모든 사용자에 대해 다단계 인증/조건부 액세스를 설정 하는 것이 좋습니다.
+- 하나 이상의 Office 365 전역 관리자 계정 및 보안 관리자에 게 공격 시뮬레이터를 사용할 수 있도록 [다단계 인증/조건부 액세스가](https://docs.microsoft.com/office365/admin/security-and-compliance/set-up-multi-factor-authentication) 설정 되어 있어야 합니다. 이상적으로는 조직의 모든 사용자에 대해 다단계 인증/조건부 액세스를 설정 하는 것이 좋습니다.
 
 - 조직에 [Office 365 Advanced Threat Protection 계획 2](office-365-atp.md)가 있으며, 보안 &amp; 및 준수 센터에서 공격 시뮬레이터가 표시 됩니다 ( **위협 관리** \> **공격 시뮬레이터**로 이동).
 
     ![위협 관리-공격 시뮬레이터](../media/ThreatMgmt-AttackSimulator.png)
 
-## <a name="display-name-spear-phishing-attack"></a>표시 이름 스피어-피싱 공격
+## <a name="display-name-spear-phishing-attack"></a>표시 이름 스피어피싱 공격
 
 피싱은 사회 공학적 스타일 공격으로 classed 다양 한 공격 집합에 대 한 일반 용어입니다. 이 공격은 특정 개인 또는 조직 그룹을 목표로 하는 스피어 피싱에 중점을 두었습니다. 일반적으로 일부 정찰 자가 수행 하는 사용자 지정 된 공격과 받는 사람에 게 신뢰를 생성 하는 표시 이름 (예: 조직의 임원 으로부터 온 것 처럼 보이는 전자 메일 메시지)을 사용 합니다.
 
@@ -85,7 +85,7 @@ ms.locfileid: "37306182"
 
 6. 텍스트 또는 **보낸 사람** 필드를 지정 합니다. 받는 전자 메일 클라이언트에 있는 보낸 사람의 전자 메일 주소로 표시 되는 필드입니다.
 
-   조직 내에서 기존 전자 메일 네임 스페이스를 입력할 수 있습니다 (이 작업을 수행 하면 전자 메일 주소가 받는 클라이언트에서 실제로 확인 되 고, 매우 높은 신뢰 모델이 촉진 됨), 외부 전자 메일 주소를 입력할 수 있습니다. 지정 하는 전자 메일 주소가 실제로 존재 하는 것은 아니지만,와 `user@domainname.extension`같은 유효한 SMTP 주소의 형식을 팔 로우 해야 합니다.
+   조직 내에서 기존 전자 메일 네임 스페이스를 입력할 수 있습니다 (이 작업을 수행 하면 전자 메일 주소가 받는 클라이언트에서 실제로 확인 되 고, 매우 높은 신뢰 모델이 촉진 됨), 외부 전자 메일 주소를 입력할 수 있습니다. 지정한 전자 메일 주소가 실제로 존재 하는 것은 아니지만,와 `user@domainname.extension`같은 유효한 SMTP 주소의 형식을 따라야 합니다.
 
 7. 드롭다운 선택기를 사용 하 여 공격에 포함 될 콘텐츠 유형을 반영 하는 피싱 로그인 서버 URL을 선택 합니다. 문서 배달, 기술, 급여 등의 다양 한 테마가 지정 된 Url을 선택할 수 있습니다. 이 URL은 대상 사용자가 클릭 하 라는 메시지가 표시 되는 경우 효과적입니다.
 
@@ -101,7 +101,7 @@ ms.locfileid: "37306182"
 
 11. **다음을** 선택 하 고 **마침을** 클릭 하 여 공격을 시작 합니다. 스피어 피싱 전자 메일 메시지는 대상 받는 사람의 사서함으로 배달 됩니다.
 
-## <a name="password-spray-attack"></a>암호 분무 공격
+## <a name="password-spray-attack"></a>암호 스프레이 공격
 
 조직에 대 한 암호 분무 공격은 잘못 된 행위자가 테 넌 트에서 유효한 사용자 목록을 성공적으로 가져온 후에 사용 됩니다. 잘못 된 행위자가 사용자 들이 사용 하는 일반적인 암호를 알고 있습니다. 이 공격은 많이 사용 되는 공격으로, 실행 하는 데 비용이 적게 드는 공격이 며 무작위 접근 방식 보다 감지 하기가 더 어렵습니다.
 
@@ -119,7 +119,7 @@ ms.locfileid: "37306182"
 
 5. **마침을** 선택 하 여 공격을 시작 합니다.
 
-## <a name="brute-force-password-attack"></a>무작위 암호 공격
+## <a name="brute-force-password-attack"></a>무제한 비밀번호 공격
 
 조직에 대 한 무작위 암호 공격은 잘못 된 행위자가 테 넌 트에서 주요 사용자 목록을 성공적으로 가져온 후에 일반적으로 사용 됩니다. 이 공격은 단일 사용자 계정에 대 한 암호 집합 시도에 집중 합니다.
 
@@ -137,7 +137,7 @@ ms.locfileid: "37306182"
 
 ## <a name="new-features-in-attack-simulator"></a>Attack 시뮬레이터의 새로운 기능
 
-최근에 새 기능이 공격 시뮬레이터에 추가 되었습니다. 다음과 같은 다양한 알고리즘과 방법이 있습니다.
+최근에 새 기능이 공격 시뮬레이터에 추가 되었습니다. 여기에는 다음이 포함됩니다.
 
 - 고급 보고 기능 공격 시뮬레이션 전자 메일 메시지를 여는 가장 빠른 (또는 가장 느린) 시간과 같은 데이터를 볼 수 있으며, 메시지에서 링크를 클릭 하는 속도가 가장 빠르고 시각화도 더 빠릅니다.
 
@@ -145,7 +145,7 @@ ms.locfileid: "37306182"
 
 - CSV 받는 사람 가져오기 주소록 선택을 사용 하는 대신 .csv 파일을 사용 하 여 대상 받는 사람 목록을 가져올 수 있는 기능입니다.
 
-더 많은 새 기능이 공격 시뮬레이터에 곧 제공 될 예정입니다. 다음과 같은 다양한 알고리즘과 방법이 있습니다.
+더 많은 새 기능이 공격 시뮬레이터에 곧 제공 될 예정입니다. 여기에는 다음이 포함됩니다.
 
 - 첨부 파일 페이로드 피싱 시뮬레이션입니다. URL 대신 피싱 시뮬레이션을 위한 페이로드로 첨부 파일을 사용 하는 기능입니다.
 

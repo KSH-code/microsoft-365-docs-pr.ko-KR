@@ -15,12 +15,12 @@ ms.date: 11/22/2019
 ms.collection:
 - M365-security-compliance
 description: Office 365 활동 관리 API에서 조직의 SIEM server를 Office 365 Advanced Threat Protection 및 관련 위협 이벤트와 통합 합니다.
-ms.openlocfilehash: 5b3cdfa48f64bb3d73f02b3d9b20dee510a2f409
-ms.sourcegitcommit: fb3815ee186b2b3ec790ee32a9d7b1628d623b0b
+ms.openlocfilehash: 93253982b9920cd133419e0fc61650cadfa9d192
+ms.sourcegitcommit: 8c244b38c43dd00c4ef0102f8bed02ab36639a6b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/22/2019
-ms.locfileid: "39202439"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "39967931"
 ---
 # <a name="siem-integration-with-office-365-advanced-threat-protection"></a>SIEM과 Office 365 Advanced Threat Protection의 통합
 
@@ -28,7 +28,7 @@ ms.locfileid: "39202439"
 
 Office 365 활동 관리 API는 조직의 Office 365 및 Azure Active Directory 활동 로그에서 사용자, 관리자, 시스템 및 정책 작업과 이벤트에 대 한 정보를 검색 합니다. [Office 365 Advanced Threat protection 스키마](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema#office-365-advanced-threat-protection-and-threat-investigation-and-response-schema) 는 Advanced threat protection과 함께 작동 하므로 조직에 Office 365 Advanced Threat protection 계획 1 또는 계획 2 또는 Office 365 E5가 있는 경우에도이 API를 사용 하 여 siem 서버 통합에 사용할 수 있습니다. 
 
-최신 업데이트의 일부로, 관리 API 내에서 Office 365 ATP 계획 2의 자동 인시던트 응답 으로부터 조사 이벤트도 추가 되었습니다. ID, 이름 및 상태와 같은 핵심 조사 세부 정보에 대 한 데이터를 포함 하는 것 외에도 조사 작업 및 엔터티에 대 한 높은 수준의 정보도 포함 되어 있습니다.   
+최근 업데이트의 일환으로 Office 365 관리 활동 API 내에서 Office 365 ATP 계획 2의 자동화 된 조사 및 응답 기능의 이벤트가 추가 되었습니다. ID, 이름 및 상태와 같은 핵심 조사 세부 정보에 대 한 데이터를 포함 하는 것 외에도 조사 작업 및 엔터티에 대 한 높은 수준의 정보도 포함 되어 있습니다.   
 
 SIEM 서버 또는 기타 유사한 시스템에서 **감사의 일반적인** 작업을 폴링하여 검색 이벤트에 액세스 해야 합니다. 자세한 내용은 [Office 365 관리 api 시작](https://docs.microsoft.com/office/office-365-management-api/get-started-with-office-365-management-apis)을 참조 하세요. 또한 다음 **AuditLogRecordType** 값은 OFFICE 365 ATP 이벤트와 관련이 있습니다.
 
@@ -41,7 +41,7 @@ SIEM 서버 또는 기타 유사한 시스템에서 **감사의 일반적인** �
 |28@@|ThreatIntelligence|Exchange Online Protection 및 Office 365 Advanced Threat Protection의 피싱 및 맬웨어 이벤트|
 |41|ThreatIntelligenceUrl|ATP Safe 링크는 Office 365 Advanced Threat Protection에서 차단 및 차단 이벤트 차단을 방지 하 고 무시 합니다.|
 |47|ThreatIntelligenceAtpContent|SharePoint Online, 비즈니스용 OneDrive 및 Office 365 Advanced Threat Protection의 파일에 대 한 피싱 및 맬웨어 이벤트입니다.|
-|64|방송 조사|검사 세부 정보 및 Office 365 Advanced Threat Protection 계획 2의 관련 아티팩트를 포함 하는 자동화 된 인시던트 응답 이벤트|
+|64|방송 조사|검사 세부 정보 및 Office 365 Advanced Threat Protection 계획 2의 관련 아티팩트와 같은 자동화 된 조사 및 응답 이벤트|
 
 
 > [!IMPORTANT]
@@ -51,7 +51,7 @@ SIEM 서버 또는 기타 유사한 시스템에서 **감사의 일반적인** �
 
 [Office 365 위협 조사 및 응답](office-365-ti.md)
 
-[Office 365의 AIR (자동 사고 응답)](automated-investigation-response-office.md)
+[Office 365의 자동화 된 조사 및 응답 (AIR)](automated-investigation-response-office.md)
 
 [Office 365 Advanced Threat Protection](office-365-atp.md)
 

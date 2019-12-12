@@ -1,32 +1,39 @@
 ---
-title: Microsoft 365의 맬웨어 및 기타 위협에 대 한 헌트
-description: 손상 된 계정, 파일을 덜 맬웨어, 의심 스러운 전자 메일 등을 찾는 방법에 대해 설명 합니다.
-keywords: 보안, 맬웨어, Microsoft 365, M365, 보안 센터, 헌트, 사냥, Microsoft Defender ATP, Office 365 ATP, Azure ATP
-ms.prod: w10
+title: Microsoft 365의 기타 위협 요소 구하기
+description: Microsoft 365 보안 센터의 위협 검색 기능을 사용 하 여 위반 및 기타 위협 요소를 사전에 찾기
+keywords: 보안, 맬웨어, Microsoft 365, M365, 보안 센터, 헌트, 사냥, Microsoft Defender ATP, Office 365 ATP, Azure ATP, 고급 구하기
+ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
 ms.localizationpriority: medium
-ms.author: ellevin
-author: levinec
+ms.author: lomayor
+author: lomayor
 manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: 218c78cd8737c3a963386ae0a58a79824ef1615f
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 795a7d88c2b6021a5bdd665b3787644b50fb346a
+ms.sourcegitcommit: 0c9c28a87201c7470716216d99175356fb3d1a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38034390"
+ms.lasthandoff: 12/09/2019
+ms.locfileid: "39909431"
 ---
-# <a name="hunt-for-malware-and-other-threats-in-microsoft-365"></a>Microsoft 365의 맬웨어 및 기타 위협에 대 한 헌트
+# <a name="hunt-for-threats-in-microsoft-365"></a>Microsoft 365의 위협에 대 한 사냥
 
-사냥은 전자 메일 및 데이터, 장치 및 id를 통해 조직의 가능한 위협에 대 한 보기를 보안 팀에 제공 합니다. Microsoft Defender ATP, Office 365 ATP 및 Azure ATP 포털 내에서 손상 된 계정, 파일을 덜 맬웨어, 의심 스러운 전자 메일 등을 확인할 수 있습니다.
+Microsoft 365 보안 센터의 위협 검색 기능을 사용 하 여 조직의 전자 메일 및 데이터, 장치 및 id에 영향을 주는 위협을 사전에 찾을 수 있습니다. **구하기** 화면에서 다양 한 솔루션에서 제공 하는 위협 요소 도구에 액세스할 수 있습니다.
+- Office 365 ATP- [전자 메일 및 데이터에 대 한 위협을 사냥 합니다](../office-365-security/office-365-atp.md) .
+- Microsoft Defender ATP- [장치에 대 한 위협 구하기](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting)
+- Azure ATP- [id에 대 한 위협을 사냥 합니다](https://docs.microsoft.com/azure-advanced-threat-protection/investigate-a-user) .
 
-![사냥 페이지](../media/security-docs/hunt.png)
+![사냥 페이지](../images/hunt.png)
 
-자세한 정보:
 
-* Microsoft Defender Advanced Threat Protection의 [장치](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting)
-* Office 365 Advanced Threat Protection의 [전자 메일 및 데이터](https://docs.microsoft.com/office365/securitycompliance/office-365-atp)
-* Azure Advanced Threat Protection의 [id](https://docs.microsoft.com/azure-advanced-threat-protection/investigate-a-user)
+## <a name="hunt-with-microsoft-threat-protection"></a>Microsoft Threat Protection을 사용한 헌트
+
+Microsoft [Threat Protection을 설정](mtp-enable.md) 하 여 microsoft 365 보안 센터에서 고급 구하기 쿼리 인터페이스를 직접 다운로드 합니다. [고급](advanced-hunting-overview.md)검색을 사용 하 여 MICROSOFT Defender atp에서 데이터를 확인 하 고, 등록 장치의 데이터를 포함 하 고, OFFICE 365 ATP를 통해 전자 메일에서 데이터를 제공 하는 단일 쿼리를 만들 수 있습니다.
+
+## <a name="related-topics"></a>관련 항목
+- [고급 구하기 개요](advanced-hunting-overview.md)
+- [Microsoft 위협 보호 개요](microsoft-threat-protection.md)
+- [Microsoft Threat Protection 설정](mtp-enable.md)

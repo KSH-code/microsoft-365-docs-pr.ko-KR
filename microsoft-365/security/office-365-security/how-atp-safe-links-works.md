@@ -4,7 +4,7 @@ ms.author: tracyp
 author: msfttracyp
 manager: dansimp
 audience: Admin
-ms.date: 05/19/2019
+ms.date: ''
 ms.topic: overview
 ms.service: O365-seccomp
 localization_priority: Normal
@@ -12,12 +12,12 @@ ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: 안전한 링크 기능은 Office 문서 및 전자 메일 메시지에서 하이퍼링크를 클릭 하 여 확인할 시간을 제공 합니다. 이 문서를 읽으면 ATP 안전한 링크가 작동 하는 방식을 확인할 수 있습니다.
-ms.openlocfilehash: bb60d57a422d908b013caf7267f21f390769cfb4
-ms.sourcegitcommit: 333ecfb8bfeb34f9f08d82d295b40d37de6ba8b9
+ms.openlocfilehash: bf6c2f0460bc285d0093019812e295c1cfe5ce66
+ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "37772202"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "39970764"
 ---
 # <a name="how-office-365-atp-safe-links-works"></a>Office 365 ATP 안전한 링크가 작동 하는 방식
          
@@ -37,35 +37,38 @@ ms.locfileid: "37772202"
     
 6. ATP 안전한 링크 기능은 웹 사이트를 열기 전에 URL을 즉시 확인 합니다. URL이 차단, 악의적 또는 안전한 것으로 식별 됩니다.
     
-    - 사용자에 게 적용 되는 정책에 대 한 [사용자 지정 "다시 쓰지 않음" url 목록](set-up-a-custom-do-not-rewrite-urls-list-with-atp.md) 에 포함 된 웹 사이트에 URL을 사용 하는 경우에는 웹 사이트가 열립니다. 
+   - 사용자에 게 적용 되는 정책에 대 한 [사용자 지정 "다시 쓰지 않음" url 목록](set-up-a-custom-do-not-rewrite-urls-list-with-atp.md) 에 포함 된 웹 사이트에 URL을 사용 하는 경우에는 웹 사이트가 열립니다. 
     
-    - 조직의 [사용자 지정 차단 된 url 목록](set-up-a-custom-blocked-urls-list-wtih-atp.md)에 포함 된 웹 사이트에 대 한 URL 인 경우 [경고 페이지가](atp-safe-links-warning-pages.md) 열립니다. 
+   - 조직의 [사용자 지정 차단 된 url 목록](set-up-a-custom-blocked-urls-list-wtih-atp.md)에 포함 된 웹 사이트에 대 한 URL 인 경우 [경고 페이지가](atp-safe-links-warning-pages.md) 열립니다. 
     
-    - URL이 악성으로 확인 된 웹 사이트에 대 한 것 이면 [경고 페이지가](atp-safe-links-warning-pages.md) 열립니다. 
+   - URL이 악성으로 확인 된 웹 사이트에 대 한 것 이면 [경고 페이지가](atp-safe-links-warning-pages.md) 열립니다. 
     
-    - URL이 다운로드 가능한 파일로 이동 하 고 조직의 [ATP 안전한 링크 정책이](set-up-atp-safe-links-policies.md) 이러한 콘텐츠를 검색 하도록 구성 된 경우 다운로드 가능한 파일이 검사 됩니다. 
+   - URL이 다운로드 가능한 파일로 이동 하 고 조직의 [ATP 안전한 링크 정책이](set-up-atp-safe-links-policies.md) 이러한 콘텐츠를 검색 하도록 구성 된 경우 다운로드 가능한 파일이 검사 됩니다. 
     
-    - URL이 안전한 것으로 확인 되 면 웹 사이트가 열립니다.
+   - URL이 안전한 것으로 확인 되 면 웹 사이트가 열립니다.
     
-## <a name="how-atp-safe-links-works-with-urls-in-office-documents"></a>ATP 안전한 링크가 Office 문서의 Url과 작동 하는 방식
+## <a name="how-atp-safe-links-works-with-urls-in-office-documents"></a>ATP 안전한 링크가 Office 문서의 Url과 작동 하는 방식 
 
-높은 수준에서 [ATP 안전한 링크](atp-safe-links.md) 보호는 Office 365 ProPlus 또는 Business Premium 응용 프로그램 (Windows, Mac 또는 브라우저의 최신 버전, IOS 또는 Android 장치에 있는 Office 앱, Visio on)의 url에 대해 작동 합니다. Windows, 브라우저의 OneNote:
+높은 수준에서 [ATP 안전한 링크](atp-safe-links.md) 보호는 Office 365 ProPlus 또는 Business Premium 응용 프로그램 (Windows, Mac 또는 브라우저의 최신 버전의 Word, Excel 및 PowerPoint, IOS 또는 Android 장치의 office 앱, Windows의 Visio, OneNote, 브라우저에 있는 경우)의 url에 대해 작동 합니다.
   
 1. 사용자의 컴퓨터, 스마트폰 또는 태블릿에서 Office 365 ProPlus 또는 Business Premium을 설치 했습니다. (또는 브라우저에서 Office를 사용 중인 경우)
     
-2. 사용자가 Word, Excel, PowerPoint, OneNote (웹) 또는 Visio (데스크톱)를 열고 회사 또는 학교 계정을 사용 하 여 Office 365 Enterprise에 로그인 합니다. 문서에 Url이 포함 되어 있습니다.
+2. 사용자가 Word, Excel, PowerPoint, OneNote (브라우저) 또는 Visio (데스크톱)를 열고 회사 또는 학교 계정을 사용 하 여 Office 365 Enterprise에 로그인 합니다. 문서에 Url이 포함 되어 있습니다.
     
 3. 사용자가 문서에서 URL을 클릭 하면 해당 링크는 ATP Safe Links service에 의해 확인 됩니다.
     
-      - 사용자에 게 적용 되는 정책에 대 한 사용자 [지정 "다시 쓰지 않음" url 목록](set-up-a-custom-do-not-rewrite-urls-list-with-atp.md) 에 포함 된 웹 사이트에 대 한 url 인 경우 해당 사용자는 웹 사이트로 이동 됩니다. 
+   - 사용자에 게 적용 되는 정책에 대 한 사용자 [지정 "다시 쓰지 않음" url 목록](set-up-a-custom-do-not-rewrite-urls-list-with-atp.md) 에 포함 된 웹 사이트에 대 한 url 인 경우 해당 사용자는 웹 사이트로 이동 됩니다. 
     
-      - 조직의 [사용자 지정 차단 된 url 목록](set-up-a-custom-blocked-urls-list-wtih-atp.md)에 포함 된 웹 사이트에 대 한 URL 인 경우 사용자는 [경고 페이지로](atp-safe-links-warning-pages.md)이동 됩니다.
+   - 조직의 [사용자 지정 차단 된 url 목록](set-up-a-custom-blocked-urls-list-wtih-atp.md)에 포함 된 웹 사이트에 대 한 URL 인 경우 사용자는 [경고 페이지로](atp-safe-links-warning-pages.md)이동 됩니다.
     
-      - URL이 악성으로 확인 된 웹 사이트에 대 한 것 인 경우 사용자는 [경고 페이지로](atp-safe-links-warning-pages.md)이동 됩니다.
+   - URL이 악성으로 확인 된 웹 사이트에 대 한 것 인 경우 사용자는 [경고 페이지로](atp-safe-links-warning-pages.md)이동 됩니다.
     
-      - URL이 다운로드 가능한 파일로 이동 하 고 [ATP Safe Links 정책이](set-up-atp-safe-links-policies.md) 이러한 다운로드를 검색 하도록 구성 된 경우 다운로드 가능한 파일이 검사 됩니다. 
+   - URL이 다운로드 가능한 파일로 이동 하 고 [ATP Safe Links 정책이](set-up-atp-safe-links-policies.md) 이러한 다운로드를 검색 하도록 구성 된 경우 다운로드 가능한 파일이 검사 됩니다. 
     
-      - URL이 안전한 것으로 간주 되 면 사용자는 웹 사이트로 이동 됩니다.
+   - URL이 안전한 것으로 간주 되 면 사용자는 웹 사이트로 이동 됩니다.
       
-      - URL 확인이 실패 하면 안전한 링크 보호 기능이 트리거되지 않습니다. 데스크톱 클라이언트에서 사이트를 계속 진행 하기 전에 사용자에 게 경고가 표시 됩니다.
-
+   - URL 확인이 실패 하면 안전한 링크 보호 기능이 트리거되지 않습니다. 데스크톱 클라이언트에서 사이트를 계속 진행 하기 전에 사용자에 게 경고가 표시 됩니다.
+      
+> [!NOTE]
+> 각 세션을 시작할 때 사용자가 Office에 대 한 안전한 링크를 사용 하도록 설정 되었는지 확인 하기 위해 몇 초 정도 걸릴 수 있습니다. 
+      

@@ -14,46 +14,46 @@ ms.assetid: 6ae78c12-7bbe-44fa-ab13-c3768387d0e3
 ms.collection:
 - M365-security-compliance
 description: 사용자가 신뢰 하는 사람이 보낸 전자 메일이 차단 되지 않도록 하려면 연결 필터 정책을 사용 하 여 신뢰할 수 있는 보낸 사람 목록이 라고도 하는 허용 목록을 만든 IP 주소를 만듭니다. 수신 거부 목록도 만들 수 있습니다.
-ms.openlocfilehash: 6dc0bc4f29446cc064420632f04265c93c0ffa1b
-ms.sourcegitcommit: 2468bcb01625f97a322459814d81b9faad717859
+ms.openlocfilehash: d3151ab436c5d904897d518fa119d52a11db4850
+ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39871924"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "39971836"
 ---
 # <a name="configure-the-connection-filter-policy"></a>연결 필터 정책 구성
 
 누구에게나 대부분 신뢰할 수 있는 친구와 비즈니스 파트너가 있습니다. 그리고 이러한 사용자들로부터 받은 전자 메일이 스팸 메일 폴더로 가거나 스팸 필터를 통해 완전히 차단되는 난처한 경우가 생길 수 있습니다. 사용자가 신뢰 하는 사람이 보낸 전자 메일이 차단 되지 않도록 하려면 연결 필터 정책을 사용 하 여 신뢰할 수 있는 보낸 사람 목록이 라고도 하는 허용 목록을 만든 IP 주소를 만들 수 있습니다. 그리고 앞으로는 전자 메일 메시지를 받지 않을 IP 주소 목록(대개 알려진 스패머의 주소로 구성)인 수신 거부 목록도 만들 수 있습니다.
-  
+
 - *[허용 목록](create-safe-sender-lists-in-office-365.md)* 에 대해 생각 하는 경우 연결 필터 정책에 따라 필터에서 허용 하는 *신뢰할 수 있는 계정을* 사용 하는 것이 중요 합니다. 이 작업은 신뢰할 수 없거나 신뢰할 수 없는 우편물을 보다 정확 하 게 필터링 하기 위해 필요 합니다. 연결 필터 정책 허용 목록은 훨씬 더 큰 계정 및 Ip 풀에서 몇 가지 신뢰할 수 있는 Ip로 필터링 하 고 신뢰할 수 있는 메일 사용이 쉬운 액세스를 보장 하는 것입니다.
 
 - 차단 목록을 만드는 연결 필터 정책에는 대신, 필터에서 더 적은 수의 계정 또는 신뢰 되지 않는 계정이 표시 됩니다.
 
- [전체 조직에 적용되는 추가 스팸 설정은 메시지가 스팸으로 표시되지 않는지 확인하는 방법](https://go.microsoft.com/fwlink/p/?LinkId=534224) 또는 [Office 365 스팸 필터로 전자 메일 스팸을 차단하여 거짓 부정 문제 방지](https://go.microsoft.com/fwlink/p/?LinkId=534225)를 참조하세요. 사용자가 관리자 수준 제어를 가지고 있고 가양성이나 거짓 부정을 방지하려고 할 때 유용합니다.
+ 전체 조직에 적용 되는 추가 스팸 설정에 대 한 자세한 내용은 [office 365에서 전자 메일이 스팸으로 표시 되지 않도록](https://docs.microsoft.com/microsoft-365/compliance/prevent-email-from-being-marked-as-spam) 하는 방법 또는 [office 365에서 스팸 메일을 줄이는 방법](reduce-spam-email.md)에 대 한 내용을 확인 하세요. 사용자가 관리자 수준 제어를 가지고 있고 가양성이나 거짓 부정을 방지하려고 할 때 유용합니다.
 
 > [!TIP]
 > [허용 (또는 안전한 보낸 사람) 목록과](create-safe-sender-lists-in-office-365.md) [차단 목록을](create-block-sender-lists-in-office-365.md)만드는 방법을 일시 중지 하 고 확인할 수 있습니다.
-  
+
 다음 비디오에서는 연결 필터 정책의 구성 단계를 보여 줍니다.
-  
+
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/b2f5bea3-e1a7-44b3-b7e2-07fac0d0ca40?autoplay=false]
-  
+
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
 
 - 예상 완료 시간: 15분
 
 - 이러한 절차를 수행하려면 먼저 사용 권한을 할당받아야 합니다. 필요한 사용 권한을 확인 하려면 [Exchange Online의 기능 사용 권한](https://docs.microsoft.com/exchange/permissions-exo/feature-permissions) 항목에서 "스팸 방지" 항목을 참조 하세요.
 
-- 해당 메시지를 허용하거나 차단할 보낸 사람의 IP 주소를 가져오려면 메시지의 인터넷 머리글을 확인합니다. [스팸 방지 메시지 헤더](anti-spam-message-headers.md)에 설명된 대로 CIP 머리글을 찾습니다. 다양 한 전자 메일 클라이언트에서 메시지 헤더를 보는 방법에 대 한 자세한 내용은 [메시지 헤더 분석기](https://go.microsoft.com/fwlink/p/?LinkId=306583)를 참조 하십시오.
+- 해당 메시지를 허용하거나 차단할 보낸 사람의 IP 주소를 가져오려면 메시지의 인터넷 머리글을 확인합니다. [스팸 방지 메시지 헤더](anti-spam-message-headers.md)에 설명된 대로 CIP 머리글을 찾습니다. 다양 한 전자 메일 클라이언트에서 메시지 헤더를 보는 방법에 대 한 자세한 내용은 [Outlook에서 인터넷 메시지 헤더 보기](https://support.office.com/article/cd039382-dc6e-4264-ac74-c048563d212c)를 참조 하세요.
 
 - IP 차단 목록의 IP 주소에서 보낸 전자 메일 메시지는 거부 되며 스팸으로 표시 되지 않으며 추가 필터링이 수행 되지 않습니다.
 
-- 또한 원격 PowerShell을 통해 다음 연결 필터 절차를 수행할 수 있습니다. [Get-HostedConnectionFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/get-hostedconnectionfilterpolicy) cmdlet을 사용하여 설정을 검토하고 [Set-HostedConnectionFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/set-hostedconnectionfilterpolicy) cmdlet을 사용하여 연결 필터 정책 설정을 편집할 수 있습니다. Windows PowerShell을 사용하여 Exchange Online Protection에 연결하는 방법에 대한 자세한 내용은 [Exchange Online Protection PowerShell에 연결](https://go.microsoft.com/fwlink/p/?linkid=627290)을 참조하세요. Windows PowerShell을 사용하여 Exchange Online에 연결하는 방법에 대한 자세한 내용은 [Connect to Exchange Online Using Remote PowerShell](https://go.microsoft.com/fwlink/p/?linkid=396554)을 참조하세요.
+- 또한 원격 PowerShell을 통해 다음 연결 필터 절차를 수행할 수 있습니다. [Get-HostedConnectionFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/get-hostedconnectionfilterpolicy) cmdlet을 사용하여 설정을 검토하고 [Set-HostedConnectionFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/set-hostedconnectionfilterpolicy) cmdlet을 사용하여 연결 필터 정책 설정을 편집할 수 있습니다. Windows PowerShell을 사용하여 Exchange Online Protection에 연결하는 방법에 대한 자세한 내용은 [Exchange Online Protection PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell)을 참조하세요. Windows PowerShell을 사용하여 Exchange Online에 연결하는 방법에 대한 자세한 내용은 [Connect to Exchange Online Using Remote PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell)을 참조하세요.
 
 ## <a name="use-the-eac-to-edit-the-default-connection-filter-policy"></a>EAC를 사용하여 기본 연결 필터 정책 편집
 
 EAC(Exchange 관리 센터)에서 연결 필터 정책을 편집하여 IP 허용 목록 또는 IP 차단 목록을 만듭니다. 연결 필터 정책 설정은 인바운드 메시지에만 적용됩니다.
-  
+
 1. EAC(Exchange 관리 센터)에서 **보호** \> **연결 필터**로 이동한 후 기본 정책을 두 번 클릭합니다.
 
 2. **연결 필터링** 메뉴 항목을 클릭한 후 원하는 목록을 만듭니다. IP 허용 목록이나 IP 차단 목록 중 하나를 만들거나 두 목록을 모두 만들 수 있습니다.
@@ -64,21 +64,21 @@ EAC(Exchange 관리 센터)에서 연결 필터 정책을 편집하여 IP 허용
 
    > [!NOTE]
    > 두 목록에 IP 주소를 추가 하는 경우 해당 IP 주소에서 보낸 전자 메일을 사용할 수 있습니다. <br/><br/> 최대 1273 개의 항목을 지정할 수 있는데,이 항목은 단일 IP 주소 이거나 IP 주소의 CIDR 범위/24 ~/32입니다. <br/><br/> TLS 암호화 메시지를 보내는 경우 IPv6 주소 및 주소 범위는 지원 되지 않습니다.
-  
-3. 원하는 경우 수신 허용 **목록 사용** 확인란을 선택 하 여 잘 알려진 특정 보낸 사람의 전자 메일이 손실 되지 않도록 합니다. 미치는? Microsoft는 신뢰할 수 있는 보낸 사람에 대 한 타사 소스를 구독 합니다. 이 수신 허용 목록을 사용 하는 것은 해당 신뢰할 수 있는 보낸 사람이 실수로 스팸으로 표시 되지 않았음을 의미 합니다. 이 옵션을 선택 하는 것이 좋습니다 (스팸으로 분류 되는 가짜 메일) 수를 줄여야 하기 때문입니다. 
+
+3. 원하는 경우 수신 허용 **목록 사용** 확인란을 선택 하 여 잘 알려진 특정 보낸 사람의 전자 메일이 손실 되지 않도록 합니다. 미치는? Microsoft는 신뢰할 수 있는 보낸 사람에 대 한 타사 소스를 구독 합니다. 이 수신 허용 목록을 사용 하는 것은 해당 신뢰할 수 있는 보낸 사람이 실수로 스팸으로 표시 되지 않았음을 의미 합니다. 이 옵션을 선택 하는 것이 좋습니다 (스팸으로 분류 되는 가짜 메일) 수를 줄여야 하기 때문입니다.
 
 4. **저장**을 클릭합니다. 기본 정책 설정에 대한 요약이 오른쪽 창에 표시됩니다.
 
 ## <a name="additional-considerations-when-configuring-ip-allow-lists"></a>IP 허용 목록 구성 시 추가 고려 사항
 
 다음은 IP 허용 목록 구성 시 고려해야 하거나 알고 있어야 하는 추가 고려 사항입니다.
-  
+
 ### <a name="specifying-a-cidr-range-that-falls-outside-of-the-recommended-range"></a>권장되는 범위를 벗어나는 CIDR 범위 지정
 
 /1에서/23 까지의 CIDR IP 주소 범위를 지정 하려면 **SCL (스팸** 지 수)이 ip 주소 범위 내에서 받은 모든 메시지가 "스팸으로"로 설정 되어 있고 서비스에 의해 추가 필터링이 수행 되지 않음을 나타내는 ip 주소 범위에서 작동 하는 메일 흐름 규칙을 만들어야 합니다. 하지만 Microsoft 전용 차단 목록이나 타사의 차단 목록에 이러한 IP 주소가 표시된 경우 이러한 메시지는 계속해서 차단됩니다. 따라서/24 ~/32 IP 주소 범위를 사용 하는 것이 좋습니다.
-  
+
 이 메일 흐름 규칙을 만들려면 다음 단계를 수행 합니다.
-  
+
 1. EAC에서 **메일 흐름** \> **규칙**으로 이동합니다.
 
 2. ![아이콘 추가](../media/ITPro-EAC-AddIcon.gif)를 클릭한 다음 **새 규칙 만들기**를 선택합니다.
@@ -100,11 +100,11 @@ EAC(Exchange 관리 센터)에서 연결 필터 정책을 편집하여 IP 허용
 ### <a name="scoping-an-ip-allow-list-exception-for-a-specific-domain"></a>특정 도메인에 대해 IP 허용 목록 예외 범위 지정
 
 일반적으로 안전한 것으로 간주되는 모든 도메인에 대한 IP 주소(또는 IP 주소 범위)를 IP 허용 목록에 추가하는 것이 좋습니다. 그러나 IP 허용 목록 항목을 모든 도메인에 적용 하지 않으려면 특정 도메인을 제외 하는 메일 흐름 규칙 (전송 규칙이 라고도 함)을 만들 수 있습니다.
-  
+
 예를 들어, 세 개의 도메인인 ContosoA.com, ContosoB.com 및 ContosoC.com이 있으며 IP 주소(단순하게 표현하기 위해 1.2.3.4 사용)를 추가하고 도메인 ContosoB.com에 대해서만 필터링을 건너뛰려 한다고 가정합니다. 모든 도메인에 대해 SCL(스팸 지수)을 -1(스팸이 아닌 것으로 분류됨을 의미함)로 설정하는 IP 허용 목록을 1.2.3.4에 대해 만듭니다. 그런 다음 ContosoB.com를 제외한 모든 도메인에 대해 SCL을 설정 하는 메일 흐름 규칙을 만들 수 있습니다. 그러면 ContosoB.com(규칙에서 예외로 나열되는 도메인)을 제외하고 IP 주소와 연결된 모든 도메인에 대해 메시지가 다시 검색됩니다. ContosoB.com의 SCL은 여전히 -1(필터링 건너뜀을 의미함)인 반면, ContosoA.com 및 ContosoC.com의 SCL은 0(콘텐츠 필터에 의해 다시 검색됨을 의미함)입니다.
-  
+
 이렇게 하려면 다음 단계를 수행합니다.
-  
+
 1. EAC에서 **메일 흐름** \> **규칙**으로 이동합니다.
 
 2. ![아이콘 추가](../media/ITPro-EAC-AddIcon.gif)를 클릭한 다음 **새 규칙 만들기**를 선택합니다.
@@ -119,7 +119,7 @@ EAC(Exchange 관리 센터)에서 연결 필터 정책을 편집하여 IP 허용
 
 7. **예외 추가**를 클릭 하 고 다음의 **경우 제외**에서 **보낸 사람** 을 선택 하 고 **도메인을**선택 합니다.
 
-8. **도메인 지정** 상자에 **contosob.com**과 같은 스팸 필터링을 무시할 도메인을 입력 합니다. ![](../media/ITPro-EAC-AddIcon.gif) 추가 **아이콘 추가를 클릭 하** 여 구 목록으로 이동 합니다. 도메인을 예외로 더 추가하려면 이 단계를 반복하고 완료되면 **확인**을 클릭합니다. 
+8. **도메인 지정** 상자에 **contosob.com**과 같은 스팸 필터링을 무시할 도메인을 입력 합니다. ![](../media/ITPro-EAC-AddIcon.gif) 추가 **아이콘 추가를 클릭 하** 여 구 목록으로 이동 합니다. 도메인을 예외로 더 추가하려면 이 단계를 반복하고 완료되면 **확인**을 클릭합니다.
 
 9. 원하는 경우 규칙을 감사하고 규칙을 테스트하며 특정 기간 동안 규칙을 활성화하는 등 기타 옵션을 지정할 수 있습니다. 옵션을 적용하기 전에 규칙을 테스트하는 것이 좋습니다. [Exchange Server의 메일 흐름 규칙에 대 한 절차에는](https://docs.microsoft.com/Exchange/policy-and-compliance/mail-flow-rules/mail-flow-rule-procedures) 이러한 선택 항목에 대 한 자세한 정보가 포함 되어 있습니다.
 
@@ -152,11 +152,11 @@ EAC(Exchange 관리 센터)에서 연결 필터 정책을 편집하여 IP 허용
 ## <a name="for-more-information"></a>자세한 내용
 
 [Exchange Online에서의 안전한 발신자 및 차단된 발신자 목록](safe-sender-and-blocked-sender-lists-faq.md)
-  
+
 [스팸 필터 정책 구성](configure-your-spam-filter-policies.md)
-  
+
 [아웃바운드 스팸 정책 구성](configure-the-outbound-spam-policy.md)
-  
-[메시지가 스팸으로 표시되지 않는지 확인하는 방법](https://go.microsoft.com/fwlink/p/?LinkId=534224)
-  
-[Office 365 스팸 필터로 전자 메일 스팸을 차단하여 거짓 부정 문제 방지](https://go.microsoft.com/fwlink/p/?LinkId=534225)
+
+[전자 메일이 Office 365에서 스팸으로 표시 되는 것을 방지 하는 방법](https://docs.microsoft.com/microsoft-365/compliance/prevent-email-from-being-marked-as-spam)
+
+[Office 365에서 스팸 메일을 줄이는 방법](reduce-spam-email.md)

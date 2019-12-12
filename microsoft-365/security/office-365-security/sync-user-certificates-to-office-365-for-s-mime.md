@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 ms.assetid: 351c932e-99c1-4512-a6e8-788e90b7838f
 description: S/MIME로 보호된 메시지를 보내려면 적절한 인증서를 설정해야 합니다. Exchange Online을 통해 암호화된 메시지를 보내기 위해 보낸 사람의 전자 메일 프로그램은 받는 사람의 공용 인증서를 사용하여 메시지를 암호화합니다. 이 공용 X.509 인증서를 Office 365에 게시해야 합니다.
-ms.openlocfilehash: e03d7be2a7a1fcb8c5ef56395b4046442802cf2a
-ms.sourcegitcommit: 2468bcb01625f97a322459814d81b9faad717859
+ms.openlocfilehash: caf5c3694034f3415b42f3b09302b6605fbf09cb
+ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39872024"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "39970094"
 ---
 # <a name="sync-user-certificates-to-office-365-for-smime"></a>S/MIME용으로 Office 365에 사용자 인증서 동기화
 
@@ -27,7 +27,7 @@ ms.locfileid: "39872024"
 
 인증서를 발급하고 로컬 Active Directory 도메인 서비스에 게시하여 S/MIME 설정을 시작합니다. 자세한 내용은 [Active Directory 인증서 서비스 개요](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2012-R2-and-2012/hh831740(v=ws.11))를 참조 하세요.
 
-인증서를 게시 한 후에는 Azure Active Directory 동기화 도구를 사용 하 여 온-프레미스 Exchange 환경의 사용자 데이터를 Office 365와 동기화 합니다. 이 프로세스에 대 한 자세한 내용은 [DirSync: 디렉터리 동기화 도구 버전 릴리스 기록을](https://go.microsoft.com/fwlink/p/?LinkId=392587)참조 하세요.
+인증서를 게시 한 후에는 Azure AD Connect 도구를 사용 하 여 온-프레미스 Exchange 환경의 사용자 데이터를 Office 365와 동기화 합니다. 이 프로세스에 대 한 자세한 내용은 [AZURE AD Connect 동기화: 사용자 지정 및 동기화 이해](https://docs.microsoft.com/azure/active-directory/hybrid/how-to-connect-sync-whatis)를 참조 하세요.
 
 S/MIME을 위해 다른 디렉터리 데이터를 동기화 하는 것과 함께,이 도구는 각 사용자 개체에 대 한 **userCertificate** 및 **userSMIMECertificate** 특성을 동기화 하 여 데이터를 사용 하 여 메시지를 서명 하 고 암호화 하는 데 사용할 수 있습니다.
 
@@ -35,4 +35,4 @@ S/MIME을 위해 다른 디렉터리 데이터를 동기화 하는 것과 함께
 
 [메시지 서명 및 암호화를 위한 S/MIME](s-mime-for-message-signing-and-encryption.md)
 
-[Azure Active Directory 동기화 도구](https://go.microsoft.com/fwlink/p/?LinkId=392587)
+[Azure AD Connect 란?](https://docs.microsoft.com/azure/active-directory/hybrid/whatis-azure-ad-connect)

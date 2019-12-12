@@ -15,34 +15,65 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: 6e2ca4405838f6e72603bcdb3024b8c0f70e3e99
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 01a81d5f4ac68d72095f86de93b727c60d28393f
+ms.sourcegitcommit: 0c9c28a87201c7470716216d99175356fb3d1a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38034299"
+ms.lasthandoff: 12/09/2019
+ms.locfileid: "39910236"
 ---
 # <a name="microsoft-threat-protection"></a>Microsoft 위협 방지
 
-Microsoft Threat Protection은 오늘날의 조직이 다음과 같은 작업을 수행할 수 있도록 하는 강력한 보안 기능을 함께 제공 하는 포괄적인 보안 솔루션입니다. 
+**적용 대상:**
+- Microsoft 위협 방지
 
-- **자산 보호** -자산은 승인 되지 않은 사용자, 장치 및 응용 프로그램 으로부터 보호 됩니다.
+[!include[Prerelease information](prerelease.md)]
 
-- 문제를 활용 하 **는** 탁월한 광학을 사용 하는 경우, 솔루션은 신호 상관 관계를 적용 하 여 공격에 대 한 경고를 그룹화 하 여 위협 범위에 대 한 더 나은 컨텍스트를 제공 합니다.
+Microsoft Threat Protection은 끝점, id, 전자 메일 및 응용 프로그램 간에 고유 하 게 통합 되어 정교한 공격에 대 한 검색, 방지, 조사 및 자동 대응을 지 원하는 통합 사전 및 사후 위반 엔터프라이즈 방어 제품군입니다.  
 
-- 기능 **defenders** -위협의 전체 범위에 대 한 가시성을 제공 하 여 보안 defenders 영향을 식별 하 고 적절 한 수정 작업을 수행할 수 있도록 합니다.
+통합 Microsoft 위협 보호 솔루션을 사용 하는 경우 보안 전문가는 이러한 각 제품이 수신 하 고 위협의 모든 범위와 영향을 결정 하는 위협 신호를 함께 연결할 수 있습니다. 환경의 진입 방식, 영향을 받는 대상 및 현재 조직에 영향을 주는 방법 Microsoft Threat Protection은 공격을 방지 하거나 중지 하는 자동 작업을 수행 하 고 영향을 받는 사서함, 끝점 및 사용자 id를 자체 치유 합니다.  
 
 
-Microsoft 365 보안 센터를 통해 Microsoft Threat Protection의 기능에 액세스 합니다.
+Microsoft Threat Protection suite는 다음을 보호 합니다. 
+- **Microsoft DEFENDER atp가 있는 끝점** -MICROSOFT defender atp는 예방적 보호, 위반 감지, 자동화 된 조사 및 응답을 위한 통합 끝점 플랫폼입니다. 
+- **전자 메일 및 공동 작업 office 365 atp** -OFFICE 365 atp는 전자 메일 메시지, 링크 (url) 및 공동 작업 도구로 인해 야기 되는 악의적인 위협 으로부터 조직을 보호 합니다. 
+- Azure **atp 및 AZURE AD Id 보호를 사용 하는 id** -azure Atp는 Active Directory 신호를 사용 하 여 조직에서 진행 되는 고급 위협, 손상 된 id 및 악의적인 참가자 작업을 식별, 감지 및 조사 합니다. 
+- **Microsoft Cloud app security를 사용 하는 응용 프로그램** -Microsoft cloud app security는 클라우드 앱에 대 한 심층 가시성, 강력한 데이터 제어 및 향상 된 위협 보호를 가져오는 포괄적인 공동 SaaS 솔루션입니다. 
+
+Microsoft Threat Protection의 고유한 교차 제품 계층은 다음과 같은 기능을 위해 개별 제품군 구성 요소를 보완 합니다.
+- 공격 으로부터 보호 하 고 신호 공유 및 자동화 된 작업을 통해 도구 모음 전체의 방어 응답을 조정 합니다.
+- 경고, 의심 스러운 이벤트 및 영향을 받는 자산에 대 한 정보를 ' 인시던트 '에 가입 시켜 보안 팀에 대 한 전체 공격 텍스트를 제품 경고, 동작 및 컨텍스트 간에 내레이션 합니다.
+- 자동 수정을 통해 영향을 받는 자산에 대해 자동 복구를 트리거하여 손상에 대 한 대응 자동화
+- 보안 팀이 끝점 및 Office 데이터에서 상세 하 고 효과적으로 위협을 수행할 수 있도록 설정
+
+![인시던트 개요 페이지의 이미지](../images/overview-incident.png) <br>
+제품 간 인시던트 (개요)
+
+![경고 큐 이미지](../images/incident-list.png)<br>
+단일 인시던트 (알림 보기)로 상호 연결 된 제품군 제품의 모든 관련 알림
+
+![인시던트 큐의 이미지](../images/advanced-hunting.png)<br>
+전자 메일 및 끝점 원시 데이터의 맨 위에 쿼리 기반 검색
+
+
+Microsoft Threat Protection의 제품 간 기능은 다음과 같습니다. 
+- **제품 간 단일 창에는** 검색, 영향을 받는 자산, 자동 작업 및 단일 큐에 있는 관련 증거, [security.microsoft.com](https://security.microsoft.com)의 단일 창에 대 한 모든 정보가 표시 됩니다. 
+- 보안 전문가 들이 **결합 된 인시던트 큐** -전체 공격 범위를 보장 하 여 중요 한 사항, 즉 영향을 받는 자산과 자동화 된 재구성 작업을 적시에 그룹화 하 여 표시 합니다. 
+- 위협에 중요 한 위협 정보 **에 대 한 자동 응답** 은 Microsoft threat Protection 제품 간에 실시간으로 공유 되어 공격 진행을 중지 하는 데 도움이 됩니다. 예를 들어 Microsoft Defender ATP가 보호 하는 끝점에서 악의적인 파일을 검색 하는 경우 Office 365 ATP가 모든 전자 메일 메시지에서 파일을 검사 하 고 제거 하도록 지시 합니다. 이 파일은 전체 Microsoft 365 보안 제품군에 의해 차단 됩니다.
+- **손상 된 장치, 사용자 id 및 사서함에 대 한 자동 복구** -Microsoft Threat Protection은 AI 기반 자동 작업 및 playbook 사용 하 여 영향을 받는 자산을 안전한 상태로 다시 유지 합니다. Microsoft Threat Protection은 해당 인시던트에 관련 된 모든 영향을 받는 모든 자산이 가능한 경우 자동으로 재구성 되도록 suite 제품의 자동 수정 기능을 활용 합니다.
+- **제품 간 위협 사냥** -보안 팀은 다양 한 보호 제품에서 수집한 원시 데이터에 대 한 고유한 사용자 지정 쿼리를 만들어 해당 조직의 고유한 정보를 활용 하 여 손상의 징후를 검색할 수 있습니다. Microsoft Threat Protection은 끝점 및 Office 365 ATP 데이터를 통해 30 일 동안 기록 된 원시 신호 및 경고 데이터에 대 한 쿼리 기반 액세스를 제공 합니다. 
 
 <center><h2>Microsoft Threat Protection 서비스</center></h2>
 <table><tr><td><center><b><a href="https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection"><b>Microsoft Defender Advanced Threat Protection</b></center></a></td>
 <td><center><b><a href="https://docs.microsoft.com/office365/securitycompliance/office-365-atp"><b>Office 365 Advanced Threat Protection</b></center></a></td>
 <td><center><b><a href="https://docs.microsoft.com/azure-advanced-threat-protection/"><b>Azure Advanced Threat Protection</b></a></center></td>
-<td><center><b><a href="https://docs.microsoft.com/azure/security-center/"><b>Azure 보안 센터</b></a></center></td>
 <td><center><b><a href="https://docs.microsoft.com/cloud-app-security/"><b>Microsoft Cloud App Security</b></a></center></td>
-<td><center><b><a href="https://docs.microsoft.com/azure/sentinel/overview"><b>Microsoft Azure 센티널</b></a></center></td>
-<td><center><b><a href="https://docs.microsoft.com/azure/active-directory/"><b>Azure Active Directory</b></a></center></td>
 </tr>
 </table>
 <br>
+
+
+## <a name="get-started"></a>시작
+Microsoft 365 E5 또는 그에 해당 하는 라이선스가 있는 고객은 Microsoft Threat Protection을 사용할 수 있습니다. 시작 하려면 [security.microsoft.com](https://security.microsoft.com)의 Microsoft 365 보안 센터에서 서비스를 사용 하도록 설정 합니다. 자세한 내용은 다음을 참조 하세요.
+- [라이선스 요구 사항](prerequisites.md#licensing-requirements)
+- [Microsoft Threat Protection 설정](mtp-enable.md)

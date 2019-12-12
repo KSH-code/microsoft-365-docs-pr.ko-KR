@@ -2,7 +2,7 @@
 title: Microsoft 365 보안 센터의 앱 모니터링 및 보고
 description: 조직에서 클라우드 앱 사용에 대 한 자세한 정보를 얻을 수 있는 방법에 대해 설명 합니다.
 keywords: 보안, 맬웨어, Microsoft 365, M365, 보안 센터, 모니터, 보고서, 앱
-ms.prod: w10
+ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
 ms.localizationpriority: medium
 ms.author: ellevin
@@ -12,22 +12,22 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: 29dd1f4ebb8d65bb6079cdc4467f1aa5e33ae906
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 8688088508f57fca1ba62dd41c28cd204df5c05e
+ms.sourcegitcommit: 0c9c28a87201c7470716216d99175356fb3d1a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37089356"
+ms.lasthandoff: 12/09/2019
+ms.locfileid: "39910299"
 ---
-# <a name="app-monitoring-and-reporting-in-microsoft-365-security-center"></a>Microsoft 365 보안 센터의 앱 모니터링 및 보고
+# <a name="app-monitoring-and-reporting-in-the-microsoft-365-security-center"></a>Microsoft 365 보안 센터의 앱 모니터링 및 보고
 
 이러한 보고서는 앱의 종류, 위험 수준 및 알림을 포함 하 여 조직에서 클라우드 앱을 사용 하는 방법에 대 한 자세한 정보를 제공 합니다.
 
-## <a name="monitor-email-accounts-at-risk"></a>위험에 대 한 전자 메일 계정 모니터링
+## <a name="monitor-email-accounts-at-risk"></a>위험 요소가 있는 이메일 계정 모니터링
 
 **전자 메일 보호** 는 위험의 전자 메일 계정을 보여 줍니다. 계정을 클릭 하 여 Microsoft Defender 보안 센터에서 더 자세히 조사할 수 있습니다.
 
-![전자 메일 보호 카드](../media/security-docs/email-protection.png)
+![전자 메일 보호 카드](../images/email-protection.png)
 
 ## <a name="monitor-app-permissions-granted-by-users"></a>사용자가 허용한 앱 사용 권한 모니터링
 
@@ -35,25 +35,25 @@ ms.locfileid: "37089356"
 
 위험 요인은 앱 게시자와 같은 일반 정보에서 응용 프로그램이 rest 암호화에 대해 지원 되는지 여부, 사용자 작업의 감사 로그를 제공 하는지 등의 보안 조치 및 제어에서 시작 됩니다.
 
-![Cloud App Security OAuth 앱 카드](../media/security-docs/cloud-app-security-oauth-apps.png)
+![Cloud App Security OAuth 앱 카드](../images/cloud-app-security-oauth-apps.png)
 
 ## <a name="monitor-cloud-app-user-accounts"></a>Cloud app 사용자 계정 모니터링
 
 **검토를 위한 Cloud app accounts에** 는 주의가 필요한 계정이 나열 되어 있습니다.
 
-![검토 카드용 클라우드 앱 계정](../media/security-docs/cloud-app-accounts-for-review.png)
+![검토 카드용 클라우드 앱 계정](../images/cloud-app-accounts-for-review.png)
 
 ## <a name="understand-which-cloud-apps-are-used"></a>사용 되는 클라우드 앱 이해
 
 **검색 된 클라우드 앱 (범주)** 은 조직에서 사용 중인 앱의 종류와 Cloud App Security의 클라우드 검색 대시보드에 연결 되는 링크를 표시 합니다. 자세한 내용은 [퀵 스타트: 검색 된 앱에](https://docs.microsoft.com/cloud-app-security/discovered-apps)대 한 작업을 참조 하세요.  
 
-![검색 된 클라우드 앱 범주 카드](../media/security-docs/discovered-cloud-apps-categories.png)
+![검색 된 클라우드 앱 범주 카드](../images/discovered-cloud-apps-categories.png)
 
 ## <a name="monitor-where-users-access-cloud-apps"></a>사용자가 클라우드 앱에 액세스 하는 위치 모니터링
 
 **클라우드 앱 활동 위치** 에는 사용자가 클라우드 앱에 액세스 하는 위치가 표시 됩니다.
 
-![Cloud App activity 위치 카드](../media/security-docs/cloud-app-activity-locations.png)
+![Cloud App activity 위치 카드](../images/cloud-app-activity-locations.png)
 
 ## <a name="monitor-health-for-infrastructure-workloads"></a>인프라 작업의 상태 모니터링
 
@@ -63,4 +63,4 @@ Azure 보안 센터는 온-프레미스 및 클라우드 워크 로드에서 통
 
 자세한 내용은 [Azure 보안 센터 설명서](https://docs.microsoft.com/azure/security-center/)를 참조 하세요.
 
-![인프라 상태 카드](../media/security-docs/infrastructure-health.png)
+![인프라 상태 카드](../images/infrastructure-health.png)

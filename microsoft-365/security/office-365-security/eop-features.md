@@ -10,12 +10,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 599b8048-1056-457b-aae4-c063138fd319
 description: 다음 표에는 EOP(Exchange 온라인 보호) 호스팅 전자 메일 필터링 서비스에서 사용할 수 있는 기능 목록이 나와 있습니다.
-ms.openlocfilehash: 1dd3ff638c9cb209c51a82fd2388057f3bf4b95e
-ms.sourcegitcommit: cbf117a4cd92a907115c9f10752f3c557361e586
+ms.openlocfilehash: 06f2de012963333f1040861dd8268b6b088f627c
+ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "37441515"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "39970594"
 ---
 # <a name="eop-features"></a>EOP 기능
 
@@ -28,7 +28,7 @@ ms.locfileid: "37441515"
 |:-----|:-----|
 |**기능**|**설명**|
 |**스팸 방지 보호 기능**||
-|인바운드 스팸 검색|인바운드 스팸 방지 보호는 항상 사용되며, 사용하지 않도록 설정할 수 없습니다. 연결 필터 및 콘텐츠 필터 정책을 통해 사용자 지정 설정을 구성할 수 있습니다.  <br/><br/> EOP 독립 실행형 고객의 경우: 기본적으로 EOP 콘텐츠 필터는 스팸 검색 메시지를 각 받는 사람의 정크 메일 폴더로 보냅니다. 그러나 온-프레미스 사서함에서 **정크 메일 폴더로 메시지 이동** 작업을 수행 하려면 추가 된 스팸 헤더를 검색 하기 위해 온-프레미스 서버에서 두 개의 Exchange 메일 흐름 규칙 (전송 규칙이 라고도 함)을 구성 해야 합니다. EOP 자세한 내용은 [스팸이 각 사용자의 정크 메일 폴더로 라우팅되는지 확인](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md)을 참조하십시오.|
+|인바운드 스팸 검색|인바운드 스팸 방지 보호는 항상 사용되며, 사용하지 않도록 설정할 수 없습니다. 연결 필터 및 콘텐츠 필터 정책을 통해 사용자 지정 설정을 구성할 수 있습니다.  <br/><br/> EOP 독립 실행형 고객의 경우: 기본적으로 EOP 콘텐츠 필터는 스팸 검색 메시지를 각 받는 사람의 정크 메일 폴더로 보냅니다. 그러나 온-프레미스 사서함에서 **정크 메일 폴더로 메시지 이동** 작업을 수행 하려면 온-프레미스 서버에서 두 개의 Exchange 메일 흐름 규칙 (전송 규칙이 라고도 함)을 구성 하 여 EOP에서 추가한 스팸 헤더를 검색 해야 합니다. 자세한 내용은 [스팸이 각 사용자의 정크 메일 폴더로 라우팅되는지 확인](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md)을 참조하십시오.|
 |아웃바운드 스팸 검색|아웃바운드 스팸 방지 보호는 아웃바운드 전자 메일을 보내는 서비스를 사용하는 경우 항상 사용되므로 이를 통해 서비스를 사용하는 조직과 이 조직의 의도된 받는 사람을 보호할 수 있습니다. 인바운드 필터링과 마찬가지로 아웃바운드 스팸 필터링은 연결 필터링과 콘텐츠 필터링으로 구성됩니다. 아웃바운드 스팸 필터링 설정은 구성할 수 없지만 의심스럽고 차단된 아웃바운드 메시지에 대한 관리자 알림을 구성하는 데 사용할 수 있는 아웃바운드 스팸 정책 설정이 있습니다. 자세한 내용은 [아웃 바운드 스팸 정책 구성을](configure-the-outbound-spam-policy.md)참조 하세요.|
 |NDR 후방 산란 보호 기능|Ndr 백 분산에 대 한 자세한 내용은 [고급 스팸 필터링 옵션](advanced-spam-filtering-asf-options.md) 의 ndr 백 분산 설정 및 [후방 산란 메시지 및 EOP](backscatter-messages-and-eop.md)을 참조 하십시오.|
 |대량 메일 필터링|EOP에는 대량 전자 메일 메시지를 식별하는 향상된 검색 방법이 있습니다. 사용자 인터페이스를 통해 대량 전자 메일 메시지를 표시하도록 서비스를 구성할 수 있습니다. 대량 메일 메시지 헤더 스탬프를 검색 하 여 대량 메일을 보다 적극적으로 필터링 하는 메일 흐름 규칙을 만들 수도 있습니다. 대량 전자 메일에 대 한 자세한 내용은 [정크 메일과 대량 전자 메일의 차이점](what-s-the-difference-between-junk-email-and-bulk-email.md) 및 관련 하위 주제를 참조 하세요.|
@@ -41,7 +41,7 @@ ms.locfileid: "37441515"
 |적극적인 스팸 필터링에 대한 고급 옵션을 구성하는 기능|자세한 내용은 [configure a 스팸 필터 정책](configure-your-spam-filter-policies.md) (이를 구성 하는 경우) 및 [고급 스팸 필터링 옵션](advanced-spam-filtering-asf-options.md) (각 옵션의 기능에 대 한 구체적인 세부 정보 제공)을 참조 하세요.|
 |다국어 스팸 필터링|특정 언어로 작성되었거나 특정 국가 또는 지역에서 보낸 메시지를 필터링하도록 EOP를 구성할 수 있습니다. 최대 86개 언어와 250개 지역을 구성할 수 있습니다. 서비스에서는 높은 스팸 지수에 대해 구성된 작업을 적용합니다. 자세한 내용은 [스팸 필터 정책 구성을](configure-your-spam-filter-policies.md)참조 하세요.|
 |Outlook 또는 웹용 Outlook을 통한 스팸 관리 (이전의 Outlook Web App)|관리자 및 최종 사용자가 안전한 보낸 사람 목록 및 차단된 보낸 사람 목록을 만들 수 있습니다. 자세한 내용은 다음을 참조하세요. <br/>• **웹용 Outlook**: [차단 또는 허용 (정크 메일 설정)](https://support.office.com/article/48c9f6f7-2309-4f95-9a4d-de987e880e46)을 참조 하세요.  <br/>• **Outlook**: [정크 메일 필터 개요](https://support.office.com/article/5ae3ea8e-cf41-4fa0-b02a-3b96e21de089)참조 <br/><br/> EOP을 사용 하 여 온-프레미스 사서함을 보호 하는 경우 이러한 설정이 서비스와 동기화 되도록 디렉터리 동기화를 사용 해야 합니다. 디렉터리 동기화 설정에 대한 자세한 내용은 [EOP에서 메일 사용자 관리](manage-mail-users-in-eop.md)에서 "디렉터리 동기화를 사용하여 메일 사용자 관리"를 참조하세요.|
-|Microsoft Office Outlook용 정크 메일 보고 추가 기능을 통한 스팸 전송|분석을 위해 Microsoft로 스팸 메시지를 제출할 수 있도록 해주는 Outlook 추가 기능을 다운로드할 수 있습니다. 이 도구를 다운로드 하 고 사용 하는 방법에 대 한 자세한 내용은 [보고서 메시지 추가 기능을 사용 하도록 설정을](https://support.office.com/article/4250c4bc-6102-420b-9e0a-a95064837676)참조 하십시오. <br/><br/> Exchange Server 2013 이상 버전을 사용 하는 경우에는 웹용 outlook에서 [정크 메일 및 피싱 사기 보고](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md)에 설명 된 대로 EOP를 웹에서 마우스 오른쪽 단추로 클릭 하 여 스팸 메시지를 제출할 수도 있습니다.|
+|Microsoft Office Outlook용 정크 메일 보고 추가 기능을 통한 스팸 전송|분석을 위해 Microsoft로 스팸 메시지를 제출할 수 있도록 해주는 Outlook 추가 기능을 다운로드할 수 있습니다. 이 도구를 다운로드 하 고 사용 하는 방법에 대 한 자세한 내용은 [보고서 메시지 추가 기능을 사용 하도록 설정을](enable-the-report-message-add-in.md)참조 하십시오. <br/><br/> Exchange Server 2013 이상 버전을 사용 하는 경우에는 웹용 outlook에서 [정크 메일 및 피싱 사기 보고](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md)에 설명 된 대로 EOP를 웹에서 마우스 오른쪽 단추로 클릭 하 여 스팸 메시지를 제출할 수도 있습니다.|
 |전자 메일 별칭을 통해 스팸 및 비스팸 전송|전자 메일을 통해 스팸(정크) 및 비스팸(정크 아님) 메시지를 Microsoft에 제출할 수 있습니다. 자세한 내용은 [분석을 위해 Microsoft에 스팸 및 스팸이 아닌 메시지 제출을](submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md)참조 하세요.|
 |웹에서 Outlook을 통한 스팸 및 비 스팸 전송 정크 메일 보고|정크 메일 및 스팸이 아닌 메시지는 웹에서 Outlook을 통해 Microsoft에 제출할 수 있습니다. 자세한 내용은 [웹용 Outlook에서 정크 메일 및 피싱 사기 보고](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md)를 참조 하세요.  <br/><br/> 이 기능은 현재 Exchange Server 2013 SP1 이상 사서함이 EOP에 의해 필터링 되는 웹 고객의 Outlook에서 사용할 수 있습니다. 웹에서 Exchange Online Outlook 고객 에게도이 기능이 곧 출시 될 예정입니다.|
 |최종 사용자 스팸 격리 알림|최종 사용자는 자신의 스팸 격리 메시지를 릴리스하고, 필요한 경우 최종 사용자 스팸 알림 메시지를 통해 이를 정크 메일 아님으로 보고할 수 있습니다. 이러한 알림 전자 메일은 [Exchange Online에서 최종 사용자 스팸 알림 구성](configure-end-user-spam-notifications-in-exchange-online.md) 또는 [EOP에서 최종 사용자 스팸 알림 구성](configure-end-user-spam-notifications-in-eop.md)에 설명 된 대로 관리자가 구성 하 고 사용 하도록 설정 해야 합니다.|

@@ -14,12 +14,12 @@ ms.assetid: c534a35d-b121-45da-9d0a-ce738ce51fce
 ms.collection:
 - M365-security-compliance
 description: 이 항목에서는 스팸 방지 보호 기능에 대한 질문과 대답을 제공합니다. 대답은 Microsoft Exchange Online 및 EOP(Exchange Online Protection) 고객에게 해당됩니다.
-ms.openlocfilehash: 04cffc6c6e09794e4c92653c1a09dd43718f38c0
-ms.sourcegitcommit: 2468bcb01625f97a322459814d81b9faad717859
+ms.openlocfilehash: b782c58bc3694bd27024f9aa7cdb2316c6d2a48a
+ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39871994"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "39971974"
 ---
 # <a name="anti-spam-protection-faq"></a>스팸 방지 및 보호 FAQ
 
@@ -93,11 +93,7 @@ Exchange Online Protection 고객: [Reporting and message trace In Exchange Onli
 
  **질문. Microsoft에 피싱 메일로부터 자기 자신을 보호할 수 있는 방법에 대한 설명서가 있습니까?**
 
-대답. 예. 있습니다. 다음 문서를 참조하세요.
-
-[피싱 메일, 복권 사기 및 기타 유형의 사기에 대한 도움말 보기](https://go.microsoft.com/fwlink/p/?LinkId=325606)
-
-[전자 메일 및 웹 사기: 사용자 자신을 보호하는 방법](https://go.microsoft.com/fwlink/p/?LinkID=325607)
+대답. 예, [인터넷에서 개인 정보 보호](https://support.microsoft.com/help/4091455) 를 읽어 보세요.
 
  **질문. 스팸 및 맬웨어 메시지의 경우 보낸 사람을 조사하거나 법 집행 기관으로 전송됩니까?**
 
@@ -125,7 +121,7 @@ Exchange Online Protection 고객: [Reporting and message trace In Exchange Onli
 
     [스푸핑을 방지할 수 있도록 Office 365에서 SPF 설정](set-up-spf-in-office-365-to-help-prevent-spoofing.md)
 
-    [도메인 FAQ](/office365/admin/setup/domains-faq)
+    [도메인 FAQ](https://docs.microsoft.com/office365/admin/setup/domains-faq#how-can-i-validate-spf-records-for-my-domain)
 
 5. **DKIM으로 전자 메일에 서명을 하는 경우 낮은 수준의 정규화로 서명합니다.**
 
@@ -159,25 +155,25 @@ Exchange Online Protection 고객: [Reporting and message trace In Exchange Onli
 
     이중 옵트인(opt in)은 사용자가 마케팅 메일을 신청할 때 두 가지 작업을 수행하도록 요구하는 방식입니다.
 
-1. 먼저, 사용자는 이전에는 선택하지 않았던 확인란을 클릭하여 마케팅 업체의 서비스 또는 전자 메일 메시지를 계속 받도록 옵트인(opt in)합니다.
+   1. 먼저, 사용자는 이전에는 선택하지 않았던 확인란을 클릭하여 마케팅 업체의 서비스 또는 전자 메일 메시지를 계속 받도록 옵트인(opt in)합니다.
 
-2. 다음으로, 사용자가 입력한 전자 메일 주소로 마케팅 업체가 확인 전자 메일을 보내 사용자가 일정 시간 이내에 링크를 클릭하여 확인을 완료하도록 요청합니다.
+   2. 다음으로, 사용자가 입력한 전자 메일 주소로 마케팅 업체가 확인 전자 메일을 보내 사용자가 일정 시간 이내에 링크를 클릭하여 확인을 완료하도록 요청합니다.
 
-    이중 옵트인(opt in)을 사용하는 경우 대량 전자 메일 보낸 사람의 신뢰도가 높아집니다.
+      이중 옵트인(opt in)을 사용하는 경우 대량 전자 메일 보낸 사람의 신뢰도가 높아집니다.
 
 10. **대량 전자 메일 보낸 사람은 책임질 수 있는 명확한 콘텐츠를 작성해야 합니다.**
 
-1. 받는 사람이 보낸 사람을 주소록에 추가하도록 요청하는 장문의 메시지에서는 해당 작업을 수행해도 배달이 보장되지는 않음을 명확하게 설명해야 합니다.
+    1. 받는 사람이 보낸 사람을 주소록에 추가하도록 요청하는 장문의 메시지에서는 해당 작업을 수행해도 배달이 보장되지는 않음을 명확하게 설명해야 합니다.
 
-2. 메시지 본문에 리디렉션을 구성하는 경우에는 일관성 있는 링크 스타일을 사용합니다.
+    2. 메시지 본문에 리디렉션을 구성하는 경우에는 일관성 있는 링크 스타일을 사용합니다.
 
-3. 큰 이미지나 첨부 파일, 또는 이미지로만 구성된 메시지를 보내지 않습니다.
+    3. 큰 이미지나 첨부 파일, 또는 이미지로만 구성된 메시지를 보내지 않습니다.
 
-4. 추적 픽셀(웹 버그 또는 탐지 장치)을 사용할 때는 공개 개인 정보 또는 P3P 설정에서 그러한 항목이 있음을 명기합니다.
+    4. 추적 픽셀(웹 버그 또는 탐지 장치)을 사용할 때는 공개 개인 정보 또는 P3P 설정에서 그러한 항목이 있음을 명기합니다.
 
 11. **아웃바운드 배달 상태 알림의 서식을 지정합니다.**
 
-    배달 상태 알림 메시지를 생성할 때 보낸 사람은 [RFC 3464](https://go.microsoft.com/fwlink/?LinkId=279715)에 지정된 반송 형식을 따라야 합니다.
+    배달 상태 알림 메시지를 생성할 때 보낸 사람은 [RFC 3464](https://www.ietf.org/rfc/rfc3464.txt)에 지정된 반송 형식을 따라야 합니다.
 
 12. **존재하지 않는 사용자의 반송된 전자 메일 주소를 제거합니다.**
 
@@ -189,12 +185,10 @@ Exchange Online Protection 고객: [Reporting and message trace In Exchange Onli
 
 ## <a name="for-more-information"></a>자세한 내용
 
-[Office 365 이메일 스팸 방지 보호](https://support.office.com/article/6a601501-a6a8-4559-b2e7-56b59c96a586)
+[Office 365의 전자 메일 스팸 방지 및 보호](anti-spam-protection.md)
 
 [Exchange Online에서의 안전한 발신자 및 차단된 발신자 목록](safe-sender-and-blocked-sender-lists-faq.md)
 
 [스팸 방지 메시지 헤더](anti-spam-message-headers.md)
 
 [후방 분산 메시지 및 EOP](backscatter-messages-and-eop.md)
-
-

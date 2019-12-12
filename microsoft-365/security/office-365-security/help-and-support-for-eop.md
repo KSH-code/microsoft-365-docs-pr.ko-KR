@@ -10,12 +10,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 64535a0a-1044-413f-8bc2-ed8e8a0bc54c
 description: Microsoft에서는 자체 지원 및 보조 지원을 비롯하여 다양한 방법 및 위치에서 EOP에 대한 도움말을 제공합니다.
-ms.openlocfilehash: e02723b0c8e2d5b5309054babf27f0f3e9587a88
-ms.sourcegitcommit: cbf117a4cd92a907115c9f10752f3c557361e586
+ms.openlocfilehash: 3be67348b9522832a754e83e57e4a99e4f9147b3
+ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "37441115"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "39970424"
 ---
 # <a name="help-and-support-for-eop"></a>EOP에 대한 도움말 및 지원
 
@@ -23,17 +23,17 @@ ms.locfileid: "37441115"
 
 ## <a name="self-support-options"></a>자체 지원 옵션
 
-로그인 시 Office 365 포털에서는 조직의 서비스 상태에 대한 정보를 제공합니다. 또한 Office 365의 서비스 상태 섹션에는 서비스의 현재 상태, 장애 및 중단에 대한 세부 정보 및 계획된 유지 관리 시간 목록이 표시됩니다. Office 365 포털에서는 알려진 문제 및 예상 해결 방법에 대한 정보도 제공합니다. 서비스 수준 이벤트의 영향을 받은 경우 일반적으로 종 모양 아이콘이 표시된 통신 경고가 나타납니다. 모든 항목을 읽고 적절한 조치를 취하는 것이 좋습니다. Office 365의 서비스 상태 영역에 대한 자세한 내용은 [서비스 상태](https://go.microsoft.com/fwlink/?LinkId=394289)를 참조하세요. 여기에 나열된 도구, 포럼 및 커뮤니티 사이트를 사용하여 추가 도움말을 직접 찾을 수 있습니다.
+로그인 시 Office 365 포털에서는 조직의 서비스 상태에 대한 정보를 제공합니다. 또한 Office 365의 서비스 상태 섹션에는 서비스의 현재 상태, 장애 및 중단에 대한 세부 정보 및 계획된 유지 관리 시간 목록이 표시됩니다. Office 365 포털에서는 알려진 문제 및 예상 해결 방법에 대한 정보도 제공합니다. 서비스 수준 이벤트의 영향을 받은 경우 일반적으로 종 모양 아이콘이 표시된 통신 경고가 나타납니다. 모든 항목을 읽고 적절한 조치를 취하는 것이 좋습니다. Office 365의 서비스 상태 영역에 대 한 자세한 내용은 [서비스 상태 및 연속성](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/service-health-and-continuity)를 참조 하세요. 여기에 나열된 도구, 포럼 및 커뮤니티 사이트를 사용하여 추가 도움말을 직접 찾을 수 있습니다.
 
-[Exchange Online Protection에 대한 제품 개요](https://go.microsoft.com/fwlink/p/?LinkId=279912)
+[Exchange Online Protection에 대한 제품 개요](https://products.office.com/exchange/exchange-email-security-spam-protection)
 
-[Office 365 및 Exchange Online 지원](https://go.microsoft.com/fwlink/?LinkId=299655)
+[비즈니스용 제품에 대한 고객 지원 센터 - 관리자 도움말](https://docs.microsoft.com/office365/admin/contact-support-for-business-products)
 
-[Office 365 커뮤니티](https://go.microsoft.com/fwlink/?LinkId=299656)
+[Office 365 커뮤니티](https://techcommunity.microsoft.com/t5/Office-365/ct-p/Office365)
 
-[Office 365 DIY(Do It Yourself) 문제 해결사](https://go.microsoft.com/fwlink/?LinkId=299657)
+[Microsoft 지원 및 복구 도우미 (SaRA)](https://support.office.com/article/e90bb691-c2a7-4697-a94f-88836856c72f)
 
-[Office 365 메일 흐름 안내에 따른 연습](https://go.microsoft.com/fwlink/?LinkId=323470)
+[메일 흐름 문제 해결사](https://aka.ms/FixEmail)
 
 ## <a name="assisted-support-from-microsoft"></a>Microsoft의 보조 지원
 
@@ -43,7 +43,7 @@ Microsoft 365 관리 센터에서 새 서비스 요청을 시작 하거나 전�
 
 EOP 고객이면서 Microsoft 프리미어 지원 계약도 보유하고 있는 경우 일반 Microsoft 프리미어 지원 채널을 통해 지원을 받을 수 있습니다. 이를 통해 프리미어 TAM(기술 담당 관리자) 및 서비스 케이스 제출과 같은 프리미어 지원 고객이 사용할 수 있는 모든 프로세스 및 리소스에 액세스할 수 있습니다. Microsoft Online Services에 대한 프리미어 지원은 프리미어 지원 프레임워크를 온-프레미스 제품을 넘어 온라인 서비스까지 확장하여 모든 제품 및 서비스 전체에서 통합 지원 환경을 제공합니다. 이 서비스는 고객이 신속하게 문제를 해결할 수 있도록 하며 IT 인프라의 다양한 구성 요소에 대한 지원 관리 작업을 간소화합니다.
 
-프리미어 지원이 조직이 IT 투자에서 가치를 극대화하도록 도울 수 있는 방법에 대한 자세한 내용은 [Microsoft 프리미어 지원](https://go.microsoft.com/fwlink/?LinkId=317437)을 참조하세요.
+프리미어 지원이 조직의 IT 투자 가치를 극대화 하는 데 도움이 되는 방식에 대 한 자세한 내용은 [Premier support for](https://partner.microsoft.com/support/microsoft-services-premier-support)partner을 참조 하십시오.
 
 ### <a name="ask-for-help-on-the-web"></a>웹에서 도움 요청
 

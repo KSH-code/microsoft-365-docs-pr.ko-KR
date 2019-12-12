@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: 조직의 현대화 보안에 대 한 보안 원칙 및 권장 사항에 대해 자세히 알아보세요.
-ms.openlocfilehash: 44a870263a832e2d130e0404c5e2ad0736a5fae5
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: e1f4e9afb86d475a7dd7261dfe26ff0b5a17826f
+ms.sourcegitcommit: b65c80051e53d9be223f4769f4d42a39f5a07735
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38034380"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "39962635"
 ---
 # <a name="ciso-workshop-module-3-identity-and-zero-trust-user-access"></a>CISO 워크숍 모듈 3: Id 및 제로 트러스트 사용자 액세스
 
@@ -46,7 +46,7 @@ ms.locfileid: "38034380"
 
 ##  <a name="part-6-build-an-identity-perimeter-1357"></a>6 부: Id 경계 만들기 (13:57)
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWtGm5]
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWtYMg]
 
 ## <a name="part-7-identity-system-security-337"></a>7 부: Id 시스템 보안 (3:37)
 

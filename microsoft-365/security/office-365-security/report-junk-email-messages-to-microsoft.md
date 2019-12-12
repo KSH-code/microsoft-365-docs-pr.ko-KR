@@ -14,67 +14,65 @@ ms.assetid: c31406ea-2979-4fac-9288-f835269b9d2f
 ms.collection:
 - M365-security-compliance
 description: Microsoft Office Outlook용 Microsoft 정크 메일 보고 추가 기능은 정크 메일 메시지를 보고하는 다양한 방법을 제공합니다.
-ms.openlocfilehash: 4b53f6df11f2b0ee8fe6b20d3797d6e317c9a73e
-ms.sourcegitcommit: 78f2c5f89f4f59e4c1865369fc6ba82486881e8a
+ms.openlocfilehash: f77f9298058897b60345651a35289f6be88a47a8
+ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/04/2019
-ms.locfileid: "37964444"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "39970294"
 ---
 # <a name="report-junk-email-messages-to-microsoft"></a>Microsoft에 정크 메일 메시지 보고
 
 Microsoft Office Outlook용 Microsoft 정크 메일 보고 추가 기능은 정크 메일 메시지를 보고하는 다양한 방법을 제공합니다.
-  
+
 - Outlook 리본 메뉴에서
-    
+
 - 받은 편지함에서
-    
+
 - 열린 전자 메일 메시지 내에서
-    
-정크 메일 보고 추가 기능을 사용하면 Microsoft EOP(Exchange Online Protection) 서비스에 보고서를 쉽게 제출할 수 있습니다. 사서함이 서비스에 의해 보호되지 않는 경우에 정크 전자 메일 보고서 제출은 스팸 필터에 영향을 주지 않습니다. 관리자는 [메시지가 스팸으로 표시되지 않는지 확인하는 방법](https://go.microsoft.com/fwlink/p/?LinkId=534224) 또는 [Office 365 스팸 필터로 전자 메일 스팸을 차단하여 거짓 부정 문제 방지](https://go.microsoft.com/fwlink/p/?LinkId=534225)에서 전체 조직에 적용되는 추가 스팸 설정을 확인할 수 있습니다. 이러한 정보는 관리자 수준의 권한이 있고 거짓 긍정 또는 거짓 부정을 방지하려는 경우에 유용합니다.
-  
+
+정크 메일 보고 추가 기능을 사용하면 Microsoft EOP(Exchange Online Protection) 서비스에 보고서를 쉽게 제출할 수 있습니다. 사서함이 서비스에 의해 보호되지 않는 경우에 정크 전자 메일 보고서 제출은 스팸 필터에 영향을 주지 않습니다. 관리자는 [전자 메일이 office 365에서 스팸으로 표시 되지 않도록](https://docs.microsoft.com/microsoft-365/compliance/prevent-email-from-being-marked-as-spam) 하는 방법 또는 [office 365에서 스팸 메일을 줄이는 방법](reduce-spam-email.md)에 대 한 자세한 내용은 전체 조직에 적용 되는 추가 스팸 설정에 대해 알아볼 수 있습니다. 사용자가 관리자 수준 제어를 가지고 있고 가양성이나 거짓 부정을 방지하려고 할 때 유용합니다.
+
 > [!TIP]
-> 또한 [junk@office365.microsoft.com](mailto:junk@office365.microsoft.com) 전자 메일 주소와 [not_junk@office365.microsoft.com](mailto:not_junk@office365.microsoft.com) 전자 메일 주소를 사용 하 여 가양성 (스팸 아님) 메시지를 사용 하 여 Microsoft에 직접 스팸 메시지를 제출할 수 있습니다. 자세한 내용은 [분석을 위해 Microsoft에 스팸 및 스팸이 아닌 메시지 제출을](submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md)참조 하세요. 
-  
+> 또한 [junk@office365.microsoft.com](mailto:junk@office365.microsoft.com) 전자 메일 주소와 [not_junk@office365.microsoft.com](mailto:not_junk@office365.microsoft.com) 전자 메일 주소를 사용 하 여 가양성 (스팸 아님) 메시지를 사용 하 여 Microsoft에 직접 스팸 메시지를 제출할 수 있습니다. 자세한 내용은 [분석을 위해 Microsoft에 스팸 및 스팸이 아닌 메시지 제출을](submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md)참조 하세요.
+
 ### <a name="to-report-junk-email-messages-from-outlook"></a>Outlook에서 정크 메일 메시지를 보고 하려면
 
-[보고서 메시지 추가 기능 사용](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2) 
-  
+[보고서 메시지 추가 기능 사용](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2)
+
 ### <a name="to-report-junk-email-messages-from-your-inbox"></a>받은 편지함에서 정크 메일 메시지를 보고하려면
 
 1. 정크로 보고할 메시지를 마우스 오른쪽 단추로 클릭합니다.
-    
+
 2. **정크**를 선택하고 **정크 보고**를 클릭합니다.
     ![받은 편지함에서 정크 메시지 보고](../media/EOP-Outlook-Junk-Reporting-Tool-3.jpg)
-  
+
 3. **Microsoft 정크 메일 보고 추가 기능** 대화 상자가 열립니다. 선택한 메시지를 정크로 제출하려면 **예**를 클릭합니다.
     ![정크 메일로 보고 확인](../media/EOP-Outlook-Junk-Reporting-Tool-2.jpg)
-  
+
     > [!NOTE]
-    > 정크 메시지 전송 시 이 확인 메시지를 표시하지 않으려면 **이 메시지를 다시 표시 안 함**을 선택합니다. 
-  
-선택한 메시지가 분석을 위해 Microsoft로 전송되고 정크 메일 폴더로 이동됩니다. 메시지가 전송되었는지 확인하려면 **보낸 편지함** 폴더를 열고 전송한 메시지를 확인합니다. 
-  
+    > 정크 메시지 전송 시 이 확인 메시지를 표시하지 않으려면 **이 메시지를 다시 표시 안 함**을 선택합니다.
+
+선택한 메시지가 분석을 위해 Microsoft로 전송되고 정크 메일 폴더로 이동됩니다. 메시지가 전송되었는지 확인하려면 **보낸 편지함** 폴더를 열고 전송한 메시지를 확인합니다.
+
 ### <a name="to-report-a-junk-email-message-from-within-an-opened-message"></a>열린 메시지 내에서 정크 메일 메시지를 보고하려면
 
 1. 열린 메시지 내에서 메시지 리본 메뉴의 **정크 보고** 단추를 클릭합니다. 예를 \> **들어 정크 메일** **보고서 정크** ![메일로 메시지 내에서 정크 메일이 전송 됩니다.](../media/EOP-Outlook-Junk-Reporting-Tool-4.jpg)
-  
+
 2. **Microsoft 정크 메일 보고 추가 기능** 대화 상자가 열립니다. 선택한 메시지를 정크로 제출하려면 **예**를 클릭합니다.
     ![정크 메일로 보고 확인](../media/EOP-Outlook-Junk-Reporting-Tool-2.jpg)
-  
+
     > [!NOTE]
-    > 정크 메시지 전송 시 이 확인 메시지를 표시하지 않으려면 **이 메시지를 다시 표시 안 함**을 선택합니다. 
-  
-선택한 메시지가 분석을 위해 Microsoft로 전송되고 정크 메일 폴더로 이동됩니다. 메시지가 전송되었는지 확인하려면 **보낸 편지함** 폴더를 열고 전송한 메시지를 확인합니다. 
-  
+    > 정크 메시지 전송 시 이 확인 메시지를 표시하지 않으려면 **이 메시지를 다시 표시 안 함**을 선택합니다.
+
+선택한 메시지가 분석을 위해 Microsoft로 전송되고 정크 메일 폴더로 이동됩니다. 메시지가 전송되었는지 확인하려면 **보낸 편지함** 폴더를 열고 전송한 메시지를 확인합니다.
+
 ## <a name="for-more-information"></a>자세한 내용
 
-[보고서 메시지 추가 기능을 사용하도록 설정](https://support.office.com/article/4250c4bc-6102-420b-9e0a-a95064837676)
-  
-[문제 해결 및 지원 정보](troubleshooting-and-support-information.md)
-  
-[메시지가 스팸으로 표시되지 않는지 확인하는 방법](https://go.microsoft.com/fwlink/p/?LinkId=534224)
-  
-[Office 365 스팸 필터로 전자 메일 스팸을 차단하여 거짓 부정 문제 방지](https://go.microsoft.com/fwlink/p/?LinkId=534225)
-  
+[보고서 메시지 추가 기능을 사용하도록 설정](enable-the-report-message-add-in.md)
 
+[문제 해결 및 지원 정보](troubleshooting-and-support-information.md)
+
+[전자 메일이 Office 365에서 스팸으로 표시 되는 것을 방지 하는 방법](https://docs.microsoft.com/microsoft-365/compliance/prevent-email-from-being-marked-as-spam)
+
+[Office 365에서 스팸 메일을 줄이는 방법](reduce-spam-email.md)

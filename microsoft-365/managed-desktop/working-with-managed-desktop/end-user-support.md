@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 6bb3ebfabe74af82cd62e836e9c3d6dfd606cb88
-ms.sourcegitcommit: 4dc7b5b1ccdb7e8f683104f1b9eec90025b3ad0e
+ms.openlocfilehash: c53813a96772389f8ae180663ca3131701e47365
+ms.sourcegitcommit: b65c80051e53d9be223f4769f4d42a39f5a07735
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/04/2019
-ms.locfileid: "37391221"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "39962205"
 ---
 # <a name="getting-help-for-end-users"></a>최종 사용자를 위한 도움말 보기
 
@@ -24,7 +24,7 @@ ms.locfileid: "37391221"
 
 사용자에 게 지원을 제공 하는 기본 방법은 최종 사용자 장치에 기본적으로 제공 되는 편리한 인터페이스인 **도움말**을 사용 하는 것입니다.  
 
-![도움말 보기](images/get-help.png)
+![도움말 앱 보기 아이콘](images/get-help.png)
 
 이 응용 프로그램은 모든 Microsoft Managed Desktop 장치에 설치 되어 있으며 작업 표시줄에 고정 되어 있습니다. 
 
@@ -51,6 +51,8 @@ ms.locfileid: "37391221"
 - 미국: + 1 855 425 0216
 - 캐나다 (퀘벡 제외): + 1 855 425 0216
 - 영국: + 44 800 026 0698
+- 벨기에: + 32 800 58533
+- 룩셈부르크: + 352 800 40119
 - 오스트레일리아: + 61 180 037 0619
 - 뉴질랜드: + 64 988 44380
 
@@ -60,4 +62,4 @@ ms.locfileid: "37391221"
 ## <a name="additional-resources"></a>추가 리소스
 - [Microsoft Managed Desktop에 대 한 관리자 지원](admin-support.md) 
 - [Microsoft Managed Desktop에 대 한 지원](../service-description/support.md)
-- Microsoft Managed Desktop을 이미 구독 하 고 있는 경우 microsoft managed desktop Administration의 **온라인 리소스** 섹션에 있는 Microsoft Managed Desktop admin 가이드에서 자세한 절차, 프로세스 흐름, 작업 지침 및 faq를 확인할 수 있습니다. [ 포털](https://aka.ms/mwaasportal)
+- Microsoft Managed Desktop을 이미 구독 하 고 있는 경우 microsoft managed desktop [Admin 포털](https://aka.ms/mwaasportal)의 **온라인 리소스** 섹션에 있는 Microsoft managed desktop administration 가이드에서 자세한 절차, 프로세스 흐름, 작업 지침 및 faq를 확인할 수 있습니다.

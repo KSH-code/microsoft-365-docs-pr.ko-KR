@@ -10,12 +10,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: d6a87ce8-2c22-433a-b430-5eab14f6afdc
 description: 이 항목에서는 다른 테넌트(회사)에 대한 EOP(Exchange Online Protection)를 관리하는 능력을 비롯하여 위임 받은 Office 365 관리 작업을 수행하려는 Microsoft 파트너 및 리셀러를 위한 질문과 답변이 제공됩니다.
-ms.openlocfilehash: 729ebd0f62834ffcf929da4c2b1b11b0a16275c9
-ms.sourcegitcommit: cbf117a4cd92a907115c9f10752f3c557361e586
+ms.openlocfilehash: 4e2548ebe52926e00269615a436662183ec5bd2a
+ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "37440505"
+ms.lasthandoff: 12/11/2019
+ms.locfileid: "39970754"
 ---
 # <a name="delegated-administration-faq"></a>위임된 관리 FAQ
 
@@ -27,11 +27,11 @@ ms.locfileid: "37440505"
 
 1. [Microsoft Office 365 관리자](https://aka.ms/cloudbenefits)로 등록합니다.
 
-2. Office 365 위임된 관리에 등록합니다. 고객의 계정을 관리할 수 있으려면 위임된 관리자로서 승인을 받아야 합니다. 승인을 받으려면 먼저 [위임된 관리를 위한 제안을 고객에게 보냅니다](https://go.microsoft.com/fwlink/?LinkId=396829). 나중에 고객에게 위임된 관리를 제안할 수도 있습니다.
+2. Office 365 위임된 관리에 등록합니다. 고객의 계정을 관리할 수 있으려면 위임된 관리자로서 승인을 받아야 합니다. 승인을 받으려면 먼저 [위임된 관리를 위한 제안을 고객에게 보냅니다](https://support.office.com/article/26530dc0-ebba-415b-86b1-b55bc06b073e). 나중에 고객에게 위임된 관리를 제안할 수도 있습니다.
 
-3. 위임 된 [관리 추가 또는 삭제](https://go.microsoft.com/fwlink/?LinkId=396831)의 단계를 사용 하 여 위임 된 관리자 계정을 만듭니다.
+3. [구독 관리자 파트너 추가, 변경 또는 삭제](https://docs.microsoft.com/office365/admin/misc/add-partner)의 단계를 사용 하 여 위임 된 관리자 계정을 만듭니다.
 
-Office 365 위임된 관리 설정 방법에 대한 자세한 내용은 [파트너: 비즈니스 창출 및 Office 365 파트너 계정 관리](https://go.microsoft.com/fwlink/?LinkId=301485) 를 참조하세요.
+Office 365 위임 된 관리를 설정 하는 방법에 대 한 자세한 내용은 [파트너: 비즈니스 구축 및 Office 365 파트너 구독 관리](https://support.office.com/article/30dd1681-47e0-4cbc-abfe-a222cd111319) 를 참조 하세요.
 
 **Q. 저는 재판매인이 아니라 고객입니다. 하위 테넌트를 위해 위임된 관리를 설정하려면 어떻게 합니까?**
 
@@ -43,4 +43,4 @@ A. Office 365는 현재 이 기능을 지원하지 않습니다.
 
 **Q. 모든 하위 테넌트의 보고를 통합하려면 어떻게 합니까?**
 
-A. 지금 Microsoft 365 관리 센터 보고서에 대해 관리 하는 회사 전체의 통합 보고 기능을 사용할 수 없습니다. 그러나 원격 Windows PowerShell 또는 [Office 365 보고 웹 서비스](https://go.microsoft.com/fwlink/?LinkId=279926)를 사용 하 여이 작업을 수행할 수 있습니다.
+A. 지금 Microsoft 365 관리 센터 보고서에 대해 관리 하는 회사 전체의 통합 보고 기능을 사용할 수 없습니다. 그러나 [Microsoft Graph](https://docs.microsoft.com/graph/overview)를 사용 하 여이 작업을 수행할 수 있습니다.

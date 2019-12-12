@@ -13,12 +13,12 @@ ms.assetid: bfc91c73-a955-40e1-a95f-ad466624339a
 ms.collection:
 - M365-security-compliance
 description: 회사 전체의 기본 스팸 필터 정책 또는 도메인에 적용 되는 사용자 지정 스팸 필터 정책에 대 한 최종 사용자 스팸 알림을 구성할 수 있습니다.
-ms.openlocfilehash: 0eef6f508a775513ff5c6e061d12e023534eb0bd
-ms.sourcegitcommit: 2468bcb01625f97a322459814d81b9faad717859
+ms.openlocfilehash: 0b1b88a60ba1f14aa482dc8214739930b69cca05
+ms.sourcegitcommit: 0c9c28a87201c7470716216d99175356fb3d1a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39871934"
+ms.lasthandoff: 12/09/2019
+ms.locfileid: "39909838"
 ---
 # <a name="configure-end-user-spam-notifications-in-exchange-online"></a>Exchange Online에서 최종 사용자 스팸 알림 구성
 
@@ -31,17 +31,11 @@ ms.locfileid: "39871934"
   
 최종 사용자는 알림 메시지를 받은 후 다음 옵션 중에서 선택할 수 있습니다.
 
-작업을 수행 하기 전에 콘텐츠나 머리글을 미리 보려면 메시지를 **미리 봅니다** .
-
-작업을 수행 하기 전에 장치에서 메시지와 첨부 파일 (있는 경우)을 검토 하려는 경우 메시지를 **다운로드** 합니다.
+Office 365에서 수신 거부 목록에 보낸 사람을 추가 하려는 경우 **보낸 사람을 차단** 합니다.
 
 메시지가 스팸으로 아니면 Office 365에서 사서함으로 메시지를 보내도록 하려면 **릴리스** 를 선택 합니다.
 
-**Release &** 메시지가 스팸으로 아니면 Office 365에서 다음 전자 메일에 대 한 수신 허용-보낸 사람 및 받는 사람 목록에 보낸 사람을 추가 하려는 경우 보낸 사람에 게 보낼 수 있습니다. 관리자에 게는 수신 허용-보낸 사람 목록을 다시 정의 하는 다른 조직 전체의 allow/block 구성이 있을 수 있습니다.
-
-**Release & Report**-메시지가 스팸으로가 아니며 메시지를 사서함으로 보내고 분석을 위해 Microsoft에 보고 하려는 경우
-
-Office 365에서 수신 거부 목록에 보낸 사람을 추가 하도록 하려면 **차단** 합니다.
+Preview 또는 Release와 같은 다른 작업을 수행 하려는 경우 보안 & 준수 센터 내의 격리 포털로 이동 하는 방법을 **검토** 합니다.
   
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
 
@@ -78,7 +72,7 @@ Office 365에서 수신 거부 목록에 보낸 사람을 추가 하도록 하�
   
 ## <a name="use-the-scc-to-configure-end-user-spam-notifications"></a>SCC를 사용 하 여 최종 사용자 스팸 알림 구성
 
-또한 SCC (보안 및 준수 센터)를 사용 하 여 최종 사용자 스팸 알림을 구성할 수도 있습니다. 다음 단계를 따릅니다.
+또한 SCC (보안 및 준수 센터)를 사용 하 여 최종 사용자 스팸 알림을 구성할 수도 있습니다. 다음 단계를 따릅니다:
 
 1. 보안 및 준수 센터를 열고 **스팸 방지** https://protection.office.com/antispam를 위한 **위협 관리** \> **정책** \> 으로 이동 하거나 직접 링크를 사용 합니다.
 

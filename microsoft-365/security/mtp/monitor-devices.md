@@ -2,7 +2,7 @@
 title: Microsoft 365 보안 센터의 장치 모니터링 및 보고
 description: 장치를 안전 하 고 최신 상태로 유지 하 고 조직에서 잠재적인 위협을 발견할 수 있는 방법에 대해 설명 합니다.
 keywords: 보안, 맬웨어, Microsoft 365, M365, 보안 센터, 모니터, 보고서, 장치
-ms.prod: w10
+ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
 ms.localizationpriority: medium
 ms.author: ellevin
@@ -12,14 +12,14 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: 71bdb350e8e166e9ccd6a303c7ef7bdde943e79c
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 149b3ab2f30d2387165dd98c0ba21eeac0fc8728
+ms.sourcegitcommit: 0c9c28a87201c7470716216d99175356fb3d1a47
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37089337"
+ms.lasthandoff: 12/09/2019
+ms.locfileid: "39910459"
 ---
-# <a name="device-monitoring-and-reporting-in-microsoft-365-security-center"></a>Microsoft 365 보안 센터의 장치 모니터링 및 보고
+# <a name="device-monitoring-and-reporting-in-the-microsoft-365-security-center"></a>Microsoft 365 보안 센터의 장치 모니터링 및 보고
 
 Microsoft 365 보안 센터에서 장치를 안전 하 고 최신 상태로 유지 하 고 잠재적인 위협을 발견할 수 있습니다.
 
@@ -29,11 +29,11 @@ Microsoft Defender ATP에서 장치에 대 한 위반 활동 및 기타 위협�
 
 ### <a name="monitor-high-impact-alerts"></a>높은 영향을 주는 알림 모니터링
 
-각 Microsoft Defender ATP 경고에는 해당 하는 심각도 (높음, 중간, 낮음 또는 정보용)가 있으며,이는 무인 상태로 유지 되는 경우 네트워크에 발생할 수 있는 잠재적 영향을 나타내는 것입니다.  
+각 Microsoft Defender ATP 경고에는 네트워크가 무인 모드로 유지 되는 경우 네트워크에 대 한 잠재적 영향을 나타내는 해당 심각도 높음, 중간, 낮음 또는 정보가 포함 되어 있습니다.  
 
 **장치 경고 심각도** 카드를 사용 하 여 특히 더 심각 하 고 즉각적인 응답이 필요할 수 있는 경고에 초점을 집중 합니다. 이 카드에서 Microsoft Defender 보안 센터 포털에 대 한 추가 정보를 볼 수 있습니다.
 
-![장치 경고 심각도 카드](../media/security-docs/device-alerts-severity.png)
+![장치 경고 심각도 카드](../images/device-alerts-severity.png)
 
 ### <a name="understand-sources-of-alerts"></a>경고 원본 이해
 
@@ -41,23 +41,23 @@ Microsoft Defender ATP는 광범위 한 보안 센서 및 인텔리전스 원본
 
 **장치 경고 검색** 원본 카드에는 원본에의 한 알림 배포가 표시 됩니다. 이 카드는 특정 원본, 특히 사용자 지정 원본에 관련 된 작업을 추적 하는 데 도움이 됩니다. 이를 사용 하 여 악성 활동 또는 구성 요소를 자동으로 차단 하도록 구성 되지 않은 센서에서 들어오는 경고에 집중할 수도 있습니다.
 
-![장치 경고 검색 원본 카드](../media/security-docs/device-alert-detection-sources.png)
+![장치 경고 검색 원본 카드](../images/device-alert-detection-sources.png)
 
 이 카드에서 Microsoft Defender 보안 센터 포털에 대 한 추가 정보를 볼 수 있습니다.
 
 ### <a name="understand-the-types-of-threats-that-trigger-alerts"></a>알림을 트리거하는 위협의 유형 이해
 
-Microsoft Defender ATP는 공격 체인의 특정 단계 또는 위협 구성 요소 유형을 나타내는 범주로 각 경고를 정렬 합니다. 예를 들어 검색 된 위협 활동을 "수평 이동"으로 분류 하 여 활동이 네트워크의 다른 장치에 연결 하려고 시도 했으며 공격자가 초기 foothold를 얻은 후에 발생 했을 것임을 나타낼 수 있습니다. 감지 되 면 위협 구성 요소는 "맬웨어" 또는 특히 "랜 섬 웨어", "자격 증명 가로채기" 또는 기타 악성 또는 원치 않는 소프트웨어 유형으로 분류 될 수 있습니다.
+Microsoft Defender ATP는 공격 체인의 특정 단계 또는 위협 구성 요소 유형을 나타내는 범주로 각 경고를 정렬 합니다. 예를 들어 검색 된 위협 활동은 동작이 네트워크의 다른 장치에 연결 시도와 관련 되어 있으며 공격자가 초기 foothold를 얻은 후에 발생 했을 것임을 나타내는 이동으로 분류 될 수 있습니다. 감지 되 면 위협 구성 요소는 맬웨어 또는 보다 구체적으로 랜 섬 웨어, 자격 증명 가로채기 또는 기타 악성 또는 원치 않는 소프트웨어로 분류 될 수 있습니다.
 
 **장치 위협 범주** 카드에는 이러한 범주에 대 한 경고 배포가 표시 됩니다. 이 정보를 사용 하 여 자격 증명 도용 시도와 같은 위협 활동을 식별 하 고, 예를 들어 사회 공학적에서의 시도에 비해 더 중요 한 영향을 줄 수 있습니다. 이를 사용 하 여 랜 섬 웨어와 같은 잠재적인 파괴적인 위협을 모니터할 수도 있습니다.
 
-![장치 위협 범주 카드](../media/security-docs/device-threat-categories.png)
+![장치 위협 범주 카드](../images/device-threat-categories.png)
 
 ### <a name="monitor-active-alerts"></a>활성 경고 모니터링
 
 **장치 경고 상태** 카드에는 해결 되지 않아 주의가 필요할 수 있는 경고의 수가 표시 됩니다. 이 카드에서 Microsoft Defender 보안 센터 포털에 대 한 추가 정보를 볼 수 있습니다.
 
-![장치 경고 상태 카드](../media/security-docs/device-alert-status.png)
+![장치 경고 상태 카드](../images/device-alert-status.png)
 
 ### <a name="monitor-classification-of-resolved-alerts"></a>확인 된 알림의 분류 모니터링
 
@@ -70,7 +70,7 @@ Microsoft Defender ATP 알림을 확인할 때 보안 담당자는 다음과 같
 
 참고: 일부 경우에는 특정 알림에 대해 분류 정보를 사용할 수 없습니다.
 
-![장치 경고 분류 카드](../media/security-docs/device-alert-classification.png)
+![장치 경고 분류 카드](../images/device-alert-classification.png)
 
 ### <a name="monitor-determination-of-resolved-alerts"></a>해결 된 경고 확인 모니터링
 
@@ -78,22 +78,22 @@ Microsoft Defender ATP 알림을 확인할 때 보안 담당자는 다음과 같
 
 **장치 경고 결정** 카드에는 다음과 같이 각 경고에 대해 제공 되는 결정이 표시 됩니다.
 
-* **APT** -검색 된 활동 또는 위협 구성 요소가 영향을 받는 네트워크에서 foothold을 얻기 위해 설계 된 복잡 한 위반의 일부임을 나타내는 고급 영구 위협  
-* **맬웨어** -악성 파일 또는 코드
-* **보안 담당자** -보안 직원이 수행 하는 일반 작업
-* **보안 테스트** -실제 위협을 시뮬레이트하고 보안 센서를 트리거하여 알림을 생성할 것으로 예상 되는 작업 또는 구성 요소입니다.
-* **원치 않는 소프트웨어** -악성으로 간주 되지 않고 정책 또는 적절 한 사용 표준을 위반 하는 앱 및 기타 소프트웨어
-* **기타** -제공 된 형식에 포함 되지 않는 기타 모든 결정
+* **APT** 고급 영구 위협 (검색 된 활동 또는 위협 구성 요소가 영향을 받는 네트워크에서 foothold를 획득 하도록 설계 된 복잡 한 위반의 일부임을 나타냄)  
+* **악성 파일** 또는 코드
+* **보안** 직원 보안 직원이 수행 하는 정규 활동
+* 실제 위협을 시뮬레이트하고 보안 센서를 트리거하고 알림을 생성할 것으로 예상 되는 **보안 테스트** 활동 또는 구성 요소
+* **원치 않는 소프트웨어** 앱 및 악성으로 간주 되지 않는 기타 소프트웨어 및 정책 또는 적절 한 사용 표준을 위반 하는 경우
+* **기타 기타** 제공 된 형식에 포함 되지 않는 기타 모든 결정
 
 이 카드에서 Microsoft Defender 보안 센터의 추가 정보를 확인할 수 있습니다.
 
-![장치 경고 결정 카드](../media/security-docs/device-alert-determination.png)
+![장치 경고 결정 카드](../images/device-alert-determination.png)
 
 ### <a name="understand-which-devices-are-at-risk"></a>위험에 처 한 장치 이해
 
 **장치 보호** 장치에 대 한 위험 수준을 표시 합니다. 위험 수준은 장치에 대 한 알림 유형 및 심각도와 같은 요소를 기반으로 합니다.
 
-![장치 보호 카드](../media/security-docs/device-protection.png)
+![장치 보호 카드](../images/device-protection.png)
 
 ## <a name="monitor-and-report-status-of-intune-managed-devices"></a>Intune 관리 장치에 대 한 상태 모니터링 및 보고
 
@@ -112,72 +112,72 @@ Intune에서 등록 된 장치 데이터에는 다음이 포함 됩니다.
 
 **장치 준수** 는 구성 정책을 준수 하는 Intune의 장치 수를 보여 줍니다.
 
-![장치 준수 카드](../media/security-docs/device-compliance.png)
+![장치 준수 카드](../images/device-compliance.png)
 
 ### <a name="discover-devices-with-malware-detections"></a>맬웨어 감지 장치 검색
 
-**장치 맬웨어 감지** 는 보류 중인 작업 (다시 시작, 전체 검색 또는 수동 사용자 작업)으로 인해 완전히 해결 되지 않은 맬웨어 또는 업데이트 관리 작업이 성공적으로 완료 되지 않은 것으로 확인 된 Intune을 사용 하 여 등록 된 장치 수를 제공 합니다.
+**장치 맬웨어 감지** 는 보류 중인 작업 (전체 검색 또는 수동 사용자 작업) 또는 재구성 작업이 성공적으로 완료 되지 않아 완전히 해결 되지 않은 맬웨어를 포함 하는 Intune 등록 장치 수를 제공 합니다.
 
-![장치 맬웨어 감지 카드](../media/security-docs/device-malware-detections.png)
+![장치 맬웨어 감지 카드](../images/device-malware-detections.png)
 
 ### <a name="understand-the-types-of-malware-detected"></a>검색 된 맬웨어 유형 이해
 
 **장치에 있는 맬웨어 유형은** Intune에서 등록 된 장치에서 감지 되는 다양 한 유형의 맬웨어를 보여 줍니다. Microsoft 365 보안 센터에서 각 유형을 조사할 수 있습니다.
 
-![장치 카드의 맬웨어 유형](../media/security-docs/types-of-malware-on-devices.png)
+![장치 카드의 맬웨어 유형](../images/types-of-malware-on-devices.png)
 
 ### <a name="understand-the-specific-malware-detected-on-your-devices"></a>장치에서 검색 되는 특정 맬웨어 이해
 
 **장치의 맬웨어** 장치에서 검색 되는 특정 맬웨어 목록을 제공 합니다.
 
-![장치 카드의 맬웨어](../media/security-docs/malware-on-devices.png)
+![장치 카드의 맬웨어](../images/malware-on-devices.png)
 
 ### <a name="understand-which-devices-have-the-most-malware"></a>맬웨어가 가장 많은 장치 이해
 
 **맬웨어 감지 장치** 는 맬웨어가 검색 된 장치를 보여 줍니다. Microsoft 365 보안 센터에서는 맬웨어가 활성 상태 인지 여부, 해당 장치를 사용 하는 사람 및 Intune의 관리 상태를 조사할 수 있습니다.
 
-![맬웨어 감지 카드가 포함 된 장치](../media/security-docs/devices-with-malware-detections.png)
+![맬웨어 감지 카드가 포함 된 장치](../images/devices-with-malware-detections.png)
 
 ### <a name="understand-which-users-have-devices-with-the-most-malware"></a>맬웨어가 가장 많은 장치를 보유 하는 사용자 이해
 
 **맬웨어 검색을 사용** 하는 사용자에 게는 맬웨어가 탐지 된 장치를 사용한 사용자가 표시 됩니다. Microsoft 365 보안 센터에서는 각 사용자에 게 할당 된 장치의 수와 각 장치에 대 한 추가 정보와 맬웨어 유형에 대 한 자세한 정보를 확인할 수 있습니다.
 
-![맬웨어 검색 카드를 사용 하는 사용자](../media/security-docs/users-with-malware-detections.png)
+![맬웨어 검색 카드를 사용 하는 사용자](../images/users-with-malware-detections.png)
 
 ## <a name="monitor-and-manage-asr-rule-deployment-and-detections"></a>ASR 규칙 배포 및 검색 모니터링 및 관리
 
-[ASR (Attack Surface Reduction) 규칙](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/attack-surface-reduction-exploit-guard) 을 사용 하면 일반적으로 익스플로잇 맬웨어를 검색 하 여 컴퓨터를 감염 시키는 작업 및 앱을 방지할 수 있습니다. 이러한 규칙은 실행 파일을 실행 하는 시기와 방법을 제어 합니다. 예를 들어 JavaScript 또는 VBScript에서 다운로드 한 실행 파일을 실행 하거나, Office 매크로에서 Win32 API 호출을 차단 하거나, USB 드라이브에서 실행 되는 프로세스를 차단 하지 않도록 할 수 있습니다.
+[ASR (Attack Surface Reduction) 규칙](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/attack-surface-reduction-exploit-guard) 을 사용 하면 일반적으로 익스플로잇 맬웨어를 검색 하는 장치를 감염 시키는 작업과 앱을 방지할 수 있습니다. 이러한 규칙은 실행 파일을 실행하는 시기와 방법을 제어합니다. 예를 들어 JavaScript나 VBScript가 다운로드 한 실행 파일을 시작하는 것을 방지하거나 Office 매크로에서 Win32 API 호출을 차단하거나 USB 드라이브에서 실행되는 프로세스를 차단할 수 있습니다.
 
-![공격 노출 카드](../media/security-docs/attack-surface-reduction-rules.png)
+![공격 노출 카드](../images/attack-surface-reduction-rules.png)
 
-**Attack surface reduction** 카드를 통해 장치 전체의 규칙 배포에 대 한 개요를 제공 합니다.
+**공격 표면 감소 규칙** 카드는 장치 전체의 규칙 배포 개요를 제공합니다.
 
-카드 위쪽 막대에는 다음과 같은 배포 모드에 있는 총 장치 수가 표시 됩니다.
+카드의 맨 위에 있는 막대에는 다음의 배포 모드에 있는 총 장치 수가 표시됩니다.
 
-* **차단 모드** -검색 된 활동을 차단 하도록 구성 된 규칙이 하나 이상 있는 장치
-* **감사 모드** -검색 된 활동을 차단 하도록 규칙이 설정 되지 않은 장치에는 하나 이상의 규칙 집합이 있는데, 검색 작업을 감사 합니다.  
-* **Off** -모든 ASR 규칙을 끈 장치
+* 검색 된 활동을 차단 하도록 하나 이상의 규칙을 구성 하는 **차단 모드** 장치
+* 검색 된 활동을 차단 하도록 규칙이 설정 되어 있지 않지만 검색 작업을 감사 하도록 하나 이상의 규칙 집합이 있는 **감사 모드** 장치  
+* 모든 ASR 규칙을 끈 상태에서 장치 **해제**
 
-이 카드의 아래쪽 부분에는 장치 전체의 규칙 설정이 나와 있습니다. 각 표시줄에는 차단 또는 감사 감지로 설정 되거나 규칙이 완전히 해제 된 장치 수가 표시 됩니다.
+이 카드의 아래쪽 부분에는 장치 전체의 규칙 설정이 표시됩니다. 각 막대는 차단 또는 감사 검색으로 설정되어 있거나 규칙이 완전히 해제되어 있는 장치의 수를 표시합니다.
 
 ### <a name="view-asr-detections"></a>ASR 검색 보기
 
 네트워크에서 ASR 규칙 감지에 대 한 자세한 정보를 보려면 **Attack surface reduction** 카드에서 검색 **보기** 를 선택 합니다. 자세한 보고서 **페이지의 검색 탭이** 열립니다.
 
-![탐지 탭](../media/security-docs/detections-tab.png)
+![탐지 탭](../images/detections-tab.png)
 
-페이지 맨 위에 있는 차트에는 차단 되거나 감사 된 시간 단위 누적 검색에 따른 검색 내용이 표시 됩니다. 맨 아래 표에는 가장 최근 검색이 나열 됩니다. 검색의 특성을 이해 하려면 표에 나오는 다음 정보를 사용 합니다.
+페이지 맨 위에 있는 차트에는 차단 되거나 감사 된 시간 단위 누적 검색에 따른 검색 내용이 표시 됩니다. 하단의 표에는 최근 검색이 나열되어 있습니다. 표에서 다음의 정보를 사용하여 검색 특성을 이해할 수 있습니다.
 
-* **검색 된 파일** -해당 내용이 의심 스러운 공격 활동을 트리거한 파일 (대개 스크립트나 문서)입니다.
-* **규칙** -규칙에서 파악 하도록 설계 된 공격 활동을 설명 하는 이름입니다. 기존 ASR 규칙에 대 한 정보 검토
-* **원본 앱** -의심 스러운 공격 활동을 트리거하는 콘텐츠를 로드 했거나 실행 한 응용 프로그램입니다. 웹 브라우저, Office 응용 프로그램 또는 PowerShell과 같은 시스템 도구와 같은 합법적인 응용 프로그램이 될 수 있습니다.
-* **게시자** -원본 앱을 릴리스된 공급 업체
+* **탐지 됨** 파일은 해당 내용이 의심 스러운 공격 활동을 트리거한 파일 (대개 스크립트나 문서)입니다.
+* 규칙에서 catch 하도록 설계 된 공격 활동을 설명 하는 **규칙** 이름입니다. 기존 ASR 규칙에 대 한 정보 검토
+* **원본 앱** 콘텐츠를 로드 하거나 실행 하 여 의심 스러운 공격 활동을 트리거한 응용 프로그램입니다. 웹 브라우저, Office 응용 프로그램 또는 PowerShell과 같은 시스템 도구와 같은 합법적인 응용 프로그램이 될 수 있습니다.
+* **게시자** 원본 앱을 출시 한 공급 업체입니다.
 
 ### <a name="review-device-asr-rule-settings"></a>장치 ASR 규칙 설정 검토
 
 **Attack surface reduction 규칙** 보고서 페이지에서 **구성** 탭으로 이동 하 여 개별 장치에 대 한 규칙 설정을 검토 합니다. 각 규칙이 차단 모드, 감사 모드 또는 전체 해제에 대 한 세부 정보를 가져올 장치를 선택 합니다.
 
-![구성 탭](../media/security-docs/configuration-tab.png)
+![구성 탭](../images/configuration-tab.png)
 
 Microsoft Intune은 ASR 규칙에 대 한 관리 기능을 제공 합니다. 설정을 업데이트 하려면 탭의 **장치 구성** 아래에서 **시작** 을 선택 하 여 Intune에서 장치 관리를 엽니다.
 
@@ -190,7 +190,7 @@ Microsoft 365 보안 센터는 공격 노출 범위 규칙에 따라 검색에�
 >[!NOTE]  
 >이 도구는 모든 attack surface reduction 규칙에 따라 검색을 분석 하지만 [일부 규칙만 제외를 지원](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/attack-surface-reduction-exploit-guard#attack-surface-reduction-rules)합니다.
 
-![제외 항목 추가 탭](../media/security-docs/add-exclusions-tab.png)
+![제외 항목 추가 탭](../images/add-exclusions-tab.png)
 
 이 표에서는 공격 노출 범위 규칙에 의해 검색 된 모든 파일 이름을 보여 줍니다. 파일을 선택 하 여 제외로 인 한 영향을 검토할 수 있습니다.
 

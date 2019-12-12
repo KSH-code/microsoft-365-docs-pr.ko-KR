@@ -71,7 +71,14 @@ sections:
             title: '[E-책] 회사에 최신 작업 안전 게'
             image:
               src: 'https://docs.microsoft.com/media/common/i_guide.svg'
+              alt: ''
   - title: 동영상
     items:
+      - type: paragraph
+        text: 인디애나 Pacers의 기술 VP에서 Microsoft Managed Desktop의 장점에 대해 알아봅니다.
       - type: markdown
         text: '>[!VIDEO https://www.youtube.com/embed/GXVRu49Gmxc]'
+      - type: paragraph
+        text: Microsoft Managed desktop의 일반 관리자는 연간 Ignite 회의에서 서비스의 모든 하이라이트를 공유 합니다.
+      - type: markdown
+        text: '>[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4ksbj]'

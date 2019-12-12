@@ -4,7 +4,6 @@ keywords: AIR, autoIR, ATP, 자동화, 조사, 대응, 재구성, 위협, 고급
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.date: 12/03/2019
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -13,32 +12,38 @@ search.appverid:
 - MET150
 - MOE150
 ms.collection: M365-security-compliance
-description: Office 365 Advanced Threat Protection 계획 2의 자동 보안 문제 대응 기능 사용을 시작 하세요.
-ms.openlocfilehash: 9db3a788f5a2f2c7101b5165935884c1d76bccbd
-ms.sourcegitcommit: 8fda7852b2a5baa92b8a365865b014ea6d100bbc
+description: Office 365 Advanced Threat Protection 계획 2의 자동화 된 조사 및 응답 기능 사용을 시작 하세요.
+ms.openlocfilehash: 3f13b1de2747dcb6672f56989ff73cdf485e49b6
+ms.sourcegitcommit: 8c244b38c43dd00c4ef0102f8bed02ab36639a6b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "39813868"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "39967991"
 ---
 # <a name="automatically-investigate-and-respond-to-threats-in-office-365"></a>Office 365의 위협에 대한 자동 조사 및 응답
 
 ## <a name="overview"></a>개요
 
-구독에 따라 [Office 365 Advanced Threat Protection](office-365-atp.md) 에는 경고 및 위협 처리에 대 한 보안 작업 팀의 시간과 노력을 절감할 수 있는 자동화 된 문제 대응 (AIR) 기능이 포함 될 수 있습니다.
+구독에 따라 [Office 365 Advanced Threat Protection](office-365-atp.md) 에는 경고 및 위협 처리에 대 한 보안 작업 팀의 시간과 노력을 줄일 수 있는 자동화 된 조사 및 응답 (AIR) 기능이 포함 될 수 있습니다.
 
-- Office 365의 AIR 기능 사용을 시작 하려면이 문서를 사용 합니다. 
-- AIR의 작동 방식에 대 한 개요를 보려면 [Office 365에서 자동 인시던트 응답 (AIR)](automated-investigation-response-office.md)을 참조 하세요.
+- Office 365에서 자동화 된 조사 및 응답 기능 사용을 시작 하려면이 문서를 사용 합니다. 
+- 작동 방식에 대 한 개요를 보려면 [Office 365의 자동화 된 조사 및 응답](automated-investigation-response-office.md)을 참조 하세요.
 
-AIR을 사용 하 여 특정 알림이 트리거되면 하나 이상의 보안 playbook가 시작 되 고 자동 조사가 시작 됩니다. 자동화 된 조사 프로세스 중 및 후에 관리자와 보안 운영 팀은 다음을 수행할 수 있습니다.
+> [!TIP]
+> Microsoft 365 E5 또는 Microsoft 365 E3과 Id & Threat Protection이 함께 사용 됩니까? [Microsoft Threat Protection에서 자동화 된 조사 및 대응 (AIR)](../mtp/mtp-autoir.md)을 시도해 보세요.
+
+자동화 된 조사 및 응답 기능을 사용 하 여 특정 알림이 트리거되면 하나 이상의 보안 playbook가 시작 되 고 자동화 된 조사 프로세스가 시작 됩니다. 자동화 된 조사 프로세스 중 및 이후에 보안 팀은 다음을 수행할 수 있습니다.
 
 - [조사 세부 정보 보기](#view-details-of-an-investigation)
 - [조사 결과로 작업 검토 및 승인](#review-and-approve-actions) 
 - [조사와 관련 된 경고에 대 한 세부 정보 보기](#view-details-about-an-alert-related-to-an-investigation)
 
+> [!IMPORTANT]
+> 이 문서에서 설명 하는 작업을 수행 하려면 적절 한 사용 권한이 할당 되어 있어야 합니다. [AIR 기능을 사용 하려면 필수 권한을](automated-investigation-response-office.md#required-permissions-to-use-air-capabilities)참조 하세요.
+
 ## <a name="view-details-of-an-investigation"></a>조사 세부 정보 보기
 
-1. Office 365 전역 관리자, 보안 관리자 또는 보안 독자 (으 [https://protection.office.com](https://protection.office.com) )로 이동 하 여 로그인 합니다. 그러면 보안 & 준수 센터로 이동 합니다.
+1. 으로 이동 [https://protection.office.com](https://protection.office.com) 하 여 로그인 합니다. 그러면 보안 & 준수 센터로 이동 합니다.
 
 2. 다음 중 하나를 수행합니다.
 
@@ -60,7 +65,7 @@ AIR을 사용 하 여 특정 알림이 트리거되면 하나 이상의 보안 p
 
 Office 365에서 자동화 된 조사는 일반적으로 하나 이상의 권장 작업을 수행 합니다. 그러나 보안 운영 팀이 승인 해야 작업을 수행할 수 있습니다. 다음 절차에 따라 작업을 검토 하 고 승인 합니다.
 
-1. Office 365 전역 관리자, 보안 관리자 또는 보안 독자 (으 [https://protection.office.com](https://protection.office.com) )로 이동 하 여 로그인 합니다. 
+1. 으로 이동 [https://protection.office.com](https://protection.office.com) 하 여 로그인 합니다. 
 
 2. **위협 관리** > **조사**로 이동 합니다.
 
@@ -76,7 +81,7 @@ Office 365에서 자동화 된 조사는 일반적으로 하나 이상의 권장
 
 특정 유형의 경고는 Office 365에서 자동화 된 조사를 트리거합니다. 자세한 내용은 [Alerts](automated-investigation-response-office.md#alerts)를 참조 하십시오. 다음 절차에 따라 자동화 된 조사에 연결 된 경고에 대 한 세부 정보를 확인 합니다.
 
-1. Office 365 전역 관리자, 보안 관리자 또는 보안 독자 (으 [https://protection.office.com](https://protection.office.com) )로 이동 하 여 로그인 합니다. 그러면 보안 & 준수 센터로 이동 합니다.
+1. 으로 이동 [https://protection.office.com](https://protection.office.com) 하 여 로그인 합니다. 그러면 보안 & 준수 센터로 이동 합니다.
 
 2. **위협 관리** > **조사**로 이동 합니다.
 
