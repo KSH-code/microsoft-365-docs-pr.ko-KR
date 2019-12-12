@@ -3,7 +3,7 @@ title: 비 엔터프라이즈용 Microsoft 365 Enterprise 기본 인프라
 author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
-ms.date: 07/08/2019
+ms.date: 09/25/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 비 엔터프라이즈 조직용 Microsoft 365 Enterprise에 대해 간소화된 기본 인프라 단계를 살펴보겠습니다.
-ms.openlocfilehash: 37bbf04eafeb3adc63d9dd01d052376f98856df4
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 4006980de5341c53d9c6a2d827613015c000fab0
+ms.sourcegitcommit: c6eab4a9f1b70e7ff0db6b2a1128a4db2591cbaf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37071737"
+ms.lasthandoff: 10/02/2019
+ms.locfileid: "37369579"
 ---
 # <a name="microsoft-365-enterprise-foundation-infrastructure-for-non-enterprises"></a>비 엔터프라이즈용 Microsoft 365 Enterprise 기본 인프라
 
@@ -30,7 +30,7 @@ ms.locfileid: "37071737"
 엔터프라이즈가 아닌, 중소기업의 경우, Microsoft는 [Microsoft 365 Business](https://www.microsoft.com/microsoft-365/business)를 제공합니다. 그러나 다음과 같은 이유로 인해 Microsoft 365 Enterprise가 필요할 수 있습니다.
 
 - 조직이 Microsoft 365 Business의 최대 개수인 300개 이상의 Microsoft 365 라이선스가 필요합니다.
-- 조직에서 Microsoft 365 Business에서 제공하지 않는 고급 생산성, 음성, 보안 및 분석을 필요로 합니다.
+- 조직에서 Microsoft 365 Business에서 제공하지 않는 고급 생산성, 음성, 보안 및 분석 기능을 필요로 합니다.
 
 이 문서에서는 비 엔터프라이즈에 적합한 Microsoft 365 Enterprise의 기본 인프라를 배포하는 간단한 방법에 대해 설명합니다.
 
@@ -42,24 +42,24 @@ ms.locfileid: "37071737"
 
 ## <a name="phase-1-networking"></a>1단계: 네트워킹
 
-엔터프라이즈가 아닌 조직은 일반적으로 각 사무실에 로컬 인터넷 연결이 있으며 프록시 서버, 방화벽 또는 패킷 검사 디바이스를 사용하지 않습니다. 트래픽이 사무실과 온-프레미스 사용자에게 가장 가까운 Microsoft 365 네트워크 위치로 리디렉션되도록 각 사무실에 서비스를 제공하는 ISP(인터넷 서비스 공급자)에는 지리적 로컬 DNS가 있습니다.
+엔터프라이즈가 아닌 조직은 일반적으로 각 사무실에 로컬 인터넷 연결이 있으며 프록시 서버, 방화벽 또는 패킷 검사 디바이스를 사용하지 않습니다. 트래픽이 사무실과 온-프레미스 사용자에게 가장 가까운 Microsoft 365 네트워크 위치로 리디렉션되도록 각 사무실에 서비스를 제공하는 ISP(인터넷 서비스 공급자)에는 지리적 로컬 DNS가 있습니다. 더 자세한 내용은 [각 사무실에 대해 로컬 인터넷 연결 구성](networking-dns-resolution-same-location.md)을 참조하세요.
 
 따라서 ISP를 사용하여 각 사무실 위치의 해당 연결이 다음과 같은지를 확인하면 됩니다. 
 
 - 지리적 로컬 DNS 서버를 사용합니다.
 - 더 많은 Microsoft 365 클라우드 서비스를 사용하기 시작할 때 현재와 미래의 요구에 적합합니다.
 
-프록시 서버, 방화벽 또는 패킷 검사 디바이스를 사용하는 경우 자세한 내용은 [Microsoft 365 Enterprise의 네트워킹 인프라](networking-infrastructure.md)를 참조하세요.
+프록시 서버, 방화벽 또는 패킷 검사 장치를 사용 하는 경우 [트래픽 우회 구성](networking-configure-proxies-firewalls.md)을 참조하여 Microsoft 365 서비스의 성능을 최적화하는 방법에 대 한 정보를 확인하세요.
 
 ### <a name="your-configuration-so-far"></a>지금까지의 구성
 
 1단계 요소가 강조 표시된 시각적 요약입니다. **조직**은 여러 개의 사무실이 있을 수 있고, 각 사무실에는 지리적 로컬 DNS 서버를 사용하는 ISP와의 로컬 인터넷 연결이 있습니다. ISP를 통해 각 사무실의 사용자는 가장 가까운 Microsoft 365 네트워크 위치와 Microsoft 365 구독의 리소스에 연결할 수 있습니다.
 
-![](./media/deploy-foundation-infrastructure-non-enterprises/networking-config.png)
+![네트워킹 단계 후의 조직](./media/deploy-foundation-infrastructure-non-enterprises/networking-config.png)
 
 ## <a name="phase-2-identity"></a>2단계: ID
 
-조직에 속한 각 직원은 로그인해야 하며, 이를 위해 Microsoft 365 Enterprise의 Azure AD(Azure Active Directory) 테넌트에 사용자 계정이 필요합니다. 그런 다음, 그룹을 사용하여 사용자 계정 및 기타 그룹을 포함하여 통신하거나 권한 있는 리소스(예: SharePoint Online 사이트 또는 팀)에 대한 액세스 권한을 획득합니다. 
+조직의 각 직원은 로그인을 해야 하며, 이를 위해 Microsoft 365 Enterprise의 Azure AD(Azure Active Directory) 테넌트에 사용자 계정이 필요합니다. 그런 다음, 그룹을 사용하여 사용자 계정 및 기타 그룹을 포함하여 통신하거나 권한 있는 리소스(예: SharePoint Online 사이트 또는 팀)에 대한 액세스 권한을 획득합니다. 
 
 ### <a name="administrator-accounts"></a>관리자 계정
 
@@ -82,7 +82,7 @@ ms.locfileid: "37071737"
 
 ### <a name="hybrid-identity"></a>하이브리드 ID
 
-온-프레미스 AD DS 도메인이 있는 경우 도메인의 사용자 계정, 그룹 및 연락처 세트를 Microsoft 365 Enterprise 구독의 Azure AD 테넌트와 동기화해야 합니다. 엔터프라이즈 이외에는 서버에서 PHS(암호 해시 동기화)를 사용하여 Azure AD Connect를 구성합니다. 자세한 내용은 [ID 동기화](identity-add-user-accounts.md)를 참조하세요.
+온-프레미스 AD DS 도메인이 있는 경우 도메인의 사용자 계정, 그룹 및 연락처 세트를 Microsoft 365 Enterprise 구독의 Azure AD 테넌트와 동기화해야 합니다. 엔터프라이즈 이외에는 서버에서 PHS(암호 해시 동기화)를 사용하여 Azure AD Connect를 구성합니다. 자세한 내용은 [ID 동기화](identity-add-user-accounts.md#synchronize-identities-for-hybrid-identity)를 참조하세요.
 
 ### <a name="more-secure-user-access-with-conditional-access-policies"></a>조건부 액세스 정책을 사용하여 더욱 안전한 사용자 액세스
 
@@ -90,7 +90,7 @@ Azure AD는 사용자 로그인의 조건을 평가 하고, 조건부 액세스 
 
 조건부 액세스 정책을 사용자 계정 또는 그룹에 적용합니다. 더욱 간편하게 조건부 액세스 정책을 할당하려면 조직에서 다음 Azure AD 보안 그룹을 만듭니다.
 
-- 기준
+- 기준선
 
   기준 데이터에 대한 액세스 권한이 있는 사용자의 그룹 또는 사용자 계정을 포함합니다.
 
@@ -148,38 +148,37 @@ Microsoft 365 Enterprise E5를 사용하는 경우 AD Identity Protection을 사
 
 ### <a name="your-configuration-so-far"></a>지금까지의 구성
 
-다음은 새 요소가 강조 표시된 하이브리드 ID의 ID 단계를 시각적으로 요약한 것입니다.
+다음은 기존 및 새로운 요소가 강조 표시된 하이브리드 ID의 ID 단계를 시각적으로 요약한 것입니다.
 
-![](./media/deploy-foundation-infrastructure-non-enterprises/identity-config.png)
+![하이브리드 ID의 ID 단계 후의 조직](./media/deploy-foundation-infrastructure-non-enterprises/identity-config.png)
  
-다음은 강조 표시된 새 하이브리드 ID 요소에 포함된 내용입니다.
+강조 표시된 새 하이브리드 ID 요소에 포함된 내용은 다음을 포함합니다:
  
 |||
 |:------:|:-----|
-| ![](./media/deploy-foundation-infrastructure-non-enterprises/identity-adds.png) | 사용자 계정 및 그룹이 포함된 온-프레미스 AD DS 도메인입니다. |
-| ![](./media/deploy-foundation-infrastructure-non-enterprises/identity-aadconnect.png) | Azure AD Connect를 실행하는 Windows 기반 서버 |
-| ![](./media/deploy-foundation-infrastructure-non-enterprises/identity-aad-accounts.png) | Azure AD에서 AD DS 계정 및 그룹의 동기화된 집합입니다. |
-| ![](./media/deploy-foundation-infrastructure-non-enterprises/identity-aad-settings.png) | Azure AD 설정을 사용하여 인증, 전역 계정 보안 및 그룹과 라이선스를 더 쉽게 관리할 수 있습니다. |
-| ![](./media/deploy-foundation-infrastructure-non-enterprises/identity-aad-caps.png) | Azure AD 조건부 액세스 정책 |
+| ![사용자 계정 및 그룹이 포함된 온-프레미스 AD DS 도메인](./media/deploy-foundation-infrastructure-non-enterprises/identity-adds.png) | 사용자 계정 및 그룹이 포함된 온-프레미스 AD DS 도메인 |
+| ![Azure AD Connect를 실행하는 Windows 기반 서버](./media/deploy-foundation-infrastructure-non-enterprises/identity-aadconnect.png) | Azure AD Connect를 실행하는 Windows 기반 서버 |
+| ![Azure AD에서의 AD DS 사용자 계정 및 그룹의 동기화된 집합.](./media/deploy-foundation-infrastructure-non-enterprises/identity-aad-accounts.png) | Azure AD에서의 AD DS 사용자 계정 및 그룹의 동기화된 집합. |
+| ![전역 계정 보안 및 그룹과 라이선스를 더 쉽게 관리할 수 있게 해주는 인증을 위한 Azure AD 설정](./media/deploy-foundation-infrastructure-non-enterprises/identity-aad-settings.png) | 전역 계정 보안 및 그룹과 라이선스를 더 쉽게 관리할 수 있게 해주는 인증을 위한 Azure AD 설정. |
+| ![Azure AD 조건부 액세스 정책](./media/deploy-foundation-infrastructure-non-enterprises/identity-aad-caps.png) | Azure AD 조건부 액세스 정책 |
 |||
 
 다음은 새 요소가 강조 표시된 클라우드 전용 ID의 ID 단계를 시각적으로 요약한 것입니다.
 
-![](./media/deploy-foundation-infrastructure-non-enterprises/identity-config-cloud-only.png)
+![하이브리드 ID의 ID 단계 후의 조직](./media/deploy-foundation-infrastructure-non-enterprises/identity-config-cloud-only.png)
  
-다음은 강조 표시된 새 클라우드 전용 ID 요소에 포함된 내용입니다.
+다음은 강조 표시된 새 클라우드 전용 ID 요소에 포함된 내용입니다:
  
 |||
 |:------:|:-----|
-| ![](./media/deploy-foundation-infrastructure-non-enterprises/identity-aad-settings.png) | Azure AD 설정을 사용하여 인증, 전역 계정 보안 및 그룹과 라이선스를 더 쉽게 관리할 수 있습니다. |
-| ![](./media/deploy-foundation-infrastructure-non-enterprises/identity-aad-caps.png) | Azure AD 조건부 액세스 정책 |
+| ![Azure AD의 사용자 계정 및 그룹](./media/deploy-foundation-infrastructure-non-enterprises/identity-aad-accounts-cloud-only.png) | Azure AD의 사용자 계정 및 그룹 |
+| ![전역 계정 보안 및 그룹과 라이선스를 더 쉽게 관리할 수 있게 해주는 인증을 위한 Azure AD 설정](./media/deploy-foundation-infrastructure-non-enterprises/identity-aad-settings.png) | 전역 계정 보안 및 그룹과 라이선스를 더 쉽게 관리할 수 있게 해주는 인증을 위한 Azure AD 설정. |
+| ![Azure AD 조건부 액세스 정책](./media/deploy-foundation-infrastructure-non-enterprises/identity-aad-caps.png) | Azure AD 조건부 액세스 정책 |
 |||
-
-
 
 ## <a name="phase-3-windows-10-enterprise"></a>3단계: Windows 10 Enterprise
 
-Windows 10 Enterprise 디바이스가 Microsoft 365의 ID 및 보안 인프라에 통합되었는지 확인하기 위한 옵션입니다.
+Windows 10 Enterprise 디바이스가 Microsoft 365 Enterprise의 ID 및 보안 인프라에 통합되었는지 확인하기 위한 옵션입니다:
 
 - 하이브리드(온-프레미스 AD DS 도메인 보유)
 
@@ -193,7 +192,7 @@ Windows 10 Enterprise 디바이스가 Microsoft 365의 ID 및 보안 인프라�
 
   각 Windows 10 Enterprise 디바이스를 구독의 Azure AD 테넌트에 조인합니다.
 
-  자세한 내용은 [회사 디바이스를 조직의 네트워크에 조인](https://docs.microsoft.com/ko-KR/azure/active-directory/user-help/user-help-join-device-on-network)을 참조하세요.
+  자세한 내용은 [회사 디바이스를 조직의 네트워크에 조인](https://docs.microsoft.com/azure/active-directory/user-help/user-help-join-device-on-network)을 참조하세요.
 
 
 Windows 10 Enterprise 디바이스를 설치하 고 조인한 후에는 각 디바이스가 비즈니스용 Windows 업데이트 클라우드 서비스에서 업데이트를 자동으로 설치합니다. 일반적으로 엔터프라이즈가 아닌 조직은 Windows 10 업데이트를 배포하고 설치하기 위한 인프라를 설정할 필요가 없습니다.
@@ -202,21 +201,21 @@ Windows 10 Enterprise 디바이스를 설치하 고 조인한 후에는 각 디�
 
 다음은 새 요소가 강조 표시된 Windows 10 Enterprise 단계를 시각적으로 요약한 것입니다.
 
-![](./media/deploy-foundation-infrastructure-non-enterprises/win10-config.png)
+![Windows 10 Enterprise 단계 후의 조직](./media/deploy-foundation-infrastructure-non-enterprises/win10-config.png)
  
-강조 표시된 새 Windows 10 Enterprise 요소에는 다음이 포함됩니다.
+강조 표시된 새 Windows 10 Enterprise 요소에는 다음이 포함됩니다:
 
 |||
 |:------:|:-----|
-| ![](./media/deploy-foundation-infrastructure-non-enterprises/win10-device.png) | Windows 디바이스에 설치된 Windows 10 Enterprise(예: 온-프레미스 노트북) |
-| ![](./media/deploy-foundation-infrastructure-non-enterprises/win10-cloud.png) | Windows 10 Enterprise의 새 설치에 대한 이미지와 최신 업데이트를 제공하는 비즈니스용 Windows Update를 제공하는 VLSC(Volume Licensing Service Center)입니다. |
+| ![Windows 장치에 설치된 windows 10 Enterprise](./media/deploy-foundation-infrastructure-non-enterprises/win10-device.png) | Windows 디바이스에 설치된 Windows 10 Enterprise (예 온-프레미스 노트북) |
+| ![볼륨 라이선스 서비스 센터](./media/deploy-foundation-infrastructure-non-enterprises/win10-cloud.png) | Windows 10 Enterprise의 새 설치에 대한 이미지와 최신 업데이트를 제공하는 비즈니스용 Windows Update를 제공하는 VLSC(Volume Licensing Service Center)입니다. |
 |||
 
 ## <a name="phase-4-office-365-proplus"></a>4단계: Office 365 ProPlus
 
 Microsoft 365 Enterprise에는 Microsoft Office 구독 버전인 Office 365 ProPlus가 포함되어 있습니다. Office 2016 또는 Office 2019와 같이, Office 365 ProPlus는 클라이언트 디바이스에 직접 설치됩니다. 그러나 Office 365 ProPlus는 정기적으로 새로운 기능을 포함하는 업데이트를 받습니다. 자세한 내용은 [엔터프라이즈의 Office 365 ProPlus](https://docs.microsoft.com/deployoffice/about-office-365-proplus-in-the-enterprise)를 참조하세요.
 
-엔터프라이즈가 아닌 조직의 경우, 디바이스에서 Office 365 ProPlus를 수동으로 설치합니다. 새 디바이스를 사용할 수 있도록 준비하는 과정에서 또는 온보딩 프로세스의 일부로 이 작업을 수행할 수 있습니다.
+엔터프라이즈가 아닌 조직의 경우, Windows, iOS 및 Android장치를 포함할 수 있는 장치에 Office 365 ProPlus를 수동으로 설치합니다. 새 디바이스를 사용할 수 있도록 준비하는 과정에서 또는 온보딩 프로세스의 일부로 이 작업을 수행할 수 있습니다.
 
 어떤 경우든, 관리자나 사용자가 Office 365 포털 https://portal.office.com에 로그인합니다. **Microsoft Office Home** 탭에서 **Office 설치**를 클릭하고 설치 프로세스를 진행합니다.
 
@@ -226,14 +225,14 @@ Office 365 ProPlus에 대한 기능 업데이트는 프로그램이 설치된 �
 
 다음은 새 요소가 강조 표시된 Office 365 ProPlus 단계를 시각적으로 요약한 것입니다.
 
-![](./media/deploy-foundation-infrastructure-non-enterprises/o365-proplus-config.png)
+![Office 365 ProPlus 단계 후의 조직](./media/deploy-foundation-infrastructure-non-enterprises/o365-proplus-config.png)
  
-다음은 강조 표시된 새 Office 365 ProPlus 요소에 포함된 내용입니다.
+다음은 강조 표시된 새 Office 365 ProPlus 요소에 포함된 내용입니다:
  
 |||
 |:------:|:-----|
-| ![](./media/deploy-foundation-infrastructure-non-enterprises/o365-proplus-device.png) | 디바이스에 설치된 Office 365 ProPlus(예: 온-프레미스 노트북) |
-| ![](./media/deploy-foundation-infrastructure-non-enterprises/o365-proplus-cdn.png) | 디바이스가 Office 365 ProPlus 업데이트를 위해 액세스하는 Office 365 ProPlus용 Office CDN(Content Delivery Network). |
+| ![장치에 설치된 Office 365 ProPlus](./media/deploy-foundation-infrastructure-non-enterprises/o365-proplus-device.png) | 장치에 설치된 Office 365 ProPlus (예: 온-프레미스 노트북) |
+| ![Office 365 ProPlus의 Office CDN(콘텐츠 배달 네트워크)](./media/deploy-foundation-infrastructure-non-enterprises/o365-proplus-cdn.png) | 장치가 Office 365 ProPlus 업데이트를 위해 액세스하는 Office 365 ProPlus용 Office CDN(콘텐츠 배달 네트워크). |
 |||
 
 ## <a name="phase-5-mobile-device-management"></a>5단계: 모바일 장치 관리
@@ -265,14 +264,14 @@ Intune 정책은 디바이스 준수 및 앱 보호를 적용할 수 있습니�
 
 다음은 새 요소가 강조 표시된 모바일 장치 관리 단계를 시각적으로 요약한 것입니다.
 
-![](./media/deploy-foundation-infrastructure-non-enterprises/mdm-config.png)
+![모바일 장치 관리 단계 후의 조직](./media/deploy-foundation-infrastructure-non-enterprises/mdm-config.png)
  
-강조 표시된 새 모바일 디바이스 관리 요소에는 다음이 포함됩니다.
+강조 표시된 새 모바일 디바이스 관리 요소에는 다음이 포함됩니다:
 
 |||
 |:------:|:-----|
-| ![](./media/deploy-foundation-infrastructure-non-enterprises/mdm-device.png) | Intune에 등록된 디바이스에는 Windows 10 Enterprise를 실행하는 온-프레미스 노트북이 예제로 표시됩니다. |
-| ![](./media/deploy-foundation-infrastructure-non-enterprises/mdm-policies.png) | 디바이스 준수 및 앱 보호를 위한 Intune 정책입니다. |
+| ![Intune에 등록된 장치](./media/deploy-foundation-infrastructure-non-enterprises/mdm-device.png) | Windows 10 Enterprise를 실행하는 온-프레미스 노트북을 예시로 보여주는 Intune에 등록된 장치. |
+| ![장치 준수 및 앱 보호를 위한 Intune 정책.](./media/deploy-foundation-infrastructure-non-enterprises/mdm-policies.png) | 디바이스 준수 및 앱 보호를 위한 Intune 정책 |
 |||
 
 ## <a name="phase-6-information-protection"></a>6단계: 정보 보호
@@ -283,7 +282,7 @@ Microsoft 365 Enterprise에는 다양한 수준의 관리, 보안 및 보호를 
 
 정보 보호 전략의 첫 번째 단계는 보호 수준을 결정하는 것입니다. 대부분의 조직에서는 이미 조건부 액세스 정책에 사용되고 있는 이 수준을 사용합니다.
 
-- 기준
+- 기준선
 
   수준 1 데이터의 예로는 관리/영업/지원 담당자의 파일 및 일반적인 업무 관련 통신 내용(전자 메일)이 있습니다.
 
@@ -291,9 +290,9 @@ Microsoft 365 Enterprise에는 다양한 수준의 관리, 보안 및 보호를 
 
   예로는 새로운 제품 또는 서비스 연구 개발 데이터 및 재무/법률 정보가 있습니다.
 
-- 매우 엄격한 규제
+- 높은 규제
 
-  예로는 고객 및 파트너의 개인 식별 정보와 조직의 재무 정보 또는 지적 재산이 있습니다.
+  예로는 고객 및 파트너의 개인 식별 정보와 조직의 전략적 계획 혹은 지적 재산이 있습니다.
 
 이 데이터 보안 수준에 따라, 다음 단계는 다음을 식별하고 구현하는 것입니다.
 
@@ -303,7 +302,7 @@ Microsoft 365 Enterprise에는 다양한 수준의 관리, 보안 및 보호를 
 
 - 보존 레이블
 
-  조직 정책과 지역별 규정을 준수하려면 특정 유형의 문서 또는 특정 콘텐츠가 담긴 문서를 보존해야 하는 기간을 지정해야 합니다. 보존 레이블을 사용하여 전자 메일 및 문서에 대해 이를 구현할 수 있습니다.
+  조직 정책과 지역별 규정을 준수하려면 특정 유형의 문서 또는 특정 콘텐츠가 담긴 문서를 보존해야 하는 기간을 지정해야 합니다. 보존 레이블을 사용하여 전자 메일 및 문서에 대해 이를 구현할 수 있습니다. 조직 외부에서의 파일 또는 전자 메일 공유를 제한할 수 있는 데이터 손실 방지 (DLP) 정책과 함께 보존 레이블을 사용할 수도 있습니다.
 
 - 민감도 레이블
 
@@ -311,9 +310,9 @@ Microsoft 365 Enterprise에는 다양한 수준의 관리, 보안 및 보호를 
 
 자세한 내용은 [Microsoft 365 분류 유형](infoprotect-configure-classification.md#microsoft-365-classification-types)을 참조하세요.
 
-사용 권한에 민감도 레이블을 사용하는 경우, 추가 Azure AD 보안 그룹을 만들어 전자 메일과 문서를 사용하여 누가 무엇을 할 수 있는지를 정의해야 합니다. 
+사용 권한에 민감도 레이블을 사용하는 경우, 추가 Azure AD 보안 그룹을 만들어 민감도 레이블을 적용한 전자 메일과 문서를 사용하여 누가 무엇을 할 수 있는지를 정의해야 합니다. 
 
-예를 들어, RESEARCH 민감도 레이블을 만들어 리서치 팀의 전자 메일과 문서를 보호해야 합니다. 다음 사항을 확인합니다.
+예를 들어, RESEARCH 민감도 레이블을 만들어 연구팀의 전자 메일과 문서를 보호해야 합니다. 다음 사항을 확인합니다.
 
 - 연구원에게 RESEARCH 민감도 레이블로 표시된 문서를 변경할 수 있는 능력이 있어야 합니다.
 - 연구원 이외 직원에게 RESEARCH 민감도 레이블로 표시된 문서를 볼 수 있는 능력만 있어야 합니다. 
@@ -331,13 +330,13 @@ Microsoft 365 Enterprise에는 다양한 수준의 관리, 보안 및 보호를 
 
 다음은 새 요소가 강조 표시된 정보 보호 단계를 시각적으로 요약한 것입니다.
 
-![](./media/deploy-foundation-infrastructure-non-enterprises/info-protect-config.png)
+![정보 보호 단계 후의 조직](./media/deploy-foundation-infrastructure-non-enterprises/info-protect-config.png)
  
-강조 표시된 새 정보 보호 요소에는 다음이 포함됩니다.
+강조 표시된 새 정보 보호 요소에는 다음이 포함됩니다:
  
 |||
 |:------:|:-----|
-| ![](./media/deploy-foundation-infrastructure-non-enterprises/info-protect-labels.png) | 사용자가 문서에 적용할 수 있는 세 가지 보안 수준에 대한 민감도 레이블입니다. |
+| ![세 가지 보안 수준에 대한 민감도 레이블](./media/deploy-foundation-infrastructure-non-enterprises/info-protect-labels.png) | 사용자가 문서 및 이메일에 적용할 수 있는 세 가지 보안 수준에 대한 민감도 레이블 |
 |||
 
 사용자 지정 정보 유형 및 보존 레이블은 표시되지 않습니다.
@@ -356,7 +355,7 @@ Microsoft 365 Enterprise 인프라를 사용하는 경우 직원을 손쉽게 �
 
 - 클라우드 전용 ID의 경우
 
-  Microsoft 365 Enterprise 구독의 Azure AD 테넌트에 디바이스를 조인하세요.
+  Azure AD 테넌트로 장치를 조인
 
 ### <a name="existing-employee-with-an-ad-ds-user-account"></a>AD DS 사용자 계정이 있는 기존 직원
 
@@ -413,11 +412,11 @@ Microsoft 365 Enterprise 인프라를 빌드하고 구성한 후에는 다음이
 
 조직에서 AD DS 도메인, Azure AD Connect 서버 및 동기화된 AD DS 사용자 및 그룹을 포함하는 하이브리드 ID를 사용하는 경우 인프라를 시각적으로 요약한 것입니다.
 
-![](./media/deploy-foundation-infrastructure-non-enterprises/final-hybrid-config.png)
+![조직에서 하이브리드 ID를 사용하는 경우의 인프라 요약](./media/deploy-foundation-infrastructure-non-enterprises/final-hybrid-config.png)
  
 조직에서 클라우드 전용 ID를 사용하는 경우 인프라를 시각적으로 요약한 것입니다.
  
-![](./media/deploy-foundation-infrastructure-non-enterprises/final-cloud-only-config.png)
+![조직에서 클라우드 전용 ID를 사용하는 경우 인프라의 시각적 요약](./media/deploy-foundation-infrastructure-non-enterprises/final-cloud-only-config.png)
 
 ### <a name="employee-results"></a>직원 결과
 
