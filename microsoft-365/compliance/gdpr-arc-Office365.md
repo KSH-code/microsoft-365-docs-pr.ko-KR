@@ -12,12 +12,13 @@ ms.collection:
 - GDPR
 - M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 66a3478ed625b3c7453992e04070d57beef173eb
-ms.sourcegitcommit: 33242c260439de0d8db41247e9414913f24adc22
+titleSuffix: Microsoft GDPR
+ms.openlocfilehash: c31107588e6d7841e93c3a1cd653790f3937c21e
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "38749934"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40808533"
 ---
 # <a name="accountability-readiness-checklist-for-microsoft-office-365"></a>Microsoft Office 365에 대한 책임 준비 상태 검사 목록
 
@@ -31,7 +32,7 @@ GDPR 타일의 *고객 관리 컨트롤*에서 컨트롤 ID 및 컨트롤 제목
 
 검사 목록 및 준수 관리자는 아래에서 가져온 개인 데이터 프로세서에 대한 개인 정보 및 보안 컨트롤 세트의 제목 및 참조 번호 (각 검사 목록 항목에 대해 괄호 사용)를 사용하여 구성됩니다.
 
-- [ISO/IEC CD 27552](https://shop.bsigroup.com/ProductDetail?pid=000000000030351735) 보안 기술 요구 사항
+- 보안 기술 요구 사항에 대한 [ISO/IEC CD 27701](https://shop.bsigroup.com/ProductDetail?pid=000000000030351736)
 - 개인 정보 관리 요구 사항에 대한 [ISO/IEC 27001](https://shop.bsigroup.com/ProductDetail?pid=000000000030347472).
 
 이 컨트롤 구조는 GDPR을 지원하기 위해 Microsoft Office 365에서 구현하는 내부 컨트롤의 프레젠테이션을 구성하는 데에도 사용됩니다([다운로드 위치](https://servicetrust.microsoft.com/ViewPage/TrustDocuments)).

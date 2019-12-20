@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 데이터 분류 대시보드에서는 조직에서 검색 및 분류한 중요한 데이터의 양을 시각적으로 파악할 수 있습니다.
-ms.openlocfilehash: cb728c4e6a88fc7bb47716a40addd01f9828208f
-ms.sourcegitcommit: 9206e7f2d61b5ba7f788fe5e7f75a2218c12c716
+ms.openlocfilehash: 775802f8aecf04668641c2e7d6b24e645a7c9f90
+ms.sourcegitcommit: 6ae69c40bafa6aef633789c3df0fa20590bdcf40
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/05/2019
-ms.locfileid: "39622620"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "40823740"
 ---
 # <a name="data-classification-overview-preview"></a>데이터 분류 개요(미리 보기)
 
@@ -59,6 +59,8 @@ Microsoft 365 또는 AIP(Azure Information Protection)를 통해 항목에 민�
 - 이 태그가 있으면 필수 워터마크 또는 암호화와 같은 다양한 보호 동작을 사용할 수 있습니다. 엔드포인트 보호를 사용하도록 설정한 경우 항목이 조직 차원에서 제어될 수 있습니다.
 
 민감도 레이블에 대한 자세한 내용은 [민감도 레이블 개요](sensitivity-labels.md)를 참조하세요.
+
+데이터 분류 페이지에서 해당 데이터를 표시하려면 SharePoint 및 OneDrive에 있는 파일에 민감도 레이블을 사용하도록 설정되어 있어야 합니다. 자세한 내용은 [SharePoint 및 OneDrive에서 Office 파일에 대한 민감도 레이블 사용(공개 미리 보기)](sensitivity-labels-sharepoint-onedrive-files.md)을 참조하세요.
 
 민감도 레이블 카드에는 민감도 레이블별 항목(전자 메일 또는 문서) 수가 표시됩니다.
 

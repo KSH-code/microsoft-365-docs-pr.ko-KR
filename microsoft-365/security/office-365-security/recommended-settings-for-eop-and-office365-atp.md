@@ -14,12 +14,12 @@ ms.assetid: 6f64f2de-d626-48ed-8084-03cc72301aa4
 ms.collection:
 - M365-security-compliance
 description: EOP (Exchange Online Protection) 및 ATP (Advanced Threat Protection) 보안 설정에 대 한 모범 사례 표준 보호에 대 한 최신 권장 사항은 무엇 인가요? 보다 엄격한 기능을 사용 하려면 어떻게 해야 합니까? 또한 ATP (Advanced Threat Protection)를 사용 하는 경우에는 어떤 것을 얻게 됩니까?
-ms.openlocfilehash: 60042d5903a9dadd178fe68b3a73a3a2b9148798
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 4aff384d571444e5641d3bcff58df136d27c7624
+ms.sourcegitcommit: 237589a0c8a24510e5c8f3b8b4747d944ad0afbf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40807973"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "40832051"
 ---
 # <a name="recommended-settings-for-eop-and-office-365-atp-security"></a>EOP 및 Office 365 ATP 보안에 대 한 권장 설정
 
@@ -152,8 +152,8 @@ EOP 고객은 앞에서 설명한 것 처럼 기본 피싱 방지를 제공 하�
 |보안 기능 이름|표준을|항등|댓글|
 |---------|---------|---------|---------|
 |Office 365 앱, iOS 및 Android 용 Office에서 ATP 안전한 링크 사용|사용|사용|이는 전체 조직에 적용 되는 ATP 안전한 링크 정책에 속합니다.|
-사용자가 안전 링크를 클릭 하는 경우 추적 안 함|사용 안 함|사용 안 함|이는 전체 조직에 적용 되는 ATP 안전한 링크 정책에 속합니다.|
-|사용자가 원본 URL에 대 한 안전한 링크를 클릭 하는 것을 허용 하지 않음|사용|사용|이는 전체 조직에 적용 되는 ATP 안전한 링크 정책에 속합니다.|
+사용자가 안전 링크를 클릭 하는 경우 추적 안 함|사용 안 함|사용 안 함|전체 조직에 적용 되는 정책과 특정 받는 사람에 게 적용 되는 모든 정책을 위한 것입니다.|
+|사용자가 원본 URL에 대 한 안전한 링크를 클릭 하는 것을 허용 하지 않음|사용|사용|이 작업은 전체 조직에 적용 되는 정책과 특정 받는 사람에 게 적용 되는 모든 정책에 대 한 것입니다.|
 |메시지의 알려지지 않은 악성 Url에 대 한 작업|켜짐|켜짐||
 |의심 스러운 링크에 대 한 실시간 URL 검사 및 파일을 가리키는 링크를 적용 합니다.|사용|사용||
 |메시지를 배달 하기 전에 URL 검색이 완료 될 때까지 기다립니다.|사용|사용||
@@ -177,4 +177,4 @@ EOP 고객은 앞에서 설명한 것 처럼 기본 피싱 방지를 제공 하�
 
 - [EOP 서비스](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-your-eop-service)를 **설정** 하는 방법에 대 한 정보를 보려면 다음 링크를 사용 하 고, [Office 365 Advanced Threat Protection](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)을 **구성** 합니다. ('[Office 365의 위협 으로부터 보호](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats)하는 방법에 대 한 유용한 지침은 참조 하세요.)
 
-- GPO/온-프레미스 옵션 및 Intune 기반 [보안에 대](https://docs.microsoft.com/intune/protect/security-baselines)한 **Windows 용 보안 기준을** [여기](https://docs.microsoft.com/windows/security/threat-protection/windows-security-baselines#where-can-i-get-the-security-baselines) 에서 찾을 수 있습니다. 마지막으로 [Microsoft의 ATP](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-machines-security-baseline#compare-the-microsoft-defender-atp-and-the-windows-intune-security-baselines)(Advanced Threat Protection)와 Windows Intune 보안 기준을 비교 합니다.
+- GPO/온-프레미스 옵션 및 Intune 기반 [보안에 대](https://docs.microsoft.com/intune/protect/security-baselines)한 **Windows 용 보안 기준을** [여기](https://docs.microsoft.com/windows/security/threat-protection/windows-security-baselines#where-can-i-get-the-security-baselines) 에서 찾을 수 있습니다. 마지막으로 Microsoft의 ATP (Advanced Threat Protection) 및 Windows Intune 보안 기준을 [여기](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-machines-security-baseline#compare-the-microsoft-defender-atp-and-the-windows-intune-security-baselines)에서 확인할 수 있습니다.

@@ -1,11 +1,11 @@
 ---
 title: 민감도 레이블을 콘텐츠에 자동으로 적용
-ms.author: krowley
-author: kccross
+ms.author: cabailey
+author: cabailey
 manager: laurawi
 audience: Admin
 ms.service: O365-seccomp
-ms.date: 11/01/2019
+ms.date: 12/13/2019
 localization_priority: Priority
 ms.collection:
 - M365-security-compliance
@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 민감도 레이블을 만들 때 문서 또는 전자 메일에 레이블을 자동으로 할당하거나 사용자에게 권장 레이블을 선택하라는 메시지를 표시할 수 있습니다.
-ms.openlocfilehash: 3c5b52c89c9a5eb9e78e670bce0b5c3edec89cd1
-ms.sourcegitcommit: e292e9f0181d722a11398fbd012bb84589aef052
+ms.openlocfilehash: 77a0b3cdf88301677451fe7fe1bac58de2a40a5f
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "39256715"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40807843"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>민감도 레이블을 콘텐츠에 자동으로 적용
 
@@ -33,7 +33,7 @@ ms.locfileid: "39256715"
 
 - 사용자가 더 이상 정책을 알아야 할 필요가 없으며, 그 대신 업무에 집중할 수 있습니다.
 
-라이선스 요구 사항에 대한 자세한 내용은 [Office 앱의 민감도 레이블](sensitivity-labels-office-apps.md)을 참조하세요.
+라이선스 요구 사항에 대 한 자세한 내용은 [민감도 레이블에 대한 구독 및 라이선스 요구 사항](sensitivity-labels-office-apps.md#subscription-and-licensing-requirements-for-sensitivity-labels)을 참조하세요.
 
 자동 라벨링 설정은 **분류** > **민감도 레이블**에 준하여 Microsoft 365 규정 준수 센터, Microsoft 365 보안 센터 또는 Office 365 보안 및 규정 준수 센터에서 민감도 레이블을 만들 때 사용할 수 있습니다.
 

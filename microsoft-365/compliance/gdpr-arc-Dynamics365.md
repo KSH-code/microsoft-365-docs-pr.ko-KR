@@ -13,12 +13,13 @@ ms.collection:
 - GDPR
 - M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 055c19715ff5dcd28ae05489600a31b2f7904e72
-ms.sourcegitcommit: 33242c260439de0d8db41247e9414913f24adc22
+titleSuffix: Microsoft GDPR
+ms.openlocfilehash: 828c4f7faaae1225d438a4d34b159d981b31b141
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "38749931"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40806521"
 ---
 # <a name="dynamics-365-accountability-readiness-checklist-for-the-gdpr"></a>GDPR에 대한 Dynamics 365 책임 준비 상태 검사 목록
 
@@ -26,7 +27,7 @@ ms.locfileid: "38749931"
 
 이 책임 준비 검사 목록은 Microsoft Dynamics 365를 사용하는 경우 GDPR을 지원하는 데 필요한 정보에 편리하게 액세스할 수 있는 방법을 제공합니다. 검사 목록은 다음에서 가져온 개인 데이터 프로세서의 개인 정보 및 보안 컨트롤 세트의 제목 및 참조 번호(각 검사 목록 항목에 대해 괄호 사용)를 사용하여 구성됩니다.
 
-- [ISO/IEC CD 27552](https://shop.bsigroup.com/ProductDetail?pid=000000000030351735) 보안 기술 요구 사항
+- 보안 기술 요구 사항에 대한 [ISO/IEC CD 27701](https://shop.bsigroup.com/ProductDetail?pid=000000000030351736)
 - 개인 정보 관리 요구 사항에 대한 [ISO/IEC 27001](https://shop.bsigroup.com/ProductDetail?pid=000000000030347472).
 
 GDPR 타일의 *고객 관리 컨트롤*에서 컨트롤 ID 및 컨트롤 제목을 참조하여 준수 관리자[[15](gdpr-arc-Dynamics365.md#15)]를 통해 이 검사 목록의 항목을 관리할 수 있습니다.

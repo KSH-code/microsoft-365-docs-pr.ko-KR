@@ -16,12 +16,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: 보안 &amp; 준수 센터의 DLP(데이터 손실 방지) 정책을 사용하여 Office 365 전체의 중요한 정보를 식별하고 모니터링하며 자동으로 보호할 수 있습니다.
-ms.openlocfilehash: b9035fde858d8040be14073f61d6c4e9629df53b
-ms.sourcegitcommit: 1c962bd0d51dc12419c4e6e393bb734c972b7e38
+ms.openlocfilehash: e2fab1df550382f44e09629e5b82a079d6f6555f
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "39266165"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40806621"
 ---
 # <a name="overview-of-data-loss-prevention"></a>데이터 손실 방지 개요
 <!-- this topic needs to be split into smaller, more coherent ones. It is confusing as it is. -->
@@ -79,7 +79,9 @@ DLP 정책에는 다음과 같은 몇 가지 기본적인 사항이 포함됩니
 DLP 정책은 정보가 Exchange Online, SharePoint Online, 비즈니스용 OneDrive에 위치하는지 아니면 Microsoft Teams에 위치하는지 여부에 관계없이 Office 365 전체의 중요한 정보를 탐색하고 보호할 수 있습니다. Exchange 전자메일, Microsoft Teams 채팅 및 채널 메시지 그리고 모든 SharePoint 또는 OneDrive 라이브러리의 콘텐츠를 보호하거나 정책의 특정 위치를 선택할 수 있습니다.
   
 ![DLP 정책을 적용할 수 있는 위치에 대한 옵션](media/ee50a61a-e867-4571-a150-3eec8d83650f.png)
-  
+
+ Exchange에서 특정 메일 그룹을 포함하도록 선택하는 경우 DLP 정책은 해당 그룹의 구성원으로만 제한됩니다. 마찬가지로 메일 그룹을 제외하면 해당 메일 그룹의 모든 구성원이 정책 평가에서 제외됩니다. 메일 그룹의 구성원, 동적 메일 그룹, 보안 그룹에 대한 정책의 범위를 선택할 수 있습니다. DLP 정책에는 50개 이하의 이러한 포함 및 제외가 포함될 수 있습니다.
+
 특정 SharePoint 사이트 또는 OneDrive 계정을 포함하거나 제외하도록 선택하는 경우 DLP 정책은 이러한 포함 항목 및 제외 항목을 100개까지 포함할 수 있습니다. 해당 제한 사항에도 불구하고 조직 전체의 정책이나 전체 위치에 적용되는 정책을 적용하여 해당 제한 사항을 극복할 수 있습니다.
   
 ### <a name="rules"></a>규칙
@@ -166,7 +168,9 @@ DLP 정책이 신용 카드 번호와 같은 중요한 정보 유형을 찾을 �
 다음은 비즈니스용 OneDrive 계정에서 보여지는 정책 팁의 예시입니다.
   
 ![OneDrive 계정의 문서에 대한 정책 팁](media/f9834d35-94f0-4511-8555-0fe69855ce6d.png)
-  
+
+ DLP 정책의 사용자 알림과 정책 팁에 대한 자세한 내용은 [알림 및 정책 팁 사용](use-notifications-and-policy-tips.md)을 참조하세요.
+
 #### <a name="incident-reports"></a>사고 보고서
 
 규칙이 일치하면 규정 준수 책임자(또는 다른 사용자)에게 사고 보고서와 이벤트에 대한 세부 정보를 보낼 수 있습니다. 이 보고서에는 일치된 항목에 관한 정보, 규칙과 일치한 실제 콘텐츠, 해당 콘텐츠를 마지막으로 수정한 사람이 포함됩니다. 전자 메일 메시지의 경우 보고서에는 DLP 정책과 일치하는 원본 메시지가 첨부 파일로 포함되어 있습니다.
@@ -221,7 +225,7 @@ DLP 정책이 신용 카드 번호와 같은 중요한 정보 유형을 찾을 �
 
 정책의 규칙을 만들 때는 각 규칙에 만들어진 순서대로 우선 순위가 할당됩니다. 즉, 처음 만들어진 규칙에는 첫 번째 우선 순위가 할당되고 두 번째 만들어진 규칙에는 두 번째 우선 순위가 할당되는 식입니다. 
   
-![우선 순위의 규칙](media/f7dc06bf-bc6f-485c-bcdb-606edbcf6565.png)
+![우선 순위의 규칙](media/dlp-rules-in-priority-order.png)
   
 둘 이상의 DLP 정책을 설정한 후에는 하나 이상의 정책에 대해 우선 순위를 변경할 수 있습니다. 그러기 위해서는 정책을 선택하고 **정책 편집**을 선택한 다음 **우선 순위** 목록을 사용하여 우선 순위를 지정합니다.
 

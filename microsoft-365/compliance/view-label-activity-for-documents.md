@@ -1,7 +1,7 @@
 ---
 title: 문서에 대한 레이블 활동 보기
-ms.author: laurawi
-author: laurawi
+ms.author: cabailey
+author: cabailey
 manager: laurawi
 ms.date: 5/9/2018
 audience: Admin
@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Office 365 보안 및 준수 센터의 레이블 활동 탐색기를 사용하면 지난 30일 동안 SharePoint 및 비즈니스용 OneDrive에서 수행된 모든 콘텐츠에 대한 레이블 활동을 빠르게 검색하고 확인할 수 있습니다.
-ms.openlocfilehash: 99e3f461ed1ff38b2f204a2823299a3c441c995f
-ms.sourcegitcommit: e4f2f06daa264b8b476813a2dfe80cffb59f968f
+ms.openlocfilehash: 9c34cde4d9dde96b8fb1251e9d2be449031cc58a
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "38710108"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40802233"
 ---
 # <a name="view-label-activity-for-documents"></a>문서에 대한 레이블 활동 보기
 

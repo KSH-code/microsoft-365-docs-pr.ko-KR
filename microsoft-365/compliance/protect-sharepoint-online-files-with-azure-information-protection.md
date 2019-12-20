@@ -18,17 +18,19 @@ ms.custom:
 - Ent_Solutions
 ms.assetid: 5b9c8e41-25d2-436d-89bb-9aecb9ec2b80
 description: '요약: Azure Information Protection을 적용하여 극비 SharePoint Online 팀 사이트의 파일을 보호합니다.'
-ms.openlocfilehash: 19fab529a9a8fb60afef1a419323d7544eeace88
-ms.sourcegitcommit: 58a7bd70a4bcf52530baf5f82507fd5dc4455fd9
+ms.openlocfilehash: 99f6882c37337369fe082314af000f83bfef9aa5
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "39668826"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40803755"
 ---
 # <a name="protect-sharepoint-online-files-with-azure-information-protection"></a>Azure Information Protection을 사용한 SharePoint Online 파일 보호
 
- **요약:** Azure Information Protection을 적용하여 극비 SharePoint Online 팀 사이트의 파일을 보호합니다.
-  
+>[!Note]
+>극비의 SharePoint Online 팀 사이트의 파일에 대한 현재 솔루션은 Office 365 민감도 레이블을 사용합니다. 자세한 내용은 [이 문서](protect-sharepoint-online-files-with-sensitivity-label.md)를 참조하세요.
+>
+
 이 문서의 단계를 사용하여 파일에 대해 암호화 및 사용 권한을 제공하도록 Azure Information Protection을 구성합니다. 이러한 파일은 극비 보호용으로 구성된 SharePoint 라이브러리에 추가되거나, 사이트에서 직접 파일을 열고 Azure Information Protection 클라이언트를 사용하여 암호화를 추가할 수 있습니다. 암호화 및 사용 권한 보호 기능은 사이트에서 다운로드된 파일에 적용됩니다. 
 
 다음 단계는 이러한 사이트 내에서 SharePoint 사이트 및 파일에 대해 극비 보호를 구성하기 위한 보다 큰 솔루션의 일부입니다. 자세한 내용은 [SharePoint Online 사이트 및 파일 보호](../security/office-365-security/secure-sharepoint-online-sites-and-files.md)를 참조하세요. 
@@ -49,9 +51,7 @@ SharePoint Online의 파일에 대해 Azure Information Protection을 사용하�
     
 2. 브라우저의 별도 탭에서 Azure Portal([https://portal.azure.com](https://portal.azure.com))로 이동합니다.
     
-3. 처음으로 Azure Information Protection을 구성하는 경우 다음 [지침](https://docs.microsoft.com/information-protection/deploy-use/configure-policy#to-access-the-azure-information-protection-blade-for-the-first-time)을 참조하세요.
-
-4. 목록 창에서 **모든 서비스**를 클릭하고 **정보**를 입력한 다음, **Azure Information Protection**을 클릭합니다.
+4. 검색 상자에서 **정보**를 입력하고 **Azure Information Protection**을 클릭합니다.
 
 5. **레이블**을 클릭합니다.
     
@@ -113,6 +113,6 @@ Azure Information Protection으로 보호된 파일에 대한 액세스 권한�
 
 [SharePoint Online 사이트 및 파일 보호](../security/office-365-security/secure-sharepoint-online-sites-and-files.md)
   
-[정치적 캠페인, 비영리 조직 및 기타 기밀 조직을 위한 Microsoft 보안 지침](/security/office-365-security/microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o.md)
+[정치적 캠페인, 비영리 조직 및 기타 기밀 조직을 위한 Microsoft 보안 지침](../security/office-365-security/microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o.md)
   
 [클라우드 도입 및 하이브리드 솔루션](https://docs.microsoft.com/office365/enterprise/cloud-adoption-and-hybrid-solutions)

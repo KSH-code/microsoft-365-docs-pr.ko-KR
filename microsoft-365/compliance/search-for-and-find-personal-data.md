@@ -16,12 +16,12 @@ localization_priority: Priority
 search.appverid:
 - MET150
 description: Office 365에서 개인 데이터를 검색하고 찾는 방법을 알아봅니다.
-ms.openlocfilehash: f553f29ac1327fa84c2d52f80379593c9291d610
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 75c6afaae18cddc0c8e63cac671ac1140e3fa303
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38710100"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40802861"
 ---
 # <a name="search-for-and-find-personal-data"></a>개인 데이터 검색 및 찾기
 
@@ -33,9 +33,7 @@ ms.locfileid: "38710100"
 
 이 문서에서는 SharePoint Online 및 비즈니스용 OneDrive에 저장된 개인 데이터를 찾는 방법을 보여 줍니다(모든 Office 365 그룹 및 Microsoft Teams 사이트 포함) 
 
-Office 365에서 GDPR이 적용되는 개인 데이터를 찾으려면 중요한 정보 유형을 사용해야 합니다. 이 과정에서 자동화된 서비스가 의료 서비스 번호 및 신용 카드 번호와 같은 특정 정보 유형을 인식하는 방식이 정의됩니다. 현재, 휴지 상태의 Exchange 사서함에서 데이터를 찾는 데는 이러한 정보를 사용할 수 없습니다. 그렇지만 중요한 정보 유형을 데이터 손실 방지 정책과 함께 사용하여 전송 중인 메일에서 개인 데이터를 찾을 수 있습니다.
-
-따라서 현재는 콘텐츠 검색을 사용하여 Exchange Online 사서함의 휴지 상태의 개인 데이터를 찾을 수 없지만, GDPR에 맞게 조정한 중요한 정보 유형을 사용하여 전자 메일을 통해 전송되는 개인 정보를 찾아 보호할 수 있습니다.
+GDPR이 적용되는 개인 데이터를 찾으려면 Office 365에서 중요한 정보 유형을 사용해야 합니다. 이는 자동화된 프로세스에서 상태 서비스 번호와 신용 카드 번호와 같은 특정 정보 유형을 인식하는 방식을 정의합니다. 데이터 손실 방지 정책을 사용하여 전송 중에 메일에서 개인 데이터를 찾을 수 있습니다. GDPR에 대해 선별한 중요한 정보 유형을 사용하여 개인 정보가 전자 메일을 통해 전송될 때 이를 찾아서 보호할 수 있습니다. 또한 [보안 및 준수 센터에서 DSR 사례 도구를 사용하여 GDPR 데이터 주체 요청 관리](https://docs.microsoft.com/microsoft-365/compliance/manage-gdpr-data-subject-requests-with-the-dsr-case-tool)를 참조하세요.
 
 ## <a name="use-content-search-to-find-personal-data"></a>콘텐츠 검색을 사용하여 개인 데이터 찾기
 

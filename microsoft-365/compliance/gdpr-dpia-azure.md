@@ -13,12 +13,13 @@ ms.collection:
 - GDPR
 - M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: a92ec4a54b3b79ed4cffbcac147e15360907af68
-ms.sourcegitcommit: 33242c260439de0d8db41247e9414913f24adc22
+titleSuffix: Microsoft GDPR
+ms.openlocfilehash: 039115af5bfb1ec114ab4409a6f6c5d49f2e00a9
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "38749903"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40807217"
 ---
 # <a name="data-protection-impact-assessments-guidance-for-data-controllers-using-microsoft-azure"></a>데이터 보호 영향 평가: Microsoft Azure를 사용하는 데이터 컨트롤러의 참고 자료
 
@@ -57,7 +58,7 @@ GDPR의 35조를 준수하려면 데이터 컨트롤러에서 데이터 보호 �
 | 처리된 개인 데이터의 범주  | *고객 데이터* – 엔터프라이즈 서비스를 사용하여 고객이 Microsoft에 제공하거나 고객 대신에 Microsoft에 제공된 모든 데이터(모든 텍스트, 소리, 동영상 또는 이미지 파일 포함)입니다.  고객 데이터에는 (1) 최종 사용자의 식별 가능한 정보(예: Azure Active Directory의 사용자 이름 및 연락처 정보) 및 고객이 특정 서비스에 업로드하거나 해당 서비스에서 만드는 고객 콘텐츠(예: Azure Storage 계정의 고객 콘텐츠, Azure SQL Database의 고객 콘텐츠 또는 Azure 가상 머신에 있는 고객의 가상 머신 이미지)가 포함되어 있습니다.<br><br> *시스템 생성 로그* — Microsoft에서 생성한 로그 및 관련 데이터이며, 이는 Microsoft에서 엔터프라이즈 서비스를 제공하도록 도와줍니다. 시스템 생성 로그에는 주로 가명 처리된 데이터(예: 시스템에서 생성된 고유한 ID)가 있으며, 이 데이터는 개인을 직접 식별할 수 없지만 엔터프라이즈 서비스를 사용자에게 전달하는 데 사용됩니다.  시스템 생성 로그에는 사용자 이름과 같은 최종 사용자에 대한 식별 가능한 정보가 포함될 수도 있습니다. <br><br> *지원 데이터* — 온라인 서비스에 대한 기술 지원을 얻기 위해 Microsoft와의 계약을 통해 고객이 Microsoft 또는 고객을 대신하여 Microsoft에서 제공한 데이터(또는 고객이 Microsoft가 온라인 서비스에서 얻도록 허가한 데이터)입니다. <br><br> Azure에서 처리하는 데이터와 관련된 자세한 내용은 [온라인 서비스 약관](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=46) 및 [Microsoft 보안 센터](https://www.microsoft.com/trustcenter)에서 확인하세요.</p> |   |
 | 데이터 보존 | Microsoft는 고객이 온라인 서비스를 사용할 수있는 기간 동안 그리고 모든 고객 데이터가 고객에 의해 검색되거나 OST의 조건에 따라 삭제될 때까지 고객 데이터를 보유 및 처리합니다.  고객의 구독 기간 동안 항상 고객은 각 온라인 서비스에 저장된 고객 데이터를 액세스하고 추출할 수 있습니다. 무료 평가판 및 LinkedIn 서비스를 제외하고 Microsoft는 고객이 데이터를 추출할 수 있도록 고객의 구독이 만료 또는 종료된 이후 90일 동안 기능이 제한된 계정에서 온라인 서비스에 저장된 고객 데이터를 보유하게 됩니다. 90일의 보유 기간이 종료되면 Microsoft는 고객의 계정을 비활성화하고 고객 데이터를 삭제합니다. 고객은 [Azure Data Subject Request GDPR 문서](https://servicetrust.microsoft.com/ViewPage/GDPRDSR)에 설명 된 기능을 사용하여 데이터 주체 요청에 따라 개인 데이터를 삭제할 수 있습니다. |   |
 | 개인 데이터의 위치 및 전송 | 고객은 지정된 [지역](https://azuredatacentermap.azurewebsites.net/) 내에서 사용하지 않는 고객 데이터를 프로비저닝할 수 있으며 OST에 명시된 대로 특정 예외 사항을 적용합니다. 데이터 보존은 [Azure 전역 인프라](https://azure.microsoft.com/global-infrastructure/) 웹 페이지에서 찾을 수 있습니다.<br><br>유럽 경제 지역 및 스위스의 개인 데이터의 경우, Microsoft는 GDPR 제 46조에 따라 개인 데이터가 타국가 또는 국제 기구로 전송되는 과정에 적절한 세이프가드가 적용되도록 보장합니다. 프로세서 및 기타 모델 계약에 대한 표준 계약 조항에 따른 Microsoft의 약속 외에도 Microsoft는 유럽-미국, 스위스-미국, 개인 정보 보호 방화벽 및 수반한 약속에 대해 인증되었습니다. |   |
-| 타사와 데이터 공유 | Microsoft는 고객 및 기술 지원, 서비스 유지 보수 및 기타 운영과 같은 기능을 지원하기 위해 하위 프로세스(즉, 개인 데이터를 처리하는 하도급업체) 역할을 하는 타사와 데이터를 공유합니다. Microsoft가 고객 데이터 또는 지원 데이터를 전송하는 하도급업자는 [온라인 서비스 약관](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=46)의 데이터 보호 약관보다 덜 안전하지만 Microsoft와 서면 계약을 체결하게 됩니다. 고객 데이터 또는 지원 데이터가 공유되는 모든 타사 하위 프로세서는 [온라인 서비스 하도급업자 목록](https://www.microsoft.com/trustcenter/privacy/who-can-access-your-data-and-on-what-terms#subcontractors)에 포함됩니다. <br><br> 고객 데이터 및 지원 데이터에 대한 법 집행 및 제3자 요청에 대한 Microsoft의 대응에 관한 정보는 온라인 서비스 약관에 나와 있습니다. Microsoft가 법적으로 금지하지 않는 한 Microsoft는 법 집행 기관 또는 제 3자를 고객에게 직접 리디렉션하려고 시도합니다. |   |
+| 타사와 데이터 공유 | Microsoft는 고객 및 기술 지원, 서비스 유지 보수 및 기타 운영과 같은 기능을 지원하기 위해 하위 프로세스(즉, 개인 데이터를 처리하는 하도급업체) 역할을 하는 타사와 데이터를 공유합니다. Microsoft가 고객 데이터 또는 지원 데이터를 전송하는 하도급업자는 [온라인 서비스 약관](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=46)의 데이터 보호 약관보다 덜 안전하지만 Microsoft와 서면 계약을 체결하게 됩니다. 고객 데이터 또는 지원 데이터가 공유되는 모든 타사 하위 프로세서는 [하도급업자 목록](https://www.microsoft.com/trustcenter/privacy/who-can-access-your-data-and-on-what-terms#subcontractors)(하도급업자 목록 보기)에 포함됩니다. <br><br> 고객 데이터 및 지원 데이터에 대한 법 집행 및 제3자 요청에 대한 Microsoft의 대응에 관한 정보는 온라인 서비스 약관에 나와 있습니다. Microsoft가 법적으로 금지하지 않는 한 Microsoft는 법 집행 기관 또는 제 3자를 고객에게 직접 리디렉션하려고 시도합니다. |   |
 | 데이터 주체 권리 | 프로세서로 작동할 때 Microsoft는 고객(즉, 데이터 컨트롤러)이 데이터 주체의 개인 데이터를 사용할 수 있도록 하고 고객이 GDPR에 따라 권리를 행사할 때 데이터 주체 요청을 수행할 수 있는 기능을 제공합니다. Microsoft는 제품의 기능과 프로세서로의 역할에 있어 일관된 방식으로 진행합니다. Microsoft가 고객의 데이터 주체로부터 GDPR에 따라 권리 중 하나를 행사하도록 요청을 받으면 데이터 컨트롤러에게 요청이 리디렉션됩니다.<br><br>[Azure 데이터 주체 요청 GDPR 설명서](https://servicetrust.microsoft.com/ViewPage/GDPRDSR)는 Azure의 기능을 사용하여 데이터 주체 권한을 지원하는 방법에 대한 설명을 제공합니다. |   |
 | 목적과 관련한 처리 작업의 필요성 및 비례의 원칙 평가 | 이러한 평가는 데이터 컨트롤러의 요구와 처리 목적에 따라 달라집니다.<br><br>Microsoft에서 수행하는 처리와 관련하여 이러한 처리는 데이터 컨트롤러에 서비스를 제공하기 위한 목적에 필수적이며 비례합니다. Microsoft는 OST 준수를 약속합니다. | |
 | 데이터 주체의 권리와 자유에 대한 위험 평가 | Microsoft Azure 사용으로 인한 데이터 주체의 권리와 자유에 대한 주요 위험은 데이터 컨트롤러가 Microsoft Azure를 구현, 구성, 사용하는 방법과 상황의 기능입니다.<br><br> 그러나 다른 서비스와 마찬가지로 서비스에서 보관하는 개인 정보는 권한이 없는 액세스나 부주의한 공개의 위험이 있습니다. 이러한 위험을 해결하기 위해 Microsoft에서 취하는 조치는 OST에 설명되어 있으며 아래에서 세부 정보를 확인할 수 있습니다. | |

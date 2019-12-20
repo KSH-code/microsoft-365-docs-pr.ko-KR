@@ -1,9 +1,9 @@
 ---
 title: 민감도 레이블 개요
-ms.author: krowley
-author: kccross
+ms.author: cabailey
+author: cabailey
 manager: laurawi
-ms.date: 11/01/2019
+ms.date: 12/13/2019
 audience: Admin
 ms.topic: conceptual
 ms.service: O365-seccomp
@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 민감도 레이블을 사용하여 사용자의 생산성 및 공동 작업 능력이 저하되지 않도록 하면서 중요한 콘텐츠를 분류 및 보호할 수 있습니다. 민감도 레이블을 사용하여 레이블이 지정된 콘텐츠에 대해 암호화 또는 워터마크와 같은 보호 설정을 적용할 수 있습니다.
-ms.openlocfilehash: 5bc15b1ba18dbc52f9db554f8037cb59187b88fc
-ms.sourcegitcommit: e4f2f06daa264b8b476813a2dfe80cffb59f968f
+ms.openlocfilehash: f411cf5ac91581526c54f718ee83d0beaaaa2d73
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "39232910"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40802841"
 ---
 # <a name="overview-of-sensitivity-labels"></a>민감도 레이블 개요
 
@@ -130,7 +130,7 @@ Office 앱에서 민감도 레이블은 전자 메일 또는 문서에서 단순
 
 - 레이블 정책에 포함된 사용자 및 그룹이 만든 모든 새 문서 및 전자 메일에 **기본 레이블을 적용합니다**. 이 기본 레이블은 모든 콘텐츠에 적용하려는 기본적인 보호 설정 수준을 설정할 수 있습니다.
 
-- **레이블을 변경하는 데 사유 요구** 콘텐츠가 기밀로 표시되고 사용자가 해당 레이블을 제거하거나 더 낮은 분류(예: 공용이라는 레이블)로 바꾸려는 경우 이 작업을 수행할 때 사용자가 사유를 제공하도록 요청할 수 있습니다. 이러한 사유는 관리자가 검토할 수 있습니다.
+- **레이블을 변경하는 데 사유 요구** 콘텐츠가 기밀로 표시되고 사용자가 해당 레이블을 제거하거나 더 낮은 분류(예: 공용이라는 레이블)로 바꾸려는 경우 이 작업을 수행할 때 사용자가 사유를 제공하도록 요청할 수 있습니다. 현재 사유는 관리자가 검토할 수 있도록 [레이블 분석](label-analytics.md)에 전달되지 않습니다. 그러나 [Azure Information Protection 통합 레이블 클라이언트](https://docs.microsoft.com/azure/information-protection/rms-client/aip-clientv2)는이 정보를 [Azure Information Protection analytics](https://docs.microsoft.com/azure/information-protection/reports-aip)에 보냅니다.
 
     ![사용자가 근거를 입력하는 메시지](media/Sensitivity-label-justification-required.png)
 

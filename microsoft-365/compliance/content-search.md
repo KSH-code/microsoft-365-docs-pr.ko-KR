@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 53390468-eec6-45cb-b6cd-7511f9c909e4
 description: Office 365 또는 Microsoft 365의 준수 센터의 콘텐츠 검색 도구를 사용하여 사서함, SharePoint Online 사이트, OneDrive 계정, Microsoft Teams, Office 365 그룹 및 비즈니스용 Skype 대화에서 콘텐츠를 검색할 수 있습니다. 키워드 검색 쿼리 및 검색 조건을 사용하여 검색 결과 범위를 좁힐 수 있습니다. 그런 다음 검색 결과를 미리 보고 내보낼 수 있습니다. 또한 콘텐츠 검색은 GDPR 데이터 주체 요청과 관련된 콘텐츠를 검색하는 데 효과적인 도구입니다.
-ms.openlocfilehash: ba3a8ffd495d58726c24ad7abd2e115d2e1c2b8b
-ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
+ms.openlocfilehash: d27bce246cabfafd343286fc40ea670bfe560b9e
+ms.sourcegitcommit: 8c244b38c43dd00c4ef0102f8bed02ab36639a6b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "39266167"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "39967521"
 ---
 # <a name="content-search-in-office-365"></a>Office 365의 콘텐츠 검색
 
@@ -310,7 +310,7 @@ Microsoft Teams 및 Office 365 그룹에서 콘텐츠를 검색할 때 다음 �
   
 ### <a name="searching-inactive-mailboxes"></a>비활성 사서함 검색
 
-콘텐츠 검색에서 비활성 사서함을 검색할 수 있습니다. 조직의 비활성 사서함 목록을 가져오려면 Exchange Online PowerShell에서 `Get-Mailbox -InactiveMailboxOnly` 명령을 실행합니다. 또는 보안 및 준수 센터의 **데이터 거버넌스** \> **보존**으로 이동한 다음 **더 보기**![탐색 모음 줄임표](media/9723029d-e5cd-4740-b5b1-2806e4f28208.gif) \> **비활성 사서함**을 클릭합니다.
+콘텐츠 검색에서 비활성 사서함을 검색할 수 있습니다. 조직의 비활성 사서함 목록을 가져오려면 Exchange Online PowerShell에서 `Get-Mailbox -InactiveMailboxOnly` 명령을 실행합니다. 또는 보안 및 준수 센터의 **정보 거버넌스** \> **보존**으로 이동한 다음 **더 보기**![탐색 모음 줄임표](media/9723029d-e5cd-4740-b5b1-2806e4f28208.gif) \> **비활성 사서함**을 클릭합니다.
   
 다음은 비활성 사서함을 검색할 때 유의해야 하는 몇 가지 사항입니다.
 

@@ -11,12 +11,13 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 4d8587438d564d98d9b30897ebdf5bf8722a09c8
-ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
+titleSuffix: Microsoft Compliance
+ms.openlocfilehash: 380e1b2fadc48c395fbd8c2b10c0d65a6ba01675
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39859488"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40804261"
 ---
 # <a name="service-organization-controls-soc"></a>SOC(서비스 조직 컨트롤)
 
@@ -108,7 +109,7 @@ SOC 1 (SSAE18, ISAE 3402) 및 SOC 2 (AT Section 101) 표준에 따라 Microsoft 
 
 **Azure SOC 보고서는 얼마나 자주 발행되나요?**
 
-Azure, Cloud App Security, Flow, Graph, Intune, Power BI, PowerApps, Stream 및 Microsoft Datacenters에 대한 SOC 보고서는 과거 12개월 연속 실행 기간(감사 기간)을 기반으로 하고 분기별로 새 보고서가 발행됩니다. 감사 빈도가 증가하면 SOC 보고서를 통해 보다 시기 적절한 감사 기간 범위를 제공하고 이는 브리지 레터와 비교해서 외부 감사자가 더 큰 보증을 제공합니다. 고객은 Service Trust Portal에서 최신 보고서를 [다운로드](https://aka.ms/stp)할 수 있습니다.
+Azure, Cloud App Security, Flow, Graph, Intune, Power BI, PowerApps, Stream 및 Microsoft Datacenters에 대한 SOC 보고서는 과거 12개월 연속 실행 기간(감사 기간)을 기반으로 하고 1년에 두 번 새 보고서가 발행됩니다.(기간 종료은 3월 31일과 9월 30일) 브리지 레터는 10/1~12/31을 커버하는 1월과 4/16~6/30의 기간을 커버하는 7월에 발행됩니다. 고객은 Service Trust Portal에서 최신 보고서를 [다운로드](https://aka.ms/stp)할 수 있습니다.
 
 **Microsoft 데이터 센터에 대한 자체 감사를 실시해야 하나요?**
 

@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보안 및 준수 센터의 그래픽 사용자 인터페이스에서 DLP에 대한 사용자 지정 중요한 정보 유형을 만들고, 수정, 제거 및 테스트하는 방법을 알아봅니다.
-ms.openlocfilehash: fbce658eadbffb22d4d8ba65d040503a5854b77f
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 12a44fcc4fb5228f1e1d901502c1e6dd0e2582af
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37087558"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40806611"
 ---
 <!-- rename md file to match the display name -->
 # <a name="create-a-custom-sensitive-information-type-in-the-security--compliance-center"></a>보안 및 준수 센터에서 사용자 지정 중요한 정보 유형 만들기
@@ -33,6 +33,9 @@ PowerShell 및 정확한 데이터 매치 기능을 사용하여 사용자 지�
 - [정확한 데이터 매치(EDM)를 사용하여 DLP를 위한 사용자 지정 중요한 정보 유형 만들기](create-custom-sensitive-information-types-with-exact-data-match-based-classification.md)
 
 ## <a name="before-you-begin"></a>시작하기 전에...
+
+> [!NOTE]
+> 사용자 지정 정보 유형을 UI를 통해 작성하고, 테스트하고 배포하려면 전역 관리자 또는 준수 관리자 권한이 있어야 합니다. Office 365에서 [관리자 역할 정보](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles?view=o365-worldwide)를 참조하세요.
 
 - 조직에 DLP(데이터 손실 방지)를 포함하는 구독(예: Office 365 Enterprise)이 있어야 합니다. [메시징 정책 및 규정 준수 서비스 설명](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/messaging-policy-and-compliance-servicedesc)을 참조하세요. 
 
