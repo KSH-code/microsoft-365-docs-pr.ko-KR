@@ -10,12 +10,12 @@ localization_priority: Normal
 search.appverid:
 - MET150
 description: 관리자는 피싱 메시지의 원인과 방법을 파악 하 고, 향후 피싱 메시지를 더 많이 차단 하기 위해 수행 해야 하는 작업에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: bbcd57f649485cb753e3917a073ffec2b94cba24
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 03f4df5f552dab48283f18ec367ee6979afd9c89
+ms.sourcegitcommit: 6ae69c40bafa6aef633789c3df0fa20590bdcf40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37089208"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "40823850"
 ---
 # <a name="tune-anti-phishing-protection-in-office-365"></a>Office 365에서 피싱 방지 보호 기능 조정
 
@@ -23,7 +23,7 @@ Office 365에는 기본적으로 사용 하도록 설정 되는 다양 한 피�
 
 ## <a name="first-things-first-deal-with-any-compromised-accounts-and-make-sure-you-block-any-more-phishing-messages-from-getting-through"></a>첫 번째 작업: 손상 된 계정을 처리 하 고 더 이상 피싱 메시지를 수신 하지 못하도록 차단 합니다.
 
-피싱 메시지의 결과로 받는 사람의 계정이 손상 된 경우 [Office 365에서 손상 된 전자 메일 계정에 응답 하](../../compliance/responding-to-a-compromised-email-account.md)는 단계를 따르세요.
+피싱 메시지의 결과로 받는 사람의 계정이 손상 된 경우 [Office 365에서 손상 된 전자 메일 계정에 응답 하](responding-to-a-compromised-email-account.md)는 단계를 따르세요.
 
 구독에 ATP (Advanced Threat Protection)가 포함 되어 있으면 [Office 365 위협 인텔리전스](office-365-ti.md) 를 사용 하 여 피싱 메시지도 받은 다른 사용자를 식별할 수 있습니다. 피싱 메시지를 차단 하는 추가 옵션은 다음과 같습니다.
 
@@ -69,9 +69,9 @@ ATP 기능이 설정 되어 있는지 확인 합니다.
   
   - [스푸핑을 방지할 수 있도록 Office 365에서 SPF 설정](set-up-spf-in-office-365-to-help-prevent-spoofing.md)
 
-  - [DKIM을 사용 하 여 Office 365의 사용자 지정 도메인에서 전송 되는 아웃 바운드 전자 메일의 유효성 검사](use-dkim-to-validate-outbound-email.md)
+  - [DKIM을 사용하여 Office 365의 사용자 지정 도메인에서 전송한 아웃바운드 전자 메일의 유효성 검사](use-dkim-to-validate-outbound-email.md)
 
-  - [DMARC을 사용 하 여 Office 365의 전자 메일 유효성 검사](use-dmarc-to-validate-email.md)
+  - [DMARC를 사용하여 Office 365에서 전자 메일 유효성 검사](use-dmarc-to-validate-email.md)
 
 - 가능한 경우에는 항상 도메인에 대 한 전자 메일을 Office 365에 직접 배달 하는 것이 좋습니다. 즉, Office 365 도메인의 MX 레코드를 Office 365에 가리키도록 합니다. EOP (Exchange Online Protection)은 메일이 Office 365로 직접 배달 될 때 클라우드 사용자에 게 최상의 보호를 제공할 수 있습니다. EOP 앞에 타사 전자 메일 바이러스 예방 시스템을 사용 해야 하는 경우 [여기](https://docs.microsoft.com/exchange/mail-flow-best-practices/manage-mail-flow-using-third-party-cloud)에서 지침을 따랐는지 확인 합니다.
 

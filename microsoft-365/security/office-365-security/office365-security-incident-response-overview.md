@@ -14,12 +14,12 @@ localization_priority: Normal
 search.appverid:
 - MET150
 description: 이 해결 방법은 Office 365에서 가장 일반적인 사이버 보안 공격과 그에 대응하는 방법에 대해 설명합니다.
-ms.openlocfilehash: d908b32a5c3cb01476ab9b7604861eb94c7a2745
-ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
-ms.translationtype: HT
+ms.openlocfilehash: c55a5d561fec4219d29926036842836174b790da
+ms.sourcegitcommit: 6ae69c40bafa6aef633789c3df0fa20590bdcf40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "39971596"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "40823830"
 ---
 # <a name="office-365-security-incident-response"></a>Office 365 보안 사고 대응
 
@@ -51,7 +51,7 @@ ms.locfileid: "39971596"
 
 ## <a name="incident-response-articles"></a>인시던트 대응 문서
 
-- [Office 365에서 손상된 이메일 계정에 응답](~/compliance/responding-to-a-compromised-email-account.md)
+- [Office 365에서 손상된 이메일 계정에 응답](responding-to-a-compromised-email-account.md)
 
 ## <a name="secure-office-365-like-a-cybersecurity-pro"></a>사이버 보안 전문가와 같은 Office 365 보안
 

@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: f592644b0aa2853839dd83025a112d0fd3c563df
-ms.sourcegitcommit: b65c80051e53d9be223f4769f4d42a39f5a07735
-ms.translationtype: HT
+ms.openlocfilehash: d34d7082150b4131634fb695ce6664ded50e6f9d
+ms.sourcegitcommit: 6ae69c40bafa6aef633789c3df0fa20590bdcf40
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39962615"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "40823840"
 ---
 # <a name="add-and-verify-admin-contacts-in-the-admin-portal"></a>관리 포털에서 관리자 연락처 추가 및 확인
 
@@ -44,7 +44,7 @@ IT 지원 센터 | 지원 담당자가 Microsoft Managed Desktop 지원 영역 �
 
 **이러한 연락처로 선택한 사용자는 Microsoft Managed Desktop 환경을 결정할 수 있는 지식과 권한이 있어야 합니다.** Microsoft Managed Desktop 환경을 온보드하는 경우 로컬 지원 센터 및 보안에 대한 연락처를 추가하라는 메시지가 표시됩니다. 
 
-[지원 요청을 제출](../working-with-managed-desktop/support.md)하는 경우 관리자 연락처가 필요합니다. 지원 요청의 포커스 영역에 대한 관리자에게 문의해야 합니다. 
+[지원 요청을 제출](../service-description/support.md)하는 경우 관리자 연락처가 필요합니다. 지원 요청의 포커스 영역에 대한 관리자에게 문의해야 합니다. 
 
 **관리자 연락처 추가하기**
 

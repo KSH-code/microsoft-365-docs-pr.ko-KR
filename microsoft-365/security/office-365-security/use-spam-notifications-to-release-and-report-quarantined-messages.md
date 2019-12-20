@@ -16,12 +16,12 @@ ms.assetid: 56de4ed5-b0aa-4195-9f46-033d7cc086bc
 ms.collection:
 - M365-security-compliance
 description: 관리자가 사용자에 게 알림을 사용 하도록 설정 하는 경우 사서함에 전송 된 메시지를 스팸, 대량 또는 피싱 메시지로 식별 하는 알림 메시지가 표시 됩니다. 알림을 받은 후에는 메시지를 해제 하거나 보고할 수 있습니다.
-ms.openlocfilehash: 4cf592f0aec948c3c8f6383cf288fb32ac644cd6
-ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
+ms.openlocfilehash: c8253ba7002ac88932cbef07508215a3d9a65f75
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "39971366"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40806711"
 ---
 # <a name="use-user-spam-notifications-to-release-and-report-quarantined-messages-in-office-365"></a>Office 365에서 사용자 스팸 알림을 사용하여 격리된 메시지 릴리스 및 보고
 
@@ -41,6 +41,8 @@ ms.locfileid: "39971366"
 격리 된 메시지를 사용 하 여 수행할 수 있는 작업은 다음과 같습니다.
 
 - Office 365에서 수신 거부 목록에 보낸 사람을 추가 하려는 경우 **보낸 사람을 차단** 합니다.
+
+- 메시지가 스팸으로 아니면 Office 365에서 사서함으로 메시지를 보내도록 하려면 **릴리스** 를 선택 합니다.
 
 - Preview 또는 Release와 같은 다른 작업을 수행 하려는 경우 보안 및 준수 센터 내의 격리 포털로 이동 하는 방법을 **검토** 합니다.
 

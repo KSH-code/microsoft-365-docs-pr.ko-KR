@@ -17,19 +17,19 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 0c4231fa6284d967bcc49e4d46b0869c57733443
-ms.sourcegitcommit: 0c9c28a87201c7470716216d99175356fb3d1a47
-ms.translationtype: MT + HT Review
+ms.openlocfilehash: 1095b69f5e8fc4f69d1bdf3f6e68b99cbcdd9afa
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/09/2019
-ms.locfileid: "39911431"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40808643"
 ---
 # <a name="prioritize-incidents-in-microsoft-threat-protection"></a>Microsoft Threat Protection 사고 우선순위
 
 **적용 대상:**
 - Microsoft Threat Protection 
 
-[!include[Prerelease information](prerelease.md)]
+[!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
 Microsoft Threat Protection은 상관 관계 분석을 하고 관련된 모든 알람을 수집한 뒤 각각의 다른 제품에서 발생한 알람을 하나의 사고로 조사합니다.  Microsoft Threat Protection 전체 항목 및 제품군 엔드 투 엔드 가시성에서 악성으로 판단된 작업에 대해서는 특별 알람을 발생시킵니다.  Microsoft Threat Protection은 보다 광범위한 공격내용을 구연함으로써 보안 운영 분석가가 조직 전반을 위협하는 복잡한 공격을 이해하고 처리할 수 있도록 합니다. 
 

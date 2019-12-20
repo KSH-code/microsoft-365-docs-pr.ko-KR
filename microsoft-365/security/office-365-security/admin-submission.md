@@ -1,5 +1,5 @@
 ---
-title: Office 365, O365 전송, Office 365 스팸 문제, O365 가양성, 검색을 위한 전자 메일 전송, office 365에서 의심 스러운 전자 메일, 메일 검색, 365 피싱에 대 한 Microsoft 검색, Microsoft scan for 피싱, submit for 스팸, 제출 전자 메일, 전송 전자 메일, dodgy 전자 메일, 잘못 된 행위자 메일, 의심 스러운, 신뢰할 수 없는 메일
+title: Office 365, O365 전송, Office 365 스팸 문제, O365 가양성, 검색을 위한 전자 메일 전송, office 365에서 의심 스러운 전자 메일, 메일 검색, 365 피싱에 대 한 Microsoft 검색, Microsoft scan for 피싱, submit for 스팸, 제출 전자 메일, 전송 전자 메일, dodgy 전자 메일, 잘못 된 작업자 메일, 의심 스러운, 신뢰할 수 없는 메일, 보고서 피싱 전자 메일을 microsoft에 보고 하 고 microsoft에 게 microsoft에 사기 전자 메일 신고 받은 편지함의 전자 메일 office 365, 전자 메일 office 365의 바이러스
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
@@ -13,12 +13,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Office 365 테 넌 트에서 의심 스러운 전자 메일, 의심 스러운 메일, 스팸 및 기타 해로운 메시지, Url 및 파일을 검색을 위해 Microsoft에 제출 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 3d53c8270e84cd6f6298b9b39cc7e37262aed7b0
-ms.sourcegitcommit: 9c9044885eb9754ce69f2f08afdcc13c782ce2f9
+ms.openlocfilehash: 54cb42f8c02f2f41ad583d640a090509817911ee
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39915219"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40808553"
 ---
 # <a name="how-to-submit-suspected-spam-phish-urls-and-files-to-microsoft-for-office-365-scanning"></a>Microsoft에 Office 365를 검색 하기 위해 의심 스러운 스팸, 피싱, Url 및 파일을 제출 하는 방법
 

@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 그룹을 사용하여 일부 관리 작업을 자동화할 수 있습니다.
-ms.openlocfilehash: 0d46a2af5683b8da40275302460d453f1f14acbe
-ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
+ms.openlocfilehash: 49cdb0c3d394cb423d0565d7093f1b32b6661158
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39831661"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40801713"
 ---
 # <a name="step-5-use-groups-for-management"></a>5단계: 그룹을 사용하여 관리하십시오.
 
@@ -27,7 +27,7 @@ ms.locfileid: "39831661"
 <a name="identity-self-service-groups"></a>
 ## <a name="allow-users-to-create-and-manage-their-own-groups"></a>사용자가 자신의 그룹을 만들고 관리하도록 허용하십시오.
 
-*이 단계는 선택 사항이며, Microsoft 365 Enterprise E3 및 E5 버전에 적용됩니다.*
+*이 단계는 선택 사항이며 Microsoft 365 E3 및 E5 버전에 모두 적용됩니다*
 
 이 부문에서 IT 관리자를 대신하여 그룹 소유자가 관리할 수 있는 Azure 액티브 디렉토리(Azure AD-Microsoft Azure Active Directory) 그룹을 식별할 것입니다. *셀프 서비스 그룹 관리*로 알려진 기능은 관리역할이 할당되지 않은 그룹 소유자가 보안 그룹을 생성하고 관리할 수 있도록 해줍니다. 
 
@@ -44,7 +44,7 @@ ms.locfileid: "39831661"
 <a name="identity-dyn-groups"></a>
 ## <a name="set-up-dynamic-group-membership"></a>동적 그룹 구성원 설정
 
-*이 단계는 선택 사항이며, Microsoft 365 Enterprise E3 및 E5 버전에 적용됩니다.*
+*이 단계는 선택 사항이며 Microsoft 365 E3 및 E5 버전에 모두 적용됩니다*
 
 이 부문에서 Azure AD(Microsoft Azure Active Directory) 그룹의 구성원으로서 사용자 계정을 자동으로 추가하거나 제거할 수 있는 일련의 규칙을 생성할 것입니다. 이를 *동적 그룹 구성원*이라고 합니다. 이 규칙은 부서나 국가와 같은 사용자 계정 속성을 기반으로 하고 있습니다.
 
@@ -74,7 +74,7 @@ ms.locfileid: "39831661"
 <a name="identity-group-license"></a>
 ## <a name="set-up-automatic-licensing"></a>자동 라이선싱 설정
 
-*이 단계는 선택 사항이며, Microsoft 365 Enterprise E3 및 E5 버전에 적용됩니다.*
+*이 단계는 선택 사항이며 Microsoft 365 E3 및 E5 버전에 모두 적용됩니다*
 
 이 부문에서 그룹의 모든 구성원에게 일습의 구독 라이센스를 자동으로 할당하기 위해 Azure AD(Microsoft Azure Active Directory)의 보안 그룹을 구성할 것입니다. 이를 *그룹 기반 라이센싱*이라고 합니다. 사용자 계정이 그룹에 추가되거나 제거된다면 그룹 구독 라이센스는 사용자 계정에서 자동으로 할당되거나 할당 해제됩니다.
 

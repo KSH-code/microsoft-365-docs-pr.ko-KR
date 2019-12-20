@@ -1,6 +1,6 @@
 ---
 title: 메일을 빨간색으로 플래그 지정 했을 때 정책 및 보호 기능 결합 방법
-description: 전자 메일이 맬웨어, 스팸, 높은 신뢰도 스팸, 피싱, EOP 및/또는 ATP에 의해 대량으로 표시 될 때 적용 되는 정책 및 수행 해야 하는 작업을 설명 합니다.
+description: 전자 메일이 여러 개의 보호를 발생 하 고 여러 가지 형태의 검색을 통해 검색 되는 경우 적용 되는 정책 및 보호에 대해 설명 합니다. 전자 메일이 맬웨어, 스팸, 높은 신뢰도 스팸, 피싱, EOP 및/또는 ATP에 의해 대량으로 표시 될 때 적용 되는 정책 및 수행 해야 하는 작업을 설명 합니다.
 keywords: 보안, 맬웨어, Microsoft 365, M365, 보안 센터, ATP, Microsoft Defender ATP, Office 365 ATP, Azure ATP
 ms.author: tracyp
 author: MSFTTracyp
@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection:
 - M365-security-compliance
-ms.openlocfilehash: 1f1885730d1063a0c36d172f1f9d0e4ac4fb59c7
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 4ca5333f4b07878f8c7d206b78cf884f4e4eec82
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37087843"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40807993"
 ---
 # <a name="what-policy-applies-when-multiple-protection-methods-and-detection-scans-run-on-your-email"></a>전자 메일에 대해 여러 보호 방법 및 검색 검사가 실행 될 때 적용 되는 정책
 
@@ -29,11 +29,11 @@ ms.locfileid: "37087843"
 
 |우선 순위 |정책  |범주  |관리 되는 위치 |
 |---------|---------|---------|---------|
-|1      | 맬웨어      | MALW      | 맬웨어 정책   |
-|2      | 피싱     | PHSH     | 스팸 필터 정책 구성     |
-|3      | 높은 정확도 스팸      | HSPM        | 스팸 필터 정책 구성        |
-|4      | 스푸핑        | 스푸핑        | 피싱 방지 정책, 스푸핑 인텔리전스        |
-|5      | 스팸         | SPM         | 스팸 필터 정책 구성         |
+|개     | 맬웨어      | MALW      | 맬웨어 정책   |
+|2     | 피싱     | PHSH     | 스팸 필터 정책 구성     |
+|3(sp3)     | 높은 정확도 스팸      | HSPM        | 스팸 필터 정책 구성        |
+|1-4     | 스푸핑        | 스푸핑        | 피싱 방지 정책, 스푸핑 인텔리전스        |
+|2-5     | 스팸         | SPM         | 스팸 필터 정책 구성         |
 |6      | 대량         | 대량        | 스팸 필터 정책 구성         |
 
 또한 이러한 정책은 _ATP가 있는 조직_에 적용 됩니다.
@@ -47,8 +47,8 @@ ms.locfileid: "37087843"
 
 |정책  |우선 순위  |사용자/도메인 가장  |스푸핑 방지  |
 |---------|---------|---------|---------|
-|A     | 1         | 켜짐        |해제         |
-|B     | 2         | 해제        | 켜짐        |
+|A     | 개        | 켜짐        |해제         |
+|B     | 2        | 해제        | 켜짐        |
 
 메시지가 _사용자 가장_ 및 _스푸핑_ 으로 식별 되는 경우 (위 표의 스푸핑 방지 참조) 정책 a로 범위가 지정 된 동일한 사용자 집합은 정책 B로 범위가 설정 되 고, 메시지는 해당 메시지로 플래그 처리 되 고 _스푸핑_으로 취급 됩니다. 그러나 스푸핑이 보다 높은 우선 순위 (8)에서 실행 되지만 스푸핑 방지가 해제 되므로 아무 작업도 적용 되지 않습니다.
 

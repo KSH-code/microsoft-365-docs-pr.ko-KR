@@ -3,7 +3,7 @@ title: Office 365 Advanced Threat Protection 계획 2의 office 365 위협 조�
 ms.author: tracyp
 author: msfttracyp
 manager: dansimp
-ms.date: 12/04/2019
+ms.date: 12/09/2019
 audience: Admin
 ms.topic: overview
 ms.service: O365-seccomp
@@ -15,12 +15,12 @@ ms.assetid: 32405da5-bee1-4a4b-82e5-8399df94c512
 ms.collection:
 - M365-security-compliance
 description: Office 365 Advanced Threat Protection의 위협 인텔리전스 기능을 통해 조직에 대 한 위협을 파악 하 고, 맬웨어, 피싱 및 기타 공격에 대처 하 고 사용자를 대신 하 여 Office 365에서 검색 한 기타 공격과 위협을 검색할 수 있는 방법을 알아봅니다. 슬라이더.
-ms.openlocfilehash: 1e8a3cee67a3fdb56042bc83dac7b09367241bf3
-ms.sourcegitcommit: 8c244b38c43dd00c4ef0102f8bed02ab36639a6b
+ms.openlocfilehash: 45c12647b999e626cb620046aabc95fb4bfa8f4c
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39968001"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40808123"
 ---
 # <a name="office-365-threat-investigation-and-response"></a>Office 365 위협 조사 및 응답
 
@@ -85,9 +85,9 @@ ms.locfileid: "39968001"
 
 Office 365 위협 조사 및 응답 기능은 Enterprise E5에 포함 되거나 특정 구독에 대 한 추가 기능으로 제공 되는 Office 365 Advanced Threat Protection 계획 2에 포함 되어 있습니다. 자세한 내용은 [Office 365 ATP 계획 1 및 계획 2](office-365-atp.md#office-365-atp-plan-1-and-plan-2)를 참조 하세요.
 
-## <a name="required-roles-and-permissions"></a>필요한 역할 및 사용 권한
+## <a name="required-roles-and-permissions"></a>필요한 역할 및 사용 권한 할당
 
-Office 365 Advanced Threat Protection은 역할 기반 액세스 제어를 사용 합니다. 사용 권한은 Azure Active Directory, Microsoft 365 관리 센터 또는 Office 365 보안 & 준수 센터에서 역할을 통해 할당 됩니다.
+Office 365 Advanced Threat Protection은 역할 기반 액세스 제어를 사용 합니다. 사용 권한은 Azure Active Directory의 특정 역할, Microsoft 365 관리 센터 또는 Office 365 보안 & 준수 센터를 통해 할당 됩니다.
 
 > [!TIP]
 > 보안 관리자와 같은 일부 역할은 Office 365 보안 & 준수 센터에서 할당할 수 있지만 대신 Microsoft 365 관리 센터 또는 Azure Active Directory를 사용 하는 것이 좋습니다. 역할, 역할 그룹 및 권한에 대 한 자세한 내용은 다음 리소스를 참조 하십시오.

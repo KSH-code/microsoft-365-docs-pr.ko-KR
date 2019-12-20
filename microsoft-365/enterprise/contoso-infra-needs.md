@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Contoso 온-프레미스 IT 인프라의 기본 구조와 Microsoft 365 Enterprise로 해당 비즈니스 요구를 충족하는 방법을 이해합니다.
-ms.openlocfilehash: 157aa17e6ea5c345c1c1c5bdc9a2588f6384277d
-ms.sourcegitcommit: 9ee873c6a2f738a0c99921e036894b646742e706
+ms.openlocfilehash: d98f401ae4a39e3e04b5840e8f76c1e3e1b1a24d
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38673194"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40802073"
 ---
 # <a name="contosos-it-infrastructure-and-business-needs"></a>Contoso의 IT 인프라 및 비즈니스 요구 사항
 
@@ -113,7 +113,7 @@ Contoso의 비즈니스 요구 사항은 다섯 가지 주요 범주로 나뉩�
 
 ## <a name="mapping-contosos-business-needs-to-microsoft-365-enterprise"></a>Contoso의 비즈니스 요구 사항에 맞는 Microsoft 365 Enterprise 제품 찾기
 
-Contoso의 IT 부서는 배포 전에 비즈니스 요구에 맞는 다음과 같은 Microsoft 365 Enterprise E5 기능을 파악했습니다.
+Contoso의 IT 부서는 배포 전에 Microsoft 365 E5 기능에 대한 비즈니스 요구 사항의 매핑을 다음과 같이 결정했습니다.
 
 ||||
 |:-------|:-----|:-----|

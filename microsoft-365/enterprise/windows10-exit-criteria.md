@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 구성이 Windows 10 Enterprise에 대한 Microsoft 365 Enterprise 조건을 충족하는지 확인합니다.
-ms.openlocfilehash: 98dd4b71f1c2af6d72580066d73e75dfd4aa60ff
-ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
+ms.openlocfilehash: d51392572c78edb1a21f5edc3229057b9af3f514
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38627532"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40801223"
 ---
 # <a name="phase-3-windows-10-enterprise-infrastructure-exit-criteria"></a>3단계: Windows 10 Enterprise 인프라 종료 기준
 
@@ -111,7 +111,7 @@ Windows Defender Exploit Guard를 배포하여 Windows 10 Enterprise 실행 장�
 필요한 경우 [5단계](windows10-enable-security-features.md#windows10-sec-eg)를 통해 이 요구 사항을 충족할 수 있습니다.
 
 <a name="crit-windows10-step5c"></a>
-## <a name="required-you-are-using-microsoft-defender-advanced-threat-protection-microsoft-365-enterprise-e5-only"></a>필수 작업: Microsoft Defender Advanced Threat Protection 사용(Microsoft 365 Enterprise E5만 해당)
+## <a name="required-you-are-using-microsoft-defender-advanced-threat-protection-microsoft-365-e5-only"></a>필수: Microsoft Defender Advanced Threat Protection을 사용(Microsoft 365 E5만 해당).
 
 Microsoft Defender ATP(Advanced Threat Protection)를 배포하여 네트워크 및 Windows 10 Enterprise 실행 장치에 대한 고급 위협 감지, 조사, 대응 
 

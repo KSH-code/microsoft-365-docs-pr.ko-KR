@@ -1,4 +1,4 @@
-ID 인프라 관련 추가 권장 사항에 대해서는 [필수 구성 요소](https://docs.microsoft.com/microsoft-365-enterprise/identity-access-policies#prerequisites)를 참조하세요.
+ID 인프라 관련 추가 권장 사항에 대해서는 [필수 구성 요소](https://docs.microsoft.com/microsoft-365/enterprise/identity-access-prerequisites)를 참조하세요.
 
 <a name="crit-identity-global-admin"></a>
 ### <a name="required-your-global-administrator-accounts-are-protected"></a>필수: 전역 관리자 계정 보호 
@@ -14,7 +14,7 @@ Microsoft 365 구독을 위반할 수 있는 공격자의 자격 증명 손상�
 다음 단계를 사용하여 전역 관리자 계정을 보호했는지 확인합니다.
 
 1. PowerShell 명령 프롬프트에서 다음의 Azure Active Directory PowerShell for Graph 명령을 실행하세요. 전담 전역 관리자 계정 목록만 표시됩니다.
-   ```
+   ```powershell
    Get-AzureADDirectoryRole | where { $_.DisplayName -eq "Company Administrator" } | Get-AzureADDirectoryRoleMember | Ft DisplayName
    ```
 2. 1단계의 각 계정을 사용하여 Office 365에 로그인 합니다. 로그인할 때마다 Azure 다단계 인증 및 조직에서 사용 가능한 가장 강력한 형태의 보조 인증을 요구해야 합니다.
@@ -93,7 +93,7 @@ Microsoft 365 구독을 위반할 수 있는 공격자의 자격 증명 손상�
 5.  테스트 사용자 계정을 삭제합니다.
 
 <a name="crit-identity-ident-prot"></a>
-### <a name="optional-azure-ad-identity-protection-is-enabled-to-protect-against-credential-compromise-microsoft-365-enterprise-e5-only"></a>선택: Azure AD ID 보호를 사용하도록 설정하여 자격 증명 손상으로부터 보호(Microsoft 365 Enterprise E5만 해당)
+### <a name="optional-azure-ad-identity-protection-is-enabled-to-protect-against-credential-compromise-microsoft-365-e5-only"></a>선택: Azure AD ID 보호를 사용하도록 설정하여 자격 증명의 노출을 방지(Microsoft 365 E5만 해당)
 
 다음을 위해 Azure AD ID 보호를 사용하도록 설정해야 합니다.
 

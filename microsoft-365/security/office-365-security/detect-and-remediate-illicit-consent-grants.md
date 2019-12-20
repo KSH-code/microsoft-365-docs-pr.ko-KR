@@ -14,12 +14,12 @@ localization_priority: Normal
 search.appverid:
 - MET150
 description: Office 365에서 불법 동의 권한 부여 공격을 인식하고 교정하는 방법에 대해 알아보세요.
-ms.openlocfilehash: 10c03fe0370732e9cb1a10a55767648ae0ddb80b
-ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
-ms.translationtype: HT
+ms.openlocfilehash: 46387f82a38c33debdc24a6825479bf3183f0283
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "39971726"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40808433"
 ---
 # <a name="detect-and-remediate-illicit-consent-grants-in-office-365"></a>Office 365에서 불법 동의 권한 부여 검색 및 교정
 
@@ -43,7 +43,7 @@ ms.locfileid: "39971726"
 4. 확장 속성을 확인하고 IsAdminContent가 True로 설정되어 있는지 확인합니다.
 
 > [!NOTE]
-> • 검색 결과에 해당 감사 로그 항목이 표시되려면 이벤트 발생 시점으로부터 30분에서 24시간 정도 걸릴 수 있습니다. <br/><br/> • 감사 기록이 보존되고 감사 로그에서 검색 가능한 시간은 Office 365 구독, 특히 특정 사용자에게 할당된 라이선스 유형에 따라 다릅니다. 자세한 내용은 [감사 로그](../../compliance/search-the-audit-log-in-security-and-compliance.md)를 참조하세요.
+> • 검색 결과에 해당 감사 로그 항목이 표시되려면 이벤트 발생 시점으로부터 30분에서 24시간 정도 걸릴 수 있습니다.<br/><br/> • 감사 기록이 보존되고 감사 로그에서 검색 가능한 시간은 Office 365 구독, 특히 특정 사용자에게 할당된 라이선스 유형에 따라 다릅니다. 자세한 내용은 [감사 로그](../../compliance/search-the-audit-log-in-security-and-compliance.md)를 참조하세요.
 이 값이 true이면 전역 관리자 액세스 권한이 있는 사용자가 데이터에 대한 광범위한 액세스 권한을 부여할 수 있음을 나타냅니다. 예기치 않은 상황이라면 [공격을 확인](#how-to-confirm-an-attack)하는 단계를 수행하세요.
 
 ## <a name="how-to-confirm-an-attack"></a>공격을 확인하는 방법
@@ -101,7 +101,7 @@ Azure Active Directory 포털이나 PowerShell을 사용하여 사용자를 위�
 
 3. PowerShell 인스턴스를 관리자로 열고 스크립트를 저장한 폴더를 엽니다.
 
-4. [Connect-AzureAD](https://docs.microsoft.com/powershell/module/azuread/connect-azuread?view=azureadps-2.0) cmdlet을 사용하여 디렉터리에 연결합니다.
+4. [Connect-AzureAD](https://docs.microsoft.com/powershell/module/azuread/connect-azuread) cmdlet을 사용하여 디렉터리에 연결합니다.
 
 5. 이 PowerShell 명령을 실행합니다.
 
@@ -140,9 +140,9 @@ Azure Active Directory 포털이나 PowerShell을 사용하여 사용자를 위�
 
   - 드릴 다운에서 **제거**를 클릭합니다.
 
-- [Remove-AzureADOAuth2PermissionGrant](https://docs.microsoft.com/powershell/module/azuread/Remove-AzureADOAuth2PermissionGrant?view=azureadps-2.0)에 나와 있는 단계를 따라 PowerShell에서 OAuth 승인 부여를 해지할 수 있습니다.
+- [Remove-AzureADOAuth2PermissionGrant](https://docs.microsoft.com/powershell/module/azuread/Remove-AzureADOAuth2PermissionGrant)에 나와 있는 단계를 따라 PowerShell에서 OAuth 승인 부여를 해지할 수 있습니다.
 
-- [Remove-AzureADServiceAppRoleAssignment](https://docs.microsoft.com/powershell/module/azuread/Remove-AzureADServiceAppRoleAssignment?view=azureadps-2.0)의 단계에 따라 PowerShell을 사용하여 서비스 앱 역할 할당을 해지할 수 있습니다.
+- [Remove-AzureADServiceAppRoleAssignment](https://docs.microsoft.com/powershell/module/azuread/Remove-AzureADServiceAppRoleAssignment)의 단계에 따라 PowerShell을 사용하여 서비스 앱 역할 할당을 해지할 수 있습니다.
 
 - 영향을 받는 계정에 대한 로그인을 사용하지 않도록 설정할 수도 있습니다. 그러면 해당 계정의 데이터에 대한 앱 액세스를 해제합니다. 이는 최종 사용자의 생산성에 이상적이지는 않지만 영향을 신속하게 제한려 한다면 단기적으로 조치가 될 수 있습니다.
 

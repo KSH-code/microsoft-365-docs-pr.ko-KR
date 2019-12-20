@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Contoso가 Microsoft 365 Enterprise에서 보안 기능을 사용하는 방법
-ms.openlocfilehash: fb5e99f775c8e23b8ea522ca15b115a5c5d3aedf
-ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
+ms.openlocfilehash: fd3f73919a113389e9d423dbed11cf0074fb5833
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39831889"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40802063"
 ---
 # <a name="summary-of-microsoft-365-enterprise-security-for-the-contoso-corporation"></a>Contoso Corporation의 Microsoft 365 Enterprise 보안 요약
 
@@ -54,7 +54,7 @@ Contoso의 보안 관리자 및 IT 부서는 보안 모범 사례 및 Microsoft 
 
 - MFA 및 PIM이 있는 전용 전역 관리자 계정
 
-  일상적인 사용자 계정에 전역 관리자 역할을 할당하지 않고, Contoso는 강력한 암호를 가지는 3개의 전용 전역 관리자 계정을 만든 후, Azure 다단계 인증 (MFA )및 Azure 활성 디렉터리 (Azure AD), 특권 계정 관리 (PIM)로 보호했습니다. PIM에서만 Microsoft 365 Enterprise E5와 함께 사용할 수 있습니다.
+  일상적인 사용자 계정에 전역 관리자 역할을 할당하지 않고, Contoso는 강력한 암호를 가지는 3개의 전용 전역 관리자 계정을 만든 후, Azure 다단계 인증 (MFA )및 Azure 활성 디렉터리 (Azure AD), 특권 계정 관리 (PIM)로 보호했습니다. PIM은 Microsoft 365 E5에서만 사용할 수 있습니다.
 
   전역 관리자 계정을 사용한 로그인은 특정 관리 작업에 대해서만 수행되고, 암호는 지정된 직원만 알고 있으며, Azure AD PIM을 사용하여 구성된 시간 내에서만 사용할 수 있습니다. 
 
@@ -117,7 +117,7 @@ Contoso의 보안 관리자 및 IT 부서는 보안 모범 사례 및 Microsoft 
 
 - Microsoft Cloud App Security를 사용하는 클라우드 모니터링
 
-  Contoso는 [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security)를 사용하여 클라우드 환경을 매핑하고, 사용 현황을 모니터링하고, 보안 이벤트 및 인시던트를 감지하고 있습니다. Microsoft Cloud App Security는 Microsoft 365 Enterprise E5에서만 사용할 수 있습니다.
+  Contoso는 [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security)를 사용하여 클라우드 환경을 매핑하고, 사용 현황을 모니터링하고, 보안 이벤트 및 인시던트를 감지하고 있습니다. Microsoft Cloud App Security는 Microsoft 365 E5에서만 사용할 수 있습니다.
 
 - Microsoft Intune을 사용한 장치 관리
 

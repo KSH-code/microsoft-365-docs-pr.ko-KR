@@ -14,12 +14,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: d1795031-beef-49ea-a6fc-5da5450d320d
 description: '요약: Office 365 개발/테스트 환경에서 조직의 나머지 부분과 격리 된 SharePoint Online 팀 사이트를 구성 합니다.'
-ms.openlocfilehash: 7f2f4fa15bd9cc3c78afa0e507aaeaf069f83932
-ms.sourcegitcommit: 2468bcb01625f97a322459814d81b9faad717859
+ms.openlocfilehash: ae76667a0c6c32dcf83b4fbd911a6e0b5db0c579
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39871824"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40808113"
 ---
 # <a name="isolated-sharepoint-online-team-site-devtest-environment"></a>격리된 SharePoint Online 팀 사이트 개발/테스트 환경
 
@@ -71,7 +71,7 @@ Office 365 개발/테스트 환경에서 격리 된 SharePoint Online 팀 사이
 
 ProjectX SharePoint Online 팀 사이트에 대 한 새 액세스 그룹을 만들려면 Windows PowerShell 프롬프트에 대 한 Windows Azure Active Directory 모듈에서 다음 명령을 실행 합니다.
 
-```
+```powershell
 $groupName="ProjectX-Members"
 $groupDesc="People allowed to collaborate for ProjectX."
 New-MsolGroup -DisplayName $groupName -Description $groupDesc
@@ -85,7 +85,7 @@ New-MsolGroup -DisplayName $groupName -Description $groupDesc
 
 조직 이름(예: contosotoycompany), 위치에 대한 2자리 국가 코드를 입력한 후 Windows PowerShell 프롬프트에 대한 Microsoft Azure Active Directory 모듈에서 다음 명령을 실행합니다.
 
-```
+```powershell
 $orgName="<organization name>"
 $loc="<two-character country code, such as US>"
 $licAssignment= $orgName + ":ENTERPRISEPREMIUM"
@@ -97,7 +97,7 @@ New-MsolUser -DisplayName "Lead Designer" -FirstName Lead -LastName Designer -Us
 
 Windows PowerShell 프롬프트에 대한 Microsoft Azure Active Directory 모듈에서 다음 명령을 실행합니다.
 
-```
+```powershell
 $userName= "researcher@" + $orgName + ".onmicrosoft.com"
 New-MsolUser -DisplayName "Lead Researcher" -FirstName Lead -LastName Researcher -UserPrincipalName $userName -UsageLocation $loc -LicenseAssignment $licAssignment -ForceChangePassword $false
 ```
@@ -106,7 +106,7 @@ New-MsolUser -DisplayName "Lead Researcher" -FirstName Lead -LastName Researcher
 
 Windows PowerShell 프롬프트에 대한 Microsoft Azure Active Directory 모듈에서 다음 명령을 실행합니다.
 
-```
+```powershell
 $userName= "devvp@" + $orgName + ".onmicrosoft.com"
 New-MsolUser -DisplayName "Development VP" -FirstName Development -LastName VP -UserPrincipalName $userName -UsageLocation $loc -LicenseAssignment $licAssignment -ForceChangePassword $false
 ```
@@ -115,7 +115,7 @@ New-MsolUser -DisplayName "Development VP" -FirstName Development -LastName VP -
 
 다음으로 새 액세스 그룹에 새 계정을 추가 하려면 Windows PowerShell 프롬프트에 대 한 Windows Azure Active Directory 모듈에서 다음 PowerShell 명령을 실행 합니다.
 
-```
+```powershell
 $grpName="ProjectX-Members"
 $userUPN="designer@" + $orgName + ".onmicrosoft.com"
 Add-MsolGroupMember -GroupObjectId (Get-MsolGroup | Where { $_.DisplayName -eq $grpName }).ObjectID -GroupMemberObjectId (Get-MsolUser | Where { $_.UserPrincipalName -eq $userUPN }).ObjectID -GroupMemberType "User"

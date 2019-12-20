@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Microsoft 365에 대한 향상된 보안을 이해하고 구성하십시오.
-ms.openlocfilehash: 290b10dd8e0bf9a7180bae72669b22f3d575f914
-ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
+ms.openlocfilehash: 15a4121315a81e1169e7cf1fa1c7ed079201b67b
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "37370175"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40801683"
 ---
 # <a name="step-3-configure-increased-security-for-microsoft-365"></a>3단계: Office 365에 대한 향상된 보안 구성
 
@@ -43,7 +43,7 @@ Microsoft 365 구독 및 해당 데이터가 시작되어 악의적인 위협으
 - 전자 메일의 [링크](https://docs.microsoft.com/office365/securitycompliance/atp-safe-links) 및 [첨부파일](https://docs.microsoft.com/office365/securitycompliance/atp-safe-attachments) 보호 
 - Exchange 온라인 및 [SharePoint Online, 비즈니스용 OneDrive 및 Microsoft 팀의 파일](https://docs.microsoft.com/office365/securitycompliance/atp-for-spo-odb-and-teams)에 정보 도용 및 피싱 방지 기능 제공 
 
-Office 365 ATP 에서만 Microsoft 365 Enterprise E5와 함께 사용할 수 있습니다.
+Office 365 ATP는 Microsoft 365 E5에서만 사용할 수 있습니다.
 
 |||
 |:-------|:-----|

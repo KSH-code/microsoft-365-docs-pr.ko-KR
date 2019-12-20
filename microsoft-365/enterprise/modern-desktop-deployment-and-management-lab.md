@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Windows 및 Office 배포 랩 키트에 액세스하는 방법 및 위치에 대해 알아보세요.
-ms.openlocfilehash: c3d3c8047e6814a56ec6470a9166fd0c13eb6839
-ms.sourcegitcommit: 6a413a65b8c2e10cea08f0a15635b28a1362a582
+ms.openlocfilehash: 0083eb91b49561c858cacc94a148e97c7463b754
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/19/2019
-ms.locfileid: "38718637"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40801363"
 ---
 # <a name="windows-and-office-deployment-lab-kit"></a>Windows 및 Office 배포 랩 키트
 
@@ -48,7 +48,7 @@ Windows 10 및 Office 365 ProPlus의 [데스크톱 배포](https://www.aka.ms/ho
 
 또한, 이 랩은 다음에 대한 평가판에 연결되도록 디자인되어 있습니다. 
 
-  - Microsoft 365 Enterprise E5
+  - Microsoft 365 E5
 
 또는
   - Office 365 Enterprise E5

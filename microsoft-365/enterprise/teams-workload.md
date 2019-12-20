@@ -12,12 +12,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 조직 전체에 대한 Microsoft Teams 교육 및 배포 단계.
-ms.openlocfilehash: 3f4ed40f3c28e9b8ce5c22dfa9bd93e9b1a9e1cb
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 8220d06fe90bc4bc793ab33d6121e93bb855f973
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38033603"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40801243"
 ---
 # <a name="deploy-microsoft-teams-for-microsoft-365-enterprise"></a>Microsoft 365 Enterprise용 Microsoft Teams 배포
 
@@ -43,7 +43,7 @@ Teams의 첫 번째 기능 집합에 대해서는 [Microsoft Teams의 채팅, �
 보다 고급 Teams 기능에 대한 내용은 다음을 참조하세요:
 
 - [모임 및 회의](https://docs.microsoft.com/microsoftteams/deploy-meetings-microsoft-teams-landing-page)
-- [클라우드 보이스](https://docs.microsoft.com/microsoftteams/cloud-voice-landing-page) (Microsoft 365 Enterprise E5가 필요)
+- [클라우드 보이스](https://docs.microsoft.com/microsoftteams/cloud-voice-landing-page) (Microsoft 365 E5가 필요)
 
 조직의 Teams 사용 현황을 모니터링하려면 다음을 참조하세요:
 

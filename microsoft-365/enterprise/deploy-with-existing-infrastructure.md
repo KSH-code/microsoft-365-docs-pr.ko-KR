@@ -1,5 +1,5 @@
 ---
-title: 기존 인프라를 사용하여 Microsoft 365 Enterprise 배포
+title: 기존 인프라를 사용하여 엔터프라이즈용 Microsoft 365 배포
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -12,19 +12,19 @@ ms.collection:
 - M365-subscription-management
 - Strat_O365_Enterprise
 ms.custom: ''
-description: 기존 인프라가 있는 경우 Microsoft 365 Enterprise 배포에 대한 종료 조건을 안내합니다.
-ms.openlocfilehash: 1b464398b981133e2851760d7bfe16869f1d1429
-ms.sourcegitcommit: 328b31f69663669b3c656b2e4db529f70d1c753e
+description: 기존 인프라가 있는 경우 엔터프라이즈용 Microsoft 365 배포에 대한 종료 조건을 안내합니다.
+ms.openlocfilehash: 1b3ed8edd84a1879f4cd46795fc55e3625a97be2
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/25/2019
-ms.locfileid: "37148512"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40801933"
 ---
-# <a name="deployment-of-microsoft-365-enterprise-with-existing-infrastructure"></a>기존 인프라를 사용하여 Microsoft 365 Enterprise 배포
+# <a name="deployment-of-microsoft-365-for-enterprise-with-existing-infrastructure"></a>기존 인프라를 사용하여 엔터프라이즈용 Microsoft 365 배포
 
-대부분의 조직에는 기존 네트워킹, ID 및 기타 구성 요소 또는 Microsoft 온-프레미스 제품 및 클라우드 기반 서비스가 있습니다. 이 문서에서는 기존 인프라를 조정하거나 변경하는 방법을 신속하게 확인할 수 있도록 Microsoft 365 Enterprise 배포의 각 단계를 안내합니다.
+대부분의 조직에는 기존 네트워킹, ID 및 기타 구성 요소 또는 Microsoft 온-프레미스 제품 및 클라우드 기반 서비스가 있습니다. 이 문서에서는 기존 인프라를 조정하거나 변경하는 방법을 신속하게 확인할 수 있도록 엔터프라이즈용 Microsoft 365 배포의 각 단계를 안내합니다.
 
-각 단계를 종료하려면 먼저 반드시 충족해야 하는 필수 조건과 고려할 선택적 조건의 집합인 종료 조건을 검사해야 합니다. 각 단계의 종료 조건은 온-프레미스 및 클라우드 인프라와 결과적인 종단 간 구성이 Microsoft 365 Enterprise 배포에 대한 요구 사항을 충족하는지 확인합니다.
+각 단계를 종료하려면 먼저 반드시 충족해야 하는 필수 조건과 고려할 선택적 조건의 집합인 종료 조건을 검사해야 합니다. 각 단계의 종료 조건은 온-프레미스 및 클라우드 인프라와 결과적인 종단 간 구성이 엔터프라이즈용 Microsoft 365 배포에 대한 요구 사항을 충족하는지 확인합니다.
 
 > [!Note] 
 > FastTrack은 사용자가 원하는 일정에 따라 클라우드로 전환할 수 있도록 Microsoft 엔지니어가 제공하는 지속적이고 반복 가능한 혜택입니다(구독의 일부로 무료로 제공). 또한 FastTrack은 필요에 따라 적격 파트너에게 추가 서비스에 대한 액세스를 제공합니다. 지금까지 40,000여 명의 고객을 보유한 FastTrack은 조직 전체에서 ROI를 극대화하고, 배포를 가속화하고, 도입을 늘리도록 도와줍니다. [Microsoft 365용 FastTrack](https://fasttrack.microsoft.com/microsoft365)을 참조하세요.

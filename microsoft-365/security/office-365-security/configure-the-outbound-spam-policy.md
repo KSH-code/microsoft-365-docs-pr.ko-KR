@@ -14,12 +14,12 @@ ms.assetid: a44764e9-a5d2-4c67-8888-e7fb871c17c7
 ms.collection:
 - M365-security-compliance
 description: 아웃바운드 전자 메일 보내기 서비스를 사용하는 경우 아웃바운드 스팸 필터링이 항상 사용하도록 설정되므로 서비스와 받는 사람을 사용하여 조직을 보호할 수 있습니다.
-ms.openlocfilehash: 06c74b578d7c18ad2f193bcbd4a8f9cdb6794416
-ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
+ms.openlocfilehash: 43939022dc365f5b28418d96ae1217e159312da1
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "39970874"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40808443"
 ---
 # <a name="configure-the-outbound-spam-policy"></a>아웃바운드 스팸 정책 구성
 
@@ -61,11 +61,11 @@ ms.locfileid: "39970874"
 
    이 설정을 사용하여 지정되는 도메인의 관리자에게는 해당 사용자의 아웃바운드 메시지가 차단되었다는 알림이 제공됩니다.  이 알림의 모양을 보려면 [보낸 사람이 보내는 아웃 바운드 스팸 차단 되 면 샘플 알림](sample-notification-when-a-sender-is-blocked-sending-outbound-spam.md)을 참조하세요.
 
-   [NOTE!] 사용자가 제한 되었음을 나타내는 시스템 경고도 생성 됩니다.  경고에 대 한 자세한 내용을 보고 사용자를 복구 하는 방법에 대 한 자세한 내용은 [스팸 메일을 보낸 후 제한 된 사용자 포털에서 사용자 제거](removing-user-from-restricted-users-portal-after-spam.md)를 참조 하세요.
+   > [NOTE!] 사용자가 제한 되었음을 나타내는 시스템 경고도 생성 됩니다.  경고에 대 한 자세한 내용을 보고 사용자를 복구 하는 방법에 대 한 자세한 내용은 [스팸 메일을 보낸 후 제한 된 사용자 포털에서 사용자 제거](removing-user-from-restricted-users-portal-after-spam.md)를 참조 하세요.
 
 4. **받는 사람 제한** 섹션을 확장 하 여 사용자가 내부 및 외부 받는 사람에 대해 하루 당 최대 수와 함께 보낼 수 있는 최대 받는 사람 수를 지정 합니다.
 
-    [NOTE!] 모든 입력의 최대 수는 1만입니다.  자세한 내용은 [Exchange online 내에서의 수신 및 전송 제한](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#receiving-and-sending-limits) 참조
+    > [NOTE!] 모든 입력의 최대 수는 1만입니다.  자세한 내용은 [Exchange online 내에서의 수신 및 전송 제한](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#receiving-and-sending-limits) 참조
 
 7. 사용자가 지정 된 제한을 초과 했을 때 수행할 **작업** 을 지정 합니다.  가능한 작업은 다음과 같습니다.
     * **다음 날까지 사용자가 메일을 보낼 수 없도록**합니다.  전송 제한이 초과 되 면 (내부, 외부 또는 매일) 관리자에 대 한 경고가 생성 되며 사용자는 UTC 시간을 기준으로 다음 날까지 더 이상 전자 메일을 보낼 수 없게 됩니다. 관리자가이 블록을 무시할 수 있는 방법은 없습니다.

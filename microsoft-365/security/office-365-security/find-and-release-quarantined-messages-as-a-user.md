@@ -15,12 +15,12 @@ ms.assetid: efff08ec-68ff-4099-89b7-266e3c4817be
 ms.collection:
 - M365-security-compliance
 description: Office 365 사용자는 스팸으로 격리된 자신의 메시지를 수신한 스팸 알림에서 직접 응답(관리자가 기능을 설정한 경우)하거나 보안 &amp; 준수 센터에서 스팸 격리 기능을 사용하여 관리할 수 있습니다.
-ms.openlocfilehash: c912c19571cde31c39f4ca3f44c7628ba8b29526
-ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
+ms.openlocfilehash: bcc9b7ed52af0e9920506aa667e51daad7f82c80
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "39970464"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40808003"
 ---
 # <a name="find-and-release-quarantined-messages-as-a-user-in-office-365"></a>Office 365에서 사용자 권한으로 격리된 메시지 검색 및 해제
 
@@ -36,7 +36,7 @@ Office 365 사용자는 자신에게 전송되지 않고 격리된 메시지를 
 2. 왼쪽에서 **위협 관리**를 펼치고 **검토**를 선택한 후, **격리**를 선택합니다.
 
     > [!TIP]
-    > 보안 &amp; 준수 센터의 **격리** 페이지로 바로 이동하려면 다음 URL을 사용합니다. [https://protection.office.com/?hash=/quarantine](https://protection.office.com/?hash=/quarantine)
+    > 보안 &amp; 준수 센터의 **격리** 페이지로 바로 이동하려면 다음의 URL을 사용합니다. [https://protection.office.com/?hash=/quarantine](https://protection.office.com/?hash=/quarantine)
 
 기본적으로 보안 &amp; 준수 센터는 스팸으로 격리 처리된 모든 전자 메일 메시지를 표시합니다. 메시지를 수신한 **날짜**를 기준으로 최신 항목부터 가장 오래된 항목 순으로 메시지가 정렬됩니다. 각 메시지의 **보낸 사람**, **제목**, 만료 날짜(**만료** 아래)도 표시됩니다. 해당 열 머리글을 클릭하면 필드를 정렬할 수 있습니다. 열 머리글을 두 번 클릭하면 정렬 순서가 반대로 설정됩니다.
 

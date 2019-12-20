@@ -16,12 +16,12 @@ search.appverid:
 ms.custom: ''
 ms.assetid: c2112ce8-1c4b-424f-b200-59e161db2d21
 description: '요약: 정치적 캠페인 개발/테스트 환경에서 공용, 개인, 중요 및 극비 SharePoint Online 팀 사이트를 만듭니다.'
-ms.openlocfilehash: bade24bbe0ebcf56007a7b5650ee5a55fc3697b6
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: db248081460c30dbc1fb10b7e0ea2d55dbb8d3ab
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088941"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40808593"
 ---
 # <a name="create-team-sites-in-a-political-campaign-devtest-environment"></a>정치적 캠페인 개발/테스트 환경에서 팀 사이트 만들기
 
@@ -37,7 +37,7 @@ ms.locfileid: "37088941"
 
 이 단계에서는 SharePoint Online 팀 사이트에 있는 문서 폴더의 다양한 보안 수준에 대한 레이블을 만듭니다.
   
-1. 필요한 경우 평가판 구독의 전역 관리자 계정 자격 증명으로 관리 센터에 로그인합니다. 도움을 받으려면 [Office 365에 로그인하는 위치](https://support.office.com/Article/Where-to-sign-in-to-Office-365-e9eb7d51-5430-4929-91ab-6157c5a050b4)를 참조하세요.
+1. 필요한 경우 평가판 구독의 전역 관리자 계정 자격 증명으로 관리 센터에 로그인합니다. 도움을 받으려면 [Office 365에 로그인하는 위치](https://support.office.com/article/e9eb7d51-5430-4929-91ab-6157c5a050b4)를 참조하세요.
     
 2. **Microsoft Office 홈** 탭에서 **관리** 타일을 클릭합니다.
     
@@ -367,13 +367,11 @@ ms.locfileid: "37088941"
   
 다음으로, 아래 단계에 따라 보호 및 권한에 대한 새 범위 지정 정책 및 하위 레이블을 사용하여 Azure Information Protection을 구성합니다.
   
-1. 보안 관리자 또는 회사 관리자 역할이 있는 계정으로 로그인합니다. 도움을 받으려면 [Office 365에 로그인하는 위치](https://support.office.com/Article/Where-to-sign-in-to-Office-365-e9eb7d51-5430-4929-91ab-6157c5a050b4)를 참조하세요.
+1. 보안 관리자 또는 회사 관리자 역할이 있는 계정으로 로그인합니다. 도움을 받으려면 [Office 365에 로그인하는 위치](https://support.office.com/article/e9eb7d51-5430-4929-91ab-6157c5a050b4)를 참조하세요.
     
 2. 브라우저의 별도 탭에서 Azure Portal([https://portal.azure.com](https://portal.azure.com))로 이동합니다.
     
-3. 처음으로 Azure Information Protection을 구성하는 경우 다음 [지침](https://docs.microsoft.com/information-protection/deploy-use/configure-policy#to-access-the-azure-information-protection-blade-for-the-first-time)을 참조하세요.
-    
-4. 목록 창에서 **모든 서비스**를 클릭하고 **정보**를 입력한 다음, **Azure Information Protection**을 클릭합니다.
+4. 검색 창에서 **정보**를 입력하고 **Azure Information Protection**을 클릭합니다.
 
 5. **레이블**을 클릭합니다.
     

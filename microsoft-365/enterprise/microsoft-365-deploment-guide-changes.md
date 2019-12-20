@@ -1,9 +1,9 @@
 ---
-title: Microsoft 365 Enterprise 배포 컨텐츠의 변경 사항
+title: 엔터프라이즈용 Microsoft 365 배포 컨텐츠의 변경 사항
 author: JoeDavies-MSFT
 ms.author: josephd
 manager: laurawi
-ms.date: 12/03/2019
+ms.date: 12/18/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,14 +13,14 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Microsoft 365 배포 가이드의 새로운 내용 및 콘텐츠에 대한 변경 사항을 확인하세요.
-ms.openlocfilehash: bf7cda762d2ac7a8fd57135b985d893ee03c0646
-ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
+ms.openlocfilehash: 9f5b586defa460648c1d3a7b5972124497d0f53f
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39831829"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40801563"
 ---
-# <a name="changes-to-microsoft-365-enterprise-deployment-content"></a>Microsoft 365 Enterprise 배포 컨텐츠의 변경 사항
+# <a name="changes-to-microsoft-365-for-enterprise-deployment-content"></a>엔터프라이즈용 Microsoft 365 배포 컨텐츠의 변경 사항
 
 ## <a name="december-2019"></a>2019년 12월
 
@@ -31,14 +31,13 @@ ms.locfileid: "39831829"
 ### <a name="updates-and-enhancements"></a>업데이트 및 향상된 기능
 
 - [SharePoint Online 사이트 및 파일 보호](https://docs.microsoft.com/microsoft-365/security/office-365-security/secure-sharepoint-online-sites-and-files)
--  새 평가판 구독 절차에 대한 [간단한 기본 구성](lightweight-base-configuration-microsoft-365-enterprise.md) 및 [시뮬레이트된 엔터프라이즈 기본 구성](simulated-ent-base-configuration-microsoft-365-enterprise.md)
-- 
+-  [테스트 랩 가이드](m365-enterprise-test-lab-guides.md) 집합의 새로 고침 
 
 ## <a name="november-2019"></a>2019년 11월
 
 ### <a name="new-content"></a>새로운 내용 
 
-- [Microsoft 365 Business에서 Microsoft 365 Enterprise E3로 마이그레이션](https://docs.microsoft.com/microsoft-365/business/migrate-from-microsoft-365-business-to-microsoft-365-enterprise)
+- [Microsoft 365 Business에서 Microsoft 365 E3로 마이그레이션](https://docs.microsoft.com/microsoft-365/business/migrate-from-microsoft-365-business-to-microsoft-365-enterprise)
 
 - [Contoso Corporation의 극비 프로젝트를 위한 팀](contoso-team-for-top-secret-project.md)
 
@@ -93,9 +92,9 @@ ms.locfileid: "39831829"
  
   [![높은 규제 대상 데이터를 위한 SharePoint 사이트 시나리오](./media/teams-sharepoint-online-sites-highly-regulated-data/end-to-end-configuration.png)](teams-sharepoint-online-sites-highly-regulated-data.md)
 
-- 새 시나리오를 위한 [Microsoft 365 Enterprise 포스터](microsoft-365-overview.md#get-the-big-picture) 
+- 새 시나리오를 위한 [엔터프라이즈용 Microsoft 365 포스터](microsoft-365-overview.md#get-the-big-picture) 
 
-  [![Microsoft 365 Enterprise 포스터 이미지](./media/m365-poster/m365e-poster.png)](media/m365-poster/Microsoft365Enterprise.pdf)
+  [![엔터프라이즈용 Microsoft 365 포스터 이미지](./media/m365-poster/m365e-poster.png)](media/m365-poster/Microsoft365Enterprise.pdf)
 
 ## <a name="september-2019"></a>2019년 9월
 
@@ -118,11 +117,11 @@ ms.locfileid: "39831829"
 
 ### <a name="new-content"></a>새로운 내용 
 
-- [Microsoft 365 Enterprise로의 조직의 전환 포스터](migration-microsoft-365-enterprise-workload.md#transition-your-entire-organization)
+- [엔터프라이즈용 Microsoft 365 Enterprise로의 조직의 전환 포스터](migration-microsoft-365-enterprise-workload.md#transition-your-entire-organization)
 
    [![Microsoft 365로의 전환 포스터 이미지](./media/deploy-microsoft-365-enterprise/transition-org-to-m365.png)](media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf)
  
-- [Microsoft 365 Enterprise의 ID 인프라 포스터](identity-infrastructure.md)
+- [엔터프라이즈용 Microsoft 365의 ID 인프라 포스터](identity-infrastructure.md)
 
   [![ID 인프라 포스터](./media/identity-infrastructure/m365e-identity-arch-poster.png)](media/identity-infrastructure/M365E-ID-Infra.pdf)
 
@@ -136,17 +135,17 @@ ms.locfileid: "39831829"
   공지: [Microsoft 365 기술 커뮤니티 블로그](https://techcommunity.microsoft.com/t5/Microsoft-365-Blog/Move-from-Office-2010-clients-and-servers-and-Windows-7-to/ba-p/846994)  |  [LinkedIn](https://www.linkedin.com/pulse/how-can-microsoft-365-enterprise-help-me-end-support-products-davies/)
 
 
-### <a name="updates-and-enhancements"></a>업데이트 및 개선사항
+### <a name="updates-and-enhancements"></a>업데이트 및 향상된 기능
 
-- 새로운 생산성 시나리오를 위한 [Microsoft 365 Enterprise 포스터](microsoft-365-overview.md#get-the-big-picture)
+- 새로운 생산성 시나리오를 위한 [엔터프라이즈용 Microsoft 365 포스터](microsoft-365-overview.md#get-the-big-picture)
 
-   [![Microsoft 365 Enterprise 포스터 이미지](./media/m365-poster/m365e-poster.png)](media/m365-poster/Microsoft365Enterprise.pdf)
+   [![엔터프라이즈용 Microsoft 365 포스터 이미지](./media/m365-poster/m365e-poster.png)](media/m365-poster/Microsoft365Enterprise.pdf)
 
 ## <a name="july-2019"></a>2019년 7월
 
 ### <a name="new-content"></a>새로운 내용
 
-- [기업 이외의 조직 문서를 위한 Microsoft 365 Enterprise](deploy-foundation-infrastructure-non-enterprises.md#onboarding)용 Excel 통합 문서
+- [기업 이외의 조직 문서를 위한 엔터프라이즈용 Microsoft 365](deploy-foundation-infrastructure-non-enterprises.md#onboarding)용 Excel 통합 문서
 
 ## <a name="may-2019"></a>2019년 5월
 
@@ -154,12 +153,12 @@ ms.locfileid: "39831829"
 
 - [기본 인프라 포스터](deploy-foundation-infrastructure.md#at-a-glance)
 
-  [![Microsoft 365 Enterprise 기본 인프라 포스터의 이미지](./media/deploy-foundation-infrastructure/Microsoft365EnterpriseFoundInfra.png)](media/deploy-foundation-infrastructure/Microsoft365EnterpriseFoundInfra.pdf)
+  [![엔터프라이즈용 Microsoft 365 기본 인프라 이미지 포스터](./media/deploy-foundation-infrastructure/Microsoft365EnterpriseFoundInfra.png)](media/deploy-foundation-infrastructure/Microsoft365EnterpriseFoundInfra.pdf)
 
   공지: [Linkedin](https://www.linkedin.com/pulse/how-can-i-get-big-picture-microsoft-365-enterprise-joe-davies/)
 
  
-- [기업 이외의 조직 문서를 위한 Microsoft 365 Enterprise](deploy-foundation-infrastructure-non-enterprises.md)
+- [기업 이외의 조직 문서를 위한 엔터프라이즈용 Microsoft 365](deploy-foundation-infrastructure-non-enterprises.md)
 
   [![조직에서 클라우드 전용 ID를 사용하는 경우 인프라의 요약](./media/deploy-foundation-infrastructure-non-enterprises/final-cloud-only-config.png)](deploy-foundation-infrastructure-non-enterprises.md)
 

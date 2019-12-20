@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: 현재 조직이 Microsoft 365 환경에 직면 하 게 되는 가장 일반적인 위협과 공격 시나리오로, 이러한 위험을 완화 하기 위한 권장 작업을 소개 합니다.
-ms.openlocfilehash: 7a8e593a1e4280327b82802bb08a57370e4db652
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 3d2c7fc289930e3cc73deddcd43f25efc321a237
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38030522"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40801253"
 ---
 # <a name="microsoft-365-security-for-business-decision-makers-bdms"></a>BDMs (비즈니스 의사 결정권자 용 Microsoft 365 Security)
 
@@ -25,7 +25,7 @@ ms.locfileid: "38030522"
 
 [![엄지 단추 이미지 Microsoft 365 BDM 보안 권장 사항 스프레드시트](../downloads/microsoft-365-bdm-security-recommendations-spreadsheet-thumb.png)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/downloads/Microsoft-365-BDM-security-recommendations-spreadsheet.xlsx)
 
-Microsoft는 테 넌 트 내에서 보안 점수 도구를 제공 하 여 정기적인 활동에 따라 보안 환경을 자동으로 분석 하 고, 점수를 할당 하 고, 보안 강화 권장 사항을 제공 합니다. 이 문서에서 권장 하는 작업을 수행 하기 전에 현재 점수 및 권장 사항을 기록해 둡니다. 이 문서에서 권장 하는 작업을 통해 점수가 증가 합니다. 목표는 최대 점수를 얻는 것이 아니라 사용자의 생산성에 부정적인 영향을 주지 않는 환경을 보호 하기 위한 기회를 확보 하기 위한 것입니다. [Microsoft 보안 점수](mtp/microsoft-secure-score.md)를 참조 하세요.
+Microsoft는 테 넌 트 내에서 보안 점수 도구를 제공 하 여 정기적인 활동에 따라 보안 환경을 자동으로 분석 하 고, 점수를 할당 하 고, 보안 강화 권장 사항을 제공 합니다. 이 문서에서 권장 하는 작업을 수행 하기 전에 현재 점수 및 권장 사항을 기록해 둡니다. 이 문서에서 권장 하는 작업을 통해 점수가 증가 합니다. 목표는 최대 점수를 얻는 것이 아니라 사용자의 생산성에 부정적인 영향을 주지 않는 방식으로 환경을 보호 하기 위한 기회를 확보 하기 위한 것입니다. [Microsoft 보안 점수](mtp/microsoft-secure-score.md)를 참조 하세요.
 
 시작 하기 전에 한 가지 더 많은 일이 있습니다. . . [Office 365 감사 로그를 설정](../compliance/search-the-audit-log-in-security-and-compliance.md)해야 합니다. 이 데이터는 나중에 문제 또는 위반을 조사 해야 하는 경우에 필요 합니다. 
 
@@ -46,14 +46,14 @@ Microsoft는 테 넌 트 내에서 보안 점수 도구를 제공 하 여 정기
 추가 권장 사항:
 - 온-프레미스에서 동기화 된 계정에 클라우드 서비스에 대 한 관리자 역할이 할당 되어 있지 않은지 확인 합니다. 이를 통해 공격자가 클라우드 서비스에 대 한 관리 액세스 권한을 얻은 후 온-프레미스 계정을 활용할 수 없습니다. 
 - 서비스 계정에 관리자 역할이 할당 되지 않았는지 확인 합니다. 이러한 계정은 대개 만료 되지 않는 암호를 사용 하 여 모니터링 및 설정 되지 않습니다. 기본적으로 AADConnect 및 ADFS 서비스 계정이 전역 관리자가 되지 않도록 합니다.
-- 관리자 계정에서 라이선스를 제거 합니다. 특정 사용자 사례가 있는 경우에만 해당 하는 관리자 계정에 라이선스를 할당할 수 있습니다. 
+- 관리자 계정에서 라이선스를 제거 합니다. 특정 사용 사례가 특정 관리자 계정에 라이선스를 할당 하는 경우를 제외 하 고 이러한 계정에서 라이선스를 제거 합니다. 
 
 ## <a name="reduce-the-surface-of-attack"></a>공격 허점 줄이기
 
 다음 포커스 영역이 공격 표면을 줄입니다. 이 작업은 사용자 및 서비스에 최소한의 노력과 영향을 줄 수 있습니다. 공격에 대 한 노출 영역을 줄임으로써 공격자는 조직에 대해 공격을 시작 하는 방법을 보다 적게 제공 합니다.
 
 그 예는 다음과 같습니다.
-- POP3, IMAP 및 SMTP 프로토콜을 사용 하지 않도록 설정 합니다. 대부분의 최신 조직은 더 이상 이러한 오래 된 프로토콜을 사용 하지 않습니다. 필요에 따라이 기능을 사용 하지 않도록 설정 하 고 예외도 허용 하도록 설정할 수 있습니다. 
+- POP3, IMAP 및 SMTP 프로토콜을 사용 하지 않도록 설정 합니다. 대부분의 최신 조직은 더 이상 이러한 오래 된 프로토콜을 사용 하지 않습니다. 이 기능을 사용 하지 않도록 설정 하 고 필요한 경우에만 예외를 허용할 수 있습니다. 
 - 테 넌 트의 전역 관리자 수를 최소 필수로 줄이고 유지 합니다. 이렇게 하면 모든 클라우드 응용 프로그램에 대 한 공격 노출 영역이 직접적으로 줄어듭니다. 
 - 사용자 환경에서 더 이상 사용 되지 않는 서버 및 응용 프로그램을 폐기 합니다. 
 - 더 이상 사용 되지 않는 계정을 사용 하지 않도록 설정 하 고 삭제 하는 프로세스를 구현 합니다. 

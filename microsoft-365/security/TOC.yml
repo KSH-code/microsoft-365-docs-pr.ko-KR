@@ -5,10 +5,6 @@
       items:
         - name: BDM에 대한 Microsoft 365 보안
           href: Microsoft-365-security-for-bdm.md
-        - name: 보안 점수
-          href: ./mtp/microsoft-secure-score.md
-        - name: 보안 점수(미리 보기)
-          href: ./mtp/microsoft-secure-score-preview.md
         - name: '최고 정보 보안 책임자(CISO) 워크샵 교육 '
           href: ./office-365-security/ciso-workshop.md
           items:
@@ -55,15 +51,15 @@
               href: ./mtp/troubleshoot.md
         - name: 방법 가이드
           items:
-            - name: Microsoft Threat Protection 설정
+            - name: Microsoft Threat Protection 사용 설정
               href: mtp/mtp-enable.md
             - name: 인시던트
               items:
                 - name: 개요
                   href: mtp/incidents-overview.md
-                - name: 문제 우선 순위 지정
+                - name: 인시던트 우선 순위 지정
                   href: mtp/incident-queue.md
-                - name: 인시던트 조사
+                - name: 사고 조사
                   href: mtp/investigate-incidents.md
                 - name: 인시던트 관리
                   href: mtp/manage-incidents.md
@@ -71,50 +67,50 @@
               items:
                 - name: AIR 개요
                   href: mtp/mtp-autoir.md
-                - name: 알림 센터로 이동
+                - name: 알림 센터로 이동합니다.
                   href: mtp/mtp-action-center.md
                 - name: AIR 결과 보기
                   href: mtp/mtp-autoir-results.md
                 - name: 보류 중인 작업 승인 또는 거부
                   href: mtp/mtp-autoir-actions.md
-            - name: 고급 사냥
+            - name: 고급 헌팅
               items:
                 - name: Microsoft 365에서 찾기
                   href: mtp/hunting.md
                 - name: 고급 구하기 개요
                   href: mtp/advanced-hunting-overview.md
-                - name: 쿼리 언어 알아보기
+                - name: 쿼리 언어 배우기
                   href: mtp/advanced-hunting-query-language.md
                 - name: 공유 쿼리 사용
                   href: mtp/advanced-hunting-shared-queries.md
                 - name: 장치 및 전자 메일에 대 한 헌트
                   href: mtp/advanced-hunting-query-emails-devices.md
-                - name: 스키마 이해
+                - name: 스키마의 이해
                   href: mtp/advanced-hunting-schema-tables.md
                   items:
-                    - name: MachineInfo
-                      href: mtp/advanced-hunting-machineinfo-table.md
-                    - name: MachineNetworkInfo
-                      href: mtp/advanced-hunting-machinenetworkinfo-table.md
-                    - name: ProcessCreationEvents
-                      href: mtp/advanced-hunting-processcreationevents-table.md
-                    - name: NetworkCommunicationEvents
-                      href: mtp/advanced-hunting-networkcommunicationevents-table.md
-                    - name: FileCreationEvents
-                      href: mtp/advanced-hunting-filecreationevents-table.md
-                    - name: RegistryEvents
-                      href: mtp/advanced-hunting-registryevents-table.md
-                    - name: LogonEvents
-                      href: mtp/advanced-hunting-logonevents-table.md
-                    - name: ImageLoadEvents
-                      href: mtp/advanced-hunting-imageloadevents-table.md
-                    - name: MiscEvents
-                      href: mtp/advanced-hunting-miscevents-table.md
+                    - name: DeviceInfo
+                      href: mtp/advanced-hunting-deviceinfo-table.md
+                    - name: DeviceNetworkInfo
+                      href: mtp/advanced-hunting-devicenetworkinfo-table.md
+                    - name: DeviceProcessEvents
+                      href: mtp/advanced-hunting-deviceprocessevents-table.md
+                    - name: DeviceNetworkEvents
+                      href: mtp/advanced-hunting-devicenetworkevents-table.md
+                    - name: DeviceFileEvents
+                      href: mtp/advanced-hunting-devicefileevents-table.md
+                    - name: DeviceRegistryEvents
+                      href: mtp/advanced-hunting-deviceregistryevents-table.md
+                    - name: DeviceLogonEvents
+                      href: mtp/advanced-hunting-devicelogonevents-table.md
+                    - name: DeviceImageLoadEvents
+                      href: mtp/advanced-hunting-deviceimageloadevents-table.md
+                    - name: DeviceEvents
+                      href: mtp/advanced-hunting-deviceevents-table.md
                     - name: EmailEvents
                       href: mtp/advanced-hunting-emailevents-table.md
                     - name: EmailAttachmentInfo
                       href: mtp/advanced-hunting-emailattachmentinfo-table.md
-                    - name: Emailurlin
+                    - name: EmailUrlInfo
                       href: mtp/advanced-hunting-emailurlinfo-table.md
                     - name: DeviceTvmSecureConfigurationAssessment
                       href: mtp/advanced-hunting-tvm-configassessment-table.md
@@ -357,7 +353,9 @@
                   items:
                     - name: 'SharePoint, OneDrive 및 Microsoft Teams에 대한 ATP 켜기'
                       href: ./office-365-security/turn-on-atp-for-spo-odb-and-teams.md
-            - name: 위협 분석을 통해 최신 공격 캠페인 이해하기
+            - name: 캠페인 보기
+              href: ./office-365-security/campaigns.md
+            - name: 위협 분석을 사용 하 여 최신 공격 이해
               href: ./mtp/latest-attack-campaigns.md
             - name: ATP 보고서 보기 및 읽기
               href: ./office-365-security/view-reports-for-atp.md
@@ -569,5 +567,5 @@
           href: 'https://docs.microsoft.com/office-365-security/Enterprise'
         - name: 비즈니스용 Office 365
           href: 'https://docs.microsoft.com/office-365-security/admin/admin-home'
-    - name: Microsoft 365 준수
+    - name: Microsoft 365 규정 준수
       href: 'https://docs.microsoft.com/microsoft-365/compliance/'
