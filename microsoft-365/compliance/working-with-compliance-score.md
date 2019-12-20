@@ -12,12 +12,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 준수 점수의 워크플로 도구를 사용 하 여 조직에 대 한 준수를 관리 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 9dc3eb41b1ad686e1c9e1f0a4cf2df66ccb3ffbe
-ms.sourcegitcommit: 544b10cc3abe04a47438085d51c4250c9238f76f
+ms.openlocfilehash: 9c3871db720666319eb8a0523ff8150efd753f91
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "38686992"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40802139"
 ---
 # <a name="working-with-microsoft-compliance-score-preview"></a>Microsoft 준수 점수를 사용한 작업 (미리 보기)
 
@@ -193,7 +193,7 @@ ms.locfileid: "38686992"
 
 ### <a name="default-assessments"></a>기본 평가
 
-기본적으로 평가 페이지에는 Microsoft 365 데이터 보호 기준 평가가 표시 됩니다. 다른 규정 및 표준을 다루는 평가를 더 추가 하려는 경우 준수 관리자에서 평가를 관리할 수 있습니다. 규정 준수 점수는 GDPR, CCPA, ISO 27001, ISO 27018, NIST 800-53, NIST 800-171, NIST CSF, CSA CCM, FFIEC, HIPAA/HITECH 및 FedRAMP를 포함 하 여 기본 평가를 10 개 이상 제공 합니다.
+기본적으로 평가 페이지에는 Microsoft 365 데이터 보호 기준 평가가 표시 됩니다. 규정 준수 점수에는 여러 기본 평가가 제공 됩니다 ([전체 목록 보기](compliance-score.md#templates)). 추가 규정 및 표준을 다루는 평가를 더 추가 하려는 경우 준수 관리자에서이 작업을 수행할 수 있습니다.
 
 ### <a name="managing-assessments"></a>평가 관리
 

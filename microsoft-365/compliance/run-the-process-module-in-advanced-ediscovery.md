@@ -3,6 +3,7 @@ title: Office 365 Advanced eDiscovery에서 프로세스 모듈 실행
 ms.author: chrfox
 author: chrfox
 manager: laurawi
+titleSuffix: Office 365
 ms.date: 9/14/2017
 audience: Admin
 ms.topic: article
@@ -13,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: dbc1e251-0596-443b-ac9b-f398ba955b73
 description: 'Office 365 Advanced eDiscovery를 사용 하 여 분석을 위해 Office 365 데이터의 사례 파일을 준비 하기 위한 지침을 알아봅니다.  '
-ms.openlocfilehash: 75b6b23a913a6aa8b732501b1c52afb55b47e51e
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: f96b7670a3886b2bfe01801ea76061bea4a37d14
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088576"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40802911"
 ---
 # <a name="run-the-process-module-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery에서 프로세스 모듈 실행
 
@@ -47,7 +48,7 @@ ms.locfileid: "37088576"
     
 - **파일 경로**: 고급 eDiscovery에서는 경로 길이가 최대 400 자인 파일을 로드할 수 있습니다.
     
-- **텍스트 추출**: 기본 파일에서 텍스트를 추출할 때 일반 텍스트 외에도 다음과 같은 추출 된 텍스트 (excel 및 .doc), 숨겨진 열 (excel), 변경 내용 (.doc), 발표자 노트 (.ppt), 포함 된 개체 (예: .Ppt의 Excel 개체) 텍스트 편집기에서 볼 수 있습니다.
+- **텍스트 추출**: 기본 파일에서 텍스트를 추출할 때 일반 텍스트 외에도, 숨겨진 텍스트 (excel 및 .doc), 숨겨진 열 (excel), 변경 내용 (.doc), 발표자 노트 (.ppt), 포함 된 개체 (예: excel 개체) 등이 추출 됩니다. 텍스트 편집기에서 볼 수 있습니다.
     
 - **텍스트 무시**:이 선택적 기능은 프로세스를 실행 한 후 분석 하기 전에 정의 됩니다. Ignore 텍스트 사용은 파일 분석의 성능을 저하 시킬 수 있으므로 주의 해 서 사용 해야 합니다.
     

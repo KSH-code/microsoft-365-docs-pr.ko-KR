@@ -1,7 +1,7 @@
 ---
 title: 영국 정부-클라우드 (G-클라우드)
 description: Crown 상업용 서비스가 Microsoft 클라우드 서비스 분류를 정부 클라우드 v. 6으로 갱신 했습니다.
-keywords: Microsoft 365, 규정 준수, 제품
+keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -11,12 +11,13 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 525ea4c129e351b157463efdf02280a1f55797ad
-ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
+titleSuffix: Microsoft Compliance
+ms.openlocfilehash: 91f3575934f9007d8570898047f96202f83dc087
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39859788"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40804861"
 ---
 # <a name="united-kingdom-government-cloud-g-cloud"></a>영국 정부-클라우드 (G-클라우드)
 

@@ -1,7 +1,7 @@
 ---
 title: GLBA(Gramm-Leach-Bliley Act)
 description: Microsoft는 금융 서비스 클라이언트가 금융-Gramm-leach-bliley-Gramm-leach-bliley Act (GLBA)의 개인 정보 및 보안 요구 사항을 준수 하도록 지원 합니다.
-keywords: Microsoft 365, 규정 준수, 제품
+keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -11,12 +11,13 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: dc0e77623346bb3cb089069196780870e87af8ac
-ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
+titleSuffix: Microsoft Compliance
+ms.openlocfilehash: 4a7b92e1674c137c0571ba13c559399d7ba0a8f4
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39859768"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40804841"
 ---
 # <a name="gramm-leach-bliley-act-glba"></a>GLBA(Gramm-Leach-Bliley Act)
 
@@ -63,6 +64,6 @@ FTC은 [개인 정보 취급 방침에 포함 된](https://www.ftc.gov/tips-advi
 - [Microsoft 비즈니스 클라우드 서비스 및 금융 서비스](https://www.microsoft.com/trustcenter/cloudservices/financialservices)
 - [클라우드 컴퓨팅에 대한 공동 책임](https://aka.ms/sharedresponsibility)
 
-## <a name="download-the-offering-backgrounder"></a>제품 배경 설명 다운로드
+## <a name="download-the-offering-backgrounder"></a>제공 사항의 배경 설명 다운로드
 
 이 제공 사항에 대한 배경 설명 문서가 필요한가요? [PDF](https://download.microsoft.com/download/2/A/C/2AC21A04-CE23-4963-BE1A-515DB4A17C6E/GLBA-Compliance.pdf)를 다운로드합니다.

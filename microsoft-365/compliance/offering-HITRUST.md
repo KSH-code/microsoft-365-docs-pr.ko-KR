@@ -1,7 +1,7 @@
 ---
 title: Health Information Trust 제휴 (HITRUST) 일반 보안 프레임 워크 (CSF)
 description: Azure 및 Office 365는 HITRUST (Health Information Trust 제휴) (CSF)를 인증 합니다.
-keywords: Microsoft 365, 규정 준수, 제품
+keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -11,12 +11,13 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: ebe89a7dc63a9adbe2c40961f92c1a6656d9ae9d
-ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
+titleSuffix: Microsoft Compliance
+ms.openlocfilehash: 9b0448a3ed5cf36a909ebb14e0aadf2b8ac96610
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39859738"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40804801"
 ---
 # <a name="health-information-trust-alliance-hitrust-common-security-framework-csf"></a>Health Information Trust 제휴 (HITRUST) 일반 보안 프레임 워크 (CSF)
 

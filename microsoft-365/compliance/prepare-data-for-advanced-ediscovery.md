@@ -15,7 +15,7 @@ ms.assetid: 2fb94c23-1846-4a0e-994d-da6d02445f15
 description: 'Microsoft 365 보안 &amp; 규정 준수 센터에서 Office 365 Advanced eDiscovery를 사용하여 Office 365 데이터를 분석할 수 있도록 준비하는 방법을 알아봅니다. '
 ms.openlocfilehash: be778acb3356071e9575ed708623a0b94e2b3c7a
 ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
-ms.translationtype: HT
+ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 09/20/2019
 ms.locfileid: "37088555"

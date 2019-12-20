@@ -1,7 +1,7 @@
 ---
 title: 미국 내부 수익 서비스 게시 1075
 description: Microsoft에는 미국 내부 수익 서비스 게시 1075의 요구 사항을 충족 하는 컨트롤이 있습니다.
-keywords: Microsoft 365, 규정 준수, 제품
+keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -11,12 +11,13 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 30509260e83f1aaa59c57365357e18a3f12097c4
-ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
+titleSuffix: Microsoft Compliance
+ms.openlocfilehash: 4df4d225658c03433384ca85e5e9d15eed5f1ac8
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39859728"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40804821"
 ---
 # <a name="us-internal-revenue-service-publication-1075"></a>미국 내부 수익 서비스 게시 1075
 

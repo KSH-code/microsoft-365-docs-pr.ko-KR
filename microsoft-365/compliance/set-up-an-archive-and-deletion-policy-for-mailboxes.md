@@ -1,5 +1,5 @@
 ---
-title: Office 365 조 직의 사서함에 대 한 보관 및 삭제 정책 설정
+title: Office 365 조직에서 사서함에 대한 보관 및 삭제 정책 설정
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -17,14 +17,14 @@ search.appverid:
 - BCS160
 ms.assetid: ec3587e4-7b4a-40fb-8fb8-8aa05aeae2ce
 description: 항목을 사용자의 보관 사서함으로 자동으로 이동 하는 보관 및 삭제 정책을 Office 365에서 만듭니다.
-ms.openlocfilehash: 801f97b658df08cd3c548c6aed99018a8613b473
-ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
+ms.openlocfilehash: 6da5d9bc180623778925697419f0ca39acee9185
+ms.sourcegitcommit: 8c244b38c43dd00c4ef0102f8bed02ab36639a6b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38687253"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "39967771"
 ---
-# <a name="set-up-an-archive-and-deletion-policy-for-mailboxes-in-your-office-365-organization"></a>Office 365 조 직의 사서함에 대 한 보관 및 삭제 정책 설정
+# <a name="set-up-an-archive-and-deletion-policy-for-mailboxes-in-your-office-365-organization"></a>Office 365 조직에서 사서함에 대한 보관 및 삭제 정책 설정
 
  Office 365에서 관리자는 항목을 사용자의 보관 사서함으로 자동으로 이동 하 고 사서함에서 항목을 자동으로 삭제 하는 보관 및 삭제 정책을 만들 수 있습니다. 관리자는 사서함에 할당 된 보존 정책을 만들고 항목을 특정 기간이 지난 후에 사용자의 보관 사서함으로 이동 하 고 특정 보존 기간에 도달한 후에도 사서함에서 항목을 삭제 하 여이를 수행 합니다. 이동 하거나 삭제할 항목을 결정 하는 실제 규칙을 보존 태그 라고 합니다. 보존 태그는 보존 정책에 연결 되며, 그러면 해당 사용자의 사서함에 지정 됩니다. 보존 태그는 사용자 사서함의 개별 메시지 및 폴더에 보존 설정을 적용 합니다. 메시지가 사서함에 남아 있는 기간 및 메시지가 지정 된 보존 기간에 도달할 때 수행 되는 작업을 정의 합니다. 메시지가 보존 기간에 도달 하면 해당 메시지는 사용자의 보관 사서함으로 이동 되거나 삭제 됩니다. 
   
@@ -64,7 +64,7 @@ ms.locfileid: "38687253"
 2. Sign in to Office 365 using your global administrator account.
     
     
-3. 보안 & 준수 센터에서 **Data 거 버 넌 스** \> **아카이브로**이동 합니다.
+3. 보안 & 준수 센터에서 **정보 거 버 넌 스** \> **아카이브로**이동 합니다.
     
     조직의 사서함 목록과 해당 보관 사서함의 사용 가능 여부가 표시 됩니다. 
     
@@ -309,7 +309,7 @@ ms.locfileid: "38687253"
     
 - 다음 표에는이 항목의 단계를 수행 하 여 만든 사용자 지정 보존 정책에 추가 되는 각 보존 태그에 대 한 자세한 정보가 나와 있습니다.
     
-    |**보존 태그**|**이 태그의 역할**|**기본 제공 또는 사용자 지정 여부**|**Type**|
+    |**보존 태그**|**이 태그의 역할**|**기본 제공 또는 사용자 지정 여부**|**유형**|
     |:-----|:-----|:-----|:-----|
     |알파인 하우스 3 년 후 보관 함으로 이동  <br/> |1095 일 (3 년)이 지난 항목을 보관 사서함으로 이동 합니다.  <br/> |사용자 지정 ( [2 단계: 보관 및 삭제 정책에 대 한 새 보존 태그 만들기](#step-2-create-new-retention-tags-for-the-archive-and-deletion-policies)참조)  <br/> |기본 정책 태그 (보관); 이 태그는 전체 사서함에 자동으로 적용 됩니다.  <br/> |
     |알파인 하우스 7 년 영구 삭제  <br/> |기본 사서함 또는 보관 사서함의 항목이 7 년이 지난 경우 영구적으로 삭제 합니다.  <br/> |사용자 지정 ( [2 단계: 보관 및 삭제 정책에 대 한 새 보존 태그 만들기](#step-2-create-new-retention-tags-for-the-archive-and-deletion-policies)참조)  <br/> |기본 정책 태그 (삭제) 이 태그는 전체 사서함에 자동으로 적용 됩니다.  <br/> |

@@ -1,7 +1,7 @@
 ---
 title: HITECH의 상태 보험 이식성 및 책임 (HIPAA) &
 description: Microsoft는 책임 업무 비즈니스 연결 동의 (BAAs)를 & 건강 보험 이식성을 제공 합니다.
-keywords: Microsoft 365, 규정 준수, 제품
+keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -11,12 +11,13 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: c125b3cf01824c5791917bed45766b62cea7cdd5
-ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
+titleSuffix: Microsoft Compliance
+ms.openlocfilehash: 7d2d718aa8c502afedce0fe99d6f444f78735246
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39859748"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40804811"
 ---
 # <a name="health-insurance-portability-and-accountability-hipaa--hitech-acts"></a>HITECH의 상태 보험 이식성 및 책임 (HIPAA) &
 
@@ -61,7 +62,7 @@ Microsoft 클라우드에서 HIPAA 및 HITECH의 장점 [(Zwanger-Pesiri Radiolo
 - [Office 365, Office 365 U.S. Government, Office 365 U.S. Government Defense](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
 - 독립 실행형 서비스 혹은 Office 365 혹은 Dynamics 365에 브랜딩된 플랜 또는 제품군에 포함된 형태로서의 PowerApps 클라우드 서비스
 - Power BI 클라우드 서비스를 독립 실행형 서비스로 또는 Office 365 또는 Dynamics 365 브랜드 요금제 또는 suite에 포함
-- Azure DevOps Services
+- Azure DevOps 서비스
 
 ## <a name="accelerate-your-deployment-of-hipaahitrust-solutions-on-azure"></a>Azure에서 HIPAA/HITRUST 솔루션 배포를 가속화 합니다.
 

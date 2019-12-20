@@ -3,6 +3,7 @@ title: Office 365 Advanced eDiscovery에서 분석 고급 설정에 대 한 설�
 ms.author: chrfox
 author: chrfox
 manager: laurawi
+titleSuffix: Office 365
 ms.date: 9/14/2017
 audience: Admin
 ms.topic: article
@@ -13,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: a797682f-ad85-4c08-a354-3850ba2237ee
 description: 'Office 365 Advanced eDiscovery의 분석 프로세스에 대해 거의 중복, 전자 메일 스레드 및 테마를 포함 하 여 고급 설정을 구성 하는 방법을 알아봅니다. '
-ms.openlocfilehash: 2302d44ae8985f820e1fa0f0428f1c9c5ef762fc
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 06ee57542bfdb87b8bea77b3e4271adf02490046
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37089136"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40802821"
 ---
 # <a name="set-analyze-advanced-settings-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery에서 분석 고급 설정에 대 한 설정
 

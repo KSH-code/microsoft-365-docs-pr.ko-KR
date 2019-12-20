@@ -3,6 +3,7 @@ title: 검색 및 태그 지정
 ms.author: chrfox
 author: chrfox
 manager: laurawi
+titleSuffix: Office 365
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -11,12 +12,12 @@ search.appverid:
 - MET150
 ms.assetid: 22f5adad-1bc0-460d-94a9-8732929f5b99
 description: 고급 eDiscovery에서 검색 및 태그 지정 모듈을 사용 하 여 사용자의 경우 문서를 검색, 미리 보기 및 구성할 수 있습니다. 현재이 모듈은 베타 버전입니다.
-ms.openlocfilehash: b3e660e6dca014323cfd06f10c14747751aeb386
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: f5e192988519a9190aa53efef35a8e584e0987cc
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088570"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40802901"
 ---
 # <a name="search-and-tagging"></a>검색 및 태그 지정
 
@@ -55,9 +56,9 @@ ms.locfileid: "37088570"
 |**직책** <br/> | 사이트 문서의 제목입니다. <br/> |
 |**dominanttheme**\* <br/> | 항목의 기준 테마입니다. <br/> |
 |**기타 eslist**\* <br/> | 항목과 연결 된 테마입니다. <br/> |
-|**readpercentile_[issuenum]**\*\* <br/> | [Issuenum]로 정의 된 문제에 대해 항목의 읽기 백분위 수를 지정 합니다. <br/> |
-|**relevancescore_[issuenum]**\*\* <br/> | [Issuenum]에 의해 정의 된 문제에 대 한 항목의 관련성 점수입니다. <br/> |
-|**relevancetag_ [tagname]**\*\* <br/> | 항목에 관련성을 수동으로 태그가 지정 된 경우 [tagname]에 정의 된 태그입니다. <br/> |
+|**readpercentile_ [issuenum]**\*\* <br/> | [Issuenum]로 정의 된 문제에 대해 항목의 읽기 백분위 수를 지정 합니다. <br/> |
+|**relevancescore_ [issuenum]**\*\* <br/> | [Issuenum]에 의해 정의 된 문제에 대 한 항목의 관련성 점수입니다. <br/> |
+|**[tagname] relevancetag_**\*\* <br/> | 항목에 관련성을 수동으로 태그가 지정 된 경우 [tagname]에 정의 된 태그입니다. <br/> |
 |||
 
 \*Themes 모듈을 실행 한 경우에만 사용할 수 있습니다.

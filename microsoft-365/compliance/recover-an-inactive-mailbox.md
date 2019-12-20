@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: 35d0ecdb-7cb0-44be-ad5c-69df2f8f8b25
 description: '이전 직원이 조직에 반환 되는 경우 또는 이거나 퇴직 한 직원의 직무에 따라 새 직원을 고용 하는 경우 Office 365에서 비활성 사서함의 콘텐츠를 복구할 수 있습니다. 비활성 사서함을 복구 하면 비활성 사서함의 내용이 포함 된 새 사서함으로 변환 됩니다. '
-ms.openlocfilehash: 9caa5d8f8c44ee5a916129e7f181532c8c0dd1a2
-ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
+ms.openlocfilehash: 6589c8b75e7d17720848ed221e9625c77b867503
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38687258"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40803715"
 ---
 # <a name="recover-an-inactive-mailbox-in-office-365"></a>Office 365에서 비활성 사서함 복구
 
@@ -45,9 +45,7 @@ ms.locfileid: "38687258"
     ```
 
     이 명령에서 반환 하는 정보를 사용 하 여 특정 비활성 사서함을 복구 합니다.
-    
-- 비활성 사서함에 대 한 자세한 내용은 [Office 365의 비활성 사서함](inactive-mailboxes-in-office-365.md)을 참조 하십시오.
-    
+
 ## <a name="recover-an-inactive-mailbox"></a>비활성 사서함 복구
 
 비활성 사서함을 복구 하려면 *Inactivemailbox* 매개 변수와 함께 **새 사서함** cmdlet을 사용 합니다. 
@@ -101,5 +99,5 @@ ms.locfileid: "38687258"
 
     **Externaldirectoryobjectid** 속성에 대 한 값이 없으면 사서함 보존 기간이 만료 된 것 이며, **새 사서함-InactiveMailbox** 명령을 실행 하 여 비활성 사서함을 복구할 수 있습니다. **Externaldirectoryobjectid** 속성에 대 한 값이 있는 경우 일시 삭제 된 사서함 보존 기간은 만료 되지 않으며 Office 365 사용자 계정을 복원 하 여 사서함을 복구 해야 합니다. [사용자 삭제 또는 복원을](https://go.microsoft.com/fwlink/p/?LinkId=279162) 참조 하세요.
     
-- **비활성 사서함을 복구한 후 보관 사서함을 사용 하도록 설정 하는 것이 좋습니다.** 이렇게 하면 반환 되는 사용자 또는 새 직원은 이전 메시지를 보관 사서함으로 이동할 수 있습니다. 보존 기간이 만료 되 면 Exchange Online 사서함에 할당 된 기본 Exchange 보존 정책의 일부인 보관 정책이 보관 사서함으로 2 년 이상 된 항목을 이동 합니다. 보관 사서함을 사용 하도록 설정 하지 않으면 2 년 보다 오래 된 항목이 사용자의 기본 사서함에 남아 있게 됩니다. 자세한 내용은 [Office 365 보안 &amp; 및 준수 센터에서 보관 사서함 사용](enable-archive-mailboxes.md)을 참조 하십시오.
+- **비활성 사서함을 복구한 후 보관 사서함을 사용 하도록 설정 하는 것이 좋습니다.** 이렇게 하면 반환 되는 사용자 또는 새 직원은 이전 메시지를 보관 사서함으로 이동할 수 있습니다. 보존 기간이 만료 되 면 Exchange Online 사서함에 할당 된 기본 Exchange 보존 정책의 일부인 보관 정책이 보관 사서함으로 2 년 이상 된 항목을 이동 합니다. 보관 사서함을 사용 하도록 설정 하지 않으면 2 년 보다 오래 된 항목이 사용자의 기본 사서함에 남아 있게 됩니다. 자세한 내용은 [보관 사서함 사용](enable-archive-mailboxes.md)을 참조 하십시오.
  
