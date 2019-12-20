@@ -1,7 +1,7 @@
 ---
 title: RBI (인도 Bank) 및 보험 규정 및 개발 기관 (IRDAI)
 description: Microsoft는 인도의 금융 기관에서 클라우드 채택에 도움을 주는 지침을 게시 했습니다.
-keywords: Microsoft 365, 규정 준수, 제품
+keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -11,12 +11,13 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: c88cfbfc9237e6e9a43dc8b143af015ba377ad17
-ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
+titleSuffix: Microsoft Compliance
+ms.openlocfilehash: 26276567ec2a7f5bf7594ffdf91e7ead21135e17
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39859498"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40804321"
 ---
 # <a name="reserve-bank-of-india-rbi-and-insurance-regulatory-and-development-authority-of-india-irdai"></a>RBI (인도 Bank) 및 보험 규정 및 개발 기관 (IRDAI)
 
@@ -40,7 +41,7 @@ Rbi ( [예약 뱅크](https://www.rbi.org.in/) ), 인도의 중앙 뱅킹 기관
 
 Microsoft 검사 목록은 인도 금융 기업에서 Microsoft business cloud services의 주의 평가를 수행 하 고 다음을 포함 하는 것을 지원 합니다.
 
-- 컨텍스트에 대한 규정 현황의 개요.
+- 컨텍스트에 대한 규제 사항의 개요.
 - 해결할 문제를 설정 하 고 Microsoft Azure, Microsoft Dynamics 365 및 Microsoft Office 365 서비스를 해당 규제 의무에 매핑하는 검사 목록입니다. 이 점검 목록은 규제 프레임워크에 대한 준수를 측정하는 도구로 사용될 수 있으며, 규정 준수를 문서화하기 위한 내부 구조를 제공하고, 고객이 Microsoft 비즈니스 클라우드 서비스의 고유 위험 평가를 수행하는 데 도움이 됩니다.
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 범위 내 클라우드 서비스
@@ -52,12 +53,12 @@ Microsoft 검사 목록은 인도 금융 기업에서 Microsoft business cloud s
 ## <a name="how-to-implement"></a>구현 방법
 
 - [인도에 대 한 준수 검사 목록](https://servicetrust.microsoft.com/Documents/TrustDocuments?command=Download&downloadType=Document&downloadId=26f4af15-2771-4cd4-a7c7-9328149f9453&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides): 재무 기업은 Microsoft business cloud services의 위험 평가를 수행 하는 데 도움을 받을 수 있습니다.
-- [위험 평가 및 준수 가이드](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=edee9b14-3661-4a16-ba83-c35caf672bd7&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers): Microsoft 클라우드 서비스의 위험 평가와 규제 기관 공지에 대한 거버넌스 모델을 만들 수 있습니다.
+- [위험 평가 & 규제 준수 가이드](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=edee9b14-3661-4a16-ba83-c35caf672bd7&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers): Microsoft 클라우드 서비스의 위험 평가 및 규제 기관의 알림에 대한 거버넌스 모델을 만듭니다.
 - [Azure의 금융 사용 사례](https://docs.microsoft.com/azure/industry/financial/): 사용 사례 개요, 자습서 및 기타 리소스를 활용 하 여 금융 서비스용 Azure 솔루션을 작성 합니다.
 
 ## <a name="frequently-asked-questions"></a>자주하는 질문
 
-**클라우드 서비스 공급자와의 계약에 포함해야 하는 필수 약관이 있나요?**
+**클라우드 서비스 공급 업체와의 계약에 포함해야 하는 필수 약관이 있나요?**
 
 예. 위에서 언급 한 지침에서는 재무 기관이 클라우드 서비스 계약에 통합 해야 하는 특정 한 사항을 권장 합니다. [검사 목록](https://servicetrust.microsoft.com/Documents/TrustDocuments?command=Download&downloadType=Document&downloadId=26f4af15-2771-4cd4-a7c7-9328149f9453&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides) (70 페이지)의 2 부에서는 이러한 내용을 Microsoft 계약 문서에서 주소가 지정 된 섹션에 매핑합니다.
 

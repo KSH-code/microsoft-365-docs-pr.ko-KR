@@ -1,7 +1,7 @@
 ---
 title: 가족 교육 기관 권한 및 FERPA (개인 정보 취급 방침)
 description: Microsoft는 미국 가족 교육 기관 권리 및 개인 정보 취급 방침의 요구 사항을 충족 합니다.
-keywords: Microsoft 365, 규정 준수, 제품
+keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -11,12 +11,13 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 7ed252a681942d7c00840d3902f4c48e80231331
-ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
+titleSuffix: Microsoft Compliance
+ms.openlocfilehash: 468fa4bb8b6eb2e6b5bc4d94f193560373dfc1e7
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39859868"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40805038"
 ---
 # <a name="family-educational-rights-and-privacy-act-ferpa"></a>가족 교육 기관 권한 및 FERPA (개인 정보 취급 방침)
 
@@ -49,7 +50,7 @@ Microsoft 클라우드에서 FERPA의 혜택에 대해 알아봅니다. [FERPA b
 - Intune
 - [Office 365, Office 365 U.S. Government, Office 365 U.S. Government Defense](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
 - Power BI, PowerApps 및 Microsoft가 독립 실행형 서비스로 또는 Office 365 브랜드 요금제 또는 suite에 포함 된 것으로 이동
-- Azure DevOps Services
+- Azure DevOps 서비스
 - Windows Defender ATP
 
 ## <a name="audits-reports-and-certificates"></a>감사, 보고서 및 인증서

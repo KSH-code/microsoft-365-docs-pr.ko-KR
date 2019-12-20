@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 5b9a067b-9d2e-4aa5-bb33-99d8c0d0b5d7
 description: 보안 & 준수 센터를 사용 하 여 eDiscovery 관련 작업을 수행 하는 데 필요한 사용 권한을 할당 합니다.
-ms.openlocfilehash: 067a54f6286df5a5ce6e5b02b7ea1d6964b16777
-ms.sourcegitcommit: 7f26840a4330b0fd29807ec091c6915d283b3dd2
+ms.openlocfilehash: 54a12334c4b63e1751d578dcd5a9c79d887d246d
+ms.sourcegitcommit: 6ae69c40bafa6aef633789c3df0fa20590bdcf40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "39603752"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "40823730"
 ---
 # <a name="assign-ediscovery-permissions-in-the-security--compliance-center"></a>보안 & 준수 센터에서 eDiscovery 권한 할당
 
@@ -79,7 +79,7 @@ ms.locfileid: "39603752"
 |내보내기 <br/> | <br/> |![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> | <br/> | <br/> |
 |Hold <br/>  |![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> |![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> |![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> | <br/> |
 |미리 보기 <br/>  | <br/> |![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> | <br/> | <br/> |
-|Review <br/>  | <br/> |![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> | <br/> |![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> |
+|검토 <br/>  | <br/> |![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> | <br/> |![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> |
 |RMS 암호 해독 <br/>  ||![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> |||
 |검색 및 제거 <br/> | <br/> | <br/> |![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> | <br/> | 
 ||||
@@ -88,7 +88,7 @@ ms.locfileid: "39603752"
 
 ### <a name="case-management"></a>사례 관리
 
-이 역할을 사용 하면 사용자가 보안 & 준수 센터에서 eDiscovery 사례에 대 한 액세스를 만들고, 편집 하 고, 삭제 하 고 제어할 수 있습니다. 자세한 내용은 [Security & 준수 센터에서 eDiscovery 사례 관리](manage-ediscovery-cases.md)를 참조 하세요. 앞에서 설명한 것 처럼, 사용자는 **eDiscoveryCaseAdmin** cmdlet을 사용 하 여 eDiscovery 관리자로 설정할 수 있도록 사례 관리 역할을 할당 받아야 합니다. 
+이 역할을 사용 하면 사용자가 보안 & 준수 센터에서 eDiscovery 사례에 대 한 액세스를 만들고, 편집 하 고, 삭제 하 고 제어할 수 있습니다. 자세한 내용은 [Security & 준수 센터에서 eDiscovery 사례 관리](ediscovery-cases.md)를 참조 하세요. 앞에서 설명한 것 처럼, 사용자는 **eDiscoveryCaseAdmin** cmdlet을 사용 하 여 eDiscovery 관리자로 설정할 수 있도록 사례 관리 역할을 할당 받아야 합니다. 
 
 ### <a name="compliance-search"></a>규격 검색
 
@@ -119,7 +119,7 @@ ms.locfileid: "39603752"
 
 이 역할을 통해 사용자는 콘텐츠 검색에서 반환 된 항목의 목록을 볼 수 있습니다. 또한 목록에서 각 항목을 열고 해당 콘텐츠를 볼 수 있습니다.
 
-### <a name="review"></a>Review
+### <a name="review"></a>검토
 
 이 역할을 사용 하면 사용자가 Office 365 Advanced eDiscovery에서 사례 데이터에 액세스할 수 있습니다. 이 역할의 기본 목적은 사용자에 게 고급 eDiscovery에 대 한 액세스 권한을 부여 하는 것입니다. 이 역할이 할당 된 사용자는 보안 & 준수 센터의 eDiscovery 페이지에 있는 사례 목록을 보고 열 수 있습니다. 사용자가 보안 & 준수 센터의 사례에 액세스 한 후 advanced **ediscovery로 전환을** 선택 하 여 advanced ediscovery에서 사례 데이터에 액세스 하 고 분석할 수 있습니다. 이 역할을 사용 하면 사용자가 사례와 연결 된 콘텐츠 검색의 결과를 미리 보거나 기타 콘텐츠 검색 또는 사례 관리 작업을 수행할 수 없습니다.
 

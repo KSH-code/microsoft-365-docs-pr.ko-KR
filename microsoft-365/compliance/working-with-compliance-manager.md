@@ -12,12 +12,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 준수 관리자는 Microsoft Service Trust Portal의 무료 워크플로 기반 위험 평가 도구입니다. 준수 관리자를 사용 하면 Microsoft 클라우드 서비스와 관련 된 규정 준수 활동을 추적, 할당 및 확인할 수 있습니다.
-ms.openlocfilehash: c50122f390809e145af621ed6341d02ae9c3b8cf
-ms.sourcegitcommit: fb3815ee186b2b3ec790ee32a9d7b1628d623b0b
+ms.openlocfilehash: 556d3994241db65b70feec55ac0f96469f549361
+ms.sourcegitcommit: b65c80051e53d9be223f4769f4d42a39f5a07735
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/22/2019
-ms.locfileid: "39202359"
+ms.lasthandoff: 12/10/2019
+ms.locfileid: "39962255"
 ---
 # <a name="work-with-microsoft-compliance-manager-preview"></a>Microsoft 준수 관리자 사용 (미리 보기)
 
@@ -429,7 +429,7 @@ Service Trust Portal에서 준수 관리자에 액세스할 수 있습니다. Mi
     Dimension Key::Dimension Value;;Dimension Key::Dimension Value.
     ```
     
-    예를 들면 다음과 같습니다.
+    예:
 
     ```Markdown
     Product::Office 365;;Certification::NIST CSF
@@ -463,7 +463,7 @@ Service Trust Portal에서 준수 관리자에 액세스할 수 있습니다. Mi
 - 하이퍼링크
 - 굵은
 
-글머리 기호는 Word 또는 Excel 글머리 기호 대신 별표로 표시 됩니다. 예를 들면 다음과 같습니다.
+글머리 기호는 Word 또는 Excel 글머리 기호 대신 별표로 표시 됩니다. 예:
 
 ```Markdown
 * Item A
@@ -471,7 +471,7 @@ Service Trust Portal에서 준수 관리자에 액세스할 수 있습니다. Mi
 * Item C
 ```
 
-숫자는 숫자로 나타내지만 들여쓰기가 필요한 경우 공백을 사용 하 고, 각 하위 수준에는 숫자만 사용 합니다 (예: 문자 없음).  예를 들면 다음과 같습니다.
+숫자는 숫자로 나타내지만 들여쓰기가 필요한 경우 공백을 사용 하 고, 각 하위 수준에는 숫자만 사용 합니다 (예: 문자 없음).  예:
    1. 항목 A
    2. 항목 B
       1. 하위 항목 A
@@ -482,7 +482,7 @@ Service Trust Portal에서 준수 관리자에 액세스할 수 있습니다. Mi
       2. 하위 항목 B
    5. 항목 E
 
-하이퍼링크 텍스트를 대괄호로 묶고 닫는 대괄호 바로 다음에 하이퍼링크를 괄호로 묶어 구성 합니다.  예를 들면 다음과 같습니다.
+하이퍼링크 텍스트를 대괄호로 묶고 닫는 대괄호 바로 다음에 하이퍼링크를 괄호로 묶어 구성 합니다.  예:
 
 ```Markdown
 Click [here](https://www.microsoft.com) to go to Microsoft’s home page.
@@ -491,7 +491,7 @@ Click [here](https://www.microsoft.com) to go to Microsoft’s home page.
 
 위의 예제에 나와 있는 것 처럼 준수 관리자는 밑줄을 사용 하 여 Url을 렌더링 하지 않습니다.
 
-굵은 텍스트는 텍스트의 양쪽에 있는 두 개의 별표가 며 굵게 표시 됩니다.  예를 들면 다음과 같습니다.
+굵은 텍스트는 텍스트의 양쪽에 있는 두 개의 별표가 며 굵게 표시 됩니다.  예:
 
 ```Markdown
 **This text will render in bold**

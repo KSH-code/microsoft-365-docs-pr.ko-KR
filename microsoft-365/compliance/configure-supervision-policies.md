@@ -1,5 +1,6 @@
 ---
-title: Office 365에 대한 감독 정책 구성
+title: 감독 정책 구성
+description: Office 365에 대 한 통신 감독 구성
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -15,15 +16,15 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-description: Office 365에 대 한 통신 감독 구성
-ms.openlocfilehash: 694f35fd42fb534292130695efa12bacc114713c
-ms.sourcegitcommit: 9083036e787cf997fbceb19c66af594d0fa81d0f
+titleSuffix: Office 365 Compliance
+ms.openlocfilehash: 67e7d1a8fe1ca2f64031cab9bdee72ac22c70886
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "38687165"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40806631"
 ---
-# <a name="configure-supervision-policies-for-office-365"></a>Office 365에 대한 감독 정책 구성
+# <a name="configure-supervision-policies-in-office-365"></a>Office 365에서 감독 정책 구성
 
 > [!IMPORTANT]
 > 이 항목은 Office 365 구독에서 감독 정책 구성에 적용 됩니다. Microsoft 365 구독에 대 한 통신 준수를 구성 하려면 [configure communications 준수 In microsoft 365 (preview)](communication-compliance-configure.md)을 참조 하십시오.

@@ -1,5 +1,6 @@
 ---
 title: 커뮤니케이션 규정 준수 알림 검사 및 수정(미리 보기)
+description: Microsoft 365에서 통신 준수 알림을 조사 하 고 수정 합니다.
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -15,13 +16,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-description: Microsoft 365에서 통신 준수 알림을 조사 하 고 수정 합니다.
-ms.openlocfilehash: 336ce22813b60a4543941b18e11acf525570bb26
-ms.sourcegitcommit: e386037c9cc335c86896dc153344850735afbccd
+ms.openlocfilehash: 322e74b846cc574b52708627d5f59dde3cfe9e80
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "39633687"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40807387"
 ---
 # <a name="investigate-and-remediate-communication-compliance-alerts-preview"></a>커뮤니케이션 규정 준수 알림 검사 및 수정(미리 보기)
 

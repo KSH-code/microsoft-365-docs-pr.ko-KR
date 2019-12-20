@@ -3,7 +3,7 @@ title: 네트워크 업로드를 사용하여 RMS 암호화 PST 파일을 Office
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.date: 5/29/2018
+ms.date: ''
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
@@ -15,18 +15,18 @@ search.appverid:
 - MET150
 ms.assetid: 84a595b8-cd77-4f66-ac52-57a33ddd4773
 description: 네트워크 업로드를 사용 하 여 RMS 암호화 PST 파일을 Office 365의 사용자 사서함으로 가져오는 방법에 대해 알아봅니다.
-ms.openlocfilehash: c31658ead08fd1c72447f1182af28c32db421842
-ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
+ms.openlocfilehash: 59aa489d6f4a3dd2545d5a2475f9e70e65529230
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38687265"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40802293"
 ---
 # <a name="use-network-upload-to-import-rms-encrypted-pst-files-to-office-365"></a>네트워크 업로드를 사용하여 RMS 암호화 PST 파일을 Office 365로 가져오기
 
 **이 문서는 관리자를 위한 것입니다. PST 파일을 자체 사서함으로 가져오시겠습니까? [Outlook .pst 파일에서 전자 메일, 연락처 및 일정 가져오기를](https://go.microsoft.com/fwlink/p/?LinkID=785075) 참조 하세요.**
    
-네트워크 업로드 옵션 및 Office 365 가져오기 서비스를 사용 하 여 PST 파일을 사용자 사서함으로 가져옵니다. 네트워크 업로드는 Microsoft 클라우드의 임시 저장소 영역에 PST 파일을 업로드 하는 것을 의미 합니다. 그런 다음 Office 365 가져오기 서비스가 저장소 영역의 PST 파일을 대상 사용자 사서함으로 복사 합니다. 가져오기 서비스의 새로운 기능을 사용 하면 PST 파일이 업로드 되 고 Microsoft 클라우드에서 저장 되기 전에 암호화할 수 있습니다. 이러한 파일은 사용자 사서함으로 가져올 때 암호화 해제됩니다. 
+네트워크 업로드 옵션 및 Office 365 가져오기 서비스를 사용 하 여 PST 파일을 사용자 사서함으로 가져옵니다. 네트워크 업로드는 PST 파일을 Microsoft 클라우드의 임시 저장 영역으로 업로드하는 것을 의미합니다. 그런 다음 Office 365 가 오기 서비스는 저장 영역에서 대상 사용자 사서함으로 PST 파일을 복사합니다. 가져오기 서비스의 새로운 기능을 사용 하면 PST 파일이 업로드 되 고 Microsoft 클라우드에서 저장 되기 전에 암호화할 수 있습니다. 이러한 파일은 사용자 사서함으로 가져올 때 암호화 해제됩니다. 
   
 PST 파일을 암호화 하 고 Office 365 사서함으로 가져오는 데 필요한 단계는 다음과 같습니다.
   
@@ -53,34 +53,36 @@ Office 365로 데이터를 가져오는 방법에 대 한 자세한 내용은 [O
   
 ## <a name="before-you-begin"></a>시작하기 전에
 
-- PST 파일을 Office 365 사서함으로 가져오려면 Exchange Online의 사서함 가져오기 내보내기 역할을 할당 받아야 합니다. 기본적으로이 역할은 Exchange Online의 어떠한 역할 그룹에도 할당 되지 않습니다. You can add the Mailbox Import Export role to the Organization Management role group. Or you can create a new role group, assign the Mailbox Import Export role, and then add yourself as a member. 자세한 내용은 [Manage role groups](https://go.microsoft.com/fwlink/p/?LinkId=730688)의 "역할 그룹에 역할 추가" 또는 "역할 그룹 만들기" 섹션을 참조 하십시오.
+- PST 파일을 Office 365 사서함으로 가져오려면 Exchange Online에서 사서함 가져오기/내보내기 역할을 할당받아야 합니다. 기본적으로이 역할은 Exchange Online의 어떤 역할 그룹에도 할당되지 않습니다. 조직 관리 역할 그룹에 사서함 가져오기/내보내기 역할을 추가할 수 있습니다. Or you can create a new role group, assign the Mailbox Import Export role, and then add yourself as a member. 자세한 내용은 [역할 그룹 관리](https://go.microsoft.com/fwlink/p/?LinkId=730688)의 “역할 그룹에 역할 추가” 또는 “역할 그룹 만들기” 섹션을 참조하세요.
     
-    또한 보안 & 준수 센터에서 가져오기 작업을 만들려면 다음 중 하나가 충족 되어야 합니다.
+    또한 보안 & 준수 센터에서 가져오기 작업을 만들려면 다음 중 하나가 충족되어야 합니다.
     
-  - Exchange Online에서 Mail Recipients 역할을 할당 받아야 합니다. By default, this role is assigned to the Organization Management and Recipient Management roles groups.
+  - Exchange Online에서 메일 받는 사람 역할을 할당받아야 합니다. 기본적으로 이 역할은 조직 관리 및 받는 사람 관리 역할 그룹에 할당됩니다.
     
     또는
     
-  - Office 365 조 직의 전역 관리자 여야 합니다.
+  - Office 365 조직의 전역 관리자여야 합니다.
     
   > [!TIP]
-  > Exchange Online에서 PST 파일을 Office 365로 가져오는 데 특별히 만들어진 새 역할 그룹을 만드는 것이 좋습니다. PST 파일을 가져오는 데 필요한 최소 수준의 권한으로는 사서함 가져오기 내보내기 및 메일 받는 사람 역할을 새 역할 그룹에 할당 하 고 구성원을 추가 합니다. 
+  > Exchange Online에서 PST 파일을 Office 365로 가져오기 위한 새로운 역할 그룹을 만드는 것이 좋습니다. PST 파일을 가져오는 데 필요한 최소 수준의 권한만 할당하려면 새 역할 그룹에 사서함 가져오기/내보내기 역할 및 메일 받는 사람 역할을 할당하고 구성원을 추가합니다. 
+
+- Pst 파일이 크면 PST 가져오기 프로세스의 성능에 영향을 줄 수 있습니다. 따라서 2 단계에서 Azure 저장소 위치로 업로드 하는 각 PST 파일은 20gb이 하는 것이 좋습니다.
   
-- 조직의 파일 서버나 공유 폴더에서 Office 365로 가져오려는 PST 파일을 저장 해야 합니다. 5 단계에서는이 파일 서버 또는 공유 폴더에 저장 된 PST 파일을 Office 365에 암호화 하 고 업로드 하는 Office 365 ImportTool을 실행 합니다.
+- 조직의 파일 서버에 있는 Office 365 또는 공유 폴더에 가져오려는 PST 파일을 저장해야 합니다. 5 단계에서는이 파일 서버 또는 공유 폴더에 저장 된 PST 파일을 Office 365에 암호화 하 고 업로드 하는 Office 365 ImportTool을 실행 합니다.
     
 - 이 절차 중에 암호화 키, 저장소 키 및 다양한 확인 키와 URL이 복사되고 사본이 저장됩니다. 이 정보는 5 단계에서 PST 파일을 암호화 및 업로드 하는 데 사용 됩니다. 암호나 기타 보안 관련 정보를 보호하는 것처럼 특히 주의해서 이러한 항목을 보호해야 합니다. 예를 들어 암호로 보호된 Microsoft Word 문서에 저장하거나 암호화된 USB 드라이브에 저장할 수 있습니다. 이러한 키, ID 및 URL의 예를 보려면 [자세한 정보](#more-information) 섹션을 참조하세요. 
     
-- PST 파일을 Office 365의 비활성 사서함으로 가져올 수 있습니다. PST 가져오기 매핑 파일의 `Mailbox` 매개 변수에 비활성 사서함의 GUID를 지정 하 여이 작업을 수행 합니다. 자세한 내용은 [7 단계](#step-7-create-the-pst-import-mapping-file) 를 참조 하세요. 
+- Office 365의 비활성 사서함으로 PST 파일을 가져올 수 있습니다. PST 가져오기 매핑 파일의 `Mailbox` 매개 변수에 비활성 사서함의 GUID를 지정하여 이 작업을 수행합니다. 자세한 내용은 [7 단계](#step-7-create-the-pst-import-mapping-file) 를 참조 하세요. 
     
-- Exchange 하이브리드 배포에서는 기본 사서함이 온-프레미스 인 사용자에 대해 PST 파일을 클라우드 기반 보관 사서함으로 가져올 수 있습니다. PST 가져오기 매핑 파일에서 다음을 수행 하 여이 작업을 수행 합니다.
+- Exchange 하이브리드 배포에서는 기본 사서함이 온-프레미스인 사용자의 PST 파일을 클라우드 기반 보관 사서함으로 가져올 수 있습니다. PST 가져오기 매핑 파일에서 다음을 수행하여 이 작업을 수행합니다.
     
-  - `Mailbox` 매개 변수의 사용자 온-프레미스 사서함에 대 한 전자 메일 주소를 지정 합니다. 
+  - 사용자의 온-프레미스 사서함에 대한 전자 메일 주소를 `Mailbox`매개 변수에 지정합니다. 
     
-  - `IsArchive` 매개 변수에 **TRUE** 값을 지정 합니다. 
+  - `IsArchive`매개 변수에 **TRUE** 값을 지정합니다. 
     
     자세한 내용은 [7 단계](#step-7-create-the-pst-import-mapping-file) 를 참조 하세요. 
     
-- PST 파일을 Office 365 사서함으로 가져온 후에는 사서함에 대 한 보존 설정이 무기한 유지 되도록 설정 됩니다. 즉, 보존 보류를 해제 하거나 보류를 해제 하기 위해 날짜를 설정할 때까지 사서함에 할당 된 보존 정책이 처리 되지 않습니다. 이 작업을 수행 하는 이유는 무엇 인가요? 사서함으로 가져온 메시지가 오래 된 경우 사서함에 대해 구성 된 보존 설정에 따라 보존 기간이 만료 되어 영구적으로 삭제 (제거) 될 수 있습니다. 사서함을 보존 상태로 두면 사서함 소유자가 새로 가져온 메시지를 관리할 수 있는 시간을 제공 하거나 사서함의 보존 설정을 변경할 수 있는 시간을 제공 합니다. 보존 유지 관리에 대 한 제안은 [More information](#more-information) 섹션을 참조 하세요. 
+- PST 파일을 Office 365 사서함으로 가져온 후에는 사서함의 보존 유지 설정이 무기한으로 설정됩니다. 즉, 보존 유지를 끄거나 날짜를 설정하여 보존을 해제할 때까지 사서함에 할당된 보존 정책은 처리되지 않습니다. 이렇게 하는 이유가 무엇인가요? 사서함으로 가져온 메시지가 오래된 경우 사서함에 대해 구성된 보존 설정에 따라 보존 기간이 만료되어 영구적으로 삭제(제거) 될 수 있습니다. 사서함을 보존 상태로 두면 사서함 소유자가 새로 가져온 메시지를 관리할 수 있는 시간을 제공 하거나 사서함의 보존 설정을 변경할 수 있는 시간을 제공 합니다. 보존 유지 관리에 대 한 제안은 [More information](#more-information) 섹션을 참조 하세요. 
     
 - PST 파일을 Office 365에 업로드 하기 전에 암호화할 필요가 없는 경우 [네트워크 업로드를 사용 하 여 pst 파일을 office 365에 가져오기](use-network-upload-to-import-pst-files.md)를 참조 하세요.
     
@@ -157,7 +159,7 @@ Azure RMS는 기본적으로 사용 하지 않도록 설정 되어 있지만, �
 
 ## <a name="step-2-generate-an-encryption-key-for-pst-import"></a>2단계: PST 가져오기를 위한 암호화 키 생성
 
-Azure RMS를 설정한 후에는 Office 365에 업로드 하는 PST 파일을 암호화 하는 데 사용 되는 암호화 키 (대칭 키)를 생성 해야 합니다. 이 작업을 수행 하려면 PST 가져오기 서비스를 Azure Active Directory의 서비스 주체로 추가 합니다. 이 응용 프로그램을 서비스 주체로 추가 하면 암호화 된 PST 파일을 5 단계에서 Azure storage 위치에 업로드할 때 PST 가져오기 서비스가 Azure Active Directory를 통해 직접 인증할 수 있습니다.
+Azure RMS를 설정한 후에는 Office 365에 업로드 하는 PST 파일을 암호화 하는 데 사용 되는 암호화 키 (대칭 키)를 생성 해야 합니다. 이 작업을 수행 하려면 PST 가져오기 서비스를 Azure Active Directory의 서비스 주체로 추가 합니다. 이 응용 프로그램을 서비스 주체로 추가 하면 암호화 된 PST 파일을 5 단계에서 Azure Storage 위치에 업로드할 때 PST 가져오기 서비스가 Azure Active Directory를 통해 직접 인증할 수 있습니다.
   
 1. Windows PowerShell 용 Azure Active Directory 모듈을 시작 합니다.
     
@@ -216,7 +218,7 @@ Windows PowerShell 용 Azure Active Directory 모듈을 열어 두고 Microsoft 
 
 ## <a name="step-4-download-the-pst-import-tools-and-copy-the-sas-url"></a>4 단계: PST 가져오기 도구 다운로드 및 SAS URL 복사
 
-Azure RMS를 구성 하 고 PST 파일을 암호화 하는 데 필요한 Id를 가져왔는지 확인 한 후에는 5 단계에서 실행할 도구를 다운로드 하 고 설치 하 여 PST 파일을 암호화 하 고 Office 365에 업로드 합니다. 이러한 도구는 Azure AzCopy 도구 및 Office 365 데이터 암호화 도구입니다. 조직의 SAS URL도 복사 합니다. 이 URL은 조직에 대 한 Microsoft 클라우드의 Azure 저장소 위치 및 공유 액세스 서명 (SAS) 키에 대 한 네트워크 URL의 조합입니다. 이 키를 사용 하 여 Azure 저장소 위치에 PST 파일을 업로드 하는 데 필요한 권한을 제공 합니다. 2 단계와 3 단계에서 다른 정보를 복사한 것과 같은 파일에 저장 합니다. 앞에서 설명한 것 처럼, SAS URL을 보호 하기 위한 예방 조치를 취합니다. 
+Azure RMS를 구성 하 고 PST 파일을 암호화 하는 데 필요한 Id를 가져왔는지 확인 한 후에는 5 단계에서 실행할 도구를 다운로드 하 고 설치 하 여 PST 파일을 암호화 하 고 Office 365에 업로드 합니다. 이러한 도구는 Azure AzCopy 도구 및 Office 365 데이터 암호화 도구입니다. 조직의 SAS URL도 복사 합니다. 이 URL은 조직의 Microsoft 클라우드에서 Azure 저장소 위치에 대한 네트워크 URL과 SAS(공유 액세스 서명) 키의 조합입니다. 이 키는 PST 파일을 Azure 저장소 위치에 업로드하는 데 필요한 권한을 제공합니다. 2 단계와 3 단계에서 다른 정보를 복사한 것과 같은 파일에 저장 합니다. 앞에서 설명한 것 처럼, SAS URL을 보호 하기 위한 예방 조치를 취합니다. 
   
 > [!IMPORTANT]
 > Azure 저장소 위치에 PST 파일을 업로드 하려면 Azure AzCopy 버전 5.0를 사용 해야 합니다. 최신 버전의 AzCopy 도구는 PST 파일을 Office 365로 가져올 때 지원 되지 않습니다. 이 단계의 절차를 수행 하 여 네트워크를 **통해 파일 업로드** 페이지에서 AzCopy 도구를 다운로드 해야 합니다. 
@@ -225,9 +227,9 @@ Azure RMS를 구성 하 고 PST 파일을 암호화 하는 데 필요한 Id를 �
     
 2. Office 365 조직의 관리자 계정에 대 한 자격 증명을 사용 하 여 Office 365에 로그인 합니다.
     
-3. 왼쪽 창에서 **데이터 관리** 를 클릭 하 고 **가져오기를**클릭 합니다.
+3. 왼쪽 창에서 **정보 거 버 넌 스** \> **** \> 가져오기 **PST 파일**을 클릭 합니다.
     
-4. **가져오기** 페이지에서 **가져오기 서비스로 이동**을 클릭합니다.
+4. **PST 파일 가져오기** 페이지에서 **가져오기 서비스로 이동을**클릭 합니다.
     
 5. **Office로 데이터 가져오기 365** 페이지에서 **새 작업** ![추가 아이콘](media/ITPro-EAC-AddIcon.gif)을 클릭 한 다음 **전자 메일 메시지 (PST 파일) 업로드**를 클릭 합니다.
     
@@ -253,6 +255,9 @@ Azure RMS를 구성 하 고 PST 파일을 암호화 하는 데 필요한 Id를 �
 ## <a name="step-5-encrypt-and-upload-your-pst-files-to-office-365"></a>5 단계: PST 파일 암호화 및 Office 365 업로드
 
 1-4 단계를 완료 한 후에는 O365importtool.zip 도구를 사용 하 여 PST 파일을 암호화 하 고 Office 365에 업로드할 수 있습니다. 이 도구는 PST 파일을 암호화 한 다음 Microsoft 클라우드의 Azure 저장소 위치에 업로드 하 고 저장 합니다. 이 단계를 완료하려면 PST 파일이 조직의 파일 공유 또는 파일 서버에 있어야 합니다. 다음 절차에서는 이것을 원본 디렉터리라고 합니다. O365ImportTool.exe 도구를 실행할 때마다 다른 원본 디렉터리를 지정할 수 있습니다. 
+
+> [!NOTE]
+> 앞에서 설명한 것 처럼 Azure 저장소 위치로 업로드 하는 각 PST 파일은 20gb 보다 크지 않아야 합니다. PST 파일이 20gb 보다 크면 8 단계에서 시작 하는 PST 가져오기 프로세스의 성능에 영향을 줄 수 있습니다.
   
 1. 로컬 컴퓨터에서 명령 프롬프트를 엽니다.
     
@@ -264,18 +269,18 @@ Azure RMS를 구성 하 고 PST 파일을 암호화 하는 데 필요한 Id를 �
     O365ImportTool.exe /srcdir:<Location of PST files> /protect-rmsserver:<RMS licensing location> /protect-tenantid:<BPOSId> /protect-key:<Symmetric key> /transfer:upload /upload-dest:<Network upload URL> /upload-destSAS:<SAS key>
     ```
 
-    다음 표에서는 매개 변수와 해당 필수 값에 대해 설명합니다. 이전 단계에서 획득한 정보가 이러한 매개 변수의 값에 사용됩니다.
+    다음 표에서는 매개 변수와 해당 필수 값에 대해 설명합니다. 위의 단계에서 얻은 정보는 이러한 매개 변수의 값에 사용 됩니다.
     
-    |**매개 변수**|**설명**|**예제**|
+    |**매개 변수**|**설명**|**예**|
     |:-----|:-----|:-----|
-    | `/srcdir:` <br/> |Office 365로 업로드 될 PST 파일이 들어 있는 조직의 원본 디렉터리를 지정 합니다.  <br/> | `/srcdir:\\FILESERVER01\PSTs` <br/> |
+    | `/srcdir:` <br/> |조직에서 Office 365로 업로드될 PST 파일이 들어 있는 원본 디렉터리를 지정합니다.  <br/> | `/srcdir:\\FILESERVER01\PSTs` <br/> |
     | `/protect-rmsserver:` <br/> |Azure RMS 서비스의 라이선스 위치를 지정 합니다. 3 단계에서 구한 `LicensingIntranetDistributionPointUrl` 속성 값을 사용 합니다. 이 매개 변수의 값을 큰따옴표 ("")로 묶어야 합니다.  <br/> | `/protect-rmsserver:"https://afcbd8ec-cb2b-4a1a-8246-0b4bc22d1978.rms.na.aadrm.com/_wmcs/licensing"` <br/> |
     | `/protect-tenantid:` <br/> |Azure RMS 조직의 id를 지정 합니다. 3 단계에서 구한 `BPOSId` 속성 값을 사용 합니다.  <br/> | `/protect-tenantid:42745b33-2a5c-4726-8a2a-ca43caa0f74b` <br/> |
     | `/protect-key:` <br/> |2단계에서 획득한 대칭 키를 지정합니다. 이 매개 변수의 값을 큰따옴표(" ")로 묶으세요.  <br/> | `/protect-key:"l+R+Umc5RGmSBh1oW+DoyMxm/h5h2JJXFcNOFiNp867="` <br/> |
     | `/transfer:` <br/> |네트워크를 통해 PST 파일을 업로드할지 또는 하드 드라이브를 통해 발송할지를 지정합니다. 이 값 `upload` 은 네트워크를 통해 파일을 업로드 하 고 있음을 나타냅니다. 이 값 `drive` 은 pst를 하드 드라이브에 공급 중임을 나타냅니다.  <br/> | `/transfer:upload` <br/> |
-    | `/upload-dest:` <br/> |PST 파일이 업로드 되는 Office 365의 대상을 지정 합니다. 조직의 Azure 저장소 위치입니다. 이 매개 변수의 값은 4 단계에서 복사한 SAS URL의 네트워크 업로드 URL로 구성 됩니다. 이 매개 변수의 값을 큰따옴표(" ")로 묶으세요.  <br/><br/> **팁:** (선택 사항) Azure 저장소 위치에 하위 폴더를 지정 하 여 암호화 된 PST 파일을 업로드할 수 있습니다. 이렇게 하려면 네트워크 업로드 URL에 하위 폴더 위치 ("ingestiondata")를 추가 합니다. 첫 번째 예에서는 하위 폴더를 지정 하지 않습니다. 즉, Pst가 Azure 저장소 위치의 루트 ( *ingestiondata* )로 업로드 됩니다. 두 번째 예에서는 PST 파일을 Azure 저장소 위치에 *encryptedpsts* 라는 하위 폴더에 업로드 합니다.           | `/upload-dest:"https://3c3e5952a2764023ad14984.blob.core.windows.net/ingestiondata"` <br/> 또는  <br/>  `/upload-dest:"https://3c3e5952a2764023ad14984.blob.core.windows.net/ingestiondata/EncryptedPSTs"` <br/> |
-    | `/upload-destSAS:` <br/> |조직의 SAS 키를 지정 합니다. 이 매개 변수의 값은 4 단계에서 복사한 SAS URL의 SAS 키로 구성 됩니다. SAS 키의 첫 번째 문자는 물음표 ("?")입니다. 이 매개 변수의 값을 큰따옴표(" ")로 묶으세요.  <br/> | `/upload-destSAS:"?sv=2012-02-12&amp;se=9999-12-31T23%3A59%3A59Z&amp;sr=c&amp;si=IngestionSasForAzCopy201601121920498117&amp;sig=Vt5S4hVzlzMcBkuH8bH711atBffdrOS72TlV1mNdORg%3D"` <br/> |
-    | `/recurse` <br/> |이 선택적 스위치는 O365importtool.zip 도구에서 `/srcdir:` 매개 변수로 지정 된 원본 디렉터리의 하위 폴더에 있는 pst 파일을 복사 하도록 재귀 모드를 지정 합니다.  <br/><br/> **참고:** 이 스위치를 포함 하는 경우 하위 폴더의 PST 파일은 업로드 된 후 Azure 저장소 위치에서 파일 경로 이름이 다릅니다. 7단계에서 만드는 CSV 파일의 정확한 파일 경로 이름을 지정해야 합니다.           | `/recurse` <br/> |
+    | `/upload-dest:` <br/> |PST 파일이 업로드 되는 Office 365의 대상을 지정 합니다. 조직의 Azure 저장소 위치입니다. 이 매개 변수의 값은 4 단계에서 복사한 SAS URL의 네트워크 업로드 URL로 구성 됩니다. 이 매개 변수의 값을 큰따옴표(" ")로 묶으세요.  <br/><br/> **팁:** (선택 사항) Azure 저장소 위치에 하위 폴더를 지정 하 여 암호화 된 PST 파일을 업로드할 수 있습니다. 이렇게 하려면 네트워크 업로드 URL에 하위 폴더 위치 ("ingestiondata")를 추가 합니다. 첫 번째 예에서는 하위 폴더를 지정 하지 않습니다. 즉, Pst가 Azure 저장소 위치의 루트 ( *ingestiondata*)로 업로드 됩니다. 두 번째 예에서는 PST 파일을 Azure 저장소 위치에 *encryptedpsts*라는 하위 폴더에 업로드 합니다.           | `/upload-dest:"https://3c3e5952a2764023ad14984.blob.core.windows.net/ingestiondata"` <br/> 또는  <br/>  `/upload-dest:"https://3c3e5952a2764023ad14984.blob.core.windows.net/ingestiondata/EncryptedPSTs"` <br/> |
+    | `/upload-destSAS:` <br/> |조직의 SAS 키를 지정 합니다. 이 매개 변수의 값은 4 단계에서 복사한 SAS URL의 SAS 키로 구성 됩니다. SAS 키의 첫 번째 문자는 물음표 ("?")입니다. 이 매개 변수의 값을 큰따옴표(" ")로 묶으세요.<br/><br/>**참고:** 스크립트 또는 배치 파일에서 SAS URL을 사용 하는 경우에는 이스케이프 해야 하는 특정 문자를 조사 해야 합니다. 예를 들어로 `%` 변경 하 `%%` 고로 `&` `^&`변경 해야 합니다. | `/upload-destSAS:"?sv=2012-02-12&amp;se=9999-12-31T23%3A59%3A59Z&amp;sr=c&amp;si=IngestionSasForAzCopy201601121920498117&amp;sig=Vt5S4hVzlzMcBkuH8bH711atBffdrOS72TlV1mNdORg%3D"` <br/> |
+    | `/recurse` <br/> |이 선택적 스위치는 O365importtool.zip 도구에서 `/srcdir:` 매개 변수로 지정 된 원본 디렉터리의 하위 폴더에 있는 PST 파일을 복사 하도록 재귀 모드를 지정 합니다.  <br/><br/> **참고:** 이 스위치를 포함하면 하위 폴더의 PST 파일은 업로드 된 후에 Azure 저장소 위치에서 다른 파일 경로 이름을 갖게 됩니다. 7단계에서 만드는 CSV 파일의 정확한 파일 경로 이름을 지정해야 합니다.           | `/recurse` <br/> |
    
     다음은 각 매개 변수의 실제 값을 사용하는 O365ImportTool.exe 도구의 구문 예입니다.
     
@@ -292,30 +297,30 @@ Azure RMS를 구성 하 고 PST 파일을 암호화 하는 데 필요한 Id를 �
 
 선택적 단계로 Microsoft Azure Storage Explorer (무료 오픈 소스 도구)를 설치 하 고 사용 하 여 Azure blob에 업로드 한 PST 파일의 목록을 볼 수 있습니다. 이 작업을 수행 하는 데는 세 가지 좋은 이유가 있습니다.
   
-- 조직의 공유 폴더 또는 파일 서버에 있는 PST 파일이 Azure blob에 성공적으로 업로드 되었는지 확인 합니다.
+- 조직의 공유 폴더 또는 파일 서버의 PST 파일이 Azure blob에 성공적으로 업로드되었는지 확인합니다.
 
 - PST 파일이 암호화 되어 있는지 확인 합니다. 암호화 된 PST 파일의 `.pfile` 확장명은 PST 파일 이름에 추가 됩니다. 예를 `pilarp.pst.pfile`들면입니다.
     
-- Azure blob에 업로드 된 각 PST 파일에 대해 파일 이름 (및 포함 된 경우 하위 폴더 경로 이름)이 있는지 확인 합니다. 다음 단계에서 PST 매핑 파일을 만들 때 각 PST 파일의 폴더 경로와 파일 이름을 모두 지정해야 하므로 이러한 정보를 유용하게 사용할 수 있습니다. 이러한 이름을 확인하면 PST 매핑 파일의 잠재적인 오류를 줄이는 데 도움이 될 수 있습니다.
+- Azure Blob에 업로드 된 각 PST 파일의 파일 이름(및 하위 폴더 경로 이름이 포함된 경우 해당 이름)을 확인합니다. 다음 단계에서 PST 매핑 파일을 만들 때 각 PST 파일의 폴더 경로 이름과 파일 이름을 모두 지정해야 하므로 이 정보를 유용하게 사용할 수 있습니다. 이러한 이름을 확인하면 PST 매핑 파일의 잠재적인 오류를 줄이는 데 도움이 될 수 있습니다.
     
-Microsoft Azure Storage Explorer가 미리 보기에 있습니다. 
+Microsoft Azure 저장소 탐색기는 Preview에 있습니다.  
   
  > [!IMPORTANT]
->  Azure 저장소 탐색기를 사용 하 여 PST 파일을 업로드 하거나 수정할 수 없습니다. PST 파일을 Office 365로 가져오는 유일한 방법은 AzCopy을 사용 하는 것입니다. 또한 Azure blob에 업로드 한 PST 파일은 삭제할 수 없습니다. PST 파일을 삭제 하려고 하면 필요한 사용 권한이 없다는 오류 메시지가 표시 됩니다. 모든 PST 파일이 Azure 저장소 영역에서 자동으로 삭제 됩니다. If there are no import jobs in progress, then all PST files in the **ingestiondata** container are deleted 30 days after the most recent import job was created. 
+>  PST 파일을 업로드하거나 수정하는 데 Azure 저장소 탐색기를 사용할 수 없습니다. PST 파일을 Office 365로 가져오는 유일한 지원 방법은 AzCopy를 사용하는 것입니다. 또한 Azure Blob에 업로드한 PST 파일을 삭제할 수 없습니다. PST 파일을 삭제하려고 하면 필요한 권한이 없다고 설명하는 오류가 표시됩니다. 모든 PST 파일이 Azure Storage 영역에서 자동으로 삭제되는 것이 정상입니다. 가져오기 작업이 진행 중이 아니라면 ** ingestiondata** 컨테이너에 포함된 모든 PST 파일이 가장 최근에 가져오기 작업이 생성된 날짜로부터 30일 후에 삭제됩니다. 
   
-Azure 저장소 탐색기를 설치 하 고 Azure storage 영역에 연결 하려면 다음을 수행 합니다.
+Azure 저장소 탐색기를 설치하고 Azure 저장소 영역에 연결하려면 다음을 수행합니다.
   
-1. [Microsoft Azure 저장소 탐색기 도구](https://go.microsoft.com/fwlink/p/?LinkId=544842)를 다운로드 하 고 설치 합니다.
+1. [Microsoft Azure 저장소 탐색기 도구](https://go.microsoft.com/fwlink/p/?LinkId=544842)를 다운로드 및 설치합니다.
     
-2. Microsoft Azure 저장소 탐색기를 시작 하 고 왼쪽 창에서 **저장소 계정을** 마우스 오른쪽 단추로 클릭 한 다음 **Azure Storage에 연결**을 클릭 합니다. 
+2. Microsoft Azure 저장소 탐색기를 시작하고 왼쪽 창에서 **저장소 계정**을 마우스 오른쪽 단추로 클릭한 다음 **Azure 저장소에 연결**을 클릭합니다. 
     
-    ![저장소 계정을 마우스 오른쪽 단추로 클릭 한 다음 Azure Storage에 연결을 클릭 합니다.](media/75b80cc3-c336-4f96-ad32-54ac9b96a7af.png)
+    ![저장소 계정을 마우스 오른쪽 단추로 클릭한 다음 Azure 저장소에 연결을 클릭합니다.](media/75b80cc3-c336-4f96-ad32-54ac9b96a7af.png)
   
-3. **Azure storage에 연결**아래의 상자에서 4 단계에서 얻은 SAS URL을 붙여넣은 후 **다음**을 클릭 합니다. 
+3. **Azure Storage에 연결**아래의 상자에서 4 단계에서 얻은 SAS URL을 붙여넣은 후 **다음**을 클릭 합니다. 
     
     ![Azure Storage에 연결 페이지의 상자에 SAS URL을 붙여 넣습니다.](media/5d034128-e087-48e1-9ebc-4c9fa262d5b7.png)
   
-4. **연결 요약** 페이지에서 연결 정보를 검토 하 고 **연결**을 클릭할 수 있습니다. 
+4. **연결 요약** 페이지에서 연결 정보를 검토할 수 있습니다. 그 다음 **연결**을 클릭합니다. 
     
 5. **저장소 계정**에서 **(서비스 SAS)** 노드를 확장 하 고 **Blob 컨테이너** 노드를 확장 합니다. 
     
@@ -323,19 +328,19 @@ Azure 저장소 탐색기를 설치 하 고 Azure storage 영역에 연결 하�
     
     ![ingestiondata를 마우스 오른쪽 단추로 클릭한 다음 Blob 컨테이너 편집기 열기를 클릭합니다.](media/f50eee30-9202-4efc-904a-2895a0bc388d.png)
   
-    5 단계에서 업로드 한 PST 파일 목록이 포함 된 Azure storage 영역이 표시 됩니다.
+    5 단계에서 업로드 한 PST 파일 목록이 포함 된 Azure Storage 영역이 표시 됩니다.
     
-    ![Azure 저장소 탐색기는 사용자가 업로드한 PST 파일 목록이 표시됩니다.](media/a448ae43-e744-4153-8304-22b59e93883c.png)
+    ![Azure 저장소 탐색기는 업로드한 PST 파일 목록을 표시합니다.](media/a448ae43-e744-4153-8304-22b59e93883c.png)
   
-7. Microsoft Azure 저장소 탐색기 사용을 마친 후 **ingestiondata**를 마우스 오른쪽 단추로 클릭 하 고 **분리** 를 클릭 하 여 Azure 저장소 영역에서 연결을 끊습니다. 그러지 않으면 다음 번에 연결할 때 오류가 발생합니다. 
+7. Microsoft Azure 저장소 탐색기 사용을 마치게 되면 **ingestiondata**를 마우스 오른쪽 단추로 클릭한 다음 **분리**를 클릭하여 Azure 저장소 영역에서 연결을 끊습니다. 그렇지 않으면 다음에 연결할 때 오류가 발생합니다. 
     
-    ![수집을 마우스 오른쪽 단추로 클릭하고 분리를 클릭하여 Azure 저장소 영역에서 연결 끊기](media/1e8e5e95-4215-4ce4-a13d-ab5f826a0510.png)
+    ![ingestion을 마우스 오른쪽 단추로 클릭하고 분리를 클릭하여 Azure 저장소 영역에서 연결을 끊습니다.](media/1e8e5e95-4215-4ce4-a13d-ab5f826a0510.png)
   
 ## <a name="step-7-create-the-pst-import-mapping-file"></a>7 단계: PST 가져오기 매핑 파일 만들기
 
 PST 파일을 암호화 하 고 Office 365 조 직의 Azure 저장 위치로 업로드 한 후에는 PST 파일을 가져올 사용자 사서함을 지정 하는 CSV (쉼표로 구분 된 값) 파일을 만듭니다. PST 가져오기 작업을 만드는 다음 단계에서 이 CSV 파일을 제출합니다.
   
-1. [PST 가져오기 매핑 파일의 복사본을 다운로드](https://go.microsoft.com/fwlink/p/?LinkId=544717)합니다. 
+1. [PST 가져오기 매핑 파일의 사본을 다운로드](https://go.microsoft.com/fwlink/p/?LinkId=544717). 
     
 2. CSV 파일을 열거나 로컬 컴퓨터에 저장합니다. 다음 예에서는 완료된 PST 가져오기 매핑 파일(메모장에서 열림)을 보여 줍니다. CSV 파일을 편집할 경우 Microsoft Excel을 사용하는 것이 훨씬 더 쉽습니다.
     
@@ -360,30 +365,30 @@ PST 파일을 암호화 하 고 Office 365 조 직의 Azure 저장 위치로 업
   
 3. 다음 표의 정보를 사용하여 CSV 파일을 필요한 정보로 채웁니다.
     
-    |**매개 변수**|**설명**|**예제**|
+    |**매개 변수**|**설명**|**예**|
     |:-----|:-----|:-----|
-    | `Workload` <br/> |데이터를 가져올 Office 365 서비스를 지정 합니다. PST 파일을 사용자 사서함으로 가져오려면을 사용 `Exchange`합니다.  <br/> | `Exchange` <br/> |
-    | `FilePath` <br/> |5 단계에서 PST 파일을 업로드 한 Azure 저장소 위치의 폴더 위치를 지정 합니다.  <br/>  5 단계에 있는 `/upload-dest:` 매개 변수의 네트워크 URL에 선택적 하위 폴더 이름을 포함 하지 않은 경우 CSV 파일에서이 매개 변수를 비워 둡니다. 하위 폴더 이름을 포함 하는 경우이 매개 변수에 지정 합니다. 이 매개 변수의 값은 대/소문자를 구분 합니다. 두 방법 중 어느 것이 든 `FilePath` 매개 변수의 값에 "ingestiondata"를 포함 *하지 마십시오* .  <br/> <br/>**중요:** 파일 경로 이름의 대/소문자는 5 단계의 `/upload-dest:` 매개 변수에 SAS URL에 선택적 하위 폴더 이름을 포함 한 경우에 사용한 경우와 동일 해야 합니다. 예를 들어 5 단계의 하위 `EncryptedPSTs` 폴더 이름에 대해 CSV 파일의 `encryptedpsts` `FilePath` 매개 변수를 사용 하는 경우 PST 파일에 대 한 가져오기가 실패 합니다. 두 인스턴스에서 같은 대/소문자를 사용 해야 합니다.           |(공백으로 둠)  <br/> 또는  <br/>  `EncryptedPSTs` <br/> |
-    | `Name` <br/> |사용자 사서함으로 가져올 PST 파일의 이름을 지정합니다. 이 매개 변수의 값은 대/소문자를 구분 합니다. Azure 저장소 위치로 업로드 되는 PST 파일은 암호화 되므로 PST 파일 이름에 `.pfile` 확장명이 추가 됩니다. CSV 파일의 PST `.pfile` 파일 이름에 확장을 추가 해야 합니다.  <br/><br/> **중요:** CSV 파일의 PST 파일 이름에 대 한 사례는 5 단계에서 Azure 저장소 위치로 업로드 된 PST 파일과 동일 해야 합니다. 예를 들어 CSV 파일의 `annb.pst.pfile` `Name` 매개 변수에서 사용 하는 경우 실제 PST 파일 `AnnB.pst`의 이름은 해당 pst 파일에 대 한 가져오기가 실패 합니다. CSV 파일의 PST 이름에 실제 PST 파일과 동일한 대/소문자가 사용 되는지 확인해 보십시오.           | `annb.pst.pfile` <br/> |
-    | `Mailbox` <br/> |PST 파일을 가져올 사서함의 전자 메일 주소를 지정합니다.   <br/> PST 파일을 비활성 사서함으로 가져오려면이 매개 변수의 사서함 GUID를 지정 해야 합니다. 이 GUID를 얻으려면 Exchange Online에서 다음 PowerShell 명령을 실행 합니다.`Get-Mailbox -InactiveMailboxOnly <identity of inactive mailbox> | FL Guid` <br/><br/> **참고:** 경우에 따라 전자 메일 주소가 같은 여러 개의 사서함이 있고, 하나의 사서함이 활성 사서함이 고, 다른 사서함이 일시 삭제 (또는 비활성) 상태인 경우에만 가능 합니다. 이러한 상황에서는 PST 파일을 가져올 사서함을 고유 하 게 식별 하는 사서함 GUID를 지정 해야 합니다. 활성 사서함에 대해이 GUID를 가져오려면 다음 PowerShell 명령을 실행 `Get-Mailbox - <identity of active mailbox> | FL Guid`합니다. 일시 삭제 된 (또는 비활성) 사서함의 GUID를 가져오려면 다음 명령을 실행 합니다.`Get-Mailbox - <identity of soft-deleted or inactive mailbox> -SoftDeletedMailbox | FL Guid`           | `annb@contoso.onmicrosoft.com` <br/> 또는  <br/>  `2d7a87fe-d6a2-40cc-8aff-1ebea80d4ae7` <br/> |
-    | `IsArchive` <br/> | PST 파일을 사용자의 보관 사서함으로 가져올 것인지 여부를 지정합니다. 다음 두 가지 옵션이 있습니다.  <br/> **FALSE** PST 파일을 사용자의 기본 사서함으로 가져옵니다.  <br/> **TRUE** PST 파일을 사용자의 보관 사서함으로 가져옵니다.  <br/>  If you leave this parameter blank, the PST file is imported to the user's primary mailbox.  <br/><br/> **참고:** 기본 사서함이 온-프레미스 사용자의 클라우드 기반 보관 사서함으로 PST 파일을 가져오려면이 매개 변수에 대해 **TRUE** 를 지정 하 고 해당 `Mailbox` 매개 변수의 사용자 온-프레미스 사서함에 대 한 전자 메일 주소를 지정 하면 됩니다.           | `FALSE` <br/> 또는  <br/>  `TRUE` <br/> |
-    | `TargetRootFolder` <br/> | PST 파일을 가져올 사서함 폴더를 지정 합니다.  <br/>  이 매개 변수를 비워 두면 PST를 사서함의 루트 수준 (받은 편지함 폴더 및 다른 기본 사서함 폴더와 같은 수준) **에 있는 새 폴더로 가져오게 됩니다** .  <br/>  지정 `/`하는 경우 PST 파일의 항목을 사용자의 받은 편지함 폴더로 직접 가져옵니다.  <br/>  지정 `/<foldername>`하는 경우 PST 파일의 항목을 * \<foldername\> * 이라는 하위 폴더로 가져옵니다. 예를 들어를 사용 하 `/ImportedPst`는 경우에는 항목을 **importedpst**라는 하위 폴더로 가져옵니다. 이 하위 폴더는 사용자의 받은 편지함 폴더에 배치 됩니다.  <br/><br/> **팁:** Pst 파일을 가져올 가장 적합 한 폴더 위치를 결정할 수 있도록 몇 가지 테스트 일괄 처리를 실행 하 여이 매개 변수를 시험해 보십시오.           |(공백으로 둠)  <br/> 또는  <br/>  `/` <br/> 또는  <br/>  `/ImportedPst` <br/> |
-    | `ContentCodePage` <br/> |이 선택적 매개 변수는 ANSI 파일 형식으로 PST 파일을 가져오는 데 사용할 코드 페이지의 숫자 값을 지정 합니다. 이 매개 변수는 일반적으로 문자 인코딩에 DBCS (더블 바이트 문자 집합)를 사용 하므로 중국어, 일본어 및 한국어 (CJK) 조직에서 PST 파일을 가져오는 데 사용 됩니다. 이 매개 변수를 사용 하 여 사서함 폴더 이름에 DBCS를 사용 하는 언어에 대 한 PST 파일을 가져오지 않으면 가져온 후 폴더 이름이 왜곡 되는 경우가 많습니다. 이 매개 변수에 사용할 지원 되는 값의 목록은 [코드 페이지 식별자](https://go.microsoft.com/fwlink/p/?LinkId=328514)를 참조 하십시오.  <br/><br/> **참고:** 앞에서 설명한 것 처럼이 매개 변수는 선택적으로 사용할 수 있으며 CSV 파일에 포함 하지 않아도 됩니다. 또는 하나 이상의 행에 대해 값을 비워 두면 됩니다.           |(공백으로 둠)  <br/> 또는  <br/>  `932`(ANSI/OEM 일본어에 대 한 코드 페이지 식별자)  <br/> |
-    | `SPFileContainer` <br/> |PST 가져오기의 경우 이 매개 변수를 비워 둡니다.   <br/> |해당 없음  <br/> |
-    | `SPManifestContainer` <br/> |PST 가져오기의 경우 이 매개 변수를 비워 둡니다.   <br/> |해당 없음  <br/> |
-    | `SPSiteUrl` <br/> |PST 가져오기의 경우 이 매개 변수를 비워 둡니다.   <br/> |해당 없음  <br/> |
+    | `Workload` <br/> |데이터를 가져올 Office 365 서비스를 지정합니다. PST 파일을 사용자 사서함으로 가져오려면 `Exchange`를 사용합니다.  <br/> | `Exchange` <br/> |
+    | `FilePath` <br/> |5 단계에서 PST 파일을 업로드 한 Azure 저장소 위치의 폴더 위치를 지정 합니다.  <br/>  5 단계에 있는 `/upload-dest:` 매개 변수의 네트워크 URL에 선택적 하위 폴더 이름을 포함 하지 않은 경우 CSV 파일에서이 매개 변수를 비워 둡니다. 하위 폴더 이름을 포함 하는 경우이 매개 변수에 지정 합니다. 이 매개 변수의 값은 대/소문자를 구분합니다. 어느 쪽이든 `FilePath` 매개 변수 값에 "ingestiondata"를 포함하지 *마세요*.  <br/> <br/>**중요:** 파일 경로 이름의 대/소문자는 5 단계의 `/upload-dest:` 매개 변수에 SAS URL에 선택적 하위 폴더 이름을 포함 한 경우에 사용한 경우와 동일 해야 합니다. 예를 들어 5 단계의 하위 `EncryptedPSTs` 폴더 이름에 대해 CSV 파일의 `encryptedpsts` `FilePath` 매개 변수를 사용 하는 경우 PST 파일에 대 한 가져오기가 실패 합니다. 두 가지 경우 모두 같은 대/소문자를 사용해야 합니다.           |(공백으로 둠)  <br/> 또는  <br/>  `EncryptedPSTs` <br/> |
+    | `Name` <br/> |사용자 사서함으로 가져올 PST 파일의 이름을 지정합니다. 이 매개 변수의 값은 대/소문자를 구분합니다. Azure 저장소 위치로 업로드 되는 PST 파일은 암호화 되므로 PST 파일 이름에 `.pfile` 확장명이 추가 됩니다. CSV 파일의 PST `.pfile` 파일 이름에 확장을 추가 해야 합니다.  <br/><br/> **중요:** CSV 파일의 PST 파일 이름에 대 한 사례는 5 단계에서 Azure 저장소 위치로 업로드 된 PST 파일과 동일 해야 합니다. 예를 들어 CSV 파일의 `Name` 매개 변수에서 `annb.pst.pfile`을 사용했지만 실제 PST 파일의 이름은 `AnnB.pst`인 경우 해당 PST 파일의 가져오기가 실패합니다. CSV 파일의 PST 이름은 실제 PST 파일과 동일한 대/소문자를 사용해야 합니다.           | `annb.pst.pfile` <br/> |
+    | `Mailbox` <br/> |PST 파일을 가져올 사서함의 전자 메일 주소를 지정합니다.  <br/> PST 파일을 비활성 사서함으로 가져오려면 이 매개 변수의 사서함 GUID를 지정해야 합니다. 이 GUID를 얻으려면 Exchange Online에서 다음 PowerShell 명령을 실행합니다. `Get-Mailbox -InactiveMailboxOnly <identity of inactive mailbox> | FL Guid` <br/><br/> **참고:** 경우에 따라 전자 메일 주소가 같은 여러 개의 사서함이 있고, 하나의 사서함이 활성 사서함이 고, 다른 사서함이 일시 삭제 (또는 비활성) 상태인 경우에만 가능 합니다. 이러한 상황에서는 PST 파일을 가져올 사서함을 고유하게 식별하기 위해 사서함 GUID를 지정해야 합니다. 활성 사서함에 대한 GUID를 얻으려면 다음 PowerShell 명령을 실행합니다. `Get-Mailbox - <identity of active mailbox> | FL Guid` 일시 삭제 된 (또는 비활성) 사서함의 GUID를 가져오려면 다음 명령을 실행 합니다.`Get-Mailbox - <identity of soft-deleted or inactive mailbox> -SoftDeletedMailbox | FL Guid`           | `annb@contoso.onmicrosoft.com` <br/> 또는  <br/>  `2d7a87fe-d6a2-40cc-8aff-1ebea80d4ae7` <br/> |
+    | `IsArchive` <br/> | PST 파일을 사용자의 보관 사서함으로 가져올 것인지 여부를 지정합니다. 다음 두 가지 옵션이 있습니다.  <br/> **FALSE** PST 파일을 사용자의 기본 사서함으로 가져옵니다.  <br/> **TRUE** PST 파일을 사용자의 보관 사서함으로 가져옵니다.  <br/>  매개 변수를 공란으로 두면 PST 파일을 사용자의 기본 사서함으로 가져옵니다.  <br/><br/> **참고:** 기본 사서함이 온-프레미스 사용자의 클라우드 기반 보관 사서함으로 PST 파일을 가져오려면이 매개 변수에 대해 **TRUE** 를 지정 하 고 해당 `Mailbox` 매개 변수의 사용자 온-프레미스 사서함에 대 한 전자 메일 주소를 지정 하면 됩니다.           | `FALSE` <br/> 또는  <br/>  `TRUE` <br/> |
+    | `TargetRootFolder` <br/> | PST 파일을 가져올 사서함 폴더를 지정합니다.  <br/>  이 매개 변수를 비워 두면 PST를 사서함의 루트 수준 (받은 편지함 폴더 및 다른 기본 사서함 폴더와 같은 수준) **에 있는 새 폴더로 가져오게 됩니다** .  <br/>  지정 `/`하는 경우 PST 파일의 항목을 사용자의 받은 편지함 폴더로 직접 가져옵니다.  <br/>  지정 `/<foldername>`하는 경우 PST 파일의 항목을 * \<foldername\> * 이라는 하위 폴더로 가져옵니다. 예를 들어를 사용 하 `/ImportedPst`는 경우에는 항목을 **importedpst**라는 하위 폴더로 가져옵니다. 이 하위 폴더는 사용자의 받은 편지함 폴더에 배치 됩니다.  <br/><br/> **팁:** PST 파일을 가져올 가장 적합 한 폴더 위치를 결정할 수 있도록 몇 가지 테스트 일괄 처리를 실행 하 여이 매개 변수를 시험해 보십시오.           |(공백으로 둠)  <br/> 또는  <br/>  `/` <br/> 또는  <br/>  `/ImportedPst` <br/> |
+    | `ContentCodePage` <br/> |이 선택적 매개 변수는 ANSI 파일 형식으로 PST 파일을 가져오는 데 사용할 코드 페이지의 숫자 값을 지정합니다. 이 매개 변수는 중국어, 일본어 및 한국어 (CJK) 조직에서 PST 파일을 가져오는 데 사용됩니다. 이러한 언어는 일반적으로 문자 인코딩에 2 바이트 문자 세트 (DBCS)를 사용하기 때문입니다. 사서함 폴더 이름으로 DBCS를 사용하는 언어의 PST 파일을 가져오는 데 이 매개 변수를 사용하지 않으면, 가져온 후에 폴더 이름이 왜곡되는 경우가 많습니다. 이 매개 변수를 사용하는 데 지원되는 값의 목록은 [코드 페이지 식별자](https://go.microsoft.com/fwlink/p/?LinkId=328514)를 참조하세요.  <br/><br/> **참고:** 앞서 설명한 것처럼 이것은 선택적 매개 변수이며 CSV 파일에 포함하지 않아도 됩니다. 또는 포함하고 하나 이상의 행에 대해 값을 비워둘 수 있습니다.           |(공백으로 둠)  <br/> 또는  <br/>  `932` (ANSI/OEM 일본어에 대한 코드 페이지 식별자)  <br/> |
+    | `SPFileContainer` <br/> |PST 가져오기의 경우 이 매개 변수를 비워 둡니다.  <br/> |해당 없음  <br/> |
+    | `SPManifestContainer` <br/> |PST 가져오기의 경우 이 매개 변수를 비워 둡니다.  <br/> |해당 없음  <br/> |
+    | `SPSiteUrl` <br/> |PST 가져오기의 경우 이 매개 변수를 비워 둡니다.  <br/> |해당 없음  <br/> |
   
 ## <a name="step-8-create-a-pst-import-job-in-office-365"></a>8단계: Office 365에서 PST 가져오기 작업 만들기
 
-마지막 단계는 Office 365에서 가져오기 서비스에 PST 가져오기 작업을 만드는 것입니다. 앞서 설명한 것처럼 7단계에서 만든 PST 가져오기 매핑 파일을 전송합니다. 새 작업을 만든 후에는 가져오기 서비스에서 매핑 파일의 정보를 사용 하 여 암호화를 취소 하 고, 5 단계에서 Office 365로 업로드 한 PST 파일을 지정 된 사용자 사서함으로 가져옵니다. 
+마지막 단계는 Office 365에서 가져오기 서비스에 PST 가져오기 작업을 만드는 것입니다. 앞서 설명한 것처럼 7단계에서 만든 PST 가져오기 매핑 파일을 전송합니다. 새 작업을 만든 후에는 가져오기 서비스가 매핑 파일의 정보를 사용 하 여 PST 파일 (5 단계에서 Office 365에 업로드 한)을 지정 된 사용자 사서함으로 가져옵니다. 
   
 1. [https://protection.office.com](https://protection.office.com)으로 이동합니다.
     
 2. Office 365 조직의 관리자 계정에 대 한 자격 증명을 사용 하 여 Office 365에 로그인 합니다.
     
-3. 왼쪽 창에서 **데이터 관리** 를 클릭 하 고 **가져오기를**클릭 합니다.
+3. 왼쪽 창에서 **정보 관리 > 클릭 하 > 가져오기 PST 파일**을 가져옵니다.
     
-4. **가져오기** 페이지에서 **가져오기 서비스로 이동**을 클릭합니다.
+4. **PST 파일 가져오기** 페이지에서 **가져오기 서비스로 이동을**클릭 합니다.
     
 5. **Office로 데이터 가져오기 365** 페이지에서 **새 작업**![추가 아이콘](media/ITPro-EAC-AddIcon.gif)을 클릭 한 다음 **전자 메일 메시지 (PST 파일) 업로드**를 클릭 합니다.
     
@@ -398,7 +403,7 @@ PST 파일을 암호화 하 고 Office 365 조 직의 Azure 저장 위치로 업
     > [!NOTE]
     > 앞에서 설명한 것 처럼 PST 파일이 암호화 되 면 PST 파일 `.pfile` 이름에 확장명이 추가 됩니다. CSV 파일의 PST `.pfile` 파일 이름에 확장을 추가 해야 합니다. 이렇게 하지 않으면 CSV 파일의 유효성 검사가 실패합니다. 
   
-    PST 가져오기 작업을 만들려면 CSV 파일의 유효성 검사가 성공해야 합니다. 유효성 검사에 실패하는 경우 **상태** 열에서 **유효하지 않음** 링크를 클릭합니다. PST 가져오기 매핑 파일의 복사본이 열리고 실패한 파일의 각 행에 대해 오류 메시지가 표시됩니다. 
+    PST 가져오기 작업을 만들려면 CSV 파일의 유효성 검사가 성공해야 합니다. 유효성 검사에 실패하는 경우 **상태** 열에서 **유효하지 않음** 링크를 클릭합니다. PST 가져오기 매핑 파일의 복사본을 열고 오류가 발생 한 파일의 각 행에 대 한 오류 메시지를 표시할 수 있습니다. 
     
 10. PST 매핑 파일의 유효성 검사가 성공하면 사용 약관 문서를 읽고 해당 확인란을 클릭합니다.
     
@@ -412,7 +417,7 @@ PST 파일을 암호화 하 고 Office 365 조 직의 Azure 저장 위치로 업
  
 ## <a name="more-information"></a>추가 정보
 
-- PST 파일을 Office 365로 가져오는 이유는 무엇 인가요?
+- Office 365에 PST 파일 가져오는 이유
     
   - 조직의 전자 메일을 Office 365로 마이그레이션하는 것이 좋은 방법입니다.
     
@@ -456,7 +461,7 @@ PST 파일을 암호화 하 고 Office 365 조 직의 Azure 저장 위치로 업
   O365ImportTool.exe /srcdir:\\FILESERVER01\PSTs /protect-rmsserver:"https://afcbd8ec-cb2b-4a1a-8246-0b4bc22d1978.rms.na.aadrm.com/_wmcs/licensing" /protect-tenantid:42745b33-2a5c-4726-8a2a-ca43caa0f74b /protect-ownerid:45beb445-4d06-47df-8e61-6ca1a88a080e /protect-key:"l+R+Umc5RGmSBh1oW+DoyMxm/h5h2JJXFcNOFiNp867=" /transfer:upload /upload-dest:"https://3c3e5952a2764023ad14984.blob.core.windows.net/ingestiondata/EncryptedPSTs" /upload-destSAS:"?sv=2012-02-12&amp;se=9999-12-31T23%3A59%3A59Z&amp;sr=c&amp;si=IngestionSasForAzCopy201601121920498117&amp;sig=Vt5S4hVzlzMcBkuH8bH711atBffdrOS72TlV1mNdORg%3D"
   ```
 
-- 앞에서 설명한 것 처럼 Office 365 가져오기 서비스는 PST 파일을 사서함으로 가져온 후 보존 보류 설정 (무기한 지속)을 설정 합니다. 즉, 사서함 ** 에 할당 된 보존 정책이 `True` 처리 되지 않도록 RentionHoldEnabled 속성이로 설정 됩니다. 이렇게 하면 삭제 또는 보관 정책이 이전 메시지를 삭제 하거나 보관할 수 없도록 하 여 사서함 소유자가 새로 가져온 메시지를 관리 하 게 됩니다. 이 보존 상태를 관리 하기 위해 수행할 수 있는 몇 가지 단계는 다음과 같습니다. 
+- 앞에서 설명한 것 처럼 Office 365 가져오기 서비스는 PST 파일을 사서함으로 가져온 후 보존 보류 설정 (무기한 지속)을 설정 합니다. 즉, 사서함 ** 에 할당 된 보존 정책이 `True` 처리 되지 않도록 RentionHoldEnabled 속성이로 설정 됩니다. 이렇게 하면 삭제 또는 보관 정책이 이전 메시지를 삭제 하거나 보관할 수 없게 되므로 새로 가져온 메시지를 사서함 소유자가 관리 하 게 됩니다. 이 보존 상태를 관리 하기 위해 수행할 수 있는 몇 가지 단계는 다음과 같습니다. 
     
   - 일정 기간이 지난 후에는 `Set-Mailbox -RetentionHoldEnabled $false` 명령을 실행 하 여 보존 상태를 해제할 수 있습니다. 자세한 내용은 [사서함을 보존 상태로 두기](https://go.microsoft.com/fwlink/p/?LinkId=544749)를 참조 하십시오.
     

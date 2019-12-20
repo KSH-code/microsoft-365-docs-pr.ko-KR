@@ -1,7 +1,7 @@
 ---
 title: FIPS (연방 정보 처리 표준) 게시 140-2
 description: Microsoft는 해당 암호화 모듈이 미국 연방 정보 처리 표준을 따르는지 인증 합니다.
-keywords: Microsoft 365, 규정 준수, 제품
+keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -11,12 +11,13 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 4921fdaa2c6dc7199adb810f5320972f0c1ef8db
-ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
+titleSuffix: Microsoft Compliance
+ms.openlocfilehash: c87618648c4b34553312a91d5633164fee316e52
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39859828"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40805001"
 ---
 # <a name="federal-information-processing-standard-fips-publication-140-2"></a>FIPS (연방 정보 처리 표준) 게시 140-2
 

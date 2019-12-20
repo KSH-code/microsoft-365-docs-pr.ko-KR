@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 ms.assetid: 143b3ab8-8cb0-4036-a5fc-6536d837bfce
 description: Office 365에서는 Exchange 사서함, SharePoint 및 비즈니스용 OneDrive 사이트, Office 365 그룹, 비즈니스용 Skype 대화 등 다양 한 위치에서 찾은 콘텐츠를 검색 하 고 유지 하는 데 사용할 수 있는 다양 한 eDiscovery 도구를 제공 합니다.
-ms.openlocfilehash: b21ed978762819e73493d1ca409f922e695cf29d
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 33d3ca2e86a1ee4a2c191e72198d80c4c52c69e9
+ms.sourcegitcommit: 6ae69c40bafa6aef633789c3df0fa20590bdcf40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37087949"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "40823760"
 ---
 # <a name="ediscovery-in-office-365"></a>Office 365의 eDiscovery
 
@@ -38,7 +38,7 @@ Office 365에서는 다음과 같은 eDiscovery 도구를 제공 합니다.
   
 |**항목**|**설명**|
 |:-----|:-----|
-|[보안 & 준수 센터에서 콘텐츠 검색 실행](run-a-content-search-in-the-security-and-compliance-center.md) <br/> |콘텐츠 검색 도구를 사용 하 여 사서함, 공용 폴더, Office 365 그룹, Microsoft 팀, SharePoint Online 사이트, 업무용 위치 및 비즈니스용 Skype 365 대화를 한 번에 검색할 수 있는 방법에 대해 알아봅니다.  <br/> |
+|[콘텐츠 검색 실행](content-search.md) <br/> |콘텐츠 검색 도구를 사용 하 여 사서함, 공용 폴더, Office 365 그룹, Microsoft 팀, SharePoint Online 사이트, 업무용 위치 및 비즈니스용 Skype 365 대화를 한 번에 검색할 수 있는 방법에 대해 알아봅니다.  <br/> |
 |[콘텐츠 검색에 대한 키워드 쿼리 및 검색 조건](keyword-queries-and-search-conditions.md) <br/> |Office 365 조 직에서 사서함 및 사이트의 콘텐츠를 검색 하는 데 사용할 수 있는 전자 메일 및 파일 속성 및 검색 조건에 대해 알아봅니다.  <br/> |
 |[콘텐츠 검색 결과에 대한 키워드 통계 보기](view-keyword-statistics-for-content-search.md) <br/> |검색 통계를 사용 하 여 하나 이상의 콘텐츠 검색에 대 한 통계를 표시 하 고 비교 하며, 검색 쿼리의 각 키워드에 대 한 통계를 반환 하도록 신규 및 기존 검색을 구성 하는 방법에 대해 알아봅니다.  <br/> |
 |[보안 & 준수 센터에서 콘텐츠 검색 일괄 편집](bulk-edit-content-searches.md) <br/> |하나 이상의 콘텐츠 검색에 대 한 검색 쿼리 및 콘텐츠 위치를 대량으로 편집 하는 방법을 알아봅니다.  <br/> |
@@ -64,7 +64,7 @@ Office 365에서는 다음과 같은 eDiscovery 도구를 제공 합니다.
   
 |**항목**|**설명**|
 |:-----|:-----|
-|[보안 & 준수 센터에서 eDiscovery 사례 관리](manage-ediscovery-cases.md) <br/> |보안 & 준수 센터에서 eDiscovery 사례를 만들고 관리 하는 방법에 대해 알아봅니다.  <br/> |
+|[보안 & 준수 센터에서 eDiscovery 사례 관리](ediscovery-cases.md) <br/> |보안 & 준수 센터에서 eDiscovery 사례를 만들고 관리 하는 방법에 대해 알아봅니다.  <br/> |
 |[Office 365 보안 & 준수 센터에서 eDiscovery 권한 할당](assign-ediscovery-permissions.md) <br/> |보안 & 준수 센터에서 eDiscovery 권한을 할당 하는 방법에 대해 알아봅니다. 사용자가 eDiscovery 사례를 만들고, eDiscovery 사례와 연결 된 보류를 만들고, 콘텐츠 검색을 실행 하 고 검색 결과를 미리 보고, 검색 결과를 내보낼 수 있도록 하려면 사용 권한을 할당 하면 됩니다.  <br/> |
 |[Office 365의 eDiscovery 사례에 대 한 보고서를 작성 합니다.](create-a-report-on-holds-in-ediscovery-cases.md) <br/> |이 문서의 Windows PowerShell 스크립트를 사용 하 여 보안 & 준수 센터에서 eDiscovery 사례와 연결 된 모든 보류에 대 한 정보가 포함 된 보고서를 생성 하는 방법을 알아봅니다.  <br/> |
 |[스크립트를 사용 하 여 보안 & 준수 센터에서 eDiscovery 사례의 보류에 사용자 추가](use-a-script-to-add-users-to-a-hold-in-ediscovery.md) <br/> |이 문서의 Windows PowerShell 스크립트를 사용 하 여 보안 & 준수 센터에서 eDiscovery 사례와 연결 된 새 보류에 사용자 목록에 대 한 사서함 및 비즈니스용 OneDrive 사이트를 신속 하 게 추가 하는 방법을 알아봅니다.  <br/> |
@@ -74,4 +74,4 @@ Office 365에서는 다음과 같은 eDiscovery 도구를 제공 합니다.
 
 Microsoft 365의 고급 eDiscovery 솔루션은 Office 365의 기존 eDiscovery 및 분석 기능을 기반으로 작성 되었습니다. *Advanced eDiscovery*라는이 새로운 솔루션은 조직의 내부 및 외부 조사에 응답 하는 콘텐츠를 보존, 수집, 검토, 분석 및 내보내기 위한 종단 간 워크플로를 제공 합니다. 또한 법률 팀에서 법적 보존 알림 워크플로 전체를 관리 하 여 사례와 관련 된 custodians와 통신할 수 있습니다. 
 
-자세한 내용은 [Microsoft 365의 고급 eDiscovery 솔루션 개요](overview-ediscovery-20.md)를 참조 하세요.
+자세한 내용은 M[icrosoft 365의 고급 eDiscovery 솔루션 개요](overview-ediscovery-20.md)를 참조하세요.

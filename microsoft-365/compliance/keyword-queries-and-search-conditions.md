@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: c4639c2e-7223-4302-8e0d-b6e10f1c3be3
 description: '보안 & 준수 센터의 콘텐츠 검색 도구를 사용 하 여 Exchange Online 사서함 및 SharePoint 또는 비즈니스용 OneDrive 사이트에서 검색할 수 있는 전자 메일 및 파일 속성에 대해 알아봅니다.  '
-ms.openlocfilehash: c4135e52f88f72cde171cbc6c897359cd8e13e05
-ms.sourcegitcommit: 0ceb79a633f7004e82b80e69b6f7a7329ccec7ff
+ms.openlocfilehash: 5c5aafebf0dabfd43487c0c410088fe2a50aef35
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "38699688"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40808503"
 ---
 # <a name="keyword-queries-and-search-conditions-for-content-search"></a>콘텐츠 검색에 대한 키워드 쿼리 및 검색 조건
 
@@ -50,7 +50,7 @@ ms.locfileid: "38699688"
   
 |**속성**|**속성 설명**|**예제**|**예제에서 반환된 검색 결과**|
 |:-----|:-----|:-----|:-----|
-|AttachmentNames|전자 메일 메시지에 첨부되는 파일의 이름입니다.|`attachmentnames:annualreport.ppt`  <br/> `attachmentnames:annual*`|annualreport.ppt라는 파일이 첨부된 메시지입니다. 두 번째 예제에서는 와일드카드를 사용하여 첨부 파일의 파일 이름에 "annual"이라는 단어가 있는 메시지를 반환합니다.|
+|AttachmentNames|전자 메일 메시지에 첨부되는 파일의 이름입니다.|`attachmentnames:annualreport.ppt`  <br/> `attachmentnames:annual*` <br/> attachmentnames: .pptx|annualreport.ppt라는 파일이 첨부된 메시지입니다. 두 번째 예제에서는 와일드카드를 사용하여 첨부 파일의 파일 이름에 "annual"이라는 단어가 있는 메시지를 반환합니다. 세 번째 예에서는 .pptx 파일 확장명이 포함 된 모든 첨부 파일을 반환 합니다.|
 |대상|전자 메일 메시지의 숨은 참조 필드입니다. <sup>1</sup>|`bcc:pilarp@contoso.com`  <br/> `bcc:pilarp`  <br/> `bcc:"Pilar Pinilla"`|모든 예제는 숨은 참조 필드에 Pilar Pinilla가 포함된 메시지를 반환합니다.|
 |범주| 검색할 범주입니다. 범주는 Outlook 또는 웹용 Outlook (이전의 Outlook Web App)을 사용 하 여 사용자가 정의할 수 있습니다. 가능한 값은 다음과 같습니다.  <br/><br/>  색상  <br/>  친환경  <br/>  /  <br/>  자주색  <br/>  빨강  <br/>  노랑|`category:"Red Category"`|원본 사서함에서 red 범주가 지정된 메시지입니다. |
 |참조란|전자 메일 메시지의 참조 필드입니다. <sup>1</sup>|`cc:pilarp@contoso.com`  <br/> `cc:"Pilar Pinilla"`|두 예제에서 모두 참조 필드에 Pilar Pinilla가 지정 된 메시지입니다.|
@@ -79,7 +79,7 @@ ms.locfileid: "38699688"
   
 검색할 수 있는 SharePoint 속성의 전체 목록을 보려면 [sharepoint에서 크롤링 및 관리 속성 개요](https://go.microsoft.com/fwlink/p/?LinkId=331599)를 참조 하세요. **쿼리** 가능 열에 **예** 로 표시 된 속성을 검색할 수 있습니다. 
   
-|**속성**|**속성 설명**|**예제**|**예제에서 반환된 검색 결과**|
+|**속성**|**속성 설명**|**예**|**예제에서 반환된 검색 결과**|
 |:-----|:-----|:-----|:-----|
 |만든 이|문서를 복사하는 경우 유지되는 Office 문서의 만든 이 필드입니다. 예를 들어 사용자가 문서를 만들고이를 다른 사람에 게 전자 메일로 업로드 한 경우이 문서는 원래 작성자를 계속 유지 합니다. 이 속성에는 사용자의 표시 이름을 사용 해야 합니다.|`author:"Garth Fort"`|Garth Fort가 만든 모든 문서입니다.|
 |ContentType|항목, 문서, 비디오 등의 SharePoint 콘텐츠 형식입니다.|`contenttype:document`|모든 문서가 반환됩니다.|
@@ -144,7 +144,7 @@ ms.locfileid: "38699688"
   
 |**연산자**|**Usage**|**설명**|
 |:-----|:-----|:-----|
-|한|keyword1 AND keyword2|지정한 키워드나 `property:value` 식이 모두 포함 된 항목을 반환 합니다. 예를 들어 `from:"Ann Beebe" AND subject:northwind` 제목 줄에 northwind 라는 단어를 포함 하는 Ann Beebe에서 보낸 모든 메시지를 반환 합니다. <sup>2</sup>|
+|그리고|keyword1 AND keyword2|지정한 키워드나 `property:value` 식이 모두 포함 된 항목을 반환 합니다. 예를 들어 `from:"Ann Beebe" AND subject:northwind` 제목 줄에 northwind 라는 단어를 포함 하는 Ann Beebe에서 보낸 모든 메시지를 반환 합니다. <sup>2</sup>|
 |+|keyword1 + keyword2 + keyword3|`keyword2` 또는 `keyword3` *가 포함 된* *항목을 반환* `keyword1`합니다.   따라서이 예제는 쿼리와 `(keyword2 OR keyword3) AND keyword1`동일 합니다.  <br/> 기호 뒤 `keyword1 + keyword2` 에 공백이 있는 쿼리는 AND 연산자를 사용 하는 것과는 다릅니다. **** **+** 이 쿼리는 해당 하는 `"keyword1 + keyword2"` 것과 동일한 작업을 포함 하 `"keyword1 + keyword2"`는 항목을 반환 합니다.|
 |또는|keyword1 OR keyword2|지정 된 키워드나 `property:value` 식이 하나 이상 포함 된 항목을 반환 합니다. <sup>2</sup>|
 |아닌|keyword1 NOT keyword2  <br/> NOT from:"Ann Beebe"  <br/> 종류 아님: im|키워드나 `property:value` 식으로 지정한 항목을 제외 합니다. 두 번째 예에서는 Ann Beebe에서 보낸 메시지를 제외 합니다. 세 번째 예에서는 대화 내용 사서함 폴더에 저장 된 비즈니스용 Skype 대화와 같은 인스턴트 메시징 대화를 제외 합니다. <sup>2</sup>|
@@ -192,7 +192,7 @@ ms.locfileid: "38699688"
 |보낸 사람/만든이|전자 메일의 경우 메시지를 보낸 사람입니다. 문서의 경우 Office 문서의 만든 이 필드에 지정된 사람입니다. 여러 개의 이름을 쉼표로 구분하여 입력할 수 있습니다. 두 개 이상의 값은 **OR** 연산자를 사용하여 논리적으로 연결됩니다.|
 |크기 (바이트)|전자 메일 및 문서의 경우 항목의 크기(바이트)입니다.|
 |제목/제목|전자 메일의 경우 메시지 제목 줄의 텍스트입니다. 문서의 경우 문서 제목입니다. 앞에서 설명한 것 처럼 Title 속성은 Microsoft Office 문서에 지정 된 메타 데이터입니다. 두 개 이상의 제목/제목 이름을 쉼표로 구분 하 여 입력할 수 있습니다. 두 개 이상의 값은 **OR** 연산자를 사용하여 논리적으로 연결됩니다.|
-|준수 태그|전자 메일 및 문서에 대해 사용자가 수동으로 할당 한 레이블 정책이 나 레이블에서 자동으로 메시지와 문서에 할당 된 레이블입니다. 레이블은 데이터 거 버 넌 스와 전자 메일 및 문서를 분류 하 고 레이블에 의해 정의 된 분류에 따라 보존 규칙을 적용 하는 데 사용 됩니다. 레이블 이름의 일부를 입력 하 고 와일드 카드를 사용 하거나 전체 레이블 이름을 입력할 수 있습니다. 자세한 내용은 [Office 365의 레이블 개요](labels.md)를 참조 하세요.|
+|준수 레이블|전자 메일 및 문서 모두에 대해 사용자가 수동으로 할당 한 레이블 정책이 나 보존 레이블에서 메시지 및 문서에 자동으로 할당 되는 보존 레이블입니다. 보존 레이블은 정보 관리를 위해 전자 메일 및 문서를 분류 하 고 레이블로 정의 된 설정을 기반으로 보존 규칙을 적용 하는 데 사용 됩니다. 보존 레이블 이름의 일부를 입력 하 고 와일드 카드를 사용 하거나 전체 레이블 이름을 입력할 수 있습니다. 자세한 내용은 [보존 레이블 개요](labels.md)를 참조 하세요.|
 |||
   
 ### <a name="conditions-for-mail-properties"></a>메일 속성에 대한 조건
@@ -313,7 +313,6 @@ SharePoint 및 비즈니스용 OneDrive 사이트에서 문서를 검색할 때 
  `report AND (date<2016-04-01) AND (subjecttitle:"northwind") NOT (filetype="aspx")`
   
 #### <a name="example-3"></a>예 3
-<a name="conditionexamples"> </a>
 
 이 예에서는 12/1/2016와 11/30/2016 사이에 전송 되 고 "전화" 또는 "smartphone"으로 시작 하는 단어가 포함 된 전자 메일 메시지 또는 일정 모임이 반환 됩니다.
   

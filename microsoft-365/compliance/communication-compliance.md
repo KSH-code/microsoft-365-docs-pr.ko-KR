@@ -1,5 +1,6 @@
 ---
-title: Microsoft 365의 통신 준수 (미리 보기)
+title: 통신 준수 (미리 보기)
+description: Microsoft 365의 통신 준수에 대 한 자세한 정보
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -15,13 +16,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-description: Microsoft 365의 통신 준수에 대 한 자세한 정보
-ms.openlocfilehash: 8c8e94209d2db575dd8338afa6f4c5c968033683
-ms.sourcegitcommit: e386037c9cc335c86896dc153344850735afbccd
+ms.openlocfilehash: 2e54a9d6e0cb74d7e58cda9869548214a7c69582
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "39633667"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40807357"
 ---
 # <a name="communication-compliance-in-microsoft-365-preview"></a>Microsoft 365의 통신 준수 (미리 보기)
 
@@ -93,7 +93,7 @@ Microsoft 365의 통신 준수 기능은 새로운 몇 가지 향상 된 [Office
 
 통신 준수 정책은 여러 통신 채널에서 메시지를 검색 하 고 캡처하여 규정 준수 문제를 신속 하 게 검토 하 고 수정 하는 데 도움이 됩니다.
 
-- **Microsoft 팀**: 공개 및 개인 [Microsoft 팀](https://docs.microsoft.com/MicrosoftTeams/Teams-overview) 채널과 개별 채팅에 대 한 채팅 통신 및 관련 첨부 파일은 독립 실행형 채널 원본 또는 다른 Microsoft 365 서비스와의 통신 준수에서 지원 됩니다. 이제 정책은 정책에 정의 된 특정 사용자에 대해 모든 Microsoft 팀 채널 및 팀을 자동으로 검사 하 여 Microsoft 팀 할당에 대해 별도의 매핑 목록을 유지할 필요가 없습니다.
+- **Microsoft 팀**: 공개 및 개인 [Microsoft 팀](https://docs.microsoft.com/MicrosoftTeams/Teams-overview) 채널과 개별 채팅에 대 한 채팅 통신은 독립 실행형 채널 원본이 나 다른 Microsoft 365 서비스와의 통신 준수에서 지원 됩니다. 이제 정책은 정책에 정의 된 특정 사용자에 대해 모든 Microsoft 팀 채널 및 팀을 자동으로 검사 하 여 Microsoft 팀 할당에 대해 별도의 매핑 목록을 유지할 필요가 없습니다.
 - **Exchange online**: Microsoft 365 조 직의 [exchange online](https://docs.microsoft.com/Exchange/exchange-online) 에서 호스트 되는 모든 사서함이 검색에 적합 합니다. 통신 준수 정책 조건과 일치 하는 전자 메일 및 첨부 파일은 모니터링 및 감독 보고서에 즉시 제공 됩니다. Exchange Online은 이제 선택적 원본 채널이 며 통신 준수 정책에 더 이상 필요 하지 않습니다.
 - 비즈니스용 **Skype online**: 통신 준수 정책은 [비즈니스용 skype Online](https://docs.microsoft.com/SkypeForBusiness/skype-for-business-online)에서 채팅 통신 및 관련 첨부 파일의 검색을 지원 합니다.
 - 타사 **원본**: Microsoft 365 조직의 사서함으로 가져온 데이터를 타사 [원본의](archiving-third-party-data.md) 메시지를 검색할 수 있습니다. 통신 준수는 인스턴트 Bloomberg, Facebook, Twitter 등의 여러 인기 플랫폼에 대 한 연결을 지원 합니다.
@@ -111,6 +111,9 @@ Microsoft 365의 통신 준수에 대 한 준수 문제를 파악 하 고 해결
 ### <a name="configure"></a>구성
 
 이 워크플로 단계에서는 준수 요구 사항을 식별 하 고 적용 가능한 통신 준수 정책을 구성 합니다. 정책 서식 파일은 새 규정 준수 정책을 빠르게 구성할 수 있을 뿐만 아니라, 요구 사항이 변경 됨에 따라 신속 하 게 정책을 수정 하 고 업데이트 하는 것도 좋은 방법입니다. 예를 들어 조직의 모든 사용자에 대 한 정책을 구성 하기 전에 소규모 사용자 그룹의 통신에 대 한 정책을 신속 하 게 테스트할 수 있습니다.
+
+> [!Important]
+> 기본적으로 전역 관리자는 통신 준수 기능에 액세스할 수 없습니다. 통신 준수 기능에 대 한 사용 권한을 사용 하도록 설정 하려면 [조직에서 통신 준수를 사용할 수 있도록 설정을](communication-compliance-configure.md#step-2-make-communication-compliance-available-in-your-organization-required)참조 하십시오.
 
 Microsoft 365 준수 센터에서 다음 정책 서식 파일 중에서 선택할 수 있습니다.
 

@@ -3,6 +3,7 @@ title: Office 365 Advanced eDiscovery에서 빠른 분석 사용
 ms.author: chrfox
 author: chrfox
 manager: laurawi
+titleSuffix: Office 365
 ms.date: 9/14/2017
 audience: Admin
 ms.topic: article
@@ -13,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: 50580099-3dc0-44a1-a9b6-5ca6d396316b
 description: Office 365 Advanced eDiscovery의 빠른 분석 모드를 실행 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 04b48db445f114fd6138b099703e826c6b4ce7c0
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: f1b26e40c2ed3a3b468ada0d501fcafd20fefe2c
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088434"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40802313"
 ---
 # <a name="use-express-analysis-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery에서 빠른 분석 사용
 

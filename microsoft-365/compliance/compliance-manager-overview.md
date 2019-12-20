@@ -12,12 +12,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 준수 관리자는 Microsoft Service Trust Portal의 무료 워크플로 기반 위험 평가 도구입니다. 준수 관리자를 사용 하면 Microsoft 클라우드 서비스와 관련 된 규정 준수 활동을 추적, 할당 및 확인할 수 있습니다.
-ms.openlocfilehash: f8683fd3b3462a44856266ec0e3bef96829b032c
-ms.sourcegitcommit: e386037c9cc335c86896dc153344850735afbccd
+ms.openlocfilehash: 97cbc676f9de070d1532d1e56c96db0efcce8bd0
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "39633657"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40807337"
 ---
 # <a name="microsoft-compliance-manager-preview"></a>Microsoft 준수 관리자 (미리 보기)
 
@@ -51,7 +51,7 @@ ms.locfileid: "39633657"
 
 ## <a name="assessments"></a>평가가
 
-[평가](working-with-compliance-manager.md#assessments) 는 클라우드 서비스 보안 및 규정 준수 위험을 평가 하기 위해 Microsoft와 조직 간에 공유 되는 책임에 대 한 제어를 구성할 수 있도록 하는 컨테이너입니다. 평가는 준수 표준 및 적용 가능한 데이터 보호 표준, 규정 또는 법으로 지정 되는 데이터 보호 보호를 구현 하는 데 도움이 됩니다. 선택한 Microsoft 클라우드 서비스에 대해 선택한 산업 표준에 대 한 데이터 보호 및 준수 상태를 파악 하는 데 도움이 됩니다. 평가는 인증 표준에 매핑되는 평가에 포함 된 컨트롤 구현에 의해 완료 됩니다.
+[평가](working-with-compliance-manager.md#assessments) 는 클라우드 서비스 보안 및 규정 준수 위험을 평가 하기 위해 Microsoft와 조직 간에 공유 되는 책임을 기반으로 컨트롤을 구성 하는 데 사용할 수 있는 컨테이너입니다. 평가는 준수 표준 및 적용 가능한 데이터 보호 표준, 규정 또는 법으로 지정 되는 데이터 보호 보호를 구현 하는 데 도움이 됩니다. 선택한 Microsoft 클라우드 서비스에 대해 선택한 산업 표준에 대 한 데이터 보호 및 준수 상태를 파악 하는 데 도움이 됩니다. 평가는 인증 표준에 매핑되는 평가에 포함 된 컨트롤 구현에 의해 완료 됩니다.
 
 기본적으로 준수 관리자는 조직에 대해 다음과 같은 평가를 만듭니다.
 
@@ -124,7 +124,7 @@ ms.locfileid: "39633657"
   
 ## <a name="manage-evidence"></a>증거 관리
 
-준수 관리자는 테스트 수행을 위한 구현 작업의 증거와 고객 관리 컨트롤의 유효성 검사를 저장할 수 있습니다. 증거에는 문서, 스프레드시트, 스크린샷, 이미지, 스크립트, 스크립트 출력 파일 및 기타 파일이 포함 되어 있습니다. 또한 준수 관리자는 원격 분석을 자동으로 수신 하 고 보안 점수와 통합 된 작업 항목에 대 한 증거 레코드를 만듭니다. 준수 관리자에 증거로 업로드 된 모든 데이터는 Microsoft 클라우드 저장소 사이트의 미국에 저장 됩니다. 이 데이터는 동남 아시아 및 서유럽에 있는 Azure 지역 간에 복제 됩니다.
+준수 관리자는 고객 관리 컨트롤의 테스트 및 유효성 검사에 대 한 구현 작업 증거를 저장할 수 있습니다. 증거에는 문서, 스프레드시트, 스크린샷, 이미지, 스크립트, 스크립트 출력 파일 및 기타 파일이 포함 되어 있습니다. 또한 준수 관리자는 원격 분석을 자동으로 수신 하 고 보안 점수와 통합 된 작업 항목에 대 한 증거 레코드를 만듭니다. 준수 관리자에 증거로 업로드 된 모든 데이터는 Microsoft 클라우드 저장소 사이트의 미국에 저장 됩니다. 이 데이터는 동남 아시아 및 서유럽에 있는 Azure 지역 간에 복제 됩니다.
 
 ## <a name="templates"></a>템플릿
 
@@ -134,16 +134,18 @@ ms.locfileid: "39633657"
 
 1. [ISO 27001:2013](https://go.microsoft.com/fwlink/?linkid=2109073)
 2. [ISO 27018:2014](https://go.microsoft.com/fwlink/?linkid=2109074)
-3. [NIST 800-53 Rev. 4](https://go.microsoft.com/fwlink/?linkid=2109075)
-4. [NIST 800-171](https://go.microsoft.com/fwlink/?linkid=2108867)
-5. [NIST Cybersecurity Framework (CSF)](https://go.microsoft.com/fwlink/?linkid=2108868)
-6. [CSA (cloud Security 제휴) 3.0.1 (CCM)](https://go.microsoft.com/fwlink/?linkid=2109076)
+3. [ISO 27701:2019](https://go.microsoft.com/fwlink/?linkid=2113025)
+4. [NIST 800-53 Rev. 4](https://go.microsoft.com/fwlink/?linkid=2109075)
+5. [NIST 800-171](https://go.microsoft.com/fwlink/?linkid=2108867)
+6. [NIST Cybersecurity Framework (CSF)](https://go.microsoft.com/fwlink/?linkid=2108868)
+7. [CSA (cloud Security 제휴) 3.0.1 (CCM)](https://go.microsoft.com/fwlink/?linkid=2109076)
 8. [연방 금융 기관 검사 Council (FFIEC) 정보 보안 소책자](https://go.microsoft.com/fwlink/?linkid=2109077) 
-8. [HIPAA](https://go.microsoft.com/fwlink/?linkid=2109078) / [HITECH](https://go.microsoft.com/fwlink/?linkid=2109079)
-9. [FedRAMP 보통](https://go.microsoft.com/fwlink/?linkid=2108869)
-10. [유럽 연합 GDPR](https://go.microsoft.com/fwlink/?linkid=2108870)
-11. [캘리포니아 CCPA (소비자 개인 정보 취급 방침)-미리 보기](https://go.microsoft.com/fwlink/?linkid=2108871)
-12. [Microsoft 365 데이터 보호 초기 계획](compliance-score-methodology.md#initial-score-based-on-microsoft-365-data-protection-baseline)
+9. [HIPAA](https://go.microsoft.com/fwlink/?linkid=2109078) / [HITECH](https://go.microsoft.com/fwlink/?linkid=2109079)
+10. [FedRAMP 보통](https://go.microsoft.com/fwlink/?linkid=2108869)
+11. [유럽 연합 GDPR](https://go.microsoft.com/fwlink/?linkid=2108870)
+12. [캘리포니아 CCPA (소비자 개인 정보 보호 Act)](https://go.microsoft.com/fwlink/?linkid=2108871) (Preview)
+13. [Irap](https://go.microsoft.com/fwlink/?linkid=2113709) / [오스트레일리아 정부 ISM](https://go.microsoft.com/fwlink/?linkid=2113024) (미리 보기)
+14. [Microsoft 365 데이터 보호 초기 계획](compliance-score-methodology.md#initial-score-based-on-microsoft-365-data-protection-baseline)
 
 ## <a name="compliance-score"></a>준수 점수
 

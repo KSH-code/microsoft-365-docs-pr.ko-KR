@@ -3,6 +3,7 @@ title: 고급 eDiscovery 분석을 위해 비 Office 365 콘텐츠 가져오기
 ms.author: chrfox
 author: chrfox
 manager: laurawi
+titleSuffix: Office 365
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -12,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: 0ee60763-a30b-495b-8543-971c3384a801
 description: AeD로 분석할 수 있도록 O365에 저장 되지 않은 콘텐츠를 Azure blob로 가져오는 방법에 대해 설명 하는 방법
-ms.openlocfilehash: 1c971c9f95d03d05db76f80344adeb93b0a72c06
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: aa14a54c20ac580c6412e8dc534ec44520abb3c8
+ms.sourcegitcommit: 6ae69c40bafa6aef633789c3df0fa20590bdcf40
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37087982"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "40823790"
 ---
 # <a name="import-non-office-365-content-for-advanced-ediscovery-analysis"></a>고급 eDiscovery 분석을 위해 비 Office 365 콘텐츠 가져오기
 
@@ -39,7 +40,7 @@ Office 365 Advanced eDiscovery를 사용 하 여 분석 해야 하는 모든 문
     
 - 기존 eDiscovery 사례
     
-- 업로드 하기 위한 모든 파일은 custodian 마다 폴더가 하나이 고 폴더 이름이이 형식 *별칭 @ domainname* 에 있는 폴더로 수집 됩니다. *Alias @ domainname* 은 사용자의 Office 365 별칭 및 도메인 이어야 합니다. 모든 *alias @ domainname* 폴더를 루트 폴더로 수집할 수 있습니다. 루트 폴더에는 *별칭 @ domainname* 폴더만 포함할 수 있으며 루트 폴더에는 느슨한 파일이 없어야 합니다. 
+- 업로드 하기 위한 모든 파일은 custodian 당 하나의 폴더가 있고 폴더 이름이이 형식 *alias@domainname* 으로 저장 됩니다. *Alias@domainname* 사용자의 Office 365 별칭과 domain 이어야 합니다. 모든 *alias@domainname* 폴더를 루트 폴더로 수집할 수 있습니다. 루트 폴더에는 *alias@domainname* 폴더만 포함할 수 있으며 루트 폴더에는 느슨한 파일이 없어야 합니다. 
     
 - EDiscovery 관리자 또는 eDiscovery 관리자 인 계정
     
@@ -47,7 +48,8 @@ Office 365 Advanced eDiscovery를 사용 하 여 분석 해야 하는 모든 문
     
 ## <a name="upload-non-office-365-content-into-advanced-ediscovery"></a>Office 이외의 365 콘텐츠를 고급 eDiscovery에 업로드
 
-1. Ediscovery 관리자 또는 eDiscovery 관리자로 서 **ediscovery**를 열고 비 Office 365 데이터가 업로드 될 사례를 엽니다. 사례를 만들어야 하는 경우 [에는 Office 365 보안 &amp; 및 준수 센터에서 eDiscovery 사례 관리](manage-ediscovery-cases.md) 를 참조 하세요.
+
+1. Ediscovery 관리자 또는 eDiscovery 관리자로 서 **ediscovery**를 열고 비 Office 365 데이터가 업로드 될 사례를 엽니다. 사례를 만들어야 하는 경우 [에는 Office 365 보안 &amp; 및 준수 센터에서 eDiscovery 사례 관리](ediscovery-cases.md) 를 참조 하세요.
     
 2. **고급 eDiscovery로 전환을 클릭 합니다** .
     
@@ -76,7 +78,7 @@ Office 365 Advanced eDiscovery를 사용 하 여 분석 해야 하는 모든 문
     Azcopy 구문에 대 한 자세한 내용은 [Windows의 Azcopy을 사용 하 여 데이터 전송](https://docs.microsoft.com/azure/storage/common/storage-use-azcopy) 를 참조 하세요. 
     
     > [!IMPORTANT]
-    > 사용자 마다 루트 폴더가 1 개 있어야 하며 폴더 이름은 *alias @ domainname* 형식 이어야 합니다. 
+    > 사용자 마다 루트 폴더가 하나씩 있어야 하며 폴더 이름은 *alias@domainname* 형식 이어야 합니다. 
   
 8. 폴더 업로드가 완료 되 면 고급 eDiscovery로 다시 전환 합니다. 업로드 한 폴더의 콘텐츠를 이제 고급 eDiscovery에서 처리할 준비가 되었습니다. 컨테이너를 선택 하 고 처리 단추를 클릭 합니다. 고급 eDiscovery 처리에 대 한 자세한 내용은 [Office 365 Advanced ediscovery에서 프로세스 모듈 실행 및 데이터 로드](run-the-process-module-and-load-data-in-advanced-ediscovery.md) 를 참조 하세요.
     
@@ -84,6 +86,4 @@ Office 365 Advanced eDiscovery를 사용 하 여 분석 해야 하는 모든 문
     > 고급 eDiscovery에서 컨테이너를 성공적으로 처리 하면 더 이상 Azure의 SAS 저장소에 새 콘텐츠를 추가할 수 없게 됩니다. 추가 콘텐츠를 수집 하 고 고급 eDiscovery 분석을 위해 사례에 추가 하려는 경우에는 **365 Office가 아닌 새 데이터** 컨테이너를 만들고이 절차를 반복 해야 합니다. 
   
     > [!NOTE]
-    > *폴더 명명 문제로 인해 컨테이너가 제대로 처리 되지* 않는 경우 문제를 해결 하는 경우에도이 문서의 절차에 따라 새 컨테이너를 만들고 다시 연결 하 고 업로드 해야 합니다. 
-  
-
+    > *폴더 명명 문제로 인해 컨테이너가 제대로 처리 되지* 않는 경우 문제를 해결 하는 경우에도이 문서의 절차에 따라 새 컨테이너를 만들고 다시 연결 하 고 업로드 해야 합니다.

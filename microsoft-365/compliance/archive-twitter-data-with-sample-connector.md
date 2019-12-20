@@ -1,5 +1,5 @@
 ---
-title: 샘플 커넥터를 사용 하 여 Office 365에서 Twitter 데이터 보관 (미리 보기)
+title: 샘플 커넥터를 사용 하 여 Twitter 데이터 보관 (미리 보기)
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -10,14 +10,14 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: 관리자는 네이티브 커넥터를 설정 하 여 Twitter 데이터를 Office 365로 가져올 수 있습니다. 이를 통해 Office 365의 타사 데이터 원본에서 데이터를 보관할 수 있으므로 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용 하 여 조직의 타사 데이터를 관리 하는 것을 관리할 수도 있습니다.
-ms.openlocfilehash: 86362193b0c64afa182c2f49ff27bd7e5f27935c
-ms.sourcegitcommit: 7f26840a4330b0fd29807ec091c6915d283b3dd2
+ms.openlocfilehash: 77f0a0615a177c0bfd6179a6a5ce1a58b024dcdc
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "39615578"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40807487"
 ---
-# <a name="use-a-sample-connector-to-archive-twitter-data-in-office-365-preview"></a>샘플 커넥터를 사용 하 여 Office 365에서 Twitter 데이터 보관 (미리 보기)
+# <a name="use-a-sample-connector-to-archive-twitter-data-preview"></a>샘플 커넥터를 사용 하 여 Twitter 데이터 보관 (미리 보기)
 
 Office 365에서 Twitter 데이터를 보관 하는 샘플 커넥터 기능은 미리 보기에 있습니다.
 

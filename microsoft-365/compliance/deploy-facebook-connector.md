@@ -1,5 +1,5 @@
 ---
-title: Office 365에서 Facebook 데이터를 보관 하기 위한 커넥터 배포
+title: Facebook 데이터를 보관 하기 위한 커넥터 배포
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -11,14 +11,14 @@ localization_priority: Normal
 ms.collection: M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
 description: 관리자는 Facebook Business 페이지를 가져와 Office 365에 보관 하는 기본 커넥터를 설정할 수 있습니다. 이 데이터를 Office 365로 가져온 후 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용 하 여 조직의 Facebook 데이터를 관리할 수 있습니다.
-ms.openlocfilehash: 786ff97c558a5618643783de803c742c50185f00
-ms.sourcegitcommit: 1c962bd0d51dc12419c4e6e393bb734c972b7e38
+ms.openlocfilehash: e1ab281b8a3b684f408f80f86246778a9ee6267d
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "38687140"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40806261"
 ---
-# <a name="deploy-a-connector-to-archive-facebook-data-in-office-365"></a>Office 365에서 Facebook 데이터를 보관 하기 위한 커넥터 배포
+# <a name="deploy-a-connector-to-archive-facebook-data"></a>Facebook 데이터를 보관 하기 위한 커넥터 배포
 
 이 문서에서는 Office 365 가져오기 서비스를 사용 하 여 Facebook Business 페이지의 데이터를 Office 365로 가져오는 커넥터를 배포 하는 단계별 프로세스를 소개 합니다. 이 프로세스에 대 한 간략 한 개요와 Facebook 커넥터를 배포 하는 데 필요한 필수 구성 요소 목록은 [샘플 커넥터를 사용 하 여 Office 365의 facebook 데이터 보관 (미리 보기)](archive-facebook-data-with-sample-connector.md)을 참조 하십시오. 
 
@@ -232,9 +232,9 @@ GitHub 리포지토리의 릴리스 섹션에서 미리 작성 된 패키지를 
 
 ## <a name="step-7-set-up-a-custom-connector-in-the-security--compliance-center"></a>7 단계: 보안 & 준수 센터에서 사용자 지정 커넥터 설정
 
-1. 로 이동한 <https://protection.office.com> 후 **데이터 거 버 넌 \> 스 \> 가져오기 보관 타사 데이터**를 클릭 합니다.
+1. 로 이동한 <https://protection.office.com> 다음 **정보 거 버 넌 \> 스 \> 의 타사 데이터 가져오기**를 클릭 합니다.
 
-   ![보안 및 준수 센터로 이동한 후 데이터 관리 > 클릭 하 여 타사 데이터 가져오기 > 보관](media/FBCimage44.png)
+   ![보안 및 준수 센터로 이동한 후 정보 관리 > 클릭 하 여 타사 데이터 가져오기 > 보관](media/FBCimage44.png)
 
 2.  **커넥터 추가** 를 클릭 한 다음 **Facebook 페이지**를 클릭 합니다.
 

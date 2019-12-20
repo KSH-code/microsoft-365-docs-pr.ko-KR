@@ -1,7 +1,7 @@
 ---
 title: 문서 삭제 정책 개요
-ms.author: laurawi
-author: laurawi
+ms.author: cabailey
+author: cabailey
 manager: laurawi
 ms.date: ''
 audience: Admin
@@ -12,12 +12,12 @@ search.appverid:
 - SPO160
 ms.assetid: 55e8d858-f278-482b-a198-2e62d6a2e6e5
 description: 조직은 규정 준수, 법률 또는 기타 비즈니스 요구 사항으로 인해 일정 기간 동안 문서를 보존 해야 할 수 있습니다. 그러나 조직에서 필요한 것 보다 긴 문서를 보관 하는 경우에는 불필요 한 법적 위험을 생성 합니다. 문서 삭제 정책을 사용 하면 특정 기간이 지난 후에 사이트에서 문서를 삭제 하 여 위험을 줄일 수 있으며, 문서를 만든 후 5 년 동안 사용자의 비즈니스용 OneDrive 사이트에서 문서를 삭제할 수 있습니다.
-ms.openlocfilehash: 87d79f6b8f4381693bf043bc0e04fcfe4359fa90
-ms.sourcegitcommit: 1eecd7b127462585c35b0c96a179d37db45f6013
+ms.openlocfilehash: 85a8a4464a14cb2e0b9e901fbf3912c7ff3faa8d
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/01/2019
-ms.locfileid: "37342951"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40806051"
 ---
 # <a name="overview-of-document-deletion-policies"></a>문서 삭제 정책 개요
 

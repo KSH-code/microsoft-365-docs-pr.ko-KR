@@ -1,7 +1,7 @@
 ---
 title: DPP (디지털 프로덕션 파트너 관계) 영국
 description: Microsoft Azure는 DPP를 브로드캐스트의 보안 표시로 커밋 했습니다.
-keywords: Microsoft 365, 규정 준수, 제품
+keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -11,12 +11,13 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 3adc0bcc75886476de9f088c1f539c63fe4e4be8
-ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
+titleSuffix: Microsoft Compliance
+ms.openlocfilehash: b49a898c3a517b6c9468478ad7b7eddeeee1755c
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39859968"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40805241"
 ---
 # <a name="digital-production-partnership-dpp-united-kingdom"></a>DPP (디지털 프로덕션 파트너 관계) 영국
 

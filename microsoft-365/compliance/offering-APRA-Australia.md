@@ -1,7 +1,7 @@
 ---
 title: APRA (오스트레일리아 Prudential 규정 기관)
 description: 금융 서비스 클라이언트가 오스트레일리아 Prudential 규정 기관의 아웃소싱 표준을 준수 하는 데 도움이 되는 Microsoft 지침입니다.
-keywords: Microsoft 365, 규정 준수, 제품
+keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -11,12 +11,13 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 8d6314b7a2adf3f677c8343ddece9cb27bff073e
-ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
+titleSuffix: Microsoft Compliance
+ms.openlocfilehash: 7a402b880778a1644d63dfcdbe73ecc96f61f5be
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39859248"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40805541"
 ---
 # <a name="australian-prudential-regulation-authority-apra"></a>APRA (오스트레일리아 Prudential 규정 기관)
 

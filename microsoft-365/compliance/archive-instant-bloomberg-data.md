@@ -1,5 +1,5 @@
 ---
-title: Office 365에서 인스턴트 Bloomberg 데이터를 보관 하는 커넥터 설정
+title: 즉석 Bloomberg 데이터를 보관할 커넥터 설정
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -10,14 +10,14 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: 관리자는 기본 커넥터를 설정 하 여 인스턴트 Bloomberg 채팅 도구에서 Office 365로 데이터를 가져올 수 있습니다. 이렇게 하면 Office 365의 타사 데이터 원본에서 데이터를 보관할 수 있으므로 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용 하 여 조직의 타사 데이터를 관리할 수도 있습니다.
-ms.openlocfilehash: 8a9a388c62ca59dfcdb2f123fd0776e619f8d38e
-ms.sourcegitcommit: 7f26840a4330b0fd29807ec091c6915d283b3dd2
+ms.openlocfilehash: 55b0acf6a2643fed4a994604e92e4c0e218da5d9
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "39615608"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40807753"
 ---
-# <a name="set-up-a-connector-to-archive-instant-bloomberg-data-in-office-365"></a>Office 365에서 인스턴트 Bloomberg 데이터를 보관 하는 커넥터 설정
+# <a name="set-up-a-connector-to-archive-instant-bloomberg-data"></a>즉석 Bloomberg 데이터를 보관할 커넥터 설정
 
 Office 365의 보안 & 준수 센터에서 네이티브 커넥터를 사용 하 여 [인스턴트 Bloomberg](https://www.bloomberg.com/professional/product/collaboration/) 공동 작업 도구에서 금융 서비스 채팅 데이터를 가져오고 보관 합니다. 커넥터를 설정 하 고 구성한 후에는 조직에서 매월 Bloomberg 보안 FTP 사이트 (SFTP)에 연결 하 고, 채팅 메시지의 콘텐츠를 전자 메일 메시지 형식으로 변환한 다음, 해당 항목을 Office 365의 사서함으로 가져옵니다.
 
@@ -73,7 +73,7 @@ Office 365의 보안 & 준수 센터에서 네이티브 커넥터를 사용 하 
 
 첫 번째 단계는 SSH (Secure Shell) 용 공개 키와 PGP (매우 좋은 개인 정보)의 복사본을 가져오는 것입니다. 2 단계에서 이러한 키를 사용 하 여 3 단계에서 만든 커넥터에서 SFTP 사이트에 연결 하 고 인스턴트 Bloomberg 채팅 데이터를 Office 365 사서함으로 전송 하도록 Bloomberg SFTP 사이트를 구성 합니다. 또한 Bloomberg SFTP 사이트를 구성할 때 사용 하는이 단계에서 IP 주소를 가져옵니다.
 
-1. 로 이동한 후 **데이터 거 버 넌 \> 스 가져오기를** 클릭 한 다음 **타사 데이터 보관**을 클릭 합니다. <https://protection.office.com>
+1. 로 이동한 <https://protection.office.com> 다음 **정보 거 버 넌 \> 스** > **의 타사 데이터**가져오기를 클릭 합니다.
 
 2. **타사 데이터 보관** 페이지에서 **커넥터 추가**를 클릭 한 다음 **인스턴트 Bloomberg**을 클릭 합니다.
 
@@ -100,7 +100,7 @@ Office 365의 보안 & 준수 센터에서 네이티브 커넥터를 사용 하 
 
 마지막 단계는 보안 & 준수 센터에서 인스턴트 Bloomberg 커넥터를 만드는 것입니다. 커넥터는 제공 하는 정보를 사용 하 여 Bloomberg SFTP 사이트에 연결 하 고 채팅 메시지를 Office 365의 해당 사용자 사서함 상자로 전송 합니다. 
 
-1. 로 이동한 후 **데이터 거 버 넌 \> 스 가져오기를** 클릭 한 다음 **타사 데이터 보관**을 클릭 합니다. <https://protection.office.com>
+1. 로 이동한 <https://protection.office.com> 다음 **정보 거 버 넌 \> 스** > **의 타사 데이터**가져오기를 클릭 합니다.
 
 2. **타사 데이터 보관** 페이지에서 **커넥터 추가**를 클릭 한 다음 **인스턴트 Bloomberg**을 클릭 합니다.
 

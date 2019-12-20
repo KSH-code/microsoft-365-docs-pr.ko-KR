@@ -12,12 +12,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 규정 준수 점수는 조직이 위험 평가를 간소화 하 고 자동화 하는 데 도움이 되며, 위험을 해결 하기 위한 권장 조치를 제시 합니다.
-ms.openlocfilehash: f604f52fd66664aeb1b61fb873cfe40e8f48115c
-ms.sourcegitcommit: 544b10cc3abe04a47438085d51c4250c9238f76f
+ms.openlocfilehash: c13b4e345f5ab9bee7a0edd134aea73c23d84036
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "38686986"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40806661"
 ---
 # <a name="microsoft-compliance-score-preview"></a>Microsoft 준수 점수 (미리 보기)
 
@@ -108,16 +108,18 @@ Microsoft 준수 점수는 조직의 규정 준수 상태를 이해 하는 데 �
 
 1. [ISO 27001:2013](https://go.microsoft.com/fwlink/?linkid=2109073)
 2. [ISO 27018:2014](https://go.microsoft.com/fwlink/?linkid=2109074)
-3. [NIST 800-53 Rev. 4](https://go.microsoft.com/fwlink/?linkid=2109075)
-4. [NIST 800-171](https://go.microsoft.com/fwlink/?linkid=2108867)
-5. [NIST Cybersecurity Framework (CSF)](https://go.microsoft.com/fwlink/?linkid=2108868)
-6. [CSA (cloud Security 제휴) 3.0.1 (CCM)](https://go.microsoft.com/fwlink/?linkid=2109076)
+3. [ISO 27701:2019](https://go.microsoft.com/fwlink/?linkid=2113025)
+4. [NIST 800-53 Rev. 4](https://go.microsoft.com/fwlink/?linkid=2109075)
+5. [NIST 800-171](https://go.microsoft.com/fwlink/?linkid=2108867)
+6. [NIST Cybersecurity Framework (CSF)](https://go.microsoft.com/fwlink/?linkid=2108868)
+7. [CSA (cloud Security 제휴) 3.0.1 (CCM)](https://go.microsoft.com/fwlink/?linkid=2109076)
 8. [연방 금융 기관 검사 Council (FFIEC) 정보 보안 소책자](https://go.microsoft.com/fwlink/?linkid=2109077) 
-8. [HIPAA](https://go.microsoft.com/fwlink/?linkid=2109078) / [HITECH](https://go.microsoft.com/fwlink/?linkid=2109079)
-9. [FedRAMP 보통](https://go.microsoft.com/fwlink/?linkid=2108869)
-10. [유럽 연합 GDPR](https://go.microsoft.com/fwlink/?linkid=2108870)
-11. [캘리포니아 CCPA (소비자 개인 정보 취급 방침)-미리 보기](https://go.microsoft.com/fwlink/?linkid=2108871)
-12. [Microsoft 365 데이터 보호 초기 계획](compliance-score-methodology.md#initial-score-based-on-microsoft-365-data-protection-baseline)
+9. [HIPAA](https://go.microsoft.com/fwlink/?linkid=2109078) / [HITECH](https://go.microsoft.com/fwlink/?linkid=2109079)
+10. [FedRAMP 보통](https://go.microsoft.com/fwlink/?linkid=2108869)
+11. [유럽 연합 GDPR](https://go.microsoft.com/fwlink/?linkid=2108870)
+12. [캘리포니아 CCPA (소비자 개인 정보 보호 Act)](https://go.microsoft.com/fwlink/?linkid=2108871) (Preview)
+13. [Irap](https://go.microsoft.com/fwlink/?linkid=2113709) / [오스트레일리아 정부 ISM](https://go.microsoft.com/fwlink/?linkid=2113024) (미리 보기)
+14. [Microsoft 365 데이터 보호 초기 계획](compliance-score-methodology.md#initial-score-based-on-microsoft-365-data-protection-baseline)
 
 > [!NOTE]
 > 공개 미리 보기 중에 규정 준수 관리자로 이동 하 여 템플릿을 만들고 관리 합니다.
