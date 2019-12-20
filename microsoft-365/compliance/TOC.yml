@@ -203,7 +203,7 @@
           href: use-network-upload-to-import-rms-encrypted-pst-files.md
         - name: PST 파일 가져오기에 대한 FAQ
           href: faqimporting-pst-files-to-office-365.md
-        - name: Office 365에서 타사 데이터 보관
+        - name: 타사 데이터 보관
           href: archiving-third-party-data.md
           items:
             - name: '샘플 커넥터를 사용하여 Facebook 데이터 보관 '
@@ -317,8 +317,6 @@
           href: export-search-results.md
         - name: 콘텐츠 검색 보고서 내보내기
           href: export-a-content-search-report.md
-        - name: Microsoft Edge에서 eDiscovery 내보내기 도구 사용
-          href: configure-edge-to-export-search-results.md
         - name: 전자 메일 메시지 검색 및 삭제
           href: search-for-and-delete-messages-in-your-organization.md
         - name: Office 365에서 온-프레미스 사용자의 클라우드 기반 사서함 검색
@@ -749,7 +747,6 @@
         - name: 온-프레미스 Windows Server 파일 공유
           href: gdpr-for-on-premises-file-shares.md
 - name: 규정 준수 조치 계획
-  href: compliance-solutions-overview.md
   items:
     - name: ISO - 권장 실행 계획
       href: iso-action-plan.md
@@ -782,7 +779,7 @@
               href: gdpr-data-subject-requests.md
             - name: Azure
               href: gdpr-dsr-azure.md
-            - name: Azure DevOps Services
+            - name: Azure DevOps 서비스
               href: gdpr-dsr-vsts.md
             - name: Dynamics 365
               href: gdpr-dsr-dynamics365.md
@@ -855,7 +852,7 @@
           href: offering-iso-9001.md
         - name: SOC
           href: offering-soc.md
-        - name: WCAG 2.1
+        - name: WCAG
           href: offering-wcag-2-1.md
     - name: 미국 정부
       items:
@@ -935,6 +932,8 @@
               href: offering-rbi-irdai-india.md
             - name: SEC 17a-4
               href: offering-sec-17a-4.md
+            - name: 초 규정 SCI
+              href: offering-sec-reg-sci.md
             - name: SOC
               href: offering-soc.md
             - name: SOX
