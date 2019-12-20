@@ -1,17 +1,17 @@
 ---
 title: Microsoft Managed Desktop에 대 한 관리자 지원
 description: ''
-keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 설명서
+keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: b17b5a3458458ff0c73c93fa184ef8ff6a064199
-ms.sourcegitcommit: 3d37043c0447359c952dc99026c219dd69f6fb8d
+ms.openlocfilehash: faa0e904ef2a07ccd209ef91630ce6fc8205e347
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "38011999"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40801200"
 ---
 # <a name="admin-support-for-microsoft-managed-desktop"></a>Microsoft Managed Desktop에 대 한 관리자 지원
 
@@ -41,7 +41,7 @@ Microsoft Managed Desktop 관리 포털을 사용 하 여 Microsoft에 지원 �
 심각도 수준  | 고객 상황 |  초기 응답 시간   | 고객 응답 필요
 --- | --- | --- | ---
 **심각도 A-중요 한 영향** |  **중요 비즈니스 영향**<br><br>고객의 비즈니스는 서비스가 크게 손상 되거나 성능이 저하 되므로 즉각적인 주의가 필요 합니다.<br><br>**주요 응용 프로그램 호환성 영향**<br><br>고객의 전체 비즈니스가 중요 한 기능의 충돌 또는 손실로 인해 재정적인 영향을 받는 경우 | 초기: 1 시간 <<br>업데이트: 60 분<br>사용 가능한 연중 무휴 | 심각도 A를 선택 하는 경우 서비스의 심각한 손실 및 성능 저하를 통해 문제가 중요 한 영향을 받게 된다는 것을 확인할 수 있습니다. <br><br>이 문제는 즉각적인 대응을 요구 하며, 해결이 될 때까지 매일 연중 무휴 작업을 수행 하 고, 그렇지 않으면 Microsoft는 심각도를 수준 B로 낮출 수 있습니다.<br><br> 또한 Microsoft의 정확한 연락처 정보를 확인 합니다. 
-**심각도 B-보통 영향** |  **보통의 비즈니스 영향**<br><br>고객의 비즈니스에는 서비스의 품질이 저하 되거나 저하가 발생 하지만, 작업을 중단 된 방식으로 계속 진행할 수 있습니다.<br><br>**응용 프로그램 호환성에 대 한 영향**<br><br>특정 비즈니스 그룹은 작업 중단 동작이 나 중요 한 기능의 손실로 인해 더 이상 생산적이 아닙니다. |  초기: 4 시간 <<br>업데이트: 12 시간<br>업무 시간 (연중 무휴 사용 가능) | 심각도 B를 선택 하면 서비스 손실 및 성능 저하와 함께 문제가 발생 하는 것을 확인할 수 있지만 해결책을 사용 하면 일시적인 비즈니스 연속성을 활용 하는 것이 합리적입니다. <br><br>이 문제는 긴급 응답을 요청 합니다. 지원 요청을 제출할 때 연중 무휴을 선택한 경우 Microsoft 팀이 해결 하기까지 매일 연중 무휴 작업을 수행 하 고, 그렇지 않은 경우에는 심각도를 수준 C로 낮출 수 있습니다. 심각도 B 인시던트를 제출할 때 업무 시간 지원을 선택한 경우 Microsoft는 업무 시간 중에만 연락을 받게 됩니다.<br><br>또한 Microsoft의 정확한 연락처 정보를 확인 합니다.
+**심각도 B-보통 영향** |  **보통의 비즈니스 영향**<br><br>고객의 비즈니스에는 서비스의 품질이 저하 되거나 저하가 발생 하지만, 작업을 중단 된 방식으로 계속 진행할 수 있습니다.<br><br>**응용 프로그램 호환성에 대 한 영향**<br><br>특정 비즈니스 그룹은 작업 중단 동작이 나 중요 한 기능의 손실로 인해 더 이상 생산적이 아닙니다. |  초기: 4 시간 <<br>업데이트: 12 시간<br>업무 시간 (연중 무휴 사용 가능) | 심각도 B를 선택 하면 서비스 손실 및 성능 저하와 함께 문제가 발생 하는 것을 확인할 수 있지만 해결책을 사용 하면 일시적인 비즈니스 연속성을 활용 하는 것이 합리적입니다. <br><br>이 문제는 긴급 응답을 요청 합니다. 지원 요청을 제출할 때 연중 무휴을 선택한 경우 Microsoft 팀이 해결 하기까지 매일 연중 무휴 작업을 수행 하는 것이 좋습니다. 그렇지 않으면 Microsoft는 심각도를 수준 C로 낮출 수 있습니다. 심각도 B 인시던트를 제출할 때 업무 시간 지원을 선택한 경우 Microsoft는 업무 시간 중에만 연락을 받게 됩니다.<br><br>또한 Microsoft의 정확한 연락처 정보를 확인 합니다.
 **심각도 C-최소 영향** |   **최소 비즈니스 영향**<br><br> 고객의 비즈니스가 서비스의 사소한 장애 요소와 함께 작동 하 고 있습니다.<br><br>**응용 프로그램 호환성에 대 한 영향**<br><br>관련이 없는 사용자가 생산성을 차단 하지 않는 사소한 호환성 문제가 발생할 가능성이 있습니다. |    초기: 8 시간 <<br>업데이트: 24 시간<br>업무 시간  | 심각도 C를 선택 하면 사소한 서비스 장애를 발생 하는 문제가 사용자의 비즈니스에 미치는 영향을 최소화할 수 있습니다.<br><br>심각도가 C 인시던트 인 경우 Microsoft는 업무 시간만 동안 사용자에 게 연락 합니다.<br><br>또한 Microsoft에서 정확한 연락처 정보를가지고 있는지 확인 합니다.
 
 추가 정보:
@@ -51,8 +51,15 @@ Microsoft Managed Desktop 관리 포털을 사용 하 여 Microsoft에 지원 �
 - **응용 프로그램 호환성** -응용 프로그램 호환성 문제를 고려해 야 하는 경우 이전 버전과 현재 버전의 Windows 또는 Office 사이에 동일한 버전의 응용 프로그램에 대 한 reproduceable 오류가 발생 해야 합니다. 응용 프로그램 호환성 문제를 해결 하기 위해 Microsoft에서는 사용자의 연락처를 사용 해야 합니다. 이 문제를 조사 하 고 해결 하려면 개인이 빠른 추적 팀과 직접 작업을 해야 합니다.
 - **고객 응답 시간** 고객이 예상 되는 응답 요구 사항을 충족할 수 없는 경우 Microsoft는 심각도 수준 1 개 이상으로 요청을 다운 그레이드 합니다. 고객이 작업 요청에 응답 하지 않으면 Microsoft는 마지막 요청의 48 시간 이내에 지원 요청을 완화 하 고 닫습니다.
 
+## <a name="provide-feedback"></a>의견 제공
 
-## <a name="providing-administrator-rights-to-specific-users"></a>특정 사용자에 게 관리자 권한 제공
+사용자 의견을 보내주셔서 감사 하 고이를 사용 하 여 관리자 지원 환경을 개선 합니다.
+
+티켓이 **완화** 되거나 **해결** 된 상태 이면 사용자 환경에 해당 특정 문제에 대 한 의견을 공유할 수 있습니다. 이 작업을 수행 하려면 관리 포털의 **지원 요청** 페이지로 이동 합니다. 특정 티켓을 선택 합니다. 오른쪽에 나타나는 바로 **사용자 의견** 탭을 선택 하 고 요청 된 정보를 제공 합니다. 사용자 의견 양식에 개인 정보를 포함 하지 않도록 주의 하세요. 개인 정보 보호에 대 한 자세한 내용은 [Microsoft 개인 정보 취급](https://privacy.microsoft.com/privacystatement)방침을 참조 하십시오.
+
+![사용자 의견 양식](images/feedback_form.png)
+
+## <a name="provide-administrator-rights-to-specific-users"></a>특정 사용자에 게 관리자 권한 제공
 
 지원 담당자와 작업 하는 동안 문제 해결을 지원 하려면 장치에 대 한 로컬 관리자 권한을 사용자에 게 제공 해야 할 수 있습니다. 이렇게 하려면 사용자의 계정에 대해 이미 Microsoft Intune에 전역 관리자 또는 장치 관리자 권한이 있어야 합니다. 상황에 따라 다음 단계 중 하나를 수행 합니다.
 
@@ -62,4 +69,4 @@ Microsoft Managed Desktop 관리 포털을 사용 하 여 Microsoft에 지원 �
 ## <a name="additional-resources"></a>추가 리소스
 - [Microsoft Managed Desktop에 대 한 최종 사용자 지원을 제공](end-user-support.md)합니다. 
 - [Microsoft Managed Desktop에 대 한 지원](../service-description/support.md) 
-- Microsoft Managed Desktop을 이미 구독 하 고 있는 경우 microsoft managed desktop Administration의 **온라인 리소스** 섹션에 있는 Microsoft Managed Desktop admin 가이드에서 자세한 절차, 프로세스 흐름, 작업 지침 및 faq를 확인할 수 있습니다. [ 포털](https://aka.ms/mwaasportal)
+- Microsoft Managed Desktop을 이미 구독 하 고 있는 경우 microsoft managed desktop [Admin 포털](https://aka.ms/mwaasportal)의 **온라인 리소스** 섹션에 있는 Microsoft managed desktop administration 가이드에서 자세한 절차, 프로세스 흐름, 작업 지침 및 faq를 확인할 수 있습니다.

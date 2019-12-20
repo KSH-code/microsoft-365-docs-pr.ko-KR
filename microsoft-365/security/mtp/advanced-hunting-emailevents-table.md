@@ -15,19 +15,19 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 1f2deef2c9ffc26f604194ff2d27d5f094471021
-ms.sourcegitcommit: 0c9c28a87201c7470716216d99175356fb3d1a47
-ms.translationtype: MT + HT Review
+ms.openlocfilehash: 3495414148edb5e3b6691e4545e0cf6587af7b4d
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/09/2019
-ms.locfileid: "39911452"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40808713"
 ---
 # <a name="emailevents"></a>EmailEvents
 
 **적용 대상:**
 - Microsoft Threat Protection
 
-[!include[Prerelease information](prerelease.md)]
+[!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
 [고급 헌팅](advanced-hunting-overview.md) 스키마의 `EmailEvents` 표에는 Office 365 ATP에서 전자 메일의 처리를 수반하는데 이벤트에 대한 정보가 포함되어 있습니다. 이 참조를 사용하여 이 표의 정보를 반환하는 쿼리를 생성합니다.
 
@@ -35,7 +35,7 @@ ms.locfileid: "39911452"
 
 | 열 이름 | 데이터 형식 | 설명 |
 |-------------|-----------|-------------|
-| `EventTime` | datetime | 이벤트가 기록된 날짜와 시간 |
+| `Timestamp` | datetime | 이벤트가 기록된 날짜와 시간 |
 | `EmailId` | 문자열 | 고유한 전자 메일 및 받는 사람 식별자 |
 | `NetworkMessageId` | 문자열 | Office 365에서 생성되는 전자 메일의 고유 식별자 |
 | `InternetMessageId` | 문자열 | 보내는 전자 메일 시스템에서 설정한 전자 메일의 공개 식별자 |

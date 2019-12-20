@@ -10,12 +10,12 @@ ms.prod: microsoft-365-enterprise
 ms.topic: article
 ms.date: 06/01/2018
 ms.author: greglin
-ms.openlocfilehash: c1c39745b2dc891b4dc079ecd657eaf0d883af23
-ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
+ms.openlocfilehash: d7e71eda9cf0750ce44a978dca742b43f2101d63
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38627462"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40801263"
 ---
 # <a name="step-5-deploy-windows-10-enterprise-security-features"></a>5 단계: Windows 10 Enterprise 보안 기능 배포
 
@@ -92,7 +92,7 @@ Windows Defender 보안 인텔리전스 전송 시스템을 사용 하 여 기�
 
 <a name="windows10-sec-atp"></a>
 ## <a name="microsoft-defender-advanced-threat-protection"></a>Microsoft Defender Advanced Threat Protection
-Microsoft Defender ATP는 Microsoft 365 Enterprise E5 요금제 에서만 사용할 수 있으며, 엔터프라이즈 고객이 네트워크에서 advanced threat를 검색, 조사 및 응답할 수 있도록 하는 보안 서비스입니다. Microsoft Defender ATP에 대 한 자세한 내용과 최소 요구 사항 및이 기능을 관리 하는 방법에 대 한 자세한 내용은 다음 항목을 참조 하십시오.
+Microsoft Defender ATP는 Microsoft 365 E5 요금제 에서만 사용할 수 있는 보안 서비스로, 엔터프라이즈 고객은 네트워크에서 advanced threat를 검색, 조사 및 응답할 수 있습니다. Microsoft Defender ATP에 대 한 자세한 내용과 최소 요구 사항 및이 기능을 관리 하는 방법에 대 한 자세한 내용은 다음 항목을 참조 하십시오.
 
 * [Microsoft Defender ATP](https://docs.microsoft.com/windows/threat-protection/windows-defender-atp/windows-defender-advanced-threat-protection)
 * [최소 요구 사항](https://docs.microsoft.com/windows/threat-protection/windows-defender-atp/minimum-requirements-windows-defender-advanced-threat-protection)

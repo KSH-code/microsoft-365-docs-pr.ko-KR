@@ -79,6 +79,6 @@ sections:
       - type: markdown
         text: '>[!VIDEO https://www.youtube.com/embed/GXVRu49Gmxc]'
       - type: paragraph
-        text: Microsoft Managed desktop의 일반 관리자는 연간 Ignite 회의에서 서비스의 모든 하이라이트를 공유 합니다.
+        text: Microsoft Managed Desktop의 일반 관리자는 연간 Ignite 회의에서 서비스의 모든 하이라이트를 공유 합니다.
       - type: markdown
         text: '>[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4ksbj]'

@@ -1,7 +1,7 @@
 ---
-title: Microsoft 365의 기타 위협 요소 구하기
+title: Microsoft 365의 위협에 대 한 사냥
 description: Microsoft 365 보안 센터의 위협 검색 기능을 사용 하 여 위반 및 기타 위협 요소를 사전에 찾기
-keywords: 보안, 맬웨어, Microsoft 365, M365, 보안 센터, 헌트, 사냥, Microsoft Defender ATP, Office 365 ATP, Azure ATP, 고급 구하기
+keywords: 보안, 맬웨어, Microsoft 365, M365, Microsoft Threat Protection, MTP, 보안 센터, 사이버 위협 구하기, Microsoft Defender ATP, Office 365 ATP, Azure ATP, 고급 구하기
 ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
 ms.localizationpriority: medium
@@ -12,12 +12,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: 795a7d88c2b6021a5bdd665b3787644b50fb346a
-ms.sourcegitcommit: 0c9c28a87201c7470716216d99175356fb3d1a47
+ms.openlocfilehash: 12705fa525374af8870aedcd211d8e9dcdd17f9c
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/09/2019
-ms.locfileid: "39909431"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40808743"
 ---
 # <a name="hunt-for-threats-in-microsoft-365"></a>Microsoft 365의 위협에 대 한 사냥
 
@@ -35,5 +35,5 @@ Microsoft [Threat Protection을 설정](mtp-enable.md) 하 여 microsoft 365 보
 
 ## <a name="related-topics"></a>관련 항목
 - [고급 구하기 개요](advanced-hunting-overview.md)
-- [Microsoft 위협 보호 개요](microsoft-threat-protection.md)
-- [Microsoft Threat Protection 설정](mtp-enable.md)
+- [Microsoft 위협 방지 개요](microsoft-threat-protection.md)
+- [Microsoft 위협 방지 설정](mtp-enable.md)

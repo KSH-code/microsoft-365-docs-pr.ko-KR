@@ -15,19 +15,19 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 4d83b659a98c56cc59e88f9777aa73ca2e25b745
-ms.sourcegitcommit: 0c9c28a87201c7470716216d99175356fb3d1a47
-ms.translationtype: MT + HT Review
+ms.openlocfilehash: ee14dcc1c2ae0a2bc6fa3c094d757441515f00de
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/09/2019
-ms.locfileid: "39911436"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40807017"
 ---
 # <a name="alertevents"></a>AlertEvents
 
 **적용 대상:**
 - Microsoft 위협 방지
 
-[!include[Prerelease information](prerelease.md)]
+[!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
 [고급 헌팅](advanced-hunting-overview.md) 스키마의 `AlertEvents` 표에는 Microsoft Defender ATP 경고에 대한 정보가 포함되어 있습니다. 이 참조를 사용하여 이 표의 정보를 반환하는 쿼리를 생성합니다.
 
@@ -36,9 +36,9 @@ ms.locfileid: "39911436"
 | 열 이름 | 데이터 형식 | 설명 |
 |-------------|-----------|-------------|
 | `AlertId` | 문자열 | 경고의 고유 식별자입니다. |
-| `EventTime` | datetime | 이벤트가 기록된 날짜와 시간 |
-| `MachineId` | 문자열 | 서비스에서 시스템의 고유 식별자 |
-| `ComputerName` | 문자열 | 컴퓨터의 FQDN(정규화된 도메인 이름) |
+| `Timestamp` | datetime | 이벤트가 기록된 날짜와 시간 |
+| `DeviceId` | 문자열 | 서비스에서 시스템의 고유 식별자 |
+| `DeviceName` | 문자열 | 컴퓨터의 FQDN(정규화된 도메인 이름) |
 | `Severity` | 문자열 | 경고로 식별되는 위협 표시기 또는 위반 활동의 잠재적인 영향(높음, 중간 또는 낮음)을 표시합니다. |
 | `Category` | 문자열 | 경고로 식별되는 위협 표시기 또는 위반 활동 유형 |
 | `Title` | 문자열 | 경고의 제목입니다. |
@@ -46,7 +46,7 @@ ms.locfileid: "39911436"
 | `SHA1` | 문자열 | 기록된 조치가 적용된 파일의 SHA-1 |
 | `RemoteUrl` | 문자열 | 연결된 URL 또는 FQDN(정규화된 도메인 이름) |
 | `RemoteIP` | 문자열 | 연결된 IP 주소 |
-| `ReportId` | long | 반복 카운터를 기반으로 하는 이벤트 식별자입니다. 고유한 이벤트를 식별하려면 이 열을 ComputerName 및 EventTime 열과 함께 사용해야 합니다. |
+| `ReportId` | long | 반복 카운터를 기반으로 하는 이벤트 식별자입니다. 고유 이벤트를 식별 하려면이 열을 장치 이름 및 타임 스탬프 열과 함께 사용 해야 합니다. |
 | `Table` | 문자열 | 이벤트에 대한 세부 정보를 포함하는 표 |
 
 ## <a name="related-topics"></a>관련 항목

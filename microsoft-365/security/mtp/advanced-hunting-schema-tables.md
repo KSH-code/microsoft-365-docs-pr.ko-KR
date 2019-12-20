@@ -15,19 +15,19 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 1803445dfd9b46fce23b0dcc9585ea543f1b0347
-ms.sourcegitcommit: 0c9c28a87201c7470716216d99175356fb3d1a47
-ms.translationtype: MT + HT Review
+ms.openlocfilehash: 631b328168003668ed06e37d76177c327794ed18
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/09/2019
-ms.locfileid: "39911411"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40808663"
 ---
 # <a name="understand-the-advanced-hunting-schema"></a>고급 헌팅 스키마 이해
 
 **적용 대상:**
 - Microsoft Threat Protection
 
-[!include[Prerelease information](prerelease.md)]
+[!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
 [고급 헌팅](advanced-hunting-overview.md) 스키마는 이벤트 정보나 컴퓨터 및 엔터티에 대한 정보를 제공하는 여러 표로 구성됩니다. 여러 표를 포괄하는 쿼리를 효과적으로 작성하려면 고급 헌팅 스키마에서 표 및 열을 이해해야 합니다.
 
@@ -37,15 +37,15 @@ ms.locfileid: "39911411"
 
 | 테이블 이름 | 설명 |
 |------------|-------------|
-| **[MachineInfo](advanced-hunting-machineinfo-table.md)** | 컴퓨터 정보(OS 정보 포함) |
-| **[MachineNetworkInfo](advanced-hunting-machinenetworkinfo-table.md)** | 연결된 네트워크 및 도메인뿐만 아니라 어댑터, IP 및 MAC 주소를 비롯한 컴퓨터의 네트워크 속성 |
-| **[ProcessCreationEvents](advanced-hunting-processcreationevents-table.md)** | 프로세스 생성 및 관련 이벤트 |
-| **[NetworkCommunicationEvents](advanced-hunting-networkcommunicationevents-table.md)** | 네트워크 연결 및 관련 이벤트 |
-| **[FileCreationEvents](advanced-hunting-filecreationevents-table.md)** | 파일 생성, 수정 및 기타 파일 시스템 이벤트 |
-| **[RegistryEvents](advanced-hunting-registryevents-table.md)** | 레지스트리 항목 생성 및 수정 |
-| **[LogonEvents](advanced-hunting-logonevents-table.md)** | 로그인 및 기타 인증 이벤트 |
-| **[ImageLoadEvents](advanced-hunting-imageloadevents-table.md)** | DLL 로딩 이벤트 |
-| **[MiscEvents](advanced-hunting-miscevents-table.md)** | Windows Defender Antivirus 및 익스플로잇 보호와 같은 보안 컨트롤에서 트리거되는 이벤트를 포함한 여러 이벤트 유형 |
+| **[DeviceInfo](advanced-hunting-deviceinfo-table.md)** | 컴퓨터 정보(OS 정보 포함) |
+| **[DeviceNetworkInfo](advanced-hunting-devicenetworkinfo-table.md)** | 연결된 네트워크 및 도메인뿐만 아니라 어댑터, IP 및 MAC 주소를 비롯한 컴퓨터의 네트워크 속성 |
+| **[DeviceProcessEvents](advanced-hunting-deviceprocessevents-table.md)** | 프로세스 생성 및 관련 이벤트 |
+| **[DeviceNetworkEvents](advanced-hunting-devicenetworkevents-table.md)** | 네트워크 연결 및 관련 이벤트 |
+| **[DeviceFileEvents](advanced-hunting-devicefileevents-table.md)** | 파일 생성, 수정 및 기타 파일 시스템 이벤트 |
+| **[DeviceRegistryEvents](advanced-hunting-deviceregistryevents-table.md)** | 레지스트리 항목 생성 및 수정 |
+| **[DeviceLogonEvents](advanced-hunting-devicelogonevents-table.md)** | 로그인 및 기타 인증 이벤트 |
+| **[DeviceImageLoadEvents](advanced-hunting-deviceimageloadevents-table.md)** | DLL 로딩 이벤트 |
+| **[DeviceEvents](advanced-hunting-deviceevents-table.md)** | Windows Defender Antivirus 및 익스플로잇 보호와 같은 보안 컨트롤에서 트리거되는 이벤트를 포함한 여러 이벤트 유형 |
 | **[EmailEvents](advanced-hunting-emailevents-table.md)** | 전자 메일 배달과 차단 이벤트를 포함한 Office 365 전자 메일 이벤트 |
 | **[EmailAttachmentInfo](advanced-hunting-emailattachmentinfo-table.md)** | Office 365 전자 메일에 첨부된 파일에 대한 정보 |
 | **[EmailUrlInfo](advanced-hunting-emailurlinfo-table.md)** | Office 365 전자 메일의 URL에 대한 정보 |

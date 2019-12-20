@@ -17,19 +17,19 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 989184c5dd8af6aafc525100e34e0172d96adcfe
-ms.sourcegitcommit: 0c9c28a87201c7470716216d99175356fb3d1a47
-ms.translationtype: MT + HT Review
+ms.openlocfilehash: 1e157ff8c7c2ac61790b4be74c43553eb0807eb2
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/09/2019
-ms.locfileid: "39911429"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40808733"
 ---
 # <a name="incidents-overview-in-microsoft-threat-protection"></a>Microsoft Threat Protection의 인시던트 개요
 
 **적용 대상:**
 - Microsoft Threat Protection
 
-[!include[Prerelease information](prerelease.md)]
+[!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
 모든 인시던트의 기반은 경고입니다. 네트워크에서 악성 이벤트 또는 활동이 발견되면 경고가 만들어집니다. 개별 경고는 개별 이벤트나 엔터티에서 발생하는 상황에 대한 유용한 단서를 제공합니다. 그러나 일반적으로 공격은 다양한 공격 벡터를 사용하여 위반을 수행합니다. 개별 단서를 하나로 묶는 것은 어렵고 시간이 많이 걸리는 작업이 될 수 있습니다. 
 

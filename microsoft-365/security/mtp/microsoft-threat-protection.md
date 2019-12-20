@@ -15,19 +15,19 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: 01a81d5f4ac68d72095f86de93b727c60d28393f
-ms.sourcegitcommit: 0c9c28a87201c7470716216d99175356fb3d1a47
+ms.openlocfilehash: a47ffecbf0ef1ac7dcfeef9d8cbe4e104de9ca2d
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/09/2019
-ms.locfileid: "39910236"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40808583"
 ---
 # <a name="microsoft-threat-protection"></a>Microsoft 위협 방지
 
 **적용 대상:**
 - Microsoft 위협 방지
 
-[!include[Prerelease information](prerelease.md)]
+[!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
 Microsoft Threat Protection은 끝점, id, 전자 메일 및 응용 프로그램 간에 고유 하 게 통합 되어 정교한 공격에 대 한 검색, 방지, 조사 및 자동 대응을 지 원하는 통합 사전 및 사후 위반 엔터프라이즈 방어 제품군입니다.  
 
@@ -74,6 +74,6 @@ Microsoft Threat Protection의 제품 간 기능은 다음과 같습니다.
 
 
 ## <a name="get-started"></a>시작
-Microsoft 365 E5 또는 그에 해당 하는 라이선스가 있는 고객은 Microsoft Threat Protection을 사용할 수 있습니다. 시작 하려면 [security.microsoft.com](https://security.microsoft.com)의 Microsoft 365 보안 센터에서 서비스를 사용 하도록 설정 합니다. 자세한 내용은 다음을 참조 하세요.
+Microsoft 365 E5 또는 이와 동등한 라이선스가 있는 고객은 Microsoft Threat Protection을 사용할 수 있습니다. 시작 하려면 [security.microsoft.com](https://security.microsoft.com)의 Microsoft 365 보안 센터에서 서비스를 사용 하도록 설정 합니다. 자세한 내용은 다음을 참조 하세요.
 - [라이선스 요구 사항](prerequisites.md#licensing-requirements)
-- [Microsoft Threat Protection 설정](mtp-enable.md)
+- [Microsoft 위협 방지 설정](mtp-enable.md)

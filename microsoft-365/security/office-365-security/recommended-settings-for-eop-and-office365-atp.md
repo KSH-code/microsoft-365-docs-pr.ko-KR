@@ -1,7 +1,8 @@
 ---
-title: EOP 및 Office 365 ATP 보안 설정, 권장 사항, 보낸 사람 정책 프레임 워크, 도메인 기반 메시지 보고 및 적합성, DomainKeys 식별 된 메일, 단계, 작동 방식 등을 위한 Microsoft 권장 사항
+title: EOP 및 Office 365 ATP 보안 설정, 권장 사항, 보낸 사람 정책 프레임 워크, 도메인 기반 메시지 보고 및 적합성에 대 한 Microsoft 권장 사항, DomainKeys 식별 된 메일, 단계, 작업 방법, 보안 기준, EOP에 대 한 초기 계획 ATP, 설치 ATP, 설치 EOP, ATP 구성, 구성 EOP, 보안 구성
 ms.author: tracyp
 author: MSFTTracyP
+ms.date: 12/12/2019
 manager: dansimp
 audience: ITPro
 ms.topic: article
@@ -13,12 +14,12 @@ ms.assetid: 6f64f2de-d626-48ed-8084-03cc72301aa4
 ms.collection:
 - M365-security-compliance
 description: EOP (Exchange Online Protection) 및 ATP (Advanced Threat Protection) 보안 설정에 대 한 모범 사례 표준 보호에 대 한 최신 권장 사항은 무엇 인가요? 보다 엄격한 기능을 사용 하려면 어떻게 해야 합니까? 또한 ATP (Advanced Threat Protection)를 사용 하는 경우에는 어떤 것을 얻게 됩니까?
-ms.openlocfilehash: 4afdb87adebfa9e685e1109f4532e4356f44a710
-ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
+ms.openlocfilehash: 60042d5903a9dadd178fe68b3a73a3a2b9148798
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "39971546"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40807973"
 ---
 # <a name="recommended-settings-for-eop-and-office-365-atp-security"></a>EOP 및 Office 365 ATP 보안에 대 한 권장 설정
 
@@ -44,7 +45,7 @@ ms.locfileid: "39971546"
 |피싱 전자 메일 검색 작업|메시지 격리|메시지 격리||
 |높은 신뢰도 피싱 전자 메일 검색 작업|메시지 격리|메시지 격리||
 |대량 전자 메일 검색 작업|정크 메일 폴더로 메시지 이동|메시지 격리||
-|대량 전자 메일 임계값을 다음으로 설정|6 |4 |기본값은 7 이지만이 값을 6으로 변경 하는 것이 좋습니다. 자세한 내용은 [대량 불만 수준 값](bulk-complaint-level-values.md)을 참조 하십시오.|
+|대량 전자 메일 임계값을 다음으로 설정|6 |1-4|기본값은 7 이지만이 값을 6으로 변경 하는 것이 좋습니다. 자세한 내용은 [대량 불만 수준 값](bulk-complaint-level-values.md)을 참조 하십시오.|
 |격리 보존 기간|30일|30일||
 |보안 팁|켜짐|켜짐||
 |허용 된 보낸 사람|없음|없음||
@@ -57,23 +58,23 @@ ms.locfileid: "39971546"
 
 스팸 방지 정책에는이 문서를 작성할 당시 더 이상 사용 되지 않는 몇 가지 다른 매개 변수가 있습니다. 이에 대 한 권장 설정은 표준 수준과 엄격한 수준 모두에 대해 기능을 **해제** 하는 것입니다.
 
-|보안 기능 이름|
-|---------|
-|IncreaseScoreWithImageLinks|
-|IncreaseScoreWithNumericIps|
-|IncreaseScoreWithRedirectToOtherPort|
-|IncreaseScoreWithBizOrInfoUrls|
-|MarkAsSpamEmptyMessages|
-|MarkAsSpamJavaScriptInHtml|
-|MarkAsSpamFramesInHtml|
-|MarkAsSpamObjectTagsInHtml|
-|MarkAsSpamEmbedTagsInHtml|
-|MarkAsSpamFormTagsInHtml|
-|MarkAsSpamWebBugsInHtml|
-|MarkAsSpamSensitiveWordList|
-|MarkAsSpamFromAddressAuthFail|
-|MarkAsSpamNdrBackscatter|
-|MarkAsSpamSpfRecordHardFail|
+|보안 기능 이름| Comments |
+|---------|---------|
+|IncreaseScoreWithImageLinks| |
+|IncreaseScoreWithNumericIps| |
+|IncreaseScoreWithRedirectToOtherPort| |
+|IncreaseScoreWithBizOrInfoUrls| |
+|MarkAsSpamEmptyMessages| |
+|MarkAsSpamJavaScriptInHtml| |
+|MarkAsSpamFramesInHtml| |
+|MarkAsSpamObjectTagsInHtml| |
+|MarkAsSpamEmbedTagsInHtml| |
+|MarkAsSpamFormTagsInHtml| |
+|MarkAsSpamWebBugsInHtml| |
+|MarkAsSpamSensitiveWordList| |
+|MarkAsSpamFromAddressAuthFail| |
+|MarkAsSpamNdrBackscatter| |
+|MarkAsSpamSpfRecordHardFail| |
 
 #### <a name="eop-outbound-spam-filter-policy-settings"></a>EOP 아웃 바운드 스팸 필터 정책 설정
 
@@ -166,3 +167,14 @@ EOP 고객은 앞에서 설명한 것 처럼 기본 피싱 방지를 제공 하�
 |ATP 안전한 첨부 파일 알 수 없는 맬웨어 응답|정책의|정책의||
 |검색 시 첨부 파일 리디렉션|사용|사용|첨부 파일이 맬웨어 인지 여부를 확인 하는 방법을 알고 있는 보안 관리자의 전자 메일 주소로 리디렉션|
 |ATP 안전한 첨부 파일 응답에 대 한 맬웨어 검색 시간이 초과 되거나 오류가 발생 하는 경우|사용|사용||
+
+
+## <a name="related-topics"></a>관련 항목
+
+- **Exchange 메일 흐름/Exchange 전송 규칙**에 대 한 모범 사례를 찾으십니까? 자세한 내용은 [이 문서](https://docs.microsoft.com/microsoft-365/security/office-365-security/best-practices-for-configuring-eop) 를 참조 하세요.
+
+- 의심 스러운 우편, 의심 스러운 스팸, 피싱 또는 Url을 검색을 위해 Microsoft에 전송 합니다. [이 문서의](https://docs.microsoft.com/microsoft-365/security/office-365-security/admin-submission) **관리자 전송** 지침을 사용 합니다.
+
+- [EOP 서비스](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-your-eop-service)를 **설정** 하는 방법에 대 한 정보를 보려면 다음 링크를 사용 하 고, [Office 365 Advanced Threat Protection](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)을 **구성** 합니다. ('[Office 365의 위협 으로부터 보호](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats)하는 방법에 대 한 유용한 지침은 참조 하세요.)
+
+- GPO/온-프레미스 옵션 및 Intune 기반 [보안에 대](https://docs.microsoft.com/intune/protect/security-baselines)한 **Windows 용 보안 기준을** [여기](https://docs.microsoft.com/windows/security/threat-protection/windows-security-baselines#where-can-i-get-the-security-baselines) 에서 찾을 수 있습니다. 마지막으로 [Microsoft의 ATP](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-machines-security-baseline#compare-the-microsoft-defender-atp-and-the-windows-intune-security-baselines)(Advanced Threat Protection)와 Windows Intune 보안 기준을 비교 합니다.

@@ -35,3 +35,5 @@
           href: /microsoft-store/manage-mpsa-software-microsoft-store-for-business?context=/microsoft-365/commerce/context/context-commerce
     - name: 파트너와의 관계 관리
       href: manage-partners.md
+    - name: 계정 닫기
+      href: close-your-account.md
