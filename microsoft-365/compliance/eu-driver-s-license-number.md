@@ -1,7 +1,7 @@
 ---
 title: EU 운전 면허 번호
-ms.author: stephow
-author: stephow-MSFT
+ms.author: cabailey
+author: cabailey
 manager: laurawi
 ms.date: 8/17/2018
 audience: Admin
@@ -10,12 +10,12 @@ ms.service: O365-seccomp
 ms.collection: M365-security-compliance
 localization_priority: Normal
 description: 이 항목에서는 DLP (데이터 손실 방지) 정책이 EU 드라이버의 라이선스 번호 중요 정보 유형을 검색할 때 찾는 항목을 보여 줍니다. 이 중요 한 정보 유형은 각 국가에 대 한 다양 한 패턴, 키워드 및 기타 증거를 정의 합니다.
-ms.openlocfilehash: f1a95ecbaf6b6d1ac189290dd6d076cfd91ab30f
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 6df025caf8d06c617e09a3b53dc6c82d69aaf5a8
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088084"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40805961"
 ---
 # <a name="eu-drivers-license-number"></a>EU 운전 면허 번호
 
@@ -57,7 +57,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 ### <a name="keywords"></a>키워드
 
 | |
-|**Keywords_austria_eu_driver's_license_number**|
+|**Keywords_austria_eu_driver ' s_license_number**|
 |:-----|
 |dl #  <br/> driver license  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> driver's licence  <br/> driver's license  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/>  운전 면허 번호  <br/> dlno #  <br/> fuhrerschein  <br/> fuhrerschein republik osterreich  <br/> |
    
@@ -97,7 +97,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 ### <a name="keywords"></a>키워드
 
 | |
-|**Keywords__belgium_eu_driver's_license_number**|
+|**Keywords__belgium_eu_driver ' s_license_number**|
 |:-----|
 |dl #  <br/> driver license  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> driver's license  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> dlno #  <br/> rijbewijs  <br/> rijbewijsnummer  <br/> führerscheinnummer  <br/> fuhrerscheinnummer  <br/> fuehrerscheinnummer  <br/> führerschein-veiligheid  <br/> fuehrerschein-Veiligheid  <br/> fuehrerschein-veiligheid  <br/> |
    
@@ -137,7 +137,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 ### <a name="keywords"></a>키워드
 
 | |
-|**Keywords_bulgaria_eu_driver's_license_number**|
+|**Keywords_bulgaria_eu_driver ' s_license_number**|
 |:-----|
 |dl #  <br/> driver license  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> driver's license  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> свидетелство за управление на мпс  <br/> свидетелство за управление на моторно превозно средство  <br/> сумпс  <br/> шофьорска книжка  <br/> |
    
@@ -177,7 +177,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 ### <a name="keywords"></a>키워드
 
 | |
-|**Keywords_croatia_eu_driver's_license_number**|
+|**Keywords_croatia_eu_driver ' s_license_number**|
 |:-----|
 |dl #  <br/> driver license  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> driver's license  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> vozačka dozvola  <br/> |
    
@@ -216,7 +216,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 ### <a name="keywords"></a>키워드
 
 | |
-|**Keywords_cyprus_eu_driver's_license_number**|
+|**Keywords_cyprus_eu_driver ' s_license_number**|
 |:-----|
 |dl #  <br/> driver license  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> άδεια οδήγησης  <br/> |
    
@@ -262,7 +262,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 ### <a name="keywords"></a>키워드
 
 | |
-|**Keywords_czech_republic_eu_driver's_license_number**|
+|**Keywords_czech_republic_eu_driver ' s_license_number**|
 |:-----|
 |dl #  <br/> driver license  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> driver's license  <br/> 운전 면허 번호  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> řidičský prúkaz  <br/> |
    
@@ -302,7 +302,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 ### <a name="keywords"></a>키워드
 
 | |
-|**Keywords_denmark_eu_driver's_license_number**|
+|**Keywords_denmark_eu_driver ' s_license_number**|
 |:-----|
 |dl #  <br/> driver license  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> driver's license  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> kørekort  <br/> kørekortnummer  <br/> |
    
@@ -345,7 +345,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 ### <a name="keywords"></a>키워드
 
 | |
-|**Keywords_estonia_eu_driver's_license_number**|
+|**Keywords_estonia_eu_driver ' s_license_number**|
 |:-----|
 |dl #  <br/> driver license  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> driver's license  <br/> 운전 면허 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> permis de conduire  <br/> |
    
@@ -390,7 +390,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 ### <a name="keywords"></a>키워드
 
 | |
-|**Keywords_finland_eu_driver's_license_number**|
+|**Keywords_finland_eu_driver ' s_license_number**|
 |:-----|
 |dl #  <br/> driver license  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> driver's license  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> ajokortti  <br/> |
    
@@ -437,7 +437,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 ### <a name="keywords"></a>키워드
 
 | |
-|**Keywords_greece_eu_driver's_license_number**|
+|**Keywords_greece_eu_driver ' s_license_number**|
 |:-----|
 |dlL #  <br/> driver license  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> driver's license  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> δεια οδήγησης  <br/> Adeia odigisis  <br/> |
    
@@ -480,7 +480,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 ### <a name="keywords"></a>키워드
 
 | |
-|**Keywords_hungary_eu_driver's_license_number**|
+|**Keywords_hungary_eu_driver ' s_license_number**|
 |:-----|
 |dl #  <br/> driver license  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> driver's license  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> vezetoi  <br/> |
    
@@ -523,7 +523,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 ### <a name="keywords"></a>키워드
 
 | |
-|**Keywords_ireland_eu_driver's_license_number**|
+|**Keywords_ireland_eu_driver ' s_license_number**|
 |:-----|
 |dl #  <br/> driver license  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> driver's license  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> ceadúnas tiomána  <br/> |
    
@@ -570,7 +570,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 ### <a name="keywords"></a>키워드
 
 | |
-|**Keywords_latvia_eu_driver's_license_number**|
+|**Keywords_latvia_eu_driver ' s_license_number**|
 |:-----|
 |dl #  <br/> driver license  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> driver's license  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> autovadītāja apliecība  <br/> |
    
@@ -609,7 +609,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 ### <a name="keywords"></a>키워드
 
 | |
-|**Keywords_lithuania_eu_driver's_license_number**|
+|**Keywords_lithuania_eu_driver ' s_license_number**|
 |:-----|
 |dl #  <br/> driver license  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> driver's license  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> vairuotojo pažymėjimas  <br/> |
    
@@ -648,7 +648,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 ### <a name="keywords"></a>키워드
 
 | |
-|**Keywords_luxemburg_eu_driver's_license_number**|
+|**Keywords_luxemburg_eu_driver ' s_license_number**|
 |:-----|
 |dl #  <br/> driver license  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> driver's license  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> fahrerlaubnis  <br/> |
    
@@ -697,7 +697,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 ### <a name="keywords"></a>키워드
 
 | |
-|**Keywords_malta_eu_driver's_license_number**|
+|**Keywords_malta_eu_driver ' s_license_number**|
 |:-----|
 |dl #  <br/> driver license  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> driver's license  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> liċenzja tas-sewqan  <br/> |
    
@@ -736,7 +736,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 ### <a name="keywords"></a>키워드
 
 | |
-|**Keywords_netherlands_eu_driver's_license_number**|
+|**Keywords_netherlands_eu_driver ' s_license_number**|
 |:-----|
 |dl #  <br/> driver license  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> driver's license  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> permis de conduire  <br/> rijbewijs  <br/> rijbewijsnummer  <br/> |
    
@@ -785,7 +785,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 ### <a name="keywords"></a>키워드
 
 | |
-|**Keywords_poland_eu_driver's_license_number**|
+|**Keywords_poland_eu_driver ' s_license_number**|
 |:-----|
 |dl #  <br/> driver license  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> driver's license  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> prawo jazdy  <br/> |
    
@@ -834,7 +834,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 ### <a name="keywords"></a>키워드
 
 | |
-|**Keywords_portugal_eu_driver's_license_number**|
+|**Keywords_portugal_eu_driver ' s_license_number**|
 |:-----|
 |dl #  <br/> driver license  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> driver's license  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> carteira de motorista  <br/> |
    
@@ -877,7 +877,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 ### <a name="keywords"></a>키워드
 
 | |
-|**Keywords_romania_eu_driver's_license_number**|
+|**Keywords_romania_eu_driver ' s_license_number**|
 |:-----|
 |dl #  <br/> driver license  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> driver's license  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> permis de conducere  <br/> |
    
@@ -920,7 +920,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 ### <a name="keywords"></a>키워드
 
 | |
-|**Keywords_slovakia_eu_driver's_license_number**|
+|**Keywords_slovakia_eu_driver ' s_license_number**|
 |:-----|
 |dl #  <br/> driver license  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> driver's license  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> vodičský preukaz  <br/> |
    
@@ -959,7 +959,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 ### <a name="keywords"></a>키워드
 
 | |
-|**Keywords_slovenia_eu_driver's_license_number**|
+|**Keywords_slovenia_eu_driver ' s_license_number**|
 |:-----|
 |dl #  <br/> driver license  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> driver's license  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> vozniško dovoljenje  <br/> |
    
@@ -1002,7 +1002,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 ### <a name="keywords"></a>키워드
 
 | |
-|**Keywords_spain_eu_driver's_license_number**|
+|**Keywords_spain_eu_driver ' s_license_number**|
 |:-----|
 |dlno #  <br/> dl #  <br/> drivers lic  <br/> 드라이버 라이선스  <br/> driver license  <br/> drivers licence  <br/> drivers license  <br/> driver's licence  <br/> driver's license  <br/> driving licence  <br/> driving license  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스 번호  <br/> 영향 요소 라이선스 번호  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> 운전 면허 번호  <br/> 추진 허용  <br/> 제어 허용 번호  <br/> permiso de conducción  <br/> permiso conducción  <br/> número licencia conducir  <br/> número de 네트워크 de conducir  <br/> número carnet conducir  <br/> licencia conducir  <br/> número de permiso de conducir  <br/> número de permiso conducir  <br/> número permiso conducir  <br/> permiso conducir  <br/> licencia de manejo  <br/> el carnet de conducir  <br/> carnet conducir  <br/> |
    
@@ -1047,7 +1047,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 ### <a name="keywords"></a>키워드
 
 | |
-|**Keywords_sweden_eu_driver's_license_number**|
+|**Keywords_sweden_eu_driver ' s_license_number**|
 |:-----|
 |dl #  <br/> driver license  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> driver's license  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> körkort  <br/> |
    
@@ -1057,5 +1057,5 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 ## <a name="see-also"></a>참고 항목
 
-[중요한 정보 형식이 찾는 항목](what-the-sensitive-information-types-look-for.md)
+[중요한 정보 유형이 찾는 항목](what-the-sensitive-information-types-look-for.md)
 

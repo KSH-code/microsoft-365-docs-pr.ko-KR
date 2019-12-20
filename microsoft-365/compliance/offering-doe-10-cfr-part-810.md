@@ -1,7 +1,7 @@
 ---
 title: US DoE 10 CFR 부분 810
 description: 고객은 Azure 정부를 사용할 수 있는 US DoE 10 CFR 파트 810의 수출 관리 요구 사항을 따릅니다.
-keywords: Microsoft 365, 규정 준수, 제품
+keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -11,12 +11,13 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: fe87cde60847a0f5d935b50f433cd9b95702bebf
-ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
+titleSuffix: Microsoft Compliance
+ms.openlocfilehash: e90609c2cb25f78345c7f4da2b7b2811dd104c16
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39859408"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40804181"
 ---
 # <a name="us-doe-10-cfr-part-810"></a>US DoE 10 CFR 부분 810
 

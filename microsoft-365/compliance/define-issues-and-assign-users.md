@@ -3,6 +3,7 @@ title: Office 365 Advanced eDiscovery에서 문제점 정의 및 사용자 할�
 ms.author: chrfox
 author: chrfox
 manager: laurawi
+titleSuffix: Office 365
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
@@ -12,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: 48d37ee7-05bd-4cb8-9723-a8959ad23fbe
 description: Office 365 Advanced eDiscovery에서 문제점을 추가 하거나 편집 하 여 사용자 할당을 포함 하거나 eDiscovery 사례에 대 한 문제를 삭제 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: a7dad3cce54a3162cedf3c14e521f5e8fe966acf
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: a56942eec8f43ba9fd6175807437e71701c29e39
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37071323"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40806101"
 ---
 # <a name="define-issues-and-assign-users-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery에서 문제점 정의 및 사용자 할당
 

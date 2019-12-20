@@ -1,5 +1,5 @@
 ---
-title: Office 365에서 Twitter 데이터를 보관 하기 위한 커넥터 배포
+title: Twitter 데이터를 보관 하기 위한 커넥터 배포
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -11,14 +11,14 @@ localization_priority: Normal
 ms.collection: M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
 description: 관리자는 Twitter 데이터를 가져와 Office 365에 보관 하는 기본 커넥터를 설정할 수 있습니다. 이 데이터를 Office 365로 가져온 후 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용 하 여 조직의 Twitter 데이터에 대 한 관리를 관리할 수 있습니다.
-ms.openlocfilehash: fda03e3e489b0ae9c754f2eba18bc60785bb3def
-ms.sourcegitcommit: 1c962bd0d51dc12419c4e6e393bb734c972b7e38
+ms.openlocfilehash: 87faad6546d70b1e3893e2f5737af189ebb5f77b
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "38687142"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40806151"
 ---
-# <a name="deploy-a-connector-to-archive-twitter-data-in-office-365"></a>Office 365에서 Twitter 데이터를 보관 하기 위한 커넥터 배포
+# <a name="deploy-a-connector-to-archive-twitter-data"></a>Twitter 데이터를 보관 하기 위한 커넥터 배포
 
 이 문서에는 Office 365 가져오기 서비스를 사용 하 여 조직의 Twitter 계정에서 Office 365로 데이터를 가져오는 커넥터를 배포 하는 단계별 프로세스가 포함 되어 있습니다. 이 프로세스에 대 한 간략 한 개요와 Twitter 커넥터를 배포 하는 데 필요한 필수 구성 요소 목록은 [예제 커넥터를 사용 하 여 Office 365 (미리 보기)에서 twitter 데이터를 보관](archive-twitter-data-with-sample-connector.md)합니다 .를 참조 하십시오. 
 
@@ -206,7 +206,7 @@ GitHub 리포지토리의 릴리스 섹션에서 미리 작성 된 패키지를 
 
 ## <a name="step-7-set-up-a-custom-connector-in-the-security-and-compliance-center"></a>7 단계: 보안 및 준수 센터에서 사용자 지정 커넥터 설정
 
-1.  로 이동한 <https://protection.office.com> 후 **데이터 거 버 넌 \> 스 \> 가져오기 보관 타사 데이터**를 클릭 합니다.
+1.  로 이동한 <https://protection.office.com> 다음 **정보 거 버 넌 \> 스 \> 의 타사 데이터 가져오기**를 클릭 합니다.
 
     ![보안 및 준수 센터에서 타사 데이터 페이지로 이동](media/TCimage36.png)
 

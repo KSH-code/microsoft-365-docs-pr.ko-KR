@@ -1,7 +1,7 @@
 ---
 title: 미국 508
 description: Microsoft는 이러한 서비스의 내게 필요한 옵션 기능을 설명 하는 많은 클라우드 서비스에 대 한 자세한 내게 필요한 옵션 규칙 보고서를 제공 합니다.
-keywords: Microsoft 365, 규정 준수, 제품
+keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -11,24 +11,25 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 044e92561c86829477339dbd6db2a5fde2da87bb
-ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
+titleSuffix: Microsoft Compliance
+ms.openlocfilehash: 6d7bcb6beccc9059d3a7f75fc52b307648f314c2
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39859468"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40804231"
 ---
 # <a name="us-section-508"></a>미국 508
 
 ## <a name="about-us-section-508"></a>미국 508 섹션
 
-미국 Congress에서는 Rehabilitation 2000 1998의 EIT (전자 및 정보 기술) 제품 (예: 소프트웨어, 하드웨어, 전자 콘텐츠, 지원 설명서)을 제공 하기 위해 연방 기관에 게 필요한 정보를 제공 합니다. 장애가 있는 사용자 Rehabilitation의 미국 508, 1973 (29 US 코드 § 794d), 수정 된 것 처럼, 연방 기관에서 EIT를 사용 하는 직원 들이 동등 하 게 액세스 하 고 사용할 수 있도록 하는 방법으로 사용 하는 것이 좋습니다. 기타 연방 직원과 관련 한 데이터 및 EIT입니다.  
-  
-Microsoft는 미국 연방 및 지방 정부에 대 한 주요 소프트웨어 및 클라우드 서비스 공급자 이기 때문에 모든 관련 정부 표준 및 준수 제어를 준수 하기 위해 최선을 다하고 있습니다. 이러한 [광범위 한 내게 필요한 옵션 표준을](https://go.microsoft.com/fwlink/?linkid=2052068)준수 하 여 microsoft는 정부 내부 및 외부 모두에서 microsoft 서비스 및 제품을 사용할 수 있도록 합니다.
+미국 Congress에서는 Rehabilitation 2000 1998의 EIT (전자 및 정보 기술) 제품 (예: 소프트웨어, 하드웨어, 전자 콘텐츠, 지원 설명서)을 제공 하기 위해 연방 기관에 게 필요한 정보를 제공 합니다. 장애가 있는 사용자 Rehabilitation의 미국 508, 1973 (29 US 코드 § 794d), 수정 된 것 처럼, 연방 기관에서 EIT를 사용 하는 직원 들이 동등 하 게 액세스 하 고 사용할 수 있도록 하는 방법으로 사용 하는 것이 좋습니다. 기타 연방 직원과 관련 한 데이터 및 EIT입니다.
+
+Microsoft는 미국 연방 및 지방 정부에 대 한 주요 소프트웨어 및 클라우드 서비스 공급자입니다.  정부 고객이 조달 의사 결정을 지원 하기 위해 Microsoft는 제품 및 서비스가 508 섹션의 기준을 지 원하는 범위를 설명 하는 내게 필요한 옵션 규칙 보고서를 게시 합니다.  이 정보는 Microsoft 고객이 특정 제품 또는 서비스가 특정 요구 사항을 충족 하는지 여부를 확인 하는 데 도움이 될 수 있습니다.
 
 ## <a name="microsoft-and-us-section-508"></a>Microsoft 및 미국식 섹션 508
 
-Microsoft의 U.S. 섹션 508 규정은 모든 고객이 기술 및 데이터에 액세스할 수 있도록 해당 약정을 가리킵니다. U.S. 섹션 508은 미국 301 549 (유럽) 및 WCAG (국제)을 보완 하는 미국식 액세스 가능성 요구 사항입니다.
+제품 및 서비스 개발에서 미국 섹션 508에 대 한 Microsoft의 고려 사항은 모든 고객이 사용할 수 있는 기술 및 데이터를 만들기 위한 약정을 가리킵니다.
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 범위 내 클라우드 서비스
 

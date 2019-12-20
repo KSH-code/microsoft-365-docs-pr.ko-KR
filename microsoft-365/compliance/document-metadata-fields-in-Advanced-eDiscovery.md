@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 51f242408e749e7d9bde60a9d462d4a9156f68fc
-ms.sourcegitcommit: e386037c9cc335c86896dc153344850735afbccd
+ms.openlocfilehash: 39ce4518e12b4446b339cbf7341a354bf5bd8876
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "39633587"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40805971"
 ---
 # <a name="document-metadata-fields-in-advanced-ediscovery"></a>고급 eDiscovery의 문서 메타 데이터 필드
 
@@ -35,15 +35,15 @@ ms.locfileid: "39633587"
 
 - **설명 열의**메타 데이터 필드에 대 한 설명입니다.
 
-| 필드 이름 | 검색 가능한 필드 이름 | 내보낸 필드 이름 | 표시 필드 이름 | 설명 |
-| :- |  :- |  :- |  :- |  :- |
+|필드 이름|검색 가능한 필드 이름|내보낸 필드 이름|표시 필드 이름|설명|
+|:-|:-|:-|:-|:-|
 | 첨부 파일 콘텐츠 Id | AttachmentContentId |  | 첨부 파일 콘텐츠 Id | 항목의 첨부 파일 콘텐츠 Id입니다. |
 | 첨부 파일 이름 | AttachmentNames | Attachment_Names | 첨부 파일 이름 | 첨부 파일 이름의 목록입니다. |
 | 변호사 클라이언트 권한 점수 | AttorneyClientPrivilegeScore |  | 변호사 클라이언트 권한 점수 | 변호사-클라이언트 권한 모델 콘텐츠 점수입니다. |
 | 만든 이 | 만든 이 | Doc_authors | 만든 이 | 문서 메타 데이터의 작성자 |
 | 대상 | 대상 | Email_bcc | 대상 | 메시지 유형에 대 한 숨은 참조 필드입니다.  형식은 ** \<DisplayName SMTPAddress>** 입니다. |
 | 참조란 | 참조란 | Email_cc | 참조란 | 메시지 유형에 대 한 참조 필드입니다.  형식은 ** \<DisplayName SMTPAddress>** 입니다. |
-| 준수 레이블 | ComplianceLabels | Compliance_labels | 준수 레이블 | Office 365에 규정 준수 레이블이 적용 되었습니다. |
+| 준수 레이블 | ComplianceLabels | Compliance_labels | 준수 레이블 |Office 365의 콘텐츠에 적용 되는 [보존 레이블](labels.md) |
 | 컴파운드 경로 | CompoundPath | Compound_path | 컴파운드 경로 | 항목의 원본을 설명 하는 사람이 읽을 수 있는 경로입니다. |
 | 콘텐츠 | 콘텐츠 |  |  | 추출 된 항목의 텍스트입니다. |
 | 대화 본문 | 대화 본문 |  | 대화 본문 | 항목의 대화 본문입니다. |

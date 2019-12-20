@@ -3,6 +3,7 @@ title: Office 365 Advanced eDiscovery에서 사례 및 테 넌 트 설정 정의
 ms.author: chrfox
 author: chrfox
 manager: laurawi
+titleSuffix: Office 365
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
@@ -12,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: 383809de-7f5e-4a1d-9098-c525f67b7a9a
 description: 'Office 365 Advanced eDiscovery의 사례 수준에서 정의할 수 있는 레이블, 모듈 간 및 테 넌 트 설정에 대해 알아봅니다.  '
-ms.openlocfilehash: 69e6e824a7c6a5698e9dc25095d4fab49e369490
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 19c653544173afe31b299b9ab5d2b4fc37415630
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37087375"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40806121"
 ---
 # <a name="define-case-and-tenant-settings-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery에서 사례 및 테 넌 트 설정 정의
 
@@ -51,7 +52,7 @@ ms.locfileid: "37087375"
     
 3. **저장**을 클릭합니다.
     
-## <a name="tenant-settings"></a>테 넌 트 설정
+## <a name="tenant-settings"></a>테넌트 설정
 
 이 섹션에서는 고급 eDiscovery 테 넌 트 설정에 대해 설명 합니다.
   

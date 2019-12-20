@@ -3,6 +3,7 @@ title: Office 365 Advanced eDiscovery에서 관련성 분석 추적
 ms.author: chrfox
 author: chrfox
 manager: laurawi
+titleSuffix: Office 365
 ms.date: 9/14/2017
 audience: Admin
 ms.topic: article
@@ -13,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: 3ab1e2c3-28cf-4bf5-b0a8-c0222f32bdf5
 description: 'Office 365 Advanced eDiscovery에서 사례 문제에 대 한 관련성 교육 상태 및 결과를 확인 하 고 해석 하는 방법에 대해 알아봅니다.  '
-ms.openlocfilehash: 1018b414d0192491feebfbec25d865d4463fa26a
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 7b5d8777cdf54741f585fc6af587e9220a8daf0c
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088478"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40802651"
 ---
 # <a name="track-relevance-analysis-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery에서 관련성 분석 추적
 

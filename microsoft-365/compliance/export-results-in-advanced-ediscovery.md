@@ -3,6 +3,7 @@ title: Office 365 Advanced eDiscovery에서 결과 내보내기
 ms.author: chrfox
 author: chrfox
 manager: laurawi
+titleSuffix: Office 365
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
@@ -12,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: a9951a07-10b3-48cb-b37a-0ffaa24931ad
 description: '내보내기 일괄 처리에 대 한 매개 변수를 지정 하는 절차를 포함 하 여 Office 365 Advanced eDiscovery에서 결과를 내보내기 위한 옵션을 정의 하는 방법을 알아봅니다. '
-ms.openlocfilehash: ad11ac742f3157811523164c7e4d063e1d101343
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 6d535c24a3acfeb09f45ff26e0792f852bf7e016
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088034"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40805871"
 ---
 # <a name="export-results-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery에서 결과 내보내기
 
@@ -112,7 +113,7 @@ EDiscovery 내보내기 도구는 고급 eDiscovery의 검색 결과를 로컬 �
   
    - **검토 필드 설정**의 **시나리오 풀 선택** 목록에서 검토 시나리오 및 범위를 선택 합니다. 설정은 선택에 따라 표시 됩니다.
     
-      - **모두 검토** 기본값으로, 모든 전자 메일, 첨부 파일 및 문서가 기본적으로 선택 됩니다. 
+      - **모두 검토** (기본값): 모든 전자 메일, 첨부 파일 및 문서가 기본적으로 선택 됩니다. 
     
       - **한 집합의 모든 고유한 콘텐츠 검토**: Inclusives 및 고유 포함 복사본, 전자 메일 설정 수준의 고유 첨부 파일, 정확한 중복의 모든 집합에서 대표
     
@@ -120,7 +121,7 @@ EDiscovery 내보내기 도구는 고급 eDiscovery의 검색 결과를 로컬 �
     
       - **모든 고유 콘텐츠 및 관련 패밀리 파일 검토**: Inclusives, 고유한 첨부 파일 전자 메일 집합 수준에서 정확한 복제본의 모든 집합에서 패밀리 파일을 포함 하도록 확장 합니다.
     
-      - **사용자 지정** (대화 상자에서 옵션을 정의할 수 있음) 기본적으로는 현재 선택 항목을 유지 하 고 모든 대화 상자 옵션을 사용 하도록 설정 하 여 선택 항목을 허용 합니다. 이 옵션을 선택 하는 경우 전자 메일, 문서, 첨부 파일 및 기타에 대 한 설정을 사용자 지정할 수 있습니다.
+      - **사용자 지정** (대화 상자에서 옵션을 정의할 수 있음): 기본값은 현재 선택 항목을 유지 하 고 모든 대화 상자 옵션을 사용 하도록 설정 하 여 선택 항목을 허용 하는 것입니다. 이 옵션을 선택 하는 경우 전자 메일, 문서, 첨부 파일 및 기타에 대 한 설정을 사용자 지정할 수 있습니다.
     
     - **전자 메일**에서 내보낼 전자 메일을 선택 합니다.
     

@@ -15,12 +15,12 @@ ms.collection:
 ms.custom: Ent_Solutions
 ms.assetid: ''
 description: 이 항목을 사용 하 여 Office 365에서 권한이 부여 된 액세스 관리 구성에 대 한 자세한 내용을 알아보세요.
-ms.openlocfilehash: 46bfeaf0c73c4598fcdaa65d654201620396600c
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 5b7bf33f41bc722c557f2b515c5ab027bd401a2a
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088835"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40803766"
 ---
 # <a name="configuring-privileged-access-management-in-office-365"></a>Office 365에서 권한이 부여 된 액세스 관리 구성
 
@@ -35,7 +35,7 @@ Office 365 조직에서 권한 있는 액세스를 설정 및 사용 하려면 �
 
 - [1 단계: 승인자 그룹 만들기](privileged-access-management-configuration.md#step1)
 
-    권한 액세스 사용을 시작 하기 전에 관리자 권한 및 권한 있는 작업에 대 한 들어오는 요청 액세스에 대 한 승인 권한이 필요한 사람을 결정 합니다. 승인자 그룹에 속하는 모든 사용자는 액세스 요청을 승인할 수 있습니다. 이 기능은 Office 365에서 메일 사용이 가능한 보안 그룹을 만들어 사용할 수 있습니다.
+    권한 액세스 사용을 시작 하기 전에 관리자 권한 및 권한 있는 작업에 대 한 들어오는 요청 액세스에 대 한 승인 권한이 필요한 사람을 결정 합니다. 승인자 그룹에 속하는 모든 사용자는 액세스 요청을 승인할 수 있습니다. 이 그룹은 Office 365에서 메일 사용이 가능한 보안 그룹을 만들어 사용할 수 있습니다.
 
 - [2 단계: 권한 있는 액세스 사용](privileged-access-management-configuration.md#step2)
 
@@ -52,7 +52,7 @@ Office 365 조직에서 권한 있는 액세스를 설정 및 사용 하려면 �
 승인을 받은 후에는 요청 하는 사용자가 원하는 작업을 실행할 수 있으며, 권한이 부여 된 access에서는 사용자를 대신 하 여 작업을 승인 하 고 실행 합니다. 요청 된 기간 (기본 기간: 4 시간)에 대 한 승인은 유효한 상태로 유지 되므로 요청 자가 원하는 작업을 여러 번 실행할 수 있습니다. 이러한 모든 실행이 기록 되 고 보안 및 준수 감사를 위해 사용할 수 있게 됩니다. 
 
 > [!NOTE]
-> Exchange 관리 PowerShell을 사용 하 여 권한 있는 액세스를 사용 하도록 설정 하 고 구성 하려면 [다단계 인증을 사용 하 여 Exchange Online powershell에 연결](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/mfa-connect-to-exchange-online-powershell?view=exchange-ps) 의 단계를 수행 하 여 Office 365와 함께 Exchange online powershell에 연결 합니다. 증명. Office 365 조 직에 대해 Exchange Online PowerShell에 연결 하는 동안 권한 있는 액세스를 사용 하도록 설정 하는 단계를 사용 하기 위해 multi-factor authentication을 사용 하도록 설정할 필요는 없습니다. 다단계 인증을 사용 하 여 연결-요청에 서명 하기 위해 특권 수준의 액세스에서 사용 되는 OAuth 토큰을 만듭니다.
+> Exchange 관리 PowerShell을 사용 하 여 권한 있는 액세스를 사용 하도록 설정 하 고 구성 하려면 [다단계 인증을 사용 하 여 Exchange Online powershell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/mfa-connect-to-exchange-online-powershell?view=exchange-ps) 에 연결의 단계를 수행 하 여 Office 365 자격 증명을 사용 하 여 Exchange online powershell에 연결 합니다. Office 365 조 직에 대해 Exchange Online PowerShell에 연결 하는 동안 권한 있는 액세스를 사용 하도록 설정 하는 단계를 사용 하기 위해 multi-factor authentication을 사용 하도록 설정할 필요는 없습니다. 다단계 인증을 사용 하 여 연결-요청에 서명 하기 위해 특권 수준의 액세스에서 사용 되는 OAuth 토큰을 만듭니다.
 
 <a name="step1"> </a>
 
@@ -78,9 +78,9 @@ Office 365 조직에서 권한 있는 액세스를 설정 및 사용 하려면 �
 
 1. 조직의 관리자 계정에 대 한 자격 증명을 사용 하 여 [Microsoft 365 관리 센터](https://admin.microsoft.com) 에 로그인 합니다.
 
-2. 관리 센터에서 **설정 > 보안 & 개인 정보** > **권한 부여 액세스**로 이동 합니다.
+2. 관리 센터에서 **설정 > 설정 > Security & 개인 정보** > **권한 부여 액세스**로 이동 합니다.
 
-3. 권한 있는 **액세스 제어에 대 한 승인 필요** 를 사용 하도록 설정 합니다.
+3. 권한 있는 **작업에 대 한 승인 필요** 컨트롤을 사용 하도록 설정 합니다.
 
 4. 1 단계에서 만든 승인자 그룹을 **기본 승인자 그룹**으로 지정 합니다.
 

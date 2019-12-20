@@ -3,6 +3,7 @@ title: Office 365 Advanced eDiscovery에서 가져온 파일을 추가 하도록
 ms.author: chrfox
 author: chrfox
 manager: laurawi
+titleSuffix: Office 365
 ms.date: 9/14/2017
 audience: Admin
 ms.topic: article
@@ -13,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: 0e0a9d04-294f-4f54-8bf1-b32d81345126
 description: 'Office 365 Advanced eDiscovery에서 관련성 훈련을 수행 하기 전에 가져온 파일을 마지막으로 정의한 부하 또는 일괄 파일에 추가 하는 단계를 검토 합니다.  '
-ms.openlocfilehash: 65e022680cc0bd39bbca3e05a4e3b6d24da1b2ad
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 779ec505212753305a8ae604201ce2d6fd858fc3
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088600"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40802691"
 ---
 # <a name="set-up-loads-to-add-imported-files-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery에서 가져온 파일을 추가 하도록 로드 설정
 

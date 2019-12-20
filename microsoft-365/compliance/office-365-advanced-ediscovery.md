@@ -3,6 +3,7 @@ title: Office 365 고급 eDiscovery
 ms.author: chrfox
 author: chrfox
 manager: laurawi
+titleSuffix: Office 365
 audience: Admin
 ms.topic: overview
 ms.service: O365-seccomp
@@ -12,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: fd53438a-a760-45f6-9df4-861b50161ae4
 description: Office 365 Advanced eDiscovery를 통해 Office 365 내의 데이터를 분석 하 고, 문서 검토를 간소화 하 고, 효율적인 eDiscovery를 결정 하는 데 도움이 되는 방법을 알아봅니다.
-ms.openlocfilehash: 8af18c49511373dfa53fdb515f37dce37ef35150
-ms.sourcegitcommit: 31392b9599f4b4e9981a1278d6beb9f0a2839ecf
+ms.openlocfilehash: 4c72444765f75a77d3b62dbd2675b0c277d3d6ba
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "38686966"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40803795"
 ---
 # <a name="office-365-advanced-ediscovery"></a>Office 365 고급 eDiscovery
 
