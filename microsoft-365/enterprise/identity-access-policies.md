@@ -13,12 +13,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: 3739f9f0ab7a7faa9c0467b29cc6c401254e8f58
-ms.sourcegitcommit: aa878adee65a1cdf87d4cabda41ab35673957f40
+ms.openlocfilehash: b2e9670d700d8c09caf861f5a24b0570e0f74256
+ms.sourcegitcommit: 237589a0c8a24510e5c8f3b8b4747d944ad0afbf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "37590502"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "37746554"
 ---
 # <a name="common-identity-and-device-access-policies"></a>일반 ID 및 장치 액세스 정책
 이 문서에서는 Azure AD 응용 프로그램 프록시를 통해 게시 된 온-프레미스 응용 프로그램을 포함 하 여 클라우드 서비스에 대 한 액세스를 보호 하기 위한 일반적인 권장 정책을 설명 합니다. 
@@ -41,13 +41,13 @@ ms.locfileid: "37590502"
 
 |보호 수준|정책도|추가 정보|
 |:---------------|:-------|:----------------|
-|**기준**|[로그인 위험이 *보통* 또는 *높을* 때 MFA 필요](#require-mfa-based-on-sign-in-risk)| |
-|        |[최신 인증을 지원 하지 않는 클라이언트 차단](#block-clients-that-dont-support-modern-authentication)|최신 인증을 사용 하지 않는 클라이언트는 조건부 액세스 규칙을 무시할 수 있으므로 이러한 기능을 차단 하는 것이 중요 합니다.|
+|**기준선**|[로그인 위험이 *보통* 또는 *높을* 때 MFA 필요](#require-mfa-based-on-sign-in-risk)| |
+|        |[최신 인증을 지원하지 않는 클라이언트 차단](#block-clients-that-dont-support-modern-authentication)|최신 인증을 사용 하지 않는 클라이언트는 조건부 액세스 규칙을 무시할 수 있으므로 이러한 기능을 차단 하는 것이 중요 합니다.|
 |        |[높은 위험 사용자가 암호를 변경 해야 함](#high-risk-users-must-change-password)|계정의 높은 위험 활동이 검색 되는 경우 로그인 시 사용자가 암호를 변경 하도록 합니다.|
 |        |[앱 보호 정책 정의](#define-app-protection-policies)|플랫폼 당 한 가지 정책 (iOS, Android, Windows)|
 |        |[승인 된 앱 필요](#require-approved-apps)|휴대폰 및 태블릿에서 모바일 앱 보호를 적용 합니다.|
 |        |[장치 준수 정책 정의](#define-device-compliance-policies)|각 플랫폼에 대 한 정책 1 개|
-|        |[준수 Pc 필요](#require-compliant-pcs-but-not-compliant-phones-and-tablets)|Intune에서 Pc 관리를 적용 합니다.|
+|        |[호환 PC 필요](#require-compliant-pcs-but-not-compliant-phones-and-tablets)|Intune에서 Pc 관리를 적용 합니다.|
 |**중요**|[로그인 위험이 *낮은* *경우 MFA* 필요 **](#require-mfa-based-on-sign-in-risk)| |
 |         |[준수 Pc *및* 모바일 장치 요구](#require-compliant-pcs-and-mobile-devices)|Pc 및 전화/태블릿에서 Intune 관리를 적용 합니다.|
 |**높은 규제**|[*항상* MFA 필요](#require-mfa-based-on-sign-in-risk)|
@@ -102,7 +102,7 @@ MFA를 요청 하기 전에 먼저 Id 보호 MFA 등록 정책을 사용 하 여
 
 |속성|보호 수준|값|참고|
 |:---|:---------|:-----|:----|
-|위험 수준|기준|높음, 중간|모두 선택|
+|위험 수준|기준선|높음, 중간|모두 선택|
 | |중요|높음, 중간, 낮음|세 항목 모두 선택|
 | |높은 규제| |항상 MFA를 적용 하려면 모든 옵션을 선택 하지 않은 상태로 유지|
 
@@ -122,7 +122,7 @@ MFA를 요청 하기 전에 먼저 Id 보호 MFA 등록 정책을 사용 하 여
 
 
 
-## <a name="block-clients-that-dont-support-modern-authentication"></a>최신 인증을 지원 하지 않는 클라이언트 차단
+## <a name="block-clients-that-dont-support-modern-authentication"></a>최신 인증을 지원하지 않는 클라이언트 차단
 1. [Azure Portal](https://portal.azure.com)로 이동한 다음 자격 증명을 사용하여 로그인합니다. 성공적으로 로그인 하면 Azure 대시보드가 표시 됩니다.
 
 2. 왼쪽 메뉴에서 **Azure Active Directory**를 선택합니다.
@@ -162,7 +162,7 @@ MFA를 요청 하기 전에 먼저 Id 보호 MFA 등록 정책을 사용 하 여
 ## <a name="high-risk-users-must-change-password"></a>높은 위험 사용자가 암호를 변경 해야 함
 로그인 할 때 모든 높은 위험 사용자의 손상 된 계정이 강제로 암호 변경을 수행 하 게 하려면 다음 정책을 적용 해야 합니다.
 
-사용자의 관리자 자격 증명을 사용하여 [Microsoft Azure Portal(http://portal.azure.com)](http://portal.azure.com/)에 로그인한 다음 **Azure AD ID 보호 > 사용자 위험 정책**으로 이동합니다.
+사용자의 관리자 자격 증명을 사용하여 [Microsoft Azure Portal(https://portal.azure.com)](https://portal.azure.com/)에 로그인한 다음 **Azure AD ID 보호 > 사용자 위험 정책**으로 이동합니다.
 
 **할당**
 
@@ -225,13 +225,13 @@ iOS와 Android 간에 앱 보호 정책 옵션에 약간의 차이가 있습니�
 |액세스|액세스 시 PIN 필요|예||
 ||유형 선택|정수||
 ||단순한 PIN 허용|아니요||
-||PIN 길이|번||
+||PIN 길이|6 ||
 ||PIN 대신 지문 허용|예||
 ||장치 PIN이 관리 될 때 앱 PIN 사용 안 함|예||
 ||액세스를 위해 회사 자격 증명 필요|아니요||
 ||액세스 요구 사항을 다시 확인할 시간(분)|kb||
 ||화면 캡처 및 Android Assistant 차단|아니요|iOS의 경우 이 옵션을 사용할 수 없음|
-|로그인 보안 요구 사항|최대 PIN 시도 횟수|2-5|Pin 다시 설정|
+|로그인 보안 요구 사항|최대 PIN 시도 횟수|5 |Pin 다시 설정|
 ||오프라인 유예 기간|720|액세스 차단|
 ||앱 데이터가 초기화되기 전의 오프라인 간격(일)|90|데이터 지우기|
 ||탈 옥/루 팅 된 장치| |데이터 지우기|
@@ -280,7 +280,7 @@ iOS와 Android 간에 앱 보호 정책 옵션에 약간의 차이가 있습니�
 - Windows 8.1 이상
 - Windows 10 이상
 
-장치 준수 정책을 만들려면 관리자 자격 증명을 사용 하 여 Microsoft Azure portal에 로그인 한 다음 **Intune > 장치 준수**로 이동 합니다. **정책 만들기**를 선택 합니다.
+장치 준수 정책을 만들려면 관리자 자격 증명을 사용 하 여 Microsoft Azure portal에 로그인 한 다음 **Intune > 장치 준수**로 이동 합니다. **정책 만들기**를 선택합니다.
 
 다음은 Windows 10에 권장 되는 설정입니다.
 
@@ -308,10 +308,10 @@ iOS와 Android 간에 앱 보호 정책 옵션에 약간의 차이가 있습니�
 |암호|모바일 장치의 잠금을 해제 하는 데 암호 필요|할||
 ||단순 암호|정책의||
 ||암호 유형|장치 기본값||
-||최소 암호 길이|번||
+||최소 암호 길이|6 ||
 ||암호를 요구 하기 전까지 최대 비활성 시간 (분)|15 |이 설정은 Android 버전 4.0 이상 또는 KNOX 4.0 이상에 대해 지원 됩니다. IOS 장치에서는 iOS 8.0 이상에 대해 지원 됩니다.|
 ||암호 만료(일)|41||
-||다시 사용 하지 못하도록 할 이전 암호 수|2-5||
+||다시 사용 하지 못하도록 할 이전 암호 수|5 ||
 ||장치가 유휴 상태에서 반환 될 때 암호 필요 (Mobile 및 Holographic)|할|Windows 10 이상 버전에서 사용 가능|
 |암호화|장치에서 데이터 저장소 암호화|할||
 |장치 보안|방화벽이|할||

@@ -3,7 +3,7 @@ title: Contoso Corporation의 고도로 기밀 디지털 자산에 대 한 Share
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 10/04/2019
+ms.date: 11/18/2019
 audience: ITPro
 ms.topic: overview
 ms.service: o365-solutions
@@ -13,12 +13,12 @@ search.appverid:
 ms.collection: M365-security-compliance
 ms.custom: Ent_Architecture
 description: '요약: Contoso가 높은 규제 대상 데이터에 대 한 SharePoint 사이트를 구현 하 여 조사 팀 간의 공동 작업을 간편 하 게 수행 하는 방법'
-ms.openlocfilehash: ce813407c0f4c6f7b68aa997bf5e54b86a24ff2d
-ms.sourcegitcommit: 9ee873c6a2f738a0c99921e036894b646742e706
+ms.openlocfilehash: caad341c6a44b3270f2bdecd4ab4d8378c11db2c
+ms.sourcegitcommit: 237589a0c8a24510e5c8f3b8b4747d944ad0afbf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38672714"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "38699722"
 ---
 # <a name="sharepoint-site-for-highly-confidential-digital-assets-of-the-contoso-corporation"></a>Contoso Corporation의 고도로 기밀 디지털 자산에 대 한 SharePoint 사이트
 
@@ -55,7 +55,7 @@ SharePoint 사이트에 대 한 액세스를 보호 하기 위해 Contoso IT IT�
 
 구성에 대 한 자세한 내용은 [보존 레이블 및 DLP를 사용 하 여 SharePoint 파일 보호](https://docs.microsoft.com/office365/enterprise/protect-sharepoint-online-files-with-office-365-labels-and-dlp)를 참조 하세요.
 
-## <a name="step-4-created-an-office-365-sensitivity-sublabel-for-the-site"></a>4 단계: 사이트에 대 한 Office 365 민감도 sublabel를 만들었습니다.
+## <a name="step-3-created-an-office-365-sensitivity-sublabel-for-the-site"></a>3 단계: 사이트에 대 한 Office 365 민감도 sublabel를 만들었습니다.
 
 Contoso 관리자는 다음과 같은 **고도로 기밀** 레이블의 **리서치 팀** 이라는 새 Office 365 민감도 sublabel를 만들었습니다.
 
@@ -78,11 +78,11 @@ Contoso 관리자는 다음과 같은 **고도로 기밀** 레이블의 **리서
 ![높은 기밀 자산에 대 한 연구 팀 사이트의 결과 구성](./media/contoso-sharepoint-online-site-for-highly-confidential-assets/final-config-example-file.png)
 
 
-## <a name="step-5-migrated-the-on-premises-sharepoint-research-data"></a>5 단계: 온-프레미스 SharePoint 조사 데이터 마이그레이션
+## <a name="step-4-migrated-the-on-premises-sharepoint-research-data"></a>4 단계: 온-프레미스 SharePoint 조사 데이터 마이그레이션
 
 Contoso 관리자가 온-프레미스 SharePoint Server 2016 사이트의 모든 온-프레미스 조사 파일을 새 **리서치** SharePoint 사이트의 폴더로 이동 했습니다.
 
-## <a name="step-6-trained-their-researchers"></a>6 단계: 교육을 받은 연구원
+## <a name="step-5-trained-their-researchers"></a>5 단계: 교육을 받은 연구원
 
 Contoso 보안 직원은 **리서치** Office 365 그룹의 구성원을 단계별로 진행 하는 필수 과정으로 교육 합니다.
 

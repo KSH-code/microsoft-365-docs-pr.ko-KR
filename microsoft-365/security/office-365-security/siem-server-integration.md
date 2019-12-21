@@ -1,11 +1,11 @@
 ---
-title: Microsoft 365 서비스 및 응용 프로그램과의 SIEM 서버 통합
+title: " Microsoft 365 서비스 및 응용 프로그램과의 SIEM (보안 정보 및 이벤트 관리) 서버 통합"
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
 audience: ITPro
 ms.topic: article
-ms.date: 11/15/2019
+ms.date: 11/18/2019
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection:
@@ -13,19 +13,19 @@ ms.collection:
 ms.custom:
 - Ent_Solutions
 - SIEM
-description: 이 문서를 읽으면 Microsoft 365과의 SIEM server 통합에 대 한 개요를 확인할 수 있습니다.
-ms.openlocfilehash: bea6141022fef1275a7e291217f698f52613f170
-ms.sourcegitcommit: d8d001c03c28c10bea005d1c9b5f4a8f393af706
+description: Microsoft 365 클라우드 서비스 및 응용 프로그램과의 SIEM (보안 정보 및 이벤트 관리) 서버 통합에 대 한 개요를 확인 하세요.
+ms.openlocfilehash: b91d45235b61ff6a3c57ec70f3e6a8fee0fd39d2
+ms.sourcegitcommit: 237589a0c8a24510e5c8f3b8b4747d944ad0afbf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38677511"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "38699598"
 ---
-# <a name="siem-server-integration-with-microsoft-365-services-and-applications"></a>Microsoft 365 서비스 및 응용 프로그램과의 SIEM 서버 통합
+#  <a name="security-information-and-event-management-siem-server-integration-with-microsoft-365-services-and-applications"></a>Microsoft 365 서비스 및 응용 프로그램과의 SIEM (보안 정보 및 이벤트 관리) 서버 통합
 
 ## <a name="summary"></a>요약
 
-조직에서 SIEM (보안 정보 및 이벤트 관리) 서버를 사용 하는 경우 또는 SIEM 서버를 곧 가져올 계획인 경우 Microsoft 365 또는 Office 365와 통합 되는 방법을 궁금할 것입니다. 이 문서에서는 Microsoft 365 서비스 및 응용 프로그램과의 SIEM server 통합을 설정 하는 데 사용할 수 있는 리소스 목록을 제공 합니다.
+조직에서 SIEM (보안 정보 및 이벤트 관리) 서버를 사용 하거나 사용할 계획 입니까? Microsoft 365 또는 Office 365와 통합 되는 방식을 궁금할 것입니다. 이 문서에서는 SIEM server를 Microsoft 365 서비스 및 응용 프로그램에 통합 하는 데 사용할 수 있는 리소스 목록을 제공 합니다.
 
 > [!TIP]
 > 아직 SIEM 서버가 없고 옵션을 탐색 하는 경우 **[Microsoft Azure 센티널](https://docs.microsoft.com/azure/sentinel/overview)** 을 고려 하세요.
@@ -40,16 +40,16 @@ SIEM 서버가 필요한 지 여부는 조직의 보안 요구 사항 및 데이
 
 ## <a name="siem-server-integration-with-microsoft-365"></a>Microsoft 365과의 SIEM 서버 통합
 
-SIEM 서버는 다양 한 Microsoft 365 서비스 및 응용 프로그램에서 데이터를 받을 수 있습니다. 다음 표에서는 siem 서버 입력과 함께 몇 가지 Microsoft 365 서비스 및 응용 프로그램과 siem 서버 통합에 대해 자세히 알아볼 수 있는 리소스를 보여 줍니다. 
+SIEM 서버는 다양 한 Microsoft 365 서비스 및 응용 프로그램에서 데이터를 받을 수 있습니다. 다음 표에는 몇 가지 Microsoft 365 서비스와 응용 프로그램과 SIEM 서버 입력 및 리소스가 나와 있습니다. 
 
-| Microsoft 365 서비스 또는 응용 프로그램 | SIEM 서버 입력 | 자세한 정보를 알아볼 수 있는 리소스 |
+| Microsoft 365 서비스 또는 응용 프로그램 | SIEM server 입력/메서드 | 자세한 정보를 알아볼 수 있는 리소스 |
 | --- | --- | --- |
 | [Office 365 Advanced Threat Protection](office-365-atp.md)  | 감사 로그 | [SIEM과 Office 365 Advanced Threat Protection의 통합](siem-integration-with-office-365-ti.md) |
 | [Microsoft Defender Advanced Threat Protection](https://docs.microsoft.com/windows/security/threat-protection/) | Azure에서 호스트 되는 HTTPS 끝점 <br/>REST API| [SIEM 도구에 대 한 알림 가져오기](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-siem) |
 | [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security) | 로그 통합 | [Microsoft Cloud App Security와의 SIEM 통합](https://docs.microsoft.com/cloud-app-security/siem) |
 
 > [!TIP]
-> Microsoft 솔루션용으로 제공 되는 다양 한 유형의 [Azure 센티널](https://docs.microsoft.com/azure/sentinel/overview), Microsoft 위협 보호 솔루션을 포함 하 여 실시간 통합 제공, Office 365, azure AD, azure ATP, Microsoft Cloud App 보안 등의 microsoft 365 원본에 포함 된
+> [Azure 센티널](https://docs.microsoft.com/azure/sentinel/overview)을 살펴봅니다. Azure 센티널은 Microsoft 솔루션용 커넥터와 함께 제공 됩니다. 이러한 커넥터는 "외부에서" 사용 가능 하며 실시간 통합을 제공 합니다. Azure 센티널은 Microsoft 위협 보호 솔루션 및 Microsoft 365 서비스 (Office 365, Azure AD, Azure ATP, Microsoft Cloud App Security 등)와 함께 사용할 수 있습니다.
 
 ### <a name="audit-logging-must-be-turned-on"></a>감사 로깅을 설정 해야 합니다.
 
@@ -59,7 +59,7 @@ SIEM 서버 통합을 구성 하기 전에 감사 로깅이 설정 되어 있는
 
 - Exchange Online의 경우 [감사 로깅은 Windows PowerShell을 사용 하 여 설정 됩니다](https://docs.microsoft.com/office365/securitycompliance/enable-mailbox-auditing).
  
-## <a name="additional-resources"></a>추가 리소스
+## <a name="more-resources"></a>추가 리소스
 
 [Azure 보안 센터에서 보안 솔루션 통합](https://docs.microsoft.com/azure/security-center/security-center-partner-integration#exporting-data-to-a-siem)
 
