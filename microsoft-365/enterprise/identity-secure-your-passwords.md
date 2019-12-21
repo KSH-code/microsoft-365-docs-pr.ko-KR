@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 조직 전체에 암호를 강력하고 관리하기 쉽도록 설정해야 합니다.
-ms.openlocfilehash: 375f4a678e85dccb544ffaf56f648e98609841d9
-ms.sourcegitcommit: 2aeafb631aaabc53eea0a8029711eb891e48d249
+ms.openlocfilehash: 143f7727846316100e4133ccf4b34646645bfd7f
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "37746514"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40801743"
 ---
 # <a name="step-2-secure-your-passwords"></a>2단계: 암호 보호
 
@@ -27,7 +27,7 @@ ms.locfileid: "37746514"
 <a name="identity-password-prot"></a>
 ## <a name="prevent-bad-passwords"></a>잘못된 암호 방지
 
-*이 단계는 선택 사항이며, Microsoft 365 Enterprise E3 및 E5 버전에 적용됩니다.*
+*이 단계는 선택 사항이며 Microsoft 365 E3 및 E5 버전에 모두 적용됩니다*
 
 모든 사용자가 [Microsoft의 암호 지침](https://www.microsoft.com/research/publication/password-guidance/) 을 사용하여 사용자 계정 암호를 만들어야 합니다.
 
@@ -46,7 +46,7 @@ ms.locfileid: "37746514"
 <a name="identity-pw-reset"></a>
 ## <a name="simplify-password-resets"></a>암호 재설정 간소화
 
-*이 단계는 선택 사항이며, Microsoft 365 Enterprise E3 및 E5 버전에 적용됩니다.*
+*이 단계는 선택 사항이며 Microsoft 365 E3 및 E5 버전에 모두 적용됩니다*
 
 이 부문에서 셀프 서비스 암호 재설정은 사용자가 암호 혹은 계정을 재설정 혹은 잠금을 해제하도록 해줍니다. 오용 또는 남용에 대한 경고로 사용자가 시스템에 언제 액세스하는지 추적하는 상세한 보고서와 알림을 사용할 수 있습니다. 암호 재설정 전에 암호 쓰기 저장을 사용할 수 있도록 설정해야 합니다.
 

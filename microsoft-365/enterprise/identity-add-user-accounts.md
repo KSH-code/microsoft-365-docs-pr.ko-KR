@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 사용자 계정 및 그룹을 클라우드에서 직접 추가하거나 온-프레미스 디렉터리와 동기화하는 방법으로 추가할 수 있습니다.
-ms.openlocfilehash: 559ea58a5fcee5860a797893230b587adc33a17d
-ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
+ms.openlocfilehash: 04564d86031642276e964f3a70fa2729f6b16c00
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "37370225"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40801843"
 ---
 # <a name="step-4-add-your-user-accounts"></a>4단계: 사용자 계정 추가
 
@@ -82,7 +82,7 @@ Azure AD에 온-프레미스 사용자 및 그룹이 있으면 라이선스를 �
 <a name="identity-sync-health"></a>
 ## <a name="monitor-synchronization-health"></a>동기화 상태 모니터링
 
-*이 단계는 선택 사항이며, Microsoft 365 Enterprise E3 및 E5 버전에 적용됩니다.*
+*이 단계는 선택 사항이며 Microsoft 365 E3 및 E5 버전에 모두 적용됩니다*
 
 이 섹션에서는 각 온-프레미스 AD DS 도메인 컨트롤러에 Azure AD Connect 상태 에이전트를 설치하여 Azure AD Connect에서 제공하는 ID 인프라 및 동기화 서비스를 모니터링합니다. 모니터링 정보는 Azure AD Connect Health 포털에서 사용할 수 있습니다. 이 포털에서 경고, 성능 모니터링, 사용 현황 분석, 기타 정보를 볼 수 있습니다.
 

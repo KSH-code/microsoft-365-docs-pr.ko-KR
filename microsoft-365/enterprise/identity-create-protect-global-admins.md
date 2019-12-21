@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 전역 관리자 계정은 자격 증명의 노출로부터 안전하게 유지하기 위해 특별한 처리가 필요합니다.
-ms.openlocfilehash: 257caf197df74d32b438a17158598237cf4c58b5
-ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
+ms.openlocfilehash: 1a0274967798e6c2ba6048e5a2cfd70e73cb0671
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38627084"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40801833"
 ---
 # <a name="step-1-create-and-protect-your-global-admin-accounts"></a>1단계: 전역 관리자 계정 생성 및 보호
 
@@ -72,7 +72,7 @@ ms.locfileid: "38627084"
 
 관리자 계정을 영구적 관리자로 하는 대신에 관리자 자격을 갖춘 관리자가 됩니다. 사용자가 필요할 때까지 관리자 역할은 비활성화됩니다. 그런 다음 관리자 계정에 특정 시간 동안 관리자 역할을 추가하기 위한 활성화 프로세스를 완료 합니다. 시간이 만료되면 PIM이 관리자 계정에서 관리자 역할을 제거합니다.
 
-PIM은 Microsoft 365 Enterprise E5에 포함된 Azure Active Directory Premium P2와 함께 가용합니다. 또는 관리자 계정에 대해 개별 Azure Active Directory Premium P2 라이선스를 구매할 수 있습니다.
+PIM은 Microsoft 365 E5에 포함된 Azure Active Directory Premium P2와 함께 제공됩니다.  또는 관리자 계정에 대해 개별 Azure Active Directory Premium P2 라이선스를 구매할 수 있습니다.
 
 Azure AD 테넌트 및 관리자 계정에서 Azure PIM을 사용하도록 설정하려면 [PIM 구성 절차](https://docs.microsoft.com/azure/active-directory/active-directory-privileged-identity-management-configure)를 참조하세요.
 
