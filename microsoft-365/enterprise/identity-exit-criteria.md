@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 구성이 ID 기반 서비스 및 인프라에 대한 Microsoft 365 Enterprise 조건을 충족하는지 확인합니다.
-ms.openlocfilehash: 94343400482083b2e793ff218816f06cb982187e
-ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
+ms.openlocfilehash: 540d3c01ea368634cebafb2ec3dd5562fcb0b73c
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38627394"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40801753"
 ---
 # <a name="phase-2-identity-infrastructure-exit-criteria"></a>2단계: ID 인프라 종료 조
 
@@ -26,7 +26,7 @@ ms.locfileid: "38627394"
 
 ID 인프라가 다음과 같은 필수 조건 및 선택 요소에 확실히 충족하는지 확인합니다.
 
-ID 인프라 관련 추가 권장 사항에 대해서는 [필수 구성 요소](https://docs.microsoft.com/microsoft-365-enterprise/identity-access-policies#prerequisites)를 참조하세요.
+ID 인프라 관련 추가 권장 사항에 대해서는 [필수 구성 요소](https://docs.microsoft.com/microsoft-365/enterprise/identity-access-prerequisites)를 참조하세요.
 
 <a name="crit-identity-global-admin"></a>
 ## <a name="required-your-global-administrator-accounts-are-protected"></a>필수: 전역 관리자 계정 보호 
@@ -121,7 +121,7 @@ Microsoft 365 구독을 위반할 수 있는 공격자의 자격 증명 손상�
 5.  테스트 사용자 계정을 삭제합니다.
 
 <a name="crit-identity-ident-prot"></a>
-## <a name="optional-azure-ad-identity-protection-is-enabled-to-protect-against-credential-compromise-microsoft-365-enterprise-e5-only"></a>선택: Azure AD ID 보호를 사용하도록 설정하여 자격 증명 손상으로부터 보호(Microsoft 365 Enterprise E5만 해당)
+## <a name="optional-azure-ad-identity-protection-is-enabled-to-protect-against-credential-compromise-microsoft-365-e5-only"></a>선택: Azure AD ID 보호를 사용하도록 설정하여 자격 증명의 노출을 방지(Microsoft 365 E5만 해당)
 
 다음을 위해 Azure AD ID 보호를 사용하도록 설정해야 합니다.
 

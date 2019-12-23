@@ -13,18 +13,18 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 조직에 Microsoft 365 Enterprise의 기본 인프라를 배포하는 주요 단계(핵심 배포라고도 함)를 이해합니다.
-ms.openlocfilehash: c18e4d770aec63da091ad38fc341a87f9d71e9be
-ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
+ms.openlocfilehash: 78bfaf64fc247a88b30df4f2cf2a7f8b962dfdb6
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "37370355"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40801963"
 ---
-# <a name="microsoft-365-enterprise-foundation-infrastructure"></a>Microsoft 365 Enterprise 기본 인프라
+# <a name="microsoft-365-for-enterprise-foundation-infrastructure"></a>Microsoft 365 Enterprise 기본 인프라
 
 Microsoft 365 Enterprise의 종단 간 배포를 하는 경우, 먼저 응용프로그램 및 서비스가 보안 환경에서 창의성과 팀워크를 해제할 수 있는 안전한 기초 위에 구축해야합니다. 이 기초를 *핵심 배포*라고 합니다.
 
-배포에 대한 종단 간 경로에 있어서 Microsoft 365 Enterprise 의 기초 인프라 배포와 계획을 위해 이러한 단계들을 사용할 수 있습니다.
+배포에 대한 종단 간 경로에 있어서 Microsoft 365 Enterprise의 기본 인프라 배포와 계획을 위해 이러한 단계들을 사용할 수 있습니다.
 
 | | 단계 | 결과 |
 |:-------|:-----|:-----|
@@ -48,15 +48,15 @@ Microsoft 365 Enterprise의 종단 간 배포를 하는 경우, 먼저 응용프
 
 -  **엔터프라이즈 조직인 경우**, 규정된 경로 보다는 IT 인프라 단계를 살펴보십시오. 그리고 조직 전체에서 각 레이어의 요구 사항을 최종적으로 준수하는 가장 효과적인 방법을 결정하십시오.
 
-각 작업 단계의 마지막에 충족해야 할 필수 조건과 고려할 선택 조건을 포함하는 *종료 기준*을 검사해야 합니다. 각 단계의 종료 기준에서 온 프레미스 및 클라우드 인프라 그리고 종단간 구성 결과가 Microsoft 365 Enterprise 배포의 요구조건을 충족하는지 확인해야합니다.
+각 작업 단계의 마지막에 충족해야 할 필수 조건과 고려할 선택 조건을 포함하는 *종료 기준*을 검사해야 합니다. 각 단계의 종료 기준에서 온-프레미스 및 클라우드 인프라 그리고 종단간 구성 결과가 Microsoft 365 Enterprise 배포의 요구 사항을 충족하는지 확인해야합니다.
 
 콘텐츠 구성 방식을 알아보려면 이 짧은 비디오를 시청 하십시오.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE23VRG]
 
-전체 Microsoft 365 Enterprise 배포 가이드에서 기초 인프라는 다음과 같습니다.
+전체 Microsoft 365 Enterprise 배포 가이드에서 기본 인프라는 다음과 같습니다.
 
-![전체 Microsoft 365 Enterprise 배포 가이드에서 기초 인프라](./media/deploy-foundation-infrastructure/m365-deploy-content-arch-foundation.png)
+![전체 Microsoft 365 Enterprise 배포 가이드에서 기본 인프라](./media/deploy-foundation-infrastructure/m365-deploy-content-arch-foundation.png)
 
 ## <a name="at-a-glance"></a>한눈에 보기
 
@@ -69,16 +69,16 @@ Microsoft 365 Enterprise의 종단 간 배포를 하는 경우, 먼저 응용프
 - 새 사용자를 온보딩하는 프로세스
 - 모니터링 및 업데이트 방법
 
-[![Microsoft 365 Enterprise 기본 인프라 포스터의 이미지](./media/deploy-foundation-infrastructure/Microsoft365EnterpriseFoundInfra.png)](media/deploy-foundation-infrastructure/Microsoft365EnterpriseFoundInfra.pdf)
+[![Microsoft 365 Enterprise 기본 인프라 이미지 포스터](./media/deploy-foundation-infrastructure/Microsoft365EnterpriseFoundInfra.png)](media/deploy-foundation-infrastructure/Microsoft365EnterpriseFoundInfra.pdf)
 
 포스터 사본을 다운로드 하려면 [여기](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/deploy-foundation-infrastructure/Microsoft365EnterpriseFoundInfra.pdf)를 클릭하세요.
 
 
 ## <a name="infrastructure-configuration-vs-user-rollout"></a>인프라 구성 대 사용자 공개
 
-기초 인프라는 사용자가 함께 병행될 때, Microsoft Enterprise 365에서 제공하는 기능 및 보호의 전체 스펙트럼을 활용하게 해주는 구성된 소프트웨어와 서비스입니다. 종단 간 배포 이동의 최종 목적은 이 인프라를 모든 사용자 및 해당 Windows 기반 장치에 적용하도록 하는 것입니다. 
+기본 인프라는 사용자가 함께 병행될 때, Microsoft 365 Enterprise에서 제공하는 기능 및 보호의 전체 스펙트럼을 활용하게 해주는 구성된 소프트웨어와 서비스입니다. 종단 간 배포 이동의 최종 목적은 이 인프라를 모든 사용자 및 해당 Windows 기반 장치에 적용하도록 하는 것입니다. 
 
-그러나 Microsoft 365 Enterprise 기초 인프라가 사용자를 위한 개별된 소프트웨어 및 서비스의 시작이라는 사실을 알아야 합니다. ***모든 사용자에게 해당 레이어를 공개하지 않고도 기초 인프라의 레이어를 구성할 수 있습니다.***
+그러나 Microsoft 365 Enterprise 기본 인프라가 사용자를 위한 개별된 소프트웨어 및 서비스의 시작이라는 사실을 알아야 합니다. ***모든 사용자에게 해당 레이어를 공개하지 않고도 기초 인프라의 레이어를 구성할 수 있습니다.***
 
 조직의 사무실, 지역 또는 부서에서 많은 사용자를 위한 구성 요소 전에 기초 인프라의 요소들을 구성하고 테스트하며 시험 사용하는 것이 가능합니다.
 

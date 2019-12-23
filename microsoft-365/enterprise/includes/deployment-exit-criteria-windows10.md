@@ -71,19 +71,19 @@ Windows Autopilot이 없으면 Azure AD 연결하는 작업을 비롯하여 새 
 <a name="crit-windows10-step5a"></a>
 ### <a name="required-you-are-using-windows-defender-antivirus-or-your-own-antimalware-solution"></a>필수 작업: Windows Defender 바이러스 백신 또는 맬웨어 방지 솔루션 사용
 
-Windows Defender 바이러스 백신 또는 자신의 바이러스 백신 솔루션을 배포하여 Windows 10 Enterprise 실행 장치를 악성 소프트웨어로부터 보호. Windows Defender 바이러스 백신를 배포한 경우, 바이러스 백신 이벤트 및 활동을 모니터링하기 위한 System Center Configuration Manager 또는 Microsoft Intune과 같은 보고 방법이 구현된 것입니다.
+Windows Defender 바이러스 백신 또는 자신의 바이러스 백신 솔루션을 배포하여 Windows 10 Enterprise 실행 장치를 악성 소프트웨어로부터 보호. Windows Defender 바이러스 백신를 배포한 경우, 바이러스 백신 이벤트 및 활동을 모니터링하기 위한 Microsoft Endpoint Configuration Manager 또는 Microsoft Intune과 같은 보고 방법이 구현된 것입니다.
 
 필요한 경우 [5단계](../windows10-enable-security-features.md#windows10-sec-av)를 통해 이 요구 사항을 충족할 수 있습니다.
 
 <a name="crit-windows10-step5b"></a>
 ### <a name="required-you-are-using-windows-defender-exploit-guard"></a>필수 작업: Windows Defender Exploit Guard 사용
 
-Windows Defender Exploit Guard를 배포하여 Windows 10 Enterprise 실행 장치를 침입으로부터 보호하고 침입 이벤트 및 활동을 모니터링하기 위한 System Center Configuration Manager 또는 Microsoft Intune과 같은 보고 방법 구현
+Windows Defender Exploit Guard를 배포하여 Windows 10 Enterprise 실행 장치를 침입으로부터 보호하고 침입 이벤트 및 활동을 모니터링하기 위한 Configuration Manager 또는 Microsoft Intune과 같은 보고 방법 구현
 
 필요한 경우 [5단계](../windows10-enable-security-features.md#windows10-sec-eg)를 통해 이 요구 사항을 충족할 수 있습니다.
 
 <a name="crit-windows10-step5c"></a>
-### <a name="required-you-are-using-microsoft-defender-advanced-threat-protection-microsoft-365-enterprise-e5-only"></a>필수 작업: Microsoft Defender Advanced Threat Protection 사용(Microsoft 365 Enterprise E5만 해당)
+### <a name="required-you-are-using-microsoft-defender-advanced-threat-protection-microsoft-365-e5-only"></a>필수: Microsoft Defender Advanced Threat Protection을 사용(Microsoft 365 E5만 해당).
 
 Microsoft Defender ATP(Advanced Threat Protection)를 배포하여 네트워크 및 Windows 10 Enterprise 실행 장치에 대한 고급 위협 감지, 조사, 대응 
 

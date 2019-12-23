@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 사용자가 Windows 장치 및 Microsoft 365에 더욱 안전하게 로그인할 수 있습니다.
-ms.openlocfilehash: 6f45d61694cabd10587ff13bd787fa42bdaeac01
-ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
+ms.openlocfilehash: c1379cfdd65204a27c8147ade8c8c8704e441f1f
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "37370195"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40801733"
 ---
 # <a name="step-3-secure-and-manage-your-user-sign-ins"></a>3단계: 사용자 로그인 보안 및 관리
 
@@ -28,7 +28,7 @@ ms.locfileid: "37370195"
 <a name="identity-windows-hello"></a>
 ## <a name="use-windows-hello-for-business"></a>비즈니스용 Windows Hello 사용
 
-*이 단계는 선택 사항이며, Microsoft 365 Enterprise E3 및 E5 버전에 적용됩니다.*
+*이 단계는 선택 사항이며 Microsoft 365 E3 및 E5 버전에 모두 적용됩니다*
 
 Windows 10 Enterprise의 비즈니스용 windows Hello는 Windows 장치에 로그인할 때 암호를 강력한 2 단계 인증으로 대체합니다. 2단계 인증 요소는 장치에 연결된 새로운 유형의 사용자 자격 증명과 생체 인식 또는 PIN입니다.
 
@@ -38,7 +38,7 @@ Windows 10 Enterprise의 비즈니스용 windows Hello는 Windows 장치에 로�
 <a name="identity-mfa"></a>
 ## <a name="set-up-azure-multi-factor-authentication"></a>Azure 다단계 인증 설정
 
-*이 단계는 선택 사항이며, Microsoft 365 Enterprise E3 및 E5 버전에 적용됩니다.*
+*이 단계는 선택 사항이며 Microsoft 365 E3 및 E5 버전에 모두 적용됩니다*
 
 이 단계에서는 Azure 다단계 MFA (Multi-Factor Authentication)를 설정하여 사용자 로그인 및 트랜잭션에 두 번째 보안 계층을 추가합니다.
  사용자가 암호를 올바르게 입력한 후 MFA는 추가 확인 방법을 필요로 합니다. MFA가 없으면 암호가 유일한 인증 방법입니다. 암호는 종종 공격자가 쉽게 추측하거나 신뢰할 수 없는 사용자와 본인도 모르게 공유되는 문제가 있습니다.

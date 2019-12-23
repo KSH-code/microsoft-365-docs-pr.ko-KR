@@ -18,12 +18,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 65a6d687-a16a-4415-9fd5-011ba9c5fd80
 description: '요약: Microsoft 365 테스트 환경에 대한 페더레이션 인증을 구성합니다.'
-ms.openlocfilehash: 895d6b825a3e2928fee1e9f68ce2195b92117e37
-ms.sourcegitcommit: fb3815ee186b2b3ec790ee32a9d7b1628d623b0b
+ms.openlocfilehash: 1158109a4d42a7434a1d66750b2182f940d511b9
+ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/22/2019
-ms.locfileid: "39202272"
+ms.lasthandoff: 12/19/2019
+ms.locfileid: "40801853"
 ---
 # <a name="federated-identity-for-your-microsoft-365-test-environment"></a>Microsoft 365 테스트 환경에 대한 페더레이션 ID
 
@@ -41,7 +41,7 @@ Office 365은 페더레이션 ID를 지원합니다. 즉, 자격 증명 자체�
     
 - 인터넷에 연결된 간소화된 조직 인트라넷: Azure Virtual Network의 하위 집합에 있는 5개의 가상 머신(DC1, APP1, CLIENT1, ADFS1 및 PROXY1)으로 구성되어 있습니다. Azure AD Connect가 APP1에서 실행되며 AD DS(Active Directory Domain Services) 도메인의 계정 목록을 Office 365와 동기화합니다. PROXY1은 들어오는 인증 요청을 수신합니다. ADFS1은 DC1을 사용하여 자격 증명이 유효한지 검사하고 보안 토큰을 발급합니다.
     
-이 개발/테스트 환경의 5가지 주요 설정 단계는 다음과 같습니다.
+이 테스트 환경의 5가지 주요 설정 단계는 다음과 같습니다.
   
 1. 암호 해시 동기화로 시뮬레이션된 엔터프라이즈 테스트 환경을 만듭니다.
     

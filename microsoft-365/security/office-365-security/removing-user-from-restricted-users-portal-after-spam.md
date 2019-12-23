@@ -16,12 +16,12 @@ ms.assetid: 712cfcc1-31e8-4e51-8561-b64258a8f1e5
 ms.collection:
 - M365-security-compliance
 description: 사용자가 스팸으로 분류되는 Office 365에서 계속해서 전자 메일을 보내는 경우 더 이상 메시지를 보낼 수 없게 됩니다.
-ms.openlocfilehash: 7d900e154e60b49b3fcfe63552b6ad3288adfc82
-ms.sourcegitcommit: 2468bcb01625f97a322459814d81b9faad717859
+ms.openlocfilehash: c817add2581ffdbe709023dc3b348631defec169
+ms.sourcegitcommit: 6ae69c40bafa6aef633789c3df0fa20590bdcf40
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39871744"
+ms.lasthandoff: 12/20/2019
+ms.locfileid: "40823820"
 ---
 # <a name="removing-a-user-from-the-restricted-users-portal-after-sending-spam-email"></a>스팸 메일을 보낸 후 제한된 사용자 포털에서 사용자 제거
 
@@ -33,19 +33,19 @@ ms.locfileid: "39871744"
 <a name="sectionSection0"> </a>
 
 예상 완료 시간: 5분
-  
+
 이러한 절차를 수행하려면 먼저 사용 권한을 할당받아야 합니다. 필요한 권한을 확인하려면 [Exchange Online의 기능 사용 권한](https://docs.microsoft.com/exchange/permissions-exo/feature-permissions) 항목에서 스팸 방지 항목을 참조하세요.
 
-또한 원격 PowerShell을 통해 다음 절차를 수행할 수 있습니다. BlockedSenderAddress cmdlet을 사용하여 제한된 사용자 목록을 가져오고 Remove-BlockedSenderAddress을 사용하여 제한을 제거합니다. Windows PowerShell을 사용하여 Exchange Online에 연결하는 방법에 대한 자세한 내용은 [Connect to Exchange Online Using Remote PowerShell](https://go.microsoft.com/fwlink/p/?linkid=396554)을 참조하세요.
+또한 원격 PowerShell을 통해 다음 절차를 수행할 수 있습니다. BlockedSenderAddress cmdlet을 사용하여 제한된 사용자 목록을 가져오고 Remove-BlockedSenderAddress을 사용하여 제한을 제거합니다. Windows PowerShell을 사용하여 Exchange Online에 연결하는 방법에 대한 자세한 내용은 [Connect to Exchange Online Using Remote PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell)을 참조하세요.
 
 ## <a name="remove-restrictions-for-a-blocked-office-365-email-account"></a>차단된 Office 365 전자 메일 계정에 대한 제한 사항 제거
 
 SCC(보안 및 준수 센터)에서 이 작업을 완료합니다. SCC에 대한 자세한 내용은 [보안 및 준수 센터로 이동하세요.](../../compliance/go-to-the-securitycompliance-center.md) 이러한 기능을 수행하려면 **조직 관리** 또는 **보안 관리자** 역할 그룹에 있어야 합니다. SCC 역학 그룹에 대한 자세한 내용은 [보안 및 준수 센터의 사용 권한으로 이동하세요.](permissions-in-the-security-and-compliance-center.md)
 
 1. Office 365 전역 관리자 권한이 있는 회사 또는 학교 계정을 사용하여 Office 365 보안 및 규정 준수 센터에 로그인하고 왼쪽에 있는 목록에서 **위협 관리**를 확장하고 **검토**를 선택한 다음 **제한된 사용자**를 선택합니다.
-    
+
     > [!TIP]
-    > 보안 &amp; 준수 센터에서 **제한된 사용자** 페이지(이전의 관리 센터)로 바로 이동하려면 다음 URL을 사용합니다. > [https://protection.office.com/#/restrictedusers](https://protection.office.com/?hash=/restrictedusers)
+    > 보안 &amp; 규정 준수 센터에서 **제한된 사용자** 페이지(이전의 작업 센터)로 바로 이동하려면 다음 URL을 사용합니다. [https://protection.office.com/#/restrictedusers](https://protection.office.com/?hash=/restrictedusers)
 
 2. 이 페이지에는 전자 메일을 보내지 못하도록 차단된 사용자 목록이 포함됩니다.  제한을 제거할 사용자를 찾은 다음 **차단 해제**를 선택합니다.
 
@@ -56,7 +56,7 @@ SCC(보안 및 준수 센터)에서 이 작업을 완료합니다. SCC에 대한
 5. **예**를 클릭하여 변경 내용을 확인합니다.
 
     > [!NOTE]
-    > 제한이 제거되기까지 30분 정도 걸릴 수 있습니다. 
+    > 제한이 제거되기까지 30분 정도 걸릴 수 있습니다.
 
 ## <a name="making-sure-admins-are-alerted-when-this-happens"></a>이 경우에는 관리자에게 경고를 표시합니다.
 
@@ -79,7 +79,7 @@ SCC(보안 및 준수 센터)에서 이 작업을 완료합니다. SCC에 대한
 
 ## <a name="for-more-information"></a>자세한 내용
 
-[손상된 이메일 계정에 응답](../../compliance/responding-to-a-compromised-email-account.md)
+[손상된 이메일 계정에 응답](responding-to-a-compromised-email-account.md)
 
 [전자 메일 전송 제한 사용자 경고 이해](https://docs.microsoft.com/office365/securitycompliance/alert-policies)
 
