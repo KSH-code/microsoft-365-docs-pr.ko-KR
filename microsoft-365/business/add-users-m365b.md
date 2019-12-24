@@ -16,21 +16,31 @@ ms.custom:
 - MiniMaven
 - MSB365
 - OKR_SMB_M365
+- TRN_M365B
+- OKR_SMB_Videos
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 96153102-1db1-4df8-bca5-38cea80b65ce
 description: Microsoft 365 Business에서 새 사용자를 추가 하 고, 해당 장치를 보호 하 고, 역할을 할당 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 25f19873400dad1c57445a63dd354bbb5d1fce49
-ms.sourcegitcommit: 8193b7da5b1a415835d02ca96883c351df7326ed
+ms.openlocfilehash: f0498134d9f258f831cdbab10b7ee9c77b5d133d
+ms.sourcegitcommit: 178ecb21cacdeaf440f3df2fe6e539e9127fcf15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38322538"
+ms.lasthandoff: 12/23/2019
+ms.locfileid: "40850927"
 ---
 # <a name="add-more-users-to-microsoft-365-business"></a>Microsoft 365 Business에 더 많은 사용자 추가
 
 ## <a name="add-new-users"></a>새 사용자 추가
+
+사용자 추가에 대 한 간단한 비디오를 시청 하세요. <br><br>
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FOfN] 
+
+이 비디오를 통해 도움이 되는 경우에는 [소규모 기업을 위한 전체 교육 시리즈 및 Microsoft 365에 새로 소개 하](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)고 있습니다.
+
+사용자를 추가 하려면:
 
 1. <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> 의 관리 센터로 이동합니다. 
 2. 왼쪽 탐색 창에서 **사용자** \> **활성 사용자**를 선택 합니다.
