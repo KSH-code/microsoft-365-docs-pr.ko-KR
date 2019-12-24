@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: e2a789f2-9962-4960-9fd4-a00aa063559e
 description: '관리자: 사용자에 게 Exchange Online 사서함에 대 한 무제한 저장소를 제공 하는 Office 365에서 자동 확장 보관을 사용 하도록 설정 하는 방법을 알아봅니다. 전체 조직 또는 특정 사용자만 자동 확장 보관을 사용 하도록 설정할 수 있습니다.'
-ms.openlocfilehash: b5191aa080722b5bb3150c92d922b6b150fc545e
-ms.sourcegitcommit: 2c2248b03f7753d64490f2f7e56ec644a235b65a
+ms.openlocfilehash: 4059e007039a62e415fd0b5847d1d8fa120a1570
+ms.sourcegitcommit: 178ecb21cacdeaf440f3df2fe6e539e9127fcf15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38627094"
+ms.lasthandoff: 12/23/2019
+ms.locfileid: "40850892"
 ---
 # <a name="enable-unlimited-archiving-in-office-365--admin-help"></a>Office 365에서 무제한 보관을 사용 하도록 설정-관리자 도움말
 
@@ -124,4 +124,4 @@ Get-Mailbox <user mailbox> | FL AutoExpandingArchiveEnabled
 - 관리자가 저장소 할당량을 조정할 수 없습니다.
 
 > [!IMPORTANT]
-> 자동 확장 보관은 일별 크기가 1gb를 넘지 않는 개별 사용자 또는 공유 사서함에 사용 되는 사서함에 대해서만 지원 됩니다. 보관을 목적으로 저널링, 전송 규칙 또는 자동 전달 규칙을 사용 하 여 보관 사서함에 메시지를 복사할 수는 없습니다. 사용자의 보관 사서함은 해당 사용자만을 위한 것입니다. Microsoft는 사용자의 보관 사서함이 다른 사용자의 보관 데이터를 저장하는데 사용되는 경우 인스턴스의 무제한 보관을 거부할 권리를 가지고 있습니다.
+> 자동 확장 보관은 일별 크기가 1gb를 넘지 않는 개별 사용자 또는 공유 사서함에 사용 되는 사서함에 대해서만 지원 됩니다. 보관을 목적으로 저널링, 전송 규칙 또는 자동 전달 규칙을 사용 하 여 보관 사서함에 메시지를 복사할 수는 없습니다. 사용자의 보관 사서함은 해당 사용자만을 위한 것입니다. Microsoft는 사용자의 보관 사서함이 다른 사용자의 보관 데이터를 저장 하는 데 사용 되거나 부적절 하 게 사용 되는 경우를 제외 하 고 무제한 보관을 거부할 수 있는 권한을 보유 합니다.

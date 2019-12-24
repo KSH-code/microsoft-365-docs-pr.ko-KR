@@ -16,12 +16,12 @@ ms.assetid: e3c6df61-8513-499d-ad8e-8a91770bff63
 ms.collection:
 - m365-security-compliance
 description: Microsoft 365 준수 센터의 기능과 마찬가지로, 도움말 콘텐츠는 항상 발전 하 고 있습니다. Microsoft에서는 피드백에 따라 계속 새 문서를 만들고, 기존 기사를 업데이트 하 고, 변경 작업을 수행 하 고 있습니다. 이번 달의 새로운 기능과 업데이트 된 기능에 대해 알아보세요.
-ms.openlocfilehash: 497088cf5ad9da848879cf2c7197059917be6b07
-ms.sourcegitcommit: 543ac29a15412a348b61db2297e7bcdcca842206
+ms.openlocfilehash: 61e4798575c44a9759a15bb93dbbb723d5be8999
+ms.sourcegitcommit: 178ecb21cacdeaf440f3df2fe6e539e9127fcf15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38687042"
+ms.lasthandoff: 12/23/2019
+ms.locfileid: "40850882"
 ---
 # <a name="recent-updates-to-microsoft-365-compliance-content"></a>Microsoft 365 준수 콘텐츠에 대 한 최신 업데이트
 
@@ -148,17 +148,13 @@ Microsoft 365 준수 센터의 기능과 마찬가지로, 도움말 콘텐츠는
 [Office 365의 콘텐츠 검색](content-search.md#searching-for-content-in-a-sharepoint-multi-geo-environment) (업데이트 됨)<br>
 [Office 365에서 eDiscovery 조사에 대 한 준수 경계 설정](set-up-compliance-boundaries.md#searching-and-exporting-content-in-multi-geo-environments) (업데이트 됨)<br>SharePoint 다중 지리적 환경에서 콘텐츠를 검색 하는 방법에 대 한 세부 정보를 두 문서에 모두 추가 했습니다.
 
-### <a name="data-governance"></a>데이터 거버넌스
-
-[Office 365의 무제한 보관 개요](unlimited-archiving.md#how-auto-expanding-archiving-works) (업데이트 됨)<br>Office 365에서 총 1tb의 추가 저장소에 대해 최대 20 개의 보조 보관 파일을 추가 하는 방법에 대 한 세부 정보가 추가 되었습니다.
-
 ### <a name="data-investigations"></a>데이터 조사
 
 [원래 위치에서 항목 삭제 (미리 보기)](delete-items-from-original-locations.md) (새로 만들기)<br>이제 미리 보기에서 사용할 수 있으며, 증거 집합에서 항목을 선택한 다음 Exchange, SharePoint 및 OneDrive의 원래 위치에서이를 일시 삭제할 수 있습니다.
 
 [Data 유출 인시던트 관리 Microsoft 365](manage-data-spillage-incidents.md#step-4-delete-the-spilled-data) (업데이트 됨)<br>새 ' 원래 위치에서 항목 삭제 ' 기능을 사용 하 여 분산 된 데이터를 삭제 하는 방법에 대 한 세부 정보가 추가 되었습니다.
 
-### <a name="permissions"></a>권한
+### <a name="permissions"></a>사용 권한
 
 [Microsoft 365 준수 센터 및 microsoft 365 보안 센터의 사용 권한](../security/office-365-security/permissions-microsoft-365-compliance-security.md) (신규)<br>새 Azure Active Directory 역할 그룹이 공개 미리 보기로 릴리스 되었습니다.
 

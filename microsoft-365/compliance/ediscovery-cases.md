@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 8dd335ab-29d0-41c3-8dd8-9f7c7481e60c
 description: 보안 & 준수 센터를 사용 하 여 조직에서 eDiscovery 사례를 만들고 관리 합니다. 사례에 멤버를 할당 하 고, 콘텐츠 위치를 유지 하 고, 사례와 연결 된 콘텐츠 검색을 실행 하 고, 검색 결과를 내보낼 수 있습니다. 고급 eDiscovery에서 추가 분석을 위해 사례 데이터를 준비할 수도 있습니다.
-ms.openlocfilehash: cf880e6f54f2ab91bae23c3ecf468f88627f3025
-ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
+ms.openlocfilehash: efd5d20d72794ff6f71d2b1c6858bee615b14f3a
+ms.sourcegitcommit: 952d2d4e0efa77cfbb583971ef7056e664d409e3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38687226"
+ms.lasthandoff: 12/24/2019
+ms.locfileid: "40854063"
 ---
 # <a name="ediscovery-cases-in-the-security--compliance-center"></a>보안 & 준수 센터의 eDiscovery 사례
 
@@ -57,7 +57,10 @@ eDiscovery 사례를 사용하여 사례에 구성원을 추가하고, 특정 �
 
 첫 번째 단계는 사용자에 게 적절 한 eDiscovery 관련 사용 권한을 할당 하 여 2 단계에서 eDiscovery 사례에 추가할 수 있도록 하는 것입니다. EDiscovery 권한을 할당 하려면 보안 & 준수 센터에서 조직 관리 역할 그룹의 구성원 이거나 역할 관리 역할을 할당 받아야 합니다. 다음 목록에서는 보안 & 준수 센터의 eDiscovery 관련 역할 그룹에 대해 설명 합니다. 
   
-- **Reviewer.** 이 역할 그룹은 가장 제한적인 eDiscovery 관련 사용 권한을 갖습니다. 이 역할 그룹의 기본 목적은 구성원이 Office 365 Advanced eDiscovery에서 대/소문자 데이터를 보고 액세스 하도록 허용 하는 것입니다. 이 그룹의 구성원은 해당 사용자가 구성원 인 보안 & 준수 센터에서 **eDiscovery** 페이지의 사례 목록만 보고 열 수 있습니다. 사용자는 보안 및 준수 센터의 사례에 액세스 한 후 **Advanced ediscovery로 전환을** 클릭 하 여 advanced ediscovery에서 사례 데이터에 액세스 하 고 분석할 수 있습니다. 사례를 만들고, 사례에 구성원을 추가 하 고, 보류를 만들거나, 검색 결과를 미리 보거나, 검색 결과를 내보내거나, 고급 eDiscovery를 위한 준비 결과를 만들 수 없습니다. 
+- **Reviewer.** 이 역할 그룹은 가장 제한적인 eDiscovery 관련 사용 권한을 갖습니다. 이 역할 그룹의 기본 목적은 구성원이 [Office 365 Advanced ediscovery](office-365-advanced-ediscovery.md) ( *advanced ediscovery v1*이 라고도 함)에서 대/소문자 데이터를 보고 액세스 하도록 허용 하는 것입니다. 이 그룹의 구성원은 해당 사용자가 구성원 인 보안 & 준수 센터에서 **eDiscovery** 페이지의 사례 목록만 보고 열 수 있습니다. 사용자는 보안 및 준수 센터의 사례에 액세스 한 후 **Advanced ediscovery로 전환을** 클릭 하 여 advanced ediscovery에서 사례 데이터에 액세스 하 고 분석할 수 있습니다. 사례를 만들고, 사례에 구성원을 추가 하 고, 보류를 만들거나, 검색 결과를 미리 보거나, 검색 결과를 내보내거나, 고급 eDiscovery를 위한 준비 결과를 만들 수 없습니다. 
+
+   > [!NOTE]
+   > 현재 검토자 역할 그룹의 구성원 인 사용자는 Microsoft 365 ( *고급 ediscovery v2*라고도 함) [의 고급 eDiscovery](overview-ediscovery-20.md) 에서 데이터에 액세스할 수 없습니다. 고급 eDiscovery v2에서 사례 데이터를 검토할 수 있도록 서비스 케이스에 구성원을 추가 하려면 사용자가 eDiscovery 관리자 역할 그룹의 구성원 이어야 합니다.
     
 - **eDiscovery 관리자** 이 역할 그룹의 구성원은 eDiscovery 사례를 만들고 관리할 수 있습니다. 구성원을 추가 및 제거 하 고, 콘텐츠 위치를 보류 상태로 설정 하 고, 사례와 연결 된 콘텐츠 검색을 만들고 편집 하 고, 콘텐츠 검색 결과를 내보내고, 고급 eDiscovery에서 분석을 위한 검색 결과를 준비할 수 있습니다. 이 역할 그룹에는 두 개의 하위 그룹이 있습니다. 이러한 하위 그룹 간의 차이는 범위를 기준으로 합니다.
     
@@ -195,7 +198,7 @@ EDiscovery 사례에 대 한 보류를 만들려면
     > [!NOTE]
     > 드문 경우 이지만 사용자의 UPN (사용자 계정 이름)이 변경 되는 경우에는 해당 OneDrive 계정에 대 한 URL도 새 UPN을 통합 하도록 변경 됩니다. 이 경우에는 사용자의 새 OneDrive URL을 추가 하 고 이전 항목을 제거 하 여 보류를 수정 해야 합니다. 
   
-   &. **Exchange 공용 폴더** Exchange Online 조직의 모든 ![공용 폴더](media/963dfcd0-1765-4306-bcce-c3008c4406b9.png) 를 보류 상태로 설정 하려면 toggle Switch toggle control을 **all** 위치로 이동 합니다. 특정 공용 폴더를 선택 하 여 보류 상태로 설정할 수는 없습니다. 공용 폴더를 보존 하지 않으려면 toggle 스위치를 **"없음"** 으로 설정 된 상태로 둡니다.
+   c. **Exchange 공용 폴더** Exchange Online 조직의 모든 ![공용 폴더](media/963dfcd0-1765-4306-bcce-c3008c4406b9.png) 를 보류 상태로 설정 하려면 toggle Switch toggle control을 **all** 위치로 이동 합니다. 특정 공용 폴더를 선택 하 여 보류 상태로 설정할 수는 없습니다. 공용 폴더를 보존 하지 않으려면 toggle 스위치를 **"없음"** 으로 설정 된 상태로 둡니다.
     
 9. 보류에 콘텐츠 위치를 모두 추가한 후에 **다음**을 클릭 합니다.
     
@@ -445,11 +448,11 @@ Advanced eDiscovery에서 사례로 이동하려면
     
     ![Advanced eDiscovery로 전환을 선택 합니다.](media/d7e31558-e79c-4782-b841-2b735568a576.png)
   
-    **고급 eDiscovery 진행률 표시줄에 연결 하** 는 중입니다. 고급 eDiscovery에 연결 되 면 컨테이너 목록이 페이지에 표시 됩니다. 
+    **Advanced eDiscovery에 연결하는 중** 진행률 표시줄이 표시됩니다. 고급 eDiscovery에 연결 되 면 컨테이너 목록이 페이지에 표시 됩니다. 
     
     ![고급 eDiscorvery 진행률 표시줄](media/4a84273d-765b-44b8-9006-c20e810ea393.png)
   
-    이러한 컨테이너는 7 단계에서 고급 eDiscovery 분석을 위해 준비한 검색 결과를 나타냅니다. 컨테이너의 이름은 보안 & 준수 센터의 경우 콘텐츠 검색과 이름이 같습니다. 이 목록에는 사용자가 준비한 컨테이너 들이 나열 됩니다. 다른 사용자가 고급 eDiscovery를 위해 준비 된 검색 결과를 사용 하는 경우 해당 컨테이너가 목록에 포함 되지 않습니다.
+    이러한 컨테이너는 7 단계에서 고급 eDiscovery 분석을 위해 준비한 검색 결과를 나타냅니다. 컨테이너의 이름은 보안 & 준수 센터의 경우 콘텐츠 검색과 이름이 같습니다. 목록에서 컨테이너는 사용자가 준비한 컨테이너입니다. 다른 사용자가 Advanced eDiscovery에 사용하도록 검색 결과를 준비한 경우, 해당 컨테이너가 목록에 포함되지 않습니다.
     
 4. 컨테이너에서 고급 eDiscovery의 사례에 대 한 검색 결과 데이터를 로드 하려면 컨테이너를 선택 하 고 **프로세스**를 클릭 합니다.
     

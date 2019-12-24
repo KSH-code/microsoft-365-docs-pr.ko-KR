@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 5b9a067b-9d2e-4aa5-bb33-99d8c0d0b5d7
 description: 보안 & 준수 센터를 사용 하 여 eDiscovery 관련 작업을 수행 하는 데 필요한 사용 권한을 할당 합니다.
-ms.openlocfilehash: 54a12334c4b63e1751d578dcd5a9c79d887d246d
-ms.sourcegitcommit: 6ae69c40bafa6aef633789c3df0fa20590bdcf40
+ms.openlocfilehash: 434fe9f4876bb29df98de5575611069b0afc6860
+ms.sourcegitcommit: 952d2d4e0efa77cfbb583971ef7056e664d409e3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "40823730"
+ms.lasthandoff: 12/24/2019
+ms.locfileid: "40854043"
 ---
 # <a name="assign-ediscovery-permissions-in-the-security--compliance-center"></a>보안 & 준수 센터에서 eDiscovery 권한 할당
 
@@ -121,7 +121,10 @@ ms.locfileid: "40823730"
 
 ### <a name="review"></a>검토
 
-이 역할을 사용 하면 사용자가 Office 365 Advanced eDiscovery에서 사례 데이터에 액세스할 수 있습니다. 이 역할의 기본 목적은 사용자에 게 고급 eDiscovery에 대 한 액세스 권한을 부여 하는 것입니다. 이 역할이 할당 된 사용자는 보안 & 준수 센터의 eDiscovery 페이지에 있는 사례 목록을 보고 열 수 있습니다. 사용자가 보안 & 준수 센터의 사례에 액세스 한 후 advanced **ediscovery로 전환을** 선택 하 여 advanced ediscovery에서 사례 데이터에 액세스 하 고 분석할 수 있습니다. 이 역할을 사용 하면 사용자가 사례와 연결 된 콘텐츠 검색의 결과를 미리 보거나 기타 콘텐츠 검색 또는 사례 관리 작업을 수행할 수 없습니다.
+이 역할을 사용 하면 사용자가 [Office 365 Advanced ediscovery](office-365-advanced-ediscovery.md) 의 사례 데이터에 액세스할 수 있습니다 (고급 ediscovery v1 이기도). 이 역할의 기본 목적은 사용자에 게 Office 365 Advanced eDiscovery에 대 한 액세스 권한을 부여 하는 것입니다. 이 역할이 할당 된 사용자는 보안 & 준수 센터의 eDiscovery 페이지에 있는 사례 목록을 보고 열 수 있습니다. 사용자가 보안 & 준수 센터의 사례에 액세스 한 후 **Advanced ediscovery로 전환을** 선택 하 여 Office 365 advanced ediscovery에서 사례 데이터에 액세스 하 고 분석할 수 있습니다. 이 역할을 사용 하면 사용자가 사례와 연결 된 콘텐츠 검색의 결과를 미리 보거나 기타 콘텐츠 검색 또는 사례 관리 작업을 수행할 수 없습니다.
+
+> [!NOTE]
+> 현재 검토 역할을 할당 하거나 검토자 역할 그룹의 구성원 인 사용자는 Microsoft 365 (Advanced eDiscovery v2 라고도 함) [의 고급 eDiscovery](overview-ediscovery-20.md) 데이터에 액세스할 수 없습니다. 고급 eDiscovery v2에서 사례 데이터를 검토할 수 있도록 서비스 케이스에 구성원을 추가 하려면 사용자가 eDiscovery 관리자 역할 그룹의 구성원 이어야 합니다.
 
 ### <a name="rms-decrypt"></a>RMS 암호 해독
 
