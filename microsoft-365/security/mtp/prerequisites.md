@@ -1,7 +1,7 @@
 ---
 title: Microsoft 위협 방지 필수 구성 요소
 description: Microsoft 위협 방지의 라이선싱, 하드웨어 및 소프트웨어 요구 사항 및 기타 구성 설정에 대해 알아봅니다.
-keywords: 요구 사항, 필수 구성 요소, 하드웨어, 소프트웨어, 브라우저
+keywords: 요구 사항, 필수 구성 요소, 하드웨어, 소프트웨어, 브라우저, MTP, M365, 라이선스
 search.product: eADQiWindows 10XVcnh
 ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
@@ -17,12 +17,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 28ecc159023bb9c86739b78c8a3a34e6d401b8ed
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 2175ca328678e271056ae75d1bcbb7dc70a2198d
+ms.sourcegitcommit: 5b0a2e11c86c00e6e6b534f8b0a19962d1bb2805
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40806897"
+ms.lasthandoff: 12/27/2019
+ms.locfileid: "40881969"
 ---
 # <a name="microsoft-threat-protection-prerequisites"></a>Microsoft 위협 방지 필수 구성 요소
 
