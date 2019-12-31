@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: c4639c2e-7223-4302-8e0d-b6e10f1c3be3
 description: '보안 & 준수 센터의 콘텐츠 검색 도구를 사용 하 여 Exchange Online 사서함 및 SharePoint 또는 비즈니스용 OneDrive 사이트에서 검색할 수 있는 전자 메일 및 파일 속성에 대해 알아봅니다.  '
-ms.openlocfilehash: 5c5aafebf0dabfd43487c0c410088fe2a50aef35
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: d76f92de4b41c7f6f0494af36a7e1aee953b9896
+ms.sourcegitcommit: cbf934ef448fc428f5ed53b07cda7a5f72c89221
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40808503"
+ms.lasthandoff: 12/31/2019
+ms.locfileid: "40911476"
 ---
 # <a name="keyword-queries-and-search-conditions-for-content-search"></a>콘텐츠 검색에 대한 키워드 쿼리 및 검색 조건
 
@@ -52,7 +52,7 @@ ms.locfileid: "40808503"
 |:-----|:-----|:-----|:-----|
 |AttachmentNames|전자 메일 메시지에 첨부되는 파일의 이름입니다.|`attachmentnames:annualreport.ppt`  <br/> `attachmentnames:annual*` <br/> attachmentnames: .pptx|annualreport.ppt라는 파일이 첨부된 메시지입니다. 두 번째 예제에서는 와일드카드를 사용하여 첨부 파일의 파일 이름에 "annual"이라는 단어가 있는 메시지를 반환합니다. 세 번째 예에서는 .pptx 파일 확장명이 포함 된 모든 첨부 파일을 반환 합니다.|
 |대상|전자 메일 메시지의 숨은 참조 필드입니다. <sup>1</sup>|`bcc:pilarp@contoso.com`  <br/> `bcc:pilarp`  <br/> `bcc:"Pilar Pinilla"`|모든 예제는 숨은 참조 필드에 Pilar Pinilla가 포함된 메시지를 반환합니다.|
-|범주| 검색할 범주입니다. 범주는 Outlook 또는 웹용 Outlook (이전의 Outlook Web App)을 사용 하 여 사용자가 정의할 수 있습니다. 가능한 값은 다음과 같습니다.  <br/><br/>  색상  <br/>  친환경  <br/>  /  <br/>  자주색  <br/>  빨강  <br/>  노랑|`category:"Red Category"`|원본 사서함에서 red 범주가 지정된 메시지입니다. |
+|Category| 검색할 범주입니다. 범주는 Outlook 또는 웹용 Outlook (이전의 Outlook Web App)을 사용 하 여 사용자가 정의할 수 있습니다. 가능한 값은 다음과 같습니다.  <br/><br/>  색상  <br/>  친환경  <br/>  /  <br/>  자주색  <br/>  빨강  <br/>  노랑|`category:"Red Category"`|원본 사서함에서 red 범주가 지정된 메시지입니다. |
 |참조란|전자 메일 메시지의 참조 필드입니다. <sup>1</sup>|`cc:pilarp@contoso.com`  <br/> `cc:"Pilar Pinilla"`|두 예제에서 모두 참조 필드에 Pilar Pinilla가 지정 된 메시지입니다.|
 |Folderid|특정 사서함 폴더의 폴더 ID (GUID)입니다. 이 속성을 사용 하는 경우에는 지정 된 폴더가 있는 사서함을 검색 해야 합니다. 지정한 폴더만 검색 됩니다. 폴더에 있는 모든 하위 폴더는 검색 되지 않습니다. 하위 폴더를 검색 하려면 Folderid 속성을 사용 하 여 검색을 수행 해야 합니다.  <br/> Folderid 속성을 검색 하 고 스크립트를 사용 하 여 특정 사서함의 폴더 Id를 가져오는 방법에 대 한 자세한 내용은 using [Content Search In Office 365 in the 대상 모음](use-content-search-for-targeted-collections.md)을 참조 하십시오.|`folderid:4D6DD7F943C29041A65787E30F02AD1F00000000013A0000`  <br/> `folderid:2370FB455F82FC44BE31397F47B632A70000000001160000 AND participants:garthf@contoso.com`|첫 번째 예에서는 지정 된 사서함 폴더의 모든 항목을 반환 합니다. 두 번째 예에서는 garthf@contoso.com에서 보내거나 받은 지정 된 사서함 폴더의 모든 항목을 반환 합니다.|
 |From|전자 메일 메시지의 보낸 사람입니다. <sup>1</sup>|`from:pilarp@contoso.com`  <br/> `from:contoso.com`|지정된 사용자가 보냈거나 지정된 도메인에서 보낸 메시지입니다.|
@@ -150,7 +150,7 @@ ms.locfileid: "40808503"
 |아닌|keyword1 NOT keyword2  <br/> NOT from:"Ann Beebe"  <br/> 종류 아님: im|키워드나 `property:value` 식으로 지정한 항목을 제외 합니다. 두 번째 예에서는 Ann Beebe에서 보낸 메시지를 제외 합니다. 세 번째 예에서는 대화 내용 사서함 폴더에 저장 된 비즈니스용 Skype 대화와 같은 인스턴트 메시징 대화를 제외 합니다. <sup>2</sup>|
 |-|keyword1 -keyword2|**NOT** 연산자와 같습니다. 따라서이 쿼리는를 포함 하 `keyword1` 는 항목을 반환 하며 해당 `keyword2`항목이 포함 된 항목을 제외 합니다.|
 |위치|keyword1 NEAR(n) keyword2|서로 인접 한 단어를 포함 하는 항목을 반환 합니다 (여기에서 n은 단어의 개수와 같습니다. 예를 들어 `best NEAR(5) worst` "최악" 라는 단어가 단어 5 개에서 "최상" 사이에 있는 항목을 모두 반환 합니다. 숫자를 지정하지 않으면 기본 거리는 8단어입니다. <sup>2</sup>|
-|ONEAR|keyword1 ONEAR(n) keyword2|**Near**과 유사 하지만 지정 된 순서로 서로 근접 한 단어를 포함 하는 항목을 반환 합니다. 예를 들어 `best ONEAR(5) worst` "최상" 이라는 단어가 "최악의" 단어 보다 앞에 있고 두 단어는 서로 다섯 단어 내에 있는 항목을 모두 반환 합니다. 숫자를 지정하지 않으면 기본 거리는 8단어입니다. <sup>2</sup> <br/> > [!NOTE]>에서는 사서함을 검색할 때 **Onear** 연산자를 지원 하지 않습니다. SharePoint 및 비즈니스용 OneDrive 사이트를 검색 하는 경우에만 작동 합니다. 같은 검색에서 사서함 및 사이트를 검색 하는 경우 쿼리에 **Onear** 연산자가 포함 된 경우에는 **NEAR** 연산자를 사용 하는 것 처럼 검색에서 사서함 항목을 반환 합니다. 즉, 검색 기능은 단어가 나타나는 순서에 관계 없이 지정 된 단어가 서로 가까이 있는 항목을 반환 합니다.|
+|ONEAR|keyword1 ONEAR(n) keyword2|**Near**과 유사 하지만 지정 된 순서로 서로 근접 한 단어를 포함 하는 항목을 반환 합니다. 예를 들어 `best ONEAR(5) worst` "최상" 이라는 단어가 "최악의" 단어 보다 앞에 있고 두 단어는 서로 다섯 단어 내에 있는 항목을 모두 반환 합니다. 숫자를 지정하지 않으면 기본 거리는 8단어입니다. <sup>2</sup> <br/> **참고:** **Onear** 연산자는 사서함을 검색할 때 지원 되지 않습니다. SharePoint 및 비즈니스용 OneDrive 사이트를 검색 하는 경우에만 작동 합니다. 같은 검색에서 사서함 및 사이트를 검색 하는 경우 쿼리에 **Onear** 연산자가 포함 된 경우에는 **NEAR** 연산자를 사용 하는 것 처럼 검색에서 사서함 항목을 반환 합니다. 즉, 검색 기능은 단어가 나타나는 순서에 관계 없이 지정 된 단어가 서로 가까이 있는 항목을 반환 합니다.|
 |:|속성: 값|콜론 (:) `property:value` 구문에서 검색 되는 속성의 값에 지정 된 값이 포함 되도록 지정 합니다. 예를 들어 `recipients:garthf@contoso.com` garthf@contoso.com로 전송 된 모든 메시지를 반환 합니다.|
 |=|속성 = 값|**:** 연산자와 같습니다.|
 |\<|속성\<값|검색 중인 속성이 지정된 값보다 작음을 나타냅니다.  <sup>1</sup>|
