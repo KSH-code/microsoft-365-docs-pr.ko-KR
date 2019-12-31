@@ -2,7 +2,7 @@
 title: BDMs (비즈니스 의사 결정권자 용 Microsoft 365 Security)
 ms.author: bcarter
 author: brendacarter
-manager: ''
+manager: johmar
 audience: Admin
 ms.topic: tutorial
 ms.service: o365-seccomp
@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: 현재 조직이 Microsoft 365 환경에 직면 하 게 되는 가장 일반적인 위협과 공격 시나리오로, 이러한 위험을 완화 하기 위한 권장 작업을 소개 합니다.
-ms.openlocfilehash: 3d2c7fc289930e3cc73deddcd43f25efc321a237
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 9ad9d05cf29dba5aa3a7d14063db6fa2b4dd3bc4
+ms.sourcegitcommit: a1bfa92c637ce8af40d2b6edf36f702eb40eb692
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40801253"
+ms.lasthandoff: 12/30/2019
+ms.locfileid: "40910139"
 ---
 # <a name="microsoft-365-security-for-business-decision-makers-bdms"></a>BDMs (비즈니스 의사 결정권자 용 Microsoft 365 Security)
 
@@ -134,7 +134,7 @@ Microsoft 365 information protection 기능은 보유 한 정보, 저장 위치 
 |**Office 365 ATP** 도구 사용:<br>• 위협 조사 및 응답 기능<br> • 자동화 된 조사 및 응답 |         |![녹색 확인 표시](../images/green-check-mark.png)|
 |**Microsoft DEFENDER ATP**사용:<br> • [끝점 검색 및 응답](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/overview-endpoint-detection-response) <br> • 자동화 된 조사 및 개선 보안 점수 <br>• [고급 구하기](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting-overview) <br>|         |![녹색 확인 표시](../images/green-check-mark.png)|
 |**Microsoft Cloud App Security** 를 사용 하 여 클라우드 앱 간의 비정상적인 동작을 검색 하 여 랜 섬 웨어, 손상 된 사용자 또는 rogue 응용 프로그램을 식별 하 고, 높은 위험 사용을 분석 하 고, 자동으로 조직에 대 한 위험을 제한 합니다.|         |![녹색 확인 표시](../images/green-check-mark.png)|
-|**Microsoft Azure 센티널** 또는 **현재 siem** 도구를 사용 하 여 환경 전반의 위협을 모니터링 합니다. Azure 센티널은 미리 보기 기간 동안 자유롭게 사용할 수 있습니다. |         |![녹색 확인 표시](../images/green-check-mark.png)|
+|**Microsoft Azure 센티널** 또는 현재 siem 도구를 사용 하 여 환경 전반의 위협을 모니터링 합니다. |         |![녹색 확인 표시](../images/green-check-mark.png)|
 |** [Azure ATP](https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp) 를 배포** 하 여 온-프레미스 Active Directory 환경을 대상으로 하는 위협 으로부터 모니터링 하 고 보호 합니다.   |         |![녹색 확인 표시](../images/green-check-mark.png) |
 |**Azure 보안 센터** 를 사용 하 여 하이브리드 및 클라우드 워크 로드 간의 위협을 모니터링 합니다. Azure 보안 센터에는 리소스 시간이 나 거래에 따라 지불 되는 기능에 대 한 무료 계층 및 표준 계층이 포함 되어 있습니다.|         |         |
 

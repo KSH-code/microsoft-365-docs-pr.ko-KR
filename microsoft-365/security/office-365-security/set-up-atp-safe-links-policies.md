@@ -5,7 +5,7 @@ author: msfttracyp
 manager: dansimp
 audience: Admin
 ms.topic: article
-ms.date: 06/26/2019
+ms.date: 12/30/2019
 ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
@@ -15,12 +15,12 @@ ms.assetid: bdd5372d-775e-4442-9c1b-609627b94b5d
 ms.collection:
 - M365-security-compliance
 description: 안전한 링크 정책을 설정 하 여 Word, Excel, PowerPoint, Visio 파일 및 전자 메일 메시지의 악의적인 링크 로부터 조직을 보호 합니다.
-ms.openlocfilehash: 29e0c8d485d89498fe952d29d8b68f808c4aaaf3
-ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
+ms.openlocfilehash: 3055a5330707b3654998fbdc937ead239742cb32
+ms.sourcegitcommit: a1bfa92c637ce8af40d2b6edf36f702eb40eb692
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "39970134"
+ms.lasthandoff: 12/30/2019
+ms.locfileid: "40910159"
 ---
 # <a name="set-up-office-365-atp-safe-links-policies"></a>Office 365 ATP 안전한 링크 정책 설정
 
@@ -122,8 +122,8 @@ ATP 안전한 링크 정책을 설정 하거나 편집할 때 몇 가지 옵션�
 |이 옵션  |기능  |
 |---------|---------|
 | **다음 Url 차단** <br/>    | 조직에서 자동으로 차단 되는 Url의 사용자 지정 목록을 사용할 수 있도록 합니다. 사용자가이 목록에서 URL을 클릭 하면 URL이 차단 되는 이유를 설명 하는 [경고 페이지가](atp-safe-links-warning-pages.md) 표시 됩니다. 자세한 내용은 [Office 365 ATP 안전한 링크를 사용 하 여 사용자 지정 차단 된 url 목록 설정](set-up-a-custom-blocked-urls-list-wtih-atp.md)를 참조 하세요. |
-| **Office 365 ProPlus, iOS 및 Android 용 Office** <br/>    | 이 옵션을 선택 하면 ATP Safe Links 보호는 Word, Excel 및 PowerPoint 파일의 Windows 또는 Mac OS, iOS 또는 Android 장치의 Office 문서, Windows의 Visio 2016, 웹 버전의 Office 앱 (Word, PowerPoint, Excel 및 OneNote)-사용자가 Office 365에 로그인 했습니다. |
-| **사용자가 ATP 안전한 링크 클릭 시기 추적 안 함** <br/>  | 이 옵션을 선택 하면 Word, Excel, PowerPoint 및 Visio 문서의 Url에 대 한 데이터를 클릭 해도 저장 되지 않습니다.  <br/> |
+| **Office 365 ProPlus, iOS 및 Android 용 Office** <br/>    | 이 옵션을 선택 하면 ATP Safe Links 보호는 Word, Excel 및 PowerPoint 파일의 Windows 또는 Mac OS, Outlook의 전자 메일 메시지, iOS 또는 Android 장치의 Office 문서, Windows의 Visio 2016 파일 및 웹 버전에서 열린 파일의 Url에 적용 됩니다. 사용자가 Office 365에 로그인 한 경우 office 앱 (Word, PowerPoint, Excel, Outlook 및 OneNote) |
+| **사용자가 ATP 안전한 링크 클릭 시기 추적 안 함** <br/>  | 이 옵션을 선택 하면 Word, Excel, PowerPoint, Visio 문서 및 Outlook 전자 메일 메시지의 Url에 대 한 데이터가 저장 되지 않습니다.  <br/> |
 |**사용자가 ATP 안전한 링크를 원본 URL로 클릭할 수 없도록 합니다.** <br/> |이 옵션을 선택 하면 사용자가 [경고 페이지](atp-safe-links-warning-pages.md) 를 지 나 악의적인 것으로 확인 된 URL로 계속할 수 없습니다.  <br/> |
 
 ### <a name="policies-that-apply-to-specific-email-recipients"></a>특정 전자 메일 받는 사람에 게 적용 되는 정책
