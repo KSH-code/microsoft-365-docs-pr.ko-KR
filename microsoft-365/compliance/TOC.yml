@@ -120,7 +120,7 @@
           href: custom-sensitive-info-types.md
         - name: 정확한 데이터 일치를 기반으로 하는 사용자 지정 중요 한 정보 유형 만들기 분류
           href: create-custom-sensitive-information-types-with-exact-data-match-based-classification.md
-        - name: 보안 & 준수 센터에서 사용자 지정 중요 한 정보 유형 만들기
+        - name: 보안 및 준수 센터에서 사용자 지정 중요한 정보 유형 만들기
           href: create-a-custom-sensitive-information-type.md
         - name: PowerShell을 사용한 사용자 지정 중요한 정보 유형 만들기
           href: create-a-custom-sensitive-information-type-in-scc-powershell.md
@@ -1097,6 +1097,7 @@
             - name: G-Cloud (영국)
               href: offering-g-cloud-uk.md
             - name: IDW PS 951(독일)
+              href: 'https://www.idw.de/the-idw/about-the-idw'
             - name: IT Grundschutz 통합 문서 (독일)
               href: offering-it-grundschutz-workbook-germany.md
             - name: LOPD (스페인)
