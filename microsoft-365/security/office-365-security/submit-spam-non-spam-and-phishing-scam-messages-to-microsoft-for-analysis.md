@@ -3,7 +3,7 @@ title: 분석을 위해 Microsoft에 스팸 메시지, 스팸이 아닌 메시�
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
-ms.date: 04/19/2019
+ms.date: ''
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -14,12 +14,12 @@ ms.assetid: dad30e2f-93fe-4d21-9a36-21c87ced85c1
 ms.collection:
 - M365-security-compliance
 description: '귀하와 사용자는 분석을 위해 Microsoft에 허위 네거티브 및 가양성 스팸 메시지를 제출할 수 있습니다. '
-ms.openlocfilehash: fb939c4166bc6c732f831dc767bffe1cfd7a2f7c
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 316945ae026649b16ecfced62baef2ddc41db444
+ms.sourcegitcommit: 82baed362528fed30e9e09c6a4a37c07be2f138d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37089243"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40959646"
 ---
 # <a name="submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis"></a>분석을 위해 Microsoft에 스팸 메시지, 스팸이 아닌 메시지 및 피싱 스캠 메시지 제출
 
@@ -58,8 +58,8 @@ ms.locfileid: "37089243"
     
 3. 정크 또는 피싱 사기 메시지를 복사 하 여 새 메시지에 첨부 파일로 붙여 넣습니다. 
     
-    > [!NOTE]
-    > 여러 메시지를 새 메시지에 첨부할 수 있습니다. 모든 메시지의 종류 (예, 피싱 사기 메시지 또는 정크 메일 메시지)가 동일한 지 확인 합니다. > 새 메시지의 본문은 비워 둡니다. 
+   > [!NOTE]
+   > • 새 메시지에 여러 메시지를 첨부할 수 있습니다. 모든 메시지의 유형 (피싱 사기 메시지 또는 정크 메일 메시지)이 동일한 지 확인 합니다. <br/><br/>• 새 메시지의 본문은 비워 둡니다. <br/><br/>• .Msg (기본 Outlook 형식) 또는 .eml (웹 형식의 기본 Outlook)를 사용 하 여 첨부 된 메시지에 대 한 서식을 적용 합니다.
   
 4. **보내기**를 클릭합니다.
     
@@ -72,7 +72,7 @@ ms.locfileid: "37089243"
   
 다음과 같은 방법으로 스팸이 아닌 메시지를 전송할 수 있습니다.
   
-- 콘텐츠 필터를 구성할 때 **정크 메일 폴더로 메시지 이동** 작업을 사용 하는 경우 (이것이 기본 작업) 사용자는 outlook 또는 웹용 outlook (이전의 Outlook web App) 정크 메일 폴더에서 허위 긍정 메시지를 릴리스할 수 있습니다. . 
+- 콘텐츠 필터를 구성할 때 **정크 메일 폴더로 메시지 이동** 작업을 사용 하는 경우 (이것이 기본 작업) 사용자는 outlook 또는 웹용 outlook (이전의 Outlook web App) 정크 메일 폴더에서 가양성 메시지를 릴리스할 수 있습니다. 
     
   - Outlook 사용자는 **정크 메일 아님** 마우스 오른쪽 단추 클릭 메뉴 옵션을 사용 하 여 가양성 메시지를 릴리스할 수 있습니다. 그러나이 문서의 절차에 나와 있는 것 처럼 전자 메일을 통해 Microsoft에 메시지를 제출 해야 합니다. 
     
