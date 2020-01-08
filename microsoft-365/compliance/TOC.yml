@@ -58,7 +58,7 @@
         - name: 정보 장벽 문제 해결
           href: information-barriers-troubleshooting.md
         - name: 정보 장벽 정책 편집
-          href: information-barriers-edit-segments-policies.md.md
+          href: information-barriers-edit-segments-policies.md
 - name: 정보 보호 관리
   href: protect-information.md
   items:
