@@ -10,12 +10,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 4bfaf2ab-e633-4227-8bde-effefb41a3db
 description: 메일 사용자 정의는 EOP(Exchange Online Protection) 서비스 관리의 중요한 부분입니다.
-ms.openlocfilehash: 2871ec73a06a092aa5cfdab0d9648d8cc5311460
-ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
+ms.openlocfilehash: 9322198be4e180988e1651c2ccdcaef2b0ac52a9
+ms.sourcegitcommit: 8ac1b6586678035050fc422e6fb503fa478be397
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "39971746"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40962327"
 ---
 # <a name="manage-mail-users-in-eop"></a>EOP에서 메일 사용자 관리
 
@@ -174,7 +174,7 @@ Get-Recipient -ResultSize unlimited -Filter {(RecipientTypeDetails -eq 'mailuser
 
 ### <a name="use-eop-powershell-to-remove-a-mail-user"></a>EOP PowerShell을 사용 하 여 메일 사용자 제거
 
-이 예제에서는 [Remove-EOPMailUser](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/get-recipient/remove-eopmailuser) cmdlet을 사용하여 사용자 Jeffrey Zeng을 삭제합니다.
+이 예제에서는 [Remove-EOPMailUser](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/remove-eopmailuser) cmdlet을 사용하여 사용자 Jeffrey Zeng을 삭제합니다.
 
 ```PowerShell
 Remove-EOPMailUser -Identity Jeffrey

@@ -14,12 +14,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Exchange Online에서 오류 코드 5.7.7 xx의 전자 메일 문제를 해결 하는 방법에 대해 알아봅니다 (테 넌 트 차단 됨).
-ms.openlocfilehash: 69ee2b7d707ae88cca7aa5d4a5f39e8458f6925f
-ms.sourcegitcommit: 82baed362528fed30e9e09c6a4a37c07be2f138d
+ms.openlocfilehash: cbfff7fc0905206a0302f7e1a458718637d934b7
+ms.sourcegitcommit: 8ac1b6586678035050fc422e6fb503fa478be397
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 01/07/2020
-ms.locfileid: "40959656"
+ms.locfileid: "40962307"
 ---
 # <a name="fix-email-delivery-issues-for-error-code-577xx-in-exchange-online"></a>Exchange Online에서 오류 코드 5.7.7 xx에 해당 하는 전자 메일 배달 문제 수정
 
@@ -53,7 +53,7 @@ Office 365을 사용 하면 테 넌 트에서 Exchange Online Protection (EOP)�
 
 테 넌 트가 전자 메일을 보내지 못하도록 차단 된 경우에는 몇 가지 작업을 수행 해야 합니다.
 
-1. 모든 전자 메일 도메인이 등록 되어 있는지 확인 합니다. 자세한 내용은 Exchange Online에서 [Office 365에 도메인 추가](https://docs.microsoft.com/en-us/office365/admin/setup/add-domain) 및 [허용 도메인 관리](https://docs.microsoft.com/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains)를 참조 하세요.
+1. 모든 전자 메일 도메인이 등록 되어 있는지 확인 합니다. 자세한 내용은 Exchange Online에서 [Office 365에 도메인 추가](https://docs.microsoft.com/office365/admin/setup/add-domain) 및 [허용 도메인 관리](https://docs.microsoft.com/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains)를 참조 하세요.
 
 2. 비정상적인 [커넥터](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow)를 찾습니다. 악의적인 행위자는 종종 Office 365 조직에서 새 인바운드 커넥터를 만들어 스팸을 보냅니다. 기존 커넥터를 보려면 [Office 365에서 커넥터 유효성 검사](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/validate-connectors)를 참조 하세요.
 
@@ -72,7 +72,7 @@ Office 365을 사용 하면 테 넌 트에서 Exchange Online Protection (EOP)�
 
 [Office 365의 전자 메일 스팸 방지 및 보호](anti-spam-protection.md)
 
-[Exchange Online 서비스 설명의 보내는 제한 섹션에 있는 대량 메일 지침](https://docs.microsoft.com/en-us/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#receiving-and-sending-limits)
+[Exchange Online 서비스 설명의 보내는 제한 섹션에 있는 대량 메일 지침](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#receiving-and-sending-limits)
 
 [Office 365의 전자 메일 배달 못 함 보고서(NDR)](https://docs.microsoft.com/exchange/mail-flow-best-practices/non-delivery-reports-in-exchange-online/non-delivery-reports-in-exchange-online)
 
