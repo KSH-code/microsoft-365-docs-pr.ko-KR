@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 - MOE150
 titleSuffix: Office 365 Compliance
-ms.openlocfilehash: 1ae0b469e2edd6970f3384f2777bb9bdc5cad2a6
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: bd9d86a5a5d96e8f7978f5c2482eb127b0379a09
+ms.sourcegitcommit: 82baed362528fed30e9e09c6a4a37c07be2f138d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40802671"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40959527"
 ---
 # <a name="supervision-policies-in-office-365"></a>Office 365에서의 감독 정책
 
@@ -68,8 +68,8 @@ Microsoft 365에서 새 통신 준수 환경을 사용해 원하십니까? [Micr
 
 감독 사용을 시작 하기 전에 의사 소통을 검토 해야 하는 사람을 결정 해야 합니다. 정책에서 사용자 전자 메일 주소는 감독할에 해당 하는 개인 또는 사용자 그룹을 식별 합니다. 이러한 그룹의 몇 가지 예로는 Office 365 그룹, Exchange 기반 메일 그룹 및 Microsoft 팀 채널이 있습니다. 또한 감독 된 그룹이 나 그룹 목록을 사용 하 여 특정 사용자 또는 그룹을 감독 으로부터 제외할 수 있습니다.
 
-> [!IMPORTANT]
-> 감독 정책에 따라 모니터링 되는 사용자에 게는 Microsoft 365 E5 규정 준수 라이선스, 고급 준수 추가 기능이 포함 된 Office 365 Enterprise E3 라이선스 또는 Office 365 Enterprise E5 구독에 포함 되어 있어야 합니다. 기존 Enterprise E5 요금제가 없고, 감독을 려 고 하는 경우 [Office 365 Enterprise e 5의 평가판에 등록할](https://go.microsoft.com/fwlink/p/?LinkID=698279)수 있습니다.
+>[!IMPORTANT]
+>감독 정책에 따라 모니터링 되는 사용자에 게는 Microsoft 365 E5 규정 준수 라이선스, 고급 준수 추가 기능이 포함 된 Office 365 Enterprise E3 라이선스 또는 Office 365 Enterprise E5 구독에 포함 되어 있어야 합니다. 기존 Enterprise E5 요금제가 없고, 감독을 려 고 하는 경우 [Office 365 Enterprise e 5의 평가판에 등록할](https://go.microsoft.com/fwlink/p/?LinkID=698279)수 있습니다.
 
 ### <a name="reviewers"></a>가
 
@@ -129,11 +129,11 @@ Microsoft 365에서 새 통신 준수 환경을 사용해 원하십니까? [Micr
 
 비속어를 위해 조직의 전자 메일 메시지를 보내거나 받게 됩니다. 모델에서는 기계 학습, 인공 지능 및 키워드를 함께 사용 하 여 harassment 및 고 지가 지정 된 정책을 위반할 가능성이 있는 전자 메일 메시지의 언어를 식별 합니다. 공격적인 언어 모델은 현재 영어 키워드를 지원 하 고 전자 메일 메시지의 본문을 모니터링 합니다.
 
-> [!NOTE]
-> 다음 작업을 수행 해야 하는 경우 차단 된 용어의 [사용자 지정 키워드 사전을](create-a-keyword-dictionary.md) 사용 하 여 [데이터 손실 방지 정책을](create-test-tune-dlp-policy.md) 만듭니다.
+>[!NOTE]
+>다음 작업을 수행 해야 하는 경우 차단 된 용어의 [사용자 지정 키워드 사전을](create-a-keyword-dictionary.md) 사용 하 여 [데이터 손실 방지 정책을](create-test-tune-dlp-policy.md) 만듭니다.
 >
-> - 공격적인 언어를 위해 조직의 Microsoft 팀 통신 모니터링
-> - 조직의 통신에서 원하지 않는 언어 방지 또는 차단
+>- 공격적인 언어를 위해 조직의 Microsoft 팀 통신 모니터링
+>- 조직의 통신에서 원하지 않는 언어 방지 또는 차단
 
 모델은 공격적인 언어를 빠짐없이 제공 하지 않습니다. 추가적으로, 언어 및 문화 표준이 지속적으로 변경 되 고 이러한 현실에 따라 Microsoft는 모델 업데이트 권한을 판단 합니다. 이 모델은 조직이 공격적인 언어를 모니터링 하는 데 도움이 될 수 있지만,이 모델은 조직의 해당 언어를 모니터링 하거나 주소를 지정 하는 유일한 수단을 제공 하기 위한 것이 아닙니다. Microsoft가 아닌 조직은 원하지 않는 언어 모니터링 및 차단과 관련 된 모든 의사 결정을 담당 합니다.
 
@@ -235,8 +235,8 @@ Microsoft 365에서 새 통신 준수 환경을 사용해 원하십니까? [Micr
 2. **보고서** \> **대시보드** 또는 **감독** 에 게 이동 하 여 현재 감독 정책 활동을 요약 한 감독 보고 위젯을 확인 합니다.
 3. **감독** 위젯을 선택 하 여 자세한 보고서 페이지를 엽니다.
 
-> [!NOTE]
-> **보고서** 페이지에 액세스할 수 없는 경우 [조직에서 사용 가능한 감독 만들기](configure-supervision-policies.md)에 설명 된 대로 관리 검토 역할 그룹의 구성원 인지 확인 합니다. 이 역할 그룹에 포함을 사용 하면 감독 정책을 만들고 관리 하 고 보고서를 실행할 수 있습니다.
+>[!NOTE]
+>**보고서** 페이지에 액세스할 수 없는 경우 [조직에서 사용 가능한 감독 만들기](configure-supervision-policies.md)에 설명 된 대로 관리 검토 역할 그룹의 구성원 인지 확인 합니다. 이 역할 그룹에 포함을 사용 하면 감독 정책을 만들고 관리 하 고 보고서를 실행할 수 있습니다.
   
 ### <a name="how-to-use-the-report"></a>보고서를 사용 하는 방법
 
@@ -260,8 +260,8 @@ Microsoft 365에서 새 통신 준수 환경을 사용해 원하십니까? [Micr
 | **Purview에서** | 감독 정책으로 검색 된 Exchange, 팀 및 타사 데이터 원본에서 보낸 총 메시지 수 (일별) |
 | **주소로** | **해결** 된 것으로 분류 된 Exchange, 팀 및 타사 데이터 원본의 총 메시지 수입니다.|
 
-> [!NOTE]
-> 감독 정책을 먼저 프로 비전 해야 보고서에 표시 됩니다. 정책이 삭제 된 경우에도 기록 데이터는 표시 됩니다. 그러나 "존재 하지 않는 정책"으로 표시 되며 **내보내기** 기능을 사용할 수 없습니다.
+>[!NOTE]
+>감독 정책을 먼저 프로 비전 해야 보고서에 표시 됩니다. 정책이 삭제 된 경우에도 기록 데이터는 표시 됩니다. 그러나 "존재 하지 않는 정책"으로 표시 되며 **내보내기** 기능을 사용할 수 없습니다.
 
 ## <a name="audit"></a>감사
 
@@ -288,4 +288,3 @@ Search-UnifiedAuditLog -StartDate 3/1/2019 -EndDate ([System.DateTime]::Now) -Re
 ## <a name="ready-to-get-started"></a>시작할 준비가 되셨습니까?
 
 조직에 대 한 감독 정책을 구성 하려면 [감독 정책 구성을](configure-supervision-policies.md)참조 하세요.
-

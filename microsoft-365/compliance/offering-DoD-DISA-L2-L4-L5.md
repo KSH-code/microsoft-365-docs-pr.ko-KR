@@ -12,12 +12,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 2fa27680dcc9e0ee7fb495164683a291cc167d59
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: e6a41cb2c55e1711048c863cd6f2f7e26e9ee5bc
+ms.sourcegitcommit: 82baed362528fed30e9e09c6a4a37c07be2f138d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40805231"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40959557"
 ---
 # <a name="us-department-of-defense-dod-provisional-authorization-at-impact-levels-2-4-and-5"></a>보안 수준 2, 4 및 5에서 DoD (US) Provisional 권한 부여
 
@@ -100,7 +100,7 @@ DoD PA가 부여 되 면 Microsoft 클라우드 서비스를 매년 모니터링
 ## <a name="resources"></a>리소스
 
 - [SRG (보안 요구 사항 가이드) 및 기타 문서](https://public.cyber.mil/dccs/dccs-documents/)
-- [DISA 클라우드 서비스 지원](http://www.disa.mil/Computing/Cloud-Services/Cloud-Support)
+- [DISA 클라우드 서비스 지원](https://storefront.disa.mil/kinetic/disa/service-catalog#/forms/cloud-service-support)
 - [비 연방 정보 시스템 및 조직에서 제어 되지 않는 분류 정보 보호](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-171.pdf)
 - [NIST Cybersecurity 프레임 워크](https://www.nist.gov/cyberframework)
 - [Microsoft 공통 컨트롤 허브 규정 준수 프레임 워크](https://www.microsoft.com/trustcenter/common-controls-hub)

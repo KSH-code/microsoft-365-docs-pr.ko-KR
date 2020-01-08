@@ -1,5 +1,5 @@
 ---
-title: 정보 장벽 정책의 특성
+title: 정보 장벽 정책의 속성
 ms.author: chrfox
 author: chrfox
 manager: laurawi
@@ -11,21 +11,21 @@ ms.collection:
 - M365-security-compliance
 localization_priority: None
 description: 이 문서를 정보 장벽 정책에서 사용할 수 있는 다양 한 특성에 대 한 참조로 사용 합니다.
-ms.openlocfilehash: 4198728d412062edced6238604b2b891da22aeac
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 12acaa4fb8d6bcd6c660381b172703bd178af81f
+ms.sourcegitcommit: af7950d9674f0eab3aee03f9afccff9ca2f4709a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088138"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40970786"
 ---
-# <a name="attributes-for-information-barrier-policies"></a>정보 장벽 정책의 특성
+# <a name="attributes-for-information-barrier-policies"></a>정보 장벽 정책의 속성
 
 Azure Active Directory의 특정 특성을 사용 하 여 사용자를 분할할 수 있습니다. 세그먼트를 정의한 후에는 이러한 세그먼트를 정보 장벽 정책의 필터로 사용할 수 있습니다. 예를 들어 **부서** 를 사용 하 여 조직 내 부서별로 사용자 세그먼트를 정의할 수 있습니다 (두 부서가 동시에 단일 직원이 작동 하지 않는다고 가정). 
 
 이 문서에서는 정보 장벽에서 특성을 사용 하는 방법에 대해 설명 하 고 사용할 수 있는 특성 목록을 제공 합니다. 정보 장벽에 대 한 자세한 내용은 다음 리소스를 참조 하십시오.
 - [정보 장벽](information-barriers.md)
 - [Microsoft 팀의 정보 장벽에 대 한 정책 정의](information-barriers-policies.md)
-- [정보 장벽 정책 편집 또는 제거](information-barriers-edit-segments-policies.md.md)
+- [정보 장벽 정책 편집 또는 제거](information-barriers-edit-segments-policies.md)
 
 ## <a name="how-to-use-attributes-in-information-barrier-policies"></a>정보 장벽 정책에서 특성을 사용 하는 방법
 
@@ -80,7 +80,7 @@ Azure Active Directory의 특정 특성을 사용 하 여 사용자를 분할할
 |MSExchExtensionCustomAttribute4 |ExtensionCustomAttribute4 |
 |MSExchExtensionCustomAttribute5 |ExtensionCustomAttribute5 |
 |MailNickname |별칭 |
-|PhysicalDeliveryOfficeName |Office |
+|PhysicalDeliveryOfficeName |사무실 |
 |PostalCode |PostalCode |
 |ProxyAddresses |EmailAddresses |
 |StreetAddress |StreetAddress |

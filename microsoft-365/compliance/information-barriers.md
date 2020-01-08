@@ -11,12 +11,12 @@ ms.collection:
 - M365-security-compliance
 localization_priority: None
 description: 정보 장애물을 사용 하 여 조직 내에서 Microsoft 팀을 사용 하 여 통신을 준수 하는지 확인 합니다.
-ms.openlocfilehash: 31de709e5ac834ad628110088b0dab80efe85950
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 352f101a443b015840b09b82626f7dbee9cfb79e
+ms.sourcegitcommit: af7950d9674f0eab3aee03f9afccff9ca2f4709a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38690771"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40970836"
 ---
 # <a name="information-barriers"></a>정보 장벽
 
@@ -53,7 +53,7 @@ Microsoft 팀부터 정보 장애물을 즉시 롤아웃할 수 있습니다. [�
 
 정보 장벽에 대 한 사용자 환경에 대 한 자세한 내용은 [Microsoft 팀의 정보 장벽](https://docs.microsoft.com/MicrosoftTeams/information-barriers-in-teams)를 참조 하세요.
 
-## <a name="required-licenses-and-permissions"></a>필요한 라이선스 및 사용 권한
+## <a name="required-licenses-and-permissions"></a>필수 라이선스 및 사용 권한
 
 정보 장애물은 지금 롤아웃 되며 다음과 같은 구독에 포함 됩니다.
 
@@ -83,5 +83,4 @@ Microsoft 팀부터 정보 장애물을 즉시 롤아웃할 수 있습니다. [�
 
 - [정보 장벽에 대 한 정책 정의](information-barriers-policies.md)
 
-- [정보 장벽 정책 편집 또는 제거](information-barriers-edit-segments-policies.md.md) 
-
+- [정보 장벽 정책 편집 또는 제거](information-barriers-edit-segments-policies.md) 

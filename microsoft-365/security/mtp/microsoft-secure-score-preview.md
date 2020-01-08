@@ -15,12 +15,12 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: ff159546cd62b2fd2b5cb4fca031e449c860d5cb
-ms.sourcegitcommit: 062be618f0b18611001552273bb175020420e463
+ms.openlocfilehash: 5ce06f582966f7209d4b539f9de41e8045b98519
+ms.sourcegitcommit: af7950d9674f0eab3aee03f9afccff9ca2f4709a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "39676805"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40970926"
 ---
 # <a name="microsoft-secure-score-preview"></a>Microsoft 보안 점수 (미리 보기)
 
@@ -63,21 +63,21 @@ Microsoft 보안 점수에 액세스할 수 있는 권한을 부여 하려면 Az
 
 읽기 및 쓰기 액세스를 사용 하 여 변경을 수행 하 고 보안 점수와 직접 상호 작용할 수 있습니다. 또한 다른 사용자에 게 읽기 전용 액세스 권한을 할당할 수 있습니다.
 
-* CompanyAdministrator
+* 전역 관리자
 * 보안 관리자
-* ExchangeAdmin
-* SharePointAdmin
+* Exchange 관리자
+* SharePoint 관리자
 
 ### <a name="read-only-roles"></a>읽기 전용 역할
 
 읽기 전용 액세스 권한을 사용 하면 향상 작업에 대 한 상태나 메모를 편집 하거나, 점수 영역을 편집 하거나, 사용자 지정 비교를 편집할 수 없습니다.
 
-* HelpdeskAdmin
-* UserAccountAdmin
-* 서비스 관리
-* SecurityReader
-* SecurityOperator
-* GlobalReader
+* 헬프데스크 관리자
+* User administrator
+* 서비스 관리자
+* 보안 읽기 권한자
+* 보안 운영자
+* 전역 독자
 
 ### <a name="graph-api"></a>Graph API
 

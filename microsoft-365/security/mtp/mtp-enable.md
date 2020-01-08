@@ -17,12 +17,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 842c3be031e96467c8b82e8cf482435e66124960
-ms.sourcegitcommit: 5b0a2e11c86c00e6e6b534f8b0a19962d1bb2805
+ms.openlocfilehash: 781aca371315d1ffde4ca2718d8d371e865ccb29
+ms.sourcegitcommit: af7950d9674f0eab3aee03f9afccff9ca2f4709a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/27/2019
-ms.locfileid: "40881979"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40970856"
 ---
 # <a name="turn-on-microsoft-threat-protection"></a>Microsoft Threat Protection 사용 설정
 
@@ -67,7 +67,7 @@ Azure ATP 데이터를 Microsoft Threat Protection 기능과 공유하려면 Mic
 ## <a name="turn-off-microsoft-threat-protection"></a>Microsoft Threat Protection 해제
 Microsoft Threat Protection 사용을 중지하려면 Microsoft 365 보안 센터에서 **설정** > **Microsoft Threat Protection** > **옵트인/옵트아웃**으로 이동합니다. **Microsoft Threat Protection 사용**을 선택 취소하고 변경 내용을 저장합니다.
 
-데이터가 영구적으로 삭제되고 해당 기능이 Microsoft 365 보안 센터에서 제거됩니다.
+데이터가 영구적으로 삭제 되 고 해당 기능이 Microsoft 365 보안 센터에서 제거 됩니다.
 
 ## <a name="get-assistance"></a>지원 받기
 

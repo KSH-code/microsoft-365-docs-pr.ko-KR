@@ -11,12 +11,12 @@ ms.collection:
 - M365-security-compliance
 localization_priority: None
 description: 이 문서를 정보 장벽 문제 해결을 위한 지침으로 사용 하십시오.
-ms.openlocfilehash: 47549029ffbaa5ead028c18e97850b30f8072011
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 07c3c6fc12ec1b288ae9499715ddadb21764f6ef
+ms.sourcegitcommit: af7950d9674f0eab3aee03f9afccff9ca2f4709a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37087233"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40970806"
 ---
 # <a name="troubleshooting-information-barriers"></a>정보 장벽 문제 해결
 
@@ -71,7 +71,7 @@ ms.locfileid: "37087233"
     |---------|---------|
     |`Get-OrganizationSegment`<p>이 cmdlet은 Identity 매개 변수와 함께 사용 합니다.     |`Get-OrganizationSegment -Identity c96e0837-c232-4a8a-841e-ef45787d8fcd` <p>이 예에서는 GUID *c96e0837-c232-4a8a-841e-ef45787d8fcd*가 있는 세그먼트에 대 한 정보를 가져옵니다.         |
 
-    해당 세그먼트에 대 한 세부 정보를 검토 합니다. 필요한 경우 [세그먼트를 편집](information-barriers-edit-segments-policies.md.md#edit-a-segment)하 고 `Start-InformationBarrierPoliciesApplication` cmdlet을 다시 사용 합니다.
+    해당 세그먼트에 대 한 세부 정보를 검토 합니다. 필요한 경우 [세그먼트를 편집](information-barriers-edit-segments-policies.md#edit-a-segment)하 고 `Start-InformationBarrierPoliciesApplication` cmdlet을 다시 사용 합니다.
 
     **정보 장벽 정책에 여전히 문제가 있는 경우 고객 지원에 문의 하세요**.
 
@@ -99,8 +99,8 @@ ms.locfileid: "37087233"
     
     |결과  |다음에 수행할 작업  |
     |---------|---------|
-    |선택한 사용자에 대 한 세그먼트가 나열 되지 않음     |다음 중 하나를 수행합니다.<br/>-Azure Active Directory에서 사용자 프로필을 편집 하 여 기존 세그먼트에 사용자를 할당 합니다. ( [Office 365 PowerShell을 사용 하 여 사용자 계정 속성 구성](https://docs.microsoft.com/office365/enterprise/powershell/configure-user-account-properties-with-office-365-powershell)참조)<br/>- [정보 장벽에 대해 지원 되는 특성](information-barriers-attributes.md)을 사용 하 여 세그먼트를 정의 합니다. 그런 다음 [새 정책을 정의](information-barriers-policies.md#part-2-define-information-barrier-policies) 하거나 [기존 정책을 편집](information-barriers-edit-segments-policies.md.md#edit-a-policy) 하 여 해당 세그먼트를 포함 합니다.  |
-    |세그먼트는 나열 되지만 해당 세그먼트에 정보 장벽 정책이 할당 되지 않음     |다음 중 하나를 수행합니다.<br/>- 문제의 각 세그먼트에 대 한 [새 정보 장벽 정책 정의](information-barriers-policies.md#part-2-define-information-barrier-policies)<br/>- [기존 정보 장벽 정책을 편집](information-barriers-edit-segments-policies.md.md#edit-a-policy) 하 여 올바른 세그먼트에 할당         |
+    |선택한 사용자에 대 한 세그먼트가 나열 되지 않음     |다음 중 하나를 수행합니다.<br/>-Azure Active Directory에서 사용자 프로필을 편집 하 여 기존 세그먼트에 사용자를 할당 합니다. ( [Office 365 PowerShell을 사용 하 여 사용자 계정 속성 구성](https://docs.microsoft.com/office365/enterprise/powershell/configure-user-account-properties-with-office-365-powershell)참조)<br/>- [정보 장벽에 대해 지원 되는 특성](information-barriers-attributes.md)을 사용 하 여 세그먼트를 정의 합니다. 그런 다음 [새 정책을 정의](information-barriers-policies.md#part-2-define-information-barrier-policies) 하거나 [기존 정책을 편집](information-barriers-edit-segments-policies.md#edit-a-policy) 하 여 해당 세그먼트를 포함 합니다.  |
+    |세그먼트는 나열 되지만 해당 세그먼트에 정보 장벽 정책이 할당 되지 않음     |다음 중 하나를 수행합니다.<br/>- 문제의 각 세그먼트에 대 한 [새 정보 장벽 정책 정의](information-barriers-policies.md#part-2-define-information-barrier-policies)<br/>- [기존 정보 장벽 정책을 편집](information-barriers-edit-segments-policies.md#edit-a-policy) 하 여 올바른 세그먼트에 할당         |
     |나열 된 세그먼트는 정보 장벽 정책에 포함 되어 있습니다.     |- `Get-InformationBarrierPolicy` Cmdlet을 실행 하 여 정보 장벽 정책이 활성 상태 인지 확인 합니다.<br/>-정책이 적용 `Get-InformationBarrierPoliciesApplicationStatus` 되었는지 확인 하는 cmdlet을 실행 합니다.<br/>- `Start-InformationBarrierPoliciesApplication` Cmdlet을 실행 하 여 모든 활성 정보 장벽 정책 적용          |
     
 
@@ -147,7 +147,7 @@ ms.locfileid: "37087233"
     |상태  |다음 단계  |
     |---------|---------|
     |**시작 되지 않음**     |**InformationBarrierPoliciesApplication** cmdlet을 실행 한 후 45 분이 경과 하면 감사 로그를 검토 하 여 정책 정의에 오류가 있는지 또는 응용 프로그램이 시작 되지 않은 다른 이유가 있는지를 확인 합니다. |
-    |**실패**     |응용 프로그램이 실패 한 경우 감사 로그를 검토 합니다. 또한 세그먼트 및 정책도 검토 합니다. 두 개 이상의 세그먼트에 할당 된 사용자가 있나요? 모든 세그먼트에 두 개 이상의 poliicy이 할당 됩니까? 필요한 경우 세그먼트 및/또는 [편집 정책을](information-barriers-edit-segments-policies.md.md#edit-a-policy) [편집](information-barriers-edit-segments-policies.md.md#edit-a-segment) 하 고 **InformationBarrierPoliciesApplication** cmdlet을 다시 실행 합니다.  |
+    |**실패**     |응용 프로그램이 실패 한 경우 감사 로그를 검토 합니다. 또한 세그먼트 및 정책도 검토 합니다. 두 개 이상의 세그먼트에 할당 된 사용자가 있나요? 모든 세그먼트에 두 개 이상의 poliicy이 할당 됩니까? 필요한 경우 세그먼트 및/또는 [편집 정책을](information-barriers-edit-segments-policies.md#edit-a-policy) [편집](information-barriers-edit-segments-policies.md#edit-a-segment) 하 고 **InformationBarrierPoliciesApplication** cmdlet을 다시 실행 합니다.  |
     |**진행 중**     |응용 프로그램이 계속 진행 되 고 있는 경우 완료 하는 데 더 많은 시간이 걸릴 수 있습니다. 기간이 며칠 이면 감사 로그를 수집한 다음 고객 지원에 문의 하세요. |
 
 ## <a name="issue-information-barrier-policies-are-not-being-applied-at-all"></a>문제: 정보 장벽 정책이 전혀 적용 되지 않음

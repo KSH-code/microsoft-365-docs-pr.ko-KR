@@ -16,12 +16,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: dc654a877e12eed308b5f8be9fd001ef9093398d
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: ece7264eba56aa9b389b0dc3555d69e71cc30ad5
+ms.sourcegitcommit: 82baed362528fed30e9e09c6a4a37c07be2f138d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40807933"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40959616"
 ---
 # <a name="communication-compliance-feature-reference-preview"></a>통신 준수 기능 참조 (미리 보기)
 
@@ -29,8 +29,8 @@ ms.locfileid: "40807933"
 
 Microsoft 365 준수 센터에서 Microsoft 365 조 직에 대 한 통신 준수 정책을 만듭니다. Office 365 조직이 있는 경우 Office 365 보안 & 준수 센터에서 [감독 정책을 구성](configure-supervision-policies.md) 합니다. 통신 준수 정책은 조직의 검토 대상이 되는 통신 및 사용자를 정의 하 고, 통신에 충족 해야 하는 사용자 지정 조건을 정의 하 고, 검토 해야 하는 사람을 지정 합니다. **관리 검토 관리자** 역할 그룹에 포함 된 사용자는 정책을 설정할 수 있으며이 역할을 할당 받은 사람은 Microsoft 365 준수 센터의 **통신 준수** 페이지에 액세스할 수 있습니다. 필요한 경우 정책에 대 한 수정 기록을 보류 중인 검토, 제기 된 항목 및 해결 된 항목의 상태를 포함 하는 .csv 파일로 내보낼 수 있습니다. 정책 이름을 바꿀 수 없으며 더 이상 필요 하지 않은 경우 삭제할 수 있습니다.
 
-> [!NOTE]
-> Office 365 보안 및 준수 센터의 Office 365 구독에 생성 된 감독 정책은 Microsoft 365로 마이그레이션할 수 없습니다. Office 365 구독에서 Microsoft 365 구독으로 마이그레이션하는 경우 기존 감독 정책을 대체 하기 위해 새 통신 준수 정책을 만들어야 합니다.
+>[!NOTE]
+>Office 365 보안 및 준수 센터의 Office 365 구독에 생성 된 감독 정책은 Microsoft 365로 마이그레이션할 수 없습니다. Office 365 구독에서 Microsoft 365 구독으로 마이그레이션하는 경우 기존 감독 정책을 대체 하기 위해 새 통신 준수 정책을 만들어야 합니다.
 
 ## <a name="policy-templates"></a>정책 템플릿
 
@@ -46,8 +46,8 @@ Microsoft 365 준수 센터에서 Microsoft 365 조 직에 대 한 통신 준수
 
 통신 준수를 시작 하기 전에 통신을 검토할 사용자를 결정 해야 합니다. 정책에서 사용자 전자 메일 주소는 감독할에 해당 하는 개인 또는 사용자 그룹을 식별 합니다. 이러한 그룹의 몇 가지 예로는 Office 365 그룹, Exchange 기반 메일 그룹 및 Microsoft 팀 채널이 있습니다. 특정 제외 그룹이 나 그룹 목록을 사용 하 여 특정 사용자 또는 그룹을 검색에서 제외할 수도 있습니다.
 
-> [!IMPORTANT]
-> 통신 준수 정책에서 다루는 사용자에 게는 Microsoft 365 E5 준수 라이선스, 고급 준수 추가 기능이 포함 된 Office 365 Enterprise E3 라이선스 또는 Office 365 Enterprise E5 구독에 포함 되어 있어야 합니다. 기존 Enterprise E5 요금제가 없고 통신 준수를 시도 하려는 경우 [Office 365 Enterprise e 5의 평가판에 등록할](https://go.microsoft.com/fwlink/p/?LinkID=698279)수 있습니다.
+>[!IMPORTANT]
+>통신 준수 정책에서 다루는 사용자에 게는 Microsoft 365 E5 준수 라이선스, 고급 준수 추가 기능이 포함 된 Office 365 Enterprise E3 라이선스 또는 Office 365 Enterprise E5 구독에 포함 되어 있어야 합니다. 기존 Enterprise E5 요금제가 없고 통신 준수를 시도 하려는 경우 [Office 365 Enterprise e 5의 평가판에 등록할](https://go.microsoft.com/fwlink/p/?LinkID=698279)수 있습니다.
 
 ## <a name="reviewers"></a>가
 
@@ -198,8 +198,8 @@ Microsoft 365의 분류자에 대 한 자세한 내용은 [분류자](classifier
 </html>
 ```
 
-> [!NOTE]
-> 통신 준수 알림 템플릿의 HTML href 특성 구현은 현재 URL 참조에 큰따옴표 대신 작은따옴표를 지원 합니다.
+>[!NOTE]
+>통신 준수 알림 템플릿의 HTML href 특성 구현은 현재 URL 참조에 큰따옴표 대신 작은따옴표를 지원 합니다.
 
 ## <a name="filters"></a>필터
 
@@ -232,8 +232,8 @@ Microsoft 365의 분류자에 대 한 자세한 내용은 [분류자](classifier
 | 임계값 | 활동 4 개 |
 | 기간 | 60 분 |
 
-> [!Note]
-> 통신 준수 정책에 대해 활동에 대 한 경고 정책 임계값 트리거 설정은 최소 값 3 이상을 지원 합니다.
+>[!Note]
+>통신 준수 정책에 대해 활동에 대 한 경고 정책 임계값 트리거 설정은 최소 값 3 이상을 지원 합니다.
 
 Office 365 보안 & 준수 센터의 **경고 정책** 페이지에서 활동 수, 활동 기간 및 경고 정책에서 특정 사용자에 대 한 트리거의 기본 설정을 변경할 수 있습니다.
 
@@ -259,8 +259,8 @@ Office 365 보안 & 준수 센터의 **경고 정책** 페이지에서 활동 �
 
 경우에 따라 규정 또는 준수 감사자에 정보를 제공 하 여 직원 활동 및 통신에 대 한 감독을 증명 해야 합니다. 이는 정의 된 조직 정책과 관련 된 모든 작업 또는 통신 준수 정책이 변경 될 때마다 요약 된 것일 수 있습니다. 통신 준수 정책에는 내부 또는 외부 감사의 전체 준비에 대 한 감사 기록이 기본적으로 제공 됩니다. 모든 만들기, 편집 및 삭제 작업에 대 한 자세한 감사 기록이 관리 절차를 제공 하기 위해 통신 정책에 따라 캡처됩니다.
 
-> [!Important]
-> 조직에서 통신 준수 이벤트를 기록 하기 전에 감사를 사용 하도록 설정 해야 합니다. 감사를 사용 하도록 설정 하려면 [통신 준수 정책에 대 한 감사 사용](communication-compliance-configure.md#step-6-enable-auditing-for-your-communication-compliance-policies-optional)을 참조 하십시오.
+>[!Important]
+>조직에서 통신 준수 이벤트를 기록 하기 전에 감사를 사용 하도록 설정 해야 합니다. 감사를 사용 하도록 설정 하려면 [통신 준수 정책에 대 한 감사 사용](communication-compliance-configure.md#step-6-enable-auditing-for-your-communication-compliance-policies-optional)을 참조 하십시오.
 
 통신 준수 정책 활동을 보려면 정책에 대 한 기본 페이지에서 **검토 작업 내보내기** 컨트롤을 선택 합니다. 이렇게 하면 .csv 형식의 감사 파일이 다음 정보를 포함 하 여 생성 됩니다.
 

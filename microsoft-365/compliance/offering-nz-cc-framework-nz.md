@@ -12,12 +12,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 1f0ed98386a33b84d109fb94093b3d03cefc127b
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: da5fbef7ed9ceb136f276e2d6baab0c94bba3c22
+ms.sourcegitcommit: 82baed362528fed30e9e09c6a4a37c07be2f138d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40804001"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40959537"
 ---
 # <a name="new-zealand-government-cloud-computing-security-and-privacy-considerations"></a>새로운 뉴질랜드 정부 클라우드 컴퓨팅 보안 및 개인 정보 고려 사항
 
@@ -62,7 +62,7 @@ GCIO 요구 사항이 적용 되는 조직 (공용 및 비공용 서비스 부�
 - [뉴질랜드 보안 및 개인 정보 요구 사항의 맥락에서 Microsoft Azure 준수](https://aka.ms/azurecompliancenewzealand)
 - [NZ 정부 ICT 전략 2015](https://www.ict.govt.nz/strategy-and-action-plan/strategy/)
 - [클라우드 컴퓨팅을 위한 NZ 정부 요구 사항](https://aka.ms/NZ-Cloud-Requirements)
-- [클라우드 컴퓨팅: 정보 보안 및 개인 정보 보호 고려 사항 (ISPC)](https://aka.ms/NZ-Cloud-Computing-Considerations)
+- [클라우드 컴퓨팅: 정보 보안 및 개인 정보 보호 고려 사항 (ISPC)](https://www.digital.govt.nz/standards-and-guidance/technology-and-architecture/cloud-services/)
 - [Microsoft 온라인 서비스 사용 약관](https://aka.ms/Online-Services-Terms)
 - [Office 365: SEEMail 통합 및 참조 아키텍처](https://download.microsoft.com/download/8/5/9/859CDCEE-D293-47D8-9B6A-670B108B48E1/Microsoft_Office_365_white_paper_EN_US.pdf) (클라우드 서비스 채택에 대 한 추가 Microsoft NZ 지침)
 - [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)

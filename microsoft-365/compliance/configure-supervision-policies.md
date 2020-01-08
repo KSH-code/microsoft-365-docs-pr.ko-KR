@@ -17,23 +17,23 @@ search.appverid:
 - MET150
 - MOE150
 titleSuffix: Office 365 Compliance
-ms.openlocfilehash: 67e7d1a8fe1ca2f64031cab9bdee72ac22c70886
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: e7a46e2fcd15a77f6fe7f1b97adf5ed26e97e0e2
+ms.sourcegitcommit: 82baed362528fed30e9e09c6a4a37c07be2f138d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40806631"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40959626"
 ---
 # <a name="configure-supervision-policies-in-office-365"></a>Office 365에서 감독 정책 구성
 
-> [!IMPORTANT]
-> 이 항목은 Office 365 구독에서 감독 정책 구성에 적용 됩니다. Microsoft 365 구독에 대 한 통신 준수를 구성 하려면 [configure communications 준수 In microsoft 365 (preview)](communication-compliance-configure.md)을 참조 하십시오.
+>[!IMPORTANT]
+>이 항목은 Office 365 구독에서 감독 정책 구성에 적용 됩니다. Microsoft 365 구독에 대 한 통신 준수를 구성 하려면 [configure communications 준수 In microsoft 365 (preview)](communication-compliance-configure.md)을 참조 하십시오.
 
 감독 정책을 사용 하 여 내부 또는 외부 검토자가 검사할 직원 통신을 캡처할 수 있습니다. 감독 정책을 통해 조직의 통신을 모니터링 하는 방법에 대 한 자세한 내용은 [Office 365의 감독 정책을](supervision-policies.md)참조 하세요.
 
-> [!NOTE]
-> 감독 정책에 따라 모니터링 되는 사용자에 게는 Microsoft 365 E5 규정 준수 라이선스, 고급 준수 추가 기능이 포함 된 Office 365 Enterprise E3 라이선스 또는 Office 365 Enterprise E5 구독에 포함 되어 있어야 합니다.
-> 기존 Enterprise E5 요금제가 없고, 감독을 려 고 하는 경우 [Office 365 Enterprise e 5의 평가판에 등록할](https://go.microsoft.com/fwlink/p/?LinkID=698279)수 있습니다.
+>[!NOTE]
+>감독 정책에 따라 모니터링 되는 사용자에 게는 Microsoft 365 E5 규정 준수 라이선스, 고급 준수 추가 기능이 포함 된 Office 365 Enterprise E3 라이선스 또는 Office 365 Enterprise E5 구독에 포함 되어 있어야 합니다.
+>기존 Enterprise E5 요금제가 없고, 감독을 려 고 하는 경우 [Office 365 Enterprise e 5의 평가판에 등록할](https://go.microsoft.com/fwlink/p/?LinkID=698279)수 있습니다.
   
 Office 365 조직에서 감독을 설정 및 사용 하려면 다음 단계를 수행 합니다.
   
@@ -182,8 +182,8 @@ Office 365 보안 및 준수 센터에서 **감독** 을 메뉴 옵션으로 사
 1. 테스트할 정책에 정의 된 감독 된 사용자로 로그인 한 전자 메일 클라이언트 또는 Microsoft 팀을 엽니다.
 2. 감독 정책에 정의한 기준을 충족 하는 전자 메일 또는 Microsoft 팀 채팅을 보냅니다. 키워드, 첨부 파일 크기, 도메인 등이 될 수 있습니다. 정책에서 구성 된 조건부 설정이 너무 제한적일 또는 너무 lenient 인지 확인 합니다.
 
-    > [!NOTE]
-    > 정의 된 정책이 적용 되는 전자 메일은 거의 실시간으로 처리 되며 정책이 구성 된 직후에 테스트할 수 있습니다. Microsoft 팀의 채팅에는 정책에서 전체 프로세스를 수행 하는 데 최대 24 시간이 걸릴 수 있습니다. 
+    >[!NOTE]
+    >정의 된 정책이 적용 되는 전자 메일은 거의 실시간으로 처리 되며 정책이 구성 된 직후에 테스트할 수 있습니다. Microsoft 팀의 채팅에는 정책에서 전체 프로세스를 수행 하는 데 최대 24 시간이 걸릴 수 있습니다. 
 
 3. 통신 감독 정책에 지정 된 검토자로 Office 365 테 넌 트에 로그인 합니다. *사용자 지정 정책이* > **열려** 있는 **감독** > 을 탐색 하 여 정책에 대 한 보고서를 확인 합니다.
 

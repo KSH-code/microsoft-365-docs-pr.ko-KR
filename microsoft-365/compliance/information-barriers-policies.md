@@ -11,12 +11,12 @@ ms.collection:
 - M365-security-compliance
 localization_priority: None
 description: Microsoft 팀에서 정보 장벽에 대 한 정책을 정의 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 3d5dfbcb4410739d8d935b50a8e4ad069145e6a5
-ms.sourcegitcommit: 8ca97fa879ae4ea44468be629d6c32b429efeeec
+ms.openlocfilehash: 11195e588a983bb5617dd3f556734074bc0060b0
+ms.sourcegitcommit: af7950d9674f0eab3aee03f9afccff9ca2f4709a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/16/2019
-ms.locfileid: "38690864"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40970846"
 ---
 # <a name="define-policies-for-information-barriers"></a>정보 장벽에 대 한 정책 정의
 
@@ -43,7 +43,7 @@ ms.locfileid: "38690864"
 
 - **정책 응용 프로그램** 은 모든 정보 장벽 정책이 정의 된 후에 수행 되며, 조직에 적용할 준비가 된 것입니다.
 
-## <a name="the-work-flow-at-a-glance"></a>작업 흐름 살펴보기
+## <a name="the-work-flow-at-a-glance"></a>워크플로 한 눈에 보기
 
 |단계    |관련 항목  |
 |---------|---------|
@@ -51,7 +51,7 @@ ms.locfileid: "38690864"
 |[1 부: 조직의 사용자 분류](#part-1-segment-users)     |-필요한 정책을 결정 합니다.<br/>-정의할 세그먼트 목록을 만듭니다.<br/>-사용할 특성 식별<br/>-정책 필터 용어로 세그먼트를 정의 합니다.        |
 |[2 부: 정보 장벽 정책 정의](#part-2-define-information-barrier-policies)     |-정책 정의 (아직 적용 되지 않음)<br/>-두 종류 (차단 또는 허용)를 선택 합니다. |
 |[3 부: 정보 장벽 정책 적용](#part-3-apply-information-barrier-policies)     |-정책을 활성 상태로 설정<br/>-정책 응용 프로그램 실행<br/>-정책 상태 보기         |
-|(필요한 경우) [세그먼트 또는 정책 편집](information-barriers-edit-segments-policies.md.md)    |-세그먼트 편집<br/>-정책 편집 또는 제거<br/>-정책 응용 프로그램 다시 실행<br/>-정책 상태 보기         |
+|(필요한 경우) [세그먼트 또는 정책 편집](information-barriers-edit-segments-policies.md)    |-세그먼트 편집<br/>-정책 편집 또는 제거<br/>-정책 응용 프로그램 다시 실행<br/>-정책 상태 보기         |
 |(필요한 경우) [문제 해결](information-barriers-troubleshooting.md)|-항목이 정상적으로 작동 하지 않을 때 작업 수행|
 
 ## <a name="prerequisites"></a>필수 구성 요소
@@ -260,11 +260,11 @@ PowerShell을 사용 하 여 다음 표에 나와 있는 것 처럼 사용자 �
 
 - 정보 장벽에 문제가 있는 경우 [정보 장벽 문제 해결](information-barriers-troubleshooting.md)을 참조 하세요.
 
-- 정책이 적용 되지 않도록 하려면 [정책 응용 프로그램 중지](information-barriers-edit-segments-policies.md.md#stop-a-policy-application)를 참조 하세요.
+- 정책이 적용 되지 않도록 하려면 [정책 응용 프로그램 중지](information-barriers-edit-segments-policies.md#stop-a-policy-application)를 참조 하세요.
 
-- 정보 장벽 정책을 제거 하려면 [정책 제거](information-barriers-edit-segments-policies.md.md#remove-a-policy)를 참조 하십시오.
+- 정보 장벽 정책을 제거 하려면 [정책 제거](information-barriers-edit-segments-policies.md#remove-a-policy)를 참조 하십시오.
 
-- 세그먼트 또는 정책을 변경 하려면 [정보 장벽 정책 편집 (또는 제거)](information-barriers-edit-segments-policies.md.md)을 참조 하십시오.
+- 세그먼트 또는 정책을 변경 하려면 [정보 장벽 정책 편집 (또는 제거)](information-barriers-edit-segments-policies.md)을 참조 하십시오.
 
 ## <a name="example-contosos-departments-segments-and-policies"></a>예: Contoso의 부서, 세그먼트 및 정책
 

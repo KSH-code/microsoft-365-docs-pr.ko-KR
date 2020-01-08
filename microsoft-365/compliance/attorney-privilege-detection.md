@@ -14,20 +14,17 @@ search.appverid:
 - MET150
 ms.assetid: ''
 ROBOTS: NOINDEX, NOFOLLOW
-description: 고급 eDiscovery 사례에서 콘텐츠를 검토할 때 권한 있는 콘텐츠의 컴퓨터 학습 기반 검색을 사용 하려면 변호사-클라이언트 권한 검색 모델을 사용 합니다.
-ms.openlocfilehash: a483941ba5d28527eb509f2e1bbd129434430244
-ms.sourcegitcommit: 7f26840a4330b0fd29807ec091c6915d283b3dd2
+description: 고급 eDiscovery 사례에서 콘텐츠를 검토할 때 컴퓨터 학습 기반 콘텐츠 검색을 사용 하려면 변호사-클라이언트 권한 검색 모델을 사용 합니다.
+ms.openlocfilehash: bf1b2112c47019c59f955ace21a25b099f91128f
+ms.sourcegitcommit: af7950d9674f0eab3aee03f9afccff9ca2f4709a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "39603782"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40970866"
 ---
 # <a name="set-up-attorney-client-privilege-detection-in-advanced-ediscovery"></a>고급 eDiscovery에서 변호사 설정-클라이언트 권한 검색
 
 EDiscovery 프로세스의 검토 단계에서 주요 및 비용이 많이 드는 부분은 권한 있는 콘텐츠에 대 한 문서를 검토 하는 것입니다. 고급 eDiscovery에서는이 프로세스를 보다 효율적으로 수행할 수 있도록 권한 있는 콘텐츠에 대 한 컴퓨터 학습 기반 검색 기능을 제공 합니다. 이 기능을 *변호사-클라이언트 권한 검색*이라고 합니다.
-
-> [!NOTE]
-> 사용 하려면 먼저 변호사-클라이언트 권한 검색 모델을 선택 해야 합니다. 지침은 [1 단계](#step-1-opt-in-to-attorney-client-privilege-detection) 를 참조 하세요.
 
 ## <a name="how-does-it-work"></a>작동 방식
 
@@ -53,11 +50,11 @@ EDiscovery 프로세스의 검토 단계에서 주요 및 비용이 많이 드�
 
 ## <a name="set-up-the-attorney-client-privilege-detection-model"></a>변호사 설정-클라이언트 권한 검색 모델
 
-변호사 클라이언트 권한 검색 모델을 사용 하도록 설정 하려면 조직에서 변호사 목록을 옵트인 한 다음 업로드 해야 합니다.
+변호사 클라이언트 권한 검색 모델을 사용 하도록 설정 하려면 조직에서이를 설정 하 고 변호사 목록을 업로드 해야 합니다.
 
-### <a name="step-1-opt-in-to-attorney-client-privilege-detection"></a>1 단계: 변호사에 게 옵트인-클라이언트 권한 검색
+### <a name="step-1-turn-on-attorney-client-privilege-detection"></a>1 단계: 변호사 설정-클라이언트 권한 검색
 
-앞에서 언급 했 듯이 변호사-클라이언트 권한 검색 모델이 미리 보기에 있습니다. 따라서 조직 eDiscovery 관리자 (eDiscovery 관리자 역할 그룹의 eDiscovery 관리자 그룹의 구성원)가 해당 사용자에 게 고급 eDiscovery 사례에서 모델을 사용할 수 있도록 옵트인 해야 합니다.
+조직에서 eDiscovery 관리자 인 사용자 (eDiscovery 관리자 역할 그룹의 eDiscovery 관리자 그룹의 구성원)가 고급 eDiscovery 사례에서 모델을 사용할 수 있도록 해야 합니다.
 
 1. 보안 & 준수 센터에서 **eDiscovery > Advanced ediscovery**로 이동 합니다.
 
