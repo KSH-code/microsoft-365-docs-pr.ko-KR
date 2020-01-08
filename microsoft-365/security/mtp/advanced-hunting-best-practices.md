@@ -15,12 +15,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 871f659074c4f8386746e341db4d3500c5e80a31
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 97c5f5541e1c3293346a53d87b950121e85e6eae
+ms.sourcegitcommit: 72d0280c2481250cf9114d32317ad2be59ab6789
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40807007"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40966873"
 ---
 # <a name="advanced-hunting-query-best-practices"></a>고급 헌팅 쿼리 모범 사례
 
@@ -52,7 +52,7 @@ PID(프로세스 ID)는 Windows에서 재활용할 수 있으며 새 프로세�
 다음의 예제 쿼리는 포트 445(SMB)를 통해 10 개가 넘는 IP 주소에 액세스하는 프로세스를(잠정적으로 파일 공유를 검색하며) 찾습니다.
 
 쿼리 예제:
-```
+```kusto
 DeviceNetworkEvents
 | where RemotePort == 445 and Timestamp > ago(12h) and InitiatingProcessId !in (0, 4)
 | summarize RemoteIPCount=dcount(RemoteIP) by DeviceName, InitiatingProcessId, InitiatingProcessCreationTime, InitiatingProcessFileName
@@ -76,7 +76,7 @@ DeviceNetworkEvents
 
 다음의 예제에서는 *net.exe* 파일을 검색 하여 Windows Defender 방화벽 서비스를 중지하는 다양한 방법을 보여줍니다.
 
-```
+```kusto
 // Non-durable query - do not use
 DeviceProcessEvents
 | where ProcessCommandLine == "net stop MpsSvc"

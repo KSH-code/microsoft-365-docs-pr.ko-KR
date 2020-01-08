@@ -15,12 +15,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 7c6c92aeec6c1644472103a1aaf175eb813d5758
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: df811e38c55becf9ba52de40891fc1201d0afae0
+ms.sourcegitcommit: 72d0280c2481250cf9114d32317ad2be59ab6789
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40808683"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40966886"
 ---
 # <a name="learn-the-advanced-hunting-query-language"></a>고급 헌팅 쿼리 언어 알아보기
 
@@ -35,7 +35,7 @@ ms.locfileid: "40808683"
 
 Microsoft 365 보안 센터에서 **헌팅**으로 이동하여 첫 번째 쿼리를 실행합니다. 다음 예제를 사용합니다.
 
-```
+```kusto
 // Finds PowerShell execution events that could involve a download.
 DeviceProcessEvents 
 | where Timestamp > ago(7d)
@@ -55,7 +55,7 @@ DeviceProcessEvents
 
 쿼리는 내용을 설명하는 짧은 메모로 시작합니다. 이렇게 하면 나중에 쿼리를 저장하여 조직의 다른 사용자와 공유하도록 결정한 경우에 도움이 됩니다.
 
-```
+```kusto
 // Finds PowerShell execution events that could involve a download.
 DeviceProcessEvents
 ```
@@ -64,19 +64,19 @@ DeviceProcessEvents
 
 첫 번째 파이프된 요소는 이전 7일 이내에 범위가 지정된 시간 필터입니다. 시간 범위를 가능한 한 좁게 유지하면 쿼리가 제대로 수행되고 관리 가능한 결과를 반환하며 시간 초과되지 않습니다.
 
-```
+```kusto
 | where Timestamp > ago(7d)
 ```
 
 시간 범위 바로 다음으로 PowerShell 응용 프로그램을 나타내는 파일을 검색합니다.
 
-```
+```kusto
 | where FileName in ("powershell.exe", "POWERSHELL.EXE", "powershell_ise.exe", "POWERSHELL_ISE.EXE")
 ```
 
 그런 다음 쿼리는 PowerShell과 함께 일반적으로 파일을 다운로드하는 데 사용되는 명령줄을 검색합니다.
 
-```
+```kusto
 | where ProcessCommandLine has "Net.WebClient"
         or ProcessCommandLine has "DownloadFile"
         or ProcessCommandLine has "Invoke-WebRequest"
@@ -86,7 +86,7 @@ DeviceProcessEvents
 
 쿼리에서 찾으려고 하는 데이터를 명확하게 식별하므로 결과 모양을 정의하는 요소를 추가할 수 있습니다. `project`은(는) 특정 열을 반환하고 `top`은(는) 결과 수를 제한하여 결과를 잘 서식화하고 상당히 크고 쉽게 처리할 수 있도록 합니다.
 
-```
+```kusto
 | project Timestamp, DeviceName, InitiatingProcessFileName, FileName, ProcessCommandLine
 | top 100 by Timestamp'
 ```

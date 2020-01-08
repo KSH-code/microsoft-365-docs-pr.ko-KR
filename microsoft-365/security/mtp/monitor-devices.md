@@ -12,12 +12,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: 149b3ab2f30d2387165dd98c0ba21eeac0fc8728
-ms.sourcegitcommit: 0c9c28a87201c7470716216d99175356fb3d1a47
+ms.openlocfilehash: 37e273a3e01177dec23b668ecb8a6301011ab88d
+ms.sourcegitcommit: 72d0280c2481250cf9114d32317ad2be59ab6789
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/09/2019
-ms.locfileid: "39910459"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40966906"
 ---
 # <a name="device-monitoring-and-reporting-in-the-microsoft-365-security-center"></a>Microsoft 365 보안 센터의 장치 모니터링 및 보고
 
@@ -146,7 +146,7 @@ Intune에서 등록 된 장치 데이터에는 다음이 포함 됩니다.
 
 ## <a name="monitor-and-manage-asr-rule-deployment-and-detections"></a>ASR 규칙 배포 및 검색 모니터링 및 관리
 
-[ASR (Attack Surface Reduction) 규칙](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/attack-surface-reduction-exploit-guard) 을 사용 하면 일반적으로 익스플로잇 맬웨어를 검색 하는 장치를 감염 시키는 작업과 앱을 방지할 수 있습니다. 이러한 규칙은 실행 파일을 실행하는 시기와 방법을 제어합니다. 예를 들어 JavaScript나 VBScript가 다운로드 한 실행 파일을 시작하는 것을 방지하거나 Office 매크로에서 Win32 API 호출을 차단하거나 USB 드라이브에서 실행되는 프로세스를 차단할 수 있습니다.
+[ASR (Attack Surface Reduction) 규칙](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/attack-surface-reduction) 을 사용 하면 일반적으로 익스플로잇 맬웨어를 검색 하는 장치를 감염 시키는 작업과 앱을 방지할 수 있습니다. 이러한 규칙은 실행 파일을 실행하는 시기와 방법을 제어합니다. 예를 들어 JavaScript나 VBScript가 다운로드 한 실행 파일을 시작하는 것을 방지하거나 Office 매크로에서 Win32 API 호출을 차단하거나 USB 드라이브에서 실행되는 프로세스를 차단할 수 있습니다.
 
 ![공격 노출 카드](../images/attack-surface-reduction-rules.png)
 
@@ -183,12 +183,12 @@ Microsoft Intune은 ASR 규칙에 대 한 관리 기능을 제공 합니다. 설
 
 ### <a name="exclude-files-from-asr-rules"></a>ASR 규칙에서 파일 제외
 
-Microsoft 365 보안 센터는 공격 노출 범위 규칙에 따라 검색에서 [제외 하려는 파일](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/troubleshoot-asr#add-exclusions-for-a-false-positive) 의 이름을 수집 합니다. 파일을 제외 하면 가양성 검색을 줄이고 차단 모드에서 더 안전 하 게 공격 표면 축소 규칙을 배포할 수 있습니다.
+Microsoft 365 보안 센터는 공격 노출 범위 규칙에 따라 검색에서 [제외 하려는 파일](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/enable-attack-surface-reduction#exclude-files-and-folders-from-asr-rules) 의 이름을 수집 합니다. 파일을 제외 하면 가양성 검색을 줄이고 차단 모드에서 더 안전 하 게 공격 표면 축소 규칙을 배포할 수 있습니다.
 
 제외는 Microsoft Intune에서 관리 되지만 Microsoft 365 보안 센터에서는 파일을 이해 하는 데 도움이 되는 분석 도구를 제공 합니다. 제외할 파일 수집을 시작 하려면 **Attack surface reduction 규칙** 보고서 페이지의 **제외 항목 추가** 탭으로 이동 합니다.
 
 >[!NOTE]  
->이 도구는 모든 attack surface reduction 규칙에 따라 검색을 분석 하지만 [일부 규칙만 제외를 지원](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-exploit-guard/attack-surface-reduction-exploit-guard#attack-surface-reduction-rules)합니다.
+>이 도구는 모든 attack surface reduction 규칙에 따라 검색을 분석 하지만 [일부 규칙만 제외를 지원](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/troubleshoot-asr)합니다.
 
 ![제외 항목 추가 탭](../images/add-exclusions-tab.png)
 
@@ -203,7 +203,8 @@ Microsoft 365 보안 센터는 공격 노출 범위 규칙에 따라 검색에�
 
 원본 앱을 찾으려면이 특정 규칙에 대해 다음 [고급 구하기 쿼리](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/advanced-hunting) 를 실행 합니다 (규칙 ID 9e6c4e1f-7d60-472f-ba1a-a39ef669e4b2으로 식별 됨).
 
-```MiscEvents
+```kusto
+MiscEvents
 | where EventTime > ago(7d)
 | where ActionType startswith "Asr"
 | where AdditionalFields contains "9e6c4e1f-7d60-472f-ba1a-a39ef669e4b2"
@@ -217,7 +218,8 @@ ASR에서 파일을 제외 하기 전에 해당 파일을 검사 하 여 실제�
 
 Microsoft Defender 보안 센터에서 검색 된 파일을 찾으려면 다음 고급 검색 쿼리를 사용 하 여 모든 ASR 검색을 찾습니다.
 
-```MiscEvents
+```kusto
+MiscEvents
 | where EventTime > ago(7d)
 | where ActionType startswith "Asr"
 | project FolderPath, FileName, SHA1, InitiatingProcessFolderPath, InitiatingProcessFileName, InitiatingProcessSHA1

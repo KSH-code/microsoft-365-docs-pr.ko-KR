@@ -15,12 +15,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: da985621c1cee3fe5aa30d961380ef3f3d83de8d
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 86b082baf5af34449f9981b92ccd8ea01aba29df
+ms.sourcegitcommit: 72d0280c2481250cf9114d32317ad2be59ab6789
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40808753"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40966874"
 ---
 # <a name="hunt-for-threats-across-devices-and-emails"></a>여러 장치 및 전자 메일에서 위협을 탐지
 
@@ -34,7 +34,7 @@ Microsoft Threat Protection의 [고급 헌팅](advanced-hunting-overview.md)을 
 ## <a name="obtain-user-accounts-from-email-addresses"></a>전자 메일 주소에서 사용자 계정 가져오기
 [장치와 전자 메일을 포함하는 테이블](advanced-hunting-schema-tables.md)에서 쿼리를 생성할 때 보낸 사람 또는 받는 사람 전자 메일 주소에서 사용자 계정 이름을 확인해야 할 수 있습니다. 이렇게 하려면 전자 메일 주소에서 *로컬 호스트*를 사용합니다.
 
-```
+```kusto
 AccountName = tostring(split(SenderFromAddress, "@")[0])
 ```
 
@@ -45,7 +45,7 @@ AccountName = tostring(split(SenderFromAddress, "@")[0])
 ### <a name="check-if-files-from-a-known-malicious-sender-are-on-your-devices"></a>알려진 악의적인 보낸 사람의 파일이 장치에 있는지 확인
 악의적인 파일을 보내는 전자 메일 주소를 알고 있다고 가정하고 이 쿼리를 실행하여 이 보낸 사람의 파일이 장치에 존재하는지 여부를 확인할 수 있습니다. 예를 들어 이 쿼리를 사용하여 맬웨어 배포 캠페인의 영향을 받는 장치 수를 판단할 수 있습니다.
 
-```
+```kusto
 //Get prevalence of files sent by a malicious sender in your organization
 EmailAttachmentInfo
 | where SenderFromAddress =~ "MaliciousSender@example.com"
@@ -59,7 +59,7 @@ DeviceFileEvents
 ### <a name="review-logon-attempts-after-receipt-of-malicious-emails"></a>악의적인 전자 메일을 받은 후에 로그온 시도를 검토합니다.
 이 쿼리는 알려진 악의적인 전자 메일을 받은 후 30분 이내에 전자 메일 받는 사람이 수행한 10개의 최신 로그온을 찾습니다. 이 쿼리를 사용하여 전자 메일 받는 사람의 계정이 노출되었는지 확인할 수 있습니다.
 
-```
+```kusto
 //Find logons that occurred right after malicious email was received
 let MaliciousEmail=EmailEvents
 | where MalwareFilterVerdict == "Malware" 
@@ -76,7 +76,7 @@ DeviceLogonEvents
 ### <a name="review-powershell-activities-after-receipt-of-emails-from-known-malicious-sender"></a>알려진 악의적인 보낸 사람의 전자 메일을 수신 후 PowerShell 활동 검토
 악의적인 전자 메일에는 종종 추가 페이로드를 전달하기 위해 PowerShell 명령을 실행하는 문서 및 특수하게 조작된 기타 첨부 파일이 포함 됩니다. 악의적인 발신자가 보낸 전자 메일을 알고 있는 경우 이 쿼리를 사용하여 보낸 사람으로부터 전자 메일을 받은 후 30분 이내에 발생한 PowerShell 활동을 나열하고 검토할 수 있습니다.  
 
-```
+```kusto
 //Find PowerShell activities right after email was received from malicious sender
 let x=EmailEvents
 | where SenderFromAddress =~ "MaliciousSender@example.com"
