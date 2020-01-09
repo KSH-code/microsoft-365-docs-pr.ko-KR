@@ -1,5 +1,5 @@
 ---
-title: Windows Pro 크리에이터 업데이트로 Windows 장치 업그레이드
+title: Windows를 Windows 10 Pro로 업그레이드
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -21,25 +21,25 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: ffc4d886-9e1d-453d-a0d0-2f62f18635e2
-description: 'Windows 장치를 Windows 10 Pro 크리에이터 업데이트로 업그레이드 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: e8399ad94ef58ad8fa5386d4ab0ed7fa4b8627a0
-ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
+description: 'Windows 장치를 Windows 10 Pro로 업그레이드 하는 방법에 대해 알아봅니다. '
+ms.openlocfilehash: acad4a393e0870299df768fd4c821d9c1e83ecac
+ms.sourcegitcommit: cf7b0fd80ecfb7a216111a801269c5322794795e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39831196"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "40995273"
 ---
-# <a name="upgrade-windows-devices-to-windows-pro-creators-update"></a>Windows Pro 크리에이터 업데이트로 Windows 장치 업그레이드
+# <a name="upgrade-windows-devices-to-windows-10-pro"></a>Windows를 Windows 10 Pro로 업그레이드
 
 Windows 장치를 Windows 10 Pro로 업그레이드 하는 방법에 대 한 간단한 비디오를 시청 하세요.<br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3t58j] 
 
-이 비디오를 통해 도움이 되는 경우에는 [소규모 기업을 위한 전체 교육 시리즈 및 Microsoft 365에 새로 소개 하](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)고 있습니다.
+이 비디오가 도움이 된 경우에는 [소규모 비즈니스 및 Microsoft 365를 처음 사용하는 사용자들을 위한 완전한 교육 시리즈](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)를 참조하세요.
 
-## <a name="upgrade-to-windows-10-pro-creators-update"></a>Windows 10 Pro 크리에이터 업데이트로 업그레이드
+## <a name="upgrade-to-windows-10-pro"></a>Windows 10 Pro로 업그레이드
   
-Windows 10 Pro 크리에이터 업데이트로 업그레이드 하려면 몇 가지 옵션을 사용할 수 있습니다. 다음을 수행할 수 있습니다.
+Windows 10 Pro로 업그레이드 하려면 몇 가지 옵션을 사용할 수 있습니다. 다음을 수행할 수 있습니다.
     
 - [Microsoft 소프트웨어 다운로드 사이트](https://go.microsoft.com/fwlink/?LinkID=836951 ) &ndash; 에서 업그레이드 설치 로그인 한 장치가 업데이트할 장치와 같은 장치에 있는 경우이 옵션을 선택 합니다. 
 
@@ -50,7 +50,7 @@ Windows 10 Pro 크리에이터 업데이트로 업그레이드 하려면 몇 가
     - 도구를 사용 하는 방법에 대 한 지침을 읽고 설치 미디어를 만드는 방법을 설명 합니다. 
 
 > [!NOTE]
-> Windows 장치를 실행 하는 windows 7 Pro, Windows 8 Pro 또는 Windows 8.1 Pro가 있는 경우 Microsoft 365 Business 구독을 통해 Windows 10 업그레이드를 수행할 수 있습니다. 제품 키가 필요 하지 않습니다.
+> Windows 장치를 실행 하는 windows 7 Pro, Windows 8 Pro 또는 Windows 8.1 Pro가 있는 경우 Microsoft 365 Business 구독을 통해 Windows Pro 10 업그레이드를 수행할 수 있습니다. 제품 키가 필요 하지 않습니다.
     
 Windows 10 장치 설정을 완료 하려면 [Microsoft 365 비즈니스 사용자를 위해 windows 장치](set-up-windows-devices.md) 설치를 참조 하세요. 
   

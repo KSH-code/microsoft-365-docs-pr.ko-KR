@@ -14,12 +14,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Exchange Online에서 오류 코드 5.7.7 xx의 전자 메일 문제를 해결 하는 방법에 대해 알아봅니다 (테 넌 트 차단 됨).
-ms.openlocfilehash: ff0e26447a7bcdeccfcc1983af63abea905849e4
-ms.sourcegitcommit: 3063e351e21614c236167e9cde40994d8b532bd6
+ms.openlocfilehash: 831efac29bb2e878585f97419dfd9dca67c67409
+ms.sourcegitcommit: cf7b0fd80ecfb7a216111a801269c5322794795e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40989533"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "40995232"
 ---
 # <a name="fix-email-delivery-issues-for-error-code-577xx-in-exchange-online"></a>Exchange Online에서 오류 코드 5.7.7 xx에 해당 하는 전자 메일 배달 문제 수정
 
@@ -39,7 +39,7 @@ Office 365을 사용 하면 테 넌 트에서 Exchange Online Protection (EOP)�
 
 - Office 365 사서함은 외부 보낸 사람 으로부터 전자 메일을 받습니다. 메일 전달은 Office 365 사서함에서 구성 되므로 메시지가 사용자의 외부 전자 메일 주소로 전달 됩니다. 이 시나리오는 학생 들이 자신의 개인 전자 메일 계정을 사용 하 여 학교 관련 메시지를 볼 수 있도록 하려는 교육 환경에서 가장 일반적입니다.
 
-- EOP를 통해 보내는 메일을 보내는 온-프레미스 전자 메일 서버가 있는 하이브리드 envrionments
+- EOP를 통해 보내는 메일을 보내는 온-프레미스 전자 메일 서버가 있는 하이브리드 환경
 
 ### <a name="problems-with-unregistered-domains"></a>등록 되지 않은 도메인 문제
 
@@ -57,7 +57,7 @@ Office 365을 사용 하면 테 넌 트에서 Exchange Online Protection (EOP)�
 
 2. Office 365 조 직의 모든 관리자에 대해 [MFA를 사용 하도록 설정](https://docs.microsoft.com/office365/admin/security-and-compliance/set-up-multi-factor-authentication) 합니다.
 
-3. 모든 전자 메일 도메인이 등록 되어 있는지 확인 합니다. 자세한 내용은 Exchange Online에서 [Office 365에 도메인 추가](https://docs.microsoft.com/en-us/office365/admin/setup/add-domain) 및 [허용 도메인 관리](https://docs.microsoft.com/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains)를 참조 하세요.
+3. 모든 전자 메일 도메인이 등록 되어 있는지 확인 합니다. 자세한 내용은 Exchange Online에서 [Office 365에 도메인 추가](https://docs.microsoft.com/office365/admin/setup/add-domain) 및 [허용 도메인 관리](https://docs.microsoft.com/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains)를 참조 하세요.
 
 4. 비정상적인 [커넥터](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow)를 찾습니다. 악의적인 행위자는 종종 Office 365 조직에서 새 인바운드 커넥터를 만들어 스팸을 보냅니다. 기존 커넥터를 보려면 [Office 365에서 커넥터 유효성 검사](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/validate-connectors)를 참조 하세요.
 

@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: Microsoft 365 Business의 설치 단계에 대 한 개요입니다.
-ms.openlocfilehash: 4aca617015cceb85ca35c8d8ada7b83d1416d959
-ms.sourcegitcommit: 178ecb21cacdeaf440f3df2fe6e539e9127fcf15
+ms.openlocfilehash: cab999493bf86ed0adf32521eaf6b3943f107f79
+ms.sourcegitcommit: cf7b0fd80ecfb7a216111a801269c5322794795e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/23/2019
-ms.locfileid: "40850807"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "40995253"
 ---
 # <a name="overview-of-setup"></a>설치 개요
 
@@ -36,7 +36,7 @@ Microsoft 365 Business setup에 대 한 간단한 비디오를 시청 하세요.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4jZwg] 
 
-이 비디오를 통해 도움이 되는 경우에는 [소규모 기업을 위한 전체 교육 시리즈 및 Microsoft 365에 새로 소개 하](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)고 있습니다.
+이 비디오가 도움이 된 경우에는 [소규모 비즈니스 및 Microsoft 365를 처음 사용하는 사용자들을 위한 완전한 교육 시리즈](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)를 참조하세요.
 
 대부분의 설치 단계는 설치 마법사에서 수행할 수 있지만 다른 옵션도 나열 됩니다.
 
@@ -61,7 +61,7 @@ Microsoft 365 Business setup에 대 한 간단한 비디오를 시청 하세요.
 - **Exchange Online Archiving**
 - **Azure Information Protection (Plan1**)
 
-시작 하려면 [고급 보안 정책 설정을](set-up-advanced-security.md)참조 하세요.
+시작 하려면 [위협 방지 강화](increase-threat-protection.md) 및 [규정 준수 기능](set-up-compliance.md)을 참조 하세요.
 
 모범 보안 관행 로드맵에 대해서는 [Microsoft 365 Business의 보안을 위한 상위 10 가지 방법](https://docs.microsoft.com/office365/admin/security-and-compliance/secure-your-business-data) 도 참조 하세요.
 
