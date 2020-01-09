@@ -199,23 +199,21 @@
           href: find-copy-and-delete-pst-files-in-your-organization.md
         - name: PST 파일을 가져올 때 데이터 필터링
           href: filter-data-when-importing-pst-files.md
-        - name: 네트워크 업로드를 사용하여 RMS 암호화 PST 파일 가져오기
-          href: use-network-upload-to-import-rms-encrypted-pst-files.md
         - name: PST 파일 가져오기에 대한 FAQ
           href: faqimporting-pst-files-to-office-365.md
-        - name: 타사 데이터 보관
-          href: archiving-third-party-data.md
-          items:
-            - name: '샘플 커넥터를 사용하여 Facebook 데이터 보관 '
-              href: archive-facebook-data-with-sample-connector.md
-            - name: 샘플 커넥터를 사용하여 Twitter 데이터 보관
-              href: archive-twitter-data-with-sample-connector.md
-            - name: LinkedIn 데이터를 보관할 커넥터 설정
-              href: archive-linkedin-data.md
-            - name: 즉석 Bloomberg 데이터를 보관할 커넥터 설정
-              href: archive-instant-bloomberg-data.md
-            - name: 타사 데이터를 저장하는 데 파트너와 협력
-              href: work-with-partner-to-archive-third-party-data.md
+    - name: 타사 데이터 보관
+      href: archiving-third-party-data.md
+      items:
+        - name: Facebook 데이터를 보관 하는 커넥터 설정
+          href: archive-facebook-data-with-sample-connector.md
+        - name: Twitter 데이터를 보관할 커넥터 설정
+          href: archive-twitter-data-with-sample-connector.md
+        - name: LinkedIn 데이터를 보관할 커넥터 설정
+          href: archive-linkedin-data.md
+        - name: 즉석 Bloomberg 데이터를 보관할 커넥터 설정
+          href: archive-instant-bloomberg-data.md
+        - name: 타사 데이터를 저장하는 데 파트너와 협력
+          href: work-with-partner-to-archive-third-party-data.md
     - name: 데이터 저장
       items:
         - name: 보관 사서함 사용
