@@ -1,7 +1,7 @@
 ---
 title: 민감도 레이블에서 암호화를 사용하여 콘텐츠 액세스 제한
-ms.author: laurawi
-author: laurawi
+ms.author: cabailey
+author: cabailey
 manager: laurawi
 audience: Admin
 ms.topic: article
@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 민감한 레이블을 만들면 레이블이 적용되는 콘텐츠에 대한 액세스를 제한할 수 있습니다. 민감도 레이블에서 암호화를 사용하여 내용을 보호할 수 있습니다.
-ms.openlocfilehash: aae46b8a6fa18c9af32005bca87ad80638b5b6c0
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 55a4096fb802608ac8c0e9777dc20b1026ba6b60
+ms.sourcegitcommit: 8ac1b6586678035050fc422e6fb503fa478be397
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38708172"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40962317"
 ---
 # <a name="restrict-access-to-content-by-using-encryption-in-sensitivity-labels"></a>민감도 레이블에서 암호화를 사용하여 콘텐츠 액세스 제한
 
@@ -48,10 +48,10 @@ ms.locfileid: "38708172"
 
 ## <a name="how-to-turn-on-encryption-for-a-sensitivity-label"></a>민감도 레이블의 암호화를 설정하는 방법
 
-시작하려면 먼저 **암호화**를 **설정**으로 전환하고 아래의 작업 여부를 선택합니다. 
+시작하려면 먼저 **암호화**를 **설정**으로 전환하고 아래의 작업 여부를 선택합니다.
 
 - 어떤 사용자에게 해당 레이블이 있는 콘텐츠에 어떤 권한을 부여할 것인지 정확하게 결정할 수 있도록 **지금 권한을 할당**합니다. 자세한 내용은 다음 섹션 [지금 권한 할당](#assign-permissions-now) 을 참조하세요.
-- 사용자가 콘텐츠에 레이블을 적용하는 경우 **사용자가 권한을 할당하도록** 허용할 수 있습니다. 이렇게 하면 조직의 사용자가 공동 작업과 작업 수행을 유연하게 할 수 있습니다. 자세한 내용은 아래 섹션 [사용자가 권한을 할당할 수 있도록 허용](#let-users-assign-permissions)을 참조하세요.
+- 사용자가 콘텐츠에 레이블을 적용하는 경우 **사용자가 권한을 할당하도록** 허용할 수 있습니다. 이렇게 하면 조직의 사용자가 공동 작업과 작업 수행을 유연하게 할 수 있습니다. 자세한 내용은이 페이지에서 [권한을 할당할 수 있도록 허용](#let-users-assign-permissions) 섹션을 참조하세요.
 
 예를 들어, 가장 중요한 콘텐츠에 적용되는 **극비**라는 민감도 레이블을 사용하는 경우 해당 콘텐츠의 사용 권한 유형을 받을 사용자를 결정하는 것이 좋습니다.
 
@@ -61,7 +61,7 @@ ms.locfileid: "38708172"
 
 ## <a name="assign-permissions-now"></a>지금 권한 할당
 
-아래 옵션을 사용하여 이 레이블이 적용되는 전자 메일 또는 문서에 액세스할 수 있는 사용자를 제어합니다. 다음을 수행할 수 있습니다.
+다음 옵션을 사용하여 이 레이블이 적용되는 전자 메일 또는 문서에 액세스할 수 있는 사용자를 제어합니다. 다음을 수행할 수 있습니다.
 
 1. 특정 날짜 또는 레이블을 지정한 후 특정 일수가 지나면 **레이블을 지정한 콘텐츠에 대한 액세스가 만료**되도록 합니다. 이 기간 이후 사용자는 레이블을 지정한 항목을 열 수 없습니다. 날짜를 지정하는 경우 표준 시간대의 해당 날짜 자정에 적용됩니다. 일부 전자 메일 클라이언트의 경우 캐싱 메커니즘으로 인해 만료 기능이 적용되지 않을 수 있으며 만료 날짜가 지난 전자 메일이 표시될 수 있습니다.
 
@@ -73,7 +73,7 @@ ms.locfileid: "38708172"
 
 사용자가 민감도 레이블로 보호되는 문서 또는 전자 메일을 오프라인으로 열면 사용자에게 해당 콘텐츠에 대한 Microsoft Azure AD Rights Management 사용 라이선스가 부여됩니다. 이 사용 라이선스는 문서 또는 전자 메일에 대한 사용자의 사용 권한 및 콘텐츠를 암호화하는 데 사용된 암호화 키가 포함된 인증서입니다. 사용 라이선스에는 만료 날짜가 설정된 경우 만료 날짜와 사용 라이선스가 유효한 기간이 포함되어 있습니다.
 
-만료 날짜가 설정된 경우 테넌트에 대한 기본 사용 라이선스의 유효 기간은 30일입니다. 사용 라이센스 동안 콘텐츠에 대해 다시 인증받지 않습니다. 이를 통해 인터넷에 연결하지 않고도 보호된 문서 또는 전자 메일을 계속 열 수 있습니다. 사용 라이선스 유효 기간이 만료되면 다음에 사용자가 보호된 문서 또는 전자 메일에 액세스할 때 다시 인증받아야 합니다.
+만료 날짜가 설정된 경우 테넌트에 대한 기본 사용 라이선스의 유효 기간은 30일입니다. 사용 라이센스 동안 콘텐츠에 대해 다시 인증받지 않습니다. 이 프로세스를 통해 인터넷에 연결하지 않고도 보호된 문서 또는 전자 메일을 계속 열 수 있습니다. 사용 라이선스 유효 기간이 만료되면 다음에 사용자가 보호된 문서 또는 전자 메일에 액세스할 때 다시 인증받아야 합니다.
 
 재인증 외에도 정책 및 사용자 그룹 구성원 자격이 다시 평가됩니다. 즉, 사용자가 마지막으로 콘텐츠에 액세스한 시점에서 정책이나 그룹 구성원에 변경된 사항이 있는 경우 사용자에게 동일한 문서 또는 전자 메일에 대해 다른 액세스 결과를 제공할 수 있습니다.
 
@@ -113,9 +113,9 @@ ms.locfileid: "38708172"
 
 ![미리 설정된 옵션 또는 사용자 지정 사용 권한](media/Sensitivity-Choose-permissions-settings.png)
 
-동일한 레이블로 다른 사용자에게 다른 권한을 부여할 수 있습니다. 예를 들어 아래 그림과 같이 단일 레이블로 일부 사용자를 검토자로 다른 사용자를 공동 작성자로 할당할 수 있습니다.
+동일한 레이블로 다른 사용자에게 다른 권한을 부여할 수 있습니다. 예를 들어 아래에 있는 스크린샷과 같이 단일 레이블에서 일부 사용자를 검토자로 할당하고 다른 사용자를 공동 작성자로 할당할 수 있습니다.
 
-이를 위해서는 사용자 또는 그룹을 추가하고 사용 권한을 할당하고 해당 설정을 저장합니다. 그런 다음 매번 이 단계를 반복하여 사용자를 추가하고 권한을 할당하고 설정을 저장합니다. 이 작업을 필요한 만큼 수행하여 여러 사용자에게 서로 다른 권한을 정의할 수 있습니다.
+이를 위해서는 사용자 또는 그룹을 추가하고 사용 권한을 할당하고 해당 설정을 저장합니다. 그런 다음 매번 이 단계를 반복하여 사용자를 추가하고 권한을 할당하고 설정을 저장합니다. 이 구성을 필요한 만큼 수행하여 여러 사용자에게 서로 다른 권한을 정의할 수 있습니다.
 
 ![다른 사용 권한을 가진 다른 사용자](media/Sensitivity-Multiple-users-permissions.png)
 
@@ -147,7 +147,7 @@ ms.locfileid: "38708172"
 사용자가 권한을 할당할 수 있도록 허용하는 민감도 레이블은 사용자가 수동으로만 콘텐츠에 적용할 수 있으므로, 이를 추천 레이블로 자동 적용 또는 사용할 수 없습니다.
 
 > [!NOTE]
-> 사용자가 권한을 할당하도록 허용하려면 Azure Information Protection 구독이 필요합니다. Word, PowerPoint 및 Excel에서 이 기능을 사용하려면 [Azure Information Protection 통합 레이블 지정 클라이언트](https://docs.microsoft.com/azure/information-protection/rms-client/install-unifiedlabelingclient-app)를 다운로드하여 설치해야 합니다. Office 앱에서 이 기능에 대한 기본 지원에 대해 작업하고 있으므로 Azure Information Protection 클라이언트를 사용하지 않아도 됩니다. 또한, 클라이언트는 Windows에서만 실행되므로 Mac, iOS, Android 또는 웹용 Office에서는 이 기능이 아직 지원되지 않습니다.
+> 사용자가 권한을 할당하도록 허용하려면 Azure Information Protection 구독이 필요합니다. Word, PowerPoint 및 Excel에서 이 기능을 사용하려면 [Azure Information Protection 통합 레이블 지정 클라이언트](https://docs.microsoft.com/azure/information-protection/rms-client/install-unifiedlabelingclient-app)를 다운로드하여 설치해야 합니다. Office 앱에서 이 기능에 대한 기본 지원에 대해 작업하고 있으므로 Azure Information Protection 클라이언트를 사용하지 않아도 됩니다. 또한, 이 클라이언트는 Windows에서만 실행되므로 Mac, iOS, Android 또는 웹용 Office에서는 이 기능이 아직 지원되지 않습니다.
 
 ![사용자 정의 권한에 대한 암호화 설정](media/sensitivity-encryption-settings-for-user-defined-permissions.png)
 
@@ -215,5 +215,5 @@ OneDrive 및 SharePoint에 저장된 파일에 암호화가 적용되어 있으�
 
 Exchange에서 이러한 추가 시나리오를 지원할 수 있는지 확인하려면 다음을 참조하세요.
 
-- Exchange Online의 경우 [Exchange Online: IRM 구성](https://docs.microsoft.com/azure/information-protection/configure-office365#exchange-online-irm-configuration)에 대한 설명서를 참고하세요.
+- Exchange Online의 경우 [Exchange Online: IRM 구성](https://docs.microsoft.com/azure/information-protection/configure-office365#exchangeonline-irm-configuration)에 대한 설명서를 참고하세요.
 - Exchange 온-프레미스의 경우 [RMS 커넥터를 배포하고 Exchange 서버를 구성](https://docs.microsoft.com/azure/information-protection/deploy-rms-connector)해야 합니다. 

@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 민감도 레이블을 사용하여 사용자의 생산성 및 공동 작업 능력이 저하되지 않도록 하면서 중요한 콘텐츠를 분류 및 보호할 수 있습니다. 민감도 레이블을 사용하여 레이블이 지정된 콘텐츠에 암호화 및 워터마크를 포함하는 보호 설정을 적용할 수 있습니다.
-ms.openlocfilehash: f85d94b918c96ea6505b9b52d386e7f30a3fe77a
-ms.sourcegitcommit: 920bca353d16e9b1e5d4d268e0410ef179eced37
+ms.openlocfilehash: 465b22b7d57718e5b1f38951804d2f76c10ebb3f
+ms.sourcegitcommit: 8ac1b6586678035050fc422e6fb503fa478be397
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 01/07/2020
-ms.locfileid: "40948873"
+ms.locfileid: "40962347"
 ---
 # <a name="overview-of-sensitivity-labels"></a>민감도 레이블 개요
 
@@ -54,11 +54,11 @@ ms.locfileid: "40948873"
   
 **분류** > **민감도 레이블**에 준하여 Microsoft 365 규정 준수 센터, Microsoft 365 보안 센터 또는 Office 365 보안 및 준수 센터에서 민감도 레이블을 만듭니다. 이러한 민감도 레이블은 Azure Information Protection, Office 앱 및 Office 365 서비스에서 사용할 수 있습니다.
 
-Azure Information Protection 고객의 경우 다른 관리 센터에서 Azure Information Protection 레이블을 사용할 수 있으며 추가 또는 고급 구성을 수행하기로 선택한 경우 레이블이 Azure 포털과 동기화됩니다. **Azure Information Protection 레이블과 Office 365 민감도 레이블은 서로 완벽하게 호환됩니다.** 예를 들어, Azure Information Protection으로 분류된 콘텐츠가 있는 경우 콘텐츠를 재 분류하거나 레이블을 다시 지정할 필요가 없습니다. 
+Azure Information Protection 고객의 경우 다른 관리 센터에서 Azure Information Protection 레이블을 사용할 수 있으며 추가 또는 고급 구성을 수행하기로 선택한 경우 레이블이 Azure 포털과 동기화됩니다. Azure Information Protection 레이블과 Office 365 민감도 레이블은 서로 호환됩니다. 예를 들어, Azure Information Protection으로 콘텐츠의 레이블을 지정한 경우에는 콘텐츠를 다시 분류하거나 레이블 지정할 필요가 없습니다.
 
 ## <a name="what-a-sensitivity-label-is"></a>민감도 레이블이란?
 
-문서 또는 전자 메일에 민감도 레이블을 할당할 경우 다음과 같은 태그와 비슷합니다.
+문서 또는 전자 메일에 민감도 레이블을 할당하는 경우 다음과 같은 콘텐츠에 적용되는 스탬프입니다.
 
 - **사용자 지정 가능.** 조직에서다양한 수준의 중요한 콘텐츠에 대해 개인, 공개, 일반, 기밀 및 극비와 같은 범주를 만들 수 있습니다.
 
@@ -66,7 +66,7 @@ Azure Information Protection 고객의 경우 다른 관리 센터에서 Azure I
 
 - **지속적.** 민감도 레이블을 컨텐츠에 적용한 후 레이블은 해당 전자 메일이나 문서의 메타 데이터에서 지속됩니다. 즉, 레이블은 보호 설정을 포함하여 콘텐트와 로밍하고 이 데이터는 정책을 적용하고 시행하는 데 기반이 됩니다.
 
-Office 앱에서 민감도 레이블은 전자 메일 또는 문서에서 단순히 태그로 표시됩니다.
+Office 앱의 경우, 민감도 레이블이 전자 메일 또는 문서에서 사용자에게 태그와 같이 표시됩니다.
 
 각 콘텐츠 항목에 단일 민감도 레이블을 적용할 수 있습니다. 하나의 항목에 단일 민감도 레이블과 단일 [보존 레이블](labels.md)을 모두 적용할 수 있습니다.
 
@@ -153,7 +153,7 @@ Office 앱에서 민감도 레이블은 전자 메일 또는 문서에서 단순
 
 레이블 정책을 만들고 사용자 및 그룹에게 민감도 레이블을 할당하면 해당 사용자나 그룹은 1시간 이내에 Office 앱에서 해당 레이블이 사용 가능하다는 것을 확인할 수 있습니다.
 
-만들고 게시할 수 있는 민감도 레이블의 수에는 제한이 없지만 한 가지 예외적인 경우가 있습니다. 레이블에 암호화가 적용되는 경우의 최대 레이블의 수는 500개입니다. 하지만 최상의 방식은 관리자 오버 헤드를 최소화하고 사용자의 복잡성을 줄이기 위해 레이블의 수를 최소로 유지하는 것입니다. 사용자에게 5개 이상의 주 레이블과 주 레이블당 5개 이상의 하위 레이블이 있는 경우 효과성이 감소되는 것이 실제 배포 결과를 통해 입증되었습니다.
+만들고 게시할 수 있는 민감도 레이블의 수에는 제한이 없지만 한 가지 예외적인 경우가 있습니다. 레이블에 암호화가 적용되는 경우의 최대 레이블의 수는 500개입니다. 하지만 최상의 방식은 관리자 오버헤드를 낮추고 사용자의 복잡성을 줄이기 위해 레이블의 수를 최소로 유지하는 것입니다. 사용자에게 6개 이상의 주 레이블 또는 주 레이블당 6개 이상의 하위 레이블이 있는 경우 효과가 확연하게 감소하는 것이 실제 배포 결과를 통해 입증되었습니다.
 
 ### <a name="label-policy-priority-order-matters"></a>레이블 정책 우선 순위(순서 중요)
 
@@ -195,7 +195,7 @@ Office 앱에서 민감도 레이블은 전자 메일 또는 문서에서 단순
 
 - [Outlook에서의 민감도 레이블 기능에 대한 지원](sensitivity-labels-office-apps.md#support-for-sensitivity-label-capabilities-in-outlook)
 
-Windows 컴퓨터에 Azure Information Protection 통합 레이블 지정 클라이언트를 사용 하는 경우 민감도 레이블에 대한 추가 기능을 사용할 수 있습니다. 자세한 내용은 [Windows 컴퓨터에 대한 레이블 지정 클라이언트 비교](https://docs.microsoft.com/azure/information-protection/rms-client/use-client#compare-the-labeling-clients-for-windows-computers)를 참조하세요. 
+Windows 컴퓨터에 Azure Information Protection 통합 레이블 지정 클라이언트를 사용 하는 경우 민감도 레이블에 대한 추가 기능을 사용할 수 있습니다. 자세한 내용은 [Windows 컴퓨터에 대한 레이블 지정 클라이언트 비교](https://docs.microsoft.com/azure/information-protection/rms-client/use-client#compare-the-labeling-clients-for-windows-computers)를 참조하세요.
 
 ### <a name="office-apps-on-windows"></a>Windows의 Office 앱
 
@@ -243,7 +243,7 @@ Azure Information Protection 사용자는 Azure Information Protection 통합 �
 테넌트가 아직 [통합 레이블 지정 플랫폼](https://docs.microsoft.com/azure/information-protection/faqs#how-can-i-determine-if-my-tenant-is-on-the-unified-labeling-platform)에 있지 않기 때문에 Azure Information Protection 레이블을 사용하는 경우, 통합 레이블 지정을 활성화할 때까지 다른 관리 센터에서 새 레이블을 만들지 않을 것을 권장합니다. 이 프로세스에 대한 자세한 내용은 [Azure Information Protection 레이블을 통합 민감도 레이블 지정으로 마이그레이션하는 방법](https://docs.microsoft.com/azure/information-protection/configure-policy-migrate-labels)을 참조하세요. 
 
 > [!NOTE]
->  Azure 포털의 Azure Information Protection 레이블에 대한 레이블 관리는 **2021년 3월 31일**부로 더 이상 사용되지 않습니다. 공식 [사용 중단 통지](https://techcommunity.microsoft.com/t5/azure-information-protection/deprecation-notice-azure-information-protection-classic-client/ba-p/1092108)에서 자세히 알아보세요.
+> Azure 포털의 Azure Information Protection 레이블에 대한 레이블 관리는 **2021년 3월 31일**부로 더 이상 사용되지 않습니다. 공식 [사용 중단 통지](https://techcommunity.microsoft.com/t5/azure-information-protection/deprecation-notice-azure-information-protection-classic-client/ba-p/1092108)에서 자세히 알아보세요.
 
 ## <a name="sensitivity-labels-and-the-azure-information-protection-client"></a>민감도 레이블 및 Azure Information Protection 클라이언트
 

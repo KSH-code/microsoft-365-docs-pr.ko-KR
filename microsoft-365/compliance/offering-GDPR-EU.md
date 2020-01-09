@@ -11,12 +11,13 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 3002d8bca20f7505287420d700aff60fec1af966
-ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
+titleSuffix: Microsoft Compliance
+ms.openlocfilehash: 3380ee774388700fd8eca255a805b5595f1c9cda
+ms.sourcegitcommit: 82baed362528fed30e9e09c6a4a37c07be2f138d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39859778"
+ms.lasthandoff: 01/07/2020
+ms.locfileid: "40959606"
 ---
 # <a name="general-data-protection-regulation-gdpr"></a>GDPR(일반 데이터 보호 규정)
 
@@ -67,9 +68,13 @@ Microsoft 고객 INAIL이 GDPR에 대비하기 위해 Azure Information Protecti
 
 [준수 관리자](https://go.microsoft.com/fwlink/p/?linkid=2048390)를 사용하여 지속적인 위험 평가를 수행하고 실행 가능한 인사이트를 확보하고 규정 준수 프로세스를 단순화하세요.
 
-### <a name="security-and-compliance-center"></a>보안 및 준수 센터
+### <a name="microsoft-365-compliance-center"></a>Microsoft 365 규정 준수 센터
 
-Microsoft 365 [보안 및 준수 센터](https://docs.microsoft.com/microsoft-365/security/office-365-security/microsoft-security-and-compliance)에서는 보안 및 규정 준수 컨트롤을 검색할 수 있습니다.
+[Microsoft 365 준수 센터](microsoft-365-compliance-center.md)를 사용하여 규정 준수 제어를 검색할 수 있습니다.
+
+### <a name="microsoft-365-security-center"></a>Microsoft 365 보안 센터
+
+[Microsoft 365 보안 센터](https://docs.microsoft.com/microsoft-365/security/mtp/overview-security-center)를 사용하여 보안 제어를 검색할 수 있습니다.
 
 ### <a name="discover-compliance-solutions"></a>규정 준수 솔루션 검색하기
 
