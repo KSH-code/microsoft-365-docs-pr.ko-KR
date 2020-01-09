@@ -25,12 +25,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Microsoft 365 Business에 대해 자세히 알아보세요.
-ms.openlocfilehash: 1d4eb62a31cc44ab8dc75964c038f0a3deef4005
-ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
+ms.openlocfilehash: eafd03be90c128051c8c91bc339af69a0a613136
+ms.sourcegitcommit: d48b7852383262083a6a109530d84f0858cb3801
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39831436"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "40999557"
 ---
 # <a name="overview-of-microsoft-365-business"></a>Microsoft 365 비즈니스 개요
 
@@ -42,7 +42,7 @@ Microsoft 365 Business에 대 한 간략 한 개요를 보려면이 비디오를
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2mhaA] 
   
-이 비디오를 통해 도움이 되는 경우에는 [소규모 기업을 위한 전체 교육 시리즈 및 Microsoft 365에 새로 소개 하](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)고 있습니다. 
+이 비디오가 도움이 된 경우에는 [소규모 비즈니스 및 Microsoft 365를 처음 사용하는 사용자들을 위한 완전한 교육 시리즈](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)를 참조하세요. 
 
 Microsoft 365 Business는 최대 300의 라이선스를 의미 합니다. 라이선스가 더 필요한 경우 자세한 내용은 [Microsoft 365 Enterprise](https://go.microsoft.com/fwlink/p/?linkid=860986) 설명서를 참조 하세요.
 
@@ -99,7 +99,7 @@ Microsoft 365 Business는 다음과 같은 방법으로 **위협을 defended** �
 
 - 간소화 된 컨트롤을 사용 하 여 회사의 모든 Windows 10 Pc에 대 한 정책을 관리 하 고 BitLocker 암호화를 적용 하 고 중요 Windows 업데이트를 자동으로 설치 합니다 (Windows update 정책 적용).
 
-전체 보안 기능 목록을 보려면 [Microsoft 365 Business security features](security-features.md)를 참조 하세요. [Microsoft 365 Business를 설정한](set-up.md)후에는 안내 설치의 일부로 포함 되지 않은 보안 기능을 시작 하려면 [고급 보안 정책 설정을](set-up-advanced-security.md) 참조 하십시오. 사이버 범죄자 및 해커 로부터 보호를 설정 하는 방법에 대 한 자세한 내용은 [Office 365 및 Microsoft 365 비즈니스 요금제를 보호 하기 위한 상위 10 가지 방법을](https://docs.microsoft.com/office365/admin/security-and-compliance/secure-your-business-data) 읽어 보세요.
+전체 보안 기능 목록을 보려면 [Microsoft 365 Business security features](security-features.md)를 참조 하세요. [Microsoft 365 Business를 설정한](set-up.md)후에는 [위협 방지 향상](increase-threat-protection.md) 및 [규정 준수 기능 설정](set-up-compliance.md) 에서 안내 하는 설치의 일부로 포함 되지 않은 보안 기능을 시작 합니다. 사이버 범죄자 및 해커 로부터 보호를 설정 하는 방법에 대 한 자세한 내용은 [Office 365 및 Microsoft 365 비즈니스 요금제를 보호 하기 위한 상위 10 가지 방법을](https://docs.microsoft.com/office365/admin/security-and-compliance/secure-your-business-data) 읽어 보세요.
 
 ## <a name="get-microsoft-365-business"></a>Microsoft 365 Business 받기
 

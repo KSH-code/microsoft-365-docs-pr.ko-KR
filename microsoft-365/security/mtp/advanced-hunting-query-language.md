@@ -15,12 +15,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: df811e38c55becf9ba52de40891fc1201d0afae0
-ms.sourcegitcommit: 72d0280c2481250cf9114d32317ad2be59ab6789
+ms.openlocfilehash: b2b42c6a49a4422d73148b06e8379dcf1336e926
+ms.sourcegitcommit: d48b7852383262083a6a109530d84f0858cb3801
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40966886"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "40999612"
 ---
 # <a name="learn-the-advanced-hunting-query-language"></a>고급 헌팅 쿼리 언어 알아보기
 
@@ -88,7 +88,7 @@ DeviceProcessEvents
 
 ```kusto
 | project Timestamp, DeviceName, InitiatingProcessFileName, FileName, ProcessCommandLine
-| top 100 by Timestamp'
+| top 100 by Timestamp
 ```
 
 **쿼리 실행**을 클릭하여 결과를 확인합니다. 헌팅 쿼리와 결과에 집중할 수 있도록 화면 보기를 확장할 수 있습니다.
