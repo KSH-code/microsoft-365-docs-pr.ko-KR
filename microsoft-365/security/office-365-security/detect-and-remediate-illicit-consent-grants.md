@@ -14,12 +14,12 @@ localization_priority: Normal
 search.appverid:
 - MET150
 description: Office 365에서 불법 동의 권한 부여 공격을 인식하고 교정하는 방법에 대해 알아보세요.
-ms.openlocfilehash: 46387f82a38c33debdc24a6825479bf3183f0283
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 0f4569a4ef8496a07fc1dc52f500ee91a6590fdd
+ms.sourcegitcommit: 3063e351e21614c236167e9cde40994d8b532bd6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40808433"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40989543"
 ---
 # <a name="detect-and-remediate-illicit-consent-grants-in-office-365"></a>Office 365에서 불법 동의 권한 부여 검색 및 교정
 
@@ -32,6 +32,7 @@ ms.locfileid: "40808433"
 ## <a name="what-does-an-illicit-consent-grant-attack-look-like-in-office-365"></a>불법 동의 권한 부여는 Office 365에서 어떻게 보이나요?
 
 이 공격의 IOC(침해 지표)라고도 하는 신호를 찾으려면 Office 365 **감사 로그**를 검색해야 합니다. 여러 Azure 등록 응용 프로그램 및 대규모 사용자를 포함하는 조직의 경우 가장 좋은 방법은 주 단위로 조직 동의 권한 부여를 검토하는 것입니다.
+
 ### <a name="steps-for-finding-signs-of-this-attack"></a>이 공격의 신호를 찾는 단계
 
 1. Office 365 테넌트에서 **보안 및 준수 센터**를 엽니다.

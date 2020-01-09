@@ -15,12 +15,12 @@ ms.assetid: 978c3173-3578-4286-aaf4-8a10951978bf
 ms.collection:
 - M365-security-compliance
 description: 스팸 방지 설정 페이지의 보안 &amp; 준수 센터에서 스푸핑 인텔리전스를 사용 하 여 조직의 일부인 도메인을 위장 하는 모든 보낸 사람을 검토 하거나 외부 도메인을 위장 합니다. 스푸핑 인텔리전스는 Advanced Threat Protection 및 Exchange Online Protection의 일부로 Office 365 Enterprise E5의 일부로 사용할 수 있습니다.
-ms.openlocfilehash: 67c992dea66d5497d232db3c030cc00dd00db45b
-ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
+ms.openlocfilehash: 2f6a68446698747fe31261c7e892c50e6ec5c7f4
+ms.sourcegitcommit: 3063e351e21614c236167e9cde40994d8b532bd6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "39970434"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40989493"
 ---
 # <a name="learn-more-about-spoof-intelligence"></a>스푸핑 인텔리전스에 대해 자세히 알아보기
 
@@ -79,9 +79,9 @@ ms.locfileid: "39970434"
 
     ![스팸 방지 페이지에 대 한 액세스를 보여 주는 스크린샷](../media/0a098e68-5ecf-40d7-984f-d15fcc1f958d.jpg)
 
-4. 오른쪽 창의 **스팸 방지 설정** 페이지에서 **사용자 지정** 탭을 선택한 다음 아래로 스크롤하고 **스푸핑 인텔리전스 정책을**확장 합니다.
+4. 오른쪽 창의 **스팸 방지 설정** 페이지에서 아래로 스크롤하고 **스푸핑 인텔리전스 정책을**확장 합니다.
 
-    ![스팸 방지 사용자 지정 설정에 대 한 액세스를 보여 주는 스크린샷](../media/a5112100-0b37-460f-932d-5b2f98157871.jpg)
+    ![신분을](https://user-images.githubusercontent.com/41186174/71801032-6228f100-3062-11ea-8461-682b910418c2.png)
 
 5. 도메인에 대 한 보낸 사람 스푸핑 목록을 보려면 **새 보낸 사람 검토** 를 선택 하 고 **도메인** 탭을 선택 합니다.
 

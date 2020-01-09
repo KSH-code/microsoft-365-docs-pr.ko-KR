@@ -14,12 +14,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Exchange Online에서 오류 코드 5.7.7 xx의 전자 메일 문제를 해결 하는 방법에 대해 알아봅니다 (테 넌 트 차단 됨).
-ms.openlocfilehash: cbfff7fc0905206a0302f7e1a458718637d934b7
-ms.sourcegitcommit: 8ac1b6586678035050fc422e6fb503fa478be397
+ms.openlocfilehash: ff0e26447a7bcdeccfcc1983af63abea905849e4
+ms.sourcegitcommit: 3063e351e21614c236167e9cde40994d8b532bd6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40962307"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40989533"
 ---
 # <a name="fix-email-delivery-issues-for-error-code-577xx-in-exchange-online"></a>Exchange Online에서 오류 코드 5.7.7 xx에 해당 하는 전자 메일 배달 문제 수정
 
@@ -55,18 +55,20 @@ Office 365을 사용 하면 테 넌 트에서 Exchange Online Protection (EOP)�
 
 1. 모든 전자 메일 도메인이 등록 되어 있는지 확인 합니다. 자세한 내용은 Exchange Online에서 [Office 365에 도메인 추가](https://docs.microsoft.com/office365/admin/setup/add-domain) 및 [허용 도메인 관리](https://docs.microsoft.com/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains)를 참조 하세요.
 
-2. 비정상적인 [커넥터](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow)를 찾습니다. 악의적인 행위자는 종종 Office 365 조직에서 새 인바운드 커넥터를 만들어 스팸을 보냅니다. 기존 커넥터를 보려면 [Office 365에서 커넥터 유효성 검사](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/validate-connectors)를 참조 하세요.
+2. Office 365 조 직의 모든 관리자에 대해 [MFA를 사용 하도록 설정](https://docs.microsoft.com/office365/admin/security-and-compliance/set-up-multi-factor-authentication) 합니다.
 
-3. [Office 365에서 손상 된 전자 메일 계정에 응답 하는](responding-to-a-compromised-email-account.md)것으로 설명 되어 있는 사용자가 손상 되었는지 확인 합니다.
+3. 모든 전자 메일 도메인이 등록 되어 있는지 확인 합니다. 자세한 내용은 Exchange Online에서 [Office 365에 도메인 추가](https://docs.microsoft.com/en-us/office365/admin/setup/add-domain) 및 [허용 도메인 관리](https://docs.microsoft.com/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains)를 참조 하세요.
 
-4. Office 365 조 직의 모든 관리자에 대해 [MFA를 사용 하도록 설정](https://docs.microsoft.com/office365/admin/security-and-compliance/set-up-multi-factor-authentication) 합니다.
+4. 비정상적인 [커넥터](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/use-connectors-to-configure-mail-flow)를 찾습니다. 악의적인 행위자는 종종 Office 365 조직에서 새 인바운드 커넥터를 만들어 스팸을 보냅니다. 기존 커넥터를 보려면 [Office 365에서 커넥터 유효성 검사](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/validate-connectors)를 참조 하세요.
 
-5. 온-프레미스 전자 메일 서버를 잠그고 해당 서버가 손상 되지 않았는지 확인 합니다.
+5. [Office 365에서 손상 된 전자 메일 계정에 응답 하는](responding-to-a-compromised-email-account.md)것으로 설명 되어 있는 사용자가 손상 되었는지 확인 합니다.
+
+6. 온-프레미스 전자 메일 서버를 잠그고 해당 서버가 손상 되지 않았는지 확인 합니다.
 
    > [!TIP]
    > 특히 타사 서버를 사용 하는 경우에는 여러 가지 요인이 있습니다. 모든 경우에는 이제 모든 보내는 전자 메일이 합법적 인지 확인 해야 합니다.
 
-6. Microsoft 지원 서비스에 문의 하 여 등록 되지 않은 도메인에서 다시 보내기 위해 테 넌 트의 차단을 해제 하도록 요청 합니다. 오류 코드가 도움이 되지만 사용자 환경에 대 한 보안이 유지 되 고 스팸 메일을 보낼 수 없다는 사실을 입증 해야 합니다. 지원 사례를 열려면 [비즈니스 제품에 대 한 지원 문의-관리자 도움말](https://docs.microsoft.com/office365/admin/contact-support-for-business-products)을 참조 하세요.
+7. Microsoft 지원 서비스에 문의 하 여 전자 메일을 다시 보내기 위해 테 넌 트 차단 해제를 요청 합니다. 오류 코드가 도움이 되지만 사용자 환경에 대 한 보안이 유지 되 고 스팸 메일을 보낼 수 없다는 사실을 입증 해야 합니다. 지원 사례를 열려면 [비즈니스 제품에 대 한 지원 문의-관리자 도움말](https://docs.microsoft.com/office365/admin/contact-support-for-business-products)을 참조 하세요.
 
 ## <a name="for-more-information"></a>자세한 내용
 

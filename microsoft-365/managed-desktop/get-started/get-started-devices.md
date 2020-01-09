@@ -7,12 +7,12 @@ author: jaimeo
 ms.author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: ae544592184b9de1b5a515ccd21af74185486d58
-ms.sourcegitcommit: f64397f3b144de36605da8d7116c46010765346d
+ms.openlocfilehash: 59cdb911c46fbb2ad5dd998810297a5502c8fa0c
+ms.sourcegitcommit: 3063e351e21614c236167e9cde40994d8b532bd6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "38697161"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40989553"
 ---
 # <a name="get-your-users-ready-to-use-devices"></a>사용자들이 장치를 사용할 수 있도록 준비시키기
 
@@ -23,7 +23,7 @@ Microsoft Managed Desktop 장치가 최종 사용자의 손에 온 후에는 빠
 ## <a name="to-prepare-the-guide"></a>가이드를 준비 하려면
 
 1. 조직에 적합 한 버전을 다운로드 합니다.
-- [Microsoft Managed Desktop-장치에서 시작 하기 (도움말 버전 보기)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-started/downloads/microsoft-managed-desktop-user-guide-help-custom-v2.pdf) -최종 사용자가 Microsoft의 지원 시스템을 사용 하는 경우이 버전을 사용 합니다.
+- [Microsoft Managed Desktop-장치에서 시작 하기 (도움말 버전 보기)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-started/downloads/microsoft-managed-desktop-user-guide-help-custom-v3.pdf) -최종 사용자가 Microsoft의 지원 시스템을 사용 하는 경우이 버전을 사용 합니다.
 - [Microsoft Managed Desktop-장치에서 시작](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-started/downloads/microsoft-managed-desktop-user-guide-no-help-custom-v2.pdf) -최종 사용자가 Microsoft의 지원 시스템을 사용 *하지 않는* 경우에는이 버전을 사용 하세요.
 2. PDF 파일을 열 수 있는 앱을 사용 하 여 조직과 관련 된 세부 정보를 입력 합니다.
     - 설치를 계속 하기 위해 사용자가 연결할 네트워크의 이름입니다 (가이드의 3 단계).
@@ -33,15 +33,15 @@ Microsoft Managed Desktop 장치가 최종 사용자의 손에 온 후에는 빠
 
 ## <a name="ready-to-use-guide"></a>"사용 준비가 완료 된 가이드"
 
-또한 사용자 지정할 필요가 없는 조직에 대해 보다 일반적인 가이드 버전을 제공 합니다. Microsoft의 지원 시스템 (Get Help app)을 사용 하는 조직에 대 한 두 가지 버전, 즉 고유한 최종 사용자 지원을 제공 하는 조직을 위한 버전이 있습니다.
+또한 사용자 지정할 필요가 없는 조직에 대해 보다 일반적인 가이드 버전을 제공 합니다. Microsoft의 지원 시스템 (Get Help app)을 사용 하는 조직에는 사용자에 게 다른 지원을 제공 하는 두 가지 버전이 있습니다. 
 
-- [Microsoft Managed Desktop-장치 시작 (도움말 버전-사용 준비)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-started/downloads/microsoft-managed-desktop-user-guide-help-v2.pdf) -최종 사용자가 Microsoft의 지원 시스템을 사용 하는 경우이 버전을 사용 합니다.
+- [Microsoft Managed Desktop-장치 시작 (도움말 버전-사용 준비)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-started/downloads/microsoft-managed-desktop-user-guide-help-v3.pdf) -최종 사용자가 Microsoft의 지원 시스템을 사용 하는 경우이 버전을 사용 합니다.
 - [Microsoft Managed Desktop-장치 작업 시작 (사용 준비)](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-started/downloads/microsoft-managed-desktop-user-guide-no-help-v2.pdf) -최종 사용자가 Microsoft의 지원 시스템을 사용 *하지 않는* 경우이 버전을 사용 하세요.
 
 이제 앱을 배포 하는 작업을 진행할 준비가 되었습니다.
 
 
-## <a name="steps-to-get-started-with-microsoft-managed-desktop"></a>Microsoft Managed Desktop을 시작 하기 위한 단계
+## <a name="steps-to-get-started-with-microsoft-managed-desktop"></a>Microsoft Managed Desktop을 시작하기 위한 단계
 
 1. [관리 포털에서 관리자 연락처 추가 및 확인](add-admin-contacts.md)
 2. [조건부 액세스 조정](conditional-access.md)
