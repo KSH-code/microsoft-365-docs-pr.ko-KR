@@ -1,7 +1,7 @@
 ---
 title: 이벤트 구동 보존 개요
-ms.author: laurawi
-author: laurawi
+ms.author: cabailey
+author: cabailey
 manager: laurawi
 ms.date: ''
 audience: Admin
@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 레이블을 사용하여 특정 유형의 이벤트가 발생하는 시점을 기준으로 보존 기간을 지정할 수 있습니다. 이벤트는 보존 기간의 시작을 트리거하며, 해당 유형의 이벤트에 적용된 보존 레이블이 있는 모든 콘텐츠에 대해 레이블 보존 작업이 적용됩니다. 이벤트 기반 보존은 일반적으로 기록 관리 프로세스의 일부로 사용됩니다.
-ms.openlocfilehash: 08e4f8b5a761cfd80d1b2039c5e2b7a9c1fee981
-ms.sourcegitcommit: 0830be61e21570ee3a2589e35c21f358b52585c0
+ms.openlocfilehash: 109b6104f2a06559beae0148b581854f44e6394a
+ms.sourcegitcommit: 3063e351e21614c236167e9cde40994d8b532bd6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/29/2019
-ms.locfileid: "39268587"
+ms.lasthandoff: 01/08/2020
+ms.locfileid: "40989574"
 ---
 # <a name="overview-of-event-driven-retention"></a>이벤트 구동 보존 개요
 
@@ -61,7 +61,7 @@ ms.locfileid: "39268587"
     
   - 키워드(Exchange 항목 관련). 이 예제에서 조직은 Exchange 항목에 대한 키워드가 SharePoint 및 OneDrive 문서에 대한 자산 ID와 동일하도록 제품 레코드를 포함하는 메시지에 제품 코드를 사용 합니다.
     
-  - 이벤트가 발생한 날짜. 이 날짜는 보존 기간의 시작으로 사용됩니다. 이 날짜는 현재 또는 미래 날짜만 될 수 있으며 이전 날짜는 될 수 없습니다.
+  - 이벤트가 발생한 날짜. 이 날짜는 보존 기간의 시작 날짜로 사용됩니다. 이 날짜는 현재, 과거 또는 미래의 날짜가 될 수 있습니다.
     
 4. 이벤트를 만든 후 해당 이벤트 날짜가 해당 이벤트 유형의 레이블이 지정되고 지정된 자산 ID 또는 키워드를 포함하는 모든 콘텐츠와 동기화됩니다. 다른 레이블과 마찬가지로, 이러한 동기화에는 최대 7일이 걸릴 수 있습니다. 위의 다이어그램에서 빨간색 원으로 표시된 모든 항목은 해당 보존 기간이 이 이벤트로 트리거됩니다. 즉, 이 제품의 수명이 종료되면 이벤트는 해당 제품 기록에 대한 보존 기간을 트리거합니다.
     

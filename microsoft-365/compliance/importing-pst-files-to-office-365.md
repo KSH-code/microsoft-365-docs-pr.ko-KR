@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MET150
 ms.assetid: ba688e0a-0fcb-4bd7-8e57-2b669564ea84
 description: '관리자용: 보안 & 준수 센터에서 가져오기 서비스를 사용하여 Exchange Online의 전자 메일 데이터 (PST 파일)를 사용자 사서함으로 한 번에 대량으로 가져오는 방법에 대해 알아보세요. 이 항목에서는 FAQ를 제공하고 PST 가져 오기 프로세스가 어떻게 작동하는지 설명합니다.'
-ms.openlocfilehash: 309fde077cdf456ba33656c29f9e325aac1820e3
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 4e58be4e90429c2d39bbcf4c5ef362e659764d63
+ms.sourcegitcommit: cf7b0fd80ecfb7a216111a801269c5322794795e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40807127"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "40995288"
 ---
 # <a name="overview-of-importing-your-organizations-pst-files-to-office-365"></a>조직의 PST 파일을 Office 365로 가져오기 개요
 
@@ -52,11 +52,11 @@ ms.locfileid: "40807127"
     
 2. **PST 파일 업로드 또는 복사** - 다음 단계는 PST 파일을 가져오기 위해 네트워크 업로드 또는 드라이브 배송을 사용하는지 여부에 따라 달라집니다. 두 경우 모두 이전 단계에서 얻은 도구와 보안 저장소 키를 사용하게 됩니다.
     
-    - **네트워크 업로드** AzCopy.exe 도구 (1단계에서 다운로드)는 PST 파일을 Microsoft 클라우드의 Azure Storage에 업로드하고 저장하는 데 사용됩니다. PST 파일을 업로드 하는 Azure Storage 위치는 Office 365 조직이 있는 동일한 지역 Microsoft 데이터 센터에 있습니다.
+    - **네트워크 업로드:** AzCopy.exe 도구(1단계에서 다운로드)는 PST 파일을 Microsoft 클라우드의 Azure Storage에 업로드하고 저장하는 데 사용됩니다. PST 파일을 업로드 하는 Azure Storage 위치는 Office 365 조직이 있는 동일한 지역 Microsoft 데이터 센터에 있습니다.
     
       파일을 업로드 하려면 Office 365로 가져오려는 PST 파일은 조직의 파일 공유 또는 파일 서버에 위치해야 합니다.
     
-    - **드라이브 배송** WAImportExport.exe 도구 (1단계에서 다운로드)는 PST 파일을 하드 드라이브로 복사하는 데 사용됩니다. 이 도구는 BitLocker로 하드 드라이브를 암호화한 다음 PST를 하드 드라이브에 복사합니다. 네트워크 업로드와 마찬가지로 하드 드라이브에 복사하려는 PST 파일은 조직의 파일 공유 또는 파일 서버에 위치해야 합니다.
+    - **드라이브 배송:** WAImportExport.exe 도구 (1단계에서 다운로드)는 PST 파일을 하드 드라이브로 복사하는 데 사용됩니다. 이 도구는 BitLocker로 하드 드라이브를 암호화한 다음 PST를 하드 드라이브에 복사합니다. 네트워크 업로드와 마찬가지로 하드 드라이브에 복사하려는 PST 파일은 조직의 파일 공유 또는 파일 서버에 위치해야 합니다.
     
 3. **PST 가져오기 매핑 파일 만들기** - PST 파일을 Azure Storage 위치에 업로드하거나 하드 드라이브에 복사한 후의 다음 단계는 가져온 PST파일이 위치하게 될 사용자 사서함을 지정하는 쉼표로 구분된 값 (CSV) 파일을 만드는 것입니다 (PST 파일은 사용자의 기본 사서함이나 보관 사서함으로 가져올 수 있습니다). Office 365 가져오기 서비스는 이 정보를 사용하여 PST 파일을 가져옵니다. 
     
