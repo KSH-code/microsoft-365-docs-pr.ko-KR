@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 5b9a067b-9d2e-4aa5-bb33-99d8c0d0b5d7
 description: 보안 & 준수 센터를 사용 하 여 eDiscovery 관련 작업을 수행 하는 데 필요한 사용 권한을 할당 합니다.
-ms.openlocfilehash: 434fe9f4876bb29df98de5575611069b0afc6860
-ms.sourcegitcommit: 952d2d4e0efa77cfbb583971ef7056e664d409e3
+ms.openlocfilehash: 548af12811287dce3461e5ce7d5f1ffa905eef73
+ms.sourcegitcommit: ef658406da9d081e5e7a5f3aac8290c2f03f7aff
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/24/2019
-ms.locfileid: "40854043"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "41004843"
 ---
 # <a name="assign-ediscovery-permissions-in-the-security--compliance-center"></a>보안 & 준수 센터에서 eDiscovery 권한 할당
 
@@ -128,7 +128,7 @@ ms.locfileid: "40854043"
 
 ### <a name="rms-decrypt"></a>RMS 암호 해독
 
-이 역할을 사용 하면 사용자가 검색 결과를 내보내거나 고급 eDiscovery에서 분석에 대 한 검색 결과를 준비할 때 RMS 암호화 전자 메일 메시지의 암호를 해독할 수 있습니다. 내보내기 중 검색 결과의 암호를 해독 하는 방법에 대 한 자세한 내용은 [Export Content search results](export-search-results.md)를 참조 하십시오.
+이 역할을 사용 하면 사용자가 검색 결과를 내보내거나 고급 eDiscovery에서 분석을 위한 검색 결과를 준비할 때 권한으로 보호 된 전자 메일 메시지를 해독할 수 있습니다. 내보내기 중 검색 결과의 암호를 해독 하는 방법에 대 한 자세한 내용은 [Export Content search results](export-search-results.md)를 참조 하십시오.
 
 ### <a name="search-and-purge"></a>검색 및 제거
 

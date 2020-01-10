@@ -3,7 +3,7 @@ title: 민감도 레이블 개요
 ms.author: cabailey
 author: cabailey
 manager: laurawi
-ms.date: 01/06/2020
+ms.date: ''
 audience: Admin
 ms.topic: conceptual
 ms.service: O365-seccomp
@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 민감도 레이블을 사용하여 사용자의 생산성 및 공동 작업 능력이 저하되지 않도록 하면서 중요한 콘텐츠를 분류 및 보호할 수 있습니다. 민감도 레이블을 사용하여 레이블이 지정된 콘텐츠에 암호화 및 워터마크를 포함하는 보호 설정을 적용할 수 있습니다.
-ms.openlocfilehash: 91481bb1c1267b40ccd2596c06faf5005372ac39
-ms.sourcegitcommit: 3063e351e21614c236167e9cde40994d8b532bd6
+ms.openlocfilehash: 52f8966c5313dce0dc1f612556daa26e67137c72
+ms.sourcegitcommit: d48b7852383262083a6a109530d84f0858cb3801
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40989503"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "40999572"
 ---
 # <a name="overview-of-sensitivity-labels"></a>민감도 레이블 개요
 
@@ -102,9 +102,9 @@ Office 앱의 경우, 민감도 레이블이 전자 메일 또는 문서에서 �
 
 관리자 센터에서 민감도 레이블을 만드는 경우 **레이블** 페이지의 **민감도** 탭에 있는 목록에 레이블이 나타납니다. 이 목록에서는 레이블의 우선 순위가 반영되기 때문에 레이블의 순서가 중요합니다. 극비와 같은 가장 제한적인 민감도 레이블은 목록의 **아래쪽**에 표시되도록 하고, 공용과 같은 가장 덜 제한적인 민감도 레이블은 **위쪽**에 표시되도록 합니다.
 
-문서 또는 전자 메일에 하나의 민감도 레이블만 적용할 수도 있습니다. 사용자가 레이블을 더 낮은 분류로 변경하는 사유를 제공해야 하는 경우 이 목록의 순서는 하위 분류를 식별합니다.
+문서 또는 전자 메일에 하나의 민감도 레이블만 적용할 수도 있습니다. 사용자가 레이블을 더 낮은 분류로 변경하는 사유를 제공하는 옵션을 설정하는 경우 이 목록의 순서는 하위 분류를 식별합니다. 단, 이 옵션은 하위 레이블에 적용되지 않습니다.
 
-레이블 우선 순위는 하위 레이블에도 적용됩니다.
+그러나 하위 레이블의 순서는 [자동 레이블 지정](apply-sensitivity-label-automatically.md)과 함께 사용됩니다. 레이블을 자동 또는 권장 사항으로 적용되도록 구성하면 둘 이상의 레이블에 대해 여러 개의 일치 항목이 발생할 수 있습니다. 적용하거나 권장할 레이블을 결정하기 위해 레이블 순서가 사용됩니다. 마지막 민감도 레이블이 선택되고 해당하는 경우 마지막 하위 레이블이 선택됩니다.
 
 ![하위 레이블을 만들기 위한 옵션](media/Sensitivity-label-sublabel-options.png)
 
@@ -189,11 +189,7 @@ Office 앱의 경우, 민감도 레이블이 전자 메일 또는 문서에서 �
 
 ## <a name="where-sensitivity-labels-can-appear"></a>민감도 레이블이 표시될 수 있는 위치
 
-민감도 레이블은 Office 앱의 UI에 나타납니다. 특정 앱 및 플랫폼에 대한 기본 제공 레이블의 현재 가용성을 확인하려면 다음의 표를 사용하세요.
-
-- [Word, Excel 및 PowerPoint에서의 민감도 레이블 기능에 대한 지원](sensitivity-labels-office-apps.md#support-for-sensitivity-label-capabilities-in-word-excel-and-powerpoint)
-
-- [Outlook에서의 민감도 레이블 기능에 대한 지원](sensitivity-labels-office-apps.md#support-for-sensitivity-label-capabilities-in-outlook)
+민감도 레이블은 Office 앱의 UI에 표시되며 리본의 홈 탭에 있는 **민감도** 단추에서 선택할 수 있습니다. 특정 앱 및 플랫폼의 기본 제공 레이블 지정에 대한 현재 가용성을 확인하려면 [앱의 민감도 레이블 기능 지원](sensitivity-labels-office-apps.md#support-for-sensitivity-label-capabilities-in-apps)을 참조하세요.
 
 Windows 컴퓨터에 Azure Information Protection 통합 레이블 지정 클라이언트를 사용 하는 경우 민감도 레이블에 대한 추가 기능을 사용할 수 있습니다. 자세한 내용은 [Windows 컴퓨터에 대한 레이블 지정 클라이언트 비교](https://docs.microsoft.com/azure/information-protection/rms-client/use-client#compare-the-labeling-clients-for-windows-computers)를 참조하세요.
 

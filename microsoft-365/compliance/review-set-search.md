@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: b37ff9bf96ff641750acc9ac47ef9c27b566651c
-ms.sourcegitcommit: fb3815ee186b2b3ec790ee32a9d7b1628d623b0b
+ms.openlocfilehash: 140ccc3984dc09a794d822eb3ff02f139d87fcd5
+ms.sourcegitcommit: ef658406da9d081e5e7a5f3aac8290c2f03f7aff
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/22/2019
-ms.locfileid: "39202349"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "41004827"
 ---
 # <a name="query-the-data-in-a-review-set"></a>검토 집합에서 데이터 쿼리
 
@@ -27,7 +27,7 @@ ms.locfileid: "39202349"
 
 ## <a name="creating-and-running-a-query-in-a-review-set"></a>검토 집합에서 쿼리 만들기 및 실행
 
-검토 집합의 문서에 대 한 쿼리를 만들고 실행 하려면 검토 집합에서 **새 쿼리** 를 클릭 합니다. 쿼리 이름을 지정 하 고 조건을 정의한 후 **저장** 을 클릭 하 여 쿼리를 저장 하 고 실행 합니다. 이전에 저장 한 쿼리를 실행 하려면 저장 된 쿼리를 클릭 합니다. 
+검토 집합의 문서에 대 한 쿼리를 만들고 실행 하려면 검토 집합에서 **새 쿼리** 를 클릭 합니다. 쿼리 이름을 지정 하 고 조건을 정의한 후 **저장** 을 클릭 하 여 쿼리를 저장 하 고 실행 합니다. 이전에 저장 한 쿼리를 실행 하려면 저장 된 쿼리를 클릭 합니다.
 
 ![집합 쿼리 검토](media/AeDReviewSetQueries.png)
 

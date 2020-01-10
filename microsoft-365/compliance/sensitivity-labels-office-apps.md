@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 사용자가 데스크톱에 대 한 Office 앱, 모바일 용 Office 앱 및 웹 용 Office 앱에서 민감도 레이블을 사용 하는 방법에 대해 알아봅니다. 민감도 레이블을 지 원하는 앱을 찾습니다.
-ms.openlocfilehash: 092c8510acac5cafa6417f93eae19731db5df270
-ms.sourcegitcommit: af7950d9674f0eab3aee03f9afccff9ca2f4709a
+ms.openlocfilehash: 32ad0abf61de5a64aac6914532f59bb5602e9d83
+ms.sourcegitcommit: d48b7852383262083a6a109530d84f0858cb3801
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40970956"
+ms.lasthandoff: 01/09/2020
+ms.locfileid: "40999592"
 ---
 # <a name="sensitivity-labels-in-office-apps"></a>Office 앱의 민감도 레이블
 
@@ -50,11 +50,13 @@ Office 기본 제공 레이블 클라이언트는 Office 구독 버전의 민감
 
 - [Azure Information Protection Premium P2](https://azure.microsoft.com/pricing/details/information-protection/)
 
-## <a name="support-for-sensitivity-label-capabilities-in-word-excel-and-powerpoint"></a>Word, Excel 및 PowerPoint에서의 민감도 레이블 기능에 대한 지원
+## <a name="support-for-sensitivity-label-capabilities-in-apps"></a>앱의 민감도 레이블 기능 지원
 
-다음 표에는 각 기능에 대 한 기본 제공 레이블을 사용 하 여 민감도 레이블을 지원 하기 위해 해당 앱에 필요한 최소 버전이 나와 있습니다.
+다음 표에는 각 기능에 대 한 기본 제공 레이블을 사용 하 여 민감도 레이블을 지원 하기 위해 해당 앱에 필요한 최소 버전이 나와 있습니다. 새 버전은 다양 한 업데이트 채널을 위해 서로 다른 시간에 사용할 수 있게 됩니다. 관심 있는 새 레이블 기능을 테스트할 수 있도록 업데이트 채널을 구성 하는 방법을 비롯 한 자세한 내용은 [Office 365 ProPlus의 업데이트 채널 개요](https://docs.microsoft.com/DeployOffice/overview-of-update-channels-for-office-365-proplus)를 참조 하세요.
 
 Windows 컴퓨터 에서만 실행 되는 Azure Information Protection 통합 레이블 클라이언트를 설치할 때 추가 기능을 사용할 수 있습니다. 자세한 내용은 [Windows 컴퓨터에 대 한 레이블 클라이언트 비교](https://docs.microsoft.com/azure/information-protection/rms-client/use-client#compare-the-labeling-clients-for-windows-computers)를 참조 하십시오.
+
+### <a name="sensitivity-label-capabilities-in-word-excel-and-powerpoint"></a>Word, Excel 및 PowerPoint의 민감도 레이블 기능
 
 |기능                                                                                                        |Windows 데스크톱 |Mac 데스크톱 |iOS    |Android      |웹                                                         |
 |------------------------------------------------------------------------------------------------------------------|----------------|------------|-------|-------------|------------------------------------------------------------|
@@ -72,11 +74,7 @@ Windows 컴퓨터 에서만 실행 되는 Azure Information Protection 통합 �
 |레이블이 지정 되 고 보호 된 문서에서 [자동 저장](https://support.office.com/article/6d6bd723-ebfd-4e40-b5f6-ae6e8088f7a5) 및 [공동](https://support.office.com/article/ee1509b4-1f6e-401e-b04a-782d26f564a4) 작성 지원 | 검토 중 | 검토 중 | 검토 중 | 검토 중 | [미리 보기](sensitivity-labels-sharepoint-onedrive-files.md) |
 |
 
-## <a name="support-for-sensitivity-label-capabilities-in-outlook"></a>Outlook에서의 민감도 레이블 기능에 대한 지원
-
-다음 표에는 각 기능에 대해 해당 앱에 필요한 최소 버전이 나와 있습니다.
-
-Windows 컴퓨터 에서만 실행 되는 Azure Information Protection 통합 레이블 클라이언트를 설치할 때 추가 기능을 사용할 수 있습니다. 자세한 내용은 [Windows 컴퓨터에 대 한 레이블 클라이언트 비교](https://docs.microsoft.com/azure/information-protection/rms-client/use-client#compare-the-labeling-clients-for-windows-computers)를 참조 하십시오.
+### <a name="sensitivity-label-capabilities-in-outlook"></a>Outlook의 민감도 레이블 기능
 
 |기능                                                                                                        |Windows 데스크톱의 Outlook |Mac 데스크톱 Outlook  |IOS의 Outlook |Android의 Outlook |웹용 Outlook |
 |------------------------------------------------------------------------------------------------------------------|---------------------------|------------------------|---------------|-------------------|-------------------|
