@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: d34d7082150b4131634fb695ce6664ded50e6f9d
-ms.sourcegitcommit: 6ae69c40bafa6aef633789c3df0fa20590bdcf40
+ms.openlocfilehash: 9233118a2112aae33a5b784b6495709cbd3345f5
+ms.sourcegitcommit: ef658406da9d081e5e7a5f3aac8290c2f03f7aff
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "40823840"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "41004923"
 ---
 # <a name="add-and-verify-admin-contacts-in-the-admin-portal"></a>관리 포털에서 관리자 연락처 추가 및 확인
 
@@ -25,7 +25,7 @@ Microsoft Managed Desktop 서비스가 고객과 소통하는 방법에는 여�
 Microsoft Managed Desktop 관리 포털을 사용하려면 포털에 액세스 하는 사용자가 다음 Azure AD(Active Directory) 역할 중 하나를 보유해야 합니다.
 - 전역 관리자
 - Intune 서비스 관리자
-- 대금 청구 관리자
+- 전역 읽기 권한자
 - 서비스 지원 관리자
 
 전역 관리자는 Microsoft Managed Desktop에 조직을 등록해야 합니다. 모든 5개 역할은 관리자 포털에서 동일한 액세스 권한을 가지며 작업을 시작하고 볼 수 있습니다. Azure AD에서 역할을 할당하는 방법에 대한 자세한 내용은 [Azure Active Directory에서 관리자 역할 사용 권한](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)을 참조하세요. 
