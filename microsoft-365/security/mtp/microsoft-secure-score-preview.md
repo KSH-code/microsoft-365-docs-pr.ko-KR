@@ -15,12 +15,12 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 5ce06f582966f7209d4b539f9de41e8045b98519
-ms.sourcegitcommit: af7950d9674f0eab3aee03f9afccff9ca2f4709a
+ms.openlocfilehash: 0f54ee771f4358c5c99c3338366eb277013c15e3
+ms.sourcegitcommit: a2e9ab69f99f2069372ccfffd9ef2ffbd8568826
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40970926"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "41012181"
 ---
 # <a name="microsoft-secure-score-preview"></a>Microsoft 보안 점수 (미리 보기)
 
@@ -148,6 +148,23 @@ Microsoft 보안 점수 개요 페이지에서 이러한 그룹 간의 점수가
 ## <a name="risk-awareness"></a>위험 인식
 
 Microsoft 보안 점수는 시스템 구성, 사용자 동작 및 기타 보안 관련 측정값을 기반으로 한 보안 환경을 나타내는 수치 요약입니다. 시스템 또는 데이터를 얼마나 많이 침해 해야 하는지 절대 측정 한 것은 아닙니다. 대신 Microsoft 환경에서 보안 제어를 채택 하는 범위를 나타내므로 위반 위험을 상쇄 하는 데 도움이 될 수 있습니다. 보안 침해에의 한 온라인 서비스에는 전혀 문제가 되지 않으며 보안 점수가 보안상 침해에 대 한 보장으로 해석 되어서는 안 됩니다.
+
+## <a name="whats-coming"></a>무슨 일 인가요?
+
+### <a name="mfa-improvement-action-updates"></a>MFA 개선 작업 업데이트
+
+비즈니스의 보안을 강화 하기 위해 기업에서 요구 하는 사항을 반영 하기 위해 Microsoft 보안 점수는 다단계 인증을 중심으로 하는 세 가지 개선 작업을 제거 하 고 두 개를 추가 하는 것입니다.
+
+제거 되는 3:
+- Multi-factor authentication에 대 한 모든 사용자 등록
+- 모든 사용자에 대해 MFA 요구
+- Azure AD 권한 있는 역할에 대해 MFA 필요
+
+새 향상 작업:
+- 모든 사용자가 보안 액세스를 위해 multi-factor authentication을 완료할 수 있는지 확인
+- 관리 역할에 대 한 MFA 필요
+
+ 이러한 새로운 향상 작업을 수행 하려면 디렉터리 전체에서 MFA (multi-factor authentication)에 대 한 사용자 또는 관리자를 등록 하 고 조직의 요구 사항에 맞는 적절 한 정책 집합을 설정 해야 합니다. 기본 목표는 모든 사용자와 관리자가 여러 요소 또는 위험 기반 id 확인 메시지를 사용 하 여 인증할 수 있도록 하는 데 유연성이 있습니다. 여기에는 Microsoft가 MFA를 지 원하는 경우 또는 범위 결정을 적용 하는 여러 정책을 사용 하는 경우를 결정 하는 보안 기본값 설정 형태가 있을 수 있습니다.
 
 ## <a name="whats-new"></a>새로운 기능 
 
