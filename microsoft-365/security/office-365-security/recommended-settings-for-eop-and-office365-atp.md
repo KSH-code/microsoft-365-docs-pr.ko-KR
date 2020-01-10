@@ -14,12 +14,12 @@ ms.assetid: 6f64f2de-d626-48ed-8084-03cc72301aa4
 ms.collection:
 - M365-security-compliance
 description: EOP (Exchange Online Protection) 및 ATP (Advanced Threat Protection) 보안 설정에 대 한 모범 사례 표준 보호에 대 한 최신 권장 사항은 무엇 인가요? 보다 엄격한 기능을 사용 하려면 어떻게 해야 합니까? 또한 ATP (Advanced Threat Protection)를 사용 하는 경우에는 어떤 것을 얻게 됩니까?
-ms.openlocfilehash: 84f4f04b648acb94302541ed967dc8a7bd539ace
-ms.sourcegitcommit: a1bfa92c637ce8af40d2b6edf36f702eb40eb692
+ms.openlocfilehash: d353c4bee8381074b845e0774e06f411d823549f
+ms.sourcegitcommit: 40e83b22b74db8e37d65e0988d4c11de3aa541b2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/30/2019
-ms.locfileid: "40910119"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "41021834"
 ---
 # <a name="recommended-settings-for-eop-and-office-365-atp-security"></a>EOP 및 Office 365 ATP 보안에 대 한 권장 설정
 
@@ -59,33 +59,35 @@ ms.locfileid: "40910119"
 |제로 시간 자동 삭제|켜짐|켜짐|스팸 및 피싱 ZAP에 대해|
 |MarkAsSpamBulkMail|켜짐|켜짐|이 설정은 PowerShell 에서만 사용할 수 있습니다.|
 
-스팸 방지 정책에는이 문서를 작성할 당시 더 이상 사용 되지 않는 몇 가지 다른 매개 변수가 있습니다. 이에 대 한 권장 설정은 표준 수준과 엄격한 수준 모두에 대해 기능을 **해제** 하는 것입니다.
+스팸 방지 정책에는 더 이상 사용 되지 않는 고급 스팸 필터 (ASF) 라는 몇 가지 다른 매개 변수가 있습니다. 이러한 기능의 감가 상각 일정에 대 한 자세한 내용은이 항목의 외부에서 제공 됩니다.
+ 
+ 표준 수준과 엄격한 수준에 대해 이러한 설정을 **해제** 하는 것이 좋습니다.
 
-|보안 기능 이름| Comments |
+|보안 기능 이름|Comments|
 |---------|---------|
-|IncreaseScoreWithImageLinks| |
-|IncreaseScoreWithNumericIps| |
-|IncreaseScoreWithRedirectToOtherPort| |
-|IncreaseScoreWithBizOrInfoUrls| |
-|MarkAsSpamEmptyMessages| |
-|MarkAsSpamJavaScriptInHtml| |
-|MarkAsSpamFramesInHtml| |
-|MarkAsSpamObjectTagsInHtml| |
-|MarkAsSpamEmbedTagsInHtml| |
-|MarkAsSpamFormTagsInHtml| |
-|MarkAsSpamWebBugsInHtml| |
-|MarkAsSpamSensitiveWordList| |
-|MarkAsSpamFromAddressAuthFail| |
-|MarkAsSpamNdrBackscatter| |
-|MarkAsSpamSpfRecordHardFail| |
+|IncreaseScoreWithImageLinks||
+|IncreaseScoreWithNumericIps||
+|IncreaseScoreWithRedirectToOtherPort||
+|IncreaseScoreWithBizOrInfoUrls||
+|MarkAsSpamEmptyMessages||
+|MarkAsSpamJavaScriptInHtml||
+|MarkAsSpamFramesInHtml||
+|MarkAsSpamObjectTagsInHtml||
+|MarkAsSpamEmbedTagsInHtml||
+|MarkAsSpamFormTagsInHtml||
+|MarkAsSpamWebBugsInHtml||
+|MarkAsSpamSensitiveWordList||
+|MarkAsSpamFromAddressAuthFail||
+|MarkAsSpamNdrBackscatter||
+|MarkAsSpamSpfRecordHardFail||
 
 #### <a name="eop-outbound-spam-filter-policy-settings"></a>EOP 아웃 바운드 스팸 필터 정책 설정
 
 |보안 기능 이름|표준을|항등|Comment|
 |---------|---------|---------|---------|
-|아웃 바운드 스팸 정책 받는 사람 제한-외부 시간 제한|400|500||
-|아웃 바운드 스팸 정책 받는 사람 제한-내부 시간 제한|800|1000||
-|아웃 바운드 스팸 정책 받는 사람 제한-일별 제한|800|1000||
+|아웃 바운드 스팸 정책 받는 사람 제한-외부 시간 제한|500|400||
+|아웃 바운드 스팸 정책 받는 사람 제한-내부 시간 제한|1000|800||
+|아웃 바운드 스팸 정책 받는 사람 제한-일별 제한|1000|800||
 |사용자가 제한을 초과 하는 경우의 동작|사용자가 메일을 보낼 수 없도록 제한|사용자가 메일을 보낼 수 없도록 제한||
 
 ### <a name="eop-anti-malware-policy-settings"></a>EOP 맬웨어 방지 정책 설정

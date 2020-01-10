@@ -16,12 +16,12 @@ ms.assetid: 065cc2cf-2f3a-47fd-a434-2a20b8f51d0c
 ms.collection:
 - M365-security-compliance
 description: '관리자는 Office 365에서 허위 격리 된 메시지를 보고, 해제 하 고, 보고할 수 있습니다. Office 365에서 메시지를 필터링 하 여 격리에 전송 하는 경우 (예: 스팸, 대량, 피싱, 맬웨어 또는 메일 흐름 규칙과 일치 하는 경우)에는 정책을 설정할 수 있습니다. '
-ms.openlocfilehash: 615d88f63f738ca443b9ff377bb08fdaa97fe2dc
-ms.sourcegitcommit: af7950d9674f0eab3aee03f9afccff9ca2f4709a
+ms.openlocfilehash: b13b369383a44608bd74d8a92ea6eb40ce6284d0
+ms.sourcegitcommit: 40e83b22b74db8e37d65e0988d4c11de3aa541b2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40970936"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "41021864"
 ---
 # <a name="manage-quarantined-messages-and-files-as-an-administrator-in-office-365"></a>Office 365에서 격리 된 메시지 및 파일을 관리자 권한으로 관리
 
@@ -31,26 +31,15 @@ ms.locfileid: "40970936"
 
 격리 된 메시지 또는 격리 한 파일을 사용 하려면 Office 365에는 GA (전역 관리자) 권한이 있거나 하나 이상의 보안 & 준수 센터 역할 그룹의 구성원 이어야 합니다. 자세한 내용은 [Office 365 보안 & 준수 센터의 사용 권한을](https://docs.microsoft.com/office365/securitycompliance/permissions-in-the-security-and-compliance-center) 참조 하세요.
 
-> [!IMPORTANT]
-> 기본적으로 스팸, 대량 및 피싱 메시지는 30 일 동안 격리 된 상태로 유지 됩니다. 메일 흐름 규칙과 일치 하기 때문에 격리 된 메시지는 7 일 동안 격리 된 상태로 유지 됩니다. 맬웨어 메시지는 15 일 동안 격리 된 상태로 유지 됩니다. 보안 & 준수 센터의 스팸 방지 설정에서 스팸 격리 시간을 사용자 지정할 수 있습니다. Office 365가 격리에서 메시지를 삭제하면 해당 메시지를 복원할 수 없습니다. 원하는 경우 스팸 방지 필터 정책에서 격리 된 메시지의 보존 기간을 변경할 수 있습니다. 자세한 내용은 [격리 보존 기간 설정을](manage-quarantined-messages-and-files.md#BKMK_ModQuarantineTime)참조 하십시오.
+## <a name="what-permissions-are-needed-to-access-administrator-quarantine"></a>관리자 격리에 액세스 하는 데 필요한 사용 권한은 무엇입니까?
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 사항은 무엇인가요?
+격리를 관리 하는 권한은 **Security & 준수 센터* 역할 그룹의 구성원 자격을 통해 제어 됩니다. 보안 & 준수 센터의 역할 그룹에 대 한 자세한 내용은 [Permissions in The Office 365 Security & 준수 센터](https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center)를 참조 하십시오.
 
-격리는 보안 & 준수 센터에 있지만 격리에서 메시지를 관리 하는 권한은 **Exchange Online** 역할 그룹의 구성원 자격을 통해 제어 됩니다. Exchange Online의 역할 그룹에 대 한 자세한 내용은 [Exchange online에서 역할 그룹 관리](https://docs.microsoft.com/Exchange/permissions-exo/role-groups)를 참조 하십시오.
+격리를 관리 하는 권한을 부여 하는 보안 & 준수 역할 그룹은 다음과 같습니다.
 
-격리 파일을 관리 하는 권한을 부여 하는 Exchange Online 역할 그룹은 다음과 같습니다.
-
-- **조직 관리**: 전역 관리자는 자동으로이 그룹의 구성원입니다.
+- **격리 관리자**
 
 - **보안 관리자**
-
-- **Hygiene Management**
-
-격리 파일을 볼 수 있는 권한을 부여 하는 Exchange Online 역할 그룹은 다음과 같습니다.
-
-- **View-Only Organization Management**
-
-- **보안 읽기 권한자**
 
 ## <a name="view-your-organizations-quarantined-messages"></a>조직의 격리 된 메시지 보기
 
