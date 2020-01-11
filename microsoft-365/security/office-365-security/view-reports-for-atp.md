@@ -1,9 +1,9 @@
 ---
-title: Office 365 Advanced Threat Protection에 대 한 보고서 보기
+title: Office 365 Advanced Threat Protection, 맬웨어 보고서, 피싱 보고서, 손상 된 계정, URL 보호 상태, 위협 보고, 보고 위협에 대 한 보고서 보기
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.date: 05/21/2019
+ms.date: 01/10/2020
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -14,13 +14,13 @@ search.appverid:
 ms.assetid: e47e838c-d99e-4c0b-b9aa-e66c4fae902f
 ms.collection:
 - M365-security-compliance
-description: 보안 &amp; 및 준수 센터에서 Office 365 Advanced Threat Protection에 대 한 보고서를 찾아서 사용 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 9ad177e96184913be61e098a1aafa294a123199b
-ms.sourcegitcommit: ba223b4fd069fc6fd09c2a2e34c770a18bc7b2a2
+description: 보안 &amp; 및 준수 센터에서 Office 365 Advanced Threat Protection에 대 한 보고서를 찾아서 사용 합니다.
+ms.openlocfilehash: a03fc9e14017255faf8c1c7f58cf2baa65823962
+ms.sourcegitcommit: 3401f90721e6f7c65152a31c5be1bb91bfe641c0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39866410"
+ms.lasthandoff: 01/11/2020
+ms.locfileid: "41022397"
 ---
 # <a name="view-reports-for-office-365-advanced-threat-protection"></a>Office 365 Advanced Threat Protection에 대 한 보고서 보기
 
@@ -41,7 +41,27 @@ ATP 보고서에는 다음이 포함 됩니다.
 
 **위협 방지 상태** 보고서는 EOP ( [Exchange Online Protection](exchange-online-protection-overview.md) ) 및 [Office 365 ATP](office-365-atp.md)에 의해 감지 되어 차단 된 악의적인 콘텐츠와 악성 전자 메일에 대 한 정보를 함께 가져오는 단일 보기입니다. 이 보고서는 시간에 따른 검색 (최대 90 일)을 확인 하는 데 유용 하며, 보안 관리자는 경향을 식별 하거나 정책 조정이 필요한 지 여부를 결정할 수 있습니다. 
 
-위협 방지 상태 보고서는 맬웨어 방지 엔진에 의해 차단 된 파일 또는 웹 사이트 주소 (Url)와 같은 악성 콘텐츠가 포함 된 고유한 전자 메일 메시지의 집계 된 개수를 제공 합니다 ( [0 시간 자동 제거 (ZAP)](zero-hour-auto-purge.md)및 Atp [safe Links](atp-safe-links.md), [Atp 안전한 첨부 파일](atp-safe-attachments.md), [atp 피싱 방지 기능과](atp-anti-phishing.md)같은 atp 기능). 
+이 보고서는 맬웨어 방지 엔진에 의해 차단 된 파일 또는 웹 사이트 주소 (Url), [즉 제로 시간 자동 삭제 (ZAP)](zero-hour-auto-purge.md)및 Atp safe [Links](atp-safe-links.md), atp [안전한 첨부 파일](atp-safe-attachments.md), [atp 피싱 방지 기능과](atp-anti-phishing.md)같은 atp 기능을 사용 하 여 고유한 전자 메일 메시지의 집계 개수를 제공 합니다. 
+
+이러한 정보를 필터링 하 고 breakdowns이 보고서의 정보를 보다 세부적으로 분류 하는 데 사용할 수 있습니다. 특히 *전자 메일 > 피싱* 및 *전자 메일 > 맬웨어 보기*에 대 한 ' 중단 기준 ' 메뉴가 포함 되어 있습니다. 그러면 다음과 같이 데이터를 분류 합니다.
+
+| |  |
+|---------|---------|
+|검색 유형별    | 이러한 위협을 파악 하는 데 도움이 되는 정책은 무엇입니까?         |
+|검색 기술     | 어떤 기본 Microsoft 기술이 위협을 포착 했습니까?        |
+|배달 상태별     | 위협으로 검색 된 전자 메일 메시지는 어떻게 되었습니까?         |
+| | |
+
+> [!TIP]
+> 전자 메일 > 피싱 | 맬웨어 보기에는 *ATP에서 생성 된 파일 신뢰도*, *파일 샌드 박싱*, *URL 샌드 박싱*, *스푸핑 방지: DMARC 실패*등의 범주를 포함 하 여 표시 되는 검색 기술에 대 한 자세한 breakdowns 있으며,이를 통해 조직에서 위협을 찾아낼 기능을 정확히 알 수 있습니다.
+
+![' 나누기 기준 '이 표시 되는 위협 보호 상태 보고서 드롭다운](../media/tp-threatProtectStatRpt-BreakDownBy.png)
+
+이러한 보기는 단추 클릭 (전자 메일 > 피싱, 전자 메일 > 맬웨어 및 콘텐츠 > 맬웨어 보기)을 통해 내보낼 수 있는 옵션을 제공 합니다. 컴퓨터로 내보낸 집계 된 데이터를 Excel에서 열 수 있습니다.
+
+![이 그래픽은 맬웨어 보기 메뉴의 옵션으로 내보내기, 만들기 일정 및 요청 보고서 간의 오른쪽을 보여 줍니다.](../media/tp-threatProtectStatRpt-BreakDownByExport.png)
+
+개요 및 전자 메일 보기에는 24 시간 (요청 다시)이 아닌 처리 시간 내에 정보가 표시 됩니다. 여기에서 속도 향상은 명확한 신호입니다.
 
 > [!NOTE]
 > [Office 365 ATP](office-365-atp.md) 또는 [Exchange Online Protection](exchange-online-protection-eop.md) (EOP)이 있는 고객은 위협 보호 상태 보고서를 사용할 수 있습니다. 그러나 ATP 고객에 대 한 위협 방지 상태 보고서에 표시 되는 정보에는 고객에 게 표시 될 수 있는 것과 다른 데이터가 포함 될 가능성이 EOP. 예를 들어 ATP 고객에 대 한 위협 방지 상태 보고서에는 [SharePoint Online, OneDrive 또는 Microsoft 팀에서 검색 된 악성 파일](atp-for-spo-odb-and-teams.md)에 대 한 정보가 포함 됩니다. 이러한 정보는 ATP와 관련 된 것 이므로, EOP가 아닌 고객은 위협 보호 상태 보고서에 해당 세부 정보를 볼 수 없습니다.
@@ -61,7 +81,28 @@ ATP 보고서에는 다음이 포함 됩니다.
 **데이터 보기 기준** 메뉴를 사용 하 여 보고서에 표시 되는 정보를 변경할 수도 있습니다. 
   
 ![ATP 위협 방지 상태 보고서에 대 한 옵션 보기](../media/4959bf8c-d192-4542-b00b-184e101e7513.png)
-  
+
+## <a name="url-protection-status-report"></a>URL 보호 상태 보고서
+
+이 보고서는 수집 된 데이터를 기반으로 하며, 클릭 당 검색 되는 위협, 즉 대부분의 다른 전자 메일 위협 관련 보고서는 메시지 데이터에 따라 결정 됩니다. 이 보고서는 전자 메일 메시지 및 문서의 하이퍼링크에서 제공 되는 위협 (클릭 당)을 보여 주도록 디자인 되었습니다. 다음과 같은 두 가지 보기가 있습니다.
+
+|  |  |
+|---------|---------|
+|URL 보호 작업 클릭   | 차단 되었지만 차단 되었지만 사용자가 간편 하 게 클릭 하 여 재정의 되 고 허용 되는 Url 수를 확인 합니다.        |
+|URL 클릭 응용 프로그램     | URL이 클릭 된 응용 프로그램을 확인 합니다.        |
+|  |  |
+
+정보 테이블에서는 클릭 시간 및 사용자 정보에 대 한 자세한 정보를 볼 수 있습니다. 마지막으로, URL 보호 상태 보고서에는 ATP 안전한 링크 기능의 보호 기능이 표시 되므로 ATP 안전한 링크를 사용 하도록 설정한 고객만이 보고서에 반영 된 데이터를 볼 수 있습니다.
+
+> [!NOTE]
+> 이는 *보호 추세 보고서*로, 데이터가 더 큰 데이터 집합의 추세를 나타냅니다. 실시간으로 보고 기능을 사용할 수 없습니다. 실시간 URL에 대해 데이터를 클릭 하 고 계속 해 서 URL 추적을 사용 합니다.
+
+## <a name="compromised-users-report"></a>손상 된 사용자 보고서
+
+Exchange Online Protection을 사용 하는 모든 사용자가 사용할 수 있는이 보고서에는 의심 스러운 사용자나 제한 된 사용자로 표시 되는, 특히 계정으로 인해 사용자 계정에 문제가 있을 수 있음을 나타내는 상태 중 하나를 입력 하는 것이 좋습니다. 당한. 자주 사용 하는 경우에는 손상 된 사용자 보고서가 스파이크를 볼 수 있으며, 의심 스러운 또는 제한 상태인 계정으로 증거를 제공 하면 보안 및 테 넌 트의 wellness에 문제가 있을 수 있습니다.
+
+![손상 된 사용자가 Office 365에 표시 되는 대로 보고 합니다.](../media/tp-threatProtectStatRpt-CompromisedUserRpt.png)
+
 ## <a name="atp-file-types-report"></a>ATP 파일 형식 보고서
 
 **Atp 파일 형식** 보고서에는 [Atp 안전한 첨부 파일](atp-safe-attachments.md)에 의해 악의적으로 검색 된 파일 유형이 표시 됩니다.
@@ -106,7 +147,7 @@ ATP 보고서에는 다음이 포함 됩니다.
 - 보안 &amp; 및 준수 센터에는 다음 역할 중 하나가 할당 되어 있어야 합니다.
     - 조직 관리
     - 보안 관리자 (Azure Active Directory 관리 센터[https://aad.portal.azure.com](https://aad.portal.azure.com)에서 할당할 수 있음)
-    - 보안 독자
+    - 보안 읽기 권한자
 
 - Exchange Online의 경우 Exchange 관리 센터 ([https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)) 또는 PowerShell Cmdlet ( [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell)참조)에서 다음 역할 중 하나를 할당 받아야 합니다.
     - 조직 관리
