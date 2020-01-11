@@ -1007,7 +1007,7 @@
             - name: FINMA (스위스)
               href: offering-finma-switzerland.md
             - name: GDPR (유럽 연합)
-              href: offering-gdpr-eu.md
+              href: gdpr.md
             - name: GLBA
               href: offering-glba.md
             - name: HITRUST
@@ -1091,7 +1091,7 @@
             - name: 유럽 연합 미국 프라이버시 쉴드
               href: offering-eu-us-privacy-shield.md
             - name: GDPR (유럽 연합)
-              href: offering-gdpr-eu.md
+              href: gdpr.md
             - name: G-Cloud (영국)
               href: offering-g-cloud-uk.md
             - name: IDW PS 951(독일)
