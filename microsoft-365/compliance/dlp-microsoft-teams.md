@@ -13,19 +13,19 @@ ms.collection:
 search.appverid:
 - MET150
 description: 이제 Microsoft 팀 채팅 및 채널에 DLP 정책을 적용할 수 있습니다. 이 문서를 읽으면 작동 방식에 대해 자세히 알아볼 수 있습니다.
-ms.openlocfilehash: 9c8c122a84a739a0cc2942f63ff319121510415b
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 55a13d44ab3cff777ee8ed4610d746c3649bf558
+ms.sourcegitcommit: 3401f90721e6f7c65152a31c5be1bb91bfe641c0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37087334"
+ms.lasthandoff: 01/11/2020
+ms.locfileid: "41022363"
 ---
 # <a name="data-loss-prevention-and-microsoft-teams"></a>데이터 손실 방지 및 Microsoft 팀
 
 > [!NOTE]
-> 데이터 손실 방지 기능은 최근 Microsoft 팀 채팅 및 채널 메시지에 추가 되었으며, 독립 실행형 옵션으로 제공 되 고 Office 365 E5 및 Microsoft 365 E5 규정 준수에 포함 된 Office 365 고급 규정 준수에 대 한 사용자에 게 적합 합니다. Office 365 및 Microsoft 365 E3에는 SharePoint Online, OneDrive 및 Exchange Online에 대 한 DLP 보호 기능이 포함 되어 있습니다. 또한 팀이 SharePoint Online 및 OneDrive를 사용 하 여 파일을 공유 하기 때문에 팀을 통해 공유 되는 파일도 포함 됩니다.
+> 데이터 손실 방지 기능은 최근 Office 365 Advanced Compliance 라이선스 사용자에 대한 Microsoft Teams 채팅 및 채널 메시지에 추가되었으며, 이는 독립 실행형 옵션으로 제공되며 Office 365 E5 및 Microsoft 365 E5 규정 준수에 포함되어 있습니다. Office 365 및 Microsoft 365 E3에는 SharePoint Online, OneDrive 및 Exchange Online에 대 한 DLP 보호 기능이 포함 되어 있습니다. 또한 팀이 SharePoint Online 및 OneDrive를 사용 하 여 파일을 공유 하기 때문에 팀을 통해 공유 되는 파일도 포함 됩니다.
 팀 대화방에서 DLP 보호를 지원 하려면 E5가 필요 합니다.
-라이선스 요구 사항에 대 한 자세한 내용은 [Microsoft 365 테 넌 트 수준 서비스 라이선스 지침](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance)을 참조 하세요.
+라이선스 요구 사항에 대한 자세한 내용은 [Microsoft 365 테넌트 수준 서비스 라이선스 지침](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance)을 참고하십시오.
 
 ## <a name="overview-of-dlp-for-microsoft-teams"></a>Microsoft 팀의 DLP 개요
 
@@ -109,6 +109,7 @@ ms.locfileid: "37087334"
 5. **위치 선택** 탭에서 모든 위치의 기본 설정을 유지 하거나, **특정 위치 선택 허용**을 선택 하 고 **다음**을 선택 합니다.<br/>특정 위치를 선택 하는 경우 DLP 정책에 대해이를 선택한 후 **다음**을 선택 합니다.<br/>![DLP 정책 위치](media/dlp-teams-selectlocationsnewpolicy.png)<br/>
     > [!NOTE]
     > 중요 한 정보가 포함 된 문서가 잘못 공유 되지 않도록 하려면 **팀 채팅 및 채널 메시지**와 함께 **SharePoint 사이트** 와 **OneDrive 계정이** 설정 되어 있는지 확인 합니다.
+    > Microsoft 팀의 채널은 Exchange Online 기능에 따라 강력 하 게 작동 합니다. 채널 콘텐츠에 적용 해야 하는 정책에 대해 **Exchange 전자 메일** 위치도 사용 하도록 설정 되어 있는지 확인 합니다.  
 <br/>
 
 6. **정책 설정** 탭의 **보호 하려는 콘텐츠 형식 사용자 지정**에서 기본 설정을 유지 하거나 **고급 설정 사용**을 선택 하 고 **다음**을 선택 합니다. 고급 설정을 선택 하는 경우 정책에 대 한 규칙을 만들거나 편집할 수 있습니다. 이에 대 한 도움말을 보려면 [단순 설정 및 고급 설정을](data-loss-prevention-policies.md#simple-settings-vs-advanced-settings)참조 하세요.

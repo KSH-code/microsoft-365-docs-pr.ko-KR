@@ -12,26 +12,36 @@ search.appverid:
 - MOE150
 - MET150
 description: 위험 평가를 간소화 하 고 자동화 하는 데 도움이 되는 M365 준수 센터의 기능인 Microsoft 준수 점수 (미리 보기)에 대 한 릴리스 정보 및 알려진 문제
-ms.openlocfilehash: d46e8a621b6f4daa1275a78b5cc1e6917e0a997c
-ms.sourcegitcommit: 3eae8fe39cea912d29e211a1c9fd035d6b606f91
+ms.openlocfilehash: b1054a455b2d2c78cfa6131410941b1a36738a43
+ms.sourcegitcommit: 40e83b22b74db8e37d65e0988d4c11de3aa541b2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "38793642"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "41021934"
 ---
 # <a name="microsoft-compliance-score-preview-release-notes"></a>Microsoft 준수 점수 (미리 보기) 릴리스 정보
 
-Microsoft 준수 점수가 공개 미리 보기를 통해 예정 된 기능 및 업데이트에 빠르게 액세스할 수 있습니다.
+Microsoft 준수 점수가 공개 미리 보기를 통해 예정 된 기능 및 업데이트에 빠르게 액세스할 수 있습니다. 새로운 기능을 알아보려면이 페이지를 자주 확인 하세요.
 
 준수 점수는 위험 기반 점수를 계산 하 여 준수 위험을 줄이는 데 도움이 되는 권장 작업을 완료 하는 과정을 측정 하는 [Microsoft 365 준수 센터](microsoft-365-compliance-center.md) 의 새로운 기능입니다.
 
-## <a name="compliance-score-and-compliance-manager-relationship"></a>준수 점수 및 준수 관리자 관계
+## <a name="whats-new"></a>새로운 기능
+
+### <a name="new-templates-for-assessments"></a>평가를 위한 새 서식 파일
+
+평가를 위해 새롭게 미리 구성 된 서식 파일이 출시 되 면 준수 점수 (미리 보기)에 대 한 프로덕션 환경에 릴리스됩니다. 여기에서 [전체 서식 파일 목록을](compliance-score.md#templates)확인 하세요. 최근에 추가 된 서식 파일은 다음과 같습니다.
+
+- ISO 27701:2019
+- IRAP/오스트레일리아 정부 ISM (미리 보기)
+
+
+### <a name="compliance-score-relationship-to-compliance-manager"></a>준수 관리자와 규정 준수 점수 관계
 
 준수 관리자에서 처리 되는 대부분의 준수 기능은 이제 규정 준수 점수를 받을 수 있습니다. 그러나 일부 기능은 여전히 준수 관리자 에게만 존재 하며, 공용 미리 보기 기간 동안 준수 관리자의 일부 이전 기능은 변경 되었습니다. 
 
 공개 미리 보기 동안 준수 점수 및 준수 관리자를 사용할 때는 다음 사항을 염두에 두어야 합니다.
 
-- **평가 관리**: 사용자는 준수 점수에 평가 및 해당 상태 세부 정보를 볼 수 있습니다. 그러나 사용자는 준수 관리자의 평가 관리 작업 ([지침 보기](working-with-compliance-manager.md#assessments)) 및 작업을 수행할 수 있으며 다음으로 제한 됩니다.
+- **평가 관리**: 사용자는 준수 점수에 평가 및 해당 상태 세부 정보를 볼 수 있습니다. 그러나 사용자는 준수 관리자 ([지침 보기](working-with-compliance-manager.md#assessments)) 에서만 평가 관리 작업을 수행할 수 있으며 작업은 다음으로 제한 됩니다.
     - 새 평가를 업로드 하지만 기존 평가는 수정 하지 않습니다. 기존 평가를 수정 해야 하는 경우 새 템플릿을 업로드 해야 합니다.
     - 평가 내보내기
     - 보관 평가
@@ -40,7 +50,7 @@ Microsoft 준수 점수가 공개 미리 보기를 통해 예정 된 기능 및 
    - 사용자는 준수 관리자를 방문 하 여 새 템플릿을 만들고 기존 템플릿을 내보내야 합니다. 
    - 기존 템플릿은 사용자 지정할 수 없습니다. [준수 관리자의 서식 파일 관리](working-with-compliance-manager.md#templates)에 대 한 지침을 읽으십시오.
    - 서식 파일을 만들 때는 **제품** 및 **인증** 에 대 한 차원을 모두 포함 하 여 서식 파일이 준수 점수에 표시 되도록 해야 합니다.
- - **사용 권한 설정**: 규정 준수 점수 준수 관리자에서 이전에 사용 권한을 부여 받지 않은 사용자는 Microsoft 365 준수 센터에서 사용 권한을 설정 해야 합니다. 규정 준수 관리자에서 역할이 이전에 설정 된 사용자는 준수 점수 작업을 할 때 같은 수준의 액세스를 사용할 수 있습니다.
+ - **사용 권한 설정**: 규정 준수 점수 준수 관리자에서 이전에 사용 권한을 부여 받지 않은 사용자는 Microsoft 365 준수 센터에서 사용 권한을 설정 해야 합니다 ([자세한 내용](compliance-score-setup.md#set-user-permissions-and-assign-roles)). 규정 준수 관리자에서 역할이 이전에 설정 된 사용자는 준수 점수 작업을 할 때 같은 수준의 액세스를 사용할 수 있습니다.
 - **데이터 전송**: 규정 준수 관리자에 데이터가 있는 조직은 규정 준수 점수에 해당 하는 데이터를 확인 하 고 그 반대의 경우도 마찬가지입니다.
 - 준수 **관리자에 게 준수 점수**에 로그인: 사용자가 준수 점수에 로그인 되어 있고 준수 관리자에 게 연결 되는 링크를 선택 하는 경우 사용자가 다시 로그인 할 필요가 없습니다. 링크를 클릭 하면 브라우저에서 대화 상자를 표시 하는 새 탭이 열립니다. 머리글이 "이미 Microsoft 클라우드 서비스 고객" 인 최상위 섹션에서 계정에 로그인 하 여 준수 관리자에 게 자동으로 로그인 하는 **로그인** 단추를 선택 합니다.
 

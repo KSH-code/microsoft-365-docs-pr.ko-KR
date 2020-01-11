@@ -3,7 +3,7 @@ title: Office 365에서 격리 된 메시지 및 파일을 관리자 권한으�
 ms.author: tracyp
 author: MSFTTracyp
 manager: dansimp
-ms.date: 09/05/2018
+ms.date: ''
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
@@ -16,12 +16,12 @@ ms.assetid: 065cc2cf-2f3a-47fd-a434-2a20b8f51d0c
 ms.collection:
 - M365-security-compliance
 description: '관리자는 Office 365에서 허위 격리 된 메시지를 보고, 해제 하 고, 보고할 수 있습니다. Office 365에서 메시지를 필터링 하 여 격리에 전송 하는 경우 (예: 스팸, 대량, 피싱, 맬웨어 또는 메일 흐름 규칙과 일치 하는 경우)에는 정책을 설정할 수 있습니다. '
-ms.openlocfilehash: b13b369383a44608bd74d8a92ea6eb40ce6284d0
-ms.sourcegitcommit: 40e83b22b74db8e37d65e0988d4c11de3aa541b2
+ms.openlocfilehash: 610a5e584f8731440150f643365b4d307b87adf2
+ms.sourcegitcommit: 5b8a1b4c71f695c6638ae943264af11084d6dc64
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "41021864"
+ms.lasthandoff: 01/11/2020
+ms.locfileid: "41023332"
 ---
 # <a name="manage-quarantined-messages-and-files-as-an-administrator-in-office-365"></a>Office 365에서 격리 된 메시지 및 파일을 관리자 권한으로 관리
 
@@ -33,9 +33,11 @@ ms.locfileid: "41021864"
 
 ## <a name="what-permissions-are-needed-to-access-administrator-quarantine"></a>관리자 격리에 액세스 하는 데 필요한 사용 권한은 무엇입니까?
 
-격리를 관리 하는 권한은 **Security & 준수 센터* 역할 그룹의 구성원 자격을 통해 제어 됩니다. 보안 & 준수 센터의 역할 그룹에 대 한 자세한 내용은 [Permissions in The Office 365 Security & 준수 센터](https://docs.microsoft.com/en-us/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center)를 참조 하십시오.
+격리를 관리 하는 권한은 *보안 & 준수 센터* 역할 그룹 (특히 **격리** 역할)의 구성원 자격을 통해 제어 됩니다. 보안 & 준수 센터의 역할 및 역할 그룹에 대 한 자세한 내용은 [Permissions in The Office 365 Security & 준수 센터](permissions-in-the-security-and-compliance-center.md)를 참조 하십시오.
 
-격리를 관리 하는 권한을 부여 하는 보안 & 준수 역할 그룹은 다음과 같습니다.
+격리를 관리 하는 권한을 부여 하는 보안 & 규정 준수 역할 그룹은 다음과 같습니다.
+
+- **조직 관리** (전역 관리자)
 
 - **격리 관리자**
 

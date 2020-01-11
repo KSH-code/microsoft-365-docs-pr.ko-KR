@@ -12,12 +12,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 조직에서 위험 평가를 간소화 하 고 자동화 하는 데 도움이 되는 Microsoft 준수 점수에 대 한 질문과 대답을 확인할 수 있습니다.
-ms.openlocfilehash: bc0ddfe71a3de2bbfa2c9c9a0fdc507a540daf90
-ms.sourcegitcommit: 3eae8fe39cea912d29e211a1c9fd035d6b606f91
+ms.openlocfilehash: ff53b2f3c7cde3dc9f78ccf13cb3fa8f75e7afa6
+ms.sourcegitcommit: 40e83b22b74db8e37d65e0988d4c11de3aa541b2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "39625423"
+ms.lasthandoff: 01/10/2020
+ms.locfileid: "41021984"
 ---
 # <a name="microsoft-compliance-score-preview-frequently-asked-questions"></a>Microsoft 준수 점수 (미리 보기) faq
 
@@ -41,7 +41,7 @@ Microsoft 준수 점수는 조직의 규정 준수 상태를 이해 하는 데 �
 
 규정 준수 점수는 조직의 모든 사용자에 게 준수를 모니터링 하 고 규정 표준을 준수 하는 데 도움이 되는 활동을 수행 하는 데 유용 합니다. 규정 준수 점수가 있으면 조직의 데이터 보호를 향상 시키는 규정 및 표준을 익혀야 할 필요가 없습니다. 규정 준수 점수가 모든 사용자에 게 적합 한 시작 위치입니다. 여기에서 준수 점수를 확인 하 고, 위험을 최소화 하는 데 도움이 되는 권장 작업을 알아보고, 대부분의 경우 이러한 작업을 수행 하기 위한 솔루션을 즉시 시작할 수 있습니다.
 
-지금은 준수 관리자는 평가를 관리 하 고 사용자 지정 템플릿을 만들어 평가를 작성할 수 있는 위치입니다. 공개 미리 보기 중에는 [준수 관리자만 지 원하는 작업](compliance-score-release-notes.md#compliance-score-and-compliance-manager-relationship) 에 대해 자세히 알아보세요.
+지금은 준수 관리자는 평가를 관리 하 고 사용자 지정 템플릿을 만들어 평가를 작성할 수 있는 위치입니다. 공개 미리 보기 중에는 [준수 관리자만 지 원하는 작업](compliance-score-release-notes.md#compliance-score-relationship-to-compliance-manager) 에 대해 자세히 알아보세요.
 
 ## <a name="if-i-have-a-high-score-does-it-mean-im-fully-compliant"></a>높은 점수를 받은 경우 완벽 한 규격을 의미 하나요?
 
