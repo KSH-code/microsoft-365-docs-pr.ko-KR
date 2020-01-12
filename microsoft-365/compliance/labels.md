@@ -1,7 +1,7 @@
 ---
 title: 보존 레이블 개요
-ms.author: laurawi
-author: laurawi
+ms.author: cabailey
+author: cabailey
 manager: laurawi
 ms.date: ''
 audience: Admin
@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Office 365에서 레이블은 올바른 콘텐츠에 대해 올바른 작업을 수행하는 데 도움이 될 수 있습니다. 보존 레이블을 사용하여 거버넌스를 위해 조직의 데이터를 분류하고 해당 분류에 따라 보존 규칙을 적용할 수 있습니다. Office 365에서 기록 관리를 구현할 때도 보존 레이블을 사용할 수 있습니다.
-ms.openlocfilehash: dcf350f34a30d27aa66d3e4395b2441694537bae
-ms.sourcegitcommit: 9a420b16aaa401a822ccfd9b133977ad8bd1024b
+ms.openlocfilehash: 9327e23a25143fa032ea9501a9d89ec6f47950bd
+ms.sourcegitcommit: 5b8a1b4c71f695c6638ae943264af11084d6dc64
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "39621111"
+ms.lasthandoff: 01/11/2020
+ms.locfileid: "41023372"
 ---
 # <a name="overview-of-retention-labels"></a>보존 레이블 개요
 
@@ -55,7 +55,7 @@ ms.locfileid: "39621111"
    - 사용자가 더 이상 데이터 거버넌스 정책을 알아야 할 필요가 없으며, 그 대신 업무에 집중할 수 있습니다.
 
   > [!NOTE]
-  > 자동으로 레이블을 적용하는 기능을 사용하려면 사이트 또는 사서함에서 자동으로 레이블이 지정된 콘텐츠를 편집할 수 있는 권한이 있는 각 사용자에 대해 Office 365 Enterprise E5 라이선스가 있어야 합니다. 읽기 전용 액세스 권한만 있는 사용자에게는 라이선스가 필요하지 않습니다.
+  > 자동으로 레이블을 적용하는 기능을 사용하려면 사이트에서 자동으로 레이블이 지정되었거나 사서함의 자동 레이블 지정 기능이 선택되어 있는 콘텐츠를 편집할 수 있는 권한이 있는 각 사용자에 대해 Office 365 Enterprise E5 라이선스가 있어야 합니다. 콘텐츠 혹은 레이블이 지정된 전자 메일 회신에 대한 읽기 전용 액세스 권한만 있는 사용자에게는 이러한 라이선스가 필요하지 않습니다.
       
 - 전자 메일 문서를 포함하는 **기록 관리를 Office 365에서 구현**합니다. 보존 레이블을 사용하여 콘텐츠를 기록으로 분류할 수 있습니다. 이 경우 레이블을 변경하거나 제거할 수 없으며 콘텐츠를 편집하거나 삭제할 수 없습니다. 
 
