@@ -15,12 +15,12 @@ ms.assetid: 4250c4bc-6102-420b-9e0a-a95064837676
 ms.collection:
 - M365-security-compliance
 description: 개별 사용자 또는 전체 조직에 대해 Outlook 및 웹용 outlook 용 보고서 메시지 추가 기능을 사용 하도록 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: 1d7ed57ab504d8075d0be5ecda7f2a6b016bae89
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: bb01d7d2bf4992e6d0e7ed2a01ef0a689e25fc22
+ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40808363"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41112242"
 ---
 # <a name="enable-the-report-message-add-in"></a>보고서 메시지 추가 기능을 사용하도록 설정
 
@@ -186,7 +186,7 @@ Office 365 전역 관리자 또는 Exchange Online 관리자이 고 Exchange가 
 
 [보고서 메시지 추가 기능 사용](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2)
 
-[보안 &amp; 및 준수 센터의 전자 메일 보안 보고서 보기](../../compliance/view-email-security-reports.md)
+[보안 &amp; 및 준수 센터의 전자 메일 보안 보고서 보기](view-email-security-reports.md)
 
 [Office 365 Advanced Threat Protection에 대 한 보고서 보기](view-reports-for-atp.md)
 

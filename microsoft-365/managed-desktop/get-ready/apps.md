@@ -1,17 +1,17 @@
 ---
 title: Microsoft Managed Desktop의 앱
 description: ''
-keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 설명서
+keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: db89e3b1f8b5b8073eab62e4b4d38087e1e73fa4
-ms.sourcegitcommit: 498340389e1c34f49f0b2da382c23c8d5334ae47
+ms.openlocfilehash: ea6cc92fe84cc39502e3db97361ff9d294fdfca2
+ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 06/12/2019
-ms.locfileid: "34913049"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41112662"
 ---
 # <a name="apps-in-microsoft-managed-desktop"></a>Microsoft Managed Desktop의 앱
 
@@ -32,7 +32,7 @@ Microsoft Managed Desktop license에는 Office 365 ProPlus Standard 제품군 (W
 
 ### <a name="what-microsoft-does-to-support-the-apps-we-provide"></a>제공 되는 앱을 지원 하기 위해 Microsoft에서 수행 하는 작업
 
-Microsoft는 포함 된 Office 365 ProPlus 앱에 대 한 배포, 업데이트 및 지원에 대 한 전체 서비스를 제공 합니다. 간편 실행 버전의 Microsoft Project 및 Visio가 기본적으로 포함 되어 *있지* 않지만 Microsoft Managed Desktop은 IT 관리자가 라이선스를 관리 하 고 이러한 응용 프로그램을 적절 하 게 배포할 수 있도록 하는 배포 그룹을 제공 합니다. 조직. Microsoft는 Microsoft 관리 데스크톱 지원 채널을 통해 이러한 응용 프로그램의 최종 사용자를 지원 합니다.
+Microsoft는 포함 된 Office 365 ProPlus 앱에 대 한 배포, 업데이트 및 지원에 대 한 전체 서비스를 제공 합니다. 간편 실행 버전의 Microsoft Project 및 Visio는 기본적으로 포함 되어 *있지* 않지만 Microsoft Managed Desktop은 배포 그룹을 제공 하므로 IT 관리자가 라이선스를 관리 하 고 이러한 응용 프로그램을 조직에 적절 하 게 배포할 수 있습니다. Microsoft는 Microsoft 관리 데스크톱 지원 채널을 통해 이러한 응용 프로그램의 최종 사용자를 지원 합니다.
 
 ### <a name="what-you-need-to-do-to-support-the-apps-we-provide"></a>제공한 앱을 지원 하기 위해 수행 해야 하는 작업
 
@@ -46,7 +46,7 @@ Microsoft는 포함 된 Office 365 ProPlus 앱에 대 한 배포, 업데이트 �
 
 물론 비즈니스 작업에 필요한 다른 앱이 많이 있을 수 있습니다. 이러한 장치는 Microsoft Intune의 배포 파이프라인을 사용 하 여 Microsoft Managed Desktop devices에만 배포할 수 있습니다. 앱이 필요한 경우 공급 업체에 의해 패키지 패키지로 제공 될 수 있습니다 (Microsoft 제품이 아닌 다른 공급 업체나 Microsoft 컨설팅 서비스 (MCS) 일 수 있음) 아니면이 방법을 사용 하는 경우 직접 패키지할 수 있습니다. 그런 다음 이러한 패키지를 Microsoft Managed Desktop portal에 추가 하 고이를 Azure Active Directory 그룹에 할당 하 여 배포를 트리거합니다. 
 
-현재 System Center Configuration Manager를 사용 하 여 앱을 배포 하는 경우 Microsoft Managed Desktop은 앱을 평가 하는 쿼리를 제공 하 고 Microsoft Intune으로 마이그레이션할 준비가 된 것과 몇 가지 조정이 필요할 수 있는 항목을 검색할 수 있습니다. .
+현재 Microsoft Endpoint Configuration Manager를 사용 하 여 앱을 배포 하는 경우 Microsoft Managed Desktop은 앱을 평가 하는 쿼리를 제공 하 고 Microsoft Intune으로 마이그레이션할 준비가 된 것과 몇 가지 문제가 발생할 수 있는 항목을 파악 하는 데 도움이 될 수 있습니다. 조절.
 
 
 ### <a name="preparing-your-own-apps-for-inclusion-in-microsoft-managed-desktop"></a>Microsoft Managed Desktop에 포함할 앱 준비

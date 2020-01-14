@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
 description: Exchange Online의 원본 위치 eDiscovery 및 원본 위치 유지 및 해당 PowerShell cmdlet은 2020의 처음 절반에서 만료 됩니다. 검색 사서함 cmdlet 및 Office 365 Advanced eDiscovery v 1.0은 동일한 기간 내에도 폐기 됩니다.
-ms.openlocfilehash: c0cef17acf0028472a9b92352afd51786a8ae25c
-ms.sourcegitcommit: af7950d9674f0eab3aee03f9afccff9ca2f4709a
+ms.openlocfilehash: cb24c40cc2018fba6d1feb13ef0d6426abd2c49a
+ms.sourcegitcommit: a3178a0fab69d20bf3fc8d3fbc17dd3d16923622
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40970826"
+ms.lasthandoff: 01/13/2020
+ms.locfileid: "41107907"
 ---
 # <a name="retirement-of-legacy-ediscovery-tools"></a>레거시 eDiscovery 도구 만료
 
@@ -59,7 +59,7 @@ Microsoft 365 준수 센터에서 새롭게 향상 된 eDiscovery 기능의 새�
 
 원래 알림 2017 년 7 월 1 일에는 EAC (Exchange 관리 센터)의 원본 위치 eDiscovery & 보류 기능이 폐기 됩니다. EAC의 원본 위치 eDiscovery & 보류 페이지를 사용 하 여 Exchange Online에서 콘텐츠를 검색 하 고, 유지 하 고, 내보낼 수 있습니다. 또한 원본 위치 eDiscovery를 사용 하면 검색 결과를 검색 사서함으로 복사 하 여 사용자 또는 다른 eDiscovery 관리자가 콘텐츠를 검토 하 고 법적, 규정 및 공개 요청에 사용할 수 있도록 할 수 있습니다.
 
-Becuase 검색 결과를 검색 사서함에 복사 하는 것을 제외 하 고 이러한 모든 기능을 이제는 [microsoft 365 준수 센터](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center) 의 콘텐츠 검색, EDiscovery 및 고급 eDiscovery 도구 (광범위 한 microsoft 365 서비스에 대 한 지원)가 제공 되므로 가능한 한 빨리 이러한 도구를 사용 하는 것이 좋습니다. 아래 표에는 이러한 다른 eDiscovery 도구로 전환할 때 사용할 수 있는 도구와 원본 위치 eDiscovery 및 원본 위치 유지를 사용 하지 않는 도구가 나와 있습니다.
+이러한 모든 기능 (검색 결과를 검색 사서함으로 복사 하는 것을 제외)은 이제 [microsoft 365 준수 센터](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center) 의 콘텐츠 검색, EDiscovery 및 고급 eDiscovery 도구 (microsoft 365 서비스에 대 한 향상 된 기능, 안정성 및 지원)에서 제공 되므로 가능한 한 빨리 이러한 도구를 사용 하는 것이 좋습니다. 아래 표에는 이러한 다른 eDiscovery 도구로 전환할 때 사용할 수 있는 도구와 원본 위치 eDiscovery 및 원본 위치 유지를 사용 하지 않는 도구가 나와 있습니다.
 
 ### <a name="scope-of-affected-organizations"></a>영향을 받는 조직의 범위
     
@@ -138,7 +138,7 @@ Becuase 검색 결과를 검색 사서함에 복사 하는 것을 제외 하 고
 
 **EAC의 원본 위치 eDiscovery & 보존 기능을 사용 하 여 변호사가 검토를 위해 검색 사서함에 검색할 검색 결과를 복사 합니다. 현재 어떤 옵션을 사용할 수 있나요?**
 
-이 기능은 오늘 두 가지 방법으로 복제할 수 있습니다. 첫 번째는 [Advanced eDiscovery v 2.0에서 검토 집합](https://docs.microsoft.com/microsoft-365/compliance/view-documents-in-review-set)을 사용 하는 것입니다. 검토 집합에는 문서, 태그 지정, 전자 메일 스레딩, 중복 그룹화, 테마 분석 및 예측 코딩 같은 전통적인 검토 도구에 표시 되는 것과 동일한 기능이 많이 있습니다. 검토에 검색 사서함을 계속 사용 하려는 경우 두 번째 옵션은 검색 결과를 PST 파일로 내보낸 다음 Microsoft 준수 센터의 [pst 가져오기 기능](use-network-upload-to-import-pst-files.md) 을 사용 하 여 해당 pst 파일을 검색 사서함으로 가져옵니다.
+이 기능은 오늘 두 가지 방법으로 복제할 수 있습니다. 첫 번째는 [Advanced eDiscovery v 2.0에서 검토 집합](https://docs.microsoft.com/microsoft-365/compliance/view-documents-in-review-set)을 사용 하는 것입니다. 검토 집합에는 문서, 태그 지정, 전자 메일 스레딩, 중복 그룹화, 테마 분석 및 예측 코딩 같은 전통적인 검토 도구에 표시 되는 것과 동일한 기능이 많이 있습니다. 검토를 위해 검색 사서함을 계속 사용 하려는 경우 두 번째 옵션은 검색 결과를 PST 파일로 내보낸 다음 Microsoft 준수 센터의 [pst 가져오기 기능](use-network-upload-to-import-pst-files.md) 을 사용 하 여 해당 pst 파일을 검색 사서함으로 가져오는 것입니다.
 
 **EDiscovery 관리자가 새 도구를 사용 하 여 검색할 수 있는 콘텐츠 위치 (예: 사서함 또는 사이트)를 제어 하려면 어떻게 해야 합니까?**
 
@@ -150,7 +150,7 @@ PowerShell을 사용 하 여 원본 위치 eDiscovery 검색을 마이그레이�
 
 ## <a name="-mailboxsearch-cmdlets"></a>\*-New-mailboxsearch cmdlet
 
-Exchange 관리 센터에서 2017 년 7 월 1 일에 발표 된 원래 공지와 마찬가지로, 원본 위치 eDiscovery & 보류 기능 및 해당 ** \*** 하는 new-mailboxsearch cmdlet을 사용 중지 합니다. 이러한 cmdlet은 사용자에 게 법적, 규정 및 공개 요청의 사서함 콘텐츠를 검색 하 고, 유지 하 고, 내보낼 수 있는 기능을 제공 합니다.
+Exchange 관리 센터에서 2017 년 7 월 1 일에 발표 된 원래 공지와 마찬가지로, 원본 위치 eDiscovery & 보류 기능 및 해당 ** \*** 하는 new-mailboxsearch cmdlet을 사용 중지 합니다. 이러한 cmdlet은 사용자에 게 법적, 규정 및 공개 요청에 대 한 사서함 콘텐츠를 검색, 유지 및 내보낼 수 있는 기능을 제공 합니다.
 
 이제 이러한 기능을 [<span class="underline">Microsoft 365 준수 센터</span>](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center) 및 Office 365 Security & 준수 센터 PowerShell에서 향상 된 성능 및 확장성으로 사용할 수 있기 때문에 이러한 향상 된 cmdlet을 사용 해야 합니다. 이러한 cmdlet에는 [<span class="underline"> \*-remove-compliancecase</span>](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-ediscovery/get-compliancecase), [<span class="underline"> \*-ComplianceSearch</span>](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-content-search/get-compliancesearch), [<span class="underline"> \*-new-caseholdpolicy</span>](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-ediscovery/get-caseholdpolicy), [<span class="underline"> \*-new-caseholdrule</span>](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-ediscovery/get-caseholdrule)및 [<span class="underline"> \*-new-compliancesearchaction</span>](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-content-search/get-compliancesearchaction)가 포함 됩니다.
 
@@ -168,7 +168,7 @@ Exchange 관리 센터에서 2017 년 7 월 1 일에 발표 된 원래 공지와
     
 - 2020 년 4 월 1 일 **: 새 원본** 위치 eDiscovery 검색 및 원본 위치 유지를 만들 수는 없지만 cmdlet을 사용 하 여 기존 검색을 실행, 편집 및 삭제 하 고 사용자의 위험에도 영향을 받을 수 있습니다. Microsoft Support는 이러한 유형의 검색 및 보존에 대 한 지원을 더 이상 제공 하지 않습니다.
     
-- 2020 년 7 월 1 일: 앞에서 설명한 것 처럼 EAC의 원본 위치 eDiscovery &은 읽기 전용 모드로 설정 됩니다. 즉, **new-mailboxsearch**, **new-mailboxsearch**또는 **new-mailboxsearch** cmdlet을 사용 하지 못할 수도 있습니다. 기존 검색 및 보류만 가져오고 제거할 수 있습니다.
+- 2020 년 7 월 1 일: 앞에서 설명한 것 처럼 EAC의 원본 위치 eDiscovery &은 읽기 전용 모드로 설정 됩니다. 이는 또한 **new-mailboxsearch**, **new-mailboxsearch**또는 **new-mailboxsearch** cmdlet을 사용할 수 없음을 의미 합니다. 기존 검색 및 보류만 가져오고 제거할 수 있습니다.
 
 ### <a name="alternative-tools"></a>대체 도구
 
@@ -205,7 +205,7 @@ Exchange 관리 센터에서 2017 년 7 월 1 일에 발표 된 원래 공지와
 <tr class="odd">
 <td>검색 결과를 검색 사서함으로 복사</td>
 <td>없음</td>
-<td>이 기능은 모든 Microsoft 365 서비스에 대 한 액세스를 제공 하지 않으므로 직접 대체할 수 없습니다. 대안 솔루션에 대 한 다음 FAQ를 참조 하세요.</td>
+<td>이 기능은 모든 Microsoft 365 서비스에 대 한 액세스를 제공 하지 않으므로 직접 대체할 수 없습니다. 다른 해결 방법에 대 한 다음 FAQ를 참조 하세요.</td>
 </tr>
 </tbody>
 </table>
@@ -268,7 +268,7 @@ Exchange Online PowerShell의 **검색 사서함** cmdlet은 처음에 2018에�
 <td><p><a href="https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-content-search/get-compliancesearch?view=exchange-ps"><span class="underline">*-ComplianceSearch</span></a></p>
 <p><a href="https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-content-search/get-compliancesearchaction?view=exchange-ps"><span class="underline">*-New-compliancesearchaction</span></a></p>
 <p></p></td>
-<td><p>ComplianceSearch 및 New-compliancesearchaction cmdlet은 상호 작용 하 여 콘텐츠를 검색 하 고 제거 하는 데 도움이 됩니다. <strong>ComplianceSearch</strong> 및 <strong>ComplianceSearch</strong> cmdlet을 사용 하 여 검색을 만들고 실행할 수 있으며, <strong>새-new-compliancesearchaction 및-PurgeType</strong> 명령을 통해 콘텐츠를 제거할 수 있습니다.</p>
+<td><p>ComplianceSearch 및 New-compliancesearchaction cmdlet은 상호 작용 하 여 콘텐츠를 검색 하 고 제거 하는 데 도움이 됩니다. <strong>ComplianceSearch</strong> 및 <strong>ComplianceSearch</strong> cmdlet을 사용 하 여 검색을 만들고 실행 한 후에는 <strong>new-compliancesearchaction-PurgeType</strong> 명령을 통해 콘텐츠를 제거할 수 있습니다. 자세한 내용은 <a href="https://docs.microsoft.com/microsoft-365/compliance/search-for-and-delete-messages-in-your-organization"><span class="underline">메시지 검색 및 삭제</span></a>를 참조 하세요.</p>
 </td>
 </tr>
 <tr class="odd">
@@ -317,7 +317,7 @@ Microsoft 365 ( *Advanced eDiscovery v 2.0*이 라고도 함)의 새로운 고�
     
 - 2020 년 4 월 1 일: 새 고급 eDiscovery v 1.0 사례를 만들 수 없습니다.
     
-- 2020 년 7 월 1 일: Microsoft 지원은 지원 서비스를 제공 하지 않습니다. [이 공지](https://go.microsoft.com/fwlink/?linkid=2113221)사항을 참조 하세요. 모든 경우에 새 데이터 (고급 eDiscovery에 대 한 검색 결과 준비)를 추가할 수 없습니다. 기존 사례에서 데이터 작업을 계속 수행할 수 있습니다.
+- 2020 년 7 월 1 일: Microsoft 지원은 지원 서비스를 제공 하지 않습니다. [이 알림을](https://go.microsoft.com/fwlink/?linkid=2113221)참조 하세요. 모든 경우에 새 데이터 (고급 eDiscovery에 대 한 검색 결과 준비)를 추가할 수 없습니다. 기존 사례에서 데이터 작업을 계속 수행할 수 있습니다.
 
 ### <a name="alternative-tools"></a>대체 도구
     

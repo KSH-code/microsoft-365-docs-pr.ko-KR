@@ -16,12 +16,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 101078adea821b5ddd3d525d26a7e9dbca1e1512
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 8627a46ee861751799e1175c7e030e1b28c6d935
+ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40807377"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41111889"
 ---
 # <a name="configure-communication-compliance-in-microsoft-365-preview"></a>Microsoft 365에서의 커뮤니케이션 규정 준수 구성(미리 보기)
 
@@ -42,7 +42,7 @@ Microsoft 365 조직에서 통신 준수를 설정 및 사용 하려면 다음 �
 
 - **2 단계 (필수 사항)**: [조직에서 통신 준수를 사용할 수 있도록 설정](#step-2-make-communication-compliance-available-in-your-organization-required)
 
-    정책을 설정할 수 있도록 자신을 **관리 검토 관리자** 역할에 추가 합니다. 또한 **관리 검토 관리자**, **사례 관리**및 역할이 일치 하는 메시지에 대해 조사 및 업데이트 관리 작업을 수행 하는 사용자 또는 그룹에 대 한 **검토** 역할을 사용 하 여 그룹을 만들어야 합니다. 이러한 역할이 할당 된 모든 사용자는 Microsoft 365 준수 센터의 **통신 준수** 페이지에 액세스할 수 있습니다. 다시 볼 수 있는 전자 메일이 Exchange Online에서 호스팅되는 경우 각 검토자 [에 게 Exchange online에 대 한 원격 PowerShell 액세스](https://docs.microsoft.com/powershell/exchange/exchange-online/disable-access-to-exchange-online-powershell)권한이 있어야 합니다.
+    정책을 설정할 수 있도록 자신을 **관리 검토 관리자** 역할에 추가 합니다. 또한 **관리 검토 관리자**, **사례 관리**, 그리고 정책 일치가 포함 된 메시지에 대해 조사 및 관리 작업을 수행 하는 사용자 또는 그룹에 대 한 **검토** 역할을 사용 하 여 새 그룹을 만들어야 합니다. 이러한 역할이 할당 된 모든 사용자는 Microsoft 365 준수 센터의 **통신 준수** 페이지에 액세스할 수 있습니다. 다시 볼 수 있는 전자 메일이 Exchange Online에서 호스팅되는 경우 각 검토자 [에 게 Exchange online에 대 한 원격 PowerShell 액세스](https://docs.microsoft.com/powershell/exchange/exchange-online/disable-access-to-exchange-online-powershell)권한이 있어야 합니다.
 
 - **3 단계 (필수 사항)**: [통신 준수 정책 설정](#step-3-create-a-communication-compliance-policy-required)
 
@@ -88,15 +88,17 @@ Microsoft 365 준수 센터에서 **통신 준수** 를 메뉴 옵션으로 사�
 
 ### <a name="create-a-new-role-group"></a>새 역할 그룹 만들기
 
-1. Office 365 [https://compliance.microsoft.com](https://compliance.microsoft.com) 조직의 관리자 계정에 대 한 자격 증명을 사용 하 여 로그인 합니다.
+1. Microsoft 365 [https://protection.office.com/permissions](https://protection.office.com/permissions) 조직의 관리자 계정에 대 한 자격 증명을 사용 하 여 로그인 합니다.
 
-2. Microsoft 365 준수 센터에서 **사용 권한**으로 이동 합니다. Office 365에서 역할을 보고 관리 하는 링크를 선택 합니다.
+2. Microsoft Office 365 보안 및 준수 센터에서 **사용 권한**으로 이동 합니다. Office 365에서 역할을 보고 관리 하는 링크를 선택 합니다.
 
 3. **만들기**를 선택합니다.
 
 4. **이름** 필드에서 새 역할 그룹에 이름을 지정 합니다.  Select **Next**. 
 
 5. **역할 선택을** 선택 하 고 **추가**를 선택 합니다. **관리 검토 관리자**, **사례 관리**및 **검토**에 대 한 확인란을 선택 하 고 **추가** 및 **완료**를 선택 합니다.  Select **Next**. 
+
+    ![통신 준수 필수 역할 그룹](media/communication-compliance-role-groups.png)
 
 6. **구성원 선택을** 선택 하 고 **추가**를 선택 합니다. 정책을 만들 모든 사용자 및 그룹에 대 한 확인란을 선택 하 고 정책 일치가 포함 된 메시지를 관리 한 다음 **추가** 및 **완료**를 선택 합니다.  Select **Next**. 
 

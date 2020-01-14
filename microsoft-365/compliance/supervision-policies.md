@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 - MOE150
 titleSuffix: Office 365 Compliance
-ms.openlocfilehash: bd9d86a5a5d96e8f7978f5c2482eb127b0379a09
-ms.sourcegitcommit: 82baed362528fed30e9e09c6a4a37c07be2f138d
+ms.openlocfilehash: 6ccf5cb4dff8b458c91700ebc1e7dc830d16aafc
+ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40959527"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41112272"
 ---
 # <a name="supervision-policies-in-office-365"></a>Office 365에서의 감독 정책
 
@@ -269,7 +269,7 @@ Microsoft 365에서 새 통신 준수 환경을 사용해 원하십니까? [Micr
 
 다음의 감독 정책 활동은 통합 Office 365 감사 로그에서 감사 되 고 사용 가능 합니다.
 
-|**작업**|**연결 된 명령**|
+|**활동**|**연결 된 명령**|
 |:-----|:-----|
 | **정책 만들기** | [Remove-supervisoryreviewpolicyv2](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/new-supervisoryreviewpolicyv2) <br> [Set-supervisoryreviewrule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/new-supervisoryreviewrule) |
 | **정책 편집** | [Remove-supervisoryreviewpolicyv2](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/set-supervisoryreviewpolicyv2) <br> [Set-supervisoryreviewrule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/set-supervisoryreviewrule) |
@@ -281,6 +281,12 @@ Microsoft 365에서 새 통신 준수 환경을 사용해 원하십니까? [Micr
 
 ```PowerShell
 Search-UnifiedAuditLog -StartDate 3/1/2019 -EndDate ([System.DateTime]::Now) -RecordType DataGovernance -ResultSize 5000 | Where-Object {$_.Operations -like "*SupervisoryReview*"}  | fl CreationDate,Operations,UserIds,AuditData
+```
+
+이 예에서는 통신 준수 정책에 대 한 업데이트 작업을 반환 합니다.
+
+```PowerShell
+Search-UnifiedAuditLog -StartDate $startDate -EndDate $endDate -Operations SupervisionPolicyCreated,SupervisionPolicyUpdated,SupervisionPolicyDeletedAuditData
 ```
 
 [SupervisoryReviewActivity](https://docs.microsoft.com/powershell/module/exchange/reporting/get-supervisoryreviewactivity?view=exchange-ps) PowerShell cmdlet을 사용 하 여 감독 보고서 및 로그에 제공 되는 정보 뿐 아니라 모든 감독 정책 작업의 전체 세부 목록을 반환할 수도 있습니다.

@@ -14,12 +14,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Office 365 관리자는 Office 365 고급 메시지 암호화로 암호화 된 특정 전자 메일을 해지할 수 있습니다.
-ms.openlocfilehash: 7adc5713c8753e0caf780bbacf98519665458c52
-ms.sourcegitcommit: 27a7a373ca77375fdab0690a899135fad16c3cf5
+ms.openlocfilehash: d3d449c969b2fa5d21042779ebad11e3807d1d3e
+ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/09/2019
-ms.locfileid: "37435552"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41112522"
 ---
 # <a name="revoke-email-encrypted-by-office-365-advanced-message-encryption"></a>Office 365 고급 메시지 암호화로 암호화된 전자 메일 취소
 
@@ -59,7 +59,7 @@ Office 365 고급 메시지 암호화를 사용 하 여 메시지를 암호화 �
 
 #### <a name="to-identify-the-message-id-of-the-email-you-want-to-revoke-by-using-office-message-encryption-reports-in-the-security-amp-compliance-center"></a>보안 &amp; 및 준수 센터에서 Office 메시지 암호화 보고서를 사용 하 여 해지할 전자 메일의 메시지 ID를 식별 하려면
 
-1. 보안 &amp; 및 준수 센터에서 **메시지 암호화 보고서**로 이동 합니다. 이 보고서에 대 한 자세한 내용은 [보안 &amp; 및 준수 센터의 전자 메일 보안 보고서 보기](view-email-security-reports.md)를 참조 하세요.
+1. 보안 &amp; 및 준수 센터에서 **메시지 암호화 보고서**로 이동 합니다. 이 보고서에 대 한 자세한 내용은 [보안 &amp; 및 준수 센터의 전자 메일 보안 보고서 보기](../security/office-365-security/view-email-security-reports.md)를 참조 하세요.
 
 2. **정보 보기** 테이블을 선택 하 고 해지할 메시지를 식별 합니다.
 
@@ -71,7 +71,7 @@ Office 365 고급 메시지 암호화를 사용 하 여 메시지를 암호화 �
 
 Windows Powershell을 사용 하 여 특정 전자 메일 메시지를 해지할 수 있는지 여부를 확인 하려면 다음 단계를 완료 합니다.
 
-1. Office 365 조직에서 전역 관리자 권한이 있는 회사 또는 학교 계정을 사용 하는 경우 Windows PowerShell 세션을 시작 하 고 Exchange Online에 연결 합니다. 자세한 내용은 [Exchange Online PowerShell에 연결을](https://aka.ms/exopowershell)참조 하십시오.
+1. Office 365 조직에서 전역 관리자 권한이 있는 회사 또는 학교 계정을 사용 하는 경우 Windows PowerShell 세션을 시작 하 고 Exchange Online에 연결 합니다. 지침을 확인하려면 [Exchange Online PowerShell에 연결](https://aka.ms/exopowershell)을 참조하세요.
 
 2. 다음과 같이 OMEMessageStatus cmdlet을 실행 합니다.
 

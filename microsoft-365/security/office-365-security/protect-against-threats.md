@@ -15,12 +15,12 @@ ms.assetid: b10023f6-f30f-45d3-b3ad-b71aa4aa0d58
 ms.collection:
 - M365-security-compliance
 description: 이 문서를 참조 하 여 위협 방지 기능을 지금 구성 합니다.
-ms.openlocfilehash: b4e3aba1b03d9c5df9eae50813169a9b9d394f6f
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 2c2e67334f90b24ec60bc7af01451805b32037cc
+ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40808053"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41112012"
 ---
 # <a name="protect-against-threats-in-office-365"></a>Office 365에서 위협 으로부터 보호
 
@@ -205,7 +205,7 @@ Office 365에는 다양 한 위협 보호 기능이 포함 되어 있습니다. 
 
 ### <a name="audit-logging-for-reporting-and-investigation"></a>보고 및 조사에 대 한 감사 로깅
 
-감사 로깅은 [Exchange Online](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description)이 포함 된 구독에서 사용할 수 있습니다. [보안 대시보드](security-dashboard.md), [전자 메일 보안 보고서](../../compliance/view-email-security-reports.md)및 [탐색기](threat-explorer.md)와 같은 위협 보호 보고서의 데이터를 보려면 조직에 대해 감사 로깅을 설정 해야 합니다. 자세한 내용은 [Turn Office 365 감사 로그 검색 설정 또는 해제](../../compliance/turn-audit-log-search-on-or-off.md)를 참조 하세요.
+감사 로깅은 [Exchange Online](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description)이 포함 된 구독에서 사용할 수 있습니다. [보안 대시보드](security-dashboard.md), [전자 메일 보안 보고서](view-email-security-reports.md)및 [탐색기](threat-explorer.md)와 같은 위협 보호 보고서의 데이터를 보려면 조직에 대해 감사 로깅을 설정 해야 합니다. 자세한 내용은 [Turn Office 365 감사 로그 검색 설정 또는 해제](../../compliance/turn-audit-log-search-on-or-off.md)를 참조 하세요.
 
 ## <a name="post-setup-tasks"></a>설치 후 작업
 
@@ -213,6 +213,6 @@ Office 365에는 다양 한 위협 보호 기능이 포함 되어 있습니다. 
 
 |수행할 작업|자세한 정보를 알아볼 수 있는 리소스|
 |---------|---------|
-|보고서를 확인 하 여 조직에서 위협 방지 기능을 사용 하는 방법 보기|[보안 대시보드](security-dashboard.md)<br/>[전자 메일 보안 보고서](../../compliance/view-email-security-reports.md)<br/>[Office 365 ATP에 대 한 보고서](view-reports-for-atp.md)<br/>[위협 탐색기](threat-explorer.md)|
+|보고서를 확인 하 여 조직에서 위협 방지 기능을 사용 하는 방법 보기|[보안 대시보드](security-dashboard.md)<br/>[전자 메일 보안 보고서](view-email-security-reports.md)<br/>[Office 365 ATP에 대 한 보고서](view-reports-for-atp.md)<br/>[위협 탐색기](threat-explorer.md)|
 |필요에 따라 위협 보호 정책 주기적으로 검토 및 수정|[Secure Score](../mtp/microsoft-secure-score.md)<br/>[스마트 보고서 및 통찰력](reports-and-insights-in-security-and-compliance.md)<br/>[Office 365 위협 조사 및 응답 기능](keep-users-safe-with-office-365-ti.md)|
 |새로운 기능 및 서비스 업데이트 조사|[표준 및 대상 지정 된 릴리스 옵션](https://docs.microsoft.com/office365/admin/manage/release-options-in-office-365?view=o365-worldwide)<br/>[메시지 센터](https://docs.microsoft.com/office365/admin/manage/message-center?view=o365-worldwide)<br/>[Microsoft 365 로드맵](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=advanced%2Cthreat%2Cprotection)<br/>[서비스 설명](https://docs.microsoft.com/office365/servicedescriptions/office-365-service-descriptions-technet-library)|

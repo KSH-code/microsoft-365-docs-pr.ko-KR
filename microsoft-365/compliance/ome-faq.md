@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 ms.assetid: 0432dce9-d9b6-4e73-8a13-4a932eb0081e
 description: Office 365의 새 메시지 보호 기능이 작동 하는 방식에 대 한 질문이 있나요? 여기에서 대답을 확인 하세요.
-ms.openlocfilehash: 8f9621ea440bf089ebc8fa3e35b38ff636657555
-ms.sourcegitcommit: b65c80051e53d9be223f4769f4d42a39f5a07735
+ms.openlocfilehash: fa8268569bfabcaa9e3cca963ad12723c8c99369
+ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39962565"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41111862"
 ---
 # <a name="office-365-message-encryption-faq"></a>Office 365 메시지 암호화 FAQ
 
@@ -141,7 +141,7 @@ Not yet. 비즈니스용 OneDrive 첨부 파일이 지원 되지 않으며 최�
   
 ## <a name="are-there-any-reporting-capabilities-or-insights-for-encrypted-emails"></a>암호화 된 전자 메일에 대 한 보고 기능 또는 정보가 있습니까?
 
-보안 및 준수 센터에 암호화 보고서가 있습니다. [보안 & 준수 센터의 전자 메일 보안 보고서 보기를](view-email-security-reports.md)참조 하세요.
+보안 및 준수 센터에 암호화 보고서가 있습니다. [보안 & 준수 센터의 전자 메일 보안 보고서 보기를](../security/office-365-security/view-email-security-reports.md)참조 하세요.
   
 ## <a name="can-i-use-message-encryption-with-compliance-features-such-as-ediscovery"></a>EDiscovery와 같은 규정 준수 기능을 사용 하 여 메시지 암호화를 사용할 수 있나요?
 

@@ -5,12 +5,12 @@ ms.prod: w10
 author: jaimeo
 ms.author: jaimeo
 ms.localizationpriority: medium
-ms.openlocfilehash: 8d2bc20a1d429510dfcd651c6b15dc1a2a89de9d
-ms.sourcegitcommit: b65c80051e53d9be223f4769f4d42a39f5a07735
+ms.openlocfilehash: 1d9b390cc28002b4561d61fa1d6cc411f3b135f1
+ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39962605"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41112712"
 ---
 # <a name="register-existing-devices-yourself"></a>직접 기존의 장치 등록
 
@@ -43,10 +43,10 @@ Microsoft Managed Desktop은 해당 하드웨어 해시를 참조 하 여 각 �
 
 #### <a name="configuration-manager"></a>Configuration Manager
 
-System Center Configuration Manager를 사용 하 여 Microsoft Managed Desktop에 등록 하려는 기존 장치의 하드웨어 해시를 수집할 수 있습니다.
+Microsoft Endpoint Configuration Manager를 사용 하 여 Microsoft Managed Desktop에 등록 하려는 기존 장치의 하드웨어 해시를 수집할 수 있습니다.
 
 > [!IMPORTANT]
-> 이 정보를 가져올 장치에는 Windows 10, 버전 1703 이상을 실행 해야 합니다. System Center 현재 분기 사이트에 연결 된 구성 관리자 클라이언트도 필요 합니다. 또한 SQL Server Reporting Services를 사용 하 여 환경에 보고 지점 사이트 시스템 역할이 설정 되어 있어야 합니다. 
+> 이 정보를 가져올 장치에는 Windows 10, 버전 1703 이상을 실행 해야 합니다. 구성 관리자 (현재 분기) 사이트에 연결 된 구성 관리자 클라이언트도 필요 합니다. 또한 SQL Server Reporting Services를 사용 하 여 환경에 보고 지점 사이트 시스템 역할이 설정 되어 있어야 합니다. 
 
 이러한 필수 구성 요소를 모두 충족 하면 다음 단계를 수행 하 여 정보를 수집할 수 있습니다.
 
@@ -148,7 +148,7 @@ Get-ADComputer -filter * | powershell -ExecutionPolicy Unrestricted Get-MMDRegis
 Set-ExecutionPolicy powershell -ExecutionPolicy Unrestricted Get-MMDRegistrationInfo.ps1 -credential Domainname\<accountname> -Name Machine1,Machine2,Machine3
 ```
 3. 장치에 대 한 항목이 있을 수 있는 모든 디렉터리에 액세스 합니다. Windows Server Active Directory 도메인 서비스 및 Azure Active Directory를 포함 하 여 *모든* 디렉터리에서 각 장치에 대 한 항목을 제거 합니다. 이 제거 작업을 완료 하는 데 몇 시간이 걸릴 수 있습니다.
-4. 장치에 대 한 항목이 있을 수 있는 관리 서비스에 액세스 합니다. System Center Configuration 관리자, Microsoft Intune 및 Windows Autopilot를 비롯 한 *모든* 관리 서비스에서 각 장치에 대 한 항목을 제거 합니다. 이 제거 작업을 완료 하는 데 몇 시간이 걸릴 수 있습니다.
+4. 장치에 대 한 항목이 있을 수 있는 관리 서비스에 액세스 합니다. Microsoft 끝점 구성 관리자, Microsoft Intune 및 Windows Autopilot를 비롯 한 *모든* 관리 서비스에서 각 장치에 대 한 항목을 제거 합니다. 이 제거 작업을 완료 하는 데 몇 시간이 걸릴 수 있습니다.
 
 이제 [장치 등록](#register-devices)을 계속할 수 있습니다.
 

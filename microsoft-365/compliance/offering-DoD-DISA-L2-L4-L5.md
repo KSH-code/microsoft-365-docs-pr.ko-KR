@@ -12,12 +12,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: e6a41cb2c55e1711048c863cd6f2f7e26e9ee5bc
-ms.sourcegitcommit: 82baed362528fed30e9e09c6a4a37c07be2f138d
+ms.openlocfilehash: ad9659799494a3aaad4a3436b263ebcfd2b56d1c
+ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40959557"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41112502"
 ---
 # <a name="us-department-of-defense-dod-provisional-authorization-at-impact-levels-2-4-and-5"></a>보안 수준 2, 4 및 5에서 DoD (US) Provisional 권한 부여
 
@@ -36,7 +36,7 @@ Microsoft의 정부 클라우드 서비스는 미국 방어 기관에서 Microso
 - Microsoft 클라우드에서 DoD DISA L2, L4, L5의 장점에 대 한 자세한 내용은 [방어 부서 DISA을 다운로드](https://aka.ms/disa-backgrounder) 하세요. Backgrounder
 - Azure 보안 및 준수 청사진을 사용 하 여 DoD DISA L2, L4, L5 배포를 가속화 하는 방법을 알아봅니다. [Azure DoD 수준 5 보안 제어 구현 다운로드](https://servicetrust.microsoft.com/ViewPage/Blueprint?command=Download&downloadType=Document&downloadId=e391da04-ae17-472c-9634-959c5ce6ba92&docTab=fc060920-cdb8-11e7-bacf-0bf52b09d912_DoD%20Blueprint)
 
-## <a name="dod-impact-level-5-provisional-authorization"></a>[DoD 영향 수준 5 Provisional 권한 부여
+## <a name="dod-impact-level-5-provisional-authorization"></a>DoD 영향 수준 5 Provisional 권한 부여
 
 DISA 클라우드 서비스 지원에는 DoD에 대 한 Microsoft Azure 정부에 대 한 DoD 영향 수준 5 PA가 부여 되어 있습니다. 또한 DISA에는 Office 365 미국 정부 방어 a DoD 영향 수준 5 PA가 부여 되어 있습니다. 영향 수준 5는 법률, 기타 정부 규정 또는 해당 정보를 소유 하 고 수준 4 보다 더 높은 수준의 보호를 요구 하는 기관에 의해 차단 되는 제어 된 미분류 정보 (했는지 여부)를 다룹니다. 또한 분류 되지 않은 국내 보안 시스템에 대해서도 설명 합니다.
 

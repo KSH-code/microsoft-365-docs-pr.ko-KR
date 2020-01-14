@@ -14,12 +14,12 @@ ms.assetid: fe0b9b8f-faa9-44ff-8095-4d1b2f507b74
 ms.collection:
 - M365-security-compliance
 description: 새 보안 대시보드를 사용 하 여 Office 365 위협 방지 상태를 검토 하 고 보안 경고를 보고 작동 합니다.
-ms.openlocfilehash: 8ce6e21bcc25853e641ee20126ffd38c785e76f7
-ms.sourcegitcommit: b424ea039c5915975f3efce8793bfc8dd2fdf906
+ms.openlocfilehash: f7fc45ca1df86fa29c6e2af69da5258fe6d564b6
+ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38033939"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41112652"
 ---
 # <a name="security-dashboard"></a>보안 대시보드
 
@@ -64,7 +64,7 @@ ms.locfileid: "38033939"
 
 |구독에 다음이 포함 된 경우 ... |다음 정보가 표시 됩니다. |
 |---------|---------|
-|EOP는 아니지만 Office 365 ATP     |EOP에서 검색 및 차단 된 악의적인 전자 메일<br> [위협 방지 상태 보고서 (EOP)](../../compliance/view-email-security-reports.md#threat-protection-status-report)를 참조 하세요.| 
+|EOP는 아니지만 Office 365 ATP     |EOP에서 검색 및 차단 된 악의적인 전자 메일<br> [위협 방지 상태 보고서 (EOP)](view-email-security-reports.md#threat-protection-status-report)를 참조 하세요.| 
 |Office 365 ATP |EOP 및 Office 365 ATP가 검색 하 고 차단한 악성 콘텐츠 및 악성 전자 메일<br>맬웨어 방지 엔진, [자동 삭제](zero-hour-auto-purge.md)및 atp 기능 ( [안전한 링크](atp-safe-links.md), [안전한 첨부 파일](atp-safe-attachments.md)및 [atp 피싱 방지](atp-anti-phishing.md))에 의해 차단 되는 악성 콘텐츠가 포함 된 고유한 전자 메일 메시지의 집계 개수입니다.<br>[ATP (Threat Protection 상태 보고서)](view-reports-for-atp.md#threat-protection-status-report)를 참조 하세요. | 
 
 위협 방지 상태 위젯을 보거나 액세스 하려면 Advanced Threat Protection 보고서를 볼 수 있는 권한이 있어야 합니다. 자세한 내용은 [ATP 보고서를 확인 하는 데 필요한 사용 권한](view-reports-for-atp.md#what-permissions-are-needed-to-view-the-atp-reports)를 참조 하십시오. 
@@ -119,7 +119,7 @@ ms.locfileid: "38033939"
   
 ## <a name="related-topics"></a>관련 항목
 
-[보안 &amp; 및 준수 센터의 전자 메일 보안 보고서 보기](../../compliance/view-email-security-reports.md)
+[보안 &amp; 및 준수 센터의 전자 메일 보안 보고서 보기](view-email-security-reports.md)
   
 [Office 365 Advanced Threat Protection에 대 한 보고서 보기](view-reports-for-atp.md)
   

@@ -10,12 +10,12 @@ ms.prod: microsoft-365-enterprise
 ms.topic: article
 ms.date: 08/30/2018
 ms.author: greglin
-ms.openlocfilehash: 08d10dae35023d3e1d9f1e98d36e52f283ec04fa
-ms.sourcegitcommit: 8aa9f204b056f01bfb4c357347dc1592d0c9b688
+ms.openlocfilehash: 27ed024c47ac671625563d8bf060017cb1757c4c
+ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38669687"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41112692"
 ---
 # <a name="step-2-deploy-windows-10-enterprise-for-existing-devices-as-an-in-place-upgrade"></a>2 단계: 현재 위치 업그레이드로 기존 장치에 대 한 Windows 10 Enterprise 배포
 
@@ -27,7 +27,7 @@ ms.locfileid: "38669687"
 
 Windows 7 또는 Windows 8.1을 실행 하는 기존 컴퓨터가 있는 경우 조직에서 Windows 10을 배포 하는 경우이 경로를 권장 합니다. 이렇게 하면 Windows 설치 프로그램 (setup.exe)을 활용 하 여 기존 운영 체제 버전에서 모든 데이터, 설정, 응용 프로그램 및 드라이버를 자동으로 보존 하는 전체 업그레이드를 수행할 수 있습니다. 이렇게 하면 복잡 한 배포 인프라가 필요 하지 않으므로 최소한의 IT 노력이 필요 합니다.
 
-다음 단계에 따라 구성 관리자를 사용 하 여 Windows 10 Enterprise 이미지를 현재 위치 업그레이드로 구성 하 고 배포 합니다.
+다음 단계에 따라 Microsoft Endpoint Configuration Manager를 사용 하 여 전체 업그레이드로 Windows 10 Enterprise 이미지를 구성 하 고 배포 합니다.
 
 ## <a name="the-windows-10-deployment-with-configuration-manager-poster"></a>Configuration Manager 포스터를 사용한 Windows 10 배포
 
@@ -45,7 +45,7 @@ Windows 7 또는 Windows 8.1을 실행 하는 기존 컴퓨터가 있는 경우 
 
 그런 다음 가이드에 따라 Configuration Manager (현재 분기)를 사용 하 여 Windows 7 이상 운영 체제를 Windows 10으로 업그레이드 합니다. 위험도가 높은 배포와 마찬가지로, 계속 하기 전에 사용자 데이터를 백업 하는 것이 좋습니다. OneDrive 클라우드 저장소는 라이선스가 있는 Microsoft 365 사용자에 게 사용할 준비가 되었으며 파일을 안전 하 게 저장 하는 데 사용할 수 있습니다. 자세한 내용은 [OneDrive 빠른 시작 가이드](https://aka.ms/ODfBquickstartguide)를 참조 하세요. 이 페이지에 액세스 하려면 Office 365 또는 Microsoft 365 테 넌 트에서 테 넌 트 관리자 또는 전역 관리자로 로그인 해야 합니다.
 
-지원 되는 Windows 10 클라이언트 버전 및 구성 관리자 버전 목록은 [Configuration manager에 대 한 Windows 10 지원을](https://aka.ms/supportforwin10sccm)참조 하십시오.
+지원 되는 Windows 10 클라이언트 버전 및 구성 관리자 버전 목록은 [Configuration manager에 대 한 Windows 10 지원을](https://docs.microsoft.com/configmgr/core/plan-design/configs/support-for-windows-10)참조 하십시오.
 
 **Windows 업그레이드 준비 상태를 확인 하려면**
 
@@ -94,7 +94,7 @@ Windows 10 배포를 시작 하기 전에 다음 요구 사항을 검토 하십�
 업그레이드 작업 시퀀스를 만든 후에는 업그레이드할 장치를 포함 하는 컬렉션을 만들어야 합니다.
 
 > [!NOTE]
-> 다음 설정을 사용 하 여 단일 장치에서 배포를 테스트 합니다. 준비가 되 면 다른 멤버 자격 규칙을 사용 하 여 장치 그룹을 포함할 수 있습니다. 자세한 내용은 [Configuration Manager에서 컬렉션을 만드는 방법을](https://aka.ms/sccm-create-collections)참조 하세요.
+> 다음 설정을 사용 하 여 단일 장치에서 배포를 테스트 합니다. 준비가 되 면 다른 멤버 자격 규칙을 사용 하 여 장치 그룹을 포함할 수 있습니다. 자세한 내용은 [Configuration Manager에서 컬렉션을 만드는 방법을](https://docs.microsoft.com/configmgr/core/clients/manage/collections/create-collections)참조 하세요.
 
 1. Configuration Manager 콘솔의 **자산 및 준수** 작업 영역에서 **장치 모음**을 마우스 오른쪽 단추로 클릭 한 다음 **장치 모음 만들기**를 선택 합니다. 
 2. 장치 컬렉션 만들기 마법사의 **일반** 페이지에서 다음 설정을 입력 하 고 **다음**을 선택 합니다.

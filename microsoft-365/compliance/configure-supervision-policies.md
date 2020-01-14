@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 - MOE150
 titleSuffix: Office 365 Compliance
-ms.openlocfilehash: e7a46e2fcd15a77f6fe7f1b97adf5ed26e97e0e2
-ms.sourcegitcommit: 82baed362528fed30e9e09c6a4a37c07be2f138d
+ms.openlocfilehash: a04d97cf887a14d89052d03ffdf3353f62cd612f
+ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40959626"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41111932"
 ---
 # <a name="configure-supervision-policies-in-office-365"></a>Office 365에서 감독 정책 구성
 
@@ -123,7 +123,7 @@ Office 365 보안 및 준수 센터에서 **감독** 을 메뉴 옵션으로 사
 
 ### <a name="create-a-new-role-group"></a>새 역할 그룹 만들기
 
-1. Office 365 [https://protection.office.com](https://protection.office.com) 조직의 관리자 계정에 대 한 자격 증명을 사용 하 여 로그인 합니다.
+1. Office 365 [https://protection.office.com/permissions](https://protection.office.com/permissions) 조직의 관리자 계정에 대 한 자격 증명을 사용 하 여 로그인 합니다.
 
 2. Office 365 보안 및 준수 센터에서 **사용 권한** 으로 이동한 다음 추가 (**+**)를 클릭 합니다.
 
