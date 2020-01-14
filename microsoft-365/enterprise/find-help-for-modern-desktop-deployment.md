@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Windows 10 및 Office 365 ProPlus 배포를 위한 도움말 및 지원을 여기에서 찾을 수 있습니다.
-ms.openlocfilehash: a6064fb49f6bdd44275a9038eeb8b264638ea618
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: b7eb30e8a9b5b46635793e9c79e2609467d87848
+ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38031023"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41112542"
 ---
 # <a name="find-help-for-your-windows-10-and-office-365-proplus-deployment"></a>Windows 10 및 Office 365 ProPlus 배포를 위한 도움말 찾기 
 
@@ -49,7 +49,7 @@ Office 365 ProPlus를 사용하여 Windows 10 배포를 계획하는 경우 인�
 <td><img src="media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-6.png" alt="step 3" height="144" width="144" /></td>
 <td><p><strong>Office 및 LOB 앱 배달</strong></p>
 <ul>
-<li><p><a href="https://docs.microsoft.com/fasttrack/o365-onboarding-and-migration#office-365-proplus">Office 365 ProPlus</a> 구성 및 배포에서는 Microsoft의 FastTrack 전문가가 사용자 라이선스 준비, Click-to-Run에 대한 설치 및 업데이트 설정 구성, 조직에서 System Center Configuration Manager를 사용하는 경우 패키지 생성에 관련된 지원을 제공합니다.</p></li>
+<li><p><a href="https://docs.microsoft.com/fasttrack/o365-onboarding-and-migration#office-365-proplus">Office 365 ProPlus</a> 구성 및 배포에서는 Microsoft의 FastTrack 전문가가 사용자 라이선스 준비, Click-to-Run에 대한 설치 및 업데이트 설정 구성, 조직에서 Microsoft Endpoint Configuration Manager를 사용하는 경우 패키지 생성에 관련된 지원을 제공합니다.</p></li>
 </ul></td>
 </tr>
 <tr class="odd">
@@ -70,7 +70,7 @@ Office 365 ProPlus를 사용하여 Windows 10 배포를 계획하는 경우 인�
 <td><img src="media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-9.png" alt="step 6" height="144" width="144" /></td>
 <td><p><strong>운영 체제 배포 및 기능 업데이트</strong></p>
 <ul>
-<li><p><a href="https://docs.microsoft.com/enterprise-mobility-security/Solutions/fasttrack-center-benefit-process-for-ems-fasttrack-responsibilities#enable-phase">Microsoft Intune</a>은 Microsoft의 FastTrack 전문가가 사용자 라이선스 프로비전 및 새로운 장치에 대한 Windows Autopilot, Windows 10 및 기타 모바일 장치용 MDM 정책(응용 프로그램 배포, Wi-Fi 및 VPN 프로필, System Center Configuration Manager를 통한 공동 관리 등 포함)을 구성하는 데 도움을 제공합니다.</p></li>
+<li><p><a href="https://docs.microsoft.com/enterprise-mobility-security/Solutions/fasttrack-center-benefit-process-for-ems-fasttrack-responsibilities#enable-phase">Microsoft Intune</a>은 Microsoft의 FastTrack 전문가가 사용자 라이선스 프로비전 및 새로운 장치에 대한 Windows Autopilot, Windows 10 및 기타 모바일 장치용 MDM 정책(응용 프로그램 배포, Wi-Fi 및 VPN 프로필, Microsoft Endpoint Configuration Manager를 통한 공동 관리 등 포함)을 구성하는 데 도움을 제공합니다.</p></li>
 </ul></td>
 </tr>
 <tr class="even">

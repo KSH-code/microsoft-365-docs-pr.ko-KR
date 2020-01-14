@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 사용자의 파일 및 설정을 마이그레이션하는 방법을 알아봅니다.
-ms.openlocfilehash: 8b9bde4eb1ddf0951a2ab27795dadef9965f6a1c
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: e1def35a631f8a90ee699c6ed7129216015e5182
+ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38031493"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41112572"
 ---
 # <a name="step-4-user-files-and-settings-migration"></a>4단계: 사용자 파일 및 설정
 
@@ -51,7 +51,7 @@ ms.locfileid: "38031493"
 
 ## <a name="automated-migration-using-usmt"></a>USMT를 사용하는 자동화된 마이그레이션 
 
-대규모 배포의 경우 System Center Configuration Manager 또는 MDT(Microsoft Deployment Toolkit)와 같은 자업 시퀀스 기반 배포 자동화 도구를 사용하여 많은 프로세스를 자동화할 수 있습니다. 이러한 두 솔루션은 종단 간 배포 프로세스의 일부로 USMT(사용자 환경 마이그레이션 도구)를 활용합니다. USMT는 [Windows ADK(Windows Assessment and Deployment Kit)](https://docs.microsoft.com/windows-hardware/get-started/adk-install)의 일부입니다.
+대규모 배포의 경우 Microsoft Endpoint Configuration Manager 또는 MDT(Microsoft Deployment Toolkit)와 같은 자업 시퀀스 기반 배포 자동화 도구를 사용하여 많은 프로세스를 자동화할 수 있습니다. 이러한 두 솔루션은 종단 간 배포 프로세스의 일부로 USMT(사용자 환경 마이그레이션 도구)를 활용합니다. USMT는 [Windows ADK(Windows Assessment and Deployment Kit)](https://docs.microsoft.com/windows-hardware/get-started/adk-install)의 일부입니다.
 
 USMT는 사용자 계정, 사용자 파일, 운영 체제 설정 및 응용 프로그램 설정을 캡처한 후 새 Windows 설치로 마이그레이션합니다. 또한 IT 관리자에게 마이그레이션되는 항목을 정확히 제어할 수 있도록 하며, 경우에 따라 원치 않는 파일 형식(예: 오디오 및 비디오 파일 또는 실행 파일)을 제외시킬 수 있습니다.
 

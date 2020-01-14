@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 중요한 Windows/Office 보안 및 준수 고려 사항에 대해 알아봅니다.
-ms.openlocfilehash: 10fc9ca58d9b48f752bdfed860b805e4f5663d6a
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: b4ef8b4d4e5e6277ea129b5a9454983459266462
+ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38031693"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41112562"
 ---
 # <a name="step-5-security-and-compliance-considerations"></a>5단계: 보안 및 준수 고려 사항
 
@@ -117,7 +117,7 @@ Windows 10의 **[Windows Defender 응용 프로그램 컨트롤](https://docs.mi
 
 #### <a name="microsoft-intune"></a>Microsoft Intune
 
-[Microsoft Intune](https://docs.microsoft.com/intune/introduction-intune)은 IOS, Android 및 Windows 장치를 포함하는 모바일 시나리오에 대한 클라우드 기반 관리 서비스로 사용되며, 이제 공동 관리 부서에서 System Center Configuration Manager에서 관리되는 특정 워크로드에 대한 컨트롤을 보완하고 확장하도록 구성할 수 있습니다. 한 가지 장점은 보호된 리소스에 액세스하는 장치 중에서 관리되지 않거나 도메인에 가입되지 않았거나 Azure AD에 가입되지 않은 모든 장치의 경우 장치 관리 부서에 등록하도록 요구할 수 있다는 것입니다. 또한 운영 체제 및 응용 프로그램 수준에서 세분화된 구성 및 준수 정책 적용을 활용할 수도 있습니다. 응용 프로그램 정책 및 설정을 중앙에서 구성하고, Microsoft Intune을 사용하여 Office 365 ProPlus 및 Windows 10의 스토어 앱에 적용할 수 있습니다.
+[Microsoft Intune](https://docs.microsoft.com/intune/introduction-intune)은 IOS, Android 및 Windows 장치를 포함하는 모바일 시나리오에 대한 클라우드 기반 관리 서비스로 사용되며, 이제 공동 관리 부서에서 Configuration Manager에서 관리되는 특정 워크로드에 대한 컨트롤을 보완하고 확장하도록 구성할 수 있습니다. 한 가지 장점은 보호된 리소스에 액세스하는 장치 중에서 관리되지 않거나 도메인에 가입되지 않았거나 Azure AD에 가입되지 않은 모든 장치의 경우 장치 관리 부서에 등록하도록 요구할 수 있다는 것입니다. 또한 운영 체제 및 응용 프로그램 수준에서 세분화된 구성 및 준수 정책 적용을 활용할 수도 있습니다. 응용 프로그램 정책 및 설정을 중앙에서 구성하고, Microsoft Intune을 사용하여 Office 365 ProPlus 및 Windows 10의 스토어 앱에 적용할 수 있습니다.
 
 ## <a name="next-step"></a>다음 단계
 

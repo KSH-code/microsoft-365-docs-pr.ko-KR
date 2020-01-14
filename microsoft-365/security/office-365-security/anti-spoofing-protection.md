@@ -3,7 +3,7 @@ title: Office 365의 스푸핑 방지 보호 기능
 ms.author: tracyp
 author: MSFTtracyp
 manager: dansimp
-ms.date: 08/30/2019
+ms.date: ''
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -16,12 +16,12 @@ ms.collection:
 ms.custom: TopSMBIssues
 localization_priority: Priority
 description: 이 문서에서는 Office 365가 위조된 보낸 사람 도메인, 즉 스푸핑된 도메인을 사용하는 피싱 공격을 줄이는 방법에 대해 설명합니다. 표준 전자 메일 인증 방법이나 다른 보낸 사람 신뢰도 기술을 사용하지 않고 메시지를 분석하고 인증할 수 있는 메시지를 차단하여 이 작업을 수행합니다. 이 변경 사항은 Office 365의 조직이 피싱 공격에 노출된 수를 줄이기 위해 구현되었습니다.
-ms.openlocfilehash: 5685fc29f97c9aa41e472926c4e1f26bfcfd1432
-ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
+ms.openlocfilehash: 1bcf6b954c69297981eafecef192cab0e55a7684
+ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "39971996"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41112742"
 ---
 # <a name="anti-spoofing-protection-in-office-365"></a>Office 365의 스푸핑 방지 보호 기능
 
@@ -113,31 +113,25 @@ Authentication-Results:
 
 Microsoft는 두 가지 유형의 스푸핑 메시지를 구분합니다.
 
- **조직 내 스푸핑**
+#### <a name="intra-org-spoofing"></a>조직 내 스푸핑
 
 자체 스푸핑이라고도 하며 보낸 사람: 주소의 도메인이받는 사람 도메인과 동일하거나 일치할 때(수신자 도메인이 조직의 [수락 도메인](https://docs.microsoft.com/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains) 중 하나인 경우) 또는 보낸 사람: 주소의 도메인이 동일한 조직의 일부인 경우에 발생합니다.
 
 예를 들어, 다음은 동일한 도메인(contoso.com)의 보낸 사람과 받는 사람입니다. 이 페이지에서 스팸봇 수확을 방지하기 위해 전자 메일 주소에 공백이 삽입됩니다.
 
-발신자: 보낸 사람@contoso.com 
-
-수신자: 받는 사람@contoso.com
+> 발신자: 보낸 사람@contoso.com  <br/> 수신자: 받는 사람@contoso.com
 
 다음에는 보낸 사람 도메인과 받는 사람 도메인이 조직 도메인(fabrikam.com)과 정렬되어 있습니다.
 
-발신자: 보낸 사람@ foo.fabrikam.com
-
-수신자: 받는 사람@ bar.fabrikam.com
+> 발신자: 보낸 사람@ foo.fabrikam.com <br/> 수신자: 받는 사람@ bar.fabrikam.com
 
 다음의 보낸 사람 도메인과 받는 사람 도메인은 다릅니다(microsoft.com 및 bing.com). 하지만 이들은 동일한 조직에 속합니다(즉, 둘 다 조직의 수락 도메인의 일부).
 
-발신자: 보낸 사람@microsoft.com
-
-수신자: 받는 사람@bing.com
+> 발신자: 보낸 사람@microsoft.com <br/> 수신자: 받는 사람@bing.com
 
 조직 내 스푸핑에 실패한 메시지에는 머리글에 다음 값이 포함됩니다.
 
-X-Forefront-Antispam-Report: ...CAT:SPM/HSPM/PHSH;...SFTY:9.11
+`X-Forefront-Antispam-Report: ...CAT:SPM/HSPM/PHSH;...SFTY:9.11`
 
 CAT은 메시지의 범주이며 일반적으로 SPM(스팸)으로 스탬프 처리되지만 때에 따라 메시지에서 패턴 유형이 어떻게 다르게 나타나는지에 따라 HSPM(높은 신뢰성을 가진 스팸) 또는 PHISH(피싱)일 수 있습니다.
 
@@ -145,13 +139,13 @@ SFTY는 메시지의 안전 수준이며 첫 번째 숫자 (9)는 메시지가 �
 
 조직 내 스푸핑에 대한 복합 인증의 구체적인 이유 코드는 없으며 향후 2018년 내에 스탬프 처리될 예정입니다(일정 미정).
 
- **도메인 간 스푸핑**
+#### <a name="cross-domain-spoofing"></a>도메인 간 스푸핑
 
 이 문제는 보낸 사람: 주소의 보내는 도메인이 받는 조직의 외부 도메인인 경우에 발생합니다. 도메인 간 스푸핑으로 인해 복합 인증에 실패하는 메시지에는 머리글에 다음과 같은 값이 포함됩니다.
 
-Authentication-Results: … compauth=fail reason=000/001
+`Authentication-Results: ... compauth=fail reason=000/001`
 
-X-Forefront-Antispam-Report: ...CAT:SPOOF;...SFTY:9.22
+`X-Forefront-Antispam-Report: ...CAT:SPOOF;...SFTY:9.22`
 
 두 경우 모두 다음의 빨간색 안전 팁이 메시지에 스탬프 처리되거나 받는 사람 사서함의 언어에 맞게 사용자 지정되어 있습니다.
 
@@ -171,74 +165,74 @@ Office 365의 조직 관리자는 여러 가지 중요한 정보를 알고 있�
 
 예를 들어 스푸핑 방지가 설치되기 이전의 메시지는 SPF 레코드, DKIM 레코드 및 DMARC 레코드 없이 다음과 같이 보일 수 있습니다.
 
-```
+```text
 Authentication-Results: spf=none (sender IP is 1.2.3.4)
-  smtp.mailfrom=example.com; contoso.com; dkim=none
+  smtp.mailfrom=fabrikam.com; contoso.com; dkim=none
   (message not signed) header.d=none; contoso.com; dmarc=none
-  action=none header.from=example.com;
-From: sender @ example.com
+  action=none header.from=fabrikam.com;
+From: sender @ fabrikam.com
 To: receiver @ contoso.com
 ```
+
 스푸핑 방지 후 Office 365 Enterprise E5, EOP 또는 ATP를 사용하는 경우 compauth 값이 스탬핑 처리됩니다.
 
-```
+```text
 Authentication-Results: spf=none (sender IP is 1.2.3.4)
-  smtp.mailfrom=example.com; contoso.com; dkim=none
+  smtp.mailfrom=fabrikam.com; contoso.com; dkim=none
   (message not signed) header.d=none; contoso.com; dmarc=none
-  action=none header.from=example.com; compauth=fail reason=001
-From: sender @ example.com
+  action=none header.from=fabrikam.com; compauth=fail reason=001
+From: sender @ fabrikam.com
 To: receiver @ contoso.com
-
 ```
 
-example.com이 SPF 레코드는 설정하고 DKIM 레코드를 설정하지 않은 채 이 문제를 해결한 경우, SPF를 통과한 도메인이 보낸 사람 : 주소의 도메인과 일치하기 때문에 복합 인증이 통과됩니다.
+fabrikam.com이 SPF 레코드는 설정하고 DKIM 레코드를 설정하지 않은 채 이 문제를 해결한 경우, SPF를 통과한 도메인이 보낸 사람 : 주소의 도메인과 일치하기 때문에 복합 인증이 통과됩니다.
 
-```
+```text
 Authentication-Results: spf=pass (sender IP is 1.2.3.4)
-  smtp.mailfrom=example.com; contoso.com; dkim=none
+  smtp.mailfrom=fabrikam.com; contoso.com; dkim=none
   (message not signed) header.d=none; contoso.com; dmarc=bestguesspass
-  action=none header.from=example.com; compauth=pass reason=109
-From: sender @ example.com
+  action=none header.from=fabrikam.com; compauth=pass reason=109
+From: sender @ fabrikam.com
 To: receiver @ contoso.com
 ```
 
 또는 SPF 레코드가 아닌 DKIM 레코드를 설정하는 경우 전달된 DKIM-서명의 도메인이 보낸 사람: 주소의 도메인과 일치하기 때문에 복합 인증을 통과합니다.
 
-```
+```text
 Authentication-Results: spf=none (sender IP is 1.2.3.4)
-  smtp.mailfrom=example.com; contoso.com; dkim=pass
-  (signature was verified) header.d=outbound.example.com;
+  smtp.mailfrom=fabrikam.com; contoso.com; dkim=pass
+  (signature was verified) header.d=outbound.fabrikam.com;
   contoso.com; dmarc=bestguesspass action=none
-  header.from=example.com; compauth=pass reason=109
-From: sender @ example.com
+  header.from=fabrikam.com; compauth=pass reason=109
+From: sender @ fabrikam.com
 To: receiver @ contoso.com
 ```
 
-그러나 피셔는 SPF 및 DKIM을 설치하고 자체 도메인으로 메시지에 서명하지만 보낸 사람: 주소에서는 다른 도메인을 지정할 수 있습니다. SPF나 DKIM 모두 보낸 사람: 주소에서 도메인을 정렬할 필요가 없으므로, example.com이 DMARC 레코드를 게시하지 않으면 이는  DMARC를 사용하여 스푸핑으로 표시되지 않습니다.
+그러나 피셔는 SPF 및 DKIM을 설치하고 자체 도메인으로 메시지에 서명하지만 보낸 사람: 주소에서는 다른 도메인을 지정할 수 있습니다. SPF나 DKIM 모두 보낸 사람: 주소에서 도메인을 정렬할 필요가 없으므로, fabrikam.com이 DMARC 레코드를 게시하지 않으면 이는 DMARC를 사용하여 스푸핑으로 표시되지 않습니다.
 
-```
+```text
 Authentication-Results: spf=pass (sender IP is 5.6.7.8)
   smtp.mailfrom=maliciousDomain.com; contoso.com; dkim=pass
   (signature was verified) header.d=maliciousDomain.com;
-  contoso.com; dmarc=none action=none header.from=example.com;
-From: sender @ example.com
+  contoso.com; dmarc=none action=none header.from=fabrikam.com;
+From: sender @ fabrikam.com
 To: receiver @ contoso.com
 ```
 
-전자 메일 클라이언트 (Outlook, 웹상의 Outlook 또는 기타 전자 메일 클라이언트)에서는 SPF 또는 DKIM의 도메인이 아닌 보낸 사람: 도메인만 표시되며, 이는 메시지가 실제로는 maliciousDomain.com에서 왔지만 사용자는 메시지가 example.com에서 왔다고 착각하도록 할 수 있습니다.
+전자 메일 클라이언트 (Outlook, 웹상의 Outlook 또는 기타 전자 메일 클라이언트)에서는 SPF 또는 DKIM의 도메인이 아닌 보낸 사람: 도메인만 표시되며, 이는 메시지가 실제로는 maliciousDomain.com에서 왔지만 사용자는 메시지가 fabrikam.com에서 왔다고 착각하도록 할 수 있습니다.
 
 ![인증된 메시지이지만 보낸 사람: 도메인이 SPF 또는 DKIM을 통과한 것과 일치하지 않습니다.](../media/a9b5ab2a-dfd3-47c6-8ee8-e3dab2fae528.jpg)
 
 따라서 Office 365에서는 보낸 사람: 주소의 도메인이 SPF 또는 DKIM 서명의 도메인과 일치해야 하며 그렇지 않은 경우 메시지가 합법적임을 나타내는 다른 내부 신호가 포함되어 있어야 합니다. 그렇지 않으면 메시지는 compauth 실패가 될 것입니다.
 
-```
+```text
 Authentication-Results: spf=none (sender IP is 5.6.7.8)
   smtp.mailfrom=maliciousDomain.com; contoso.com; dkim=pass
   (signature was verified) header.d=maliciousDomain.com;
   contoso.com; dmarc=none action=none header.from=contoso.com;
   compauth=fail reason=001
 From: sender@contoso.com
-To: someone@example.com
+To: someone@fabrikam.com
 ```
 
 따라서 Office 365 스푸핑 방지는 인증이 없는 도메인과 인증을 설정하지만 보낸 사람: 주소에서 사용자가 메시지의 보낸 사람이라고 보고 믿는 내용과 일치하지 않는 도메인으로부터 보호합니다. 이는 조직 외부의 도메인과 조직 내의 도메인에 모두 해당됩니다.
@@ -322,7 +316,7 @@ Set-AntiphishPolicy -Identity $defaultAntiphishPolicy.Name -EnableAntispoofEnfor
 ```
 
 > [!IMPORTANT]
-> 전자 메일 경로의 첫 번째 홉이 Office 365이고 합법적인 전자 메일이 너무 많이 스푸핑으로 표시된 경우에는 먼저 스푸핑된 전자 메일을 도메인에 보낼 수있는 보낸 사람을 설정해야 합니다(*"인증되지 않은 전자 메일을 보내는 합법적인 보낸 사람 관리하기"* 섹션을 참조하십시오). 여전히 너무 많은 오탐지가 발생하는 경우(즉, 스팸으로 분류된 합법적인 메시지가 너무 많은 경우), 스푸핑 방지 기능을 해제하지 않는 것이 좋습니다. 대신 높은 수준의 보호 대신 기본을 선택하는 것이 좋습니다. 조직을 스푸핑된 전자 메일에 노출시켜 장기적으로 훨씬 높은 비용을 부담하는 것보다 오탐지를 이용하는 것이 좋습니다.
+> 전자 메일 경로의 첫 번째 홉이 Office 365이고 합법적인 전자 메일이 너무 많이 스푸핑으로 표시된 경우에는 먼저 스푸핑된 전자 메일을 도메인에 보낼 수있는 보낸 사람을 설정해야 합니다(이 항목의 ["인증되지 않은 전자 메일을 보내는 합법적인 보낸 사람 관리하기"](#managing-legitimate-senders-who-are-sending-unauthenticated-email) 섹션을 참조하십시오). 여전히 너무 많은 오탐지가 발생하는 경우(즉, 스팸으로 분류된 합법적인 메시지가 너무 많은 경우), 스푸핑 방지 기능을 해제하지 않는 것이 좋습니다. 대신 높은 수준의 보호 대신 기본을 선택하는 것이 좋습니다. 조직을 스푸핑된 전자 메일에 노출시켜 장기적으로 훨씬 높은 비용을 부담하는 것보다 오탐지를 이용하는 것이 좋습니다.
 
 ### <a name="managing-legitimate-senders-who-are-sending-unauthenticated-email"></a>인증되지 않은 이메일을 보내는 합법적인 보낸 사람 관리
 
@@ -350,9 +344,6 @@ PowerShell을 사용하여 특정 보낸 사람이 도메인을 스푸핑하도�
 
 ```powershell
 $file = "C:\My Documents\Summary Spoofed Internal Domains and Senders.csv"
-```
-
-```powershell
 Get-PhishFilterPolicy -Detailed -SpoofAllowBlockList -SpoofType External | Export-CSV $file
 ```
 
@@ -443,12 +434,12 @@ Office 365에서 스푸핑 방지 적용을 해제하거나 기본 또는 높음
 
 a) 먼저, 인증 결과 머리글에서 받는 사람 도메인에 대한 메시지의 머리글을 확인합니다.
 
-```
+```text
 Authentication-Results: spf=fail (sender IP is 1.2.3.4)
-  smtp.mailfrom=example.com; office365.contoso.net; dkim=fail
-  (body hash did not verify) header.d=simple.example.com;
+  smtp.mailfrom=fabrikam.com; office365.contoso.net; dkim=fail
+  (body hash did not verify) header.d=simple.fabrikam.com;
   office365.contoso.net; dmarc=none action=none
-  header.from=example.com; compauth=fail reason=001
+  header.from=fabrikam.com; compauth=fail reason=001
 ```
 
 받는 사람 도메인은 위의 굵은 빨간색 텍스트(이 경우 Office 365.contoso.net)에 있습니다. 이는 받는 사람: 머리글:에 있는 받는 사람과 다를 수 있습니다.
@@ -477,29 +468,28 @@ b) 둘째, 받는 사람 재작성의 일반적인 사용 사례를 구분해야
 
 ### <a name="how-to-disable-anti-spoofing"></a>스푸핑 방지 해제 방법
 
-피싱 방지 정책을 이미 만들었으면 EnableAntispoofEnforcement 매개 변수를 $false로 설정하십시오.
+피싱 방지 정책을 이미 만들었으면 *EnableAntispoofEnforcement* 매개 변수를 $false로 설정하십시오.
 
-```
+```powershell
 $name = "<name of policy>"
 Set-AntiphishPolicy -Identity $name -EnableAntiSpoofEnforcement $false
-
 ```
 
 사용하지 않을 정책의 이름을 모르는 경우 다음과 같이 표시할 수 있습니다.
 
-```
-Get-AntiphishPolicy | fl Name
+```powershell
+Get-AntiphishPolicy | Format-List Name
 ```
 
 기존의 피싱 방지 정책이 없는 경우 하나의 정책을 만들고 사용 해제할 수 있습니다(정책이 없어도 스푸핑 방지가 적용됨, 사용자를 위해 향후 2018년에 기본 정책이 생성될 예정이며 사용자는 기본 정책을 생성하는 대신 비활성화할 수 있음). 여러 단계에서 이 작업을 수행해야 합니다.
 
-```
+```powershell
 $org = Get-OrganizationConfig
 $name = "My first anti-phishing policy for " + $org.Name
 # Note: If the name is more than 64 characters, you will need to choose a smaller one
 ```
 
-```
+```powershell
 # Next, create a new anti-phishing policy with the default values
 New-AntiphishPolicy -Name $Name
 # Select the domains to scope it to
@@ -509,7 +499,6 @@ $domains = "domain1.com, domain2.com, domain3.com"
 New-AntiphishRule -Name $name -AntiphishPolicy -RecipientDomainIs $domains
 # Finally, scope the anti-phishing policy to the domains
 Set-AntiphishPolicy -Identity $name -EnableAntispoofEnforcement $false
-
 ```
 
 스푸핑 방지를 사용하지 않도록 설정하는 것은 cmdlet을 통해서만 가능합니다(나중에 보안 &amp; 준수 센터에서 사용할 수 있습니다). PowerShell에 액세스 할 수 없는 경우 지원 티켓을 만드십시오.
@@ -520,35 +509,20 @@ Office 365로 보낼 때 간접 라우팅을 수행하는 도메인에만 이 �
 
 개별 사용자가 안티 스푸핑 안전 팁과 상호 작용하는 방법이 제한되어 있습니다. 그러나 일반적인 시나리오를 해결하기 위해 수행할 수 있는 작업이 몇 가지 있습니다.
 
-### <a name="common-scenario-1---discussion-lists"></a>일반적인 시나리오 #1 - 토론 목록
+### <a name="common-scenario-discussion-lists"></a>일반적인 시나리오: 토론 목록
 
 토론 목록은 메시지를 전달하고 내용을 수정하는 방식으로 인해 스푸핑 방지에 문제가 있는 것으로 알려져 있지만 당초 보낸 사람: 주소는 그대로 유지합니다.
 
-예를 들어 이메일 주소가 user@contoso.com이고 Bird Watching에 관심이 있으며 토론 목록 birdwatchers@example.com에 참여한다고 가정합니다. 토론 목록에 메시지를 보내면 다음과 같이 보낼 수 있습니다.
+예를 들어 Gabriela Laureano(glaureano@contoso.com)가 새 관찰에 관심이 있고 birdwatchers@fabrikam.com의 토론 목에 참여한다고 가정합니다. Gabriela가 토론 목록에 메시지를 보낼 때 다음과 같습니다.
 
-**보낸 사람:** 이진민 \<사용자@contoso.com\>
-
-**받는 사람:** Birdwatcher의 토론 목록 \<birdwatchers@example.com\>
-
-**제목:** 산 정상에서 바라보는 파란색 제비의 장관 레이니어 이번 주
-
-이번 주에 레이니어 산에서 이 광경을 확인하고 싶은  사람이 있습니까?
+> **보낸 사람:** Gabriela Laureano \<glaureano@contoso.com\> <br/> **받는 사람:** Birdwatcher의 토론 목록 \<birdwatchers@fabrikam.com\> <br/> 
+**제목:** 산 정상에서 바라보는 파란색 제비의 장관 레이니어 이번 주 <br/><br/>이번 주에 레이니어 산에서 이 광경을 확인하고 싶은  사람이 있습니까?
 
 전자 메일 목록이 메시지를 받으면 메시지 서식을 지정하고 내용을 수정한 후 여러 전자 메일 받은 사람의 참가자로 구성된 토론 목록의 나머지 구성원에게 전자 메일 목록을 재생합니다.
 
-**보낸 사람:** 이진민 \<사용자@contoso.com\>
+> **보낸 사람:** Gabriela Laureano \<glaureano@contoso.com\> <br/> **받는 사람:** Birdwatcher의 토론 목록 \<birdwatchers@fabrikam.com\> <br/> **제목:** [새 구경] 산 정상에서 바라보는 파란색 제비의 장관 레이니어 이번 주 <br/><br/> 이번 주에 레이니어 산에서 이 광경을 확인하고 싶은  사람이 있습니까? <br/><br/> Birdwatchers 토론 목록에 이 메시지가 전송되었습니다. 구독은 언제든지 취소할 수 있습니다.
 
-**받는 사람:** Birdwatcher의 토론 목록 \<birdwatchers@example.com\>
-
-**제목:** [새 구경] 산 정상에서 바라보는 파란색 제비의 장관 레이니어 이번 주
-
-이번 주에 레이니어 산에서 이 광경을 확인하고 싶은  사람이 있습니까?
-
----
-
-Birdwatchers 토론 목록에 이 메시지가 전송되었습니다. 구독은 언제든지 취소할 수 있습니다.
-
-위에서 재생된 메시지의 보낸 사람: 주소(user@contoso.com)는 같지만 제목 줄에 태그를 추가하고 메시지의 맨 아래에 바닥글을 추가하여 원래 메시지가 수정되었습니다. 이러한 유형의 메시지 수정은 메일링 목록에서 일반적이며 오탐지를 초래할 수 있습니다.
+이 예제에서 재생된 메시지의 보낸 사람: 주소(glaureano@contoso.com)는 같지만 제목 줄에 태그를 추가하고 메시지의 맨 아래에 바닥글을 추가하여 원래 메시지가 수정되었습니다. 이러한 유형의 메시지 수정은 메일링 목록에서 일반적이며 오탐지를 초래할 수 있습니다.
 
 귀하 또는 귀하의 조직 구성원이 메일링 목록의 관리자인 경우 스푸핑 방지 검사를 통과하도록 구성할 수 있습니다.
 
@@ -558,13 +532,13 @@ Birdwatchers 토론 목록에 이 메시지가 전송되었습니다. 구독은 
 
 - ARC를 지원하기 위해 메일링 목록 서버에 업데이트를 설치하는 것을 고려한다면 [https://arc-spec.org](https://arc-spec.org/)을 참조하십시오.
 
-메일링 목록에 대한 소유권 없는 경우
+메일 목록을 소유하지 않는 경우:
 
-- 위의 옵션 중 하나를 구현하도록 메일링 목록의 관리자에게 요청할 수 있습니다(메일링 목록이 중계되는 도메인에 대해 이메일 인증을 설정해야 함)
+- 이전 옵션 중 하나를 구현하도록 메일링 목록의 관리자에게 요청할 수 있습니다(메일링 목록이 중계되는 도메인에 대해 이메일 인증을 설정해야 함)
 
-- 이메일 클라이언트에 메일 함 규칙을 만들어 메시지를받은 편지함으로 이동할 수 있습니다. 인증되지 않은 전자 메일을 보내는 합법적인 보낸 사람 관리 섹션에서 설명한 대로 조직의 관리자에게 허용 규칙을 설정하거나 재정의하도록 요청할 수도 있습니다
+- 이메일 클라이언트에 메일 함 규칙을 만들어 메시지를받은 편지함으로 이동할 수 있습니다. 이 항목의 [인증되지 않은 전자 메일을 보내는 합법적인 보낸 사람 관리](#managing-legitimate-senders-who-are-sending-unauthenticated-email) 섹션에서 설명한 대로 조직의 관리자에게 허용 규칙을 설정하거나 재정의하도록 요청할 수도 있습니다.
 
-- Office 365에서 지원 티켓을 만들어 메일링 목록에 대한 재정의를 만들어 합법적인 것으로 처리할 수 있습니다
+- Office 365에서 지원 티켓을 만들어 메일링 목록에 대한 재정의를 만들어 합법적인 것으로 처리할 수 있습니다.
 
 ### <a name="other-scenarios"></a>다른 시나리오
 
@@ -574,7 +548,7 @@ Birdwatchers 토론 목록에 이 메시지가 전송되었습니다. 구독은 
 
 3. 또한 보낸 사람이 누구인지 알고 악의적으로 스푸핑되지 않은 것으로 확신하는 경우 보낸 사람에게 회신하여 인증하지 않은 메일 서버에서 메시지를 보내고 있음을 나타낼 수 있습니다. 이로 인해 원래 보낸 사람이 IT 관리자에게 연락하여 필요한 전자 메일 인증 레코드를 설정할 수 있습니다.
 
-충분한 수의 보낸 사람이 도메인 소유자에게 전자 메일 인증 레코드를 설정해야한다고 회신하면 이들은 작업을 수행하게 됩니다. Microsoft는 도메인 소유자와 함께 필요한 레코드를 게시하기도 하지만 개별 사용자가 요청할 때 더 많은 도움을줍니다.
+   충분한 수의 보낸 사람이 도메인 소유자에게 전자 메일 인증 레코드를 설정해야한다고 회신하면 이들은 작업을 수행하게 됩니다. Microsoft는 도메인 소유자와 함께 필요한 레코드를 게시하기도 하지만 개별 사용자가 요청할 때 더 많은 도움을줍니다.
 
 4. 필요에 따라 보낸 사람을 수신 허용 - 보낸 사람 목록에 추가하십시오. 그러나 피셔가 이 계정을 스푸핑하면 해당 계정은 사서함으로 전달된다는 점을 기억하십시오. 따라서 이 옵션은 자주 사용하서는 안 됩니다.
 
@@ -610,9 +584,11 @@ Microsoft는 SPF, DKIM 및 DMARC 각각에 대한 세부 구현 지침을 제공
 
 ### <a name="what-if-you-dont-know-who-sends-email-as-your-domain"></a>누가 도메인으로 전자 메일을 보내는지 모르는 경우에는 어떻게 해야 합니까?
 
-많은 도메인은 보낸 사람이 누구인지 모르기 때문에 SPF 레코드를 게시하지 않습니다. 이는 문제가 되지 않습니다. 보내는 사람을 모두 알 필요는 없습니다. 대신, 특히 회사 트래픽이있는 곳에서 알고 있는 SPF 레코드를 게시하고 중립 SPF 정책인 all을 게시하여 작업을 시작해야 합니다.
+많은 도메인은 보낸 사람이 누구인지 모르기 때문에 SPF 레코드를 게시하지 않습니다. 이는 문제가 되지 않습니다. 보내는 사람을 모두 알 필요는 없습니다. 대신, 특히 회사 트래픽이있는 곳에서 알고 있는 SPF 레코드를 게시하고 중립 SPF 정책인 `?all`을/를 게시하여 작업을 시작해야 합니다.
 
-example.com IN TXT "v=spf1 include:spf.example.com ?all"
+```text
+fabrikam.com IN TXT "v=spf1 include:spf.fabrikam.com ?all"
+```
 
 중립적인 SPF 정책은 기업 인프라에서 나오는 전자 메일이 다른 모든 전자 메일 수신자에서 이메일 인증을 통과한다는 것을 의미합니다. 귀하가 모르는 발신자가 보낸 이메일은 중립으로 돌아가며 SPF 레코드를 전혀 게시하지 않은 것과 유사합니다.
 
@@ -622,7 +598,7 @@ Office 365로 전송할 때 회사 트래픽에서 오는 전자 메일은 인�
 
 ### <a name="what-if-you-are-the-owner-of-a-mailing-list"></a>메일링 목록의 소유자라면 어떻게 될까요?
 
-[공통 시나리오 # 1 - 토론 목록](#common-scenario-1---discussion-lists) 섹션을 참조하십시오.
+자세한 내용은 이 항목의 앞부분에 있는 [일반적인 시나리오: 토론 목록](#common-scenario-discussion-lists) 섹션을 참조하세요.
 
 ### <a name="what-if-you-are-an-infrastructure-provider-such-as-an-internet-service-provider-isp-email-service-provider-esp-or-cloud-hosting-service"></a>인터넷 서비스 공급자(ISP), 이메일 서비스 공급자(ESP) 또는 클라우드 호스팅 서비스와 같은 인프라 공급자의 경우에는 어떻게 해야 합니까?
 

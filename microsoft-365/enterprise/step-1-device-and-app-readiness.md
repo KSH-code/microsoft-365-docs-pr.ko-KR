@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 환경에서 장치 및 앱 준비 상태를 평가하는 방법을 알아봅니다.
-ms.openlocfilehash: b24bd278804e81c53a28bf99971a087fe5b7c3c0
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: dad6b4092cbcedbc4674733af1459d28f9b1d50e
+ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38031633"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41112722"
 ---
 # <a name="step-1-device-and-app-readiness"></a>1단계: 장치 및 앱 준비
 
@@ -45,7 +45,7 @@ ms.locfileid: "38031633"
 
 ## <a name="windows-10-compatibility-scan"></a>Windows 10 호환성 검사
 
-Windows 10을 배포하기 전에 Windows 7 또는 8 / 8.1을 실행하는 기존 장치의 준비 상태를 확인하는 것이 좋습니다. Windows 10 설치 미디어는 setup.exe에 대한 명령줄 스위치를 지원하여 업그레이드를 실행하지만 실제로 업그레이드를 수행하는 것이 아니라 호환성을 확인하기만 합니다. ScanOnly는 스크립팅 된 배치 파일로 실행되거나 System Center Configuration Manager 작업 시퀀스에 통합될 수 있습니다. 또한 네트워크에서 직접 ScanOnly를 실행하여 Windows 10 설치 미디어가 로컬 장치로 스트리밍되지 않도록 할 수 있습니다. ScanOnly가 완료되면 Setup.EXE에 의해 생성된 로그 파일의 반환 코드를 통해 결과가 반환됩니다.   
+Windows 10을 배포하기 전에 Windows 7 또는 8 / 8.1을 실행하는 기존 장치의 준비 상태를 확인하는 것이 좋습니다. Windows 10 설치 미디어는 setup.exe에 대한 명령줄 스위치를 지원하여 업그레이드를 실행하지만 실제로 업그레이드를 수행하는 것이 아니라 호환성을 확인하기만 합니다. ScanOnly는 스크립팅 된 배치 파일로 실행되거나 Microsoft Endpoint Configuration Manager 작업 시퀀스에 통합될 수 있습니다. 또한 네트워크에서 직접 ScanOnly를 실행하여 Windows 10 설치 미디어가 로컬 장치로 스트리밍되지 않도록 할 수 있습니다. ScanOnly가 완료되면 Setup.EXE에 의해 생성된 로그 파일의 반환 코드를 통해 결과가 반환됩니다.   
 
 호환성 검색을 자동으로 완료하는 샘플 ScanOnly 명령줄은 아래와 같습니다.
 
@@ -57,7 +57,7 @@ ScanOnly 및 기타 Windows 설치 명령 스위치에 대한 자세한 내용�
 
 Desktop Analytics 기존 데스크톱 관리 시스템에 비해 많은 이점을 제공하는 권장 도구입니다. 이 제품은 에이전트없이 수억 대의 소비자 PC 업그레이드를 통해 수집된 응용 프로그램 및 드라이버 호환성 정보를 사용하여 수행해야 할 작업을 안내합니다. 이 정보는 업그레이드를 가로막을 수 있는 호환성 문제를 식별하고 Microsoft에 알려진 수정 제안에 대한 링크를 통해 자세한 평가를 제공합니다.
 
-Desktop Analytics를 설정하려면 먼저 Azure 구독을 설정하고 Azure Log Analytics 작업 공간을 포함시켜야 합니다. Desktop Analytics 서비스가 실행되면 그룹 정책 설정을 통해 인터넷에 연결된 Windows 7 SP1 또는 최신 장치를 손쉽게 등록할 수 있습니다. 배포 에이전트가 없이, Desktop Analytics의 시각적 워크플로는 파일럿 배포에서 프로덕션 배포로 안내합니다. 원하는 경우 Desktop Analytics에서 System Center Configuration Manager(현재 분기)와 같은 소프트웨어 배포 도구로 데이터를 내보낼 수 있으므로 PC를 직접 대상으로하고 배포 준비가 된 컬렉션을 구축 할 수 있습니다.
+Desktop Analytics를 설정하려면 먼저 Azure 구독을 설정하고 Azure Log Analytics 작업 공간을 포함시켜야 합니다. Desktop Analytics 서비스가 실행되면 그룹 정책 설정을 통해 인터넷에 연결된 Windows 7 SP1 또는 최신 장치를 손쉽게 등록할 수 있습니다. 배포 에이전트가 없이, Desktop Analytics의 시각적 워크플로는 파일럿 배포에서 프로덕션 배포로 안내합니다. 원하는 경우 Desktop Analytics에서 Microsoft Endpoint Configuration Manager(현재 분기)와 같은 소프트웨어 배포 도구로 데이터를 내보낼 수 있으므로 PC를 직접 대상으로하고 배포 준비가 된 컬렉션을 구축 할 수 있습니다.
 
 현재, 환경에 대해 Desktop Analytics를 설치하지 않았거나 평가판을 등록하려는 경우 Desktop Analytics 페이지](https://www.aka.ms/desktopanalytics)로 이동한 후 시작할 수 있습니다.
 
@@ -103,7 +103,7 @@ Desktop Analytics를 사용하여 브라우저 기반 호환성 문제를 평가
 
 Configuration Manager 소프트웨어 인벤토리는 장치 및 응용 프로그램 준비에 클라우드 기반 분석 솔루션 사용의 대안으로 사용할 수 있습니다. 설치 횟수 및 특정 컴퓨터를 조사하여 호환성 테스트 및 유효성 검사의 우선 순위를 지정하고 패키지 설정을 통해 Windows 10과 호환되는 응용 프로그램 패키지를 설정할 수 있습니다. 이 옵션은 Microsoft의 분석 서비스와 알려진 호환성 정보를 비교하는 기능을 제공하지는 않지만 우선 순위가 지정된 앱들을 더 작은 집합의 대상으로 하는 수동 테스트에 효과적인 솔루션이 될 수 있습니다. 
 
-자세한 내용은 [System Center Configuration Manager의 소프트웨어 인벤토리 소개](https://docs.microsoft.com/sccm/core/clients/manage/inventory/introduction-to-software-inventory) 및 [System Center Configuration Manager의 패키지 및 프로그램](https://docs.microsoft.com/sccm/apps/deploy-use/packages-and-programs)에서 응용 프로그램 패키지의 플랫폼 요구 사항 설정을 참조하세요.
+자세한 내용은 [Configuration Manager의 소프트웨어 인벤토리 소개](https://docs.microsoft.com/configmgr/core/clients/manage/inventory/introduction-to-software-inventory) 및 [Configuration Manager의 패키지 및 프로그램](https://docs.microsoft.com/configmgr/apps/deploy-use/packages-and-programs)에서 응용 프로그램 패키지의 플랫폼 요구 사항 설정을 참조하세요.
 
 
 ## <a name="desktop-app-assure"></a>데스크톱 앱 Assure

@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: OS 배포 및 기능 업데이트를 위한 옵션을 알아봅니다.
-ms.openlocfilehash: c789ac0d62fd0b8c915f21174cae2b81e49e0c97
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 7da7c9ade2be43e8c60726bafd69cc7939b7bddc
+ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38031673"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41112682"
 ---
 # <a name="step-6-os-deployment-and-feature-updates"></a>6단계: 운영 체제 배포 및 기능 업데이트
 
@@ -49,13 +49,13 @@ ms.locfileid: "38031673"
 
 이미지 캡처를 진행하면서 최고 품질의 이미지 및 반복 가능한 프로세스를 보장하려면 가능한 한 많은 작업을 자동화하는 것이 좋습니다. 대부분의 배포에서는 캡처하기 전에 Windows 이미지에 가능한 한 적은 사용자 지정과 미리 설치된 앱을 배치하는 것이 좋습니다. 이것이 소위 말하는 ‘씬 이미지’ 접근 방식입니다. 이 방식은 이미지 내의 많은 앱을 제거하여 네트워크의 전체적인 대역폭을 절약할 수 있는 방법입니다. 씬 기본 이미지로 시작하고 사용자에게 맞게 앱, 언어 및 구성에 대해 계층을 동적으로 구성할 수 있습니다.
 
-빌드 및 캡처 중 프로세스 동안 System Center Configuration Manager(현재 분기) 및 Microsoft Deployment Toolkit와 같은 도구는 시스템 준비 도구(또는 Sysprep)와 "일반화" 명령을 함께 사용하여 Windows 10 설치를 이미지로 캡처하기 전에 이미지를 다시 봉인합니다.
+빌드 및 캡처 중 프로세스 동안 Microsoft Endpoint Configuration Manager(현재 분기) 및 Microsoft Deployment Toolkit와 같은 도구는 시스템 준비 도구(또는 Sysprep)와 "일반화" 명령을 함께 사용하여 Windows 10 설치를 이미지로 캡처하기 전에 이미지를 다시 봉인합니다.
 
-캡처한 이미지에는 Windows 이미지 또는 표준 Windows 설치 미디어와 같은 형식을 갖는 WIM이 포함됩니다. 사용자 지정 WIM 파일이 있으면 System Center Configuration Manager 또는 Microsoft Deployment Toolkit에서 OS 배포의 일부로 다른 작업 시퀀스를 사용하여 배포 관련 작업을 수행하고, 이미지를 적용하고, 환으로 Windows 이미지 적용 전후에 작업을 실행할 수 있습니다.
+캡처한 이미지에는 Windows 이미지 또는 표준 Windows 설치 미디어와 같은 형식을 갖는 WIM이 포함됩니다. 사용자 지정 WIM 파일이 있으면 Configuration Manager 또는 Microsoft Deployment Toolkit에서 OS 배포의 일부로 다른 작업 시퀀스를 사용하여 배포 관련 작업을 수행하고, 이미지를 적용하고, 환으로 Windows 이미지 적용 전후에 작업을 실행할 수 있습니다.
 
 [Windows 10 참조 이미지 만들기](https://docs.microsoft.com/windows/deployment/deploy-windows-mdt/create-a-windows-10-reference-image)
 
-[운영 체제를 설치하는 작업 시퀀스 만들기](https://docs.microsoft.com/sccm/osd/deploy-use/create-a-task-sequence-to-install-an-operating-system)
+[운영 체제를 설치하는 작업 시퀀스 만들기](https://docs.microsoft.com/configmgr/osd/deploy-use/create-a-task-sequence-to-install-an-operating-system)
 
 ### <a name="deployment-types"></a>배포 유형
 
@@ -73,7 +73,7 @@ ms.locfileid: "38031673"
 
 ### <a name="in-place-upgrade-using-task-sequence-automation"></a>작업 시퀀스 자동화를 사용한 현재 위치 업그레이드
 
-이러한 배포 유형 외에도, Windows 10을 포함하는 System Center Configuration Manager(현재 분기) 작업 시퀀스 및 업그레이드 작업 시퀀스를 사용한 현재 위치 업그레이드도 새롭게 사용할 수 있는 옵션입니다.
+이러한 배포 유형 외에도, Windows 10을 포함하는 Microsoft Endpoint Configuration Manager(현재 분기) 작업 시퀀스 및 업그레이드 작업 시퀀스를 사용한 현재 위치 업그레이드도 새롭게 사용할 수 있는 옵션입니다.
 
 이전 버전의 Windows에서 현재 위치 업그레이드를 수행하려면 작업 시퀀스가 필요하지 않지만, 엔터프라이즈 규모에서 배포할 때는 작업 시퀀스가 권장됩니다. 현재 위치 업그레이드에서는 응용 프로그램을 포함하는 사용자 지정 이미지를 적용할 수 었지만, 오프라인 서비스를 사용하여 기본 install.wim을 업데이트할 수 있습니다. 예를 들어 업그레이드를 수행하기 전에 최신 Windows 업데이트가 적용되었는지 확인할 수 있습니다.
 
@@ -87,7 +87,7 @@ ms.locfileid: "38031673"
 
 [Configuration Manager를 사용하여 Windows 10으로의 현재 위치 업그레이드 수행](https://docs.microsoft.com/windows/deployment/upgrade/upgrade-to-windows-10-with-system-center-configuraton-manager)
 
-[Configuration Manager에서 OS를 업그레이드하는 작업 시퀀스 만들기](https://docs.microsoft.com/sccm/osd/deploy-use/create-a-task-sequence-to-upgrade-an-operating-system)
+[Configuration Manager에서 OS를 업그레이드하는 작업 시퀀스 만들기](https://docs.microsoft.com/configmgr/osd/deploy-use/create-a-task-sequence-to-upgrade-an-operating-system)
 
 ### <a name="phased-deployment"></a>단계별 배포
 
@@ -95,11 +95,11 @@ ms.locfileid: "38031673"
 
 ![](media/step-6-os-deployment-and-feature-updates-media/step-6-os-deployment-and-feature-updates-media-4.png)
 
-### <a name="recommended-tools-system-center-configuration-manager-current-branch-and-the-microsoft-deployment-toolkit"></a>권장 도구: System Center Configuration Manager(현재 분기) 및 Microsoft Deployment Toolkit
+### <a name="recommended-tools-microsoft-endpoint-configuration-manager-current-branch-and-the-microsoft-deployment-toolkit"></a>권장 도구: Microsoft Endpoint Configuration Manager(현재 분기) 및 Microsoft Deployment Toolkit
 
 선택하는 배포 유형에 관계없이, 예측 가능성 및 반복 가능성을 위해 가능한 한 자동화될 수 있는지 확인할 수 있습니다. Microsoft는 자동화된 작업 시퀀스를 사용하여 OS 배포를 자동화하기 위한 다음 두 가지 솔루션을 제공합니다.
 
-  - **[System Center Configuration Manager](https://docs.microsoft.com/sccm/core/understand/introduction)**(ConfigMgr)는 소프트웨어 배포 및 소프트웨어 업데이트 관리를 위한 기능을 보완하기 위해 기본 제공 운영 체제 소프트웨어 배포 기능을 제공합니다. ConfigMgr은 모든 규모의 조직에서 광범위하게 사용되며, 4가지 Windows 배포 유형을 모두 지원합니다. 필요에 따라 Microsoft Intune에 ConfigMgr을 통합하여 배포 및 장치 관리를 위한 추가 기능을 추가할 수 있습니다.
+  - **[Microsoft Endpoint Configuration Manager](https://docs.microsoft.com/configmgr/core/understand/introduction)**(ConfigMgr)는 소프트웨어 배포 및 소프트웨어 업데이트 관리를 위한 기능을 보완하기 위해 기본 제공 운영 체제 소프트웨어 배포 기능을 제공합니다. ConfigMgr은 모든 규모의 조직에서 광범위하게 사용되며, 4가지 Windows 배포 유형을 모두 지원합니다. 필요에 따라 Microsoft Intune에 ConfigMgr을 통합하여 배포 및 장치 관리를 위한 추가 기능을 추가할 수 있습니다.
 
   - 또한 인기 있는 다른 배포 옵션 중 하나는 무료 **[Microsoft Deployment Toolkit](https://docs.microsoft.com/windows/deployment/deploy-windows-mdt/get-started-with-the-microsoft-deployment-toolkit)**(MDT)으로, 일반적으로 중소기업이 OS 배포에 사용합니다. 이 도구 키트에는 약간의 인프라만 필요합니다. MDT는 네트워크 부을 위해 WDS(Windows 배포 서비스)와 통합됩니다. 4가지 배포 유형과 응용 프로그램, 드라이버 및 설정 설치를 모두 지원합니다. 또한 MDT를 Configuration Manager와 통합할 수도 있습니다.
 
@@ -117,7 +117,7 @@ Windows 10에 새롭게 제공되는 옵션은 Windows Autopilot을 사용하여
 
 ## <a name="windows-update-for-business-for-feature-updates"></a>기능 업데이트를 위한 비즈니스용 Windows 업데이트
 
-비즈니스용 Windows 업데이트는 IT 전문가가 디바이스를 Windows 업데이트 서비스에 직접 연결하여 Windows 10 디바이스를 항상 최신 상태로 유지할 수 있도록 하는 무료 서비스입니다. 비즈니스용 Windows 업데이트는 그룹 정책 또는 MDM 솔루션(예: Microsoft Intune)을 통해 구성할 수 있으며, IT 전문가가 새 빌드가 유효한지 검사하기 위한 [배포 링](https://docs.microsoft.com/windows/deployment/update/waas-deployment-rings-windows-10-updates)을 만들 수 있도록 지원합니다. 이 기능은 WSUS(Windows Server Update Services), System Center Configuration Manager(현재 분기) 및 Microsoft Intune 등과 같은 기존 관리 도구에 통합됩니다. 또한 비즈니스용 Windows 업데이트는 대역폭 효율성을 최적화하고 네트워크 정체를 줄이는 데 도움이 되는 피어 투 피어 배달을 지원합니다.
+비즈니스용 Windows 업데이트는 IT 전문가가 디바이스를 Windows 업데이트 서비스에 직접 연결하여 Windows 10 디바이스를 항상 최신 상태로 유지할 수 있도록 하는 무료 서비스입니다. 비즈니스용 Windows 업데이트는 그룹 정책 또는 MDM 솔루션(예: Microsoft Intune)을 통해 구성할 수 있으며, IT 전문가가 새 빌드가 유효한지 검사하기 위한 [배포 링](https://docs.microsoft.com/windows/deployment/update/waas-deployment-rings-windows-10-updates)을 만들 수 있도록 지원합니다. 이 기능은 WSUS(Windows Server Update Services), Microsoft Endpoint Configuration Manager(현재 분기) 및 Microsoft Intune 등과 같은 기존 관리 도구에 통합됩니다. 또한 비즈니스용 Windows 업데이트는 대역폭 효율성을 최적화하고 네트워크 정체를 줄이는 데 도움이 되는 피어 투 피어 배달을 지원합니다.
 
 비즈니스용 Windows 업데이트에 대한 자세한 내용을 다음 설명서를 참조하세요.
 

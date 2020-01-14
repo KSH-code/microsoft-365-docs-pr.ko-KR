@@ -13,18 +13,18 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Windows 및 Office 배포 랩 키트에 액세스하는 방법 및 위치에 대해 알아보세요.
-ms.openlocfilehash: 0083eb91b49561c858cacc94a148e97c7463b754
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 1d95edce079f515572c977913da2ee432514f983
+ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40801363"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41112512"
 ---
 # <a name="windows-and-office-deployment-lab-kit"></a>Windows 및 Office 배포 랩 키트
 
 이러한 다운로드 가능 실무 중심 랩은 관련된 구성 및 배포 후 관리 고려 사항과 Windows 10 배포 및 Office 365 배포를 중점적으로 다룹니다. 이 교육 과정은 Windows 7 수명 종료를 대비하는 조직에 반드시 권장되며, 현재 Windows 10 및 Office 365 Plus 또는 Office 2019를 사용하는 경우에도 적용됩니다. 여기에는 Windows 10, Office 365 ProPlus, Enterprise Mobility + Security, 관련된 제품 및 서비스에 대한 가이드가 포함됩니다.
 
-이 랩은 Windows 10 Enterprise 및 Office 365 ProPlus를 실행하는 데스크톱의 배포 및 관리를 계획, 테스트 및 검증하는 데 도움을 주기 위해 만들어졌습니다. 이 랩에서는 System Center Configuration Manager, Desktop Analytics, Office 사용자 지정 도구, OneDrive, Windows Autopilot 등의 데스크톱 배포 도구에 설명된 단계와 도구를 다룹니다.
+이 랩은 Windows 10 Enterprise 및 Office 365 ProPlus를 실행하는 데스크톱의 배포 및 관리를 계획, 테스트 및 검증하는 데 도움을 주기 위해 만들어졌습니다. 이 랩에서는 Microsoft Endpoint Configuration Manager, Desktop Analytics, Office 사용자 지정 도구, OneDrive, Windows Autopilot 등의 데스크톱 배포 도구에 설명된 단계와 도구를 다룹니다.
 
 Windows 10 및 Office 365 ProPlus의 [데스크톱 배포](https://www.aka.ms/howtoshift) 프로세스의 일환으로 배포 도구 업데이트를 탐색하고 배포 관련 자동화를 테스트 할 때 샌드박스 또는 격리된 랩 환경을 만드는 것이 좋습니다.
 
@@ -38,7 +38,7 @@ Windows 10 및 Office 365 ProPlus의 [데스크톱 배포](https://www.aka.ms/ho
 
   - Windows 10 Enterprise, 버전 1909
   - Windows 7 Enterprise
-  - System Center Configuration Manager, 버전 1902
+  - Microsoft Endpoint Configuration Manager, 버전 1902
   - Windows 10용 Windows Assessment and Deployment Kit, 버전 1903
   - Microsoft Deployment Toolkit
   - Microsoft Application Virtualization(App-V) 5.1
@@ -72,7 +72,7 @@ Windows 10 및 Office 365 ProPlus의 [데스크톱 배포](https://www.aka.ms/ho
 
 ### <a name="office-and-lob-app-delivery"></a>**Office 및 LOB 앱 배달**
 
-  - System Center Configuration Manager를 사용하여 Office 365 ProPlus 배포
+  - Microsoft Endpoint Configuration Manager를 사용하여 Office 365 ProPlus 배포
   - Microsoft Intune을 사용하여 Office 365 ProPlus 배포
   - Microsoft Intune을 사용하여 앱 배포 및 관리
   - 비즈니스용 Microsoft Store를 사용하여 앱 배포 및 셀프 서비스 설치
@@ -126,7 +126,7 @@ Windows 10 및 Office 365 ProPlus의 [데스크톱 배포](https://www.aka.ms/ho
 
   - [Microsoft Mechanics의 데스크톱 배포 시리즈 비디오](https://www.aka.ms/watchhowtoshift)
 
-  - [System Center Configuration Manager OS 배포](https://docs.microsoft.com/sccm/osd/understand/introduction-to-operating-system-deployment)
+  - [Microsoft Endpoint Configuration Manager OS 배포](https://docs.microsoft.com/configmgr/osd/understand/introduction-to-operating-system-deployment)
 
   - [<span class="underline">Windows 10 배포 계획</span>](https://docs.microsoft.com/windows/deployment/planning/index)
 
