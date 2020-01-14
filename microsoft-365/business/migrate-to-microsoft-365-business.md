@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 ms.assetid: 5b4ba843-24b8-4526-8e1f-f9b9eab89d06
 description: Office 365 Business Premium에서 Microsoft 365 Business로 비즈니스를 업그레이드 하는 단계입니다.
-ms.openlocfilehash: 95c4504d7e6e33bdededee0cfca7add0cb5f7204
-ms.sourcegitcommit: 2c2248b03f7753d64490f2f7e56ec644a235b65a
+ms.openlocfilehash: 61da9148ccb87654aa2391ff90c4f086a4cbbe24
+ms.sourcegitcommit: 3c296126ba69a32af07e339f2f1eacdd8e5b878e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38640564"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41120144"
 ---
 # <a name="upgrade-to-microsoft-365-business-from-office-365-business-premium"></a>Office 365 Business Premium에서 Microsoft 365 Business로 업그레이드
 
@@ -68,7 +68,7 @@ Microsoft 365 Business ( [Microsoft.com](https://www.microsoft.com/microsoft-365
 1. 계획이 준비 되 면 관리 센터에서 몇 가지 추가 설치 단계를 완료 해야 할 수 있습니다. 탐색 창에서 **Home** 을 선택 하 여 추가 설정 단계를 완료 합니다.
 
 > [!NOTE]
-> 더 이상 필요 하지 않은 Ofifce 365 라이선스에 대 한 자세한 환불을 받게 됩니다. 새 요금제를 설정한 후 2 일 이내에 은행 계좌 또는 신용 카드 요금이 부과 됩니다.
+> 더 이상 필요 하지 않은 Office 365 라이선스에 대 한 환불을 받게 됩니다. 새 요금제를 설정한 후 2 일 이내에 은행 계좌 또는 신용 카드 요금이 부과 됩니다.
   
 ## <a name="protect-user-devices-and-files"></a>사용자 장치 및 파일 보호
 

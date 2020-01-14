@@ -13,17 +13,19 @@ search.appverid:
 - MET150
 description: 셀프 서비스 구매에 대 한 일반적인 질문과 대답을 확인할 수 있습니다.
 ms.custom: aka.ms/self-service-purchase-faq
-ms.openlocfilehash: d8edca60687a269c062f44a23500b204b965863c
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 8671492680eba730bf123036a4bb347d055f686d
+ms.sourcegitcommit: 3c296126ba69a32af07e339f2f1eacdd8e5b878e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40806241"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41120159"
 ---
 # <a name="self-service-purchase-faq"></a>셀프 서비스 구매 FAQ
 
 > [!NOTE]
 > 이 문서의 정보는 Microsoft Power Platform (Power BI, Power Apps 및 Power 자동화) 구독에만 적용 됩니다.
+
+이제 미국에서 Power BI에 대 한 셀프 서비스 구매를 사용할 수 있습니다.
 
 ## <a name="general"></a>일반
 
@@ -39,9 +41,9 @@ ms.locfileid: "40806241"
 
 오늘날의 세계에서는 최종 사용자 및 부서에서 기술 솔루션 자체를 점점 더 빠르게 확인할 수 있습니다. 이러한 고객 으로부터 다양 한 요청이 수신 되어 전원 플랫폼 제품의 셀프 서비스 구매를 사용할 수 있습니다. IT 관리자의 요구 사항에 대응 하 고, 조직 내의 개인이 사용자 모르게 타사 솔루션을 채택 하는 시기를 제어할 수 있는 경우에도이 고객에 게 필요한 정보를 제공 합니다. Power Platform 제품에 대해 예정 된 셀프 서비스 기능을 사용 하는 경우 IT 관리자는 조직 내에서 수행 되는 모든 셀프 서비스 구매를 완벽 하 게 수행할 수 있으며, 조직 수준에서 설정 된 데이터 거 버 넌 스를 계산 합니다. 셀프 서비스를 통해 구매한 구독 또한 관리자는 기존 라이선스를 할당 하거나, 셀프 서비스 구매에 할당 된 사용자에 대 한 기존 계약 및 가격 산정을 통해 전원 플랫폼 제품의 추가 구독을 구매할 수 있습니다. 중앙에서 구매한 라이선스를 할당 한 후 관리자는 purchasers에서 기존 구독을 취소 하도록 요청할 수 있습니다. Microsoft는 향후 관리자를 위해이 프로세스를 간소화 하 고 간소화 하는 방법을 탐색 하 고 있습니다.
 
-### <a name="when-will-self-service-purchase-for-the-power-platform-products-be-available"></a>전원 플랫폼 제품에 대 한 셀프 서비스 구매를 사용할 수 있나요?
+### <a name="which-power-platform-products-are-available-for-self-service-purchase"></a>셀프 서비스를 구매 하는 데 사용할 수 있는 Power Platform 제품은 무엇입니까?
 
-Microsoft는 미국의 1 월 2020 14 일에 Power BI에 대 한 셀프 서비스 구매를 시작 하며, 향후 달에 추가 시장을 사용할 수 있는 상태가 됩니다. 전원 앱과 전원 자동화는 다음 주에 추가 될 예정입니다. 지금은 정부, 비영리 또는 교육 인 테 넌 트에는이 기능을 사용할 수 없습니다.
+Microsoft는 미국의 고객에 게 Power BI에 대 한 셀프 서비스 구매를 시작 했으며, 향후 달에 추가 시장을 사용할 수 있습니다. 미국, 2020 년 1 월 28 일에 고객을 위해 전원 앱과 전원 자동화가 추가 됩니다. 지금은 정부, 비영리 또는 교육 인 테 넌 트에는이 기능을 사용할 수 없습니다.
 
 ### <a name="will-self-service-purchase-be-enabled-for-services-beyond-the-power-platform-products"></a>파워 플랫폼 제품 이외의 서비스에 셀프 서비스 구매를 사용할 수 있나요?
 
