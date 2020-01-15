@@ -1,7 +1,7 @@
 ---
 title: SEC Rule 17a-4를 준수하기 위해 Exchange Online과 보안 및 준수 센터 사용
-ms.author: stephow
-author: stephow-MSFT
+ms.author: cabailey
+author: cabailey
 manager: laurawi
 ms.date: ''
 audience: Admin
@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Cohasset Associates는 Exchange Online 및 Security & Compliance Center가 권장대로 구성되어 있으면 CFTC 규칙 1.31 (c) - (d), FINRA 규칙 4511 및 SEC 규칙 17a-4의 관련 저장소 요구 사항을 충족함을 확인했습니다. 평가판을 다운로드할 수 있습니다.
-ms.openlocfilehash: 60b8d27ed75afbfd6ffc5d8e254738ea62e0d21b
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 33db33589df60b52c4598c52d593b9a6fe4c9c10
+ms.sourcegitcommit: 5de17ee0d88a8bec6c8b54bc576a9517ab6d0066
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088435"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41122427"
 ---
 # <a name="use-exchange-online-and-the-security--compliance-center-to-comply-with-sec-rule-17a-4"></a>SEC Rule 17a-4를 준수하기 위해 Exchange Online과 보안 및 준수 센터 사용
 
@@ -65,7 +65,7 @@ PowerShell을 사용하여 보존 정책을 잠글 수 있습니다. 자세한 �
 
 ## <a name="known-limitations"></a>알려진 제한
 
-Exchange Online의 몇 가지 제한 사항을 알고 있습니다. 저희은 이를 적극적으로 작업 중이며 2019년 7월에 이러한 시나리오에 대한 지원을 제공할 예정입니다.
+현재 Exchange Online에는 몇 가지 제한 사항이 있습니다.
 
 - 항목 수준 감사는 Office 365 그룹 사서함에서 사용할 수 없습니다.
 - 팀 채팅 및 채널 메시지의 경우 스레드 통신을 사용할 수 없습니다.

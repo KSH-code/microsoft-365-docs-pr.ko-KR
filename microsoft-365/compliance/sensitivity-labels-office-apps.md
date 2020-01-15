@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 사용자가 데스크톱에 대 한 Office 앱, 모바일 용 Office 앱 및 웹 용 Office 앱에서 민감도 레이블을 사용 하는 방법에 대해 알아봅니다. 민감도 레이블을 지 원하는 앱을 찾습니다.
-ms.openlocfilehash: 32ad0abf61de5a64aac6914532f59bb5602e9d83
-ms.sourcegitcommit: d48b7852383262083a6a109530d84f0858cb3801
+ms.openlocfilehash: 3b8522dea71cd0ece5ec63f07a733e1eb5283a43
+ms.sourcegitcommit: ff030461137066b0f510a5978f4b5578908e3d2b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "40999592"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "41123629"
 ---
 # <a name="sensitivity-labels-in-office-apps"></a>Office 앱의 민감도 레이블
 
@@ -52,7 +52,9 @@ Office 기본 제공 레이블 클라이언트는 Office 구독 버전의 민감
 
 ## <a name="support-for-sensitivity-label-capabilities-in-apps"></a>앱의 민감도 레이블 기능 지원
 
-다음 표에는 각 기능에 대 한 기본 제공 레이블을 사용 하 여 민감도 레이블을 지원 하기 위해 해당 앱에 필요한 최소 버전이 나와 있습니다. 새 버전은 다양 한 업데이트 채널을 위해 서로 다른 시간에 사용할 수 있게 됩니다. 관심 있는 새 레이블 기능을 테스트할 수 있도록 업데이트 채널을 구성 하는 방법을 비롯 한 자세한 내용은 [Office 365 ProPlus의 업데이트 채널 개요](https://docs.microsoft.com/DeployOffice/overview-of-update-channels-for-office-365-proplus)를 참조 하세요.
+다음 표에는 각 기능에 대 한 기본 제공 레이블을 사용 하 여 민감도 레이블을 지원 하기 위해 해당 앱에 필요한 최소 버전이 나와 있습니다. 또는 레이블 기능이 공개 미리 보기에 있거나 이후 릴리스에 대 한 검토 중에 있습니다.
+
+새 버전의 앱은 다양 한 업데이트 채널에 대해 서로 다른 시간에 사용할 수 있습니다. 관심 있는 새 레이블 기능을 테스트할 수 있도록 업데이트 채널을 구성 하는 방법을 비롯 한 자세한 내용은 [Office 365 ProPlus의 업데이트 채널 개요](https://docs.microsoft.com/DeployOffice/overview-of-update-channels-for-office-365-proplus)를 참조 하세요. 개인 미리 보기에 있는 새로운 기능은 표에는 포함 되어 있지 않지만 이러한 미리 보기에 참여 하려면 먼저 조직에서 [Microsoft Information Protection nominating 미리 보기 프로그램](https://aka.ms/mip-preview)을 사용할 수 있습니다.
 
 Windows 컴퓨터 에서만 실행 되는 Azure Information Protection 통합 레이블 클라이언트를 설치할 때 추가 기능을 사용할 수 있습니다. 자세한 내용은 [Windows 컴퓨터에 대 한 레이블 클라이언트 비교](https://docs.microsoft.com/azure/information-protection/rms-client/use-client#compare-the-labeling-clients-for-windows-computers)를 참조 하십시오.
 

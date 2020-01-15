@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: c4639c2e-7223-4302-8e0d-b6e10f1c3be3
 description: '보안 & 준수 센터의 콘텐츠 검색 도구를 사용 하 여 Exchange Online 사서함 및 SharePoint 또는 비즈니스용 OneDrive 사이트에서 검색할 수 있는 전자 메일 및 파일 속성에 대해 알아봅니다.  '
-ms.openlocfilehash: d76f92de4b41c7f6f0494af36a7e1aee953b9896
-ms.sourcegitcommit: cbf934ef448fc428f5ed53b07cda7a5f72c89221
+ms.openlocfilehash: 2d3b69090d8b19d474e2049c2082516459d18148
+ms.sourcegitcommit: ff030461137066b0f510a5978f4b5578908e3d2b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/31/2019
-ms.locfileid: "40911476"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "41123659"
 ---
 # <a name="keyword-queries-and-search-conditions-for-content-search"></a>콘텐츠 검색에 대한 키워드 쿼리 및 검색 조건
 
@@ -328,6 +328,12 @@ SharePoint 및 비즈니스용 OneDrive 사이트에서 문서를 검색할 때 
   
  `phone* OR smartphone* AND (sent=2016-12-01..2016-11-30) AND ((kind="email") OR (kind="meetings"))`
   
+## <a name="special-characters"></a>특수 문자
+
+일부 특수 문자는 검색 인덱스에 포함 되지 않으므로 검색할 수 없습니다. 또한 검색 쿼리의 검색 연산자를 나타내는 특수 문자도 포함 됩니다. 다음은 실제 검색 쿼리의 빈 공간으로 대체 되거나 검색 오류를 발생 시키는 특수 문자의 목록입니다.
+
+`+ - = : ! @ # % ^ & ; _ / ? ( ) [ ] { }`
+
 ## <a name="searching-for-site-content-shared-with-external-users"></a>외부 사용자와 공유되는 사이트 콘텐츠 검색
 
 또한 보안 & 준수 센터의 콘텐츠 검색 기능을 사용 하 여 SharePoint에 저장 된 문서와 조직 외부의 사용자와 공유 된 비즈니스용 OneDrive 사이트를 검색할 수 있습니다. 이렇게 하면 조직 외부에서 공유되는 중요한 정보나 비공개 정보를 확인할 수 있습니다. 키워드 쿼리에 속성을 `ViewableByExternalUsers` 사용 하 여이 작업을 수행할 수 있습니다. 이 속성은 다음 공유 방법 중 하나를 사용 하 여 외부 사용자와 공유 된 문서 또는 사이트를 반환 합니다. 
@@ -400,21 +406,19 @@ kind:im AND subject:conversation AND (received=startdate..enddate)
 ## <a name="search-tips-and-tricks"></a>검색 팁과 트릭
 
 - 키워드 검색은 대/소문자를 구분 하지 않습니다. 예를 들어 **cat** 및 **CAT**은 같은 결과를 반환합니다. 
-    
-- 부울 연산자 **AND**, **OR**, **NOT**, **NEAR**및 **onear** 는 대문자 여야 합니다. 
-    
-- 두 개의 키워드나 두 `property:value` 식 사이의 공백은 **AND**를 사용 하는 것과 같습니다. 예를 `from:"Sara Davis" subject:reorganization` 들어 Sara Davis에서 보낸 모든 메시지를 제목 줄에 다시 그룹화 하 여 반환 합니다. 
-    
-- `property:value` 형식과 일치 하는 구문을 사용 합니다. 값은 대/소문자를 구분 하지 않으며 연산자 뒤에 공백을 사용할 수 없습니다. 공백이 있는 경우에는 원하는 값이 전체 텍스트 검색이 됩니다. 예를 `to: pilarp` 들어 pilarp로 전송 된 메시지 대신 키워드로 "pilarp"을 검색 합니다. 
-    
-- 받는 사람 속성(예: To, From, Cc 또는 Recipients)을 검색하는 경우 SMTP 주소, 별칭 또는 표시 이름을 사용하여 받는 사람을 나타낼 수 있습니다. 예를 들어, pilarp@contoso.com, pilarp, 또는 "Pilar Pinilla"를 사용할 수 있습니다.
-    
-- 접두사 와일드 카드 검색만 사용할 수 있습니다. 예를 들면 **cat\* ** 또는 **set\*** 입니다. **\*Cat**(접미사 검색), 중 위 검색 **(\*c t**) 및**\*cat\***(하위 문자열 검색)은 지원 되지 않습니다. 
-    
-- 속성을 검색할 때 검색 값이 여러 단어로 구성 된 경우 큰따옴표 ("")를 사용 합니다. 예 `subject:budget Q1` 를 들어 제목 줄에 **예산이** 포함 되 고 메시지의 모든 위치나 메시지 속성에 있는 **Q1** 이 포함 된 메시지가 반환 됩니다. 사용 `subject:"budget Q1"` 에서는 제목 줄의 모든 위치에 **예산 Q1** 이 포함 된 모든 메시지를 반환 합니다. 
-    
-- 검색 결과에서 특정 속성 값으로 표시된 콘텐츠를 제외하려면 속성 이름 앞에 빼기 기호(-)를 추가합니다. 예를 들어 `-from:"Sara Davis"` Sara Davis에서 보낸 모든 메시지를 제외 합니다.
 
-- 일부 특수 문자가 검색 인덱스에 포함 되지 않아 검색할 수 없는 경우에는 검색 연산자 (+-=:))를 포함 합니다. 그리고 $null로 대체 되는 다음 문자를 검색 하면 오류가 발생할 수 있습니다. @ #% ^ &; _ / ?
+- 부울 연산자 **AND**, **OR**, **NOT**, **NEAR**및 **onear** 는 대문자 여야 합니다. 
+
+- 두 개의 키워드나 두 `property:value` 식 사이의 공백은 **AND**를 사용 하는 것과 같습니다. 예를 `from:"Sara Davis" subject:reorganization` 들어 Sara Davis에서 보낸 모든 메시지를 제목 줄에 다시 그룹화 하 여 반환 합니다. 
+
+- `property:value` 형식과 일치 하는 구문을 사용 합니다. 값은 대/소문자를 구분 하지 않으며 연산자 뒤에 공백을 사용할 수 없습니다. 공백이 있는 경우에는 원하는 값이 전체 텍스트 검색이 됩니다. 예를 `to: pilarp` 들어 pilarp로 전송 된 메시지 대신 키워드로 "pilarp"을 검색 합니다. 
+
+- 받는 사람 속성(예: To, From, Cc 또는 Recipients)을 검색하는 경우 SMTP 주소, 별칭 또는 표시 이름을 사용하여 받는 사람을 나타낼 수 있습니다. 예를 들어, pilarp@contoso.com, pilarp, 또는 "Pilar Pinilla"를 사용할 수 있습니다.
+
+- 접두사 와일드 카드 검색만 사용할 수 있습니다. 예를 들면 **cat\* ** 또는 **set\*** 입니다. **\*Cat**(접미사 검색), 중 위 검색 **(\*c t**) 및**\*cat\***(하위 문자열 검색)은 지원 되지 않습니다.
+
+- 속성을 검색할 때 검색 값이 여러 단어로 구성 된 경우 큰따옴표 ("")를 사용 합니다. 예 `subject:budget Q1` 를 들어 제목 줄에 **예산이** 포함 되 고 메시지의 모든 위치나 메시지 속성에 있는 **Q1** 이 포함 된 메시지가 반환 됩니다. 사용 `subject:"budget Q1"` 에서는 제목 줄의 모든 위치에 **예산 Q1** 이 포함 된 모든 메시지를 반환 합니다.
+
+- 검색 결과에서 특정 속성 값으로 표시된 콘텐츠를 제외하려면 속성 이름 앞에 빼기 기호(-)를 추가합니다. 예를 들어 `-from:"Sara Davis"` Sara Davis에서 보낸 모든 메시지를 제외 합니다.
 
 - 메시지 유형을 기준으로 항목을 내보낼 수 있습니다. 예를 들어 Microsoft 팀에서 Skype 대화 및 채팅을 내보내려면 구문을 `kind:im`사용 합니다. 전자 메일 메시지만 반환 하려면를 사용 `kind:email`합니다. Microsoft 팀에서 채팅, 모임 및 통화를 반환 하려면를 사용 `kind:microsoftteams`합니다.

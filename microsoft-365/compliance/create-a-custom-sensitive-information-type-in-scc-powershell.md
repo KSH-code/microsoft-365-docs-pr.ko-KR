@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보안 및 준수 센터에서 DLP에 대한 사용자 지정 중요한 정보 유형을 만들고 가져오는 방법을 알아보세요.
-ms.openlocfilehash: b2dbc9bdef01c349e7c9dc7e3716c661775d2a81
-ms.sourcegitcommit: 547bfc5f1fec7545cbe71b1919454425556c9227
+ms.openlocfilehash: d470d6c8184f87af1ad78aae2979c6b87ca81676
+ms.sourcegitcommit: 5de17ee0d88a8bec6c8b54bc576a9517ab6d0066
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/09/2019
-ms.locfileid: "39266163"
+ms.lasthandoff: 01/14/2020
+ms.locfileid: "41122457"
 ---
 # <a name="create-a-custom-sensitive-information-type-in-security--compliance-center-powershell"></a>보안 및 준수 센터 PowerShell에서 사용자 지정 중요한 정보 유형 만들기
 
@@ -147,13 +147,13 @@ Office 365의 DLP(데이터 손실 방지)에는 DLP 정책에서 바로 사용�
   
 이 구조는 다음과 같은 몇 가지 중요한 측면을 갖습니다.
   
-- 더 많은 증거를 요구하는 패턴일수록 신뢰도가 더 높습니다. 이러한 측면은 나중에 이 중요한 정보 유형을 DLP 정책에서 사용할 경우 신뢰도가 더 높은 좀 더 제한적인 작업(예: 콘텐츠 차단)과 신뢰도가 더 낮은 덜 제한적인 작업(예: 알림 보내기)을 사용할 수 있기 때문에 유용합니다.
+- 더 많은 증거가 필요한 패턴은 더 높은 신뢰도 수준을 갖습니다. 이것은 나중에 DLP 정책에서 이 중요한 정보를 사용할 때 높은 신뢰도 일치만 사용하여 더 제한적인 작업(콘텐츠 차단 등)을 사용할 수 있고 낮은 신뢰도 일치를 사용하여 덜 제한적인 작업(예: 알림 보내기)을 사용할 수 있으므로 매우 유용합니다.
     
-- 지원 IdMatch 및 Match 요소는 실제로 Pattern이 아닌 Rule 요소의 자식인 regex 및 키워드를 참조합니다. 이러한 지원 요소는 Pattern에서 참조되지만 Rule에 포함됩니다. 즉, 정규식이나 키워드 목록과 같은 지원 요소를 한 번 정의하여 여러 엔터티 및 패턴에서 참조할 수 있습니다.
+- IdMatch 및 Match와 같은 지원 요소는 Pattern이 아닌 Rule 요소의 하위 요소인 regex와 키워드를 참조합니다. 이러한 지원 요소는 Pattern에 의해 참조되나 Rule에 포함됩니다. 즉, 여러 개의 엔터티와 패턴에서 정규식이나 키워드 목록 등 지원 요소에 대한 정의를 참조할 수 있습니다.
     
-## <a name="what-entity-do-you-need-to-identify-entity-element-id-attribute"></a>어떤 엔터티를 식별해야 하나요? [Entity 요소, ID 특성]
+## <a name="what-entity-do-you-need-to-identify-entity-element-id-attribute"></a>식별해야 하는 엔터티는 무엇인가? [Entity 요소, id 속성]
 
-엔터티는 잘 정의된 패턴을 갖는 신용 카드 번호와 같은 중요한 정보 유형입니다. 각 엔터티는 고유한 GUID를 해당 ID로 사용합니다.
+엔터티는 정상적인 패턴을 갖는 중요한 정보 유형(예: 신용 카드 번호)입니다. 각 엔터티는 ID로서 고유한 GUID를 갖습니다.
   
 ### <a name="name-the-entity-and-generate-its-guid"></a>엔터티에 이름 지정 및 해당 GUID 생성
 <!-- why isn't the following in procedure format? --> Rules 및 Entity 요소를 추가합니다. 그런 후 사용자 지정 엔터티의 이름(이 예제에서는 직원 ID)을 포함하는 주석을 추가합니다. 나중에 이 엔터티 이름을 지역화된 문자열 섹션에 추가합니다. 그러면 해당 이름이 DLP 정책을 만들 때 UI에 표시됩니다.
@@ -176,11 +176,11 @@ Office 365의 DLP(데이터 손실 방지)에는 DLP 정책에서 바로 사용�
   
 정규식을 만들 때 인식해야 하는 잠재적인 문제가 있을 수 있다는 사실을 고려해야 합니다. 예를 들어, 너무 많은 콘텐츠를 식별하는 regex를 작성하여 업로드하는 경우 성능에 영향을 줄 수 있습니다. 이러한 잠재적인 문제에 대한 자세한 내용은 뒷부분에 나오는 [인식해야 하는 잠재적인 유효성 검사 문제](#potential-validation-issues-to-be-aware-of)를 참조하세요.
   
-## <a name="do-you-want-to-require-additional-evidence-match-element-mincount-attribute"></a>추가 증거를 요구하려고 하나요? [Match 요소, minCount 특성]
+## <a name="do-you-want-to-require-additional-evidence-match-element-mincount-attribute"></a>추가 서비스를 요구해야 하는가? [Match 요소, minCount 속성]
 
-패턴은 IdMatch 외에 Match 요소를 사용하여 키워드, regex, 날짜 또는 주소와 같은 추가적인 증거를 요구할 수 있습니다.
+패턴은 IdMatch에 더해 Match 요소를 사용하여 키워드, regex, 날짜, 주소 등 추가적인 증빙을 요구할 수 있습니다.
   
-하나의 패턴에 여러 Match 요소가 포함될 수 있으며, 이러한 요소는 Pattern 요소에 직접 포함되거나 Any 요소를 사용해서 조합하여 사용할 수 있습니다. Match 요소는 암시적 AND 연산자로 조인됩니다. 패턴이 일치하려면 모든 Match 요소가 충족되어야 합니다. Any 요소를 사용하여 AND 또는 OR 연산자를 도입할 수 있습니다(뒷부분에 나오는 섹션에서 자세한 내용 제공).
+Pattern은 여러 개의 Match 요소를 포함할 수 있으며, 여러 개의 Match 요소는 Pattern 요소에 직접 포함하거나 Any 요소를 사용하여 조합할 수 있습니다. Match 요소는 암시적 AND 연산자로 연결합니다. 패턴이 일치하기 위해서는 모든 Match 요소가 충족되어야 합니다. Any 요소를 사용하여 AND 또는 OR 연산자를 사용할 수 있습니다(다른 섹션에서 상술).
   
 선택적인 minCount 특성을 사용하여 각 Match 요소에 대해 검색되어야 하는 일치 인스턴스 수를 지정할 수 있습니다. 예를 들어, 키워드 목록에서 두 개 이상의 키워드가 검색된 경우에만 패턴이 충족되도록 지정할 수 있습니다.
   
@@ -220,7 +220,7 @@ Pattern 요소에서 모든 IdMatch 및 Match 요소는 암시적 AND 연산자�
   
 Any 요소에는 패턴이 일치되기 위해 충족되어야 하는 자식 Match 요소 수를 정의하는 데 사용할 수 있는 선택적 minMatches 및 maxMatches 특성이 있습니다. 이러한 특성은 일치를 위해 확인되는 증거 인스턴스 수가 아니라 충족되어야 하는 Match 요소의 수를 정의합니다. 특정 일치의 최소 인스턴스 수(예: 목록의 2개 키워드)를 정의하려면 Match 요소에 대해 minCount 특성을 사용합니다(위 내용 참조).
   
-### <a name="match-at-least-one-child-match-element"></a>하나 이상의 자식 Match 요소 일치
+### <a name="match-at-least-one-child-match-element"></a>하나 이상의 하위 Match 요소 매치
 
 최소 개수의 Match 요소만 충족되도록 요구하려는 경우 minMatches 특성을 사용할 수 있습니다. 실제로 Match 요소는 암시적 OR 연산자로 조인됩니다. 목록에서 미국 형식 날짜 또는 키워드가 발견되면 이 Any 요소가 충족됩니다.
 
@@ -286,7 +286,7 @@ Any 요소에는 패턴이 일치되기 위해 충족되어야 하는 자식 Mat
   
 전자 메일의 경우 메시지 본문과 각 첨부 파일이 별도 항목으로 취급됩니다. 즉, 근접 범위는 이러한 각 항목이 범위 너머까지 확장되지 않습니다. 각 항목(첨부 파일 또는 본문) 내에 idMatch 및 증빙이 둘 다 있어야 합니다.
   
-## <a name="what-are-the-right-confidence-levels-for-different-patterns-confidencelevel-attribute-recommendedconfidence-attribute"></a>여러 다른 패턴의 적정 신뢰도는 얼마나 되나요? [confidenceLevel 특성, recommendedConfidence 특성]
+## <a name="what-are-the-right-confidence-levels-for-different-patterns-confidencelevel-attribute-recommendedconfidence-attribute"></a>각 패턴의 적정 신뢰 수준은 무엇인가? [confidenceLevel 속성, recommendedConfidence 속성]
 
 패턴이 더 많은 증거를 요구할수록 패턴이 일치될 때 실제 엔터티(예: 직원 ID)가 식별될 신뢰도는 더 높아집니다. 예를 들어, 매우 근접한 9자리 ID 숫자, 채용 날짜, 키워드를 요구하는 패턴의 경우 9자리 ID 숫자만 요구하는 패턴의 경우보다 신뢰도가 더 높습니다.
   
@@ -350,6 +350,8 @@ Version 요소도 중요합니다. 처음으로 규칙 패키지를 업로드하
   
 ## <a name="upload-your-rule-package"></a>규칙 패키지 업로드
 
+
+
 규칙 패키지를 업로드하려면 다음 단계를 수행합니다.
   
 1. 유니코드 인코딩을 사용하여 .xml 파일로 저장합니다.
@@ -359,18 +361,21 @@ Version 요소도 중요합니다. 처음으로 규칙 패키지를 업로드하
 3. 다음 구문을 사용합니다.
 
 ```powershell
-New-DlpSensitiveInformationTypeRulePackage -FileData (Get-Content -Path "PathToUnicodeXMLFile" -Encoding Byte)
+New-DlpSensitiveInformationTypeRulePackage -FileData (Get-Content -Path "PathToUnicodeXMLFile" -Encoding Byte) -ReadCount 0
 ```
 
     This example uploads the Unicode XML file named MyNewRulePack.xml from C:\My Documents.
 
 ```powershell
-New-DlpSensitiveInformationTypeRulePackage -FileData (Get-Content -Path "C:\My Documents\MyNewRulePack.xml" -Encoding Byte)
+New-DlpSensitiveInformationTypeRulePackage -FileData (Get-Content -Path "C:\My Documents\MyNewRulePack.xml" -Encoding Byte) -ReadCount 0
 ```
 
     For detailed syntax and parameter information, see [New-DlpSensitiveInformationTypeRulePackage](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-dlp/new-dlpsensitiveinformationtyperulepackage).
 
-5. 새로운 중요한 정보 유형을 성공적으로 만들었는지 확인하려면 다음 단계를 수행합니다.
+> [!NOTE]
+> 사용자 지정 중요한 정보 유형 모음에 대한 제한은 10 개입니다.
+
+4. 새로운 중요한 정보 유형을 성공적으로 만들었는지 확인하려면 다음 단계를 수행합니다.
 
   - [DlpSensitiveInformationTypeRulePackage](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-dlp/get-dlpsensitiveinformationtyperulepackage?view=exchange-ps) cmdlet을 실행하여 새 규칙 패키지가 나열되는지 확인합니다.
 
@@ -551,7 +556,7 @@ Set-DlpSensitiveInformationTypeRulePackage -FileData ([Byte[]]$(Get-Content -Pat
 
 ## <a name="reference-rule-package-xml-schema-definition"></a>참조: 규칙 패키지 XML 스키마 정의
 
-이 태그를 복사하고, XSD 파일로 저장한 후 규칙 패키지 XML 파일의 유효성을 검사하는 데 사용할 수 있습니다.
+아래 태그를 복사하여 XSD 파일로 저장하면 규칙 패키지 XML 파일의 유효성 검사를 수행하는 데 사용할 수 있습니다.
   
 ```xml
 <?xml version="1.0" encoding="utf-8"?>
