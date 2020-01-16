@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365의 위협에 대 한 사냥
 description: Microsoft 365 보안 센터의 위협 검색 기능을 사용 하 여 위반 및 기타 위협 요소를 사전에 찾기
-keywords: 보안, 맬웨어, Microsoft 365, M365, Microsoft Threat Protection, MTP, 보안 센터, 사이버 위협 구하기, Microsoft Defender ATP, Office 365 ATP, Azure ATP, 고급 구하기
+keywords: Microsoft 365, M365, Microsoft Threat Protection, MTP, security center,, 보안 센터, 헌트, 위협 구하기, 사이버 위협 구하기, Microsoft Defender ATP, Office 365 ATP, Azure ATP, 고급 구하기
 ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
 ms.localizationpriority: medium
@@ -12,12 +12,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: e0f4c97a1c2963fc714420457208b40af688d86b
-ms.sourcegitcommit: c9332016f61b26f63c9145c9169ea5330e91a243
+ms.openlocfilehash: c2bb0b088a40511eea36348d39790fd5e88fa40b
+ms.sourcegitcommit: 5b8e9935fe7bfcb96b8f8356119ce23152bd16a9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2020
-ms.locfileid: "41173504"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "41210163"
 ---
 # <a name="hunt-for-threats-in-microsoft-365"></a>Microsoft 365의 위협에 대 한 사냥
 

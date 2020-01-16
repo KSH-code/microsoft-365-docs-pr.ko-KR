@@ -15,12 +15,12 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 656b444da9b85028aa1d280a76ca038e2d3a3ac6
-ms.sourcegitcommit: a2e9ab69f99f2069372ccfffd9ef2ffbd8568826
+ms.openlocfilehash: abd67d08d45a5e66b301e04a6afbd498fcd0344a
+ms.sourcegitcommit: 5b8e9935fe7bfcb96b8f8356119ce23152bd16a9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "41012191"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "41210153"
 ---
 # <a name="microsoft-secure-score"></a>Microsoft 보안 점수
 
@@ -50,7 +50,7 @@ Microsoft 보안 점수는 조직의 보안 상태를 측정 한 값으로, 더 
 
 ### <a name="products-included-in-secure-score"></a>안전한 점수에 포함 된 제품
 
-현재 Office 365 (SharePoint Online, Exchange Online, 비즈니스용 OneDrive, Microsoft Information Protection 등), Azure AD, Intune 및 Cloud App Security에 대 한 권장 사항이 포함 되어 있습니다. Azure ATP 및 Microsoft Defender ATP와 같은 다른 보안 제품에 대 한 권장 사항은 곧 제공 될 예정입니다. 권장 사항은 각 제품과 연결 된 모든 공격 표면을 다루지는 않지만 좋은 기준이 됩니다. 또한 개선 작업을 제 3 자에서 다룬 것으로 표시할 수도 있습니다.
+현재 Office 365 (SharePoint Online, Exchange Online, 비즈니스용 OneDrive, Microsoft Information Protection 등), Azure AD 및 Cloud App Security에 대 한 권장 사항은 다음과 같습니다. Azure ATP 및 Microsoft Defender ATP와 같은 다른 보안 제품에 대 한 권장 사항은 곧 제공 될 예정입니다. 권장 사항은 각 제품과 연결 된 모든 공격 표면을 다루지는 않지만 좋은 기준이 됩니다. 또한 개선 작업을 제 3 자에서 다룬 것으로 표시할 수도 있습니다.
 
 ## <a name="required-permissions"></a>필요한 사용 권한
 
@@ -136,16 +136,53 @@ Microsoft 보안 점수는 시스템 구성, 사용자 동작 및 기타 보안 
 
 Microsoft의 보안 점수를 보안 환경을 보다 효율적으로 대표 하 고 유용성을 향상 시키기 위해 곧 몇 가지 사항을 변경 하 고 있습니다. 점수와 가능한 최대 점수가 변경 됩니다. 그러나 보안 환경을 변경 하는 것은 아닙니다.
 
+### <a name="removing-improvement-actions-from-intune"></a>Intune에서 개선 작업 제거
+
+Intune에서 제공 하는 Microsoft 보안 점수 향상 작업을 평가한 후에는 조직에서 장치의 보안 상태를 효과적으로 표현 하지 않기로 결정 했습니다. 정책을 중점적으로 설명 하는 대신, 장치의 구성 상태를 직접 평가 하는 보안 컨트롤을 사용 하는 것이 좋습니다.
+
+다음 Intune 개선 작업이 제거 됩니다.
+
+- Microsoft Intune 모바일 장치 관리 사용
+- Android 용 Microsoft Intune 준수 정책 만들기
+- 비즈니스용 Android 용 Microsoft Intune 준수 정책 만들기
+- Android 용 Microsoft Intune 앱 보호 정책 만들기
+- IOS 용 Microsoft Intune 앱 보호 정책 만들기
+- Microsoft Intune 준수 정책이 비규격으로 지정 된 장치 표시
+- IOS 용 Microsoft Intune 준수 정책 만들기
+- MacOS에 대 한 Microsoft Intune 준수 정책 만들기
+- Windows 용 Microsoft Intune 준수 정책 만들기
+- Android 용 Microsoft Intune 구성 프로필 만들기
+- 비즈니스용 Android 용 Microsoft Intune 구성 프로필 만들기
+- MacOS 용 Microsoft Intune 구성 프로필 만들기
+- IOS 용 Microsoft Intune 구성 프로필 만들기
+- Windows 용 Microsoft Intune 구성 프로필 만들기
+- Microsoft Intune에서 향상 된 jailbreak 검색 사용
+- 모든 장치에 패치를 적용 하 고 바이러스 백신 및 방화벽을 사용 하도록 설정 합니다.
+- Microsoft Intune에 Windows Defender ATP 통합 사용
+- Microsoft Intune Windows Information Protection 정책 만들기
+- 모든 장치에 고급 보안 구성 필요
+- 매주 차단 된 장치 보고서 검토
+
+### <a name="removing-improvement-actions-that-dont-meet-expectations-for-reliable-measurement"></a>신뢰할 수 있는 측정에 대 한 기대치를 충족 하지 않는 개선 작업 제거
+
+Microsoft 보안 점수가 의미 있고 모든 개선 조치를 측정할 수 있으며 안정성을 유지 하려면 다음과 같은 개선 작업을 제거 합니다.
+
+- 감사 데이터 기록 켜기
+- 위험한 및 비호환 섀도 IT 응용 프로그램 검색
+- 사용 권한 검토 & 환경에 연결 된 위험한 OAuth 응용 프로그램 차단
+
 ### <a name="mfa-improvement-action-updates"></a>MFA 개선 작업 업데이트
 
 비즈니스의 보안을 강화 하기 위해 기업에서 요구 하는 사항을 반영 하기 위해 Microsoft 보안 점수는 다단계 인증을 중심으로 하는 세 가지 개선 작업을 제거 하 고 두 개를 추가 하는 것입니다.
 
 제거 되는 3:
+
 - Multi-factor authentication에 대 한 모든 사용자 등록
 - 모든 사용자에 대해 MFA 요구
 - Azure AD 권한 있는 역할에 대해 MFA 필요
 
 새 향상 작업:
+
 - 모든 사용자가 보안 액세스를 위해 multi-factor authentication을 완료할 수 있는지 확인
 - 관리 역할에 대 한 MFA 필요
 

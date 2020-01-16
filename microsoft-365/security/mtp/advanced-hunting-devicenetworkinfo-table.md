@@ -1,7 +1,7 @@
 ---
 title: 고급 구하기 스키마의 DeviceNetworkInfo 테이블
 description: 고급 구하기 스키마의 DeviceNetworkInfo 테이블에 있는 네트워크 구성 정보에 대해 자세히 알아보기
-keywords: 고급 사냥, 위협 검색, 사이버 위협 요소 사냥, 쿼리, 쿼리의, 원격 분석, 스키마 참조, kusto, table, column, data type, description, machinenetworkinfo, DeviceNetworkInfo, 장치, 컴퓨터, mac, ip, 어댑터, dns, dhcp, 게이트웨이, 터널
+keywords: 고급 구하기, 위협 검색, 사이버 위협 사냥, microsoft threat protection, microsoft 365, mtp, m365, 검색, 쿼리, 원격 분석, 스키마 참조, kusto, table, description, machinenetworkinfo, DeviceNetworkInfo, device machine, mac, ip, 어댑터, dns, dhcp, 게이트웨이, 터널
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: microsoft-365-enterprise
@@ -15,12 +15,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: e0d183dd762aba7f11ee46acc81a89b453dc70cb
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 938eb02da1b37f27f15f06ad67748a9e3beca68a
+ms.sourcegitcommit: 5b8e9935fe7bfcb96b8f8356119ce23152bd16a9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40809371"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "41210420"
 ---
 # <a name="devicenetworkinfo"></a>DeviceNetworkInfo
 

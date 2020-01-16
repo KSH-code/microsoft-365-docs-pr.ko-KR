@@ -1,7 +1,7 @@
 ---
 title: 고급 구하기 스키마의 DeviceImageLoadEvents 테이블
 description: 고급 구하기 스키마의 DeviceImageLoadEvents 테이블에 있는 DLL 로드 이벤트에 대해 자세히 알아보기
-keywords: 고급 구하기, 위협 검색, 사이버 threat 사냥, search, query, 원격 분석, 스키마 참조, kusto, table, column, data type, description, imageloadevents, DeviceImageLoadEvents, DLL 로딩, 라이브러리, 파일 이미지
+keywords: 고급 구하기, 위협 검색, 사이버 위협 사냥, microsoft threat protection, microsoft 365, mtp, m365, 검색, 쿼리, 원격 분석, 스키마 참조, kusto, table, column, data type, description, imageloadevents, DeviceImageLoadEvents, DLL 로드, 라이브러리, 파일 이미지
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: microsoft-365-enterprise
@@ -15,12 +15,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: fdb69ee2e53372fdc486679831704c98202dddfe
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: d2ff86977343aac1fdb5c201e3eb786bf968e545
+ms.sourcegitcommit: 5b8e9935fe7bfcb96b8f8356119ce23152bd16a9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40809361"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "41210460"
 ---
 # <a name="deviceimageloadevents"></a>DeviceImageLoadEvents
 

@@ -1,7 +1,7 @@
 ---
 title: 고급 구하기 스키마의 DeviceEvents 테이블
 description: 고급 검색 스키마의 기타 장치 이벤트 (DeviceEvents) 테이블에 있는 바이러스 백신, 방화벽 및 기타 이벤트 유형에 대해 알아봅니다.
-keywords: 고급 구하기, 위협 요소 검색, 사이버 위협 요소 구하기, 쿼리, query, 원격 분석, 스키마 참조, kusto, table, column, 데이터 형식, 보안 이벤트, 바이러스 검사, 방화벽, 악용 가드, DeviceEvents
+keywords: 고급 구하기, 위협 검색, 사이버 위협 검색, microsoft threat protection, microsoft 365, mtp, m365, 검색, 쿼리, 원격 분석, 스키마 참조, kusto, table, column, data type, security 이벤트, antivirus, firewall, 익스플로잇 가드, DeviceEvents
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: microsoft-365-enterprise
@@ -15,12 +15,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: aec5751cf400f94abaf259aaa5fe2238b4b91311
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 26516dc4559a428880637c6cf8248d50bb802f08
+ms.sourcegitcommit: 5b8e9935fe7bfcb96b8f8356119ce23152bd16a9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40809362"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "41209933"
 ---
 # <a name="deviceevents"></a>DeviceEvents
 

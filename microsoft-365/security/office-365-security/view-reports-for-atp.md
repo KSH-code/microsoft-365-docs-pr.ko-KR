@@ -15,12 +15,12 @@ ms.assetid: e47e838c-d99e-4c0b-b9aa-e66c4fae902f
 ms.collection:
 - M365-security-compliance
 description: 보안 &amp; 및 준수 센터에서 Office 365 Advanced Threat Protection에 대 한 보고서를 찾아서 사용 합니다.
-ms.openlocfilehash: 1ddb5a549551e674fb257e4f78c81c5df1eb1a10
-ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
+ms.openlocfilehash: 74ed1387af7792d8cb41d6f890deb89be07fc9fc
+ms.sourcegitcommit: 5b8e9935fe7bfcb96b8f8356119ce23152bd16a9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41112732"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "41210510"
 ---
 # <a name="view-reports-for-office-365-advanced-threat-protection"></a>Office 365 Advanced Threat Protection에 대 한 보고서 보기
 
@@ -96,12 +96,6 @@ ATP 보고서에는 다음이 포함 됩니다.
 
 > [!NOTE]
 > 이는 *보호 추세 보고서*로, 데이터가 더 큰 데이터 집합의 추세를 나타냅니다. 실시간으로 보고 기능을 사용할 수 없습니다. 실시간 URL에 대해 데이터를 클릭 하 고 계속 해 서 URL 추적을 사용 합니다.
-
-## <a name="compromised-users-report"></a>손상 된 사용자 보고서
-
-Exchange Online Protection을 사용 하는 모든 사용자가 사용할 수 있는이 보고서에는 의심 스러운 사용자나 제한 된 사용자로 표시 되는, 특히 계정으로 인해 사용자 계정에 문제가 있을 수 있음을 나타내는 상태 중 하나를 입력 하는 것이 좋습니다. 당한. 자주 사용 하는 경우에는 손상 된 사용자 보고서가 스파이크를 볼 수 있으며, 의심 스러운 또는 제한 상태인 계정으로 증거를 제공 하면 보안 및 테 넌 트의 wellness에 문제가 있을 수 있습니다.
-
-![손상 된 사용자가 Office 365에 표시 되는 대로 보고 합니다.](../media/tp-threatProtectStatRpt-CompromisedUserRpt.png)
 
 ## <a name="atp-file-types-report"></a>ATP 파일 형식 보고서
 

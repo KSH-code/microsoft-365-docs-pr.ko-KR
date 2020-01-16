@@ -1,7 +1,7 @@
 ---
 title: 고급 구하기 스키마의 DeviceNetworkEvents 테이블
 description: 고급 구하기 스키마의 DeviceNetworkEvents 테이블에서 쿼리할 수 있는 네트워크 연결 이벤트에 대해 자세히 알아보기
-keywords: 고급 구하기, 위협 검색, 사이버 threat 사냥, search, query, 원격 분석, 스키마 참조, kusto, table, column, data type, devicenetworkevents, NetworkCommunicationEvents, 네트워크 연결, 원격 ip, 로컬 ip
+keywords: 고급 구하기, 위협 검색, 사이버 위협 사냥, microsoft threat protection, microsoft 365, mtp, m365, 검색, 쿼리, 원격 분석, 스키마 참조, kusto, table, column, data type, devicenetworkevents, NetworkCommunicationEvents, network 연결, 원격 ip, 로컬 ip
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: microsoft-365-enterprise
@@ -15,12 +15,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 82475ad15090250aa4fca70a6810cb869128102d
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 6656aae93d6a8baca0cb351a29f41350b63bbd25
+ms.sourcegitcommit: 5b8e9935fe7bfcb96b8f8356119ce23152bd16a9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40809373"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "41210430"
 ---
 # <a name="devicenetworkevents"></a>DeviceNetworkEvents
 

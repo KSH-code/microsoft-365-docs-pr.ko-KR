@@ -1,7 +1,7 @@
 ---
 title: 고급 헌팅 스키마의 EmailEvents 표
 description: 고급 헌팅 스키마의 EmailEvents 표에 나와있는 Office 365 전자 메일에 관련된 이벤트에 대해 알아보기
-keywords: 고급 현팅, 위협 헌팅, 사이버 위협 헌팅, 검색, 쿼리, 원격 분석, 스키마 참조, kusto, 표, 열, 데이터 형식, 설명, EmailEvents, 네트워크 메시지 ID, 보낸 사람, 받는 사람, 첨부 파일 id, 첨부 파일 이름, 맬웨어 판정, 피싱 판정, 첨부 파일 수, 링크 수, URL 수
+keywords: 고급 구하기, 위협 검색, 사이버 위협 사냥, microsoft threat protection, microsoft 365, mtp, m365, 검색, 쿼리, 원격 분석, 스키마 참조, kusto, table, column, data type, description, EmailEvents, network message id, sender, recipient, 첨부 파일 id, 첨부 파일 이름, 맬웨어 결과, 피싱 결과, 첨부 파일 수, 링크 수, url 개수
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: microsoft-365-enterprise
@@ -15,12 +15,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 3495414148edb5e3b6691e4545e0cf6587af7b4d
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 43d30772fa756369971bde747825028b50e9540b
+ms.sourcegitcommit: 5b8e9935fe7bfcb96b8f8356119ce23152bd16a9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40808713"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "41210363"
 ---
 # <a name="emailevents"></a>EmailEvents
 

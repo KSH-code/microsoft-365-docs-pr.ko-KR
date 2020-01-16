@@ -1,9 +1,9 @@
 ---
-title: 보안 &amp; 및 준수 센터의 전자 메일 보안 보고서 보기
+title: 보안 &amp; 및 준수 센터의 전자 메일 보안 보고서 보기, 손상 된 사용자, 암호화, 위협 방지 상태, 맬웨어 감지, 최고 맬웨어, 스팸 감지, 보낸 날짜, 받은 전자 메일, 사용자가 보고 한 메시지, 읽기 보고서, 검색, 보안 데이터, 보안 정보
 ms.author: tracyp
 author: msfttracyp
 manager: dansimp
-ms.date: 08/29/2019
+ms.date: 01/16/2020
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -15,12 +15,12 @@ ms.assetid: 3a137e28-1174-42d5-99af-f18868b43e86
 ms.collection:
 - M365-security-compliance
 description: 조직의 전자 메일 보안 보고서를 찾아서 사용 하는 방법에 대해 알아봅니다. 보안 &amp; 및 준수 센터에서 전자 메일 보안 보고서를 사용할 수 있습니다.
-ms.openlocfilehash: 70eceb8d7afa227027b71d475aa22b2151f2dea6
-ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
+ms.openlocfilehash: c44944c8f392b2df8cfe4b9e1741ba4b7ea13382
+ms.sourcegitcommit: 5b8e9935fe7bfcb96b8f8356119ce23152bd16a9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41112449"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "41209953"
 ---
 # <a name="view-email-security-reports-in-the-security-amp-compliance-center"></a>보안 &amp; 및 준수 센터의 전자 메일 보안 보고서 보기
 
@@ -29,7 +29,8 @@ ms.locfileid: "41112449"
 ![Advanced Threat Protection이 작동 하는 방식을 보는 대시보드](../media/6b213d34-adbb-44af-8549-be9a7e2db087.png)
   
 전자 메일 보안 보고서에는 다음이 포함 됩니다.
-- [암호화 보고서](#encryption-report) (신규!)
+- [손상 된 사용자 보고서 (**신규!**)](#compromised-users-report-new)
+- [암호화 보고서](#encryption-report)
 - [위협 방지 상태 보고서](#threat-protection-status-report) 
 - [맬웨어 감지 보고서](#malware-detections-report) 
 - [주요 맬웨어 보고서](#top-malware-report)
@@ -38,10 +39,17 @@ ms.locfileid: "41112449"
 - [스팸 감지 보고서](#spam-detections-report)
 - [보내고 받은 전자 메일 보고서](#sent-and-received-email-report)
 - [사용자가 보고 한 메시지 보고서](#user-reported-messages-report)
-    
+
+
+## <a name="compromised-users-report-new"></a>손상 된 사용자 보고서 (**신규!**) 
+
+Exchange Online Protection을 사용 하는 모든 사용자가 사용할 수 있는이 보고서에는 의심 스러운 사용자나 제한 된 사용자로 표시 되는, 특히 계정으로 인해 사용자 계정에 문제가 있을 수 있음을 나타내는 상태 중 하나를 입력 하는 것이 좋습니다. 당한. 자주 사용 하는 경우에는 손상 된 사용자 보고서가 스파이크를 볼 수 있으며, 의심 스러운 또는 제한 상태인 계정으로 증거를 제공 하면 보안 및 테 넌 트의 wellness에 문제가 있을 수 있습니다.
+
+![손상 된 사용자가 Office 365에 표시 되는 대로 보고 합니다.](../media/tp-threatProtectStatRpt-CompromisedUserRpt.png)
+
 ## <a name="encryption-report"></a>암호화 보고서
 
-(**새로운 방법!**) **암호화 보고서** 에는 조직의 정책 또는 최종 사용자 컨트롤을 통해 암호화 된 전자 메일 메시지에 대 한 정보가 표시 됩니다. 조직의 보안 팀은이 보고서의 정보를 사용 하 여 패턴을 식별 하 고 중요 한 전자 메일 메시지에 대 한 정책을 사전에 적용 하거나 조정할 수 있습니다.
+**암호화 보고서** 에는 조직의 정책 또는 최종 사용자 컨트롤을 통해 암호화 된 전자 메일 메시지에 대 한 정보가 표시 됩니다. 조직의 보안 팀은이 보고서의 정보를 사용 하 여 패턴을 식별 하 고 중요 한 전자 메일 메시지에 대 한 정책을 사전에 적용 하거나 조정할 수 있습니다.
 
 이 보고서를 보려면 보안 & 준수 센터에서 **보고서** \> **대시보드** \> **암호화 보고서**로 이동 합니다.
 

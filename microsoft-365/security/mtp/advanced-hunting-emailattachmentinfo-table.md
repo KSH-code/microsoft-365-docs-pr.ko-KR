@@ -1,7 +1,7 @@
 ---
 title: 고급 헌팅 스키마의 EmailAttachmentInfo 표
 description: 고급 헌팅 스키마의 EmailAttachmentInfo 표에서 전자 메일 첨부 파일 정보에 대해 알아봅니다.
-keywords: 고급 현팅, 위협 헌팅, 사이버 위협 헌팅, 검색, 쿼리, 원격 분석, 스키마 참조, kusto, 표, 열, 데이터 형식, 설명, EmailAttachmentInfo, 네트워크 메시지 id, 보낸 사람, 받는 사람, 첨부 파일 id, 첨부 파일 이름, 맬웨어 판정
+keywords: 고급 구하기, 위협 검색, 사이버 위협 검색, microsoft threat protection, microsoft 365, mtp, m365, 검색, 쿼리, 원격 분석, 스키마 참조, kusto, table, description, EmailAttachmentInfo, network message id, 발신자, 받는 사람, 첨부 파일 id, 첨부 파일 이름, 맬웨어 결과
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: microsoft-365-enterprise
@@ -15,12 +15,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 9368185fff037b8c3c2f5b70a178f2485fda3736
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 3bd4c3ed69c53a4520e0e0739801ef4a74b77059
+ms.sourcegitcommit: 5b8e9935fe7bfcb96b8f8356119ce23152bd16a9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40808723"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "41210373"
 ---
 # <a name="emailattachmentinfo"></a>EmailAttachmentInfo
 
