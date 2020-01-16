@@ -3,7 +3,7 @@ title: 확인 되지 않은 보낸 사람
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
-ms.date: 07/11/2019
+ms.date: ''
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -13,12 +13,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: 피싱 메시지가 사서함에 도착 하지 않도록 하기 위해 웹에서 Outlook.com 및 Outlook은 보낸 사람이 누구 인지를 확인 하 고 의심 스러운 메시지를 정크 메일로 표시 합니다.
-ms.openlocfilehash: 4c8b8a0711ab66607d0db5923c1115c436537bd0
-ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
+ms.openlocfilehash: 65b9d1dd3eb1a764867103710448255be96cd183
+ms.sourcegitcommit: c9332016f61b26f63c9145c9169ea5330e91a243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "39970934"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "41173514"
 ---
 # <a name="unverified-sender"></a>확인 되지 않은 보낸 사람
 
@@ -44,25 +44,25 @@ Outlook.com 및 웹용 Outlook에서 전자 메일 인증 기술을 사용 하 �
 
 ## <a name="how-to-manage-which-messages-receive-the-unverified-sender-treatment"></a>확인 되지 않은 보낸 사람 처리를 수신 하는 메시지를 관리 하는 방법 
 
-Office 365 고객 인 경우 보안 & 준수 센터를 통해이 기능을 관리할 수 있습니다. 
+Office 365 고객 인 경우 Office 365 보안 & 준수 센터를 통해이 기능을 관리할 수 있습니다.
 
-- Office 365 보안 & 준수 센터에서 전역 또는 보안 관리자는 피싱 정책 아래에 있는 스푸핑 방지 보호를 통해이 기능을 설정 하거나 해제할 수 있습니다. 또한 ' AntiPhishPolicy ' cmdlet을 통해 관리할 수 있습니다. 자세한 내용은 [Office 365 및 AntiPhishPolicy의 피싱 방지 보호](anti-phishing-protection.md) 를 참조 하세요 [](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/set-antiphishpolicy).
+- 보안 & 준수 센터에서 전역 또는 보안 관리자는 피싱 정책 아래의 스푸핑 방지를 통해이 기능을 설정 하거나 해제할 수 있습니다. 또한 Exchange Online PowerShell에서 **AntiPhishPolicy** cmdlet을 사용할 수 있습니다. 자세한 내용은 [Office 365 및 AntiPhishPolicy의 피싱 방지 보호](anti-phishing-protection.md) 를 참조 [](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/set-antiphishpolicy)하세요.
 
     ![그래픽 인터페이스에서 인증 되지 않은 보낸 사람 편집](../media/unverified-sender-article-editing-unauthenticated-senders.jpg)
 
 - 관리자가 가양성을 식별 했 고 보낸 사람이 확인 되지 않은 보낸 사람 처리를 수신 하지 않아야 하는 경우 다음 작업 중 하나를 수행 하 여 위장 인텔리전스 스푸핑 허용 목록에 보낸 사람을 추가할 수 있습니다.
 
-  - 스푸핑 인텔리전스 이해를 통해 도메인 쌍을 추가 합니다. 자세한 내용은 [연습용: 스푸핑 인텔리전스 이해](walkthrough-spoof-intelligence-insight.md)를 참조 하세요.
+  - 스푸핑 인텔리전스 이해를 통해 도메인 쌍을 추가 합니다. 자세한 내용은 [연습용: 스푸핑 인텔리전스 이해](walkthrough-spoof-intelligence-insight.md)를 참조 하십시오.
 
-  - Get-phishfilterpolicy cmdlet을 통해 도메인 쌍을 추가 합니다. 자세한 내용은 [get-phishfilterpolicy](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/set-phishfilterpolicy) 및 [set UP Office 365 ATP 안티 피싱 및 피싱 방지 정책을](set-up-anti-phishing-policies.md)참조 하세요.
+  - Exchange Online PowerShell에서 **get-phishfilterpolicy** cmdlet을 통해 도메인 쌍을 추가 합니다. 자세한 내용은 [get-phishfilterpolicy](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/set-phishfilterpolicy) 및 [set UP Office 365 ATP 안티 피싱 및 피싱 방지 정책을](set-up-anti-phishing-policies.md)참조 하십시오.
 
-또한 ETRs (전자 메일 전송 규칙), 안전한 도메인 목록 (스팸 방지 정책), 수신 허용-보낸 사람 목록 또는 사용자가 해당 사용자를 "안전한 보낸 사람"으로 설정 하 여 관리자 허용 목록을 통해 받은 편지 함으로 배달 된 경우에는 확인 되지 않은 보낸 사람 처리가 적용 되지 않습니다. 받은 편지함.
+또한 메일 흐름 규칙 (전송 규칙이 라고도 함), 안전한 도메인 목록 (스팸 방지 정책) 또는 수신 허용-보낸 사람 목록을 통해 메시지가 받은 편지 함으로 배달 된 경우에는 확인 되지 않은 보낸 사람 처리를 적용 하지 않습니다.
 
 ## <a name="frequently-asked-questions"></a>자주하는 질문
 
 ### <a name="what-criteria-does-outlookcom-and-outlook-on-the-web-use-to-add-the--and-the-via-properties"></a>Outlook.com 및 웹용 Outlook에서 '? ' 및 ' via ' 속성을 추가 하는 데 사용 하는 기준은 무엇입니까?
 
-보낸 사람 이미지의 '? ': Outlook.com가 SPF 또는 DKIM 인증을 통과 하 고 dmarc 전달을 수신 하거나, Office 365 스푸핑 인텔리전스에서 복합 인증을 통과 해야 합니다. 자세한 내용은 office 365에서 [스푸핑 방지](set-up-spf-in-office-365-to-help-prevent-spoofing.md) 및 [Dkim을 사용 하 여 사용자 지정 365 도메인에서 보낸 아웃 바운드 전자 메일의 유효성을 검사 하](use-dkim-to-validate-outbound-email.md)는 데 도움을 주는 방법에 SPF를 설정 합니다.
+보낸 사람 이미지의 '? ': Outlook.com가 SPF 또는 DKIM 인증을 통과 하 고 dmarc 전달을 수신 하거나, Office 365 스푸핑 인텔리전스에서 복합 인증을 통과 해야 합니다. 자세한 내용은 [office 365에서 스푸핑 방지](set-up-spf-in-office-365-to-help-prevent-spoofing.md) 및 [Dkim을 사용 하 여 사용자 지정 365 도메인에서 전송 되는 아웃 바운드 전자 메일의 유효성을 검사 하](use-dkim-to-validate-outbound-email.md)는 데 도움을 주는 방법에 SPF 설정를 참조 하세요.
 
 Via 태그의 경우: 보낸 사람 주소에 있는 도메인이 DKIM 서명 또는 SMTP 메일에서 보낸 도메인과 다른 경우 Outlook.com는 해당 두 필드 중 하나에 도메인을 표시 합니다 (DKIM 서명 우선).
 

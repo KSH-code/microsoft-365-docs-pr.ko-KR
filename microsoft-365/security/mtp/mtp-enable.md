@@ -17,12 +17,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 781aca371315d1ffde4ca2718d8d371e865ccb29
-ms.sourcegitcommit: af7950d9674f0eab3aee03f9afccff9ca2f4709a
+ms.openlocfilehash: b1832e2080c3178837f43cbfd45366fc4d48322d
+ms.sourcegitcommit: c9332016f61b26f63c9145c9169ea5330e91a243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40970856"
+ms.lasthandoff: 01/15/2020
+ms.locfileid: "41173824"
 ---
 # <a name="turn-on-microsoft-threat-protection"></a>Microsoft Threat Protection 사용 설정
 
@@ -41,7 +41,7 @@ Microsoft 365 E5 또는 이와 동등한 라이선스가 있는 고객은 Micros
 ## <a name="start-using-the-service"></a>서비스 사용 시작
 Microsoft Threat Protection 서비스를 사용하도록 설정하면 다양한 통합된 서비스에서 데이터를 집계합니다. 데이터는 중앙에서 처리되고 저장되어 새 정보를 식별하고 중앙 집중식 대응 워크플로를 가능하게 합니다.
 
-서비스를 사용하도록 설정하기 전에 Microsoft 365 보안 센터([security.microsoft.com](https://security.microsoft.com))는 메뉴에 **인시던트**와 **알림 센터** 옵션을 표시하지 않습니다.
+서비스를 설정 하기 전에 Microsoft 365 보안 센터 ([security.microsoft.com](https://security.microsoft.com))에 메뉴의 **인시던트** 및 **작업 센터** 옵션이 표시 되지 않습니다.
 
 ![Microsoft Threat Protection 기능을 사용하지 않는 Microsoft 365 보안 센터 메뉴의 이미지](../images/mtp-off.png)
 Microsoft Threat Protection이 꺼져 있는 Microsoft 365 보안 센터 **
@@ -71,7 +71,7 @@ Microsoft Threat Protection 사용을 중지하려면 Microsoft 365 보안 센�
 
 ## <a name="get-assistance"></a>지원 받기
 
-Microsoft 직원은 테넌트의 서비스 및 관련 리소스를 프로비저닝하거나 프로비전 해제하는 데 도움을 줄 수 있습니다. 도움이 필요한 경우 [프리미어 지원에 문의](https://go.microsoft.com/fwlink/?LinkID=733758)하세요.
+Microsoft 직원은 테넌트의 서비스 및 관련 리소스를 프로비저닝하거나 프로비전 해제하는 데 도움을 줄 수 있습니다. 도움이 필요 하면 Microsoft 365 보안 센터에서 **도움말 보기** 를 선택 합니다. 관심 사항을 설명할 때 "Microsoft Threat Protection"을 언급 합니다.
 
 ## <a name="related-topics"></a>관련 항목
 
