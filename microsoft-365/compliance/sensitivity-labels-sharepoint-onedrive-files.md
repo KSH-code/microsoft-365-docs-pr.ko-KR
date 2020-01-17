@@ -5,7 +5,7 @@ author: cabailey
 manager: laurawi
 audience: Admin
 ms.topic: article
-ms.date: 11/01/2019
+ms.date: ''
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection:
@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 관리자는 SharePoint 및 OneDrive에서 Word, Excel 및 PowerPoint 파일에 대해 민감도 레이블 지원을 사용 하도록 설정할 수 있습니다.
-ms.openlocfilehash: c62db0d77ed805c607e79bf25cb9816a554cb6d2
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 0e164afca97818d2082ddf4053df791317e29ac5
+ms.sourcegitcommit: 7705fdbcee4f8714ce044c9e120a431023f7a367
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40802831"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "41218588"
 ---
 # <a name="enable-sensitivity-labels-for-office-files-in-sharepoint-and-onedrive-public-preview"></a>SharePoint 및 OneDrive에서 Office 파일에 대한 민감도 레이블 사용(공개 미리 보기)
 
@@ -39,35 +39,37 @@ ms.locfileid: "40802831"
   - FileSensitivityLabelChanged 됨
   - FileSensitivityLabelRemoved 됨
 
-이제 Microsoft 팀, Office 365 그룹 및 SharePoint 사이트에 민감도 레이블을 적용할 수도 있습니다. [자세히 알아보기](sensitivity-labels-teams-groups-sites.md).
+이제 Microsoft 팀, Office 365 그룹 및 SharePoint 사이트에 민감도 레이블을 적용할 수도 있습니다. 이 별도의 미리 보기에 대 한 자세한 내용은 [사용 민감도 레이블 (Microsoft 팀, Office 365 그룹 및 SharePoint 사이트 (공용 미리 보기))](sensitivity-labels-teams-groups-sites.md)을 참조 하십시오.
 
-필요한 경우 언제 든 지 미리 보기를 거부할 수 있습니다.
+언제 든 지이 미리 보기를 선택할 수 있습니다.
 
 ## <a name="requirements"></a>요구 사항
 
-이러한 기능은 [민감도 레이블과](sensitivity-labels.md)함께 작동 합니다. Azure Information Protection 레이블을 사용 하는 경우 업로드 하는 새 파일에 대해 이러한 기능을 사용 하도록 설정 하 여 민감도 레이블로 변환할 수 있습니다. [방법 알아보기](https://docs.microsoft.com/azure/information-protection/configure-policy-migrate-labels)
+이러한 기능은 [민감도 레이블](sensitivity-labels.md) 에서만 작동 합니다. 현재 Azure Information Protection 레이블이 있는 경우에는 업로드 하는 새 파일에 대해 이러한 기능을 사용할 수 있도록 먼저 해당 레이블을 민감도 레이블로 마이그레이션하십시오. 자세한 내용은 [통합 민감도 레이블로 Azure Information Protection 레이블을 마이그레이션하는 방법](https://docs.microsoft.com/azure/information-protection/configure-policy-migrate-labels) 를 참조 하십시오.
 
-이 미리 보기의 경우 Windows 및 버전 19.002.0107.0008 이상에서 OneDrive 동기화 앱 버전 19.002.0121.0008 이상을 사용 하십시오 (Mac에 해당). 이러한 두 버전은 모두 2019 년 1 월 28 일에 출시 되었으며 현재 모든 링으로 출시 되었습니다. [OneDrive 릴리스 정보를 참조](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0)하세요. 이 미리 보기를 사용 하도록 설정한 후에는 이전 버전의 동기화 앱을 실행 하는 사용자에 게 업데이트 하 라는 메시지가 표시 됩니다.
+이 미리 보기의 경우 Windows 및 버전 19.002.0107.0008 이상에서 OneDrive 동기화 앱 버전 19.002.0121.0008 이상을 사용 하십시오. 두 버전 모두 2019 년 1 월 28 일에 출시 되었으며 현재 모든 링으로 출시 되었습니다. 자세한 내용은 [OneDrive 릴리스 노트](https://support.office.com/article/845dcf18-f921-435e-bf28-4e24b95e5fc0)를 참조 하세요. 이 미리 보기를 사용 하도록 설정한 후에는 이전 버전의 동기화 앱을 실행 하는 사용자에 게 업데이트 하 라는 메시지가 표시 됩니다.
 
 ## <a name="limitations"></a>제한
 
-- 이 미리 보기를 사용 하도록 설정 하면 Office 데스크톱 또는 모바일 앱을 사용 하 여 파일에 레이블을 적용 하는 사용자가 파일에 대해 변경한 다른 내용을 저장 하지 못할 수 있습니다. 대신, 앱이 사용자에 게 로컬 변경 사항을 저장 하거나 삭제 하 라는 메시지를 표시 합니다. 작업이 손실 되지 않도록 하려면 다음 작업 중 하나를 수행 합니다.
-
-  - 레이블을 적용 하려면 Office 앱의 웹 버전을 사용 합니다.
-
-  - 레이블을 적용 한 후 파일을 닫고 다른 내용을 변경 하기 위해 파일을 다시 엽니다.
+- 이 미리 보기를 사용 하도록 설정 하면 OneDrive 동기화 폴더의 파일에 대 한 레이블을 변경 하는 사용자가 파일에 변경한 다른 내용을 저장 하지 못할 수 있습니다.  사용자에 게 [흰색 횡단면 오류가 있는 빨간색 원이](https://support.office.com/article/what-do-the-onedrive-icons-mean-11143026-8000-44f8-aaa9-67c985aa49b3)표시 되 고 새 변경 내용을 별도의 복사본으로 저장할지 묻는 메시지가 나타납니다.  사용자가 시작한 레이블 변경 사항 외에도, 관리자가 사용자의 동기화 클라이언트에 다운로드 된 파일에 이미 적용 되어 있는 게시 한 레이블의 설정을 변경 하는 경우에도 같은 동작이 발생할 수 있습니다.
+    
+    이러한 시나리오에서 작업이 손실 되지 않도록 하려면 다음 작업 중 하나를 수행 합니다.
+    - 레이블을 적용 하려면 Office 앱의 웹 버전을 사용 합니다.
+    - 레이블을 적용 한 후 파일을 닫고 다른 내용을 변경 하기 위해 파일을 다시 엽니다.
 
 - SharePoint에서는 Azure Information Protection 레이블을 사용 하 여 이미 암호화 한 기존 파일에 새 레이블을 자동으로 적용 하지 않습니다. 대신이 미리 보기를 사용 하도록 설정한 후에 기능을 작동 시키려면 다음 작업을 완료 합니다.
+    
+    1. Azure Information Protection 레이블을 민감도 레이블로 마이그레이션하고 Microsoft 365 준수 센터 또는 레이블 관리 센터에서 게시 했는지 확인 합니다.
+    
+    2. 파일을 다운로드 하 여 SharePoint에 업로드 합니다.
 
-  - Azure Information Protection 레이블을 민감도 레이블로 변환 합니다.
+- 암호화를 적용 한 레이블에서 암호화에 대 한 다음 구성 중 하나를 수행 하면 SharePoint에서 암호화 된 파일을 처리할 수 없습니다.
+    - **사용자가 레이블을 적용할 때 사용 권한을 할당할 수 있도록** 하 고 **Word, PowerPoint 및 Excel에서 사용자에 게 사용 권한을 지정 하 라는 메시지를 표시** 합니다.
+    - **콘텐츠에 대 한 사용자 액세스 만료** 는 **Never**이외의 값으로 설정 됩니다.
 
-  - 파일을 다운로드 하 여 SharePoint에 업로드 합니다.
+- 사용자에 게 편집 권한을 부여 하는 암호화 된 문서에서는 Office 앱의 웹 버전에서 복사를 차단할 수 없습니다.
 
-- SharePoint에서는 사용자 지정 권한 및 레이블로 만료 날짜가 포함 된 레이블을 처리할 수 없습니다.
-
-- 사용자에 게 편집 권한이 있는 경우 Office 앱의 웹 버전에서는 레이블의 복사 정책 설정에 관계 없이 복사를 허용 합니다.
-
-- RMS 해지, 추적 및 보고 기능은 지원 되지 않습니다.
+- Azure Information Protection 문서 추적 사이트는 지원 되지 않습니다.
 
 - Office 데스크톱 앱 및 모바일 앱은 공동 작성을 지원 하지 않습니다. 대신 이러한 앱은 계속 해 서 단독 편집 모드로 파일을 엽니다.
 
@@ -85,11 +87,11 @@ ms.locfileid: "40802831"
 
 2. 또는 Microsoft 다운로드 센터에서 이전 버전의 SharePoint Online 관리 셸을 설치한 경우 **프로그램 추가/제거** 로 이동 하 여 Sharepoint Online 관리 셸을 제거할 수도 있습니다.
 
-3. 웹 브라우저에서 다운로드 센터 페이지로 이동 하 [여 최신 SharePoint Online 관리 셸을 다운로드](https://go.microsoft.com/fwlink/p/?LinkId=255251)합니다.
+3. 웹 브라우저에서 다운로드 센터 페이지로 이동한 다음 [최신 SharePoint Online 관리 셸을 다운로드](https://go.microsoft.com/fwlink/p/?LinkId=255251)합니다.
 
-4. 언어를 선택 하 고 **다운로드**를 클릭 합니다.
+4. 언어를 선택한 다음 **다운로드**를 클릭합니다.
 
-5. X64 파일과 x86 .msi 파일 중에서 선택 합니다. 64 비트 버전의 Windows 또는 x86 파일 (32 비트 버전을 실행 하는 경우)을 실행 하는 경우 x64 파일을 다운로드 합니다. 알 수 없는 경우 [실행 중인 Windows 운영 체제 버전](https://support.microsoft.com/help/13443/windows-which-operating-system) 을 확인 하세요.
+5. X64 및 x86 .msi 파일 중에서 선택합니다. 64 비트 버전의 Windows 또는 x86 파일 (32 비트 버전을 실행 하는 경우)을 실행 하는 경우 x64 파일을 다운로드 합니다. 알 수 없는 경우 [실행 중인 Windows 운영 체제 버전](https://support.microsoft.com/help/13443/windows-which-operating-system) 을 확인 하세요.
 
 
 6. 파일을 다운로드 한 후에는 파일을 실행 하 고 설치 마법사의 단계를 따릅니다.
