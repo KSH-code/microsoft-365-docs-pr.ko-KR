@@ -15,12 +15,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: d51fc812ffb82d9af1f706e513498da7611a1a6b
-ms.sourcegitcommit: 5b8e9935fe7bfcb96b8f8356119ce23152bd16a9
+ms.openlocfilehash: 4d5769088f3904bf62d2889f35f236c9410628db
+ms.sourcegitcommit: 7705fdbcee4f8714ce044c9e120a431023f7a367
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2020
-ms.locfileid: "41210470"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "41230206"
 ---
 # <a name="devicefilecertificateinfobeta"></a>DeviceFileCertificateInfoBeta
 
@@ -35,23 +35,24 @@ ms.locfileid: "41210470"
 
 | 열 이름 | 데이터 형식 | 설명 |
 |-------------|-----------|-------------|
-| `Timestamp` | datetime | 이벤트가 기록된 날짜와 시간
-| `DeviceId` | 문자열 | 서비스에서 시스템의 고유 식별자
-| `DeviceName` | 문자열 | 컴퓨터의 FQDN(정규화된 도메인 이름)
-| `SHA1` | 문자열 | 기록된 조치가 적용된 파일의 SHA-1
-| `IsSigned` | 부울 | 파일 서명 여부를 나타냅니다.
-| `SignatureType` | 문자열 | 서명 정보가 파일 자체에 포함 된 콘텐츠 인지 아니면 외부 카탈로그 파일에서 읽 었는 지를 나타냅니다.
-| `Signer` | 문자열 | 파일의 서명자에 대 한 정보
-| `SignerHash` | 문자열 | 서명자를 식별 하는 고유한 해시 값
-| `Issuer` | 문자열 | 발급 CA (인증 기관)에 대 한 정보
-| `IssuerHash` | 문자열 | 발급 CA (인증 기관)를 식별 하는 고유한 해시 값
-| `CrlDistributionPointUrls` | 문자열 |  인증서 및 CRL (인증서 해지 목록)이 포함 된 네트워크 공유의 URL입니다.
-| `CertificateCreationTime` | datetime | 인증서를 만든 날짜 및 시간입니다.
-| `CertificateExpirationTime` | datetime | 인증서가 만료 되도록 설정 된 날짜 및 시간
-| `CertificateCountersignatureTime` | datetime | 인증서가 연대 된 날짜 및 시간
-| `IsTrusted` | 부울 | 알 수 없는 루트 인증서 정보, 유효 하지 않은 서명, 해지 된 인증서 및 기타 불확실 한 특성이 있는지 확인 하는 WinVerifyTrust 함수 결과에 따라 파일을 신뢰할 수 있는지 여부를 나타냅니다.
-| `IsRootSignerMicrosoft` | 부울 | 루트 인증서의 서명자가 Microsoft 인지 여부를 나타냅니다.
-| `ReportId` | long | 반복 카운터를 기반으로 하는 이벤트 식별자입니다. 고유 이벤트를 식별 하려면이 열을 장치 이름 및 타임 스탬프 열과 함께 사용 해야 합니다.
+| `Timestamp` | datetime | 이벤트가 기록된 날짜와 시간 |
+| `DeviceId` | 문자열 | 서비스에서 시스템의 고유 식별자 |
+| `DeviceName` | 문자열 | 컴퓨터의 FQDN(정규화된 도메인 이름) |
+| `SHA1` | 문자열 | 기록된 조치가 적용된 파일의 SHA-1 |
+| `IsSigned` | 부울 | 파일 서명 여부를 나타냅니다. |
+| `SignatureType` | 문자열 | 서명 정보가 포함 되어 있는지 여부를 나타냅니다. | 파일 자체의 콘텐츠 또는 외부 카탈로그 파일에서 읽기 |
+| `Signer` | 문자열 | 파일의 서명자에 대 한 정보 |
+| `SignerHash` | 문자열 | 서명자를 식별 하는 고유한 해시 값 |
+| `Issuer` | 문자열 | 발급 CA (인증 기관)에 대 한 정보 |
+| `IssuerHash` | 문자열 | 발급 CA (인증 기관)를 식별 하는 고유한 해시 값 |
+| `CertificateSerialNumber` | 문자열 | 발급 CA (인증 기관)에 고유한 인증서의 식별자입니다. |
+| `CrlDistributionPointUrls` | 문자열 |  인증서 및 Crl (인증서 해지 목록)이 포함 된 네트워크 공유의 Url을 나열 하는 JSON 배열 |
+| `CertificateCreationTime` | datetime | 인증서를 만든 날짜 및 시간입니다. |
+| `CertificateExpirationTime` | datetime | 인증서가 만료 되도록 설정 된 날짜 및 시간 |
+| `CertificateCountersignatureTime` | datetime | 인증서가 연대 된 날짜 및 시간 |
+| `IsTrusted` | 부울 | 알 수 없는 루트 인증서 정보, 유효 하지 않은 서명, 해지 된 인증서 및 기타 불확실 한 특성이 있는지 확인 하는 WinVerifyTrust 함수 결과에 따라 파일을 신뢰할 수 있는지 여부를 나타냅니다. |
+| `IsRootSignerMicrosoft` | 부울 | 루트 인증서의 서명자가 Microsoft 인지 여부를 나타냅니다. |
+| `ReportId` | long | 반복 카운터를 기반으로 하는 이벤트 식별자입니다. 고유 이벤트를 식별 하려면이 열을 장치 이름 및 타임 스탬프 열과 함께 사용 해야 합니다. | 
 
 ## <a name="related-topics"></a>관련 항목
 - [사전 대응식 위협 탐지](advanced-hunting-overview.md)

@@ -15,12 +15,12 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: e67ff2b28a6dec741b2ad7af5179dca226fb86ad
-ms.sourcegitcommit: b65c80051e53d9be223f4769f4d42a39f5a07735
+ms.openlocfilehash: 6cd8dd42bfd1947fa8bee7a69f1febad710c808a
+ms.sourcegitcommit: 7705fdbcee4f8714ce044c9e120a431023f7a367
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39962575"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "41230216"
 ---
 # <a name="manage-tickets-through-servicenow"></a>ServiceNow를 통해 티켓 관리
 
@@ -109,15 +109,19 @@ Microsoft 365 보안 센터에 ServiceNow 티켓이 표시 되 면 작업은 다
 
 ServiceNow에서 응용 프로그램 레지스트리 (Menu > System OAuth > Application Registry)로 이동 하 여 사용자가 만든 OAuth 엔터티 (할당 한 이름)를 찾습니다.
 
-### <a name="how-to-validate-the-integration-user-created-with-the-installation-checklist-for-microsoft-365-security--compliance-connector"></a>Microsoft 365 보안 & 준수 커넥터에 대 한 설치 검사 목록을 사용 하 여 만든 통합 사용자의 유효성을 검사 하는 방법
-
-ServiceNow에서 사용자 > 관리 > 사용자로 이동 하 여 만든 통합 사용자 (할당 한 이름)를 찾습니다.
+### <a name="logging-in-as-the-integration-user"></a>통합 사용자로 로그인
 
 Microsoft 365 보안 센터와 ServiceNow 간의 연결에 권한을 부여 하기 전에 설치 단계에서 만든 통합 사용자 로그인 및 암호를 사용 해야 합니다. 개인 자격 증명은 사용 하지 마십시오.
 
-### <a name="installation-is-complete-but-dont-see-tickets-and-cant-share"></a>설치가 완료 되었지만 티켓이 표시 되지 않으며 공유할 수 없음
+1. ServiceNow의 인증 페이지로 이동 합니다.
+2. 개인 자격 증명으로 로그인 한 경우 오른쪽 위 모서리에서 링크 **하지 않음** 을 선택 합니다.
+3. 설치 검사 목록에서 이전에 만든 통합 사용자로 ServiceNow에 로그인 합니다.  
+4. ServiceNow 페이지에서 보안 + 준수 커넥터가 ServiceNow 계정에 연결할 수 있는지 여부를 묻는 **허용** 을 선택 합니다.
+5. 설정 단계를 진행 합니다.
 
-설치 및 설치 단계가 완료 되었지만 홈 페이지에 ServiceNow 카드가 표시 되지 않고 Microsoft 보안 점수에서 ServiceNow을 공유할 수 없는 경우에 https://security.microsoft.com/ticketProvisioning는의 프로 비전 페이지 상태를 확인 합니다. **저장** 을 선택 하 고 홈 페이지로 돌아갑니다. 카드를 표시 합니다.
+### <a name="how-to-validate-the-integration-user-created-with-the-installation-checklist-for-microsoft-365-security--compliance-connector"></a>Microsoft 365 보안 & 준수 커넥터에 대 한 설치 검사 목록을 사용 하 여 만든 통합 사용자의 유효성을 검사 하는 방법
+
+ServiceNow에서 사용자 > 관리 > 사용자로 이동 하 여 만든 통합 사용자 (할당 한 이름)를 찾습니다.
 
 ### <a name="your-company-has-single-sign-on-enabled-which-prevents-you-from-connecting-to-servicenow-through-the-microsoft-365-security-center"></a>회사에서 Microsoft 365 보안 센터를 통해 ServiceNow에 연결 하지 못하도록 하는 single sign-on을 사용 하도록 설정 되어 있습니다.
 
@@ -135,3 +139,7 @@ Microsoft 365 보안 센터와 ServiceNow 간의 연결에 권한을 부여 하�
 
 1. Azure Active Directory에서 보안 관리자 권한을 가진 사용자를 만듭니다. 사용자는 설치 검사 목록에서 만든 통합 사용자와 이름 및 전자 메일 주소를 모두 사용 해야 합니다. 로그인 및 연결이 완료 되 면 보안 관리자 역할을 제거할 수 있습니다.
 2. 이 사용자로 Microsoft 365 보안 센터에 로그인 하 고 설치 단계를 따릅니다.
+
+### <a name="installation-is-complete-but-dont-see-tickets-and-cant-share"></a>설치가 완료 되었지만 티켓이 표시 되지 않으며 공유할 수 없음
+
+설치 및 설치 단계가 완료 되었지만 홈 페이지에 ServiceNow 카드가 표시 되지 않고 Microsoft 보안 점수에서 ServiceNow을 공유할 수 없는 경우에 https://security.microsoft.com/ticketProvisioning는의 프로 비전 페이지 상태를 확인 합니다. **저장** 을 선택 하 고 홈 페이지로 돌아갑니다. 카드를 표시 합니다.

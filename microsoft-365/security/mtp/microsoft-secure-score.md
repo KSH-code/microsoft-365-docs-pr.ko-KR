@@ -15,12 +15,12 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: abd67d08d45a5e66b301e04a6afbd498fcd0344a
-ms.sourcegitcommit: 5b8e9935fe7bfcb96b8f8356119ce23152bd16a9
+ms.openlocfilehash: ccb529a738ebd326d1c5d5513c6e3236a9c58f8a
+ms.sourcegitcommit: 7705fdbcee4f8714ce044c9e120a431023f7a367
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2020
-ms.locfileid: "41210153"
+ms.lasthandoff: 01/17/2020
+ms.locfileid: "41230196"
 ---
 # <a name="microsoft-secure-score"></a>Microsoft 보안 점수
 
@@ -170,6 +170,7 @@ Microsoft 보안 점수가 의미 있고 모든 개선 조치를 측정할 수 �
 - 감사 데이터 기록 켜기
 - 위험한 및 비호환 섀도 IT 응용 프로그램 검색
 - 사용 권한 검토 & 환경에 연결 된 위험한 OAuth 응용 프로그램 차단
+- SharePoint online 문서 라이브러리에 대 한 버전 관리 설정
 
 ### <a name="mfa-improvement-action-updates"></a>MFA 개선 작업 업데이트
 
