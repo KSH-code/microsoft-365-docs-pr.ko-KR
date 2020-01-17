@@ -10,12 +10,12 @@ localization_priority: Normal
 ms.collection: M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
 description: Exchange Online의 원본 위치 eDiscovery 및 원본 위치 유지 및 해당 PowerShell cmdlet은 2020의 처음 절반에서 만료 됩니다. 검색 사서함 cmdlet 및 Office 365 Advanced eDiscovery v 1.0은 동일한 기간 내에도 폐기 됩니다.
-ms.openlocfilehash: cb24c40cc2018fba6d1feb13ef0d6426abd2c49a
-ms.sourcegitcommit: a3178a0fab69d20bf3fc8d3fbc17dd3d16923622
+ms.openlocfilehash: 08f568a82096efb143ff5c9fd87011a3d3029e42
+ms.sourcegitcommit: 5b8e9935fe7bfcb96b8f8356119ce23152bd16a9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/13/2020
-ms.locfileid: "41107907"
+ms.lasthandoff: 01/16/2020
+ms.locfileid: "41210063"
 ---
 # <a name="retirement-of-legacy-ediscovery-tools"></a>레거시 eDiscovery 도구 만료
 
@@ -45,7 +45,7 @@ Microsoft 365 준수 센터에서 새롭게 향상 된 eDiscovery 기능의 새�
    - [GetSearchableMailboxes](https://docs.microsoft.com/exchange/client-developer/web-service-reference/getsearchablemailboxes-operation)
 
    - [SetHoldOnMailboxes](https://docs.microsoft.com/exchange/client-developer/web-service-reference/setholdonmailboxes-operation)
-   
+
    - [GetHoldOnMailboxes](https://docs.microsoft.com/exchange/client-developer/web-service-reference/getholdonmailboxes-operation)
 
 - Office [365 Advanced ediscovery v 1.0](office-365-advanced-ediscovery.md)-Office 365 보안 & 준수 센터에서 eDiscovery 사례를 통해 액세스 하는 고급 ediscovery의 첫 번째 버전입니다.
@@ -62,7 +62,7 @@ Microsoft 365 준수 센터에서 새롭게 향상 된 eDiscovery 기능의 새�
 이러한 모든 기능 (검색 결과를 검색 사서함으로 복사 하는 것을 제외)은 이제 [microsoft 365 준수 센터](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center) 의 콘텐츠 검색, EDiscovery 및 고급 eDiscovery 도구 (microsoft 365 서비스에 대 한 향상 된 기능, 안정성 및 지원)에서 제공 되므로 가능한 한 빨리 이러한 도구를 사용 하는 것이 좋습니다. 아래 표에는 이러한 다른 eDiscovery 도구로 전환할 때 사용할 수 있는 도구와 원본 위치 eDiscovery 및 원본 위치 유지를 사용 하지 않는 도구가 나와 있습니다.
 
 ### <a name="scope-of-affected-organizations"></a>영향을 받는 조직의 범위
-    
+
 - Office 365 및 Microsoft 365 Enterprise 조직
 
 - Office 365 및 Microsoft 365 교육 기관
@@ -71,11 +71,10 @@ Microsoft 365 준수 센터에서 새롭게 향상 된 eDiscovery 기능의 새�
 
 - Office 365 Germany
 
-
 ### <a name="timeline-for-retirement"></a>만료에 대 한 시간 표시 막대
-    
+
 - 2020 년 4 월 1 일: 새 검색 및 보류를 만들 수는 없지만 기존 검색을 계속 실행 하 고 편집 하 고 삭제할 수는 없습니다. Microsoft Support는 EAC에서 더 이상 원본 위치 eDiscovery & 보존 되지 않습니다.
-    
+
 - 2020 년 7 월 1 일: EAC의 원본 위치 eDiscovery &은 읽기 전용 모드로 설정 됩니다. 즉, 기존 검색 및 보류만 제거할 수 있습니다.
 
 ### <a name="alternative-tools"></a>대체 도구
@@ -131,6 +130,11 @@ Microsoft 365 준수 센터에서 새롭게 향상 된 eDiscovery 기능의 새�
 <p>
 <p>또는 검색 결과를 PST 파일로 내보낸 다음 Microsoft 365 가져오기 서비스를 사용 하 여 Pst를 검색 사서함으로 가져올 수 있습니다. 단계별 지침은 <a href="https://docs.microsoft.com/microsoft-365/compliance/use-network-upload-to-import-pst-files">네트워크 업로드를 사용 하 여 PST 파일을 Office 365에 가져오기</a>를 참조 하세요.
 </tr>
+<tr class="even">
+<td>복구 가능한 항목 폴더에서 항목 복원</td>
+  <td><a href="https://docs.microsoft.com/powershell/module/exchange/mailboxes/Restore-RecoverableItems">복원-RecoverableItems</td>
+  <td>항목에 대해 삭제 된 항목 보존 기간이 만료 되지 않은 경우 사서함에서 영구적으로 삭제 된 항목 ( <i>일시 삭제</i> 된 항목으로도 알려짐)을 복원할 수 있습니다. 자세한 내용은 <a href="https://docs.microsoft.com/Exchange/security-and-compliance/recoverable-items-folder/recoverable-items-folder">Exchange Online의 복구 가능한 항목 폴더</a>를 참조 하세요.</td>
+</tr>
 </tbody>
 </table>
 
@@ -155,7 +159,7 @@ Exchange 관리 센터에서 2017 년 7 월 1 일에 발표 된 원래 공지와
 이제 이러한 기능을 [<span class="underline">Microsoft 365 준수 센터</span>](https://docs.microsoft.com/microsoft-365/compliance/microsoft-365-compliance-center) 및 Office 365 Security & 준수 센터 PowerShell에서 향상 된 성능 및 확장성으로 사용할 수 있기 때문에 이러한 향상 된 cmdlet을 사용 해야 합니다. 이러한 cmdlet에는 [<span class="underline"> \*-remove-compliancecase</span>](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-ediscovery/get-compliancecase), [<span class="underline"> \*-ComplianceSearch</span>](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-content-search/get-compliancesearch), [<span class="underline"> \*-new-caseholdpolicy</span>](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-ediscovery/get-caseholdpolicy), [<span class="underline"> \*-new-caseholdrule</span>](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-ediscovery/get-caseholdrule)및 [<span class="underline"> \*-new-compliancesearchaction</span>](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-content-search/get-compliancesearchaction)가 포함 됩니다.
 
 ### <a name="scope-of-affected-organizations"></a>영향을 받는 조직의 범위
-    
+
 - Office 365 및 Microsoft 365 Enterprise 조직
 
 - Office 365 및 Microsoft 365 교육 기관
@@ -165,9 +169,9 @@ Exchange 관리 센터에서 2017 년 7 월 1 일에 발표 된 원래 공지와
 - Office 365 Germany
 
 ### <a name="timeline"></a>시간 표시 막대
-    
+
 - 2020 년 4 월 1 일 **: 새 원본** 위치 eDiscovery 검색 및 원본 위치 유지를 만들 수는 없지만 cmdlet을 사용 하 여 기존 검색을 실행, 편집 및 삭제 하 고 사용자의 위험에도 영향을 받을 수 있습니다. Microsoft Support는 이러한 유형의 검색 및 보존에 대 한 지원을 더 이상 제공 하지 않습니다.
-    
+
 - 2020 년 7 월 1 일: 앞에서 설명한 것 처럼 EAC의 원본 위치 eDiscovery &은 읽기 전용 모드로 설정 됩니다. 이는 또한 **new-mailboxsearch**, **new-mailboxsearch**또는 **new-mailboxsearch** cmdlet을 사용할 수 없음을 의미 합니다. 기존 검색 및 보류만 가져오고 제거할 수 있습니다.
 
 ### <a name="alternative-tools"></a>대체 도구
@@ -239,7 +243,7 @@ Exchange Online PowerShell의 **검색 사서함** cmdlet은 처음에 2018에�
 - Office 365 Germany
 
 ### <a name="timeline"></a>시간 표시 막대
-    
+
 -  2020 년 4 월 1 일: **검색 사서함** cmdlet은 더 이상 사용할 수 없게 되며 Microsoft Support에서는 더 이상 지원을 제공 하지 않습니다.
 
 ### <a name="alternative-tools"></a>대체 도구
@@ -314,11 +318,11 @@ Microsoft 365 ( *Advanced eDiscovery v 2.0*이 라고도 함)의 새로운 고�
 - Office 365 Germany
 
 ### <a name="timeline"></a>시간 표시 막대
-    
+
 - 2020 년 4 월 1 일: 새 고급 eDiscovery v 1.0 사례를 만들 수 없습니다.
-    
-- 2020 년 7 월 1 일: Microsoft 지원은 지원 서비스를 제공 하지 않습니다. [이 알림을](https://go.microsoft.com/fwlink/?linkid=2113221)참조 하세요. 모든 경우에 새 데이터 (고급 eDiscovery에 대 한 검색 결과 준비)를 추가할 수 없습니다. 기존 사례에서 데이터 작업을 계속 수행할 수 있습니다.
+
+- 2020 년 7 월 1 일: 모든 경우에 새 데이터 (고급 eDiscovery에 대 한 검색 결과 준비)를 추가할 수 없습니다. 기존 사례에서 데이터 작업을 계속 수행할 수 있습니다. Microsoft Support에서는 더 이상 지원을 제공 하지 않습니다. 
 
 ### <a name="alternative-tools"></a>대체 도구
-    
+
 Microsoft 365 준수 센터의 [고급 eDiscovery 솔루션](https://docs.microsoft.com/microsoft-365/compliance/overview-ediscovery-20) 입니다.
