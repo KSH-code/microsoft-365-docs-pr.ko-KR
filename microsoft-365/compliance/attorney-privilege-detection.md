@@ -15,12 +15,12 @@ search.appverid:
 ms.assetid: ''
 ROBOTS: NOINDEX, NOFOLLOW
 description: 고급 eDiscovery 사례에서 콘텐츠를 검토할 때 컴퓨터 학습 기반 콘텐츠 검색을 사용 하려면 변호사-클라이언트 권한 검색 모델을 사용 합니다.
-ms.openlocfilehash: bf1b2112c47019c59f955ace21a25b099f91128f
-ms.sourcegitcommit: af7950d9674f0eab3aee03f9afccff9ca2f4709a
+ms.openlocfilehash: f4d5252a44183f5e2e38e4f4676c73d350befaf2
+ms.sourcegitcommit: 48a45b0d2c60d4d79669174f462603a43f272875
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40970866"
+ms.lasthandoff: 01/18/2020
+ms.locfileid: "41233726"
 ---
 # <a name="set-up-attorney-client-privilege-detection-in-advanced-ediscovery"></a>고급 eDiscovery에서 변호사 설정-클라이언트 권한 검색
 
@@ -36,11 +36,11 @@ EDiscovery 프로세스의 검토 단계에서 주요 및 비용이 많이 드�
 
 모델은 모든 문서에 대해 다음과 같은 세 가지 속성을 생성 합니다.
 
-- **AttorneyClientPrivilegeScore** – 문서가 합법적으로 법적 되는 확률입니다. 점수 값은 **0** 에서 **1**사이입니다.
+- **AttorneyClientPrivilegeScore:** 문서가 합법적 인 경우의 법적 가능성 점수 값은 **0** 에서 **1**사이입니다.
 
-- **Hasattorney** – 문서 참가자 중 하나가 변호사 목록에 나열 되 면이 속성은 **true** 로 설정 됩니다. 그렇지 않으면 값이 **false**입니다. 조직에서 변호사 목록을 업로드 하지 않은 경우에도이 값은 **false** 로 설정 됩니다.
+- **Hasattorney:** 문서 참가자 중 하나가 변호사 목록에 나열 되 면이 속성이 **true** 로 설정 됩니다. 그렇지 않으면 값이 **false**입니다. 조직에서 변호사 목록을 업로드 하지 않은 경우에도이 값은 **false** 로 설정 됩니다.
 
-- **IsPrivilege** - **AttorneyClientPrivilegeScore** 의 값이 임계값을 초과 *하거나* 문서에 변호사 참가자가 있는 경우이 속성은 **true** 로 설정 됩니다. 그렇지 않으면 값이 **false**로 설정 됩니다.
+- **IsPrivilege:** **AttorneyClientPrivilegeScore** 의 값이 임계값을 초과 *하거나* 문서에 변호사 참가자가 있으면이 속성은 **true** 로 설정 되 고, 그렇지 않은 경우에는 그렇지 않으면 값이 **false**로 설정 됩니다.
 
 이러한 속성 및 해당 값은 다음 스크린샷에 표시 된 것 처럼 검토 집합에 있는 문서의 파일 메타 데이터에 추가 됩니다.
 
@@ -58,11 +58,11 @@ EDiscovery 프로세스의 검토 단계에서 주요 및 비용이 많이 드�
 
 1. 보안 & 준수 센터에서 **eDiscovery > Advanced ediscovery**로 이동 합니다.
 
-2. **고급 eDiscovery** 홈 페이지의 **설정** 타일에서 **실험적 기능 구성을**선택 합니다.
+2. **고급 eDiscovery** 홈 페이지의 **설정** 타일에서 **전역 분석 설정 구성을**클릭 합니다.
 
    !["실험적 기능 구성"을 선택 합니다.](media/AeDExperimentalFeatures.png)
 
-3. **실험적 기능** 탭에서 **변호사 관리-클라이언트 권한 설정을**선택 합니다.
+3. **분석 설정** 탭에서 **변호사 관리-클라이언트 권한 설정을**선택 합니다.
 
 4. **변호사-클라이언트 권한** 플라이 아웃 페이지에서 토글을 사용 하 여 기능을 켠 다음 **저장**을 선택 합니다.
 

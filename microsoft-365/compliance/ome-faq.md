@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 ms.assetid: 0432dce9-d9b6-4e73-8a13-4a932eb0081e
 description: Office 365의 새 메시지 보호 기능이 작동 하는 방식에 대 한 질문이 있나요? 여기에서 대답을 확인 하세요.
-ms.openlocfilehash: fa8268569bfabcaa9e3cca963ad12723c8c99369
-ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
+ms.openlocfilehash: 0afb27854e6e080963d7133fb32ecbd5532ae9b2
+ms.sourcegitcommit: 48a45b0d2c60d4d79669174f462603a43f272875
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41111862"
+ms.lasthandoff: 01/18/2020
+ms.locfileid: "41233849"
 ---
 # <a name="office-365-message-encryption-faq"></a>Office 365 메시지 암호화 FAQ
 
@@ -85,7 +85,7 @@ Office 365 메시지 암호화에 대 한 새로운 기능은 기존 IRM 및 레
   
 ## <a name="my-organization-uses-active-directory-rights-management-can-i-use-this-functionality"></a>조직에서 Active Directory Rights Management를 사용 하 여이 기능을 사용할 수 있나요?
 
-아니요. AD RMS (Active Directory Rights Management services)와 함께 Exchange Online을 사용 하는 경우에는 이러한 새로운 기능을 즉시 사용 하도록 설정할 수 없습니다. 대신 [AD RMS를 Azure Information Protection로 마이그레이션](https://docs.microsoft.com/information-protection/plan-design/migrate-from-ad-rms-to-azure-rms) 해야 합니다. 
+아니요. AD RMS (Active Directory Rights Management services)와 함께 Exchange Online을 사용 하는 경우에는 이러한 새로운 기능을 즉시 사용 하도록 설정할 수 없습니다. 대신 [AD RMS를 Azure Information Protection로 마이그레이션](https://docs.microsoft.com/information-protection/plan-design/migrate-from-ad-rms-to-azure-rms) 해야 합니다.
   
 ## <a name="my-organization-has-an-exchange-hybrid-deployment-can-i-use-this-feature"></a>조직에 Exchange 하이브리드 배포를 포함 하는 경우 이 기능을 사용할 수 있나요?
 
@@ -97,7 +97,7 @@ Outlook 2016, outlook 2013, Windows 및 Mac 및 웹용 Outlook에서 보호 된 
   
 ## <a name="what-email-clients-are-supported-to-read-and-reply-to-protected-emails"></a>보호 된 전자 메일을 읽고 회신할 수 있도록 지원 되는 전자 메일 클라이언트는 무엇입니까?
 
-Office 365 사용자는 Windows 및 Mac (2013 및 2016), 웹용 Outlook 및 Outlook mobile (Android 및 iOS)에서 Outlook을 읽고 응답할 수 있습니다. 조직에서 허용 하는 경우 iOS 기본 메일 클라이언트도 사용할 수 있습니다. 365 Office가 아닌 경우에는 사용자가 웹 브라우저를 통해 웹에서 암호화 된 메시지를 읽고 회신할 수 있습니다.
+Office 365 사용자는 Windows 및 Mac 용 Outlook (2013 및 2016), 웹용 Outlook 및 Outlook mobile (Android 및 iOS)을 읽고 응답할 수 있습니다. 조직에서 허용 하는 경우 iOS 기본 메일 클라이언트도 사용할 수 있습니다. 365 Office가 아닌 경우에는 사용자가 웹 브라우저를 통해 웹에서 암호화 된 메시지를 읽고 회신할 수 있습니다.
   
 ## <a name="what-file-types-are-supported-as-attachments-in-protected-emails-do-attachments-inherit-the-protection-policies-associated-with-protected-emails"></a>보호 된 전자 메일에서 첨부 파일로 지원 되는 파일 형식은 무엇입니까? 첨부 파일에서 보호 된 전자 메일과 연결 된 보호 정책을 상속 하나요?
 

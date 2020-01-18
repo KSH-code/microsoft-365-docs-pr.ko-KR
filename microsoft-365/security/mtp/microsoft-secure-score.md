@@ -15,12 +15,12 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: ccb529a738ebd326d1c5d5513c6e3236a9c58f8a
-ms.sourcegitcommit: 7705fdbcee4f8714ce044c9e120a431023f7a367
+ms.openlocfilehash: 65497522907a4bfc8e2e3d55ccd3a82cde9b8bb7
+ms.sourcegitcommit: 48a45b0d2c60d4d79669174f462603a43f272875
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/17/2020
-ms.locfileid: "41230196"
+ms.lasthandoff: 01/18/2020
+ms.locfileid: "41233889"
 ---
 # <a name="microsoft-secure-score"></a>Microsoft 보안 점수
 
@@ -182,7 +182,7 @@ Microsoft 보안 점수가 의미 있고 모든 개선 조치를 측정할 수 �
 - 모든 사용자에 대해 MFA 요구
 - Azure AD 권한 있는 역할에 대해 MFA 필요
 
-새 향상 작업:
+새로 추가 된 개선 작업:
 
 - 모든 사용자가 보안 액세스를 위해 multi-factor authentication을 완료할 수 있는지 확인
 - 관리 역할에 대 한 MFA 필요
@@ -201,7 +201,7 @@ Microsoft 보안 점수가 의미 있고 모든 개선 조치를 측정할 수 �
 
 ### <a name="preview-features"></a>미리 보기 기능
 
-Preview 릴리스에는 다음과 같은 기능이 포함 됩니다.
+[Preview 릴리스에](microsoft-secure-score-preview.md)는 다음과 같은 기능이 포함 됩니다.
 
 * CISO 팀장 수준 토론을 위한 모든 새 메트릭 및 추세 보기
 * 점수를 추적 하 고 벤치 마크 위한 새로운 방법

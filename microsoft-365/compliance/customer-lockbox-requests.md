@@ -1,7 +1,7 @@
 ---
 title: Office 365 고객 Lockbox 요청
-ms.author: robmazz
-author: robmazz
+ms.author: krowley
+author: kccross
 manager: laurawi
 audience: Admin
 ms.topic: troubleshooting
@@ -15,17 +15,16 @@ search.appverid:
 - MET150
 - MOE150
 description: 문제가 발생 하는 경우 Microsoft 지원 엔지니어가 데이터에 액세스 하는 방법을 제어할 수 있도록 하는 고객 Lockbox 요청에 대해 알아봅니다.
-ms.openlocfilehash: a19b8f7933cfae06c462d204148f53b441126f58
-ms.sourcegitcommit: f0a4290793e296474ecd3c6eb0ca96eae7faa434
+ms.openlocfilehash: a9f7f6116d4667e294666afc71747a6fad1efb33
+ms.sourcegitcommit: 48a45b0d2c60d4d79669174f462603a43f272875
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "38687135"
+ms.lasthandoff: 01/18/2020
+ms.locfileid: "41233769"
 ---
 # <a name="customer-lockbox-in-office-365"></a>Office 365의 고객 Lockbox
 
-> [!NOTE]
-> 이 문서에서는 Microsoft 365 E5, Office 365 E5, 정보 보호 및 준수, 고급 준수 추가 기능 구독이 있는 조직에만 현재 사용할 수 있는 기능에 대 한 배포 및 구성 지침을 제공 합니다.
+이 문서에서는 Microsoft 365 E5, Office 365 E5, 정보 보호 및 준수, 고급 준수 추가 기능 구독이 있는 조직에만 현재 사용할 수 있는 기능에 대 한 배포 및 구성 지침을 제공 합니다. 고객 Lockbox는 Exchange Online, SharePoint Online 및 비즈니스용 OneDrive의 데이터에 액세스 하기 위한 요청을 지원 합니다. 다른 Office 365 서비스에 대 한 지원을 권장 하려면 [office 365 UserVoice](https://office365.uservoice.com/)에서 요청을 제출 하십시오.
 
 고객 Lockbox는 명시적인 승인 없이 서비스 작업을 수행 하기 위해 Microsoft가 콘텐츠에 액세스할 수 없도록 합니다. 고객 Lockbox는 콘텐츠에 액세스 하기 위한 요청에 대 한 승인 워크플로를 사용자에 게 제공 합니다.
 
@@ -35,65 +34,55 @@ ms.locfileid: "38687135"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/8fecf10b-1f03-4849-8b67-76d3d2a43f26?autoplay=false]
 
-> [!NOTE]
-> 고객 Lockbox는 Exchange Online, SharePoint Online 및 비즈니스용 OneDrive의 데이터에 액세스 하기 위한 요청을 지원 합니다. 다른 Office 365 서비스에 대 한 지원을 권장 하려면 [office 365 UserVoice](https://office365.uservoice.com/)에서 요청을 제출 하십시오.
-
 ## <a name="customer-lockbox-workflow"></a>고객 Lockbox 워크플로
 
-다음 단계에서는 Microsoft 엔지니어가 고객 Lockbox 요청을 시작할 때의 일반적인 워크플로를 대략적으로 설명 합니다.
+다음 단계에서는 Microsoft 엔지니어가 고객 Lockbox 요청을 시작할 때의 일반적인 워크플로를 간략하게 설명 합니다.
 
-1. 조직의 누군가가 Office 365 사서함에 문제가 있습니다.
+1. 조직의 누군가가 Office 365 사서함과 관련 된 문제를 경험 합니다.
 
 2. 사용자가 문제를 해결 했지만 수정할 수 없는 경우 Microsoft 지원 서비스를 통해 지원 요청을 엽니다.
 
-3. 지원 엔지니어가 서비스 요청을 검토 하 고 문제를 해결 하기 위해 고객의 Exchange Online 콘텐츠에 액세스 해야 하는 필요성을 확인 합니다.
+3. Microsoft 지원 엔지니어가 서비스 요청을 검토 하 고 Exchange Online에서 문제를 해결 하기 위해 조직의 테 넌 트에 액세스 해야 하는지 확인 합니다.
 
-4. 지원 엔지니어가 고객 Lockbox 요청 도구에 로그인 하 고 고객의 테 넌 트 이름, 서비스 요청 번호 및 데이터에 대 한 액세스를 요구 하는 예상 기간을 지정 하 여 데이터 액세스 요청을 수행 합니다.
+4. Microsoft 지원 엔지니어가 고객 Lockbox 요청 도구에 로그인 하 고 조직의 테 넌 트 이름, 서비스 요청 번호 및 엔지니어가 데이터에 액세스 하는 데 필요한 예상 시간을 포함 하는 데이터 액세스 요청을 수행 합니다.
 
-5. Microsoft 지원 관리자가 요청을 승인 하면 고객 Lockbox는 고객의 조직에 지정 된 승인자를 Microsoft의 보류 중인 액세스 요청에 대 한 전자 메일 알림으로 보냅니다.
+5. Microsoft 지원 관리자가 요청을 승인 하면 고객 Lockbox가 조직의 지정 된 승인자에 게 Microsoft의 보류 중인 액세스 요청에 대 한 전자 메일 알림을 보냅니다.
 
     ![고객 Lockbox 전자 메일 알림의 예](media/CustomerLockbox1.png)
 
-   > [!NOTE]
-   > Microsoft 365 관리 센터에서 [고객 lockbox 액세스 승인자](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) 관리자 역할이 할당 된 모든 사용자는 고객 lockbox 요청을 승인할 수 있습니다.
+   Microsoft 365 관리 센터에서 [고객 lockbox 액세스 승인자](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) 관리자 역할이 할당 된 모든 사용자는 고객 lockbox 요청을 승인할 수 있습니다.
 
-7. 승인자가 Microsoft 365 관리 센터에 로그인 하 고 요청을 승인 합니다. 이 단계에서는 Office 365 감사 로그를 검색 하 여 사용할 수 있는 감사 레코드 만들기를 트리거합니다. 자세한 내용은 [사용자 Lockbox 요청 감사](#auditing-customer-lockbox-requests) 섹션을 참조 하십시오.
+6. 승인자가 Microsoft 365 관리 센터에 로그인 하 고 요청을 승인 합니다. 이 단계에서는 Office 365 감사 로그를 검색 하 여 사용할 수 있는 감사 레코드 만들기를 트리거합니다. 자세한 내용은 [고객 Lockbox 요청 감사](#auditing-customer-lockbox-requests)를 참조 하세요.
 
-   고객이 요청을 거부 하거나 요청이 12 시간 이내에 승인 되지 않으면 요청이 만료 되 고 Microsoft 엔지니어에 게 액세스 권한이 부여 되지 않습니다.
+   고객이 요청을 거부 하거나 12 시간 내에 요청을 승인 하지 않으면 요청이 만료 되 고 Microsoft 엔지니어에 게 액세스 권한이 부여 되지 않습니다.
 
    > [!IMPORTANT]
    > Microsoft는 Office 365에 로그인 해야 하는 고객 Lockbox 전자 메일 알림의 링크를 포함 하지 않습니다.
 
-8. 고객이 요청을 승인 하면 Microsoft 엔지니어가 승인 메시지를 받고 Exchange Online에 로그인 하 여 고객의 문제를 해결 합니다. Microsoft 엔지니어가 문제를 해결 하기 위해 요청 된 기간이 지나면 액세스 권한이 자동으로 해지 됩니다.
+7. 조직의 승인자가 요청을 승인한 후에는 Microsoft 엔지니어가 승인 메시지를 수신 하 여 Exchange Online의 테 넌 트에 로그인 하 고 고객의 문제를 해결 합니다. Microsoft 엔지니어가 문제를 해결 하기 위해 요청 된 기간이 지나면 액세스 권한이 자동으로 해지 됩니다.
 
 > [!NOTE]
-> Microsoft 엔지니어가 수행한 모든 작업이 Office 365 감사 로그에 기록 됩니다. 이러한 감사 레코드를 검색 하 고 검토할 수 있으며 검색 및 검토할 수 있습니다.
+> Microsoft 엔지니어가 수행한 모든 작업이 Office 365 감사 로그에 기록 됩니다. 이러한 감사 레코드를 검색 하 고 검토할 수 있습니다.
 
 ## <a name="turn-customer-lockbox-requests-on-or-off"></a>고객 Lockbox 요청 설정 또는 해제
 
-Office 365 관리자는 Microsoft 365 관리 센터에서 고객 Lockbox 컨트롤을 켤 수 있습니다. 고객 Lockbox가 설정 되어 있으면 Microsoft는 해당 콘텐츠를 액세스 하기 전에 조직의 승인을 받아야 합니다.
+Microsoft 365 관리 센터에서 고객 Lockbox 컨트롤을 사용 하도록 설정할 수 있습니다. 고객 Lockbox를 켜면 Microsoft에서 테 넌 트의 콘텐츠를 액세스 하기 전에 조직의 승인을 받아야 합니다.
 
-> [!NOTE]
-> 다음 절차를 수행 하려면 Microsoft 365 또는 Office 365 조 직의 전역 관리자 이거나, **고객 Lockbox 액세스 승인자** 관리자 역할을 할당 받아야 합니다.
+1. 전역 관리자 또는 **사용자 Lockbox 액세스 승인자** 역할이 할당 된 회사 또는 학교 계정을 사용 하 여로 이동 [https://admin.microsoft.com](https://admin.microsoft.com) 하 여 로그인 합니다.
 
-1. [https://admin.microsoft.com](https://admin.microsoft.com) 으로 이동 하 여 회사 또는 학교 계정으로 로그인 합니다.
-
-2. **설정 > 보안 & 개인 정보**를 클릭 합니다.
+2. **설정 > 보안 & 개인 정보**를 선택 합니다.
 
     ![관리 센터에서 고객 Lockbox 설정 편집](media/CustomerLockbox2.png)
 
-3. **고객 Lockbox** 타일에서 **편집**을 클릭 한 다음 토글을 설정 또는 **해제** 로 **이동** 하 여 해당 기능을 설정 하거나 해제 합니다.
+3. **고객 Lockbox** 타일에서 **편집**을 선택 하 고 토글을 설정 또는 **해제** 로 **이동** 하 여 해당 기능을 설정 하거나 해제 합니다.
 
     ![Require approval for Customer Lockbox](media/CustomerLockbox4.png)
 
 ## <a name="approve-or-deny-a-customer-lockbox-request"></a>고객 Lockbox 요청 승인 또는 거부
 
-> [!NOTE]
-> 다음 절차를 수행 하려면 Microsoft 365 또는 Office 365 조 직의 전역 관리자 이거나, **고객 Lockbox 액세스 승인자** 관리자 역할을 할당 받아야 합니다.
+1. 전역 관리자 또는 **사용자 Lockbox 액세스 승인자** 역할이 할당 된 회사 또는 학교 계정을 사용 하 여로 이동 [https://admin.microsoft.com](https://admin.microsoft.com) 하 여 로그인 합니다.
 
-1. [https://admin.microsoft.com](https://admin.microsoft.com) 으로 이동 하 여 회사 또는 학교 계정으로 로그인 합니다.
-
-2. **고객 Lockbox 요청 > 지원을**클릭 합니다.
+2. **고객 Lockbox 요청 > 지원을**선택 합니다.
 
     ![지원을 클릭 하 고 고객 Lockbox 요청을 클릭 합니다.](media/CustomerLockbox5.png)
 
@@ -101,7 +90,7 @@ Office 365 관리자는 Microsoft 365 관리 센터에서 고객 Lockbox 컨트�
 
     ![고객 Lockbox 요청 목록](media/CustomerLockbox6.png)
 
-3. 고객 Lockbox 요청을 선택한 다음 **승인** 또는 **거부**를 클릭 합니다.
+3. 고객 Lockbox 요청을 선택한 다음 **승인** 또는 **거부**를 선택 합니다.
 
     ![고객 Lockbox 요청 승인 또는 거부](media/CustomerLockbox7.png)
 
@@ -109,38 +98,35 @@ Office 365 관리자는 Microsoft 365 관리 센터에서 고객 Lockbox 컨트�
 
     ![고객 Lockbox 요청 승인 또는 거부](media/CustomerLockbox8.png)
 
-## <a name="auditing-customer-lockbox-requests"></a>고객 Lockbox 요청 감사 
+## <a name="auditing-customer-lockbox-requests"></a>고객 Lockbox 요청 감사
 
-고객 Lockbox 요청에 해당 하는 감사 기록은 Office 365 감사 로그에 기록 되며, Office 365 Security & 준수 센터에서 [감사 로그 검색 도구](https://docs.microsoft.com/office365/securitycompliance/search-the-audit-log-in-security-and-compliance) 를 사용 하 여 액세스할 수 있습니다. 고객 Lockbox 요청을 수락 하거나 거부 하는 사용자와 관련 된 작업 및 Microsoft 엔지니어가 수행한 작업 (액세스 요청이 승인 된 경우)이 Office 365 감사 로그에 기록 됩니다. 이러한 감사 레코드를 검색 하 고 검토할 수 있습니다.
-
-> [!NOTE]
-> Office 365 감사 로그를 검색 하려면 Exchange Online에서 보기 전용 감사 로그 또는 감사 로그 역할을 할당 받아야 합니다. 자세한 내용은 [Office 365 보안 & 준수 센터에서 감사 로그 검색](https://docs.microsoft.com/office365/securitycompliance/search-the-audit-log-in-security-and-compliance#before-you-begin)을 참조 하세요.
+고객 Lockbox 요청에 해당 하는 감사 레코드가 Office 365 감사 로그에 기록 됩니다. Office 365 보안 & 준수 센터에서 [감사 로그 검색 도구](search-the-audit-log-in-security-and-compliance.md) 를 사용 하 여 이러한 로그에 액세스할 수 있습니다. 고객 Lockbox 요청 수락 또는 거부와 관련 된 작업 및 Microsoft 엔지니어가 수행한 작업 (액세스 요청이 승인 된 경우)이 Office 365 감사 로그에도 기록 됩니다. 이러한 감사 레코드를 검색 하 고 검토할 수 있습니다.
 
 ### <a name="search-the-audit-log-for-activity-related-to-customer-lockbox-requests"></a>고객 Lockbox 요청과 관련 된 작업에 대 한 감사 로그 검색
 
-다음은 고객 Lockbox와 관련 된 감사 레코드를 반환 하는 감사 로그 검색 쿼리를 만드는 방법입니다.
+감사 로그를 사용 하 여 고객 Lockbox에 대 한 요청을 추적할 수 있으므로 감사 로깅을 설정 하기 위해 몇 가지 단계를 수행 해야 합니다. 자세한 내용은 [Office 365 보안 & 준수 센터에서 감사 로그 검색](https://docs.microsoft.com/office365/securitycompliance/search-the-audit-log-in-security-and-compliance#before-you-begin)을 참조 하세요. 설치를 완료 한 후 다음 단계를 사용 하 여 고객 Lockbox와 관련 된 감사 레코드를 반환 하는 감사 로그 검색 쿼리를 만듭니다.
 
 1. [https://protection.office.com](https://protection.office.com)으로 이동합니다.
   
 2. 회사 또는 학교 계정을 사용하여 Office 365에 로그인합니다.
 
-3. 보안 & 준수 센터의 왼쪽 창에서 **검색 & 조사** > **감사 로그 검색**을 클릭 합니다.
+3. 보안 & 준수 센터의 왼쪽 창에서 **검색 & 조사** > **감사 로그 검색**을 선택 합니다.
 
     **감사 로그 검색** 페이지가 표시 됩니다.
 
     ![감사 로그 검색 페이지](media/auditlogsearch1.png)
   
-4. 다음 검색 조건을 구성 합니다.
+4. 다음과 같은 검색 조건을 구성합니다. 
 
     a. **활동** -검색에서 모든 활동에 대 한 감사 레코드를 반환 하도록이 필드를 비워 둡니다. 이는 고객 Lockbox 요청과 관련 된 감사 레코드와 Microsoft 엔지니어가 수행한 해당 작업을 반환 하는 데 필요 합니다.
 
     b. **시작 날짜** 및 **종료 날짜** -해당 기간 내에 발생 한 이벤트를 표시 하려면 날짜 및 시간 범위를 선택 합니다.
 
-    &. **사용자** -이 필드를 비워 둡니다.
+    c. **사용자** -이 필드를 비워 둡니다.
 
-    &. **파일, 폴더 또는 사이트** -이 필드를 비워 둡니다.
+    d. **파일, 폴더 또는 사이트** -이 필드를 비워 둡니다.
 
-5. 검색 **을 클릭 하** 여 검색 조건을 사용 하 여 검색을 실행 합니다. 
+5. **검색**을 클릭하여 검색 조건을 사용한 검색을 실행합니다. 
 
     검색 결과가 로드 되 고 몇 분 후에 **감사 로그 검색** 페이지의 **결과** 아래에 표시 됩니다.
 
@@ -148,7 +134,7 @@ Office 365 관리자는 Microsoft 365 관리 센터에서 고객 Lockbox 컨트�
 
    - 조직의 승인자와 관련 된 감사 레코드를 표시 하려면 다음을 수행 합니다. **활동** 열 아래의 상자에 **AccessToCustomerDataRequest**을 입력 합니다.
 
-   - 승인 된 고객 Lockbox 요청에 대 한 응답으로 Microsoft 엔지니어의 작업을 수행 하는 데 관련 된 감사 레코드를 표시 하려면 **사용자** 열 아래의 상자에 **microsoft Operator**를 입력 합니다. 엔지니어가 작업을 수행 하는 작업이 int에 **활동** 열로 표시 됩니다.
+   - 승인 된 고객 Lockbox 요청에 대 한 응답으로 Microsoft 엔지니어의 작업을 수행 하는 데 관련 된 감사 레코드를 표시 하려면 **사용자** 열 아래의 상자에 **microsoft Operator**를 입력 합니다. **활동** 열에는 엔지니어가 수행한 작업이 표시 됩니다.
 
       ![감사 레코드를 표시 하는 "Microsoft 운영자"에 대 한 필터링](media/CustomerLockbox10.png)
 
@@ -156,7 +142,7 @@ Office 365 관리자는 Microsoft 365 관리 센터에서 고객 Lockbox 컨트�
 
 ### <a name="audit-record-for-a-customer-lockbox-access-request"></a>고객 Lockbox 액세스 요청에 대 한 감사 레코드
 
-조직의 사용자가 고객 Lockbox 요청을 승인 하거나 거부 하면 감사 레코드가 Office 365 감사 로그에 기록 됩니다. 이 레코드에는 다음 정보가 포함 됩니다. 
+조직의 사용자가 고객 Lockbox 요청을 승인 하거나 거부 하면 감사 레코드가 Office 365 감사 로그에 기록 됩니다. 이 레코드에는 다음 정보가 포함 됩니다.
 
 | Audit record 속성| 설명|
 |:---------- |:----------|
@@ -175,7 +161,7 @@ Office 365 관리자는 Microsoft 365 관리 센터에서 고객 Lockbox 컨트�
 
 ### <a name="audit-record-for-an-action-performed-by-a-microsoft-engineer"></a>Microsoft 엔지니어가 수행한 작업에 대 한 감사 레코드
 
-앞에서 설명한 것 처럼 고객 Lockbox 요청이 승인 되 고 고객 콘텐츠에 액세스할 수 있는 Microsoft 엔지니어가 수행한 작업이 감사 로그에 기록 됩니다. 이러한 레코드에는 다음과 같은 정보가 포함 됩니다.
+고객 Lockbox 요청이 승인 되 고 고객 콘텐츠에 액세스할 수 있도록 하는 Microsoft 엔지니어가 수행한 작업이 감사 로그에 기록 됩니다. 이러한 레코드에는 다음과 같은 정보가 포함 됩니다.
 
 | Audit record 속성| 설명|
 |:---------- |:----------|
@@ -184,7 +170,6 @@ Office 365 관리자는 Microsoft 365 관리 센터에서 고객 Lockbox 컨트�
 | 사용자       | Microsoft Operator; 이 값은이 레코드가 고객 Lockbox 요청과 관련 되어 있음을 나타냅니다.                                  |
 | 활동   | Microsoft 엔지니어가 수행한 활동의 이름입니다.|
 | 항목       | \<비운\>                                             |
-
 
 ## <a name="frequently-asked-questions"></a>자주하는 질문
 

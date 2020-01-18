@@ -65,6 +65,8 @@
     - name: 민감도 레이블
       href: sensitivity-labels.md
       items:
+        - name: 민감도 레이블 만들기 및 게시
+          href: create-sensitivity-labels.md
         - name: 민감도 레이블에서 암호화를 사용하여 콘텐츠 액세스 제한
           href: encryption-sensitivity-labels.md
         - name: 민감도 레이블을 콘텐츠에 자동으로 적용

@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 479aa8888a3a8e67c51cb7edf14747c840295a4f
-ms.sourcegitcommit: 6ae69c40bafa6aef633789c3df0fa20590bdcf40
+ms.openlocfilehash: d8de760fb4690af6675b67678b2441773993a8e5
+ms.sourcegitcommit: 48a45b0d2c60d4d79669174f462603a43f272875
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "40823720"
+ms.lasthandoff: 01/18/2020
+ms.locfileid: "41233919"
 ---
 # <a name="device-configuration"></a>장치 구성
 
@@ -37,7 +37,8 @@ ms.locfileid: "40823720"
 Microsoft Managed Desktop 권장 보안 서식 파일 | 보안 기준이 사용자 환경을 최적화 하는 권장 변경 사항 집합입니다.  이러한 변경 내용은 [보안 추 록](#security-addendum)에 설명 되어 있습니다. 추 록 정책에 대 한 업데이트는 필요한 기준에 따라 발생 합니다.  
 업데이트 배포 | 비즈니스용 Windows 업데이트를 사용 하 여 소프트웨어 업데이트의 점진적 배포를 수행 합니다. IT 관리자는 배포 그룹 정책에 대 한 설정을 수정할 수 없습니다. 그룹 기반 배포에 대 한 자세한 내용은 [Microsoft Managed Desktop에서 업데이트를 처리 하는 방법을](updates.md)참조 하세요.
 진단 데이터 | 알려진 상업용 식별자에 따라 Microsoft에 향상 된 진단 데이터를 제공 하도록 장치가 설정 됩니다. Microsoft Managed Desktop의 일부로 IT 관리자는 이러한 설정을 변경할 수 없습니다. GDPR (일반 데이터 보호 규정) 영역에 있는 고객의 경우 최종 사용자는 제공 되는 진단 데이터의 수준을 줄일 수 있지만 서비스 감소가 감소 합니다. 예를 들어 Microsoft Managed Desktop은 성능 및 보안 요구 사항에 맞게 설정 및 정책을 반복 하는 데 필요한 데이터를 수집할 수 없습니다. 자세한 내용은 [조직에서 Windows 진단 데이터 구성](https://docs.microsoft.com/windows/privacy/configure-windows-diagnostic-data-in-your-organization#enhanced-level) 를 참조 하세요.
-데이터 통신 연결 | 기본적으로 LTE 네트워크와 같은 유료 연결을 통한 업데이트는 사용 되지 않지만 각 사용자는 **고급 옵션 > 업데이트 > 설정**에 독립적으로이 기능을 켤 수 있습니다. 모든 사용자가 데이터 통신 연결을 통해 업데이트를 사용 하도록 허용 하려면 모든 장치에 대해이 설정을 사용 하는 [변경 요청을 제출](https://docs.microsoft.com/microsoft-365/managed-desktop/working-with-managed-desktop/admin-support)합니다.
+데이터 통신 연결 | 기본적으로 LTE 네트워크와 같은 유료 연결을 통한 업데이트는 사용 되지 않지만 각 사용자는 **고급 옵션 > 업데이트 > 설정**에 독립적으로이 기능을 켤 수 있습니다. 모든 사용자가 데이터 통신 연결을 통해 업데이트를 사용 하도록 허용 하려면 모든 장치에 대해이 설정을 사용 하는 [변경 요청을 제출](../working-with-managed-desktop/admin-support.md)합니다.
+| 장치 준수 | 이러한 정책은 모든 Microsoft 관리 데스크톱 장치에 대해 구성 됩니다. 장치가 필요한 보안 구성에서 drifts 때 비 준수로 보고 됩니다.
 
  ## <a name="security-addendum"></a>보안 추 록
 

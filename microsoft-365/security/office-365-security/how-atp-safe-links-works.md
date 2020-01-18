@@ -12,12 +12,12 @@ ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: 안전한 링크 기능은 Office 문서 및 전자 메일 메시지에서 하이퍼링크를 클릭 하 여 확인할 시간을 제공 합니다. 이 문서를 읽으면 ATP 안전한 링크가 작동 하는 방식을 확인할 수 있습니다.
-ms.openlocfilehash: 56b9ce71ed0f695e2f9ee7d833ecbc980a94edd8
-ms.sourcegitcommit: 7705fdbcee4f8714ce044c9e120a431023f7a367
+ms.openlocfilehash: f8fcf6417dfb82a123307358f0fcd3e3cc8427e0
+ms.sourcegitcommit: 48a45b0d2c60d4d79669174f462603a43f272875
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/17/2020
-ms.locfileid: "41230186"
+ms.lasthandoff: 01/18/2020
+ms.locfileid: "41233909"
 ---
 # <a name="how-office-365-atp-safe-links-works"></a>Office 365 ATP 안전한 링크가 작동 하는 방식
          
@@ -54,8 +54,6 @@ ms.locfileid: "41230186"
 2. 사용자가 Word, Excel, PowerPoint, OneNote (브라우저) 또는 Visio (데스크톱)를 열고 회사 또는 학교 계정을 사용 하 여 Office 365 Enterprise에 로그인 합니다. 문서에 Url이 포함 되어 있습니다.
     
 3. 사용자가 문서에서 URL을 클릭 하면 해당 링크는 ATP Safe Links service에 의해 확인 됩니다.
-    
-   - 사용자에 게 적용 되는 정책에 대 한 사용자 [지정 "다시 쓰지 않음" url 목록](set-up-a-custom-do-not-rewrite-urls-list-with-atp.md) 에 포함 된 웹 사이트에 대 한 url 인 경우 해당 사용자는 웹 사이트로 이동 됩니다. 
     
    - 조직의 [사용자 지정 차단 된 url 목록](set-up-a-custom-blocked-urls-list-wtih-atp.md)에 포함 된 웹 사이트에 대 한 URL 인 경우 사용자는 [경고 페이지로](atp-safe-links-warning-pages.md)이동 됩니다.
     

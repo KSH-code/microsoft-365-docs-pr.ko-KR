@@ -15,12 +15,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 4d5769088f3904bf62d2889f35f236c9410628db
-ms.sourcegitcommit: 7705fdbcee4f8714ce044c9e120a431023f7a367
+ms.openlocfilehash: ea20e7354838bade17ebb83522b543c8aec3d33e
+ms.sourcegitcommit: 48a45b0d2c60d4d79669174f462603a43f272875
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/17/2020
-ms.locfileid: "41230206"
+ms.lasthandoff: 01/18/2020
+ms.locfileid: "41233929"
 ---
 # <a name="devicefilecertificateinfobeta"></a>DeviceFileCertificateInfoBeta
 
@@ -40,7 +40,7 @@ ms.locfileid: "41230206"
 | `DeviceName` | 문자열 | 컴퓨터의 FQDN(정규화된 도메인 이름) |
 | `SHA1` | 문자열 | 기록된 조치가 적용된 파일의 SHA-1 |
 | `IsSigned` | 부울 | 파일 서명 여부를 나타냅니다. |
-| `SignatureType` | 문자열 | 서명 정보가 포함 되어 있는지 여부를 나타냅니다. | 파일 자체의 콘텐츠 또는 외부 카탈로그 파일에서 읽기 |
+| `SignatureType` | 문자열 | 서명 정보가 파일 자체에 포함 된 콘텐츠 인지 아니면 외부 카탈로그 파일에서 읽 었는 지를 나타냅니다. |
 | `Signer` | 문자열 | 파일의 서명자에 대 한 정보 |
 | `SignerHash` | 문자열 | 서명자를 식별 하는 고유한 해시 값 |
 | `Issuer` | 문자열 | 발급 CA (인증 기관)에 대 한 정보 |
