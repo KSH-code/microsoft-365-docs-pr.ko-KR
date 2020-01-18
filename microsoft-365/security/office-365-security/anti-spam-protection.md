@@ -15,12 +15,12 @@ ms.assetid: 6a601501-a6a8-4559-b2e7-56b59c96a586
 ms.collection:
 - M365-security-compliance
 description: Exchange Online 및 Office 365에서 스팸을 방지 하는 데 도움이 되는 스팸 방지 설정 및 필터에 대해 알아봅니다. Office 365에서 너무 많은 스팸 받기 스팸 필터 및 스팸 방지 정책 설정을 사용자 지정할 수 있습니다.
-ms.openlocfilehash: 16f58efbf326f1450689a8e13624be520f7a4902
-ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
+ms.openlocfilehash: 33a1415306dcfc635e6c5608f3834b79932d9420
+ms.sourcegitcommit: a122fd1fce523171529c7f610bb7faf09d30a8bb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "39970904"
+ms.lasthandoff: 01/18/2020
+ms.locfileid: "41238535"
 ---
 # <a name="office-365-email-anti-spam-protection"></a>Office 365 전자 메일 스팸 방지 보호
 
@@ -34,7 +34,7 @@ Office 365에서 너무 많은 스팸을 걱정 하나요? Microsoft는 Office 3
 
 Office 365 Enterprise e 5가 있고, Advanced Threat Protection (ATP) 라이선스를 구매한 고객의 경우에는 스푸핑 인텔리전스에서 연결 필터링을 사용 하 여 도메인을 위장 하는 보낸 사람 목록을 만들고 차단 합니다. 자세한 내용은 [스푸핑 인텔리전스에 대 한 자세한 내용을](learn-about-spoof-intelligence.md)참조 하세요.
 
- **스팸 필터링**: Office 365에서 스팸 필터링을 사용 하 여 메시지 특성이 스팸으로 일치 하는지 확인 합니다. 스팸으로 식별된 메시지에 대해 수행할 작업을 변경할 수 있으며, 특정 언어로 작성되었거나 특정 국가 또는 지역에서 보낸 메시지를 필터링할지 여부를 선택할 수 있습니다. 적극적인 스팸 필터링 방식을 원하는 경우에는 고급 스팸 필터링 옵션을 설정할 수도 있습니다. 또한 메시지가 격리되면 해당 메시지의 대상이었던 받는 사람에게 알림을 표시하도록 최종 사용자 스팸 알림을 구성할 수도 있습니다. (격리로 메시지를 보내는 것은 구성 가능한 작업 중 하나입니다.) 이러한 알림에서 최종 사용자는 가양성을 릴리스하고 분석을 위해 Microsoft에 보고할 수 있습니다. 자세한 내용은 [스팸 필터 정책 구성을](configure-your-spam-filter-policies.md)참조 하세요. Office 365에서 스팸을 방지 하려면 스팸 필터링을 사용 하 고, Office 365에서 스팸을 너무 많이 걱정 되는 경우에는 연결 필터링을 사용 하 여 스팸을 방지 합니다.
+ **스팸 필터링**: Office 365에서 스팸 필터링을 사용 하 여 메시지 특성이 스팸으로 일치 하는지 확인 합니다. 스팸으로 식별된 메시지에 대해 수행할 작업을 변경할 수 있으며, 특정 언어로 작성되었거나 특정 국가 또는 지역에서 보낸 메시지를 필터링할지 여부를 선택할 수 있습니다. 적극적인 스팸 필터링 방식을 원하는 경우에는 고급 스팸 필터링 옵션을 설정할 수도 있습니다. 또한 메시지가 격리되면 해당 메시지의 대상이었던 받는 사람에게 알림을 표시하도록 최종 사용자 스팸 알림을 구성할 수도 있습니다. (격리로 메시지를 보내는 것은 구성 가능한 작업 중 하나입니다.) 이러한 알림에서 최종 사용자는 가양성을 릴리스하고 분석을 위해 Microsoft에 보고할 수 있습니다. 자세한 내용은 [스팸 필터 정책 구성을](configure-your-spam-filter-policies.md) 참조하세요. Office 365에서 스팸을 방지 하려면 스팸 필터링을 사용 하 고, Office 365에서 스팸을 너무 많이 걱정 되는 경우에는 연결 필터링을 사용 하 여 스팸을 방지 합니다.
 
 > [!NOTE]
 > EOP 독립 실행형 고객의 경우: 기본적으로 EOP 스팸 필터는 스팸 검색 메시지를 각 받는 사람의 정크 메일 폴더로 보냅니다. 그러나 온-프레미스 사서함을 사용 하 여 **정크 메일 폴더로 메시지 이동** 작업을 수행 하려면 온-프레미스 서버에서 두 개의 Exchange 메일 흐름 규칙 (전송 규칙이 라고도 함)을 구성 하 여 EOP에서 추가한 스팸 헤더를 검색 해야 합니다. 자세한 내용은 [스팸이 각 사용자의 정크 메일 폴더로 라우팅되는지 확인](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md)을 참조하십시오.
@@ -73,11 +73,11 @@ Office 365의 스팸, 피싱 및 스푸핑에 대해 염려 되는 경우 SPF, D
 
 [스팸 방지 및 보호 FAQ](anti-spam-protection-faq.md)
 
-[수신 허용 목록 또는 기타 방법으로 스팸으로 표시된 거짓 부정 전자 메일 차단](../../compliance/prevent-email-from-being-marked-as-spam.md)
+[수신 허용 목록 또는 기타 방법으로 스팸으로 표시된 거짓 부정 전자 메일 차단](prevent-email-from-being-marked-as-spam.md)
 
 [정크 메시지를 차단할 수 있도록 Office 365 스팸 필터링을 설정 하는 방법](reduce-spam-email.md)
 
-[정크 메일과 대량 메일의 차이점이 무엇인가요?](what-s-the-difference-between-junk-email-and-bulk-email.md)
+[정크 이메일과 대량 이메일의 차이점이 무엇인가요?](what-s-the-difference-between-junk-email-and-bulk-email.md)
 
 [스팸 방지 메시지 헤더](anti-spam-message-headers.md)
 

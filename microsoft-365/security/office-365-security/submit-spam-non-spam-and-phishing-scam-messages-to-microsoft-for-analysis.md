@@ -14,12 +14,12 @@ ms.assetid: dad30e2f-93fe-4d21-9a36-21c87ced85c1
 ms.collection:
 - M365-security-compliance
 description: '귀하와 사용자는 분석을 위해 Microsoft에 허위 네거티브 및 가양성 스팸 메시지를 제출할 수 있습니다. '
-ms.openlocfilehash: 316945ae026649b16ecfced62baef2ddc41db444
-ms.sourcegitcommit: 82baed362528fed30e9e09c6a4a37c07be2f138d
+ms.openlocfilehash: 6ca4c99d5e8803fdf7f41ff00cc2a5e65ab38049
+ms.sourcegitcommit: a122fd1fce523171529c7f610bb7faf09d30a8bb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40959646"
+ms.lasthandoff: 01/18/2020
+ms.locfileid: "41238435"
 ---
 # <a name="submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis"></a>분석을 위해 Microsoft에 스팸 메시지, 스팸이 아닌 메시지 및 피싱 스캠 메시지 제출
 
@@ -68,7 +68,7 @@ ms.locfileid: "40959646"
 
 메시지가 정크 메일로 잘못 식별 된 경우 Microsoft 스팸 분석 팀에 "허위 긍정" 메시지를 제출할 수 있습니다. 분석가는 메시지를 평가 하 고 분석 합니다. 분석 결과에 따라 메시지 통과를 허용하도록 서비스 전체적으로 스팸 콘텐츠 필터 규칙이 조정될 수 있습니다.
   
-관리자는 전체 조직에 적용 되는 스팸 설정 정보를 더 검토할 수 있습니다. [메시지가 스팸으로 표시 되지 않도록](../../compliance/prevent-email-from-being-marked-as-spam.md)하는 방법을 알아봅니다. 이 정보는 관리자 수준 컨트롤이 있고 가양성을 방지 하려는 경우에 유용 합니다.
+관리자는 전체 조직에 적용 되는 스팸 설정 정보를 더 검토할 수 있습니다. [메시지가 스팸으로 표시 되지 않도록](prevent-email-from-being-marked-as-spam.md)하는 방법을 알아봅니다. 이 정보는 관리자 수준 컨트롤이 있고 가양성을 방지 하려는 경우에 유용 합니다.
   
 다음과 같은 방법으로 스팸이 아닌 메시지를 전송할 수 있습니다.
   
@@ -122,7 +122,7 @@ ms.locfileid: "40959646"
 
 [스팸 방지 및 맬웨어 방지 보호](anti-spam-and-anti-malware-protection.md)
   
-[메시지가 스팸으로 표시되지 않는지 확인하는 방법](../../compliance/prevent-email-from-being-marked-as-spam.md)
+[메시지가 스팸으로 표시되지 않는지 확인하는 방법](prevent-email-from-being-marked-as-spam.md)
   
 [Office 365 스팸 필터로 전자 메일 스팸을 차단하여 거짓 부정 문제 방지](reduce-spam-email.md)
   

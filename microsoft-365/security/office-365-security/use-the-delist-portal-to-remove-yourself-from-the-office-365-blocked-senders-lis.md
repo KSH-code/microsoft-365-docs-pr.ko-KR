@@ -14,12 +14,12 @@ ms.assetid: 0bcecdd4-3343-4cc0-9e58-e19d4de515e8
 ms.collection:
 - M365-security-compliance
 description: 해당 전자 메일 주소가 Office 365에 포함되는 받는 사람에게 전자 메일을 보내려고 할 때 오류 메시지가 발생하나요? 오류 메시지가 표시되지 않아야 한다고 생각될 경우 목록 해제 포털을 사용하여 Office 365 수신 거부 목록에서 본인을 제거할 수 있습니다.
-ms.openlocfilehash: 1cc4958c8ba680e49a454da1f3c7bfd009399da0
-ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
+ms.openlocfilehash: da1c066c79acd6fb8b80796a0fc7f39d52337017
+ms.sourcegitcommit: a122fd1fce523171529c7f610bb7faf09d30a8bb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "39971616"
+ms.lasthandoff: 01/18/2020
+ms.locfileid: "41238465"
 ---
 # <a name="use-the-delist-portal-to-remove-yourself-from-the-office-365-blocked-senders-list"></a>목록 해제 포털을 사용하여 Office 365 수신 거부 목록에서 본인 제거
 
@@ -56,4 +56,4 @@ Microsoft는 수신 거부 목록을 사용하여 스팸, 스푸핑 및 피싱 �
     > [!NOTE]
     > 제한이 제거 되기 전에 최대 24 시간이 걸릴 수도 있고 결과가 크게 다를 수 있습니다.
 
-[실제 전자 메일이 office 365에서 스팸으로 표시 되는](../../compliance/prevent-email-from-being-marked-as-spam.md ) 것을 방지 하 고, [office 365에서 아웃 바운드 스팸을 제어](outbound-spam-controls.md) 하 여 IP가 Blacklisted 되지 않도록 하는 방법에 대해 알아봅니다.
+[실제 전자 메일이 office 365에서 스팸으로 표시 되는](prevent-email-from-being-marked-as-spam.md ) 것을 방지 하 고, [office 365에서 아웃 바운드 스팸을 제어](outbound-spam-controls.md) 하 여 IP가 Blacklisted 되지 않도록 하는 방법에 대해 알아봅니다.

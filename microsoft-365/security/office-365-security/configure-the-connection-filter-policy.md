@@ -14,12 +14,12 @@ ms.assetid: 6ae78c12-7bbe-44fa-ab13-c3768387d0e3
 ms.collection:
 - M365-security-compliance
 description: 사용자가 신뢰 하는 사람이 보낸 전자 메일이 차단 되지 않도록 하려면 연결 필터 정책을 사용 하 여 신뢰할 수 있는 보낸 사람 목록이 라고도 하는 허용 목록을 만든 IP 주소를 만듭니다. 수신 거부 목록도 만들 수 있습니다.
-ms.openlocfilehash: d3151ab436c5d904897d518fa119d52a11db4850
-ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
+ms.openlocfilehash: 70bd682fd9cb990f15314be3187e74f5fa4d562c
+ms.sourcegitcommit: a122fd1fce523171529c7f610bb7faf09d30a8bb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "39971836"
+ms.lasthandoff: 01/18/2020
+ms.locfileid: "41238425"
 ---
 # <a name="configure-the-connection-filter-policy"></a>연결 필터 정책 구성
 
@@ -29,7 +29,7 @@ ms.locfileid: "39971836"
 
 - 차단 목록을 만드는 연결 필터 정책에는 대신, 필터에서 더 적은 수의 계정 또는 신뢰 되지 않는 계정이 표시 됩니다.
 
- 전체 조직에 적용 되는 추가 스팸 설정에 대 한 자세한 내용은 [office 365에서 전자 메일이 스팸으로 표시 되지 않도록](https://docs.microsoft.com/microsoft-365/compliance/prevent-email-from-being-marked-as-spam) 하는 방법 또는 [office 365에서 스팸 메일을 줄이는 방법](reduce-spam-email.md)에 대 한 내용을 확인 하세요. 사용자가 관리자 수준 제어를 가지고 있고 가양성이나 거짓 부정을 방지하려고 할 때 유용합니다.
+ 전체 조직에 적용 되는 추가 스팸 설정에 대 한 자세한 내용은 [office 365에서 전자 메일이 스팸으로 표시 되지 않도록](prevent-email-from-being-marked-as-spam.md) 하는 방법 또는 [office 365에서 스팸 메일을 줄이는 방법](reduce-spam-email.md)에 대 한 내용을 확인 하세요. 사용자가 관리자 수준 제어를 가지고 있고 가양성이나 거짓 부정을 방지하려고 할 때 유용합니다.
 
 > [!TIP]
 > [허용 (또는 안전한 보낸 사람) 목록과](create-safe-sender-lists-in-office-365.md) [차단 목록을](create-block-sender-lists-in-office-365.md)만드는 방법을 일시 중지 하 고 확인할 수 있습니다.
@@ -157,6 +157,6 @@ EAC(Exchange 관리 센터)에서 연결 필터 정책을 편집하여 IP 허용
 
 [아웃바운드 스팸 정책 구성](configure-the-outbound-spam-policy.md)
 
-[전자 메일이 Office 365에서 스팸으로 표시 되는 것을 방지 하는 방법](https://docs.microsoft.com/microsoft-365/compliance/prevent-email-from-being-marked-as-spam)
+[Office 365에서 올바른 전자 메일이 스팸으로 표시되지 않도록 하는 방법](prevent-email-from-being-marked-as-spam.md)
 
 [Office 365에서 스팸 메일을 줄이는 방법](reduce-spam-email.md)

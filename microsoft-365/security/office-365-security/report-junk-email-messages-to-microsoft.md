@@ -14,12 +14,12 @@ ms.assetid: c31406ea-2979-4fac-9288-f835269b9d2f
 ms.collection:
 - M365-security-compliance
 description: Microsoft Office Outlook용 Microsoft 정크 메일 보고 추가 기능은 정크 메일 메시지를 보고하는 다양한 방법을 제공합니다.
-ms.openlocfilehash: f77f9298058897b60345651a35289f6be88a47a8
-ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
+ms.openlocfilehash: df4eb2ceea3233d014efe545ca5d9c7bd39a3624
+ms.sourcegitcommit: a122fd1fce523171529c7f610bb7faf09d30a8bb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "39970294"
+ms.lasthandoff: 01/18/2020
+ms.locfileid: "41238415"
 ---
 # <a name="report-junk-email-messages-to-microsoft"></a>Microsoft에 정크 메일 메시지 보고
 
@@ -31,7 +31,7 @@ Microsoft Office Outlook용 Microsoft 정크 메일 보고 추가 기능은 정�
 
 - 열린 전자 메일 메시지 내에서
 
-정크 메일 보고 추가 기능을 사용하면 Microsoft EOP(Exchange Online Protection) 서비스에 보고서를 쉽게 제출할 수 있습니다. 사서함이 서비스에 의해 보호되지 않는 경우에 정크 전자 메일 보고서 제출은 스팸 필터에 영향을 주지 않습니다. 관리자는 [전자 메일이 office 365에서 스팸으로 표시 되지 않도록](https://docs.microsoft.com/microsoft-365/compliance/prevent-email-from-being-marked-as-spam) 하는 방법 또는 [office 365에서 스팸 메일을 줄이는 방법](reduce-spam-email.md)에 대 한 자세한 내용은 전체 조직에 적용 되는 추가 스팸 설정에 대해 알아볼 수 있습니다. 사용자가 관리자 수준 제어를 가지고 있고 가양성이나 거짓 부정을 방지하려고 할 때 유용합니다.
+정크 메일 보고 추가 기능을 사용하면 Microsoft EOP(Exchange Online Protection) 서비스에 보고서를 쉽게 제출할 수 있습니다. 사서함이 서비스에 의해 보호되지 않는 경우에 정크 전자 메일 보고서 제출은 스팸 필터에 영향을 주지 않습니다. 관리자는 [전자 메일이 office 365에서 스팸으로 표시 되지 않도록](prevent-email-from-being-marked-as-spam.md) 하는 방법 또는 [office 365에서 스팸 메일을 줄이는 방법](reduce-spam-email.md)에 대 한 자세한 내용은 전체 조직에 적용 되는 추가 스팸 설정에 대해 알아볼 수 있습니다. 사용자가 관리자 수준 제어를 가지고 있고 가양성이나 거짓 부정을 방지하려고 할 때 유용합니다.
 
 > [!TIP]
 > 또한 [junk@office365.microsoft.com](mailto:junk@office365.microsoft.com) 전자 메일 주소와 [not_junk@office365.microsoft.com](mailto:not_junk@office365.microsoft.com) 전자 메일 주소를 사용 하 여 가양성 (스팸 아님) 메시지를 사용 하 여 Microsoft에 직접 스팸 메시지를 제출할 수 있습니다. 자세한 내용은 [분석을 위해 Microsoft에 스팸 및 스팸이 아닌 메시지 제출을](submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md)참조 하세요.
@@ -73,6 +73,6 @@ Microsoft Office Outlook용 Microsoft 정크 메일 보고 추가 기능은 정�
 
 [문제 해결 및 지원 정보](troubleshooting-and-support-information.md)
 
-[전자 메일이 Office 365에서 스팸으로 표시 되는 것을 방지 하는 방법](https://docs.microsoft.com/microsoft-365/compliance/prevent-email-from-being-marked-as-spam)
+[Office 365에서 올바른 전자 메일이 스팸으로 표시되지 않도록 하는 방법](prevent-email-from-being-marked-as-spam.md)
 
 [Office 365에서 스팸 메일을 줄이는 방법](reduce-spam-email.md)
