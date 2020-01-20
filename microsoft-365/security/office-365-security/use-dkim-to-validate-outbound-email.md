@@ -14,12 +14,12 @@ ms.assetid: 56fee1c7-dc37-470e-9b09-33fff6d94617
 ms.collection:
 - M365-security-compliance
 description: '요약: 이 문서에서는 Office 365에서 도메인키 식별 메일(DKIM)을 사용하여 대상 전자 메일 시스템이 사용자 지정 도메인에서 보낸 메시지를 신뢰하도록 하는 방법을 설명합니다.'
-ms.openlocfilehash: 350a8aa793270522b3ca79b9f0fda09c49f21a62
-ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
+ms.openlocfilehash: 7861e2c0009b34d558d64a87a44a10cc3c953b3c
+ms.sourcegitcommit: 48a45b0d2c60d4d79669174f462603a43f272875
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "39971646"
+ms.lasthandoff: 01/18/2020
+ms.locfileid: "41233779"
 ---
 # <a name="use-dkim-to-validate-outbound-email-sent-from-your-custom-domain-in-office-365"></a>DKIM을 사용하여 Office 365의 사용자 지정 도메인에서 전송한 아웃바운드 전자 메일의 유효성을 검사합니다.
 
@@ -60,9 +60,6 @@ Office 365는 초기 'onmicrosoft.com' 도메인에 대해 DKIM을 자동으로 
 - [타사 서비스에서 사용자 지정 도메인을 대신하여 이메일을 보내거나 스푸핑할 수 있도록 DKIM을 설정](use-dkim-to-validate-outbound-email.md#SetUp3rdPartyspoof)
 
 - [다음 단계: Office 365에 대한 DKIM을 설정한 후](use-dkim-to-validate-outbound-email.md#DKIMNextSteps)
-
-> [!NOTE]
-> Microsoft 365는 1024 또는 2048 비트 DKIM의 사용자를 지원합니다. 1024-를 사용하고 2048 비트 DKIM을 구성하려는 경우 계속해서 이 문서에서 DKIM 서명 구성을 회전시키기 위한 단계를 확인하십시오. 2019년 말에는 Microsoft가 모든 고객을 위해 기본적으로 2048 비트 키를 지원할 것입니다.
 
 ## <a name="how-dkim-works-better-than-spf-alone-to-prevent-malicious-spoofing-in-office-365"></a>Office 365에서 악의적인 스푸핑을 방지하기 위해 DKIM이 SPF 단독보다 더욱 효율적인 방식인 이유
 <a name="HowDKIMWorks"> </a>
