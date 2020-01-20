@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 조직의 문서 및 전자 메일을 분류하고 보호하는 데 필요한 민감도 레이블을 생성, 구성 및 게시하기 위한 지침입니다.
-ms.openlocfilehash: 200b101b0083abbba90eaced9720db854ff02bbb
-ms.sourcegitcommit: 48a45b0d2c60d4d79669174f462603a43f272875
+ms.openlocfilehash: edcfcf5a4f4891e4e1159c4c42327e59ceb35449
+ms.sourcegitcommit: a122fd1fce523171529c7f610bb7faf09d30a8bb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 01/18/2020
-ms.locfileid: "41233866"
+ms.locfileid: "41238405"
 ---
 # <a name="create-and-configure-sensitivity-labels-and-their-policies"></a>민감도 레이블과 해당 정책 생성 및 구성
 
@@ -30,7 +30,18 @@ ms.locfileid: "41233866"
 
 ## <a name="create-and-configure-sensitivity-labels"></a>민감도 레이블 생성 및 구성
 
-1. 레이블 관리 센터에서**분류** > **민감도 레이블**로 이동합니다.
+1. 레이블 관리 센터에서 민감도 레이블로 이동합니다.
+    
+    - Microsoft 365 규정 준수 센터: 
+        - **솔루션** > **정보 보호(미리 보기)**
+        
+        이 옵션이 바로 보이지 않는 경우에는 먼저 **모두 표시**를 선택합니다. 
+    
+    - Microsoft 365 보안 센터: 
+        - **분류** > **민감도 레이블**
+    
+    - Office 365 보안 및 준수 센터:
+        - **분류** > **민감도 레이블**
 
 2. **레이블** 탭에서 **+레이블 만들기**를 선택하 여 **새 민감도 레이블** 마법사를 시작합니다.
 

@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 민감도 레이블을 사용하여 사용자의 생산성 및 공동 작업 능력이 저하되지 않도록 하면서 중요한 콘텐츠를 분류 및 보호할 수 있습니다. 민감도 레이블을 사용하여 레이블이 지정된 콘텐츠에 암호화 및 워터마크를 포함하는 보호 설정을 적용할 수 있습니다.
-ms.openlocfilehash: b69ae981ea8d988d399e325d2532a0a59e27ae20
-ms.sourcegitcommit: 5b8a1b4c71f695c6638ae943264af11084d6dc64
+ms.openlocfilehash: 91dd28284ad83ec8505f52d380284e31dc9882d5
+ms.sourcegitcommit: 48a45b0d2c60d4d79669174f462603a43f272875
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/11/2020
-ms.locfileid: "41023352"
+ms.lasthandoff: 01/18/2020
+ms.locfileid: "41233839"
 ---
 # <a name="overview-of-sensitivity-labels"></a>민감도 레이블 개요
 
@@ -178,7 +178,7 @@ Office 앱의 경우, 민감도 레이블이 전자 메일 또는 문서에서 �
 
 ## <a name="how-to-get-started-with-sensitivity-labels"></a>민감도 레이블을 시 하는 방법
 
-민감도 레이블은 빠르게 시작할 수 있습니다.
+다음 절차에 따라 민감도 레이블 시작
 
 1. **레이블을 정의합니다.** 먼저, 콘텐츠의 다양한 민감도 수준을 정의하기 위해 분류를 설정합니다. 사용자가 이해할 수 있는 일반적인 이름이나 용어를 사용합니다. 예를 들어 개인, 공용, 일반, 기밀, 고도의 기밀과 같은 레이블로 시작할 수 있습니다. 하위 레이블을 사용하여 범주별로 비슷한 레이블을 그룹화할 수 있습니다. 또한 레이블을 만들 때 사용자가 마우스로 리본의 레이블 옵션을 가리킬 때 Office 앱에 표시되는 툴팁이 필요합니다.
 
@@ -189,6 +189,8 @@ Office 앱의 경우, 민감도 레이블이 전자 메일 또는 문서에서 �
 다음은 관리자, 사용자 및 Office 앱이 민감도 레이블 사용을 위해 수행하는 작업의 기본 흐름입니다.
 
 ![민감도 레이블의 워크플로를 보여 주는 다이어그램](media/Sensitivity-label-flow.png)
+
+절차 정보에 대한 정보는 [민감도 레이블과 해당 정책 생성 및 구성](create-sensitivity-labels.md)을 참조하세요.
 
 ## <a name="where-sensitivity-labels-can-appear"></a>민감도 레이블이 표시될 수 있는 위치
 
