@@ -9,12 +9,12 @@ ms.service: o365-seccomp
 localization_priority: Normal
 description: 포함 된 내용, 가져오는 방법 및 다음 단계를 포함 하 여 Microsoft 365 솔루션 카탈로그에 대해 알아봅니다.
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 1d313720d2b9397b866898a55fb5ba2972234edb
-ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
+ms.openlocfilehash: b881e51f08e201f2870ea979e3f6c8181ab2ea02
+ms.sourcegitcommit: ce0651075aa7e3e1b189437f1990207dd10374b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39831641"
+ms.lasthandoff: 01/21/2020
+ms.locfileid: "41247601"
 ---
 # <a name="overview-of-the-microsoft-365-solution-catalog-preview"></a>Microsoft 365 솔루션 카탈로그 개요 (미리 보기)
 
@@ -51,13 +51,14 @@ Microsoft 365의 규정 준수 솔루션은 종단 간 규정 준수 시나리�
 
 ## <a name="insider-risk-management-section"></a>참가자 위험 관리 섹션
 
-홈 페이지의 **참가자 위험 관리** 섹션에서는 조직이 손상을 유발 하기 전에 조직에서 내부 위험을 식별 하 고 분석 하 고 수정 하는 방법을 한눈에 보여 줍니다.
+홈 페이지의 **참가자 위험 관리** 섹션에는 손상을 초래 하기 전에 조직에서 내부 위험을 식별 하 고 분석 하 고 작업을 수행 하는 방법을 한눈에 파악할 수 있습니다.
 
-![Microsoft 365 솔루션 카탈로그 참가자 위험 관리 섹션](media/m365-solution-catalog-internal-risk-management.png)
+![Microsoft 365 솔루션 카탈로그 참가자 위험 관리 섹션](media/m365-solution-catalog-insider-risk-management.png)
 
-여기에서 다음 솔루션에 해당 하는 카드로 이동할 수 있습니다.
+여기에서 다음 솔루션에 대 한 카드를 볼 수 있습니다.
 
-- [통신 준수](communication-compliance.md): 적절 하지 않은 메시지를 자동으로 캡처하고, 가능한 정책 위반을 조사 하 고, 수정 단계를 수행할 수 있도록 하 여 통신 위험을 최소화 합니다.
+- [통신 준수](communication-compliance.md): 적절 하지 않은 메시지를 자동으로 캡처하고, 가능한 정책 위반을 조사 하 고, 손상을 최소화 하기 위한 단계를 수행 하 여 통신 위험을 최소화 합니다.
+- [참가자 위험 관리](insider-risk-management.md): 조직 전체에서 위험한 활동을 감지 하 고, 참가자 위험 및 위협에 대 한 조치를 빠르게 식별 하 고 조사 하 고 작업을 수행 하는 데 도움이 됩니다.
 
 ## <a name="discovery--response-section"></a>검색 & 대응 섹션
 
@@ -95,6 +96,8 @@ Microsoft 365의 규정 준수 솔루션은 종단 간 규정 준수 시나리�
 ## <a name="next-steps"></a>다음 단계
 
 - 조직의 주요 표준 및 규정 준수 상태를 이해 하는 데 도움이 되는 개인 설정 된 위험 기반 점수가 **Microsoft 준수 점수를 검토**합니다. 전체 준수 상황을 강화 하기 위해 수행할 수 있는 권장 작업을 제공 하 고 이러한 작업을 효율적으로 수행 하는 데 도움이 되는 워크플로 기능을 제공 합니다. 자세한 내용은 [준수 점수 (Preview)](compliance-score.md)를 참조 하십시오.
+
+- 내부 위험을 최소화 하 고 조직에서 위험한 활동을 감지 하 고 조사 하며 작업을 수행할 수 있도록 하는 **참가자 위험 관리 정책을 구성** 합니다. [참가자 위험 관리](insider-risk-management.md)를 참조 하세요.
 
 - **Microsoft**365 솔루션을 통해 microsoft에서 중요 한 정보를 검색, 분류 및 보호 하는 방법에 대해 알아봅니다.
     - **Microsoft Cloud App Security를 숙지 하 고 설정**합니다. [퀵 스타트: Microsoft Cloud App Security 시작을](https://docs.microsoft.com/cloud-app-security/getting-started-with-cloud-app-security)참조 하세요.

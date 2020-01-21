@@ -1,5 +1,5 @@
 ---
-title: 샘플 커넥터를 사용 하 여 Twitter 데이터 보관 (미리 보기)
+title: Twitter 데이터를 보관할 커넥터 설정
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -10,28 +10,22 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: 관리자는 네이티브 커넥터를 설정 하 여 Twitter 데이터를 Office 365로 가져올 수 있습니다. 이를 통해 Office 365의 타사 데이터 원본에서 데이터를 보관할 수 있으므로 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용 하 여 조직의 타사 데이터를 관리 하는 것을 관리할 수도 있습니다.
-ms.openlocfilehash: 77f0a0615a177c0bfd6179a6a5ce1a58b024dcdc
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 083c293e869cb35b428592717b7cf3810e7fea8c
+ms.sourcegitcommit: ce0651075aa7e3e1b189437f1990207dd10374b0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40807487"
+ms.lasthandoff: 01/21/2020
+ms.locfileid: "41247561"
 ---
-# <a name="use-a-sample-connector-to-archive-twitter-data-preview"></a>샘플 커넥터를 사용 하 여 Twitter 데이터 보관 (미리 보기)
+# <a name="set-up-a-connector-to-archive-twitter-data"></a>Twitter 데이터를 보관할 커넥터 설정
 
-Office 365에서 Twitter 데이터를 보관 하는 샘플 커넥터 기능은 미리 보기에 있습니다.
+Office 365의 보안 & 준수 센터에서 커넥터를 사용 하 여 Twitter에서 데이터를 가져오고 보관 합니다. 커넥터를 설정 하 고 구성한 후에는 일정에 따라 조직의 Twitter 계정에 연결 하 고, 항목의 콘텐츠를 전자 메일 메시지 형식으로 변환한 다음 해당 항목을 Office 365의 사서함으로 가져옵니다.
 
-Office 365의 보안 & 준수 센터에 있는 예제 커넥터를 사용 하 여 Twitter에서 데이터를 가져오고 보관 합니다. 샘플 커넥터를 설정 하 고 구성한 후에는 예약 된 방식으로 조직의 Twitter 계정에 연결 하 고, 항목의 콘텐츠를 전자 메일 메시지 형식으로 변환한 다음 해당 항목을 Office 365의 사서함으로 가져옵니다.
-
-Twitter 데이터를 가져온 후에는 사서함에 저장 된 데이터에 소송 보존, 콘텐츠 검색, 원본 위치 보관, 감사, [통신 준수](communication-compliance.md)및 office 365 고정 정책 등의 office 365 준수 기능을 적용할 수 있습니다. 예를 들어 콘텐츠 검색을 사용 하 여 Twitter 데이터를 검색 하거나, 데이터가 고급 eDiscovery 사례에 custodian으로 저장 된 사서함을 연결할 수 있습니다. 샘플 커넥터를 사용 하 여 Office 365에서 Twitter 데이터를 가져오고 보관 하면 조직이 정부 및 규정 정책을 준수 하는 데 도움이 될 수 있습니다.
-
-> [!NOTE]
-> 현재로 서는 Twitter 및 [Facebook Business 페이지](archive-facebook-data-with-sample-connector.md) 에 대 한 샘플 커넥터만 미리 볼 수 있습니다. 더 많은 샘플 커넥터가 곧 제공 될 예정입니다.
-
+Twitter 데이터를 가져온 후에는 사서함에 저장 된 데이터에 소송 보존, 콘텐츠 검색, 원본 위치 보관, 감사, 통신 준수 및 Office 365 고정 정책 등의 Office 365 준수 기능을 적용할 수 있습니다. 예를 들어 콘텐츠 검색을 사용 하 여 Twitter 데이터를 검색 하거나, 데이터가 고급 eDiscovery 사례에 custodian으로 저장 된 사서함을 연결할 수 있습니다. 커넥터를 사용 하 여 Office 365에서 Twitter 데이터를 가져오고 보관 하면 조직이 정부 및 규정 정책을 준수 하는 데 도움이 될 수 있습니다.
 
 ## <a name="prerequisites-for-setting-up-a-connector-for-twitter"></a>Twitter에 대 한 커넥터를 설정 하기 위한 필수 구성 요소
 
-조직의 Twitter 계정에서 데이터를 가져오고 보관 하기 위해 보안 & 준수 센터에서 샘플 커넥터를 설정 및 구성 하기 전에 다음 필수 구성 요소를 완료 합니다. 
+조직의 Twitter 계정에서 데이터를 가져오고 보관 하기 위해 보안 & 준수 센터에서 커넥터를 설정 및 구성 하려면 먼저 다음 필수 구성 요소를 완료 합니다. 
 
 - 조직에 대 한 Twitter 계정이 필요 합니다. 커넥터를 설정 하는 경우이 계정에 로그인 해야 합니다.
 
@@ -42,7 +36,7 @@ Twitter 데이터를 가져온 후에는 사서함에 저장 된 데이터에 �
     - [방문 비용 청구 Azure 구독에 등록](https://azure.microsoft.com/pricing/purchase-options/pay-as-you-go/)
 
     > [!NOTE]
-    > Office 365 구독에 포함 된 [무료 Azure Active Directory 구독은](use-your-free-azure-ad-subscription-in-office-365.md) 보안 & 준수 센터의 예제 커넥터를 지원 하지 않습니다.
+    > Office 365 구독에 포함 된 [무료 Azure Active Directory 구독은](use-your-free-azure-ad-subscription-in-office-365.md) 보안 & 준수 센터의 커넥터를 지원 하지 않습니다.
 
 - 조직에서는 Office 365 가져오기 서비스가 조직의 사서함 데이터에 액세스할 수 있도록 허용 해야 합니다. 이 요청에 동의 하려면 [이 페이지로](https://login.microsoftonline.com/common/oauth2/authorize?client_id=570d0bec-d001-4c4e-985e-3ab17fdc3073&response_type=code&redirect_uri=https://portal.azure.com/&nonce=1234&prompt=admin_consent)이동 하 여 Office 365 전역 관리자의 자격 증명으로 로그인 한 다음 요청을 수락 합니다.
 
@@ -50,7 +44,7 @@ Twitter 데이터를 가져온 후에는 사서함에 저장 된 데이터에 �
 
 ## <a name="step-1-download-the-pre-built-connector-app-package-from-github"></a>1 단계: GitHub에서 미리 작성 된 커넥터 앱 패키지 다운로드
 
-첫 번째 단계는 twitter API를 사용 하 여 twitter 계정에 연결 하 고 데이터를 추출 하 여 Office 365로 가져올 수 있는 Twitter 샘플 커넥터 응용 프로그램에 대 한 소스 코드를 다운로드 하는 것입니다.
+첫 번째 단계는 twitter API를 사용 하 여 twitter 계정에 연결 하 고 데이터를 추출 하 여 Office 365로 가져올 수 있는 Twitter 커넥터 앱의 소스 코드를 다운로드 하는 것입니다.
 
 1. [이 GitHub 사이트로](https://github.com/microsoft/m365-sample-twitter-connector-csharp-aspnet/releases)이동 합니다. 
 2. 최신 버전에서 **SampleConnector** 파일을 선택 합니다.
