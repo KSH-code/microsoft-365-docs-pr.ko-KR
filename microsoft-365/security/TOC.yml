@@ -73,6 +73,8 @@
                   href: mtp/mtp-autoir-results.md
                 - name: 보류 중인 작업 승인 또는 거부
                   href: mtp/mtp-autoir-actions.md
+                - name: 가양성/네거티브 보고
+                  href: mtp/mtp-autoir-report-false-positives-negatives.md
             - name: 고급 헌팅
               items:
                 - name: Microsoft 365에서 찾기
