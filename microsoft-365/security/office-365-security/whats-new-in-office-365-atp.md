@@ -13,12 +13,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: a43576bc18d54e3a5c9b2f9ad918c1df3ee67615
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 2ad99943869d3edc16316d90efb9bbfd70a6f18f
+ms.sourcegitcommit: 3dca80f268006658a0b721aa4f6df1224c7964dc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40807943"
+ms.lasthandoff: 01/22/2020
+ms.locfileid: "41260226"
 ---
 # <a name="whats-new-in-office-365-atp"></a>Office 365 ATP의 새로운 기능
 
@@ -30,10 +30,6 @@ ms.locfileid: "40807943"
 
 > [!TIP]
 > 아직 Office 365 ATP가 없습니까? [영업 담당자에 게 문의 하 여 평가판을 시작](https://go.microsoft.com/fwlink/p/?LinkId=518644)합니다.
-
-## <a name="office-365-atp-plan-1-and-plan-2"></a>Office 365 ATP 플랜 1 및 플랜 2
-
-Office 365 ATP는 Office 365 ATP 계획 1 및 Office 365 ATP 계획 2의 두 가지 계획으로 제공 됩니다. [자세히 알아보기](office-365-atp.md#office-365-atp-plan-1-and-plan-2).
 
 ## <a name="december-2019"></a>2019년 12월
 
@@ -65,8 +61,14 @@ Office 365 ATP는 Office 365 ATP 계획 1 및 Office 365 ATP 계획 2의 두 가
 
 - [피싱 url에 대 한 데이터를 보고 결과](threat-explorer.md#view-data-about-phishing-urls-and-click-verdict) (OFFICE 365 ATP 계획 1 또는 계획 2)를 클릭 합니다.
 
+## <a name="office-365-atp-plan-1-and-plan-2"></a>Office 365 ATP 플랜 1 및 플랜 2
+
+Office 365 ATP를 두 가지 요금제로 사용할 수 있다는 사실을 알고 계십니까? Office 365 ATP 계획 1 및 Office 365 ATP 계획 2가 있습니다. [각 계획에 포함 된 내용에 대해 자세히 알아보세요](office-365-atp.md#office-365-atp-plan-1-and-plan-2).
+
 ## <a name="see-also"></a>참고 항목
 
 [Microsoft 365 로드맵](https://www.microsoft.com/microsoft-365/roadmap)
 
 [Office 365 ATP 서비스 설명](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)
+
+[Microsoft Threat Protection의 자동화된 조사 및 대응](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-autoir)

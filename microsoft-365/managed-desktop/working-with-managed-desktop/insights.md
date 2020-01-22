@@ -1,17 +1,17 @@
 ---
 title: 인사이트를 활용한 작업
 description: ''
-keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 설명서
+keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 2366c7b9e3c95ee88753ffb7677a7031c8ac9786
-ms.sourcegitcommit: b65c80051e53d9be223f4769f4d42a39f5a07735
+ms.openlocfilehash: d1ee28bad2728fb3e6c12694625b2c29a65425a2
+ms.sourcegitcommit: 3dca80f268006658a0b721aa4f6df1224c7964dc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39962325"
+ms.lasthandoff: 01/22/2020
+ms.locfileid: "41260106"
 ---
 # <a name="work-with-insights"></a>인사이트를 활용한 작업
 
@@ -40,4 +40,9 @@ Microsoft 365 관리 센터에서 이러한 보기에 액세스 하려면 **Repo
 ## <a name="reliability-insights"></a>안정성 인사이트
 이 보기는 관리 되는 장치에 대 한 상태 요약을 제공 합니다. 안정성 데이터를 보려면 **안정성** 탭을 선택 합니다.
 
-[안정성 통찰력](reliability-insights.md) 에 대해 자세히 알아보기
+자세한 내용은 [안정성 정보](reliability-insights.md)를 확인 하세요.
+
+## <a name="battery-insights"></a>배터리 정보
+이 보기에는 해당 환경의 장치에 대 한 예상 배터리 수명 및 앱의 에너지 소비량에 대 한 정보가 표시 됩니다. 이 정보를 보려면 **배터리** 탭을 선택 합니다.
+
+자세한 내용은 [배터리 정보](battery-insights.md)를 확인 하세요.

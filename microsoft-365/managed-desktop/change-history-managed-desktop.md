@@ -8,23 +8,32 @@ author: jaimeo
 ms.author: jaimeo
 ms.topic: article
 ms.localizationpriority: normal
-ms.openlocfilehash: b66fb73b635eb102bcd474cc884db6d0fa4cdfb6
-ms.sourcegitcommit: e386037c9cc335c86896dc153344850735afbccd
+ms.openlocfilehash: 8713b678432d71304649e05fba466659de0369ad
+ms.sourcegitcommit: 3dca80f268006658a0b721aa4f6df1224c7964dc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "39634065"
+ms.lasthandoff: 01/22/2020
+ms.locfileid: "41260126"
 ---
 # <a name="change-history-for-microsoft-managed-desktop-documentation"></a>Microsoft Managed Desktop 문서 변경 기록
 
 이 항목에서는 [Microsoft Managed Desktop 설명서](index.yml)의 새로운 항목과 업데이트 된 항목을 나열 합니다. "업데이트 된" 항목은 재료가 추가 되거나 수정 된 항목이 며, 오타, 스타일 또는 서식 문제를 수정 하는 것과 같은 사소한 수정 사항이 나열 되지 않습니다. [GitHub의 리포지토리](https://github.com/MicrosoftDocs/microsoft-365-docs/tree/public/microsoft-365/managed-desktop)를 방문 하 여 언제 든 지 변경 세부 정보를 비롯 하 여 특정 커밋 기록을 볼 수 있습니다.
 
+## <a name="december-2019"></a>2019년 12월
+새로 만들기 또는 변경 된 항목 | 설명
+--- | ---
+[Microsoft Managed Desktop에 대 한 관리자 지원](working-with-managed-desktop/admin-support.md) | 업데이트 된 항목
+[Microsoft Managed Desktop 장치](service-description/device-list.md) | 업데이트 된 항목
+[Microsoft Managed Desktop 보관 장치](service-description/archived-device-list.md) | 업데이트 된 항목
+
+
+
 ## <a name="november-2019"></a>2019년 11월
 새로 만들기 또는 변경 된 항목 | 설명
 --- | ---
-[Insights 사용](working-with-managed-desktop/insights.md) | 새 항목
-[사용 현황 정보 활용](working-with-managed-desktop/usage-insights.md) | 새 항목
-[안정성 통찰력](working-with-managed-desktop/reliability-insights.md) | 새 항목
+[인사이트를 활용한 작업](working-with-managed-desktop/insights.md) | 새 항목
+[인사이트 활용](working-with-managed-desktop/usage-insights.md) | 새 항목
+[안정성 인사이트](working-with-managed-desktop/reliability-insights.md) | 새 항목
 [Microsoft Managed Desktop 장치](service-description/device-list.md) | 업데이트 된 항목
 [Microsoft Managed Desktop 기본 페이지](https://docs.microsoft.com/microsoft-365/managed-desktop/) | 업데이트 된 항목
 [Microsoft Managed Desktop이란 무엇인가요?](https://docs.microsoft.com/microsoft-365/managed-desktop/intro/index) | 업데이트 된 항목

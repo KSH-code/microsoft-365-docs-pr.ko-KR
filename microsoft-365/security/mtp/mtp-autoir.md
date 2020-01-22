@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 ms.topic: conceptual
 ms.custom: autoir
-ms.openlocfilehash: ea3201838e625969a239aee4339e0de605d95c55
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 9459b1b8ff431624045c5b57ade531288d41866e
+ms.sourcegitcommit: 3dca80f268006658a0b721aa4f6df1224c7964dc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40808613"
+ms.lasthandoff: 01/22/2020
+ms.locfileid: "41260186"
 ---
 # <a name="automated-investigation-and-response-air-in-microsoft-threat-protection"></a>Microsoft Threat Protection의 자동화된 조사 및 대응(AIR)
 
@@ -38,24 +38,26 @@ ms.locfileid: "40808613"
 
 AIR을 사용하면 보안 운영팀에서 보안 경고와 인시던트를 처리하는 조직의 용량을 획기적으로 늘릴 수 있습니다. AIR을 사용하여 조사 및 수정 활동을 처리하는 비용을 줄이고 위협 방지 제품군을 최대한 활용할 수 있습니다. AIR은 다음과 같은 방법으로 보안 운영팀에게 도움을 줍니다.
 
-1.  위협이 조치를 요구하는지 여부 확인
-2.  필수 수정 조치 수행(또는 권장)
-3.  어떤 추가 조사가 수행되어야 하는지 결정
-4.  다른 경고가 발생하면 필요한 프로세스를 반복
+1. 위협이 조치를 요구하는지 여부 확인
+2. 필수 수정 조치 수행(또는 권장)
+3. 어떤 추가 조사가 수행되어야 하는지 결정
+4. 다른 경고가 발생하면 필요한 프로세스를 반복
 
 ## <a name="the-automated-investigation-process"></a>자동화된 조사 프로세스
 
 **경고** > **인시던트** > **자동화된 조사** > **판단** > **수정 작업**
 
-개략적으로 트리거되는 경고는 자동화된 조사를 시작할 수 있는 인시던트를 생성합니다. 이 조사를 수행하면 하나 이상의 수정 작업이 발생할 수 있습니다. 다음 표에 요약된대로 Microsoft Threat Protection에서 각각의 자동화된 조사는 Azure ATP(Advanced Threat Protection), Microsoft Defender online(Microsoft Defender ATP) 및 Office 365 Advanced Threat Protection(Office 365 ATP)간 신호의 연관성을 보여줍니다. 
+트리거된 경고는 자동화 된 조사를 시작할 수 있는 인시던트를 만듭니다. 이 조사를 수행하면 하나 이상의 수정 작업이 발생할 수 있습니다. 다음 표에 요약된대로 Microsoft Threat Protection에서 각각의 자동화된 조사는 Azure ATP(Advanced Threat Protection), Microsoft Defender online(Microsoft Defender ATP) 및 Office 365 Advanced Threat Protection(Office 365 ATP)간 신호의 연관성을 보여줍니다. 
 
 |엔터티 |위협 보호 서비스  |
 |---------|---------|
 |장치(끝점이라고도 함)     |[Microsoft Defender ATP](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/automated-investigations)<br/>[Azure ATP](https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp) |      
 |전자 메일 콘텐츠(사서함의 파일 및 메시지)     |[Office 365 ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)         |
 
-
 각 조사는 조사된 각 증거에 대한 판정(*악성*, *의심* 또는 *깨끗*)을 생성합니다. 위협 유형과 결과 판정에 따라 수정 작업이 자동으로 수행되거나 조직의 보안 운영 팀의 승인에 따라 발생합니다. 보류 중인 동작과 완료된 작업은 [알림 센터](mtp-action-center.md)에 나열되어 있습니다.
+
+> [!TIP]
+> Microsoft Threat Protection의 자동화 된 조사 및 응답 기능을 통해 누락 되었거나 지워지는이 감지 되었다고 생각 되 면 알려주세요. [Microsoft Threat Protection에서 자동 조사 및 응답 (AIR) 기능을 통해 허위 긍정/네거티브를 보고 하는 방법을](mtp-autoir-report-false-positives-negatives.md)참조 하세요.
 
 조사가 실행되는 동안 발생하는 모든 관련 경고는 완료될 때까지 조사에 추가됩니다. 문제가 있는 엔터티가 다른 곳에서 발견되는 경우에는 자동화된 조사가 해당 엔터티를 포함하도록 범위를 확장하고 일반적인 보안 플레이 북이 실행됩니다. 
 
