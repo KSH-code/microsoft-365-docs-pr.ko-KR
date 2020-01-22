@@ -14,12 +14,12 @@ ms.assetid: 82ac9922-939c-41be-9c8a-7c75b0a4e27d
 ms.collection:
 - M365-security-compliance
 description: 보안 &amp; 및 준수 센터의 Explorer 및 실시간 검색에 대해 알아봅니다.
-ms.openlocfilehash: 64ebfef5c0d5540acf74d0d6f5a864461e83f82f
-ms.sourcegitcommit: 8c244b38c43dd00c4ef0102f8bed02ab36639a6b
+ms.openlocfilehash: ef605fcc7a76cb2432357856b814453b149a5296
+ms.sourcegitcommit: 5fc0f2cd1f2596fd10299333c826c501936dcd98
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39967941"
+ms.lasthandoff: 01/22/2020
+ms.locfileid: "41261882"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>위협 탐색기 및 실시간 검색
 
@@ -27,7 +27,7 @@ ms.locfileid: "39967941"
 
 |ATP 계획 2를 사용 하는 경우 다음을 확인할 수 있습니다.  |ATP 계획 1을 사용 하는 경우 다음을 확인할 수 있습니다.  |
 |---------|---------|
-|![위협 탐색기](../media/threatmgmt-explorer.png)      |![실시간 검색](../media/threatmgmt-realtimedetections.png)         |
+|![위협 탐색기](../media/threatmgmt-explorer.png)      |![실시간 탐지](../media/threatmgmt-realtimedetections.png)         |
 
 Explorer (또는 실시간 검색)를 사용 하는 경우 보안 운영 팀이 효과적이 고 효율적으로 위협을 조사 하 고 대응 하는 데 사용할 수 있는 강력한 보고서가 있습니다. 보고서는 다음 이미지와 유사 합니다. 
 
@@ -187,7 +187,7 @@ Explorer 또는 실시간 검색을 하려면 [Office 365 ATP](office-365-atp.md
 - 보안 &amp; 및 준수 센터에는 다음 역할 중 하나가 할당 되어 있어야 합니다.
     - 조직 관리
     - 보안 관리자 (Azure Active Directory 관리 센터[https://aad.portal.azure.com](https://aad.portal.azure.com)에서 할당할 수 있음)
-    - 보안 독자
+    - 보안 읽기 권한자
 
 - Exchange Online의 경우 Exchange 관리 센터 ([https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)) 또는 PowerShell Cmdlet ( [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell)참조)에서 다음 역할 중 하나를 할당 받아야 합니다.
     - 조직 관리
@@ -200,7 +200,7 @@ Explorer 또는 실시간 검색을 하려면 [Office 365 ATP](office-365-atp.md
 - [Permissions in the Office 365 Security &amp; Compliance Center](permissions-in-the-security-and-compliance-center.md)
 - [Exchange Online의 기능 사용 권한](https://docs.microsoft.com/exchange/permissions-exo/feature-permissions)
   
-## <a name="some-differences-between-threat-exporter-and-real-time-detections"></a>위협 내보내기와 실시간 감지 간의 약간의 차이점
+## <a name="some-differences-between-threat-explorer-and-real-time-detections"></a>위협 탐색기와 실시간 감지 간의 약간의 차이점
 
  - **실시간** 검색 보고서는 OFFICE 365 atp 계획 1에서 사용할 수 있지만, **Threat Explorer** 는 office 365 atp 계획 2에서 사용할 수 있습니다.
  - **실시간** 검색 보고서를 사용 하면 실시간으로 검색을 볼 수 있습니다. **위협 탐색기** 도이를 수행 하지만 지정 된 공격에 대 한 추가 세부 정보를 볼 수도 있습니다.
