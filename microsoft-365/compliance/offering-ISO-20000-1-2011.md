@@ -11,12 +11,13 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 705b59a5ae499a580086304abe91a9318bb36fcb
-ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
+titleSuffix: Microsoft Compliance
+ms.openlocfilehash: 4ae0df3ddc8eec28cc6f29bddd0a46a09d33b0dc
+ms.sourcegitcommit: 3dca80f268006658a0b721aa4f6df1224c7964dc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39859708"
+ms.lasthandoff: 01/22/2020
+ms.locfileid: "41260046"
 ---
 # <a name="isoiec-20000-12011-information-technology-service-management"></a>ISO/IEC 20000-1:2011 정보 기술 서비스 관리
 
@@ -37,6 +38,7 @@ ISO 20000-1:2011 인증을 얻는 것은 Microsoft Azure에 대한 논리적인 
 - [Azure 및 Azure Government](https://aka.ms/AzureCompliance)
 - Cloud App Security
 - Intune
+- Microsoft Managed Desktop
 - Microsoft PowerApps
 - Microsoft Flow
 - Microsoft Graph
@@ -46,7 +48,7 @@ ISO 20000-1:2011 인증을 얻는 것은 Microsoft Azure에 대한 논리적인 
 
 ## <a name="audits-reports-and-certificates"></a>감사, 보고서 및 인증서
 
-Azure, Intune, Power BI, Cloud App Security, Microsoft PowerApps, Microsoft Flow, Microsoft Graph, Microsoft Genomics, Microsoft Datacenters에 대한 2017 ISO 20000-1 설명서
+Azure, Intune, Microsoft Managed Desktop, Power BI, Cloud App Security, Microsoft PowerApps, Microsoft Flow, Microsoft Graph, Microsoft Genomics 및 Microsoft Datacenters에 대한 2017 ISO 20000-1 설명서
 
 - [평가 보고서](https://go.microsoft.com/fwlink/p/?linkid=2077810)
 - [인증서](https://go.microsoft.com/fwlink/p/?linkid=2077815)

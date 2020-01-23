@@ -11,12 +11,13 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 300a6c5d43bdb3653426b451abb3c82709194039
-ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
+titleSuffix: Microsoft Compliance
+ms.openlocfilehash: 5f22e7a1dccff1d278ee07adaa56ea7d11de4cd3
+ms.sourcegitcommit: 3dca80f268006658a0b721aa4f6df1224c7964dc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39859678"
+ms.lasthandoff: 01/22/2020
+ms.locfileid: "41260006"
 ---
 # <a name="isoiec-27018-code-of-practice-for-protecting-personal-data-in-the-cloud"></a>클라우드 내 개인 데이터 보호를 위한 ISO/IEC 27018 규약
 
@@ -49,6 +50,7 @@ Microsoft 클라우드에서 ISO-IEC-27018 의 혜택에 대해 알아보세요.
 - 그래프
 - Health Bot
 - Intune
+- Microsoft Managed Desktop
 - 독립 실행형 서비스 혹은 Office 365 혹은 Dynamics 365에 브랜딩된 플랜 또는 제품군에 포함된 형태로서의 Microsoft Flow 클라우드 서비스
 - [Office 365, Office 365 U.S. Government, Office 365 U.S. Government Defense](https://go.microsoft.com/fwlink/p/?linkid=2077751)
 - Office 365 Germany
@@ -67,9 +69,9 @@ Microsoft 클라우드와 상용 기술 지원 서비스는 ISO/IEC 27001에 대
 
 ### <a name="audits-and-reports"></a>감사 및 보고서
 
-- [Azure, Intune, Power BI, Cloud App Security, Microsoft PowerApps, Microsoft Flow, Microsoft Graph, Microsoft Genomics, Microsoft Datacenter — ISO 27001 및 27018 인증서](https://go.microsoft.com/fwlink/p/?linkid=2078016)
-- [Azure, Intune, Power BI, Cloud App Security, Microsoft PowerApps, Microsoft Flow, Microsoft Graph, Microsoft Genomics, Microsoft Datacenter — ISO 27001 및 27018 감사 평가 보고서](https://go.microsoft.com/fwlink/p/?linkid=2078020)
-- [Azure, Intune, Power BI, Cloud App Security, Microsoft PowerApps, Microsoft Flow, Microsoft Graph, Microsoft Genomics, Microsoft Datacenter Azure — ISO 27001 및 27018 SOA(적용성 보고서) 2017](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=47d89200-b24b-491d-b657-7c523ddfb6f9&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_ISO_Reports)
+- [Azure, Intune, Microsoft Managed Desktop, Power BI, Cloud App Security, Microsoft PowerApps, Microsoft Flow, Microsoft Graph, Microsoft Genomics 및 Microsoft Datacenter — ISO 27001 및 27018 인증서](https://go.microsoft.com/fwlink/p/?linkid=2078016)
+- [Azure, Intune, Microsoft Managed Desktop, Power BI, Cloud App Security, Microsoft PowerApps, Microsoft Flow, Microsoft Graph, Microsoft Genomics 및 Microsoft Datacenter — ISO 27001 및 27018 감사 평가 보고서](https://go.microsoft.com/fwlink/p/?linkid=2078020)
+- [Azure, Intune, Microsoft Managed Desktop, Power BI, Cloud App Security, Microsoft PowerApps, Microsoft Flow, Microsoft Graph, Microsoft Genomics 및 Microsoft Datacenter — ISO 27001 및 27018 SOA(적용성 보고서) 2017](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=47d89200-b24b-491d-b657-7c523ddfb6f9&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_ISO_Reports)
 - [Azure — Germany ISO 27018 — 클라우드 내 개인 데이터 보호를 위한 규약 — 인증서](https://servicetrust.microsoft.com/Documents/ComplianceReports?downloadDocument=1&documentId=6a0dab80-8382-4af6-980c-ed2ed9a341c6)
 
 ### <a name="office-365"></a>Office 365

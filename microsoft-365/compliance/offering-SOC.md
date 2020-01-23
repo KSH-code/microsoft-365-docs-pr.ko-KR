@@ -12,12 +12,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 380e1b2fadc48c395fbd8c2b10c0d65a6ba01675
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: a5f68e235252208de664cc6dfdd62b6019d9abe6
+ms.sourcegitcommit: 3dca80f268006658a0b721aa4f6df1224c7964dc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40804261"
+ms.lasthandoff: 01/22/2020
+ms.locfileid: "41259986"
 ---
 # <a name="service-organization-controls-soc"></a>SOC(서비스 조직 컨트롤)
 
@@ -52,6 +52,7 @@ Microsoft 클라우드에서 SOC 1, 2, 3의 이점에 대해 자세히 알아보
 - Dynamics 365 및 Dynamics 365 U.S. Government [상세 목록](https://aka.ms/d365-compliance-list)
 - Graph
 - Intune
+- Microsoft Managed Desktop
 - 독립 실행형 서비스 혹은 Office 365 혹은 Dynamics 365에 브랜딩된 플랜 또는 제품군에 포함된 형태로서의 Microsoft Flow 클라우드 서비스
 - Office 365, Office 365 U.S. Government, and Office 365 U.S. Government Defense [상세 목록](https://go.microsoft.com/fwlink/p/?LinkID=2077751) Yammer는 SOC 1 유형 1 보고서를 달성했습니다.
 - Office 365 Germany
@@ -66,7 +67,8 @@ Microsoft 클라우드에서 SOC 1, 2, 3의 이점에 대해 자세히 알아보
 - Cloud App Security
 - 그래프
 - Intune
-- 독립 실행형 서비스로서 또는 Office 365나 Dynamics 365에 브랜딩된 플랜 또는 제품군에 포함된 형태로서의 Microsoft Flow 클라우드 서비스
+- Microsoft Managed Desktop
+- 독립 실행형 서비스 혹은 Office 365 혹은 Dynamics 365에 브랜딩된 플랜 또는 제품군에 포함된 형태로서의 Microsoft Flow 클라우드 서비스
 - 독립 실행형 서비스 혹은 Office 365 혹은 Dynamics 365에 브랜딩된 플랜 또는 제품군에 포함된 형태로서의 PowerApps 클라우드 서비스
 - Power BI
 - Stream

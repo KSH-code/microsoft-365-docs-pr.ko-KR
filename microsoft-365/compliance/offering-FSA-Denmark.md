@@ -11,12 +11,13 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 89804f5f5f10d06879effd411cec4a7c52037620
-ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
+titleSuffix: Microsoft Compliance
+ms.openlocfilehash: 02cde8915691565614e3d1d04a1fc57ed9a718cb
+ms.sourcegitcommit: 2eb4539291f5035b7bef746df89fbcc6faa17257
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39859798"
+ms.lasthandoff: 01/22/2020
+ms.locfileid: "41263330"
 ---
 # <a name="financial-supervisory-authority-fsa-denmark"></a>덴마크 금융감독청(FSA)
 
@@ -36,7 +37,7 @@ FSA는 “유럽 뱅킹 부문 전반에서 효과적이고 일관된 세심한 
 
 ## <a name="microsoft-and-the-fsa"></a>Microsoft와 FSA
 
-덴마크에서 클라우드로 비즈니스 기능을 아웃소싱하려 고려하는 금융 기관에 대한 안내를 지원하기 위해 Microsoft는 [덴마크의 금융 기관을 위한 규정 준수 점검 목록](https://eba.europa.eu/sites/default/documents/files/documents/10180/1848359/c1005743-567e-40fc-a995-d05fb93df5d1/Draft%20Recommendation%20on%20outsourcing%20to%20Cloud%20Service%20%20%28EBA-CP-2017-06%29.pdf /5fa5cdde-3219-4e95-946d-0c0d05494362)을 게시했습니다. 이 점검 목록을 검토하고 완료함으로서 금융 기관은 해당 규제 요구 사항의 준수에 대한 확신을 가지고 Microsoft 비즈니스 클라우드 서비스를 도입할 수 있습니다.
+덴마크에서 클라우드로 비즈니스 기능을 아웃소싱하려 고려하는 금융 기관에 대한 안내를 지원하기 위해 Microsoft는 [덴마크의 금융 기관을 위한 규정 준수 점검 목록](https://eba.europa.eu/sites/default/documents/files/documents/10180/1848359/c1005743-567e-40fc-a995-d05fb93df5d1/Draft%20Recommendation%20on%20outsourcing%20to%20Cloud%20Service%20%20%28EBA-CP-2017-06%29.pdf)을 게시했습니다. 이 점검 목록을 검토하고 완료함으로서 금융 기관은 해당 규제적 요구 사항의 준수에 대한 확신을 가지고 Microsoft 비즈니스 클라우드 서비스를 도입할 수 있습니다.
 
 덴마크의 재무 기관이 비즈니스 활동을 아웃소싱하는 경우 유럽은행관리국(EBA)의 광범위한 정책 프레임워크 내에서 금융감독청(FSA)의 요구 사항을 준수해야 합니다. 특히 이러한 요구 사항은 재무 서비스와 클라우드 제공업체 사이의 계약이 아웃소싱 활동에 대한 적절한 제어를 어떻게 보장할 수 있는지에 중점을 두고 있습니다.
 

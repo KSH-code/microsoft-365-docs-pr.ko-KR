@@ -11,12 +11,13 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: f58322fe915c811ba2613bef98116f910abc03d1
-ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
+titleSuffix: Microsoft Compliance
+ms.openlocfilehash: 758e7d0f3e82afa6cfd4b90501bd84080d8f6303
+ms.sourcegitcommit: 3dca80f268006658a0b721aa4f6df1224c7964dc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39859688"
+ms.lasthandoff: 01/22/2020
+ms.locfileid: "41260016"
 ---
 # <a name="isoiec-270172015-code-of-practice-for-information-security-controls"></a>ISO/IEC 27017:2015 정보 보안 통제를 위한 규약
 
@@ -48,6 +49,7 @@ Microsoft 클라우드에서 ISO/IEC 27017 의 혜택에 대해 알아보세요.
 - Genomics
 - 그래프
 - Intune
+- Microsoft Managed Desktop
 - 독립 실행형 서비스 혹은 Office 365 혹은 Dynamics 365에 브랜딩된 플랜 또는 제품군에 포함된 형태로서의 Microsoft Flow 클라우드 서비스
 - Office 365, Office 365 U.S. Government, Office 365 U.S. Government Defense, 및 Office 365 Germany
 - 독립 실행형 서비스 혹은 Office 365 혹은 Dynamics 365에 브랜딩된 플랜 또는 제품군에 포함된 형태로서의 PowerApps 클라우드 서비스
@@ -60,7 +62,7 @@ Microsoft 클라우드 서비스는 ISO/IEC 27001:2013에 대한 인증 프로�
 
 - [Azure ISO 27017 인증서](https://go.microsoft.com/fwlink/p/?linkid=2078005)
 - [Azure ISO 27017 평가 보고서](https://go.microsoft.com/fwlink/p/?linkid=2078010)
-- [Azure ISO 27017 적용성 보고서](https://aka.ms/azureiso27017StatementofApplicability)
+- [Azure ISO 27017 적용성 보고서](https://aka.ms/AzureISO27017StatementofApplicability)
 - [Office 365 ISO 27001, 27018, and 27017 감사 평가 보고서](https://aka.ms/o365isoreport)
 
 ## <a name="frequently-asked-questions"></a>자주하는 질문

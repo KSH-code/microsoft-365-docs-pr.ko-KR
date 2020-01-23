@@ -11,12 +11,13 @@ manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 1f4bfd1c219de2126bc6cb9443f3b899b99945c6
-ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
+titleSuffix: Microsoft Compliance
+ms.openlocfilehash: 08f05939e6cd4ebdff81fb2fd2fda47bac05e882
+ms.sourcegitcommit: 3dca80f268006658a0b721aa4f6df1224c7964dc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39859698"
+ms.lasthandoff: 01/22/2020
+ms.locfileid: "41260036"
 ---
 # <a name="iso-223012012-business-continuity-management-standard"></a>ISO 22301:2012 비즈니스 연속성 관리 표준
 
@@ -39,6 +40,7 @@ Microsoft 클라우드에서 ISO/IEC 22301의 혜택에 대해 알아보세요. 
 - Genomics
 - 그래프
 - Intune
+- Microsoft Managed Desktop
 - 독립 실행형 서비스 혹은 Office 365 혹은 Dynamics 365에 브랜딩된 플랜 또는 제품군에 포함된 형태로서의 Microsoft Flow 클라우드 서비스
 - [Office 365 상업용, 정부용 그리고 교육용](https://go.microsoft.com/fwlink/p/?linkid=2077751)
 - 독립 실행형 서비스 혹은 Office 365 혹은 Dynamics 365에 브랜딩된 플랜 또는 제품군에 포함된 형태로서의 PowerApps 클라우드 서비스
