@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: '보안 및 준수 센터를 사용하여 통합 감사 로그를 검색해 Office 365 조직의 사용자 및 관리자 활동을 확인합니다. '
-ms.openlocfilehash: 4a43573893ecc16539810cfcfe85c8df469d06dd
-ms.sourcegitcommit: e386037c9cc335c86896dc153344850735afbccd
+ms.openlocfilehash: 6b73e6bbcd9dfee6e3c04ee5c44283633ffdbac4
+ms.sourcegitcommit: 1db269c0349a252eaf3f315ee72ff679fff829f1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "39634045"
+ms.lasthandoff: 01/22/2020
+ms.locfileid: "41265896"
 ---
 # <a name="search-the-audit-log-in-the-security--compliance-center"></a>보안 및 준수 센터에서 감사 로그 검색
 
@@ -51,13 +51,13 @@ ms.locfileid: "39634045"
 
 - Yammer의 사용자 및 관리자 활동
 
-- Microsoft Flow의 사용자 및 관리자 활동
+- Microsoft Power Automate의 사용자 및 관리자 활동
 
 - Microsoft Stream의 사용자 및 관리자 활동
 
 - Microsoft Workplace Analytics의 분석가 및 관리자 활동
 
-- Microsoft PowerApps의 사용자 및 관리자 활동
+- Microsoft Power Apps의 사용자 및 관리자 활동
 
 - Microsoft Forms의 사용자 및 관리자 활동
 
@@ -65,7 +65,7 @@ ms.locfileid: "39634045"
 
 Office 365 감사 로그의 검색을 시작하기 전에 반드시 아래 내용을 읽어 보시기 바랍니다.
 
-- 먼저 관리자(또는 또 다른 관리자)가 감사 로깅을 켜야 Office 365 감사 로그를 검색할 수 있습니다. 감사 로깅을 켜려면 보안 및 준수 센터의 **감사 로그 검색** 페이지에서 **사용자 및 관리자 활동 기록 시작**을 클릭하기만 하면 됩니다. (이 링크가 표시되지 않으면 조직에 대해 감사가 이미 켜져 있는 것입니다.) 감사 로깅을 켜면 감사 로그를 준비 중이며 준비가 완료된 후 두 시간 내에 검색을 실행할 수 있다는 메시지가 표시됩니다. 이 작업은 한 번만 수행하면 됩니다.
+- 먼저 관리자(또는 또 다른 관리자)가 감사 로깅을 켜야 Office 365 감사 로그를 검색할 수 있습니다. 감사 로깅을 켜려면 보안 및 준수 센터의 **감사 로그 검색** 페이지에서 **감사 기능 설정**을 클릭합니다. (이 링크가 표시되지 않으면 조직에 대해 감사가 이미 켜져 있는 것입니다.) 감사 로깅을 켜면 감사 로그를 준비 중이며 준비가 완료된 후 두 시간 내에 검색을 실행할 수 있다는 메시지가 표시됩니다. 이 작업은 한 번만 수행하면 됩니다. 자세한 내용은 [감사 로그 검색 설정 및 해제](turn-audit-log-search-on-or-off.md)를 참조하세요.
 
   > [!NOTE]
   > 현재 기본적으로 감사가 켜지도록 구현 중입니다. 해당 기능이 구현될 때까지 앞에서 설명한 단계에 따라 직접 켜시기 바랍니다.
@@ -118,7 +118,7 @@ Office 365 감사 로그의 검색을 시작하기 전에 반드시 아래 내�
   |Dynamics 365 CRM|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
   |eDiscovery|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
   |Exchange Online|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
-  |Microsoft Flow|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
+  |Microsoft Power Automate|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
   |Microsoft Project|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
   |Microsoft Stream|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
   |Microsoft Teams|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
@@ -305,7 +305,7 @@ Office 365에서 감사 로그를 검색하는 과정은 다음과 같습니다.
 |[역할 관리 활동](#role-administration-activities)|[디렉터리 관리 활동](#directory-administration-activities)|[eDiscovery 활동](#ediscovery-activities)|
 |[고급 eDiscovery 활동](#advanced-ediscovery-activities)|[Power BI 활동](#power-bi-activities)|[Microsoft Workplace Analytics](#microsoft-workplace-analytics-activities)|
 |[Microsoft Teams 활동](#microsoft-teams-activities)|[Microsoft Teams 보건 활동](#microsoft-teams-healthcare-activities)|[Yammer 활동](#yammer-activities)|
-|[Microsoft Flow 활동](#microsoft-flow-activities)|[Microsoft PowerApps 활동](#microsoft-powerapps)|[Microsoft Stream 활동](#microsoft-stream-activities)|
+|[Microsoft Power Automate 활동](#microsoft-power-automate-activities)|[Microsoft Power Apps 활동](#microsoft-power-apps-activities)|[Microsoft Stream 활동](#microsoft-stream-activities)|
 |[Microsoft Forms 활동](#microsoft-forms-activities)|[Exchange 관리자 활동](#exchange-admin-audit-log)|||
 ||||
 
@@ -335,6 +335,7 @@ Office 365에서 감사 로그를 검색하는 과정은 다음과 같습니다.
 |(없음)|FileModifiedExtended|“파일 수정됨"(FileModified) 활동과 관련이 있습니다. FileModifiedExtended 이벤트는 동일한 사용자가 장시간(최대 3시간) 지속적으로 파일을 수정할 때 기록됩니다. <br/><br/> FileModifiedExtended 이벤트 로깅의 목적은 파일이 지속적으로 수정될 때 기록되는 FileModified 이벤트의 수를 줄이는 것입니다. 이렇게 하면 기본적으로 무엇이 동일한 사용자 활동인지에 대한 여러 FileModified 레코드의 노이즈를 줄일 수 있으며 초기( 및 중요한) FileModified 이벤트에 집중할 수 있습니다.|
 |파일 이동됨|FileMoved|사용자가 사이트의 현재 위치에서 새 위치로 문서를 이동합니다.|
 |(없음)|FilePreviewed|사용자가 SharePoint 또는 비즈니스용 OneDrive 사이트에서 파일을 미리 봅니다. 이러한 이벤트는 일반적으로 이미지 갤러리 보기와 같이 단일 활동을 기반으로 대량으로 발생합니다.|
+|수행한 검색 쿼리|SearchQueryPerformed|사용자 또는 시스템 계정이 SharePoint 또는 비즈니스용 OneDrive에서 검색을 수행합니다. 서비스 계정에서 검색 쿼리를 수행하는 몇 가지 일반적인 시나리오에는 사이트 및 OneDrive 계정에 eDiscovery 보존 또는 보존 정책을 적용하는 것과 보존 혹은 민감도 레이블이 사이트 콘텐츠에 자동으로 적용되는 경우가 포함됩니다. 대부분의 경우 감사 레코드의 사용자 필드에 기록된 서비스 계정의 이름은 **app@sharepoint**입니다. </br></br> **팁**: 수행한 검색 쿼리 활동에 대한 감사 레코드에서 ApplicationDisplayName 및 EventData 필드는 이 이벤트를 트리거한 시나리오 또는 서비스를 식별하는 데 도움이 될 수 있습니다.|
 |파일의 모든 부 버전이 재생됨|FileVersionsAllMinorsRecycled|사용자가 파일의 버전 기록에서 모든 부 버전을 삭제합니다. 삭제된 버전은 사이트의 휴지통으로 이동됩니다.|
 |파일의 모든 버전이 재생됨|FileVersionsAllRecycled|사용자가 파일의 버전 기록에서 모든 버전을 삭제합니다. 삭제된 버전은 사이트의 휴지통으로 이동됩니다.|
 |파일의 버전이 재생됨|FileVersionRecycled|사용자가 파일의 버전 기록에서 버전을 삭제합니다. 삭제된 버전은 사이트의 휴지통으로 이동됩니다.|
@@ -769,13 +770,13 @@ Workplace Analytics는 Office 365 조직에서 그룹이 공동으로 작업하�
 |파일이 조회됨|FileVisited|사용자가 파일을 조회했습니다.|
 ||||
 
-### <a name="microsoft-flow-activities"></a>Microsoft Flow 활동
+### <a name="microsoft-power-automate-activities"></a>Microsoft Power Automate 활동
 
-Microsoft Flow에서 활동에 대한 감사 로그를 검색할 수 있습니다. 이러한 활동에는 흐름 만들기, 편집, 삭제 및 흐름 사용 권한 변경이 포함됩니다. Flow 활동을 감사하는 방법에 대한 자세한 내용은 [현재 보안 및 준수 센터에서 사용할 수 있는 Microsoft Flow 감사 이벤트](https://flow.microsoft.com/blog/security-and-compliance-center)를 블로그에서 참조하세요.
+Power Automate(이전의 Microsoft Flow)에서 활동에 대한 감사 로그를 검색할 수 있습니다. 이러한 활동에는 흐름 만들기, 편집, 삭제 및 흐름의 사용 권한 변경이 포함됩니다. Power Automate 활동을 감사하는 방법에 대한 자세한 내용은 [현재 보안 및 준수 센터에서 사용할 수 있는 Microsoft Flow 감사 이벤트](https://flow.microsoft.com/blog/security-and-compliance-center)를 블로그에서 참조하세요.
 
-### <a name="microsoft-powerapps"></a>Microsoft PowerApps
+### <a name="microsoft-power-apps-activities"></a>Microsoft Power Apps 활동
 
-PowerApps에서 활동에 대한 감사 로그를 검색할 수 있습니다. 이러한 활동에는 앱을 만들고, 시작하고, 게시하는 작업이 포함됩니다. 앱에 대한 사용 권한을 할당하는 방법도 감사할 수 있습니다. 모든 PowerApps 활동에 대한 설명은 [PowerApps에 대한 활동 로깅](https://docs.microsoft.com/power-platform/admin/logging-powerapps#what-events-are-audited)을 참조하세요.
+Power Apps에서 활동에 대한 감사 로그를 검색할 수 있습니다. 이러한 활동에는 앱을 만들고, 시작하고, 게시하는 작업이 포함됩니다. 앱에 대한 사용 권한을 할당하는 방법도 감사할 수 있습니다. 모든 PowerApps 활동에 대한 설명은 [Power Apps에 대한 활동 로깅](https://docs.microsoft.com/power-platform/admin/logging-powerapps#what-events-are-audited)을 참조하세요.
 
 ### <a name="microsoft-stream-activities"></a>Microsoft Stream 활동
 
@@ -796,13 +797,13 @@ Microsoft Stream에서 활동에 대한 감사 로그를 검색할 수 있습니
 |양식 삭제됨|DeleteForm|양식 소유자가 양식을 삭제합니다. 여기에는 SoftDelete(삭제 옵션이 사용되고 양식은 휴지통으로 이동) 및 HardDelete(휴지통 비워짐)가 포함됩니다.|
 |양식을 확인함(디자인 타임)|ViewForm|양식 소유자가 편집할 기존 양식을 엽니다.|
 |양식을 미리 봄|PreviewForm|양식 소유자가 미리 보기 기능을 사용하여 양식을 미리 봅니다.|
-|양식을 내보냄|ExportForm|양식 소유자가 Excel로 결과를 내보냅니다. <br><br>속성 ExportFormat: 문자열은 Excel 파일이 다운로드이거나 온라인인 경우를 나타냅니다.|
+|양식을 내보냄|ExportForm|양식 소유자가 Excel로 결과를 내보냅니다. <br><br>속성 ExportFormat: 문자열은 Excel 파일이 다운로드인지 온라인인지를 나타냅니다. |
 |공유 양식 복사가 허용됨|AllowShareFormForCopy|양식 소유자는 다른 사용자와 양식을 공유하는 서식 파일 링크를 만듭니다. 이 이벤트는 양식 소유자가 서식 파일 URL을 생성하기 위해 클릭할 때 기록됩니다.|
 |공유 양식 복사가 허용되지 않음|DisallowShareFormForCopy|양식 소유자 서식 파일 링크를 삭제합니다.|
 |양식 공동 작성이 추가됨|AddFormCoauthor|사용자가 공동 작업 링크를 사용하여 응답을 설계/볼 수 있습니다. 이 이벤트는 사용자가 collab URL을 사용하는 경우 기록됩니다(collab URL이 처음 생성될 때 아님).|
 |양식 공동 작성이 제거됨|RemoveFormCoauthor|양식 소유자가 공동 작업 링크를 삭제합니다.|
 |응답 페이지를 확인함|ViewRuntimeForm|사용자가 보기 위해 응답 페이지를 열었습니다. 이 이벤트는 사용자가 응답을 제출하는지 여부에 관계없이 기록됩니다.|
-|응답이 만들어짐|CreateResponse|새 응답을 받는 것과 비슷함.  사용자가 양식에 응답을 제출했습니다. <br><br>속성 ResponseId: 문자열 및 속성 ResponderId: 문자열은 어떤 결과를 보고 있는지 나타냅니다. <br><br>익명 응답자의 경우 ResponderId 속성은 null입니다.|
+|응답이 만들어짐|CreateResponse|새 응답을 받는 것과 비슷함.  사용자가 양식에 응답을 제출했습니다. <br><br>속성 ResponseId: 문자열 및 속성 ResponderId: 문자열은 어떤 결과를 보고 있는지 나타냅니다. <br><br>익명의 응답자의 경우 ResponderId 속성은 null입니다.|
 |응답이 업데이트됨|UpdateResponse|양식 소유자가 퀴즈에 대한 메모나 점수를 업데이트했습니다. <br><br>속성 ResponseId: 문자열 및 속성 ResponderId: 문자열은 어떤 결과를 보고 있는지 나타냅니다. <br><br>익명 응답자의 경우 ResponderId 속성은 null입니다.|
 |모든 응답이 삭제됨|DeleteAllResponses|양식 소유자가 모든 응답 데이터를 삭제합니다.|
 |응답이 삭제됨|DeleteResponse|양식 소유자가 하나의 응답을 삭제합니다. <br><br>속성 ResponseId: 문자열은 삭제되는 응답을 나타냅니다.|
@@ -814,8 +815,8 @@ Microsoft Stream에서 활동에 대한 감사 로그를 검색할 수 있습니
 |Forms Pro 초대가 보내짐|ProInvitation|사용자가 클릭하여 Pro 평가판을 활성화합니다.|
 |양식 설정을 업데이트함|UpdateFormSetting|양식 소유자가 양식 설정을 업데이트합니다. <br><br>속성 FormSettingName: 문자열은 설정의 이름과 새 값을 나타냅니다.|
 |사용자 설정이 업데이트됨|UpdateUserSetting|양식 소유자가 사용자 설정을 업데이트합니다. <br><br>속성 UserSettingName: 문자열은 설정의 이름과 새 값을 나타냅니다.|
-|양식이 나열됨|ListForms|양식 소유자가 양식 목록을 보고 있습니다. <br><br>속성 ViewType: 문자열은 모든 양식, 나와 공유된 항목, 그룹 양식과 같이 양식 소유자가 보고 있는 것을 나타냅니다.|
-|응답이 제출됨|SubmitResponse|사용자가 양식에 응답을 제출합니다. <br><br>속성 IsInternalForm: 부울은 응답자가 양식 소유자와 동일한 조직 내에 있는 경우를 나타냅니다.|
+|양식이 나열됨|ListForms|양식 소유자가 양식 목록을 보고 있습니다. <br><br>속성 ViewType: 문자열은 모든 양식, 나와 공유된 항목, 그룹 양식과 같이 양식 소유자가 보고 있는 보기 형식을 나타냅니다.|
+|응답이 제출됨|SubmitResponse|사용자가 양식에 응답을 제출합니다. <br><br>속성 IsInternalForm: 부울은 응답자가 양식 소유자와 동일한 조직 내에 있는지를 나타냅니다.|
 ||||
 
 ### <a name="exchange-admin-audit-log"></a>Exchange 관리자 감사 로그
