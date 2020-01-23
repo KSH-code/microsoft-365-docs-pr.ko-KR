@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: ffc4d886-9e1d-453d-a0d0-2f62f18635e2
 description: 'Windows 장치를 Windows 10 Pro로 업그레이드 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: acad4a393e0870299df768fd4c821d9c1e83ecac
-ms.sourcegitcommit: cf7b0fd80ecfb7a216111a801269c5322794795e
+ms.openlocfilehash: 3457b35c5f9e313e176664ca088e64ce5dd4f881
+ms.sourcegitcommit: 1db269c0349a252eaf3f315ee72ff679fff829f1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "40995273"
+ms.lasthandoff: 01/22/2020
+ms.locfileid: "41265861"
 ---
 # <a name="upgrade-windows-devices-to-windows-10-pro"></a>Windows를 Windows 10 Pro로 업그레이드
 
@@ -50,7 +50,7 @@ Windows 10 Pro로 업그레이드 하려면 몇 가지 옵션을 사용할 수 �
     - 도구를 사용 하는 방법에 대 한 지침을 읽고 설치 미디어를 만드는 방법을 설명 합니다. 
 
 > [!NOTE]
-> Windows 장치를 실행 하는 windows 7 Pro, Windows 8 Pro 또는 Windows 8.1 Pro가 있는 경우 Microsoft 365 Business 구독을 통해 Windows Pro 10 업그레이드를 수행할 수 있습니다. 제품 키가 필요 하지 않습니다.
+> Windows 장치를 실행 하는 windows 7 Pro, Windows 8 Pro 또는 Windows 8.1 Pro가 있는 경우 Microsoft 365 Business 구독을 통해 Windows Pro 10 업그레이드를 수행할 수 있습니다.
     
 Windows 10 장치 설정을 완료 하려면 [Microsoft 365 비즈니스 사용자를 위해 windows 장치](set-up-windows-devices.md) 설치를 참조 하세요. 
   
