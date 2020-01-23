@@ -10,252 +10,195 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
-description: 관리자는 Twitter 데이터를 가져와 Office 365에 보관 하는 기본 커넥터를 설정할 수 있습니다. 이 데이터를 Office 365로 가져온 후 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용 하 여 조직의 Twitter 데이터에 대 한 관리를 관리할 수 있습니다.
-ms.openlocfilehash: ee15086c6389fa2d2e7d07412ab533301cd8a842
-ms.sourcegitcommit: ce0651075aa7e3e1b189437f1990207dd10374b0
+description: 관리자는 네이티브 커넥터를 설정 하 여 Twitter 데이터를 가져오고 Microsoft 365로 보관할 수 있습니다. 이 데이터를 Microsoft 365로 가져온 후 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용 하 여 조직의 Twitter 데이터에 대 한 관리를 관리할 수 있습니다.
+ms.openlocfilehash: 5a7d7749f99615d9fd6858be05cc63153cfe1d31
+ms.sourcegitcommit: 9b390881fe661deb0568b4b86a5a9094f3c795f0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/21/2020
-ms.locfileid: "41247471"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "41269399"
 ---
-# <a name="deploy-a-connector-to-archive-twitter-data"></a><span data-ttu-id="27298-104">Twitter 데이터를 보관 하기 위한 커넥터 배포</span><span class="sxs-lookup"><span data-stu-id="27298-104">Deploy a connector to archive Twitter data</span></span>
+# <a name="deploy-a-connector-to-archive-twitter-data"></a><span data-ttu-id="a7d83-104">Twitter 데이터를 보관 하기 위한 커넥터 배포</span><span class="sxs-lookup"><span data-stu-id="a7d83-104">Deploy a connector to archive Twitter data</span></span>
 
-<span data-ttu-id="27298-105">이 문서에는 Office 365 가져오기 서비스를 사용 하 여 조직의 Twitter 계정에서 Office 365로 데이터를 가져오는 커넥터를 배포 하는 단계별 프로세스가 포함 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="27298-105">This article contains the step-by-step process to deploy a connector that uses the Office 365 Import service to import data from your organization's Twitter account to Office 365.</span></span> <span data-ttu-id="27298-106">이 프로세스에 대 한 간략 한 개요와 Twitter 커넥터를 배포 하는 데 필요한 필수 구성 요소 목록은 [커넥터를 사용 하 여 twitter 데이터를 Office 365 (미리 보기)에 보관](archive-twitter-data-with-sample-connector.md)합니다 .를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="27298-106">For a high-level overview of this process and a list of prerequisites required to deploy a Twitter connector, see [Use a connector to archive Twitter data in Office 365 (Preview)](archive-twitter-data-with-sample-connector.md).</span></span> 
+<span data-ttu-id="a7d83-105">이 문서에는 Office 365 가져오기 서비스를 사용 하 여 조직의 Twitter 계정에서 Microsoft 365로 데이터를 가져오는 커넥터를 배포 하는 단계별 프로세스가 포함 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a7d83-105">This article contains the step-by-step process to deploy a connector that uses the Office 365 Import service to import data from your organization's Twitter account to Microsoft 365.</span></span> <span data-ttu-id="a7d83-106">이 프로세스에 대 한 간략 한 개요와 Twitter 커넥터를 배포 하는 데 필요한 필수 구성 요소 목록은 [twitter 데이터를 보관할 커넥터 설정을 ](archive-twitter-data-with-sample-connector.md)참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="a7d83-106">For a high-level overview of this process and a list of prerequisites required to deploy a Twitter connector, see [Set up a connector to archive Twitter data ](archive-twitter-data-with-sample-connector.md).</span></span> 
 
-## <a name="step-1-download-the-package"></a><span data-ttu-id="27298-107">1 단계: 패키지 다운로드</span><span class="sxs-lookup"><span data-stu-id="27298-107">Step 1: Download the package</span></span>
+## <a name="step-1-create-an-app-in-azure-active-directory"></a><span data-ttu-id="a7d83-107">1 단계: Azure Active Directory에 앱 만들기</span><span class="sxs-lookup"><span data-stu-id="a7d83-107">Step 1: Create an app in Azure Active Directory</span></span>
 
-<span data-ttu-id="27298-108">GitHub 리포지토리의 릴리스 섹션에서 미리 작성 된 패키지를 다운로드 [https://github.com/microsoft/m365-sample-twitter-connector-csharp-aspnet/releases](https://github.com/microsoft/m365-sample-twitter-connector-csharp-aspnet/releases)합니다.</span><span class="sxs-lookup"><span data-stu-id="27298-108">Download the prebuilt package from the Release section in the GitHub repository at [https://github.com/microsoft/m365-sample-twitter-connector-csharp-aspnet/releases](https://github.com/microsoft/m365-sample-twitter-connector-csharp-aspnet/releases).</span></span> <span data-ttu-id="27298-109">최신 버전의 경우 **SampleConnector**라는 zip 파일을 다운로드 합니다.</span><span class="sxs-lookup"><span data-stu-id="27298-109">Under the latest release, download the zip file named **SampleConnector.zip**.</span></span> <span data-ttu-id="27298-110">4 단계에서이 zip 파일을 Azure에 업로드 합니다.</span><span class="sxs-lookup"><span data-stu-id="27298-110">You upload this zip file to Azure in Step 4.</span></span>
-
-## <a name="step-2-create-an-app-in-azure-active-directory"></a><span data-ttu-id="27298-111">2 단계: Azure Active Directory에 앱 만들기</span><span class="sxs-lookup"><span data-stu-id="27298-111">Step 2: Create an app in Azure Active Directory</span></span>
-
-1. <span data-ttu-id="27298-112">으로 이동 <https://portal.azure.com> 하 고 Office 365 전역 관리자 계정의 자격 증명을 사용 하 여 로그인 합니다.</span><span class="sxs-lookup"><span data-stu-id="27298-112">Go to <https://portal.azure.com> and sign in using the credentials of an Office 365 global admin account.</span></span>
+1. <span data-ttu-id="a7d83-108">으로 이동 <https://portal.azure.com> 하 고 Office 365 전역 관리자 계정의 자격 증명을 사용 하 여 로그인 합니다.</span><span class="sxs-lookup"><span data-stu-id="a7d83-108">Go to <https://portal.azure.com> and sign in using the credentials of an Office 365 global admin account.</span></span>
 
    ![Azure에 로그인 합니다.](media/TCimage01.png)
 
-2. <span data-ttu-id="27298-114">왼쪽 탐색 창에서 **Azure Active Directory**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="27298-114">In the left navigation pane, click **Azure Active Directory**.</span></span>
+2. <span data-ttu-id="a7d83-110">왼쪽 탐색 창에서 **Azure Active Directory**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="a7d83-110">In the left navigation pane, click **Azure Active Directory**.</span></span>
 
    ![Azure Active Directory로 이동](media/TCimage02.png)
 
-3. <span data-ttu-id="27298-116">왼쪽 탐색 창에서 **앱 등록 (미리 보기)** 을 클릭 하 고 **새 등록**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="27298-116">In the left navigation pane, click **App registrations (Preview)** and then click **New registration**.</span></span>
+3. <span data-ttu-id="a7d83-112">왼쪽 탐색 창에서 **앱 등록 (미리 보기)** 을 클릭 하 고 **새 등록**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="a7d83-112">In the left navigation pane, click **App registrations (Preview)** and then click **New registration**.</span></span>
 
    ![새 앱 등록 만들기](media/TCimage03.png)
 
-4. <span data-ttu-id="27298-118">응용 프로그램을 등록 합니다.</span><span class="sxs-lookup"><span data-stu-id="27298-118">Register the application.</span></span> <span data-ttu-id="27298-119">**Uri 리디렉션 (선택 사항)** 아래의 응용 프로그램 형식 드롭다운 목록에서 **웹** 을 선택한 다음 URI `https://portal.azure.com` 에 대 한 상자에 입력 합니다.</span><span class="sxs-lookup"><span data-stu-id="27298-119">Under **Redirect URI (optional)**, select **Web** in the application type dropdown list and then type `https://portal.azure.com` in the box for the URI.</span></span>
+4. <span data-ttu-id="a7d83-114">응용 프로그램을 등록 합니다.</span><span class="sxs-lookup"><span data-stu-id="a7d83-114">Register the application.</span></span> <span data-ttu-id="a7d83-115">**Uri 리디렉션 (선택 사항)** 아래의 응용 프로그램 형식 드롭다운 목록에서 **웹** 을 선택한 다음 URI `https://portal.azure.com` 에 대 한 상자에 입력 합니다.</span><span class="sxs-lookup"><span data-stu-id="a7d83-115">Under **Redirect URI (optional)**, select **Web** in the application type dropdown list and then type `https://portal.azure.com` in the box for the URI.</span></span>
 
-   ![<span data-ttu-id="27298-120">리디렉션 https://portal.azure.com URI의 유형입니다.</span><span class="sxs-lookup"><span data-stu-id="27298-120">Type https://portal.azure.com for the redirect URI</span></span> ](media/TCimage04.png)
+   ![<span data-ttu-id="a7d83-116">리디렉션 https://portal.azure.com URI의 유형입니다.</span><span class="sxs-lookup"><span data-stu-id="a7d83-116">Type https://portal.azure.com for the redirect URI</span></span> ](media/TCimage04.png)
 
-5. <span data-ttu-id="27298-121">**응용 프로그램 (클라이언트) id** 및 **디렉터리 (테 넌 트) id** 를 복사한 다음 텍스트 파일 또는 기타 안전한 위치에 저장 합니다.</span><span class="sxs-lookup"><span data-stu-id="27298-121">Copy the **Application (client) ID** and **Directory (tenant) ID** and save them to a text file or other safe location.</span></span> <span data-ttu-id="27298-122">이후 단계에서 이러한 Id를 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="27298-122">You use these IDs in later steps.</span></span>
+5. <span data-ttu-id="a7d83-117">**응용 프로그램 (클라이언트) id** 및 **디렉터리 (테 넌 트) id** 를 복사한 다음 텍스트 파일 또는 기타 안전한 위치에 저장 합니다.</span><span class="sxs-lookup"><span data-stu-id="a7d83-117">Copy the **Application (client) ID** and **Directory (tenant) ID** and save them to a text file or other safe location.</span></span> <span data-ttu-id="a7d83-118">이후 단계에서 이러한 Id를 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="a7d83-118">You use these IDs in later steps.</span></span>
 
     ![응용 프로그램 Id 및 디렉터리 Id 복사 및 저장](media/TCimage05.png)
 
-6. <span data-ttu-id="27298-124">**새 앱에 대 한 인증서 & 비밀** 으로 이동 하 고 **클라이언트 암호** 에서 **새 클라이언트 암호**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="27298-124">Go to **Certificates & secrets for the new app** and under **Client secrets** click **New client secret**.</span></span>
+6. <span data-ttu-id="a7d83-120">**새 앱에 대 한 인증서 & 비밀** 으로 이동 하 고 **클라이언트 암호** 에서 **새 클라이언트 암호**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="a7d83-120">Go to **Certificates & secrets for the new app** and under **Client secrets** click **New client secret**.</span></span>
 
    ![새 클라이언트 암호 만들기](media/TCimage06.png)
 
-7. <span data-ttu-id="27298-126">새 암호를 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="27298-126">Create a new secret.</span></span> <span data-ttu-id="27298-127">설명 상자에 암호를 입력 하 고 만료 기간을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="27298-127">In the description box, type the secret and then choose an expiration period.</span></span> 
+7. <span data-ttu-id="a7d83-122">새 암호를 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="a7d83-122">Create a new secret.</span></span> <span data-ttu-id="a7d83-123">설명 상자에 암호를 입력 하 고 만료 기간을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="a7d83-123">In the description box, type the secret and then choose an expiration period.</span></span> 
 
    ![암호 입력 및 만료 기간 선택](media/TCimage08.png)
 
-8. <span data-ttu-id="27298-129">비밀 값을 복사 하 여 텍스트 파일 또는 기타 저장 위치에 저장 합니다.</span><span class="sxs-lookup"><span data-stu-id="27298-129">Copy the value of the secret and save it to a text file or other storage location.</span></span> <span data-ttu-id="27298-130">이는 이후 단계에서 사용 하는 AAD 응용 프로그램 비밀입니다.</span><span class="sxs-lookup"><span data-stu-id="27298-130">This is the AAD application secret that you use in later steps.</span></span>
+8. <span data-ttu-id="a7d83-125">비밀 값을 복사 하 여 텍스트 파일 또는 기타 저장 위치에 저장 합니다.</span><span class="sxs-lookup"><span data-stu-id="a7d83-125">Copy the value of the secret and save it to a text file or other storage location.</span></span> <span data-ttu-id="a7d83-126">이는 이후 단계에서 사용 하는 AAD 응용 프로그램 비밀입니다.</span><span class="sxs-lookup"><span data-stu-id="a7d83-126">This is the AAD application secret that you use in later steps.</span></span>
 
    ![암호 복사 및 저장](media/TCimage09.png)
 
-9. <span data-ttu-id="27298-132">다음 스크린샷에 표시 된 대로 **매니페스트로** 이동 하 여 IDENTIFIERURIS (AAD 응용 프로그램 Uri 라고도 함)를 복사 합니다.</span><span class="sxs-lookup"><span data-stu-id="27298-132">Go to **Manifest** and copy the identifierUris (which is also called the AAD application Uri) as highlighted in the following screenshot.</span></span> <span data-ttu-id="27298-133">AAD 응용 프로그램 Uri를 텍스트 파일 또는 기타 저장 위치에 복사 합니다.</span><span class="sxs-lookup"><span data-stu-id="27298-133">Copy the AAD application Uri to a text file or other storage location.</span></span> <span data-ttu-id="27298-134">6 단계에서 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="27298-134">You use it in Step 6.</span></span>
+9. <span data-ttu-id="a7d83-128">다음 스크린샷에 표시 된 대로 **매니페스트로** 이동 하 여 IDENTIFIERURIS (AAD 응용 프로그램 Uri 라고도 함)를 복사 합니다.</span><span class="sxs-lookup"><span data-stu-id="a7d83-128">Go to **Manifest** and copy the identifierUris (which is also called the AAD application Uri) as highlighted in the following screenshot.</span></span> <span data-ttu-id="a7d83-129">AAD 응용 프로그램 Uri를 텍스트 파일 또는 기타 저장 위치에 복사 합니다.</span><span class="sxs-lookup"><span data-stu-id="a7d83-129">Copy the AAD application Uri to a text file or other storage location.</span></span> <span data-ttu-id="a7d83-130">6 단계에서 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="a7d83-130">You use it in Step 6.</span></span>
 
     ![AAD 응용 프로그램 Uri 복사 및 저장](media/TCimage10.png)
 
-## <a name="step-3-create-an-azure-storage-account"></a><span data-ttu-id="27298-136">3 단계: Azure storage 계정 만들기</span><span class="sxs-lookup"><span data-stu-id="27298-136">Step 3: Create an Azure storage account</span></span>
+## <a name="step-2-deploy-the-connector-web-service-from-github-to-your-azure-account"></a><span data-ttu-id="a7d83-132">2 단계: GitHub에서 Azure 계정으로 커넥터 웹 서비스 배포</span><span class="sxs-lookup"><span data-stu-id="a7d83-132">Step 2: Deploy the connector web service from GitHub to your Azure account</span></span>
 
-1.  <span data-ttu-id="27298-137">조직의 Azure 홈 페이지로 이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="27298-137">Go to the Azure home page for your organization.</span></span>
+1. <span data-ttu-id="a7d83-133">[이 GitHub 사이트로](https://github.com/microsoft/m365-sample-twitter-connector-csharp-aspnet) 이동한 후 **Azure에 배포를**클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="a7d83-133">Go to [this GitHub site](https://github.com/microsoft/m365-sample-twitter-connector-csharp-aspnet) and click **Deploy to Azure**.</span></span>
 
-    ![Azure에 대 한 Gi 홈 페이지](media/TCimage11.png)
+    ![Azure 홈 페이지로 이동](media/FBCimage11.png)
 
-2. <span data-ttu-id="27298-139">**리소스 만들기** 를 클릭 하 고 검색 상자에 **저장소 계정을** 입력 합니다.</span><span class="sxs-lookup"><span data-stu-id="27298-139">Click **Create a resource** and they type **storage account** in the search box.</span></span>
+2. <span data-ttu-id="a7d83-135">**Azure에 배포**를 클릭 하면 사용자 지정 서식 파일 페이지를 사용 하 여 azure 포털로 리디렉션됩니다.</span><span class="sxs-lookup"><span data-stu-id="a7d83-135">After you click **Deploy to Azure**, you will be redirected to an Azure portal with a custom template page.</span></span> <span data-ttu-id="a7d83-136">**기본 사항** 및 **설정** 세부 정보를 입력 하 고 **구매**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="a7d83-136">Fill in the **Basics** and **Settings** details and then click **Purchase**.</span></span>
 
-   ![저장소 계정 리소스 만들기](media/TCimage12.png)
+   ![리소스 만들기 및 저장소 계정 입력을 클릭 합니다.](media/FBCimage12.png)
 
-3. <span data-ttu-id="27298-141">**저장소**를 클릭 한 다음 **저장소 계정을**클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="27298-141">Click **Storage**, and then click **Storage account**.</span></span>
+    - <span data-ttu-id="a7d83-138">**구독:** Twitter 커넥터 웹 서비스를 배포 하려는 Azure 구독을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="a7d83-138">**Subscription:** Select your Azure subscription that you want to deploy the Twitter connector web service to.</span></span>
+    
+    - <span data-ttu-id="a7d83-139">**리소스 그룹:** 새 리소스 그룹을 선택 하거나 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="a7d83-139">**Resource group:** Choose or create a new resource group.</span></span> <span data-ttu-id="a7d83-140">리소스 그룹은 Azure 솔루션에 대 한 관련 리소스를 포함 하는 컨테이너입니다.</span><span class="sxs-lookup"><span data-stu-id="a7d83-140">A resource group is a container that holds related resources for an Azure solution.</span></span>
 
-   ![저장소를 클릭 한 다음 저장소 계정을 클릭 합니다.](media/TCimage13.png)
+    - <span data-ttu-id="a7d83-141">**위치:** 위치를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="a7d83-141">**Location:** Choose a location.</span></span>
 
-4. <span data-ttu-id="27298-143">**저장소 계정 만들기** 페이지의 구독 상자에서 사용 중인 Azure 구독 유형에 따라 **유료** 또는 **무료 평가판** 을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="27298-143">On the **Create storage account** page, in the Subscription box, select **Pay-As-You-Go** or **Free Trial** depending on which type of Azure subscription you have.</span></span> 
+    - <span data-ttu-id="a7d83-142">**웹 응용 프로그램 이름:** 커넥터 웹 응용 프로그램의 고유한 이름을 지정 합니다.</span><span class="sxs-lookup"><span data-stu-id="a7d83-142">**Web App Name:** Provide a unique name for the connector web app.</span></span> <span data-ttu-id="a7d83-143">Th 이름의 길이는 3에서 18 자 사이 여야 합니다.</span><span class="sxs-lookup"><span data-stu-id="a7d83-143">Th name must be between 3 and 18 characters in length.</span></span> <span data-ttu-id="a7d83-144">이 이름은 Azure app service URL을 만드는 데 사용 됩니다. 예를 들어, 웹 앱 이름을 **twitterconnector** 로 제공 하는 경우 Azure APP service URL이 **twitterconnector.azurewebsites.net**됩니다.</span><span class="sxs-lookup"><span data-stu-id="a7d83-144">This name is used to create the Azure app service URL; for example, if you provide the Web app name of **twitterconnector** then the Azure app service URL  will be **twitterconnector.azurewebsites.net**.</span></span>
+    
+    - <span data-ttu-id="a7d83-145">**tenantId:** 1 단계에서 Azure Active Directory에 Facebook connector 앱을 만든 후 복사한 Microsoft 365 조직의 테 넌 트 ID입니다.</span><span class="sxs-lookup"><span data-stu-id="a7d83-145">**tenantId:** The tenant ID of your Microsoft 365 organization that you copied after creating the Facebook connector app in Azure       Active Directory in Step 1.</span></span>
+    
+   - <span data-ttu-id="a7d83-146">**APISecretKey:** 임의의 값을 비밀로 입력할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a7d83-146">**APISecretKey:** You can type any value as the secret.</span></span> <span data-ttu-id="a7d83-147">이는 5 단계에서 커넥터 웹 앱에 액세스 하는 데 사용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="a7d83-147">This is used to access the connector web app in Step 5.</span></span>
 
-   ![저장소 계정 유형 선택](media/TCimage14.png)
+3. <span data-ttu-id="a7d83-148">배포가 성공적으로 완료 되 면 페이지는 다음 스크린샷과 유사 하 게 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="a7d83-148">After the deployment is successful, the page will look similar to the following screenshot:</span></span>
 
-5. <span data-ttu-id="27298-145">리소스 그룹을 선택 하거나 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="27298-145">Select or create a resource group.</span></span>
+    ![저장소를 클릭 한 다음 저장소 계정을 클릭 합니다.](media/FBCimage13.png)
 
-   ![리소스 그룹 선택 또는 만들기](media/TCimage15.png)
+## <a name="step-3-create-the-twitter-app"></a><span data-ttu-id="a7d83-150">3 단계: Twitter 응용 프로그램 만들기</span><span class="sxs-lookup"><span data-stu-id="a7d83-150">Step 3: Create the Twitter app</span></span>
 
-6. <span data-ttu-id="27298-147">저장소 계정의 이름을 입력 합니다.</span><span class="sxs-lookup"><span data-stu-id="27298-147">Type a name for the storage account.</span></span>
-
-   ![저장소 계정 이름](media/TCimage16.png)
-
-7. <span data-ttu-id="27298-149">검토 한 다음 **만들기** 를 클릭 하 여 저장소 계정을 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="27298-149">Review and then click **Create** to create the storage account.</span></span>
-
-   ![설정 검토 후 저장소 계정 만들기](media/TCimage17.png)
-
-8. <span data-ttu-id="27298-151">잠시 후 **새로 고침** 을 클릭 하 고 **리소스로 이동을** 클릭 하 여 저장소 계정으로 이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="27298-151">After a few moments, click **Refresh** and then click **Go to resource** to navigate to the storage account.</span></span>
-
-   ![방금 만든 저장소 계정으로 이동 합니다.](media/TCimage18.png)
-
-9. <span data-ttu-id="27298-153">왼쪽 탐색 창에서 **Access 키** 를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="27298-153">Click **Access keys** in the left navigation pane.</span></span>
-
-   ![선택 키 클릭](media/TCimage19.png)
-
-10. <span data-ttu-id="27298-155">**연결 문자열** 을 복사 하 여 텍스트 파일 또는 기타 저장 위치에 저장 합니다.</span><span class="sxs-lookup"><span data-stu-id="27298-155">Copy a **Connection string** and save it to a text file or other storage location.</span></span> <span data-ttu-id="27298-156">4 단계에서 웹 앱 리소스를 만들 때이 방법을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="27298-156">You use this when creating a web app resource in Step 4.</span></span>
-
-    ![연결 문자열 복사](media/TCimage20.png)
-
-## <a name="step-4-create-a-new-web-app-resource-in-azure"></a><span data-ttu-id="27298-158">4 단계: Azure에서 새 웹 앱 리소스 만들기</span><span class="sxs-lookup"><span data-stu-id="27298-158">Step 4: Create a new web app resource in Azure</span></span>
-
-1. <span data-ttu-id="27298-159">Azure portal의 **홈** 페이지에서 **모든 \> \> 리소스 만들기 웹 앱**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="27298-159">On the **Home** page in the Azure portal, click **Create a resource \> Everything \> Web app**.</span></span> <span data-ttu-id="27298-160">**웹 앱** 페이지에서 **만들기**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="27298-160">On the **Web app** page, click **Create**.</span></span>
-
-   ![Azure에서 웹 앱 리소스 만들기](media/TCimage21.png)
-
-2. <span data-ttu-id="27298-162">아래와 같이 세부 정보를 입력 하 고 웹 앱을 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="27298-162">Fill in the details (as shown below) and then create the Web app.</span></span> <span data-ttu-id="27298-163">**앱 이름** 상자에 입력 한 이름은 Azure 앱 서비스 URL을 만드는 데 사용 됩니다. 예: twitterconnector.azurewebsites.net.</span><span class="sxs-lookup"><span data-stu-id="27298-163">The name that you enter in the **App name** box is used to create the Azure app service URL; for example, twitterconnector.azurewebsites.net.</span></span>
-
-   ![<span data-ttu-id="27298-164">웹 앱 리소스의 형식 이름입니다. 예를 들어 twitterconnector.azurewebsites.net</span><span class="sxs-lookup"><span data-stu-id="27298-164">Type name for the web app resource; for example twitterconnector.azurewebsites.net</span></span> ](media/TCimage22.png)
-
-3. <span data-ttu-id="27298-165">새로 만든 웹 앱 리소스로 이동 하 여 왼쪽 탐색 창에서 **응용 프로그램 설정을** 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="27298-165">Go to the newly created web app resource and click **Application Settings** in the left navigation pane.</span></span> <span data-ttu-id="27298-166">**응용 프로그램 설정**에서 **새 설정 추가** 를 클릭 하 고 다음 세 가지 설정을 추가 합니다.</span><span class="sxs-lookup"><span data-stu-id="27298-166">Under **Application settings**, click **Add new setting** and add the following three settings.</span></span> <span data-ttu-id="27298-167">이전 단계의 텍스트 파일에 복사한 값을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="27298-167">Use the values (that you copied to the text file from the previous steps):</span></span> 
-
-    - <span data-ttu-id="27298-168">**APISecretKey** – 임의의 값을 비밀로 입력할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="27298-168">**APISecretKey** – You can type any value as the secret.</span></span> <span data-ttu-id="27298-169">이는 7 단계에서 커넥터 웹 앱에 액세스 하는 데 사용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="27298-169">This is used to access the connector web app in Step 7.</span></span>
-
-    - <span data-ttu-id="27298-170">**Storageaccountconnectionstring** -3 단계에서 Azure storage 계정을 만든 후 복사한 연결 문자열 Uri입니다.</span><span class="sxs-lookup"><span data-stu-id="27298-170">**StorageAccountConnectionString** – The connection string Uri that you copied after creating the Azure storage account in Step 3.</span></span>
-
-    - <span data-ttu-id="27298-171">**tenantId** -2 단계에서 Azure Active Directory에 Twitter 커넥터 앱을 만든 후 복사한 Office 365 조직의 테 넌 트 ID입니다.</span><span class="sxs-lookup"><span data-stu-id="27298-171">**tenantId** – The tenant ID of your Office 365 organization that you copied after creating the Twitter connector app in Azure Active Directory in Step 2.</span></span>
-
-    ![앱 설정 추가](media/TCimage23.png)
-
-4. <span data-ttu-id="27298-173">**일반 설정**에서 **Always (켜기**) **옆의을 클릭 합니다** .</span><span class="sxs-lookup"><span data-stu-id="27298-173">Under **General settings**, click **On** next to the **Always On**.</span></span> <span data-ttu-id="27298-174">페이지 맨 위에 있는 **저장** 을 클릭 하 여 응용 프로그램 설정을 저장 합니다.</span><span class="sxs-lookup"><span data-stu-id="27298-174">Click **Save** at the top of the page to save the application settings.</span></span>
-
-   ![웹 앱 리소스를 켠 다음 저장](media/TCimage24.png)
-
-5. <span data-ttu-id="27298-176">마지막 단계에서는 1 단계에서 다운로드 한 Azure에 커넥터 응용 프로그램 소스 코드를 업로드 합니다.</span><span class="sxs-lookup"><span data-stu-id="27298-176">The final step is to upload the connector app source code to Azure that you downloaded in Step 1.</span></span> <span data-ttu-id="27298-177">웹 브라우저에서 scm.azurewebsites.net/ZipDeployUi로 이동 합니다.<AzureAppResourceName>https://.</span><span class="sxs-lookup"><span data-stu-id="27298-177">In a web browser, go to https://<AzureAppResourceName>.scm.azurewebsites.net/ZipDeployUi.</span></span> <span data-ttu-id="27298-178">예를 들어이 섹션의 2 단계에서 이름이 지정 된 Azure 앱 리소스의 이름이 **twitterconnector**인 경우로 https://twitterconnector.scm.azurewebsites.net/ZipDeployUi이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="27298-178">For example, if the name of your Azure app resource (which you named in step 2 in this section) is **twitterconnector**, then you would go to https://twitterconnector.scm.azurewebsites.net/ZipDeployUi.</span></span>
-
-6. <span data-ttu-id="27298-179">1 단계에서 다운로드 한 SampleConnector을이 페이지로 끌어서 놓습니다.</span><span class="sxs-lookup"><span data-stu-id="27298-179">Drag and drop the SampleConnector.zip (that you downloaded in Step 1) to this page.</span></span> <span data-ttu-id="27298-180">파일이 업로드 되 고 배포가 성공적으로 수행 되 면 페이지는 다음 스크린샷과 유사 하 게 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="27298-180">After the files are uploaded and the deployment is successful, the page will look similar to the following screenshot:</span></span>
-
-   ![SampleConnector 파일을 끌어서이 페이지에 저장](media/TCimage25.png)
-
-## <a name="step-5-create-the-twitter-app"></a><span data-ttu-id="27298-182">5 단계: Twitter 응용 프로그램 만들기</span><span class="sxs-lookup"><span data-stu-id="27298-182">Step 5: Create the Twitter app</span></span>
-
-1. <span data-ttu-id="27298-183">https://developer.twitter.com으로 이동 하 고 조직의 개발자 계정에 대 한 자격 증명을 사용 하 여 로그인 한 다음 **앱**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="27298-183">Go to https://developer.twitter.com, log in using the credentials for the developer account for your organization, and then click **Apps**.</span></span>
+1. <span data-ttu-id="a7d83-151">https://developer.twitter.com으로 이동 하 고 조직의 개발자 계정에 대 한 자격 증명을 사용 하 여 로그인 한 다음 **앱**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="a7d83-151">Go to https://developer.twitter.com, log in using the credentials for the developer account for your organization, and then click **Apps**.</span></span>
 
    ![으로 이동 https://developer.twitter.com 하 여 로그인 합니다.](media/TCimage25-5.png)
-2. <span data-ttu-id="27298-185">**앱 만들기**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="27298-185">Click **Create an app**.</span></span>
+2. <span data-ttu-id="a7d83-153">**앱 만들기**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="a7d83-153">Click **Create an app**.</span></span>
    
    ![앱을 만들려면 앱 페이지로 이동](media/TCimage26.png)
 
-3. <span data-ttu-id="27298-187">**앱 세부 정보**에서 응용 프로그램에 대 한 정보를 추가 합니다.</span><span class="sxs-lookup"><span data-stu-id="27298-187">Under **App details**, add information about the application.</span></span>
+3. <span data-ttu-id="a7d83-155">**앱 세부 정보**에서 응용 프로그램에 대 한 정보를 추가 합니다.</span><span class="sxs-lookup"><span data-stu-id="a7d83-155">Under **App details**, add information about the application.</span></span>
 
    ![앱에 대 한 정보 입력](media/TCimage27.png)
 
-4. <span data-ttu-id="27298-189">Twitter 개발자 대시보드에서 방금 만든 앱을 선택 하 고 표시 된 앱 ID를 복사한 다음 텍스트 파일 또는 기타 저장 위치에 저장 합니다.</span><span class="sxs-lookup"><span data-stu-id="27298-189">On the Twitter developer dashboard, select the app that you just created and copy the App ID that's displayed  and save it to a text file or other storage location.</span></span> <span data-ttu-id="27298-190">그런 다음 **세부 정보**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="27298-190">Then click **Details**.</span></span>
+4. <span data-ttu-id="a7d83-157">Twitter 개발자 대시보드에서 방금 만든 앱을 선택 하 고 표시 된 앱 ID를 복사한 다음 텍스트 파일 또는 기타 저장 위치에 저장 합니다.</span><span class="sxs-lookup"><span data-stu-id="a7d83-157">On the Twitter developer dashboard, select the app that you just created and copy the App ID that's displayed  and save it to a text file or other storage location.</span></span> <span data-ttu-id="a7d83-158">그런 다음 **세부 정보**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="a7d83-158">Then click **Details**.</span></span>
    
    ![앱 Id 복사 및 저장](media/TCimage28.png)
 
-5. <span data-ttu-id="27298-192">**키 및 토큰** 탭의 **Consumer api 키** 아래에서 API 비밀 키를 복사 하 여 텍스트 파일 또는 기타 저장 위치에 저장 합니다.</span><span class="sxs-lookup"><span data-stu-id="27298-192">On the **Keys and tokens** tab, under **Consumer API keys** copy the API secret key and save it to a text file or other storage location.</span></span> <span data-ttu-id="27298-193">그런 다음 **만들기** 를 클릭 하 여 액세스 토큰과 액세스 토큰 비밀을 생성 한 다음 텍스트 파일 또는 기타 저장소 위치로 복사 합니다.</span><span class="sxs-lookup"><span data-stu-id="27298-193">Then click **Create** to generate an access token and an access token secret, and copy these to a text file or other storage location.</span></span>
+5. <span data-ttu-id="a7d83-160">**키 및 토큰** 탭의 **Consumer api 키** 아래에서 API 비밀 키를 복사 하 여 텍스트 파일 또는 기타 저장 위치에 저장 합니다.</span><span class="sxs-lookup"><span data-stu-id="a7d83-160">On the **Keys and tokens** tab, under **Consumer API keys** copy the API secret key and save it to a text file or other storage location.</span></span> <span data-ttu-id="a7d83-161">그런 다음 **만들기** 를 클릭 하 여 액세스 토큰과 액세스 토큰 비밀을 생성 한 다음 텍스트 파일 또는 기타 저장소 위치로 복사 합니다.</span><span class="sxs-lookup"><span data-stu-id="a7d83-161">Then click **Create** to generate an access token and an access token secret, and copy these to a text file or other storage location.</span></span>
    
    ![API 비밀 키에 복사 및 저장](media/TCimage29.png)
 
-   <span data-ttu-id="27298-195">그런 다음 **만들기** 를 클릭 하 여 액세스 토큰과 액세스 토큰 비밀을 생성 한 다음 텍스트 파일 또는 기타 저장소 위치로 복사 합니다.</span><span class="sxs-lookup"><span data-stu-id="27298-195">Then click **Create** to generate an access token and an access token secret, and copy these to a text file or other storage location.</span></span>
+   <span data-ttu-id="a7d83-163">그런 다음 **만들기** 를 클릭 하 여 액세스 토큰과 액세스 토큰 비밀을 생성 한 다음 텍스트 파일 또는 기타 저장소 위치로 복사 합니다.</span><span class="sxs-lookup"><span data-stu-id="a7d83-163">Then click **Create** to generate an access token and an access token secret, and copy these to a text file or other storage location.</span></span>
 
-6. <span data-ttu-id="27298-196">**사용 권한** 탭을 클릭 하 고 다음 스크린샷에 표시 된 대로 사용 권한을 구성 합니다.</span><span class="sxs-lookup"><span data-stu-id="27298-196">Click the **Permissions** tab and configure the permissions as shown in the following screenshot:</span></span>
+6. <span data-ttu-id="a7d83-164">**사용 권한** 탭을 클릭 하 고 다음 스크린샷에 표시 된 대로 사용 권한을 구성 합니다.</span><span class="sxs-lookup"><span data-stu-id="a7d83-164">Click the **Permissions** tab and configure the permissions as shown in the following screenshot:</span></span>
 
    ![사용 권한 구성](media/TCimage30.png)
 
-7. <span data-ttu-id="27298-198">권한 설정을 저장 한 후에는 **앱 세부 정보** 탭을 클릭 한 다음 **세부 정보 편집 >** 편집을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="27298-198">After you save the permission settings, click the **App details** tab, and then click **Edit > Edit details**.</span></span>
+7. <span data-ttu-id="a7d83-166">권한 설정을 저장 한 후에는 **앱 세부 정보** 탭을 클릭 한 다음 **세부 정보 편집 >** 편집을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="a7d83-166">After you save the permission settings, click the **App details** tab, and then click **Edit > Edit details**.</span></span>
 
    ![앱 세부 정보 편집](media/TCimage31.png)
 
-8. <span data-ttu-id="27298-200">다음 작업을 수행 합니다.</span><span class="sxs-lookup"><span data-stu-id="27298-200">Do the following tasks:</span></span>
+8. <span data-ttu-id="a7d83-168">다음 작업을 수행 합니다.</span><span class="sxs-lookup"><span data-stu-id="a7d83-168">Do the following tasks:</span></span>
 
-   - <span data-ttu-id="27298-201">커넥터 앱이 Twitter에 로그인 하도록 허용 하는 확인란을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="27298-201">Select the checkbox to allow the connector app to sign in to Twitter.</span></span>
+   - <span data-ttu-id="a7d83-169">커넥터 앱이 Twitter에 로그인 하도록 허용 하는 확인란을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="a7d83-169">Select the checkbox to allow the connector app to sign in to Twitter.</span></span>
    
-   - <span data-ttu-id="27298-202">*Connectorserviceuri* 의 값이 조직의 Azure app 서비스 URL 인 \*\* \<connectorserviceuri>/views/twitteroauth\*\*형식을 사용 하 여 OAuth 리디렉션 Uri를 추가 합니다. 예를 https://twitterconnector.azurewebsites.net/Views/TwitterOAuth들면입니다.</span><span class="sxs-lookup"><span data-stu-id="27298-202">Add the OAuth redirect Uri using the following format: **\<connectorserviceuri>/Views/TwitterOAuth**, where the value of *connectorserviceuri* is the Azure app service URL for your organization; for example, https://twitterconnector.azurewebsites.net/Views/TwitterOAuth.</span></span>
+   - <span data-ttu-id="a7d83-170">*Connectorserviceuri* 의 값이 조직의 Azure app 서비스 URL 인 \*\* \<connectorserviceuri>/views/twitteroauth\*\*형식을 사용 하 여 OAuth 리디렉션 Uri를 추가 합니다. 예를 https://twitterconnector.azurewebsites.net/Views/TwitterOAuth들면입니다.</span><span class="sxs-lookup"><span data-stu-id="a7d83-170">Add the OAuth redirect Uri using the following format: **\<connectorserviceuri>/Views/TwitterOAuth**, where the value of *connectorserviceuri* is the Azure app service URL for your organization; for example, https://twitterconnector.azurewebsites.net/Views/TwitterOAuth.</span></span>
 
     ![커넥터 앱이 Twitter에 로그인 하 고 OAuth 리디렉션 Uri를 추가할 수 있도록 허용](media/TCimage32.png)
 
-<span data-ttu-id="27298-204">이제 Twitter 개발자 앱을 사용할 준비가 되었습니다.</span><span class="sxs-lookup"><span data-stu-id="27298-204">The Twitter developer app is now ready to use.</span></span>
+<span data-ttu-id="a7d83-172">이제 Twitter 개발자 앱을 사용할 준비가 되었습니다.</span><span class="sxs-lookup"><span data-stu-id="a7d83-172">The Twitter developer app is now ready to use.</span></span>
 
-## <a name="step-6-configure-the-connector-web-app"></a><span data-ttu-id="27298-205">6 단계: 커넥터 웹 응용 프로그램 구성</span><span class="sxs-lookup"><span data-stu-id="27298-205">Step 6: Configure the connector web app</span></span> 
+## <a name="step-4-configure-the-connector-web-app"></a><span data-ttu-id="a7d83-173">4 단계: 커넥터 웹 응용 프로그램 구성</span><span class="sxs-lookup"><span data-stu-id="a7d83-173">Step 4: Configure the connector web app</span></span> 
 
-1. <span data-ttu-id="27298-206">Https://\<AzureAppResourceName> azurewebsites.net (여기서 **AzureAppResourceName** 은 4 단계에서 명명 한 Azure 앱 리소스의 이름)으로 이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="27298-206">Go to https://\<AzureAppResourceName>.azurewebsites.net (where **AzureAppResourceName** is the name of your Azure app resource that you named in Step 4).</span></span> <span data-ttu-id="27298-207">예를 들어 이름이 **twitterconnector**인 경우로 https://twitterconnector.azurewebsites.net이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="27298-207">For example, if the name is **twitterconnector**, go to https://twitterconnector.azurewebsites.net.</span></span> <span data-ttu-id="27298-208">이 앱의 홈 페이지는 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="27298-208">The home page of the app looks like the following screenshot:</span></span>
+1. <span data-ttu-id="a7d83-174">Https://\<AzureAppResourceName> azurewebsites.net (여기서 **AzureAppResourceName** 은 4 단계에서 명명 한 Azure 앱 리소스의 이름)으로 이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="a7d83-174">Go to https://\<AzureAppResourceName>.azurewebsites.net (where **AzureAppResourceName** is the name of your Azure app resource that you named in Step 4).</span></span> <span data-ttu-id="a7d83-175">예를 들어 이름이 **twitterconnector**인 경우로 https://twitterconnector.azurewebsites.net이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="a7d83-175">For example, if the name is **twitterconnector**, go to https://twitterconnector.azurewebsites.net.</span></span> <span data-ttu-id="a7d83-176">이 앱의 홈 페이지는 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="a7d83-176">The home page of the app looks like the following screenshot:</span></span>
 
    ![Azure 앱 리소스 페이지로 이동](media/FBCimage41.png)
 
-2. <span data-ttu-id="27298-210">**구성을** 클릭 하 여 로그인 페이지를 표시 합니다.</span><span class="sxs-lookup"><span data-stu-id="27298-210">Click **Configure** to display a sign in page.</span></span>
+2. <span data-ttu-id="a7d83-178">**구성을** 클릭 하 여 로그인 페이지를 표시 합니다.</span><span class="sxs-lookup"><span data-stu-id="a7d83-178">Click **Configure** to display a sign in page.</span></span>
 
    ![로그인 페이지를 표시 하려면 구성을 클릭 합니다.](media/FBCimage42.png)
 
-3. <span data-ttu-id="27298-212">테 넌 트 Id 상자에 2 단계에서 받은 테 넌 트 Id를 입력 하거나 붙여 넣습니다.</span><span class="sxs-lookup"><span data-stu-id="27298-212">In the Tenant Id box, type or paste your tenant Id (that you obtained in Step 2).</span></span> <span data-ttu-id="27298-213">암호 상자에 2 단계에서 구한 APISecretKey를 입력 하거나 붙여 넣은 다음 **구성 설정 설정을** 클릭 하 여 **구성 세부 정보** 페이지를 표시 합니다.</span><span class="sxs-lookup"><span data-stu-id="27298-213">In the password box, type or paste the APISecretKey (that you obtained in Step 2), and then click **Set Configuration Settings** to display the **Configuration Details** page.</span></span>
+3. <span data-ttu-id="a7d83-180">테 넌 트 Id 상자에 2 단계에서 받은 테 넌 트 Id를 입력 하거나 붙여 넣습니다.</span><span class="sxs-lookup"><span data-stu-id="a7d83-180">In the Tenant Id box, type or paste your tenant Id (that you obtained in Step 2).</span></span> <span data-ttu-id="a7d83-181">암호 상자에 2 단계에서 구한 APISecretKey를 입력 하거나 붙여 넣은 다음 **구성 설정 설정을** 클릭 하 여 구성 세부 정보 페이지를 표시 합니다.</span><span class="sxs-lookup"><span data-stu-id="a7d83-181">In the password box, type or paste the APISecretKey (that you obtained in Step 2), and then click **Set Configuration Settings** to display the configuration details page.</span></span>
 
    ![테 넌 트 Id 및 API 비밀 키를 사용 하 여 로그인](media/TCimage35.png)
 
-4. <span data-ttu-id="27298-215">**구성 세부 정보**에서 다음 구성 설정을 입력 합니다.</span><span class="sxs-lookup"><span data-stu-id="27298-215">Under **Configuration Details**, enter the following configuration settings</span></span> 
+4. <span data-ttu-id="a7d83-183">다음 구성 설정을 입력 합니다.</span><span class="sxs-lookup"><span data-stu-id="a7d83-183">Enter the following configuration settings</span></span> 
 
-   - <span data-ttu-id="27298-216">**Twitter Api 키** -5 단계에서 만든 Twitter 응용 프로그램의 앱 ID입니다.</span><span class="sxs-lookup"><span data-stu-id="27298-216">**Twitter Api Key** – The app ID for the Twitter application that you created in Step 5.</span></span>
-   - <span data-ttu-id="27298-217">**Twitter Api 비밀 키** -5 단계에서 만든 Twitter 응용 프로그램에 대 한 Api 비밀 키입니다.</span><span class="sxs-lookup"><span data-stu-id="27298-217">**Twitter Api Secret Key** – The API secret key for the Twitter application that you created in Step 5.</span></span>
-   - <span data-ttu-id="27298-218">**Twitter 액세스 토큰** -5 단계에서 만든 액세스 토큰입니다.</span><span class="sxs-lookup"><span data-stu-id="27298-218">**Twitter Access Token** – The access token that you created in Step 5.</span></span>
-   - <span data-ttu-id="27298-219">**Twitter 액세스 토큰 비밀** -5 단계에서 만든 액세스 토큰 비밀입니다.</span><span class="sxs-lookup"><span data-stu-id="27298-219">**Twitter Access Token Secret** – The access token secret that you created in Step 5.</span></span>
-   - <span data-ttu-id="27298-220">**AAD 응용 프로그램 id** -2 단계에서 만든 Azure Active Directory 앱의 응용 프로그램 id</span><span class="sxs-lookup"><span data-stu-id="27298-220">**AAD Application ID** – The application ID for the Azure Active Directory app that you created in Step 2</span></span>
-   - <span data-ttu-id="27298-221">**AAD 응용 프로그램 비밀** -4 단계에서 만든 APISecretKey 암호에 대 한 값입니다.</span><span class="sxs-lookup"><span data-stu-id="27298-221">**AAD Application Secret** – The value for the APISecretKey secret that you created in Step 4.</span></span>
-   - <span data-ttu-id="27298-222">**Aad 응용 프로그램 uri** -2 단계에서 가져온 aad 응용 프로그램 uri 예를 `https://microsoft.onmicrosoft.com/2688yu6n-12q3-23we-e3ee-121111123213`들면입니다.</span><span class="sxs-lookup"><span data-stu-id="27298-222">**AAD Application Uri** – The AAD application Uri obtained in Step 2; for example, `https://microsoft.onmicrosoft.com/2688yu6n-12q3-23we-e3ee-121111123213`.</span></span>
-   - <span data-ttu-id="27298-223">**App Insights Instrumentation 키** -이 상자를 비워 둡니다.</span><span class="sxs-lookup"><span data-stu-id="27298-223">**App Insights Instrumentation Key** – Leave this box blank.</span></span>
+   - <span data-ttu-id="a7d83-184">**Twitter Api 키:** 3 단계에서 만든 Twitter 응용 프로그램의 앱 ID입니다.</span><span class="sxs-lookup"><span data-stu-id="a7d83-184">**Twitter Api Key:** The app ID for the Twitter application that you created in Step 3.</span></span>
+   
+   - <span data-ttu-id="a7d83-185">**Twitter Api 비밀 키:** 3 단계에서 만든 Twitter 응용 프로그램에 대 한 API 비밀 키입니다.</span><span class="sxs-lookup"><span data-stu-id="a7d83-185">**Twitter Api Secret Key:** The API secret key for the Twitter application that you created in Step 3.</span></span>
+   
+   - <span data-ttu-id="a7d83-186">**Twitter 액세스 토큰:** 3 단계에서 만든 액세스 토큰입니다.</span><span class="sxs-lookup"><span data-stu-id="a7d83-186">**Twitter Access Token:** The access token that you created in Step 3.</span></span>
+   
+   - <span data-ttu-id="a7d83-187">**Twitter 액세스 토큰 암호:** 3 단계에서 만든 액세스 토큰 비밀입니다.</span><span class="sxs-lookup"><span data-stu-id="a7d83-187">**Twitter Access Token Secret:** The access token secret that you created in Step 3.</span></span>
+   
+   - <span data-ttu-id="a7d83-188">**AAD 응용 프로그램 ID:** 1 단계에서 만든 Azure Active Directory 앱의 응용 프로그램 ID</span><span class="sxs-lookup"><span data-stu-id="a7d83-188">**AAD Application ID:** The application ID for the Azure Active Directory app that you created in Step 1</span></span>
+   
+   - <span data-ttu-id="a7d83-189">**AAD 응용 프로그램 암호:** 1 단계에서 만든 APISecretKey 암호에 대 한 값입니다.</span><span class="sxs-lookup"><span data-stu-id="a7d83-189">**AAD Application Secret:** The value for the APISecretKey secret that you created in Step 1.</span></span>
 
-5. <span data-ttu-id="27298-224">**저장** 을 클릭 하 여 커넥터 설정을 저장 합니다.</span><span class="sxs-lookup"><span data-stu-id="27298-224">Click **Save** to save the connector settings.</span></span>
+5. <span data-ttu-id="a7d83-190">**저장** 을 클릭 하 여 커넥터 설정을 저장 합니다.</span><span class="sxs-lookup"><span data-stu-id="a7d83-190">Click **Save** to save the connector settings.</span></span>
 
-## <a name="step-7-set-up-a-custom-connector-in-the-security-and-compliance-center"></a><span data-ttu-id="27298-225">7 단계: 보안 및 준수 센터에서 사용자 지정 커넥터 설정</span><span class="sxs-lookup"><span data-stu-id="27298-225">Step 7: Set up a custom connector in the security and compliance center</span></span>
+## <a name="step-5-set-up-a-twitter-connector-in-the-microsoft-365-compliance-center"></a><span data-ttu-id="a7d83-191">5 단계: Microsoft 365 준수 센터에서 Twitter 커넥터 설정</span><span class="sxs-lookup"><span data-stu-id="a7d83-191">Step 5: Set up a Twitter connector in the Microsoft 365 compliance center</span></span>
 
-1.  <span data-ttu-id="27298-226">로 이동한 <https://protection.office.com> 다음 **정보 거 버 넌 \> 스 \> 의 타사 데이터 가져오기**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="27298-226">Go to <https://protection.office.com> and then click **Information governance \> Import \> Archive third-party data**.</span></span>
+1. <span data-ttu-id="a7d83-192">로 이동한 [https://compliance.microsoft.com](https://compliance.microsoft.com) 후 왼쪽 탐색 창에서 **데이터 커넥터** 를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="a7d83-192">Go to [https://compliance.microsoft.com](https://compliance.microsoft.com) and then click **Data connectors** in the left nav.</span></span>
 
-    ![보안 및 준수 센터에서 타사 데이터 페이지로 이동](media/TCimage36.png)
+2. <span data-ttu-id="a7d83-193">**데이터 커넥터 (미리 보기)** 페이지의 **Twitter**아래에서 **보기**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="a7d83-193">On the **Data connectors (preview)** page under **Twitter**, click **View**.</span></span>
 
-2. <span data-ttu-id="27298-228">**커넥터 추가** 를 클릭 한 다음 **Twitter**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="27298-228">Click **Add a connector** and then click **Twitter**.</span></span>
+3. <span data-ttu-id="a7d83-194">**Twitter** 페이지에서 **커넥터 추가**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="a7d83-194">On the **Twitter** page, click **Add connector**.</span></span>
 
-   ![Twitter 커넥터를 추가 하려면 커넥터 추가를 클릭 합니다.](media/TCimage37.png)
+4. <span data-ttu-id="a7d83-195">**서비스 약관** 페이지에서 **수락**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="a7d83-195">On the **Terms of service** page, click **Accept**.</span></span>
 
-3. <span data-ttu-id="27298-230">**커넥터 앱 추가** 페이지에서 다음 정보를 입력 하 고 **커넥터 유효성 검사**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="27298-230">On the **Add Connector App** page, enter the following information and then click **Validate connector**.</span></span>
+5. <span data-ttu-id="a7d83-196">**커넥터 응용 프로그램에 대 한 자격 증명 추가** 페이지에서 다음 정보를 입력 한 다음 **연결 유효성 검사**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="a7d83-196">On the **Add credentials for your connector app** page, enter the following information and then click **Validate connection**.</span></span>
 
-    - <span data-ttu-id="27298-231">첫 번째 상자에 **Twitter**와 같은 커넥터의 이름을 입력 합니다.</span><span class="sxs-lookup"><span data-stu-id="27298-231">In the first box, type a name for the connector, such as **Twitter**.</span></span>
-    - <span data-ttu-id="27298-232">두 번째 상자에 4 단계에서 추가한 APISecretKey의 값을 입력 하거나 붙여넣습니다.</span><span class="sxs-lookup"><span data-stu-id="27298-232">In the second box, type or paste the value of the APISecretKey that you added in Step 4.</span></span>
-    - <span data-ttu-id="27298-233">세 번째 상자에 Azure 앱 서비스 URL을 입력 하거나 붙여넣습니다. 예를 **https://twitterconnector.azurewebsites.net**들면입니다.</span><span class="sxs-lookup"><span data-stu-id="27298-233">In the third box, type or paste the Azure app service URL; for example, **https://twitterconnector.azurewebsites.net**.</span></span>
+   ![커넥터 앱 자격 증명 입력](media/TCimage38.png)
 
-   <span data-ttu-id="27298-234">커넥터 유효성 검사가 완료 되 면 **다음**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="27298-234">After the connector is successfully validated, click **Next**.</span></span>
+    - <span data-ttu-id="a7d83-198">**이름** 상자에 **Twitter 도움말 핸들과**같은 커넥터의 이름을 입력 합니다.</span><span class="sxs-lookup"><span data-stu-id="a7d83-198">In the **Name** box, type a name for the connector, such as **Twitter help handle**.</span></span>
+    
+    - <span data-ttu-id="a7d83-199">**커넥터 URL** 상자에 Azure 앱 서비스 URL을 입력 하거나 붙여넣습니다. 예를 `https://twitterconnector.azurewebsites.net`들어</span><span class="sxs-lookup"><span data-stu-id="a7d83-199">In the **Connector URL** box, type or paste the Azure app service URL; for example `https://twitterconnector.azurewebsites.net`.</span></span>
+    
+    - <span data-ttu-id="a7d83-200">**암호** 상자에 2 단계에서 만든 APISecretKey의 값을 입력 하거나 붙여넣습니다.</span><span class="sxs-lookup"><span data-stu-id="a7d83-200">In the **Password** box, type or paste the value of the APISecretKey that you created in Step 2.</span></span>
+    
+    - <span data-ttu-id="a7d83-201">**Azure 앱 id** 상자에 1 단계에서 구한 Azure 응용 프로그램 id ( *클라이언트 ID*라고도 함)의 값을 입력 하거나 붙여넣습니다.</span><span class="sxs-lookup"><span data-stu-id="a7d83-201">In the **Azure App ID** box, type or paste the value of the Azure Application App Id (also called the *client ID*) that you obtained in Step 1.</span></span>
 
-   ![커넥터 앱 설정 입력](media/TCimage38.png)
+6. <span data-ttu-id="a7d83-202">연결이 성공적으로 확인 되 면 **다음**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="a7d83-202">After the connection is successfully validated, click **Next**.</span></span>
 
-4. <span data-ttu-id="27298-236">**커넥터 앱을 사용 하 여 로그인을**클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="27298-236">Click **Login with Connector App**.</span></span>
+7. <span data-ttu-id="a7d83-203">**Microsoft 365에서 데이터를 가져올 수 있는 권한을 부여** 합니다 페이지에서 APISecretKey를 다시 입력 하거나 붙여 넣은 다음 **로그인 웹 앱**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="a7d83-203">On the **Authorize Microsoft 365 to import data** page, type or paste the APISecretKey again and then click  **Login web app**.</span></span>
 
-   ![커넥터 앱에 로그인](media/TCimage39.png)
+8. <span data-ttu-id="a7d83-204">**Twitter를 사용 하 여 로그인을**클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="a7d83-204">Click **Login with Twitter**.</span></span>
 
-5. <span data-ttu-id="27298-238">APISecretKey를 다시 입력 하거나 붙여 넣은 다음 **커넥터 서비스에 로그인을**클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="27298-238">Type or paste the APISecretKey again and then click  **Login to Connector Service**.</span></span>
-
-   ![커넥터 서비스에 로그인 하려면 API 비밀 키를 입력 하십시오.](media/TCimage40.png)
-
-6. <span data-ttu-id="27298-240">**Twitter를 사용 하 여 계속을**클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="27298-240">Click **Continue with Twitter**.</span></span>
-
-7. <span data-ttu-id="27298-241">Twitter 로그인 페이지에서 조직의 Twitter 계정에 대 한 계정에 대 한 자격 증명을 사용 하 여 로그인 합니다.</span><span class="sxs-lookup"><span data-stu-id="27298-241">On the Twitter sign in page, sign in using the credentials for the account for your organization’s Twitter account.</span></span>
+9. <span data-ttu-id="a7d83-205">Twitter 로그인 페이지에서 조직의 Twitter 계정에 대 한 자격 증명을 사용 하 여 로그인 합니다.</span><span class="sxs-lookup"><span data-stu-id="a7d83-205">On the Twitter sign in page, sign in using the credentials for your organization’s Twitter account.</span></span>
 
    ![Twitter 계정에 로그인 합니다.](media/TCimage42.png)
 
-   <span data-ttu-id="27298-243">로그인 하면 Twitter 페이지에 "Twitter 커넥터 작업을 설정 했습니다." 라는 메시지가 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="27298-243">After you sign in, the Twitter page will display the following message, "Twitter Connector Job Successfully set up."</span></span>
+   <span data-ttu-id="a7d83-207">로그인 하면 Twitter 페이지에 "Twitter 커넥터 작업을 설정 했습니다." 라는 메시지가 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="a7d83-207">After you sign in, the Twitter page will display the following message, "Twitter Connector Job Successfully set up."</span></span>
 
-8. <span data-ttu-id="27298-244">**마침을** 클릭 하 여 Twitter 커넥터 설정을 완료 합니다.</span><span class="sxs-lookup"><span data-stu-id="27298-244">Click **Finish** to complete setting up the Twitter connector.</span></span>
+10. <span data-ttu-id="a7d83-208">**계속** 을 클릭 하 여 Twitter 커넥터 설정을 완료 합니다.</span><span class="sxs-lookup"><span data-stu-id="a7d83-208">Click **Continue** to complete setting up the Twitter connector.</span></span>
 
-9. <span data-ttu-id="27298-245">**필터 설정** 페이지에서 특정 연령 인 항목을 가져오고 보관 하는 필터를 적용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="27298-245">On the **Set Filters** page, you can apply a filter to import (and archive) items that are a certain age.</span></span> <span data-ttu-id="27298-246">**다음**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="27298-246">Click **Next**.</span></span>
+11. <span data-ttu-id="a7d83-209">**필터 설정** 페이지에서 특정 기간에 해당 하는 항목을 처음 가져올 때 필터를 적용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a7d83-209">On the **Set filters** page, you can apply a filter to initially import items that are a certain age.</span></span> <span data-ttu-id="a7d83-210">보존 기간을 선택 하 고 **다음**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="a7d83-210">Select an age, and then click **Next**.</span></span>
 
-   ![특정 연령 항목을 가져오기 위한 필터 구성](media/TCimage44.png)
+12. <span data-ttu-id="a7d83-211">**저장 위치 선택** 페이지에서 Twitter 항목을 가져올 Microsoft 365 사서함의 전자 메일 주소를 입력 하 고 **다음**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="a7d83-211">On the **Choose storage location** page, type the email address of Microsoft 365 mailbox that the Twitter items will be imported to, and then click **Next**.</span></span>
 
-10. <span data-ttu-id="27298-248">**저장소 계정 설정** 페이지에서 Twitter 항목을 가져올 Office 365 사서함의 전자 메일 주소를 입력 합니다.</span><span class="sxs-lookup"><span data-stu-id="27298-248">On the **Set Storage Account** page, type the email address of an Office 365 mailbox that the Twitter items will be imported to.</span></span>
+13. <span data-ttu-id="a7d83-212">**관리자 동의 제공**에서 **동의 제공** 을 클릭 한 다음 단계를 따릅니다.</span><span class="sxs-lookup"><span data-stu-id="a7d83-212">On the **Provide admin consent**, click **Provide consent** and then follow the steps.</span></span> <span data-ttu-id="a7d83-213">조직의 데이터에 액세스 하려면 Office 365 가져오기 서비스에 대 한 동의를 제공 하는 전역 관리자 여야 합니다.</span><span class="sxs-lookup"><span data-stu-id="a7d83-213">You must be a global admin to provide consent for the Office 365 Import service to access data in your organization.</span></span>
 
-    ![Twitter 항목을 가져올 Office 365 사서함 지정](media/TCimage45.png)
+14. <span data-ttu-id="a7d83-214">**다음** 을 클릭 하 여 커넥터 설정을 검토 한 다음 **마침을** 클릭 하 여 커넥터 설치를 완료 합니다.</span><span class="sxs-lookup"><span data-stu-id="a7d83-214">Click **Next** to review the connector settings and then click **Finish** to complete the connector setup.</span></span>
 
-11. <span data-ttu-id="27298-250">설정을 검토 하 고 **마침을** 클릭 하 여 보안 & 준수 센터에서 커넥터 설정을 완료 합니다.</span><span class="sxs-lookup"><span data-stu-id="27298-250">Review your settings and then click **Finish** to complete the connector setup in the Security & Compliance Center.</span></span>
-
-    ![설정 검토 후 마침을 클릭 합니다.](media/TCimage46.png)
-
-    ![커넥터 설정이 완료 되었음을 보여 주는 화면](media/TCimage47.png)
-
-12. <span data-ttu-id="27298-253">**타사 데이터 보관** 페이지로 이동 하 여 가져오기 프로세스의 진행 상황을 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="27298-253">Go to the **Archive third-party data** page to see the progress of the import process.</span></span>
-
-    ![보안 및 준수 센터에 표시 된 새 커넥터](media/TCimage48.png)
+15. <span data-ttu-id="a7d83-215">준수 센터에서 **데이터 커넥터** 페이지로 이동한 다음 **커넥터** 탭을 클릭 하 여 가져오기 프로세스의 진행 상태를 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="a7d83-215">In the compliance center, go to the **Data connectors** page, and click the **Connectors** tab to see the progress of the import process.</span></span>
