@@ -13,12 +13,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 사용자가 데스크톱에 대 한 Office 앱, 모바일 용 Office 앱 및 웹 용 Office 앱에서 민감도 레이블을 사용 하는 방법에 대해 알아봅니다. 민감도 레이블을 지 원하는 앱을 찾습니다.
-ms.openlocfilehash: 3b8522dea71cd0ece5ec63f07a733e1eb5283a43
-ms.sourcegitcommit: ff030461137066b0f510a5978f4b5578908e3d2b
+ms.openlocfilehash: 611497bd485435d5705552cbbffe59286e2b27c8
+ms.sourcegitcommit: 3dca80f268006658a0b721aa4f6df1224c7964dc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2020
-ms.locfileid: "41123629"
+ms.lasthandoff: 01/22/2020
+ms.locfileid: "41259966"
 ---
 # <a name="sensitivity-labels-in-office-apps"></a>Office 앱의 민감도 레이블
 
@@ -28,7 +28,7 @@ ms.locfileid: "41123629"
 - 각 Office 앱에서 지 원하는 민감도 레이블 기능
 - 민감도 레이블을 Office 앱에서 작동 하는 다른 Microsoft 보안 및 준수 기술과 결합 하면 어떻게 될까요?
 - 조직의 사용자가 Windows 용 Office 앱 및 웹 용 Office 앱으로 작업할 때 민감도 레이블을 사용할 수 있는 방법
-- 우편물 민감도 레이블로 시작 하 여 조직의 사용자를 가져올 수 있는 위치입니다.
+- 조직의 사용자가 민감도 레이블을 사용 하기 시작 하는 데 도움이 되는 추가 리소스입니다.
 
 ## <a name="subscription-and-licensing-requirements-for-sensitivity-labels"></a>민감도 레이블의 구독 및 라이선스 요구 사항
 
@@ -66,7 +66,7 @@ Windows 컴퓨터 에서만 실행 되는 Azure Information Protection 통합 �
 |[기본 레이블 적용](sensitivity-labels.md#what-label-policies-can-do)                                         | 1910+          | 16.21 +     | 2.21+ | 16.0.11231+ | 검토 중                                                        |
 |[레이블을 변경 하려면 사유 필요](sensitivity-labels.md#what-label-policies-can-do)                     | 1910+          | 16.21 +     | 2.21+ | 16.0.11231+ | [미리 보기](sensitivity-labels-sharepoint-onedrive-files.md) |
 |[사용자 지정 도움말 페이지에 대 한 도움말 링크 제공](sensitivity-labels.md#what-label-policies-can-do)                       | 1910+          | 16.21 +     | 2.21+ | 16.0.11231+ | [미리 보기](sensitivity-labels-sharepoint-onedrive-files.md) |
-|[콘텐츠 표시](sensitivity-labels.md#what-label-policies-can-do)                                              | 1910+          | 16.21 +     | 2.21+ | 16.0.11231+ | [미리 보기](sensitivity-labels-sharepoint-onedrive-files.md) |
+|[콘텐츠 표시](sensitivity-labels.md#what-sensitivity-labels-can-do)                                              | 1910+          | 16.21 +     | 2.21+ | 16.0.11231+ | [미리 보기](sensitivity-labels-sharepoint-onedrive-files.md) |
 |[지금 권한 할당](encryption-sensitivity-labels.md#assign-permissions-now)                                 | 1910+          | 16.21 +     | 2.21+ | 16.0.11231+ | [미리 보기](sensitivity-labels-sharepoint-onedrive-files.md) |
 |[사용자가 권한을 할당하도록 허용](encryption-sensitivity-labels.md#let-users-assign-permissions)                     | 검토 중            | 검토 중        | 검토 중   | 검토 중         | 검토 중                                                        |
 |[레이블 분석을 사용 하 여 레이블 사용을 확인](label-analytics.md) 하 고 관리자를 위해 데이터 보내기                      | 검토 중            | 검토 중        | 검토 중   | 검토 중         | 검토 중                                                        |
@@ -95,17 +95,15 @@ Windows 컴퓨터 에서만 실행 되는 Azure Information Protection 통합 �
 
 ## <a name="about-the-office-built-in-labeling-client"></a>Office 기본 제공 레이블 클라이언트 정보
 
-Office 기본 제공 레이블 클라이언트는 다음 관리 센터에서 레이블 및 정책 설정을 다운로드 합니다.
-
-- Office 365 보안 및 준수 센터
-
-- Microsoft 365 보안 센터
+클라이언트에서 다음 관리 센터 로부터 민감도 레이블 및 민감도 레이블 정책 설정을 다운로드 하는 Office 기본 제공 레이블:
 
 - Microsoft 365 규정 준수 센터
+- Microsoft 365 보안 센터
+- Office 365 보안 및 준수 센터
 
-Office 기본 제공 레이블 클라이언트를 사용 하려면 나열 된 관리 센터 중 하나의 사용자에 게 하나 이상의 [레이블 정책이 게시](sensitivity-labels.md#what-label-policies-can-do) 되어 있어야 합니다.
+Office 기본 제공 레이블 클라이언트를 사용 하려면 나열 된 관리 센터 중 하나의 사용자에 게 하나 이상의 [레이블 정책이 게시](create-sensitivity-labels.md#publish-sensitivity-labels-by-creating-a-label-policy) 되어 있어야 합니다.
 
-그러나 사용자에 게 Azure Information Protection 클라이언트 ([통합 레이블 클라이언트](https://docs.microsoft.com/azure/information-protection/rms-client/aip-clientv2) 또는 [클래식 클라이언트](https://docs.microsoft.com/azure/information-protection/rms-client/aip-client)) 중 하나가 설치 되어 있는 경우 기본적으로 Office 앱에서 기본 제공 레이블 클라이언트를 사용 하지 않도록 설정 됩니다. Office 앱의 Azure Information Protection 클라이언트 대신 기본 제공 레이블을 사용 하려면 Azure Information Protection 용 Office 추가 기능을 사용 하지 않도록 설정 하거나 제거 합니다.
+그러나 사용자에 게 Azure Information Protection 클라이언트 ([통합 레이블 클라이언트](https://docs.microsoft.com/azure/information-protection/rms-client/aip-clientv2) 또는 [클래식 클라이언트](https://docs.microsoft.com/azure/information-protection/rms-client/aip-client)) 중 하나가 설치 되어 있는 경우 기본적으로 Office 앱에서 기본 제공 레이블 클라이언트는 해제 됩니다. Office 앱의 Azure Information Protection 클라이언트 대신 기본 제공 레이블을 사용 하려면 Azure Information Protection 용 Office 추가 기능을 사용 하지 않도록 설정 하거나 제거 합니다.
 
 1. 다음 옵션 중 하나를 완료 합니다.
     
@@ -143,11 +141,11 @@ Office 365 메시지 암호화에 대해 정의 하는 것과 같은 관리자 �
 
 웹에서 office의 Office 기본 제공 레이블 클라이언트를 사용 하려면 문서가 [SharePoint 및 OneDrive에서 office 파일에 대해 민감도 레이블 사용을 설정](sensitivity-labels-sharepoint-onedrive-files.md)하는 비즈니스용 OneDrive 또는 SharePoint Online 인스턴스에 있어야 합니다.
 
-## <a name="when-office-365-applies-marks-and-encryption-to-content"></a>Office 365에서 콘텐츠에 대 한 표시 및 암호화를 적용 하는 경우
+## <a name="when-office-365-applies-content-marking-and-encryption-to-content"></a>Office 365에서 콘텐츠 표시 및 콘텐츠에 대 한 암호화를 적용 하는 경우
 
-Office 365에서는 사용 하는 응용 프로그램에 따라 민감도 레이블이 있는 콘텐츠 표시 또는 암호화를 다르게 적용 합니다.
+Office 365에서는 사용 하는 앱에 따라 민감도 레이블을 사용 하 여 콘텐츠 표시 및 암호화를 다르게 적용 합니다.
 
-| 응용 프로그램 | 콘텐츠 표시 | 암호화 |
+| 앱 | 콘텐츠 표시 | 암호화 |
 | --- | --- | --- |
 | 모든 플랫폼의 Word, Excel, PowerPoint | 즉시 | 즉시 |
 | PC 및 Mac용 Outlook | Exchange Online이 전자 메일을 보낸 후 | 즉시 |
@@ -156,6 +154,6 @@ Office 365에서는 사용 하는 응용 프로그램에 따라 민감도 레이
 
 ## <a name="more-resources"></a>추가 리소스
 
-[Azure Information Protection의 분류 및 레이블링에 대한 질문과 대답](https://docs.microsoft.com/azure/information-protection/faqs-infoprotect)
-
 [Office 내의 문서 및 전자 메일에 민감도 레이블 적용](https://support.office.com/article/2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9)
+
+- [Office 파일에 민감도 레이블을 적용할 때의 알려진 문제](https://support.office.com/article/known-issues-when-you-apply-sensitivity-labels-to-your-office-files-b169d687-2bbd-4e21-a440-7da1b2743edc)

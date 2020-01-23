@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 ms.assetid: d945f7dd-f62f-4ca7-b3e7-469824cfd493
 description: Office 365 eDiscovery 및 검색 도구를 사용 하 여 조직의 데이터 유출 인시던트를 관리 하 고 대응 합니다.
-ms.openlocfilehash: 39419982bf343c7fcc1568a1550b3cdd41968296
-ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
+ms.openlocfilehash: 2c34a632ce55003c9add88d2bced589dd1becf35
+ms.sourcegitcommit: 3dca80f268006658a0b721aa4f6df1224c7964dc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38687225"
+ms.lasthandoff: 01/22/2020
+ms.locfileid: "41259424"
 ---
 # <a name="ediscovery-solution-series-data-spillage-scenario---search-and-purge"></a>eDiscovery 솔루션 시리즈: 데이터 유출 시나리오-검색 및 삭제
 
@@ -54,7 +54,7 @@ Contoso의 잠재 고객 정보 보안 담당자입니다. 직원 들이 전자 
     
 - 사례를 만들려면 eDiscovery 관리자 역할 그룹의 구성원 이거나 사례 관리 역할이 할당 된 사용자 지정 역할 그룹의 구성원 이어야 합니다. 구성원이 아닌 경우 Office 365 관리자에 게 [eDiscovery 관리자 역할 그룹에 추가](assign-ediscovery-permissions.md)해 달라고 요청 하세요.
     
-- 조직에 분산 된 데이터를 삭제 하려면 Exchange Online PowerShell에서 [검색-DeleteContent](https://docs.microsoft.com/powershell/module/exchange/mailboxes/Search-Mailbox?view=exchange-ps) 명령을 사용 해야 합니다. 또한 *DeleteContent* 매개 변수를 사용 하려면 사서함 가져오기 내보내기 역할이 할당 된 Exchange Online의 역할 그룹 구성원 이어야 합니다. [역할 그룹 관리](https://technet.microsoft.com/library/jj657480%28v=exchg.150%29.aspx)의 "역할 그룹에 역할 추가" 섹션을 참조 하세요.
+- 콘텐츠 검색을 만들고 실행하려면 eDiscovery 관리자 역할 그룹의 구성원이거나 준수 검색 관리 역할을 할당 받아야 합니다. 메시지를 삭제하려면 조직 관리 역할 그룹의 구성원이거나 검색 및 제거 관리 역할을 할당 받아야 합니다. 역할 그룹에 사용자를 추가 하는 방법에 대 한 자세한 내용은 [Security & 준수 센터에서 eDiscovery 사용 권한 할당](https://docs.microsoft.com/microsoft-365/compliance/assign-ediscovery-permissions)을 참조 하십시오.
     
 - 8 단계에서 Office 365 감사 로그 eDiscovery 활동을 검색 하려면 조직에 대 한 감사가 설정 되어 있어야 합니다. 지난 90 일 이내에 수행 된 활동을 검색할 수 있습니다. 감사를 사용 하도록 설정 하 고 사용 하는 방법에 대 한 자세한 내용은 8 단계에서 [데이터 유출 조사 프로세스 감사](#auditing-the-data-spillage-investigation-process) 섹션을 참조 하십시오. 
     
@@ -84,7 +84,7 @@ EDiscovery 사례와 연결 된 콘텐츠 검색을 만들려면 [ediscovery 사
   
 사서함이 1000 개 보다 많은 사서함이 있거나 검토 하기 위해 전자 메일 메시지 수가 100 개 보다 많은 경우에는 날짜 범위 또는 보낸 사람/받는 사람과 같은 추가 키워드나 조건을 사용 하 여 초기 검색을 여러 검색으로 나누고 각 검색의 결과를 개별적으로 검토할 수 있습니다. [7 단계](#step-7-permanently-delete-the-spilled-data)에서 메시지를 삭제할 때 사용할 모든 검색 쿼리를 기록해 두어야 합니다.
 
-Custodian 또는 최종 사용자에 게 Office 36 E5 라이선스가 할당 된 경우 Office 365 Advanced eDiscovery를 사용 하 여 한 번에 최대 1만의 검색 결과를 확인할 수 있습니다. 검토 해야 하는 전자 메일 메시지가 1만 개 보다 많으면 검색 쿼리를 날짜별로 나누고 검색 결과가 날짜별로 정렬 되어 개별적으로 각 결과를 검토할 수 있습니다. 고급 eDiscovery에서는 미리 보기 패널에서 **레이블** 표시 기능을 사용 하 여 검색 결과에 태그를 지정 하 고, 해당 태그에 따라 검색 결과를 필터링 할 수 있습니다. 이 기능은 보조 검토자와 공동 작업할 때 유용 합니다. 고급 eDiscovery에서 광학 인식, 전자 메일 스레딩 및 예측 코딩 같은 추가 분석 도구를 사용 하 여 수천 개의 메시지를 빠르게 처리 및 검토 하 고 추가 검토를 위해 태그를 지정할 수 있습니다. [Office 365 Advanced eDiscovery에 대 한 빠른 설치를](quick-setup-for-advanced-ediscovery.md)참조 하세요.
+Custodian 또는 최종 사용자에 게 Office 365 E5 라이선스가 할당 된 경우 Office 365 Advanced eDiscovery를 사용 하 여 한 번에 최대 1만의 검색 결과를 확인할 수 있습니다. 검토 해야 하는 전자 메일 메시지가 1만 개 보다 많으면 검색 쿼리를 날짜별로 나누고 검색 결과가 날짜별로 정렬 되어 개별적으로 각 결과를 검토할 수 있습니다. 고급 eDiscovery에서는 미리 보기 패널에서 **레이블** 표시 기능을 사용 하 여 검색 결과에 태그를 지정 하 고, 해당 태그에 따라 검색 결과를 필터링 할 수 있습니다. 이 기능은 보조 검토자와 공동 작업할 때 유용 합니다. 고급 eDiscovery에서 광학 인식, 전자 메일 스레딩 및 예측 코딩 같은 추가 분석 도구를 사용 하 여 수천 개의 메시지를 빠르게 처리 및 검토 하 고 추가 검토를 위해 태그를 지정할 수 있습니다. [Office 365 Advanced eDiscovery에 대 한 빠른 설치를](quick-setup-for-advanced-ediscovery.md)참조 하세요.
 
 데이터를 포함 하는 전자 메일 메시지를 찾을 때 메시지를 받는 사람에 게 외부 공유 여부를 확인 합니다. 메시지를 추가로 추적 하기 위해 보낸 사람 정보 및 날짜 범위를 수집 하 여 [5 단계](#step-5-use-message-trace-log-to-check-how-spilled-data-was-shared)에서 설명 하는 메시지 추적 로그를 사용할 수 있습니다.
 
@@ -136,7 +136,7 @@ Custodian 또는 최종 사용자에 게 Office 36 E5 라이선스가 할당 된
     
 2. 플라이 아웃 페이지에서 **결과 보기**를 클릭 합니다.
     
-3. **개별 결과** 드롭다운 목록에서 **검색 통계**를 클릭 합니다.
+3. **개별 결과** 드롭다운 목록에서 **검색 통계**를 클릭합니다.
     
 4. **형식** 드롭다운 목록에서 **상위 위치**를 클릭 합니다.
     
@@ -168,31 +168,9 @@ Custodian 또는 최종 사용자에 게 Office 36 E5 라이선스가 할당 된
 
 ## <a name="step-7-permanently-delete-the-spilled-data"></a>7 단계: 데이터를 영구적으로 삭제
 
-전송 된 데이터를 포함 하는 전자 메일을 찾기 위해 3 단계에서 작성 하 고 준비한 검색 쿼리와 6 단계에서 수집한 사서함 위치를 사용 하 여 데이터를 영구적으로 삭제할 수 있습니다. 앞에서 설명한 것 처럼 다음 절차를 사용 하 여 메시지를 삭제 하려면 Exchange Online의 사서함 가져오기 내보내기 역할을 할당 받아야 합니다.
-  
-1. [Exchange Online PowerShell에 연결합니다](https://go.microsoft.com/fwlink/?linkid=396554).
-    
-2. 다음 명령을 실행합니다.
-    
-    ```powershell
-    Search-Mailbox -Identity <mailbox identity> -SearchDumpster -DeleteContent $true -SearchQuery <search query>
-    ```
+전송 된 데이터를 포함 하는 전자 메일을 찾기 위해 3 단계에서 작성 하 고 준비한 검색 쿼리와 6 단계에서 수집한 사서함 위치를 사용 하 여 데이터를 영구적으로 삭제할 수 있습니다.  앞에서 설명한 것 처럼 메시지를 삭제 하려면 조직 관리 역할 그룹의 구성원 이거나 검색 및 삭제 관리 역할을 할당 받아야 합니다. 역할 그룹에 사용자를 추가 하는 방법에 대 한 자세한 내용은 [Security & 준수 센터에서 eDiscovery 사용 권한 할당](https://docs.microsoft.com/microsoft-365/compliance/assign-ediscovery-permissions)을 참조 하십시오.
 
-3. Identity 매개 변수의 값을 바꿔서, 분산 된 데이터를 포함 하는 각 사서함에 대해 이전 명령을 다시 실행 합니다. 예를 들어:
-
-    ```powershell
-    Search-Mailbox -Identity sarad@contoso.onmicrosoft.com -SearchQuery <search query> -DeleteContent
-    ```
-
-    ```powershell
-    Search-Mailbox -Identity janets@contoso.onmicrosoft.com -SearchQuery <search query> -DeleteContent
-    ```
-
-   ```powershell
-   Search-Mailbox -Identity pilarp@contoso.onmicrosoft.com -SearchQuery <search query> -DeleteContent
-   ```
-
-앞에서 설명한 것 처럼 [powershell 스크립트](https://docs.microsoft.com/powershell/scripting/powershell-scripting?view=powershell-6) 를 만들어 사서함 목록에 대해 실행 하 여 스크립트가 각 사서함에서 분산 데이터를 삭제할 수도 있습니다.
+전송 된 메시지를 삭제 하려면 [Office 365 조직에서 전자 메일 메시지 검색 및 삭제](https://docs.microsoft.com/microsoft-365/compliance/search-for-and-delete-messages-in-your-organization) 의 2 단계 &를 참조 하세요.
   
 ## <a name="step-8-verify-provide-a-proof-of-deletion-and-audit"></a>8 단계: 확인, 삭제 증거 제공 및 감사
 
@@ -214,12 +192,9 @@ Custodian 또는 최종 사용자에 게 Office 36 E5 라이선스가 할당 된
     
 ### <a name="auditing-the-data-spillage-investigation-process"></a>데이터 유출 조사 프로세스 감사
 
-조사 중에 수행 된 eDiscovery 활동에 대 한 Office 365 감사 로그를 검색할 수 있습니다. 또한 **검색 사서함-DeleteContent** 명령을 실행 하 여 데이터를 삭제할 때 만든 감사 레코드를 반환 하도록 감사 로그를 검색할 수 있습니다. 자세한 내용은 다음을 참조하세요.
+조사 중에 수행 된 eDiscovery 활동에 대 한 Office 365 감사 로그를 검색할 수 있습니다. 또한 7 단계에서 실행 한 **새 new-compliancesearchaction** 명령에 대 한 감사 레코드를 반환 하도록 감사 로그를 검색 하 여 데이터를 삭제할 수 있습니다. 자세한 내용은 다음을 참조하세요.
 
 - [감사 로그 검색](search-the-audit-log-in-security-and-compliance.md)
 
 - [감사 로그에서 eDiscovery 활동 검색](search-for-ediscovery-activities-in-the-audit-log.md)
-
-- Exchange Online에서 실행 중인 cmdlet과 관련 된 감사 레코드를 검색 하는 방법에 대 한 지침은 [감사 로그 검색](search-the-audit-log-in-security-and-compliance.md#audited-activities) 의 "감사 된 활동-Exchange 관리자 감사 로그" 섹션을 참조 하십시오.
   
-

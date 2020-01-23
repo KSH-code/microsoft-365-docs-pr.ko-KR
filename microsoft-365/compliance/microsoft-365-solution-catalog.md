@@ -9,12 +9,12 @@ ms.service: o365-seccomp
 localization_priority: Normal
 description: 포함 된 내용, 가져오는 방법 및 다음 단계를 포함 하 여 Microsoft 365 솔루션 카탈로그에 대해 알아봅니다.
 ms.collection: M365-security-compliance
-ms.openlocfilehash: b881e51f08e201f2870ea979e3f6c8181ab2ea02
-ms.sourcegitcommit: ce0651075aa7e3e1b189437f1990207dd10374b0
+ms.openlocfilehash: 54f66932f16e094b2ed970596c35e4754763aafc
+ms.sourcegitcommit: 3dca80f268006658a0b721aa4f6df1224c7964dc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/21/2020
-ms.locfileid: "41247601"
+ms.lasthandoff: 01/22/2020
+ms.locfileid: "41260091"
 ---
 # <a name="overview-of-the-microsoft-365-solution-catalog-preview"></a>Microsoft 365 솔루션 카탈로그 개요 (미리 보기)
 

@@ -14,13 +14,13 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: a85e1c87-a48e-4715-bfa9-d5275cde67b0
-description: '관리자: 해당 사서함이 법적 보존 상태로 설정 된 경우에도 Exchange Online 사서함에 대 한 사용자의 복구 가능한 항목 폴더에서 항목을 삭제 합니다. 이 방법은 실수로 Office 365에 분산 된 데이터를 삭제 하는 효율적인 방법입니다.'
-ms.openlocfilehash: 1954ac4db8b978b0b1c3cdc8cee080cc0f0e6c22
-ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
+description: "관리자:에서 항목을 삭제 합니다. \n\n사서함이 법적 보존 상태로 설정 된 경우에도 Exchange Online 사서함에 대해 er의 복구 가능한 항목 폴더 이 방법은 실수로 Office 365에 분산 된 데이터를 삭제 하는 효율적인 방법입니다."
+ms.openlocfilehash: 6eeb3fecc531d4790330236f8b8857aa4344b371
+ms.sourcegitcommit: 3dca80f268006658a0b721aa4f6df1224c7964dc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38687223"
+ms.lasthandoff: 01/22/2020
+ms.locfileid: "41259676"
 ---
 # <a name="delete-items-in-the-recoverable-items-folder-of-cloud-based-mailboxes-on-hold---admin-help"></a>보류에서 클라우드 기반 사서함의 복구 가능한 항목 폴더에 있는 항목 삭제-관리자 도움말
 
@@ -45,17 +45,13 @@ Exchange Online 사서함에 대 한 복구 가능한 항목 폴더는 실수로
   
 ## <a name="before-you-begin"></a>시작하기 전에
 
-- 5 단계에서 복구 가능한 항목 폴더에서 메시지를 검색 하 고 삭제 하려면 Exchange Online의 다음 관리 역할을 둘 다 할당 해야 합니다.
-    
-  - **사서함 검색** -이 역할을 사용 하 여 조직의 사서함을 검색할 수 있습니다. Exchange 관리자에 게는 기본적으로이 역할이 할당 되지 않습니다. 자신을이 역할에 할당 하려면 자신을 Exchange Online의 검색 관리 역할 그룹의 구성원으로 추가 합니다. 
-    
-  - **사서함 가져오기 내보내기** -이 역할을 사용 하면 사용자 사서함에서 메시지를 삭제할 수 있습니다. 기본적으로 이 역할은 역할 그룹에 할당되지 않습니다. 사용자 사서함에서 메시지를 삭제 하려면 Exchange Online의 조직 관리 역할 그룹에 사서함 가져오기 내보내기 역할을 추가 하면 됩니다. 
+- 콘텐츠 검색을 만들고 실행하려면 eDiscovery 관리자 역할 그룹의 구성원이거나 준수 검색 관리 역할을 할당 받아야 합니다. 메시지를 삭제하려면 조직 관리 역할 그룹의 구성원이거나 검색 및 제거 관리 역할을 할당 받아야 합니다. 역할 그룹에 사용자를 추가 하는 방법에 대 한 자세한 내용은 [Security & 준수 센터에서 eDiscovery 사용 권한 할당](https://docs.microsoft.com/microsoft-365/compliance/assign-ediscovery-permissions)을 참조 하십시오.
     
 - 이 문서에서 설명 하는 절차는 비활성 사서함에서는 지원 되지 않습니다. 이는 제거 후 보류 (또는 Office 365 보존 정책)를 비활성 사서함에 다시 적용할 수 없기 때문입니다. 비활성 사서함에서 보류를 제거 하면 일시 삭제 된 일반 사서함으로 변경 되 고 관리 되는 폴더 도우미에 의해 처리 된 후 조직에서 영구적으로 삭제 됩니다.
     
 - 보존 잠금으로 잠긴 Office 365 보존 정책에 할당 된 사서함에 대해서는이 절차를 수행할 수 없습니다. 이는 보존 잠금 때문에 Office 365 보존 정책에서 사서함을 제거 하거나 제외 하 고 사서함에서 관리 되는 폴더 도우미를 사용 하지 않도록 설정할 수 없기 때문입니다. 보존 정책 잠금에 대 한 자세한 내용은 [잠금 a 보존 정책](retention-policies.md#locking-a-retention-policy)를 참조 하십시오.
     
-- 사서함이 보류 되지 않거나 단일 항목 복구를 사용 하도록 설정 되지 않은 경우 복구 가능한 항목 폴더에서 항목을 삭제 하기만 하면 됩니다. 이 작업을 수행 하는 방법에 대 한 자세한 내용은 [메시지 검색 및 삭제 ](https://go.microsoft.com/fwlink/?linkid=852453)를 참조 하세요.
+- 사서함이 보류 되지 않거나 단일 항목 복구를 사용 하도록 설정 되지 않은 경우 복구 가능한 항목 폴더에서 항목을 삭제 하기만 하면 됩니다. 이 작업을 수행 하는 방법에 대 한 자세한 내용은 [Office 365 조 직에서 전자 메일 메시지 검색 및 삭제](https://docs.microsoft.com/microsoft-365/compliance/search-for-and-delete-messages-in-your-organization)를 참조 하세요.
   
 ## <a name="step-1-collect-information-about-the-mailbox"></a>1 단계: 사서함에 대 한 정보 수집
 
@@ -247,88 +243,35 @@ Ediscovery 사례 및 보류의 이름을 식별 한 후에는 준수 센터의 
   
 ## <a name="step-4-remove-the-delay-hold-from-the-mailbox"></a>4 단계: 사서함에서 지연 된 보류 제거
 
-사서함에서 모든 유형의 보류가 제거 된 후에는 *DelayHoldApplied* mailbox 속성의 값이 **True**로 설정 됩니다. 다음 번에 관리 되는 폴더 도우미가 사서함을 처리 하 고 보류가 제거 되었음을 감지할 때 이러한 상황이 발생 합니다. 이를 *지연 보존* 이라고 하며, 데이터가 사서함에서 영구적으로 삭제 되는 것을 방지 하기 위해 보류의 실제 제거가 30 일 동안 지연 되는 것을 의미 합니다. 지연 보존의 목적은 관리자가 보류를 제거한 후 삭제 될 사서함 항목을 검색 하거나 복구할 수 있도록 하는 것입니다.  사서함에 연기 대기를 설정 하면 사서함이 소송 보존 상태에 있는 것 처럼 여전히 무제한 기간 동안 유지 되는 것으로 간주 됩니다. 30 일 후에 지연 보류가 만료 되 고 Office 365에서 자동으로 지연 대기 ( *DelayHoldApplied* 속성을 **False**로 설정)을 제거 하 여 보류를 실제로 제거 하려고 합니다. 
+사서함에서 모든 보류 유형을 제거한 후에는 *DelayHoldApplied* 또는 *DelayReleaseHoldApplied* mailbox 속성의 값이 **True**로 설정 됩니다. 다음 번에 관리 되는 폴더 도우미가 사서함을 처리 하 고 보류가 제거 되었음을 감지할 때 이러한 상황이 발생 합니다. 이를 *지연 보존* 이라고 하며, 데이터가 사서함에서 영구적으로 삭제 되는 것을 방지 하기 위해 보류의 실제 제거가 30 일 동안 지연 되는 것을 의미 합니다. 지연 보존의 목적은 관리자가 보류를 제거한 후 삭제 될 사서함 항목을 검색 하거나 복구할 수 있도록 하는 것입니다.  사서함에 연기 대기를 설정 하면 사서함이 소송 보존 상태에 있는 것 처럼 여전히 무제한 기간 동안 유지 되는 것으로 간주 됩니다. 30 일 후에 지연 보류가 만료 되 고 Office 365에서 자동으로 지연 대기 ( *DelayHoldApplied* 또는 *DelayReleaseHoldApplied* 속성을 **False**로 설정)을 제거 하 여 보류가 실제로 제거 되도록 합니다. 지연 보존에 대 한 자세한 내용은 [Exchange Online 사서함에 대해 설정 된 보류 유형을 식별 하는 방법](identify-a-hold-on-an-exchange-online-mailbox.md#managing-mailboxes-on-delay-hold)의 "지연 보류 시 사서함 관리" 섹션을 참조 하십시오.
 
-5 단계에서 항목을 삭제 하려면 먼저 사서함에서 지연 유지를 제거 해야 합니다. 먼저 Exchange Online PowerShell에서 다음 명령을 실행 하 여 지연 보류가 사서함에 적용 되는지 확인 합니다.
+5 단계에서 항목을 삭제 하려면 먼저 사서함에서 지연 된 보류를 제거 해야 합니다. 먼저 Exchange Online PowerShell에서 다음 명령을 실행 하 여 지연 보류가 사서함에 적용 되는지 확인 합니다.
 
 ```powershell
-Get-Mailbox <username> | FL DelayHoldApplied
+Get-Mailbox <username> | FL DelayHoldApplied,DelayReleaseHoldApplied
 ```
 
-*DelayHoldApplied* 속성 값을 **False**로 설정 하면 대기 시간이 사서함에 저장 되지 않은 것입니다. 5 단계까지 이동 하 여 복구 가능한 항목 폴더의 항목을 삭제할 수 있습니다.
+*DelayHoldApplied* 또는 *DelayReleaseHoldApplied* 속성 값을 **False**로 설정 하면 대기 시간이 사서함에 저장 되지 않은 것입니다. 5 단계까지 이동 하 여 복구 가능한 항목 폴더의 항목을 삭제할 수 있습니다.
 
-*DelayHoldApplied* 속성 값이 **True**로 설정 된 경우 다음 명령을 실행 하 여 지연 보존을 제거 합니다.
+*DelayHoldApplied* 또는 *DelayReleaseHoldApplied* 속성 값이 **True**로 설정 된 경우 다음 명령 중 하나를 실행 하 여 지연 보존을 제거 합니다.
 
 ```powershell
 Set-Mailbox <username> -RemoveDelayHoldApplied
 ```
 
-*RemoveDelayHoldApplied* 매개 변수를 사용 하려면 Exchange Online의 법적 보존 역할을 할당 받아야 합니다.
+또는
+
+```powershell
+Set-Mailbox <username> -RemoveDelayReleaseHoldApplied
+```
+
+*RemoveDelayHoldApplied* 또는 *RemoveDelayReleaseHoldApplied* 매개 변수를 사용 하려면 Exchange Online에서 법적 보존 역할을 할당 받아야 합니다.
 
 ## <a name="step-5-delete-items-in-the-recoverable-items-folder"></a>5 단계: 복구 가능한 항목 폴더에서 항목 삭제
 
-이제 Exchange Online PowerShell의 [검색 사서함](https://go.microsoft.com/fwlink/?linkid=852595) cmdlet을 사용 하 여 복구 가능한 항목 폴더의 항목을 실제로 삭제할 준비가 되었습니다. **검색 사서함** cmdlet을 실행할 때는 다음과 같은 세 가지 옵션을 사용할 수 있습니다. 
-  
-- 삭제 하기 전에 대상 사서함에 항목을 복사 하 여 필요한 경우 항목을 검토 한 다음 삭제할 수 있도록 합니다.
-    
-- 항목을 대상 사서함으로 복사 하 고 같은 명령에서 삭제 합니다.
-    
-- 항목을 대상 사서함에 복사 하지 않고 삭제 합니다. 
-    
-**검색 사서함** cmdlet을 실행 하면 사용자의 기본 보관 사서함에 있는 복구 가능한 항목 폴더의 항목도 삭제 됩니다. 이를 방지 하기 위해 *만드는 경우 donotincludearchive* 스위치를 포함할 수 있습니다. 앞에서 설명한 것 처럼 사서함에 대해 자동 확장 보관을 사용 하도록 설정 된 경우 * * 검색 사서함 * * cmdlet은 보조 보관 사서함의 항목을 삭제 하지 않습니다. 자동 확장 보관에 대 한 자세한 내용은 [Office 365의 무제한 보관 개요](unlimited-archiving.md)를 참조 하세요.
-  
-> [!NOTE]
-> *Searchquery* 매개 변수를 사용 하 여 검색 쿼리를 포함 하는 경우 검색 **사서함** cmdlet은 최대 1만 개의 항목을 검색 결과에 반환 합니다. 따라서 검색 쿼리를 포함 하는 경우 1만 개 보다 많은 항목을 삭제 하려면 **검색 사서함** 명령을 여러 번 실행 해야 할 수 있습니다. 
-  
-다음 예제에는 이러한 각 옵션에 대 한 명령 구문이 나와 있습니다. 다음은 `-SearchQuery size>0` 복구 가능한 항목 폴더의 모든 하위 폴더에서 모든 항목을 삭제 하는 매개 변수 값을 사용 하는 예제입니다. 특정 조건과 일치 하는 항목만 삭제 해야 하는 경우에는 *Searchquery* 매개 변수를 사용 하 여 메시지 제목 또는 날짜 범위와 같은 다른 조건을 지정할 수도 있습니다. 아래에서 [SearchQuery 매개 변수를 사용 하는 다른 예](#other-examples-of-using-the-searchquery-parameter) 를 참조 하십시오. 
-  
-### <a name="example-1"></a>예 1
+이제 보안 & 준수 센터의 [ComplianceSearch](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-content-search/new-compliancesearch) 및 [new-compliancesearchaction](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-content-search/new-compliancesearchaction) cmdlet을 사용 하 여 복구 가능한 항목 폴더의 항목을 실제로 삭제할 준비가 되었습니다. 
 
-이 예에서는 사용자의 복구할 수 있는 항목 폴더에 있는 모든 항목을 조직의 검색 사서함에 있는 폴더로 복사 합니다. 이렇게 하면 항목을 영구적으로 삭제 하기 전에 검토할 수 있습니다.
-
-```powershell
-Search-Mailbox <username> -SearchQuery size>0 -SearchDumpsterOnly -TargetMailbox "Discovery Search Mailbox" -TargetFolder "<foldername>"
-```
-
-이전 예제에서는 항목을 검색 검색 사서함에 복사할 필요가 없습니다. 모든 대상 사서함에 메시지를 복사할 수 있습니다. 그러나 중요 한 사서함 데이터에 대 한 액세스를 방지 하려면 액세스 권한이 있는 개인만 액세스할 수 있는 사서함으로 메시지를 복사 하는 것이 좋습니다. 기본적으로 Exchange Online의 검색 관리 역할 그룹 구성원에 게는 기본 검색 사서함에 대 한 액세스가 제한 됩니다. 
-  
-### <a name="example-2"></a>예 2
-
-이 예에서는 복구 가능한 항목 폴더의 모든 항목을 조직의 검색 사서함에 있는 폴더로 복사한 다음 사용자의 복구 가능한 항목 폴더에서 해당 항목을 삭제 합니다.
-
-```powershell
-Search-Mailbox <username> -SearchQuery size>0 -SearchDumpsterOnly -TargetMailbox "Discovery Search Mailbox" -TargetFolder "<foldername>" -DeleteContent
-```
-
-### <a name="example-3"></a>예 3
-
-이 예에서는 사용자의 복구 가능한 항목 폴더에서 대상 사서함으로 복사 하지 않고 모든 항목을 삭제 합니다. 
-
-```powershell
-Search-Mailbox <username> -SearchQuery size>0 -SearchDumpsterOnly -DeleteContent
-```
-
-### <a name="other-examples-of-using-the-searchquery-parameter"></a>SearchQuery 매개 변수를 사용 하는 다른 예
-
-다음은 *Searchquery* 매개 변수를 사용 하 여 특정 메시지를 찾는 몇 가지 예입니다. *Searchquery* 매개 변수를 사용 하 여 특정 항목을 검색 하는 경우 검색 결과를 검토 한 다음 검색 결과를 삭제 하기 전에 필요한 경우 쿼리를 수정할 수 있도록 결과를 대상 사서함으로 복사 하는 것이 좋습니다. 
-  
-다음은 제목 필드에 특정 구를 포함 하는 메시지를 반환 하는 예제입니다.
-  
-```powershell
-SearchQuery 'subject:"MAIL_BOX VALIDATION/UPGRADE!!!"' 
-```
-
-이 예에서는 지정 된 날짜 범위 내에 전송 된 메시지를 반환 합니다.
-  
-```powershell
-SearchQuery 'sent>=06/01/2016 AND sent<=09/01/2016'
-```
-
-이 예제에서는 지정 된 사람에 게 전송 된 메시지를 반환 합니다.
-
-```powershell
-SearchQuery 'to:garthf@alpinehouse.com'
-```
+이 작업을 수행 하려면 [전자 메일 메시지 검색 및 삭제](https://docs.microsoft.com/microsoft-365/compliance/search-for-and-delete-messages-in-your-organization)를 참조 하세요.
 
 ### <a name="verify-that-items-were-deleted"></a>항목이 삭제 되었는지 확인
 

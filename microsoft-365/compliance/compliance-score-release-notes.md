@@ -12,12 +12,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 위험 평가를 간소화 하 고 자동화 하는 데 도움이 되는 M365 준수 센터의 기능인 Microsoft 준수 점수 (미리 보기)에 대 한 릴리스 정보 및 알려진 문제
-ms.openlocfilehash: b1054a455b2d2c78cfa6131410941b1a36738a43
-ms.sourcegitcommit: 40e83b22b74db8e37d65e0988d4c11de3aa541b2
+ms.openlocfilehash: 370c714c927d09a16272f8ab265c7b0c4e36381a
+ms.sourcegitcommit: 5fc0f2cd1f2596fd10299333c826c501936dcd98
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "41021934"
+ms.lasthandoff: 01/22/2020
+ms.locfileid: "41261872"
 ---
 # <a name="microsoft-compliance-score-preview-release-notes"></a>Microsoft 준수 점수 (미리 보기) 릴리스 정보
 
@@ -31,9 +31,11 @@ Microsoft 준수 점수가 공개 미리 보기를 통해 예정 된 기능 및 
 
 평가를 위해 새롭게 미리 구성 된 서식 파일이 출시 되 면 준수 점수 (미리 보기)에 대 한 프로덕션 환경에 릴리스됩니다. 여기에서 [전체 서식 파일 목록을](compliance-score.md#templates)확인 하세요. 최근에 추가 된 서식 파일은 다음과 같습니다.
 
-- ISO 27701:2019
+- 브라질 LGPD (일반 데이터 보호 법)
 - IRAP/오스트레일리아 정부 ISM (미리 보기)
-
+- ISO 27701:2019
+- SOC 1
+- SOC 2
 
 ### <a name="compliance-score-relationship-to-compliance-manager"></a>준수 관리자와 규정 준수 점수 관계
 

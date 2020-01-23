@@ -15,16 +15,16 @@ search.appverid:
 - MOE150
 - MET150
 description: 관리자는 SharePoint 및 OneDrive에서 Word, Excel 및 PowerPoint 파일에 대해 민감도 레이블 지원을 사용 하도록 설정할 수 있습니다.
-ms.openlocfilehash: 0e164afca97818d2082ddf4053df791317e29ac5
-ms.sourcegitcommit: 7705fdbcee4f8714ce044c9e120a431023f7a367
+ms.openlocfilehash: fea28683136ae72603b3e7a6954d7d6ecf0ffbe4
+ms.sourcegitcommit: 2eb4539291f5035b7bef746df89fbcc6faa17257
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/17/2020
-ms.locfileid: "41218588"
+ms.lasthandoff: 01/22/2020
+ms.locfileid: "41263340"
 ---
 # <a name="enable-sensitivity-labels-for-office-files-in-sharepoint-and-onedrive-public-preview"></a>SharePoint 및 OneDrive에서 Office 파일에 대한 민감도 레이블 사용(공개 미리 보기)
 
-이전에는 SharePoint 및 OneDrive에 저장 된 Office 파일에 암호화를 포함 한 민감도 레이블을 적용 했을 때 서비스가 이러한 파일의 콘텐츠를 처리할 수 없습니다. 이러한 상황에서는 공동 작성, eDiscovery, 데이터 손실 방지, 검색, Delve 및 기타 공동 작업 기능이 작동 하지 않습니다. 이 미리 보기를 통해 다음 기능을 사용할 수 있습니다.
+이 미리 보기를 수행 하기 전에 SharePoint 및 OneDrive에 저장 된 Office 파일에 암호화를 포함 한 민감도 레이블을 적용할 때 서비스가 이러한 파일의 콘텐츠를 처리할 수 없습니다. 이러한 상황에서는 공동 작성, eDiscovery, 데이터 손실 방지, 검색, Delve 및 기타 공동 작업 기능이 작동 하지 않습니다. 이 미리 보기에서는 클라우드 기반 키를 사용 하 여 암호화가 적용 된 경우 이러한 기능을 사용할 수 있습니다.
 
 - Sharepoint 및 OneDrive의 Word, Excel 및 PowerPoint 파일에 적용 되는 민감도 레이블을 인식할 수 없습니다. 또한 SharePoint에서는 각 레이블에 해당 하는 설정을 적용 합니다.
 
@@ -39,9 +39,16 @@ ms.locfileid: "41218588"
   - FileSensitivityLabelChanged 됨
   - FileSensitivityLabelRemoved 됨
 
+> [!NOTE]
+> 암호화가 클라우드 기반 키와 함께 온-프레미스 키가 적용 되지 않은 경우 키 관리 토폴로지에서 흔히 "자체 키를 사용" (HYOK)으로 지칭 되는 경우에는이 미리 보기를 통해 SharePoint 동작이 변경 되지 않습니다. 
+
 이제 Microsoft 팀, Office 365 그룹 및 SharePoint 사이트에 민감도 레이블을 적용할 수도 있습니다. 이 별도의 미리 보기에 대 한 자세한 내용은 [사용 민감도 레이블 (Microsoft 팀, Office 365 그룹 및 SharePoint 사이트 (공용 미리 보기))](sensitivity-labels-teams-groups-sites.md)을 참조 하십시오.
 
 언제 든 지이 미리 보기를 선택할 수 있습니다.
+
+다음 비디오 (오디오 없음)를 시청 하 여 이러한 새로운 기능이 작동 하는지 확인 합니다.
+
+> [!VIDEO https://www.microsoft.com/videoplayer/embed//RE4ornZ]
 
 ## <a name="requirements"></a>요구 사항
 

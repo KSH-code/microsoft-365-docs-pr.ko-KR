@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: b14ef9970aa709ad5e23fdae467992497a1331e8
-ms.sourcegitcommit: 3dca80f268006658a0b721aa4f6df1224c7964dc
+ms.openlocfilehash: 81b7a7c3db69d1c20f9a9cd8c6ea4a37b481ce59
+ms.sourcegitcommit: 9b390881fe661deb0568b4b86a5a9094f3c795f0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/22/2020
-ms.locfileid: "41260157"
+ms.lasthandoff: 01/23/2020
+ms.locfileid: "41269389"
 ---
 # <a name="battery-insights"></a>배터리 정보
 이 보기는 Microsoft 관리 데스크톱 장치에 대 한 전원, 배터리 및 앱 사용 메트릭을 제공 합니다. 이러한 용도의 앱은 실행 중이 고 포커스가 있는 경우 "사용 중"으로 간주 됩니다.
@@ -43,8 +43,6 @@ ms.locfileid: "41260157"
 - 기타
 
 "Other"는 디스크 활동, 모바일 광대역 사용량, 내부 저항에 대 한 에너지 손실 등 다양 한 원본의 에너지 소비량을 포함할 수 있습니다. 
-
-* * 최고의 에너지 소비자 "에 표시 되는 앱
 
 오른쪽 위에 있는 메뉴를 사용 하 여 포그라운드 앱, 백그라운드 앱 또는 둘 다를 표시 하도록이 보기를 필터링 할 수 있습니다. 포그라운드 앱은 마우스를 사용 하 여 항목을 선택 하는 것과 같이 지난 28 일 이내에 사용자 상호 작용이 발생 한 응용 프로그램입니다.
 
