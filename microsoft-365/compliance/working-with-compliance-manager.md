@@ -12,12 +12,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 준수 관리자는 Microsoft Service Trust Portal의 무료 워크플로 기반 위험 평가 도구입니다. 준수 관리자를 사용 하면 Microsoft 제품과 관련 된 규정 준수 활동을 추적, 할당 및 확인할 수 있습니다.
-ms.openlocfilehash: 2bc7ccc4c6c236c0c730ac3fc651701d9a76bedf
-ms.sourcegitcommit: 40e83b22b74db8e37d65e0988d4c11de3aa541b2
+ms.openlocfilehash: db63f1b5cba2166ae8e4f922b84672677b52c4e9
+ms.sourcegitcommit: e872676ec98036a50d3a0cb5071109ea5f5a7ae5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "41022014"
+ms.lasthandoff: 01/24/2020
+ms.locfileid: "41515869"
 ---
 # <a name="work-with-microsoft-compliance-manager-preview"></a>Microsoft 준수 관리자 사용 (미리 보기)
 
@@ -72,13 +72,25 @@ Service Trust Portal에서 준수 관리자에 액세스할 수 있습니다. Mi
 
 ### <a name="controlling-automatic-secure-score-updates"></a>자동 보안 점수 업데이트 제어
 
-보안 점수 업데이트는 모든 작업에 대해 자동으로 설정 하거나, 모든 작업에 대해 해제 하거나, 개별 작업을 통해 설정할 수 있습니다.
+보안 점수 업데이트는 모든 작업에 대해 자동으로 설정 하거나, 모든 작업에 대해 해제 하거나, 다음 단계를 수행 하 여 개별 작업을 통해 설정할 수 있습니다.
 
 1. 전역 관리자 계정을 사용 하 여 [서비스 신뢰 포털](https://servicetrust.microsoft.com) 에 로그인 합니다.
 
-2. 서비스 보안 포털의 위쪽 메뉴 모음에서 **관리자** 를 선택 하 고 **설정을**선택 합니다.
+2. 서비스 보안 포털의 위쪽 메뉴 모음에 있는 **자세히**에서 **관리자** 를 선택 하 고 **설정을**선택 합니다.
 
-4. **보안 점수** 탭에서 선택한 설정에 해당 하는 단추를 선택 합니다.
+3. **보안 점수** 탭에서 **모든 동작에 대해 켤**해당 단추를 선택 하 고, **모든 작업**을 해제 하거나, 작업별 **로 설정 합니다.**
+
+작업별 설정을 선택 하 **는** 경우 다음과 같은 추가 단계를 수행 하 여 개별 작업에 대 한 보안 점수 업데이트를 설정 합니다.
+
+4. 위쪽 메뉴에서 **준수 관리자** 를 선택 합니다 (참고: "준수 관리자 (클래식)"는 선택 하지 않음).
+
+5. 화면의 오른쪽 위 모서리에 있는 **테 넌 트 관리** 를 선택 합니다.
+
+6. **고객 작업** 창의 해당 하는 **작업** 열에서 줄임표 (**...**)를 사용 하 여 원하는 작업을 찾습니다. 줄임표 (...)를 클릭 하 고 편집을 선택 **합니다.**
+
+7. **보안 점수 연속 업데이트** 전환 스위치를 설정으로 전환 **합니다.**
+
+8. **저장을 선택 합니다.** 이제 해당 작업에 대 한 보안 점수 지속적인 모니터링이 설정 됩니다.
 
 **참고:** 전역 관리자만 모든 작업에 대해 자동 업데이트를 설정 하거나 해제할 수 있습니다. 준수 관리자 관리자는 개별 작업에 대해 자동 업데이트를 설정할 수 있지만 모든 작업에 대해 전역적으로 수행 되지 않습니다.
 
@@ -444,7 +456,7 @@ Service Trust Portal에서 준수 관리자에 액세스할 수 있습니다. Mi
     Dimension Key::Dimension Value;;Dimension Key::Dimension Value.
     ```
     
-    예시는 다음과 같습니다:
+    예:
 
     ```Markdown
     Product::Office 365;;Certification::NIST CSF
@@ -478,7 +490,7 @@ Service Trust Portal에서 준수 관리자에 액세스할 수 있습니다. Mi
 - 하이퍼링크
 - 굵은
 
-글머리 기호는 Word 또는 Excel 글머리 기호 대신 별표로 표시 됩니다. 예시는 다음과 같습니다:
+글머리 기호는 Word 또는 Excel 글머리 기호 대신 별표로 표시 됩니다. 예:
 
 ```Markdown
 * Item A
@@ -486,7 +498,7 @@ Service Trust Portal에서 준수 관리자에 액세스할 수 있습니다. Mi
 * Item C
 ```
 
-숫자는 숫자로 나타내지만 들여쓰기가 필요한 경우 공백을 사용 하 고, 각 하위 수준에는 숫자만 사용 합니다 (예: 문자 없음).  예시는 다음과 같습니다:
+숫자는 숫자로 나타내지만 들여쓰기가 필요한 경우 공백을 사용 하 고, 각 하위 수준에는 숫자만 사용 합니다 (예: 문자 없음).  예:
    1. 항목 A
    2. 항목 B
       1. 하위 항목 A
@@ -497,7 +509,7 @@ Service Trust Portal에서 준수 관리자에 액세스할 수 있습니다. Mi
       2. 하위 항목 B
    5. 항목 E
 
-하이퍼링크 텍스트를 대괄호로 묶고 닫는 대괄호 바로 다음에 하이퍼링크를 괄호로 묶어 구성 합니다.  예시는 다음과 같습니다:
+하이퍼링크 텍스트를 대괄호로 묶고 닫는 대괄호 바로 다음에 하이퍼링크를 괄호로 묶어 구성 합니다.  예:
 
 ```Markdown
 Click [here](https://www.microsoft.com) to go to Microsoft’s home page.
@@ -506,7 +518,7 @@ Click [here](https://www.microsoft.com) to go to Microsoft’s home page.
 
 위의 예제에 나와 있는 것 처럼 준수 관리자는 밑줄을 사용 하 여 Url을 렌더링 하지 않습니다.
 
-굵은 텍스트는 텍스트의 양쪽에 있는 두 개의 별표가 며 굵게 표시 됩니다.  예시는 다음과 같습니다:
+굵은 텍스트는 텍스트의 양쪽에 있는 두 개의 별표가 며 굵게 표시 됩니다.  예:
 
 ```Markdown
 **This text will render in bold**

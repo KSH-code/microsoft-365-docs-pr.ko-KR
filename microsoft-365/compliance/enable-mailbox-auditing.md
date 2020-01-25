@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: aaca8987-5b62-458b-9882-c28476a66918
 description: 사서함 감사 로깅은 기본적으로 Office 365에서 설정 됩니다 (기본 사서함 감사 또는 사서함 감사가 기본적으로 라고도 함). 즉, 사서함 소유자, 대리인 및 관리자가 수행 하는 특정 작업이 사서함 감사 로그에 자동으로 기록 되므로 사서함에 대해 수행 된 작업을 검색할 수 있습니다.
-ms.openlocfilehash: 50be60e3ca863c6625693c1b4debce1217571002
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 059039205e82ea63b1dc14a8be5e768e9cdba069
+ms.sourcegitcommit: e872676ec98036a50d3a0cb5071109ea5f5a7ae5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088101"
+ms.lasthandoff: 01/24/2020
+ms.locfileid: "41515569"
 ---
 # <a name="manage-mailbox-auditing"></a>사서함 감사 관리
 
@@ -37,17 +37,17 @@ ms.locfileid: "37088101"
 - 모든 사서함에 대해 동일한 작업을 감사 하 고 있으므로 조직 전체에 일관 된 사서함 감사 정책이 있습니다.
 
 > [!NOTE]
->• 기본적으로 사서함 감사 릴리스를 고려해 야 하는 중요 한 사항은 다음과 같습니다. 사서함 감사를 관리 하기 위해 별도의 작업을 수행할 필요가 없습니다. 그러나 자세한 내용을 보거나 기본 설정에서 사서함 감사를 사용자 지정 하거나 완전히 해제 하려면이 항목을 참조 하십시오. <br><br>• 기본적으로 사서함 감사가 설정 된 경우에도 일부 사용자에 대 한 사서함 감사 이벤트가 보안 & 준수 센터 또는 Office 365 관리 활동 API를 통해 검색 되지 않는 것을 확인할 수 있습니다. 자세한 내용은이 항목의 [추가 정보](#more-information) 섹션을 참조 하십시오.
+>• 기본적으로 사서함 감사 릴리스를 고려해 야 하는 중요 한 사항은 다음과 같습니다. 사서함 감사를 관리 하기 위해 별도의 작업을 수행할 필요가 없습니다. 그러나 자세한 내용을 보거나 기본 설정에서 사서함 감사를 사용자 지정 하거나 완전히 해제 하려면이 항목을 참조 하십시오. <br><br>• E5 사용자에 대 한 사서함 감사 이벤트만 보안 & 준수 센터의 감사 로그 검색 또는 Office 365 관리 활동 API를 통해 사용할 수 있습니다. 자세한 내용은이 항목의 [추가 정보](#more-information) 섹션을 참조 하십시오.
 
 ## <a name="verify-mailbox-auditing-on-by-default-is-turned-on"></a>기본적으로 사서함 감사가 설정 되어 있는지 확인
 
 조직에 대해 기본적으로 사서함 감사가 설정 되어 있는지 확인 하려면 [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell)에서 다음 명령을 실행 합니다.
 
-```
+```PowerShell
 Get-OrganizationConfig | Format-List AuditDisabled
 ```
 
-**False** 값은 조직에 대해 기본적으로 사서함 감사가 사용 되도록 설정 됨을 나타냅니다. 기본적으로 조직 값은 특정 사서함에 대 한 사서함 감사 설정을 재정의 합니다. 예를 들어 사서함에 대해 사서함 감사를 사용 하지 않도록 설정 된 경우 (해당 사서함에서 *Auditenabled* 속성이 **False** 인 경우) 사서함에 대 한 mailbox 감사가 기본적으로 설정 되어 있으므로 사서함에 대해 기본 사서함 작업이 계속 감사 됩니다. 조직.
+**False** 값은 조직에 대해 기본적으로 사서함 감사가 사용 되도록 설정 됨을 나타냅니다. 기본적으로 조직 값은 특정 사서함에 대 한 사서함 감사 설정을 재정의 합니다. 예를 들어 사서함에 대해 사서함 감사를 사용 하지 않도록 설정 된 경우 (해당 사서함에서 *auditenabled* 속성이 **False** 인 경우) 조직에 대해 기본적으로 사서함 감사가 사용 되므로 기본 사서함 작업은 여전히 사서함에 대해 감사 됩니다.
 
 특정 사서함에 대해 사서함 감사를 사용 하지 않도록 설정 하려면 사서함 소유자 및 사서함에 대 한 액세스 권한을 위임 받은 다른 사용자에 대해 사서함 감사 바이패스를 구성 합니다. 자세한 내용은이 항목의 [사서함 감사 로깅 바이패스](#bypass-mailbox-audit-logging) 섹션을 참조 하십시오.
 
@@ -105,7 +105,7 @@ Get-OrganizationConfig | Format-List AuditDisabled
 |**AddFolderPermissions**|**참고**:이 값은 사서함 작업으로 허용 되지만 **updatefolderpermissions** 작업에 이미 포함 되어 있으며 별도로 감사 되지 않습니다. 즉,이 값을 사용 하지 마십시오.||||
 |**ApplyRecord**|항목은 레코드로 레이블이 지정 됩니다.|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
 |**복사**|메시지가 다른 폴더에 복사되었습니다.|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|||
-|**만들기**|사서함의 일정, 연락처, 메모 또는 작업 폴더 (예: 새 모임 요청이 만들어짐)에 항목이 만들어집니다. 메시지 만들기, 보내기 또는 받기는 감사 되지 않습니다. 또한 사서함 폴더를 만드는 것은 감사 되지 않습니다.|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
+|**만들기**|사서함의 일정, 연락처, 메모 또는 작업 폴더 (예: 새 모임 요청이 만들어짐)에 항목이 만들어집니다. 메시지 만들기, 보내기 또는 받기는 감사 되지 않습니다. 사서함 폴더 만들기도 감사되지 않습니다.|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
 |**FolderBind**|사서함 폴더에 액세스했습니다. 관리자 또는 대리인이 사서함을 열 때에도 작업이 기록됩니다.<br/><br/> **참고**: 대리인에 의해 수행 된 폴더 바인드 작업에 대 한 감사 기록이 통합 되어 있습니다. 24 시간 내에 개별 폴더 액세스에 대 한 감사 레코드 하나를 생성 합니다.|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
 |**HardDelete**|메시지가 복구 가능한 항목 폴더에서 제거되었습니다.|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|
 |**MailboxLogin**|사용자가 사서함에 로그인 되어 있습니다. |||![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
@@ -119,12 +119,12 @@ Get-OrganizationConfig | Format-List AuditDisabled
 |**SendOnBehalf**|메시지가 SendOnBehalf 권한을 사용하여 전송되었습니다. 즉 다른 사용자가 사서함 소유자 대신에 메시지를 보냈습니다. 받는 사람은 메시지를 대신 보낸 사용자와 해당 메시지를 실제로 보낸 사용자를 메시지에서 확인할 수 있습니다.|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>||
 |**SoftDelete**|메시지가 지운 편지함 폴더에서 삭제되어가 영구적으로 삭제되었습니다. 소프트 삭제된 항목이 복구 가능한 항목 폴더로 이동됩니다.|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|
 |**업데이트**|메시지 또는 해당 속성이 변경되었습니다.|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|
-|**UpdateCalendarDelegation**|일정 위임이 사서함에 할당 되었습니다. 일정 위임 같은 조직에서 사서함 소유자의 일정을 관리 하는 다른 사람에 게 제공 합니다.|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>||![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|
-|**Updatefolderpermissions 작업이 로깅됩니다**|폴더 사용 권한이 변경 되었습니다. 폴더 사용 권한은 조직에서 사서함의 폴더에 액세스할 수 있는 사용자와 해당 폴더에 있는 메시지를 제어 합니다.|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|
+|**UpdateCalendarDelegation**|일정 위임이 사서함에 할당 되었습니다. 일정 위임 기능을 사용하여 같은 조직의 다른 사용자가 사서함 소유자의 일정을 관리할 수 있습니다.|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>||![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|
+|**UpdateFolderPermissions**|폴더 권한이 변경되었습니다. 폴더 사용 권한은 사서함의 폴더와 해당 폴더에 있는 메시지에 액세스할 수 있는 조직의 사용자를 제어합니다.|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|
 |**UpdateInboxRules**|받은 편지함 규칙을 추가, 제거 또는 변경 했습니다. 받은 편지함 규칙은 지정 된 조건에 따라 사용자의 받은 편지함에서 메시지를 처리 하 고, 메시지를 지정 된 폴더로 이동 하거나 메시지를 삭제 하는 것과 같이 규칙의 조건이 충족 될 때 작업을 수행 하는 데 사용 됩니다.|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|
 
 > [!IMPORTANT]
-> 조직에서 기본적으로 사서함 감사를 사용 하도록 설정 *하기 전에* 모든 로그온 유형에 대해 감사를 위해 사서함 작업을 사용자 지정 하는 경우 사용자 지정 설정이 사서함에 보존 되며 기본 사서함 작업에 의해 덮어쓰기 되지 않습니다. 이 섹션에 설명 되어 있습니다. 감사 사서함 작업을 기본값으로 되돌리려면 (언제 든 지이 작업을 수행할 수 있음)이 항목의 뒷부분에 나오는 [기본 사서함 작업 복원](#restore-the-default-mailbox-actions) 섹션을 참조 하십시오.
+> 조직에서 기본적으로 사서함 감사를 사용 하도록 설정 *하기 전에* 모든 로그온 유형에 대해 감사를 위해 사서함 작업을 사용자 지정 하는 경우 사용자 지정 설정이 사서함에 보존 되며이 섹션에 설명 된 대로 기본 사서함 작업을 덮어쓰지 않습니다. 감사 사서함 작업을 기본값으로 되돌리려면 (언제 든 지이 작업을 수행할 수 있음)이 항목의 뒷부분에 나오는 [기본 사서함 작업 복원](#restore-the-default-mailbox-actions) 섹션을 참조 하십시오.
 
 ### <a name="mailbox-actions-for-office-365-group-mailboxes"></a>Office 365 그룹 사서함에 대 한 사서함 작업
 
@@ -139,8 +139,8 @@ Office 365 그룹 사서함에 대 한 모든 권한이 있는 관리자는 대�
 |**만들기**|일정 항목 만들기 메시지 만들기, 보내기 또는 받기는 감사 되지 않습니다.|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>||
 |**HardDelete**|메시지가 복구 가능한 항목 폴더에서 제거되었습니다.|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|
 |**MoveToDeletedItems**|메시지가 삭제되어 지운 편지함 폴더로 이동되었습니다.|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|
-|**SendAs**|메시지가 SendAs 권한을 사용하여 전송되었습니다.|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>||
-|**SendOnBehalf**|메시지가 SendOnBehalf 권한을 사용하여 전송되었습니다. |![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>||
+|**SendAs**|SendAs 권한을 사용하여 메시지가 전송되었습니다.|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>||
+|**SendOnBehalf**|SendOnBehalf 권한을 사용하여 메시지가 전송되었습니다. |![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>||
 |**SoftDelete**|메시지가 지운 편지함 폴더에서 삭제되어가 영구적으로 삭제되었습니다. 소프트 삭제된 항목이 복구 가능한 항목 폴더로 이동됩니다.|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|
 |**업데이트**|메시지 또는 해당 속성이 변경되었습니다.|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|
 
@@ -150,13 +150,13 @@ Office 365 그룹 사서함에 대 한 모든 권한이 있는 관리자는 대�
 
 사용자 사서함 또는 공유 사서함에 값을 표시 하려면 MailboxIdentity \<\> 를 이름, 별칭, 전자 메일 주소 또는 사서함의 upn (사용자 계정 이름)으로 바꾸고 Exchange Online PowerShell에서 다음 명령을 실행 합니다.
 
-```
+```PowerShell
 Get-Mailbox -Identity <MailboxIdentity> | Format-List DefaultAuditSet
 ```
 
 Office 365 그룹 사서함에 값을 표시 하려면 MailboxIdentity \<\> 을 공유 사서함의 이름, 별칭 또는 전자 메일 주소로 바꾸고 Exchange Online PowerShell에서 다음 명령을 실행 합니다.
 
-```
+```PowerShell
 Get-Mailbox -Identity <MailboxIdentity> -GroupMailbox | Format-List DefaultAuditSet
 ```
 
@@ -180,26 +180,26 @@ Get-Mailbox -Identity <MailboxIdentity> -GroupMailbox | Format-List DefaultAudit
 
 ### <a name="display-the-mailbox-actions-that-are-being-logged-on-mailboxes"></a>기록 중인 사서함 작업을 사서함에 표시 합니다.
 
-현재 사용자 사서함 또는 공유 사서함에 대해 로그온 중인 사서함 작업을 확인 하려면 MailboxIdentity \<\> 를 이름, 별칭, 전자 메일 주소 또는 사서함의 사용자 이름 (username)으로 바꾸고 다음 중 하나 이상을 실행 합니다. Exchange Online PowerShell의 명령입니다.
+현재 사용자 사서함 또는 공유 사서함에 대해 로그온 중인 사서함 작업을 확인 하려면 MailboxIdentity \<\> 를 이름, 별칭, 전자 메일 주소 또는 사서함의 사용자 계정 이름 (Username)으로 바꾸고 Exchange Online PowerShell에서 다음 명령 중 하나 이상을 실행 합니다.
 
 > [!NOTE]
 > Office 365 그룹 사서함의 `-GroupMailbox` 다음 **사서함** 명령에 스위치를 추가할 수는 있지만 표시 되는 값은 생각 하지 마십시오. Office 365 그룹 사서함에 대해 감사 되는 기본 및 정적 사서함 작업은이 항목 앞부분의 [office 365 그룹 사서함에 대 한 사서함 작업](#mailbox-actions-for-office-365-group-mailboxes) 섹션에 설명 되어 있습니다.
 
 #### <a name="owner-actions"></a>소유자 작업
 
-```
+```PowerShell
 Get-Mailbox -Identity <MailboxIdentity> | Select-Object -ExpandProperty AuditOwner
 ```
 
 #### <a name="delegate-actions"></a>대리인 작업
 
-```
+```PowerShell
 Get-Mailbox -Identity <MailboxIdentity> | Select-Object -ExpandProperty AuditDelegate
 ```
 
 #### <a name="admin-actions"></a>관리 작업
 
-```
+```PowerShell
 Get-Mailbox -Identity <MailboxIdentity> | Select-Object -ExpandProperty AuditAdmin
 ```
 
@@ -214,29 +214,29 @@ Get-Mailbox -Identity <MailboxIdentity> | Select-Object -ExpandProperty AuditAdm
 
 ### <a name="change-the-mailbox-actions-to-audit"></a>감사로 사서함 작업 변경
 
-**사서함** Cmdlet에서 *auditadmin*, *auditadmin*또는 *auditadmin* 매개 변수를 사용 하 여 사용자 사서함 및 공유 사서함에 대해 감사 되는 사서함 작업을 변경할 수 있습니다 (Office 365 그룹에 대 한 감사 된 작업). 사서함은 사용자 지정할 수 없습니다.
+**사서함** Cmdlet에서 *auditadmin*, *auditadmin*또는 *auditadmin* 매개 변수를 사용 하 여 사용자 사서함 및 공유 사서함에 대해 감사 되는 사서함 작업을 변경할 수 있습니다 (Office 365 그룹 사서함에 대 한 감사 작업을 사용자 지정할 수 없음).
 
 다음과 같은 두 가지 방법을 사용 하 여 사서함 작업을 지정할 수 있습니다.
 
-- *교체* (덮어쓰기)이 구문을 `action1,action2,...actionN`사용 하 여 기존 사서함 작업을 덮어씁니다.
+- ** 다음 `action1,action2,...actionN`구문을 사용 하 여 기존 사서함 작업을 교체 (덮어씀) 합니다.
 
 - 다음 `@{Add="action1","action2",..."actionN"}` 구문을 사용 하 여 기존 값에 영향을 주지 않고 사서함 작업을 `@{Remove="action1","action2",..."actionN"}` *추가 하거나 제거* 합니다.
 
 이 예에서는 Gabriela Laureano "사서함에 대 한 관리자 사서함 작업을 소프트 삭제 및 하드 삭제의 기본 동작을 덮어쓰는 방법으로 변경 합니다.
 
-```
+```PowerShell
 Set-Mailbox -Identity "Gabriela Laureano" -AuditAdmin HardDelete,SoftDelete
 ```
 
 이 예에서는 사서함 laura@contoso.onmicrosoft.com에 MailboxLogin owner 작업을 추가 합니다.
 
-```
+```PowerShell
 Set-Mailbox -Identity laura@contoso.onmicrosoft.com -AuditOwner @{Add="MailboxLogin"}
 ```
 
 이 예에서는 팀 토론 사서함에 대 한 MoveToDeletedItems 대리인 작업을 제거 합니다.
 
-```
+```PowerShell
 Set-Mailbox -Identity "Team Discussion" -AuditDelegate @{Remove="MoveToDeletedItems"}
 ```
 
@@ -250,7 +250,7 @@ Set-Mailbox -Identity "Team Discussion" -AuditDelegate @{Remove="MoveToDeletedIt
 
 사용자 사서함 또는 공유 사서함에 대해 감사 되는 사서함 작업을 사용자 지정한 경우 다음 구문을 사용 하 여 하나 또는 모든 로그온 유형의 기본 사서함 작업을 복원할 수 있습니다.
 
-```
+```PowerShell
 Set-Mailbox -Identity <MailboxIdentity> -DefaultAuditSet <Admin | Delegate | Owner>
 ```
 
@@ -260,13 +260,13 @@ Set-Mailbox -Identity <MailboxIdentity> -DefaultAuditSet <Admin | Delegate | Own
 
 이 예에서는 사서함 mark@contoso.onmicrosoft.com의 모든 로그온 유형에 대해 감사 된 기본 사서함 작업을 복원 합니다.
 
-```
+```PowerShell
 Set-Mailbox -Identity mark@contoso.onmicrosoft.com -DefaultAuditSet Admin,Delegate,Owner
 ```
 
 이 예에서는 사서함 chris@contoso.onmicrosoft.com의 관리 로그온 유형에 대해 감사 된 기본 사서함 작업을 복원 하지만 대리인 및 소유자 로그온 유형에 대해 사용자 지정 된 감사 사서함 작업은 그대로 둡니다.
 
-```
+```PowerShell
 Set-Mailbox -Identity chris@contoso.onmicrosoft.com -DefaultAuditSet Admin
 ```
 
@@ -282,7 +282,7 @@ Set-Mailbox -Identity chris@contoso.onmicrosoft.com -DefaultAuditSet Admin
 
 Exchange Online PowerShell에서 다음 명령을 실행 하 여 전체 조직에 대해 기본적으로 사서함 감사를 해제할 수 있습니다.
 
-```
+```PowerShell
 Set-OrganizationConfig -AuditDisabled $true
 ```
 
@@ -302,7 +302,7 @@ Set-OrganizationConfig -AuditDisabled $true
 
 조직에 대 한 사서함 감사를 다시 설정 하려면 Exchange Online PowerShell에서 다음 명령을 실행 합니다.
 
-```
+```PowerShell
 Set-OrganizationConfig -AuditDisabled $false
 ```
 
@@ -310,7 +310,7 @@ Set-OrganizationConfig -AuditDisabled $false
 
 현재 조직에서 사서함 감사가 기본적으로 설정 된 경우에는 특정 사서함에 대해 사서함 감사를 사용 하지 않도록 설정할 수 없습니다. 예를 들어 *Auditenabled* mailbox 속성을 **False** 로 설정 하는 것은 무시 됩니다.
 
-그러나 Exchange Online PowerShell에서 **get-mailboxauditbypassassociation** cmdlet을 사용 하 여 작업이 수행 되는 위치에 관계 없이 지정 된 사용자의 *모든* 사서함 작업이 로깅되지 않도록 할 수 있습니다. 예를 들면 다음과 같습니다.
+그러나 Exchange Online PowerShell에서 **get-mailboxauditbypassassociation** cmdlet을 사용 하 여 작업이 수행 되는 위치에 관계 없이 지정 된 사용자의 *모든* 사서함 작업이 로깅되지 않도록 할 수 있습니다. 예:
 
 - 바이패스 된 사용자가 수행한 사서함 소유자 작업은 로깅되지 않습니다.
 
@@ -320,13 +320,13 @@ Set-OrganizationConfig -AuditDisabled $false
 
 특정 사용자에 대 한 사서함 감사 로깅을 무시 하려면 MailboxIdentity \<\> 을 사용자의 이름, 전자 메일 주소, 별칭 또는 upn (사용자 계정 이름)으로 바꾸고 다음 명령을 실행 합니다.
 
-```
+```PowerShell
 Set-MailboxAuditBypassAssociation -Identity <MailboxIdentity> -AuditByPassEnabled $true
 ```
 
 지정한 사용자에 대해 감사가 무시 되는지 확인 하려면 다음 명령을 실행 합니다.
 
-```
+```PowerShell
 Get-MailboxAuditBypassAssociation -Identity <MailboxIdentity> | Format-List AuditByPassEnabled
 ```
 
@@ -334,7 +334,7 @@ Get-MailboxAuditBypassAssociation -Identity <MailboxIdentity> | Format-List Audi
 
 ## <a name="more-information"></a>추가 정보
 
-- E5 라이선스가 있는 사용자 또는 사서함 감사 로깅이 관리자가 수동으로 사용 하도록 설정한 사서함은 보안 & 준수 센터 또는 Office 365 관리 활동 API를 통해 감사 로그 검색에 사서함 감사 로그 이벤트를 반환 합니다.
+- 기본적으로 사서함 감사 로깅이 모든 조직에서 사용 되도록 설정 되어 있기는 하지만 E5 라이선스가 있는 사용자만 [보안 & 준수 센터](search-the-audit-log-in-security-and-compliance.md) 또는 [Office 365 관리 활동 API](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-reference)를 통해 감사 로그 검색에 사서함 감사 로그 이벤트를 반환 합니다.
 
   E5 라이선스를 사용 하지 않고 사용자에 대 한 사서함 감사 로그 항목을 검색 하려면 다음을 수행할 수 있습니다.
 
@@ -344,7 +344,7 @@ Get-MailboxAuditBypassAssociation -Identity <MailboxIdentity> | Format-List Audi
 
     - [New-mailboxauditlogsearch를 사용](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-audit/new-mailboxauditlogsearch) 하 여 특정 사용자에 대 한 사서함 감사 로그를 검색 하 고 지정 된 받는 사람에 게 전자 메일을 통해 전송 되는 결과를 포함 합니다.
 
-  - Exchange Online의 EAC (Exchange 관리 센터)를 사용 하 여 다음을 수행 합니다.
+  - Exchange Online의 EAC (Exchange 관리 센터)를 사용 하 여 다음 작업을 수행 합니다.
 
     - [사서함 감사 로그 내보내기](https://docs.microsoft.com/Exchange/security-and-compliance/exchange-auditing-reports/export-mailbox-audit-logs)
 
@@ -373,7 +373,7 @@ Get-MailboxAuditBypassAssociation -Identity <MailboxIdentity> | Format-List Audi
 
     - Exchange Online PowerShell에서 다음 명령을 실행 하 여 복구 가능한 항목 폴더의 감사 하위 폴더에 있는 항목의 크기 및 수를 표시할 수 있습니다.
 
-      ```
+      ```PowerShell
       Get-MailboxFolderStatistics -Identity <MailboxIdentity> -FolderScope RecoverableItems | Where-Object {$_.Name -eq 'Audits'} | Format-List FolderPath,FolderSize,ItemsInFolder
       ```
 

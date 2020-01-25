@@ -12,12 +12,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 규정 준수 점수가 위험을 해결 하 고 준수 상태를 개선 하기 위해 수행한 조치에 따라 개인 설정 점수를 계산 하는 방법을 이해 합니다.
-ms.openlocfilehash: a94b1051af383041a89fa136ae490875ea48782d
-ms.sourcegitcommit: 3eae8fe39cea912d29e211a1c9fd035d6b606f91
+ms.openlocfilehash: 9fbc2b2beca3a667b09c1a4ba790651a364d1bf0
+ms.sourcegitcommit: e872676ec98036a50d3a0cb5071109ea5f5a7ae5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "38793662"
+ms.lasthandoff: 01/24/2020
+ms.locfileid: "41515579"
 ---
 # <a name="microsoft-compliance-score-preview-calculation"></a>Microsoft 규정 준수 점수 (미리 보기) 계산
 
@@ -43,11 +43,13 @@ ms.locfileid: "38793662"
 
 ## <a name="how-compliance-score-continuously-assesses-controls"></a>규정 준수 점수가 지속적으로 제어를 평가 하는 방법
 
-규정 준수 점수가 Microsoft 365 환경을 자동으로 검색 하 고 시스템 설정을 계속 검색 하며, 기술 제어 상태를 자동으로 업데이트 합니다. 예를 들어 Azure AD 포털에서 MFA (multi-factor authentication)를 설정한 경우 준수 점수가 설정을 감지 하 고 제어 액세스 솔루션 세부 정보에 해당 사실을 반영 합니다. 반대로, MFA를 설정 하지 않은 경우에는 권장 되는 조치로 인 한 준수 점수 플래그를 사용 합니다.
+규정 준수 점수가 Microsoft 365 환경을 자동으로 검색 하 고 시스템 설정을 계속 검색 하며, 기술 제어 상태를 자동으로 업데이트 합니다. 준수 점수는 모니터링을 수행 하는 기본 엔진으로 보안 점수를 사용 합니다. [보안 점수 및 작동 방식에 대해 자세히 알아보세요](../security/mtp/microsoft-secure-score.md).
 
-준수 점수가 24 시간 마다 컨트롤 상태를 업데이트 합니다. 사용자가 컨트롤을 구현 하는 권장 사항을 따르면 다음 날에 제어 상태를 업데이트 한 것을 볼 수 있습니다.
+제어 상태는 24 시간 마다 준수 점수 대시보드에 업데이트 됩니다. 사용자가 컨트롤을 구현 하는 권장 사항을 따르면 다음 날에 제어 상태를 업데이트 한 것을 볼 수 있습니다.
 
-공개 미리 보기 중에는 일부 컨트롤에서 연속 평가를 사용할 수 있습니다.
+예를 들어 Azure AD 포털에서 MFA (multi-factor authentication)를 설정 하는 경우 준수 점수가 설정을 감지 하 고 제어 액세스 솔루션 세부 정보에 해당 사실을 반영 합니다. 반대로, MFA를 설정 하지 않은 경우에는 권장 되는 조치로 인 한 준수 점수 플래그를 사용 합니다.
+
+공개 미리 보기 중에는 일부 컨트롤에 대해서도 연속 평가를 사용할 수 있습니다.
   
 ## <a name="control-types-and-points"></a>컨트롤 형식 및 요소
 
@@ -78,8 +80,8 @@ ms.locfileid: "38793662"
 |:-----|:-----|
 | 예방적 필수 | kb(56kbps |
 | 예방적 임의 | 9  |
-| 예방용 인지 필수 | 3  |
-| 예방용 인지 임의 | 1  |
-| 정정 필수 | 3  |
-| 정정 임의 | 1  |
+| 예방용 인지 필수 | 3(sp3) |
+| 예방용 인지 임의 | 개 |
+| 정정 필수 | 3(sp3) |
+| 정정 임의 | 개 |
   

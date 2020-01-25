@@ -10,12 +10,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: 관리자는 Facebook Business pages, Twitter, LinkedIn 회사 페이지 및 인스턴트 Bloomberg 같은 데이터 원본에서 타사 데이터를 가져오도록 커넥터를 설정할 수 있습니다. 이를 통해 Microsoft 365의 타사 데이터 원본에서 데이터를 보관할 수 있으므로 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용 하 여 조직의 타사 데이터를 관리 하는 것을 관리할 수도 있습니다.
-ms.openlocfilehash: f0e7e7e040debd489e538c9075925db29bfe8f9f
-ms.sourcegitcommit: 9b390881fe661deb0568b4b86a5a9094f3c795f0
+ms.openlocfilehash: dbc38840ccaa98a4e89fc91216765f209b844326
+ms.sourcegitcommit: e872676ec98036a50d3a0cb5071109ea5f5a7ae5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "41269439"
+ms.lasthandoff: 01/24/2020
+ms.locfileid: "41515779"
 ---
 # <a name="set-up-a-connector-to-archive-facebook-data"></a>Facebook 데이터를 보관 하는 커넥터 설정
 
@@ -53,8 +53,6 @@ Microsoft 365 준수 센터에서 커넥터를 설정 및 구성 하 여 조직�
 - AAD 응용 프로그램 ID
 
 - AAD 응용 프로그램 비밀
-
-- AAD 응용 프로그램 Uri
 
 - 테 넌 트 Id
 

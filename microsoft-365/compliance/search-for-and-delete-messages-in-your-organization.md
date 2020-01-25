@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 3526fd06-b45f-445b-aed4-5ebd37b3762a
 description: Office365 보안 및 준수 센터의 검색 및 지우기 기능을 사용하여 조직의 모든 사서함에서 전자 메일 메시지를 검색하고 삭제할 수 있습니다.
-ms.openlocfilehash: 0c2b54b8e2d18a91075c577d65d7023e3b1d2c44
-ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
+ms.openlocfilehash: 53ec50ddd42e1d17580f4b1581ef8d8fe02f97bf
+ms.sourcegitcommit: 3dca80f268006658a0b721aa4f6df1224c7964dc
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "39218863"
+ms.lasthandoff: 01/22/2020
+ms.locfileid: "41259976"
 ---
 # <a name="search-for-and-delete-email-messages-in-your-office-365-organization"></a>Office 365 조직의 전자 메일 메시지 검색 및 삭제
 
@@ -39,7 +39,7 @@ Office365의 콘텐츠 검색 기능을 사용하여 조직의 모든 사서함�
   
 ## <a name="before-you-begin"></a>시작하기 전에
 
-- 콘텐츠 검색을 만들고 실행하려면 **eDiscovery 관리자** 역할 그룹의 구성원이거나 **준수 검색** 관리 역할을 할당 받아야 합니다. 메시지를 삭제하려면 **조직 관리** 역할 그룹의 구성원이거나 **검색 및 삭제** 관리 역할을 할당 받아야 합니다. 역할 그룹에 사용자를 추가하는 방법에 대한 자세한 내용은 [사용자에게 보안 및 준수 센터에 대한 액세스 권한 부여](../security/office-365-security/grant-access-to-the-security-and-compliance-center.md)를 참조하세요.
+- 콘텐츠 검색을 만들고 실행하려면 **eDiscovery 관리자** 역할 그룹의 구성원이거나 **준수 검색** 관리 역할을 할당 받아야 합니다. 메시지를 삭제하려면 **조직 관리** 역할 그룹의 구성원이거나 **검색 및 삭제** 관리 역할을 할당 받아야 합니다. 역할 그룹에 사용자를 추가하는 방법에 대한 자세한 내용은 [보안 및 준수 센터의 eDiscovery 권한 부여](assign-ediscovery-permissions.md)를 참조하세요.
     
 - 메시지를 삭제하려면 보안 및 준수 센터 PowerShell을 사용해야 합니다. 연결하는 방법에 대한 자세한 내용은 [2단계](#step-2-connect-to-security--compliance-center-powershell)를 참조하세요.
     

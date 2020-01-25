@@ -12,12 +12,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 규정 준수 점수는 조직이 위험 평가를 간소화 하 고 자동화 하는 데 도움이 되며, 위험을 해결 하기 위한 권장 조치를 제시 합니다.
-ms.openlocfilehash: 27720412ee8d2b03869b96a1ff9fce68b2fe6eb4
-ms.sourcegitcommit: 5fc0f2cd1f2596fd10299333c826c501936dcd98
+ms.openlocfilehash: 8a523878cb003e1cc676ea65d69f402ddf056e84
+ms.sourcegitcommit: e872676ec98036a50d3a0cb5071109ea5f5a7ae5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/22/2020
-ms.locfileid: "41261862"
+ms.lasthandoff: 01/24/2020
+ms.locfileid: "41515679"
 ---
 # <a name="microsoft-compliance-score-preview"></a>Microsoft 준수 점수 (미리 보기)
 
@@ -141,4 +141,4 @@ Microsoft 준수 점수는 조직의 규정 준수 상태를 이해 하는 데 �
 
 ## <a name="next-step-begin-setup"></a>다음 단계: 설치 시작
 
-에 로그인 하 고, 사용 권한을 설정 하 고, [준수 점수 설정](compliance-score-setup.md)에서 준수 점수 대시보드에 대해 알아보세요.
+[준수 점수 설정](compliance-score-setup.md)에 로그인 하 고, 사용 권한을 설정 하 고, 업데이트 및 대시보드 보기를 구성 하는 방법을 알아봅니다.

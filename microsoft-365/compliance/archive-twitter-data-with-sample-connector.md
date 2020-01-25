@@ -10,12 +10,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: 관리자는 네이티브 커넥터를 설정 하 여 Twitter 데이터를 Microsoft 365로 가져올 수 있습니다. 이를 통해 Microsoft 365의 타사 데이터 원본에서 데이터를 보관할 수 있으므로 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용 하 여 조직의 타사 데이터를 관리 하는 것을 관리할 수도 있습니다.
-ms.openlocfilehash: cba4509c9752fbfefd8aadfdeac679aa45159711
-ms.sourcegitcommit: 9b390881fe661deb0568b4b86a5a9094f3c795f0
+ms.openlocfilehash: 65e2c5e2090364d28863763746b135a56fa58dee
+ms.sourcegitcommit: e872676ec98036a50d3a0cb5071109ea5f5a7ae5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "41269379"
+ms.lasthandoff: 01/24/2020
+ms.locfileid: "41515799"
 ---
 # <a name="set-up-a-connector-to-archive-twitter-data"></a>Twitter 데이터를 보관할 커넥터 설정
 
@@ -53,27 +53,30 @@ Microsoft 365 준수 센터에서 커넥터를 설정 및 구성 하 여 조직�
 단계별 지침에 따라이 단계를 완료 하는 동안 다음 정보를 텍스트 파일에 저장 합니다. 이러한 값은 배포 프로세스의 이후 단계에서 사용 됩니다.
 
 - AAD 응용 프로그램 ID
+
+- AAD 응용 프로그램 비밀
+
 - 테 넌 트 Id
 
 ## <a name="step-2-deploy-connector-web-service-from-github-repository-to-your-azure-account"></a>2 단계: GitHub 리포지토리에서 커넥터 웹 서비스를 Azure 계정으로 배포
 
 다음 단계에서는 Twitter API를 사용 하 여 twitter 계정에 연결 하 고 데이터를 추출 하 여 Microsoft 365로 가져올 수 있는 Twitter 커넥터 응용 프로그램에 대 한 소스 코드를 배포 합니다. 조직에 대해 배포 하는 Twitter 커넥터는 조직의 Twitter 계정에서이 단계에서 만든 Azure 저장소 위치로 항목을 업로드 합니다. Microsoft 365 준수 센터 (5 단계)에서 Twitter 커넥터를 만든 후에는 Office 365 가져오기 서비스가 Azure Storage 위치에서 Twitter 데이터를 Microsoft 365의 사서함으로 복사 합니다. 앞에서 설명한 것 처럼 [필수 구성 요소](#prerequisites-for-setting-up-a-connector-for-twitter) 섹션에서 azure Storage 계정을 만들려면 유효한 azure 구독이 있어야 합니다.
 
-조직에 대해 배포 하는 Twitter 커넥터는 Twitter의 항목을이 단계에서 만든 Azure Storage 위치로 업로드 합니다. 보안 & 준수 센터 (7 단계)에서 사용자 지정 커넥터를 만든 후에는 Office 365 가져오기 서비스가 Azure Storage 위치에서 Twitter 데이터를 Office 365의 사서함으로 복사 합니다. 앞에서 설명한 것 처럼 [필수 구성 요소](#prerequisites-for-setting-up-a-connector-for-twitter) 섹션에서 azure Storage 계정을 만들려면 유효한 azure 구독이 있어야 합니다.
-
-Twitter 커넥터 응용 프로그램에 대 한 소스 코드를 배포 하려면
+Twitter 커넥터 응용 프로그램에 대 한 소스 코드를 배포 하려면:
 
 1. [이 GitHub 사이트로](https://github.com/microsoft/m365-sample-twitter-connector-csharp-aspnet)이동 합니다.
-2. **Azure에 배포** 단추를 클릭 합니다.
+
+2. **Azure에 배포를**클릭 합니다.
 
 단계별 지침은 [GitHub의 커넥터 웹 서비스를 Azure 계정에 배포](deploy-twitter-connector.md#step-2-deploy-the-connector-web-service-from-github-to-your-azure-account)를 참조 하세요.
 
 단계별 지침에 따라이 단계를 완료 하는 동안 다음 정보를 제공 합니다.
 
 - APISecretKey:이 단계를 완료 하는 동안이 비밀을 만듭니다. 5 단계에서 사용 됩니다.
+
 - tenantId: 1 단계에서 Azure Active Directory에 Twitter 앱을 만든 후 복사한 Microsoft 365 조직의 테 넌 트 ID입니다.
 
-이 단계를 완료 한 후에는 앱 서비스 URL (예:을 https://twitterconnector.azurewebsites.net)복사 해야 합니다. 이 URL을 사용 하 여 3 단계, 4 단계, 5 단계를 완료 해야 합니다.
+이 단계를 완료 한 후에는 앱 서비스 URL (예: `https://twitterconnector.azurewebsites.net`)을 복사 해야 합니다. 이 URL을 사용 하 여 3 단계, 4 단계, 5 단계를 완료 해야 합니다.
 
 ## <a name="step-3-create-developer-app-on-twitter"></a>3 단계: Twitter에서 개발자 앱 만들기
 
@@ -84,8 +87,11 @@ Twitter 커넥터 응용 프로그램에 대 한 소스 코드를 배포 하려�
 단계별 지침에 따라이 단계를 완료 하는 동안 다음 정보를 텍스트 파일에 저장 합니다. 이러한 값은 4 단계에서 Twitter 커넥터 응용 프로그램을 구성 하는 데 사용 됩니다.
 
 - Twitter API 키
+
 - Twitter API 비밀 키
+
 - Twitter 액세스 토큰
+
 - Twitter 액세스 토큰 암호
 
 ## <a name="step-4-configure-the-twitter-connector-app"></a>4 단계: Twitter 커넥터 응용 프로그램 구성
@@ -97,10 +103,15 @@ Twitter 커넥터 응용 프로그램에 대 한 소스 코드를 배포 하려�
 단계별 지침에 따라이 단계를 완료 하는 동안 이전 단계를 완료 한 후에 텍스트 파일로 복사한 다음 정보를 제공 합니다.
 
 - Twitter API 키 (3 단계에서 가져옴)
+
 - Twitter API 비밀 키 (3 단계에서 가져옴)
+
 - Twitter 액세스 토큰 (3 단계에서 가져옴)
+
 - Twitter 액세스 토큰 암호 (3 단계에서 가져옴)
+
 - Azure Active Directory 응용 프로그램 ID (1 단계에서 가져온 AAD 응용 프로그램 ID)
+
 - Azure Active Directory 응용 프로그램 비밀 (1 단계에서 얻은 AAD 응용 프로그램 암호)
 
 ## <a name="step-5-set-up-a-twitter-connector-in-the-microsoft-365-compliance-center"></a>5 단계: Microsoft 365 준수 센터에서 Twitter 커넥터 설정
@@ -112,4 +123,5 @@ Twitter 커넥터 응용 프로그램에 대 한 소스 코드를 배포 하려�
 단계별 지침에 따라이 단계를 완료 하는 동안 다음 정보를 제공 합니다 (단계 완료 후 텍스트 파일로 복사).
 
 - Azure app service URL (예: 2 단계에서 가져옴 `https://twitterconnector.azurewebsites.net`)
+
 - APISecretKey (2 단계에서 만든 것)

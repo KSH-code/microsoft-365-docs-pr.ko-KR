@@ -16,12 +16,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 322e74b846cc574b52708627d5f59dde3cfe9e80
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 221c773e04bd9b7a4e404d0ec6a5fd5695ca089c
+ms.sourcegitcommit: e872676ec98036a50d3a0cb5071109ea5f5a7ae5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40807387"
+ms.lasthandoff: 01/24/2020
+ms.locfileid: "41515759"
 ---
 # <a name="investigate-and-remediate-communication-compliance-alerts-preview"></a>커뮤니케이션 규정 준수 알림 검사 및 수정(미리 보기)
 
@@ -58,7 +58,7 @@ ms.locfileid: "40807387"
 
 5. **필터** 컨트롤을 선택 하 여 **필터** 세부 정보 페이지를 엽니다.
 
-6. 이 경고에 대 한 필터를 사용 하도록 설정 하려면 확인란을 하나 이상 선택 합니다.
+6. 이 경고에 대 한 필터를 사용 하도록 설정 하려면 확인란을 하나 이상 선택 합니다. *날짜*, *보낸 사람*, *제목/제목*, *분류자*등을 비롯 한 다양 한 필터에서 선택할 수 있습니다.
 
 7. 선택한 필터를 기본 필터로 저장 하려면 **기본값으로 저장**을 선택 합니다. 이 필터를 저장 된 필터로 사용 하려면 **완료**를 선택 합니다.
 

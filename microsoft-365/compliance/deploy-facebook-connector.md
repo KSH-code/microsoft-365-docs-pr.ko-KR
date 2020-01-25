@@ -11,12 +11,12 @@ localization_priority: Normal
 ms.collection: M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
 description: 관리자는 Facebook Business 페이지를 가져오고 보관 하기 위한 기본 커넥터를 Microsoft 365에 설정할 수 있습니다. 이 데이터를 Microsoft 365로 가져온 후 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용 하 여 조직의 Facebook 데이터를 관리할 수 있습니다.
-ms.openlocfilehash: 1222a82e3a3b8415aa3fc98cd3c06376e491beb0
-ms.sourcegitcommit: 9b390881fe661deb0568b4b86a5a9094f3c795f0
+ms.openlocfilehash: c13f055a9ca96d9b7cc1ec5791c476e6cda8e5f0
+ms.sourcegitcommit: e872676ec98036a50d3a0cb5071109ea5f5a7ae5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "41269425"
+ms.lasthandoff: 01/24/2020
+ms.locfileid: "41515739"
 ---
 # <a name="deploy-a-connector-to-archive-facebook-business-pages-data"></a>Facebook Business pages 데이터를 보관 하기 위한 커넥터 배포
 
@@ -60,15 +60,12 @@ ms.locfileid: "41269425"
 
    ![비밀 값을 복사 하 고 저장 합니다.](media/FBCimage9.png)
 
-10. 다음 스크린샷에 표시 된 대로 **매니페스트로** 이동 하 여 IDENTIFIERURIS (AAD 응용 프로그램 Uri 라고도 함)를 복사 합니다. AAD 응용 프로그램 Uri를 텍스트 파일 또는 기타 저장 위치에 복사 합니다. 6 단계에서 사용 합니다.
-
-    ![매니페스트로 이동 하 여 AAD 응용 프로그램 Uri 복사](media/FBCimage10.png)
 
 ## <a name="step-2-deploy-the-connector-web-service-from-github-to-your-azure-account"></a>2 단계: GitHub에서 Azure 계정으로 커넥터 웹 서비스 배포
 
-1. [이 GitHub 사이트로](https://github.com/microsoft/m365-sample-twitter-connector-csharp-aspnet) 이동한 후 **Azure에 배포를**클릭 합니다.
+1. [이 GitHub 사이트로](https://github.com/microsoft/m365-sample-connector-csharp-aspnet) 이동한 후 **Azure에 배포를**클릭 합니다.
 
-    ![Azure에 배포 클릭](media/FBCimage11.png)
+    ![Azure에 배포 클릭](media/FBCGithubApp.png)
 
 2. **Azure에 배포**를 클릭 하면 사용자 지정 서식 파일 페이지를 사용 하 여 azure 포털로 리디렉션됩니다. **기본 사항** 및 **설정** 세부 정보를 입력 하 고 **구매**를 클릭 합니다.
 

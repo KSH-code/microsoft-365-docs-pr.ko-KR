@@ -16,12 +16,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 886ede889e1843c7f7e94b89aeffb89d59a0120a
-ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
+ms.openlocfilehash: 64514c8c46cbc2ef35746e052e1ffb87831933c2
+ms.sourcegitcommit: e872676ec98036a50d3a0cb5071109ea5f5a7ae5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41111852"
+ms.lasthandoff: 01/24/2020
+ms.locfileid: "41515789"
 ---
 # <a name="communication-compliance-feature-reference-preview"></a>통신 준수 기능 참조 (미리 보기)
 
@@ -84,6 +84,16 @@ Microsoft 365 준수 센터에서 Microsoft 365 조 직에 대 한 통신 준수
     - [사용자 지정 데이터 커넥터](archiving-third-party-data.md)
 
 통신 준수 정책에 커넥터를 할당 하려면 먼저 Microsoft 365 조 직에 대 한 타사 커넥터를 구성 해야 합니다. 통신 준수 정책 마법사의 제 **3 자 원본** 에는 현재 구성 된 타사 커넥터도 표시 됩니다.
+
+## <a name="transitioning-from-supervision-in-office-365"></a>Office 365의 감독에서 전환
+
+Office 365에서 감독 정책을 사용 하 고 Microsoft 365의 통신 준수 정책 전환에 대 한 계획을 세우는 조직은 다음 중요 사항을 이해 해야 합니다.
+
+- 두 솔루션 모두 조직에서 side-by-side 방식으로 사용 될 수 있지만 각 솔루션에 사용 되는 정책에는 고유한 정책 이름이 있어야 합니다. 그룹 및 사용자 지정 키워드 사전은 전환 기간 동안 솔루션 간에 공유할 수 있습니다.
+- Office 365의 감독에 저장 된 메시지는 Microsoft 365의 통신 준수로 이동 하거나 공유할 수 없습니다.
+- Office 365의 감독 솔루션은 Microsoft 365의 통신 준수 솔루션으로 완전히 교체 됩니다. 새 조사 및 개선 관리 기능을 사용 하기 위해 기존 감독 정책과 동일한 설정을 갖는 통신 준수에서 새 정책을 만드는 것이 좋습니다. Microsoft 365의 통신 준수로 전환할 때 내부 준수 보존 정책 요구 사항이 있는 경우 Office 365의 보고 데이터를 내보내야 합니다.
+
+Office 365의 감독 정보에 대 한 자세한 내용은 [Microsoft 365 로드맵](https://www.microsoft.com/microsoft-365/roadmap) 를 참조 하세요.
 
 ## <a name="policy-settings"></a>정책 설정
 
@@ -219,6 +229,7 @@ Microsoft 365의 분류자에 대 한 자세한 내용은 [분류자](classifier
 | **제목/제목** | 메시지 제목 또는 채팅 제목입니다. |
 | **사이** | 메시지에 할당 된 태그 ( *불확실*, *호환*또는 *비호환)* |
 | **에스컬레이션** | 메시지 에스컬레이션 작업의 일부로 포함 된 사용자의 이름입니다. |
+| **분류자** | 메시지에 적용 되는 기본 제공 및 사용자 지정 분류자의 이름입니다. *공격적인 언어*, *대상 Harassment*, *불경*, *위협*등의 일부 예를 들어 예로 들 수도 있습니다.
 
 ## <a name="alert-policies"></a>알림 정책
 

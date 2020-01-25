@@ -12,12 +12,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 위험 평가를 간소화 하 고 자동화 하는 데 도움이 되는 Microsoft 규정 준수 점수에 대해 로그인 하 고 사용 권한을 설정 하 고 대시보드를 이해 하는 방법을 알아봅니다.
-ms.openlocfilehash: 79e93a102107433ed2b493a56381bc60ca544157
-ms.sourcegitcommit: 40e83b22b74db8e37d65e0988d4c11de3aa541b2
+ms.openlocfilehash: d6ec9617ff97a254514370c863b02b2fb0415798
+ms.sourcegitcommit: e872676ec98036a50d3a0cb5071109ea5f5a7ae5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "41021914"
+ms.lasthandoff: 01/24/2020
+ms.locfileid: "41515659"
 ---
 # <a name="microsoft-compliance-score-preview-setup"></a>Microsoft 준수 점수 (미리 보기) 설치
 
@@ -63,6 +63,38 @@ Microsoft 365 준수 센터에서 사용 권한을 설정 하려면 다음을 �
 
 1. [Microsoft 365 준수 센터로](https://compliance.microsoft.com) 이동 하 여 전역 관리자 계정으로 로그인 합니다.
 2. 왼쪽 탐색 창에서 **사용 권한을** 선택 합니다. 여기에서 역할을 확인 하 고 사용 권한을 할당할 수 있습니다.
+
+## <a name="configure-automatic-secure-score-updates"></a>자동 보안 점수 업데이트 구성
+
+기본적으로 모든 새 테 넌 트에는 [보안 점수](../security/mtp/microsoft-secure-score.md) 자동 업데이트가 설정 되어 있습니다. 즉, 보안 점수를 통해 모니터링 되는 모든 작업은 준수 점수에 있는 동일한 작업의 상태를 자동으로 업데이트 합니다.
+
+전역 관리자는이 설정을 관리 하 여 모든 작업에 대해 자동 업데이트를 해제 하거나 작업에 대 한 업데이트를 개별적으로 설정할 수 있습니다.
+
+공개 미리 보기 중에 보안 점수 업데이트를 관리 하려면 Microsoft Service Trust Portal (준수 관리자가 있는 경우)로 이동 해야 합니다.
+
+자동 보안 점수 업데이트를 관리 하려면 다음 단계를 수행 합니다.
+
+1. 전역 관리자 계정을 사용 하 여 [서비스 신뢰 포털](https://servicetrust.microsoft.com) 에 로그인 합니다.
+
+2. 서비스 보안 포털의 위쪽 메뉴 모음에 있는 **자세히**에서 **관리자** 를 선택 하 고 **설정을**선택 합니다.
+
+3. **보안 점수** 탭에서 **모든 동작에 대해 켤**해당 단추를 선택 하 고, **모든 작업**을 해제 하거나, 작업별 **로 설정 합니다.**
+
+작업별 설정을 선택 하 **는** 경우 다음과 같은 추가 단계를 수행 하 여 개별 작업에 대 한 보안 점수 업데이트를 설정 합니다.
+
+4. 위쪽 메뉴에서 **준수 관리자** 를 선택 합니다 (참고: "준수 관리자 (클래식)"는 선택 하지 않음).
+
+5. 화면의 오른쪽 위 모서리에 있는 **테 넌 트 관리** 를 선택 합니다.
+
+6. **고객 작업** 창의 해당 하는 **작업** 열에서 줄임표 (**...**)를 사용 하 여 원하는 작업을 찾습니다. 줄임표 (...)를 클릭 하 고 편집을 선택 **합니다.**
+
+7. **보안 점수 연속 업데이트** 전환 스위치를 설정으로 전환 **합니다.**
+
+8. **저장을 선택 합니다.** 이제 해당 작업에 대 한 보안 점수 지속적인 모니터링이 설정 됩니다.
+
+**참고:** 전역 관리자만 모든 작업에 대해 자동 업데이트를 설정 하거나 해제할 수 있습니다. 준수 관리자 관리자는 개별 작업에 대해 자동 업데이트를 설정할 수 있지만 모든 작업에 대해 전역적으로 수행 되지 않습니다.
+
+[보안 점수 업데이트 관리](compliance-manager-release-notes.md#secure-score)에 대 한 자세한 내용을 읽으십시오.
 
 ## <a name="understand-the-compliance-score-dashboard"></a>준수 점수 대시보드 이해
 
