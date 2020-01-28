@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 1fbd74e8-7a60-4157-afe8-fe79f05d2038
 description: 사서함을 비활성 사서함으로 설정 하 여 이전 직원의 사서함 콘텐츠를 보존 하는 방법에 대해 알아봅니다. 이 작업을 수행 하려면 사서함을 소송 보존으로 설정 하거나, 사서함에 Office 365 유지 정책을 적용 한 다음 해당 하는 Office 365 계정을 제거 하면 됩니다.
-ms.openlocfilehash: cd0d69b77dada9f249e3c3e0b68f556ad1120030
-ms.sourcegitcommit: e4f2f06daa264b8b476813a2dfe80cffb59f968f
+ms.openlocfilehash: 8522242e499d1b612b3e0f68055919bc75c8b4aa
+ms.sourcegitcommit: 03a83ff76c8162b850c4c552759c49f2a4750574
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "38687167"
+ms.lasthandoff: 01/26/2020
+ms.locfileid: "41557975"
 ---
 # <a name="overview-of-inactive-mailboxes-in-office-365"></a>Office 365의 비활성 사서함에 대 한 개요
 
@@ -33,9 +33,8 @@ ms.locfileid: "38687167"
   
 그러나 조직에서 이전 직원의 사서함 콘텐츠를 보존 해야 하는 경우에는 사서함을 소송 보존으로 설정 하거나 보안 & 준수 센터의 사서함에 Office 365 보존 정책을 적용 한 다음 해당 하는 Office 365 계정을 제거 하 여 사서함을 비활성 사서함으로 전환할 수 있습니다. The contents of an inactive mailbox are retained for the duration of the Litigation Hold placed on the mailbox or the retention period of the Office 365 retention policy applied to it before the mailbox was deleted. You can still recover the corresponding user account for a 30-day period. 그러나 30 일 후에 비활성 사서함은 보류 또는 보존 정책이 제거 될 때까지 Office 365에 보존 됩니다. 
   
-> [!NOTE]
-> 사서함을 비활성화하기 위해 새 원본 위치 유지를 만들 수 있는 2017년 7월 1일 마감 날짜를 연기했습니다. 하지만 올해 말이나 내년 초에는 Exchange Online에 새 원본 위치 유지를 만들 수 없습니다. 그때는 소송 보존과 Office 365 보존 정책만 사용하여 비활성화 사서함을 만들 수 있습니다. 그러나 원본 위치 유지에 있는 기존 비활성화 사서함은 계속 지원되며 비활성화 사서함에서 원본 위치 유지를 계속 관리할 수 있습니다. 관리 항목으로는 원본 위치 유지 기간 변경 및 원본 위치 유지를 삭제하여 비활성화 사서함을 영구 삭제하는 작업이 포함됩니다. 
- 
+> [!IMPORTANT]
+> 계속 해 서 사서함 콘텐츠를 보존 하는 다양 한 방법을 사용할 때 Exchange 관리 센터에서 원본 위치 유지의 만료를 알리는 것입니다. 즉, 소송 보류 및 Office 365 보존 정책을 사용 하 여 비활성 사서함을 만들어야 합니다. 2020 년 4 월 1 일부 터 Exchange Online에 새로운 현재 위치 유지를 만들 수 없습니다. 그러나 비활성 사서함에 저장 된 원본 위치 유지의 보존 기간은 여전히 변경할 수 있습니다. 그러나 2020 년 7 월 1 일부 터 시작 하는 경우에는 보류 시간을 변경할 수 없습니다. 원본 위치 유지를 제거 해야만 비활성 사서함을 삭제할 수 있습니다. 원본 위치 유지 상태인 기존 비활성 사서함은 보존을 제거할 때까지 계속 유지 됩니다. 원본 위치 유지의 만료에 대 한 자세한 내용은 [레거시 eDiscovery 도구의 만료](legacy-ediscovery-retirement.md)를 참조 하세요.
   
 ## <a name="inactive-mailboxes-and-office-365-retention-policies"></a>비활성 사서함 및 Office 365 보존 정책
 

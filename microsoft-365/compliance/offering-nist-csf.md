@@ -1,7 +1,7 @@
 ---
 title: 국내 표준 협회 및 기술 (NIST) Cybersecurity Framework (CSF)
 description: Microsoft 클라우드 서비스는 NIST (표준 협회) Cybersecurity Framework (CSF)를 충족 합니다.
-keywords: Microsoft 365, 규정 준수, 제안
+keywords: Microsoft 365, 규정 준수, 제품
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -12,12 +12,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 0fbe175d16a7b588e8c0cb3e7b5457459c314bdc
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 89296e2fb7b94bd74ee8ff617d818705fb844863
+ms.sourcegitcommit: 03a83ff76c8162b850c4c552759c49f2a4750574
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40804041"
+ms.lasthandoff: 01/26/2020
+ms.locfileid: "41558515"
 ---
 # <a name="national-institute-of-standards-and-technology-nist-cybersecurity-framework-csf"></a>국내 표준 협회 및 기술 (NIST) Cybersecurity Framework (CSF)
 
@@ -33,10 +33,10 @@ FICIC은 [중요 한 인프라 Cybersecurity 개선을 위해 Nist 프레임 워
 
 NIST Cybersecurity Framework (CSF)는 Cybersecurity 관련 위험을 관리 하기 위한 표준, 지침 및 모범 사례를 구성 하는 자발적 프레임 워크입니다. Microsoft 클라우드 서비스는 독립 된 타사 FedRAMP 일반 감사를 준수 했으며 FedRAMP 표준에 따라 인증 됩니다. 또한 HITRUST에서 수행 하는 유효성 검사 평가를 통해 선두 보안 및 개인 정보 표준 개발 및 인정 조직을 통해 Office 365은 NIST CSF에 지정 된 목표로 인증 됩니다.
 
-준수 관리자 및 Azure 보안 및 준수 청사진을 사용 하 여 NIST Cybersecurity Framework 배포를 가속화 하는 방법을 알아봅니다.
+준수 점수 및 Azure 보안 및 준수 청사진을 사용 하 여 NIST Cybersecurity Framework 배포를 가속화 하는 방법을 알아봅니다.
 
 - [Azure 보안 및 규정 준수 청사진 다운로드-NIST CSF 위험 요소 분석 검사 목록](https://servicetrust.microsoft.com/ViewPage/Blueprint?command=Download&downloadType=Document&downloadId=11e61716-11ab-4b11-9a9a-434b33a62ff9&docTab=fc060920-cdb8-11e7-bacf-0bf52b09d912_NIST_CSF_Blueprint)
-- [준수 관리자의 Office 365에 대 한 NIST CSF 평가에 대 한 자세한 정보](https://techcommunity.microsoft.com/t5/Security-Privacy-and-Compliance/New-NIST-CSF-and-CSA-CCM-assessments-available-in-Compliance/ba-p/218554)
+- [규정 준수 점수가 Office 365에 대 한 NIST CSF 평가에 대해 자세히 알아보기](https://techcommunity.microsoft.com/t5/Security-Privacy-and-Compliance/New-NIST-CSF-and-CSA-CCM-assessments-available-in-Compliance/ba-p/218554)
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 범위 내 클라우드 서비스
 
@@ -56,11 +56,11 @@ CSF (NIST Cybersecurity Framework) 표준은 클라우드에서 어려울 수 �
 
 - [Azure NIST CSF 청사진 사용 시작](https://aka.ms/Azure-Blueprint-DoD-NIST)
 
-## <a name="perform-risk-assessment-on-office-365-using-nist-csf-in-compliance-manager"></a>준수 관리자에서 NIST CSF를 사용 하 여 Office 365에 대 한 위험 요소 분석 수행
+## <a name="perform-risk-assessment-on-office-365-using-nist-csf-in-compliance-score"></a>준수 점수에 NIST CSF를 사용 하 여 Office 365에 대 한 위험 요소 분석 수행
 
-Cybersecurity는 디지털 변환 연대의 중요 관리 문제를 그대로 유지 합니다. Office 365 테 넌 트에 대 한 보안 제어를 구현 및 확인 하는 데 도움이 되도록 Microsoft는 준수 관리자의 NIST CSF 평가에서 권장 되는 고객 작업을 제공 합니다.
+Cybersecurity는 디지털 변환 연대의 중요 관리 문제를 그대로 유지 합니다. Office 365 테 넌 트에 대 한 보안 제어를 구현 하 고 확인 하는 데 도움이 되도록 Microsoft는 준수 점수의 NIST CSF 평가에서 권장 되는 고객 작업을 제공 합니다.
 
-- [준수 관리자 사용 시작](https://aka.ms/compliancemanager)
+- [준수 점수 사용 시작](compliance-score.md)
 
 ## <a name="frequently-asked-questions"></a>자주하는 질문
 

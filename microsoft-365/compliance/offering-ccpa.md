@@ -1,7 +1,7 @@
 ---
 title: 캘리포니아 소비자 개인 정보 보호법(CCPA)
 description: Microsoft 서비스 및 캘리포니아 CCPA (소비자 개인 정보 보호 Act)
-keywords: Microsoft 365, 규정 준수, 제안
+keywords: Microsoft 365, 규정 준수, 제품
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -12,12 +12,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: b6f24cb1afcefc9ddbe468530855603e7ee0f484
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 73c1d7be6da17ae29c6ea8423c879286714fe8f1
+ms.sourcegitcommit: 03a83ff76c8162b850c4c552759c49f2a4750574
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40804191"
+ms.lasthandoff: 01/26/2020
+ms.locfileid: "41558605"
 ---
 # <a name="california-consumer-privacy-act-ccpa"></a>캘리포니아 소비자 개인 정보 보호법(CCPA)
 
@@ -51,7 +51,7 @@ OST에 설정 된 대로 Microsoft는 CCPA를 포함 하는 온라인 서비스 
 
 다음은 CCPA에 대 한 준비를 받기 위해 수행할 수 있는 몇 가지 단계입니다.
 
-- CCPA 개인 정보 보호 프로그램의 일부로 규정 준수 관리자의 GDPR 평가를 활용합니다.
+- CCPA 개인 정보 보호 프로그램의 일부로 [준수 점수](compliance-score.md) 에 GDPR 평가를 활용 하기 시작 합니다.
 - 데이터 주체 요청 도구를 사용 하 여 DSARs (데이터 주체 액세스 요청)에 효율적으로 대응 하는 프로세스를 설정 합니다.
 - Microsoft 정보 보호로 중요한 데이터를 검색하고, 분류하고, 레이블을 지정하고, 보호하기 위해 레이블과 정책을 설정합니다.
 - 전자 메일 암호화 기능을 사용하여 중요 한 정보를 더욱 강력하게 제어합니다.

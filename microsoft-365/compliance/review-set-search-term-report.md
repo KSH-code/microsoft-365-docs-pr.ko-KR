@@ -15,12 +15,12 @@ search.appverid:
 ms.assetid: ''
 ROBOTS: NOINDEX, NOFOLLOW
 description: ''
-ms.openlocfilehash: 877c0017359ab9193c4cae81cbef4240909053a8
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: bb65745f92d1f77e6cc3224832c0a9871e567ca5
+ms.sourcegitcommit: 03a83ff76c8162b850c4c552759c49f2a4750574
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37089151"
+ms.lasthandoff: 01/26/2020
+ms.locfileid: "41558475"
 ---
 # <a name="generate-search-term-report-for-a-review-set"></a>검토 집합에 대 한 검색 용어 보고서 생성
 
@@ -46,7 +46,7 @@ EDiscovery에서는 문서를 쿼리 하는 데 가장 자주 사용 되는 조�
 
 피벗 보고서가 구성 되는 방식입니다. 다음 예를 살펴보겠습니다.
 
-- 저장 된 쿼리는 10 개의 문서: 즉, doc1 ~ doc10을 검색 합니다.
+- 저장 된 쿼리는 doc1-doc10을 통해 10 개의 문서를 검색 합니다.
 
 - doc1, doc2, doc3, doc4, doc5, doc6 및 doc7는 "eDiscovery" 라는 용어를 포함 합니다.
 

@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 ms.assetid: 5b4ba843-24b8-4526-8e1f-f9b9eab89d06
 description: Microsoft 365 Business에서 Microsoft 365 E3으로 비즈니스를 이동 하는 방법을 알아봅니다.
-ms.openlocfilehash: 7d10889a446543a3e9126aaaa1e3fbe6861f87a4
-ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
+ms.openlocfilehash: 1cf6aa741c7f0b427a434d472df7169ef37c5418
+ms.sourcegitcommit: 03a83ff76c8162b850c4c552759c49f2a4750574
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41111872"
+ms.lasthandoff: 01/26/2020
+ms.locfileid: "41558045"
 ---
 # <a name="migrate-from-microsoft-365-business-to-microsoft-365-e3"></a>Microsoft 365 Business에서 Microsoft 365 E3로 마이그레이션
 
@@ -47,7 +47,7 @@ Microsoft 365 Business에는 최고의 비즈니스에 필요한 모든 것이 �
 | 기능   | Microsoft 365 Business의 지원 | Microsoft 365 E3의 지원 | 
 |:-------|:-----|:-----|
 | **온-프레미스**       | | | 
-| Windows 10    | Windows 10 Business  |    Windows 10 Enterprise E3| 
+| Windows 10    | Windows 10 Business  |    Windows 10 Enterprise E3| 
 | Office 앱 *  | [Office 365 Business](#office-365-business)   | Office 365 ProPlus | 
 | **클라우드 생산성 앱**       | | | 
 | Exchange Online 및 Outlook   | 사서함 당 50 GB 저장소 제한 및 무제한 Exchange 온라인 보관   | 사서함 당 100 GB 저장소 제한 및 무제한 Exchange 온라인 보관 | 
@@ -77,7 +77,7 @@ Microsoft 365 Business에는 최고의 비즈니스에 필요한 모든 것이 �
 | Enterprise CAL Suite (Exchange, SharePoint, Skype, Windows, Microsoft Endpoint Configuration Manager, Windows Rights Management)| |       ![Microsoft 365 E3에 포함](./media/check-mark.png) | 
 | **규정 준수**        | | | 
 | 무제한 전자 메일 보관 | ![Microsoft 365 Business에 포함](./media/check-mark.png)   | ![Microsoft 365 E3에 포함](./media/check-mark.png) | 
-| 준수 관리자    | ![Microsoft 365 Business에 포함](./media/check-mark.png)   | ![Microsoft 365 E3에 포함](./media/check-mark.png) | 
+| 준수 점수/준수 관리자   | ![Microsoft 365 Business에 포함](./media/check-mark.png)   | ![Microsoft 365 E3에 포함](./media/check-mark.png) | 
 | eDiscovery    | ![Microsoft 365 Business에 포함](./media/check-mark.png)   | ![Microsoft 365 E3에 포함](./media/check-mark.png) | 
 | 원본 위치 유지 및 소송 보존 | ![Microsoft 365 Business에 포함](./media/check-mark.png)   | ![Microsoft 365 E3에 포함](./media/check-mark.png) | 
 | MRM (메시징 레코드 관리) 보존 태그 및 보존 정책  | ![Microsoft 365 Business에 포함](./media/check-mark.png)   | ![Microsoft 365 E3에 포함](./media/check-mark.png) | 
@@ -134,7 +134,7 @@ Windows 10 Enterprise e 3에는 Microsoft Edge에 대 한 하드웨어 기반 �
 
 마이그레이션 전에 현재 Intune 구성을 변경할 필요가 없습니다 (등록 된 장치 및 장치 및 앱 설정 포함).
 
-### <a name="windows-10"></a>Windows 10
+### <a name="windows-10"></a>Windows 10
 
 Microsoft 365 Business에는 windows AutoPilot를 사용 하 여 설치할 수 있는 Windows 10 Business가 포함 되어 있습니다. Microsoft 365 E3로 마이그레이션하는 경우 각 사용자 라이선스에는 windows Autopilot를 사용 하 여 설치할 수도 있습니다.
 

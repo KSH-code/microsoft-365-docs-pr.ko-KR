@@ -12,12 +12,12 @@ search.appverid:
 - MET150
 ms.assetid: d945f7dd-f62f-4ca7-b3e7-469824cfd493
 description: Office 365 eDiscovery 및 검색 도구를 사용 하 여 조직의 데이터 유출 인시던트를 관리 하 고 대응 합니다.
-ms.openlocfilehash: 2c34a632ce55003c9add88d2bced589dd1becf35
-ms.sourcegitcommit: 3dca80f268006658a0b721aa4f6df1224c7964dc
+ms.openlocfilehash: 06c02a9d5f31f8b7d6845214c10a150b6cacf379
+ms.sourcegitcommit: 03a83ff76c8162b850c4c552759c49f2a4750574
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/22/2020
-ms.locfileid: "41259424"
+ms.lasthandoff: 01/26/2020
+ms.locfileid: "41558365"
 ---
 # <a name="ediscovery-solution-series-data-spillage-scenario---search-and-purge"></a>eDiscovery 솔루션 시리즈: 데이터 유출 시나리오-검색 및 삭제
 
@@ -54,7 +54,7 @@ Contoso의 잠재 고객 정보 보안 담당자입니다. 직원 들이 전자 
     
 - 사례를 만들려면 eDiscovery 관리자 역할 그룹의 구성원 이거나 사례 관리 역할이 할당 된 사용자 지정 역할 그룹의 구성원 이어야 합니다. 구성원이 아닌 경우 Office 365 관리자에 게 [eDiscovery 관리자 역할 그룹에 추가](assign-ediscovery-permissions.md)해 달라고 요청 하세요.
     
-- 콘텐츠 검색을 만들고 실행하려면 eDiscovery 관리자 역할 그룹의 구성원이거나 준수 검색 관리 역할을 할당 받아야 합니다. 메시지를 삭제하려면 조직 관리 역할 그룹의 구성원이거나 검색 및 제거 관리 역할을 할당 받아야 합니다. 역할 그룹에 사용자를 추가 하는 방법에 대 한 자세한 내용은 [Security & 준수 센터에서 eDiscovery 사용 권한 할당](https://docs.microsoft.com/microsoft-365/compliance/assign-ediscovery-permissions)을 참조 하십시오.
+- 콘텐츠 검색을 만들고 실행하려면 eDiscovery 관리자 역할 그룹의 구성원이거나 준수 검색 관리 역할을 할당 받아야 합니다. 메시지를 삭제하려면 조직 관리 역할 그룹의 구성원이거나 검색 및 제거 관리 역할을 할당 받아야 합니다. 역할 그룹에 사용자를 추가하는 방법에 대한 자세한 내용은 [보안 및 준수 센터의 eDiscovery 권한 부여](https://docs.microsoft.com/microsoft-365/compliance/assign-ediscovery-permissions)를 참조하세요.
     
 - 8 단계에서 Office 365 감사 로그 eDiscovery 활동을 검색 하려면 조직에 대 한 감사가 설정 되어 있어야 합니다. 지난 90 일 이내에 수행 된 활동을 검색할 수 있습니다. 감사를 사용 하도록 설정 하 고 사용 하는 방법에 대 한 자세한 내용은 8 단계에서 [데이터 유출 조사 프로세스 감사](#auditing-the-data-spillage-investigation-process) 섹션을 참조 하십시오. 
     
@@ -124,7 +124,7 @@ Custodian 또는 최종 사용자에 게 Office 365 E5 라이선스가 할당 �
     
 ## <a name="step-6-prepare-the-mailboxes"></a>6 단계: 사서함 준비
 
-검색 결과에 삭제 해야 하는 메시지만 포함 되어 있는지 검토 하 고 확인 한 후에는 **검색 사서함-DeleteContent** 명령을 실행할 때 7 단계에서 사용할 영향을 받는 사서함의 전자 메일 주소 목록을 수집 해야 합니다. 또한 분산 된 데이터를 포함 하는 사서함에 대해 단일 항목 복구를 사용할 수 있는지 또는 해당 사서함이 보류 상태 인지에 따라 전자 메일 메시지를 영구적으로 삭제 하기 전에 사서함을 준비 해야 할 수 있습니다.
+검색 결과에 삭제 해야 하는 메시지만 포함 되어 있는지 검토 하 고 유효성을 검사 한 후에는 데이터를 삭제 하는 경우 7 단계에서 사용할 영향을 받는 사서함의 전자 메일 주소 목록을 수집 해야 합니다. 또한 분산 된 데이터를 포함 하는 사서함에 대해 단일 항목 복구를 사용할 수 있는지 또는 해당 사서함이 보류 상태 인지에 따라 전자 메일 메시지를 영구적으로 삭제 하기 전에 사서함을 준비 해야 할 수 있습니다.
   
 ### <a name="get-a-list-of-addresses-of-mailboxes-with-spilled-data"></a>데이터가 분산 된 사서함의 주소 목록 가져오기
 
@@ -168,9 +168,9 @@ Custodian 또는 최종 사용자에 게 Office 365 E5 라이선스가 할당 �
 
 ## <a name="step-7-permanently-delete-the-spilled-data"></a>7 단계: 데이터를 영구적으로 삭제
 
-전송 된 데이터를 포함 하는 전자 메일을 찾기 위해 3 단계에서 작성 하 고 준비한 검색 쿼리와 6 단계에서 수집한 사서함 위치를 사용 하 여 데이터를 영구적으로 삭제할 수 있습니다.  앞에서 설명한 것 처럼 메시지를 삭제 하려면 조직 관리 역할 그룹의 구성원 이거나 검색 및 삭제 관리 역할을 할당 받아야 합니다. 역할 그룹에 사용자를 추가 하는 방법에 대 한 자세한 내용은 [Security & 준수 센터에서 eDiscovery 사용 권한 할당](https://docs.microsoft.com/microsoft-365/compliance/assign-ediscovery-permissions)을 참조 하십시오.
+전송 된 데이터를 포함 하는 전자 메일을 찾기 위해 3 단계에서 작성 하 고 준비한 검색 쿼리와 6 단계에서 수집한 사서함 위치를 사용 하 여 데이터를 영구적으로 삭제할 수 있습니다.  앞에서 설명한 것 처럼 메시지를 삭제 하려면 조직 관리 역할 그룹의 구성원 이거나 검색 및 삭제 관리 역할을 할당 받아야 합니다. 역할 그룹에 사용자를 추가하는 방법에 대한 자세한 내용은 [보안 및 준수 센터의 eDiscovery 권한 부여](https://docs.microsoft.com/microsoft-365/compliance/assign-ediscovery-permissions)를 참조하세요.
 
-전송 된 메시지를 삭제 하려면 [Office 365 조직에서 전자 메일 메시지 검색 및 삭제](https://docs.microsoft.com/microsoft-365/compliance/search-for-and-delete-messages-in-your-organization) 의 2 단계 &를 참조 하세요.
+전송 된 메시지를 삭제 하려면 [전자 메일 메시지 검색 및 삭제](https://docs.microsoft.com/microsoft-365/compliance/search-for-and-delete-messages-in-your-organization) 에서 2 단계 & 3 수행을 참조 하십시오.
   
 ## <a name="step-8-verify-provide-a-proof-of-deletion-and-audit"></a>8 단계: 확인, 삭제 증거 제공 및 감사
 

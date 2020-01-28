@@ -1,7 +1,7 @@
 ---
 title: Health Information Trust 제휴 (HITRUST) 일반 보안 프레임 워크 (CSF)
 description: Azure 및 Office 365는 HITRUST (Health Information Trust 제휴) (CSF)를 인증 합니다.
-keywords: Microsoft 365, 규정 준수, 제안
+keywords: Microsoft 365, 규정 준수, 제품
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -12,12 +12,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 9b0448a3ed5cf36a909ebb14e0aadf2b8ac96610
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: e6085446677e592425d5453aa350541590de1b9d
+ms.sourcegitcommit: 03a83ff76c8162b850c4c552759c49f2a4750574
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40804801"
+ms.lasthandoff: 01/26/2020
+ms.locfileid: "41558535"
 ---
 # <a name="health-information-trust-alliance-hitrust-common-security-framework-csf"></a>Health Information Trust 제휴 (HITRUST) 일반 보안 프레임 워크 (CSF)
 
@@ -58,9 +58,9 @@ Azure 보안 및 규정 준수 청사진 (HIPAA/HITRUST Health Data and AI)을 �
 
 ## <a name="accelerate-your-hipaahitrust-compliance-when-using-office-365"></a>Office 365을 사용할 때 HIPAA/HITRUST 준수 속도 향상
 
-Office 365을 사용 하 여 준수 관리자를 통해 보안 및 준수 방식으로 상태 정보를 관리할 수 있으므로, HIPAA 및 nist 및 NIST 800-53 등의 보안 제어 프레임 워크와 같은 상태 규정에 대 한 위험을 평가 하는 데 도움이 됩니다. 단계별 지침에 따라 의료 준수 의무를 충족 하는 데 도움이 되는 데이터 보호 컨트롤을 구현 및 유지 관리 하는 방법을 확인할 수 있습니다.
+Office 365을 사용 하 여 규정 준수 점수를 사용 하 여 보안 및 준수 방식으로 상태 정보를 관리 하 고, NIST CSF 및 NIST 800-53와 같은 HIPAA 및 security control 프레임 워크와 같은 상태 규정에 대 한 위험 평가를 수행할 수 있습니다. 단계별 지침에 따라 의료 준수 의무를 충족 하는 데 도움이 되는 데이터 보호 컨트롤을 구현 및 유지 관리 하는 방법을 확인할 수 있습니다.
 
-[준수 관리자 사용 시작](https://go.microsoft.com/fwlink/p/?linkid=862650)
+[준수 점수 사용 시작](compliance-score.md)
 
 ## <a name="collaborate-with-microsoft-in-the-hitrust-shared-responsibility-program"></a>HITRUST 공유 책임 프로그램에서 Microsoft와 공동 작업
 
@@ -95,7 +95,7 @@ Office 365와 같은 SaaS에 데이터를 저장 하는 경우 Microsoft와 조�
 
 **Microsoft는 Office 365을 사용할 때 조직에서 적절 한 컨트롤을 구현 하는 데 도움이 되는 지침을 제공 하나요?**
 
-예, 준수 관리자에서 권장 되는 고객 작업을 찾을 수 있으며, Microsoft 클라우드 솔루션은 클라우드 서비스를 사용할 때 조직이 복잡 한 준수 의무를 충족 하는 데 도움이 됩니다. 특히 HITRUST CSF의 경우 준수 관리자의 NIST 800-53 및 NIST CSF 평가를 사용 하 여 위험 평가를 수행 하는 것이 좋습니다. 평가에서는 데이터 보호 컨트롤을 구현 하는 데 사용할 수 있는 단계별 지침과 Microsoft 솔루션을 제공 합니다. 이 [백서](https://resources.office.com/ww-landing-m365e-gdpr-compliance-manager-whitepaper.html?lcid=en-us)에서는 준수 관리자에 대 한 자세한 내용을 확인할 수 있습니다.
+예, 조직에서 클라우드 서비스를 사용할 때 복잡 한 준수 의무를 충족 하는 데 도움이 되는 준수 점수, 크로스-Microsoft 클라우드 솔루션에서 권장 되는 고객 작업을 확인할 수 있습니다. 특히 HITRUST CSF의 경우 준수 점수에 NIST 800-53 및 NIST CSF 평가를 사용 하 여 위험 평가를 수행 하는 것이 좋습니다. 평가에서는 데이터 보호 컨트롤을 구현 하는 데 사용할 수 있는 단계별 지침과 Microsoft 솔루션을 제공 합니다. 규정 준수 점수에 대 한 자세한 내용은 [Microsoft 준수 점수](compliance-score.md)를 확인 하세요.
 
 **Microsoft에 참여 하려면 어떻게 해야 합니까?**
 

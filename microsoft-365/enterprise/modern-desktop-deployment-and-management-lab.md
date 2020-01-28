@@ -13,12 +13,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Windows 및 Office 배포 랩 키트에 액세스하는 방법 및 위치에 대해 알아보세요.
-ms.openlocfilehash: 1d95edce079f515572c977913da2ee432514f983
-ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
+ms.openlocfilehash: 435b8177fc97f9cd07ff78704605428e594e0dd8
+ms.sourcegitcommit: 03a83ff76c8162b850c4c552759c49f2a4750574
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41112512"
+ms.lasthandoff: 01/26/2020
+ms.locfileid: "41558585"
 ---
 # <a name="windows-and-office-deployment-lab-kit"></a>Windows 및 Office 배포 랩 키트
 
@@ -56,7 +56,7 @@ Windows 10 및 Office 365 ProPlus의 [데스크톱 배포](https://www.aka.ms/ho
 
 ## <a name="step-by-step-labs"></a>**단계별 랩**
 
-자세한 랩 가이드는 다음을 포함하는 여러 배포 및 관리 시나리오를 안내합니다.
+자세한 랩 가이드는 여러 배포 및 관리 시나리오를 안내합니다. 최신 버전의 Intune 및 Configuration Manager(버전 1910)에 대한 labs가 업데이트되었습니다.  
 
 ### <a name="device-and-app-readiness"></a>**장치 및 앱 준비**
 
@@ -116,9 +116,12 @@ Windows 10 및 Office 365 ProPlus의 [데스크톱 배포](https://www.aka.ms/ho
   - Configuration Manager에서 Office 365 ProPlus 업데이트 관리
   - Microsoft Intune을 사용하여 Windows 10에 적용되는 모바일 장치 관리
 
+### <a name="new-windows-virtual-desktop"></a>**NEW! Windows Virtual Desktop**
+  - Windows Virtual Desktop: 준비, 배포, 최적화 
+
 ### <a name="download-the-windows-and-office-deployment-lab-kithttpswwwmicrosoftcomevalcenterevaluate-lab-kit"></a>[**Windows 및 Office 배포 랩 키트 다운로드**](https://www.microsoft.com/evalcenter/evaluate-lab-kit)
 
-*이 콘텐츠를 빠르게 다운로드할 수 있도록 초고속 인터넷을 사용하고 자동 프로비전을 위해 30분에서 45분 정도를 기다리세요. 랩 환경은 최소 16GB의 사용 가능한 메모리와 150GB의 사용 가능한 디스크 공간이 필요합니다. 최적의 성능을 위해서 32GB의 사용 가능한 메모리를 권장합니다. 이 랩은 2020년 2월 15일에 만료됩니다. 만료 전에 새 버전이 게시됩니다.*
+*광대역폭을 통해 이 콘텐츠를 다운로드하여 다운로드 환경을 개선하고 자동 프로비전을 위해 30-45분을 허용하세요. 이 랩 환경에는 최소 16GB의 사용 가능한 메모리와 150GB의 사용 가능한 디스크 공간이 필요합니다. 최적의 성능을 위해 32GB의 사용 가능한 공간이 있는 것이 좋습니다. 이 랩은 2020년 4월 18일에 만료됩니다. 만료 전에 새 버전이 게시됩니다.*
 
 ## <a name="additional-guidance"></a>**추가 지침**
 
