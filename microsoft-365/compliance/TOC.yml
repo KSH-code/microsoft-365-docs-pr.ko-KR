@@ -347,8 +347,6 @@
           href: csv-file-for-an-id-list-content-search.md
         - name: 콘텐츠 검색을 사용하여 제3자 데이터 검색
           href: use-content-search-to-search-third-party-data-that-was-imported.md
-        - name: eDiscovery 워크플로에서 콘텐츠 검색 사용
-          href: use-content-search-in-ediscovery.md
         - name: 오류에 대한 콘텐츠 검색 쿼리 확인
           href: check-your-content-search-query-for-errors.md
         - name: 실패한 콘텐츠 검색을 다시 시도
@@ -799,7 +797,7 @@
               href: gdpr-data-subject-requests.md
             - name: Azure
               href: gdpr-dsr-azure.md
-            - name: Azure DevOps 서비스
+            - name: Azure DevOps Services
               href: gdpr-dsr-vsts.md
             - name: Dynamics 365
               href: gdpr-dsr-dynamics365.md
@@ -1013,7 +1011,7 @@
             - name: EAR (미국 수출 관리 규제)
               href: offering-ear.md
             - name: ENISA IAF (유럽 연합)
-              href: 'https://aka.ms/ENISA'
+              href: offering-enisa.md
             - name: EU 모델 조항
               href: offering-eu-model-clauses.md
             - name: EBA (유럽 연합)
@@ -1107,7 +1105,7 @@
             - name: ENS (스페인)
               href: offering-ens-spain.md
             - name: ENISA IAF (유럽 연합)
-              href: 'https://aka.ms/ENISA'
+              href: offering-enisa.md
             - name: EU 모델 조항
               href: offering-eu-model-clauses.md
             - name: 유럽 연합 미국 프라이버시 쉴드
