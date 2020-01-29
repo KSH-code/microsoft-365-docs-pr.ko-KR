@@ -12,12 +12,13 @@ audience: itpro
 ms.collection:
 - GDPR
 - M365-security-compliance
-ms.openlocfilehash: 1bc2ac17d8548382dff721decba674952de977d6
-ms.sourcegitcommit: 33242c260439de0d8db41247e9414913f24adc22
+titleSuffix: Microsoft GDPR
+ms.openlocfilehash: db67326b7fa1f09576ae49de75e3f1de525ffd86
+ms.sourcegitcommit: 03a83ff76c8162b850c4c552759c49f2a4750574
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "38749928"
+ms.lasthandoff: 01/26/2020
+ms.locfileid: "41558075"
 ---
 # <a name="support-your-gdpr-program-with-accountability-readiness-checklists"></a>책임 준비 상태 검사 목록으로 GDPR 프로그램 지원
 
@@ -36,7 +37,7 @@ Microsoft 제품 및 서비스를 사용할 때 GDPR을 지원하는 데 필요�
 - [Azure](gdpr-arc-Azure.md)
 - [Microsoft 지원 및 전문 서비스](gdpr-arc-prof-services.md)
 
-GDPR 타일의 고객 관리 컨트롤에서 컨트롤 ID 및 컨트롤 제목을 참조하여 [준수 관리자](https://servicetrust.microsoft.com/ComplianceManager)를 통해 이 검사 목록의 항목을 관리할 수 있습니다.
+GDPR 타일의 고객 관리 컨트롤에서 컨트롤 ID 및 컨트롤 제목을 참조하여 [준수 점수](compliance-score.md)를 통해 이 검사 목록의 항목을 관리할 수 있습니다.
 
 검사 목록에는 아래 나열된 GDPR을 지원하는 개인 정보 보호 프로그램에 대한 4가지 기본 고려 사항 범주와 예제 요구 사항이 포함됩니다.
 

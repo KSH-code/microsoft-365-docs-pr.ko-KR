@@ -12,12 +12,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 3380ee774388700fd8eca255a805b5595f1c9cda
-ms.sourcegitcommit: 82baed362528fed30e9e09c6a4a37c07be2f138d
+ms.openlocfilehash: b0563e7056510682a685cb0950324dafa1fd2dd2
+ms.sourcegitcommit: 03a83ff76c8162b850c4c552759c49f2a4750574
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40959606"
+ms.lasthandoff: 01/26/2020
+ms.locfileid: "41558525"
 ---
 # <a name="general-data-protection-regulation-gdpr"></a>GDPR(일반 데이터 보호 규정)
 
@@ -37,7 +37,7 @@ ms.locfileid: "40959606"
 
 ### <a name="abrona-prepares-for-gdpr-with-microsoft-365"></a>Microsoft 365로 GDPR에 대비하는 Abrona
 
-네덜란드 의료 기관 Abrona가 준수 관리자 및 Azure Information Protection과 같은 Microsoft 기술을 사용하여 GDPR에 대비하는 방법을 알아보세요.
+네덜란드 의료 기관 Abrona가 준수 점수 및 Azure Information Protection과 같은 Microsoft 기술을 사용하여 GDPR에 대비하는 방법을 알아보세요.
 
 [지금 보기](https://go.microsoft.com/fwlink/p/?linkid=2048705)
 
@@ -62,11 +62,11 @@ Microsoft 고객 INAIL이 GDPR에 대비하기 위해 Azure Information Protecti
 
 ### <a name="isoiec-27701-privacy-information-management-system-pims"></a>ISO/IEC 27701 PIMS(개인 정보 관리 시스템)
 
-[자세히 알아보기](offering-iso-27701.md)
+[자세한 정보](offering-iso-27701.md)
 
-### <a name="compliance-manager"></a>준수 관리자
+### <a name="compliance-score"></a>준수 점수
 
-[준수 관리자](https://go.microsoft.com/fwlink/p/?linkid=2048390)를 사용하여 지속적인 위험 평가를 수행하고 실행 가능한 인사이트를 확보하고 규정 준수 프로세스를 단순화하세요.
+[준수 점수](compliance-score.md)를 사용하여 지속적인 위험 평가를 수행하고 실행 가능한 인사이트를 확보하고 규정 준수 프로세스를 단순화하세요.
 
 ### <a name="microsoft-365-compliance-center"></a>Microsoft 365 규정 준수 센터
 

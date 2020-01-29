@@ -13,12 +13,12 @@ ms.assetid: 4a05898c-b8e4-4eab-bd70-ee912e349737
 ms.collection:
 - M365-security-compliance
 description: 사용자의 Office 365 조직에서 보낸 메시지의 유효성을 검사하기 위해 도메인 기반 메시지 인증, 보고 및 적합성 (DMARC)을 구성하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: f48ab1e231e0b46889f10fc14723111480f02d5c
-ms.sourcegitcommit: 550ea6f093ec35182e7c65a2811e9bfb07ec7d01
+ms.openlocfilehash: 42238ce7d5129d933b28238f07a9e24ba05ff395
+ms.sourcegitcommit: e872676ec98036a50d3a0cb5071109ea5f5a7ae5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38038907"
+ms.lasthandoff: 01/24/2020
+ms.locfileid: "41515909"
 ---
 # <a name="use-dmarc-to-validate-email-in-office-365"></a>DMARC를 사용하여 Office 365에서 전자 메일 유효성 검사
 
@@ -77,7 +77,7 @@ Microsoft의 DMARC TXT 레코드는 다음과 같습니다.
 _dmarc.microsoft.com.   3600    IN      TXT     "v=DMARC1; p=none; pct=100; rua=mailto:d@rua.agari.com; ruf=mailto:d@ruf.agari.com; fo=1" 
 ```
 
-Microsoft는 자사의 DMARC 보고서를 제3자인 [Agari](https://agari.com)에게 보냅니다. Agari는 DMARC 보고서를 수집하고 분석합니다.
+Microsoft는 자사의 DMARC 보고서를 제3자인 [Agari](https://agari.com)에게 보냅니다. Agari는 DMARC 보고서를 수집하고 분석합니다. 또한 Valimail은 [Office 365용 무료 DMARC 모니터링 서비스](https://go.valimail.com/microsoft.html)를 제공합니다.
   
 ## <a name="implement-dmarc-for-inbound-mail"></a>인바운드 메일에 대한 DMARC 구현
 <a name="implementDMARCinbound"> </a>

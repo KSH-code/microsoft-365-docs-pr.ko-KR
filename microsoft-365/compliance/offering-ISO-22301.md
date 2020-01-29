@@ -12,12 +12,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 08f05939e6cd4ebdff81fb2fd2fda47bac05e882
-ms.sourcegitcommit: 3dca80f268006658a0b721aa4f6df1224c7964dc
+ms.openlocfilehash: c872aa647496dcd81031418c71f2bcc6728cadfa
+ms.sourcegitcommit: 03a83ff76c8162b850c4c552759c49f2a4750574
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/22/2020
-ms.locfileid: "41260036"
+ms.lasthandoff: 01/26/2020
+ms.locfileid: "41558545"
 ---
 # <a name="iso-223012012-business-continuity-management-standard"></a>ISO 22301:2012 비즈니스 연속성 관리 표준
 
@@ -75,7 +75,7 @@ ISO 22301은 기업 및 정부의 조직에서 비즈니스 연속성 관리를 
 - [Microsoft 공통 컨트롤 허브 규정 준수 프레임 워크](https://www.microsoft.com/trustcenter/common-controls-hub)
 - [Microsoft 온라인 서비스 사용 약관](https://aka.ms/Online-Services-Terms)
 - [Microsoft 엔터프라이즈 비즈니스 연속성 관리 프로그램 설명서](https://go.microsoft.com/fwlink/p/?linkid=2092212)
-- [규정 준수 관리자](https://go.microsoft.com/fwlink/p/?linkid=2092329)
+- [준수 점수](compliance-score.md)
 - [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
 ## <a name="download-the-offering-backgrounder"></a>제공 사항의 배경 설명 다운로드

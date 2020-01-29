@@ -16,12 +16,12 @@ localization_priority: Priority
 search.appverid:
 - MET150
 description: 개인 데이터의 누수를 모니터링하는 데 사용할 수 있는 세 가지 도구에 대해 알아봅니다.
-ms.openlocfilehash: 995f0b273753d7b3a92b8c5acef6eb94d51458b3
-ms.sourcegitcommit: 2468bcb01625f97a322459814d81b9faad717859
+ms.openlocfilehash: 43133ed638f91957307b832826c21ae81aa269b0
+ms.sourcegitcommit: 3f8957ddd04b8710bb5f314a0902fdee50c7c9b7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39872104"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "41572975"
 ---
 # <a name="monitor-for-leaks-of-personal-data"></a>개인 데이터 누수 모니터링
 
@@ -31,11 +31,11 @@ ms.locfileid: "39872104"
 
 이 그림의 내용
 
--   SharePoint Online, 비즈니스용 OneDrive 및 전송 중인 전자 메일에서 개인 데이터를 모니터링하기 위해서는 Office 365 데이터 손실 방지 보고서로 시작합니다. 이러한 보고서는 개인 데이터 모니터링에 대한 가장 자세한 정보를 제공합니다. 그렇지만 이러한 보고서에 Office 365의 모든 서비스가 포함되어 있지는 않습니다.
+- SharePoint Online, 비즈니스용 OneDrive 및 전송 중인 전자 메일에서 개인 데이터를 모니터링하기 위해서는 Office 365 데이터 손실 방지 보고서로 시작합니다. 이러한 보고서는 개인 데이터 모니터링에 대한 가장 자세한 정보를 제공합니다. 그렇지만 이러한 보고서에 Office 365의 모든 서비스가 포함되어 있지는 않습니다.
 
--   다음으로, 경고 정책 및 Office 365 감사 로그를 사용하여 Office 365 서비스의 활동을 모니터링합니다. 지속적인 모니터링을 설정하거나 감사 로그를 검색하여 사고를 조사합니다. Office 365 감사 로그는 Sway, PowerBI, eDiscovery, Dynamics 365, Microsoft Flow, Microsoft Teams, 관리 활동, 비즈니스용 OneDrive, SharePoint Online, 전송 중인 메일 및 휴지 상태의 사서함을 비롯한 Office 365 서비스에서 작동합니다. 휴지 상태의 사서함에는 Skype 대화가 포함됩니다.
+- 다음으로, 경고 정책 및 Office 365 감사 로그를 사용하여 Office 365 서비스의 활동을 모니터링합니다. 지속적인 모니터링을 설정하거나 감사 로그를 검색하여 사고를 조사합니다. Office 365 감사 로그는 Sway, PowerBI, eDiscovery, Dynamics 365, Microsoft Flow, Microsoft Teams, 관리 활동, 비즈니스용 OneDrive, SharePoint Online, 전송 중인 메일 및 휴지 상태의 사서함을 비롯한 Office 365 서비스에서 작동합니다. 휴지 상태의 사서함에는 Skype 대화가 포함됩니다.
 
--   마지막으로 Microsoft Cloud App Security를 사용하여 다른 SaaS 공급자의 중요한 데이터가 포함된 파일을 모니터링합니다. 머지 않아 Azure Information Protection 및 Office(Cloud App Security 포함)에서 Office 365 중요한 정보 유형 및 통합된 레이블을 사용하는 기능이 제공될 예정입니다. 모든 SaaS 앱 또는 특정 앱(예: Box)에 적용되는 정책을 설정할 수 있습니다. Cloud App Security는 전자 메일에 첨부된 파일을 포함하는 Exchange Online의 파일을 검색하지 않습니다.
+- 마지막으로 Microsoft Cloud App Security를 사용하여 다른 SaaS 공급자의 중요한 데이터가 포함된 파일을 모니터링합니다. 머지 않아 Azure Information Protection 및 Office(Cloud App Security 포함)에서 Office 365 중요한 정보 유형 및 통합된 레이블을 사용하는 기능이 제공될 예정입니다. 모든 SaaS 앱 또는 특정 앱(예: Box)에 적용되는 정책을 설정할 수 있습니다. Cloud App Security는 전자 메일에 첨부된 파일을 포함하는 Exchange Online의 파일을 검색하지 않습니다.
 
 ## <a name="office-365-data-loss-prevention-reports"></a>Office 365 데이터 손실 방지 보고서
 
@@ -43,23 +43,23 @@ DLP(데이터 손실 방지) 정책을 만든 후에는 의도한 대로 작동�
 
 DLP 보고서를 사용하여 다음을 수행할 수 있습니다.
 
--   특정 기간에 초점을 맞추고 스파이크 및 추세의 이유를 이해합니다.
+- 특정 기간에 초점을 맞추고 스파이크 및 추세의 이유를 이해합니다.
 
--   조직의 DLP 정책을 위반하는 비즈니스 프로세스를 검색합니다.
+- 조직의 DLP 정책을 위반하는 비즈니스 프로세스를 검색합니다.
 
--   DLP 정책이 비즈니스에 미치는 영향을 이해합니다.
+- DLP 정책이 비즈니스에 미치는 영향을 이해합니다.
 
--   사용자가 정책을 재정의하거나 가양성을 보고하여 정책 팁을 확인할 때 제출한 근거를 봅니다.
+- 사용자가 정책을 재정의하거나 가양성을 보고하여 정책 팁을 확인할 때 제출한 근거를 봅니다.
 
--   해당 정책에 대한 일치 항목을 표시하여 특정 DLP 정책에 대한 준수를 확인합니다.
+- 해당 정책에 대한 일치 항목을 표시하여 특정 DLP 정책에 대한 준수를 확인합니다.
 
--   세부 정보 창에서 DLP 정책과 일치하는 중요한 데이터가 포함된 파일의 목록을 봅니다.
+- 세부 정보 창에서 DLP 정책과 일치하는 중요한 데이터가 포함된 파일의 목록을 봅니다.
 
 또한 DLP 보고서를 사용하여 테스트 모드에서 실행하면서 DLP 정책을 미세 조정할 수 있습니다.
 
 DLP 보고서는 보안 센터 및 규정 준수 센터에 있습니다. 보고서 \> 보고서 보기로 이동합니다. DLP(데이터 손실 방지)에서 DLP 정책 및 규칙 일치 또는 DLP 가양성 및 재정의로 이동합니다.
 
-자세한 내용은 [데이터 손실 방지에 대한 보고서 보기](https://support.office.com/article/View-the-reports-for-data-loss-prevention-41eb4324-c513-4fa5-91c8-8fbd8aaba83b)를 참조하세요.
+자세한 내용은 [데이터 손실 방지에 대한 보고서 보기](https://docs.microsoft.com/microsoft-365/compliance/view-the-dlp-reports)를 참조하세요.
 
 ![DLP 정책 일치를 표시하는 보고서](../media/Monitor-for-leaks-of-personal-data-image2.png)
 
@@ -69,9 +69,9 @@ Office 365 감사 로그에는 Exchange Online, SharePoint Online, 비즈니스�
 
 보안 센터 및 규정 준수 센터에서는 Office 365 감사 로그에 대한 보고서를 모니터링하고 보고하는 두 가지 방법을 제공합니다.
 
--   경고 정책 설정, 경고 보기 및 추세 모니터링 — 보안 센터 또는 규정 준수 센터에서 새 경고 정책 및 알림 대시보드 도구를 사용합니다.
+- 경고 정책 설정, 경고 보기 및 추세 모니터링 — 보안 센터 또는 규정 준수 센터에서 새 경고 정책 및 알림 대시보드 도구를 사용합니다.
 
--   감사 정책 직접 검색 - 지정한 날짜 범위의 모든 이벤트를 검색하거나, 작업을 수행한 사용자 작업 또는 대상 개체와 같은 특정 기준에 따라 결과를 필터링합니다.
+- 감사 정책 직접 검색 - 지정한 날짜 범위의 모든 이벤트를 검색하거나, 작업을 수행한 사용자 작업 또는 대상 개체와 같은 특정 기준에 따라 결과를 필터링합니다.
 
 정보 보안 및 준수 팀은 이러한 도구를 사용하여 Office 365 서비스에서 최종 사용자 및 관리자가 수행한 활동을 사전에 검토할 수 있습니다. 특정 사이트 모음에 대해 특정 활동이 수행될 때, 특히 GDPR 관련 정보를 포함하는 것으로 알려진 사이트에서 콘텐츠가 공유될 때 전자 메일 알림을 전송하도록 자동 경고를 구성할 수 있습니다. 이를 통해 해당 팀은 사용자에 대해 후속 조치를 취하여 회사 보안 정책이 준수되도록 하거나 추가 교육을 제공할 수 있습니다.
 
@@ -81,17 +81,17 @@ Microsoft Management Activity API를 통해 통합 감사 로그에 구독된 �
 
 경고 정책 및 감사 로그 검색에 대한 자세한 정보:
 
-- [Microsoft 365 보안 및 규정 준수 센터의 알림 정책](https://support.office.com/article/Alert-policies-in-the-Office-365-Security-Compliance-Center-8927B8B9-C5BC-45A8-A9F9-96C732E58264)
+- [Microsoft 365 보안 및 규정 준수 센터의 알림 정책](https://docs.microsoft.com/microsoft-365/compliance/alert-policies)
 
-- [Office 365의 감사 로그에서 사용자 및 관리자 활동 검색](https://support.office.com/article/Search-the-audit-log-for-user-and-admin-activity-in-Office-365-57CA5138-0AE0-4D34-BD40-240441EF2FB6)(소개)
+- [Office 365의 감사 로그에서 사용자 및 관리자 활동 검색](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log)(소개)
 
-- [Office 365 감사 로그 검색 켜기 또는 끄기](https://support.office.com/article/Turn-Office-365-audit-log-search-on-or-off-e893b19a-660c-41f2-9074-d3631c95a014)
+- [Office 365 감사 로그 검색 켜기 또는 끄기](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off)
 
-- [감사 로그 검색](https://support.office.com/article/Search-the-audit-log-in-the-Office-365-Security-Compliance-Center-0d4d0f35-390b-4518-800e-0c7ec95e946c?ui=en-US&rs=en-US&ad=US)
+- [감사 로그 검색](https://docs.microsoft.com/microsoft-365/compliance/search-the-audit-log-in-security-and-compliance)
 
 - [Search-UnifiedAuditLog](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-audit/search-unifiedauditlog)(cmdlet)
 
-- [Office 365 감사 로그의 자세한 속성](https://support.office.com/article/Detailed-properties-in-the-Office-365-audit-log-ce004100-9e7f-443e-942b-9b04098fcfc3)
+- [Office 365 감사 로그의 자세한 속성](https://docs.microsoft.com/microsoft-365/compliance/detailed-properties-in-the-office-365-audit-log)
 
 ## <a name="microsoft-cloud-app-security"></a>Microsoft Cloud App Security
 
@@ -111,9 +111,9 @@ Microsoft Cloud App Security는 클라우드 앱에 대해 보다 자세한 가�
 
 Cloud App Security에 다음 특성 형식의 곧 제공될 예정입니다.
 
--   Office 365 중요한 정보 유형
+- Office 365 중요한 정보 유형
 
--   Office 365 및 Azure Information Protection의 통합된 레이블
+- Office 365 및 Azure Information Protection의 통합된 레이블
 
 ### <a name="cloud-app-security-dashboard"></a>Cloud App Security 대시보드
 
@@ -125,11 +125,11 @@ Cloud App Security에 다음 특성 형식의 곧 제공될 예정입니다.
 
 추가 정보:
 
--   [Cloud App Security 배포](https://docs.microsoft.com/cloud-app-security/getting-started-with-cloud-app-security)
+- [Cloud App Security 배포](https://docs.microsoft.com/cloud-app-security/getting-started-with-cloud-app-security)
 
--   [Microsoft Cloud App Security에 대한 자세한 정보](https://www.microsoft.com/cloud-platform/cloud-app-security)
+- [Microsoft Cloud App Security에 대한 자세한 정보](https://www.microsoft.com/cloud-platform/cloud-app-security)
 
--   [Microsoft Cloud App Security 프록시를 사용하여 중요한 정보 다운로드 차단](https://docs.microsoft.com/cloud-app-security/use-case-proxy-block-session-aad)
+- [Microsoft Cloud App Security 프록시를 사용하여 중요한 정보 다운로드 차단](https://docs.microsoft.com/cloud-app-security/use-case-proxy-block-session-aad)
 
 ## <a name="example-file-and-activity-policies-to-detect-sharing-of-personal-data"></a>개인 데이터의 공유를 감지하는 예제 파일 및 활동 정책
 
@@ -198,9 +198,9 @@ Cloud App Security에 다음 특성 형식의 곧 제공될 예정입니다.
 
 비슷한 정책:
 
--   PII를 포함하는 파일 공유 감지 - 전자 메일 주소
+- PII를 포함하는 파일 공유 감지 - 전자 메일 주소
 
--   PII를 포함하는 파일 공유 감지 - 여권 번호
+- PII를 포함하는 파일 공유 감지 - 여권 번호
 
 ### <a name="detect-customer-or-hr-data-in-box-or-onedrive-for-business"></a>Box 또는 비즈니스용 OneDrive에서 고객 또는 HR 데이터 감지
 
@@ -208,9 +208,9 @@ Cloud App Security에 다음 특성 형식의 곧 제공될 예정입니다.
 
 참고:
 
--   Box 모니터링을 사용하려면 API Connector SDK를 사용하여 커넥터를 구성해야 합니다.
+- Box 모니터링을 사용하려면 API Connector SDK를 사용하여 커넥터를 구성해야 합니다.
 
--   이 정책에는 현재 비공개 미리 보기 상태인 기능이 필요합니다.
+- 이 정책에는 현재 비공개 미리 보기 상태인 기능이 필요합니다.
 
 <table>
 <thead>
@@ -267,6 +267,6 @@ Cloud App Security에 다음 특성 형식의 곧 제공될 예정입니다.
 
 비슷한 정책:
 
--   고객 데이터나 HR 데이터의 대량 다운로드 감지 - 고객 데이터 또는 HR 데이터를 포함하는 많은 수의 파일을 짧은 기간 내에 단일 사용자가 다운로드한 것이 감지되면 경고합니다.
+- 고객 데이터나 HR 데이터의 대량 다운로드 감지 - 고객 데이터 또는 HR 데이터를 포함하는 많은 수의 파일을 짧은 기간 내에 단일 사용자가 다운로드한 것이 감지되면 경고합니다.
 
--   고객 및 HR 데이터 공유 감지 — 고객 또는 HR 데이터를 포함하는 파일이 공유될 때 경고합니다.
+- 고객 및 HR 데이터 공유 감지 — 고객 또는 HR 데이터를 포함하는 파일이 공유될 때 경고합니다.

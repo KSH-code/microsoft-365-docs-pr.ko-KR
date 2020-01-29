@@ -13,12 +13,13 @@ ms.collection:
 - GDPR
 - M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 608e75dee25f73a1234a911bd5b9e4871412e59e
-ms.sourcegitcommit: 062be618f0b18611001552273bb175020420e463
+titleSuffix: Microsoft GDPR
+ms.openlocfilehash: 34d36b6782d1f3dd8a5b12beb7be681e07518170
+ms.sourcegitcommit: 03a83ff76c8162b850c4c552759c49f2a4750574
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "39676775"
+ms.lasthandoff: 01/26/2020
+ms.locfileid: "41558095"
 ---
 # <a name="azure-accountability-readiness-checklist-for-the-gdpr"></a>GDPR에 대한 Azure 책임 준비 상태 검사 목록
 
@@ -29,9 +30,9 @@ ms.locfileid: "39676775"
 - [ISO/IEC CD 27701](https://shop.bsigroup.com/ProductDetail/?pid=000000000030351736) 보안 기술 요구 사항
 - 개인 정보 관리 요구 사항에 대한 [ISO/IEC 27001](https://shop.bsigroup.com/ProductDetail?pid=000000000030347472).
 
-GDPR 타일의 고객 관리 컨트롤에서 컨트롤 ID 및 컨트롤 제목을 참조하여 준수 관리자[16]를 통해 이 검사 목록의 항목을 관리할 수 있습니다. 이러한 컨트롤 구조는 GDPR을 지원하기 위해 Microsoft Azure에서 구현하는 내부 컨트롤의 프레젠테이션을 구성하는 데에도 사용됩니다(다운로드 위치: [서비스 신뢰 포털](https://servicetrust.microsoft.com/ViewPage/TrustDocuments)).
+GDPR 타일의 고객 관리 컨트롤에서 컨트롤 ID 및 컨트롤 제목을 참조하여 준수 점수[16]를 통해 이 검사 목록의 항목을 관리할 수 있습니다. 이러한 컨트롤 구조는 GDPR을 지원하기 위해 Microsoft Azure에서 구현하는 내부 컨트롤의 프레젠테이션을 구성하는 데에도 사용됩니다(다운로드 위치: [서비스 신뢰 포털](https://servicetrust.microsoft.com/ViewPage/TrustDocuments)).
 
-이러한 컨트롤 구조는 [iGDPR을 지원하기 위해 Microsoft Office 365에서 구현하는 내부 컨트롤](https://aka.ms/GDPRControls)의 프레젠테이션을 구성하는 데에도 사용됩니다.
+이러한 컨트롤 구조는 [iGDPR을 지원하기 위해 Microsoft Office 365에서 구현하는 내부 컨트롤](https://aka.ms/gdprcontrols)의 프레젠테이션을 구성하는 데에도 사용됩니다.
 
 추가 GDPR 관련 설명서를 보려면 [https://aka.ms/gdprgetstarted](https://aka.ms/gdprgetstarted)를 방문하세요.
 
@@ -143,7 +144,7 @@ GDPR 타일의 고객 관리 컨트롤에서 컨트롤 ID 및 컨트롤 제목�
 | 13 <a name="13"> </a> | [Microsoft Azure(All-Up) ISO/IEC 27001:2013 ISMS 적용성 보고서](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=47d89200-b24b-491d-b657-7c523ddfb6f9&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_ISO_Reports) |
 | 14 <a name="14"> </a> | [Microsoft 보안 센터 준수 제공 사항](offering-home.md)  |
 | 15 <a name="15"> </a> | [Intune의 개인 정보 및 개인 데이터](https://review.docs.microsoft.com/intune/privacy-personal-data) |
-| 16 <a name="16"> </a> | [다운로드 가능한 Azure GDPR 컨트롤 집합 완료](https://aka.ms/GDPRControls) 또는 [준수 관리자 도구를 통해](https://servicetrust.microsoft.com/ComplianceManager) |
+| 16 <a name="16"> </a> | [다운로드 가능한 완전한 Azure GDPR 제어 세트](https://aka.ms/GDPRControls) 또는 [준수 점수](compliance-score.md)를 통해 |
 | 17 <a name="17"> </a> | [Microsoft DPO 정보](https://aka.ms/GDPRDPO) |
 
 ## <a name="learn-more"></a>자세한 정보

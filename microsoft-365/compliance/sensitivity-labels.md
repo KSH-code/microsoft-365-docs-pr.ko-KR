@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 민감도 레이블을 사용하여 사용자의 생산성 및 공동 작업 능력이 저하되지 않도록 하면서 중요한 콘텐츠를 분류 및 보호할 수 있습니다. 민감도 레이블을 사용하여 레이블이 지정된 콘텐츠에 암호화 및 워터마크를 포함하는 보호 설정을 적용할 수 있습니다.
-ms.openlocfilehash: 97667bbce764e3e36dd488aac799b11fa50ed3bf
-ms.sourcegitcommit: 3dca80f268006658a0b721aa4f6df1224c7964dc
+ms.openlocfilehash: aa0c379e7d1209fb4ac9afc2924500f7b1af82e2
+ms.sourcegitcommit: e872676ec98036a50d3a0cb5071109ea5f5a7ae5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/22/2020
-ms.locfileid: "41259947"
+ms.lasthandoff: 01/24/2020
+ms.locfileid: "41515889"
 ---
 # <a name="overview-of-sensitivity-labels"></a>민감도 레이블 개요
 
@@ -28,7 +28,7 @@ ms.locfileid: "41259947"
 
 민감도 레이블을 사용하여 사용자의 생산성 및 공동 작업 능력이 저하되지 않도록 하면서 조직의 데이터를 분류하고 보호할 수 있습니다.
 
-민감도 레이블을 표시하는 예:
+리본 메뉴의 **홈** 탭에서 Excel의 사용 가능한 민감도 레이블을 보여 주는 예제입니다. 이 예제에서 적용된 레이블은 상태 표시줄에 표시 됩니다.
 
 ![Excel 리본 및 상태 표시줄의 민감도 레이블](media/Sensitivity-label-in-Excel.png)
 
@@ -175,7 +175,7 @@ Azure Information Protection으로 레이블을 배포한 경우 민감도 레�
 
 ### <a name="azure-information-protection-labels"></a>Azure Information Protection 레이블
 
-테넌트가 아직 [통합 레이블 지정 플랫폼](https://docs.microsoft.com/azure/information-protection/faqs#how-can-i-determine-if-my-tenant-is-on-the-unified-labeling-platform)에 있지 않기 때문에 Azure Information Protection 레이블을 사용하는 경우, 통합 레이블 지정을 활성화할 때까지 민감도 레이블을 만들지 않을 것을 권장합니다. 이 시나리오에서 Azure Portal에 표시되는 레이블은 민감도 레이블이 아니라 Azure Information Protection 레이블입니다. 이 레이블은 macOS, iOS 또는 Android를 실행하는 디바이스에서 사용할 수 없습니다. 이 문제를 해결하려면 민감도 레이블에 [이 레이블을 마이그레이션](/azure/information-protection/configure-policy-migrate-labels)합니다.
+테넌트가 아직 [통합 레이블 지정 플랫폼](https://docs.microsoft.com/azure/information-protection/faqs#how-can-i-determine-if-my-tenant-is-on-the-unified-labeling-platform)에 있지 않기 때문에 Azure Information Protection 레이블을 사용하는 경우, 통합 레이블 지정을 활성화할 때까지 민감도 레이블을 만들지 않을 것을 권장합니다. 이 시나리오에서 Azure Portal에 표시되는 레이블은 민감도 레이블이 아니라 Azure Information Protection 레이블입니다. 이 레이블은 Windows 컴퓨터의 Azure Information Protection 클라이언트(클래식)에서 사용할 수 있지만 macOS, iOS 또는 Android를 실행하는 장치에서는 사용할 수 없습니다. 이 문제를 해결하려면 민감도 레이블에 [이 레이블을 마이그레이션](/azure/information-protection/configure-policy-migrate-labels)합니다. 
 
 두 레이블 집합에 의해 적용된 메타 데이터는 호환되므로 마이그레이션이 완료될 때 문서와 전자 메일의 레이블을 다시 지정할 필요가 없습니다.
 

@@ -15,18 +15,18 @@ ms.assetid: 8f54cd33-4af7-4d1b-b800-68f8818e5b2a
 ms.collection:
 - M365-security-compliance
 description: 위협 조사 및 응답 기능을 사용 하 여 악성 전자 메일을 찾고 조사 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 57d419c291fdfed3a5d7237ae2021e9ef06723f5
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: f2eadfaf23c4485e6b50b6550f0a884690a79548
+ms.sourcegitcommit: 3f8957ddd04b8710bb5f314a0902fdee50c7c9b7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38031903"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "41572985"
 ---
 # <a name="find-and-investigate-malicious-email-that-was-delivered-in-office-365"></a>Office 365에서 제공 된 악성 전자 메일 찾기 및 조사
 
 [Office 365 Advanced Threat Protection](office-365-atp.md) 을 사용 하면 조직에 사용자를 추가 하 고 조직을 보호 하기 위한 작업을 수행 하는 활동을 조사할 수 있습니다. 예를 들어 조직의 보안 팀에 속한 경우 배달 된 의심 스러운 전자 메일 메시지를 찾아서 조사할 수 있습니다. [위협 탐색기 (또는 실시간 검색)](threat-explorer.md)를 사용 하 여이 작업을 수행할 수 있습니다.
   
-## <a name="before-you-begin"></a>시작 하기 전에
+## <a name="before-you-begin"></a>시작하기 전에...
 
 다음 조건이 충족되었는지 확인하세요.
   
@@ -44,9 +44,9 @@ ms.locfileid: "38031903"
 
 |활동  |역할 그룹 |미리 보기 역할이 필요 하나요?  |
 |---------|---------|---------|
-|위협 탐색기 (및 실시간 검색)를 사용 하 여 위협 분석     |Office 365 전역 관리자 <br> 보안 관리자 <br> 보안 독자     | 아니요   |
-|위협 탐색기 (및 실시간 검색)를 사용 하 여 전자 메일 메시지의 헤더 보기 및 격리 된 전자 메일 메시지 미리 보기 및 다운로드    |Office 365 전역 관리자 <br> 보안 관리자 <br>보안 독자   |       아니요  |
-|위협 탐색기를 사용 하 여 머리글 보기 및 사서함으로 배달 된 전자 메일 메시지 다운로드     |Office 365 전역 관리자 <br>보안 관리자 <br> 보안 독자 <br> 미리 보기   |   예      |
+|위협 탐색기 (및 실시간 검색)를 사용 하 여 위협 분석     |Office 365 전역 관리자 <br> 보안 관리자 <br> 보안 읽기 권한자     | 아니요   |
+|위협 탐색기 (및 실시간 검색)를 사용 하 여 전자 메일 메시지의 헤더 보기 및 격리 된 전자 메일 메시지 미리 보기 및 다운로드    |Office 365 전역 관리자 <br> 보안 관리자 <br>보안 읽기 권한자   |       아니요  |
+|위협 탐색기를 사용 하 여 머리글 보기 및 사서함으로 배달 된 전자 메일 메시지 다운로드     |Office 365 전역 관리자 <br>보안 관리자 <br> 보안 읽기 권한자 <br> 미리 보기   |   예      |
 
 > [!NOTE]
 > *미리 보기* 는 역할 그룹이 아니라 역할입니다. 미리 보기 역할은 Office 365의 기존 역할 그룹에 추가 해야 합니다. Office 365 전역 관리자 역할은 Microsoft 365 관리 센터 ([https://admin.microsoft.com](https://admin.microsoft.com))에 할당 되며 보안 관리자 및 보안 독자 역할은 Office 365 Security & 준수 센터 ([https://protection.office.com](https://protection.office.com))에서 할당 됩니다. 역할 및 사용 권한에 대 한 자세한 내용은 [permissions in The Office 365 Security & 준수 센터](permissions-in-the-security-and-compliance-center.md)를 참조 하십시오.

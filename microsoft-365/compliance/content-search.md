@@ -16,13 +16,13 @@ search.appverid:
 - MED150
 - MET150
 ms.assetid: 53390468-eec6-45cb-b6cd-7511f9c909e4
-description: Office 365 또는 Microsoft 365의 준수 센터의 콘텐츠 검색 도구를 사용하여 사서함, SharePoint Online 사이트, OneDrive 계정, Microsoft Teams, Office 365 그룹 및 비즈니스용 Skype 대화에서 콘텐츠를 검색할 수 있습니다. 키워드 검색 쿼리 및 검색 조건을 사용하여 검색 결과 범위를 좁힐 수 있습니다. 그런 다음 검색 결과를 미리 보고 내보낼 수 있습니다. 또한 콘텐츠 검색은 GDPR 데이터 주체 요청과 관련된 콘텐츠를 검색하는 데 효과적인 도구입니다.
-ms.openlocfilehash: d27bce246cabfafd343286fc40ea670bfe560b9e
-ms.sourcegitcommit: 8c244b38c43dd00c4ef0102f8bed02ab36639a6b
+description: Office 365 또는 Microsoft 365의 준수 센터의 콘텐츠 검색 도구를 사용하여 사서함, SharePoint Online 사이트, OneDrive 계정, Microsoft Teams, Office 365 그룹, Yammer 그룹 및 비즈니스용 Skype 대화에서 콘텐츠를 검색할 수 있습니다. 키워드 검색 쿼리 및 검색 조건을 사용하여 검색 결과 범위를 좁힐 수 있습니다. 그런 다음 검색 결과를 미리 보고 내보낼 수 있습니다. 또한 콘텐츠 검색은 GDPR 데이터 주체 요청과 관련된 콘텐츠를 검색하는 데 효과적인 도구입니다.
+ms.openlocfilehash: ea4359c594a169abbc518d6fe0f5ebdb4441fc56
+ms.sourcegitcommit: 03a83ff76c8162b850c4c552759c49f2a4750574
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39967521"
+ms.lasthandoff: 01/26/2020
+ms.locfileid: "41558405"
 ---
 # <a name="content-search-in-office-365"></a>Office 365의 콘텐츠 검색
 
@@ -35,8 +35,10 @@ Office 365 또는 Microsoft 365의 준수 센터의 콘텐츠 검색 eDiscovery 
 - 비즈니스용 Skype 대화
     
 - Microsoft Teams 
-    
+
 - Office 365 그룹
+
+- Yammer 그룹 
     
 콘텐츠 검색을 실행하고 나면 검색 통계에 콘텐츠 위치의 수와 예상 검색 결과 수가 표시됩니다. 검색 쿼리와 일치하는 항목이 가장 많은 콘텐츠 위치와 같은 통계도 빠르게 볼 수 있습니다. 검색을 실행한 후에는 결과를 미리 보거나 로컬 컴퓨터로 내보낼 수 있습니다.
 
@@ -81,9 +83,9 @@ Office 365 또는 Microsoft 365의 준수 센터의 콘텐츠 검색 eDiscovery 
     
        - **위치:** 검색할 콘텐츠 위치를 선택합니다.
     
-      - **모든 위치:** 이 옵션을 사용해 조직의 모든 콘텐츠 위치를 검색할 수 있습니다. 여기에는 모든 Exchange 사서함(모든 비활성 사서함, 모든 Office 365 그룹 사서함, 모든 Microsoft Teams 사서함), 모든 비즈니스용 Skype 대화, 모든 SharePoint 및 비즈니스용 OneDrive 사이트(모든 Office 365 그룹 및 Microsoft Teams 사이트 포함) 및 모든 Exchange 공용 폴더의 항목이 포함됩니다.
+      - **모든 위치:** 이 옵션을 사용해 조직의 모든 콘텐츠 위치를 검색할 수 있습니다. 여기에는 모든 Exchange 사서함(모든 비활성 사서함 및 모든 Microsoft Teams, Yammer 그룹 및 Office 365 그룹의 사서함 포함)의 전자 메일, 모든 비즈니스용 Skype 대화, 모든 SharePoint 및 비즈니스용 OneDrive 사이트(모든 Microsoft Teams 사이트, Yammer 그룹 및 Office 365 그룹 포함) 및 모든 Exchange 공용 폴더의 항목이 포함됩니다.
     
-      - **특정 위치:** 이 옵션을 사용하여 특정 콘텐츠 위치를 검색합니다. 특정 Office 365 서비스에 대한 모든 콘텐츠 위치를 검색(예: 모든 Exchange 사서함 검색 또는 모든 SharePoint 사이트 검색)하거나 표시되는 Office 365 서비스의 특정 위치를 검색할 수 있습니다. 
+      - **특정 위치:** 이 옵션을 사용하여 특정 콘텐츠 위치를 검색합니다. 특정 Office 365 서비스에 대한 모든 콘텐츠 위치를 검색(예: 모든 Exchange 사서함 검색 또는 모든 SharePoint 사이트 검색)하거나 표시되는 Office 365 서비스의 특정 위치에서 콘텐츠를 검색할 수 있습니다. 
     
         ![사용자 인터페이스로 검색할 콘텐츠 위치 선택](media/9a09708b-f8a2-4382-8c4e-2c610ec33c72.png)
   
@@ -91,8 +93,7 @@ Office 365 또는 Microsoft 365의 준수 센터의 콘텐츠 검색 eDiscovery 
     
        > [!NOTE]
        > 모든 사서함 위치를 검색하거나 특정 사서함을 검색하는 경우 콘텐츠 검색 결과를 내보낼 때 사용자 사서함에 저장된 다른 Office 365 응용 프로그램의 데이터가 포함됩니다. 이 데이터는 예상 검색 결과에 포함되지 않으며 미리 보기에서 확인할 수 없습니다. 이는 검색 결과를 내보내고 다운로드할 때 포함됩니다. 자세한 내용은 [Exchange Online에 저장된 콘텐츠](what-is-stored-in-exo-mailbox.md)를 참조하세요.
-
-    
+   
 6. 검색 쿼리를 설정한 후 **저장 및 실행**을 클릭합니다.
     
 7. **검색 저장** 페이지에서 검색 이름과 검색 식별에 도움이 되는 설명(선택 사항)을 입력합니다. 검색 이름은 조직에서 고유해야 합니다. 
@@ -176,6 +177,8 @@ Office 365 또는 Microsoft 365의 준수 센터의 콘텐츠 검색 eDiscovery 
 [OneDrive 계정 검색](#searching-onedrive-accounts)
   
 [Microsoft Teams 및 Office 365 그룹 검색](#searching-microsoft-teams-and-office-365-groups)
+
+[Yammer 그룹 검색](#searching-yammer-groups)
   
 [비활성 사서함 검색](#searching-inactive-mailboxes)
   
@@ -308,6 +311,25 @@ Microsoft Teams 및 Office 365 그룹에서 콘텐츠를 검색할 때 다음 �
 
 조건은 **AND** 연산자에 의해 키워드 쿼리에 논리적으로 연결됩니다. 즉, 항목이 키워드 쿼리와 검색 조건에 모두 일치해야 검색 결과에 반환됩니다. 자세한 내용은 [콘텐츠 검색에 대한 키워드 쿼리 및 검색 조건](keyword-queries-and-search-conditions.md#guidelines-for-using-conditions)의 “조건 사용 지침” 섹션을 참조하세요.
   
+### <a name="searching-yammer-groups"></a>Yammer 그룹 검색
+
+**ItemClass** 전자 메일 속성 또는 **유형** 검색 조건을 사용하여 Yammer 그룹의 대화 항목을 구체적으로 검색할 수 있습니다.
+
+  - 키워드 검색 쿼리의 일부로 **ItemClass** 속성을 사용하려면 검색 쿼리의 **키워드** 상자에 다음 속성:값 쌍 중 하나(또는 모두)를 입력할 수 있습니다.
+
+     - ItemClass:IPM.Yammer.message
+     - ItemClass:IPM.Yammer.poll
+     - ItemClass:IPM.Yammer.praise
+     - ItemClass:IPM.Yammer.question
+  
+    예를 들어 다음 검색 쿼리를 사용하여 Yammer 메시지와 Yammer 칭찬 항목을 반환할 수 있습니다.
+
+    ![ItemClass 속성을 사용하여 Yammer 항목 검색](media/YammerContentSearch1.png)
+  
+  - 또는 **유형** 전자 메일 조건을 사용하고 **Yammer 메시지**를 선택하여 Yammer 항목을 반환할 수 있습니다. 예를 들어 다음 검색 쿼리는 "기밀" 이라는 키워드를 포함하는 모든 Yammer 대화 항목을 반환합니다. 
+
+    ![유형 조건 카드를 사용하여 Yammer 대화 항목 검색](media/YammerContentSearch2.png)
+
 ### <a name="searching-inactive-mailboxes"></a>비활성 사서함 검색
 
 콘텐츠 검색에서 비활성 사서함을 검색할 수 있습니다. 조직의 비활성 사서함 목록을 가져오려면 Exchange Online PowerShell에서 `Get-Mailbox -InactiveMailboxOnly` 명령을 실행합니다. 또는 보안 및 준수 센터의 **정보 거버넌스** \> **보존**으로 이동한 다음 **더 보기**![탐색 모음 줄임표](media/9723029d-e5cd-4740-b5b1-2806e4f28208.gif) \> **비활성 사서함**을 클릭합니다.
@@ -321,7 +343,7 @@ Microsoft Teams 및 Office 365 그룹에서 콘텐츠를 검색할 때 다음 �
 - 보안 및 준수 센터 PowerShell을 사용하여 비활성 사서함을 검색할 콘텐츠 검색을 만들 수 있습니다. 이 작업을 수행하려면   비활성 사서함의 전자 메일 주소 앞에 마침표를 추가해야 합니다. 예를 들어, 다음 명령은 전자 메일 주소 pavelb@contoso.onmicrosoft.com를 사용하여 비활성 사서함을 검색하는 콘텐츠 검색을 만듭니다.
 
    ``` 
-   New-ComplianceSearch -name InactiveMailboxSearch -ExchangeLocation .pavelb@contoso.onmicrosoft.com -AllowNotFoundExchangeLocationsEnabled $true
+   New-ComplianceSearch -Name InactiveMailboxSearch -ExchangeLocation .pavelb@contoso.onmicrosoft.com -AllowNotFoundExchangeLocationsEnabled $true
    ```
 
 - 동일한 SMTP 주소를 사용하는 활성 사서함과 비활성 사서함은 없는 것이 좋습니다. 비활성 사서함에 지정된 SMTP 주소를 다시 사용해야 하는 경우 비활성 사서함을 복구하거나 비활성 사서함의 콘텐츠를 활성 사서함(또는 활성 사서함의 아카이브)으로 복원한 다음 비활성 사서함을 삭제하는 것이 좋습니다. 자세한 내용은 다음 항목 중 하나를 참조하십시오.

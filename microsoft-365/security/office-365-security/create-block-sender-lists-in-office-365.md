@@ -10,17 +10,17 @@ ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150s
-description: 보낸 사람 목록 옵션에는 Outlook 수신 거부, 스팸 방지 보낸 사람/도메인 차단 목록, IP 차단 목록 및 ETRs (Exchange 전송 규칙)가 메일 흐름 규칙이 라고도 합니다.
-ms.openlocfilehash: f4fab732a92df2a2500212c9825d2b3e710b0a07
-ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
+description: Outlook 수신 거부, 스팸 방지 보낸 사람/도메인 차단 목록, IP 차단 목록 및 Exchange 메일 흐름 규칙 (전송 규칙)을 차단할 보낸 사람 목록 옵션에 포함 합니다.
+ms.openlocfilehash: 09a90fce31bd1ed9aea8275e2f01cda3ba816b1b
+ms.sourcegitcommit: 3f8957ddd04b8710bb5f314a0902fdee50c7c9b7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "39970894"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "41572334"
 ---
 # <a name="create-block-sender-lists-in-office-365"></a>Office 365에서 수신 거부 목록 만들기
 
-보낸 사람 으로부터 원치 않는 전자 메일을 차단 해야 하는 경우가 있습니다. 선택할 수 있는 몇 가지 방법이 있습니다. 이러한 옵션에는 Outlook 수신 거부, 스팸 방지/도메인 차단 목록, IP 차단 목록 및 Exchange 전송 규칙 (메일 흐름 규칙이 라고도 함)이 있습니다.
+보낸 사람 으로부터 원치 않는 전자 메일을 차단 해야 하는 경우가 있습니다. 선택할 수 있는 몇 가지 방법이 있습니다. 이러한 옵션에는 Outlook 수신 거부, 스팸 발송자/도메인 차단 목록, IP 차단 목록 및 Exchange 메일 흐름 규칙 (전송 규칙이 라고도 함)이 있습니다.
 
 > [!NOTE]
 > 조직 차단 목록을 사용 하 여 거짓 네거티브 (부재 중 스팸)를 처리할 수 있지만, 이러한 후보자도 분석을 위해 Microsoft에 제출 해야 합니다. 차단 목록을 사용 하 여 거짓 네거티브를 관리 하면 관리 오버 헤드가 크게 증가 합니다. 이 용도로 차단 목록을 사용 하려는 경우에는 준비 상태에서 [스팸, 스팸 아님 및 피싱 사기 메시지를 분석을 위해 Microsoft로 전송](https://docs.microsoft.com/office365/SecurityCompliance/submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis)하기 위한 문서도 유지 해야 합니다.
@@ -33,7 +33,7 @@ ms.locfileid: "39970894"
 
 - Outlook 수신 거부
 - 스팸 방지 정책: 보낸 사람/도메인 차단 목록
-- Exchange 전송 규칙 (메일 흐름 규칙이 라고도 함)
+- Exchange 메일 흐름 규칙
 - 스팸 방지 정책: IP 차단 목록
 
 ## <a name="use-outlook-blocked-senders"></a>Outlook 수신 거부 사용
@@ -47,19 +47,19 @@ ms.locfileid: "39970894"
 
 ## <a name="use-anti-spam-policy-senderdomain-block-lists"></a>스팸 방지 정책 보낸 사람/도메인 차단 목록 사용
 
-여러 사용자에 게 영향을 주는 경우 범위가 더 넓고 회사 전체의 보낸 사람/도메인 차단 목록 스팸 방지 정책을 사용 해야 합니다. 자세한 단계는 [스팸 필터 정책 문서 구성](https://docs.microsoft.com/office365/securitycompliance/configure-your-spam-filter-policies) 에서 찾을 수 있습니다. 이 방법을 통해 차단 된 모든 메시지는 정책에 구성 된 대로 스팸 작업을 따릅니다.
+여러 사용자에 게 영향을 주는 경우 범위가 더 넓고 회사 전체의 보낸 사람/도메인 차단 목록 스팸 방지 정책을 사용 해야 합니다. 자세한 단계는 [스팸 필터 정책 구성](configure-your-spam-filter-policies.md)에서 찾을 수 있습니다. 이 방법을 통해 차단 된 모든 메시지는 정책에 구성 된 대로 스팸 작업을 따릅니다.
 
 이러한 목록의 최대 제한은 약 1000 항목입니다. 하지만 포털에는 30 개의 항목만 입력할 수 있습니다. 30 개 보다 많은 항목을 추가 하려면 PowerShell을 사용 해야 합니다.
 
-## <a name="use-exchange-transport-rules-etrs-to-block-specific-senders"></a>ETRs (Exchange 전송 규칙)를 사용 하 여 특정 보낸 사람 차단
+## <a name="use-exchange-mail-flow-rules-specific-senders"></a>Exchange 메일 흐름 규칙 특정 보낸 사람 사용
 
-특정 사용자에 게 또는 전체 조직에서 메시지를 차단 해야 하는 경우에는 메일 흐름 규칙이 라고도 하는 ETRs를 사용할 수 있습니다. ETRs는 보낸 사람 전자 메일 주소 또는 도메인을 비롯 하 여 메시지의 주요 단어 및 기타 속성을 트리거할 수 있기 때문에 유연성이 뛰어납니다. 이러한 유연성을 통해 부분-전체 블록을 만들 수 있습니다. [메일 흐름 규칙이 라고도 하는 ETR을 만드는 단계를 클릭](https://docs.microsoft.com/office365/SecurityCompliance/use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages)합니다.
+특정 사용자 또는 전체 조직에서 메시지가 전송 되지 않도록 차단 해야 하는 경우 메일 흐름 규칙을 사용할 수 있습니다. 메일 흐름 규칙은 메시지의 주요 단어 및 기타 속성 뿐만 아니라 보낸 사람 전자 메일 주소 또는 도메인을 시작할 수 있기 때문에 유연성이 뛰어납니다. 이러한 유연성을 통해 부분-전체 블록을 만들 수 있습니다. 메일 흐름 규칙에 대 한 자세한 내용은 [메일 흐름 규칙을 사용 하 여 메시지의 SCL 설정을](use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages.md)참조 하십시오.
 
 > [!IMPORTANT]
 > 매우 적극적인 규칙을 쉽게 만들 *수 있으며,* 따라서 사용 되는 기준이 가능한 한 구체적이 되는 것이 중요 합니다. 또한 만드는 규칙에 대 한 감사를 사용 하도록 설정 하 고 테스트를 수행 하 여 모든 항목이 예상 대로 작동 하는지 확인 해야 합니다.
 
 ## <a name="use-anti-spam-policy-ip-block-lists"></a>스팸 방지 정책 IP 차단 목록 사용
 
-다른 옵션 중 하나를 사용 하 여 보낸 *사람을 차단할* 수 없는 경우 스팸 방지 정책 IP 차단 목록을 사용할 수 있습니다. [자세한 단계는 Configure the connection filter policy 문서에 나와 있습니다](https://docs.microsoft.com/office365/securitycompliance/configure-the-connection-filter-policy). 차단 된 Ip 목록을 *최소로* 유지 하 고 IP 주소 범위를 사용 *하는 것이 좋습니다.*
+다른 옵션 중 하나를 사용 하 여 보낸 사람을 차단할 수 없는 경우 스팸 방지 정책 IP 차단 목록을 사용할 *수 있습니다.* 자세한 내용은 [Configure the connection filter policy](configure-the-connection-filter-policy.md)를 참조하십시오. 차단 된 Ip 수를 최소로 유지 하는 것이 중요 하므로 전체 IP 주소 범위를 차단 하는 것은 권장 *되지 않습니다* .
 
 *특히* 소비자 서비스 또는 공유 인프라에 속하는 ip 주소 범위를 추가 하는 것을 피하고, 일반 유지 관리의 일부로 허용 되는 ip 주소 목록을 검토 하는 것이 좋습니다. **허용-항목은 공격할 경로를 열 수 있으므로이 목록을 면밀 하 게 관리 하 고 더 이상 필요 하지 않은 허용 항목을 정기적으로 제거 해야 합니다.** 또한 안전한 보낸 사람 목록에서 허용 되는 경우에는 *[Office 365에서 수신 허용-보낸 사람 목록 만들기](create-safe-sender-lists-in-office-365.md)* 의 위험과 주의 사항을 읽고 이해 해야 합니다.

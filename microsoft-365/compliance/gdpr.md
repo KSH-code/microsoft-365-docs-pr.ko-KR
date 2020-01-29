@@ -12,12 +12,13 @@ audience: itpro
 ms.collection:
 - GDPR
 - M365-security-compliance
-ms.openlocfilehash: cfd39d25689785be2af80008b6d823beb5a7bc01
-ms.sourcegitcommit: 33242c260439de0d8db41247e9414913f24adc22
+titleSuffix: Microsoft GDPR
+ms.openlocfilehash: d64d9b98fe3cf24a14b3f3126ff3f38b1d84087d
+ms.sourcegitcommit: 03a83ff76c8162b850c4c552759c49f2a4750574
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "38749909"
+ms.lasthandoff: 01/26/2020
+ms.locfileid: "41557985"
 ---
 # <a name="general-data-protection-regulation-summary"></a>일반 데이터 보호 규정 요약
 
@@ -99,7 +100,7 @@ Microsoft는 데이터 프로세서로서, 고객이 GDPR의 위반 알림 요�
 
 ### <a name="accountability-readiness-checklists-for-the-gdpr"></a>GDPR에 대한 책임 준비 상태 검사 목록
 
-이러한 [검사 목록](gdpr-arc.md)은 Microsoft 제품 사용 시 GDPR을 지원하는 데 필요할 수 있는 정보에 편리하게 액세스할 수 있습니다. GDPR 타일의 고객 관리 컨트롤에서 컨트롤 ID 및 컨트롤 제목을 참조하여 [준수 관리자](https://servicetrust.microsoft.com/ComplianceManager)를 통해 검사 목록 항목을 관리할 수 있습니다.
+이러한 [검사 목록](gdpr-arc.md)은 Microsoft 제품 사용 시 GDPR을 지원하는 데 필요할 수 있는 정보에 편리하게 액세스할 수 있습니다. GDPR 타일의 고객 관리 컨트롤에서 컨트롤 ID 및 컨트롤 제목을 참조하여 [준수 점수](compliance-score.md)를 통해 이 검사 목록의 항목을 관리할 수 있습니다.
 
 ## <a name="learn-more"></a>자세한 정보
 

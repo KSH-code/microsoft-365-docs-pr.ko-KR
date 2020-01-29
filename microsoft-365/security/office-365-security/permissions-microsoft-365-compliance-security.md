@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365 규정 준수 센터 및 Microsoft 365 보안 센터의 권한
-ms.author: laurawi
-author: laurawi
+ms.author: cabailey
+author: cabailey
 manager: laurawi
 ms.date: ''
 ms.audience: Admin
@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 365 보안 센터나 Microsoft 365 규정 준수 센터를 사용하여 보안 또는 규정 준수와 관련된 모든 작업에 대한 권한을 중앙에서 관리할 수 있습니다.
-ms.openlocfilehash: 43f6388820c531c99b6c12f615a3ffb8e3b85427
-ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
+ms.openlocfilehash: 070e9bb1f7bf070a1b95995c2010b79dee7cbc9b
+ms.sourcegitcommit: 3f8957ddd04b8710bb5f314a0902fdee50c7c9b7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "39971586"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "41572965"
 ---
 # <a name="permissions-in-the-microsoft-365-compliance-center-and-microsoft-365-security-center"></a>Microsoft 365 규정 준수 센터 및 Microsoft 365 보안 센터의 권한
 
@@ -57,19 +57,19 @@ Microsoft 365 규정 준수 센터 및 Microsoft 365 보안 센터에 나타나�
 |**서비스...**|**준수 관리자가 할 수 있는 작업...**|
 |:-----|:-----|
 |[**Microsoft 365 규정 준수 센터**](https://compliance.microsoft.com/)|Microsoft 365 서비스 전반에 걸쳐 조직의 데이터를 보호하고 관리합니다. <br/><br/> 규정 준수 경고를 관리합니다.|
-|[**준수 관리자**](https://docs.microsoft.com/office365/securitycompliance/meet-data-protection-and-regulatory-reqs-using-microsoft-cloud)|조직의 규정 준수 활동을 추적, 할당 및 확인합니다.|
+|[**준수 점수**](https://docs.microsoft.com/office365/securitycompliance/meet-data-protection-and-regulatory-reqs-using-microsoft-cloud)|조직의 규정 준수 활동을 추적, 할당 및 확인합니다.|
 |[**Office 365 보안 및 준수 센터**](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles)|데이터 거버넌스를 관리합니다. <br/><br/> 법적 조사/데이터 조사를 수행합니다. <br/><br/> 데이터 주체 요청을 관리합니다.|
 |[**Intune**](https://docs.microsoft.com/intune/role-based-access-control)|모든 Intune 감사 데이터를 확인합니다.|
 |[**Cloud App Security**](https://docs.microsoft.com/cloud-app-security/manage-admins)|읽기 전용 권한이 있으며 경고를 관리할 수 있습니다. <br/><br/> 파일 정책을 생성/수정하고 파일 거버넌스 작업을 허용할 수 있습니다. <br/><br/> 데이터 관리에서 모든 기본 제공 보고서를 확인할 수 있습니다.|
 
 ### <a name="compliance-data-administrator"></a>규정 준수 데이터 관리자
 
-이 역할이 있는 사용자는 Microsoft 365 규정 준수 센터, Microsoft 365 관리 센터 및 Azure에서 데이터를 보호 및 추적할 권한이 있습니다. 또한 사용자는 Exchange 관리 센터, 준수 관리자, Teams 및 비즈니스용 Skype 관리 센터 내의 모든 기능을 관리하고 Azure 및 Microsoft 365의 지원 티켓을 만들 수 있습니다.
+이 역할이 있는 사용자는 Microsoft 365 규정 준수 센터, Microsoft 365 관리 센터 및 Azure에서 데이터를 보호 및 추적할 권한이 있습니다. 또한 사용자는 Exchange 관리 센터, 준수 점수, Teams 및 비즈니스용 Skype 관리 센터 내의 모든 기능을 관리하고 Azure 및 Microsoft 365의 지원 티켓을 만들 수 있습니다.
 
 |**이 서비스에서는...**|**규정 준수 데이터 관리자는 다음을 수행할 수 있습니다.**|
 |:-----|:-----|
 |[**Microsoft 365 규정 준수 센터**](https://compliance.microsoft.com/)|Microsoft 365 서비스 전반에 걸쳐 조직의 데이터를 보호하고 관리합니다. <br/><br/> 규정 준수 경고를 관리합니다. <br/><br/> 민감도 레이블을 관리합니다.|
-|[**준수 관리자**](https://docs.microsoft.com/office365/securitycompliance/meet-data-protection-and-regulatory-reqs-using-microsoft-cloud)|조직의 규정 준수 활동을 추적, 할당 및 확인합니다.|
+|[**준수 점수**](https://docs.microsoft.com/office365/securitycompliance/meet-data-protection-and-regulatory-reqs-using-microsoft-cloud)|조직의 규정 준수 활동을 추적, 할당 및 확인합니다.|
 |[**Office 365 보안 및 준수 센터**](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles)|데이터 거버넌스를 관리합니다. <br/><br/> 법적 조사/데이터 조사를 수행합니다. <br/><br/> 데이터 주체 요청을 관리합니다. <br/><br/> 민감도 레이블을 관리합니다.|
 |[**Intune**](https://docs.microsoft.com/intune/role-based-access-control)(서비스 예정)|모든 Intune 감사 데이터를 확인합니다.|
 |[**Cloud App Security**](https://docs.microsoft.com/cloud-app-security/manage-admins)|읽기 전용 권한을 사용하여 정보를 확인합니다. <br/>알림을 관리합니다. <br/><br/> 파일 정책을 생성/수정하고 파일 거버넌스 작업을 허용합니다. <br/><br/> 데이터 관리에서 모든 기본 제공 보고서를 확인합니다.|
@@ -152,7 +152,7 @@ Azure Active Directory에서 이러한 역할을 관리하는 경우에는 **모
 |Azure AD(Azure Active Directory) 및 Azure AD ID 보호|[Azure AD 관리자 역할](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
 |Azure Advanced Threat Protection|[Azure ATP 역할 그룹](https://docs.microsoft.com/azure-advanced-threat-protection/atp-role-groups)|
 |Azure Information Protection|[Azure AD 관리자 역할](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
-|준수 관리자|[준수 관리자 역할](https://docs.microsoft.com/office365/securitycompliance/meet-data-protection-and-regulatory-reqs-using-microsoft-cloud#permissions-and-role-based-access-control)|
+|준수 점수|[규정 준수 역할](https://docs.microsoft.com/microsoft-365/compliance/compliance-score-setup#set-user-permissions-and-assign-roles)|
 |Exchange Online|[Exchange 역할 기반 액세스 제어](https://docs.microsoft.com/exchange/understanding-role-based-access-control-exchange-2013-help)|
 |Intune|[Intune 역할 기반 액세스 제어](https://docs.microsoft.com/intune/role-based-access-control)|
 |Managed Desktop|[Azure AD 관리자 역할](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|

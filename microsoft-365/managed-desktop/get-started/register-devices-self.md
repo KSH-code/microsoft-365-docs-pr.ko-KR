@@ -5,12 +5,12 @@ ms.prod: w10
 author: jaimeo
 ms.author: jaimeo
 ms.localizationpriority: medium
-ms.openlocfilehash: a1dbb5708cad32a0e37ddc25c97c70a765580f86
-ms.sourcegitcommit: b65c80051e53d9be223f4769f4d42a39f5a07735
+ms.openlocfilehash: 4472f665faa658349813d9aaeb50596f2a868b35
+ms.sourcegitcommit: 3f8957ddd04b8710bb5f314a0902fdee50c7c9b7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39962525"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "41572274"
 ---
 # <a name="register-new-devices-yourself"></a>직접 새 장치 등록
 
@@ -65,13 +65,12 @@ Microsoft Managed Desktop은 해당 하드웨어 해시를 참조 하 여 각 �
 등록을 완료 하려면 CSV 파일의 데이터를 단일 파일로 결합 해야 합니다. 다음과 같은 샘플 PowerShell 스크립트를 통해이를 쉽게 확인할 수 있습니다.
 
 `Import-CSV -Path (Get-ChildItem -Filter *.csv) | ConvertTo-Csv -NoTypeInformation | % {$_.Replace('"', '')} | Out-File .\aggregatedDevices.csv`
-
 ### <a name="register-devices"></a>장치 등록
 
 등록 하려면 CSV 파일을 특정 형식으로 만들어야 합니다. 이전 단계에서 데이터를 직접 수집한 경우 파일은 올바른 형식으로 되어 있어야 합니다. 공급자 로부터 파일을 가져오는 경우에는 형식을 조정 해야 할 수 있습니다.
 
 >[!NOTE]
->편의상이 CSV 파일의 [서식 파일](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-started/downloads/device-registration-sample-partner.xlsx) 을 다운로드할 수 있습니다.
+>편의를 위해 [예제 CSV 파일](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-started/downloads/device-registration-sample-partner.csv)을 다운로드할 수 있습니다.
 
 샘플 1과 **정확히 같은 열 머리글** 을 포함 해야 하지만 (제조업체, 모델 등), 다른 행에 대 한 고유한 데이터를 포함할 수 있습니다. 서식 파일을 사용 하는 경우 메모장 등의 텍스트 편집 도구에서이 템플릿을 열고 행 2와 아래에 데이터만 입력 하는 것이 좋습니다. 
     

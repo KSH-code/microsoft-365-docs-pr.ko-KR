@@ -14,12 +14,12 @@ localization_priority: Normal
 search.appverid:
 - MET150
 description: Office 365에서 불법 동의 권한 부여 공격을 인식하고 교정하는 방법에 대해 알아보세요.
-ms.openlocfilehash: 0f4569a4ef8496a07fc1dc52f500ee91a6590fdd
-ms.sourcegitcommit: 3063e351e21614c236167e9cde40994d8b532bd6
+ms.openlocfilehash: ae26656cdfcb6f17bbe4caa1016f6428f3bd655e
+ms.sourcegitcommit: 3f8957ddd04b8710bb5f314a0902fdee50c7c9b7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40989543"
+ms.lasthandoff: 01/28/2020
+ms.locfileid: "41572995"
 ---
 # <a name="detect-and-remediate-illicit-consent-grants-in-office-365"></a>Office 365에서 불법 동의 권한 부여 검색 및 교정
 
@@ -112,7 +112,7 @@ Azure Active Directory 포털이나 PowerShell을 사용하여 사용자를 위�
 
 스크립트가 Permissions.csv라는 파일 하나를 생성합니다. 다음 단계를 수행하여 불법 응용 프로그램 권한 부여를 찾습니다.
 
-1. ConsentType 열(G열)에서 값 "AllPrinciples"을 검색합니다. AllPrincipals 권한은 클라이언트 응용 프로그램이 테넌트의 모두의 콘텐츠에 액세스할 수 있도록 허용합니다. 기본 Office 365 응용 프로그램에서 제대로 작동하려면 이 권한이 필요합니다. 이 권한을 가진 Microsoft가 아닌 모든 응용 프로그램은 신중하게 검토해야 합니다.
+1. ConsentType 열(G열)에서 값 "AllPrinciples"을 검색합니다. AllPrincipals 사용 권한을 사용 하면 클라이언트 응용 프로그램에서 테 넌 시의 모든 사용자 콘텐츠에 액세스할 수 있습니다. 기본 Office 365 응용 프로그램에서 제대로 작동하려면 이 권한이 필요합니다. 이 권한을 가진 Microsoft가 아닌 모든 응용 프로그램은 신중하게 검토해야 합니다.
 
 2. 사용 권한 열(F열)에서 각 위임된 응용 프로그램에 대한 콘텐츠 사용 권한을 확인합니다. "읽기" 및 "쓰기" 권한 또는 "*.All" 권한을 찾아 적절하지 않을 수 있으므로 신중하게 검토합니다.
 

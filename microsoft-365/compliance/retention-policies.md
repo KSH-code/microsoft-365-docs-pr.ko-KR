@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 정책을 사용하여 콘텐츠를 보존할지, 삭제할지, 아니면 보존한 다음 삭제할지 사전에 결정할 수 있습니다. 조직 전체에 또는 특정 위치 또는 사용자에게 하나의 정책을 적용할 수 있고, 모든 콘텐츠에 또는 특정 조건에 부합하는 콘텐츠에 정책을 적용할 수 있습니다.
-ms.openlocfilehash: 5bc131b98bbc0af5cdc9629e029c06f20a003d5f
-ms.sourcegitcommit: 3063e351e21614c236167e9cde40994d8b532bd6
+ms.openlocfilehash: de5fda485c1fbb1f41fd32ff0da40014d30a6a89
+ms.sourcegitcommit: 03a83ff76c8162b850c4c552759c49f2a4750574
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40989603"
+ms.lasthandoff: 01/26/2020
+ms.locfileid: "41558595"
 ---
 # <a name="overview-of-retention-policies"></a>보존 정책 개요
 
@@ -116,7 +116,7 @@ SharePoint 사이트 모음의 경우, 사용자가 콘텐츠를 편집하거나
 
 버전 관리는 SharePoint Online 및 비즈니스용 OneDrive의 모든 문서 라이브러리의 기능입니다. 기본적으로 버전 관리에서는 최소 500개의 주요 버전이 유지되지만이 제한을 늘릴 수 있습니다. 자세한 내용은 [목록 또는 라이브러리의 버전 관리 설정 및 구성](https://support.office.com/article/1555d642-23ee-446a-990a-bcab618c7a37)을 참조하세요.
   
-보존 정책 (삭제 전용 대신 콘텐츠를 유지하는 보존 정책)은 SharePoint 사이트 모음 또는 OneDrive 계정에 있는 문서의 모든 버전이 보존됩니다. 보류 또는 보존 정책이 적용되는 문서를 편집할 때마다 버전이 보존 보류 라이브러리에 복사됩니다. 버전 관리가 설정된 경우, 보류 또는 보존 정책이 적용되는 문서가 삭제될 때마다 모든 버전이 보존 보류 라이브러리에 복사됩니다. 보존 보류 라이브러리의 각 문서 버전은 자체 보존 기간이 있는 별도의 항목으로 존재합니다.
+보존 정책 (삭제 전용 대신 콘텐츠를 유지하는 보존 정책)은 SharePoint 사이트 모음 또는 OneDrive 계정에 있는 문서의 모든 버전이 보존됩니다. 보류 또는 보존 정책이 적용되는 문서를 처음 편집하면 원본 문서의 버전이 보존 보류 라이브러리에 복사됩니다. 버전 관리가 설정된 경우, 보류 또는 보존 정책이 적용되는 문서가 삭제될 때 모든 버전이 보존 보류 라이브러리에 복사됩니다. 보존 보류 라이브러리의 각 문서 버전은 자체 보존 기간이 있는 별도의 항목으로 존재합니다.
   
 - 보존 정책이 콘텐츠가 만들어진 시점을 기준으로 하는 경우 각 버전은 원본 문서와 동일한 만료 날짜를 갖습니다. 따라서 원본 문서 및 해당 버전은 동시에 만료됩니다.
     
@@ -193,7 +193,7 @@ SharePoint 사이트 모음의 경우, 사용자가 콘텐츠를 편집하거나
     
 - OneDrive 계정
     
-- Office 365 그룹(그룹의 사서함, 사이트 및 문서의 콘텐츠에 적용됩니다. Planner, Yammer, CRM Microsoft Teams, PowerBI, Stream, Exchange 및 SharePoint Teams 사이트의 콘텐츠에 대한 지원은 곧 제공될 예정입니다)
+- Office 365 그룹(그룹의 사서함 및 관련 SharePoint 사이트의 콘텐츠에 적용됩니다.
     
 - Exchange 공용 폴더
     
