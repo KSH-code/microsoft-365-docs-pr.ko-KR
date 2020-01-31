@@ -5,17 +5,19 @@ keywords: Microsoft 365, 참가자 위험 관리, 위험 관리, 규정 준수
 localization_priority: Normal
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: e6fd3dd08ff5170a3b0e2afcd97ec788c2aebd93
-ms.sourcegitcommit: 3dca80f268006658a0b721aa4f6df1224c7964dc
+ms.openlocfilehash: d87531d7a664ca359f7cbe6c05f26f574c44f833
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/22/2020
-ms.locfileid: "41259886"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41590679"
 ---
 # <a name="insider-risk-management-cases-preview"></a>참가자 위험 관리 사례 (미리 보기)
 
@@ -67,7 +69,7 @@ ms.locfileid: "41259886"
 
 ![참가자 위험 관리 사례 세부 정보](media/insider-risk-case-details.png)
 
-### <a name="alerts"></a>알림
+### <a name="alerts"></a>경고
 
 **알림** 탭에는 사례에 포함 된 현재 알림이 요약 되어 있습니다. 새 알림이 기존 사례에 추가 될 수 있으며 할당 되 면 **경고** 큐에 추가 됩니다. 큐에 다음과 같은 경고 특성이 나열 됩니다.
 
