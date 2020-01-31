@@ -1,5 +1,7 @@
 ---
 title: Advanced eDiscovery에서 보류 관리
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -16,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 1cea83ffec8af8b22b5a27e9d760946e71ba7f68
-ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
+ms.openlocfilehash: 49b75e77f9884bb7cb40721a2aa986e203623c07
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38687233"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41582757"
 ---
 # <a name="manage-holds-in-advanced-ediscovery"></a>Advanced eDiscovery에서 보류 관리
 
@@ -78,7 +80,7 @@ Custodian 보류 정책을 보려면 다음을 수행 합니다.
     > [!NOTE]
     > 드문 경우 이지만 사용자의 UPN (사용자 계정 이름)이 변경 된 경우에는 해당 OneDrive 계정에 대 한 URL도 새 UPN을 통합 하도록 변경 됩니다. 이 경우에는 사용자의 새 OneDrive URL을 추가 하 고 이전 항목을 제거 하 여 보류를 수정 해야 합니다.
 
-     &. **Exchange 공용 폴더** -설정/해제 스위치를 all 위치로 이동 하 여 Exchange Online 조직의 모든 공용 폴더를 보류 상태로 전환 합니다. 특정 공용 폴더를 선택 하 여 보류 상태로 설정할 수는 없습니다. 공용 폴더를 보존 하지 않으려면 toggle 스위치를 **"없음"** 으로 설정 된 상태로 둡니다.
+     c. **Exchange 공용 폴더** -설정/해제 스위치를 all 위치로 이동 하 여 Exchange Online 조직의 모든 공용 폴더를 보류 상태로 전환 합니다. 특정 공용 폴더를 선택 하 여 보류 상태로 설정할 수는 없습니다. 공용 폴더를 보존 하지 않으려면 toggle 스위치를 **"없음"** 으로 설정 된 상태로 둡니다.
 
 9. 보류에 콘텐츠 위치를 모두 추가한 후에 **다음**을 클릭 합니다.
   

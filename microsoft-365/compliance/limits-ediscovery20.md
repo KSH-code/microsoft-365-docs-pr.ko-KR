@@ -1,5 +1,7 @@
 ---
 title: 고급 eDiscovery 제한
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -12,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 365의 고급 eDiscovery 솔루션에 적용 되는 제한 사항에 대해 알아봅니다. 검색 도구를 사용 하 여 사례 데이터를 수집 하는 경우 대/소문자 제한, 인덱싱 제한 및 검색 제한 사항이 포함 됩니다.
-ms.openlocfilehash: 622d2669457a2a1e84909aadae9b653ca37684ce
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: b3e5dd1d80a60249ccc24d1af20f5e78f94f8421
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088119"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41585717"
 ---
 # <a name="limits-in-advanced-ediscovery"></a>Advanced eDiscovery 제한 사항
 

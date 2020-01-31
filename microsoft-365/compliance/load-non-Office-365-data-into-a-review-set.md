@@ -1,5 +1,7 @@
 ---
 title: 검토 집합에 비 Office 365 데이터 로드
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: 고급 eDiscovery 사례에서 Office 이외 365 데이터를 검토 집합으로 가져옵니다.
-ms.openlocfilehash: 508346c3fe3a8f67addfed4ced08693daa2d49e7
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: d839457824420c32a7acd006ae4218008c11b25e
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088235"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41585687"
 ---
 # <a name="load-non-office-365-data-into-a-review-set"></a>검토 집합에 비 Office 365 데이터 로드
 
@@ -40,7 +42,7 @@ ms.locfileid: "37088235"
 
 - Office가 아닌 365 데이터는 고급 eDiscovery에서 지 원하는 파일 형식 이어야 합니다. 자세한 내용은 [Advanced eDiscovery에서 지원 되는 파일 형식을](supported-filetypes-ediscovery20.md)참조 하세요.
 
-- 검토 집합에 업로드 되는 모든 파일은 각 폴더가 특정 custodian 연결 되는 폴더에 있어야 합니다. 이러한 폴더의 이름은 *alias @ domainname*을 사용 해야 합니다. Alias @ domainname은 사용자의 Office 365 별칭 및 도메인 이어야 합니다. 루트 폴더에 있는 모든 alias @ domainname 폴더를 수집할 수 있습니다. 루트 폴더에는 alias @ domainname 폴더만 포함 될 수 있습니다. 루트 폴더의 느슨한 파일은 지원 되지 않습니다.
+- 검토 집합에 업로드 되는 모든 파일은 각 폴더가 특정 custodian 연결 되는 폴더에 있어야 합니다. 이러한 폴더의 이름은 *alias@domainname*다음 명명 형식을 사용 해야 합니다. Alias@domainname 사용자의 Office 365 별칭 및 도메인 이어야 합니다. 루트 폴더의 모든 alias@domainname 폴더를 수집할 수 있습니다. 루트 폴더에는 alias@domainname 폴더만 포함 될 수 있습니다. 루트 폴더의 느슨한 파일은 지원 되지 않습니다.
 
    업로드할 비 Office 365 데이터에 대 한 폴더 구조는 다음 예와 비슷합니다.
 
@@ -79,7 +81,7 @@ ms.locfileid: "37088235"
 
    ![비 Office 365 가져오기: 파일 업로드](media/3ea53b5d-7f9b-4dfc-ba63-90a38c14d41a.png)
 
-   위한. **파일 위치 경로** 상자에서 업로드 하려는 비 Office 365 데이터를 저장 한 루트 폴더의 위치를 확인 하거나 입력 합니다. 예를 들어 **시작 하기 전에 구역**에 표시 된 예제 파일의 위치에는 **%USERPROFILE\Downloads\nonO365**를 입력 합니다. 올바른 위치를 제공 하면 경로 아래의 상자에 표시 되는 AzCopy 명령이 제대로 업데이트 됩니다.
+   a. **파일 위치 경로** 상자에서 업로드 하려는 비 Office 365 데이터를 저장 한 루트 폴더의 위치를 확인 하거나 입력 합니다. 예를 들어 **시작 하기 전에 구역**에 표시 된 예제 파일의 위치에는 **%USERPROFILE\Downloads\nonO365**를 입력 합니다. 올바른 위치를 제공 하면 경로 아래의 상자에 표시 되는 AzCopy 명령이 제대로 업데이트 됩니다.
 
    b. 상자에 표시 된 명령을 복사 하려면 **클립보드에 복사** 를 클릭 합니다.
 

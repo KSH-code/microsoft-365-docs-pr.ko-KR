@@ -1,5 +1,7 @@
 ---
 title: 콘텐츠 검색에 대한 키워드 쿼리 및 검색 조건
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -18,12 +20,12 @@ search.appverid:
 - MET150
 ms.assetid: c4639c2e-7223-4302-8e0d-b6e10f1c3be3
 description: '보안 & 준수 센터의 콘텐츠 검색 도구를 사용 하 여 Exchange Online 사서함 및 SharePoint 또는 비즈니스용 OneDrive 사이트에서 검색할 수 있는 전자 메일 및 파일 속성에 대해 알아봅니다.  '
-ms.openlocfilehash: 2d3b69090d8b19d474e2049c2082516459d18148
-ms.sourcegitcommit: ff030461137066b0f510a5978f4b5578908e3d2b
+ms.openlocfilehash: e8a0da1815b7ddda889217d027a3aabae4420c56
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2020
-ms.locfileid: "41123659"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41585917"
 ---
 # <a name="keyword-queries-and-search-conditions-for-content-search"></a>콘텐츠 검색에 대한 키워드 쿼리 및 검색 조건
 
@@ -52,7 +54,7 @@ ms.locfileid: "41123659"
 |:-----|:-----|:-----|:-----|
 |AttachmentNames|전자 메일 메시지에 첨부되는 파일의 이름입니다.|`attachmentnames:annualreport.ppt`  <br/> `attachmentnames:annual*` <br/> attachmentnames: .pptx|annualreport.ppt라는 파일이 첨부된 메시지입니다. 두 번째 예제에서는 와일드카드를 사용하여 첨부 파일의 파일 이름에 "annual"이라는 단어가 있는 메시지를 반환합니다. 세 번째 예에서는 .pptx 파일 확장명이 포함 된 모든 첨부 파일을 반환 합니다.|
 |대상|전자 메일 메시지의 숨은 참조 필드입니다. <sup>1</sup>|`bcc:pilarp@contoso.com`  <br/> `bcc:pilarp`  <br/> `bcc:"Pilar Pinilla"`|모든 예제는 숨은 참조 필드에 Pilar Pinilla가 포함된 메시지를 반환합니다.|
-|Category| 검색할 범주입니다. 범주는 Outlook 또는 웹용 Outlook (이전의 Outlook Web App)을 사용 하 여 사용자가 정의할 수 있습니다. 가능한 값은 다음과 같습니다.  <br/><br/>  색상  <br/>  친환경  <br/>  /  <br/>  자주색  <br/>  빨강  <br/>  노랑|`category:"Red Category"`|원본 사서함에서 red 범주가 지정된 메시지입니다. |
+|범주| 검색할 범주입니다. 범주는 Outlook 또는 웹용 Outlook (이전의 Outlook Web App)을 사용 하 여 사용자가 정의할 수 있습니다. 가능한 값은 다음과 같습니다.  <br/><br/>  색상  <br/>  친환경  <br/>  /  <br/>  자주색  <br/>  빨강  <br/>  노랑|`category:"Red Category"`|원본 사서함에서 red 범주가 지정된 메시지입니다. |
 |참조란|전자 메일 메시지의 참조 필드입니다. <sup>1</sup>|`cc:pilarp@contoso.com`  <br/> `cc:"Pilar Pinilla"`|두 예제에서 모두 참조 필드에 Pilar Pinilla가 지정 된 메시지입니다.|
 |Folderid|특정 사서함 폴더의 폴더 ID (GUID)입니다. 이 속성을 사용 하는 경우에는 지정 된 폴더가 있는 사서함을 검색 해야 합니다. 지정한 폴더만 검색 됩니다. 폴더에 있는 모든 하위 폴더는 검색 되지 않습니다. 하위 폴더를 검색 하려면 Folderid 속성을 사용 하 여 검색을 수행 해야 합니다.  <br/> Folderid 속성을 검색 하 고 스크립트를 사용 하 여 특정 사서함의 폴더 Id를 가져오는 방법에 대 한 자세한 내용은 using [Content Search In Office 365 in the 대상 모음](use-content-search-for-targeted-collections.md)을 참조 하십시오.|`folderid:4D6DD7F943C29041A65787E30F02AD1F00000000013A0000`  <br/> `folderid:2370FB455F82FC44BE31397F47B632A70000000001160000 AND participants:garthf@contoso.com`|첫 번째 예에서는 지정 된 사서함 폴더의 모든 항목을 반환 합니다. 두 번째 예에서는 garthf@contoso.com에서 보내거나 받은 지정 된 사서함 폴더의 모든 항목을 반환 합니다.|
 |From|전자 메일 메시지의 보낸 사람입니다. <sup>1</sup>|`from:pilarp@contoso.com`  <br/> `from:contoso.com`|지정된 사용자가 보냈거나 지정된 도메인에서 보낸 메시지입니다.|

@@ -1,5 +1,7 @@
 ---
 title: 콘텐츠 검색 결과 내보내기
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -19,12 +21,12 @@ search.appverid:
 - MET150
 ms.assetid: ed48d448-3714-4c42-85f5-10f75f6a4278
 description: '보안 & 준수 센터의 콘텐츠 검색에서 로컬 컴퓨터로 검색 결과를 내보냅니다. 전자 메일 결과를 PST 파일로 내보냅니다. SharePoint의 콘텐츠 및 비즈니스용 OneDrive 사이트는 기본 Office 문서로 내보내집니다. '
-ms.openlocfilehash: b3c978f57533623a6e58d22919430f4e02e78b77
-ms.sourcegitcommit: 062be618f0b18611001552273bb175020420e463
+ms.openlocfilehash: b1bd09777bd934cccf7f1247ed72201bcc4a081f
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "39676785"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41588198"
 ---
 # <a name="export-content-search-results"></a>콘텐츠 검색 결과 내보내기
 

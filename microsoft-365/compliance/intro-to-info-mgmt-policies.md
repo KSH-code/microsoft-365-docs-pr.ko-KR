@@ -1,5 +1,7 @@
 ---
 title: 정보 관리 정책 소개
+f1.keywords:
+- NOCSH
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
@@ -17,12 +19,12 @@ ms.assetid: 63a0b501-ba59-44b7-a35c-999f3be057b2
 ms.collection:
 - M365-security-compliance
 description: 정보 관리 정책은 콘텐츠 형식에 대한 규칙 집합입니다. 조직에서는 정보 관리 정책을 사용하여 콘텐츠의 보존 기간이나 사용자가 해당 콘텐츠에 대해 수행할 수 있는 작업과 같은 사항을 제어하고 추적할 수 있습니다. 정보 관리 정책은 조직이 법률 또는 정부 규정을 준수하도록 도와주거나 내부 비즈니스 프로세스를 적용할 수 있습니다.
-ms.openlocfilehash: a5cf571b22b7d698daf8a70f8565b250e2388a1a
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 3c3ca901674b9ae34aa990f320cf4eb550ea05b9
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088134"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41588038"
 ---
 # <a name="introduction-to-information-management-policies"></a>정보 관리 정책 소개
 
@@ -48,7 +50,7 @@ ms.locfileid: "37088134"
 ## <a name="locations-to-use-an-information-management-policy"></a>정보 관리 정책을 사용할 위치
 <a name="__toc340213528"> </a>
 
-정보 관리 정책을 구현 하려면이를 사이트의 목록, 라이브러리 또는 콘텐츠 형식에 추가 해야 합니다. 정보 관리 정책을 만들거나 추가 하는 위치는 정책이 적용 되는 범위나 사용할 수 있는 크기에 영향을 줍니다. 예를 들어 다음을 수행할 수 있습니다.
+정보 관리 정책을 구현 하려면이를 사이트의 목록, 라이브러리 또는 콘텐츠 형식에 추가 해야 합니다. 정보 관리 정책을 만들거나 추가 하는 위치는 정책이 적용 되는 범위나 사용할 수 있는 크기에 영향을 줍니다. 다음을 수행할 수 있습니다.
   
  **사이트 모음 정책을 만들고이 정책을 콘텐츠 형식, 목록 또는 라이브러리에 추가** 사이트 모음의 최상위 사이트에 있는 정책 목록에서 사이트 모음 정책을 만들 수 있습니다. 사이트 모음 정책을 만든 후에는 다른 사이트 모음의 관리자가 해당 정책 목록으로 가져올 수 있도록 내보낼 수 있습니다. 내보낼 수 있는 사이트 모음 정책을 만들면 조직의 여러 사이트에서 정보 관리 정책을 표준화 하는 데 도움이 됩니다. 
   
@@ -68,7 +70,7 @@ ms.locfileid: "37088134"
   
 ![문서 라이브러리에 대 한 설정 페이지의 정보 관리 정책 링크](media/9fa6d366-6aab-49e1-a05c-898ac6f536e6.png)
   
-참고 
+Notes 
   
 목록이 나 라이브러리에서 여러 콘텐츠 형식을 지원 하지 않는 경우에만 목록 또는 라이브러리에 대 한 정보 관리 정책을 만들 수 있습니다. 목록 또는 라이브러리에서 여러 콘텐츠 형식을 지 원하는 경우 해당 목록이 나 라이브러리에 연결 된 각 개별 목록 콘텐츠 형식에 대 한 정보 관리 정책을 정의 해야 합니다. 특정 목록 또는 라이브러리에 연결 된 사이트 콘텐츠 형식의 인스턴스를 목록 콘텐츠 형식 이라고 합니다.
   
