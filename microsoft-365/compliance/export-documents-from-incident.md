@@ -1,5 +1,7 @@
 ---
 title: 인시던트 로부터 문서 내보내기
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,13 +16,13 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: f3e83c314b595f396d544af2605c388b80b088b2
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 86bab81ffc1c607e9794b3436cc0cea3c34e9ef7
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088043"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41588518"
 ---
-# <a name="export-documents-from-an-incident"></a><span data-ttu-id="08c23-102">인시던트 로부터 문서 내보내기</span><span class="sxs-lookup"><span data-stu-id="08c23-102">Export documents from an incident</span></span>
+# <a name="export-documents-from-an-incident"></a><span data-ttu-id="c3f5c-102">인시던트 로부터 문서 내보내기</span><span class="sxs-lookup"><span data-stu-id="c3f5c-102">Export documents from an incident</span></span>
 
-<span data-ttu-id="08c23-103">곧 제공될 콘텐츠입니다.</span><span class="sxs-lookup"><span data-stu-id="08c23-103">Content coming soon.</span></span>
+<span data-ttu-id="c3f5c-103">곧 제공될 콘텐츠입니다.</span><span class="sxs-lookup"><span data-stu-id="c3f5c-103">Content coming soon.</span></span>
