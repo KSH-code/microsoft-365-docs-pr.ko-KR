@@ -1,5 +1,7 @@
 ---
 title: 사례 닫기 또는 삭제
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,37 +16,37 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: " "
-ms.openlocfilehash: 5d8950f2e6164781111465aee8d89eaff92ee958
-ms.sourcegitcommit: e386037c9cc335c86896dc153344850735afbccd
+ms.openlocfilehash: 15b6327809b3557c4d0d90b6c10dc5568ba47f43
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "39633837"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41595875"
 ---
-# <a name="close-or-delete-a-case"></a><span data-ttu-id="d54f7-102">사례 닫기 또는 삭제</span><span class="sxs-lookup"><span data-stu-id="d54f7-102">Close or delete a case</span></span>
+# <a name="close-or-delete-a-case"></a><span data-ttu-id="8fbe1-102">사례 닫기 또는 삭제</span><span class="sxs-lookup"><span data-stu-id="8fbe1-102">Close or delete a case</span></span>
 
-<span data-ttu-id="d54f7-103">EDiscovery 사례에서 지 원하는 법적 사례 또는 조사가 완료 되 면 사례를 닫을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="d54f7-103">When the legal case or investigation supported by an eDiscovery case is completed, you can close the case.</span></span> <span data-ttu-id="d54f7-104">사례를 닫을 때 수행 되는 작업은 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="d54f7-104">Here's what happens when you close a case:</span></span>
+<span data-ttu-id="8fbe1-103">EDiscovery 사례에서 지 원하는 법적 사례 또는 조사가 완료 되 면 사례를 닫을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="8fbe1-103">When the legal case or investigation supported by an eDiscovery case is completed, you can close the case.</span></span> <span data-ttu-id="8fbe1-104">사례를 닫을 때 수행 되는 작업은 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="8fbe1-104">Here's what happens when you close a case:</span></span>
 
-- <span data-ttu-id="d54f7-105">대/소문자에 보류 중인 콘텐츠 위치가 포함 되어 있으면 해당 보류를 해제 합니다.</span><span class="sxs-lookup"><span data-stu-id="d54f7-105">If the case contains any content locations on hold, those holds will be turned off.</span></span> <span data-ttu-id="d54f7-106">이로 인해 사용자 또는 자동화 된 프로세스 (예: 삭제 정책)에 의해 콘텐츠가 영구적으로 삭제 되거나 제거 될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="d54f7-106">This might result in content being permanently deleted or purged, either by the user or by an automated process, such as a deletion policy.</span></span>
+- <span data-ttu-id="8fbe1-105">대/소문자에 보류 중인 콘텐츠 위치가 포함 되어 있으면 해당 보류를 해제 합니다.</span><span class="sxs-lookup"><span data-stu-id="8fbe1-105">If the case contains any content locations on hold, those holds will be turned off.</span></span> <span data-ttu-id="8fbe1-106">이로 인해 사용자 또는 자동화 된 프로세스 (예: 삭제 정책)에 의해 콘텐츠가 영구적으로 삭제 되거나 제거 될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="8fbe1-106">This might result in content being permanently deleted or purged, either by the user or by an automated process, such as a deletion policy.</span></span>
 
-- <span data-ttu-id="d54f7-107">사례를 닫으면 해당 사례와 연결 된 보류만 해제 됩니다.</span><span class="sxs-lookup"><span data-stu-id="d54f7-107">Closing a case only turns off the holds that are associated with that case.</span></span> <span data-ttu-id="d54f7-108">다른 보류가 콘텐츠 위치 (예: 소송 보존)에 배치 되는 경우</span><span class="sxs-lookup"><span data-stu-id="d54f7-108">If other holds are place on a content location (such as a Litigation Hold.</span></span> <span data-ttu-id="d54f7-109">보존 정책 또는 다른 eDiscovery 사례의 보류는 계속 유지 관리 됩니다.</span><span class="sxs-lookup"><span data-stu-id="d54f7-109">a Preservation Policy, or a hold from a different eDiscovery case) those holds will still be maintained.</span></span>
+- <span data-ttu-id="8fbe1-107">사례를 닫으면 해당 사례와 연결 된 보류만 해제 됩니다.</span><span class="sxs-lookup"><span data-stu-id="8fbe1-107">Closing a case only turns off the holds that are associated with that case.</span></span> <span data-ttu-id="8fbe1-108">다른 보류가 콘텐츠 위치 (예: 소송 보존)에 배치 되는 경우</span><span class="sxs-lookup"><span data-stu-id="8fbe1-108">If other holds are place on a content location (such as a Litigation Hold.</span></span> <span data-ttu-id="8fbe1-109">보존 정책 또는 다른 eDiscovery 사례의 보류는 계속 유지 관리 됩니다.</span><span class="sxs-lookup"><span data-stu-id="8fbe1-109">a Preservation Policy, or a hold from a different eDiscovery case) those holds will still be maintained.</span></span>
 
-- <span data-ttu-id="d54f7-110">이 사례는 보안 & 준수 센터의 eDiscovery 페이지에 계속 나열 됩니다.</span><span class="sxs-lookup"><span data-stu-id="d54f7-110">The case is still listed on the eDiscovery page in the Security & Compliance Center.</span></span> <span data-ttu-id="d54f7-111">닫힌 사례에 대 한 세부 정보, 보류, 검색 및 구성원은 그대로 유지 됩니다.</span><span class="sxs-lookup"><span data-stu-id="d54f7-111">The details, holds, searches, and members of a closed case are retained.</span></span>
+- <span data-ttu-id="8fbe1-110">이 사례는 보안 & 준수 센터의 eDiscovery 페이지에 계속 나열 됩니다.</span><span class="sxs-lookup"><span data-stu-id="8fbe1-110">The case is still listed on the eDiscovery page in the Security & Compliance Center.</span></span> <span data-ttu-id="8fbe1-111">닫힌 사례에 대 한 세부 정보, 보류, 검색 및 구성원은 그대로 유지 됩니다.</span><span class="sxs-lookup"><span data-stu-id="8fbe1-111">The details, holds, searches, and members of a closed case are retained.</span></span>
 
-- <span data-ttu-id="d54f7-112">해당 사례가 닫힌 후에 대/소문자를 편집할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="d54f7-112">You can edit a case after it's closed.</span></span> <span data-ttu-id="d54f7-113">예를 들어 고급 eDiscovery에서 구성원을 추가 하거나 제거 하 고, 검색을 만들고, 검색 결과를 내보내고, 검색 결과를 준비할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="d54f7-113">For example, you can add or removing members, create searches, export search results, and prepare search results for analysis in Advanced eDiscovery.</span></span> <span data-ttu-id="d54f7-114">활성 사례와 닫힌 사례의 주요 차이점은 사례를 닫을 때 보류가 해제 된다는 점입니다.</span><span class="sxs-lookup"><span data-stu-id="d54f7-114">The primary difference between active and closed cases is that holds are turned off when a case is closed.</span></span>
+- <span data-ttu-id="8fbe1-112">해당 사례가 닫힌 후에 대/소문자를 편집할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="8fbe1-112">You can edit a case after it's closed.</span></span> <span data-ttu-id="8fbe1-113">예를 들어 고급 eDiscovery에서 구성원을 추가 하거나 제거 하 고, 검색을 만들고, 검색 결과를 내보내고, 검색 결과를 준비할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="8fbe1-113">For example, you can add or removing members, create searches, export search results, and prepare search results for analysis in Advanced eDiscovery.</span></span> <span data-ttu-id="8fbe1-114">활성 사례와 닫힌 사례의 주요 차이점은 사례를 닫을 때 보류가 해제 된다는 점입니다.</span><span class="sxs-lookup"><span data-stu-id="8fbe1-114">The primary difference between active and closed cases is that holds are turned off when a case is closed.</span></span>
 
-<span data-ttu-id="d54f7-115">사례를 닫으려면:</span><span class="sxs-lookup"><span data-stu-id="d54f7-115">To close a case:</span></span>
+<span data-ttu-id="8fbe1-115">사례를 닫으려면:</span><span class="sxs-lookup"><span data-stu-id="8fbe1-115">To close a case:</span></span>
 
-1. <span data-ttu-id="d54f7-116">**고급 eDiscovery** 페이지에서 닫으려는 사례를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="d54f7-116">On the **Advanced eDiscovery** page, select the case that you want to close.</span></span>
+1. <span data-ttu-id="8fbe1-116">**고급 eDiscovery** 페이지에서 닫으려는 사례를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="8fbe1-116">On the **Advanced eDiscovery** page, select the case that you want to close.</span></span>
 
-2. <span data-ttu-id="d54f7-117">**설정** 탭의 **사례 정보**에서 **선택을**클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="d54f7-117">On the **Settings** tab, under **Case Information**, click **Select**.</span></span>
+2. <span data-ttu-id="8fbe1-117">**설정** 탭의 **사례 정보**에서 **선택을**클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="8fbe1-117">On the **Settings** tab, under **Case Information**, click **Select**.</span></span>
 
-3. <span data-ttu-id="d54f7-118">**대/소문자 닫기를**클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="d54f7-118">Click **Close case**.</span></span>
+3. <span data-ttu-id="8fbe1-118">**대/소문자 닫기를**클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="8fbe1-118">Click **Close case**.</span></span>
 
-<span data-ttu-id="d54f7-119">사례를 삭제 하려면 다음을 수행 합니다.</span><span class="sxs-lookup"><span data-stu-id="d54f7-119">To delete a case:</span></span>
+<span data-ttu-id="8fbe1-119">사례를 삭제 하려면 다음을 수행 합니다.</span><span class="sxs-lookup"><span data-stu-id="8fbe1-119">To delete a case:</span></span>
 
-1. <span data-ttu-id="d54f7-120">**고급 eDiscovery** 페이지에서 삭제할 사례를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="d54f7-120">On the **Advanced eDiscovery** page, select the case that you want to delete.</span></span>
+1. <span data-ttu-id="8fbe1-120">**고급 eDiscovery** 페이지에서 삭제할 사례를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="8fbe1-120">On the **Advanced eDiscovery** page, select the case that you want to delete.</span></span>
 
-2. <span data-ttu-id="d54f7-121">**설정** 탭의 **사례 정보**에서 **선택을**클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="d54f7-121">On the **Settings** tab, under **Case Information**, click **Select**.</span></span>
+2. <span data-ttu-id="8fbe1-121">**설정** 탭의 **사례 정보**에서 **선택을**클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="8fbe1-121">On the **Settings** tab, under **Case Information**, click **Select**.</span></span>
 
-3. <span data-ttu-id="d54f7-122">**대/소문자 삭제**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="d54f7-122">Click **Delete case**.</span></span> 
+3. <span data-ttu-id="8fbe1-122">**대/소문자 삭제**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="8fbe1-122">Click **Delete case**.</span></span> 

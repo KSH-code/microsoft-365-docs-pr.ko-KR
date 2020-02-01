@@ -1,5 +1,7 @@
 ---
 title: Windows 10 컴퓨터 보안
+f1.keywords:
+- NOCSH
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -20,30 +22,30 @@ search.appverid:
 - BCS160
 - MET150
 description: Microsoft 365 Business를 설정한 후에 Windows 10 Pc를 보호 하는 방법을 알아봅니다.
-ms.openlocfilehash: 3c558132f1e370a19735a38f9caa09ddb8e1f9f4
-ms.sourcegitcommit: e872676ec98036a50d3a0cb5071109ea5f5a7ae5
+ms.openlocfilehash: 068ac8c8b6011c879d859024b44192cb0a6d3d7d
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2020
-ms.locfileid: "41515589"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41593464"
 ---
-# <a name="secure-windows-10-computers"></a><span data-ttu-id="ba2ea-103">Windows 10 컴퓨터 보안</span><span class="sxs-lookup"><span data-stu-id="ba2ea-103">Secure Windows 10 computers</span></span>
+# <a name="secure-windows-10-computers"></a><span data-ttu-id="4bb64-103">Windows 10 컴퓨터 보안</span><span class="sxs-lookup"><span data-stu-id="4bb64-103">Secure Windows 10 computers</span></span>
 
-<span data-ttu-id="ba2ea-104">Microsoft 365 Business를 [설정한](set-up.md) 후에는 조직에 있는 Windows 10 대의 컴퓨터를 도난 으로부터 보호 하 고 바이러스 및 맬웨어로 같은 악의적인 위협을 방지 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="ba2ea-104">After you have [set up](set-up.md) Microsoft 365 Business, it is time to protect the Windows 10 computers in your org from theft, and malicious threats like viruses and malware.</span></span>
-<span data-ttu-id="ba2ea-105">이 비디오를 시청 하 여 Windows 10 컴퓨터를 보호 하는 정책을 설정 하는 방법에 대 한 개요를 확인 하세요.</span><span class="sxs-lookup"><span data-stu-id="ba2ea-105">Watch this video for an overview of how to set up policies to secure your Windows 10 computers.</span></span><br><br>
+<span data-ttu-id="4bb64-104">Microsoft 365 Business를 [설정한](set-up.md) 후에는 조직에 있는 Windows 10 대의 컴퓨터를 도난 으로부터 보호 하 고 바이러스 및 맬웨어로 같은 악의적인 위협을 방지 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="4bb64-104">After you have [set up](set-up.md) Microsoft 365 Business, it is time to protect the Windows 10 computers in your org from theft, and malicious threats like viruses and malware.</span></span>
+<span data-ttu-id="4bb64-105">이 비디오를 시청 하 여 Windows 10 컴퓨터를 보호 하는 정책을 설정 하는 방법에 대 한 개요를 확인 하세요.</span><span class="sxs-lookup"><span data-stu-id="4bb64-105">Watch this video for an overview of how to set up policies to secure your Windows 10 computers.</span></span><br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4kcAF] 
 
-<span data-ttu-id="ba2ea-106">이 비디오가 도움이 된 경우에는 [소규모 비즈니스 및 Microsoft 365를 처음 사용하는 사용자들을 위한 완전한 교육 시리즈](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="ba2ea-106">If you found this video helpful, check out the [complete training series for small businesses and those new to Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).</span></span>
+<span data-ttu-id="4bb64-106">이 비디오가 도움이 된 경우에는 [소규모 비즈니스 및 Microsoft 365를 처음 사용하는 사용자들을 위한 완전한 교육 시리즈](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="4bb64-106">If you found this video helpful, check out the [complete training series for small businesses and those new to Microsoft 365](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816).</span></span>
 
-## <a name="to-secure-your-windows-10-pcs"></a><span data-ttu-id="ba2ea-107">Windows 10 Pc를 보호 하려면</span><span class="sxs-lookup"><span data-stu-id="ba2ea-107">To secure your Windows 10 PCs</span></span>
+## <a name="to-secure-your-windows-10-pcs"></a><span data-ttu-id="4bb64-107">Windows 10 Pc를 보호 하려면</span><span class="sxs-lookup"><span data-stu-id="4bb64-107">To secure your Windows 10 PCs</span></span>
 
-1. <span data-ttu-id="ba2ea-108">전역 관리자 자격 증명을 사용 하 여 [Microsoft 365 관리 센터](https://admin.microsoft.com) 에 로그인 합니다.</span><span class="sxs-lookup"><span data-stu-id="ba2ea-108">Sign in to [Microsoft 365 admin center](https://admin.microsoft.com) by using your global admin credentials.</span></span> 
-2. <span data-ttu-id="ba2ea-109">왼쪽 탐색 창에서 **설치** 를 선택 하 고 **로그인 및 보안**에서 **Windows 10 컴퓨터 보안**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="ba2ea-109">On the left nav, select **Setup** and then, under **Sign-in and security**, choose **Secure your Windows 10 computers**.</span></span> <span data-ttu-id="ba2ea-110">시작 하려면 **보기** 를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="ba2ea-110">Choose **View** to get started.</span></span>
-3. <span data-ttu-id="ba2ea-111">**Windows 10 컴퓨터 보안** 페이지에서 모든 정보를 읽어 설정 하는 작업과 사용자에 게 미치는 영향을 이해 합니다.</span><span class="sxs-lookup"><span data-stu-id="ba2ea-111">On the **Secure your Windows 10 computers** page, read all the information to understand what you are turning on, and what the user impact is.</span></span>
+1. <span data-ttu-id="4bb64-108">전역 관리자 자격 증명을 사용 하 여 [Microsoft 365 관리 센터](https://admin.microsoft.com) 에 로그인 합니다.</span><span class="sxs-lookup"><span data-stu-id="4bb64-108">Sign in to [Microsoft 365 admin center](https://admin.microsoft.com) by using your global admin credentials.</span></span> 
+2. <span data-ttu-id="4bb64-109">왼쪽 탐색 창에서 **설치** 를 선택 하 고 **로그인 및 보안**에서 **Windows 10 컴퓨터 보안**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="4bb64-109">On the left nav, select **Setup** and then, under **Sign-in and security**, choose **Secure your Windows 10 computers**.</span></span> <span data-ttu-id="4bb64-110">시작 하려면 **보기** 를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="4bb64-110">Choose **View** to get started.</span></span>
+3. <span data-ttu-id="4bb64-111">**Windows 10 컴퓨터 보안** 페이지에서 모든 정보를 읽어 설정 하는 작업과 사용자에 게 미치는 영향을 이해 합니다.</span><span class="sxs-lookup"><span data-stu-id="4bb64-111">On the **Secure your Windows 10 computers** page, read all the information to understand what you are turning on, and what the user impact is.</span></span>
 
-    <span data-ttu-id="ba2ea-112">페이지 맨 위에서 **시작**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="ba2ea-112">On the top of the page, choose **Get started**.</span></span>
+    <span data-ttu-id="4bb64-112">페이지 맨 위에서 **시작**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="4bb64-112">On the top of the page, choose **Get started**.</span></span>
 
-4. <span data-ttu-id="ba2ea-113">Windows 10 설정에서 설정 하려는 옵션을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="ba2ea-113">On the Windows 10 setting, select the options you want to turn on.</span></span> <span data-ttu-id="ba2ea-114">설정에 대 한 자세한 내용은 [Windows 10 장치 보안](secure-windows-10-devices.md)을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="ba2ea-114">For more information about the settings, see [Secure Windows 10 devices](secure-windows-10-devices.md).</span></span> 
-5. <span data-ttu-id="ba2ea-115">조직에서 정책을 적용할 사용자를 선택한 다음 **변경 내용 저장**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="ba2ea-115">Choose to who in your organization to apply the policy to, and then choose **Save changes**.</span></span>
+4. <span data-ttu-id="4bb64-113">Windows 10 설정에서 설정 하려는 옵션을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="4bb64-113">On the Windows 10 setting, select the options you want to turn on.</span></span> <span data-ttu-id="4bb64-114">설정에 대 한 자세한 내용은 [Windows 10 장치 보안](secure-windows-10-devices.md)을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="4bb64-114">For more information about the settings, see [Secure Windows 10 devices](secure-windows-10-devices.md).</span></span> 
+5. <span data-ttu-id="4bb64-115">조직에서 정책을 적용할 사용자를 선택한 다음 **변경 내용 저장**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="4bb64-115">Choose to who in your organization to apply the policy to, and then choose **Save changes**.</span></span>
 

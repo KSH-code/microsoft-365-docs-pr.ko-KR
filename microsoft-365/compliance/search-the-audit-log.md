@@ -1,5 +1,7 @@
 ---
 title: Office 365에서 사용자 및 관리 활동에 대 한 감사 로그 검색
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -11,43 +13,43 @@ localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 search.appverid: MOE150
 ms.assetid: 57ca5138-0ae0-4d34-bd40-240441ef2fb6
-description: Office 365 감사 로그는 통합 된 감사 로그입니다. 통합 감사 로그가 왜 있나요? 조직에서 구독 하는 대부분의 Office 365 서비스에서 발생 한 이벤트는 검색할 수 있는 단일 감사 로그에 기록 됩니다. 즉, 다음 서비스에서 사용자 및 관리자 활동을 검색할 수 있습니다.
-ms.openlocfilehash: 1d3f45d24a8d1a83c20f5d36b12ced761e00f936
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+description: Office 365 감사 로그는 통합 된 감사 로그입니다. 통합된 감사 로그를 사용하는 이유는 무엇일까요? 조직에서 구독 하는 대부분의 Office 365 서비스에서 발생 한 이벤트는 검색할 수 있는 단일 감사 로그에 기록 됩니다. 즉, 다음 서비스에서 사용자 및 관리자 활동을 검색할 수 있습니다.
+ms.openlocfilehash: 82ed3c1afd4f59136b04120982ddb1433f4dd0eb
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088548"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41597535"
 ---
-# <a name="search-the-audit-log-for-user-and-admin-activity-in-office-365"></a><span data-ttu-id="eb5d0-106">Office 365에서 사용자 및 관리 활동에 대 한 감사 로그 검색</span><span class="sxs-lookup"><span data-stu-id="eb5d0-106">Search the audit log for user and admin activity in Office 365</span></span>
+# <a name="search-the-audit-log-for-user-and-admin-activity-in-office-365"></a><span data-ttu-id="03139-106">Office 365에서 사용자 및 관리 활동에 대 한 감사 로그 검색</span><span class="sxs-lookup"><span data-stu-id="03139-106">Search the audit log for user and admin activity in Office 365</span></span>
 
-<span data-ttu-id="eb5d0-107">Office 365 감사 로그는 통합 된 감사 로그입니다.</span><span class="sxs-lookup"><span data-stu-id="eb5d0-107">The Office 365 audit log is a unified audit log.</span></span> <span data-ttu-id="eb5d0-108">통합 감사 로그가 왜 있나요?</span><span class="sxs-lookup"><span data-stu-id="eb5d0-108">Why a unified audit log?</span></span> <span data-ttu-id="eb5d0-109">조직에서 구독 하는 대부분의 Office 365 서비스에서 발생 한 이벤트는 검색할 수 있는 단일 감사 로그에 기록 됩니다.</span><span class="sxs-lookup"><span data-stu-id="eb5d0-109">Because events from most Office 365 services that you're organization subscribes to are recorded in a single audit log that you can search.</span></span> <span data-ttu-id="eb5d0-110">즉, 다음 서비스에서 사용자 및 관리자 활동을 검색할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="eb5d0-110">That means you can search for user and admin activity in these services:</span></span> 
+<span data-ttu-id="03139-107">Office 365 감사 로그는 통합 된 감사 로그입니다.</span><span class="sxs-lookup"><span data-stu-id="03139-107">The Office 365 audit log is a unified audit log.</span></span> <span data-ttu-id="03139-108">통합된 감사 로그를 사용하는 이유는 무엇일까요?</span><span class="sxs-lookup"><span data-stu-id="03139-108">Why a unified audit log?</span></span> <span data-ttu-id="03139-109">조직에서 구독 하는 대부분의 Office 365 서비스에서 발생 한 이벤트는 검색할 수 있는 단일 감사 로그에 기록 됩니다.</span><span class="sxs-lookup"><span data-stu-id="03139-109">Because events from most Office 365 services that you're organization subscribes to are recorded in a single audit log that you can search.</span></span> <span data-ttu-id="03139-110">즉, 다음 서비스에서 사용자 및 관리자 활동을 검색할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="03139-110">That means you can search for user and admin activity in these services:</span></span> 
   
-- <span data-ttu-id="eb5d0-111">SharePoint</span><span class="sxs-lookup"><span data-stu-id="eb5d0-111">SharePoint</span></span>
-- <span data-ttu-id="eb5d0-112">OneDrive</span><span class="sxs-lookup"><span data-stu-id="eb5d0-112">OneDrive</span></span>
-- <span data-ttu-id="eb5d0-113">Exchange</span><span class="sxs-lookup"><span data-stu-id="eb5d0-113">Exchange</span></span>
-- <span data-ttu-id="eb5d0-114">Azure Active Directory</span><span class="sxs-lookup"><span data-stu-id="eb5d0-114">Azure Active Directory</span></span>
-- <span data-ttu-id="eb5d0-115">Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="eb5d0-115">Microsoft Teams</span></span>
-- <span data-ttu-id="eb5d0-116">eDiscovery</span><span class="sxs-lookup"><span data-stu-id="eb5d0-116">eDiscovery</span></span>
-- <span data-ttu-id="eb5d0-117">Power BI</span><span class="sxs-lookup"><span data-stu-id="eb5d0-117">Power BI</span></span>
-- <span data-ttu-id="eb5d0-118">Yammer</span><span class="sxs-lookup"><span data-stu-id="eb5d0-118">Yammer</span></span>
-- <span data-ttu-id="eb5d0-119">Sway</span><span class="sxs-lookup"><span data-stu-id="eb5d0-119">Sway</span></span>
-- <span data-ttu-id="eb5d0-120">Microsoft Stream</span><span class="sxs-lookup"><span data-stu-id="eb5d0-120">Microsoft Stream</span></span>
+- <span data-ttu-id="03139-111">SharePoint</span><span class="sxs-lookup"><span data-stu-id="03139-111">SharePoint</span></span>
+- <span data-ttu-id="03139-112">OneDrive</span><span class="sxs-lookup"><span data-stu-id="03139-112">OneDrive</span></span>
+- <span data-ttu-id="03139-113">Exchange</span><span class="sxs-lookup"><span data-stu-id="03139-113">Exchange</span></span>
+- <span data-ttu-id="03139-114">Azure Active Directory</span><span class="sxs-lookup"><span data-stu-id="03139-114">Azure Active Directory</span></span>
+- <span data-ttu-id="03139-115">Microsoft Teams</span><span class="sxs-lookup"><span data-stu-id="03139-115">Microsoft Teams</span></span>
+- <span data-ttu-id="03139-116">eDiscovery</span><span class="sxs-lookup"><span data-stu-id="03139-116">eDiscovery</span></span>
+- <span data-ttu-id="03139-117">Power BI</span><span class="sxs-lookup"><span data-stu-id="03139-117">Power BI</span></span>
+- <span data-ttu-id="03139-118">Yammer</span><span class="sxs-lookup"><span data-stu-id="03139-118">Yammer</span></span>
+- <span data-ttu-id="03139-119">Sway</span><span class="sxs-lookup"><span data-stu-id="03139-119">Sway</span></span>
+- <span data-ttu-id="03139-120">Microsoft Stream</span><span class="sxs-lookup"><span data-stu-id="03139-120">Microsoft Stream</span></span>
    
- ## <a name="set-up-auditing"></a><span data-ttu-id="eb5d0-121">감사 설정</span><span class="sxs-lookup"><span data-stu-id="eb5d0-121">Set up auditing</span></span>
+ ## <a name="set-up-auditing"></a><span data-ttu-id="03139-121">감사 설정</span><span class="sxs-lookup"><span data-stu-id="03139-121">Set up auditing</span></span>
   
-<span data-ttu-id="eb5d0-122">Office 365 감사 로그를 검색 하려면 몇 가지 작업을 수행 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="eb5d0-122">There's few things you have to do before you can search the Office 365 audit log.</span></span>
+<span data-ttu-id="03139-122">Office 365 감사 로그를 검색 하려면 몇 가지 작업을 수행 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="03139-122">There's few things you have to do before you can search the Office 365 audit log.</span></span>
   
-- <span data-ttu-id="eb5d0-123">검색할 수 있는 이벤트 기록을 시작 하려면 [감사 로그 검색 켜기를 설정](turn-audit-log-search-on-or-off.md) 합니다.</span><span class="sxs-lookup"><span data-stu-id="eb5d0-123">[Turn on audit log search](turn-audit-log-search-on-or-off.md) to start recording events that you can search for</span></span> 
+- <span data-ttu-id="03139-123">검색할 수 있는 이벤트 기록을 시작 하려면 [감사 로그 검색 켜기를 설정](turn-audit-log-search-on-or-off.md) 합니다.</span><span class="sxs-lookup"><span data-stu-id="03139-123">[Turn on audit log search](turn-audit-log-search-on-or-off.md) to start recording events that you can search for</span></span> 
     
-- <span data-ttu-id="eb5d0-124">사서함 관련 이벤트를 검색할 수 있도록 [사서함 감사를 사용 하도록 설정](enable-mailbox-auditing.md) 합니다. 사용자가 사서함에 로그인 하거나 복구 가능한 항목 폴더에서 항목을 제거 하는 경우와 같이</span><span class="sxs-lookup"><span data-stu-id="eb5d0-124">[Enable mailbox auditing](enable-mailbox-auditing.md) so you can search for mailbox-related events; such as when a user signs in to their mailbox or purges items from their Recoverable Items folder</span></span> 
+- <span data-ttu-id="03139-124">사서함 관련 이벤트를 검색할 수 있도록 [사서함 감사를 사용 하도록 설정](enable-mailbox-auditing.md) 합니다. 사용자가 사서함에 로그인 하거나 복구 가능한 항목 폴더에서 항목을 제거 하는 경우와 같이</span><span class="sxs-lookup"><span data-stu-id="03139-124">[Enable mailbox auditing](enable-mailbox-auditing.md) so you can search for mailbox-related events; such as when a user signs in to their mailbox or purges items from their Recoverable Items folder</span></span> 
     
- ## <a name="search-the-audit-log"></a><span data-ttu-id="eb5d0-125">감사 로그 검색</span><span class="sxs-lookup"><span data-stu-id="eb5d0-125">Search the audit log</span></span>
+ ## <a name="search-the-audit-log"></a><span data-ttu-id="03139-125">감사 로그 검색</span><span class="sxs-lookup"><span data-stu-id="03139-125">Search the audit log</span></span>
   
-<span data-ttu-id="eb5d0-126">감사를 설정한 후에는 여러 Office 365 서비스에서 수백 개의 개별 이벤트 유형을 검색 합니다.</span><span class="sxs-lookup"><span data-stu-id="eb5d0-126">After you turn on auditing, you search for hundreds of individual types of events from multiple Office 365 services.</span></span>
+<span data-ttu-id="03139-126">감사를 설정한 후에는 여러 Office 365 서비스에서 수백 개의 개별 이벤트 유형을 검색 합니다.</span><span class="sxs-lookup"><span data-stu-id="03139-126">After you turn on auditing, you search for hundreds of individual types of events from multiple Office 365 services.</span></span>
   
-- <span data-ttu-id="eb5d0-127">사용자 및 관리 작업에 대 한 [감사 로그 검색](search-the-audit-log-in-security-and-compliance.md)</span><span class="sxs-lookup"><span data-stu-id="eb5d0-127">[Search the audit log](search-the-audit-log-in-security-and-compliance.md) for user and admin activities</span></span> 
+- <span data-ttu-id="03139-127">사용자 및 관리 작업에 대 한 [감사 로그 검색](search-the-audit-log-in-security-and-compliance.md)</span><span class="sxs-lookup"><span data-stu-id="03139-127">[Search the audit log](search-the-audit-log-in-security-and-compliance.md) for user and admin activities</span></span> 
     
-- <span data-ttu-id="eb5d0-128">검색 결과에 포함 된 각 감사 레코드의 [자세한 속성 이해](detailed-properties-in-the-office-365-audit-log.md)</span><span class="sxs-lookup"><span data-stu-id="eb5d0-128">[Understand the detailed properties](detailed-properties-in-the-office-365-audit-log.md) in each auditing record included in the search results</span></span> 
+- <span data-ttu-id="03139-128">검색 결과에 포함 된 각 감사 레코드의 [자세한 속성 이해](detailed-properties-in-the-office-365-audit-log.md)</span><span class="sxs-lookup"><span data-stu-id="03139-128">[Understand the detailed properties](detailed-properties-in-the-office-365-audit-log.md) in each auditing record included in the search results</span></span> 
     
-- <span data-ttu-id="eb5d0-129">관리자 및 준수 관리자가 수행한 [eDiscovery 관련 활동 검색](search-for-ediscovery-activities-in-the-audit-log.md)</span><span class="sxs-lookup"><span data-stu-id="eb5d0-129">[Search for eDiscovery-related activities](search-for-ediscovery-activities-in-the-audit-log.md) performed by admins and compliance managers</span></span> 
+- <span data-ttu-id="03139-129">관리자 및 준수 관리자가 수행한 [eDiscovery 관련 활동 검색](search-for-ediscovery-activities-in-the-audit-log.md)</span><span class="sxs-lookup"><span data-stu-id="03139-129">[Search for eDiscovery-related activities](search-for-ediscovery-activities-in-the-audit-log.md) performed by admins and compliance managers</span></span> 

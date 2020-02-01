@@ -1,5 +1,7 @@
 ---
 title: Office 365에서 사용자 스팸 알림을 사용하여 격리된 메시지 릴리스 및 보고
+f1.keywords:
+- NOCSH
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
@@ -16,38 +18,38 @@ ms.assetid: 56de4ed5-b0aa-4195-9f46-033d7cc086bc
 ms.collection:
 - M365-security-compliance
 description: 관리자가 사용자에 게 알림을 사용 하도록 설정 하는 경우 사서함에 전송 된 메시지를 스팸, 대량 또는 피싱 메시지로 식별 하는 알림 메시지가 표시 됩니다. 알림을 받은 후에는 메시지를 해제 하거나 보고할 수 있습니다.
-ms.openlocfilehash: fbe8a09f7da5df2df4b3b68bd524fa3ef2ed18b8
-ms.sourcegitcommit: 3f8957ddd04b8710bb5f314a0902fdee50c7c9b7
+ms.openlocfilehash: c9cd0849f826e66411695a3758f271ec70d24c9b
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "41572664"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41598025"
 ---
-# <a name="use-user-spam-notifications-to-release-and-report-quarantined-messages-in-office-365"></a><span data-ttu-id="eeb1c-104">Office 365에서 사용자 스팸 알림을 사용하여 격리된 메시지 릴리스 및 보고</span><span class="sxs-lookup"><span data-stu-id="eeb1c-104">Use user spam notifications to release and report quarantined messages in Office 365</span></span>
+# <a name="use-user-spam-notifications-to-release-and-report-quarantined-messages-in-office-365"></a><span data-ttu-id="e72d9-104">Office 365에서 사용자 스팸 알림을 사용하여 격리된 메시지 릴리스 및 보고</span><span class="sxs-lookup"><span data-stu-id="e72d9-104">Use user spam notifications to release and report quarantined messages in Office 365</span></span>
 
-<span data-ttu-id="eeb1c-105">관리자가 사용자에 대 한 스팸 알림을 사용 하도록 설정 하는 경우 사서함으로 주소가 지정 되어 스팸으로 식별 되 고 대신 격리 된 메시지를 나열 하는 알림 메시지가 수신 됩니다.</span><span class="sxs-lookup"><span data-stu-id="eeb1c-105">If your admin enables spam notifications for users, you'll receive a notification message that lists messages addressed to your mailbox that were identified as spam and quarantined instead.</span></span>
+<span data-ttu-id="e72d9-105">관리자가 사용자에 대 한 스팸 알림을 사용 하도록 설정 하는 경우 사서함으로 주소가 지정 되어 스팸으로 식별 되 고 대신 격리 된 메시지를 나열 하는 알림 메시지가 수신 됩니다.</span><span class="sxs-lookup"><span data-stu-id="e72d9-105">If your admin enables spam notifications for users, you'll receive a notification message that lists messages addressed to your mailbox that were identified as spam and quarantined instead.</span></span>
 
 > [!TIP]
-> <span data-ttu-id="eeb1c-106">관리자가이 기능을 사용 하도록 설정 하려는 경우에는 [기본 스팸 방지 정책을 수정](configure-your-spam-filter-policies.md)하는 경우 옵션을 선택할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="eeb1c-106">If you're an administrator and want to enable this feature, you can choose the option when you [modify a default anti-spam policy](configure-your-spam-filter-policies.md).</span></span>
+> <span data-ttu-id="e72d9-106">관리자가이 기능을 사용 하도록 설정 하려는 경우에는 [기본 스팸 방지 정책을 수정](configure-your-spam-filter-policies.md)하는 경우 옵션을 선택할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e72d9-106">If you're an administrator and want to enable this feature, you can choose the option when you [modify a default anti-spam policy](configure-your-spam-filter-policies.md).</span></span>
 
-<span data-ttu-id="eeb1c-107">수신 되는 메시지에는 스팸 격리 된 메시지의 수와 목록에 있는 마지막 메시지의 날짜와 시간 (utc (Universal 협정 세계시))이 포함 됩니다.</span><span class="sxs-lookup"><span data-stu-id="eeb1c-107">The message you receive includes the number of spam-quarantined messages you have, and the date and time (in Universal Coordinated Time or UTC) of the last message in the list.</span></span> <span data-ttu-id="eeb1c-108">이 목록에는 각 메시지에 대 한 다음이 포함 됩니다.</span><span class="sxs-lookup"><span data-stu-id="eeb1c-108">The list includes the following for each message:</span></span>
+<span data-ttu-id="e72d9-107">수신 되는 메시지에는 스팸 격리 된 메시지의 수와 목록에 있는 마지막 메시지의 날짜와 시간 (utc (Universal 협정 세계시))이 포함 됩니다.</span><span class="sxs-lookup"><span data-stu-id="e72d9-107">The message you receive includes the number of spam-quarantined messages you have, and the date and time (in Universal Coordinated Time or UTC) of the last message in the list.</span></span> <span data-ttu-id="e72d9-108">이 목록에는 각 메시지에 대 한 다음이 포함 됩니다.</span><span class="sxs-lookup"><span data-stu-id="e72d9-108">The list includes the following for each message:</span></span>
 
-- <span data-ttu-id="eeb1c-109">**보낸 사람** 격리 된 메시지의 보내기 이름 및 전자 메일 주소입니다.</span><span class="sxs-lookup"><span data-stu-id="eeb1c-109">**Sender** The send name and email address of the quarantined message.</span></span>
+- <span data-ttu-id="e72d9-109">**보낸 사람** 격리 된 메시지의 보내기 이름 및 전자 메일 주소입니다.</span><span class="sxs-lookup"><span data-stu-id="e72d9-109">**Sender** The send name and email address of the quarantined message.</span></span>
 
-- <span data-ttu-id="eeb1c-110">**제목** 격리된 메시지의 제목 줄 텍스트입니다.</span><span class="sxs-lookup"><span data-stu-id="eeb1c-110">**Subject** The subject line text of the quarantined message.</span></span>
+- <span data-ttu-id="e72d9-110">**제목** 격리된 메시지의 제목 줄 텍스트입니다.</span><span class="sxs-lookup"><span data-stu-id="e72d9-110">**Subject** The subject line text of the quarantined message.</span></span>
 
-- <span data-ttu-id="eeb1c-111">**날짜** 메시지가 격리된 날짜와 시간(UTC)입니다.</span><span class="sxs-lookup"><span data-stu-id="eeb1c-111">**Date** The date and time (in UTC) that the message was quarantined.</span></span>
+- <span data-ttu-id="e72d9-111">**날짜** 메시지가 격리된 날짜와 시간(UTC)입니다.</span><span class="sxs-lookup"><span data-stu-id="e72d9-111">**Date** The date and time (in UTC) that the message was quarantined.</span></span>
 
-<span data-ttu-id="eeb1c-112">격리 된 메시지를 사용 하 여 수행할 수 있는 작업은 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="eeb1c-112">These are the actions that you can take with a quarantined message:</span></span>
+<span data-ttu-id="e72d9-112">격리 된 메시지를 사용 하 여 수행할 수 있는 작업은 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="e72d9-112">These are the actions that you can take with a quarantined message:</span></span>
 
-- <span data-ttu-id="eeb1c-113">Office 365에서 수신 거부 목록에 보낸 사람을 추가 하려는 경우 **보낸 사람을 차단** 합니다.</span><span class="sxs-lookup"><span data-stu-id="eeb1c-113">**Block Sender** if you want Office 365 to add the sender to your blocked senders list.</span></span>
+- <span data-ttu-id="e72d9-113">Office 365에서 수신 거부 목록에 보낸 사람을 추가 하려는 경우 **보낸 사람을 차단** 합니다.</span><span class="sxs-lookup"><span data-stu-id="e72d9-113">**Block Sender** if you want Office 365 to add the sender to your blocked senders list.</span></span>
 
-- <span data-ttu-id="eeb1c-114">메시지가 스팸으로 아니면 Office 365에서 사서함으로 메시지를 보내도록 하려면 **릴리스** 를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="eeb1c-114">**Release** if the message isn't spam and you want Office 365 to send the message to your mailbox.</span></span>
+- <span data-ttu-id="e72d9-114">메시지가 스팸으로 아니면 Office 365에서 사서함으로 메시지를 보내도록 하려면 **릴리스** 를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="e72d9-114">**Release** if the message isn't spam and you want Office 365 to send the message to your mailbox.</span></span>
 
-- <span data-ttu-id="eeb1c-115">Preview 또는 Release와 같은 다른 작업을 수행 하려는 경우 보안 및 준수 센터 내의 격리 포털로 이동 하는 방법을 **검토** 합니다.</span><span class="sxs-lookup"><span data-stu-id="eeb1c-115">**Review** to navigate to the Quarantine Portal within the Security and Compliance Center if you want to take other actions, such as Preview or Release.</span></span>
+- <span data-ttu-id="e72d9-115">Preview 또는 Release와 같은 다른 작업을 수행 하려는 경우 보안 및 준수 센터 내의 격리 포털로 이동 하는 방법을 **검토** 합니다.</span><span class="sxs-lookup"><span data-stu-id="e72d9-115">**Review** to navigate to the Quarantine Portal within the Security and Compliance Center if you want to take other actions, such as Preview or Release.</span></span>
 
-<span data-ttu-id="eeb1c-116">다음에 대해 숙지 합니다.</span><span class="sxs-lookup"><span data-stu-id="eeb1c-116">Be aware of the following:</span></span>
+<span data-ttu-id="e72d9-116">다음에 대해 숙지 합니다.</span><span class="sxs-lookup"><span data-stu-id="e72d9-116">Be aware of the following:</span></span>
 
-- <span data-ttu-id="eeb1c-117">메일 흐름 규칙과 일치 하기 때문에 격리 된 메시지는 사용자 격리 된 메시지에 포함 되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="eeb1c-117">Messages that are quarantined because they matched a mail flow rule are not included in user quarantined messages.</span></span> <span data-ttu-id="eeb1c-118">스팸 격리된 메시지만 나열됩니다.</span><span class="sxs-lookup"><span data-stu-id="eeb1c-118">Only spam-quarantined messages are listed.</span></span>
+- <span data-ttu-id="e72d9-117">메일 흐름 규칙과 일치 하기 때문에 격리 된 메시지는 사용자 격리 된 메시지에 포함 되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="e72d9-117">Messages that are quarantined because they matched a mail flow rule are not included in user quarantined messages.</span></span> <span data-ttu-id="e72d9-118">스팸 격리된 메시지만 나열됩니다.</span><span class="sxs-lookup"><span data-stu-id="e72d9-118">Only spam-quarantined messages are listed.</span></span>
 
-- <span data-ttu-id="eeb1c-119">메시지를 릴리스하고 가양성으로(정크 아님) 한 번만 보고할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="eeb1c-119">You can only release a message and report it as a false positive (not junk) once.</span></span>
+- <span data-ttu-id="e72d9-119">메시지를 릴리스하고 가양성으로(정크 아님) 한 번만 보고할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="e72d9-119">You can only release a message and report it as a false positive (not junk) once.</span></span>
