@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: aa93ea90748f4beeb7a6d2ad6f537b098f19376c
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 734621d9017c21822043ff8c1beb82044ec8c860
+ms.sourcegitcommit: a6686a68b068adec29b72f998ac9bc95992981df
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602305"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628104"
 ---
 # <a name="health-information-trust-alliance-hitrust-common-security-framework-csf"></a>Health Information Trust 제휴 (HITRUST) 일반 보안 프레임 워크 (CSF)
 
@@ -56,7 +56,7 @@ Azure 및 Office 365의 HITRUST CSF 인증은 2 년 동안 유효 합니다.
 
 Azure 보안 및 규정 준수 청사진 (HIPAA/HITRUST Health Data and AI)을 사용 하 여 상태 데이터 솔루션에 대 한 클라우드의 이점을 활용할 수 있는 방법을 알아봅니다. 이 청사진은 지금 HIPAA/HITRUST 솔루션을 작성할 수 있는 도구와 지침을 제공 합니다.
 
-[Azure HIPAA/HITRUST 청사진 사용 시작](https://go.microsoft.com/fwlink/p/?linkid=2100613)
+[Azure HIPAA/HITRUST 청사진 사용 시작](https://docs.microsoft.com/azure/governance/blueprints/samples/hipaa-hitrust/)
 
 ## <a name="accelerate-your-hipaahitrust-compliance-when-using-office-365"></a>Office 365을 사용할 때 HIPAA/HITRUST 준수 속도 향상
 

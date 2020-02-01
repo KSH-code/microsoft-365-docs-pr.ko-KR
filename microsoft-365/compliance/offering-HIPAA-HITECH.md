@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 5ec30692d5721c316c205cf8b561e59cd6e65e0b
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 9224261cd0700796bdeccd35b68995c99300e591
+ms.sourcegitcommit: a6686a68b068adec29b72f998ac9bc95992981df
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602315"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628095"
 ---
 # <a name="health-insurance-portability-and-accountability-hipaa--hitech-acts"></a>HITECH의 상태 보험 이식성 및 책임 (HIPAA) &
 
@@ -70,7 +70,7 @@ Microsoft 클라우드에서 HIPAA 및 HITECH의 장점 [(Zwanger-Pesiri Radiolo
 
 Azure 보안 및 규정 준수 청사진 (HIPAA/HITRUST Health Data and AI)을 사용 하 여 상태 데이터 솔루션에 대 한 클라우드의 이점을 활용할 수 있는 방법을 알아봅니다. 이 청사진은 지금 HIPAA/HITRUST 솔루션을 작성할 수 있는 도구와 지침을 제공 합니다.
 
-[Azure HIPAA/HITRUST 청사진 사용 시작](https://aka.ms/healthblueprint)
+[Azure HIPAA/HITRUST 청사진 사용 시작](https://docs.microsoft.com/azure/governance/blueprints/samples/hipaa-hitrust/)
 
 ## <a name="frequently-asked-questions"></a>자주하는 질문
 
