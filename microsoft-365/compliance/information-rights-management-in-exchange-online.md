@@ -1,5 +1,7 @@
 ---
 title: AD RMS를 사용하여 Exchange Online 메일 암호화
+f1.keywords:
+- NOCSH
 ms.author: krowley
 author: kccross
 manager: laurawi
@@ -12,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: 2c956776-0016-4be6-b4cd-133a237f4a9e
 description: 필요한 경우 조직 요구 사항을 충족 하기 위해 온-프레미스 AD RMS (Active Directory Rights Management Service)를 사용 하도록 Exchange Online IRM을 구성할 수 있습니다. 이는 일반적인 것이 아닙니다. AD RMS를 사용 해야 하는 요구 사항이 없는 경우에는 Office 메시지 암호화를 대신 사용 합니다.
-ms.openlocfilehash: 1c3bdf02f31f57f1328f0244d539d0dc88e7ba89
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 24a86ad9b1a1f3bbd67e194143fa02cb4040a47e
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38687062"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41600655"
 ---
 # <a name="exchange-online-mail-encryption-with-ad-rms"></a>AD RMS를 사용하여 Exchange Online 메일 암호화
 

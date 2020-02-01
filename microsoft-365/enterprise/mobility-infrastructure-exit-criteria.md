@@ -3,6 +3,8 @@ title: 모바일 장치 관리 인프라 종료 조건
 description: Microsoft 365 Enterprise는 Microsoft Intune을 사용 하는 모바일 장치 관리를 포함 합니다. 요구 사항 및 필수 구성 요소를 검토 하 고, Azure Active Directory 리소스를 사용 하 여 Intune을 설정 하 고, iOS, macOS, Android 및 Windows 장치를 등록 하 고, 앱을 배포 하 고, 프로필 구성, 준수 정책을 사용 하 고, 모바일에 조건부 액세스 사용 Microsoft 365 Enterprise를 사용한 장치 관리
 keywords: Microsoft 365, Microsoft 365 Enterprise, Microsoft 365 설명서, 모바일 장치 관리, Intune
 author: JoeDavies-MSFT
+f1.keywords:
+- NOCSH
 ms.author: josephd
 manager: laurawi
 ms.date: 10/03/2019
@@ -13,16 +15,16 @@ ms.technology: ''
 ms.assetid: fb4182e6-5e78-45d0-9641-d791c4519441
 audience: ITPro
 ms.custom: microsoft-intune
-ms.openlocfilehash: e8f8f53224b334f92142e2c03ed05eaa9e38787a
-ms.sourcegitcommit: d4aa94716b33e6c270ae7adfbdc4c19cf4a0087d
+ms.openlocfilehash: daf7bcf6525f30b7b52065e4f6bf2ff335f4ea4b
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/03/2019
-ms.locfileid: "37385725"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41600885"
 ---
 # <a name="mobile-device-management-infrastructure-exit-criteria"></a>모바일 장치 관리 인프라 종료 조건
 
-![단계 5: 모바일 장치 관리](./media/deploy-foundation-infrastructure/mobiledevicemgmt_icon-small.png)
+![5단계: 모바일 디바이스 관리](./media/deploy-foundation-infrastructure/mobiledevicemgmt_icon-small.png)
 
 *이는 Microsoft 365 Enterprise E3 및 E5 버전에 적용 됩니다.*
 

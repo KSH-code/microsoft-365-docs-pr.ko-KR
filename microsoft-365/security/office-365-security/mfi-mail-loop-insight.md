@@ -1,5 +1,7 @@
 ---
 title: 메일 루프 파악
+f1.keywords:
+- NOCSH
 ms.author: chrisda
 author: chrisda
 manager: dansimp
@@ -9,12 +11,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: cb801985-3c89-4979-9c18-17829a4cb563
 description: 관리자는 보안 & 준수 센터의 메일 흐름 대시보드에서 메일 루프 통찰력에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: 58a843f20723fce8b19f9381a9e99b622c68cb45
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: ca1c877bcfee686baf0f81edd58e20c87ffd7540
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37089091"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41598875"
 ---
 # <a name="mail-loop-insight"></a>메일 루프 파악
 

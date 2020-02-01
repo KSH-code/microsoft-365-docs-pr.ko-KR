@@ -1,5 +1,7 @@
 ---
 title: Office 365에서 법적 조사 관리
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -13,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 2e5fbe9f-ee4d-4178-8ff8-4356bc1b168e
 description: 조직의 법적 조사를 관리 하려면 Office 365의 보안 & 준수 센터에서 eDiscovery 사례를 사용 합니다. E5 구독이 있는 경우에는 고급 eDiscovery의 텍스트 분석, 기계 학습 및 예측 코딩 기능을 사용 하 여 사례 데이터를 보다 자세히 분석할 수 있습니다.
-ms.openlocfilehash: ce476c93e9c33d949c5615f872b8399a97420bba
-ms.sourcegitcommit: 31392b9599f4b4e9981a1278d6beb9f0a2839ecf
+ms.openlocfilehash: f3d51fbd0df6d4bf4c88f5efef53a3c7f11e190c
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/14/2019
-ms.locfileid: "38686962"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41600535"
 ---
 # <a name="manage-legal-investigations-in-office-365"></a>Office 365에서 법적 조사 관리
 
@@ -52,7 +54,7 @@ Microsoft 365의 고급 eDiscovery 솔루션은 Office 365의 기존 eDiscovery 
 
 고급 eDiscovery를 사용 하려면 Office 365 또는 Microsoft 365 조 직에 대 한 E5 구독이 필요 합니다. 또는 E3 라이선스를 사용 하는 사용자는 고급 eDiscovery 사례에서 custodians으로 관리할 수 있도록 고급 준수 추가 기능 구독을 필요로 합니다.
 
-다음은 Advanced eDiscovery의 기본 제공 워크플로에 대 한 간략 한 개요입니다. 자세한 내용은 [Microsoft 365의 고급 eDiscovery 솔루션 개요](overview-ediscovery-20.md)를 참조 하세요.
+다음은 Advanced eDiscovery의 기본 제공 워크플로에 대 한 간략 한 개요입니다. 자세한 내용은 M[icrosoft 365의 고급 eDiscovery 솔루션 개요](overview-ediscovery-20.md)를 참조하세요.
 
 - 시작 하려면 [사례 만들기](create-new-ediscovery-case.md)
 

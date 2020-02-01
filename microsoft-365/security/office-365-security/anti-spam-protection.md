@@ -1,5 +1,7 @@
 ---
 title: Office 365 전자 메일 스팸 방지 보호
+f1.keywords:
+- NOCSH
 ms.author: krowley
 author: kccross
 manager: dansimp
@@ -15,12 +17,12 @@ ms.assetid: 6a601501-a6a8-4559-b2e7-56b59c96a586
 ms.collection:
 - M365-security-compliance
 description: Exchange Online 및 Office 365에서 스팸을 방지 하는 데 도움이 되는 스팸 방지 설정 및 필터에 대해 알아봅니다. Office 365에서 너무 많은 스팸 받기 스팸 필터 및 스팸 방지 정책 설정을 사용자 지정할 수 있습니다.
-ms.openlocfilehash: 33a1415306dcfc635e6c5608f3834b79932d9420
-ms.sourcegitcommit: a122fd1fce523171529c7f610bb7faf09d30a8bb
+ms.openlocfilehash: b7ffb29d09a357cc0a2e407d1a66f29273fc950f
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/18/2020
-ms.locfileid: "41238535"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41599865"
 ---
 # <a name="office-365-email-anti-spam-protection"></a>Office 365 전자 메일 스팸 방지 보호
 

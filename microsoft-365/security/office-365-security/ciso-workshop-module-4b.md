@@ -1,5 +1,7 @@
 ---
 title: '최고 정보 보안 담당자 (CISO) 워크숍, 모듈 4b: 위협 보호 전략'
+f1.keywords:
+- NOCSH
 ms.author: dansimp
 author: dansimp
 manager: dansimp
@@ -10,12 +12,12 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: 조직의 현대화 보안에 대 한 보안 원칙 및 권장 사항에 대해 자세히 알아보세요.
-ms.openlocfilehash: 88cb6ab079afcd420202f5cca47f555895d0d46a
-ms.sourcegitcommit: 99a79b0ed3126fa17970481fb768414279e839c0
+ms.openlocfilehash: 38f7a1af7592801a97fd8b5156dcbfaa1c5ebfdf
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37517507"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41599685"
 ---
 # <a name="ciso-workshop-module-4b-threat-protection-strategy"></a>CISO 워크숍 모듈 4b: 위협 방지 전략 
 

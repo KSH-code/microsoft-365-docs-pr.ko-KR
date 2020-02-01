@@ -5,6 +5,8 @@ author: BrendaCarter
 manager: johmar
 ms.prod: microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: bcarter
 ms.reviewer: martincoetzer
 ms.custom:
@@ -13,12 +15,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: 4ef679ed6fef217be112317d03d12c007b1375fd
-ms.sourcegitcommit: 7c977771fc295ca1e4e9b16a6d05faee8edeadad
+ms.openlocfilehash: ca9b752f55ebe3fecec4f312bc89b45d99cf0d7d
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37913358"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41601055"
 ---
 # <a name="policies-for-allowing-guest-and-external-b2b-access"></a>게스트 및 외부 B2B 액세스를 허용 하기 위한 정책
 이 문서에서는 B2B 계정 액세스 (게스트 및 외부 사용자)를 허용 하도록 권장 되는 일반 id 및 장치 액세스 정책을 조정 하는 방법에 대해 설명 합니다. 이 지침은 [일반 id 및 장치 액세스 정책을](identity-access-policies.md)기반으로 합니다.
@@ -37,9 +39,9 @@ B2B 사용자가 Azure AD 테 넌 트를 사용 하 여 인증할 수 있도록 
 
 |보호 수준|정책도|추가 정보|
 |:---------------|:-------|:----------------|
-|**기준**|[게스트 및 외부 사용자에 대 한 MFA 항상 필요](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|이 새 규칙을 만들어 게스트 및 외부 사용자 에게만 적용 합니다. 로그인 위험에서 항상 MFA를 적용 하도록 모든 옵션을 선택 하지 않은 상태로 유지 합니다.|
+|**기준선**|[게스트 및 외부 사용자에 대 한 MFA 항상 필요](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|이 새 규칙을 만들어 게스트 및 외부 사용자 에게만 적용 합니다. 로그인 위험에서 항상 MFA를 적용 하도록 모든 옵션을 선택 하지 않은 상태로 유지 합니다.|
 |        |[로그인 위험이 *보통* 또는 *높을* 때 MFA 필요](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|이 규칙을 수정 하 여 게스트 및 외부 사용자를 제외 합니다.|
-|        |[준수 Pc 필요](identity-access-policies.md#require-compliant-pcs-but-not-compliant-phones-and-tablets)|이 규칙을 수정 하 여 게스트 및 외부 사용자를 제외 합니다.|
+|        |[호환 PC 필요](identity-access-policies.md#require-compliant-pcs-but-not-compliant-phones-and-tablets)|이 규칙을 수정 하 여 게스트 및 외부 사용자를 제외 합니다.|
 
 조건부 액세스 규칙에 게스트 및 외부 사용자를 포함 하거나 제외 하려면 포함 또는 제외 탭을 클릭 하 고 **모든 게스트 및 외부 사용자**를 확인 합니다.
 

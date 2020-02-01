@@ -1,5 +1,7 @@
 ---
 title: '주요 정보 보안 담당자 (CISO) 워크숍, 모듈 2: 보안 관리'
+f1.keywords:
+- NOCSH
 ms.author: dansimp
 author: dansimp
 manager: dansimp
@@ -10,12 +12,12 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: 조직의 현대화 보안에 대 한 보안 원칙 및 권장 사항에 대해 자세히 알아보세요.
-ms.openlocfilehash: 4b1403b35c9cea10c87f528c6f09c2948f316f27
-ms.sourcegitcommit: 99a79b0ed3126fa17970481fb768414279e839c0
+ms.openlocfilehash: ebe1797e0a6a4b7f8bafa28b57feedbd96324093
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/15/2019
-ms.locfileid: "37517587"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41599715"
 ---
 # <a name="ciso-workshop-module-2-security-management"></a>CISO 워크숍 모듈 2: 보안 관리 
 

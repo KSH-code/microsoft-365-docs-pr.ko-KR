@@ -1,5 +1,7 @@
 ---
-title: 아웃 바운드 메시지에 대 한 위험성이 높은 배달 풀
+title: 아웃바운드 메시지용 높은 위험 배달 풀
+f1.keywords:
+- NOCSH
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
@@ -14,14 +16,14 @@ ms.assetid: ac11edd9-2da3-462d-8ea3-bbf9dbc6f948
 ms.collection:
 - M365-security-compliance
 description: 고객의 전자 메일 시스템이 맬웨어 또는 악성 스팸 공격에 의해 손상 되 고 호스팅된 필터링 서비스를 통해 아웃 바운드 스팸 메일을 보내는 경우이로 인해 타사 블록에 나열 되는 Office 365 데이터 센터 서버의 IP 주소가 생성 될 수 있습니다. 주고.
-ms.openlocfilehash: 5b9241dead5b40e9f216ecd3023d6f8b86fb0205
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 19987ae74b9c78a796ddb5f13cf8291a5ed269ad
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37087854"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41599235"
 ---
-# <a name="high-risk-delivery-pool-for-outbound-messages"></a>아웃 바운드 메시지에 대 한 위험성이 높은 배달 풀
+# <a name="high-risk-delivery-pool-for-outbound-messages"></a>아웃바운드 메시지용 높은 위험 배달 풀
 
 고객의 전자 메일 시스템이 맬웨어 또는 악성 스팸 공격에 의해 손상 되 고 호스팅된 필터링 서비스를 통해 아웃 바운드 스팸 메일을 보내는 경우이로 인해 타사 블록에 나열 되는 Office 365 데이터 센터 서버의 IP 주소가 생성 될 수 있습니다. 주고. 호스트 필터링 서비스를 사용 하지 않지만 이러한 차단 목록을 사용 하 여 해당 목록에 추가 된 호스트 필터링 IP 주소에서 보낸 모든 전자 메일은 거부 하는 대상 서버입니다. 이를 방지 하기 위해 스팸 임계값을 초과 하는 모든 아웃 바운드 메시지는 위험성이 높은 배달 풀을 통해 전송 됩니다. 이 보조 아웃 바운드 전자 메일 풀은 저품질 일 수 있는 메시지를 보내는 데만 사용 됩니다. 이렇게 하면 네트워크의 나머지 부분에서 보내는 IP 주소가 차단 될 가능성이 높은 메시지가 전송 되지 않도록 할 수 있습니다.
   
@@ -49,6 +51,6 @@ DSN 메시지가 갑자기 증가하는 경우의 가능한 원인은 다음과 
 
 [아웃바운드 스팸 정책 구성](configure-the-outbound-spam-policy.md)
   
-[스팸 방지 보호 기능 FAQ](anti-spam-protection-faq.md)
+[스팸 방지 및 보호 FAQ](anti-spam-protection-faq.md)
   
 

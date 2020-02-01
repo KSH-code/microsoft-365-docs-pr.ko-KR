@@ -5,6 +5,8 @@ keywords: 보안, 맬웨어, Microsoft 365, M365, 보안 점수, 보안 센터, 
 ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
 ms.localizationpriority: medium
+f1.keywords:
+- NOCSH
 ms.author: ellevin
 author: levinec
 manager: dansimp
@@ -15,12 +17,12 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 65497522907a4bfc8e2e3d55ccd3a82cde9b8bb7
-ms.sourcegitcommit: 48a45b0d2c60d4d79669174f462603a43f272875
+ms.openlocfilehash: aeae243b4e363f69729ccdbd2bc3fc465ec1449b
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/18/2020
-ms.locfileid: "41233889"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41600175"
 ---
 # <a name="microsoft-secure-score"></a>Microsoft 보안 점수
 
@@ -70,7 +72,7 @@ Microsoft 보안 점수에 액세스할 수 있는 권한을 부여 하려면 Az
 읽기 전용 액세스 권한을 사용 하면 향상 작업에 대 한 상태나 메모를 편집 하거나, 점수 영역을 편집 하거나, 사용자 지정 비교를 편집할 수 없습니다.
 
 * 헬프데스크 관리자
-* User administrator
+* 사용자 관리자
 * 서비스 관리자
 * 보안 읽기 권한자
 * 보안 운영자

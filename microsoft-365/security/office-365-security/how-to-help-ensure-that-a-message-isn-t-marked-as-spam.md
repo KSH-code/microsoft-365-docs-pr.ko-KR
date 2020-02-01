@@ -1,5 +1,7 @@
 ---
 title: 메시지가 스팸으로 표시되지 않도록 하는 방법
+f1.keywords:
+- NOCSH
 ms.author: chrisda
 author: chrisda
 manager: dansimp
@@ -14,12 +16,12 @@ ms.assetid: ceeda109-6c24-4270-bd09-a36959417276
 ms.collection:
 - M365-security-compliance
 description: Exchange Online 또는 EOP (Exchange Online Protection) 관리자는 서비스를 통과 하는 전자 메일 메시지가 스팸으로 표시 되지 않도록 할 수 있습니다. 수신 허용 목록 또는 기타 기법을 사용 하 여 스팸으로 표시 된 거짓 긍정 전자 메일을 방지 하려면 업데이트 된 버전의 팁과 절차를 참조 하세요.
-ms.openlocfilehash: d47c4c4dfdc9570ef12ce060c8b08969c6d43cec
-ms.sourcegitcommit: a122fd1fce523171529c7f610bb7faf09d30a8bb
+ms.openlocfilehash: cb84df8eddc8914c562118166294e8a8f4aac714
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/18/2020
-ms.locfileid: "41238525"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41599165"
 ---
 # <a name="how-to-help-ensure-that-a-message-isnt-marked-as-spam"></a>메시지가 스팸으로 표시되지 않도록 하는 방법
 

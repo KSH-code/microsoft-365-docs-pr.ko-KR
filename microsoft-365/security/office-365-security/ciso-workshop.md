@@ -1,5 +1,7 @@
 ---
 title: 주요 정보 보안 담당자 (CISO) 워크숍
+f1.keywords:
+- NOCSH
 ms.author: dansimp
 author: dansimp
 manager: dansimp
@@ -10,12 +12,12 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: 조직의 현대화 보안에 대 한 보안 원칙 및 권장 사항에 대해 자세히 알아보세요.
-ms.openlocfilehash: 9a6fc72cd905a99b555417269aa9f7ec84faef1f
-ms.sourcegitcommit: 3d37043c0447359c952dc99026c219dd69f6fb8d
+ms.openlocfilehash: 7377eb0bedf86e69618a82a05a7f048cc9b1cde7
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "38012423"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41599655"
 ---
 # <a name="chief-information-security-officer-ciso-workshop-training"></a>최고 정보 보안 담당자 (CISO) 워크숍 교육
 
@@ -38,4 +40,4 @@ CISO를 통해 조직은 다음과 같은 두 가지 보안 문제를 충족할 
 
 - [모듈 4b: 위협 보호 전략, 제 2 부](ciso-workshop-module-4b.md):이 모듈은 Microsoft 지능형 보안 그래프의 신호 trillions에 따라 SOC (Security Operations center)의 진화 및 궤적을 검토 합니다.
 
-- [모듈 5: 정보 보호](ciso-workshop-module-5.md): 자동 분류, 장치 간의 지속적인 암호화 및 모바일 장치, 클라우드 서비스 및 기타 데이터에 대 한 지속적인 모니터링에 대 한 중요 한 정보를 보호 하는 방법을 알아봅니다. 회사 자산
+- [모듈 5: 정보 보호](ciso-workshop-module-5.md): 자동 분류, 장치 간의 영구 암호화 및 모바일 장치, 클라우드 서비스 및 기타 기업 자산의 지속적인 데이터 모니터링에 대 한 중요 한 정보를 보호 하는 방법에 대해 알아봅니다.

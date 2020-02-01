@@ -1,5 +1,7 @@
 ---
 title: Exchange Online Protection의 메일 흐름 규칙(전송 규칙)
+f1.keywords:
+- NOCSH
 ms.author: chrisda
 author: chrisda
 manager: dansimp
@@ -10,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 9c2cf227-eff7-48ef-87fb-487186e47363
 description: 메일 흐름 규칙 (전송 규칙)을 사용 하 여 Office 365 조직을 통해 전송 되는 메시지를 식별 하 고 작업을 수행할 수 있습니다.
-ms.openlocfilehash: 604e2c7cb0b2cc34021e6708ae9f08769e8e6e91
-ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
+ms.openlocfilehash: 42b55893a9884b547a0d2d36e901169153d290d7
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "39970344"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41599025"
 ---
 # <a name="mail-flow-rules-transport-rules-in-exchange-online-protection"></a>Exchange Online Protection의 메일 흐름 규칙(전송 규칙)
 

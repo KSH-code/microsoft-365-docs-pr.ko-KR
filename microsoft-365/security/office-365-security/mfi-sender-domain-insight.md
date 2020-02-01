@@ -1,5 +1,7 @@
 ---
 title: 보낸 사람 도메인 정보 문제 해결
+f1.keywords:
+- NOCSH
 ms.author: chrisda
 author: chrisda
 manager: dansimp
@@ -9,12 +11,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: ''
 description: 관리자는 보안 & 준수 센터의 메일 흐름 대시보드에서 보낸 사람 도메인에 대 한 정보를 수정 하는 방법에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: bda6482b2c9264337db9e95f84ff41ce08582363
-ms.sourcegitcommit: 84d88a857e82b1a8a0d466057a2e330e8b1692e4
+ms.openlocfilehash: 1b154f4aecd5ada711b9177380d936cd888df425
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37306152"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41598825"
 ---
 # <a name="fix-sender-domain-insight"></a>보낸 사람 도메인 정보 문제 해결
 
@@ -32,7 +34,7 @@ Office 365에서는 특정 보안 조건을 충족 하기 위해 내부 온-프�
 
 조건을 충족 하지 않는 메시지는 조직에 대 한 특성을 사용 하지 않으며 거부할 수 있습니다.
 
-**Fix sender domain** 통찰력은 온-프레미스 환경에서 조건을 충족 하지 않는 전자 메일을 표시 하 고, 온-프레미스 전자 메일 환경에서 잠재적으로 손상 된 컴퓨터와 사용자 계정을 식별 하 고, 작업을 수행 하는 데 도움이 됩니다. 수정 작업
+**Fix sender domain** 통찰력은 온-프레미스 환경에서 조건을 충족 하지 않는 전자 메일을 표시 하 고, 온-프레미스 전자 메일 환경에서 잠재적으로 손상 된 컴퓨터와 사용자 계정을 식별 하 고, 수정 작업을 수행 하는 데 도움이 됩니다.
 
 ![보안 & 준수 센터의 메일 흐름 대시보드에서 보낸 사람 도메인 통찰력 수정](../media/sender-domain-insight-selected.png)
 

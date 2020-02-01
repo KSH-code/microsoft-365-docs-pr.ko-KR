@@ -1,5 +1,7 @@
 ---
 title: 고급 스팸 필터링 옵션
+f1.keywords:
+- NOCSH
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
@@ -14,12 +16,12 @@ ms.assetid: b286f853-b484-4af0-b01f-281fffd85e7a
 ms.collection:
 - M365-security-compliance
 description: 관리자는 고급 스팸 필터링 옵션을 통해 메시지의 다양 한 콘텐츠 특성을 검사할 수 있습니다. 메시지에 이러한 특성이 있으면 메시지의 스팸 점수가 증가해 메시지가 스팸으로 식별될 가능성이 높아지거나, 메시지가 스팸으로 표시됩니다. ASP 옵션은 HTML 태그, URL 리디렉션 등 스팸 메시지에서 흔히 발견되는 특정 메시지 속성을 대상으로 합니다.
-ms.openlocfilehash: bfb559ece8a69f0d641cdb2ad552d7e831eda416
-ms.sourcegitcommit: 3eae8fe39cea912d29e211a1c9fd035d6b606f91
+ms.openlocfilehash: 07f2b32dac6ba4a04fbccac5f015be399f62e254
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "38793702"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41599965"
 ---
 # <a name="advanced-spam-filtering-options"></a>고급 스팸 필터링 옵션
 
@@ -30,7 +32,7 @@ ms.locfileid: "38793702"
   
 ASF 옵션을 사용하도록 설정하는 것은 적극적인 스팸 필터링 방식이며 이러한 옵션을 통해 필터링되는 메시지는 가양성으로 보고할 수 없습니다. 정기적인 최종 사용자 스팸 알림을 통해 이러한 메시지를 확인하여 스팸 격리에서 복구할 수 있습니다. ASF 옵션마다 고유하며 ASF 옵션과 일치하는 메시지의 인터넷 헤더에 나타나는 X-헤더 텍스트를 통해 식별할 수 도 있습니다. 자세한 내용은 [스팸 방지 메시지 헤더](anti-spam-message-headers.md)를 참조하세요.
   
-ASF 옵션은 설정/해제하거나 콘텐츠 필터 정책 편집 시에는 테스트 모드로 설정할 수 있습니다. 자세한 내용은 [스팸 필터 정책 구성을](configure-your-spam-filter-policies.md)참조 하세요. **NDR 백 분산**, **SPF 레코드: 하드 실패**, **조건부 보낸 사람 ID 필터링: hard fail**및 **대량 메일** 옵션에는 테스트 모드를 사용할 수 없습니다. 
+ASF 옵션은 설정/해제하거나 콘텐츠 필터 정책 편집 시에는 테스트 모드로 설정할 수 있습니다. 자세한 내용은 [스팸 필터 정책 구성을](configure-your-spam-filter-policies.md) 참조하세요. **NDR 백 분산**, **SPF 레코드: 하드 실패**, **조건부 보낸 사람 ID 필터링: hard fail**및 **대량 메일** 옵션에는 테스트 모드를 사용할 수 없습니다. 
   
 다음 표에서는 각 고급 스팸 필터링 옵션에 대해 설명합니다.
   

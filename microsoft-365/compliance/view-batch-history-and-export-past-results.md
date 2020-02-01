@@ -1,5 +1,7 @@
 ---
 title: Office 365 Advanced eDiscovery에서 일괄 처리 기록 보기 및 이전 결과 내보내기
+f1.keywords:
+- NOCSH
 ms.author: chrfox
 author: chrfox
 manager: laurawi
@@ -14,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 35d52b41-75ab-4144-9edf-31e11453bd5d
 description: '선택한 배치 내보내기 세션에 대 한 자세한 정보를 확인 하는 방법과 Office 365 Advanced eDiscovery에서 마지막 내보내기 세션을 실행 취소 하는 방법에 대해 알아봅니다.  '
-ms.openlocfilehash: 5e20fa787bcbb9dc6072af779326518d6a03aaa4
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 0309c84bb28f4034f3a0ec8726a21ca2a4b4f22f
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40802253"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41601265"
 ---
 # <a name="view-batch-history-and-export-past-results-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery에서 일괄 처리 기록 보기 및 이전 결과 내보내기
 

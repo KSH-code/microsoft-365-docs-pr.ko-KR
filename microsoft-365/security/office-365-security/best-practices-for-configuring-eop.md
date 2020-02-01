@@ -1,5 +1,7 @@
 ---
 title: EOP 및 Office 365 ATP 구성 모범 사례
+f1.keywords:
+- NOCSH
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
@@ -10,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: faf1efd1-3b0c-411a-804d-17f37292eac0
 description: 일반적인 구성 오류를 방지하고 구성 설정에 성공하려면 Exchange Online Protection EOP 모범 사례 권장 사항을 따르세요.
-ms.openlocfilehash: 3146cb9a5141dfe87e9f31791c107be296121126
-ms.sourcegitcommit: e27fe0d97b9c446b1cc80561f7190d08c12d9e0c
+ms.openlocfilehash: 053b5f551be528e7eedb3c218bb1e49ab6b8be91
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "39262701"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41599745"
 ---
 # <a name="best-practices-for-configuring-eop-and-office-365-atp"></a>EOP 및 Office 365 ATP 구성 모범 사례
 
@@ -37,7 +39,7 @@ Microsoft는 보안 관리자에 게 환경의 요구 사항을 satistfy 하는 
 
 이러한 설정은 보안 정책 밖에 있는 다양 한 기능을 포함 합니다.
 
-보안 기능 이름|표준을|항등|댓글|
+보안 기능 이름|표준을|항등|Comment|
 |---------|---------|---------|---------|
 |[스푸핑을 방지할 수 있도록 Office 365에서 SPF 설정](set-up-spf-in-office-365-to-help-prevent-spoofing.md)|예|예||
 |[DKIM을 사용하여 Office 365의 사용자 지정 도메인에서 전송한 아웃바운드 전자 메일의 유효성 검사](use-dkim-to-validate-outbound-email.md)|예|예||

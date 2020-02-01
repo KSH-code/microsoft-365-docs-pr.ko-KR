@@ -1,5 +1,7 @@
 ---
 title: '6단계: 전자 메일 암호화 구성'
+f1.keywords:
+- NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -14,18 +16,18 @@ ms.collection:
 - M365-security-compliance
 ms.custom: ''
 description: Office 365에 대한 권한이 부여된 액세스 관리를 이해하고 구성합니다.
-ms.openlocfilehash: ef9da1d6aea20ef965b56006d91c4da3c0ad18ab
-ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
+ms.openlocfilehash: 252a5f76197deb1034d200553308a281ef079957
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "37370435"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41600925"
 ---
 # <a name="step-6-configure-email-encryption"></a>6단계: 전자 메일 암호화 구성
 
 *이 단계는 선택 사항이며, Microsoft 365 Enterprise E3 및 E5 버전에 적용됩니다.*
 
-![6 단계: 정보 보호](./media/deploy-foundation-infrastructure/infoprotection_icon-small.png)
+![6단계: 정보 보호](./media/deploy-foundation-infrastructure/infoprotection_icon-small.png)
 
 Microsoft 365에는 세 가지 유형의 전자 메일 암호화가 있습니다.
 
@@ -79,4 +81,4 @@ S/MIME을 사용 하려면 각 받는 사람에 대 한 공개 키가 있어야 
 
 |||
 |:-------|:-----|
-|![7 단계](./media/stepnumbers/Step7.png)|[Office 365에 대한 권한 있는 액세스 관리 구성](infoprotect-configure-privileged-access-management.md)|
+|![7단계](./media/stepnumbers/Step7.png)|[Office 365에 대한 권한이 부여된 액세스 관리 구성](infoprotect-configure-privileged-access-management.md)|

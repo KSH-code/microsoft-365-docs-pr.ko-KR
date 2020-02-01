@@ -5,6 +5,8 @@ author: BrendaCarter
 manager: laurawi
 ms.prod: microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: bcarter
 ms.date: 06/07/2018
 ms.reviewer: martincoetzer
@@ -14,12 +16,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: 1d1f9dc70982a629126f82aaa6f62fed1cece08f
-ms.sourcegitcommit: bd487d36b04b8f8caf10900e8c5237f9ccf9e072
+ms.openlocfilehash: f0cd296157e1d4856c27d1dc547de045510e788b
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/24/2019
-ms.locfileid: "37654017"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41600765"
 ---
 # <a name="policy-recommendations-for-securing-sharepoint-sites-and-files"></a>SharePoint 사이트 및 파일을 보호 하기 위한 정책 권장 사항
 
@@ -43,10 +45,10 @@ ms.locfileid: "37654017"
 
 |보호 수준|정책도|추가 정보|
 |:---------------|:-------|:----------------|
-|**기준**|[로그인 위험이 *보통* 또는 *높을* 때 MFA 필요](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|클라우드 앱 할당에 SharePoint Online 포함|
-|        |[최신 인증을 지원 하지 않는 클라이언트 차단](identity-access-policies.md#block-clients-that-dont-support-modern-authentication)|클라우드 앱 할당에 SharePoint Online 포함|
+|**기준선**|[로그인 위험이 *보통* 또는 *높을* 때 MFA 필요](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|클라우드 앱 할당에 SharePoint Online 포함|
+|        |[최신 인증을 지원하지 않는 클라이언트 차단](identity-access-policies.md#block-clients-that-dont-support-modern-authentication)|클라우드 앱 할당에 SharePoint Online 포함|
 |        |[앱 보호 정책 정의](identity-access-policies.md#define-app-protection-policies)|모든 권장 앱이 앱 목록에 포함 되어 있는지 확인해 보십시오. 각 플랫폼의 정책 (iOS, Android, Windows)을 업데이트 해야 합니다.|
-|        |[준수 Pc 필요](identity-access-policies.md#require-compliant-pcs-but-not-compliant-phones-and-tablets)|클라우드 앱 목록에 SharePoint Online 포함|
+|        |[호환 PC 필요](identity-access-policies.md#require-compliant-pcs-but-not-compliant-phones-and-tablets)|클라우드 앱 목록에 SharePoint Online 포함|
 |        |[SharePoint Online에서 앱 적용 제한 사용](#use-app-enforced-restrictions-in-sharepoint-online)|새 정책을 추가 합니다. 이렇게 하면 Azure AD에서 SharePoint Online에 지정 된 설정을 사용 하 게 됩니다. 이 규칙은 모든 사용자에 게 적용 되지만 SharePoint Online access 정책에 포함 된 사이트에 대 한 액세스에만 영향을 줍니다.|
 |**중요**|[로그인 위험이 *낮은* *경우 MFA* 필요 **](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|클라우드 앱의 할당에 SharePoint Online 포함|
 |         |[준수 Pc *및* 모바일 장치 요구](identity-access-policies.md#require-compliant-pcs-and-mobile-devices)|클라우드 앱 목록에 SharePoint Online 포함|

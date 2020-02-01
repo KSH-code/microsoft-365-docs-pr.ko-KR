@@ -1,5 +1,7 @@
 ---
 title: EOP에서 받는 사람 및 관리자 역할 그룹 관리
+f1.keywords:
+- NOCSH
 ms.author: chrisda
 author: chrisda
 manager: dansimp
@@ -10,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 2041a048-8d78-4b76-a91f-43ea43a858bd
 description: Microsoft EOP(Exchange Online Protection)에서는 메일 받는 사람을 관리하는 다양한 방법이 제공됩니다. 다음 항목 및 관련 하위 항목에서는 받는 사람을 관리하고 관리자 역할 그룹 권한을 할당하기 위한 구성 절차와 관련 정보가 제공됩니다.
-ms.openlocfilehash: d69183c009f12dd33aec28d6ee353bf4177601f5
-ms.sourcegitcommit: cbf117a4cd92a907115c9f10752f3c557361e586
+ms.openlocfilehash: a56151167bdc2500af461dbcd188cfe635c6d866
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "37441445"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41598965"
 ---
 # <a name="manage-recipients-and-admin-role-groups-in-eop"></a>EOP에서 받는 사람 및 관리자 역할 그룹 관리
 

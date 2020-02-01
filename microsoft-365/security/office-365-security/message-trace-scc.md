@@ -1,5 +1,7 @@
 ---
 title: 보안 및 준수 센터의 메시지 추적
+f1.keywords:
+- NOCSH
 ms.author: chrisda
 author: chrisda
 manager: dansimp
@@ -9,12 +11,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 3e64f99d-ac33-4aba-91c5-9cb4ca476803
 description: 관리자는 보안 & 준수 센터에서 메시지 추적을 사용 하 여 메시지에 대 한 변경 내용을 확인할 수 있습니다.
-ms.openlocfilehash: cf0b69d691b3071ee35119f67e389e49ccbb13ad
-ms.sourcegitcommit: 03a83ff76c8162b850c4c552759c49f2a4750574
+ms.openlocfilehash: 461193bf7278a07de9bec1e3879fecc8fb6d91ea
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/26/2020
-ms.locfileid: "41558615"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41598925"
 ---
 # <a name="message-trace-in-the-security--compliance-center"></a>보안 및 준수 센터의 메시지 추적
 
@@ -232,7 +234,7 @@ Office 365 보안 & 준수 센터의 메시지 추적은 Exchange Online 조직�
 
 - **sender_address**: 보낸 사람의 전자 메일 주소 (*별칭*@*도메인*)입니다.
 
-- **Recipient_status**: 받는 사람에 대 한 메시지 배달 상태입니다. 메시지가 여러 받는 사람에 게 전송 되 면 \< *전자 메일 주소*\>##\<*상태*\>와 같은 형식으로 모든 받는 사람과 해당 상태가 표시 됩니다. 예:
+- **Recipient_status**: 받는 사람에 대 한 메시지 배달 상태입니다. 메시지가 여러 받는 사람에 게 전송 되 면 \< *전자 메일 주소*\>##\<*상태*\>와 같은 형식으로 모든 받는 사람과 해당 상태가 표시 됩니다. 예시는 다음과 같습니다:
 
   - **# #Receive, Send** 는 서비스에서 메시지를 받았으며 의도 한 대상으로 전송 되었음을 의미 합니다.
 
@@ -270,13 +272,13 @@ Office 365 보안 & 준수 센터의 메시지 추적은 Exchange Online 조직�
 
 - **server_hostname**: 대상 서버의 호스트 이름 또는 FQDN입니다.
 
-- **source_context**: **원본** 필드와 관련 된 추가 정보입니다. 예:
+- **source_context**: **원본** 필드와 관련 된 추가 정보입니다. 예시는 다음과 같습니다:
 
   - `Protocol Filter Agent`
 
   - `3489061114359050000`
 
-- **원본**: 이벤트를 담당 하는 Exchange Online 구성 요소입니다. 예:
+- **원본**: 이벤트를 담당 하는 Exchange Online 구성 요소입니다. 예시는 다음과 같습니다:
 
   - `AGENT`
 
@@ -294,7 +296,7 @@ Office 365 보안 & 준수 센터의 메시지 추적은 Exchange Online 조직�
 
 - **related_recipient_address**: 및 `RESOLVE` 이벤트 `EXPAND`를 `REDIRECT`사용 하 여 메시지와 관련 된 다른 받는 사람의 전자 메일 주소를 표시 합니다.
 
-- **참조**:이 필드에는 특정 유형의 이벤트에 대 한 추가 정보가 포함 되어 있습니다. 예:
+- **참조**:이 필드에는 특정 유형의 이벤트에 대 한 추가 정보가 포함 되어 있습니다. 예시는 다음과 같습니다:
 
   - **Dsn**:이 이벤트 이후에 dsn이 생성 되는 경우 연결 된 배달 상태 알림 (dsn, 배달 못 함 보고서, NDR 또는 바운스 메시지)의 **message_id** 값을 나타내는 보고서 링크를 포함 합니다. DSN 메시지의 경우이 필드에는 DSN이 생성 된 원본 메시지의 **message_id** 값이 포함 됩니다.
 
@@ -312,7 +314,7 @@ Office 365 보안 & 준수 센터의 메시지 추적은 Exchange Online 조직�
 
 - **return_path**: 메시지를 보낸 **메일** 보낸 사람 명령에 지정 된 반송 전자 메일 주소입니다. 이 필드는 비어 있지 않지만로 `<>`표시 되는 null 보낸 사람 주소 값을 가질 수 있습니다.
 
-- **message_info**: 메시지에 대 한 추가 정보입니다. 예:
+- **message_info**: 메시지에 대 한 추가 정보입니다. 예시는 다음과 같습니다:
 
   - 이벤트에 대 한 `DELIVER` UTC의 메시지 시작 날짜 및 `SEND` 시간입니다. 시작 날짜-시간은 메시지가 처음으로 Exchange Online 조직에 입력 되는 시간입니다. UTC `yyyy-mm-ddThh:mm:ss.fffZ`날짜 및 시간 형식은 ISO 8601 날짜/시간 형식으로 표시 되며, 여기서 `yyyy` = 년, `mm` = month, `dd` = 일은 시간 구성 `T` 요소의 시작, `hh` = 시간, `mm` = 분, `ss` = 초, `fff` = 초의 초, 그리고 `Z` UTC를 표시 하는 또 다른 방법인 `Zulu`의미를 나타냅니다.
 

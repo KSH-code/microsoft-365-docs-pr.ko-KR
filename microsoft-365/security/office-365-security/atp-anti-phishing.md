@@ -1,5 +1,7 @@
 ---
 title: Office 365의 ATP 피싱 방지 기능
+f1.keywords:
+- NOCSH
 ms.author: tracyp
 author: MSFTTracyp
 manager: dansimp
@@ -12,17 +14,17 @@ search.appverid:
 ms.assetid: 5076d0f6-7a59-4d6c-bd07-ba95033f0682
 ms.collection:
 - M365-security-compliance
-description: ATP 피싱 방지는 Office 365 Advanced Threat Protection의 일부입니다. ATP 바이러스 방지는 상품 및 스피어 피싱 공격에 대 한 보호를 제공 하기 위해 들어오는 메시지에 대 한 가장 검색 알고리즘과 함께 기계 학습 모델 집합을 적용 합니다. 모든 메시지는 다양 한 사용자 및 도메인 가장 공격을 방지 하는 데 사용 되는 고급 알고리즘 집합과 함께 피싱 메시지를 검색 하기 위해 교육 된 다양 한 기계 학습 모델 집합의 영향을 받습니다.
-ms.openlocfilehash: b2ce20d64952ecf489c2ccdbd5b4cafd16b8f64f
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+description: ATP 피싱 방지는 Office 365 Advanced Threat Protection의 일부입니다. ATP 피싱 방지는 수신 메시지에 가장 검색 알고리즘과 함께 일련의 기계 학습 모델을 적용하여 일반 피싱 및 스피어 피싱 공격에 대한 보호 기능을 제공합니다. 모든 메시지는 다양 한 사용자 및 도메인 가장 공격을 방지 하는 데 사용 되는 고급 알고리즘 집합과 함께 피싱 메시지를 검색 하기 위해 교육 된 다양 한 기계 학습 모델 집합의 영향을 받습니다.
+ms.openlocfilehash: eca12a1f75057aee94762a8a5eef0cceffe327d3
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088341"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41599835"
 ---
 # <a name="atp-anti-phishing-capabilities-in-office-365"></a>Office 365의 ATP 피싱 방지 기능
 
-ATP 피싱 방지는 [Office 365 Advanced Threat Protection](office-365-atp.md)의 일부입니다. ATP 바이러스 방지는 상품 및 스피어 피싱 공격에 대 한 보호를 제공 하기 위해 들어오는 메시지에 대 한 가장 검색 알고리즘과 함께 기계 학습 모델 집합을 적용 합니다. 모든 메시지는 다양 한 사용자 및 도메인 가장 공격을 방지 하는 데 사용 되는 고급 알고리즘 집합과 함께 피싱 메시지를 검색 하기 위해 교육 된 다양 한 기계 학습 모델 집합의 영향을 받습니다. ATP 피싱 방지는 Office 365 글로벌 또는 보안 관리자가 설정한 정책에 따라 조직을 보호 합니다.
+ATP 피싱 방지는 [Office 365 Advanced Threat Protection](office-365-atp.md)의 일부입니다. ATP 피싱 방지는 수신 메시지에 가장 검색 알고리즘과 함께 일련의 기계 학습 모델을 적용하여 일반 피싱 및 스피어 피싱 공격에 대한 보호 기능을 제공합니다. 모든 메시지는 다양 한 사용자 및 도메인 가장 공격을 방지 하는 데 사용 되는 고급 알고리즘 집합과 함께 피싱 메시지를 검색 하기 위해 교육 된 다양 한 기계 학습 모델 집합의 영향을 받습니다. ATP 피싱 방지는 Office 365 글로벌 또는 보안 관리자가 설정한 정책에 따라 조직을 보호 합니다.
   
 자세한 내용은 [Office 365에서 피싱 방지 정책 설정을](set-up-anti-phishing-policies.md)참조 하세요.
   

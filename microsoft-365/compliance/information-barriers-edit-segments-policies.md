@@ -1,5 +1,7 @@
 ---
 title: 정보 장벽 정책 편집
+f1.keywords:
+- NOCSH
 ms.author: chrfox
 author: chrfox
 manager: laurawi
@@ -11,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 localization_priority: None
 description: 정보 장벽에 대 한 정책을 편집 하거나 제거 하는 방법을 알아봅니다.
-ms.openlocfilehash: 20a1dd62fa80469a7a31db9b5541064ae16b4e02
-ms.sourcegitcommit: af7950d9674f0eab3aee03f9afccff9ca2f4709a
+ms.openlocfilehash: ef534f49c92abf1500b72b0d490ab9f22a48a680
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40971384"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41600615"
 ---
 # <a name="edit-or-remove-information-barrier-policies"></a>정보 장벽 정책 편집 또는 제거
 

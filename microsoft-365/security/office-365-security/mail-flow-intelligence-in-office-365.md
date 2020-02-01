@@ -1,5 +1,7 @@
 ---
 title: Office 365의 메일 흐름 인텔리전스
+f1.keywords:
+- NOCSH
 ms.author: chrisda
 author: chrisda
 manager: dansimp
@@ -11,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: c29f75e5-c16e-409e-a123-430691e38276
 description: 관리자는 메일 흐름 인텔리전스 라고도 하는 Office 365의 커넥터를 사용 하 여 메시지 배달과 관련 된 오류 코드에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: ee02be439cd3bd9405aea7a94410af794808f259
-ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
+ms.openlocfilehash: ea4fb56f0e303d243af02edf01e5d85b957a6368
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "39971776"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41599055"
 ---
 # <a name="mail-flow-intelligence-in-office-365"></a>Office 365의 메일 흐름 인텔리전스
 

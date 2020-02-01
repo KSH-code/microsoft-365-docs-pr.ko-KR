@@ -1,5 +1,7 @@
 ---
 title: EOP 기능
+f1.keywords:
+- NOCSH
 ms.author: chrisda
 author: chrisda
 manager: dansimp
@@ -10,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 599b8048-1056-457b-aae4-c063138fd319
 description: 다음 표에는 EOP(Exchange 온라인 보호) 호스팅 전자 메일 필터링 서비스에서 사용할 수 있는 기능 목록이 나와 있습니다.
-ms.openlocfilehash: 82bdd8e932c194573ad7482c5a561d092897d010
-ms.sourcegitcommit: ca4ce9e8c7e4b433608cd059857740ffd5a472c2
+ms.openlocfilehash: 9422330cb4999e4391f92e39807e2d2367366972
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/21/2019
-ms.locfileid: "40840177"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41599375"
 ---
 # <a name="eop-features"></a>EOP 기능
 
@@ -36,10 +38,10 @@ ms.locfileid: "40840177"
 |피싱 방지 보호 기능|EOP에는 750,000개의 알려진 스팸 발송자 도메인이 포함되어 있습니다.|
 |**스팸 관리**||
 |연결 필터 IP 허용 및 IP 차단 목록을 구성하는 기능|연결 필터에 지정된 IP 주소는 단일 IP 주소 및 CIDR IP 주소 범위에 적용됩니다. 이 서비스는 IPv6 주소도 지원합니다. 자세한 내용은 [Configure the connection filter policy](configure-the-connection-filter-policy.md)를 참조하십시오.|
-|콘텐츠 필터 정책을 사용자, 그룹 또는 도메인별로 사용자 지정하는 기능|세분성을 높이기 위해 사용자 지정 콘텐츠 필터 정책을 만들어서 조직의 지정된 사용자, 그룹 또는 도메인에 적용할 수 있습니다. 사용자 지정 정책은 항상 기본 정책보다 우선하지만 사용자 지정 정책의 우선 순위(즉, 실행 순서)를 변경할 수 있습니다. 자세한 내용은 [스팸 필터 정책 구성을](configure-your-spam-filter-policies.md)참조 하세요.|
-|콘텐츠가 필터링된 메시지에 대한 작업을 구성하는 기능|구성할 수 있는 작업이 여러 가지 있습니다. 예를 들어 콘텐츠가 필터링된 메시지를 삭제하거나 이러한 메시지를 격리 또는 정크 메일 폴더로 보낼 수 있습니다. 자세한 내용은 [스팸 필터 정책 구성을](configure-your-spam-filter-policies.md)참조 하세요.|
+|콘텐츠 필터 정책을 사용자, 그룹 또는 도메인별로 사용자 지정하는 기능|세분성을 높이기 위해 사용자 지정 콘텐츠 필터 정책을 만들어서 조직의 지정된 사용자, 그룹 또는 도메인에 적용할 수 있습니다. 사용자 지정 정책은 항상 기본 정책보다 우선하지만 사용자 지정 정책의 우선 순위(즉, 실행 순서)를 변경할 수 있습니다. 자세한 내용은 [스팸 필터 정책 구성을](configure-your-spam-filter-policies.md) 참조하세요.|
+|콘텐츠가 필터링된 메시지에 대한 작업을 구성하는 기능|구성할 수 있는 작업이 여러 가지 있습니다. 예를 들어 콘텐츠가 필터링된 메시지를 삭제하거나 이러한 메시지를 격리 또는 정크 메일 폴더로 보낼 수 있습니다. 자세한 내용은 [스팸 필터 정책 구성을](configure-your-spam-filter-policies.md) 참조하세요.|
 |적극적인 스팸 필터링에 대한 고급 옵션을 구성하는 기능|자세한 내용은 [configure a 스팸 필터 정책](configure-your-spam-filter-policies.md) (이를 구성 하는 경우) 및 [고급 스팸 필터링 옵션](advanced-spam-filtering-asf-options.md) (각 옵션의 기능에 대 한 구체적인 세부 정보 제공)을 참조 하세요.|
-|다국어 스팸 필터링|특정 언어로 작성되었거나 특정 국가 또는 지역에서 보낸 메시지를 필터링하도록 EOP를 구성할 수 있습니다. 최대 86개 언어와 250개 지역을 구성할 수 있습니다. 서비스에서는 높은 스팸 지수에 대해 구성된 작업을 적용합니다. 자세한 내용은 [스팸 필터 정책 구성을](configure-your-spam-filter-policies.md)참조 하세요.|
+|다국어 스팸 필터링|특정 언어로 작성되었거나 특정 국가 또는 지역에서 보낸 메시지를 필터링하도록 EOP를 구성할 수 있습니다. 최대 86개 언어와 250개 지역을 구성할 수 있습니다. 서비스에서는 높은 스팸 지수에 대해 구성된 작업을 적용합니다. 자세한 내용은 [스팸 필터 정책 구성을](configure-your-spam-filter-policies.md) 참조하세요.|
 |Outlook 또는 웹용 Outlook을 통한 스팸 관리 (이전의 Outlook Web App)|관리자 및 최종 사용자가 안전한 보낸 사람 목록 및 차단된 보낸 사람 목록을 만들 수 있습니다. 자세한 내용은 다음을 참조하세요. <br/>• **웹용 Outlook**: [차단 또는 허용 (정크 메일 설정)](https://support.office.com/article/48c9f6f7-2309-4f95-9a4d-de987e880e46)을 참조 하세요.  <br/>• **Outlook**: [정크 메일 필터 개요](https://support.office.com/article/5ae3ea8e-cf41-4fa0-b02a-3b96e21de089)참조 <br/><br/> EOP을 사용 하 여 온-프레미스 사서함을 보호 하는 경우 이러한 설정이 서비스와 동기화 되도록 디렉터리 동기화를 사용 해야 합니다. 디렉터리 동기화 설정에 대한 자세한 내용은 [EOP에서 메일 사용자 관리](manage-mail-users-in-eop.md)에서 "디렉터리 동기화를 사용하여 메일 사용자 관리"를 참조하세요.|
 |Microsoft Office Outlook용 정크 메일 보고 추가 기능을 통한 스팸 전송|분석을 위해 Microsoft로 스팸 메시지를 제출할 수 있도록 해주는 Outlook 추가 기능을 다운로드할 수 있습니다. 이 도구를 다운로드 하 고 사용 하는 방법에 대 한 자세한 내용은 [보고서 메시지 추가 기능을 사용 하도록 설정을](enable-the-report-message-add-in.md)참조 하십시오. <br/><br/> Exchange Server 2013 이상 버전을 사용 하는 경우에는 웹용 outlook에서 [정크 메일 및 피싱 사기 보고](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md)에 설명 된 대로 EOP를 웹에서 마우스 오른쪽 단추로 클릭 하 여 스팸 메시지를 제출할 수도 있습니다.|
 |전자 메일 별칭을 통해 스팸 및 비스팸 전송|전자 메일을 통해 스팸(정크) 및 비스팸(정크 아님) 메시지를 Microsoft에 제출할 수 있습니다. 자세한 내용은 [분석을 위해 Microsoft에 스팸 및 스팸이 아닌 메시지 제출을](submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md)참조 하세요.|

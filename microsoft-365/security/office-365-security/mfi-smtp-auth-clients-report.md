@@ -1,5 +1,7 @@
 ---
 title: SMTP 인증 클라이언트 보고서
+f1.keywords:
+- NOCSH
 ms.author: chrisda
 author: chrisda
 manager: dansimp
@@ -9,12 +11,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: ''
 description: 관리자는 보안 & 준수 센터의 메일 흐름 대시보드에서 SMTP 인증 클라이언트 보고서에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: a273da9e0ebe7987a22669c54f3ebfe103e5933c
-ms.sourcegitcommit: 84d88a857e82b1a8a0d466057a2e330e8b1692e4
+ms.openlocfilehash: 7dee70de4000b23302348d964010801c8e097744
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37306032"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41598835"
 ---
 # <a name="smtp-auth-clients-report"></a>SMTP 인증 클라이언트 보고서
 

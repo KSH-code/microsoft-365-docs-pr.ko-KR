@@ -1,5 +1,7 @@
 ---
 title: Office 365 메시지 암호화에 대한 Azure 권한 관리 설정
+f1.keywords:
+- NOCSH
 ms.author: krowley
 author: kccross
 manager: laurawi
@@ -13,12 +15,12 @@ search.appverid:
 - MOE150
 ms.assetid: 2cba47b3-f09e-4911-9207-ac056fcb9db7
 description: 이전 버전의 Office 365 메시지 암호화는 Microsoft Azure 권한 관리 (이전에는 Windows Azure Active Directory Rights Management)에 따라 달라 집니다.
-ms.openlocfilehash: a6ba18982a65ff9687374b9e5dc370646817d96d
-ms.sourcegitcommit: 550ea6f093ec35182e7c65a2811e9bfb07ec7d01
+ms.openlocfilehash: be0fad248465927ee7cc59b31a36e65ce5c053db
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38687092"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41601485"
 ---
 # <a name="set-up-azure-rights-management-for-the-previous-version-of-office-365-message-encryption"></a>Office 365 메시지 암호화에 대한 Azure 권한 관리 설정
 
@@ -128,4 +130,4 @@ Azure 권한 관리 설치를 완료 한 후에 새 OME 기능을 사용 하도�
   
 [Office 365의 암호화에 대한 기술 관련 세부 정보](technical-reference-details-about-encryption.md)
   
-[Azure 권한 관리 란?](https://docs.microsoft.com/information-protection/understand-explore/what-is-azure-rms)
+[Azure 권한 관리란?](https://docs.microsoft.com/information-protection/understand-explore/what-is-azure-rms)

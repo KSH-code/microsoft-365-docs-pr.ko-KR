@@ -1,5 +1,7 @@
 ---
 title: 대량 불만 수준 값, 대량 메일, BCL 수준, BCL works, BCL 등급, 스팸 방지, 스팸 방지 헤더, 대량 메일 필터링, 대량 메일 중지
+f1.keywords:
+- NOCSH
 ms.author: tracyp
 author: MSFTTracyP
 manager: laurawi
@@ -14,12 +16,12 @@ ms.assetid: a5b03b3c-37dd-429e-8e9b-2c1b25031794
 ms.collection:
 - M365-security-compliance
 description: Office 365의 BCL (대량 확인 수준) 값에 대해 알아봅니다.
-ms.openlocfilehash: 822c84ea9b36cfdae1d8faccf7e0c7d9f747c917
-ms.sourcegitcommit: 7830969c8fa41724359657910716f3ce312cc2cf
+ms.openlocfilehash: b0eb922323421834eae77b8c5430f1bd8f48c8ee
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "37650120"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41599725"
 ---
 # <a name="bulk-complaint-level-values"></a>대량 불만 수준 값
 

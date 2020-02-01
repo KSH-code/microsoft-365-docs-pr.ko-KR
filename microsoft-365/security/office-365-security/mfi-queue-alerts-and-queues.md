@@ -1,5 +1,7 @@
 ---
 title: 큐 알림 및 큐
+f1.keywords:
+- NOCSH
 ms.author: chrisda
 author: chrisda
 manager: dansimp
@@ -9,12 +11,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 37640c80-ce6f-47e2-afd1-bc1d3c50e637
 description: 관리자는 보안 & 준수 센터의 메일 흐름 대시보드의 큐 경고 및 큐에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: 66bd4116cfb84d15bbecafa269fcc2c7a88789d8
-ms.sourcegitcommit: e2ed110c4c3a8434f9fcc9d610069bc77bc39220
+ms.openlocfilehash: 1f3fb139890cbfc6705c3c3c65670b61727fadb3
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "38290548"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41598855"
 ---
 # <a name="queue-alerts-and-queues"></a>큐 알림 및 큐
 

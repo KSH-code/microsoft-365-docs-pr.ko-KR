@@ -1,5 +1,7 @@
 ---
 title: EOP의 감사 보고서
+f1.keywords:
+- NOCSH
 ms.author: chrisda
 author: chrisda
 manager: dansimp
@@ -10,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 003d7a74-3e16-4453-ae0c-9dbae51f66d1
 description: 관리자는 EOP (Exchange Online Protection)에서 사용할 수 있는 관리 감사 보고서에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: 5686ff8acef1f1bc3e6ab1d72ba4968ed49480db
-ms.sourcegitcommit: cbf117a4cd92a907115c9f10752f3c557361e586
+ms.openlocfilehash: aaecef0bbee84a94d367545bc251f34bbd758874
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "37440575"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41599785"
 ---
 # <a name="auditing-reports-in-eop"></a>EOP의 감사 보고서
 

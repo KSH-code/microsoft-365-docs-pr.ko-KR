@@ -1,5 +1,7 @@
 ---
 title: EOP에서 관리자 역할 그룹 권한 관리
+f1.keywords:
+- NOCSH
 ms.author: chrisda
 author: chrisda
 manager: dansimp
@@ -10,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 125834f4-1024-4325-ad5a-d2573cfb005e
 description: 관리자는 Exchange Online Protection의 EAC (Exchange 관리 센터)에서 사용 권한을 할당 하거나 제거 하는 방법을 확인할 수 있습니다.
-ms.openlocfilehash: 9b82836b5f9f28c3055e540890771def28382d2b
-ms.sourcegitcommit: 84d88a857e82b1a8a0d466057a2e330e8b1692e4
+ms.openlocfilehash: ab574e4d33d84774ef63f73297447ea66a74430b
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37306132"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41599035"
 ---
 # <a name="manage-admin-role-group-permissions-in-eop"></a>EOP에서 관리자 역할 그룹 권한 관리
 

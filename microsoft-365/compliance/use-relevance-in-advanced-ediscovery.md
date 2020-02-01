@@ -1,5 +1,7 @@
 ---
 title: Office 365 Advanced eDiscovery에서 관련성 모듈 사용
+f1.keywords:
+- NOCSH
 ms.author: chrfox
 author: chrfox
 manager: laurawi
@@ -14,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 5d671821-d188-42da-a9ce-9cfe92beedfd
 description: '교육 및 파일 검토를 위한 워크플로, 지침 및 단계를 포함 하 여 Office 365 Advanced eDiscovery의 관련성 모듈에 대해 알아봅니다.  '
-ms.openlocfilehash: 3303a85742876934899517940d0a671e404dea92
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 5151c94d2b0bd1824abb499f6cb27bbfbc7618b7
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40802283"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41601305"
 ---
 # <a name="use-the-relevance-module-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery에서 관련성 모듈 사용
 

@@ -1,5 +1,7 @@
 ---
 title: EOP에서 그룹 관리
+f1.keywords:
+- NOCSH
 ms.author: chrisda
 author: chrisda
 manager: dansimp
@@ -10,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 212e68ac-6330-47e9-a169-6cf5e2f21e13
 description: EOP(Exchange Online Protection)를 사용하여 Exchange 조직에 메일 사용 가능 그룹을 만들 수 있습니다. 또한 구성원 자격, 전자 메일 주소 및 그룹의 기타 측면을 지정하는 그룹 속성을 정의하거나 업데이트할 수도 있습니다.
-ms.openlocfilehash: dcc816118f36d5e451c459aa67bef638eb97dad9
-ms.sourcegitcommit: ba223b4fd069fc6fd09c2a2e34c770a18bc7b2a2
+ms.openlocfilehash: ae4e0a8c39c97720cb51c0f5d7b69547258b11b7
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39866968"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41598995"
 ---
 # <a name="manage-groups-in-eop"></a>EOP에서 그룹 관리
 

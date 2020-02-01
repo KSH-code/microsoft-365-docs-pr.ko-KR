@@ -1,5 +1,7 @@
 ---
 title: EOP의 메시징 정책 및 준수
+f1.keywords:
+- NOCSH
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
@@ -10,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 206e6311-f96d-4c81-8ef2-171bcad4caa5
 description: Microsoft Exchange Online Protection은 이메일 데이터를 관리하는 데 사용할 수 있는 메시징 정책 및 규정 준수 기능을 제공합니다.
-ms.openlocfilehash: adcc98e058e9c8e4fe57e5fe93e71dab398777b9
-ms.sourcegitcommit: cbf117a4cd92a907115c9f10752f3c557361e586
+ms.openlocfilehash: 1a9161b0d9eda24cc1314576031064f121860006
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "37441465"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41598915"
 ---
 # <a name="messaging-policy-and-compliance-in-eop"></a>EOP의 메시징 정책 및 준수
 

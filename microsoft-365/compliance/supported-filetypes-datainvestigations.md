@@ -1,5 +1,7 @@
 ---
 title: 데이터 조사에서 지원 되는 파일 형식 (미리 보기)
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 60e4baf2df94793b532fb4035a34ca3c7a5cd332
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 055104a5b7f60fe54b421e7236143aa9af08b57f
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088505"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41601435"
 ---
 # <a name="supported-file-types-in-data-investigations-preview"></a>데이터 조사에서 지원 되는 파일 형식 (미리 보기)
 

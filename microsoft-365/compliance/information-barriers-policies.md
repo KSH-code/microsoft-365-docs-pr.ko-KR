@@ -1,5 +1,7 @@
 ---
 title: 정보 장벽 정책 정의
+f1.keywords:
+- NOCSH
 ms.author: chrfox
 author: chrfox
 manager: laurawi
@@ -11,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 localization_priority: None
 description: Microsoft 팀에서 정보 장벽에 대 한 정책을 정의 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 11195e588a983bb5617dd3f556734074bc0060b0
-ms.sourcegitcommit: af7950d9674f0eab3aee03f9afccff9ca2f4709a
+ms.openlocfilehash: 15b17dba38a8e34bebf8d128c669fb7fa1f0ebd1
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40970846"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41600605"
 ---
 # <a name="define-policies-for-information-barriers"></a>정보 장벽에 대 한 정책 정의
 

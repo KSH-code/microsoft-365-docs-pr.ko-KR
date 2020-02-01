@@ -1,5 +1,7 @@
 ---
 title: '주요 정보 보안 담당자 (CISO) 워크숍, 모듈 3: Id 및 액세스 관리'
+f1.keywords:
+- NOCSH
 ms.author: dansimp
 author: dansimp
 manager: dansimp
@@ -10,12 +12,12 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: 조직의 현대화 보안에 대 한 보안 원칙 및 권장 사항에 대해 자세히 알아보세요.
-ms.openlocfilehash: e1f4e9afb86d475a7dd7261dfe26ff0b5a17826f
-ms.sourcegitcommit: b65c80051e53d9be223f4769f4d42a39f5a07735
+ms.openlocfilehash: 97ba2b0319f8a34bd6fe1cbdf597b85281810855
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39962635"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41599705"
 ---
 # <a name="ciso-workshop-module-3-identity-and-zero-trust-user-access"></a>CISO 워크숍 모듈 3: Id 및 제로 트러스트 사용자 액세스
 

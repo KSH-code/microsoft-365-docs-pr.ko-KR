@@ -1,5 +1,7 @@
 ---
 title: Microsoft Outlook용 정크 메일 보고 추가 기능 설치
+f1.keywords:
+- NOCSH
 ms.author: MSFTTracyP
 author: tracyp
 manager: dansimp
@@ -12,12 +14,12 @@ ms.assetid: 8dcc752f-e22e-44ce-a104-4cc4d7e439f3
 ms.collection:
 - M365-security-compliance
 description: 이 articleSupported LanguagesInstall에서 정크 메일 보고 추가 기능에 대 한 자세한 내용은 정크 메일 보고 추가를 제거 합니다.
-ms.openlocfilehash: 14c3914601ab8a6b3273b56a3915df9c909fc06c
-ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
+ms.openlocfilehash: 0f7a5a3cbaddf9aef5e518db38ffb36c397cd1f0
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "39970394"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41599155"
 ---
 # <a name="install-the-junk-email-reporting-add-in-for-microsoft-outlook"></a>Microsoft Outlook용 정크 메일 보고 추가 기능 설치
 
@@ -68,7 +70,7 @@ ms.locfileid: "39970394"
 
 - 사용자 인터페이스를 표시하지 않는 자동 설치를 실행하여 설치합니다. 대신 설치 스크립트를 실행하는 명령줄 옵션을 지정합니다. 추가 기능을 설치할 경우 GUI 인터페이스를 통해 제공되지 않는 추가 구성 옵션이 표시됩니다. 자세한 내용은 [자동 모드를 사용하여 정크 메일 보고 추가 기능 설치](#install-the-junk-email-reporting-add-in-using-silent-mode)를 참조하세요.
 
-### <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
+### <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 사항은 무엇인가요?
 
 - 의 정크 메일 보고 추가 기능에 대 한 **시스템 요구 사항을** 참조 [https://www.microsoft.com/download/details.aspx?id=18275](https://www.microsoft.com/download/details.aspx?id=18275)하세요.
 

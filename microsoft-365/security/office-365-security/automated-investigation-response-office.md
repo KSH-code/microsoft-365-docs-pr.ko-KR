@@ -1,5 +1,7 @@
 ---
 title: Office 365의 자동화 된 조사 및 응답 (AIR)
+f1.keywords:
+- NOCSH
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
@@ -12,12 +14,12 @@ search.appverid:
 - MOE150
 ms.collection: M365-security-compliance
 description: Office 365 Advanced Threat Protection 계획 2의 자동화 된 조사 및 응답 기능에 대 한 개요를 확인 하세요.
-ms.openlocfilehash: fcb48da4b6f3777fa8c21ef514d5f591e342562e
-ms.sourcegitcommit: 3f8957ddd04b8710bb5f314a0902fdee50c7c9b7
+ms.openlocfilehash: 975c6d8a00e3e1cd8c30b2d417c74cde39b8cd5a
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "41573045"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41599805"
 ---
 # <a name="automated-investigation-and-response-air-in-office-365"></a>Office 365의 자동화 된 조사 및 응답 (AIR)
 
@@ -34,14 +36,14 @@ ms.locfileid: "41573045"
 
 |단계  |관련 항목  |
 |---------|---------|
-|개     |Office 이벤트에 의해 [알림이](#alerts) 트리거되고 [보안 playbook](#security-playbooks) 선택한 경고에 대 한 자동 조사를 시작 합니다. <br/><br/>또한 보안 분석가는 [탐색기](threat-explorer.md)의 전자 메일에서 [자동 조사를 수동으로 시작할](#example-a-security-administrator-triggers-an-investigation-from-threat-explorer)수 있습니다.        |
-|2     |자동 조사가 실행 되는 동안 전자 메일 및 해당 전자 메일에 관련 된 엔터티에 대 한 추가 데이터 (파일, Url 및 받는 사람)를 수집 합니다.  새 관련 경고가 트리거되면 조사 범위가 증가할 수 있습니다.         |
-|3(sp3)     |자동화 된 조사 도중 및 후에 [세부 정보 및 결과](#investigation-graph) 를 볼 수 있습니다. 결과에는 발견 된 모든 위협을 응답 하 고 수정 하기 위해 취할 수 있는 [권장 작업이](#recommended-actions) 포함 됩니다. 또한 모든 조사 활동을 추적 하는 [playbook 로그](#playbook-log) 를 사용할 수 있습니다.<br/><br/>조직에서 사용자 지정 보고 솔루션 또는 타사 솔루션을 사용 하는 경우에는 [Office 365 관리 활동 API를 사용](office-365-air.md#use-the-office-365-management-activity-api-for-custom-or-third-party-reporting-solutions) 하 여 자동화 된 조사 및 위협에 대 한 정보를 볼 수 있습니다.         |
+|1      |Office 이벤트에 의해 [알림이](#alerts) 트리거되고 [보안 playbook](#security-playbooks) 선택한 경고에 대 한 자동 조사를 시작 합니다. <br/><br/>또한 보안 분석가는 [탐색기](threat-explorer.md)의 전자 메일에서 [자동 조사를 수동으로 시작할](#example-a-security-administrator-triggers-an-investigation-from-threat-explorer)수 있습니다.        |
+|2      |자동 조사가 실행 되는 동안 전자 메일 및 해당 전자 메일에 관련 된 엔터티에 대 한 추가 데이터 (파일, Url 및 받는 사람)를 수집 합니다.  새 관련 경고가 트리거되면 조사 범위가 증가할 수 있습니다.         |
+|3      |자동화 된 조사 도중 및 후에 [세부 정보 및 결과](#investigation-graph) 를 볼 수 있습니다. 결과에는 발견 된 모든 위협을 응답 하 고 수정 하기 위해 취할 수 있는 [권장 작업이](#recommended-actions) 포함 됩니다. 또한 모든 조사 활동을 추적 하는 [playbook 로그](#playbook-log) 를 사용할 수 있습니다.<br/><br/>조직에서 사용자 지정 보고 솔루션 또는 타사 솔루션을 사용 하는 경우에는 [Office 365 관리 활동 API를 사용](office-365-air.md#use-the-office-365-management-activity-api-for-custom-or-third-party-reporting-solutions) 하 여 자동화 된 조사 및 위협에 대 한 정보를 볼 수 있습니다.         |
 |4      |보안 운영 팀은 조사 결과 및 권장 사항을 검토 하 고 업데이트 관리 작업을 승인 합니다. Office 365에서 수정 작업은 조직의 보안 팀이 승인한 경우에만 적용될 수 있습니다.         |
 
 다음 섹션에서는 경고, 보안 playbooks 및 조사 세부 정보를 비롯 하 여 AIR에 대 한 자세한 정보를 제공 합니다. 또한이 문서에는 AIR works의 두 가지 예제가 포함 되어 있습니다. AIR 사용을 시작 하려면 [Office 365의 위협에 대 한 자동 조사 및 응답](office-365-air.md)을 참조 하세요.
 
-## <a name="alerts"></a>알림
+## <a name="alerts"></a>경고
 
 [경고](../../compliance/alert-policies.md#viewing-alerts) 는 보안 운영 팀 워크플로에서 문제를 대응 하기 위한 트리거를 나타냅니다. 확인을 위해 적절 한 경고 집합에 우선 순위를 지정 하는 동시에, 주소가 지정 되지 않은 위협에 대 한 해결 방법은 어렵습니다. 경고에 대 한 조사가 수동으로 수행 되 면 보안 운영 팀은 콘텐츠, 장치 및 사용자와 같은 엔터티를 찾아서 위협 으로부터 연결 해야 합니다. 이러한 작업과 워크플로를 사용 하면 시간이 매우 오래 걸리고 여러 도구 및 시스템을 포함할 수 있습니다. 무선, 조사 및 Office 365에 대 한 응답은 주요 보안 및 위협 관리 경고로 인해 보안 응답 playbook가 자동으로 트리거되어 보안 이벤트가 자동화 됩니다. 
 

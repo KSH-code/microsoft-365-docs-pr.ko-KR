@@ -5,6 +5,8 @@ keywords: Microsoft 365, M365, Microsoft Threat Protection, MTP, security center
 ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
 ms.localizationpriority: medium
+f1.keywords:
+- NOCSH
 ms.author: lomayor
 author: lomayor
 manager: dansimp
@@ -12,12 +14,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: c2bb0b088a40511eea36348d39790fd5e88fa40b
-ms.sourcegitcommit: 5b8e9935fe7bfcb96b8f8356119ce23152bd16a9
+ms.openlocfilehash: 9f647ba306215d20d6fb1d0c7dbfd8d3b96fb909
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/16/2020
-ms.locfileid: "41210163"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41600245"
 ---
 # <a name="hunt-for-threats-in-microsoft-365"></a>Microsoft 365의 위협에 대 한 사냥
 

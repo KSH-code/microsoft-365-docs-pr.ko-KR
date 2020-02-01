@@ -1,5 +1,7 @@
 ---
 title: Office 365, O365 전송, Office 365 스팸 문제, O365 가양성, 검색을 위한 전자 메일 전송, office 365에서 의심 스러운 전자 메일, 메일 검색, 365 피싱에 대 한 Microsoft 검색, Microsoft scan for 피싱, submit for 스팸, 제출 전자 메일, 전송 전자 메일, dodgy 전자 메일, 잘못 된 작업자 메일, 의심 스러운, 신뢰할 수 없는 메일, 보고서 피싱 전자 메일을 microsoft에 보고 하 고 microsoft에 게 microsoft에 사기 전자 메일 신고 받은 편지함의 전자 메일 office 365, 전자 메일 office 365의 바이러스
+f1.keywords:
+- NOCSH
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
@@ -13,12 +15,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Office 365 테 넌 트에서 의심 스러운 전자 메일, 의심 스러운 메일, 스팸 및 기타 해로운 메시지, Url 및 파일을 검색을 위해 Microsoft에 제출 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: c46017becfed546557fbf59c0dbbe12e9af53aa0
-ms.sourcegitcommit: 3f8957ddd04b8710bb5f314a0902fdee50c7c9b7
+ms.openlocfilehash: a12981ee302ea72e112826104996fb775e4ac3fb
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "41573035"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41599985"
 ---
 # <a name="how-to-submit-suspected-spam-phish-urls-and-files-to-microsoft-for-office-365-scanning"></a>Microsoft에 Office 365를 검색 하기 위해 의심 스러운 스팸, 피싱, Url 및 파일을 제출 하는 방법
 

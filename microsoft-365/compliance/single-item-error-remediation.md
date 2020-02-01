@@ -1,5 +1,7 @@
 ---
 title: 단일 항목 오류 수정
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: 고급 eDiscovery의 검토 집합에 포함 된 문서에서 대량 오류 업데이트 관리 프로세스를 수행 하지 않고도 처리 오류를 해결할 수 있습니다.
-ms.openlocfilehash: 922c0e4b0ab30bae6507fac7e97080a5951ea750
-ms.sourcegitcommit: f0a4290793e296474ecd3c6eb0ca96eae7faa434
+ms.openlocfilehash: c049ce4b5d3f8fc12a015a61ea927b744ae76eb3
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "38687121"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41601495"
 ---
 # <a name="single-item-error-remediation"></a>단일 항목 오류 수정
 
