@@ -1,5 +1,7 @@
 ---
 title: Office 365 고급 메시지 암호화로 암호화된 전자 메일 취소
+f1.keywords:
+- NOCSH
 ms.author: krowley
 author: kccross
 manager: laurawi
@@ -14,12 +16,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Office 365 관리자는 Office 365 고급 메시지 암호화로 암호화 된 특정 전자 메일을 해지할 수 있습니다.
-ms.openlocfilehash: d3d449c969b2fa5d21042779ebad11e3807d1d3e
-ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
+ms.openlocfilehash: 9d694c200df161c0a52884ded14d29908376a9b7
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41112522"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41597605"
 ---
 # <a name="revoke-email-encrypted-by-office-365-advanced-message-encryption"></a>Office 365 고급 메시지 암호화로 암호화된 전자 메일 취소
 

@@ -1,5 +1,7 @@
 ---
 title: 위협 추적기-신규 및 주목할 만한
+f1.keywords:
+- NOCSH
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
@@ -14,12 +16,12 @@ ms.assetid: a097f5ca-eac0-44a4-bbce-365f35b79ed1
 ms.collection:
 - M365-security-compliance
 description: 조직에서 보안 문제를 계속 유지 하는 데 도움이 되는 새로운 주요 추적기를 비롯 한 위협 추적기에 대해 알아봅니다.
-ms.openlocfilehash: 084d3c6de104c675a2af47984a2fcbffcf89447e
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: f2a68cfbbae0ce91716f69514e30136ac223bbf8
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37089206"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41598185"
 ---
 # <a name="threat-trackers---new-and-noteworthy"></a>위협 추적기-신규 및 주목할 만한
 
@@ -34,7 +36,7 @@ ms.locfileid: "37089206"
   
 ![맬웨어 캠페인을 보여 주는 위협 추적기의 예](../media/a883b5ac-8e2b-469a-90e0-f8ad39bb63b7.png)
   
-대부분의 추적기 페이지에는 주기적으로 업데이트 되는 추세 번호, 가장 큰 문제를 이해 하는 데 도움이 되는 위젯 및 **작업** 열에서 탐색기로 이동 하는 빠른 링크 및 더 자세한 내용을 볼 수 있는 간단한 링크가 포함 되어 있습니다. 정보가. 
+대부분의 추적기 페이지에는 주기적으로 업데이트 되는 추세 번호, 즉 가장 큰 문제를 이해 하는 데 도움이 되 고, **작업** 열에서 탐색기로 이동 하는 빠른 링크가 포함 되어 있어 자세한 정보를 볼 수 있습니다. 
   
 ![탐색기의 캠페인 정보 예제](../media/e426f220-fdcb-4dd9-99a2-db97dbcf71d5.png)
   

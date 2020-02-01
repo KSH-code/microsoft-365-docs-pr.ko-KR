@@ -1,5 +1,7 @@
 ---
 title: Delete items from their original location
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -16,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: 이 문서에서는 보안 & 준수 센터에서 새 데이터 조사 (미리 보기) 도구를 사용 하 여 원래 위치에서 항목을 삭제 하는 방법을 설명 합니다.
-ms.openlocfilehash: c121cda03a4f5143275074aa288ae1f0a5548bfc
-ms.sourcegitcommit: e4f2f06daa264b8b476813a2dfe80cffb59f968f
+ms.openlocfilehash: 2efb57fa2e35cffd3cca5e8f44b648018f0daf1b
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "38687168"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41595323"
 ---
 # <a name="delete-items-from-their-original-location-preview"></a>원래 위치에서 항목 삭제 (미리 보기)
 
@@ -76,7 +78,7 @@ ms.locfileid: "38687168"
 
 - **사서함:** 일시 삭제 된 사서함 항목은 사서함의 복구 가능한 항목 폴더로 이동 됩니다. 이 동작은 사용자가 지운 편지함 폴더에서 항목을 삭제 하거나 Shift + Delete를 눌러 항목을 영구적으로 삭제 하는 경우와 비슷합니다. 이때 사용자는 삭제 된 항목 보존 기간이 만료 될 때까지 항목을 복구할 수 있습니다. Office 365에서 삭제 된 항목 보존 기간은 기본적으로 14 일 이지만 관리자는 보존 기간을 30 일로 늘릴 수 있습니다. 보존 기간이 만료 되 면 항목이 숨겨진 폴더 ( *제거* 폴더 라고 함)로 이동 됩니다. 다음 번에 사서함을 처리할 때 Office 365에서 항목이 영구적으로 제거 됩니다. 사서함은 7 일 마다 한 번씩 처리 됩니다.
 
-- **SharePoint 및 OneDrive 사이트:** 사이트에 있는 파일이 나 문서를 일시 삭제 하면 사이트의 휴지통 ( *1 단계* 휴지통이 라고도 함)으로 이동 됩니다. 항목은 93 일 (Office 365에 있는 사이트의 삭제 된 항목 보존 기간) 동안 휴지통에 남아 있습니다. 93 일 기간 동안 SharePoint의 사이트 모음 관리자 또는 OneDrive의 사용자 또는 관리자가 삭제 된 항목을 복구할 수 있습니다. 1 단계 휴지통에서 항목을 삭제할 수도 있습니다. 이 경우 항목은 *2 단계* 휴지통 이라고 하는 사이트 모음의 휴지통으로 이동 됩니다. 보존 기간은 1 단계 및 2 단계 휴지통에서 모두 93 일입니다. 즉, 처음에 항목을 삭제할 때 2 단계 휴지통 보존을 시작 합니다. 즉, 두 휴지통 모두에 대해 총 최대 보존 시간이 93 일입니다. 2 단계 휴지통에서 항목을 삭제 하는 경우 (관리자가 수동으로 또는 보존 기간이 만료 되 면 자동으로 시작)에는 더 이상 관리자가 해당 휴지통에 액세스할 수 없습니다.
+- **SharePoint 및 OneDrive 사이트:** 사이트에 있는 파일이 나 문서를 일시 삭제 하면 사이트의 휴지통 ( *1 단계* 휴지통이 라고도 함)으로 이동 됩니다. 항목은 93일(Office 365 사이트에 대한 삭제한 항목 보존 기간) 동안 휴지통에 유지됩니다. 93 일 기간 동안 SharePoint의 사이트 모음 관리자 또는 OneDrive의 사용자 또는 관리자가 삭제 된 항목을 복구할 수 있습니다. 1 단계 휴지통에서 항목을 삭제할 수도 있습니다. 이 경우 항목은 *2 단계* 휴지통 이라고 하는 사이트 모음의 휴지통으로 이동 됩니다. 보존 기간은 1 단계 및 2 단계 휴지통에서 모두 93 일입니다. 즉, 처음에 항목을 삭제할 때 2 단계 휴지통 보존을 시작 합니다. 즉, 두 휴지통 모두에 대해 총 최대 보존 시간이 93 일입니다. 2 단계 휴지통에서 항목을 삭제 하는 경우 (관리자가 수동으로 또는 보존 기간이 만료 되 면 자동으로 시작)에는 더 이상 관리자가 해당 휴지통에 액세스할 수 없습니다.
 
 ## <a name="what-happens-if-a-content-location-is-on-hold"></a>콘텐츠 위치를 유지 하는 경우 발생 하는 작업
 

@@ -1,5 +1,7 @@
 ---
 title: 캠페인에 대해 Microsoft 365에 로그인
+f1.keywords:
+- NOCSH
 ms.author: supotter
 author: supotter
 manager: scotv
@@ -20,12 +22,12 @@ search.appverid:
 - BCS160
 - MET150
 description: 캠페인에 대해 Microsoft 365에 로그인 합니다. Cybersecurity 위협 으로부터 전자 메일, 데이터 및 통신으로 캠페인을 보호 합니다.
-ms.openlocfilehash: be24db2a7614e312bff96e5689f58a439de224a6
-ms.sourcegitcommit: 75b97d1ff617bc4b1b0ef9135dfe6a8842ea1b52
+ms.openlocfilehash: b394eb0753394825d3398abda03442cd944222b9
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35772445"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41594779"
 ---
 # <a name="sign-in-to-microsoft-365-for-campaigns"></a>캠페인에 대해 Microsoft 365에 로그인
 

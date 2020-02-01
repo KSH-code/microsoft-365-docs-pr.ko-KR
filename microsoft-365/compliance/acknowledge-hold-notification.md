@@ -1,5 +1,7 @@
 ---
 title: 보류 알림 승인
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: 법적 조사의 일환으로 전자적으로 저장 된 정보를 보존 하도록 custodians에 게 알려야 할 수도 있습니다. Advanced eDiscovery를 사용 하면 보존 알림 프로세스를 쉽게 관리할 수 있습니다.
-ms.openlocfilehash: 477396e9b249de0edbbe52c5310abe21a825a3e8
-ms.sourcegitcommit: 8ac1b6586678035050fc422e6fb503fa478be397
+ms.openlocfilehash: f1a2d4eb03f84df12611115670d52568d6b13d80
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40962374"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41594071"
 ---
 # <a name="acknowledge-a-hold-notification"></a>보류 알림 승인
 

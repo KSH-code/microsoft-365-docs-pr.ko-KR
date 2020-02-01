@@ -1,5 +1,7 @@
 ---
 title: 확인 되지 않은 보낸 사람
+f1.keywords:
+- NOCSH
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
@@ -13,12 +15,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: 피싱 메시지가 사서함에 도착 하지 않도록 하기 위해 웹에서 Outlook.com 및 Outlook은 보낸 사람이 누구 인지를 확인 하 고 의심 스러운 메시지를 정크 메일로 표시 합니다.
-ms.openlocfilehash: b2f66e3aa275c01baf2b8bde3bcca2c3072b5443
-ms.sourcegitcommit: 3f8957ddd04b8710bb5f314a0902fdee50c7c9b7
+ms.openlocfilehash: 0dd8b54d2c8153b4200336d8c0e439f278f7ae77
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "41572704"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41598135"
 ---
 # <a name="unverified-sender"></a>확인 되지 않은 보낸 사람
 

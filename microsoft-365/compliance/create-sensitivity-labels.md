@@ -1,5 +1,7 @@
 ---
 title: 민감도 레이블 생성 및 게시
+f1.keywords:
+- NOCSH
 ms.author: cabailey
 author: cabailey
 manager: laurawi
@@ -15,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 조직의 문서 및 전자 메일을 분류하고 보호하는 데 필요한 민감도 레이블을 생성, 구성 및 게시하기 위한 지침입니다.
-ms.openlocfilehash: bef9841da49e24a99a038e9df906d523fe40e044
-ms.sourcegitcommit: 3dca80f268006658a0b721aa4f6df1224c7964dc
+ms.openlocfilehash: 3ce1f729853d514a85852221eb997c456a379dcd
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/22/2020
-ms.locfileid: "41259294"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41595535"
 ---
 # <a name="create-and-configure-sensitivity-labels-and-their-policies"></a>민감도 레이블과 해당 정책 생성 및 구성
 
@@ -69,6 +71,9 @@ ms.locfileid: "41259294"
 > 레이블 정책을 사용하여 이미 게시된 레이블을 편집하면 마법사를 완료할 때 추가 단계가 필요하지 않습니다. 예를 들어 동일한 사용자가 변경 내용을 사용할 수 있도록 새 레이블 정책에 추가하지 않아도 됩니다. 그러나 변경 사항이 사용자 및 서비스에 복제되려면 최대 24시간이 소요됩니다.
 
 레이블을 게시할 때까지 레이블을 앱이나 서비스에서 선택할 수 없습니다. 레이블을 게시하려면 [레이블 정책에 추가](#publish-sensitivity-labels-by-creating-a-label-policy)해야 합니다.
+
+> [!IMPORTANT]
+> 이 **레이블** 탭에서, 새 레이블 정책을 만들어야 하는 경우가 아니면 **레이블 게시** 탭 (또는 레이블을 편집할 때 **레이블 게시** 단추)을 선택하지 마세요. 다른 레이블이나 다른 정책 설정이 필요한 경우에만 여러 레이블 정책이 필요합니다. 레이블 정책을 최대한 적게 보유하는 것이 좋습니다. 조직에 대한 레이블 정책을 하나만 보유하는 것이 일반적입니다.
 
 ### <a name="additional-label-settings-with-office-365-security--compliance-center-powershell"></a>Office 365 보안 및 준수 센터 PowerShell를 이용한 추가 레이블 설정
 

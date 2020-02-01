@@ -1,5 +1,7 @@
 ---
 title: 비 고객을 위한 Office 365 메일을 보내는 서비스
+f1.keywords:
+- NOCSH
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
@@ -14,12 +16,12 @@ ms.assetid: 19fd3e0f-8dbf-4049-a810-2c8ee6cefd48
 ms.collection:
 - M365-security-compliance
 description: 전자 메일을 사용할 때 사용자의 신뢰를 유지 하기 위해 Microsoft는 사용자를 보호 하기 위한 다양 한 정책 및 기술을 배치 했습니다.
-ms.openlocfilehash: f98044b65b49bd9594708ea9e6f798156037ac34
-ms.sourcegitcommit: 2468bcb01625f97a322459814d81b9faad717859
+ms.openlocfilehash: f6dc3cdb4ffb20fba1dbaa8d57d5041bf1cdbeae
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39871264"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41598395"
 ---
 # <a name="services-for-non-customers-sending-mail-to-office-365"></a>비 고객을 위한 Office 365 메일을 보내는 서비스
 
@@ -38,7 +40,7 @@ ms.locfileid: "39871264"
 
 ## <a name="microsoft-support"></a>Microsoft 지원
 
-Microsoft에서는 Office 365 받은 편지함에 메일을 보내는 데 문제가 있는 사용자를 위해 몇 가지 지원 옵션을 제공 합니다. 따라서 다음 작업이 권장됩니다.
+Microsoft에서는 Office 365 받은 편지함에 메일을 보내는 데 문제가 있는 사용자를 위해 몇 가지 지원 옵션을 제공 합니다. 다음의 작업을 권장합니다.
 
 - 수신 하는 배달 못 함 보고서 (들)의 지침을 따릅니다.
 

@@ -1,5 +1,7 @@
 ---
 title: Advanced eDiscovery에서 대화 검토
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: d03df51df3c6314dcec072b5c3b8573a36c279d0
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 78997bfb6a3a77a03d95560d5f0c38eaae2dda4c
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37087561"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41595675"
 ---
 # <a name="review-conversations-in-advanced-ediscovery"></a>Advanced eDiscovery에서 대화 검토 
 
@@ -134,7 +136,7 @@ ms.locfileid: "37087561"
 
 ![내보내기](media/export.png)
 
-위한. 메타 데이터 옵션
+a. 메타 데이터 옵션
 
    - **파일 로드:** 각 개별 메시지, 전자 메일 및 문서에 대 한 메타 데이터가 포함 됩니다. 대화에서 각 메시지에 대 한 행이 하나씩 있습니다. 
 
@@ -149,7 +151,7 @@ b. 대화 옵션
      >[!NOTE]
      > 대화 파일에 주석을 적용 한 경우 이러한 주석은 개별 메시지로 전송 되지 않습니다. 
 
-&. 기타 옵션
+c. 기타 옵션
 
    - **내보낸 모든 콘텐츠에 대 한 텍스트 파일 생성:** 검토 집합에서 내보낸 각 대화에 대해 텍스트 파일을 생성 합니다. 
 

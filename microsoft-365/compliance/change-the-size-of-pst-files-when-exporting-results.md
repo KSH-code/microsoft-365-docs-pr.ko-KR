@@ -1,5 +1,7 @@
 ---
 title: EDiscovery 검색 결과를 내보낼 때 PST 파일 크기 변경
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -11,12 +13,12 @@ localization_priority: Normal
 search.appverid: MOE150
 ms.assetid: 04e9de2d-765b-457b-a98a-d0f60bfb13f2
 description: EDiscovery 검색 결과를 내보낼 때 컴퓨터로 다운로드 되는 PST 파일의 기본 크기를 변경할 수 있습니다.
-ms.openlocfilehash: 3a302164a1de6d383e2e120dd7a849e692e622eb
-ms.sourcegitcommit: e386037c9cc335c86896dc153344850735afbccd
+ms.openlocfilehash: 9deb90e688617981499bee286b95a0442fa1a1b4
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "39634005"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41595935"
 ---
 # <a name="change-the-size-of-pst-files-when-exporting-ediscovery-search-results"></a>EDiscovery 검색 결과를 내보낼 때 PST 파일 크기 변경
 

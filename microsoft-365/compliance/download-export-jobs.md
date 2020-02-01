@@ -1,5 +1,7 @@
 ---
 title: 내보내기 작업 다운로드
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Advanced eDiscovery의 검토 집합에서 내보낸 문서를 Azure 저장소 탐색기를 설치 하 고 사용 하 여 다운로드 합니다.
-ms.openlocfilehash: 412ec48865c6cb7e511e3f6068fe02d87a99f831
-ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
+ms.openlocfilehash: c92b92a91755ef641d7fd5f4ef0533065e1f8349
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38687215"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41595153"
 ---
 # <a name="download-export-jobs"></a>내보내기 작업 다운로드
 

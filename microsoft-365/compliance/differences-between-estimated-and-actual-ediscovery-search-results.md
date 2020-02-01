@@ -1,5 +1,7 @@
 ---
 title: Office 365의 예상 및 실제 eDiscovery 검색 결과 차이
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -16,12 +18,12 @@ search.appverid:
 - MOE150
 ms.assetid: 8f20ca4f-a908-46ec-99e6-9890d269ecf2
 description: 'Office 365에서 eDiscovery 도구로 실행 되는 검색에 대해 예상 및 실제 검색 결과가 달라질 수 있는 이유를 이해 합니다. '
-ms.openlocfilehash: dfa6895f464e1a10f30bd642ef6b11e0869a7e5d
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 10c948dbfc7f147011e3ab917828b5b281602fa8
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37087343"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41595253"
 ---
 # <a name="differences-between-estimated-and-actual-ediscovery-search-results-in-office-365"></a>Office 365의 예상 및 실제 eDiscovery 검색 결과 차이
 
@@ -59,7 +61,7 @@ EDiscovery 검색을 실행할 때 사용 하는 도구는 검색 조건을 충�
     
     보안 & 준수 센터에서 콘텐츠 검색 도구를 사용 하는 경우 검색 예측에 인덱싱되지 않은 항목을 포함할 수 있습니다. 검색에서 반환 된 인덱싱되지 않은 항목의 수는 세부 정보 창에 다른 예상 검색 결과와 함께 나열 됩니다. 또한 인덱싱되지 않은 항목은 모두 예상 되는 검색 결과의 전체 크기에 포함 됩니다. 검색 결과를 내보낼 때 인덱싱되지 않은 항목을 포함 하거나 포함 하지 않는 옵션을 사용할 수 있습니다. 이러한 옵션을 구성 하는 방법에 따라 예상 값과 다운로드 되는 실제 검색 결과가 서로 다를 수 있습니다. 
     
-- **모든 콘텐츠 위치를 포함 하는 콘텐츠 검색 결과 내보내기** -결과를 내보낼 검색에서 조직의 모든 콘텐츠 위치를 검색 한 경우에는 다음을 포함 하는 콘텐츠 위치의 인덱싱되지 않은 항목만 검색 조건과 일치 하는 항목을 내보냅니다. In other words, if no search results are found in a mailbox or site, then any unindexed items in that mailbox or site won't be exported. 하지만 검색 쿼리와 일치 하는 항목을 포함 하지 않는 모든 콘텐츠 위치에서 인덱싱되지 않은 항목은 예상 검색 결과에 포함 됩니다. 
+- **모든 콘텐츠 위치를 포함 하는 콘텐츠 검색 결과 내보내기** -결과를 내보낼 검색에서 조직의 모든 콘텐츠 위치를 검색 하면 검색 조건과 일치 하는 항목을 포함 하는 인덱싱되지 않은 항목만 내보내집니다. In other words, if no search results are found in a mailbox or site, then any unindexed items in that mailbox or site won't be exported. 하지만 검색 쿼리와 일치 하는 항목을 포함 하지 않는 모든 콘텐츠 위치에서 인덱싱되지 않은 항목은 예상 검색 결과에 포함 됩니다. 
     
     또한 내보낸 검색에서 특정 콘텐츠 위치를 포함 하 여 결과를 내보내려는 경우 검색에 지정 된 모든 콘텐츠 위치에서 인덱싱되지 않은 항목 (검색 조건에 따라 제외 되지 않음)을 내보냅니다. 이 경우에는 인덱싱되지 않은 항목의 예상 수와 실제로 내보낸 인덱싱되지 않은 항목 수는 같아야 합니다.
     

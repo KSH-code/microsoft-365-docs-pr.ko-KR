@@ -1,5 +1,7 @@
 ---
 title: 바로 사용 가능한 분류자 사용 (미리 보기)
+f1.keywords:
+- NOCSH
 ms.author: chrfox
 author: chrfox
 manager: laurawi
@@ -12,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 365에는 조직 전체에서 콘텐츠를 식별 하 고 레이블을 지정 하는 데 사용할 수 있는 기계 학습 분류자를 사용 하기 위한 다양 한 준비가 제공 됩니다. 이 항목에서는 이러한 분류자 사용을 위해 준비 된 사용을 준비 하는 방법을 설명 합니다.
-ms.openlocfilehash: b94a49930cc2d460fb2db5ff4ff0f441f6c7b35a
-ms.sourcegitcommit: 3dca80f268006658a0b721aa4f6df1224c7964dc
+ms.openlocfilehash: c6659bc32131948c57ad0bf7c8e3a30fbce125d9
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/22/2020
-ms.locfileid: "41259434"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41595895"
 ---
 # <a name="using-a-ready-to-use-classifier-preview"></a>바로 사용 가능한 분류자 사용 (미리 보기)
 

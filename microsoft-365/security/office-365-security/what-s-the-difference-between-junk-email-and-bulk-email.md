@@ -1,5 +1,7 @@
 ---
 title: 정크 메일과 대량 전자 메일의 차이점
+f1.keywords:
+- NOCSH
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
@@ -14,12 +16,12 @@ ms.assetid: 8079f193-1b40-4081-9e5d-d0e50dfbcc59
 ms.collection:
 - M365-security-compliance
 description: 고객의 경우에 따라 정크 메일과 대량 전자 메일 메시지의 차이점은 무엇 인가요? 이 항목의 목적은 차이점을 설명 하 고 Exchange Online 및 Exchange Online Protection (EOP)에서 모두 사용할 수 있는 다양 한 옵션에 대 한 정보를 제공 하기 위한 것입니다.
-ms.openlocfilehash: ee684fb079b11fd345eae6e2c8f5980fcbca5cb0
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: a427fd7a37ec4a5b9828a0f78a32d6e5fd54d69b
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088756"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41597985"
 ---
 # <a name="whats-the-difference-between-junk-email-and-bulk-email"></a>정크 메일과 대량 전자 메일의 차이점
 
@@ -42,6 +44,6 @@ ms.locfileid: "37088756"
   
 ### <a name="enable-bulk-mail-sensitivity-control-in-the-content-filter-policy"></a>콘텐츠 필터 정책에서 대량 메일 민감도 제어 사용
 
-대량 전자 메일 메시지에 대 한 회사 정책에 따라 관리자는 임계값을 선택 하 여 대량 전자 메일을 할당할 수 있습니다. 이 설정은 EAC에서 콘텐츠 필터 정책을 통해 구성할 수 있습니다. 자세한 [내용은 스팸 필터 정책 구성을](configure-your-spam-filter-policies.md) 참조 하십시오. 1에서 최대 대량 전자 메일을 스팸으로 표시 하 고 9에서 최대 대량 전자 메일을 배달 하도록 허용 하는 임계값 설정을 1-9에서 선택할 수 있습니다. 이 서비스는 받는 사람의 정크 메일 폴더로 메시지를 보내는 등의 구성 된 작업을 수행 합니다. 
+대량 전자 메일 메시지에 대 한 회사 정책에 따라 관리자는 임계값을 선택 하 여 대량 전자 메일을 할당할 수 있습니다. 이 설정은 EAC에서 콘텐츠 필터 정책을 통해 구성할 수 있습니다. 자세한 [내용은 스팸 필터 정책 구성을](configure-your-spam-filter-policies.md) 참조 하십시오. 1에서 최대 대량 전자 메일을 스팸으로 표시 하 고 9에서 최대 대량 전자 메일을 배달 하도록 허용 하는 임계값 설정을 1-9에서 선택할 수 있습니다. 그러면 서비스에서 받는 사람의 정크 메일 폴더로 메시지를 보내는 등의 구성된 작업을 수행합니다. 
   
 

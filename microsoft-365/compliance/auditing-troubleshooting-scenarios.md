@@ -1,5 +1,7 @@
 ---
 title: 일반적인 시나리오 문제를 해결 하기 위해 Office 365 감사 로그 검색
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,12 +16,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Office 365 감사 로그 검색 도구를 사용 하면 손상 된 계정을 조사 하거나, 사서함에 대 한 전자 메일 전달을 설정 하는 사람을 찾거나, 외부 사용자가 조직에 로그인 한 이유를 확인 하는 등의 일반적인 문제를 해결 하는 데 도움이 될 수 있습니다.
-ms.openlocfilehash: a9901168ef4c8e2d2128fb143cbe134a04fb4e2c
-ms.sourcegitcommit: 7f26840a4330b0fd29807ec091c6915d283b3dd2
+ms.openlocfilehash: b453cccb0486ab923de720edb5a6a877395b9b7d
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/26/2019
-ms.locfileid: "39603792"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41595975"
 ---
 # <a name="search-the-office-365-audit-log-to-investigate-common-support-issues"></a>Office 365 감사 로그를 검색 하 여 일반적인 지원 문제 조사
 

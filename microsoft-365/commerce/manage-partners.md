@@ -1,5 +1,7 @@
 ---
 title: 솔루션 공급자 작업
+f1.keywords:
+- NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: mnirkhe
@@ -14,12 +16,12 @@ search.appverid:
 - MET150
 description: Microsoft 공인 솔루션 공급자와 협력 하 여 조직 또는 학교에 대 한 제품 및 서비스를 구매 하 고 관리할 수 있습니다.
 keywords: 파트너, 솔루션 공급자
-ms.openlocfilehash: bb78e1a704529fd2d12ff49639913fe80b75be7a
-ms.sourcegitcommit: a7edd3840226e67e82126bb9dee423b3458fef4d
+ms.openlocfilehash: 341a353247635eab491eb0962273eeed09b31599
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/16/2019
-ms.locfileid: "36994079"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41594122"
 ---
 # <a name="working-with-solution-providers-in-microsoft-store-for-business"></a>비즈니스를 위한 Microsoft Store에서 솔루션 공급자 작업
 

@@ -1,5 +1,7 @@
 ---
 title: 고급 eDiscovery에서 스마트 태그 설정
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -15,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 ROBOTS: NOINDEX, NOFOLLOW
 description: 스마트 태그를 사용 하면 고급 eDiscovery 사례에서 콘텐츠를 검토할 때 기계 학습 기능을 적용할 수 있습니다. 스마트 태그 그룹을 사용 하 여 변호사-클라이언트 권한 모델과 같은 기계 학습 검색 모델의 결과를 표시 합니다.
-ms.openlocfilehash: 68b558cc2282cc388387f8d61825b9ee569ff32a
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 9b3e1310baa06f53a3ee1dab5c371fb67d6ab95c
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088514"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41597405"
 ---
 # <a name="set-up-smart-tags-in-advanced-ediscovery"></a>고급 eDiscovery에서 스마트 태그 설정
 

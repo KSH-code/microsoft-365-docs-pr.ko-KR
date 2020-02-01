@@ -1,18 +1,20 @@
 ---
 title: Microsoft Managed Desktop에 대 한 네트워크 구성
 description: ''
-keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 설명서
+keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
 author: jaimeo
+f1.keywords:
+- NOCSH
 ms.author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: a6397f1c78bb15e198ed75be50c51953b049ed68
-ms.sourcegitcommit: 4612c270867c148818eaa4008f45ca793f5d2a2f
+ms.openlocfilehash: 141bd55a0619fb2f007b5f9173310a1e2fe5bab1
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/08/2019
-ms.locfileid: "38074696"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41596565"
 ---
 #  <a name="network-configuration-for-microsoft-managed-desktop"></a>Microsoft Managed Desktop에 대 한 네트워크 구성
 
@@ -42,7 +44,7 @@ Microsoft 서비스  | 허용 목록에 필요한 Url
 Microsoft Managed Desktop | prod-mwaas-services-customerapi.azurewebsites.net
 도움말 보기 | \*. support.services.microsoft.com  <br>inprod.support.services.microsoft.com  <br>supportchannels.services.microsoft.com  <br>graph.windows.net  <br>login.windows.net  <br>prod-mwaas-services-customerapi.azurewebsites.net
 빠른 지원 | remoteassistance.support.services.microsoft.com <br>relay.support.services.microsoft.com <br>channelwebsdks.azureedge.net  <br>web.vortex.data.microsoft.com  <br>gateway.channelservices.microsoft.com <br>\*. lync.com
-Office 365에 대 한 Microsoft 지원 및 복구 도우미 | \*. apibasic.diagnostics.office.com  <br>\*. api.diagnostics.office.com
+Office 365용 Microsoft 고객 지원 및 복구 도우미 | \*. apibasic.diagnostics.office.com  <br>\*. api.diagnostics.office.com
  
 
 ### <a name="endpoints-allowed---other-microsoft-products"></a>끝점 허용-기타 Microsoft 제품

@@ -1,5 +1,7 @@
 ---
 title: 데이터 조사에서 구성원 추가 또는 제거
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 154273f4f55e48c959f601a00901e26e421db725
-ms.sourcegitcommit: e292e9f0181d722a11398fbd012bb84589aef052
+ms.openlocfilehash: 82bea95f1bc32dd6fd90c7ecda4a046788a9f154
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "39257016"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41594629"
 ---
 # <a name="add-or-remove-members-from-a-data-investigation"></a>데이터 조사에서 구성원 추가 또는 제거
 

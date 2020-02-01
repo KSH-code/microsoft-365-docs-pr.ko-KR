@@ -1,5 +1,7 @@
 ---
 title: 처리 검토 개요
+f1.keywords:
+- NOCSH
 ms.author: cabailey
 author: cabailey
 manager: laurawi
@@ -14,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 365에서 콘텐츠를 보존 하는 보존 레이블을 만들 때 보존 기간이 끝나면 처리 검토를 트리거하도록 선택할 수 있습니다.
-ms.openlocfilehash: a48d47c6b02ebe20ba5fb48470a2efc88aa3dbc7
-ms.sourcegitcommit: ff030461137066b0f510a5978f4b5578908e3d2b
+ms.openlocfilehash: 8dafaf45df0d681880ef513c9feab6b833c99cb8
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/15/2020
-ms.locfileid: "41123669"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41595233"
 ---
 # <a name="overview-of-disposition-reviews"></a>처리 검토 개요
 

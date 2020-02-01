@@ -1,5 +1,7 @@
 ---
 title: Exchange Online에서 S/MIME으로 서명 및 암호화 된 전자 메일 보내기/받기
+f1.keywords:
+- NOCSH
 ms.author: chrisda
 author: chrisda
 manager: dansimp
@@ -12,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: 1ce37ada-0a80-4b47-8611-d008979589ff
 description: Microsoft Outlook에서 S/MIME으로 암호화된 메시지를 보내거나 해당 메시지에 회신하는 환경은 암호화되지 않은 메시지의 환경과 매우 비슷합니다.
-ms.openlocfilehash: ccea4e3359ecb9a5b214e4d19afa3e188b1b2865
-ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
+ms.openlocfilehash: a7050ed2b2cd37b08bd2e95b90577f36086f0e85
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "39970284"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41598425"
 ---
 # <a name="send-and-receive-smime-signed-and-encrypted-email-in-exchange-online"></a>Exchange Online에서 S/MIME으로 서명 및 암호화 된 전자 메일 보내기/받기
 

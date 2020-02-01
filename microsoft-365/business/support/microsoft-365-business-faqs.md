@@ -2,6 +2,8 @@
 title: Microsoft 365 Business 질문과 대답 
 description: Microsoft 365 Business, 소규모 및 중소기업 (SMB)에 대해 설계 된 새로운 솔루션에 대해 가장 자주 묻는 질문에 대 한 대답을 확인할 수 있습니다. 
 author: Sirkkuw
+f1.keywords:
+- NOCSH
 ms.author: sirkkuw
 ms.topic: article 
 ms.prod: microsoft-365-business
@@ -10,19 +12,19 @@ localization_priority: Normal
 audience: microsoft-business 
 keywords: Microsoft 365 Business, Microsoft 365, SMB, FAQ, 질문과 대답, 답변, 비즈니스
 ms.date: 06/08/2018
-ms.openlocfilehash: 09a155c87bf90309f8a4cdd2eb5c0b71d2337d58
-ms.sourcegitcommit: b535fe233234fd25146cfe15478e20d954f71e03
+ms.openlocfilehash: 706646eae722b0040db2a5bd7bcf187f5e1295bf
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "38748374"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41594231"
 ---
 # <a name="microsoft-365-business-frequently-asked-questions"></a>Microsoft 365 Business 질문과 대답
 
 ## <a name="general"></a>일반
 
 ### <a name="what-is-microsoft-365-business"></a>Microsoft 365 Business란 무엇인가요? 
-Microsoft 365는 중소 규모 기업을 위해 최고의 생산성 도구, 보안 및 장치 관리 기능을 함께 제공 하는 통합 솔루션입니다. 여기에는 다음이 포함 됩니다.
+Microsoft 365는 중소 규모 기업을 위해 최고의 생산성 도구, 보안 및 장치 관리 기능을 함께 제공 하는 통합 솔루션입니다. 이 목록에는 다음과 같은 내용이 포함됩니다.
 
 **비즈니스 생산성 및 공동 작업 도구 집합** 
 * Word, Excel, PowerPoint, Outlook, OneNote, Publisher 및 Access 

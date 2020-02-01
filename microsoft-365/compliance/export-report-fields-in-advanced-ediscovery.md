@@ -1,5 +1,7 @@
 ---
 title: Office 365 Advanced eDiscovery에서 보고서 필드 내보내기
+f1.keywords:
+- NOCSH
 ms.author: chrfox
 author: chrfox
 manager: laurawi
@@ -13,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 840a5aff-ecd0-4e56-ad22-fe99bc143687
 description: 고급 eDiscovery에 대 한 내보내기 보고서에 포함 되는 모든 필드에 대해 설명 합니다.
-ms.openlocfilehash: cc585fcabefa9036d91162b6418c3e5e9c752378
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: facd93422bbe41a9dc8c5f252cf08eab7fb308f2
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40805841"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41594619"
 ---
 # <a name="export-report-fields-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery에서 보고서 필드 내보내기
 
@@ -73,7 +75,7 @@ ms.locfileid: "40805841"
 |Marked_as_seed  <br/> |적합성  <br/> |파일에 태그를 지정 하 여 문제/범주에 따라 관련성 있는 시드 파일로 설정 된 경우  <br/> |예  <br/> |예  <br/> |
 |Marked_as_pre 태그가 지정 된  <br/> |적합성  <br/> |파일에 태그를 지정 하 여 문제/범주에 대 한 관련성을 사전에 설명한 것으로 설정 된 경우  <br/> |예  <br/> |예  <br/> |
 |Relevance_status_description  <br/> |적합성  <br/> |관련성 상태에 대 한 설명입니다.  <br/> |예  <br/> |예  <br/> |
-|댓글  <br/> |일반  <br/> |사용자가 입력 한 메모입니다.  <br/> |예  <br/> |예  <br/> |
+|Comment  <br/> |일반  <br/> |사용자가 입력 한 메모입니다.  <br/> |예  <br/> |예  <br/> |
 |Export_input_path  <br/> |처리  <br/> |내보내기 입력 경로입니다.  <br/> |예  <br/> |예  <br/> |
 |Pivot_ID  <br/> |중복에 근접  <br/> |파일의 피벗 ID입니다.  <br/> |예  <br/> |예  <br/> |
 |Family_size  <br/> |처리  <br/> |패밀리에 있는 파일의 수입니다.  <br/> |예  <br/> |예  <br/> |

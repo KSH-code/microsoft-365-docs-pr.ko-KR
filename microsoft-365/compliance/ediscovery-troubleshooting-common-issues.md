@@ -1,5 +1,7 @@
 ---
 title: 일반적인 eDiscovery 문제 해결
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -16,12 +18,12 @@ search.appverid:
 ms.assetid: ''
 description: Office 365 eDiscovery에서 일반적인 문제를 조사 하 고 문제를 해결 하 고 해결 합니다.
 siblings_only: true
-ms.openlocfilehash: 37e92e480759601f9dfe61430bdd647b20df051d
-ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
+ms.openlocfilehash: c8eb4a330ab565900a685959ab1291990a6119bb
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38687216"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41595133"
 ---
 # <a name="investigate-troubleshoot-and-resolve-common-ediscovery-issues"></a>일반적인 eDiscovery 문제 조사, 문제 해결 및 해결
 

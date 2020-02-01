@@ -1,5 +1,7 @@
 ---
 title: 조사에서 데이터 검색
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: bcd7f3f38f53ef22fc50823f3d2e3564af333431
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 62d42c29182a81cfa133c5d8863add56aba29be3
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37087204"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41597555"
 ---
 # <a name="search-for-data-in-an-investigation"></a>조사에서 데이터 검색
 
@@ -27,7 +29,7 @@ ms.locfileid: "37087204"
 
 검색을 실행 한 후 검색 쿼리와 일치 하는 항목의 수가 가장 많은 콘텐츠 위치와 같이 검색할 때 반환 되는 항목에 대 한 통계를 볼 수 있습니다. 또한 결과의 하위 집합을 미리 볼 수도 있습니다. 더 자세히 조사할 문서 집합을 식별 한 후에는 검색 결과를 세부 정보 집합에 추가 하 여 더 나아가 프로세스를 진행 하 고 분석할 수 있습니다.
 
-## <a name="create-a-search"></a>Create a search
+## <a name="create-a-search"></a>검색 만들기
 
 1. 조사에서 **검색** 탭을 클릭 한 다음 **새 검색**을 클릭 합니다. 
 

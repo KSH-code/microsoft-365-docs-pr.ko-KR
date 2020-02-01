@@ -1,5 +1,7 @@
 ---
 title: 웹상의 Outlook에서 정크 메일 보고 기능 해제
+f1.keywords:
+- NOCSH
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
@@ -11,12 +13,12 @@ ms.assetid: 8d57fe9e-57b8-4884-9317-80b380804b4a
 ms.collection:
 - M365-security-compliance
 description: Office 365 관리자는 사용자가 전자 메일을 정크 메일로 보고 하는 기능을 해제할 수 있습니다.
-ms.openlocfilehash: 46ce4de8fa6ea14c81041208864957cbc73aebf5
-ms.sourcegitcommit: 2468bcb01625f97a322459814d81b9faad717859
+ms.openlocfilehash: 0bca03786d0335c24e48340e588510f09d6f6a7e
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39871284"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41598125"
 ---
 # <a name="turn-off-junk-email-reporting-in-outlook-on-the-web"></a>웹상의 Outlook에서 정크 메일 보고 기능 해제
 

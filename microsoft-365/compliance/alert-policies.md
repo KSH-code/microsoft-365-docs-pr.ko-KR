@@ -1,5 +1,7 @@
 ---
 title: 보안 및 준수 센터의 경고 정책
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -15,12 +17,12 @@ search.appverid:
 - MOE150
 ms.assetid: 8927b8b9-c5bc-45a8-a9f9-96c732e58264
 description: 잠재적인 위협, 데이터 손실 및 사용 권한 문제를 모니터링 하려면 Office 365 및 Microsoft 365의 보안 및 준수 센터에서 알림 정책을 만듭니다. 그런 다음 사용자가 경고 정책의 조건과 일치 하는 작업을 수행할 때 생성 되는 경고를 보고 관리할 수 있습니다.
-ms.openlocfilehash: 8d76a93c569093f6a632984ec96db0d0aeb9c218
-ms.sourcegitcommit: 48a45b0d2c60d4d79669174f462603a43f272875
+ms.openlocfilehash: 025bf927b194a7faa6357dbabc12a424fe3f3124
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/18/2020
-ms.locfileid: "41233799"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41596105"
 ---
 # <a name="alert-policies-in-the-security-and-compliance-center"></a>보안 및 준수 센터의 경고 정책
 
@@ -102,7 +104,7 @@ Office 365에서는 Exchange 관리자 권한 남용, 맬웨어 활동, 잠재�
 
 또한이 표에는 Office 365 Enterprise 및 Office 365 US 정부 요금제가 나와 있습니다. 조직에 E1/F1/G1 또는 E3/G3 구독 외에 적절 한 추가 기능 구독이 있는 경우 일부 기본 경고 정책을 사용할 수 있습니다.
 
-|**기본 경고 정책**|**설명**|**범주**|**Office 365 Enterprise 구독**|
+|**기본 경고 정책**|**설명**|**종류**|**Office 365 Enterprise 구독**|
 |:-----|:-----|:-----|:-----|
 |**잠재적으로 악의적인 URL 클릭이 검색 되었습니다.**|조직의 [Office 365 ATP 안전 링크](../security/office-365-security/atp-safe-links.md) 에서 보호 된 사용자가 악의적인 링크를 클릭 하면 경고를 생성 합니다. 이 이벤트는 URL 결과 변경 내용이 Office 365 ATP에서 식별 되거나 사용자가 조직의 Office 365 ATP 안전한 링크 페이지를 다시 365 정의할 때 발생 합니다. 이 경고 정책의 심각도는 **높은** 설정입니다. Office 365 ATP P2, E5, G5 고객의 경우이 경고는 [Office 365에서 자동 조사 및 응답](https://go.microsoft.com/fwlink/?linkid=2084737)을 자동적으로 트리거합니다. 이 경고를 트리거하는 이벤트에 대 한 자세한 내용은 [Office 365 ATP 안전한 링크 정책 설정을](../security/office-365-security/set-up-atp-safe-links-policies.md)참조 하십시오.|위협 관리|E5/G5 또는 Office 365 ATP P2 추가 기능 구독|
 |**관리자 전송 결과 완료**|[관리자 전송](../security/office-365-security/admin-submission.md) 에서 전송 된 엔터티의 다시 검사가 완료 되 면 경고를 생성 합니다. 관리자 전송에서 다시 검사 결과가 렌더링 될 때마다 경고가 트리거됩니다. 이러한 경고는 [이전 전송 결과를 검토](https://protection.office.com/reportsubmission)하 고, 사용자가 보고 한 메시지를 제출 하 여 최신 정책 검사를 받고, verdicts을 다시 검사 하 고, 조직의 필터링 정책에 의도 한 영향이 있는지를 확인 하는 데 도움이 됩니다. 이 정책의 심각도 설정은 **낮습니다** .|위협 관리|E1/F1, E3 또는 E5|

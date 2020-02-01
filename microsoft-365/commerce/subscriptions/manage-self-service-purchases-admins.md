@@ -1,5 +1,7 @@
 ---
 title: 관리자 (셀프 서비스 구입) 관리
+f1.keywords:
+- NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: mnirkhe
@@ -12,12 +14,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: 관리자는 조직의 사용자가 만든 셀프 서비스 구매를 관리 하는 방법을 확인할 수 있습니다.
-ms.openlocfilehash: 4cd59bc10d6a6a856932c8bd94e67469217c1313
-ms.sourcegitcommit: 3c296126ba69a32af07e339f2f1eacdd8e5b878e
+ms.openlocfilehash: 5db942b42f398e8951da43add7013569af52c53f
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41120230"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41594112"
 ---
 # <a name="manage-self-service-purchases-admin"></a>셀프 서비스 구입 관리 (관리자)
 

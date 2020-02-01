@@ -1,5 +1,7 @@
 ---
 title: 셀프 서비스 구매 FAQ
+f1.keywords:
+- NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: mnirkhe
@@ -13,19 +15,19 @@ search.appverid:
 - MET150
 description: 셀프 서비스 구매에 대 한 일반적인 질문과 대답을 확인할 수 있습니다.
 ms.custom: aka.ms/self-service-purchase-faq
-ms.openlocfilehash: 8671492680eba730bf123036a4bb347d055f686d
-ms.sourcegitcommit: 3c296126ba69a32af07e339f2f1eacdd8e5b878e
+ms.openlocfilehash: 9f456c992cda6fcfafd1a0d5faa68dba42a894d8
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41120159"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41594102"
 ---
 # <a name="self-service-purchase-faq"></a>셀프 서비스 구매 FAQ
 
 > [!NOTE]
 > 이 문서의 정보는 Microsoft Power Platform (Power BI, Power Apps 및 Power 자동화) 구독에만 적용 됩니다.
 
-이제 미국에서 Power BI에 대 한 셀프 서비스 구매를 사용할 수 있습니다.
+이제 미국에서 전원 플랫폼에 셀프 서비스 구매를 사용할 수 있습니다.
 
 ## <a name="general"></a>일반
 
@@ -43,7 +45,7 @@ ms.locfileid: "41120159"
 
 ### <a name="which-power-platform-products-are-available-for-self-service-purchase"></a>셀프 서비스를 구매 하는 데 사용할 수 있는 Power Platform 제품은 무엇입니까?
 
-Microsoft는 미국의 고객에 게 Power BI에 대 한 셀프 서비스 구매를 시작 했으며, 향후 달에 추가 시장을 사용할 수 있습니다. 미국, 2020 년 1 월 28 일에 고객을 위해 전원 앱과 전원 자동화가 추가 됩니다. 지금은 정부, 비영리 또는 교육 인 테 넌 트에는이 기능을 사용할 수 없습니다.
+Microsoft는 미국에 있는 고객에 게 Power BI, Power Apps 및 파워 자동화를 위한 셀프 서비스 구매를 시작 했으며, 향후 달에 추가 시장을 사용할 수 있습니다. 지금은 정부, 비영리 또는 교육 인 테 넌 트에는이 기능을 사용할 수 없습니다.
 
 ### <a name="will-self-service-purchase-be-enabled-for-services-beyond-the-power-platform-products"></a>파워 플랫폼 제품 이외의 서비스에 셀프 서비스 구매를 사용할 수 있나요?
 

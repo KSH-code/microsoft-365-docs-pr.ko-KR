@@ -1,5 +1,7 @@
 ---
 title: 상업용 고객을 위한 결제 서비스 지시어 2 및 강력한 고객 인증
+f1.keywords:
+- NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: mnirkhe
@@ -14,12 +16,12 @@ search.appverid:
 - MET150
 description: 결제를 처리 하려면 먼저 온라인 구매를 수행 하는 사용자의 id를 확인 하는 데 유럽 경제 분야의 31 개국 년 9 월 2019 14 일에 시작 하는 것이 필요 합니다.
 keywords: 결제 서비스 지시어 2, 강력한 고객 인증, 다단계 인증
-ms.openlocfilehash: 1e9272803fd592062676e3324d172560b6b2219b
-ms.sourcegitcommit: 1e3916bbe94d4fbb858566e7db5018e1e46bcd0d
+ms.openlocfilehash: f59808d3735f10b57ed5c0cd279b6703b24a44a4
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/23/2019
-ms.locfileid: "37646448"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41594709"
 ---
 # <a name="payment-services-directive-2-and-strong-customer-authentication-for-commercial-customers"></a>상업용 고객을 위한 결제 서비스 지시어 2 및 강력한 고객 인증
 

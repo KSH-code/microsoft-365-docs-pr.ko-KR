@@ -1,5 +1,7 @@
 ---
 title: Office 365 보안 로드맵-처음 30 일, 90 일 및 그 이상에 대 한 주요 우선 순위
+f1.keywords:
+- NOCSH
 ms.author: bcarter
 author: BrendaCarter
 manager: laurawi
@@ -16,18 +18,18 @@ search.appverid:
 - MET150
 ms.assetid: 28c86a1c-e4dd-4aad-a2a6-c768a21cb352
 description: 'Office 365 환경을 보호 하기 위한 보안 기능을 구현 하기 위한 Microsoft의 cybersecurity 팀의 주요 권장 사항입니다. '
-ms.openlocfilehash: 31dff93deca17fb5ba57ea16724d20a7ae0e187a
-ms.sourcegitcommit: 03a83ff76c8162b850c4c552759c49f2a4750574
+ms.openlocfilehash: c668bb736e6d9f788fe2c54e8a49adbfd4156f43
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/26/2020
-ms.locfileid: "41558645"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41598435"
 ---
 # <a name="office-365-security-roadmap---top-priorities-for-the-first-30-days-90-days-and-beyond"></a>Office 365 보안 로드맵-처음 30 일, 90 일 및 그 이상에 대 한 주요 우선 순위
 
 이 문서에는 Office 365 환경을 보호 하기 위한 보안 기능을 구현 하기 위한 Microsoft의 cybersecurity 팀의 주요 권장 사항이 포함 되어 있습니다. 이 문서는 Microsoft Ignite session [, cybersecurity pro와 같은 보안 Office 365, 처음 30 일, 90 일 및 그 이상에 대 한 최고 우선 순위](https://www.youtube.com/watch?v=luignzNyR-o)를 통해 적용 됩니다. 이 세션은 Mark Simos 및 Matt Kemelhar, Enterprise Cybersecurity 설계자를 통해 개발 및 제시 되었습니다.
 
-이 문서의 내용
+이 문서의 내용:
 
 - [로드맵 결과](security-roadmap.md#Roadmap)
 

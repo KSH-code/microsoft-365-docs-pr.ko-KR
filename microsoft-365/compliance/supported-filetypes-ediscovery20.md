@@ -1,5 +1,7 @@
 ---
 title: 고급 eDiscovery에서 지원 되는 파일 형식
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: 지원 되는 파일 형식 목록 (Microsoft 365 Advanced eDiscovery) 여기에는 Advanced eDiscovery의 OCR 기능에서 지 원하는 이미지 파일 형식 목록이 포함 됩니다.
-ms.openlocfilehash: ff9fdc77226ee476de3fe89a980b2658720749bf
-ms.sourcegitcommit: caa3f681a68daf5e463093a922c3d6f378143d91
+ms.openlocfilehash: 562b39664dd29ff3cf738e0d3ded7cc2f0cbb21c
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/22/2019
-ms.locfileid: "39191243"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41597385"
 ---
 # <a name="supported-file-types-in-advanced-ediscovery"></a>고급 eDiscovery에서 지원 되는 파일 형식
 

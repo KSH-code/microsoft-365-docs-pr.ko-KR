@@ -1,5 +1,7 @@
 ---
 title: Exchange Online 사서함에 저장 된 콘텐츠
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -15,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 ROBOTS: NOINDEX, NOFOLLOW
 description: Office 365에서 클라우드 기반 앱에 의해 생성 된 데이터는 Microsoft 클라우드의 사용자 Exchange Online 사서함에 저장 됩니다.
-ms.openlocfilehash: d2d126d28a9b92962af7637610282e99e7685594
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: f9db94eebf855a2d8dcfee8897ca6171eabbc400
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088649"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41597195"
 ---
 # <a name="content-stored-in-exchange-online-mailboxes"></a>Exchange Online 사서함에 저장 된 콘텐츠
 
@@ -30,10 +32,10 @@ Exchange Online의 사서함은 주로 메시지, 일정 항목, 작업 및 메�
 
 |Office 365 앱  |설명  |
 |:---------|:---------|
-|Forms     <br/> |양식 (PDF 파일로 저장)과 양식 (CSV 파일에 저장 됨)에 대 한 응답은 전자 메일 메시지에 첨부 되 고 양식을 만든 사용자의 사서함에 있는 숨겨진 폴더에 저장 됩니다. PST 파일의 양식에서 콘텐츠를 내보낼 때이 데이터 **는 다음과 같은**guid (globally unique identification)가 지정 된 하위 폴더의 **ApplicationDataRoot** 폴더에 있습니다.        <br/> |
+|양식     <br/> |양식 (PDF 파일로 저장)과 양식 (CSV 파일에 저장 됨)에 대 한 응답은 전자 메일 메시지에 첨부 되 고 양식을 만든 사용자의 사서함에 있는 숨겨진 폴더에 저장 됩니다. PST 파일의 양식에서 콘텐츠를 내보낼 때이 데이터 **는 다음과 같은**guid (globally unique identification)가 지정 된 하위 폴더의 **ApplicationDataRoot** 폴더에 있습니다.        <br/> |
 |Office 365 그룹    <br/>|  전자 메일 메시지, 일정 항목, 연락처 (사용자), 메모 및 작업은 Office 365 그룹과 연결 된 사서함에 저장 됩니다.       <br/> |
 |Outlook/Exchange Online<br/>|  전자 메일 메시지, 일정 항목, 연락처 (사용자), 메모 및 작업은 사용자의 사서함에 저장 됩니다.       <br/> |
-|피플    <br/> |  사용자 앱 (Outlook에서 액세스할 수 있는 연락처와 같은 대화 상대 응용 프로그램)의 대화 상대는 user의 사서함에 저장 됩니다.      <br/> |
+|사람    <br/> |  사용자 앱 (Outlook에서 액세스할 수 있는 연락처와 같은 대화 상대 응용 프로그램)의 대화 상대는 user의 사서함에 저장 됩니다.      <br/> |
 |클래스 일정     <br/> |   클래스 일정에서 만든 요금제는 새 요금제를 만들 때 프로 비전 되는 해당 Office 365 그룹의 사서함에 저장 됩니다. 그룹 사서함의 별칭은 계획의 이름입니다.      <br/> |
 |비즈니스용 Skype    <br/>  | 비즈니스용 Skype의 대화는 사용자 사서함의 대화 내용 폴더에 저장 됩니다. Skype 모임 참가자의 사서함을 소송 보존으로 설정 하거나 보관 정책에 할당 하는 경우 모임에 첨부 된 파일이 참가자 사서함에 보존 됩니다.         <br/> |
 |Sway     <br/> |  Sway는 전자 메일 메시지에 첨부 되 고 sway를 만든 사용자의 사서함에 있는 숨겨진 폴더에 저장 되는 HTML 파일로 저장 됩니다. PST 파일의 Sway에서 콘텐츠를 내보낼 때이 데이터는 **905fcf26-4eb7-48a0-9ff0-8dcc7194b5ba**라는 하위 폴더의 **ApplicationDataRoot** 폴더에 있습니다.       <br/> |

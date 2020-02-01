@@ -1,5 +1,7 @@
 ---
 title: 규정 준수 점수 계산
+f1.keywords:
+- NOCSH
 ms.author: chvukosw
 author: chvukosw
 manager: laurawi
@@ -12,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 규정 준수 점수가 위험을 해결 하 고 준수 상태를 개선 하기 위해 수행한 조치에 따라 개인 설정 점수를 계산 하는 방법을 이해 합니다.
-ms.openlocfilehash: 9fbc2b2beca3a667b09c1a4ba790651a364d1bf0
-ms.sourcegitcommit: e872676ec98036a50d3a0cb5071109ea5f5a7ae5
+ms.openlocfilehash: 1ee9410e3b40a8180d768945a643d3e52c29046b
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2020
-ms.locfileid: "41515579"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41596245"
 ---
 # <a name="microsoft-compliance-score-preview-calculation"></a>Microsoft 규정 준수 점수 (미리 보기) 계산
 
@@ -80,8 +82,8 @@ ms.locfileid: "41515579"
 |:-----|:-----|
 | 예방적 필수 | kb(56kbps |
 | 예방적 임의 | 9  |
-| 예방용 인지 필수 | 3(sp3) |
-| 예방용 인지 임의 | 개 |
-| 정정 필수 | 3(sp3) |
-| 정정 임의 | 개 |
+| 예방용 인지 필수 | 3  |
+| 예방용 인지 임의 | 1  |
+| 정정 필수 | 3  |
+| 정정 임의 | 1  |
   

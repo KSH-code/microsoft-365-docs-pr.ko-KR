@@ -1,5 +1,7 @@
 ---
 title: Office 365에서 사용자 및 관리 활동에 대 한 감사 로그 검색
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -11,17 +13,17 @@ localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 search.appverid: MOE150
 ms.assetid: 57ca5138-0ae0-4d34-bd40-240441ef2fb6
-description: Office 365 감사 로그는 통합 된 감사 로그입니다. 통합 감사 로그가 왜 있나요? 조직에서 구독 하는 대부분의 Office 365 서비스에서 발생 한 이벤트는 검색할 수 있는 단일 감사 로그에 기록 됩니다. 즉, 다음 서비스에서 사용자 및 관리자 활동을 검색할 수 있습니다.
-ms.openlocfilehash: 1d3f45d24a8d1a83c20f5d36b12ced761e00f936
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+description: Office 365 감사 로그는 통합 된 감사 로그입니다. 통합된 감사 로그를 사용하는 이유는 무엇일까요? 조직에서 구독 하는 대부분의 Office 365 서비스에서 발생 한 이벤트는 검색할 수 있는 단일 감사 로그에 기록 됩니다. 즉, 다음 서비스에서 사용자 및 관리자 활동을 검색할 수 있습니다.
+ms.openlocfilehash: 82ed3c1afd4f59136b04120982ddb1433f4dd0eb
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088548"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41597535"
 ---
 # <a name="search-the-audit-log-for-user-and-admin-activity-in-office-365"></a>Office 365에서 사용자 및 관리 활동에 대 한 감사 로그 검색
 
-Office 365 감사 로그는 통합 된 감사 로그입니다. 통합 감사 로그가 왜 있나요? 조직에서 구독 하는 대부분의 Office 365 서비스에서 발생 한 이벤트는 검색할 수 있는 단일 감사 로그에 기록 됩니다. 즉, 다음 서비스에서 사용자 및 관리자 활동을 검색할 수 있습니다. 
+Office 365 감사 로그는 통합 된 감사 로그입니다. 통합된 감사 로그를 사용하는 이유는 무엇일까요? 조직에서 구독 하는 대부분의 Office 365 서비스에서 발생 한 이벤트는 검색할 수 있는 단일 감사 로그에 기록 됩니다. 즉, 다음 서비스에서 사용자 및 관리자 활동을 검색할 수 있습니다. 
   
 - SharePoint
 - OneDrive

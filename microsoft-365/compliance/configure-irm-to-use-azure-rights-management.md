@@ -1,5 +1,7 @@
 ---
 title: Azure 권한 관리를 사용 하도록 IRM 구성
+f1.keywords:
+- NOCSH
 ms.author: krowley
 author: kccross
 manager: laurawi
@@ -14,12 +16,12 @@ ms.assetid: 1b1f8c8b-f3b4-439b-910c-cf2f89a07a15
 ms.collection:
 - M365-security-compliance
 description: Office 365 메시지 암호화 (OME)의 새로운 기능을 출시할 때 더 이상 IRM을 별도로 설정할 필요가 없습니다. Microsoft는 Azure 권한 관리와 함께 레거시 OME 및 IRM을 사용 하 여 새 배포를 설정 하는 것은 권장 하지 않습니다. 새 OME 기능에 대 한 자세한 내용은 Office 365 메시지 암호화 FAQ를 참조 하십시오. 조직 내에서 새 OME 기능을 사용할 준비가 되 면 Set up Office 365 Message Encryption capabilities for the Azure Information Protection를 참조 하세요.
-ms.openlocfilehash: c49c12cc48ace170dd0a22e9c99f9643a95a19a0
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: c7b3314e69691810b0ac8e311b5230244166ee2d
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37087636"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41595705"
 ---
 # <a name="configure-irm-to-use-azure-rights-management"></a>Azure 권한 관리를 사용 하도록 IRM 구성
 

@@ -1,5 +1,7 @@
 ---
 title: DLP 정책 템플릿에 포함되는 내용
+f1.keywords:
+- NOCSH
 ms.author: chrfox
 author: chrfox
 manager: laurawi
@@ -15,17 +17,17 @@ localization_priority: Normal
 search.appverid:
 - MOE150
 - MET150
-description: Office 365 보안 &amp; 및 준수 센터의 DLP (데이터 손실 방지)에는 미국 의료 보험 행동에 대 한 중요 한 정보를 보호 하는 데 도움이 되는 등의 일반적인 준수 요구 사항을 해결 하는 기본 제공 정책 템플릿이 포함 되어 있습니다. ( HIPAA), 미국 금융-Gramm-leach-bliley-Gramm-leach-bliley Act (GLBA) 또는 미국 Patriot Act 이 항목에는 모든 정책 템플릿, 사용자가 찾은 중요 한 정보의 유형 및 기본 조건 및 작업에 대 한 정보가 나와 있습니다.
-ms.openlocfilehash: aff9f5179d9bad3d8c1c97d17473a14995137c32
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+description: Office 365 보안 &amp; 준수 센터의 DLP (데이터 손실 방지)에는 GRAMM-LEACH-BLILEY (미국 의료 보험 act), 미국 금융-gramm-leach-bliley ACT (GLBA) 또는 미국 Patriot act와 같은 중요 한 정보를 보호 하는 데 도움이 되는 일반적인 준수 요구 사항을 해결 하는 사용 가능한 정책 템플릿이 포함 되어 있습니다. 이 항목에는 모든 정책 템플릿, 사용자가 찾은 중요 한 정보의 유형 및 기본 조건 및 작업에 대 한 정보가 나와 있습니다.
+ms.openlocfilehash: 6b87f8c0746611e8ae8cee917e27545ffe5e4373
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088643"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41597175"
 ---
 # <a name="what-the-dlp-policy-templates-include"></a>DLP 정책 템플릿에 포함되는 내용
 
-Office 365 보안 &amp; 및 준수 센터의 DLP (데이터 손실 방지)에는 미국 의료 보험 행동에 대 한 중요 한 정보를 보호 하는 데 도움이 되는 등의 일반적인 준수 요구 사항을 해결 하는 기본 제공 정책 템플릿이 포함 되어 있습니다. ( HIPAA), 미국 금융-Gramm-leach-bliley-Gramm-leach-bliley Act (GLBA) 또는 미국 Patriot Act 이 항목에는 모든 정책 템플릿, 사용자가 찾은 중요 한 정보의 유형 및 기본 조건 및 작업에 대 한 정보가 나와 있습니다. 이 항목에 각 정책 템플릿 구성 방식에 대한 모든 세부 사항이 나와 있지는 않지만 사용자의 상황에서 시작점으로 사용하기 가장 적합한 템플릿을 결정하는 데 충분한 정보를 제공합니다. 이러한 정책 템플릿을 특정 요구 사항에 맞게 사용자 지정할 수 있습니다.
+Office 365 보안 &amp; 준수 센터의 DLP (데이터 손실 방지)에는 GRAMM-LEACH-BLILEY (미국 의료 보험 act), 미국 금융-gramm-leach-bliley ACT (GLBA) 또는 미국 Patriot act와 같은 중요 한 정보를 보호 하는 데 도움이 되는 일반적인 준수 요구 사항을 해결 하는 사용 가능한 정책 템플릿이 포함 되어 있습니다. 이 항목에는 모든 정책 템플릿, 사용자가 찾은 중요 한 정보의 유형 및 기본 조건 및 작업에 대 한 정보가 나와 있습니다. 이 항목에 각 정책 템플릿 구성 방식에 대한 모든 세부 사항이 나와 있지는 않지만 사용자의 상황에서 시작점으로 사용하기 가장 적합한 템플릿을 결정하는 데 충분한 정보를 제공합니다. 이러한 정책 템플릿을 특정 요구 사항에 맞게 사용자 지정할 수 있습니다.
   
 ## <a name="australia-financial-data"></a>호주 재무 데이터
 
@@ -125,7 +127,7 @@ Office 365 보안 &amp; 및 준수 센터의 DLP (데이터 손실 방지)에는
 |프랑스 PII: 외부 공유 콘텐츠 검색 - 낮은 수  <br/> | 콘텐츠에 중요한 정보가 포함됨:  <br/>  프랑스 사회 보험 번호(INSEE) - 최소 개수 1, 최대 개수 9  <br/>  프랑스 운전 면허 번호 - 최소 개수 1, 최대 개수 9  <br/>  프랑스 여권 번호 - 최소 개수 1, 최대 개수 9  <br/>  프랑스 국가 ID 카드(CNI) - 최소 개수 1, 최대 개수 9  <br/>  콘텐츠 공유 대상:  <br/>  조직 외부의 사용자  <br/> |알림 보내기  <br/> |
 |프랑스 PII: 외부 공유 콘텐츠 검색 - 높은 수  <br/> | 콘텐츠에 중요한 정보가 포함됨:  <br/>  프랑스 사회 보험 번호(INSEE) - 최소 개수 10, 최대 개수 모두  <br/>  프랑스 운전 면허 번호 - 최소 개수 10, 최대 개수 모두  <br/>  프랑스 여권 번호 - 최소 개수 10, 최대 개수 모두  <br/>  프랑스 국가 ID 카드(CNI) - 최소 개수 10, 최대 개수 모두  <br/>  콘텐츠 공유 대상:  <br/>  조직 외부의 사용자  <br/> | 콘텐츠에 대한 액세스 차단  <br/>  알림 보내기  <br/>  재정의 허용  <br/>  업무 정당성 필요  <br/>  사고 보고서 보내기  <br/> |
    
-## <a name="general-data-protection-regulation-gdpr"></a>GDPR (일반 데이터 보호 규정)
+## <a name="general-data-protection-regulation-gdpr"></a>GDPR(일반 데이터 보호 규정)
 
 |**규칙 이름**|**조건 <br/> (중요 한 정보 유형 포함)**|**작업**|
 |:-----|:-----|:-----|
@@ -283,7 +285,7 @@ Office 365 보안 &amp; 및 준수 센터의 DLP (데이터 손실 방지)에는
 
 |**규칙 이름**|**조건 <br/> (중요 한 정보 유형 포함)**|**작업**|
 |:-----|:-----|:-----|
-|콘텐츠가 미국 HIPAA와 일치 합니다.  <br/> | 다음과 같은 중요 한 정보가 들어 있습니다.  <br/>  미국 SSN (사회 보장 번호)-최소 개수 1, 최대 개수 모두  <br/>  DEA (약품 집행 기관) 번호-최소 개수 1, 최대 개수 모두  <br/> **한** <br/>  콘텐츠는 다음 용어 중 하나를 포함 합니다.  <br/>  Diseases의 국제 분류 (ICD-9-CM)-최소 개수 1, 최대 개수 모두  <br/>  Diseases의 국제 분류 (ICD-10cm)-최소 개수 1, 최대 개수 모두  <br/>  콘텐츠 공유 대상:  <br/>  조직 외부의 사용자  <br/> |알림 보내기  <br/> |
+|콘텐츠가 미국 HIPAA와 일치 합니다.  <br/> | 다음과 같은 중요 한 정보가 들어 있습니다.  <br/>  미국 SSN (사회 보장 번호)-최소 개수 1, 최대 개수 모두  <br/>  DEA (약품 집행 기관) 번호-최소 개수 1, 최대 개수 모두  <br/> **AND** <br/>  콘텐츠는 다음 용어 중 하나를 포함 합니다.  <br/>  Diseases의 국제 분류 (ICD-9-CM)-최소 개수 1, 최대 개수 모두  <br/>  Diseases의 국제 분류 (ICD-10cm)-최소 개수 1, 최대 개수 모두  <br/>  콘텐츠 공유 대상:  <br/>  조직 외부의 사용자  <br/> |알림 보내기  <br/> |
    
 ## <a name="us-patriot-act"></a>미국 애국법
 

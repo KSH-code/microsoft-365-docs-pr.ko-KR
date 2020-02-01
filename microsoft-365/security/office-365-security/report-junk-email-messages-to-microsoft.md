@@ -1,5 +1,7 @@
 ---
 title: Microsoft에 정크 메일 메시지 보고
+f1.keywords:
+- NOCSH
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
@@ -14,12 +16,12 @@ ms.assetid: c31406ea-2979-4fac-9288-f835269b9d2f
 ms.collection:
 - M365-security-compliance
 description: Microsoft Office Outlook용 Microsoft 정크 메일 보고 추가 기능은 정크 메일 메시지를 보고하는 다양한 방법을 제공합니다.
-ms.openlocfilehash: df4eb2ceea3233d014efe545ca5d9c7bd39a3624
-ms.sourcegitcommit: a122fd1fce523171529c7f610bb7faf09d30a8bb
+ms.openlocfilehash: a2a427f13c329c4c72f718bb19ecc0dce06f8f91
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/18/2020
-ms.locfileid: "41238415"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41598575"
 ---
 # <a name="report-junk-email-messages-to-microsoft"></a>Microsoft에 정크 메일 메시지 보고
 

@@ -1,5 +1,7 @@
 ---
 title: 정보 관리 정책 만들기 및 적용
+f1.keywords:
+- NOCSH
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
@@ -18,12 +20,12 @@ ms.collection:
 - M365-security-compliance
 - SPO_Content
 description: 정보 관리 정책을 사용 하면 조직이 콘텐츠를 보존 하는 기간을 제어 하 고, 사용자가 콘텐츠를 사용 하는 작업을 감사 하 고, 문서에 바코드 또는 레이블을 추가할 수 있습니다. 정책은 법적 및 정부 규정 또는 내부 비즈니스 프로세스에 대 한 준수를 보장 하는 데 도움이 될 수 있습니다. 관리자는 문서 추적 방법 및 문서 보존 기간을 제어 하는 정책을 설정할 수 있습니다.
-ms.openlocfilehash: d8572f570db7b0223bc2f08cd78875224897e02c
-ms.sourcegitcommit: e2ed110c4c3a8434f9fcc9d610069bc77bc39220
+ms.openlocfilehash: b61c18390dde2e5d2da92189acced42ea5ece64c
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "38687154"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41595615"
 ---
 # <a name="create-and-apply-information-management-policies"></a>정보 관리 정책 만들기 및 적용
 

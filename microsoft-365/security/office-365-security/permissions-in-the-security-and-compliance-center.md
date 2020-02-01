@@ -1,5 +1,7 @@
 ---
 title: Office 365 보안 및 준수 센터의 사용 권한
+f1.keywords:
+- NOCSH
 ms.author: chrisda
 author: chrisda
 manager: dansimp
@@ -15,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 관리자는 Office 365 보안 & 준수 센터에서 제공 되는 사용 권한에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: 20627549cb49f3886dddcfe268d8645583baac73
-ms.sourcegitcommit: 5b8a1b4c71f695c6638ae943264af11084d6dc64
+ms.openlocfilehash: 209e871ee9df4bd40568bc647b4bae838ddace73
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/11/2020
-ms.locfileid: "41023382"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41598715"
 ---
 # <a name="permissions-in-the-office-365-security--compliance-center"></a>Office 365 보안 및 준수 센터의 사용 권한
 
@@ -63,7 +65,7 @@ Office 365 보안 & 준수 센터를 사용 하면 장치 관리, 데이터 손�
 |**Reviewer**|구성원은 보안 & 준수 센터의 eDiscovery 사례 페이지에 있는 사례 목록만 볼 수 있습니다. eDiscovery 사례를 만들거나, 열거나, 관리할 수는 없습니다. 이 역할 그룹의 기본 목적은 구성원이 [Office 365 Advanced ediscovery](../../compliance/office-365-advanced-ediscovery.md) ( *advanced ediscovery v1*이 라고도 함)에서 대/소문자 데이터를 보고 액세스 하도록 허용 하는 것입니다. <br/><br/> 이 역할 그룹은 가장 제한적인 eDiscovery 관련 사용 권한을 갖습니다.<br/><br/>**참고:** 현재 검토자 역할 그룹의 구성원 인 사용자는 Microsoft 365 ( *고급 ediscovery v2*라고도 함) [의 고급 eDiscovery](../../compliance/overview-ediscovery-20.md) 데이터에 액세스할 수 없습니다. 고급 eDiscovery v2에서 사례 데이터를 검토할 수 있도록 서비스 케이스에 구성원을 추가 하려면 사용자가 eDiscovery 관리자 역할 그룹의 구성원 이어야 합니다.|검토|
 |**보안 관리자**|이 역할 그룹의 구성원은 외부 파트너 그룹 및 Microsoft 지원 뿐만 아니라 서비스 간 관리자도 포함할 수 있습니다. 기본적으로이 그룹에는 역할이 할당 되지 않을 수 있습니다. 그러나 Azure Active Directory에서 보안 관리자 역할의 구성원이 되며 해당 역할의 기능이 상속 됩니다. 중앙에서 사용 권한을 관리 하려면 Azure Active Directory 관리 센터에서이 역할을 변경 해야 합니다. 자세한 내용은 [Azure Active Directory의 관리자 역할 사용 권한을](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)참조 하세요. <br/><br/> 보안 & 준수 센터에서이 역할 그룹을 편집 하는 경우, 이러한 변경 내용은 보안 & 준수 센터에만 적용 되 고 다른 서비스는 변경 되지 않지만, Azure Active Directory 관리 센터에서 변경한 내용은 모든 서비스에 영향을 줍니다. <br/><br/> 보안 독자 역할의 모든 읽기 전용 권한 및 같은 서비스에 대 한 다양 한 추가 관리 권한 (Azure Information Protection, Id 보호 센터, 권한이 부여 된 Id 관리, Office 365 서비스 상태 및 Office 365 보안 & 준수 센터)|감사 로그 <br/><br/> DLP 준수 관리 <br/><br/> 장치 관리 <br/><br/> IB 준수 관리 <br/><br/> 알림 관리 <br/><br/> 격리 <br/><br/> 보안 관리자 <br/><br/> 민감도 레이블 관리자 <br/><br/> 보기 전용 감사 로그 <br/><br/> 보기 전용 DLP 준수 관리 <br/><br/> 보기 전용 장치 관리 <br/><br/> 보기 전용 IB 준수 관리 <br/><br/> 보기 전용 알림 관리|
 |**보안 운영자**|구성원은 보안 경고를 관리할 수 있을 뿐만 아니라 보안 기능의 보고서 및 설정을 볼 수도 있습니다.|규격 검색 <br/><br/> 알림 관리 <br/><br/> 보안 읽기 권한자 <br/><br/> 보기 전용 감사 로그 <br/><br/> 보기 전용 DLP 준수 관리 <br/><br/> 보기 전용 장치 관리 <br/><br/> 보기 전용 IB 준수 관리 <br/><br/> 보기 전용 알림 관리|
-|**보안 읽기 권한자**|구성원은 Id 보호 센터의 여러 보안 기능, 권한이 부여 된 Id 관리, Office 365 서비스 상태 모니터링 및 Office 365 보안 & 준수 센터에 대 한 읽기 전용 액세스 권한이 있습니다. <br/><br/> 이 역할 그룹의 구성원은 서비스 간에 동기화 되 고 중앙에서 관리 됩니다. 이 역할 그룹의 구성원은 외부 파트너 그룹 및 Microsoft 지원 뿐만 아니라 서비스 간 관리자도 포함할 수 있습니다. 기본적으로이 그룹에는 역할이 할당 되지 않을 수 있습니다. 그러나 Azure Active Directory에서 보안 독자 역할의 구성원이 되며 해당 역할의 기능이 상속 됩니다. 중앙에서 사용 권한을 관리 하려면 Azure Active Directory 관리 센터에서이 역할을 변경 합니다-자세한 내용은 [Azure Active directory의 관리자 역할 사용 권한을](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)참조 하세요. 보안 & 준수 센터에서이 역할 그룹을 편집 하는 경우, 이러한 변경 내용은 보안 & 준수 센터에만 적용 되 고 다른 서비스는 변경 되지 않지만, Azure Active Directory 관리 센터에서 변경한 내용은 모든 서비스에 영향을 줍니다.|보안 읽기 권한자 <br/><br/> 보기 전용 DLP 준수 관리 <br/><br/> 보기 전용 장치 관리 <br/><br/> 보기 전용 IB 준수 관리 <br/><br/> 보기 전용 알림 관리|
+|**보안 독자**|구성원은 Id 보호 센터의 여러 보안 기능, 권한이 부여 된 Id 관리, Office 365 서비스 상태 모니터링 및 Office 365 보안 & 준수 센터에 대 한 읽기 전용 액세스 권한이 있습니다. <br/><br/> 이 역할 그룹의 구성원은 서비스 간에 동기화 되 고 중앙에서 관리 됩니다. 이 역할 그룹의 구성원은 외부 파트너 그룹 및 Microsoft 지원 뿐만 아니라 서비스 간 관리자도 포함할 수 있습니다. 기본적으로이 그룹에는 역할이 할당 되지 않을 수 있습니다. 그러나 Azure Active Directory에서 보안 독자 역할의 구성원이 되며 해당 역할의 기능이 상속 됩니다. 중앙에서 사용 권한을 관리 하려면 Azure Active Directory 관리 센터에서이 역할을 변경 합니다-자세한 내용은 [Azure Active directory의 관리자 역할 사용 권한을](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)참조 하세요. 보안 & 준수 센터에서이 역할 그룹을 편집 하는 경우, 이러한 변경 내용은 보안 & 준수 센터에만 적용 되 고 다른 서비스는 변경 되지 않지만, Azure Active Directory 관리 센터에서 변경한 내용은 모든 서비스에 영향을 줍니다.|보안 읽기 권한자 <br/><br/> 보기 전용 DLP 준수 관리 <br/><br/> 보기 전용 장치 관리 <br/><br/> 보기 전용 IB 준수 관리 <br/><br/> 보기 전용 알림 관리|
 |**서비스 보증 사용자**|구성원은 Office 365 보안 & 준수 센터의 서비스 보증 섹션에 액세스할 수 있습니다. 서비스 보증은 Office 365에 저장 된 고객 데이터에 대 한 Microsoft의 보안 방법을 설명 하는 보고서와 문서를 제공 합니다. 또한 Office 365에 대 한 독립 타사 감사 보고서도 제공 합니다. 자세한 내용은 [Office 365 보안 & 준수 센터의 서비스 보증](https://docs.microsoft.com/microsoft-365/compliance/service-assurance)을 참조 하세요.|서비스 보증 보기|
 |**관리 검토**|구성원은 조직에서 검토되어야 하는 통신을 정의하는 정책을 만들고 관리할 수 있습니다. 자세한 내용은 [조직에 대 한 통신 준수 정책 구성을](../../compliance/communication-compliance-configure.md)참조 하세요.|관리 검토 관리자|
 
@@ -119,7 +121,7 @@ Office 365 보안 & 준수 센터를 사용 하면 장치 관리, 데이터 손�
 |**역할 관리**|역할 그룹 구성원 자격을 관리 하 고 사용자 지정 역할 그룹을 만들거나 삭제 합니다.|조직 관리|
 |**검색 및 제거**|사용자가 콘텐츠 검색 조건과 일치 하는 데이터를 대량으로 제거할 수 있습니다.|조직 관리|
 |**보안 관리자**|보안 기능에 대 한 구성 및 보고서를 보고 편집 합니다.|조직 관리 <br/><br/> 보안 관리자|
-|**보안 읽기 권한자**|보안 기능에 대 한 구성 및 보고서를 확인 합니다.|조직 관리 <br/><br/> 보안 운영자 <br/><br/> 보안 읽기 권한자|
+|**보안 독자**|보안 기능에 대 한 구성 및 보고서를 확인 합니다.|조직 관리 <br/><br/> 보안 운영자 <br/><br/> 보안 읽기 권한자|
 |**민감도 레이블 관리자**|민감도 레이블을 보고, 만들고, 수정 하 고, 제거 합니다.|준수 데이터 관리자 <br/><br/> 조직 관리 <br/><br/> 보안 관리자|
 |**서비스 보증 보기**|서비스 보증 섹션에서 사용 가능한 문서를 다운로드 합니다. 콘텐츠에는 규정 준수 및 보안 위험을 관리 하기 위해 Office 365 기능을 사용 하는 독립적인 감사, 규정 준수 설명서 및 신뢰 관련 지침이 포함 되어 있습니다.|서비스 보증 사용자 <br/><br/> 조직 관리|
 |**관리 검토 관리자**|검토할 의사 소통 및 검토를 수행할 사용자를 포함 하 여 관리 검토 정책을 관리 합니다.|관리 검토|

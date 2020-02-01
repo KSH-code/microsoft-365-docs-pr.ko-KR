@@ -1,5 +1,7 @@
 ---
 title: 보류된 사물함의 복구 가능한 항목 할당량 증가
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: a8bdcbdd-9298-462f-b889-df26037a990c
 description: '보관 사서함을 사용 하도록 설정 하 고 자동 확장 보관을 설정 하 여 Office 365에서 사서함에 대 한 복구 가능한 항목 폴더의 크기를 늘립니다. '
-ms.openlocfilehash: 266437d77ba4f3a82fa69db6a997fd58748fa834
-ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
+ms.openlocfilehash: 4b93c8be01e9d84fb2c2bf93ed67b2ea1b18e812
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38687205"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41597935"
 ---
 # <a name="increase-the-recoverable-items-quota-for-mailboxes-on-hold"></a>보류된 사물함의 복구 가능한 항목 할당량 증가
 
@@ -61,7 +63,7 @@ Exchange Online의 사서함에 대 한 보존을 설정 하면이 제한을 초
 
 첫 번째 단계는 복구 가능한 항목 폴더에 대하여 사용자 지정 보존 태그(보존 정책 태그 또는 RPT라고 함)를 만드는 것입니다. 앞서 설명된 바와 같이 이 RPT는 사용자의 기본 사서함에 있는 복구 가능한 항목 폴더의 항목을 사용자의 보관 사서함에 있는 복구 가능한 항목 폴더로 이동합니다. PowerShell을 사용 하 여 복구 가능한 항목 폴더에 대 한 RPT를 만들어야 합니다. EAC(Exchange 관리 센터)는 사용할 수 없습니다. 
   
-1. [Connect to Exchange Online using remote PowerShell](https://go.microsoft.com/fwlink/p/?LinkId=517283)(원격 PowerShell을 사용하여 Exchange Online에 연결)
+1. [원격 PowerShell을 사용하여 Exchange Online에 연결](https://go.microsoft.com/fwlink/p/?LinkId=517283)
     
 2. 복구할 수 있는 항목 폴더에 대한 새로운 RPT를 만들려면 다음 명령을 실행합니다.  
     

@@ -1,5 +1,7 @@
 ---
 title: Office 365에서 전자 메일 메시지를 암호화하기 위한 메일의 흐름 규정을 정의
+f1.keywords:
+- NOCSH
 ms.author: krowley
 author: kccross
 manager: laurawi
@@ -14,12 +16,12 @@ ms.assetid: 9b7daf19-d5f2-415b-bc43-a0f5f4a585e8
 ms.collection:
 - M365-security-compliance
 description: 관리자는 Office 365 메시지 암호화를 사용 하 여 메시지를 암호화 하 고 암호를 해독 하는 메일 흐름 규칙 (전송 규칙)을 만드는 방법을 알 수 있습니다.
-ms.openlocfilehash: 54fc53d1e39208f42348b6def4afadf71092ff11
-ms.sourcegitcommit: b535fe233234fd25146cfe15478e20d954f71e03
+ms.openlocfilehash: a2f37bff8fa3fd45999a44341cfdb077b4f43e62
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "38748556"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41595343"
 ---
 # <a name="define-mail-flow-rules-to-encrypt-email-messages-in-office-365"></a>Office 365에서 전자 메일 메시지를 암호화하기 위한 메일의 흐름 규정을 정의
 
@@ -140,7 +142,7 @@ EAC를 사용 하 여 새 OME 기능으로 메시지 암호화를 트리거하�
    New-TransportRule -Name "Encrypt rule for Dr Toni Ramos" -SentTo "DrToniRamos@hotmail.com" -SentToScope "NotinOrganization" -ApplyOME $true
    ```
 
-   **참고:**
+   **참고**:
 
    - 새 규칙의 고유한 이름은 "Dr Toni에 대 한 암호화 규칙"입니다.
 
@@ -184,7 +186,7 @@ EAC를 사용 하 여 새 OME 기능으로 메시지 암호화를 트리거하�
    New-TransportRule -Name "Remove encryption from incoming mail" -SentToScope "InOrganization" -RemoveOME $true
    ```
 
-   **참고:**
+   **참고**:
 
    - 새 규칙의 고유한 이름은 "받는 메일에서 암호화 제거"입니다.
 

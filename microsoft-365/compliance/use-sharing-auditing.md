@@ -1,5 +1,7 @@
 ---
 title: 외부 사용자와 공유된 리소스를 찾기 위한 감사 공유
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -18,12 +20,12 @@ ms.collection:
 - SPO_Content
 ms.assetid: 50bbf89f-7870-4c2a-ae14-42635e0cfc01
 description: '공유는 SharePoint Online 및 비즈니스용 OneDrive의 주요 활동입니다. 이제 관리자는 Office 365 감사 로그의 공유 감사를 사용 하 여 조직 외부의 사용자와 공유 되는 리소스를 식별할 수 있습니다. '
-ms.openlocfilehash: 8d473a3e3fb1c8e5e8753265c3982b27271ed39c
-ms.sourcegitcommit: e2ed110c4c3a8434f9fcc9d610069bc77bc39220
+ms.openlocfilehash: f979bd9a3b796fc3e9e84872df7e0b6071aefc03
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "38687153"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41597285"
 ---
 # <a name="use-sharing-auditing-in-the-office-365-audit-log"></a>외부 사용자와 공유된 리소스를 찾기 위한 감사 공유
 
@@ -77,7 +79,7 @@ ms.locfileid: "38687153"
    
       - **SecureLinkCreated**
    
-      - **Ad이상 Tosecurelink** 
+      - **AddedToSecureLink** 
 
       - **SharingInvitationCreated** (이 이벤트는 공유 리소스가 사이트인 경우에만 기록 됨)
     
@@ -99,7 +101,7 @@ ms.locfileid: "38687153"
     
 3. 보안 & 준수 센터의 왼쪽 창에서 **검색**  > **감사 로그 검색**을 클릭 합니다.
     
-    **감사 로그 검색** 페이지가 표시 됩니다. 
+    **감사 로그 검색** 페이지가 표시됩니다. 
     
 4. **활동**아래에서 **공유 및 액세스 요청 활동** 을 클릭 하 여 공유 관련 이벤트를 검색 합니다. 
     
@@ -139,7 +141,7 @@ ms.locfileid: "38687153"
    
    - **SecureLinkCreated**
    
-   - **Ad이상 Tosecurelink** 
+   - **AddedToSecureLink** 
     
     선택한 이벤트에 대 한 행이 표시 됩니다.
     

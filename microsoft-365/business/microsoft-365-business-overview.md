@@ -1,5 +1,7 @@
 ---
 title: Microsoft 365 비즈니스 개요
+f1.keywords:
+- NOCSH
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -25,12 +27,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Microsoft 365 Business에 대해 자세히 알아보세요.
-ms.openlocfilehash: eafd03be90c128051c8c91bc339af69a0a613136
-ms.sourcegitcommit: d48b7852383262083a6a109530d84f0858cb3801
+ms.openlocfilehash: 0a7aafdda384624767e06c0b39c5a58784ac0a0a
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "40999557"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41593744"
 ---
 # <a name="overview-of-microsoft-365-business"></a>Microsoft 365 비즈니스 개요
 

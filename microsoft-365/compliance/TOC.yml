@@ -34,7 +34,7 @@
           href: insider-risk-management-content-explorer.md
         - name: 사용자를 참가자 위험 정책에 추가 (미리 보기)
           href: insider-risk-management-users.md
-        - name: 참가자 위험 알림 만들기 (미리 보기)
+        - name: 참가자 위험 알림 서식 파일 만들기 (미리 보기)
           href: insider-risk-management-notices.md
     - name: 통신 준수 (미리 보기)
       items:
@@ -852,7 +852,7 @@
           href: offering-csa-star-attestation.md
         - name: CSA-STAR certification
           href: offering-csa-star-certification.md
-        - name: CSA-STAR self-Assessment
+        - name: CSA-별모양 자체 평가
           href: offering-csa-star-self-assessment.md
         - name: ISO 20000-1-2011
           href: offering-iso-20000-1-2011.md

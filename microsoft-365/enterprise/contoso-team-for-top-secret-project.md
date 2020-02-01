@@ -1,5 +1,7 @@
 ---
-title: Contoso Corporation의 최상위 비밀 프로젝트에 대 한 팀
+title: Contoso Corporation의 극비 프로젝트를 위한 팀
+f1.keywords:
+- NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -13,14 +15,14 @@ search.appverid:
 ms.collection: M365-security-compliance
 ms.custom: Ent_Architecture
 description: '요약: Contoso가 상위 기밀 프로젝트에 대해 높은 규제 대상 데이터에 대 한 팀을 사용 하 여 새로운 제품 및 서비스 제품군을 개발 하는 방법을 설명 합니다.'
-ms.openlocfilehash: 23a967ea7ffdb3497d705a3ddda4d3c56e415b8e
-ms.sourcegitcommit: 0ceb79a633f7004e82b80e69b6f7a7329ccec7ff
+ms.openlocfilehash: 794fb5cfb6f3011724d37a6a3c42c39dacacc270
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "38699906"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41597075"
 ---
-# <a name="team-for-a-top-secret-project-of-the-contoso-corporation"></a>Contoso Corporation의 최상위 비밀 프로젝트에 대 한 팀
+# <a name="team-for-a-top-secret-project-of-the-contoso-corporation"></a>Contoso Corporation의 극비 프로젝트를 위한 팀
 
 경영진은이 Contoso의 CEO가 향후 5 년 동안 Contoso의 이익을 두 배로 만들 수 있는 새로운 제품 및 서비스 제품군의 개발을 주문 했습니다. 비즈니스, 엔지니어링 및 시장 계획을 개발 하기 위한 최상위 수준의 보안 프로젝트는 **프로젝트 2** , 회사 전체의 주요 직원 이라는 것이 recruited 되었습니다. 
 

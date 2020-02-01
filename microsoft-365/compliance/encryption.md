@@ -1,5 +1,7 @@
 ---
 title: Office 365의 암호화
+f1.keywords:
+- NOCSH
 ms.author: krowley
 author: kccross
 manager: laurawi
@@ -16,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 - Strat_O365_IP
 description: Office 365에서는 콘텐츠가 rest에서 암호화 되 고 가장 강력한 암호화, 프로토콜 및 기술이 제공 된 상태로 전송 됩니다. Office 365의 암호화에 대 한 개요를 가져옵니다.
-ms.openlocfilehash: e63eb239f37f5f68da05f90998baf5bf6201fb71
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: b16c3c4e71a3898acff0d23848b2fba185836729
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38687056"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41593179"
 ---
 # <a name="encryption-in-office-365"></a>Office 365의 암호화
 
@@ -59,7 +61,7 @@ Office 365에서는 Office 365에서 볼륨 암호화, 파일 암호화 및 사�
   
 자세한 내용은 다음 리소스를 참조하세요.
   
-- [Azure 권한 관리 란?](https://docs.microsoft.com/information-protection/understand-explore/what-is-azure-rms)
+- [Azure 권한 관리란?](https://docs.microsoft.com/information-protection/understand-explore/what-is-azure-rms)
 
 - [관리 센터에서 권한 관리 활성화](https://support.office.com/article/5b6d3ac7-b1ac-428e-b03e-50e882f85a6e)
 
@@ -81,4 +83,4 @@ Office 365에서는 Office 365에서 볼륨 암호화, 파일 암호화 및 사�
 
 [Office 365 보안 및 정보 보호 기능 계획](plan-for-security-and-compliance.md)
 
-[Office 365 및 Microsoft 365 비즈니스 요금제를 보호 하는 10 가지 주요 방법](https://docs.microsoft.com/office365/admin/security-and-compliance/secure-your-business-data?view=o365-worldwide)
+[Office 365 및 Microsoft 365 Business 플랜을 보호하는 10가지 주요 방법](https://docs.microsoft.com/office365/admin/security-and-compliance/secure-your-business-data?view=o365-worldwide)

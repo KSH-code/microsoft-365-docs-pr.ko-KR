@@ -1,5 +1,7 @@
 ---
-title: 연습에서 인텔리전스 통찰력을 스푸핑
+title: 스푸프 정보 이해를 위한 검토회
+f1.keywords:
+- NOCSH
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
@@ -15,12 +17,12 @@ ms.assetid: 59a3ecaf-15ed-483b-b824-d98961d88bdd
 ms.collection:
 - M365-security-compliance
 description: 새 스푸핑 인텔리전스 통찰력은 어떻게 작동 하는지 확인 하세요.
-ms.openlocfilehash: 652dde07d615a4eef98074fb8d2b5c676f65d633
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 38bf75a2ebeabd41aace42c6116d37ecbe28a2de
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088753"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41598015"
 ---
 # <a name="walkthrough-spoof-intelligence-insight"></a>연습: 지능 통찰력 스푸핑
 
@@ -60,7 +62,7 @@ ms.locfileid: "37088753"
   
 *도메인 쌍* 은 "보낸 사람:" 주소와 보내는 인프라를 조합한 것입니다. 
   
-- "보낸 사람" 주소는 메일 응용 프로그램에서 보낸 사람 주소로 표시 되는 주소입니다. 이 주소는 전자 메일의 작성자를 식별 합니다. 즉, 메시지 작성을 담당 하는 사람이 나 시스템의 사서함입니다. 이를 5322.from 주소의 주소 라고도 합니다.
+- "보낸 사람" 주소는 메일 응용 프로그램에서 보낸 사람 주소로 표시 되는 주소입니다. 이 주소는 전자 메일의 작성자를 식별합니다. 즉, 메시지 작성을 담당하는 개인 또는 시스템의 사서함입니다. 이를 5322.From이라고도 합니다.
     
 - 보내는 인프라 또는 보낸 사람은 보내는 IP 주소의 PTR 레코드에 대 한 조직 도메인입니다. 보내는 IP 주소에 PTR 레코드가 없으면 보낸 사람은 255.255.255.0 서브넷 마스크가 CIDR 표기법 (/24) 인 보내는 IP로 식별 됩니다. 예를 들어 IP 주소가 192.168.100.100 이면 보낸 사람의 전체 IP 주소는 192.168.100.100/24가 됩니다.
     

@@ -1,5 +1,7 @@
 ---
 title: 스팸 지수
+f1.keywords:
+- NOCSH
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
@@ -14,12 +16,12 @@ ms.assetid: 34681000-0022-4b92-b38a-e32b3ed96bf6
 ms.collection:
 - M365-security-compliance
 description: 전자 메일 메시지가 스팸 필터링을 통과 하면 스팸 점수가 할당 됩니다. 이 점수는 개별 SCL (스팸 지 수) 등급에 매핑되며 X-헤더에 스탬프 처리 됩니다. 이 서비스는 SCL 등급의 스팸 신뢰 해석에 따라 메시지에 대 한 작업을 수행 합니다. 다음 표에서는 각 등급에 대 한 인바운드 메시지에 대해 수행 되는 필터 및 각 SCL 등급이 해석 되는 방식을 보여 줍니다.
-ms.openlocfilehash: 93b3886e1128024f3f7f2a844e2ed603e27d9b2a
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: c40317833ea61424dab60ac858c2071f7891c4f8
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37089244"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41598315"
 ---
 # <a name="spam-confidence-levels"></a>스팸 지수
 
@@ -33,7 +35,7 @@ ms.locfileid: "37089244"
 |7, 8, 9|높은 정확도 스팸|받는 사람의 정크 메일 폴더로 메시지를 배달 합니다.|
    
 > [!TIP]
-> 2, 3, 4, 7 및 8의 SCL 등급이 서비스에 의해 설정 되지 않습니다. SCL 등급 5 또는 6은 스팸이 아닌 것으로 간주 되며, SCL 등급 9 보다 스팸을 덜 하 여 특정 스팸으로 간주 됩니다. 스팸 및 높은 신뢰도 스팸에 대 한 다양 한 작업은 Exchange 관리 센터에서 콘텐츠 필터 정책을 통해 구성할 수 있습니다. 자세한 내용은 [스팸 필터 정책 구성을](configure-your-spam-filter-policies.md)참조 하세요. 또한 [메일 흐름 규칙을 사용 하 여 메시지에 scl (스팸 지 수)을 설정 하는 방법](use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages.md)에 설명 된 대로 메일 흐름 규칙 (전송 규칙이 라고도 함)을 사용 하 여 특정 조건과 일치 하는 메시지에 대 한 SCL 등급을 설정할 수 있습니다. 메일 흐름 규칙을 사용 하 여 SCL 7, 8 또는 9를 설정 하는 경우 메시지가 높은 신뢰도 스팸으로 취급 됩니다. 
+> 2, 3, 4, 7 및 8의 SCL 등급이 서비스에 의해 설정 되지 않습니다. SCL 등급 5 또는 6은 스팸이 아닌 것으로 간주 되며, SCL 등급 9 보다 스팸을 덜 하 여 특정 스팸으로 간주 됩니다. 스팸 및 높은 신뢰도 스팸에 대 한 다양 한 작업은 Exchange 관리 센터에서 콘텐츠 필터 정책을 통해 구성할 수 있습니다. 자세한 내용은 [스팸 필터 정책 구성을](configure-your-spam-filter-policies.md) 참조하세요. 또한 [메일 흐름 규칙을 사용 하 여 메시지에 scl (스팸 지 수)을 설정 하는 방법](use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages.md)에 설명 된 대로 메일 흐름 규칙 (전송 규칙이 라고도 함)을 사용 하 여 특정 조건과 일치 하는 메시지에 대 한 SCL 등급을 설정할 수 있습니다. 메일 흐름 규칙을 사용 하 여 SCL 7, 8 또는 9를 설정 하는 경우 메시지가 높은 신뢰도 스팸으로 취급 됩니다. 
   
 ||
 |:-----|

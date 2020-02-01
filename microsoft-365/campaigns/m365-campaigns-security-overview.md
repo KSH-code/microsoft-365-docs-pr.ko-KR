@@ -1,5 +1,7 @@
 ---
 title: 캠페인에 대 한 보안 보호 강화
+f1.keywords:
+- NOCSH
 ms.author: samanro
 author: samanro
 manager: scotv
@@ -21,12 +23,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 캠페인에 대 한 Microsoft 365을 사용 하 여 보안을 강화 하 여 캠페인을 보호 하는 방법을 알아봅니다.
-ms.openlocfilehash: 74c7d5f5836fd77b591389dd467114c93b8ab14e
-ms.sourcegitcommit: 75b97d1ff617bc4b1b0ef9135dfe6a8842ea1b52
+ms.openlocfilehash: f2d57fe0cbc6765b359a759c3d33c6482d86bb06
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/18/2019
-ms.locfileid: "35772415"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41594789"
 ---
 # <a name="bump-up-security-protection-for-your-campaign"></a>캠페인에 대 한 보안 보호 강화
 
@@ -39,7 +41,7 @@ ms.locfileid: "35772415"
 
 
 그런 후 다음 단계를 수행 합니다.
-- [맬웨어 및 기타 위협 으로부터 보호](m365-campaigns-increase-protection.md)
+- [악성코드 및 기타 위협으로부터 보호](m365-campaigns-increase-protection.md)
 - 계정 및 앱을 보호 하 여 [캠페인 데이터에 대 한 액세스 보호](m365-campaigns-conditional-access.md)
 - [관리자 계정 보호](m365-campaigns-protect-admin-accounts.md)
 - [모바일 장치 설정](../business/set-up-mobile-devices.md?toc=/microsoft-365/campaigns/toc.json)

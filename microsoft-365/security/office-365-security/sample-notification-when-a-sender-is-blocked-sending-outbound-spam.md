@@ -1,5 +1,7 @@
 ---
-title: 보낸 사람이 아웃 바운드 스팸을 보내는 것이 차단 된 경우의 예제 알림
+title: 발신자가 아웃 바운드 스팸을 보내지 못하도록 차단될 시의 알림 샘플
+f1.keywords:
+- NOCSH
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
@@ -14,14 +16,14 @@ ms.assetid: c33fd406-a4c8-4ac8-ad85-123996c5cded
 ms.collection:
 - M365-security-compliance
 description: 아웃 바운드 스팸 보내기로 인해 서비스에서 보낸 사람이 차단 되는 경우 아웃 바운드 스팸 정책을 구성할 때 지정한 도메인 관리자는 다음과 같은 알림 전자 메일을 받게 됩니다.
-ms.openlocfilehash: badcd34bc35c8cc3cdd1cd06edefb87c6818e2e3
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 537e97fe952ad9a5b2ca854c44fe6c53b642e3ac
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37089160"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41598505"
 ---
-# <a name="sample-notification-when-a-sender-is-blocked-sending-outbound-spam"></a>보낸 사람이 아웃 바운드 스팸을 보내는 것이 차단 된 경우의 예제 알림
+# <a name="sample-notification-when-a-sender-is-blocked-sending-outbound-spam"></a>발신자가 아웃 바운드 스팸을 보내지 못하도록 차단될 시의 알림 샘플
 
 아웃 바운드 스팸 보내기로 인해 서비스에서 보낸 사람이 차단 되는 경우 [아웃 바운드 스팸 정책을 구성할](configure-the-outbound-spam-policy.md) 때 지정한 도메인 관리자는 다음과 같은 알림 전자 메일을 받게 됩니다. 
   

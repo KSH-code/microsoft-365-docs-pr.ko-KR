@@ -1,5 +1,7 @@
 ---
 title: 서비스 기본 사항
+f1.keywords:
+- NOCSH
 ms.author: cmcatee
 author: cmcatee-MSFT
 manager: mnirkhe
@@ -12,12 +14,12 @@ ms.collection:
 - commerce
 ms.custom: ''
 description: 새 서비스 구성 기능에 대해 알아봅니다.
-ms.openlocfilehash: fff63b3c61ad95696e7f7677a34154ad65e82259
-ms.sourcegitcommit: 7713e777731025c165e9e936198609503ade5665
+ms.openlocfilehash: 22f7c35b1a5baf97fb72f541d57da28adeeffbe4
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "38753577"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41594689"
 ---
 # <a name="allotment-basics"></a>서비스 기본 사항
 
@@ -45,6 +47,6 @@ ms.locfileid: "38753577"
 
 할당을 시작 하려면 전역 또는 라이선스 관리자 여야 합니다.
 
-## <a name="getting-started"></a>시작
+## <a name="getting-started"></a>시작하기
 
 서비스 구성 기능은 소수의 고객 에게만 전용 미리 보기에서 사용할 수 있습니다. 참석 하려는 경우이 양식을 작성 [https://aka.ms/allotment-pilot-signup](https://aka.ms/allotment-pilot-signup)합니다.

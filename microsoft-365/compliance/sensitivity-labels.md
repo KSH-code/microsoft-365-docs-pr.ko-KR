@@ -1,5 +1,7 @@
 ---
 title: 민감도 레이블 개요
+f1.keywords:
+- CSH
 ms.author: cabailey
 author: cabailey
 manager: laurawi
@@ -15,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 민감도 레이블을 사용하여 사용자의 생산성 및 공동 작업 능력이 저하되지 않도록 하면서 중요한 콘텐츠를 분류 및 보호할 수 있습니다. 민감도 레이블을 사용하여 레이블이 지정된 콘텐츠에 암호화 및 워터마크를 포함하는 보호 설정을 적용할 수 있습니다.
-ms.openlocfilehash: aa0c379e7d1209fb4ac9afc2924500f7b1af82e2
-ms.sourcegitcommit: e872676ec98036a50d3a0cb5071109ea5f5a7ae5
+ms.openlocfilehash: 1cf7b47fbb9161b8000f5cfcce0bb36b86d0aa50
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2020
-ms.locfileid: "41515889"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41597525"
 ---
 # <a name="overview-of-sensitivity-labels"></a>민감도 레이블 개요
 
@@ -74,25 +76,35 @@ Office 앱의 경우, 민감도 레이블이 전자 메일 또는 문서에서 �
 
 ## <a name="what-sensitivity-labels-can-do"></a>민감도 레이블이 수행하는 작업
 
-전자 메일 및 문서 이외에도 민감도 레이블은 여러 공개 미리 보기 릴리스에서 사용할 수 있습니다. 파일, 팀, 그룹 및 사이트에 민감도 레이블이 사용되는 방법에 관한 자세한 내용은 다음의 문서를 참조하세요.
-
-- [SharePoint 및 OneDrive에서 Office 파일에 대한 민감도 레이블 사용(공개 미리 보기)](sensitivity-labels-sharepoint-onedrive-files.md)
-
-- [Microsoft Teams, Office 365 그룹 및 SharePoint 사이트(공개 미리 보기)에서 민감도 레이블 사용](sensitivity-labels-teams-groups-sites.md)
+> [!NOTE]
+> Office 앱에서 전자 메일 및 문서에 레이블을 적용하는 것 외에도 다음과 같은 공개 미리 보기 릴리스에서 민감도 레이블을 사용할 수 있습니다.
+> 
+> - [SharePoint 및 OneDrive에서 Office 파일에 대한 민감도 레이블 사용(공개 미리 보기)](sensitivity-labels-sharepoint-onedrive-files.md)
+> - [Microsoft Teams, Office 365 그룹 및 SharePoint 사이트(공개 미리 보기)에서 민감도 레이블 사용](sensitivity-labels-teams-groups-sites.md)
 
 민감도 레이블이 전자 메일이나 문서에 적용되면 해당 레이블의 구성된 보호 설정이 콘텐츠에 적용됩니다. 민감도 레이블을 사용하여 다음을 수행할 수 있습니다.
 
-- 전자 메일만 또는 전자 메일 및 문서 모두 **암호화** 어떤 사용자 또는 그룹이 어떤 작업을 얼마나 오래 수행할 수 있는지를 선택할 수 있습니다. 예를 들어 다른 조직의 특정 그룹에 있는 사용자가 콘텐츠에 레이블이 지정된 후 7일 동안 콘텐츠를 검토할 수 있는 권한을 갖도록 선택할 수 있습니다. 또는 관리자가 정의한 권한 대신 사용자가 레이블을 적용할 때 콘텐츠에 사용 권한을 할당할 수 있습니다. 자세한 내용은 [민감도 레이블에서 암호화를 사용하여 콘텐츠 액세스 제한](encryption-sensitivity-labels.md)을 참조하세요.
+- 전자 메일만 또는 전자 메일 및 문서 모두 **암호화** 어떤 사용자 또는 그룹이 어떤 작업을 얼마나 오래 수행할 수 있는지를 선택할 수 있습니다. 예를 들어 다른 조직의 특정 그룹에 있는 사용자가 콘텐츠에 레이블이 지정된 후 7일 동안 콘텐츠를 검토할 수 있는 권한을 갖도록 선택할 수 있습니다. 또는 관리자가 정의한 권한 대신 사용자가 레이블을 적용할 때 콘텐츠에 사용 권한을 할당할 수 있습니다. 
+    
+    민감도 레이블을 만들거나 편집할 때 **암호화** 설정에 대한 자세한 내용은 [민감도 레이블에서 암호화를 사용하여 콘텐츠 액세스 제한](encryption-sensitivity-labels.md)을 참조하십시오.
 
-- 레이블이 적용된 전자 메일 또는 문서에 사용자 지정 워터마크, 머리글 또는 바닥글을 추가하여 Office 사용 시 **콘텐츠를 표시**. 워터마크는 전자 메일이 아닌 문서에만 적용되고 255자로 제한됩니다. Excel의 경우를 제외하고 머리글과 바닥글은 1024자로 제한됩니다. Excel에서는 머리글과 바닥글의 총 글자 수가 255자로 제한되지만 이 제한에는 서식 코드처럼 보이지 않는 문자가 포함됩니다. 해당 한도에 도달하면 입력한 문자열이 Excel에 표시되지 않습니다. 콘텐츠 표시가 적용되는시기에 대한 자세한 내용은 [Office 365가 콘텐츠에 콘텐츠 표시 및 암호화를 적용하는 시점](sensitivity-labels-office-apps.md#when-office-365-applies-content-marking-and-encryption-to-content)을 참조하십시오.
+- 레이블이 적용된 전자 메일 또는 문서에 워터마크, 머리글 또는 바닥글을 추가하여 Office 사용 시 **콘텐츠를 표시**합니다. 다음의 예를 참조하십시오.
     
     ![문서에 적용된 워터마크 및 머리글](media/Sensitivity-label-watermark-header.png)
+    
+    콘텐츠 표시가 적용되는 시점에 대한 자세한 내용은 [Office 365가 콘텐츠에 콘텐츠 표시 및 암호화를 적용하는 시점](sensitivity-labels-office-apps.md#when-office-365-applies-content-marking-and-encryption-to-content)을 참조하십시오.
+    
+    민감도 레이블을 만들거나 편집할 때 **콘텐츠 표시** 설정에 대한 자세한 정보: 워터 마크는 전자 메일이 아닌 문서에만 적용되고 255자로 제한됩니다. Excel의 경우를 제외하고 머리글과 바닥글은 1024자로 제한됩니다. Excel에서는 머리글과 바닥글의 총 글자 수가 255자로 제한되지만 이 제한에는 서식 코드처럼 보이지 않는 문자가 포함됩니다. 해당 한도에 도달하면 입력한 문자열이 Excel에 표시되지 않습니다.
 
-- Intune에서 끝점 보호를 설정하여 **데이터 손실 방지**. 중요한 콘텐츠를 다운로드되면 Windows 장치에서 데이터가 손실되는 것을 방지하는 데 도움이 될 수 있습니다. 예를 들어, 레이블이 지정된 콘텐츠를 Dropbox, Gmail 또는 USB 드라이브에 복사할 수 없습니다. 민감도 레이블이 WIP(Windows Information Protection)를 사용할 수 있으려면 먼저 Azure portal에서 앱 보호 정책을 만들어야 합니다. 자세한 내용은 [Windows Information Protection이 민감도 레이블로 파일을 보호하는 방법](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/how-wip-works-with-labels?branch=vsts17546553)을 참조하세요.
+- Intune에서 끝점 보호를 설정하여 **데이터 손실 방지**. 중요한 콘텐츠를 다운로드되면 Windows 장치에서 데이터가 손실되는 것을 방지하는 데 도움이 될 수 있습니다. 예를 들어, 레이블이 지정된 콘텐츠를 Dropbox, Gmail 또는 USB 드라이브에 복사할 수 없습니다. 민감도 레이블이 WIP(Windows Information Protection)를 사용할 수 있으려면 먼저 Azure portal에서 앱 보호 정책을 만들어야 합니다. 
+    
+    주요 필수 구성 요소를 포함하여 민감도 레이블을 만들거나 편집할 때 **끝점 데이터 손실 방지** 설정에 대한 자세한 내용은 [Windows Information Protection에서 민감도 레이블을 사용하여 파일을 보호하는 방법](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/how-wip-works-with-labels?branch=vsts17546553)을 참조하십시오.
 
-- **중요한 정보를 포함하고 있는 콘텐츠에 레이블을 자동으로 적용합니다.** 레이블을 지정할 중요한 정보의 유형을 선택할 수 있으며, 레이블을 자동으로 적용하거나 사용자가 추천 레이블을 적용할 수 있도록 메시지를 표시할 수 있습니다. 레이블을 추천하는 경우 어떤 텍스트를 선택해도 메시지가 표시됩니다. 자세한 내용은 [Apply a sensitivity label to content automatically](apply-sensitivity-label-automatically.md)(콘텐츠에 민감도 레이블을 자동으로 적용)를 참조하세요.
-
+- **중요한 정보를 포함하는 콘텐츠에 레이블을 자동으로 적용합니다.** 레이블을 지정할 중요한 정보의 유형을 선택하고 레이블을 자동으로 적용하거나 사용자가 추천 레이블을 적용할 수 있도록 메시지를 표시할 수 있습니다. 레이블을 추천하는 경우 어떤 텍스트를 선택해도 다음과 같이 메시지가 표시됩니다.
+    
     ![필수 레이블 할당 메시지](media/Sensitivity-label-Prompt-for-required-label.png)
+    
+    민감도 레이블을 만들거나 편집할 때 **Office 앱에 대한 자동 레이블 지정** 설정에 대한 자세한 내용은 [민감도 레이블을 콘텐츠에 자동으로 적용](apply-sensitivity-label-automatically.md)을 참조하십시오.
 
 ### <a name="label-priority-order-matters"></a>레이블 우선 순위(순서가 중요함)
 
@@ -181,11 +193,11 @@ Azure Information Protection으로 레이블을 배포한 경우 민감도 레�
 
 ### <a name="azure-information-protection-clients"></a>Azure Information Protection 클라이언트
 
-Windows 컴퓨터에서 Office 365 ProPlus 앱에 민감도 레이블을 사용하는 경우 Azure Information Protection 클라이언트를 사용하거나 Office에 기본 제공되는 레이블을 사용하는 것을 선택할 수 있습니다. 
+Windows 컴퓨터에서 Office 365 ProPlus 앱에 민감도 레이블을 사용하는 경우 Azure Information Protection 클라이언트를 사용하거나 Office에 기본 제공되는 레이블을 사용하는 것을 선택할 수 있습니다.
 
-기본적으로 Azure Information Protection 클라이언트가 설치되면 이러한 앱에서 기본 제공 레이블이 해제되어 있습니다. 자세한 내용은 [Office 기본 제공 레이블 클라이언트](sensitivity-labels-office-apps.md#about-the-office-built-in-labeling-client)를 참조하세요.
+기본적으로 Azure Information Protection 클라이언트가 설치되면 이러한 앱에서 기본 제공 레이블이 해제되어 있습니다. 기본 동작을 변경하는 방법을 포함하여 자세한 내용은 [Office 기본 제공 레이블 지정 클라이언트](sensitivity-labels-office-apps.md#about-the-office-built-in-labeling-client)를 참조하십시오.
 
-사용할 레이블 클라이언트를 결정하는 데 도움이 필요한 경우 Azure Information Protection 설명서에서 [Windows 컴퓨터에 사용할 레이블 클라이언트 선택](https://docs.microsoft.com/azure/information-protection/rms-client/use-client#choose-which-labeling-client-to-use-for-windows-computers)을 참조하십시오.
+Azure Information Protection을 처음 사용하는 경우 또는 레이블을 마이그레이션한 기존 Azure Information Protection 고객인 경우 Azure Information Protection 설명서에서 [Windows 컴퓨터에 대한 사용할 레이블 지정 클라이언트 선택](https://docs.microsoft.com/azure/information-protection/rms-client/use-client#choose-which-labeling-client-to-use-for-windows-computers)을 참조십시오.
 
 ## <a name="sensitivity-labels-and-microsoft-cloud-app-security"></a>민감도 레이블과 Microsoft Cloud App Security
 
@@ -193,11 +205,11 @@ CAS(Cloud App Security)를 사용하여 SalesForce, Box 또는 Dropbox 등의 �
 
 Cloud App Security는 Azure Information Protection 레이블과 민감도 레이블 모두에서 작동합니다.
 
-- 레이블 관리 센터에 Azure Portal의 레이블과 동일한 레이블이 있는 경우: 민감도 레이블이 사용됩니다. Cloud App Security에서 이러한 레이블을 선택하려면 하나 이상의 사용자에게 하나 이상의 레이블을 [게시](create-sensitivity-labels.md#publish-sensitivity-labels-by-creating-a-label-policy)해야 합니다.
+- 레이블 지정 관리 센터에서 한 명 이상의 사용자에게 하나 이상의 민감도 레이블을 [게시](create-sensitivity-labels.md#publish-sensitivity-labels-by-creating-a-label-policy)한 경우: 민감도 레이블이 사용됩니다.
 
-- 레이블 관리 센터의 레이블이 Azure 포털의 레이블과 동일하지 않은 경우: 레이블 관리 센터에서 민감도 레이블이 사용되지 않고 대신 Azure Portal에서 Azure Information Protection 레이블이 검색됩니다.
+- 레이블 관리 센터에서 민감도 레이블을 게시하지 않은 경우: Azure Information Protection 레이블이 사용됩니다.
 
-이러한 레이블을 통해 Cloud App Security를 사용하는 방법에 대한 자세한 내용은 [Azure 정보 보호 분류 라벨 자동 적용](https://docs.microsoft.com/cloud-app-security/use-case-information-protection)을 참조하세요.
+이러한 레이블을 통해 Cloud App Security를 사용하는 방법에 대한 자세한 내용은 [Azure Information Protection 통합](https://docs.microsoft.com/cloud-app-security/azip-integration)을 참조하세요.
 
 ## <a name="sensitivity-labels-and-the-microsoft-information-protection-sdk"></a>민감도 레이블 및 Microsoft 정보 보호 SDK
 

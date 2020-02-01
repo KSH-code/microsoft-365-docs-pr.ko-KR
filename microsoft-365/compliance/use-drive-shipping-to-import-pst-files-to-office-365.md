@@ -1,5 +1,7 @@
 ---
 title: 드라이브 전달을 사용 하 여 조직의 PST 파일 가져오기
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -16,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: 40829b57-793c-4d41-b171-e9270129173d
 description: '관리자: PST 파일을 하드 드라이브에 복사한 다음 Microsoft로 발송 하 여 조직의 PST 파일을 Office 365 사서함으로 대량 가져오는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 79fc1b6cf9ad90a4a059ef7c9e4a747c1beb54c5
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 5de4143f84a4c5beed0e408c302ce2ca1e39e17a
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40802343"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41597365"
 ---
 # <a name="use-drive-shipping-to-import-your-organizations-pst-files-to-office-365"></a>드라이브 전달을 사용 하 여 조직의 PST 파일을 Office 365로 가져오기
 
@@ -65,7 +67,7 @@ Office 365 가져오기 서비스 및 드라이브 전달을 사용 하 여 사�
   
 - 조직의 파일 서버의 하드 드라이브 또는 공유 폴더에 복사하려면 PST 파일을 저장해야 합니다. 2 단계에서는이 파일 서버 또는 공유 폴더에 저장 된 PST 파일을 하드 드라이브에 복사 하는 WAImportExport 도구를 실행 합니다.
 
-- Pst 파일이 크면 PST 가져오기 프로세스의 성능에 영향을 줄 수 있습니다. 따라서 2 단계에서 하드 드라이브로 복사 하는 각 PST 파일을 20gb 보다 크게 두는 것이 좋습니다.
+- 큰 PST 파일은 PST 가져오기 프로세스의 성능에 영향을 줄 수 있습니다. 따라서 2 단계에서 하드 드라이브로 복사 하는 각 PST 파일을 20gb 보다 크게 두는 것이 좋습니다.
     
 - Office 365 가져오기 서비스와 함께 사용할 수 있도록 Ssd (반도체 드라이브) 또는 2.5-인치 또는 3.5-인치 SATA II/III 내부 하드 드라이브만 지원 됩니다. 2.5 최대 10TB의 하드 드라이브를 사용할 수 있습니다. 가져오기 작업의 경우에는 하드 드라이브의 첫 번째 데이터 볼륨만 처리됩니다. 데이터 볼륨은 NTFS 형식으로 포맷되어야 합니다. 데이터를 하드 드라이브에 복사할 때는 2.5 인치 SSD 또는 3.5 2.5-인치 SATA II/III 커넥터를 사용 하 여 직접 연결 하거나 외부 2.5 인치 SSD 또는 2.5-인치 또는 3.5-인치 SATA II/III USB 어댑터를 사용 하 여 외부에서 연결할 수 있습니다.
     
@@ -116,12 +118,12 @@ Office 365 가져오기 서비스 및 드라이브 전달을 사용 하 여 사�
   
 1. [https://protection.office.com/](https://protection.office.com/)으로 이동한 후 Office 365 조직의 관리자 계정 자격 증명을 사용하여 로그인합니다. 
     
-2. 보안 & 준수 센터의 왼쪽 창에서 **정보 거 버 넌 스** \> **** \> 가져오기 **PST 파일**을 클릭 합니다.
+2. 보안 및 규정 준수 센터의 왼쪽 창에서 **정보 거버넌스** \> **보관** \> **PST 파일 가져오기**를 클릭합니다.
     
     > [!NOTE]
     > 앞에서 설명한 것 처럼 보안 & 준수 센터의 **가져오기** 페이지에 액세스 하기 위한 적절 한 사용 권한을 할당 받아야 합니다. 
   
-3. **PST 파일 가져오기** 페이지에서 아이콘 ![](media/ITPro-EAC-AddIcon.gif) 추가 **새 가져오기 작업**을 클릭 합니다.
+3. **PST 파일 가져오기** 페이지에서 ![아이콘 추가](media/ITPro-EAC-AddIcon.gif) **새 가져오기 작업**을 클릭합니다.
     
 4. 작업 가져오기 마법사에서 PST 가져오기 작업의 이름을 입력 하 고 **다음**을 클릭 합니다. 소문자, 숫자, 하이픈 및 밑줄을 사용하세요. 이름에는 대문자를 사용하거나 공백을 포함할 수 없습니다.
     
@@ -149,7 +151,7 @@ Office 365 가져오기 서비스 및 드라이브 전달을 사용 하 여 사�
 
 다음 단계는 WAImportExport.exe 도구를 사용하여 하드 드라이브에 PST 파일을 복사하는 것입니다. 이 도구는 BitLocker로 하드 드라이브를 암호화하고 PST를 하드 드라이브에 복사한 다음 복사 프로세스에 대한 정보를 저장하는 저널 파일을 만듭니다. 이 단계를 완료하려면 PST 파일이 조직의 파일 공유 또는 파일 서버에 있어야 합니다. 다음 절차에서는 이것을 원본 디렉터리라고 합니다. 
 
- 앞에서 설명한 것 처럼 하드 드라이브에 복사 하는 각 PST 파일은 20gb이 하 여야 합니다. PST 파일이 20gb 보다 크면 6 단계에서 시작 하는 PST 가져오기 프로세스의 성능에 영향을 줄 수 있습니다.
+ 앞에서 설명한 것 처럼 하드 드라이브에 복사 하는 각 PST 파일은 20gb이 하 여야 합니다. 20GB보다 큰 PST 파일은 6단계에서 시작하는 PST 가져오기 프로세스의 성능에 영향을 줄 수 있습니다.
   
 > [!IMPORTANT]
 > 하드 드라이브에 대해 처음으로 WAImportExport.exe 도구를 실행한 후에는 매번 다른 구문을 사용해야 합니다. 이 구문은이 절차의 4 단계에서 PST 파일을 하드 드라이브에 복사 하는 방법에 설명 되어 있습니다. 
@@ -249,9 +251,9 @@ Microsoft data center 직원이 하드 드라이브에서 Azure Storage 영역�
   
 1. [https://protection.office.com](https://protection.office.com)으로 이동한 후 Office 365 조직의 관리자 계정 자격 증명을 사용하여 로그인합니다. 
     
-2. 보안 & 준수 센터의 왼쪽 창에서 **정보 거 버 넌 스** \> **** \> 가져오기 **PST 파일**을 클릭 합니다.
+2. 보안 및 규정 준수 센터의 왼쪽 창에서 **정보 거버넌스** \> **보관** \> **PST 파일 가져오기**를 클릭합니다.
     
-3. **PST 파일 가져오기** 페이지에서 아이콘 ![](media/ITPro-EAC-AddIcon.gif) 추가 **새 가져오기 작업**을 클릭 합니다.
+3. **PST 파일 가져오기** 페이지에서 ![아이콘 추가](media/ITPro-EAC-AddIcon.gif) **새 가져오기 작업**을 클릭합니다.
     
     > [!NOTE]
     > 앞에서 설명한 것 처럼 보안 & 준수 센터의 **가져오기** 페이지에 액세스 하기 위한 적절 한 사용 권한을 할당 받아야 합니다. 
@@ -403,9 +405,9 @@ Azure 저장소 탐색기를 설치하고 Azure 저장소 영역에 연결하려
     
 1. [https://protection.office.com/](https://protection.office.com/)으로 이동한 후 Office 365 조직의 관리자 계정 자격 증명을 사용하여 로그인합니다. 
     
-2. 보안 & 준수 센터의 왼쪽 창에서 **정보 거 버 넌 스 가져오기 > PST 파일 가져오기 >** 클릭 합니다.
+2. 보안 및 규정 준수 센터의 왼쪽 창에서 **정보 거버넌스 > 보관 > PST 파일 가져오기**를 클릭합니다.
     
-3. **PST 파일 가져오기** 페이지에서 아이콘 ![](media/ITPro-EAC-AddIcon.gif) 추가 **새 가져오기 작업**을 클릭 합니다.
+3. **PST 파일 가져오기** 페이지에서 ![아이콘 추가](media/ITPro-EAC-AddIcon.gif) **새 가져오기 작업**을 클릭합니다.
     
 4. 작업 가져오기 마법사에서 PST 가져오기 작업의 이름을 입력 하 고 **다음**을 클릭 합니다. 소문자, 숫자, 하이픈 및 밑줄을 사용하세요. 이름에는 대문자를 사용하거나 공백을 포함할 수 없습니다.
     
@@ -498,13 +500,13 @@ Azure 저장소 탐색기를 설치하고 Azure 저장소 영역에 연결하려
   WAImportExport.exe PrepImport /j:PSTHDD1.jrn /id:driveship2 /srcdir:"\\FILESERVER1\PSTs\SecondBatch" /dstdir:"ingestiondata/" /blobtype:BlockBlob
     ```
 
-- 앞에서 설명한 것 처럼 Office 365 가져오기 서비스는 PST 파일을 사서함으로 가져온 후 보존 보류 설정 (무기한 지속)을 설정 합니다. 즉, 사서함 ** 에 할당 된 보존 정책이 `True` 처리 되지 않도록 RentionHoldEnabled 속성이로 설정 됩니다. 이렇게 하면 삭제 또는 보관 정책이 이전 메시지를 삭제 하거나 보관할 수 없게 되므로 새로 가져온 메시지를 사서함 소유자가 관리 하 게 됩니다. 이 보존 상태를 관리 하기 위해 수행할 수 있는 몇 가지 단계는 다음과 같습니다. 
+- 앞서 설명한 것처럼 Office 365 가져오기 서비스는 PST 파일을 사서함으로 가져온 후 보존 보류 설정(무기한으로)을 사용하도록 설정합니다. 즉, 사서함 ** 에 할당 된 보존 정책이 `True` 처리 되지 않도록 RentionHoldEnabled 속성이로 설정 됩니다. 이는 삭제 또는 보관 정책이 오래된 메시지를 삭제하거나 보관하지 못하도록 하여 사서함 소유자가 새로 가져온 메시지를 관리할 수 있는 시간을 제공합니다. 다음은 이 보존 보류를 관리하기 위해 수행할 수 있는 몇 가지 단계입니다. 
     
-  - 일정 기간이 지난 후에는 `Set-Mailbox -RetentionHoldEnabled $false` 명령을 실행 하 여 보존 상태를 해제할 수 있습니다. 자세한 내용은 [사서함을 보존 상태로 두기](https://go.microsoft.com/fwlink/p/?LinkId=544749)를 참조 하십시오.
+  - 일정 기간이 지난 후에는 `Set-Mailbox -RetentionHoldEnabled $false` 명령을 실행 하 여 보존 상태를 해제할 수 있습니다. 자세한 내용은 [사서함을 보존 보류 상태로 두기](https://go.microsoft.com/fwlink/p/?LinkId=544749)를 참조하십시오.
     
-  - 나중에 특정 날짜에 해제 되도록 보존 기능을 구성할 수 있습니다. `Set-Mailbox -EndDateForRetentionHold <date>` 명령을 실행 하 여이 작업을 수행 합니다. 예를 들어 오늘 날짜가 6 월 1 일 2016, 30 일 이내에 보존을 해제 하려는 경우에는 다음 명령을 실행 합니다 `Set-Mailbox -EndDateForRetentionHold 7/1/2016`. 이 시나리오에서는 *RentionHoldEnabled* 속성을 *True*로 설정 합니다. 자세한 내용은 [Set-Mailbox](https://go.microsoft.com/fwlink/p/?LinkId=150317)를 참조 하십시오.
+  - 차후의 특정 날짜에 해제되도록 보존 보류를 구성할 수 있습니다. `Set-Mailbox -EndDateForRetentionHold <date>` 명령을 실행 하 여이 작업을 수행 합니다. 예를 들어 오늘 날짜가 6 월 1 일 2016, 30 일 이내에 보존을 해제 하려는 경우에는 다음 명령을 실행 합니다 `Set-Mailbox -EndDateForRetentionHold 7/1/2016`. 이 시나리오에서는 *RentionHoldEnabled* 속성을 *True*로 설정 합니다. 자세한 내용은 [설정-사서함](https://go.microsoft.com/fwlink/p/?LinkId=150317)을 참조하세요.
     
-  - 사서함에 할당 된 보존 정책의 설정을 변경 하 여 가져온 이전 항목을 즉시 삭제 하거나 사용자의 보관 사서함으로 이동할 수는 없습니다. 예를 들어 사서함에 할당 된 삭제 또는 보관 정책의 보존 기간을 늘릴 수 있습니다. 이 시나리오에서는 보존 정책 설정을 변경한 후 사서함에 대 한 보존을 해제 합니다. 자세한 내용은 [Office 365 조 직에서 사서함에 대 한 보관 및 삭제 정책 설정을](set-up-an-archive-and-deletion-policy-for-mailboxes.md)참조 하십시오.
+  - 사용자는 이전에 가져온 항목을 즉시 삭제하거나 사용자의 보관 사서함으로 옮기지 않도록 사서함에 할당된 보존 정책 설정을 변경할 수 있습니다. 예를 들어 사서함에 할당된 삭제 또는 보관 정책의 보존 기간을 늘릴 수 있습니다. 이 시나리오에서는 보존 정책의 설정을 변경한 후 사서함의 보존 보류를 해제합니다. 자세한 내용은 [Office 365 조직에서 사서함에 대한 보관 및 삭제 정책 설정](set-up-an-archive-and-deletion-policy-for-mailboxes.md)을 참조하세요.
     
 
   

@@ -1,5 +1,7 @@
 ---
 title: Microsoft 365 Enterprise 테스트 환경에 대 한 데이터 분류
+f1.keywords:
+- NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -12,12 +14,12 @@ ms.collection: M365-security-compliance
 ms.custom: Ent_TLGs
 ms.assetid: 1aa9639b-2862-49c4-bc33-1586dda636b8
 description: 이 테스트 랩 가이드를 사용 하 여 Microsoft 365 Enterprise 테스트 환경의 문서에 대해 Office 365 보존 레이블을 만들고 사용 합니다.
-ms.openlocfilehash: dba98ca7a38291c9ce22e9a275585975e6b840ee
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 3bda79236b2c6bc1022e9c590f50bc2bdaec2aea
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40802053"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41597055"
 ---
 # <a name="data-classification-for-your-microsoft-365-enterprise-test-environment"></a>Microsoft 365 Enterprise 테스트 환경에 대 한 데이터 분류
 
@@ -109,7 +111,7 @@ ms.locfileid: "40802053"
   
 1. 브라우저의 **SensitiveFiles** 탭에서 **문서**를 클릭 합니다.
     
-2. 설정 아이콘을 클릭한 다음 **라이브러리 설정**을 클릭합니다.
+2. 설정 아이콘을 클릭한 다음, **라이브러리 설정**을 클릭합니다.
     
 3. **사용 권한 및 관리**에서 **이 목록 또는 라이브러리의 항목에 레이블 적용**을 클릭 합니다. 이 옵션이 나타나지 않으면 보존 레이블이 아직 게시 되지 않은 것입니다. 나중에이 단계를 시도 하세요.
     

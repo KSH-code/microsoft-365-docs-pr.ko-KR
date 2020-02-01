@@ -5,6 +5,8 @@ author: MicrosoftHeidi
 manager: serdars
 ms.prod: microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: heidip
 ms.date: 10/31/2019
 ms.reviewer: anmorgan
@@ -14,12 +16,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: 645abf48297ddcf186d8971a422588d46f7b2fef
-ms.sourcegitcommit: 7c977771fc295ca1e4e9b16a6d05faee8edeadad
+ms.openlocfilehash: 258e116e2d51a5fde9f6e9c3273824994b9dcfa6
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37913121"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41596665"
 ---
 # <a name="policy-recommendations-for-securing-teams-chats-groups-and-files"></a>팀 대화방, 그룹 및 파일을 보호 하기 위한 정책 권장 사항
 
@@ -58,13 +60,13 @@ Microsoft 팀을 시작 하기 위해 종속 서비스를 사용 하도록 설�
 
 |보호 수준|정책도|팀 구현에 대 한 추가 정보|
 |:---------------|:-------|:----------------|
-|**기준**|[로그인 위험이 *보통* 또는 *높을* 때 MFA 필요](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|팀 및 종속 서비스가 앱 목록에 포함 되어 있어야 합니다. 팀에서 게스트 액세스 및 외부 액세스 규칙을 고려해 야 하는 경우이 문서의 뒷부분에 나오는 이러한 항목에 대해 자세히 알아볼 수 있습니다.|
-|        |[최신 인증을 지원 하지 않는 클라이언트 차단](identity-access-policies.md#block-clients-that-dont-support-modern-authentication)|클라우드 앱 할당에 팀 및 종속 서비스를 포함 합니다.|
+|**기준선**|[로그인 위험이 *보통* 또는 *높을* 때 MFA 필요](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|팀 및 종속 서비스가 앱 목록에 포함 되어 있어야 합니다. 팀에서 게스트 액세스 및 외부 액세스 규칙을 고려해 야 하는 경우이 문서의 뒷부분에 나오는 이러한 항목에 대해 자세히 알아볼 수 있습니다.|
+|        |[최신 인증을 지원하지 않는 클라이언트 차단](identity-access-policies.md#block-clients-that-dont-support-modern-authentication)|클라우드 앱 할당에 팀 및 종속 서비스를 포함 합니다.|
 |        |[높은 위험 사용자가 암호를 변경 해야 함](identity-access-policies.md#high-risk-users-must-change-password)|계정에 대해 높은 위험 활동이 검색 되는 경우 팀 사용자가 로그인 할 때 암호를 변경 하도록 강제 적용 합니다. 팀 및 종속 서비스가 앱 목록에 포함 되어 있어야 합니다.|
 |        |[앱 보호 정책 정의](identity-access-policies.md#define-app-protection-policies)|팀 및 종속 서비스가 앱 목록에 포함 되어 있어야 합니다. 각 플랫폼 (iOS, Android, Windows)에 대 한 정책을 업데이트 합니다.|
 |        |[승인 된 앱 필요](identity-access-policies.md#require-approved-apps)|이 정책에 팀 및 종속 서비스를 포함 합니다.|
 |        |[장치 준수 정책 정의](identity-access-policies.md#define-device-compliance-policies)|이 정책에 팀 및 종속 서비스를 포함 합니다.|
-|        |[준수 Pc 필요](identity-access-policies.md#require-compliant-pcs-but-not-compliant-phones-and-tablets)|이 정책에 팀 및 종속 서비스를 포함 합니다.|
+|        |[호환 PC 필요](identity-access-policies.md#require-compliant-pcs-but-not-compliant-phones-and-tablets)|이 정책에 팀 및 종속 서비스를 포함 합니다.|
 |**중요**|[로그인 위험이 *낮은* *경우 MFA* 필요 **](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|팀에서 게스트 액세스 및 외부 액세스 규칙을 고려해 야 하는 경우이 문서의 뒷부분에 나오는 이러한 항목에 대해 자세히 알아볼 수 있습니다. 이 정책에 팀 및 종속 서비스를 포함 합니다.|
 |         |[준수 Pc *및* 모바일 장치 요구](identity-access-policies.md#require-compliant-pcs-and-mobile-devices)|이 정책에 팀 및 종속 서비스를 포함 합니다.|
 |**높은 규제**|[*항상* MFA 필요](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|사용자 id와 상관 없이 MFA는 조직에서 사용 됩니다. 이 정책에 팀 및 종속 서비스를 포함 합니다.

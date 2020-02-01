@@ -1,5 +1,7 @@
 ---
 title: 문서 삭제 정책 개요
+f1.keywords:
+- NOCSH
 ms.author: cabailey
 author: cabailey
 manager: laurawi
@@ -12,12 +14,12 @@ search.appverid:
 - SPO160
 ms.assetid: 55e8d858-f278-482b-a198-2e62d6a2e6e5
 description: 조직은 규정 준수, 법률 또는 기타 비즈니스 요구 사항으로 인해 일정 기간 동안 문서를 보존 해야 할 수 있습니다. 그러나 조직에서 필요한 것 보다 긴 문서를 보관 하는 경우에는 불필요 한 법적 위험을 생성 합니다. 문서 삭제 정책을 사용 하면 특정 기간이 지난 후에 사이트에서 문서를 삭제 하 여 위험을 줄일 수 있으며, 문서를 만든 후 5 년 동안 사용자의 비즈니스용 OneDrive 사이트에서 문서를 삭제할 수 있습니다.
-ms.openlocfilehash: 85a8a4464a14cb2e0b9e901fbf3912c7ff3faa8d
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: ac2bdfcd262a673af1078b2ed0a274fcd0b9d3b9
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40806051"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41595213"
 ---
 # <a name="overview-of-document-deletion-policies"></a>문서 삭제 정책 개요
 
@@ -124,9 +126,9 @@ ms.locfileid: "40806051"
   
 사이트 모음에 정책이 할당 되지 않은 경우 **문서 삭제 정책** 링크가 표시 되지 않습니다. 또한 사이트에 정책이 할당 된 직후에 링크가 표시 되지 않으며, **문서 삭제 정책** 링크가 나타나면 정책이 할당 될 때까지 최대 24 시간이 걸릴 수 있습니다. 
   
-## <a name="permissions"></a>사용 권한
+## <a name="permissions"></a>권한
 
-문서 삭제 정책 센터를 사용할 규정 준수 팀의 구성원은 정책이 적용 될 정책 센터 및 사이트 모음에 대 한 사용 권한이 필요 합니다. 따라서 다음 작업이 권장됩니다.
+문서 삭제 정책 센터를 사용할 규정 준수 팀의 구성원은 정책이 적용 될 정책 센터 및 사이트 모음에 대 한 사용 권한이 필요 합니다. 다음의 작업을 권장합니다.
   
 1. 문서 삭제 정책 센터의 모든 사용자를 포함 하는 보안 그룹 (준수 정책 관리 팀)을 만듭니다. 자세한 내용은 [메일 사용이 가능한 보안 그룹 관리](https://go.microsoft.com/fwlink/p/?LinkID=404345) 를 참조 하세요. 
     

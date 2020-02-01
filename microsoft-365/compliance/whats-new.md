@@ -1,5 +1,7 @@
 ---
 title: Microsoft 365 준수 센터의 새로운 기능
+f1.keywords:
+- NOCSH
 ms.author: brendonb
 author: brendonb
 manager: laurawi
@@ -15,12 +17,12 @@ ms.assetid: e3c6df61-8513-499d-ad8e-8a91770bff63
 ms.collection:
 - M365-security-compliance
 description: Microsoft 365 준수 센터에 지속적으로 새로운 기능을 추가 하 고, 문제를 해결 하 고, 사용자 의견에 따라 변경 사항을 적용 하 고 있습니다. 이번 달에 제공 된 내용을 확인 합니다.
-ms.openlocfilehash: 5d9a4dbd1339fdcf44d1169e5dedc4ea5e0a9f09
-ms.sourcegitcommit: e872676ec98036a50d3a0cb5071109ea5f5a7ae5
+ms.openlocfilehash: 78c2d2da6c8925e86bcba6c498682b72c9292922
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2020
-ms.locfileid: "41515859"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41597185"
 ---
 # <a name="whats-new-in-the-microsoft-365-compliance-center"></a>Microsoft 365 준수 센터의 새로운 기능
 
@@ -69,7 +71,7 @@ ms.locfileid: "41515859"
 |:-----|:-----|:-----|:-----|
 |Advanced eDiscovery|eDiscovery > Advanced eDiscovery <br/> https://protection.office.com/advancedediscoverycases |eDiscovery > Advanced <br/> https://compliance.microsoft.com/advancedediscovery | [Microsoft 365의 고급 eDiscovery 솔루션 개요](overview-ediscovery-20.md) |
 |알림 정책|알림 > 경고 정책 <br/> https://protection.office.com/alertpolicies |현재 경고 정책은 Office 365 보안 & 준수 센터 에서만 관리 됩니다. |[보안 및 준수 센터의 경고 정책](alert-policies.md) |
-|알림|알림 > 경고 보기 <br/> https://protection.office.com/viewalerts |알림 <br/> https://compliance.microsoft.com/compliancealerts |[알림 보기](alert-policies.md#viewing-alerts)|
+|경고|알림 > 경고 보기 <br/> https://protection.office.com/viewalerts |경고 <br/> https://compliance.microsoft.com/compliancealerts |[알림 보기](alert-policies.md#viewing-alerts)|
 |보관|정보 거 버 넌 스 > 보관 함 <br/> https://protection.office.com/archiving |정보 거 버 넌 스 > 보관 함 탭 <br/> https://compliance.microsoft.com/informationgovernance?viewid=archive |[보관 사서함 사용](enable-archive-mailboxes.md)|
 |감사 로그 검색|검색 > 감사 로그 검색 <br/> https://protection.office.com/unifiedauditlog |지금은 Office 365 보안 & 준수 센터에서 감사 로그를 검색할 수 있습니다.| [보안 & 준수 센터에서 감사 로그 검색](search-the-audit-log-in-security-and-compliance.md)|
 |콘텐츠 검색|검색 > 콘텐츠 검색 <br/> https://protection.office.com/contentsearchbeta?ContentOnly=1 | 콘텐츠 검색 <br/> https://compliance.microsoft.com/contentsearch |[Office 365에서 콘텐츠 검색](search-for-content.md) |

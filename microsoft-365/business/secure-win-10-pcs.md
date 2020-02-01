@@ -1,5 +1,7 @@
 ---
 title: Windows 10 컴퓨터 보안
+f1.keywords:
+- NOCSH
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -20,12 +22,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Microsoft 365 Business를 설정한 후에 Windows 10 Pc를 보호 하는 방법을 알아봅니다.
-ms.openlocfilehash: 3c558132f1e370a19735a38f9caa09ddb8e1f9f4
-ms.sourcegitcommit: e872676ec98036a50d3a0cb5071109ea5f5a7ae5
+ms.openlocfilehash: 068ac8c8b6011c879d859024b44192cb0a6d3d7d
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2020
-ms.locfileid: "41515589"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41593464"
 ---
 # <a name="secure-windows-10-computers"></a>Windows 10 컴퓨터 보안
 

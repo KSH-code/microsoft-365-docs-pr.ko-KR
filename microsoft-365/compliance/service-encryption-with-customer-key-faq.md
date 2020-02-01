@@ -1,5 +1,7 @@
 ---
 title: Office 365의 고객 키를 사용한 서비스 암호화 관련 자주하는 질문
+f1.keywords:
+- NOCSH
 ms.author: krowley
 author: kccross
 manager: laurawi
@@ -14,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 41ae293a-bd5c-4083-acd8-e1a2b4329da6
 description: Office 365에서는 BitLocker 및 DKM (분산 키 관리자)를 통해 사용 하도록 설정 되는 초기 볼륨 수준 암호화와 함께 Exchange의 데이터를 포함 하 여 Office 365의 고객 콘텐츠에 대 한 응용 프로그램 수준에 추가 된 암호화 계층을 제공 합니다. 온라인, 비즈니스용 Skype, SharePoint Online 및 비즈니스용 OneDrive 이를 서비스 암호화 라고 합니다.
-ms.openlocfilehash: 0dbc3839d5dfda98460db70de667e2f469bc1291
-ms.sourcegitcommit: 1c962bd0d51dc12419c4e6e393bb734c972b7e38
+ms.openlocfilehash: a2285db4bd5ff5594c6b766dcad8909f0442d3ce
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "38687139"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41597455"
 ---
 # <a name="service-encryption-with-customer-key-for-office-365-faq"></a>Office 365의 고객 키를 사용한 서비스 암호화 관련 자주하는 질문
 

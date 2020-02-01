@@ -1,5 +1,7 @@
 ---
 title: 보안 및 준수 센터의 보고서
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -11,12 +13,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 7acd33ce-1ec8-49fb-b625-43bac7b58c5a
 description: '보안 & 준수 센터를 사용 하 여 SharePoint Online 및 Exchange Online 조직에 대 한 다양 한 보고서 및 Azure Active Directory 보고서를 확인할 수 있습니다.  '
-ms.openlocfilehash: af0fbe34d24853a5c6aa3afff664477ce93c2a03
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 4d67818cbe0523d8823b265df53e7da5051163e6
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38687053"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41597625"
 ---
 # <a name="reports-in-the-security--compliance-center"></a>보안 및 준수 센터의 보고서
 

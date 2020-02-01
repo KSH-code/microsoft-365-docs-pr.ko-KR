@@ -1,5 +1,7 @@
 ---
 title: 통신 사이트 만들기
+f1.keywords:
+- NOCSH
 ms.author: samanro
 author: samanro
 manager: scotv
@@ -21,12 +23,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 캠페인에 대 한 통신 사이트를 만듭니다.
-ms.openlocfilehash: e8f7730d1ec407bf24a819df7366d9bedd78d390
-ms.sourcegitcommit: b535fe233234fd25146cfe15478e20d954f71e03
+ms.openlocfilehash: f0d79bcaa49d5e62dff5618eeaf94347d5dd6313
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "38748279"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41594923"
 ---
 # <a name="create-a-communications-site-for-your-campaign"></a>캠페인에 대 한 통신 사이트 만들기
 

@@ -1,5 +1,7 @@
 ---
 title: 검토 집합에서 문서 태그 지정
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,16 +16,16 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: dfb5b32ac833f401d819b8697ff1bf1cca7ee2f9
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: be4c86a5df7e0964744f6b5d7551382916e7ed2d
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088486"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41597415"
 ---
 # <a name="tag-documents-in-a-review-set"></a>검토 집합에서 문서 태그 지정
 
-콘텐츠를 검토 집합으로 구성 하는 것은 eDiscovery 프로세스에서 다양 한 워크플로를 완료 하는 것이 중요 합니다. 성능 저하를 줄여주는 방법에는 다음이 포함됩니다.
+콘텐츠를 검토 집합으로 구성 하는 것은 eDiscovery 프로세스에서 다양 한 워크플로를 완료 하는 것이 중요 합니다. 여기에는 다음이 포함됩니다.
 
 -  Culling 불필요 한 콘텐츠
 

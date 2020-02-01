@@ -1,5 +1,7 @@
 ---
 title: 사용자가 모바일 장치에서 Office 문서에 액세스하는 방법 관리
+f1.keywords:
+- NOCSH
 ms.author: sirkkuw
 author: sirkkuw
 manager: scotv
@@ -23,12 +25,12 @@ search.appverid:
 - MOE150
 ms.assetid: aa31319c-9196-48c9-a90b-4057e0494c7a
 description: 모바일 장치에서 Office 앱에 안전 하 게 액세스할 수 있도록 하는 보호 정책에 대해 알아봅니다.
-ms.openlocfilehash: c24dae7e0eea777e728ebead9a2abcc3785763dd
-ms.sourcegitcommit: 9a057e70637dcfe06d4f729a96c02be989cf9e25
+ms.openlocfilehash: 39d28a3a78fb06d0020c484b1782b544f6a8c656
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38633352"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41593824"
 ---
 # <a name="manage-how-users-access-office-documents-on-mobile-devices"></a>사용자가 모바일 장치에서 Office 문서에 액세스하는 방법 관리
 

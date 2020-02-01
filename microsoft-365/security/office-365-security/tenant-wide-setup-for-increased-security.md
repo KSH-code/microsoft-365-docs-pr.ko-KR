@@ -1,5 +1,7 @@
 ---
 title: 보안 강화를 위해 Office 365 테넌트 구성
+f1.keywords:
+- NOCSH
 ms.author: bcarter
 author: BrendaCarter
 manager: laurawi
@@ -15,12 +17,12 @@ ms.collection:
 search.appverid: MET150
 ms.assetid: 8d274fe3-db51-4107-ba64-865e7155b355
 description: Office 365 환경의 보안에 영향을 주는 테 넌 트 수준 설정에 대해 권장 되는 구성을 안내 합니다. 보안 요구 사항에 따라 보안이 더 나 덜 필요할 수 있습니다. 이 권장 사항을 출발점으로 사용 합니다.
-ms.openlocfilehash: f5df416b71cd3b4885033786d83160644b6d7b1a
-ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
+ms.openlocfilehash: 01cf10818c83171fbbf30b5ec7f08871f0b9b328
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "39971456"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41598205"
 ---
 # <a name="configure-your-office-365-tenant-for-increased-security"></a>보안 강화를 위해 Office 365 테넌트 구성
 
@@ -126,6 +128,7 @@ Office 365 Cloud App Security를 사용 하 여 위험을 평가 하 고 의심 
 
 다음 문서 및 가이드에서는 Office 365 환경을 보호 하기 위한 추가 규범 정보를 제공 합니다.
 
-- [정치적 캠페인, 비영리 및 기타 agile 조직에 대 한 Microsoft 보안 지침](https://docs.microsoft.com/microsoft-365-enterprise/microsoft-security-guidance) (이 권장 사항은 모든 환경, 특히 클라우드 전용 환경)에서 사용할 수 있습니다.
+- [정치적 캠페인, 비영리 및 기타 agile 조직에 대 한 Microsoft 보안 지침](https://docs.microsoft.com/microsoft-365/security/office-365-security/microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o) (이 권장 사항은 모든 환경, 특히 클라우드 전용 환경)에서 사용할 수 있습니다.
+
 
 - [Id 및 장치에 대 한 권장 보안 정책 및 구성](https://docs.microsoft.com/microsoft-365-enterprise/microsoft-365-policies-configurations) (이러한 권장 사항에는 AD FS 환경에 대 한 도움말이 포함 됨)

@@ -9,13 +9,15 @@ audience: microsoft-business
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 ms.date: 06/01/2018
+f1.keywords:
+- NOCSH
 ms.author: josephd
-ms.openlocfilehash: aafd629b4efcfa1307a25bf8e340236f183998b5
-ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
+ms.openlocfilehash: 69ff4846e3daeef39310aa63961e0b3f5ccb9875
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "37370245"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41596595"
 ---
 # <a name="step-1-prepare-your-organization-for-windows-10-enterprise"></a>1 단계: Windows 10 Enterprise에 대 한 조직 준비
 
@@ -48,9 +50,9 @@ Microsoft는 진단 데이터를 사용 하 여 맬웨어 추세 및 기타 위�
 | 수준 | 수집 된 데이터 | 값 |
 |:--- |:--- |:--- |
 | 보안 | 보안 데이터만 | 개 |
-| 기본 | 보안 데이터 및 기본 시스템 및 품질 데이터 | 1  |
-| 방식 | 보안 데이터, 기본 시스템 및 품질 데이터, 향상 된 insights 및 고급 안정성 데이터 | 2  |
-| Full | 보안 데이터, 기본 시스템 및 품질 데이터, 향상 된 insights 및 고급 안정성 데이터 및 전체 진단 데이터 | 3  |
+| 기본 | 보안 데이터 및 기본 시스템 및 품질 데이터 | 개 |
+| 방식 | 보안 데이터, 기본 시스템 및 품질 데이터, 향상 된 insights 및 고급 안정성 데이터 | 2 |
+| Full | 보안 데이터, 기본 시스템 및 품질 데이터, 향상 된 insights 및 고급 안정성 데이터 및 전체 진단 데이터 | 3(sp3) |
 
 다음 방법 중 하나를 통해 진단 데이터를 사용 하도록 설정할 수 있습니다.
 
@@ -67,7 +69,7 @@ Windows 진단 데이터에 대 한 자세한 내용을 확인 하 고 선택한
 
 |||
 |:-------|:-----|
-|![목록 1의 텍스트](./media/stepnumbers/Step2.png)| [현재 위치 업그레이드로 기존 장치에 대 한 Windows 10 Enterprise 배포](windows10-deploy-inplaceupgrade.md) |
+|![2단계](./media/stepnumbers/Step2.png)| [현재 위치 업그레이드로 기존 장치에 대 한 Windows 10 Enterprise 배포](windows10-deploy-inplaceupgrade.md) |
 
 
 

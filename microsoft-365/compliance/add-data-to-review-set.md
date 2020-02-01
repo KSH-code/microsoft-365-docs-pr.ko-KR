@@ -1,5 +1,7 @@
 ---
 title: 검색 결과를 검토 집합에 추가
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: 고급 eDiscovery 사례와 연결 된 검색 결과를 추가 합니다. 항목이 원래 위치에서 복사 되 고 Microsoft에서 제공한 Azure 저장소 위치로 복사 됩니다. 또한 항목은 다시 인덱싱되 고 고급 eDiscovery는 이미지 파일에서 OCR (광학 인식)을 수행 하 고 검토 및 분석을 위해 이미지 텍스트를 업로드 합니다.
-ms.openlocfilehash: 838301576d84f4cf3dcb618904f55b661bcf95b3
-ms.sourcegitcommit: e292e9f0181d722a11398fbd012bb84589aef052
+ms.openlocfilehash: 748de7f3cb3fec5a37cb205e0d480701b4cded2e
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/25/2019
-ms.locfileid: "39257026"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41594639"
 ---
 # <a name="add-search-results-to-a-review-set"></a>검색 결과를 검토 집합에 추가
 

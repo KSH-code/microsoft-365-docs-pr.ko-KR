@@ -1,5 +1,7 @@
 ---
 title: Office 365 Advanced eDiscovery에서 프로세스 모듈 실행
+f1.keywords:
+- NOCSH
 ms.author: chrfox
 author: chrfox
 manager: laurawi
@@ -14,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: dbc1e251-0596-443b-ac9b-f398ba955b73
 description: 'Office 365 Advanced eDiscovery를 사용 하 여 분석을 위해 Office 365 데이터의 사례 파일을 준비 하기 위한 지침을 알아봅니다.  '
-ms.openlocfilehash: f96b7670a3886b2bfe01801ea76061bea4a37d14
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 779f9ae4f93933063139b2d7d65deb2500b263e1
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40802911"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41597585"
 ---
 # <a name="run-the-process-module-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery에서 프로세스 모듈 실행
 

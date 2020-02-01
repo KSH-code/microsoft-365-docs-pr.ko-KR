@@ -1,5 +1,7 @@
 ---
 title: Office 365에 메일 보내기
+f1.keywords:
+- NOCSH
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
@@ -14,12 +16,12 @@ ms.assetid: f9d4b5b6-8f4c-44df-9b06-2f9b3058ca20
 ms.collection:
 - M365-security-compliance
 description: 이러한 문서는 외부 보낸 사람이 신뢰도를 개선 하 고 Office 365에서 사용자에 게 전자 메일을 배달 하는 기능을 향상 시키는 데 도움이 됩니다. 또한 Office 365 사용자가 아닌 경우에도 정크 메일 및 피싱 시도를 보고 하는 방법에 대 한 몇 가지 정보를 제공 합니다.
-ms.openlocfilehash: da19605f97c906fae158bb8299339ffb82755faf
-ms.sourcegitcommit: 2468bcb01625f97a322459814d81b9faad717859
+ms.openlocfilehash: f6a0860c505453811e6e637941d90a91fd5b40f7
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39872034"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41598415"
 ---
 # <a name="sending-mail-to-office-365"></a>Office 365에 메일 보내기
 

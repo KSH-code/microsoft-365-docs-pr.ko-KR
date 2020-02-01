@@ -1,5 +1,7 @@
 ---
-title: Office 365에서의 권한 있는 액세스 관리
+title: Office 365의 권한 있는 액세스 관리
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -15,14 +17,14 @@ ms.collection:
 ms.custom: Ent_Solutions
 ms.assetid: ''
 description: 이 항목을 사용 하 여 Office 365의 권한이 부여 된 액세스 관리에 대해 자세히 알아보세요.
-ms.openlocfilehash: 9bc2aab9c9758daf35aa14a41d7997a0bff5764f
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 0c9d8ba22f57c7f6a576f1995e8df92be7478073
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38687077"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41597735"
 ---
-# <a name="privileged-access-management-in-office-365"></a>Office 365에서의 권한 있는 액세스 관리
+# <a name="privileged-access-management-in-office-365"></a>Office 365의 권한 있는 액세스 관리
 
 > [!IMPORTANT]
 > 이 항목에서는 현재 Office 365 E5 및 고급 규정 준수 Sku에서 사용할 수 있는 기능에 대 한 배포 및 구성 지침에 대해 설명 합니다.
@@ -92,6 +94,6 @@ Office 365 E5 및 Advanced 준수 Sku가 있는 고객은 권한 있는 액세�
 
 [권한 있는 액세스 관리를 위한 조직 구성을](privileged-access-management-configuration.md)시작 합니다.
 
-## <a name="learn-more"></a>자세히 알아보기
+## <a name="learn-more"></a>자세한 정보
 
 [대화형 가이드: 권한이 부여 된 액세스 관리로 관리자 작업 모니터링 및 제어](https://content.cloudguides.com/guides/Privileged%20Access%20Management)

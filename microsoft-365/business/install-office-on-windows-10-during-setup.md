@@ -1,5 +1,7 @@
 ---
 title: 설치 시 Windows 10에 Office 설치
+f1.keywords:
+- NOCSH
 ms.author: sirkkuw
 author: sirkkuw
 manager: scotv
@@ -22,12 +24,12 @@ search.appverid:
 - MOE150
 ms.assetid: 5ffd5327-a83a-4d53-94d6-22ba2f9fd090
 description: 설치 중에 Windows 10 장치에 Office를 자동으로 배포 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 7b58fd3db6c6f15effe2bc4876903a9f480366b1
-ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
+ms.openlocfilehash: 8a631d3976ae3bce82d59d84e38a14405010ab02
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39831626"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41593864"
 ---
 # <a name="install-office-on-windows-10-during-setup"></a>설치 시 Windows 10에 Office 설치
 

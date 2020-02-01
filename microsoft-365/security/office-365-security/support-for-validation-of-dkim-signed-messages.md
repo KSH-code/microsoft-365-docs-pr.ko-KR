@@ -1,5 +1,7 @@
 ---
 title: DKIM으로 서명된 메시지의 유효성 검사 지원
+f1.keywords:
+- NOCSH
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
@@ -13,12 +15,12 @@ ms.assetid: a4c95148-a00c-4d12-85ed-88520b547d97
 ms.collection:
 - M365-security-compliance
 description: Exchange Online Protection 및 Exchange Online에서 DKIM 서명 된 메시지의 유효성 검사에 대해 자세히 알아보기
-ms.openlocfilehash: bb02e558c7aaf07a7b13ec0bdb237a9ab84220f4
-ms.sourcegitcommit: 2468bcb01625f97a322459814d81b9faad717859
+ms.openlocfilehash: 1dc160a4aa01a1a1e46a9b31bb09206d4b385d68
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39871234"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41598225"
 ---
 # <a name="support-for-validation-of-dkim-signed-messages"></a>DKIM으로 서명된 메시지의 유효성 검사 지원
 

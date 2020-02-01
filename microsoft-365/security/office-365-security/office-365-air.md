@@ -1,6 +1,8 @@
 ---
 title: Office 365의 위협에 대한 자동 조사 및 응답
 keywords: AIR, autoIR, ATP, 자동화, 조사, 대응, 재구성, 위협, 고급, 위협, 보호
+f1.keywords:
+- NOCSH
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
@@ -13,12 +15,12 @@ search.appverid:
 - MOE150
 ms.collection: M365-security-compliance
 description: Office 365 Advanced Threat Protection 계획 2의 자동화 된 조사 및 응답 기능 사용을 시작 하세요.
-ms.openlocfilehash: 3f13b1de2747dcb6672f56989ff73cdf485e49b6
-ms.sourcegitcommit: 8c244b38c43dd00c4ef0102f8bed02ab36639a6b
+ms.openlocfilehash: 9c17d7219e5dd15404b171fbd6707d00fd788f19
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39967991"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41598765"
 ---
 # <a name="automatically-investigate-and-respond-to-threats-in-office-365"></a>Office 365의 위협에 대한 자동 조사 및 응답
 
@@ -30,7 +32,7 @@ ms.locfileid: "39967991"
 - 작동 방식에 대 한 개요를 보려면 [Office 365의 자동화 된 조사 및 응답](automated-investigation-response-office.md)을 참조 하세요.
 
 > [!TIP]
-> Microsoft 365 E5 또는 Microsoft 365 E3과 Id & Threat Protection이 함께 사용 됩니까? [Microsoft Threat Protection에서 자동화 된 조사 및 대응 (AIR)](../mtp/mtp-autoir.md)을 시도해 보세요.
+> ID 및 위협 방지가 지원되는 Microsoft 365 E5 또는 Microsoft 365 E3가 있나요? [Microsoft Threat Protection에서 자동화 된 조사 및 대응 (AIR)](../mtp/mtp-autoir.md)을 시도해 보세요.
 
 자동화 된 조사 및 응답 기능을 사용 하 여 특정 알림이 트리거되면 하나 이상의 보안 playbook가 시작 되 고 자동화 된 조사 프로세스가 시작 됩니다. 자동화 된 조사 프로세스 중 및 이후에 보안 팀은 다음을 수행할 수 있습니다.
 
@@ -43,7 +45,7 @@ ms.locfileid: "39967991"
 
 ## <a name="view-details-of-an-investigation"></a>조사 세부 정보 보기
 
-1. 으로 이동 [https://protection.office.com](https://protection.office.com) 하 여 로그인 합니다. 그러면 보안 & 준수 센터로 이동 합니다.
+1. [https://protection.office.com](https://protection.office.com)으로 이동하여 로그인합니다. 그러면 보안 & 준수 센터로 이동 합니다.
 
 2. 다음 중 하나를 수행합니다.
 
@@ -65,7 +67,7 @@ ms.locfileid: "39967991"
 
 Office 365에서 자동화 된 조사는 일반적으로 하나 이상의 권장 작업을 수행 합니다. 그러나 보안 운영 팀이 승인 해야 작업을 수행할 수 있습니다. 다음 절차에 따라 작업을 검토 하 고 승인 합니다.
 
-1. 으로 이동 [https://protection.office.com](https://protection.office.com) 하 여 로그인 합니다. 
+1. [https://protection.office.com](https://protection.office.com)으로 이동하여 로그인합니다. 
 
 2. **위협 관리** > **조사**로 이동 합니다.
 
@@ -81,7 +83,7 @@ Office 365에서 자동화 된 조사는 일반적으로 하나 이상의 권장
 
 특정 유형의 경고는 Office 365에서 자동화 된 조사를 트리거합니다. 자세한 내용은 [Alerts](automated-investigation-response-office.md#alerts)를 참조 하십시오. 다음 절차에 따라 자동화 된 조사에 연결 된 경고에 대 한 세부 정보를 확인 합니다.
 
-1. 으로 이동 [https://protection.office.com](https://protection.office.com) 하 여 로그인 합니다. 그러면 보안 & 준수 센터로 이동 합니다.
+1. [https://protection.office.com](https://protection.office.com)으로 이동하여 로그인합니다. 그러면 보안 & 준수 센터로 이동 합니다.
 
 2. **위협 관리** > **조사**로 이동 합니다.
 

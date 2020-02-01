@@ -1,5 +1,7 @@
 ---
 title: 위협 탐색기 및 실시간 검색의 보기
+f1.keywords:
+- NOCSH
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
@@ -12,18 +14,18 @@ search.appverid: ''
 ms.collection:
 - M365-security-compliance
 description: 위협 탐색기 및 실시간 검색에서 사용할 수 있는 다양 한 종류의 보기에 대해 알아봅니다.
-ms.openlocfilehash: 7c3d78c5b5d4b1708fc57adba6951b4e352f0eaa
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: 7f506b77673e416aaecdc707e0659006e6089142
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37089210"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41598255"
 ---
 # <a name="views-in-threat-explorer-and-real-time-detections"></a>위협 탐색기 및 실시간 검색의 보기
 
 ![위협 탐색기](../media/ThreatExplorerFirstOpened.png)
 
-[위협 탐색기](threat-explorer.md) 실시간 검색 보고서는 보안 운영 팀에서 보안 &amp; 및 준수 센터의 위협에 대해 조사 하 고 대응 하는 데 도움이 되는 강력 하 고도 비슷한 실시간 도구입니다. Explorer (and 실시간 검색 보고서)에는 조직에 대 한 기타 보안 위협 및 위험 뿐 아니라 전자 메일 및 Office 365의 파일에 있는 의심 스러운 맬웨어 및 피싱에 대 한 정보가 표시 됩니다. 
+[위협 탐색기](threat-explorer.md) 및 실시간 검색 보고서는 보안 운영 팀에서 보안 &amp; 및 준수 센터의 위협에 대해 조사 하 고 대응 하는 데 도움을 주는 강력 하 고도 비슷한 실시간 도구입니다. Explorer (and 실시간 검색 보고서)에는 조직에 대 한 기타 보안 위협 및 위험 뿐 아니라 전자 메일 및 Office 365의 파일에 있는 의심 스러운 맬웨어 및 피싱에 대 한 정보가 표시 됩니다. 
 
 - [Office 365 ATP (Advanced Threat Protection](office-365-atp.md) ) 계획 2가 있는 경우 Explorer를 사용할 수 있습니다.
 - Office 365 ATP 계획 1을 사용 하는 경우에는 실시간 검색이 가능 합니다.
