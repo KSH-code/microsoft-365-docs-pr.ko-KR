@@ -1,5 +1,7 @@
 ---
 title: SharePoint, OneDrive 또는 Microsoft Teams에서 감지한 악성 파일에 대한 정보 보기
+f1.keywords:
+- NOCSH
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
@@ -14,52 +16,52 @@ ms.assetid: 5ed8abf1-c0e9-4e5b-a5b7-2059cea50b61
 ms.collection:
 - M365-security-compliance
 description: SharePoint, OneDrive 또는 팀에서 검색 된 악성 파일에 대 한 정보를 볼 수 있는 위치 및 해당 파일에 대해 작업을 수행 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: f2271ec7822efd442474aa322535da26d42788db
-ms.sourcegitcommit: 84d88a857e82b1a8a0d466057a2e330e8b1692e4
+ms.openlocfilehash: 49c7e1668602a63b8b82339ad0cc7823146212a4
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/27/2019
-ms.locfileid: "37306112"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41599015"
 ---
-# <a name="view-information-about-malicious-files-detected-in-sharepoint-onedrive-or-microsoft-teams"></a><span data-ttu-id="4518d-103">SharePoint, OneDrive 또는 Microsoft Teams에서 감지한 악성 파일에 대한 정보 보기</span><span class="sxs-lookup"><span data-stu-id="4518d-103">View information about malicious files detected in SharePoint, OneDrive, or Microsoft Teams</span></span>
+# <a name="view-information-about-malicious-files-detected-in-sharepoint-onedrive-or-microsoft-teams"></a><span data-ttu-id="4dbf6-103">SharePoint, OneDrive 또는 Microsoft Teams에서 감지한 악성 파일에 대한 정보 보기</span><span class="sxs-lookup"><span data-stu-id="4dbf6-103">View information about malicious files detected in SharePoint, OneDrive, or Microsoft Teams</span></span>
 
-<span data-ttu-id="4518d-104">[SharePoint, OneDrive 및 Microsoft 팀에서는 Office 365 ATP](atp-for-spo-odb-and-teams.md) 가 문서 라이브러리 및 팀 사이트의 악의적인 파일 로부터 조직을 보호 합니다.</span><span class="sxs-lookup"><span data-stu-id="4518d-104">[Office 365 ATP for SharePoint, OneDrive, and Microsoft Teams](atp-for-spo-odb-and-teams.md) protects your organization from malicious files in document libraries and team sites.</span></span> <span data-ttu-id="4518d-105">악성 파일이 검색 되 면 해당 파일이 차단 되므로 조직의 보안 팀이 추가 작업을 수행할 때까지 아무도 해당 파일을 열거나 복사 하거나 이동 하거나 공유할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="4518d-105">When a malicious file is detected, that file is blocked so that no one can open, copy, move, or share it until further actions are taken by the organization's security team.</span></span> <span data-ttu-id="4518d-106">검색 된 파일에 대 한 정보 및 수행할 작업을 확인 하는 방법에 대 한 자세한 내용은이 문서를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="4518d-106">Read this article to learn how to view information about detected files and what actions to take.</span></span> 
+<span data-ttu-id="4dbf6-104">[SharePoint, OneDrive 및 Microsoft 팀에서는 Office 365 ATP](atp-for-spo-odb-and-teams.md) 가 문서 라이브러리 및 팀 사이트의 악의적인 파일 로부터 조직을 보호 합니다.</span><span class="sxs-lookup"><span data-stu-id="4dbf6-104">[Office 365 ATP for SharePoint, OneDrive, and Microsoft Teams](atp-for-spo-odb-and-teams.md) protects your organization from malicious files in document libraries and team sites.</span></span> <span data-ttu-id="4dbf6-105">악성 파일이 검색 되 면 해당 파일이 차단 되므로 조직의 보안 팀이 추가 작업을 수행할 때까지 아무도 해당 파일을 열거나 복사 하거나 이동 하거나 공유할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="4dbf6-105">When a malicious file is detected, that file is blocked so that no one can open, copy, move, or share it until further actions are taken by the organization's security team.</span></span> <span data-ttu-id="4dbf6-106">검색 된 파일에 대 한 정보 및 수행할 작업을 확인 하는 방법에 대 한 자세한 내용은이 문서를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="4dbf6-106">Read this article to learn how to view information about detected files and what actions to take.</span></span> 
 
-<span data-ttu-id="4518d-107">이 문서에서 설명 하는 작업을 수행 하려면 [Office 365 보안 &amp; 및 준수 센터에 필요한 권한이](permissions-in-the-security-and-compliance-center.md)있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="4518d-107">In order to perform the tasks described in this article, you must have the necessary [permissions for the Office 365 Security &amp; Compliance Center](permissions-in-the-security-and-compliance-center.md).</span></span> 
+<span data-ttu-id="4dbf6-107">이 문서에서 설명 하는 작업을 수행 하려면 [Office 365 보안 &amp; 및 준수 센터에 필요한 권한이](permissions-in-the-security-and-compliance-center.md)있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="4dbf6-107">In order to perform the tasks described in this article, you must have the necessary [permissions for the Office 365 Security &amp; Compliance Center](permissions-in-the-security-and-compliance-center.md).</span></span> 
   
-## <a name="view-reports-with-information-about-detected-files"></a><span data-ttu-id="4518d-108">검색 된 파일에 대 한 정보가 있는 보고서 보기</span><span class="sxs-lookup"><span data-stu-id="4518d-108">View reports with information about detected files</span></span>
+## <a name="view-reports-with-information-about-detected-files"></a><span data-ttu-id="4dbf6-108">검색 된 파일에 대 한 정보가 있는 보고서 보기</span><span class="sxs-lookup"><span data-stu-id="4dbf6-108">View reports with information about detected files</span></span>
 
-<span data-ttu-id="4518d-109">Office 365 ATP가 검색 한 파일에 대 한 상태 및 자세한 정보를 보려면 위협 방지 상태 보고서를 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4518d-109">To view status and detailed information about files that were detected by Office 365 ATP, you can use the Threat Protection Status report.</span></span>
+<span data-ttu-id="4dbf6-109">Office 365 ATP가 검색 한 파일에 대 한 상태 및 자세한 정보를 보려면 위협 방지 상태 보고서를 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4dbf6-109">To view status and detailed information about files that were detected by Office 365 ATP, you can use the Threat Protection Status report.</span></span>
   
-1. <span data-ttu-id="4518d-110">[Office 365 보안 &amp; 및 준수 센터](https://protection.office.com)에서 **보고서** \> **대시보드** \> **위협 보호 상태**를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="4518d-110">In the [Office 365 Security &amp; Compliance Center](https://protection.office.com), choose **Reports** \> **Dashboard** \> **Threat Protection Status**.</span></span>
+1. <span data-ttu-id="4dbf6-110">[Office 365 보안 &amp; 및 준수 센터](https://protection.office.com)에서 **보고서** \> **대시보드** \> **위협 보호 상태**를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="4dbf6-110">In the [Office 365 Security &amp; Compliance Center](https://protection.office.com), choose **Reports** \> **Dashboard** \> **Threat Protection Status**.</span></span>
     
-2. <span data-ttu-id="4518d-111">보고서의 오른쪽 위 모서리에서 **정보 테이블 보기**를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="4518d-111">In the upper right corner of the report, choose **View details table**.</span></span>
+2. <span data-ttu-id="4dbf6-111">보고서의 오른쪽 위 모서리에서 **정보 테이블 보기**를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="4dbf6-111">In the upper right corner of the report, choose **View details table**.</span></span>
     
-3. <span data-ttu-id="4518d-112">보고서에서 검색 된 파일의 목록을 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="4518d-112">View the list of files that were detected in the report.</span></span>
+3. <span data-ttu-id="4dbf6-112">보고서에서 검색 된 파일의 목록을 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="4dbf6-112">View the list of files that were detected in the report.</span></span>
     
-4. <span data-ttu-id="4518d-113">수행 된 작업, 파일 이름, 파일 경로 등 자세한 정보를 보려면 목록에서 항목을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="4518d-113">Select an item in the list to view detailed information, including actions taken, the file name, the file path, and more.</span></span>
+4. <span data-ttu-id="4dbf6-113">수행 된 작업, 파일 이름, 파일 경로 등 자세한 정보를 보려면 목록에서 항목을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="4dbf6-113">Select an item in the list to view detailed information, including actions taken, the file name, the file path, and more.</span></span>
     
-5. <span data-ttu-id="4518d-114">**고급 분석** 탭을 선택 하 여 관찰 된 동작 및 분석 세부 정보 등의 정보를 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="4518d-114">Choose the **Advanced Analysis** tab to view information, such as observed behavior and analysis details.</span></span> 
+5. <span data-ttu-id="4dbf6-114">**고급 분석** 탭을 선택 하 여 관찰 된 동작 및 분석 세부 정보 등의 정보를 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="4dbf6-114">Choose the **Advanced Analysis** tab to view information, such as observed behavior and analysis details.</span></span> 
   
-## <a name="view-and-take-action-on-files-in-quarantine"></a><span data-ttu-id="4518d-115">격리에서 파일 보기 및 작업 수행</span><span class="sxs-lookup"><span data-stu-id="4518d-115">View and take action on files in quarantine</span></span>
+## <a name="view-and-take-action-on-files-in-quarantine"></a><span data-ttu-id="4dbf6-115">격리에서 파일 보기 및 작업 수행</span><span class="sxs-lookup"><span data-stu-id="4dbf6-115">View and take action on files in quarantine</span></span>
 
-1. <span data-ttu-id="4518d-116">Office 365 보안 &amp; 및 준수 센터에서 **위협 관리** \> **검토** \> **격리**를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="4518d-116">In the Office 365 Security &amp; Compliance Center, choose **Threat management** \> **Review** \> **Quarantine**.</span></span> <span data-ttu-id="4518d-117">(로 [https://protection.office.com/quarantine](https://protection.office.com/quarantine)직접 이동 해도 됩니다.)</span><span class="sxs-lookup"><span data-stu-id="4518d-117">(You can also go directly to [https://protection.office.com/quarantine](https://protection.office.com/quarantine).)</span></span>
+1. <span data-ttu-id="4dbf6-116">Office 365 보안 &amp; 및 준수 센터에서 **위협 관리** \> **검토** \> **격리**를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="4dbf6-116">In the Office 365 Security &amp; Compliance Center, choose **Threat management** \> **Review** \> **Quarantine**.</span></span> <span data-ttu-id="4dbf6-117">(로 [https://protection.office.com/quarantine](https://protection.office.com/quarantine)직접 이동 해도 됩니다.)</span><span class="sxs-lookup"><span data-stu-id="4dbf6-117">(You can also go directly to [https://protection.office.com/quarantine](https://protection.office.com/quarantine).)</span></span>
     
-2. <span data-ttu-id="4518d-118">왼쪽 위 모서리에서 드롭다운 메뉴를 **전자 메일** 의 **파일로**변경 합니다.</span><span class="sxs-lookup"><span data-stu-id="4518d-118">In the upper left corner, change the drop-down menu from **Emails** to **Files**.</span></span> <span data-ttu-id="4518d-119">결과 목록에 너무 많은 항목이 포함 되어 있으면 **필터** 기능을 사용 하 여 선택 범위를 좁힐 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4518d-119">If the list of results includes too many items, use the **Filter** functionality to narrow down the selection.</span></span>
+2. <span data-ttu-id="4dbf6-118">왼쪽 위 모서리에서 드롭다운 메뉴를 **전자 메일** 의 **파일로**변경 합니다.</span><span class="sxs-lookup"><span data-stu-id="4dbf6-118">In the upper left corner, change the drop-down menu from **Emails** to **Files**.</span></span> <span data-ttu-id="4dbf6-119">결과 목록에 너무 많은 항목이 포함 되어 있으면 **필터** 기능을 사용 하 여 선택 범위를 좁힐 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4dbf6-119">If the list of results includes too many items, use the **Filter** functionality to narrow down the selection.</span></span>
     
-3. <span data-ttu-id="4518d-120">파일의 URL을 포함 하 여 세부 정보를 보려면 목록에서 항목을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="4518d-120">Select an item in the list to view detailed information, including the file's URL.</span></span>
+3. <span data-ttu-id="4dbf6-120">파일의 URL을 포함 하 여 세부 정보를 보려면 목록에서 항목을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="4dbf6-120">Select an item in the list to view detailed information, including the file's URL.</span></span>
     
-4. <span data-ttu-id="4518d-121">사용 가능한 작업을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="4518d-121">Choose an available action.</span></span>
+4. <span data-ttu-id="4dbf6-121">사용 가능한 작업을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="4dbf6-121">Choose an available action.</span></span>
     
-  - <span data-ttu-id="4518d-122">파일 차단을 해제 하려면 **파일 릴리스** 를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="4518d-122">Choose **Release file** to unblock the file.</span></span> 
+  - <span data-ttu-id="4dbf6-122">파일 차단을 해제 하려면 **파일 릴리스** 를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="4dbf6-122">Choose **Release file** to unblock the file.</span></span> 
     
-    <span data-ttu-id="4518d-123">Microsoft **에 보고서 보내기를** 선택 하 여 파일을 가양성으로 microsoft에 보고 합니다.</span><span class="sxs-lookup"><span data-stu-id="4518d-123">Select **Send report to Microsoft** to report the file as a false positive to Microsoft.</span></span> 
+    <span data-ttu-id="4dbf6-123">Microsoft **에 보고서 보내기를** 선택 하 여 파일을 가양성으로 microsoft에 보고 합니다.</span><span class="sxs-lookup"><span data-stu-id="4dbf6-123">Select **Send report to Microsoft** to report the file as a false positive to Microsoft.</span></span> 
     
-  - <span data-ttu-id="4518d-124">파일 **다운로드** 를 선택 하 여 파일을 더 조사 합니다.</span><span class="sxs-lookup"><span data-stu-id="4518d-124">Choose **Download file** to investigate the file further.</span></span> 
+  - <span data-ttu-id="4dbf6-124">파일 **다운로드** 를 선택 하 여 파일을 더 조사 합니다.</span><span class="sxs-lookup"><span data-stu-id="4dbf6-124">Choose **Download file** to investigate the file further.</span></span> 
     
-  - <span data-ttu-id="4518d-125">격리 **에서 제거** 를 선택 하 여 격리 된 항목 목록에서 파일을 제거 합니다.</span><span class="sxs-lookup"><span data-stu-id="4518d-125">Choose **Remove from quarantine** to remove the file from the list of quarantined items.</span></span> <span data-ttu-id="4518d-126">이 옵션을 선택 하는 경우 SharePoint Online, 비즈니스용 OneDrive 또는 Microsoft 팀의 각 라이브러리 에서도 해당 파일을 삭제 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="4518d-126">If you choose this option, you must also delete the file from its respective library in SharePoint Online, OneDrive for Business, or Microsoft Teams.</span></span> <span data-ttu-id="4518d-127">이 옵션을 선택 해도 파일이 열리거나 공유 되지 않도록 차단 해제 되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="4518d-127">This option does not unblock a file from being opened or shared.</span></span> 
+  - <span data-ttu-id="4dbf6-125">격리 **에서 제거** 를 선택 하 여 격리 된 항목 목록에서 파일을 제거 합니다.</span><span class="sxs-lookup"><span data-stu-id="4dbf6-125">Choose **Remove from quarantine** to remove the file from the list of quarantined items.</span></span> <span data-ttu-id="4dbf6-126">이 옵션을 선택 하는 경우 SharePoint Online, 비즈니스용 OneDrive 또는 Microsoft 팀의 각 라이브러리 에서도 해당 파일을 삭제 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="4dbf6-126">If you choose this option, you must also delete the file from its respective library in SharePoint Online, OneDrive for Business, or Microsoft Teams.</span></span> <span data-ttu-id="4dbf6-127">이 옵션을 선택 해도 파일이 열리거나 공유 되지 않도록 차단 해제 되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="4dbf6-127">This option does not unblock a file from being opened or shared.</span></span> 
     
-5. <span data-ttu-id="4518d-128">**닫기를** 선택 하 여 선택한 항목에 대 한 세부 정보를 닫습니다.</span><span class="sxs-lookup"><span data-stu-id="4518d-128">Choose **Close** to close the details for a selected item.</span></span> 
+5. <span data-ttu-id="4dbf6-128">**닫기를** 선택 하 여 선택한 항목에 대 한 세부 정보를 닫습니다.</span><span class="sxs-lookup"><span data-stu-id="4dbf6-128">Choose **Close** to close the details for a selected item.</span></span> 
   
   
 

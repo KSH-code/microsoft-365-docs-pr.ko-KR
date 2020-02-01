@@ -1,5 +1,7 @@
 ---
 title: EOP의 감사 보고서
+f1.keywords:
+- NOCSH
 ms.author: chrisda
 author: chrisda
 manager: dansimp
@@ -10,19 +12,19 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 003d7a74-3e16-4453-ae0c-9dbae51f66d1
 description: 관리자는 EOP (Exchange Online Protection)에서 사용할 수 있는 관리 감사 보고서에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: 5686ff8acef1f1bc3e6ab1d72ba4968ed49480db
-ms.sourcegitcommit: cbf117a4cd92a907115c9f10752f3c557361e586
+ms.openlocfilehash: aaecef0bbee84a94d367545bc251f34bbd758874
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/10/2019
-ms.locfileid: "37440575"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41599785"
 ---
-# <a name="auditing-reports-in-eop"></a><span data-ttu-id="55c3e-103">EOP의 감사 보고서</span><span class="sxs-lookup"><span data-stu-id="55c3e-103">Auditing reports in EOP</span></span>
+# <a name="auditing-reports-in-eop"></a><span data-ttu-id="f5fb8-103">EOP의 감사 보고서</span><span class="sxs-lookup"><span data-stu-id="f5fb8-103">Auditing reports in EOP</span></span>
 
-<span data-ttu-id="55c3e-104">EOP (Exchange Online Protection)의 감사 보고서는 조직의 규정, 규정 준수 및 소송 요구 사항을 충족 하는 데 도움이 될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="55c3e-104">Auditing reports in Exchange Online Protection (EOP) can help you meet regulatory, compliance, and litigation requirements for your organization.</span></span> <span data-ttu-id="55c3e-105">언제든지 감사 보고서를 가져와 EOP 구성에 적용된 변경 내용을 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="55c3e-105">You can obtain auditing reports at any time to determine the changes that have been made to your EOP configuration.</span></span> <span data-ttu-id="55c3e-106">이러한 보고서를 사용하면 구성 문제를 해결하거나 보안 또는 규정 준수 관련 문제의 원인을 찾을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="55c3e-106">These reports can help you troubleshoot configuration issues or find the cause of security-related or compliance-related problems.</span></span>
+<span data-ttu-id="f5fb8-104">EOP (Exchange Online Protection)의 감사 보고서는 조직의 규정, 규정 준수 및 소송 요구 사항을 충족 하는 데 도움이 될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f5fb8-104">Auditing reports in Exchange Online Protection (EOP) can help you meet regulatory, compliance, and litigation requirements for your organization.</span></span> <span data-ttu-id="f5fb8-105">언제든지 감사 보고서를 가져와 EOP 구성에 적용된 변경 내용을 확인할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f5fb8-105">You can obtain auditing reports at any time to determine the changes that have been made to your EOP configuration.</span></span> <span data-ttu-id="f5fb8-106">이러한 보고서를 사용하면 구성 문제를 해결하거나 보안 또는 규정 준수 관련 문제의 원인을 찾을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f5fb8-106">These reports can help you troubleshoot configuration issues or find the cause of security-related or compliance-related problems.</span></span>
 
-<span data-ttu-id="55c3e-107">EOP에서 사용할 수 있는 감사 보고서에는 다음 두 가지가 있습니다.</span><span class="sxs-lookup"><span data-stu-id="55c3e-107">There are two auditing reports available in EOP:</span></span>
+<span data-ttu-id="f5fb8-107">EOP에서 사용할 수 있는 감사 보고서에는 다음 두 가지가 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f5fb8-107">There are two auditing reports available in EOP:</span></span>
 
-- <span data-ttu-id="55c3e-108">**관리자 역할 그룹 보고서**: 관리자 역할 그룹 보고서에서는 사용자가 관리자 역할 그룹의 구성원 자격에 추가 되거나 제거 된 경우를 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="55c3e-108">**Administrator role group report**: The administrator role group report lets you view when a user is added to or removed from membership in an administrator role group.</span></span> <span data-ttu-id="55c3e-109">이 보고서를 사용하여 조직의 사용자에게 할당된 관리 권한 변경 내용을 모니터링할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="55c3e-109">You can use this report to monitor changes to the administrative permissions assigned to users in your organization.</span></span> <span data-ttu-id="55c3e-110">자세한 내용은 [EOP에서 관리자 역할 그룹 보고서 실행](run-an-administrator-role-group-report-in-eop-eop.md)을 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="55c3e-110">For more information, see [Run an administrator role group report in EOP](run-an-administrator-role-group-report-in-eop-eop.md).</span></span>
+- <span data-ttu-id="f5fb8-108">**관리자 역할 그룹 보고서**: 관리자 역할 그룹 보고서에서는 사용자가 관리자 역할 그룹의 구성원 자격에 추가 되거나 제거 된 경우를 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f5fb8-108">**Administrator role group report**: The administrator role group report lets you view when a user is added to or removed from membership in an administrator role group.</span></span> <span data-ttu-id="f5fb8-109">이 보고서를 사용하여 조직의 사용자에게 할당된 관리 권한 변경 내용을 모니터링할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="f5fb8-109">You can use this report to monitor changes to the administrative permissions assigned to users in your organization.</span></span> <span data-ttu-id="f5fb8-110">자세한 내용은 [EOP에서 관리자 역할 그룹 보고서 실행](run-an-administrator-role-group-report-in-eop-eop.md)을 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="f5fb8-110">For more information, see [Run an administrator role group report in EOP](run-an-administrator-role-group-report-in-eop-eop.md).</span></span>
 
-- <span data-ttu-id="55c3e-111">**관리자 감사 로그**: 관리자 감사 로그에는 관리 권한이 있는 관리자 또는 사용자가 Exchange Online Protection PowerShell cmdlet을 기반으로 하는 모든 작업이 기록 됩니다.</span><span class="sxs-lookup"><span data-stu-id="55c3e-111">**Administrator audit log**: The administrator audit log records any action (based on Exchange Online Protection PowerShell cmdlets) by an admin or a user with administrative privileges.</span></span> <span data-ttu-id="55c3e-112">자세한 내용은 [View the Administrator Audit Log](https://docs.microsoft.com/exchange/security-and-compliance/exchange-auditing-reports/view-administrator-audit-log)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="55c3e-112">For more information, see [View the Administrator Audit Log](https://docs.microsoft.com/exchange/security-and-compliance/exchange-auditing-reports/view-administrator-audit-log).</span></span>
+- <span data-ttu-id="f5fb8-111">**관리자 감사 로그**: 관리자 감사 로그에는 관리 권한이 있는 관리자 또는 사용자가 Exchange Online Protection PowerShell cmdlet을 기반으로 하는 모든 작업이 기록 됩니다.</span><span class="sxs-lookup"><span data-stu-id="f5fb8-111">**Administrator audit log**: The administrator audit log records any action (based on Exchange Online Protection PowerShell cmdlets) by an admin or a user with administrative privileges.</span></span> <span data-ttu-id="f5fb8-112">자세한 내용은 [View the Administrator Audit Log](https://docs.microsoft.com/exchange/security-and-compliance/exchange-auditing-reports/view-administrator-audit-log)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="f5fb8-112">For more information, see [View the Administrator Audit Log](https://docs.microsoft.com/exchange/security-and-compliance/exchange-auditing-reports/view-administrator-audit-log).</span></span>
