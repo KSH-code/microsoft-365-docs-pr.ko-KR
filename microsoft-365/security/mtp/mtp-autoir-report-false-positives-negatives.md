@@ -11,6 +11,7 @@ f1.keywords:
 - NOCSH
 ms.author: deniseb
 author: denisebmsft
+ms.date: 01/29/2020
 ms.localizationpriority: medium
 manager: dansimp
 audience: ITPro
@@ -18,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 ms.topic: conceptual
 ms.custom: autoir
-ms.openlocfilehash: d9175e78326832a2be874359babae5ae9c689420
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 44c90c6c9394b1f9fee34b8eb068bb7c232c4d78
+ms.sourcegitcommit: a6686a68b068adec29b72f998ac9bc95992981df
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600085"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41627974"
 ---
 # <a name="how-to-report-false-positivesnegatives-in-automated-investigation-and-response-capabilities"></a>자동화 된 조사 및 응답 기능에서 가양성/네거티브를 보고 하는 방법
 
@@ -32,17 +33,52 @@ ms.locfileid: "41600085"
 
 [!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
-Microsoft Threat Protection에 대 [한 자동화 된 조사 및 응답 기능이](mtp-autoir.md) 없거나 지워지는에서 감지 되었습니까? 이를 Microsoft에 보고 하거나 필요한 경우 경고를 조정할 수 있습니다. 다음 표를 참조 하십시오. 
+Microsoft Threat Protection에 대 [한 자동화 된 조사 및 응답 기능이](mtp-autoir.md) 없거나 지워지는에서 감지 되었습니까? 이 문제를 해결 하기 위해 수행할 수 있는 몇 가지 단계가 있습니다. 다음을 수행할 수 있습니다.
+- [허위 긍정/음수를 Microsoft에 보고 합니다](#report-a-false-positivenegative-to-microsoft-for-analysis).
+- 필요한 경우 [경고를 조정 합니다](#adjust-an-alert-to-prevent-false-positives-from-recurring) . 한 
+- [장치에 대해 수행 된 재구성 작업을 실행 취소](#undo-a-remediation-action-that-was-taken-on-a-device)합니다. 
 
+이 문서를 참조 하십시오. 
 
-|항목  |검색 기준  |보고 방법  |
+## <a name="report-a-false-positivenegative-to-microsoft-for-analysis"></a>분석을 위해 Microsoft에 가양성/음수 보고
+
+|누락 된 항목 또는 지워지는 검색 |서비스  |수행할 작업  |
 |---------|---------|---------|
-|전자 메일 메시지 <br/>전자 메일 첨부 파일 <br/>전자 메일 메시지 또는 Office 파일의 URL      |[Office 365 Advanced Threat Protection](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)        |[의심 스러운 스팸, 피싱, Url 및 파일을 Microsoft에 Office 365 검색에 제출](https://docs.microsoft.com/microsoft-365/security/office-365-security/admin-submission)         |
+|-전자 메일 메시지 <br/>-전자 메일 첨부 파일 <br/>-전자 메일 메시지의 URL<br/>-Office 파일의 URL      |[Office 365 Advanced Threat Protection](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)        |[의심 스러운 스팸, 피싱, Url 및 파일을 Microsoft에 Office 365 검색에 제출](https://docs.microsoft.com/microsoft-365/security/office-365-security/admin-submission)         |
 |장치에 있는 파일 또는 앱    |[Microsoft Defender Advanced Threat Protection](https://docs.microsoft.com/windows/security/threat-protection)         |[맬웨어 분석을 위해 Microsoft에 파일 제출](https://www.microsoft.com/wdsi/filesubmission)         |
-|합법적인 사용에 의해 트리거되는 경고 <br/>부정확 한 경고    |[Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security)<br/> 또는 <br/>[Azure Advanced Threat Detection](https://docs.microsoft.com/azure/security/fundamentals/threat-detection)         |[Cloud App Security 포털에서 알림 관리](https://docs.microsoft.com/cloud-app-security/managing-alerts)         |
+
+## <a name="adjust-an-alert-to-prevent-false-positives-from-recurring"></a>경고를 조정 하 여 가양성이 되풀이 되지 않도록 설정
+
+|시나리오 |서비스 |수행할 작업 |
+|--------|--------|--------|
+|-합법적인 사용을 통해 알림이 트리거되는 경우 <br/>-경고가 부정확 함    |[Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security)<br/> 또는 <br/>[Azure Advanced Threat Detection](https://docs.microsoft.com/azure/security/fundamentals/threat-detection)         |[Cloud App Security 포털에서 알림 관리](https://docs.microsoft.com/cloud-app-security/managing-alerts)         |
+|파일, IP 주소, URL 또는 도메인은 안전한 경우에도 장치에서 맬웨어로 취급 됩니다.|[Microsoft Defender Advanced Threat Protection](https://docs.microsoft.com/windows/security/threat-protection) |["허용" 작업을 사용 하 여 사용자 지정 표시기 만들기](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/manage-indicators) |
 
 
-## <a name="next-steps"></a>다음 단계
+## <a name="undo-a-remediation-action-that-was-taken-on-a-device"></a>장치에서 수행한 수정 작업 실행 취소
+
+장치 (예: Windows 10 장치)와 실제로 정리 된 항목에 대해 재구성 작업을 수행한 경우 보안 운영 팀이 [작업 센터](mtp-action-center.md)에서 수정 작업을 실행 취소할 수 있습니다.
+
+> [!IMPORTANT]
+> 다음 작업을 수행 하기 전에 [필요한 사용 권한이](mtp-action-center.md#required-permissions-for-action-center-tasks) 있는지 확인 합니다.
+
+1. [https://security.microsoft.com](https://security.microsoft.com)으로 이동하여 로그인합니다. 
+
+2. 탐색 창에서 **작업 센터**를 선택합니다. 
+
+3. **기록** 탭에서 취소할 작업을 선택 합니다. 플라이 아웃이 열립니다.<br/>
+    > [!TIP]
+    > 필터를 사용 하 여 결과 목록의 범위를 좁힐 수 있습니다. 
+
+4. 선택한 항목에 대 한 플라이 아웃에서 **열기 조사 페이지**를 선택 합니다.
+
+5. 조사 세부 정보 보기에서 **작업** 탭을 선택 합니다.
+
+6. 상태가 **완료**됨 인 항목을 선택 하 고 **결정 사항** 열에서 **승인**됨과 같은 링크를 찾습니다. 그러면 작업에 대 한 자세한 정보가 포함 된 플라이 아웃이 열립니다.
+
+7. 작업을 실행 취소 하려면 **수정 관리 삭제**를 선택 합니다.
+
+## <a name="related-articles"></a>관련 문서
 
 - [자동화된 조사 및 대응과 관련된 조치 승인 또는 거부](mtp-autoir-actions.md)
 - [알림 센터에 대한 자세한 정보](mtp-action-center.md)
