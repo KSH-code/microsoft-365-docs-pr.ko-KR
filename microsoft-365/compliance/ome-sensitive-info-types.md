@@ -1,5 +1,7 @@
 ---
 title: Office 365 메시지 암호화를 사용하여 조직에 대한 중요한 정보 형식 정책 만들기
+f1.keywords:
+- NOCSH
 ms.author: krowley
 author: kccross
 manager: laurawi
@@ -15,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 - Strat_O365_Enterprise
 description: '요약: 중요 한 정보 유형에 대 한 Office 365 메시지 암호화 정책'
-ms.openlocfilehash: 8632a0419b443d2810afd3554da572ab2197ae2a
-ms.sourcegitcommit: 6dfa646b9de30336dedfd0cac7320c57ad74ae11
+ms.openlocfilehash: a3767fb0f9fe5e565c49db4f9da94d75a3cee8a7
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "38690768"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41601795"
 ---
 # <a name="create-a-sensitive-information-type-policy-for-your-organization-using-office-365-message-encryption"></a>Office 365 메시지 암호화를 사용하여 조직에 대한 중요한 정보 형식 정책 만들기
 
@@ -32,7 +34,7 @@ EAC (Exchange 관리 센터)에 로그인 하 고 **메일 흐름** > **규칙**
 
 ### <a name="to-create-the-policy-by-using-mail-flow-rules-in-powershell"></a>PowerShell에서 메일 흐름 규칙을 사용 하 여 정책을 만들려면
 
-Office 365 조직에서 전역 관리자 권한이 있는 회사 또는 학교 계정을 사용 하 고, Windows PowerShell 세션을 시작 하 고, Exchange Online에 연결 합니다. 자세한 내용은 [Exchange Online PowerShell에 연결을](https://aka.ms/exopowershell)참조 하십시오. New-transportrule cmdlet을 사용 하 여 정책을 만듭니다.
+Office 365 조직에서 전역 관리자 권한이 있는 회사 또는 학교 계정을 사용 하 고, Windows PowerShell 세션을 시작 하 고, Exchange Online에 연결 합니다. 지침을 확인하려면 [Exchange Online PowerShell에 연결](https://aka.ms/exopowershell)을 참조하세요. New-transportrule cmdlet을 사용 하 여 정책을 만듭니다.
 
 ## <a name="example-mail-flow-rule-created-with-powershell"></a>PowerShell로 만든 메일 흐름 규칙 예제
 

@@ -1,5 +1,7 @@
 ---
 title: 데이터 분류 콘텐츠 탐색기(미리 보기) 사용
+f1.keywords:
+- NOCSH
 ms.author: chrfox
 author: chrfox
 manager: laurawi
@@ -14,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 콘텐츠 탐색기를 사용하여 레이블이 지정된 항목을 원래 상태로 볼 수 있습니다.
-ms.openlocfilehash: 8a795e0582599dc3160f896a6361b773caa6c4e4
-ms.sourcegitcommit: 6ae69c40bafa6aef633789c3df0fa20590bdcf40
+ms.openlocfilehash: 71ec7b4e27a6f125754e693ecb5239c66404a9ad
+ms.sourcegitcommit: a6686a68b068adec29b72f998ac9bc95992981df
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "40823800"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628084"
 ---
 # <a name="using-data-classification-content-explorer-preview"></a>데이터 분류 콘텐츠 탐색기(미리 보기) 사용
 
@@ -49,11 +51,11 @@ ms.locfileid: "40823800"
 
 콘텐츠 탐색기에 대한 액세스 권한을 부여하는 두 개의 역할이 있습니다.
 
-- **콘텐츠 탐색기 목록 뷰어**: 이 역할의 멤버 자격으로 각 항목과 해당 위치를 볼 수 있습니다.
+- **콘텐츠 탐색기 목록 뷰어**: 이 역할 그룹의 멤버 자격으로 각 항목과 해당 위치를 볼 수 있습니다.
 
-- **콘텐츠 탐색기 콘텐츠 뷰어**:이 역할의 멤버 자격으로 목록에 있는 각 항목의 내용을 볼 수 있습니다.
+- **콘텐츠 탐색기 콘텐츠 뷰어**:이 역할 그룹의 멤버 자격으로 목록에 있는 각 항목의 내용을 볼 수 있습니다.
 
-콘텐츠 탐색기에 액세스하는 데 사용하는 계정은 역할 중 하나 또는 둘 다에 있어야 합니다. 이러한 역할은 독립적인 역할이며 누적되지 않습니다. 예를 들어 계정에 항목 및 해당 위치만 볼 수 있는 권한을 부여 하려는 경우 콘텐츠 탐색기 목록 표시기 권한을 부여 합니다. 동일한 계정에서 목록에 있는 항목의 내용을 볼 수 있게 하려면 콘텐츠 탐색기 콘텐츠 뷰어 권한도 부여합니다.
+콘텐츠 탐색기에 액세스하는 데 사용하는 계정은 역할 그룹 중 하나 또는 둘 다에 있어야 합니다. 이러한 역할은 독립적인 역할 그룹이며 누적되지 않습니다. 예를 들어 계정에 항목 및 해당 위치만 볼 수 있는 권한을 부여 하려는 경우 콘텐츠 탐색기 목록 표시기 권한을 부여 합니다. 동일한 계정에서 목록에 있는 항목의 내용을 볼 수 있게 하려면 콘텐츠 탐색기 콘텐츠 뷰어 권한도 부여합니다.
 
 ### <a name="how-to-use-content-explorer"></a>콘텐츠 탐색기를 사용하는 방법
 

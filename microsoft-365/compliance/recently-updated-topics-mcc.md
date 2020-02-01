@@ -1,5 +1,7 @@
 ---
 title: Microsoft 365 준수 센터의 새로운 기능
+f1.keywords:
+- NOCSH
 ms.author: brendonb
 author: brendonb
 manager: laurawi
@@ -16,12 +18,12 @@ ms.assetid: e3c6df61-8513-499d-ad8e-8a91770bff63
 ms.collection:
 - m365-security-compliance
 description: Microsoft 365 준수 센터의 기능과 마찬가지로, 도움말 콘텐츠는 항상 발전 하 고 있습니다. Microsoft에서는 피드백에 따라 계속 새 문서를 만들고, 기존 기사를 업데이트 하 고, 변경 작업을 수행 하 고 있습니다. 이번 달의 새로운 기능과 업데이트 된 기능에 대해 알아보세요.
-ms.openlocfilehash: 61e4798575c44a9759a15bb93dbbb723d5be8999
-ms.sourcegitcommit: 178ecb21cacdeaf440f3df2fe6e539e9127fcf15
+ms.openlocfilehash: 40ad0249b834eb187fecc34df3e2785e84201eee
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/23/2019
-ms.locfileid: "40850882"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41601655"
 ---
 # <a name="recent-updates-to-microsoft-365-compliance-content"></a>Microsoft 365 준수 콘텐츠에 대 한 최신 업데이트
 
@@ -154,7 +156,7 @@ Microsoft 365 준수 센터의 기능과 마찬가지로, 도움말 콘텐츠는
 
 [Data 유출 인시던트 관리 Microsoft 365](manage-data-spillage-incidents.md#step-4-delete-the-spilled-data) (업데이트 됨)<br>새 ' 원래 위치에서 항목 삭제 ' 기능을 사용 하 여 분산 된 데이터를 삭제 하는 방법에 대 한 세부 정보가 추가 되었습니다.
 
-### <a name="permissions"></a>사용 권한
+### <a name="permissions"></a>권한
 
 [Microsoft 365 준수 센터 및 microsoft 365 보안 센터의 사용 권한](../security/office-365-security/permissions-microsoft-365-compliance-security.md) (신규)<br>새 Azure Active Directory 역할 그룹이 공개 미리 보기로 릴리스 되었습니다.
 

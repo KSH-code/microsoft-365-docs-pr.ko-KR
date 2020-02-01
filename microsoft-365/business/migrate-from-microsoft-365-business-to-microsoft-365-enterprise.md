@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 ms.assetid: 5b4ba843-24b8-4526-8e1f-f9b9eab89d06
 description: Microsoft 365 Business에서 Microsoft 365 E3으로 비즈니스를 이동 하는 방법을 알아봅니다.
-ms.openlocfilehash: 2515c2d56727b9a8be643dea76e150eeaadce5c9
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 02adda0c2c59d2994b0c6197dd76c6cc893ad9f0
+ms.sourcegitcommit: a6686a68b068adec29b72f998ac9bc95992981df
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41593697"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41627984"
 ---
 # <a name="migrate-from-microsoft-365-business-to-microsoft-365-e3"></a>Microsoft 365 Business에서 Microsoft 365 E3로 마이그레이션
 
@@ -56,7 +56,6 @@ Microsoft 365 Business에는 최고의 비즈니스에 필요한 모든 것이 �
 | Teams | ![Microsoft 365 Business에 포함](./media/check-mark.png)   | ![Microsoft 365 E3에 포함](./media/check-mark.png) | 
 | 비즈니스용 OneDrive | 사용자 당 1TB 저장소 제한   | 무제한 | 
 | Yammer, SharePoint Online, Planner, 스트림    | ![Microsoft 365 Business에 포함](./media/check-mark.png)   | ![Microsoft 365 E3에 포함](./media/check-mark.png) | 
-| StaffHub  | ![Microsoft 365 Business에 포함](./media/check-mark.png)   | ![Microsoft 365 E3에 포함](./media/check-mark.png) | 
 | Outlook 고객 관리자, MileIQ  | ![Microsoft 365 Business에 포함](./media/check-mark.png)   | | 
 | **위협 방지**     | | | 
 | 공격 표면 축소 기능 | [이 목록 보기](#threat-protection) | Microsoft Edge에 대 한 하드웨어 기반 격리의 엔터프라이즈 관리 | 

@@ -5,18 +5,21 @@ keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 69d105e41050c7c9d1b9fbcf37e891e430a79ef1
-ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
+titleSuffix: Microsoft Compliance
+ms.openlocfilehash: 4bc6663efe704205787e1c69d4e6dd06122419c3
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39859378"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41601915"
 ---
 # <a name="isoiec-27701-privacy-information-management-system-pims"></a>ISO/IEC 27701 PIMS(개인 정보 관리 시스템)
 
@@ -63,6 +66,11 @@ ISO/IEC 27001 및 PIMS의 주요 사항:
 ## <a name="what-should-your-organization-do-with-pims"></a>조직은 PIMS로 무엇을 해야 하나요?
 
 조직의 규모 및 컨트롤러인지 프로세서인지에 상관없이 조직은 조직 자체를 위해 또는 비즈니스 요구 사항을 기반으로 공급업체 또는 공급자의 요청을 받아 인증을 진행하는 것을 고려해야 합니다. 이는 중요한 볼륨 또는 많은 볼륨의 개인 데이터를 처리하는 프로세서, 하위 프로세서 및 공동 컨트롤러에 특히 적용됩니다. 어떤 경우든 조직은 자신의 제품 및 서비스에 대한 인증이 적합한지 확인하기 위해 비즈니스 요구 사항을 평가해야 합니다.
+
+## <a name="audits-reports-and-certificates"></a>감사, 보고서 및 인증서
+
+- [Azure ISO/IEC 27701 인증](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=c0431b3f-7716-4332-9c26-44b58174bdaf&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports)
+- [Azure ISO/IEC 27701 평가 보고서](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=1abbb81e-f4ca-4436-bbdb-b196a672efda&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports)
 
 ## <a name="resources"></a>리소스
 

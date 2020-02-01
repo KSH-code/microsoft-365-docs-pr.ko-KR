@@ -1,5 +1,7 @@
 ---
 title: 사용자 및 장치 액세스 보호
+f1.keywords:
+- NOCSH
 ms.author: bcarter
 author: brendacarter
 manager: laurawi
@@ -13,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: a6ef28a4-2447-4b43-aae2-f5af6d53c68e
 description: O365 데이터 및 서비스에 대 한 액세스를 보호 하기 위한 랜딩 페이지
-ms.openlocfilehash: 9fc1691e7e36f994b5d0b8a6a9735fe8ccd8735a
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: eec1963f73b4b1e014f3605ae8fc5afee4ae039b
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088825"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41601705"
 ---
 # <a name="protect-user-and-device-access"></a>사용자 및 장치 액세스 보호
 
@@ -53,7 +55,7 @@ MFA (multi-factor authentication) 및 조건부 액세스 정책은 손상 된 �
 - 여러 요소 인증
 - 조건부 액세스
 - Intune 앱 보호 (장치용 앱 및 데이터 보호)
-- Intune 장치 준수
+- Intune 장치 규정 준수 상태
 - Azure AD ID 보호
 
 Intune 장치 준수를 구현 하려면 장치 등록이 필요 합니다. 장치를 관리 하면 해당 환경의 리소스에 대 한 액세스를 허용 하기 전에 정상 및 호환이 가능 하도록 할 수 있습니다. [Intune에서 관리용 장치 등록](https://docs.microsoft.com/intune-classic/deploy-use/enroll-devices-in-microsoft-intune) 을 참조 하세요.

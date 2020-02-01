@@ -1,10 +1,12 @@
 ---
 title: 오스트레일리아 정부 공인 클라우드 서비스 목록 (CCSL)
 description: Microsoft는 호주 사이버 보안 센터 (ACSC)에의 한 IRAP 평가 및 인증을 기반으로 하는 보호 된 데이터와 미분류 보급 제한 표식 (DLM)에 대 한 오스트레일리아 공인 클라우드 서비스 목록에 포함 되어 있습니다.
-keywords: Microsoft 365, 규정 준수, 제안
+keywords: Microsoft 365, 규정 준수, 제품
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -12,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 4be943b83d1b2286a01731de87dd2b0af34cb322
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 3cbc0008841456e91dd2ffe6a9e5c78fba0ba43d
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40805481"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41602675"
 ---
 # <a name="australian-government-information-security-registered-assessor-program-irap"></a>오스트레일리아 정부 정보 보안 등록 된 평가자 Program (IRAP)
 

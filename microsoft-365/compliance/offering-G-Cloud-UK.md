@@ -1,10 +1,12 @@
 ---
 title: 영국 정부-클라우드 (G-클라우드)
 description: Crown 상업용 서비스가 Microsoft 클라우드 서비스 분류를 정부 클라우드 v. 6으로 갱신 했습니다.
-keywords: Microsoft 365, 규정 준수, 제안
+keywords: Microsoft 365, 규정 준수, 제품
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -12,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 91f3575934f9007d8570898047f96202f83dc087
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: ecd8a362b0e77df846f486b0a424425f012ee68b
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40804861"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41602355"
 ---
 # <a name="united-kingdom-government-cloud-g-cloud"></a>영국 정부-클라우드 (G-클라우드)
 
@@ -103,7 +105,7 @@ It는 영국 정부에 의해 투자 되는 조직이 나 에이전시 이며 �
 
 **감사자 보고서의 복사본은 어떻게 얻을 수 있나요?**
 
-[서비스 보안 포털](https://support.office.com/article/Get-started-with-the-Service-Trust-Portal-for-Office-365-for-business-Azure-and-Dynamics-CRM-Online-subscriptions-f30e2353-0bd6-41ed-8347-eea1fb8d2662)은 독립적으로 감사를 거친 규정 준수 보고서를 제공합니다. 이 포털을 사용 하 여 감사 보고서를 요청 하 여 감사자가 Microsoft 결과를 사용자의 법적 및 규정 요구 사항과 비교할 수 있습니다.
+[Service Trust Portal](https://support.office.com/article/Get-started-with-the-Service-Trust-Portal-for-Office-365-for-business-Azure-and-Dynamics-CRM-Online-subscriptions-f30e2353-0bd6-41ed-8347-eea1fb8d2662)은 독립적으로 감사를 거친 규정 준수 보고서를 제공합니다. 이 포털을 사용 하 여 감사 보고서를 요청 하 여 감사자가 Microsoft 결과를 사용자의 법적 및 규정 요구 사항과 비교할 수 있습니다.
 
 ## <a name="resources"></a>리소스
 

@@ -1,10 +1,12 @@
 ---
 title: 음식 및 마약 관리 CFR 제목 21 부
 description: Microsoft는 고객이 이러한 음식 및 마약 관리 규정을 준수할 수 있도록 지원 합니다.
-keywords: Microsoft 365, 규정 준수, 제안
+keywords: Microsoft 365, 규정 준수, 제품
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -12,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: adda0e14a5712a4943ee37e029b96aecb0cd7c58
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: fdde59b04c7f52f163028aa7ba4759e226fccb55
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40805051"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41602455"
 ---
 # <a name="food-and-drug-administration-cfr-title-21-part-11"></a>음식 및 마약 관리 CFR 제목 21 부
 
@@ -70,7 +72,7 @@ Microsoft에서 구현 하는 감사 된 컨트롤은 데이터의 기밀성, �
 
 **감사자 보고서의 복사본은 어떻게 얻을 수 있나요?**
 
-[서비스 보안 포털](https://aka.ms/stphelp)은 독립적으로 감사를 거친 규정 준수 보고서를 제공합니다. 이 포털을 사용 하 여 감사 보고서를 요청 하 여 감사자가 Microsoft의 클라우드 서비스 결과를 사용자의 법적 및 규정 요구 사항과 비교할 수 있습니다.
+[Service Trust Portal](https://aka.ms/stphelp)은 독립적으로 감사를 거친 규정 준수 보고서를 제공합니다. 이 포털을 사용 하 여 감사 보고서를 요청 하 여 감사자가 Microsoft의 클라우드 서비스 결과를 사용자의 법적 및 규정 요구 사항과 비교할 수 있습니다.
 
 **조직의 인증 프로세스에서 Microsoft의 준수를 사용할 수 있나요?**
 

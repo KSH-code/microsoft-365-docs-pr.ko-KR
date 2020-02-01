@@ -1,5 +1,7 @@
 ---
 title: Microsoft 클라우드의 암호화
+f1.keywords:
+- NOCSH
 ms.author: krowley
 author: kccross
 manager: laurawi
@@ -14,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 - Strat_O365_Enterprise
 description: Microsoft 클라우드의 암호화 개요
-ms.openlocfilehash: 1ca3d1711589ab2d65a27a8d1eeb6da265ce727b
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 11cce463cf953bd9f8ea0df61e3fe97b356608eb
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38690776"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41601825"
 ---
 # <a name="encryption-in-the-microsoft-cloud"></a>Microsoft 클라우드의 암호화
 
@@ -40,8 +42,8 @@ FIPS 140-2은이를 사용 하는 제품이 아닌 암호화를 구현 하는 �
 Microsoft는 클라우드 서비스에서 사용 되는 기본 암호화 모듈을 각각의 Windows 운영 체제에 대 한 새로운 릴리스로 인증 합니다.
 
 - Azure 및 Azure 미국 정부
-- Dynamics 365 및 Dynamics 365 미국 정부
-- Office 365, Office 365 미국 정부 및 Office 365 미국 정부 방어
+- Dynamics 365 및 Dynamics 365 U.S. Government
+- Office 365, Office 365 U.S. Government, Office 365 U.S. Government Defense
 
 Office 365 고객 데이터의 암호화 기능은 BitLocker, DKM, Azure Storage Service Encryption, Exchange Online의 서비스 암호화, 비즈니스용 Skype, 비즈니스용 OneDrive, SharePoint 등의 여러 서비스 쪽 기술에서 제공 됩니다. 온라인. Office 365 서비스 암호화에는 Azure 키 자격 증명 모음에 저장 되는 고객 관리 암호화 키를 사용 하는 옵션이 포함 되어 있습니다. [Office 365 고객 키](https://support.office.com/article/f2cd475a-e592-46cf-80a3-1bfb0fa17697)라는이 고객 관리 키 옵션은 Exchange Online, SharePoint online, 비즈니스용 Skype 및 비즈니스용 OneDrive에 사용할 수 있습니다.
 

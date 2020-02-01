@@ -5,6 +5,8 @@ keywords: Office 365, DSR, Microsoft 365, Microsoft 365 Education, Microsoft 365
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -13,12 +15,12 @@ ms.collection:
 - GDPR
 - M365-security-compliance
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 685e653d7f0b8d31990724c58eccafe9a25ae6a5
-ms.sourcegitcommit: ef658406da9d081e5e7a5f3aac8290c2f03f7aff
+ms.openlocfilehash: 71cadaee5c9b4ddad83a02ed434afd6197fe8e00
+ms.sourcegitcommit: a6686a68b068adec29b72f998ac9bc95992981df
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "41004933"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628124"
 ---
 # <a name="office-365-data-subject-requests-for-the-gdpr-and-ccpa"></a>GDPR 및 CCPA에 대한 Office 365 데이터 주체 요청
 
@@ -90,7 +92,7 @@ DSR 요청에 응답할 경우, DSR 요청에 해당되는 데이터가 Microsof
 
 ## <a name="using-the-content-search-ediscovery-tool-to-respond-to-dsrs"></a>콘텐츠 검색 eDiscovery 도구를 사용하여 DSR에 응답
 
-조직이 Office 365를 사용하여 만들고 저장하는 대규모 데이터 집합 내에서 개인 데이터를 찾을 때 먼저 사용자가 이러한 데이터를 작성하는 데 사용했을 수 있는 응용 프로그램을 고려할 수 있습니다. Microsoft에서는 Office 365에 저장된 조직의 데이터 중 90% 이상이 Word, Excel, PowerPoint, OneNote 및 Outlook에서 작성되는 것으로 추정합니다. 이러한 Office 응용 프로그램에서 작성된 문서는 Office 365 ProPlus 또는 Office 영구 라이선스를 통해 구입했더라도 SharePoint Online 사이트, 사용자의 비즈니스용 OneDrive 계정 또는 사용자의 Exchange Online 사서함에 저장될 가능성이 매우 높습니다. 이는 콘텐츠 검색 eDiscovery 도구를 사용하여 SharePoint Online 사이트, 비즈니스용 OneDrive 계정 및 Exchange Online 사서함(Office 365 그룹, Microsoft Teams, EDU 할당 및 StaffHub와 연관된 사이트 및 사서함 포함)에서 검색해 조사 중인 DSR과 관련될 수 있는 문서 및 사서함 항목을 찾을 수 있음을 의미합니다. 또한 콘텐츠 검색 도구를 사용하여 다른 Office 365 응용 프로그램에서 작성된 고객 데이터를 검색할 수 있습니다.
+조직이 Office 365를 사용하여 만들고 저장하는 대규모 데이터 집합 내에서 개인 데이터를 찾을 때 먼저 사용자가 이러한 데이터를 작성하는 데 사용했을 수 있는 응용 프로그램을 고려할 수 있습니다. Microsoft에서는 Office 365에 저장된 조직의 데이터 중 90% 이상이 Word, Excel, PowerPoint, OneNote 및 Outlook에서 작성되는 것으로 추정합니다. 이러한 Office 응용 프로그램에서 작성된 문서는 Office 365 ProPlus 또는 Office 영구 라이선스를 통해 구입했더라도 SharePoint Online 사이트, 사용자의 비즈니스용 OneDrive 계정 또는 사용자의 Exchange Online 사서함에 저장될 가능성이 매우 높습니다. 이는 콘텐츠 검색 eDiscovery 도구를 사용하여 SharePoint Online 사이트, 비즈니스용 OneDrive 계정 및 Exchange Online 사서함(Office 365 그룹, Microsoft Teams, EDU 할당과 연관된 사이트 및 사서함 포함)에서 검색해 조사 중인 DSR과 관련될 수 있는 문서 및 사서함 항목을 찾을 수 있음을 의미합니다. 또한 콘텐츠 검색 도구를 사용하여 다른 Office 365 응용 프로그램에서 작성된 고객 데이터를 검색할 수 있습니다.
 
 다음 표에는 고객이 작성한 콘텐츠를 만드는 데 사용하고 콘텐츠 검색을 사용하여 검색할 수 있는 Office 365 응용 프로그램이 나와 있습니다. DSR 가이드의 이 섹션에서는 이러한 Office 365 응용 프로그램으로 만든 데이터를 검색, 액세스, 내보내기 및 삭제하는 방법에 대한 지침을 제공합니다.
 
@@ -631,9 +633,8 @@ Office 365 관리 포털에서 사용자를 영구 삭제할 수 없습니다.
 | ![Access 아이콘](media/o365-access-64x64.png) <br> [Access](#access) | ![Office 아이콘](media/O365-DSR-Doc_image22.png) <br> [Office 365용 <br>비즈니스 앱](#business-apps-for-office-365) | ![Office 아이콘](media/O365-DSR-Doc_image22.png) <br> [Education](#education)|
 | ![Flow 아이콘](media/o365-flow-64x64.png) <br> [Flow](#flow) | ![Forms 아이콘](media/o365-forms-64x64.png) <br> [Forms​​](#forms) |![Kaizala 아이콘](media/o365-kaizala-64x64.png) <br> [Kaizala](#kaizala) |
 | ![Planner 아이콘](media/o365-planner-64x64.png) <br> [Planner](#planner) |![PowerApps 아이콘](media/o365-powerapps-64x64.png) <br> [Power Apps](#powerapps) |![Power BI 아이콘](media/o365-powerbi-64x64.png) <br> [Power BI](#power-bi) |
-|![Project 아이콘](media/o365-project-64x64.png) <br> [Project](#project-online) |![Publisher 아이콘](media/o365-publisher-64x64.png) <br> [Publisher](#publisher) |![StaffHub 아이콘](media/o365-staffhub-64x64.png) <br> [StaffHub](#staffhub) |
-|![Stream 아이콘](media/o365-stream-64x64.png) <br> [Stream](#stream) |![Sway 아이콘](media/o365-sway-64x64.png) <br> [Sway](#sway) | ![Whiteboard 아이콘](media/O365-DSR-Doc_image36.png) <br> [Whiteboard](#whiteboard) |
-||![Yammer 아이콘](media/o365-yammer-64x64.png) <br> [Yammer](#yammer) |
+|![Project 아이콘](media/o365-project-64x64.png) <br> [Project](#project-online) |![Publisher 아이콘](media/o365-publisher-64x64.png) <br> [Publisher](#publisher) |![Stream 아이콘](media/o365-stream-64x64.png) <br> [Stream](#stream) |![Sway 아이콘](media/o365-sway-64x64.png) <br> [Sway](#sway) | ![Whiteboard 아이콘](media/O365-DSR-Doc_image36.png) <br> [Whiteboard](#whiteboard) |
+|![Yammer 아이콘](media/o365-yammer-64x64.png) <br> [Yammer](#yammer) |
 |||
 
 ### <a name="access"></a>Access
@@ -1164,33 +1165,6 @@ Project Online 환경에서 특정 사용자의 콘텐츠를 내보낼 수 있�
 #### <a name="delete"></a>삭제
 
 발행물에서 콘텐츠를 삭제하고, 전체 페이지를 삭제하거나, 전체 Publisher 파일을 삭제할 수 있습니다. [페이지 추가 또는 삭제](https://support.office.com/article/add-or-delete-pages-daf71e39-86e0-4bbc-a186-d5ec70450b08)를 참조하세요.
-
-### <a name="staffhub"></a>StaffHub
-
-다음 섹션에서는 Microsoft StaffHub의 앱 내 기능을 사용하여 개인 데이터를 찾고, 액세스하고, 내보내고, 삭제하는 방법을 설명합니다.
-
-#### <a name="discover"></a>검색
-
-StaffHub 내의 데이터는 대부분 모든 StaffHub 팀 구성원과 관리자가 사용할 수 있습니다. StaffHub에서 데이터를 검토하려면 관리자 또는 팀 구성원이 <https://staffhub.office.com>으로 이동하여 잠재적으로 DSR 요청과 관련된 데이터를 찾거나, 사용자를 팀의 구성원으로 추가하여 사용자가 잠재적인 응답 데이터에 대한 StaffHub 정보를 직접 검토할 수 있도록 해야 합니다.
-
-#### <a name="access"></a>액세스
-
-관련 StaffHub 콘텐츠를 찾은 후 응용 프로그램 내에서 데이터 주체에게 제공할 관련 데이터를 보고 스크린샷을 만들거나 다운로드할 수 있습니다.
-
-- **일정 정보:** **StaffHub**의 일정 탭에서 제공하는 **사람 보기**와 **교대 근무 보기**에서 팀 구성원이나 작업 교대 근무의 일별, 주별 및 월별 일정을 볼 수 있습니다. StaffHub 웹 앱의 왼쪽 위 모서리에 있는 세 개의 점(줄임표)을 선택하고 **일정 내보내기**를 클릭하여 이 보기를 인쇄하거나 Excel로 다운로드할 수 있습니다.
-- **공유 파일:** StaffHub의 모든 파일은 SharePoint Online에 저장되므로 앞에 설명된 대로 콘텐츠 검색을 사용하여 검색하고 액세스하며 내보낼 수 있습니다. **파일** 탭 아래 StaffHub에서 볼 수도 있습니다.
-- **메시지:** 현재, 다음 항목에서 사용자 관련 데이터에 액세스 하는 단계를 따라 메시지에 액세스할 수 있습니다. 향후에는, StaffHub의 모든 메시지가 Microsoft Teams에 저장되므로, 콘텐츠 검색 도구를 사용하여 여기에 액세스할 수 있습니다.
-- **사용자별 데이터:** 사용자별 데이터는 사용자 설정, 사용자 활동 피드 및 사용자 교대 요청 기록으로 구성되고, 팀 구성원이나 관리자는 이 데이터를 볼 수 없습니다. 사용자별 데이터에 액세스하거나 이 데이터를 내보내려면 데이터 주체가 StaffHub 계정에 로그인하여 사용할 수 있도록 합니다. 또는 데이터 주체가 조직을 떠난 경우, 관리자가 이 데이터 주체의 사용자 암호를 재설정하여 사용자 또는 관리자가 해당 계정에 로그인할 수 있도록 하여 이 데이터를 사용할 수 있습니다.
-- **Kronos:** StaffHub는 타사 직원 관리 도구인 [Kronos](https://www.kronos.com/)에 대한 연결을 지원합니다. StaffHub 및 Kronos는 독립적인 프로세서이므로 각 당사자와 서명한 개별 조건 하에 조직 데이터를 처리합니다. DSR이 Kronos가 보유한 데이터와 관련된 경우에는 DSR 지원이 필요하면 Kronos에 문의해야 하고 그 반대의 경우도 마찬가지입니다.
-
-#### <a name="delete"></a>삭제
-
-- 팀 관리자는 StaffHub에서 습득한 대부분의 앱 데이터 콘텐츠를 앱 자체에서 삭제할 수 있습니다. 위의 StaffHub에 대한 검색 섹션에서 설명한 것처럼 여러분은 자신을 팀 관리자로 팀에 추가하고 데이터를 삭제할 수 있습니다.
-- 사용자 계정을 영구적으로 삭제하면 StaffHub는 계정이 삭제되고 30일 이내에 사용자의 이름, 전화 번호, 전자 메일 주소 및 프로필 사진을 수정합니다.
-
-#### <a name="export"></a>내보내기
-
-StaffHub에 대한 [액세스](#access-12) 섹션을 참조하세요.
 
 ### <a name="stream"></a>Stream
 
@@ -1794,8 +1768,9 @@ IT 관리자는 보안 및 준수 센터에서 감사 로그 검색 도구를 �
 |2018년 9월 18일 | [Whiteboard](#whiteboard) |Whiteboard 미리 보기는 더 이상 미리 보기가 아니며, 일반 공급용으로 출시되었습니다. 따라서 Whiteboard 미리 보기에 대한 섹션 이름은 "PC, Surface Hub 및 기타 플랫폼용 Whiteboard"로 변경되었으며, 데이터를 액세스, 내보내기 및 삭제하기 위한 절차가 이 섹션에서 제거된 후 Whiteboard 지원 문서에 대한 링크로 바뀌었습니다.|
 |2018년 11월 8일 | [Workplace Analytics](#workplace-analytics) |Workplace Analytics에서 데이터 주체를 제거하고 Workplace Analytics 보고서에서 데이터 주체에 대한 정보를 제거하는 방법에 대한 단계별 지침이 삭제 섹션에 추가되었습니다.|
 |2018년 11월 12일| 모두| 끊어진 책갈피 및 외부 항목에 대한 끊어진 링크를 수정했습니다.|
-|2019년 1월 9일|[StaffHub](#staffhub)|삭제 섹션에서는 사용자 계정을 영구적으로 삭제할 때 발생하는 작업에 대한 설명이 업데이트되었습니다.|
+|2019년 1월 9일| StaffHub |삭제 섹션에서는 사용자 계정을 영구적으로 삭제할 때 발생하는 작업에 대한 설명이 업데이트되었습니다.|
 |2019년 5월 8일| [Publisher](#publisher)|Publisher의 DSR에 대한 응답 관련 콘텐츠가 추가되었습니다.|
 |2019년 7월 11일| [MyAnalytics](#myanalytics)|모든 사용자가 MyAnalytics 앱에서 해당 데이터를 볼 수 있기 때문에 관리자가 Office 365 보안 및 준수 센터에서 DSR 사례 도구를 사용하여 MyAnalytics 데이터를 내보내는 기능이 제거되었습니다. |
 |2019/11/6|[교육](#education)|PowerShell 스크립트를 사용하여 특정 학생의 수업 목록을 가져온 다음 해당 학생의 데이터를 내보내거나 삭제하는 방법에 대한 새 주제에 연결되었습니다.|
+|2020/1/28| 모두 | 문서에서 StaffHub가 제거되었습니다. StaffHub는 사용이 중지되었습니다. |
 ||||

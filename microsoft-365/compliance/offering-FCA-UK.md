@@ -1,10 +1,12 @@
 ---
 title: 영국 재무 관련 기관 (FCA)
 description: 영국의 금융 기업에 대 한 Microsoft의 지침은 재무 거래에 대 한 지침과 클라우드로의 아웃소싱에 대 한 지침이 따릅니다.
-keywords: Microsoft 365, 규정 준수, 제안
+keywords: Microsoft 365, 규정 준수, 제품
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -12,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 582f7175ae7eb851c1a58497369d069d7f295aa8
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: f96b4eccec92f78b22eb28caecf3910a5d4ace2d
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40805061"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41602445"
 ---
 # <a name="united-kingdom-financial-conduct-authority-fca"></a>영국 재무 관련 기관 (FCA)
 

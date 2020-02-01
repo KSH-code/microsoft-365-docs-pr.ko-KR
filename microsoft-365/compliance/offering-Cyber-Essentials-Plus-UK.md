@@ -1,10 +1,12 @@
 ---
 title: 영국 사이버 Essentials PLUS
 description: 사이버 Essentials PLUS는 조직에서 일반적인 사이버 보안 위협 으로부터 보호 하는 데 도움이 되는 영국 정부 방식으로 정의 된 구성표입니다.
-keywords: Microsoft 365, 규정 준수, 제안
+keywords: Microsoft 365, 규정 준수, 제품
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -12,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 1a98b2511e773d8c784e93338fb68850d4d3a779
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: da137e3333164970729d0c737f7077c3c96ee634
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40805261"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41602545"
 ---
 # <a name="united-kingdom-cyber-essentials-plus"></a>영국 사이버 Essentials PLUS
 

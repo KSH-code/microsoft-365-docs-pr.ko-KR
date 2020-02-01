@@ -1,5 +1,7 @@
 ---
 title: Office 365 감사 로그에서 eDiscovery 활동 검색
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -12,26 +14,26 @@ localization_priority: Normal
 search.appverid: MOE150
 ms.assetid: 67cc7f42-a53d-4751-b929-6005c80798f7
 description: 준수 관리자가 보안 & 준수 센터에서 콘텐츠 검색 및 eDiscovery 사례 작업을 수행할 때 기록 되는 이벤트에 대 한 Office 365 감사 로그를 검색 하는 방법을 알아봅니다.
-ms.openlocfilehash: 7be0cbd5a6cbdad0158228b808802200034265d5
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: ef9c40debb8c28f0d017423d29016ca4f52b7a17
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088554"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41601535"
 ---
 # <a name="search-for-ediscovery-activities-in-the-office-365-audit-log"></a>Office 365 감사 로그에서 eDiscovery 활동 검색
 
 보안 & 준수 센터에서 또는 해당 Windows PowerShell cmdlet을 실행 하 여 수행 되는 콘텐츠 검색 및 eDiscovery 관련 작업은 Office 365 감사 로그에 기록 됩니다. 이벤트는 관리자 또는 준수 관리자 (또는 eDiscovery 권한이 할당 된 사용자)가 보안 & 준수 센터에서 다음과 같은 콘텐츠 검색 및 eDiscovery 관련 작업을 수행할 때 기록 됩니다.
   
-- EDiscovery 사례 만들기 및 관리
+- eDiscovery 사례 만들기 및 관리
     
 - 콘텐츠 검색 만들기, 시작 및 편집
     
-- 검색 결과 미리 보기, 내보내기, 삭제 등의 콘텐츠 검색 작업 수행
+- 검색 결과 미리 보기, 내보내기, 삭제 등 콘텐츠 검색 작업 수행
     
-- 콘텐츠 검색에 대 한 사용 권한 필터링 구성
+- 콘텐츠 검색에 대한 사용 권한 필터링 구성
     
-- EDiscovery 관리자 역할 관리
+- eDiscovery 관리자 역할 관리
     
 > [!IMPORTANT]
 > 이 문서에서 설명 하는 작업은 보안 & 준수 센터를 사용 하 여 수행 된 eDiscovery 작업의 결과에 불과합니다. Exchange Online의 원본 위치 eDiscovery 도구 또는 SharePoint Online의 eDiscovery Center를 사용 하 여 수행한 eDiscovery 작업은 포함 되지 않습니다. 
@@ -57,7 +59,7 @@ Office 365 감사 로그 검색, 필요한 사용 권한, 검색 결과 내보�
     
 6. **사용자** 상자에서 검색 결과를 표시할 사용자를 한 명 이상 선택 합니다. 모든 사용자에 대 한 항목을 반환 하려면이 상자를 비워 둡니다. 
     
-7. 검색 **을 클릭 하** 여 검색 조건을 사용 하 여 검색을 실행 합니다. 
+7. **검색**을 클릭하여 검색 조건을 사용한 검색을 실행합니다.  
     
 8. 검색 결과가 표시 된 후 **결과 필터링** 을 클릭 하 여 결과 활동 레코드를 필터링 하거나 정렬할 수 있습니다. 아쉽게도 필터링을 사용 하 여 특정 활동을 명시적으로 제외할 수는 없습니다. 
     
@@ -68,12 +70,12 @@ Office 365 감사 로그 검색, 필요한 사용 권한, 검색 결과 내보�
   
 ## <a name="ediscovery-activities"></a>eDiscovery 활동
 
-다음 표에서는 관리자 또는 사용자가 보안 & 준수 센터를 사용 하거나 원격에서 해당 cmdlet을 실행 하 여 eDiscovery 관련 작업을 수행할 때 기록 되는 콘텐츠 검색 및 eDiscovery 관련 작업에 대해 설명 합니다. 조직의 보안 & 준수 센터에 연결 된 PowerShell입니다. 
+다음 표에서는 관리자 또는 사용자가 보안 & 준수 센터를 사용 하 여 eDiscovery 관련 작업을 수행 하거나 조직의 보안 & 준수 센터에 연결 된 원격 PowerShell에서 해당 cmdlet을 실행 하 여 기록 되는 콘텐츠 검색 및 eDiscovery 관련 작업에 대해 설명 합니다. 
   
 > [!NOTE]
 > 이 섹션에서 설명 하는 eDiscovery 작업은 다음 섹션에서 설명 하는 eDiscovery cmdlet 작업에 대 한 유사한 정보를 제공 합니다. 이 섹션에서 설명 하는 eDiscovery 작업은 감사 로그 검색 결과에서 30 분 이내에 표시 되므로 사용 하는 것이 좋습니다. EDiscovery cmdlet 작업이 감사 로그 검색 결과에 표시 되는 데 최대 24 시간이 걸릴 수 있습니다. 
   
-|**식별 이름**|**Operation**|**해당 cmdlet**|**설명**|
+|**친숙한 이름**|**작업**|**해당 cmdlet**|**설명**|
 |:-----|:-----|:-----|:-----|
 |EDiscovery 사례에 구성원이 추가 됨  <br/> |CaseMemberAdded  <br/> |Get-compliancecasemember 추가  <br/> |사용자가 eDiscovery 사례의 구성원으로 추가 되었습니다. 사례 구성원으로 서, 사용자는 필요한 권한이 할당 되었는지 여부에 따라 다양 한 사례 관련 작업을 수행할 수 있습니다.  <br/> |
 |변경 된 콘텐츠 검색  <br/> |SearchUpdated  <br/> |Set-ComplianceSearch  <br/> |기존 콘텐츠 검색이 변경 되었습니다. 변경 사항에는 콘텐츠 위치 추가 또는 제거 또는 검색 쿼리 편집이 포함 될 수 있습니다.  <br/> |
@@ -112,14 +114,14 @@ Office 365 감사 로그 검색, 필요한 사용 권한, 검색 결과 내보�
   
 ## <a name="ediscovery-cmdlet-activities"></a>eDiscovery cmdlet 작업
 
-다음 표에는 관리자 또는 사용자가 보안 & 준수 센터를 사용 하거나 연결 된 원격 PowerShell에서 해당 cmdlet을 실행 하 여 eDiscovery 관련 작업을 수행 하는 경우 기록 되는 cmdlet 감사 로그 레코드가 나와 있습니다. 조직의 보안 & 준수 센터 이 표에 나와 있는 cmdlet 작업 및 이전 섹션에 설명 된 eDiscovery 작업에 대 한 감사 로그 레코드의 자세한 정보는 서로 다릅니다. 
+다음 표에서는 관리자 또는 사용자가 보안 & 준수 센터를 사용 하 여 eDiscovery 관련 작업을 수행 하거나 조직의 보안 & 준수 센터에 연결 된 원격 PowerShell에서 해당 cmdlet을 실행 하 여 기록 되는 cmdlet 감사 로그 레코드를 보여 줍니다. 이 표에 나와 있는 cmdlet 작업 및 이전 섹션에 설명 된 eDiscovery 작업에 대 한 감사 로그 레코드의 자세한 정보는 서로 다릅니다. 
   
 앞에서 설명한 것 처럼 감사 로그 검색 결과에 eDiscovery cmdlet 작업을 표시 하는 데 최대 24 시간이 걸릴 수 있습니다.
   
 > [!TIP]
 > 다음 표의 **작업** 열에 있는 Cmdlet은 TechNet의 해당 cmdlet 도움말 항목에 연결 됩니다. 각 cmdlet에 대해 사용 가능한 매개 변수에 대 한 설명을 보려면 cmdlet 도움말 항목으로 이동 합니다. Cmdlet에 사용 된 매개 변수 및 매개 변수 값은 로깅된 각 eDiscovery cmdlet 작업에 대 한 감사 로그 항목에 포함 됩니다. 
   
-|**식별 이름**|**작업 (cmdlet)**|**설명**|
+|**친숙한 이름**|**작업 (cmdlet)**|**설명**|
 |:-----|:-----|:-----|
 |EDiscovery 사례에서 생성 되는 보류  <br/> |[New-caseholdpolicy](https://go.microsoft.com/fwlink/p/?LinkId=823813) <br/> |EDiscovery 사례에 대 한 보류를 만들었습니다. 콘텐츠 원본을 지정 하지 않고 또는을 사용 하 여 보류를 만들 수 있습니다. 콘텐츠 원본이 지정 된 경우 감사 로그 항목에서 식별 됩니다.  <br/> |
 |EDiscovery 사례에서 보류 삭제  <br/> |[New-caseholdpolicy을 제거 합니다.](https://go.microsoft.com/fwlink/p/?LinkId=823814) <br/> |EDiscovery 사례와 연결 된 보류가 삭제 되었습니다. 보류를 삭제 하면 보류의 모든 콘텐츠 위치가 해제 됩니다. 보류를 삭제 하면 보류와 연결 된 케이스 보류 규칙도 삭제 됩니다 (아래 **new-caseholdrule** 참조).  <br/> |
@@ -158,7 +160,7 @@ Office 365 감사 로그 검색, 필요한 사용 권한, 검색 결과 내보�
 |:-----|:-----|
 |사례  <br/> |생성, 변경 또는 삭제 된 eDiscovery 사례의 id (GUID)입니다.  <br/> |
 |ClientApplication  <br/> |eDiscovery cmdlet 활동에는이 속성에 대 한 값이 **EMC** 로 포함 됩니다. 이는 보안 & 준수 센터 GUI를 사용 하 여 작업을 수행한 것 이며 PowerShell에서 cmdlet을 실행 하는 것을 나타냅니다.  <br/> |
-|ClientIP  <br/> |활동을 로그할 때 사용 된 장치의 IP 주소입니다. IP 주소는 IPv4 또는 IPv6 주소 형식으로 표시 됩니다.  <br/> |
+|ClientIP  <br/> |활동을 로그할 때 사용 된 장치의 IP 주소입니다. IP 주소는 IPv4 또는 IPv6 주소 형식으로 표시됩니다.  <br/> |
 |ClientRequestId  <br/> | EDiscovery 작업의 경우이 속성은 일반적으로 비어 있습니다.  <br/> |
 |CmdletVersion  <br/> |조직에서 실행 되는 보안 & 준수 센터 버전의 빌드 번호입니다.  <br/> |
 |CreationTime  <br/> |EDiscovery 활동이 완료 된 UTC (협정 세계시)로 된 날짜와 시간입니다.  <br/> |
@@ -166,7 +168,7 @@ Office 365 감사 로그 검색, 필요한 사용 권한, 검색 결과 내보�
 |ExchangeLocations  <br/> |콘텐츠 검색에 포함 되거나 eDiscovery 사례에서 보류 된 Exchange Online 사서함입니다.  <br/> |
 |제외 항목  <br/> |EDiscovery 사례의 콘텐츠 검색 또는 보류에서 제외 되는 사서함 또는 사이트 위치입니다.  <br/> |
 |ExtendedProperties  <br/> |콘텐츠 검색의 추가 속성, 콘텐츠 검색 작업 또는 eDiscovery 사례 (예: 개체 GUID, 작업을 수행할 때 사용 된 cmdlet 매개 변수 등)  <br/> |
-|I  <br/> |보고서 항목의 ID입니다. ID는 감사 로그 항목을 고유 하 게 식별 합니다.  <br/> |
+|Id  <br/> |보고서 항목의 ID입니다. ID는 감사 로그 항목을 고유 하 게 식별 합니다.  <br/> |
 |NonPIIParameters  <br/> |Operation 속성에서 식별 한 cmdlet에 사용 된 매개 변수 (값 제외)의 목록입니다. 이 속성에 나열 된 매개 변수는 Parameters 속성에 나와 있는 것과 동일 합니다.  <br/> |
 |Id  <br/> |작업 속성에 나열 된 작업에 의해 만들어지거나, 변경 되거나, 삭제 되는 개체의 GUID 또는 이름 (예: 콘텐츠 검색 또는 eDiscovery 사례)입니다. 이 개체는 감사 로그 검색 결과의 항목 열에도 식별 됩니다.  <br/> |
 |ObjectType  <br/> |사용자가 만들거나 삭제 하거나 수정한 eDiscovery 개체의 유형입니다. 예를 들어 콘텐츠 검색 작업 (미리 보기, 내보내기 또는 삭제), eDiscovery 사례 또는 콘텐츠 검색 등이 있습니다.  <br/> |

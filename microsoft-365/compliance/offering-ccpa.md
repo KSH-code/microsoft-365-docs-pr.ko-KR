@@ -5,6 +5,8 @@ keywords: Microsoft 365, 규정 준수, 제품
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -12,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 73c1d7be6da17ae29c6ea8423c879286714fe8f1
-ms.sourcegitcommit: 03a83ff76c8162b850c4c552759c49f2a4750574
+ms.openlocfilehash: 24217ed5782d14cc67277bc980e4a94b7bc904f5
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/26/2020
-ms.locfileid: "41558605"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41601985"
 ---
 # <a name="california-consumer-privacy-act-ccpa"></a>캘리포니아 소비자 개인 정보 보호법(CCPA)
 

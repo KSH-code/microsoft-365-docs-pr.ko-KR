@@ -1,10 +1,12 @@
 ---
 title: 증권 및 Exchange 위원회-규정 시스템 준수 및 무결성 (SCI)
 description: SCI 규칙은 SCI 엔터티에 적용 되며, 이러한 조직은 SROs를 주식 및 옵션 교환, 등록 된 기관 지우기 및 ATSs (대체 거래 시스템)로 포함 합니다.
-keywords: Microsoft 365, 규정 준수, 제안
+keywords: Microsoft 365, 규정 준수, 제품
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -12,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: de28f982fe7615d0ca81af756af81b3c25fc9de1
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 962524f29b72d46500869f4f0059959a2b77ff3e
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40807714"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41601865"
 ---
 # <a name="securities-and-exchange-commission-regulation-systems-compliance-and-integrity-sci"></a>증권 및 Exchange 위원회: 규정 시스템 준수 및 무결성 (SCI)
 
@@ -50,7 +52,7 @@ SCI 규칙은 SCI 엔터티에 적용 되며, 이러한 조직은 SROs를 주식
 - [규제 SCI 구현 가이드](https://servicetrust.microsoft.com/ViewPage/TrustDocumentsV3?command=Download&downloadType=Document&downloadId=a69ce0c1-7b7e-44e9-9143-867241e6b2f9&tab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913&docTab=7f51cb60-3d6c-11e9-b2af-7bb9f5d2d913_FAQ_and_White_Papers): 규정에 따라 Azure 기능을 매핑하고 규정 준수에 대 한 공유 책임을 자세히 설명 합니다.
 - [안정적인 azure 응용 프로그램 디자인](https://docs.microsoft.com/azure/architecture/resiliency/): azure 응용 프로그램 설계의 각 단계에 대 한 안정성을 구축 하는 방법에 대 한 간략 한 개요입니다.
 - [고가용성 응용 프로그램 디자인](https://docs.microsoft.com/azure/storage/common/storage-designing-ha-apps-with-ragrs): 개발자가 Azure Storage 응용 프로그램을 항상 사용할 수 있도록 하는 방법에 대해 알아봅니다.
-- [위험 평가 & 규제 준수 가이드](https://aka.ms/RiskGovernanceGuide): Microsoft 클라우드 서비스의 위험 평가 및 규제 기관의 알림에 대한 거버넌스 모델을 만듭니다.
+- [위험 평가 & 준수 가이드](https://aka.ms/RiskGovernanceGuide): Microsoft 클라우드 서비스의 위험 평가 및 규제 기관의 알림에 대한 거버넌스 모델을 만들 수 있습니다.
 
 ## <a name="frequently-asked-questions"></a>자주하는 질문
 

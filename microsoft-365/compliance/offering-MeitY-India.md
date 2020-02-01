@@ -1,10 +1,12 @@
 ---
 title: 보건부 전자 제품 및 정보 기술 (MeitY)
 description: Microsoft는 인도의 전자 제품 및 정보 기술에 대 한 보건부의 모든 인정을 받습니다.
-keywords: Microsoft 365, 규정 준수, 제안
+keywords: Microsoft 365, 규정 준수, 제품
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -12,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 5ec81552de43d2e67a4987b0efbaf5582be26e40
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 3b1f93b301ba4db44b7260ae588688acf648e345
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40804451"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41602145"
 ---
 # <a name="ministry-of-electronics-and-information-technology-meity"></a>보건부 전자 제품 및 정보 기술 (MeitY)
 

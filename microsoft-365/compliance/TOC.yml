@@ -1088,6 +1088,8 @@
               href: 'https://aka.ms/TRUCS-Compliance'
         - name: 오스트레일리아/태평양
           items:
+            - name: APRA (오스트레일리아)
+              href: offering-APRA-Australia.md
             - name: IRAP/CCSL (오스트레일리아)
               href: offering-CCSL-IRAP-Australia.md
             - name: NZ CC 프레임 워크 (뉴질랜드)

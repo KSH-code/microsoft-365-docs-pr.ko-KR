@@ -1,10 +1,12 @@
 ---
 title: 위원회의 국가 보안 시스템 명령 아니요 1253 (CNSSI 1253)
 description: Azure 정부용 CNSSI 1253 보안 제어를 사용 하 여 높은 기밀성, 높은 무결성 및 높은 가용성이 필요한 미국 정부 시스템을 지원 합니다.
-keywords: Microsoft 365, 규정 준수, 제안
+keywords: Microsoft 365, 규정 준수, 제품
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -12,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 7e5d72b6a8992b8db91820c04b451979b474aeb9
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: f65baf936e83e4f5128f207a82bce50100cd58b2
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40805421"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41602595"
 ---
 # <a name="committee-on-national-security-systems-instruction-no-1253-cnssi-1253"></a>위원회의 국가 보안 시스템 명령 아니요 1253 (CNSSI 1253)
 

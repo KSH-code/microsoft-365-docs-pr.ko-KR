@@ -1,5 +1,7 @@
 ---
 title: 레코드 개요
+f1.keywords:
+- NOCSH
 ms.author: cabailey
 author: cabailey
 manager: laurawi
@@ -15,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Office 365 또는 Microsoft 조직에서 레코드 관리 전략을 구현하려면 콘텐츠를 레코드로 선언하는 보존 레이블을 사용합니다. 그런 다음 보존 레코드 레이블을 게시하거나 자동으로 적용합니다.
-ms.openlocfilehash: eb8abbb44629261065a9e368814ddeb8296ac0c8
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 36482ea4a6bb9fb932d72b76dff5f0647d467a9b
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40803835"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41601685"
 ---
 # <a name="overview-of-records"></a>레코드 개요
 
@@ -78,6 +80,10 @@ Microsoft 365에서 레코드 관리를 사용하면 조직은 회사 정책, �
 
 3. SharePoint 사이트 및/또는 OneDrive 계정에 대한 보존 레이블을 [게시](labels.md#how-retention-labels-work-with-retention-label-policies)하거나 [자동 적용](labels.md#applying-a-retention-label-automatically-based-on-conditions)합니다.
 
+> [!NOTE]
+> [보존 레이블](labels.md)를 사용하여 항목을 레코드로 선언하는 경우에는 이 위치에서 콘텐츠를 편집할 수 있는 권한이 있는 각 사용자에 대해 Office 365 Enterprise E5 라이선스 또는 동등한 권한이 필요합니다. 읽기 전용 권한이 있는 사용자는 라이선스가 필요 없습니다.
+
+
 ### <a name="applying-a-retention-label-to-content"></a>콘텐츠에 보존 레이블 적용
 
 Exchange의 경우 사서함에 대한 쓰기 권한이 있는 사용자는 전자 메일 메시지에 레코드 레이블을 적용할 수 있습니다. SharePoint 및 OneDrive 콘텐츠의 경우 기본 구성원 그룹에 있는 모든 사용자(참가 권한 수준)는 콘텐츠에 레코드 레이블을 적용할 수 있습니다. 레코드 레이블이 적용된 후에 사이트 모음 관리자만 해당 레코드 레이블을 제거하거나 변경할 수 있습니다. 앞서 설명한 것처럼 콘텐츠를 레코드로 분류하는 보존 레이블을 콘텐츠에 자동 적용할 수 있습니다.
@@ -105,7 +111,7 @@ SharePoint 사이트 또는 OneDrive 계정에서 문서에 레코드 레이블�
 ![레코드로 태그가 지정된 문서의 레코드 상태 속성](media/recordversioning8.png)
 
 > [!NOTE]
-> 레코드 버전 관리를 사용하려면 SharePoint 사이트 또는 OneDrive 계정에서 레코드로 선언된 콘텐츠를 편집할 수 있는 권한이 있는 각 사용자에 대해 Office 365 Enterprise E5 라이선스가 필요합니다. 읽기 전용 권한이 있는 사용자는 라이선스가 필요 없습니다.
+> 레코드 버전 관리를 사용하려면 SharePoint 사이트 또는 OneDrive 계정에서 레코드로 선언된 콘텐츠를 편집할 수 있는 권한이 있는 각 사용자에 대해 Office 365 Enterprise E5 라이선스가 필요합니다. 읽기 전용 권한이 있는 사용자는 이 라이선스가 필요 없습니다.
 
 ### <a name="locking-and-unlocking-a-record"></a>레코드 잠금 및 잠금 해제
 

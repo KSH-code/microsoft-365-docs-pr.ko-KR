@@ -1,10 +1,12 @@
 ---
 title: US 수출 관리 규정 (귀)
 description: Microsoft 클라우드 서비스 지원 고객이 미국 수출 관리 규정 (귀)이 준수 요구 사항을 충족 하 고 수출 통제 위험을 관리 하는 데 도움이 됩니다.
-keywords: Microsoft 365, 규정 준수, 제안
+keywords: Microsoft 365, 규정 준수, 제품
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -12,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: ae28d96416f46a45c0d271b9c291040c2e9d8b31
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 1adf0bab35c921dd416028747b0309e5ad5f3055
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40804131"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41601965"
 ---
 # <a name="us-export-administration-regulations-ear"></a>US 수출 관리 규정 (귀)
 

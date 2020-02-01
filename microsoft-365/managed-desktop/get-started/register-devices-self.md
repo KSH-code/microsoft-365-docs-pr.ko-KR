@@ -3,14 +3,16 @@ title: 직접 새 장치 등록
 description: Microsoft Managed Desktop에서 관리할 수 있도록 장치를 직접 등록
 ms.prod: w10
 author: jaimeo
+f1.keywords:
+- NOCSH
 ms.author: jaimeo
 ms.localizationpriority: medium
-ms.openlocfilehash: 4472f665faa658349813d9aaeb50596f2a868b35
-ms.sourcegitcommit: 3f8957ddd04b8710bb5f314a0902fdee50c7c9b7
+ms.openlocfilehash: d0e29bd16f1b0afd119fc822d6e2391e7f9f3020
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "41572274"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41602825"
 ---
 # <a name="register-new-devices-yourself"></a>직접 새 장치 등록
 

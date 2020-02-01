@@ -1,10 +1,12 @@
 ---
 title: RBI (인도 Bank) 및 보험 규정 및 개발 기관 (IRDAI)
 description: Microsoft는 인도의 금융 기관에서 클라우드 채택에 도움을 주는 지침을 게시 했습니다.
-keywords: Microsoft 365, 규정 준수, 제안
+keywords: Microsoft 365, 규정 준수, 제품
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -12,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 26276567ec2a7f5bf7594ffdf91e7ead21135e17
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 8f0627a26446e681c99f51dda33d87729a5e960c
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40804321"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41602055"
 ---
 # <a name="reserve-bank-of-india-rbi-and-insurance-regulatory-and-development-authority-of-india-irdai"></a>RBI (인도 Bank) 및 보험 규정 및 개발 기관 (IRDAI)
 
@@ -53,7 +55,7 @@ Microsoft 검사 목록은 인도 금융 기업에서 Microsoft business cloud s
 ## <a name="how-to-implement"></a>구현 방법
 
 - [인도에 대 한 준수 검사 목록](https://servicetrust.microsoft.com/Documents/TrustDocuments?command=Download&downloadType=Document&downloadId=26f4af15-2771-4cd4-a7c7-9328149f9453&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides): 재무 기업은 Microsoft business cloud services의 위험 평가를 수행 하는 데 도움을 받을 수 있습니다.
-- [위험 평가 & 규제 준수 가이드](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=edee9b14-3661-4a16-ba83-c35caf672bd7&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers): Microsoft 클라우드 서비스의 위험 평가 및 규제 기관의 알림에 대한 거버넌스 모델을 만듭니다.
+- [위험 평가 & 준수 가이드](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=edee9b14-3661-4a16-ba83-c35caf672bd7&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers): Microsoft 클라우드 서비스의 위험 평가 및 규제 기관의 알림에 대한 거버넌스 모델을 만들 수 있습니다.
 - [Azure의 금융 사용 사례](https://docs.microsoft.com/azure/industry/financial/): 사용 사례 개요, 자습서 및 기타 리소스를 활용 하 여 금융 서비스용 Azure 솔루션을 작성 합니다.
 
 ## <a name="frequently-asked-questions"></a>자주하는 질문

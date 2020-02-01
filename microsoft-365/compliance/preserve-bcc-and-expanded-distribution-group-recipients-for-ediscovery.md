@@ -1,5 +1,7 @@
 ---
 title: eDiscovery의 숨은 참조 및 확장된 메일 그룹 수신자 보존
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -10,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: eb8ddf15-0080-457e-9d83-e73e193da334
 description: 원본 위치 유지, 소송 유지 및 Office 365 보존 정책을 사용 하면 규정 준수 및 eDiscovery 요구 사항을 충족 하기 위해 사서함 콘텐츠를 보존할 수 있습니다.
-ms.openlocfilehash: 46ec9f39f4fe5629ca1854fab44304f30784dbf4
-ms.sourcegitcommit: f0a4290793e296474ecd3c6eb0ca96eae7faa434
+ms.openlocfilehash: 3d128016e89a5e1eadeae4e2c189588c4b2951a3
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/11/2019
-ms.locfileid: "38687117"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41601755"
 ---
 # <a name="preserve-bcc-and-expanded-distribution-group-recipients-for-ediscovery"></a>eDiscovery의 숨은 참조 및 확장된 메일 그룹 수신자 보존
   

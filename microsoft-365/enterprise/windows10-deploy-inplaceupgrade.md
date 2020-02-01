@@ -9,13 +9,15 @@ audience: microsoft-business
 ms.prod: microsoft-365-enterprise
 ms.topic: article
 ms.date: 08/30/2018
+f1.keywords:
+- NOCSH
 ms.author: greglin
-ms.openlocfilehash: 27ed024c47ac671625563d8bf060017cb1757c4c
-ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
+ms.openlocfilehash: 0078931be23039dac3a323f4747494803d1acd4d
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41112692"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41602855"
 ---
 # <a name="step-2-deploy-windows-10-enterprise-for-existing-devices-as-an-in-place-upgrade"></a>2 단계: 현재 위치 업그레이드로 기존 장치에 대 한 Windows 10 Enterprise 배포
 
@@ -29,7 +31,7 @@ Windows 7 또는 Windows 8.1을 실행 하는 기존 컴퓨터가 있는 경우 
 
 다음 단계에 따라 Microsoft Endpoint Configuration Manager를 사용 하 여 전체 업그레이드로 Windows 10 Enterprise 이미지를 구성 하 고 배포 합니다.
 
-## <a name="the-windows-10-deployment-with-configuration-manager-poster"></a>Configuration Manager 포스터를 사용한 Windows 10 배포
+## <a name="the-windows-10-deployment-with-configuration-manager-poster"></a>Configuration Manager 포스터를 사용하여 Windows 10 배포
 
 구성 관리자 포스터는 가로 모드 (17x11)의 한 페이지입니다. 아래 이미지를 클릭 하면 브라우저에서 PDF를 볼 수 있습니다. 
 

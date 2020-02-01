@@ -1,10 +1,12 @@
 ---
 title: 연방 금융 기관 검사 Council (FFIEC)
 description: Microsoft는 금융 서비스 클라이언트에 게 연방 금융 기관 검사 Council (FFIEC)의 감사 요구 사항을 준수 하도록 지원 합니다.
-keywords: Microsoft 365, 규정 준수, 제안
+keywords: Microsoft 365, 규정 준수, 제품
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -12,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 6b1b852ee79b377b5d67ada8a5a4de602a74e466
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 74ce16a1cc98943ea808bbae08eccd54f8f21fad
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40805039"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41602425"
 ---
 # <a name="federal-financial-institutions-examination-council-ffiec"></a>연방 금융 기관 검사 Council (FFIEC)
 

@@ -1,10 +1,12 @@
 ---
 title: 경찰서 (보안 강화 기능) 영국
 description: Microsoft business cloud services는 경찰서 보안 기능이 클라우드에서 데이터를 처리 하 고 저장 하도록 요구 하는 영국 법 집행을 지원 합니다.
-keywords: Microsoft 365, 규정 준수, 제안
+keywords: Microsoft 365, 규정 준수, 제품
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -12,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 476d1b63cfba4c3c9d31fd38c4ad526ca167f7d7
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 292e565064a91d2256dc62831dc1f0957a9b96eb
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40803991"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41601875"
 ---
 # <a name="police-assured-secure-facilities-pasf-united-kingdom"></a>경찰서 (보안 강화 기능) 영국
 

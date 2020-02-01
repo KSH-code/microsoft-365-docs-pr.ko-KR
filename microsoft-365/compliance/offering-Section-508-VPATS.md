@@ -1,10 +1,12 @@
 ---
 title: 미국 508
 description: Microsoft는 이러한 서비스의 내게 필요한 옵션 기능을 설명 하는 많은 클라우드 서비스에 대 한 자세한 내게 필요한 옵션 규칙 보고서를 제공 합니다.
-keywords: Microsoft 365, 규정 준수, 제안
+keywords: Microsoft 365, 규정 준수, 제품
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -12,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 6d7bcb6beccc9059d3a7f75fc52b307648f314c2
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: d9d0c213fcca5b991b4912d5b9158e2d3836aff9
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40804231"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41602025"
 ---
 # <a name="us-section-508"></a>미국 508
 
@@ -25,7 +27,7 @@ ms.locfileid: "40804231"
 
 미국 Congress에서는 Rehabilitation 2000 1998의 EIT (전자 및 정보 기술) 제품 (예: 소프트웨어, 하드웨어, 전자 콘텐츠, 지원 설명서)을 제공 하기 위해 연방 기관에 게 필요한 정보를 제공 합니다. 장애가 있는 사용자 Rehabilitation의 미국 508, 1973 (29 US 코드 § 794d), 수정 된 것 처럼, 연방 기관에서 EIT를 사용 하는 직원 들이 동등 하 게 액세스 하 고 사용할 수 있도록 하는 방법으로 사용 하는 것이 좋습니다. 기타 연방 직원과 관련 한 데이터 및 EIT입니다.
 
-Microsoft는 미국 연방 및 지방 정부에 대 한 주요 소프트웨어 및 클라우드 서비스 공급자입니다.  정부 고객이 조달 의사 결정을 지원 하기 위해 Microsoft는 제품 및 서비스가 508 섹션의 기준을 지 원하는 범위를 설명 하는 내게 필요한 옵션 규칙 보고서를 게시 합니다.  이 정보는 Microsoft 고객이 특정 제품 또는 서비스가 특정 요구 사항을 충족 하는지 여부를 확인 하는 데 도움이 될 수 있습니다.
+Microsoft는 미국 연방 및 지방 정부에 대 한 주요 소프트웨어 및 클라우드 서비스 공급자입니다.  정부 고객이 조달 의사 결정을 지원 하기 위해 Microsoft는 제품 및 서비스가 508 섹션의 기준을 지 원하는 범위를 설명 하는 내게 필요한 옵션 규칙 보고서를 게시 합니다.  이 정보를 통해 Microsoft 고객에게 특정 제품이나 서비스가 요구 사항을 충족하는지 확인하는 데 도움이 될 수 있습니다.
 
 ## <a name="microsoft-and-us-section-508"></a>Microsoft 및 미국식 섹션 508
 

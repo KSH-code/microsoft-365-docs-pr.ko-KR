@@ -5,6 +5,8 @@ keywords: Microsoft 365, 규정 준수, 제품
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -12,14 +14,14 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: efedbdd8230b5fac81b59ca51c0fe863ab4f0c2a
-ms.sourcegitcommit: 3dca80f268006658a0b721aa4f6df1224c7964dc
+ms.openlocfilehash: d88ef57ea9340d95073db7f5ddd4423d5275c840
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/22/2020
-ms.locfileid: "41260116"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41602255"
 ---
-# <a name="compliance-offerings-isoiec-270012013-information-security-management-standards"></a>규정 준수 제품: ISO/IEC 27001:2013 정보 보안 관리 표준
+# <a name="isoiec-270012013-information-security-management-standards"></a>ISO/IEC 27001:2013 정보 보안 관리 표준
 
 ## <a name="isoiec-27001-overview"></a>ISO/IEC 27001 개요
 

@@ -1,10 +1,12 @@
 ---
 title: HITECH의 상태 보험 이식성 및 책임 (HIPAA) &
 description: Microsoft는 책임 업무 비즈니스 연결 동의 (BAAs)를 & 건강 보험 이식성을 제공 합니다.
-keywords: Microsoft 365, 규정 준수, 제안
+keywords: Microsoft 365, 규정 준수, 제품
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -12,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 7d2d718aa8c502afedce0fe99d6f444f78735246
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 5ec30692d5721c316c205cf8b561e59cd6e65e0b
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40804811"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41602315"
 ---
 # <a name="health-insurance-portability-and-accountability-hipaa--hitech-acts"></a>HITECH의 상태 보험 이식성 및 책임 (HIPAA) &
 
@@ -62,7 +64,7 @@ Microsoft 클라우드에서 HIPAA 및 HITECH의 장점 [(Zwanger-Pesiri Radiolo
 - [Office 365, Office 365 U.S. Government, Office 365 U.S. Government Defense](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
 - 독립 실행형 서비스 혹은 Office 365 혹은 Dynamics 365에 브랜딩된 플랜 또는 제품군에 포함된 형태로서의 PowerApps 클라우드 서비스
 - Power BI 클라우드 서비스를 독립 실행형 서비스로 또는 Office 365 또는 Dynamics 365 브랜드 요금제 또는 suite에 포함
-- Azure DevOps 서비스
+- Azure DevOps Services
 
 ## <a name="accelerate-your-deployment-of-hipaahitrust-solutions-on-azure"></a>Azure에서 HIPAA/HITRUST 솔루션 배포를 가속화 합니다.
 
@@ -90,7 +92,7 @@ Microsoft 서비스가 모든 고객에 대해 일관성이 있으므로 microso
 
 **감사자 보고서의 복사본은 어떻게 얻을 수 있나요?**
 
-[서비스 보안 포털](https://www.microsoft.com/trustcenter/STP/default.aspx)은 독립적으로 감사를 거친 규정 준수 보고서를 제공합니다. 이 포털을 사용 하 여 감사자가 Microsoft의 클라우드 서비스 결과와 사용자의 법적 및 규정 요구 사항을 비교할 수 있도록 감사 보고서를 요청할 수 있습니다.
+[Service Trust Portal](https://www.microsoft.com/trustcenter/STP/default.aspx)은 독립적으로 감사를 거친 규정 준수 보고서를 제공합니다. 이 포털을 사용 하 여 감사자가 Microsoft의 클라우드 서비스 결과와 사용자의 법적 및 규정 요구 사항을 비교할 수 있도록 감사 보고서를 요청할 수 있습니다.
 
 **HIPAA 및 HITECH Act 준수에 대 한 자세한 내용은 어떻게 확인할 수 있나요?**
 

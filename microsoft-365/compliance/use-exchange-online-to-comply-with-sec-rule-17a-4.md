@@ -1,5 +1,7 @@
 ---
 title: SEC Rule 17a-4를 준수하기 위해 Exchange Online과 보안 및 준수 센터 사용
+f1.keywords:
+- NOCSH
 ms.author: cabailey
 author: cabailey
 manager: laurawi
@@ -13,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Cohasset Associates는 Exchange Online 및 Security & Compliance Center가 권장대로 구성되어 있으면 CFTC 규칙 1.31 (c) - (d), FINRA 규칙 4511 및 SEC 규칙 17a-4의 관련 저장소 요구 사항을 충족함을 확인했습니다. 평가판을 다운로드할 수 있습니다.
-ms.openlocfilehash: 33db33589df60b52c4598c52d593b9a6fe4c9c10
-ms.sourcegitcommit: 5de17ee0d88a8bec6c8b54bc576a9517ab6d0066
+ms.openlocfilehash: dc61521043d176781c2a6fbd9e1b283cc93eb270
+ms.sourcegitcommit: a6686a68b068adec29b72f998ac9bc95992981df
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41122427"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628594"
 ---
 # <a name="use-exchange-online-and-the-security--compliance-center-to-comply-with-sec-rule-17a-4"></a>SEC Rule 17a-4를 준수하기 위해 Exchange Online과 보안 및 준수 센터 사용
 
@@ -40,7 +42,7 @@ Cohasset은 Exchange Online 및 Security & Compliance Center가 권장대로 구
 
 이 평가는 Exchange Online에만 적용됩니다. 이 평가에는 SharePoint Online 또는 비즈니스용 OneDrive와 같은 다른 Office 365 서비스는 포함되지 않지만 향후에는 SEC 17a-4와 관련하여 해당 서비스에 대한 지원을 계획하고 있습니다.
 
-Skype 비즈니스 및 팀도 Exchange Online에 데이터를 저장한다는 사실을 이해하는 것이 중요합니다. 따라서 평가는 Skype for Business의 메시지와 팀의 채널 및 채팅 메시지를 포함합니다.
+비즈니스용 Skype 및 Teams도 Exchange Online에 데이터를 저장한다는 사실을 이해하는 것이 중요합니다. 따라서 평가는 비즈니스용 Skype의 메시지와 Teams의 채널 및 채팅 메시지를 포함합니다.
 
 ## <a name="using-preservation-lock-is-key-to-the-recommended-configuration"></a>보존 잠금을 사용하는 것이 권장 구성의 핵심입니다.
 
@@ -67,6 +69,8 @@ PowerShell을 사용하여 보존 정책을 잠글 수 있습니다. 자세한 �
 
 현재 Exchange Online에는 몇 가지 제한 사항이 있습니다.
 
-- 항목 수준 감사는 Office 365 그룹 사서함에서 사용할 수 없습니다.
 - 팀 채팅 및 채널 메시지의 경우 스레드 통신을 사용할 수 없습니다.
 - 팀 채팅 및 채널 메시지에 좋아요는 포함되어 있지 않습니다.
+
+> [!NOTE]
+> 이제 Office 365 그룹 사서함에 대해 항목 수준 감사를 사용할 수 있습니다. 자세한 내용은 [사서함 감사 관리](enable-mailbox-auditing.md)를 참조하세요.

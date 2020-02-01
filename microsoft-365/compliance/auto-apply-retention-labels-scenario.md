@@ -1,7 +1,9 @@
 ---
 title: 보존 레이블을 사용하여 SharePoint Online에 저장된 제품 문서의 수명주기 관리
-ms.author: laurawi
-author: laurawi
+f1.keywords:
+- NOCSH
+ms.author: cabailey
+author: cabailey
 manager: laurawi
 audience: Admin
 ms.topic: article
@@ -14,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 이 솔루션 시나리오에서는 Office 365 보존 레이블을 사용하여 SharePoint Online에 저장된 제품 관련 문서의 수명 주기를 관리하는 방법을 설명합니다. 이 작업은 문서 메타 데이터를 사용하여 콘텐츠를 분류하고 특히 Office 365 보존 레이블을 자동으로 적용하며 이벤트 기반 보존을 구성하여 수행됩니다.
-ms.openlocfilehash: 3c9afd05fd4f59a5136ab12dbd7558ade3073e43
-ms.sourcegitcommit: bf30a2314376f0b7d577741b97df017969737d11
+ms.openlocfilehash: ca3dd4699a608d2e3313efa3c10fc61b72f9b36e
+ms.sourcegitcommit: a6686a68b068adec29b72f998ac9bc95992981df
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/27/2019
-ms.locfileid: "39638082"
+ms.lasthandoff: 01/30/2020
+ms.locfileid: "41628114"
 ---
 # <a name="manage-the-lifecycle-of-sharepoint-documents-with-retention-labels"></a>보존 레이블을 사용하여 SharePoint 문서의 수명 주기 관리
 
@@ -278,82 +280,38 @@ KQL 쿼리를 사용하여 올바른 보존 레이블을 제품 문서 내용에
 
 ![이벤트를 트리거하는 흐름의 구성](media/SPRetention24.png)
 
-이 흐름을 만들려면 SharePoint 커넥터에서 시작하여 **항목을 만들거나 수정할 때** 트리거를 선택합니다. 사이트 주소와 목록 이름을 지정한 다음 **생산 중** 목록 열 값이 **아니오**로 설정되는 경우를 기준으로 조건을 추가합니다 (또는 조건 카드에서 false와 같은 경우). 그런 다음 기본 제공 HTTP 서식 파일을 기반으로 하는 작업을 추가합니다. 다음 표의 값을 사용하여 HTTP 작업을 구성합니다. 아래 표에서 URI와 본문 속성의 값을 복사하여 서식 파일에 붙여넣을 수 있습니다.
+이 흐름을 만들려면 SharePoint 커넥터에서 시작하여 **항목을 만들거나 수정할 때** 트리거를 선택합니다. 사이트 주소와 목록 이름을 지정한 다음 **생산 중** 목록 열 값이 **아니오**로 설정되는 경우를 기준으로 조건을 추가합니다 (또는 조건 카드에서 false와 같은 경우). 그런 다음 기본 제공 HTTP 서식 파일을 기반으로 하는 작업을 추가합니다. 다음 섹션의 값을 사용하여 HTTP 작업을 구성합니다. 아래 섹션에서 URI와 본문 속성의 값을 복사하여 서식 파일에 붙여넣을 수 있습니다.
 
-<table>
-<thead>
-<tr class="header">
-<th><strong>매개 변수</strong></th>
-<th><strong>값</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>메서드</td>
-<td>POST</td>
-<tr class="even">
-<td>URI</td>
-<td><a href="https://ps.compliance.protection.outlook.com/psws/service.svc/ComplianceRetentionEvent">https://ps.compliance.protection.outlook.com/psws/service.svc/ComplianceRetentionEvent</a></td>
-<td></td>
-</tr>
-<tr class="odd">
-<td>머리글</td>
-<td>Key = Content-Type, Value = application/atom+xml</td>
-<td></td>
-</tr>
-<tr class="even">
-<td>본문</td>
-<td><p>&lt;?xml version='1.0' encoding='utf-8' standalone='yes'?&gt;</p>
-<p>&lt;entry xmlns:d='https://schemas.microsoft.com/ado/2007/08/dataservices' xmlns:m='https://schemas.microsoft.com/ado/2007/08/dataservices/metadata' xmlns='https://www.w3.org/2005/Atom'&gt;</p>
-<p>&lt;category scheme='https://schemas.microsoft.com/ado/2007/08/dataservices/scheme' term='Exchange.ComplianceRetentionEvent' /&gt;</p>
-<p>&lt;updated&gt;9/9/2017 10:50:00 PM&lt;/updated&gt;</p>
-<p>&lt;content type='application/xml'&gt;</p>
-<p>&lt;m:properties&gt;</p>
-<p>&lt;d:Name&gt;Cessation Production @{triggerBody()?['Product_x0020_Name']?['Value']}&lt;/d:Name&gt;</p>
-<p>&lt;d:EventType&gt;Product Cessation&lt;/d:EventType&gt;</p>
-<p>&lt;d:SharePointAssetIdQuery&gt;ProductName:&quot;@{triggerBody()?['Product_x0020_Name']?['Value']}&quot;&lt;/d:SharePointAssetIdQuery&gt;</p>
-<p>&lt;d:EventDateTime&gt;@{formatDateTime(utcNow(),'yyyy-MM-dd')}&lt;/d:EventDateTime&gt;</p>
-<p>&lt;/m:properties&gt;</p>
-<p>&lt;/content&gt;</p>
-<p>&lt;/entry&gt;</p></td>
-<td></td>
-</tr>
+- **Method**: POST
+- **URI**: https://ps.compliance.protection.outlook.com/psws/service.svc/ComplianceRetentionEvent
+- **Headers**: Key = Content-Type, Value = application/atom+xml
+- **Body**:
 
-</tbody>
-</table>
+```HTML
+<?xml version='1.0' encoding='utf-8' standalone='yes'>
+<entry xmlns:d='https://schemas.microsoft.com/ado/2007/08/dataservices' xmlns:m='https://schemas.microsoft.com/ado/2007/08/dataservices/metadata' xmlns='https://www.w3.org/2005/Atom'>
+<category scheme='https://schemas.microsoft.com/ado/2007/08/dataservices/scheme' term='Exchange.ComplianceRetentionEvent'>
+<updated>9/9/2017 10:50:00 PM</updated>
+<content type='application/xml'>
+<m:properties>
+<d:Name>Cessation Production @{triggerBody()?['Product_x0020_Name']?['Value']}</d:Name>
+<d:EventType>Product Cessation&lt;</d:EventType>
+<d:SharePointAssetIdQuery>ProductName:&quot;@{triggerBody()?['Product_x0020_Name']?['Value']}<d:SharePointAssetIdQuery>
+<d:EventDateTime>@{formatDateTime(utcNow(),'yyyy-MM-dd')}</d:EventDateTime>
+</m:properties>
+</content&gt>
+</entry>
+```
 
-다음 표에서는 이 시나리오에 맞게 구성해야 하는 작업의 Body 속성에 포함된 매개 변수를 설명합니다. 
+다음 표에서는 이 시나리오에 맞게 구성해야 하는 작업의 *Body* 속성에 포함된 매개 변수를 설명합니다.
 
-<table>
-<thead>
-<tr class="header">
-<th><strong>매개 변수</strong></th>
-<th><strong>설명</strong></th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>이름</td>
-<td>이 매개 변수는 보안 및 준수 센터에서 생성되는 이벤트 이름을 지정합니다. 이 시나리오에서, 이름은 "Cessation Production xxx"입니다. 여기서 xxx는 앞에서 만든 ProductName 관리 속성의 값입니다. </th>
-</tr>
-</thead>
-<tbody>
-<tr class="odd">
-<td>EventType</td>
-<td>이 매개 변수의 값은 생성된 이벤트가 적용되는 이벤트 유형에 해당합니다. 이 이벤트 유형은 보존 레이블을 생성할 때 정의되었습니다. 이 시나리오의 경우 이벤트 유형은 "Product Cessation"입니다.</td>
-</tr>
-<tr class="even">
-<td>SharePointAssetIdQuery</td>
-<td>이 매개 변수는 이벤트의 자산 ID를 정의합니다. 이벤트 기반 보존에는 문서에 대한 고유 식별자가 필요합니다. 자산 ID를 사용하여 특정 이벤트가 적용 가능한 문서를 식별하거나 이 시나리오에서와 같이 메타데이터 열, 고유한 제품 이름을 사용할 수 있습니다. 이렇게 하려면 KQL 쿼리에 사용할 수 있는 ProductName이라는 새 관리 속성을 만들어야 합니다 (또는 새 관리 속성을 만드는 대신 RefinableString00을 사용할 수도 있음). 또한 이 새로운 관리 속성을 ows_Product_x0020_Name 크롤링된 속성에 맵핑해야합니다. 다음은 이 관리 속성의 스크린샷입니다.
+- **Name**: 이 매개 변수는 보안 및 준수 센터에서 생성되는 이벤트 이름을 지정합니다. 이 시나리오에서, 이름은 "Cessation Production xxx"입니다. 여기서 xxx는 앞에서 만든 ProductName 관리 속성의 값입니다.
+- **EventType**: 이 매개 변수의 값은 생성된 이벤트가 적용되는 이벤트 유형에 해당합니다. 이 이벤트 유형은 보존 레이블을 생성할 때 정의되었습니다. 이 시나리오의 경우 이벤트 유형은 "Product Cessation"입니다.
+- **SharePointAssetIdQuery**: 이 매개 변수는 이벤트의 자산 ID를 정의합니다. 이벤트 기반 보존에는 문서에 대한 고유 식별자가 필요합니다. 자산 ID를 사용하여 특정 이벤트가 적용 가능한 문서를 식별하거나 이 시나리오에서와 같이 메타데이터 열, 고유한 제품 이름을 사용할 수 있습니다. 이렇게 하려면 KQL 쿼리에 사용할 수 있는 ProductName이라는 새 관리 속성을 만들어야 합니다 (또는 새 관리 속성을 만드는 대신 RefinableString00을 사용할 수도 있음). 또한 이 새로운 관리 속성을 ows_Product_x0020_Name 크롤링된 속성에 맵핑해야합니다. 다음은 이 관리 속성의 스크린샷입니다.
 
-<img src="media/SPRetention25.png" style="width:6.49722in;height:0.45069in" /></td>
-</tr>
-<tr class="odd">
-<td>EventDateTime</td>
-<td>이 매개 변수는 이벤트 발생 날짜를 정의합니다. 현재 날짜 형식 <strong>formatDateTime(utcNow(),'yyyy-MM-dd'<strong>)</strong>을 사용합니다.</td>
-</tr>
-</tbody>
-</table>
+    ![보존 관리 속성](media/SPRetention25.png)
+
+- **EventDateTime**: 이 매개 변수는 이벤트 발생 날짜를 정의합니다. 현재 날짜 형식 *formatDateTime(utcNow(),'yyyy-MM-dd'*)을 사용합니다.
 
 ### <a name="putting-it-all-together"></a>모든 항목 요약
 
@@ -393,6 +351,6 @@ KQL 쿼리를 사용하여 올바른 보존 레이블을 제품 문서 내용에
 
 ## <a name="credits"></a>크레딧
 
-이 시나리오의 작성자는 다음과 같습니다.
+이 시나리오의 작성자는 다음과 같습니다. 
 
 Frederic Lapierre<br/>Principal Consultant, Microsoft Services

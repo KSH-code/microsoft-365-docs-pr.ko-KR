@@ -1,5 +1,7 @@
 ---
 title: Advanced eDiscovery에 대 한 릴리스 정보
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: 이 문서에는 Advanced eDiscovery에 대 한 릴리스 정보가 나와 있습니다.
-ms.openlocfilehash: f3d26b1c84746581ccf32e1d4aada079fc21dfb3
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: e51647e56e7fb29d8f67d36941a2847278c1e1c0
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37089183"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41601645"
 ---
 # <a name="release-notes-for-advanced-ediscovery"></a>Advanced eDiscovery에 대 한 릴리스 정보
 

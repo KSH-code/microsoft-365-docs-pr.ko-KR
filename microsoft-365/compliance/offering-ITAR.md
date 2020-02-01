@@ -1,10 +1,12 @@
 ---
 title: ITAR (무장 규정)의 국제 트래픽
 description: Azure 정부는 Arm Regs 지원 시스템에서 국제 트래픽을 구축 하는 고객을 지원 합니다.
-keywords: Microsoft 365, 규정 준수, 제안
+keywords: Microsoft 365, 규정 준수, 제품
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -12,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: a15b787904149073394bfc08a3ae8faf119d7ac8
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 045f6c177acd3f5feb0645fb56d25426632638e7
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40804612"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41602195"
 ---
 # <a name="international-traffic-in-arms-regulations-itar"></a>ITAR (무장 규정)의 국제 트래픽
 

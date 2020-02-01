@@ -1,5 +1,7 @@
 ---
 title: Office 365에서 콘텐츠 검색
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -11,12 +13,12 @@ localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: df2d1e0f-b476-42c9-aade-4a260b24f193
 description: 보안 & 준수 센터에서 콘텐츠 검색 eDiscovery 도구를 사용 하면 비즈니스용 Skype의 Exchange 사서함, SharePoint 사이트 및 OneDrive 위치에 있는 문서 및 인스턴트 메시징 대화에서 신속 하 게 전자 메일을 찾을 수 있습니다.
-ms.openlocfilehash: 9978262223de059511a011358764069ef23d4340
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: d5acdf5bba50d002876491ee0488c1f28a2c51ad
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088800"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41601545"
 ---
 # <a name="search-for-content-in-office-365"></a>Office 365에서 콘텐츠 검색
 
@@ -77,7 +79,7 @@ ms.locfileid: "37088800"
 
 경우에 따라 고급, 복잡 및 반복적인 콘텐츠 검색 작업을 수행 해야 하는 경우가 있습니다. 이러한 경우 보안 & 준수 센터에서 PowerShell 명령을 보다 쉽고 빠르게 사용할 수 있습니다. 이를 용이 하 게 하기 위해 복잡 한 콘텐츠 검색 관련 작업을 완료 하는 데 도움이 되는 다양 한 보안 & 준수 센터 PowerShell 스크립트를 만들었습니다.
   
-- [특정 사서함 및 사이트 폴더 검색](use-content-search-for-targeted-collections.md) ( *대상 컬렉션* 이라고 함) 항목에 대 한 응답 항목이 해당 폴더에 있는 것을 확신 하는 경우 
+- [특정 사서함 및 사이트 폴더](use-content-search-for-targeted-collections.md) ( *대상 모음* 이라고 함)가 해당 폴더에 있는 항목에 대 한 응답 항목이 확실 하다 고 확신 하는 경우 검색 
     
 - 사용자 목록에 대 한 [사서함 및 OneDrive 위치 검색](search-the-mailbox-and-onedrive-for-business-for-a-list-of-users.md) 
     

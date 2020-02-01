@@ -1,5 +1,7 @@
 ---
 title: Office 365에서 권한이 부여 된 액세스 관리 구성
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -15,12 +17,12 @@ ms.collection:
 ms.custom: Ent_Solutions
 ms.assetid: ''
 description: 이 항목을 사용 하 여 Office 365에서 권한이 부여 된 액세스 관리 구성에 대 한 자세한 내용을 알아보세요.
-ms.openlocfilehash: 1ea929026db3ac50a0eac3d452c2608fd0c0d123
-ms.sourcegitcommit: 82baed362528fed30e9e09c6a4a37c07be2f138d
+ms.openlocfilehash: 36a473369ba539230bc4bbb2a630d74830844fc7
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/07/2020
-ms.locfileid: "40959517"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41601735"
 ---
 # <a name="configuring-privileged-access-management-in-office-365"></a>Office 365에서 권한이 부여 된 액세스 관리 구성
 
