@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 description: 셀프 서비스 구매에 대 한 일반적인 질문과 대답을 확인할 수 있습니다.
 ms.custom: aka.ms/self-service-purchase-faq
-ms.openlocfilehash: 9f456c992cda6fcfafd1a0d5faa68dba42a894d8
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: f9f991dca27617717817564daa4a042e2eeb4bf0
+ms.sourcegitcommit: 2913fd74ad5086c7cac6388447285be9aa5a8e44
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41594102"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "41661913"
 ---
 # <a name="self-service-purchase-faq"></a>셀프 서비스 구매 FAQ
 
@@ -101,7 +101,7 @@ Microsoft는 미국에 있는 고객에 게 Power BI, Power Apps 및 파워 자�
 
 ### <a name="what-capabilities-does-an-admin-have-for-self-service-purchases"></a>관리자가 셀프 서비스를 구매 하는 데 사용할 수 있는 기능은 무엇입니까?
 
-관리자는 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 관리 센터</a>에서 조직에 적용 된 모든 셀프 서비스 구매를 볼 수 있습니다. 제품, 구매자 이름, 구독 구입, 만료 날짜, 주문 내역, 구매 가격 및 각 셀프 서비스 구매에 대 한 사용자 지정을 볼 수 있습니다. 조직의 요구 사항에 따라 관리자는 PowerShell을 통해 제품별로 셀프 서비스 구매를 해제할 수 있습니다. 관리자는 셀프 서비스 구매 또는 중앙을 통해 구매한 제품에 대해 동일한 데이터 관리 및 액세스 정책을 사용 합니다.
+관리자는 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 관리 센터</a>에서 조직에 적용 된 모든 셀프 서비스 구매를 볼 수 있습니다. 제품, 구매자 이름, 구독 구입, 만료 날짜, 주문 내역, 구매 가격 및 각 셀프 서비스 구매에 대 한 사용자 지정을 볼 수 있습니다. Power Platform 관리 센터에서는 관리자가 셀프 서비스 구매 용량을 볼 수도 있습니다. 조직의 요구 사항에 따라 관리자는 PowerShell을 통해 제품별로 셀프 서비스 구매를 해제할 수 있습니다. 관리자는 셀프 서비스 구매 또는 중앙을 통해 구매한 제품에 대해 동일한 데이터 관리 및 액세스 정책을 사용 합니다.
 
 관리자는 또한 조직의 사용자가 셀프 서비스 구매를 수행할 수 있는지 여부도 제어할 수 있습니다. 자세한 내용은 [Use AllowSelfServicePurchase for The MSCommerce PowerShell module](allowselfservicepurchase-powershell.md)을 참조 하십시오.
 

@@ -1,7 +1,7 @@
 ---
 title: Microsoft 365 보안 센터에서 Microsoft Threat Protection 사용 설정
 description: Microsoft Threat Protection를 사용하도록 설정하고 보안 인시던트 및 대응 통합을 시작하는 방법을 알아봅니다.
-keywords: 시작, MTP, Microsoft Threat Protection, M365, 보안, 데이터 위치, 필수 사용 권한, 라이선스 자격 등을 사용 하도록 설정
+keywords: 시작, MTP, Microsoft Threat Protection, M365, 보안, 데이터 위치, 필수 사용 권한, 라이선스 자격, 설정 페이지
 search.product: eADQiWindows 10XVcnh
 ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 8aeff373b3f5550f7217a5b56aa1dbf994563825
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: a85680e323c7a8fba6f2d74d5cc00c58c2013d23
+ms.sourcegitcommit: 2913fd74ad5086c7cac6388447285be9aa5a8e44
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600065"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "41662054"
 ---
 # <a name="turn-on-microsoft-threat-protection"></a>Microsoft Threat Protection 사용 설정
 
@@ -36,21 +36,27 @@ ms.locfileid: "41600065"
 Microsoft Threat Protection은 Microsoft Defender의 ATP(Advanced Threat Protection), Office 365 ATP, Microsoft Cloud App Security, Azure ATP에 주요 기능을 통합하여 인시던트 대응 프로세스를 통합합니다. 이 통합된 환경은 Microsoft 365 보안 센터에서 액세스할 수 있는 강력한 기능을 추가합니다.
 
 ## <a name="check-license-eligibility-and-required-permissions"></a>라이선스 자격 및 필요한 권한 확인
-Microsoft 365 E5 또는 이와 동등한 라이선스가 있는 고객은 Microsoft Threat Protection을 사용할 수 있습니다. 자세한 내용은 [라이선스 요구 사항 읽기](prerequisites.md#licensing-requirements)를 참조하세요.
+Microsoft 365 E5, Microsoft 365 E5 보안 또는이에 해당 하는 라이선스 조합이 있는 고객은 Microsoft Threat Protection을 사용할 수 있습니다. 자세한 내용은 [라이선스 요구 사항 읽기](prerequisites.md#licensing-requirements)를 참조하세요.
 
- Microsoft Threat Protection을 사용 하도록 설정 하려면 **전역 관리자** 이거나 [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles)의 **보안 관리자** 여야 합니다.
+Microsoft Threat Protection을 켜려면 **전역 관리자** 이거나 [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles) 의 **보안 관리자** 여야 합니다.
 
 ## <a name="start-using-the-service"></a>서비스 사용 시작
-Microsoft Threat Protection 서비스를 사용하도록 설정하면 다양한 통합된 서비스에서 데이터를 집계합니다. 데이터는 중앙에서 처리되고 저장되어 새 정보를 식별하고 중앙 집중식 대응 워크플로를 가능하게 합니다.
+Microsoft Threat Protection은 다양 한 통합 서비스에서 데이터를 집계 합니다. 새 정보를 식별 하 고 중앙 집중식 응답 워크플로를 수행할 수 있도록 중앙에서 데이터를 처리 및 저장 합니다.
 
-서비스를 설정 하기 전에 Microsoft 365 보안 센터 ([security.microsoft.com](https://security.microsoft.com))에 메뉴의 **인시던트** 및 **작업 센터** 옵션이 표시 되지 않습니다.
+서비스를 설정 하기 전에 Microsoft 365 보안 센터 ([security.microsoft.com](https://security.microsoft.com))에 탐색 창에 **인시던트** 및 **작업 센터** 옵션이 표시 되지 않습니다.
 
-![Microsoft Threat Protection 기능을 사용하지 않는 Microsoft 365 보안 센터 메뉴의 이미지](../images/mtp-off.png)
-Microsoft Threat Protection이 꺼져 있는 Microsoft 365 보안 센터 **
+![Microsoft threat protection 기능이](../images/mtp-off.png)
+없는 microsoft 365 보안 센터 탐색 창 이미지 microsoft*threat protection이 해제 된 microsoft 365 보안 센터*
 
-Microsoft Threat Protection 서비스 사용을 설정하려면 Microsoft 365 보안 센터에서 **설정** > **Microsoft Threat Protection** > **옵트인/옵트아웃**으로 이동합니다.
+Microsoft Threat Protection을 설정 하려면 탐색 창에서 **설정을** 선택 합니다. **[설정 페이지](https://security.microsoft.com/settings)** 에서 **Microsoft Threat Protection** > **옵트인/옵트아웃**으로 이동 합니다.
 
-Microsoft Defender ATP가 조직에 프로비전된 경우 [Microsoft Defender ATP 데이터](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy)를 위해 선택한 것과 동일한 데이터 센터 위치에 데이터가 저장되고 처리됩니다. Microsoft Defender ATP가 없는 경우 Microsoft Threat Protection를 위한 새로운 데이터 센터 위치를 선택하라는 메시지가 표시됩니다. 서비스와 집계된 데이터가 공유되기 전에 동의를 제공해야 합니다.
+>[!NOTE]
+>탐색 창에 **설정이** 표시 되지 않거나 페이지에 액세스할 수 없는 경우 사용 권한 및 라이선스를 확인 합니다.
+
+### <a name="select-data-center-location"></a>데이터 센터 위치 선택
+Microsoft Defender ATP가 조직에 프로비전된 경우 [Microsoft Defender ATP 데이터](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy)를 위해 선택한 것과 동일한 데이터 센터 위치에 데이터가 저장되고 처리됩니다. Microsoft Defender ATP가 없는 경우 Microsoft Threat Protection를 위한 새로운 데이터 센터 위치를 선택하라는 메시지가 표시됩니다. 
+
+서비스 간에 데이터를 공유 하 고 집계 하기 전에 동의를 제공 해야 합니다.
 
 ### <a name="confirm-that-the-service-is-on"></a>서비스가 켜져 있는지 확인합니다.
 서비스를 프로비전하면 다음이 추가됩니다.
@@ -59,8 +65,8 @@ Microsoft Defender ATP가 조직에 프로비전된 경우 [Microsoft Defender A
 - [자동화 조사 및 대응](mtp-autoir.md)을 관리하는 알림 센터
 - 기존 **헌팅** 페이지에 대한 [고급 헌팅](advanced-hunting-overview.md) 기능
 
-![Microsoft Threat Protection 기능을 사용하는 Microsoft 365 보안 센터 메뉴의 이미지](../images/mtp-on.png)
-*인시던트 관리와 Microsoft Threat Protection 기능이 있는 Microsoft 365 보안 센터*
+![Microsoft threat protection 기능이](../images/mtp-on.png)
+있는 microsoft 365 보안 센터 탐색 창 이미지*문제 관리 및 기타 microsoft threat protection 기능을 가진 microsoft 365 보안 센터*
 
 ### <a name="getting-azure-atp-data"></a>Azure ATP 데이터 가져오기
 Azure ATP 데이터를 Microsoft Threat Protection 기능과 공유하려면 Microsoft Cloud App Security 및 Azure ATP 통합이 사용하도록 설정되어 있는지 확인하세요. [이 통합에 대한 자세한 정보](https://docs.microsoft.com/cloud-app-security/aatp-integration)
@@ -73,7 +79,7 @@ Microsoft Threat Protection 사용을 중지하려면 Microsoft 365 보안 센�
 
 ## <a name="get-assistance"></a>지원 받기
 
-Microsoft 직원은 테넌트의 서비스 및 관련 리소스를 프로비저닝하거나 프로비전 해제하는 데 도움을 줄 수 있습니다. 도움이 필요 하면 Microsoft 365 보안 센터에서 **도움말 보기** 를 선택 합니다. 관심 사항을 설명할 때 "Microsoft Threat Protection"을 언급 합니다.
+Microsoft 지원 요원은 테 넌 트에 서비스 및 관련 리소스를 구축 하거나 프로 비전 해제 하는 데 도움이 될 수 있습니다. 도움이 필요 하면 Microsoft 365 보안 센터에서 **도움말 보기** 를 선택 합니다. 지원 센터에 문의 하는 경우 Microsoft Threat Protection을 언급 합니다.
 
 ## <a name="related-topics"></a>관련 항목
 
