@@ -5,6 +5,8 @@ keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -12,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: a5f68e235252208de664cc6dfdd62b6019d9abe6
-ms.sourcegitcommit: 3dca80f268006658a0b721aa4f6df1224c7964dc
+ms.openlocfilehash: 57d4093712efbee7bcb4f27280b0ba64a50dbe41
+ms.sourcegitcommit: 2913fd74ad5086c7cac6388447285be9aa5a8e44
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/22/2020
-ms.locfileid: "41259986"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "41662024"
 ---
 # <a name="service-organization-controls-soc"></a>SOC(서비스 조직 컨트롤)
 
@@ -47,15 +49,14 @@ Microsoft 클라우드에서 SOC 1, 2, 3의 이점에 대해 자세히 알아보
 
 ### <a name="covered-services-for-soc-1-and-soc-2"></a>SOC 1 및 SOC 2에 대해 적용되는 서비스
 
-- Azure, Azure Government, Azure Germany [상세 목록](https://aka.ms/AzureCompliance)
+- [Azure, Azure Government, Azure Germany](https://aka.ms/AzureCompliance)
 - Cloud App Security
-- Dynamics 365 및 Dynamics 365 U.S. Government [상세 목록](https://aka.ms/d365-compliance-list)
-- Graph
+- [Dynamics 365 및 Dynamics 365 U.S. Government](https://aka.ms/d365-compliance-list)
+- 그래프
 - Intune
 - Microsoft Managed Desktop
 - 독립 실행형 서비스 혹은 Office 365 혹은 Dynamics 365에 브랜딩된 플랜 또는 제품군에 포함된 형태로서의 Microsoft Flow 클라우드 서비스
-- Office 365, Office 365 U.S. Government, and Office 365 U.S. Government Defense [상세 목록](https://go.microsoft.com/fwlink/p/?LinkID=2077751) Yammer는 SOC 1 유형 1 보고서를 달성했습니다.
-- Office 365 Germany
+- [Office 365, Office 365 U.S. Government, Office 365 U.S. Government Defense](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
 - 독립 실행형 서비스 혹은 Office 365 혹은 Dynamics 365에 브랜딩된 플랜 또는 제품군에 포함된 형태로서의 PowerApps 클라우드 서비스
 - 독립 실행형 서비스 혹은 Office 365에 브랜딩된 플랜 또는 제품군에 포함된 형태로서의 Power BI 클라우드 서비스
 - Stream
@@ -63,13 +64,14 @@ Microsoft 클라우드에서 SOC 1, 2, 3의 이점에 대해 자세히 알아보
 
 ### <a name="covered-services-for-soc-3"></a>SOC 3에 대해 적용되는 서비스
 
-- Azure, Azure Government, Azure Germany [상세 목록](https://aka.ms/AzureCompliance)
+- [Azure, Azure Government, Azure Germany](https://aka.ms/AzureCompliance)
 - Cloud App Security
 - 그래프
 - Intune
 - Microsoft Managed Desktop
 - 독립 실행형 서비스 혹은 Office 365 혹은 Dynamics 365에 브랜딩된 플랜 또는 제품군에 포함된 형태로서의 Microsoft Flow 클라우드 서비스
 - 독립 실행형 서비스 혹은 Office 365 혹은 Dynamics 365에 브랜딩된 플랜 또는 제품군에 포함된 형태로서의 PowerApps 클라우드 서비스
+- [Office 365, Office 365 U.S. Government, Office 365 U.S. Government Defense](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
 - Power BI
 - Stream
 
@@ -93,11 +95,13 @@ SOC 1 (SSAE18, ISAE 3402) 및 SOC 2 (AT Section 101) 표준에 따라 Microsoft 
 
 #### <a name="office-365"></a>Office 365
 
-- [Office 365 SOC 1 SSAE 16 유형 II 감사 보고서](https://aka.ms/office365soc1auditreport)
-- [Office 365 SOC 2 AT 101 유형 II 감사 보고서](https://aka.ms/Office365SOC2AuditReport)
+- [Office 365 Core - SSAE 18 SOC 1 보고서](https://aka.ms/o365SOC-1)
+- [Office 365 Core - SSAE 18 SOC 2 보고서](https://aka.ms/o365SOC-2)
+- [Office 365 Core - SSAE 18 SOC 3 보고서](https://aka.ms/o365SOC-3)
+- [Office 365 Microservices T1-SSAE 18 SOC2 유형 I 보고서](https://aka.ms/o365-MS-SOC-2-type1)
 - [Office 365 Customer Lockbox SOC 1 SSAE 16 감사 보고서](https://aka.ms/Office365CustomerLockboxSOCAuditReport)
-- [Yammer SOC 2 AT 101 유형 II 감사 보고서](https://aka.ms/YammerSOC2AuditReport)
 - [Yammer SOC 2 AT 101 유형 I 감사 보고서](https://aka.ms/YammerSOC2Type1AuditReport)
+- [Yammer SOC 2 유형 II 보고서](https://aka.ms/yammerSOC-2)
 - [브리지 레터 및 추가 감사 보고서를 참조하기](https://aka.ms/auditreports)
 
 ## <a name="frequently-asked-questions"></a>자주하는 질문
@@ -127,15 +131,10 @@ Azure, Cloud App Security, Flow, Graph, Intune, Power BI, PowerApps, Stream 및 
 
 ## <a name="resources"></a>리소스
 
- - [Microsoft 클라우드 서비스를 사용하여 데이터를 더욱 효과적으로 보호하기](https://www.microsoft.com/trustcenter/guidance/protect-data)
- - [SOC(Service Organization Control) 보고서](https://aka.ms/mssocreports)
- - [SSAE 16 감사 표준](https://www.ssae-16.com/)
- - [ISAE 3402 Standard](https://isae3402.com/)
- - [Microsoft 공통 컨트롤 허브 규정 준수 프레임 워크](https://www.microsoft.com/trustcenter/common-controls-hub)
- - [Microsoft 온라인 서비스 사용 약관](https://aka.ms/Online-Services-Terms)
- - [Microsoft Government 클라우드](https://go.microsoft.com/fwlink/p/?linkid=2087246)
- - [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>제공 사항의 배경 설명 다운로드
-
-이 제공 사항에 대한 배경 설명 문서가 필요한가요? [PDF](https://download.microsoft.com/download/F/E/1/FE10DD69-B5A9-4DA7-A86A-1F565D2B6472/SOC_backgrounder-2018.pdf)를 다운로드합니다.
+- [Microsoft 클라우드 서비스를 사용하여 데이터를 더욱 효과적으로 보호하기](https://www.microsoft.com/trustcenter/guidance/protect-data)
+- [SOC(Service Organization Control) 보고서](https://aka.ms/mssocreports)
+- [SSAE 16 개요](http://ssae16.com/SSAE16_overview.html)
+- [ISAE 3402 개요](http://isae3402.com/ISAE3402_overview.html)
+- [Microsoft 온라인 서비스 사용 약관](https://aka.ms/Online-Services-Terms)
+- [Microsoft Government 클라우드](https://go.microsoft.com/fwlink/p/?linkid=2087246)
+- [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)

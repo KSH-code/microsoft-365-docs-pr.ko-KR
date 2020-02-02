@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: 1fbd74e8-7a60-4157-afe8-fe79f05d2038
 description: 사서함을 비활성 사서함으로 설정 하 여 이전 직원의 사서함 콘텐츠를 보존 하는 방법에 대해 알아봅니다. 이 작업을 수행 하려면 사서함을 소송 보존으로 설정 하거나, 사서함에 Office 365 유지 정책을 적용 한 다음 해당 하는 Office 365 계정을 제거 하면 됩니다.
-ms.openlocfilehash: 7b60ce92382c0b8111dcf4c1b8d9fb4c793717c6
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 75ede1ae199bdecfea2662a187c3965cc2b676d7
+ms.sourcegitcommit: 2913fd74ad5086c7cac6388447285be9aa5a8e44
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597945"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "41661884"
 ---
 # <a name="overview-of-inactive-mailboxes-in-office-365"></a>Office 365의 비활성 사서함에 대 한 개요
 
@@ -85,7 +85,7 @@ Exchange 보존 정책 ( Exchange Online 의 메시징 레코드 관리 또는 M
   
 ## <a name="creating-an-inactive-mailbox"></a>비활성 사서함 만들기 (영문)
 
-사서함을 비활성화 하려면 해당 사서함에 대 한 소송 보류 또는 Office 365 보존 정책을 적용할 수 있도록 exchange Online 계획 2 라이선스 (또는 exchange online 보관 추가 라이선스가 포함 된 Exchange online 계획 1 라이선스)를 할당 받아야 합니다. 삭제. 사서함이 삭제 되 면이에 연결 된 모든 Exchange Online 라이선스를 새 사용자에 게 할당할 수 있습니다. 비활성 사서함 지속적인 라이선스가 필요 하지 않습니다.
+사서함을 비활성화 하려면 해당 사서함에 대 한 소송 보류 또는 Office 365 보존 정책을 적용할 수 있도록 exchange Online 계획 2 라이선스 (또는 exchange online 보관 추가 라이선스가 포함 된 Exchange online 계획 1 라이선스)를 할당 받아야 합니다. 삭제. 사서함이 삭제 되 면이에 연결 된 모든 Exchange Online 라이선스를 새 사용자에 게 할당할 수 있습니다.
   
 다음 표에 서로 다른 보존 시나리오에 대 한 비활성 사서함 되도록 설정 하는 프로세스를 간략하게 나와 있습니다. 자세한 내용은 [Office 365에서 비활성 사서함 관리](create-and-manage-inactive-mailboxes.md)를 참조 하세요.
   

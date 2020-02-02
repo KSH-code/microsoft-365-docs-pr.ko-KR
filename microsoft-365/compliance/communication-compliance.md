@@ -1,5 +1,5 @@
 ---
-title: 통신 준수 (미리 보기)
+title: 커뮤니케이션 규정 준수
 description: Microsoft 365의 통신 준수에 대 한 자세한 정보
 f1.keywords:
 - NOCSH
@@ -18,14 +18,14 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 8aa7beeea621ccbb0014059766fe217c1a25e2a2
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 3dabe35b753e38ab51801c6f2bd51cc5ee588e9a
+ms.sourcegitcommit: 2913fd74ad5086c7cac6388447285be9aa5a8e44
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595815"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "41661944"
 ---
-# <a name="communication-compliance-in-microsoft-365-preview"></a>Microsoft 365의 통신 준수 (미리 보기)
+# <a name="communication-compliance-in-microsoft-365"></a>Microsoft 365의 통신 준수
 
 통신 준수는 조직의 부적절 한 메시지에 대해 검색, 캡처 및 수정 작업을 수행 하 여 통신 위험을 최소화 하는 데 도움이 되는 Microsoft 365의 새로운 참가자 위험 솔루션 집합의 일부입니다. 미리 정의 된 정책 및 사용자 지정 정책을 사용 하면 정책 일치에 대 한 내부 및 외부 통신을 검색 하 여 지정한 검토자가 검사할 수 있습니다. 검토자는 조직에서 검사 된 전자 메일, Microsoft 팀 또는 타사 통신을 조사 하 고 적절 한 교정 작업을 수행 하 여 조직의 메시지 표준을 준수 하도록 할 수 있습니다.
 
@@ -114,8 +114,8 @@ Microsoft 365의 통신 준수에 대 한 준수 문제를 파악 하 고 해결
 
 이 워크플로 단계에서는 준수 요구 사항을 식별 하 고 적용 가능한 통신 준수 정책을 구성 합니다. 정책 서식 파일은 새 규정 준수 정책을 빠르게 구성할 수 있을 뿐만 아니라, 요구 사항이 변경 됨에 따라 신속 하 게 정책을 수정 하 고 업데이트 하는 것도 좋은 방법입니다. 예를 들어 조직의 모든 사용자에 대 한 정책을 구성 하기 전에 소규모 사용자 그룹의 통신에 대 한 정책을 신속 하 게 테스트할 수 있습니다.
 
-> [!Important]
-> 기본적으로 전역 관리자는 통신 준수 기능에 액세스할 수 없습니다. 통신 준수 기능에 대 한 사용 권한을 사용 하도록 설정 하려면 [조직에서 통신 준수를 사용할 수 있도록 설정을](communication-compliance-configure.md#step-2-make-communication-compliance-available-in-your-organization-required)참조 하십시오.
+>[!Important]
+>기본적으로 전역 관리자는 통신 준수 기능에 액세스할 수 없습니다. 통신 준수 기능에 대 한 사용 권한을 사용 하도록 설정 하려면 [조직에서 통신 준수를 사용할 수 있도록 설정을](communication-compliance-configure.md#step-1-required-enable-permissions-for-communication-compliance)참조 하십시오.
 
 Microsoft 365 준수 센터에서 다음 정책 서식 파일 중에서 선택할 수 있습니다.
 
@@ -143,6 +143,7 @@ Microsoft 365 준수 센터에서 다음 정책 서식 파일 중에서 선택�
 - **사용자에 게 알림**: 사용자가 실수로 또는 실수로 통신 준수 정책을 위반 하는 경우가 많습니다. Notify 기능을 사용 하 여 사용자에 게 경고 알림을 제공 하 고 문제를 해결할 수 있습니다.
 - **다른 검토자에 게 에스컬레이션**: 문제의 초기 검토자에 게 문제 해결을 돕기 위해 다른 검토자가 입력 해야 하는 경우가 있습니다. 확인 프로세스의 일환으로, 메시지 문제를 조직의 다른 영역에 있는 검토자에 게 쉽게 승격 시킬 수 있습니다.
 - **가양성으로 표시**: 준수 정책의 일치로 잘못 검색 된 메시지가 검토 프로세스를 진행 하는 경우가 있습니다. 이러한 유형의 알림을 가양성으로 표시 하 고 자동으로 문제를 해결할 수 있습니다.
+- **사례 만들기**: 가장 심각한 상황에서는 통신 준수 정보를 조직의 다른 검토자와 공유 해야 할 수 있습니다. 통신 준수는 종단 간 위험 해결을 지원 하기 위해 다른 Microsoft 365 준수 기능과 긴밀 하 게 통합 됩니다. 조사를 위해 사례를 확대 하면 Microsoft 365에서 대/소문자 데이터 및 관리를 고급 eDiscovery로 전송할 수 있습니다. Advanced eDiscovery에서는 조직의 내부 및 외부 조사에 응답 하는 콘텐츠를 보존, 수집, 검토, 분석 및 내보낼 수 있는 종단 간 워크플로를 제공 합니다. 이를 통해 법률 팀이 전체 법률 보존 알림 워크플로를 관리할 수 있습니다. 고급 eDiscovery 사례에 대 한 자세한 내용은 [Microsoft 365의 고급 Ediscovery 개요](overview-ediscovery-20.md)를 참조 하세요.
 
 ### <a name="monitor"></a>모니터링
 

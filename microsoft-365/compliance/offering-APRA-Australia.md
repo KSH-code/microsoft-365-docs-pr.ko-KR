@@ -14,28 +14,34 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 27f521a992bcc0a8d4dd7369d0a3110d502c3134
-ms.sourcegitcommit: a6686a68b068adec29b72f998ac9bc95992981df
+ms.openlocfilehash: 568a078c18ead86ddbf3e92cfec3bfc7367595e2
+ms.sourcegitcommit: 2913fd74ad5086c7cac6388447285be9aa5a8e44
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "41627964"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "41662044"
 ---
 # <a name="australian-prudential-regulation-authority-apra"></a>APRA (오스트레일리아 Prudential 규정 기관)
 
 ## <a name="apra-overview"></a>APRA 개요
 
-오스트레일리아의 APRA ( [오스트레일리아 Prudential 규정 기관](https://www.apra.gov.au/) ) oversees 은행, 신용 공용 구조체, 보험 회사 및 기타 금융 서비스 기관 클라우드 컴퓨팅에 대 한 momentum를 인식 하 고 APRA에서는 통제 된 엔터티에서 효율적인 거 버 넌 스, 철저 한 위험 평가 및 일반 보증 프로세스를 통해 사전에 평가 된 클라우드 채택 전략을 구현 하기 위해 호출 했습니다. 규제 기관은 자재 비즈니스 활동을 아웃소싱 할 때 APRA [Prudential STANDARD CPS 231 아웃소싱](https://www.apra.gov.au/sites/default/files/Prudential-Standard-CPS-231-Outsourcing-%28July-2017%29.pdf) 을 준수 해야 하며, 이러한 활동을 중단 하는 경우 해당 금융 기관의 비즈니스 작업에 큰 영향을 줄 수 있으며 위험을 효과적으로 관리 하는 데 도움이 됩니다. APRA에 제출 된 클라우드 컴퓨팅 서비스를 포함 하는 아웃소싱 제품을 검토 하 고, 클라우드를 비롯 한 구체적인 클라우드 [컴퓨팅 서비스를 아웃소싱](https://www.apra.gov.au/sites/default/files/information_paper_-_outsourcing_involving_cloud_computing_services.pdf) 하 여 엔터티를 보다 효율적으로 평가 하 고 클라우드로의 아웃소싱 관련 문제에 대해 설명 합니다.  클라우드 서비스를 포함 하 여 아웃소싱을 수행 하는 경우 규정 된 기관은 APRA [Prudential STANDARD CPS 234 정보 보안과](https://www.legislation.gov.au/Details/F2018L01745)함께 지속적인 준수를 검토 하 고 고려해 야 합니다.
+오스트레일리아의 APRA ( [오스트레일리아 Prudential 규정 기관](https://www.apra.gov.au/) ) oversees 은행, 신용 공용 구조체, 보험 회사 및 기타 금융 서비스 기관 클라우드 컴퓨팅에 대 한 momentum를 인식 하 고 APRA에서는 통제 된 엔터티에서 효율적인 거 버 넌 스, 철저 한 위험 평가 및 일반 보증 프로세스를 통해 사전에 평가 된 클라우드 채택 전략을 구현 하기 위해 호출 했습니다. 규제 기관은 자재 비즈니스 활동을 아웃소싱 할 때 APRA [Prudential STANDARD CPS 231 아웃소싱](https://www.apra.gov.au/sites/default/files/Prudential-Standard-CPS-231-Outsourcing-%28July-2017%29.pdf) 을 준수 해야 하며, 이러한 활동을 중단 하는 경우 해당 금융 기관의 비즈니스 작업에 큰 영향을 줄 수 있으며 위험을 효과적으로 관리 하는 데 도움이 됩니다. APRA에 제출 된 클라우드 컴퓨팅 서비스를 포함 하는 아웃소싱 제품을 검토 하 고, 해당 정보에 대 한 구체적인 지침을 게시 하 여 엔터티를 보다 효율적으로 평가 하 고 클라우드에 대 한 아웃소싱 관련 문제를 안내 하는 [클라우드 컴퓨팅 서비스](https://www.apra.gov.au/sites/default/files/information_paper_-_outsourcing_involving_cloud_computing_services.pdf) 를 제공 합니다.  클라우드 서비스를 포함 하 여 아웃소싱을 수행 하는 경우 규정 된 기관은 APRA [Prudential STANDARD CPS 234 정보 보안과](https://www.legislation.gov.au/Details/F2018L01745)함께 지속적인 준수를 검토 하 고 고려해 야 합니다.
 
 ## <a name="microsoft-and-apra"></a>Microsoft 및 APRA
 
-클라우드의 금융 기관에서 클라우드 공급자와 해당 서비스를 평가 하는 경우 microsoft는 [APRA Information Paper For cloud](https://aka.ms/navigatecloudaustralia) 및 [microsoft 클라우드 services: 오스트레일리아의 금융 기관에 대 한 준수 검사 목록](https://www.microsoft.com/cms/api/am/binary/RE3ez0C)에 대 한 microsoft의 응답을 게시 했습니다. 또한 재무 기업이 APRA (오스트레일리아 Prudential 규정 기관) 규정 및 지침을 준수 한다는 확신을 사용 하 여 Microsoft Azure로 데이터 및 작업을 이동할 수 있는 방법을 보여 줍니다.
+클라우드 공급자와 해당 서비스를 평가 하는 오스트레일리아의 금융 기관에 대해 Microsoft가 게시 되었습니다.
 
-Azure의 APRA 규격 금융 서비스의 장점에 대해 알아봅니다. [Fintech: 정품 및 Microsoft transform The Regtech는 다음을 참조](https://news.microsoft.com/en-au/features/regtech-meets-fintech-perpetual-microsoft-transform-finance-sector/) 하세요.
+- [클라우드의 APRA 정보 용지에 대 한 Microsoft 응답](https://aka.ms/navigatecloudaustralia) 
+- [Microsoft 클라우드 서비스: 오스트레일리아의 금융 기관에 대 한 준수 검사 목록](https://www.microsoft.com/cms/api/am/binary/RE3ez0C)
+- [Microsoft 클라우드 서비스: APRA Prudential Standard CPS 234 준수](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE2OsZg)
+
+또한 재무 기업이 APRA (오스트레일리아 Prudential 규정 기관) 규정 및 지침을 준수 한다는 확신을 사용 하 여 Microsoft Azure로 데이터 및 작업을 이동할 수 있는 방법을 보여 줍니다.
+
+Azure에서 APRA 규격 재무 서비스의 이점을 알아보려면 [Fintech: 정품 및 Microsoft transform the 금융 부문](https://news.microsoft.com/en-au/features/regtech-meets-fintech-perpetual-microsoft-transform-finance-sector/) 문서를 참조 하세요.
 
 ## <a name="microsoft-response-to-the-apra-information-paper-on-cloud"></a>클라우드의 APRA 정보 용지에 대 한 Microsoft 응답
 
-이 Microsoft 백서에서는 [클라우드 컴퓨팅 서비스를 아웃소싱](https://www.apra.gov.au/sites/default/files/information_paper_-_outsourcing_involving_cloud_computing_services.pdf)하 여 APRA 정보 문서에 발생 한 각 문제에 대 한 자세한 응답과 함께 금융 서비스에 대 한 자세한 지침을 제공 합니다. APRA 지침은 일반적으로 클라우드 사용이 감소 하 고, 높은 수준 이며, 심각 하 게 영향을 주는 세 가지 위험 범주를 확인 하 고, 규정 된 엔터티가 위험 평가의 일환으로 고려해 야 하는 주요 문제를 강조 합니다.
+이 Microsoft 백서에서는 [클라우드 컴퓨팅 서비스](https://www.apra.gov.au/sites/default/files/information_paper_-_outsourcing_involving_cloud_computing_services.pdf)를 사용 하는 APRA Information paper 아웃소싱에서 발생 하는 각 문제에 대 한 자세한 응답과 함께 금융 서비스에 대 한 자세한 지침을 제공 합니다. APRA 지침은 일반적으로 클라우드 사용이 감소 하 고, 높은 수준 이며, 심각 하 게 영향을 주는 세 가지 위험 범주를 확인 하 고, 규정 된 엔터티가 위험 평가의 일환으로 고려해 야 하는 주요 문제를 강조 합니다.
 
 Microsoft response는 가장 높은 두 가지 위험 범주에 대해 중점적으로 설명 합니다. 클라우드 서비스가 위험 범주에 의해 금지 되지 않은 경우 APRA는 commensurately의 주의를 예측 하 고 위험 범주를 이동할 때 더 높은 수준의 APRA 확인을 기대할 것으로 예상 하 고 있습니다. APRA에는 일반적으로 클라우드 아웃소싱에 대 한 높은 또는 최대 내재 된 위험을 나타내는 요인 범위가 나열 됩니다. Microsoft는 이러한 각 요인에 대해 자세히 설명 하 고 Azure로 데이터 및 작업 부하를 이동할 위험을 평가 하 고 관리 하는 데 도움이 되는 정보와 도구를 제공 합니다.
 
@@ -62,13 +68,13 @@ CPS 234 핵심 Microsoft 보안 프레임 워크 (보호, 감지 및 응답)를 
 
 클라우드의 위험 보증에 광범위 한 접근 방식을 사용 하 여 오스트레일리아 금융 서비스 조직은 APRA 지침과 일관성을 유지 하는 방식으로 Microsoft 클라우드 서비스로 이동 하 고, 고객에 게 다음을 제공할 수 있습니다. 온-프레미스 또는 다른 호스팅된 솔루션 보다 고급 보안 위험 관리 프로필입니다.
 
-APRA 규정 준수에서 데이터 및 작업 부하를 Azure로 이동 하기 위한 실질적인 지원을 제공 합니다. [Microsoft 클라우드 서비스: 오스트레일리아의 금융 기관에 대 한 준수 검사 목록](https://www.microsoft.com/cms/api/am/binary/RE3ez0C)(영문)을 다운로드 하세요.
+APRA 규정 준수에서 데이터 및 작업 부하를 Azure로 이동 하기 위한 실질적인 지원을 받을 수 있습니다. [Microsoft 클라우드 서비스: 오스트레일리아의 금융 기관에 대 한 준수 검사 목록](https://www.microsoft.com/cms/api/am/binary/RE3ez0C)
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 범위 내 클라우드 서비스
 
 - [Azure](https://aka.ms/AzureCompliance)
-- Intune
 - [Office 365](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
+- Dynamics 365
 
 ## <a name="frequently-asked-questions"></a>자주하는 질문
 
@@ -76,7 +82,7 @@ APRA 규정 준수에서 데이터 및 작업 부하를 Azure로 이동 하기 �
 
 아니요. 그러나 대부분의 규제 된 금융 조직은 APRA에 게 의견을 입력 한 후에는 APRA를 사용 하 여 오스트레일리아 내에 자재 비즈니스 활동을 아웃소싱 하거나, 해당 활동을 호주 외부에서 아웃소싱 하기 전에이를 알려야
 
-또한 클라우드 서비스가 APRA [information paper](https://www.apra.gov.au/sites/default/files/information_paper_-_outsourcing_involving_cloud_computing_services.pdf)에 설명 된 대로 "보다 높은 내재 된 위험"을 전달 하는 것으로 간주 되는 경우에는 금융 기관은 서비스를 APRA에 제공 하는 것이 좋습니다 (필수 아님).
+또한 클라우드 서비스가 [클라우드의 APRA Information Paper](https://www.apra.gov.au/sites/default/files/information_paper_-_outsourcing_involving_cloud_computing_services.pdf)에 설명 된 대로 "보다 높은 내재 된 위험"을 전달 하는 것으로 간주 되는 경우에는 금융 기관은 서비스를 APRA에 제공 하는 것이 좋습니다 (필수 아님).
 
 **오스트레일리아 외부의 데이터 전송은 허용 됩니까?**
 
@@ -84,10 +90,10 @@ APRA 규정 준수에서 데이터 및 작업 부하를 Azure로 이동 하기 �
 
 ## <a name="resources"></a>리소스
 
-- [Prudential Standard CPS 231 아웃소싱](https://www.apra.gov.au/sites/default/files/Prudential-Standard-CPS-231-Outsourcing-%28July-2017%29.pdf)
-- [클라우드 컴퓨팅 서비스를 사용한 아웃소싱](https://www.apra.gov.au/sites/default/files/information_paper_-_outsourcing_involving_cloud_computing_services.pdf)
-- [Prudential Standard CPS 234 정보 보안](https://www.legislation.gov.au/Details/F2018L01745)
 - [오스트레일리아 Prudential 규정 기관](https://www.apra.gov.au/)
+- [클라우드 컴퓨팅 서비스를 포함 하는 APRA Information Paper 아웃소싱](https://www.apra.gov.au/sites/default/files/information_paper_-_outsourcing_involving_cloud_computing_services.pdf)
+- [Prudential Standard CPS 231 아웃소싱](https://www.apra.gov.au/sites/default/files/Prudential-Standard-CPS-231-Outsourcing-%28July-2017%29.pdf)
+- [Prudential Standard CPS 234 정보 보안](https://www.legislation.gov.au/Details/F2018L01745)
 - [클라우드의 APRA 정보 용지에 대 한 Microsoft 응답](https://aka.ms/navigatecloudaustralia)
 - [Microsoft 클라우드 서비스: 오스트레일리아의 금융 기관에 대 한 준수 검사 목록](https://www.microsoft.com/cms/api/am/binary/RE3ez0C)
 - [Microsoft 클라우드 서비스: APRA Prudential Standard CPS 234 준수](https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE2OsZg)

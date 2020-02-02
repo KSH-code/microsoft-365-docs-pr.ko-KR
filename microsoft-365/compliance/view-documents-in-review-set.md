@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: ''
-ms.openlocfilehash: aa61c9c2fd79625249384f12a2545f976fdae538
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: cde55f9dd3a1a9aacc48ba816cd0ef00472dad56
+ms.sourcegitcommit: 2913fd74ad5086c7cac6388447285be9aa5a8e44
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601245"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "41661744"
 ---
 # <a name="view-documents-in-a-review-set"></a>검토 집합에서 문서 보기
 
@@ -87,3 +87,6 @@ ms.locfileid: "41601245"
     
     ![주석 달기 보기
     ](media/Reviewimage1.png)
+
+## <a name="dashboard-view"></a>대시보드 보기 
+대시보드 보기를 사용 하 여 검색 결과 표의 데이터를 시각화 하 고 요약할 수 있습니다. 이 보기에서는 사용자 지정 위젯을 만들어 검토 집합에 대 한 분석 및 보고 기능을 직관적이 고 간편 하 게 수행할 수 있습니다. Widget을 만든 후에는 이러한 위젯을 상호 작용 하 여 항목 수를 가져오거나 검색을 만들 수 있습니다. 

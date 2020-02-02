@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 365에서 콘텐츠를 보존 하는 보존 레이블을 만들 때 보존 기간이 끝나면 처리 검토를 트리거하도록 선택할 수 있습니다.
-ms.openlocfilehash: 8dafaf45df0d681880ef513c9feab6b833c99cb8
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 267b2bc7a8bc65e3a816c2d3d88397589734b55d
+ms.sourcegitcommit: 2913fd74ad5086c7cac6388447285be9aa5a8e44
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595233"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "41661934"
 ---
 # <a name="overview-of-disposition-reviews"></a>처리 검토 개요
 
@@ -128,7 +128,7 @@ Microsoft 365 준수 센터, Microsoft 365 보안 센터 또는 Office 365 보�
   
 - **보류 중인 처리** 에는 보존 기간 끝에 도달 하 여 처리 검토가 필요한 항목이 표시 됩니다. 각 항목을 검토 한 후에 다른 보존 레이블을 적용할지 여부를 결정 하거나, 보존 기간을 연장 하거나, 영구적으로 삭제 합니다. 여러 항목을 선택할 수 있습니다.
     
-- **삭제 된 항목** 탭에는 dispositions가 처리 검토 중에 삭제를 승인 했으며 이제 영구적으로 삭제 되거나 지금까지 삭제 된 레코드로 표시 되는 항목이 표시 됩니다. 다른 보존 레이블이 적용 된 항목이 나 검토 중에 확장 한 보존 기간은 여기에 표시 되지 않습니다.
+- **삭제 된 항목** 탭에는 이미 처리 검토를 수행한 후에 영구 지운 항목이 표시 됩니다. 여기에는 위의 섹션에 나와 있는 것 처럼 영구 삭제 프로세스가 며칠 정도 걸릴 수 있으므로 여기에 표시 됩니다. 다른 보존 레이블이 적용 되거나 검토의 일부로 보존 기간이 확장 된 항목은 여기에 표시 되지 않습니다.
 
 ![처리 탭](media/Retention-Disposition-tabs.png)
     

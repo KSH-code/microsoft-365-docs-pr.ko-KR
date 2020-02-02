@@ -1,5 +1,5 @@
 ---
-title: 통신 준수 기능 참조 (미리 보기)
+title: 통신 준수 기능 참조
 description: Microsoft 365의 통신 준수에 대 한 기능 참조입니다. 각 기능 구성 요소의 세부 정보와 사양에 대해 알아봅니다.
 f1.keywords:
 - NOCSH
@@ -18,14 +18,14 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: b844003b2cf0da80588d9fe2622c3353a57d73b4
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: ff765d309e3f01dbc1c2ef7fa75ed3287c8a5c0a
+ms.sourcegitcommit: 2913fd74ad5086c7cac6388447285be9aa5a8e44
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595835"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "41661964"
 ---
-# <a name="communication-compliance-feature-reference-preview"></a>통신 준수 기능 참조 (미리 보기)
+# <a name="communication-compliance-feature-reference"></a>통신 준수 기능 참조
 
 ## <a name="policies"></a>정책도
 
@@ -67,14 +67,14 @@ Microsoft 365 준수 센터에서 Microsoft 365 조 직에 대 한 통신 준수
 
 - **Microsoft 팀**: 채팅 통신 및 공개 및 개인 Microsoft 팀 채널과 개별 채팅 모두에 연결 된 첨부 파일을 검색할 수 있습니다. 팀 대화방 일치 통신 준수 정책 조건은 24 시간 마다 한 번 처리 된 다음 통신 준수 보고서에서 사용할 수 있습니다. 다음 그룹 관리 구성을 사용 하 여 팀에서 개별 사용자 채팅 및 채널 통신을 감독할 수 있습니다.
 
-    - **팀 채팅 통신의 경우:** 개별 사용자를 할당 하거나 [메일 그룹](https://support.office.com/article/Distribution-groups-E8BA58A8-FAB2-4AAF-8AA1-2A304052D2DE) 을 통신 준수 정책에 할당 합니다. 이는 일대일 또는 일대다 사용자/채팅 관계에 대 한 것입니다.
+    - **팀 채팅 통신의 경우:** 개별 사용자를 할당 하거나 [메일 그룹](https://support.office.com/article/Distribution-groups-E8BA58A8-FAB2-4AAF-8AA1-2A304052D2DE) 을 통신 준수 정책에 할당 합니다. 이 설정은 일대일 또는 일대다 사용자/채팅 관계에 대 한 것입니다.
     - **팀 채널 통신의 경우:** 검색 하려는 모든 Microsoft 팀 채널 또는 Office 365 그룹에 특정 사용자가 포함 된 통신 준수 정책에 할당 합니다. 다른 Microsoft 팀 채널 또는 Office 365 그룹에 동일한 사용자를 추가 하는 경우 이러한 새 채널과 그룹을 통신 준수 정책에 추가 해야 합니다.
 
 - **Exchange 전자 메일**: Microsoft 365 또는 Office 365 구독의 일부로 exchange Online에서 호스트 되는 사서함은 모두 메시지를 검색 하는 데 적합 합니다. 통신 준수 정책 조건과 일치 하는 전자 메일 및 첨부 파일은 통신 준수 보고서에서 즉시 사용할 수 있습니다. 통신 준수를 위해 지원 되는 첨부 파일 유형은 [Exchange 메일 흐름 규칙 콘텐츠 검사에 대해 지원 되는 파일 형식과](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/inspect-message-attachments#supported-file-types-for-mail-flow-rule-content-inspection)동일 합니다.
 
 - 비즈니스용 **Skype online**: 비즈니스용 skype online의 채팅 통신 및 관련 첨부 파일을 감독 합니다. 비즈니스용 Skype 온라인 대화방 일치 통신 준수 정책 조건은 24 시간 마다 한 번 처리 된 후 통신 준수 보고서에서 사용할 수 있습니다. 감독 채팅 대화는 [비즈니스용 Skype Online에 저장 된 이전 대화](https://support.office.com/article/Find-a-previous-Skype-for-Business-conversation-18892eba-5f18-4281-8c87-fd48bd72e6a2)에서 원본으로 합니다.  비즈니스용 Skype Online에서 사용자 채팅 통신을 감독할 다음 그룹 관리 구성을 사용 합니다.
 
-    - **비즈니스용 Skype 온라인 채팅 통신**: 개별 사용자를 할당 하거나 통신 준수 정책에 [메일 그룹](https://support.office.com/article/Distribution-groups-E8BA58A8-FAB2-4AAF-8AA1-2A304052D2DE) 을 할당 합니다. 이는 일대일 또는 일대다 사용자/채팅 관계에 대 한 것입니다.
+    - **비즈니스용 Skype 온라인 채팅 통신**: 개별 사용자를 할당 하거나 통신 준수 정책에 [메일 그룹](https://support.office.com/article/Distribution-groups-E8BA58A8-FAB2-4AAF-8AA1-2A304052D2DE) 을 할당 합니다. 이 설정은 일대일 또는 일대다 사용자/채팅 관계에 대 한 것입니다.
 
 - 타사 **원본**: Microsoft 365 조직의 사서함으로 가져온 데이터에 대 한 타사 원본의 통신을 검색할 수 있습니다. 커넥터는 다음과 같은 타사 리소스를 지원 합니다.
 
@@ -85,13 +85,13 @@ Microsoft 365 준수 센터에서 Microsoft 365 조 직에 대 한 통신 준수
     - [Twitter](archive-twitter-data-with-sample-connector.md)
     - [사용자 지정 데이터 커넥터](archiving-third-party-data.md)
 
-통신 준수 정책에 커넥터를 할당 하려면 먼저 Microsoft 365 조 직에 대 한 타사 커넥터를 구성 해야 합니다. 통신 준수 정책 마법사의 제 **3 자 원본** 에는 현재 구성 된 타사 커넥터도 표시 됩니다.
+통신 준수 정책에 커넥터를 할당 하려면 먼저 Microsoft 365 조 직에 대 한 타사 커넥터를 구성 해야 합니다. 통신 준수 정책 마법사의 제 **3 자 원본** 섹션에는 현재 구성 된 타사 커넥터도 표시 됩니다.
 
 ## <a name="transitioning-from-supervision-in-office-365"></a>Office 365의 감독에서 전환
 
 Office 365에서 감독 정책을 사용 하 고 Microsoft 365의 통신 준수 정책 전환에 대 한 계획을 세우는 조직은 다음 중요 사항을 이해 해야 합니다.
 
-- 두 솔루션 모두 조직에서 side-by-side 방식으로 사용 될 수 있지만 각 솔루션에 사용 되는 정책에는 고유한 정책 이름이 있어야 합니다. 그룹 및 사용자 지정 키워드 사전은 전환 기간 동안 솔루션 간에 공유할 수 있습니다.
+- 두 솔루션을 모두 조직에서 함께 사용할 수 있지만 각 솔루션에 사용 되는 정책에는 고유한 정책 이름이 있어야 합니다. 그룹 및 사용자 지정 키워드 사전은 전환 기간 동안 솔루션 간에 공유할 수 있습니다.
 - Office 365의 감독에 저장 된 메시지는 Microsoft 365의 통신 준수로 이동 하거나 공유할 수 없습니다.
 - Office 365의 감독 솔루션은 Microsoft 365의 통신 준수 솔루션으로 완전히 교체 됩니다. 새 조사 및 개선 관리 기능을 사용 하기 위해 기존 감독 정책과 동일한 설정을 갖는 통신 준수에서 새 정책을 만드는 것이 좋습니다. Microsoft 365의 통신 준수로 전환할 때 내부 준수 보존 정책 요구 사항이 있는 경우 Office 365의 보고 데이터를 내보내야 합니다.
 
@@ -223,7 +223,7 @@ Microsoft 365의 분류자에 대 한 자세한 내용은 [분류자](classifier
 | **File 클래스** | 메시지 유형, *메시지* 또는 *첨부 파일*중 하나를 기준으로 메시지의 클래스입니다. |
 | **첨부 파일 있음** | 메시지에 있는 첨부 파일의 현재 상태입니다. |
 | **Item 클래스** | 메시지 유형, 전자 메일, Microsoft 팀 채팅, Bloonmberg 등을 기준으로 메시지 원본입니다. |
-| **받는 사람 도메인** | 메시지를 보낸 도메인입니다. 기본적으로 Microsoft 365 구독 도메인입니다. |
+| **받는 사람 도메인** | 메시지를 보낸 도메인입니다. 이 도메인은 대개 기본적으로 Microsoft 365 구독 도메인입니다. |
 | **받는 사람** | 메시지를 보낸 사용자입니다. |
 | **보낸 사람** | 메시지를 보낸 사람입니다. |
 | **보낸 사람 도메인** | 메시지를 보낸 도메인입니다. |
@@ -270,19 +270,19 @@ Office 365 보안 & 준수 센터의 **경고 정책** 페이지에서 활동 �
 
 ## <a name="audit"></a>감사
 
-경우에 따라 규정 또는 준수 감사자에 정보를 제공 하 여 직원 활동 및 통신에 대 한 감독을 증명 해야 합니다. 이는 정의 된 조직 정책과 관련 된 모든 작업 또는 통신 준수 정책이 변경 될 때마다 요약 된 것일 수 있습니다. 통신 준수 정책에는 내부 또는 외부 감사의 전체 준비에 대 한 감사 기록이 기본적으로 제공 됩니다. 모든 만들기, 편집 및 삭제 작업에 대 한 자세한 감사 기록이 관리 절차를 제공 하기 위해 통신 정책에 따라 캡처됩니다.
+경우에 따라 규정 또는 준수 감사자에 정보를 제공 하 여 직원 활동 및 통신에 대 한 감독을 증명 해야 합니다. 이 정보는 정의 된 조직 정책과 관련 된 모든 작업 또는 통신 준수 정책이 변경 될 때마다 요약 된 것일 수 있습니다. 통신 준수 정책에는 내부 또는 외부 감사의 전체 준비에 대 한 감사 기록이 기본적으로 제공 됩니다. 모든 만들기, 편집 및 삭제 작업에 대 한 자세한 감사 기록이 관리 절차를 제공 하기 위해 통신 정책에 따라 캡처됩니다.
 
 >[!Important]
->조직에서 통신 준수 이벤트를 기록 하기 전에 감사를 사용 하도록 설정 해야 합니다. 감사를 사용 하도록 설정 하려면 [통신 준수 정책에 대 한 감사 사용](communication-compliance-configure.md#step-6-enable-auditing-for-your-communication-compliance-policies-optional)을 참조 하십시오.
+>조직에서 통신 준수 이벤트를 기록 하기 전에 감사를 사용 하도록 설정 해야 합니다. 감사를 사용 하도록 설정 하려면 [통신 준수 정책에 대 한 감사 사용](communication-compliance-configure.md#step-6-optional-enable-auditing-for-your-communication-compliance-policies)을 참조 하십시오.
 
-통신 준수 정책 활동을 보려면 정책에 대 한 기본 페이지에서 **검토 작업 내보내기** 컨트롤을 선택 합니다. 이렇게 하면 .csv 형식의 감사 파일이 다음 정보를 포함 하 여 생성 됩니다.
+통신 준수 정책 활동을 보려면 정책에 대 한 기본 페이지에서 **검토 작업 내보내기** 컨트롤을 선택 합니다. 이 동작은 다음 정보를 포함 하는 .csv 형식으로 감사 파일을 생성 합니다.
 
 |**필드**|**세부 정보**|
 |:-----|:-----|
-| **CreationDate** | 작업이 정책에서 수행 된 시간입니다. |
+| **CreationDate** | 정책에서 활동을 수행한 날짜입니다. |
 | **UserIds** | 정책에서 활동을 수행한 사용자입니다. |
 | **작업** | 정책에 대해 수행 된 작업입니다. |
-| **AuditData** | 모든 정책 작업에 대 한 기본 데이터 원본 필드입니다. 모든 활동은 쉼표 구분 기호로 기록 되 고 구분 됩니다. |
+| **AuditData** | 이 필드는 모든 정책 활동의 기본 데이터 원본입니다. 모든 활동은 쉼표 구분 기호로 기록 되 고 구분 됩니다. |
 
 통합 된 감사 로그 또는 [Search-unifiedauditlog](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-audit/search-unifiedauditlog) PowerShell cmdlet을 사용 하 여 감사 작업을 볼 수도 있습니다.
 

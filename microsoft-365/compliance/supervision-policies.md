@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 titleSuffix: Office 365 Compliance
-ms.openlocfilehash: 2e060ab7c404ccf3538a8b250cbd03429c6e2a4d
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: a57fd1f1e079424f1494acc4b8944534c30359b2
+ms.sourcegitcommit: 2913fd74ad5086c7cac6388447285be9aa5a8e44
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597395"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "41661876"
 ---
 # <a name="supervision-policies-in-office-365"></a>Office 365에서의 감독 정책
 
@@ -48,9 +48,10 @@ Microsoft 365에서 새 통신 준수 환경을 사용해 원하십니까? [Micr
 
 Office 365에서 감독 정책을 사용 하 고 [Microsoft 365의 통신 준수 정책](communication-compliance.md) 전환에 대 한 계획을 세우는 조직은 다음 중요 사항을 이해 해야 합니다.
 
-- 두 솔루션 모두 조직에서 side-by-side 방식으로 사용 될 수 있지만 각 솔루션에 사용 되는 정책에는 고유한 정책 이름이 있어야 합니다. 그룹 및 사용자 지정 키워드 사전은 전환 기간 동안 솔루션 간에 공유할 수 있습니다.
+- Office 365의 감독 솔루션은 Microsoft 365의 통신 준수 솔루션으로 완전히 교체 됩니다. 조직에서 감독 정책의 통신 준수로 전환 하는 경우 새로운 조사 및 개선 방안 개선을 위해 기존 감독 정책과 동일한 *조건* 에 해당 하는 새로운 정책을 통신 준수로 만드는 것이 좋습니다. Microsoft 365의 통신 준수로 전환할 때 내부 준수 보존 정책 요구 사항이 있는 경우 Office 365의 보고 데이터를 내보내야 합니다.
+- 중간에 조직은 완전히 마이그레이션될 때까지 두 솔루션을 모두 함께 사용할 수 있지만 각 솔루션에 사용 되는 정책에는 *고유한 정책 이름이*있어야 합니다. 그룹 및 사용자 지정 키워드 사전은 전환 기간 동안 솔루션 간에 공유할 수 있습니다.
 - Office 365의 감독에 저장 된 메시지는 Microsoft 365의 통신 준수로 이동 하거나 공유할 수 없습니다.
-- Office 365의 감독 솔루션은 Microsoft 365의 통신 준수 솔루션으로 완전히 교체 됩니다. 새 조사 및 개선 관리 기능을 사용 하기 위해 기존 감독 정책과 동일한 설정을 갖는 통신 준수에서 새 정책을 만드는 것이 좋습니다. Microsoft 365의 통신 준수로 전환할 때 내부 준수 보존 정책 요구 사항이 있는 경우 Office 365의 보고 데이터를 내보내야 합니다.
+
 
 Office 365의 감독 정보에 대 한 자세한 내용은 [Microsoft 365 로드맵](https://www.microsoft.com/microsoft-365/roadmap) 를 참조 하세요.
 

@@ -1,5 +1,5 @@
 ---
-title: 통신 준수 구성 (미리 보기)
+title: 통신 준수 구성
 description: 검토를 위해 직원 통신을 구성 하는 통신 준수 정책을 설정 합니다.
 f1.keywords:
 - NOCSH
@@ -18,75 +18,34 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 24c87b8244b2dc53f58a07784c07231fb1588121
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 9371429caedfe2081331fab1aebbe0e1ec761e81
+ms.sourcegitcommit: 2913fd74ad5086c7cac6388447285be9aa5a8e44
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595845"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "41661974"
 ---
-# <a name="configure-communication-compliance-in-microsoft-365-preview"></a>Microsoft 365에서의 커뮤니케이션 규정 준수 구성(미리 보기)
+# <a name="configure-communication-compliance-in-microsoft-365"></a>Microsoft 365에서 통신 준수 구성
 
-> [!IMPORTANT]
-> 이 항목은 Microsoft 365 구독의 통신 준수 구성에 적용 됩니다. Office 365 구독에 대 한 감독 정책을 구성 하려면 [office 365에 대 한 감독 구성을](supervision-policies.md)참조 하십시오.
+>[!IMPORTANT]
+>이 항목은 Microsoft 365 구독의 통신 준수 구성에 적용 됩니다. Office 365 구독에 대 한 감독 정책을 구성 하려면 [office 365에 대 한 감독 구성을](supervision-policies.md)참조 하십시오.
 
 통신 준수 정책을 사용 하 여 내부 또는 외부 검토자가 검사할 직원 통신을 캡처할 수 있습니다. 통신 준수 정책을 통해 조직의 통신을 모니터링 하는 방법에 대 한 자세한 내용은 [Microsoft 365의 통신 준수 정책을](communication-compliance.md)참조 하세요.
 
-> [!NOTE]
-> 통신 준수 정책에 따라 모니터링 되는 사용자에 게는 Microsoft 365 E5 준수 라이선스, 고급 준수 추가 기능이 포함 된 Office 365 Enterprise E3 라이선스 또는 Office 365 Enterprise E5 구독에 포함 되어 있어야 합니다.
-> 기존 Enterprise E5 요금제가 없고 통신 준수를 시도 하려는 경우 [Office 365 Enterprise e 5의 평가판에 등록할](https://go.microsoft.com/fwlink/p/?LinkID=698279)수 있습니다.
+## <a name="before-you-begin"></a>시작하기 전에
+
+통신 준수를 시작 하기 전에 Microsoft 365 구독을 확인 해야 합니다. 통신 준수 정책에 포함 된 사용자에 게는 Microsoft 365 E5 준수 라이선스, 고급 준수 추가 기능이 포함 된 Office 365 Enterprise E3 라이선스 또는 Microsoft 365 E5 구독에 포함 되어 있어야 합니다.
+
+Microsoft 365 Enterprise E5 요금제가 아직 없는 경우 microsoft 365을 기존 Office 365 구독에 [추가](https://docs.microsoft.com/office365/admin/try-or-buy-microsoft-365) 하거나 Microsoft 365 Enterprise E5 [평가판에 등록할](https://www.microsoft.com/microsoft-365/enterprise) 수 있습니다.
   
-Microsoft 365 조직에서 통신 준수를 설정 및 사용 하려면 다음 단계를 수행 합니다.
-  
-- **1 단계 (옵션)**: [통신 준수를 위한 그룹 설정](#step-1-set-up-groups-for-communication-compliance-optional) 
+다음 단계를 완료 하 여 Microsoft 365 조직에서 통신 준수를 설정 및 사용 합니다.
 
-    통신 준수를 시작 하기 전에 연락이 검토 되 고 검토를 수행 하는 사용자를 결정 합니다. 소수의 사용자만을 시작 하 여 통신 준수의 작동 방식을 확인 하려면 지금은 그룹 설정을 건너뛰어도 됩니다.
+## <a name="step-1-required-enable-permissions-for-communication-compliance"></a>1 단계 (필수 사항): 통신 준수에 대 한 사용 권한 설정
 
-- **2 단계 (필수 사항)**: [조직에서 통신 준수를 사용할 수 있도록 설정](#step-2-make-communication-compliance-available-in-your-organization-required)
+>[!Important]
+>기본적으로 전역 관리자는 통신 준수 기능에 액세스할 수 없습니다. 이 단계에서 할당 된 역할은 통신 준수 기능에 액세스할 수 있으려면 먼저 필요 합니다.
 
-    정책을 설정할 수 있도록 자신을 **관리 검토 관리자** 역할에 추가 합니다. 또한 **관리 검토 관리자**, **사례 관리**, 그리고 정책 일치가 포함 된 메시지에 대해 조사 및 관리 작업을 수행 하는 사용자 또는 그룹에 대 한 **검토** 역할을 사용 하 여 새 그룹을 만들어야 합니다. 이러한 역할이 할당 된 모든 사용자는 Microsoft 365 준수 센터의 **통신 준수** 페이지에 액세스할 수 있습니다. 다시 볼 수 있는 전자 메일이 Exchange Online에서 호스팅되는 경우 각 검토자 [에 게 Exchange online에 대 한 원격 PowerShell 액세스](https://docs.microsoft.com/powershell/exchange/exchange-online/disable-access-to-exchange-online-powershell)권한이 있어야 합니다.
-
-- **3 단계 (필수 사항)**: [통신 준수 정책 설정](#step-3-create-a-communication-compliance-policy-required)
-
-    Microsoft 365 준수 센터에서 통신 준수 정책을 만듭니다. 이러한 정책은 조직에서 검토할 대상이 되는 통신을 정의 하 고 검토를 수행 하는 사람을 지정 합니다. 통신에는 전자 메일, Microsoft 팀, 비즈니스용 Skype 및 타사 플랫폼 통신 (예: Facebook, Twitter 등)이 포함 됩니다.
-
-- **4 단계 (선택 사항)**: [직원 공지 서식 파일 만들기](#step-4-create-employee-notice-templates-optional)
-
-    사용자 지정 공지 서식 파일을 만들어 정책 일치에 대 한 업데이트 관리 옵션으로 직원에 게 전자 메일 알림을 보낼 수 있습니다.
-
-- **5 단계 (선택 사항)**: [통신 준수 정책 테스트](#step-5-test-your-communication-compliance-policy-optional)
-
-    통신 준수 정책을 테스트 하 여 원하는 대로 작동 하는지 확인 합니다. 규정 준수 전략이 표준을 충족 하는지 확인 하는 것이 중요 합니다.
-
-- **6 단계 (선택 사항)**: [통신 준수 정책에 대 한 감사 사용](#step-6-enable-auditing-for-your-communication-compliance-policies-optional)
-
-    조직에 대 한 감사를 사용 하 여 통신 준수 정책에 대 한 관리 활동을 기록 합니다.
-
-## <a name="step-1-set-up-groups-for-communication-compliance-optional"></a>1 단계: 통신 준수를 위한 그룹 설정 (선택 사항)
-
- 통신 준수 정책을 만들 때 통신을 검토 하 고 검토를 수행 하는 사람을 정의 합니다. 정책에서는 전자 메일 주소를 사용 하 여 개인 이나 사용자 그룹을 식별 합니다. 설정을 단순화 하기 위해 통신을 검토 한 사용자에 대 한 그룹을 만들고 해당 통신을 검토할 사용자에 대 한 그룹을 만들 수 있습니다. 그룹을 사용 하는 경우 몇 가지 필요할 수 있습니다. 예를 들어 서로 다른 두 사용자 그룹 간의 통신을 모니터링 하려는 경우 또는 감독 되지 않는 그룹을 지정 하려는 경우
-
-다음 차트를 사용 하 여 조직의 통신 준수 정책에 맞게 그룹을 구성 하는 방법을 확인할 수 있습니다.
-
-| **정책 구성원** | **지원 되는 그룹** | **지원 되지 않는 그룹** |
-|:-----|:-----|:-----|
-|감독 사용자 <br> 감독 되지 않은 사용자 | 메일 그룹 <br> Office 365 그룹 | 동적 메일 그룹 |
-| 가 | 메일 사용 가능 보안 그룹  | 메일 그룹 <br> 동적 메일 그룹 |
-  
-감독 되는 사용자에 대 한 Office 365 그룹을 선택 하면 정책이 공유 Office 365 사서함의 콘텐츠 및 해당 그룹과 연결 된 Microsoft 팀 채널을 모니터링 합니다. 메일 그룹을 선택 하는 경우 정책은 개별 사용자 사서함을 모니터링 합니다.
-
-그룹을 설정 하는 방법에 대 한 자세한 내용은 다음을 참조 하십시오.
-
-- [메일 그룹 만들기 및 관리](https://docs.microsoft.com/Exchange/recipients-in-exchange-online/manage-distribution-groups/manage-distribution-groups)
-- [메일 사용 가능 보안 그룹 관리](https://docs.microsoft.com/Exchange/recipients-in-exchange-online/manage-mail-enabled-security-groups)
-- [Office 365 그룹 개요](https://docs.microsoft.com/office365/admin/create-groups/office-365-groups?view=o365-worldwide)
-
-## <a name="step-2-make-communication-compliance-available-in-your-organization-required"></a>2 단계: 조직에서 통신 준수를 사용할 수 있도록 설정 (필수)
-
-> [!Important]
-> 기본적으로 전역 관리자는 통신 준수 기능에 액세스할 수 없습니다. 이 단계에서 할당 된 역할은 통신 준수 기능에 액세스할 수 있으려면 먼저 필요 합니다.
-
-Microsoft 365 준수 센터에서 **통신 준수** 를 메뉴 옵션으로 사용할 수 있도록 하려면 **관리 검토 관리자** 역할이 할당 되어야 합니다. 또한 정책 일치가 있는 메시지를 조사 하 고 수정 하려면 **관리 검토 관리자**, **사례 관리**및 **검토** 역할을 사용 하 여 검토자를 위한 그룹을 만들어야 합니다.
+Microsoft 365 준수 센터에서 **통신 준수** 를 메뉴 옵션으로 사용할 수 있도록 하려면 **관리 검토 관리자** 역할이 할당 되어야 합니다. **관리 검토 관리자**, **사례 관리**및 **검토** 역할을 사용 하 여 검토자에 대 한 새 역할 그룹을 만들어 정책 일치 항목을 갖는 메시지를 조사 하 고 수정 해야 합니다.
 
 ### <a name="create-a-new-role-group"></a>새 역할 그룹 만들기
 
@@ -108,7 +67,26 @@ Microsoft 365 준수 센터에서 **통신 준수** 를 메뉴 옵션으로 사�
 
 역할 그룹 및 사용 권한에 대 한 자세한 내용은 [준수 센터의 사용 권한을](../security/office-365-security/protect-against-threats.md)참조 하세요.
 
-## <a name="step-3-create-a-communication-compliance-policy-required"></a>3 단계: 통신 준수 정책 만들기 (필수)
+## <a name="step-2-optional-set-up-groups-for-communication-compliance"></a>2 단계 (선택 사항): 통신 준수를 위한 그룹 설정
+
+ 통신 준수 정책을 만들 때 통신을 검토 하 고 검토를 수행 하는 사람을 정의 합니다. 정책에서는 전자 메일 주소를 사용 하 여 개인 이나 사용자 그룹을 식별 합니다. 설정을 단순화 하기 위해 통신을 검토 한 사용자에 대 한 그룹을 만들고 해당 통신을 검토할 사용자에 대 한 그룹을 만들 수 있습니다. 그룹을 사용 하는 경우 몇 가지 필요할 수 있습니다. 예를 들어 서로 다른 두 사용자 그룹 간의 통신을 모니터링 하려는 경우 또는 감독 되지 않는 그룹을 지정 하려는 경우
+
+다음 차트를 사용 하 여 조직의 통신 준수 정책에 맞게 그룹을 구성 하는 방법을 확인할 수 있습니다.
+
+| **정책 구성원** | **지원 되는 그룹** | **지원 되지 않는 그룹** |
+|:-----|:-----|:-----|
+|감독 사용자 <br> 감독 되지 않은 사용자 | 메일 그룹 <br> Office 365 그룹 | 동적 메일 그룹 |
+| 가 | 메일 사용 가능 보안 그룹  | 메일 그룹 <br> 동적 메일 그룹 |
+  
+감독 되는 사용자에 대 한 Office 365 그룹을 선택 하면 정책이 공유 Office 365 사서함의 콘텐츠 및 해당 그룹과 연결 된 Microsoft 팀 채널을 모니터링 합니다. 메일 그룹을 선택 하는 경우 정책은 개별 사용자 사서함을 모니터링 합니다.
+
+그룹을 설정 하는 방법에 대 한 자세한 내용은 다음을 참조 하십시오.
+
+- [메일 그룹 만들기 및 관리](https://docs.microsoft.com/Exchange/recipients-in-exchange-online/manage-distribution-groups/manage-distribution-groups)
+- [메일 사용 가능 보안 그룹 관리](https://docs.microsoft.com/Exchange/recipients-in-exchange-online/manage-mail-enabled-security-groups)
+- [Office 365 그룹 개요](https://docs.microsoft.com/office365/admin/create-groups/office-365-groups?view=o365-worldwide)
+
+## <a name="step-3-required-create-a-communication-compliance-policy"></a>3 단계 (필수 사항): 통신 준수 정책 만들기
   
 1. Microsoft 365 [https://compliance.microsoft.com](https://compliance.microsoft.com) 조직의 관리자 계정에 대 한 자격 증명을 사용 하 여 로그인 합니다.
 
@@ -142,7 +120,7 @@ Microsoft 365 준수 센터에서 **통신 준수** 를 메뉴 옵션으로 사�
 
 6. 정책이 활성화 되는 시기와 캡처할 통신에 대 한 지침과 함께 **정책 만들기** 페이지가 표시 됩니다.
 
-## <a name="step-4-create-employee-notice-templates-optional"></a>4 단계: 직원 공지 서식 파일 만들기 (선택 사항)
+## <a name="step-4-optional-create-employee-notice-templates"></a>4 단계 (선택 사항): 직원 공지 서식 파일 만들기
 
 관련 직원에 게 미리 알림 메시지를 보내 정책 경고에 응답 하는 옵션을 설정 하려면 조직에 공지 서식 파일을 하나 이상 만들어야 합니다. 알림 서식 파일 필드는 경고 업데이트 관리 프로세스의 일부로 전송 되기 전에 편집 가능 하 게 되며 각 통신 준수 정책에 대해 사용자 지정 된 공지 서식 파일을 만드는 것이 좋습니다.
 
@@ -162,7 +140,7 @@ Microsoft 365 준수 센터에서 **통신 준수** 를 메뉴 옵션으로 사�
 
 5. **저장** 을 선택 하 여 알림 서식 파일을 만들고 저장 합니다.
 
-## <a name="step-5-test-your-communication-compliance-policy-optional"></a>5 단계: 통신 준수 정책 테스트 (선택 사항)
+## <a name="step-5-optional-test-your-communication-compliance-policy"></a>5 단계 (선택 사항): 통신 준수 정책 테스트
 
 통신 준수 정책을 만든 후에는 테스트를 통해 정의한 조건이 정책에 의해 적절 하 게 적용 되는지 확인 하는 것이 좋습니다. 또한 통신 준수 정책에 중요 한 정보 유형이 포함 되어 있는 경우 [DLP (데이터 손실 방지) 정책을 테스트할](create-test-tune-dlp-policy.md) 수도 있습니다. 테스트할 통신을 캡처할 수 있도록 정책에 대 한 정품 인증을 제공 해야 합니다.
 
@@ -178,11 +156,10 @@ Microsoft 365 준수 센터에서 **통신 준수** 를 메뉴 옵션으로 사�
 
 4. 업데이트 관리 컨트롤을 사용 하 여 경고를 수정 하 고 경고가 제대로 확인 되는지 확인 합니다.
 
-## <a name="step-6-enable-auditing-for-your-communication-compliance-policies-optional"></a>6 단계: 통신 준수 정책에 대 한 감사 사용 (선택 사항)
+## <a name="step-6-optional-enable-auditing-for-your-communication-compliance-policies"></a>6 단계 (선택 사항): 통신 준수 정책에 대 한 감사 사용
 
-정책을 테스트 한 후에는 통신 준수 관리와 관련 된 활동이 기록 되도록 감사를 사용 하도록 설정할 수 있습니다. 이는 정의 된 조직 정책과 관련 된 모든 작업 또는 통신 준수 정책이 변경 될 때마다 요약 된 것일 수 있습니다.
+정책을 테스트 한 후에는 통신 준수 관리와 관련 된 활동이 기록 되도록 감사를 사용 하도록 설정할 수 있습니다. 이 감사는 정의 된 조직 정책과 관련 된 모든 작업 또는 통신 준수 정책이 변경 될 때마다 요약 된 것일 수 있습니다.
 
 감사를 사용 하도록 설정 하면 통신 준수 정책에 내부 또는 외부 감사에 대 한 전체 준비 상태에 대 한 감사 기록이 기본적으로 제공 됩니다. 감사를 사용 하도록 설정 된 경우 정책에 대 한 기본 페이지의 **검토 작업 내보내기** 컨트롤을 사용 하 여 감사 파일을 생성 하거나 감사 작업을 볼 수 있습니다.
 
-감사를 설정 하려면 Office 365 보안 & 준수 센터의 **감사 로그 검색** 페이지에서 **사용자 및 관리 활동 기록을 시작** 합니다 .를 클릭 합니다. 이 링크가 표시되지 않으면 조직에 대해 감사가 이미 켜져 있는 것입니다. 감사를 설정한 후에는 감사 로그를 준비 중 이며 준비 완료 후 몇 시간 내에 검색을 실행할 수 있음을 알리는 메시지가 표시 됩니다. 이 작업은 한 번만 수행하면 됩니다. 감사 로그에 대 한 자세한 내용은 Search the [audit log](search-the-audit-log-in-security-and-compliance.md)을 참조 하십시오.
-
+감사를 설정 하려면 Office 365 보안 & 준수 센터의 **감사 로그 검색** 페이지에서 **사용자 및 관리자 작업 기록을 시작** 합니다 .를 클릭 합니다. 이 링크가 표시되지 않으면 조직에 대해 감사가 이미 켜져 있는 것입니다. 감사를 설정한 후에는 감사 로그를 준비 중 이며 준비 완료 후 몇 시간 내에 검색을 실행할 수 있음을 알리는 메시지가 표시 됩니다. 이 작업은 한 번만 수행 하면 됩니다. 감사 로그에 대 한 자세한 내용은 Search the [audit log](search-the-audit-log-in-security-and-compliance.md)을 참조 하십시오.

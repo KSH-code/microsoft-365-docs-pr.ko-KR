@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: 이 문서에서는 Microsoft 365의 새로운 고급 eDiscovery 버전에 대해 설명 합니다.
-ms.openlocfilehash: 0057b77b140d05093686029addc29e72e59cae11
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 30b69bbd80799b0f3e32b008ec1d4affc8be6605
+ms.sourcegitcommit: 2913fd74ad5086c7cac6388447285be9aa5a8e44
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601775"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "41662014"
 ---
 # <a name="overview-of-the-advanced-ediscovery-solution-in-microsoft-365"></a>Microsoft 365의 고급 eDiscovery 솔루션 개요
 
@@ -84,8 +84,11 @@ Custodian 및 해당 custodial 데이터 원본을 사례에 추가 하면 custo
 **검토 집합** 탭을 사용 하 여 라이브 시스템에서 수집한 콘텐츠를 검토 하 고 분석 한 후 검토 집합에 추가 했습니다. *검토 집합* 은 해당 데이터의 정적 컬렉션 (즉, 데이터의 오프 라인 복사본)은 eDiscovery 워크플로의 이전 단계에서 수집한 custodial 데이터 (해당 하는 경우에는 custodial 데이터)를 모아 놓은 것입니다. 검색 결과를 검토 집합에 추가 하면 컨테이너에서 파일을 추출 하 고 메타 데이터를 추출 하 고 텍스트를 추출 하는 프로세스가 트리거됩니다. 이 프로세스가 완료 되 면 시스템은 custodians에서 수집한 모든 데이터의 새 인덱스를 작성 하 고이를 검토 집합에 추가 합니다. 데이터를 검토 집합에 추가한 후 쿼리를 더 많이 실행 하 여 사례 데이터의 범위를 좁히거나, 데이터를 텍스트로 보거나 네이티브 파일 형식으로 표시 하 고, 검토 집합에서 문서에 주석을 달고, 교정 하 고, 태그를 지정할 수 있습니다. 문서 중복, 전자 메일 스레딩 및 테마 식별과 같은 고급 분석을 수행할 수도 있습니다. 사례와 관련 된 데이터에만 culled 후에는 문서를 직접 다운로드 하거나 파일 메타 데이터, 주석 및 모든 태그와 함께 내보낼 수 있습니다. 자세한 내용은 다음을 참조하세요.
 
 - [검토 집합에서 문서 보기](view-documents-in-review-set.md)
+
 - [검토 집합에서 데이터 쿼리](review-set-search.md)
+
 - [검토 집합에서 문서 태그 지정](tagging-documents.md)
+
 - [검토 집합의 데이터 분석](analyzing-data-in-review-set.md)
 
 ## <a name="exporting-data-for-review-and-presentation"></a>검토 및 프레젠테이션으로 데이터 내보내기
@@ -99,3 +102,7 @@ Custodian 및 해당 custodial 데이터 원본을 사례에 추가 하면 custo
 ## <a name="configuring-case-settings"></a>사례 설정 구성
 
 **설정** 탭을 사용 하 여 대/소문자 전체의 설정을 구성 합니다. 여기에는 사례에 구성원 추가, 사례 닫기 또는 삭제, 검색 및 분석 설정 구성 등이 포함 됩니다.
+
+## <a name="advanced-ediscovery-reports"></a>고급 eDiscovery 보고서
+
+홈 페이지의 고급 eDiscovery 보고서를 사용 하 여 조직에서 모든 Advanced eDiscovery 사례에 대해 활동 및 상태를 추적 하는 데 도움을 받을 수 있습니다. 고급 eDiscovery 보고서 기능은 사례, custodians, 데이터 원본 및 통신에 대 한 정보를 집계 합니다. 다양 한 조건을 기준으로 보고서 데이터를 필터링 하 고 집계 된 정보를 CSV 파일로 내보내서 추가 분석을 수행할 수 있습니다.  자세한 내용은 [Advanced eDiscovery reports](advanced-ediscovery-reports.md)를 참조 하십시오.
