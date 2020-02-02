@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 민감도 레이블을 사용하여 사용자의 생산성 및 공동 작업 능력이 저하되지 않도록 하면서 중요한 콘텐츠를 분류 및 보호할 수 있습니다. 민감도 레이블을 사용하여 레이블이 지정된 콘텐츠에 암호화 및 워터마크를 포함하는 보호 설정을 적용할 수 있습니다.
-ms.openlocfilehash: 1cf7b47fbb9161b8000f5cfcce0bb36b86d0aa50
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 723bedfc5208da140140ab475be69400d5308061
+ms.sourcegitcommit: 2913fd74ad5086c7cac6388447285be9aa5a8e44
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597525"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "41661994"
 ---
 # <a name="overview-of-sensitivity-labels"></a>민감도 레이블 개요
 
@@ -88,13 +88,13 @@ Office 앱의 경우, 민감도 레이블이 전자 메일 또는 문서에서 �
     
     민감도 레이블을 만들거나 편집할 때 **암호화** 설정에 대한 자세한 내용은 [민감도 레이블에서 암호화를 사용하여 콘텐츠 액세스 제한](encryption-sensitivity-labels.md)을 참조하십시오.
 
-- 레이블이 적용된 전자 메일 또는 문서에 워터마크, 머리글 또는 바닥글을 추가하여 Office 사용 시 **콘텐츠를 표시**합니다. 다음의 예를 참조하십시오.
+- 레이블이 적용된 전자 메일 또는 문서에 워터마크, 머리글 또는 바닥글을 추가하여 Office 사용 시 **콘텐츠를 표시**합니다. 워터마크는 전자 메일이 아닌 문서에만 적용될 수 있습니다. 머리글 및 워터 마크 예제:
     
     ![문서에 적용된 워터마크 및 머리글](media/Sensitivity-label-watermark-header.png)
     
-    콘텐츠 표시가 적용되는 시점에 대한 자세한 내용은 [Office 365가 콘텐츠에 콘텐츠 표시 및 암호화를 적용하는 시점](sensitivity-labels-office-apps.md#when-office-365-applies-content-marking-and-encryption-to-content)을 참조하십시오.
+    콘텐츠 표시가 적용되는 경우를 확인해야 하나요? [Office 365에서 콘텐츠 표시 및 암호화를 콘텐츠에 적용하는 경우](sensitivity-labels-office-apps.md#when-office-365-applies-content-marking-and-encryption-to-content)를 참조하세요.
     
-    민감도 레이블을 만들거나 편집할 때 **콘텐츠 표시** 설정에 대한 자세한 정보: 워터 마크는 전자 메일이 아닌 문서에만 적용되고 255자로 제한됩니다. Excel의 경우를 제외하고 머리글과 바닥글은 1024자로 제한됩니다. Excel에서는 머리글과 바닥글의 총 글자 수가 255자로 제한되지만 이 제한에는 서식 코드처럼 보이지 않는 문자가 포함됩니다. 해당 한도에 도달하면 입력한 문자열이 Excel에 표시되지 않습니다.
+    문자열 길이: 워터 마크는 255자로 제한됩니다. Excel의 경우를 제외하고 머리글과 바닥글은 1024자로 제한됩니다. Excel에서는 머리글과 바닥글의 총 글자 수가 255자로 제한되지만 이 제한에는 서식 코드처럼 보이지 않는 문자가 포함됩니다. 해당 한도에 도달하면 입력한 문자열이 Excel에 표시되지 않습니다.
 
 - Intune에서 끝점 보호를 설정하여 **데이터 손실 방지**. 중요한 콘텐츠를 다운로드되면 Windows 장치에서 데이터가 손실되는 것을 방지하는 데 도움이 될 수 있습니다. 예를 들어, 레이블이 지정된 콘텐츠를 Dropbox, Gmail 또는 USB 드라이브에 복사할 수 없습니다. 민감도 레이블이 WIP(Windows Information Protection)를 사용할 수 있으려면 먼저 Azure portal에서 앱 보호 정책을 만들어야 합니다. 
     

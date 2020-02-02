@@ -1,5 +1,7 @@
 ---
 title: 보안 및 준수 센터에서 감사 로그 검색
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -16,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: '보안 및 준수 센터를 사용하여 통합 감사 로그를 검색해 Office 365 조직의 사용자 및 관리자 활동을 확인합니다. '
-ms.openlocfilehash: 6b73e6bbcd9dfee6e3c04ee5c44283633ffdbac4
-ms.sourcegitcommit: 1db269c0349a252eaf3f315ee72ff679fff829f1
+ms.openlocfilehash: 519fb739290e5a7ea61c8e27a1ef59edb4cac75f
+ms.sourcegitcommit: 2913fd74ad5086c7cac6388447285be9aa5a8e44
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/22/2020
-ms.locfileid: "41265896"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "41662004"
 ---
 # <a name="search-the-audit-log-in-the-security--compliance-center"></a>보안 및 준수 센터에서 감사 로그 검색
 
@@ -122,6 +124,7 @@ Office 365 감사 로그의 검색을 시작하기 전에 반드시 아래 내�
   |Microsoft Project|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
   |Microsoft Stream|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
   |Microsoft Teams|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
+  |Power Apps|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
   |Power BI|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
   |보안 및 준수 센터|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
   |SharePoint Online 및 비즈니스용 OneDrive|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
@@ -335,7 +338,7 @@ Office 365에서 감사 로그를 검색하는 과정은 다음과 같습니다.
 |(없음)|FileModifiedExtended|“파일 수정됨"(FileModified) 활동과 관련이 있습니다. FileModifiedExtended 이벤트는 동일한 사용자가 장시간(최대 3시간) 지속적으로 파일을 수정할 때 기록됩니다. <br/><br/> FileModifiedExtended 이벤트 로깅의 목적은 파일이 지속적으로 수정될 때 기록되는 FileModified 이벤트의 수를 줄이는 것입니다. 이렇게 하면 기본적으로 무엇이 동일한 사용자 활동인지에 대한 여러 FileModified 레코드의 노이즈를 줄일 수 있으며 초기( 및 중요한) FileModified 이벤트에 집중할 수 있습니다.|
 |파일 이동됨|FileMoved|사용자가 사이트의 현재 위치에서 새 위치로 문서를 이동합니다.|
 |(없음)|FilePreviewed|사용자가 SharePoint 또는 비즈니스용 OneDrive 사이트에서 파일을 미리 봅니다. 이러한 이벤트는 일반적으로 이미지 갤러리 보기와 같이 단일 활동을 기반으로 대량으로 발생합니다.|
-|수행한 검색 쿼리|SearchQueryPerformed|사용자 또는 시스템 계정이 SharePoint 또는 비즈니스용 OneDrive에서 검색을 수행합니다. 서비스 계정에서 검색 쿼리를 수행하는 몇 가지 일반적인 시나리오에는 사이트 및 OneDrive 계정에 eDiscovery 보존 또는 보존 정책을 적용하는 것과 보존 혹은 민감도 레이블이 사이트 콘텐츠에 자동으로 적용되는 경우가 포함됩니다. 대부분의 경우 감사 레코드의 사용자 필드에 기록된 서비스 계정의 이름은 **app@sharepoint**입니다. </br></br> **팁**: 수행한 검색 쿼리 활동에 대한 감사 레코드에서 ApplicationDisplayName 및 EventData 필드는 이 이벤트를 트리거한 시나리오 또는 서비스를 식별하는 데 도움이 될 수 있습니다.|
+|수행한 검색 쿼리|SearchQueryPerformed|사용자 또는 시스템 계정이 SharePoint 또는 비즈니스용 OneDrive에서 검색을 수행합니다. 서비스 계정에서 검색 쿼리를 수행하는 몇 가지 일반적인 시나리오에는 사이트 및 OneDrive 계정에 eDiscovery 보존 또는 보존 정책을 적용하는 것과 보존 혹은 민감도 레이블이 사이트 콘텐츠에 자동으로 적용되는 경우가 포함됩니다. 대부분의 경우 감사 레코드의 사용자 필드에 기록된 서비스 계정의 이름은 **app\@sharepoint**입니다. </br></br> **팁**: 수행한 검색 쿼리 활동에 대한 감사 레코드에서 ApplicationDisplayName 및 EventData 필드는 이 이벤트를 트리거한 시나리오 또는 서비스를 식별하는 데 도움이 될 수 있습니다.|
 |파일의 모든 부 버전이 재생됨|FileVersionsAllMinorsRecycled|사용자가 파일의 버전 기록에서 모든 부 버전을 삭제합니다. 삭제된 버전은 사이트의 휴지통으로 이동됩니다.|
 |파일의 모든 버전이 재생됨|FileVersionsAllRecycled|사용자가 파일의 버전 기록에서 모든 버전을 삭제합니다. 삭제된 버전은 사이트의 휴지통으로 이동됩니다.|
 |파일의 버전이 재생됨|FileVersionRecycled|사용자가 파일의 버전 기록에서 버전을 삭제합니다. 삭제된 버전은 사이트의 휴지통으로 이동됩니다.|

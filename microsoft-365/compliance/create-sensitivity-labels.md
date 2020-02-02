@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 조직의 문서 및 전자 메일을 분류하고 보호하는 데 필요한 민감도 레이블을 생성, 구성 및 게시하기 위한 지침입니다.
-ms.openlocfilehash: 3ce1f729853d514a85852221eb997c456a379dcd
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 73df1928a89218a419a9d774a7830ecad4aceb6d
+ms.sourcegitcommit: 2913fd74ad5086c7cac6388447285be9aa5a8e44
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595535"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "41661864"
 ---
 # <a name="create-and-configure-sensitivity-labels-and-their-policies"></a>민감도 레이블과 해당 정책 생성 및 구성
 
@@ -45,7 +45,7 @@ ms.locfileid: "41595535"
 1. 레이블 관리 센터에서 민감도 레이블로 이동합니다.
     
     - Microsoft 365 규정 준수 센터: 
-        - **솔루션** > **정보 보호(미리 보기)**
+        - **솔루션** > **정보 보호**
         
         이 옵션이 바로 보이지 않는 경우에는 먼저 **모두 표시**를 선택합니다. 
     
@@ -118,7 +118,7 @@ Set-Label -Identity $Label -LocaleSettings (ConvertTo-Json $TooltipLocaleSetting
 1. 레이블 관리 센터에서 민감도 레이블로 이동합니다.
     
     - Microsoft 365 규정 준수 센터: 
-        - **솔루션** > **정보 보호(미리 보기)**
+        - **솔루션** > **정보 보호**
         
         이 옵션이 바로 보이지 않는 경우에는 먼저 **모두 표시**를 선택합니다. 
     

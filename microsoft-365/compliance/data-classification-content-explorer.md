@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 콘텐츠 탐색기를 사용하여 레이블이 지정된 항목을 원래 상태로 볼 수 있습니다.
-ms.openlocfilehash: 71ec7b4e27a6f125754e693ecb5239c66404a9ad
-ms.sourcegitcommit: a6686a68b068adec29b72f998ac9bc95992981df
+ms.openlocfilehash: c2bf73a5e6b9076d9c5f42c40f0d1f2f33cd1ee8
+ms.sourcegitcommit: 2913fd74ad5086c7cac6388447285be9aa5a8e44
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "41628084"
+ms.lasthandoff: 02/01/2020
+ms.locfileid: "41661910"
 ---
 # <a name="using-data-classification-content-explorer-preview"></a>데이터 분류 콘텐츠 탐색기(미리 보기) 사용
 
@@ -51,11 +51,13 @@ ms.locfileid: "41628084"
 
 콘텐츠 탐색기에 대한 액세스 권한을 부여하는 두 개의 역할이 있습니다.
 
-- **콘텐츠 탐색기 목록 뷰어**: 이 역할 그룹의 멤버 자격으로 각 항목과 해당 위치를 볼 수 있습니다.
+- **콘텐츠 탐색기 목록 뷰어**: 이 역할 그룹의 멤버 자격으로 각 항목과 해당 위치를 볼 수 있습니다. `data classification list viewer` 역할이 사전에 이 역할 그룹에 할당되었습니다.
 
-- **콘텐츠 탐색기 콘텐츠 뷰어**:이 역할 그룹의 멤버 자격으로 목록에 있는 각 항목의 내용을 볼 수 있습니다.
+- **콘텐츠 탐색기 콘텐츠 뷰어**:이 역할 그룹의 멤버 자격으로 목록에 있는 각 항목의 내용을 볼 수 있습니다. `data classification content viewer` 역할이 사전에 이 역할 그룹에 할당되었습니다.
 
 콘텐츠 탐색기에 액세스하는 데 사용하는 계정은 역할 그룹 중 하나 또는 둘 다에 있어야 합니다. 이러한 역할은 독립적인 역할 그룹이며 누적되지 않습니다. 예를 들어 계정에 항목 및 해당 위치만 볼 수 있는 권한을 부여 하려는 경우 콘텐츠 탐색기 목록 표시기 권한을 부여 합니다. 동일한 계정에서 목록에 있는 항목의 내용을 볼 수 있게 하려면 콘텐츠 탐색기 콘텐츠 뷰어 권한도 부여합니다.
+
+사용자 지정 역할 그룹에 역할 중 하나 또는 둘 다를 할당하여 콘텐츠 탐색기에 대한 액세스를 조정할 수도 있습니다.
 
 ### <a name="how-to-use-content-explorer"></a>콘텐츠 탐색기를 사용하는 방법
 
