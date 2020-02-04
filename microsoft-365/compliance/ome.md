@@ -9,7 +9,7 @@ audience: Admin
 ms.topic: conceptual
 ms.service: O365-seccomp
 localization_priority: Normal
-ms.date: 4/30/2019
+ms.date: 02/03/2020
 search.appverid:
 - MET150
 ms.collection:
@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 ms.assetid: f87cb016-7876-4317-ae3c-9169b311ff8a
 description: Office 365 메시지 암호화를 사용 하면 조직에서 조직 내부 및 외부의 사용자 간에 암호화 된 전자 메일 메시지를 보내고 받을 수 있습니다. 전자 메일 메시지 암호화는 의도 된 받는 사람만 메시지 콘텐츠를 볼 수 있도록 합니다.
-ms.openlocfilehash: 9da6084348a4bdc89f620eb894c9ffa113d64292
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 76d3688fbc30923e204b9cba338b61bc955b8f95
+ms.sourcegitcommit: d9ceaa6ec54c3760747f31accdb02f729450f324
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601785"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41680097"
 ---
 # <a name="office-365-message-encryption"></a>Office 365 메시지 암호화
 
@@ -30,12 +30,38 @@ ms.locfileid: "41601785"
 
 Office 365 메시지 암호화를 사용 하면 조직에서 조직 내부 및 외부의 사용자 간에 암호화 된 전자 메일 메시지를 보내고 받을 수 있습니다. Office 365 메시지 암호화는 Outlook.com, Yahoo!, Gmail 및 기타 전자 메일 서비스에서 작동 합니다. 전자 메일 메시지 암호화는 의도 된 받는 사람만 메시지 콘텐츠를 볼 수 있도록 합니다.
 
+## <a name="important-updates-to-ome-to-enhance-email-authenticity---action-required"></a>전자 메일 인증을 향상 시키기 위해 OME에 대 한 중요 업데이트-필요한 작업
+
+2020 년 2 월부터 시작 하 여 OME에서 사용 하는 보낸 사람 주소를 변경 하 여 OME 전자 메일을 향상 시키는 OME의 향상 된 기능을 제공 합니다. 이러한 개선 사항이 없는 경우에는 보낸 사람 주소가 messaging.onmicrosoft.com 도메인에서 온 것 이므로 일부 조직에서는 OME에서 시스템 생성 메일 (예: 1 회 통과, 메일 및 포털 회신)을 거부 했습니다. 이러한 변경으로 인해 이러한 시스템 생성 메일은 onmicrosoft.com 대신 조직의 사용자 지정 도메인에서 전송 됩니다. 이러한 개선을 구현 하기 위해 메일 흐름 규칙을 업데이트 해야 합니다.
+
+Exchange Online의 경우 이전 OME 전자 메일 주소 또는 조직 외부의 모든 주소를 찾는 각 메일 흐름 규칙을 업데이트 하 여 새 OME 주소를 확인 해야 합니다. 새 OME (일회용 pass code and portal reply) 전자 메일이 사용자 지정 도메인에서 전송 되기 때문에 조직 외부에서 들어오는 것으로 더 이상 한정 되지 않습니다.
+
+Exchange 온-프레미스 또는 Exchange Online에서 작동 하는 타사 솔루션을 사용 하는 경우에는 새 OME 전자 메일 주소를 반영 하도록 이전의 모든 OME 규칙을 업데이트 해야 합니다. 예를 들어 이전 OME 전자 메일 주소를 프록시의 허용 목록 한 경우 프록시의 허용 목록 전자 메일 목록에 새 전자 메일을 추가 해야 합니다.
+
+### <a name="changes-to-ome-email-addresses"></a>OME 전자 메일 주소 변경
+
+일회용 전달 코드 발신자 주소:
+
+- 이전 주소:``onetimepasscode@messaging.onmicrosoft.com``
+
+- 새 주소:``onetimepasscode@<yourdomain.com>``
+
+OME 포털에서 OME 회신:
+
+- 이전 주소:``omeportal@messaging.onmicrosoft.com``
+
+- 새 주소:``omeportal@<yourdomain.com>``
+
+### <a name="errors-routing-mail-from-exchange-online-through-exchange-on-premises-to-external-recipients"></a>Exchange online에서 온-프레미스를 통해 외부 받는 사람에 게 메일을 라우팅하는 경우의 오류
+
+Exchange Online에서 온-프레미스 Exchange를 사용 하는 조직 외부의 받는 사람에 게 메일을 라우팅하는 경우 일부 타사 시스템은 DMARC 오류를 반환 하 고 전자 메일을 수락 하지 않습니다. 예를 들어이 방식으로 메일을 라우팅하는 경우 gmail이 DMARC 오류를 반환 합니다. 이 문제를 해결 하려면 exchange 온-프레미스를 우회 하 여 Exchange Online에서 외부 받는 사람에 게 직접 전자 메일을 라우팅합니다.
+
+## <a name="how-office-365-message-encryption-works"></a>Office 365 메시지 암호화가 작동 하는 방식
+
 이 문서의 나머지 부분은 새로운 OME 기능에 적용 됩니다.
 
 > [!NOTE]
 > 사서함에 대 한 모든 권한이 있는 대리인은 사서함으로 전송 되는 암호화 된 메시지를 읽을 수 있습니다.
-
-## <a name="how-office-365-message-encryption-works"></a>Office 365 메시지 암호화가 작동 하는 방식
 
 Office 365 메시지 암호화는 Azure Information Protection의 일부인 Microsoft Azure RMS (서비스 권한 관리)를 기반으로 작성 된 온라인 서비스가 됩니다. 여기에는 전자 메일을 보호 하는 데 도움이 되는 암호화, id 및 권한 부여 정책이 포함 됩니다. 권한 관리 템플릿, [전달 금지 옵션](https://docs.microsoft.com/information-protection/deploy-use/configure-usage-rights#do-not-forward-option-for-emails)및 [암호화 전용 옵션](https://docs.microsoft.com/information-protection/deploy-use/configure-usage-rights#encrypt-only-option-for-emails)을 사용 하 여 메시지를 암호화할 수 있습니다.
 
