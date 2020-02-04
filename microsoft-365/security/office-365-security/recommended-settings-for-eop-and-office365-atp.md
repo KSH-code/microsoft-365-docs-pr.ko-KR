@@ -16,12 +16,12 @@ ms.assetid: 6f64f2de-d626-48ed-8084-03cc72301aa4
 ms.collection:
 - M365-security-compliance
 description: EOP (Exchange Online Protection) 및 ATP (Advanced Threat Protection) 보안 설정에 대 한 모범 사례 표준 보호에 대 한 최신 권장 사항은 무엇 인가요? 보다 엄격한 기능을 사용 하려면 어떻게 해야 합니까? 또한 ATP (Advanced Threat Protection)를 사용 하는 경우에는 어떤 것을 얻게 됩니까?
-ms.openlocfilehash: fd2b1fdbb0356cfc2cea080f15bf696d8073fc10
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 8a64b92e8191000be2767f498fbaee179c3b9e69
+ms.sourcegitcommit: 30ff011e5e8ba51c7ccc7e5fa9cd25aeca472acd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41598645"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41678926"
 ---
 # <a name="recommended-settings-for-eop-and-office-365-atp-security"></a>EOP 및 Office 365 ATP 보안에 대 한 권장 설정
 
@@ -97,7 +97,7 @@ ms.locfileid: "41598645"
 |보안 기능 이름|표준을|항등|Comment|
 |---------|---------|---------|---------|
 |맬웨어 검색 응답|아니요|아니요|전자 메일 첨부 파일에서 맬웨어가 검색 되 면 메시지가 격리 되며 관리자만 해제할 수 있습니다.|
-|의심 스러운 파일 형식 차단에 대 한 "일반 첨부 파일 형식 필터"|켜짐|켜짐||
+|의심 스러운 파일 형식을 차단 하는 "공용 첨부 파일 형식 필터"|켜짐|켜짐||
 |맬웨어 제로 시간 자동 삭제|켜짐|켜짐||
 |배달 되지 않은 메시지의 내부 보낸 사람에 게 알림|사용 안 함|사용 안 함||
 |배달 되지 않은 메시지의 외부 보낸 사람에 게 알림|사용 안 함|사용 안 함||
