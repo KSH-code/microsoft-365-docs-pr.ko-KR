@@ -18,16 +18,16 @@ ms.assetid: 56de4ed5-b0aa-4195-9f46-033d7cc086bc
 ms.collection:
 - M365-security-compliance
 description: 관리자가 사용자에 게 알림을 사용 하도록 설정 하는 경우 사서함에 전송 된 메시지를 스팸, 대량 또는 피싱 메시지로 식별 하는 알림 메시지가 표시 됩니다. 알림을 받은 후에는 메시지를 해제 하거나 보고할 수 있습니다.
-ms.openlocfilehash: c9cd0849f826e66411695a3758f271ec70d24c9b
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 51fcdefc08987b153d045994927f56df3b670fd0
+ms.sourcegitcommit: 836bd8135cc49d6db37e78a7cfeb7d2cc4159e4e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41598025"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41722039"
 ---
 # <a name="use-user-spam-notifications-to-release-and-report-quarantined-messages-in-office-365"></a>Office 365에서 사용자 스팸 알림을 사용하여 격리된 메시지 릴리스 및 보고
 
-관리자가 사용자에 대 한 스팸 알림을 사용 하도록 설정 하는 경우 사서함으로 주소가 지정 되어 스팸으로 식별 되 고 대신 격리 된 메시지를 나열 하는 알림 메시지가 수신 됩니다.
+관리자가 사용자에 게 스팸 알림을 사용 하도록 설정 하는 경우 사서함으로 주소가 지정 되어 스팸, 대량 또는 피싱으로 식별 된 메시지를 나열 하는 알림 메시지를 받게 됩니다.
 
 > [!TIP]
 > 관리자가이 기능을 사용 하도록 설정 하려는 경우에는 [기본 스팸 방지 정책을 수정](configure-your-spam-filter-policies.md)하는 경우 옵션을 선택할 수 있습니다.
@@ -50,6 +50,6 @@ ms.locfileid: "41598025"
 
 다음에 대해 숙지 합니다.
 
-- 메일 흐름 규칙과 일치 하기 때문에 격리 된 메시지는 사용자 격리 된 메시지에 포함 되지 않습니다. 스팸 격리된 메시지만 나열됩니다.
+- 맬웨어 및 높은 신뢰도 피싱 메시지와 메일 흐름 규칙과 일치 하는 메시지는 사용자 스팸 알림에 포함 되지 않으므로 격리 됩니다. 
 
 - 메시지를 릴리스하고 가양성으로(정크 아님) 한 번만 보고할 수 있습니다.
