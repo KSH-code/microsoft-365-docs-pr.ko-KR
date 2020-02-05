@@ -15,12 +15,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: 98a658febe6c20904f82fb2f152bb6cc115cce49
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: dc781d9f800b3db938b253775b31df118c21fd03
+ms.sourcegitcommit: 0f09f54f43924d1fcd2fdcfcbf04c53519b92a7b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597962"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "41784705"
 ---
 # <a name="whats-new-in-office-365-atp"></a>Office 365 ATP의 새로운 기능
 
@@ -49,7 +49,7 @@ ms.locfileid: "41597962"
 
 - Office [365 관리 활동 API를 사용 하는 office 365 atp 자동 조사 및 응답 이벤트와 통합](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema#office-365-advanced-threat-protection-and-threat-investigation-and-response-schema) (OFFICE 365 ATP 계획 2)
 
-- [전자 메일 머리글 보기 및 전자 메일 본문 다운로드](investigate-malicious-email-that-was-delivered.md#view-the-email-headers-and-download-the-email-body) (OFFICE 365 ATP 계획 1 또는 계획 2)
+- [전자 메일 머리글 보기 및 전자 메일 본문 다운로드](investigate-malicious-email-that-was-delivered.md) (OFFICE 365 ATP 계획 1 또는 계획 2)
 
 ## <a name="august-2019"></a>2019년 8월
 

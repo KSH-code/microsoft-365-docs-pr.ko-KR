@@ -1,5 +1,5 @@
 ---
-title: Office 365에서 제공 된 악성 전자 메일 찾기 및 조사
+title: 'Office 365, 재구성, 해결책, 재구성에 제공 된 악성 전자 메일을 찾고 조사 합니다. '
 keywords: TIMailData-Inline, Security 인시던트, 인시던트, ATP PowerShell, 전자 메일 맬웨어, 손상 된 사용자, 전자 메일 피싱, 전자 메일 맬웨어, 읽기 전자 메일 머리글, 읽기 헤더, 공개 전자 메일 헤더
 f1.keywords:
 - NOCSH
@@ -17,14 +17,14 @@ ms.assetid: 8f54cd33-4af7-4d1b-b800-68f8818e5b2a
 ms.collection:
 - M365-security-compliance
 description: 위협 조사 및 응답 기능을 사용 하 여 악성 전자 메일을 찾고 조사 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 77a0c3e23413a31f2d87d5bf19216edec40a305c
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 2f61860178de78302d6fb94309ff01127ac5ce33
+ms.sourcegitcommit: 0f09f54f43924d1fcd2fdcfcbf04c53519b92a7b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41599145"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "41784739"
 ---
-# <a name="find-and-investigate-malicious-email-that-was-delivered-in-office-365"></a>Office 365에서 제공 된 악성 전자 메일 찾기 및 조사
+# <a name="investigate-and-remediate-malicious-email-that-was-delivered-in-office-365"></a>Office 365에서 제공 된 악성 전자 메일 조사 및 재구성
 
 [Office 365 Advanced Threat Protection](office-365-atp.md) 을 사용 하면 조직에 사용자를 추가 하 고 조직을 보호 하기 위한 작업을 수행 하는 활동을 조사할 수 있습니다. 예를 들어 조직의 보안 팀에 속한 경우 배달 된 의심 스러운 전자 메일 메시지를 찾아서 조사할 수 있습니다. [위협 탐색기 (또는 실시간 검색)](threat-explorer.md)를 사용 하 여이 작업을 수행할 수 있습니다.
   
@@ -55,125 +55,200 @@ ms.locfileid: "41599145"
 
 ## <a name="find-and-delete-suspicious-email-that-was-delivered"></a>배달 된 의심 스러운 전자 메일 찾기 및 삭제
 
-위협 탐색기는 메시지 찾기 및 삭제, 악의적인 전자 메일 보낸 사람의 IP 주소 식별, 추가 조사를 위해 인시던트 시작 등의 여러 용도로 사용할 수 있는 강력한 보고서입니다. 다음 절차에서는 Explorer를 사용 하 여 받는 사람 사서함에서 악성 전자 메일을 찾아서 삭제 하는 방법에 대해 중점적으로 설명 합니다
+위협 탐색기는 메시지 찾기 및 삭제, 악의적인 전자 메일 보낸 사람의 IP 주소 식별, 추가 조사를 위해 인시던트 시작 등의 여러 용도로 사용할 수 있는 강력한 보고서입니다. 다음 절차에서는 탐색기를 사용 하 여 받는 사람의 사서함에서 악성 전자 메일을 찾아서 삭제 하는 방법에 대해 중점적으로 설명 합니다.
 
-1. [https://protection.office.com](https://protection.office.com) 으로 이동 하 여 Office 365에 대 한 회사 또는 학교 계정을 사용 하 여 로그인 합니다. 이렇게 하면 보안 &amp; 및 준수 센터로 이동 합니다. 
-    
-2. 왼쪽 탐색 영역에서 **Threat management** \> **Explorer**를 선택 합니다.
+1. **위협 탐색기** [https://protection.office.com](https://protection.office.com) 로 이동 하 여 회사 또는 Office 365의 학교 계정을 사용 하 여 로그인 합니다. 이렇게 하면 보안 &amp; 및 준수 센터로 이동 합니다.
+
+2. 왼쪽 탐색 빠른 실행에서 **위협 관리** \> **탐색기**를 선택 합니다.
 
     ![배달 작업 및 배달 위치 필드가 있는 탐색기입니다.](../media/ThreatExFields.PNG)
 
-    새 **특수 동작** 열을 볼 수 있습니다. 이 기능은 관리자에 게 전자 메일 처리 결과를 알려 주는 것을 목표로 합니다. **특수 작업** 열은 **배달 작업** 및 **배달 위치로**같은 위치에서 액세스할 수 있습니다. 위협 탐색기의 전자 메일 시간 표시 막대의 끝에서 특수 작업을 업데이트할 수 있으며,이는 관리자에 게 더 적합 한 사냥 환경을 구현 하기 위한 새로운 기능입니다.
+    <!-- You may notice the new **Special actions** column. This feature is aimed at telling admins the outcome of processing an email. The **Special actions** column can be accessed in the same place as **Delivery action** and **Delivery location**. Special actions might be updated at the end of Threat Explorer's email timeline, which is a new feature aimed at making the hunting experience better for admins.-->
 
-3. 전자 메일 시간 표시 막대를 보려면 전자 메일 메시지의 제목을 클릭 하 고 **전자 메일 시간 표시 막대**를 클릭 합니다. (이 탭은 **요약** 또는 **세부 정보와**같은 패널의 다른 제목 사이에 표시 됩니다.)
+3. **위협 탐색기의 보기**: **보기** 메뉴에서 **모든 전자 메일**을 선택 합니다.
 
-    전자 메일 시간 표시 막대를 연 후에는 해당 메일에 대 한 배달 후 이벤트를 알려 주는 표가 표시 됩니다. 전자 메일에 대 한 이벤트가 더 이상 없는 경우 원래 배달에 대해 결과와 같은 **차단** 된 결과를 나타내는 단일 이벤트가 표시 **됩니다.** 또한이 탭에는 전체 전자 메일 시간 표시 막대를 내보낼 수 있는 옵션도 있으며,이를 통해 탭의 모든 세부 정보와 전자 메일에 대 한 세부 정보 (제목, 보낸 사람, 받는 사람, 네트워크 및 메시지 ID 등)가 내보내집니다.
+    ![위협 탐색기 보기 메뉴 및 전자 메일-맬웨어, 피싱, 전송 및 모든 전자 메일 옵션 (콘텐츠-맬웨어)도 가능 합니다.](../media/tp-InvestigateMalEmail-viewmenu.png)
 
-    전자 메일이 도착 한 이후 발생 한 이벤트를 이해 하기 위해 다른 위치를 확인 하는 데 소요 되는 시간이 더 낮기 때문에 전자 메일 시간 표시 막대는 임의 변경에 따라 하향 합니다 전자 메일에서 여러 이벤트가 발생 하거나 같은 시간에 발생할 경우 이러한 이벤트는 시간 표시 막대 보기에 표시 됩니다. 
-    
-    메일에 대 한 배달이 후 발생 하는 일부 이벤트는 **특수 작업** 열에 캡처됩니다. 전자 메일 시간 표시 막대와 이메일로 전송 되는 정보를 함께 사용 하면 관리자가 정책이 작동 하는 방식, 즉 전자 메일을 최종적으로 라우팅된 위치, 그리고 경우에 따라 최종 평가가 수행 된 방식을 파악할 수 있습니다. 
+    *맬웨어* 보기는 현재 기본값으로, 맬웨어 위협이 검색 되는 전자 메일을 캡처합니다. *피싱* 보기는 피싱에 대해 동일한 방식으로 작동 합니다.
 
-4. **보기** 메뉴에서 **모든 전자 메일**을 선택 합니다.
+    그러나 *모든 전자 메일* 보기에는 위협이 검색 되었는지 여부에 관계 없이 조직에서 받은 모든 메일이 나열 됩니다. 짐작할 수 있듯이이 보기에는 데이터의 양이 많기 때문에 필터를 적용 하 라는 자리 표시 자가 표시 되는 이유가 여기에 해당 합니다. (이 보기는 ATP P2 고객만 사용할 수 있습니다.)
 
-    ![보기 메뉴를 사용 하 여 전자 메일 및 콘텐츠 보고서 중에서 선택](../media/d39013ff-93b6-42f6-bee5-628895c251c2.png)
+    *전송* 보기에는 관리자 또는 사용자가 Microsoft에 보고 한 모든 메일이 표시 됩니다.
+
+4. **위협 탐색기의 검색 및 필터링**: 검색 표시줄의 페이지 맨 위에 필터를 표시 하 여 관리자의 조사 작업에 도움을 줄 수 있습니다. 여러 필터를 동시에 적용 하 고 쉼표로 구분 된 여러 개의 값을 필터에 추가 하 여 검색 범위를 좁힐 수 있습니다. 항상
+    - 필터는 대부분의 필터 조건을 정확 하 게 일치 시키는 것입니다.
+    - 제목 필터에 포함 된 쿼리를 사용 합니다.
+    - URL 필터는 프로토콜과 함께 작동 하거나 사용 하지 않습니다 (예: https)
+    - URL 도메인, URL 경로 및 URL 도메인 및 경로 필터에는 필터링을 위한 프로토콜이 필요 하지 않습니다.
+    - 관련 결과를 얻으려면 필터 값을 변경할 때마다 새로 고침 아이콘을 클릭 해야 합니다.
+
+5. **고급 필터**: 이러한 필터를 사용 하 여 복잡 한 쿼리를 작성 하 고 데이터 집합을 필터링 할 수 있습니다. *고급 필터* 를 클릭 하면 옵션이 포함 된 플라이 아웃이 열립니다.
+
+   고급 필터링은 검색 기능에 매우 유용 합니다. *받는 사람*, *보낸* 사람 및 *보낸 사람 도메인* 에 부울 **NOT** filter가 도입 되어 관리자는 값을 제외 하 여 조사할 수 있습니다. 이 옵션은 selection 매개 변수에 *없음이 포함*됩니다. **NOT** 관리자는 알림 사서함, 기본 회신 사서함을 조사에서 제외 하는 것을 허용 하지 않으며, 관리자가 특정 주체 (subject = "주의")를 검색 하 여 받는 사람을 *defaultMail@contoso.com*으로 설정할 수 없는 경우에 유용 합니다. 이 값은 정확한 검색입니다.
+
+   ![받는 사람-'에는 어떤 고급 필터도 포함 되어 있지 않습니다.](../media/tp-InvestigateMalEmail-AdvancedFilter.png)
+
+   *시간별로 필터링* 하면 조직의 보안 팀에서 빠르게 드릴 다운 하는 데 도움이 됩니다. 허용 되는 가장 짧은 시간은 30 분입니다. 시간-프레임 (예: 3 시간 전에 발생)에 의해 의심 스러운 작업의 범위를 좁힐 수 있으면 컨텍스트가 제한 되 고 문제를 파악 하는 데 도움이 됩니다.
+
+  ![시간을 기준으로 필터링 옵션을 선택 하면 데이터 보안 팀이 처리 해야 하는 시간이 단축 되 고 가장 짧은 기간이 30 분으로 제한 됩니다.](../media/tp-InvestigateMalEmail-FilterbyHours.png)
+
+6. **위협 탐색기의 필드**: 위협 탐색기는 *배달 작업*, *배달 위치*, *특수 작업*, *방향성*, *오버라이드*및 *URL 위협과*같은 많은 보안 관련 메일 정보를 제공 합니다. 또한 조직의 보안 팀이 보다 높은 확신을 조사할 수 있습니다. 
+
+    *배달 작업* 은 기존 정책 또는 검색으로 인해 전자 메일에 대해 수행 되는 작업입니다. 다음은 전자 메일에 사용할 수 있는 작업입니다.
+    - **배달** 됨-전자 메일이 사용자의 받은 편지함 또는 폴더에 배달 되어 사용자가 직접 액세스할 수 있습니다.
+    - **Junked** (정크로 배달)-사용자의 정크 메일 폴더 또는 지운 편지함에 전자 메일이 전송 되 고 사용자가 정크 또는 삭제 된 폴더에 있는 전자 메일 메시지에 액세스할 수 있습니다.
+    - **차단 됨** -격리 되거나, 실패 했거나, 삭제 된 전자 메일 메시지 (사용자가이를 액세스할 수 없습니다.)
+    - **대체** 됨-첨부 파일이 악성 인 .txt 파일로 악성 첨부 파일이 교체 되는 모든 전자 메일
+
+    **배달 위치**: 관리자가 의심 스러운 악성 메일이 종료 되는 위치와 해당 작업에 대해 수행 된 조치를 이해 하도록 돕기 위해 배달 위치 필터를 사용할 수 있습니다. 결과 데이터를 스프레드시트로 내보낼 수 있습니다. 가능한 배달 위치는 다음과 같습니다.
+    - **받은 편지함 또는 폴더** -전자 메일 규칙에 따라 받은 편지함 또는 특정 폴더에 전자 메일이 전송 됩니다.
+    - **온-프레미스 또는 external** -사서함이 클라우드에는 없지만 온-프레미스에 있습니다.
+    - **정크 메일 폴더** -전자 메일이 사용자의 정크 메일 폴더에 있습니다.
+    - **지운 편지함 폴더** -전자 메일이 사용자의 지운 편지함 폴더에 있습니다.
+    - **격리** -사용자의 사서함이 아닌 격리 된 전자 메일입니다.
+    - **Failed** – 전자 메일이 사서함에 연결 하지 못했습니다.
+    - **삭제** 됨-메일 흐름에서 전자 메일이 손실 되었습니다.
+
+    **방향성**:이 옵션을 사용 하면 보안 운영 팀이 메일을 보내거나 진행 중인 ' 방향 '으로 필터링 할 수 있습니다. 방향성 값은 *인바운드*, *아웃 바운드*및 조직 *내* 에서 전송 되는 메일에 해당 하는 외부에서, 조직 외부로 발송 되거나 조직에 내부적으로 전송 되는 사람에 해당 합니다. 이 정보는 방향 값 (예: 보안 운영 팀)이 일치 하지 않으므로 가장 하는 데 도움이 될 수 있습니다. *인바운드*)이 있고 보낸 사람의 도메인 (내부 도메인으로 *표시* 됨)이 명백 합니다. 방향성 값은 구분 되며 메시지 추적과 다를 수 있습니다. 결과를 스프레드시트로 내보낼 수 있습니다.
+
+    **재정의**:이 필터는 메일의 세부 정보 탭에 표시 되는 정보를 사용 하 여 조직 또는 사용자 정책에서 메일을 허용 하 고 차단 하는 작업을 *제공 합니다.* 이 필터에 대 한 가장 중요 한 점은 조직의 보안 팀이 구성으로 인해 전달 된 의심 스러운 전자 메일 수를 확인 하는 데 도움이 된다는 것입니다. 이를 통해 필요에 따라 허용 및 차단 하는 기회가 제공 됩니다. 이 필터의 결과 집합을 스프레드시트로 내보낼 수 있습니다.
+
+|위협 탐색기 재정의  | 의미  |
+|---------|---------|
+|조직 정책에서 허용     |   메일은 조직 정책이 지시 하는 대로 사서함에 허용 되었습니다.       |
+|조직 정책에 의해 차단 됨      |  메일이 조직 정책에 의해 지시 된 대로 사서함에 배달 되지 못하도록 차단 되었습니다.    |
+|조직 정책에 의해 차단 된 파일 확장명     | 조직 정책에 의해 전송 된 파일을 사서함에 배달 하지 못하도록 차단 되었습니다.        |
+|사용자 정책에 의해 허용 됨     | 메일은 사용자 정책에 의해 지시 된 대로 사서함에 허용 되었습니다.        |
+|사용자 정책에 의해 차단 됨     | 메일이 사용자 정책에 의해 지시 된 대로 사서함에 배달 되지 못하도록 차단 되었습니다.        |
+
+**Url 위협**: url 위협 필드는 전자 메일의 *세부 정보* 탭에 포함 되어 url에서 제공 하는 위협을 나타냅니다. URL로 제공 되는 위협에는 *맬웨어*, *피싱*또는 *스팸*이 포함 될 수 있으며 위협 요소가 *없는* url은 위협 섹션에 *없음* 이 됩니다.
+
+7. **전자 메일 시간 표시 막대 보기**: 보안 운영 팀이 보다 자세히 조사 하기 위해 전자 메일 세부 정보를 심층적으로 파악 해야 할 수 있습니다. 관리자는 전자 메일 시간 표시 막대를 사용 하 여 전자 메일에 대해 수행 된 작업을 배달 후에 볼 수 있습니다. 전자 메일 시간 표시 막대를 보려면 전자 메일 메시지의 제목을 클릭 하 고 전자 메일 시간 표시 막대를 클릭 합니다. (이 탭은 요약 또는 세부 정보와 같은 패널의 다른 제목 사이에 표시 됩니다.) 이러한 결과를 스프레드시트로 내보낼 수 있습니다.
+
+    전자 메일 일정은 전자 메일에 대 한 모든 배달 및 배달 후 이벤트를 보여 주는 테이블에 열립니다. 전자 메일에 추가 작업을 수행 하지 않으면 *차단*됨과 같이 결과를 표시 하는 원래 배달에 대 한 단일 이벤트 (예: 결과 like *피싱*)가 발생 합니다. 관리자는 탭과 전자 메일 (예: 제목, 보낸 사람, 받는 사람, 네트워크, 메시지 ID)에 대 한 모든 세부 정보를 포함 하 여 전체 전자 메일 시간 표시줄을 내보낼 수 있습니다. 전자 메일이 도착 한 이후 발생 한 이벤트를 이해 하기 위해 다른 위치를 확인 하는 데 소요 되는 시간이 더 낮기 때문에 전자 메일 시간 표시 막대는 임의 변경에 따라 하향 합니다 전자 메일에서 여러 이벤트가 발생 하거나 같은 시간에 발생할 경우 이러한 이벤트는 시간 표시 막대 보기에 표시 됩니다.
+
+8. **미리 보기/다운로드**: 위협 탐색기에서는 의심 스러운 전자 메일을 조사 하는 데 필요한 세부 정보를 보안 운영 팀에 제공 합니다. 보안 운영 팀은 다음 중 하나를 수행 합니다.
+
+    - [배달 작업 및 위치를 확인](#check-the-delivery-action-and-location)합니다.
+
+    - [전자 메일의 시간 표시 막대를 봅니다](#view-the-timeline-of-your-email).
+
+    ##### <a name="check-the-delivery-action-and-location"></a>배달 작업 및 위치 확인
+
+    [위협 탐색기 (및 실시간 검색)](threat-explorer.md)에서는 이제 이전 **배달 상태** 열 대신 **배달 작업** 및 **배달 위치** 열이 제공 됩니다. 이로 인해 전자 메일 메시지가 나타나는 위치를 보다 완전 하 게 파악할 수가 있습니다. 이 변경의 목표 중 일부는 보안 작업 팀에 게 더 쉽게 조사를 만들기 위해 발생 하지만 문제 전자 메일 메시지의 위치를 한눈에 파악 하는 것입니다.
+
+    배달 상태는 이제 다음과 같은 두 개의 열로 나뉩니다.
+
+    - **배달 작업** -이 전자 메일의 상태는 무엇입니까?
+
+    - **배달 위치** -이 전자 메일의 경로가 어떻게 설정 되었습니까?
+
+    배달 작업은 기존 정책 또는 검색으로 인해 전자 메일에 대해 수행 되는 작업입니다. 다음은 전자 메일에 사용할 수 있는 작업입니다.
+
+    - **배달** 됨-전자 메일이 사용자의 받은 편지함 또는 폴더에 배달 되어 사용자가 직접 액세스할 수 있습니다.
+
+    - **Junked** – 전자 메일이 사용자의 정크 메일 폴더 또는 삭제 된 폴더에 전송 되었으며 사용자가 정크 또는 삭제 된 폴더에 있는 전자 메일 메시지에 액세스할 수 있습니다.
+
+    - **차단 됨** -격리 되거나, 실패 했거나, 삭제 된 전자 메일 메시지 (사용자가이를 액세스할 수 없습니다.)
+
+    - **대체** 됨-첨부 파일이 악성 인 .txt 파일로 악성 첨부 파일이 교체 되는 모든 전자 메일입니다.
+ 
+    배달 위치는 배달 후 실행 되는 정책 및 검색의 결과를 표시 합니다. 배달 작업에 연결 됩니다. 이 필드는 문제 메일을 찾은 경우 수행 되는 작업에 대 한 통찰력을 제공 하기 위해 추가 되었습니다. 배달 위치의 가능한 값은 다음과 같습니다.
+
+    - **받은 편지함 또는 폴더** -전자 메일이 받은 편지함 또는 폴더 (전자 메일 규칙에 따라 다름)에 있습니다.
+
+    - **온-프레미스 또는 external** -사서함이 클라우드에는 없지만 온-프레미스에 있는 경우
+
+    - **정크 메일 폴더** -전자 메일이 사용자의 정크 폴더에 있습니다.
+
+    - **지운 편지함 폴더** -전자 메일이 사용자의 지운 편지함 폴더에 있습니다.
+
+    - **격리** -사용자의 사서함이 아닌 격리 된 전자 메일입니다.
+
+    - **Failed** – 전자 메일이 사서함에 연결 하지 못했습니다.
+
+    - **삭제** 됨-메일 흐름의 어딘가에 전자 메일이 손실 됩니다.
+
+     ##### <a name="view-the-timeline-of-your-email"></a>전자 메일의 시간 표시 막대 보기
   
-    **배달**하거나 **알 수**없거나 **정크 메일에 배달**된 것과 같이 보고서에 표시 되는 레이블을 확인 합니다.
+     **전자 메일 시간 표시 막대** 는 보안 운영 팀에서 더 쉽게 찾을 수 있도록 하는 위협 탐색기의 필드입니다. 전자 메일에서 여러 이벤트가 발생 하거나 같은 시간에 발생할 경우 이러한 이벤트는 시간 표시 막대 보기에 표시 됩니다. 전자 메일로 배달 후 발생 하는 일부 이벤트는 **특수 작업** 열에 캡처됩니다. 전자 메일 메시지의 시간 표시 막대와 정보를 결합 하 여 배달 후 발생 하는 모든 특수 작업을 통해 관리자는 정책 및 위협 처리 (예: 메일을 라우팅된 위치, 일부 경우에는 최종 평가)를 파악할 수 있습니다.
 
-    ![모든 전자 메일에 대 한 데이터를 표시 하는 위협 탐색기](../media/208826ed-a85e-446f-b276-b5fdc312fbcb.png)
-    
-    조직에 대 한 전자 메일 메시지에 대해 수행 된 작업에 따라 다른 레이블에서 **차단** 되거나 **바뀐**것을 볼 수 있습니다.
-    
-6. 사용자의 받은 편지 함으로 끝난 전자 메일 메시지만 표시 되도록 보고서에 **배달** 을 선택 합니다.
+<!-- Reference material
 
-    !["정크로 배달"을 클릭 하면 보기에서 해당 데이터가 제거 됨](../media/e6fb2e47-461e-4f6f-8c65-c331bd858758.png)
+1. **Navigate to Threat Explorer**: Go to [https://protection.office.com](https://protection.office.com) and sign in using your work or school account for Office 365. This takes you to the Security &amp; Compliance Center. 
+
+2. In the left navigation quick-launch, choose **Threat management** \> **Explorer**.
+
+3. Click on the subject of an email message, and then click **Email timeline**. (It appears among other headings on the panel like **Summary** or **Details**.)
+
+    Once you've opened the email timeline, you should see a table that tells you the post-delivery events for that mail. In the case of no further events for the email, you should see a single event for the original delivery that states a result like **Blocked** with a verdict like **Phish**. The tab also has the option to export the entire email timeline, and this exports all the details on the tab and details on the email (things like Subject, Sender, Recipient, Network, and Message ID).
+
+    The email timeline cuts down on randomization because there is less time spent checking different locations to try to understand events that happened since the email arrived. When multiple events happen at, or close to, the same time on an email, those events show up in a timeline view. 
+    
+    Some events that happen post-delivery to your mail are captured in the **Special actions** column. Combining the information from the email timeline along with special actions taken on email post-delivery gives admins insight into how their policies work, where the email was finally routed, and, in some cases, what the final assessment was. 
+
+4. In the **View** menu, choose **All email**.
+
+    ![Use the View menu to choose between Email and Content reports](../media/d39013ff-93b6-42f6-bee5-628895c251c2.png)
   
-7. 차트 아래에서 차트 아래에 있는 **전자 메일** 목록을 검토 합니다.
+    Notice the labels that appear in the report, such as **Delivered**, **Unknown**, or **Delivered to junk**.
 
-    ![차트 아래에서 검색 된 전자 메일 메시지의 목록 보기](../media/dfb60590-1236-499d-97da-86c68621e2bc.png)
-  
-8. 목록에서 항목을 선택 하 여 해당 전자 메일 메시지에 대 한 세부 정보를 확인 합니다. 예를 들어 제목 줄을 클릭 하 여 보낸 사람, 받는 사람, 첨부 파일 및 기타 유사한 전자 메일 메시지에 대 한 정보를 볼 수 있습니다.
-
-    ![항목에 대 한 추가 정보를 볼 수 있습니다.](../media/5a5707c3-d62a-4610-ae7b-900fff8708b2.png)
-  
-9. 전자 메일 메시지에 대 한 정보를 확인 한 후에는 목록에서 하나 이상의 항목을 선택 하 여 **+ 작업**을 활성화 합니다.
+    ![Threat Explorer showing data for all email](../media/208826ed-a85e-446f-b276-b5fdc312fbcb.png)
     
-10. **+ 작업** 목록을 사용 하 여 **지운 편지함으로 이동** 등의 작업을 적용 합니다. 이 명령은 받는 사람의 사서함에서 선택한 메시지를 삭제 합니다.
-
-    ![하나 이상의 전자 메일 메시지를 선택 하면 사용 가능한 여러 작업 중에서 선택할 수 있습니다.](../media/ef12e10c-60a7-4f66-8f76-68d77ae26de1.png)
-
-## <a name="dealing-with-suspicious-email-messages"></a>의심 스러운 전자 메일 메시지 처리
-
-악의적인 공격자가 자신의 자격 증명을 피싱 회사 비밀에 액세스 하기 위해 조직의 사용자에 게 메일을 보낼 수 있습니다. 이를 방지 하기 위해 [Exchange Online protection](exchange-online-protection-overview.md) 및 [Advanced threat protection](office-365-atp.md)을 포함 하 여 Office 365의 위협 보호 서비스를 사용 합니다. 그러나 공격자가 나중에 악성 콘텐츠 (예: 맬웨어)를 가리키는 링크 (URL)가 포함 된 전자 메일을 보내는 경우 가끔씩 발생 합니다. 또는 조직의 다른 사용자가 공격을 당한 경우, 공격자가 자신의 계정을 사용 하 여 조직 내 기타 사람에 게 전자 메일을 보낼 수 있습니다. 이러한 시나리오를 처리 하는 과정의 일부로 사용자의 받은 편지함에서 의심 스러운 전자 메일 메시지를 제거할 수 있습니다. 이 작업을 수행 하기 위해 [위협 탐색기](threat-explorer.md)를 사용할 수 있습니다.
-
-## <a name="finding-re-routed-email-messages-after-actions-are-taken"></a>작업이 수행 된 후 다시 라우팅된 전자 메일 메시지 찾기
-
-위협 탐색기에서는 의심 스러운 전자 메일을 조사 하는 데 필요한 세부 정보를 보안 운영 팀에 제공 합니다. 보안 운영 팀은 다음과 같은 작업을 수행할 수 있습니다.
-
-- [전자 메일 머리글 보기 및 전자 메일 본문 다운로드](#view-the-email-headers-and-download-the-email-body) 
-
-- [배달 작업 및 위치 확인](#check-the-delivery-action-and-location)
-
-- [전자 메일의 시간 표시 막대 보기](#view-the-timeline-of-your-email)
-
-### <a name="view-the-email-headers-and-download-the-email-body"></a>전자 메일 머리글 보기 및 전자 메일 본문 다운로드
-
-전자 메일 머리글을 미리 보고, 전자 메일 본문을 다운로드 하는 기능은 위협 탐색기에서 강력한 기능입니다. 적절 한 [사용 권한을](permissions-in-the-security-and-compliance-center.md) 할당 해야 합니다. [역할 권한 미리 보기](#preview-role-permissions)를 참조 하세요.
-
-메시지 헤더 및 전자 메일 다운로드 옵션에 액세스 하려면 다음 단계를 수행 합니다. 
-
-1. [https://protection.office.com](https://protection.office.com) 으로 이동 하 여 Office 365에 대 한 회사 또는 학교 계정을 사용 하 여 로그인 합니다. 이렇게 하면 보안 &amp; 및 준수 센터로 이동 합니다. 
+    (Depending on the actions that were taken on email messages for your organization, you might see other labels, such as **Blocked** or **Replaced**.)
     
-2. 왼쪽 탐색 영역에서 **Threat management** \> **Explorer**를 선택 합니다.
+5. In the report, choose **Delivered** to view only email messages that ended up in users' inboxes.
 
-3. 위협 탐색기 테이블에서 제목을 클릭 합니다. 
+    ![Clicking "Delivered to junk" removes that data from view](../media/e6fb2e47-461e-4f6f-8c65-c331bd858758.png)
+  
+6. Below the chart, review the **Email** list below the chart.
 
-    이렇게 하면 플라이 아웃이 열리고 머리글 미리 보기 및 전자 메일 다운로드 링크가 모두 배치 됩니다.
+    ![Below the chart, view a list of email messages that were detected](../media/dfb60590-1236-499d-97da-86c68621e2bc.png)
+  
+7. In the list, choose an item to view more details about that email message. For example, you can click the subject line to view information about the sender, recipients, attachments, and other similar email messages.
 
-    ![페이지의 링크 다운로드 및 미리 보기를 포함 하는 위협 탐색기 플라이 아웃](../media/ThreatExplorerDownloadandPreview.PNG)
+    ![You can view additional information about an item](../media/5a5707c3-d62a-4610-ae7b-900fff8708b2.png)
+  
+8. After viewing information about email messages, select one or more items in the list to activate **+ Actions**.
+    
+9. Use the **+ Actions** list to apply an action, such as **Move to deleted** items. This deletes the selected messages from the recipients' mailboxes.
+
+    ![When you select one or more email messages, you can choose from several available actions](../media/ef12e10c-60a7-4f66-8f76-68d77ae26de1.png)
+
+## Dealing with suspicious email messages
+
+Malicious attackers might be sending mail to people in your organization in an attempt to phish their credentials and gain access to your corporate secrets. To help prevent this, you use the threat protection services in Office 365, including [Exchange Online Protection](exchange-online-protection-overview.md) and [Advanced Threat Protection](office-365-atp.md). However, it occasionally happens that an attacker sends email that contains a link (URL) that only later points to malicious content (such as malware). Or, you might realize too late that someone in your organization has been compromised, and while they were compromised, an attacker used their account to send email to other people in your organization. As part of dealing with either of these scenarios, you can remove suspicious email messages from user inboxes. To do that, you can use [Threat Explorer](threat-explorer.md).
+
+## Finding re-routed email messages after actions are taken
+
+Threat Explorer provides your security operations team with the details they need to investigate suspicious email. Your security operations team can:
+
+- [View the email headers and download the email body](#view-the-email-headers-and-download-the-email-body) 
+
+- [Check the delivery action and location](#check-the-delivery-action-and-location)
+
+- [View the timeline of your email](#view-the-timeline-of-your-email)
+
+### View the email headers and download the email body
+
+The ability to preview email headers and download the body of an email body are powerful capabilities in Threat Explorer. Appropriate [permissions](permissions-in-the-security-and-compliance-center.md) must be assigned. See [Preview role permissions](#preview-role-permissions).
+
+To access your message header and email download options, follow these steps: 
+
+1. Go to [https://protection.office.com](https://protection.office.com) and sign in using your work or school account for Office 365. This takes you to the Security &amp; Compliance Center. 
+    
+2. In the left navigation, choose **Threat management** \> **Explorer**.
+
+3. Click on a subject in the Threat Explorer table. 
+
+    This opens the flyout, where both header preview and email download links are positioned.
+
+    ![Threat Explorer flyout with download and preview links on the page.](../media/ThreatExplorerDownloadandPreview.PNG)
 
 > [!IMPORTANT]
-> 이 기능은 사용자 사서함에서 발견 되지 않은 전자 메일 메시지에 대해서는 표시 되지 않고 전자 메일이 삭제 되거나 배달이 실패 한 경우에 발생할 수 있습니다. 전자 메일 메시지가 사용자 사서함에서 삭제 된 경우 관리자는 "메일을 찾을 수 없습니다." 라는 오류 메시지가 표시 됩니다.
+> This capability doesn't show up for email messages that were never found in a user's mailbox, which can happen if an email was dropped or its delivery failed. In cases where email messages were deleted from users' mailboxes, admins see a "Mail not found" error message.
+-->
 
-### <a name="check-the-delivery-action-and-location"></a>배달 작업 및 위치 확인
-
-[위협 탐색기 (및 실시간 검색)](threat-explorer.md)에서는 이제 이전 **배달 상태** 열 대신 **배달 작업** 및 **배달 위치** 열이 제공 됩니다. 이로 인해 전자 메일 메시지가 나타나는 위치를 보다 완전 하 게 파악할 수가 있습니다. 이러한 변경의 목표는 보안 작업을 보다 쉽게 찾을 수 있도록 하기 위한 것 이지만, 네트워크 결과에 문제 전자 메일 메시지의 위치가 한눈에 파악 되는 것은 아닙니다.
-
-배달 상태는 이제 다음과 같은 두 개의 열로 나뉩니다.
-
-- **배달 작업** -이 전자 메일의 상태는 무엇입니까?
-
-- **배달 위치** -이 전자 메일의 경로가 어떻게 설정 되었습니까?
-
-배달 작업은 기존 정책 또는 검색으로 인해 전자 메일에 대해 수행 되는 작업입니다. 다음은 전자 메일에 사용할 수 있는 작업입니다.
-
-- **배달** 됨-전자 메일이 사용자의 받은 편지함 또는 폴더에 배달 되어 사용자가 직접 액세스할 수 있습니다.
-
-- **Junked** – 전자 메일이 사용자의 정크 메일 폴더 또는 삭제 된 폴더에 전송 되었으며 사용자가 정크 또는 삭제 된 폴더에 있는 전자 메일 메시지에 액세스할 수 있습니다.
-
-- **차단 됨** -격리 되거나, 실패 했거나, 삭제 된 전자 메일 메시지 (사용자가이를 액세스할 수 없습니다.)
-
-- **대체** 됨-첨부 파일이 악성 인 .txt 파일로 악성 첨부 파일이 교체 되는 모든 전자 메일입니다.
- 
-배달 위치는 배달 후 실행 되는 정책 및 검색의 결과를 표시 합니다. 배달 작업에 연결 됩니다. 이 필드는 문제 메일을 찾은 경우 수행 되는 작업에 대 한 통찰력을 제공 하기 위해 추가 되었습니다. 배달 위치의 가능한 값은 다음과 같습니다.
-
-- **받은 편지함 또는 폴더** -전자 메일이 받은 편지함 또는 폴더 (전자 메일 규칙에 따라 다름)에 있습니다.
-
-- **온-프레미스 또는 external** -사서함이 클라우드에는 없지만 온-프레미스에 있는 경우
-
-- **정크 메일 폴더** -전자 메일이 사용자의 정크 폴더에 있습니다.
-
-- **지운 편지함 폴더** -전자 메일이 사용자의 지운 편지함 폴더에 있습니다.
-
-- **격리** -사용자의 사서함이 아닌 격리 된 전자 메일입니다.
-
-- **Failed** – 전자 메일이 사서함에 연결 하지 못했습니다.
-
-- **삭제** 됨-메일 흐름의 어딘가에 전자 메일이 손실 됩니다.
-
-### <a name="view-the-timeline-of-your-email"></a>전자 메일의 시간 표시 막대 보기
-  
-**전자 메일 시간 표시 막대** 는 보안 운영 팀에서 더 쉽게 찾을 수 있도록 하는 위협 탐색기의 필드입니다. 전자 메일에서 여러 이벤트가 발생 하거나 같은 시간에 발생할 경우 이러한 이벤트는 시간 표시 막대 보기에 표시 됩니다. 전자 메일로 배달 후 발생 하는 일부 이벤트는 **특수 작업** 열에 캡처됩니다. 전자 메일 메시지의 시간 표시 막대와 정보를 결합 하 여 배달 후 발생 하는 모든 특수 작업을 통해 관리자는 정책 및 위협 처리 (예: 메일을 라우팅된 위치, 일부 경우에는 최종 평가)를 파악할 수 있습니다.
-  
 ## <a name="related-topics"></a>관련 항목
 
 [Office 365 Advanced Threat Protection](office-365-ti.md)
@@ -181,5 +256,3 @@ ms.locfileid: "41599145"
 [Office 365에서 위협 으로부터 보호](protect-against-threats.md)
   
 [Office 365 Advanced Threat Protection에 대 한 보고서 보기](view-reports-for-atp.md)
-  
-
