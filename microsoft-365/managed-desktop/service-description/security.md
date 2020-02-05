@@ -1,17 +1,17 @@
 ---
 title: Microsoft Managed Desktop의 보안
 description: ''
-keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 설명서
+keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.date: 09/24/2018
-ms.openlocfilehash: 6d3be89b52d71543687a02a1fd3fbae8bc1543f8
-ms.sourcegitcommit: 4460975970ae13e917d4d336e92dbd76ae26493b
+ms.openlocfilehash: 3d5765de70b21036800d87cedd175ea4fd53b7ba
+ms.sourcegitcommit: ca2209d9176f99048d0a7adc20261029ca23dcbd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 08/07/2019
-ms.locfileid: "36243939"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "41774234"
 ---
 # <a name="security-in-microsoft-managed-desktop"></a>Microsoft Managed Desktop의 보안
 
@@ -19,25 +19,12 @@ ms.locfileid: "36243939"
 
 Microsoft Managed Desktop은 다양 한 Microsoft 기술을 사용 하 여 관리 되는 장치 및 데이터를 안전 하 게 보호 합니다. 특히 다음 사항에 유의합니다. 
 
-- [데이터 보안](#data-security) -Microsoft Managed Desktop에서 수집 되는 데이터 유형 및 안전 하 게 저장 되는 위치
+
 - [장치 보안](#device-security) -Microsoft Managed Desktop 장치에 대 한 보안 및 보호
 - [Id 및 액세스 관리](#identity-and-access-management) -Azure Active Directory Identity services를 통한 장치 보안 사용 관리
 - [네트워크 보안](#network-security) -VPN 정보 및 Microsoft Managed Desktop 권장 솔루션 및 설정
 - [정보 보안](#information-security) -중요 한 정보를 보다 안전 하 게 보호 하는 데 사용할 수 있는 선택적 서비스 
 
-## <a name="data-security"></a>데이터 보안
-
-고객 테 넌 트에서 수집 된 데이터 (Microsoft Managed Desktop IT 서비스 및 작업 사용)는 미국 내에서 호스트 되는 Microsoft 테 넌 트의 Azure SQL 데이터베이스에 저장 됩니다.
-
-자세한 내용은 [Microsoft Azure security](https://docs.microsoft.com/azure/security/azure-database-security-overview)를 참조 하세요.
-
-다음은 테 넌 트에서 전송 되는 데이터의 유형입니다.
-
-- 장치 업데이트, 사용 현황 및 안정성 데이터
-- 앱 배포 및 안정성 데이터
-- 업데이트 및 보안 정책 배포 데이터
-- 장치에 할당 된 사용자
-- Microsoft Managed Desktop에서 서비스를 관리 하는 데 사용 하는 계정과 관련 된 테 넌 트의 보안 로그
 
 
 

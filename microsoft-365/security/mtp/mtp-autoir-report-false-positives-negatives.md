@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 ms.topic: conceptual
 ms.custom: autoir
-ms.openlocfilehash: 44c90c6c9394b1f9fee34b8eb068bb7c232c4d78
-ms.sourcegitcommit: a6686a68b068adec29b72f998ac9bc95992981df
+ms.openlocfilehash: 1177f552652e728928a2b1d322b4ce0217415509
+ms.sourcegitcommit: ca2209d9176f99048d0a7adc20261029ca23dcbd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "41627974"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "41774194"
 ---
 # <a name="how-to-report-false-positivesnegatives-in-automated-investigation-and-response-capabilities"></a>자동화 된 조사 및 응답 기능에서 가양성/네거티브를 보고 하는 방법
 
@@ -57,7 +57,7 @@ Microsoft Threat Protection에 대 [한 자동화 된 조사 및 응답 기능�
 
 ## <a name="undo-a-remediation-action-that-was-taken-on-a-device"></a>장치에서 수행한 수정 작업 실행 취소
 
-장치 (예: Windows 10 장치)와 실제로 정리 된 항목에 대해 재구성 작업을 수행한 경우 보안 운영 팀이 [작업 센터](mtp-action-center.md)에서 수정 작업을 실행 취소할 수 있습니다.
+장치에서 수정 작업을 수행 하는 경우 (예: Windows 10 장치) 해당 항목이 실제로 정리 되 면 보안 운영 팀이 [작업 센터](mtp-action-center.md)에서 수정 작업을 실행 취소할 수 있습니다.
 
 > [!IMPORTANT]
 > 다음 작업을 수행 하기 전에 [필요한 사용 권한이](mtp-action-center.md#required-permissions-for-action-center-tasks) 있는지 확인 합니다.
