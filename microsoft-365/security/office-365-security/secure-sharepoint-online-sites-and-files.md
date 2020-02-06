@@ -1,5 +1,7 @@
 ---
 title: SharePoint Online 사이트 및 파일 보호
+f1.keywords:
+- NOCSH
 ms.author: bcarter
 author: brendacarter
 manager: laurawi
@@ -19,12 +21,12 @@ ms.custom:
 - Ent_Architecture
 ms.assetid: 1d51bd87-17bf-457c-b698-61821de3afa0
 description: '요약: SharePoint Online 및 Office 365에서 파일을 보호하기 위한 구성 권장 사항입니다.'
-ms.openlocfilehash: c175e0e480670f9e5ce00a701704cedf1abeff26
-ms.sourcegitcommit: 3f8957ddd04b8710bb5f314a0902fdee50c7c9b7
+ms.openlocfilehash: 29bd8ade5f32a2ba7e810d587d731d5036a372b6
+ms.sourcegitcommit: 21be88a1b38b6554ffa1bc5b743c129fe8547704
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "41572354"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41830992"
 ---
 # <a name="secure-sharepoint-online-sites-and-files"></a>SharePoint Online 사이트 및 파일 보호
 
@@ -158,7 +160,7 @@ Azure Active Directory에서 권장된 조건부 액세스 정책을 사용하�
 
 보안 시나리오에 적합한 경우 민감도 레이블을 사용하여 항상 파일에 수반되는 보호 기능을 적용할 수 있습니다. Microsoft 365 규정 준수 센터의 민감도 레이블과 Azure Information Protection 레이블은 동일합니다. 이 솔루션의 경우 민감도 레이블 또는 기밀 민감도 레이블의 하위 레이블을 사용하여 최고 수준의 보안으로 보호해야 하는 파일에 대한 권한을 암호화하여 부여하는 것이 좋습니다.
 
-Office 365에 저장된 파일에 민감도 레이블 암호화가 적용되어 있으면 이 파일의 내용을 처리할 수 없습니다. 즉 공동 작성, eDiscovery, 검색, Delve 및 기타 공동 작업 기능이 작동하지 않습니다. DLP 정책은 메타데이터(보존 레이블 포함)에만 작동할 수 있지만 파일의 내용(예: 파일 내의 신용 카드 번호)에는 작동할 수 없습니다.
+조직에서 [SharePoint 및 OneDrive의 Office 파일에 대해 민감도 레이블을 사용(공개 미리보기)](/microsoft-365/compliance/sensitivity-labels-sharepoint-onedrive-files)하도록 설정하지 않은 경우: 민감도 레이블 암호화가 Office 365에 저장된 파일에 적용되어 있으면 서비스에서 이러한 파일의 내용을 처리할 수 없습니다. 즉 공동 작성, eDiscovery, 검색, Delve 및 기타 공동 작업 기능이 작동하지 않습니다. DLP 정책은 메타데이터(보존 레이블 포함)에만 작동할 수 있지만 파일의 내용(예: 파일 내의 신용 카드 번호)에는 작동할 수 없습니다.
 
 자세한 내용은 [민감도 레이블 개요](../../compliance/sensitivity-labels.md)를 참조하세요.
 
