@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 관리자는 SharePoint 및 OneDrive에서 Word, Excel 및 PowerPoint 파일에 대해 민감도 레이블 지원을 사용 하도록 설정할 수 있습니다.
-ms.openlocfilehash: a1b42525984080d56a0f95018003cd251bff0122
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 97d46c7fce851e420c33763260c88e948718840f
+ms.sourcegitcommit: 0f09f54f43924d1fcd2fdcfcbf04c53519b92a7b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597505"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "41784685"
 ---
 # <a name="enable-sensitivity-labels-for-office-files-in-sharepoint-and-onedrive-public-preview"></a>SharePoint 및 OneDrive에서 Office 파일에 대한 민감도 레이블 사용(공개 미리 보기)
 
@@ -60,7 +60,7 @@ ms.locfileid: "41597505"
 
 ## <a name="limitations"></a>제한
 
-- 이 미리 보기를 사용 하도록 설정 하면 OneDrive 동기화 폴더의 파일에 대 한 레이블을 변경 하는 사용자가 파일에 변경한 다른 내용을 저장 하지 못할 수 있습니다.  사용자에 게 [흰색 횡단면 오류가 있는 빨간색 원이](https://support.office.com/article/what-do-the-onedrive-icons-mean-11143026-8000-44f8-aaa9-67c985aa49b3)표시 되 고 새 변경 내용을 별도의 복사본으로 저장할지 묻는 메시지가 나타납니다.  사용자가 시작한 레이블 변경 사항 외에도, 관리자가 사용자의 동기화 클라이언트에 다운로드 된 파일에 이미 적용 되어 있는 게시 한 레이블의 설정을 변경 하는 경우에도 같은 동작이 발생할 수 있습니다.
+- 이 미리 보기를 사용 하도록 설정 하면 OneDrive 동기화 폴더에 있는 파일의 레이블을 변경 하는 사용자가 파일에 변경한 다른 내용을 저장 하지 못할 수 있습니다.  사용자에 게 [흰색 횡단면 오류가 있는 빨간색 원이](https://support.office.com/article/what-do-the-onedrive-icons-mean-11143026-8000-44f8-aaa9-67c985aa49b3)표시 되 고 새 변경 내용을 별도의 복사본으로 저장할지 묻는 메시지가 나타납니다.  사용자가 시작한 레이블 변경 사항 외에도, 관리자가 사용자의 동기화 클라이언트에 다운로드 된 파일에 이미 적용 되어 있는 게시 한 레이블의 설정을 변경 하는 경우에도 같은 동작이 발생할 수 있습니다.
     
     이러한 시나리오에서 작업이 손실 되지 않도록 하려면 다음 작업 중 하나를 수행 합니다.
     - 레이블을 적용 하려면 Office 앱의 웹 버전을 사용 합니다.
@@ -83,6 +83,12 @@ ms.locfileid: "41597505"
 - Office 데스크톱 앱 및 모바일 앱은 공동 작성을 지원 하지 않습니다. 대신 이러한 앱은 계속 해 서 단독 편집 모드로 파일을 엽니다.
 
 - 레이블에 암호화가 포함 되어 있으면 Microsoft Cloud App Security에서 SharePoint의 파일에 대 한 레이블 정보를 읽을 수 없습니다.
+
+- 레이블이 지정 된 문서가 SharePoint에 업로드 되 고 레이블이 서비스 사용자 이름의 계정을 사용 하 여 암호화를 적용 한 경우에는 웹의 Office에서 해당 문서를 열 수 없습니다. 예제 시나리오에는 Microsoft Cloud App Security 및 팀별로 전자 메일로 전송 되는 파일이 포함 됩니다.
+
+- 다음과 같은 방법으로 암호화 된 문서는 웹에서 Office에서 열 수 없습니다.
+    - 온-프레미스 키를 사용 하는 암호화 ("자체 키를 포함" 또는 HYOK)
+    - 예를 들어 권한 관리 보호 서식 파일을 직접 적용 하는 경우와 같이 레이블과 독립적으로 적용 되는 암호화
 
 ## <a name="prepare-the-sharepoint-online-management-shell-for-the-preview"></a>미리 보기에 대 한 SharePoint Online 관리 셸 준비
 

@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 9371429caedfe2081331fab1aebbe0e1ec761e81
-ms.sourcegitcommit: 2913fd74ad5086c7cac6388447285be9aa5a8e44
+ms.openlocfilehash: 82ee16e84bc20b88e577cfd3e8b8187059536469
+ms.sourcegitcommit: 0f09f54f43924d1fcd2fdcfcbf04c53519b92a7b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "41661974"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "41784695"
 ---
 # <a name="configure-communication-compliance-in-microsoft-365"></a>Microsoft 365에서 통신 준수 구성
 
@@ -67,7 +67,14 @@ Microsoft 365 준수 센터에서 **통신 준수** 를 메뉴 옵션으로 사�
 
 역할 그룹 및 사용 권한에 대 한 자세한 내용은 [준수 센터의 사용 권한을](../security/office-365-security/protect-against-threats.md)참조 하세요.
 
-## <a name="step-2-optional-set-up-groups-for-communication-compliance"></a>2 단계 (선택 사항): 통신 준수를 위한 그룹 설정
+## <a name="step-2-required-enable-the-office-365-audit-log"></a>2 단계 (필수 사항): Office 365 감사 로그 사용
+
+통신 준수를 위해서는 감사 로그가 알림을 표시 하 고 검토자가 수행한 업데이트 관리 작업을 추적 해야 합니다. 감사 로그는 정의 된 조직 정책과 관련 된 모든 작업을 요약 한 것 이거나, 통신 준수 정책이 변경 되는 경우에도 해당 됩니다.
+
+감사를 설정 하는 단계별 지침은 [Turn Office 365 감사 로그 검색 설정 또는 해제](turn-audit-log-search-on-or-off.md)를 참조 하세요. 감사를 설정한 후에는 감사 로그를 준비 중 이며 준비 완료 후 몇 시간 내에 검색을 실행할 수 있음을 알리는 메시지가 표시 됩니다. 이 작업은 한 번만 수행 하면 됩니다. 감사 로그를 사용 하는 방법에 대 한 자세한 내용은 [Search the audit log](search-the-audit-log-in-security-and-compliance.md)을 참조 하십시오.
+
+
+## <a name="step-3-optional-set-up-groups-for-communication-compliance"></a>3 단계 (선택 사항): 통신 준수를 위한 그룹 설정
 
  통신 준수 정책을 만들 때 통신을 검토 하 고 검토를 수행 하는 사람을 정의 합니다. 정책에서는 전자 메일 주소를 사용 하 여 개인 이나 사용자 그룹을 식별 합니다. 설정을 단순화 하기 위해 통신을 검토 한 사용자에 대 한 그룹을 만들고 해당 통신을 검토할 사용자에 대 한 그룹을 만들 수 있습니다. 그룹을 사용 하는 경우 몇 가지 필요할 수 있습니다. 예를 들어 서로 다른 두 사용자 그룹 간의 통신을 모니터링 하려는 경우 또는 감독 되지 않는 그룹을 지정 하려는 경우
 
@@ -86,7 +93,7 @@ Microsoft 365 준수 센터에서 **통신 준수** 를 메뉴 옵션으로 사�
 - [메일 사용 가능 보안 그룹 관리](https://docs.microsoft.com/Exchange/recipients-in-exchange-online/manage-mail-enabled-security-groups)
 - [Office 365 그룹 개요](https://docs.microsoft.com/office365/admin/create-groups/office-365-groups?view=o365-worldwide)
 
-## <a name="step-3-required-create-a-communication-compliance-policy"></a>3 단계 (필수 사항): 통신 준수 정책 만들기
+## <a name="step-4-required-create-a-communication-compliance-policy"></a>4 단계 (필수 사항): 통신 준수 정책 만들기
   
 1. Microsoft 365 [https://compliance.microsoft.com](https://compliance.microsoft.com) 조직의 관리자 계정에 대 한 자격 증명을 사용 하 여 로그인 합니다.
 
@@ -120,7 +127,7 @@ Microsoft 365 준수 센터에서 **통신 준수** 를 메뉴 옵션으로 사�
 
 6. 정책이 활성화 되는 시기와 캡처할 통신에 대 한 지침과 함께 **정책 만들기** 페이지가 표시 됩니다.
 
-## <a name="step-4-optional-create-employee-notice-templates"></a>4 단계 (선택 사항): 직원 공지 서식 파일 만들기
+## <a name="step-5-optional-create-employee-notice-templates"></a>5 단계 (선택 사항): 직원 공지 서식 파일 만들기
 
 관련 직원에 게 미리 알림 메시지를 보내 정책 경고에 응답 하는 옵션을 설정 하려면 조직에 공지 서식 파일을 하나 이상 만들어야 합니다. 알림 서식 파일 필드는 경고 업데이트 관리 프로세스의 일부로 전송 되기 전에 편집 가능 하 게 되며 각 통신 준수 정책에 대해 사용자 지정 된 공지 서식 파일을 만드는 것이 좋습니다.
 
@@ -140,7 +147,7 @@ Microsoft 365 준수 센터에서 **통신 준수** 를 메뉴 옵션으로 사�
 
 5. **저장** 을 선택 하 여 알림 서식 파일을 만들고 저장 합니다.
 
-## <a name="step-5-optional-test-your-communication-compliance-policy"></a>5 단계 (선택 사항): 통신 준수 정책 테스트
+## <a name="step-6-optional-test-your-communication-compliance-policy"></a>6 단계 (선택 사항): 통신 준수 정책 테스트
 
 통신 준수 정책을 만든 후에는 테스트를 통해 정의한 조건이 정책에 의해 적절 하 게 적용 되는지 확인 하는 것이 좋습니다. 또한 통신 준수 정책에 중요 한 정보 유형이 포함 되어 있는 경우 [DLP (데이터 손실 방지) 정책을 테스트할](create-test-tune-dlp-policy.md) 수도 있습니다. 테스트할 통신을 캡처할 수 있도록 정책에 대 한 정품 인증을 제공 해야 합니다.
 
@@ -155,11 +162,3 @@ Microsoft 365 준수 센터에서 **통신 준수** 를 메뉴 옵션으로 사�
 3. 통신 준수 정책에 지정 된 검토자로 Microsoft 365에 로그인 합니다. 정책에 대 한 경고를 보려면 **통신 준수** > **알림과** 이동 합니다.
 
 4. 업데이트 관리 컨트롤을 사용 하 여 경고를 수정 하 고 경고가 제대로 확인 되는지 확인 합니다.
-
-## <a name="step-6-optional-enable-auditing-for-your-communication-compliance-policies"></a>6 단계 (선택 사항): 통신 준수 정책에 대 한 감사 사용
-
-정책을 테스트 한 후에는 통신 준수 관리와 관련 된 활동이 기록 되도록 감사를 사용 하도록 설정할 수 있습니다. 이 감사는 정의 된 조직 정책과 관련 된 모든 작업 또는 통신 준수 정책이 변경 될 때마다 요약 된 것일 수 있습니다.
-
-감사를 사용 하도록 설정 하면 통신 준수 정책에 내부 또는 외부 감사에 대 한 전체 준비 상태에 대 한 감사 기록이 기본적으로 제공 됩니다. 감사를 사용 하도록 설정 된 경우 정책에 대 한 기본 페이지의 **검토 작업 내보내기** 컨트롤을 사용 하 여 감사 파일을 생성 하거나 감사 작업을 볼 수 있습니다.
-
-감사를 설정 하려면 Office 365 보안 & 준수 센터의 **감사 로그 검색** 페이지에서 **사용자 및 관리자 작업 기록을 시작** 합니다 .를 클릭 합니다. 이 링크가 표시되지 않으면 조직에 대해 감사가 이미 켜져 있는 것입니다. 감사를 설정한 후에는 감사 로그를 준비 중 이며 준비 완료 후 몇 시간 내에 검색을 실행할 수 있음을 알리는 메시지가 표시 됩니다. 이 작업은 한 번만 수행 하면 됩니다. 감사 로그에 대 한 자세한 내용은 Search the [audit log](search-the-audit-log-in-security-and-compliance.md)을 참조 하십시오.

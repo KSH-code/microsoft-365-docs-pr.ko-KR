@@ -1,5 +1,7 @@
 ---
 title: 보존 정책 개요
+f1.keywords:
+- NOCSH
 ms.author: cabailey
 author: cabailey
 manager: laurawi
@@ -15,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 정책을 사용하여 콘텐츠를 보존할지, 삭제할지, 아니면 보존한 다음 삭제할지 사전에 결정할 수 있습니다. 조직 전체에 또는 특정 위치 또는 사용자에게 하나의 정책을 적용할 수 있고, 모든 콘텐츠에 또는 특정 조건에 부합하는 콘텐츠에 정책을 적용할 수 있습니다.
-ms.openlocfilehash: de5fda485c1fbb1f41fd32ff0da40014d30a6a89
-ms.sourcegitcommit: 03a83ff76c8162b850c4c552759c49f2a4750574
+ms.openlocfilehash: 1585be963b63e2e7f4c3efad972b7b262b4db3cc
+ms.sourcegitcommit: ca2209d9176f99048d0a7adc20261029ca23dcbd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/26/2020
-ms.locfileid: "41558595"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "41774224"
 ---
 # <a name="overview-of-retention-policies"></a>보존 정책 개요
 
@@ -54,7 +56,9 @@ ms.locfileid: "41558595"
 
 - [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com/)의 **정책** 페이지
 - [Office 365 보안 &amp; 규정 준수 센터](https://protection.office.com/)의 **정보 거버넌스** 아래에 있는 **보존** 페이지.
-  
+
+**콘텐츠를 영구적으로 삭제하기 전에 검토하는 기능을 사용하려는 경우** [보존 레이블](labels.md)을 사용하는 것이 좋습니다. 보존 레이블을 만들 때 [처리 검토](disposition-reviews.md)를 설정하여 콘텐츠의 보존 기간이 끝날 때 콘텐츠를 검토할 수 있습니다.
+
 ## <a name="how-a-retention-policy-works-with-content-in-place"></a>보존 정책이 원본 위치의 콘텐츠에 작동하는 방식
 
 보존 정책에 사이트나 사서함과 같은 위치를 포함하면 콘텐츠가 원본 위치에 남아 있게 됩니다. 사용자는 아무 내용도 변경되지 않은 것처럼 문서 또는 메일을 계속 사용할 수 있습니다. 그렇지만 정책에 포함된 콘텐츠를 편집하거나 삭제하면 정책 적용 시 존재했던 콘텐츠의 사본이 보존됩니다.

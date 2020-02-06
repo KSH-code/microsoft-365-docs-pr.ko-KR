@@ -1,5 +1,7 @@
 ---
 title: 1단계 - 장치 및 앱 준비
+f1.keywords:
+- NOCSH
 ms.author: jogruszc
 author: JGruszczyk
 manager: jemed
@@ -13,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 환경에서 장치 및 앱 준비 상태를 평가하는 방법을 알아봅니다.
-ms.openlocfilehash: dad6b4092cbcedbc4674733af1459d28f9b1d50e
-ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
+ms.openlocfilehash: 6bf41d0930a3c957bb856d35815bf05087997208
+ms.sourcegitcommit: ca2209d9176f99048d0a7adc20261029ca23dcbd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41112722"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "41774214"
 ---
 # <a name="step-1-device-and-app-readiness"></a>1단계: 장치 및 앱 준비
 
@@ -106,9 +108,9 @@ Configuration Manager 소프트웨어 인벤토리는 장치 및 응용 프로�
 자세한 내용은 [Configuration Manager의 소프트웨어 인벤토리 소개](https://docs.microsoft.com/configmgr/core/clients/manage/inventory/introduction-to-software-inventory) 및 [Configuration Manager의 패키지 및 프로그램](https://docs.microsoft.com/configmgr/apps/deploy-use/packages-and-programs)에서 응용 프로그램 패키지의 플랫폼 요구 사항 설정을 참조하세요.
 
 
-## <a name="desktop-app-assure"></a>데스크톱 앱 Assure
+## <a name="app-assure"></a>App Assure
 
-Windows 10 및 Office 365 ProPlus 응용 프로그램 호환성을 지원하는 또 다른 도구는 FastTrack Center를 통해 제공되는 [데스크톱 앱 Assure](https://aka.ms/desktopappassure) 프로그램입니다. 유효한 응용 프로그램 문제가 발생할 경우 데스크톱 앱 Assure를 통해 Microsoft 엔지니어가 추가 비용없이 사용자와 협력하여 응용 프로그램 비호환성 문제를 해결합니다.
+Windows 10 및 Office 365 ProPlus 응용 프로그램 호환성을 지원하는 또 다른 도구는 FastTrack Center를 통해 제공되는 [App Assure](https://aka.ms/appassure) 프로그램입니다. 유효한 응용 프로그램 문제가 발생할 경우 App Assure를 통해 Microsoft 엔지니어가 추가 비용없이 사용자와 협력하여 응용 프로그램 비호환성 문제를 해결합니다.
 
 ## <a name="continued-use-of-diagnostic-data-tools"></a>진단 데이터 도구의 지속적인 사용
 

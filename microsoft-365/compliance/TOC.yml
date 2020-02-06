@@ -67,12 +67,6 @@
           href: privileged-access-management-overview.md
         - name: 권한이 부여된 액세스 관리 구성
           href: privileged-access-management-configuration.md
-    - name: 고객 키
-      items:
-        - name: 고객 키를 사용하여 Office 365에서 데이터 제어
-          href: controlling-your-data-using-customer-key.md
-        - name: Office 365의 고객 키를 사용한 서비스 암호화 관련 자주하는 질문
-          href: service-encryption-with-customer-key-faq.md
     - name: 사용자 및 장치 액세스 보호
       href: protect-access-to-data-and-services.md
     - name: Customer Lockbox
@@ -85,7 +79,7 @@
       items:
         - name: 민감도 레이블 생성 및 게시
           href: create-sensitivity-labels.md
-        - name: 민감도 레이블에서 암호화를 사용하여 콘텐츠 액세스 제한
+        - name: 민감도 레이블을 사용 하 여 암호화를 적용 하 여 콘텐츠에 대 한 액세스 제한
           href: encryption-sensitivity-labels.md
         - name: 민감도 레이블을 콘텐츠에 자동으로 적용
           href: apply-sensitivity-label-automatically.md
@@ -150,6 +144,18 @@
           href: document-fingerprinting.md
         - name: ' 중요한 정보에 대한 DLP 기능'
           href: what-the-dlp-functions-look-for.md
+    - name: 고객 키
+      items:
+        - name: Office 365의 고객 키를 사용한 서비스 암호화
+          href: customer-key-overview.md
+        - name: Office 365에 대 한 고객 키 설정
+          href: customer-key-set-up.md
+        - name: Office 365에 대 한 고객 키 관리
+          href: customer-key-manage.md
+        - name: 고객 키 또는 가용성 키 롤 또는 회전
+          href: customer-key-availability-key-roll.md
+        - name: Office 365 고객 키에 대 한 가용성 키에 대 한 자세한 정보
+          href: customer-key-availability-key-understand.md
     - name: 전자 메일 암호화
       href: email-encryption.md
       items:
