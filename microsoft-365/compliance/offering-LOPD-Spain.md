@@ -5,18 +5,21 @@ keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 8a89153d1105f407d9fb88ad326d3b37b98ec229
-ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
+titleSuffix: Microsoft Compliance
+ms.openlocfilehash: dd12d261c52f79bf6b9e8de747bb8fcaec775686
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39859628"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41602205"
 ---
 # <a name="spanish-royal-decree-17202007-spanish-organic-law-151999"></a>스페인 칙령 1720/2007, 스페인 기본법 15/1999
 

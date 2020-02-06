@@ -5,18 +5,21 @@ keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: df2c929523f651b7220fb0546928509dd8c0b6ad
-ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
+titleSuffix: Microsoft Compliance
+ms.openlocfilehash: 7a0dfc1b03099d52255f2e474ba8d99c2ea3a2cb
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39859588"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41602155"
 ---
 # <a name="multi-tier-cloud-security-mtcs-standard-for-singapore"></a>싱가포르 MTCS(다단계 클라우드 보안) 표준
 

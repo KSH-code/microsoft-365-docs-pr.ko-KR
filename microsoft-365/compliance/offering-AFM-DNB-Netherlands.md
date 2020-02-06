@@ -5,18 +5,21 @@ keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 6957036ab341c5e3ec38707e079b9ded2fdd99c2
-ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
+titleSuffix: Microsoft Compliance
+ms.openlocfilehash: d4efa625c4026ce87d0895d03b4a9993bb4bca40
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39859258"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41602705"
 ---
 # <a name="dutch-authority-for-the-financial-markets-and-the-central-bank-of-the-netherlands"></a>네덜란드의 금융 서비스 기관 및 네덜란드 중앙은행
 

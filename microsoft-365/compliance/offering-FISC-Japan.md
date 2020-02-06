@@ -5,18 +5,21 @@ keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 206dbd57f5fc5c41c4238e13d9dca3072ef7d121
-ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
+titleSuffix: Microsoft Compliance
+ms.openlocfilehash: 546e4b29f26ffdee8c876032fe83254fb5643fff
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39859818"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41602385"
 ---
 # <a name="center-for-financial-industry-information-systems-fisc"></a>FISC(Center for Financial Industry Information Systems: 금융 산업 정보 시스템 센터)
 
@@ -40,7 +43,7 @@ Microsoft에서는 Microsoft Azure, Dynamics 365 및 Microsoft Office 365가 금
 
 금융 기관에서는 Azure, Dynamics 365, Office 365 및 Microsoft Cloud App Security의 범위 내 인프라 및 플랫폼 서비스에 대해 이 세 가지 영역의 준수 평가를 신뢰할 수 있습니다. 
 
-[외부 평가자의 유효성 검사 및 평가자의 사이트에 대 한 링크 (일본어만 해당)에 대해 자세히 알아보기](https://www.microsoft.com/ja-jp/business/enterprise-security/twc/finance-fisc.aspx)
+[외부 평가자의 유효성 검사 및 평가자의 사이트에 대 한 링크 (일본어만 해당)에 대해 자세히 알아보기](https://cloudblogs.microsoft.com/industry-blog/ja-jp/financial-services/2018/05/11/fisc_v9/)
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 범위 내 클라우드 서비스
 

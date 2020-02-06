@@ -5,18 +5,21 @@ keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 6e9aea06e6479a0aa4ec83d35d1fc8c7704e8b0f
-ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
+titleSuffix: Microsoft Compliance
+ms.openlocfilehash: 1ed1703ac30a9c7c8392ad61ec0d126d1e17c17e
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39859908"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41602475"
 ---
 # <a name="eu-us-and-swiss-us-privacy-shield-frameworks"></a>EU-US 및 Swiss-US Privacy Shield 프레임워크
 
@@ -79,7 +82,7 @@ Privacy Shield는 GDPR 규정 준수 메커니즘이 아니라 참여하는 회�
 
 **Microsoft는 EU-US 및 Swiss-US Privacy Shield 하에 발생한 불만 사항을 어떻게 처리하나요?**
 
-Privacy Shield와 관련된 불만 사항이 있는 경우 [Microsoft 개인정보처리방](https://privacy.microsoft.com/privacystatement)의 [문의 방법](https://privacy.microsoft.com/privacystatement#mainhowtocontactusmodule) 섹션을 통해 알려주세요. Microsoft에서 직접 해결할 수 없는 불만 사항에 대한 자세한 내용은 EU DPA와 협력하여 제공되는 조언을 준수합니다. 관련 DPA 연락처로 연락을 드리겠습니다. [Privacy Shield 원칙](https://www.privacyshield.gov/article?id=Requirements-of-Participation)에 추가로 설명된 바와 같이 구속력 있는 조정 옵션을 사용하여 다른 방법으로 해결되지 않은 불만 사항을 해결할 수 있습니다.
+Privacy Shield와 관련된 불만 사항이 있는 경우 [Microsoft 개인정보처리방](https://privacy.microsoft.com/privacystatement)의 [문의 방법](https://privacy.microsoft.com/PrivacyStatement#mainhowtocontactusmodule) 섹션을 통해 알려주세요. Microsoft에서 직접 해결할 수 없는 불만 사항에 대한 자세한 내용은 EU DPA와 협력하여 제공되는 조언을 준수합니다. 관련 DPA 연락처로 연락을 드리겠습니다. [Privacy Shield 원칙](https://www.privacyshield.gov/article?id=Requirements-of-Participation)에 추가로 설명된 바와 같이 구속력 있는 조정 옵션을 사용하여 다른 방법으로 해결되지 않은 불만 사항을 해결할 수 있습니다.
 
 ## <a name="resources"></a>리소스
 

@@ -5,18 +5,21 @@ keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 22703f7c9589a246464b16a3088036a858f59475
-ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
+titleSuffix: Microsoft Compliance
+ms.openlocfilehash: 6a2957ed5782c9449a1715669a7e220940572a66
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39859998"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41602575"
 ---
 # <a name="canadian-privacy-laws"></a>캐나다 개인 정보 보호법
 
@@ -24,7 +27,7 @@ ms.locfileid: "39859998"
 
 캐나다 개인 정보 보호법은 개별 개인 정보를 보호하고 자신에 대해 수집된 정보에 액세스할 수 있는 권한을 당사자에게 부여하기 위해 제정되었습니다. [캐나다 개인 정보 보호국](https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/02_05_d_15/)(OPCC)는 이러한 법률의 준수를 감독합니다.
 
-[개인 정보 보호법](https://privacy.microsoft.com/ko-KR/#heading-0-0-2-1) 연방 정부 기관이 개인 식별이 가능한 정보(연방 공무원의 정보 포함)를 수집, 사용 및 공개하는 방법을 규제합니다. [개인 정보 보호 및 전자 문서법](https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-personal-information-protection-and-electronic-documents-act-pipeda/)(PIPEDA)은 은행, 항공사 및 전기통신 회사와 같은 연방 규제 비즈니스의 직원 및 상업용 영리 기업의 비즈니스 활동에 대해 동일하게 통제합니다.
+[개인 정보 보호법](https://privacy.microsoft.com/en-US/#heading-0-0-2-1) 연방 정부 기관이 개인 식별이 가능한 정보(연방 공무원의 정보 포함)를 수집, 사용 및 공개하는 방법을 규제합니다. [개인 정보 보호 및 전자 문서법](https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-personal-information-protection-and-electronic-documents-act-pipeda/)(PIPEDA)은 은행, 항공사 및 전기통신 회사와 같은 연방 규제 비즈니스의 직원 및 상업용 영리 기업의 비즈니스 활동에 대해 동일하게 통제합니다.
 
 PIPEDA는 기업이 이 법안을 준수해야 할 경우 반드시 따라야 하는 열 가지 [공정 정보 규정](https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-personal-information-protection-and-electronic-documents-act-pipeda/p_principle/)에 기반하여 제정되었습니다. 예를 들어, 기본 동의 원칙에는 사용자의 개인 정보를 수집하거나 사용하는 데 대한 개인의 사용 권한을 조직이 알아야만 하는 PIPEDA 요구 사항이 뒤따릅니다. 개인이 해당 개인 정보에 액세스하고 정확도를 요구하는 권한을 모두 가질 수 있습니다("개별 액세스"의 원칙에 기초함). "식별 목적"의 원칙에는 개인 정보를 동의한 목적으로만 사용할 수 있다는 규칙이 뒤따릅니다.
 

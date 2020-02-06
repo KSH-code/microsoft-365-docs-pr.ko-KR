@@ -5,18 +5,21 @@ keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 208bf7d1e31f797ec24654d1c2cdfe374d1aafe3
-ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
+titleSuffix: Microsoft Compliance
+ms.openlocfilehash: a2ef9ff0521755bbb3000dd42b417ff57e398bbb
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39859568"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41602135"
 ---
 # <a name="my-number-act-japan"></a>마이넘버 법 (일본)
 
@@ -70,7 +73,7 @@ Microsoft는 클라우드 서비스에 저장된 마이넘버 데이터에 정�
 ## <a name="resources"></a>리소스
 
 - [Azure 규정 준수와 일본 보안 및 개인 정보 요구 사항](https://gallery.technet.microsoft.com/Azure-Compliance-and-the-53409748)
-- [Microsoft 개인 정보](https://privacy.microsoft.com/ko-KR/)
+- [Microsoft 개인 정보](https://privacy.microsoft.com/en-US/)
 - [Microsoft 개인 정보 취급 방침](https://privacy.microsoft.com/privacystatement)
 - [클라우드에서의 개인 정보 보호 고려 사항](https://download.microsoft.com/download/0/9/D/09DE47F6-F9E5-4C14-B9E8-E8119A130ACC/Privacy_considerations_in_the_cloud.pdf)
 - [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)

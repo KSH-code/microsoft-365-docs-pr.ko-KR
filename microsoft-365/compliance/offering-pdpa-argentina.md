@@ -5,18 +5,21 @@ keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 3bb251b888ba98bd1a815bde0aed0584a4a9bc13
-ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
+titleSuffix: Microsoft Compliance
+ms.openlocfilehash: 7419bc37b40bb7e2b9b2726c4672d7d8d481ab8b
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39859308"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41597915"
 ---
 # <a name="personal-data-protection-act-pdpa-argentina"></a>PDPA(개인 데이터 보호법) 아르헨티나
 

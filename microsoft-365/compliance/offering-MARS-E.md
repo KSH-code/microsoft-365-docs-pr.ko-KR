@@ -5,18 +5,21 @@ keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: 27ef305d8f8df0469ec4d6d5f98b5c96127f0387
-ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
+titleSuffix: Microsoft Compliance
+ms.openlocfilehash: b62e40ce317bc5a6bc817e5eade5b476542c5f04
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39859608"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41602175"
 ---
 # <a name="minimum-acceptable-risk-standards-for-exchanges-mars-e-20-framework"></a>거래소에 대한 최소 허용 위험 표준 (MARS-E) 2.0 프레임워크
 

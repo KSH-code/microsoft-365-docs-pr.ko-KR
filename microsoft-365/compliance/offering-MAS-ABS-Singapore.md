@@ -5,18 +5,21 @@ keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: e8755b89184b52b128e2f3c1060db6cf32e2f9e4
-ms.sourcegitcommit: eb0f255baff1f2856621cbc64a3f34a04be37be3
+titleSuffix: Microsoft Compliance
+ms.openlocfilehash: 2dafb9d99e1042b1cd810d35ed726fad72c7116a
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/05/2019
-ms.locfileid: "39859618"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41602185"
 ---
 # <a name="monetary-authority-of-singapore-mas-and-association-of-banks-in-singapore-abs"></a>싱가포르 통화청(MAS) 및 싱가포르 은행 연합(ABS)
 
@@ -40,24 +43,24 @@ MAS 지침은 기술 도입 프로세스를 매우 간소화합니다. 규제 �
 
 **MAS 지침 및 ABS 가이드에 대한 Microsoft의 대응**을 통해 금융 기관은 MAS 지침 및 ABS 가이드에서 제기된 핵심 이슈의 개요를 파악할 수 있습니다. 클라우드 서비스, 각 핵심 이슈에 대한 Microsoft의 설명 및 대응, MAS 지침 준수를 위한 Microsoft의 상세 지원 내용 등이 포함되어 있습니다. MAS와 ABS 지침은 별도로 처리합니다.
 
-**MAS 지침에 대한 Microsoft의 대응**은 아웃소싱에 대한 신중한 위험 관리 사례에 중점을 두고 있습니다. 여기에서는 Microsoft가 보유하고 있는 위험을 평가할 수 있는 올바른 정책, 프로세스, 도구가 어떤 것인지를 포인트 별로 설명하고, 비즈니스 클라우드 서비스를 평가하는 데 도움이 되는 체크리스트를 제공합니다. 또한, 거버넌스 및 내부 통제 프로세스를 설명합니다.
+**MAS 지침에 대한 Microsoft의 대응**은 아웃소싱에 대한 신중한 위험 관리 사례에 중점을 두고 있습니다. 여기에서는 Microsoft가 보유하고 있는 위험을 평가할 수 있는 올바른 정책, 프로세스, 도구가 어떤 것인지를 포인트별로 설명하고, 비즈니스 클라우드 서비스를 평가하는 데 도움이 되는 체크리스트를 제공합니다. 또한, 거버넌스 및 내부 통제 프로세스를 설명합니다.
 
 **ABS 가이드에 대한 Microsoft의 대응**은 항목 3과 항목 4에 중점을 둡니다.
 
 - 항목 3은 계약상 고려 사항에 관련된 상세 문제를 다루고 MAS 지침의 실사 및 공급업체 관리 요구 사항을 기반으로 작성되었습니다. Microsoft 공급업체 관리 도구 및 실사 평가 중에 제공 가능한 지원에 대한 자세한 정보를 제공합니다. 
 - 항목 4에서는 암호화, 침입 관리, 취약점 관리와 같이 클라우드 서비스 공급자가 은행과 함께 일할 때 갖춰야 하는 핵심 기본 제어 세트를 추천합니다. Microsoft는 지정된 각 제어 부문의 보안 문제를 어떻게 해결하는지를 설명합니다.
 
-MAS 지침을 준수하면서 Microsoft 클라우드로 데이터 및 워크로드를 옮길 때 유용한 지원받기
+MAS 지침을 준수하면서 Microsoft 클라우드로 데이터 및 워크로드를 이동하는 데 있어 실용적인 지원 받기
 
 [클라우드로 가는 방법: MAS 아웃소싱 지침 및 ABS 가이드에 대한 Microsoft의 대응 다운로드](https://download.microsoft.com/download/3/E/8/3E80AACD-86A0-478E-BF94-DDBDA5B2E8AF/Navigating%20a%20Path%20to%20the%20Cloud%20-%20Singapore.pdf)
 
 싱가포르의 금융 기관을 위한 규정 준수 체크리스트
 
-이 문서에는 싱가포르의 관련 요구 사항을 소개하는 규제 상황 개요 및 규제에 관련된 문제를 나열하고 Microsoft 클라우드 서비스와 이 문제를 매핑한 규정 준수 체크리스트가 포함되어 있습니다. 금융 기관에서 포인트 별로 체크리스트를 검토하고 완성하면 싱가포르의 관련 요구 사항을 준수하면서 Microsoft 클라우드 서비스를 자신있게 도입할 수 있습니다.
+이 문서에는 싱가포르의 관련 요구 사항을 소개하는 규제 상황 개요 및 규제에 관련된 문제를 나열하고 Microsoft 클라우드 서비스와 이 문제를 매핑한 규정 준수 체크리스트가 포함되어 있습니다. 금융 기관에서 포인트별로 체크리스트를 검토하고 완성하면 싱가포르의 관련 요구 사항을 준수하면서 Microsoft 클라우드 서비스를 자신 있게 도입할 수 있습니다.
 
-클라우드에서의 위험 보장에 대한 Microsoft의 종합적인 접근 방식을 채택하면 싱가포르 금융 기관이 MAS 지침 및 ABS 가이드를 준수하면서 Microsoft 클라우드로 옮길 수 있다고 자신합니다. 또한, Microsoft는 많은 온-프레미스 솔루션보다 진보된 보안 위험 관리 프로필을 제공합니다.
+Microsoft는 클라우드에서의 위험 보장에 대한 Microsoft의 종합적인 접근 방식을 채택하면 싱가포르의 금융 기관이 MAS 지침 및 ABS 가이드를 준수하면서 Microsoft 클라우드로 옮길 수 있다고 자신합니다. 또한 Microsoft는 여러 온-프레미스 솔루션보다 진보된 보안 위험 관리 프로필을 제공합니다.
 
-MAS 지침을 준수하면서 Microsoft 클라우드로 데이터 및 워크로드를 옮길 때 유용한 지원받기
+MAS 지침을 준수하면서 Microsoft 클라우드로 데이터 및 워크로드를 이동하는 데 있어 실용적인 지원 받기
 
 [싱가포르 금융 기관을 위한 규정 준수 체크리스트 다운로드](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=37557722-d5ed-419b-9365-2762982bacbf&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_Compliance_Guides)
 
@@ -69,7 +72,7 @@ MAS 지침을 준수하면서 Microsoft 클라우드로 데이터 및 워크로�
 - 독립형 서비스 혹은 Office 365에 브랜딩된 플랜 또는 제품군에 포함된 형태로서의 Power BI 클라우드 서비스
 - [Office 365](https://aka.ms/o365-compliance-framework)
 
-## <a name="frequently-asked-questions"></a>자주하는 질문
+## <a name="frequently-asked-questions"></a>자주 하는 질문
 
 **규제적 승인이 필요한가요?**
 
@@ -77,7 +80,7 @@ MAS 지침을 준수하면서 Microsoft 클라우드로 데이터 및 워크로�
 
 **“실질적” 아웃소싱 계약은 무엇이고, 이 의미를 파악하는 것이 중요한 이유는 무엇인가요?**
 
-만약 서비스 실패나 위반이 금융 기관의 비즈니스 운영이나 위험을 관리하고 해당 법률 및 규정을 준수할 능력에 실질적으로 영향을 미칠 경우에 이 아웃소싱 계약은 실질적입니다. 또한, 고객 정보가 관련되어 있고 고객 정보에 대한 승인받지 않은 액세스, 공개, 손상, 도난 등이 발생하는 경우에 이 아웃소싱 계약이 회사의 고객에 실질적 영향을 미친다고 합니다. “고객 정보”의 정의는 안전하게 암호화된 정보를 명시적으로 배제합니다.
+만약 서비스 실패나 위반이 금융 기관의 비즈니스 운영이나 위험을 관리하고 해당 법률 및 규정을 준수할 능력에 실질적으로 영향을 미칠 경우에 이 아웃소싱 계약은 “실질적”입니다. 또한, 고객 정보가 관련되어 있고 고객 정보에 대한 승인받지 않은 액세스, 공개, 손상, 도난 등이 발생하는 경우에 이 아웃소싱 계약이 회사의 고객에 실질적 영향을 미친다고 합니다. “고객 정보”의 정의는 안전하게 암호화된 정보를 명시적으로 배제합니다.
 
 MAS 아웃소싱 지침의 특정 항목은 “명시적 아웃소싱 계약”에만 적용되기 때문에, 이 정의가 중요합니다. 여기에는 연차 보고, 감사 권리를 다루는 의무 계약 조항, 싱가포르 역외의 아웃소싱이 MAS의 감독 행위에 영향을 주지 않도록 할 의무가 포함됩니다.
 
