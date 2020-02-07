@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 365에서 콘텐츠를 보존 하는 보존 레이블을 만들 때 보존 기간이 끝나면 처리 검토를 트리거하도록 선택할 수 있습니다.
-ms.openlocfilehash: 267b2bc7a8bc65e3a816c2d3d88397589734b55d
-ms.sourcegitcommit: 2913fd74ad5086c7cac6388447285be9aa5a8e44
+ms.openlocfilehash: d308dcc58bbacf118374bbabdebf27c35ad2d73a
+ms.sourcegitcommit: 30ffa701a26879182ac16baba67ea2dfaf680fba
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "41661934"
+ms.lasthandoff: 02/06/2020
+ms.locfileid: "41836718"
 ---
 # <a name="overview-of-disposition-reviews"></a>처리 검토 개요
 
@@ -37,7 +37,7 @@ ms.locfileid: "41661934"
     
 Microsoft 365 준수 센터, Microsoft 365 보안 센터 또는 Office 365 보안 & 준수 센터에서 보존 레이블을 만들 때 보존 기간이 끝나면 처리 검토를 트리거하도록 선택할 수 있습니다. 처리 검토에서 다음을 수행 합니다.
   
-- 선택한 사용자는 검토할 콘텐츠가 있는 전자 메일 알림을 받습니다. 이러한 검토자는 개별 사용자, 메일 그룹 또는 Office 365 그룹이 될 수 있습니다. 알림은 주 단위로 전송 됩니다.
+- 선택한 사용자는 검토할 콘텐츠가 있는 전자 메일 알림을 받습니다. 알림은 주 단위로 전송 됩니다.
     
 - 검토자가 보안 &amp; 및 준수 센터의 **처리** 페이지로 이동 하 여 콘텐츠를 검토 합니다. 검토자는 처리를 위해 대기 중인 각 보존 레이블의 수를 확인 한 다음 보존 레이블을 선택 하 여 해당 레이블이 있는 모든 콘텐츠를 볼 수 있습니다.
     
@@ -72,7 +72,7 @@ Microsoft 365 준수 센터, Microsoft 365 보안 센터 또는 Office 365 보�
 ![레이블에 대 한 보존 설정](media/a16dd202-8862-40ac-80ff-6fee974de5da.png)
  
 > [!NOTE]
-> **검토할 준비가 된 항목이 있을 때 이러한 사용자에 게 알리도록**옵션을 지정 하는 경우 사용자 또는 메일 사용이 가능한 보안 그룹을 지정 합니다. 이 옵션은 Office 365 그룹을 지원 하지 않습니다.
+> **검토할 준비가 된 항목이 있을 때 이러한 사용자에 게 알리도록**옵션을 지정 하는 경우 사용자를 지정 합니다. 이 옵션은 Office 365 그룹을 지원 하지 않습니다.
 
 ## <a name="disposing-content"></a>콘텐츠 삭제
 
@@ -100,15 +100,13 @@ Microsoft 365 준수 센터, Microsoft 365 보안 센터 또는 Office 365 보�
   
 ## <a name="permissions-for-disposition"></a>처리 권한
 
-**처리** 페이지에 대 한 액세스 권한을 얻으려면 검토자가 **처리 관리** 역할 및 **보기 전용 감사 로그** 역할의 구성원 이어야 합니다. **처리 검토자**라는 새 역할 그룹을 만들고이 두 역할을 해당 역할 그룹에 추가 하는 것이 좋습니다. 
+**처리** 페이지에 액세스 하려면 검토자에 게 **처리 관리** 역할 및 **보기 전용 감사 로그** 역할을 할당 해야 합니다. 역할 할당에 대 한 [지침을 봅니다](../security/office-365-security/grant-access-to-the-security-and-compliance-center.md) .
 
 **보기 전용 감사 로그** 역할에 한정 됩니다.
 
 - 감사 로그를 검색 하는 데 사용 되는 기본 cmdlet은 Exchange Online cmdlet 이므로 보안 & 준수 센터의 **사용 권한** 페이지를 사용 하는 대신 [Exchange online의 exchange 관리 센터](https://docs.microsoft.com/Exchange/exchange-admin-center)를 사용 하 여 사용자에 게이 역할을 할당 해야 합니다. 자세한 내용은 [Exchange Online에서 역할 그룹 관리](https://docs.microsoft.com/Exchange/permissions-exo/role-groups)를 참조 하십시오.
 
-- 이 역할에 대 한 Office 365 그룹은 지원 되지 않습니다. 대신 사용자 사서함, 메일 사용자 또는 메일 사용이 가능한 보안 그룹을 할당 합니다.
-
-사용자에 게 **처리 관리** 역할을 부여 하 고 새 **처리 검토자** 역할을 만드는 방법에 대 한 지침은 [사용자에 게 Office 365 &amp; 보안 및 준수 센터에](../security/office-365-security/grant-access-to-the-security-and-compliance-center.md)대 한 액세스 권한을 부여를 참조 하세요.
+- 이 역할에 대 한 Office 365 그룹은 지원 되지 않습니다. 대신 사용자 사서함 또는 메일 사용자를 할당 합니다.
   
 ## <a name="how-long-until-disposed-content-is-permanently-deleted"></a>삭제 된 콘텐츠가 영구적으로 삭제 될 때 까지의 기간
 
