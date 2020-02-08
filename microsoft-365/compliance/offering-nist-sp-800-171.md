@@ -1,7 +1,7 @@
 ---
 title: NIST SP 800 – 171
 description: Microsoft 클라우드 서비스는 NIST SP 800을 준수 하며, 비 연방 정보 시스템에서 통제 되지 않은 171 (미분류 정보)를 보호 하기 위한 지침입니다.
-keywords: Microsoft 365, 규정 준수, 제품
+keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 070ec3977768d131e4e4d9c2f493e630a1a707c9
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: a08932d4f16a17b35fef11cdcd8243c96060a4b5
+ms.sourcegitcommit: 82e6b56d7265f8389b0af8baf51acb3013d88754
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601895"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41851785"
 ---
 # <a name="nist-sp-800171"></a>NIST SP 800 – 171
 
@@ -40,7 +40,7 @@ Microsoft와 제휴 하는 타사 평가 조직, Kratos Secureinfo 및 Coalfire�
 
 NIST SP 800-171 요구 사항은 FedRAMP에서 사용 하는 표준인 NIST SP 800-53의 하위 집합입니다. 부록 D-NIST SP 800-171는 FedRAMP 프로그램에서 범위 내 클라우드 서비스가 이미 평가 되 고 승인 된 NIST SP 800-53의 관련 보안 제어에 대 한 개인 보안 요구 사항을 직접 매핑합니다.
 
-US 정부 기관, 컨설팅 회사, 제조 계약자 등을 처리 하거나 저장 하는 모든 엔터티가 NIST SP 800-171의 엄격한 요구 사항을 준수 해야 합니다. 이 증명은 microsoft가 전체 규정 준수로 인 한 보증을 통해 공동 작업을 배포 하려는 고객에 게 지원 서비스를 제공할 수 있음을 의미 합니다. 예를 들어 해당 정보 시스템에서 범위 내 Microsoft 클라우드 서비스를 사용 하 여 "포함 된 방어 정보"를 처리, 저장 또는 전송 하는 모든 DoD 계약자는 보안과 준수 해야 하는 방어 DFARS 절의 US 부서를 충족 합니다. NIST SP 800-171 요구 사항
+US 정부 기관, 컨설팅 회사, 제조 계약자 등을 처리 하거나 저장 하는 모든 엔터티가 NIST SP 800-171의 엄격한 요구 사항을 준수 해야 합니다. 이 증명은 microsoft가 전체 규정 준수로 인 한 보증을 통해 공동 작업을 배포 하려는 고객에 게 지원 서비스를 제공할 수 있음을 의미 합니다. 예를 들어 해당 정보 시스템에서 범위 내 Microsoft 클라우드 서비스를 사용 하 여 ' 포함 된 방어 정보 '를 처리, 저장 또는 전송 하는 모든 DoD 계약자는 보안과 준수 해야 하는 방어 DFARS 절의 US 부서를 충족 합니다. NIST SP 800-171 요구 사항
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 범위 내 클라우드 서비스
 
@@ -62,6 +62,10 @@ US 정부 기관, 컨설팅 회사, 제조 계약자 등을 처리 하거나 저
 **조직에서 Microsoft 준수를 NIST SP 800 – 171에 사용할 수 있나요?**
 
 예. Microsoft 고객은 FedRAMP 표준에 대 한 독립 타사 평가 조직 (3PAO)의 보고서에 설명 된 감사 되는 컨트롤을 고유한 FedRAMP 및 NIST 위험 분석 및 한정 노력의 일부로 사용할 수 있습니다. 이러한 보고서는 Microsoft가 해당 범위 내 클라우드 서비스에서 구현한 컨트롤의 효율성을 보증 합니다. 고객은 171 규정을 준수 하 고 NIST SP 800?
+
+## <a name="use-microsoft-compliance-score-to-assess-your-risk"></a>Microsoft 준수 점수를 사용 하 여 위험 평가
+
+[Microsoft 준수 점수가](compliance-score.md) [microsoft 365 준수 센터](microsoft-365-compliance-center.md) 의 미리 보기 기능을 통해 조직의 규정 준수 상태를 이해 하 고 위험을 줄일 수 있는 조치를 취할 수 있습니다. [규정 준수 점수를 설정한](compliance-score-setup.md)후에는 미리 구성 된 [NIST 800-171 서식 파일](https://go.microsoft.com/fwlink/?linkid=2117526) 을 사용 하 여 조직이이 규정 요구 사항을 충족 하는 데 도움을 받을 수 있습니다.
 
 ## <a name="resources"></a>리소스
 

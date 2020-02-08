@@ -1,5 +1,7 @@
 ---
 title: 보존 레이블 및 DLP를 사용하여 SharePoint Online 파일 보호
+f1.keywords:
+- NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -18,12 +20,12 @@ ms.custom:
 - Ent_Solutions
 ms.assetid: c9f837af-8d71-4df1-a285-dedb1c5618b3
 description: '요약: 다양한 정보 보호 수준을 통해 SharePoint Online 팀 사이트에 보존 레이블 및 DLP(데이터 손실 방지) 정책을 적용합니다.'
-ms.openlocfilehash: c40261df8203841e3627a0d7a0c09c7f88a02a6b
-ms.sourcegitcommit: 58a7bd70a4bcf52530baf5f82507fd5dc4455fd9
+ms.openlocfilehash: ad333007b2efdcf577f1c31afc716c525a7abf7e
+ms.sourcegitcommit: a53ec6ab7bf59983780ea7187cd5d56b8b1f4b33
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "39668876"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41855377"
 ---
 # <a name="protect-sharepoint-online-files-with-retention-labels-and-dlp"></a>보존 레이블 및 DLP를 사용하여 SharePoint Online 파일 보호
 
@@ -221,9 +223,7 @@ SharePoint Online 팀 사이트에 보존 레이블을 만들고 할당하는 �
     
 ## <a name="see-also"></a>참고 항목
 
-[SharePoint Online 사이트 및 파일 보호](../security/office-365-security/secure-sharepoint-online-sites-and-files.md)
-  
-[정치적 캠페인, 비영리 조직 및 기타 기밀 조직을 위한 Microsoft 보안 지침](../security/office-365-security/microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o.md)
+[정치적 캠페인, 비영리 조직 및 기타 기밀 조직에 대한 Microsoft 보안 지침](../security/office-365-security/microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o.md)
   
 [클라우드 도입 및 하이브리드 솔루션](https://docs.microsoft.com/office365/enterprise/cloud-adoption-and-hybrid-solutions)
 

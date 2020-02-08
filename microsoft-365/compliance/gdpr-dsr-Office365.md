@@ -15,12 +15,12 @@ ms.collection:
 - GDPR
 - M365-security-compliance
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 71cadaee5c9b4ddad83a02ed434afd6197fe8e00
-ms.sourcegitcommit: a6686a68b068adec29b72f998ac9bc95992981df
+ms.openlocfilehash: 4e5ee52f9158df64e80f057adcfbf49c45f6dc31
+ms.sourcegitcommit: d4941dd0b598fb315e2c87083246ec3b26bbc032
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "41628124"
+ms.lasthandoff: 02/05/2020
+ms.locfileid: "41779033"
 ---
 # <a name="office-365-data-subject-requests-for-the-gdpr-and-ccpa"></a>GDPR 및 CCPA에 대한 Office 365 데이터 주체 요청
 
@@ -1581,61 +1581,18 @@ Workplace Analytics 보고서 또는 보고서 집합에서 데이터 주체를 
 
 ### <a name="accessing-and-exporting-system-generated-logs"></a>시스템 생성 로그 액세스 및 내보내기
 
-관리자는 Office 365 서비스 및 응용 프로그램의 특정 사용자의 사용과 관련된 시스템 생성 로그에 액세스할 수 있습니다. 시스템 생성 로그를 액세스하고 내보내려면 다음을 수행합니다.
+"데이터 이식성의 권한”이 있는 경우 데이터 제목에서 다른 데이터 컨트롤러로 전송할 수 있는 해당 개인 데이터의 사본을 전자 형식으로 요청할 수 있습니다. Azure는 조직이 네이티브 JSON 형식의 데이터를 지정된 Azure Storage Container로 내보내어 이를 지원합니다.
 
-1. [Microsoft 서비스 보안 포털](https://servicetrust.microsoft.com/)로 이동한 후 Office 365 전역 관리자의 자격 증명을 사용하여 로그인합니다.
+>[!IMPORTANT]
+>테넌트에서 사용자 데이터를 내보내려면 테넌트 관리자여야 합니다.
 
-2. 페이지 위쪽의 **개인 정보 보호** 드롭다운 목록에서 **데이터 주체 요청**을 클릭합니다.
+#### <a name="azure-active-directory"></a>Azure Active Directory
 
-3. **데이터 주체 요청** 페이지의 **시스템 생성 로그**에서 **데이터 로그 내보내기**를 클릭합니다.
+고객 데이터와 관련해서, Microsoft는 엔터프라이즈 고객의 테넌트 관리자에게 최종 사용자에 대한 식별 가능 정보의 내보내기 요청을 관리하는 기능을 지원하는 포털 및 제품 내 환경을 제공합니다.
 
-    **데이터 로그 내보내기**가 표시됩니다. 조직이 제출한 데이터 내보내기 요청 목록이 표시됩니다.
+#### <a name="service-specific-interfaces"></a>서비스 관련 인터페이스
 
-4. 사용자에 대한 요청을 만들려면 **데이터 내보내기 요청 만들기**를 클릭합니다.
-
-요청을 생성하면 요청이 **데이터 로그 내보내기** 페이지에 나열되어 요청 상태를 추적할 수 있습니다. 요청이 완료되면 링크를 클릭하여 시스템 생성 로그에 액세스 할 수 있고, 시스템 생성 로그는 요청 생성 후 30 일 이내에 조직의 Azure 저장소 위치로 내보낼 수 있습니다. 데이터는 JSON 또는 XML과 같이 일반적으로 컴퓨터에서 읽을 수 있는 파일 형식으로 저장됩니다. Azure 계정 및 Azure 저장소 위치가 없는 경우 데이터 로그 내보내기 도구가 시스템 생성 로그를 내보낼 수 있도록 조직에 대한 Azure 계정 및/또는 Azure 저장 위치를 만들어야 합니다. 자세한 내용은 [Azure Storage 소개](https://docs.microsoft.com/azure/storage/common/storage-introduction)를 참조합니다.
-
->[!NOTE]
->데이터 내보내기 요청을 만들 때 일부 응용 프로그램에 대한 시스템 생성 데이터가 데이터 로그 내보내기 도구를 통해 내보내지지 않습니다. 이러한 응용 프로그램에 대한 데이터를 내보내려면 [시스템 생성 로그 데이터를 내보내는 추가 단계](https://docs.microsoft.com/microsoft-365/compliance/gdpr-system-generated-log-data)를 참조하세요.
-
-다음에서는 데이터 로그 내보내기 도구를 사용하여 시스템 생성 로그를 액세스하고 내보내는 방법을 요약해서 설명합니다.
-
-- **Microsoft 데이터 로그 내보내기 도구에서 요청을 완료하는 데 걸리는 시간:** 이는 몇 가지 요인에 따라 다를 수 있습니다. 보통 1일이나 2일 후에 완료 되지만 최대 30일이 걸릴 수 있습니다.
-
-- **출력 형식:** 컴퓨터에서 읽을 수 있는 구조화 된 파일(예: XML, CSV 또는 JSON)로 출력됩니다.
-
-- **데이터 로그 내보내기 도구에 액세스하여 시스템 생성 로그에 대한 액세스 요청을 제출할 수 있는 사용자는 누구인가요?:** Office 365 전역 관리자는 GDPR 로그 관리자 유틸리티에 액세스할 수 있습니다.
-
-- **데이터 로그 내보내기 도구에서 반환하는 데이터는 무엇인가요?** : 데이터 로그 내보내기 도구는 Microsoft에서 저장하는 시스템 생성 로그를 반환합니다. 내보낸 데이터는 Office 365, Azure 및 Dynamics를 포함하여 다양한 Microsoft 서비스에 걸쳐져 있습니다.
-
-- **데이터는 어떻게 사용자에게 반환되나요?:** 데이터는 조직의 Azure Storage 위치로 내보내집니다. 이 데이터를 사용자에게 표시/반환하는 방식은 조직의 관리자가 결정합니다.
-
-- **시스템 생성 로그의 데이터는 어떤 모습으로 표시되나요?:** JSON 형식의 시스템 생성 로그 레코드 예:
-
-   ```JSON
-   [{
-            "DateTime": "2017-04-28T12:09:29-07:00",
-             "AppName": "SharePoint",
-             "Action": "OpenFile",
-             "IP": "154.192.13.131",
-             "DevicePlatform": "Windows 1.0.1607"
-   }]
-   ```
-
->[!NOTE]
->일부 기능은 보안 및 감사를 이유로, 이러한 정보의 무결성을 유지하기 위해 개인 정보가 포함된 시스템 생성 로그의 내보내기나 삭제를 허용하지 않습니다.
-
-Exchange Online, SharePoint Online, 비즈니스용 Skype, Yammer 및 Office 365 그룹과 같이 Microsoft에서 가장 자주 사용하는 일부 제품 및 서비스 사용 데이터는 보안 & 준수 센터에서 Office 365 감사 로그를 검색하여 얻을 수 있습니다. 자세한 내용은 부록 A의 [DSR 조사에서 Office 365 감사 로그 검색 도구 사용](#use-the-office-365-audit-log-search-tool-in-dsr-investigations)을 참조합니다. 감사 로그를 사용하면 조직의 다른 사람 (예 : 규정 준수 담당자)에게 권한을 할당해서 이 데이터에 액세스하여 감사 로그를 검색할 수 있기 때문에 사용자가 원하던 것일 수 있습니다.
-
-#### <a name="national-clouds"></a>국가별 클라우드
-
-전역 IT 관리자는 다음과 같은 국가별 클라우드에서 시스템 생성 로그를 내보내려면 다음을 수행해야 합니다.
-
-- Office 365 Germany - [독일의 Microsoft Service Trust Portal로 이동](https://aka.ms/MicrosoftSTPGermany)한 후 위에 설명된 단계를 완료합니다.
-
-- Office 365 미국 정부: [Office 365 관리 포털로 이동](https://portal.office365.us)한 후 Microsoft 지원 서비스에 요청을 제출합니다.
-
-- 21Vianet에서 운영하는 Office 365(중국) - [21Vianet에서 운영하는 Office 365 관리 포털로 이동](https://portal.partner.microsoftonline.cn/AdminPortal/Home#/homepage)한 후 **상거래** > **구독** > **개인 정보** > **GDPR**로 가서 필수 정보를 입력합니다.
+Microsoft에서는 특정 서비스의 기존 API(응용 프로그래밍 인터페이스) 또는 UI(사용자 인터페이스)를 통해 직접 고객 데이터를 검색하는 기능을 제공합니다. 세부 사항은 해당 CRUD(만들기, 읽기, 업데이트, 삭제) 작업을 설명하는 서비스의 참조 설명서에 나와 있습니다.
 
 ### <a name="deleting-system-generated-logs"></a>시스템 생성 로그 삭제
 

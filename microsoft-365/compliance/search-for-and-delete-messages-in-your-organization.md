@@ -1,5 +1,7 @@
 ---
 title: Office 365 조직의 전자 메일 메시지 검색 및 삭제
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -15,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 3526fd06-b45f-445b-aed4-5ebd37b3762a
 description: Office365 보안 및 준수 센터의 검색 및 지우기 기능을 사용하여 조직의 모든 사서함에서 전자 메일 메시지를 검색하고 삭제할 수 있습니다.
-ms.openlocfilehash: 53ec50ddd42e1d17580f4b1581ef8d8fe02f97bf
-ms.sourcegitcommit: 3dca80f268006658a0b721aa4f6df1224c7964dc
+ms.openlocfilehash: 27340bf832feee0dc7b5222f187816b0dfa1bb59
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/22/2020
-ms.locfileid: "41259976"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41601555"
 ---
 # <a name="search-for-and-delete-email-messages-in-your-office-365-organization"></a>Office 365 조직의 전자 메일 메시지 검색 및 삭제
 
@@ -43,7 +45,7 @@ Office365의 콘텐츠 검색 기능을 사용하여 조직의 모든 사서함�
     
 - 메시지를 삭제하려면 보안 및 준수 센터 PowerShell을 사용해야 합니다. 연결하는 방법에 대한 자세한 내용은 [2단계](#step-2-connect-to-security--compliance-center-powershell)를 참조하세요.
     
-- 사서함마다 한 번에 최대 10개의 항목을 제거할 수 있습니다. 메시지를 검색하고 제거하는 기능은 인시던트 응답 도구로 고안되었으므로 이러한 제한은 사서함에서 메시지가 빠르게 제거되도록 합니다. 이 기능은 사용자 사서함을 정리하기 위한 것이 아닙니다. 10개를 초과하는 항목을 삭제하려면 Exchange Online PowerShell에서 **Search-Mailbox -DeleteContent** 명령을 사용할 수 있습니다. [메시지 검색 및 삭제](search-for-and-delete-messagesadmin-help.md)를 참조하세요.
+- 사서함마다 한 번에 최대 10개의 항목을 제거할 수 있습니다. 메시지를 검색하고 제거하는 기능은 인시던트 응답 도구로 고안되었으므로 이러한 제한은 사서함에서 메시지가 빠르게 제거되도록 합니다. 이 기능은 사용자 사서함을 정리하기 위한 것이 아닙니다.
     
 - 콘텐츠 검색에서 검색 및 삭제 작업을 수행하여 항목을 삭제할 수 있는 최대 사서함 수는 50,000개입니다. [1단계](#step-1-create-a-content-search-to-find-the-message-to-delete)에서 만든 콘텐츠 검색에 50,000개를 초과하는 원본 사서함이 있는 경우 3단계에서 만드는 삭제 작업이 실패합니다. 50,000개 이상의 사서함에 대해 검색 및 삭제 작업을 수행하는 방법에 대한 자세한 내용은 [추가 정보](#more-information) 섹션을 참조하세요. 
     

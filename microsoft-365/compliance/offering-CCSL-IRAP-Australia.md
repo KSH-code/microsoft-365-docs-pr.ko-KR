@@ -1,7 +1,7 @@
 ---
 title: 오스트레일리아 정부 공인 클라우드 서비스 목록 (CCSL)
 description: Microsoft는 호주 사이버 보안 센터 (ACSC)에의 한 IRAP 평가 및 인증을 기반으로 하는 보호 된 데이터와 미분류 보급 제한 표식 (DLM)에 대 한 오스트레일리아 공인 클라우드 서비스 목록에 포함 되어 있습니다.
-keywords: Microsoft 365, 규정 준수, 제품
+keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 3cbc0008841456e91dd2ffe6a9e5c78fba0ba43d
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 87bb8faa13f34fbe299b6de82bdd9099eaaff5aa
+ms.sourcegitcommit: 82e6b56d7265f8389b0af8baf51acb3013d88754
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602675"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41851855"
 ---
 # <a name="australian-government-information-security-registered-assessor-program-irap"></a>오스트레일리아 정부 정보 보안 등록 된 평가자 Program (IRAP)
 
@@ -85,6 +85,10 @@ IRAP는 클라우드 서비스를 사용 하는 모든 오스트레일리아 연
 - [IRAP 평가 란?](https://acsc.gov.au/infosec/irap/irap_assessments.htm)
 - [IRAP 교육을 제공 하는 사람은 누구 인가요?](https://acsc.gov.au/infosec/irap/training.htm)
 - [규정 준수 및 비호환 요구 사항 정보](https://acsc.gov.au/infosec/irap/compliance.htm)
+
+## <a name="use-microsoft-compliance-score-to-assess-your-risk"></a>Microsoft 준수 점수를 사용 하 여 위험 평가
+
+[Microsoft 준수 점수가](compliance-score.md) [microsoft 365 준수 센터](microsoft-365-compliance-center.md) 의 미리 보기 기능을 통해 조직의 규정 준수 상태를 이해 하 고 위험을 줄일 수 있는 조치를 취할 수 있습니다. [규정 준수 점수를 설정한](compliance-score-setup.md)후에는 미리 구성 된 [irap 서식 파일](https://go.microsoft.com/fwlink/?linkid=2117913) 을 사용 하 여 조직이이 규정 요구 사항을 충족 하는 데 도움을 받을 수 있습니다.
 
 ## <a name="resources"></a>리소스
 

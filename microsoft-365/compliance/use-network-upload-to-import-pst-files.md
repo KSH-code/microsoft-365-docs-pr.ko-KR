@@ -1,5 +1,7 @@
 ---
 title: 네트워크 업로드를 사용하여 조직의 PST 파일을 가져오기
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -16,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: 103f940c-0468-4e1a-b527-cc8ad13a5ea6
 description: '관리자: 네트워크 업로드를 사용하여 Office 365의 사용자 사서함으로 여러 PST 파일을 대량으로 가져오는 방법에 대해 알아봅니다.'
-ms.openlocfilehash: a66655fd03a379d56e31ca0960f433d659265edc
-ms.sourcegitcommit: cf7b0fd80ecfb7a216111a801269c5322794795e
+ms.openlocfilehash: 2db98c36091e6cc5be2eb5fa451b76a66f8ac49f
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/09/2020
-ms.locfileid: "40995298"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41601345"
 ---
 # <a name="use-network-upload-to-import-your-organizations-pst-files-to-office-365"></a>네트워크 업로드를 사용하여 조직의 PST 파일을 Office 365로 가져오기
 

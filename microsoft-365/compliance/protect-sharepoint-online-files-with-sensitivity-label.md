@@ -1,5 +1,7 @@
 ---
 title: 민감도 레이블을 사용하여 SharePoint Online 파일 보호
+f1.keywords:
+- NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -18,12 +20,12 @@ ms.custom:
 - Ent_Solutions
 ms.assetid: 5b9c8e41-25d2-436d-89bb-9aecb9ec2b80
 description: '요약: Azure Information Protection을 적용하여 극비 SharePoint Online 팀 사이트의 파일을 보호합니다.'
-ms.openlocfilehash: 51950bd3c9790dedd2801e98234ff16470db6421
-ms.sourcegitcommit: 58a7bd70a4bcf52530baf5f82507fd5dc4455fd9
+ms.openlocfilehash: 296d5774b13699c25efda6d036e097344d4fefeb
+ms.sourcegitcommit: a53ec6ab7bf59983780ea7187cd5d56b8b1f4b33
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "39668806"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41855367"
 ---
 # <a name="protect-sharepoint-online-files-with-a-sensitivity-label"></a>민감도 레이블을 사용하여 SharePoint Online 파일 보호
 
@@ -34,7 +36,7 @@ ms.locfileid: "39668806"
 SharePoint Online의 파일에 대해 민감도 레이블을 사용하는 것이 모든 고객에게 권장되는 것은 아니지만 일부 파일에 대해 이러한 수준의 보호가 필요한 고객에게는 적절할 수 있습니다.
 
 이 솔루션에 대한 몇 가지 중요 참고 사항은 다음과 같습니다.
-- Office 365에 저장된 파일에 암호화가 적용되어 있으면 이 파일의 내용을 처리할 수 없습니다. 즉 공동 작성, eDiscovery, 검색, Delve 및 기타 공동 작업 기능이 작동하지 않습니다. DLP(데이터 손실 방지) 정책은 메타데이터(Office 365 레이블 포함)에만 작동할 수 있지만 파일의 내용(예: 파일 내의 신용 카드 번호)에는 작동할 수 없습니다.
+- 조직에서 [SharePoint 및 OneDrive의 Office 파일에 대해 민감도 레이블을 사용(공개 미리보기)](/microsoft-365/compliance/sensitivity-labels-sharepoint-onedrive-files)하도록 설정하지 않은 경우: Office 365에 저장된 파일에 암호화가 적용되어 있으면 이 파일의 내용을 처리할 수 없습니다. 즉 공동 작성, eDiscovery, 검색, Delve 및 기타 공동 작업 기능이 작동하지 않습니다. DLP(데이터 손실 방지) 정책은 메타데이터(Office 365 레이블 포함)에만 작동할 수 있지만 파일의 내용(예: 파일 내의 신용 카드 번호)에는 작동할 수 없습니다.
 
 - 이 솔루션을 사용하려면 사용자가 보호를 적용할 레이블을 선택해야 합니다. 자동 암호화 및 SharePoint에서 파일을 색인화하고 검사하는 기능이 필요한 경우 SharePoint Online에서 IRM (정보 권한 관리)을 사용하는 것이 좋습니다. IRM에 대해 SharePoint 라이브러리를 구성하면 파일은 편집을 위해 다운로드될 때 자동으로 암호화됩니다.  SharePoint IRM에는 결정에 영향을 줄 수 있는 제한 사항이 포함되어 있습니다. 자세한 내용은 [SharePoint 관리 센터의 IRM (정보 권한 관리) 설정](https://support.office.com/article/Set-up-Information-Rights-Management-IRM-in-SharePoint-admin-center-239CE6EB-4E81-42DB-BF86-A01362FED65C)을 참조합니다.
 
@@ -67,8 +69,6 @@ SharePoint Online의 파일에 대해 민감도 레이블을 사용하는 것이
 
 ## <a name="see-also"></a>참고 항목
 
-[SharePoint Online 사이트 및 파일 보호](../security/office-365-security/secure-sharepoint-online-sites-and-files.md)
-  
-[정치적 캠페인, 비영리 조직 및 기타 기밀 조직을 위한 Microsoft 보안 지침](/security/office-365-security/microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o.md)
+[정치적 캠페인, 비영리 조직 및 기타 기밀 조직에 대한 Microsoft 보안 지침](/security/office-365-security/microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o.md)
   
 [클라우드 도입 및 하이브리드 솔루션](https://docs.microsoft.com/office365/enterprise/cloud-adoption-and-hybrid-solutions)

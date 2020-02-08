@@ -5,6 +5,8 @@ keywords: Microsoft 365, Microsoft 365 Education, Microsoft 365 설명서, GDPR,
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -13,12 +15,13 @@ ms.collection:
 - GDPR
 - M365-security-compliance
 hideEdit: true
-ms.openlocfilehash: ca3da7e4fcfc5e639ea29b41f92fbfbb2711d450
-ms.sourcegitcommit: 7713e777731025c165e9e936198609503ade5665
+titleSuffix: Microsoft GDPR
+ms.openlocfilehash: fee4e0472a6d9b08bdab4c5340097d4222aac1d9
+ms.sourcegitcommit: 836bd8135cc49d6db37e78a7cfeb7d2cc4159e4e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "39268607"
+ms.lasthandoff: 02/04/2020
+ms.locfileid: "41722019"
 ---
 # <a name="dynamics-365-data-subject-requests-for-the-gdpr-and-ccpa"></a>GDPR 및 CCPA에 대한 Dynamics 365 데이터 주체 요청
 
@@ -197,134 +200,6 @@ Dynamics 365 for Finance and Operations 및 ***Dynamics 365 for Talent*** 둘 �
 - 고객 데이터를 Excel 파일로 내보낼 수 있습니다. Excel에서 이식 가능성 요청에 포함되도록 고객 데이터를 편집하고 .csv 또는 .xml과 같이 일반적으로 사용되는 기계 가독 형식으로 저장할 수 있습니다. 자세한 내용은 [비즈니스 데이터를 Excel로 내보내기](https://docs.microsoft.com/dynamics365/business-central/about-export-data)를 참조하십시오.
 - 고객 데이터를 Excel 파일로 내보낼 수 있습니다. Excel에서 이식 가능성 요청에 포함되도록 고객 데이터를 편집하고 .csv 또는 .xml과 같이 일반적으로 사용되는 기계 가독 형식으로 저장할 수 있습니다. 자세한 내용은 [비즈니스 데이터를 Excel로 내보내기](https://docs.microsoft.com/dynamics365/business-central/about-export-data)를 참조하십시오.
 
-### <a name="microsoft-social-engagement"></a>Microsoft Social Engagement
-
-Microsoft Social Engagement는 고객 데이터 및 소셜 콘텐츠에서 찾을 수 있는 개인 데이터를 처리하므로 소셜 네트워크에서 검색한 개인 데이터와 관련된 DSR 요청을 해결할 수 있는 고유한 방법을 제공합니다. 소셜 콘텐츠는 소셜 미디어 네트워크(예: Twitter, Facebook 및 YouTube)에서 수집한 공개 콘텐츠이며 Microsoft Social Engagement에서 실행된 고객의 검색어에 반응하는 데이터 색인 또는 데이터 집계 서비스입니다. 소셜 콘텐츠는 고객 데이터가 아닙니다. 소셜 콘텐츠의 처리, 사용 및 저장에 대한 추가 제한 사항은 Microsoft 온라인 서비스 약관에 설명되어 있습니다.
-
-### <a name="finding-personal-data"></a>개인 데이터 찾기
-
-데이터 주체의 요청에 응답하는 첫 번째 단계는 해당 요청의 대상이 되는 개인 데이터를 검색하고 식별하는 것입니다. Microsoft Social Engagement는 다음 데이터를 저장합니다.
-
-#### <a name="for-social-media-users"></a>소셜 미디어 사용자
-
-- Social Engagement가 소셜 플랫폼에서 획득하는 소셜 미디어 사용자 데이터(Social Engagement의 *작성자*). 여기에는 작성자가 제공하는 이름, 사용자 이름, 프로필 사진, 위치, 웹 사이트 및 정보가 포함될 수 있습니다.
-- 작성자를 그룹화하고 분류하는 데 사용하는 작성자 태그(예: 영향력 행사자, 경쟁 업체 또는 팬)
-
-#### <a name="for-employees"></a>직원
-
-- 직원 이름, 연락처 정보 및 프로필 사진을 포함하며 Office 365에서 관리되는 사용자 프로필
-- 게시물 경고 및 추세 경고가 포함된 직원이 제공한 전자 메일 주소
-- 직원이 소셜 플랫폼의 다른 사용자와 계약을 맺기 위해 Social Engagement에서 인증되는 소셜 미디어 계정(Social Engagement의 *소셜 프로필*). 이러한 계정은 직원이나 조직이 소유하며, 직원이 소셜 플랫폼에 계정을 등록할 때 제공하는 데이터를 포함합니다. 이러한 프로필은 소셜 미디어에서 조직을 나타내며 Social Engagement 응용 프로그램 내에서 조직을 대신하여 게시물과 상호 작용하는 데 사용됩니다.
-- Power BI용 [Social Engagement 콘텐츠 팩](https://docs.microsoft.com/dynamics365/customer-engagement/social-engagement/get-content-pack-for-power-bi)을 사용하여 소셜 미디어에서의 팀 성과를 분석하는 경우 Power BI의 사용자 이름
-
-첫 번째 단계(문제가 된 개인 데이터 찾기 및 검토)를 통해 데이터 주체 요청의 준수 또는 거부에 필요한 이 조직의 요구 사항을 충족하는지를 판별할 수 있습니다. 개인 데이터를 찾고 검토한 후, 이 작업이 타인의 권리와 자유에 불리한 영향을 미칠 수 있으므로 해당 요청이 조직의 요구 사항을 충족하지 않는지를 판별합니다.
-
-#### <a name="social-media-users-authors"></a>소셜 미디어 사용자(작성자)
-
-- 자신의 개인 데이터를 찾으려면 [작성자 찾기 및 삭제](https://docs.microsoft.com/dynamics365/customer-engagement/social-engagement/manage-authors#find-and-delete-an-author)의 처음 네 단계를 따릅니다.
-- 직원은 소셜 플랫폼에서 정의된 특정 콘텐츠를 검색하는 Social Engagement 규칙을 만들 수 있습니다. 이러한 검색 규칙에는 작성자 이름이 포함될 수 있습니다. 이러한 규칙을 찾으려면 [Twitter](https://docs.microsoft.com/dynamics365/social-engagement/add-rules-search-topic#add-a-private-messages-rule), [Instagram](https://docs.microsoft.com/dynamics365/social-engagement/add-rules-search-topic#add-a-custom-sources-rule) 및 [YouTube](https://docs.microsoft.com/dynamics365/social-engagement/add-rules-search-topic#add-a--rule)와 같은 해당 계정에 대한 소셜 계정 검색 규칙을 검토합니다.
-- 작성자에 대한 작성자 태그를 찾으려면 먼저 [작성자](https://docs.microsoft.com/dynamics365/customer-engagement/social-engagement/understand-filters#authors)를 기준으로 [게시물을 필터링](https://docs.microsoft.com/dynamics365/customer-engagement/social-engagement/use-filters#add-edit-or-remove-a-filter)하고 [작성자 태그를 확인합니다](https://go.microsoft.com/fwlink/?linkid=864795).
-
-##### <a name="your-employees"></a>직원
-
-찾는 방법:
-
-- 사용자 프로필, [관리 센터](https://portal.office.com/adminportal/home)로 이동합니다. **관리 센터**에서 **사용자**를 선택합니다. **활성사용자** 페이지에서 목록에 있는 사용자를 검색 합니다. Social Engagement에서 **설정 \> 사용자 관리**로 이동하여 Office 365에서 자동으로 동기화된 정보를 확인합니다.
-- 경고 수신자: [관리자 권한으로 경고 수신자 관리](https://docs.microsoft.com/dynamics365/customer-engagement/social-engagement/email-alerts#manage-alert-recipients-as-administrator)의 처음 두 단계를 따릅니다.
-- 직원이 입력한 소셜 프로필 데이터: **설정 \> 소셜 프로필**로 이동합니다. (자세한 내용은 [소셜 프로필 관리](https://docs.microsoft.com/dynamics365/customer-engagement/social-engagement/manage-social-profiles)를 참조하세요.)
-- Power BI의 사용자 이름: Social Engagement Power BI 대시보드를 열고 직원 이름을 기준으로 필터링합니다.
-
-### <a name="providing-a-copy-of-personal-data"></a>개인 데이터의 복사본 제공
-
-GDPR은 요청에 따라 개인 데이터의 복사본을 받을 권리를 데이터 주체에 부여합니다. 잠재적으로 요청에 부합될 수 있는 데이터가 포함된 고객 콘텐츠를 찾은 후에 데이터 주체에게 사본을 제공할지 여부는 귀하 및 조직에서 결정해야 합니다.
-
-#### <a name="social-media-users-authors"></a>소셜 미디어 사용자(작성자)
-
-- 작성자의 개인 데이터를 내보내려면 [작성자 정보 내보내기](https://docs.microsoft.com/dynamics365/customer-engagement/social-engagement/manage-authors#export-author-information)의 단계에 따라 Excel 파일로 데이터를 내보냅니다.
-- 특정 작성자에게 추가된 작성자 태그를 추출하기 위해 [작성자 태그 데이터를 내보낼 수 있습니다](https://docs.microsoft.com/dynamics365/customer-engagement/social-engagement/author-tags#export-author-tags-data).
-
-##### <a name="your-employees"></a>직원
-
-내보낼 대상:
-
-- 사용자 프로필의 고객 데이터는 [관리 센터](https://portal.office.com/adminportal/home)로 이동합니다. **관리 센터**에서 **사용자**를 선택합니다. **활성 사용자** 페이지에서 내보내려는 데이터의 사용자를 검색하십시오. 대상 사용자를 제외한 모든 사용자를 삭제한 다음 **내보내기**를 선택해 Excel을 사용하여 정보를 볼 수 있는 .csv 파일로 데이터를 내보냅니다.
-- 경고 수신자의 전자 메일 주소(경고 상태의 유일한 고객 데이터). [경고받는 사람을 관리자로 관리](https://docs.microsoft.com/dynamics365/customer-engagement/social-engagement/email-alerts#manage-alert-recipients-as-administrator)의 단계를 따르십시오. 그런 다음 **내보내기**를 선택하여 이 수신자가 포함된 경고의 Excel 목록을 다운로드하십시오.
-- Power BI의 사용자 이름: [계약 보고](https://docs.microsoft.com/dynamics365/customer-engagement/social-engagement/get-content-pack-for-power-bi)에서 소셜 미디어에 대한 팀 성과 보고서에는 사용자 이름이 표시됩니다. 이 데이터를 내보내려면 PowerBI 대시보드 또는 [보고서](https://docs.microsoft.com/power-bi/power-bi-report-add-filter)에서 사용자를 기준으로 필터링하고 [데이터를 내보냅니다](https://docs.microsoft.com/power-bi/service-export-to-pbix).
-
-### <a name="rectifying-personal-data"></a>개인 데이터 수정
-
-부정확하거나 불완전한 개인 데이터를 수정하려는 대상:
-
-#### <a name="social-media-users-authors"></a>소셜 미디어 사용자(작성자)
-
-- 데이터 소유자(작성자)에게 소셜 플랫폼(예: Twitter, WordPress 또는 Tumblr)에서 변경을 수행하도록 요청해야 합니다. 데이터 주체가 소셜 미디어 계정의 데이터를 소유하므로, 변경할 수 있는 유일한 사람이기도 합니다. 작성자가 변경을 하면 Social Engagement는 수정된 세부 정보를 자동으로 동기화합니다.
-- 작성자 태그: [작성자 태그 변경](https://docs.microsoft.com/dynamics365/customer-engagement/social-engagement/author-tags#change-author-tags)의 단계를 따릅니다.
-
-##### <a name="your-employees"></a>직원
-
-- 사용자 프로필: 사용자 프로필에서 고객 데이터를 변경하려면 [Office 365에서 사용자 이름 및 전자 메일 주소 변경](https://support.office.com/article/change-a-user-name-and-email-address-in-office-365-fb5ac074-e203-4e1f-9843-b9d1a3e03297) 및 [Office 365에 프로필 사진 추가](https://support.office.com/article/add-your-profile-photo-to-office-365-2eaf93fd-b3f1-43b9-9cdc-bdcd548435b7)를 참조하세요. 이러한 변경 사항은 소셜 참여에서 자동으로 동기화됩니다. 해당 항목을 찾으려면 **설정** \> **사용자 관리**로 이동합니다.
-
-- 경고 수신자: [경고를 변경](https://docs.microsoft.com/dynamics365/customer-engagement/social-engagement/email-alerts#change-an-alert)할 수 있습니다.
-
-### <a name="restricting-the-processing-of-personal-data"></a>개인 데이터 처리 제한
-
-#### <a name="social-media-users-authors"></a>소셜 미디어 사용자(작성자)
-
-Social Engagement에서 작성자의 고객 데이터 처리를 중지하려면 [작성자를 삭제](https://docs.microsoft.com/dynamics365/customer-engagement/social-engagement/manage-authors#delete-an-author)합니다.
-
-이렇게 하면 이 데이터 주체의 데이터 및 후속 게시물의 향후 처리가 차단되며, 이 작성자에 대한 모든 데이터 및 이 작성자가 만든 모든 데이터가 삭제됩니다. Social Engagement는 새 게시물을 받을 때마다 작성자가 이전에 삭제되었는지를 자동으로 확인한 후 삭제된 작성자의 게시물을 삭제합니다. 이렇게 해도 소셜 플랫폼의 사용자 계정에는 적용되지 않습니다.
-
-##### <a name="your-employees"></a>직원
-
-- 직원의 고객 데이터 처리를 중지하려면 Office 365에서 [라이선스를 제거](https://support.office.com/article/remove-licenses-from-users-in-office-365-for-business-9b497c85-d0a4-4735-80fa-d3565bc05bd1)할 수 있습니다. 이렇게 하면 사용자 역할 및 프로필, 모든 관련 사용자 정의 맞춤형 설정, 알림, 활동 맵 및 스트림과 같은 모든 소셜 참여 관련 항목이 삭제됩니다. 검색 주제와 소셜 프로필은 삭제되지 않습니다. 그러나 관리자는 삭제된 사용자의 소셜 프로필 소유권을 상속하고 요청에 따라 삭제할 수 있습니다.
-- 경고 전자 메일 메시지 전송을 제한하려면 [관리자 권한으로 경고 수신자 관리](https://docs.microsoft.com/dynamics365/customer-engagement/social-engagement/email-alerts#manage-alert-recipients-as-administrator)의 단계를 수행하여 추가된 모든 경고에서 전자 메일 주소를 제거할 수 있습니다.
-
-### <a name="deleting-personal-data"></a>개인 데이터 삭제
-
-GDPR은 특정 상황에서 통제자로부터 개인 데이터 삭제를 요청할 권리를 데이터 주체에 부여합니다. 조직에서 이러한 데이터를 제거하여 "잊힐 권리”는 GDPR의 핵심 보호 기능입니다.
-
-#### <a name="social-media-users-authors"></a>소셜 미디어 사용자(작성자)
-
-Social Engagement에서 작성자의 모든 개인 데이터를 영구적으로 삭제하려면 이 작성자의 전체 소셜 프로필을 삭제합니다. [](https://docs.microsoft.com/dynamics365/customer-engagement/social-engagement/manage-authors)[작성자 삭제](https://docs.microsoft.com/dynamics365/customer-engagement/social-engagement/manage-authors#delete-an-author)를 참조하세요.  
-
-이 작업은 한 번 수행하면 취소할 수 없습니다. 이 작업을 수행하면 Social Engagement에서 이 작성자에 대한 모든 정보 및 이 작성자가 만든 정보가 삭제되고, 해당 데이터 및 후속 게시물의 향후 처리가 차단됩니다. Social Engagement는 새 게시물을 받을 때마다 작성자가 이전에 삭제되었는지를 자동으로 확인한 후 삭제된 작성자의 게시물을 삭제합니다. 이렇게 해도 소셜 플랫폼의 사용자 계정에는 적용되지 않습니다.
-
-작성자 태그를 삭제하려면 [작성자 태그 제거](https://docs.microsoft.com/dynamics365/customer-engagement/social-engagement/author-tags#remove-author-tags)를 참조하세요.
-
->[!NOTE]
->특정 작성자의 정보를 제거해야 하는 경우, 먼저 해당 작성자의 ID를 확인하여 요청의 유횽성을 검사해야 합니다. ID를 확인하려면 해당 소셜 미디어 계정에서 작성자의 비공개 메시지를 요청할 수 있습니다.
-
-Social Engagement는 소셜 플랫폼에서 직접 트리거된 게시물 삭제와 같은 신호에 작용하기 위해 일부 소셜 플랫폼(예: Twitter, WordPress, Tumblr)에서 준수 피드를 구현했습니다. 이 기능은 Social Engagement를 설치할 때마다 자동으로 활성화되며, 사용자가 개입할 필요가 없습니다. 또한 Social Engagement는 Social Engagement의 소셜 콘텐츠를 토대로 구축되는 서비스(예: Dynamics 365 for Customer Engagement)가 이러한 신호를 상속하도록 하는 메커니즘을 제공합니다.
-
-##### <a name="your-employees"></a>직원
-
-모든 직원의 고객 데이터를 영구적으로 삭제하려면 Office 365에서 [라이선스를 제거](https://support.office.com/article/remove-licenses-from-users-in-office-365-for-business-9b497c85-d0a4-4735-80fa-d3565bc05bd1)할 수 있습니다.
-
-- 이렇게 하면 사용자 역할 및 프로필, 모든 관련된 사용자 정의 사용자 지정 설정, 경고, 활동 지도 및 스트림과 같은 모든 Social Engagement 관련 항목이 삭제됩니다. 검색 항목 및 소셜 프로필은 삭제되지 않습니다. (관리자는 삭제된 사용자로부터 소셜 프로필 소유권을 상속받고 요청이 있을 때 삭제할 수 있습니다.)
-- Social Engagement에서 이러한 변경 내용은 자동으로 동기화됩니다. 해당 항목을 찾으려면 **설정\> 사용자 관리**로 이동합니다.
-- PowerBI 계약 보고서의 직원 항목은 개인 데이터가 삭제되면 익명 처리됩니다.
-
-[소셜 프로필을 삭제](https://docs.microsoft.com/dynamics365/customer-engagement/social-engagement/manage-social-profiles#delete-a-social-profile)할 수 있습니다.
-
-추가된 모든 경고에서 전자 메일 주소를 삭제하려면 [관리자 권한으로 경고 수신자 관리](https://docs.microsoft.com/dynamics365/customer-engagement/social-engagement/email-alerts#manage-alert-recipients-as-administrator)의 지침을 따릅니다.[](https://docs.microsoft.com/dynamics365/customer-engagement/social-engagement/email-alerts#manage-alert-recipients-as-administrator)
-
-### <a name="exporting-personal-data"></a>개인 데이터 내보내기
-
-개인 데이터를 전자 형식으로 데이터 주체에 제공할 수 있습니다.
-
-#### <a name="social-media-users-authors"></a>소셜 미디어 사용자(작성자)
-
-작성자의 개인 데이터를 내보내려면 [작성자 정보 내보내기](https://docs.microsoft.com/dynamics365/customer-engagement/social-engagement/manage-authors#export-author-information)의 단계에 따라 Excel 파일로 데이터를 내보냅니다.
-
-특정 작성자에게 추가된 작성자 태그를 추출하기 위해 [작성자 태그 데이터를 내보낼 수 있습니다](https://docs.microsoft.com/dynamics365/customer-engagement/social-engagement/author-tags#export-author-tags-data).
-
-##### <a name="your-employees"></a>직원
-
-내보낼 대상:
-
-- 사용자 프로필의 고객 데이터는 [관리 센터](https://portal.office.com/adminportal/home)로 이동합니다. **관리 센터**에서 **사용자**를 선택합니다. **활성 사용자** 페이지에서 내보내려는 데이터의 사용자를 검색하십시오. 대상 사용자를 제외한 모든 사용자를 삭제한 다음 **내보내기**를 선택해 Excel을 사용하여 정보를 볼 수 있는 .csv 파일로 데이터를 내보냅니다.
-- 경고 수신자의 전자 메일 주소(경고의 유일한 개인 데이터): [관리자 권한으로 경고 수신자 관리](https://docs.microsoft.com/dynamics365/customer-engagement/social-engagement/email-alerts#manage-alert-recipients-as-administrator)의 단계를 따릅니다. 그런 후 **내보내기**를 선택하여 이 수신자가 포함된 경고의 Excel 목록을 다운로드합니다.
-- Power BI의 사용자 이름: [계약 보고](https://docs.microsoft.com/dynamics365/customer-engagement/social-engagement/get-content-pack-for-power-bi)에서 소셜 미디어에 대한 팀 성과 보고서에는 사용자 이름이 표시됩니다. 이 데이터를 내보내려면 PowerBI 대시보드 또는 [보고서](https://docs.microsoft.com/power-bi/power-bi-report-add-filter)에서 사용자를 기준으로 필터링하고 [데이터를 내보냅니다](https://docs.microsoft.com/power-bi/service-export-to-pbix).
 
 ## <a name="part-2-responding-to-dsrs-for-system-generated-logs"></a>2단계: 시스템 생성 로그에 대한 DSR에 응답
 

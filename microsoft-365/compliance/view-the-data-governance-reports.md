@@ -1,7 +1,9 @@
 ---
 title: 데이터 거버넌스 보고서 보기
-ms.author: laurawi
-author: laurawi
+f1.keywords:
+- NOCSH
+ms.author: cabailey
+author: cabailey
 manager: laurawi
 ms.date: 6/8/2018
 audience: Admin
@@ -13,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Office 365 보안 및 준수 센터의 데이터 거버넌스 보고서를 사용하여 레이블이 의도대로 콘텐츠에 적용되는지 빠르게 확인할 수 있습니다.
-ms.openlocfilehash: 6d761931cea171afb84e25fa0900bec7c3a2f3c2
-ms.sourcegitcommit: 8fda7852b2a5baa92b8a365865b014ea6d100bbc
+ms.openlocfilehash: b07daf73cf1fca50f4d9831dfe6d96a59df928d0
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/03/2019
-ms.locfileid: "39813908"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41597215"
 ---
 # <a name="view-the-data-governance-reports"></a>데이터 거버넌스 보고서 보기
 

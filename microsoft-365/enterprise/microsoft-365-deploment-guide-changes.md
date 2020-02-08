@@ -1,6 +1,8 @@
 ---
 title: 엔터프라이즈용 Microsoft 365 배포 컨텐츠의 변경 사항
 author: JoeDavies-MSFT
+f1.keywords:
+- NOCSH
 ms.author: josephd
 manager: laurawi
 ms.date: 12/18/2019
@@ -13,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Microsoft 365 배포 가이드의 새로운 내용 및 콘텐츠에 대한 변경 사항을 확인하세요.
-ms.openlocfilehash: 680b42c255053338d401e53b75ab7471a064c44d
-ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
+ms.openlocfilehash: 73ce204352af92e1380b57b9a58e04323fb7a987
+ms.sourcegitcommit: a53ec6ab7bf59983780ea7187cd5d56b8b1f4b33
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41111979"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41855463"
 ---
 # <a name="changes-to-microsoft-365-for-enterprise-deployment-content"></a>엔터프라이즈용 Microsoft 365 배포 컨텐츠의 변경 사항
 
@@ -30,7 +32,6 @@ ms.locfileid: "41111979"
 
 ### <a name="updates-and-enhancements"></a>업데이트 및 향상된 기능
 
-- [SharePoint Online 사이트 및 파일 보호](https://docs.microsoft.com/microsoft-365/security/office-365-security/secure-sharepoint-online-sites-and-files)
 -  [테스트 랩 가이드](m365-enterprise-test-lab-guides.md) 집합의 새로 고침 
 
 ## <a name="november-2019"></a>2019년 11월

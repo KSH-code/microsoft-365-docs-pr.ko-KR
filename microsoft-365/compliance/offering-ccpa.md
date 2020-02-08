@@ -1,7 +1,7 @@
 ---
 title: 캘리포니아 소비자 개인 정보 보호법(CCPA)
 description: Microsoft 서비스 및 캘리포니아 CCPA (소비자 개인 정보 보호 Act)
-keywords: Microsoft 365, 규정 준수, 제품
+keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -14,18 +14,18 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 24217ed5782d14cc67277bc980e4a94b7bc904f5
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 4c761a62e901be065a588f1e4141b731831c4752
+ms.sourcegitcommit: 82e6b56d7265f8389b0af8baf51acb3013d88754
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601985"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41851845"
 ---
 # <a name="california-consumer-privacy-act-ccpa"></a>캘리포니아 소비자 개인 정보 보호법(CCPA)
 
 ## <a name="ccpa-overview"></a>CCPA 개요
 
-CCPA (캘리포니아 소비자 개인 정보 취급 방침)은 미국에서 최초의 포괄적인 개인 정보 보호법입니다. 캘리포니아 사용자에 게 다양 한 개인 정보 보호 권한을 제공 합니다.  CCPA가 규제 하는 기업에서는 공개, 일반 데이터 보호 규정 (GDPR), 특정 데이터 전송에 대 한 "옵트아웃" 및 "옵트인"을 포함 하 여 이러한 소비자에 게 다양 한 의무를 부여 합니다. 미성년자가에 대 한 요구 사항
+CCPA (캘리포니아 소비자 개인 정보 취급 방침)은 미국에서 최초의 포괄적인 개인 정보 보호법입니다. 캘리포니아 사용자에 게 다양 한 개인 정보 보호 권한을 제공 합니다.  CCPA가 규제 하는 기업에서는 공개, 일반 데이터 보호 규정 (GDPR), 특정 데이터 전송에 대 한 ' 옵트아웃 ' 및 ' 옵트인 '을 포함 하 여 이러한 소비자에 대 한 여러 의무를 갖게 됩니다. 미성년자가에 대 한 요구 사항
 
 CCPA는 캘리포니아, 즉, (1) 총 연간 수입을 $2500만 보다 많이 만족 하는 회사의 비즈니스를 수행 하는 기업에만 적용 되며, (2)는 캘리포니아 소비자 개인의 판매에 대 한 연간 수입의 50% 이상으로 도출 됩니다. 정보 또는 (3) 5만 캘리포니아 명 이상의 고객에 대 한 개인 정보를 매년 구입, 판매 또는 공유 합니다.
 
@@ -35,7 +35,7 @@ CCPA는 2020년 1월 1일에 발효됩니다. 그러나, AG (캘리포니아 변
 
 ## <a name="microsoft-and-the-ccpa"></a>Microsoft 및 CCPA
 
-캘리포니아에서 비즈니스를 수행 하는 상용 고객의 경우 Microsoft는 온라인 서비스 및 전문 서비스 제공과 관련 하 여 "서비스 공급자" 역할을 합니다.  온라인 서비스 약관 (OST) 및 Microsoft 전문 서비스 데이터 보호 (MSDPA)의 약관이 CCPA의 서비스 공급자 요구 사항에 이미 부합 되며 일반적으로 고객은 데이터를 계속 전송 하도록 허용 하는 데 충분 합니다. 온라인 서비스에 초대 합니다. 따라서 고객은 CCPA에서 Microsoft에 서비스 공급자로 사용할 수 있도록 추가 계약을 변경할 필요가 없습니다.
+캘리포니아에서 비즈니스를 수행 하는 상용 고객의 경우 Microsoft는 온라인 서비스 및 전문 서비스 제공과 관련 하 여 ' 서비스 공급자 ' 역할을 합니다.  온라인 서비스 약관 (OST) 및 Microsoft 전문 서비스 데이터 보호 (MSDPA)의 약관이 CCPA의 서비스 공급자 요구 사항에 이미 부합 되며 일반적으로 고객은 데이터를 계속 전송 하도록 허용 하는 데 충분 합니다. 온라인 서비스에 초대 합니다. 따라서 고객은 CCPA에서 Microsoft에 서비스 공급자로 사용할 수 있도록 추가 계약을 변경할 필요가 없습니다.
 
 OST에 설정 된 대로 Microsoft는 CCPA를 포함 하는 온라인 서비스 제공에 해당 하는 모든 법률과 규정을 준수 합니다.  
 
@@ -72,10 +72,10 @@ CCPA을 시작 하려면 정보 검색, 개인 정보 공유 방법, 사용 방�
 
 - 투명/공개 의무
 - 데이터 복사본에 액세스, 삭제 및 수신할 수 있는 소비자 권한
-- GDPR이 유사한 계약 의무를 갖는 "프로세서"를 정의 하는 방식과 유사한 "서비스 공급자"를 정의 하 고
-- "컨트롤러"의 GDPR 정의를 포함 하는 "기업" 정의
+- GDPR에서 유사한 계약 의무를 가진 ' 프로세서 '를 정의 하는 방법과 유사한 ' 서비스 공급자 '를 정의 하 고
+- ' 컨트롤러 '의 GDPR 정의를 포함 하는 ' 비즈니스 ' 정의
 
-CCPA의 가장 큰 차이점은 데이터 판매에서 제삼자로의 옵트아웃을 가능하게하는 핵심 요구 사항입니다(중요한 고려 사항에 대한 데이터 공유를 포함하도록 "판매"가 광범위하게 정의됨).
+CCPA에서 가장 큰 차이는 데이터를 제 3 자에 게 판매할 수 있도록 하기 위한 핵심 요구 사항입니다 (' sale '은 중요 한 고려를 위해 데이터를 공유 하는 것을 포함 하기 위해 광범위 하 게 정의 됨).
 
 **CCPA에 따라 기업에서는 어떤 권리를 지원해야 하나요?**
 
@@ -92,6 +92,10 @@ CCPA의 경우에는 다음과 같은 방법으로 개인 정보를 수집, 전�
 
 - CCPA는 13세 미만의 어린이를 위한 COPPA(어린이 온라인 개인 정보 보호법)에 따른 보호자의 동의 의무를 도입합니다.
 - 어린이 들이 이전에 CCPA에서 14 년 사이를 사용 하는 경우에는 어린이 로부터 옵트인 동의를 얻기 위해 새로운 의무를 부과 합니다.
+
+## <a name="use-microsoft-compliance-score-to-assess-your-risk"></a>Microsoft 준수 점수를 사용 하 여 위험 평가
+
+[Microsoft 준수 점수가](compliance-score.md) [microsoft 365 준수 센터](microsoft-365-compliance-center.md) 의 미리 보기 기능을 통해 조직의 규정 준수 상태를 이해 하 고 위험을 줄일 수 있는 조치를 취할 수 있습니다. [규정 준수 점수를 설정한](compliance-score-setup.md)후에는 미리 구성 된 [CCPA 서식 파일](https://go.microsoft.com/fwlink/?linkid=2118004) 을 사용 하 여 조직이이 규정 요구 사항을 충족 하는 데 도움을 받을 수 있습니다.
 
 ## <a name="resources"></a>리소스
 

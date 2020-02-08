@@ -1,5 +1,7 @@
 ---
 title: 새로운 Office 365 메시지 암호화 기능 설정
+f1.keywords:
+- NOCSH
 ms.author: krowley
 author: kccross
 manager: laurawi
@@ -15,12 +17,12 @@ ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: 새 Office 365 메시지 암호화 기능은 Azure Information Protection을 바탕으로 하여 구현되었고, 이 기능을 사용하면 조직 내부나 조직 외부의 사람과 보호된 전자 메일을 사용하여 통신할 수 있습니다. 새 OME 기능은 다른 Office 365 조직, Outlook.com, Gmail 및 기타 전자 메일 서비스와 함께 동작합니다.
-ms.openlocfilehash: c772151250d30e62a3f2689df5cd853536af3ede
-ms.sourcegitcommit: 1c962bd0d51dc12419c4e6e393bb734c972b7e38
+ms.openlocfilehash: 766e1d2ae054a5a5e91786a360177492ee9ba1b7
+ms.sourcegitcommit: d9ceaa6ec54c3760747f31accdb02f729450f324
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/12/2019
-ms.locfileid: "39218737"
+ms.lasthandoff: 02/03/2020
+ms.locfileid: "41680087"
 ---
 # <a name="set-up-new-office-365-message-encryption-capabilities"></a>새로운 Office 365 메시지 암호화 기능 설정
 
@@ -84,7 +86,7 @@ Azure RMS를 비활성화로 설정한 경우나, 어떤 이유에서 자동으�
      결과는 다음과 같이 표시됩니다.
 
      ```text
-    Results : Acquiring RMS Templates ...
+     Results : Acquiring RMS Templates ...
                 - PASS: RMS Templates acquired.  Templates available: Contoso  - Confidential View Only, Contoso  - Confidential, Do Not
             Forward.
             Verifying encryption ...
@@ -95,7 +97,7 @@ Azure RMS를 비활성화로 설정한 경우나, 어떤 이유에서 자동으�
                 - PASS: IRM verified successfully.
 
             OVERALL RESULT: PASS
-    ```
+     ```
 
    - *Contoso* 자리에 Office 365 조직 이름이 표시됩니다.
 

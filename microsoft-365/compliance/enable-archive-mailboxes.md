@@ -1,5 +1,7 @@
 ---
 title: 보안 및 준수 센터에서 보관 사서함 사용
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -17,12 +19,12 @@ search.appverid:
 - MET150
 ms.assetid: 268a109e-7843-405b-bb3d-b9393b2342ce
 description: Office 365의 보안 및 규정 준수 센터를 사용하면 조직의 메시지 보존, 전자 검색 및 보유 요구 사항을 지원하기 위해 보관 사서함을 사용할 수 있습니다.
-ms.openlocfilehash: 4c115b53f5e47caa785b32c3a356a6a52af83b41
-ms.sourcegitcommit: 178ecb21cacdeaf440f3df2fe6e539e9127fcf15
+ms.openlocfilehash: dfbbb3fa238f7b04fab6742f3eb0c041f39c72d0
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/23/2019
-ms.locfileid: "40850902"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41593261"
 ---
 # <a name="enable-archive-mailboxes-in-the-security--compliance-center"></a>보안 및 준수 센터에서 보관 사서함 사용
   

@@ -1,5 +1,7 @@
 ---
 title: 데이터 분류 활동 탐색기 사용
+f1.keywords:
+- NOCSH
 ms.author: chrfox
 author: chrfox
 manager: laurawi
@@ -14,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 활동 탐색기는 사용자가 레이블이 지정된 콘텐츠에 대해 수행하는 작업을 확인하고 필터링하여 데이터 분류 기능을 자세히 설명합니다.
-ms.openlocfilehash: ab80de0e1be3a164da8414ef3791fb9717bcc190
-ms.sourcegitcommit: 48a45b0d2c60d4d79669174f462603a43f272875
+ms.openlocfilehash: 8af23cac590eb226890979719f938b8e79099bb3
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/18/2020
-ms.locfileid: "41233699"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41595475"
 ---
 # <a name="view-activity-on-your-labeled-content-preview"></a>레이블이 지정된 콘텐츠의 활동 보기(미리 보기)
 
@@ -47,7 +49,6 @@ ms.locfileid: "41233699"
 - Office 365 (E5)
 - 고급 규정 준수 (E5) 추가 기능
 - 고급 위협 인텔리전스 (E5) 추가 기능
-- 고급 위협 보호 (E5) 추가 기능
 
 ## <a name="activity-type"></a>활동 유형
 

@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 0448082ce6dcbcd9d1cee52557a78b2d7913a034
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: b6f467f938ce14aacb9553b11d51dc63431ab409
+ms.sourcegitcommit: 570ad1c7c334476ecec00dc355dfe52e8c2bb87b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41588358"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41862078"
 ---
 # <a name="export-documents-from-a-review-set"></a>검토 집합에서 문서 내보내기
 
@@ -45,7 +45,7 @@ ms.locfileid: "41588358"
 
 ### <a name="metadata-file"></a>메타 데이터 파일
 
-내보낸 파일에 연결 된 메타 데이터를 포함 하는 "로드 파일"으로 간주 될 수 있습니다. 메타 데이터 파일에서 사용할 수 있는 필드 목록은 link \[\]를 참조 하십시오. 이 파일은 일반적으로 3 개<sup>rd</sup> 파티 도구 ingested 될 수 있습니다.
+이는 내보낸 파일과 연결 된 메타 데이터를 포함 하는 "로드 파일"으로 간주 될 수 있습니다. 메타 데이터 파일에서 사용할 수 있는 내보낸 필드 목록을 보려면 [Advanced eDiscovery의 문서 메타 데이터 필드](document-metadata-fields-in-Advanced-eDiscovery.md)를 참조 하십시오. 이 파일은 일반적으로 타사 도구에 의해 ingested 될 수 있습니다.
 
 ### <a name="tag-data"></a>태그 데이터
 
@@ -53,11 +53,11 @@ ms.locfileid: "41588358"
 
 ### <a name="text-files"></a>텍스트 파일
 
-검토 집합에서 내보낸 각 파일에 대해 텍스트 파일을 생성할 수 있습니다. Ingesting 데이터의 일부로 서비스 파트너가 이러한 파일을 3 개의<sup>rd</sup> 파티 도구 다운스트림으로 필요로 하는 경우가 종종 있습니다.
+검토 집합에서 내보낸 각 파일에 대해 텍스트 파일을 생성할 수 있습니다. 서비스 파트너가 타사 도구에 ingesting 데이터의 일부로 이러한 파일을 필요로 하는 경우가 종종 있습니다.
 
 ### <a name="redacted-files"></a>Redacted 파일
 
-검토 중에 redacted Pdf가 생성 되 면 내보내는 동안 이러한 파일을 사용할 수 있습니다. 사용자는 기본 파일만 내보낼지 아니면 redactions가 포함 된 natives를 Pdf에서 구운 것으로 바꿀지를 결정할 수 있습니다.
+검토 중에 redacted PDF 파일이 생성 되 면 내보내는 동안 이러한 파일을 사용할 수 있습니다. 네이티브 파일만 내보낼지 아니면 실제 redactions 포함 된 PDF 파일로 교정 해야 하는 네이티브 파일을 바꿀지를 결정할 수 있습니다.
 
 ### <a name="export-location"></a>내보내기 위치
 

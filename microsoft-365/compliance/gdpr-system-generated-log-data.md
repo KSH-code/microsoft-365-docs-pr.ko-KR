@@ -6,6 +6,8 @@ localization_priority: Priority
 Robots: NOFOLLOW,NOINDEX
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -13,12 +15,13 @@ audience: itpro
 ms.collection:
 - GDPR
 - M365-security-compliance
-ms.openlocfilehash: 725c39cdb33a37364e2b24679d1e998f60281b2b
-ms.sourcegitcommit: 33242c260439de0d8db41247e9414913f24adc22
+titleSuffix: Microsoft GDPR
+ms.openlocfilehash: ea13a44a6d4da54b83ee1ddccb2bd8c46f82c943
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "38749900"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41596365"
 ---
 # <a name="additional-steps-to-export-system-generated-log-data"></a>시스템 생성 로그 데이터를 내보낼 수 있는 추가 단계
 

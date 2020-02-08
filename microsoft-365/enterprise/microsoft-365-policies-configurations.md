@@ -16,12 +16,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: af68a8e81cdaab1bbbd8887a7d586fcaefff1041
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 4b76ba16b74eeea26799bb383cd00e497c86d770
+ms.sourcegitcommit: a53ec6ab7bf59983780ea7187cd5d56b8b1f4b33
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600895"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41855387"
 ---
 # <a name="identity-and-device-access-configurations"></a>ID 및 장치 액세스 구성
 
@@ -122,7 +122,7 @@ Azure AD는 id 관리 기능을 완벽 하 게 제공 합니다. 액세스 보�
 
 - [향상 된 보안을 위해 office 365 테 넌 트 구성](https://support.office.com/article/Configure-your-Office-365-tenant-for-increased-security-8d274fe3-db51-4107-ba64-865e7155b355): 이러한 권장 사항은 Office 365 테 넌 트의 기준 보안에 적용 됩니다.
 - [Office 365 보안 로드맵: 처음 30 일, 90 일 및 그 이상에 대 한 주요 우선 순위](https://support.office.com/article/Office-365-security-roadmap-Top-priorities-for-the-first-30-days-90-days-and-beyond-28c86a1c-e4dd-4aad-a2a6-c768a21cb352): 이러한 권장 사항에는 로깅, 데이터 관리, 관리자 액세스, 위협 방지 등이 있습니다.
-- [SharePoint Online 사이트 및 파일 보호](https://docs.microsoft.com/office365/enterprise/secure-sharepoint-online-sites-and-files):이 문서 집합에서는 기준, 중요 및 고도로 기밀 보호를 위해 적절 한 수준에서 파일과 사이트를 보호 하는 방법에 대해 설명 합니다.
+
 
 ### <a name="windows-10-and-office-365-proplus"></a>Windows 10 및 Office 365 ProPlus
 

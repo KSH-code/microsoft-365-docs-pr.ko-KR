@@ -1,5 +1,7 @@
 ---
 title: 사서함 감사 관리
+f1.keywords:
+- NOCSH
 ms.author: chrisda
 author: chrisda
 manager: dansimp
@@ -15,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: aaca8987-5b62-458b-9882-c28476a66918
 description: 사서함 감사 로깅은 기본적으로 Office 365에서 설정 됩니다 (기본 사서함 감사 또는 사서함 감사가 기본적으로 라고도 함). 즉, 사서함 소유자, 대리인 및 관리자가 수행 하는 특정 작업이 사서함 감사 로그에 자동으로 기록 되므로 사서함에 대해 수행 된 작업을 검색할 수 있습니다.
-ms.openlocfilehash: 059039205e82ea63b1dc14a8be5e768e9cdba069
-ms.sourcegitcommit: e872676ec98036a50d3a0cb5071109ea5f5a7ae5
+ms.openlocfilehash: db36e285878a5afb9c6efcc9b173188452f267fa
+ms.sourcegitcommit: 570ad1c7c334476ecec00dc355dfe52e8c2bb87b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/24/2020
-ms.locfileid: "41515569"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41862068"
 ---
 # <a name="manage-mailbox-auditing"></a>사서함 감사 관리
 
@@ -37,7 +39,7 @@ ms.locfileid: "41515569"
 - 모든 사서함에 대해 동일한 작업을 감사 하 고 있으므로 조직 전체에 일관 된 사서함 감사 정책이 있습니다.
 
 > [!NOTE]
->• 기본적으로 사서함 감사 릴리스를 고려해 야 하는 중요 한 사항은 다음과 같습니다. 사서함 감사를 관리 하기 위해 별도의 작업을 수행할 필요가 없습니다. 그러나 자세한 내용을 보거나 기본 설정에서 사서함 감사를 사용자 지정 하거나 완전히 해제 하려면이 항목을 참조 하십시오. <br><br>• E5 사용자에 대 한 사서함 감사 이벤트만 보안 & 준수 센터의 감사 로그 검색 또는 Office 365 관리 활동 API를 통해 사용할 수 있습니다. 자세한 내용은이 항목의 [추가 정보](#more-information) 섹션을 참조 하십시오.
+>• 기본적으로 사서함 감사 릴리스를 고려해 야 하는 중요 한 사항은 다음과 같습니다. 사서함 감사를 관리 하기 위해 별도의 작업을 수행할 필요가 없습니다. 그러나 자세한 내용을 보거나 기본 설정에서 사서함 감사를 사용자 지정 하거나 완전히 해제 하려면이 항목을 참조 하십시오. <br><br>• 기본적으로 E5 사용자에 대 한 사서함 감사 이벤트만 보안 & 준수 센터 또는 Office 365 관리 활동 API를 통해 감사 로그 검색에서 사용할 수 있습니다. 자세한 내용은이 항목의 [추가 정보](#more-information) 섹션을 참조 하십시오.
 
 ## <a name="verify-mailbox-auditing-on-by-default-is-turned-on"></a>기본적으로 사서함 감사가 설정 되어 있는지 확인
 
@@ -106,10 +108,12 @@ Get-OrganizationConfig | Format-List AuditDisabled
 |**ApplyRecord**|항목은 레코드로 레이블이 지정 됩니다.|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
 |**복사**|메시지가 다른 폴더에 복사되었습니다.|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|||
 |**만들기**|사서함의 일정, 연락처, 메모 또는 작업 폴더 (예: 새 모임 요청이 만들어짐)에 항목이 만들어집니다. 메시지 만들기, 보내기 또는 받기는 감사 되지 않습니다. 사서함 폴더 만들기도 감사되지 않습니다.|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
+|**기본값**||![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
 |**FolderBind**|사서함 폴더에 액세스했습니다. 관리자 또는 대리인이 사서함을 열 때에도 작업이 기록됩니다.<br/><br/> **참고**: 대리인에 의해 수행 된 폴더 바인드 작업에 대 한 감사 기록이 통합 되어 있습니다. 24 시간 내에 개별 폴더 액세스에 대 한 감사 레코드 하나를 생성 합니다.|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
 |**HardDelete**|메시지가 복구 가능한 항목 폴더에서 제거되었습니다.|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|
+|**액세스 한 Mail항목**|메일 데이터는 메일 프로토콜 및 클라이언트에서 액세스 합니다. 이 값은 E5 또는 E5 준수 추가 기능 구독 사용자에 대해서만 사용할 수 있습니다. 자세한 내용은 [높은 값 감사 이벤트](https://docs.microsoft.com/microsoft-365/compliance/advanced-audit#high-value-audit-events) 를 참조 하십시오.|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
 |**MailboxLogin**|사용자가 사서함에 로그인 되어 있습니다. |||![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
-|**대해 수행한 messagebind**|메시지가 미리 보기 창에 표시되거나 열렸습니다.|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|||
+|**대해 수행한 messagebind**|메시지가 미리 보기 창에 표시 되거나 관리자가 열었습니다. **참고**:이 값은 사서함 작업으로 허용 되지만 더 이상 기록 되지 않습니다.|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|||
 |**ModifyFolderPermissions**|**참고**:이 값은 사서함 작업으로 허용 되지만 **updatefolderpermissions** 작업에 이미 포함 되어 있으며 별도로 감사 되지 않습니다. 즉,이 값을 사용 하지 마십시오.||||
 |**Move**|메시지가 다른 폴더로 이동했습니다.|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
 |**MoveToDeletedItems**|메시지가 삭제되어 지운 편지함 폴더로 이동되었습니다.|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|
@@ -120,6 +124,7 @@ Get-OrganizationConfig | Format-List AuditDisabled
 |**SoftDelete**|메시지가 지운 편지함 폴더에서 삭제되어가 영구적으로 삭제되었습니다. 소프트 삭제된 항목이 복구 가능한 항목 폴더로 이동됩니다.|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|
 |**업데이트**|메시지 또는 해당 속성이 변경되었습니다.|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|
 |**UpdateCalendarDelegation**|일정 위임이 사서함에 할당 되었습니다. 일정 위임 기능을 사용하여 같은 조직의 다른 사용자가 사서함 소유자의 일정을 관리할 수 있습니다.|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>||![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|
+|**UpdateComplianceTag**|메일 항목에 다른 보존 레이블이 적용 됩니다 (항목에는 하나의 보존 레이블만 할당 될 수 있음).|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
 |**UpdateFolderPermissions**|폴더 권한이 변경되었습니다. 폴더 사용 권한은 사서함의 폴더와 해당 폴더에 있는 메시지에 액세스할 수 있는 조직의 사용자를 제어합니다.|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|
 |**UpdateInboxRules**|받은 편지함 규칙을 추가, 제거 또는 변경 했습니다. 받은 편지함 규칙은 지정 된 조건에 따라 사용자의 받은 편지함에서 메시지를 처리 하 고, 메시지를 지정 된 폴더로 이동 하거나 메시지를 삭제 하는 것과 같이 규칙의 조건이 충족 될 때 작업을 수행 하는 데 사용 됩니다.|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|
 
@@ -183,7 +188,7 @@ Get-Mailbox -Identity <MailboxIdentity> -GroupMailbox | Format-List DefaultAudit
 현재 사용자 사서함 또는 공유 사서함에 대해 로그온 중인 사서함 작업을 확인 하려면 MailboxIdentity \<\> 를 이름, 별칭, 전자 메일 주소 또는 사서함의 사용자 계정 이름 (Username)으로 바꾸고 Exchange Online PowerShell에서 다음 명령 중 하나 이상을 실행 합니다.
 
 > [!NOTE]
-> Office 365 그룹 사서함의 `-GroupMailbox` 다음 **사서함** 명령에 스위치를 추가할 수는 있지만 표시 되는 값은 생각 하지 마십시오. Office 365 그룹 사서함에 대해 감사 되는 기본 및 정적 사서함 작업은이 항목 앞부분의 [office 365 그룹 사서함에 대 한 사서함 작업](#mailbox-actions-for-office-365-group-mailboxes) 섹션에 설명 되어 있습니다.
+> Office 365 그룹 사서함의 `-GroupMailbox` 다음 **사서함** 명령에 스위치를 추가할 수 있지만 반환 되는 값은 반드시 확인 해야 합니다. Office 365 그룹 사서함에 대해 감사 되는 기본 및 정적 사서함 작업은이 항목 앞부분의 [office 365 그룹 사서함에 대 한 사서함 작업](#mailbox-actions-for-office-365-group-mailboxes) 섹션에 설명 되어 있습니다.
 
 #### <a name="owner-actions"></a>소유자 작업
 
@@ -310,7 +315,7 @@ Set-OrganizationConfig -AuditDisabled $false
 
 현재 조직에서 사서함 감사가 기본적으로 설정 된 경우에는 특정 사서함에 대해 사서함 감사를 사용 하지 않도록 설정할 수 없습니다. 예를 들어 *Auditenabled* mailbox 속성을 **False** 로 설정 하는 것은 무시 됩니다.
 
-그러나 Exchange Online PowerShell에서 **get-mailboxauditbypassassociation** cmdlet을 사용 하 여 작업이 수행 되는 위치에 관계 없이 지정 된 사용자의 *모든* 사서함 작업이 로깅되지 않도록 할 수 있습니다. 예:
+그러나 Exchange Online PowerShell에서 **get-mailboxauditbypassassociation** cmdlet을 사용 하 여 작업이 수행 되는 위치에 관계 없이 지정 된 사용자의 *모든* 사서함 작업이 로깅되지 않도록 할 수 있습니다. 다음의 예를 참조하십시오.
 
 - 바이패스 된 사용자가 수행한 사서함 소유자 작업은 로깅되지 않습니다.
 
@@ -334,9 +339,11 @@ Get-MailboxAuditBypassAssociation -Identity <MailboxIdentity> | Format-List Audi
 
 ## <a name="more-information"></a>추가 정보
 
-- 기본적으로 사서함 감사 로깅이 모든 조직에서 사용 되도록 설정 되어 있기는 하지만 E5 라이선스가 있는 사용자만 [보안 & 준수 센터](search-the-audit-log-in-security-and-compliance.md) 또는 [Office 365 관리 활동 API](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-reference)를 통해 감사 로그 검색에 사서함 감사 로그 이벤트를 반환 합니다.
+- 사서함 감사 로깅이 모든 조직에 대해 기본적으로 사용 하도록 설정 되어 있기는 하지만, E5 라이선스가 있는 사용자만 [보안 & 준수 센터의 감사 로그 검색](search-the-audit-log-in-security-and-compliance.md) 또는 [Office 365 관리 활동 API](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-reference) 를 통해 **기본적으로**사서함 감사 로그 이벤트를 반환 합니다.
 
   E5 라이선스를 사용 하지 않고 사용자에 대 한 사서함 감사 로그 항목을 검색 하려면 다음을 수행할 수 있습니다.
+
+  - 개별 사서함에 대해 사서함 감사를 수동으로 사용 하도록 설정한 **후** 보안 & 준수 센터 또는 Office 365 관리 활동 API를 통해 감사 로그 검색을 사용 합니다.
 
   - Exchange Online PowerShell에서 다음 cmdlet을 사용 합니다.
 

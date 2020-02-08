@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: 관리자는 조직의 HR (인적 자원) 시스템에서 직원 데이터를 Microsoft 365로 가져오는 데이터 커넥터를 설정할 수 있습니다. 이를 통해 참가자 위험 관리 정책에 HR 데이터를 사용 하 여 조직에 내부적인 위협을 초래할 수 있는 특정 사용자의 작업을 검색 하는 데 도움을 받을 수 있습니다.
-ms.openlocfilehash: a907594120ebb2a6ed49c2dde3a83262f6cf1a62
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: b70ea48a7784c6cfc9bff4131fdecab339d4d417
+ms.sourcegitcommit: 570ad1c7c334476ecec00dc355dfe52e8c2bb87b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600695"
+ms.lasthandoff: 02/08/2020
+ms.locfileid: "41862038"
 ---
 # <a name="set-up-a-connector-to-import-hr-data"></a>HR 데이터를 가져올 커넥터 설정
 
@@ -211,6 +211,6 @@ Windows의 작업 스케줄러 응용 프로그램에서 매일 자동으로 스
 
    ![새 작업이 작업 스케줄러 라이브러리에 표시 됨](media/HRConnectorTaskSchedulerLibrary.png)
 
-   마지막으로 실행 되도록 예약 된 스크립트와 다음 시간이 표시 됩니다. 작업을 두 번 클릭 하 여 편집할 수 있습니다.
+   스크립트를 마지막으로 실행 했을 때와 실행할 예약 된 다음 시간을 표시 합니다. 작업을 두 번 클릭 하 여 편집할 수 있습니다.
 
    또한 준수 센터의 해당 HR 커넥터에 대 한 플라이 아웃 페이지에서 스크립트를 마지막으로 실행 한 시간을 확인할 수 있습니다.

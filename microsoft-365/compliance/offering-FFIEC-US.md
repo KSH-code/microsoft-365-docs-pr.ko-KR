@@ -1,7 +1,7 @@
 ---
 title: 연방 금융 기관 검사 Council (FFIEC)
 description: Microsoft는 금융 서비스 클라이언트에 게 연방 금융 기관 검사 Council (FFIEC)의 감사 요구 사항을 준수 하도록 지원 합니다.
-keywords: Microsoft 365, 규정 준수, 제품
+keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 74ce16a1cc98943ea808bbae08eccd54f8f21fad
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: c77793d7676e836e7b445bd9b638a835bb7051ff
+ms.sourcegitcommit: 82e6b56d7265f8389b0af8baf51acb3013d88754
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602425"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41851825"
 ---
 # <a name="federal-financial-institutions-examination-council-ffiec"></a>연방 금융 기관 검사 Council (FFIEC)
 
@@ -58,6 +58,10 @@ Azure 및 Office 365 SOC 증명 보고서
 **Microsoft에서 사용 하는 제 1의 FFIEC 준수 의무를 충족 하기 위해 SOC 표준에 대 한 마이크로소프트 준수를 사용할 수 있나요?**
 
 이러한 의무를 충족 하도록 지원 하기 위해 Microsoft는 위에서 설명한 SOC 표준의 준수에 대 한 구체적인 정보를 제공 합니다. 그러나 궁극적으로는 서비스가 해당 기관에 적용할 수 있는 특정 법률과 규정을 준수 하는지 확인 해야 합니다. 또한 FFIEC는 "감사 보고서 또는 리뷰 사용자가 보고서에 포함 된 정보에만 의존해 서 TSP 내부 제어 환경을 확인 하는 것이 아니라는 것을 제안 합니다. FFIEC IT 검사 안내서의 [아웃소싱 기술 책자](https://ithandbook.ffiec.gov/it-booklets/outsourcing-technology-services.aspx) 에 자세히 설명 된 것 처럼 추가 확인 및 모니터링 절차를 사용 해야 합니다.
+
+## <a name="use-microsoft-compliance-score-to-assess-your-risk"></a>Microsoft 준수 점수를 사용 하 여 위험 평가
+
+[Microsoft 준수 점수가](compliance-score.md) [microsoft 365 준수 센터](microsoft-365-compliance-center.md) 의 미리 보기 기능을 통해 조직의 규정 준수 상태를 이해 하 고 위험을 줄일 수 있는 조치를 취할 수 있습니다. [규정 준수 점수를 설정한](compliance-score-setup.md)후에는 미리 구성 된 [Ffiec Office 365 서식 파일](https://go.microsoft.com/fwlink/?linkid=2117912) 및 [ffiec Intune 템플릿을](https://go.microsoft.com/fwlink/?linkid=2118101) 사용 하 여 조직이이 규정 요구 사항을 충족 하는 데 도움을 받을 수 있습니다.
 
 ## <a name="resources"></a>리소스
 

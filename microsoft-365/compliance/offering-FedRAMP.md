@@ -1,7 +1,7 @@
 ---
 title: FedRAMP(Federal Risk and Authorization Management Program)
 description: Microsoft에는 미국 연방 위험 및 권한 부여 관리 프로그램인 P-ATOs 및 ATOs가 부여 되었습니다.
-keywords: Microsoft 365, 규정 준수, 제품
+keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 2b7ad248299c12edfeed880ac731f2d23e9b1949
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 71be1e70a04881b937ee1f75d5fda6f03efdbd5f
+ms.sourcegitcommit: 82e6b56d7265f8389b0af8baf51acb3013d88754
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602365"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41851865"
 ---
 # <a name="federal-risk-and-authorization-management-program-fedramp"></a>FedRAMP(Federal Risk and Authorization Management Program)
 
@@ -99,7 +99,7 @@ FISMA는 미국 연방 기관 및 해당 파트너가 FISMA 요구 사항을 준
 
 **FedRAMP이 적용 되는 사람**
 
-"FedRAMP은 낮은 및 중간 위험 영향 수준에서 연방 에이전시 클라우드 배포 및 서비스 모델에 필수입니다." CSP에 참여 하려는 모든 연방 에이전시는 FedRAMP 사양을 충족 해야 할 수 있습니다. 또한 연방 정부 기관에서 사용 하는 제품 또는 서비스에서 클라우드 기술을 활용 하는 회사는 ATO을 받아야 할 수 있습니다.
+' FedRAMP은 낮은 및 중간 위험 영향 수준에서 연방 에이전시 클라우드 배포 및 서비스 모델에 필수입니다. ' CSP에 참여 하려는 모든 연방 에이전시는 FedRAMP 사양을 충족 해야 할 수 있습니다. 또한 연방 정부 기관에서 사용 하는 제품 또는 서비스에서 클라우드 기술을 활용 하는 회사는 ATO을 받아야 할 수 있습니다.
 
 **에이전시에서 규정 준수 관련 활동을 시작 하는 위치**
 
@@ -108,6 +108,10 @@ FedRAMP을 성공적으로 탐색 하 고 요구 사항을 충족 하기 위해 
 **에이전시의 인증 프로세스에서 Microsoft 준수를 사용할 수 있나요?**
 
 예. 연방 정부 기관에서 ATO를 필요로 하는 모든 프로그램 또는 이니셔티브의 기반으로 Microsoft 클라우드 서비스의 인증을 사용할 수 있습니다. 그러나 이러한 서비스 외부의 구성 요소에 대 한 사용자의 권한 부여를 구현 해야 합니다.
+
+## <a name="use-microsoft-compliance-score-to-assess-your-risk"></a>Microsoft 준수 점수를 사용 하 여 위험 평가
+
+[Microsoft 준수 점수가](compliance-score.md) [microsoft 365 준수 센터](microsoft-365-compliance-center.md) 의 미리 보기 기능을 통해 조직의 규정 준수 상태를 이해 하 고 위험을 줄일 수 있는 조치를 취할 수 있습니다. [규정 준수 점수를 설정한](compliance-score-setup.md)후에는 미리 구성 된 [FedRAMP 서식 파일](https://go.microsoft.com/fwlink/?linkid=2118102) 을 사용 하 여 조직이이 규정 요구 사항을 충족 하는 데 도움을 받을 수 있습니다.
 
 ## <a name="resources"></a>리소스
 

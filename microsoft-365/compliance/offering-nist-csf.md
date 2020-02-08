@@ -1,7 +1,7 @@
 ---
 title: 국내 표준 협회 및 기술 (NIST) Cybersecurity Framework (CSF)
 description: Microsoft 클라우드 서비스는 NIST (표준 협회) Cybersecurity Framework (CSF)를 충족 합니다.
-keywords: Microsoft 365, 규정 준수, 제품
+keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 8d4fc749faa340ceaca76983df03ccbc48c3126a
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 4aae95778a829203dc8d34fe1882528cf866b913
+ms.sourcegitcommit: 82e6b56d7265f8389b0af8baf51acb3013d88754
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601905"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41851805"
 ---
 # <a name="national-institute-of-standards-and-technology-nist-cybersecurity-framework-csf"></a>국내 표준 협회 및 기술 (NIST) Cybersecurity Framework (CSF)
 
@@ -96,6 +96,10 @@ NIST CSF 인증의 범위 내 서비스는 Exchange Online 보관, Exchange Onli
 **일부 Office 365 서비스가이 인증의 범위에 없는 이유는 무엇 인가요?**
 
 Microsoft는 다른 클라우드 서비스 공급자에 비해 가장 포괄적인 제품을 제공 합니다. 지역 및 업계 전반에 걸친 광범위 한 준수 제품을 유지 하기 위해, 시장 수요, 고객 의견 및 제품 수명 주기를 기반으로 하는 보증 노력의 범위에 포함 된 서비스를 제공 합니다. 서비스가 특정 규정 준수 제공의 현재 범위에 포함 되어 있지 않은 경우 조직은 준수 의무에 따라 위험을 평가 하 고 해당 서비스에서 데이터를 처리 하는 방법을 결정 해야 합니다. 고객의 피드백을 지속적으로 수집 하 고, 조정기 및 감사자와 협력 하 여 보안 및 준수 요구 사항에 맞게 준수 범위를 확장 합니다.
+
+## <a name="use-microsoft-compliance-score-to-assess-your-risk"></a>Microsoft 준수 점수를 사용 하 여 위험 평가
+
+[Microsoft 준수 점수가](compliance-score.md) [microsoft 365 준수 센터](microsoft-365-compliance-center.md) 의 미리 보기 기능을 통해 조직의 규정 준수 상태를 이해 하 고 위험을 줄일 수 있는 조치를 취할 수 있습니다. [규정 준수 점수를 설정한](compliance-score-setup.md)후에는 미리 구성 된 [NIST CSF 서식 파일](https://go.microsoft.com/fwlink/?linkid=2117917) 을 사용 하 여 조직이이 규정 요구 사항을 충족 하도록 도와줍니다.
 
 ## <a name="resources"></a>리소스
 

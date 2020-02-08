@@ -1,5 +1,7 @@
 ---
 title: 이벤트 구동 보존
+f1.keywords:
+- NOCSH
 ms.author: cabailey
 author: cabailey
 manager: laurawi
@@ -13,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 이 항목에서는 Microsoft 365 REST API를 사용하여 이벤트를 통한 보존을 자동화하는 비즈니스 프로세스 흐름을 설정하는 방법에 대해 설명합니다.
-ms.openlocfilehash: b2aadaf4e450167cf7bff864569652c05deb7298
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 46276e1a40df8c5491d569337a683666984be23a
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40807437"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41596325"
 ---
 # <a name="automate-event-based-retention"></a>이벤트 기반 보존 자동화
 
