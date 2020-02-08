@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 57d4093712efbee7bcb4f27280b0ba64a50dbe41
-ms.sourcegitcommit: 2913fd74ad5086c7cac6388447285be9aa5a8e44
+ms.openlocfilehash: 5f11cb99d4bf235ba41e05d1bf79217f827fe8c2
+ms.sourcegitcommit: 82e6b56d7265f8389b0af8baf51acb3013d88754
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "41662024"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41851885"
 ---
 # <a name="service-organization-controls-soc"></a>SOC(서비스 조직 컨트롤)
 
@@ -128,6 +128,10 @@ Azure, Cloud App Security, Flow, Graph, Intune, Power BI, PowerApps, Stream 및 
 **우리 회사의 자체 규정 준수 활동은 어느 것부터 시작해야 하나요?**
 
 [서비스 조직을 위한 SOC 도구 키트](https://aka.ms/soc-toolkit)는 SOC 보고 프로세스를 이해하고 조직의 프로세스 사용을 촉진하는 데 도움이 되는 리소스입니다.
+
+## <a name="use-microsoft-compliance-score-to-assess-your-risk"></a>Microsoft 준수 점수를 사용하여 위험 평가
+
+[Microsoft 준수 점수](compliance-score.md)는 조직의 준수 입장을 이해하고 위험을 줄이기 위한 조치를 취하도록 돕는 [Microsoft 365 컴플라이언스 센터](microsoft-365-compliance-center.md)의 미리 보기 기능입니다. [규정 준수 점수를 설정](compliance-score-setup.md)한 후, 사전 구성된 [SOC 1 템플릿](https://go.microsoft.com/fwlink/?linkid=2117918) 및 [SOC 2 템플릿](https://go.microsoft.com/fwlink/?linkid=2117919)을 사용하여 조직이 이 규정에 대한 요구 사항을 충족할 수 있도록 하십시오.
 
 ## <a name="resources"></a>리소스
 

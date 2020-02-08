@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 016d0f9fdd0795ea709f168a0fc8ba027f029e8f
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 6791754e0d34ca2ca564a805269bb9fdc216d0ad
+ms.sourcegitcommit: 82e6b56d7265f8389b0af8baf51acb3013d88754
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602235"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41851875"
 ---
 # <a name="isoiec-27018-code-of-practice-for-protecting-personal-data-in-the-cloud"></a>클라우드 내 개인 데이터 보호를 위한 ISO/IEC 27018 규약
 
@@ -102,12 +102,12 @@ Microsoft 클라우드와 상용 기술 지원 서비스는 ISO/IEC 27001에 대
 
 이 규약은 다른 조직과의 계약 하에서 PII를 처리하는 CSP에 적용됩니다. Microsoft에서는 해당 CSP에 대한 지원에도 적용됩니다.
 
-**"개인 정보 규제자"와 "개인 정보 처리자"의 차이점은 무엇인가요?**
+**‘개인 정보 규제자’와 ‘개인 정보 처리자’의 차이점은 무엇인가요?**
 
 ISO/IEC 27018 관련:
 
-- “제어자”는 개인 정보의 수집, 유지, 처리 또는 사용을 제어합니다. 제어자에는 다른 회사를 대신하여 이를 제어하는 업체가 포함됩니다.
-- “처리자”는 제어자를 대신하여 정보를 처리합니다. 이들은 정보 사용법이나 처리 목적에 관한 결정을 내리지 않습니다. 엔터프라이즈 클라우드 서비스 제공에 있어서 Microsoft(파트너의 공급자)는 정보 처리자입니다.
+- ‘제어자’는 개인 정보의 수집, 유지, 처리 또는 사용을 제어합니다. 제어자에는 다른 회사를 대신하여 이를 제어하는 업체가 포함됩니다.
+- ‘처리자’는 제어자를 대신하여 정보를 처리합니다. 이들은 정보 사용법이나 처리 목적에 관한 결정을 내리지 않습니다. 엔터프라이즈 클라우드 서비스 제공에 있어서 Microsoft(파트너의 공급자)는 정보 처리자입니다.
 
 **ISO/IEC 27018에 대한 Microsoft의 규정 준수 정보는 어디에서 확인할 수 있나요?**
 
@@ -120,6 +120,10 @@ ISO/IEC 27018 관련:
 예. ISO/IEC 27018를 준수하는 것이 Microsoft의 범위 내 엔터프라이즈 클라우드 서비스에서 배포되는 비즈니스 및 구현에 중요한 경우, 규정 준수 평가에서 Microsoft의 ISO/IEC 27001와 ISO/ICE 27018 준수에 대한 Microsoft의 증명을 사용할 수 있습니다.
 
 하지만 구현에 대한 규정 준수를 평가하기 위한 평가자와의 계약과 고유 조직 내 통제 수단 및 프로세스에 대해서는 파트너가 책임을 져야 합니다.
+
+## <a name="use-microsoft-compliance-score-to-assess-your-risk"></a>Microsoft 준수 점수를 사용하여 위험 평가
+
+[Microsoft 준수 점수](compliance-score.md)는 조직의 준수 입장을 이해하고 위험을 줄이기 위한 조치를 취하도록 돕는 [Microsoft 365 컴플라이언스 센터](microsoft-365-compliance-center.md)의 미리 보기 기능입니다. [ 준수점수를 설정](compliance-score-setup.md)한 후, 사전 구성된 [ISO 27018 템플릿](https://go.microsoft.com/fwlink/?linkid=2117523)을 사용하여 조직이 이 규정에 대한 요구 사항을 충족하도록하십시오.
 
 ## <a name="resources"></a>리소스
 

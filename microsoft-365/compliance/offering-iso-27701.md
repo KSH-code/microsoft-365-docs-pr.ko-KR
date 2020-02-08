@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 4bc6663efe704205787e1c69d4e6dd06122419c3
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 5cd89e0f31d650e85de20b40e3870de0ef8c7cc3
+ms.sourcegitcommit: 82e6b56d7265f8389b0af8baf51acb3013d88754
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601915"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41851835"
 ---
 # <a name="isoiec-27701-privacy-information-management-system-pims"></a>ISO/IEC 27701 PIMS(개인 정보 관리 시스템)
 
@@ -39,7 +39,7 @@ ms.locfileid: "41601915"
 
 ## <a name="too-many-regulatory-requirements-to-juggle"></a>조율할 규정 요구 사항이 너무 많음
 
-ISO/IEC 27701에는 컨트롤러 및 프로세서에 대한 GDPR의 관련 요구 사항에 대해 매핑된 표준의 운영 제어가 포함된 부록이 포함되어 있습니다. 이 매핑은 ISO 프레임워크를 사용하여 개인 정보 규정을 운용할 수 있게 하는 방법을 보여 주는 예제일 뿐입니다. 다른 규정을 사용하여 추가 매핑도 사용 가능하게 되고 검증되면 표준의 운영 제어를 규제 검토에서 구현으로 직접 이전할 수 있습니다. 이 범용 프레임워크를 사용하면 조직이 "사이클을 혁신"하지 않고 관련 규제 요구 사항을 안정적으로 운용할 수 있게 할 수 있습니다. 개인 정보 보호 커뮤니티에서 다른 규정을 매핑하고 기존 매핑의 유효성을 검사할 수 있도록 보류 중인 오픈 소스 프로젝트가 진행되고 있습니다. 공지 사항을 계속 확인하세요.
+ISO/IEC 27701에는 컨트롤러 및 프로세서에 대한 GDPR의 관련 요구 사항에 대해 매핑된 표준의 운영 제어가 포함된 부록이 포함되어 있습니다. 이 매핑은 ISO 프레임워크를 사용하여 개인 정보 규정을 운용할 수 있게 하는 방법을 보여 주는 예제일 뿐입니다. 다른 규정을 사용하여 추가 매핑도 사용 가능하게 되고 검증되면 표준의 운영 제어를 규제 검토에서 구현으로 직접 이전할 수 있습니다. 이 범용 프레임워크를 사용하면 조직이 ‘사이클을 혁신’하지 않고 관련 규제 요구 사항을 안정적으로 운용할 수 있게 할 수 있습니다. 개인 정보 보호 커뮤니티에서 다른 규정을 매핑하고 기존 매핑의 유효성을 검사할 수 있도록 보류 중인 오픈 소스 프로젝트가 진행되고 있습니다. 공지 사항을 계속 확인하세요.
 
 ## <a name="too-costly-to-audit-regulation-by-regulation"></a>규정을 통해 규정을 감사하는 데 너무 많은 비용이 듦
 
@@ -71,6 +71,10 @@ ISO/IEC 27001 및 PIMS의 주요 사항:
 
 - [Azure ISO/IEC 27701 인증](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=c0431b3f-7716-4332-9c26-44b58174bdaf&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports)
 - [Azure ISO/IEC 27701 평가 보고서](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=1abbb81e-f4ca-4436-bbdb-b196a672efda&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_ISO_Reports)
+
+## <a name="use-microsoft-compliance-score-to-assess-your-risk"></a>Microsoft 준수 점수를 사용하여 위험 평가
+
+[Microsoft 준수 점수](compliance-score.md)는 조직의 준수 입장을 이해하고 위험을 줄이기 위한 조치를 취하도록 돕는 [Microsoft 365 컴플라이언스 센터](microsoft-365-compliance-center.md)의 미리 보기 기능입니다. [준수 점수를 설정](compliance-score-setup.md)한 후, 사전 구성된 [ISO 27701 템플릿](https://go.microsoft.com/fwlink/?linkid=2117915)을 사용하여 조직이 이 규정에 대한 요구 사항을 충족할 수 있도록 하십시오.
 
 ## <a name="resources"></a>리소스
 

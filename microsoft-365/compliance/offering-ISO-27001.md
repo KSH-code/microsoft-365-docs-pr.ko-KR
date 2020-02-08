@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: d88ef57ea9340d95073db7f5ddd4423d5275c840
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: ef99b36737627a9ea457e7d4235b42241f34248b
+ms.sourcegitcommit: 82e6b56d7265f8389b0af8baf51acb3013d88754
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602255"
+ms.lasthandoff: 02/07/2020
+ms.locfileid: "41851815"
 ---
 # <a name="isoiec-270012013-information-security-management-standards"></a>ISO/IEC 27001:2013 정보 보안 관리 표준
 
@@ -141,6 +141,10 @@ ISO/IEC 27001 채택은 전략적인 약속입니다. [ISO/IEC 27000 디렉터�
 **우리 회사의 인증 업무에 Microsoft의 ISO/IEC 27001 규정 준수를 사용할 수 있나요?**
 
 예. Microsoft 서비스에 배포되는 구현에 대해 ISO/IEC 27001 인증을 받아야 하는 고객은 규정 준수 평가 시 해당 인증서를 사용할 수 있습니다. 하지만 귀하는 조직 내 통제, 프로세스, ISO/IEC 27001 준수에 대한 구현을 평가하기 위한 평가자와의 계약에 대한 책임이 있습니다.
+
+## <a name="use-microsoft-compliance-score-to-assess-your-risk"></a>Microsoft 준수 점수를 사용하여 위험 평가
+
+[Microsoft 준수 점수](compliance-score.md)는 조직의 준수 입장을 이해하고 위험을 줄이기 위한 조치를 취하도록 돕는 [Microsoft 365 컴플라이언스 센터](microsoft-365-compliance-center.md)의 미리 보기 기능입니다. [준수 점수를 설정](compliance-score-setup.md)한 후, 사전 구성된 [ISO 27001 템플릿](https://go.microsoft.com/fwlink/?linkid=2117914)을 사용하여 조직이 이 규정에 대한 요구 사항을 충족할 수 있도록 하십시오.
 
 ## <a name="resources"></a>리소스
 
