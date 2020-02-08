@@ -1,5 +1,7 @@
 ---
 title: GDPR에 대한 Office 365 정보 보호
+f1.keywords:
+- CSH
 ms.author: bcarter
 author: brendacarter
 manager: laurawi
@@ -15,25 +17,25 @@ localization_priority: Priority
 search.appverid:
 - MET150
 description: 이 솔루션에서는 Office 365 서비스에 저장되어 있는 중요한 데이터를 보호하는 방법을 보여 줍니다.
-ms.openlocfilehash: 9540eb41c6603a7ee09cb5499d09f464353d9fd9
-ms.sourcegitcommit: 4d9a075f4c890fa5bbd1751740a5540edbc1b999
+ms.openlocfilehash: a6bc231c82e65e7361cdcda7c2087bc48a55dcc7
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "38710098"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41597845"
 ---
-# <a name="office-365-information-protection-for-gdpr"></a><span data-ttu-id="cdfab-103">GDPR에 대한 Office 365 정보 보호</span><span class="sxs-lookup"><span data-stu-id="cdfab-103">Office 365 Information Protection for GDPR</span></span>
+# <a name="office-365-information-protection-for-gdpr"></a><span data-ttu-id="ae8a3-103">GDPR에 대한 Office 365 정보 보호</span><span class="sxs-lookup"><span data-stu-id="ae8a3-103">Office 365 Information Protection for GDPR</span></span>
 
- <span data-ttu-id="cdfab-104">**요약:** 이 솔루션에서는 Office 365 서비스에 저장되어 있는 중요한 데이터를 보호하는 방법을 보여 줍니다.</span><span class="sxs-lookup"><span data-stu-id="cdfab-104">**Summary:** This solution demonstrates how to protect sensitive data that is stored in Office 365 services.</span></span>
+ <span data-ttu-id="ae8a3-104">**요약:** 이 솔루션에서는 Office 365 서비스에 저장되어 있는 중요한 데이터를 보호하는 방법을 보여 줍니다.</span><span class="sxs-lookup"><span data-stu-id="ae8a3-104">**Summary:** This solution demonstrates how to protect sensitive data that is stored in Office 365 services.</span></span>
   
-<span data-ttu-id="cdfab-p101">이 솔루션에는 개인 데이터를 검색, 분류, 보호 및 모니터링하기 위한 규정된 권장 사항이 포함되어 있습니다. 이 솔루션에서는 GDPR(일반 데이터 보호 규정)을 예제로 사용하지만, 동일한 프로세스를 적용하여 여러 다른 규정을 준수할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="cdfab-p101">This solution includes prescriptive recommendations for discovering, classifying, protecting, and monitoring personal data. This solution uses General Data Protection Regulation (GDPR) as an example, but you can apply the same process to achieve compliance with many other regulations.</span></span>
+<span data-ttu-id="ae8a3-p101">이 솔루션에는 개인 데이터를 검색, 분류, 보호 및 모니터링하기 위한 규정된 권장 사항이 포함되어 있습니다. 이 솔루션에서는 GDPR(일반 데이터 보호 규정)을 예제로 사용하지만, 동일한 프로세스를 적용하여 여러 다른 규정을 준수할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ae8a3-p101">This solution includes prescriptive recommendations for discovering, classifying, protecting, and monitoring personal data. This solution uses General Data Protection Regulation (GDPR) as an example, but you can apply the same process to achieve compliance with many other regulations.</span></span>
 
-<span data-ttu-id="cdfab-107">[![GDPR에 대한 Office 365 정보 보호 포스터의 축소판 그림입니다.](media/InfoProtectGDPR-Poster/o365infoprotectforgdpr-thumb.png)](https://download.microsoft.com/download/E/C/D/ECD5A339-EF10-4420-B3A9-99098884D716/MSFT_Cloud_architecture_information%20protection%20for%20GDPR.pdf)</span><span class="sxs-lookup"><span data-stu-id="cdfab-107">[![Thumb image of the Office 365 Information Protection for GDPR poster.](media/InfoProtectGDPR-Poster/o365infoprotectforgdpr-thumb.png)](https://download.microsoft.com/download/E/C/D/ECD5A339-EF10-4420-B3A9-99098884D716/MSFT_Cloud_architecture_information%20protection%20for%20GDPR.pdf)</span></span>
+<span data-ttu-id="ae8a3-107">[![GDPR에 대한 Office 365 정보 보호 포스터의 축소판 그림입니다.](media/InfoProtectGDPR-Poster/o365infoprotectforgdpr-thumb.png)](https://download.microsoft.com/download/E/C/D/ECD5A339-EF10-4420-B3A9-99098884D716/MSFT_Cloud_architecture_information%20protection%20for%20GDPR.pdf)</span><span class="sxs-lookup"><span data-stu-id="ae8a3-107">[![Thumb image of the Office 365 Information Protection for GDPR poster.](media/InfoProtectGDPR-Poster/o365infoprotectforgdpr-thumb.png)](https://download.microsoft.com/download/E/C/D/ECD5A339-EF10-4420-B3A9-99098884D716/MSFT_Cloud_architecture_information%20protection%20for%20GDPR.pdf)</span></span>
 
-<span data-ttu-id="cdfab-108">[PDF](https://download.microsoft.com/download/E/C/D/ECD5A339-EF10-4420-B3A9-99098884D716/MSFT_Cloud_architecture_information%20protection%20for%20GDPR.pdf)  |  [Visio](https://download.microsoft.com/download/E/C/D/ECD5A339-EF10-4420-B3A9-99098884D716/MSFT_Cloud_architecture_information%20protection%20for%20GDPR.vsdx)</span><span class="sxs-lookup"><span data-stu-id="cdfab-108">[PDF](https://download.microsoft.com/download/E/C/D/ECD5A339-EF10-4420-B3A9-99098884D716/MSFT_Cloud_architecture_information%20protection%20for%20GDPR.pdf)  |  [Visio](https://download.microsoft.com/download/E/C/D/ECD5A339-EF10-4420-B3A9-99098884D716/MSFT_Cloud_architecture_information%20protection%20for%20GDPR.vsdx)</span></span>
+<span data-ttu-id="ae8a3-108">[PDF](https://download.microsoft.com/download/E/C/D/ECD5A339-EF10-4420-B3A9-99098884D716/MSFT_Cloud_architecture_information%20protection%20for%20GDPR.pdf)  |  [Visio](https://download.microsoft.com/download/E/C/D/ECD5A339-EF10-4420-B3A9-99098884D716/MSFT_Cloud_architecture_information%20protection%20for%20GDPR.vsdx)</span><span class="sxs-lookup"><span data-stu-id="ae8a3-108">[PDF](https://download.microsoft.com/download/E/C/D/ECD5A339-EF10-4420-B3A9-99098884D716/MSFT_Cloud_architecture_information%20protection%20for%20GDPR.pdf)  |  [Visio](https://download.microsoft.com/download/E/C/D/ECD5A339-EF10-4420-B3A9-99098884D716/MSFT_Cloud_architecture_information%20protection%20for%20GDPR.vsdx)</span></span>
   
-<span data-ttu-id="cdfab-109">GDPR에 대한 데이터 주체 요청 수행에 대한 자세한 내용은 [GDPR에 대한 Office 365 데이터 주체 요청](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-office365)을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="cdfab-109">For information about performing data subject requests for the GDPR, see [Office 365 Data Subject Requests for the GDPR](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-office365).</span></span> 
+<span data-ttu-id="ae8a3-109">GDPR에 대한 데이터 주체 요청 수행에 대한 자세한 내용은 [GDPR에 대한 Office 365 데이터 주체 요청](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-office365)을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="ae8a3-109">For information about performing data subject requests for the GDPR, see [Office 365 Data Subject Requests for the GDPR](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-office365).</span></span> 
 
-## <a name="see-also"></a><span data-ttu-id="cdfab-110">참고 항목</span><span class="sxs-lookup"><span data-stu-id="cdfab-110">See Also</span></span>
+## <a name="see-also"></a><span data-ttu-id="ae8a3-110">참고 항목</span><span class="sxs-lookup"><span data-stu-id="ae8a3-110">See Also</span></span>
   
-[<span data-ttu-id="cdfab-111">정치적 캠페인, 비영리 조직 및 기타 애자일 조직에 대한 Microsoft 보안 지침</span><span class="sxs-lookup"><span data-stu-id="cdfab-111">Microsoft Security Guidance for Political Campaigns, Nonprofits, and Other Agile Organizations</span></span>](https://docs.microsoft.com/microsoft-365/security/office-365-security/microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o)
+[<span data-ttu-id="ae8a3-111">정치적 캠페인, 비영리 조직 및 기타 애자일 조직에 대한 Microsoft 보안 지침</span><span class="sxs-lookup"><span data-stu-id="ae8a3-111">Microsoft Security Guidance for Political Campaigns, Nonprofits, and Other Agile Organizations</span></span>](https://docs.microsoft.com/microsoft-365/security/office-365-security/microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-o)

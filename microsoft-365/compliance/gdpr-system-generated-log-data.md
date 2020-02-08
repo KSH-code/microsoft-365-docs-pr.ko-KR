@@ -6,6 +6,8 @@ localization_priority: Priority
 Robots: NOFOLLOW,NOINDEX
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -13,25 +15,26 @@ audience: itpro
 ms.collection:
 - GDPR
 - M365-security-compliance
-ms.openlocfilehash: 725c39cdb33a37364e2b24679d1e998f60281b2b
-ms.sourcegitcommit: 33242c260439de0d8db41247e9414913f24adc22
+titleSuffix: Microsoft GDPR
+ms.openlocfilehash: ea13a44a6d4da54b83ee1ddccb2bd8c46f82c943
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "38749900"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41596365"
 ---
-# <a name="additional-steps-to-export-system-generated-log-data"></a><span data-ttu-id="4960e-104">시스템 생성 로그 데이터를 내보낼 수 있는 추가 단계</span><span class="sxs-lookup"><span data-stu-id="4960e-104">Additional steps to export system-generated log data</span></span>
+# <a name="additional-steps-to-export-system-generated-log-data"></a><span data-ttu-id="1e9c0-104">시스템 생성 로그 데이터를 내보낼 수 있는 추가 단계</span><span class="sxs-lookup"><span data-stu-id="1e9c0-104">Additional steps to export system-generated log data</span></span>
 
-<span data-ttu-id="4960e-p101">**Kaizala**: Kaizala 관리 포털을 사용하면 조직의 제품 및 서비스 사용 현황 데이터를 내보내고 Excel 기능을 사용하여 특정 사용자의 데이터를 필터링할 수 있습니다. 자세한 지침은 [Kaizala에서 조직 데이터 내보내기](https://support.office.com/article/export-user-data-in-kaizala-150ec214-a070-4e8a-8509-82f46d84bbb6)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="4960e-p101">**Kaizala**[](https://support.office.com/article/export-user-data-in-kaizala-150ec214-a070-4e8a-8509-82f46d84bbb6)The Kaizala management portal lets you export an organization’s product and service usage data and then use Excel functionality to filter that data for a specific user. For detailed instructions, see Exporting organizational data in Kaizala.</span></span>
+<span data-ttu-id="1e9c0-p101">**Kaizala**: Kaizala 관리 포털을 사용하면 조직의 제품 및 서비스 사용 현황 데이터를 내보내고 Excel 기능을 사용하여 특정 사용자의 데이터를 필터링할 수 있습니다. 자세한 지침은 [Kaizala에서 조직 데이터 내보내기](https://support.office.com/article/export-user-data-in-kaizala-150ec214-a070-4e8a-8509-82f46d84bbb6)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="1e9c0-p101">**Kaizala**: The Kaizala management portal lets you export an organization’s product and service usage data and then use Excel functionality to filter that data for a specific user. For detailed instructions, see [Exporting organizational data in Kaizala](https://support.office.com/article/export-user-data-in-kaizala-150ec214-a070-4e8a-8509-82f46d84bbb6).</span></span>
 
-<span data-ttu-id="4960e-p102">**Office 로밍 서비스**: Office 로밍은 Office 테마, 사용자 지정 사전, 언어 설정, 개발자 모드, 자동 고침과 같은 Office 관련 설정을 저장하는 서비스입니다. 이 데이터를 내보내는 방법에 대한 지침은 [Office 로밍 서비스에서 데이터 내보내기](https://support.office.com/article/manage-gdpr-data-subject-requests-with-the-dsr-case-tool-in-the-office-365-security-compliance-center-preview-ce9eb942-3589-42cb-88fd-1576ecb09c5c?storagetype=stage#o365datamoreinfo)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="4960e-p102">**Office Roaming Service**[](https://support.office.com/article/manage-gdpr-data-subject-requests-with-the-dsr-case-tool-in-the-office-365-security-compliance-center-preview-ce9eb942-3589-42cb-88fd-1576ecb09c5c?storagetype=stage#o365datamoreinfo)Office Roaming is a service that stores Office-related settings, such as Office theme, custom dictionary, language settings, developer mode, and auto correct. For instructions on how to export this data, see Exporting Data from Office Roaming Service.</span></span> 
+<span data-ttu-id="1e9c0-p102">**Office 로밍 서비스**: Office 로밍은 Office 테마, 사용자 지정 사전, 언어 설정, 개발자 모드, 자동 고침과 같은 Office 관련 설정을 저장하는 서비스입니다. 이 데이터를 내보내는 방법에 대한 지침은 [Office 로밍 서비스에서 데이터 내보내기](https://support.office.com/article/manage-gdpr-data-subject-requests-with-the-dsr-case-tool-in-the-office-365-security-compliance-center-preview-ce9eb942-3589-42cb-88fd-1576ecb09c5c?storagetype=stage#o365datamoreinfo)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="1e9c0-p102">**Office Roaming Service**: Office Roaming is a service that stores Office-related settings, such as Office theme, custom dictionary, language settings, developer mode, and auto correct. For instructions on how to export this data, see [Exporting Data from Office Roaming Service](https://support.office.com/article/manage-gdpr-data-subject-requests-with-the-dsr-case-tool-in-the-office-365-security-compliance-center-preview-ce9eb942-3589-42cb-88fd-1576ecb09c5c?storagetype=stage#o365datamoreinfo).</span></span> 
  
-<span data-ttu-id="4960e-p103">**작업 공간 분석**:데이터 로그 내보내기 도구는 작업 공간 분석 보고서 실행 권한이 있는 조직의 사용자에 대한 사용 현황 데이터를 제공합니다. 작업 공간 분석은 Office 365 데이터에서 파생된 필명화된 데이터를 계산하고 저장하여 성능을 향상합니다. 이 필명화된 데이터를 사용자가 사용할 수 있도록 만들고 도움이 필요한 [Microsoft 지원](https://support.microsoft.com/contactus/)에 문의하세요.</span><span class="sxs-lookup"><span data-stu-id="4960e-p103">**Workplace Analytics**[](https://support.microsoft.com/contactus/)The data log export tool provides usage data for those users in your organization who have permission to run Workplace Analytics reports. Workplace Analytics also computes and stores pseudonymized data derived from Office 365 data to improve performance. If you would like to make this pseudonymized data available to a user and need assistance, contact Microsoft Support.</span></span>
+<span data-ttu-id="1e9c0-p103">**작업 공간 분석**:데이터 로그 내보내기 도구는 작업 공간 분석 보고서 실행 권한이 있는 조직의 사용자에 대한 사용 현황 데이터를 제공합니다. 작업 공간 분석은 Office 365 데이터에서 파생된 필명화된 데이터를 계산하고 저장하여 성능을 향상합니다. 이 필명화된 데이터를 사용자가 사용할 수 있도록 만들고 도움이 필요한 [Microsoft 지원](https://support.microsoft.com/contactus/)에 문의하세요.</span><span class="sxs-lookup"><span data-stu-id="1e9c0-p103">**Workplace Analytics**: The data log export tool provides usage data for those users in your organization who have permission to run Workplace Analytics reports. Workplace Analytics also computes and stores pseudonymized data derived from Office 365 data to improve performance. If you would like to make this pseudonymized data available to a user and need assistance, contact [Microsoft Support](https://support.microsoft.com/contactus/).</span></span>
 
-<span data-ttu-id="4960e-p104">**Yammer**: Yammer 관리 센터에서 사용자의 계정 활동 데이터를 내보낼 수 있습니다. 사용자 데이터를 내보내면 사용자의 계정 활동 데이터가 포함된 전자 메일 메시지를 받게 됩니다. 선택하면 이 정보를 사용자에게 제공할 수 있습니다. 자세한 지침은 [Yammer Enterprise: 개인 정보](https://support.office.com/article/eae49f12-4661-4ba5-aa72-01248f0709bf)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="4960e-p104">**Yammer**[](https://support.office.com/article/eae49f12-4661-4ba5-aa72-01248f0709bf)The Yammer admin center lets you export a user’s account activity data. When you export the user’s data, you will receive an email message containing the user’s account activity data. You can provide this information to the user if you choose. For detailed instructions, see Yammer Enterprise: Privacy.</span></span>
+<span data-ttu-id="1e9c0-p104">**Yammer**: Yammer 관리 센터에서 사용자의 계정 활동 데이터를 내보낼 수 있습니다. 사용자 데이터를 내보내면 사용자의 계정 활동 데이터가 포함된 전자 메일 메시지를 받게 됩니다. 선택하면 이 정보를 사용자에게 제공할 수 있습니다. 자세한 지침은 [Yammer Enterprise: 개인 정보](https://support.office.com/article/eae49f12-4661-4ba5-aa72-01248f0709bf)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="1e9c0-p104">**Yammer**: The Yammer admin center lets you export a user’s account activity data. When you export the user’s data, you receive an email message containing the user’s account activity data. You can provide this information to the user if you choose. For detailed instructions, see [Yammer Enterprise: Privacy](https://support.office.com/article/eae49f12-4661-4ba5-aa72-01248f0709bf).</span></span>
 
-## <a name="learn-more"></a><span data-ttu-id="4960e-116">자세한 정보</span><span class="sxs-lookup"><span data-stu-id="4960e-116">Learn more</span></span>
+## <a name="learn-more"></a><span data-ttu-id="1e9c0-116">자세한 정보</span><span class="sxs-lookup"><span data-stu-id="1e9c0-116">Learn more</span></span>
 
-[<span data-ttu-id="4960e-117">Microsoft 보안 센터</span><span class="sxs-lookup"><span data-stu-id="4960e-117">Microsoft Trust Center</span></span>](https://www.microsoft.com/TrustCenter/Privacy/gdpr/default.aspx)
+[<span data-ttu-id="1e9c0-117">Microsoft 보안 센터</span><span class="sxs-lookup"><span data-stu-id="1e9c0-117">Microsoft Trust Center</span></span>](https://www.microsoft.com/TrustCenter/Privacy/gdpr/default.aspx)
 
 

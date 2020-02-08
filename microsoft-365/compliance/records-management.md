@@ -1,7 +1,9 @@
 ---
-title: Microsoft 365의 레코드 관리
-ms.author: laurawi
-author: laurawi
+title: 레코드 관리
+f1.keywords:
+- NOCSH
+ms.author: cabailey
+author: cabailey
 manager: laurawi
 ms.date: ''
 audience: Admin
@@ -13,31 +15,31 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 365의 레코드 관리를 사용하여 조직의 특정 보존 일정을 파일 플랜에 적용하여 전체 콘텐츠 수명 주기를 지원하는 보존, 레코드 선언, 처리를 관리할 수 있습니다.
-ms.openlocfilehash: 3057b5ab061bc5107acbde3c67ecde8a9edaffd7
-ms.sourcegitcommit: 0d423b50d2f1f4eccd64e35e00f67313244efba9
+ms.openlocfilehash: dcc3e5666bcd438a046d535cf9fce88910b85ad7
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "39233229"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41597655"
 ---
-# <a name="records-management-in-microsoft-365"></a><span data-ttu-id="4362f-103">Microsoft 365의 레코드 관리</span><span class="sxs-lookup"><span data-stu-id="4362f-103">Records management in Microsoft 365</span></span>
+# <a name="records-management-in-microsoft-365"></a><span data-ttu-id="5b780-103">Microsoft 365의 레코드 관리</span><span class="sxs-lookup"><span data-stu-id="5b780-103">Records management in Microsoft 365</span></span>
 
-<span data-ttu-id="4362f-104">모든 유형의 조직에는 레코드 관리 솔루션이 있어야 회사 데이터에서 규정, 법률 및 비즈니스에 중요한 레코드를 관리할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4362f-104">Organizations of all types require a records-management solution to manage regulatory, legal, and business-critical records across their corporate data.</span></span> <span data-ttu-id="4362f-105">Microsoft 365의 레코드 관리는 조직이 법적인 의무를 관리하는 데 도움이 되고, 규정 준수를 입증하는 기능을 제공하며, 비즈니스 목적에 대해 더 이상 보존할 필요가 없거나, 더 이상 가치가 없거나, 사용하지 않는 항목을 정기적으로 처리하여 효율성을 높입니다.</span><span class="sxs-lookup"><span data-stu-id="4362f-105">Records management in Microsoft 365 helps an organization manage their legal obligations, provides the ability to demonstrate compliance with regulations, and increases efficiency with regular disposition of items that are no longer required to be retained, no longer of value, or no longer required for business purposes.</span></span>
+<span data-ttu-id="5b780-104">모든 유형의 조직에는 레코드 관리 솔루션이 있어야 회사 데이터에서 규정, 법률 및 비즈니스에 중요한 레코드를 관리할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="5b780-104">Organizations of all types require a records-management solution to manage regulatory, legal, and business-critical records across their corporate data.</span></span> <span data-ttu-id="5b780-105">Microsoft 365의 레코드 관리는 조직이 법적인 의무를 관리하는 데 도움이 되고, 규정 준수를 입증하는 기능을 제공하며, 비즈니스 목적에 대해 더 이상 보존할 필요가 없거나, 더 이상 가치가 없거나, 사용하지 않는 항목을 정기적으로 처리하여 효율성을 높입니다.</span><span class="sxs-lookup"><span data-stu-id="5b780-105">Records management in Microsoft 365 helps an organization manage their legal obligations, provides the ability to demonstrate compliance with regulations, and increases efficiency with regular disposition of items that are no longer required to be retained, no longer of value, or no longer required for business purposes.</span></span>
 
-<span data-ttu-id="4362f-106">레코드 관리 솔루션이 지원하는 요소는 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="4362f-106">The records-management solution supports the following elements:</span></span>
+<span data-ttu-id="5b780-106">레코드 관리 솔루션이 지원하는 요소는 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="5b780-106">The records-management solution supports the following elements:</span></span>
 
-- <span data-ttu-id="4362f-107">**콘텐츠를 레코드로 레이블**</span><span class="sxs-lookup"><span data-stu-id="4362f-107">**Label as a record**.</span></span> <span data-ttu-id="4362f-108">최종 사용자가 적용하는 [레코드 레이블](records.md)을 게시하거나 특정한 중요 정보, 키워드 또는 콘텐츠 유형을 포함하는 항목에 레코드 레이블을 [자동으로 적용](labels.md#applying-a-retention-label-automatically-based-on-conditions)합니다.</span><span class="sxs-lookup"><span data-stu-id="4362f-108">Publish [record labels](records.md) to be applied by end users, or [auto-apply record labels](labels.md#applying-a-retention-label-automatically-based-on-conditions) to items containing specific sensitive information, keywords, or content types.</span></span>
+- <span data-ttu-id="5b780-107">**콘텐츠를 레코드로 레이블**</span><span class="sxs-lookup"><span data-stu-id="5b780-107">**Label content as a record**.</span></span> <span data-ttu-id="5b780-108">최종 사용자가 적용하는 [레코드 레이블](records.md)을 게시하거나 특정한 중요 정보, 키워드 또는 콘텐츠 유형을 포함하는 항목에 레코드 레이블을 [자동으로 적용](labels.md#applying-a-retention-label-automatically-based-on-conditions)합니다.</span><span class="sxs-lookup"><span data-stu-id="5b780-108">Publish [record labels](records.md) to be applied by end users or [auto-apply](labels.md#applying-a-retention-label-automatically-based-on-conditions) record labels to items containing specific sensitive information, keywords, or content types.</span></span>
 
-- <span data-ttu-id="4362f-109">**파일 플랜으로 보존 플랜을 마이그레이션 및 관리**하고 [파일 플랜 관리자](file-plan-manager.md)를 사용하여 기존 보존 플랜을 가져오거나 파일 설명자 및 확장 계층 구조로 새 플랜을 구축합니다.</span><span class="sxs-lookup"><span data-stu-id="4362f-109">**Migrate and manage your retention plan with file plan** and use [file plan manager](file-plan-manager.md) to bring in your existing retention plan, or build new with file descriptors and expanding hierarchies.</span></span>
+- <span data-ttu-id="5b780-109">**파일 플랜으로 보존 플랜을 마이그레이션 및 관리**하고 [파일 플랜 관리자](file-plan-manager.md)를 사용하여 기존 보존 플랜을 가져오거나 파일 설명자 및 확장 계층 구조로 새 플랜을 구축합니다.</span><span class="sxs-lookup"><span data-stu-id="5b780-109">**Migrate and manage your retention plan with file plan** and use [file plan manager](file-plan-manager.md) to bring in your existing retention plan, or build new with file descriptors and expanding hierarchies.</span></span>
 
-- <span data-ttu-id="4362f-110">**레코드 레이블 내에 보존 및 삭제 정책을 설정합니다**.</span><span class="sxs-lookup"><span data-stu-id="4362f-110">**Establish retention and deletion policies within the record label**.</span></span> <span data-ttu-id="4362f-111">마지막으로 수정 또는 생성된 날짜를 비롯하여 다양한 요소를 기반으로 [보존](retention-policies.md#retaining-content-for-a-specific-period-of-time) 및 [처리](retention-policies.md#deleting-content-thats-older-than-a-specific-age) 기간을 정의합니다.</span><span class="sxs-lookup"><span data-stu-id="4362f-111">Define [retention](retention-policies.md#retaining-content-for-a-specific-period-of-time) and [disposition](retention-policies.md#deleting-content-thats-older-than-a-specific-age) periods based on various factors including the date last modified or created.</span></span>
+- <span data-ttu-id="5b780-110">**레코드 레이블 내에 보존 및 삭제 정책을 설정합니다**.</span><span class="sxs-lookup"><span data-stu-id="5b780-110">**Establish retention and deletion policies within the record label**.</span></span> <span data-ttu-id="5b780-111">마지막으로 수정 또는 생성된 날짜를 비롯하여 다양한 요소를 기반으로 [보존](retention-policies.md#retaining-content-for-a-specific-period-of-time) 및 [처리](retention-policies.md#deleting-content-thats-older-than-a-specific-age) 기간을 정의합니다.</span><span class="sxs-lookup"><span data-stu-id="5b780-111">Define [retention](retention-policies.md#retaining-content-for-a-specific-period-of-time) and [disposition](retention-policies.md#deleting-content-thats-older-than-a-specific-age) periods based on various factors including the date last modified or created.</span></span>
 
-- <span data-ttu-id="4362f-112">[이벤트 기반 보존](event-driven-retention.md)을 통해 **이벤트 기반 보존을 트리거**합니다.</span><span class="sxs-lookup"><span data-stu-id="4362f-112">**Trigger event-based retention** with [event-based retention](event-driven-retention.md).</span></span>
+- <span data-ttu-id="5b780-112">[이벤트 기반 보존](event-driven-retention.md)을 통해 **이벤트 기반 보존을 트리거**합니다.</span><span class="sxs-lookup"><span data-stu-id="5b780-112">**Trigger event-based retention** with [event-based retention](event-driven-retention.md).</span></span>
 
-- <span data-ttu-id="4362f-113">[처리 검토](disposition-reviews.md)를 통해 **처리를 검토하고 확인**합니다.</span><span class="sxs-lookup"><span data-stu-id="4362f-113">**Review and validate disposition** with [disposition review](disposition-reviews.md).</span></span>
+- <span data-ttu-id="5b780-113">[처리 검토](disposition-reviews.md)를 통해 **처리를 검토하고 확인**합니다.</span><span class="sxs-lookup"><span data-stu-id="5b780-113">**Review and validate disposition** with [disposition review](disposition-reviews.md).</span></span>
 
-- <span data-ttu-id="4362f-114">**처리 검토를 통해 처리된 항목을 검토**하고 이후 유효성 검사 및 보고를 위해 [처리 보고서를 내보냅니다](disposition-reviews.md#export-the-disposition-items).</span><span class="sxs-lookup"><span data-stu-id="4362f-114">**Review disposed items with disposition review** and [export a disposition report](disposition-reviews.md#export-the-disposition-items) for further validation and reporting.</span></span>
+- <span data-ttu-id="5b780-114">**처리 검토를 통해 처리된 항목을 검토**하고 이후 유효성 검사 및 보고를 위해 [처리 보고서를 내보냅니다](disposition-reviews.md#export-the-disposition-items).</span><span class="sxs-lookup"><span data-stu-id="5b780-114">**Review disposed items with disposition review** and [export a disposition report](disposition-reviews.md#export-the-disposition-items) for further validation and reporting.</span></span>
 
-- <span data-ttu-id="4362f-115">조직 레코드 관리자 기능의 **특정 권한을 설정**하여 [올바른 액세스 권한을 보유](../security/office-365-security/permissions-in-the-security-and-compliance-center.md)합니다.</span><span class="sxs-lookup"><span data-stu-id="4362f-115">**Set specific permissions** for records manager functions in your organization to [have the right access](../security/office-365-security/permissions-in-the-security-and-compliance-center.md).</span></span>
+- <span data-ttu-id="5b780-115">조직 레코드 관리자 기능의 **특정 권한을 설정**하여 [올바른 액세스 권한을 보유](../security/office-365-security/permissions-in-the-security-and-compliance-center.md)합니다.</span><span class="sxs-lookup"><span data-stu-id="5b780-115">**Set specific permissions** for records manager functions in your organization to [have the right access](../security/office-365-security/permissions-in-the-security-and-compliance-center.md).</span></span>
 
-<span data-ttu-id="4362f-116">Microsoft 365의 레코드 관리 솔루션을 사용하여 조직의 보존 일정을 파일 플랜에 반영하여 전체 콘텐츠 수명 주기를 지원하는 보존, 레코드 선언, 처리를 관리할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4362f-116">With the records-management solution in Microsoft 365, you can incorporate your organization’s retention schedules into the file plan to manage retention, records declaration, and disposition in support of the full content lifecycle.</span></span>
+<span data-ttu-id="5b780-116">Microsoft 365의 레코드 관리 솔루션을 사용하여 조직의 보존 일정을 파일 플랜에 반영하여 전체 콘텐츠 수명 주기를 지원하는 보존, 레코드 선언, 처리를 관리할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="5b780-116">With the records-management solution in Microsoft 365, you can incorporate your organization’s retention schedules into the file plan to manage retention, records declaration, and disposition in support of the full content lifecycle.</span></span>
