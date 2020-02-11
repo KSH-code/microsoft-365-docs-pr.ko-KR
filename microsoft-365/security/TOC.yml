@@ -172,14 +172,21 @@
             - name: 스팸 방지 및 맬웨어 방지 보호
               href: ./office-365-security/anti-spam-and-anti-malware-protection.md
               items:
+                - name: 맬웨어 방지 보호 기능
+                  href: ./office-365-security/anti-malware-protection.md
+                  items:
+                    - name: 맬웨어 방지 보호 FAQ
+                      href: ./office-365-security/anti-malware-protection-faq-eop.md
+                    - name: 맬웨어 방지 정책 구성
+                      href: ./office-365-security/configure-anti-malware-policies.md
+                    - name: 분석을 위해 맬웨어 및 비 맬웨어를 Microsoft에 제출
+                      href: ./office-365-security/submitting-malware-and-non-malware-to-microsoft-for-analysis.md
+                    - name: SharePoint Online에서의 바이러스 탐지
+                      href: ./office-365-security/virus-detection-in-spo.md
                 - name: 고급 스팸 필터링 옵션
                   href: ./office-365-security/advanced-spam-filtering-asf-options.md
                 - name: 아웃바운드 메시지용 높은 위험 배달 풀
                   href: ./office-365-security/high-risk-delivery-pool-for-outbound-messages.md
-                - name: 맬웨어 방지 보호 FAQ
-                  href: ./office-365-security/anti-malware-protection-faq-eop.md
-                - name: 맬웨어 방지 보호 기능
-                  href: ./office-365-security/anti-malware-protection.md
                 - name: 스팸 방지 및 보호 FAQ
                   href: ./office-365-security/anti-spam-protection-faq.md
                 - name: 스팸 필터 규칙과 스팸 필터 정책에서 유효하지 않은 문자 방지
@@ -194,8 +201,6 @@
                   href: ./office-365-security/use-end-user-spam-notifications-to-release-and-report-spam-quarantined-messages.md
                 - name: Office 365에 전송되는 정크 메일에 맞서기
                   href: ./office-365-security/fighting-junk-email.md
-                - name: SharePoint Online에서의 바이러스 탐지
-                  href: ./office-365-security/virus-detection-in-spo.md
                 - name: Office 365 전자 메일 스팸 방지 보호
                   href: ./office-365-security/anti-spam-protection.md
                 - name: 정책 및 보호 조치의 결합 방식
@@ -214,8 +219,6 @@
                   href: ./office-365-security/report-junk-email-messages-to-microsoft.md
                 - name: 대량 메일에 대해 수신 허용 - 보낸 사람 목록 관리
                   href: ./office-365-security/manage-safe-sender-lists-for-bulk-mailers.md
-                - name: 맬웨어 방지 정책 구성
-                  href: ./office-365-security/configure-anti-malware-policies.md
                 - name: 스팸 방지 정책 구성
                   href: ./office-365-security/configure-the-anti-spam-policies.md
                 - name: Create-block-sender-lists-in-office-365
@@ -240,8 +243,6 @@
                   href: ./office-365-security/submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md
                 - name: Office 365에서 관리자 제출
                   href: ./office-365-security/admin-submission.md
-                - name: 분석을 위해 맬웨어 및 비 맬웨어를 Microsoft에 제출
-                  href: ./office-365-security/submitting-malware-and-non-malware-to-microsoft-for-analysis.md
                 - name: 목록 해제 포털을 사용하여 Office 365 수신 거부 목록에서 본인 제거
                   href: ./office-365-security/use-the-delist-portal-to-remove-yourself-from-the-office-365-blocked-senders-lis.md
                 - name: 스팸 방지 메시지 헤더
