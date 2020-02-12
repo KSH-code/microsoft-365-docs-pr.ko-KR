@@ -15,19 +15,19 @@ search.appverid:
 - MET150
 description: 셀프 서비스 구매에 대 한 일반적인 질문과 대답을 확인할 수 있습니다.
 ms.custom: aka.ms/self-service-purchase-faq
-ms.openlocfilehash: f9f991dca27617717817564daa4a042e2eeb4bf0
-ms.sourcegitcommit: 2913fd74ad5086c7cac6388447285be9aa5a8e44
+ms.openlocfilehash: 1a8cea3b11ecdc6e3ac6d382dc8ffe92c84e187a
+ms.sourcegitcommit: e47694dedf7e213167d3d979a44c07c668bba543
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "41661913"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41932278"
 ---
 # <a name="self-service-purchase-faq"></a>셀프 서비스 구매 FAQ
 
 > [!NOTE]
 > 이 문서의 정보는 Microsoft Power Platform (Power BI, Power Apps 및 Power 자동화) 구독에만 적용 됩니다.
 
-이제 미국에서 전원 플랫폼에 셀프 서비스 구매를 사용할 수 있습니다.
+이제 미국, 호주, 캐나다 및 일본의 전원 플랫폼에 셀프 서비스 구매를 사용할 수 있습니다.
 
 ## <a name="general"></a>일반
 
