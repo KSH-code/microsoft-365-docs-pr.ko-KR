@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 솔루션 카탈로그 개요
+title: Microsoft 365 솔루션 카탈로그
 f1.keywords:
 - NOCSH
 ms.author: robmazz
@@ -11,18 +11,16 @@ ms.service: o365-seccomp
 localization_priority: Normal
 description: 포함 된 내용, 가져오는 방법 및 다음 단계를 포함 하 여 Microsoft 365 솔루션 카탈로그에 대해 알아봅니다.
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 57591d385ce05454151b9ed28c5d764096d9e95b
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: e147ac6ac17a9fdd395aa0b1a00bd8f630cd10c1
+ms.sourcegitcommit: 3e93676223948a1d2209ff2b7ce7a91b18817260
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602745"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41891981"
 ---
-# <a name="overview-of-the-microsoft-365-solution-catalog-preview"></a>Microsoft 365 솔루션 카탈로그 개요 (미리 보기)
+# <a name="microsoft-365-solution-catalog"></a>Microsoft 365 솔루션 카탈로그
 
-## <a name="overview"></a>개요
-
-Microsoft 365에서 규정 준수 작업을 빠르게 시작할 수 있는 방법을 찾고 계십니까? 새 [Microsoft 365 솔루션 카탈로그](https://compliance.microsoft.com/solutioncatalog) 에서 규정 준수 및 위험 관리 솔루션을 검색 하 고 배우고 빠르게 시작할 수 있습니다.
+Microsoft 365에서 규정 준수 작업을 빠르게 시작할 수 있는 방법을 찾고 계십니까? [Microsoft 365 솔루션 카탈로그](https://compliance.microsoft.com/solutioncatalog) 에서 규정 준수 및 위험 관리 솔루션을 검색 하 고 배우고 빠르게 시작할 수 있습니다.
 
 Microsoft 365의 규정 준수 솔루션은 종단 간 규정 준수 시나리오를 관리 하는 데 사용할 수 있는 통합 기능 모음입니다. 솔루션의 기능과 도구에는 정책, 경고, 보고서 등의 조합이 포함 될 수 있습니다.
 
@@ -79,32 +77,30 @@ Microsoft 365의 규정 준수 솔루션은 종단 간 규정 준수 시나리�
 
 ## <a name="how-do-i-get-this"></a>이를 어떻게 얻을 수 있나요?
 
-- 새 Microsoft 365 솔루션 카탈로그가 이미 없으면 곧 제공 될 예정입니다. 증분 롤아웃에서 모든 Microsoft 365 구독에 대해 솔루션 카탈로그를 사용 하도록 설정 하 고 있습니다.
-
-- Microsoft 365 솔루션 카탈로그를 방문 하려면로 [https://compliance.microsoft.com](https://compliance.microsoft.com) 이동 하 고 전역 관리자, 준수 관리자 또는 준수 데이터 관리자로 로그인 합니다. 화면 왼쪽의 탐색 창에서 **카탈로그** 를 선택 하 여 카탈로그 홈 페이지를 엽니다.
+Microsoft 365 솔루션 카탈로그를 방문 하려면로 [https://compliance.microsoft.com](https://compliance.microsoft.com) 이동 하 고 전역 관리자, 준수 관리자 또는 준수 데이터 관리자로 로그인 합니다. 화면 왼쪽의 탐색 창에서 **카탈로그** 를 선택 하 여 카탈로그 홈 페이지를 엽니다.
 
 ## <a name="frequently-asked-questions"></a>자주하는 질문
 
-**새 Microsoft 365 솔루션 카탈로그가 아직 표시 되지 않는 이유는 무엇 인가요?**
+**Microsoft 365 솔루션 카탈로그가 표시 되지 않는 이유는 무엇 인가요?**
 
-먼저 적절 한 라이선스 및 사용 권한이 있는지 확인 합니다. 그런 다음 전역 관리자, [https://compliance.microsoft.com](https://compliance.microsoft.com) 준수 관리자 또는 준수 데이터 관리자 권한으로 로그인 합니다. 아직 왼쪽 탐색 창에 새 솔루션 카탈로그가 표시 되지 않으면 곧 제공 될 예정입니다.
+먼저 적절 한 라이선스 및 사용 권한이 있는지 확인 합니다. 그런 다음 전역 관리자, [https://compliance.microsoft.com](https://compliance.microsoft.com) 준수 관리자 또는 준수 데이터 관리자 권한으로 로그인 합니다.
 
 **솔루션 카탈로그 페이지에 나열 된 규정 준수 기능 중 일부는 Microsoft 365 준수 센터에서 사용할 수 없습니다. 뭐 할까요?**
 
-여전히 Microsoft 365 준수 센터 및 솔루션 카탈로그에 기능을 추가 하 고 있습니다. 탐색 영역에서 특정 솔루션을 찾을 수 없으면 해당 솔루션을 구독에서 사용할 수 있는 경우 액세스할 수 있게 됩니다.
+항상 Microsoft 365 준수 센터 및 솔루션 카탈로그에 새로운 기능을 추가 하는 작업을 수행 하 고 있습니다. 탐색 영역에서 특정 솔루션을 찾을 수 없으면 해당 솔루션을 구독에서 사용할 수 있는 경우 액세스할 수 있게 됩니다.
 
 기존 준수 솔루션을 찾고 있는 경우 Microsoft 365 준수 센터에서 아직 사용할 수 없는 경우에 [https://protection.office.com](https://protection.office.com)는 기존 Office 365 보안 및 준수 센터에서 언제 든 지 솔루션에 액세스할 수 있습니다. 또는 Microsoft 365 준수 센터의 왼쪽 탐색 창에 있는 **기타 리소스** 탭을 클릭 하 고 Office 365 보안 및 준수 센터 카드를 선택할 수 있습니다.  
 
 ## <a name="next-steps"></a>다음 단계
 
-- 조직의 주요 표준 및 규정 준수 상태를 이해 하는 데 도움이 되는 개인 설정 된 위험 기반 점수가 **Microsoft 준수 점수를 검토**합니다. 전체 준수 상황을 강화 하기 위해 수행할 수 있는 권장 작업을 제공 하 고 이러한 작업을 효율적으로 수행 하는 데 도움이 되는 워크플로 기능을 제공 합니다. 자세한 내용은 [준수 점수 (Preview)](compliance-score.md)를 참조 하십시오.
+- 조직의 주요 표준 및 규정 준수 상태를 이해 하는 데 도움이 되는 개인 설정 된 위험 기반 점수가 **Microsoft 준수 점수를 검토**합니다. 전체 준수 상황을 강화 하기 위해 수행할 수 있는 권장 작업을 제공 하 고 이러한 작업을 효율적으로 수행 하는 데 도움이 되는 워크플로 기능을 제공 합니다. 자세한 내용은 [준수 점수 (preview)](compliance-score.md)를 참조 하십시오.
 
-- 내부 위험을 최소화 하 고 조직에서 위험한 활동을 감지 하 고 조사 하며 작업을 수행할 수 있도록 하는 **참가자 위험 관리 정책을 구성** 합니다. [참가자 위험 관리](insider-risk-management.md)를 참조 하세요.
+- 내부 위험을 최소화 하 고 조직에서 위험한 활동을 감지 하 고 조사 하며 작업을 수행할 수 있도록 하는 **참가자 위험 관리 정책을 구성** 합니다. [Insider 위기 관리 (preview)](insider-risk-management.md)를 참조 하세요.
+
+- 회사에서 수행 하는 정책 위반을 빠르게 확인 하 고 수정 하기 위한 **통신 준수 정책에 대해 알아봅니다** . [통신 준수](communication-compliance.md)를 참조 하세요.
 
 - **Microsoft**365 솔루션을 통해 microsoft에서 중요 한 정보를 검색, 분류 및 보호 하는 방법에 대해 알아봅니다.
     - **Microsoft Cloud App Security를 숙지 하 고 설정**합니다. [퀵 스타트: Microsoft Cloud App Security 시작을](https://docs.microsoft.com/cloud-app-security/getting-started-with-cloud-app-security)참조 하세요.
     - **분류자 작업을 시작**합니다. 콘텐츠를 분류 한 다음이를 보호 하 고 적절 하 게 레이블을 지정 하 여 정보 보호 규칙의 시작 위치입니다. [Trainable 분류자 시작을](classifier-getting-started-with.md)참조 하세요.
-
-- 회사에서 수행 하는 정책 위반을 빠르게 확인 하 고 수정 하기 위한 **통신 준수 정책에 대해 알아봅니다** . [Microsoft 365의 통신 준수를](communication-compliance.md)참조 하세요.
 
 - **Microsoft 365 솔루션 카탈로그를 자주 방문**하 고, 준수 요구 사항에 도움이 되는 새로운 솔루션을 검토 해야 합니다. 로그인 [https://compliance.microsoft.com](https://compliance.microsoft.com) 한 다음 왼쪽 탐색 창에서 **카탈로그** 를 선택 합니다.

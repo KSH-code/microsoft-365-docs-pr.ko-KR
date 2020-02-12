@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 준수 센터 개요
+title: Microsoft 365 규정 준수 센터
 f1.keywords:
 - NOCSH
 ms.author: robmazz
@@ -11,16 +11,14 @@ ms.service: o365-seccomp
 localization_priority: Normal
 description: 포함 된 내용을 비롯 하 여 Microsoft 365 준수 센터, 다운로드 방법 및 다음 단계에 대해 알아봅니다.
 ms.collection: M365-security-compliance
-ms.openlocfilehash: a6fd689240b15fa915c609291259999ae8a31ce3
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 62c70fc4e7ea8a491db23a4fc9695b2b11b283ac
+ms.sourcegitcommit: 2498cd4af90c31771167a1be9f8f12a96dc6500f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602785"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41916933"
 ---
-# <a name="overview-of-the-microsoft-365-compliance-center"></a>Microsoft 365 준수 센터 개요
-
-## <a name="overview"></a>개요
+# <a name="microsoft-365-compliance-center"></a>Microsoft 365 규정 준수 센터
 
 조직의 규정 준수 상황에 관심이 있는 경우 [Microsoft 365 준수 센터](https://compliance.microsoft.com)를 좋아하는 것입니다. Microsoft 365 준수 센터는 조직의 규정 준수 요구 사항에 맞게 관리 해야 하는 데이터 및 도구에 쉽게 액세스할 수 있도록 합니다.
 
@@ -60,7 +58,7 @@ Microsoft 365 준수 센터를 처음 방문 하면 홈 페이지의 카드 구�
 
 ## <a name="easy-navigation-to-more-compliance-features-and-capabilities"></a>더 많은 준수 기능 및 기능에 대 한 간편한 탐색
 
-홈 페이지에 있는 명함 링크 외에, [알림](../security/office-365-security/alerts.md), [보고서](reports-in-security-and-compliance.md), [정책](alert-policies.md), 규정 준수 솔루션 등에 쉽게 액세스할 수 있도록 화면 왼쪽에 탐색 창이 표시 됩니다.
+홈 페이지에 있는 명함 링크 외에, [알림](../security/office-365-security/alerts.md), [보고서](reports-in-security-and-compliance.md), [정책](alert-policies.md), 규정 준수 솔루션 등에 쉽게 액세스할 수 있도록 화면 왼쪽에 탐색 창이 표시 됩니다. 사용자 지정 된 탐색 창에 대 한 옵션을 추가 하거나 제거 하려면 탐색 창에서 **탐색 컨트롤 사용자 지정** 을 사용 합니다. 이렇게 하면 탐색 **창 설정 사용자 지정** 이 열리므로 탐색 창에 표시 되는 항목을 구성할 수 있습니다.
 
 |  |  |
 |---------|---------|

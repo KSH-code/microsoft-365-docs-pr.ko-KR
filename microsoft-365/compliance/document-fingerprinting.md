@@ -12,12 +12,12 @@ ms.service: exchange-online
 ms.collection: M365-security-compliance
 localization_priority: Normal
 description: 조직에서 정보 근로자는 일상적으로 다양한 종류의 중요한 정보를 처리합니다. 문서 지문을 사용하면 조직 전체에서 사용되는 표준 양식을 식별하여 이 정보를 보다 쉽게 보호할 수 있습니다. 이 항목에서는 문서 지문을 개념 및 PowerShell을 사용 하 여 만드는 방법에 대해 설명 합니다.
-ms.openlocfilehash: 6aea349495aa31eba8c9b57abffb92131d00864c
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 4e64f2bf4db802cc5c94661fc2a57e1a0854b28a
+ms.sourcegitcommit: 3e93676223948a1d2209ff2b7ce7a91b18817260
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595203"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41892031"
 ---
 # <a name="document-fingerprinting"></a>문서 지문
 
@@ -25,25 +25,25 @@ ms.locfileid: "41595203"
   
 ## <a name="basic-scenario-for-document-fingerprinting"></a>문서 지문 관련 기본 시나리오
 
-문서 지문을는 DLP (데이터 손실 방지) 기능을 사용 하 여 사용자가 특정 정보 유형으로 표준 양식을 변환 하 고, 이러한 유형은 해당 규칙에서 사용할 수 있습니다. 예를 들어 빈 특허 서식 파일을 기준으로 문서 지문을 만든 다음 중요 한 콘텐츠가 채워진 모든 보내는 특허 서식 파일을 검색 하 고 차단 하는 DLP 정책을 만들 수 있습니다. 경우에 따라 보낸 사람에 게 중요 한 정보를 보낼 수 있음을 알리는 [정책 팁](use-notifications-and-policy-tips.md) 을 설정 하 고 보낸 사람에 게 해당 받는 사람이 특허권을 받을 자격이 있는지 확인 해야 합니다. 이 프로세스는 조직에서 사용 되는 텍스트 기반 양식에서 작동 합니다. 업로드할 수 있는 양식의 추가 예는 다음과 같습니다. 
+문서 지문을는 DLP (데이터 손실 방지) 기능을 사용 하 여 사용자가 특정 정보 유형으로 표준 양식을 변환 하 고, 이러한 유형은 해당 규칙에서 사용할 수 있습니다. 예를 들어 빈 특허 서식 파일을 기준으로 문서 지문을 만든 다음 중요 한 콘텐츠가 채워진 모든 보내는 특허 서식 파일을 검색 하 고 차단 하는 DLP 정책을 만들 수 있습니다. 경우에 따라 보낸 사람에 게 중요 한 정보를 보낼 수 있음을 알리는 [정책 팁](use-notifications-and-policy-tips.md) 을 설정 하 고 보낸 사람에 게 해당 받는 사람이 특허권을 받을 자격이 있는지 확인 해야 합니다. 이 프로세스는 조직에서 사용 되는 텍스트 기반 양식에서 작동 합니다. 업로드할 수 있는 양식의 추가 예는 다음과 같습니다.
   
 - 정부 양식
-    
-- HIPAA(Health Insurance Portability and Accountability Act) 준수 양식
-    
+- HIPAA(Health Insurance Portability and Accountability Act) 준수 양식  
 - 인사 부서의 직원 정보 양식
-    
 - 조직용으로 특수 작성된 사용자 지정 양식
-    
+
 조직에서 특정 양식을 사용하여 중요한 정보를 전송하는 업무 관행을 이미 설정한 상태인 것이 가장 좋습니다. 문서 지 문으로 변환 되는 빈 양식을 업로드 하 고 해당 정책을 설정 하 고 나면 DLP는 아웃 바운드 메일에서 해당 지문과 일치 하는 문서를 검색 합니다.
-  
+
 ## <a name="how-document-fingerprinting-works"></a>문서 지문의 작동 방식
 
 문서에 실제 지문이 포함되는 것은 아니며 지문과 같은 기능이 제공됩니다. 사람의 지문에 고유한 패턴이 있는 것처럼 문서에도 고유한 단어 패턴이 있습니다. 파일을 업로드 하면 DLP는 문서에서 고유한 단어 패턴을 식별 하 고, 해당 패턴을 기반으로 문서 지문을 만들며, 해당 문서 지문을 사용 하 여 동일한 패턴을 포함 하는 아웃 바운드 문서를 검색 합니다. 따라서 양식이나 서식 파일을 업로드하면 가장 효율적인 유형의 문서 지문을 만들 수 있습니다. 양식을 작성하는 모든 사용자는 동일한 원본 단어 집합을 사용하게 되며, 원하는 단어를 문서에 추가합니다. 아웃 바운드 문서가 암호로 보호 되지 않고 원본 양식의 모든 텍스트를 포함 하는 경우 DLP는 문서가 문서 지문과 일치 하는지 여부를 확인할 수 있습니다.
-  
+
+> [!IMPORTANT]
+> 지금은 DLP에서 문서 지문을를 Exchange online의 검색 방법으로 사용할 수 있습니다.
+
 다음 예에서는 특허 서식 파일을 기준으로 문서 지문을 만들 때 수행되는 작업을 설명하지만 원하는 모든 양식을 기준으로 문서 지문을 만들 수 있습니다.
   
-**특허 서식 파일의 문서 지문과 일치하는 특허 문서의 예**
+### <a name="example-of-a-patent-document-matching-a-document-fingerprint-of-a-patent-template"></a>특허 서식 파일의 문서 지문과 일치하는 특허 문서의 예
 
 ![Document-Fingerprinting-diagram-.png](media/Document-Fingerprinting-diagram.png)
   
@@ -60,11 +60,9 @@ ms.locfileid: "41595203"
 문서 지문을는 다음과 같은 경우에 중요 한 정보를 검색 하지 않습니다.
   
 - 암호로 보호된 파일
-    
 - 이미지만 포함된 파일
-    
 - 문서 지문을 만드는 데 사용된 원본 양식의 모든 텍스트가 포함되지 않는 문서
-    
+
 ## <a name="use-powershell-to-create-a-classification-rule-package-based-on-document-fingerprinting"></a>PowerShell을 사용 하 여 문서 지문을를 기반으로 분류 규칙 패키지 만들기
 
 현재 보안 &amp; 및 준수 센터에서 PowerShell을 사용 하 여 문서 지문을 만들 수 있습니다. 연결 하려면 [보안 & 준수 센터 PowerShell에 연결을](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell)참조 하세요.
