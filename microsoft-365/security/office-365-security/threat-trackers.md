@@ -16,12 +16,12 @@ ms.assetid: a097f5ca-eac0-44a4-bbce-365f35b79ed1
 ms.collection:
 - M365-security-compliance
 description: 조직에서 보안 문제를 계속 유지 하는 데 도움이 되는 새로운 주요 추적기를 비롯 한 위협 추적기에 대해 알아봅니다.
-ms.openlocfilehash: f2a68cfbbae0ce91716f69514e30136ac223bbf8
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 75ade05f5512657a443f3c14c2745cc2cd3d78db
+ms.sourcegitcommit: 4986032867b8664a215178b5e095cbda021f3450
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41598185"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "41957363"
 ---
 # <a name="threat-trackers---new-and-noteworthy"></a>위협 추적기-신규 및 주목할 만한
 
@@ -55,7 +55,7 @@ ms.locfileid: "41598185"
   
 ### <a name="trending-trackers"></a>추세 분석
 
-추세 추적기 (이전의 캠페인 이라고 함)는 지난 주에 조직의 전자 메일에 표시 되지 않은 새 위협을 강조 표시 합니다.
+추세 추적기 (이전의 캠페인 이라고 함)는 지난 주에 조직의 전자 메일에 수신 된 새 위협을 강조 표시 합니다.
   
 ![추세 맬웨어 캠페인 위젯 예](../media/d2ccc1a0-2a1d-4e36-99b5-6766c207772f.png)
   

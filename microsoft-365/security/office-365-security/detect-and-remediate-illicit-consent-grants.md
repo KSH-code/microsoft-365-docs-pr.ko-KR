@@ -16,12 +16,12 @@ localization_priority: Normal
 search.appverid:
 - MET150
 description: Office 365에서 불법 동의 권한 부여 공격을 인식하고 교정하는 방법에 대해 알아보세요.
-ms.openlocfilehash: 72109b6522a750e4eb31f289352e4ee2abfa7d33
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 0ff16d01c3fe0f150e5a39cec574bc80aead9661
+ms.sourcegitcommit: 4986032867b8664a215178b5e095cbda021f3450
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41599455"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "41957153"
 ---
 # <a name="detect-and-remediate-illicit-consent-grants-in-office-365"></a>Office 365에서 불법 동의 권한 부여 검색 및 교정
 
@@ -39,11 +39,13 @@ ms.locfileid: "41599455"
 
 1. Office 365 테넌트에서 **보안 및 준수 센터**를 엽니다.
 
-2. **검색 및 조사** 노드로 이동하고 **감사 로그** 검색을 선택합니다.
+2. **검색** 으로 이동한 후 **감사 로그 검색**을 선택 합니다.
 
-3. 검색(모든 활동 및 모든 사용자)을 만들고, 응용 프로그램에 대한 동의 결과를 필터링하고, OAuth2PermissionGrant를 추가합니다.
+3. 검색 (모든 작업 및 모든 사용자)을 선택 하 고 필요한 경우 시작 날짜와 끝 날짜를 입력 한 다음 **검색**을 클릭 합니다. 
 
-4. 확장 속성을 확인하고 IsAdminContent가 True로 설정되어 있는지 확인합니다.
+4. 응용 프로그램에 대 한 동의에 대 한 결과를 필터링 하 고 OAuth2PermissionGrant를 추가 합니다.
+
+5. 결과를 클릭 하 여 활동의 세부 정보를 확인 합니다. **자세한 정보** 를 클릭 하면 활동에 대 한 세부 정보를 볼 수 있습니다. IsAdminContent가 True로 설정 되어 있는지 확인 하세요.
 
 > [!NOTE]
 > • 검색 결과에 해당 감사 로그 항목이 표시되려면 이벤트 발생 시점으로부터 30분에서 24시간 정도 걸릴 수 있습니다.<br/><br/> • 감사 기록이 보존되고 감사 로그에서 검색 가능한 시간은 Office 365 구독, 특히 특정 사용자에게 할당된 라이선스 유형에 따라 다릅니다. 자세한 내용은 [감사 로그](../../compliance/search-the-audit-log-in-security-and-compliance.md)를 참조하세요.

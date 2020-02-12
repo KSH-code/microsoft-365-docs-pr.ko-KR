@@ -16,12 +16,12 @@ ms.assetid: 758822b5-0126-463a-9d08-7366bb2a807d
 ms.collection:
 - M365-security-compliance
 description: 웹 사용자의 Microsoft Outlook은 기본 제공 전자 메일 보고 옵션을 사용 하 여 정크 (스팸) 및 피싱 사기를 보고할 수 있습니다. 또한 전자 메일이 정크 (스팸)로 잘못 식별 되었는지 여부를 Microsoft에 게 알릴 수도 있습니다.
-ms.openlocfilehash: e433a91d1152e1e87aa9f45b0ccfe94e8b39f0f9
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 98b53aa17cb84defa9d20aa4610390db9f5447c5
+ms.sourcegitcommit: 4986032867b8664a215178b5e095cbda021f3450
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41598595"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "41957423"
 ---
 # <a name="report-junk-email-and-phishing-scams-in-outlook-on-the-web"></a>웹용 Outlook에서 정크 전자 메일 및 피싱 사기 보고
 
@@ -38,7 +38,7 @@ ms.locfileid: "41598595"
    > [!NOTE]
    > 또는 메시지를 마우스 오른쪽 단추로 클릭 하 여 메뉴를 표시 하 고 **정크 메일로 표시**를 클릭 합니다.
 
-   정크 메일 메시지는 **받은 편지함**, **정리**된 항목 폴더, **삭제 됨** 등의 폴더로 보고할 수 있습니다.
+   정크 메일 메시지는 **받은 편지함** **폴더에서** 보고할 수 있습니다.
 
 2. 분석을 위해 정크 메일 메시지 복사본을 Microsoft로 보낼지 묻는 대화 상자가 열립니다. **보고서** 를 클릭 하 여 Microsoft 스팸 분석 팀에 메시지를 보냅니다. 메시지 없이 이후의 정크 메시지를 Microsoft에 자동으로 제출하려면 **이 메시지를 다시 표시 안 함** 확인란을 선택합니다.
 
@@ -57,7 +57,7 @@ ms.locfileid: "41598595"
 
    또는 메시지를 마우스 오른쪽 단추로 클릭 하 여 메뉴를 표시 하 고 **피싱 메일로 표시**를 클릭 합니다.
 
-   **받은 편지함**, **깔끔하게 정리**된 **항목** 폴더에서 피싱 사기 메시지를 보고할 수 있습니다.
+   **받은 편지함** 또는 **삭제 된 항목** 폴더에서 피싱 사기 메시지를 보고할 수 있습니다.
 
 2. 일부 조직의 경우 분석을 위해 Microsoft에 피싱 사기 전자 메일 복사본을 보낼지 묻는 대화 상자가 열립니다. **보고서** 를 클릭 하 여 Microsoft 스팸 분석 팀에 메시지를 보냅니다. 이 보고 옵션은 현재 제한 된 수의 조직에서 사용할 수 있습니다. Microsoft에 피싱 사기를 보고할지 묻는 메시지가 표시 되지 않을 수 있습니다.
 

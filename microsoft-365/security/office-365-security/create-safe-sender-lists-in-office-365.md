@@ -14,24 +14,24 @@ search.appverid:
 - MET150s
 ms.assetid: 9721b46d-cbea-4121-be51-542395e6fd21
 description: 특정 보낸 사람의 메일을 수신 하는 경우 해당 사용자와 해당 메시지를 신뢰 하기 때문에 스팸 필터 정책에서 허용 목록을 조정할 수 있습니다.
-ms.openlocfilehash: 4ac97192327cd9ced853ce63537375931f3f0ec3
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 80bffdb1e673f4d22dc5d3ebc01732fcb587600f
+ms.sourcegitcommit: 4986032867b8664a215178b5e095cbda021f3450
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41599535"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "41957263"
 ---
 # <a name="create-safe-sender-lists-in-office-365"></a>Office 365에서 수신 허용-보낸 사람 목록 만들기
 
 사용자가 특정 보낸 사람이 나 보낸 사람에 게 메시지를 신뢰 하 여 전자 메일을 받을 수 있도록 하려면 여러 가지 방법을 선택할 수 있습니다. 이러한 옵션에는 Exchange 메일 흐름 규칙 (전송 규칙이 라고도 함), Outlook 수신 허용-IP 허용 목록, 스팸 방지 보낸 사람/도메인 허용 목록 등이 있습니다.
 
 > [!IMPORTANT]
-> 조직 허용 목록을 사용 하 여 가양성을 처리 하는 경우에는이를 임시 솔루션으로 간주 하 여 가능한 경우 피해 야 합니다. 실수로 조직을 위장, 가장 및 기타 공격까지 쉽게 열 수 있으므로 허용 목록을 사용 하 여 가양성을 관리 하는 것은 권장 되지 않습니다. 이 용도로 허용 목록을 사용 하는 경우에는 준비 상태에서 [스팸, 스팸 아님 및 피싱 메일을 분석용으로 Microsoft에 제출](https://docs.microsoft.com/office365/SecurityCompliance/submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis)하기 위한 문서를 vigilant 야 합니다.
+> 조직 허용 목록을 사용 하 여 가양성을 처리 하는 경우에는이를 임시 솔루션으로 간주 하 여 가능한 경우 피해 야 합니다. 실수로 조직을 위장, 가장 및 기타 공격까지 쉽게 열 수 있으므로 허용 목록을 사용 하 여 가양성을 관리 하는 것은 권장 되지 않습니다. 이 용도로 허용 목록을 사용 하는 경우에는 준비 상태에서 [스팸, 스팸 아님 및 피싱 메일을 분석용으로 Microsoft에 제출](submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md)하기 위한 문서를 vigilant 야 합니다.
 
 수신 허용-보낸 사람 목록을 구성 하는 데 권장 되는 방법은 메일 흐름 규칙을 사용 하 여 올바른 메시지만 사용할 수 있도록 하는 것입니다. *스팸 방지 정책 전자 메일 주소* 및 *도메인 기반 허용 목록은* 도메인을 쉽게 스푸핑 가능으로 하기 때문에 *IP 주소 기반 목록* 만큼 안전 하지 않습니다. 그러나 스팸 방지 정책 IP 기반 허용 목록에는 해당 IP를 통해 전송 되는 모든 도메인에서 스팸 필터링을 우회 하도록 허용 되는 위험도 표시 됩니다. 신중 하 게 수행 하 *고 예외를* 자세히 모니터링 하세요.
 
 > [!IMPORTANT]
-> **차단 된 보낸 사람 목록을** 만드는 방법에 대 한 정보는 [여기에 나와](create-block-sender-lists-in-office-365.md)있습니다.
+> • **차단 된 보낸 사람 목록을** 만드는 방법에 대 한 정보가 [여기](create-block-sender-lists-in-office-365.md)에 표시 됩니다. <br/><br/> • 보낸 사람 도메인이 인증 되지 않은 전자 메일을 보낼 수 있도록 허용 하기 위해 (스푸핑 방지 보호 무시), 스팸 방지 및 맬웨어 방지 검사를 우회 하지 않고 [Allowedtospoof 수신 허용-보낸 사람 목록](walkthrough-spoof-intelligence-insight.md)에 추가할 수 있습니다.
 
 ## <a name="options-from-most-to-least-recommended"></a>가장 이상 권장 하지 않는 옵션
 
@@ -46,7 +46,7 @@ ms.locfileid: "41599535"
 
 조직에서 합법적인 메시지만 허용 되도록 하려면 조건이 다음 중 하나 여야 합니다.
 
-- 보내는 도메인의 보낸 사람 인증 상태를 사용 합니다. 이 작업을 수행 하려면 인증-결과 헤더를 확인 하 여 "dmarc = pass" 또는 "dmarc = bestguesspass"가 포함 되어 있는지 확인 합니다. 이렇게 하면 보내는 도메인이 인증 되었으며 위장 되지 않습니다. [SPF](https://docs.microsoft.com/office365/SecurityCompliance/set-up-spf-in-office-365-to-help-prevent-spoofing), [Dkim](https://docs.microsoft.com/office365/SecurityCompliance/use-dkim-to-validate-outbound-email)및 [DMARC](https://docs.microsoft.com/office365/SecurityCompliance/use-dmarc-to-validate-email) 전자 메일 인증에 대 한 자세한 내용을 보려면을 클릭 합니다.
+- 보내는 도메인의 보낸 사람 인증 상태를 사용 합니다. 이 작업을 수행 하려면 인증-결과 헤더를 확인 하 여 "dmarc = pass" 또는 "dmarc = bestguesspass"가 포함 되어 있는지 확인 합니다. 이렇게 하면 보내는 도메인이 인증 되었으며 위장 되지 않습니다. [SPF](set-up-spf-in-office-365-to-help-prevent-spoofing.md), [Dkim](use-dkim-to-validate-outbound-email.md)및 [DMARC](use-dmarc-to-validate-email.md) 전자 메일 인증에 대 한 자세한 내용을 보려면을 클릭 합니다.
 
 - 또는 보내는 도메인에 인증이 없는 경우 보내는 도메인 *및* 송신 ip (또는 IP 범위)를 사용 합니다. 가능한 한 안전 하 게 작업을 수행 하는 목표를 *최대한 제한적*으로 유지 해야 합니다. /24 보다 큰 IP 범위는 권장 *되지 않습니다* . 소비자 서비스 또는 공유 인프라에 속하는 IP 주소 범위를 추가 하지 않도록 합니다.
 
@@ -87,7 +87,7 @@ ms.locfileid: "41599535"
 
 ## <a name="use-anti-spam-policy-senderdomain-allow-lists"></a>스팸 방지 정책 보낸 사람/도메인 허용 목록 사용
 
-가장 바람직한 방법은 보낸 사람/도메인을 통해 권한을 부여 하는 것입니다. 이 옵션은 스팸/스푸핑/피싱 보호를 완전히 건너뛰고, 보낸 사람 인증을 평가 하지 않는 *경우에* 는 피해 야 합니다. 이 방법을 사용할 경우 잘못 된 행위자가 메일을 수신 하는 위험성이 높아지고 테스트할 때에만 일시적으로 권장 됩니다. 자세한 단계는 [스팸 필터 정책 문서 구성](https://docs.microsoft.com/office365/securitycompliance/configure-your-spam-filter-policies) 에서 찾을 수 있습니다.
+가장 바람직한 방법은 보낸 사람/도메인을 통해 권한을 부여 하는 것입니다. 이 옵션은 스팸/스푸핑/피싱 보호를 완전히 건너뛰고, 보낸 사람 인증을 평가 하지 않는 *경우에* 는 피해 야 합니다. 이 방법을 사용할 경우 잘못 된 행위자가 메일을 수신 하는 위험성이 높아지고 테스트할 때에만 일시적으로 권장 됩니다. 자세한 단계는 [스팸 필터 정책 구성](configure-your-spam-filter-policies.md) 항목에서 찾을 수 있습니다.
 
 이러한 목록의 최대 제한은 약 1000 항목입니다. 하지만 포털에는 30 개의 항목만 입력할 수 있습니다. 30 개 보다 많은 항목을 추가 하려면 PowerShell을 사용 해야 합니다.
 
