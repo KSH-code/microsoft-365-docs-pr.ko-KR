@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
 description: ''
-ms.openlocfilehash: db05b598fb0dab3cac9420b33b0bd4e12b6b7e9a
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 356330b4282fe9dc0aa211d48e452ad04a1bbe74
+ms.sourcegitcommit: 4986032867b8664a215178b5e095cbda021f3450
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602795"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "41957193"
 ---
 # <a name="migrate-legacy-ediscovery-searches-and-holds-to-the-microsoft-365-compliance-center"></a>레거시 eDiscovery 검색 및 보류를 Microsoft 365 준수 센터로 마이그레이션
 
@@ -41,7 +41,7 @@ Microsoft 365 준수 센터에서는 콘텐츠를 구성 하는 경우를 비롯
 ```powershell
 $UserCredential = Get-Credential
 $sccSession = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://ps.compliance.protection.outlook.com/powershell-liveid -Credential $UserCredential -Authentication Basic -AllowRedirection
-Import-PSSession $Session -AllowClobber -DisableNameChecking
+Import-PSSession $sccSession -DisableNameChecking
 $exoSession = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://ps.outlook.com/powershell-liveid/ -Credential $UserCredential -Authentication Basic -AllowRedirection
 Import-PSSession $exoSession -AllowClobber -DisableNameChecking
 ```
@@ -87,23 +87,19 @@ EDiscovery 보존을 만들려면 보류를 연결 하는 eDiscovery 사례를 �
 $case = New-ComplianceCase -Name "[Case name of your choice]"
 ```
 
-![Remove-compliancecase 명령을 실행 하는 예제](media/MigrateLegacyeDiscovery3.png)
-
 ## <a name="step-5-create-the-ediscovery-hold"></a>5 단계: eDiscovery 보류 만들기
 
 사례를 만든 후에는 보류를 만들어 이전 단계에서 만든 사례와 연결할 수 있습니다. 케이스 보류 정책과 케이스 보류 규칙을 모두 만들어야 한다는 점에 유의 해야 합니다. 사례 보류 정책을 만든 후에 서비스 케이스 보류 규칙을 만들지 않으면 eDiscovery 보류가 만들어지지 않고 콘텐츠가 보류 되지 않습니다.
 
-다음 명령을 실행 하 여 마이그레이션할 eDiscovery 보존을 다시 만듭니다. 다음 예제에서는 마이그레이션하려는 3 단계의 원본 위치 유지에 대 한 속성을 사용 합니다.
+다음 명령을 실행 하 여 마이그레이션할 eDiscovery 보존을 다시 만듭니다. 다음 예제에서는 마이그레이션하려는 3 단계의 원본 위치 유지에 대 한 속성을 사용 합니다. 첫 번째 명령은 새 케이스 보류 정책을 만들고 속성을 변수에 저장 합니다. 두 번째 명령은 해당 케이스 보류 규칙을 만듭니다.
 
 ```powershell
 $policy = New-CaseHoldPolicy -Name $search.Name -Case $case.Identity -ExchangeLocation $search.SourceMailboxes
 ```
 
 ```powershell
-$rule = New-CaseHoldRule -Name $search.Name -Policy $policy.Identity
+New-CaseHoldRule -Name $search.Name -Policy $policy.Identity
 ```
-
-![NewCaseHoldPolicy 및 NewCaseHoldRule cmdlet 사용 예제](media/MigrateLegacyeDiscovery4.png)
 
 ## <a name="step-6-verify-the-ediscovery-hold"></a>6 단계: eDiscovery 보류 확인
 

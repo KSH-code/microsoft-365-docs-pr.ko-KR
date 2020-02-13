@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 3f7dde1a-a8ea-4366-86da-8ee6777f357c
 description: 보안 & 준수 센터의 콘텐츠 검색 도구를 사용 하 여 Exchange 하이브리드 배포에서 온-프레미스 사용자에 대해 MicrosoftTeams 채팅 데이터를 검색 하 고 내보냅니다 (1xN 채팅 이라고 함).
-ms.openlocfilehash: d59af2e39d91bf107567016428102a5aba9cb724
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 042e34028023f1dd4f49804230fe99f2d042d0d6
+ms.sourcegitcommit: 4986032867b8664a215178b5e095cbda021f3450
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597575"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "41957143"
 ---
 # <a name="searching-cloud-based-mailboxes-for-on-premises-users-in-office-365"></a>Office 365에서 온-프레미스 사용자에 대 한 클라우드 기반 사서함 검색
 
@@ -109,7 +109,7 @@ Microsoft 지원 서비스에 요청을 제출할 때 다음 정보를 포함 �
 
 보안 & 준수 센터 PowerShell에서 **ComplianceSearch** 및 **ComplianceSearch** cmdlet을 사용 하 여 온-프레미스 사용자의 클라우드 기반 사서함을 검색할 수 있습니다. 앞에서 설명한 것 처럼 PowerShell을 사용 하 여 온-프레미스 사용자의 팀 채팅 데이터를 검색 하기 위해 지원 요청을 제출할 필요가 없습니다. 
   
-1. [보안 & 준수 센터 PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell)합니다.
+1. [보안 및 준수 센터 PowerShell에 연결하기](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell)
 
 2. 다음 PowerShell 명령을 실행 하 여 온-프레미스 사용자의 클라우드 기반 사서함을 검색 하는 콘텐츠 검색을 만듭니다.
 
@@ -137,9 +137,8 @@ Microsoft 지원 서비스에 요청을 제출할 때 다음 정보를 포함 �
 
 ## <a name="known-issues"></a>알려진 문제
 
-- 현재 온-프레미스 사용자의 경우 클라우드 기반 사서함에서 콘텐츠를 검색, 미리 보기 및 내보낼 수만 있습니다. 온-프레미스 사용자에 대해 클라우드 기반 사서함을 eDiscovery 사례와 관련 된 보류에 배치 하거나 Office 365 보존 정책에 할당 하는 것은 지원 되지 않습니다. 
+- 현재 온-프레미스 사용자의 클라우드 기반 사서함에서 콘텐츠를 검색, 미리 보기 및 내보낼 수 있습니다. EDiscovery 사례와 관련 된 보류에 온-프레미스 사용자의 클라우드 기반 사서함을 배치 하 고 온-프레미스 사용자의 클라우드 기반 사서함에 팀 대화방 또는 채널 메시지에 대 한 보존 정책을 적용할 수도 있습니다. 그러나 지금은 온-프레미스 사용자에 대 한 클라우드 기반 사서함에는 Exchange 사서함 및 SharePoint 사이트와 같은 다른 콘텐츠 위치에 대 한 보존 정책을 적용할 수 없습니다. 
 
-- EDiscovery 보류에 대 한 콘텐츠 위치 선택에서는 온-프레미스 사용자를 표시 하 고이를 선택할 수 있습니다. 하지만 앞에서 설명한 보류가 온-프레미스 사용자에 게 적용 되지 않습니다.
 
 ## <a name="frequently-asked-questions"></a>자주하는 질문
 
@@ -157,7 +156,7 @@ Microsoft 지원 서비스에 요청을 제출할 때 다음 정보를 포함 �
   
  **온-프레미스 사용자에 게 eDiscovery 보류 또는 Office 365 보존 정책을 적용할 수 있나요?**
   
-아니요.
+예. 팀 채팅 및 채널 메시지에 대 한 eDiscovery 보류 또는 보존 정책을 온-프레미스 사용자의 클라우드 기반 사서함에 적용할 수 있습니다.
   
  **조직에서이 기능을 사용 하도록 요청을 제출한 시간 이전에 온-프레미스 사용자의 이전 팀 대화방을 찾을 수 있습니까?**
   

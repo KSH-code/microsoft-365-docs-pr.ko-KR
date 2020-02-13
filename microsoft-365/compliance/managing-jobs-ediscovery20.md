@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: f829c6735bc8326a775a9d259da8b64aaa8b02ac
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 78767318a8799ec88e15452f70bceaa5466a9cbf
+ms.sourcegitcommit: c2a36b16e354e20db5fd6275175ca856eae55bfc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600465"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "41960334"
 ---
 # <a name="manage-jobs-in-advanced-ediscovery"></a>Advanced eDiscovery에서 작업 관리
 
@@ -55,6 +55,6 @@ ms.locfileid: "41600465"
 | 전송 실패 | 작업을 전송 하지 못했습니다.  작업을 트리거한 작업을 다시 실행 해 보십시오. |
 | 진행 중 | 작업이 진행 중 이므로 **작업 탭에서** 작업의 진행 상태를 모니터링할 수 있습니다. |
 | 성공 | 작업이 성공적으로 완료 되었습니다. 작업이 완료 된 날짜 및 시간이 **작업** 탭의 **완료 됨** 열에 표시 됩니다. |
-| 부분적으로 성공한 | 작업이 부분적으로 완료 되었습니다. |
+| 부분적으로 성공한 | 작업이 부분적으로 완료 되었습니다. 이 상태는 일반적으로 작업에서 일부 custodian 데이터 원본에 있는 부분적으로 인덱싱된 데이터 ( *인덱싱되지 않은 데이터*라고도 함)를 찾지 못한 경우 반환 됩니다.  |
 | Failed | 작업이 실패 했습니다.  작업을 트리거한 작업을 다시 실행 해 보십시오. 작업을 두 번 실패 하면 Microsoft 지원 서비스에 문의 하 여 작업에 대 한 지원 정보를 제공 하는 것이 좋습니다. |
 |||
