@@ -378,6 +378,8 @@
               href: ./office-365-security/office-365-air.md
             - name: 배달된 악성 전자 메일 찾기 및 조사
               href: ./office-365-security/investigate-malicious-email-that-was-delivered.md
+            - name: Office 365 ATP의 안전한 문서
+              href: ./office-365-security/safe-docs.md
             - name: 위협 탐색기 (실시간 검출)
               href: ./office-365-security/threat-explorer.md
               items:
