@@ -5,6 +5,8 @@ keywords: Microsoft 365, Microsoft 365 Education, Microsoft 365 설명서, GDPR,
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -12,22 +14,19 @@ audience: itpro
 ms.collection:
 - GDPR
 - M365-security-compliance
-ms.openlocfilehash: f5ab5230cae7dcc31c487ecbc6a2bbdcbcaaa0dd
-ms.sourcegitcommit: 33242c260439de0d8db41247e9414913f24adc22
+titleSuffix: Microsoft GDPR
+ms.openlocfilehash: d2f9ac660c30b815d4ac381f347e1c1aa354ce0d
+ms.sourcegitcommit: 2498cd4af90c31771167a1be9f8f12a96dc6500f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "39268590"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41916913"
 ---
 # <a name="data-subject-requests-and-the-gdpr-and-ccpa"></a>데이터 주체 요청과 GDPR 및 CCPA
 
 GDPR(일반 데이터 보호 규제)는 EU(유럽 연합) 회원국 국민에게 제품과 서비스를 제공하거나 귀하 또는 귀사가 어디에 있는지 관계없이 EU 거주자의 데이터를 수집하고 분석하는 조직에 새로운 규칙을 도입합니다. 추가 세부 정보는 [GDPR 요약 항목](gdpr.md)에 있습니다.
 
-마찬가지로 캘리포니아 소비자 개인 정보 보호법(CCPA)은 캘리포니아 소비자에게 GDPR의 데이터 주체 권리와 유사한 권리를 포함하여, 소비자의 개인 정보 삭제, 액세스 및 수신(이식성)과 같은 개인 정보 보호 권리 및 의무를 제공합니다.  또한 CCPA는 특정 공개, 실행 권리 행사 시 차별 대우로부터 보호, “판매"로 분류되는 특정 데이터 전송에 대한 "옵트아웃(opt-out)/옵트인(opt in)" 요구도 허용합니다.  <br><br>
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWs1SI] 
-
-이 문서에서는 Microsoft 제품 및 서비스를 사용 하 여 GDPR 및 CCPA 하에서 DSRs(데이터 주제 요청)를 완료하는 방법에 대한 정보를 안내합니다.
+마찬가지로 캘리포니아 소비자 개인 정보 보호법(CCPA)은 캘리포니아 소비자에게 GDPR의 데이터 주체 권리와 유사한 권리를 포함하여, 소비자의 개인 정보 삭제, 액세스 및 수신(이식성)과 같은 개인 정보 보호 권리 및 의무를 제공합니다.  또한 CCPA는 특정 공개, 실행 권리 행사 시 차별 대우로부터 보호, “판매"로 분류되는 특정 데이터 전송에 대한 "옵트아웃(opt-out)/옵트인(opt-in)" 요구도 허용합니다. 이 문서에서는 Microsoft 제품 및 서비스를 사용 하 여 GDPR 및 CCPA 하에서 DSRs(데이터 주제 요청)를 완료하는 방법에 대한 정보를 안내합니다.
 
 - [Office 365](gdpr-dsr-Office365.md)
 - [Azure](gdpr-dsr-Azure.md)
@@ -79,7 +78,7 @@ Microsoft에서 생성한 로그 및 관련 데이터는 GDPR의 "개인 데이�
 
 ### <a name="yammer-and-kaizala"></a>Yammer 및 Kaizala
 
-사용자 계정을 삭제해도 Yammer 및 Kaizala에 대한 시스템 생성 로그는 제거되지 않습니다. 이러한 응용 프로그램에서 데이터를 제거하려면 다음 중 하나를 참조합니다.
+사용자 계정을 삭제해도 Yammer 및 Kaizala에 대한 시스템 생성 로그는 제거되지 않습니다. 이러한 응용 프로그램에서 데이터를 제거하려면 다음 리소스 중 하나를 참조합니다.
 
 - [Yammer Enterprise에서 GDPR 데이터 주체 요청 관리](https://docs.microsoft.com/yammer/manage-security-and-compliance/gdpr-requests-in-yammer-enterprise)
 - [Kaizala에서 사용자의 조직 데이터 내보내기 또는 삭제](https://docs.microsoft.com/office365/kaizala/export-or-delete-a-user-s-data)
@@ -100,6 +99,12 @@ Microsoft에서 생성한 로그 및 관련 데이터는 GDPR의 "개인 데이�
 
 Microsoft 계정 인증을 통해 액세스되는 타사 제품 및 서비스의 경우 데이터 주체 요청은 해당 타사로 전달되어야 합니다.
 
-## <a name="learn-more"></a>자세한 정보
+## <a name="data-subject-request-admin-tools"></a>데이터 주체 요청 관리 도구
+
+- **보안 및 준수 센터**: [보안 및 준수 센터](https://aka.ms/stpsecurityandcompliance) 또는 응용 프로그램 내 기능을 통해 사용자 생성 데이터를 내보냅니다.
+- **Azure AD 관리 센터**: [Azure AD 관리 센터](https://ms.portal.azure.com/#blade/Microsoft_AAD_IAM/UserManagementMenuBlade/Allusers/menuId/)를 사용하여 Azure Active Directory 및 관련 서비스에서 데이터 주제를 삭제합니다.
+- **Microsoft 데이터 로그 내보내기**: 시스템 생성 로그는 테넌트 관리자가 Azure에 호스트된 [Microsoft 데이터 로그 내보내기](https://aka.ms/MicrosoftGDPR)를 사용하여 내보낼 수 있습니다.
+
+## <a name="learn-more"></a>자세히 알아보기
 
 - [Microsoft 보안 센터](https://www.microsoft.com/TrustCenter/Privacy/gdpr/default.aspx)

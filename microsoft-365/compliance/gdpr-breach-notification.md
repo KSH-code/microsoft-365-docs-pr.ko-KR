@@ -15,20 +15,16 @@ ms.collection:
 - GDPR
 - M365-security-compliance
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: ffd5bd81542e2d39a928789c8575178c1b9a7633
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: e419dd362ec42f7f2acb8cda03688afe3ade37be
+ms.sourcegitcommit: 2498cd4af90c31771167a1be9f8f12a96dc6500f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41594428"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41916923"
 ---
 # <a name="gdpr-breach-notification"></a>GDPR 위반 알림
 
-GDPR(일반 데이터 보호 규제)는 EU(유럽 연합) 회원국 국민에게 제품과 서비스를 제공하거나 귀하 또는 귀사가 어디에 있는지 관계없이 EU 거주자의 데이터를 수집하고 분석하는 조직에 새로운 규칙을 도입합니다. 추가 세부 정보는 [GDPR 요약 항목](gdpr.md)에 있습니다.<br><br>
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWrZgG] 
-
-이 문서에서는 Microsoft 제품 및 서비스를 사용하여 GDPR에서 위반 알림을 완료하는 방법에 대한 정보를 안내합니다.
+GDPR(일반 데이터 보호 규제)는 EU(유럽 연합) 회원국 국민에게 제품과 서비스를 제공하거나 귀하 또는 귀사가 어디에 있는지 관계없이 EU 거주자의 데이터를 수집하고 분석하는 조직에 새로운 규칙을 도입합니다. 추가 세부 정보는 [GDPR 요약 항목](gdpr.md)에 있습니다. 이 문서에서는 Microsoft 제품 및 서비스를 사용하여 GDPR에서 위반 알림을 완료하는 방법에 대한 정보를 안내합니다.
 
 ## <a name="what-constitute-a-breach-of-personal-data-under-the-gdpr"></a>GDPR에서 개인 데이터의 위반을 구성하는 요인은 무엇인가요?
 
@@ -47,7 +43,7 @@ GDPR(일반 데이터 보호 규제)는 EU(유럽 연합) 회원국 국민에게
 
 Microsoft는 GDPR(일반 데이터 보호 규정)에 따라 의무를 다합니다. 보안 인시던트/데이터 위반은 Microsoft 장비 또는 Microsoft 시설에 저장된 고객 데이터에 대한 불법 액세스나 고객 데이터의 손실, 노출 또는 변경을 야기할 수 있는 무단 액세스 등의 이벤트를 나타냅니다.
 
-Microsoft는 데이터 프로세서로서, 서비스 고객이 데이터 컨트롤러의 자격으로 GDPR의 위반 알림 요구 사항을 충족할 수 있도록 합니다. Microsoft 알림은 이러한 평가에 필요한 정보를 제공합니다. Microsoft는 개인 데이터가 이해할 수 있는 것으로 확인되는 경우(예: 키의 무결성이 확인된 경우 강력한 암호화 데이터)를 제외하고 사용자에게 개인 데이터 위반을 알립니다.
+Microsoft는 데이터 프로세서로서, 서비스 고객이 데이터 컨트롤러의 자격으로 GDPR의 위반 알림 요구 사항을 충족할 수 있도록 합니다. Microsoft 알림은 이러한 평가에 필요한 정보를 제공합니다. Microsoft는 개인 데이터가 이해할 수 있는 것으로 확인되는 경우(예: 키의 무결성이 확인된 경우의 암호화 데이터)를 제외하고 사용자에게 개인 데이터 위반을 알립니다.
 
 데이터 컨트롤러는 데이터 개인 정보에 대한 위험을 평가하고 고객의 DPA에게 알려야 하는 위반인지 여부를 파악해야 합니다. Microsoft는 이러한 평가에 필요한 정보와 GDPR 규정 준수 정책을 함께 제공합니다.
 
@@ -73,13 +69,17 @@ Microsoft는 데이터 프로세서로서, 서비스 고객이 데이터 컨트�
     - *고객 알림*: Microsoft Azure는 필요한 경우 데이터 위반 사실을 고객과 규제 기관을 알려줍니다. 고객 알림은 다음 상황을 제외하고 위반을 선언한 시점으로부터 72시간 이내에 전달됩니다.
 
         - Microsoft는 알림을 수행하면 다른 고객의 위험이 증가할 것으로 생각합니다.
-        - 72시간의 타임라인 동안 일부 인시던트 정보는 사용 가능하게 유지될 수 있습니다. 조사가 진행되면 사용자에게 이러한 정보가 제공됩니다.
+        - 72시간의 타임라인 동안 일부 인시던트 정보는 사용 가능하게 유지될 수 있습니다. 조사가 진행되면 사용자에게 이러한 세부 정보가 제공됩니다.
 
         자세한 내용은 [고객 알림](https://docs.microsoft.com/microsoft-365/compliance/gdpr-breach-azure-dynamics#customer-notification)을 참조하세요.
 
 3. **[Microsoft 지원 및 전문 서비스](gdpr-breach-Microsoft-Support-Professional-Services.md)**  
     전문 서비스는 일부 데이터 보호 인시던트가 고객의 책임 영역 내에 있을 수 있음을 의미합니다. Microsoft 전문 서비스는 데이터 보호 인시던트를 식별하면 [데이터 보호 인시던트 대응 프로세스의 범위 및 제한 사항](https://docs.microsoft.com/microsoft-365/compliance/gdpr-breach-microsoft-support-professional-services#scope--limits-of-data-protection-incident-response-process)에 설명된 대로 문서화된 산업 표준 대응 계획을 따릅니다.
 
-## <a name="learn-more"></a>자세한 정보
+## <a name="breach-notification-admin-tools"></a>침해 알림 관리 도구
+
+- **조직의 개인 정보 보호 담당자 설정**: Microsoft와 소통해야 할 경우 테넌트 관리자는 [Azure Active Directory 관리 포털](https://go.microsoft.com/fwlink/p/?linkid=2052736)을 사용하여 조직의 개인 정보 보호 담당자를 정의할 수 있습니다.
+
+## <a name="learn-more"></a>자세히 알아보기
 
 - [Microsoft 보안 센터](https://www.microsoft.com/TrustCenter/Privacy/gdpr/default.aspx)

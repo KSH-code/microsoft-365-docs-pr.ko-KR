@@ -15,12 +15,12 @@ ms.collection:
 - GDPR
 - M365-security-compliance
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 111bafdb5d95792e8fda08007bccd7cd274b8832
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: bb4056b90afc8805d4e56b9b73c0c7d118d6f08c
+ms.sourcegitcommit: 2498cd4af90c31771167a1be9f8f12a96dc6500f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41594488"
+ms.lasthandoff: 02/11/2020
+ms.locfileid: "41916893"
 ---
 # <a name="support-your-gdpr-program-with-accountability-readiness-checklists"></a>책임 준비 상태 검사 목록으로 GDPR 프로그램 지원
 
@@ -28,9 +28,7 @@ GDPR(일반 데이터 보호 규제)는 EU(유럽 연합) 회원국 국민에게
 
 ## <a name="accountability-readiness-checklists"></a>책임 준비 상태 검사 목록
 
-Microsoft 제품 및 서비스를 사용할 때 GDPR을 지원하는 데 필요한 정보에 편리하게 액세스할 수 있도록 책임 준비 상태 점검 목록이 제공됩니다. 검사 목록에는 GDPR 하에 발생할 수 있는 잠재적 의무를 열거하고 조직의 준수를 지원하는 데 사용할 수 있는 정보가 표시됩니다. <br><br>
-
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/RWs1RP] 
+Microsoft 제품 및 서비스를 사용할 때 GDPR을 지원하는 데 필요한 정보에 편리하게 액세스할 수 있도록 책임 준비 상태 점검 목록이 제공됩니다. 검사 목록에는 GDPR 하에 발생할 수 있는 잠재적 의무를 열거하고 조직의 준수를 지원하는 데 사용할 수 있는 정보가 표시됩니다.
 
 4개의 Microsoft 제품 및 서비스 제품군에 대한 특정 지침이 있습니다.
 
@@ -66,6 +64,17 @@ GDPR 타일의 고객 관리 컨트롤에서 컨트롤 ID 및 컨트롤 제목�
     - 계획  
     - 정보 보안 정책
 
-## <a name="learn-more"></a>자세한 정보
+## <a name="customer-agreements"></a>고객 계약
+
+- **온라인 서비스 약관**: [온라인 서비스 약관](https://go.microsoft.com/fwlink/p/?linkid=2052208)에서 GDPR과 관련된 Microsoft 계약 조항을 찾을 수 있습니다.
+- **Microsoft 제품 약관**: Microsoft는 모든 볼룸 라이선스 고객으로 [GDPR 조항 약정](https://go.microsoft.com/fwlink/p/?linkid=2052213)을 확장합니다.
+- **데이터 보호 부록**: Microsoft 서비스는 Microsoft 컨설팅 서비스 고객과 기타 고객으로 [이러한 약정을 확장](https://go.microsoft.com/fwlink/p/?linkid=2052215)합니다.
+
+## <a name="gdpr-compliance-controls"></a>GDPR 규정 준수 제어
+
+- **준수 점수 사용**: icrosoft에서 [준수 점수](compliance-score.md)를 사용하여 GDPR 의무 지원하기 위한 검토 및 통합 제어입니다.
+- **GDPR 제어 맵핑**: Microsoft의 GDPR 규정 준수 제어의 [포괄적인 맵핑](https://go.microsoft.com/fwlink/p/?linkid=2052220)에 액세스합니다.
+
+## <a name="learn-more"></a>자세히 알아보기
 
 - [Microsoft 보안 센터](https://www.microsoft.com/TrustCenter/Privacy/gdpr/default.aspx)
