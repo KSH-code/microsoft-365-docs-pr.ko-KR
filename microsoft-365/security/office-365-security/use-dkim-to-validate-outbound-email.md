@@ -1,5 +1,7 @@
 ---
 title: Office 365의 사용자 지정 도메인에서 이메일용 DKIM 사용, 2048비트, 1024비트, 단계, 동작 방식, SPF, DMARC
+f1.keywords:
+- NOCSH
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
@@ -14,12 +16,12 @@ ms.assetid: 56fee1c7-dc37-470e-9b09-33fff6d94617
 ms.collection:
 - M365-security-compliance
 description: '요약: 이 문서에서는 Office 365에서 도메인키 식별 메일(DKIM)을 사용하여 대상 전자 메일 시스템이 사용자 지정 도메인에서 보낸 메시지를 신뢰하도록 하는 방법을 설명합니다.'
-ms.openlocfilehash: a6d45dbcb5015be1b688cad562a234c555d0ef66
-ms.sourcegitcommit: 3f8957ddd04b8710bb5f314a0902fdee50c7c9b7
+ms.openlocfilehash: 496089ff46d66df3382895626831023610c706be
+ms.sourcegitcommit: 4986032867b8664a215178b5e095cbda021f3450
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "41572694"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "41957163"
 ---
 # <a name="use-dkim-to-validate-outbound-email-sent-from-your-custom-domain-in-office-365"></a>DKIM을 사용하여 Office 365의 사용자 지정 도메인에서 전송한 아웃바운드 전자 메일의 유효성을 검사합니다.
 
@@ -114,7 +116,7 @@ DKIM을 구성하려면 다음 단계를 수행합니다.
 
 DNS에 DKIM 서명을 추가하려는 각 도메인에 대해 두 개의 CNAME 레코드를 게시해야 합니다.
 
-다음의 명령을 실행합니다:
+다음 명령을 실행하여 선택기 레코드를 만듭니다.
 
 ```powershell
     New-DkimSigningConfig -DomainName <domain> -Enabled $false
@@ -126,8 +128,6 @@ Get-DkimSigningConfig 출력에서 참조되는 CNAME 만들기
 ```powershell
     Set-DkimSigningConfig -Identity <domain> -Enabled $true
 ```
-
-DNS의 CNAME 레코드는 Office 365용 Microsoft DNS 서버의 DNS에 생성되어 이미 존재하는 DKIM TXT 레코드를 가리킵니다.
 
 Office 365는 사용자가 설정한 두 개의 레코드를 사용하여 자동 키 순환을 수행합니다. Office 365의 초기 도메인 외에 사용자 지정 도메인을 프로비저닝한 경우에는 추가 도메인마다 두 개의 CNAME 레코드를 게시해야 합니다. 따라서 두 개의 도메인이 있는 경우 두 개의 CNAME 레코드를 모두 게시해야 합니다.
 
@@ -177,6 +177,9 @@ Host name:          selector2._domainkey
 Points to address or value: selector2-cohowinery-com._domainkey.cohovineyardandwinery.onmicrosoft.com
 TTL:                3600
 ```
+
+> [!NOTE]
+> 두 번째 레코드를 만드는 것도 중요하지만, 생성 시 선택 도구 중 하나만 사용할 수 있습니다. 본질적으로, 두 번째 선택기는 아직 생성되지 않은 주소를 가리킬 수 있습니다. 키 회전이 매끄럽게 진행되므로 직접 단계를 수행하지 않아도 되기 때문에 두 번째 CNAME 레코드를 만드는 것이 좋습니다.
 
 ### <a name="enable-dkim-signing-for-your-custom-domain-in-office-365"></a>Office 365에서 사용자 지정 도메인에 DKIM 서명 사용
 <a name="EnableDKIMinO365"> </a>

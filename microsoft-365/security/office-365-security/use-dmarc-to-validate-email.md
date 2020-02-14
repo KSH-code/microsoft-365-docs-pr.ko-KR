@@ -1,5 +1,7 @@
 ---
 title: DMARC를 사용하여 Office 365에서 전자 메일 유효성 검사
+f1.keywords:
+- NOCSH
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
@@ -13,17 +15,20 @@ ms.assetid: 4a05898c-b8e4-4eab-bd70-ee912e349737
 ms.collection:
 - M365-security-compliance
 description: 사용자의 Office 365 조직에서 보낸 메시지의 유효성을 검사하기 위해 도메인 기반 메시지 인증, 보고 및 적합성 (DMARC)을 구성하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: a812003df72cfb3697a5b114acb37aede4268b21
-ms.sourcegitcommit: 3f8957ddd04b8710bb5f314a0902fdee50c7c9b7
+ms.openlocfilehash: 0702baec4dd2b585dcf45546befc19a6108004b9
+ms.sourcegitcommit: 4986032867b8664a215178b5e095cbda021f3450
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "41572684"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "41957353"
 ---
 # <a name="use-dmarc-to-validate-email-in-office-365"></a>DMARC를 사용하여 Office 365에서 전자 메일 유효성 검사
 
 도메인 기반 메시지 인증, 보고 및 적합성 ([DMARC](https://dmarc.org))은 SPF (Sender Policy Framework) 및 DKIM (DomainKeys Identified Mail)과 함께 작동하여 메일 발신자를 인증하고 대상 전자 메일 시스템이 사용자의 도메인에서 보낸 메시지를 신뢰하도록 합니다. SPF 및 DKIM과 함께 DMARC를 구현하면 스푸핑 및 피싱 전자 메일에 대한 추가 보호 기능이 제공됩니다. DMARC는 수신 메일 시스템이 사용자의 도메인에서 보낸 SPF 또는 DKIM 확인에 실패한 메시지에 대해 수행할 작업을 결정하는 데 도움을 줍니다.
-  
+
+> [!TIP]
+> [MISA(Microsoft 지능형 보안 연합)](https://www.microsoft.com/misapartnercatalog) 카탈로그를 방문하여 Office 365.에 대해 DMARC 보고를 제공하는 타사 공급 업체를 확인하세요. 
+
 ## <a name="how-do-spf-and-dmarc-work-together-to-protect-email-in-office-365"></a>SPF와 DMARC는 Office 365에서 전자 메일을 보호하기 위해 어떻게 함께 작동하나요?
 <a name="SPFandDMARC"> </a>
 
@@ -77,7 +82,7 @@ Microsoft의 DMARC TXT 레코드는 다음과 같습니다.
 _dmarc.microsoft.com.   3600    IN      TXT     "v=DMARC1; p=none; pct=100; rua=mailto:d@rua.agari.com; ruf=mailto:d@ruf.agari.com; fo=1" 
 ```
 
-Microsoft는 자사의 DMARC 보고서를 제3자인 [Agari](https://agari.com)에게 보냅니다. Agari는 DMARC 보고서를 수집하고 분석합니다. 또한 Valimail은 [Office 365용 무료 DMARC 모니터링 서비스](https://go.valimail.com/microsoft.html)를 제공합니다.
+Microsoft는 자사의 DMARC 보고서를 타사인 [Agari](https://agari.com)에게 보냅니다. Agari는 DMARC 보고서를 수집하고 분석합니다. [MISA 카탈로그](https://www.microsoft.com/misapartnercatalog)에 방문하여 Office 365에 대해 DMARC 보고를 제공하는 타사 공급 업체를 확인하세요.
   
 ## <a name="implement-dmarc-for-inbound-mail"></a>인바운드 메일에 대한 DMARC 구현
 <a name="implementDMARCinbound"> </a>

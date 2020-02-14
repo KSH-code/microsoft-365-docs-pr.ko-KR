@@ -1,5 +1,7 @@
 ---
 title: 스팸 필터 정책 구성
+f1.keywords:
+- NOCSH
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
@@ -14,12 +16,12 @@ ms.assetid: 316544cb-db1d-4c25-a5b9-c73bbcf53047
 ms.collection:
 - M365-security-compliance
 description: 기본 스팸 필터 설정에는 스팸으로 식별되는 메시지에 관해 수행할 작업 선택이 포함됩니다.
-ms.openlocfilehash: 107b4cfa79a83ec5703edd3b47d00c59da81f4b6
-ms.sourcegitcommit: 8b619cc0587d180322d0799fdad813cdd929d9dc
+ms.openlocfilehash: a645d00bd650cba06ca3751aa4fc3f48f9959e5b
+ms.sourcegitcommit: 4986032867b8664a215178b5e095cbda021f3450
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/03/2020
-ms.locfileid: "40929794"
+ms.lasthandoff: 02/12/2020
+ms.locfileid: "41957203"
 ---
 # <a name="configure-your-spam-filter-policies"></a>스팸 필터 정책 구성
 스팸 필터 설정에는 스팸으로 식별되는 메시지에 관해 수행할 작업 선택이 포함됩니다. 스팸 필터 정책 설정은 인바운드 메시지에만 적용되며 다음 두 가지 유형이 있습니다.
@@ -138,7 +140,7 @@ XJS*C4JDBQADN1.NSBN3*2IDNEN*GTUBE-STANDARD-ANTI-UBE-TEST-EMAIL*C.34X
 
 ## <a name="fine-tuning-your-spam-filter-policy-to-prevent-false-positives-and-false-negatives"></a>가양성 및 거짓 부정을 방지하기 위해 스팸 필터 정책 미세 조정
 
-보다 적극적인 스팸 필터링 방식을 원하는 경우에는 고급 스팸 필터링 기술을 사용할 수 있습니다. 전체 조직에 적용되는 일반적인 스팸 설정에 대한 자세한 내용은 [Office 365에서 올바른 전자 메일이 스팸으로 표시되지 않도록 하는 방법](https://docs.microsoft.com/microsoft-365/compliance/prevent-email-from-being-marked-as-spam) 또는 [거짓 부정 문제를 방지하기 위해 Office 365 스팸 필터를 사용하여 전자 메일 스팸을 차단하는 방법](reduce-spam-email.md)을 참조하세요. 사용자가 관리자 수준 제어를 가지고 있고 가양성이나 거짓 부정을 방지하려고 할 때 유용합니다.
+보다 적극적인 스팸 필터링 방식을 원하는 경우에는 고급 스팸 필터링 기술을 사용할 수 있습니다. 전체 조직에 적용되는 일반적인 스팸 설정에 대한 자세한 내용은 [Office 365에서 올바른 전자 메일이 스팸으로 표시되지 않도록 하는 방법](prevent-email-from-being-marked-as-spam.md) 또는 [거짓 부정 문제를 방지하기 위해 Office 365 스팸 필터를 사용하여 전자 메일 스팸을 차단하는 방법](reduce-spam-email.md)을 참조하세요. 사용자가 관리자 수준 제어를 가지고 있고 가양성이나 거짓 부정을 방지하려고 할 때 유용합니다.
 
 ## <a name="allowblock-lists"></a>허용/차단 목록
 
@@ -160,6 +162,9 @@ XJS*C4JDBQADN1.NSBN3*2IDNEN*GTUBE-STANDARD-ANTI-UBE-TEST-EMAIL*C.34X
    - 원치 않는 보낸 사람을 보낸 사람 차단 목록에 추가합니다. **편집**![추가 아이콘](../media/ITPro-EAC-AddIcon.gif)을 클릭한 후 선택 대화 상자에서 차단할 보낸 사람 주소를 추가합니다. 세미콜론 또는 새 줄을 사용하여 여러 항목을 구분할 수 있습니다. **저장**을 클릭하여 **차단 목록** 페이지로 돌아갑니다.
 
    - 원치 않는 도메인을 도메인 차단 목록에 추가합니다. **편집**![추가 아이콘](../media/ITPro-EAC-AddIcon.gif)을 클릭한 후 선택 대화 상자에서 차단할 도메인을 추가합니다. 세미콜론 또는 새 줄을 사용하여 여러 항목을 구분할 수 있습니다. **저장**을 클릭하여 **차단 목록** 페이지로 돌아갑니다.
+   
+     > [!NOTE]
+     > 스팸 필터 정책에서 전체 도메인 또는 특정 보낸 사람을 차단할 수 있지만, 와일드 카드(\*)를 사용할 수는 없습니다. 
 
 > [!TIP]
 > 조직이 서비스에서 제공하는 결과에 동의하지 경우가 있습니다. 이 경우 허용 또는 차단 목록을 영구적으로 유지할 수 있습니다. 하지만 도메인을 허용 목록에 오래 동안 유지할 경우 보낸 사람에게 도메인을 인증하는지 확인하고, 확인하지 않을 경우 DMARC 거부로 설정하도록 요청해야 합니다.
@@ -171,7 +176,7 @@ XJS*C4JDBQADN1.NSBN3*2IDNEN*GTUBE-STANDARD-ANTI-UBE-TEST-EMAIL*C.34X
 
 [격리](quarantine.md)
 
-[Office 365에서 올바른 전자 메일이 스팸으로 표시되지 않도록 하는 방법](https://docs.microsoft.com/microsoft-365/compliance/prevent-email-from-being-marked-as-spam)
+[Office 365에서 올바른 전자 메일이 스팸으로 표시되지 않도록 하는 방법](prevent-email-from-being-marked-as-spam.md)
 
 [Office 365에서 스팸 메일을 줄이는 방법](reduce-spam-email.md)
 
