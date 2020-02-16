@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: ef84380e17757f96bdf66307595c92d85a335930
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 007a7517cb0ea3c810d667cbfa88c0da1755b0d8
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41596165"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42077473"
 ---
 # <a name="create-a-new-investigation-in-data-investigations-preview"></a>데이터 조사에서 새 조사 만들기 (미리 보기)
 
@@ -49,4 +49,4 @@ ms.locfileid: "41596165"
 
     조사에 대 한 **홈** 탭이 표시 됩니다. 예를 들어 *중요: 세금 문서 및 재무 데이터 누출*이라는 새로운 조사가 여기에 나와 있습니다.
 
-    ![데이터 조사에서 새 조사를 위한 홈 탭](media/NewDataInvestigations.png)
+    ![데이터 조사에서 새 조사를 위한 홈 탭](../media/NewDataInvestigations.png)

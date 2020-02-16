@@ -11,12 +11,12 @@ localization_priority: Normal
 search.appverid:
 - MET150
 description: 손실 된 Office 365 고객 키를 복구 하는 데 사용 되는 가용성 키에 대해 알아봅니다.
-ms.openlocfilehash: 72fbfd139b273d38a0cb017d7bbca3d87c16efb2
-ms.sourcegitcommit: 570ad1c7c334476ecec00dc355dfe52e8c2bb87b
+ms.openlocfilehash: 86f602a59f436a6ce42df583c88c0403eb17e5ae
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41862088"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42076959"
 ---
 # <a name="learn-about-the-availability-key-for-office-365-customer-key"></a>Office 365 고객 키에 대 한 가용성 키에 대 한 자세한 정보
 
@@ -175,11 +175,11 @@ Exchange Online 및 비즈니스용 Skype는 일시적으로 오류가 발생 �
 
 로그 레코드에는 날짜, 시간, 활동, 조직 ID 및 데이터 암호화 정책 ID와 같은 특성이 포함 됩니다. 이 레코드는 Office 365 통합 감사 로그의 일부로 사용 가능 하며, Office 365 보안 및 준수 센터 감사 로그 검색 탭에서 액세스할 수 있습니다.
 
-![가용성 키 이벤트에 대 한 감사 로그 검색](media/customerkeyauditlogsearchavailabilitykeyloggingimage.png)
+![가용성 키 이벤트에 대 한 감사 로그 검색](../media/customerkeyauditlogsearchavailabilitykeyloggingimage.png)
 
 Exchange Online 및 비즈니스용 Skype 가용성 키 레코드는 사용자 지정 매개 변수 정책 Id, 범위 키 버전 Id 및 요청 Id와 함께 Office 365 관리 작업 [일반 스키마](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema#common-schema) 를 사용 합니다.
 
-![가용성 키 사용자 지정 매개 변수](media/customerkeyauditlogsearchavailabilitykeyloggingcustomparam.png)
+![가용성 키 사용자 지정 매개 변수](../media/customerkeyauditlogsearchavailabilitykeyloggingcustomparam.png)
 
 ### <a name="sharepoint-online-onedrive-for-business-and-teams-files-availability-key-logging"></a>SharePoint Online, 비즈니스용 OneDrive 및 팀 파일 가용성 키 로깅
 
@@ -195,11 +195,11 @@ Office 365에서는 가용성 키를 사용 하 여 고객 키 서비스 암호�
 
 ### <a name="encryption-ciphers-used-to-encrypt-keys-for-exchange-online-and-skype-for-business"></a>Exchange Online 및 비즈니스용 Skype에 대 한 키를 암호화 하는 데 사용 되는 암호화 암호
 
-![Exchange Online 고객 키에 대 한 암호화 암호](media/customerkeyencryptionhierarchiesexchangeskype.png)
+![Exchange Online 고객 키에 대 한 암호화 암호](../media/customerkeyencryptionhierarchiesexchangeskype.png)
 
 ### <a name="encryption-ciphers-used-to-encrypt-keys-for-sharepoint-online-and-onedrive-for-business"></a>SharePoint Online 및 비즈니스용 OneDrive의 키를 암호화 하는 데 사용 되는 암호화 암호
 
-![SharePoint Online 고객 키에 대 한 암호화 암호](media/customerkeyencryptionhierarchiessharepointonedriveteamsfiles.png)
+![SharePoint Online 고객 키에 대 한 암호화 암호](../media/customerkeyencryptionhierarchiessharepointonedriveteamsfiles.png)
 
 ## <a name="related-articles"></a>관련 문서
 

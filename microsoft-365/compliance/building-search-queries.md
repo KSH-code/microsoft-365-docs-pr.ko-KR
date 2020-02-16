@@ -16,18 +16,18 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Microsoft 365에서 고급 eDiscovery를 사용 하 여 데이터를 검색할 때 키워드 및 조건을 사용 하 여 검색 범위를 좁힐 수 있습니다.
-ms.openlocfilehash: 7a6d175016053cd963b03cae91ff43f9c4b3336c
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: c704b338600c715193829e442e1bd6ba7c780455
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41596295"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42079045"
 ---
 # <a name="build-search-queries"></a>검색 쿼리 작성
 
 검색 쿼리를 작성 하는 경우 키워드를 사용 하 여 특정 콘텐츠 및 조건을 찾아서 법률 조사와 가장 관련성이 높은 항목을 반환 하도록 검색 범위를 좁힐 수 있습니다.
 
-![키워드 및 조건을 사용 하 여 검색 결과 범위 좁히기](media/SearchQueryBox.png)
+![키워드 및 조건을 사용 하 여 검색 결과 범위 좁히기](../media/SearchQueryBox.png)
 
 ## <a name="keyword-searches"></a>키워드 검색
 
@@ -35,7 +35,7 @@ ms.locfileid: "41596295"
     
 또는 **키워드 목록 표시** 확인란을 선택 하 고 각 행에 키워드나 키워드 구를 입력할 수도 있습니다. 이 작업을 수행 하는 경우 각 행의 키워드는 검색 쿼리 구문에서 *c:s* 으로 표시 되는 논리 연산자에 의해 연결 되 고 생성 되는 검색 쿼리의 **OR** 연산자와 비슷합니다. 즉, 임의의 행에 임의의 키워드가 포함 된 항목은 검색 결과에 있습니다.
 
-![키워드 목록을 사용 하 여 쿼리의 각 키워드에 대 한 통계 가져오기](media/KeywordListSearch.png)
+![키워드 목록을 사용 하 여 쿼리의 각 키워드에 대 한 통계 가져오기](../media/KeywordListSearch.png)
 
 키워드 목록을 사용하는 이유 키워드 목록에서 각 키워드와 일치 하는 항목 수를 보여 주는 통계를 가져올 수 있습니다. 이를 통해 가장 (및 최소) 효율적인 키워드를 빠르게 식별할 수 있습니다. 키워드 목록에 있는 행에 괄호로 묶은 키워드 구를 사용할 수도 있습니다. 검색 통계에 대 한 자세한 내용은 [검색 통계](search-statistics.md)를 참조 하세요.
 

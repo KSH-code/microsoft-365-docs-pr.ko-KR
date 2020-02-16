@@ -14,12 +14,12 @@ ms.collection: M365-security-compliance
 search.appverid: MOE150
 ms.assetid: 82c97bb4-2b64-4edc-804d-cedbda525d22
 description: 기존 콘텐츠 검색에서 결과 .csv 또는 인덱싱되지 않은 항목 .csv 파일을 사용 하 여 특정 전자 메일 메시지를 반환 하는 ID 목록 검색을 만듭니다. ID 목록 검색은 일반적으로 부분적으로 인덱싱된 사서함 항목을 반환 하는 데 사용 됩니다.
-ms.openlocfilehash: 19128e182183b43edbc5957ac2aca5420b58cfe2
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 97c69cd096e1ec2fa69082edef70cd41dfd229b0
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595525"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42077029"
 ---
 # <a name="prepare-a-csv-file-for-an-id-list-content-search-in-office-365"></a>Office 365에서 ID 목록 콘텐츠 검색에 대 한 CSV 파일 준비
 
@@ -65,7 +65,7 @@ SharePoint 사이트 및 OneDrive 계정을 포함 하는 검색에서 CSV 파�
 
     다음은 ID 목록 콘텐츠 검색을 위해 제출할 준비가 된 CSV 파일의 예입니다.
 
-    ![대상 지정 콘텐츠 검색을 위한 CSV 파일 예제](media/8371b8cb-1638-496e-9be1-fe1565757d67.png)
+    ![대상 지정 콘텐츠 검색을 위한 CSV 파일 예제](../media/8371b8cb-1638-496e-9be1-fe1565757d67.png)
 
 6. CSV 파일을 저장 하거나 다른 이름 **으로 저장을 사용 하** 여 파일을 저장 합니다. 두 경우 모두 CSV 형식으로 파일을 저장 해야 합니다.
 
@@ -78,9 +78,9 @@ SharePoint 사이트 및 OneDrive 계정을 포함 하는 검색에서 CSV 파�
 
 1. 보안 & 준수 센터에서 **검색** \> **콘텐츠 검색**으로 이동 합니다.
 
-2. **검색** 페이지에서 아이콘 ![](media/8ee52980-254b-440b-99a2-18d068de62d3.gif) **새로 만들기**옆에 있는 화살표를 클릭 한 다음 **ID 목록으로 검색**을 클릭 합니다.
+2. **검색** 페이지에서 아이콘 ![](../media/8ee52980-254b-440b-99a2-18d068de62d3.gif) **새로 만들기**옆에 있는 화살표를 클릭 한 다음 **ID 목록으로 검색**을 클릭 합니다.
 
-    ![새 검색 드롭다운 목록에서 ID 별 검색을 클릭 합니다.](media/e65f9942-09b2-4127-865e-e64029a590df.png)
+    ![새 검색 드롭다운 목록에서 ID 별 검색을 클릭 합니다.](../media/e65f9942-09b2-4127-865e-e64029a590df.png)
 
 3. ID 목록 플라이 아웃을 **사용한 검색** 에서 검색 이름을 지정한 다음 선택적으로 설명 하 고, **찾아보기를** 클릭 하 고 이전 단계에서 준비한 CSV 파일을 선택 합니다.
 
@@ -90,7 +90,7 @@ SharePoint 사이트 및 OneDrive 계정을 포함 하는 검색에서 CSV 파�
 
     다음은 예상 검색 결과 및 ID 목록 검색에 대해 생성 되는 쿼리의 예입니다.
 
-    ![세부 정보 창에서 대상 콘텐츠 검색에 대 한 검색 쿼리](media/dbd9e570-c04b-4056-a8a7-37e9916ec683.png)
+    ![세부 정보 창에서 대상 콘텐츠 검색에 대 한 검색 쿼리](../media/dbd9e570-c04b-4056-a8a7-37e9916ec683.png)
 
     ID 검색의 통계에 표시 되는 예상 항목 수는 CSV 파일에서 선택한 항목 수와 일치 해야 합니다.
 

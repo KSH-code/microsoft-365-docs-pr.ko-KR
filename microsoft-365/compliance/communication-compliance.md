@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 3dabe35b753e38ab51801c6f2bd51cc5ee588e9a
-ms.sourcegitcommit: 2913fd74ad5086c7cac6388447285be9aa5a8e44
+ms.openlocfilehash: d5eb8b2f9aff59363c60d7bd75aa3f76fdf1283a
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "41661944"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42078701"
 ---
 # <a name="communication-compliance-in-microsoft-365"></a>Microsoft 365의 통신 준수
 
@@ -61,7 +61,7 @@ Microsoft 365의 통신 준수 기능은 새로운 몇 가지 향상 된 [Office
 - 유연한 개선 방안 워크플로
 - 조치 가능한 통찰력
 
-![통신 준수 홈 페이지](media/communication-compliance-home.png)
+![통신 준수 홈 페이지](../media/communication-compliance-home.png)
 
 ### <a name="intelligent-customizable-templates"></a>지능적 사용자 지정 가능 서식 파일
 
@@ -108,7 +108,7 @@ Microsoft 365의 통신 준수 기능은 새로운 몇 가지 향상 된 [Office
 
 Microsoft 365의 통신 준수에 대 한 준수 문제를 파악 하 고 해결 하려면 다음 워크플로를 사용 합니다.
 
-![통신 준수 워크플로](media/communication-compliance-workflow.png)
+![통신 준수 워크플로](../media/communication-compliance-workflow.png)
 
 ### <a name="configure"></a>구성
 
@@ -153,4 +153,4 @@ Microsoft 365 준수 센터에서 다음 정책 서식 파일 중에서 선택�
 
 ## <a name="ready-to-get-started"></a>시작할 준비가 되셨습니까?
 
-Microsoft 365 조 직에 대 한 통신 준수를 구성 하려면 [configure communication 준수 For microsoft 365 (preview)](communication-compliance-configure.md)을 참조 하십시오.
+Microsoft 365 조 직에 대 한 통신 준수를 구성 하려면 [microsoft 365에 대 한 통신 준수 구성을](communication-compliance-configure.md)참조 하십시오.

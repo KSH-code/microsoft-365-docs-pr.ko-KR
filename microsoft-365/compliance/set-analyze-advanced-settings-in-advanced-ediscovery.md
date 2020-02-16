@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: a797682f-ad85-4c08-a354-3850ba2237ee
 description: 'Office 365 Advanced eDiscovery의 분석 프로세스에 대해 거의 중복, 전자 메일 스레드 및 테마를 포함 하 여 고급 설정을 구성 하는 방법을 알아봅니다. '
-ms.openlocfilehash: 2c2a104b834d8da9d0d10f93980b4f2cbb6294c8
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: f2f882f5c5b2bbaf3144d3979455387a4471280c
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601515"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42081273"
 ---
 # <a name="set-analyze-advanced-settings-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery에서 분석 고급 설정에 대 한 설정
 
@@ -32,7 +32,7 @@ Advanced eDiscovery는 모듈 설정 분석을 위한 기본 고급 매개 변�
   
 1. **설치 분석 \> \> 준비** 탭에서 **고급 설정** (페이지 맨 아래)을 클릭 합니다. 다음 패널이 표시 됩니다. 
     
-    ![고급 설정 설정 분석](media/c9ea3017-e19a-456b-a742-c3d07121a3f6.png)
+    ![고급 설정 설정 분석](../media/c9ea3017-e19a-456b-a742-c3d07121a3f6.png)
   
 2. **거의 중복 항목 및 전자 메일 스레드 매개 변수**에서 필요에 따라 다음에 대 한 값을 선택 합니다.
     

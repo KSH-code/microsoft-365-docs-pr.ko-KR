@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 736117f62877bd0b33ae1007f00d5a32680963fb
-ms.sourcegitcommit: 2913fd74ad5086c7cac6388447285be9aa5a8e44
+ms.openlocfilehash: c3bd87f6a6b06cf6fc75705073df5a95a1025a31
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "41662264"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42079961"
 ---
 # <a name="advanced-ediscovery-reports-preview"></a>고급 eDiscovery 보고서 (미리 보기)
 
@@ -51,11 +51,11 @@ ms.locfileid: "41662264"
   
    **고급 eDiscovery** 홈 페이지에서는 사례, Custodian, 데이터 원본 및 통신 보고서 탭이 페이지 위쪽에 표시 됩니다. 
   
-   ![홈 페이지의 고급 eDiscovery 보고서](media/report-home.png)
+   ![홈 페이지의 고급 eDiscovery 보고서](../media/report-home.png)
 
 5. 보고서를 보려면 보고서 탭을 클릭 하 고 필요한 경우 다음 작업 중 하나를 수행할 수 있습니다.
 
-   ![보고서 데이터를 필터링 하거나 다운로드할 수 있습니다.](media/AeDReportsFilterDownload.png)
+   ![보고서 데이터를 필터링 하거나 다운로드할 수 있습니다.](../media/AeDReportsFilterDownload.png)
 
    a. **필터** 를 클릭 하 여 보고서 데이터의 범위를 좁힙니다. 각 보고서에 대해 서로 다른 속성을 필터링 할 수 있습니다.
   

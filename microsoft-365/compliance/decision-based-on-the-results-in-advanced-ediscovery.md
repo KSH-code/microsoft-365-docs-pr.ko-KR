@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: aed65bcd-0a4f-43e9-b5e5-b98cc376bdf8
 description: 'Office 365 Advanced eDiscovery의 결정 탭에서 사례 파일의 검토 집합에 대 한 올바른 크기를 결정 하는 데 도움이 되는 데이터를 제공 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: e60aff12e20a4f8accfbcda958c2d087fd732e88
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: b0dd68c294b4555bcf7c9b2cb1c6db455af32e7d
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595385"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42076252"
 ---
 # <a name="decision-based-on-the-results-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery의 결과를 기반으로 결정
 
@@ -31,7 +31,7 @@ ms.locfileid: "41595385"
   
 ## <a name="using-the-decide-tab"></a>결정 탭 사용
 
-![관련성을 결정](media/f32fed89-f3b5-404a-90c7-ea25d2eb58a9.png)
+![관련성을 결정](../media/f32fed89-f3b5-404a-90c7-ea25d2eb58a9.png)
   
 이 탭에는 다음 항목이 포함 됩니다.
   

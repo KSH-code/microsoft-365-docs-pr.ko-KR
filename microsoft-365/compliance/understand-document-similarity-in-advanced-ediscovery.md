@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 4d4cb381-4c9a-4165-a455-609d525c7a88
 description: '문서 유사성 값을 검토 하 고 거의 중복으로 간주 되는 두 파일의 최소 resemblance 수준이 Office 365 Advanced eDiscovery에서 작동 합니다. '
-ms.openlocfilehash: c11359681de4d1e078cde8ebf603396c9a71e3b7
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: b5c777579e876e54032ce5872291a2791e2c3b09
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597335"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42080779"
 ---
 # <a name="understand-document-similarity-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery의 문서 유사성 이해
 
@@ -44,11 +44,11 @@ Advanced eDiscovery에서 문서 유사성은 두 문서를 중복 항목으로 
   
 Resemblance의 수준은 다음과 같이 표시 됩니다.
   
-![문서 유사성](media/3907ea7d-e28a-4027-8fc3-be090dd39144.gif)
+![문서 유사성](../media/3907ea7d-e28a-4027-8fc3-be090dd39144.gif)
   
 이제 다른 문서인 X1이 삽입 되었다고 가정 합니다. X1과 E3 사이의 resemblance은 87%입니다. 마찬가지로 X1과 F1 사이의 resemblance은 92%입니다. 따라서 이제 EquiSet-1, EquiSet-2 및 X1이 하나의 ND 집합으로 결합 됩니다.
   
-![문서 유사성](media/d140d347-33d5-475a-af04-594a0f2ab13d.gif)
+![문서 유사성](../media/d140d347-33d5-475a-af04-594a0f2ab13d.gif)
   
 > [!NOTE]
 > 한 ND 집합에 두 문서가 할당 되 면 해당 집합에 추가 문서가 추가 되거나 집합이 병합 되는 경우에도 동일한 ND 집합에 함께 유지 됩니다. 

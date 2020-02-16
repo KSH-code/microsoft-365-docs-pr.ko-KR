@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 5d671821-d188-42da-a9ce-9cfe92beedfd
 description: '교육 및 파일 검토를 위한 워크플로, 지침 및 단계를 포함 하 여 Office 365 Advanced eDiscovery의 관련성 모듈에 대해 알아봅니다.  '
-ms.openlocfilehash: 5151c94d2b0bd1824abb499f6cb27bbfbc7618b7
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 0b160a5b251f4be7d23ef24a79164b824fe65b7f
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601305"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42080715"
 ---
 # <a name="use-the-relevance-module-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery에서 관련성 모듈 사용
 
@@ -30,7 +30,7 @@ ms.locfileid: "41601305"
   
 고급 eDiscovery에서 관련성 모듈에는 사례와 관련 된 파일의 관련성 교육과 검토가 포함 됩니다. 관련성 워크플로는 다음과 같이 표시 됩니다.
   
-![관련성 워크플로](media/44c67dd2-7a20-40a9-b0ed-784364845c77.gif)
+![관련성 워크플로](../media/44c67dd2-7a20-40a9-b0ed-784364845c77.gif)
   
 - **평가 및 추적 주기**:
     

@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: 296a02bd-ebde-4022-900e-547acf38ddd7
 description: 사서함에 보류 또는 Office 365 보존 정책을 적용 한 다음 해당 하는 Office 365 사용자 계정을 삭제 하 여 Office 365에서 비활성 사서함을 만들 수 있습니다. 비활성 사서함의 항목은 비활성 상태가 되기 전에 적용 된 보류 또는 보존 정책의 기간 동안 보존 됩니다. 비활성 사서함을 영구적으로 삭제 하려면 보류 또는 보존 정책을 제거 하면 됩니다.
-ms.openlocfilehash: b3b3eddc67c1f23dffdb8ecb45428b9c64c6d0e0
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 845ed0307081390c976cf3ac27671a858d99d433
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595635"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42077646"
 ---
 # <a name="create-and-manage-inactive-mailboxes-in-office-365"></a>Office 365에서 비활성 사서함 만들기 및 관리
 
@@ -77,13 +77,13 @@ Office 365에서는 삭제 된 사서함의 콘텐츠를 보존할 수 있습니
     
 2. **정보 거 버 넌 스** > **보존**을 클릭 합니다.
     
-3. **보존** 페이지에서 **기타**![탐색 모음 줄임표](media/9723029d-e5cd-4740-b5b1-2806e4f28208.gif)를 클릭 한 다음 **비활성 사서함**을 클릭 합니다.
+3. **보존** 페이지에서 **기타**![탐색 모음 줄임표](../media/9723029d-e5cd-4740-b5b1-2806e4f28208.gif)를 클릭 한 다음 **비활성 사서함**을 클릭 합니다.
     
-    ![보존 페이지에서 자세히를 클릭 하 고 비활성 사서함을 클릭 하 여 비활성 사서함 목록을 표시 합니다.](media/761bd90c-3e37-48f9-b1b9-479e90fea267.png)
+    ![보존 페이지에서 자세히를 클릭 하 고 비활성 사서함을 클릭 하 여 비활성 사서함 목록을 표시 합니다.](../media/761bd90c-3e37-48f9-b1b9-479e90fea267.png)
   
     **비활성 사서함** 페이지가 표시 됩니다. 참고 조직에 있는 비활성 사서함의 총 수가 표시 됩니다. 
     
-    ![조직의 모든 비활성 사서함 목록이 표시 됩니다.](media/57d9d183-0c6c-4bd8-82e7-115f7b7b6de7.png)
+    ![조직의 모든 비활성 사서함 목록이 표시 됩니다.](../media/57d9d183-0c6c-4bd8-82e7-115f7b7b6de7.png)
   
 또는 Exchange Online PowerShell에서 다음 명령을 실행 하 여 비활성 사서함 목록을 표시할 수도 있습니다.
 
@@ -91,7 +91,7 @@ Office 365에서는 삭제 된 사서함의 콘텐츠를 보존할 수 있습니
  Get-Mailbox -InactiveMailboxOnly | FT DisplayName,PrimarySMTPAddress,WhenSoftDeleted
 ```
 
-검색 결과 내보내기 ![아이콘](media/47205c65-babd-4b3a-bd7b-98dfd92883ba.png) **내보내기를** 클릭 하 여 조직의 비활성 사서함에 대 한 추가 정보가 포함 된 CSV 파일을 보거나 다운로드할 수 있습니다. 
+검색 결과 내보내기 ![아이콘](../media/47205c65-babd-4b3a-bd7b-98dfd92883ba.png) **내보내기를** 클릭 하 여 조직의 비활성 사서함에 대 한 추가 정보가 포함 된 CSV 파일을 보거나 다운로드할 수 있습니다. 
   
 다음 명령을 실행 하 여 비활성 사서함 목록과 기타 정보를 CSV 파일로 내보낼 수도 있습니다. 이 예제에서는 CSV 파일이 현재 디렉터리에 만들어집니다.
 

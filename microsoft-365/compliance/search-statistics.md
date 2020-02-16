@@ -16,18 +16,18 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 665ffe5fea6fa6996b405198524ef7dfb51e162f
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 7c59b36e3594d653f188742890ea849e2595a648
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601745"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42081380"
 ---
 # <a name="search-statistics"></a>검색 통계
 
 데이터 인시던트를 조사할 때 검색 결과의 유효성을 검사 하는 효과적인 방법은 검색 결과에 대 한 통계를 확인 하 여 예상과 일치 하는지 확인 하는 것입니다. 검색이 완료 되 면 검색 세부 정보 플라이 아웃 페이지의 **상태** 아래에 다음과 같은 높은 수준의 통계가 표시 됩니다.
 
-![검색 세부 정보 플라이 아웃 페이지의 검색 statisics](media/SearchDetailsFlyout.png)
+![검색 세부 정보 플라이 아웃 페이지의 검색 statisics](../media/SearchDetailsFlyout.png)
 
 - 검색 조건과 일치 하는 항목의 예상 수 및 크기
 
@@ -37,7 +37,7 @@ ms.locfileid: "41601745"
 
 자세한 통계를 보려면 검색 세부 정보 플라이 아웃 페이지에서 **통계** 를 클릭 합니다. **검색 통계** 페이지에서 검색 요약, 검색 결과와 일치 하는 항목이 포함 된 위쪽 위치, 검색 쿼리에 대 한 자세한 통계를 볼 수 있습니다.
 
-![검색 통계 드롭다운 목록](media/SearchStatisticsDropDownList.png)
+![검색 통계 드롭다운 목록](../media/SearchStatisticsDropDownList.png)
 
 ## <a name="summary"></a>요약
 

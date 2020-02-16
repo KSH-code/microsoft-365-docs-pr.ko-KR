@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: 사례에서 모든 검토 설정에 적용 되는 고급 eDiscovery 설정을 구성 합니다. 여기에는 분석 및 OCR에 대 한 설정이 포함 됩니다.
-ms.openlocfilehash: 93e638dc29ec935f86fc2e078d8206b1f20ab14d
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 9a7568fac91fa9c021d05b255fc0a145002e7f29
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595715"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42078331"
 ---
 # <a name="configure-search-and-analytics-settings"></a>검색 및 분석 설정 구성
 
@@ -45,7 +45,7 @@ ms.locfileid: "41595715"
 
    사례 설정 페이지가 표시 됩니다. 이러한 설정은 사례에서 모든 검토 집합에 적용 됩니다.
 
-   ![고급 eDiscovery 사례에 대 한 분석 및 검색 설정 구성](media/AeDCaseSettings.png)
+   ![고급 eDiscovery 사례에 대 한 분석 및 검색 설정 구성](../media/AeDCaseSettings.png)
 
 ## <a name="near-duplicates-and-email-threading"></a>유사 중복 및 전자 메일 스레딩
 
@@ -73,7 +73,7 @@ ms.locfileid: "41595715"
 
 **분석 후에 저장 된 검색을 검토용으로 자동으로 만들기** 확인란을 선택한 경우 Advanced eDiscovery autogenerates review set Query for review를 선택 **합니다.** 
 
-![자동 생성 된 검토 쿼리](media/AeDForReviewQuery.png)
+![자동 생성 된 검토 쿼리](../media/AeDForReviewQuery.png)
 
 이 쿼리는 기본적으로 검토 집합에서 중복 된 항목을 필터링 합니다. 이렇게 하면 검토 집합의 고유한 항목을 검토할 수 있습니다. 이 쿼리는 사례에서 검토 집합에 대 한 분석을 실행 한 경우에만 만들어집니다. 자세한 내용을 보려면 set queries (검토 집합) [에서 데이터 쿼리](review-set-search.md)를 참고 하십시오.
 

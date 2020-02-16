@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 0e0a9d04-294f-4f54-8bf1-b32d81345126
 description: 'Office 365 Advanced eDiscovery에서 관련성 훈련을 수행 하기 전에 가져온 파일을 마지막으로 정의한 부하 또는 일괄 파일에 추가 하는 단계를 검토 합니다.  '
-ms.openlocfilehash: 6778666e1ef0e5900a2afcc2949bdc9579c21fd1
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: e9179878d085840fcfb93dacc79ac3f776f1f041
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601465"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42081102"
 ---
 # <a name="set-up-loads-to-add-imported-files-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery에서 가져온 파일을 추가 하도록 로드 설정
 
@@ -42,7 +42,7 @@ ms.locfileid: "41601465"
   
 1. **관련성 \> 관련성 설정** 탭에서 **로드**를 선택 합니다.
     
-    ![관련성 설정 로드 탭](media/278aac7f-655f-462f-852a-6baa5d818768.png)
+    ![관련성 설정 로드 탭](../media/278aac7f-655f-462f-852a-6baa5d818768.png)
   
 2. **포함 파일**: 포함할 파일에 대 한 옵션을 선택 합니다. 기본적으로 현재 부하에 파일을 추가 하는 것은 "모든 파일" 채우기를 기반으로 합니다.
     

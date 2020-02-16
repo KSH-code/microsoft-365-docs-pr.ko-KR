@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 31a38ac28d1b483d6b5cdce6fade82d252457641
-ms.sourcegitcommit: 2913fd74ad5086c7cac6388447285be9aa5a8e44
+ms.openlocfilehash: fc1a9cb77cc642ead4af120383b807808e695c22
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "41661954"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42078744"
 ---
 # <a name="investigate-and-remediate-communication-compliance-alerts"></a>통신 준수 알림 조사 및 재구성
 
@@ -66,7 +66,7 @@ ms.locfileid: "41661954"
 
 8. 선택한 필터를 필터 쿼리로 저장 하려면 필터 값을 하나 이상 구성한 후 **쿼리 컨트롤 저장** 을 선택 합니다. 필터 쿼리의 이름을 입력 하 고 **저장**을 선택 합니다. 이 필터는이 정책에만 사용할 수 있으며 **필터** 세부 정보 페이지의 **저장 된 필터 쿼리** 섹션에 나열 됩니다.
 
-    ![통신 준수 필터 세부 컨트롤](media/communication-compliance-filter-detail-controls.png)
+    ![통신 준수 필터 세부 컨트롤](../media/communication-compliance-filter-detail-controls.png)
 
 ### <a name="using-near-and-exact-duplicate-analysis"></a>유사 및 정확히 중복 분석 사용
 
@@ -90,7 +90,7 @@ ms.locfileid: "41661954"
 
 8. 메시지에 대 한 재구성 작업을 완료 한 후 **닫기를** 선택 합니다.
 
-    ![통신 준수 정확히 중복 되는 컨트롤](media/communication-compliance-duplicates-controls.png)
+    ![통신 준수 정확히 중복 되는 컨트롤](../media/communication-compliance-duplicates-controls.png)
 
 ## <a name="remediate-alerts"></a>알림 수정
 
@@ -98,7 +98,7 @@ ms.locfileid: "41661954"
 
 1. **메시지의 기본 사항을 검사**합니다. 원본 또는 주체가 메시지를 즉시 수정할 수 있다는 것을 분명 하 게 파악할 수도 있습니다. 메시지가 의사 이거나 정책에 잘못 일치 하거나 가양성으로 확인 되어야 할 수 있습니다. **허위 긍정** 컨트롤을 선택 하 여 경고를 즉시 해결 하 고 대기 중인 경고 큐에서 제거 합니다. 원본 또는 보낸 사람 정보에서 이러한 상황에서 메시지를 라우팅하거나 처리 하는 방법을 이미 알고 있을 수 있습니다. 해당 하는 메시지에 태그를 지정 하거나 지정 된 검토자에 게 메시지를 보내려면 **태그** 또는 **에스컬레이션** 컨트롤을 사용 하는 것이 좋습니다.
 
-    ![통신 준수 개선 방안 제어](media/communication-compliance-remediation-controls.png)
+    ![통신 준수 개선 방안 제어](../media/communication-compliance-remediation-controls.png)
 
 2. **메시지 정보를 확인**합니다. 메시지 기본 사항을 검토 한 후에는 메시지를 열어 세부 정보를 확인 하 고 추가 수정 작업을 확인 해야 합니다. 메시지를 선택 하 여 전체 메시지 헤더 및 본문 정보를 확인 합니다. 적절 한 작업 과정을 결정 하는 데 도움이 되는 다양 한 보기를 사용할 수 있습니다.
 
@@ -107,7 +107,7 @@ ms.locfileid: "41661954"
     - **주석 보기**:이 보기를 사용 하면 검토자가 메시지 보기에 저장 되는 메시지에 직접 주석을 추가할 수 있습니다.
     - **사용자 기록**: 사용자 기록 보기에는 메시지를 보내는 사용자에 대 한 통신 준수 정책에 의해 생성 되는 다른 모든 알림이 표시 됩니다.
 
-    ![통신 준수 메시지 보기 컨트롤](media/communication-compliance-message-views.png)
+    ![통신 준수 메시지 보기 컨트롤](../media/communication-compliance-message-views.png)
 
 3. **재구성 작업을 결정**합니다. 경고에 대 한 메시지의 세부 정보를 검토 했으므로 다음과 같은 몇 가지 수정 작업을 선택할 수 있습니다.
 

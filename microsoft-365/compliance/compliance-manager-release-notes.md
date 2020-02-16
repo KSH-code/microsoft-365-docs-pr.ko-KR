@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 준수 관리자는 Microsoft Service Trust Portal의 무료 워크플로 기반 위험 평가 도구입니다. 준수 관리자를 사용 하면 Microsoft 클라우드 서비스와 관련 된 규정 준수 활동을 추적, 할당 및 확인할 수 있습니다.
-ms.openlocfilehash: c3d0efbfcf58eb001d2df5832439c22c7cc662aa
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 3fc16e92e912676d7aedc861ffe8306d68388c95
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595785"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42078655"
 ---
 # <a name="release-notes-for-compliance-manager-preview"></a>준수 관리자를 위한 릴리스 정보 (미리 보기)
 

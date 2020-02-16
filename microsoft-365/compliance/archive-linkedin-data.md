@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: 관리자는 기본 커넥터를 설정 하 여 LinkedIn 회사 페이지에서 Microsoft 365로 데이터를 가져올 수 있습니다. 이를 통해 Microsoft 365의 타사 데이터 원본에서 데이터를 보관할 수 있으므로 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용 하 여 조직의 타사 데이터에 대 한 준수를 관리할 수도 있습니다.
-ms.openlocfilehash: c8e39577a6eaba3ad865b1617683c2baa9260759
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: b42584efb0c99b97c14059ed7d860013f085262c
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41596025"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42079641"
 ---
 # <a name="set-up-a-connector-to-archive-linkedin-data"></a>LinkedIn 데이터를 보관할 커넥터 설정
 
@@ -45,13 +45,13 @@ LinkedIn 회사 페이지 데이터가 사서함에 저장 되 면 소송 보존
 
    LinkedIn 로그인 페이지가 표시 됩니다.
 
-   ![LinkedIn 로그인 페이지](media/LinkedInSigninPage.png)
+   ![LinkedIn 로그인 페이지](../media/LinkedInSigninPage.png)
 
 5. LinkedIn 로그인 페이지에서 보관 하려는 회사 페이지와 연결 된 LinkedIn 계정의 전자 메일 주소 (또는 전화 번호)와 암호를 입력 하 고 **로그인**을 클릭 합니다.
 
    로그인 한 계정에 연결 된 모든 LinkedIn 회사 페이지 목록과 함께 마법사 페이지가 표시 됩니다. 커넥터는 한 회사 페이지에 대해서만 구성할 수 있습니다. 조직에 LinkedIn 회사 페이지가 여러 개 있는 경우 각 페이지에 대 한 커넥터를 만들어야 합니다.
 
-   ![LinkedIn 회사 페이지 목록이 있는 페이지가 표시 됨](media/LinkedInSelectCompanyPage.png)
+   ![LinkedIn 회사 페이지 목록이 있는 페이지가 표시 됨](../media/LinkedInSelectCompanyPage.png)
 
 6. 항목을 보관 하려는 회사 페이지를 선택 하 고 **다음**을 클릭 합니다.
 

@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 1b092f7c-ea55-44f5-b419-63f3458fd7e0
 description: 'Office 365 Advanced eDiscovery의 일괄 계산 후 테스트 탭을 사용 하 여 전체 처리 품질을 테스트 및 비교 하 고 유효성 검사를 수행 하는 방법에 대해 알아봅니다.  '
-ms.openlocfilehash: 0931e0ea6aabfb9fbeca04973f17395d4f245f41
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: e07d02a0eff1e07cacbce5debd27d4057fe40db2
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597375"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42080941"
 ---
 # <a name="test-relevance-analysis-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery에서 관련성 분석 테스트
 
@@ -46,7 +46,7 @@ ms.locfileid: "41597375"
     
 2. **테스트** 탭에서 **새 테스트**를 클릭 합니다. 다음 예와 같이 **테스트 만들기** 대화 상자가 표시 됩니다. 
     
-    ![나머지 결과 테스트 하는 관련성](media/46e6898a-f929-4fd0-88d9-6f91d04b6ce2.png)
+    ![나머지 결과 테스트 하는 관련성](../media/46e6898a-f929-4fd0-88d9-6f91d04b6ce2.png)
   
 3. **테스트 이름**및 **설명**에 이름과 설명을 입력 합니다.
     
@@ -66,7 +66,7 @@ ms.locfileid: "41597375"
     
 11. 테스트 탭에서 **결과 보기** 를 클릭 하 여 테스트 결과를 볼 수 있습니다. 다음 그림에 예가 나와 있습니다. 
     
-    ![나머지 결과 테스트 합니다.](media/b95744a9-047d-4c29-992d-04fa7e58e58a.png)
+    ![나머지 결과 테스트 합니다.](../media/b95744a9-047d-4c29-992d-04fa7e58e58a.png)
   
 위 그림에서 표의 **샘플 매개 변수** 섹션에는 전문가가 태그를 지정 하는 샘플의 파일 수와 해당 예제에 나와 있는 관련 파일의 수에 대 한 자세한 정보가 포함 되어 있습니다. 
   

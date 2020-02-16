@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 titleSuffix: Office 365 Compliance
-ms.openlocfilehash: a57fd1f1e079424f1494acc4b8944534c30359b2
-ms.sourcegitcommit: 2913fd74ad5086c7cac6388447285be9aa5a8e44
+ms.openlocfilehash: dafc745d985c93e4665db469442b0b6dc2eda070
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "41661876"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42081075"
 ---
 # <a name="supervision-policies-in-office-365"></a>Office 365에서의 감독 정책
 
@@ -42,7 +42,7 @@ Office 365의 감독 정책을 사용 하면 지정 된 검토자가 조사를 �
 
 예정 된 감독 기능 개선 사항 및 가용성에 대 한 자세한 내용은 [Microsoft 365 로드맵을](https://www.microsoft.com/microsoft-365/roadmap)참조 하세요.
 
-Microsoft 365에서 새 통신 준수 환경을 사용해 원하십니까? [Microsoft 365 (preview)의 통신 준수](communication-compliance.md)에서 사용할 수 있는 새로운 기능과 향상 된 기능을 확인 합니다.
+Microsoft 365에서 새 통신 준수 환경을 사용해 원하십니까? [Microsoft 365의 통신 준수](communication-compliance.md)에서 사용할 수 있는 새로운 기능과 향상 된 기능을 확인 합니다.
 
 ## <a name="transitioning-from-supervision-in-office-365"></a>Office 365의 감독에서 전환
 

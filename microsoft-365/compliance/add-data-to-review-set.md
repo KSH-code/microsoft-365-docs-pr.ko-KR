@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: 고급 eDiscovery 사례와 연결 된 검색 결과를 추가 합니다. 항목이 원래 위치에서 복사 되 고 Microsoft에서 제공한 Azure 저장소 위치로 복사 됩니다. 또한 항목은 다시 인덱싱되 고 고급 eDiscovery는 이미지 파일에서 OCR (광학 인식)을 수행 하 고 검토 및 분석을 위해 이미지 텍스트를 업로드 합니다.
-ms.openlocfilehash: 748de7f3cb3fec5a37cb205e0d480701b4cded2e
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 5e4eaa5e83bbca3a80abe0026f3880ce8d3c85c4
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41594639"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42080160"
 ---
 # <a name="add-search-results-to-a-review-set"></a>검색 결과를 검토 집합에 추가
 
@@ -37,11 +37,11 @@ ms.locfileid: "41594639"
 
 검토 집합에 데이터를 추가 하려면 검색 탭에서 검색을 클릭 하 고 플라이 아웃 페이지에서 **집합을 검토 하려면 결과 추가를** **클릭 합니다.**
 
-![검토 집합에 데이터 추가](media/c1b4fc00-7a15-4587-b9b0-ce594bb02e4d.png)
+![검토 집합에 데이터 추가](../media/c1b4fc00-7a15-4587-b9b0-ce594bb02e4d.png)
 
 기존 검토 집합에 추가 하거나 새 검토 집합을 만들 수 있습니다.  새 검토 집합에 추가 하는 경우 이름을 지정 하 고 **추가**를 클릭 합니다.
 
-![검토 집합 선택](media/e8c6ab51-da8d-4c39-9b21-26bfdf453fb9.png)
+![검토 집합 선택](../media/e8c6ab51-da8d-4c39-9b21-26bfdf453fb9.png)
 
 검토 집합에 데이터를 추가 하는 것은 장시간 실행 되는 프로세스입니다. 이 프로세스에는 Office 365 (예: 사서함 및 사이트)의 원본 데이터 원본에서 항목을 수집 하 여 Azure 저장소 위치로 복사한 다음 (이 복사 프로세스는 수집이 *라고도 함)* 항목을 다시 인덱싱하는 작업이 포함 됩니다. **작업** 탭 또는 **검색** 탭의 진행 상태를 추적 하 여 **추가 된 데이터를 검토 집합** 열에서 모니터링할 수 있습니다. 검토 집합 처리가 완료 되 면 사례에서 **검토 집합** 탭을 클릭 하 고 검토 집합을 클릭 하 여 검토 집합에서 데이터를 필터링, 검토, 태그 지정 및 내보내는 프로세스를 시작 합니다.
 

@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 규정 준수 점수는 조직이 위험 평가를 간소화 하 고 자동화 하는 데 도움이 되며, 위험을 해결 하기 위한 권장 조치를 제시 합니다.
-ms.openlocfilehash: c1f912deacd9e7a9b30cbc4665a259177aeebf65
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: dff5e6c057df37c076e328d5203a1eb4e4b3207a
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595745"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42078529"
 ---
 # <a name="microsoft-compliance-score-preview"></a>Microsoft 준수 점수 (미리 보기)
 
@@ -39,7 +39,7 @@ Microsoft 준수 점수는 조직의 규정 준수 상태를 이해 하는 데 �
 
 기본 준수 점수 페이지는 사용자 지정 대시보드입니다. 현재 점수를 표시 하 고, 주의 해야 하는 사항을 확인 하 고, 점수를 높이기 위한 작업을 안내 합니다. 준수 점수 대시보드는 다음과 같습니다.
 
-![준수 점수-대시보드](media/compliance-score-dashboard.png "준수 점수 대시보드")
+![준수 점수-대시보드](../media/compliance-score-dashboard.png "준수 점수 대시보드")
 
 ### <a name="simplified-compliance-management"></a>간소화 된 준수 관리
 
@@ -75,7 +75,7 @@ Microsoft 준수 점수는 조직의 규정 준수 상태를 이해 하는 데 �
 
 규정 준수 점수에서는 준수 작업을 관리 하는 데 도움이 되는 여러 구성 요소를 사용 합니다. 규정 준수 점수를 사용 하 여 준수 작업을 할당, 테스트 및 모니터링 하는 경우 이러한 주요 구성 요소에 대 한 기본적인 이해가 도움이 됩니다. 다음 다이어그램은 이러한 항목 간의 관계를 보여 줍니다.
 
-![준수 관리자 버전 3의 관계](media/compliance-manager-relationships.png "규정 준수 점수 구성 요소")
+![준수 관리자 버전 3의 관계](../media/compliance-manager-relationships.png "규정 준수 점수 구성 요소")
 
 ### <a name="controls"></a>컨트롤
 

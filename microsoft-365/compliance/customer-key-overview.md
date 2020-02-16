@@ -13,12 +13,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: 고객 키를 사용 하 여 조직의 암호화 키를 제어 하 고 Office 365을 구성 하 여 Microsoft의 데이터 센터에 있는 휴지 상태에 있는 사용자에 대 한 정보를 암호화 합니다.
-ms.openlocfilehash: ee62065542ea50091d73362dd8d05f2e4e7dc337
-ms.sourcegitcommit: 5ff1dc62e8855be155cb2de45cf4ee5a02c321fd
+ms.openlocfilehash: 6fd7167dd46f3a44d97a493830aef19e40f062e8
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41804841"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42076931"
 ---
 # <a name="service-encryption-with-customer-key-in-office-365"></a>Office 365의 고객 키를 사용한 서비스 암호화
 
@@ -71,11 +71,11 @@ Office 365은 BitLocker 및 DKM (분산 키 관리자)를 통해 사용 하도�
 
 #### <a name="encryption-ciphers-used-to-encrypt-keys-for-exchange-online-and-skype-for-business"></a>Exchange Online 및 비즈니스용 Skype에 대 한 키를 암호화 하는 데 사용 되는 암호화 암호
 
-![Exchange Online 고객 키에 대 한 암호화 암호](media/customerkeyencryptionhierarchiesexchangeskype.png)
+![Exchange Online 고객 키에 대 한 암호화 암호](../media/customerkeyencryptionhierarchiesexchangeskype.png)
 
 #### <a name="encryption-ciphers-used-to-encrypt-keys-for-sharepoint-online-onedrive-for-business-and-teams-files"></a>SharePoint Online, 비즈니스용 OneDrive 및 팀 파일에 대 한 키를 암호화 하는 데 사용 되는 암호화 암호
 
-![SharePoint Online 고객 키에 대 한 암호화 암호](media/customerkeyencryptionhierarchiessharepointonedriveteamsfiles.png)
+![SharePoint Online 고객 키에 대 한 암호화 암호](../media/customerkeyencryptionhierarchiessharepointonedriveteamsfiles.png)
 
 ## <a name="related-articles"></a>관련 문서
 

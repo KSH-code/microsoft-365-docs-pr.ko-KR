@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: be4c86a5df7e0964744f6b5d7551382916e7ed2d
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: cd622430df4a636a9529a4d10ddc90057548a810
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597415"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42080990"
 ---
 # <a name="tag-documents-in-a-review-set"></a>검토 집합에서 문서 태그 지정
 
@@ -47,11 +47,11 @@ ms.locfileid: "41597415"
 
 태그 형식 외에 태그 패널에서 태그를 구성 하는 방법의 구조를 사용 하 여 문서에 태그를 지정 하는 방법을 보다 직관적으로 만들 수 있습니다. 태그는 섹션 별로 그룹화 됩니다. 검토 설정 검색은 태그별 및 태그별 섹션으로 검색 기능을 지원 합니다. 즉, 섹션의 태그로 태그가 지정 된 문서를 검색 하기 위해 검토 집합 검색을 만들 수 있습니다.
 
-![태그 패널의 태그 섹션](media/Tagtypes.png)
+![태그 패널의 태그 섹션](../media/Tagtypes.png)
 
 태그를 섹션 내에 중첩 시켜 더 체계적으로 구성할 수 있습니다. 예를 들어 권한 있는 콘텐츠를 식별 하 고 태그를 지정 하는 경우에는 중첩을 사용 하 여 사용자가 문서에 "특권" 태그를 지정 하 고 적절 한 중첩 태그를 확인 하 여 권한 유형을 선택할 수 있음을 확인할 수 있습니다.
 
-![Tag 섹션 내의 중첩 태그](media/Nestingtags.png)
+![Tag 섹션 내의 중첩 태그](../media/Nestingtags.png)
 
 ## <a name="applying-tags"></a>태그 적용
 
@@ -61,7 +61,7 @@ ms.locfileid: "41597415"
 
 검토 집합에서 문서를 볼 때 **코딩 패널**을 클릭 하 여 검토에 사용할 수 있는 태그를 표시할 수 있습니다.
 
-![태그 패널을 클릭 하 여 태그 패널 표시](media/Singledoctag.png)
+![태그 패널을 클릭 하 여 태그 패널 표시](../media/Singledoctag.png)
 
 이렇게 하면 뷰어에 표시 된 문서에 태그를 적용할 수 있습니다.
 
@@ -69,7 +69,7 @@ ms.locfileid: "41597415"
 
 대량 태그 지정은 결과 표에서 여러 파일을 선택한 다음 단일 문서 태그 지정과 유사 하 게 **코딩 패널** 의 태그를 사용 하 여 수행할 수 있습니다. 대량 태깅은 태그를 두 번 선택 하 여 수행할 수 있습니다. 첫 번째 클릭은 태그를 적용 하 고 두 번째 선택 옵션을 선택 하면 선택한 모든 파일에 대해 태그의 선택이 취소 됩니다.
 
-![자동으로 생성 되는 휴대폰 설명 스크린샷](media/Bulktag.png)
+![자동으로 생성 되는 휴대폰 설명 스크린샷](../media/Bulktag.png)
 
 > [!NOTE]
 > 대량 태그를 지정 하면 태그 패널에는 패널의 각 태그에 대해 태그 있는 파일 수가 표시 됩니다.
@@ -88,4 +88,4 @@ ms.locfileid: "41597415"
 
 3. 모든 문서에 태그를 적용 하려면 **문서 모음** 패널에서 모든 문서를 선택 하 고 **코드 문서**를 클릭 한 다음 전체 문서 패밀리에 적용할 태그를 선택 합니다.
 
-![자동으로 생성 되는 소셜 미디어 post 설명 스크린샷](media/Relatedtag.png)
+![자동으로 생성 되는 소셜 미디어 post 설명 스크린샷](../media/Relatedtag.png)

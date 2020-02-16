@@ -16,18 +16,18 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: cf69f76fd461c718bccb560f91bf31c2e30aea39
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 0b6c42f594ef10c868051d81b0a7ea4b7ff84e00
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601295"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42080615"
 ---
 # <a name="use-the-relevance-module-to-analyze-data-in-evidence"></a>관련성 모듈을 사용 하 여 증거의 데이터 분석
 
 데이터 조사 (미리 보기)에서 관련성 모듈에는 조사와 관련 된 파일의 관련성 교육과 검토가 포함 되어 있습니다. 관련성 워크플로는 다음과 같이 표시 됩니다.
   
-![관련성 워크플로](media/44c67dd2-7a20-40a9-b0ed-784364845c77.gif)
+![관련성 워크플로](../media/44c67dd2-7a20-40a9-b0ed-784364845c77.gif)
   
 - **평가 및 추적 주기**:
     

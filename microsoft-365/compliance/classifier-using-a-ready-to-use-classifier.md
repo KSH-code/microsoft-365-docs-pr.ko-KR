@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 365에는 조직 전체에서 콘텐츠를 식별 하 고 레이블을 지정 하는 데 사용할 수 있는 기계 학습 분류자를 사용 하기 위한 다양 한 준비가 제공 됩니다. 이 항목에서는 이러한 분류자 사용을 위해 준비 된 사용을 준비 하는 방법을 설명 합니다.
-ms.openlocfilehash: c6659bc32131948c57ad0bf7c8e3a30fbce125d9
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 8f3df8e7851bf453add162df4088e11dc7745cee
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595895"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42078795"
 ---
 # <a name="using-a-ready-to-use-classifier-preview"></a>바로 사용 가능한 분류자 사용 (미리 보기)
 
@@ -61,7 +61,7 @@ Microsoft는 특정 콘텐츠 범주를 식별 하는 데 도움이 될 수 있�
 
 9. 을 `Apply label to content that matches a trainable classifier`선택 합니다.
 
-![조건으로 분류자 선택](media/classifier-pre-trained-apply-label-match-trainable-classifier.png).
+![조건으로 분류자 선택](../media/classifier-pre-trained-apply-label-match-trainable-classifier.png).
 
 10. 이 경우 목록에서 분류자를 선택 합니다.`Source Code`
 

@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid: MET150
 ms.assetid: 39db1659-0b12-4243-a21c-2614512dcb44
-ms.openlocfilehash: dbcddd57fcf2d1471b4a4aa4b715dcae22dbc40c
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: d465e2a28b47abc5020480a4a862cbbca1d5e678
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41596195"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42077733"
 ---
 # <a name="create-a-litigation-hold"></a>소송 보존 만들기
 
@@ -86,7 +86,7 @@ Set-Mailbox <username> -LitigationHoldEnabled $true -LitigationHoldDuration <num
 
 다음 그림에서는 복구 가능한 항목 폴더 및 보류 워크플로 프로세스의 하위 폴더를 보여 줍니다.
 
-![소송 보존 수명 주기](media/LitigationHoldLifeCycle.png)
+![소송 보존 수명 주기](../media/LitigationHoldLifeCycle.png)
 
 > [!NOTE]
 > EDiscovery 사례와 관련 된 보류를 사서함에 저장 하면 제거 된 항목은 삭제 하위 폴더에서 DiscoveryHolds 하위 폴더로 이동 되 고 사서함이 eDiscovery 보류에서 릴리스될 때까지 보존 됩니다.

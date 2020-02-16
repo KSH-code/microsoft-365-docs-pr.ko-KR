@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: 다시 시도 단추를 사용 하 여 콘텐츠 위치 오류가 있는 콘텐츠 검색 문제를 해결 합니다.
-ms.openlocfilehash: ce88749a887fea57e977e210de1eda40268cb832
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 6eb08c006f206e3ad7850d67e541f6fc3f496441
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601625"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42081583"
 ---
 # <a name="retry-a-content-search-to-resolve-a-content-location-error"></a>콘텐츠 검색을 다시 시도 하 여 콘텐츠 위치 오류 해결
 
@@ -46,7 +46,7 @@ User2@contoso.com: Application error occurred. Please try again later. (CS012-00
 
 검색을 다시 시작 하면 여러 서버에서 유사한 오류가 발생 하는 경우가 많습니다. 검색을 다시 시작 하는 대신 검색 결과 페이지 위쪽에 표시 되는 **다시 시도** 단추를 클릭 합니다.
 
-![다시 시도 단추를 클릭 하 여 콘텐츠 위치 오류 해결](media/retrycontentsearch3.png)
+![다시 시도 단추를 클릭 하 여 콘텐츠 위치 오류 해결](../media/retrycontentsearch3.png)
 
 이렇게 하면 오류가 발생 한 사서함에 대해서만 검색이 다시 시도 됩니다. 검색을 다시 시도 하면 성공적으로 반환 된 다른 결과가 보존 됩니다.
 

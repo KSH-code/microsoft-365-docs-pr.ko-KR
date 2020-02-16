@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MOE150
 ms.assetid: bdee24ed-b8cf-4dd0-92ae-b86ec4661e6b
 description: Office 365 사서함이 비활성 상태가 되 면 비활성 사서함에 할당 된 보류 또는 Office 365 보존 정책의 기간을 변경할 수 있습니다. 보류 기간은 복구 가능한 항목 폴더에서 항목이 보관 되는 기간을 정의 합니다.
-ms.openlocfilehash: c50f7845377b6428a4cdce2bb7240a7ca973a8eb
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: bcfea972bd627da831e9927884669d2ed8ee5234
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595945"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42078943"
 ---
 # <a name="change-the-hold-duration-for-an-inactive-mailbox-in-office-365"></a>Office 365에서 비활성 사서함에 대 한 보존 기간 변경
 
@@ -139,7 +139,7 @@ Set-Mailbox -InactiveMailbox -Identity <identity of inactive mailbox> -Litigatio
 
 2. EAC에서 **규정 준수 관리** \> 원본 ** &amp; 위치 eDiscovery 유지**로 이동 합니다.
     
-3. 변경 하려는 원본 위치 유지를 선택 하 고 편집 아이콘](media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif) **편집** ![을 선택 합니다.
+3. 변경 하려는 원본 위치 유지를 선택 하 고 편집 아이콘](../media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif) **편집** ![을 선택 합니다.
     
 4. 원본 **위치 eDiscovery &amp; 보류** 속성 페이지에서 원본 **위치 유지**를 선택 합니다. 
     
@@ -149,7 +149,7 @@ Set-Mailbox -InactiveMailbox -Identity <identity of inactive mailbox> -Litigatio
     
     2. 특정 기간에 대 한 항목을 포함 하도록 **받은 날짜를 기준으로 항목을 보관할 일 수를 지정** 합니다 .를 선택 합니다. 항목을 보유할 일 수를 입력 합니다. 
     
-    ![원본 위치 유지 기간을 변경하는 작업의 스크린샷입니다.](media/cfcfd92a-9d65-40c0-90ef-ab72697b0166.png)
+    ![원본 위치 유지 기간을 변경하는 작업의 스크린샷입니다.](../media/cfcfd92a-9d65-40c0-90ef-ab72697b0166.png)
   
 6. **저장**을 선택합니다.
     

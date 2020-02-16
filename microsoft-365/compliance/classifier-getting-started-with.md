@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 365 trainable 분류자는 긍정적이 고 부정적 샘플을 확인 하 여 다양 한 유형의 콘텐츠를 인식할 수 있도록 교육을 제공 하는 도구입니다. 일단 분류자가 학습 되 면 결과가 정확 함을 확인할 수 있습니다. 그런 다음이를 사용 하 여 조직의 콘텐츠를 검색 하 고이를 분류 하 여 보존 또는 민감도 레이블을 적용 하거나 DLP (데이터 손실 방지) 또는 보존 정책에 포함 합니다.
-ms.openlocfilehash: c0ac644f3435d81159156e175c01e1916b0aeaf3
-ms.sourcegitcommit: 836bd8135cc49d6db37e78a7cfeb7d2cc4159e4e
+ms.openlocfilehash: 75cf79e162c2e371821b4329fc1be949f0b3a81c
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41722029"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42078826"
 ---
 # <a name="getting-started-with-trainable-classifiers-preview"></a>학습 가능한 분류자 시작 (미리 보기)
 
@@ -74,7 +74,7 @@ Microsoft 365에는 다음과 같은 6 개의 분류자를 사용할 준비가 �
 
 이러한 `Ready to use`정보는의 상태를 포함 하는 **Microsoft 365 준수 센터** > **데이터 분류 (preview)** > **Trainable 분류자** 보기에 표시 됩니다.
 
-![분류자-사용할 수 있는 분류자](media/classifiers-ready-to-use-classifiers.png)
+![분류자-사용할 수 있는 분류자](../media/classifiers-ready-to-use-classifiers.png)
 
 > [!IMPORTANT]
 > 비속어, harassment, 비속어 및 threat 분류자는 검색 가능한 텍스트만 사용할 수 있습니다.  추가적으로, 언어 및 문화 표준이 지속적으로 변경 되 고 이러한 현실에 따라 Microsoft는 이러한 분류자를 업데이트할 수 있는 권리를 보유 합니다. 이 분류자는 사용 중인 공격적인 및 기타 언어를 모니터링 하는 데 도움이 될 수 있지만,이 분류자는 이러한 언어의 결과를 해결 하지 않으며, 조직의 사용자가 사용 하는 유일한 모니터링 또는 대응 수단을 제공 하기 위한 것이 아닙니다. 해당 언어 Microsoft 또는 해당 자회사가 아닌 조직은 미리 훈련 된 분류자로 식별 되는 콘텐츠의 모니터링, 적용, 차단, 제거 및 보존과 관련 된 모든 결정을 계속 담당 합니다.
@@ -83,7 +83,7 @@ Microsoft 365에는 다음과 같은 6 개의 분류자를 사용할 준비가 �
 
 사용할 준비가 완료 된 분류자는 교육을 받을 필요가 없지만 준수 솔루션에서 사용 하기 전에 필요한 콘텐츠 유형을 확인할 필요가 있는지 확인 해야 합니다. 미리 훈련 된 분류자를 테스트 하려면이 흐름을 따릅니다.
 
-![미리 훈련 된 분류자를 테스트 하는 프로세스 흐름](media/classifier-pre-trained-classifier-flow.png)
+![미리 훈련 된 분류자를 테스트 하는 프로세스 흐름](../media/classifier-pre-trained-classifier-flow.png)
 
 ### <a name="understanding-trainable-classifiers"></a>Trainable 분류자 이해
 
@@ -96,7 +96,7 @@ Microsoft 365에는 다음과 같은 6 개의 분류자를 사용할 준비가 �
 
 승인 솔루션에서 사용 하기 위한 trainable 분류자 만들기 및 게시 (예: 보존 정책 및 통신 감독)는 다음 흐름을 따릅니다. Trainable 분류자를 만드는 방법에 대 한 자세한 내용은 [trainable 분류자 만들기](classifier-creating-a-trainable-classifier.md)를 참조 하십시오.
 
-![프로세스 흐름 trainable 분류자](media/classifier-trainable-classifier-flow.png)
+![프로세스 흐름 trainable 분류자](../media/classifier-trainable-classifier-flow.png)
 
 ## <a name="see-also"></a>참고 항목
 

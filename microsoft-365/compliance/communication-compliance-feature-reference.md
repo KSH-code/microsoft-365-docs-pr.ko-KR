@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 02534cf9dcd342f0872e755aec622f8028b235f8
-ms.sourcegitcommit: 0f09f54f43924d1fcd2fdcfcbf04c53519b92a7b
+ms.openlocfilehash: 5861348bb7c447c878f7f203acfd39fdf4c0a5f8
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "41784675"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42078765"
 ---
 # <a name="communication-compliance-feature-reference"></a>통신 준수 기능 참조
 
@@ -300,4 +300,4 @@ Search-UnifiedAuditLog -StartDate $startDate -EndDate $endDate -Operations Super
 
 ## <a name="ready-to-get-started"></a>시작할 준비가 되셨습니까?
 
-Microsoft 365 조 직에 대 한 통신 준수를 구성 하려면 [microsoft 365 조 직에 대 한 통신 준수 구성 (미리 보기)](communication-compliance-configure.md)을 참조 하십시오.
+Microsoft 365 조 직에 대 한 통신 준수를 구성 하려면 [microsoft 365 조 직에 대 한 통신 준수 구성을](communication-compliance-configure.md)참조 하세요.

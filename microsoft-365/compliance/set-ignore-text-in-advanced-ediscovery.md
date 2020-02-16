@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 44055727-56e8-42d7-9dc3-fb942f3901cc
 description: 'Office 365 Advanced eDiscovery에서 Analyze 및 Process 모듈을 사용할 때 특정 텍스트를 무시 하는 규칙을 정의 하는 방법을 알아봅니다.  '
-ms.openlocfilehash: 7bda497f961ed762b1b077ad0631a0a6a94cdcc8
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 440393061fef9b5a3c946322307fcafd034be81c
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601505"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42081139"
 ---
 # <a name="set-ignore-text-option-for-analyze-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery에서 분석에 대 한 텍스트 무시 옵션 설정
 
@@ -107,7 +107,7 @@ ms.locfileid: "41601505"
     
 2. **Ignore 텍스트 추가** 대화 상자의 **이름** 필드에 무시 텍스트 규칙의 이름을 입력 합니다. 
     
-    ![무시 하는 텍스트 추가](media/98e5129b-2667-4692-86fa-2d0117187a7f.png)
+    ![무시 하는 텍스트 추가](../media/98e5129b-2667-4692-86fa-2d0117187a7f.png)
   
 3. **텍스트** 상자에 무시할 텍스트를 입력 합니다. 텍스트 필드에 무제한의 문자를 사용할 수 있습니다. 
     
@@ -122,7 +122,7 @@ ms.locfileid: "41601505"
     
 7. **확인** 을 클릭 하 여 무시 텍스트 규칙을 저장 합니다. 정의 된 Ignore 텍스트 규칙이 표시 됩니다. 
     
-    ![무시 설정 텍스트 이름](media/3a788ac3-4a1c-46c9-89bd-7ff32d68ce23.png)
+    ![무시 설정 텍스트 이름](../media/3a788ac3-4a1c-46c9-89bd-7ff32d68ce23.png)
   
 ## <a name="see-also"></a>참고 항목
 

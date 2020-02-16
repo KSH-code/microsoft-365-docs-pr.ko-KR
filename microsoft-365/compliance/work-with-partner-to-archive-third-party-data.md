@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: 조직에서 Microsoft 파트너와 협력 하 여 Salesforce Chatter, Yahoo Messenger 또는 Yammer와 같은 데이터 원본의 타사 데이터를 가져올 사용자 지정 커넥터를 설정할 수 있습니다. 이를 통해 Office 365의 타사 데이터 원본에서 데이터를 보관할 수 있으므로 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 Office 365 규정 준수 기능을 사용 하 여 조직의 타사 데이터를 관리 하는 방법을 관리할 수도 있습니다.
-ms.openlocfilehash: 01188110b19dc4784920a5f18e673f92e064e034
-ms.sourcegitcommit: a6686a68b068adec29b72f998ac9bc95992981df
+ms.openlocfilehash: 6104381b842b9a4d76de7278c0b7280ec2f11222
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "41628612"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42085023"
 ---
 # <a name="work-with-a-partner-to-archive-third-party-data-in-office-365"></a>Office 365에서 파트너와 협력 하 여 타사 데이터 보관
 
@@ -39,7 +39,7 @@ Microsoft 파트너와 협력 하 여 타사 데이터 원본의 데이터를 �
 
 다음 그림 및 설명은 파트너와 함께 작업 하는 경우 타사 데이터 가져오기 프로세스의 작동 방식에 대해 설명 합니다.
   
-![타사 데이터 가져오기 프로세스의 작동 방식](media/5d4cf8e9-b4cc-4547-90c8-d12d04a9f0e7.png)
+![타사 데이터 가져오기 프로세스의 작동 방식](../media/5d4cf8e9-b4cc-4547-90c8-d12d04a9f0e7.png)
   
 1. 고객은 선택한 파트너와 함께 작업 하 여 타사 데이터 원본에서 항목을 추출 하 고 해당 항목을 Office 365로 가져오는 커넥터를 구성 합니다.
     
@@ -537,7 +537,7 @@ Office 365에서 타사 데이터를 보관 하기 위한 주요 구성 요소�
 
    다음 대화 상자가 표시 됩니다. Carets를 확장 하 여 커넥터에 할당 되는 사용 권한을 검토할 수 있습니다.
 
-   ![사용 권한 요청 대화 상자가 표시 됩니다.](media/O365-ThirdPartyDataConnector-OptIn1.png)
+   ![사용 권한 요청 대화 상자가 표시 됩니다.](../media/O365-ThirdPartyDataConnector-OptIn1.png)
 
 2. **Accept(동의함)** 를 클릭합니다.
 

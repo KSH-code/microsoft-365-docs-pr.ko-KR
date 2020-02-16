@@ -16,12 +16,12 @@ ms.assetid: 3ecde857-4b7c-451d-b4aa-9eeffc8a8c61
 ms.collection:
 - M365-security-compliance
 description: 이 항목에서는 AD RMS 서버를 사용하도록 IRM을 구성하는 방법을 보여줍니다.
-ms.openlocfilehash: 9af8de571285843a994c943ef33baa2f5966b328
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: d9d1dee8ca0992f1e2f9cb344baba4f245d3ca37
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41596255"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42078503"
 ---
 # <a name="configure-irm-to-use-an-on-premises-ad-rms-server"></a>온-프레미스 AD RMS 서버를 사용하도록 IRM 구성
   
@@ -167,4 +167,4 @@ TPD를 가져오고 IRM을 사용하도록 설정했는지 확인하려면 다�
   
 - **Test-IRMConfiguration** cmdlet을 사용하여 IRM 기능을 테스트합니다. 자세한 내용은 [테스트-IRMConfiguration](https://technet.microsoft.com/library/a730e7ff-a67f-4360-b5ff-70d171bb5e1d.aspx)의 "예제 1"을 참조 하십시오.
 
-- 웹의 Outlook에서 새 메시지를 작성 하 고 확장 된 메뉴 ( ![기타 옵션 아이콘](media/ITPro-EAC-MoreOptionsIcon.gif))에서 **사용 권한 설정** 옵션을 선택 하 여 IRM을 보호 합니다.
+- 웹의 Outlook에서 새 메시지를 작성 하 고 확장 된 메뉴 ( ![기타 옵션 아이콘](../media/ITPro-EAC-MoreOptionsIcon.gif))에서 **사용 권한 설정** 옵션을 선택 하 여 IRM을 보호 합니다.

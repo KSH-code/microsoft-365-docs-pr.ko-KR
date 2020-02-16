@@ -19,17 +19,17 @@ search.appverid:
 - MET150
 - MOE150
 titleSuffix: Office 365 Compliance
-ms.openlocfilehash: d0bd5411e99471ff326906f65747ec7a6f841545
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 230d363c8150899fdc5fd5f46aa1cb2576382267
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41596205"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42078295"
 ---
 # <a name="configure-supervision-policies-in-office-365"></a>Office 365에서 감독 정책 구성
 
 >[!IMPORTANT]
->이 항목은 Office 365 구독에서 감독 정책 구성에 적용 됩니다. Microsoft 365 구독에 대 한 통신 준수를 구성 하려면 [configure communications 준수 In microsoft 365 (preview)](communication-compliance-configure.md)을 참조 하십시오.
+>이 항목은 Office 365 구독에서 감독 정책 구성에 적용 됩니다. Microsoft 365 구독에 대 한 통신 준수를 구성 하려면 [microsoft 365의 통신 준수 구성을](communication-compliance-configure.md)참조 하십시오.
 
 감독 정책을 사용 하 여 내부 또는 외부 검토자가 검사할 직원 통신을 캡처할 수 있습니다. 감독 정책을 통해 조직의 통신을 모니터링 하는 방법에 대 한 자세한 내용은 [Office 365의 감독 정책을](supervision-policies.md)참조 하세요.
 

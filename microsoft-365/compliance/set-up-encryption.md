@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 ms.assetid: e86fc991-0161-4f01-9c1c-d25e87733d06
 description: Office 365에서는 일부 암호화 기능이 기본적으로 설정 됩니다. 특정 규정 준수 또는 법적 요구 사항을 충족 하도록 다른 기능을 구성할 수 있습니다.
-ms.openlocfilehash: 5d57ffd6db276907f3a4c192ecea871b8a4310af
-ms.sourcegitcommit: 5ff1dc62e8855be155cb2de45cf4ee5a02c321fd
+ms.openlocfilehash: 1061f03ebca867eaa4082d22c1772e904959129e
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41799508"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42081115"
 ---
 # <a name="set-up-encryption-in-office-365-enterprise"></a>Office 365 Enterprise의 암호화 설정
 

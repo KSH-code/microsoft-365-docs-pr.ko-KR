@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Office 365 감사 로그 검색 도구를 사용 하면 손상 된 계정을 조사 하거나, 사서함에 대 한 전자 메일 전달을 설정 하는 사람을 찾거나, 외부 사용자가 조직에 로그인 한 이유를 확인 하는 등의 일반적인 문제를 해결 하는 데 도움이 될 수 있습니다.
-ms.openlocfilehash: b453cccb0486ab923de720edb5a6a877395b9b7d
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: b18db4c24548c929043d79adb73e11b46be6ddb8
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595975"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42079181"
 ---
 # <a name="search-the-office-365-audit-log-to-investigate-common-support-issues"></a>Office 365 감사 로그를 검색 하 여 일반적인 지원 문제 조사
 
@@ -49,7 +49,7 @@ Office 365 감사 로그를 검색 하려면 Exchange Online에서 보기 전용
     
     **감사 로그 검색** 페이지가 표시됩니다. 
     
-    ![조건을 구성한 다음 검색을 선택 하 여 검색을 실행 합니다.](media/8639d09c-2843-44e4-8b4b-9f45974ff7f1.png)
+    ![조건을 구성한 다음 검색을 선택 하 여 검색을 실행 합니다.](../media/8639d09c-2843-44e4-8b4b-9f45974ff7f1.png)
   
 4. 다음 검색 조건을 구성할 수 있습니다. 이 문서의 각 문제 해결 시나리오에서는 이러한 필드를 구성 하기 위한 구체적인 지침을 제공 합니다.
     
@@ -106,11 +106,11 @@ Office 365 감사 로그를 검색 하려면 Exchange Online에서 보기 전용
 
 검색을 실행 한 후 검색 결과 페이지에서 **결과 필터링** 을 선택 합니다. **활동** 열 헤더 아래의 상자에 **사서함 cmdlet과** 관련 된 감사 레코드만 표시 되도록 **설정 사서함** 을 입력 합니다.
 
-![감사 로그 검색 결과 필터링](media/emailforwarding1.png)
+![감사 로그 검색 결과 필터링](../media/emailforwarding1.png)
 
 이때 각 감사 레코드의 세부 정보를 확인 하 여 활동이 전자 메일 전달과 관련이 있는지 확인 해야 합니다. 감사 레코드를 선택 하 여 **세부 정보** 플라이 아웃 페이지를 표시 한 다음 **자세한 정보**를 선택 합니다. 다음 스크린샷 및 설명은 사서함에 대해 전자 메일 전달이 설정 되었음을 나타내는 정보를 강조 표시 합니다.
 
-![감사 레코드에서 자세한 정보](media/emailforwarding2.png)
+![감사 레코드에서 자세한 정보](../media/emailforwarding2.png)
 
 a. **ObjectId** 필드에는 전자 메일 전달이 설정 된 사서함의 별칭이 표시 됩니다. 이 사서함은 검색 결과 페이지의 **항목** 열에도 표시 됩니다.
 
@@ -152,11 +152,11 @@ Set-Mailbox <mailbox alias> -ForwardingSmtpAddress $null
 
 **일시 삭제 된 항목에 대 한 AffectedItems 필드의 예**
 
-![일시 삭제 된 항목에 대 한 감사 레코드](media/softdeleteditem.png)
+![일시 삭제 된 항목에 대 한 감사 레코드](../media/softdeleteditem.png)
 
 **영구 삭제 된 항목에 대 한 AffectedItems 필드의 예**
 
-![하드 삭제 된 전자 메일 항목에 대 한 감사 레코드](media/harddeleteditem.png)
+![하드 삭제 된 전자 메일 항목에 대 한 감사 레코드](../media/harddeleteditem.png)
 
 ### <a name="recover-deleted-email-items"></a>삭제 된 전자 메일 항목 복구
 
@@ -186,7 +186,7 @@ Set-Mailbox <mailbox alias> -ForwardingSmtpAddress $null
 
 검색을 실행 한 후에는이 작업에 대 한 감사 레코드가 검색 결과에 표시 됩니다. 감사 레코드를 선택 하 여 **세부 정보** 플라이 아웃 페이지를 표시 한 다음 **자세한 정보**를 선택 합니다. 받은 편지함 규칙 설정에 대 한 정보는 **매개 변수** 필드에 표시 됩니다. 다음 스크린샷 및 설명은 받은 편지함 규칙에 대 한 정보를 강조 합니다.
 
-![새 받은 편지함 규칙에 대 한 감사 레코드](media/NewInboxRuleRecord.png)
+![새 받은 편지함 규칙에 대 한 감사 레코드](../media/NewInboxRuleRecord.png)
 
 a. **ObjectId** 필드에 받은 편지함 규칙의 전체 이름이 표시 됩니다. 이 이름에는 사용자 사서함의 별칭 (예: SaraD)과 받은 편지함 규칙 이름 (예: "관리자 로부터 메시지 이동")이 포함 됩니다.
 
@@ -207,7 +207,7 @@ Office 365 감사 로그에서 감사 레코드를 검토할 때 외부 사용�
 
 다음은 통과 인증의 결과인 **사용자가 로그인** 한 이벤트에 대 한 감사 레코드의 관련 속성에 대 한 예 및 설명입니다. 감사 레코드를 선택 하 여 **세부 정보** 플라이 아웃 페이지를 표시 한 다음 **자세한 정보**를 선택 합니다.
 
-![성공적인 통과 인증에 대 한 감사 레코드의 예](media/PassThroughAuth1.png)
+![성공적인 통과 인증에 대 한 감사 레코드의 예](../media/PassThroughAuth1.png)
 
    a. 이 필드는 조직의 Azure AD에서 조직에 있는 리소스에 액세스 하려고 한 사용자를 찾을 수 없음을 나타냅니다.
 
@@ -217,7 +217,7 @@ Office 365 감사 로그에서 감사 레코드를 검토할 때 외부 사용�
 
    d. 통과 인증이 성공 했음을 의미 합니다. 즉, 사용자가 Azure AD에서 인증 되었습니다. 
 
-   e-learning. **RecordType** 값이 **15** 이면 감사 된 작업 (USERLOGGEDIN)은 Azure AD의 STS (보안 토큰 서비스) 로그온 이벤트입니다.
+   e. **RecordType** 값이 **15** 이면 감사 된 작업 (USERLOGGEDIN)은 Azure AD의 STS (보안 토큰 서비스) 로그온 이벤트입니다.
 
 UserLoggedIn 감사 레코드에 표시 되는 다른 속성에 대 한 자세한 내용은 [Office 365 관리 활동 API 스키마](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema#azure-active-directory-base-schema)의 Azure AD 관련 스키마 정보를 참조 하십시오.
 
@@ -232,7 +232,7 @@ UserLoggedIn 감사 레코드에 표시 되는 다른 속성에 대 한 자세�
 
 - **사용자가 로그인 한** 감사 레코드에서 식별 된 외부 사용자가 수행한 활동에 대 한 감사 로그를 검색 합니다. **사용자** 상자에 외부 사용자에 대 한 UPN을 입력 하 고 시나리오와 관련이 있는 경우 날짜 범위를 사용 합니다. 예를 들어 다음과 같은 검색 조건을 사용 하 여 검색을 만들 수 있습니다.
 
-   ![외부 사용자가 수행한 모든 작업을 검색 합니다.](media/PassThroughAuth2.png)
+   ![외부 사용자가 수행한 모든 작업을 검색 합니다.](../media/PassThroughAuth2.png)
 
     **사용자가 로그인** 한 활동 외에, 외부 사용자와 조직의 사용자를 표시 하는 경우, 외부 사용자와 공유 된 문서를 액세스, 수정 또는 다운로드 했는지 여부와 같은 다른 감사 레코드가 반환 될 수 있습니다.
 

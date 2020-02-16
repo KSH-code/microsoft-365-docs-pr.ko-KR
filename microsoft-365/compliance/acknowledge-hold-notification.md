@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: 법적 조사의 일환으로 전자적으로 저장 된 정보를 보존 하도록 custodians에 게 알려야 할 수도 있습니다. Advanced eDiscovery를 사용 하면 보존 알림 프로세스를 쉽게 관리할 수 있습니다.
-ms.openlocfilehash: f1a2d4eb03f84df12611115670d52568d6b13d80
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 703034088b03badae309961c2abda9db80425b99
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41594071"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42080282"
 ---
 # <a name="acknowledge-a-hold-notification"></a>보류 알림 승인
 
@@ -52,4 +52,4 @@ Custodians의 시간, 비용 및 노력을 줄이기 위해 고급 eDiscovery를
 
 전자 메일 알림 외에도 각 custodian는 고유한 준수 포털에 액세스할 수 있습니다. 포털을 통해 각 custodian은 활성 보류 알림을 보고, 액세스 하 고, 승인할 수 있습니다.
 
-![Custodian에 대 한 준수 포털](media/CustodianPortal.jpg)
+![Custodian에 대 한 준수 포털](../media/CustodianPortal.jpg)

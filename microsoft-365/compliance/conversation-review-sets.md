@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 78997bfb6a3a77a03d95560d5f0c38eaae2dda4c
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 01f2e6f9ceccd1903f62e8661f2cfc8f4cc2b47e
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595675"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42078145"
 ---
 # <a name="review-conversations-in-advanced-ediscovery"></a>Advanced eDiscovery에서 대화 검토 
 
@@ -47,7 +47,7 @@ ms.locfileid: "41595675"
 
 - **대화:** 하나 이상의 메시지를 그룹화 한 것을 나타냅니다. 서로 다른 응용 프로그램에서 대화를 다양 한 방식으로 나타낼 수 있습니다. 일부 응용 프로그램에는 기존 메시지에 회신할 수 있는 명시적인 작업이 있습니다. 이 사용자 작업의 결과로 대화가 명시적으로 구성 됩니다. 예를 들어 Microsoft 팀에서 채널 대화를 보여 주는 스크린샷은 다음과 같습니다.
 
-   ![Microsoft 팀 채널 대화](media/threadedchat.png)
+   ![Microsoft 팀 채널 대화](../media/threadedchat.png)
 
    다른 앱 (예: 팀의 1xN 채팅 메시지)에서는 공식적인 회신 체인이 없으며, 대신 단일 스레드 내에서 메시지가 "플랫 강 합니다."로 표시 됩니다. 이러한 유형의 앱은 특정 시간 내에 발생 하는 메시지 그룹에서 대화를 유추 합니다. 이 "일시 그룹화" 메시지 (예를 들어, 회신 체인)는 관심 있는 특정 항목에 대 한 "앞뒤로 이동" 하는 대화를 나타냅니다. 
 
@@ -71,7 +71,7 @@ ms.locfileid: "41595675"
 
 대화에서 데이터를 검토 집합에 추가할 때 대화 검색 옵션을 사용 하 여 검색을 확장 하 고 상황별 메시지를 포함할 수 있습니다. 대화 검색 옵션을 설정 하면 다음과 같은 결과가 발생할 수 있습니다.
 
-  ![대화 검색](media/messagesandconversations.png)
+  ![대화 검색](../media/messagesandconversations.png)
   
 1. 키워드 및 날짜 범위 쿼리를 사용 하 여 검색에서 *메시지 3*의 방문 횟수를 반환 했습니다. 이 메시지는 *CRC1*에 설명 된 보다 큰 대화의 일부입니다. 
   
@@ -99,13 +99,13 @@ ms.locfileid: "41595675"
 
 표준 검토 집합에서 메시지가 사서함 폴더에 저장 되는 방식과 마찬가지로 개별 항목으로 처리 되 고 표시 됩니다. 이 워크플로에서 각 메시지는 개별 항목으로 처리 됩니다. 따라서 표준 검토 집합에서는 스레드 요약 및 내보내기 옵션을 사용할 수 없습니다. 
 
-  ![표준 검토 설정](media/standardrs.PNG)
+  ![표준 검토 설정](../media/standardrs.PNG)
 
 ### <a name="reviewing-conversations-in-a-conversation-review-set"></a>대화 검토 설정에서 대화 검토
 
 대화 검토 집합에서 개별 메시지는 함께 스레드된 다음 대화로 표시 됩니다. 이렇게 하면 상황별 대화를 검토 하 고 내보낼 수 있습니다. 
 
-  ![대화 검토 설정](media/ConversationRSOptions.PNG)
+  ![대화 검토 설정](../media/ConversationRSOptions.PNG)
 
 다음 섹션에서는 대화 검토 집합의 대화를 검토 하 고 내보내는 방법에 대해 설명 합니다.
 
@@ -134,7 +134,7 @@ ms.locfileid: "41595675"
 
 대화 검토 집합에서 다음 옵션을 설정 하 여 대화를 내보낼 수 있습니다.
 
-![내보내기](media/export.png)
+![내보내기](../media/export.png)
 
 a. 메타 데이터 옵션
 

@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 위험 평가를 간소화 하 고 자동화 하는 데 도움이 되는 Microsoft 규정 준수 점수에 대해 로그인 하 고 사용 권한을 설정 하 고 대시보드를 이해 하는 방법을 알아봅니다.
-ms.openlocfilehash: a97fa1c0598fcab1660d71581fed2be8dafe8911
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 8233fb3174d822e4f71115cab2a1a174c1749810
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595755"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42078615"
 ---
 # <a name="microsoft-compliance-score-preview-setup"></a>Microsoft 준수 점수 (미리 보기) 설치
 
@@ -102,7 +102,7 @@ Microsoft 365 준수 센터에서 사용 권한을 설정 하려면 다음을 �
 
 준수 점수 대시보드는 현재 준수 상태를 한눈에 파악할 수 있도록 설계 되었습니다.
 
-![준수 점수-대시보드](media/compliance-score-dashboard.png "준수 점수 대시보드")
+![준수 점수-대시보드](../media/compliance-score-dashboard.png "준수 점수 대시보드")
 
 ### <a name="overall-compliance-score"></a>전반적인 준수 점수
 

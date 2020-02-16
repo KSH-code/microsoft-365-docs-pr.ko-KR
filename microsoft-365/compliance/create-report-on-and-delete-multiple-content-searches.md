@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 ms.assetid: 1d463dda-a3b5-4675-95d4-83db19c9c4a3
 description: Office 365의 보안 & 준수 센터에서 PowerShell 스크립트를 통해 검색을 만들고 보고서를 실행 하는 등의 콘텐츠 검색 작업을 자동화 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 6c92d9dab093b802acc518aebb96ddf83cf54ea5
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 915ea910eebba8f6f39ceb41d9475769a6403729
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595575"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42077223"
 ---
 # <a name="create-report-on-and-delete-multiple-content-searches"></a>여러 콘텐츠 검색 만들기, 보고하기 및 삭제
 
@@ -191,7 +191,7 @@ ms.locfileid: "41595575"
     
     이 스크립트는 검색 만들기 및 실행 진행률을 표시 합니다. 스크립트가 완료 되 면 프롬프트로 돌아옵니다. 
     
-    ![여러 규정 준수 검색을 만드는 스크립트를 실행한 경우의 샘플 출력](media/37d59b0d-5f89-4dbc-9e2d-0e88e2ed7b4c.png)
+    ![여러 규정 준수 검색을 만드는 스크립트를 실행한 경우의 샘플 출력](../media/37d59b0d-5f89-4dbc-9e2d-0e88e2ed7b4c.png)
   
 ## <a name="step-4-run-the-script-to-report-the-search-estimates"></a>4 단계: 스크립트를 실행 하 여 검색 예측 보고
 
@@ -266,7 +266,7 @@ ms.locfileid: "41595575"
     
     이 스크립트는 검색 만들기 및 실행 진행률을 표시 합니다. 스크립트가 완료 되 면 보고서가 표시 됩니다. 
     
-    ![검색 보고서를 실행하여 검색 그룹에 대한 예상 결과 표시](media/3b5f2595-71d5-4a14-9214-fad156c981f8.png)
+    ![검색 보고서를 실행하여 검색 그룹에 대한 예상 결과 표시](../media/3b5f2595-71d5-4a14-9214-fad156c981f8.png)
   
 > [!NOTE]
 > 같은 사서함 이나 사이트가 검색 그룹에서 둘 이상의 검색에서 콘텐츠 위치로 지정 된 경우 보고서의 총 결과 (항목 수와 총 크기 모두)가 같은 항목에 대 한 결과를 포함할 수 있습니다. 이는 검색 그룹의 서로 다른 검색에 대 한 쿼리와 일치 하는 경우 동일한 전자 메일 메시지나 문서가 두 번 이상 계산 되기 때문입니다. 
@@ -301,4 +301,4 @@ ms.locfileid: "41595575"
     
     스크립트에는 삭제 된 각 검색의 이름이 표시 됩니다.
     
-    ![검색 그룹에서 검색을 삭제하기 위한 스크립트 실행](media/9d97b9d6-a539-4d9b-a4e4-e99989144ec7.png)
+    ![검색 그룹에서 검색을 삭제하기 위한 스크립트 실행](../media/9d97b9d6-a539-4d9b-a4e4-e99989144ec7.png)

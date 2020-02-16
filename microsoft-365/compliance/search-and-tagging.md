@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: 22f5adad-1bc0-460d-94a9-8732929f5b99
 description: 고급 eDiscovery에서 검색 및 태그 지정 모듈을 사용 하 여 사용자의 경우 문서를 검색, 미리 보기 및 구성할 수 있습니다. 현재이 모듈은 베타 버전입니다.
-ms.openlocfilehash: d79b702471b7a7234a7f0d147eb4f50bfc56a4c7
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: a3597cf0abad7095de7a7c6857052f269d202598
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601715"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42081403"
 ---
 # <a name="search-and-tagging"></a>검색 및 태그 지정
 
@@ -69,7 +69,7 @@ ms.locfileid: "41601715"
 
 또는 고급 eDiscovery 검색 도구에서 조건 카드를 사용 하 여 검색 쿼리에 조건 (선택한 속성)을 추가할 수 있습니다. 다음 스크린샷은 쿼리에 추가할 수 있는 조건을 보여 줍니다. **그룹** 열은 속성을 전자 메일, 사이트 문서 또는 둘 다에 적용할지를 나타냅니다 ( *공통*값으로 표시 됨). 또한이 열은 관련성 모듈을 실행 한 후에 사용할 수 있는 검색 가능한 속성을 식별 합니다.
 
-![Advanced eDiscovery 검색 도구의 검색 조건](media/AeDSearchConditions.png)
+![Advanced eDiscovery 검색 도구의 검색 조건](../media/AeDSearchConditions.png)
 
 검색 가능한 속성에 대 한 자세한 내용은 [키워드 쿼리 및 검색 조건을](keyword-queries-and-search-conditions.md)참조 하세요.
   

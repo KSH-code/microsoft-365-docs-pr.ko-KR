@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: d945f7dd-f62f-4ca7-b3e7-469824cfd493
 description: Office 365 eDiscovery 및 검색 도구를 사용 하 여 조직의 데이터 유출 인시던트를 관리 하 고 대응 합니다.
-ms.openlocfilehash: 3efeb183ca0629ea642eb21f14e31401d8618eea
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: c143095ecd26d2a9c8f2271b9d28f75b1c71502c
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595405"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42076333"
 ---
 # <a name="ediscovery-solution-series-data-spillage-scenario---search-and-purge"></a>eDiscovery 솔루션 시리즈: 데이터 유출 시나리오-검색 및 삭제
 
@@ -37,7 +37,7 @@ Contoso의 잠재 고객 정보 보안 담당자입니다. 직원 들이 전자 
 
 데이터 유출 인시던트를 관리 하는 방법은 다음과 같습니다.
 
-![데이터 유출 인시던트를 관리 하기 위한 8 단계 워크플로](media/O365-eDiscoverySolutions-DataSpillage-workflow.png)
+![데이터 유출 인시던트를 관리 하기 위한 8 단계 워크플로](../media/O365-eDiscoverySolutions-DataSpillage-workflow.png)
   
 [반드시 1 단계: 사례에 액세스 하 고 준수 경계를 설정할 수 있는 사용자 관리](#optional-step-1-manage-who-can-access-the-case-and-set-compliance-boundaries)<br/>
 [2 단계: eDiscovery 사례 만들기](#step-2-create-an-ediscovery-case)<br/>
@@ -100,7 +100,7 @@ Custodian 또는 최종 사용자에 게 Office 365 E5 라이선스가 할당 �
  
       보고서 내보내기 페이지가 표시 됩니다.
 
-    ![검색을 선택 하 고 플라이 아웃 페이지에서 자세한 > 보고서 내보내기를 클릭 합니다.](media/O365-eDiscoverySolutions-DataSpillage-ExportReport1.png)
+    ![검색을 선택 하 고 플라이 아웃 페이지에서 자세한 > 보고서 내보내기를 클릭 합니다.](../media/O365-eDiscoverySolutions-DataSpillage-ExportReport1.png)
     
 3. **형식을 인식할 수 없거나 암호화 되었거나 다른 이유로 인덱싱되지 않은 항목을 포함 하 여 모두** 선택 하 고 **보고서 생성**을 클릭 합니다.
 
@@ -108,7 +108,7 @@ Custodian 또는 최종 사용자에 게 Office 365 E5 라이선스가 할당 �
 
 5. 내보내기 작업을 클릭 한 다음 플라이 아웃 페이지에서 보고서 **다운로드** 를 클릭 합니다.
  
-    ![내보내기 페이지에서 내보내기를 클릭 하 고 "보고서 다운로드"를 클릭 합니다.](media/O365-eDiscoverySolutions-DataSpillage-ExportReport2.png)
+    ![내보내기 페이지에서 내보내기를 클릭 하 고 "보고서 다운로드"를 클릭 합니다.](../media/O365-eDiscoverySolutions-DataSpillage-ExportReport2.png)
 
 **내보내기 요약** 보고서에는 결과를 포함 하는 위치 수와 검색 결과 크기가 포함 됩니다. 이를 사용 하 여 삭제 후 생성 되는 보고서와 비교 하 고 삭제 증명으로 제공 합니다. **결과** 보고서에는 제목, 보낸 사람, 받는 사람, 전자 메일을 읽은 경우 각 메시지의 날짜 및 크기를 포함 하 여 검색 결과에 대 한 보다 자세한 요약이 포함 되어 있습니다. 이 보고서의 세부 정보가 해당 실제 데이터를 포함 하는 경우 조사가 완료 되 면 결과 .csv 파일을 영구적으로 삭제 해야 합니다.
 
@@ -142,7 +142,7 @@ Custodian 또는 최종 사용자에 게 Office 365 E5 라이선스가 할당 �
     
 4. **형식** 드롭다운 목록에서 **상위 위치**를 클릭 합니다.
     
-    ![검색 통계의 최상위 위치 페이지에서 검색 결과를 포함 하는 사서함 목록 가져오기](media/O365-eDiscoverySolutions-DataSpillage-TopLocations.png)
+    ![검색 통계의 최상위 위치 페이지에서 검색 결과를 포함 하는 사서함 목록 가져오기](../media/O365-eDiscoverySolutions-DataSpillage-TopLocations.png)
 
     검색 결과를 포함 하는 사서함 목록이 표시 됩니다. 검색 쿼리와 일치 하는 각 사서함의 항목 수도 표시 됩니다.
     
@@ -190,7 +190,7 @@ Custodian 또는 최종 사용자에 게 Office 365 E5 라이선스가 할당 �
     
 2. 플라이 아웃 페이지에서 **삭제**를 클릭 합니다.
 
-    ![검색을 선택 하 고 플라이 아웃 페이지에서 삭제를 클릭 합니다.](media/O365-eDiscoverySolutions-DataSpillage-DeleteSearch.png)
+    ![검색을 선택 하 고 플라이 아웃 페이지에서 삭제를 클릭 합니다.](../media/O365-eDiscoverySolutions-DataSpillage-DeleteSearch.png)
     
 ### <a name="auditing-the-data-spillage-investigation-process"></a>데이터 유출 조사 프로세스 감사
 

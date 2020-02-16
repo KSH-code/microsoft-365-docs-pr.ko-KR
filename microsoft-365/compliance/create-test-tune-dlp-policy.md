@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 59414438-99f5-488b-975c-5023f2254369
 description: 'DLP 정책을 사용하여 가장 쉽고 가장 일반적인 방법은 Office 365에 포함된 템플릿 중 하나를 사용하는 것입니다. '
-ms.openlocfilehash: defd5c8eba1202020fc8d3e3225c6ef4a425a331
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 818a0db46d0c2a763c1c90b585a6d7a0fd403b94
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595565"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42077377"
 ---
 # <a name="create-test-and-tune-a-dlp-policy"></a>DLP 정책 만들기, 테스트 및 조정
 
@@ -59,23 +59,23 @@ Exchange Online에 대 한 DLP 정책은 Exchange 관리 센터를 통해 관리
 
 Office 365에서는 DLP 정책을 만드는 데 사용할 수 있는 다양 한 [dlp 정책 템플릿을](what-the-dlp-policy-templates-include.md) 제공 합니다. 사용자가 오스트레일리아 business 라고 가정해 보겠습니다. 금융, 의료 및 건강 및 개인 정보에 대 한 일반적인 범주에 해당 하는 오스트레일리아와 관련 된 항목만 표시 하도록 정책 서식 파일을 필터링 할 수 있습니다.
 
-![국가 또는 지역을 선택 하는 옵션](media/DLP-create-test-tune-choose-country.png)
+![국가 또는 지역을 선택 하는 옵션](../media/DLP-create-test-tune-choose-country.png)
 
 이 데모에서는 TFN (오스트레일리아 세금 파일 번호) 및 운전 면허 번호에 대 한 정보 유형을 포함 하는 호주 PII (개인 식별이 가능한 정보) 데이터를 선택 합니다.
 
-![정책 서식 파일을 선택 하는 옵션](media/DLP-create-test-tune-choose-policy-template.png)
+![정책 서식 파일을 선택 하는 옵션](../media/DLP-create-test-tune-choose-policy-template.png)
 
 새 DLP 정책에 이름을 지정 합니다. 기본 이름은 DLP 정책 템플릿과 일치 하지만, 같은 템플릿에서 여러 정책을 만들 수 있으므로 고유한 이름을 직접 선택 해야 합니다.
 
-![정책 이름을 선택 하는 옵션](media/DLP-create-test-tune-name-policy.png)
+![정책 이름을 선택 하는 옵션](../media/DLP-create-test-tune-name-policy.png)
 
 정책이 적용 될 위치를 선택 합니다. DLP 정책은 Exchange Online, SharePoint Online 및 비즈니스용 OneDrive에 적용 될 수 있습니다. 이 정책을 모든 위치에 적용 하도록 유지 하겠습니다.
 
-![모든 위치를 선택 하는 옵션](media/DLP-create-test-tune-choose-locations.png)
+![모든 위치를 선택 하는 옵션](../media/DLP-create-test-tune-choose-locations.png)
 
 첫 번째 **정책 설정** 단계에서는 지금은 기본값을 그대로 사용 합니다. DLP 정책에서는 많은 사용자 지정 작업을 수행할 수 있지만 기본값은 매우 적절 한 시작 위치입니다.
 
-![보호할 콘텐츠 형식을 사용자 지정 하는 옵션](media/DLP-create-test-tune-default-customization-settings.png)
+![보호할 콘텐츠 형식을 사용자 지정 하는 옵션](../media/DLP-create-test-tune-default-customization-settings.png)
 
 **다음** 을 클릭 하면 더 많은 사용자 지정 옵션을 포함 하는 추가 **정책 설정** 페이지가 표시 됩니다. 테스트 중인 정책에 대해 몇 가지 조정 작업을 시작할 수 있습니다.
 
@@ -83,11 +83,11 @@ Office 365에서는 DLP 정책을 만드는 데 사용할 수 있는 다양 한 
 - 또한이 정책이 데이터를 대량으로 공유 하는 것이 아니라 오스트레일리아 PII 데이터의 공유를 검색할 수 있도록 10에서 1 사이의 인스턴스 수를 줄였습니다.
 - 또한 문제 보고서 전자 메일에 다른 받는 사람도 추가 했습니다.
 
-![추가 정책 설정](media/DLP-create-test-tune-more-policy-settings.png)
+![추가 정책 설정](../media/DLP-create-test-tune-more-policy-settings.png)
 
 마지막으로 테스트 모드에서 초기에 실행 되도록이 정책을 구성 했습니다. 또한 테스트 모드에서 정책 팁을 사용 하지 않도록 설정 하는 옵션도 있습니다. 이렇게 하면 정책에 정책 팁을 사용할 수 있는 유연성이 제공 되지만 테스트 중에 정책을 표시할지 아니면 표시할지를 결정할 수 있습니다.
 
-![정책을 먼저 테스트 하기 위한 옵션](media/DLP-create-test-tune-test-mode.png)
+![정책을 먼저 테스트 하기 위한 옵션](../media/DLP-create-test-tune-test-mode.png)
 
 최종 검토 화면에서 **만들기** 를 클릭 하 여 정책 만들기를 마칩니다.
 
@@ -97,19 +97,19 @@ Office 365에서는 DLP 정책을 만드는 데 사용할 수 있는 다양 한 
 
 예를 들어이 문서에 대해 만든 DLP 정책을 통해 TFN (오스트레일리아 세금 파일 번호)가 검색 됩니다. 설명서에 따르면 일치는 다음 조건을 기준으로 합니다.
 
-![오스트레일리아 세금 파일 번호에 대 한 설명서](media/DLP-create-test-tune-Australia-Tax-File-Number-doc.png)
+![오스트레일리아 세금 파일 번호에 대 한 설명서](../media/DLP-create-test-tune-Australia-Tax-File-Number-doc.png)
  
 TFN 검색을 대신 사용 하는 방법에 대 한 자세한 내용은 "세금 파일 번호" 라는 단어와 근접 한 근사 문자열을 포함 하는 전자 메일은 아무런 문제 없이 sail 됩니다. DLP 정책을 트리거하지 않는 이유는 9 자리 문자열이 유효한 TFN 인지 확인 하는 체크섬을 통과 해야 하 고, 무해 한 숫자 문자열 일 뿐 이기 때문입니다.
 
-![호주 세금 파일 번호 체크섬을 통과 하지 않음](media/DLP-create-test-tune-email-test1.png)
+![호주 세금 파일 번호 체크섬을 통과 하지 않음](../media/DLP-create-test-tune-email-test1.png)
 
 비교에서는 "세금 파일 번호" 라는 단어가 포함 된 전자 메일 및 체크섬을 통과 하는 유효한 TFN이 정책을 트리거합니다. 여기에서 사용 중인 TFN은 정품이 아닌 유효한 TFNs를 생성 하는 웹 사이트에서 가져온 것 이었습니다. 이러한 사이트는 DLP 정책을 테스트할 때 가장 흔히 발생 하는 실수 중 하나는 유효 하지 않은 가짜 번호를 사용 하 고 체크섬을 전달 하지 않으므로 정책을 트리거하지 않으므로 매우 유용 합니다.
 
-![오스트레일리아 세금 검사를 통과 한 파일 번호](media/DLP-create-test-tune-email-test2.png)
+![오스트레일리아 세금 검사를 통과 한 파일 번호](../media/DLP-create-test-tune-email-test2.png)
 
 문제 보고서 전자 메일에는 검색 된 중요 한 정보 유형, 검색 된 인스턴스 수 및 검색의 신뢰 수준이 포함 됩니다.
 
-![검색 된 세금 파일 번호를 보여 주는 문제 보고서](media/DLP-create-test-tune-email-incident-report.png)
+![검색 된 세금 파일 번호를 보여 주는 문제 보고서](../media/DLP-create-test-tune-email-incident-report.png)
 
 DLP 정책을 테스트 모드에서 유지 하 고 문제 보고서 전자 메일을 분석 하는 경우 DLP 정책의 정확성과 적용 시기에 대 한 느낌을 얻기 시작할 수 있습니다. 문제 보고서 외에도 [DLP 보고서를 사용](view-the-dlp-reports.md) 하 여 테 넌 트 전체의 정책 일치 항목에 대 한 집계 된 보기를 볼 수 있습니다.
 
@@ -119,15 +119,15 @@ DLP 정책을 테스트 모드에서 유지 하 고 문제 보고서 전자 메�
 
 보안 & 준수 센터에서 기존 정책을 편집 하 여 동작을 조정할 수 있습니다.
 
-![정책 편집 옵션](media/DLP-create-test-tune-edit-policy.png)
+![정책 편집 옵션](../media/DLP-create-test-tune-edit-policy.png)
  
 특정 작업 또는 특정 사이트와 계정에만 정책이 적용 되도록 위치 설정을 조정할 수 있습니다.
 
-![특정 위치 선택 옵션](media/DLP-create-test-tune-edit-locations.png)
+![특정 위치 선택 옵션](../media/DLP-create-test-tune-edit-locations.png)
 
 또한 사용자의 요구에 맞게 정책 설정을 조정 하 고 규칙을 편집할 수 있습니다.
 
-![규칙 편집 옵션](media/DLP-create-test-tune-edit-rule.png)
+![규칙 편집 옵션](../media/DLP-create-test-tune-edit-rule.png)
 
 DLP 정책 내에서 규칙을 편집할 때 다음을 변경할 수 있습니다.
 
@@ -137,29 +137,29 @@ DLP 정책 내에서 규칙을 편집할 때 다음을 변경할 수 있습니�
 - 사용자는 전자 메일 또는 파일 공유를 계속 진행 하도록 선택할 수 있는지 여부를 결정 합니다.
 - 관리자에 게 알리기 위한 문제 보고서
 
-![규칙의 부분 편집 옵션](media/DLP-create-test-tune-editing-options.png)
+![규칙의 부분 편집 옵션](../media/DLP-create-test-tune-editing-options.png)
 
 이 데모에서는 정책에 사용자 알림을 추가 했으며 (적절 한 사용자 인식 교육 없이이 작업을 주의 해야 함), 사용자가 비즈니스 근거로 정책을 재정의 하거나이를 가양성으로 플래그를 지정할 수 있었습니다. 조직의 정책에 대 한 추가 정보를 포함 하거나 궁금한 사항이 있는 경우 사용자에 게 문의 하 라는 메시지를 표시 하려는 경우 전자 메일 및 정책 팁 텍스트를 사용자 지정할 수도 있습니다.
 
-![사용자 알림 및 재정의에 대 한 옵션](media/DLP-create-test-tune-user-notifications.png)
+![사용자 알림 및 재정의에 대 한 옵션](../media/DLP-create-test-tune-user-notifications.png)
 
 정책에는 고용량 및 low 볼륨 처리를 위한 두 가지 규칙이 포함 되어 있으므로 원하는 작업을 사용 하 여 모두 편집 해야 합니다. 이렇게 하면 사례를 특성에 따라 다르게 처리할 수 있습니다. 예를 들어 낮은 볼륨 위반에 대해서는 재정의를 허용 하지만 높은 볼륨 위반에 대해서는 재정의를 허용 하지 않을 수 있습니다.
 
-![대용량 및 낮은 볼륨에 대 한 하나의 규칙에 대 한 규칙 하나](media/DLP-create-test-tune-two-rules.png)
+![대용량 및 낮은 볼륨에 대 한 하나의 규칙에 대 한 규칙 하나](../media/DLP-create-test-tune-two-rules.png)
 
 또한 정책을 위반 하는 콘텐츠에 대 한 액세스를 실제로 차단 하거나 제한 하려는 경우 규칙에 대 한 작업을 구성 해야 합니다.
 
-![콘텐츠에 대 한 액세스를 제한 하는 옵션](media/DLP-create-test-tune-restrict-access-action.png)
+![콘텐츠에 대 한 액세스를 제한 하는 옵션](../media/DLP-create-test-tune-restrict-access-action.png)
 
 정책 설정에 해당 변경 내용을 저장 한 후에는 정책의 주 설정 페이지로 돌아가 정책이 테스트 모드에 있는 동안 사용자에 게 정책 팁을 표시 하는 옵션을 사용 해야 합니다. 이 방법은 최종 사용자에 게 DLP 정책을 도입 하 고, 생산성에 영향을 주는 가양성을 너무 많이 포함 하지 않고 사용자의 교육을 수행할 수 있는 효과적인 방법입니다.
 
-![테스트 모드에서 정책 팁을 표시 하는 옵션](media/DLP-create-test-tune-show-policy-tips.png)
+![테스트 모드에서 정책 팁을 표시 하는 옵션](../media/DLP-create-test-tune-show-policy-tips.png)
 
 서버 쪽 (또는 클라우드 쪽)에서 변경 내용이 다양 한 처리 간격으로 인해 즉시 적용 되지 않을 수 있습니다. 사용자에 게 새 정책 팁을 표시 하는 DLP 정책 변경을 수행 하는 경우 사용자는 Outlook 클라이언트에서 즉시 적용 되며, 변경 내용이 24 시간 마다 정책 변경을 확인 하지 않을 수 있습니다. 테스트를 위해 속도를 향상 시키려면이 레지스트리 수정 프로그램을 사용 하 여 [PolicyNudges 키에서 마지막 다운로드 시간 스탬프를 지울](https://support.microsoft.com/en-au/help/2823261/changes-to-a-data-loss-prevention-policy-don-t-take-effect-in-outlook?__hstc=18650278.46377037dc0a82baa8a30f0ef07a7b2f.1538687978676.1538693509953.1540315763430.3&__hssc=18650278.1.1540315763430&__hsfp=3446956451)수 있습니다. 다음에 Outlook을 다시 시작 하 고 전자 메일 메시지를 작성할 때 최신 정책 정보를 다운로드 합니다.
 
 정책 팁을 사용 하는 경우 사용자는 Outlook에서 팁을 표시 하기 시작 하 고, 발생 하는 경우 가양성을 보고할 수 있습니다.
 
-![가양성을 보고 하는 옵션을 포함 하는 정책 설명](media/DLP-create-test-tune-policy-tip-in-outlook.png)
+![가양성을 보고 하는 옵션을 포함 하는 정책 설명](../media/DLP-create-test-tune-policy-tip-in-outlook.png)
 
 ## <a name="investigate-false-positives"></a>가양성 조사
 
@@ -167,26 +167,26 @@ DLP 정책 템플릿은 상자에서 완벽 하 게 처리 되지 않습니다. 
 
 다음은 가양성의 예입니다. 이 전자 메일은 매우 무해 합니다. 사용자는 자신의 전자 메일 서명을 비롯 하 여 다른 사람에 게 휴대폰 번호를 제공 합니다.
 
-![가양성 정보를 보여 주는 전자 메일](media/DLP-create-test-tune-false-positive-email.png)
+![가양성 정보를 보여 주는 전자 메일](../media/DLP-create-test-tune-false-positive-email.png)
  
 하지만 사용자는 전자 메일에 중요 한 정보, 특히 오스트레일리아 운전 면허 번호를 포함 하는 정책 팁 경고를 볼 수 있습니다.
 
-![정책 팁에서 가양성을 보고 하는 옵션](media/DLP-create-test-tune-policy-tip-closeup.png)
+![정책 팁에서 가양성을 보고 하는 옵션](../media/DLP-create-test-tune-policy-tip-closeup.png)
 
 사용자가 가양성을 보고할 수 있으며, 관리자는이를 통해 발생 한 이유를 확인할 수 있습니다. 문제 보고서 전자 메일에서 전자 메일은 가양성으로 플래그가 지정 됩니다.
 
-![가양성을 보여 주는 문제 보고서](media/DLP-create-test-tune-false-positive-incident-report.png)
+![가양성을 보여 주는 문제 보고서](../media/DLP-create-test-tune-false-positive-incident-report.png)
 
 이 드라이버의 사용 사례는 자세히 알아볼 수 있는 좋은 예입니다. 이 가양성이 발생 한 이유는 "오스트레일리아 nsw" (대/소문자 구분 안 함)와 같은 300 문자 이내에 있는 9 자리 문자열 (10 자리 문자열의 일부인 경우에도 마찬가지)에 의해 "호주 운전 면허" 유형이 트리거되는 것입니다. 사용자가 시드니에 있는 경우에만 전화 번호 및 전자 메일 서명에 의해 트리거되는 것입니다.
 
 
 한 가지 방법은 정책에서 오스트레일리아 운전 면허 정보 유형을 제거 하는 것입니다. 이 파일은 DLP 정책 템플릿의 일부 이기 때문에 여기에는 포함 되어 있지만 반드시 사용 해야 하는 것은 아닙니다. 세금 파일 번호에만 관심이 있는 경우 운전 면허증은 제거 하기만 하면 됩니다. 예를 들어 정책의 볼륨 부족 규칙에서 해당 파일을 제거할 수 있지만 여러 드라이버 라이선스 목록이 계속 해 서 검색 됩니다.
 
-![규칙에서 중요 한 정보 유형을 삭제 하는 옵션](media/DLP-create-test-tune-delete-low-volume-rule.png)
+![규칙에서 중요 한 정보 유형을 삭제 하는 옵션](../media/DLP-create-test-tune-delete-low-volume-rule.png)
  
 또 다른 옵션은 인스턴스 수를 늘려 단순히 여러 인스턴스가 있는 경우에만 드라이버의 라이선스 부족을 검색 하도록 하는 것입니다.
 
-![인스턴스 수 편집 옵션](media/DLP-create-test-tune-edit-instance-count.png)
+![인스턴스 수 편집 옵션](../media/DLP-create-test-tune-edit-instance-count.png)
 
 인스턴스 수를 변경 하는 것 외에도 일치 정확도 (또는 신뢰 수준)를 조정할 수도 있습니다. 중요 한 정보 유형에 여러 패턴이 있는 경우 규칙이 특정 패턴만 일치 하도록 규칙에서 정확도를 조정할 수 있습니다. 예를 들어 가양성을 줄이기 위해 신뢰도 수준이 가장 높은 패턴과 일치 하도록 규칙의 정확도를 설정할 수 있습니다. 신뢰도 수준이 계산 되는 방식을 이해 하는 것이이 게시물의 범위를 벗어나 다소 복잡 하지만, [신뢰 수준을 사용 하 여 규칙을 조정 하는 방법](data-loss-prevention-policies.md#match-accuracy)에 대 한 자세한 설명입니다.
 
@@ -196,21 +196,21 @@ DLP 정책 템플릿은 상자에서 완벽 하 게 처리 되지 않습니다. 
 
 DLP 정책이 정확 하 고 효과적으로 중요 한 정보 유형을 검색 하 고 최종 사용자가 해당 정책에 따라 처리할 준비가 되 면이 정책을 사용 하도록 설정할 수 있습니다.
 
-![정책을 설정 하는 옵션](media/DLP-create-test-tune-turn-on-policy.png)
+![정책을 설정 하는 옵션](../media/DLP-create-test-tune-turn-on-policy.png)
  
 정책이 적용 될 시기를 확인 하려면 [Security & 준수 센터 PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps) 하 고 [remove-dlpcompliancepolicy cmdlet](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-dlp/get-dlpcompliancepolicy?view=exchange-ps) 을 실행 하 여 DistributionStatus를 확인 하세요.
 
-![PowerShell에서 cmdlet 실행](media/DLP-create-test-tune-PowerShell.png)
+![PowerShell에서 cmdlet 실행](../media/DLP-create-test-tune-PowerShell.png)
 
 DLP 정책을 설정한 후에는 일부 최종 테스트를 실행 하 여 예상 되는 정책 작업이 진행 되 고 있는지 확인 해야 합니다. 신용 카드 데이터와 같은 항목을 테스트 하려는 경우 온라인 웹 사이트에 예제 신용 카드를 생성 하는 방법에 대 한 정보 및 검사를 통과 하 고 정책을 트리거하는 기타 개인 정보를 제공 합니다.
 
 사용자 재정의를 허용 하는 정책은 정책 팁의 일부로 해당 옵션을 사용자에 게 제공 합니다.
 
-![사용자 재정의를 허용 하는 정책 팁](media/DLP-create-test-tune-override-option.png)
+![사용자 재정의를 허용 하는 정책 팁](../media/DLP-create-test-tune-override-option.png)
 
 콘텐츠를 제한 하는 정책은 정책 팁의 일부로 사용자에 게 경고를 표시 하 고 전자 메일을 보내는 것을 차단 합니다.
 
-![콘텐츠가 제한 되는 정책 팁](media/DLP-create-test-tune-restrict-warning.png)
+![콘텐츠가 제한 되는 정책 팁](../media/DLP-create-test-tune-restrict-warning.png)
 
 ## <a name="summary"></a>요약
 

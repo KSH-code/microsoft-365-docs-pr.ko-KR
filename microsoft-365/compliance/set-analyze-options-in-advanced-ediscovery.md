@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: f6cd6588-f6b6-424a-a9ab-3782b842faee
 description: '유사 복제, 전자 메일 스레드 및 테마를 포함 하 여 Office 365 Advanced eDiscovery의 분석 프로세스에 대 한 옵션을 설정 하는 단계를 검토 합니다.  '
-ms.openlocfilehash: e9acb30d991bd2ee0acba5a9ddde619272788ceb
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: c32a63ee538522a5314a74be6248f253f70f279e
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597465"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42081162"
 ---
 # <a name="set-analyze-options-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery에서 분석 옵션 설정
 
@@ -34,7 +34,7 @@ ms.locfileid: "41597465"
 
 ** \> 준비 분석** \> **설정을**엽니다. 다음 창이 표시 됩니다.
   
-![세트 옵션 분석](media/c3ec7a92-8484-4812-b98c-aa3eb740e5b7.png)
+![세트 옵션 분석](../media/c3ec7a92-8484-4812-b98c-aa3eb740e5b7.png)
   
  **유사-중복 및 전자 메일 스레드** 분석을 실행 하려면이 확인란을 선택 합니다. 이 옵션은 기본적으로 선택되어 있습니다. 
   
@@ -51,11 +51,11 @@ ms.locfileid: "41597465"
     
     예를 들어 추천 단어가 "computer"이 고 "2"를 "최대 테마 수"로 지정한 경우 Advanced eDiscovery에서는 "computer" 라는 단어와 관련 된 두 테마를 생성 합니다. "컴퓨터 소프트웨어" 및 "컴퓨터 하드웨어"와 같은 두 가지 테마를 사용할 수 있습니다. 
     
-    ![추천된 테마 추가](media/06e9ffd3-a76c-423b-b450-9e465eb9a02f.png)
+    ![추천된 테마 추가](../media/06e9ffd3-a76c-423b-b450-9e465eb9a02f.png)
   
 1. 제안 된 테마를 보거나 추가 하거나 편집 하려면 **수정을**클릭 합니다.
     
-2. 제안 된 **테마** 패널 **에서 추가 아이콘** ![](media/c2dd8b3a-5a22-412c-a7fa-143f5b2b5612.png) 추가 아이콘를 클릭 하 여 테마를 추가 합니다. **제안 테마 추가** 패널에서 단어를 쉼표로 구분 하 여 추가 합니다. 
+2. 제안 된 **테마** 패널 **에서 추가 아이콘** ![](../media/c2dd8b3a-5a22-412c-a7fa-143f5b2b5612.png) 추가 아이콘를 클릭 하 여 테마를 추가 합니다. **제안 테마 추가** 패널에서 단어를 쉼표로 구분 하 여 추가 합니다. 
     
 3. **테마 수**에 따라 고급 eDiscovery에서 해당 단어에 대해 생성을 시도할 테마 수를 결정 하는 값 (기본값은 1 테마)을 선택 합니다.
     

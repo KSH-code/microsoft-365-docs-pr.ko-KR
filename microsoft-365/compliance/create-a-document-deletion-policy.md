@@ -14,12 +14,12 @@ search.appverid:
 - SPO160
 ms.assetid: 41b2ed73-eb8d-4429-945e-a8197894585a
 description: 조직은 규정 준수, 법률 및 기타 규정 때문에 특정 기간 동안 문서 보존이 필요한 경우가 많습니다. 그렇지만 필요 이상으로 오랫동안 문서를 보존하면 조직은 법적 위험에 노출될 수 있습니다.
-ms.openlocfilehash: 9ada3f2756b627965c9f215c1111ff2fe72da1e7
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 0144b12c05fcd4c8f973ee7e6b6df373f5b609a5
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41596235"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42077954"
 ---
 # <a name="create-a-document-deletion-policy"></a>문서 삭제 정책 만들기
 
@@ -32,19 +32,19 @@ ms.locfileid: "41596235"
   
 문서 삭제 정책을 만든 후에 사이트 모음 서식 파일에 할당하여 해당 서식 파일에서 만들어진 모든 사이트 모음에서 해당 정책을 사용하도록 할 수 있습니다. 또한 특정 사이트 모음에 정책을 할당하여 해당 사이트 모음에 대한 서식 파일에 할당되었을 수 있는 정책을 재정의할 수도 있습니다.
   
-![문서 삭제 정책 센터의 홈 페이지](media/IP-Document-Deletion-Policy-Center-home-page.png)
+![문서 삭제 정책 센터의 홈 페이지](../media/IP-Document-Deletion-Policy-Center-home-page.png)
   
 ## <a name="policy-templates"></a>정책 템플릿
 
 문서 삭제 정책을 처음부터 직접 만들거나, 샘플 정책 중 하나를 사용할 수 있습니다. 준수 정책 센터에는 그대로 사용할 수도 있고, 기준 정책으로 사용한 다음 이름을 바꾸거나 수정할 수 있는 샘플 정책이 포함되어 있습니다.
   
-![샘플 문서 삭제 정책](media/IP-Sample-deletion-policies.png)
+![샘플 문서 삭제 정책](../media/IP-Sample-deletion-policies.png)
   
 ## <a name="examples-of-how-to-use-document-deletion-policies"></a>문서 삭제 정책 사용 방법의 예
 
 사이트 모음 또는 사이트 모음 서식 파일에는 정책이 하나 이상 할당될 수 있으며 이러한 각 정책에는 규칙이 하나 이상 있을 수 있습니다. 그러나 사이트 마다 활성화 되는 정책은 하나만 있을 수 있으며, 사이트 내의 라이브러리에 대해 언제 든 지 하나의 삭제 규칙만 활성화할 수 있습니다.
   
-![정책 간 관계를 보여 주는 다이어그램](media/IP-Two-policies-four-rules.png)
+![정책 간 관계를 보여 주는 다이어그램](../media/IP-Two-policies-four-rules.png)
   
 또한 정책을 필수 또는 기본으로 선택하고 삭제 규칙을 기본 규칙으로 선택할 수 있습니다. 
   
@@ -68,7 +68,7 @@ ms.locfileid: "41596235"
     
 이 예제에서 기본 삭제 규칙은 서식 파일에서 만든 모든 사이트 모음의 모든 라이브러리에 적용되고 사이트 소유자는 정책을 거부할 수 없습니다. 이것이 문서 삭제 정책을 광범위하고 엄격하게 적용하는 가장 간단한 방법입니다.
   
-![단일 필수 정책을 보여 주는 다이어그램](media/IP-Example-1-doc-deletion-policies.png)
+![단일 필수 정책을 보여 주는 다이어그램](../media/IP-Example-1-doc-deletion-policies.png)
   
 ### <a name="example-2-apply-a-single-policy-with-several-rules-to-a-site-collection-template"></a>예 2: 여러 규칙을 포함 하는 단일 정책을 사이트 모음 서식 파일에 적용
 
@@ -84,7 +84,7 @@ ms.locfileid: "41596235"
     
 사이트 소유자는 대체 삭제 규칙 중 하나를 선택하거나, 정책을 거부하거나, 아무 작업도 수행하지 않고 기본 정책 및 규칙이 되도록 할 수 있습니다.
   
-![여러 규칙이 있는 정책을 보여 주는 다이어그램](media/IP-Example-2-doc-deletion-policies.png)
+![여러 규칙이 있는 정책을 보여 주는 다이어그램](../media/IP-Example-2-doc-deletion-policies.png)
   
 ### <a name="example-3-apply-several-policies-with-one-or-more-rules-to-a-site-collection"></a>예 3: 규칙을 하나 이상 갖는 여러 정책을 사이트 모음에 적용
 
@@ -104,7 +104,7 @@ ms.locfileid: "41596235"
     
 또한 정책 및 규칙은 특정 사이트 모음에 맞게 조정되며 사이트 소유자는 자신의 사이트에 가장 적합한 정책 및 규칙을 선택하여 상속을 끊을 수 있습니다.
   
-![여러 정책 및 규칙을 보여 주는 다이어그램](media/IP-Example-3-doc-deletion-policies.png)
+![여러 정책 및 규칙을 보여 주는 다이어그램](../media/IP-Example-3-doc-deletion-policies.png)
   
 ## <a name="create-a-document-deletion-policy"></a>문서 삭제 정책 만들기
 
@@ -114,7 +114,7 @@ ms.locfileid: "41596235"
     
 2. **삭제 정책을**선택 합니다.
     
-    ![삭제 정책 옵션](media/IP-Deletion-Policies-option.png)
+    ![삭제 정책 옵션](../media/IP-Deletion-Policies-option.png)
   
 3. **새 항목**을 선택합니다.
     
@@ -132,7 +132,7 @@ ms.locfileid: "41596235"
     
   - 규칙이 기본 규칙인지 여부를 선택합니다. 처음 만든 규칙이 기본 규칙으로 자동 설정됩니다. 기본 규칙은 해당 정책을 사용하는 사이트의 모든 라이브러리에 자동으로 적용됩니다.
     
-![새 삭제 규칙 페이지](media/IP-New-deletion-rule.png)
+![새 삭제 규칙 페이지](../media/IP-New-deletion-rule.png)
   
 7. **저장**을 클릭합니다.
     
@@ -143,7 +143,7 @@ ms.locfileid: "41596235"
     > [!NOTE]
     > 규칙을 삭제 하는 경우 정책에 기본 규칙이 포함 되어 있지 않으면 해당 정책에 대 한 규칙이 적용 되지 않으며, 즉 문서를 삭제 하지 않습니다. 
   
-![정책에서 규칙 제거 확인 메시지](media/IP-Remove-rule-from-policy-message.png)
+![정책에서 규칙 제거 확인 메시지](../media/IP-Remove-rule-from-policy-message.png)
   
 ## <a name="assign-the-document-deletion-policy-to-a-site-collection-template"></a>문서 삭제 정책을 사이트 모음 서식 파일에 할당
 
@@ -155,7 +155,7 @@ ms.locfileid: "41596235"
     
 2. **서식 파일에 대한 정책 할당**을 선택합니다.
     
-    ![서식 파일에 대한 정책 할당 옵션](media/IP-Policy-Assignments-for-Templates-option.png)
+    ![서식 파일에 대한 정책 할당 옵션](../media/IP-Policy-Assignments-for-Templates-option.png)
   
 3. **새 항목**을 선택합니다.
     
@@ -168,7 +168,7 @@ ms.locfileid: "41596235"
     > [!NOTE]
     > 사이트 모음 서식 파일에 정책을 할당하면 해당 서식 파일에서 만든 기존 사이트 모음과 앞으로 만들어질 사이트 모음 둘 다에서 해당 정책을 사용할 수 있습니다. 
   
-![OneDrive 옵션을 표시하는 서식 파일 페이지 선택](media/IP-Choose-a-template.png)
+![OneDrive 옵션을 표시하는 서식 파일 페이지 선택](../media/IP-Choose-a-template.png)
   
 5. **저장**을 클릭합니다.
     
@@ -177,7 +177,7 @@ ms.locfileid: "41596235"
   
 6. **할당된 정책 관리**를 선택하고 할당하려는 정책을 선택한 다음 정책 하나를 기본 정책으로 선택합니다. 기본 정책을 설정하면 사이트 소유자가 다른 작업을 수행하지 않더라도 해당 정책에 할당된 모든 사이트에서 해당 정책이 자동으로 활성 상태가 됩니다.
     
-    ![정책 추가 및 관리 페이지](media/IP-Add-and-manage-policies-page.png)
+    ![정책 추가 및 관리 페이지](../media/IP-Add-and-manage-policies-page.png)
   
 7. **저장**을 클릭합니다.
     
@@ -197,7 +197,7 @@ ms.locfileid: "41596235"
     
 2. **사이트 모음에 대한 정책 할당**을 선택합니다.
     
-    ![사이트 모음에 대한 정책 할당 옵션](media/IP-Policy-Assignments-for-Site-Collections-option.png)
+    ![사이트 모음에 대한 정책 할당 옵션](../media/IP-Policy-Assignments-for-Site-Collections-option.png)
   
 3. **새 항목**을 선택합니다.
     
@@ -206,11 +206,11 @@ ms.locfileid: "41596235"
     > [!NOTE]
     > 각 사이트 모음에는 정책 집합이 하나만 할당될 수 있습니다. 이 사이트 모음에 이미 정책이 할당 되었음을 알리는 오류가 표시 되 면 **사이트 모음에 할당** **취소** \> 를 선택 하 고 사이트 모음을 선택 하 여 이미 할당 된 정책 집합을 보고 관리 합니다. 
   
-![사이트 모음 선택 페이지](media/IP-Choose-a-site-collection-page.png)
+![사이트 모음 선택 페이지](../media/IP-Choose-a-site-collection-page.png)
   
 5. **할당된 정책 관리**를 선택하고 할당하려는 정책을 선택한 다음 정책 하나를 기본 정책으로 선택합니다. 기본 정책을 설정하면 사이트 소유자가 다른 작업을 수행하지 않더라도 해당 정책에 할당된 모든 사이트에서 해당 정책이 자동으로 활성 상태가 됩니다.
     
-    ![정책 추가 및 관리 페이지](media/IP-Add-and-manage-policies-page.png)
+    ![정책 추가 및 관리 페이지](../media/IP-Add-and-manage-policies-page.png)
   
 6. **저장**을 클릭합니다.
     
@@ -230,7 +230,7 @@ ms.locfileid: "41596235"
     
 3. 할당 항목을 선택 하 고 **항목 삭제**를 클릭 합니다.
     
-    ![정책 할당에 대한 항목 명령 삭제](media/IP-Delete-policy-assignment.png)
+    ![정책 할당에 대한 항목 명령 삭제](../media/IP-Delete-policy-assignment.png)
   
 ## <a name="delete-a-policy"></a>정책 삭제
 
@@ -240,17 +240,17 @@ ms.locfileid: "41596235"
     
 2. * * 삭제 정책 * *을 선택 합니다.
     
-    ![삭제 정책 옵션](media/IP-Deletion-Policies-option.png)
+    ![삭제 정책 옵션](../media/IP-Deletion-Policies-option.png)
   
 3. 정책을 선택합니다.
     
 4. 리본 메뉴 \> **항목** 탭 \> 의 **정책 제거**
     
-    ![리본의 정책 제거 단추](media/IP-Remove-Policy-button-on-Ribbon.png)
+    ![리본의 정책 제거 단추](../media/IP-Remove-Policy-button-on-Ribbon.png)
   
 5. 정책이 사용 중인 경우에는 사용 중인 모든 사이트 모음에서 정책을 제거할지 묻는 메시지가 표시 됩니다. 이 경우 **확인**을 선택 합니다.
     
-    ![정책 확인 메시지 삭제](media/IP-Delete-policy-confirmation.png)
+    ![정책 확인 메시지 삭제](../media/IP-Delete-policy-confirmation.png)
   
 ## <a name="see-also"></a>참고 항목
 

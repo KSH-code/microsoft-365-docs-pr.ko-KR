@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 82ee16e84bc20b88e577cfd3e8b8187059536469
-ms.sourcegitcommit: 0f09f54f43924d1fcd2fdcfcbf04c53519b92a7b
+ms.openlocfilehash: 1c53eded5e50d480cdce2ccbcb61f732bc899041
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "41784695"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42078783"
 ---
 # <a name="configure-communication-compliance-in-microsoft-365"></a>Microsoft 365에서 통신 준수 구성
 
@@ -59,7 +59,7 @@ Microsoft 365 준수 센터에서 **통신 준수** 를 메뉴 옵션으로 사�
 
 5. **역할 선택을** 선택 하 고 **추가**를 선택 합니다. **관리 검토 관리자**, **사례 관리**및 **검토**에 대 한 확인란을 선택 하 고 **추가** 및 **완료**를 선택 합니다.  Select **Next**. 
 
-    ![통신 준수 필수 역할 그룹](media/communication-compliance-role-groups.png)
+    ![통신 준수 필수 역할 그룹](../media/communication-compliance-role-groups.png)
 
 6. **구성원 선택을** 선택 하 고 **추가**를 선택 합니다. 정책을 만들 모든 사용자 및 그룹에 대 한 확인란을 선택 하 고 정책 일치가 포함 된 메시지를 관리 한 다음 **추가** 및 **완료**를 선택 합니다.  Select **Next**. 
 

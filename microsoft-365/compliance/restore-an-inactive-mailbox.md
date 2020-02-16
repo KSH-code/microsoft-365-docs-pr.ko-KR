@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 97e06a7a-ef9a-4ce8-baea-18b9e20449a3
 description: 새 직원 또는 다른 사용자가 Office 365에서 비활성 사서함의 콘텐츠에 액세스 해야 하는 경우 비활성 사서함의 내용을 기존 사서함으로 복원 하거나 병합할 수 있습니다.
-ms.openlocfilehash: 7a12d34c175340a51ddaf39cdfffc945a0add203
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 1fdf86c17d557ef27373001cb63f710168269a19
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601635"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42081610"
 ---
 # <a name="restore-an-inactive-mailbox-in-office-365"></a>Office 365에서 비활성 사서함 복원
 
@@ -125,8 +125,8 @@ ms.locfileid: "41601635"
 
     **TargetRootFolder 매개 변수가 사용 되지 않는 경우 대상 사서함의 폴더 계층 구조**
 
-    ![TargetRootFolder 매개 변수가 사용되지 않는 경우의 스크린샷](media/76a759af-f483-4d1c-8cc7-243435b5562e.png)
+    ![TargetRootFolder 매개 변수가 사용되지 않는 경우의 스크린샷](../media/76a759af-f483-4d1c-8cc7-243435b5562e.png)
   
     **TargetRootFolder 매개 변수를 사용 하는 경우 대상 사서함의 폴더 계층 구조**
 
-    ![TargetRootFolder 매개 변수가 사용된 경우의 스크린샷](media/300da592-7323-48db-b8a4-07012259d113.png)
+    ![TargetRootFolder 매개 변수가 사용된 경우의 스크린샷](../media/300da592-7323-48db-b8a4-07012259d113.png)
