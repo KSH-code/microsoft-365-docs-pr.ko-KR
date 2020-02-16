@@ -14,12 +14,12 @@ ms.collection: Ent_O365
 ms.custom: Ent_Solutions
 ms.assetid: 3033614b-e23b-4f68-9701-f62525eafaab
 description: '요약: 다음 단계별 지침을 사용 하 여 격리 된 SharePoint Online 팀 사이트를 새로 배포 합니다.'
-ms.openlocfilehash: c49b8d2d0c69f76f284061e21c8be31ee2204a54
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 39cf33ce3314e2eb0cd313ff0382f50d7cb8487a
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41599525"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42088808"
 ---
 # <a name="deploy-an-isolated-sharepoint-online-team-site"></a>격리된 SharePoint Online 팀 사이트 배포
 
@@ -89,7 +89,7 @@ Azure AD에서 다음 액세스 그룹을 만들어야 합니다.
   
 다음은 세 개의 사이트 액세스 그룹이 포함 된 결과 구성입니다.
   
-![격리 된 SharePoint Online 사이트 배포에 대 한 세 가지 액세스 그룹](../media/c2557f61-478b-4494-95e9-d79fe5909e8b.png)
+![격리 된 SharePoint Online 사이트 배포에 대 한 세 가지 액세스 그룹](../../media/c2557f61-478b-4494-95e9-d79fe5909e8b.png)
   
 ### <a name="step-5-add-the-user-accounts-to-the-access-groups"></a>5단계. 액세스 그룹에 사용자 계정 추가
 
@@ -151,7 +151,7 @@ Get-AzureADGroupMember -ObjectId (Get-AzureADGroup | Where { $_.DisplayName -eq 
 
 다음은 사용자 계정이 나 그룹으로 채워진 3 개의 사이트 액세스 그룹이 포함 된 결과 구성입니다.
   
-![세 개의 액세스 그룹은 사용자 계정으로 채워집니다.](../media/2320107c-dad6-4c8f-94e5-f6427c125e71.png)
+![세 개의 액세스 그룹은 사용자 계정으로 채워집니다.](../../media/2320107c-dad6-4c8f-94e5-f6427c125e71.png)
   
 ## <a name="phase-2-create-and-configure-the-isolated-team-site"></a>2 단계: 격리 된 팀 사이트 만들기 및 구성
 
@@ -221,7 +221,7 @@ Get-AzureADGroupMember -ObjectId (Get-AzureADGroup | Where { $_.DisplayName -eq 
     
 다음은 사용자 계정 또는 Azure AD 그룹으로 채워지는 세 개의 액세스 그룹을 사용 하도록 구성 된 사이트에 대 한 세 가지 SharePoint 그룹의 구성 결과입니다.
   
-![액세스 그룹과 사용자 계정을 사용 하는 격리 된 SharePoint Online 사이트의 최종 구성](../media/e7618971-06ab-447b-90ff-d8be3790fe63.png)
+![액세스 그룹과 사용자 계정을 사용 하는 격리 된 SharePoint Online 사이트의 최종 구성](../../media/e7618971-06ab-447b-90ff-d8be3790fe63.png)
   
 액세스 그룹 중 하나의 그룹 구성원 자격을 통해 사이트의 구성원은 이제 사이트의 리소스를 사용 하 여 공동 작업을 수행할 수 있습니다.
   

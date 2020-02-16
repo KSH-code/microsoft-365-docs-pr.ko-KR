@@ -13,12 +13,12 @@ search.appverid:
 - MET150
 ms.assetid: c29f75e5-c16e-409e-a123-430691e38276
 description: 관리자는 메일 흐름 인텔리전스 라고도 하는 Office 365의 커넥터를 사용 하 여 메시지 배달과 관련 된 오류 코드에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: ea4fb56f0e303d243af02edf01e5d85b957a6368
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 849493cefecb3344eaf7b6db73be3930138c236c
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41599055"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42088657"
 ---
 # <a name="mail-flow-intelligence-in-office-365"></a>Office 365의 메일 흐름 인텔리전스
 
@@ -72,9 +72,9 @@ ms.locfileid: "41599055"
 
     2. **From** 값 **Office 365** 과 **To** 값이 포함 된 커넥터를 선택 하 고 **조직의 전자 메일 서버** 를 선택한 후 다음 단계 중 하나를 수행 합니다.
 
-       - **삭제** ![아이콘 제거를 클릭 하 여 커넥터를 삭제 합니다.](../media/adf01106-cc79-475c-8673-065371c1897b.gif)
+       - **삭제** ![아이콘 제거를 클릭 하 여 커넥터를 삭제 합니다.](../../media/adf01106-cc79-475c-8673-065371c1897b.gif)
 
-       - 편집 아이콘](../media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif) **편집** ![및 선택 취소를 클릭 하 여 커넥터를 사용 하지 **않도록 설정 합니다.**
+       - 편집 아이콘](../../media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif) **편집** ![및 선택 취소를 클릭 하 여 커넥터를 사용 하지 **않도록 설정 합니다.**
 
   - 온-프레미스 전자 메일 환경과 연결 된 Office 365의 허용 도메인을 **내부 중계** 에서 **신뢰할**수 있는 것으로 변경 합니다. 자세한 내용은 [Exchange Online에서 허용 도메인 관리](https://docs.microsoft.com/exchange/mail-flow-best-practices/manage-accepted-domains/manage-accepted-domains)를 참조 하세요.
 

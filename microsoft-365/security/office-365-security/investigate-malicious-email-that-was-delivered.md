@@ -17,12 +17,12 @@ ms.assetid: 8f54cd33-4af7-4d1b-b800-68f8818e5b2a
 ms.collection:
 - M365-security-compliance
 description: 위협 조사 및 응답 기능을 사용 하 여 악성 전자 메일을 찾고 조사 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 2f61860178de78302d6fb94309ff01127ac5ce33
-ms.sourcegitcommit: 0f09f54f43924d1fcd2fdcfcbf04c53519b92a7b
+ms.openlocfilehash: 5fe9e06a582d72b46c4f90f13aee283050a06253
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "41784739"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42088727"
 ---
 # <a name="investigate-and-remediate-malicious-email-that-was-delivered-in-office-365"></a>Office 365에서 제공 된 악성 전자 메일 조사 및 재구성
 
@@ -61,13 +61,13 @@ ms.locfileid: "41784739"
 
 2. 왼쪽 탐색 빠른 실행에서 **위협 관리** \> **탐색기**를 선택 합니다.
 
-    ![배달 작업 및 배달 위치 필드가 있는 탐색기입니다.](../media/ThreatExFields.PNG)
+    ![배달 작업 및 배달 위치 필드가 있는 탐색기입니다.](../../media/ThreatExFields.PNG)
 
     <!-- You may notice the new **Special actions** column. This feature is aimed at telling admins the outcome of processing an email. The **Special actions** column can be accessed in the same place as **Delivery action** and **Delivery location**. Special actions might be updated at the end of Threat Explorer's email timeline, which is a new feature aimed at making the hunting experience better for admins.-->
 
 3. **위협 탐색기의 보기**: **보기** 메뉴에서 **모든 전자 메일**을 선택 합니다.
 
-    ![위협 탐색기 보기 메뉴 및 전자 메일-맬웨어, 피싱, 전송 및 모든 전자 메일 옵션 (콘텐츠-맬웨어)도 가능 합니다.](../media/tp-InvestigateMalEmail-viewmenu.png)
+    ![위협 탐색기 보기 메뉴 및 전자 메일-맬웨어, 피싱, 전송 및 모든 전자 메일 옵션 (콘텐츠-맬웨어)도 가능 합니다.](../../media/tp-InvestigateMalEmail-viewmenu.png)
 
     *맬웨어* 보기는 현재 기본값으로, 맬웨어 위협이 검색 되는 전자 메일을 캡처합니다. *피싱* 보기는 피싱에 대해 동일한 방식으로 작동 합니다.
 
@@ -86,11 +86,11 @@ ms.locfileid: "41784739"
 
    고급 필터링은 검색 기능에 매우 유용 합니다. *받는 사람*, *보낸* 사람 및 *보낸 사람 도메인* 에 부울 **NOT** filter가 도입 되어 관리자는 값을 제외 하 여 조사할 수 있습니다. 이 옵션은 selection 매개 변수에 *없음이 포함*됩니다. **NOT** 관리자는 알림 사서함, 기본 회신 사서함을 조사에서 제외 하는 것을 허용 하지 않으며, 관리자가 특정 주체 (subject = "주의")를 검색 하 여 받는 사람을 *defaultMail@contoso.com*으로 설정할 수 없는 경우에 유용 합니다. 이 값은 정확한 검색입니다.
 
-   ![받는 사람-'에는 어떤 고급 필터도 포함 되어 있지 않습니다.](../media/tp-InvestigateMalEmail-AdvancedFilter.png)
+   ![받는 사람-'에는 어떤 고급 필터도 포함 되어 있지 않습니다.](../../media/tp-InvestigateMalEmail-AdvancedFilter.png)
 
    *시간별로 필터링* 하면 조직의 보안 팀에서 빠르게 드릴 다운 하는 데 도움이 됩니다. 허용 되는 가장 짧은 시간은 30 분입니다. 시간-프레임 (예: 3 시간 전에 발생)에 의해 의심 스러운 작업의 범위를 좁힐 수 있으면 컨텍스트가 제한 되 고 문제를 파악 하는 데 도움이 됩니다.
 
-  ![시간을 기준으로 필터링 옵션을 선택 하면 데이터 보안 팀이 처리 해야 하는 시간이 단축 되 고 가장 짧은 기간이 30 분으로 제한 됩니다.](../media/tp-InvestigateMalEmail-FilterbyHours.png)
+  ![시간을 기준으로 필터링 옵션을 선택 하면 데이터 보안 팀이 처리 해야 하는 시간이 단축 되 고 가장 짧은 기간이 30 분으로 제한 됩니다.](../../media/tp-InvestigateMalEmail-FilterbyHours.png)
 
 6. **위협 탐색기의 필드**: 위협 탐색기는 *배달 작업*, *배달 위치*, *특수 작업*, *방향성*, *오버라이드*및 *URL 위협과*같은 많은 보안 관련 메일 정보를 제공 합니다. 또한 조직의 보안 팀이 보다 높은 확신을 조사할 수 있습니다. 
 
@@ -189,31 +189,31 @@ ms.locfileid: "41784739"
 
 4. In the **View** menu, choose **All email**.
 
-    ![Use the View menu to choose between Email and Content reports](../media/d39013ff-93b6-42f6-bee5-628895c251c2.png)
+    ![Use the View menu to choose between Email and Content reports](../../media/d39013ff-93b6-42f6-bee5-628895c251c2.png)
   
     Notice the labels that appear in the report, such as **Delivered**, **Unknown**, or **Delivered to junk**.
 
-    ![Threat Explorer showing data for all email](../media/208826ed-a85e-446f-b276-b5fdc312fbcb.png)
+    ![Threat Explorer showing data for all email](../../media/208826ed-a85e-446f-b276-b5fdc312fbcb.png)
     
     (Depending on the actions that were taken on email messages for your organization, you might see other labels, such as **Blocked** or **Replaced**.)
     
 5. In the report, choose **Delivered** to view only email messages that ended up in users' inboxes.
 
-    ![Clicking "Delivered to junk" removes that data from view](../media/e6fb2e47-461e-4f6f-8c65-c331bd858758.png)
+    ![Clicking "Delivered to junk" removes that data from view](../../media/e6fb2e47-461e-4f6f-8c65-c331bd858758.png)
   
 6. Below the chart, review the **Email** list below the chart.
 
-    ![Below the chart, view a list of email messages that were detected](../media/dfb60590-1236-499d-97da-86c68621e2bc.png)
+    ![Below the chart, view a list of email messages that were detected](../../media/dfb60590-1236-499d-97da-86c68621e2bc.png)
   
 7. In the list, choose an item to view more details about that email message. For example, you can click the subject line to view information about the sender, recipients, attachments, and other similar email messages.
 
-    ![You can view additional information about an item](../media/5a5707c3-d62a-4610-ae7b-900fff8708b2.png)
+    ![You can view additional information about an item](../../media/5a5707c3-d62a-4610-ae7b-900fff8708b2.png)
   
 8. After viewing information about email messages, select one or more items in the list to activate **+ Actions**.
     
 9. Use the **+ Actions** list to apply an action, such as **Move to deleted** items. This deletes the selected messages from the recipients' mailboxes.
 
-    ![When you select one or more email messages, you can choose from several available actions](../media/ef12e10c-60a7-4f66-8f76-68d77ae26de1.png)
+    ![When you select one or more email messages, you can choose from several available actions](../../media/ef12e10c-60a7-4f66-8f76-68d77ae26de1.png)
 
 ## Dealing with suspicious email messages
 
@@ -243,7 +243,7 @@ To access your message header and email download options, follow these steps:
 
     This opens the flyout, where both header preview and email download links are positioned.
 
-    ![Threat Explorer flyout with download and preview links on the page.](../media/ThreatExplorerDownloadandPreview.PNG)
+    ![Threat Explorer flyout with download and preview links on the page.](../../media/ThreatExplorerDownloadandPreview.PNG)
 
 > [!IMPORTANT]
 > This capability doesn't show up for email messages that were never found in a user's mailbox, which can happen if an email was dropped or its delivery failed. In cases where email messages were deleted from users' mailboxes, admins see a "Mail not found" error message.

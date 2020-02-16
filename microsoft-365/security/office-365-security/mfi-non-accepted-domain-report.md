@@ -11,12 +11,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: ''
 description: 관리자는 보안 & 준수 센터의 메일 흐름 대시보드에서 허용 되지 않는 도메인 보고서에 대 한 정보를 확인할 수 있습니다.
-ms.openlocfilehash: 7872f454f10c8f8b7bb2f79fd62671e200463f7b
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 4b4573d6a43c811e919f3f5c6f281c8f31e61d6a
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41599215"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42088481"
 ---
 # <a name="non-accepted-domain-report"></a>비허용 도메인 보고서
 
@@ -24,15 +24,15 @@ ms.locfileid: "41599215"
 
 이러한 메시지가 악성 임을 증명 하는 데이터가 있는 경우 Office 365에서 이러한 메시지를 제한할 수 있습니다. 따라서 문제를 파악 하 고 해결 하는 것이 중요 합니다.
 
-![보안 & 준수 센터의 메일 흐름 대시보드에 허용 되지 않는 도메인 보고서가 있습니다.](../media/non-accepted-domain-report-selected.png)
+![보안 & 준수 센터의 메일 흐름 대시보드에 허용 되지 않는 도메인 보고서가 있습니다.](../../media/non-accepted-domain-report-selected.png)
 
 위젯을 클릭 하면 전체 보고서로 이동 합니다. 전체 보고서에서 **세부 정보 보기** 를 클릭 하 여 다음 다이어그램과 같이 표에서 정보를 볼 수 있습니다.
 
-![허용 되지 않는 도메인 보고서의 정보 테이블 보기](../media/non-accepted-domain-report-view-details.png)
+![허용 되지 않는 도메인 보고서의 정보 테이블 보기](../../media/non-accepted-domain-report-view-details.png)
 
 테이블에서 행을 선택 하면 플라이 아웃을 통해 더 많은 세부 정보를 볼 수 있습니다. **예제 메시지 보기** 를 클릭 하 여 식별 된 메시지의 일부를 볼 수 있습니다.
 
-![허용 되지 않는 도메인 보고서의 세부 정보 테이블에서 행 선택](../media/non-accepted-domain-report-select-row-in-table.png)
+![허용 되지 않는 도메인 보고서의 세부 정보 테이블에서 행 선택](../../media/non-accepted-domain-report-select-row-in-table.png)
 
 ## <a name="see-also"></a>참고 항목
 

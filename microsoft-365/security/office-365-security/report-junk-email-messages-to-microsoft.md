@@ -16,12 +16,12 @@ ms.assetid: c31406ea-2979-4fac-9288-f835269b9d2f
 ms.collection:
 - M365-security-compliance
 description: Microsoft Office Outlook용 Microsoft 정크 메일 보고 추가 기능은 정크 메일 메시지를 보고하는 다양한 방법을 제공합니다.
-ms.openlocfilehash: a2a427f13c329c4c72f718bb19ecc0dce06f8f91
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 3f8d07a2499fa3c8690393aa444e018b83c632b1
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41598575"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42088261"
 ---
 # <a name="report-junk-email-messages-to-microsoft"></a>Microsoft에 정크 메일 메시지 보고
 
@@ -47,10 +47,10 @@ Microsoft Office Outlook용 Microsoft 정크 메일 보고 추가 기능은 정�
 1. 정크로 보고할 메시지를 마우스 오른쪽 단추로 클릭합니다.
 
 2. **정크**를 선택하고 **정크 보고**를 클릭합니다.
-    ![받은 편지함에서 정크 메시지 보고](../media/EOP-Outlook-Junk-Reporting-Tool-3.jpg)
+    ![받은 편지함에서 정크 메시지 보고](../../media/EOP-Outlook-Junk-Reporting-Tool-3.jpg)
 
 3. **Microsoft 정크 메일 보고 추가 기능** 대화 상자가 열립니다. 선택한 메시지를 정크로 제출하려면 **예**를 클릭합니다.
-    ![정크 메일로 보고 확인](../media/EOP-Outlook-Junk-Reporting-Tool-2.jpg)
+    ![정크 메일로 보고 확인](../../media/EOP-Outlook-Junk-Reporting-Tool-2.jpg)
 
     > [!NOTE]
     > 정크 메시지 전송 시 이 확인 메시지를 표시하지 않으려면 **이 메시지를 다시 표시 안 함**을 선택합니다.
@@ -59,10 +59,10 @@ Microsoft Office Outlook용 Microsoft 정크 메일 보고 추가 기능은 정�
 
 ### <a name="to-report-a-junk-email-message-from-within-an-opened-message"></a>열린 메시지 내에서 정크 메일 메시지를 보고하려면
 
-1. 열린 메시지 내에서 메시지 리본 메뉴의 **정크 보고** 단추를 클릭합니다. 예를 \> **들어 정크 메일** **보고서 정크** ![메일로 메시지 내에서 정크 메일이 전송 됩니다.](../media/EOP-Outlook-Junk-Reporting-Tool-4.jpg)
+1. 열린 메시지 내에서 메시지 리본 메뉴의 **정크 보고** 단추를 클릭합니다. 예를 \> **들어 정크 메일** **보고서 정크** ![메일로 메시지 내에서 정크 메일이 전송 됩니다.](../../media/EOP-Outlook-Junk-Reporting-Tool-4.jpg)
 
 2. **Microsoft 정크 메일 보고 추가 기능** 대화 상자가 열립니다. 선택한 메시지를 정크로 제출하려면 **예**를 클릭합니다.
-    ![정크 메일로 보고 확인](../media/EOP-Outlook-Junk-Reporting-Tool-2.jpg)
+    ![정크 메일로 보고 확인](../../media/EOP-Outlook-Junk-Reporting-Tool-2.jpg)
 
     > [!NOTE]
     > 정크 메시지 전송 시 이 확인 메시지를 표시하지 않으려면 **이 메시지를 다시 표시 안 함**을 선택합니다.

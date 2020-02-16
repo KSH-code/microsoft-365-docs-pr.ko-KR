@@ -16,12 +16,12 @@ ms.assetid: 3387bfc3-028a-42f4-8133-4cbecfaab812
 ms.collection:
 - M365-security-compliance
 description: Office 365 위협 조사 및 응답 기능을 통해 조직이 침입 및 위협을 감지 하 고 위협 으로부터 신속 하 게 완화 및 복구할 수 있는 방법을 알아봅니다.
-ms.openlocfilehash: 2f709c555974444b8f2a09d87705043d65240090
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 6734903198fa29cdd7ac4295feb6313479ecab50
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41599105"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42088681"
 ---
 # <a name="keep-your-organization-safe-with-office-365-threat-investigation-and-response-capabilities"></a>Office 365 위협 조사 및 응답 기능을 사용 하 여 조직을 안전 하 게 유지
 
@@ -35,7 +35,7 @@ Office [365 위협 조사 및 응답](office-365-ti.md) 기능은 Office 365 E5 
 
 또한 Explorer는 관리자가 사용자와 메일 간의 관계를 탐색 하도록 도와줍니다. 손상 된 특정 메일 확인 이를 검색 하 여 사용자가 메일을 받은 사람을 확인 한 다음 이벤트 시리즈를 따르고 해당 사용자가 수행 하는 작업을 확인 합니다.
 
-![맬웨어 패밀리가 Office 365, 색으로 구분 된 위협 탐색기 스크린샷](../media/591338dd-252a-437d-b5f2-87aa42e74b0c.png)
+![맬웨어 패밀리가 Office 365, 색으로 구분 된 위협 탐색기 스크린샷](../../media/591338dd-252a-437d-b5f2-87aa42e74b0c.png)
 
 ## <a name="quickly-mitigate-and-recover-from-threats"></a>위협 으로부터 신속 하 게 완화 및 복구
 
@@ -43,7 +43,7 @@ Office [365 위협 조사 및 응답](office-365-ti.md) 기능은 Office 365 E5 
 
  **업데이트:** 인시던트 프레임 워크에서 직접 전자 메일 메시지를 삭제 (소프트 또는 영구 삭제) 하는 기능이 추가 되었습니다. 이전 관리자는 메일을 사용자의 정크 폴더로만 이동할 수 있으며, 사용자는 해당 항목을 복구할 수 있습니다. 새로 릴리스된 삭제 기능을 사용 하 여 악성 메일 또는 원치 않는 메일이 영구적으로 제거 되도록 할 수 있습니다.
 
-![인시던트 업데이트 관리의 전자 메일 목록 스크린샷](../media/9d8452d3-d8d2-4b26-81f9-76396e08dd17.png)
+![인시던트 업데이트 관리의 전자 메일 목록 스크린샷](../../media/9d8452d3-d8d2-4b26-81f9-76396e08dd17.png)
 
 ## <a name="leverage-the-threat-telemetry-of-microsoft"></a>Microsoft의 위협 원격 분석 활용
 

@@ -17,12 +17,12 @@ ms.assetid: e3e95f68-36e9-4256-bcca-78fe7fe5ea5d
 ms.collection:
 - M365-security-compliance
 description: 보안 &amp; 및 준수 센터의 보고서 및 insights avialable에 대 한 개요를 확인 하세요.
-ms.openlocfilehash: edbc4cd53b5cd830996220c875a1b48565a96c13
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 3c205350ef57514c434ac75fae21c104a2c1706e
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41598565"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42088147"
 ---
 # <a name="smart-reports-and-insights-in-the-office-365-security-amp-compliance-center"></a>Office 365 보안 &amp; 및 준수 센터의 Smart reports 및 정보
 
@@ -32,7 +32,7 @@ ms.locfileid: "41598565"
 
 Office 365 보안 &amp; 및 준수 센터에서 사용할 수 있는 모니터링 기능에는 보안 공격이 나 향상 된 수상한 작업과 같은 높은 우선 순위의 문제에 중점을 둘 수 있도록 하는 스마트 보고서 및 통찰력이 포함 되어 있습니다. 대시보드의 경우 smart reports 및 insights는 다음 이미지와 유사 합니다.
   
-![보안 &amp; 및 준수 센터에서 보고서 \> 대시보드를 선택 합니다.](../media/2a668c3d-3fa3-4e37-8149-46989b33ae8c.png)
+![보안 &amp; 및 준수 센터에서 보고서 \> 대시보드를 선택 합니다.](../../media/2a668c3d-3fa3-4e37-8149-46989b33ae8c.png)
   
 문제 영역을 강조 표시 하는 것 외에도 smart reports 및 insights에는 데이터를 보고 탐색 하 고 빠른 작업도 수행할 수 있는 권장 사항과 링크가 포함 되어 있습니다. 예를 들어 조직에서 갑자기 최종 사용자가 스팸으로 표시 하는 전자 메일 메시지의 수가 많으면 스팸 방지 정책을 다시 방문 하 여 적절 한 수준의 보호가 적절 한지 확인 하는 것이 좋습니다.
   
