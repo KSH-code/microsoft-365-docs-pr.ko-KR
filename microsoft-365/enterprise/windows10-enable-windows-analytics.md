@@ -12,16 +12,16 @@ ms.date: 06/01/2018
 f1.keywords:
 - NOCSH
 ms.author: greglin
-ms.openlocfilehash: 964756a1fadba89f644a0d04c1d35d2945b78c6c
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 9a53759eafbedc6b48d2a6266b4b52777112941d
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602875"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42085567"
 ---
 # <a name="step-4-monitor-device-health-and-compliance"></a>4단계: 장치 상태 및 준수 모니터링
 
-![3단계: Windows 10 Enterprise](./media/deploy-foundation-infrastructure/win10enterprise_icon-small.png)
+![3단계: Windows 10 Enterprise](../media/deploy-foundation-infrastructure/win10enterprise_icon-small.png)
 
 Windows Analytics는 진단 데이터를 사용 하 여 사용자 환경에서 Windows 10 장치의 운영 효율성과 상태를 심층적으로 파악할 수 있도록 다양 한 작업을 수행할 수 있는 정보를 제공 합니다.
 
@@ -35,4 +35,4 @@ Windows Analytics의 장치 상태 기능은 최종 사용자에 게 영향을 �
 
 |||
 |:-------|:-----|
-|![5단계](./media/stepnumbers/Step5.png)| [Windows 10 Enterprise 보안 기능 배포](windows10-enable-security-features.md) |
+|![5단계](../media/stepnumbers/Step5.png)| [Windows 10 Enterprise 보안 기능 배포](windows10-enable-security-features.md) |

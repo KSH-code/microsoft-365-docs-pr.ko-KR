@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 ms.assetid: c123694a-1efb-459e-a8d5-2187975373dc
 description: Microsoft 365 Business에 제공되는 보안 기능에 대해 알아봅니다.
-ms.openlocfilehash: 0e1823374ec1843b6caa3f080393ca013302bf72
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: e5f67d70c5a8f22e95b60a229d68ae12574d0036
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41593428"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42064808"
 ---
 # <a name="microsoft-365-business-security-and-compliance-features"></a>Microsoft 365 Business 보안 및 규정 준수 기능
 
@@ -35,7 +35,7 @@ Microsoft 365 Business는 PC, 휴대폰 및 태블릿의 데이터를 보호하�
     
 ## <a name="microsoft-365-business-admin-center-security-features"></a>Microsoft 365 Business 관리 센터 보안 기능
 
-[![관리 센터가 변경되고 있음을 알리는 레이블이며 aka.ms/aboutM365preview에서 자세한 내용을 확인할 수 있습니다.](media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
+[![관리 센터가 변경되고 있음을 알리는 레이블이며 aka.ms/aboutM365preview에서 자세한 내용을 확인할 수 있습니다.](../media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
 
 관리 센터에서 이러한 기능을 설정 하거나 해제 하는 간단한 방법을 제공 하는 다양 한 Microsoft 365 Business 보안 기능을 관리할 수 있습니다. 관리 센터에서는 다음을 수행할 수 있습니다.
   
@@ -123,6 +123,6 @@ Microsoft 365 비즈니스 구독에는 준수 및 규정 표준을 유지 관�
     
 2. 왼쪽 탐색 창에서 **관리 센터**를 찾아 확장합니다. 
     
-    ![Microsoft 365 관리 센터의 왼쪽 탐색 창에서 관리 센터를 선택합니다.](media/fa4484f8-c637-45fd-a7bd-bdb3abfd6c03.png)
+    ![Microsoft 365 관리 센터의 왼쪽 탐색 창에서 관리 센터를 선택합니다.](../media/fa4484f8-c637-45fd-a7bd-bdb3abfd6c03.png)
   
 3. **보안 및 준수**를 선택하여 보안 및 준수 센터로 이동합니다.

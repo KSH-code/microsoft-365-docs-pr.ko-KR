@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: Microsoft 공인 솔루션 공급자 (파트너)와 협력 하 여 조직 또는 학교에 대 한 제품 및 서비스를 구매 하 고 관리 하는 방법에 대해 알아봅니다.
 keywords: 파트너, 솔루션 공급자
-ms.openlocfilehash: 43965e6a245384043fb7607a37d8a831f4e0d752
-ms.sourcegitcommit: e89f4ce9a472c9c6c066d5c632e8e7b6afcc2066
+ms.openlocfilehash: ad51ee23b780de33aaaca6ad651816dba89c7bc9
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41712046"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42080365"
 ---
 # <a name="manage-partner-relationships"></a>파트너 관계 관리
 

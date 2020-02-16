@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: 결제를 처리 하려면 먼저 온라인 구매를 수행 하는 사용자의 id를 확인 하는 데 유럽 경제 분야의 31 개국 년 9 월 2019 14 일에 시작 하는 것이 필요 합니다.
 keywords: 결제 서비스 지시어 2, 강력한 고객 인증, 다단계 인증
-ms.openlocfilehash: f59808d3735f10b57ed5c0cd279b6703b24a44a4
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 53de6ce3158760299a3ed2a7bc840919babf20bd
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41594709"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42080395"
 ---
 # <a name="payment-services-directive-2-and-strong-customer-authentication-for-commercial-customers"></a>상업용 고객을 위한 결제 서비스 지시어 2 및 강력한 고객 인증
 

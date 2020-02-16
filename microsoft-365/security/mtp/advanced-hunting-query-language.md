@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 586b887c9c5c1e4c19623c89dd08ed62ba0d4bb2
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: acc515d046b1ebd2ff7c5dd9c52b363fe99f0b9e
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600345"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42087472"
 ---
 # <a name="learn-the-advanced-hunting-query-language"></a>고급 헌팅 쿼리 언어 알아보기
 
@@ -53,7 +53,7 @@ DeviceProcessEvents
 
 이는 고급 헌팅에서 표시되는 모습입니다.
 
-![Microsoft Defender ATP 고급 헌팅 쿼리 이미지](../images/advanced-hunting-query-example.png)
+![Microsoft Defender ATP 고급 헌팅 쿼리 이미지](../../media/advanced-hunting-query-example.png)
 
 쿼리는 내용을 설명하는 짧은 메모로 시작합니다. 이렇게 하면 나중에 쿼리를 저장하여 조직의 다른 사용자와 공유하도록 결정한 경우에 도움이 됩니다.
 
@@ -130,7 +130,7 @@ DeviceProcessEvents
 
 **시작** 섹션에서는 자주 사용하는 연산자를 사용하는 몇 가지 간단한 쿼리를 제공합니다. 이러한 쿼리를 실행하고 약간 수정해 보세요.
 
-![고급 헌팅 창 이미지](../images/advanced-hunting-get-started.png)
+![고급 헌팅 창 이미지](../../media/advanced-hunting-get-started.png)
 
 >[!NOTE]
 >기본 쿼리 샘플과는 별도로 특정 위협 헌팅 시나리오에 대한 [공유 쿼리](advanced-hunting-shared-queries.md)에 액세스할 수도 있습니다. 페이지의 왼쪽에 있는 공유 쿼리 또는 GitHub 쿼리 리포지토리를 탐색합니다.

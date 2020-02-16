@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Outlook을 사용 하 여 암호화 된 전자 메일을 보내는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 1a450a9891d47a136798432fdb919349fb82e097
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 559998326caedaf3352741ad9083940f79b1a614
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41594739"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42080463"
 ---
 # <a name="encrypt-or-label-your-sensitive-email"></a>중요 한 전자 메일 암호화 또는 레이블 지정
 
@@ -43,7 +43,7 @@ ms.locfileid: "41594739"
 - **암호화:** 전자 메일을 암호화 하 여 전자 메일의 정보에 대 한 개인 정보를 보호할 수 있습니다. 전자 메일 메시지를 암호화 하면 읽을 수 있는 일반 텍스트에서 스크램블 된 cypher 텍스트로 변환 됩니다. 메시지를 암호화 하는 데 사용 되는 공개 키와 일치 하는 개인 키가 있는 받는 사람만 메시지를 읽을 수 있습니다. 그러나 해당 하는 개인 키가 없는 받는 사람은 해독이 되지 않은 텍스트를 보게 됩니다. 관리자는 특정 조건을 충족 하는 메시지를 자동으로 암호화 하는 규칙을 정의할 수 있습니다. 예를 들어 관리자는 조직 외부에서 전송 된 모든 메시지를 암호화 하는 규칙 또는 특정 단어나 구를 언급 하는 모든 메시지를 만들 수 있습니다. 모든 암호화 규칙이 자동으로 적용 됩니다.
 - **민감도 레이블:** 또한 캠페인은 사용자가 캠페인의 정보 보호 정책을 준수 하도록 파일 및 전자 메일에 적용할 수 있는 민감도 레이블을 설정할 수도 있습니다. 레이블을 설정 하면 전자 메일 (예: 메시지에 머리글 표시)을 사용 하 여 우편물 레이블을 계속 사용할 수 있습니다.
 
-![레이블 및 암호화에 대 한 설명선이 포함 된 전자 메일 다이어그램](media/m365-campaign-email-encrypt.png)
+![레이블 및 암호화에 대 한 설명선이 포함 된 전자 메일 다이어그램](../media/m365-campaign-email-encrypt.png)
 
 
 ## <a name="set-it-up"></a>설정하기

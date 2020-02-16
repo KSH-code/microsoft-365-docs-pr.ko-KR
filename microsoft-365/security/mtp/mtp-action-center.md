@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 ms.topic: conceptual
 ms.custom: autoir
-ms.openlocfilehash: a0b86240e09838ff290bb9c3b4b53f5cce3e2995
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 5f31c9cb5272248ae8250f73d054ca599b83edc2
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600125"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42083791"
 ---
 # <a name="go-to-the-action-center-to-view-remediation-actions"></a>알림 센터로 이동하여 조치 작업을 봅니다.
 
@@ -34,7 +34,7 @@ ms.locfileid: "41600125"
 
 ## <a name="a-single-pane-of-glass-experience"></a>"단일 창 방식" 환경
 
-![알림 센터 ](../images/air-actioncenter.png)
+![알림 센터 ](../../media/air-actioncenter.png)
 
 알림 센터를 사용하여 조직의 장치 및 사서함 전체에서 현재 및 과거 조사의 결과를 확인할 수 있습니다. 위협 유형과 [결과 판정](mtp-autoir-results.md#remediation-actions-following-automated-investigation)에 따라 수정 작업이 자동으로 수행되거나 조직의 보안 운영 팀의 승인에 따라 발생합니다. 모든 수정 작업이 승인이 보류 중이든 이미 승인되었든 알림 센터에 통합되어 있습니다. 
 
@@ -65,9 +65,9 @@ ms.locfileid: "41600125"
 
     - **기록** 탭에는 자동으로 수행된 과거 조사와 수정 작업이 표시됩니다. 지난 일, 주, 월 또는 6개월에 대한 데이터를 볼 수 있습니다.
 
-4. 원하는 열만 표시하려면 **열 사용자 정의**를 선택합니다.<br/>![Microsoft Threat Protection의 알림 센터](../images/mtp-action-center.png)
+4. 원하는 열만 표시하려면 **열 사용자 정의**를 선택합니다.<br/>![Microsoft Threat Protection의 알림 센터](../../media/mtp-action-center.png)
 
-5. 목록에서 항목을 선택하여 조사에 대한 자세한 정보를 확인합니다. 조사 세부 정보 보기가 열립니다.<br/>![조사 세부 정보](../images/mtp-air-investdetails.png)
+5. 목록에서 항목을 선택하여 조사에 대한 자세한 정보를 확인합니다. 조사 세부 정보 보기가 열립니다.<br/>![조사 세부 정보](../../media/mtp-air-investdetails.png)
 
     - 조사가 전자 메일 콘텐츠와 관련된 경우(예: 엔터티가 사서함인 경우) 조사 세부 정보는 Office 365 보안 및 준수 센터([https://protection.office.com/threatinvestigation](https://protection.office.com/threatinvestigation))에서 열립니다. 
 

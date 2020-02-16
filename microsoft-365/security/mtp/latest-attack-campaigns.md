@@ -14,12 +14,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: a3ae07818075b61e4c2c1695275614dafd66f738
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: fcb58c2c002878fe42c723e0c2c75aa269ebc368
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600205"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42087557"
 ---
 # <a name="understand-the-latest-attack-campaigns-and-techniques-with-threat-analytics"></a>위협 분석을 사용한 최신 공격 캠페인 및 기술 이해 
 

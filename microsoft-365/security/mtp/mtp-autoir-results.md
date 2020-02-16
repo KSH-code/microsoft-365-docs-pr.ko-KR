@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 ms.topic: conceptual
 ms.custom: autoir
-ms.openlocfilehash: 208cbb49afc2f4520fa44a4ef283194bcaff22be
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 08aa1f0c252d931ab1abf078b1c0cfcf7d9b43a2
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600095"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42083763"
 ---
 # <a name="view-the-details-and-results-of-an-automated-investigation"></a>자동화 조사 세부정보 및 결과 보기
 
@@ -34,7 +34,7 @@ ms.locfileid: "41600095"
 
 Microsoft Threat Protection에서 자동 조사가 발생 하는 경우, 해당 조사에 대한 세부 정보는 자동화 검사 프로세스 중에 확인할 수 있습니다. [필수 권한이](mtp-action-center.md#required-permissions-for-action-center-tasks)있는 경우 조사 세부 정보 보기에서 해당 정보를 확인할 수 있습니다.  조사 세부정부 보기에서 최신 상태를 확인하거나 보류중인 작업을 승인할 수 있습니다. 
 
-![조사 세부정보](../images/mtp-air-investdetails.png)
+![조사 세부정보](../../media/mtp-air-investdetails.png)
 
 ## <a name="open-the-investigation-details-view"></a>조사 세부정보 보기 열기 
 
@@ -60,7 +60,7 @@ Microsoft Threat Protection에서 자동 조사가 발생 하는 경우, 해당 
 
 2. 탐색 창에서 **사건**을 선택합니다. 
 
-3. 목록에서 항목을 선택 하여 사건 세부정보 보기를 엽니다.<br/>![사건 세부 정보](../images/mtp-incidentdetails-tabs.png)
+3. 목록에서 항목을 선택 하여 사건 세부정보 보기를 엽니다.<br/>![사건 세부 정보](../../media/mtp-incidentdetails-tabs.png)
 
 4. **조사** 탭의 목록에서 조사를 선택 합니다.
 
@@ -68,7 +68,7 @@ Microsoft Threat Protection에서 자동 조사가 발생 하는 경우, 해당 
 
 조사 세부정보 보기를 사용 하여 과거, 현재 및 보류 중인 활동을 확인하고 조사합니다. 조사 세부정보 보기는 다음 이미지와 유사 합니다.
 
-![조사 세부정보](../images/mtp-air-investdetails.png)
+![조사 세부정보](../../media/mtp-air-investdetails.png)
 
 조사 세부정보 보기에서 아래 테이블에 설명되어 있는 것 처럼 **조사 그래프**, **알람**, **장치**, **항목**, **주요 발견 사항**, **대상**, **로그** 및 **보류 활동**을 확인할 수 있습니다. 
 

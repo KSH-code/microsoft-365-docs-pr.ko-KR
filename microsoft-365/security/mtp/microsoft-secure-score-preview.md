@@ -17,12 +17,12 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 3fe8a390e92e56a98d16a4cbc647a74b38c248ed
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 1039232750e52b3c03cbe7c8190498382c795708
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600195"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42087581"
 ---
 # <a name="microsoft-secure-score-preview"></a>Microsoft 보안 점수 (미리 보기)
 
@@ -79,7 +79,7 @@ Microsoft 보안 점수에 액세스할 수 있는 권한을 부여 하려면 Az
 * 서비스 관리자
 * 보안 읽기 권한자
 * 보안 운영자
-* 전역 독자
+* 전역 읽기 권한자
 
 ### <a name="graph-api"></a>Graph API
 
@@ -100,7 +100,7 @@ Microsoft 보안 점수에 액세스할 수 있는 권한을 부여 하려면 Az
 
 Microsoft 보안 점수 개요 페이지에서 이러한 그룹 간의 점수가 분할 되는 방식과 사용할 수 있는 지점을 볼 수 있습니다. 개요 페이지는 또한 전체 점수에 대 한 모든 보기, 벤치 마크 비교를 사용한 보안 점수의 역사적 추세 및 점수를 높이기 위해 수행할 수 있는 향상 작업의 우선 순위를 지정 하는 위치를 제공 합니다.
 
-![보안 점수 홈페이지](../media/secure-score/secure-score-homepage.png)
+![보안 점수 홈페이지](../../media/secure-score/secure-score-homepage.png)
 *그림 1: Microsoft 보안 점수 개요 페이지*
 
 ## <a name="take-action-to-improve-your-score"></a>점수를 개선 하기 위한 조치 수행
@@ -115,7 +115,7 @@ Microsoft 보안 점수 개요 페이지에서 이러한 그룹 간의 점수가
 
 특정 향상 작업을 선택 하면 전체 페이지 플라이 아웃이 나타납니다.  
 
-![향상 작업 플라이 아웃](../media/secure-score/secure-score-improvement-action.png)
+![향상 작업 플라이 아웃](../../media/secure-score/secure-score-improvement-action.png)
 예*그림 2: 개선 작업 플라이 아웃 예제*
 
 이 작업을 완료 하려면 몇 가지 옵션을 사용할 수 있습니다.

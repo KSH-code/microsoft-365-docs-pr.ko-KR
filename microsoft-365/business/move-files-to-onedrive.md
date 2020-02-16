@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 ms.assetid: eb8244aa-a302-481a-b2b5-d34e88b18ec7
 description: 파일을 OneDrive로 이동 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 0417325f93582ac5445cb739f9ca877a34f1d1c4
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 85ff7ad2ecab3646eeb196a380f85983b1403f7a
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41593662"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42065228"
 ---
 # <a name="move-files-to-onedrive-for-business"></a>비즈니스용 OneDrive로 파일 이동
 
@@ -44,9 +44,9 @@ ms.locfileid: "41593662"
   
 1. portal.office.com으로 이동하여 해당 사용자의 Microsoft 365 Business 자격 증명으로 로그인합니다.
     
-2. 앱 시작 관리자 ![The app launcher icon in Office 365](media/7502f4ec-3c9a-435d-a7b4-b9cda85189a7.png) 를 클릭하고 OneDrive로 이동합니다. 
+2. 앱 시작 관리자 ![The app launcher icon in Office 365](../media/7502f4ec-3c9a-435d-a7b4-b9cda85189a7.png) 를 클릭하고 OneDrive로 이동합니다. 
     
-3. 메뉴 모음에서 **업로드**![Upload](media/d9b963b8-10af-42e2-953d-360301b83d3c.png)를 선택하고 저장하려는 파일을 찾습니다. 
+3. 메뉴 모음에서 **업로드**![Upload](../media/d9b963b8-10af-42e2-953d-360301b83d3c.png)를 선택하고 저장하려는 파일을 찾습니다. 
     
 사용자 프로필과 중요 파일을 전송하려면 ForensiT과 같은 타사 도구를 사용할 수도 있습니다. 결과 파일도 비즈니스용 OneDrive에서 업로드해야 합니다.
   

@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Microsoft 365 Business에 대해 MFA를 요구 하 고 조건부 액세스 정책을 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: b65cccf9931da4701157f26ffece7a7c90689094
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 7898ded24bb66545b903ab98f3c7aa78d95860f1
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41594863"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42056423"
 ---
 # <a name="require-multi-factor-authentication-and-set-up-conditional-access-policies"></a>다단계 인증 필요 및 조건부 액세스 정책 설정
 
@@ -58,13 +58,13 @@ ms.locfileid: "41594863"
 2. 설정 페이지의 **고급 보안 설정** 카드에서 **보기** 를 선택 합니다.
 
 
-    ![더 안전 하 게 로그인 카드를 만듭니다.](media/setupmfa.png)
+    ![더 안전 하 게 로그인 카드를 만듭니다.](../media/setupmfa.png)
 3. 더 안전 하 게 로그인 하기 페이지에서 **시작**을 선택 합니다.
  
 4. 로그인 보안 강화 창에서 **관리자에 대 한 다단계 인증 필요** 옆의 확인란을 선택 하 고, **위험이 감지 되 면 사용자에 게 다단계 인증을 등록 하 고 액세스를 차단 하도록 요구**합니다.
     **사용자 찾기** 상자에서 MFA 요구 사항 으로부터 [응급](m365-campaigns-protect-admin-accounts.md#create-an-emergency-admin-account) 또는 "투명 효과" 관리자 계정을 제외 해야 합니다.
     
-    ![공동으로 보안 페이지를 강화 합니다.](media/requiremfa.png)
+    ![공동으로 보안 페이지를 강화 합니다.](../media/requiremfa.png)
 
 5. 페이지 아래쪽에서 **정책 만들기** 를 선택 합니다.
 
@@ -74,7 +74,7 @@ ms.locfileid: "41594863"
     
     기본 정책은 페이지에 나열 되며, [mfa](#require-mfa) **에 대 한 mfa** 필요의 단계를 완료 한 후에는 관리자 및 **최종 사용자 보호** 를 사용 하도록 설정 해야 한다는 것을 확인할 수 있습니다.
 
-    ![조건부 액세스에 대 한 기준 정책을 나열 하는 페이지입니다.](media/casettings.png)
+    ![조건부 액세스에 대 한 기준 정책을 나열 하는 페이지입니다.](../media/casettings.png)
 2. 각 정책에 대해 다음과 같은 구체적인 지침을 참조 하세요.
 
     - [관리자를 위해 MFA 필요](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-administrators)

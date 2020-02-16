@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 ms.topic: conceptual
 ms.custom: autoir
-ms.openlocfilehash: 77770904454228f595e1772e5f6927f943af8294
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: fa572e71ec5b6613e5db7751e0341ea94fb9bf5f
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600115"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42087545"
 ---
 # <a name="approve-or-reject-pending-actions-from-automated-investigations"></a>자동화된 검사에서 대기 중인 작업 승인 또는 거부
 
@@ -54,11 +54,11 @@ ms.locfileid: "41600115"
 
     - **조사 번호** 열에서 항목을 선택하면 조사 세부 정보 페이지가 열립니다. 거기에서 조사 결과를 보고 권장 조치를 승인하거나 거부할 수 있습니다.
  
-    - 목록에서 행을 선택하면 플라이 아웃이 열리면서 해당 항목에 대한 정보를 볼 수 있습니다. <br/>![조치 승인 또는 거부](../images/air-actioncenter-itemselected.png)<br/>링크를 사용하여 연결 된 경고나 확인을 보고 작업을 승인하거나 거부합니다.
+    - 목록에서 행을 선택하면 플라이 아웃이 열리면서 해당 항목에 대한 정보를 볼 수 있습니다. <br/>![조치 승인 또는 거부](../../media/air-actioncenter-itemselected.png)<br/>링크를 사용하여 연결 된 경고나 확인을 보고 작업을 승인하거나 거부합니다.
 
 ## <a name="review-a-pending-action-in-the-investigation-details-view"></a>조사 세부 정보 보기에서 보류 중인 작업을 검토합니다.
 
-![조사 세부 정보](../images/mtp-air-investdetails.png)
+![조사 세부 정보](../../media/mtp-air-investdetails.png)
 
 1. [조사 세부 정보](mtp-autoir-results.md) 페이지에서 **보류 중인 작업** (또는 **작업**) 탭을 선택합니다. 승인이 보류 중인 항목은 여기에 나열됩니다.
 

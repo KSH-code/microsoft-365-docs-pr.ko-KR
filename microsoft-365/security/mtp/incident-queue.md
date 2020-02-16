@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 5ad616deb8717772a68b01147ed858f8e7f6ed7b
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 90f7aaf7eb4425dadeb27699654656c86d2b6263
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600255"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42087305"
 ---
 # <a name="prioritize-incidents-in-microsoft-threat-protection"></a>Microsoft Threat Protection 사고 우선순위
 
@@ -39,7 +39,7 @@ Microsoft Threat Protection은 상관 관계 분석을 하고 관련된 모든 �
 **사고 큐**는 장치, 사용자 및 사서함에 대해 플래그가 지정 된 사고의 모음을 보여 줍니다. 이 기능은 사고 우선순위를 정하고 사이버 보안 반응 결정을 내리는 데 도움을 줍니다.
 
 
-![사고 큐의 이미지](../images/incidents-queue.png) 
+![사고 큐의 이미지](../../media/incidents-queue.png) 
 
 기본적으로 Microsoft 365 보안 센터의 큐에는\ 최근 30일 동안 발생한 사고가 표시 되며, 최신 사고가 목록의 맨 위에 표시 되어 최신 사고를 가장 먼저 확인 할 수 있습니다. 
 

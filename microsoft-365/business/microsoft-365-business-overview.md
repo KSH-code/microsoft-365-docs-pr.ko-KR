@@ -27,12 +27,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Microsoft 365 Business에 대해 자세히 알아보세요.
-ms.openlocfilehash: 0a7aafdda384624767e06c0b39c5a58784ac0a0a
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: bfda6801bee526084ad11ead819fcd04787d17ce
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41593744"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42065657"
 ---
 # <a name="overview-of-microsoft-365-business"></a>Microsoft 365 비즈니스 개요
 
@@ -63,7 +63,7 @@ Microsoft 365 Business는 최대 300의 라이선스를 의미 합니다. 라이
 
 Microsoft 365 Business는 이러한 각 인스턴스에서 데이터를 보호 하는 데 도움이 됩니다. 다음 그림에서는 비즈니스 데이터를 보호 하는 보안 기능에 대해 자세히 설명 합니다.
 
-![M365B에서 비즈니스를 보호 하는 방법을 보여 주는 그림](media/m365businessvalueadd.png)
+![M365B에서 비즈니스를 보호 하는 방법을 보여 주는 그림](../media/m365businessvalueadd.png)
 
 ## <a name="how-your-data-and-devices-are-protected"></a>데이터 및 장치가 보호 되는 방식
 

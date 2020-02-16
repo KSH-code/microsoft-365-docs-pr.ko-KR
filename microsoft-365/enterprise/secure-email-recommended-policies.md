@@ -15,12 +15,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: e8c2b10f3e1dd88703b15c326dedb164a686cfca
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: aea95dae0165eb23331b2fa24d5fc752df3f4345
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41596735"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42084315"
 ---
 # <a name="policy-recommendations-for-securing-email"></a>메일을 보호하기 위한 정책 권장 사항
 
@@ -34,7 +34,7 @@ ms.locfileid: "41596735"
 
 다음 다이어그램에서는 일반 id 및 장치 액세스 정책을 보여주고 전자 메일을 보호 하기 위해 업데이트 해야 하는 정책을 나타냅니다. Exchange Online에 대 한 새 규칙을 추가 하 여 ActiveSync 클라이언트를 차단 하는 방법에 유의 하세요. 이렇게 하면 Outlook mobile을 사용 하 게 됩니다.
 
-![전자 메일을 보호 하기 위한 정책 업데이트 요약](../images/identity-access-ruleset-mail.png)
+![전자 메일을 보호 하기 위한 정책 업데이트 요약](../media/identity-access-ruleset-mail.png)
 
 정책을 설정할 때 정책 범위에 Exchange Online과 Outlook을 포함 한 경우에는 ActiveSync 클라이언트를 차단 하는 새 정책만 만들면 됩니다. 다음 표에 나와 있는 정책 들을 검토 하 고 권장 되는 추가 내용을 확인 하거나 이미 포함 되어 있는 것을 확인 합니다. 각 규칙은 [일반 id 및 장치 액세스 정책](identity-access-policies.md) 문서의 관련 구성 지침에 연결 됩니다.
 

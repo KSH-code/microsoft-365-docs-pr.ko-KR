@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 description: AllowSelfServicePurchase PowerShell cmdlet을 사용 하 여 셀프 서비스 구매를 설정 하거나 해제 하는 방법을 알아봅니다.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 5149a07daeedae3c28bc4326b92bb20881faebe2
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 0e9f9e3ee87f62b903e4bf7069f31319253de62d
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41594669"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42080345"
 ---
 # <a name="use-allowselfservicepurchase-for-the-mscommerce-powershell-module"></a>MSCommerce PowerShell 모듈에 대해 AllowSelfServicePurchase 사용
 

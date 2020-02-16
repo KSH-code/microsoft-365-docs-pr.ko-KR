@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: a85680e323c7a8fba6f2d74d5cc00c58c2013d23
-ms.sourcegitcommit: 2913fd74ad5086c7cac6388447285be9aa5a8e44
+ms.openlocfilehash: 8f966060ebc9a30166647b397b93f2b45356df74
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "41662054"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42083733"
 ---
 # <a name="turn-on-microsoft-threat-protection"></a>Microsoft Threat Protection 사용 설정
 
@@ -45,7 +45,7 @@ Microsoft Threat Protection은 다양 한 통합 서비스에서 데이터를 �
 
 서비스를 설정 하기 전에 Microsoft 365 보안 센터 ([security.microsoft.com](https://security.microsoft.com))에 탐색 창에 **인시던트** 및 **작업 센터** 옵션이 표시 되지 않습니다.
 
-![Microsoft threat protection 기능이](../images/mtp-off.png)
+![Microsoft threat protection 기능이](../../media/mtp-off.png)
 없는 microsoft 365 보안 센터 탐색 창 이미지 microsoft*threat protection이 해제 된 microsoft 365 보안 센터*
 
 Microsoft Threat Protection을 설정 하려면 탐색 창에서 **설정을** 선택 합니다. **[설정 페이지](https://security.microsoft.com/settings)** 에서 **Microsoft Threat Protection** > **옵트인/옵트아웃**으로 이동 합니다.
@@ -65,7 +65,7 @@ Microsoft Defender ATP가 조직에 프로비전된 경우 [Microsoft Defender A
 - [자동화 조사 및 대응](mtp-autoir.md)을 관리하는 알림 센터
 - 기존 **헌팅** 페이지에 대한 [고급 헌팅](advanced-hunting-overview.md) 기능
 
-![Microsoft threat protection 기능이](../images/mtp-on.png)
+![Microsoft threat protection 기능이](../../media/mtp-on.png)
 있는 microsoft 365 보안 센터 탐색 창 이미지*문제 관리 및 기타 microsoft threat protection 기능을 가진 microsoft 365 보안 센터*
 
 ### <a name="getting-azure-atp-data"></a>Azure ATP 데이터 가져오기

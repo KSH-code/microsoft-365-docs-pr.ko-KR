@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
 description: Microsoft 365 Business의 보호 수준 향상에 대 한 도움말 보기
-ms.openlocfilehash: 3cfb8d0a38fc797ec25fb0e4e33409e225646ef2
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 2dfccc7041c5fa32fb56d2ef2b113e9a3c883392
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41594853"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42080683"
 ---
 # <a name="increase-threat-protection"></a>위협 방지 강화
 
@@ -48,7 +48,7 @@ Office 365 또는 Microsoft 365 환경에는 맬웨어에 대 한 보호 기능�
     
 3. 기본 정책을 두 번 클릭 하 여이 회사 차원의 정책을 편집 합니다.
     
-4. **설정을**클릭 합니다.
+4. **설정**을 클릭합니다.
     
 5. **일반 첨부 파일 형식 필터**에서 **설정**를 선택 합니다. 차단 되는 파일 형식은이 컨트롤 바로 아래의 창에 나열 됩니다.  다음 filetypes를 추가 했는지 확인 합니다.
    - ade, adp, ani, bas, bat, chm, cmd, a, m, s, com, cpl, crt, .hlp, ht, mdz, inf, v p v, ini, 작업, js, shs, 모바일,, mde, msi, wsc, .pcd, s p l, exe, .wsf 인  <br/> 필요한 경우 나중에 파일 형식을 추가 하거나 삭제할 수 있습니다.
@@ -160,24 +160,24 @@ ATP 피싱 방지 정책을 만들려면 [이 간략 한 교육 비디오](https
   
 ## <a name="protect-against-malicious-attachments-files-and-links-with-advanced-threat-protection-atp"></a>ATP (Advanced Threat Protection)를 사용한 악의 있는 첨부 파일 및 링크 로부터 보호
 
-![를 https://aka.ms/aboutM365preview가리키는 배너입니다.](../business/media/m365admincenterchanging.png)
+![를 https://aka.ms/aboutM365preview가리키는 배너입니다.](../media/m365admincenterchanging.png)
 
 먼저 관리 센터 <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> 에서 새 관리 센터 미리 보기가 설정 되어 있는지 확인 합니다. 텍스트 옆의 토글을 **새 관리 센터로**설정 합니다.
 
-   ![새 관리 센터 미리 보기가 설정 되어 있습니다.](media/previewon.png)
+   ![새 관리 센터 미리 보기가 설정 되어 있습니다.](../media/previewon.png)
 
 아직 테 넌 트에 카드가 포함 된 **설정** 페이지가 표시 되지 않으면 Office 365 보안 &amp; 및 준수 센터에서 다음 단계를 완료 하는 방법을 참조 하세요. Security [& 준수 센터에서 atp 안전한 첨부 파일 설정을](#set-up-atp-safe-attachments-in-the-security--compliance-center) 참조 하 고 [보안 & 준수 센터에서 atp 안전한 링크를 설정](#set-up-atp-safe-links-in-the-security--compliance-center)합니다.
 
 1.  왼쪽 탐색 창에서 **설치**를 선택 합니다.
 2. **설정** 페이지에서 **고급 위협 으로부터 보호 강화** 카드에서 **보기** 를 선택 합니다.</br></br>
-    ![고급 위협 으로부터 보호 향상에서 보기를 선택 합니다.](media/startatp.png) 
+    ![고급 위협 으로부터 보호 향상에서 보기를 선택 합니다.](../media/startatp.png) 
 
 3. **고급 위협 으로부터 보호 기능 향상** 페이지에서 **시작**을 선택 합니다.
 4. 열려 있는 창에서 **전자 메일의 링크 및 첨부**파일 옆에 있는 확인란을 선택 하 고 **SharePoint, OneDrive 및 팀**에서 검색 항목, **office desktop 및 office Online 앱에서** 바이러스 검사 링크를 클릭 하 여 **악성 콘텐츠**를 검사 합니다.
 
       - **전자 메일의 링크 및 첨부 파일**에서 모든 사용자 또는 전자 메일을 스캔할 특정 사용자를 입력 합니다.
 
-    ![고급 위협의 보호 수준에서 모든 확인란을 선택 합니다.](media/setatp.png)
+    ![고급 위협의 보호 수준에서 모든 확인란을 선택 합니다.](../media/setatp.png)
 5. ATP 안전한 첨부 파일 및 ATP 안전한 링크를 설정 하려면 **정책 만들기** 를 선택 합니다.
 
 ### <a name="set-up-atp-safe-attachments-in-the-security--compliance-center"></a>보안 & 준수 센터에서 ATP 안전한 첨부 파일 설정
@@ -263,7 +263,7 @@ Microsoft 365 비즈니스 구독에서 감사 로그 검색을 설정 하거나
 1. 감사 로그 검색을 켜려면 왼쪽 **탐색 창의 관리 센터** <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> 에서 **준수** 를 선택 합니다. 
 2. **Microsoft 365 준수** 페이지에서 **기타 리소스**를 선택한 다음 **Office 365 보안 &amp; 센터** 카드에서 **엽니다** .
 
-    ![Office 365 보안 & 준수 자동차에서 열기를 선택 합니다.](media/gotosecandcomp.png)
+    ![Office 365 보안 & 준수 자동차에서 열기를 선택 합니다.](../media/gotosecandcomp.png)
 3. 보안 및 준수 페이지에서 **검색** 을 선택한 후 **감사 로그 검색**을 선택 합니다.
 1. **감사 로그 검색** 페이지 맨 위에서 **감사 사용**을 선택 합니다.
 
@@ -276,14 +276,14 @@ Microsoft 365 비즈니스 구독에서 감사 로그 검색을 설정 하거나
 2. SharePoint 관리 센터에서 **정책** \> **공유**로 이동 합니다.
 3. **공유** 페이지의 **파일 및 폴더 링크**에서 **특정 사용자**를 선택 하 고, **"모든 사용자" 링크에 대 한 고급 설정**에서 **이러한 링크는이 며칠 이내에 만료 되어야 함**을 선택 하 고 14 (연결 수명 범위를 제한 하려는 또 다른 일 수)를 입력 합니다.
 
-    ![특정 사용자를 선택 하 고 연결 만료 날짜를 14 일로 설정 합니다.](media/anyonelinks.png)
+    ![특정 사용자를 선택 하 고 연결 만료 날짜를 14 일로 설정 합니다.](../media/anyonelinks.png)
 
 ## <a name="activity-alerts"></a>활동 알림
 
 활동 알림을 사용 하 여 관리자 및 사용자 활동을 추적 하 고 조직의 맬웨어 및 데이터 손실 방지 인시던트를 검색할 수 있습니다. 구독에 기본 정책 집합이 포함 되어 있지만 사용자 지정 정책을 만들 수도 있습니다. 자세한 내용은 [경고 정책을](https://docs.microsoft.com/office365/securitycompliance/alert-policies)참조 하세요. 예를 들어 외부에서 사용자를 공유 하지 않으려는 중요 한 파일을 SharePoint에 저장 하는 경우 누군가가이를 공유 하는 경우이를 알리는 알림을 만들 수 있습니다.
 
 다음 그림에서는 Microsoft 365 Business에 포함 된 기본 정책을 보여 줍니다. <br/><br/>
-    ![기본 경고 정책이 Microsoft 365 Business에 포함 됩니다.](media/alertpolicies.png)
+    ![기본 경고 정책이 Microsoft 365 Business에 포함 됩니다.](../media/alertpolicies.png)
 
 ## <a name="disable-or-manage-calendar-sharing"></a>일정 공유를 사용 하지 않도록 설정 또는 관리
 
@@ -296,10 +296,10 @@ Microsoft 365 비즈니스 구독에서 감사 로그 검색을 설정 하거나
 3. 페이지 아래쪽에서 **변경 내용 저장** 을 선택 합니다.
 
     다음 그림에서는 허용 되지 않는 일정 공유를 보여 줍니다. </br></br>
-    ![허용 되지 않는 외부 일정 공유를 표시 하는 스크린샷](media/nocalendarsharing.png)
+    ![허용 되지 않는 외부 일정 공유를 표시 하는 스크린샷](../media/nocalendarsharing.png)
 
     다음 그림에서는 약속 있음/없음 정보만 있는 전자 메일 링크와 함께 일정 공유를 사용할 수 있는 설정을 보여 줍니다.
 
-   ![모든 사용자와 약속 있음/없음 일정 공유 스크린샷](media/sharefreebusy.png)
+   ![모든 사용자와 약속 있음/없음 일정 공유 스크린샷](../media/sharefreebusy.png)
 
 사용자가 일정을 공유할 수 있는 경우 웹용 Outlook에서 공유 하는 방법에 대 한 [다음 지침](https://support.office.com/article/7ecef8ae-139c-40d9-bae2-a23977ee58d5) 을 참고 하세요.

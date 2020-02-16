@@ -12,18 +12,18 @@ ms.date: 08/30/2018
 f1.keywords:
 - NOCSH
 ms.author: greglin
-ms.openlocfilehash: 0078931be23039dac3a323f4747494803d1acd4d
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: ca5abb97628d04a9f29bb3a3fb9b43a578dbab74
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602855"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42085587"
 ---
 # <a name="step-2-deploy-windows-10-enterprise-for-existing-devices-as-an-in-place-upgrade"></a>2 단계: 현재 위치 업그레이드로 기존 장치에 대 한 Windows 10 Enterprise 배포
 
 *이 문서는 Microsoft 365 Enterprise E3 및 E5 버전에 모두 적용 됩니다.*
 
-![3단계: Windows 10 Enterprise](./media/deploy-foundation-infrastructure/win10enterprise_icon-small.png)
+![3단계: Windows 10 Enterprise](../media/deploy-foundation-infrastructure/win10enterprise_icon-small.png)
 
 현재 Windows 7 또는 Windows 8.1를 실행 하는 Pc를 Windows 10으로 업그레이드 하는 가장 간단한 경로는 전체 업그레이드를 사용 하는 것입니다. 구성 관리자 (Configuration Manager) 작업 시퀀스를 사용 하 여 프로세스를 완벽 하 게 자동화할 수 있습니다. 
 
@@ -35,7 +35,7 @@ Windows 7 또는 Windows 8.1을 실행 하는 기존 컴퓨터가 있는 경우 
 
 구성 관리자 포스터는 가로 모드 (17x11)의 한 페이지입니다. 아래 이미지를 클릭 하면 브라우저에서 PDF를 볼 수 있습니다. 
 
-[![Configuration Manager 포스터를 사용 하 여 Windows 10 배포](./media/windows10-deploy-inplaceupgrade/windows10-deployment-config-manager.png)](https://docs.microsoft.com/windows/deployment/media/Windows10DeploymentConfigManager.pdf)
+[![Configuration Manager 포스터를 사용 하 여 Windows 10 배포](../media/windows10-deploy-inplaceupgrade/windows10-deployment-config-manager.png)](https://docs.microsoft.com/windows/deployment/media/Windows10DeploymentConfigManager.pdf)
 
 [PDF](https://github.com/MicrosoftDocs/windows-itpro-docs/raw/public/windows/deployment/media/Windows10DeploymentConfigManager.pdf)나 [Visio](https://github.com/MicrosoftDocs/windows-itpro-docs/raw/public/windows/deployment/media/Windows10DeploymentConfigManager.vsdx) 형식으로도 포스터를 다운로드 할 수 있습니다.
 
@@ -151,4 +151,4 @@ Windows 10 배포를 시작 하기 전에 다음 요구 사항을 검토 하십�
 
 |||
 |:-------|:-----|
-|![3단계](./media/stepnumbers/Step3.png)| [Windows Autopilot를 사용 하 여 새 장치에 Windows 10 Enterprise 배포](windows10-deploy-autopilot.md) |
+|![3단계](../media/stepnumbers/Step3.png)| [Windows Autopilot를 사용 하 여 새 장치에 Windows 10 Enterprise 배포](windows10-deploy-autopilot.md) |

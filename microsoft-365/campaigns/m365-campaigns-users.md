@@ -23,18 +23,18 @@ search.appverid:
 - MET150
 - MOE150
 description: Microsoft 365이 사용자에 게 미치는 영향에 대해 알아봅니다.
-ms.openlocfilehash: 7c510de861758da3da2c86a6804a58de6d4e8030
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: a7ec8d6c9ffcf70071332027fde5d2aa182700d0
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41594759"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42080512"
 ---
 # <a name="how-microsoft-365-for-campaigns-affects-your-users"></a>캠페인에 대 한 Microsoft 365이 사용자에 게 미치는 영향
 
 캠페인에 대 한 Microsoft 365에서는 해커에 게 사용자 환경에 대 한 액세스 권한을 얻는 데 더 많은 어려움이 있습니다. 단점은 사용자가이 보다 안전한 환경 내에서 작업 하는 방법을 알고 있어야 한다는 것입니다. 여기에는 약간의 추가 작업이 필요 하지만 조직의 보호를 유지 하는 것이 가치가 있습니다.
 
-![Iphone, Android 장치, Mac, Windows 10, 공유 및 주요 직원에 대해 아래에서 주요 요점을 요약 하는 그림](media/M365-democracy-Users_700px.png)
+![Iphone, Android 장치, Mac, Windows 10, 공유 및 주요 직원에 대해 아래에서 주요 요점을 요약 하는 그림](../media/M365-democracy-Users_700px.png)
 
 ## <a name="use-secure-email-practices"></a>보안 전자 메일 방법 사용
 모든 사용자는 전자 메일 보안을 유지 하는 데 도움이 되는 다음과 같은 전자 메일 지침을 숙지 하 고 사용 해야 합니다.

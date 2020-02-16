@@ -12,16 +12,16 @@ ms.date: 08/28/2019
 f1.keywords:
 - NOCSH
 ms.author: greglin
-ms.openlocfilehash: a709971786dd85ff0f086c5c9d57c2d807391c65
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 72a355a524ff3dd56300566ff228b5ff5007c6cb
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41596625"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42085544"
 ---
 # <a name="phase-3-windows-10-enterprise"></a>3단계: Windows 10 Enterprise
 
-![3단계: Windows 10 Enterprise](./media/deploy-foundation-infrastructure/win10enterprise_icon.png)
+![3단계: Windows 10 Enterprise](../media/deploy-foundation-infrastructure/win10enterprise_icon.png)
 
 Microsoft 365 Enterprise에는 더 많은 작업을 수행 하 고 보안을 유지 하는 도구를 제공 하는 Windows 10 Enterprise가 포함 되어 있습니다. Windows 10 Enterprise:
 
@@ -80,10 +80,10 @@ Microsoft 내부를 살펴보고 회사에서 [Windows 10 Enterprise를 배포 �
 
 Contoso Corporation (가상의 대표적인 다국적 기업 비즈니스)과 [Windows 10 Enterprise를 배포](contoso-win10.md)하는 방법을 참조 하세요.
 
-![Contoso Corporation](./media/contoso-overview/contoso-icon.png)
+![Contoso Corporation](../media/contoso-overview/contoso-icon.png)
 
 ## <a name="next-step"></a>다음 단계
 
 |||
 |:-------|:-----|
-|![1단계](./media/stepnumbers/Step1.png)| [Windows 10 Enterprise에 대 한 조직 준비](windows10-prepare-your-org.md) |
+|![1단계](../media/stepnumbers/Step1.png)| [Windows 10 Enterprise에 대 한 조직 준비](windows10-prepare-your-org.md) |

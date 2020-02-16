@@ -16,12 +16,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: 258e116e2d51a5fde9f6e9c3273824994b9dcfa6
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 4c72e340092bbd366277114a56aae7574d43dab5
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41596665"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42085093"
 ---
 # <a name="policy-recommendations-for-securing-teams-chats-groups-and-files"></a>팀 대화방, 그룹 및 파일을 보호 하기 위한 정책 권장 사항
 
@@ -45,7 +45,7 @@ Microsoft 팀을 시작 하기 위해 종속 서비스를 사용 하도록 설�
 
 다음 다이어그램에서는 팀의 채팅, 그룹 및 콘텐츠를 보호 하기 위한 권장 정책 집합을 보여 줍니다. 연필 아이콘은 팀 및 종속 서비스가 클라우드 앱 할당에 포함 되도록 하기 위해 다시 검토 해야 하는 정책을 나타냅니다.
 
-![다양 한 장치에서 Microsoft 팀을 사용 하는 방법을 보여 주는 다이어그램](../images/identity-access-ruleset-teams.png)
+![다양 한 장치에서 Microsoft 팀을 사용 하는 방법을 보여 주는 다이어그램](../media/identity-access-ruleset-teams.png)
 
 다음은 팀에 대 한 클라우드 앱 할당에 포함할 종속 서비스입니다.
 
@@ -76,7 +76,7 @@ Microsoft 팀을 시작 하기 위해 종속 서비스를 사용 하도록 설�
 
 참조용으로 다음 다이어그램에는 서비스 팀이 의존 하는 것이 나와 있습니다. 자세한 내용 및 추가 그림은 [IT 설계자 용 microsoft 365의 Microsoft 팀 및 관련 생산성 서비스](https://docs.microsoft.com/office365/enterprise/microsoft-cloud-it-architecture-resources#microsoft-teams-and-related-productivity-services-in-microsoft-365-for-it-architects)를 참조 하세요.
 
-![SharePoint Online, 비즈니스용 OneDrive 및 Exchange에 대 한 팀 종속성을 보여 주는 다이어그램입니다.](../images/identity-access-logical-architecture-teams.png)
+![SharePoint Online, 비즈니스용 OneDrive 및 Exchange에 대 한 팀 종속성을 보여 주는 다이어그램입니다.](../media/identity-access-logical-architecture-teams.png)
 
 ## <a name="enabling-guest-and-external-access-for-teams"></a>팀에 대 한 게스트 및 외부 액세스 설정
 

@@ -15,12 +15,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: dad6c2f8d85c81b67da1aa3425c73e5991b3829b
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 272e8a76cdb3a1555f561bd56e63422f14394904
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41596955"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42067427"
 ---
 # <a name="common-identity-and-device-access-policies"></a>일반 ID 및 장치 액세스 정책
 이 문서에서는 Azure AD 응용 프로그램 프록시를 통해 게시 된 온-프레미스 응용 프로그램을 포함 하 여 클라우드 서비스에 대 한 액세스를 보호 하기 위한 일반적인 권장 정책을 설명 합니다. 
@@ -31,7 +31,7 @@ ms.locfileid: "41596955"
 
 다음 다이어그램에서는 권장 되는 정책 집합을 보여 줍니다. 각 정책이 적용 되는 보호 계층과 정책이 Pc 또는 휴대폰 및 태블릿에서 적용 되는지, 아니면 두 장치 범주 모두를 보여 줍니다. 또한 이러한 정책이 구성 되는 위치를 나타냅니다.
 
-![Id 및 장치 액세스 구성에 대 한 일반 정책](../images/Identity_device_access_policies_byplan.png)
+![Id 및 장치 액세스 구성에 대 한 일반 정책](../media/Identity_device_access_policies_byplan.png)
 
 
 이 문서의 나머지 부분에서는 이러한 정책을 구성 하는 방법에 대해 설명 합니다. 
@@ -62,13 +62,13 @@ ms.locfileid: "41596955"
 
 다음 다이어그램에서는 사용자 할당과 제외의 예를 보여 줍니다.
 
-![MFA 규칙에 대 한 사용자 할당 및 제외 예](../images/identity-access-policies-assignment.png)
+![MFA 규칙에 대 한 사용자 할당 및 제외 예](../media/identity-access-policies-assignment.png)
 
 그림에서 "최상위 비밀 프로젝트 X 팀"에는 MFA가 *항상*필요한 조건부 액세스 정책이 할당 되어 있습니다. 사용자에 게 더 높은 수준의 보호를 적용할 때 적절 합니다. 이 프로젝트 팀의 구성원은 고도로 규제 된 콘텐츠를 보지 않더라도 로그온 할 때마다 두 가지 유형의 인증을 제공 해야 합니다.  
 
 이러한 권장 사항의 일부로 만들어진 모든 Azure AD 그룹은 Office 365 그룹으로 만들어야 합니다. 이 지침은 SharePoint에서 문서를 보호할 때 AIP(Azure Information Protection) 배포를 위해 특히 중요합니다.
 
-![Office 365 그룹을 만드는 화면 캡처](../images/identity-device-AAD-groups.png)
+![Office 365 그룹을 만드는 화면 캡처](../media/identity-device-AAD-groups.png)
 
 
 ## <a name="require-mfa-based-on-sign-in-risk"></a>로그인 위험을 기반으로 MFA 요구
@@ -84,7 +84,7 @@ MFA를 요청 하기 전에 먼저 Id 보호 MFA 등록 정책을 사용 하 여
 
 4. **새 정책**을 선택합니다.
 
-![기준 CA 정책 만들기](./media/secure-email/CA-EXO-policy-1.png)
+![기준 CA 정책 만들기](../media/secure-email/CA-EXO-policy-1.png)
 
  다음 표에서는이 정책에 대해 구현 하기 위한 조건부 액세스 정책 설정에 대해 설명 합니다.
 
