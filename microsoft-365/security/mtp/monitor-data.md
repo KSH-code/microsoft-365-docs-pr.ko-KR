@@ -14,12 +14,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: b79625ba017bd30cc9d6b0153d101b16ec574e8c
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 8fa959de5806eccf76b0e83103c0274d0eb86da0
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600135"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42084784"
 ---
 # <a name="data-monitoring-and-reporting-in-the-microsoft-365-security-center"></a>Microsoft 365 보안 센터의 데이터 모니터링 및 보고 기능
 
@@ -32,4 +32,4 @@ ms.locfileid: "41600135"
 * DLP 정책이 무시되거나 가양성이 보고된 건수
 * Microsoft Cloud App Security를 통해 타사 클라우드 서비스에서 발생 한 DLP 정책 일치 수
 
-![보고서의 데이터 범주 페이지](../images/data.png)
+![보고서의 데이터 범주 페이지](../../media/data.png)

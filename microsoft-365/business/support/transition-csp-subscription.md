@@ -11,12 +11,12 @@ localization_priority: Normal
 audience: microsoft-business 
 keywords: Microsoft 365 Business, Microsoft 365, SMB, CSP 구독 전환
 ms.date: 11/01/2017
-ms.openlocfilehash: 4aadfa24bec8728c7e011ac6da48a8e30516e145
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 7d8e04a0136f86d3c4bb51208081fd1dcbecf59d
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595048"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42057285"
 ---
 # <a name="transition-a-microsoft-365-business-csp-subscription"></a>Microsoft 365 Business CSP 구독을 전환
 
@@ -29,33 +29,33 @@ Microsoft 365 Business 미리 보기 CSP를 구독 중인 경우 이 가이드�
 
     회사의 구독이 나열됩니다.
 
-    ![파트너 센터의 고객 구독](images/pc_customer_subscriptions_1.png)
+    ![파트너 센터의 고객 구독](../../media/pc_customer_subscriptions_1.png)
     
 3. 회사의 **구독** 페이지에서 **구독 추가**를 선택 합니다.
 4. **새 구독** 페이지에서 **Small business** 을 선택한 다음 목록에서 **Microsoft 365 business** 를 선택 합니다.
 5. 라이선스 수를 추가하고 **다음: 검토**를 선택하여 구독을 검토한 다음 **제출**을 선택합니다.
 
-    ![Microsoft 365 Business에 대한 새 구독을 검토](images/pc_customer_reviewnewsubscription.png)
+    ![Microsoft 365 Business에 대한 새 구독을 검토](../../media/pc_customer_reviewnewsubscription.png)
 
     **라이선스 기준 구독**에 **Microsoft 365 Business 미리 보기** 및 **Microsoft 365 Business**가 표시됩니다. 다음에 미리 보기 구독을 일시 중단 합니다.
 
 6. **Microsoft 365 Business 미리 보기**를 선택합니다.
 7. **Microsoft 365 Business Preview** 페이지에서 **일시 중단** 을 선택 하 여 미리 보기 구독을 일시 중단 합니다.
 
-    ![Microsoft 365 Business 미리 보기 구독 일시 중단](images/pc_customer_m365bpreview_suspend.png)
+    ![Microsoft 365 Business 미리 보기 구독 일시 중단](../../media/pc_customer_m365bpreview_suspend.png)
 
 8. **제출**을 선택하여 확인합니다.
 
     **구독** 페이지에서 **Microsoft 365 Business Preview** 상태가 **일시 중단**으로 표시 되는지 확인 합니다.
 
-    ![미리 보기 구독이 일시 중단되었는지 확인](images/pc_customer_m365bpreview_suspend_confirm.png)
+    ![미리 보기 구독이 일시 중단되었는지 확인](../../media/pc_customer_m365bpreview_suspend_confirm.png)
 
 9. 필요에 따라 라이선스 계약을 확인할 수도 있습니다. 이렇게 하려면 다음 단계를 따르세요.
     1. 회사의 **구독** 페이지에서 **사용자 및 라이선스**를 선택합니다.
     2. **사용자 및 라이선스** 페이지에서 사용자를 선택 합니다.
     3. 사용자의 페이지에서 **라이선스 할당** 섹션을 선택 하 여 **Microsoft 365 Business**가 표시 되는지 확인 합니다.
 
-        ![Microsoft 365 Business 라이선스가 사용자에게 할당되었는지 확인](images/pc_customer_userslicenses_m365b_validate.png)
+        ![Microsoft 365 Business 라이선스가 사용자에게 할당되었는지 확인](../../media/pc_customer_userslicenses_m365b_validate.png)
 
 ## <a name="impact-to-customers-and-users-during-and-after-transition"></a>전환 도중 및 이후 고객과 사용자에게 미치는 영향
 

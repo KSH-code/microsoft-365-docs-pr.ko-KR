@@ -17,12 +17,12 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 26e227b4b1e8047ca962ca9e65b139bacae55e03
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 240e153c43c7dc52d67d35eeca36def2f76b08e2
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41599995"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42086945"
 ---
 # <a name="manage-tickets-through-servicenow"></a>ServiceNow를 통해 티켓 관리
 
@@ -61,7 +61,7 @@ Microsoft 365 보안 센터에서 ServiceNow 티켓을 만들면 다음 데이�
 
 Microsoft 365 보안 센터 홈 페이지로 이동 하 여 ServiceNow 연결 카드를 확인 합니다.
 
-![ServiceNow 사용](../images/do-you-use-servicenow-250.png)
+![ServiceNow 사용](../../media/do-you-use-servicenow-250.png)
 
 "ServiceNow에 연결"을 선택 하 여 ServiceNow 설정 페이지로 이동 합니다. 지침에 따라 Microsoft 365 커넥터 앱에 권한을 부여 합니다.
 
@@ -74,7 +74,7 @@ Microsoft 365 보안 센터 홈 페이지로 이동 하 여 ServiceNow 연결 �
 
 통합이 설정 되 면 특정 Microsoft 보안 점수 향상 작업을 기반으로 ServiceNow 작업을 만듭니다. Microsoft 365 보안 센터 포털의 보안 점수에 있는 개선 작업으로 이동한 후 "공유" 아이콘을 선택 합니다. 드롭다운 옵션 중 하나는 ServiceNow입니다.
 
-![보안 점수의 ServiceNow 공유](../images/servicenow-share.png)
+![보안 점수의 ServiceNow 공유](../../media/servicenow-share.png)
 
 우선 순위를 설정 하 고 이름, 설명 또는 기한을 편집할 수 있는 작업이 생성 됩니다. 필수 필드를 모두 입력 한 후에는 해당 작업을 ServiceNow로 보냅니다.
 
@@ -84,7 +84,7 @@ Microsoft 365 보안 센터 홈 페이지로 이동 하 여 ServiceNow 연결 �
 
 ServiceNow 변경 관리 및 인시던트 관리 티켓이 만들어지면 Microsoft 365 보안 센터 홈 페이지의 명함에 표시 됩니다. 이러한 카드에서 티켓을 만들거나, 모든 티켓을 보거나, ServiceNow 구성을 관리할 수 있습니다.
 
-![ServiceNow 변경 관리 티켓](../images/change-management-375.png)  ![ServiceNow 인시던트 관리 티켓](../images/incident-management-375.png)
+![ServiceNow 변경 관리 티켓](../../media/change-management-375.png)  ![ServiceNow 인시던트 관리 티켓](../../media/incident-management-375.png)
 
 Microsoft 365 보안 센터에서 ServiceNow 통합을 다시 구축 하거나 관리 하려면 카드 중 하나에서 **servicenow 구성 관리** 를 선택 합니다. 현재 ServiceNow 연결을 제거 하 고 티켓 상태 이름을 사용자 지정 합니다.
 
