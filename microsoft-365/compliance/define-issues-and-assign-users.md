@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 48d37ee7-05bd-4cb8-9723-a8959ad23fbe
 description: Office 365 Advanced eDiscovery에서 문제점을 추가 하거나 편집 하 여 사용자 할당을 포함 하거나 eDiscovery 사례에 대 한 문제를 삭제 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 78f0b53c1f66adb9c1c8534bbf4b1e1915f6ba0d
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: d0777f6829944a6f64c71bda805edd1b5d55de4b
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595353"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42075900"
 ---
 # <a name="define-issues-and-assign-users-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery에서 문제점 정의 및 사용자 할당
 
@@ -33,11 +33,11 @@ ms.locfileid: "41595353"
 
 1. **관련성 \> 관련성 설정** 탭 \> 에서 **문제**를 선택 합니다.
     
-    ![관련성 설정 문제](media/dfd8f9ef-b167-4ed9-980e-00ae98a97169.png)
+    ![관련성 설정 문제](../media/dfd8f9ef-b167-4ed9-980e-00ae98a97169.png)
   
 2. 문제점을 추가 하려면 * * + * * 아이콘을 클릭 합니다. **문제점 추가** 대화 상자가 표시 됩니다. 
     
-    ![설치 관련 문제를 추가](media/c8e94982-139a-472a-b85d-282f2d742046.png)
+    ![설치 관련 문제를 추가](../media/c8e94982-139a-472a-b85d-282f2d742046.png)
   
     문제를 편집 하려면 **편집** 아이콘을 클릭 합니다. 
     
