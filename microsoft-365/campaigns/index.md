@@ -1,5 +1,7 @@
 ---
 title: 캠페인에 대 한 Microsoft 365
+f1.keywords:
+- NOCSH
 ms.author: samanro
 author: samanro
 manager: scotv
@@ -22,12 +24,12 @@ search.appverid:
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
 description: 캠페인에 대 한 Microsoft 365
-ms.openlocfilehash: d80e25aedaf3a0160fc6ed926222dd3c12cf7466
-ms.sourcegitcommit: 2c2248b03f7753d64490f2f7e56ec644a235b65a
+ms.openlocfilehash: 32437ccc0c110c0539cb3d24f036438d6a313921
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38029082"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42056501"
 ---
 <a name="microsoft-365-for-campaigns"></a>캠페인을 위한 Microsoft 365
 ===========================
@@ -43,7 +45,7 @@ ms.locfileid: "38029082"
 - 관리 하기 간편한 엔터프라이즈급 보안을 사용 하 여 모든 iOS, Android 및 Windows 10 장치에서 작업 파일을 보호 합니다. 
 - 사용자 계정 및 id에 대 한 추가 보호 적용 
 
-![Microsoft 365 Business는 생산성 도구, 공동 작업 도구, 파일 저장, 전자 메일, 장치 및 id를 보호 합니다.](media/M365-WhatIsIt-SecurityFocus.png)
+![Microsoft 365 Business는 생산성 도구, 공동 작업 도구, 파일 저장, 전자 메일, 장치 및 id를 보호 합니다.](../media/M365-WhatIsIt-SecurityFocus.png)
 
 미국의 연방 선거 캠페인은 Microsoft 365 비즈니스에 대 한 특별 가격 산정을 인정 하지만이 계획을 사용 하는 모든 조직은이 가이드를 활용 하 여 향상 된 보안을 구성 하 고 안전 하 게 공동 작업 하는 방법을 배울 수 있습니다.
 
@@ -55,7 +57,7 @@ ms.locfileid: "38029082"
 포함 된 항목에 대 한 자세한 내용은 [Microsoft 365 Business](https://www.microsoft.com/microsoft-365/business)를 참조 하세요. 
 
 
-<a name="get-started"></a>시작
+<a name="get-started"></a>시작하기
 --------------------------
 
 <ul class="panelContent cardsJ">
@@ -92,7 +94,7 @@ Microsoft 365 보안 환경을 설정한 후에는 다음 솔루션을 사용 �
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="media/sm-m365-democracy-teams-collab.png" alt="a SharePoint communications site" />
+                            <img src="../media/sm-m365-democracy-teams-collab.png" alt="a SharePoint communications site" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -110,7 +112,7 @@ Microsoft 365 보안 환경을 설정한 후에는 다음 솔루션을 사용 �
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="media/m365-democracy-teams-meetings.png" alt="an online meeting" />
+                            <img src="../media/m365-democracy-teams-meetings.png" alt="an online meeting" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -128,7 +130,7 @@ Microsoft 365 보안 환경을 설정한 후에는 다음 솔루션을 사용 �
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="media/sm-m365-campaign-email-encrypt.png" alt="Encrypted and labeled email" />
+                            <img src="../media/sm-m365-campaign-email-encrypt.png" alt="Encrypted and labeled email" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -146,7 +148,7 @@ Microsoft 365 보안 환경을 설정한 후에는 다음 솔루션을 사용 �
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="media/sm-m365-democracy-comms-site.png" alt="a SharePoint communications site" />
+                            <img src="../media/sm-m365-democracy-comms-site.png" alt="a SharePoint communications site" />
                         </div>
                     </div>
                     <div class="cardText">
@@ -164,7 +166,7 @@ Microsoft 365 보안 환경을 설정한 후에는 다음 솔루션을 사용 �
                 <div class="card">
                     <div class="cardImageOuter">
                         <div class="cardImage">
-                            <img src="media/m365-democracy-teams-sharefiles.png" alt="sharing a file in Microsoft Teams" />
+                            <img src="../media/m365-democracy-teams-sharefiles.png" alt="sharing a file in Microsoft Teams" />
                         </div>
                     </div>
                     <div class="cardText">
