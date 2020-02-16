@@ -1,7 +1,7 @@
 ---
 title: 증권 및 Exchange 위원회-규정 시스템 준수 및 무결성 (SCI)
 description: SCI 규칙은 SCI 엔터티에 적용 되며, 이러한 조직은 SROs를 주식 및 옵션 교환, 등록 된 기관 지우기 및 ATSs (대체 거래 시스템)로 포함 합니다.
-keywords: Microsoft 365, 규정 준수, 제품
+keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 962524f29b72d46500869f4f0059959a2b77ff3e
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 4ad74c8d4ec71587f88a80c3ee109500e230be35
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601865"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42071225"
 ---
 # <a name="securities-and-exchange-commission-regulation-systems-compliance-and-integrity-sci"></a>증권 및 Exchange 위원회: 규정 시스템 준수 및 무결성 (SCI)
 

@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: 이 문서에서는 Microsoft 365의 새로운 고급 eDiscovery 버전에 대해 설명 합니다.
-ms.openlocfilehash: 30b69bbd80799b0f3e32b008ec1d4affc8be6605
-ms.sourcegitcommit: 2913fd74ad5086c7cac6388447285be9aa5a8e44
+ms.openlocfilehash: b3583037953d8dcb36ea6b3f7a2ba521e47fd9c4
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "41662014"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42071061"
 ---
 # <a name="overview-of-the-advanced-ediscovery-solution-in-microsoft-365"></a>Microsoft 365의 고급 eDiscovery 솔루션 개요
 
@@ -31,7 +31,7 @@ Microsoft 365의 고급 eDiscovery 솔루션은 Office 365의 기존 eDiscovery 
 
 기본 제공 되는 고급 eDiscovery 워크플로는 EDRM (전자식 Discovery Reference Model)에 의해 개요 된 eDiscovery 프로세스와 정렬 됩니다. 
 
-![EDRM (전자 검색 참조 모델)](media/EDRMv1.png)
+![EDRM (전자 검색 참조 모델)](../media/EDRMv1.png)
 
 (Edrm.net의 이미지 원본 관례입니다. 원본 이미지는 Creative Creative commons 특성 3.0이 아니라 Ported 라이선스를 통해 사용할 수 있습니다.
 
@@ -57,7 +57,7 @@ Microsoft 365의 고급 eDiscovery 솔루션은 Office 365의 기존 eDiscovery 
 
 Advanced eDiscovery의 종단 간 워크플로에 대 한 자세한 내용은이 [Microsoft 메커니즘 비디오](https://go.microsoft.com/fwlink/?linkid=2066133)를 참조 하세요. 
 
-![고급 eDiscovery의 탭은 EDRM 워크플로를 따릅니다.](media/aedisco-homepage-1.png)
+![고급 eDiscovery의 탭은 EDRM 워크플로를 따릅니다.](../media/aedisco-homepage-1.png)
 
 ## <a name="managing-custodians"></a>Custodians 관리
 

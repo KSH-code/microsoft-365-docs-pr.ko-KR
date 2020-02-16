@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 8576cc86-d51b-4285-b54b-67184714cc62
 description: 'Office 365 Advanced eDiscovery의 관련성 성향 습득 단계에서 40 파일의 교육 샘플에 태그를 지정한 후 작업을 수행 하는 방법에 대해 알아봅니다.  '
-ms.openlocfilehash: fa690857fabb6a732d329dc8a75896d9e1aa195d
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 0565fa29f79a5269631539939c749a9ad93a029c
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601425"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42069579"
 ---
 # <a name="tagging-and-relevance-training-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery의 태그 지정 및 관련성 교육
 
@@ -36,7 +36,7 @@ ms.locfileid: "41601425"
 
 1. **관련성 \> 태그** 탭의 왼쪽 창에는 태그 지정 창이 기본적으로 표시 되 고 샘플 파일은 태그 지정 시 한 번에 하나씩 표시 됩니다. 
     
-    ![관련 태그 패널](media/0cf19ab4-b427-4a7f-8749-0f4ed9afaf58.png)
+    ![관련 태그 패널](../media/0cf19ab4-b427-4a7f-8749-0f4ed9afaf58.png)
   
     **태그** 탭에 파일의 표시 이름이 표시 됩니다. 경로, 전자 메일 제목, 제목 또는 사용자 정의 이름을 사용할 수 있습니다. 파일 경로를 마우스 오른쪽 단추로 클릭 하 여 ID, 파일 경로 또는 텍스트 경로를 복사할 수 있습니다. 
     
@@ -58,7 +58,7 @@ ms.locfileid: "41601425"
     
     필요한 경우 **태그** 탭에서 **태그 설정을** 클릭 하 여 다음 옵션을 설정 합니다. 
     
-    ![관련성 태그 설정](media/533e89fa-7eb4-409e-ab07-f5aab9296dd8.png)
+    ![관련성 태그 설정](../media/533e89fa-7eb4-409e-ab07-f5aab9296dd8.png)
   
   - **Bulk 태그**:이 옵션을 사용 하 **여 모든 문제** 에 대해 선택한 파일에 대 한 태그를 설정 하거나, **나머지** 태그 문제를 재정의 하 여 나머지 태그 지정 문제에 대 한 기본 설정을 적용 하는 방법으로 파일에 대 한 여러 문제를 할당 합니다. 선택한 옵션은 해당 사용자가 변경할 때까지이 모든 사용자의 경우에만 적용 됩니다 (설정이 사용자의 모든 경우에 대해 사용자 단위로 설정 됨). 
     
@@ -80,7 +80,7 @@ ms.locfileid: "41601425"
   
 1. **관련성 \> 태그** 탭의 왼쪽 창 드롭다운 목록에서 예제 파일을 선택 합니다. 예제 파일은 왼쪽 창에 나열 되어 있습니다. 
     
-    ![관련 태그 샘플 파일 목록](media/fd058bdd-645a-4af1-a1eb-bff08581cb18.png)
+    ![관련 태그 샘플 파일 목록](../media/fd058bdd-645a-4af1-a1eb-bff08581cb18.png)
   
 2. **예제** 또는 **파일** 상자에서 해당 번호를 입력 하거나 선택 하 여 특정 예제 또는 파일 번호를 선택 합니다. 
     

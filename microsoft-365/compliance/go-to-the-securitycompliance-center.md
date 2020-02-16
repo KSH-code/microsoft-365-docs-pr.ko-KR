@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 7e696a40-b86b-4a20-afcc-559218b7b1b8
 description: 보안 & 준수 센터를 사용 하려면 적절 한 사용 권한이 필요 합니다. 회사 또는 학교 계정에 Office 365 전역 관리자 역할을 할당 하거나 전역 관리자가 하나 이상의 보안 & 준수 센터 역할 그룹에 할당 해야 합니다.
-ms.openlocfilehash: 0ac56ad7fb4123b8cd2bd11cdcca7ee90d8126b0
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: c141f7f9de5a47412dc009ae6c077404cd3f795d
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41596525"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42073093"
 ---
 # <a name="go-to-the-office-365-security--compliance-center"></a>Office 365 보안 및 준수 센터로 이동
 
@@ -40,4 +40,4 @@ ms.locfileid: "41596525"
 
 2. 회사 또는 학교 계정을 사용하여 Office 365에 로그인합니다.
 
-![Office 365 보안 & 준수 센터 홈 페이지](media/f1d35324-ac44-4f59-96a7-b11767b43201.png)
+![Office 365 보안 & 준수 센터 홈 페이지](../media/f1d35324-ac44-4f59-96a7-b11767b43201.png)

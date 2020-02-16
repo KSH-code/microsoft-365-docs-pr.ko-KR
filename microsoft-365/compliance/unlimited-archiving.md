@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 37cdbb02-a24a-4093-8bdb-2a7f0b3a19ee
 description: Exchange Online 사서함에 대 한 무제한 보관 저장소를 제공 하는 Office 365의 자동 확장 보관에 대해 알아봅니다.
-ms.openlocfilehash: e7d004c7ef92fbcb331191432a70114f36dabc07
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 42318bf2ff102e6197800b2d6cba8b5c9132bcf9
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601372"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42069459"
 ---
 # <a name="overview-of-unlimited-archiving-in-office-365"></a>Office 365의 무제한 보관 개요
 
@@ -41,7 +41,7 @@ Office 365의 무제한 보관 기능 ( *자동 확장 보관*이라고 함)은 
 
 프로세스에 대 한 간략 한 개요는 다음과 같습니다.
 
-![자동 확장 보관 프로세스 개요](media/74355385-d990-44fe-8a87-6c3639d1f63f.png)
+![자동 확장 보관 프로세스 개요](../media/74355385-d990-44fe-8a87-6c3639d1f63f.png)
 
 1. 사용자 사서함 또는 공유 사서함에 대해 보관을 사용 하도록 설정 합니다. 100 GB의 저장소 공간이 있는 보관 사서함이 만들어지고 보관 사서함에 대 한 경고 할당량이 90 g b로 설정 됩니다.
 
@@ -67,11 +67,11 @@ Office 365의 무제한 보관 기능 ( *자동 확장 보관*이라고 함)은 
 
  **추가 저장소가 추가 되기 전에**
 
-![자동 확장 보관이 프로 비전 되기 전 보관 사서함의 폴더 목록](media/5d6d6420-e562-4912-aaab-1c111762b3f6.png)
+![자동 확장 보관이 프로 비전 되기 전 보관 사서함의 폴더 목록](../media/5d6d6420-e562-4912-aaab-1c111762b3f6.png)
 
  **추가 저장소가 추가 된 후**
 
-![자동 확장 보관이 프로 비전 된 후 보관 사서함의 폴더 목록](media/c03c5f51-23fa-4fc2-b887-7e7e5cce30da.png)
+![자동 확장 보관이 프로 비전 된 후 보관 사서함의 폴더 목록](../media/c03c5f51-23fa-4fc2-b887-7e7e5cce30da.png)
 
 > [!NOTE]
 > 앞에서 설명한 것 처럼 Office 365에서는 항목을 하위 폴더로 이동 하 고 위에 설명 된 명명 규칙을 사용 하 여 콘텐츠를 보조 아카이브에 배포 하는 데 도움을 주는 방법을 설명 합니다. 하지만 하위 폴더로 항목을 이동 하는 경우는 항상 해당 되지 않을 수 있습니다. 전체 폴더가 보조 아카이브로 이동 될 수 있습니다. 이 경우 폴더의 원래 이름은 그대로 유지 됩니다.  Outlook의 폴더 목록에서 폴더가 보조 보관 함으로 이동 되었음을 명확 하 게 알 수 없습니다.

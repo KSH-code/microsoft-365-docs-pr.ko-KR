@@ -1,5 +1,7 @@
 ---
 title: Office 365 eDiscovery에서 부분적으로 인덱싱된 항목 조사
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -12,12 +14,12 @@ ms.collection: M365-security-compliance
 search.appverid: MOE150
 ms.assetid: 4e8ff113-6361-41e2-915a-6338a7e2a1ed
 description: 부분적으로 인덱싱된 항목 (또한 인덱싱되지 않은 항목)은 Exchange 사서함 항목 및 몇 가지 이유로 인해 콘텐츠 검색을 위해 완전히 인덱싱되지 않은 SharePoint 및 OneDrive 사이트의 문서입니다. 이 문서에서는 검색을 위해 항목을 인덱싱할 수 없으며 부분적으로 인덱싱된 항목으로 반환 되며, 부분적으로 인덱싱된 항목에 대 한 검색 오류를 식별 하 고, PowerShell 스크립트를 사용 하 여 부분적으로 인덱싱된 전자 메일에 대 한 조직의 노출을 확인 하는 이유를 알 수 있습니다. 항목.
-ms.openlocfilehash: 4e1430fe80c01b1cc9e67777c6955790ea1c6540
-ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
+ms.openlocfilehash: b67b7d5cfedd37315a9f8bc9027e03b820598846
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38687201"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42072359"
 ---
 # <a name="investigating-partially-indexed-items-in-office-365-ediscovery"></a>Office 365 eDiscovery에서 부분적으로 인덱싱된 항목 조사
 
@@ -49,7 +51,7 @@ ms.locfileid: "38687201"
 
 부분적으로 인덱싱된 항목에 대 한 조직의 노출을 이해 하려면 빈 키워드 쿼리를 사용 하 여 모든 사서함의 모든 콘텐츠에 대해 검색을 실행할 수 있습니다. 아래 아래의 예제에는 56208 (4830 MB) 완전히 인덱싱된 항목 및 470 316 (5MB) 부분 인덱싱된 항목이 있습니다.
   
-![부분적으로 인덱싱된 항목을 보여 주는 검색 통계 예제](media/0f6a5cf7-4c98-44a0-a0dd-5aed67124641.png)
+![부분적으로 인덱싱된 항목을 보여 주는 검색 통계 예제](../media/0f6a5cf7-4c98-44a0-a0dd-5aed67124641.png)
   
 다음 계산을 사용 하 여 부분적으로 인덱싱된 항목의 백분율을 확인할 수 있습니다.
   
@@ -74,7 +76,7 @@ ms.locfileid: "38687201"
 
 일부 항목을 검사 하 여 관련 정보가 포함 되어 있지 않은지 확인 해야 하는 경우에는 부분적으로 인덱싱된 항목에 대 한 정보가 포함 된 [콘텐츠 검색 보고서를 내보낼](export-a-content-search-report.md) 수 있습니다. 콘텐츠 검색 보고서를 내보낼 때는 부분적으로 인덱싱된 항목이 포함 된 내보내기 옵션 중 하나를 선택 해야 합니다. 
   
-![두 번째 또는 세 번째 옵션을 선택 하 여 부분적으로 인덱싱된 항목 내보내기](media/624a62b4-78f7-4329-ab5d-e62e3b369885.png)
+![두 번째 또는 세 번째 옵션을 선택 하 여 부분적으로 인덱싱된 항목 내보내기](../media/624a62b4-78f7-4329-ab5d-e62e3b369885.png)
   
 이러한 옵션 중 하나를 사용 하 여 콘텐츠 검색 결과 나 콘텐츠 검색 보고서를 내보낼 때 내보내기에는 인덱싱되지 않은 항목 .csv 이라는 보고서가 포함 됩니다. 이 보고서에는 ResultsLog 파일의 정보 대부분과 동일한 정보가 포함 되어 있습니다. 그러나 인덱싱되지 않은 항목 .csv 파일에는 부분 인덱싱된 항목과 관련 된 두 개의 필드인 **오류 태그** 및 **오류 속성이**포함 되어 있습니다. 이러한 필드에는 부분적으로 인덱싱된 각 항목의 인덱싱 오류에 대 한 정보가 포함 됩니다. 이러한 두 필드의 정보를 사용 하 여 특정 사항에 대 한 인덱싱 오류가 조사에 영향을 미치는지 여부를 결정할 수 있습니다. 이 경우 대상 콘텐츠 검색을 수행 하 고 특정 전자 메일 메시지와 SharePoint 또는 OneDrive 문서를 검색 하 고 내보내서 조사와 관련이 있는지 확인 하는 데 사용할 수 있습니다. 단계별 지침은 [Office 365에서 대상 콘텐츠 검색을 위한 CSV 파일 준비](csv-file-for-an-id-list-content-search.md)를 참조 하세요.
   
@@ -164,7 +166,7 @@ Error 태그는 두 가지 정보, 오류 및 파일 형식으로 구성 됩니�
   
 ```
 
-2. [보안 & 준수 센터 PowerShell에 연결](https://go.microsoft.com/fwlink/p/?linkid=627084)합니다.
+2. [보안 및 준수 센터 PowerShell에 연결하기](https://go.microsoft.com/fwlink/p/?linkid=627084)
     
 3. 보안 & 준수 센터 PowerShell에서 1 단계에서 스크립트를 저장 한 폴더로 이동한 후 스크립트를 실행 합니다. 예를 들어:
 
@@ -174,7 +176,7 @@ Error 태그는 두 가지 정보, 오류 및 파일 형식으로 구성 됩니�
 
 스크립트에서 반환 하는 출력의 예는 다음과 같습니다.
   
-![조직에서 부분적으로 인덱싱된 전자 메일 항목에 대 한 보고서를 생성 하는 스크립트의 출력 예](media/aeab5943-c15d-431a-bdb2-82f135abc2f3.png)
+![조직에서 부분적으로 인덱싱된 전자 메일 항목에 대 한 보고서를 생성 하는 스크립트의 출력 예](../media/aeab5943-c15d-431a-bdb2-82f135abc2f3.png)
   
 다음 사항을 참고하십시오.
   

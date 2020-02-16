@@ -1,5 +1,7 @@
 ---
 title: Microsoft 365에서 데이터 유출 인시던트 관리
+f1.keywords:
+- NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
@@ -14,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: 이 문서에서는 보안 & 준수 센터의 새 데이터 조사 (미리 보기) 도구를 사용 하 여 데이터 유출 인시던트를 관리 하는 방법을 설명 합니다.
-ms.openlocfilehash: 53193d3bd915562037a6409766e9be9d42d272c5
-ms.sourcegitcommit: 1162d676b036449ea4220de8a6642165190e3398
+ms.openlocfilehash: f02d5c42d42f6031202e874497f92fdfbe5d0bcf
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/20/2019
-ms.locfileid: "37088223"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42072033"
 ---
 # <a name="manage-a-data-spillage-incident-in-microsoft-365"></a>Microsoft 365에서 데이터 유출 인시던트 관리
 
@@ -125,7 +127,7 @@ ms.locfileid: "37088223"
  
 2. **동작** 을 클릭 한 다음 **원래 위치에서 항목 삭제**를 클릭 합니다.
 
-   ![동작을 클릭 한 다음 원래 위치에서 항목 삭제를 클릭 합니다.](media/DataInvestigationsDeleteItems1.png)
+   ![동작을 클릭 한 다음 원래 위치에서 항목 삭제를 클릭 합니다.](../media/DataInvestigationsDeleteItems1.png)
 
 3. 플라이 아웃 페이지에서 삭제할 항목 및 관련 하위 문서 수를 확인 하 고 **삭제**를 클릭 합니다.
 

@@ -13,12 +13,12 @@ ms.collection: ''
 search.appverid: MOE150
 ms.assetid: 7a150c84-049c-4a9c-8c91-22355b35f2a7
 description: Microsoft PST 수집 도구를 사용 하 여 조직의 네트워크를 검색 하 여 조직 전체에 분산 된 PST 파일의 인벤토리를 가져옵니다. PST 파일을 찾은 후에는 PST 컬렉션 도구를 사용 하 여이를 중앙 위치에 복사 하 여 Office 365로 가져올 수 있습니다.
-ms.openlocfilehash: 59c4222966bba4e72e73135aa57fb45e0362f765
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 736e317318f860936450b7412bc465fc7c9d59e1
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41594559"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42073931"
 ---
 # <a name="use-the-pst-collection-tool-to-find-copy-and-delete-pst-files-in-your-organization"></a>PST 컬렉션 도구를 사용 하 여 조직의 PST 파일 찾기, 복사 및 삭제
 
@@ -33,7 +33,7 @@ PST 컬렉션 도구를 사용 하면 사용자가 새 PST 파일을 만들고 �
 
 다음은 PST 컬렉션 도구를 사용 하 여 조직에서 PST 파일을 찾고, 제어 하 고, 수집 하 고, 삭제 하는 프로세스에 대 한 간략 한 개요입니다.
   
-![PST 모음 도구 프로세스 개요](media/67a29f27-f83c-4f0a-9df4-7ed92d3086fe.png)
+![PST 모음 도구 프로세스 개요](../media/67a29f27-f83c-4f0a-9df4-7ed92d3086fe.png)
   
 1. **[1 단계: 네트워크에서 pst 파일 찾기](#step-1-find-pst-files-on-your-network)** -도구를 실행 하 여 pst 파일을 찾을 때 클라이언트 및 서버 컴퓨터에 대 한 Active Directory 개체를 포함 하는 위치 (예: 조직 구성 단위)를 지정 합니다. 특정 컴퓨터나 네트워크 파일 공유를 검색할 수도 있습니다. 이 도구를 실행 하면 대상 컴퓨터에 "경량" 컬렉션 에이전트가 설치 됩니다. 이 에이전트는 대상 컴퓨터에서 PST 파일을 검색 한 다음 해당 pst 파일에 대 한 정보를 PST 컬렉션 도구에 다시 보냅니다. 이 도구는 지정 된 위치에서 찾은 PST 파일에 대 한 정보가 포함 된 로그 파일을 만듭니다. 이러한 파일은 이후 단계에서 도구를 실행할 때 사용 됩니다. 
     
@@ -240,7 +240,7 @@ PST 파일을 Office 365로 가져오는 단계별 지침은 다음 항목 중 �
     
     |매개 변수 * * * *|****설명****|예 * * * *|
     |:-----|:-----|:-----|
-    | `DataSource` <br/> |검색할 데이터 유형을 지정 합니다. 현재는 PST 모음 도구를 사용 하 여 PST 파일을 검색할 수 있습니다. ![>](media/b078d05c-3aee-4b9f-8805-6a8a9d8970ee.png)           <br/> | `-DataSource Pst` <br/> |
+    | `DataSource` <br/> |검색할 데이터 유형을 지정 합니다. 현재는 PST 모음 도구를 사용 하 여 PST 파일을 검색할 수 있습니다. ![>](../media/b078d05c-3aee-4b9f-8805-6a8a9d8970ee.png)           <br/> | `-DataSource Pst` <br/> |
     | `Mode` <br/> |도구에서 수행 하는 작업의 유형을 지정 합니다. 이 값 `Delete` 을 사용 하 여 찾기 모드에서 도구를 실행할 때 찾은 해당 PST 파일을 삭제 합니다.  <br/> | `-Mode Delete` <br/> |
     | `JobName` <br/> |기존 PST 컬렉션 작업의 이름을 지정 합니다. 찾기 모드에서 도구를 실행할 때 사용한 것과 동일한 작업 이름과 1 단계 및 3 단계의 수집 모드를 사용 해야 합니다. 이 작업 이름은 삭제 모드에서 도구를 실행할 때 만들어지는 로그 파일의 이름에도 추가 됩니다.  <br/> | `-JobName PstSearch1` <br/> |
     | `ConfigurationLocation` <br/> |수집 모드에서 도구를 실행할 때 만든 .xml 구성 파일이 포함 된 폴더를 지정 합니다. 3 단계에서이 매개 변수에 사용한 것과 같은 값을 사용 합니다.  <br/> | `-ConfigurationLocation "c:\users\admin\ desktop\PSTCollection\Configuration"` <br/> |

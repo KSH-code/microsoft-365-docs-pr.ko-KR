@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: 1b45c82f-26c8-44fb-9f3b-b45436fe2271
 description: 준수 경계를 사용 하 여 eDiscovery 관리자가 검색할 수 있는 사용자 콘텐츠 위치를 제어 하는 Office 365 조직 내에 논리적 경계를 만듭니다. 준수 경계는 검색 권한 필터링 (규정 준수 보안 필터 라고도 함)을 사용 하 여 특정 사용자가 검색할 수 있는 사서함, SharePoint 사이트 및 OneDrive 계정을 제어 합니다.
-ms.openlocfilehash: bd167246bc43cba20a444594a2309ac888c734fc
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 9ca390dfc96307e6323e897e762813719f2b3ac0
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597475"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42069749"
 ---
 # <a name="set-up-compliance-boundaries-for-ediscovery-investigations-in-office-365"></a>Office 365에서 eDiscovery 조사에 대한 준수 경계 설정
 
@@ -31,7 +31,7 @@ ms.locfileid: "41597475"
   
 다음 그림의 예제를 사용 하 여 규정 준수 경계의 작동 방식을 알아봅니다.
   
-![준수 경계는 eDiscovery 사례에 대 한 액세스를 제어 하는 기관 및 관리 역할 그룹에 대 한 액세스를 제어 하는 검색 권한 필터로 구성 됩니다.](media/5c206cc8-a6eb-4d6b-a3a5-21e158791f9a.png)
+![준수 경계는 eDiscovery 사례에 대 한 액세스를 제어 하는 기관 및 관리 역할 그룹에 대 한 액세스를 제어 하는 검색 권한 필터로 구성 됩니다.](../media/5c206cc8-a6eb-4d6b-a3a5-21e158791f9a.png)
   
 이 예에서 Contoso b 2는 두 개의 자회사, 커피 및 Coho Winery으로 구성 되는 Office 365 조직입니다. 비즈니스에서는 eDiscovery mangers 및 investigators가 해당 에이전시에서 Exchange 사서함, OneDrive 계정 및 SharePoint 사이트만 검색할 수 있어야 합니다. 또한 eDiscovery 관리자 및 investigators는 해당 에이전시의 eDiscovery 사례만 볼 수 있을 뿐 이며 구성원 인 경우에만 액세스할 수 있습니다. 준수 경계가 이러한 요구 사항을 충족 하는 방식은 다음과 같습니다.
   
@@ -162,9 +162,9 @@ New-ComplianceSecurityFilter -FilterName "Coho Winery Security Filter" -Users "C
     
 2. EDiscovery 사례 목록에서 만든 사례 이름을 클릭 합니다.
     
-3. **이 사례** 플라이 아웃 관리 페이지의 **역할 그룹 관리**에서 아이콘](media/8ee52980-254b-440b-99a2-18d068de62d3.gif) **추가**를 ![클릭 합니다.
+3. **이 사례** 플라이 아웃 관리 페이지의 **역할 그룹 관리**에서 아이콘](../media/8ee52980-254b-440b-99a2-18d068de62d3.gif) **추가**를 ![클릭 합니다.
     
-    ![EDiscovery 사례의 구성원으로 역할 그룹 추가](media/f8b4b557-01b9-4388-85be-b5b5ab7c5629.png)
+    ![EDiscovery 사례의 구성원으로 역할 그룹 추가](../media/f8b4b557-01b9-4388-85be-b5b5ab7c5629.png)
   
 4. 역할 그룹 목록에서 3 단계에서 만든 역할 그룹 중 하나를 선택 하 고 **추가**를 클릭 합니다.
     

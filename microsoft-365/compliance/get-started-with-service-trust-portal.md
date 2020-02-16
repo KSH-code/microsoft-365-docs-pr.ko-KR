@@ -14,12 +14,12 @@ mscollection: M365-security-compliance
 ms.custom: Adm_O365
 ms.assetid: f30e2353-0bd6-41ed-8347-eea1fb8d2662
 description: Office 365, Azure 및 Dynamics 365 Online 규정 준수 보고서의 경우 타사 감사를 보려면 Microsoft에서 고객 데이터를 안전 하 게 보호 하는 방법과 이러한 온라인 서비스를 사용할 때 ISO, HIPAA, NIST, FINRA, GDPR 및 FedRAMP를 준수 하는 방법을 확인 하세요.
-ms.openlocfilehash: d8347a20543664a1de86001709f068bf39b1cb5d
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 865b16dfc5e1878a9bc51f8d84ef8c0128f39298
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41596345"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42073161"
 ---
 # <a name="get-started-with-the-microsoft-service-trust-portal"></a>Microsoft Service Trust Portal 시작
 
@@ -56,11 +56,11 @@ Microsoft Service Trust Portal은 Microsoft 보안, 개인 정보 보호 및 규
 
 서비스 신뢰 포털 기능 및 콘텐츠는 주 메뉴에서 액세스할 수 있습니다.
   
-![서비스 보안 포털 메뉴](media/STPMenus1.png)
+![서비스 보안 포털 메뉴](../media/STPMenus1.png)
 
 다음 섹션에서는 주 메뉴의 각 항목에 대해 설명 합니다.
   
-### <a name="service-trust-portal"></a>서비스 보안 포털
+### <a name="service-trust-portal"></a>Service Trust Portal
 
 **서비스 신뢰 포털** 링크에 홈 페이지가 표시 됩니다. 이를 통해 홈 페이지로 빠르게 다시 이동할 수 있습니다.
 
@@ -126,13 +126,13 @@ Microsoft 클라우드에서 보안, 규정 준수 및 개인 정보 보호에 �
 
 서비스 트러스트 포털 페이지의 오른쪽 위에 있는 돋보기를 클릭 하 여 상자를 확장 하 고 검색 용어 **를 입력 한 다음 enter 키를**누릅니다. 검색 상자에 검색 용어가 표시 되 고 아래 나열 된 검색 결과가 포함 된 **검색** 페이지가 표시 됩니다.
   
-![Service Trust Portal - 필터를 적용하여 문서 검색](media/86b754e1-c63c-4514-89ac-d014bf334140.png)
+![Service Trust Portal - 필터를 적용하여 문서 검색](../media/86b754e1-c63c-4514-89ac-d014bf334140.png)
 
 기본적으로 검색 시 문서 결과가 반환 됩니다. 드롭다운 목록을 사용 하 여 표시 되는 문서 목록을 구체화 하 여 결과를 필터링 할 수 있습니다. 여러 필터를 사용 하 여 문서 목록의 범위를 좁힐 수 있습니다. 필터에는 특정 클라우드 서비스, 준수 범주 또는 보안 관행, 지역 및 산업이 포함 됩니다. 문서 이름 링크를 클릭 하 여 문서를 다운로드 합니다.
   
 준수 관리자에서 검색 용어와 관련 된 평가의 제어를 나열 하려면 **준수 관리자**를 클릭 합니다. 검색 결과에는 평가를 만든 날짜, 평가 그룹의 이름, 적용 가능한 Microsoft 클라우드 서비스 및 해당 컨트롤이 Microsoft 또는 고객의 관리 인지 여부가 표시 됩니다. 준수 관리자의 평가에서 컨트롤을 보려면 컨트롤의 이름을 클릭 합니다.
   
-![Service Trust Portal - 준수 관리자 컨트롤에서 검색](media/bafb811a-68ce-40b5-ad16-058498fe5439.png)
+![Service Trust Portal - 준수 관리자 컨트롤에서 검색](../media/bafb811a-68ce-40b5-ad16-058498fe5439.png)
   
 > [!NOTE]
 > 서비스 신뢰 포털 보고서 및 문서는 게시 후 12 개월 이상 동안 또는 새 버전의 문서가 사용 가능 해질 때까지 다운로드할 수 있습니다.
@@ -161,7 +161,7 @@ Microsoft 클라우드에서 보안, 규정 준수 및 개인 정보 보호에 �
 
 서비스 신뢰 포털을 사용 하면 다양 한 언어로 페이지 콘텐츠를 볼 수 있습니다. 페이지 언어를 변경 하려면 페이지 왼쪽 아래 모서리에 있는 지구 아이콘을 클릭 하 고 원하는 언어를 선택 하면 됩니다. 
   
-![Service Trust Portal - 지역화된 콘텐츠 옵션](media/b50c677e-a886-4267-9eca-915d880ead7a.png)
+![Service Trust Portal - 지역화된 콘텐츠 옵션](../media/b50c677e-a886-4267-9eca-915d880ead7a.png)
   
 ## <a name="feedback"></a>피드백
 
@@ -169,4 +169,4 @@ Microsoft 클라우드에서 보안, 규정 준수 및 개인 정보 보호에 �
   
 여러분의 의견은 중요 합니다. 페이지 아래쪽에 있는 사용자 의견 단추를 클릭 하 여 사용자가 수행 하거나 선호 하지 않는 사항에 대 한 의견을 보내거나, 제품 또는 제품 기능을 개선 하는 데 필요한 제안을 제공 합니다.
   
-![사용자 의견의 종류](media/5a949f4c-cd2d-4258-aa33-394f3f9feb7b.jpg)
+![사용자 의견의 종류](../media/5a949f4c-cd2d-4258-aa33-394f3f9feb7b.jpg)

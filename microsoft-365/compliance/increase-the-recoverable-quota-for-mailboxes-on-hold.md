@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: a8bdcbdd-9298-462f-b889-df26037a990c
 description: '보관 사서함을 사용 하도록 설정 하 고 자동 확장 보관을 설정 하 여 Office 365에서 사서함에 대 한 복구 가능한 항목 폴더의 크기를 늘립니다. '
-ms.openlocfilehash: 4b93c8be01e9d84fb2c2bf93ed67b2ea1b18e812
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 37d0e783f3b3a5157fe4a7a9b7d512b09c05d32c
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597935"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42072931"
 ---
 # <a name="increase-the-recoverable-items-quota-for-mailboxes-on-hold"></a>보류된 사물함의 복구 가능한 항목 할당량 증가
 
@@ -96,15 +96,15 @@ EAC 또는 Exchange Online PowerShell을 사용 하 여 보존 정책을 만들 
   
 ### <a name="use-the-eac-to-create-a-retention-policy"></a>EAC를 사용하여 보존 정책 만들기
   
-1. EAC에서 **준수 관리** \> **보존 정책**으로 이동한 ![다음 추가](media/ITPro-EAC-AddIcon.gif) **아이콘 추가를 클릭 합니다** .
+1. EAC에서 **준수 관리** \> **보존 정책**으로 이동한 ![다음 추가](../media/ITPro-EAC-AddIcon.gif) **아이콘 추가를 클릭 합니다** .
     
 2. **새 보존 정책** 페이지의 **이름**에서 **MRM Policy for Mailboxes on Hold** 등 보존 정책의 목적을 설명하는 이름을 입력합니다.  
     
-3. **보존 태그**에서 ![추가](media/ITPro-EAC-AddIcon.gif)아이콘 **추가를 클릭 합니다** .
+3. **보존 태그**에서 ![추가](../media/ITPro-EAC-AddIcon.gif)아이콘 **추가를 클릭 합니다** .
     
 4. 보존 태그 목록에서 1단계에서 만든 복구 가능한 항목 RPT를 선택한 다음 **추가**를 클릭합니다.
     
-    ![사용자 지정 복구 가능한 항목 보존 태그 선택](media/eb49866b-bdef-4fcd-a6d9-01607c01249b.png)
+    ![사용자 지정 복구 가능한 항목 보존 태그 선택](../media/eb49866b-bdef-4fcd-a6d9-01607c01249b.png)
   
 5. 보존 정책에 추가할 추가적인 보존 태그를 선택합니다. 예를 들어 기존 MRM 정책에 포함되어 있는 것과 동일한 태그를 추가하는 것이 좋습니다.
     
@@ -114,7 +114,7 @@ EAC 또는 Exchange Online PowerShell을 사용 하 여 보존 정책을 만들 
     
     보존 정책에 연결된 보존 태그가 세부 정보 창에 표시된다는 점에 유의하시기 바랍니다.
     
-    ![보존 정책에 연결된 보존 태그가 세부 정보 창에 표시됩니다.](media/dad1c8f4-9928-4d6d-991a-6f6c5194eceb.png)
+    ![보존 정책에 연결된 보존 태그가 세부 정보 창에 표시됩니다.](../media/dad1c8f4-9928-4d6d-991a-6f6c5194eceb.png)
   
 ### <a name="use-exchange-online-powershell-to-create-a-retention-policy"></a>Exchange Online PowerShell을 사용 하 여 보존 정책 만들기
   
@@ -139,7 +139,7 @@ New-RetentionPolicy "MRM Policy for Mailboxes on Hold"  -RetentionPolicyTagLinks
   
 1. **받는 사람** \> **사서함**으로 이동 합니다.
     
-2. 목록 보기에서 보존 정책을 적용할 사서함을 선택 하 고 편집 아이콘](media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif) **편집** ![을 클릭 합니다.
+2. 목록 보기에서 보존 정책을 적용할 사서함을 선택 하 고 편집 아이콘](../media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif) **편집** ![을 클릭 합니다.
     
 3. **사용자 사서함** 페이지에서 **사서함 기능**을 클릭합니다.
     

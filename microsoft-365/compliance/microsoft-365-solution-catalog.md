@@ -11,12 +11,12 @@ ms.service: o365-seccomp
 localization_priority: Normal
 description: 포함 된 내용, 가져오는 방법 및 다음 단계를 포함 하 여 Microsoft 365 솔루션 카탈로그에 대해 알아봅니다.
 ms.collection: M365-security-compliance
-ms.openlocfilehash: e147ac6ac17a9fdd395aa0b1a00bd8f630cd10c1
-ms.sourcegitcommit: 3e93676223948a1d2209ff2b7ce7a91b18817260
+ms.openlocfilehash: 31ebd472a5ed33ab6046b9831e02c095d52721a2
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41891981"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42071364"
 ---
 # <a name="microsoft-365-solution-catalog"></a>Microsoft 365 솔루션 카탈로그
 
@@ -30,17 +30,17 @@ Microsoft 365의 규정 준수 솔루션은 종단 간 규정 준수 시나리�
 
 솔루션 카탈로그는 Microsoft 365 구독에서 사용할 수 있는 각 준수 솔루션에 대 한 정보 카드를 포함 하는 섹션으로 구성 되어 있습니다. 각 섹션에는 준수 영역별로 그룹화 된 솔루션의 카드가 포함 되어 있습니다.
 
-![Microsoft 365 솔루션 카탈로그 홈 페이지](media/m365-solution-catalog-home.png)
+![Microsoft 365 솔루션 카탈로그 홈 페이지](../media/m365-solution-catalog-home.png)
 
 솔루션 카드에 대해 **보기** 를 선택 하면 준수 솔루션 및 시작 방법에 대 한 자세한 정보가 표시 됩니다. 이 정보에는 개요, 사전 구성 요구 사항, 학습 리소스, 탐색 창에 카드를 고정 하는 데 사용할 수 있는 컨트롤 및 솔루션을 링크, 전자 메일 또는 Microsoft 팀 메시지로 공유 하기 위한 옵션이 포함 됩니다.
 
-![Microsoft 365 통신 준수 솔루션](media/m365-solution-catalog-communication-compliance.png)
+![Microsoft 365 통신 준수 솔루션](../media/m365-solution-catalog-communication-compliance.png)
 
 ## <a name="information-protection--governance-section"></a>정보 보호 & 거 버 넌 스 섹션
 
 **Information protection & 거 버 넌 스** 에서는 Microsoft 365 준수 솔루션을 사용 하 여 조직의 데이터를 보호 하 고 제어 하는 방법을 한눈에 파악할 수 있습니다.
 
-![Microsoft 365 솔루션 카탈로그 정보 보호 및 거 버 넌 스 섹션](media/m365-solution-catalog-information-protection-governance.png)
+![Microsoft 365 솔루션 카탈로그 정보 보호 및 거 버 넌 스 섹션](../media/m365-solution-catalog-information-protection-governance.png)
 
 여기에서 다음 솔루션에 대 한 카드를 볼 수 있습니다.
 
@@ -53,7 +53,7 @@ Microsoft 365의 규정 준수 솔루션은 종단 간 규정 준수 시나리�
 
 홈 페이지의 **참가자 위험 관리** 섹션에는 손상을 초래 하기 전에 조직에서 내부 위험을 식별 하 고 분석 하 고 작업을 수행 하는 방법을 한눈에 파악할 수 있습니다.
 
-![Microsoft 365 솔루션 카탈로그 참가자 위험 관리 섹션](media/m365-solution-catalog-insider-risk-management.png)
+![Microsoft 365 솔루션 카탈로그 참가자 위험 관리 섹션](../media/m365-solution-catalog-insider-risk-management.png)
 
 여기에서 다음 솔루션에 대 한 카드를 볼 수 있습니다.
 
@@ -64,7 +64,7 @@ Microsoft 365의 규정 준수 솔루션은 종단 간 규정 준수 시나리�
 
 홈 페이지의 **검색 & 응답** 섹션에서는 조직에서 관련 데이터를 사용 하 여 규정 준수 문제를 신속 하 게 찾고 검토 하 고 대응 하는 방법을 한눈에 확인할 수 있습니다.
 
-![Microsoft 365 솔루션 카탈로그 검색 및 응답 섹션](media/m365-solution-catalog-discovery-response.png)
+![Microsoft 365 솔루션 카탈로그 검색 및 응답 섹션](../media/m365-solution-catalog-discovery-response.png)
 
 여기에서 다음 솔루션에 대 한 카드를 볼 수 있습니다.
 

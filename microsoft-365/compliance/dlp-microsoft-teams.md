@@ -1,5 +1,7 @@
 ---
 title: 데이터 손실 방지 및 Microsoft 팀
+f1.keywords:
+- NOCSH
 ms.author: chrfox
 author: chrfox
 manager: laurawi
@@ -13,12 +15,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: 이제 Microsoft 팀 채팅 및 채널에 DLP 정책을 적용할 수 있습니다. 이 문서를 읽으면 작동 방식에 대해 자세히 알아볼 수 있습니다.
-ms.openlocfilehash: 55a13d44ab3cff777ee8ed4610d746c3649bf558
-ms.sourcegitcommit: 3401f90721e6f7c65152a31c5be1bb91bfe641c0
+ms.openlocfilehash: 30436659b8b1bd336823e8dc6be06c8fbc8e08e3
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/11/2020
-ms.locfileid: "41022363"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42075331"
 ---
 # <a name="data-loss-prevention-and-microsoft-teams"></a>데이터 손실 방지 및 Microsoft 팀
 
@@ -42,17 +44,17 @@ ms.locfileid: "41022363"
 
 [Exchange, outlook, 웹용 outlook](data-loss-prevention-policies.md#policy-evaluation-in-exchange-online-outlook-and-outlook-on-the-web), [SharePoint Online, 비즈니스용 OneDrive 사이트](data-loss-prevention-policies.md#policy-evaluation-in-onedrive-for-business-and-sharepoint-online-sites)및 [Office 데스크톱 클라이언트](data-loss-prevention-policies.md#policy-evaluation-in-the-office-desktop-programs)에서 dlp가 작동 하는 방식과 마찬가지로, 작업이 DLP 정책과 충돌할 때 정책 팁이 표시 됩니다. 정책 팁의 예는 다음과 같습니다.
 
-![팀의 차단 된 메시지 알림](media/dlp-teams-blockedmessage-notification.png)
+![팀의 차단 된 메시지 알림](../media/dlp-teams-blockedmessage-notification.png)
 
 이 경우 보낸 사람은 Microsoft 팀 채널에서 주민 등록 번호를 공유 하려고 했습니다. 어떤 작업을 **수행할 수 있나요?** link에서는이 문제를 해결 하기 위한 옵션을 제공 하는 대화 상자를 엽니다. 이 경우 보낸 사람은 정책을 재정의 하도록 선택 하거나 관리자에 게 문의 하 여 검토 하 고 해결 하도록 할 수 있습니다.
 
-![차단 된 메시지 해결 옵션](media/dlp-teams-blockedmessage-possibleactions.png)
+![차단 된 메시지 해결 옵션](../media/dlp-teams-blockedmessage-possibleactions.png)
 
 조직에서는 사용자가 DLP 정책을 재정의할 수 있도록 선택할 수 있습니다. 그리고 DLP 정책을 구성할 때 기본 정책 팁을 사용 하거나 조직에 대 한 [정책 팁을 사용자 지정할](#to-customize-policy-tips) 수 있습니다. 
 
 예를 들어 보낸 사람이 팀 채널에서 주민 등록 번호를 공유 하는 경우, 받는 사람에 게 표시 되는 결과는 다음과 같습니다.
 
-![메시지 차단 됨](media/dlp-teams-blockedmessage-notification-to-user.png)
+![메시지 차단 됨](../media/dlp-teams-blockedmessage-notification-to-user.png)
 
 " **설명** 합니다." 링크를 선택 하면 메시지가 차단 된 이유를 설명 하는 DLP 정책에 대 한 [문서](data-loss-prevention-policies.md) 를 열 수 있습니다.
 
@@ -66,9 +68,9 @@ ms.locfileid: "41022363"
 
 3. 정책을 선택 하 고 **정책 설정**옆에서 **편집**을 선택 합니다.
 
-4. 새 규칙을 만들거나 정책에 대 한 기존 규칙을 편집 합니다.<br/>![정책에 대 한 규칙 편집](media/dlp-teams-editrule.png)<br/>
+4. 새 규칙을 만들거나 정책에 대 한 기존 규칙을 편집 합니다.<br/>![정책에 대 한 규칙 편집](../media/dlp-teams-editrule.png)<br/>
 
-5. **사용자 알림** 탭에서 **전자 메일 텍스트 사용자 지정** 및/또는 **정책 팁 텍스트 옵션 사용자 지정** 을 선택 합니다.<br/>![사용자 알림 및 정책 팁 사용자 지정](media/dlp-teams-editrule-usernotifications.png)<br/>  
+5. **사용자 알림** 탭에서 **전자 메일 텍스트 사용자 지정** 및/또는 **정책 팁 텍스트 옵션 사용자 지정** 을 선택 합니다.<br/>![사용자 알림 및 정책 팁 사용자 지정](../media/dlp-teams-editrule-usernotifications.png)<br/>  
 
 6. 전자 메일 알림 및/또는 정책 팁에 사용할 텍스트를 지정 하 고 **저장**을 선택 합니다. 
 
@@ -84,9 +86,9 @@ ms.locfileid: "41022363"
 
 2. **데이터 손실 방지** > **정책을**선택 합니다. 
 
-3. 정책을 선택 하 고 **위치**아래의 값을 확인 합니다. **팀 채팅 및 채널 메시지가**표시 되 면 모든 설정이 완료 됩니다. 그렇지 않으면 **편집**을 클릭 합니다.<br/>![기존 정책에 대 한 위치](media/dlp-teams-editexistingpolicy.png)<br/>
+3. 정책을 선택 하 고 **위치**아래의 값을 확인 합니다. **팀 채팅 및 채널 메시지가**표시 되 면 모든 설정이 완료 됩니다. 그렇지 않으면 **편집**을 클릭 합니다.<br/>![기존 정책에 대 한 위치](../media/dlp-teams-editexistingpolicy.png)<br/>
 
-4. **상태** 열에서 **팀 채팅 및 채널 메시지**에 대 한 정책을 설정 합니다.<br/>![팀 채팅 및 채널에 대 한 DLP](media/dlp-teams-addteamschatschannels.png)<br/>
+4. **상태** 열에서 **팀 채팅 및 채널 메시지**에 대 한 정책을 설정 합니다.<br/>![팀 채팅 및 채널에 대 한 DLP](../media/dlp-teams-addteamschatschannels.png)<br/>
 
 5. 모든 계정의 기본 설정을 유지 하거나 포함 하거나 제외할 계정을 지정 합니다.
 
@@ -102,11 +104,11 @@ ms.locfileid: "41022363"
 
 2. **데이터 손실 방지** > **정책** > 및**정책 만들기를**선택 합니다. 
 
-3. [서식 파일](data-loss-prevention-policies.md#dlp-policy-templates)을 선택 하 고 **다음**을 선택 합니다.<br/>이 예제에서는 미국 개인 식별이 가능한 정보 데이터 서식 파일을 선택 했습니다.<br/>![DLP 정책에 대 한 개인 정보 서식 파일](media/dlp-teams-createnewpolicy-template.png)<br/>
+3. [서식 파일](data-loss-prevention-policies.md#dlp-policy-templates)을 선택 하 고 **다음**을 선택 합니다.<br/>이 예제에서는 미국 개인 식별이 가능한 정보 데이터 서식 파일을 선택 했습니다.<br/>![DLP 정책에 대 한 개인 정보 서식 파일](../media/dlp-teams-createnewpolicy-template.png)<br/>
 
 4. **정책 이름** 지정 탭에서 정책의 이름과 설명을 입력 하 고 **다음**을 선택 합니다. 
 
-5. **위치 선택** 탭에서 모든 위치의 기본 설정을 유지 하거나, **특정 위치 선택 허용**을 선택 하 고 **다음**을 선택 합니다.<br/>특정 위치를 선택 하는 경우 DLP 정책에 대해이를 선택한 후 **다음**을 선택 합니다.<br/>![DLP 정책 위치](media/dlp-teams-selectlocationsnewpolicy.png)<br/>
+5. **위치 선택** 탭에서 모든 위치의 기본 설정을 유지 하거나, **특정 위치 선택 허용**을 선택 하 고 **다음**을 선택 합니다.<br/>특정 위치를 선택 하는 경우 DLP 정책에 대해이를 선택한 후 **다음**을 선택 합니다.<br/>![DLP 정책 위치](../media/dlp-teams-selectlocationsnewpolicy.png)<br/>
     > [!NOTE]
     > 중요 한 정보가 포함 된 문서가 잘못 공유 되지 않도록 하려면 **팀 채팅 및 채널 메시지**와 함께 **SharePoint 사이트** 와 **OneDrive 계정이** 설정 되어 있는지 확인 합니다.
     > Microsoft 팀의 채널은 Exchange Online 기능에 따라 강력 하 게 작동 합니다. 채널 콘텐츠에 적용 해야 하는 정책에 대해 **Exchange 전자 메일** 위치도 사용 하도록 설정 되어 있는지 확인 합니다.  
@@ -114,9 +116,9 @@ ms.locfileid: "41022363"
 
 6. **정책 설정** 탭의 **보호 하려는 콘텐츠 형식 사용자 지정**에서 기본 설정을 유지 하거나 **고급 설정 사용**을 선택 하 고 **다음**을 선택 합니다. 고급 설정을 선택 하는 경우 정책에 대 한 규칙을 만들거나 편집할 수 있습니다. 이에 대 한 도움말을 보려면 [단순 설정 및 고급 설정을](data-loss-prevention-policies.md#simple-settings-vs-advanced-settings)참조 하세요.
 
-7.  **정책 설정** 탭의 **중요 한 정보를 검색 하는 경우 어떤**작업을 수행 하 시겠습니까?에서 설정을 검토 합니다. (여기에서 기본 [정책 팁과 전자 메일 알림을](use-notifications-and-policy-tips.md)유지 하거나 사용자 지정할 수 있습니다.)<br/>![팁 및 알림이 포함 된 DLP 정책 설정](media/dlp-teams-policysettings-tipsemails.png)<br/>설정 검토 또는 편집을 마친 후 **다음**을 선택 합니다.
+7.  **정책 설정** 탭의 **중요 한 정보를 검색 하는 경우 어떤**작업을 수행 하 시겠습니까?에서 설정을 검토 합니다. (여기에서 기본 [정책 팁과 전자 메일 알림을](use-notifications-and-policy-tips.md)유지 하거나 사용자 지정할 수 있습니다.)<br/>![팁 및 알림이 포함 된 DLP 정책 설정](../media/dlp-teams-policysettings-tipsemails.png)<br/>설정 검토 또는 편집을 마친 후 **다음**을 선택 합니다.
 
-8. **정책 설정** 탭의 정책을 **설정 하거나 먼저 테스트를 수행**하 시겠습니까?에서 정책을 켤 지, [먼저](data-loss-prevention-policies.md#roll-out-dlp-policies-gradually-with-test-mode)테스트를 시작할지, 지금은 해제를 선택 하 고 **다음**을 선택 합니다.<br/>![정책을 켤 지 여부를 지정 합니다.](media/dlp-teams-policysettings-turnonnow.png)<br/>
+8. **정책 설정** 탭의 정책을 **설정 하거나 먼저 테스트를 수행**하 시겠습니까?에서 정책을 켤 지, [먼저](data-loss-prevention-policies.md#roll-out-dlp-policies-gradually-with-test-mode)테스트를 시작할지, 지금은 해제를 선택 하 고 **다음**을 선택 합니다.<br/>![정책을 켤 지 여부를 지정 합니다.](../media/dlp-teams-policysettings-turnonnow.png)<br/>
 
 9. **설정 검토** 탭에서 새 정책에 대 한 설정을 검토 합니다. **편집** 을 선택 하 여 변경 내용을 적용 합니다. 작업이 완료 되 면 **만들기**를 선택 합니다. 
 

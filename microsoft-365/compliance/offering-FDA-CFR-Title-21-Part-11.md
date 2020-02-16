@@ -1,7 +1,7 @@
 ---
 title: 음식 및 마약 관리 CFR 제목 21 부
 description: Microsoft는 고객이 이러한 음식 및 마약 관리 규정을 준수할 수 있도록 지원 합니다.
-keywords: Microsoft 365, 규정 준수, 제품
+keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: fdde59b04c7f52f163028aa7ba4759e226fccb55
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 07a722101aaf9a3413e5821459ea9a980a8b76fe
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602455"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42071285"
 ---
 # <a name="food-and-drug-administration-cfr-title-21-part-11"></a>음식 및 마약 관리 CFR 제목 21 부
 
@@ -50,9 +50,10 @@ FDA CFR 타이틀을 가속화 하는 방법을 알아봅니다. 21 배포: [AZU
 CFR 제목 21 부를 준수 하기 위한 인증을 사용 하지 않지만 다음 Microsoft enterprise 클라우드 서비스는 독립 된 타사 감사를 준수 했으며,이로 인해 고객이 규정을 준수할 지 원하는 데 도움이 될 수 있습니다. 이러한 서비스는 다음과 같습니다.
 
 - Azure: 클라우드 서비스, 저장소, 트래픽 관리자, 가상 컴퓨터 및 가상 네트워크
+- Azure DevOps
 - Intune
 - [Dynamics 365 및 Dynamics 365 U.S. Government](https://aka.ms/d365-compliance-list)
-- [Office 365 및 Office 365 U.S. Government](https://go.microsoft.com/fwlink/p/?LinkID=2077751)
+- Office 365 및 Office 365 U.S. Government
 
 ## <a name="audits-reports-and-certificates"></a>감사, 보고서 및 인증서
 

@@ -15,13 +15,13 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: ''
-ms.openlocfilehash: 78767318a8799ec88e15452f70bceaa5466a9cbf
-ms.sourcegitcommit: c2a36b16e354e20db5fd6275175ca856eae55bfc
+description: 고급 eDiscovery 작업은 다양 한 고급 eDiscovery 작업을 수행 하는 데 관련 된 장기 실행 프로세스의 상태를 추적 하는 데 도움이 됩니다.
+ms.openlocfilehash: eca2eff32b54f783c6c983a8a20237db2faf2240
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "41960334"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42071575"
 ---
 # <a name="manage-jobs-in-advanced-ediscovery"></a>Advanced eDiscovery에서 작업 관리
 
@@ -40,7 +40,7 @@ ms.locfileid: "41960334"
 |내보내기를 위해 데이터 준비 | 사용자가 검토 집합에서 문서를 내보냅니다. 내보내기 프로세스가 완료 되 면 내보낸 데이터를 로컬 컴퓨터에 다운로드할 수 있습니다. 자세한 내용은 [수출 사례 데이터](exporting-data-ediscover20.md)를 참조 하십시오. | 
 |오류 해결 준비 |사용자가 파일을 선택 하 고 사례 **처리** 탭의 오류 보기에 새 오류 수정을 만드는 경우 프로세스의 첫 번째 단계는 처리 오류가 발생 한 파일을 Microsoft 클라우드의 Azure Storage 위치에 업로드 하는 것입니다. 이 작업은 업로드 프로세스의 진행 상태를 추적 합니다. 오류 수정 워크플로 작업에 대 한 자세한 내용은 [데이터를 처리할 때 오류 수정을](error-remediation.md)참조 하십시오. | 
 |검색 미리 보기 준비 | 사용자가 새 검색을 만들고 실행 한 후에 검색 도구에서 미리 볼 수 있도록 검색 쿼리와 일치 하는 항목의 예제 하위 집합을 준비 합니다. 검색 결과 미리 보기는 검색 효율성을 결정 하는 데 도움이 됩니다.  자세한 내용은 [사례에 대 한 데이터 수집](collecting-data-for-ediscovery.md#view-search-results-and-statistics)을 참조 하십시오. | 
-|Custodian 데이터 다시 인덱싱 | Custodian를 사례에 추가 하면 custodian에서 선택한 데이터 원본의 모든 부분 인덱싱된 항목이 *고급 인덱싱*프로세스에 의해 reindexed 됩니다. 이 작업은 서비스 케이스의 **처리** 탭에 있는 인덱스 보기에서 **인덱스 업데이트** 를 클릭 한 경우에도 트리거됩니다. 자세한 내용은 [고급 인덱싱 custodian 데이터](indexing-custodian-data.md)를 참조 하세요.
+|Custodian 데이터 다시 인덱싱 | Custodian를 사례에 추가 하면 custodian에서 선택한 데이터 원본의 모든 부분 인덱싱된 항목이 *고급 인덱싱*프로세스에 의해 reindexed 됩니다. 또한이 작업은 서비스 케이스의 **처리** 탭에서 **인덱스 업데이트** 를 클릭 하 고 custodian 속성 플라이 아웃 페이지에서 특정 custodian에 대 한 인덱스를 업데이트할 때 트리거됩니다. 자세한 내용은 [고급 인덱싱 custodian 데이터](indexing-custodian-data.md)를 참조 하세요.
 |분석 실행 | 사용자가 중복 검색, 전자 메일 스레딩 분석 및 테마 분석과 같은 고급 eDiscovery 분석 도구를 실행 하 여 검토 집합의 데이터를 분석 합니다. 자세한 내용은 [분석 데이터를 검토 집합에서](analyzing-data-in-review-set.md)참조 하십시오. | 
 |문서 태그 지정 | 이 작업은 검토 집합의 문서를 검토할 때 **태그 지정 패널** 에서 **태그 지정 작업 시작** 을 클릭 하면 트리거됩니다. 사용자는 검토 집합에서 문서에 태그를 지정한 다음 문서 보기 패널에서이를 일괄 선택 하 여이 작업을 시작할 수 있습니다. 자세한 내용은 [검토 집합의 태그 문서](tagging-documents.md)를 참조 하세요. | 
 |||

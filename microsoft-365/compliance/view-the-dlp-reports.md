@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Office 365의 DLP 보고서를 사용 하 여 DLP 정책 일치, 재정의 또는 가양성의 수를 빠르게 확인할 수 있습니다. 시간이 경과 함에 따라 작업 시간을 초과 하 고 있는지 여부를 확인할 수 있습니다. 다양 한 방법으로 보고서를 필터링 합니다. 그래프의 선에서 점을 선택 하 여 추가 세부 정보를 확인 합니다.
-ms.openlocfilehash: 1605e2ebed9ada5903402ae5facdb40ce2f12c39
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: c00047680f684e3845c4383face09c2cee579721
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601235"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42068767"
 ---
 # <a name="view-the-reports-for-data-loss-prevention"></a>데이터 손실 방지에 대한 보고서 보기
 
@@ -59,19 +59,19 @@ DLP (데이터 손실 방지) 정책을 만든 후에는 해당 정책이 의도
   
 보안 &amp; 및 준수 센터 \> **보고서** \> **대시보드에서**이러한 보고서를 찾을 수 있습니다.
   
-![DLP 정책 일치 보고서](media/117d20c9-d379-403f-ad68-1f5cd6c4e5cf.png)
+![DLP 정책 일치 보고서](../media/117d20c9-d379-403f-ad68-1f5cd6c4e5cf.png)
   
 ## <a name="view-the-justification-submitted-by-a-user-for-an-override"></a>재정의를 위해 사용자가 전송한 사유 보기
 
 사용자가 DLP 정책에서이를 재정의할 수 있도록 허용 하는 경우 false 긍정 및 override 보고서를 사용 하 여 정책 설명에서 사용자가 전송한 텍스트를 볼 수 있습니다.
   
-![DLP 거짓 긍정 및 재정의 보고서의 세부 정보에 있는 사유 필드](media/e11e3126-026d-4e77-a16d-74a0686d1fa3.png)
+![DLP 거짓 긍정 및 재정의 보고서의 세부 정보에 있는 사유 필드](../media/e11e3126-026d-4e77-a16d-74a0686d1fa3.png)
   
 ## <a name="take-action-on-insights-and-recommendations"></a>정보 제공 및 권장 사항에 대 한 조치 수행
 
 보고서는 위험 경고 아이콘을 클릭 하 여 잠재적 문제에 대 한 세부 정보를 확인 하 고 해결 가능한 조치를 취할 수 있는 정보를 표시 합니다.
   
-![수행할 세부 정보 및 작업을 확인 하는 insights 아이콘 클릭](media/51782036-7299-4960-8175-75c2b1637159.png)
+![수행할 세부 정보 및 작업을 확인 하는 insights 아이콘 클릭](../media/51782036-7299-4960-8175-75c2b1637159.png)
   
 ## <a name="permissions-for-dlp-reports"></a>DLP 보고서에 대 한 사용 권한
 

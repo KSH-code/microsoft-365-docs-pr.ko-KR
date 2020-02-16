@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: 이 문서에서는 Microsoft 365의 새 데이터 조사 (미리 보기) 도구에 대해 설명 합니다.
-ms.openlocfilehash: cd60b16f6d0f968c0c87f3e44ee2f643c90ebb10
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 1dc0a98208d553a4ea94703b98f982dd8e19167f
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597795"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42071083"
 ---
 # <a name="overview-of-data-investigations-preview-in-microsoft-365"></a>Microsoft 365의 데이터 조사 개요 (미리 보기)
 
@@ -37,7 +37,7 @@ ms.locfileid: "41597795"
 
 다음 섹션에서는 데이터 조사 (미리 보기)에서 기본 제공 워크플로의 각 단계에 대해 설명 합니다. 다음 스크린샷은 *높은 위험 (금융 문서 누출*) 이라는 조사에 대 한 **홈** 탭을 보여 줍니다. 
 
-![데이터 조사 도구의 워크플로](media/DataInvestigationsWorkflow.png)
+![데이터 조사 도구의 워크플로](../media/DataInvestigationsWorkflow.png)
 
 ## <a name="search-for-sensitive-malicious-or-misplaced-data"></a>중요, 악성 또는 잘못 배치 되는 데이터 검색
 

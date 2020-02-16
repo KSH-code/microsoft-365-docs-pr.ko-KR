@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 365에서 콘텐츠를 보존 하는 보존 레이블을 만들 때 보존 기간이 끝나면 처리 검토를 트리거하도록 선택할 수 있습니다.
-ms.openlocfilehash: d308dcc58bbacf118374bbabdebf27c35ad2d73a
-ms.sourcegitcommit: 30ffa701a26879182ac16baba67ea2dfaf680fba
+ms.openlocfilehash: ee9ea34ee8527558af4d249364b539d3fa1f2fdd
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41836718"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42075418"
 ---
 # <a name="overview-of-disposition-reviews"></a>처리 검토 개요
 
@@ -56,20 +56,20 @@ Microsoft 365 준수 센터, Microsoft 365 보안 센터 또는 Office 365 보�
   
 처리 검토에는 Exchange 사서함, SharePoint 사이트, OneDrive 계정 및 Office 365 그룹의 콘텐츠가 포함 될 수 있습니다. 해당 위치에서 처리 검토를 대기 중인 콘텐츠는 검토자가 콘텐츠를 영구적으로 삭제 하도록 선택한 후에만 삭제 됩니다.
   
-![보안 및 준수 센터의 Dispositions 페이지](media/Retention-Dispositions-v2-page.png)
+![보안 및 준수 센터의 Dispositions 페이지](../media/Retention-Dispositions-v2-page.png)
 
 
 ## <a name="setting-up-the-disposition-review-by-creating-a-retention-label"></a>보존 레이블을 만들어 처리 검토 설정
 
 이 워크플로는 처리 검토를 설정 하는 기본 워크플로입니다. 이 흐름은 보존 레이블을 게시 한 다음 사용자가 수동으로 적용 하는 것을 보여 줍니다. 또는 처리 검토를 트리거하는 보존 레이블을 콘텐츠에 자동으로 적용할 수 있습니다.
   
-![처리가 작동 하는 방식 흐름을 보여 주는 차트](media/5fb3f33a-cb53-468c-becc-6dda0ec52778.png)
+![처리가 작동 하는 방식 흐름을 보여 주는 차트](../media/5fb3f33a-cb53-468c-becc-6dda0ec52778.png)
   
 처리 검토는 Office 365에서 보존 레이블을 만들 때 사용할 수 있는 옵션입니다. 이 옵션은 보존 정책에서는 사용할 수 없지만 콘텐츠를 보존 하도록 구성 된 보존 레이블만 사용 하는 경우에만 가능 합니다.
   
 보존 레이블에 대 한 자세한 내용은 [보존 레이블 개요](labels.md)를 참조 하세요.
   
-![레이블에 대 한 보존 설정](media/a16dd202-8862-40ac-80ff-6fee974de5da.png)
+![레이블에 대 한 보존 설정](../media/a16dd202-8862-40ac-80ff-6fee974de5da.png)
  
 > [!NOTE]
 > **검토할 준비가 된 항목이 있을 때 이러한 사용자에 게 알리도록**옵션을 지정 하는 경우 사용자를 지정 합니다. 이 옵션은 Office 365 그룹을 지원 하지 않습니다.
@@ -80,7 +80,7 @@ Microsoft 365 준수 센터, Microsoft 365 보안 센터 또는 Office 365 보�
 
 보존 레이블을 선택한 후에는 다음 페이지에 해당 레이블에 대 한 모든 보류 중인 dispositions 표시 됩니다.
 
-![처리 옵션](media/Retention-Disposition-options-v2.png)
+![처리 옵션](../media/Retention-Disposition-options-v2.png)
 
 검토자는 다음과 같은 작업을 수행할 수 있습니다. 
   
@@ -128,18 +128,18 @@ Microsoft 365 준수 센터, Microsoft 365 보안 센터 또는 Office 365 보�
     
 - **삭제 된 항목** 탭에는 이미 처리 검토를 수행한 후에 영구 지운 항목이 표시 됩니다. 여기에는 위의 섹션에 나와 있는 것 처럼 영구 삭제 프로세스가 며칠 정도 걸릴 수 있으므로 여기에 표시 됩니다. 다른 보존 레이블이 적용 되거나 검토의 일부로 보존 기간이 확장 된 항목은 여기에 표시 되지 않습니다.
 
-![처리 탭](media/Retention-Disposition-tabs.png)
+![처리 탭](../media/Retention-Disposition-tabs.png)
     
 ### <a name="filter-the-disposition-views"></a>처리 보기 필터링
 
 보존 레이블 또는 시간 범위로 이러한 보기를 필터링 할 수 있습니다. 보류 중인 dispositions의 경우 시간 범위는 만료 날짜를 기준으로 합니다. 삭제 된 항목의 경우에는 시간 범위가 삭제 날짜를 기준으로 합니다.
   
-![처리 필터 옵션](media/Retention-filter-options.png)
+![처리 필터 옵션](../media/Retention-filter-options.png)
 
 ### <a name="export-the-disposition-items"></a>처리 항목 내보내기
 
 또한 두 보기의 항목을 Excel에서 열 수 있는 .csv 파일로 내보낼 수도 있습니다.
   
-![Excel에서 내보낸 처리 데이터](media/08e3bc09-b132-47b4-a051-a590b697e725.png)
+![Excel에서 내보낸 처리 데이터](../media/08e3bc09-b132-47b4-a051-a590b697e725.png)
   
 

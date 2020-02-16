@@ -17,18 +17,18 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: 많은 조직에서는 이미 Windows Server FCI(파일 분류 인프라)의 분류 속성, SharePoint의 문서 속성 또는 타사 시스템을 통해 적용된 문서 속성을 사용하여 중요한 정보를 식별하고 분류하는 프로세스를 유지하고 있습니다. 이 정책이 조직에 대해 설명하는 경우 Office 365에서 Windows Server FCI 또는 다른 시스템을 통해 문서에 적용된 속성을 인식하는 DLP 정책을 만들어 DLP 정책이 특정 FCI 또는 기타 속성 값을 갖는 Office 문서에 적용되도록 할 수 있습니다.
-ms.openlocfilehash: 1ae70571817de1df3a48b38a44da1ed1e3695750
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: bfcbc30af3a3dac304dc57551e6246ec9e6554c0
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597705"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42070635"
 ---
 # <a name="create-a-dlp-policy-to-protect-documents-with-fci-or-other-properties"></a>FCI 또는 기타 속성을 갖는 문서를 보호하는 DLP 정책 만들기
 
 Office 365에서 DLP(데이터 손실 방지) 정책을 사용하여 중요한 정보를 식별하고, 모니터링하고, 보호할 수 있습니다. 많은 조직에서는 이미 Windows Server FCI(파일 분류 인프라)의 분류 속성, SharePoint의 문서 속성 또는 타사 시스템을 통해 적용된 문서 속성을 사용하여 중요한 정보를 식별하고 분류하는 프로세스를 유지하고 있습니다. 이 정책이 조직에 대해 설명하는 경우 Office 365에서 Windows Server FCI 또는 다른 시스템을 통해 문서에 적용된 속성을 인식하는 DLP 정책을 만들어 DLP 정책이 특정 FCI 또는 기타 속성 값을 갖는 Office 문서에 적용되도록 할 수 있습니다.
   
-![Office 365 외부 분류 시스템을 보여 주는 다이어그램](media/59ad0ac1-4146-4919-abd1-c74d8508d25e.png)
+![Office 365 외부 분류 시스템을 보여 주는 다이어그램](../media/59ad0ac1-4146-4919-abd1-c74d8508d25e.png)
   
 예를 들어 조직에서 Windows Server FCI를 사용하여 주민 등록 번호와 같은 PII(개인 식별이 가능한 정보)를 사용하여 문서를 식별한 다음, 문서에 나오는 PII의 종류 및 횟수에 따라 **개인 식별 정보** 속성을 **높음**, **보통**, **낮음**, **공용** 또는 **PII 아님**으로 설정하여 문서를 분류할 수 있습니다. Office 365에서 해당 속성이 **높음** 및 **보통**과 같은 특정 값으로 설정된 문서를 식별한 다음 해당 파일에 대한 액세스 차단과 같은 작업을 수행하는 DLP 정책을 만들 수 있습니다. 해당 속성이 **낮음**으로 설정된 경우에는 전자 메일 알림 전송 등의 다른 작업을 수행하는 다른 규칙을 동일한 정책에 만들 수도 있습니다. 이러한 방식으로 Office 365의 DLP는 Windows Server FCI와 통합 되며, Windows Server 기반 파일 서버에서 Office 365를 업로드 하거나 공유 하는 Office 문서를 보호 하는 데 도움이 될 수 있습니다.
   
@@ -58,11 +58,11 @@ Office 365의 DLP는 검색 크롤러를 사용하여 사이트의 중요한 정
     
 3. 왼쪽 탐색 창의 검색 **관리** \> 페이지 **에서 검색** \> **스키마 관리**를 선택 합니다.
     
-    ![검색 관리 페이지의 SharePoint 관리 센터](media/6bcd3aec-d11a-4f8c-9987-8f35da14d80b.png)
+    ![검색 관리 페이지의 SharePoint 관리 센터](../media/6bcd3aec-d11a-4f8c-9987-8f35da14d80b.png)
   
 4. **관리 속성** 페이지 \> 에서 **새 관리 속성**을 설정 합니다.
     
-    ![관리 속성 페이지에서 새 관리 속성 단추가 강조 표시 된](media/b161c764-414c-4037-83ed-503a49fb4410.png)
+    ![관리 속성 페이지에서 새 관리 속성 단추가 강조 표시 된](../media/b161c764-414c-4037-83ed-503a49fb4410.png)
   
 5. 속성의 이름 및 설명을 입력합니다. 이 이름은 DLP 정책에 표시되는 이름입니다.
     
@@ -74,7 +74,7 @@ Office 365의 DLP는 검색 크롤러를 사용하여 사이트의 중요한 정
     
 9. **크롤링 속성 선택** 대화 상자 \> 에서 DLP 정책 \> **확인**에 사용할 Windows Server fci 속성 또는 기타 속성에 해당 하는 크롤링 속성을 찾아 선택 합니다.
     
-    ![크롤링된 속성 선택](media/aeda1dce-1342-48bf-9594-a8e4f230e8aa.png)
+    ![크롤링된 속성 선택](../media/aeda1dce-1342-48bf-9594-a8e4f230e8aa.png)
   
 10. 페이지 \> 맨 아래에서 **확인을**선택 합니다.
     
@@ -96,7 +96,7 @@ Office 365의 DLP는 검색 크롤러를 사용하여 사이트의 중요한 정
   
 이러한 cmdlet에 대 한 자세한 내용은 [Office 365 보안 &amp; 및 준수 센터 cmdlet](https://go.microsoft.com/fwlink/?LinkID=799772&amp;clcid=0x409)를 참조 하세요.
   
-1. [원격 PowerShell을 사용하여 Office 365 보안 및 준수 센터에 연결](https://go.microsoft.com/fwlink/?LinkID=799771&amp;clcid=0x409)
+1. [원격 PowerShell을 사용하여 Office 365 보안 &amp; 준수 센터에 연결하십시오.](https://go.microsoft.com/fwlink/?LinkID=799771&amp;clcid=0x409)
     
 2. 을 사용 하 `New-DlpCompliancePolicy`여 정책을 만듭니다.
 
@@ -120,7 +120,7 @@ New-DlpComplianceRule -Name FCI_PII_content-High,Moderate -Policy FCI_PII_policy
   
 규칙 하나는 **개인 식별 정보** 속성이 **높은** 또는 **보통**인 콘텐츠에 대한 액세스를 차단합니다. 또 다른 규칙은 **개인 식별 정보** 속성이 **낮음**인 콘텐츠에 대해 알림을 보냅니다.
   
-![방금 만든 두 규칙을 보여 주는 새로운 DLP 정책 대화](media/5c56c13b-62a5-4f25-8eb7-ce83a844bb12.png)
+![방금 만든 두 규칙을 보여 주는 새로운 DLP 정책 대화](../media/5c56c13b-62a5-4f25-8eb7-ce83a844bb12.png)
   
 ## <a name="after-you-create-the-dlp-policy"></a>DLP 정책을 만든 후
 

@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: c6f016cb-409f-4ae9-911c-1395cf0c86ea
 description: '작업 상태 및 프로세스 요약을 포함 하 여 Office 365 Advanced eDiscovery에서 실행 되는 프로세스 모듈의 결과를 찾는 방법에 대해 알아봅니다.  '
-ms.openlocfilehash: 2c492b9c8dfa2b6851620c434f1a5b4bbddc2e4e
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 95e5e8f5ddc24bf0b8bf38800289abd233c655ad
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597225"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42068849"
 ---
 # <a name="view-process-module-results-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery의 프로세스 모듈 결과 보기
 
@@ -34,7 +34,7 @@ ms.locfileid: "41597225"
 
 **준비** \> **** 프로세스 \> **결과**에서 페이지에는 현재 상태가 (프로세스가 현재 실행 중인 경우) 또는 다음 예제와 같이 마지막 프로세스 상태 작업 상태가 표시 됩니다.
   
-![프로세스 모듈 작업 상태](media/9430f9e7-a4dd-47c7-ac2e-2c6a60fc948b.png)
+![프로세스 모듈 작업 상태](../media/9430f9e7-a4dd-47c7-ac2e-2c6a60fc948b.png)
   
 선택한 프로세스 옵션에 따라 표시 되는 작업이 다를 수 있습니다. 
   
@@ -82,7 +82,7 @@ ms.locfileid: "41597225"
     
     **미리 태그가 지정** 된 파일을 표시 하는 데 실패 한 경우에도 해당 됩니다. 
     
-![프로세스 모듈 요약](media/2086a691-9e3d-4117-beb2-a5c3a9a4cc94.png)
+![프로세스 모듈 요약](../media/2086a691-9e3d-4117-beb2-a5c3a9a4cc94.png)
   
 ## <a name="process-summary-accumulated-and-last-charts"></a>누적 프로세스 요약 및 마지막 차트
 
@@ -106,7 +106,7 @@ ms.locfileid: "41597225"
 
 준비 \> 프로세스 \> 결과 \> 에서 마지막 프로세스 오류가 발생 하면 마지막 세션에 있는 오류 또는 수행 된 작업에 대 한 세부 정보가 표시 됩니다.
   
-![프로세스 모듈 오류](media/4771d0f4-4217-445a-9ba4-8b6541c5ad09.png)
+![프로세스 모듈 오류](../media/4771d0f4-4217-445a-9ba4-8b6541c5ad09.png)
   
 ## <a name="see-also"></a>참고 항목
 

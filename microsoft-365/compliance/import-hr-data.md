@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: 관리자는 조직의 HR (인적 자원) 시스템에서 직원 데이터를 Microsoft 365로 가져오는 데이터 커넥터를 설정할 수 있습니다. 이를 통해 참가자 위험 관리 정책에 HR 데이터를 사용 하 여 조직에 내부적인 위협을 초래할 수 있는 특정 사용자의 작업을 검색 하는 데 도움을 받을 수 있습니다.
-ms.openlocfilehash: b70ea48a7784c6cfc9bff4131fdecab339d4d417
-ms.sourcegitcommit: 570ad1c7c334476ecec00dc355dfe52e8c2bb87b
+ms.openlocfilehash: 4b01571d5a56d53861481dac6cb399e227ca0db6
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41862038"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42073040"
 ---
 # <a name="set-up-a-connector-to-import-hr-data"></a>HR 데이터를 가져올 커넥터 설정
 
@@ -86,7 +86,7 @@ CSV 파일의 첫 번째 행 또는 머리글 행에는 필요한 열 이름이 
 
 5. **파일 매핑** 페이지에서 열 머리글 이름 3 개 (해당 하는 각 상자에 2 단계에서 만든 CSV 파일의 *매개 변수* 라고도 함)를 입력 합니다. 이름은 대/소문자를 구분 하지 않습니다. 앞에서 설명한 것 처럼 이러한 상자에 입력 하는 이름은 CSV 파일의 매개 변수 이름과 일치 해야 합니다. 예를 들어 다음 스크린샷에서는 2 단계에 표시 된 예제 CSV 파일 예제에 나와 있는 매개 변수 이름을 보여 줍니다.
 
-   ![열 머리글 이름이 CSV 파일의 이름과 일치 합니다.](media/HRConnectorWizard3.png)
+   ![열 머리글 이름이 CSV 파일의 이름과 일치 합니다.](../media/HRConnectorWizard3.png)
 
 6. **검토** 페이지에서 설정을 검토 하 고 **마침을** 클릭 하 여 커넥터를 만듭니다.
 
@@ -98,7 +98,7 @@ CSV 파일의 첫 번째 행 또는 머리글 행에는 필요한 열 이름이 
 
 8. 방금 만든 HR 커넥터를 클릭 하 여 커넥터에 대 한 속성 및 기타 정보를 포함 하는 플라이 아웃 페이지를 표시 합니다. 
 
-   ![새 HR 커넥터에 대 한 플라이 아웃 페이지](media/HRConnectorWizard7.png)
+   ![새 HR 커넥터에 대 한 플라이 아웃 페이지](../media/HRConnectorWizard7.png)
 
    아직 수행 하지 않은 경우 **Azure 앱 id** 및 **커넥터 작업 id**의 값을 복사할 수 있습니다. 스크립트를 실행 하려면 다음 단계에서이를 수행 해야 합니다. 또한 플라이 아웃 페이지에서 스크립트를 다운로드 하거나 다음 단계에 있는 링크를 사용 하 여 다운로드할 수 있습니다.
 
@@ -153,11 +153,11 @@ HR 커넥터를 만들고 스크립트를 실행 하 여 HR 데이터를 업로�
 
 2. **커넥터 탭을** 클릭 한 다음 HR 커넥터를 선택 하 여 커넥터에 대 한 속성 및 정보가 포함 된 플라이 아웃 페이지를 표시 합니다.
 
-   ![속성 및 상태가 포함 된 HR 커넥터 플라이 아웃 페이지](media/HRConnectorFlyout1.png)
+   ![속성 및 상태가 포함 된 HR 커넥터 플라이 아웃 페이지](../media/HRConnectorFlyout1.png)
 
 3. **진행 중**에서 **로그 다운로드** 링크를 클릭 하 여 커넥터의 상태 로그를 열거나 저장 합니다. 이 로그는 스크립트가 실행 될 때마다 정보를 포함 하며 CSV 파일의 데이터를 Microsoft 클라우드에 업로드 합니다. 
 
-   ![HR 커넥터 로그 파일은 업로드 된 CSV 파일의 번호 행을 표시 합니다.](media/HRConnectorLogFile.png)
+   ![HR 커넥터 로그 파일은 업로드 된 CSV 파일의 번호 행을 표시 합니다.](../media/HRConnectorLogFile.png)
 
    **레코드 저장** 필드에는 CSV 파일에서 업로드 한 행의 수가 표시 됩니다. 예를 들어 CSV 파일에 4 개의 행이 포함 되어 있는 경우 스크립트에서 CSV 파일의 모든 행을 성공적으로 업로드 한 경우에는 **레코드에 저장** 된 필드의 값이 4가 됩니다.
 
@@ -193,7 +193,7 @@ Windows의 작업 스케줄러 응용 프로그램에서 매일 자동으로 스
 
 7. **작업** 탭을 선택 하 고 **새로 만들기**를 클릭 한 후 다음 작업을 수행 합니다.
 
-   ![HR 커넥터 스크립트에 대해 새로 예약 된 작업을 만들기 위한 작업 설정](media/HRConnectorScheduleTask1.png)
+   ![HR 커넥터 스크립트에 대해 새로 예약 된 작업을 만들기 위한 작업 설정](../media/HRConnectorScheduleTask1.png)
 
    a. **작업** 드롭다운 목록에서 **프로그램 시작** 을 선택 했는지 확인 합니다.
 
@@ -203,13 +203,13 @@ Windows의 작업 스케줄러 응용 프로그램에서 매일 자동으로 스
 
    d. 시작 위치 **(선택 사항)** 상자에 4 단계에서 실행 한 스크립트의 폴더를 붙여 넣습니다. 예를 들면 `C:\Users\contosoadmin\Desktop\Scripts`와 같습니다.
 
-   e-learning. **확인** 을 클릭 하 여 새 작업에 대 한 설정을 저장 합니다.
+   e. **확인** 을 클릭 하 여 새 작업에 대 한 설정을 저장 합니다.
 
 8. **작업 만들기** 창에서 **확인** 을 클릭 하 여 예약 된 작업을 저장 합니다. 사용자 계정 자격 증명을 입력 하 라는 메시지가 표시 될 수 있습니다.
 
    새 작업이 작업 스케줄러 라이브러리에 표시 됩니다.
 
-   ![새 작업이 작업 스케줄러 라이브러리에 표시 됨](media/HRConnectorTaskSchedulerLibrary.png)
+   ![새 작업이 작업 스케줄러 라이브러리에 표시 됨](../media/HRConnectorTaskSchedulerLibrary.png)
 
    스크립트를 마지막으로 실행 했을 때와 실행할 예약 된 다음 시간을 표시 합니다. 작업을 두 번 클릭 하 여 편집할 수 있습니다.
 

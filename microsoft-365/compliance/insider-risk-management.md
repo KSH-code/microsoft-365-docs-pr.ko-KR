@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 0da96fe4148ffc30ac8e2f7854157675786cd321
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 5a3401b80469fa6d22d973204703a6b012ebb11b
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41582877"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42072761"
 ---
 # <a name="insider-risk-management-in-microsoft-365-preview"></a>Microsoft 365의 참가자 위험 관리 (미리 보기)
 
@@ -56,7 +56,7 @@ Microsoft 365의 참가자 위험 관리는 모든 범위의 서비스와 타사
 
 Microsoft 365의 참가자 위험 관리의 내부 위험 활동 및 준수 문제를 확인 하 고 해결 하려면 다음 워크플로를 사용 합니다.
 
-![참가자 위험 관리 워크플로](media/insider-risk-workflow.png)
+![참가자 위험 관리 워크플로](../media/insider-risk-workflow.png)
 
 ### <a name="policies"></a>정책도
 
@@ -70,7 +70,7 @@ Microsoft 365의 참가자 위험 관리의 내부 위험 활동 및 준수 문�
 
 자세한 내용은 [참가자 위험 관리 정책을](insider-risk-management-policies.md)참조 하세요.
 
-![참가자 위험 관리 정책 대시보드](media/insider-risk-policy-dashboard.png)
+![참가자 위험 관리 정책 대시보드](../media/insider-risk-policy-dashboard.png)
 
 ### <a name="alerts"></a>경고
 
@@ -84,7 +84,7 @@ Microsoft 365의 참가자 위험 관리의 내부 위험 활동 및 준수 문�
 
 자세한 내용은 [참가자 위험 관리 경고](insider-risk-management-alerts.md)를 참조 하세요.
 
-![참가자 위험 관리 경고 대시보드](media/insider-risk-alerts-dashboard.png)
+![참가자 위험 관리 경고 대시보드](../media/insider-risk-alerts-dashboard.png)
 
 ### <a name="triage"></a>결과
 
@@ -92,7 +92,7 @@ Microsoft 365의 참가자 위험 관리의 내부 위험 활동 및 준수 문�
 
 경고는 새 사례를 열거나, 기존 사례에 알림을 할당 하거나, 경고를 해제 하는 방법으로 해결 됩니다. 알림 필터를 사용 하면 상태, 심각도 또는 검색 된 시간을 기준으로 알림을 쉽게 식별할 수 있습니다. 심사 프로세스의 일부로 검토자가 정책 일치에 대 한 알림 세부 정보를 확인 하 고 일치 항목에 연결 된 사용자 활동을 확인 하 고, 알림의 심각도를 확인 하 고, 사용자 프로필 정보를 검토할 수 있습니다.
 
-![참가자 위험 관리 문제 분류](media/insider-risk-triage.png)
+![참가자 위험 관리 문제 분류](../media/insider-risk-triage.png)
 
 ### <a name="investigate"></a>확인
 
@@ -106,7 +106,7 @@ Microsoft 365의 참가자 위험 관리의 내부 위험 활동 및 준수 문�
 
 자세한 내용은 [참가자 위험 관리 사례](insider-risk-management-cases.md)를 참조 하세요.
 
-![참가자 위험 관리 조사](media/insider-risk-investigate.png)
+![참가자 위험 관리 조사](../media/insider-risk-investigate.png)
 
 ### <a name="action"></a>동작은
 

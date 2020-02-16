@@ -16,12 +16,12 @@ ms.assetid: 5986b9e1-c824-4f8f-9b7d-a2b0ae2a7fe9
 ms.collection:
 - M365-security-compliance
 description: 아직 Office 365 조 직을 새 OME 기능으로 이동 하지 않았지만 이미 OME을 배포한 경우이 문서의 정보가 조직에 적용 됩니다. 조직에 적합 한 시기에 새 OME 기능으로 바로 이동 하는 계획을 수립 하는 것이 좋습니다. 자세한 내용은 Azure Information Protection 기반으로 구축 된 새 Office 365 메시지 암호화 기능 설치를 참조 하세요. 새 기능이 먼저 작동 하는 방식에 대해 자세히 알아보려면 Office 365 메시지 암호화를 참조 하세요. 이 문서의 나머지 부분에서는 새 OME 기능이 출시 되기 전에 발생 하는 OME 동작을 나타냅니다.
-ms.openlocfilehash: cb5315c99b586f250ecd2e5ee51ee6f4534e8bff
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 29bebb89bf8fcfed25e5348789d80d244a044b6f
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41585727"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42072241"
 ---
 # <a name="legacy-information-for-office-365-message-encryption"></a>Office 365 메시지 암호화 레거시 정보
 
@@ -53,7 +53,7 @@ Office 365 메시지 암호화는 Microsoft Azure 권한 관리 (Azure RMS)를 �
   
 다음 다이어그램은 암호화 및 암호 해독 프로세스를 통한 전자 메일 메시지의 흐름이 요약되어 있습니다.
   
-![암호화된 전자 메일의 경로를 보여 주는 다이어그램](media/O365-Office365MessageEncryption-Concept.png)
+![암호화된 전자 메일의 경로를 보여 주는 다이어그램](../media/O365-Office365MessageEncryption-Concept.png)
   
 자세한 내용은 [새 OME 기능을 출시 하기 전에 레거시 Office 365 메시지 암호화에 대 한 서비스 정보](legacy-information-for-message-encryption.md#LegacyServiceInfo)를 참조 하세요.
   
@@ -87,7 +87,7 @@ Exchange Online 및 Exchange Online Protection 관리자는 암호화 된 메시
   
 다음 예에서는 전자 메일 첨부 파일에 포함된 ContosoPharma의 사용자 지정 로고를 보여 줍니다.
   
-![암호화된 메시지 보기 페이지 예제](media/TA-OME-3attachment2.jpg)
+![암호화된 메시지 보기 페이지 예제](../media/TA-OME-3attachment2.jpg)
   
  **조직의 브랜드를 사용 하 여 암호화 전자 메일 메시지와 암호화 포털을 사용자 지정 하려면**
   

@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: 5974f3c2-89fe-4c5f-ac7b-57f214437f7e
 description: '표시 된 작업 옵션의 정의를 포함 하 여 Office 365 Advanced eDiscovery에서 분석 프로세스의 결과를 볼 수 있는 위치를 파악 합니다.  '
-ms.openlocfilehash: 9e06770135afd62a39115c9365a698df4493bd72
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: bac173beebe2fdf3d07122bfca04cbaaee6410e6
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597255"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42069191"
 ---
 # <a name="view-analyze-results-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery에서 결과 분석 보기
 
@@ -34,7 +34,7 @@ Advanced eDiscovery에서는 아래에 설명 된 것 처럼 다양 한 표시�
 
 문제 ** \> 분석 \> \> 결과 작업 상태**에서 분석 프로세스 실행 중 및 이후 상태가 표시 됩니다. 
   
-![작업 상태를 분석 합니다.](media/d0372978-ce08-4f4e-a1fc-aa918ae44364.png)
+![작업 상태를 분석 합니다.](../media/d0372978-ce08-4f4e-a1fc-aa918ae44364.png)
   
 표시 되는 작업은 선택한 옵션에 따라 다를 수 있습니다. 
   
@@ -73,7 +73,7 @@ Advanced eDiscovery에서는 아래에 설명 된 것 처럼 다양 한 표시�
     
 **첨부 파일** 결과에는 고유 하거나 중복 된 형식에 따라 첨부 파일 수가 표시 됩니다. 
   
-![전자 메일 스레드 및 중복 근처](media/54491303-0ee3-4739-b42e-d1ee486842fd.png)
+![전자 메일 스레드 및 중복 근처](../media/54491303-0ee3-4739-b42e-d1ee486842fd.png)
   
 ## <a name="see-also"></a>참고 항목
 

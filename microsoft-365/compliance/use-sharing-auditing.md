@@ -20,12 +20,12 @@ ms.collection:
 - SPO_Content
 ms.assetid: 50bbf89f-7870-4c2a-ae14-42635e0cfc01
 description: '공유는 SharePoint Online 및 비즈니스용 OneDrive의 주요 활동입니다. 이제 관리자는 Office 365 감사 로그의 공유 감사를 사용 하 여 조직 외부의 사용자와 공유 되는 리소스를 식별할 수 있습니다. '
-ms.openlocfilehash: f979bd9a3b796fc3e9e84872df7e0b6071aefc03
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 5aecf1e6126ebd118474054ea6536ed0725e980e
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597285"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42069243"
 ---
 # <a name="use-sharing-auditing-in-the-office-365-audit-log"></a>외부 사용자와 공유된 리소스를 찾기 위한 감사 공유
 
@@ -99,13 +99,13 @@ ms.locfileid: "41597285"
     
 2. 회사 또는 학교 계정을 사용하여 Office 365에 로그인합니다.
     
-3. 보안 & 준수 센터의 왼쪽 창에서 **검색**  > **감사 로그 검색**을 클릭 합니다.
+3. 보안 및 규정 준수 센터의 왼쪽 창에서 **검색**  > **감사 로그 검색**을 클릭하십시오.
     
     **감사 로그 검색** 페이지가 표시됩니다. 
     
 4. **활동**아래에서 **공유 및 액세스 요청 활동** 을 클릭 하 여 공유 관련 이벤트를 검색 합니다. 
     
-    ![활동 아래에서 공유 및 액세스 요청 작업을 선택 합니다.](media/46bb25b7-1eb2-4adf-903a-cc9ab58639f9.png)
+    ![활동 아래에서 공유 및 액세스 요청 작업을 선택 합니다.](../media/46bb25b7-1eb2-4adf-903a-cc9ab58639f9.png)
   
 5.  날짜 및 시간 범위를 선택 하 여 해당 기간 내에 발생 한 공유 이벤트를 찾습니다. 
     

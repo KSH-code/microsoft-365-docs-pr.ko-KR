@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 3be5e4054e34cabb61505d48524feb2dbbfd0e44
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 4db0b40d485c4c1107bdcb0d49616cadb15b1915
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600575"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42072181"
 ---
 # <a name="load-non-office-365-data-into-evidence"></a>비 Office 365 데이터를 증거에 로드
 
@@ -52,11 +52,11 @@ ms.locfileid: "41600575"
 
 2. **파일 업로드** 단추를 클릭 하 여 비 Office 365 데이터 가져오기 마법사를 시작 합니다.
 
-![파일 업로드](media/574f4059-4146-4058-9df3-ec97cf28d7c7.png)
+![파일 업로드](../media/574f4059-4146-4058-9df3-ec97cf28d7c7.png)
 
 3. 마법사의 첫 번째 단계에서는 업로드할 파일에 대 한 안전한 Azure blob만 준비 합니다.  준비가 완료 되 면 **다음: 파일 업로드** 단추를 클릭 합니다.
 
-![Office가 아닌 365 데이터 가져오기 준비](media/0670a347-a578-454a-9b3d-e70ef47aec57.png)
+![Office가 아닌 365 데이터 가져오기 준비](../media/0670a347-a578-454a-9b3d-e70ef47aec57.png)
  
 4. **파일 업로드** 단계에서 **파일의 위치에 대 한 경로**를 지정 합니다. 여기서는 가져오기에 사용 하는 비 Office 365 데이터가 있는 위치입니다.  올바른 위치를 설정 하면 AzCopy 명령이 제대로 업데이트 됩니다.
 
@@ -65,11 +65,11 @@ ms.locfileid: "41600575"
 
 5. **클립보드에 복사** 링크를 클릭 하 여 미리 정의 된 명령을 복사 합니다. Windows 명령 프롬프트를 시작 하 고 명령을 붙여 넣은 다음 enter 키를 누릅니다.  파일이 보안 Azure blob 저장소에 업로드 되 고 다음 단계를 진행 합니다.
 
-![비 Office 365 데이터 가져오기에 대 한 파일 업로드](media/3ea53b5d-7f9b-4dfc-ba63-90a38c14d41a.png)
+![비 Office 365 데이터 가져오기에 대 한 파일 업로드](../media/3ea53b5d-7f9b-4dfc-ba63-90a38c14d41a.png)
 
-![AzCopy을 사용 하 여 비 Office 365 데이터 가져오기](media/504e2dbe-f36f-4f36-9b08-04aea85d8250.png)
+![AzCopy을 사용 하 여 비 Office 365 데이터 가져오기](../media/504e2dbe-f36f-4f36-9b08-04aea85d8250.png)
 
 6. 마지막으로 보안 & 준수로 돌아간 **다음: 프로세스 파일** 단추를 클릭 합니다.  이렇게 하면 업로드 된 파일의 처리, 텍스트 추출 및 인덱싱이 시작 됩니다.  여기에서 처리의 진행 상황과 **작업** 탭을 추적할 수 있습니다.  완료 되 면 새 파일을 증거 집합에서 사용할 수 있습니다.  처리가 완료 되 면 마법사를 해제할 수 있습니다.
 
-![Office가 아닌 365 가져오기 프로세스 파일](media/218b1545-416a-4a9f-9b25-3b70e8508f67.png)
+![Office가 아닌 365 가져오기 프로세스 파일](../media/218b1545-416a-4a9f-9b25-3b70e8508f67.png)
 

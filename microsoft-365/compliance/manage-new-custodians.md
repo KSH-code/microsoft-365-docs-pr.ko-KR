@@ -15,19 +15,19 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: ''
-ms.openlocfilehash: 0b6776571f4abafaf8e050fa6c31311df452d90e
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+description: 고급 eDiscovery 사례에서 custodians를 관리 합니다.
+ms.openlocfilehash: f52c32c2eb65a03369064954ac1af6f881ab556f
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41582917"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42071619"
 ---
 # <a name="manage-custodians-in-an-advanced-ediscovery-case"></a>Advanced eDiscovery 사례에서 custodians 관리
 
 Advanced eDiscovery의 Custodians 탭에는 사례에 추가 된 모든 Custodians의 목록이 포함 되어 있습니다. Custodians를 사례에 추가 하 고 나면 각 custodian에 대 한 세부 정보는 Azure Active Directory에서 자동으로 수집 되며 고급 eDiscovery로 볼 수 있습니다.
 
-![Custodians 관리](media/CustodianDetails.PNG)
+![Custodians 관리](../media/CustodianDetails.PNG)
 
 ## <a name="view-custodian-details"></a>Custodian 세부 정보 보기
 
@@ -82,7 +82,7 @@ Custodian와 연결 된 데이터 원본을 업데이트 하려면 다음을 수
   
 3. 목록에서 custodian를 선택 하 고 플라이 아웃 페이지에서 **편집** 을 클릭 합니다.
 
-    ![데이터 원본 편집](media/EditCustodianDataSource.PNG)
+    ![데이터 원본 편집](../media/EditCustodianDataSource.PNG)
   
 4. **데이터 원본 선택** 탭을 클릭 하 여 Custodian의 Exchange 사서함 및 OneDrive 계정에 대 한 설정을 변경 하 고 **데이터 원본 선택을**클릭 합니다.
   
@@ -92,11 +92,11 @@ Custodian와 연결 된 데이터 원본을 업데이트 하려면 다음을 수
   
 6. Custodian에 대해 보류를 사용 하거나 사용 하지 않도록 설정 하려면 **custodial 보존** 을 클릭 합니다.
 
-## <a name="resolve-custodian-processing-errors"></a>Custodian 처리 오류 해결
+## <a name="re-index-custodian-data"></a>Custodian 데이터 다시 인덱싱
 
 법적 조사를 위한 대부분의 eDiscovery 워크플로에서 custodian가 법적 사례에 추가 된 후 custodian 데이터의 하위 집합을 검색 합니다. 파일 크기나 데이터 손상 가능성이 매우 크므로 custodian과 연결 된 데이터 원본에 있는 일부 항목을 부분적으로 인덱싱할 수 있습니다. 고급 eDiscovery의 [고급 인덱싱](indexing-custodian-data.md) 기능을 사용 하는 경우에는 이러한 항목을 요청 시 다시 인덱싱하여 대부분의 부분적으로 인덱싱된 항목을 자동으로 수정할 수 있습니다.
 
-Custodian가 사례에 추가 되 면 custodian와 연결 된 데이터 원본에 있는 데이터는 고급 인덱싱 프로세스에 의해 자동으로 다시 인덱싱됩니다. 즉, 데이터를 다운로드 하 여 수정 하 고 오프 라인으로 검색할 필요 없이 전체 위치에 유지할 수 있습니다. 그러나 법적 사례의 수명 주기 중 새 데이터 원본이 custodian에 연결 될 수 있습니다. 이 경우에는 고급 인덱싱 프로세스를 다시 실행 하 여 custodian 데이터의 인덱스를 다시 만들어 부분적으로 인덱싱된 항목을 수정 하 고 custodian의 데이터에 대 한 인덱스를 업데이트 합니다.
+Custodian가 사례에 추가 되 면 custodian와 연결 된 데이터 원본에 있는 데이터는 고급 인덱싱 프로세스에 의해 자동으로 다시 인덱싱됩니다. 즉, 데이터를 다운로드 하 여 수정 하 고 오프 라인으로 검색할 필요 없이 전체 위치에 유지할 수 있습니다. 그러나 법적 사례의 수명 주기 중 새 데이터 원본은 custodian와 연결 될 수 있습니다. 이 경우에는 고급 인덱싱 프로세스를 다시 실행 하 여 custodian의 데이터를 다시 인덱싱하여 부분적으로 인덱싱된 항목을 수정 하 고 custodian의 데이터에 대 한 인덱스를 업데이트할 수 있습니다.
 
 재 인덱싱 프로세스를 트리거하여 부분적으로 인덱싱된 항목을 처리 하려면 다음을 수행 합니다.
 
@@ -145,4 +145,4 @@ Custodian를 해제 하려면 다음을 수행 합니다.
 
 대량 편집기를 사용 하 여 여러 custodians을 동시에 편집할 수 있습니다. 이 작업을 수행 하려면 **custodians** 탭에서 custodians를 두 개 이상 선택 하 여 벌크 편집기를 표시 한 다음 작업 중 하나를 클릭 하면 됩니다.
 
-![여러 custodians 설정을 편집 하기 위한 플라이 아웃 페이지](media/AeDBulkEditCustodians.png)
+![여러 custodians 설정을 편집 하기 위한 플라이 아웃 페이지](../media/AeDBulkEditCustodians.png)

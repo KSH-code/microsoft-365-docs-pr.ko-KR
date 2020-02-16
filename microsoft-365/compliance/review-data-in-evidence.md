@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 18d67983d4e5e934e606944c1502dd76331812a3
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: dffbc68714470e65557c58ded710ae53d64a3868
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597635"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42070085"
 ---
 # <a name="review-the-data-in-evidence"></a>증거 데이터 검토
 
@@ -48,14 +48,14 @@ ms.locfileid: "41597635"
 
 다음은 문서에 대 한 파일 메타 데이터의 예입니다. 메타 데이터 필드에 대 한 자세한 내용은 [데이터 조사 (Preview)의 문서 메타 데이터 필드](document-metadata-fields.md)를 참조 하십시오.
 
-![파일 메타 데이터 패널](media/Reviewimage2.png)
+![파일 메타 데이터 패널](../media/Reviewimage2.png)
 
 ## <a name="native-view"></a>기본 보기
 
 기본 뷰어에는 문서의 기본 형식으로 가장 정확한 보기가 표시 됩니다. 기본 보기는 수백 가지 파일 형식에서 지원 되며, truest 기본 환경에서 문서를 표시 하는 데 목적이 있습니다. Microsoft Office 파일의 경우 네이티브 뷰어는 웹 버전의 Office 앱을 사용 합니다. 이렇게 하면 Excel의 여러 Office 문서, 수식 및 숨겨진 행/열과 PowerPoint의 메모 보기와 같은 콘텐츠를 볼 수 있습니다.
 
 ![기본 보기
-](media/Reviewimage3.png)
+](../media/Reviewimage3.png)
 
 ## <a name="text-view"></a>텍스트 보기
 
@@ -70,12 +70,12 @@ ms.locfileid: "41597635"
 **텍스트 및 스크롤 막대의 선 카운터 및 검색 결과 강조 표시 예제**
 
 ![텍스트 보기
-](media/Reviewimage4.png)
+](../media/Reviewimage4.png)
 
 **Diff 보기의 예**
 
 ![Diff 보기
-](media/Reviewimage5.png)
+](../media/Reviewimage5.png)
 
 ## <a name="annotate-view"></a>주석 달기 보기
 
@@ -101,7 +101,7 @@ ms.locfileid: "41597635"
 
 **주석 달기 보기의 예**
 
-![주석 달기 보기](media/Reviewimage1.png)
+![주석 달기 보기](../media/Reviewimage1.png)
 
 > [!NOTE]
 > 주석은 증거 집합에 추가 된 문서의 복사본에 적용 됩니다. 라이브 서비스의 원본 문서에는 주석이 추가 되지 않습니다.

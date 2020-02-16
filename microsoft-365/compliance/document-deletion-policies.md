@@ -14,12 +14,12 @@ search.appverid:
 - SPO160
 ms.assetid: 55e8d858-f278-482b-a198-2e62d6a2e6e5
 description: 조직은 규정 준수, 법률 또는 기타 비즈니스 요구 사항으로 인해 일정 기간 동안 문서를 보존 해야 할 수 있습니다. 그러나 조직에서 필요한 것 보다 긴 문서를 보관 하는 경우에는 불필요 한 법적 위험을 생성 합니다. 문서 삭제 정책을 사용 하면 특정 기간이 지난 후에 사이트에서 문서를 삭제 하 여 위험을 줄일 수 있으며, 문서를 만든 후 5 년 동안 사용자의 비즈니스용 OneDrive 사이트에서 문서를 삭제할 수 있습니다.
-ms.openlocfilehash: ac2bdfcd262a673af1078b2ed0a274fcd0b9d3b9
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 60bf7808daad3eaead99ef64ea24be0bcfd9be0e
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595213"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42075225"
 ---
 # <a name="overview-of-document-deletion-policies"></a>문서 삭제 정책 개요
 
@@ -40,7 +40,7 @@ ms.locfileid: "41595213"
     
 문서 삭제 정책 센터를 사용 하 여 문서 삭제 정책을 만들고 관리 합니다. 또는 **엔터프라이즈** 탭에서 [사이트 모음을 만들고](https://go.microsoft.com/fwlink/p/?LinkID=404342) **준수 정책 센터** 를 선택 하 여 수동으로 정책 센터를 만들 수 있습니다. 각 테 넌 트에는 문서 삭제 정책 센터가 하나만 있을 수 있습니다. 
   
-![문서 삭제 정책 센터의 홈 페이지](media/IP-Document-Deletion-Policy-Center-home-page.png)
+![문서 삭제 정책 센터의 홈 페이지](../media/IP-Document-Deletion-Policy-Center-home-page.png)
   
 ## <a name="when-to-use-document-deletion-policies"></a>문서 삭제 정책을 사용 해야 하는 경우
 
@@ -56,7 +56,7 @@ ms.locfileid: "41595213"
   
 문서 삭제 정책은 구조화 된 데이터와 콘텐츠 형식에 가장 적합 한 레코드 관리 또는 정보 관리 정책을 대체 하지 않습니다. 대신, 비즈니스용 OneDrive 사이트 및 팀 사이트와 같은 구조화 되지 않은 데이터의 자동 삭제를 광범위 하 게 관리 해야 하는 경우에는 문서 삭제 정책을 사용 해야 합니다.
   
-![사이트 콘텐츠에 대한 보존 옵션을 보여 주는 다이어그램](media/IP-Retention-policies-for-site-content.png)
+![사이트 콘텐츠에 대한 보존 옵션을 보여 주는 다이어그램](../media/IP-Retention-policies-for-site-content.png)
   
 콘텐츠 형식 정책 또는 목록이나 라이브러리에 대한 정보 관리 정책을 이미 사용하는 사이트에 문서 삭제 정책을 적용하는 경우 문서 삭제 정책이 유효한 동안 해당 정책은 무시됩니다. 즉, 사이트에서 구조화 된 콘텐츠 또는 구조화 되지 않은 콘텐츠에 대 한 정책만 사용 하도록 계획 해야 합니다. 문서 삭제 정책이 다른 정책을 재정의 하는 방법에 대 한 자세한 내용은 [사이트에 대 한 문서 삭제 정책 적용 또는 제거](apply-or-remove-a-document-deletion-policy-for-a-site.md)를 참조 하십시오.
   
@@ -74,13 +74,13 @@ ms.locfileid: "41595213"
     
 정책에 규칙이 둘 이상 포함 되어 있는 경우 사이트 소유자는 콘텐츠에 가장 적합 한 규칙을 선택할 수 있습니다.
   
-![새 삭제 규칙 페이지](media/IP-New-deletion-rule.png)
+![새 삭제 규칙 페이지](../media/IP-New-deletion-rule.png)
   
 ## <a name="policies-and-assignments"></a>정책 및 할당
 
 문서 삭제 정책을 만든 후에는이를 사이트 모음 서식 파일에 할당할 수 있습니다 (예를 들어, 모든 사용자의 OneDrive 사이트가 포함 되도록 비즈니스용 OneDrive 서식 파일에 정책을 할당할 수 있습니다. 사이트 모음 서식 파일에 정책을 할당 하면 나중에 해당 서식 파일에서 만든 사이트 모음 외에도 해당 서식 파일에서 이미 만든 모든 사이트 모음에 적용 됩니다.
   
-![OneDrive 옵션을 표시하는 서식 파일 페이지 선택](media/IP-Choose-a-template.png)
+![OneDrive 옵션을 표시하는 서식 파일 페이지 선택](../media/IP-Choose-a-template.png)
   
 또한 특정 사이트 모음에 정책을 할당할 수 있으며, 이렇게 하면 해당 사이트 모음 서식 파일에 할당 된 모든 정책이 재정의 됩니다. 예를 들어 팀 사이트 서식 파일에 정책을 할당 한 후 해당 서식 파일에서 만든 특정 사이트 모음에 대해 다른 정책 집합을 적용 하 여 다시 정의할 수 있습니다.
   
@@ -106,7 +106,7 @@ ms.locfileid: "41595213"
   
 사이트 모음 또는 사이트 모음 서식 파일에는 하나 이상의 정책이 할당 될 수 있으며 각 정책에는 하나 이상의 규칙이 있을 수 있습니다. 그러나 사이트 마다 활성화 되는 정책은 하나만 있을 수 있으며, 사이트 내의 라이브러리에 대해 언제 든 지 하나의 삭제 규칙만 활성화할 수 있습니다.
   
-![정책 간 관계를 보여 주는 다이어그램](media/IP-Two-policies-four-rules.png)
+![정책 간 관계를 보여 주는 다이어그램](../media/IP-Two-policies-four-rules.png)
   
 ## <a name="document-deletion-policies-are-inherited"></a>문서 삭제 정책이 상속 됨
 

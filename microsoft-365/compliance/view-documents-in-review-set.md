@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: ''
-ms.openlocfilehash: cde55f9dd3a1a9aacc48ba816cd0ef00472dad56
-ms.sourcegitcommit: 2913fd74ad5086c7cac6388447285be9aa5a8e44
+ms.openlocfilehash: 5636e2e6186107bee3a0116d203910bc7b766990
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "41661744"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42069040"
 ---
 # <a name="view-documents-in-a-review-set"></a>검토 집합에서 문서 보기
 
@@ -36,14 +36,14 @@ ms.locfileid: "41661744"
 이 패널을 설정/해제 하 여 문서와 연결 된 다양 한 메타 데이터를 표시할 수 있습니다. 특정 메타 데이터를 표시 하도록 검색 결과 표를 사용자 지정할 수 있지만 데이터를 검토 하는 동안 가로로 스크롤 하기가 어려울 수 있습니다. 사용자는 파일 메타 데이터 패널을 사용 하 여 보기를 전환할 수 있습니다.
 
 ![파일 메타 데이터 패널
-](media/Reviewimage2.png)
+](../media/Reviewimage2.png)
 
 ## <a name="native-view"></a>기본 보기
 
 기본 뷰어에 문서의 가장 다양 한 보기가 표시 됩니다. 이 형식은 수백 개의 파일 형식을 지원 하며, truest을 기본적으로 사용할 수 있는 환경에 표시 하기 위한 것입니다. Microsoft Office 파일용으로 보는 사용자는 Office 앱의 웹 버전을 사용 하 여 문서 설명, Excel 수식, 숨겨진 행/열, PowerPoint 메모 등의 콘텐츠를 표시 합니다.
 
 ![기본 보기
-](media/Reviewimage3.png)
+](../media/Reviewimage3.png)
 
 ## <a name="text-view"></a>텍스트 보기
 
@@ -56,10 +56,10 @@ ms.locfileid: "41661744"
   - Diff 보기에서는 중복 문서 근처를 볼 때 텍스트 차이를 강조 표시 하는 비교 보기를 제공 합니다.
 
 ![텍스트 보기
-](media/Reviewimage4.png)
+](../media/Reviewimage4.png)
 
 ![Diff 보기
-](media/Reviewimage5.png)
+](../media/Reviewimage5.png)
 
 ## <a name="annotate-view"></a>주석 달기 보기
 
@@ -86,7 +86,7 @@ ms.locfileid: "41661744"
   - 검색-사용자가 문서 내에서 검색 하 고 문서 내의 다양 한 방문으로 이동할 수 있습니다.
     
     ![주석 달기 보기
-    ](media/Reviewimage1.png)
+    ](../media/Reviewimage1.png)
 
 ## <a name="dashboard-view"></a>대시보드 보기 
 대시보드 보기를 사용 하 여 검색 결과 표의 데이터를 시각화 하 고 요약할 수 있습니다. 이 보기에서는 사용자 지정 위젯을 만들어 검토 집합에 대 한 분석 및 보고 기능을 직관적이 고 간편 하 게 수행할 수 있습니다. Widget을 만든 후에는 이러한 위젯을 상호 작용 하 여 항목 수를 가져오거나 검색을 만들 수 있습니다. 

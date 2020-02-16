@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: b6f467f938ce14aacb9553b11d51dc63431ab409
-ms.sourcegitcommit: 570ad1c7c334476ecec00dc355dfe52e8c2bb87b
+ms.openlocfilehash: 9a732258e787de3407731f0fdfc98ed07653df71
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41862078"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42074362"
 ---
 # <a name="export-documents-from-a-review-set"></a>검토 집합에서 문서 내보내기
 
@@ -37,7 +37,7 @@ ms.locfileid: "41862078"
 
 검토 집합에서 콘텐츠를 다운로드 하려면 먼저 다운로드 하려는 파일을 선택 하 고 작업 메뉴에서 "다운로드"를 선택 합니다.
 
-![자동으로 생성 되는 컴퓨터 설명 스크린샷](media/eDiscoDownload.png)
+![자동으로 생성 되는 컴퓨터 설명 스크린샷](../media/eDiscoDownload.png)
 
 ## <a name="export-documents-from-a-review-set"></a>검토 집합에서 문서 내보내기
 

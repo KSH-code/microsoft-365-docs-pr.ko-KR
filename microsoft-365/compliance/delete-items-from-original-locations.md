@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: 이 문서에서는 보안 & 준수 센터에서 새 데이터 조사 (미리 보기) 도구를 사용 하 여 원래 위치에서 항목을 삭제 하는 방법을 설명 합니다.
-ms.openlocfilehash: 2efb57fa2e35cffd3cca5e8f44b648018f0daf1b
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 0232a822af0427fcfa669fa1e86558ca54996202
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595323"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42075858"
 ---
 # <a name="delete-items-from-their-original-location-preview"></a>원래 위치에서 항목 삭제 (미리 보기)
 
@@ -52,22 +52,22 @@ ms.locfileid: "41595323"
  
 2. **동작** 을 클릭 한 다음 **원래 위치에서 항목 삭제**를 클릭 합니다.
 
-   ![동작을 클릭 한 다음 원래 위치에서 항목 삭제를 클릭 합니다.](media/DataInvestigationsDeleteItems1.png)
+   ![동작을 클릭 한 다음 원래 위치에서 항목 삭제를 클릭 합니다.](../media/DataInvestigationsDeleteItems1.png)
 
 3. 플라이 아웃 페이지에서 삭제할 항목 및 관련 하위 문서 수를 확인 하 고 **삭제**를 클릭 합니다.
 
-   ![플라이 아웃 페이지에는 삭제를 위해 선택 된 항목 수 및 첨부 된 문서 수가 표시 됩니다.](media/DataInvestigationsDeleteItems2.png)
+   ![플라이 아웃 페이지에는 삭제를 위해 선택 된 항목 수 및 첨부 된 문서 수가 표시 됩니다.](../media/DataInvestigationsDeleteItems2.png)
 
    > [!NOTE]
    > 이전 스크린샷에서 항목 수는 삭제 하기 위해 선택한 항목 수를 나타냅니다. 문서 수는 부모 항목에 첨부 된 모든 파일을 포함 하는 총 항목 수를 나타냅니다. 예를 들어 하나의 전자 메일 메시지를 선택 하 고 해당 메시지에 첨부 된 Word 문서가 있는 경우 **선택한 문서** 아래에 표시 되는 항목 및 문서 수는 **1 개 항목 (문서 2 개)** 일 뿐입니다.
 
 **작업 탭에서** **원래 위치에서 항목 삭제** 작업의 진행 상태를 추적할 수 있습니다. 작업을 클릭 하 여 플라이 아웃 페이지를 표시 합니다.
 
-![원래 위치 작업의 삭제 항목에 대 한 플라이 아웃 페이지](media/DataInvestigationsDeleteItems3.png)
+![원래 위치 작업의 삭제 항목에 대 한 플라이 아웃 페이지](../media/DataInvestigationsDeleteItems3.png)
 
 작업의 항목이 삭제 되 면 작업 상태가 **성공**으로 설정 됩니다. 또한 완료 된 작업의 시간 및 날짜도 표시 됩니다.
 
-![완료 된 항목 삭제 작업](media/DataInvestigationsDeleteItems4.png)
+![완료 된 항목 삭제 작업](../media/DataInvestigationsDeleteItems4.png)
 
 > [!NOTE]
 > **원래 위치에서 항목 삭제** 작업의 **일부가 성공적으로 완료** 된 것으로 표시 될 수 있습니다. 이 작업은 여러 가지 상황에서 발생 합니다. 자세한 내용은이 문서의 부분적으로 [성공한 삭제](#partially-successful-deletions) 섹션을 참조 하십시오.

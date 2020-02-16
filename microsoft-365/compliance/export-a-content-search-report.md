@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 ms.assetid: 5c8c1db6-d8ac-4dbb-8a7a-f65d452169b9
 description: Office 365의 보안 & 준수 센터에서 콘텐츠 검색의 실제 결과를 내보내는 대신 검색 결과 보고서를 내보낼 수 있습니다. 이 보고서에는 검색 결과에 대 한 요약과 내보낼 각 항목에 대 한 자세한 정보가 있는 문서가 포함 되어 있습니다.
-ms.openlocfilehash: a46051210ae4d8b4254d0415668e3b9902bf5589
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 6730a1c406e02de26cbef964e445cfad31c948ec
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595605"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42074395"
 ---
 # <a name="export-a-content-search-report"></a>콘텐츠 검색 보고서 내보내기
 
@@ -100,7 +100,7 @@ ms.locfileid: "41595605"
     검색 결과 보고서를 다운로드 준비 중 이며,이는 보고서 문서가 Microsoft 클라우드의 Azure Storage 영역에 업로드 됨을 의미 합니다. 보고서를 다운로드할 준비가 되 면 세부 정보 창의 **컴퓨터로 보고서 내보내기** 아래에 보고서 **다운로드** 링크가 표시 됩니다. 
     
 > [!NOTE]
-> EDiscovery 사례와 연결 된 콘텐츠 검색에 대 한 보고서를 내보낼 수도 있습니다. 이렇게 하려면 **ediscovery** \> **ediscovery**로 이동 하 여 사례를 선택 하 고 편집 아이콘 **** ![](media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif)편집을 클릭 합니다. **검색 페이지에서** 검색을 선택 하 고 내보내기 검색 결과 아이콘 **** ![](media/47205c65-babd-4b3a-bd7b-98dfd92883ba.png) \> 내보내기를 클릭 하 **여 보고서를 내보냅니다**. 
+> EDiscovery 사례와 연결 된 콘텐츠 검색에 대 한 보고서를 내보낼 수도 있습니다. 이렇게 하려면 **ediscovery** \> **ediscovery**로 이동 하 여 사례를 선택 하 고 편집 아이콘 **** ![](../media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif)편집을 클릭 합니다. **검색 페이지에서** 검색을 선택 하 고 내보내기 검색 결과 아이콘 **** ![](../media/47205c65-babd-4b3a-bd7b-98dfd92883ba.png) \> 내보내기를 클릭 하 **여 보고서를 내보냅니다**. 
   
 ## <a name="step-2-download-the-report"></a>2 단계: 보고서 다운로드
 
@@ -138,7 +138,7 @@ ms.locfileid: "41595605"
     **eDiscovery 내보내기 도구**는 다운로드할 남은 항목의 예상 개수(크기)를 포함하여 내보내기 프로세스에 대한 상태 정보를 표시합니다. 내보내기 프로세스가 완료 되 면 다운로드 한 위치에서 파일에 액세스할 수 있습니다. 
     
 > [!NOTE]
-> EDiscovery 사례와 연결 된 콘텐츠 검색에 대 한 보고서를 다운로드할 수 있습니다. 이렇게 하려면 **ediscovery** \> **ediscovery**로 이동 하 여 사례를 선택 하 고 편집 아이콘 **** ![](media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif)편집을 클릭 합니다. **내보내기** 페이지에서 보고서 내보내기를 선택 하 고 세부 정보 창에서 **보고서 다운로드** 를 클릭 합니다. 
+> EDiscovery 사례와 연결 된 콘텐츠 검색에 대 한 보고서를 다운로드할 수 있습니다. 이렇게 하려면 **ediscovery** \> **ediscovery**로 이동 하 여 사례를 선택 하 고 편집 아이콘 **** ![](../media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif)편집을 클릭 합니다. **내보내기** 페이지에서 보고서 내보내기를 선택 하 고 세부 정보 창에서 **보고서 다운로드** 를 클릭 합니다. 
   
 ## <a name="whats-included-in-the-report"></a>보고서에 포함 된 내용
 

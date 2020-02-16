@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: Office 365 감사 로그 검색 결과를 CSV 파일로 내보내고 다운로드 한 후 Excel의 파워 쿼리 편집기에서 JSON 변환 기능을 사용 하 여 AuditData 열에 있는 JSON 개체의 각 속성을 자체 열로 분할할 수 있습니다. 이를 통해 원하는 특정 감사 데이터를 빠르게 찾을 수 있습니다.
-ms.openlocfilehash: de116db76597c6eb7966541c3cc0f34f91c06c70
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 00e89d0834461e73ee0bd8a238e3ff7480de118e
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41594609"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42074131"
 ---
 # <a name="export-configure-and-view-audit-log-records"></a>감사 로그 레코드 내보내기, 구성 및 보기
 
@@ -36,7 +36,7 @@ Office 365 감사 로그를 검색 하 고 검색 결과를 CSV 파일로 다운
     
 2. **결과 내보내기를** 클릭 하 고 **모든 결과 다운로드**를 선택 합니다. 
     
-   ![모든 결과 다운로드를 클릭 합니다.](media/ExportAuditSearchResults.png)
+   ![모든 결과 다운로드를 클릭 합니다.](../media/ExportAuditSearchResults.png)
 
    이 옵션을 선택 하면 1 단계에서 실행 한 감사 로그 검색의 모든 감사 레코드를 내보내고, 감사 로그의 원시 데이터를 CSV 파일로 다운로드 합니다. 
 
@@ -44,7 +44,7 @@ Office 365 감사 로그를 검색 하 고 검색 결과를 CSV 파일로 다운
 
 3. **저장 > 다른 이름으로 저장** 을 클릭 하 여 로컬 컴퓨터에 CSV 파일을 저장 합니다. 많은 검색 결과를 다운로드 하는 데 시간이 오래 걸립니다. 이는 일반적으로 모든 작업을 검색 하는 경우 또는 광범위 한 날짜 범위에 해당 합니다. CSV 파일의 다운로드가 완료 되 면 windows 아래쪽에 메시지가 표시 됩니다.
  
-   ![CSV 파일 다운로드가 완료 되 면 표시 되는 메시지](media/ExportAuditSearchResultsFinish.png)
+   ![CSV 파일 다운로드가 완료 되 면 표시 되는 메시지](../media/ExportAuditSearchResultsFinish.png)
 
 > [!NOTE]
   > 단일 감사 로그 검색에서 최대 50,000의 항목을 CSV 파일로 다운로드할 수 있습니다. 50,000개의 항목이 CSV 파일로 다운로드되면 검색 조건에 맞는 이벤트가 50,000개 이상 있다고 가정할 수 있습니다. 이 제한 보다 많은 시간을 내보내려면 날짜 범위를 사용 하 여 감사 로그 레코드 수를 줄이십시오. 50,000개 이상의 항목을 내보내기 위해 더 작은 날짜 범위로 여러 번 검색을 실행해야 할 수 있습니다.
@@ -57,29 +57,29 @@ Office 365 감사 로그를 검색 하 고 검색 결과를 CSV 파일로 다운
     
 2.  **데이터** 탭의 **& 변환 데이터 가져오기** 리본 그룹에서 **텍스트/CSV를**클릭 합니다.
 
-    ![데이터 탭에서 Text/CSV를 클릭 합니다.](media/JSONTransformOpenCSVFile.png)
+    ![데이터 탭에서 Text/CSV를 클릭 합니다.](../media/JSONTransformOpenCSVFile.png)
 
 3. 1 단계에서 다운로드 한 CSV 파일을 엽니다.
     
 4. 표시 된 창에서 **데이터 변환을**클릭 합니다.
 
-   ![데이터 변환 클릭](media/JSONOpenPowerQuery.png)
+   ![데이터 변환 클릭](../media/JSONOpenPowerQuery.png)
 
 CSV 파일이 **쿼리 편집기**에서 열립니다. **CreationDate**, **UserIds**, **Operations**및 **auditdata**의 네 가지 열이 있습니다. **Auditdata** 열은 여러 속성을 포함 하는 JSON 개체입니다. 다음 단계에서는 JSON 개체의 각 속성에 대 한 열을 만듭니다.
     
 5. **Auditdata** 열에서 제목을 마우스 오른쪽 단추로 클릭 하 고 **변환**, **JSON**을 차례로 클릭 합니다. 
  
-   ![AuditData 열을 마우스 오른쪽 단추로 클릭 하 고 변환, JSON을 차례로 선택 합니다.](media/JSONTransform.png)
+   ![AuditData 열을 마우스 오른쪽 단추로 클릭 하 고 변환, JSON을 차례로 선택 합니다.](../media/JSONTransform.png)
 
 6. **Auditdata** 열의 오른쪽 위 모서리에서 확장 아이콘을 클릭 합니다.
     
-   ![AuditData 열에서 확장 아이콘](media/JSONTransformExpandIcon.png)
+   ![AuditData 열에서 확장 아이콘](../media/JSONTransformExpandIcon.png)
 
    **Auditdata** 열에 있는 JSON 개체의 속성 중 일부 목록이 표시 됩니다.
 
 7. 모두 **로드** 를 클릭 하 여 **AUDITDATA** 열에 JSON 개체의 모든 속성을 표시 합니다.
 
-   ![JSON 개체에 모든 속성을 표시 하려면 추가를 클릭 합니다.](media/JSONTransformLoadJSONProperties.png)
+   ![JSON 개체에 모든 속성을 표시 하려면 추가를 클릭 합니다.](../media/JSONTransformLoadJSONProperties.png)
 
    포함 하지 않을 속성 옆의 확인란을 선택 취소할 수 있습니다. 조사에 도움이 되지 않는 열을 제거 하는 것은 감사 로그에 표시 되는 데이터의 양을 줄이는 좋은 방법입니다. 
 

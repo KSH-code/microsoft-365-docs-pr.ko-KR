@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: ce004100-9e7f-443e-942b-9b04098fcfc3
 description: Office 365 감사 로그 레코드에 포함 된 추가 속성에 대 한 설명입니다.
-ms.openlocfilehash: d479a063cd6a97fd2f099130a8c9e183e0663798
-ms.sourcegitcommit: 570ad1c7c334476ecec00dc355dfe52e8c2bb87b
+ms.openlocfilehash: fc6a237b881f7154219fcbff464825d1cec63f0c
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41862058"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42075495"
 ---
 # <a name="detailed-properties-in-the-office-365-audit-log"></a>Office 365 감사 로그의 자세한 속성
 
@@ -97,4 +97,4 @@ ms.locfileid: "41862058"
 
 위에서 설명한 속성은 특정 이벤트의 세부 정보를 볼 때 **자세한 정보** 를 클릭 하면 표시 되기도 합니다. 
   
-![감사 로그 이벤트 레코드의 자세한 속성을 보려면 추가 정보를 클릭합니다.](media/6df582ae-d339-4735-b1a6-80914fb77a08.png)
+![감사 로그 이벤트 레코드의 자세한 속성을 보려면 추가 정보를 클릭합니다.](../media/6df582ae-d339-4735-b1a6-80914fb77a08.png)

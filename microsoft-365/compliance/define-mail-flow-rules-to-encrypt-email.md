@@ -16,12 +16,12 @@ ms.assetid: 9b7daf19-d5f2-415b-bc43-a0f5f4a585e8
 ms.collection:
 - M365-security-compliance
 description: 관리자는 Office 365 메시지 암호화를 사용 하 여 메시지를 암호화 하 고 암호를 해독 하는 메일 흐름 규칙 (전송 규칙)을 만드는 방법을 알 수 있습니다.
-ms.openlocfilehash: a2f37bff8fa3fd45999a44341cfdb077b4f43e62
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 80bdd479ec09f0ecefd2758e2b8012a1a7351d6c
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595343"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42075875"
 ---
 # <a name="define-mail-flow-rules-to-encrypt-email-messages-in-office-365"></a>Office 365에서 전자 메일 메시지를 암호화하기 위한 메일의 흐름 규정을 정의
 
@@ -48,7 +48,7 @@ EAC를 사용 하 여 새 OME 기능으로 메시지 암호화를 트리거하�
 
 3. Microsoft 365 관리 센터에서 **관리 센터** \> **Exchange**를 선택 합니다.
 
-4. EAC에서 **메일 흐름** \> **규칙** 으로 이동 하 **고 새로** ![만들기 아이콘](media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif) \> 을 선택 하 여 **새 규칙을 만듭니다**. EAC를 사용 하는 방법에 대 한 자세한 내용은 exchange [Online의 exchange 관리 센터](https://docs.microsoft.com/exchange/exchange-admin-center)를 참조 하세요.
+4. EAC에서 **메일 흐름** \> **규칙** 으로 이동 하 **고 새로** ![만들기 아이콘](../media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif) \> 을 선택 하 여 **새 규칙을 만듭니다**. EAC를 사용 하는 방법에 대 한 자세한 내용은 exchange [Online의 exchange 관리 센터](https://docs.microsoft.com/exchange/exchange-admin-center)를 참조 하세요.
 
 5. **이름**에 DrToniRamos@hotmail.com에 대 한 메일 암호화와 같은 규칙의 이름을 입력 합니다.
 
@@ -82,7 +82,7 @@ EAC를 사용 하 여 새 OME 기능으로 메시지 암호화를 트리거하�
 
 4. EAC에서 **메일 흐름** \> **규칙**으로 이동합니다.
 
-5. 메일 흐름 규칙 목록에서 새 OME 기능을 사용 하도록 수정할 규칙을 선택 하 고 편집 아이콘](media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif) **편집** ![을 선택 합니다.
+5. 메일 흐름 규칙 목록에서 새 OME 기능을 사용 하도록 수정할 규칙을 선택 하 고 편집 아이콘](../media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif) **편집** ![을 선택 합니다.
 
 6. 새 OME 기능을 사용 하 여 암호화를 사용 하도록 설정 하려면 **다음 작업을 수행**하 고 **메시지 보안 수정을** 선택한 다음 **Office 365 메시지 암호화 및 권한 보호 적용**을 선택 합니다. 목록에서 RMS 템플릿을 선택 하 고 **저장** 을 선택한 다음 **확인**을 선택 합니다.
 
@@ -106,7 +106,7 @@ EAC를 사용 하 여 새 OME 기능으로 메시지 암호화를 트리거하�
 
 3. Microsoft 365 관리 센터에서 **관리 센터** \> **Exchange**를 선택 합니다.
 
-4. EAC에서 **메일 흐름** \> **규칙** 으로 이동 하 **고 새로** ![만들기 아이콘](media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif) \> 을 선택 하 여 **새 규칙을 만듭니다**. EAC를 사용 하는 방법에 대 한 자세한 내용은 exchange [Online의 exchange 관리 센터](https://docs.microsoft.com/exchange/exchange-admin-center)를 참조 하세요.
+4. EAC에서 **메일 흐름** \> **규칙** 으로 이동 하 **고 새로** ![만들기 아이콘](../media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif) \> 을 선택 하 여 **새 규칙을 만듭니다**. EAC를 사용 하는 방법에 대 한 자세한 내용은 exchange [Online의 exchange 관리 센터](https://docs.microsoft.com/exchange/exchange-admin-center)를 참조 하세요.
 
 5. **이름**에 DrToniRamos@hotmail.com에 대 한 메일 암호화와 같은 규칙의 이름을 입력 합니다.
 
@@ -132,7 +132,7 @@ EAC를 사용 하 여 새 OME 기능으로 메시지 암호화를 트리거하�
 
 ### <a name="use-exchange-online-powershell-to-create-a-mail-flow-rule-for-encrypting-email-messages-without-the-new-ome-capabilities"></a>Exchange Online PowerShell을 사용 하 여 새 OME 기능 없이 전자 메일 메시지를 암호화 하기 위한 메일 흐름 규칙 만들기
 
-1. Exchange Online PowerShell에 연결합니다. 자세한 내용은 [원격 PowerShell을 사용하여 Exchange Online에 연결](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell)을 참조하세요.
+1. Exchange Online PowerShell에 연결 합니다. 자세한 내용은 [원격 PowerShell을 사용하여 Exchange Online에 연결](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell)을 참조하세요.
 
 2. **New-transportrule** cmdlet을 사용 하 여 규칙을 만들고 _ApplyOME_ 매개 변수를로 `$true`설정 합니다.
 
@@ -164,7 +164,7 @@ EAC를 사용 하 여 새 OME 기능으로 메시지 암호화를 트리거하�
 
 3. Microsoft 365 관리 센터에서 **관리 센터** \> **Exchange**를 선택 합니다.
 
-4. EAC에서 **메일 흐름** \> **규칙** 으로 이동 하 **고 새로** ![만들기 아이콘](media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif) \> 을 선택 하 여 **새 규칙을 만듭니다**. EAC를 사용 하는 방법에 대 한 자세한 내용은 exchange [Online의 exchange 관리 센터](https://docs.microsoft.com/exchange/exchange-admin-center)를 참조 하세요.
+4. EAC에서 **메일 흐름** \> **규칙** 으로 이동 하 **고 새로** ![만들기 아이콘](../media/457cd93f-22c2-4571-9f83-1b129bcfb58e.gif) \> 을 선택 하 여 **새 규칙을 만듭니다**. EAC를 사용 하는 방법에 대 한 자세한 내용은 exchange [Online의 exchange 관리 센터](https://docs.microsoft.com/exchange/exchange-admin-center)를 참조 하세요.
 
 5. **이름**에 규칙의 이름을 입력 합니다 (예: 받는 메일에서 암호화 제거).
 
@@ -176,7 +176,7 @@ EAC를 사용 하 여 새 OME 기능으로 메시지 암호화를 트리거하�
 
 #### <a name="use-exchange-online-powershell-to-create-a-rule-to-remove-encryption-from-email-replies-encrypted-without-the-new-ome-capabilities"></a>Exchange Online PowerShell을 사용 하 여 새 OME 기능 없이 암호화 된 전자 메일 응답에서 암호화를 제거 하는 규칙 만들기
 
-1. Exchange Online PowerShell에 연결합니다. 자세한 내용은 [원격 PowerShell을 사용하여 Exchange Online에 연결](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell)을 참조하세요.
+1. Exchange Online PowerShell에 연결 합니다. 자세한 내용은 [원격 PowerShell을 사용하여 Exchange Online에 연결](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell)을 참조하세요.
 
 2. **New-transportrule** cmdlet을 사용 하 여 규칙을 만들고 _RemoveOME_ 매개 변수를로 `$true`설정 합니다.
 
@@ -200,7 +200,7 @@ EAC를 사용 하 여 새 OME 기능으로 메시지 암호화를 트리거하�
 
 구문과 매개 변수에 대한 자세한 내용은 [New-TransportRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/New-TransportRule)를 참조하십시오.
 
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [Office 365의 암호화](encryption.md)
 
