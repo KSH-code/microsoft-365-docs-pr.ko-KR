@@ -16,12 +16,12 @@ ms.assetid: 7ad6f58e-65d7-4c82-8e65-0b773666634d
 ms.collection:
 - M365-security-compliance
 description: 정보를 보호 하는 초기 단계를 지원 하기 위해 7 월 2018 일부터 모든 Azure Information Protection 적합 한 테 넌 트에는 기본적으로 Azure Information Protection의 보호 기능이 설정 됩니다. Azure Information Protection의 보호 기능은 이전에는 Office 365에서 권한 관리 또는 Azure RMS로 알려져 있었습니다. 조직에 Office E3 서비스 계획 또는 서비스 계획이 더 높은 경우에는 이러한 기능을 롤아웃할 때 Azure Information Protection을 통해 정보를 보호 하기 시작할 수 있게 됩니다.
-ms.openlocfilehash: 6ff4ecb4dc9b0e2b0a4e8dd7a2d9573326afc6a8
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: de3b233d4baac380608d3a209c2ffea274c20d5b
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41599775"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42083582"
 ---
 # <a name="protection-features-in-azure-information-protection-rolling-out-to-existing-office-365-tenants"></a>Azure Information Protection의 보호 기능을 통해 기존 Office 365 테 넌 트에 배포
 
@@ -41,7 +41,7 @@ ms.locfileid: "41599775"
 
 테 넌 트 관리자는 Office 365 관리자 포털에서 보호 상태를 확인할 수 있습니다.
 
-![Office 365의 권한 관리가 활성화 되었음을 보여 주는 스크린샷](../media/303453c8-e4a5-4875-b49f-e80c3eb7b91e.png)
+![Office 365의 권한 관리가 활성화 되었음을 보여 주는 스크린샷](../../media/303453c8-e4a5-4875-b49f-e80c3eb7b91e.png)
 
 ## <a name="why-are-we-making-this-change"></a>변경 되는 이유는 무엇 인가요?
 
@@ -85,6 +85,6 @@ ADSI 편집을 사용 하 여 Active Directory에 게시 된 SCP가 있는지 �
 
 이 기능이 사용 하도록 설정 된 경우에는 [Microsoft Ignite 2017](https://techcommunity.microsoft.com/t5/Security-Privacy-and-Compliance/Email-Encryption-and-Rights-Protection/ba-p/110801) 에서 발표 된 새로운 버전의 Office 365 메시지 암호화를 사용 하 고 Azure Information protection의 암호화 및 보호 기능을 활용할 수 있습니다.
 
-![웹용 Outlook에서 OME protected 메시지를 표시 하는 스크린샷](../media/599ca9e7-c05a-429e-ae8d-359f1291a3d8.png)
+![웹용 Outlook에서 OME protected 메시지를 표시 하는 스크린샷](../../media/599ca9e7-c05a-429e-ae8d-359f1291a3d8.png)
 
 새로운 향상 된 기능에 대 한 자세한 내용은 [Office 365 메시지 암호화](../../compliance/ome.md)를 참조 하세요.

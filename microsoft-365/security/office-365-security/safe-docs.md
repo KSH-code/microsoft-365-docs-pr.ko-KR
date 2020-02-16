@@ -15,12 +15,12 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Office 365 ATP의 안전한 문서에 대해 알아봅니다.
-ms.openlocfilehash: db73fc152a5a580a28bf6d8424ebc2a139cf3303
-ms.sourcegitcommit: c2a36b16e354e20db5fd6275175ca856eae55bfc
+ms.openlocfilehash: c76ae2c776c31cf798c21d7330bce488ad1e7cc6
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "41960358"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42082374"
 ---
 # <a name="safe-documents-in-office-365-advanced-threat-protection"></a>Office 365 Advanced Threat Protection의 안전한 문서
 
@@ -46,7 +46,7 @@ ms.locfileid: "41960358"
 
 4. 작업을 마친 후 **저장**을 클릭합니다.
 
-![ATP 안전한 첨부 파일 페이지](../media/safe-docs.png)
+![ATP 안전한 첨부 파일 페이지](../../media/safe-docs.png)
 
 ### <a name="use-exchange-online-powershell-or-exchange-online-protection-powershell-to-configure-safe-documents"></a>Exchange Online PowerShell 또는 Exchange Online Protection PowerShell을 사용 하 여 안전한 문서 구성
 

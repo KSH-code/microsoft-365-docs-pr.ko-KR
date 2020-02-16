@@ -17,12 +17,12 @@ ms.collection:
 search.appverid: MET150
 ms.assetid: 8d274fe3-db51-4107-ba64-865e7155b355
 description: Office 365 환경의 보안에 영향을 주는 테 넌 트 수준 설정에 대해 권장 되는 구성을 안내 합니다. 보안 요구 사항에 따라 보안이 더 나 덜 필요할 수 있습니다. 이 권장 사항을 출발점으로 사용 합니다.
-ms.openlocfilehash: 3bf11ae0520ac6f715e3f84669c6d6f615deaf14
-ms.sourcegitcommit: e47694dedf7e213167d3d979a44c07c668bba543
+ms.openlocfilehash: 38c07739ebfd6e10fe08dbc5496e4ae7634ed510
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41932298"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42082051"
 ---
 # <a name="configure-your-office-365-tenant-for-increased-security"></a>보안 강화를 위해 Office 365 테넌트 구성
 
@@ -59,7 +59,7 @@ Microsoft 365 보안 센터에는 환경을 보호 하는 기능이 포함 되�
 |[위협 탐색기 (또는 실시간 검출)](threat-explorer.md)|이는 보안 센터의 **위협 관리** 섹션에도 있습니다. Office 365 테 넌 트에 대 한 공격을 조사 하거나 발생 하는 경우 Explorer (또는 실시간 검색)를 사용 하 여 위협을 분석 합니다. Explorer 및 실시간 검색 보고서에는 시간에 따른 공격 량이 표시 되며 위협 계열, 침입자 인프라 등을 통해이 데이터를 분석할 수 있습니다. 인시던트 목록에 대해 의심 스러운 전자 메일을 표시할 수도 있습니다.|
 |보고서-대시보드|보안 센터의 **Reports (보고서** ) 섹션에서 SharePoint Online 및 Exchange Online 조직에 대 한 감사 보고서를 봅니다. **보고서 보기** 페이지에서 azure Ad (Active Directory) 사용자 로그인 보고서, 사용자 활동 보고서 및 azure ad audit 로그에 액세스할 수도 있습니다.|
 
-![보안 센터 대시보드](../media/870ab776-36d2-49c7-b615-93b2bc42fce5.png)
+![보안 센터 대시보드](../../media/870ab776-36d2-49c7-b615-93b2bc42fce5.png)
 
 ## <a name="configure-additional-exchange-online-tenant-wide-settings"></a>추가 Exchange Online 테 넌 트 수준 설정 구성
 
@@ -122,7 +122,7 @@ Office 365 Cloud App Security를 사용 하 여 위험을 평가 하 고 의심 
 
 - [Cloud App Security 란?](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security)
 
-![Cloud App Security 대시보드](../media/1fb2aa65-54b8-4746-9f5e-c187d339e9f5.png)
+![Cloud App Security 대시보드](../../media/1fb2aa65-54b8-4746-9f5e-c187d339e9f5.png)
 
 ## <a name="additional-resources"></a>추가 리소스
 

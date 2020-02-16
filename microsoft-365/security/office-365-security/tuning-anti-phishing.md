@@ -12,12 +12,12 @@ localization_priority: Normal
 search.appverid:
 - MET150
 description: 관리자는 피싱 메시지의 원인과 방법을 파악 하 고, 향후 피싱 메시지를 더 많이 차단 하기 위해 수행 해야 하는 작업에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: b7ce09ff85c0341ea8cb901942e87dbe10ba0435
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 94c28bf63ad7ba87d06298576cf7989b6848f8e6
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41598145"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42082027"
 ---
 # <a name="tune-anti-phishing-protection-in-office-365"></a>Office 365에서 피싱 방지 보호 기능 조정
 

@@ -17,12 +17,12 @@ ms.assetid: a74f637b-3710-4c41-b70f-b5a812929a81
 ms.collection:
 - M365-security-compliance
 description: 보안 &amp; 및 준수 센터에서 보고서 일정을 설정 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 743bb0cd71fb4a5c6ce9b875c797ad3ca54d0485
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 5a7a4d0b6bef3f800a53e4f980ccd689e011a9ea
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41599555"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42083473"
 ---
 # <a name="create-a-schedule-for-a-report-in-the-security-amp-compliance-center"></a>보안 &amp; 및 준수 센터에서 보고서 일정 만들기
 
@@ -55,7 +55,7 @@ ms.locfileid: "41599555"
     
 3. 보고서의 왼쪽 위 모서리에서 **+ 일정 만들기**를 선택 합니다. 
     
-    ![일정 만들기](../media/atpfiletypes-createschedule.png)
+    ![일정 만들기](../../media/atpfiletypes-createschedule.png)
 
     (참고: 모든 보고서에 **+ 일정 만들기** 단추가 있는 것은 아닙니다.)
   
@@ -63,7 +63,7 @@ ms.locfileid: "41599555"
     
 4. 기본 설정을 유지 하 고 **일정 만들기**를 선택 하거나 **일정 사용자 지정**을 선택 합니다.
     
-    ![기본 설정을 사용 하거나 보고서 일정을 사용자 지정할 수 있습니다.](../media/04fac327-8f73-4711-8319-58c11880fd96.png)
+    ![기본 설정을 사용 하거나 보고서 일정을 사용자 지정할 수 있습니다.](../../media/04fac327-8f73-4711-8319-58c11880fd96.png)
   
     보고서 일정을 사용자 지정 하려는 경우 보고서의 빈도, 보낸 사람의 전자 메일 주소 및 받는 사람의 전자 메일 주소를 지정할 수 있습니다. 
     

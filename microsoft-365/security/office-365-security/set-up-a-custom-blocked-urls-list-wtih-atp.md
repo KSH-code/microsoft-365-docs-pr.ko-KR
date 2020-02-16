@@ -17,12 +17,12 @@ ms.assetid: 896a7efb-1683-465e-a394-261349e5d866
 ms.collection:
 - M365-security-compliance
 description: Office 365 Advanced Threat Protection을 사용 하 여 조직에 대해 차단 된 Url 목록을 설정 하는 방법을 알아봅니다. 차단 된 Url은 ATP 안전한 링크 정책에 따라 전자 메일 메시지 및 Office 문서에 적용 됩니다.
-ms.openlocfilehash: bb5eb8572aee11be1c4264863b572f014b281985
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 5205fbd5ccc873513eed4e367119084516e92bf2
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41598405"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42088095"
 ---
 # <a name="set-up-a-custom-blocked-urls-list-using-office-365-atp-safe-links"></a>Office 365 ATP 안전한 링크를 사용 하 여 차단 된 사용자 지정 Url 목록 설정
 
@@ -31,7 +31,7 @@ ms.locfileid: "41598405"
 
 [Office 365 ATP (Advanced Threat Protection](office-365-atp.md) )를 사용 하는 경우 조직에는 차단 된 웹 사이트 주소 (url)의 사용자 지정 목록이 있을 수 있습니다. URL이 차단 되 면 차단 된 URL에 대 한 링크를 클릭 하는 사용자는 다음 이미지와 비슷한 [경고 페이지로](atp-safe-links-warning-pages.md) 이동 합니다. 
   
-![이 사이트는 차단 됨](../media/6b4bda2d-a1e6-419e-8b10-588e83c3af3f.png)
+![이 사이트는 차단 됨](../../media/6b4bda2d-a1e6-419e-8b10-588e83c3af3f.png)
   
 차단 된 Url 목록은 조직의 Office 365 보안 팀에서 정의 되며,이 목록은 Office 365 ATP 안전한 링크 정책에서 다루는 조직의 모든 사용자에 게 적용 됩니다. 
   
@@ -58,7 +58,7 @@ ATP 정책을 편집 하거나 정의 하려면 다음 표에 설명 된 역할 
     
 2. 왼쪽 탐색 창의 **위협 관리**에서 **정책** \> **안전한 링크**를 선택 합니다.
     
-3. **전체 조직에 적용 되는 정책** 섹션에서 **기본값**을 선택 하 고 **편집** (편집 단추는 연필과 유사)을 선택 합니다.<br/>![안전한 링크 보호에 대 한 기본 정책을 편집 하려면 편집을 클릭 합니다.](../media/d08f9615-d947-4033-813a-d310ec2c8cca.png)<br/>이렇게 하면 차단 된 Url 목록을 볼 수 있습니다. 처음에는 여기에 나열 된 Url이 없을 수도 있습니다.<br/>![기본 안전 링크 정책의 차단 된 Url 목록](../media/575e1449-6191-40ac-b626-030a2fd3fb11.png)
+3. **전체 조직에 적용 되는 정책** 섹션에서 **기본값**을 선택 하 고 **편집** (편집 단추는 연필과 유사)을 선택 합니다.<br/>![안전한 링크 보호에 대 한 기본 정책을 편집 하려면 편집을 클릭 합니다.](../../media/d08f9615-d947-4033-813a-d310ec2c8cca.png)<br/>이렇게 하면 차단 된 Url 목록을 볼 수 있습니다. 처음에는 여기에 나열 된 Url이 없을 수도 있습니다.<br/>![기본 안전 링크 정책의 차단 된 Url 목록](../../media/575e1449-6191-40ac-b626-030a2fd3fb11.png)
   
 4. **올바른 Url 입력** 상자를 선택 하 고 URL을 입력 한 다음 더하기 기호 (**+**)를 선택 합니다. 
 

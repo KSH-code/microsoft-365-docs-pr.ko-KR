@@ -16,12 +16,12 @@ ms.assetid: 0bcecdd4-3343-4cc0-9e58-e19d4de515e8
 ms.collection:
 - M365-security-compliance
 description: 해당 전자 메일 주소가 Office 365에 포함되는 받는 사람에게 전자 메일을 보내려고 할 때 오류 메시지가 발생하나요? 오류 메시지가 표시되지 않아야 한다고 생각될 경우 목록 해제 포털을 사용하여 Office 365 수신 거부 목록에서 본인을 제거할 수 있습니다.
-ms.openlocfilehash: af528f7fed60130bec8ff53ad182df928d09faee
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 3e131addb391ecbf90d74ad4fdfa65b802c5e1ac
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41598035"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42081965"
 ---
 # <a name="use-the-delist-portal-to-remove-yourself-from-the-office-365-blocked-senders-list"></a>목록 해제 포털을 사용하여 Office 365 수신 거부 목록에서 본인 제거
 
@@ -45,7 +45,7 @@ Microsoft는 수신 거부 목록을 사용하여 스팸, 스푸핑 및 피싱 �
 
 3. **전송**을 클릭합니다.
 
-    포털에서는 사용자가 제공한 전자 메일 주소로 전자 메일을 보냅니다. 전자 메일은 다음과 같이 표시 됩니다. ![목록 해제 포털을 통해 요청을 제출할 때 받는 전자 메일의 스크린샷](../media/bf13e4f7-f68c-4e46-baa7-b6ab4cfc13f3.png)
+    포털에서는 사용자가 제공한 전자 메일 주소로 전자 메일을 보냅니다. 전자 메일은 다음과 같이 표시 됩니다. ![목록 해제 포털을 통해 요청을 제출할 때 받는 전자 메일의 스크린샷](../../media/bf13e4f7-f68c-4e46-baa7-b6ab4cfc13f3.png)
 
 4. 목록 해제 포털을 사용하여 사용자에게 전송된 전자 메일의 확인 링크를 클릭합니다.
 

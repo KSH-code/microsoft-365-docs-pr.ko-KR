@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 ms.assetid: 3384c6f1-ffc0-4120-a211-1991aca51663
 description: 보안 &amp; 및 준수 센터에서 보고서의 일정을 보고, 편집 하 고, 관리 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 38fd211a20c86fffc564c8b4fbe86e963da7fe05
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 5ae6a37a04604ca814348ac42d80a57e3e171b6b
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41598935"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42082875"
 ---
 # <a name="manage-schedules-for-multiple-reports-in-the-security-amp-compliance-center"></a>보안 &amp; 및 준수 센터에서 여러 보고서에 대 한 일정 관리
 
@@ -30,7 +30,7 @@ ms.locfileid: "41598935"
 > [!IMPORTANT]
 > [Office 365 보안 &amp; 및 준수 센터에서 필요한 사용 권한이 할당](permissions-in-the-security-and-compliance-center.md)되었는지 확인 합니다. 일반적으로 Office 365 전역 관리자, 보안 관리자 및 보안 독자는 보안 &amp; 및 준수 센터의 보고서에 액세스할 수 있습니다. 
   
-![보안 &amp; 및 준수 센터에서 보고서 \> 일정 관리를 선택 합니다.](../media/efa5e2f9-bf73-4f85-acea-f1ca7e2bca5e.png)
+![보안 &amp; 및 준수 센터에서 보고서 \> 일정 관리를 선택 합니다.](../../media/efa5e2f9-bf73-4f85-acea-f1ca7e2bca5e.png)
 
 1. [https://protection.office.com](https://protection.office.com)으로 이동하여 로그인합니다. 그러면 보안 & 준수 센터로 이동 합니다.
 

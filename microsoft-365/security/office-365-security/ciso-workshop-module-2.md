@@ -12,18 +12,18 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: 조직의 현대화 보안에 대 한 보안 원칙 및 권장 사항에 대해 자세히 알아보세요.
-ms.openlocfilehash: ebe1797e0a6a4b7f8bafa28b57feedbd96324093
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 1b31445e431bb0a709d1f48c3db1a39fe5d464c1
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41599715"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42086557"
 ---
 # <a name="ciso-workshop-module-2-security-management"></a>CISO 워크숍 모듈 2: 보안 관리 
 
 통합 지침, 자동 정책 적용 및 모니터링을 통해 하이브리드 엔터프라이즈 공간에 대 한 가시성을 높이 거 나 제어 하는 방법을 알아봅니다.
 
-- PDF 요약 다운로드: [모듈 2: 보안 관리](../media/ciso-workshop-2-security-management.pdf)
+- PDF 요약 다운로드: [모듈 2: 보안 관리](../../media/ciso-workshop-2-security-management.pdf)
 - PowerPoint 요약 다운로드: [모듈 2: 보안 관리](https://docs.microsoft.com/microsoft-365/security/media/ciso-workshop-2-security-management.pptx)
 
 ## <a name="introduction-security-management-125"></a>소개: 보안 관리 (1:25)

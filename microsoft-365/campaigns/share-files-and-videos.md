@@ -24,18 +24,18 @@ search.appverid:
 - MET150
 - MOE150
 description: 캠페인 내부에서 Microsoft 팀과 SharePoint로 파일 및 비디오를 공유 합니다.
-ms.openlocfilehash: bd6fae6c728cee50efcb5094edd6c75f6bdf3b11
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: b67b6f834fd9333814f1807567776644dd2826e7
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41594729"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42080422"
 ---
 # <a name="share-files-and-videos"></a>파일 및 동영상 공유
 
 파일을 볼 수 있고 편집할 수 있는 사용자를 제어 해야 하는 경우에는 사용 권한이 적절 하 게 적용 되는지 확인할 수 있는 안전한 위치에 파일을 저장 해야 합니다. Microsoft 팀을 사용 하 여 파일을 저장 한 다음 Microsoft 팀을 사용 하거나 SharePoint 링크를 보내 캠페인 내부 또는 외부에서 파일을 공유할 수 있습니다. 전자 메일 첨부 파일이 아니라 링크를 보내는 것은 사용자가 파일을 보고 수정 하 고 있는지와 사용자의 권한 없이 보거나 수정할 수 없다는 것을 의미 합니다. 
 
-![파일 탭을 표시 하 고 메뉴의 링크를 가져올 수 있는 Microsoft 팀 창 다이어그램](media/m365-democracy-teams-sharefiles.png)
+![파일 탭을 표시 하 고 메뉴의 링크를 가져올 수 있는 Microsoft 팀 창 다이어그램](../media/m365-democracy-teams-sharefiles.png)
 
 Microsoft 팀 및 SharePoint에서 파일을 사용 하 여 파일을 함께 작업 하 고 서로의 변경 내용을 검토할 수도 있습니다. Microsoft 팀을 사용 하 여 정치적 캠페인 내에서 파일을 공유할 수 있습니다. 캠페인 외부의 사용자와 외부적으로 공유 해야 하는 경우 팀에 게스트로 추가 하거나 안전한 SharePoint 링크를 보내도록 할 수 있습니다.
 
@@ -68,4 +68,4 @@ Microsoft 팀을 사용 하지 않고 게스트와 보안 링크를 공유 하�
 
 [PDF](https://go.microsoft.com/fwlink/?linkid=2079435) 또는 [PowerPoint](https://go.microsoft.com/fwlink/?linkid=2079438) 에서 infographic을 다운로드 하 여 파일을 공유 하는 방법에 대 한 간략 한 개요를 볼 수 있습니다.
 
-[![다른 사용자와 파일을 공유 하는 방법에 대 한 그림](media/ShareYourfiles-thumb-358x201.png)](https://go.microsoft.com/fwlink/?linkid=2079435)
+[![다른 사용자와 파일을 공유 하는 방법에 대 한 그림](../media/ShareYourfiles-thumb-358x201.png)](https://go.microsoft.com/fwlink/?linkid=2079435)

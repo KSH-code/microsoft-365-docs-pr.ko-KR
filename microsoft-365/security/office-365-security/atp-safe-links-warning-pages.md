@@ -16,12 +16,12 @@ ms.assetid: fc4e6ebb-5acc-4bc5-bad8-4f3407d1d3f4
 ms.collection:
 - M365-security-compliance
 description: Office 365 Advanced Threat Protection이 작동 중일 때 나타날 수 있는 경고 페이지에 대 한 개요를 가져옵니다.
-ms.openlocfilehash: c7c3db68cfb0bc8205c5796bda7ee46d5b0604dd
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: ef2f0fd59c7d5f8e62b0f562097fafd01d669459
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41599855"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42086727"
 ---
 # <a name="office-365-atp-safe-links-warning-pages"></a>Office 365 ATP 안전한 링크 경고 페이지
 
@@ -38,37 +38,37 @@ ms.locfileid: "41599855"
 
 ATP 안전한 링크에서 URL을 검색 하 고 있습니다. 잠시 기다린 후에 링크를 다시 시도해 야 할 수 있습니다.
 
-![ATP에서 링크를 검색 하 고 있습니다.](../media/ee8dd5ed-6b91-4248-b054-12b719e8d0ed.png)
+![ATP에서 링크를 검색 하 고 있습니다.](../../media/ee8dd5ed-6b91-4248-b054-12b719e8d0ed.png)
 
 ### <a name="a-url-is-in-a-suspicious-email-message"></a>URL이 의심 스러운 전자 메일 메시지에 있는 경우
 
 URL이 의심 스러운 것으로 간주 되는 다른 전자 메일 메시지와 비슷한 전자 메일 메시지에 있습니다. 사이트를 진행 하기 전에 전자 메일 메시지를 두 번 확인 하는 것이 좋습니다.
 
-![이 URL은 의심 스러운 전자 메일 메시지에 있습니다.](../media/33f57923-23e3-4b0f-838b-6ad589ba897b.png)
+![이 URL은 의심 스러운 전자 메일 메시지에 있습니다.](../../media/33f57923-23e3-4b0f-838b-6ad589ba897b.png)
 
 ### <a name="a-url-is-in-a-message-identified-as-a-phishing-attempt"></a>URL이 피싱 시도로 식별 된 메시지에 있습니다.
 
 URL이 피싱 공격으로 식별 된 전자 메일 메시지에 있습니다. 따라서 전자 메일 메시지의 모든 Url이 차단 됩니다. 해당 사이트로 이동 하지 않는 것이 좋습니다.
 
-![이 URL은 피싱 시도로 식별 된 메시지에 있습니다.](../media/6e544a28-0604-4821-aba6-d5a57bb917e5.png)
+![이 URL은 피싱 시도로 식별 된 메시지에 있습니다.](../../media/6e544a28-0604-4821-aba6-d5a57bb917e5.png)
 
 ### <a name="a-site-has-been-identified-as-malicious"></a>사이트가 악성으로 식별 됨
 
 URL이 악성으로 식별 된 사이트를 가리킵니다.  <br/> 해당 사이트로 이동 하지 않는 것이 좋습니다.
 
-![이 사이트는 악의적인 것으로 확인 되었습니다.](../media/058883c8-23f0-4672-9c1c-66b084796177.png)
+![이 사이트는 악의적인 것으로 확인 되었습니다.](../../media/058883c8-23f0-4672-9c1c-66b084796177.png)
 
 ### <a name="a-site-is-blocked"></a>사이트가 차단 됨
 
 조직에 대 한 URL이 차단 됩니다. URL이 차단 되는 이유에는 여러 가지가 있습니다. 조직의 Office 365 관리자에 게 문의 하는 것이 좋습니다.
 
-![이 사이트는 차단 됨](../media/6b4bda2d-a1e6-419e-8b10-588e83c3af3f.png)
+![이 사이트는 차단 됨](../../media/6b4bda2d-a1e6-419e-8b10-588e83c3af3f.png)
 
 ### <a name="an-error-has-occurred"></a>오류가 발생 했습니다.
 
 오류가 발생 하 여 URL을 열 수 없습니다.
 
-![오류가 발생 했습니다.](../media/2f7465a4-1cf4-4c1c-b7d4-3c07e4b795b4.png)
+![오류가 발생 했습니다.](../../media/2f7465a4-1cf4-4c1c-b7d4-3c07e4b795b4.png)
 
 ## <a name="recent-updates-to-warning-pages"></a>경고 페이지에 대 한 최신 업데이트
 
@@ -78,39 +78,39 @@ URL이 악성으로 식별 된 사이트를 가리킵니다.  <br/> 해당 사�
 
 원래 경고 페이지:
 
-![진행 중인 URL 검사에 대 한 원래 경고 페이지](../media/04368763-763f-43d6-94a4-a48291d36893.png)
+![진행 중인 URL 검사에 대 한 원래 경고 페이지](../../media/04368763-763f-43d6-94a4-a48291d36893.png)
 
 업데이트 된 경고 페이지:
 
-![ATP에서 링크를 검색 하 고 있습니다.](../media/ee8dd5ed-6b91-4248-b054-12b719e8d0ed.png)
+![ATP에서 링크를 검색 하 고 있습니다.](../../media/ee8dd5ed-6b91-4248-b054-12b719e8d0ed.png)
 
 ### <a name="malicious-site-warning"></a>악의적인 사이트 경고
 
 원래 경고 페이지:
 
-![악의적인 사이트에 대 한 원래 경고 페이지](../media/b9efda09-6dd8-46ef-82cb-56e4d538b8f5.png)
+![악의적인 사이트에 대 한 원래 경고 페이지](../../media/b9efda09-6dd8-46ef-82cb-56e4d538b8f5.png)
 
 업데이트 된 경고 페이지:
 
-![이 사이트는 악의적인 것으로 확인 되었습니다.](../media/058883c8-23f0-4672-9c1c-66b084796177.png)
+![이 사이트는 악의적인 것으로 확인 되었습니다.](../../media/058883c8-23f0-4672-9c1c-66b084796177.png)
 
 ### <a name="blocked-url-warning"></a>차단 된 URL 경고
 
 원래 경고 페이지:
 
-![차단 된 URL에 대 한 원래 경고 페이지](../media/3d6ba028-30bf-45fc-958e-d3aad3defc83.png)
+![차단 된 URL에 대 한 원래 경고 페이지](../../media/3d6ba028-30bf-45fc-958e-d3aad3defc83.png)
 
 업데이트 된 경고 페이지:
 
-![이 사이트는 차단 됨](../media/6b4bda2d-a1e6-419e-8b10-588e83c3af3f.png)
+![이 사이트는 차단 됨](../../media/6b4bda2d-a1e6-419e-8b10-588e83c3af3f.png)
 
 ### <a name="error-occurred-warning-page"></a>"오류 발생" 경고 페이지
 
 원래 경고 페이지:
 
-!["오류가 발생 했습니다." 경고 페이지](../media/9aaa4383-2f23-48be-bdaa-8efbcb2acc70.png)
+!["오류가 발생 했습니다." 경고 페이지](../../media/9aaa4383-2f23-48be-bdaa-8efbcb2acc70.png)
 
 업데이트 된 경고 페이지:
 
-![오류가 발생 했습니다.](../media/2f7465a4-1cf4-4c1c-b7d4-3c07e4b795b4.png)
+![오류가 발생 했습니다.](../../media/2f7465a4-1cf4-4c1c-b7d4-3c07e4b795b4.png)
    

@@ -15,12 +15,12 @@ ms.assetid: 8401f520-8e7c-467b-9e06-4a9fdb2ba548
 ms.collection:
 - M365-security-compliance
 description: 사용자가 분석을 위해 Microsoft에 전자 메일 메시지를 보내지 못하도록 하 고 자체 보안 프로세스에서 사용 하는 것을 방지 하는 Exchange 메일 흐름 규칙을 만들 수 있습니다.
-ms.openlocfilehash: 530cc12fd83650f319da3f65e961c925a1de7409
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: ae8655416840dc326344e2c2aea7c67486389492
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41598065"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42084377"
 ---
 # <a name="use-mail-flow-rules-to-see-what-your-users-are-reporting-to-microsoft"></a>메일 흐름 규칙을 사용하여 사용자가 Microsoft에 보고한 내용 확인
 
@@ -38,7 +38,7 @@ ms.locfileid: "41598065"
 
 1. EAC에서 **메일 흐름** \> **규칙**으로 이동합니다.
 
-2. ![아이콘 추가](../media/ITPro-EAC-AddIcon.gif)를 클릭한 다음 **새 규칙 만들기**를 선택합니다.
+2. ![아이콘 추가](../../media/ITPro-EAC-AddIcon.gif)를 클릭한 다음 **새 규칙 만들기**를 선택합니다.
 
 3. 규칙 이름을 지정하고 **기타 옵션**을 클릭합니다.
 
@@ -46,11 +46,11 @@ ms.locfileid: "41598065"
 
 5. **단어 또는 구 지정** 상자에서 다음 단계를 수행 합니다.
 
-   - 를 `abuse@messaging.microsoft.com`입력 하 **고 추가 아이콘** ![](../media/ITPro-EAC-AddIcon.gif)추가를 `junk@office365.microsoft.com` 클릭 한 다음 추가](../media/ITPro-EAC-AddIcon.gif) **아이콘 추가를 클릭** ![합니다. 이러한 전자 메일 주소는 Microsoft에 거짓 부정 메시지를 전송하는 데 사용됩니다.
+   - 를 `abuse@messaging.microsoft.com`입력 하 **고 추가 아이콘** ![](../../media/ITPro-EAC-AddIcon.gif)추가를 `junk@office365.microsoft.com` 클릭 한 다음 추가](../../media/ITPro-EAC-AddIcon.gif) **아이콘 추가를 클릭** ![합니다. 이러한 전자 메일 주소는 Microsoft에 거짓 부정 메시지를 전송하는 데 사용됩니다.
 
-   - 를 `phish@office365.microsoft.com` 입력 한 ![다음 추가](../media/ITPro-EAC-AddIcon.gif) **아이콘 추가를 클릭 합니다** . 이 전자 메일 주소는 부재 중 피싱 메시지를 Microsoft에 제출 하는 데 사용 됩니다.
+   - 를 `phish@office365.microsoft.com` 입력 한 ![다음 추가](../../media/ITPro-EAC-AddIcon.gif) **아이콘 추가를 클릭 합니다** . 이 전자 메일 주소는 부재 중 피싱 메시지를 Microsoft에 제출 하는 데 사용 됩니다.
 
-   - 를 `false_positive@messaging.microsoft.com`입력 하 고 아이콘 ![](../media/ITPro-EAC-AddIcon.gif) `not_junk@office365.microsoft.com` **추가 추가를 클릭 하** 고를 입력 한 다음](../media/ITPro-EAC-AddIcon.gif)추가 아이콘 **추가** ![를 클릭 합니다. 이러한 전자 메일 주소는 Microsoft에 오판정 메시지를 전송하는 데 사용됩니다.
+   - 를 `false_positive@messaging.microsoft.com`입력 하 고 아이콘 ![](../../media/ITPro-EAC-AddIcon.gif) `not_junk@office365.microsoft.com` **추가 추가를 클릭 하** 고를 입력 한 다음](../../media/ITPro-EAC-AddIcon.gif)추가 아이콘 **추가** ![를 클릭 합니다. 이러한 전자 메일 주소는 Microsoft에 오판정 메시지를 전송하는 데 사용됩니다.
 
    - **확인**을 클릭합니다.
 

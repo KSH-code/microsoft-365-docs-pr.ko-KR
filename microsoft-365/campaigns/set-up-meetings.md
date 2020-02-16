@@ -1,5 +1,7 @@
 ---
 title: 온라인 모임 설정
+f1.keywords:
+- NOCSH
 ms.author: stevhord
 author: twerner
 manager: scotv
@@ -22,18 +24,18 @@ search.appverid:
 - MET150
 - MOE150
 description: Microsoft 팀과 온라인 모임을 설정 합니다.
-ms.openlocfilehash: 7ecdec3f7dc329f1ff70bf8d72a7ca5bc946636f
-ms.sourcegitcommit: 7713e777731025c165e9e936198609503ade5665
+ms.openlocfilehash: 83ff561b4159ffe6785db8bb03314aa80668023a
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "38753587"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42080443"
 ---
 # <a name="set-up-meetings"></a>모임 설정
 
 Microsoft 팀의 모임에는 오디오, 비디오 및 공유가 포함 됩니다. 또한 온라인 상태 이므로 항상 회의 공간이 있고 캠페인에 대 한 회의실 또는 프로젝터가 필요 하지 않습니다.Microsoft 팀 회의는 직원 들과 함께 조직 내부 및 외부에 있는 지원자와 함께 제공 하는 좋은 방법입니다. 조직의 구성원 이거나 모임에 참가할 수 있는 계정을 가진 사용자도 있을 필요가 없습니다. 정치적 캠페인의 경우 Microsoft 팀을 사용 하 여 온라인 모임을 예약 하 고 실행할 수 있습니다. 조직 외부에 직원, 지원자 및 손님을 포함할 수 있습니다. 모임 중에는 화면을 공유 하 고 파일을 공유 하 고 작업을 할당할 수 있습니다.
 
-[![모임의 두 사용자에 대 한 그림](media/HostOnlineMeeting-thumb-358x201.png)](https://go.microsoft.com/fwlink/?linkid=2078712)
+[![모임의 두 사용자에 대 한 그림](../media/HostOnlineMeeting-thumb-358x201.png)](https://go.microsoft.com/fwlink/?linkid=2078712)
 
 [PDF](https://go.microsoft.com/fwlink/?linkid=2078712) 또는 [PowerPoint](https://go.microsoft.com/fwlink/?linkid=2079515) 에서 infographic을 다운로드 하 여 Microsoft 팀과 온라인 모임을 연결 하거나 호스팅하는 방법에 대 한 간략 한 개요를 확인할 수 있습니다.
 

@@ -16,12 +16,12 @@ ms.assetid: 758822b5-0126-463a-9d08-7366bb2a807d
 ms.collection:
 - M365-security-compliance
 description: 웹 사용자의 Microsoft Outlook은 기본 제공 전자 메일 보고 옵션을 사용 하 여 정크 (스팸) 및 피싱 사기를 보고할 수 있습니다. 또한 전자 메일이 정크 (스팸)로 잘못 식별 되었는지 여부를 Microsoft에 게 알릴 수도 있습니다.
-ms.openlocfilehash: 98b53aa17cb84defa9d20aa4610390db9f5447c5
-ms.sourcegitcommit: 4986032867b8664a215178b5e095cbda021f3450
+ms.openlocfilehash: 58973e59644b2e20853cfe053a18586efa5211bf
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "41957423"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42082411"
 ---
 # <a name="report-junk-email-and-phishing-scams-in-outlook-on-the-web"></a>웹용 Outlook에서 정크 전자 메일 및 피싱 사기 보고
 
@@ -33,7 +33,7 @@ ms.locfileid: "41957423"
 
 1. 정크 메시지를 클릭 하 고 도구 모음에서 **정크** 을 클릭 합니다. 그러면 메시지가 정크 메일 폴더로 이동 하 고 보낸 사람이 수신 거부 목록에 추가 됩니다.
 
-   ![웹상의 Outlook에서 정크 메일 표시](../media/a10ae792-aab6-4374-a041-6c3f732eb2e3.png)
+   ![웹상의 Outlook에서 정크 메일 표시](../../media/a10ae792-aab6-4374-a041-6c3f732eb2e3.png)
 
    > [!NOTE]
    > 또는 메시지를 마우스 오른쪽 단추로 클릭 하 여 메뉴를 표시 하 고 **정크 메일로 표시**를 클릭 합니다.
@@ -42,7 +42,7 @@ ms.locfileid: "41957423"
 
 2. 분석을 위해 정크 메일 메시지 복사본을 Microsoft로 보낼지 묻는 대화 상자가 열립니다. **보고서** 를 클릭 하 여 Microsoft 스팸 분석 팀에 메시지를 보냅니다. 메시지 없이 이후의 정크 메시지를 Microsoft에 자동으로 제출하려면 **이 메시지를 다시 표시 안 함** 확인란을 선택합니다.
 
-   ![웹의 Outlook에서 Microsoft에 정크 메일 보고](../media/e8d3a9f9-6eb6-4309-ba6d-643dffdb6a33.png)
+   ![웹의 Outlook에서 Microsoft에 정크 메일 보고](../../media/e8d3a9f9-6eb6-4309-ba6d-643dffdb6a33.png)
 
    > [!TIP]
    > **이 메시지를 다시 표시 안 함** 확인란을 선택한 경우에도 나중에 웹에서 Outlook의 표시 설정에 액세스 하 여 정크 메일 보고에 대 한 기본 설정을 변경할 수 있습니다. 이러한 설정에는 로그인 이름 옆의 기어 메뉴를 통해 액세스할 수 있습니다.
@@ -53,7 +53,7 @@ ms.locfileid: "41957423"
 
 1. 피싱 사기 메시지를 클릭 하 고 **정크**옆에 있는 아래쪽 화살표를 클릭 한 다음 도구 모음에서 **피싱** 을 클릭 합니다. Office 365은 일반적으로 피싱 사기 메시지의 보낸 사람이 합법적인 보낸 사람을 가장 하 여 보낸 사람을 차단 하지 않습니다. 원하는 경우 [웹에서 Outlook의 정크 메일 및 스팸 필터](https://support.office.com/article/db786e79-54e2-40cc-904f-d89d57b7f41d)항목에 나와 있는 지침에 따라 보낸 사람을 수신 거부 목록에 추가 합니다.
 
-   ![웹상의 Outlook에서 피싱 사기 전자 메일 표시](../media/959bb577-341c-41ee-a159-e46600b2cf8a.png)
+   ![웹상의 Outlook에서 피싱 사기 전자 메일 표시](../../media/959bb577-341c-41ee-a159-e46600b2cf8a.png)
 
    또는 메시지를 마우스 오른쪽 단추로 클릭 하 여 메뉴를 표시 하 고 **피싱 메일로 표시**를 클릭 합니다.
 

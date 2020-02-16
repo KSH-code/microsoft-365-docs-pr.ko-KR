@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: 캠페인에 대 한 Microsoft 365의 설치 개요
-ms.openlocfilehash: cca8866241a3759c022a362d39f7b208dff72580
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: d2dac24488e5d29b0e888ba09f5359cba6b1f614
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41594176"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42080491"
 ---
 # <a name="set-up-microsoft-365-for-campaigns"></a>캠페인에 대 한 Microsoft 365 설정
 
@@ -38,7 +38,7 @@ ms.locfileid: "41594176"
 ## <a name="admins-set-up-microsoft-365-for-campaigns"></a>관리자: 캠페인에 대 한 Microsoft 365 설정
 다음 다이어그램에서는 관리자가 캠페인에 대해 Microsoft 365을 설정 하는 방법을 설명 합니다.
 
-![캠페인에 대 한 Microsoft 365을 설정 하는 단계](media/M365-democracy-SetUpProcess.png)
+![캠페인에 대 한 Microsoft 365을 설정 하는 단계](../media/M365-democracy-SetUpProcess.png)
 
 특별 한 가격 책정에 적합 한 캠페인의 경우 먼저 [microsoft 로부터 초대를 요청](https://m365forcampaigns.microsoft.com/)하 고, [캠페인을 위해 microsoft 365에 등록](m365-campaigns-sign-up.md)하 여 시작 합니다. 설치를 완료 하려면 [설치 마법사를 실행](../business/set-up.md?toc=/microsoft-365/campaigns/toc.json) 하 여 핵심 설정을 구성 합니다.
 
@@ -51,7 +51,7 @@ ms.locfileid: "41594176"
  
 사용자가이 환경에서 작동 하도록 장치를 설정 하는 데 몇 분 정도 걸릴 수 있습니다. 주요 사용자 (해커에 게 가장 높은 가치 표적을 갖는 사용자)의 경우 새 장치를 설정 하 고 사전 구성할 수 있습니다. 이렇게 하면 사용자가 Microsoft 365 자격 증명으로 로그인 할 때 시작 하는 데 도움이 됩니다. 
 
-![사용자 장치 설정 프로세스](media/m365-democracy-user-device-setup.png)
+![사용자 장치 설정 프로세스](../media/m365-democracy-user-device-setup.png)
   
 사용자 장치를 설정 하려면: 
 1. 각 사용자가 [모바일 장치를 설정](../business/set-up-mobile-devices.md?toc=%2Fmicrosoft-365%2Fcampaigns%2Ftoc.json)합니다. 

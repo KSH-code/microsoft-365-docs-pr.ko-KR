@@ -16,12 +16,12 @@ ms.assetid: 3aff33c5-1416-4867-a23b-e0c0c5b4d2be
 ms.collection:
 - M365-security-compliance
 description: 요약:이 문서에서는 Office 365에서 DNS의 SPF (Sender Policy Framework) TXT 레코드를 사용 하 여 대상 전자 메일 시스템이 사용자 지정 도메인에서 보낸 메시지를 신뢰 하는지 확인 하는 방법을 설명 합니다. 이는 Office 365에서 보내는 아웃 바운드 메일에 적용 됩니다. Office 365에서 Office 365 내의 받는 사람에 게 전송 되는 메시지는 항상 SPF를 통과 합니다.
-ms.openlocfilehash: f02219b19af592f9ad27ea963cb07a260c09327f
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: e2863c0b8a66fa511c4ce842dc8026e880594292
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41599195"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42086009"
 ---
 # <a name="how-office-365-uses-sender-policy-framework-spf-to-prevent-spoofing"></a>Office 365에서 SPF (Sender Policy Framework)를 사용하여 스푸핑을 방지하는 방법
 
@@ -78,7 +78,7 @@ v = spf1 \<ip 주소 #1\> \<ip 주소 #2\> \<ip 주소 #3\> \<적용 규칙\>
 
 SPF는 보낸 사람에서 받는 사람으로의 경로가 direct와 같은 경우에 가장 적합 합니다.
 
-![서버 간에 직접 전자 메일이 전송될 때 SPF에서 전자 메일을 인증하는 방법을 보여주는 다이어그램입니다.](../media/835c20a7-ed4c-49c4-91fe-b8ebb3e452a1.jpg)
+![서버 간에 직접 전자 메일이 전송될 때 SPF에서 전자 메일을 인증하는 방법을 보여주는 다이어그램입니다.](../../media/835c20a7-ed4c-49c4-91fe-b8ebb3e452a1.jpg)
 
 Woodgrovebank.com에서 메시지를 수신 하는 경우 IP 주소 #1 contoso.com의 SPF TXT 레코드에 있는 경우 메시지가 SPF 확인을 통과 하 고 인증 됩니다.
 
@@ -87,7 +87,7 @@ Woodgrovebank.com에서 메시지를 수신 하는 경우 IP 주소 #1 contoso.c
 
 Phisher에서 contoso.com을 스푸핑할 수 있는 방법을 찾는 경우를 가정해 보겠습니다.
 
-![스푸핑된 서버에서 보낸 전자 메일을 SPF에서 인증하는 방법을 보여주는 다이어그램입니다.](../media/235dac3d-cdc5-466e-86e0-37b5979de198.jpg)
+![스푸핑된 서버에서 보낸 전자 메일을 SPF에서 인증하는 방법을 보여주는 다이어그램입니다.](../../media/235dac3d-cdc5-466e-86e0-37b5979de198.jpg)
 
 IP 주소 #12는 contoso의 SPF TXT 레코드에 없으므로 메시지가 SPF 검사를 통과 하지 못하고 수신자가 해당 메시지를 스팸으로 표시 하도록 선택할 수 있습니다.
 
@@ -96,7 +96,7 @@ IP 주소 #12는 contoso의 SPF TXT 레코드에 없으므로 메시지가 SPF �
 
 SPF의 한 가지 단점은 전자 메일이 전달 된 경우에도 작동 하지 않는다는 것입니다. 예를 들어 woodgrovebank.com의 사용자가 모든 전자 메일을 outlook.com 계정으로 보내도록 전달 규칙을 설정 했다고 가정 합니다.
 
-![메시지가 전달될 때 SPF에서 전자 메일을 인증할 수 없는 상황을 보여주는 다이어그램입니다.](../media/6e92acd6-463e-4a1b-8327-fb1cf861f356.jpg)
+![메시지가 전달될 때 SPF에서 전자 메일을 인증할 수 없는 상황을 보여주는 다이어그램입니다.](../../media/6e92acd6-463e-4a1b-8327-fb1cf861f356.jpg)
 
 이 메시지는 원래 woodgrovebank.com에서 SPF 검사를 통과 했지만, IP #25이 contoso의 SPF TXT 레코드에 없기 때문에 outlook.com에서 SPF 검사에 실패 했습니다. 그러면 Outlook.com에서 메시지를 스팸으로 표시할 수 있습니다. 이 문제를 해결 하려면 SPF를 DKIM 및 DMARC 같은 다른 전자 메일 인증 방법과 함께 사용 합니다.
 
@@ -140,7 +140,7 @@ Office 365의 일반적인 SPF TXT 레코드는 다음 구문을 포함 합니�
 v=spf1 [<ip4>|<ip6>:<IP address>] [include:<domain name>] <enforcement rule>
 ```
 
-예시는 다음과 같습니다:
+예:
 
 ```text
 v=spf1 ip4:192.168.0.1 ip4:192.168.0.2 include:spf.protection.outlook.com -all
@@ -191,7 +191,7 @@ v=spf1 ip4:192.168.0.1 include:spf.protection.outlook.com -all
 ### <a name="example-spf-txt-record-for-multiple-outbound-on-premises-mail-servers-and-office-365"></a>예: 여러 아웃 바운드 온-프레미스 메일 서버 및 Office 365에 대 한 SPF TXT 레코드
 <a name="ExampleSPFMultipleMailServerO365"> </a>
 
-아웃 바운드 메일 서버가 여러 개인 경우에는 각 메일 서버의 IP 주소를 SPF TXT 레코드에 포함 하 고 각 IP 주소를 공백으로 구분 하 고 "ip4:" 문을 입력 합니다. 예시는 다음과 같습니다:
+아웃 바운드 메일 서버가 여러 개인 경우에는 각 메일 서버의 IP 주소를 SPF TXT 레코드에 포함 하 고 각 IP 주소를 공백으로 구분 하 고 "ip4:" 문을 입력 합니다. 예:
 
 ```text
 v=spf1 ip4:192.168.0.1 ip4:192.168.0.2 ip4:192.168.0.3 include:spf.protection.outlook.com -all

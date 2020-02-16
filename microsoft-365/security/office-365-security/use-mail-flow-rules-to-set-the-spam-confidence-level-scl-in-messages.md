@@ -16,18 +16,18 @@ ms.assetid: 4ccab17a-6d49-4786-aa28-92fb28893e99
 ms.collection:
 - M365-security-compliance
 description: 관리자는 Exchange Online Protection에서 메시지의 SCL을 설정 하는 방법을 확인할 수 있습니다.
-ms.openlocfilehash: 4befc3c371118416b6d07f151eb2c346f8520608
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 10440d5ac8cd57388f4550f21ca72ce7aa1a2745
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41598060"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42081984"
 ---
 # <a name="use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages"></a>메일 흐름 규칙을 사용하여 메시지의 스팸 신뢰 수준(SCL) 설정
 
 전자 메일 메시지의 SCL (스팸 지 수)을 설정 하는 메일 흐름 규칙 (전송 규칙이 라고도 함)을 만들 수 있습니다. SCL은 메시지의 스팸 가능성을 측정 한 것입니다. 스팸은 요청되지 않은(일반적으로 원치 않는) 전자 메일 메시지입니다. 서비스는 SCL 등급에 따라 메시지에서 다른 작업을 수행 합니다. 예를 들어 동료 로부터 내부에 보낸 메시지가 스팸이 아닌 것을 신뢰 하기 때문에 조직 내부의 사용자가 보낸 메시지에 대해서는 스팸 콘텐츠 필터링을 무시 하는 것이 좋습니다. 메일 흐름 규칙을 사용 하 여 메시지의 SCL 값을 설정 하면 스팸을 보다 쉽게 제어할 수 있습니다.
 
- **시작하기 전에 알아야 할 사항은 무엇인가요?**
+ **시작하기 전에 알아야 할 내용**
 
 - 이 절차의 예상 완료 시간: 10 분.
 
@@ -39,14 +39,14 @@ ms.locfileid: "41598060"
 
 1. EAC (Exchange 관리 센터)에서 **메일 흐름** \> **규칙**을 선택 합니다.
 
-2. **새로**![만들기 아이콘](../media/ITPro-EAC-AddIcon.gif)을 선택한 다음 **새 규칙 만들기**를 선택 합니다.
+2. **새로**![만들기 아이콘](../../media/ITPro-EAC-AddIcon.gif)을 선택한 다음 **새 규칙 만들기**를 선택 합니다.
 
 3. 규칙 이름을 지정합니다.
 
 4. **기타 옵션**을 선택한 다음 다음의 **경우이 규칙 적용**에서이 규칙에 대해 설정할 작업을 트리거할 조건을 지정 합니다 (SCL 값 설정).
 
    예를 들어 **보낸 사람이** \> **내부/외부 인지**설정할 수 있으며, **보낸 사람 위치 선택** 대화 상자에서 **조직 내부**를 선택 하 고 **확인**을 선택 합니다.<br/>
-   ![보낸 사람 위치 선택](../media/EOP-ETR-SetSCL-1.jpg)
+   ![보낸 사람 위치 선택](../../media/EOP-ETR-SetSCL-1.jpg)
 
 5. **다음 작업 실행**에서 **메시지 속성 수정** \> **SCL(스팸 지수) 설정**을 선택합니다.
 

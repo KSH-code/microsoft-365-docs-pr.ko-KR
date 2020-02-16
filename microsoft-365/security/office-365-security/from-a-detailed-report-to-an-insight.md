@@ -17,12 +17,12 @@ ms.assetid: d2104778-f0a1-4b69-baf3-c4b32e98a573
 ms.collection:
 - M365-security-compliance
 description: 보안 &amp; 및 준수 센터에서 권장 작업을 포함 하 여 자세한 보고서에서 통찰력으로 이동 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 9385f7bc8bc8c2277df5e3f774015081b39f37a9
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: fc18af7d4ca813adb6fbfc01d44138b4a9266c6e
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41599265"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42086218"
 ---
 # <a name="walkthrough---from-a-detailed-report-to-an-insight"></a>연습 - 자세한 보고서에서 통찰력에 이르기까지
 
@@ -34,13 +34,13 @@ ms.locfileid: "41599265"
 
 자세한 보고서에서 파악 및 작업에 대 한 흐름을 단계별로 살펴보겠습니다. 이는 간단한 [스팸 방지 및 맬웨어 방지](anti-spam-and-anti-malware-protection.md) 예제입니다. 
   
-1. 먼저 [ &amp; 보안 및 준수 센터](https://protection.office.com) 보고서부터 시작 합니다. ( **보고서** \> **대시보드로**이동 합니다.) <br/>![보안 &amp; 및 준수 센터에서 보고서 \> 대시보드로 이동 합니다.](../media/68f3bb7c-b4f7-4cca-904b-478643a93c94.png)
+1. 먼저 [ &amp; 보안 및 준수 센터](https://protection.office.com) 보고서부터 시작 합니다. ( **보고서** \> **대시보드로**이동 합니다.) <br/>![보안 &amp; 및 준수 센터에서 보고서 \> 대시보드로 이동 합니다.](../../media/68f3bb7c-b4f7-4cca-904b-478643a93c94.png)
   
-2. 좀 더 자세한 보기를 보려면 보고서를 선택 합니다. ( **위협 보호 상태** 보고서 등의 보고서를 선택 합니다.)<br/>![통찰력을 보여 주는 위협 방지 상태 보고서](../media/f47d7dbd-816a-47ba-b8db-53919fbed192.png)
+2. 좀 더 자세한 보기를 보려면 보고서를 선택 합니다. ( **위협 보호 상태** 보고서 등의 보고서를 선택 합니다.)<br/>![통찰력을 보여 주는 위협 방지 상태 보고서](../../media/f47d7dbd-816a-47ba-b8db-53919fbed192.png)
   
 3. 보고서 아래에는 물론, 차트에 insights 표시기가 있습니다. 통찰력 표식 위에 마우스 포인터를 놓으면 몇 가지 추가 정보를 얻을 수 있습니다. (추가 정보를 보려면 insights 마커를 커서로 가리키십시오.)
     
-4. 차트 아래에 있는 insights 표식 또는 insights widget을 클릭 하면 세부 정보 창이 열립니다. (차트 아래에서 insights 위젯을 선택 합니다.)<br/>![맬웨어에 대 한 정보](../media/2c8bccc5-ca4e-4bb9-ad4c-55fcee0535b7.png)<br/>세부 정보 창에는 정책 검토, 추가 탐색 수행 및 상태 편집을 포함 하 여 고려할 정보와 권장 사항이 제공 됩니다. ([Office 365의 스팸 방지 및 맬웨어 방지 보호에 대해 자세히 알아보세요](anti-spam-and-anti-malware-protection.md).)
+4. 차트 아래에 있는 insights 표식 또는 insights widget을 클릭 하면 세부 정보 창이 열립니다. (차트 아래에서 insights 위젯을 선택 합니다.)<br/>![맬웨어에 대 한 정보](../../media/2c8bccc5-ca4e-4bb9-ad4c-55fcee0535b7.png)<br/>세부 정보 창에는 정책 검토, 추가 탐색 수행 및 상태 편집을 포함 하 여 고려할 정보와 권장 사항이 제공 됩니다. ([Office 365의 스팸 방지 및 맬웨어 방지 보호에 대해 자세히 알아보세요](anti-spam-and-anti-malware-protection.md).)
     
 이러한 방식으로 자세한 보고서에서 통찰력 및 권장 작업으로 이동할 수 있습니다. 
   

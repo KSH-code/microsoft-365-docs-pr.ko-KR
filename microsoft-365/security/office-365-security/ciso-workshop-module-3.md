@@ -12,19 +12,19 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: 조직의 현대화 보안에 대 한 보안 원칙 및 권장 사항에 대해 자세히 알아보세요.
-ms.openlocfilehash: 97ba2b0319f8a34bd6fe1cbdf597b85281810855
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 4f264bead74f6a087fc0cac93df18d02121fbe4c
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41599705"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42083527"
 ---
 # <a name="ciso-workshop-module-3-identity-and-zero-trust-user-access"></a>CISO 워크숍 모듈 3: Id 및 제로 트러스트 사용자 액세스
 
 네트워크 경계 내부 및 외부에서 회사 데이터를 보다 효율적으로 보호 하기 위해 id 및 사용자 액세스 전략과 제로 트러스트를 이동 하는 방법에 대해 알아봅니다.
 
-- PDF 요약 다운로드: [모듈 3: id 및 제로 트러스트 사용자 액세스](../media/ciso-workshop-3-identity-and-zero-trust-user-access.pdf)
-- PowerPoint 요약 다운로드: [모듈 3: id 및 액세스 관리](../media/ciso-workshop-3-identity-and-zero-trust-user-access.pptx)
+- PDF 요약 다운로드: [모듈 3: id 및 제로 트러스트 사용자 액세스](../../media/ciso-workshop-3-identity-and-zero-trust-user-access.pdf)
+- PowerPoint 요약 다운로드: [모듈 3: id 및 액세스 관리](../../media/ciso-workshop-3-identity-and-zero-trust-user-access.pptx)
 
 ## <a name="part-1-identity-and-zero-trust-history-933"></a>1 부: Id 및 제로 트러스트 기록 (9:33)
 

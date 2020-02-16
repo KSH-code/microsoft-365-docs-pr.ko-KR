@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
 description: 캠페인에 대 한 Microsoft 365에 대 한 단계별 등록입니다. Cybersecurity 위협 으로부터 전자 메일, 데이터 및 통신으로 캠페인을 보호 합니다.
-ms.openlocfilehash: fefba1ddbf5feead873e0367502bbe2bcc530efb
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: e142adcc9b1858355414c28b7e94116a6505f1b9
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41594769"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42080533"
 ---
 # <a name="sign-up-for-microsoft-365-for-campaigns"></a>캠페인에 대 한 Microsoft 365 등록 
 
@@ -79,7 +79,7 @@ Office 365 Business Premium과 같은 비즈니스용 Office 365에 대 한 기�
 1. 캠페인 전자 메일에 대 한 Microsoft 365 초대에서 **조직 등록 >** 를 선택 합니다. 그러면 Microsoft 365 등록을 수행 하는 데 도움이 됩니다.
 2. 시작 화면에서 사용자에 게 **확인** 하 시겠습니까? 페이지에서이 항목을 **기존 구독에 추가 하려면 클릭 하거나 탭 하세요. 로그인**합니다.
     
-    ![오른쪽 위 모서리에서 로그인을 선택 합니다.](media/addtoexisting.png)
+    ![오른쪽 위 모서리에서 로그인을 선택 합니다.](../media/addtoexisting.png)
 3. 로그인 페이지에서 기존 구독에 대 한 관리자 별칭 (예: *<span></span>Alice@VoteContoso*)을 입력 하 고 **다음**을 선택 하 고 암호를 입력 한 다음 **로그인**을 선택 합니다.
 4. 모양을 어떻게 **확인 하 시겠습니까?** 사용자 수를 입력 하 고 **다음**을 선택 합니다. 홍보 코드는 이미 초대 URL에 포함 되어 있으므로 여기에 입력 하지 않아도 됩니다.
 5. **어떻게 결제** 하 시겠습니까? 페이지에서 결제 방법을 입력 하 고 **주문 하기**를 선택 합니다.

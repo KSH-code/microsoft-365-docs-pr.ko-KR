@@ -15,12 +15,12 @@ ms.collection:
 - M365-security-compliance
 ms.custom: Ent_TLGs
 description: 이 테스트 랩 가이드를 사용 하 여 Microsoft 365 Enterprise Test environment 권한 있는 액세스 관리를 사용 하도록 설정 합니다.
-ms.openlocfilehash: 9dadad2dd11845f9215745863c8176bfa280797f
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: ce637b94333f088d25e479e61ad2a98176a2f7c6
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600805"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42085377"
 ---
 # <a name="privileged-access-management-for-your-microsoft-365-enterprise-test-environment"></a>Microsoft 365 Enterprise 테스트 환경에 대한 권한이 부여된 액세스 관리
 
@@ -28,10 +28,10 @@ ms.locfileid: "41600805"
 
 이 문서의 지침을 사용 하 여 Microsoft 365 Enterprise 테스트 환경에서 보안을 강화 하도록 권한이 부여 된 액세스 관리를 구성 합니다.
 
-![Microsoft 클라우드의 테스트 랩 가이드](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
+![Microsoft 클라우드의 테스트 랩 가이드](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
 
 >[!TIP]
->[여기](media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf)를 클릭하여 Microsoft 365 Enterprise 테스트 랩 가이드 스택의 모든 문서에 대한 가상 맵을 확인할 수 있습니다.
+>[여기](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf)를 클릭하여 Microsoft 365 Enterprise 테스트 랩 가이드 스택의 모든 문서에 대한 가상 맵을 확인할 수 있습니다.
   
 ## <a name="phase-1-build-out-your-microsoft-365-enterprise-test-environment"></a>1단계: Microsoft 365 Enterprise 테스트 환경 구축
 

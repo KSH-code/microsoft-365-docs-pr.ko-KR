@@ -16,12 +16,12 @@ ms.assetid: 34681000-0022-4b92-b38a-e32b3ed96bf6
 ms.collection:
 - M365-security-compliance
 description: 전자 메일 메시지가 스팸 필터링을 통과 하면 스팸 점수가 할당 됩니다. 이 점수는 개별 SCL (스팸 지 수) 등급에 매핑되며 X-헤더에 스탬프 처리 됩니다. 이 서비스는 SCL 등급의 스팸 신뢰 해석에 따라 메시지에 대 한 작업을 수행 합니다. 다음 표에서는 각 등급에 대 한 인바운드 메시지에 대해 수행 되는 필터 및 각 SCL 등급이 해석 되는 방식을 보여 줍니다.
-ms.openlocfilehash: c40317833ea61424dab60ac858c2071f7891c4f8
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 65b6f51199e6d8f6ce17a05b28c5bad15d9d1760
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41598315"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42084765"
 ---
 # <a name="spam-confidence-levels"></a>스팸 지수
 
@@ -39,6 +39,6 @@ ms.locfileid: "41598315"
   
 ||
 |:-----|
-|![LinkedIn Learning용 단축 아이콘](../media/eac8a413-9498-4220-8544-1e37d1aaea13.png) **Office 365를 처음 사용하시나요?**         LinkedIn Learning에서 제공하는 **Office 365 admins and IT pros**의 무료 비디오 과정을 확인해보세요.|
+|![LinkedIn Learning용 단축 아이콘](../../media/eac8a413-9498-4220-8544-1e37d1aaea13.png) **Office 365를 처음 사용하시나요?**         LinkedIn Learning에서 제공하는 **Office 365 admins and IT pros**의 무료 비디오 과정을 확인해보세요.|
    
 

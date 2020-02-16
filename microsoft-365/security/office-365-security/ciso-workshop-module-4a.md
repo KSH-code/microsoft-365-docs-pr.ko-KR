@@ -12,18 +12,18 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: 조직의 현대화 보안에 대 한 보안 원칙 및 권장 사항에 대해 자세히 알아보세요.
-ms.openlocfilehash: 2c08570165f893950dc2588ab33b45be36a3816d
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 322ced9ae3a565e07de372d7775c176ba647301b
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41599695"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42086547"
 ---
 # <a name="ciso-workshop-module-4a-threat-protection-strategy"></a>CISO 워크숍 모듈 4a: 위협 방지 전략
 
 주요 learnings 위협 보호, 보안 진행, 전략 및 보안 로드맵에 대해 알아봅니다.
 
-- PDF 요약 다운로드: [모듈 4a: 위협 보호 전략](../media/ciso-workshop-4a-threat-protection.pdf)
+- PDF 요약 다운로드: [모듈 4a: 위협 보호 전략](../../media/ciso-workshop-4a-threat-protection.pdf)
 - PowerPoint 요약 다운로드: [모듈 4a: 위협 보호 전략](https://docs.microsoft.com/microsoft-365/security/media/ciso-workshop-4a-threat-protection.pptx)
 
 ## <a name="introduction-threat-protection-strategy-437"></a>소개: 위협 보호 전략 (4:37)

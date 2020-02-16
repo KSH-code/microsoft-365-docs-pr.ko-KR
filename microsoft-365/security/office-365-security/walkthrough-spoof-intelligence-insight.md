@@ -17,12 +17,12 @@ ms.assetid: 59a3ecaf-15ed-483b-b824-d98961d88bdd
 ms.collection:
 - M365-security-compliance
 description: 새 스푸핑 인텔리전스 통찰력은 어떻게 작동 하는지 확인 하세요.
-ms.openlocfilehash: 38bf75a2ebeabd41aace42c6116d37ecbe28a2de
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 940203bc86339e4cc749565be355d717be9e914d
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41598015"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42084363"
 ---
 # <a name="walkthrough-spoof-intelligence-insight"></a>연습: 지능 통찰력 스푸핑
 
@@ -50,7 +50,7 @@ ms.locfileid: "41598015"
 
 대시보드에 대 한 통찰력에는 다음과 같은 정보가 나와 있습니다.
   
-![스푸핑 인텔리전스 통찰력 스크린샷](../media/28aeabac-c1a1-4d16-9fbe-14996f742a9a.png)
+![스푸핑 인텔리전스 통찰력 스크린샷](../../media/28aeabac-c1a1-4d16-9fbe-14996f742a9a.png)
   
 이 통찰력에는 두 가지 모드가 있습니다.
   
@@ -82,7 +82,7 @@ ms.locfileid: "41598015"
     
 2. 테이블에서 항목을 선택 하 여 도메인 쌍에 대 한 다양 한 정보가 포함 된 세부 정보 창 (이 예에서는 사용자가 수행 해야 하는 작업, 보낸 사람에 대 한 WhoIs 데이터 및 같은 보낸 사람에 대 한 테 넌 트에 표시 되는 유사한 전자 메일)을 제공 합니다. 여기에서 **Allowedtospoof** 수신 허용-보낸 사람 목록에서 도메인 쌍을 추가 하거나 제거 하도록 선택할 수도 있습니다. 
   
-![스푸핑 인텔리전스 통찰력 세부 정보 창에 있는 도메인 스크린샷](../media/03ad3e6e-2010-4e8e-b92e-accc8bbebb79.png)
+![스푸핑 인텔리전스 통찰력 세부 정보 창에 있는 도메인 스크린샷](../../media/03ad3e6e-2010-4e8e-b92e-accc8bbebb79.png)
   
 ## <a name="add-or-remove-a-domain-from-the-allowedtospoof-safe-sender-list"></a>AllowedToSpoof 수신 허용-보낸 사람 목록에서 도메인 추가 또는 제거
 

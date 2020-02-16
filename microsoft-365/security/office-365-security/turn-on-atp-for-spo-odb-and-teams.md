@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 - SPO_Content
 description: 검색 된 파일에 대 한 알림을 설정 하는 방법을 포함 하 여 SharePoint, OneDrive 및 팀에 대 한 ATP를 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: 601549db67d34460f4505941d4f2847a2c8f370b
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 2596dade32d387669eb136856b7a24a66134a773
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41598155"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42084423"
 ---
 # <a name="turn-on-office-365-atp-for-sharepoint-onedrive-and-microsoft-teams"></a>SharePoint, OneDrive 및 Microsoft Teams에 대한 Office 365 ATP 실행
 
@@ -48,11 +48,11 @@ ATP 정책을 정의 하거나 편집 하려면 적절 한 역할이 할당 되�
 
 2. Office 365 보안 & 준수 센터의 왼쪽 탐색 창에 있는 **위협 관리**에서 **정책** \> **안전한 첨부 파일**을 선택 합니다.
 
-   ![보안 & 준수 센터에서 위협 관리 \> 정책 선택](../media/08849c91-f043-4cd1-a55e-d440c86442f2.png)
+   ![보안 & 준수 센터에서 위협 관리 \> 정책 선택](../../media/08849c91-f043-4cd1-a55e-d440c86442f2.png)
 
 3. **SharePoint, OneDrive 및 Microsoft 팀에 대해 ATP 사용**을 선택 합니다.
 
-   ![SharePoint Online, 비즈니스용 OneDrive 및 Microsoft 팀에 대 한 Advanced Threat Protection 설정](../media/48cfaace-59cc-4e60-bf86-05ff6b99bdbf.png)
+   ![SharePoint Online, 비즈니스용 OneDrive 및 Microsoft 팀에 대 한 Advanced Threat Protection 설정](../../media/48cfaace-59cc-4e60-bf86-05ff6b99bdbf.png)
 
 4. **저장**을 클릭합니다.
 
