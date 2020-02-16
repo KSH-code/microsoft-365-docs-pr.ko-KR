@@ -16,13 +16,13 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: c2cd721e9e4e584494414645d367588087877d61
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 658b5263bdfb918d36a184832e41af01b9b63e31
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600525"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42071635"
 ---
-# <a name="manage-load-sets"></a><span data-ttu-id="61e37-102">로드 집합 관리</span><span class="sxs-lookup"><span data-stu-id="61e37-102">Manage load sets</span></span>
+# <a name="manage-load-sets"></a><span data-ttu-id="6c3c1-102">로드 집합 관리</span><span class="sxs-lookup"><span data-stu-id="6c3c1-102">Manage load sets</span></span>
 
-<span data-ttu-id="61e37-103">곧 제공될 콘텐츠입니다.</span><span class="sxs-lookup"><span data-stu-id="61e37-103">Content coming soon.</span></span>
+<span data-ttu-id="6c3c1-103">곧 제공될 콘텐츠입니다.</span><span class="sxs-lookup"><span data-stu-id="6c3c1-103">Content coming soon.</span></span>
