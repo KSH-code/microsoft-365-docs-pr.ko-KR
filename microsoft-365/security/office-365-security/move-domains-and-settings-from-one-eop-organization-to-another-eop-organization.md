@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 9d64867b-ebdb-4323-8e30-4560d76b4c97
 description: 비즈니스 요구 사항 변경 시 하나의 Microsoft EOP(Exchange Online Protection) 조직(테넌트)을 두 조직으로 분할하거나, 두 조직을 하나로 병합하거나, 조직 간에 도메인 및 EOP 설정을 이동해야 할 수 있습니다.
-ms.openlocfilehash: cfd83b8558ed4cec3a48b536437e0a0dbe75aeaa
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: c7d5c7ddc8391c70a555279c530cc2bf19e66ca2
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41598775"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42088334"
 ---
 # <a name="move-domains-and-settings-from-one-eop-organization-to-another-eop-organization"></a>EOP 조직 간에 도메인 및 설정 이동
 
@@ -28,7 +28,7 @@ ms.locfileid: "41598775"
 
 다음 예제에서는 Contoso, Ltd.가 Contoso Suites와 병합되었습니다. 다음 그림에서는 원본 EOP 조직(contoso.onmicrosoft.com)에서 대상 EOP 조직(contososuites.onmicrosoft.com)으로 도메인, 메일 사용자 및 그룹, 설정을 이동하는 프로세스를 보여 줍니다.
 
-![EOP 도메인 및 설정 이동](../media/EOP-Move-domains-and-settings.jpg)
+![EOP 도메인 및 설정 이동](../../media/EOP-Move-domains-and-settings.jpg)
 
 확인된 도메인이 두 조직에 동시에 존재할 수 없는 경우 조직 간에 도메인을 이동하는 데 문제가 있을 수 있습니다. 다음 단계에서는 이 과정을 도와줍니다.
 
@@ -57,7 +57,7 @@ ms.locfileid: "41598775"
 
 다음으로, 모든 설정을 수집하고 대상 테넌트로 가져올 .xml 파일을 내보낼 수 있습니다. 일반적으로 다음 코드 샘플과 같이 각 설정에 대한 **Get** cmdlet의 출력을 **Export-Clixml** cmdlet에 파이프하여 .xml 파일에 설정을 저장할 수 있습니다.
 
-Exchange Online Protection PowerShell에서 쉽게 찾고 해당 디렉터리로 변경할 수 있는 위치에 Export 라는 디렉터리를 만듭니다. 예시는 다음과 같습니다:
+Exchange Online Protection PowerShell에서 쉽게 찾고 해당 디렉터리로 변경할 수 있는 위치에 Export 라는 디렉터리를 만듭니다. 예:
 
 ```PowerShell
 mkdir C:\EOP\Export

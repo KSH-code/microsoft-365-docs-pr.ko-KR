@@ -17,18 +17,18 @@ ms.assetid: e47e838c-d99e-4c0b-b9aa-e66c4fae902f
 ms.collection:
 - M365-security-compliance
 description: 보안 &amp; 및 준수 센터에서 Office 365 Advanced Threat Protection에 대 한 보고서를 찾아서 사용 합니다.
-ms.openlocfilehash: 6a7ee065447c7351f02d1ff88239b1c41b7e874b
-ms.sourcegitcommit: 4986032867b8664a215178b5e095cbda021f3450
+ms.openlocfilehash: 1531a70439ae1c093ee472923696895eda0bc644
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "41957383"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42081921"
 ---
 # <a name="view-reports-for-office-365-advanced-threat-protection"></a>Office 365 Advanced Threat Protection에 대 한 보고서 보기
 
 조직에 [Office 365 ATP (Advanced Threat Protection](office-365-atp.md) )가 있고 [필요한 사용 권한이](#what-permissions-are-needed-to-view-the-atp-reports)있는 경우 보안 &amp; 및 준수 센터에서 여러 ATP 보고서를 사용할 수 있습니다. ( **보고서** \> **대시보드로**이동 합니다.)
   
-![보안&amp; 규정 준수 센터 대시보드는 Advanced Threat Protection이 작업 중인 위치를 확인할 수 있도록 도와줍니다](../media/6b213d34-adbb-44af-8549-be9a7e2db087.png)
+![보안&amp; 규정 준수 센터 대시보드는 Advanced Threat Protection이 작업 중인 위치를 확인할 수 있도록 도와줍니다](../../media/6b213d34-adbb-44af-8549-be9a7e2db087.png)
   
 ATP 보고서에는 다음이 포함 됩니다.
 - [위협 방지 상태 보고서](#threat-protection-status-report)
@@ -57,11 +57,11 @@ ATP 보고서에는 다음이 포함 됩니다.
 > [!TIP]
 > 전자 메일 > 피싱 | 맬웨어 보기에는 *ATP에서 생성 된 파일 신뢰도*, *파일 샌드 박싱*, *URL 샌드 박싱*, *스푸핑 방지: DMARC 실패*등의 범주를 포함 하 여 표시 되는 검색 기술에 대 한 자세한 breakdowns 있으며,이를 통해 조직에서 위협을 찾아낼 기능을 정확히 알 수 있습니다.
 
-![' 나누기 기준 '이 표시 되는 위협 보호 상태 보고서 드롭다운](../media/tp-threatProtectStatRpt-BreakDownBy.png)
+![' 나누기 기준 '이 표시 되는 위협 보호 상태 보고서 드롭다운](../../media/tp-threatProtectStatRpt-BreakDownBy.png)
 
 이러한 보기는 단추 클릭 (전자 메일 > 피싱, 전자 메일 > 맬웨어 및 콘텐츠 > 맬웨어 보기)을 통해 내보낼 수 있는 옵션을 제공 합니다. 컴퓨터로 내보낸 집계 된 데이터를 Excel에서 열 수 있습니다.
 
-![이 그래픽은 맬웨어 보기 메뉴의 옵션으로 내보내기, 만들기 일정 및 요청 보고서 간의 오른쪽을 보여 줍니다.](../media/tp-threatProtectStatRpt-BreakDownByExport.png)
+![이 그래픽은 맬웨어 보기 메뉴의 옵션으로 내보내기, 만들기 일정 및 요청 보고서 간의 오른쪽을 보여 줍니다.](../../media/tp-threatProtectStatRpt-BreakDownByExport.png)
 
 개요 및 전자 메일 보기에는 24 시간 (요청 다시)이 아닌 처리 시간 내에 정보가 표시 됩니다. 여기에서 속도 향상은 명확한 신호입니다.
 
@@ -70,19 +70,19 @@ ATP 보고서에는 다음이 포함 됩니다.
   
 위협 방지 상태 보고서를 보려면 [보안 &amp; 및 준수 센터](https://protection.office.com)에서 **보고서** \> **대시보드** \> **위협 보호 상태로**이동 합니다.
   
-![ATP 위협 방지 상태 보고서](../media/6bdd41eb-62e0-423b-9fd4-d1d5baf0cbd5.png)
+![ATP 위협 방지 상태 보고서](../../media/6bdd41eb-62e0-423b-9fd4-d1d5baf0cbd5.png)
   
 하루 동안 자세한 상태를 보려면 그래프를 가리킵니다.
   
-![ATP 위협 방지 상태 데이터 (일)](../media/d5c2c6ad-c002-4985-a032-c866e46fdea8.png)
+![ATP 위협 방지 상태 데이터 (일)](../../media/d5c2c6ad-c002-4985-a032-c866e46fdea8.png)
   
 기본적으로 위협 방지 상태 보고서에는 최근 7 일간의 데이터가 표시 됩니다. 그러나 **필터** 를 선택 하 고 날짜 범위를 변경 하 여 데이터를 최대 90 일까 지 확인할 수 있습니다. 평가판 구독을 사용 하는 경우에는 30 일간의 데이터를 제한할 수 있습니다.
   
-![ATP 위협 방지 상태 필터](../media/4f703369-642b-402b-9758-b9c828283410.png)
+![ATP 위협 방지 상태 필터](../../media/4f703369-642b-402b-9758-b9c828283410.png)
   
 **데이터 보기 기준** 메뉴를 사용 하 여 보고서에 표시 되는 정보를 변경할 수도 있습니다. 
   
-![ATP 위협 방지 상태 보고서에 대 한 옵션 보기](../media/4959bf8c-d192-4542-b00b-184e101e7513.png)
+![ATP 위협 방지 상태 보고서에 대 한 옵션 보기](../../media/4959bf8c-d192-4542-b00b-184e101e7513.png)
 
 ## <a name="url-protection-status-report"></a>URL 보호 상태 보고서
 
@@ -105,11 +105,11 @@ ATP 보고서에는 다음이 포함 됩니다.
   
 이 보고서를 보려면 [보안 &amp; 및 준수 센터](https://protection.office.com)에서 **보고서** \> **대시보드** \> **ATP 파일 형식**으로 이동 합니다.
   
-![ATP 파일 형식 보고서](../media/6e3f5d33-79aa-4b2d-938c-6ef135d9e54c.png)
+![ATP 파일 형식 보고서](../../media/6e3f5d33-79aa-4b2d-938c-6ef135d9e54c.png)
   
 특정 날짜를 마우스로 가리키면 [ATP 수신 허용 첨부 파일](atp-safe-attachments.md) 및 [Office 365의 스팸 &amp; 방지 바이러스 백신 보호 기능](anti-spam-and-anti-malware-protection.md)에서 검색 된 악의적인 파일의 유형을 확인할 수 있습니다.
   
-![ATP 파일 형식 하루에 대 한 보고서 데이터](../media/10d18428-699a-41d2-a73e-be3a8214ada1.png)
+![ATP 파일 형식 하루에 대 한 보고서 데이터](../../media/10d18428-699a-41d2-a73e-be3a8214ada1.png)
   
 ## <a name="atp-message-disposition-report"></a>ATP 메시지 폐기 보고서
 
@@ -117,11 +117,11 @@ ATP 보고서에는 다음이 포함 됩니다.
   
 이 보고서를 보려면 [보안 &amp; 및 준수 센터](https://protection.office.com)에서 **보고서** \> **대시보드** \> **ATP 메시지 처리**로 이동 합니다.
   
-![ATP 메시지 처리 보고서](../media/b0ff65c4-53d3-496d-bafa-8937a5eb69e5.png)
+![ATP 메시지 처리 보고서](../../media/b0ff65c4-53d3-496d-bafa-8937a5eb69e5.png)
   
 차트의 막대 위에 마우스를 올리면 해당 요일의 검색 된 전자 메일에 대해 수행한 작업을 확인할 수 있습니다.
   
-![ATP 메시지 처리 보고서 데이터 (일)](../media/68d2beb8-4b30-48c4-8ba6-5e8ab88ae456.png)
+![ATP 메시지 처리 보고서 데이터 (일)](../../media/68d2beb8-4b30-48c4-8ba6-5e8ab88ae456.png)
   
 ## <a name="additional-reports-to-view"></a>볼 수 있는 추가 보고서
 

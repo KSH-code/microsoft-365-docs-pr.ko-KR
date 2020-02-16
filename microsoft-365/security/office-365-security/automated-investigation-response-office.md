@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 ms.collection: M365-security-compliance
 description: Office 365 Advanced Threat Protection 계획 2의 자동화 된 조사 및 응답 기능에 대 한 개요를 확인 하세요.
-ms.openlocfilehash: 975c6d8a00e3e1cd8c30b2d417c74cde39b8cd5a
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 4ca4cf6033b843b92a2edceaae27f43d6eed8e7d
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41599805"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42086865"
 ---
 # <a name="automated-investigation-and-response-air-in-office-365"></a>Office 365의 자동화 된 조사 및 응답 (AIR)
 
@@ -66,7 +66,7 @@ ms.locfileid: "41599805"
 
 조직에서 경고 관리 시스템, 서비스 관리 시스템 또는 SIEM (보안 정보 및 이벤트 관리) 시스템을 통해 보안 경고를 관리 하는 경우 전자 메일 알림을 통해 또는 [office 365 관리 활동 API](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-reference)를 통해 해당 시스템에 office 365 알림을 보낼 수 있습니다. 전자 메일 또는 API를 통한 조사 경고 알림에는 보안 & 준수 센터의 경고에 액세스 하 여 할당 된 보안 관리자가 조사로 신속 하 게 이동할 수 있도록 하는 링크가 포함 되어 있습니다.
 
-![조사로 연결 되는 경고](../media/air-alerts-page-details.png) 
+![조사로 연결 되는 경고](../../media/air-alerts-page-details.png) 
 
 ## <a name="security-playbooks"></a>보안 playbook
 
@@ -103,7 +103,7 @@ AIR에서는 각 보안 playbook 다음이 포함 됩니다.
 
 자동화 된 조사 페이지에 조직의 조사 및 현재 상태가 표시 됩니다.
 
-![AIR의 주 조사 페이지](../media/air-maininvestigationpage.png) 
+![AIR의 주 조사 페이지](../../media/air-maininvestigationpage.png) 
   
 다음을 수행할 수 있습니다.
 - 조사로 직접 이동 합니다 ( **조사 ID**선택).
@@ -132,7 +132,7 @@ AIR에서는 각 보안 playbook 다음이 포함 됩니다.
 
 특정 조사를 열면 조사 그래프 페이지가 표시 됩니다. 이 페이지에는 전자 메일 메시지, 사용자 (및 해당 활동), 트리거된 알림의 일부로 자동 조사 되는 장치 등의 다양 한 엔터티가 모두 표시 됩니다.
 
-![AIR 조사 그래프 페이지](../media/air-investigationgraphpage.png)
+![AIR 조사 그래프 페이지](../../media/air-investigationgraphpage.png)
 
 다음을 수행할 수 있습니다.
 - 현재 조사에 대 한 시각적 개요를 볼 수 있습니다.
@@ -144,7 +144,7 @@ AIR에서는 각 보안 playbook 다음이 포함 됩니다.
 
 조사에 대 한 **알림** 탭에서 조사와 관련 된 경고를 볼 수 있습니다. 세부 정보에는 조사를 트리거한 경고 및 확인에 상관 된 위험한 로그인, DLP 정책 위반 등의 상호 관련 된 경고가 포함 됩니다. 이 페이지에서는 보안 분석가가 개별 경고에 대 한 추가 세부 정보를 볼 수도 있습니다.
 
-![AIR 알림 페이지](../media/air-investigationalertspage.png)
+![AIR 알림 페이지](../../media/air-investigationalertspage.png)
 
 다음을 수행할 수 있습니다.
 - 현재 트리거하는 경고 및 관련 경고에 대 한 시각적 개요를 볼 수 있습니다.
@@ -177,14 +177,14 @@ AIR에서는 각 보안 playbook 다음이 포함 됩니다.
 
 예를 들어 다음과 같은 시나리오를 가정해 봅니다. 세 개의 전자 메일 메시지 중 첫 번째 클러스터는 피싱 것으로 간주 됩니다. 이러한 항목 중 일부는 초기 검색을 수행 하는 동안 피싱으로 식별 되었기 때문에 같은 IP 및 주체를 포함 하는 비슷한 메시지의 다른 클러스터가 발견 되어 악성으로 간주 되었습니다. 
 
-![AIR 전자 메일 조사 페이지](../media/air-investigationemailpage.png)
+![AIR 전자 메일 조사 페이지](../../media/air-investigationemailpage.png)
 
 다음을 수행할 수 있습니다.
 - 현재 클러스터링 결과 및 발견 된 위협에 대 한 시각적 개요를 볼 수 있습니다.
 - 클러스터 엔터티 또는 위협 목록을 클릭 하 여 전체 알림 세부 정보를 표시 하는 플라이 아웃 페이지를 엽니다.
 - ' 전자 메일 클러스터 세부 정보 ' 탭 맨 위에 있는 ' 탐색기에서 열기 ' 링크를 클릭 하 여 전자 메일 클러스터를 자세히 조사 합니다.
 
-![플라이 아웃 세부 정보를 사용한 AIR 조사 전자 메일](../media/air-investigationemailpageflyoutdetails.png)
+![플라이 아웃 세부 정보를 사용한 AIR 조사 전자 메일](../../media/air-investigationemailpageflyoutdetails.png)
 
 > [!NOTE]
 > 전자 메일 컨텍스트에서 조사를 진행 하는 동안 볼륨 변칙 위협 표면을 볼 수 있습니다. 볼륨 변칙은 이전 기간에 비해 조사 이벤트에 대 한 유사한 전자 메일 메시지의 스파이크를 나타냅니다. 전자 메일 트래픽 (예: 제목 및 보낸 사람 도메인, 본문 유사성 및 보낸 사람 IP)이 비슷한 방식으로 전자 메일을 사용 하는 것이 일반적입니다. 그러나 일반적으로 대량, 스팸 및 합법적인 전자 메일 캠페인은 이러한 특성을 공유 합니다. 볼륨 예외는 잠재적 위협을 나타내므로, 바이러스 백신 엔진, 샌드 박싱 또는 악의적인 평판을 사용 하 여 식별 된 맬웨어 또는 피싱 위협과 비교 하는 것이 더 심각 하지 않습니다.
@@ -195,7 +195,7 @@ AIR에서는 각 보안 playbook 다음이 포함 됩니다.
 
 예를 들어 다음 이미지에서 AIR은 생성 된 새 받은 편지함 규칙을 기반으로 하는 손상 및 예외 표시등을 식별 했습니다. 조사에 대 한 자세한 내용은이 탭 내의 자세한 보기를 통해 확인할 수 있습니다. 손상 및 변칙에 대 한 표시기에는 [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security)의 변칙 검색이 포함 될 수도 있습니다.
 
-![AIR 조사 사용자 페이지](../media/air-investigationuserspage.png)
+![AIR 조사 사용자 페이지](../../media/air-investigationuserspage.png)
 
 다음을 수행할 수 있습니다.
 - 발견 된 사용자 결과 및 위험에 대 한 시각적 개요를 확인 하세요.
@@ -205,7 +205,7 @@ AIR에서는 각 보안 playbook 다음이 포함 됩니다.
 
 **컴퓨터** 탭에서 조사 과정으로 식별 된 모든 컴퓨터를 볼 수 있습니다. 
 
-![AIR 조사 컴퓨터 페이지](../media/air-investigationmachinepage.png)
+![AIR 조사 컴퓨터 페이지](../../media/air-investigationmachinepage.png)
 
 일부 playbooks 일부로, AIR에서는 전자 메일 위협을 장치 (예: Zapped 맬웨어)와 연관 시킵니다. 예를 들어 조사를 통해 조사를 위해 [Microsoft DEFENDER ATP](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection
 ) 에 게 악성 파일 해시를 전달 합니다. 이렇게 하면 사용자에 대 한 관련 시스템을 자동으로 조사 하 여 위협이 클라우드 및 끝점에서 모두 해결 되도록 할 수 있습니다. 
@@ -220,19 +220,19 @@ AIR에서는 각 보안 playbook 다음이 포함 됩니다.
 
 여기서는 전자 메일 메시지, 클러스터, IP 주소, 사용자 등의 엔터티 유형에 대 한 조사 된 엔터티 및 세부 정보를 볼 수 있습니다. 또한 분석 된 엔터티 수와 각 엔터티가 연결 된 위협을 볼 수 있습니다. 
 
-![AIR 조사 엔터티 페이지](../media/air-investigationentitiespage.png)
+![AIR 조사 엔터티 페이지](../../media/air-investigationentitiespage.png)
 
 다음을 수행할 수 있습니다.
 - 발견 된 조사 엔터티 및 위협에 대 한 시각적 개요를 확인 하세요.
 - 엔터티를 선택 하 여 관련 엔터티 세부 정보를 표시 하는 플라이 아웃 페이지를 엽니다.
 
-![AIR 조사 엔터티 세부 정보](../media/air-investigationsentitiespagedetails.png)
+![AIR 조사 엔터티 세부 정보](../../media/air-investigationsentitiespagedetails.png)
 
 ### <a name="playbook-log"></a>Playbook 로그
 
 **로그** 탭에서는 조사 중에 발생 한 모든 playbook 단계를 볼 수 있습니다. 이 로그는 AIR의 일부로 서 Office 365 자동 조사 기능을 통해 완료 된 모든 분석기 및 작업의 전체 인벤토리를 캡처합니다. 작업 자체, 설명, 실제 시작 날짜를 포함 하 여 수행 된 모든 단계를 명확 하 게 확인할 수 있습니다. 
 
-![AIR 조사 로그 페이지](../media/air-investigationlogpage.png)
+![AIR 조사 로그 페이지](../../media/air-investigationlogpage.png)
 
 다음을 수행할 수 있습니다.
 - Playbook 수행 된 단계에 대 한 시각적 개요를 참조 하세요.
@@ -266,7 +266,7 @@ AIR에서는 각 보안 playbook 다음이 포함 됩니다.
 
 작업은 조사 종료 시에 Microsoft에서 권장 하는 단계를 캡처합니다. 하나 이상의 작업을 선택 하 여 여기에서 수정 작업을 수행할 수 있습니다. **승인을** 클릭 하면 재구성을 시작할 수 있습니다. (적절 한 사용 권한이 필요 함-탐색기 및 AIR에서 작업을 실행 하려면 ' 검색 및 제거 ' 역할이 필요 합니다. 예를 들어 보안 독자는 작업을 볼 수 있지만 승인 하지는 않습니다. 참고: 모든 작업을 승인할 필요는 없습니다. 권장 작업에 동의 하지 않거나 조직에서 특정 유형의 작업을 선택 하지 않는 경우에는 작업을 **거부** 하거나 무시 하 고 작업을 수행 하지 않도록 선택할 수 있습니다. 모든 작업을 승인 및/또는 거부 하면 조사 완전히 닫기 (상태가 재구성 됨)를 제외 하 고, 일부 작업을 완료 하지 않고 조사 상태가 부분 재구성 됨 상태로 변경 됩니다.
 
-![AIR 조사 작업 페이지](../media/air-investigationactionspage.png)
+![AIR 조사 작업 페이지](../../media/air-investigationactionspage.png)
 
 다음을 수행할 수 있습니다.
 - Playbook 권장 작업에 대 한 시각적 개요를 볼 수 있습니다.
@@ -319,11 +319,11 @@ AIR에서는 각 보안 playbook 다음이 포함 됩니다.
 
 예를 들어 Explorer에서 사용자가 보고 한 메시지에 대 한 데이터를 보고 있다고 가정 합니다. 결과 목록에서 항목을 선택 하 고 작업 메뉴에서 **조사** 를 클릭할 수 있습니다 (적절 한 수정 권한이 있는 경우).
 
-![검사 단추를 사용 하 여 탐색기에서 사용자가 보고 한 메시지](../media/Explorer-UserReported-Investigate.png)
+![검사 단추를 사용 하 여 탐색기에서 사용자가 보고 한 메시지](../../media/Explorer-UserReported-Investigate.png)
 
 또 다른 예로, 맬웨어를 포함 하는 것으로 검색 된 전자 메일 메시지에 대 한 데이터를 보고 있는 경우 맬웨어가 있는 전자 메일 메시지를 여러 개 검색 한다고 가정해 보겠습니다. **전자 메일** 탭을 선택 하 고 전자 메일 메시지를 하나 이상 선택 하 고 **작업** 메뉴에서 **조사**를 선택 합니다. 
 
-![탐색기에서 맬웨어 조사 시작](../media/Explorer-Malware-Email-ActionsInvestigate.png)
+![탐색기에서 맬웨어 조사 시작](../../media/Explorer-Malware-Email-ActionsInvestigate.png)
 
 경고로 트리거되는 playbook와 마찬가지로, 탐색기의 보기에서 트리거되는 자동 조사에는 루트 조사, 위협의 식별 및 상관 지정, 위협 완화를 위한 권장 작업 등이 포함 됩니다.
 

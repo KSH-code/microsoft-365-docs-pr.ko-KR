@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: 2cfce2c8-20c5-47f9-afc4-24b059c1bd76
 description: 사용자는 보안 또는 규정 준수 기능을 관리 하기 전에 Office 365 보안 & 준수 센터에서 사용 권한을 할당 받아야 합니다.
-ms.openlocfilehash: 625fe036e8f8b00201abd0f5cb6a8f0003c597f5
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: cccf44a64d20dc1304dbc5145d6ae50441cfacef
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41599255"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42085974"
 ---
 # <a name="give-users-access-to-the-office-365-security--compliance-center"></a>사용자에게 Office 365 보안 및 준수 센터에 대한 액세스 권한 부여
 
@@ -31,7 +31,7 @@ ms.locfileid: "41599255"
 
 보안 & 준수 센터에서 사용자에 게 부여할 수 있는 다양 한 사용 권한에 대 한 자세한 내용은 [Office 365 보안 & 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)를 참조 하세요.
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 사항은 무엇인가요?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
 
 - 이 문서의 단계를 완료 하려면 Office 365 전역 관리자 이거나 보안 & 준수 센터에서 OrganizationManagement 역할 그룹의 구성원 이어야 합니다.
 
@@ -49,9 +49,9 @@ ms.locfileid: "41599255"
 
 3. 보안 & 준수 센터에서 **사용 권한**으로 이동 합니다.
 
-4. 목록에서 사용자를 추가 하려는 역할 그룹을 선택 하 고 편집 아이콘](../media/O365-MDM-CreatePolicy-EditIcon.gif) **편집** ![을 클릭 합니다.
+4. 목록에서 사용자를 추가 하려는 역할 그룹을 선택 하 고 편집 아이콘](../../media/O365-MDM-CreatePolicy-EditIcon.gif) **편집** ![을 클릭 합니다.
 
-5. 역할 그룹의 속성 페이지 **구성원**아래에 **있는 추가 아이콘**![](../media/ITPro-EAC-AddIcon.gif) 추가를 클릭 하 고 추가 하려는 사용자의 이름을 선택 합니다.
+5. 역할 그룹의 속성 페이지 **구성원**아래에 **있는 추가 아이콘**![](../../media/ITPro-EAC-AddIcon.gif) 추가를 클릭 하 고 추가 하려는 사용자의 이름을 선택 합니다.
 
 6. 역할 그룹에 추가 하려는 모든 사용자를 선택 했으면 **추가\> ** 를 클릭 한 다음 **확인**을 클릭 합니다.
 

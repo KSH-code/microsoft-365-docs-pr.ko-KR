@@ -15,12 +15,12 @@ ms.assetid: e9947db5-1dd1-4493-872d-7362b24c7ba0
 ms.collection:
 - M365-security-compliance
 description: 도메인에 적용되는 사용자 지정 콘텐츠 필터 정책 또는 기본 회사 차원의 콘텐츠 필터 정책에 대해 최종 사용자 스팸 알림을 구성할 수 있습니다.
-ms.openlocfilehash: 95a8142b4f4687c66657cd01e1110470c8b08bc4
-ms.sourcegitcommit: 4986032867b8664a215178b5e095cbda021f3450
+ms.openlocfilehash: 6ac43ee3419e7b768312b6826994a5b8f5e4a231
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "41957403"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42083504"
 ---
 # <a name="configure-end-user-spam-notifications-in-eop"></a>EOP에서 최종 사용자 스팸 알림 구성
   
@@ -71,7 +71,7 @@ Preview 또는 Release와 같은 다른 작업을 수행 하려는 경우 보안
   
  **팁:** 최종 사용자 스팸 알림을 완전히 구현하기 전에 제한된 사용자 집합으로 보내 테스트하려면 해당 사용자가 속해 있는 도메인에 최종 사용자 스팸 알림을 사용하는 사용자 지정 콘텐츠 필터를 만듭니다. 그런 다음 EAC의 **메일 흐름 \> 규칙**에서 메일 흐름 규칙 (전송 규칙이 라고도 함)을 만들어 알림을 수신 하려는 사용자에 대 한 예외와 함께 quarantine@messaging.microsoft.com (알림을 보내는 전자 메일 주소)에서 메시지를 차단 합니다. 다음 그림은 Contoso.com 도메인의 두 사용자(SaraD 및 AlexD)에 대한 예외를 만드는 예제입니다. 
   
-![최종 사용자 스팸 알림을 테스트할 전송 규칙](../media/EOP-ESN-testspecificusers.jpg)
+![최종 사용자 스팸 알림을 테스트할 전송 규칙](../../media/EOP-ESN-testspecificusers.jpg)
   
 ## <a name="for-more-information"></a>자세한 내용
 

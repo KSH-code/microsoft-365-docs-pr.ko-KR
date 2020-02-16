@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 ms.collection: M365-security-compliance
 description: Office 365 Advanced Threat Protection 계획 2의 자동화 된 조사 및 응답 기능 사용을 시작 하세요.
-ms.openlocfilehash: 9c17d7219e5dd15404b171fbd6707d00fd788f19
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: d45141ce671a4615cb4fd550e36bc7215cd38d51
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41598765"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42088317"
 ---
 # <a name="automatically-investigate-and-respond-to-threats-in-office-365"></a>Office 365의 위협에 대한 자동 조사 및 응답
 
@@ -55,11 +55,11 @@ ms.locfileid: "41598765"
 
     어느 방법을 사용 하 든 조사 목록이 표시 됩니다.
 
-    ![AIR의 주 조사 페이지](../media/air-maininvestigationpage.png) 
+    ![AIR의 주 조사 페이지](../../media/air-maininvestigationpage.png) 
 
 3. 조사 목록에서 **ID** 열의 항목을 선택 합니다. 그러면 보기의 조사 그래프부터 시작 하 여 조사 세부 정보 페이지가 열립니다.
 
-    ![AIR 조사 그래프 페이지](../media/air-investigationgraphpage.png)
+    ![AIR 조사 그래프 페이지](../../media/air-investigationgraphpage.png)
 
 4. 여러 탭을 사용 하 여 조사에 대해 자세히 알아보세요.
 

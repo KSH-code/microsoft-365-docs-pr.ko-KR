@@ -1,17 +1,17 @@
 ---
 title: Microsoft Managed Desktop에 대 한 장치 설정
 description: ''
-keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 설명서
+keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 7282e1f9d780c127dd70845efefa90aa03e57537
-ms.sourcegitcommit: 3d37043c0447359c952dc99026c219dd69f6fb8d
+ms.openlocfilehash: 64a2936b5a2f9e670a3d89c50424ca0322e99c13
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "38011849"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42085797"
 ---
 # <a name="set-up-microsoft-managed-desktop-devices"></a>Microsoft Managed Desktop 장치 설정
 
@@ -36,7 +36,7 @@ Microsoft Managed Desktop에서 신규 및 기존 장치를 모두 사용할 수
     - 파트너와 협력 하 여 장치 등록
 3. [사용자가](get-started-devices.md) Microsoft Managed Desktop 장치를 사용할 수 있도록 준비
 
-## <a name="steps-to-get-started-with-microsoft-managed-desktop"></a>Microsoft Managed Desktop을 시작 하기 위한 단계
+## <a name="steps-to-get-started-with-microsoft-managed-desktop"></a>Microsoft Managed Desktop을 시작하기 위한 단계
 
 1. [관리 포털에서 관리자 연락처 추가 및 확인](add-admin-contacts.md)
 2. [조건부 액세스 조정](conditional-access.md)

@@ -11,26 +11,26 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: ''
 description: 관리자는 보안 & 준수 센터의 메일 흐름 대시보드에서 배달 못 함 보고서에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: dbae97d572a6330e40308fa2016437c9329f93cc
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 2ea15237900abd3d73634a9aa744b59ef7bce5ee
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41598865"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42082691"
 ---
 # <a name="non-delivery-report"></a>미실행 보고서
 
 **배달 못 함 보고서** 에는 조직 내 사용자에 대 한 ndr 또는 바운스 메시지 라고도 하는 배달 못함 보고서의 가장 많이 발생 한 오류 코드가 표시 됩니다. 이 보고서는 Ndr의 세부 정보를 표시 하기 위한 것 이므로 문제를 해결할 수 있습니다.
 
-![보안 & 준수 센터의 메일 흐름 대시보드의 배달 못 함 보고서](../media/non-delivery-report-selected.png)
+![보안 & 준수 센터의 메일 흐름 대시보드의 배달 못 함 보고서](../../media/non-delivery-report-selected.png)
 
 **데이터 표시를**클릭 하 여 모든 NDR 코드나 특정 코드에 대 한 정보를 표시할 수 있습니다. **세부 정보 표 보기** 를 클릭 하 여 다음 다이어그램에 표시 된 보다 자세한 보기를 볼 수도 있습니다.
 
-![배달 못 함 보고서의 정보 테이블 보기](../media/non-delivery-report-view-details-table.png)
+![배달 못 함 보고서의 정보 테이블 보기](../../media/non-delivery-report-view-details-table.png)
 
 테이블에서 행을 선택 하 여 특정 NDR의 세부 정보를 보려면 자세한 정보를 사용 하 여 문제를 해결 하 고 필요한 작업을 수행할 수 있습니다.
 
-![배달 못 함 보고서의 세부 정보 테이블에서 행 선택](../media/non-delivery-report-details-table-select-row.png)
+![배달 못 함 보고서의 세부 정보 테이블에서 행 선택](../../media/non-delivery-report-details-table-select-row.png)
 
 ## <a name="see-also"></a>참고 항목
 

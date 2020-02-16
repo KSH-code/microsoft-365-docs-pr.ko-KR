@@ -11,12 +11,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: ''
 description: 관리자는 보안 & 준수 센터의 메일 흐름 대시보드에서 보낸 사람 도메인에 대 한 정보를 수정 하는 방법에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: 1b154f4aecd5ada711b9177380d936cd888df425
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 2db1b971ef39f8b207b349ca53237ff87cc9193e
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41598825"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42082578"
 ---
 # <a name="fix-sender-domain-insight"></a>보낸 사람 도메인 정보 문제 해결
 
@@ -36,15 +36,15 @@ Office 365에서는 특정 보안 조건을 충족 하기 위해 내부 온-프�
 
 **Fix sender domain** 통찰력은 온-프레미스 환경에서 조건을 충족 하지 않는 전자 메일을 표시 하 고, 온-프레미스 전자 메일 환경에서 잠재적으로 손상 된 컴퓨터와 사용자 계정을 식별 하 고, 수정 작업을 수행 하는 데 도움이 됩니다.
 
-![보안 & 준수 센터의 메일 흐름 대시보드에서 보낸 사람 도메인 통찰력 수정](../media/sender-domain-insight-selected.png)
+![보안 & 준수 센터의 메일 흐름 대시보드에서 보낸 사람 도메인 통찰력 수정](../../media/sender-domain-insight-selected.png)
 
 **자세히 보기**를 클릭 하면 다음 다이어그램에 나와 있는 것과 같이 다른 widget이 표시 됩니다.
 
-![보낸 사람 도메인 문제 해결의 세부 정보 위젯](../media/sender-domain-view-details.png)
+![보낸 사람 도메인 문제 해결의 세부 정보 위젯](../../media/sender-domain-view-details.png)
 
 메시지를 Office 365로 배달 하는 데 사용 된 인바운드 커넥터가 표시 됩니다. **예제 메시지 id 보기** 를 클릭 하 여 온-프레미스 전자 메일 환경에서 전송 된 메시지에 대 한 세부 정보를 볼 수도 있습니다. 이러한 메시지는 Office 365에서 거부 되었기 때문에 메시지 추적을 사용할 수는 없지만, 샘플 메시지 id를 사용 하 여 온-프레미스 전자 메일 환경에서 메시지를 추적할 수도 있습니다.
 
-![보낸 사람 도메인 정보 수정에서 예제 메시지 id 보기](../media/sender-domain-view-sample-message-ids.png)
+![보낸 사람 도메인 정보 수정에서 예제 메시지 id 보기](../../media/sender-domain-view-sample-message-ids.png)
 
 ## <a name="see-also"></a>참고 항목
 

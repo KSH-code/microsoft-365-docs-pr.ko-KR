@@ -1,24 +1,24 @@
 ---
 title: 안정성 인사이트
 description: ''
-keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 설명서
+keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 1f642d2790af5f4ec83dd1bbe57a9be249d095d1
-ms.sourcegitcommit: b65c80051e53d9be223f4769f4d42a39f5a07735
+ms.openlocfilehash: b7f56a64f1846676f458f7b3ddb210e84b9ca8f7
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39962335"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42085675"
 ---
 # <a name="reliability-insights"></a>안정성 인사이트
 
 이 보기는 관리 되는 장치에 대 한 상태 요약을 제공 합니다. 안정성 데이터를 보려면 **안정성** 탭을 선택 합니다.
 
 
-![안정성 창: 왼쪽 위에 있는 장치 간의 안정성, 오른쪽 위의 안정성 그래프, 아래쪽에 있는 상위 문제 테이블 오른쪽 아래에 도움말 및 피드백 단추가 있습니다.](images/insights_reliability.png)
+![안정성 창: 왼쪽 위에 있는 장치 간의 안정성, 오른쪽 위의 안정성 그래프, 아래쪽에 있는 상위 문제 테이블 오른쪽 아래에 도움말 및 피드백 단추가 있습니다.](../../media/insights_reliability.png)
 
 **Devices에서의 안정성** 섹션에서는 "정상"으로 간주 되는 장치의 비율과 마지막으로 보고 된 오류 이후 관찰 된 평균 시간을 보고 하 여 지난 14 일 동안의 배포에 대 한 신속한 상태 요약을 제공 합니다. 
 

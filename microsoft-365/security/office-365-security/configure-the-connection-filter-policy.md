@@ -16,12 +16,12 @@ ms.assetid: 6ae78c12-7bbe-44fa-ab13-c3768387d0e3
 ms.collection:
 - M365-security-compliance
 description: 사용자가 신뢰 하는 사람이 보낸 전자 메일이 차단 되지 않도록 하려면 연결 필터 정책을 사용 하 여 신뢰할 수 있는 보낸 사람 목록이 라고도 하는 허용 목록을 만든 IP 주소를 만듭니다. 수신 거부 목록도 만들 수 있습니다.
-ms.openlocfilehash: 06915527af68df6a858ca8ed97612ab40178be84
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: db0d7acc6189f29b247c1dc4004311d2843d139b
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41599595"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42086287"
 ---
 # <a name="configure-the-connection-filter-policy"></a>연결 필터 정책 구성
 
@@ -60,7 +60,7 @@ EAC(Exchange 관리 센터)에서 연결 필터 정책을 편집하여 IP 허용
 
 2. **연결 필터링** 메뉴 항목을 클릭한 후 원하는 목록을 만듭니다. IP 허용 목록이나 IP 차단 목록 중 하나를 만들거나 두 목록을 모두 만들 수 있습니다.
 
-   이 목록을 만들려면 ![아이콘 추가](../media/ITPro-EAC-AddIcon.gif)를 클릭합니다. 이후 표시되는 대화 상자에서 IP 주소나 주소 범위를 지정한 후 **확인**을 클릭합니다. 주소를 추가하려면 이 프로세스를 반복합니다. 주소를 추가한 후 IP 주소를 편집하거나 제거할 수도 있습니다.
+   이 목록을 만들려면 ![아이콘 추가](../../media/ITPro-EAC-AddIcon.gif)를 클릭합니다. 이후 표시되는 대화 상자에서 IP 주소나 주소 범위를 지정한 후 **확인**을 클릭합니다. 주소를 추가하려면 이 프로세스를 반복합니다. 주소를 추가한 후 IP 주소를 편집하거나 제거할 수도 있습니다.
 
    Nnn은 0에서 255 사이의 숫자로 IPV4 IP 주소를 지정 합니다. nnn 또한 a r t. nnn/rr 형식으로 클래스 간 라우팅 (CIDR) 범위를 지정할 수 있습니다 (여기서 rr은 24에서 32 사이의 숫자). 24 ~ 32 범위를 벗어나는 범위를 지정 하려면 다음 섹션인 [IP 허용 목록 구성 시 추가 고려 사항을](#additional-considerations-when-configuring-ip-allow-lists)참조 하십시오.
 
@@ -83,13 +83,13 @@ EAC(Exchange 관리 센터)에서 연결 필터 정책을 편집하여 IP 허용
 
 1. EAC에서 **메일 흐름** \> **규칙**으로 이동합니다.
 
-2. ![아이콘 추가](../media/ITPro-EAC-AddIcon.gif)를 클릭한 다음 **새 규칙 만들기**를 선택합니다.
+2. ![아이콘 추가](../../media/ITPro-EAC-AddIcon.gif)를 클릭한 다음 **새 규칙 만들기**를 선택합니다.
 
 3. 규칙 이름을 지정하고 **기타 옵션**을 클릭합니다.
 
 4. **다음의 경우 이 규칙 적용**에서 **보낸 사람**을 선택하고 **IP 주소가 이 범위에 속하거나 정확하게 일치함**을 선택합니다.
 
-5. **Ip 주소 지정**에서 ip 주소 범위를 지정 하 고 추가 아이콘 **** ![](../media/ITPro-EAC-AddIcon.gif)추가를 클릭 한 다음 **확인**을 클릭 합니다.
+5. **Ip 주소 지정**에서 ip 주소 범위를 지정 하 고 추가 아이콘 **** ![](../../media/ITPro-EAC-AddIcon.gif)추가를 클릭 한 다음 **확인**을 클릭 합니다.
 
 6. **다음 작업 수행** 상자에서 **메시지 속성 수정**을 선택한 다음 **SCL(스팸 지수) 설정**을 선택하여 동작을 설정합니다. **SCL 지정** 상자에서 **스팸 필터링 무시**를 선택한 후 **확인**을 클릭합니다.
 
@@ -109,19 +109,19 @@ EAC(Exchange 관리 센터)에서 연결 필터 정책을 편집하여 IP 허용
 
 1. EAC에서 **메일 흐름** \> **규칙**으로 이동합니다.
 
-2. ![아이콘 추가](../media/ITPro-EAC-AddIcon.gif)를 클릭한 다음 **새 규칙 만들기**를 선택합니다.
+2. ![아이콘 추가](../../media/ITPro-EAC-AddIcon.gif)를 클릭한 다음 **새 규칙 만들기**를 선택합니다.
 
 3. 규칙 이름을 지정하고 **기타 옵션**을 클릭합니다.
 
 4. **다음의 경우 이 규칙 적용**에서 **보낸 사람**을 선택하고 **IP 주소가 이 범위에 속하거나 정확하게 일치함**을 선택합니다.
 
-5. **Ip 주소 지정** 상자에서 ip 허용 목록에 입력 한 ip 주소 또는 ip 주소 범위를 지정 하 고 추가 아이콘](../media/ITPro-EAC-AddIcon.gif) **추가** ![를 클릭 한 다음 **확인**을 클릭 합니다.
+5. **Ip 주소 지정** 상자에서 ip 허용 목록에 입력 한 ip 주소 또는 ip 주소 범위를 지정 하 고 추가 아이콘](../../media/ITPro-EAC-AddIcon.gif) **추가** ![를 클릭 한 다음 **확인**을 클릭 합니다.
 
 6. **다음 작업 실행**에서 **메시지 속성 수정을** 선택한 다음 **SCL (스팸 지 수) 설정을**선택 하 여 작업을 설정 합니다. **SCL 지정** 상자에서 **0**을 선택 하 고 **확인**을 클릭 합니다.
 
 7. **예외 추가**를 클릭 하 고 다음의 **경우 제외**에서 **보낸 사람** 을 선택 하 고 **도메인을**선택 합니다.
 
-8. **도메인 지정** 상자에 **contosob.com**과 같은 스팸 필터링을 무시할 도메인을 입력 합니다. ![](../media/ITPro-EAC-AddIcon.gif) 추가 **아이콘 추가를 클릭 하** 여 구 목록으로 이동 합니다. 도메인을 예외로 더 추가하려면 이 단계를 반복하고 완료되면 **확인**을 클릭합니다.
+8. **도메인 지정** 상자에 **contosob.com**과 같은 스팸 필터링을 무시할 도메인을 입력 합니다. ![](../../media/ITPro-EAC-AddIcon.gif) 추가 **아이콘 추가를 클릭 하** 여 구 목록으로 이동 합니다. 도메인을 예외로 더 추가하려면 이 단계를 반복하고 완료되면 **확인**을 클릭합니다.
 
 9. 원하는 경우 규칙을 감사하고 규칙을 테스트하며 특정 기간 동안 규칙을 활성화하는 등 기타 옵션을 지정할 수 있습니다. 옵션을 적용하기 전에 규칙을 테스트하는 것이 좋습니다. [Exchange Server의 메일 흐름 규칙에 대 한 절차에는](https://docs.microsoft.com/Exchange/policy-and-compliance/mail-flow-rules/mail-flow-rule-procedures) 이러한 선택 항목에 대 한 자세한 정보가 포함 되어 있습니다.
 
@@ -149,7 +149,7 @@ EAC(Exchange 관리 센터)에서 연결 필터 정책을 편집하여 IP 허용
 
 ||
 |:-----|
-|![LinkedIn Learning용 단축 아이콘](../media/eac8a413-9498-4220-8544-1e37d1aaea13.png) **Office 365를 처음 사용하시나요?** LinkedIn Learning에서 제공하는 **Office 365 admins and IT pros**의 무료 비디오 과정을 확인해보세요.|
+|![LinkedIn Learning용 단축 아이콘](../../media/eac8a413-9498-4220-8544-1e37d1aaea13.png) **Office 365를 처음 사용하시나요?** LinkedIn Learning에서 제공하는 **Office 365 admins and IT pros**의 무료 비디오 과정을 확인해보세요.|
 
 ## <a name="for-more-information"></a>자세한 내용
 

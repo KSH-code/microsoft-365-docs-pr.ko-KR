@@ -1,17 +1,17 @@
 ---
 title: Microsoft Managed Desktop에 대 한 지원 받기
 description: ''
-keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 설명서
+keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: c53813a96772389f8ae180663ca3131701e47365
-ms.sourcegitcommit: b65c80051e53d9be223f4769f4d42a39f5a07735
+ms.openlocfilehash: 687b587da033b3c6cc8e027221043dd6c52e15c3
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39962205"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42084995"
 ---
 # <a name="getting-help-for-end-users"></a>최종 사용자를 위한 도움말 보기
 
@@ -24,7 +24,7 @@ ms.locfileid: "39962205"
 
 사용자에 게 지원을 제공 하는 기본 방법은 최종 사용자 장치에 기본적으로 제공 되는 편리한 인터페이스인 **도움말**을 사용 하는 것입니다.  
 
-![도움말 앱 보기 아이콘](images/get-help.png)
+![도움말 앱 보기 아이콘](../../media/get-help.png)
 
 이 응용 프로그램은 모든 Microsoft Managed Desktop 장치에 설치 되어 있으며 작업 표시줄에 고정 되어 있습니다. 
 

@@ -15,12 +15,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: 피싱 메시지가 사서함에 도착 하지 않도록 하기 위해 웹에서 Outlook.com 및 Outlook은 보낸 사람이 누구 인지를 확인 하 고 의심 스러운 메시지를 정크 메일로 표시 합니다.
-ms.openlocfilehash: a6ae80adb9ddae2c675e75d747dda27f09a404fb
-ms.sourcegitcommit: 4986032867b8664a215178b5e095cbda021f3450
+ms.openlocfilehash: 513a45594dd41db56abe143ea6edca7074539d2f
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "41957253"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42082012"
 ---
 # <a name="unverified-sender"></a>확인 되지 않은 보낸 사람
 
@@ -40,7 +40,7 @@ Outlook에서는 메시지를 보낸 사람이 식별 되지 않거나 id가 보
 
 Office 365에서 전자 메일 인증 기술을 사용 하 여 보낸 사람의 id를 확인할 수 없으면 '? '가 보낸 사람 이미지에 표시 됩니다.
 
-![메시지가 확인 통과 되지 않음](../media/message-did-not-pass-verification.jpg)
+![메시지가 확인 통과 되지 않음](../../media/message-did-not-pass-verification.jpg)
 
 인증에 실패 한 모든 메시지는 악성이 아닙니다. 그러나 보낸 사람을 인식 하지 못하는 경우 인증을 받지 않는 메시지와 상호 작용할 때는 주의 해야 합니다. 또는 일반적으로 보낸 사람 이미지에 '? '가 포함 되지 않는 보낸 사람을 인식할 수 있지만이를 갑자기 보면 보낸 사람이 위장 중 이라고 표시 됩니다.
 
@@ -50,7 +50,7 @@ Office 365 고객 인 경우 Office 365 보안 & 준수 센터를 통해이 기�
 
 - 보안 & 준수 센터에서 전역 또는 보안 관리자는 피싱 정책 아래의 스푸핑 방지를 통해이 기능을 설정 하거나 해제할 수 있습니다. 또한 Exchange Online PowerShell에서 **AntiPhishPolicy** cmdlet을 사용할 수 있습니다. 자세한 내용은 [Office 365 및 AntiPhishPolicy의 피싱 방지 보호](anti-phishing-protection.md) 를 참조 [](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/set-antiphishpolicy)하세요.
 
-    ![그래픽 인터페이스에서 인증 되지 않은 보낸 사람 편집](../media/unverified-sender-article-editing-unauthenticated-senders.jpg)
+    ![그래픽 인터페이스에서 인증 되지 않은 보낸 사람 편집](../../media/unverified-sender-article-editing-unauthenticated-senders.jpg)
 
 - 관리자가 가양성을 식별 했 고 보낸 사람이 확인 되지 않은 보낸 사람 처리를 수신 하지 않아야 하는 경우 다음 작업 중 하나를 수행 하 여 위장 인텔리전스 스푸핑 허용 목록에 보낸 사람을 추가할 수 있습니다.
 

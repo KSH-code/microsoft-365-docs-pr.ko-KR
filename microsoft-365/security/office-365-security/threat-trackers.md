@@ -16,12 +16,12 @@ ms.assetid: a097f5ca-eac0-44a4-bbce-365f35b79ed1
 ms.collection:
 - M365-security-compliance
 description: 조직에서 보안 문제를 계속 유지 하는 데 도움이 되는 새로운 주요 추적기를 비롯 한 위협 추적기에 대해 알아봅니다.
-ms.openlocfilehash: 75ade05f5512657a443f3c14c2745cc2cd3d78db
-ms.sourcegitcommit: 4986032867b8664a215178b5e095cbda021f3450
+ms.openlocfilehash: 50566abfa7bec55fb42465132361971113453a06
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "41957363"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42084493"
 ---
 # <a name="threat-trackers---new-and-noteworthy"></a>위협 추적기-신규 및 주목할 만한
 
@@ -34,11 +34,11 @@ ms.locfileid: "41957363"
 
 위협 추적기는 회사에 영향을 줄 수 있는 다양 한 cybersecurity 문제에 대 한 인텔리전스를 제공 하는 정보 관련 위젯 및 보기입니다. 예를 들어 위협 추적기를 사용 하 여 추세 맬웨어 캠페인에 대 한 정보를 볼 수 있습니다.
   
-![맬웨어 캠페인을 보여 주는 위협 추적기의 예](../media/a883b5ac-8e2b-469a-90e0-f8ad39bb63b7.png)
+![맬웨어 캠페인을 보여 주는 위협 추적기의 예](../../media/a883b5ac-8e2b-469a-90e0-f8ad39bb63b7.png)
   
 대부분의 추적기 페이지에는 주기적으로 업데이트 되는 추세 번호, 즉 가장 큰 문제를 이해 하는 데 도움이 되 고, **작업** 열에서 탐색기로 이동 하는 빠른 링크가 포함 되어 있어 자세한 정보를 볼 수 있습니다. 
   
-![탐색기의 캠페인 정보 예제](../media/e426f220-fdcb-4dd9-99a2-db97dbcf71d5.png)
+![탐색기의 캠페인 정보 예제](../../media/e426f220-fdcb-4dd9-99a2-db97dbcf71d5.png)
   
 추적기는 [Office 365 Advanced Threat Protection 계획 2](office-365-ti.md)에서 제공 하는 여러 가지 유용한 기능 중 일부에 불과합니다. 위협 추적기에는 [참고 가치가 있는 추적기](#noteworthy-trackers), [추세 분석](#trending-trackers), [추적 된 쿼리](#tracked-queries)및 저장 되는 [쿼리가](#saved-queries)포함 됩니다.
   
@@ -57,7 +57,7 @@ ms.locfileid: "41957363"
 
 추세 추적기 (이전의 캠페인 이라고 함)는 지난 주에 조직의 전자 메일에 수신 된 새 위협을 강조 표시 합니다.
   
-![추세 맬웨어 캠페인 위젯 예](../media/d2ccc1a0-2a1d-4e36-99b5-6766c207772f.png)
+![추세 맬웨어 캠페인 위젯 예](../../media/d2ccc1a0-2a1d-4e36-99b5-6766c207772f.png)
   
 추세 추적기를 통해 더 폭넓은 회사 환경을 공격에 대비 하 여 확인 해야 하는 새로운 위협을 이해할 수 있습니다.
   
@@ -65,13 +65,13 @@ ms.locfileid: "41957363"
 
 추적 쿼리는 저장 된 쿼리를 활용 하 여 조직의 Office 365 활동을 주기적으로 평가 합니다. 이를 통해 이벤트 추세를 확인할 수 있으며 향후 달에 더 많이 제공 됩니다. 추적 된 쿼리는 쿼리를 다시 실행 하지 않고도 최신 정보를 제공 하 여 자동으로 실행 됩니다.
   
-![선택한 1 개의 추적 된 쿼리 예제](../media/0c556174-06eb-4ae5-b32a-5ff76b9e4f13.png)
+![선택한 1 개의 추적 된 쿼리 예제](../../media/0c556174-06eb-4ae5-b32a-5ff76b9e4f13.png)
   
 ### <a name="saved-queries"></a>저장된 쿼리
 
 저장 된 쿼리도 추적기 섹션에서 찾을 수 있습니다. 저장 된 쿼리를 사용 하 여 매번 검색을 다시 만들지 않고도 신속 하 고 반복적으로 다시 표시할 일반 탐색기 검색을 저장할 수 있습니다.
   
-![선택한 항목을 가진 저장 된 쿼리 예제](../media/188cf3ff-58f1-41ea-81aa-76158d8f40c3.png)
+![선택한 항목을 가진 저장 된 쿼리 예제](../../media/188cf3ff-58f1-41ea-81aa-76158d8f40c3.png)
   
 폴더 위쪽에 있는 **쿼리 저장** 단추를 사용 하 여 중요 한 추적기 쿼리나 자체 탐색기 쿼리를 언제 든 지 저장할 수 있습니다. 저장 된 모든 내용이 추적기 페이지의 **저장 된 쿼리** 목록에 표시 됩니다. 
   
@@ -81,13 +81,13 @@ ms.locfileid: "41957363"
   
 또한 [office 365 보안 &amp; 및 준수 센터 개요](https://support.office.com/article/a5f2fd18-b029-4257-b5a8-ae83e7768c85)의 오른쪽 아래 모서리에 있는 **사용자 의견** 단추를 클릭 하 여이 또는 기타 Office 365 보안 기능에 대 한 의견을 항상 제공할 수 있습니다.
   
-![Office 365 Security &amp; Compliance Center](../media/86c330db-8132-4150-8475-220258fe04fb.png)
+![Office 365 Security &amp; Compliance Center](../../media/86c330db-8132-4150-8475-220258fe04fb.png)
   
 ## <a name="trackers-and-office-365-advanced-threat-protection"></a>추적기 및 Office 365 Advanced Threat Protection
 
 Inaugural 주목할 않은 위협을 통해 [Office 365 ATP 안전한 첨부 파일](atp-safe-attachments.md)에서 검색 하는 고급 맬웨어 위협을 강조 합니다. Office 365 Enterprise E5 customer이 고 [office 365 ATP (Advanced Threat Protection](office-365-atp.md) )를 사용 하 고 있지 않은 경우 구독에 포함 해야 합니다. ATP는 Office 365 서비스와 전자 메일 흐름을 필터링 하는 다른 보안 도구가 있는 경우에도 값을 제공 합니다. 그러나 스팸 방지 및 [office 365 ATP 안전한 링크](atp-safe-links.md) 기능은 주요 전자 메일 보안 솔루션이 Office 365를 통해 수행 하는 경우에 가장 적합 합니다. 
   
-![보안 &amp; 및 준수 센터의 ATP](../media/cee70d07-f0c1-459b-843c-2d10c253349f.png)
+![보안 &amp; 및 준수 센터의 ATP](../../media/cee70d07-f0c1-459b-843c-2d10c253349f.png)
   
 오늘날의 위협에서 일반적인 맬웨어 방지 검색만 실행 하는 경우에는 공격에 riddled 충분히 보호 되지 않습니다. 오늘날 보다 복잡 한 공격자는 일반적인 서명 기반 맬웨어 방지 엔진에서 인식 되지 않는 새로운, 난독 처리 되거나, 지연 된 공격을 만들기 위해 일반적으로 사용 가능한 도구를 사용 합니다. ATP 안전한 첨부 파일 기능은 전자 메일 첨부 파일을 사용 하 여 안전한 지 또는 악의적으로 검색 하 확인 합니다. 이 샌드 박싱 프로세스에서는 가상 컴퓨터 환경의 각 파일을 열고 파일을 연 후에 수행 되는 작업을 조사 합니다. PDF, 압축 파일 또는 Office 문서 인지 여부에 관계 없이 악성 코드를 파일에서 숨겨 공격에 따라 컴퓨터에서 열린 후에 한 번만 정품 인증을 받을 수 있습니다. 전자 메일 흐름에서 파일을 detonating 하 고 분석 하면 Office 365 ATP 기능은 동작, 파일 신뢰도 및 여러 경험적 접근 규칙을 기반으로 이러한 위협을 찾습니다.
   

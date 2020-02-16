@@ -16,12 +16,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: d1795031-beef-49ea-a6fc-5da5450d320d
 description: '요약: Office 365 개발/테스트 환경에서 조직의 나머지 부분과 격리 된 SharePoint Online 팀 사이트를 구성 합니다.'
-ms.openlocfilehash: 49443a5dd6b2c93e6bd7817c09747d49b163cabd
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: fc56a151d00eba3a6c0131ae1692febe69e76122
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41599125"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42083011"
 ---
 # <a name="isolated-sharepoint-online-team-site-devtest-environment"></a>격리된 SharePoint Online 팀 사이트 개발/테스트 환경
 
@@ -142,7 +142,7 @@ Add-MsolGroupMember -GroupObjectId (Get-MsolGroup | Where { $_.DisplayName -eq $
 
 **그림 1**
 
-![격리 된 SharePoint Online 그룹 사이트에 대 한 Office 365 그룹 및 해당 구성원 자격](../media/5b7373b9-2a80-4880-afe5-63ffb17237e6.png)
+![격리 된 SharePoint Online 그룹 사이트에 대 한 Office 365 그룹 및 해당 구성원 자격](../../media/5b7373b9-2a80-4880-afe5-63ffb17237e6.png)
 
 ## <a name="phase-3-create-a-new-projectx-sharepoint-online-team-site-and-isolate-it"></a>3 단계: 새 ProjectX SharePoint Online 팀 사이트를 만들고 격리 합니다.
 
@@ -208,7 +208,7 @@ ProjectX에 대 한 SharePoint Online 팀 사이트를 만들려면 다음을 �
 
 **그림 2**
 
-![SharePoint Online 그룹 및 격리 된 SharePoint Online 그룹 사이트에 대 한 구성원 자격](../media/595abff4-64f9-49de-a37a-c70c6856936b.png)
+![SharePoint Online 그룹 및 격리 된 SharePoint Online 그룹 사이트에 대 한 구성원 자격](../../media/595abff4-64f9-49de-a37a-c70c6856936b.png)
 
 이제 수석 디자이너 사용자 계정을 사용 하 여 액세스 방법을 살펴보겠습니다.
 

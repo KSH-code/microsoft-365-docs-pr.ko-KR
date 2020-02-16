@@ -15,12 +15,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Office 365 테 넌 트에서 의심 스러운 전자 메일, 의심 스러운 메일, 스팸 및 기타 해로운 메시지, Url 및 파일을 검색을 위해 Microsoft에 제출 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: a12981ee302ea72e112826104996fb775e4ac3fb
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: b123aef485628728df9db27875117b47295975ad
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41599985"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42083641"
 ---
 # <a name="how-to-submit-suspected-spam-phish-urls-and-files-to-microsoft-for-office-365-scanning"></a>Microsoft에 Office 365를 검색 하기 위해 의심 스러운 스팸, 피싱, Url 및 파일을 제출 하는 방법
 
@@ -35,7 +35,7 @@ Microsoft로 콘텐츠를 전송 하려면 제출 페이지의 왼쪽 위에 있
 
 ### <a name="submit-a-questionable-email-to-microsoft"></a>Microsoft에 의심 스러운 전자 메일 제출
 
-![전자 메일 전송 예](../media/submission-flyout-email.PNG)
+![전자 메일 전송 예](../../media/submission-flyout-email.PNG)
 
 1. 전자 메일을 제출 하려면 **전자 메일** 을 선택 하 고 전자 메일 **네트워크 메시지 ID** 를 지정 하거나 전자 메일 파일을 업로드 합니다.
 
@@ -51,7 +51,7 @@ Microsoft로 콘텐츠를 전송 하려면 제출 페이지의 왼쪽 위에 있
 
 ### <a name="send-a-suspect-url-to-microsoft"></a>Microsoft에 의심 스러운 URL 보내기
 
-![전자 메일 전송 예](../media/submission-url-flyout.png)
+![전자 메일 전송 예](../../media/submission-url-flyout.png)
 
 1. URL을 제출 하려면 플라이 아웃에서 **url** 을 선택 합니다. 프로토콜 (**https://**)을 포함 하 여 전체 URL을 입력 합니다.
 
@@ -61,7 +61,7 @@ Microsoft로 콘텐츠를 전송 하려면 제출 페이지의 왼쪽 위에 있
 
 ### <a name="submit-a-suspected-file-to-microsoft"></a>Microsoft에 의심 스러운 파일 제출
 
-![전자 메일 전송 예](../media/submission-file-flyout.PNG)
+![전자 메일 전송 예](../../media/submission-file-flyout.PNG)
 
 1. 파일을 제출 하려면 플라이 아웃에서 **파일** 을 선택 하 고 검색할 파일을 업로드 합니다.
 

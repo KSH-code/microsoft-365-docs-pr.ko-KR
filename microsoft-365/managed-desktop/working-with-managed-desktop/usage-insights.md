@@ -1,24 +1,24 @@
 ---
 title: 인사이트 활용
 description: ''
-keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 설명서
+keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 6e114f60d95edb68797e096f56b93836a14425a8
-ms.sourcegitcommit: b65c80051e53d9be223f4769f4d42a39f5a07735
+ms.openlocfilehash: 43e1ec21719dd4dcab2d2e285197476d54734a13
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39962355"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42085654"
 ---
 # <a name="usage-insights"></a>인사이트 활용
 이 보기는 Microsoft 관리 데스크톱 장치에 대 한 사용 메트릭을 제공 합니다. 이러한 용도의 앱은 실행 중이 고 포커스가 있는 경우 "사용 중"으로 간주 됩니다.
 
 사용 현황 데이터를 보려면 **사용 현황** 탭을 선택 합니다.
 
-![배정 현황 창 왼쪽 위에서 장치 사용 그래프 (사용 율/시간 비교)입니다. 응용 프로그램 배정 현황 테이블의 오른쪽 위에 있습니다. 장치 목록 테이블 아래에 열 장치 이름, 모델, 일련 번호, 표시 이름, 사용자 이름, 현재 상태 (활성, 낮음 또는 비활성), 총 장치 사용 시간 및 활성 날짜 수를 포함 합니다.](images/insights_usage.png)
+![배정 현황 창 왼쪽 위에서 장치 사용 그래프 (사용 율/시간 비교)입니다. 응용 프로그램 배정 현황 테이블의 오른쪽 위에 있습니다. 장치 목록 테이블 아래에 열 장치 이름, 모델, 일련 번호, 표시 이름, 사용자 이름, 현재 상태 (활성, 낮음 또는 비활성), 총 장치 사용 시간 및 활성 날짜 수를 포함 합니다.](../../media/insights_usage.png)
 
 ## <a name="device-usage"></a>장치 사용 현황
 

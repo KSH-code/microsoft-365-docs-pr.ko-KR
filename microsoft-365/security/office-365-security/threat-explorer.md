@@ -16,12 +16,12 @@ ms.assetid: 82ac9922-939c-41be-9c8a-7c75b0a4e27d
 ms.collection:
 - M365-security-compliance
 description: 보안 &amp; 및 준수 센터의 Explorer 및 실시간 검색에 대해 알아봅니다.
-ms.openlocfilehash: 21fc170fc820fa0187c03ac07ddc8b8c771f54ad
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 3ddcaf4dc457ead7a203e00d71d0d18c23ee6557
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41598245"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42082160"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>위협 탐색기 및 실시간 검색
 
@@ -29,11 +29,11 @@ ms.locfileid: "41598245"
 
 |ATP 계획 2를 사용 하는 경우 다음을 확인할 수 있습니다.  |ATP 계획 1을 사용 하는 경우 다음을 확인할 수 있습니다.  |
 |---------|---------|
-|![위협 탐색기](../media/threatmgmt-explorer.png)      |![실시간 탐지](../media/threatmgmt-realtimedetections.png)         |
+|![위협 탐색기](../../media/threatmgmt-explorer.png)      |![실시간 탐지](../../media/threatmgmt-realtimedetections.png)         |
 
 Explorer (또는 실시간 검색)를 사용 하는 경우 보안 운영 팀이 효과적이 고 효율적으로 위협을 조사 하 고 대응 하는 데 사용할 수 있는 강력한 보고서가 있습니다. 보고서는 다음 이미지와 유사 합니다. 
 
-![위협 관리 \> 탐색기로 이동](../media/cab32fa2-66f1-4ad5-bc1d-2bac4dbeb48c.png)
+![위협 관리 \> 탐색기로 이동](../../media/cab32fa2-66f1-4ad5-bc1d-2bac4dbeb48c.png)
 
 이 보고서를 사용 하 여 다음을 수행할 수 있습니다.
 - [Office 365 보안 기능으로 검색 된 맬웨어를 참조 하세요.](#see-malware-detected-in-email-by-technology)
@@ -105,7 +105,7 @@ Explorer (또는 실시간 검색)를 사용 하는 경우 보안 운영 팀이 
 > [!TIP]
 > Network Message ID는 네트워크 메시지 ID를 통해 탐색기나 연결 된 타사 도구를 검색할 때 클릭을 특정 메일에 다시 매핑합니다. 네트워크 메시지 ID를 통해 검색 하면 관리자가 클릭 결과와 연결 된 특정 전자 메일을 제공 합니다. 내보낼 때 네트워크 메시지 ID의 일치 확인을 통해 더 빠르고 강력한 분석이 가능 합니다.
 
-![tp_ExportClickResultAndNetworkID .png](../../images/tp_ExportClickResultAndNetworkID.png)
+![tp_ExportClickResultAndNetworkID .png](../../media/tp_ExportClickResultAndNetworkID.png)
 
 ## <a name="see-malware-detected-in-email-by-technology"></a>기술 별로 전자 메일에서 발견 된 맬웨어를 참조 하세요.
 
@@ -113,11 +113,11 @@ Office 365 기술을 통해 전자 메일로 검색 된 맬웨어를 확인 하�
 
 1. 보안 &[https://protection.office.com](https://protection.office.com)준수 센터 ()에서 **Threat management** > **Explorer** (또는 **실시간**검색)를 선택 합니다. (이 예제에서는 탐색기를 사용 합니다.)
 
-2. **보기** 메뉴에서 **전자 메일** > **맬웨어**를 선택 합니다.<br/>![탐색기에 대 한 보기 메뉴](../media/ExplorerViewEmailMalwareMenu.png)<br/>
+2. **보기** 메뉴에서 **전자 메일** > **맬웨어**를 선택 합니다.<br/>![탐색기에 대 한 보기 메뉴](../../media/ExplorerViewEmailMalwareMenu.png)<br/>
 
-3. **보낸 사람**을 클릭 한 다음 **기본** > **검색 기술을**선택 합니다.<br/>이제 검색 기술을 보고서에 대 한 필터로 사용할 수 있습니다.<br/>![맬웨어 검색 기술](../media/ExplorerEmailMalwareDetectionTech.png)<br/> 
+3. **보낸 사람**을 클릭 한 다음 **기본** > **검색 기술을**선택 합니다.<br/>이제 검색 기술을 보고서에 대 한 필터로 사용할 수 있습니다.<br/>![맬웨어 검색 기술](../../media/ExplorerEmailMalwareDetectionTech.png)<br/> 
 
-4. 옵션을 선택한 다음 **새로 고침** 단추를 클릭 하 여 해당 필터를 적용 합니다.<br/>![선택한 검색 기술](../media/ExplorerEmailMalwareDetectionTechATP.png)<br/> 
+4. 옵션을 선택한 다음 **새로 고침** 단추를 클릭 하 여 해당 필터를 적용 합니다.<br/>![선택한 검색 기술](../../media/ExplorerEmailMalwareDetectionTechATP.png)<br/> 
 
 선택한 기술 옵션을 사용 하 여 전자 메일로 검색 된 결과 맬웨어가 표시 되도록 보고서가 새로 고쳐집니다. 여기서는 추가 분석을 수행할 수 있습니다.
 
@@ -129,11 +129,11 @@ Office 365 기술을 통해 전자 메일로 검색 된 맬웨어를 확인 하�
 
 1. 보안 &[https://protection.office.com](https://protection.office.com)준수 센터 ()에서 **Threat management** > **Explorer** (또는 **실시간**검색)를 선택 합니다. (이 예제에서는 탐색기를 사용 합니다.)
 
-2. **보기** 메뉴에서 **전자 메일** > **피싱**을 선택 합니다.<br/>![탐색기에 대 한 보기 메뉴](../media/ExplorerViewEmailPhishMenu.png)<br/>
+2. **보기** 메뉴에서 **전자 메일** > **피싱**을 선택 합니다.<br/>![탐색기에 대 한 보기 메뉴](../../media/ExplorerViewEmailPhishMenu.png)<br/>
 
 3. **보낸 사람**을 클릭 한 다음 **url** > 을 선택 합니다**결과를 클릭**합니다.
 
-4. **차단** 됨 및 **무시 된 블록과**같은 옵션을 하나 이상 선택 하 고 해당 필터를 적용 하는 옵션과 같은 줄에 있는 **새로 고침** 단추를 클릭 합니다. (브라우저 창을 새로 고치지 않습니다.)<br/>![Url을 선택 하 고 verdicts을 클릭 합니다.](../media/ThreatExplorerEmailPhishClickVerdictOptions.png)<br/>
+4. **차단** 됨 및 **무시 된 블록과**같은 옵션을 하나 이상 선택 하 고 해당 필터를 적용 하는 옵션과 같은 줄에 있는 **새로 고침** 단추를 클릭 합니다. (브라우저 창을 새로 고치지 않습니다.)<br/>![Url을 선택 하 고 verdicts을 클릭 합니다.](../../media/ThreatExplorerEmailPhishClickVerdictOptions.png)<br/>
 
     보고서를 새로 고치면 보고서 아래의 URL 탭에 서로 다른 두 개의 URL 테이블이 표시 됩니다.
 
@@ -143,7 +143,7 @@ Office 365 기술을 통해 전자 메일로 검색 된 맬웨어를 확인 하�
    
    두 개의 URL 테이블은 배달 작업 및 위치로 피싱 전자 메일 메시지의 상위 Url을 표시 하 고, 사용자가 사용자와 상호 작용 한 잘못 된 링크를 확인할 수 있도록 차단 된 (또는 경고에 따라 방문) URL 클릭을 보여 줍니다. 여기서는 추가 분석을 수행할 수 있습니다. 예를 들어 차트 아래에서 조직의 환경에서 차단 된 전자 메일 메시지의 최상위 Url을 볼 수 있습니다.
    
-   ![차단 된 탐색기 Url](../media/ExplorerPhishClickVerdictURLs.png)
+   ![차단 된 탐색기 Url](../../media/ExplorerPhishClickVerdictURLs.png)
    
    자세한 정보를 보려면 URL을 선택 합니다. **참고**: url 플라이 아웃 대화 상자에서 전자 메일 메시지에 대 한 필터링이 제거 되어 사용자 환경에 표시 되는 URL의 전체 보기를 보여 줍니다. 이를 통해 탐색기의 전자 메일 메시지를 관심 있는 항목으로 필터링 하 고 잠재적인 위협이 되는 특정 Url을 찾은 다음 url 필터를 추가할 필요 없이 환경에서 url 노출에 대 한 이해를 확장할 수 있습니다. 탐색기 보기 자체
 
@@ -153,11 +153,11 @@ Office 365 기술을 통해 전자 메일로 검색 된 맬웨어를 확인 하�
 
 1. 보안 &[https://protection.office.com](https://protection.office.com)준수 센터 ()에서 **Threat management** > **Explorer** (또는 **실시간**검색)를 선택 합니다. (이 예제에서는 탐색기를 사용 합니다.)
 
-2. **보기** 메뉴에서 **전자 메일** > **제출을**선택 합니다.<br/>![탐색기에 대 한 보기 메뉴](../media/ExplorerViewMenuEmailUserReported.png)<br/>
+2. **보기** 메뉴에서 **전자 메일** > **제출을**선택 합니다.<br/>![탐색기에 대 한 보기 메뉴](../../media/ExplorerViewMenuEmailUserReported.png)<br/>
 
 3. **보낸 사람**을 클릭 한 다음 **기본** > **보고서 유형을**선택 합니다.
 
-4. **피싱**등의 옵션을 선택 하 고 **새로 고침** 단추를 클릭 합니다. <br/>![사용자가 보고 한 피싱](../media/EmailUserReportedReportType.png)<br/> 
+4. **피싱**등의 옵션을 선택 하 고 **새로 고침** 단추를 클릭 합니다. <br/>![사용자가 보고 한 피싱](../../media/EmailUserReportedReportType.png)<br/> 
 
 보고서가 새로 고쳐지고 조직의 사용자가 피싱 시도로 보고 한 전자 메일 메시지에 대 한 데이터가 표시 됩니다. 이 정보를 사용 하 여 추가 분석을 수행 하 고, 필요한 경우 [ATP 피싱 방지 정책을](set-up-anti-phishing-policies.md)조정할 수 있습니다.
 

@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 - SPO_Content
 description: Office 365 Advanced Threat Protection을 SharePoint Online, 비즈니스용 OneDrive 그리고 Microsoft Teams의 파일에까지 확장하여 조직의 더욱 안전한 협업을 가능하게 하십시오.
-ms.openlocfilehash: a21654ed8045b9adb6c09a730ada3ae458cf1609
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 3105a9443ddab483bc5ac4037e5260b354d64de9
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41599845"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42086641"
 ---
 # <a name="office-365-atp-for-sharepoint-onedrive-and-microsoft-teams"></a>SharePoint, OneDrive 및 Microsoft Teams에 대한 Office 365 ATP
 
@@ -35,15 +35,15 @@ ms.locfileid: "41599845"
 
 SharePoint 온라인, 비즈니스용 OneDrive, Microsoft teams에서의 파일이 악성으로 확인되었을 시 ATP는 해당 파일을 잠그기 위해 파일의 저장소와 직접 통합합니다. 다음의 그림은 라이브러리에서 탐지된 악성 파일의 예를 보여 줍니다.
 
-![악성 파일로 탐지된 한 개의 파일을 포함한 비즈니스용 OneDrive에 있는 파일](../media/2bba71cc-7ad1-4799-8b9d-d56f923db3a7.png)
+![악성 파일로 탐지된 한 개의 파일을 포함한 비즈니스용 OneDrive에 있는 파일](../../media/2bba71cc-7ad1-4799-8b9d-d56f923db3a7.png)
 
 차단된 파일이 여전히 문서 라이브러리와 웹, 모바일 또는 데스크톱 응용 프로그램에 있을지라도 차단된 파일은 열기, 복사, 이동 혹은 공유할 수 없습니다. 하지만 사용자는 차단된 파일을 삭제할 수 있습니다. 사용자의 모바일 장치에서 보이는 예시는 다음과 같습니다:
 
-![OneDrive 모바일 앱의 비즈니스용 OneDrive에서 차단된 파일 삭제](../media/cb1c1705-fd0a-45b8-9a26-c22503011d54.png)
+![OneDrive 모바일 앱의 비즈니스용 OneDrive에서 차단된 파일 삭제](../../media/cb1c1705-fd0a-45b8-9a26-c22503011d54.png)
 
 Office 365의 구성 방식에 따라 사용자는 차단된 파일을 다운로드하거나 하지 못할 수 있습니다. 사용자의 모바일 장치에서 차단된 파일을 다운로드하는 스크린샷은 다음과 같습니다:
 
-![비즈니스용 OneDrive에서 차단된 파일 다운로드](../media/be288a82-bdd8-4371-93d8-1783db3b61bc.png)
+![비즈니스용 OneDrive에서 차단된 파일 다운로드](../../media/be288a82-bdd8-4371-93d8-1783db3b61bc.png)
 
 자세한 내용은 [SharePoint, OneDrive 및 Microsoft Teams에 대한 Office 365 ATP 실행](turn-on-atp-for-spo-odb-and-teams.md)을 참조하세요.
 

@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 4491504616eb4bb447f12d08dddb12c73c2a88ac
-ms.sourcegitcommit: b65c80051e53d9be223f4769f4d42a39f5a07735
+ms.openlocfilehash: 0cb4da85b5548ced757197a3af818e212b065b47
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39962625"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42085945"
 ---
 # <a name="working-with-microsoft-consulting-services"></a>Microsoft 컨설팅 서비스 활용
 
@@ -35,7 +35,7 @@ MCS 앱 패키지로 작업 하려면 **다음 요소를 제공 해야 합니다
 
 Microsoft Managed Desktop portal에 앱 정보를 업로드 하 여 패키지 프로세스를 시작 합니다. 패키지 팀은 목요일 마다 새 제출을 검토 합니다. 검토 및 패키징에 따라 패키징된 앱에는 다음과 같은 금요일이 배달 됩니다. 주당 최대 5 개의 앱을 시작 하도록 패키지할 수 있지만 서비스는 사용자의 요구에 맞게 확장 될 수 있습니다.
 
-![매월 목요일에 앱 유입량을 표시 하는 달력 (이 예에서는 21), 다음 날에 대 한 패키징 (25) 및 이후 금요일 (29 일)에 대 한 앱 배달](images/MCS-cal.png)
+![매월 목요일에 앱 유입량을 표시 하는 달력 (이 예에서는 21), 다음 날에 대 한 패키징 (25) 및 이후 금요일 (29 일)에 대 한 앱 배달](../../media/MCS-cal.png)
 
 앱이 전달 되 면 알림을 받을 수 있습니다. 이 시점에서 승인 테스트를 수행 하 고 Microsoft Managed Desktop portal에서 작업을 진행 하는 데 21 일이 소요 됩니다. 승인 테스트 중에 앱에서 문제가 발견 되는 경우 Microsoft Managed Desktop portal에서 앱을 거부 하 고이 문제를 이해 하 고 해결 하기 위해 전자 메일을 통해 MCS 포장기를 통해 연결 합니다.
 

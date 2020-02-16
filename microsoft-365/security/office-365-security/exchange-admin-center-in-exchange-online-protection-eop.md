@@ -16,12 +16,12 @@ ms.assetid: 97921f0e-832f-40c7-b56d-414faede5191
 ms.collection:
 - M365-security-compliance
 description: EAC(Exchange 관리 센터)는 Microsoft EOP(Exchange Online Protection)의 웹 기반 관리 콘솔입니다.
-ms.openlocfilehash: 3a00b6b259c94e1446b6d6dc49b0f5daa9178cbd
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: f38d36249387fce2ba3b4cac9e187c1cbcadd707
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41599405"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42083293"
 ---
 # <a name="exchange-admin-center-in-exchange-online-protection"></a>Exchange Online Protection의 Exchange 관리 센터
 
@@ -41,7 +41,7 @@ You can also access the EAC sign in page directly via the following URL: `https:
 
 이 섹션에서는 EMC에 있는 사용자 인터페이스 요소에 대해 설명합니다.
 
-![EOP-AdminCenter](../media/EOP-AdminCenter.png)
+![EOP-AdminCenter](../../media/EOP-AdminCenter.png)
 
 ### <a name="feature-pane"></a>기능 창
 
@@ -67,14 +67,14 @@ You can also access the EAC sign in page directly via the following URL: `https:
 
 |**아이콘**|**이름**|**작업**|
 |:-----|:-----|:-----|
-|![아이콘 추가](../media/ITPro-EAC-AddIcon.gif)|추가, 새로 만들기|이 아이콘을 사용하면 새 개체를 만들 수 있습니다. 일부 아이콘에는 아래쪽 화살표가 있으며 이 화살표를 클릭하면 만들 수 있는 추가 개체가 표시됩니다.|
-|![편집 아이콘](../media/ITPro-EAC-EditIcon.gif)|편집|이 아이콘을 사용하면 개체를 편집할 수 있습니다.|
-|![삭제 아이콘](../media/ITPro-EAC-DeleteIcon.gif)|삭제|이 아이콘을 사용하면 개체를 삭제할 수 있습니다. 일부 삭제 아이콘에는 아래쪽 화살표가 있으며 이 화살표를 클릭하면 추가 옵션이 표시됩니다.|
-|![검색 아이콘](../media/ITPro-EAC-.gif)|검색|이 아이콘을 사용하면 찾으려는 개체에 대한 검색어를 입력할 수 있는 검색 상자가 열립니다.|
-|![새로 고침 아이콘](../media/ITPro-EAC-RefreshIcon.gif)|새로 고침|이 아이콘을 사용하면 목록 보기를 새로 고칠 수 있습니다.|
-|![기타 옵션 아이콘](../media/ITPro-EAC-MoreOptionsIcon.gif)|기타 옵션|이 아이콘을 사용하면 해당 탭의 개체에 대해 수행할 수 있는 기타 작업을 볼 수 있습니다. 예를 들어 **받는 사람 \> 사용자**에서 이 아이콘을 클릭하면 **고급 검색**을 수행할 수 있는 옵션이 표시됩니다.  |
-|![위쪽 화살표 아이콘](../media/ITPro-EAC-UpArrowIcon.gif)![아래쪽 화살표 아이콘](../media/ITPro-EAC-DownArrowIcon.gif)|위쪽 화살표와 아래쪽 화살표|이 아이콘을 사용하면 개체 우선 순위를 위나 아래로 이동할 수 있습니다.|
-|![아이콘 제거](../media/ITPro-EAC-RemoveIcon.gif)|제거|이 아이콘을 사용하면 목록에서 개체를 제거할 수 있습니다.|
+|![아이콘 추가](../../media/ITPro-EAC-AddIcon.gif)|추가, 새로 만들기|이 아이콘을 사용하면 새 개체를 만들 수 있습니다. 일부 아이콘에는 아래쪽 화살표가 있으며 이 화살표를 클릭하면 만들 수 있는 추가 개체가 표시됩니다.|
+|![편집 아이콘](../../media/ITPro-EAC-EditIcon.gif)|편집|이 아이콘을 사용하면 개체를 편집할 수 있습니다.|
+|![삭제 아이콘](../../media/ITPro-EAC-DeleteIcon.gif)|삭제|이 아이콘을 사용하면 개체를 삭제할 수 있습니다. 일부 삭제 아이콘에는 아래쪽 화살표가 있으며 이 화살표를 클릭하면 추가 옵션이 표시됩니다.|
+|![검색 아이콘](../../media/ITPro-EAC-.gif)|검색|이 아이콘을 사용하면 찾으려는 개체에 대한 검색어를 입력할 수 있는 검색 상자가 열립니다.|
+|![새로 고침 아이콘](../../media/ITPro-EAC-RefreshIcon.gif)|새로 고침|이 아이콘을 사용하면 목록 보기를 새로 고칠 수 있습니다.|
+|![기타 옵션 아이콘](../../media/ITPro-EAC-MoreOptionsIcon.gif)|기타 옵션|이 아이콘을 사용하면 해당 탭의 개체에 대해 수행할 수 있는 기타 작업을 볼 수 있습니다. 예를 들어 **받는 사람 \> 사용자**에서 이 아이콘을 클릭하면 **고급 검색**을 수행할 수 있는 옵션이 표시됩니다.  |
+|![위쪽 화살표 아이콘](../../media/ITPro-EAC-UpArrowIcon.gif)![아래쪽 화살표 아이콘](../../media/ITPro-EAC-DownArrowIcon.gif)|위쪽 화살표와 아래쪽 화살표|이 아이콘을 사용하면 개체 우선 순위를 위나 아래로 이동할 수 있습니다.|
+|![아이콘 제거](../../media/ITPro-EAC-RemoveIcon.gif)|제거|이 아이콘을 사용하면 목록에서 개체를 제거할 수 있습니다.|
 
 ### <a name="list-view"></a>목록 보기
 
@@ -86,9 +86,9 @@ You can also access the EAC sign in page directly via the following URL: `https:
 
 ### <a name="me-tile-and-help"></a>내 소식 타일 및 도움말
 
-**내 소식** 타일을 통해 EAC에서 로그아웃하고 다른 사용자로 로그인할 수 있습니다. **도움말**![도움말 아이콘](../media/ITPro-EAC-HelpIcon.gif) 드롭다운 메뉴에서 다음 작업을 수행할 수 있습니다.
+**내 소식** 타일을 통해 EAC에서 로그아웃하고 다른 사용자로 로그인할 수 있습니다. **도움말**![도움말 아이콘](../../media/ITPro-EAC-HelpIcon.gif) 드롭다운 메뉴에서 다음 작업을 수행할 수 있습니다.
 
-1. **도움말**: 온라인 ![도움말 콘텐츠](../media/ITPro-EAC-HelpIcon.gif) 를 보려면 도움말 아이콘을 클릭 합니다.
+1. **도움말**: 온라인 ![도움말 콘텐츠](../../media/ITPro-EAC-HelpIcon.gif) 를 보려면 도움말 아이콘을 클릭 합니다.
 
 2. **사용 안 함 버블**: 도움말 버블에는 개체를 만들거나 편집할 때 필드에 대 한 상황에 맞는 도움말이 표시 됩니다. 풍선형 도움말을 끌 수 있으며, 풍선형 도움말을 사용하지 않도록 설정한 경우에는 켤 수 있습니다.
 

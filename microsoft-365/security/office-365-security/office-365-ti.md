@@ -17,12 +17,12 @@ ms.assetid: 32405da5-bee1-4a4b-82e5-8399df94c512
 ms.collection:
 - M365-security-compliance
 description: Office 365 Advanced Threat Protection의 위협 인텔리전스 기능을 통해 조직에 대 한 위협을 파악 하 고, 맬웨어, 피싱 및 기타 공격에 대처 하 고 사용자를 대신 하 여 Office 365에서 검색 한 기타 공격과 위협을 검색할 수 있는 방법을 알아봅니다. 슬라이더.
-ms.openlocfilehash: 2f95054d35edee7db419bc665b520b2b48dda447
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 4bd23dcafeed2faf04979b2c757d5517073a210d
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41598755"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42082506"
 ---
 # <a name="office-365-threat-investigation-and-response"></a>Office 365 위협 조사 및 응답
 
@@ -47,7 +47,7 @@ ms.locfileid: "41598755"
 
 위협 대시보드 ( [보안 대시보드](security-dashboard.md)라고도 함)를 사용 하 여 해결 된 위협을 빠르게 확인 하 고, Office 365 서비스가 비즈니스를 보호 하는 방법을 비즈니스 의사 결정권자에 게 보고 하는 방법을 설명 합니다.
   
-![위협 대시보드](../media/ce013a31-3f80-4d09-bb95-bfb7623b8bc4.png)
+![위협 대시보드](../../media/ce013a31-3f80-4d09-bb95-bfb7623b8bc4.png)
   
 이 대시보드 &amp; 를 보고 사용 하려면 Office 365 보안 및 준수 센터에서 **위협 관리** \> **대시보드로**이동 합니다.
   
@@ -55,7 +55,7 @@ ms.locfileid: "41598755"
 
 위협 [탐색기 (및 실시간 검색)](threat-explorer.md) 를 사용 하 여 위협을 분석 하 고, 시간에 따른 공격 량을 확인 하 고, 위협 계열, 침입자 인프라 등을 기준으로 데이터를 분석 합니다. 위협 탐색기 (탐색기 라고도 함)는 모든 보안 분석가의 조사 워크플로에서 시작 되는 위치입니다.
   
-![위협 탐색기](../media/7a7cecee-17f0-4134-bcb8-7cee3f3c3890.png)
+![위협 탐색기](../../media/7a7cecee-17f0-4134-bcb8-7cee3f3c3890.png)
   
 이 보고서 &amp; 를 보고 사용 하려면 Office 365 보안 및 준수 센터에서 **위협 관리** \> **탐색기**로 이동 합니다.
   
@@ -63,11 +63,11 @@ ms.locfileid: "41598755"
 
 문제 목록 (조사가 라고도 함)을 사용 하 여 비행 보안 인시던트 목록을 확인 합니다. 인시던트는 의심 스러운 전자 메일 메시지와 같은 위협을 추적 하 고 추가 조사 및 수정을 수행 하는 데 사용 됩니다.
   
-![Office 365의 현재 위협 인시던트 목록](../media/acadd4c7-d2de-4146-aeb8-90cfad805a9c.png)
+![Office 365의 현재 위협 인시던트 목록](../../media/acadd4c7-d2de-4146-aeb8-90cfad805a9c.png)
   
 조직의 현재 인시던트 &amp; 목록을 보려면 보안 및 준수 센터에서 **위협 관리** \> **검토** \> **인시던트**로 이동 합니다.
   
-![보안 &amp; 및 준수 센터에서 위협 관리 \> 검토를 선택 합니다.](../media/e0f46454-fa38-40f0-a120-b595614d1d22.png)
+![보안 &amp; 및 준수 센터에서 위협 관리 \> 검토를 선택 합니다.](../../media/e0f46454-fa38-40f0-a120-b595614d1d22.png)
 
 ### <a name="attack-simulator"></a>공격 시뮬레이터
 
@@ -81,7 +81,7 @@ ms.locfileid: "41598755"
 
 보안 분석가는 Office 365 Advanced Threat Protection 계획 2 제공의 일부로 알려진 위협에 대 한 세부 정보를 검토할 수 있습니다. 이 기능은 사용자가 안전 하 게 유지 하기 위해 수행할 수 있는 추가 예방 조치/단계가 있는지 여부를 확인 하는 데 유용 합니다.
   
-![최근 위협에 대 한 정보를 보여 주는 보안 경향](../media/11e7d40d-139b-4c56-8d52-c091c8654151.png) 
+![최근 위협에 대 한 정보를 보여 주는 보안 경향](../../media/11e7d40d-139b-4c56-8d52-c091c8654151.png) 
   
 ## <a name="how-do-we-get-these-capabilities"></a>이러한 기능은 어떻게 얻을 수 있나요?
 

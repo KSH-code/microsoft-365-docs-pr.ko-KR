@@ -16,12 +16,12 @@ ms.assetid: da5845db-c578-4a41-b2cb-5a09689a551b
 ms.collection:
 - M365-security-compliance
 description: Office 365 전역 관리자는 공격 시뮬레이터를 사용 하 여 조직에서 현실적인 공격 시나리오를 실행할 수 있습니다. 이를 통해 실질적인 공격이 비즈니스에 방문 하기 전에 취약 한 사용자를 식별 하 고 찾을 수 있습니다.
-ms.openlocfilehash: 6fb88e6b79c0949c7ddc26eabda2bb04ea1fa3bf
-ms.sourcegitcommit: 4986032867b8664a215178b5e095cbda021f3450
+ms.openlocfilehash: 93a2601322fd33024c1310e1df69ad1dea2f07b7
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "41957413"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42083695"
 ---
 # <a name="attack-simulator-in-office-365"></a>Office 365의 공격 시뮬레이터
 
@@ -57,7 +57,7 @@ ms.locfileid: "41957413"
 
 - 조직에 [Office 365 Advanced Threat Protection 계획 2](office-365-atp.md)가 있으며, 보안 &amp; 및 준수 센터에서 공격 시뮬레이터가 표시 됩니다 ( **위협 관리** \> **공격 시뮬레이터**로 이동).
 
-    ![위협 관리-공격 시뮬레이터](../media/ThreatMgmt-AttackSimulator.png)
+    ![위협 관리-공격 시뮬레이터](../../media/ThreatMgmt-AttackSimulator.png)
 
 ## <a name="credential-harvest-spear-phishing-attack"></a>자격 증명 수집 스피어-피싱 공격
 
@@ -67,7 +67,7 @@ ms.locfileid: "41957413"
 
 ### <a name="to-simulate-a-spear-phishing-attack"></a>스피어 피싱 공격을 시뮬레이션 하려면
 
-![전자 메일 본문 작성](../media/9bd65af4-1f9d-45c1-8c06-796d7ccfd425.jpg)
+![전자 메일 본문 작성](../../media/9bd65af4-1f9d-45c1-8c06-796d7ccfd425.jpg)
 
 **전자 메일 본문** 필드 자체에서 서식 있는 html 편집기를 직접 만들거나 HTML 원본으로 작업할 수 있습니다.
 
@@ -75,15 +75,15 @@ ms.locfileid: "41957413"
 
 2. 공격에 대 한 의미 있는 캠페인 이름을 지정 하거나 서식 파일을 선택 합니다.
 
-   ![피싱 시작 페이지](../media/5e93b3cc-5981-462f-8b45-bdf85d97f1b8.jpg)
+   ![피싱 시작 페이지](../../media/5e93b3cc-5981-462f-8b45-bdf85d97f1b8.jpg)
 
 3. 대상 받는 사람을 지정 합니다. 조직의 개인 또는 그룹이 될 수 있습니다. 공격이 성공 하려면 각 대상이 지정 된 받는 사람에 게 Exchange Online 사서함이 있어야 합니다.
 
-   ![받는 사람 선택](../media/faf8c2e0-6175-4cd7-8265-0c8e727f4d0f.jpg)
+   ![받는 사람 선택](../../media/faf8c2e0-6175-4cd7-8265-0c8e727f4d0f.jpg)
 
 4. 피싱 메일 세부 정보를 구성 합니다.
 
-   ![전자 메일 세부 정보 구성](../media/f043608f-f8ce-4aae-be28-86e8ecc524a9.jpg)
+   ![전자 메일 세부 정보 구성](../../media/f043608f-f8ce-4aae-be28-86e8ecc524a9.jpg)
 
    HTML 서식 지정은 캠페인 요구 사항에 따라 복잡할 수도 있고 기본 형식이 될 수 있습니다. 전자 메일 형식이 HTML 인 것 처럼 이미지와 텍스트를 삽입 하 여 believability을 향상 시킬 수 있습니다. 수신 되는 전자 메일 클라이언트에서 받은 메시지의 모양을 제어할 수 있습니다.
 

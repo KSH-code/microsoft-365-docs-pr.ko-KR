@@ -16,12 +16,12 @@ ms.assetid: f09668bd-fe1a-4c01-89e3-e88c370e66c7
 ms.collection:
 - M365-security-compliance
 description: 전자 메일 메시지에서 보안 팁을 사용 하거나 사용 하지 않도록 설정 하는 방법을 Office 365 및 EOP 관리자에 게 알립니다.
-ms.openlocfilehash: 6b94d34b6cf8bebc0aa4032f255b874fb7d4affb
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: ae8a3bc9811aa54b0c5ae4cc8a0e2eb9aa80aef0
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41599415"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42086261"
 ---
 # <a name="enable-or-disable-safety-tips-in-office-365"></a>Office 365에서 보안 팁 사용 여부 설정
 
@@ -48,15 +48,15 @@ Office 365에서는 조직에 기본적으로 보안 팁을 사용할 수 있으
 
 4. **정책** 페이지에서 **스팸 방지**를 선택 합니다.
 
-    ![이 스크린샷에서는 보안 &amp; 및 준수 센터의 스팸 방지 설정 페이지로 이동 하는 방법을 보여 줍니다.](../media/b8eb2ee3-2eb1-4ea2-b138-f6d7fb2e23de.png)
+    ![이 스크린샷에서는 보안 &amp; 및 준수 센터의 스팸 방지 설정 페이지로 이동 하는 방법을 보여 줍니다.](../../media/b8eb2ee3-2eb1-4ea2-b138-f6d7fb2e23de.png)
 
 5. **스팸 방지 설정** 페이지에서 **사용자 지정** 탭을 선택 합니다.
 
-    ![이 스크린샷에서는 보안 &amp; 및 준수 센터의 스팸 방지 설정 페이지에 있는 사용자 지정 탭의 위치를 보여 줍니다.](../media/1d688d23-e6f3-4de5-84a7-e8ce31786193.png)
+    ![이 스크린샷에서는 보안 &amp; 및 준수 센터의 스팸 방지 설정 페이지에 있는 사용자 지정 탭의 위치를 보여 줍니다.](../../media/1d688d23-e6f3-4de5-84a7-e8ce31786193.png)
 
 6. 필요한 경우 사용자 지정 **설정** 스위치를 선택 하 여 사용자 지정 설정을 켭니다. 사용자 지정 설정 스위치를 **Off**로 설정 하면 스팸 필터 정책을 수정할 수 없습니다.
 
-    ![이 스크린샷에는 해제 된 사용자 지정 스팸 방지 필터 정책 설정이 표시 됩니다.](../media/94f900ad-b556-4a31-a3ac-acfcd72e71b8.png)
+    ![이 스크린샷에는 해제 된 사용자 지정 스팸 방지 필터 정책 설정이 표시 됩니다.](../../media/94f900ad-b556-4a31-a3ac-acfcd72e71b8.png)
 
 7. 수정 하려는 스팸 정책을 확장 한 다음 **정책 편집**을 선택 합니다. 예를 들어 **기본 스팸 필터 정책**옆에 있는 아래쪽 화살표를 선택 합니다. 또는 원하는 경우 **정책 추가**를 선택 하 여 새 정책을 만들 수 있습니다.
 
@@ -71,7 +71,7 @@ Office 365에서는 조직에 기본적으로 보안 팁을 사용할 수 있으
 
 관리자는 Exchange Online PowerShell을 사용 하 여 보안 팁을 사용 하거나 사용 하지 않도록 설정할 수 있습니다. Get-hostedcontentfilterpolicy cmdlet을 사용 하면 스팸 필터 정책에서 보안 팁을 사용 하거나 사용 하지 않도록 설정할 수 있습니다.
 
-1. Exchange Online PowerShell에 연결합니다. 자세한 내용은 [Exchange Online PowerShell에 연결을](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell)참조 하세요.
+1. Exchange Online PowerShell에 연결 합니다. 자세한 내용은 [Exchange Online PowerShell에 연결을](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell)참조 하세요.
 
 2. Get-hostedcontentfilterpolicy cmdlet을 실행 하 여 보안 팁을 사용 하거나 사용 하지 않도록 설정 합니다.
 

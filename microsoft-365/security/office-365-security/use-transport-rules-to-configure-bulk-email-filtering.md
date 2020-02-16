@@ -15,12 +15,12 @@ ms.assetid: 2889c82e-fab0-4e85-87b0-b001b2ccd4f7
 ms.collection:
 - M365-security-compliance
 description: 관리자는 대량 전자 메일 필터링에 대해 Exchange Online Protection의 메일 흐름 규칙을 사용 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 5188ce077ce15ab7ad5d03e4aa2c172db6a80c37
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 81b0f4cc58d712c3a1c1e09dab02d1c6f56cb69d
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41598045"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42081824"
 ---
 # <a name="use-mail-flow-rules-to-configure-bulk-email-filtering-in-exchange-online-protection"></a>메일 흐름 규칙을 사용 하 여 Exchange Online Protection에서 대량 전자 메일 필터링 구성
 
@@ -36,11 +36,11 @@ ms.locfileid: "41598045"
 
 1. EAC(Exchange 관리 센터)에서 **메일 흐름** \> **규칙**으로 이동합니다.
 
-2. ![](../media/ITPro-EAC-AddIcon.gif) 추가 **아이콘 추가를 클릭 한** 다음 **새 규칙 만들기**를 선택 합니다.
+2. ![](../../media/ITPro-EAC-AddIcon.gif) 추가 **아이콘 추가를 클릭 한** 다음 **새 규칙 만들기**를 선택 합니다.
 
 3. 규칙 이름을 지정합니다.
 
-4. **기타 옵션** ![기타 옵션 아이콘](../media/ITPro-EAC-MoreOptionsIcon.png)을 클릭 합니다. 다음의 **경우이 규칙 적용**에서 **제목 또는 본문** \> **제목 또는 본문이 다음 텍스트 패턴과 일치 하는 항목**을 선택 합니다.
+4. **기타 옵션** ![기타 옵션 아이콘](../../media/ITPro-EAC-MoreOptionsIcon.png)을 클릭 합니다. 다음의 **경우이 규칙 적용**에서 **제목 또는 본문** \> **제목 또는 본문이 다음 텍스트 패턴과 일치 하는 항목**을 선택 합니다.
 
 5. **단어 또는 구 지정** 대화 상자에 대량 전자 메일에서 일반적으로 발견 되는 다음 정규식을 한 번에 하나씩 추가 하 고 작업을 마치면 **확인** 을 클릭 합니다.
 
@@ -88,7 +88,7 @@ ms.locfileid: "41598045"
 
 1. EAC에서 **메일 흐름** \> **규칙**으로 이동합니다.
 
-2. ![](../media/ITPro-EAC-AddIcon.gif) 추가 **아이콘 추가를 클릭 한** 다음 **새 규칙 만들기**를 선택 합니다.
+2. ![](../../media/ITPro-EAC-AddIcon.gif) 추가 **아이콘 추가를 클릭 한** 다음 **새 규칙 만들기**를 선택 합니다.
 
 3. 규칙 이름을 지정합니다.
 

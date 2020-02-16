@@ -17,12 +17,12 @@ ms.assetid: 35dbfd99-da5a-422b-9b0e-c6caf3b645fa
 ms.collection:
 - M365-security-compliance
 description: ATP 안전한 링크 정책을 설정 하는 경우 조직의 일부 사용자가 목록에 포함 된 사이트를 방문할 수 있도록 하기 위해 다음 Url 목록을 포함 하 여이를 재작성 합니다.
-ms.openlocfilehash: 3a2fd98adc1eee36a984ac09b80546ae6b98e31d
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 1983e0ff2ea85092af483d4f7a563681a6441152
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41598375"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42082215"
 ---
 # <a name="set-up-a-custom-do-not-rewrite-urls-list-using-office-365-atp-safe-links"></a>Office 365 ATP 안전한 링크를 사용 하 여 사용자 지정 하 여 재작성 되지 않는 Url 목록 설정
 
@@ -54,7 +54,7 @@ ATP 정책을 편집 하거나 정의 하려면 적절 한 역할을 할당 받�
 
 2. 왼쪽 탐색 창의 **위협 관리** \> **정책** \> **안전한 링크**아래에 있습니다.
 
-3. **특정 받는 사람에 게 적용 되는 정책** 섹션에서 **새로** 만들기 (새로 만들기 단추를 더하기 기호 ( **+**)와 유사)를 선택 하 여 새 정책을 만듭니다. 또는 기존 정책을 편집할 수 있습니다.<br/>![특정 전자 메일 받는 사람에 대 한 안전한 링크 정책을 추가 하려면 새로 만들기를 선택 합니다.](../media/01073f42-3cec-4ddb-8c10-4d33ec434676.png)
+3. **특정 받는 사람에 게 적용 되는 정책** 섹션에서 **새로** 만들기 (새로 만들기 단추를 더하기 기호 ( **+**)와 유사)를 선택 하 여 새 정책을 만듭니다. 또는 기존 정책을 편집할 수 있습니다.<br/>![특정 전자 메일 받는 사람에 대 한 안전한 링크 정책을 추가 하려면 새로 만들기를 선택 합니다.](../../media/01073f42-3cec-4ddb-8c10-4d33ec434676.png)
 
 4. 정책에 대 한 이름 및 설명을 지정 합니다.
 

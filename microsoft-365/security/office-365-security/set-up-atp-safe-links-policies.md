@@ -17,12 +17,12 @@ ms.assetid: bdd5372d-775e-4442-9c1b-609627b94b5d
 ms.collection:
 - M365-security-compliance
 description: 안전한 링크 정책을 설정 하 여 Word, Excel, PowerPoint, Visio 파일 및 전자 메일 메시지의 악의적인 링크 로부터 조직을 보호 합니다.
-ms.openlocfilehash: 4ae3b75ce13b783bc8a373202a0ae42bb14d7cfc
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: f06b2b895899973d071df384b53a090b766fd77f
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41598365"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42082235"
 ---
 # <a name="set-up-office-365-atp-safe-links-policies"></a>Office 365 ATP 안전한 링크 정책 설정
 
@@ -71,7 +71,7 @@ ms.locfileid: "41598365"
     
 2. 왼쪽 탐색 창의 **위협 관리**에서 ** \> 정책** **안전한 링크**를 선택 합니다.
     
-3. **전체 조직에 적용 되는 정책** 섹션에서 **기본값**을 선택 하 고 **편집** (편집 단추는 연필과 유사)을 선택 합니다.<br/>![안전한 링크 보호에 대 한 기본 정책을 편집 하려면 편집을 클릭 합니다.](../media/d08f9615-d947-4033-813a-d310ec2c8cca.png)
+3. **전체 조직에 적용 되는 정책** 섹션에서 **기본값**을 선택 하 고 **편집** (편집 단추는 연필과 유사)을 선택 합니다.<br/>![안전한 링크 보호에 대 한 기본 정책을 편집 하려면 편집을 클릭 합니다.](../../media/d08f9615-d947-4033-813a-d310ec2c8cca.png)
   
 4. **다음 Url 차단** 섹션에서 조직의 사용자가 방문 하지 못하도록 할 url을 하나 이상 지정 합니다. ( [ATP 안전한 링크를 사용 하 여 사용자 지정 차단 된 url 목록 설정](set-up-a-custom-blocked-urls-list-wtih-atp.md)참조)
     
@@ -89,7 +89,7 @@ ms.locfileid: "41598365"
     
 3. **안전한 링크**를 선택 합니다.
     
-4. **특정 받는 사람에 게 적용 되는 정책** 섹션에서 **새로 만들기** (새로 만들기 단추는 더하기 기호 ( **+**)와 유사)를 선택 합니다.<br/>![특정 전자 메일 받는 사람에 대 한 안전한 링크 정책을 추가 하려면 새로 만들기를 선택 합니다.](../media/01073f42-3cec-4ddb-8c10-4d33ec434676.png)
+4. **특정 받는 사람에 게 적용 되는 정책** 섹션에서 **새로 만들기** (새로 만들기 단추는 더하기 기호 ( **+**)와 유사)를 선택 합니다.<br/>![특정 전자 메일 받는 사람에 대 한 안전한 링크 정책을 추가 하려면 새로 만들기를 선택 합니다.](../../media/01073f42-3cec-4ddb-8c10-4d33ec434676.png)
   
 5. 정책에 대한 이름, 설명 및 설정을 지정합니다.<br/>**예:** 조직에 있는 특정 그룹의 사용자가 안전한 링크 보호를 사용 하지 않고 특정 웹 사이트로 이동할 수 없도록 하는 "직접 클릭 없음" 정책을 설정 하려면 다음과 같은 권장 설정을 지정 하면 됩니다. 
     

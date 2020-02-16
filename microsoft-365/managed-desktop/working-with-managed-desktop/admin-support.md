@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: faa0e904ef2a07ccd209ef91630ce6fc8205e347
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: bc6c0199c6ee019cbb032c288612d36a254ee7e6
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40801200"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42085715"
 ---
 # <a name="admin-support-for-microsoft-managed-desktop"></a>Microsoft Managed Desktop에 대 한 관리자 지원
 
@@ -57,7 +57,7 @@ Microsoft Managed Desktop 관리 포털을 사용 하 여 Microsoft에 지원 �
 
 티켓이 **완화** 되거나 **해결** 된 상태 이면 사용자 환경에 해당 특정 문제에 대 한 의견을 공유할 수 있습니다. 이 작업을 수행 하려면 관리 포털의 **지원 요청** 페이지로 이동 합니다. 특정 티켓을 선택 합니다. 오른쪽에 나타나는 바로 **사용자 의견** 탭을 선택 하 고 요청 된 정보를 제공 합니다. 사용자 의견 양식에 개인 정보를 포함 하지 않도록 주의 하세요. 개인 정보 보호에 대 한 자세한 내용은 [Microsoft 개인 정보 취급](https://privacy.microsoft.com/privacystatement)방침을 참조 하십시오.
 
-![사용자 의견 양식](images/feedback_form.png)
+![사용자 의견 양식](../../media/feedback_form.png)
 
 ## <a name="provide-administrator-rights-to-specific-users"></a>특정 사용자에 게 관리자 권한 제공
 

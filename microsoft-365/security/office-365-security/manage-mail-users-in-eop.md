@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 4bfaf2ab-e633-4227-8bde-effefb41a3db
 description: 메일 사용자 정의는 EOP(Exchange Online Protection) 서비스 관리의 중요한 부분입니다.
-ms.openlocfilehash: 53d47452979c42273fd485fa89642eea881bb21a
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: bdbc3cd54901d53b4a7d01bcf513a9b9a0df1c01
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41598985"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42088587"
 ---
 # <a name="manage-mail-users-in-eop"></a>EOP에서 메일 사용자 관리
 
@@ -108,7 +108,7 @@ ms.locfileid: "41598985"
 
 ### <a name="use-the-eac-to-edit-or-remove-a-mail-user"></a>EAC를 사용 하 여 메일 사용자 편집 또는 제거
 
-- EAC에서 **받는 사람** \> **연락처**로 이동합니다. 사용자 목록에서 보거나 변경 하려는 사용자를 클릭 한 다음 편집 아이콘](../media/ITPro-EAC-EditIcon.gif) **편집** ![을 선택 하 여 사용자 설정을 필요에 따라 업데이트 합니다. 사용자 이름, 별칭 또는 연락처 정보를 변경할 수 있으며 조직에서 사용자의 역할에 대한 상세 정보를 기록할 수 있습니다. 사용자를 선택한 다음 제거 아이콘](../media/ITPro-EAC-RemoveIcon.gif) **제거** ![를 선택 하 여 삭제를 삭제할 수도 있습니다.
+- EAC에서 **받는 사람** \> **연락처**로 이동합니다. 사용자 목록에서 보거나 변경 하려는 사용자를 클릭 한 다음 편집 아이콘](../../media/ITPro-EAC-EditIcon.gif) **편집** ![을 선택 하 여 사용자 설정을 필요에 따라 업데이트 합니다. 사용자 이름, 별칭 또는 연락처 정보를 변경할 수 있으며 조직에서 사용자의 역할에 대한 상세 정보를 기록할 수 있습니다. 사용자를 선택한 다음 제거 아이콘](../../media/ITPro-EAC-RemoveIcon.gif) **제거** ![를 선택 하 여 삭제를 삭제할 수도 있습니다.
 
 ## <a name="use-exchange-online-protection-powershell-to-manage-mail-users"></a>Exchange Online Protection PowerShell을 사용 하 여 메일 사용자 관리
 

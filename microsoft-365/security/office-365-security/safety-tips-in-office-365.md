@@ -17,12 +17,12 @@ ms.assetid: fb4f8e49-0468-4be2-8fa6-99501f1ad9d5
 ms.collection:
 - M365-security-compliance
 description: EOP 및 Office 365 스팸 필터로 필터링 된 전자 메일 메시지에 대 한 보안 팁이 도입 되었습니다.
-ms.openlocfilehash: 244b2ceb8ccf5e2e49b56fdebd370f75033f652b
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 1fddb38be711a9d43e85adea34fe14eb9e7a85ef
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41598525"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42082349"
 ---
 # <a name="safety-tips-in-email-messages-in-office-365"></a>Office 365에서의 전자 메일 메시지에 대한 안전 조언
 
@@ -32,25 +32,25 @@ EOP (Exchange Online Protection) 및 Office 365는 스팸, 피싱 및 맬웨어 
 
 - 의심 스러운 메일 (red 보안 팁)
 
-    ![빨간색 보안 팁을 표시 하는 스크린샷](../media/5078a0be-e556-44a1-b169-09d780d26898.png)
+    ![빨간색 보안 팁을 표시 하는 스크린샷](../../media/5078a0be-e556-44a1-b169-09d780d26898.png)
 
     전자 메일의 빨간색 안전 팁은 수신한 메시지에 피싱 사기와 같은 의심 스러운 내용이 있음을 의미 합니다. 이 유형의 전자 메일 메시지는 열지 않고 받은 편지함에서 삭제 하는 것이 좋습니다.
 
 - 스팸 (노랑 보안 팁)
 
-    ![노란색 보안 팁을 표시 하는 스크린샷](../media/793c9265-ea44-48fd-a98f-804fadd4163b.png)
+    ![노란색 보안 팁을 표시 하는 스크린샷](../../media/793c9265-ea44-48fd-a98f-804fadd4163b.png)
 
     전자 메일의 노란색 보안 팁은 메시지가 스팸으로 표시 되었음을 의미 합니다. 메시지를 보낸 사람을 인식 하 고 신뢰 하지 않으면 첨부 파일이 나 사진을 다운로드 하지 않고 메시지의 링크를 클릭 하지 않습니다. 웹용 Outlook에서 정크 메일 항목의 노란색 표시줄에 **스팸이 아닌 것** 을 클릭 하 여 받은 편지 함으로 메시지를 이동할 수 있습니다. 받은 편지 함으로 배달 된 메시지에 노란색 보안 팁이 표시 되는 경우 스팸 메일이 정크 메일 폴더로 이동 하지 않도록 설정 되어 있을 수 있습니다.
 
 - 안전한 메일 (녹색 안전 팁)
 
-    ![녹색 보안 팁을 보여 주는 스크린샷](../media/acbc11d0-f626-4848-9fbf-66eeeda3f803.png)
+    ![녹색 보안 팁을 보여 주는 스크린샷](../../media/acbc11d0-f626-4848-9fbf-66eeeda3f803.png)
 
     안전 하지 않은 메시지 외에도, 믿을 수 있는 보낸 사람의 유효한 메시지에 대해 설명 합니다. 전자 메일의 녹색 보안 팁은 메시지 보낸 사람을 확인 하 고 안전 하다 고 확인 했음을 의미 합니다. Microsoft는 금융 조직과 자주 위장 되거나 가장 되는 다른 사용자를 포함 하는 신뢰할 수 있는 보낸 사람 목록을 유지 관리 합니다.
 
 - 필터링 되지 않은 메일 (회색 보안 팁)
 
-    ![회색 보안 팁을 보여 주는 스크린샷](../media/c4d0cf8f-08e9-4c84-beee-1d9e0b022e0a.png)
+    ![회색 보안 팁을 보여 주는 스크린샷](../../media/c4d0cf8f-08e9-4c84-beee-1d9e0b022e0a.png)
 
     또한 수신 허용-보낸 사람 목록을 신뢰할 수 있거나 메일 흐름 규칙이 필터링을 우회 하기 위해 사용 하는 경우 메일 확인이 생략 된 경우에도 알려줍니다.
 

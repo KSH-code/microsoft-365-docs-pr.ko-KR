@@ -16,12 +16,12 @@ ms.assetid: fe0b9b8f-faa9-44ff-8095-4d1b2f507b74
 ms.collection:
 - M365-security-compliance
 description: 새 보안 대시보드를 사용 하 여 Office 365 위협 방지 상태를 검토 하 고 보안 경고를 보고 작동 합니다.
-ms.openlocfilehash: 04c146a90cacccee831edd8a825bff0139963e16
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 85c616c717a85f9a6a47e63a48621a8703b487aa
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41598465"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42088213"
 ---
 # <a name="security-dashboard"></a>보안 대시보드
 
@@ -44,7 +44,7 @@ ms.locfileid: "41598465"
 
 위협 관리 요약 위젯은 지난 7 일 동안 위협 으로부터 조직이 보호 된 방식을 한눈에 보여 줍니다.
 
-![보안 대시보드-위협 관리 요약 위젯](../media/SecDash-ThreatMgmtSummary.png)
+![보안 대시보드-위협 관리 요약 위젯](../../media/SecDash-ThreatMgmtSummary.png)
 
 위협 관리 요약에 표시 되는 정보는 구독에 포함 된 항목에 따라 달라 집니다. 다음 표에는 Office 365 E3 및 Office 365 E5에 포함 된 정보에 대 한 설명이 나와 있습니다.
 
@@ -59,7 +59,7 @@ ms.locfileid: "41598465"
 
 위협 방지 상태 위젯은 피싱 및 맬웨어 추이에 대 한 경향 및 상세 보기로 위협 보호 효과를 표시 합니다. 
 
-![위협 방지 상태 위젯](../media/tpswidget.png)
+![위협 방지 상태 위젯](../../media/tpswidget.png)
 
 세부 정보는 Office 365 구독에 [office 365 ATP (Advanced Threat protection](office-365-atp.md) )가 있는 EOP ( [Exchange Online Protection](exchange-online-protection-eop.md) )가 포함 되어 있는지 여부에 따라 달라 집니다.
 
@@ -75,7 +75,7 @@ ms.locfileid: "41598465"
  
 전체 주간 위협 감지 위젯은 지난 7 일 동안 전자 메일 메시지에서 검색 된 위협의 수를 보여 줍니다.
 
-![전역 주간 위협 감지 위젯](../media/globalweeklythreatdetections.png)
+![전역 주간 위협 감지 위젯](../../media/globalweeklythreatdetections.png)
 
 메트릭은 다음 표에 설명 된 대로 계산 됩니다.
 
@@ -90,13 +90,13 @@ ms.locfileid: "41598465"
 
 맬웨어 위젯은 지난 7 일 동안의 맬웨어 추세 및 맬웨어 패밀리 유형에 대 한 세부 정보를 표시 합니다.
 
-![맬웨어 추세 및 패밀리 유형](../media/malwarewidgetatpe5.png)
+![맬웨어 추세 및 패밀리 유형](../../media/malwarewidgetatpe5.png)
  
 ## <a name="insights"></a>인사이트
 
 자세한 내용은 검토 해야 하는 주요 문제 뿐 아니라 권장 사항과 고려할 작업도 포함 되어 있습니다. 
 
-![고급 통찰력](../media/smartinsights.png)
+![고급 통찰력](../../media/smartinsights.png)
 
 예를 들어 일부 사용자가 정크 메일 옵션을 사용 하지 않도록 설정 했으므로 피싱 전자 메일 메시지가 배달 되는 것을 볼 수 있습니다. Insights 작동 방식에 대 한 자세한 내용은 [Office 365 보안 &amp; 및 준수 센터의 Reports and insights](reports-and-insights-in-security-and-compliance.md)를 참조 하세요.
   
@@ -104,14 +104,14 @@ ms.locfileid: "41598465"
 
 조직의 구독에 [Office 365 Advanced Threat Protection 계획 2](office-365-ti.md)가 포함 되어 있는 경우 보안 대시보드에 Advanced threat 조사한 및 응답 도구가 포함 된 섹션이 있습니다. 조직의 보안 팀은이 섹션의 정보를 사용 하 여 최신 캠페인을 이해 하 고 위협을 조사 하 고 인시던트를 관리할 수 있습니다. 
   
-![위협 인텔리전스를 통해 조직에서 대상이 되는 공격을 이해 하는 데 도움이 됩니다.](../media/threatintelwidget.png)
+![위협 인텔리전스를 통해 조직에서 대상이 되는 공격을 이해 하는 데 도움이 됩니다.](../../media/threatintelwidget.png)
   
   
 ## <a name="trends"></a>추세
 
 보안 대시보드 아래쪽에는 조직에 대 한 전자 메일 흐름 추세를 요약 하는 **추세** 섹션을 소개 합니다. 보고서는 스팸으로 분류 된 전자 메일, 맬웨어, 피싱 시도 및 좋은 전자 메일에 대 한 정보를 제공 합니다. 타일을 클릭 하 여 보고서에서 자세한 정보를 볼 수 있습니다. 
   
-![조직에 대 한 전자 메일 흐름 추세를 요약 하는 추세 섹션](../media/trends.png)
+![조직에 대 한 전자 메일 흐름 추세를 요약 하는 추세 섹션](../../media/trends.png)
   
 또한 조직의 Office 365 구독에 [office 365 Advanced Threat Protection 계획 2](office-365-ti.md)가 포함 되어 있는 경우이 섹션에서 **최신 위협 관리 경고** 보고서를 사용 하 여 보안 팀이 우선 순위가 높은 보안 경고에 대 한 작업을 보고 수행할 수 있도록 합니다. 
 

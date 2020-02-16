@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 125834f4-1024-4325-ad5a-d2573cfb005e
 description: 관리자는 Exchange Online Protection의 EAC (Exchange 관리 센터)에서 사용 권한을 할당 하거나 제거 하는 방법을 확인할 수 있습니다.
-ms.openlocfilehash: ab574e4d33d84774ef63f73297447ea66a74430b
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 01676fab3ed69120a35687d1c6939cb466b8d672
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41599035"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42082917"
 ---
 # <a name="manage-admin-role-group-permissions-in-eop"></a>EOP에서 관리자 역할 그룹 권한 관리
 
@@ -38,9 +38,9 @@ Microsoft EOP(Exchange Online Protection)에서는 EAC(Exchange 관리 센터)�
 
 ## <a name="use-the-eac-to-assign-members-to-admin-role-groups"></a>EAC를 사용하여 관리자 역할 그룹에 구성원 할당
 
-1. EAC에서 **사용 권한** \> **관리자 역할로**이동 하 여 사용자를 추가 하려는 역할 그룹을 클릭 한 다음 편집 아이콘 **** ![](../media/ITPro-EAC-EditIcon.gif)편집을 클릭 합니다.
+1. EAC에서 **사용 권한** \> **관리자 역할로**이동 하 여 사용자를 추가 하려는 역할 그룹을 클릭 한 다음 편집 아이콘 **** ![](../../media/ITPro-EAC-EditIcon.gif)편집을 클릭 합니다.
 
-2. 구성원 아래에서 ![추가 아이콘](../media/ITPro-EAC-AddIcon.gif) **추가를 클릭 합니다** . 구성원 선택 창이 나타납니다.
+2. 구성원 아래에서 ![추가 아이콘](../../media/ITPro-EAC-AddIcon.gif) **추가를 클릭 합니다** . 구성원 선택 창이 나타납니다.
 
 3. 추가할 사용자를 한 명 이상 검색하거나 목록에서 선택합니다.
 
@@ -53,9 +53,9 @@ Microsoft EOP(Exchange Online Protection)에서는 EAC(Exchange 관리 센터)�
 
 ## <a name="use-the-eac-to-remove-members-from-admin-role-groups"></a>EAC를 사용하여 관리자 역할 그룹에서 구성원 제거
 
-1. EAC에서 **사용 권한** \> **관리자 역할로**이동 하 여 사용자를 제거할 역할 그룹을 클릭 한 다음 편집 아이콘 **** ![](../media/ITPro-EAC-EditIcon.gif)편집을 클릭 합니다.
+1. EAC에서 **사용 권한** \> **관리자 역할로**이동 하 여 사용자를 제거할 역할 그룹을 클릭 한 다음 편집 아이콘 **** ![](../../media/ITPro-EAC-EditIcon.gif)편집을 클릭 합니다.
 
-2. 구성원에서 제거할 사용자를 한 명 이상 선택 하 고 제거 아이콘](../media/ITPro-EAC-RemoveIcon.gif) **제거** ![를 클릭 합니다.
+2. 구성원에서 제거할 사용자를 한 명 이상 선택 하 고 제거 아이콘](../../media/ITPro-EAC-RemoveIcon.gif) **제거** ![를 클릭 합니다.
 
 3. **저장**을 클릭하여 역할 그룹의 변경 내용을 저장하고 **관리자 역할** 페이지로 돌아갑니다. 사용자가 관리자 역할 그룹에서 제거되었는지 확인하려면 해당 구성원이 선택한 역할 그룹의 세부 정보 창에서 구성원 아래에 더 이상 표시되지 않는지 확인합니다.
 

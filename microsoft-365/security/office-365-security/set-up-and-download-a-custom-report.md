@@ -16,12 +16,12 @@ ms.assetid: 1a7be622-f6a5-4ce1-a343-f249475334f6
 ms.collection:
 - M365-security-compliance
 description: 보안 &amp; 및 준수 센터에서 사용자 지정 날짜 범위 및 필터를 사용 하 여 보고서를 설정 하 고 다운로드 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 0de4b9bf2ac8d16c0e0ecc38fa69a3c9bf5e2774
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 170360a796d94501b6c13a6ffd4b062401296462
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41598385"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42088003"
 ---
 # <a name="set-up-and-download-a-custom-report-in-the-security-amp-compliance-center"></a>보안 &amp; 및 준수 센터에서 사용자 지정 보고서 설정 및 다운로드
 
@@ -34,11 +34,11 @@ ms.locfileid: "41598385"
   
 1. [보안 &amp; 및 준수 센터](https://protection.office.com)에서 **보고서** \> **대시보드로**이동 합니다.
     
-2. 보고서를 선택 합니다. 이 예에서는 메시지 처리 보고서를 사용 합니다.<br/>![보고서를 다운로드 하려면 요청 보고서를 선택 합니다.](../media/b566925d-b9d9-453d-9bdd-f2637c7ba140.png)
+2. 보고서를 선택 합니다. 이 예에서는 메시지 처리 보고서를 사용 합니다.<br/>![보고서를 다운로드 하려면 요청 보고서를 선택 합니다.](../../media/b566925d-b9d9-453d-9bdd-f2637c7ba140.png)
   
 3. 보고서의 왼쪽 위 모서리에서 **요청 보고서**를 선택 합니다.
     
-4. **요청 보고서** 대화 상자에서 보고서의 이름, 시작 날짜 및 종료 날짜를 지정 합니다. **다음을 선택 합니다**.<br/>![보안 &amp; 및 준수 센터에서 다운로드용 보고서 \> 보고서를 선택 합니다.](../media/65e625f5-c98c-49fc-9c1f-8c80ec8308fd.png)
+4. **요청 보고서** 대화 상자에서 보고서의 이름, 시작 날짜 및 종료 날짜를 지정 합니다. **다음을 선택 합니다**.<br/>![보안 &amp; 및 준수 센터에서 다운로드용 보고서 \> 보고서를 선택 합니다.](../../media/65e625f5-c98c-49fc-9c1f-8c80ec8308fd.png)
   
 5. 보고서에 사용할 필터를 지정 합니다. (예를 들어 메시지 처리 보고서의 클라이언트 IP 주소를 지정할 수 있습니다.) **다음을 선택 합니다**.
     
