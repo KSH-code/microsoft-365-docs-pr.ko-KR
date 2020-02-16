@@ -22,12 +22,12 @@ search.appverid:
 - MET150
 ms.assetid: 5b4ba843-24b8-4526-8e1f-f9b9eab89d06
 description: Office 365 Business Premium에서 Microsoft 365 Business로 비즈니스를 업그레이드 하는 단계입니다.
-ms.openlocfilehash: 0732f76e5bd8540e5954bd7ea7b88061326901b5
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: e17ac2658c7276ba4a77de371847343866815c42
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41593682"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42065288"
 ---
 # <a name="upgrade-to-microsoft-365-business-from-office-365-business-premium"></a>Office 365 Business Premium에서 Microsoft 365 Business로 업그레이드
 
@@ -51,11 +51,11 @@ Microsoft 365 Business ( [Microsoft.com](https://www.microsoft.com/microsoft-365
 1. 에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a>관리 센터에 로그인 합니다.
 2. 탐색 창으로 이동 하 여 **결제** \> **제품 & 서비스**를 선택 합니다. Office 365 구독을 찾아 선택 하 여 세부 정보를 확인 합니다. 
 
-    ![스크린샷에서는 관리 센터에서 구독을 찾아서 선택 하는 방법을 보여 줍니다.](media/FindYourSubscription.png)
+    ![스크린샷에서는 관리 센터에서 구독을 찾아서 선택 하는 방법을 보여 줍니다.](../media/FindYourSubscription.png)
 
 3. 다음 페이지에서 **업그레이드**를 선택 합니다. 
 
-      ![스크린샷에는 관리 센터에서 업그레이드를 선택할 수 있는 위치가 표시 됩니다.](media/SelectUpgrade.png)
+      ![스크린샷에는 관리 센터에서 업그레이드를 선택할 수 있는 위치가 표시 됩니다.](../media/SelectUpgrade.png)
 
   > [!NOTE]
   > **Azure Active Directory의 그룹 기반 라이선싱으로 구독 업그레이드**를 수행할 수 없다는 메시지가 표시 되 면 대규모 조직이 있는 경우가 아니면이를 무시 해도 됩니다. 이 옵션을 선택한 조직은 그룹 기반 라이선싱을 사용 하 고 있음을 알 수 있습니다.

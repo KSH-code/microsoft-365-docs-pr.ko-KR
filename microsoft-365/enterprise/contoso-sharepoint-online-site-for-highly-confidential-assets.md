@@ -15,12 +15,12 @@ search.appverid:
 ms.collection: M365-security-compliance
 ms.custom: Ent_Architecture
 description: '요약: Contoso가 높은 규제 대상 데이터에 대 한 SharePoint 사이트를 구현 하 여 조사 팀 간의 공동 작업을 간편 하 게 수행 하는 방법'
-ms.openlocfilehash: c0b9e36f90e64e1d1c7f7ea2c4b1b4b65e60b95c
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: a1ffb336e85eb6eb850b53ed14adf947b56642cc
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601135"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42068280"
 ---
 # <a name="sharepoint-site-for-highly-confidential-digital-assets-of-the-contoso-corporation"></a>Contoso Corporation의 고도로 기밀 디지털 자산에 대 한 SharePoint 사이트
 
@@ -67,7 +67,7 @@ Contoso 관리자는 다음과 같은 **고도로 기밀** 레이블의 **리서
 
 높은 기밀 자산에 대 한 **연구** 팀 사이트의 결과 구성은 다음과 같습니다.
 
-![높은 기밀 자산에 대 한 연구 팀 사이트의 결과 구성](./media/contoso-sharepoint-online-site-for-highly-confidential-assets/final-config.png)
+![높은 기밀 자산에 대 한 연구 팀 사이트의 결과 구성](../media/contoso-sharepoint-online-site-for-highly-confidential-assets/final-config.png)
 
 **리서치** 사이트의 폴더에 있는 파일은 다음과 같은 방법으로 보호 됩니다.
 
@@ -77,7 +77,7 @@ Contoso 관리자는 다음과 같은 **고도로 기밀** 레이블의 **리서
 
 다음은 **리서치 사이트에** 저장 되어 있는 **리서치 팀** 민감도 sublabel 지정 된 파일의 예입니다.
 
-![높은 기밀 자산에 대 한 연구 팀 사이트의 결과 구성](./media/contoso-sharepoint-online-site-for-highly-confidential-assets/final-config-example-file.png)
+![높은 기밀 자산에 대 한 연구 팀 사이트의 결과 구성](../media/contoso-sharepoint-online-site-for-highly-confidential-assets/final-config-example-file.png)
 
 
 ## <a name="step-4-migrated-the-on-premises-sharepoint-research-data"></a>4 단계: 온-프레미스 SharePoint 조사 데이터 마이그레이션

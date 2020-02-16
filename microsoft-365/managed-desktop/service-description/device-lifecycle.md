@@ -1,16 +1,16 @@
 ---
 title: Microsoft Managed Desktop 제품 수명 주기
 description: 이 항목에는 Microsoft Managed Desktop에서 사용 되는 장치 사양이 나와 있습니다.
-keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 설명서
+keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
-ms.openlocfilehash: 431b28635f856ebd50e1de4129c00149e1e7c78d
-ms.sourcegitcommit: b65c80051e53d9be223f4769f4d42a39f5a07735
+ms.openlocfilehash: 2d6dffad4b4d96e065dd5163ea702c91c27520fb
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/10/2019
-ms.locfileid: "39962345"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42085849"
 ---
 # <a name="microsoft-managed-desktop-product-lifecycle"></a>Microsoft Managed Desktop 제품 수명 주기
 
@@ -33,7 +33,7 @@ Microsoft Managed Desktop 복지 최종 사용자는 항상 최상의 성능, �
 
 전체 순서는 다음 그림에 나와 있습니다.
 
-![수명 주기 시간 표시 막대: 제품 일반 가용성부터 시작 하 여 "기본 가용성"은 2 년 동안 지속 됩니다. 이 시간 동안에는 인증 윈도우가 종료 되 고 특정 지점에서 장치가 등록 됩니다. 기본 가용성이 끝나면 제품이 보관 되 고 "유예 기간"이 3 년 후에 시작 됩니다. 시작 중에는 장치가 등록 때부터 관리에서 제거 될 때까지 3 년 동안 사용할 수 있습니다. 유예 기간이 끝나면 카탈로그에서 제품을 제거 합니다.](images/non-dark1-edits.PNG)
+![수명 주기 시간 표시 막대: 제품 일반 가용성부터 시작 하 여 "기본 가용성"은 2 년 동안 지속 됩니다. 이 시간 동안에는 인증 윈도우가 종료 되 고 특정 지점에서 장치가 등록 됩니다. 기본 가용성이 끝나면 제품이 보관 되 고 "유예 기간"이 3 년 후에 시작 됩니다. 시작 중에는 장치가 등록 때부터 관리에서 제거 될 때까지 3 년 동안 사용할 수 있습니다. 유예 기간이 끝나면 카탈로그에서 제품을 제거 합니다.](../../media/non-dark1-edits.PNG)
 
 제품은 최대 24 개월 동안 카탈로그에 유지 되지만 <em>장치</em> 는 개별 등록 날짜에 따라 3 년 동안 관리 됩니다. 실제로 각 제품에는 세 가지 중요 한 날짜가 있지만 각 장치에는 하나만 있습니다. 제품의 경우 이러한 날짜 중 세 가지는 <em>승인 날짜</em>를 기준으로 계산 되므로 언제 든 지 승인 시에 해당 날짜를 게시 하 여 제품의 전체 수명 주기에 적절 하 게 사용할 수 있도록 합니다.
 
@@ -58,7 +58,7 @@ Microsoft Managed Desktop 복지 최종 사용자는 항상 최상의 성능, �
 
 제품 수명 주기는 제조업체에서 제품을 공개적으로 출시할 때 시작 됩니다.
 
-![릴리스 및 평가 기간을 보여 주는 수명 주기 시간 표시줄](images/non-dark3-edits.PNG)
+![릴리스 및 평가 기간을 보여 주는 수명 주기 시간 표시줄](../../media/non-dark3-edits.PNG)
 
 이 단계에서 Microsoft Managed Desktop 공학적 팀은 제품의 평가 및 인증을 수행 합니다. 이 팀은 기타 다양 한 작업 중에 Windows와의 안정성 및 성능 (하드웨어 기준선, 시장 sentiment 및 재고 및 채널 준비 상태)과 같은 사항을 평가 합니다. 이 프로세스는 보통 6 주 정도 소요 됩니다.
   
@@ -71,7 +71,7 @@ Microsoft Managed Desktop은 처음 6 개월 이내에 인증 장치를 평가 �
 
 이 기간은 제품 가용성의 핵심입니다.
 
-![기본 availibility를 보여 주는 수명 주기 시간 표시줄](images/non-dark4-edits.PNG)
+![기본 availibility를 보여 주는 수명 주기 시간 표시줄](../../media/non-dark4-edits.PNG)
 
 이 기간 중에 등록 된 모든 장치에는 Microsoft Managed Desktop (파란색 시간 표시 막대)에서 지원 되는 3 년간의 모든 지원이 제공 됩니다. 이 기간은 일반 사용 가능 날짜 로부터 24 개월 후로 설정 될 때까지 지속 됩니다.
 
@@ -84,7 +84,7 @@ Microsoft Managed Desktop은 처음 6 개월 이내에 인증 장치를 평가 �
 Microsoft Managed Desktop에 등록 하기 전에 최근 많은 수의 승인 된 장치를 구매한 경우에도 등록할 수는 있지만, 3 년간의 관리 작업을 받을 수도 없습니다. 대신, 등록 시기에 관계 없이 만료 날짜가 준수 되지 않습니다. Microsoft Managed Desktop은 내부적으로 이러한 장치를 기본 가용성의 마지막 날에 등록 한 것 처럼 취급 합니다. 이 그림에서 이러한 시나리오는 다음과 같이 파란색 및 녹색 장치가 모두 같은 날에 종료 된다는 것을 볼 수 있습니다.
 
 
-![유예 기간을 보여 주는 수명 주기 시간 표시줄](images/non-dark2-edits.PNG)
+![유예 기간을 보여 주는 수명 주기 시간 표시줄](../../media/non-dark2-edits.PNG)
 
 위 표에서 Fabrikam 랩톱 예제에는 다음과 같은 상황이 나와 있습니다. 
 

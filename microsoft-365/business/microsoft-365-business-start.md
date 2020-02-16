@@ -26,12 +26,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: Microsoft 365 Business를 설정하는 방법 알아보기
-ms.openlocfilehash: a353e39b824bae702fa015b0c7d3dd7e6416454c
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 5491486c2bf8da1ee38fcd986d5ecd682d57c82e
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41593724"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42065617"
 ---
 # <a name="get-started-with-microsoft-365-business"></a>Microsoft 365 Business 시작
 
@@ -57,7 +57,7 @@ Microsoft 365 Business는 최대 300의 라이선스를 의미 합니다. 라이
   
 다음 다이어그램에서는 관리자가 Microsoft 365 Business를 설정 하는 방법을 설명 합니다. 또한 Microsoft 365 Business를 위해 Windows PC를 준비하는 단계를 설명합니다. [Windows AutoPilot](add-autopilot-devices-and-profile.md)를 사용 하 여 Microsoft 365 Business 관리 센터에서 새 장치를 추가할 수도 있습니다. AutoPilot을 사용 하 여 새 장치를 설정 하 고 사전 구성 하 여 사용자가 Microsoft 365 Business 자격 증명으로 로그인 하는 즉시 생산적으로 사용할 준비가 되도록 할 수 있습니다.
   
-![관리자 및 사용자의 설정 및 관리 흐름을 보여 주는 다이어그램](media/249f81fc-7e79-44c7-8425-3a0b7b651c3b.png)
+![관리자 및 사용자의 설정 및 관리 흐름을 보여 주는 다이어그램](../media/249f81fc-7e79-44c7-8425-3a0b7b651c3b.png)
 
 이 비디오에서 Microsoft 365 Business setup의 개요를 확인 하세요.<br><br>
 

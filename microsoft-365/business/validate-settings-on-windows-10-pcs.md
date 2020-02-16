@@ -1,5 +1,7 @@
 ---
 title: Windows 10 PC에서 앱 보호 설정 유효성 검사
+f1.keywords:
+- NOCSH
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -22,12 +24,12 @@ search.appverid:
 - MET150
 ms.assetid: fae8819d-7235-495f-9f07-d016f545887f
 description: Windows 10 장치에서 Microsoft 365 Business 앱 보호 설정을 확인 하는 방법을 알아봅니다.
-ms.openlocfilehash: b8793ab7f77bbc7f608f237e2455f6fd12c3bb26
-ms.sourcegitcommit: 6a413a65b8c2e10cea08f0a15635b28a1362a582
+ms.openlocfilehash: 1762382aec00a80e006cf38b66c28d02c0c25989
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/19/2019
-ms.locfileid: "38721803"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42056682"
 ---
 # <a name="validate-device-protection-settings-on-windows-10-pcs"></a>Windows 10 Pc에서 장치 보호 설정 유효성 검사
 
@@ -37,25 +39,25 @@ ms.locfileid: "38721803"
   
 1. **설정** \> **업데이트 &amp; 보안** \> **Windows** 업데이트 \> **다시 시작 옵션** 으로 이동 하 여 모든 설정이 회색으로 표시 되는지 확인 합니다. 
     
-    ![모든 다시 시작 옵션이 회색으로 표시 됩니다.](media/31308da9-18b0-47c5-bbf6-d5fa6747c376.png)
+    ![모든 다시 시작 옵션이 회색으로 표시 됩니다.](../media/31308da9-18b0-47c5-bbf6-d5fa6747c376.png)
   
 2. **설정** \> **업데이트 &amp; 보안** \> **Windows** 업데이트 \> **고급 옵션** 으로 이동 하 여 모든 설정이 회색으로 표시 되는지 확인 합니다. 
     
-    ![Windows 고급 업데이트 옵션은 모두 회색으로 표시 됩니다.](media/049cf281-d503-4be9-898b-c0a3286c7fc2.png)
+    ![Windows 고급 업데이트 옵션은 모두 회색으로 표시 됩니다.](../media/049cf281-d503-4be9-898b-c0a3286c7fc2.png)
   
 3. **설정** \> **업데이트 &amp; 보안** \> **Windows** 업데이트 \> **고급** 옵션 \> 으로 이동 **하 여 업데이트를 배달 하는 방법을 선택**합니다.
     
     일부 설정이 조직에 의해 숨겨지거나 관리 되 고 모든 옵션이 회색으로 표시 되는 메시지 (빨간색)를 볼 수 있는지 확인 합니다.
     
-    ![업데이트를 전달 하는 방법 선택 페이지 설정이 숨겨지거나 관리 됨에 따라 결정 됩니다.](media/6b3e37c5-da41-4afd-9983-b4f406216b59.png)
+    ![업데이트를 전달 하는 방법 선택 페이지 설정이 숨겨지거나 관리 됨에 따라 결정 됩니다.](../media/6b3e37c5-da41-4afd-9983-b4f406216b59.png)
   
 4. Windows defender 보안 센터를 열려면 **설정** \> ** &amp; 업데이트 보안** \> **windows defender** \> 를 클릭 하 여 **windows defender 보안 센터** \> **바이러스 &amp; 스레드 보호** \> **바이러스 &amp; 위협 방지 설정을**엽니다. 
     
 5. 모든 옵션이 회색으로 표시 되었는지 확인 합니다. 
     
-    ![바이러스 및 위협 방지 설정이 회색으로 표시 됩니다.](media/9ca68d40-a5d9-49d7-92a4-c581688b5926.png)
+    ![바이러스 및 위협 방지 설정이 회색으로 표시 됩니다.](../media/9ca68d40-a5d9-49d7-92a4-c581688b5926.png)
   
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [Microsoft 365 Business 문서 및 리소스](https://go.microsoft.com/fwlink/p/?linkid=853701)
   

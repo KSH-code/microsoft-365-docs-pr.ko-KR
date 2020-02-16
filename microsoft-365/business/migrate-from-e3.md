@@ -21,12 +21,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Office 365 E3에서 Microsoft 365 Business로 비즈니스를 이동 하는 방법을 알아봅니다.
-ms.openlocfilehash: 210f3ebf76da49349dfb6d61d0b8ce88d15d3734
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 54320ed60825a28147542094b19761889a70ae9f
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41593707"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42065582"
 ---
 # <a name="migrating-from-office-365-e3-to-microsoft-365-business"></a>Office 365 E3에서 Microsoft 365 Business로 마이그레이션 
 
@@ -44,25 +44,25 @@ Microsoft 365 Business는 최고급 클라우드 기반 생산성 앱과 간단�
 | Office 앱<sup>1</sup>   | Office 365 Business   | Office 365 ProPlus | 
 | **클라우드 생산성 앱**       | | | 
 | Exchange Online 및 Outlook   | 사서함 당 50 GB 저장소 제한 및 무제한 Exchange 온라인 보관   | 사서함 당 100 GB 저장소 제한 및 무제한 Exchange 온라인 보관 | 
-| Teams | ![Microsoft 365 Business에 포함](./media/check-mark.png)   | ![Office 365 E3에 포함](./media/check-mark.png) | 
+| Teams | ![Microsoft 365 Business에 포함](../media/check-mark.png)  | ![Office 365 E3에 포함](../media/check-mark.png) | 
 | 비즈니스용 OneDrive | 사용자 당 1TB 저장소 제한   | 무제한 | 
-| Yammer, SharePoint Online, Planner, 스트림    | ![Microsoft 365 Business에 포함](./media/check-mark.png)   | ![Office 365 E3에 포함](./media/check-mark.png) | 
-| StaffHub  | ![Microsoft 365 Business에 포함](./media/check-mark.png)   | ![Office 365 E3에 포함](./media/check-mark.png) | 
-| Outlook 고객 관리자, MileIQ  | ![Microsoft 365 Business에 포함](./media/check-mark.png)   | | 
+| Yammer, SharePoint Online, Planner, 스트림    | ![Microsoft 365 Business에 포함](../media/check-mark.png)  | ![Office 365 E3에 포함](../media/check-mark.png) | 
+| StaffHub  | ![Microsoft 365 Business에 포함](../media/check-mark.png)  | ![Office 365 E3에 포함](../media/check-mark.png) | 
+| Outlook 고객 관리자, MileIQ  | ![Microsoft 365 Business에 포함](../media/check-mark.png)  | | 
 | **위협 방지**     | | | 
-| Office 365 ATP (Advanced Threat Protection) 계획 1 | ![Microsoft 365 Business에 포함](./media/check-mark.png)  | 포함 되지 않지만 추가할 수 있음 | 
+| Office 365 ATP (Advanced Threat Protection) 계획 1 | ![Microsoft 365 Business에 포함](../media/check-mark.png) | 포함 되지 않지만 추가할 수 있음 | 
 | **Id 관리**       | | | 
-| 하이브리드 Azure Active Directory에 대 한 셀프 서비스 암호 재설정 (Azure AD) 계정, Azure MFA (다단계 인증), 조건부 액세스, 온-프레미스 id에 대 한 암호 쓰기 저장|    ![Microsoft 365 Business에 포함](./media/check-mark.png) |  | 
+| 하이브리드 Azure Active Directory에 대 한 셀프 서비스 암호 재설정 (Azure AD) 계정, Azure MFA (다단계 인증), 조건부 액세스, 온-프레미스 id에 대 한 암호 쓰기 저장|    ![Microsoft 365 Business에 포함](../media/check-mark.png)    |  | 
 | **장치 및 앱 관리**     | | |
-| Microsoft Intune, Windows AutoPilot|  ![Microsoft 365 Business에 포함](./media/check-mark.png) |  |
-| 공유 컴퓨터 활성화|   ![Microsoft 365 Business에 포함](./media/check-mark.png) | ![Office 365 E3에 포함](./media/check-mark.png)| 
-| Win 7/8.1 Pro 라이선스에서 Windows 10 Pro로의 업그레이드 권한|     ![Microsoft 365 Business에 포함](./media/check-mark.png) || 
+| Microsoft Intune, Windows AutoPilot|  ![Microsoft 365 Business에 포함](../media/check-mark.png)    |  |
+| 공유 컴퓨터 활성화|   ![Microsoft 365 Business에 포함](../media/check-mark.png)    | ![Office 365 E3에 포함](../media/check-mark.png)| 
+| Win 7/8.1 Pro 라이선스에서 Windows 10 Pro로의 업그레이드 권한|     ![Microsoft 365 Business에 포함](../media/check-mark.png)    || 
 | **정보 보호**        | | |
-|Office 365 데이터 손실 방지|   ![Microsoft 365 Business에 포함](./media/check-mark.png)|![Office 365 E3에 포함](./media/check-mark.png)|
-|Azure Information Protection 계획 1, Bitlocker 적용|![Microsoft 365 Business에 포함](./media/check-mark.png)||
-|Azure Information Protection 계획 1, 민감도 레이블|![Microsoft 365 Business에 포함](./media/check-mark.png)||
+|Office 365 데이터 손실 방지|   ![Microsoft 365 Business에 포함](../media/check-mark.png)|![Office 365 E3에 포함](../media/check-mark.png)|
+|Azure Information Protection 계획 1, Bitlocker 적용|![Microsoft 365 Business에 포함](../media/check-mark.png)||
+|Azure Information Protection 계획 1, 민감도 레이블|![Microsoft 365 Business에 포함](../media/check-mark.png)||
 |**클라이언트 액세스 라이선스 (CAL 권한)**|||
-|Enterprise CAL Suite (Exchange, SharePoint, Skype)||![Office 365 E3에 포함](./media/check-mark.png)|
+|Enterprise CAL Suite (Exchange, SharePoint, Skype)||![Office 365 E3에 포함](../media/check-mark.png)|
 
 <sup>1</sup> Office 앱의 Microsoft 365 Business 버전에는 그룹 정책, 앱 원격 분석, 업데이트 컨트롤, 스프레드시트 비교 및 조회, 비즈니스 인텔리전스를 통한 볼륨 정품 인증이 포함 되지 않습니다.
 

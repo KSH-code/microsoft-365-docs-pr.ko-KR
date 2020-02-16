@@ -1,5 +1,7 @@
 ---
 title: Windows 10 PC에서 앱 보호 설정 유효성 검사
+f1.keywords:
+- NOCSH
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -19,12 +21,12 @@ search.appverid:
 - MET150
 ms.assetid: fae8819d-7235-495f-9f07-d016f545887f
 description: Windows 10 장치에서 Microsoft 365 Business 앱 보호 설정을 확인 하는 방법을 알아봅니다.
-ms.openlocfilehash: c54b053c1f6efbca8fd02431c416793a044c6821
-ms.sourcegitcommit: 6a413a65b8c2e10cea08f0a15635b28a1362a582
+ms.openlocfilehash: 577921f7f33eafbbe652dcf825a145d89f1ff556
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/19/2019
-ms.locfileid: "38721863"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42057298"
 ---
 # <a name="validate-app-protection-settings-on-windows-10-pcs"></a>Windows 10 PC에서 앱 보호 설정 유효성 검사
 
@@ -36,11 +38,11 @@ ms.locfileid: "38721863"
   
 1. [Microsoft 365 Business 사용자를 위한 Windows 장치 설정](set-up-windows-devices.md) 에 설명된 것처럼 Microsoft 365 Business 자격 증명으로 로그인하고 Azure AD에 연결한 후 **Windows 설정** \> **계정** \> **회사 또는 학교 액세스**로 이동합니다. **\<테넌트 이름\> Azure AD에 연결됨**을 선택한 다음 **정보**를 선택합니다.
     
-    ![Click or tap Info on the Connected to Azure AD dialog.](media/a36ede2b-d1a0-4d4e-8ea7-af39b4b63890.png)
+    ![Click or tap Info on the Connected to Azure AD dialog.](../media/a36ede2b-d1a0-4d4e-8ea7-af39b4b63890.png)
   
 2. 테 \<넌 트\> 이름 **으로 관리** 페이지에서 다음 그림에 표시 된 것과 같은 **관리 서버 주소** 를 포함 하는 **연결 정보** 를 볼 수 있습니다. 
     
-    ![Managed by page shows connection info of the device manager URL.](media/47515a8e-2d0c-4bea-99f0-6b2545b88a11.png)
+    ![Managed by page shows connection info of the device manager URL.](../media/47515a8e-2d0c-4bea-99f0-6b2545b88a11.png)
   
  **관리 되지 않는 앱에 회사 데이터를 붙여넣을 수 없는지 확인**
   
@@ -52,7 +54,7 @@ ms.locfileid: "38721863"
     
     앱에서 콘텐츠에 액세스할 수 없다는 오류 메시지가 표시 됩니다.
     
-    ![A dialog that states app can't access content when you paste into an unmanaged app.](media/5e82b154-cf2f-43c8-ae80-b45d8ad80e56.png)
+    ![A dialog that states app can't access content when you paste into an unmanaged app.](../media/5e82b154-cf2f-43c8-ae80-b45d8ad80e56.png)
   
     하지만 Word 2016에는 동일한 콘텐츠를 붙여넣을 수 있습니다.
     
@@ -68,11 +70,11 @@ ms.locfileid: "38721863"
     
 4. **회사 또는 학교 액세스** 페이지에서 **회사 또는 학교 계정**을 선택한 다음 **정보**를 선택합니다.
     
-    ![회사 또는 학교 계정 대화 상자에서 정보를 클릭 하거나 탭 합니다.](media/63bd8b32-cb32-4afa-8ce0-6070ac403abc.png)
+    ![회사 또는 학교 계정 대화 상자에서 정보를 클릭 하거나 탭 합니다.](../media/63bd8b32-cb32-4afa-8ce0-6070ac403abc.png)
   
 5. **액세스 회사 또는 학교** 페이지에서 다음 그림에 표시 된 것과 같은 **관리 서버 주소** 를 포함 하는 **연결 정보** 를 볼 수 있으며,에는 *wip* 및 *mam* 이라는 단어가 포함 됩니다. 
     
-    ![Managed by page shows connection info URL that includes the words mam and wpi.](media/abd4eaf4-44fa-4538-a3e8-1e0d331dfe1e.png)
+    ![Managed by page shows connection info URL that includes the words mam and wpi.](../media/abd4eaf4-44fa-4538-a3e8-1e0d331dfe1e.png)
   
  **관리 되지 않는 앱에 회사 데이터를 붙여넣을 수 없는지 확인**
   
@@ -84,7 +86,7 @@ ms.locfileid: "38721863"
     
     앱에서 콘텐츠에 액세스할 수 없다는 오류가 표시 됩니다.
     
-    ![A dialog that states app can't access content when you paste into an unmanaged app.](media/5e82b154-cf2f-43c8-ae80-b45d8ad80e56.png)
+    ![A dialog that states app can't access content when you paste into an unmanaged app.](../media/5e82b154-cf2f-43c8-ae80-b45d8ad80e56.png)
   
     하지만 Word 2016에는 동일한 콘텐츠를 붙여넣을 수 있습니다.
     

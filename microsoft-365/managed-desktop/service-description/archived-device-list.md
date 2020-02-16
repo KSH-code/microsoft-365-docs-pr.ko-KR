@@ -8,12 +8,12 @@ f1.keywords:
 - NOCSH
 ms.author: jaimeo
 ms.localizationpriority: normal
-ms.openlocfilehash: f1389fd64efce16e81e02885127e65c8d1922c5b
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 653b986de8d580a25a1032b77f34db8924d3ea0d
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602815"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42085787"
 ---
 # <a name="microsoft-managed-desktop-archived-devices"></a>Microsoft Managed Desktop 보관 장치
 
@@ -35,7 +35,9 @@ Microsoft Managed Desktop에 등록 하려면 장치는 다음 모델 중 하나
 
 | 모델  | 최소 사양  | 추가 요구 사항   | 퇴직 날짜 |
 |---------|---------|---------|---------|
-| HP EliteBook 830/840/850 G5| 128 GB/Intel i5/8gb RAM | 5VS01AV, IR 카메라 또는 지문 센서가 필요한 SKU  | **2 월 15 일 2023** |
+|HP EliteBook 830/840/850 G5| 128 GB/Intel i5/8gb RAM | 5VS01AV, IR 카메라 또는 지문 센서가 필요한 SKU  | **2 월 15 일 2023** |
+|HP 정예 x2 1013 G3| 256 GB/Intel i5/8gb RAM | 5VS03AV를 사용한 SKU, IR 카메라 필요 |**5 월 14 일 2023** |
+|HP EliteBook x360 1030 G3| 256 GB/Intel i5/8gb RAM | 5VS01AV를 사용한 SKU, IR 카메라 필요 |**5 월 14 일 2023** |
 |Surface Book 2| 256 GB/Intel i5/8gb RAM | 없음 | **2022 년 11 월 16 일** |
 |Surface 랩탑| 256 GB/Intel i5/8gb RAM | 없음 | **5 월 20 일, 2022** |
 |Surface Pro| 256 GB/Intel i5/8gb RAM | 없음 | **6 월 15 일 2022** |

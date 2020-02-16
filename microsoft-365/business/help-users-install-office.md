@@ -25,16 +25,16 @@ search.appverid:
 - MET150
 ms.assetid: cbc6bfe5-565a-4fb8-95f0-b06e7b74ac46
 description: 사용자가 Office 앱을 설치 하도록 지원 합니다.
-ms.openlocfilehash: 86a32f5f7a9fbd78a56fc934c4668970f8cdc719
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 7497be6b0796fdd28156d8c9a6018b05e3dcfe75
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41593919"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42065720"
 ---
 # <a name="help-your-users-install-office-on-windows-10-devices"></a>사용자가 Windows 10 장치에 Office를 설치 하도록 지원
 
-[![관리 센터가 변경되고 있음을 알리는 레이블이며 aka.ms/aboutM365preview에서 자세한 내용을 확인할 수 있습니다.](media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
+[![관리 센터가 변경되고 있음을 알리는 레이블이며 aka.ms/aboutM365preview에서 자세한 내용을 확인할 수 있습니다.](../media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
 
 Microsoft 365 Business 관리 센터에서 Windows 10 Pc에 Office를 빠르고 쉽게 설치할 수 있습니다.
   
@@ -59,7 +59,7 @@ Office 앱을 설치 하는 방법에 대 한 간단한 비디오를 시청 하�
 4. **전자 메일 사용자에 게 Office 다운로드 패널 링크** 를 선택 하 고, 전자 메일을 받을 사용자를 선택한 다음, **선택한 사용자를 전자 메일로**전송 합니다.
 
     
-      :::image type="content" source="media/sendemailtousers.png" alt-text="Office 다운로드 링크를 사용 하 여 전자 메일을 보내려면 사용자를 선택 합니다.":::
+      :::image type="content" source="../media/sendemailtousers.png" alt-text="Office 다운로드 링크를 사용 하 여 전자 메일을 보내려면 사용자를 선택 합니다.":::
 
 ## <a name="see-also"></a>참고 항목
 

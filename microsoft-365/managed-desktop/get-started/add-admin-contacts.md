@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 9233118a2112aae33a5b784b6495709cbd3345f5
-ms.sourcegitcommit: ef658406da9d081e5e7a5f3aac8290c2f03f7aff
+ms.openlocfilehash: 5a980c1e15a6cbc098647139caf48f813b36b040
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/10/2020
-ms.locfileid: "41004923"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42085908"
 ---
 # <a name="add-and-verify-admin-contacts-in-the-admin-portal"></a>관리 포털에서 관리자 연락처 추가 및 확인
 
@@ -52,15 +52,15 @@ IT 지원 센터 | 지원 담당자가 Microsoft Managed Desktop 지원 영역 �
 
 2.  **지원**에서 **관리자 연락처**를 선택합니다. 
 
-    ![지원 메뉴, 상단 근처에서 선택된 관리자 연락처](images/admincontacts.png)
+    ![지원 메뉴, 상단 근처에서 선택된 관리자 연락처](../../media/admincontacts.png)
 
 3. **추가**를 선택하세요.
 
-    ![내보내기 및 새로 고침 왼쪽에 관리 포털, 추가 단추](images/adminadd.png)
+    ![내보내기 및 새로 고침 왼쪽에 관리 포털, 추가 단추](../../media/adminadd.png)
 
 4.  **포커스 영역**을 선택하고 연락처에 대한 정보를 입력합니다. 
 
-    ![기타, 앱 및 보안과 같은 포커스 영역 목록](images/areaoffocus.png)
+    ![기타, 앱 및 보안과 같은 포커스 영역 목록](../../media/areaoffocus.png)
 
 5. 각 포커스가 영역에 대해 반복합니다. 
 

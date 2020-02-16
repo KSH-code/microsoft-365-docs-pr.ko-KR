@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: Microsoft 365 for enterprise의 구성 요소, 계획 및 배포 경로에 대해 소개 합니다.
-ms.openlocfilehash: b66289ab66770d75743ff5cee88eb2a47efe11b9
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 035c7bc2086b4f70dacc31c3489a4a8adc8fb3dd
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41596855"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42066899"
 ---
 # <a name="microsoft-365-for-enterprise-overview"></a>엔터프라이즈에 대 한 Microsoft 365 개요
 
@@ -59,7 +59,7 @@ Microsoft 365 E3이 있는 경우 다음 [제품](https://www.microsoft.com/micr
 
 ## <a name="get-the-big-picture"></a>큰 그림 가져오기
 
-[엔터프라이즈 포스터에 대 한 Microsoft 365](media/m365-poster/Microsoft365Enterprise.pdf) 는 다음을 볼 수 있는 중앙 위치입니다.
+[엔터프라이즈 포스터에 대 한 Microsoft 365](../media/m365-poster/Microsoft365Enterprise.pdf) 는 다음을 볼 수 있는 중앙 위치입니다.
 
 - 엔터프라이즈에 대 한 Microsoft 365의 이점과 앱 및 서비스가 가치 핵심 요소로에 매핑되는 방식
 - 엔터프라이즈 요금제 용 Microsoft 365 및 포함 된 구성 요소 
@@ -67,16 +67,16 @@ Microsoft 365 E3이 있는 경우 다음 [제품](https://www.microsoft.com/micr
 - 일반적인 조직 부서에 대 한 [Microsoft 365 생산성 라이브러리](https://www.microsoft.com/microsoft-365/success/) 및 대표적인 시나리오
 - Microsoft 365 for 엔터프라이즈 [배포 가이드](deploy-microsoft-365-enterprise.md) 를 강조 하는 채택 로드맵
 
-[![엔터프라이즈용 Microsoft 365 포스터 이미지](./media/m365-poster/m365e-poster.png)](media/m365-poster/Microsoft365Enterprise.pdf)
+[![엔터프라이즈용 Microsoft 365 포스터 이미지](../media/m365-poster/m365e-poster.png)](../media/m365-poster/Microsoft365Enterprise.pdf)
 
 포스터 사본을 다운로드 하려면 [여기](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/m365-poster/Microsoft365Enterprise.pdf)를 클릭하세요.
 
 
 ## <a name="transition-your-entire-organization"></a>전체 조직 전환
 
-전체 조직을 Microsoft 365의 기업에 대 한 제품 및 서비스로 이동 하는 방법을 보다 자세히 설명 하려면 [전환 포스터](media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf)를 다운로드 하세요.
+전체 조직을 Microsoft 365의 기업에 대 한 제품 및 서비스로 이동 하는 방법을 보다 자세히 설명 하려면 [전환 포스터](../media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf)를 다운로드 하세요.
 
-[![Microsoft 365로의 전환 포스터 이미지](./media/deploy-microsoft-365-enterprise/transition-org-to-m365.png)](media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf)
+[![Microsoft 365로의 전환 포스터 이미지](../media/deploy-microsoft-365-enterprise/transition-org-to-m365.png)](../media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf)
 
 이 두 페이지 포스터는 신속하게 기존 인프라를 목록화하고 엔터프라이즈용 Microsoft 365에서 해당 제품이나 서비스로 전환하는 방법에 대한 지침을 제공합니다. Windows와 Office 제품, 디바이스 관리, ID, 정보 및 위협 방지와 같은 기타 인프라 및 보안 요소가 포함됩니다.
 
@@ -94,9 +94,9 @@ Microsoft 365 E3이 있는 경우 다음 [제품](https://www.microsoft.com/micr
 - [Exchange Server 2010](https://docs.microsoft.com/office365/enterprise/exchange-2010-end-of-support)
 - [SharePoint Server 2010](https://docs.microsoft.com/office365/enterprise/upgrade-from-sharepoint-2010)
 
-이러한 제품에 대한 업그레이드, 클라우드로 이동 옵션을 알기 쉽게 요약한 내용을 보려면 [지원 종료 포스터](media/migration-microsoft-365-enterprise-workload/Office2010Windows7EndOfSupport.pdf)를 참조하세요.
+이러한 제품에 대한 업그레이드, 클라우드로 이동 옵션을 알기 쉽게 요약한 내용을 보려면 [지원 종료 포스터](../media/migration-microsoft-365-enterprise-workload/Office2010Windows7EndOfSupport.pdf)를 참조하세요.
 
-[![Office 2010 클라이언트 및 서버와 Windows 7에 대한 지원 종료 포스터 이미지](./media/migration-microsoft-365-enterprise-workload/office2010-windows7-end-of-support.png)](media/migration-microsoft-365-enterprise-workload/Office2010Windows7EndOfSupport.pdf)
+[![Office 2010 클라이언트 및 서버와 Windows 7에 대한 지원 종료 포스터 이미지](../media/migration-microsoft-365-enterprise-workload/office2010-windows7-end-of-support.png)](../media/migration-microsoft-365-enterprise-workload/Office2010Windows7EndOfSupport.pdf)
 
 이 한 페이지 포스터는 Windows 7 및 Office 2010 클라이언트 및 서버 제품이 지원 종료에 도달 하지 못하도록 하는 데 사용할 수 있는 다양 한 경로를 이해 하는 데 도움이 되는 빠른 방법 이며, 엔터프라이즈에 대 한 Microsoft 365의 기본 설정 경로 및 지원을 통해 강조 표시 됩니다.
 
@@ -142,7 +142,7 @@ Microsoft 365 E3이 있는 경우 다음 [제품](https://www.microsoft.com/micr
 
 |||
 |:-------|:-----|
-![Microsoft 365 기본 교육](./media/m365-poster/m365-fundamentals.svg)| 직접 훈련 하 고 Microsoft 365 인증을 받아야 합니다. <BR> [Microsoft 365 기본](https://docs.microsoft.com/learn/paths/m365-fundamentals/)사항을 사용 하 여 시작 합니다.
+![Microsoft 365 기본 교육](../media/m365-poster/m365-fundamentals.svg)| 직접 훈련 하 고 Microsoft 365 인증을 받아야 합니다. <BR> [Microsoft 365 기본](https://docs.microsoft.com/learn/paths/m365-fundamentals/)사항을 사용 하 여 시작 합니다.
 |||
 
 

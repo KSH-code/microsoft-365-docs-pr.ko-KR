@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
 description: Microsoft 파트너 센터에서 Microsoft 365 Business를 구입 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 18af5b0aee378784199e91c8254b50fd1104172b
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: ba6aa806e3e628e8c3478abb57c4529e4f5692bf
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41593954"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42065825"
 ---
 # <a name="get-microsoft-365-business"></a>Microsoft 365 Business 받기
 
@@ -46,13 +46,13 @@ Microsoft [Store](https://www.microsoft.com/en-us/store/locations/find-a-store?i
     
 2. Microsoft 365 Business를 받기 전에 파트너 대시보드에서 **고객**을 선택한 다음 고객을 선택 하거나 새 고객을 추가 합니다.
     
-    ![Microsoft 파트너 센터에서 고객을 추가 합니다.](media/ec807d07-bbd2-411f-8fe1-c644cf9a3882.png)
+    ![Microsoft 파트너 센터에서 고객을 추가 합니다.](../media/ec807d07-bbd2-411f-8fe1-c644cf9a3882.png)
   
 3. 고객의 **구독** 페이지에서 **구독 추가**를 선택 하 고 카탈로그 아래의 Small business 옵션을 선택한 다음 **Microsoft 365 business**를 선택 합니다.
     
     필요한 라이선스 수(최대 300개)를 선택합니다. 사용자가 300 명 이상인 경우 [Microsoft 365 Enterprise](https://go.microsoft.com/fwlink/p/?linkid=862316) 를 참조 하세요. 
     
-    ![새 구독 페이지에서 small business를 선택 합니다.](media/52d99e89-2175-4974-84bb-dd626048541b.png)
+    ![새 구독 페이지에서 small business를 선택 합니다.](../media/52d99e89-2175-4974-84bb-dd626048541b.png)
   
     비즈니스 이름을 포함 하 여 새 고객을 추가 하기 위한 나머지 단계를 완료 합니다.
     

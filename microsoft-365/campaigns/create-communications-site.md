@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 캠페인에 대 한 통신 사이트를 만듭니다.
-ms.openlocfilehash: f0d79bcaa49d5e62dff5618eeaf94347d5dd6313
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 5c6590ae8e8fbe0dd1cc024c53f3a2a109aa918c
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41594923"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42056383"
 ---
 # <a name="create-a-communications-site-for-your-campaign"></a>캠페인에 대 한 통신 사이트 만들기
 
@@ -44,12 +44,12 @@ ms.locfileid: "41594923"
 4. 모든 사용자가 향후 작업을 볼 수 있도록 **이벤트 웹 파트** 에 캠페인 이벤트를 추가 합니다.
 5. 사용자가 **이미지 갤러리 웹 파트**에 사용 하거나 공유할 수 있는 사진을 추가 합니다.
 
-![캠페인에 필요한 공통 요소에 대 한 공간이 있는 SharePoint Communications page의 다이어그램](media/m365-democracy-comms-site.png)
+![캠페인에 필요한 공통 요소에 대 한 공간이 있는 SharePoint Communications page의 다이어그램](../media/m365-democracy-comms-site.png)
 
 ## <a name="infographic-create-a-communications-site-infographic"></a>Infographic: Communications Site Infographic 만들기 
 다음 PowerPoint 및 PDF 링크는 tabloid 형식 (장부, 11 x 17, A3이 라고도 함)으로 다운로드 하 고 인쇄할 수 있습니다.
 
-[![Communications site infographic 이미지](media/M365-Campaigns-CreateCommunicationSite-358-201.png)](downloads/M365CampaignsCreateCommunicationSite.pdf)
+[![Communications site infographic 이미지](../media/M365-Campaigns-CreateCommunicationSite-358-201.png)](downloads/M365CampaignsCreateCommunicationSite.pdf)
 
 [PDF](downloads/M365CampaignsCreateCommunicationSite.pdf) | [PowerPoint](https://github.com/MicrosoftDocs/microsoft-365-docs-pr/raw/live/m365-democracy/microsoft-365/campaigns/downloads/M365CampaignsCreateCommunicationSite.pptx)
 

@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: d1ee28bad2728fb3e6c12694625b2c29a65425a2
-ms.sourcegitcommit: 3dca80f268006658a0b721aa4f6df1224c7964dc
+ms.openlocfilehash: fedd3a98ef176855c4831bbd055522c073c22d7b
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/22/2020
-ms.locfileid: "41260106"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42085695"
 ---
 # <a name="work-with-insights"></a>인사이트를 활용한 작업
 
@@ -26,7 +26,7 @@ Microsoft Managed Desktop은 테 넌 트의 관리자가 사용 하 여 다양 �
 
 Microsoft 365 관리 센터에서 이러한 보기에 액세스 하려면 **Reports (보고서** ) 영역에서 **세부 정보 보기** 를 선택 합니다.
 
-![장치 보고서 카드와 "세부 정보 보기" 링크를 포함 하 여 오른쪽 위에 보고서 영역이 있는 관리 센터입니다.](images/insights_overview.png)
+![장치 보고서 카드와 "세부 정보 보기" 링크를 포함 하 여 오른쪽 위에 보고서 영역이 있는 관리 센터입니다.](../../media/insights_overview.png)
 
 
 

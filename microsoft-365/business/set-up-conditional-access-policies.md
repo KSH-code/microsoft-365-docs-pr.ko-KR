@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Microsoft 365 캠페인에 대 한 조건부 액세스 정책을 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: 335fbd7e771b1595e1846529daed76e5ddd3a8f5
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 1ef90bd77da43ded624d85cef9c7a33beec74345
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41593388"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42064616"
 ---
 # <a name="set-up-conditional-access-policies"></a>조건부 액세스 정책 설정
 
@@ -52,7 +52,7 @@ ms.locfileid: "41593388"
 1. [Azure 포털로](https://portal.azure.com)이동한 다음 **azure Active Directory** \> **조건부 액세스**로 이동 합니다.
     
     기본 정책은 페이지에 나열 됩니다. <br/> <br/>
-    ![조건부 액세스에 대 한 기준 정책을 나열 하는 페이지입니다.](media/baslinepolicies.png)
+    ![조건부 액세스에 대 한 기준 정책을 나열 하는 페이지입니다.](../media/baslinepolicies.png)
 1. 각 정책에 대해 다음과 같은 구체적인 지침을 참조 하세요.
 
   - [관리자를 위해 MFA 필요](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-baseline-protect-administrators)

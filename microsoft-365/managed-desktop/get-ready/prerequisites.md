@@ -1,17 +1,17 @@
 ---
 title: Microsoft Managed Desktop의 필수 구성 요소
 description: ''
-keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 설명서
+keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 6595b6496c8fb2e71542b6aae9f35e4f40c08aa4
-ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
+ms.openlocfilehash: b729712a188c105fdf8a38e208124c2ef4c27a33
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/14/2019
-ms.locfileid: "36981719"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42085877"
 ---
 # <a name="prerequisites-for-microsoft-managed-desktop"></a>Microsoft Managed Desktop의 필수 구성 요소
 
@@ -24,7 +24,7 @@ Microsoft FastTrack은 이러한 요구 사항을 충족 하 고 Microsoft Manag
 
 영역 | 필수 구성 요소 정보
 --- | ---
-라이선스 |Microsoft Managed Desktop에는 다음 Microsoft 365 라이선스 중 하나가 필요 합니다.<br>-Microsoft 365 E5<br>-Microsoft 365 E5 보안 추가 기능을 포함 하는 마이크로소프트 365 E3<br><br>Microsoft Managed Desktop의 특정 서비스 계획 및 해당 역할에 대 한 자세한 내용은이 항목의 [라이선스에 대 한 자세한](#more-about-licenses) 내용을 참조 하십시오.<br>사용 가능한 라이선스에 대 한 자세한 내용은 [Microsoft 365 license](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans)를 참조 하십시오.
+라이선싱 |Microsoft Managed Desktop에는 다음 Microsoft 365 라이선스 중 하나가 필요 합니다.<br>-Microsoft 365 E5<br>-Microsoft 365 E5 보안 추가 기능을 포함 하는 마이크로소프트 365 E3<br><br>Microsoft Managed Desktop의 특정 서비스 계획 및 해당 역할에 대 한 자세한 내용은이 항목의 [라이선스에 대 한 자세한](#more-about-licenses) 내용을 참조 하십시오.<br>사용 가능한 라이선스에 대 한 자세한 내용은 [Microsoft 365 license](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans)를 참조 하십시오.
 연결 |  모든 Microsoft 관리 데스크톱 장치에는 회사 네트워크의 수많은 Microsoft 서비스 끝점에 대 한 연결이 필요 합니다.<br><br>필요한 Ip 및 Url의 전체 목록은 [네트워크 구성을](../get-ready/network.md)참조 하십시오. 
 Azure Active Directory |    Azure Active Directory (Azure AD)는 모든 사용자 계정에 대 한 기관의 출처 이거나, 지원 되는 최신 버전의 Azure AD Connect를 사용 하 여 온-프레미스 Active Directory에서 사용자 계정을 동기화 해야 합니다.<br><br>Microsoft Managed Desktop users에 대해 [엔터프라이즈 상태 로밍을](https://docs.microsoft.com/azure/active-directory/devices/enterprise-state-roaming-overview) 사용 하도록 설정 해야 합니다.<br><br>자세한 내용은 [AZURE AD Connect](https://docs.microsoft.com/azure/active-directory/hybrid/whatis-azure-ad-connect)를 참조 하세요.<br><br>지원 되는 Azure AD Connect 버전에 대 한 자세한 내용은 [AZURE Ad connect: 버전 릴리스 기록을](https://docs.microsoft.com/azure/active-directory/hybrid/reference-connect-version-history)참조 하세요.
 인증 |    Azure AD가 사용자 계정에 대 한 기관의 원본이 아닌 경우 Azure AD Connect에서 다음 중 하나를 구성 해야 합니다.<br>-암호 해시 동기화<br>-통과 인증<br>-ADFS를 사용한 페더레이션<br><br>Azure AD Connect를 사용 하 여 인증 옵션을 설정 하는 경우 암호 쓰기 저장도 권장 됩니다. 자세한 내용은 [암호 쓰기 저장](https://docs.microsoft.com/azure/active-directory/authentication/howto-sspr-writeback)를 참조 하세요. <br><br>Azure AD를 사용한 인증 옵션에 대 한 자세한 내용은 [AZURE Ad Connect 사용자 로그인 옵션](https://docs.microsoft.com/azure/active-directory/connect/active-directory-aadconnect-user-signin)을 참조 하세요.

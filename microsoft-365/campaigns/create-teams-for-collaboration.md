@@ -1,5 +1,7 @@
 ---
 title: 공동 작업용 팀 만들기
+f1.keywords:
+- NOCSH
 ms.author: stevhord
 author: samanro
 manager: scotv
@@ -21,12 +23,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Microsoft 팀과 함께 팀을 위한 공동 작업 공간을 확보 합니다.
-ms.openlocfilehash: 9b501daa61998b0b2daedd84c333552b42e5338f
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: d057dbf0afca31b91e8792b3e0ca13d45b5e3455
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38031353"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42056356"
 ---
 # <a name="create-teams-for-collaboration-in-microsoft-teams"></a>Microsoft 팀에서 공동 작업을 위한 팀 만들기
 
@@ -42,7 +44,7 @@ Microsoft 팀은 모든 장치에서 직원 들의 구성을 유지 하 고 대�
 
 또한 특정 프로젝트에 대 한 팀을 만들고 포함 해야 하는 사람을 기준으로 적절 한 수준의 보호를 적용할 수 있습니다. 
 
-![보안 통신 및 공동 작업을 허용 하는 세 개의 개별 팀이 포함 된 Microsoft 팀 창 다이어그램](media/m365-democracy-teams-collab.png)
+![보안 통신 및 공동 작업을 허용 하는 세 개의 개별 팀이 포함 된 Microsoft 팀 창 다이어그램](../media/m365-democracy-teams-collab.png)
 
 팀을 만들 때는 다음 작업을 수행 합니다.
 

@@ -15,12 +15,12 @@ search.appverid:
 ms.collection: M365-security-compliance
 ms.custom: Ent_Architecture
 description: '요약: Contoso가 상위 기밀 프로젝트에 대해 높은 규제 대상 데이터에 대 한 팀을 사용 하 여 새로운 제품 및 서비스 제품군을 개발 하는 방법을 설명 합니다.'
-ms.openlocfilehash: 794fb5cfb6f3011724d37a6a3c42c39dacacc270
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 58d381751db3e94f35a0c1b8f7a14c191918e754
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597075"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42068032"
 ---
 # <a name="team-for-a-top-secret-project-of-the-contoso-corporation"></a>Contoso Corporation의 극비 프로젝트를 위한 팀
 
@@ -68,7 +68,7 @@ Contoso 관리자는 다음과 같은 **Project가 2** 배인 새 Office 365 민
 
 다음은 프로젝트를 2 배로 구성 하는 결과입니다.
 
-![프로젝트 2 배의 결과 구성](./media/contoso-team-for-highly-confidential-assets/final-config.png)
+![프로젝트 2 배의 결과 구성](../media/contoso-team-for-highly-confidential-assets/final-config.png)
  
 원본으로 사용 하는 Project 2의 문서 섹션에 있는 파일은 다음과 같은 방법으로 보호 됩니다.
 
@@ -79,7 +79,7 @@ Contoso 관리자는 다음과 같은 **Project가 2** 배인 새 Office 365 민
 
 다음은 원본으로 사용 되는 프로젝트에 저장 되는 파일의 예로, 높은 규제 대상 보존 레이블과 프로젝트 2X 민감도 레이블이 할당 되는 위치입니다.
 
-![원본으로 사용 하는 프로젝트 2 개 사이트에 저장 된 파일의 예](./media/contoso-team-for-highly-confidential-assets/final-config-example-file.png)
+![원본으로 사용 하는 프로젝트 2 개 사이트에 저장 된 파일의 예](../media/contoso-team-for-highly-confidential-assets/final-config-example-file.png)
  
 ## <a name="step-4-trained-project-2x-team-members"></a>4 단계: 팀 구성원 2 대 교육 프로젝트
 

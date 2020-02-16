@@ -6,19 +6,19 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 81b7a7c3db69d1c20f9a9cd8c6ea4a37b481ce59
-ms.sourcegitcommit: 9b390881fe661deb0568b4b86a5a9094f3c795f0
+ms.openlocfilehash: 056685cbd49e6fb247a92357b3483b479d705c90
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/23/2020
-ms.locfileid: "41269389"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42085735"
 ---
 # <a name="battery-insights"></a>배터리 정보
 이 보기는 Microsoft 관리 데스크톱 장치에 대 한 전원, 배터리 및 앱 사용 메트릭을 제공 합니다. 이러한 용도의 앱은 실행 중이 고 포커스가 있는 경우 "사용 중"으로 간주 됩니다.
 
 사용 현황 데이터를 보려면 **배터리** 탭을 선택 합니다.
 
-![배터리 창: 왼쪽 위에 있는 각 장치에 대해 예상 되는 배터리 수명 모델입니다. 오른쪽 위에 있는 설명서 링크입니다.](images/insights_battery.png)
+![배터리 창: 왼쪽 위에 있는 각 장치에 대해 예상 되는 배터리 수명 모델입니다. 오른쪽 위에 있는 설명서 링크입니다.](../../media/insights_battery.png)
 
 ## <a name="predicted-battery-life"></a>예측 한 배터리 수명
 

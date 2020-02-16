@@ -1,17 +1,17 @@
 ---
 title: 조건부 액세스 조정
 description: 특정 Microsoft 계정을 제외 하는 방법
-keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 설명서
+keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 1b91186837ad558965d675f82d013a7081c7c7ec
-ms.sourcegitcommit: 3d37043c0447359c952dc99026c219dd69f6fb8d
+ms.openlocfilehash: 1bc5d937616cba60c5af43fe22a7c4dccf89a55e
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "38012493"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42085810"
 ---
 # <a name="adjust-conditional-access"></a>조건부 액세스 조정
 
@@ -25,7 +25,7 @@ ms.locfileid: "38012493"
 
 조건부 액세스에 어려움이 있으면 관리자 [지원](../working-with-managed-desktop/admin-support.md)에 문의 하세요.
 
-## <a name="steps-to-get-started-with-microsoft-managed-desktop"></a>Microsoft Managed Desktop을 시작 하기 위한 단계
+## <a name="steps-to-get-started-with-microsoft-managed-desktop"></a>Microsoft Managed Desktop을 시작하기 위한 단계
 
 1. [관리 포털에서 관리자 연락처 추가 및 확인](add-admin-contacts.md)
 2. 조건부 액세스 조정 (이 항목)

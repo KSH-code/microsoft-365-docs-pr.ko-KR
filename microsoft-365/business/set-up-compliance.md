@@ -1,5 +1,7 @@
 ---
 title: Microsoft 365 Business에 대 한 위협 요소 보호 강화
+f1.keywords:
+- NOCSH
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -18,12 +20,12 @@ search.appverid:
 - BCS160
 - MET150
 description: 규정 준수 기능을 설정 하 여 데이터 손실 및 중요 한 데이터에 레이블을 지정 하지 않도록 합니다.
-ms.openlocfilehash: 6fae95e8c5e6d133e3163dbdfd3c09cfede11382
-ms.sourcegitcommit: 5d11f516e78ea4a74145e19ba2300f0792c8bac1
+ms.openlocfilehash: d569ff8d84faf82881035f0ed54e5d175605776f
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/19/2019
-ms.locfileid: "38715125"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42064711"
 ---
 # <a name="set-up-compliance-features"></a>준수 기능 설정
 
@@ -68,6 +70,6 @@ AIP 클라이언트를 수동으로 설치하려면
 1. [Microsoft 다운로드 센터](https://www.microsoft.com/download/details.aspx?id=53018)에서 **AzinfoProtection_UL** 를 다운로드 합니다.
  
 2. Word 문서를 보고 **홈** 탭에서 **민감도** 옵션을 사용할 수 있는지 확인 하 여 설치가 제대로 되었는지 확인할 수 있습니다.
-<br/>![Word 문서의 보호 탭 드롭다운](media/word-sensitivity.png)
+<br/>![Word 문서의 보호 탭 드롭다운](../media/word-sensitivity.png)
 
 자세한 내용은 [클라이언트 설치](https://docs.microsoft.com/azure/information-protection/infoprotect-tutorial-step3)를 참조 하세요.

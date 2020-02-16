@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 ms.assetid: 5b4ba843-24b8-4526-8e1f-f9b9eab89d06
 description: Microsoft 365 Business에서 Microsoft 365 E3으로 비즈니스를 이동 하는 방법을 알아봅니다.
-ms.openlocfilehash: 02adda0c2c59d2994b0c6197dd76c6cc893ad9f0
-ms.sourcegitcommit: a6686a68b068adec29b72f998ac9bc95992981df
+ms.openlocfilehash: cd6b9b14e9bc1ed03635be12873fb90592efe527
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "41627984"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42065326"
 ---
 # <a name="migrate-from-microsoft-365-business-to-microsoft-365-e3"></a>Microsoft 365 Business에서 Microsoft 365 E3로 마이그레이션
 
@@ -53,35 +53,35 @@ Microsoft 365 Business에는 최고의 비즈니스에 필요한 모든 것이 �
 | Office 앱 *  | [Office 365 Business](#office-365-business)   | Office 365 ProPlus | 
 | **클라우드 생산성 앱**       | | | 
 | Exchange Online 및 Outlook   | 사서함 당 50 GB 저장소 제한 및 무제한 Exchange 온라인 보관   | 사서함 당 100 GB 저장소 제한 및 무제한 Exchange 온라인 보관 | 
-| Teams | ![Microsoft 365 Business에 포함](./media/check-mark.png)   | ![Microsoft 365 E3에 포함](./media/check-mark.png) | 
+| Teams | ![Microsoft 365 Business에 포함](../media/check-mark.png)  | ![Microsoft 365 E3에 포함](../media/check-mark.png) | 
 | 비즈니스용 OneDrive | 사용자 당 1TB 저장소 제한   | 무제한 | 
-| Yammer, SharePoint Online, Planner, 스트림    | ![Microsoft 365 Business에 포함](./media/check-mark.png)   | ![Microsoft 365 E3에 포함](./media/check-mark.png) | 
-| Outlook 고객 관리자, MileIQ  | ![Microsoft 365 Business에 포함](./media/check-mark.png)   | | 
+| Yammer, SharePoint Online, Planner, 스트림    | ![Microsoft 365 Business에 포함](../media/check-mark.png)  | ![Microsoft 365 E3에 포함](../media/check-mark.png) | 
+| Outlook 고객 관리자, MileIQ  | ![Microsoft 365 Business에 포함](../media/check-mark.png)  | | 
 | **위협 방지**     | | | 
 | 공격 표면 축소 기능 | [이 목록 보기](#threat-protection) | Microsoft Edge에 대 한 하드웨어 기반 격리의 엔터프라이즈 관리 | 
-| Office 365 ATP (Advanced Threat Protection) 계획 1 | ![Microsoft 365 Business에 포함](./media/check-mark.png)  | 포함 되지 않지만 추가할 수 있음 | 
+| Office 365 ATP (Advanced Threat Protection) 계획 1 | ![Microsoft 365 Business에 포함](../media/check-mark.png) | 포함 되지 않지만 추가할 수 있음 | 
 | **Id 관리**       | | | 
-| 하이브리드 Azure Active Directory에 대 한 셀프 서비스 암호 재설정 (Azure AD) 계정, Azure MFA (다단계 인증), 조건부 액세스, 온-프레미스 id에 대 한 암호 쓰기 저장|    ![Microsoft 365 Business에 포함](./media/check-mark.png) | ![Microsoft 365 E3에 포함](./media/check-mark.png) | 
-| Cloud App Discovery, Azure AD Connect Health  |   | ![Microsoft 365 E3에 포함](./media/check-mark.png) | 
-| Azure AD Office 365 앱 SSO (Single Sign-on): 사용자 당 10 개의 앱 (예: Salesforce와 같은 SaaS 응용 프로그램) * | ![Microsoft 365 Business에 포함](./media/check-mark.png) | ![Microsoft 365 E3에 포함](./media/check-mark.png) | 
-| Azure AD Premium 1 SSO: 제한 없음 (셀프 서비스 앱 통합 서식 파일을 사용 하는 Azure AD 응용 프로그램 프록시 및 비 갤러리 앱을 통한 온-프레미스 앱)  |   | ![Microsoft 365 E3에 포함](./media/check-mark.png) | 
+| 하이브리드 Azure Active Directory에 대 한 셀프 서비스 암호 재설정 (Azure AD) 계정, Azure MFA (다단계 인증), 조건부 액세스, 온-프레미스 id에 대 한 암호 쓰기 저장|    ![Microsoft 365 Business에 포함](../media/check-mark.png)    | ![Microsoft 365 E3에 포함](../media/check-mark.png) | 
+| Cloud App Discovery, Azure AD Connect Health  |   | ![Microsoft 365 E3에 포함](../media/check-mark.png) | 
+| Azure AD Office 365 앱 SSO (Single Sign-on): 사용자 당 10 개의 앱 (예: Salesforce와 같은 SaaS 응용 프로그램) * | ![Microsoft 365 Business에 포함](../media/check-mark.png)    | ![Microsoft 365 E3에 포함](../media/check-mark.png) | 
+| Azure AD Premium 1 SSO: 제한 없음 (셀프 서비스 앱 통합 서식 파일을 사용 하는 Azure AD 응용 프로그램 프록시 및 비 갤러리 앱을 통한 온-프레미스 앱)  |   | ![Microsoft 365 E3에 포함](../media/check-mark.png) | 
 | **장치 및 앱 관리**     | | | 
-| Microsoft Intune, Windows Autopilot|  ![Microsoft 365 Business에 포함](./media/check-mark.png) | ![Microsoft 365 E3에 포함](./media/check-mark.png) | 
-|VDA (가상 데스크톱 액세스)   |  |    ![Microsoft 365 E3에 포함](./media/check-mark.png) | 
-|WVD (Windows 가상 데스크톱)  | ![Microsoft 365 Business에 포함](./media/check-mark.png) |     ![Microsoft 365 E3에 포함](./media/check-mark.png) | 
-|SCA (공유 컴퓨터 활성화)   | ![Microsoft 365 Business에 포함](./media/check-mark.png) |     ![Microsoft 365 E3에 포함](./media/check-mark.png) | 
-| Microsoft 데스크톱 최적화 패키지    | |     ![Microsoft 365 E3에 포함](./media/check-mark.png) | 
+| Microsoft Intune, Windows Autopilot|  ![Microsoft 365 Business에 포함](../media/check-mark.png)    | ![Microsoft 365 E3에 포함](../media/check-mark.png) | 
+|VDA (가상 데스크톱 액세스)   |  |    ![Microsoft 365 E3에 포함](../media/check-mark.png) | 
+|WVD (Windows 가상 데스크톱)  | ![Microsoft 365 Business에 포함](../media/check-mark.png) |    ![Microsoft 365 E3에 포함](../media/check-mark.png) | 
+|SCA (공유 컴퓨터 활성화)   | ![Microsoft 365 Business에 포함](../media/check-mark.png) |    ![Microsoft 365 E3에 포함](../media/check-mark.png) | 
+| Microsoft 데스크톱 최적화 패키지    | |     ![Microsoft 365 E3에 포함](../media/check-mark.png) | 
 | **정보 보호**        | | | 
-| Office 365 데이터 손실 방지, Azure Information Protection 계획 1  | ![Microsoft 365 Business에 포함](./media/check-mark.png)   | ![Microsoft 365 E3에 포함](./media/check-mark.png) | 
-| 끝점 DLP에 대 한 창 정보 보호    | ![Microsoft 365 Business에 포함](./media/check-mark.png)   | ![Microsoft 365 E3에 포함](./media/check-mark.png) | 
+| Office 365 데이터 손실 방지, Azure Information Protection 계획 1  | ![Microsoft 365 Business에 포함](../media/check-mark.png)  | ![Microsoft 365 E3에 포함](../media/check-mark.png) | 
+| 끝점 DLP에 대 한 창 정보 보호    | ![Microsoft 365 Business에 포함](../media/check-mark.png)  | ![Microsoft 365 E3에 포함](../media/check-mark.png) | 
 | **클라이언트 액세스 라이선스 (CAL 권한)**    | | |   
-| Enterprise CAL Suite (Exchange, SharePoint, Skype, Windows, Microsoft Endpoint Configuration Manager, Windows Rights Management)| |       ![Microsoft 365 E3에 포함](./media/check-mark.png) | 
+| Enterprise CAL Suite (Exchange, SharePoint, Skype, Windows, Microsoft Endpoint Configuration Manager, Windows Rights Management)| |       ![Microsoft 365 E3에 포함](../media/check-mark.png) | 
 | **규정 준수**        | | | 
-| 무제한 전자 메일 보관 | ![Microsoft 365 Business에 포함](./media/check-mark.png)   | ![Microsoft 365 E3에 포함](./media/check-mark.png) | 
-| 준수 점수/준수 관리자   | ![Microsoft 365 Business에 포함](./media/check-mark.png)   | ![Microsoft 365 E3에 포함](./media/check-mark.png) | 
-| eDiscovery    | ![Microsoft 365 Business에 포함](./media/check-mark.png)   | ![Microsoft 365 E3에 포함](./media/check-mark.png) | 
-| 원본 위치 유지 및 소송 보존 | ![Microsoft 365 Business에 포함](./media/check-mark.png)   | ![Microsoft 365 E3에 포함](./media/check-mark.png) | 
-| MRM (메시징 레코드 관리) 보존 태그 및 보존 정책  | ![Microsoft 365 Business에 포함](./media/check-mark.png)   | ![Microsoft 365 E3에 포함](./media/check-mark.png) | 
+| 무제한 전자 메일 보관 | ![Microsoft 365 Business에 포함](../media/check-mark.png)  | ![Microsoft 365 E3에 포함](../media/check-mark.png) | 
+| 준수 점수/준수 관리자   | ![Microsoft 365 Business에 포함](../media/check-mark.png)  | ![Microsoft 365 E3에 포함](../media/check-mark.png) | 
+| eDiscovery    | ![Microsoft 365 Business에 포함](../media/check-mark.png)  | ![Microsoft 365 E3에 포함](../media/check-mark.png) | 
+| 원본 위치 유지 및 소송 보존 | ![Microsoft 365 Business에 포함](../media/check-mark.png)  | ![Microsoft 365 E3에 포함](../media/check-mark.png) | 
+| MRM (메시징 레코드 관리) 보존 태그 및 보존 정책  | ![Microsoft 365 Business에 포함](../media/check-mark.png)  | ![Microsoft 365 E3에 포함](../media/check-mark.png) | 
 ||||
 
 \*SaaS 앱에 대 한 액세스 권한이 할당 된 사용자는 최대 10 개의 앱에 대 한 SSO 액세스를 받을 수 있습니다. 관리자는 SSO를 구성 하 고 다른 SaaS 앱에 대 한 사용자 액세스를 변경할 수 있지만 SSO 액세스는 사용자 당 10 개의 앱에 한 번에 하나씩만 허용 됩니다. 모든 Office 365 앱은 단일 앱으로 계산 됩니다.

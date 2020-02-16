@@ -1,5 +1,7 @@
 ---
 title: 단계별 가이드를 사용하여 AutoPilot 장치 및 프로필 추가
+f1.keywords:
+- NOCSH
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -21,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: be5b6d90-3344-4c5e-bf40-5733eb845beb
 description: Windows AutoPilot를 사용 하 여 비즈니스를 위한 새 Windows 10 장치를 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: 5f40dac57285b83da57d4506bac58e562475522c
-ms.sourcegitcommit: 8193b7da5b1a415835d02ca96883c351df7326ed
+ms.openlocfilehash: e5774b1e2079a5249e0f6e9e7142de19268253b5
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38323098"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42068546"
 ---
 # <a name="use-the-step-by-step-guide-to-add-autopilot-devices-and-profile"></a>단계별 가이드를 사용하여 AutoPilot 장치 및 프로필 추가
 
@@ -42,7 +44,7 @@ Windows AutoPilot를 사용 하 여 비즈니스에 대 한 **새** windows 10 �
     
 ## <a name="use-the-setup-guide-to-create-devices-and-profiles"></a>설정 가이드를 사용하여 장치와 프로필 만들기
 
-[![관리 센터가 변경되고 있음을 알리는 레이블이며 aka.ms/aboutM365preview에서 자세한 내용을 확인할 수 있습니다.](media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
+[![관리 센터가 변경되고 있음을 알리는 레이블이며 aka.ms/aboutM365preview에서 자세한 내용을 확인할 수 있습니다.](../media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
 
 아직 장치 그룹 또는 프로필을 만들지 않은 경우에는 단계별 가이드를 사용 하 여 시작 하는 것이 가장 좋습니다. 가이드를 사용 하지 않고 [장치를 추가](create-and-edit-autopilot-devices.md) 하 고 [프로필을 할당할](create-and-edit-autopilot-profiles.md) 수도 있습니다. 
   
@@ -50,11 +52,11 @@ Windows AutoPilot를 사용 하 여 비즈니스에 대 한 **새** windows 10 �
 
 2. 왼쪽 탐색 창에서 **장치** \> **AutoPilot**을 선택 합니다.
 
-    ![관리 센터에서 장치, AutoPilot을 차례로 선택 합니다.](media/AutoPilot.png)
+    ![관리 센터에서 장치, AutoPilot을 차례로 선택 합니다.](../media/AutoPilot.png)
   
 2. **AutoPilot** 페이지에서 **시작 가이드**를 클릭 하거나 탭 합니다.
     
-    ![Click Start guide for step-by-step instructions for Autopilot.](media/31662655-d1e6-437d-87ea-c0dec5da56f7.png)
+    ![Click Start guide for step-by-step instructions for Autopilot.](../media/31662655-d1e6-437d-87ea-c0dec5da56f7.png)
   
 3. **장치 목록이 포함 된 .csv 파일 업로드** 페이지에서 준비 된 위치로 이동 합니다. CSV 파일을 선택한 후 **다음**을 **엽니다** \> . 파일에는 다음과 같은 세 가지 헤더가 있어야 합니다.
     
