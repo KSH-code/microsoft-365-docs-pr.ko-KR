@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 6e5dd8d1d80d08ed808bc607fcc7aba8a390a9ca
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 6f6468117f73d6cf7079ce50e8ea951422bfc073
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600315"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42087441"
 ---
 # <a name="use-shared-queries-in-advanced-hunting"></a>고급 헌팅에서 공유 쿼리 사용
 
@@ -33,7 +33,7 @@ ms.locfileid: "41600315"
 
 [고급 헌팅](advanced-hunting-overview.md) 쿼리는 동일한 조직에 있는 사용자들 간에 공유될 수 있습니다. GitHub에서 공개적으로 공유되는 쿼리를 찾을 수도 있습니다. 이러한 쿼리를 사용하여 쿼리를 처음부터 작성하지 않고도 특정 위협 요소를 신속하게 파악할 수 있습니다.
 
-![공유 쿼리 이미지](../images/advanced-hunting-shared-queries.png)
+![공유 쿼리 이미지](../../media/advanced-hunting-shared-queries.png)
 
 ## <a name="save-modify-and-share-a-query"></a>쿼리 저장, 수정 및 공유
 새로운 쿼리나 기존 쿼리를 저장하여 조직의 다른 사용자와 공유하거나 해당 쿼리를 액세스하도록 할 수 있습니다. 
@@ -44,7 +44,7 @@ ms.locfileid: "41600315"
     
 3. 쿼리 이름을 입력합니다. 
 
-   ![쿼리 저장의 이미지](../images/advanced-hunting-save-query.png)
+   ![쿼리 저장의 이미지](../../media/advanced-hunting-save-query.png)
 
 4. 쿼리를 저장할 폴더를 선택합니다.
     - **공유 쿼리** — 조직에 있는 모든 사용자에게 공유합니다.
@@ -55,7 +55,7 @@ ms.locfileid: "41600315"
 ## <a name="delete-or-rename-a-query"></a>쿼리 삭제 또는 이름 바꾸기
 1. 이름을 바꾸거나 삭제하려는 쿼리를 마우스 오른쪽 단추로 클릭합니다.
 
-    ![쿼리 삭제의 이미지](../images/advanced_hunting_delete_rename.png)
+    ![쿼리 삭제의 이미지](../../media/advanced_hunting_delete_rename.png)
 
 2. **삭제** 선택하고 삭제를 확인합니다. 또는 **이름 바꾸기**를 선택하고 쿼리의 새 이름을 입력합니다.
 

@@ -16,12 +16,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: 4b76ba16b74eeea26799bb383cd00e497c86d770
-ms.sourcegitcommit: a53ec6ab7bf59983780ea7187cd5d56b8b1f4b33
+ms.openlocfilehash: 8d7adda0ded3a118676a67d0446a5744233468f3
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41855387"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42066864"
 ---
 # <a name="identity-and-device-access-configurations"></a>ID 및 장치 액세스 구성
 
@@ -59,25 +59,25 @@ Enterprise Mobility + Security E5 라이선스가 없는 조직의 경우에는 
 - **중요 보호**: 일부 고객에 게는 높은 수준으로 보호 해야 하는 데이터의 하위 집합이 있거나, 모든 데이터가 더 높은 수준으로 보호 되어야 할 수 있습니다. Office 365 환경의 모든 또는 특정 데이터 집합에 대해 증가된 보호를 적용할 수 있습니다. 중요 데이터에 액세스하는 ID와 장치를 유사한 보안 수준으로 보호하는 것이 좋습니다.  
 - **높은 규제**: 일부 조직에는 고도로 분류 되거나 consititutes 영업 비밀이 있거나 데이터를 규제 하는 적은 양의 데이터가 있을 수 있습니다. Microsoft는 ID와 장치에 대한 추가된 보호를 포함하여 조직이 이러한 요구 사항을 충족하는 데 도움이 되는 기능을 제공합니다.
 
-![보안 원뿔형-일부 고객이 특정 고객을 > > 모든 고객입니다. 특정 응용 프로그램에 대 한 광범위 한 응용 프로그램](../images/M365-idquality-threetiers.png)
+![보안 원뿔형-일부 고객이 특정 고객을 > > 모든 고객입니다. 특정 응용 프로그램에 대 한 광범위 한 응용 프로그램](../media/M365-idquality-threetiers.png)
 
 이 가이드에서는 이러한 각 보호 계층에 대 한 id 및 장치에 대 한 보호를 구현 하는 방법을 보여 줍니다. 이 가이드를 조직의 시작 지점으로 사용 하 고 조직의 특정 요구 사항에 맞게 정책을 조정 합니다.
 
 데이터, ID 및 장치에서 일관된 보호 수준을 사용하는 것이 중요합니다. 예를 들어이 지침을 구현 하는 경우에는 비슷한 수준에서 데이터를 보호 해야 합니다. 이러한 아키텍처 모델에는 비교할 수 있는 기능이 나와 있습니다.
 
 **Office 365용 ID 및 디바이스 보호**<br/>
-![포스터 축소판 그림 "Office 365에 대 한 Id 및 장치 보호"](../images/O365_Identity_device_protection_thumb.png)<br/>
+![포스터 축소판 그림 "Office 365에 대 한 Id 및 장치 보호"](../media/O365_Identity_device_protection_thumb.png)<br/>
 [PDF](https://go.microsoft.com/fwlink/p/?linkid=841656) | [Visio](https://go.microsoft.com/fwlink/p/?linkid=841657) | [더 많은 언어](https://www.microsoft.com/download/details.aspx?id=55032)
 
 **Office 365의 파일 보호 솔루션**<br/>
-![포스터 축소판 그림 "Office 365의 파일 보호 솔루션"](../images/24be68b5-d852-4fdb-94ad-94491a19edd8.png)<br/>
+![포스터 축소판 그림 "Office 365의 파일 보호 솔루션"](../media/24be68b5-d852-4fdb-94ad-94491a19edd8.png)<br/>
 [PDF](https://download.microsoft.com/download/7/8/9/789645A5-BD10-4541-BC33-F8D1EFF5E911/MSFT_cloud_architecture_O365%20file%20protection.pdf) | [Visio](https://download.microsoft.com/download/7/8/9/789645A5-BD10-4541-BC33-F8D1EFF5E911/MSFT_cloud_architecture_O365%20file%20protection.vsdx)
 
 ## <a name="security-and-productivity-trade-offs"></a>보안과 생산성의 절충
 
 보안 전략을 구현 하려면 보안과 생산성 간의 절충을 수행 해야 합니다. 각 의사 결정이 보안, 기능 및 사용 편이성의 균형에 미치는 영향을 평가 하는 것이 좋습니다.
 
-![보안 cia 균형 조정 보안, 기능 및 간편한 사용](media/policies-configurations/security-triad.png)
+![보안 cia 균형 조정 보안, 기능 및 간편한 사용](../media/policies-configurations/security-triad.png)
 
 제공 되는 권장 사항은 다음과 같은 원칙을 기반으로 합니다.
 

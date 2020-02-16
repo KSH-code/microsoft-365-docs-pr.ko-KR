@@ -12,18 +12,18 @@ ms.date: 08/30/2018
 f1.keywords:
 - NOCSH
 ms.author: greglin
-ms.openlocfilehash: e5e3e4fb48a0eb2af1978cbd5a687c67c72bea0c
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: ba5804d3065dcb01d85d457df7555a642d6f2839
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41596645"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42085597"
 ---
 # <a name="step-3-deploy-windows-10-enterprise-for-new-devices-with-windows-autopilot"></a>3 단계: Windows Autopilot를 사용 하 여 새 장치에 Windows 10 Enterprise 배포
 
 *이 문서는 Microsoft 365 Enterprise E3 및 E5 버전에 모두 적용 됩니다.*
 
-![3단계: Windows 10 Enterprise](./media/deploy-foundation-infrastructure/win10enterprise_icon-small.png)
+![3단계: Windows 10 Enterprise](../media/deploy-foundation-infrastructure/win10enterprise_icon-small.png)
 
 새 Windows 10 Pc가 있는 경우 Windows Autopilot을 사용 하 여 조직의 OOBE (기본 제공 경험)를 사용자 지정 하 고 앱 및 설정이 이미 구성 된 새 시스템을 배포할 수 있습니다. 배포할 이미지, 주입할 드라이버 및 관리할 인프라가 없습니다. 사용자는 IT 관리자에 게 문의 하지 않아도 배포 프로세스를 독립적으로 진행할 수 있습니다.
 
@@ -33,7 +33,7 @@ ms.locfileid: "41596645"
 
 Windows Autopilot 포스터는 세로 모드 (11x17)의 두 페이지로 되어 있습니다. 아래 이미지를 클릭 하면 브라우저에서 PDF를 볼 수 있습니다. 
 
-[![Autopilot 포스터를 사용하여 Windows 10 배포](./media/windows10-deploy-autopilot/windows10-autopilot-flowchart.png)](https://docs.microsoft.com/windows/deployment/media/Windows10AutopilotFlowchart.pdf)
+[![Autopilot 포스터를 사용하여 Windows 10 배포](../media/windows10-deploy-autopilot/windows10-autopilot-flowchart.png)](https://docs.microsoft.com/windows/deployment/media/Windows10AutopilotFlowchart.pdf)
 
 [PDF](https://github.com/MicrosoftDocs/windows-itpro-docs/raw/public/windows/deployment/media/Windows10AutopilotFlowchart.pdf)나 [Visio](https://github.com/MicrosoftDocs/windows-itpro-docs/raw/public/windows/deployment/media/Windows10Autopilotflowchart.vsdx) 형식으로도 포스터를 다운로드 할 수 있습니다.
 
@@ -114,4 +114,4 @@ Windows 10 크리에이터 업데이트 (또는 이상)를 실행 하는 새 장
 
 |||
 |:-------|:-----|
-|![4단계](./media/stepnumbers/Step4.png)| [장치 상태 및 준수 모니터링](windows10-enable-windows-analytics.md) |
+|![4단계](../media/stepnumbers/Step4.png)| [장치 상태 및 준수 모니터링](windows10-enable-windows-analytics.md) |

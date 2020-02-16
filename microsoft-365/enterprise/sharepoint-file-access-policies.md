@@ -16,12 +16,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: f0cd296157e1d4856c27d1dc547de045510e788b
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: d11b2682b9699e61a4c9ecfa47eb73de87de5e4f
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600765"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42084212"
 ---
 # <a name="policy-recommendations-for-securing-sharepoint-sites-and-files"></a>SharePoint 사이트 및 파일을 보호 하기 위한 정책 권장 사항
 
@@ -35,7 +35,7 @@ ms.locfileid: "41600765"
 
 다음 다이어그램에서는 SharePoint Online 및 비즈니스용 OneDrive에서 파일을 보호 하기 위한 권장 정책 집합을 보여 줍니다. SharePoint Online 및 비즈니스용 OneDrive에 대 한 보호를 추가 하기 위해 업데이트 하거나 새로 만들어야 하는 정책을 나타냅니다.
 
-![SharePoint Online 및 OneDrive에 대 한 정책 요약](../images/identity-access-ruleset-sharepoint.png)
+![SharePoint Online 및 OneDrive에 대 한 정책 요약](../media/identity-access-ruleset-sharepoint.png)
 
 공용 정책을 만들 때 SharePoint Online을 포함 한 경우에는 새 정책만 만들면 됩니다. 조건부 액세스 규칙을 구성 하는 경우 SharePoint Online에 비즈니스용 OneDrive가 포함 됩니다.
 
@@ -77,7 +77,7 @@ SharePoint 사이트 사용 권한은 일반적으로 사이트에 대 한 액�
 
 다음 그림에서는 SharePoint 장치 액세스 정책이 사이트에 대 한 액세스를 보호 하는 방법의 예를 보여 줍니다.
 
-![SharePoint 장치 액세스 정책에서 사이트를 보호 하는 방법](../images/SharePoint-rules-scenario.png)
+![SharePoint 장치 액세스 정책에서 사이트를 보호 하는 방법](../media/SharePoint-rules-scenario.png)
 
 이 그림의 내용
 

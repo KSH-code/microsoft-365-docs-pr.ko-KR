@@ -15,16 +15,16 @@ ms.technology: ''
 ms.assetid: fb4182e6-5e78-45d0-9641-d791c4519441
 audience: ITPro
 ms.custom: microsoft-intune
-ms.openlocfilehash: 6ada378d63e9a04bd820808ea8a1d93cd7690ffb
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: f3c4e36ea650dc0e354697c6fb766f5e32c0e3d2
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41596845"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42066770"
 ---
 # <a name="phase-5-mobile-device-management-for-microsoft-365-enterprise"></a>단계 5: Microsoft 365 엔터프라이즈에 대 한 모바일 장치 관리
 
-![5단계: 모바일 디바이스 관리](./media/deploy-foundation-infrastructure/mobiledevicemgmt_icon.png)
+![5단계: 모바일 디바이스 관리](../media/deploy-foundation-infrastructure/mobiledevicemgmt_icon.png)
 
 *이 기능은 Microsoft 365 Enterprise E3 및 E5 버전에 적용 됩니다.*
 
@@ -84,7 +84,7 @@ Intune을 사용 하는 경우에는 등록이 중요 한 단계입니다. [장�
 
 |||
 |:-------|:-----|
-|![Microsoft 클라우드의 테스트 랩 가이드](media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)| [테스트 랩 가이드: iOS 및 Android 장치 등록](enroll-ios-and-android-devices-in-your-microsoft-enterprise-365-dev-test-environ.md) |
+|![Microsoft 클라우드의 테스트 랩 가이드](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)| [테스트 랩 가이드: iOS 및 Android 장치 등록](enroll-ios-and-android-devices-in-your-microsoft-enterprise-365-dev-test-environ.md) |
 |||
 
 
@@ -102,7 +102,7 @@ Intune은 앱 추가, 다른 사용자 또는 그룹에 할당 및 기타 주요
 
 |||
 |:-------|:-----|
-|![Microsoft 클라우드의 테스트 랩 가이드](media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)| [테스트 랩 가이드: 장치 준수 정책](mam-policies-for-your-microsoft-365-enterprise-dev-test-environment.md) |
+|![Microsoft 클라우드의 테스트 랩 가이드](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)| [테스트 랩 가이드: 장치 준수 정책](mam-policies-for-your-microsoft-365-enterprise-dev-test-environment.md) |
 |||
 
 ## <a name="step-6-turn-on-compliance-and-conditional-access"></a>6 단계: 규정 준수 및 조건부 액세스 설정
@@ -159,7 +159,7 @@ Microsoft의 IT 전문가가 [EMS를 사용 하 여 장치를 관리](https://ww
 
 Contoso Corporation (가상의 대표적인 다국적 기업)이 Microsoft 365 클라우드 서비스와 함께 [모바일 장치 관리 인프라를 배포](contoso-mdm.md) 하는 방법을 알아봅니다.
 
-![Contoso Corporation](./media/contoso-overview/contoso-icon.png)
+![Contoso Corporation](../media/contoso-overview/contoso-icon.png)
 
 ## <a name="next-step"></a>다음 단계
 

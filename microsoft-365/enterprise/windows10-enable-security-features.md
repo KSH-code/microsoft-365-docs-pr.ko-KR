@@ -12,16 +12,16 @@ ms.date: 06/01/2018
 f1.keywords:
 - NOCSH
 ms.author: greglin
-ms.openlocfilehash: f854a4ec72c01f49f12774617188610d753e7b40
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 5407370933c2a99781adf4ca58d3fa905328ed04
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41596635"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42085577"
 ---
 # <a name="step-5-deploy-windows-10-enterprise-security-features"></a>5 단계: Windows 10 Enterprise 보안 기능 배포
 
-![3단계: Windows 10 Enterprise](./media/deploy-foundation-infrastructure/win10enterprise_icon-small.png)
+![3단계: Windows 10 Enterprise](../media/deploy-foundation-infrastructure/win10enterprise_icon-small.png)
 
 Windows 10에서는 보안 기능을 통해 엔터프라이즈 사용자를 보호 하 고, cyberthreats을 중지 하 고, 데이터 손실을 방지할 수 있습니다. 
 

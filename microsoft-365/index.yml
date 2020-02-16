@@ -13,12 +13,12 @@ metadata:
   ms.author: robmazz
   ms.date: 11/08/2019
   localization_priority: Priority
-  ms.openlocfilehash: f55a1404a76b55aab6ed6c0b46874fcc80dbbf87
-  ms.sourcegitcommit: d718a3a3ad293ca533ba355047a461b3ab6d4aa3
+  ms.openlocfilehash: 412cc9059aa3f533643ea37295a513ead1a05ed7
+  ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 02/10/2020
-  ms.locfileid: "41882883"
+  ms.lasthandoff: 02/15/2020
+  ms.locfileid: "42085367"
 highlightedContent:
   items:
   - title: 관리자 및 IT 전문가를 위한 교육
@@ -27,7 +27,7 @@ highlightedContent:
   - title: 최종 사용자를 위한 교육
     itemType: learn
     url: https://support.office.com/modernworkplace
-  - title: 소규모 기업을 위한 교육
+  - title: 클라우드에서 회사 설정
     itemType: learn
     url: https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816
   - title: IT 전문가를 위한 테스트 랩 가이드
@@ -44,6 +44,9 @@ additionalContent:
   - title: Microsoft 365에 대 한 도움말 보기
     summary: Microsoft 365에 대 한 자세한 내용은 카드를 선택 합니다.
     items:
+    - title: Microsoft 365 관리 센터
+      summary: Office 365 및 Microsoft 365 for business 및 enteprise를 설정 하 고 관리 합니다.
+      url: https://docs.microsoft.com/office365/admin/admin-home/
     - title: Microsoft 365 Business
       summary: 중소 중소기업을 위해 설계 되었습니다. 최신 버전의 Windows 및 Excel 및 Outlook과 같은 Office 앱을 사용 하 여 비즈니스를 실행 합니다. 모든 비즈니스 장치에 확장 되는 데이터 보호 및 보안을 활용 합니다.
       url: ./business/index.yml
@@ -53,7 +56,7 @@ additionalContent:
     - title: Microsoft 365 Education
       summary: 교육자가 디자인을 해제 하 고, 팀 작업을 홍보 하며, 교육을 위해 구축 된 단일 저렴 한 솔루션에서 간단 하 고 안전한 환경을 제공 하도록 설계 되었습니다.
       url: https://docs.microsoft.com/education/
-    - title: Microsoft 365 규정 준수
+    - title: Microsoft 365 준수
       summary: 조직에서 정보를 관리 하 고 위험 으로부터 보호 하며 법률 또는 규제 표준을 준수 하도록 지원 합니다.
       url: ./compliance/index.yml
     - title: Microsoft 365 보안

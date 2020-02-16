@@ -14,12 +14,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: 9d701091cd6c93c78674a3676a9880a8b9296a54
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 7be52ae276fa00b8bad6f03b27c88ebba0f02880
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600485"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42086607"
 ---
 # <a name="overview-of-the-microsoft-365-security-center"></a>Microsoft 365 보안 센터 개요
 
@@ -54,7 +54,7 @@ Microsoft 365 보안 센터는 다음을 포함합니다.
 * **정책** - 정책을 설정하여 장치를 관리하고 위협으로부터 보호하며 조직에서 다양한 활동에 대해 알림을 받을 수 있습니다.
 * **사용 권한** - 조직에서 Microsoft 365 보안 센터에 액세스할 수 있는 사용자를 관리하여 콘텐츠를 검토하고 작업을 수행할 수 있습니다. Azure AD 포털에서 Microsoft 365 사용 권한을 할당할 수 있습니다.
 
-## <a name="learn-more"></a>자세한 정보 
+## <a name="learn-more"></a>자세히 알아보기 
 
 보안 요구 사항에 대 한 모니터링, 검토 및 대응에 대 한 다음 항목을 살펴봅니다.
 - [인시던트](incident-queue.md) 를 통해 경고에 점 연결

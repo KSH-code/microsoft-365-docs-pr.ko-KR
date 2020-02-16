@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 7e96ca06a7b77a6bdc0cf4af55d519aebda833cd
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: f268c87da68c2badbfa885f0d9357a6a53d0a039
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600385"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42087502"
 ---
 # <a name="proactively-hunt-for-threats-with-advanced-hunting-in-microsoft-threat-protection"></a>Microsoft Threat Protection의 고급 헌팅을 통한 위협에 대한 사전 대응
 
@@ -61,14 +61,14 @@ Microsoft 365 보안 센터에서 고급 구하기는 전자 메일의 데이터
 - 쿼리에서 선택한 값을 제외합니다 (`!=`)
 - 쿼리에 값을 추가하는 고급 연산자를 사용합니다 (예: `contains`, `starts with` 및 `ends with`) 
 
-![Microsoft Defender ATP 고급 헌팅 결과 집합 이미지](../images/advanced-hunting-results-filter.png)
+![Microsoft Defender ATP 고급 헌팅 결과 집합 이미지](../../media/advanced-hunting-results-filter.png)
 
 ## <a name="filter-the-query-results"></a>쿼리 결과 필터링
 오른쪽에 표시되는 필터는 결과 집합에 대한 요약을 제공합니다. 각 열에는 해당 열에 대해 발견된 고유 값과 인스턴스 수를 나열하는 자체적인 섹션이 있습니다.
 
 포함하거나 제외하려는 값에서 "+" 또는 "-" 단추를 선택한 다음 **쿼리 실행**을 선택하여 쿼리를 구체화합니다.
 
-![고급 헌팅 필터 이미지](../images/advanced-hunting-filter.png)
+![고급 헌팅 필터 이미지](../../media/advanced-hunting-filter.png)
 
 필터를 적용하여 쿼리를 수정한 다음 쿼리를 실행하면 그에 따라 결과가 업데이트됩니다.
 

@@ -15,16 +15,16 @@ ms.technology: ''
 ms.assetid: fb4182e6-5e78-45d0-9641-d791c4519441
 audience: ITPro
 ms.custom: microsoft-intune
-ms.openlocfilehash: daf7bcf6525f30b7b52065e4f6bf2ff335f4ea4b
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 3e8013426983584783488e6f937f8ba5b02d7a1a
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600885"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42066792"
 ---
 # <a name="mobile-device-management-infrastructure-exit-criteria"></a>모바일 장치 관리 인프라 종료 조건
 
-![5단계: 모바일 디바이스 관리](./media/deploy-foundation-infrastructure/mobiledevicemgmt_icon-small.png)
+![5단계: 모바일 디바이스 관리](../media/deploy-foundation-infrastructure/mobiledevicemgmt_icon-small.png)
 
 *이는 Microsoft 365 Enterprise E3 및 E5 버전에 적용 됩니다.*
 
@@ -42,4 +42,4 @@ ms.locfileid: "41600885"
 
 |||
 |:-------|:-----|
-|![6단계: 정보 보호](./media/deploy-foundation-infrastructure/infoprotection_icon-small.png)| Microsoft 365 Enterprise의 종단 간 배포를 위한 단계를 수행 하는 경우 다음 단계는 [정보 보호](infoprotect-infrastructure.md)입니다. |
+|![6단계: 정보 보호](../media/deploy-foundation-infrastructure/infoprotection_icon-small.png)| Microsoft 365 Enterprise의 종단 간 배포를 위한 단계를 수행 하는 경우 다음 단계는 [정보 보호](infoprotect-infrastructure.md)입니다. |

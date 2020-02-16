@@ -15,12 +15,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: ca9b752f55ebe3fecec4f312bc89b45d99cf0d7d
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 8276dcf85f6c5fd61e01e67deee4fea35c1a15c4
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601055"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42067461"
 ---
 # <a name="policies-for-allowing-guest-and-external-b2b-access"></a>게스트 및 외부 B2B 액세스를 허용 하기 위한 정책
 이 문서에서는 B2B 계정 액세스 (게스트 및 외부 사용자)를 허용 하도록 권장 되는 일반 id 및 장치 액세스 정책을 조정 하는 방법에 대해 설명 합니다. 이 지침은 [일반 id 및 장치 액세스 정책을](identity-access-policies.md)기반으로 합니다.
@@ -33,7 +33,7 @@ B2B 사용자가 Azure AD 테 넌 트를 사용 하 여 인증할 수 있도록 
 
 다음 다이어그램에서는 일반 id 및 장치 액세스 정책을 보여주고, 게스트 및 외부 액세스를 보호 하기 위해 추가 하거나 업데이트할 정책을 설명 합니다 (연필 아이콘 포함). 
 
-![게스트 액세스 보호를 위한 정책 업데이트 요약](../images/identity-access-ruleset-guest.png)
+![게스트 액세스 보호를 위한 정책 업데이트 요약](../media/identity-access-ruleset-guest.png)
 
 다음 표에는 업데이트 하거나 새로 만드는 데 필요한 정책이 나와 있습니다. 공통 정책- [일반 id 및 장치 액세스 정책](identity-access-policies.md) 문서의 관련 구성 지침에 대 한 링크를 제공 합니다.
 
@@ -45,7 +45,7 @@ B2B 사용자가 Azure AD 테 넌 트를 사용 하 여 인증할 수 있도록 
 
 조건부 액세스 규칙에 게스트 및 외부 사용자를 포함 하거나 제외 하려면 포함 또는 제외 탭을 클릭 하 고 **모든 게스트 및 외부 사용자**를 확인 합니다.
 
-![게스트를 제외 하기 위한 컨트롤의 화면 캡처](../images/identity-access-exclude-guests-ui.png)
+![게스트를 제외 하기 위한 컨트롤의 화면 캡처](../media/identity-access-exclude-guests-ui.png)
 
 ## <a name="more-information"></a>추가 정보
 

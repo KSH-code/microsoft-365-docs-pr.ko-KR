@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: 031fc4164307d9fa8c78f02c775b230f7eff5383
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 7c165ec5869f8f53c28fb28414a04d73033a5772
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600185"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42087622"
 ---
 # <a name="microsoft-threat-protection"></a>Microsoft 위협 방지
 
@@ -48,13 +48,13 @@ Microsoft Threat Protection의 고유한 교차 제품 계층은 다음과 같�
 - 자동 수정을 통해 영향을 받는 자산에 대해 자동 복구를 트리거하여 손상에 대 한 대응 자동화
 - 보안 팀이 끝점 및 Office 데이터에서 상세 하 고 효과적으로 위협을 수행할 수 있도록 설정
 
-![인시던트 개요 페이지의 이미지](../images/overview-incident.png) <br>
+![인시던트 개요 페이지의 이미지](../../media/overview-incident.png) <br>
 제품 간 인시던트 (개요)
 
-![경고 큐 이미지](../images/incident-list.png)<br>
+![경고 큐 이미지](../../media/incident-list.png)<br>
 단일 인시던트 (알림 보기)로 상호 연결 된 제품군 제품의 모든 관련 알림
 
-![인시던트 큐의 이미지](../images/advanced-hunting.png)<br>
+![인시던트 큐의 이미지](../../media/advanced-hunting.png)<br>
 전자 메일 및 끝점 원시 데이터의 맨 위에 쿼리 기반 검색
 
 
@@ -75,7 +75,7 @@ Microsoft Threat Protection의 제품 간 기능은 다음과 같습니다.
 <br>
 
 
-## <a name="get-started"></a>시작
+## <a name="get-started"></a>시작하기
 Microsoft 365 E5 또는 이와 동등한 라이선스가 있는 고객은 Microsoft Threat Protection을 사용할 수 있습니다. 시작 하려면 [security.microsoft.com](https://security.microsoft.com)의 Microsoft 365 보안 센터에서 서비스를 사용 하도록 설정 합니다. 자세한 내용은 다음을 참조 하세요.
 - [라이선스 요구 사항](prerequisites.md#licensing-requirements)
 - [Microsoft 위협 방지 설정](mtp-enable.md)

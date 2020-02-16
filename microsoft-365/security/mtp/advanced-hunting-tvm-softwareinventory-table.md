@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 92c06eb01abd13df22ae33e72d9663084b05f7ef
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 3ed9cce1c85dc924762be4408c670f13f318ca02
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600295"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42087917"
 ---
 # <a name="devicetvmsoftwareinventoryvulnerabilities"></a>DeviceTvmSoftwareInventoryVulnerabilities
 
@@ -42,7 +42,7 @@ ms.locfileid: "41600295"
 | `OSPlatform` | 문자열 | 컴퓨터에서 실행 중인 운영 체제의 플랫폼 이는 Windows 10 및 Windows 7과 같이 동일한 제품군 내의 변형을 포함하여 특정 운영 체제를 나타냅니다. |
 | `OSVersion` | 문자열 | 컴퓨터에서 실행 중인 운영 체제 버전 |
 | `OSArchitecture` | 문자열 | 컴퓨터에서 실행 중인 운영 체제의 아키텍처 |
-| `SoftwareVendor` | 문자열 | CVSS 점수 및 위협 환경에 영향을 받은 동적 요인에 따라 보안 취약성에 할당된 심각도 수준 |
+| `SoftwareVendor` | 문자열 | 소프트웨어 공급 업체의 이름입니다. |
 | `SoftwareName` | 문자열 | 소프트웨어 제품의 이름 |
 | `SoftwareVersion` | 문자열 | 소프트웨어 제품의 버전 번호 |
 | `CveId` | 문자열 | CVE(Common Vulnerabilities and Exposures) 시스템에서 보안 취약점에 할당된 고유 식별자 |
