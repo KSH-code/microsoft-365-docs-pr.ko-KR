@@ -76,7 +76,7 @@ Microsoft 365 E3이 있는 경우 다음 [제품](https://www.microsoft.com/micr
 
 전체 조직을 Microsoft 365의 기업에 대 한 제품 및 서비스로 이동 하는 방법을 보다 자세히 설명 하려면 [전환 포스터](../media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf)를 다운로드 하세요.
 
-[![Microsoft 365로의 전환 포스터 이미지](../media/deploy-microsoft-365-enterprise/transition-org-to-m365.png)](../media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf)
+[![Microsoft 365로 전환 포스터 이미지](../media/deploy-microsoft-365-enterprise/transition-org-to-m365.png)](../media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf)
 
 이 두 페이지 포스터는 신속하게 기존 인프라를 목록화하고 엔터프라이즈용 Microsoft 365에서 해당 제품이나 서비스로 전환하는 방법에 대한 지침을 제공합니다. Windows와 Office 제품, 디바이스 관리, ID, 정보 및 위협 방지와 같은 기타 인프라 및 보안 요소가 포함됩니다.
 

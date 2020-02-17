@@ -140,7 +140,7 @@ Office 365의 일반적인 SPF TXT 레코드는 다음 구문을 포함 합니�
 v=spf1 [<ip4>|<ip6>:<IP address>] [include:<domain name>] <enforcement rule>
 ```
 
-예:
+예시는 다음과 같습니다:
 
 ```text
 v=spf1 ip4:192.168.0.1 ip4:192.168.0.2 include:spf.protection.outlook.com -all
@@ -191,7 +191,7 @@ v=spf1 ip4:192.168.0.1 include:spf.protection.outlook.com -all
 ### <a name="example-spf-txt-record-for-multiple-outbound-on-premises-mail-servers-and-office-365"></a>예: 여러 아웃 바운드 온-프레미스 메일 서버 및 Office 365에 대 한 SPF TXT 레코드
 <a name="ExampleSPFMultipleMailServerO365"> </a>
 
-아웃 바운드 메일 서버가 여러 개인 경우에는 각 메일 서버의 IP 주소를 SPF TXT 레코드에 포함 하 고 각 IP 주소를 공백으로 구분 하 고 "ip4:" 문을 입력 합니다. 예:
+아웃 바운드 메일 서버가 여러 개인 경우에는 각 메일 서버의 IP 주소를 SPF TXT 레코드에 포함 하 고 각 IP 주소를 공백으로 구분 하 고 "ip4:" 문을 입력 합니다. 예시는 다음과 같습니다:
 
 ```text
 v=spf1 ip4:192.168.0.1 ip4:192.168.0.2 ip4:192.168.0.3 include:spf.protection.outlook.com -all
