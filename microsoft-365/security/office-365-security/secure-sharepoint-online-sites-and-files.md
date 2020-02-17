@@ -21,12 +21,13 @@ ms.custom:
 - Ent_Architecture
 ms.assetid: 1d51bd87-17bf-457c-b698-61821de3afa0
 description: '요약: SharePoint Online 및 Office 365에서 파일을 보호하기 위한 구성 권장 사항입니다.'
-ms.openlocfilehash: 29bd8ade5f32a2ba7e810d587d731d5036a372b6
-ms.sourcegitcommit: 21be88a1b38b6554ffa1bc5b743c129fe8547704
+ROBOTS: NOINDEX, NOFOLLOW
+ms.openlocfilehash: 542cf1c899b0eee21b458cd8e9dd5fb8363cf1e9
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41830992"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42082303"
 ---
 # <a name="secure-sharepoint-online-sites-and-files"></a>SharePoint Online 사이트 및 파일 보호
 
@@ -50,7 +51,7 @@ ms.locfileid: "41830992"
 
 SharePoint Online 팀 사이트에 대한 권장 사항은 다양한 Microsoft 365 기능을 활용합니다. 다음 그림은 4가지 SharePoint Online 팀 사이트에 권장되는 구성을 보여줍니다.
 
-![SharePoint 사이트에 대한 권장 구성](../media/SharePoint-site-configurations.png)
+![SharePoint 사이트에 대한 권장 구성](../../media/SharePoint-site-configurations.png)
 
 그림에서 보여 주듯이 다음과 같이 설명됩니다.
 
@@ -140,7 +141,7 @@ Azure Active Directory에서 권장된 조건부 액세스 정책을 사용하�
 
 - 조직의 사용자가 웹용 Outlook, Outlook 2010 이상, 비즈니스용 OneDrive, SharePoint Online 및 Office 365 그룹에서 콘텐츠에 레이블을 수동으로 적용할 수 있습니다. 사용자는 종종 자신이 사용하고 있는 콘텐츠의 형식을 가장 잘 알고 있기 때문에 콘텐츠를 분류하여 적절한 DLP 정책을 적용할 수 있습니다.
 
-![SharePoint 사이트에 대한 권장 구성](../media/7fed0126-ab4a-4480-922c-681970642339.png)
+![SharePoint 사이트에 대한 권장 구성](../../media/7fed0126-ab4a-4480-922c-681970642339.png)
 
 그림에서 보여 주듯이 이 솔루션에는 다음과 같은 보존 레이블 만들기가 포함됩니다.
 

@@ -57,7 +57,7 @@ ms.locfileid: "42088334"
 
 다음으로, 모든 설정을 수집하고 대상 테넌트로 가져올 .xml 파일을 내보낼 수 있습니다. 일반적으로 다음 코드 샘플과 같이 각 설정에 대한 **Get** cmdlet의 출력을 **Export-Clixml** cmdlet에 파이프하여 .xml 파일에 설정을 저장할 수 있습니다.
 
-Exchange Online Protection PowerShell에서 쉽게 찾고 해당 디렉터리로 변경할 수 있는 위치에 Export 라는 디렉터리를 만듭니다. 예:
+Exchange Online Protection PowerShell에서 쉽게 찾고 해당 디렉터리로 변경할 수 있는 위치에 Export 라는 디렉터리를 만듭니다. 예시는 다음과 같습니다:
 
 ```PowerShell
 mkdir C:\EOP\Export

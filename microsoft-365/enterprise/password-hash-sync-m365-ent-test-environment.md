@@ -1,5 +1,7 @@
 ---
 title: Microsoft 365 테스트 환경을 위한 암호 해시 동기화
+f1.keywords:
+- NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -16,12 +18,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: ''
 description: '요약: Microsoft 365 테스트 환경을 위한 암호 해시 동기화 및 로그인을 구성하고 보여 줍니다.'
-ms.openlocfilehash: ef08fcf59602d7812875015971d00a34526576d6
-ms.sourcegitcommit: fb3815ee186b2b3ec790ee32a9d7b1628d623b0b
+ms.openlocfilehash: a0a498aea84bacb61de257150801328834724981
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/22/2019
-ms.locfileid: "39202459"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42066398"
 ---
 # <a name="password-hash-synchronization-for-your-microsoft-365-test-environment"></a>Microsoft 365 테스트 환경을 위한 암호 해시 동기화
 
@@ -29,7 +31,7 @@ ms.locfileid: "39202459"
 
 다수의 조직은 Azure AD Connect와 암호 해시 동기화를 사용하여 온-프레미스 AD DS(Active Directory Domain Services) 포리스트의 계정 집합을 Microsoft 365 또는 Office 365 구독의 Azure AD 테넌트의 계정 집합과 동기화합니다. 이 문서에서는 Microsoft 365 테스트 환경에 암호 해시 동기화를 추가하여 다음과 같은 구성을 수행하는 방법에 대해 설명합니다.
   
-![암호 해시 동기화 테스트 환경으로 시뮬레이트된 엔터프라이즈](media/password-hash-sync-m365-ent-test-environment/Phase3.png)
+![암호 해시 동기화 테스트 환경으로 시뮬레이트된 엔터프라이즈](../media/password-hash-sync-m365-ent-test-environment/Phase3.png)
   
 이 테스트 환경의 2가지 주요 설정 단계는 다음과 같습니다.
   
@@ -37,13 +39,13 @@ ms.locfileid: "39202459"
 2. APP1에 Azure AD Connect를 설치 및 구성합니다.
     
 > [!TIP]
-> [여기](media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf)를 클릭하여 Microsoft 365 Enterprise 테스트 랩 가이드 스택의 모든 문서에 대한 가상 맵을 확인할 수 있습니다.
+> [여기](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf)를 클릭하여 Microsoft 365 Enterprise 테스트 랩 가이드 스택의 모든 문서에 대한 가상 맵을 확인할 수 있습니다.
   
 ## <a name="phase-1-create-the-microsoft-365-simulated-enterprise-test-environment"></a>1단계: Microsoft 365 시뮬레이트된 엔터프라이즈 테스트 환경을 만들기
 
 [Microsoft 365의 시뮬레이이트된 엔터프라이즈 기반 구성](simulated-ent-base-configuration-microsoft-365-enterprise.md)의 지침을 따릅니다. 결과 구성은 다음과 같습니다.
   
-![시뮬레이트된 엔터프라이즈 기본 구성](media/password-hash-sync-m365-ent-test-environment/Phase1.png)
+![시뮬레이트된 엔터프라이즈 기본 구성](../media/password-hash-sync-m365-ent-test-environment/Phase1.png)
   
 이 구성은 다음으로 이루어집니다. 
   
@@ -60,7 +62,7 @@ ms.locfileid: "39202459"
 
 구성 결과는 다음과 같습니다.
   
-![테스트 랩 도메인 이름 등록](media/password-hash-sync-m365-ent-test-environment/Phase2.png)
+![테스트 랩 도메인 이름 등록](../media/password-hash-sync-m365-ent-test-environment/Phase2.png)
   
 이 구성은 다음으로 이루어집니다.
 
@@ -127,7 +129,7 @@ User1에 TESTLAB AD DS 도메인에 대한 도메인 관리자 권한이 있더�
 
 구성 결과는 다음과 같습니다.
 
-![암호 해시 동기화 테스트 환경으로 시뮬레이트된 엔터프라이즈](media/password-hash-sync-m365-ent-test-environment/Phase3.png)
+![암호 해시 동기화 테스트 환경으로 시뮬레이트된 엔터프라이즈](../media/password-hash-sync-m365-ent-test-environment/Phase3.png)
 
 이 구성은 다음으로 이루어집니다. 
   

@@ -1,5 +1,7 @@
 ---
 title: '1단계: 네트워킹 인프라 종료 조건'
+f1.keywords:
+- NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -13,16 +15,16 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 구성이 네트워킹 인프라에 대한 Microsoft 365 Enterprise 조건을 충족하는지 확인합니다.
-ms.openlocfilehash: f3d2861af90e9a6f8a9b0b64b307dac6b1b76eb1
-ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
+ms.openlocfilehash: 1ace68fd19c62e4dc389604c1b0c02ddc18b52dc
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39831949"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42066628"
 ---
 # <a name="phase-1-networking-infrastructure-exit-criteria"></a>1단계: 네트워킹 인프라 종료 조건
 
-![1 단계-네트워킹](./media/deploy-foundation-infrastructure/networking_icon-small.png)
+![1 단계-네트워킹](../media/deploy-foundation-infrastructure/networking_icon-small.png)
 
 네트워킹 인프라가 다음과 같은 필수 조건 및 선택 요소에 확실히 충족하는지 확인합니다.
 
@@ -38,7 +40,7 @@ ms.locfileid: "39831949"
 <a name="crit-networking-step2"></a>
 ## <a name="required-your-local-offices-have-local-internet-connections-and-name-resolution"></a>필수 사항: 지사에 로컬 인터넷 연결 및 이름 확인 구성
 
-해당 DNS 서버가 인터넷상의 위치를 식별하는 로컬 공용 IP 주소를 사용하도록 각 지사에 로컬 ISP를 통한 인터넷 액세스를 구성해야 합니다. 이는 Microsoft 365 클라우드 서비스에 액세스 하는 사용자에게 최상의 가능한 성능을 보장 합니다.
+해당 DNS 서버가 인터넷상의 위치를 식별하는 로컬 공용 IP 주소를 사용하도록 각 지사에 로컬 ISP를 통한 인터넷 액세스를 구성해야 합니다. 이렇게 하면 Microsoft 365 클라우드 서비스에 액세스하는 사용자에 대해 최상의 성능이 보장됩니다.
 
 각 지사에 로컬 ISP를 사용하지 않으면 네트워크 트래픽이 조직의 백본 또는 원격 프런트 엔드 서버에서 제공하는 데이터 요청을 통과해야 하기 때문에 성능이 저하될 수 있습니다.
 
@@ -83,4 +85,4 @@ Exchange Online, 비즈니스용 Skype Online, SharePoint Online 및 Project Onl
 
 |||
 |:-------|:-----|
-|![2단계-ID](./media/deploy-foundation-infrastructure/identity_icon-small.png)| Microsoft 365 Enterprise의 종단 간 배포 단계를 수행중인 경우 다음 단계는 [ID](identity-infrastructure.md)입니다. |
+|![2단계-ID](../media/deploy-foundation-infrastructure/identity_icon-small.png)| Microsoft 365 Enterprise의 종단 간 배포 단계를 수행중인 경우 다음 단계는 [ID](identity-infrastructure.md)입니다. |

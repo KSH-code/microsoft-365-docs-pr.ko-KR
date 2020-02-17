@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 데이터 분류 공개 미리 보기에 대한 릴리스 정보입니다.
-ms.openlocfilehash: fecf643d12cf544c16570c173b15bb1e0dc043f0
-ms.sourcegitcommit: 3d17c1d6b80672719b1878e2f321f0de39595226
+ms.openlocfilehash: 1beae92089833327cedf6090690530d9e5457a37
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41887343"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42076365"
 ---
 # <a name="data-classification-public-preview-release-notes-preview"></a>데이터 분류 공개 미리 보기 릴리스 정보(미리 보기)
 
@@ -40,7 +40,7 @@ Exchange 사서함을 드릴 다운하면 작은 도구 설명이 표시되는 �
 
 ## <a name="seeing-guids-instead-of-label-names"></a>레이블 이름 대신 GUID 보기
 
-개인 미리 보기 고객은 컨텐츠에 이미 스탬핑된 레이블을 삭제하면 콘텐츠 탐색기와 활동 탐색기에서 레이블 이름 대신 레이블 이름이 32비트 GUID로 해석되는 레이블이 있는 인스턴스를 보았습니다. 
+비공개 미리보기 고객은 콘텐츠를 마이그레이션하거나 컨텐츠가 이미 스탬핑된 레이블을 삭제할 경우, 레이블 이름 대신 컨텐츠 탐색기 및 활동 탐색기에서 32비트 GUID가 되는 인스턴스를 보았습니다. 
 
 ## <a name="rendering-of-encrypted-documents"></a>암호화된 문서 렌더링
 

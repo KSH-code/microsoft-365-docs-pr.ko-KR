@@ -1,5 +1,7 @@
 ---
 title: '4단계: Office 365 ProPlus'
+f1.keywords:
+- NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -13,16 +15,16 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Microsoft 365 Enterprise에 대한 Office 365 ProPlus 인프라를 배포하는 단계입니다.
-ms.openlocfilehash: f41990055a97a2853622529e7cc28ccf096eef69
-ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
+ms.openlocfilehash: 2b3ac311863249720a2dc1fba00ead9ebf6ac8e5
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39831899"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42066454"
 ---
 # <a name="phase-4-office-365-proplus"></a>4단계: Office 365 ProPlus
 
-![4단계: Office 365 ProPlus](./media/deploy-foundation-infrastructure/O365proplus_icon.png)
+![4단계: Office 365 ProPlus](../media/deploy-foundation-infrastructure/O365proplus_icon.png)
 
 *이 단계는 E3 및 E5 버전의 Microsoft 365 Enterprise 및 Microsoft 365 Education에 적용됩니다.*
 
@@ -63,7 +65,7 @@ Office 365 ProPlus를 배포하기 전에 [Office 365 ProPlus를 배포하기 �
 
 대부분의 조직에서는 다양한 사용자에 대해 이러한 옵션의 조합을 사용합니다. 예를 들어 조직에서는 Configuration Manager를 사용하여 대부분의 사용자에게 Office를 배포하지만 내부 네트워크에 자주 연결되지 않는 소규모 작업 그룹을 위해 자가 설치를 사용할 수 있습니다. 
 
-조직에서 Configuration Manager를 사용하는 경우 현재 분기로 업그레이드하고 현재 릴리스로 업데이트하는 것이 좋습니다. 자세한 내용은 [사용해야 하는 Configuration Manager 분기](https://docs.microsoft.com/sccm/core/understand/which-branch-should-i-use)를 참조하세요.
+조직에서 Configuration Manager를 사용하는 경우 현재 분기로 업그레이드하고 현재 릴리스로 업데이트하는 것이 좋습니다. 자세한 내용은 [사용해야 하는 Configuration Manager 분기](https://docs.microsoft.com/configmgr/core/understand/which-branch-should-i-use)를 참조하세요.
 
 ## <a name="how-microsoft-does-microsoft-365-enterprise"></a>Microsoft에서 Microsoft 365 Enterprise를 수행하는 방법
 
@@ -73,7 +75,7 @@ Microsoft의 전문가가 [Office 365 ProPlus의 업데이트를 배포하고 �
 
 가상의 대표적 다국적 기업인 Contoso Corporation가 [Office 365 ProPlus를 배포](contoso-o365pp.md)한 방식을 알아봅니다.
 
-![Contoso Corporation](./media/contoso-overview/contoso-icon.png)
+![Contoso Corporation](../media/contoso-overview/contoso-icon.png)
 
 ## <a name="next-step"></a>다음 단계
 

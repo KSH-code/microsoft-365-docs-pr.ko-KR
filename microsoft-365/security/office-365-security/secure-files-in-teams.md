@@ -1,5 +1,7 @@
 ---
 title: Microsoft Teams에서의 파일 보호
+f1.keywords:
+- NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -18,12 +20,12 @@ ms.custom:
 - Ent_Architecture
 ms.assetid: 1d51bd87-17bf-457c-b698-61821de3afa0
 description: '요약: Microsoft Teams에서의 파일을 보호하기 위한 구성 권장 사항입니다.'
-ms.openlocfilehash: 309ccfb4850f0c89f48e23c53088db5a2cda1437
-ms.sourcegitcommit: 3f8957ddd04b8710bb5f314a0902fdee50c7c9b7
+ms.openlocfilehash: 82c55affc8384c04e0595f82d21c7e3532b5cb0e
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "41572754"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42088134"
 ---
 # <a name="secure-files-in-microsoft-teams"></a>Microsoft Teams에서의 파일 보호
 
@@ -47,7 +49,7 @@ ms.locfileid: "41572754"
 
 보안 팀에 대한 권장 사항은 다양한 Microsoft 365 기능을 활용합니다. 다음의 그림은 권장되는 구성을 보여줍니다.
 
-![팀에 권장되는 구성](../media/secure-team-configurations.png)
+![팀에 권장되는 구성](../../media/secure-team-configurations.png)
 
 그림에서 보듯이 다음과 같이 설명할 수 있습니다.
 

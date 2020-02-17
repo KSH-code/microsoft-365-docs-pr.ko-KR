@@ -1,5 +1,7 @@
 ---
 title: 정치적 캠페인 개발/테스트 환경에 대해 그룹 및 사용자 구성
+f1.keywords:
+- NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -15,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 0e22bcf3-bad3-42a4-b44f-276e0cf4790f
 description: '요약: 정치적 캠페인 개발/테스트 환경의 사용자 및 그룹을 사용하여 Office 365 및 EMS(Enterprise Mobility + Security) 평가판 구독을 만듭니다.'
-ms.openlocfilehash: a5bce86ef7bce79d58628b78d95e02484051c389
-ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
+ms.openlocfilehash: a61cc21b67cafd213d47076698929d0aa2644d08
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "39971846"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42083487"
 ---
 # <a name="configure-groups-and-users-for-a-political-campaign-devtest-environment"></a>정치적 캠페인 개발/테스트 환경에 대해 그룹 및 사용자 구성
 
@@ -186,11 +188,11 @@ foreach ($element in $userNames){ New-AzureADUser -DisplayName $element -Passwor
 
 이 개발/테스트 환경에 대해 Office 365 및 EMS 평가판 구독을 사용하려면 이러한 값을 기록해둡니다.
 
-- 평가판 구독 조직 이름:  ![Underline](../media/Common-Images/TableLine.png)
+- 평가판 구독 조직 이름:  ![Underline](../../media/Common-Images/TableLine.png)
 
   예를 들어 평가판 구독 도메인 이름 contoso.onmicrosoft.com의 경우 조직 이름은 "contoso"입니다.
 
-- Office 365 전역 관리자 이름: ![Underline](../media/Common-Images/TableLine.png).onmicrosoft.com
+- Office 365 전역 관리자 이름: ![Underline](../../media/Common-Images/TableLine.png).onmicrosoft.com
 
   이 계정에 대한 암호와 다른 사용자 계정에 대한 일반적인 초기 암호를 안전한 위치에 기록해둡니다.
 

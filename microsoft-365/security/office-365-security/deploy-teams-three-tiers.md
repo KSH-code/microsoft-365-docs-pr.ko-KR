@@ -1,5 +1,7 @@
 ---
 title: 파일의 3단계 보호를 위한 Teams 배포
+f1.keywords:
+- NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -17,12 +19,12 @@ ms.custom:
 - Ent_Solutions
 ms.assetid: 1e8e3cfd-b878-4088-b941-9940363a5fae
 description: 파일에 대한 다양한 정보 보호 수준에 맞게 Microsoft Teams를 사용하여 팀을 만들고 구성합니다.
-ms.openlocfilehash: 3b90a1b084f7cd7e56d1d6448d74a7d2c2469a4d
-ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
+ms.openlocfilehash: 63a4b6763165f38e1de5331324e5a7b3573ea0f1
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "39971826"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42083349"
 ---
 # <a name="deploy-teams-for-three-tiers-of-protection-for-files"></a>파일의 3단계 보호를 위한 Teams 배포
 
@@ -38,7 +40,7 @@ ms.locfileid: "39971826"
 
 구성 결과는 다음과 같습니다.
 
-![공개 팀에 대한 기준 수준 보호.](../media/baseline-public-team.png)
+![공개 팀에 대한 기준 수준 보호.](../../media/baseline-public-team.png)
 
 ### <a name="private"></a>비공개
 
@@ -46,7 +48,7 @@ ms.locfileid: "39971826"
 
 구성 결과는 다음과 같습니다.
 
-![비공개 팀에 대한 기준 수준 보호.](../media/baseline-private-team.png)
+![비공개 팀에 대한 기준 수준 보호.](../../media/baseline-private-team.png)
 
 ## <a name="sensitive-teams"></a>중요 팀
 
@@ -66,7 +68,7 @@ ms.locfileid: "39971826"
 
 구성 결과는 다음과 같습니다.
 
-![팀에 대한 중요 보호](../media/sensitive-team.png)
+![팀에 대한 중요 보호](../../media/sensitive-team.png)
 
 ## <a name="highly-confidential-teams"></a>극비 팀
 
@@ -88,7 +90,7 @@ ms.locfileid: "39971826"
 
 구성 결과는 다음과 같습니다.
 
-![팀에 대한 극비 보호](../media/highly-confidential-team.png)
+![팀에 대한 극비 보호](../../media/highly-confidential-team.png)
 
 ## <a name="next-step"></a>다음 단계
 

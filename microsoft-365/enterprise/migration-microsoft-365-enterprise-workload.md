@@ -12,12 +12,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 조직 전체에서 Microsoft Office, Office 서버 및 Windows 버전을 Microsoft 365 Enterprise로 마이그레이션하는 프로세스를 단계별로 안내합니다.
-ms.openlocfilehash: 2f5b1b077346e3225252ef25a4e9e685c4892a7c
-ms.sourcegitcommit: 328b31f69663669b3c656b2e4db529f70d1c753e
+ms.openlocfilehash: 06cacbb45a98bb62f53866b0d2ab7ba393e609a0
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/25/2019
-ms.locfileid: "37148492"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42066819"
 ---
 # <a name="migration-to-microsoft-365-enterprise"></a>Microsoft 365 Enterprise로 마이그레이션
 
@@ -151,9 +151,9 @@ Windows 7은 **2020년 1월 14일**에 지원이 종료됩니다. Windows 7 또�
 
 ## <a name="summary-of-options-for-office-2010-clients-and-servers-and-windows-7"></a>Office 2010 클라이언트 및 서버와 Windows 7에 대한 옵션 요약
 
-이러한 제품에 대한 업그레이드, 클라우드로 이동 옵션을 알기 쉽게 요약한 내용을 보려면 [지원 종료 포스터](media/migration-microsoft-365-enterprise-workload/Office2010Windows7EndOfSupport.pdf)를 참조하세요.
+이러한 제품에 대한 업그레이드, 클라우드로 이동 옵션을 알기 쉽게 요약한 내용을 보려면 [지원 종료 포스터](../media/migration-microsoft-365-enterprise-workload/Office2010Windows7EndOfSupport.pdf)를 참조하세요.
 
-[![Office 2010 클라이언트 및 서버와 Windows 7에 대한 지원 종료 포스터 이미지](./media/migration-microsoft-365-enterprise-workload/office2010-windows7-end-of-support.png)](media/migration-microsoft-365-enterprise-workload/Office2010Windows7EndOfSupport.pdf)
+[![Office 2010 클라이언트 및 서버와 Windows 7에 대한 지원 종료 포스터 이미지](../media/migration-microsoft-365-enterprise-workload/office2010-windows7-end-of-support.png)](../media/migration-microsoft-365-enterprise-workload/Office2010Windows7EndOfSupport.pdf)
 
 Microsoft 365 Enterprise에서 기본적으로 사용되는 경로와 결과 목적지 지원이 강조된 이 한 페이지짜리 포스터를 사용하여 Office 2010 클라이언트 및 서버 제품과 Windows 7의 지원 종료를 방지하는 다양한 방법을 빠르게 파악합니다.
 
@@ -171,9 +171,9 @@ Microsoft 365 Enterprise에서 기본적으로 사용되는 경로와 결과 목
 
 ## <a name="transition-your-entire-organization"></a>전체 조직 전환
 
-전체 조직을 Microsoft 365 Enterprise의 제품 및 서비스로 전환하는 방법을 더 잘 이해하려면 [전환 포스터](media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf)를 다운로드하세요.
+전체 조직을 Microsoft 365 Enterprise의 제품 및 서비스로 전환하는 방법을 더 잘 이해하려면 [전환 포스터](../media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf)를 다운로드하세요.
 
-[![Microsoft 365로 전환 포스터 이미지](./media/deploy-microsoft-365-enterprise/transition-org-to-m365.png)](media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf)
+[![Microsoft 365로 전환 포스터 이미지](../media/deploy-microsoft-365-enterprise/transition-org-to-m365.png)](../media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf)
 
 이 두 페이지 포스터는 신속하게 기존 인프라를 인벤터리하여 Microsoft 365 Enterprise에서 해당 제품이나 서비스로 전환하는 방법에 대한 지침을 제공합니다. 여기에는 Windows와 Office 제품, 장치 관리, ID, 정보 및 위협 방지와 같은 기타 인프라 및 보안 요소가 포함됩니다.
 

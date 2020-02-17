@@ -1,5 +1,7 @@
 ---
 title: Office 365 ProPlus 배포 종료 조건
+f1.keywords:
+- NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -13,16 +15,16 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 구성이 Office 365 ProPlus 인프라에 대한 Microsoft 365 Enterprise 조건을 충족하는지 확인합니다.
-ms.openlocfilehash: 749d9661911bd6b69a3d6abff0b54e9ea1200adc
-ms.sourcegitcommit: 2aeafb631aaabc53eea0a8029711eb891e48d249
+ms.openlocfilehash: 2f19de8c40c95f27e3b7578d384db39d5feb57e0
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/28/2019
-ms.locfileid: "37746584"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42066493"
 ---
 # <a name="office-365-proplus-deployment-exit-criteria"></a>Office 365 ProPlus 배포 종료 조건
 
-![4단계: Office 365 ProPlus](./media/deploy-foundation-infrastructure/O365proplus_icon-small.png)
+![4단계: Office 365 ProPlus](../media/deploy-foundation-infrastructure/O365proplus_icon-small.png)
 
 *이 단계는 E3 및 E5 버전의 Microsoft 365 Enterprise 및 Microsoft 365 Education에 적용됩니다.*
 
@@ -60,4 +62,4 @@ ms.locfileid: "37746584"
 
 |||
 |:-------|:-----|
-|![5단계: 모바일 디바이스 관리](./media/deploy-foundation-infrastructure/mobiledevicemgmt_icon-small.png)| Microsoft 365 Enterprise의 종단 간 배포 단계를 수행중인 경우 다음 단계는 [모바일 장치 관리](mobility-infrastructure.md)입니다. |
+|![5단계: 모바일 디바이스 관리](../media/deploy-foundation-infrastructure/mobiledevicemgmt_icon-small.png)| Microsoft 365 Enterprise의 종단 간 배포 단계를 수행중인 경우 다음 단계는 [모바일 장치 관리](mobility-infrastructure.md)입니다. |
