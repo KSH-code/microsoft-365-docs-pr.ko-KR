@@ -15,12 +15,12 @@ ms.collection:
 - GDPR
 - M365-security-compliance
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 4e5ee52f9158df64e80f057adcfbf49c45f6dc31
-ms.sourcegitcommit: d4941dd0b598fb315e2c87083246ec3b26bbc032
+ms.openlocfilehash: c7b945ea464cbb18ae19eaa9f9e4a8df0313b0c6
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "41779033"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42073742"
 ---
 # <a name="office-365-data-subject-requests-for-the-gdpr-and-ccpa"></a>GDPR 및 CCPA에 대한 Office 365 데이터 주체 요청
 
@@ -100,14 +100,14 @@ DSR 요청에 응답할 경우, DSR 요청에 해당되는 데이터가 Microsof
 
 | | |
 | :---: | :---:|
-![일정 아이콘](media/O365-DSR-Doc-Final_image3.png) <br> 일정 | ![SharePoint 아이콘](media/o365-sharepoint-64x64.png) <br> SharePoint  |
-| ![Excel 아이콘](media/o365-excel-64x64.png) <br> Excel | ![비즈니스용 Skype 아이콘](media/o365-skypeforbusiness-64x64.png) <br> 비즈니스용 Skype |
-| ![Office Lens 아이콘](media/o365-lens-64x64.png) <br> Office Lens | ![작업 아이콘](media/O365-DSR-Doc-Final_image8.png) <br> 작업 |
-| ![OneDrive 아이콘](media/o365-OneDrive-64x64.png) <br> 비즈니스용 OneDrive |![Teams 아이콘](media/o365-teams-64x64.png) <br> Teams |
-| ![OneNote 아이콘](media/o365-onenote-64x64.png) <br> OneNote| ![할 일 아이콘](media/o365-todo-64x64.png) <br> To Do |
-| ![Outlook 아이콘](media/o365-outlook-64x64.png) <br> Outlook/Exchange | ![비디오 아이콘](media/O365-DSR-Doc-Final_image14.png) <br> 비디오 |
-| ![사람 아이콘](media/O365-DSR-Doc-Final_image15.png) <br> 사람 | ![Visio 아이콘](media/o365-visio-64x64.png) <br> Visio |
-| ![PowerPoint 아이콘](media/o365-powerpoint-64x64.png) <br> PowerPoint | ![Word 아이콘](media/o365-word-64x64.png) <br> Word
+![일정 아이콘](../media/O365-DSR-Doc-Final_image3.png) <br> 일정 | ![SharePoint 아이콘](../media/o365-sharepoint-64x64.png) <br> SharePoint  |
+| ![Excel 아이콘](../media/o365-excel-64x64.png) <br> Excel | ![비즈니스용 Skype 아이콘](../media/o365-skypeforbusiness-64x64.png) <br> 비즈니스용 Skype |
+| ![Office Lens 아이콘](../media/o365-lens-64x64.png) <br> Office Lens | ![작업 아이콘](../media/O365-DSR-Doc-Final_image8.png) <br> 작업 |
+| ![OneDrive 아이콘](../media/o365-OneDrive-64x64.png) <br> 비즈니스용 OneDrive |![Teams 아이콘](../media/o365-teams-64x64.png) <br> Teams |
+| ![OneNote 아이콘](../media/o365-onenote-64x64.png) <br> OneNote| ![할 일 아이콘](../media/o365-todo-64x64.png) <br> To Do |
+| ![Outlook 아이콘](../media/o365-outlook-64x64.png) <br> Outlook/Exchange | ![비디오 아이콘](../media/O365-DSR-Doc-Final_image14.png) <br> 비디오 |
+| ![사람 아이콘](../media/O365-DSR-Doc-Final_image15.png) <br> 사람 | ![Visio 아이콘](../media/o365-visio-64x64.png) <br> Visio |
+| ![PowerPoint 아이콘](../media/o365-powerpoint-64x64.png) <br> PowerPoint | ![Word 아이콘](../media/o365-word-64x64.png) <br> Word
 ||
 
 >[!NOTE]
@@ -196,7 +196,7 @@ pilar@contoso.com AND filetype="xlxs"
 
 ***GUI***
 
-![키워드 대화 상자](media/O365-DSR-Doc_image18.png)
+![키워드 대화 상자](../media/O365-DSR-Doc_image18.png)
 
 ##### <a name="example-2"></a>예 2
 
@@ -206,7 +206,7 @@ pilar@contoso.com AND filetype="xlxs"
 
 ***GUI***
 
-![키워드 대화 상자](media/O365-DSR-Doc_image19.png)
+![키워드 대화 상자](../media/O365-DSR-Doc_image19.png)
 
 ##### <a name="example-3"></a>예 3
 
@@ -218,7 +218,7 @@ pilar@contoso.com AND filetype="xlxs"
 
 ***GUI***
 
-![키워드 대화 상자](media/O365-DSR-Doc_image20.png)
+![키워드 대화 상자](../media/O365-DSR-Doc_image20.png)
 
 #### <a name="working-with-partially-indexed-items-in-content-search"></a>콘텐츠 검색에서 부분적으로 인덱싱된 항목 사용
 
@@ -435,13 +435,13 @@ DSR 내보내기 요청을 충족하기 위해 Office 문서를 해당 기본 �
 항목을 내보내고 다운로드하려면
 
 1. 보안 및 준수 센터에서 콘텐츠 검색을 엽니다.
-2. 검색 플라이아웃 페이지에서 ![다운로드 아이콘](media/o365-dsr_image21.png) **자세히**를 클릭한 다음 **결과 내보내기**를 클릭합니다. 보고서를 내보낼 수도 있습니다.
+2. 검색 플라이아웃 페이지에서 ![다운로드 아이콘](../media/o365-dsr_image21.png) **자세히**를 클릭한 다음 **결과 내보내기**를 클릭합니다. 보고서를 내보낼 수도 있습니다.
 3. **결과 내보내기** 플라이아웃 페이지의 섹션을 완료합니다. 스크롤 막대를 사용하여 모든 내보내기 옵션을 확인해야 합니다.
 4. 보안 및 준수 센터의 콘텐츠 검색 페이지로 돌아가 **내보내기** 탭을 클릭합니다.
 5. **새로 고침**을 클릭하여 페이지를 업데이트합니다.
 6. **이름** 열에서 작성한 내보내기 작업을 클릭합니다. 내보내기 작업의 이름은 **\_내보내기**와 함께 추가된 콘텐츠 검색의 이름입니다.
 7. 내보내기 플라이 아웃 페이지의 **키 내보내기**에서 **클립 보드로 복사를 클릭**합니다. 10단계에서 이 키를 사용하여 검색 결과를 다운로드하게 됩니다.
-8. 플라이아웃 페이지 위쪽에서 ![다운로드 아이콘](media/o365-dsr_image21.png) **결과 다운로드**를 클릭합니다.
+8. 플라이아웃 페이지 위쪽에서 ![다운로드 아이콘](../media/o365-dsr_image21.png) **결과 다운로드**를 클릭합니다.
 9. **Microsoft Office 365 eDiscovery 내보내기 도구**를 설치하라는 메시지가 표시되면 **설치**를 클릭합니다.
 10. **eDiscovery 내보내기 도구**에서 7단계에서 복사한 내보내기 키를 해당 상자에 붙여 넣습니다.
 11. **찾아보기**를 클릭하여 검색 결과 파일을 다운로드하려는 위치를 지정합니다.
@@ -630,11 +630,11 @@ Office 365 관리 포털에서 사용자를 영구 삭제할 수 없습니다.
 
 ||||
 |:-----:|:-----:|:-----:|:-----:|
-| ![Access 아이콘](media/o365-access-64x64.png) <br> [Access](#access) | ![Office 아이콘](media/O365-DSR-Doc_image22.png) <br> [Office 365용 <br>비즈니스 앱](#business-apps-for-office-365) | ![Office 아이콘](media/O365-DSR-Doc_image22.png) <br> [Education](#education)|
-| ![Flow 아이콘](media/o365-flow-64x64.png) <br> [Flow](#flow) | ![Forms 아이콘](media/o365-forms-64x64.png) <br> [Forms​​](#forms) |![Kaizala 아이콘](media/o365-kaizala-64x64.png) <br> [Kaizala](#kaizala) |
-| ![Planner 아이콘](media/o365-planner-64x64.png) <br> [Planner](#planner) |![PowerApps 아이콘](media/o365-powerapps-64x64.png) <br> [Power Apps](#powerapps) |![Power BI 아이콘](media/o365-powerbi-64x64.png) <br> [Power BI](#power-bi) |
-|![Project 아이콘](media/o365-project-64x64.png) <br> [Project](#project-online) |![Publisher 아이콘](media/o365-publisher-64x64.png) <br> [Publisher](#publisher) |![Stream 아이콘](media/o365-stream-64x64.png) <br> [Stream](#stream) |![Sway 아이콘](media/o365-sway-64x64.png) <br> [Sway](#sway) | ![Whiteboard 아이콘](media/O365-DSR-Doc_image36.png) <br> [Whiteboard](#whiteboard) |
-|![Yammer 아이콘](media/o365-yammer-64x64.png) <br> [Yammer](#yammer) |
+| ![Access 아이콘](../media/o365-access-64x64.png) <br> [Access](#access) | ![Office 아이콘](../media/O365-DSR-Doc_image22.png) <br> [Office 365용 <br>비즈니스 앱](#business-apps-for-office-365) | ![Office 아이콘](../media/O365-DSR-Doc_image22.png) <br> [Education](#education)|
+| ![Flow 아이콘](../media/o365-flow-64x64.png) <br> [Flow](#flow) | ![Forms 아이콘](../media/o365-forms-64x64.png) <br> [Forms​​](#forms) |![Kaizala 아이콘](../media/o365-kaizala-64x64.png) <br> [Kaizala](#kaizala) |
+| ![Planner 아이콘](../media/o365-planner-64x64.png) <br> [Planner](#planner) |![PowerApps 아이콘](../media/o365-powerapps-64x64.png) <br> [Power Apps](#powerapps) |![Power BI 아이콘](../media/o365-powerbi-64x64.png) <br> [Power BI](#power-bi) |
+|![Project 아이콘](../media/o365-project-64x64.png) <br> [Project](#project-online) |![Publisher 아이콘](../media/o365-publisher-64x64.png) <br> [Publisher](#publisher) |![Stream 아이콘](../media/o365-stream-64x64.png) <br> [Stream](#stream) |![Sway 아이콘](../media/o365-sway-64x64.png) <br> [Sway](#sway) | ![Whiteboard 아이콘](../media/O365-DSR-Doc_image36.png) <br> [Whiteboard](#whiteboard) |
+|![Yammer 아이콘](../media/o365-yammer-64x64.png) <br> [Yammer](#yammer) |
 |||
 
 ### <a name="access"></a>Access

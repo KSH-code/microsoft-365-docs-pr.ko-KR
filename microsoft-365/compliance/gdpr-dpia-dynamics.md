@@ -17,12 +17,12 @@ ms.collection:
 - M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: af9ba2ff22d7853e4738edacaa56f4e132cd33cc
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 4bcc1d67c41bd8f451ea3a13e96a901a7af45c6c
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41594378"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42073375"
 ---
 # <a name="data-protection-impact-assessments-guidance-for-data-controllers-using-dynamics-365"></a>데이터 보호 영향 평가: Dynamics 365를 사용하는 데이터 컨트롤러의 참고 자료
 

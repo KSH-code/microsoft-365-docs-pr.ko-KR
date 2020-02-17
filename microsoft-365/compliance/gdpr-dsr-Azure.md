@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: d54867ad5a469fb429d3edbe012aab9288d76e0f
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 53cf720694a52ea18e73a49817418abb489d8c72
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41594347"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42073464"
 ---
 # <a name="azure-data-subject-requests-for-the-gdpr-and-ccpa"></a>GDPR 및 CCPA에 대한 Azure 데이터 주체 요청
 
@@ -95,15 +95,15 @@ DSR에 대응하는 첫 번째 단계는 요청의 제목인 개인 데이터를
 
 2. **Azure Active Directory**를 선택합니다.
 
-     ![모든 서비스 선택](media/gdpr-azure-dsr-azure-portal.png)
+     ![모든 서비스 선택](../media/gdpr-azure-dsr-azure-portal.png)
 
 3. **사용자**를 선택합니다.
 
-     ![사용자 선택](media/gdpr-azure-dsr-azure-all-users.png)
+     ![사용자 선택](../media/gdpr-azure-dsr-azure-all-users.png)
 
 4. **모든 사용자** 블레이드의 목록에서 사용자를 선택하고, 선택한 사용자에 대한 블레이드에서 **프로필**을 선택하여 개인 데이터가 포함될 수 있는 사용자 프로필 정보를 확인합니다.
 
-    ![프로필 선택](media/gdpr-azure-dsr-azure-user-profile.png)
+    ![프로필 선택](../media/gdpr-azure-dsr-azure-user-profile.png)
 
 5. 사용자 프로필 정보를 추가하거나 변경해야 할 경우 명령 모음에서 **편집**을 선택하여 이 작업을 수행하고, 변경 후 **저장**을 선택합니다.
 
@@ -143,19 +143,19 @@ Microsoft에서는 특정 서비스의 기존 API(응용 프로그래밍 인터�
 
 2. **Azure Active Directory**를 선택합니다.
 
-    ![모든 서비스 선택](media/gdpr-azure-dsr-azure-portal.png)
+    ![모든 서비스 선택](../media/gdpr-azure-dsr-azure-portal.png)
 
 3. **사용자**를 선택합니다.
 
-    ![사용자 선택](media/gdpr-azure-dsr-azure-all-users.png)
+    ![사용자 선택](../media/gdpr-azure-dsr-azure-all-users.png)
 
 4. **모든 사용자** 블레이드의 목록에서 사용자를 선택하고, 선택한 사용자에 대한 블레이드에서 **프로필**을 선택하여 수정하거나 업데이트해야 하는 사용자 프로필 정보를 확인합니다.
 
-    ![프로필 선택](media/gdpr-azure-dsr-azure-user-profile.png)
+    ![프로필 선택](../media/gdpr-azure-dsr-azure-user-profile.png)
 
 5. 명령 모음에서 **편집**을 선택하여 작업 정보를 포함한 사용자 프로질 정보를 수정하거나 업데이트하고, 변경 후  **저장**을 선택합니다.
 
-    ![프로필 선택](media/gdpr-azure-dsr-azure-edit-user-profile.png)
+    ![프로필 선택](../media/gdpr-azure-dsr-azure-edit-user-profile.png)
 
 #### <a name="service-specific-interfaces"></a>서비스 관련 인터페이스
 
@@ -192,26 +192,26 @@ Microsoft에서는 특정 서비스의 기존 API(응용 프로그래밍 인터�
 
 2. **Azure Active Directory**를 선택합니다.
 
-    ![모든 서비스 선택](media/gdpr-azure-dsr-azure-portal.png)
+    ![모든 서비스 선택](../media/gdpr-azure-dsr-azure-portal.png)
 
 3. **사용자**를 선택합니다.
 
-    ![사용자 선택](media/gdpr-azure-dsr-azure-all-users.png)
+    ![사용자 선택](../media/gdpr-azure-dsr-azure-all-users.png)
 
 4. 삭제하려는 사용자 옆의 확인란을 선택하고 **사용자 삭제**를 선택한 후 사용자를 삭제할 것인지 묻는 상자에서 **예**를 선택합니다.
 
-    ![사용자 관리](media/gdpr-azure-dsr-azure-selected-user.png)
+    ![사용자 관리](../media/gdpr-azure-dsr-azure-selected-user.png)
 
 5.  **모든 사용자** 블레이드에서  **삭제된 사용자**을 선택합니다.
 
-    ![사용자 프로필 보기](media/gdpr-azure-dsr-azure-deleted-user.png)
+    ![사용자 프로필 보기](../media/gdpr-azure-dsr-azure-deleted-user.png)
 
 4. 같은 사용자를 다시 선택하고 명령 모음에서  **영구적으로 삭제**를 선택한 후 확실히 삭제할 것인지 묻는 상자에서  **예** 를 선택합니다.
 
 >[!IMPORTANT]  
 >**예**를 클릭하면 사용자 및 모든 관련 데이터와 시스템 생성 로그가 영구적으로 삭제됩니다. 실수로 이렇게 삭제한 경우에는 수동으로 사용자를 테넌트에 다시 추가해야 합니다. 관련된 데이터 및 시스템 생성 로그는 복구 불가능합니다.
 
-   ![사용자 작업 정보 보기](media/gdpr-azure-dsr-azure-permanently-deleted-user.png)
+   ![사용자 작업 정보 보기](../media/gdpr-azure-dsr-azure-permanently-deleted-user.png)
 
 #### <a name="service-specific-interfaces"></a>서비스 관련 인터페이스
 
@@ -287,15 +287,15 @@ Microsoft에서는 특정 서비스의 기존 API(응용 프로그래밍 인터�
 
 1. Azure Portal에서 **모든 서비스**를 선택하고 필터에 *정책*을 입력한 후 **정책**을 선택합니다.
 
-     ![모든 서비스 필터 ](media/gdpr-azure-dsr-azure-policy.png)
+     ![모든 서비스 필터 ](../media/gdpr-azure-dsr-azure-policy.png)
 
 2. **정책** 블레이드에서 **사용자 개인 정보**를 선택하고 **사용자 요청 관리**를 선택한 후 **내보내기 요청 추가**를 선택합니다.
 
-    ![내보내기 요청 추가 ](media/gdpr-azure-dsr-azure-add-export-request.png)
+    ![내보내기 요청 추가 ](../media/gdpr-azure-dsr-azure-add-export-request.png)
 
 3. 다음과 같이 **데이터 내보내기 요청**을 완료합니다.
 
-    ![새 데이터 내보내기 요청](media/gdpr-azure-dsr-azure-export-data-request.png)
+    ![새 데이터 내보내기 요청](../media/gdpr-azure-dsr-azure-export-data-request.png)
 
 - **사용자.** 내보내기를 요청한 Azure Active Directory 사용자의 전자 메일 주소를 입력합니다.
 - **구독.** 리소스 사용량을 보고하고 서비스 요청을 청구하는 데 사용하는 계정을 선택합니다. Azure Storage 계정의 위치이기도 합니다.

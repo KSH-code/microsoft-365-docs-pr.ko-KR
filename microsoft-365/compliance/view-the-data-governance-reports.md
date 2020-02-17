@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Office 365 보안 및 준수 센터의 데이터 거버넌스 보고서를 사용하여 레이블이 의도대로 콘텐츠에 적용되는지 빠르게 확인할 수 있습니다.
-ms.openlocfilehash: b07daf73cf1fca50f4d9831dfe6d96a59df928d0
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 4236f76a651550504bfcb46057517077704d4b2f
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597215"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42068801"
 ---
 # <a name="view-the-data-governance-reports"></a>데이터 거버넌스 보고서 보기
 
@@ -38,10 +38,10 @@ ms.locfileid: "41597215"
   
 보안 및 &amp; 준수 센터 \>**정보 거버넌스** \> **대시보드**에서 이러한 보고서를 찾을 수 있습니다.
   
-![지난 90일 동안의 레이블 추세를 보여 주는 차트](media/0cc06c18-d3b1-4984-8374-47655fb38dd2.png)
+![지난 90일 동안의 레이블 추세를 보여 주는 차트](../media/0cc06c18-d3b1-4984-8374-47655fb38dd2.png)
   
 데이터 거버넌스 보고서를 날짜(최대 90일) 및 위치(Exchange, SharePoint 및 비즈니스용 OneDrive) 기준으로 필터링할 수 있습니다. 가장 최근 데이터가 보고서에 표시되는 데 최대 24시간이 걸릴 수 있습니다.
   
-![데이터 거버넌스 보고서용 필터](media/77e60284-edf3-42d7-aee7-f72b2568f722.png)
+![데이터 거버넌스 보고서용 필터](../media/77e60284-edf3-42d7-aee7-f72b2568f722.png)
   
 

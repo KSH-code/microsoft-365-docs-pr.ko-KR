@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 레이블 및 민감도 레이블을 만든 이후 테넌트 전체에서 얼마나 사용되는지 알고자 할 것입니다. Microsoft 365 규정 준수 센터 및 Microsoft 365 보안 센터의 레이블 분석을 사용하여 어떤 레이블이 사장 많이 사용되고 레이블이 적용된 위치를 빠르게 알 수 있습니다.
-ms.openlocfilehash: e67ab03f3fd551b5b23e5632a42248e7248c9c93
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 75eb86cb8671c81b80afc67b19d7c54830c4c401
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600585"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42072310"
 ---
 # <a name="view-label-usage-with-label-analytics"></a>레이블 분석을 통한 레이블 사용량 보기
 
@@ -36,7 +36,7 @@ ms.locfileid: "41600585"
 
 [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com/labelanalytics) 또는 [Microsoft 365 보안 센터](https://security.microsoft.com/labelanalytics) > **분류** > **레이블 분석**에서 레이블 분석을 찾을 수 있습니다.
 
-![레이블 분석 페이지](media/label-analytics-page.png)
+![레이블 분석 페이지](../media/label-analytics-page.png)
 
 ## <a name="sensitivity-label-usage"></a>민감도 레이블 사용량
 
@@ -50,7 +50,7 @@ Azure Information Protection 보고서에는 Microsoft 365 규정 준수 센터 
 - 각 상단 레이블의 수를 보려면 막대 그래프를 가리킨 다음 표시되는 도구 설명을 확인합니다.
 - 보고서는 앱별로 민감도 레이블이 적용된 위치를 보여줍니다(보존 레이블은 위치별로 표시됨).
 
-![민감도 레이블 사용량 보고서](media/sensitivity-label-usage-report.png)
+![민감도 레이블 사용량 보고서](../media/sensitivity-label-usage-report.png)
 
 ## <a name="retention-label-usage"></a>보존 레이블 사용량
 
@@ -63,7 +63,7 @@ Azure Information Protection 보고서에는 Microsoft 365 규정 준수 센터 
 - 보고서는 위치별로 보존 레이블이 적용된 위치를 보여줍니다(민감도 레이블은 앱별로 표시됨).
 - 보존 레이블의 경우 특정 날짜 범위로 필터링되지 않은 테넌트의 전체 시간 데이터 요약입니다. 반대로 [레이블 활동 탐색기](view-label-activity-for-documents.md)는 지난 30일 동안만의 데이터를 보여줍니다.
 
-![보존 레이블 사용량 보고서](media/retention-label-usage-report.png)
+![보존 레이블 사용량 보고서](../media/retention-label-usage-report.png)
 
 ## <a name="view-all-content-with-a-specific-retention-label"></a>특정 보존 레이블이 포함된 모든 콘텐츠를 봅니다.
 
@@ -71,15 +71,15 @@ Azure Information Protection 보고서에는 Microsoft 365 규정 준수 센터 
 
 먼저 보고서 하단에서 **자세히 보기**를 선택합니다.
 
-![보존 레이블 사용량 보고서 하단의 자세히 보기 옵션](media/retention-label-usage-view-details.png)
+![보존 레이블 사용량 보고서 하단의 자세히 보기 옵션](../media/retention-label-usage-view-details.png)
 
 그런 다음 오른쪽 창에 있는 보존 레이블 > **항목 탐색**을 선택합니다.
 
-![오른쪽 창에 있는 항목 탐색 옵션](media/retention-label-usage-explore-items.png)
+![오른쪽 창에 있는 항목 탐색 옵션](../media/retention-label-usage-explore-items.png)
 
 해당 레이블에 대해 **활동** 탭을 선택하고 위치별로 레이블이 포함된 항목 수를 확인합니다.
 
-![보존 레이블에 대한 활동 탭](media/retention-label-usage-activity-tab.png)
+![보존 레이블에 대한 활동 탭](../media/retention-label-usage-activity-tab.png)
 
 **이 레이블이 포함된 항목** 탭을 선택할 수도 있습니다. 그런 다음 특정 위치를 선택할 수 있습니다.
 
@@ -88,7 +88,7 @@ Azure Information Protection 보고서에는 Microsoft 365 규정 준수 센터 
 
 사서함 또는 사이트 모음을 선택하면 해당 위치의 해당 보존 레이블이 포함된 항목의 목록을 볼 수 있습니다.
 
-![이 레이블이 포함된 항목 탭에서 해당 보존 레이블이 포함된 모든 항목을 표시](media/retention-label-usage-content-explorer.png)
+![이 레이블이 포함된 항목 탭에서 해당 보존 레이블이 포함된 모든 항목을 표시](../media/retention-label-usage-content-explorer.png)
 
 ## <a name="permissions"></a>사용 권한
 

@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Office 365 또는 Microsoft 조직에서 레코드 관리 전략을 구현하려면 콘텐츠를 레코드로 선언하는 보존 레이블을 사용합니다. 그런 다음 보존 레코드 레이블을 게시하거나 자동으로 적용합니다.
-ms.openlocfilehash: 36482ea4a6bb9fb932d72b76dff5f0647d467a9b
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 87bed90f4c9bf27eb960a2018b6a641ff3e06993
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601685"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42081704"
 ---
 # <a name="overview-of-records"></a>레코드 개요
 
@@ -62,7 +62,7 @@ Microsoft 365에서 레코드 관리를 사용하면 조직은 회사 정책, �
 
     SharePoint에서 레코드를 삭제하려고 하면 항목이 삭제되지 않았다는 오류 메시지가 표시되고 항목은 라이브러리에 남아 있습니다.
 
-    ![SharePoint에서 항목이 삭제되지 않았다는 메시지](media/d0020726-1593-4a96-b07c-89b275e75c49.png)
+    ![SharePoint에서 항목이 삭제되지 않았다는 메시지](../media/d0020726-1593-4a96-b07c-89b275e75c49.png)
 
     OneDrive에서 레코드를 삭제하려고 하면 [보존 정책이 원본 위치의 콘텐츠에 작동하는 방식](retention-policies.md#content-in-onedrive-accounts-and-sharepoint-sites)에 설명된 것처럼 항목이 자료 보존 라이브러리로 이동됩니다.
 
@@ -76,7 +76,7 @@ Microsoft 365에서 레코드 관리를 사용하면 조직은 회사 정책, �
 
 2. 마법사의 **레이블 설정** 페이지에서 콘텐츠를 레코드로 선언하는 보존 레이블 설정 옵션을 선택합니다.<br/>
 
-   ![레이블을 사용하여 콘텐츠를 레코드로 분류 확인란을 클릭합니다.](media/recordversioning6.png)
+   ![레이블을 사용하여 콘텐츠를 레코드로 분류 확인란을 클릭합니다.](../media/recordversioning6.png)
 
 3. SharePoint 사이트 및/또는 OneDrive 계정에 대한 보존 레이블을 [게시](labels.md#how-retention-labels-work-with-retention-label-policies)하거나 [자동 적용](labels.md#applying-a-retention-label-automatically-based-on-conditions)합니다.
 
@@ -91,7 +91,7 @@ Exchange의 경우 사서함에 대한 쓰기 권한이 있는 사용자는 전�
 SharePoint 사이트 또는 OneDrive 계정에서 문서에 레코드 레이블이 적용되는 경우의 결과는 다음과 같습니다.
 <br/><br/>
 
-![레코드로 태그가 지정된 문서에 대한 세부 정보 창](media/recordversioning7.png)
+![레코드로 태그가 지정된 문서에 대한 세부 정보 창](../media/recordversioning7.png)
 
 ## <a name="record-versioning"></a>레코드 버전 관리
 
@@ -108,7 +108,7 @@ SharePoint 사이트 또는 OneDrive 계정에서 문서에 레코드 레이블�
 레코드 버전 관리는 레코드로 항목을 선언하는 보존 레이블이 있는 모든 문서에 대해 자동으로 제공될 수 있습니다. 사용자가 세부 정보 창을 통해 문서 속성을 확인하는 경우 문서 속성의 **레코드 상태**가 **잠금 상태**에서 **잠금 해제 상태**로 전환됩니다. 한 번 클릭으로 자료 보존 라이브러리의 보존 폴더에서 레코드를 만들고 레코드는 보존 기간의 나머지 기간 동안 저장됩니다. 문서가 잠금 해제되는 동안 사용 권한이 있는 모든 사용자는 파일을 편집할 수 있습니다. 그러나 사용자는 파일을 삭제할 수 없습니다. 이는 선언된 레코드로 간주되기 때문입니다. 필요한 변경 내용이 적용된 후 사용자는 **레코드 상태**를 **잠금 해제 상태**에서 **잠금 상태**로 전환하여 문서를 다시 레코드로 선언하고 편집할 수 없도록 할 수 있습니다.
 <br/><br/>
 
-![레코드로 태그가 지정된 문서의 레코드 상태 속성](media/recordversioning8.png)
+![레코드로 태그가 지정된 문서의 레코드 상태 속성](../media/recordversioning8.png)
 
 > [!NOTE]
 > 레코드 버전 관리를 사용하려면 SharePoint 사이트 또는 OneDrive 계정에서 레코드로 선언된 콘텐츠를 편집할 수 있는 권한이 있는 각 사용자에 대해 Office 365 Enterprise E5 라이선스가 필요합니다. 읽기 전용 권한이 있는 사용자는 이 라이선스가 필요 없습니다.
@@ -118,7 +118,7 @@ SharePoint 사이트 또는 OneDrive 계정에서 문서에 레코드 레이블�
 문서에 레코드 레이블을 할당한 후 기본 구성원 그룹에 있는 모든 사용자(참가 권한 수준)는 레코드를 잠금 해제하거나 잠금 해제된 레코드를 잠글 수 있습니다.
 <br/><br/>
 
-![레코드 문서가 잠금 해제됨을 표시하는 레코드 상태](media/recordversioning9.png)
+![레코드 문서가 잠금 해제됨을 표시하는 레코드 상태](../media/recordversioning9.png)
 
 사용자가 레코드를 잠금 해제하면 다음 작업이 수행됩니다.
 
@@ -139,7 +139,7 @@ SharePoint 사이트 또는 OneDrive 계정에서 문서에 레코드 레이블�
 사용자가 레코드의 잠금을 해제할 때마다 최신 버전은 자료 보존 라이브러리의 레코드 폴더에 복사되고 해당 버전에는 버전 기록의 **설명** 필드에 **레코드** 값이 포함됩니다.
 <br/><br/>
 
-![자료 보존 라이브러리에 표시된 레코드](media/recordversioning10.png)
+![자료 보존 라이브러리에 표시된 레코드](../media/recordversioning10.png)
 
 버전 기록을 보려면 문서 라이브러리에서 문서를 선택하고 항목 메뉴에서 **버전 기록**을 클릭합니다.
 
@@ -148,11 +148,11 @@ SharePoint 사이트 또는 OneDrive 계정에서 문서에 레코드 레이블�
 레코드는 사이트 모음의 최상위 사이트에 있는 자료 보존 라이브러리의 레코드 폴더에 저장됩니다. 최상위 사이트의 왼쪽 탐색 창에서 **사이트 콘텐츠** \> **자료 보존 라이브러리**을 선택합니다.
 <br/><br/>
 
-![자료 보존 라이브러리](media/recordversioning11.png)
+![자료 보존 라이브러리](../media/recordversioning11.png)
 
 <br/><br/>
 
-![자료 보존 라이브러리의 레코드 폴더](media/recordversioning12.png)
+![자료 보존 라이브러리의 레코드 폴더](../media/recordversioning12.png)
 
 자료 보존 라이브러리는 사이트 모음 관리자에게만 표시됩니다. 또한 자료 보존 라이브러리는 기본적으로 존재하지 않습니다. 이는 보존 레이블이나 보존 정책에 해당하는 콘텐츠가 사이트 모음에서 처음 삭제된 경우에만 만들어집니다.
 
@@ -161,6 +161,6 @@ SharePoint 사이트 또는 OneDrive 계정에서 문서에 레코드 레이블�
 레코드 잠금 및 잠금 해제 작업이 Office 365 감사 로그에 기록됩니다. 사용자는 특정 작업인 **레코드 상태가 잠김으로 변경** 및 **레코드 상태가 잠김 상태로 변경**을 검색할 수 있습니다. 이 작업은 보안 및 준수 센터의 **감사 로그 검색** 페이지에 있는 **활동** 드롭다운 목록의 **파일 및 페이지 활동** 섹션에 있습니다.
 <br/><br/>
 
-![기록 버전 관리 이벤트에 대한 감사 로그 검색](media/recordversioning13.png)
+![기록 버전 관리 이벤트에 대한 감사 로그 검색](../media/recordversioning13.png)
 
 이러한 이벤트를 검색하는 방법에 대한 자세한 내용은 [보안 & 준수 센터에서 감사 로그를 검색](search-the-audit-log-in-security-and-compliance.md#file-and-page-activities)의 "파일 및 페이지 활동" 섹션을 참조하세요.

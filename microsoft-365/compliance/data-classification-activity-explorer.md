@@ -16,18 +16,18 @@ search.appverid:
 - MOE150
 - MET150
 description: 활동 탐색기는 사용자가 레이블이 지정된 콘텐츠에 대해 수행하는 작업을 확인하고 필터링하여 데이터 분류 기능을 자세히 설명합니다.
-ms.openlocfilehash: 8af23cac590eb226890979719f938b8e79099bb3
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: f80ce94433028b2434d442a364c336060b730d94
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595475"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42076776"
 ---
 # <a name="view-activity-on-your-labeled-content-preview"></a>레이블이 지정된 콘텐츠의 활동 보기(미리 보기)
 
 데이터 분류 개요 및 콘텐츠 탐색기 탭을 통해 검색된 후 레이블이 지정된 콘텐츠와 해당 콘텐츠의 위치를 확인할 수 있습니다. 활동 탐색기는 사용자가 레이블이 지정된 콘텐츠로 수행한 작업을 모니터링할 수 있도록 하여 이 기능 제품군을 자세히 설명합니다. 활동 탐색기는 기록 보기를 제공합니다.
 
-![자리 표시자 스크린샷 개요 활동 탐색기](media/data-classification-activity-explorer-1.png)
+![자리 표시자 스크린샷 개요 활동 탐색기](../media/data-classification-activity-explorer-1.png)
 
 다음을 수행하여 데이터를 필터링할 수 있습니다.
 
@@ -71,11 +71,11 @@ Microsoft 365는 SharePoint Online, OneDrive 및 엔드포인트에서 12가지 
 
 필터를 설정하면 다음을 수행할 수 있습니다.
 
-- 막대형 차트의 세그먼트에 마우스를 올려 놓으면 해당 범주에 속하는 항목의 수를 볼 수 있습니다. ![활동 탐색기 가리키기](media/data-classification-activity-explorer-hover-over-2.png)
+- 막대형 차트의 세그먼트에 마우스를 올려 놓으면 해당 범주에 속하는 항목의 수를 볼 수 있습니다. ![활동 탐색기 가리키기](../media/data-classification-activity-explorer-hover-over-2.png)
 - 데이터 내보내기
 - 목록에서 지정된 항목을 선택하고 플라이아웃에서 작업 세부 정보 확인
 
-![활동 탐색기 세부 정보 플라이아웃](media/data-classification-activity-explorer-fly-out-3.png)
+![활동 탐색기 세부 정보 플라이아웃](../media/data-classification-activity-explorer-fly-out-3.png)
 
 ## <a name="see-also"></a>참고 항목
 - [민감도 레이블](sensitivity-labels.md)

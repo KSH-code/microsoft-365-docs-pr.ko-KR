@@ -19,12 +19,12 @@ localization_priority: Priority
 search.appverid:
 - MET150
 description: Office 365에서 DLP(데이터 손실 방지) 정책을 사용하여 개인 데이터를 보호하는 방법을 알아봅니다.
-ms.openlocfilehash: b529a6d58537c4effca3cf198dcf807a0680129d
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: ef6907f9c6574f53dc6f3ba6e44c72eac308d825
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41596065"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42079766"
 ---
 # <a name="apply-protection-to-personal-data-in-office-365"></a>Office 365의 개인 데이터에 보호 적용
 
@@ -46,7 +46,7 @@ DLP를 사용하면 다음과 같은 작업을 수행할 수 있습니다.
 
 자세한 내용은 [데이터 손실 방지 정책 개요](https://support.office.com/article/Overview-of-data-loss-prevention-policies-1966b2a7-d1e2-4d92-ab61-42efbb137f5e)를 참조하세요.
 
-![데이터 손실 방지 정책을 만들기 위한 옵션](Media/Apply-protection-to-personal-data-in-Office-365-image1.png)
+![데이터 손실 방지 정책을 만들기 위한 옵션](../media/Apply-protection-to-personal-data-in-Office-365-image1.png)
 
 이 그림에서는 DLP 정책을 만들기 위한 옵션을 보여 줍니다.
 
@@ -172,7 +172,7 @@ Office 365 DLP의 기본적인 사용 중 하나는 Office 365 환경에서 EU �
 
 다음 그림에서는 개인 데이터에 대한 액세스를 보호하기 위해 적용할 수 있는 추가 보호 기능을 자세히 보여 줍니다.
 
-![개인 데이터에 대한 액세스를 보호하기 위한 추가 보호](Media/Apply-protection-to-personal-data-in-Office-365-image2.png)
+![개인 데이터에 대한 액세스를 보호하기 위한 추가 보호](../media/Apply-protection-to-personal-data-in-Office-365-image2.png)
 
 다음 표에서는 이해를 돕기 위해 그림과 동일한 정보를 제공합니다.
 
@@ -222,7 +222,7 @@ GDPR 규정 준수에 대해 구성된 환경에서 다음과 같은 기능을 �
 
 SharePoint의 사용 권한을 사용하여 사용자에게 사이트 또는 해당 콘텐츠에 대한 액세스 권한을 제공하거나 액세스를 제한할 수 있습니다. 기본 SharePoint 그룹에 개별 사용자 또는 Azure Active Directory 그룹을 추가하거나 보다 세밀한 제어를 위해 사용자 지정 그룹을 만듭니다.
 
-![모든 권한에서 보기 전용에 이르는 사용 권한 수준](Media/Apply-protection-to-personal-data-in-Office-365-image3.png)
+![모든 권한에서 보기 전용에 이르는 사용 권한 수준](../media/Apply-protection-to-personal-data-in-Office-365-image3.png)
 
 이 그림에서는 모든 권한부터 보기 전용에 이르는 사용 권한 수준을 보여 줍니다. 다음 표에는 동일한 정보가 포함되어 있습니다.
 
@@ -368,7 +368,7 @@ AD FS를 사용하는 하이브리드 ID 환경에 대해서는 [권장되는 �
 
 다음 그림에서는 클라우드 서비스(SaaS, PaaS), 계정 유형(테넌트 도메인 계정 및 B2B 계정), 서비스 액세스 기능이 관련디는 방식을 보여 줍니다. B2B 계정에 사용할 수 있는 기능을 이해하는 것도 중요합니다.
 
-![클라우드 서비스, 계정 유형 및 액세스 기능](Media/Apply-protection-to-personal-data-in-Office-365-image4.png)
+![클라우드 서비스, 계정 유형 및 액세스 기능](../media/Apply-protection-to-personal-data-in-Office-365-image4.png)
 
 이해를 돕기 위해 이 섹션의 나머지 부분에서는 이 그림을 설명합니다.
 

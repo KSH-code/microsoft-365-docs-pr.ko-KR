@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 콘텐츠 탐색기를 사용하여 레이블이 지정된 항목을 원래 상태로 볼 수 있습니다.
-ms.openlocfilehash: c2bf73a5e6b9076d9c5f42c40f0d1f2f33cd1ee8
-ms.sourcegitcommit: 2913fd74ad5086c7cac6388447285be9aa5a8e44
+ms.openlocfilehash: 2d9be42c00940bf9d37d1fdeb9b15b071aa412ac
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "41661910"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42076433"
 ---
 # <a name="using-data-classification-content-explorer-preview"></a>데이터 분류 콘텐츠 탐색기(미리 보기) 사용
 
@@ -45,7 +45,7 @@ ms.locfileid: "41661910"
 
 [보존 레이블](labels.md)을 사용하여 레이블이 부착된 항목이 보관되는 기간 및 삭제하기 전에 수행해야 할 단계를 정의할 수 있습니다. 이들은 수동으로 또는 자동으로 정책을 통해 적용됩니다. 이들은 조직이 법적 그리고 규제적 요구 사항을 계속 준수하는데 도움이 되는 역할을 할 수 있습니다.
 
-![콘텐츠 탐색기 축소 스크린샷](media/data-classification-content-explorer-1.png)
+![콘텐츠 탐색기 축소 스크린샷](../media/data-classification-content-explorer-1.png)
 
 ### <a name="permissions"></a>사용 권한
 

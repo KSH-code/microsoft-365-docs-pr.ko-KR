@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 정책을 사용하여 콘텐츠를 보존할지, 삭제할지, 아니면 보존한 다음 삭제할지 사전에 결정할 수 있습니다. 조직 전체에 또는 특정 위치 또는 사용자에게 하나의 정책을 적용할 수 있고, 모든 콘텐츠에 또는 특정 조건에 부합하는 콘텐츠에 정책을 적용할 수 있습니다.
-ms.openlocfilehash: 1585be963b63e2e7f4c3efad972b7b262b4db3cc
-ms.sourcegitcommit: ca2209d9176f99048d0a7adc20261029ca23dcbd
+ms.openlocfilehash: 3dbc3e221849cd9b5cde1d1f97e50ccf043c336d
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "41774224"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42070240"
 ---
 # <a name="overview-of-retention-policies"></a>보존 정책 개요
 
@@ -87,7 +87,7 @@ SharePoint 사이트 모음의 경우, 사용자가 콘텐츠를 편집하거나
   
 보존 정책이 OneDrive 계정 또는 SharePoint 사이트에 할당되면 콘텐츠는 다음 두 가지 경로 중 하나를 따를 수 있습니다.
 
-![SharePoint 및 OneDrive의 콘텐츠 수명 주기 다이어그램](media/Retention_Diagram_of_retention_flow_in_sites.png)
+![SharePoint 및 OneDrive의 콘텐츠 수명 주기 다이어그램](../media/Retention_Diagram_of_retention_flow_in_sites.png)
   
 1. 보존 기간 내에 **콘텐츠가 수정되거나 삭제되면** 보존 정책이 적용된 시점과 동일한 원본 콘텐츠의 사본이 자료 보존 라이브러리에 생성됩니다. 여기에서 타이머 작업이 주기적으로 실행되며 보존 기간이 만료된 항목을 식별합니다. 식별된 항목은 93일 만료 시 영구적으로 삭제되는 2단계 휴지통으로 이동합니다. 2단계 휴지통은 최종 사용자에게 표시되지 않습니다(1단계 휴지통에만 해당). 하지만 사이트 모음 관리자는 해당 사이트에서 콘텐츠를 보고 복원할 수 있습니다.
 
@@ -110,7 +110,7 @@ SharePoint 사이트 모음의 경우, 사용자가 콘텐츠를 편집하거나
   
 보존 정책이 사서함 또는 공용 폴더에 할당되면 콘텐츠는 다음 두 가지 경로 중 하나를 따를 수 있습니다.
 
-![전자 메일 및 공용 폴더의 보존 흐름 다이어그램](media/88f174cc-bbf4-4305-93d7-0515f496c8f9.png)
+![전자 메일 및 공용 폴더의 보존 흐름 다이어그램](../media/88f174cc-bbf4-4305-93d7-0515f496c8f9.png)
 
 1. **보존 기간 동안 사용자가 항목을 수정하거나 영구적으로 삭제하는 경우**(Shift + Delete 사용 또는 지운 편지함에서 삭제) 항목은 복구 가능한 항목 폴더로 이동(또는 편집의 경우 복사)됩니다. 여기에서 프로세스가 주기적으로 실행되고 보존 기간이 만료된 항목이 식별되며, 이러한 항목은 보존 기간이 끝나고 14일 이내에 영구적으로 삭제됩니다. 14일은 기본 설정이지만 최대 30일로 구성할 수 있습니다.
     
@@ -139,7 +139,7 @@ SharePoint 사이트 모음의 경우, 사용자가 콘텐츠를 편집하거나
   
 보존 기간이 끝나면 콘텐츠를 영구적으로 삭제할지 여부를 선택할 수 있습니다. 보존 정책을 사용하여 오래된 콘텐츠를 보존하지 않고 삭제할 수도 있습니다. 다음 섹션을 참조하세요.
   
-![보존 설정 페이지](media/b05f84e5-fc71-4717-8f7b-d06a29dc4f29.png)
+![보존 설정 페이지](../media/b05f84e5-fc71-4717-8f7b-d06a29dc4f29.png)
   
 ## <a name="deleting-content-thats-older-than-a-specific-age"></a>특정 사용 기간보다 오래된 콘텐츠 삭제
 
@@ -147,19 +147,19 @@ SharePoint 사이트 모음의 경우, 사용자가 콘텐츠를 편집하거나
   
 보존 정책이 콘텐츠를 삭제할 경우 보존 정책에 대해 지정된 기간은 정책이 할당된 시점이 아니라 콘텐츠가 만들어졌거나 수정된 이후부터 계산된다는 사실에 유의해야 합니다.
   
-![삭제 설정](media/042f9571-96f4-458f-8f38-fad3ed68ed31.png)
+![삭제 설정](../media/042f9571-96f4-458f-8f38-fad3ed68ed31.png)
   
 예를 들어, 3년 후에 콘텐츠를 삭제하는 보존 정책을 만든 후, 해당 정책을 3~5년 전에 만들어진 콘텐츠가 많이 포함되어 있는 모든 OneDrive 계정에 할당한다고 가정합니다. 이 경우 많은 콘텐츠가 보존 정책을 처음 할당한 직후에 삭제됩니다. 이러한 이유로 **콘텐츠를 삭제하는 보존 정책은 콘텐츠에 상당한 영향을 미칠 수 있습니다**. 
   
 따라서 처음으로 사이트 모음에 보존 정책을 할당하기 전에 먼저 콘텐츠의 사용 기간과 정책이 기존 콘텐츠에 어떤 영향을 줄 수 있는지 고려해야 합니다. 또한 새 정책을 할당하기 전에 사용자에게 미리 알려, 가능한 영향을 평가할 시간을 줄 수도 있습니다. 보존 정책을 만들기 바로 전에 해당 설정을 검토할 때 나타나는 다음 경고에 유의하세요.
   
-![콘텐츠 삭제 경고](media/59c26b19-3628-4cc1-9a73-a05127a8e81b.png)
+![콘텐츠 삭제 경고](../media/59c26b19-3628-4cc1-9a73-a05127a8e81b.png)
   
 ## <a name="advanced-settings-that-apply-a-policy-only-to-content-that-meets-certain-conditions"></a>특정 조건을 충족하는 콘텐츠에만 정책을 적용하는 고급 설정
 
 보존 정책을 포함하는 위치의 모든 콘텐츠에 적용할 수도 있고, 특정 키워드 또는 [특정 유형의 중요 정보](what-the-sensitive-information-types-look-for.md)를 포함하는 콘텐츠에만 보존 정책을 적용하도록 선택할 수 있습니다.
   
-![고급 보존 옵션](media/e8d9dd42-c062-4e8b-a2ca-bffe3ea298e0.png)
+![고급 보존 옵션](../media/e8d9dd42-c062-4e8b-a2ca-bffe3ea298e0.png)
   
 ### <a name="retain-content-that-contains-specific-keywords"></a>특정 키워드를 포함하는 콘텐츠 보존
 
@@ -169,13 +169,13 @@ SharePoint 사이트 모음의 경우, 사용자가 콘텐츠를 편집하거나
   
 쿼리 기반 보존은 검색 인덱스를 사용하여 콘텐츠를 식별합니다.
   
-![쿼리 편집기](media/2c31b412-922e-4a88-89e4-5175c23d9b5f.png)
+![쿼리 편집기](../media/2c31b412-922e-4a88-89e4-5175c23d9b5f.png)
   
 ### <a name="retain-content-that-contains-sensitive-information"></a>중요한 정보가 포함된 콘텐츠 보존
 
 [특정 유형의 중요 정보](what-the-sensitive-information-types-look-for.md)를 포함하는 콘텐츠에만 보존 정책을 적용할 수도 있습니다. 예를 들어, 납세자 ID 번호, 주민 등록 번호 또는 여권 번호 등 PII(개인 식별이 가능한 정보)를 포함하는 콘텐츠에만 고유한 보존 요구 사항을 적용하도록 선택할 수 있습니다.
   
-![중요한 정보 유형 페이지](media/8b104819-d185-4d58-b6b3-d06e82686a05.png)
+![중요한 정보 유형 페이지](../media/8b104819-d185-4d58-b6b3-d06e82686a05.png)
   
 참고:
   
@@ -201,7 +201,7 @@ SharePoint 사이트 모음의 경우, 사용자가 콘텐츠를 편집하거나
     
 - Exchange 공용 폴더
     
-![모든 위치 옵션](media/c343bd8e-42ac-4f17-a338-36f3c9598a86.png)
+![모든 위치 옵션](../media/c343bd8e-42ac-4f17-a338-36f3c9598a86.png)
   
 조직 전체 보존 정책의 기타 중요한 기능은 다음과 같습니다.
   
@@ -215,7 +215,7 @@ SharePoint 사이트 모음의 경우, 사용자가 콘텐츠를 편집하거나
   
 조직 전체 정책과 마찬가지로, 전체 위치 조합에 정책이 적용될 경우 정책에 포함될 수 있는 사서함 또는 사이트 수에는 제한이 없습니다. 예를 들어, 정책에 모든 Exchange 전자 메일과 모든 SharePoint 사이트가 포함될 경우, 개수에 관계없이 모든 사이트와 사서함이 포함됩니다. 또한 Exchange의 경우 정책이 적용된 후 만들어진 모든 새 사서함은 자동으로 해당 정책을 상속합니다.
  
-![위치 선택 페이지](media/6ac0c2d6-1abf-4690-b3f6-9ca506887ba3.png)
+![위치 선택 페이지](../media/6ac0c2d6-1abf-4690-b3f6-9ca506887ba3.png)
   
 ### <a name="a-policy-with-specific-inclusions-or-exclusions"></a>특정 포함 또는 제외가 적용된 정책
 
@@ -235,7 +235,7 @@ Exchange 전자 메일과 달리, Skype 위치의 상태는 간단히 설정으�
   
 비즈니스용 Skype 사용자를 선택하면 열 머리글에서 **이름** 상자를 선택하여 모든 사용자를 빠르게 포함할 수 있습니다. 그러나 각 사용자가 정책의 특정 포함사항으로 간주된다는 점을 이해해야 합니다. 따라서 1,000명이 넘는 사용자를 포함하게 되면 이전 섹션에서 설명한 제한 사항이 적용됩니다. 여기에서 모든 Skype 사용자를 선택하는 것은 조직 전체 정책에 기본적으로 모든 Skype 사용자를 포함하는 것과 다르게 작동합니다. 
   
-![Skype 사용자 선택 페이지](media/f1742493-741a-4142-a564-d7d41ab0236a.png)
+![Skype 사용자 선택 페이지](../media/f1742493-741a-4142-a564-d7d41ab0236a.png)
   
 Outlook의 **대화 내용** 폴더는 Skype 보관과 아무 관계가 없는 기능입니다. **대화 내용**은 최종 사용자가 해제할 수 있지만 Skype 보관은 사용자는 액세스할 수 없고 eDiscovery에서 사용할 수 있는 숨겨진 폴더에 Skype 대화 사본을 저장하여 수행됩니다.
 
@@ -250,7 +250,7 @@ Teams 채팅 및 채널 메시지는 Exchange 또는 Office 365 그룹 위치의
   
 보존 정책이 팀에 할당되면 채팅 및 채널 메시지가 다음 두 경로 중 하나를 따를 수 있습니다.
 
-![Teams 채팅 및 채널 메시지의 보존 흐름 다이어그램](media/TeamsRetentionLifecycle.png)
+![Teams 채팅 및 채널 메시지의 보존 흐름 다이어그램](../media/TeamsRetentionLifecycle.png)
 
 1. 보존 기간 동안 사용자가 **채팅 또는 채널 메시지를 수정하거나 삭제하는 경우**, 메시지는 SubstrateHolds 폴더(모든 폴더에서 숨겨진 폴더)로 이동(또는 편집시 복사)됩니다. 보존 기간이 만료 될 때까지 이 폴더에 저장됩니다. 메시지는 보존 기간이 만료되는 날에 영구적으로 삭제됩니다.
 
@@ -278,7 +278,7 @@ Teams의 보존 기능 최적화를 계속 진행하고 있으며, 몇 개월 �
   
 Teams에 적용되는 보존 정책은 [유지 잠금](#locking-a-retention-policy)을 사용할 수 있습니다.
   
-![채팅 및 채널 메시지에 대한 Teams 위치](media/127345da-e802-4b3a-afc7-6e354dc3f409.png)
+![채팅 및 채널 메시지에 대한 Teams 위치](../media/127345da-e802-4b3a-afc7-6e354dc3f409.png)
   
 > [!NOTE]
 > 조직에서 Skype 또는 Teams 위치에 대한 보존 정책을 만드는 경우 사용자가 Outlook 데스크톱 클라이언트에서 사서함 폴더의 속성을 볼 때 해당 정책 중 하나가 기본 폴더 정책으로 표시됩니다. 이것은 Outlook의 잘못된 표시 문제이며 [알려진 문제](https://support.microsoft.com/help/4491013/outlook-client-displays-teams-or-skype-for-business-retention-policies)입니다. 기본 폴더 정책으로 표시되어야 하는 것은 폴더에 적용되는 사서함 보존 정책입니다. Skype 또는 Teams 보존 정책은 사용자의 사서함에 적용되지 않습니다.  
@@ -309,23 +309,23 @@ PowerShell만 사용하여 보존 정책을 잠글 수 있습니다.
 
 그런 다음 보존 정책 목록을 보고 잠글 정책의 이름을 찾으려면 `Get-RetentionCompliancePolicy`를 실행합니다.
 
-![PowerShell의 보존 정책 목록](media/retention-policy-preservation-lock-get-retentioncompliancepolicy.PNG)
+![PowerShell의 보존 정책 목록](../media/retention-policy-preservation-lock-get-retentioncompliancepolicy.PNG)
 
 마지막으로 보존 정책에 유지 잠금을 적용하려면 `RestrictiveRetention` 매개 변수가 true로 설정된 `Set-RetentionCompliancePolicy`를 실행합니다. 예시는 다음과 같습니다:
 
 `Set-RetentionCompliancePolicy -Identity “<Name of Policy>” – RestrictiveRetention $true`
 
-![PowerShell의 RestrictiveRetention 매개 변수](media/retention-policy-preservation-lock-restrictiveretention.PNG)
+![PowerShell의 RestrictiveRetention 매개 변수](../media/retention-policy-preservation-lock-restrictiveretention.PNG)
 
 cmdlet을 실행하면 확인 메시지가 표시됩니다. **모두 예**를 선택합니다.
 
-![PowerShell에서 보존 정책 잠금을 원하는지 확인하는 메시지](media/retention-policy-preservation-lock-confirmation-prompt.PNG)
+![PowerShell에서 보존 정책 잠금을 원하는지 확인하는 메시지](../media/retention-policy-preservation-lock-confirmation-prompt.PNG)
 
 이제 보존 정책에 보존 잠금이 적용됩니다. `Get-RetentionCompliancePolicy`을 실행할 경우, `RestrictiveRetention` 매개 변수가 True로 설정됩니다. 예시는 다음과 같습니다:
 
 `Get-RetentionCompliancePolicy -Identity “<Name of Policy>” |Fl`
 
-![PowerShell에 모든 매개 변수와 함께 표시된 잠긴 정책](media/retention-policy-preservation-lock-locked-policy.PNG)
+![PowerShell에 모든 매개 변수와 함께 표시된 잠긴 정책](../media/retention-policy-preservation-lock-locked-policy.PNG)
   
 ## <a name="releasing-a-retention-policy"></a>보존 정책 해제
 
@@ -337,7 +337,7 @@ SharePoint 및 OneDrive의 30일간의 유예 기간은 Exchange의 30일 지연
 
 콘텐츠에 각기 다른 작업(보존, 삭제 또는 둘 다) 및 보존 기간을 지정하는 여러 보존 정책이 적용될 수 있습니다. 우선 순위는 어떨까요? 분명한 것은 가장 높은 수준에서 한 정책을 통해 보존되는 콘텐츠가 다른 정책에 의해 영구적으로 삭제될 수 없다는 것입니다.
   
-![보존 원칙 다이어그램](media/1693d6ec-b340-4805-9da3-89aa41bc6afb.png)
+![보존 원칙 다이어그램](../media/1693d6ec-b340-4805-9da3-89aa41bc6afb.png)
   
 여러 다른 보존 정책 콘텐츠에 적용되는 방식을 이해하려면 다음과 같은 보존 원칙에 유의합니다.
   

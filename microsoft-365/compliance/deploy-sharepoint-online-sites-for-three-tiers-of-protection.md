@@ -20,12 +20,12 @@ ms.custom:
 - Ent_Solutions
 ms.assetid: 1e8e3cfd-b878-4088-b941-9940363a5fae
 description: '요약: 다양한 정보 보호 수준에 맞게 SharePoint Online 팀 사이트를 만들고 구성합니다.'
-ms.openlocfilehash: 1f67dd1956059162902aefdb194e5e514d063778
-ms.sourcegitcommit: a53ec6ab7bf59983780ea7187cd5d56b8b1f4b33
+ms.openlocfilehash: 1827c4a19cfd31a236dfbd58e454c610cae14477
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41855257"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42075536"
 ---
 # <a name="deploy-sharepoint-online-sites-for-three-tiers-of-protection"></a>3단계 보호를 위한 SharePoint Online 사이트 배포
 
@@ -41,7 +41,7 @@ ms.locfileid: "41855257"
 
 구성 결과는 다음과 같습니다.
   
-![공용 SharePoint Online 팀 사이트에 대한 기준 수준 보호입니다.](media/bcd46b8d-3f89-4398-80ce-4da17ee85e03.png)
+![공용 SharePoint Online 팀 사이트에 대한 기준 수준 보호입니다.](../media/bcd46b8d-3f89-4398-80ce-4da17ee85e03.png)
   
 ### <a name="private"></a>비공개
 
@@ -49,7 +49,7 @@ ms.locfileid: "41855257"
   
 구성 결과는 다음과 같습니다.
   
-![개인 SharePoint Online 팀 사이트에 대한 기준 수준의 보호입니다.](media/91769026-37e3-4383-ac3c-dbf7aca98e41.png)
+![개인 SharePoint Online 팀 사이트에 대한 기준 수준의 보호입니다.](../media/91769026-37e3-4383-ac3c-dbf7aca98e41.png)
   
 ## <a name="sensitive-sharepoint-online-team-sites"></a>중요 SharePoint Online 팀 사이트
 
@@ -70,7 +70,7 @@ ms.locfileid: "41855257"
 
 구성 결과는 다음과 같습니다.
   
-![격리된 SharePoint Online 팀 사이트에 대한 중요한 수준의 보호입니다.](media/7a6ab9c6-560a-4674-ac39-8175644dbe6f.png)
+![격리된 SharePoint Online 팀 사이트에 대한 중요한 수준의 보호입니다.](../media/7a6ab9c6-560a-4674-ac39-8175644dbe6f.png)
   
 사이트 구성원은 이제 액세스 그룹 중 하나의 그룹 구성원 자격을 통해 사이트의 리소스에서 안전하게 공동 작업할 수 있습니다.
   
@@ -94,7 +94,7 @@ ms.locfileid: "41855257"
 
 구성 결과는 다음과 같습니다.
   
-![격리된 SharePoint Online 팀 사이트에 대한 높은 기밀 수준의 보호입니다.](media/196359ab-d7ed-4fcf-97b4-61820a74aca4.png)
+![격리된 SharePoint Online 팀 사이트에 대한 높은 기밀 수준의 보호입니다.](../media/196359ab-d7ed-4fcf-97b4-61820a74aca4.png)
   
 사이트 구성원은 이제 액세스 그룹 중 하나의 그룹 구성원 자격을 통해 사이트의 리소스에서 안전하게 공동 작업할 수 있습니다.
   
