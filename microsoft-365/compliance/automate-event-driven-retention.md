@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 이 항목에서는 Microsoft 365 REST API를 사용하여 이벤트를 통한 보존을 자동화하는 비즈니스 프로세스 흐름을 설정하는 방법에 대해 설명합니다.
-ms.openlocfilehash: 46276e1a40df8c5491d569337a683666984be23a
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 692671ca5e7d956cb168ac0de2e409e7023cfd04
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41596325"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42079102"
 ---
 # <a name="automate-event-based-retention"></a>이벤트 기반 보존 자동화
 
@@ -121,13 +121,13 @@ Rest API는 서비스 자원에 대한 작성/검색/갱신/삭제 액세스를 
 
 아래 다이어그램은 단일 이벤트와 연관된 레이블이 어떻게 여러 개가 존재할 수 있는지 보여줍니다. 여기서 근로자 보상 레이블 아래의 모든 파일과 직원 혜택 레이블 아래의 모든 파일은 조직을 떠나는 직원이라는 단일 이벤트와 연관됩니다. 이러한 서로 다른 파일에는 서로 다른 보존 시계가 있습니다.  따라서 직원이 조직을 떠날 때 각 레이블 내의 파일에는 다른 보존 기간이 적용됩니다. 각 직원의 개별 파일 유형 또는 레이블에 대해 이러한 다양한 보존 시계를 트리거하는 것은 매우 어려운 작업입니다. 여러 직원에 대해 이 작업을 수행한다고 가정해 보십시오.
 
-![이벤트 유형, 이벤트 및 레이블 다이어그램](media/automate-event-driven-retention-event-diagram-employee-leaving.png)
+![이벤트 유형, 이벤트 및 레이블 다이어그램](../media/automate-event-driven-retention-event-diagram-employee-leaving.png)
 
 따라서 여러 직원에 대해 서로 다른 보존 시계를 트리거하는 자동화된 프로세스는 시간을 절약해주고 오류가 없으며 매우 효율적입니다.
 
 **이 시나리오에 대한 이벤트 기반 자동 보존 구성하기:**
 
-![조직을 떠나는 직원 시나리오에 대한 역할 및 작업 다이어그램](media/automate-event-driven-retention-employee-termination-diagram.png)
+![조직을 떠나는 직원 시나리오에 대한 역할 및 작업 다이어그램](../media/automate-event-driven-retention-employee-termination-diagram.png)
 
   - 관리자는 문서 집합에 Jane Doe, John Smith와 같은 직원 폴더를 생성합니다.
 
@@ -151,9 +151,9 @@ Rest API는 서비스 자원에 대한 작성/검색/갱신/삭제 액세스를 
 
 1단계- Flow를 생성하여 Microsoft 365 REST API를 사용하는 이벤트를 만듭니다.
 
-![Flow를 사용해 이벤트 만들기](media/automate-event-driven-retention-flow-1.png)
+![Flow를 사용해 이벤트 만들기](../media/automate-event-driven-retention-flow-1.png)
 
-![Flow를 사용해 REST API 호출하기](media/automate-event-driven-retention-flow-2.png)
+![Flow를 사용해 REST API 호출하기](../media/automate-event-driven-retention-flow-2.png)
 
 ##### <a name="create-an-event"></a>이벤트 만들기
 
@@ -423,7 +423,7 @@ CRM(고객 관계 관리) 시스템은 Microsoft 365와 함께 작동하고 계�
 
 **이 시나리오에 대한 자동 이벤트 기반 보유 구성:**
 
-![계약 만료 시나리오에 대한 역할 및 작업 다이어그램](media/automate-event-driven-retention-contract-expiration.png)
+![계약 만료 시나리오에 대한 역할 및 작업 다이어그램](../media/automate-event-driven-retention-contract-expiration.png)
 
   - 관리자는 각 계약 유형별로 다양한 폴더가 있는 SharePoint 라이브러리를 만듭니다.
 
@@ -451,7 +451,7 @@ ERP(Enterprise Resource Planning) 시스템은 Microsoft 365 및 Microsoft Flow�
 
 **이 시나리오에 대한 이벤트 기반 자동 보존 구성하기:**
 
-![제품 수명 주기 시나리오에 대한 역할 및 작업 다이어그램](media/automate-event-driven-retention-product-lifecycle-expiration.png)
+![제품 수명 주기 시나리오에 대한 역할 및 작업 다이어그램](../media/automate-event-driven-retention-product-lifecycle-expiration.png)
 
   - 관리자는 제품 1, 제품 2 등과 같이 문서 집합에 제품 폴더를 만듭니다.
 
