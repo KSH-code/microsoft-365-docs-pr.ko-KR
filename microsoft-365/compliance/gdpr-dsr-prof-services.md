@@ -15,12 +15,12 @@ ms.collection:
 - GDPR
 - M365-security-compliance
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 88dc03613a6a2b77ed9cb440d8c8d80c7cfbae2b
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: bcc1634398e86e0f4569d5d5fb0c5bc40ce8fc68
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41596495"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42073332"
 ---
 # <a name="microsoft-support-and-professional-services-data-subject-requests-for-the-gdpr-and-ccpa"></a>GDPR 및 CCPA에 대한 Microsoft 고객 지원 및 전문 서비스 데이터 주체 요청
 
@@ -132,7 +132,7 @@ Microsoft가 고객의 DSR 확인을 지원할 경우, 이것은 비즈니스 �
 
 특정 계약을 식별하기 위해 고객은 여러 계약을 검색해야 합니다. 프리미어 고객의 경우 고객을 위한 “CSM”(계약 서비스 관리자)를 해당 계약 일정에 따라 생성된 모든 SR(지원 요청)에서 볼 수 있습니다. 프리미어 이외 고객의 경우, 온라인 서비스 지원 영역 등과 같은 동등한 지원 계약 포털을 사용할 수 있습니다.
 
-![SMC에서 검색](media/Prof-Serv-DSR-Doc-Final_image3.png)CSM은 “SMC”(Support.Microsoft.Com([https://support.microsoft.com/\<local language code\>/premier](https://support.microsoft.com/%3clocal%20language%20code%3e/premier))의 포털로 이동한 후 지원 요청을 선택하고 검토할 수 있습니다. (참고: URL에서 사용하는 로컬 언어 코드로 바꾸세요.)
+![SMC에서 검색](../media/Prof-Serv-DSR-Doc-Final_image3.png)CSM은 “SMC”(Support.Microsoft.Com([https://support.microsoft.com/\<local language code\>/premier](https://support.microsoft.com/%3clocal%20language%20code%3e/premier))의 포털로 이동한 후 지원 요청을 선택하고 검토할 수 있습니다. (참고: URL에서 사용하는 로컬 언어 코드로 바꾸세요.)
 
 >[!IMPORTANT]
 >SMC의 사례 기록 외에, 고객은 지원 계약 동안 Microsoft가 수집한(또는 고객의 권한에 따라 온라인 서비스에서 제거된) 최종 사용자의 개인 데이터가 파일에 있을 수 있습니다. 예로는 고객의 Exchange 사서함, Azure VM 또는 데이터베이스의 복사본이 있습니다. 이 개인 데이터는 특정 계약에 대한 사례 내역(즉, 티켓)에 언급될 수도 있고 언급되지 않을 수도 있습니다. 해당 데이터를 검토하려면 고객 담당자가 Microsoft 지원 DTM(데이터 전송 및 관리 도구)에서 작업 영역에 대한 URL을 수신한 인증된 특정(AAD 또는 MSA) 지원 요청 담당자여야 합니다. 고객 담당자는 파일에 대한 액세스 권한을 가지지만 전역 보기를 사용할 수 없으며 SMC는 파일이 있는지를 나타내지 않습니다.

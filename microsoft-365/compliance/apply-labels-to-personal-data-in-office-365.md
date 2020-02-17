@@ -17,12 +17,12 @@ localization_priority: Priority
 search.appverid:
 - MET150
 description: GDPR 보호 계획의 일부로 Office 레이블을 사용하는 방법을 알아봅니다.
-ms.openlocfilehash: 7561daccb400fd5364e8c1ed948924f7975af5a7
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 179b71e9fa41b5e3e602dfe78848e9d1afc4699e
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41596095"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42079809"
 ---
 # <a name="apply-labels-to-personal-data-in-office-365"></a>Office 365의 개인 데이터에 레이블 적용
 
@@ -41,7 +41,7 @@ Cloud App Security에서 현재 보존 레이블을 지원하지 않지만 Offic
 
 보존 레이블을 Exchange Online의 메일에 적용할 수 있으며 이러한 레이블은 Office 365 데이터 손실 방지와 함께 작동합니다. 
 
-![Office 365 레이블 및 Azure Information Protection 레이블](Media/Apply-labels-to-personal-data-in-Office-365-image1.png)
+![Office 365 레이블 및 Azure Information Protection 레이블](../media/Apply-labels-to-personal-data-in-Office-365-image1.png)
 
 
 이 그림의 내용
@@ -55,7 +55,7 @@ Cloud App Security에서 현재 보존 레이블을 지원하지 않지만 Offic
 
 다음 그림은 레이블 정책, 데이터 손실 방지 정책 및 Cloud App Security 정책에서 보존 레이블 및 중요한 정보 유형을 사용하는 방법을 보여 줍니다.
 
-![Office 레이블 및 중요한 정보 유형](Media/Apply-labels-to-personal-data-in-Office-365-image2.png)
+![Office 레이블 및 중요한 정보 유형](../media/Apply-labels-to-personal-data-in-Office-365-image2.png)
 
 다음 표에서는 이해를 돕기 위해 그림과 동일한 예제를 제공합니다.
 
@@ -196,7 +196,7 @@ GDPR이 적용되는 개인 데이터의 경우, 사용자 환경을 위해 조�
 
 다음 그림에서는 고객 데이터 레이블에 대한 자동 적용 레이블을 만드는 방법을 보여 줍니다.
 
-![고객 데이터에 대한 레이블 만들기 및 적용](Media/Apply-labels-to-personal-data-in-Office-365-image3.png)
+![고객 데이터에 대한 레이블 만들기 및 적용](../media/Apply-labels-to-personal-data-in-Office-365-image3.png)
 
 이 그림의 내용
 

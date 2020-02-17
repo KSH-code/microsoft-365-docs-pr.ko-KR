@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: af398293-c69d-465e-a249-d74561552d30
 description: 파일 계획 관리자는 보존 레이블 및 보존 레이블 정책에 대한 고급 관리 기능을 제공하고, 생성부터 공동 작업, 레코드 선언, 보존 및 최종 처리에 이르는 전체 콘텐츠 수명 주기 동안 레이블 및 레이블-콘텐츠 간 활동을 트래버스하는 통합 방법을 제공합니다.
-ms.openlocfilehash: d102d264fd3aeed20eb952caa6df8c73fe5c51b8
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: bad2e592359cb3e1f63e3fa020914ad49a65a471
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41594579"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42074228"
 ---
 # <a name="overview-of-file-plan-manager"></a>파일 계획 관리자 개요
 
@@ -29,7 +29,7 @@ ms.locfileid: "41594579"
 
 보안 및 준수 센터에서 파일 계획 관리자에 액세스하려면 **레코드 관리** > **파일 계획**으로 이동합니다.
 
-![파일 계획 페이지](media/file-plan-page.png)
+![파일 계획 페이지](../media/file-plan-page.png)
 
 ## <a name="accessing-file-plan-manager"></a>파일 계획 관리자 액세스
 
@@ -89,7 +89,7 @@ ms.locfileid: "41594579"
     - 자동 삭제
     - 검토 필요(즉, 처리 검토)
 
-![파일 계획의 레이블 설정](media/file-plan-label-columns.png)
+![파일 계획의 레이블 설정](../media/file-plan-label-columns.png)
 
 ### <a name="retention-label-file-plan-descriptors-columns"></a>보존 레이블 파일 계획 설명자 열
 
@@ -99,11 +99,11 @@ ms.locfileid: "41594579"
 
 보존 레이블을 만들거나 편집할 때의 파일 계획 설명자 단계 보기는 다음과 같습니다.
 
-![파일 계획 설명자](media/file-plan-descriptors.png)
+![파일 계획 설명자](../media/file-plan-descriptors.png)
 
 파일 계획 관리자의 **레이블** 탭에 표시되는 파일 계획 설명자 열 보기는 다음과 같습니다.
 
-![file-plan-descriptors-on-labels-tab.png](media/file-plan-descriptors-on-labels-tab.png)
+![file-plan-descriptors-on-labels-tab.png](../media/file-plan-descriptors-on-labels-tab.png)
 
 ## <a name="export-all-existing-retention-labels-to-analyze-andor-perform-offline-reviews"></a>모든 기존 보존 레이블을 내보내어 오프라인 검토를 분석 및/또는 수행
 
@@ -111,11 +111,11 @@ ms.locfileid: "41594579"
 
 모든 보존 레이블의 내보내려면 **파일 계획** 페이지, **파일 계획 작업** \> **레이블 내보내기**로 이동합니다.
 
-![파일 계획 내보내기 옵션](media/file-plan-export-labels-option.png)
+![파일 계획 내보내기 옵션](../media/file-plan-export-labels-option.png)
 
 모든 기존 보존 레이블을 포함하는 *.csv 파일이 열립니다.
 
-![모든 보존 레이블이 표시되는 CSV 파일](media/file-plan-csv-file.png)
+![모든 보존 레이블이 표시되는 CSV 파일](../media/file-plan-csv-file.png)
 
 ## <a name="import-retention-labels-into-your-file-plan"></a>파일 계획에 보존 레이블 가져오기
 
@@ -125,13 +125,13 @@ ms.locfileid: "41594579"
 
 1. **파일 계획** 페이지에서 **파일 계획 작업** > **레이블 가져오기**로 이동합니다.
 
-   ![파일 계획 가져오기 옵션](media/file-plan-import-labels-option.png)
+   ![파일 계획 가져오기 옵션](../media/file-plan-import-labels-option.png)
 
-   ![빈 파일 계획 서식 파일 다운로드 옵션](media/file-plan-blank-template-option.png)
+   ![빈 파일 계획 서식 파일 다운로드 옵션](../media/file-plan-blank-template-option.png)
 
 2. 새 보존 레이블을 가져오려면 빈 서식 파일을 다운로드합니다. 또는 조직에서 기존 보존 레이블을 내보낼 때 내보낸 .csv 파일로 시작할 수 있습니다.
 
-   ![Excel에서 빈 파일 계획 서식 파일 열기](media/file-plan-blank-template.png)
+   ![Excel에서 빈 파일 계획 서식 파일 열기](../media/file-plan-blank-template.png)
 
 3. 서식 파일 채우기 다음에서는 파일 계획 서식 파일의 각 속성에 대한 속성 및 유효한 값을 설명합니다.<br/>
 
@@ -159,16 +159,16 @@ ms.locfileid: "41594579"
 
    다음은 보존 레이블에 대한 정보가 포함된 서식 파일의 예입니다.
 
-   ![정보가 채워진 파일 계획 서식 파일](media/file-plan-filled-out-template.png)
+   ![정보가 채워진 파일 계획 서식 파일](../media/file-plan-filled-out-template.png)
 
 4. 파일 계획 가져오기 마법사 페이지의 3단계에서 **파일 찾아보기**를 클릭하여 데이터를 입력한 서식 파일을 업로드합니다. 
 
    파일 계획 관리자에서 항목의 유효성을 검사하고 가져오기 통계를 표시합니다.
 
-   ![파일 계획 가져오기 통계](media/file-plan-import-statistics.png)
+   ![파일 계획 가져오기 통계](../media/file-plan-import-statistics.png)
 
    유효성 검사 오류가 발생하면 파일 계획 가져오기가 가져오기 파일로 돌아가서 해당 오류를 손쉽게 수정할 수 있도록 계속해서 가져오기 파일의 모든 항목에 대한 유효성 검사를 수행하고 가져오기 파일의 줄/행 번호를 참조하는 모든 오류를 표시하며, 표시된 오류 결과를 복사합니다.
 
 5. 가져오기가 완료되면 파일 계획 관리자로 돌아가서 새 보존 레이블을 새 보존 레이블 및 기존 보존 레이블 정책과 연결합니다.
 
-   ![레이블 게시 옵션](media/file-plan-publish-labels-option.png)
+   ![레이블 게시 옵션](../media/file-plan-publish-labels-option.png)
