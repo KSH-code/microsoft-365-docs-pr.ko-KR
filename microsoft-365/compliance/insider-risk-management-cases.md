@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: d87531d7a664ca359f7cbe6c05f26f574c44f833
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 02f665f966b929ac8a83acfcdf5be6a5818a64d3
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41590679"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42072863"
 ---
 # <a name="insider-risk-management-cases-preview"></a>참가자 위험 관리 사례 (미리 보기)
 
@@ -41,7 +41,7 @@ ms.locfileid: "41590679"
 - **마지막 업데이트**: 사례에 대 한 설명이 추가 되었거나 서비스 케이스 상태가 변경 된 후에 경과 된 시간입니다.
 - **마지막으로 업데이트 한 사람**: 사례를 마지막으로 업데이트 한 참가자 위험 관리 분석가 또는 investigator의 이름입니다.
 
-![참가자 위험 관리 사례 대시보드](media/insider-risk-cases-dashboard.png)
+![참가자 위험 관리 사례 대시보드](../media/insider-risk-cases-dashboard.png)
 
 **검색** 컨트롤을 사용 하 여 서비스 케이스 이름을 특정 텍스트에 대해 검색 하 고, 사례 필터를 사용 하 여 사례를 다음 특성으로 정렬 합니다.
 
@@ -67,7 +67,7 @@ ms.locfileid: "41590679"
 - **확인 된 경고**: 사용자가 사례에 대해 확인 한 경고 목록입니다.
 - **위험성이 있는 콘텐츠**: 콘텐츠 원본 및 유형별로 정렬 된 콘텐츠 목록입니다. 예를 들어 SharePoint Online의 사례 알림 콘텐츠에 대 한 경우의 경고에 대 한 위험 활동과 관련 된 폴더 또는 파일 이름이 표시 될 수 있습니다.
 
-![참가자 위험 관리 사례 세부 정보](media/insider-risk-case-details.png)
+![참가자 위험 관리 사례 세부 정보](../media/insider-risk-case-details.png)
 
 ### <a name="alerts"></a>경고
 
@@ -89,7 +89,7 @@ ms.locfileid: "41590679"
 
 **사용자 활동** 탭은 참가자 위험 관리 솔루션의 사례에 대 한 내부 위험 분석 및 조사를 위한 가장 강력한 도구 중 하나입니다. 이 탭은 모든 경고의 기록, 모든 알림 세부 정보, 사례에서 사용자의 현재 위험 점수 및 사례에 위험을 포함 하기 위한 효과적인 작업을 수행 하는 컨트롤을 포함 하 여 사례를 빠르게 검토할 수 있도록 구성 되어 있습니다.
 
-![참가자 위험 관리 사용자 활동](media/insider-risk-user-activities.png)
+![참가자 위험 관리 사용자 활동](../media/insider-risk-user-activities.png)
 
 1. **날짜 및 창 시간 필터**: 기본적으로 사례에서 확인 된 알림의 마지막 6 개월이 사용자 활동 차트에 표시 됩니다. 차트 창 양쪽 끝에 있는 slider 컨트롤을 사용 하 여 차트 보기를 쉽게 필터링 하거나 차트 필터 컨트롤에서 특정 시작 및 종료 날짜를 정의할 수 있습니다.
 2. **위험 경고 활동 및 세부 정보**: 위험 작업을 사용자 활동 차트에 색칠 된 풍선으로 시각적으로 표시 합니다. 거품은 각 위험 범주에 대해 생성 되며 거품 크기는 해당 종류에 대 한 위험 활동 수에 비례 합니다. 버블을 선택 하 여 각 위험 활동에 대 한 세부 정보를 표시 합니다. 세부 정보는 다음과 같습니다.
@@ -107,7 +107,7 @@ ms.locfileid: "41590679"
 
 Content explorer는 기본 및 고급 검색 및 필터링 기능을 제공 하는 강력한 도구입니다. 콘텐츠 탐색기를 사용 하는 방법에 대 한 자세한 내용은 [Insider 위험성이 management content explorer](insider-risk-management-content-explorer.md)를 참조 하십시오.
 
-![참가자 위험 관리 사례 콘텐츠 탐색기](media/insider-risk-content-explorer.png)
+![참가자 위험 관리 사례 콘텐츠 탐색기](../media/insider-risk-content-explorer.png)
 
 ### <a name="case-notes"></a>사례 메모
 

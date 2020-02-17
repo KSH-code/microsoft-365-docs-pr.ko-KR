@@ -10,16 +10,24 @@ f1.keywords:
 ms.author: jaimeo
 ms.topic: article
 ms.localizationpriority: normal
-ms.openlocfilehash: 9a5d163d14dda6aed50a39a27ae9a03ffbed526c
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 5c021654c99faf3104766dc05fe466ce9537d656
+ms.sourcegitcommit: 7d07e7ec84390a8f05034d3639fa5db912809585
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41596585"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42091361"
 ---
 # <a name="change-history-for-microsoft-managed-desktop-documentation"></a>Microsoft Managed Desktop 문서 변경 기록
 
 이 항목에서는 [Microsoft Managed Desktop 설명서](index.yml)의 새로운 항목과 업데이트 된 항목을 나열 합니다. "업데이트 된" 항목은 재료가 추가 되거나 수정 된 항목이 며, 오타, 스타일 또는 서식 문제를 수정 하는 것과 같은 사소한 수정 사항이 나열 되지 않습니다. [GitHub의 리포지토리](https://github.com/MicrosoftDocs/microsoft-365-docs/tree/public/microsoft-365/managed-desktop)를 방문 하 여 언제 든 지 변경 세부 정보를 비롯 하 여 특정 커밋 기록을 볼 수 있습니다.
+
+## <a name="january-2020"></a>2020년 1월
+새로 만들기 또는 변경 된 항목 | 설명
+--- | ---
+[사용자들이 장치를 사용할 수 있도록 준비시키기](get-started/get-started-devices.md)| 업데이트 된 항목
+[관리 포털에서 관리자 연락처 추가 및 확인](get-started/add-admin-contacts.md) | 업데이트 된 항목
+[장치 구성](service-description/device-policies.md) | 업데이트 된 항목
+
 
 ## <a name="december-2019"></a>2019년 12월
 새로 만들기 또는 변경 된 항목 | 설명
