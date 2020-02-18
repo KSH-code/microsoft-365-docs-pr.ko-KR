@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 레이블을 사용하여 조직 전체의 데이터를 관리하여 분류하고 해당 분류에 따라 보존 규칙을 시행하십시오. 보존 레이블을 사용하여 Microsoft 365용 레코드 관리 솔루션을 구현할 수도 있습니다.
-ms.openlocfilehash: d10b47ccf85493f22d9ef5bdfa0e36e4e954c8a7
-ms.sourcegitcommit: 4986032867b8664a215178b5e095cbda021f3450
+ms.openlocfilehash: 27f680bf2acf844618f133b074faf6f5ec3f7e90
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "41957173"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42072601"
 ---
 # <a name="overview-of-retention-labels"></a>보존 레이블 개요
 
@@ -69,11 +69,11 @@ Microsoft 365 규정 준수 센터, Microsoft 365 보안 센터 또는 Office 36
 
 콘텐츠를 분류할 수 있도록 조직의 사용자에게 보존 레이블을 제공하는 작업은 2단계 프로세스입니다. 먼저 보존 레이블을 만든 다음 선택한 위치에 게시합니다. 보존 레이블을 게시하면 보존 레이블 정책이 생성됩니다.
   
-![레이블의 역할 및 작업 다이어그램](media/4082bc7d-c04c-4b9a-8a26-7f12565d3311.png)
+![레이블의 역할 및 작업 다이어그램](../media/4082bc7d-c04c-4b9a-8a26-7f12565d3311.png)
   
 보존 레이블은 한 개 이상의 보존 레이블 정책에 포함되는 독립적인 재사용 가능한 구성 요소입니다. 보존 레이블 정책의 기본 목적은 보존 레이블 집합을 그룹화하고 해당 레이블을 표시할 위치를 지정하는 것입니다.
   
-![레이블, 레이블 정책 및 위치 다이어그램](media/eee42516-adf0-4664-b5ab-76727a9a3511.png)
+![레이블, 레이블 정책 및 위치 다이어그램](../media/eee42516-adf0-4664-b5ab-76727a9a3511.png)
   
 1. 보존 레이블을 게시하면 보존 레이블 정책에 포함됩니다. 보존 레이블 이름은 변경 불가능하므로 만든 후에는 편집할 수 없습니다.
 
@@ -112,13 +112,13 @@ Microsoft 365 규정 준수 센터, Microsoft 365 보안 센터 또는 Office 36
 
 SharePoint 또는 OneDrive에 보존 레이블을 게시하면 해당 보존 레이블이 최종 사용자에 게 표시되기까지 하루가 걸릴 수 있습니다. 또한 보존 레이블을 Exchange에 게시하는 경우 해당 보존 레이블이 최종 사용자에게 표시되기까지 7일이 걸릴 수 있으며, 사서함에는 10MB 이상의 데이터가 포함되어야 합니다.
   
-![수동 레이블이 적용되는 경우를 나타내는 다이어그램](media/b19f3a10-f625-45bf-9a53-dd14df02ae7c.png)
+![수동 레이블이 적용되는 경우를 나타내는 다이어그램](../media/b19f3a10-f625-45bf-9a53-dd14df02ae7c.png)
   
 ### <a name="auto-apply-retention-labels"></a>보존 레이블 작동 적용
 
 특정 조건과 일치하는 콘텐츠에 보존 레이블을 자동으로 적용하는 경우 보존 레이블이 조건과 일치하는 모든 기존 콘텐츠에 적용되는 데 7일이 걸릴 수 있습니다.
   
-![자동 적용 레이블이 적용되는 경우를 나타내는 다이어그램](media/b8c00657-477a-4ade-b914-e643ef97a10d.png)
+![자동 적용 레이블이 적용되는 경우를 나타내는 다이어그램](../media/b8c00657-477a-4ade-b914-e643ef97a10d.png)
   
 ### <a name="how-to-check-on-the-status-of-retention-labels-published-to-exchange"></a>Exchange에 게시된 보존 레이블의 상태를 확인하는 방법
 
@@ -168,7 +168,7 @@ Exchange 공용 폴더 및 Skype는 레이블을 지원하지 않습니다.
     
 - 보존 기간은 콘텐츠 사용 기간이나 마지막으로 수정되었을 때가 아니라 콘텐츠에 레이블이 지정될 때 시작됩니다. 해당 옵션은 SharePoint 사이트 및 OneDrive 계정의 콘텐츠에만 적용됨을 유의하세요. Exchange 전자 메일의 경우 보존 기간은 사용자가 선택한 옵션에 상관없이 항상 메시지를 보냈거나 받은 날짜를 기준으로 합니다.
     
-![레이블 관련 옵션이 있는 보존 설정](media/c49118c9-6279-4661-94db-deffa76e27ac.png)
+![레이블 관련 옵션이 있는 보존 설정](../media/c49118c9-6279-4661-94db-deffa76e27ac.png)
   
 ## <a name="where-published-retention-labels-can-appear-to-end-users"></a>게시된 보존 레이블이 최종 사용자에게 표시될 수 있는 위치
 
@@ -190,11 +190,11 @@ Exchange 공용 폴더 및 Skype는 레이블을 지원하지 않습니다.
 
 웹용 Outlook에서 항목에 레이블을 지정하려면 마우스 오른쪽 단추로 항목 \> **정책 할당**을 클릭하고 \> 보존 레이블을 선택합니다. 
   
-![웹용 Outlook의 정책 할당 메뉴](media/146a23cf-e478-4595-b2e8-f707fc4e6ea3.png)
+![웹용 Outlook의 정책 할당 메뉴](../media/146a23cf-e478-4595-b2e8-f707fc4e6ea3.png)
   
 해당 보존 레이블이 적용된 후에는 항목 맨 위에서 해당 보존 레이블과 수행되는 작업을 볼 수 있습니다. 전자 메일 분류되고 연결된 보존 기간이 있으면 전자 메일이 만료될 시기를 한눈에 알 수 있습니다.
   
-![웹용 Outlook에서 전자 메일에 할당된 레이블](media/16f6c91b-5eab-4574-9d13-6d12be00a783.png)
+![웹용 Outlook에서 전자 메일에 할당된 레이블](../media/16f6c91b-5eab-4574-9d13-6d12be00a783.png)
   
 폴더에 보존 레이블을 적용할 수도 있습니다. 이러한 경우 다음을 수행됩니다.
   
@@ -210,7 +210,7 @@ Exchange 공용 폴더 및 Skype는 레이블을 지원하지 않습니다.
 
 Outlook 데스크톱 클라이언트에서 항목에 레이블을 지정하려면 해당 항목을 선택합니다. 리본 메뉴의 **홈** 탭에서 **정책 할당**을 클릭한 다음, 보존 레이블을 선택합니다. 
   
-![정책 할당 단추](media/30684dea-dd73-4e4a-9185-8e29f403b6ca.png)
+![정책 할당 단추](../media/30684dea-dd73-4e4a-9185-8e29f403b6ca.png)
   
 항목을 마우스 오른쪽 단추로 클릭하고, 상황에 맞는 메뉴에서 **정책 할당**를 클릭한 다음, 보존 레이블을 선택할 수도 있습니다. 
 
@@ -220,19 +220,19 @@ Outlook 데스크톱 클라이언트에서 항목에 레이블을 지정하려�
   
 ### <a name="onedrive-and-sharepoint"></a>OneDrive 및 SharePoint
 
-OneDrive 또는 SharePoint에서 문서(OneNote 파일 포함)에 레이블을 지정하려면 오른쪽 위 모서리에서 항목 \>을 선택하고 **세부 정보 창 열기**![정보 창 아이콘](media/50b6d51b-92b4-4c5f-bb4b-4ca2d4aa3d04.png) \> **보존 레이블 적용**을 선택한 후 \> 보존 레이블을 선택합니다. 
+OneDrive 또는 SharePoint에서 문서(OneNote 파일 포함)에 레이블을 지정하려면 오른쪽 위 모서리에서 항목 \>을 선택하고 **세부 정보 창 열기**![정보 창 아이콘](../media/50b6d51b-92b4-4c5f-bb4b-4ca2d4aa3d04.png) \> **보존 레이블 적용**을 선택한 후 \> 보존 레이블을 선택합니다. 
   
 폴더 또는 문서 집합에 보존 레이블을 적용할 수도 있으며, 문서 라이브러리에 대해 기본 보존 레이블을 설정할 수 있습니다. 자세한 내용은 아래 섹션을 참조하세요.
   
-![SharePoint의 항목에 대해 레이블 목록 적용](media/151cc83c-da57-45b0-9cd1-fd2f28a31083.png)
+![SharePoint의 항목에 대해 레이블 목록 적용](../media/151cc83c-da57-45b0-9cd1-fd2f28a31083.png)
   
 항목에 보존 레이블이 적용된 후에는 항목을 선택하면 세부 정보 창에서 해당 레이블을 볼 수 있습니다.
   
-![세부 정보 창에 표시되는 적용된 레이블](media/d06e585e-29f7-4c8c-afef-629c97268b8e.png)
+![세부 정보 창에 표시되는 적용된 레이블](../media/d06e585e-29f7-4c8c-afef-629c97268b8e.png)
   
 **레이블** 열 또는 **기록 항목임** 열이 포함된 라이브러리의 보기를 만들 수도 있습니다. 이 경우 모든 항목에 할당된 보존 레이블과 기록에 해당하는 항목을 한눈에 확인할 수 있습니다. 그렇지만 **기록 항목임** 열을 기준으로는 보기를 필터링할 수 없습니다. 
   
-![사용자 지정 보기에 표시된 레이블에 대한 라이브러리 열](media/e3392627-c0a3-405e-bb57-55f27c34cfdd.png)
+![사용자 지정 보기에 표시된 레이블에 대한 라이브러리 열](../media/e3392627-c0a3-405e-bb57-55f27c34cfdd.png)
   
 ### <a name="office-365-groups"></a>Office 365 그룹
 
@@ -246,7 +246,7 @@ Office 365 그룹 콘텐츠를 보존하려면 Office 365 그룹 위치를 사�
 
 보존 레이블의 가장 강력한 기능 중 하나는 특정 조건과 일치하는 콘텐츠에 자동으로 레이블을 적용하는 기능입니다. 이 경우 조직의 사용자는 레이블을 적용할 필요가 없습니다. Office 365에서 이 작업을 수행합니다.
   
-![자동 적용 레이블의 역할 및 작업 다이어그램](media/32f2f2fd-18a8-43fd-839d-72ad7a43e069.png)
+![자동 적용 레이블의 역할 및 작업 다이어그램](../media/32f2f2fd-18a8-43fd-839d-72ad7a43e069.png)
   
 자동 적용 보존 레이블은 다음과 같은 기능 때문에 강력합니다.
   
@@ -262,7 +262,7 @@ Office 365 그룹 콘텐츠를 보존하려면 Office 365 그룹 위치를 사�
     
 - 만든 쿼리와 일치하는 특정 키워드
     
-![자동 적용 레이블에 대한 조건 페이지 선택](media/classifier-pre-trained-apply-label-match-trainable-classifier.png)
+![자동 적용 레이블에 대한 조건 페이지 선택](../media/classifier-pre-trained-apply-label-match-trainable-classifier.png)
 
 
 자동 적용 보존 레이블에는 Office 365 Enterprise E5 구독이 필요하며, 위에 설명한 것처럼 조건과 일치하는 모든 콘텐츠에 자동 적용 보존 레이블이 적용되는 데는 7일까지 소요될 수 있습니다.
@@ -274,7 +274,7 @@ Office 365 그룹 콘텐츠를 보존하려면 Office 365 그룹 위치를 사�
 
 중요한 정보에 대한 자동 적용 보존 레이블을 만들면 DLP(데이터 손실 방지) 정책을 만들 때 같은 정책 템플릿 목록이 표시됩니다. 각 정책 템플릿은 특정 중요한 정보 유형을 찾도록 미리 구성되어 있습니다. 예를 들어, 여기에 표시된 템플릿은 미국 ITIN, SSN 및 여권 번호를 검색합니다. DLP에 대한 자세한 내용은 [데이터 손실 방지 정책 개요](data-loss-prevention-policies.md)를 참조하세요.
   
-![중요한 정보 유형을 갖는 정책 템플릿](media/dafd87d4-c7bb-439a-ac7b-193c018f98a5.png)
+![중요한 정보 유형을 갖는 정책 템플릿](../media/dafd87d4-c7bb-439a-ac7b-193c018f98a5.png)
   
 정책 템플릿을 선택한 후 임의 유형의 중요한 정보를 추가하거나 제거하고, 인스턴스 수 및 일치 정확도를 변경할 수 있습니다. 여기에 표시된 예제에서는 다음 경우에만 보존 레이블이 자동 적용됩니다.
   
@@ -284,7 +284,7 @@ Office 365 그룹 콘텐츠를 보존하려면 Office 365 그룹 위치를 사�
     
 이 옵션에 대한 자세한 내용은 [더 쉽게 또는 더 어렵게 일치하도록 규칙 조정](data-loss-prevention-policies.md#tuning-rules-to-make-them-easier-or-harder-to-match)을 참조하세요.
     
-![중요한 정보 유형을 식별하기 위한 옵션](media/de255881-f596-4c8d-8359-e974e3a0819a.png)
+![중요한 정보 유형을 식별하기 위한 옵션](../media/de255881-f596-4c8d-8359-e974e3a0819a.png)
   
 ### <a name="auto-apply-labels-to-content-with-keywords-or-searchable-properties"></a>키워드 또는 검색 가능 속성이 있는 콘텐츠에 레이블 자동 적용
 
@@ -308,7 +308,7 @@ Office 365 그룹 콘텐츠를 보존하려면 Office 365 그룹 위치를 사�
     - contenttype:contract
     - site:https<!--nolink-->://contoso.sharepoint.com/sites/teams/procurement AND contenttype:contract
 
-![쿼리 편집기](media/ac5b8e5e-7453-4ec7-905c-160df57298d3.png)
+![쿼리 편집기](../media/ac5b8e5e-7453-4ec7-905c-160df57298d3.png)
 
 ## <a name="applying-a-default-retention-label-to-all-content-in-a-sharepoint-library-folder-or-document-set"></a>SharePoint 라이브러리, 폴더 또는 문서 집합의 모든 콘텐츠에 기본 보존 레이블 적용
 
@@ -318,7 +318,7 @@ Office 365 그룹 콘텐츠를 보존하려면 Office 365 그룹 위치를 사�
   
 예를 들어 마케팅 자료에 대한 태그가 있고 특정 문서 라이브러리에 해당 유형의 콘텐츠만 포함된다는 것을 알 경우 마케팅 자료 태그를 해당 라이브러리의 모든 문서에 대한 기본 태그로 지정할 수 있습니다.
   
-![라이브러리 설정 페이지의 레이블 적용 옵션](media/0787d651-63dc-43b4-8768-716a5ecc64ec.png)
+![라이브러리 설정 페이지의 레이블 적용 옵션](../media/0787d651-63dc-43b4-8768-716a5ecc64ec.png)
   
 라이브러리, 폴더 또는 문서 집합의 기존 항목에 기본 보존 레이블을 적용하는 경우 다음 작업이 수행됩니다.
   
@@ -340,7 +340,7 @@ Outlook 2010 이상에서는 보존 레이블 또는 보존 정책을 적용하�
   
 규칙을 만들려면 마우스 오른쪽 단추로 항목 \> **규칙** \> **규칙 만들기** \> **고급 옵션** \> **규칙 마법사** \> **보존 정책 적용**을 클릭합니다.
   
-![보존 정책을 적용하는 옵션이 포함된 규칙 마법사](media/eeb2407c-15b6-4224-99cf-e0a00034d8ea.png)
+![보존 정책을 적용하는 옵션이 포함된 규칙 마법사](../media/eeb2407c-15b6-4224-99cf-e0a00034d8ea.png)
   
 ## <a name="classifying-content-without-applying-any-actions"></a>작업을 적용하지 않고 콘텐츠 분류
 
@@ -348,7 +348,7 @@ Outlook 2010 이상에서는 보존 레이블 또는 보존 정책을 적용하�
   
 예를 들어, 작업 없이 “나중에 검토”라는 보존 레이블을 만든 다음, 해당 보존 레이블을 중요한 정보 유형을 갖는 콘텐츠 또는 쿼리된 콘텐츠에 자동으로 적용할 수 있습니다.
   
-![보존이 해제된 레이블 설정 페이지](media/17ce863b-a823-426e-aaad-83718465f762.png)
+![보존이 해제된 레이블 설정 페이지](../media/17ce863b-a823-426e-aaad-83718465f762.png)
   
 ## <a name="using-retention-labels-for-records-management"></a>기록 관리에 보존 레이블 사용
     
@@ -370,7 +370,7 @@ Outlook 2010 이상에서는 보존 레이블 또는 보존 정책을 적용하�
     
 - **데이터 거버넌스 보고서**. 이러한 보고서를 사용하면 지난 90일 동안 Exchange, SharePoint 및 비즈니스용 OneDrive에서 사용된 모든 콘텐츠에 대한 보존 레이블 추세 및 활동을 빠르게 확인할 수 있습니다. 자세한 내용은 [데이터 거버넌스 보고서 보기](view-the-data-governance-reports.md)를 참조하세요.
     
-![레이블 활동 탐색기](media/671ca0cd-1457-40b4-9917-b663360afd95.png)
+![레이블 활동 탐색기](../media/671ca0cd-1457-40b4-9917-b663360afd95.png)
   
 ## <a name="using-content-search-to-find-all-content-with-a-specific-retention-label-applied-to-it"></a>콘텐츠 검색을 사용하여 특정 보존 레이블이 적용된 모든 콘텐츠 찾기
 
@@ -378,13 +378,13 @@ Outlook 2010 이상에서는 보존 레이블 또는 보존 정책을 적용하�
   
 콘텐츠 검색을 만들 때 **준수 태그** 조건을 선택한 후 전체 레이블 이름 또는 레이블 이름 일부를 입력하고 와일드카드를 사용합니다. 자세한 내용은 [콘텐츠 검색에 대한 키워드 쿼리 및 검색 조건](keyword-queries-and-search-conditions.md)을 참조하세요.
   
-![준수 태그 조건](media/82d6af16-59f8-462f-babb-c894b2917018.png)
+![준수 태그 조건](../media/82d6af16-59f8-462f-babb-c894b2917018.png)
   
 ## <a name="the-principles-of-retention-or-what-takes-precedence"></a>보존 원칙 또는 우선 순위
 
 콘텐츠에 각기 다른 작업(보존, 삭제 또는 둘 다) 및 보존 기간을 지정하는 여러 보존 정책이 적용될 수 있습니다. 우선 순위는 어떨까요? 분명한 것은 가장 높은 수준에서 한 정책을 통해 보존되는 콘텐츠가 다른 정책에 의해 영구적으로 삭제될 수 없다는 것입니다.
   
-![보존 원칙 다이어그램](media/1693d6ec-b340-4805-9da3-89aa41bc6afb.png)
+![보존 원칙 다이어그램](../media/1693d6ec-b340-4805-9da3-89aa41bc6afb.png)
   
 보존 작업이 있는 여러 다른 레이블이 콘텐츠에 적용되는 방식을 이해하려면 다음과 같은 보존 원칙에 유의합니다.
   

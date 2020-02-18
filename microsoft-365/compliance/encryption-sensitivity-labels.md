@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 민감한 레이블을 만들면 레이블이 적용되는 콘텐츠에 대한 액세스를 제한할 수 있습니다. 민감도 레이블에서 암호화를 사용하여 내용을 보호할 수 있습니다.
-ms.openlocfilehash: e27e130e96086dd37dd1cf5f49c30ebc764a8958
-ms.sourcegitcommit: 21be88a1b38b6554ffa1bc5b743c129fe8547704
+ms.openlocfilehash: 17cea4f80ac1dee75c10c2beef63be06141c89d5
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41830952"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42074656"
 ---
 # <a name="restrict-access-to-content-by-using-sensitivity-labels-to-apply-encryption"></a>민감도 레이블을 사용하여 암호화를 적용하여 콘텐츠 액세스 제한 
 
@@ -63,7 +63,7 @@ ms.locfileid: "41830952"
 
 암호화 옵션 구성:
 
-![암호화에 대한 민감도 레이블 옵션](media/encrytion-options-sensitivity-label.png)
+![암호화에 대한 민감도 레이블 옵션](../media/encrytion-options-sensitivity-label.png)
 
 
 ### <a name="what-happens-to-existing-encryption-when-a-labels-applied"></a>레이블이 적용되면 기존 암호화는 어떻게 되나요?
@@ -111,7 +111,7 @@ ms.locfileid: "41830952"
 
 지금 권한을 할당할지 사용자가 권한을 할당하도록 허용할지 선택: 
 
-![사용자 또는 관리자가 정의한 권한 추가 옵션](media/sensitivity-label-user-or-admin-defined-permissions.png)
+![사용자 또는 관리자가 정의한 권한 추가 옵션](../media/sensitivity-label-user-or-admin-defined-permissions.png)
 
 
 ## <a name="assign-permissions-now"></a>지금 권한 할당
@@ -124,7 +124,7 @@ ms.locfileid: "41830952"
 
 암호화된 콘텐츠의 액세스 제어 설정:
 
-![관리자가 정의한 권한에 대한 설정](media/sensitivity-encryption-settings-for-admin-defined-permissions.png)
+![관리자가 정의한 권한에 대한 설정](../media/sensitivity-encryption-settings-for-admin-defined-permissions.png)
 
 ### <a name="rights-management-use-license-for-offline-access"></a>오프라인 액세스에 대한 권한 관리 사용 라이선스
 
@@ -146,7 +146,7 @@ ms.locfileid: "41830952"
 
 사용 권한 할당:
 
-![사용자에게 사용 권한을 할당하는 옵션](media/Sensitivity-Assign-permissions-settings.png)
+![사용자에게 사용 권한을 할당하는 옵션](../media/Sensitivity-Assign-permissions-settings.png)
 
 #### <a name="add-users-or-groups"></a>사용자 또는 그룹 추가
 
@@ -179,13 +179,13 @@ ms.locfileid: "41830952"
 
 각 특정 사용 권한에 대한 자세한 내용은 [사용 권한 및 설명](https://docs.microsoft.com/azure/information-protection/configure-usage-rights#usage-rights-and-descriptions)을 참조하세요.  
 
-![미리 설정된 옵션 또는 사용자 지정 사용 권한](media/Sensitivity-Choose-permissions-settings.png)
+![미리 설정된 옵션 또는 사용자 지정 사용 권한](../media/Sensitivity-Choose-permissions-settings.png)
 
 동일한 레이블로 다른 사용자에게 다른 권한을 부여할 수 있습니다. 예를 들어 아래에 있는 스크린샷과 같이 단일 레이블에서 일부 사용자를 검토자로 할당하고 다른 사용자를 공동 작성자로 할당할 수 있습니다.
 
 이를 위해서는 사용자 또는 그룹을 추가하고 사용 권한을 할당하고 해당 설정을 저장합니다. 그런 다음 매번 이 단계를 반복하여 사용자를 추가하고 권한을 할당하고 설정을 저장합니다. 이 구성을 필요한 만큼 수행하여 여러 사용자에게 서로 다른 권한을 정의할 수 있습니다.
 
-![다른 사용 권한을 가진 다른 사용자](media/Sensitivity-Multiple-users-permissions.png)
+![다른 사용 권한을 가진 다른 사용자](../media/Sensitivity-Multiple-users-permissions.png)
 
 #### <a name="rights-management-issuer-user-applying-the-sensitivity-label-always-has-full-control"></a>권한 관리 발급자(민감도 레이블을 적용한 사용자)는 항상 모든 권한을 갖습니다
 
@@ -207,7 +207,9 @@ ms.locfileid: "41830952"
 
 - Word, PowerPoint 및 Excel의 경우 사용자에게 특정 사용자, 그룹 또는 조직에 대한 고유 권한을 선택하라는 메시지가 표시됩니다. 
     > [!NOTE]
-    > Word, PowerPoint 및 Excel에 대한 이 옵션은 Azure Information Protection 통합 레이블 클라이언트에서 지원됩니다. 내장 레이블을 사용하는 앱의 경우 현재 [Windows 및 Mac용 미리보기](sensitivity-labels-office-apps.md#sensitivity-label-capabilities-in-word-excel-and-powerpoint)에서 지원됩니다. 이 옵션을 선택했지만 사용자 앱에서 지원되지 않는 경우 해당 레이블이 사용자에게 표시되지 않습니다.
+    > Word, PowerPoint 및 Excel에 대한 이 옵션은 Azure Information Protection 통합 레이블 클라이언트에서 지원됩니다. 내장 레이블을 사용하는 앱의 경우 현재 [Windows 및 Mac용 미리보기](sensitivity-labels-office-apps.md#sensitivity-label-capabilities-in-word-excel-and-powerpoint)에서 지원됩니다. 
+    > 
+    > 이 옵션이 선택되었지만 사용자의 앱에서 지원되지 않는 경우, 해당 레이블은 사용자에게 표시되지 않거나 (현재 iOS 및 Android 용 미리 보기에서 배포 중) 레이블이 일관성을 위해 표시되지만. 사용자에게 설명 메시지와 함께 적용될 수 없습니다.
 
 옵션이 지원되면 다음 표를 사용하여 사용자에게 민감도 레이블이 표시되는 시기를 식별하세요.
 
@@ -222,13 +224,13 @@ ms.locfileid: "41830952"
 
 사용자 할당 권한 구성:
 
-![사용자 정의 권한에 대한 암호화 설정](media/sensitivity-encryption-settings-for-user-defined-permissions.png)
+![사용자 정의 권한에 대한 암호화 설정](../media/sensitivity-encryption-settings-for-user-defined-permissions.png)
 
 ### <a name="outlook-restrictions"></a>Outlook 제한 사항
 
 Outlook에서, 사용자가 메시지에 권한을 할당하도록 허용하는 민감도 레이블을 적용하는 경우 이 제한 사항은 전달 금지 옵션과 동일합니다. 사용자에게 메시지 맨 위에 레이블 이름과 설명이 표시됩니다. 이는 콘텐츠가 보호되고 있음을 나타냅니다. Word, PowerPoint 및 Excel([다음 섹션](#word-powerpoint-and-excel-permissions) 참조)과 달리, 사용자에게 특정 권한을 선택 하라는 메시지가 표시되지 않습니다.
 
-![Outlook의 메시지에 적용된 민감도 레이블](media/sensitivity-label-outlook-protection-applied.png)
+![Outlook의 메시지에 적용된 민감도 레이블](../media/sensitivity-label-outlook-protection-applied.png)
 
 전달 금지 옵션이 전자 메일에 적용되는 경우, 전자 메일이 암호화되므로 받는 사람을 인증해야 합니다. 그런 다음, 받는 사람이 이를 전달하거나, 인쇄하거나, 복사할 수 없습니다. 예를 들어, Outlook 클라이언트에서 전달 단추를 사용할 수 없고, 다른 이름으로 저장 및 인쇄 메뉴 옵션도 사용할 수 없으며, 받는 사람, 참조 또는 숨은 참조 상자에서 받는 사람을 추가하거나 변경할 수 없습니다.
 
@@ -244,7 +246,7 @@ Word, PowerPoint 및 Excel에서 사용자가 문서에 사용 권한을 할당�
 - 사용자, 그룹 또는 조직을 선택합니다. 여기에는 조직의 내부 또는 외부 사용자가 모두 포함될 수 있습니다.
 - 선택한 사용자가 콘텐츠에 액세스할 수 없는 만료 날짜를 설정합니다. 자세한 내용은 위에 있는 섹션 [오프라인 액세스용 권한 관리 사용자 라이선스](#rights-management-use-license-for-offline-access)를 참조하세요.
 
-![사용자 지정 권한을 사용하여 보호하기 위한 옵션](media/sensitivity-aip-custom-permissions-dialog.png)
+![사용자 지정 권한을 사용하여 보호하기 위한 옵션](../media/sensitivity-aip-custom-permissions-dialog.png)
 
 내장 레이블의 경우 유저가 다음을 선택할 경우 동일한 대화 상자가 표시됩니다.
 

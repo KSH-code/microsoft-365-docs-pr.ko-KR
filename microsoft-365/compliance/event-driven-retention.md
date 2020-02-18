@@ -1,5 +1,7 @@
 ---
 title: 이벤트 구동 보존 개요
+f1.keywords:
+- NOCSH
 ms.author: cabailey
 author: cabailey
 manager: laurawi
@@ -14,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 레이블을 사용하여 특정 유형의 이벤트가 발생하는 시점을 기준으로 보존 기간을 지정할 수 있습니다. 이벤트는 보존 기간의 시작을 트리거하며, 해당 유형의 이벤트에 적용된 보존 레이블이 있는 모든 콘텐츠에 대해 레이블 보존 작업이 적용됩니다. 이벤트 기반 보존은 일반적으로 기록 관리 프로세스의 일부로 사용됩니다.
-ms.openlocfilehash: 109b6104f2a06559beae0148b581854f44e6394a
-ms.sourcegitcommit: 3063e351e21614c236167e9cde40994d8b532bd6
+ms.openlocfilehash: da5e10735e8980199a829ac50d096052abe93d14
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/08/2020
-ms.locfileid: "40989574"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42074545"
 ---
 # <a name="overview-of-event-driven-retention"></a>이벤트 구동 보존 개요
 
@@ -47,9 +49,9 @@ ms.locfileid: "40989574"
 
 이벤트 구동 보존을 성공적으로 사용하려면 여기에 설명된 것처럼 이벤트 유형, 레이블, 이벤트 및 자산 ID 간 관계를 이해하는 것이 중요합니다. 다이어그램 다음에 설명이 제공됩니다.
   
-![이벤트 유형, 레이블, 이벤트 및 자산 ID의 다이어그램](media/a5141a6b-61ca-4a60-9ab0-24e6bb45bbdb.png)
+![이벤트 유형, 레이블, 이벤트 및 자산 ID의 다이어그램](../media/a5141a6b-61ca-4a60-9ab0-24e6bb45bbdb.png)
   
-![이벤트 유형, 레이블, 이벤트 및 자산 ID의 다이어그램](media/ce89a91f-49aa-4b5a-933c-ac3a13dccd5d.png)
+![이벤트 유형, 레이블, 이벤트 및 자산 ID의 다이어그램](../media/ce89a91f-49aa-4b5a-933c-ac3a13dccd5d.png)
   
 1. 다양한 콘텐츠 형식에 대한 레이블을 만든 후 특정 이벤트 유형에 연결합니다. 예를 들어, 다양 한 유형의 제품 파일 및 기록에 대한 레이블은 해당 기록을 제품이 수명에 도달한 시점부터 10년 동안 보존해야 하므로 제품 수명이라는 이벤트 유형에 연결됩니다.
     
@@ -73,7 +75,7 @@ ms.locfileid: "40989574"
 
 이벤트 구동 보존에 대한 대략적인 워크플로는 다음과 같습니다. 보다 자세한 단계는 그 다음에 나와 있습니다.
   
-![이벤트 구동 보존을 설정하는 워크플로 다이어그램](media/161146d9-e0fc-4248-abc1-a18045eaad5c.png)
+![이벤트 구동 보존을 설정하는 워크플로 다이어그램](../media/161146d9-e0fc-4248-abc1-a18045eaad5c.png)
   
 > [!TIP]
 > SharePoint에서 관리 속성을 사용하여 보존 레이블을 자동 적용하고 이벤트 중심 보존을 구현하는 방법에 대한 자세한 시나리오는 [보존 레이블로 SharePoint 문서의 수명 주기 관리](auto-apply-retention-labels-scenario.md)를 참조하세요.
@@ -92,7 +94,7 @@ Microsoft 365 규정 준수 센터, Microsoft 365 보안 센터 또는 Office 36
     
 - 보존 기간이 끝나면 콘텐츠를 자동으로 삭제하거나 처리 검토를 트리거합니다.
     
-![이벤트를 기준으로 레이블을 지정하는 옵션](media/a4902281-5196-4194-9737-f30231d95861.png)
+![이벤트를 기준으로 레이블을 지정하는 옵션](../media/a4902281-5196-4194-9737-f30231d95861.png)
   
 ### <a name="step-2-choose-an-event-type-for-that-label"></a>2단계: 해당 레이블에 대한 이벤트 유형 선택
 
@@ -102,13 +104,13 @@ Microsoft 365 규정 준수 센터, Microsoft 365 보안 센터 또는 Office 36
   
 일단 이벤트 유형을 선택하고 레이블을 만들고 나면 이벤트 유형을 변경할 수 없습니다.
   
-![이벤트 유형을 만들거나 선택하는 옵션](media/8b7afe79-72cb-462e-81d4-b5ddbe899dbc.png)
+![이벤트 유형을 만들거나 선택하는 옵션](../media/8b7afe79-72cb-462e-81d4-b5ddbe899dbc.png)
   
 ### <a name="step-3-publish-or-auto-apply-the-label"></a>3단계: 레이블 게시 또는 자동 적용
 
 다른 레이블과 마찬가지로 이벤트 기반 레이블을 게시하거나 자동 적용해야만 콘텐츠에 수동 또는 자동으로 적용됩니다. **분류** > **보존 레이블** 페이지에서 이 작업을 수행할 수 있습니다.
   
-![보존 레이블 게시 또는 자동 적용 옵션](media/options-to-publish-auto-apply-retention-label.png)
+![보존 레이블 게시 또는 자동 적용 옵션](../media/options-to-publish-auto-apply-retention-label.png)
 
 ### <a name="step-4-enter-an-asset-id"></a>4단계: 자산 ID 입력
 
@@ -122,7 +124,7 @@ Microsoft 365 규정 준수 센터, Microsoft 365 보안 센터 또는 Office 36
     
 자산 ID는 SharePoint 및 비즈니스용 OneDrive에서 다른 문서 속성일 뿐입니다. 조직에서는 이미 다른 문서 속성 및 ID를 사용하여 콘텐츠를 분류하고 있을 것입니다. 이 경우 이벤트를 만들 때 해당 속성 및 값을 사용할 수도 있습니다. 아래의 6단계를 참조하세요. 중요한 사실은 조직이 해당 항목을 이벤트 유형에 연결하기 위해 문서 속성에 일부 속성:값 조합을 사용해야 한다는 것입니다.
   
-![자산 ID를 입력하기 위한 텍스트 상자](media/6d31628e-7162-4370-a8d7-de704aafa350.png)
+![자산 ID를 입력하기 위한 텍스트 상자](../media/6d31628e-7162-4370-a8d7-de704aafa350.png)
   
 ### <a name="step-5-create-an-event"></a>5단계: 이벤트 만들기
 
@@ -132,7 +134,7 @@ Microsoft 365 규정 준수 센터, Microsoft 365 보안 센터 또는 Office 36
 
 이벤트를 만들 때 2단계에서 레이블에 사용된 것과 동일한 이벤트 유형(예: 제품 수명)을 선택합니다. 해당 이벤트 유형의 레이블이 적용된 콘텐츠만 보존 기간이 트리거됩니다.
   
-![이벤트 유형을 선택하기 위한 이벤트 설정 옵션](media/11663591-5628-419e-9537-61eb8f5c741f.png)
+![이벤트 유형을 선택하기 위한 이벤트 설정 옵션](../media/11663591-5628-419e-9537-61eb8f5c741f.png)
   
 ### <a name="step-7-enter-keywords-or-an-asset-id"></a>7단계: 키워드 또는 자산 ID 입력
 
@@ -146,7 +148,7 @@ Exchange 항목의 경우 키워드를 포함할 수 있습니다. AND, OR 및 N
   
 마지막으로, 이벤트가 발생한 날짜를 선택합니다. 이 날짜는 보존 기간의 시작으로 사용됩니다. 이벤트를 만든 후 해당 이벤트 날짜가 해당 이벤트 유형의 레이블이 지정된 모든 콘텐츠( 자산 ID 및 키워드)와 동기화됩니다. 다른 모든 레이블과 마찬가지로 이 동기화에는 최대 7일이 걸릴 수 있습니다.
   
-![이벤트 설정 페이지](media/40d3c9db-f624-49a5-b38a-d16bcce20231.png)
+![이벤트 설정 페이지](../media/40d3c9db-f624-49a5-b38a-d16bcce20231.png)
   
 ## <a name="use-content-search-to-find-all-content-with-a-specific-label-or-asset-id"></a>콘텐츠 검색을 사용하여 특정 레이블 또는 자산 ID를 포함하는 모든 콘텐츠 찾기
 

@@ -1,5 +1,7 @@
 ---
 title: Microsoft 365의 시뮬레이이트된 엔터프라이즈 기반 구성
+f1.keywords:
+- NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -15,12 +17,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 6f916a77-301c-4be2-b407-6cec4d80df76
 description: 이 테스트 랩 가이드를 사용하여 Microsoft 365 Enterprise 테스트를 위한 시뮬레이트된 엔터프라이즈 테스트 환경을 만듭니다.
-ms.openlocfilehash: d279ea4eaea1e167b18f48db3c7484885ed48fea
-ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
+ms.openlocfilehash: 66d62677843843476baffac3f295e41eda71be69
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39831701"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42084135"
 ---
 # <a name="the-simulated-enterprise-base-configuration"></a>시뮬레이트된 엔터프라이즈 기본 구성
 
@@ -31,14 +33,14 @@ ms.locfileid: "39831701"
 - Microsoft 365 E5 평가판 또는 유료 구독
 - 인터넷에 연결된 간소화된 조직 인트라넷: Azure Virtual Network의 3가지 가상 머신(DC1, APP1 및 CLIENT1)으로 구성됩니다.
  
-![시뮬레이트된 엔터프라이즈 기본 구성](media/simulated-ent-base-configuration-microsoft-365-enterprise/Phase4.png)
+![시뮬레이트된 엔터프라이즈 기본 구성](../media/simulated-ent-base-configuration-microsoft-365-enterprise/Phase4.png)
 
 추가 [테스트 랩 가이드](m365-enterprise-test-lab-guides.md)를 진행하고 결과 환경을 사용하거나 직접 구성한 환경을 사용하여 [Microsoft 365 Enterprise](https://www.microsoft.com/microsoft-365/enterprise)의 특성과 기능을 테스트할 수 있습니다.
 
-![Microsoft 클라우드의 테스트 랩 가이드](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
+![Microsoft 클라우드의 테스트 랩 가이드](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
 
 > [!TIP]
-> [여기](media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf)를 클릭하여 Microsoft 365 Enterprise 테스트 랩 가이드 스택의 모든 문서에 대한 가상 맵을 확인할 수 있습니다.
+> [여기](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf)를 클릭하여 Microsoft 365 Enterprise 테스트 랩 가이드 스택의 모든 문서에 대한 가상 맵을 확인할 수 있습니다.
 
 ## <a name="phase-1-create-a-simulated-intranet"></a>1단계: 시뮬레이트된 인트라넷 만들기
 
@@ -63,7 +65,7 @@ ms.locfileid: "39831701"
 
 템플릿이 완료된 후 구성입니다.
 
-![Azure 인프라 서비스의 시뮬레이트된 인트라넷](media/simulated-ent-base-configuration-microsoft-365-enterprise/Phase3.png)
+![Azure 인프라 서비스의 시뮬레이트된 인트라넷](../media/simulated-ent-base-configuration-microsoft-365-enterprise/Phase3.png)
 
 ### <a name="method-2-build-your-simulated-intranet-with-azure-powershell"></a>방법 2: Azure PowerShell로 시뮬레이트된 인트라넷 만들기
 
@@ -230,7 +232,7 @@ Set-NetFirewallRule -DisplayName "File and Printer Sharing (Echo Request - ICMPv
 
 다음은 현재 구성입니다.
   
-![시뮬레이트된 엔터프라이즈 기반 구성 1단계](media/simulated-ent-base-configuration-microsoft-365-enterprise/Phase1.png)
+![시뮬레이트된 엔터프라이즈 기반 구성 1단계](../media/simulated-ent-base-configuration-microsoft-365-enterprise/Phase1.png)
   
 #### <a name="step-2-configure-app1"></a>2단계: APP1 구성
 
@@ -285,7 +287,7 @@ New-SmbShare -name files -path c:\files -changeaccess TESTLAB\User1
 
 다음은 현재 구성입니다.
   
-![시뮬레이트된 엔터프라이즈 기반 구성 2단계](media/simulated-ent-base-configuration-microsoft-365-enterprise/Phase2.png)
+![시뮬레이트된 엔터프라이즈 기반 구성 2단계](../media/simulated-ent-base-configuration-microsoft-365-enterprise/Phase2.png)
   
 #### <a name="step-3-configure-client1"></a>3단계: CLIENT1 구성
 
@@ -349,7 +351,7 @@ CLIENT1을 다시 시작한 후에 TESTLAB\\User1 계정 이름 및 암호를 �
     
 다음은 현재 구성입니다.
   
-![시뮬레이트된 엔터프라이즈 기반 구성 3단계](media/simulated-ent-base-configuration-microsoft-365-enterprise/Phase3.png)
+![시뮬레이트된 엔터프라이즈 기반 구성 3단계](../media/simulated-ent-base-configuration-microsoft-365-enterprise/Phase3.png)
 
 
 ## <a name="phase-2-create-your-microsoft-365-e5-subscription"></a>2단계: Microsoft 365 E5 구독 만들기
@@ -393,7 +395,7 @@ Microsoft 365 E5 평가판 구독 및 라이센스로 사용자 계정을 구성
     
 다음은 최종 구성입니다.
   
-![시뮬레이트된 엔터프라이즈 기반 구성 2단계](media/simulated-ent-base-configuration-microsoft-365-enterprise/Phase4.png)
+![시뮬레이트된 엔터프라이즈 기반 구성 2단계](../media/simulated-ent-base-configuration-microsoft-365-enterprise/Phase4.png)
   
 이제 [Microsoft 365 Enterprise](https://www.microsoft.com/microsoft-365/enterprise)의 추가 기능을 사용해볼 준비가 되었습니다.
   

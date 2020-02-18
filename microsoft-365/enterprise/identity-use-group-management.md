@@ -1,5 +1,7 @@
 ---
 title: '5단계: 그룹을 사용하여 관리하십시오.'
+f1.keywords:
+- NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -13,16 +15,16 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 그룹을 사용하여 일부 관리 작업을 자동화할 수 있습니다.
-ms.openlocfilehash: 49cdb0c3d394cb423d0565d7093f1b32b6661158
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 215bb84cbb0cedc2f1320372ba8239cd51d07c98
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40801713"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42067275"
 ---
 # <a name="step-5-use-groups-for-management"></a>5단계: 그룹을 사용하여 관리하십시오.
 
-![2단계-ID](./media/deploy-foundation-infrastructure/identity_icon-small.png)
+![2단계-ID](../media/deploy-foundation-infrastructure/identity_icon-small.png)
 
 <a name="identity-self-service-groups"></a>
 ## <a name="allow-users-to-create-and-manage-their-own-groups"></a>사용자가 자신의 그룹을 만들고 관리하도록 허용하십시오.
@@ -66,7 +68,7 @@ ms.locfileid: "40801713"
 
 |||
 |:-------|:-----|
-|![Microsoft 클라우드의 테스트 랩 가이드](media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)| [테스트 랩 가이드: 라이선스 및 그룹 등록 자동화](automate-licenses-group-membership-microsoft-365-test-environment.md) |
+|![Microsoft 클라우드의 테스트 랩 가이드](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)| [테스트 랩 가이드: 라이선스 및 그룹 등록 자동화](automate-licenses-group-membership-microsoft-365-test-environment.md) |
 |||
 
 중간 검사점으로 이 단계에 대한 [종료 조건](identity-exit-criteria.md#crit-identity-dyn-groups)을 확인할 수 있습니다.
@@ -97,11 +99,11 @@ Microsoft 365 Enterprise의 경우 적절한 Microsoft 365 Enterprise 라이선�
 
 |||
 |:-------|:-----|
-|![Microsoft 클라우드의 테스트 랩 가이드](media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)| [테스트 랩 가이드: 라이선스 및 그룹 등록 자동화](automate-licenses-group-membership-microsoft-365-test-environment.md) |
+|![Microsoft 클라우드의 테스트 랩 가이드](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)| [테스트 랩 가이드: 라이선스 및 그룹 등록 자동화](automate-licenses-group-membership-microsoft-365-test-environment.md) |
 |||
 
 중간 검사점으로 이 섹션에 대한 [종료 조건](identity-exit-criteria.md#crit-identity-group-license)을 확인할 수 있습니다.
 
 |||
 |:-------|:-----|
-|![6단계](./media/stepnumbers/Step6.png)| [ID 거버넌스 구성](identity-configure-identity-governance.md) |
+|![6단계](../media/stepnumbers/Step6.png)| [ID 거버넌스 구성](identity-configure-identity-governance.md) |

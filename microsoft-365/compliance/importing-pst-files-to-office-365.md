@@ -18,12 +18,12 @@ ms.collection:
 search.appverid: MET150
 ms.assetid: ba688e0a-0fcb-4bd7-8e57-2b669564ea84
 description: '관리자용: 보안 & 준수 센터에서 가져오기 서비스를 사용하여 Exchange Online의 전자 메일 데이터 (PST 파일)를 사용자 사서함으로 한 번에 대량으로 가져오는 방법에 대해 알아보세요. 이 항목에서는 FAQ를 제공하고 PST 가져 오기 프로세스가 어떻게 작동하는지 설명합니다.'
-ms.openlocfilehash: eb916ef3f06cc8d58c962b5b05ea4524e9469e4b
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 82e1ccc41d2df5986b54054d8fb98350608c642e
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600675"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42072969"
 ---
 # <a name="overview-of-importing-your-organizations-pst-files-to-office-365"></a>조직의 PST 파일을 Office 365로 가져오기 개요
 
@@ -32,9 +32,9 @@ ms.locfileid: "41600675"
 
 보안 & 준수 센터에서 가져오기 서비스를 사용하면 PST 파일을 Office 365 조직의 Exchange Online 사서함으로 신속하게 대량으로 가져올 수 있습니다. Office 365로 PST 파일을 가져올 수 있는 두 가지 방법이 있습니다.
 
-- **네트워크 업로드** ![클라우드 업로드](media/54ab16ee-3822-4551-abef-3d926f4e1c01.png) -네트워크를 통해 PST 파일을 Microsoft 클라우드의 임시 Azure Storage 위치로 업로드합니다. 그런 다음 Office 365 가져오기 서비스를 사용하여 PST 데이터를 Office 365 조직의 사서함으로 가져옵니다. 
+- **네트워크 업로드** ![클라우드 업로드](../media/54ab16ee-3822-4551-abef-3d926f4e1c01.png) -네트워크를 통해 PST 파일을 Microsoft 클라우드의 임시 Azure Storage 위치로 업로드합니다. 그런 다음 Office 365 가져오기 서비스를 사용하여 PST 데이터를 Office 365 조직의 사서함으로 가져옵니다. 
 
-- **드라이브 배송** ![하드 디스크](media/e72b76f3-1f73-4296-b749-c325d95d9ef6.png) - PST 파일을 BitLocker로 암호화된 하드 드라이브에 복사한 다음 하드 드라이브를 Microsoft에 물리적으로 발송합니다. Microsoft가 하드 드라이브를 받으면 데이터 센터 담당자는 Microsoft 클라우드의 임시 Azure Storage에 데이터를 업로드합니다. 그런 다음 Office 365 가져오기 서비스를 사용하여 데이터를 Office 365 조직의 사서함으로 가져옵니다.
+- **드라이브 배송** ![하드 디스크](../media/e72b76f3-1f73-4296-b749-c325d95d9ef6.png) - PST 파일을 BitLocker로 암호화된 하드 드라이브에 복사한 다음 하드 드라이브를 Microsoft에 물리적으로 발송합니다. Microsoft가 하드 드라이브를 받으면 데이터 센터 담당자는 Microsoft 클라우드의 임시 Azure Storage에 데이터를 업로드합니다. 그런 다음 Office 365 가져오기 서비스를 사용하여 데이터를 Office 365 조직의 사서함으로 가져옵니다.
 
 ## <a name="step-by-step-instructions"></a>단계별 지침
   
@@ -48,7 +48,7 @@ ms.locfileid: "41600675"
 
 다음은 PST 가져오기 프로세스의 전체적인 그림과 설명입니다. 이 그림은 기본 워크플로를 보여 주며 네트워크 업로드 및 드라이브 배송 방법 간의 차이점을 강조 표시합니다.
   
-![PST 가져오기 프로세스의 워크플로](media/76997b69-67d7-433a-a0ca-9389f85a36a1.png)
+![PST 가져오기 프로세스의 워크플로](../media/76997b69-67d7-433a-a0ca-9389f85a36a1.png)
   
 1. **PST 가져오기 도구 및 키를 개인 Azure Storage 위치로 다운로드** - 첫 번째 단계는 PST 파일을 업로드하거나 하드 드라이브에 복사하는 데 사용되는 도구 및 액세스 키를 다운로드하는 것입니다. 이는 보안 및 준수 센터의 **가져오기** 페이지에서 가져옵니다. 이 키는 PST 파일을 비공개 보안 Azure Storage 위치에 업로드하는 데 필요한 권한을 가진 (또는 드라이브 배송의 경우 Microsoft 데이터 센터 직원)에게 제공됩니다. 이 액세스 키는 조직에 고유하며 PST 파일이 Microsoft 클라우드에 업로드된 후 PST 파일에 대한 무단 액세스를 방지하는 데 도움이 됩니다. PST 파일을 Office 365로 가져오는 경우 조직에 별도의 Azure 구독을 사용할 필요가 없습니다. 
     

@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: '보안 및 준수 센터를 사용하여 통합 감사 로그를 검색해 Office 365 조직의 사용자 및 관리자 활동을 확인합니다. '
-ms.openlocfilehash: 81bcf62d810e9649bcb0a464e765b71490a4752d
-ms.sourcegitcommit: 570ad1c7c334476ecec00dc355dfe52e8c2bb87b
+ms.openlocfilehash: 43cc0317bfce749affc41efe987fe905e1edae5d
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/08/2020
-ms.locfileid: "41862128"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42069959"
 ---
 # <a name="search-the-audit-log-in-the-security--compliance-center"></a>보안 및 준수 센터에서 감사 로그 검색
 
@@ -113,25 +113,25 @@ Office 365 감사 로그의 검색을 시작하기 전에 반드시 아래 내�
 
   |**Office 365 서비스**|**30분**|**24시간**|
   |:-----|:-----:|:-----:|
-  |고급 위협 방지 및 위협 인텔리전스|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
-  |Azure Active Directory(사용자 로그인 이벤트)||![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
-  |Azure Active Directory(관리 이벤트)||![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
-  |데이터 손실 방지|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
-  |Dynamics 365 CRM|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
-  |eDiscovery|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
-  |Exchange Online|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
-  |Microsoft Power Automate|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
-  |Microsoft Project|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
-  |Microsoft Stream|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
-  |Microsoft Teams|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
-  |Power Apps|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
-  |Power BI|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
-  |보안 및 준수 센터|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
-  |SharePoint Online 및 비즈니스용 OneDrive|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
-  |Sway||![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
-  |Workplace Analytics|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
-  |Yammer||![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
-  |Microsoft Forms|![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
+  |고급 위협 방지 및 위협 인텔리전스|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
+  |Azure Active Directory(사용자 로그인 이벤트)||![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
+  |Azure Active Directory(관리 이벤트)||![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
+  |데이터 손실 방지|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
+  |Dynamics 365 CRM|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
+  |eDiscovery|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
+  |Exchange Online|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
+  |Microsoft Power Automate|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
+  |Microsoft Project|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
+  |Microsoft Stream|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
+  |Microsoft Teams|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
+  |Power Apps|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
+  |Power BI|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
+  |보안 및 준수 센터|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
+  |SharePoint Online 및 비즈니스용 OneDrive|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
+  |Sway||![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
+  |Workplace Analytics|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
+  |Yammer||![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
+  |Microsoft Forms|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
   ||||
 
 - Azure A (azure Active Directory)는 Office 365의 디렉터리 서비스입니다. 통합 감사 로그에는 Microsoft 365 관리 센터 또는 Azure 관리 포털에서 수행된 사용자, 그룹, 응용 프로그램, 도메인 및 디렉터리 활동이 포함됩니다. Azure AD 이벤트의 전체 목록은 [Azure Active Directory 감사 보고서 이벤트](https://go.microsoft.com/fwlink/p/?LinkID=616549)를 참조하세요.
@@ -163,7 +163,7 @@ Office 365에서 감사 로그를 검색하는 과정은 다음과 같습니다.
 
     **감사 로그 검색** 페이지가 표시됩니다.
 
-    ![조건을 구성한 다음 검색을 클릭하여 보고서를 실행합니다.](media/8639d09c-2843-44e4-8b4b-9f45974ff7f1.png)
+    ![조건을 구성한 다음 검색을 클릭하여 보고서를 실행합니다.](../media/8639d09c-2843-44e4-8b4b-9f45974ff7f1.png)
 
     > [!NOTE]
     > 먼저 감사 로깅을 켜야 감사 로그 검색을 실행할 수 있습니다. **사용자 및 관리자 활동 기록 시작** 링크가 표시되면 클릭하여 감사를 켭니다. 이 링크가 표시되지 않으면 조직에 대해 감사가 이미 켜져 있는 것입니다.
@@ -195,13 +195,13 @@ Office 365에서 감사 로그를 검색하는 과정은 다음과 같습니다.
 
    검색 결과가 로드되고, 잠시 후에 **결과**에 표시됩니다. 검색이 완료되면 찾은 결과 수가 표시됩니다. **결과** 창에 최대 5000 개의 이벤트가 150 이벤트 단위로 표시 됩니다. 5000개 이상의 이벤트에서 검색 조건을 충족하는 경우에는 최근 5000 이벤트가 표시됩니다.
 
-   ![검색을 완료한 후 결과 수가 표시됩니다.](media/986216f1-ca2f-4747-9480-e232b5bf094c.png)
+   ![검색을 완료한 후 결과 수가 표시됩니다.](../media/986216f1-ca2f-4747-9480-e232b5bf094c.png)
 
 #### <a name="tips-for-searching-the-audit-log"></a>감사 로그 검색을 위한 팁
 
 - 활동 이름을 클릭하여 검색할 특정 활동을 선택할 수 있습니다. 또는 그룹 이름을 클릭하여 그룹의 모든 활동(예: **파일 및 폴더 활동**)을 검색할 수도 있습니다. 활동이 선택된 경우 클릭하면 선택을 취소할 수 있습니다. 검색 상자를 사용하여 입력한 키워드를 포함하는 활동을 표시할 수도 있습니다.
 
-  ![활동 그룹 이름을 클릭하여 모든 활동을 선택합니다.](media/3cde97cb-6f35-47c0-8612-ecd9c6ac36a3.png)
+  ![활동 그룹 이름을 클릭하여 모든 활동을 선택합니다.](../media/3cde97cb-6f35-47c0-8612-ecd9c6ac36a3.png)
 
 - Exchange 관리자 감사 로그의 항목을 표시하려면 **활동** 목록에서 **모든 활동에 대한 결과 표시**를 선택해야 합니다. 이 감사 로그의 이벤트는 결과의 **활동** 열에 cmdlet 이름(예: **Set-Mailbox**)을 표시합니다. 자세한 내용을 보려면 이 항목에서 **감사되는 활동** 탭을 클릭한 다음 **Exchange 관리 활동** 클릭합니다.
 
@@ -239,7 +239,7 @@ Office 365에서 감사 로그를 검색하는 과정은 다음과 같습니다.
 
 검색 결과 목록에서 이벤트 레코드를 클릭하여 이벤트에 대한 세부 정보를 볼 수 있습니다. 이벤트 레코드의 자세한 속성이 포함된 **세부 정보**페이지가 표시됩니다. 표시되는 속성은 이벤트가 발생한 Office 365 서비스에 따라 다릅니다. 추가 세부 정보를 표시하려면 **추가 정보**를 클릭합니다. 설명은 [Office 365 감사 로그의 자세한 속성](detailed-properties-in-the-office-365-audit-log.md)을 참조하세요.
 
-![감사 로그 이벤트 레코드의 자세한 속성을 보려면 추가 정보를 클릭합니다.](media/6df582ae-d339-4735-b1a6-80914fb77a08.png)
+![감사 로그 이벤트 레코드의 자세한 속성을 보려면 추가 정보를 클릭합니다.](../media/6df582ae-d339-4735-b1a6-80914fb77a08.png)
 
 ### <a name="step-3-filter-the-search-results"></a>3단계: 검색 결과 필터링
 
@@ -255,7 +255,7 @@ Office 365에서 감사 로그를 검색하는 과정은 다음과 같습니다.
 
 3. 열 머리글 아래에 있는 상자 중 하나를 클릭하고 필터링할 열에 따라 단어 또는 구를 입력합니다. 결과가 동적으로 다시 조정되어 필터와 일치하는 이벤트를 표시합니다.
 
-   ![필터와 일치하는 이벤트를 표시하려면 필터에 단어를 입력합니다.](media/542dc323-a997-402c-934b-cc5e218e50bc.png)
+   ![필터와 일치하는 이벤트를 표시하려면 필터에 단어를 입력합니다.](../media/542dc323-a997-402c-934b-cc5e218e50bc.png)
 
 4. 필터를 지우려면 필터 상자에서 **X**를 클릭하거나 **필터링 숨기기**를 클릭합니다.
 
@@ -330,7 +330,7 @@ Office 365에서 감사 로그를 검색하는 과정은 다음과 같습니다.
 |휴지통에서 파일 삭제됨|FileDeletedFirstStageRecycleBin|사용자가 사이트의 휴지통에서 파일을 삭제합니다.|
 |2단계 휴지통에서 파일 삭제됨|FileDeletedSecondStageRecycleBin|사용자가 사이트의 2단계 휴지통에서 파일을 삭제합니다.|
 |준수 정책 레이블 삭제됨|ComplianceRecordDelete|레코드로 분류된 문서가 삭제되었습니다. 문서에 콘텐츠를 레코드로 분류하는 보존 레이블이 적용된 경우 문서는 레코드로 간주됩니다.|
-|발견된 문서 민감도 불일치|DocumentSensitivityMismatchDetected|사용자가 문서를 업로드하는 사이트에 적용되는 민감도 레이블보다 중요도가 높은 문서를 업로드합니다. <br/><br/> 이 이벤트는 사이트에 적용된 민감도 레이블이 사이트에 업로드된 문서에 적용된 민감도 레이블보다 우선 순위가 높은 경우 트리거되지 않습니다. 민감도 레이블 우선 순위에 대 한 자세한 내용은 [민감도 레이블 개요](sensitivity-labels.md#label-priority-order-matters)의 "레이블 우선 순위" 섹션을 참조하세요.|
+|발견된 문서 민감도 불일치|DocumentSensitivityMismatchDetected|사용자가 문서를 업로드하는 사이트에 적용되는 민감도 레이블보다 중요도가 높은 문서를 업로드합니다. <br/><br/> 이 이벤트는 사이트에 적용된 민감도 레이블이 사이트에 업로드된 문서에 적용된 민감도 레이블보다 우선 순위가 높은 경우 트리거되지 않습니다. 민감도 레이블 우선 순위에 대 한 자세한 내용은 [민감도 레이블 알아보기](sensitivity-labels.md#label-priority-order-matters)의 "레이블 우선 순위" 섹션을 참조하세요.|
 |파일에서 맬웨어 검색됨|FileMalwareDetected|SharePoint 바이러스 백신 엔진이 파일에서 맬웨어를 검색합니다.|
 |파일 체크 아웃 취소됨|FileCheckOutDiscarded|사용자가 체크 아웃한 파일을 취소(또는 명령 취소)합니다. 즉, 체크 아웃되었을 때 파일에서 변경한 내용이 취소되고 문서 라이브러리의 문서 버전에 저장되지 않습니다.|
 |다운로드한 파일|FileDownloaded|사용자가 사이트에서 문서를 다운로드합니다.|
@@ -744,7 +744,7 @@ Workplace Analytics는 Office 365 조직에서 그룹이 공동으로 작업하�
 
 조직에서 Microsoft Teams의 [환자 응용 프로그램](https://docs.microsoft.com/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-app-overview)을 사용하는 경우 환자 앱을 사용과 관련된 활동에 대한 감사 로그를 검색할 수 있습니다. 환자 앱을 지원하도록 환경을 구성한 경우 이러한 활동에 대한 추가 활동 그룹을 **활동** 선택기 목록에서 사용할 수 있습니다.
 
-![활동 선택기 목록에서 Microsoft Teams의 보건 활동](media/TeamsHealthcareAuditActivities.png)
+![활동 선택기 목록에서 Microsoft Teams의 보건 활동](../media/TeamsHealthcareAuditActivities.png)
 
 환자 앱 활동에 대한 자세한 내용은 [환자 앱에 대한 감사 로그](https://docs.microsoft.com/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-audit)를 참조하세요.
 
@@ -835,7 +835,7 @@ Microsoft Stream에서 활동에 대한 감사 로그를 검색할 수 있습니
 
 - Exchange 관리자 감사 로그의 이벤트를 표시하려면 검색 결과를 필터링하고 **활동** 필터 상자에 **-**(대시)를 입력합니다. Exchange 관리자 이벤트에 대한 **활동** 열에 표시되는 cmdlet 이름이 나타납니다. 그런 다음 cmdlet 이름을 사전순으로 정렬할 수 있습니다.
 
-  ![Exchange 관리 이벤트를 필터링하려면 작업 상자에 대시를 입력합니다.](media/7628e7aa-6263-474a-a28b-2dcf5694bb27.png)
+  ![Exchange 관리 이벤트를 필터링하려면 작업 상자에 대시를 입력합니다.](../media/7628e7aa-6263-474a-a28b-2dcf5694bb27.png)
 
 - 실행된 cmdlet, 사용된 매개 변수 및 매개 변수 값, 영향을 받은 개체에 대한 정보를 가져오려면 **모든 결과 다운로드** 옵션을 선택하여 검색 결과를 내보낼 수 있습니다. 자세한 내용은 [감사 로그 레코드 내보내기, 구성 및 보기](export-view-audit-log-records.md)를 참조하세요.
 

@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 팀, Office 365 그룹 및 SharePoint 사이트에 레이블을 적용할 수 있습니다.
-ms.openlocfilehash: 7fd19d9d8f84bd6463d61aec68dbd86c4fc627c0
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 297ccd3e17f6c5a747e18a46747e6f2c23311df0
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601565"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42069828"
 ---
 # <a name="use-sensitivity-labels-with-microsoft-teams-office-365-groups-and-sharepoint-sites-public-preview"></a>Microsoft Teams, Office 365 그룹 및 SharePoint 사이트(공개 미리 보기)에서 민감도 레이블 사용
 
@@ -54,9 +54,9 @@ Microsoft Teams, Office 365 그룹 및 SharePoint 사이트의 민감도 레이�
 
 예를 들어:
 
-![SharePoint에서 팀 사이트를 만들 때의 민감도 레이블](media/sensitivity-label-new-team-site.png)
+![SharePoint에서 팀 사이트를 만들 때의 민감도 레이블](../media/sensitivity-label-new-team-site.png)
 
-![Word 데스크톱 앱에 표시되는 민감도 레이블](media/sensitivity-label-word.png)
+![Word 데스크톱 앱에 표시되는 민감도 레이블](../media/sensitivity-label-word.png)
 
 ## <a name="enable-this-preview"></a>이 미리 보기를 사용
 
@@ -124,7 +124,7 @@ Microsoft Teams, Office 365 그룹 및 SharePoint 사이트의 민감도 레이�
     - 게스트 액세스: 사용자는 그룹에 게스트를 추가할 수 있는지를 제어할 수 있습니다. [Office 365 그룹에서의 게스트 액세스 관리에 대해 알아보세요](/office365/admin/create-groups/manage-guest-access-in-groups)
     - 관리되지 않는 장치: 이 설정을 사용하면 Intune에서 하이브리드 AD에 참가하지 않았거나 비규격인 장치에서의 SharePoint 콘텐츠로의 액세스를 차단하거나 제한할 수 있습니다. 관리되지 않는 장치를 선택하는 경우 Azure AD로 이동하여 정책 설정을 완료해야 합니다. 관련 정보는 [관리되지 않는 장치에서 액세스 제어](/sharepoint/control-access-from-unmanaged-devices)를 참조합니다.
     
-    ![사이트 및 그룹 설정 탭](media/edit-sensitivity-label-site-group.png)
+    ![사이트 및 그룹 설정 탭](../media/edit-sensitivity-label-site-group.png)
 
 > [!IMPORTANT]
 > 팀, 그룹 또는 사이트에 레이블을 적용하는 경우에는 사이트 및 그룹 설정만 적용이 됩니다. 암호화 및 콘텐츠 표시와 같은 다른 설정은 팀, 그룹 또는 사이트 내의 모든 콘텐츠에 적용되지 않습니다.
@@ -184,11 +184,11 @@ Microsoft Teams, Office 365 그룹 및 SharePoint 사이트의 민감도 레이�
 
 [Teams용 민감도 레이블에 대해 자세히 알아보기](https://docs.microsoft.com/microsoftteams/sensitivity-labels)
 
-![새 팀을 만드는 경우 개인 정보 설정](media/privacy-setting-new-team.png)
+![새 팀을 만드는 경우 개인 정보 설정](../media/privacy-setting-new-team.png)
 
 팀을 만든 후에는 모든 채널의 우측 상단 모서리에 민감도 레이블이 표시됩니다.
 
-![민감도 레이블이 팀에 표시됩니다.](media/privacy-setting-teams.png)
+![민감도 레이블이 팀에 표시됩니다.](../media/privacy-setting-teams.png)
 
 이 서비스는 Office 365 그룹 및 연결된 SharePoint 팀 사이트에 자동으로 동일한 민감도 레이블을 적용합니다.
 
@@ -196,7 +196,7 @@ Microsoft Teams, Office 365 그룹 및 SharePoint 사이트의 민감도 레이�
 
 웹용 Outlook에서 새 **민감도** 상자에는 게시된 레이블이 포함되어 있습니다. 사용자가 추가 정보를 원하는 경우 도움말 아이콘을 클릭하여 사용 가능한 레이블과 관련 정책에 대한 세부 정보를 읽을 수 있습니다.
 
-![그룹 만들기 및 민감도 아래의 옵션 선택](media/sensitivity-label-new-group.png)
+![그룹 만들기 및 민감도 아래의 옵션 선택](../media/sensitivity-label-new-group.png)
 
 ## <a name="apply-a-sensitivity-label-to-a-new-site"></a>새 사이트에 민감도 레이블을 적용
 
@@ -206,17 +206,17 @@ Microsoft Teams, Office 365 그룹 및 SharePoint 사이트의 민감도 레이�
 
 사용자가 최신 팀 및 커뮤니케이션 사이트를 만들 때 기본적으로 민감도 레이블이 이미 선택되어 있습니다. 사용자는 도움말 아이콘을 선택하여 레이블에 대한 더욱 자세한 정보를 확인할 수 있습니다.
 
-![사이트 만들기 및 민감도 아래의 옵션 선택](media/sensitivity-label-new-communication-site.png)
+![사이트 만들기 및 민감도 아래의 옵션 선택](../media/sensitivity-label-new-communication-site.png)
 
 사용자가 사이트로 이동할 때 레이블의 이름과 적용된 정책을 볼 수 있습니다.
 
-![민감도 레이블이 적용된 사이트](media/sensitivity-label-site.png)
+![민감도 레이블이 적용된 사이트](../media/sensitivity-label-site.png)
 
 ## <a name="manage-sensitivity-labels-in-the-sharepoint-admin-center"></a>SharePoint 관리 센터에서 민감도 레이블 관리
 
 레이블을 보고 편집하려면 새 SharePoint 관리 센터의 활성 사이트 페이지를 사용합니다.
 
-![활성 사이트 페이지의 민감도 열](media/manage-site-sensitivity-labels.png)
+![활성 사이트 페이지의 민감도 열](../media/manage-site-sensitivity-labels.png)
 
 [새 SharePoint 관리 센터에서의 사이트 관리에 대해 자세히 알아보기](/sharepoint/manage-sites-in-new-admin-center).
 

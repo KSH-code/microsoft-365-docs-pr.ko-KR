@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: d7ccd944-9698-41c7-a21b-677dc62973c4
 description: 'Office 365 보안 및 준수 센터에서 Office 365 Advanced eDiscovery에 액세스하는 방법을 알아보고 Advanced eDiscovery를 사용하기 위한 일반적인 워크플로를 검토합니다.  '
-ms.openlocfilehash: 6df2d68639f2be9f6ba38ea7211654058bc73035
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: e1af09caf57509bf472a766c9d9124ea969acc4e
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597675"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42070303"
 ---
 # <a name="quick-setup-for-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery에 대한 빠른 설정
 
@@ -51,7 +51,7 @@ Advanced eDiscovery에서 사례로 이동하려면
 
 다음 다이어그램에서는 보안 및 인증 센터와 Advanced eDiscovery에서 사례를 관리 및 사용하기 위한 일반적인 워크플로를 보여 줍니다. 
   
-![다이어그램은 사용자 및 사례 설정, 사례 데이터 식별, 내보내기 및 처리를 포함하는 4가지 설정 단계와 분석 및 로컬 시스템으로 내보내기 단계를 포함하는 Office 365 Advanced eDiscovery 워크플로를 표시합니다.](media/76589ccc-789d-4581-b3a8-98d339b05979.png)
+![다이어그램은 사용자 및 사례 설정, 사례 데이터 식별, 내보내기 및 처리를 포함하는 4가지 설정 단계와 분석 및 로컬 시스템으로 내보내기 단계를 포함하는 Office 365 Advanced eDiscovery 워크플로를 표시합니다.](../media/76589ccc-789d-4581-b3a8-98d339b05979.png)
   
 이 설정 섹션에서는 워크플로의 처음 4가지 단계를 설명합니다. 워크플로의 다른 단계에 대한 설명은 다음을 참조하세요.
   

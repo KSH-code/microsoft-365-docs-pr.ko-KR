@@ -11,12 +11,12 @@ ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Priority
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 5ef03851064104df6dcb00ac853bf7dff65cbfd3
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: e18db2e5c180bd896e82d98506e8a65831550bce
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41596435"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42073243"
 ---
 # <a name="gdpr-for-office-on-premises-servers"></a>Office 온-프레미스 Server GDPR
 
@@ -40,7 +40,7 @@ GDPR 및 Microsoft가 지원하는 방법에 대한 자세한 내용은 [Microso
 
 다음 그림은 이러한 각 작업에 사용하여 개인 데이터를 검색, 분류, 보호, 모니터링할 수 있는 권장 기능을 나열합니다. 자세한 내용은 이 섹션의 문서를 참조하세요.
 
-![](media/gdpr-for-office-servers-image1.png)
+![](../media/gdpr-for-office-servers-image1.png)
 
 ## <a name="illustration-description"></a>그림 설명
 

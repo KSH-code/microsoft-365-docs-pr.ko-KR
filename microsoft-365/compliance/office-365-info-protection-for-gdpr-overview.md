@@ -18,12 +18,12 @@ localization_priority: Priority
 search.appverid:
 - MET150
 description: GDPR에 대한 Office 365 정보 보호 개요를 확인합니다. 개인 데이터를 검색, 분류, 보호 및 모니터링하는 방법을 알아봅니다.
-ms.openlocfilehash: 079ff7b7dab099f289bbd0366bba00d5ecf55b80
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: dbb420cce572b2e03260f9f5b1be63e65504276b
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597865"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42071178"
 ---
 # <a name="overview-of-office-365-information-protection-for-gdpr"></a>GDPR에 대한 Office 365 정보 보호 개요
 
@@ -47,7 +47,7 @@ GDPR 규정을 준수하는 첫 번째 단계는 GDPR이 조직에 적용되는�
 
 준수 점수는 조직이 GDPR을 비롯한 다양한 표준 규정을 준수하도록 하기 위해 감사 컨트롤을 추적, 구현 및 관리하기 위한 도구를 제공합니다.
 
-![준수 점수를 사용하여 요구 사항 확인 및 진행 상황 추적](Media/Overview-image1.png)
+![준수 점수를 사용하여 요구 사항 확인 및 진행 상황 추적](../media/Overview-image1.png)
 
 자세한 내용은 [준수 점수](compliance-score.md)를 참조하세요.
 
@@ -59,7 +59,7 @@ GDPR 규정을 준수하는 첫 번째 단계는 GDPR이 조직에 적용되는�
 
 - 중요한 데이터 유형 및 기타 쿼리를 최적화하여 사용자 환경의 모든 개인 데이터를 찾습니다.
 
-![콘텐츠 검색 및 중요한 정보 유형을 사용하여 개인 데이터 찾기](Media/Overview-image2.png)
+![콘텐츠 검색 및 중요한 정보 유형을 사용하여 개인 데이터 찾기](../media/Overview-image2.png)
 
 중요한 정보 유형은 자동화된 프로세스가 상태 서비스 번호 및 신용 카드 번호와 같은 특정 정보 유형을 인식하는 방법을 정의합니다. 이 문서에는 시작점으로 사용할 수 있는 정보 집합이 포함되어 있습니다. EU 국가의 개인 데이터의 경우 앞으로 좀 더 많은 중요한 정보 유형이 제공될 예정입니다.
 
@@ -69,7 +69,7 @@ GDPR 규정을 준수하는 첫 번째 단계는 GDPR이 조직에 적용되는�
 
 Office 365에서 정보 보호에 사용되는 기능 중 일부를 다른 SaaS 응용 프로그램에서 중요한 데이터를 보호하는 데도 사용할 수 있습니다.
 
-![개인 데이터 분류, 보호 및 모니터링](Media/Overview-image3.png)
+![개인 데이터 분류, 보호 및 모니터링](../media/Overview-image3.png)
 
 이 그림은 이 섹션의 나머지 부분을 나타냅니다(3-5단계).
 
