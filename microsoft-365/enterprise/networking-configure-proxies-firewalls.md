@@ -1,5 +1,7 @@
 ---
 title: '4단계: 트래픽 바이패스 구성'
+f1.keywords:
+- NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -13,18 +15,18 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 신뢰할 수 있는 Office 365 위치로의 트래픽 바이패스를 위해 웹 브라우저 및 에 장치를 이해하고 구성합니다.
-ms.openlocfilehash: 32aa2216856d5a519fddb55701be745a9dacbd87
-ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
+ms.openlocfilehash: 71f62c5e245962f3514c49477e3cdeda17cb6397
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "37370145"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42066692"
 ---
 # <a name="step-4-configure-traffic-bypass"></a>4단계: 트래픽 바이패스 구성
 
 *이 단계는 선택 사항이며, Microsoft 365 Enterprise E3 및 E5 버전에 적용됩니다.*
 
-![1단계-네트워킹](./media/deploy-foundation-infrastructure/networking_icon-small.png)
+![1단계-네트워킹](../media/deploy-foundation-infrastructure/networking_icon-small.png)
 
 일반 인터넷 트래픽이 위험할 수 있으므로 일반적인 조직 네트워크는 프록시 서버, SSL 중단 및 조사, 패킷 검사 장치와 같은 에지 장치와 데이터 손실 방지 시스템을 통해 보안을 적용합니다. [Office 365 트래픽에 대해 타사 네트워크 장치 또는 솔루션 사용](https://support.microsoft.com/help/2690045/using-third-party-network-devices-or-solutions-with-office-365)에서 네트워크 차단 장치의 일부 문제점을 읽어보세요.
 
@@ -46,7 +48,7 @@ ms.locfileid: "37370145"
 
 다음은 네트워크 인프라에 몇 가지 권장 사항입니다.
 
-![온-프레미스 트래픽 최적화에 대한 권장 사항](./media/networking-configure-proxies-firewalls/bypassing-edge-devices.png)
+![온-프레미스 트래픽 최적화에 대한 권장 사항](../media/networking-configure-proxies-firewalls/bypassing-edge-devices.png)
 
 에지 장치에는 방화벽, SSL 중단 및 조사, 패킷 검사 장치, 데이터 손실 방지 시스템 등이 포함됩니다. 에지 장치를 구성하고 업데이트하려면 스크립트나 REST 호출을 사용하여 Office 365 끝점 웹 서비스에서 끝점의 구조화 목록을 사용할 수 있습니다. 자세한 내용은 [Office 365 IP 주소 및 URL 웹 서비스](https://docs.microsoft.com/office365/enterprise/office-365-ip-web-service)를 참조하세요.
 
@@ -59,7 +61,7 @@ Microsoft 365 최적화 및 허용 범주 끝점에 대한 트래픽의 일반 �
 
 |||
 |:-------|:-----|
-|![5단계](./media/stepnumbers/Step5.png)|[클라이언트 및 Office 365 서비스 성능 최적화](networking-optimize-tcp-performance.md) |
+|![5단계](../media/stepnumbers/Step5.png)|[클라이언트 및 Office 365 서비스 성능 최적화](networking-optimize-tcp-performance.md) |
 
 
 

@@ -1,5 +1,7 @@
 ---
 title: Windows 7에서 Windows 10으로 수동 업그레이드
+f1.keywords:
+- NOCSH
 ms.author: jogruszc
 author: JGruszczyk
 manager: jemed
@@ -13,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Windows 7에서 Windows 10으로 수동 업그레이드.
-ms.openlocfilehash: 13cdb56b52655ed81932601dd3ff97c90c1daad8
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: ea1705a91baf6b0526e87bcf04529ab2668aa439
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38033683"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42086139"
 ---
 # <a name="windows-7-to-windows-10-manual-upgrade-step-by-step-guide"></a>Windows 7에서 Windows 10으로 수동 업그레이드 단계별 가이드
 
@@ -28,7 +30,7 @@ ms.locfileid: "38033683"
 
 [미디어 만들기 도구](https://www.microsoft.com/software-download/windows10ISO)를 사용하여 직접 Windows 10으로 업그레이드할 수도 있고, 미디어 만들기 도구를 사용하여 Windows 10을 ISO 파일로 다운로드할 수도 있습니다. 먼저 기존 시스템이 32비트인지 아니면 64비트인지와 Windows 7의 시스템 기본 언어 및 버전(예: Home, Professional 또는 Enterprise)을 확인해 두어야 합니다. Windows 7의 경우 이 정보는 제어판 \> 시스템 및 보안 \> 시스템에 있습니다. 미디어 만들기 도구는 Windows 10 Enterprise의 업그레이드, 설치 미디어 만들기 또는 ISO 파일 다운로드를 지원하지 않습니다. Windows 7 Enterprise에서 업그레이드하려는 경우에는 Windows 10 Enterprise가 필요합니다.
 
-![](media/windows-7-to-windows-10-upgrade-manual-media/windows-7-to-windows-10-upgrade-manual-media-1.png)
+![](../media/windows-7-to-windows-10-upgrade-manual-media/windows-7-to-windows-10-upgrade-manual-media-1.png)
 
 Windows 7 Enterprise에서 Windows 10 Enterprise로 업그레이드하는 경우, [볼륨 라이선스 서비스 센터](https://www.microsoft.com/licensing/servicecenter/default.aspx)에서 해당 언어와 아키텍처(32비트 또는 64비트)에 맞는 ISO 파일을 다운로드해야 합니다.
 
@@ -38,27 +40,27 @@ Windows 7에 설치 미디어를 준비한 후에는 아래 그림과 같이 set
 
 **중요 팁: 애플리케이션과 데이터가 Window 10으로 마이그레이션되는 현재 위치 업그레이드를 수행하려면 현재 실행 중인 Windows 7 세션에서 프로세스를 시작해야 합니다. DVD 또는 USB 드라이브에서 설치 미디어로 부팅하면 앱과 파일을 그대로 유지할 수 있는 옵션이 제공되지 않으며, Windows 10이 새로 설치됩니다.**
 
-![](media/windows-7-to-windows-10-upgrade-manual-media/windows-7-to-windows-10-upgrade-manual-media-2.png)
+![](../media/windows-7-to-windows-10-upgrade-manual-media/windows-7-to-windows-10-upgrade-manual-media-2.png)
 
 Windows 10 설치 프로그램에서 설치 프로세스를 안내합니다. 첫 번째 화면에서는 업데이트, 드라이버 및 선택적 기능을 다운로드하는 옵션이 제공됩니다. 업그레이드를 성공적으로 진행하려면 이 옵션을 사용하는 것이 좋습니다.
 
-![](media/windows-7-to-windows-10-upgrade-manual-media/windows-7-to-windows-10-upgrade-manual-media-3.png)
+![](../media/windows-7-to-windows-10-upgrade-manual-media/windows-7-to-windows-10-upgrade-manual-media-3.png)
 
 업데이트가 적용된 후에는 Windows 10 설치 프로그램이 다음 단계인 ‘이미지 선택’으로 넘어갑니다. 여기에서 Windows 버전을 선택해야 합니다. 이 예에서는 PC에 Windows 7 Enterprise가 설치되어 있으므로 Windows 10 Enterprise를 선택해야 합니다.
 
-![](media/windows-7-to-windows-10-upgrade-manual-media/windows-7-to-windows-10-upgrade-manual-media-4.png)
+![](../media/windows-7-to-windows-10-upgrade-manual-media/windows-7-to-windows-10-upgrade-manual-media-4.png)
 
 Windows 10 설치 프로그램의 다음 화면에는 관련 통지 및 사용 조건이 표시됩니다. 통지 및 조건을 읽고 이해했으면 “동의”를 클릭하여 계속하거나 “동의 안 함”을 클릭하여 취소합니다.
 
-![](media/windows-7-to-windows-10-upgrade-manual-media/windows-7-to-windows-10-upgrade-manual-media-5.png)
+![](../media/windows-7-to-windows-10-upgrade-manual-media/windows-7-to-windows-10-upgrade-manual-media-5.png)
 
 이제 Windows 10 설치 프로그램이 추가 업데이트를 찾습니다.
 
-![](media/windows-7-to-windows-10-upgrade-manual-media/windows-7-to-windows-10-upgrade-manual-media-6.png)
+![](../media/windows-7-to-windows-10-upgrade-manual-media/windows-7-to-windows-10-upgrade-manual-media-6.png)
 
 작업이 완료되면 Windows 10 설치 프로그램이 설치를 진행할 준비가 됩니다. 기본적으로 Windows 10을 설치하고 개인 파일 및 앱이 설치된 상태를 유지하도록 구성됩니다. 이 옵션은 권장 옵션입니다. “유지할 항목 변경”을 클릭하면 추가 옵션을 확인할 수 있습니다. 추가 옵션을 확인할 필요가 없으면 “설치”를 클릭합니다.
 
-![](media/windows-7-to-windows-10-upgrade-manual-media/windows-7-to-windows-10-upgrade-manual-media-7.png)
+![](../media/windows-7-to-windows-10-upgrade-manual-media/windows-7-to-windows-10-upgrade-manual-media-7.png)
 
 “유지할 항목 변경”을 선택하면 다음과 같은 옵션이 표시됩니다.
 
@@ -66,15 +68,15 @@ Windows 10 설치 프로그램의 다음 화면에는 관련 통지 및 사용 �
 
 “아무것도 유지하지 않습니다”를 선택하면 파일, 앱과 설정이 삭제되고 Windows가 새로 설치됩니다. 유지하려는 앱을 미리 백업해 두었고 앱을 다시 설치할 수 있는 경우에만 이 옵션을 사용하세요.
 
-![](media/windows-7-to-windows-10-upgrade-manual-media/windows-7-to-windows-10-upgrade-manual-media-8.png)
+![](../media/windows-7-to-windows-10-upgrade-manual-media/windows-7-to-windows-10-upgrade-manual-media-8.png)
 
 이제 Windows 10 설치 프로그램이 이전 화면에서 사용자가 선택한 옵션을 바탕으로 업데이트를 가져옵니다.
 
-![](media/windows-7-to-windows-10-upgrade-manual-media/windows-7-to-windows-10-upgrade-manual-media-9.png)
+![](../media/windows-7-to-windows-10-upgrade-manual-media/windows-7-to-windows-10-upgrade-manual-media-9.png)
 
 이제 몇 분 동안 Windows 10의 설치가 진행됩니다. 개인 파일과 앱을 유지하도록 선택한 경우, 모든 항목이 전과 같은 파일 위치에 유지되고 Windows 10에서 앱을 사용할 수 있습니다.
 
-![](media/windows-7-to-windows-10-upgrade-manual-media/windows-7-to-windows-10-upgrade-manual-media-10.png)
+![](../media/windows-7-to-windows-10-upgrade-manual-media/windows-7-to-windows-10-upgrade-manual-media-10.png)
 
 ## 
 
@@ -84,27 +86,27 @@ Windows 10의 설치를 마친 후, Windows 10의 복구 옵션을 통해 10일 
 
 Windows 7으로 돌아가기 프로세스를 시작하려면 설정 \> 업데이트 및 보안 \> 복구로 이동합니다. ‘Windows 7으로 돌아가기’ 아래에서 “시작”을 선택합니다.
 
-![](media/windows-7-to-windows-10-upgrade-manual-media/windows-7-to-windows-10-upgrade-manual-media-11.png)
+![](../media/windows-7-to-windows-10-upgrade-manual-media/windows-7-to-windows-10-upgrade-manual-media-11.png)
 
 이제 Windows 10에 돌아가려는 이유를 묻는 화면이 표시됩니다. 기술적인 이유가 있다면, 해결 방법을 촉구하고 내 경험을 통해 다른 사용자를 도울 수 있도록 이유를 작성해 주세요.
 
-![](media/windows-7-to-windows-10-upgrade-manual-media/windows-7-to-windows-10-upgrade-manual-media-12.png)
+![](../media/windows-7-to-windows-10-upgrade-manual-media/windows-7-to-windows-10-upgrade-manual-media-12.png)
 
 대부분의 경우, 사용 중인 Windows 10 버전에 공개된 업데이트를 사용하여 기술 문제를 해결할 수 있습니다. 업데이트를 확인하여 설치한 다음 해당 문제가 해결되었는지 확인해 보세요.
 
-![](media/windows-7-to-windows-10-upgrade-manual-media/windows-7-to-windows-10-upgrade-manual-media-13.png)
+![](../media/windows-7-to-windows-10-upgrade-manual-media/windows-7-to-windows-10-upgrade-manual-media-13.png)
 
 업데이트로도 문제가 해결되지 않고 이전 Windows 7 설치로 되돌려야 하는 경우, Windows 10을 실행하면서 설치한 앱 등 몇몇 앱을 다시 설치해야 할 수 있으며, 일부 설정은 손실될 수 있습니다. Windows 10을 사용하면서 로컬에 저장한 파일과 문서는 Windows 7으로 돌아간 후에도 계속해서 사용할 수 있습니다. 
 
-![](media/windows-7-to-windows-10-upgrade-manual-media/windows-7-to-windows-10-upgrade-manual-media-14.png)
+![](../media/windows-7-to-windows-10-upgrade-manual-media/windows-7-to-windows-10-upgrade-manual-media-14.png)
 
 시작하기 전에 먼저 이전 Windows 7 설치의 로컬 또는 도메인 계정과 암호를 알고 있는지 확인하세요.
 
-![](media/windows-7-to-windows-10-upgrade-manual-media/windows-7-to-windows-10-upgrade-manual-media-15.png)
+![](../media/windows-7-to-windows-10-upgrade-manual-media/windows-7-to-windows-10-upgrade-manual-media-15.png)
 
 여기에서 Windows 7으로 돌아가는 프로세스를 시작할 수 있습니다. 몇 분이 지나면 PC가 Windows 10으로 업그레이드하기 전과 동일한 환경을 갖춘 Windows 7으로 부팅됩니다.
 
-![](media/windows-7-to-windows-10-upgrade-manual-media/windows-7-to-windows-10-upgrade-manual-media-16.png)
+![](../media/windows-7-to-windows-10-upgrade-manual-media/windows-7-to-windows-10-upgrade-manual-media-16.png)
 
 ## <a name="moving-to-windows-10-on-a-new-pc"></a>새 PC에서 Windows 10으로 이동
 

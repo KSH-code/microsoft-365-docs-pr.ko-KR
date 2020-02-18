@@ -1,6 +1,8 @@
 ---
 title: 고객 및 클라우드 파트너 엔터프라이즈 비즈니스 연속성 책임
 author: chrfox
+f1.keywords:
+- NOCSH
 ms.author: chrfox
 manager: laurawi
 ms.date: ''
@@ -13,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 비즈니스 연속성 계획을 준비할 수 있도록 서비스 인시던트 발생 시 Microsoft가 수행하는 작업을 이해합니다.
-ms.openlocfilehash: 02ab818a6b26fc6b9902747f6c0211545d4b4704
-ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
+ms.openlocfilehash: 3d4a1d6c3a69be4cb3051125d5527b1f0b25b375
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39831869"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42067679"
 ---
 # <a name="enterprise-business-continuity-management-customer-and-cloud-partner-responsibilities"></a>엔터프라이즈 비즈니스 연속성 관리 고객 및 클라우드 파트너 책임
 
@@ -53,7 +55,7 @@ Microsoft는 고객이 사용할 수 있는 서비스 커뮤니케이션 상태 
  
 Microsoft 365 온라인 서비스에 대한 액세스를 제공하는 것이 조직과 Microsoft 사이의 파트너 관계입니다. 다음 차트는 서비스 인시던트 및 정기 운영 중 책임의 균형이 Microsoft와 고객 사이에서 어떻게 유지되는지를 요약해서 보여줍니다.
 
-![고객 및 Microsoft 책임의 균형](media/ebcm/responsibilities.png)
+![고객 및 Microsoft 책임의 균형](../media/ebcm/responsibilities.png)
 
 ## <a name="your-environment---service-continuity"></a>사용자 환경-서비스 연속성
 연속성 계획을 고려할 때, 조직에 영향을 줄 수 있는 이벤트와 그 이벤트의 전체적인 커뮤니케이션 능력에 대해 유념해야 합니다. 비즈니스에 높은 수준에서 영향을 줄 수 있는 세 가지 요소가 있습니다.
@@ -69,6 +71,6 @@ Microsoft는 [네트워크 연결 원칙](https://docs.microsoft.com/office365/e
 많은 공동 작업 솔루션이 회사 광역 네트워크(WAN)와 같은 시스템에 의존합니다. 해당 시스템을 사용할 수 없는 경우 조직에서 어떻게 대처하나요?
 이 그래픽은 둘 이상의 영역에 영향을 줄 수 있는 문제를 나타냅니다. 함께 제공되는 표에서는 고려해야 할 예를 제공합니다.
 
-![벤 다이어그램](media/ebcm/venn-diagram.png)
+![벤 다이어그램](../media/ebcm/venn-diagram.png)
 
 연속성 계획은 각 영역을 고려해야 합니다. 예를 들어, 사용자가 회사 네트워크에 연결해야 하는데 눈보라가 발생한 경우 어떻게 사용자가 키 리소스에 접속할 수 있나요? 눈 때문에 출근할 수 없거나 서비스 엔지니어들이 회사 네트워크에 연결해야 하는 경우, 집에서 회사 노트북을 사용할 수 있도록 권한을 주는 정책이 있나요?

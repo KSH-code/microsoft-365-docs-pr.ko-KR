@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection: M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
 description: ''
-ms.openlocfilehash: 356330b4282fe9dc0aa211d48e452ad04a1bbe74
-ms.sourcegitcommit: 4986032867b8664a215178b5e095cbda021f3450
+ms.openlocfilehash: f53d9cbf719b0e16749c9ea1dcae2533f8c48e50
+ms.sourcegitcommit: 7d07e7ec84390a8f05034d3639fa5db912809585
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "41957193"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42091389"
 ---
 # <a name="migrate-legacy-ediscovery-searches-and-holds-to-the-microsoft-365-compliance-center"></a>레거시 eDiscovery 검색 및 보류를 Microsoft 365 준수 센터로 마이그레이션
 
@@ -58,7 +58,7 @@ Get-MailboxSearch
 
 Cmdlet 출력은 다음과 유사 합니다.
 
-![PowerShell 예제 New-mailboxsearch](media/MigrateLegacyeDiscovery1.png)
+![PowerShell 예제 New-mailboxsearch](../media/MigrateLegacyeDiscovery1.png)
 
 ## <a name="step-3-get-information-about-the-in-place-ediscovery-searches-and-in-place-holds-you-want-to-migrate"></a>3 단계: 마이그레이션할 원본 위치 eDiscovery 검색 및 현재 위치 유지에 대 한 정보 가져오기
 
@@ -74,18 +74,19 @@ $search | FL
 
 이러한 두 명령 출력은 다음과 유사 합니다.
 
-![개별 검색에 대해 New-mailboxsearch를 사용 하는 경우의 PowerShell 출력 예제](media/MigrateLegacyeDiscovery2.png)
+![개별 검색에 대해 New-mailboxsearch를 사용 하는 경우의 PowerShell 출력 예제](../media/MigrateLegacyeDiscovery2.png)
 
 > [!NOTE]
 > 이 예의 원본 위치 유지 기간은 무제한입니다 (*ItemHoldPeriod: 제한 없음*). 이는 eDiscovery 및 법적 조사 시나리오에서 일반적으로 발생 합니다. 보류 기간이 무기한 값과 다른 경우 보존 시나리오에서 콘텐츠를 보존 하기 위해 보류가 사용 되 고 있기 때문일 수 있습니다. 보존 시나리오에 Office 365 Security & 준수 센터 PowerShell에서 eDiscovery cmdlet을 사용 하는 대신 [new-retentioncompliancepolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-retentioncompliancepolicy) 및 [new-retentioncompliancerule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-retentioncompliancerule) 을 사용 하 여 콘텐츠를 보존 하는 것이 좋습니다. 이러한 cmdlet을 사용 하는 경우에는 **new-caseholdpolicy** 및 **new-caseholdrule**를 사용 하는 것과 유사 하지만 보존 기간 및 보존 기간이 만료 된 후에 콘텐츠를 삭제 하는 것과 같은 유지 작업을 지정할 수 있습니다. 또한 보존 cmdlet을 사용 하는 경우에는 보존 보류와 eDiscovery 사례를 연결할 필요가 없습니다.
 
 ## <a name="step-4-create-a-case-in-the-microsoft-365-compliance-center"></a>4 단계: Microsoft 365 준수 센터에서 사례 만들기
 
-EDiscovery 보존을 만들려면 보류를 연결 하는 eDiscovery 사례를 만들어야 합니다. 다음 예제에서는 선택한 이름을 사용 하 여 eDiscovery 사례를 만듭니다. 나중에 사용할 수 있도록 새 사례의 속성을 변수에 저장 합니다. 사례를 만든 후에 `$case | FL` 명령을 실행 하 여 이러한 속성을 볼 수 있습니다.
+EDiscovery 보류를 만들려면 보류를 연결 하는 eDiscovery 사례를 만들어야 합니다. 다음 예제에서는 선택한 이름을 사용 하 여 eDiscovery 사례를 만듭니다. 나중에 사용할 수 있도록 새 사례의 속성을 변수에 저장 합니다. 사례를 만든 후에 `$case | FL` 명령을 실행 하 여 이러한 속성을 볼 수 있습니다.
 
 ```powershell
 $case = New-ComplianceCase -Name "[Case name of your choice]"
 ```
+![Remove-compliancecase 명령을 실행 하는 예제](../media/MigrateLegacyeDiscovery3.png)
 
 ## <a name="step-5-create-the-ediscovery-hold"></a>5 단계: eDiscovery 보류 만들기
 
@@ -101,9 +102,11 @@ $policy = New-CaseHoldPolicy -Name $search.Name -Case $case.Identity -ExchangeLo
 New-CaseHoldRule -Name $search.Name -Policy $policy.Identity
 ```
 
+![NewCaseHoldPolicy 및 NewCaseHoldRule cmdlet 사용 예제](../media/MigrateLegacyeDiscovery4.png)
+
 ## <a name="step-6-verify-the-ediscovery-hold"></a>6 단계: eDiscovery 보류 확인
 
-보류를 만드는 데 문제가 없는지 확인 하려면 배포 상태가 성공 인지 확인 하는 것이 좋습니다. 배포는 이전 단계의 *ExchangeLocation* 매개 변수에 지정 된 모든 콘텐츠 위치에 보류가 적용 되었음을 의미 합니다. 이 작업을 수행 하려면 **new-caseholdpolicy** cmdlet을 실행 하면 됩니다. 이전 단계에서 만든 *$policy* 변수에 저장 된 속성은 해당 변수에 자동으로 업데이트 되지 않으므로 cmdlet을 다시 실행 하 여 배포가 정상적으로 작동 하는지 확인 해야 합니다. 케이스 보류 정책을 성공적으로 배포 하려면 5 분에서 24 시간까지 소요 될 수 있습니다.
+보류를 만드는 데 문제가 없는지 확인 하려면 배포 상태가 성공 인지 확인 하는 것이 좋습니다. 배포는 이전 단계의 *ExchangeLocation* 매개 변수에 지정 된 모든 콘텐츠 위치에 보류가 적용 되었음을 의미 합니다. 이 작업을 수행 하려면 **new-caseholdpolicy** cmdlet을 실행 하면 됩니다. 이전 단계에서 만든 *$policy* 변수에 저장 된 속성은 변수에 자동으로 업데이트 되지 않으므로 cmdlet을 다시 실행 하 여 배포가 정상적으로 작동 하는지 확인 해야 합니다. 케이스 보류 정책을 성공적으로 배포 하려면 5 분에서 24 시간까지 소요 될 수 있습니다.
 
 다음 명령을 실행 하 여 eDiscovery 보류가 성공적으로 배포 되었는지 확인 합니다.
 
@@ -113,7 +116,7 @@ Get-CaseHoldPolicy -Identity $policy.Identity | Select name, DistributionStatus
 
 *DistributionStatus* 속성의 **성공** 값은 해당 보류가 콘텐츠 위치에 성공적으로 설정 되었음을 나타냅니다. 배포가 아직 완료 되지 않은 경우 **보류** 중 값이 표시 됩니다.
 
-![PowerShell Get-New-caseholdpolicy 예제](media/MigrateLegacyeDiscovery5.png)
+![PowerShell Get-New-caseholdpolicy 예제](../media/MigrateLegacyeDiscovery5.png)
 
 ## <a name="step-7-create-the-search"></a>7 단계: 검색 만들기
 
@@ -123,21 +126,21 @@ Get-CaseHoldPolicy -Identity $policy.Identity | Select name, DistributionStatus
 New-ComplianceSearch -Name $search.Name -ExchangeLocation $search.SourceMailboxes -ContentMatchQuery $search.SearchQuery -Case $case.name
 ```
 
-![PowerShell 새 ComplianceSearch 예제](media/MigrateLegacyeDiscovery6.png)
+![PowerShell 새 ComplianceSearch 예제](../media/MigrateLegacyeDiscovery6.png)
 
 ## <a name="step-8-verify-the-case-hold-and-search-in-the-microsoft-365-compliance-center"></a>8 단계: Microsoft 365 준수 센터의 사례, 보류 및 검색 확인
 
 모든 기능이 제대로 설정 되었는지 확인 하려면 Microsoft 365 준수 센터로 [https://compliance.microsoft.com](https://compliance.microsoft.com)이동 하 여 **eDiscovery > Core**를 클릭 합니다.
 
-![Microsoft 365 준수 센터 eDiscovery](media/MigrateLegacyeDiscovery7.png)
+![Microsoft 365 준수 센터 eDiscovery](../media/MigrateLegacyeDiscovery7.png)
 
 3 단계에서 만든 사례가 **핵심 eDiscovery** 페이지에 나열 됩니다. 사례를 연 다음 4 단계에서 **만든 보류가 보류 탭에** 표시 되는지 확인 합니다. 보류를 클릭 하 여 보존을 적용 한 사서함 수와 배포 상태를 비롯 하 여 세부 정보를 볼 수 있습니다.
 
-![Microsoft 365 준수 센터의 eDiscovery 보류](media/MigrateLegacyeDiscovery8.png)
+![Microsoft 365 준수 센터의 eDiscovery 보류](../media/MigrateLegacyeDiscovery8.png)
 
 7 단계에서 만든 검색이 eDiscovery 사례의 **검색** 탭에 나열 된 대로 나열 되어 있습니다.
 
-![Microsoft 365 준수 센터의 eDiscovery 사례 검색](media/MigrateLegacyeDiscovery9.png)
+![Microsoft 365 준수 센터의 eDiscovery 사례 검색](../media/MigrateLegacyeDiscovery9.png)
 
 원본 위치 eDiscovery 검색을 마이그레이션하는 경우 eDiscovery 사례와 연결 하지 않으면 Microsoft 365 준수 센터의 콘텐츠 검색 페이지에 나열 됩니다.
 

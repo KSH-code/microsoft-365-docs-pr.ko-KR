@@ -1,6 +1,8 @@
 ---
 title: Contoso의 모바일 장치 관리
 author: JoeDavies-MSFT
+f1.keywords:
+- NOCSH
 ms.author: josephd
 manager: laurawi
 ms.date: 10/01/2019
@@ -13,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Contoso에서 Microsoft 365 Enterprise의 Microsoft Intune을 사용하여 장치와 장치에서 실행 중인 앱을 관리하는 방법을 이해합니다.
-ms.openlocfilehash: c486c9ef338ab1bd8959266183da6b79d62b3311
-ms.sourcegitcommit: 9ee873c6a2f738a0c99921e036894b646742e706
+ms.openlocfilehash: 7232c89cc105525cc57facd5a1b9de06426adbca
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38673184"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42068372"
 ---
 # <a name="mobile-device-management-for-contoso"></a>Contoso의 모바일 장치 관리
 
@@ -65,7 +67,7 @@ Contoso가 모바일 장치 관리 인프라를 설정하는 방법은 다음과
 
 여기 Contoso의 모바일 장치 관리 배포 구조가 있습니다.
 
-![Contoso의 모바일 장치 관리 배포 인프라](./media/contoso-mdm/contoso-mdm-fig1.png)
+![Contoso의 모바일 장치 관리 배포 인프라](../media/contoso-mdm/contoso-mdm-fig1.png)
 
 ## <a name="next-step"></a>다음 단계
 

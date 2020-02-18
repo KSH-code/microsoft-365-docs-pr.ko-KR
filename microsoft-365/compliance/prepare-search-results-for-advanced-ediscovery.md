@@ -17,17 +17,17 @@ ms.collection:
 search.appverid: MOE150
 ms.assetid: 0b6fac2d-8627-4b05-9df0-03609db6248b
 description: Advanced eDiscovery 도구로 추가 분석을 위해 Office 365의 보안 & 준수 센터에서 콘텐츠 검색 결과를 준비 하는 방법을 알아봅니다.
-ms.openlocfilehash: 115657a1ea8a603676ff168cce7653e56f5664ed
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 3ba115cf45aa3be7b9cb43b3a261687e073edba2
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597745"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42071021"
 ---
 # <a name="prepare-search-results-for-office-365-advanced-ediscovery"></a>Office 365 고급 eDiscovery 검색 결과 준비
 
 > [!IMPORTANT]
-> 최신 버전의 Advanced eDiscovery에 계속 투자 하면 Office 365 Advanced eDiscovery ( *고급 ediscovery v 1.0*이 라고도 함)가 만료 됨을 알리는 것입니다. 여전히 고급 eDiscovery v 1.0을 사용 중인 경우에는 가능한 한 빨리 [Advanced ediscovery v 2.0](overview-ediscovery-20.md) ( *Microsoft 365의 고급 ediscovery 솔루션*이 라고도 함)으로 전환 하세요. Advanced eDiscovery 2.0에는 Advanced eDiscovery v 1.0과 비슷한 기능이 포함 되어 있지만 custodian 관리, 통신 관리 및 검토 집합과 같은 다양 한 새로운 기능도 제공 됩니다. Advanced eDiscovery v 1.0의 만료에 대 한 자세한 내용은 [레거시 ediscovery 도구 만료](legacy-ediscovery-retirement.md#advanced-ediscovery-v10)를 참조 하세요. 
+> 최신 버전의 Advanced eDiscovery에 계속 투자함에 따라, Office 365 Advanced eDiscovery(*Advanced eDiscovery v1.0*이라고도 함)를 발표합니다. Advanced eDiscovery v1.0을 계속 사용하고 있는 경우 [Advanced eDiscovery v2.0](overview-ediscovery-20.md)(*Advanced eDiscovery solution in Microsoft 365*라고도 함)으로 전환하세요. Advanced eDiscovery 2.0에는 Advanced eDiscovery v1.0에 있는 유사한 기능이 포함되어 있습니다. 또한 보유자 관리, 통신 관리, 검토 집합 등의 새로운 기능도 제공합니다. Advanced eDiscovery v1.0의 사용 중지에 대한 자세한 내용은 [레거시 eDiscovery 도구의 사용 중지](legacy-ediscovery-retirement.md#advanced-ediscovery-v10)를 참조하세요. 
 
 보안 & 준수 센터에서 eDiscovery 사례와 관련 된 검색을 성공적으로 실행 한 후에는 Office 365 Advanced eDiscovery를 사용 하 여 검색 결과를 준비 하 고, 구조화 되지 않은 대규모 데이터 집합을 분석 하 고 법적 사례와 관련 된 데이터의 양을 줄일 수 있습니다. 고급 eDiscovery 기능에는 다음이 포함 됩니다.
   
@@ -98,11 +98,11 @@ EDiscovery 사례와 연결 된 검색의 결과를 준비할 수 있습니다. 
     
 3. 사례에 대한 **홈** 페이지에서 **Advanced eDiscovery**를 클릭합니다. 
     
-    ![Advanced eDiscovery로 전환을 클릭하여 Advanced eDiscovery에서 케이스를 엽니다.](media/8e34ba23-62e3-4e68-a530-b6ece39b54be.png)
+    ![Advanced eDiscovery로 전환을 클릭하여 Advanced eDiscovery에서 케이스를 엽니다.](../media/8e34ba23-62e3-4e68-a530-b6ece39b54be.png)
   
     **Advanced eDiscovery에 연결하는 중** 진행률 표시줄이 표시됩니다. Advanced eDiscovery에 연결되면 컨테이너 목록이 해당 케이스의 설정 페이지에 표시됩니다. 
     
-    ![케이스가 Advanced eDiscovery에 표시됩니다.](media/8036e152-70dc-4bb7-9379-61c1ed8326b4.png)
+    ![케이스가 Advanced eDiscovery에 표시됩니다.](../media/8036e152-70dc-4bb7-9379-61c1ed8326b4.png)
   
      이러한 컨테이너는 1단계 동안 Advanced eDiscovery에서 분석을 위해 준비한 검색 결과를 나타냅니다. 컨테이너의 이름은 보안 & 준수 센터의 대/소문자를 검색 하는 것과 이름이 같습니다. 목록에서 컨테이너는 사용자가 준비한 컨테이너입니다. 다른 사용자가 Advanced eDiscovery에 사용하도록 검색 결과를 준비한 경우, 해당 컨테이너가 목록에 포함되지 않습니다. 
     

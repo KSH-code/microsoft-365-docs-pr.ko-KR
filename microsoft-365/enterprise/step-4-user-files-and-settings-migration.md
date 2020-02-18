@@ -1,5 +1,7 @@
 ---
 title: '4단계: 사용자 파일 및 설정'
+f1.keywords:
+- NOCSH
 ms.author: jogruszc
 author: JGruszczyk
 manager: jemed
@@ -13,25 +15,25 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 사용자의 파일 및 설정을 마이그레이션하는 방법을 알아봅니다.
-ms.openlocfilehash: e1def35a631f8a90ee699c6ed7129216015e5182
-ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
+ms.openlocfilehash: 9332542e5b87de3e3c237f969a3842545eb03dc4
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41112572"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42085294"
 ---
 # <a name="step-4-user-files-and-settings-migration"></a>4단계: 사용자 파일 및 설정
 
 사용자의 파일 및 설정을 새 PC 또는 업그레이드 된 PC로 이동하는 것은 중요한 프로세스이며, 당연히 성공적으로 진행해야 합니다. 각 PC를 수동으로 마이그레이션하거나 프로세스를 자동화하는 여러 방법 중 하나를 선택합니다. 어떤 마이그레이션 방법을 선택하든 사용자의 파일 전송, 설정값, Windows 10 시작 및 작업 표시줄 레이아웃 관리 등 세 가지 주요 고려 사항을 해결해야 합니다.
 
-![](media/step-4-user-files-and-settings-migration-media/step-4-user-files-and-settings-migration-media-1.png)
+![](../media/step-4-user-files-and-settings-migration-media/step-4-user-files-and-settings-migration-media-1.png)
 
 <table>
 <thead>
-<td><img src="media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-7.png" alt="Step 4" height="135" width="135" /></td>
+<td><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-7.png" alt="Step 4" height="135" width="135" /></td>
 <td><p><strong>4단계: 사용자 파일 및 설정</strong></p>
 <p>PC를 업그레이드하거나 교체하는 경우, 사용자 상태 백업 및 복원을 자동화하여 시간을 절약할 수 있습니다. 클라우드 파일 동기화에 대한 새 옵션을 사용하면 새로운 Windows 설치에서 파일에 원활하게 액세스할 수 있도록 바탕 화면, 문서 및 그림 폴더를 사용자 기준으로 OneDrive와 동기화할 수 있습니다.</p></td>
-<td><a href="https://aka.ms/ddev4" target="_blank"><img src="media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-17.png" alt="Step 4" height="130" width="231" /></a></td>
+<td><a href="https://aka.ms/ddev4" target="_blank"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-17.png" alt="Step 4" height="130" width="231" /></a></td>
 </thead>
 </table>
 

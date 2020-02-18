@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 준수 관리자는 Microsoft Service Trust Portal의 무료 워크플로 기반 위험 평가 도구입니다. 준수 관리자를 사용 하면 Microsoft 제품과 관련 된 규정 준수 활동을 추적, 할당 및 확인할 수 있습니다.
-ms.openlocfilehash: 645d2bca907d81e32d8262051fd159dd52ba3039
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: a0cdabdc37779ee2f7624242eeb177f3d35b87da
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597205"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42083910"
 ---
 # <a name="work-with-microsoft-compliance-manager-preview"></a>Microsoft 준수 관리자 사용 (미리 보기)
 
@@ -50,7 +50,7 @@ Service Trust Portal에서 준수 관리자에 액세스할 수 있습니다. Mi
 
 각 준수 관리자 역할에는 약간 다른 사용 권한이 있습니다. 각 역할에 할당 된 사용 권한을 보고, 어떤 사용자가 역할을 하 고 있는지 확인 하 고, 서비스 트러스트 포털을 통해 해당 역할에서 사용자를 추가 하거나 제거할 수 있습니다. **관리** 메뉴 항목을 선택 하 고 보려는 **설정을** 선택 합니다.
   
-![STP 관리 메뉴: 선택한 설정](media/65a82b1b-d462-452f-988b-7e4263bd638e.png)
+![STP 관리 메뉴: 선택한 설정](../media/65a82b1b-d462-452f-988b-7e4263bd638e.png)
   
 준수 관리자 역할에서 사용자를 추가하거나 제거하려면
   
@@ -66,11 +66,11 @@ Service Trust Portal에서 준수 관리자에 액세스할 수 있습니다. Mi
 
 6. 이 역할에 사용자를 추가 하려면 **추가**를 선택 합니다. **사용자 추가** 대화 상자에서 사용자 필드를 선택 합니다. 사용 가능한 사용자 목록을 스크롤하거나 사용자 이름을 입력 하 여 검색 용어에 따라 목록을 필터링 할 수 있습니다. 해당 역할을 사용 하 여 프로 비전 된 **사용자 추가** 목록에 해당 계정을 추가할 사용자를 선택 합니다. 여러 사용자를 동시에 추가 하려면 목록을 필터링 하는 사용자 이름을 입력 하기 시작한 다음 목록에 추가할 사용자를 선택 합니다. **저장** 을 선택 하 여 해당 사용자에 게 선택한 역할을 프로 비전 합니다. 
 
-    ![준수 관리자-사용자 추가](media/compliance-manager-add-users.png)
+    ![준수 관리자-사용자 추가](../media/compliance-manager-add-users.png)
   
 7. 이 역할에서 사용자를 제거 하려면 사용자를 선택 하 고 **삭제**를 선택 합니다.
 
-    ![준수 관리자-사용자 삭제](media/compliance-manager-delete-users.png)
+    ![준수 관리자-사용자 삭제](../media/compliance-manager-delete-users.png)
 
 ### <a name="controlling-automatic-secure-score-updates"></a>자동 보안 점수 업데이트 제어
 
@@ -178,7 +178,7 @@ Service Trust Portal에서 준수 관리자에 액세스할 수 있습니다. Mi
 
 고객 작업 영역에는 준수 관리자 (미리 보기)의 모든 템플릿 및 평가에 대 한 모든 고객 작업이 표시 됩니다.
 
-![준수 관리자-사용자 추가](media/compliance-manager-customer-actions.png "준수 관리자 고객 작업")
+![준수 관리자-사용자 추가](../media/compliance-manager-customer-actions.png "준수 관리자 고객 작업")
 
 작업의 제목, 소유자, 범주, 적용 및 점수를 한눈에 확인 하 고 보안 점수와 통합 되어 있는지 확인할 수 있습니다. 작업을 확장 하 고 **자세히 읽기** 를 선택 하 여 작업의 설명을 읽고 설명에 있는 링크에 액세스할 수 있습니다. 또한이 인터페이스를 사용 하 여 동작 별로 보안 점수 통합을 사용 하거나 사용 하지 않도록 설정 하 고 사용자 지정 작업을 추가할 수 있습니다. 보안 점수 통합 기능을 가진 작업에는 줄임표 (...)가 있습니다 (사용자 지정 작업 옆에는 줄임표 (...))가 있습니다.
 
@@ -266,15 +266,15 @@ Service Trust Portal에서 준수 관리자에 액세스할 수 있습니다. Mi
 
 다음은 Office 365 및 ISO 27001에 대 한 평가의 예입니다. 첫 번째 보기는 준수 관리자 (미리 보기)의 새 작업 항목 보기를 보여 줍니다.
 
-![준수 관리자 작업 항목 보기](media/compliance-manager-action-items.png)
+![준수 관리자 작업 항목 보기](../media/compliance-manager-action-items.png)
 
 작업은 사전순으로 나열 되며 각 작업에는 점수와 소유자가 할당 됩니다. **자세히 읽기** 링크를 선택 하 여 각 작업의 세부 정보를 확인 합니다. 
 
-![준수 관리자 작업 항목 보기](media/compliance-manager-actions-read-more.png)
+![준수 관리자 작업 항목 보기](../media/compliance-manager-actions-read-more.png)
 
 **검토** 링크를 선택 하 여 작업을 관리, 할당, 구현 및 테스트 합니다. 예제 작업은 다음과 같습니다.
 
-![준수 관리자 작업 보기](media/compliance-manager-action.png)
+![준수 관리자 작업 보기](../media/compliance-manager-action.png)
 
 이전 버전의 준수 관리자에서 요구 사항을 구현 하기 위한 워크플로는 제어 수준에서 수행 되었습니다. 규정 준수 책임자는 컨트롤을 구현할 컨트롤을 다른 사람에 게 할당 합니다. 다음과 같은 두 가지 단점이 있었습니다.
 
@@ -295,7 +295,7 @@ Service Trust Portal에서 준수 관리자에 액세스할 수 있습니다. Mi
 
 준수 관리자 (미리 보기)에는 이전 버전에서 찾은 컨트롤 기반 피벗도 포함 됩니다. **컨트롤 정보** 대시보드를 선택 하 여 확인 합니다. 평가 및 템플릿 수준에서 컨트롤에 대 한 정보를 볼 수 있습니다. 다음은 평가를 위한 컨트롤 정보 대시보드의 예입니다.
 
-![준수 관리자 컨트롤 정보 보기](media/compliance-manager-controls-info.png)
+![준수 관리자 컨트롤 정보 보기](../media/compliance-manager-controls-info.png)
 
 평가의 경우 컨트롤 정보 대시보드가 표시 됩니다.
 
@@ -311,7 +311,7 @@ Service Trust Portal에서 준수 관리자에 액세스할 수 있습니다. Mi
     - 이 **작업** 을 수행 하면 일부 또는 모든 컨트롤의 요구 사항을 충족 하기 위해 수행할 수 있는 고객 작업이 표시 됩니다. 대부분의 컨트롤에는 여러 개의 동작이 연결 되어 있으며, 컨트롤에 연결 된 모든 동작이 여기에 표시 됩니다. 여기에 나와 있는 작업은 Actions 대시보드에 나열 된 것과 같은 UI를 포함 합니다.
     - **Microsoft Actions** 는 선택한 인증 컨트롤에 적용 되는 microsoft 내부 프레임 워크의 컨트롤 목록을 표시 합니다. 각 내부 컨트롤에 대해 아래와 같이 테스트 결과 및 테스트 날짜와 함께 Microsoft의 구현 및 테스트 세부 정보를 보려면 **구현** 됨을 선택 합니다.
 
-![준수 관리자 Microsoft 작업 보기](media/compliance-manager-microsoft-action.png)
+![준수 관리자 Microsoft 작업 보기](../media/compliance-manager-microsoft-action.png)
 
 ### <a name="export-an-assessment"></a>평가 내보내기
 
@@ -329,7 +329,7 @@ Service Trust Portal에서 준수 관리자에 액세스할 수 있습니다. Mi
 
 템플릿이나 평가가 완료 되 고 더 이상 규정을 준수 하기 위해 필요 하지 않은 경우 보기에서 숨길 수 있습니다. 서식 파일 또는 평가를 숨기면 기본 보기에서 제거 되며이를 표시 하려면 **숨김 확인란 포함** 을 선택 해야 합니다.
 
-![준수 관리자의 템플릿 보기 숨김](media/compliance-manager-hidden-template.png "준수 관리자 숨김 서식 파일")
+![준수 관리자의 템플릿 보기 숨김](../media/compliance-manager-hidden-template.png "준수 관리자 숨김 서식 파일")
 
 > [!IMPORTANT]
 > 숨겨진 평가에서는 업로드 된 증거 문서에 대 한 링크를 유지 하지 않습니다. 보고서의 증거 문서에 대 한 링크를 보존 하기 위해 숨기기 전에 평가를 내보내야 합니다.
@@ -367,7 +367,7 @@ Service Trust Portal에서 준수 관리자에 액세스할 수 있습니다. Mi
 
 컨트롤은 Controls Info 대시보드에서 볼 수 있습니다. 컨트롤은 표준, 인증, 규정 또는 프레임 워크의 요구 사항을 나타냅니다. 이러한 요구 사항을 여러 표준, 규정 등으로 매핑하고,이를 작업에 연결 하려면 모든 항목이 컨트롤 프레임 워크 처럼 취급 됩니다. 예를 들어 제어 프레임 워크와 같이 HIPAA와 같은 규정은 다음과 같이 섹션 별로 구분 되며 준수 관리자의 HIPAA 컨트롤은 아래와 같은 번호 매기기 체계를 사용 합니다.
 
-![규정 준수 관리자 Microsoft 컨트롤 세부 정보](media/compliance-manager-control-details.png)
+![규정 준수 관리자 Microsoft 컨트롤 세부 정보](../media/compliance-manager-control-details.png)
 
 컨트롤에는 다음과 같은 세 가지 유형이 있습니다.
 
@@ -403,7 +403,7 @@ Service Trust Portal에서 준수 관리자에 액세스할 수 있습니다. Mi
 
 템플릿은 제품 및 인증 (예: 표준, 규정, 제어 프레임 워크 등)과 관련 된 준수 관리자 (미리 보기)의 기본 개체입니다. 서식 파일 대시보드에서 템플릿을 보고 추가할 수 있습니다.
 
-![준수 관리자 Microsoft 템플릿 대시보드](media/compliance-manager-template-dashboard.png)
+![준수 관리자 Microsoft 템플릿 대시보드](../media/compliance-manager-template-dashboard.png)
  
 이 대시보드에는 서식 파일에 연결 된 인증 및 제품과 함께 각 서식 파일이 표시 되며, 서식 파일을 만들고 마지막으로 수정한 날짜, 고객 및 Microsoft가 관리 하는 컨트롤의 수, 사용자의 최대 준수 점수가 서식 파일의 상태 (예: 승인 됨, 승인 보류 중, 가져옴)입니다.
 
@@ -458,7 +458,7 @@ Service Trust Portal에서 준수 관리자에 액세스할 수 있습니다. Mi
     Dimension Key::Dimension Value;;Dimension Key::Dimension Value.
     ```
     
-    예:
+    예시는 다음과 같습니다:
 
     ```Markdown
     Product::Office 365;;Certification::NIST CSF
@@ -492,7 +492,7 @@ Service Trust Portal에서 준수 관리자에 액세스할 수 있습니다. Mi
 - 하이퍼링크
 - 굵은
 
-글머리 기호는 Word 또는 Excel 글머리 기호 대신 별표로 표시 됩니다. 예:
+글머리 기호는 Word 또는 Excel 글머리 기호 대신 별표로 표시 됩니다. 예시는 다음과 같습니다:
 
 ```Markdown
 * Item A
@@ -500,7 +500,7 @@ Service Trust Portal에서 준수 관리자에 액세스할 수 있습니다. Mi
 * Item C
 ```
 
-숫자는 숫자로 나타내지만 들여쓰기가 필요한 경우 공백을 사용 하 고, 각 하위 수준에는 숫자만 사용 합니다 (예: 문자 없음).  예:
+숫자는 숫자로 나타내지만 들여쓰기가 필요한 경우 공백을 사용 하 고, 각 하위 수준에는 숫자만 사용 합니다 (예: 문자 없음).  예시는 다음과 같습니다:
    1. 항목 A
    2. 항목 B
       1. 하위 항목 A
@@ -511,7 +511,7 @@ Service Trust Portal에서 준수 관리자에 액세스할 수 있습니다. Mi
       2. 하위 항목 B
    5. 항목 E
 
-하이퍼링크 텍스트를 대괄호로 묶고 닫는 대괄호 바로 다음에 하이퍼링크를 괄호로 묶어 구성 합니다.  예:
+하이퍼링크 텍스트를 대괄호로 묶고 닫는 대괄호 바로 다음에 하이퍼링크를 괄호로 묶어 구성 합니다.  예시는 다음과 같습니다:
 
 ```Markdown
 Click [here](https://www.microsoft.com) to go to Microsoft’s home page.
@@ -520,7 +520,7 @@ Click [here](https://www.microsoft.com) to go to Microsoft’s home page.
 
 위의 예제에 나와 있는 것 처럼 준수 관리자는 밑줄을 사용 하 여 Url을 렌더링 하지 않습니다.
 
-굵은 텍스트는 텍스트의 양쪽에 있는 두 개의 별표가 며 굵게 표시 됩니다.  예:
+굵은 텍스트는 텍스트의 양쪽에 있는 두 개의 별표가 며 굵게 표시 됩니다.  예시는 다음과 같습니다:
 
 ```Markdown
 **This text will render in bold**
@@ -594,7 +594,7 @@ Click [here](https://www.microsoft.com) to go to Microsoft’s home page.
 2. 내보내려는 평가의 드롭다운 메뉴에서 그룹 및 평가를 선택 합니다.
 3. 내보내기를 선택 합니다. 평가 내보내기가 Excel 파일로 다운로드 됩니다.
 
-![준수 관리자 평가 Excel 보고서](media/compliance-manager-assessment-report.png)
+![준수 관리자 평가 Excel 보고서](../media/compliance-manager-assessment-report.png)
 
 ## <a name="permissions"></a>권한
 

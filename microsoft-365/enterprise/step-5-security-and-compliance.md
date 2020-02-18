@@ -1,5 +1,7 @@
 ---
 title: 5단계 - 보안 및 준수 고려 사항
+f1.keywords:
+- NOCSH
 ms.author: jogruszc
 author: JGruszczyk
 manager: jemed
@@ -13,23 +15,23 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 중요한 Windows/Office 보안 및 준수 고려 사항에 대해 알아봅니다.
-ms.openlocfilehash: b4ef8b4d4e5e6277ea129b5a9454983459266462
-ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
+ms.openlocfilehash: 1d38347ca1bdf152a891cfd147ec3fabf552ff3d
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41112562"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42085272"
 ---
 # <a name="step-5-security-and-compliance-considerations"></a>5단계: 보안 및 준수 고려 사항
 
-![](media/step-5-security-and-compliance-media/step-5-security-and-compliance-media-1.png)
+![](../media/step-5-security-and-compliance-media/step-5-security-and-compliance-media-1.png)
 
 <table>
 <thead>
-<td><img src="media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-8.png" alt="Step 5" height="135" width="135" /></td>
+<td><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-8.png" alt="Step 5" height="135" width="135" /></td>
 <td><p><strong>5단계: 보안 및 준수 고려 사항</strong></p>
 <p>Windows 10 및 Office 365 ProPlus는 데이터, 장치 및 사용자를 보호하고 위협을 빠르게 감지하고 대응하는 새로운 방법을 제공합니다. 또한 디스크 암호화, 맬웨어 방지 앱 및 Windows 10으로 전환할 때의 정책과 관련된 일반적인 문제를 처리하는 방법도 알아봅니다.</p></td>
-<td><a href="https://aka.ms/ddev5" target="_blank"><img src="media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-18.png" alt="Step 5" height="130" width="231" /></a></td>
+<td><a href="https://aka.ms/ddev5" target="_blank"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-18.png" alt="Step 5" height="130" width="231" /></a></td>
 </thead>
 </table>
 
@@ -63,7 +65,7 @@ Windows 10 및 Office 365 ProPlus로 전환하고 이러한 환경을 클라우�
 
 이전 버전의 Windows 및 Office에 사용되는 Active Directory 그룹 정책 설정은 Windows 10 및 Office 365 ProPlus로 직접 변환되지 않을 수 있으며, 최신 보안 및 준수 기능에 따라 고려 사항도 달라집니다. Microsoft 보안 규정 준수 도구 키트를 사용하여 현재 버전의 Windows 및 Office에 대한 보안 정책 기준을 확인하는 것이 좋습니다. 또한 Microsoft Intune의 일부로 모바일 장치 관리 정책을 살펴보는 것도 유용할 수 있습니다.
 
-![](media/step-5-security-and-compliance-media/step-5-security-and-compliance-media-3.png)
+![](../media/step-5-security-and-compliance-media/step-5-security-and-compliance-media-3.png)
 
 ## 
 

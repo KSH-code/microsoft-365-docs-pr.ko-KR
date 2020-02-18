@@ -1,6 +1,8 @@
 ---
 title: 높은 규제 대상 데이터에 대한 Teams
 author: JoeDavies-MSFT
+f1.keywords:
+- NOCSH
 ms.author: josephd
 manager: laurawi
 ms.date: 12/13/2019
@@ -13,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 안전한 팀을 만들어 중요하고 민감한 파일을 저장할 수 있습니다.
-ms.openlocfilehash: b35c4e8332b73b44042430651cbba9daa2c59c04
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: e2499c6e9061704846f4649ade43f74bd5632e8b
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40801423"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42084280"
 ---
 # <a name="teams-for-highly-regulated-data"></a>높은 규제 대상 데이터에 대한 Teams
 
@@ -42,15 +44,15 @@ Office 365 그룹을 기반으로 하는 개인 액세스를 넘어서, 이 문�
 
 다음은 민감도 레이블이 포함된 결과 구성입니다.
 
-![보안 팀 시나리오 구성](./media/secure-teams-highly-regulated-data-scenario/secure-team-final.png)
+![보안 팀 시나리오 구성](../media/secure-teams-highly-regulated-data-scenario/secure-team-final.png)
 
 간략한 개요를 보려면 이 짧은 동영상을 시청하세요.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4mGHf]
 
-<a name="poster"></a> 이 시나리오의 1 페이지 요약서를 보려면 [규제 수준이 높은 데이터 포스터를 위한 Teams](./media/secure-teams-highly-regulated-data-scenario/TeamsHighlyRegulatedData.pdf)를 참조하세요.
+<a name="poster"></a> 이 시나리오의 1 페이지 요약서를 보려면 [규제 수준이 높은 데이터 포스터를 위한 Teams](../media/secure-teams-highly-regulated-data-scenario/TeamsHighlyRegulatedData.pdf)를 참조하세요.
 
-[![규제 수준이 높은 데이터 포스터를 위한 Teams](././media/secure-teams-highly-regulated-data-scenario/teams-highly-regulated-data-poster.png)](./media/secure-teams-highly-regulated-data-scenario/TeamsHighlyRegulatedData.pdf)
+[![규제 수준이 높은 데이터 포스터를 위한 Teams](../media/secure-teams-highly-regulated-data-scenario/teams-highly-regulated-data-poster.png)](../media/secure-teams-highly-regulated-data-scenario/TeamsHighlyRegulatedData.pdf)
 
 이 포스터를 [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/secure-teams-highly-regulated-data-scenario/TeamsHighlyRegulatedData.pdf)나 [PowerPoint](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/secure-teams-highly-regulated-data-scenario/Teams-Highly-Regulated-Data-Poster.pptx) 형식으로 다운로드할 수 있고 편지형, 법률형, 타블로이드(11 x 17) 크기 용지에 인쇄할 수도 있습니다.
 
@@ -84,7 +86,7 @@ Office 365 그룹을 기반으로 하는 개인 액세스를 넘어서, 이 문�
 
 다음은 팀 사이트의 기본 사용 권한입니다.
 
-![팀 사이트의 기본 사용 권한](./media/secure-teams-highly-regulated-data-scenario/secure-team-default-site-permissions.png)
+![팀 사이트의 기본 사용 권한](../media/secure-teams-highly-regulated-data-scenario/secure-team-default-site-permissions.png)
  
 >[!Note]
 >편집 사용 권한 수준의 \<팀 이름> 소유자 SharePoint 그룹을 보는 경우, \<팀 이름> 소유자가 표시되지 않습니다.
@@ -99,7 +101,7 @@ Office 365 그룹을 기반으로 하는 개인 액세스를 넘어서, 이 문�
 
 지금까지의 결과 구성입니다.
 
-![보안 팀 시나리오 구성의 2단계](./media/secure-teams-highly-regulated-data-scenario/secure-team-step2.png)
+![보안 팀 시나리오 구성의 2단계](../media/secure-teams-highly-regulated-data-scenario/secure-team-step2.png)
  
 ### <a name="step-3-configure-the-underlying-sharepoint-site-for-additional-security"></a>3단계: 추가 보안을 위해 기본 SharePoint 사이트 구성
 
@@ -114,7 +116,7 @@ Office 365 그룹을 기반으로 하는 개인 액세스를 넘어서, 이 문�
 
 지금까지의 결과 구성입니다.
 
-![보안 팀 시나리오 구성의 3단계](./media/secure-teams-highly-regulated-data-scenario/secure-team-step3.png)
+![보안 팀 시나리오 구성의 3단계](../media/secure-teams-highly-regulated-data-scenario/secure-team-step3.png)
 
  
 ### <a name="step-4-create-a-retention-label-and-dlp-policy"></a>4단계: 보존 레이블 및 DLP 정책 만들기
@@ -127,7 +129,7 @@ Office 365 그룹을 기반으로 하는 개인 액세스를 넘어서, 이 문�
 
 지금까지의 결과 구성입니다.
 
-![보안 팀 시나리오 구성의 4단계](./media/secure-teams-highly-regulated-data-scenario/secure-team-step4.png)
+![보안 팀 시나리오 구성의 4단계](../media/secure-teams-highly-regulated-data-scenario/secure-team-step4.png)
  
 ### <a name="step-5-create-a-sensitivity-label-or-a-sublabel-of-the-highly-regulated-sensitivity-label"></a>5단계: 규제 수준이 높은 민감도 레이블의 민감도 레이블 또는 하위 레이블 만들기
 
@@ -148,11 +150,11 @@ Office 365 그룹을 기반으로 하는 개인 액세스를 넘어서, 이 문�
 
 새 레이블이 포함된 결과 구성은 다음과 같습니다.
 
-![보안 팀 시나리오 구성의 5단계](./media/secure-teams-highly-regulated-data-scenario/secure-team-final.png)
+![보안 팀 시나리오 구성의 5단계](../media/secure-teams-highly-regulated-data-scenario/secure-team-final.png)
 
 민감도 레이블과 팀 그룹 사이의 관계는 다음과 같습니다.
 
-![팀 그룹과 레이블 사용 권한의 관계](./media/secure-teams-highly-regulated-data-scenario/secure-team-label-permissions.png)
+![팀 그룹과 레이블 사용 권한의 관계](../media/secure-teams-highly-regulated-data-scenario/secure-team-label-permissions.png)
 
 
 >[!Note]
@@ -178,7 +180,7 @@ Office 365 그룹을 기반으로 하는 개인 액세스를 넘어서, 이 문�
 
 다음은 레이블의 결과 권한입니다.
 
-![레이블이 지정된 파일을 볼 수 있도록 사용자 지정된 권한의 예](./media/secure-teams-highly-regulated-data-scenario/secure-team-custom-view-permissions.png)
+![레이블이 지정된 파일을 볼 수 있도록 사용자 지정된 권한의 예](../media/secure-teams-highly-regulated-data-scenario/secure-team-custom-view-permissions.png)
  
 사이트 방문자는 팀 사이트에 바로 액세스하고 하위 레이블이 적용된 파일의 내용을 볼 수 있습니다. 그러나 팀 그룹의 구성원이 아니므로, 팀 또는 해당 리소스에는 액세스할 수 없습니다.
 
@@ -191,7 +193,7 @@ Office 365 그룹을 기반으로 하는 개인 액세스를 넘어서, 이 문�
 
 팀 그룹의 구성원은 채팅, 모임 및 기타 앱을 포함하여 팀과 모든 리소스에 액세스할 수 있습니다. 채널의 **파일** 섹션에서 파일에 대한 작업을 하는 경우, 팀 그룹의 구성원이 보안 팀을 위해 만든 파일에 민감도 레이블이나 하위 레이블을 할당해야 합니다. 다음은 예시입니다.
 
-![보안 팀에서 파일에 적용된 레이블의 예](./media/secure-teams-highly-regulated-data-scenario/secure-team-label-applied.png)
+![보안 팀에서 파일에 적용된 레이블의 예](../media/secure-teams-highly-regulated-data-scenario/secure-team-label-applied.png)
  
 레이블이 해당 파일에 적용되는 경우, 파일이 보호됩니다. 팀 그룹의 구성원이 실시간으로 Teams에서 파일을 열고 공동 작업할 수 있습니다. 파일이 암호화되며 팀 그룹 구성원으로 설정된 공동 작성자 권한을 포함합니다. 파일이 사이트를 떠나 악의적인 사용자에게 전달되는 경우, 파일을 열고 콘텐츠를 보려면 팀 그룹의 구성원인 사용자 계정의 자격 증명을 제공해야 합니다. 
 
@@ -222,7 +224,7 @@ Office 365 그룹을 기반으로 하는 개인 액세스를 넘어서, 이 문�
 
 민감 또는 기밀 파일이 있는지 팀을 테스트하기 위한 자체 테스트 환경을 구축하려면 [이 지침](https://docs.microsoft.com/microsoft-365/security/office-365-security/secure-team-for-files-in-a-dev-test-environment)을 참조하십시오. 
 
-![Microsoft 클라우드의 테스트 랩 가이드](media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)
+![Microsoft 클라우드의 테스트 랩 가이드](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)
 
 ## <a name="how-the-contoso-corporation-used-a-secure-team-for-a-top-secret-project"></a>Contoso Corporation이 극비 프로젝트를 위해 보안 팀을 사용하는 방법
 

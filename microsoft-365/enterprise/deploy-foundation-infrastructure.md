@@ -1,6 +1,8 @@
 ---
 title: Microsoft 365 Enterprise 기본 인프라
 author: JoeDavies-MSFT
+f1.keywords:
+- NOCSH
 ms.author: josephd
 manager: laurawi
 ms.date: 09/19/2019
@@ -13,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 조직에 Microsoft 365 Enterprise의 기본 인프라를 배포하는 주요 단계(핵심 배포라고도 함)를 이해합니다.
-ms.openlocfilehash: 78bfaf64fc247a88b30df4f2cf2a7f8b962dfdb6
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 26f95b9e7fb951910b983defb8b80162f39c37a2
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40801963"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42067982"
 ---
 # <a name="microsoft-365-for-enterprise-foundation-infrastructure"></a>Microsoft 365 Enterprise 기본 인프라
 
@@ -28,12 +30,12 @@ Microsoft 365 Enterprise의 종단 간 배포를 하는 경우, 먼저 응용프
 
 | | 단계 | 결과 |
 |:-------|:-----|:-----|
-|![1단계: 네트워킹](./media/deploy-foundation-infrastructure/networking_icon-small.png)|[1단계: 네트워킹](networking-infrastructure.md)| Microsoft 365 클라우드 기반 서비스에 액세스 하기 위해 네트워크가 최적화 되어있습니다. |
-|![2단계: ID](./media/deploy-foundation-infrastructure/identity_icon-small.png)|[2단계: ID](identity-infrastructure.md)| 관리자 계정이 보호되고, 사용자 및 그룹은 동기화되며, 사용자 인증은 강력합니다. |
-|![3단계: Windows 10 Enterprise](./media/deploy-foundation-infrastructure/win10enterprise_icon-small.png)|[3단계: Windows 10 Enterprise](windows10-infrastructure.md)| 기존 Windows 기반 컴퓨터는 Windows 10 Enterprise를 업그레이드 할 수 있으며 새 장치는 Windows 10 Enterprise와 함께 설치됩니다. |
-|![4단계: Office 365 ProPlus](./media/deploy-foundation-infrastructure/O365proplus_icon-small.png)|[4단계: Office 365 ProPlus](office365proplus-infrastructure.md)| 기존 사용자의 Microsoft Office는 Office 365 ProPlus으로 업그레이드 할 수 있습니다. |
-|![5단계: 모바일 장치 관리](./media/deploy-foundation-infrastructure/mobiledevicemgmt_icon-small.png)|[5단계: 모바일 장치 관리](mobility-infrastructure.md)| 장치를 등록하고 관리할 수 있습니다. |
-|![6단계: 정보 보호](./media/deploy-foundation-infrastructure/infoprotection_icon-small.png)|[6단계: 정보 보호](infoprotect-infrastructure.md)| Office 365 보안 기능이 사용 설정되었으며 레이블과 정책으로 문서 및 전자 메일을 보호할 준비가 되어있습니다. |
+|![1단계: 네트워킹](../media/deploy-foundation-infrastructure/networking_icon-small.png)|[1단계: 네트워킹](networking-infrastructure.md)| Microsoft 365 클라우드 기반 서비스에 액세스 하기 위해 네트워크가 최적화 되어있습니다. |
+|![2단계: ID](../media/deploy-foundation-infrastructure/identity_icon-small.png)|[2단계: ID](identity-infrastructure.md)| 관리자 계정이 보호되고, 사용자 및 그룹은 동기화되며, 사용자 인증은 강력합니다. |
+|![3단계: Windows 10 Enterprise](../media/deploy-foundation-infrastructure/win10enterprise_icon-small.png)|[3단계: Windows 10 Enterprise](windows10-infrastructure.md)| 기존 Windows 기반 컴퓨터는 Windows 10 Enterprise를 업그레이드 할 수 있으며 새 장치는 Windows 10 Enterprise와 함께 설치됩니다. |
+|![4단계: Office 365 ProPlus](../media/deploy-foundation-infrastructure/O365proplus_icon-small.png)|[4단계: Office 365 ProPlus](office365proplus-infrastructure.md)| 기존 사용자의 Microsoft Office는 Office 365 ProPlus으로 업그레이드 할 수 있습니다. |
+|![5단계: 모바일 장치 관리](../media/deploy-foundation-infrastructure/mobiledevicemgmt_icon-small.png)|[5단계: 모바일 장치 관리](mobility-infrastructure.md)| 장치를 등록하고 관리할 수 있습니다. |
+|![6단계: 정보 보호](../media/deploy-foundation-infrastructure/infoprotection_icon-small.png)|[6단계: 정보 보호](infoprotect-infrastructure.md)| Office 365 보안 기능이 사용 설정되었으며 레이블과 정책으로 문서 및 전자 메일을 보호할 준비가 되어있습니다. |
 
 이 단계들은 가장 기초적인 (네트워킹 및 아이디) 것으로 시작하며 인프라 설정 및 그룹들을 생성합니다.
 
@@ -56,11 +58,11 @@ Microsoft 365 Enterprise의 종단 간 배포를 하는 경우, 먼저 응용프
 
 전체 Microsoft 365 Enterprise 배포 가이드에서 기본 인프라는 다음과 같습니다.
 
-![전체 Microsoft 365 Enterprise 배포 가이드에서 기본 인프라](./media/deploy-foundation-infrastructure/m365-deploy-content-arch-foundation.png)
+![전체 Microsoft 365 Enterprise 배포 가이드에서 기본 인프라](../media/deploy-foundation-infrastructure/m365-deploy-content-arch-foundation.png)
 
 ## <a name="at-a-glance"></a>한눈에 보기
 
-[Microsoft 365 Enterprise 기본 인프라 포스터](media/deploy-foundation-infrastructure/Microsoft365EnterpriseFoundInfra.pdf)는 각 단계에서 볼 수 있는 중앙 위치입니다.
+[Microsoft 365 Enterprise 기본 인프라 포스터](../media/deploy-foundation-infrastructure/Microsoft365EnterpriseFoundInfra.pdf)는 각 단계에서 볼 수 있는 중앙 위치입니다.
 
 - 관리자 및 사용자를 위한 단계의 전반적인 목표
 - 서비스, 기능 및 도구
@@ -69,7 +71,7 @@ Microsoft 365 Enterprise의 종단 간 배포를 하는 경우, 먼저 응용프
 - 새 사용자를 온보딩하는 프로세스
 - 모니터링 및 업데이트 방법
 
-[![Microsoft 365 Enterprise 기본 인프라 이미지 포스터](./media/deploy-foundation-infrastructure/Microsoft365EnterpriseFoundInfra.png)](media/deploy-foundation-infrastructure/Microsoft365EnterpriseFoundInfra.pdf)
+[![Microsoft 365 Enterprise 기본 인프라 이미지 포스터](../media/deploy-foundation-infrastructure/Microsoft365EnterpriseFoundInfra.png)](../media/deploy-foundation-infrastructure/Microsoft365EnterpriseFoundInfra.pdf)
 
 포스터 사본을 다운로드 하려면 [여기](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/deploy-foundation-infrastructure/Microsoft365EnterpriseFoundInfra.pdf)를 클릭하세요.
 

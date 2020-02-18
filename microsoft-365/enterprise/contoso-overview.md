@@ -1,6 +1,8 @@
 ---
 title: Contoso Corporation 개요
 author: JoeDavies-MSFT
+f1.keywords:
+- NOCSH
 ms.author: josephd
 manager: laurawi
 ms.date: 10/01/2019
@@ -13,16 +15,16 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Contoso Corporation의 기업 정보와 전 세계 사무소의 계층 구조를 파악합니다.
-ms.openlocfilehash: f1c758b92915845a0786c24aec611cb221c70186
-ms.sourcegitcommit: 9ee873c6a2f738a0c99921e036894b646742e706
+ms.openlocfilehash: 856363881c749b06a530dc7cc4f0eb82dc155054
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38673154"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42068302"
 ---
 # <a name="overview-of-the-contoso-corporation"></a>Contoso Corporation 개요
 
-![Contoso Corporation](./media/contoso-overview/contoso-icon.png)
+![Contoso Corporation](../media/contoso-overview/contoso-icon.png)
 
 Contoso Corporation은 프랑스 파리에 본사가 있는 다국적 기업이자 10만 개가 넘는 제품의 제조, 판매 및 지원 업무를 처리하는 복합 기업입니다.
 
@@ -30,7 +32,7 @@ Contoso Corporation은 프랑스 파리에 본사가 있는 다국적 기업이�
 
 그림 1에서는 파리의 본사와 다양한 대륙에 위치한 지역 허브 및 위성 사무소를 보여 줍니다.
 
-![Contoso의 전 세계 사무소](./media/contoso-overview/contoso-overview-fig1.png)
+![Contoso의 전 세계 사무소](../media/contoso-overview/contoso-overview-fig1.png)
 
 **그림 1: Contoso의 전 세계 사무소**
  

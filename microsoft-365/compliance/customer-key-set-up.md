@@ -13,12 +13,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Exchange Online, 비즈니스용 Skype, SharePoint Online, 비즈니스용 OneDrive 및 팀 파일에 대 한 Office 365의 고객 키를 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: a57fb5ee7eea1746a50ec0fb1e2c3e84495b4f2c
-ms.sourcegitcommit: 5ff1dc62e8855be155cb2de45cf4ee5a02c321fd
+ms.openlocfilehash: a360c2c7a6876669ce5d2ae6b52a730a3c7f45a5
+ms.sourcegitcommit: 7d07e7ec84390a8f05034d3639fa5db912809585
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/06/2020
-ms.locfileid: "41804843"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42091291"
 ---
 # <a name="set-up-customer-key-for-office-365"></a>Office 365에 대 한 고객 키 설정
 
@@ -124,7 +124,7 @@ Azure 단계를 완료 한 후에는 [Microsoft FastTrack 포털](https://fasttr
 
 루트 암호화 키의 임시 또는 영구 손실은 매우 방해가 되거나 서비스 작업에 치명적이 될 수 있으며 데이터 손실이 발생할 수 있습니다. 이러한 이유로, 고객 키와 함께 사용 되는 리소스에는 강력한 보호가 필요 합니다. 고객 키와 함께 사용 되는 모든 Azure 리소스는 기본 구성 외에도 보호 메커니즘을 제공 합니다. 즉시 및 irrevocable 취소를 방지 하는 방식으로 Azure 구독에 태그를 지정 하거나 등록할 수 있습니다. 이를 필수 보존 기간 등록 이라고 합니다. 필수 보존 기간 동안 Azure 구독을 등록 하는 데 필요한 단계에 따라 Office 365 팀과 공동 작업이 필요 합니다. 이 프로세스는 영업일 이하의 근무일까지 소요 될 수 있습니다. 이전에는이를 "취소 안 함"이 라고도 합니다.
   
-Office 365 팀에 연락 하기 전에 고객 키와 함께 사용 하는 각 Azure 구독에 대해 다음 단계를 수행 해야 합니다. 계속 하기 전에 Azure PowerShell Az 모듈이 설치 되어 있는지 확인 하세요 (https://docs.microsoft.com/powershell/azure/new-azureps-module-az.
+Office 365 팀에 연락 하기 전에 고객 키와 함께 사용 하는 각 Azure 구독에 대해 다음 단계를 수행 해야 합니다. 시작 하기 전에 [Azure PowerShell Az](https://docs.microsoft.com/powershell/azure/new-azureps-module-az) 모듈이 설치 되어 있는지 확인 합니다.
   
 1. Azure PowerShell을 사용 하 여 로그인 합니다. 자세한 내용은 [Azure PowerShell을 사용 하 여 로그인](https://docs.microsoft.com/powershell/azure/authenticate-azureps)을 참조 하십시오.
 
@@ -132,7 +132,7 @@ Office 365 팀에 연락 하기 전에 고객 키와 함께 사용 하는 각 Az
 
    ```powershell
    Set-AzContext -SubscriptionId <SubscriptionId>
-   Get-AzProviderFeature -ProviderNamespace Microsoft.Resources -FeatureName mandatoryRetentionPeriodEnabled
+   Register-AzProviderFeature -FeatureName mandatoryRetentionPeriodEnabled -ProviderNamespace Microsoft.KeyVault
    ```
 
 3. Microsoft에 문의 하 여 해당 프로세스를 완료 합니다. SharePoint 및 비즈니스용 OneDrive 팀의 경우 [spock@microsoft.com](mailto:spock@microsoft.com)에 문의 하세요. Exchange Online 및 비즈니스용 Skype에 대 한 자세한 내용은 [exock@microsoft.com](mailto:exock@microsoft.com)에 문의 하세요. 전자 메일에 다음을 포함 합니다.
@@ -144,18 +144,18 @@ Office 365 팀에 연락 하기 전에 고객 키와 함께 사용 하는 각 Az
 
    이 프로세스를 완료 하는 데 필요한 SLA (서비스 수준 계약)는 Microsoft가 구독을 등록 하 여 필수 보존 기간을 사용 하도록 공지를 받은 경우 5 일 이내입니다.
 
-4. Microsoft에서 등록이 완료 되었음을 알리는 알림을 받으면 다음과 같이 AzProviderFeature cmdlet을 실행 하 여 등록 상태를 확인 합니다. 각 구독에 대해이 작업을 수행 합니다.
+4. Microsoft에서 등록이 완료 되었음을 알리는 알림을 받으면 다음과 같이 AzProviderFeature 명령을 실행 하 여 등록 상태를 확인 합니다. 확인 된 경우 AzProviderFeature 명령은 **등록 상태** 속성에 대해 **등록** 된 값을 반환 합니다. 각 구독에 대해이 작업을 수행 합니다.
 
    ```powershell
    Set-AzContext -SubscriptionId <SubscriptionId>
    Get-AzProviderFeature -ProviderNamespace Microsoft.Resources -FeatureName mandatoryRetentionPeriodEnabled
    ```
 
-5. AzProviderFeature cmdlet의 **등록 상태** 속성이 **등록**된 값을 반환 하는지 확인 한 후 다음 명령을 실행 하 여 프로세스를 완료 합니다. 각 구독에 대해이 작업을 수행 합니다.
+5. 프로세스를 완료 하려면 AzResourceProvider 명령을 실행 합니다. 각 구독에 대해이 작업을 수행 합니다.
 
    ```powershell
    Set-AzContext -SubscriptionId <SubscriptionId>
-   Register-AzResourceProvider -ProviderNamespace "Microsoft.KeyVault"
+   Register-AzResourceProvider -ProviderNamespace Microsoft.KeyVault
    ```
 
 ### <a name="create-a-premium-azure-key-vault-in-each-subscription"></a>각 구독에 프리미엄 Azure 키 자격 증명 모음 만들기
@@ -195,7 +195,7 @@ Office 365 팀에 연락 하기 전에 고객 키와 함께 사용 하는 각 Az
    Set-AzKeyVaultAccessPolicy -VaultName <vault name> -UserPrincipalName <UPN of user> -PermissionsToKeys create,import,list,get,backup,restore
    ```
 
-   예:
+   예시는 다음과 같습니다:
 
    ```powershell
    Set-AzKeyVaultAccessPolicy -VaultName Contoso-O365EX-NA-VaultA1 -UserPrincipalName alice@contoso.com -PermissionsToKeys create,import,list,get,backup,restore
@@ -319,7 +319,7 @@ Backup-AzKeyVaultKey -VaultName <vault name> -Name <key name>
 > [!TIP]
 > 출력 파일의 경우 자격 증명 모음 이름 및 키 이름을 조합 하 여 선택 합니다. 이렇게 하면 파일 이름이 자체 설명 됩니다. 또한 백업 파일 이름이 충돌 하지 않도록 해야 합니다.
   
-예:
+예시는 다음과 같습니다:
   
 ```powershell
 Backup-AzKeyVaultKey -VaultName Contoso-O365EX-NA-VaultA1 -Name Contoso-O365EX-NA-VaultA1-Key001 -OutputFile Contoso-O365EX-NA-VaultA1-Key001-Backup-20170802.backup

@@ -1,5 +1,7 @@
 ---
 title: 시작하기 - 데스크톱 배포
+f1.keywords:
+- NOCSH
 ms.author: jogruszc
 author: JGruszczyk
 manager: jemed
@@ -13,23 +15,23 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 데스크톱 배포 프로세스 소개
-ms.openlocfilehash: a9ad328f6a2548a24a981ee3b49665c3091277c9
-ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
+ms.openlocfilehash: 62d18f23df55783c8b1f0c01f9f803a1d4bca0f0
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41112532"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42067503"
 ---
 # <a name="getting-started---desktop-deployment"></a>시작하기 - 데스크톱 배포
 
-![](media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-2.png)
+![](../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-2.png)
 
 <table>
 <thead>
-<td><img src="media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-1.png" alt="Getting Started" height="130" width="130" /></td>
+<td><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-1.png" alt="Getting Started" height="130" width="130" /></td>
 <td><p><strong>시작하기: 사용자, 프로세스 및 기술 지침</strong></p>
 <p>Windows 10 및 Office 365 ProPlus의 이점, 이전 배포와 비교하여 주요 변경 사항 및 고려 사항, Windows 10 및 Office 365 ProPlus로 원활하게 전환 할 수있는 모범 사례를 확인하세요.</p></td>
-<td><a href="https://aka.ms/ddev0" target="_blank"><img src="media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-13.png" alt="Getting Started" height="120" width="213" /></a></td>
+<td><a href="https://aka.ms/ddev0" target="_blank"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-13.png" alt="Getting Started" height="120" width="213" /></a></td>
 </thead>
 </table>
 
@@ -111,7 +113,7 @@ Click-to-Run은 과거의 MSI 기반 패키지와는 많이 다릅니다. Click-
 
 **[7 단계 : 서비스로서의 Windows 및 Office](https://aka.ms/mdd7) ** 이것은 사용자의 데스크톱 점유 공간을 유지 관리하는 방식에서 큰 변화를 나타냅니다. Windows 10 및 Office 365 ProPlus로 전환하면 서비스로서의 Windows 및 Office 관리로 이동할 수 있습니다. 몇 해에 한 번씩 엄청난 기술 변화가 일어나는 대신에 새로운 기능, 경험 및 보호 기능을 사용자에게 지속적으로 제공 할 것입니다. 반기별 기능 업데이트는 매년 가을 및 봄에 새로운 기능을 제공하며, 월간 누적 품질 업데이트에는 보안, 안정성 및 버그 수정이 포함됩니다. Office 2019 클라이언트를 배포 할 수도 있지만 Office 365 ProPlus로 이동하는 것을 추천드립니다. 이것은 Windows와 유사한 서비스 계획을 따르므로 사용자는 Office 응용 프로그램에 대한 업데이트를 정기적으로 받습니다.
 
-![](media/getting-started-media/getting-started-media-2.png)
+![](../media/getting-started-media/getting-started-media-2.png)
 
 [서비스로서의 Windows 개요](https://docs.microsoft.com/windows/deployment/update/waas-overview)
 [서비스로서의 Office 개요](https://docs.microsoft.com/DeployOffice/overview-of-update-channels-for-office-365-proplus)

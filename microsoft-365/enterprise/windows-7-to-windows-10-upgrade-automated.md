@@ -1,5 +1,7 @@
 ---
 title: Windows 7에서 Windows 10으로 자동 업그레이드
+f1.keywords:
+- NOCSH
 ms.author: jogruszc
 author: JGruszczyk
 manager: jemed
@@ -13,18 +15,18 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 대규모 조직을 위한 Windows 7에서 Windows 10으로 자동 업그레이드
-ms.openlocfilehash: 7bca0a185bccbec1ee857b17817debfd7f06feb0
-ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
+ms.openlocfilehash: 727f165dc941eeb429e865fc8321499af6f23512
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41112702"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42085631"
 ---
 # <a name="windows-7-to-windows-10-automated-in-place-upgrades-for-large-organizations"></a>대규모 조직을 위한 Windows 7에서 Windows 10으로 현재 위치에서 자동 업그레이드
 
 2020년 1월 14일부터 Windows 7을 실행하는 PC에 대한 보안 업데이트 또는 지원이 더 이상 제공되지 않습니다. Windows 7에서 Windows 10으로 전환하고 여러 옵션을 배포해야 하는 몇 달 남지 않은 상황에서 IT 커뮤니티의 공통된 질문은 "Windows 7에서 Windows 10으로 이동하는 가장 빠른 방법은 무엇인가요?"입니다. 짧은 대답은 기존 PC의 현재 위치에서 업그레이드를 수행하여 데스크톱 배포 프로세스의 여러 측면에 중점을 줄이는 것입니다.
 
-<center><img src="media/windows-7-to-windows-10-upgrade-automated-media/windows-7-to-windows-10-upgrade-automated-media-1.png" alt="wheel" height="421" width="500" /></center>
+<center><img src="../media/windows-7-to-windows-10-upgrade-automated-media/windows-7-to-windows-10-upgrade-automated-media-1.png" alt="wheel" height="421" width="500" /></center>
 
 현재 위치 업그레이드를 사용하면 다양한 데스크톱 배포 프로세스 범위가 특히 크게 줄어듭니다.
 
@@ -68,7 +70,7 @@ Windows 10의 현재 위치 업그레이드는 파일 마이그레이션 또는 
 
   - 비즈니스 준비 상태를 달성하기 위해 구성해야 하는 다른 모든 항목과 함께
 
-![](media/windows-7-to-windows-10-upgrade-automated-media/windows-7-to-windows-10-upgrade-automated-media-2.png)
+![](../media/windows-7-to-windows-10-upgrade-automated-media/windows-7-to-windows-10-upgrade-automated-media-2.png)
 
 다음과 같은 경우에는 가장 일반적인 이유로 업그레이드를 완료하지 못할 수 있습니다.
 

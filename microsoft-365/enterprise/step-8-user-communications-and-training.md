@@ -1,5 +1,7 @@
 ---
 title: '8단계: 사용자 커뮤니케이션 및 교육'
+f1.keywords:
+- NOCSH
 ms.author: jogruszc
 author: JGruszczyk
 manager: jemed
@@ -13,23 +15,23 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 최종 사용자가 커뮤니케이션 및 학습에 사용할 수 있는 Windows 10 및 Office 365 ProPlus를 준비하도록 하는 방법을 알아봅니다.
-ms.openlocfilehash: 46a9a21fe60d2cf16f0e24483c5e6ab261714b23
-ms.sourcegitcommit: 70e920f76526f47fc849df615de4569e0ac2f4be
+ms.openlocfilehash: 02fa62cc7f9276670812a887e927ce8a1c6fb549
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/07/2019
-ms.locfileid: "38033663"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42085135"
 ---
 # <a name="step-8-user-communications-and-training"></a>8단계: 사용자 커뮤니케이션 및 교육
 
-![](media/step-8-user-communications-and-training-media/step-8-user-communications-and-training-media-1.png)
+![](../media/step-8-user-communications-and-training-media/step-8-user-communications-and-training-media-1.png)
 
 <table>
 <thead>
-<td><img src="media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-11.png" alt="Step 8" height="144" width="144" /></td>
+<td><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-11.png" alt="Step 8" height="144" width="144" /></td>
 <td><p><strong>8단계: 사용자 커뮤니케이션 및 교육</strong></p>
 <p>사용자에게 새로운 환경과 PC를 Windows 10 및 Office 365 ProPlus로 전환하는 새로운 작업 방법을 알려주어야 합니다. Microsoft FastTrack, 교육 자료 및 커뮤니케이션 서식 파일과 사용자 수용 및 사용 현황을 모니터링하는 새로운 방법을 통해 사용자 채택을 지원하는 방법을 알아보세요.</p></td>
-<td><a href="https://aka.ms/ddev8" target="_blank"><img src="media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-21.png" alt="Step 8" height="130" width="231" /></a></td>
+<td><a href="https://aka.ms/ddev8" target="_blank"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-21.png" alt="Step 8" height="130" width="231" /></a></td>
 </thead>
 </table>
 
@@ -47,7 +49,7 @@ Office부터 시작해서, Office 365 ProPlus를 처음 배포하는 경우, Off
 
 이러한 앱은 물론, Teams 및 Planner와 같은 기타 로컬 또는 브라우저 기반 앱에서 자세한 커뮤니케이션 및 교육 서식 파일을 사용할 수 있습니다.
 
-![](media/step-8-user-communications-and-training-media/step-8-user-communications-and-training-media-3.png)
+![](../media/step-8-user-communications-and-training-media/step-8-user-communications-and-training-media-3.png)
 
 또한 Outlook에서 OneDrive 연결 파일을 첨부하고 PowerPoint에서 새로운 모핑 슬라이드 전환 및 디자인 기능을 사용하는 등, 새로운 앱 내 기능에 대한 지침도 제공됩니다.
 
@@ -77,7 +79,7 @@ Windows 10의 경우, Windows Hello와 같이 생체 인식을 사용하여 안�
 
 배포 링은 사업부 및 해당 관리자와 협의할 때 가장 잘 구현됩니다. 배포하거나 변경을 진행할 때 피해야 할 중요한 날짜와 시간을 이해해야 합니다. 신중하게 계획하지 못하거나 이해 관계자의 의견을 반영하지 않으면 앞으로 발생할 변화를 사용자가 잘 받아들이고 편안하게 사용하기 어려울 수 있습니다.
 
-![](media/step-8-user-communications-and-training-media/step-8-user-communications-and-training-media-4.png)
+![](../media/step-8-user-communications-and-training-media/step-8-user-communications-and-training-media-4.png)
 
 ### <a name="phase-1-the-it-team-and-early-adopter-insiders"></a>첫 번째 작업 단계: IT 팀 및 얼리 어답터 참가자 
 
@@ -117,7 +119,7 @@ Microsoft의 IT Showcase 시리즈는 Windows 10 배포 관련 콘텐츠를 제�
 
 파일럿이 확장되면, 자주 묻는 질문과 셀프 서비스 콘텐츠를 문서화하여 게시함으로써 지원 티켓 및 지원 센터 작업을 사전에 줄이는 데 도움을 줄 수 있습니다.
 
-![](media/step-8-user-communications-and-training-media/step-8-user-communications-and-training-media-5.png)
+![](../media/step-8-user-communications-and-training-media/step-8-user-communications-and-training-media-5.png)
 
 ### <a name="phase-3-and-beyond-broad-production-deployment"></a>세 번째 작업 단계 및 이후 단계: 광범위한 프로덕션 배포 
 

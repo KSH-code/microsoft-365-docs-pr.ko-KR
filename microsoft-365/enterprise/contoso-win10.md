@@ -1,6 +1,8 @@
 ---
 title: Contoso의 Windows 10 Enterprise 배포
 author: JoeDavies-MSFT
+f1.keywords:
+- NOCSH
 ms.author: josephd
 manager: laurawi
 ms.date: 10/01/2019
@@ -13,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 어떻게 Contoso에서 Microsoft Endpoint Configuration Manager를 사용하여 Windows 10 Enterprise의 현재 위치에서 업그레이드를 배포했는지를 이해합니다.
-ms.openlocfilehash: 2080562aeb2f6359aa2a4f836de3406e4ca2439c
-ms.sourcegitcommit: 9ee873c6a2f738a0c99921e036894b646742e706
+ms.openlocfilehash: 5dc58a9090dd6976d7c521f7552181a10f22f5b2
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38672704"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42068012"
 ---
 # <a name="windows-10-enterprise-deployment-for-contoso"></a>Contoso의 Windows 10 Enterprise 배포
 
@@ -49,7 +51,7 @@ Windows 10 Enterprise의 현재 위치 업그레이드 이전 및 도중에 Cont
 
   자주 충돌이 발생하여 다시 제조하거나 대체할 필요가 있는 장치 및 장치의 충돌을 발생시키는 장치 드라이버와 충돌 횟수를 줄일 수 있는 이들 드라이버의 대체 버전에 대한 제안과 함께 식별 합니다. 최종 사용자에게 프롬프트를 보내는 Windows Information Protection의 잘못된 구성에 대해 알립니다.
  
-Contoso에는 기존 구성 관리자(현재 분기) 인프라가 있습니다. 구성 관리자는 대규모 환경에 맞춰 확장되고 설치, 업데이트 및 설정에 대한 광범위한 컨트롤을 제공합니다. Windows 10 Enterprise를 더 간편하고 효율적으로 배포하고 관리할 수 있는 기본 제공 기능도 포함되어 있습니다.
+Contoso는 기존의 Configuration Manager(현재 분기) 인프라가 있습니다. Configuration Manager는 대규모 환경에 맞게 확장되며, 설치, 업데이트 및 설정을 포괄적으로 제어할 수 있도록 합니다. 그뿐 아니라 Windows 10 Enterprise를 보다 쉽고 효율적으로 배포 및 관리할 수 있도록 하는 기본 제공 기능도 제공합니다.
 
 ## <a name="planning-process"></a>계획 프로세스
 
@@ -77,7 +79,7 @@ Windows 10 Enterprise의 현재 위치 업그레이드 배포를 완료하기 �
 
 Contoso의 현재 위치 업그레이드 및 지속적인 업데이트 배포 아키텍처는 다음과 같습니다.
 
-![Contoso의 Windows 10 Enterprise 배포 인프라](./media/contoso-win10/contoso-win10-fig1.png)
+![Contoso의 Windows 10 Enterprise 배포 인프라](../media/contoso-win10/contoso-win10-fig1.png)
 
 이 인프라는 다음으로 구성됩니다.
 

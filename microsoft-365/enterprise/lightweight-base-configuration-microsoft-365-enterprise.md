@@ -17,12 +17,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 6f916a77-301c-4be2-b407-6cec4d80df76
 description: 이 테스트 랩 가이드를 사용하여 Microsoft 365 Enterprise 테스트를 위한 간단한 테스트 환경을 만듭니다.
-ms.openlocfilehash: 54d2b58bac577bc8c21ab6bc64674af2f1d3af43
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 4e90cc01cb37664f3084daf7295e9d59052809af
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41596875"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42067098"
 ---
 # <a name="the-lightweight-base-configuration"></a>간단한 기본 구성
 
@@ -30,14 +30,14 @@ ms.locfileid: "41596875"
 
 이 문서에서는 Microsoft 365 E5 구독 및 Windows 10 Enterprise를 실행하는 컴퓨터에서 간소화된 환경을 만드는 방법에 대한 단계별 지침을 제공합니다. 
 
-![간단한 Microsoft 365 Enterprise 테스트 환경](media/lightweight-base-configuration-microsoft-365-enterprise/Phase4.png)
+![간단한 Microsoft 365 Enterprise 테스트 환경](../media/lightweight-base-configuration-microsoft-365-enterprise/Phase4.png)
 
 결과로 나타난 환경을 사용하여 [Microsoft 365 Enterprise](https://www.microsoft.com/microsoft-365/enterprise)의 기능을 테스트합니다.
 
-![Microsoft 클라우드의 테스트 랩 가이드](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
+![Microsoft 클라우드의 테스트 랩 가이드](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
   
 > [!TIP]
-> [여기](media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf)를 클릭하여 Microsoft 365 Enterprise 테스트 랩 가이드 스택의 모든 문서에 대한 가상 맵을 확인할 수 있습니다.
+> [여기](../media/m365-enterprise-test-lab-guides/Microsoft365EnterpriseTLGStack.pdf)를 클릭하여 Microsoft 365 Enterprise 테스트 랩 가이드 스택의 모든 문서에 대한 가상 맵을 확인할 수 있습니다.
 
 ## <a name="phase-1-create-your-office-365-e5-subscription"></a>1단계: Office 365 E5 구독 만들기
 
@@ -45,13 +45,13 @@ Office 365 E5 평가판 구독으로 시작하여 Microsoft 365 E5 구독을 추
 
 Office 365 E5 평가판 구독을 시작하려면 먼저 가상의 회사 이름 및 새 Microsoft 계정이 필요합니다.
   
-1. 회사 이름으로 Microsoft 샘플 콘텐츠에 사용되는 가상의 회사인 Contoso의 변형을 사용하는 것이 좋지만 필수는 아닙니다. 여기에 가상의 회사 이름을 기록하세요. ![선](./media/Common-Images/TableLine.png)
+1. 회사 이름으로 Microsoft 샘플 콘텐츠에 사용되는 가상의 회사인 Contoso의 변형을 사용하는 것이 좋지만 필수는 아닙니다. 여기에 가상의 회사 이름을 기록하세요. ![선](../media/Common-Images/TableLine.png)
     
 2. 새 Microsoft 계정을 등록하려면으로 [https://outlook.com](https://outlook.com)으로 이동한 후 새 전자 메일 계정 및 주소를 사용하여 계정을 만듭니다. 이 계정을 사용하여 Office 365에 등록합니다.
     
-  - 여기에 새 계정의 이름과 성을 기록합니다. ![선](./media/Common-Images/TableLine.png)
+  - 여기에 새 계정의 이름과 성을 기록합니다. ![선](../media/Common-Images/TableLine.png)
     
-  - 여기서 새 전자 메일 계정 주소를 기록합니다. ![선](./media/Common-Images/TableLine.png)@outlook.com
+  - 여기서 새 전자 메일 계정 주소를 기록합니다. ![선](../media/Common-Images/TableLine.png)@outlook.com
     
 ### <a name="sign-up-for-an-office-365-e5-trial-subscription"></a>Office 365 E5 평가판 구독 등록
 
@@ -60,8 +60,8 @@ Office 365 E5 평가판 구독을 시작하려면 먼저 가상의 회사 이름
 2. **Office 365 E5를 선택해 주셔서 감사합니다** 페이지에서 1단계의 새 이메일 계정 주소를 지정하십시오.
 3. 추적 구독 프로세스의 2단계에서 요청된 정보를 입력한 다음 확인을 수행하십시오.
 4. 3단계에서 조직 이름과 구독의 글로벌 관리자가 될 계정 이름을 입력하십시오. 
-5. 4단계에서 여기에 로그인 페이지를 기록합니다(선택 후 복사). ![Line](./media/Common-Images/TableLine.png) 
-6. 여기에 사용자 ID를 기록합니다. ![Line](./media/Common-Images/TableLine.png).onmicrosoft.com  
+5. 4단계에서 여기에 로그인 페이지를 기록합니다(선택 후 복사). ![Line](../media/Common-Images/TableLine.png) 
+6. 여기에 사용자 ID를 기록합니다. ![Line](../media/Common-Images/TableLine.png).onmicrosoft.com  
    입력한 암호를 안전한 위치에 기록해둡니다.
    이 값은 **Office 365 전역 관리자 이름**으로 사용됩니다.
 8. **설정으로 이동**을 클릭합니다.
@@ -121,11 +121,11 @@ Set-AzureADUserLicense -ObjectId $userUPN -AssignedLicenses $LicensesToAssign
 
 다음 값을 기록합니다.
   
-- Office 365 전역 관리자 이름: ![Line](./media/Common-Images/TableLine.png).onmicrosoft.com (1단계의 스텝 6)
+- Office 365 전역 관리자 이름: ![Line](../media/Common-Images/TableLine.png).onmicrosoft.com (1단계의 스텝 6)
     
     이 계정의 암호도 안전한 위치에 기록합니다.
     
-- 평가판 구독 조직 이름:  ![Line](./media/Common-Images/TableLine.png) (1단계의 스텝 4)
+- 평가판 구독 조직 이름:  ![Line](../media/Common-Images/TableLine.png) (1단계의 스텝 4)
     
 - 사용자 2, 사용자 3, 사용자 4, 사용자 5에 대한 계정을 나열하려면 Windows PowerShell 프롬프트에 대한 Microsoft Azure Active Directory 모듈에서 다음 명령을 실행합니다.
     
@@ -135,13 +135,13 @@ Set-AzureADUserLicense -ObjectId $userUPN -AssignedLicenses $LicensesToAssign
 
     여기에 계정 이름을 기록합니다.
     
-  - 사용자 2 계정 이름: user2@![Line](./media/Common-Images/TableLine.png).onmicrosoft.com
+  - 사용자 2 계정 이름: user2@![Line](../media/Common-Images/TableLine.png).onmicrosoft.com
     
-  - 사용자 3 계정 이름: user3@![Line](./media/Common-Images/TableLine.png).onmicrosoft.com
+  - 사용자 3 계정 이름: user3@![Line](../media/Common-Images/TableLine.png).onmicrosoft.com
     
-  - 사용자 4 계정 이름: user4@![Line](./media/Common-Images/TableLine.png).onmicrosoft.com
+  - 사용자 4 계정 이름: user4@![Line](../media/Common-Images/TableLine.png).onmicrosoft.com
     
-  - 사용자 5 계정 이름: user5@![Line](./media/Common-Images/TableLine.png).onmicrosoft.com
+  - 사용자 5 계정 이름: user5@![Line](../media/Common-Images/TableLine.png).onmicrosoft.com
     
     해당 계정의 공통 암호도 안전한 위치에 적어둡니다.
    
@@ -192,7 +192,7 @@ Office 365 및 Microsoft 365 모두에 적용되는 추가 테스트 랩 가이�
     
 다음에서는 구성 결과, Microsoft 365 E5를 추가하는 계정, Office 365 및 EMS(Enterprise Security + Management)를 포함하는 계정을 보여줍니다.
   
-![Microsoft 365 Enterprise 테스트 환경 3단계](media/lightweight-base-configuration-microsoft-365-enterprise/Phase2.png)
+![Microsoft 365 Enterprise 테스트 환경 3단계](../media/lightweight-base-configuration-microsoft-365-enterprise/Phase2.png)
   
 ## <a name="phase-4-create-a-windows-10-enterprise-computer"></a>4단계: Windows 10 Enterprise 컴퓨터 만들기
 
@@ -303,7 +303,7 @@ Windows 10 Enterprise가 있는 실제 또는 가상 머신을 만든 후에 로
     
 결과 환경은 다음과 같습니다.
 
-![Microsoft 365 Enterprise 테스트 환경 5단계](media/lightweight-base-configuration-microsoft-365-enterprise/Phase4.png)
+![Microsoft 365 Enterprise 테스트 환경 5단계](../media/lightweight-base-configuration-microsoft-365-enterprise/Phase4.png)
 
 여기에는 다음과 같은 WIN10 컴퓨터가 포함됩니다.
 
