@@ -1,5 +1,5 @@
 ---
-title: Office 앱에서 민감도 레이블 사용
+title: Office 앱의 민감도 레이블 사용
 f1.keywords:
 - NOCSH
 ms.author: cabailey
@@ -15,18 +15,18 @@ search.appverid:
 - MOE150
 - MET150
 description: 사용자가 데스크톱에 대 한 Office 앱, 모바일 용 Office 앱 및 웹 용 Office 앱에서 민감도 레이블을 사용 하는 방법에 대해 알아봅니다. 민감도 레이블을 지 원하는 앱을 찾습니다.
-ms.openlocfilehash: a0bb5d8eea5c929f91b8e303b6c14eb52e0b980a
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 596580a413778e54a3aaeb04bae8f5f164a96c14
+ms.sourcegitcommit: 7dc36305721a92e19a6e397f906e19dcafa0073b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42069865"
+ms.lasthandoff: 02/17/2020
+ms.locfileid: "42101238"
 ---
-# <a name="use-sensitivity-labels-in-office-apps"></a>Office 앱에서 민감도 레이블 사용
+# <a name="use-sensitivity-labels-in-office-apps"></a>Office 앱의 민감도 레이블 사용
 
-Microsoft 365 준수 센터 또는 동등한 레이블 센터에서 민감도 레이블을 게시 한 경우 사용자가 만들거나 편집할 때 데이터를 분류 하 고 보호 하기 위해 Office 앱에 표시 되기 시작 합니다.
+Microsoft 365 준수 센터 또는 동등한 레이블 센터에서 민감도 레이블을 [게시](create-sensitivity-labels.md#publish-sensitivity-labels-by-creating-a-label-policy) 한 경우 사용자가 만들거나 편집할 때 데이터를 분류 하 고 보호 하기 위해 Office 앱에 표시 되기 시작 합니다.
 
-이 문서의 정보를 사용 하 여 Office 앱에서 사용 민감도 레이블을 올바르게 관리 하는 데 도움을 받을 수 있습니다. 예를 들어 기본 제공 레이블, Azure Information Protection 통합 레이블 클라이언트와의 상호 작용 및 다른 앱 및 서비스와의 호환성을 지원 해야 하는 최소 버전의 앱이 있습니다.
+이 문서의 정보를 사용 하 여 Office 앱에서 민감도 레이블을 올바르게 관리 하는 데 도움을 받을 수 있습니다. 예를 들어 기본 제공 레이블을 지원 해야 하는 최소 버전의 앱을 식별 하 고 Azure Information Protection 통합 레이블 클라이언트 및 다른 앱 및 서비스와의 호환성을 이해 합니다.
 
 ## <a name="subscription-and-licensing-requirements-for-sensitivity-labels"></a>민감도 레이블의 구독 및 라이선스 요구 사항
 

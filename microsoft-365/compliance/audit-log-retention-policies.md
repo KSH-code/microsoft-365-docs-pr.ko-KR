@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: 감사 로그 보존 정책은 Microsoft 365의 새로운 고급 감사 기능의 일부입니다. 감사 로그 보존 정책을 사용하여 조직에서 감사 로그를 보존할 기간을 지정할 수 있습니다.
-ms.openlocfilehash: 5e2a1e328888a6aadf5c3057bbe7882ac0f72fbe
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: d19e18fa2c701996306f5b2e567ea01708d96144
+ms.sourcegitcommit: 7d07e7ec84390a8f05034d3639fa5db912809585
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 02/15/2020
-ms.locfileid: "42079219"
+ms.locfileid: "42091327"
 ---
 # <a name="manage-audit-log-retention-policies"></a>로그 보존 정책 감사 관리
 
@@ -61,7 +61,7 @@ Microsoft 365의 고급 감사는 모든 조직에 기본 감사 로그 보존 �
 
     ![감사 로그 검색 페이지](../media/AuditLogRetentionPolicy1.png)
 
-3. **새 보존 정책**을 클릭한 후 플라이 아웃 페이지에서 다음 필드를 완료하십시오.
+3. **새 감사 보존 정책**을 클릭한 후 플라이 아웃 페이지에서 다음 필드를 완료하십시오.
 
     ![감사 로그 보존 정책 플라이 아웃 페이지](../media/AuditLogRetentionPolicy2.png)
 
