@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: 관리자는 기본 커넥터를 설정 하 여 인스턴트 Bloomberg 채팅 도구에서 Microsoft 365로 데이터를 가져올 수 있습니다. 이를 통해 Microsoft 365의 타사 데이터 원본에서 데이터를 보관할 수 있으므로 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용 하 여 조직의 타사 데이터를 관리할 수도 있습니다.
-ms.openlocfilehash: 9711442e75e5a60540c8c7debea83d90c89e7893
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 9e93802eaf3197139fe8b8384bc1ec3ee16b2d6c
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41596035"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42079663"
 ---
 # <a name="set-up-a-connector-to-archive-instant-bloomberg-data"></a>즉석 Bloomberg 데이터를 보관할 커넥터 설정
 
@@ -29,7 +29,7 @@ Microsoft 365 준수 센터의 네이티브 커넥터를 사용 하 여 [인스�
 
 다음 개요에서는 커넥터를 사용 하 여 Microsoft 365에서 인스턴트 Bloomberg 채팅 데이터를 보관 하는 프로세스에 대해 설명 합니다. 
 
-![인스턴트 Bloomberg 가져오기 및 보관 프로세스](media/InstantBloombergDataArchiving.png)
+![인스턴트 Bloomberg 가져오기 및 보관 프로세스](../media/InstantBloombergDataArchiving.png)
 
 1. 조직에서 Bloomberg를 사용 하 여 Bloomberg SFTP 사이트를 설정 합니다. 또한 Bloomberg을 사용 하 여 Bloomberg SFTP 사이트에 채팅 메시지를 복사 하도록 인스턴트 Bloomberg을 구성 합니다.
 

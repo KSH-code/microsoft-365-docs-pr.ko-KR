@@ -1,5 +1,7 @@
 ---
 title: '3단계: Office 365에 대한 향상된 보안 구성'
+f1.keywords:
+- NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -13,18 +15,18 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Microsoft 365에 대한 향상된 보안을 이해하고 구성하십시오.
-ms.openlocfilehash: 15a4121315a81e1169e7cf1fa1c7ed079201b67b
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: eabf0d60f3cfb61b7fffcc688a080ba99f83293e
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40801683"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42067245"
 ---
 # <a name="step-3-configure-increased-security-for-microsoft-365"></a>3단계: Office 365에 대한 향상된 보안 구성
 
 *이 단계는 필수 사항이며, Microsoft 365 Enterprise E3 및 E5 버전에 적용됩니다.*
 
-![6단계: 정보 보호](./media/deploy-foundation-infrastructure/infoprotection_icon-small.png)
+![6단계: 정보 보호](../media/deploy-foundation-infrastructure/infoprotection_icon-small.png)
 
 Microsoft 365 구독 및 해당 데이터가 시작되어 악의적인 위협으로부터 안전하게 보호되도록 다음을 구성하십시오.
 
@@ -47,7 +49,7 @@ Office 365 ATP는 Microsoft 365 E5에서만 사용할 수 있습니다.
 
 |||
 |:-------|:-----|
-|![Microsoft 클라우드의 테스트 랩 가이드](media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)| [테스트 랩 가이드: 강화된 Microsoft 365 보안 구성](increased-o365-security-microsoft-365-enterprise-dev-test-environment.md) |
+|![Microsoft 클라우드의 테스트 랩 가이드](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)| [테스트 랩 가이드: 강화된 Microsoft 365 보안 구성](increased-o365-security-microsoft-365-enterprise-dev-test-environment.md) |
 |||
 
 중간 검사점으로 이 단계에 해당하는 [종료 조건](infoprotect-exit-criteria.md#crit-infoprotect-step3)을 확인하세요.
@@ -57,6 +59,6 @@ Office 365 ATP는 Microsoft 365 E5에서만 사용할 수 있습니다.
 
 |||
 |:-------|:-----|
-|![4단계](./media/stepnumbers/Step4.png)|[WIP(Windows Information Protection) 구성](infoprotect-deploy-windows-information-protection.md)|
+|![4단계](../media/stepnumbers/Step4.png)|[WIP(Windows Information Protection) 구성](infoprotect-deploy-windows-information-protection.md)|
 
 

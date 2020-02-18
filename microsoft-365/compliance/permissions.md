@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: 이 문서에서는 Microsoft 365에서 데이터 조사 도구를 사용 하는 데 필요한 사용 권한을 설정 하는 방법에 대해 설명 합니다.
-ms.openlocfilehash: cbe17c00637da6b96cdf638f9d14b402c2d07380
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 5c6dd42e0d849e5065e81a94554c960a126a265f
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597775"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42071105"
 ---
 # <a name="assign-permissions-for-data-investigations-preview"></a>데이터 조사에 대 한 사용 권한 할당 (미리 보기)
 

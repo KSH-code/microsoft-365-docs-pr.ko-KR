@@ -1,5 +1,7 @@
 ---
 title: 정보 보호 인프라 종료 조건
+f1.keywords:
+- NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -13,16 +15,16 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 정보 보호 기반 서비스 및 인프라에 대한 조건을 검사하여 구성이 Microsoft 365 Enterprise 요구 사항을 충족하는지 확인합니다.
-ms.openlocfilehash: f4896baeb4c18fc1eabac10b15f3ad8e150ab260
-ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
+ms.openlocfilehash: 28eff02ea870dcfca7e2e32580ed6a3a9e8a9484
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "37370135"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42067115"
 ---
 # <a name="information-protection-infrastructure-exit-criteria"></a>정보 보호 인프라 종료 조건
 
-![6단계: 정보 보호](./media/deploy-foundation-infrastructure/infoprotection_icon-small.png)
+![6단계: 정보 보호](../media/deploy-foundation-infrastructure/infoprotection_icon-small.png)
 
 정보 보호 인프라를 다음과 같은 필수 조건 및 선택 요소에 확실히 충족하도록 하십시오.
 

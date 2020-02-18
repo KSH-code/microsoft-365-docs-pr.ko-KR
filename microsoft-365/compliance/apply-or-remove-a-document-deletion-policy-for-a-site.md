@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: e3e92668-f9b2-46ee-8e5e-c623870588b6
 description: 조직은 규정 준수, 법률 및 기타 규정 때문에 특정 기간 동안 문서 보존이 필요한 경우가 많습니다. 그렇지만 필요 이상으로 오랫동안 문서를 보존하면 조직은 법적 위험에 노출될 수 있습니다. 이러한 이유로 조직은 사이트에 대해 문서 삭제 정책을 만들었을 수 있습니다. 예를 들어 일반 비즈니스 문서는 만들고 5년 후에 삭제해야 할 수도 있습니다.
-ms.openlocfilehash: 67bbe3339b492e5199799a21e5b3b249a3a98c08
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: f04b693a68da36b37524fe5c1fd2e00fab6c2bc6
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41596075"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42079860"
 ---
 # <a name="apply-or-remove-a-document-deletion-policy-for-a-site"></a>사이트에 문서 삭제 정책 적용 또는 제거
 
@@ -64,7 +64,7 @@ ms.locfileid: "41596075"
     
 이 목록은 보기 전용입니다. 사이트 모음 소유자는 사용 가능한 모든 정책 및 규칙을 볼 수 있습니다. 정책을 적용하려면 다음 섹션을 참조하세요.
   
-![사이트 모음에 할당된 문서 삭제 정책 보기](media/f2c0433b-2bb5-407d-a364-ae07c9627176.png)
+![사이트 모음에 할당된 문서 삭제 정책 보기](../media/f2c0433b-2bb5-407d-a364-ae07c9627176.png)
   
 ## <a name="apply-or-remove-a-document-deletion-policy-for-a-site"></a>사이트에 문서 삭제 정책 적용 또는 제거
 
@@ -83,13 +83,13 @@ ms.locfileid: "41596075"
     
     한 사이트에서 한 번에 하나의 정책 및 규칙만 활성 상태일 수 있습니다. 조직에서 선택할 수 있는 여러 정책 및 규칙을 제공할 수도 있고 하나의 정책이나 규칙만 제공할 수도 있습니다.
     
-    ![정책 선택 옵션](media/f7c7c055-fca7-4a4f-bb97-63e35a65beac.png)
+    ![정책 선택 옵션](../media/f7c7c055-fca7-4a4f-bb97-63e35a65beac.png)
   
   - **정책을 거부 하려면 다음을 수행 합니다** . **옵트아웃 선택:** \> **저장**을 클릭 하 여 메모를 삭제 합니다.
     
     사이트 소유자는 사이트의 콘텐츠에 정책이 적용 되지 않는 것으로 확인 되는 경우 문서 삭제 정책을 거부할 수 있습니다. 그러나 **필수**로 표시 된 정책은 거부할 수 없습니다.
     
-    ![옵트아웃 옵션](media/efac709c-bef7-4a02-a09d-5bc7d2b4ec63.png)
+    ![옵트아웃 옵션](../media/efac709c-bef7-4a02-a09d-5bc7d2b4ec63.png)
   
 ## <a name="document-deletion-policies-override-other-policies"></a>문서 삭제 정책은 다른 정책을 재정의함
 
@@ -113,7 +113,7 @@ ms.locfileid: "41596075"
     
 2. **사이트 관리** \> **콘텐츠 형식 정책 서식 파일**에서
     
-    ![문서 삭제 정책이 사용 되 고 있는 사이트에 대 한 경고](media/4cc3d703-9aff-4695-9670-f78c291c0010.png)
+    ![문서 삭제 정책이 사용 되 고 있는 사이트에 대 한 경고](../media/4cc3d703-9aff-4695-9670-f78c291c0010.png)
   
 ### <a name="determine-if-information-management-policies-are-being-ignored"></a>정보 관리 정책이 무시되는지 여부 확인
 
@@ -121,7 +121,7 @@ ms.locfileid: "41596075"
   
 - 목록 또는 라이브러리 \> 의 경우 **사용 권한 및 관리** \> **정보 관리 정책 설정**아래의 리본 메뉴 **라이브러리** 탭 \> **라이브러리 설정** \> 에 있습니다.
     
-    ![문서 삭제 정책이 사용 되 고 있는 사이트에 대 한 경고](media/3f043057-a741-4cd8-a165-6d139b986064.png)
+    ![문서 삭제 정책이 사용 되 고 있는 사이트에 대 한 경고](../media/3f043057-a741-4cd8-a165-6d139b986064.png)
   
 ## <a name="see-also"></a>참고 항목
 

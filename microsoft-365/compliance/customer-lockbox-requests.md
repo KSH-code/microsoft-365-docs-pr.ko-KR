@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 문제가 발생 하는 경우 Microsoft 지원 엔지니어가 데이터에 액세스 하는 방법을 제어할 수 있도록 하는 고객 Lockbox 요청에 대해 알아봅니다.
-ms.openlocfilehash: 915f8570271835939f0086f6c19af41a42d4f0d0
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 8906fde608e6e6c26604450eed063915e4617d29
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595505"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42076874"
 ---
 # <a name="customer-lockbox-in-office-365"></a>Office 365의 고객 Lockbox
 
@@ -50,7 +50,7 @@ ms.locfileid: "41595505"
 
 5. Microsoft 지원 관리자가 요청을 승인 하면 고객 Lockbox가 조직의 지정 된 승인자에 게 Microsoft의 보류 중인 액세스 요청에 대 한 전자 메일 알림을 보냅니다.
 
-    ![고객 Lockbox 전자 메일 알림의 예](media/CustomerLockbox1.png)
+    ![고객 Lockbox 전자 메일 알림의 예](../media/CustomerLockbox1.png)
 
    Microsoft 365 관리 센터에서 [고객 lockbox 액세스 승인자](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) 관리자 역할이 할당 된 모든 사용자는 고객 lockbox 요청을 승인할 수 있습니다.
 
@@ -74,11 +74,11 @@ Microsoft 365 관리 센터에서 고객 Lockbox 컨트롤을 사용 하도록 �
 
 2. **설정 > 보안 & 개인 정보**를 선택 합니다.
 
-    ![관리 센터에서 고객 Lockbox 설정 편집](media/CustomerLockbox2.png)
+    ![관리 센터에서 고객 Lockbox 설정 편집](../media/CustomerLockbox2.png)
 
 3. **고객 Lockbox** 타일에서 **편집**을 선택 하 고 토글을 설정 또는 **해제** 로 **이동** 하 여 해당 기능을 설정 하거나 해제 합니다.
 
-    ![Require approval for Customer Lockbox](media/CustomerLockbox4.png)
+    ![Require approval for Customer Lockbox](../media/CustomerLockbox4.png)
 
 ## <a name="approve-or-deny-a-customer-lockbox-request"></a>고객 Lockbox 요청 승인 또는 거부
 
@@ -86,19 +86,19 @@ Microsoft 365 관리 센터에서 고객 Lockbox 컨트롤을 사용 하도록 �
 
 2. **고객 Lockbox 요청 > 지원을**선택 합니다.
 
-    ![지원을 클릭 하 고 고객 Lockbox 요청을 클릭 합니다.](media/CustomerLockbox5.png)
+    ![지원을 클릭 하 고 고객 Lockbox 요청을 클릭 합니다.](../media/CustomerLockbox5.png)
 
     고객 Lockbox 요청 목록이 표시 됩니다.
 
-    ![고객 Lockbox 요청 목록](media/CustomerLockbox6.png)
+    ![고객 Lockbox 요청 목록](../media/CustomerLockbox6.png)
 
 3. 고객 Lockbox 요청을 선택한 다음 **승인** 또는 **거부**를 선택 합니다.
 
-    ![고객 Lockbox 요청 승인 또는 거부](media/CustomerLockbox7.png)
+    ![고객 Lockbox 요청 승인 또는 거부](../media/CustomerLockbox7.png)
 
     고객 Lockbox 요청의 승인에 대 한 확인 메시지가 표시 됩니다.
 
-    ![고객 Lockbox 요청 승인 또는 거부](media/CustomerLockbox8.png)
+    ![고객 Lockbox 요청 승인 또는 거부](../media/CustomerLockbox8.png)
 
 ## <a name="auditing-customer-lockbox-requests"></a>고객 Lockbox 요청 감사
 
@@ -116,7 +116,7 @@ Microsoft 365 관리 센터에서 고객 Lockbox 컨트롤을 사용 하도록 �
 
     **감사 로그 검색** 페이지가 표시 됩니다.
 
-    ![감사 로그 검색 페이지](media/auditlogsearch1.png)
+    ![감사 로그 검색 페이지](../media/auditlogsearch1.png)
   
 4. 다음과 같은 검색 조건을 구성합니다. 
 
@@ -138,7 +138,7 @@ Microsoft 365 관리 센터에서 고객 Lockbox 컨트롤을 사용 하도록 �
 
    - 승인 된 고객 Lockbox 요청에 대 한 응답으로 Microsoft 엔지니어의 작업을 수행 하는 데 관련 된 감사 레코드를 표시 하려면 **사용자** 열 아래의 상자에 **microsoft Operator**를 입력 합니다. **활동** 열에는 엔지니어가 수행한 작업이 표시 됩니다.
 
-      ![감사 레코드를 표시 하는 "Microsoft 운영자"에 대 한 필터링](media/CustomerLockbox10.png)
+      ![감사 레코드를 표시 하는 "Microsoft 운영자"에 대 한 필터링](../media/CustomerLockbox10.png)
 
 7. 결과 목록에서 감사 레코드를 클릭 하 여 표시 합니다.
 
@@ -156,7 +156,7 @@ Microsoft 365 관리 센터에서 고객 Lockbox 컨트롤을 사용 하도록 �
 
 다음 스크린샷은 승인 된 고객 Lockbox 요청에 해당 하는 감사 로그 레코드의 예를 보여 줍니다. 고객 Lockbox 요청이 거부 된 경우 **Approvaldecision 결정** 매개 변수의 값은 **Deny**가 됩니다.
 
-![승인 된 고객 Lockbox 요청에 대 한 감사 레코드](media/CustomerLockbox9.png)
+![승인 된 고객 Lockbox 요청에 대 한 감사 레코드](../media/CustomerLockbox9.png)
 
 > [!TIP]
 > 감사 레코드에 자세한 정보를 표시 하려면 **추가 정보**를 클릭 합니다.

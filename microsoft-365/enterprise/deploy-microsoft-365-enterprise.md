@@ -1,6 +1,8 @@
 ---
 title: 엔터프라이즈용 Microsoft 365 배포
 author: JoeDavies-MSFT
+f1.keywords:
+- NOCSH
 ms.author: josephd
 manager: laurawi
 ms.date: 09/19/2019
@@ -13,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 조직에서 엔터프라이즈용 Microsoft 365를 배포하는 데 사용할 수 있는 리소스를 이해합니다.
-ms.openlocfilehash: 4181a5efeb7ba63812703ae5eb81667240314e9a
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: e4660ff6e7fc9646b2e28181afff4df2811acdd1
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40801923"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42067963"
 ---
 # <a name="deploy-microsoft-365-for-enterprise"></a>엔터프라이즈용 Microsoft 365 배포
 
@@ -65,7 +67,7 @@ FastTrack [여기](https://fasttrack.microsoft.com/microsoft365)를 사용하여
 
 여기에 기초 인프라와 워크로드 및 시나리오 간의 관계가 나와 있습니다.
 
-![기초 인프라와 워크로드 및 시나리오 간의 관계](./media/deploy-microsoft-365-enterprise/m365-deploy-content-arch.png)
+![기초 인프라와 워크로드 및 시나리오 간의 관계](../media/deploy-microsoft-365-enterprise/m365-deploy-content-arch.png)
 
 워크로드와 시나리오는 기초 인프라의 상단에 걸쳐 운영됩니다. 그러나 생산성 및 협업을 위한 워크로드를 사용하기 위해 모든 기초 인프라 단계가 구축되어야 하는 것은 아닙니다.
 
@@ -83,13 +85,13 @@ TLG를 사용하면 복잡한 구성, 워크로드 또는 종단 간 시나리�
 
 자세한 내용은 [엔터프라이즈용 Microsoft 365 테스트 랩 가이드](m365-enterprise-test-lab-guides.md)를 참조하세요.
 
-![Microsoft 클라우드의 테스트 랩 가이드](media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
+![Microsoft 클라우드의 테스트 랩 가이드](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
 
 ## <a name="transition-your-entire-organization"></a>전체 조직 전환
 
-전체 조직을 엔터프라이즈용 Microsoft 365의 제품 및 서비스로 전환하는 방법을 더 자세히 보려면 [Microsoft 365로 조직의 전환](media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf) 포스터를 참조하세요.
+전체 조직을 엔터프라이즈용 Microsoft 365의 제품 및 서비스로 전환하는 방법을 더 자세히 보려면 [Microsoft 365로 조직의 전환](../media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf) 포스터를 참조하세요.
 
-[![조직을 Microsoft 365로 전환 포스터](./media/deploy-microsoft-365-enterprise/transition-org-to-m365.png)](media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf)
+[![조직을 Microsoft 365로 전환 포스터](../media/deploy-microsoft-365-enterprise/transition-org-to-m365.png)](../media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf)
 
 이 두 페이지 포스터는 신속하게 기존 인프라를 목록화하고 엔터프라이즈용 Microsoft 365에서 해당 제품이나 서비스로 전환하는 방법에 대한 지침을 제공합니다. Windows와 Office 제품, 디바이스 관리, ID, 정보 및 위협 방지와 같은 기타 인프라 및 보안 요소가 포함됩니다.
 

@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 127e2c9a04977bf6e902a1ce669fa9e4248e3ef2
-ms.sourcegitcommit: 2913fd74ad5086c7cac6388447285be9aa5a8e44
+ms.openlocfilehash: 65a0e6dc2857a51b10d1fa3b6674ccf24dbc4799
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/01/2020
-ms.locfileid: "41662256"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42080114"
 ---
 # <a name="advanced-ediscovery-dashboard-for-review-sets-preview"></a>검토 집합에 대 한 고급 eDiscovery 대시보드 (미리 보기)
 
@@ -37,15 +37,15 @@ ms.locfileid: "41662256"
   
 4. **개별 결과** 드롭다운 목록에서 **검색 프로필 보기**를 클릭 합니다. 
 
-   ![DashbordPivot](media/dashboardpivot.png)
+   ![DashbordPivot](../media/dashboardpivot.png)
 
    **검색 프로필 보기** 페이지가 표시 됩니다. 이 페이지를 처음 표시할 때 세 개의 기본 위젯을 표시 합니다.
 
-   ![대시보드](media/dashboardonly.png)
+   ![대시보드](../media/dashboardonly.png)
   
 5. **새 위젯을** 클릭 하 고 다음 항목 중 하나를 선택 합니다.
 
-   ![새 위젯 드롭다운 목록](media/NewWidgetDropdownBox.png)
+   ![새 위젯 드롭다운 목록](../media/NewWidgetDropdownBox.png)
 
    - **라이브러리에서 선택:** 위젯의 기본 라이브러리를 표시 합니다. 위젯을 클릭 한 다음 **추가** 를 클릭 하 여 **검색 프로필 보기** 페이지의 위젯에 추가 합니다.
   
@@ -53,7 +53,7 @@ ms.locfileid: "41662256"
 
 6. 사용자 지정 위젯을 만들려면 위젯 플라이 아웃 **추가** 페이지에서 다음을 수행 합니다.
 
-   ![위젯 만들기](media/addwidget.png)
+   ![위젯 만들기](../media/addwidget.png)
 
     a. 위젯 제목 표시줄에 표시 되는 위젯 이름을 입력 합니다. Widget 이름은 필수 이지만 widget 데이터를 식별 하는 것이 좋습니다.
 
@@ -67,17 +67,17 @@ ms.locfileid: "41662256"
 
 1. 위젯 제목 표시줄에서 ... 조건을 클릭 한 다음 **조건 적용**을 **클릭 합니다.**
 
-   ![대시보드](media/searchprofilehome.png)
+   ![대시보드](../media/searchprofilehome.png)
 
 2. 플라이 아웃 페이지에서 위젯 키 또는 위젯 차트의 요소를 클릭 하 여 필터를 만듭니다.
 
-   ![CreateFilter](media/applyconditionfilter.png)
+   ![CreateFilter](../media/applyconditionfilter.png)
 
 3. 다른 widget 여러 widget에 대해 1-2 단계를 반복 합니다. 
 
 4. 작업이 완료 되 면 **쿼리로 저장** 을 클릭 하 여 조건을 검토 집합에 대 한 새 검색 쿼리로 저장 합니다.
 
-   ![Query](media/savequery.png)
+   ![Query](../media/savequery.png)
 
 5. **검색 프로필 보기** 를 닫아 검색 결과 보기로 돌아갑니다.
 

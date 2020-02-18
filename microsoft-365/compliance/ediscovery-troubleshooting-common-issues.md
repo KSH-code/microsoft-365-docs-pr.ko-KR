@@ -18,12 +18,12 @@ search.appverid:
 ms.assetid: ''
 description: Office 365 eDiscovery에서 일반적인 문제를 조사 하 고 문제를 해결 하 고 해결 합니다.
 siblings_only: true
-ms.openlocfilehash: c8eb4a330ab565900a685959ab1291990a6119bb
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 3ff22ae11a21aef3909e58e03c8fefcf21db6435
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595133"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42074820"
 ---
 # <a name="investigate-troubleshoot-and-resolve-common-ediscovery-issues"></a>일반적인 eDiscovery 문제 조사, 문제 해결 및 해결
 
@@ -60,7 +60,7 @@ ms.locfileid: "41595133"
 EDiscovery 또는 콘텐츠 검색 시 다음 오류가 발생할 수 있습니다.
 >이 검색은 (#) 오류와 함께 완료 되었습니다.  실패 한 위치에서 검색을 다시 시도 하 시겠습니까?
 
-![검색 별 위치 실패 오류 스크린샷]( media/edisc-tshoot-specific-location-search-fails.png)
+![검색 별 위치 실패 오류 스크린샷](../media/edisc-tshoot-specific-location-search-fails.png)
 
 ### <a name="resolution"></a>문제 해결 방법
 
@@ -136,7 +136,7 @@ EDiscovery 검색이 실패 하 고 `recipient not found`오류가 발생 합니
 
 EDiscovery 검색을 실행할 때 "내부 서버 오류 (500)이 발생 했습니다."와 유사한 오류와 함께 검색이 계속 실패 하면 특정 사서함 위치에 대해서만 검색을 다시 실행 해야 할 수 있습니다.
 
-![내부 서버 오류 500 스크린샷](media/edisc-tshoot-error-500.png)
+![내부 서버 오류 500 스크린샷](../media/edisc-tshoot-error-500.png)
 
 ### <a name="resolution"></a>문제 해결 방법
 

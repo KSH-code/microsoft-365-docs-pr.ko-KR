@@ -17,12 +17,12 @@ search.appverid:
 ms.assetid: ''
 ROBOTS: NOINDEX, NOFOLLOW
 description: 고급 eDiscovery 사례에서 콘텐츠를 검토할 때 컴퓨터 학습 기반 콘텐츠 검색을 사용 하려면 변호사-클라이언트 권한 검색 모델을 사용 합니다.
-ms.openlocfilehash: b60fe72cf476b9a6cbbd5cae3ed1a1e541d6b313
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 8fb635e429af2ae4d796e9c847a34d949d8dd6d9
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595965"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42079284"
 ---
 # <a name="set-up-attorney-client-privilege-detection-in-advanced-ediscovery"></a>고급 eDiscovery에서 변호사 설정-클라이언트 권한 검색
 
@@ -46,7 +46,7 @@ EDiscovery 프로세스의 검토 단계에서 주요 및 비용이 많이 드�
 
 이러한 속성 및 해당 값은 다음 스크린샷에 표시 된 것 처럼 검토 집합에 있는 문서의 파일 메타 데이터에 추가 됩니다.
 
-![변호사-파일 메타 데이터에 표시 되는 클라이언트 권한 속성](media/AeDAttorneyClientPrivilegeMetadata.png)
+![변호사-파일 메타 데이터에 표시 되는 클라이언트 권한 속성](../media/AeDAttorneyClientPrivilegeMetadata.png)
 
 검토 집합 내 에서도 이러한 세 가지 속성을 검색할 수 있습니다. 자세한 내용은 [검토 집합에서 데이터 쿼리](review-set-search.md)를 참조 하세요.
 
@@ -62,7 +62,7 @@ EDiscovery 프로세스의 검토 단계에서 주요 및 비용이 많이 드�
 
 2. **고급 eDiscovery** 홈 페이지의 **설정** 타일에서 **전역 분석 설정 구성을**클릭 합니다.
 
-   !["실험적 기능 구성"을 선택 합니다.](media/AeDExperimentalFeatures.png)
+   !["실험적 기능 구성"을 선택 합니다.](../media/AeDExperimentalFeatures.png)
 
 3. **분석 설정** 탭에서 **변호사 관리-클라이언트 권한 설정을**선택 합니다.
 
@@ -80,7 +80,7 @@ EDiscovery 프로세스의 검토 단계에서 주요 및 비용이 많이 드�
 
    **변호사-클라이언트** 권한 **검색** 전환 기능이 설정 된 상태로 표시 됩니다.
 
-   ![변호사-클라이언트 권한 플라이 아웃 페이지](media/AeDUploadAttorneyList.png)
+   ![변호사-클라이언트 권한 플라이 아웃 페이지](../media/AeDUploadAttorneyList.png)
 
 3. **찾아보기를** 선택 하 고 1 단계에서 만든 .csv 파일을 찾아 선택 합니다.
 
@@ -98,13 +98,13 @@ EDiscovery 프로세스의 검토 단계에서 주요 및 비용이 많이 드�
  
 2. **태그**에서 **그룹 추가** 옆에 있는 풀을 선택 하 고 **스마트 태그 그룹 추가**를 선택 합니다.
 
-   !["스마트 태그 그룹 추가"를 선택 합니다.](media/AeDCreateSmartTag.png)
+   !["스마트 태그 그룹 추가"를 선택 합니다.](../media/AeDCreateSmartTag.png)
 
 3. **스마트 태그에 대 한 모델 선택** 페이지에서 **변호사-클라이언트 권한**옆에 있는 **선택을** 선택 합니다.
 
    **변호사-클라이언트 권한** 이라는 태그 그룹이 표시 됩니다. 여기에는 **양수** 및 **음수**라는 두 개의 하위 태그가 있으며 모델에서 생성 되는 가능한 결과에 해당 합니다.
 
-   ![변호사-클라이언트 권한 스마트 태그 그룹](media/AeDAttorneyClientSmartTagGroup.png)
+   ![변호사-클라이언트 권한 스마트 태그 그룹](../media/AeDAttorneyClientSmartTagGroup.png)
 
 3. 태그 그룹 및 태그의 이름을 검토에 적합 하 게 바꿉니다. 예를 들어 **양수** 에서 **특권** 으로, 아니면 **음수가** **아닌 것**으로 이름을 바꿀 수 있습니다.
 
@@ -126,8 +126,8 @@ EDiscovery 프로세스의 검토 단계에서 주요 및 비용이 많이 드�
 
 예를 들어 다음 스크린샷에서는 두 개의 문서를 보여 줍니다. 첫 번째 항목에는 기본적으로 유효한 콘텐츠가 포함 되며 변호사 목록에 참가자가 있습니다. 두 번째는 둘 다를 포함 하지 않으므로 레이블을 표시 하지 않습니다.
 
-![변호사 및 법적 콘텐츠 레이블이 있는 문서](media/AeDTaggingPanelLegalContentAttorney.png)
+![변호사 및 법적 콘텐츠 레이블이 있는 문서](../media/AeDTaggingPanelLegalContentAttorney.png)
 
-![레이블이 없는 문서](media/AeDTaggingPanelNegative.png)
+![레이블이 없는 문서](../media/AeDTaggingPanelNegative.png)
 
 문서를 검토 하 여 권한 있는 콘텐츠가 포함 되어 있는지 여부를 확인 한 후에는 해당 태그를 사용 하 여 문서에 태그를 지정할 수 있습니다.

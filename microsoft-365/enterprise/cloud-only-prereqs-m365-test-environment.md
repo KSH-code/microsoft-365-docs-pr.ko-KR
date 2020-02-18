@@ -1,9 +1,11 @@
 ---
 title: Microsoft 365 테스트 환경에서 클라우드 전용 ID 및 장치 액세스 필수 구성 요소
 author: JoeDavies-MSFT
+f1.keywords:
+- NOCSH
 ms.author: josephd
 manager: laurawi
-ms.date: 04/23/2019
+ms.date: 12/12/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 클라우드 전용 인증을 위한 필수 구성 요소를 사용하여 ID 및 장치 액세스를 테스트하는 Microsoft 365 환경을 만듭니다.
-ms.openlocfilehash: 6e0796d24f2644907d214c4528eab2051fa3d83c
-ms.sourcegitcommit: 9ee873c6a2f738a0c99921e036894b646742e706
+ms.openlocfilehash: 2d40eca964cc338186f17b1b03423526e36ac196
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38673234"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42068485"
 ---
 # <a name="identity-and-device-access-prerequisites-for-cloud-only-in-your-microsoft-365-test-environment"></a>Microsoft 365 테스트 환경에서 클라우드 전용 ID 및 장치 액세스 필수 구성 요소
 
@@ -43,7 +45,7 @@ ms.locfileid: "38673234"
 [간단한 기본 구성](lightweight-base-configuration-microsoft-365-enterprise.md)의 지침을 따릅니다.
 구성 결과는 다음과 같습니다.
 
-![간단한 Microsoft 365 Enterprise 테스트 환경](media/lightweight-base-configuration-microsoft-365-enterprise/Phase4.png)
+![간단한 Microsoft 365 Enterprise 테스트 환경](../media/lightweight-base-configuration-microsoft-365-enterprise/Phase4.png)
  
 
 ## <a name="phase-2-configure-named-locations"></a>2단계: 명명된 위치 구성
@@ -82,7 +84,7 @@ ms.locfileid: "38673234"
 
 ## <a name="phase-6-enable-azure-ad-identity-protection"></a>6단계: Azure Active Directory Identity Protection 사용
 
-[Azure Active Directory Identity Protection 테스트 랩 가이드의 2단계](azure-ad-identity-protection-microsoft-365-test-environment.md#phase-2-enable-and-use-azure-ad-identity-protection)에 있는 지침을 따릅니다. 
+[Azure Active Directory Identity Protection 테스트 랩 가이드의 2단계](azure-ad-identity-protection-microsoft-365-test-environment.md#phase-2-use-azure-ad-identity-protection)에 있는 지침을 따릅니다. 
 
 ## <a name="phase-7-enable-modern-authentication-for-exchange-online-and-skype-for-business-online"></a>7단계: Exchange Online 및 비즈니스용 Skype Online에 대해 최신 인증을 사용
 

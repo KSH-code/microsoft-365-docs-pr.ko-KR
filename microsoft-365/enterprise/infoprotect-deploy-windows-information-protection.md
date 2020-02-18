@@ -1,5 +1,7 @@
 ---
 title: '4단계: WIP(Windows Information Protection) 구성'
+f1.keywords:
+- NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -13,18 +15,18 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Microsoft 365에서 WIP(Windows Information Protection) 이해 및 배포
-ms.openlocfilehash: 23c3298545a288b459fd3bb858bb7c1d1714ee75
-ms.sourcegitcommit: 1d376287f6c1bf5174873e89ed4bf7bb15bc13f6
+ms.openlocfilehash: 655ff33c3fd1bba822937618d801db76b7881977
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38627384"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42067165"
 ---
 # <a name="step-4-configure-windows-information-protection"></a>4단계: WIP(Windows Information Protection) 구성
 
 *이 단계는 선택 사항이며, Microsoft 365 Enterprise E3 및 E5 버전에 적용됩니다.*
 
-![6단계: 정보 보호](./media/deploy-foundation-infrastructure/infoprotection_icon-small.png)
+![6단계: 정보 보호](../media/deploy-foundation-infrastructure/infoprotection_icon-small.png)
 
 더 많은 개인 장치를 작업에 사용할 수 있으므로, 개인 조직 데이터를 누출할 수 있는 앱 및 장치의 위험이 높아졌습니다. 예를 들어, 직원이 실수로 미래 제품에 대한 마케팅 계획의 사진을 소셜 미디어에 전송하거나 매우 중요한 정보를 공개 클라우드 스토리지에 저장합니다. 
 
@@ -49,6 +51,6 @@ Microsoft 365 Enterprise와 함께 조직에 WIP를 배포하려면 다음을 �
 
 |||
 |:-------|:-----|
-|![5단계](./media/stepnumbers/Step5.png)|[Office 365 데이터 손실 방지 구성](infoprotect-data-loss-prevention.md)|
+|![5단계](../media/stepnumbers/Step5.png)|[Office 365 데이터 손실 방지 구성](infoprotect-data-loss-prevention.md)|
 
 

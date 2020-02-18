@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: b5c82de7-ed2f-4cc6-becd-db403faf4d18
 description: '태그 파일을 포함 하 여 평가 교육을 수행 하는 단계를 검토 하 고 Office 365 Advanced eDiscovery에서 평가 결과를 검토 합니다. '
-ms.openlocfilehash: b2eecb76416728f7319396f5c97054d0219b66e1
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 93780d42cd42ced692a81f5cfd739bcd8713c2c2
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597425"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42081055"
 ---
 # <a name="tagging-and-assessment-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery에서 태그 지정 및 평가
 
@@ -36,7 +36,7 @@ ms.locfileid: "41597425"
     
     이 절차의 목적을 예로 들면, 500 파일의 샘플 평가 집합을 만들고 태그 지정 패널, 표시 된 파일 콘텐츠 및 기타 태그 지정 옵션을 포함 하는 **Tag** 탭이 표시 됩니다. 
     
-    ![평가 대 한 관련 태그 탭](media/c8acf891-b1cd-4344-816c-eabb8cbbe742.png)
+    ![평가 대 한 관련 태그 탭](../media/c8acf891-b1cd-4344-816c-eabb8cbbe742.png)
   
 2. 예제에서 각 파일을 검토 하 고 각 사례 문제에 대 한 파일의 관련성을 확인 하 고 태그 지정 **패널** 창에서 관련성 (R), 관련 없음 (veiligheid) 및 Skip 단추를 사용 하 여 파일에 태그가 지정 됩니다. 
     
@@ -47,14 +47,14 @@ ms.locfileid: "41597425"
     
     평가 현재 오류 여백 및 다양성은 아래에 표시 된 것 처럼, 문제 당 세부 정보를 포함 하 여 **관련성 트랙** 탭에 계산 되어 표시 됩니다. 이 대화 상자에 대 한 자세한 내용은 뒷부분에 나오는 "평가 결과 검토" 섹션에 설명 되어 있습니다. 
     
-    ![관련 트랙-평가](media/da911ba5-8678-40d6-9ad5-fd0b058355c1.png)
+    ![관련 트랙-평가](../media/da911ba5-8678-40d6-9ad5-fd0b058355c1.png)
   
     > [!TIP]
     > 기본적으로 문제에 대 한 평가 진행률 표시기가 완료 되 고 평가 샘플이 검토 되었으며 적절 한 관련 파일에 태그가 지정 되었음을 나타내는 경우에는 기본 다음 단계로 진행 하는 것이 좋습니다. 그렇지 않고 **추적** 탭 결과를 확인 하 고 오류 여백 및 다음 단계를 제어 하려면 **다음 단계**옆에 있는 **수정을** 클릭 하 고 **평가 계속**을 선택한 다음 **확인**을 클릭 합니다. > 
   
 1. **평가** 확인란 오른쪽에 있는 **수정을** 클릭 하 여 문제 당 평가 매개 변수를 보고 지정 합니다. 다음 예와 같이 각 문제에 대 한 **평가 수준** 대화 상자가 표시 됩니다. 
     
-    ![평가 수준 사례 문제](media/b7113fef-d125-4617-ae1b-c9eb0bf79aec.png)
+    ![평가 수준 사례 문제](../media/b7113fef-d125-4617-ae1b-c9eb0bf79aec.png)
   
     문제에 대해 다음 매개 변수가 계산 되어 **평가 수준** 대화 상자에 표시 됩니다. 
     
@@ -72,7 +72,7 @@ ms.locfileid: "41597425"
     
 3. **평가 수준** 대화 상자에서 **고급** 을 클릭 하 여 다음과 같은 추가 매개 변수 및 세부 정보를 확인 합니다. 
     
-    ![평가 수준 사례 문제를 상세하게 보기](media/577d7e0e-95df-48c2-9dec-bdeab5e801d8.png)
+    ![평가 수준 사례 문제를 상세하게 보기](../media/577d7e0e-95df-48c2-9dec-bdeab5e801d8.png)
   
     **예측 된 다양성**: 현재 평가 결과에 따라 예측 한 다양성
     
@@ -92,7 +92,7 @@ ms.locfileid: "41597425"
     
     문제가 여러 개 있을 때 모든 문제가 검토 되거나 조정 되 면 다음 예제와 같이 **평가 수준: 요약** 대화 상자가 표시 됩니다. 
     
-    ![평가 수준 요약](media/4997b46d-10a5-4abc-b3b2-7b75a370eb9e.png)
+    ![평가 수준 요약](../media/4997b46d-10a5-4abc-b3b2-7b75a370eb9e.png)
   
     평가가 성공적으로 완료 되 면 관련성 교육의 다음 단계로 진행 합니다.
     

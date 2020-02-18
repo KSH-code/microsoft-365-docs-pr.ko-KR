@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: f5caf497-5e8d-4b7a-bfff-d02942f38150
 description: 더 이상 Office 365 비활성 사서함의 내용을 보존 하지 않아도 되는 경우에는 보류를 제거 하 여 비활성 사서함을 영구적으로 삭제할 수 있습니다. 보류를 제거한 후 비활성 사서함은 삭제 되도록 표시 되 고 처리 된 후 영구적으로 삭제 됩니다.
-ms.openlocfilehash: 21df7f34d6f07a413b860b1b918eb1dbdf26e946
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 412d7ec60fea758c67719271e1be8dbca98611e2
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595333"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42075821"
 ---
 # <a name="delete-an-inactive-mailbox-in-office-365"></a>Office 365에서 비활성 사서함 삭제
 
@@ -107,11 +107,11 @@ Set-Mailbox -InactiveMailbox -Identity <identity of inactive mailbox> -Litigatio
 
 2. EAC에서 **규정 준수 관리** \> 원본 ** &amp; 위치 eDiscovery 유지**로 이동 합니다.
     
-3. 삭제할 원본 위치 유지를 선택 하 고 편집 아이콘](media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif) **편집** ![을 클릭 합니다.
+3. 삭제할 원본 위치 유지를 선택 하 고 편집 아이콘](../media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif) **편집** ![을 클릭 합니다.
     
 4. 원본 ** &amp; 위치 eDiscovery 보류** 속성 페이지에서 원본 **위치 유지**를 클릭 하 고 **선택한 사서함에 있는 검색 쿼리와 일치 하는 콘텐츠를 보류에** 저장 상자를 선택 취소 한 후에 **Save**를 클릭 합니다.
     
-5. 원본 **위치 eDiscovery &amp; 유지** 페이지에서 원본 위치 유지를 다시 선택한 다음 삭제 아이콘 ****![](media/87565fbb-5147-4f22-9ed7-1c18ce664392.png)삭제를 클릭 합니다.
+5. 원본 **위치 eDiscovery &amp; 유지** 페이지에서 원본 위치 유지를 다시 선택한 다음 삭제 아이콘 ****![](../media/87565fbb-5147-4f22-9ed7-1c18ce664392.png)삭제를 클릭 합니다.
     
 6. 경고에서 **예** 를 클릭 하 여 원본 위치 유지를 삭제 합니다. 
     
@@ -145,11 +145,11 @@ Set-Mailbox -InactiveMailbox -Identity <identity of inactive mailbox> -Litigatio
 
 2. EAC에서 **규정 준수 관리** \> 원본 ** &amp; 위치 eDiscovery 유지**로 이동 합니다.
     
-3. 비활성 사서함에 저장 된 원본 위치 유지를 선택 하 고 편집 아이콘](media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif) **편집** ![을 클릭 합니다.
+3. 비활성 사서함에 저장 된 원본 위치 유지를 선택 하 고 편집 아이콘](../media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif) **편집** ![을 클릭 합니다.
     
 4. 원본 **위치 eDiscovery &amp; 보류** 속성 페이지에서 **원본을**클릭 합니다.
     
-5. 원본 사서함 목록에서 제거 하려는 비활성 사서함의 이름을 클릭 하 고 제거 아이콘](media/adf01106-cc79-475c-8673-065371c1897b.gif) **제거**![를 클릭 합니다.
+5. 원본 사서함 목록에서 제거 하려는 비활성 사서함의 이름을 클릭 하 고 제거 아이콘](../media/adf01106-cc79-475c-8673-065371c1897b.gif) **제거**![를 클릭 합니다.
     
 6. **저장**을 클릭하여 변경 내용을 저장합니다. 작업이 성공적으로 완료 되었음을 알리는 메시지가 표시 됩니다. 
     
@@ -213,7 +213,7 @@ Set-Mailbox -InactiveMailbox -Identity <identity of inactive mailbox> -Litigatio
     
 - **일시 삭제 된 사서함 보존 기간은 비활성 사서함에 어떤 영향을 줍니까?** 비활성 사서함의 일시 삭제 된 날짜가 보존을 제거한 날짜 보다 30 일 보다 많은 경우에는 사서함이 영구적으로 삭제 되도록 표시 됩니다. 그러나 비활성 사서함의 지난 30 일 이내에 일시 삭제 된 날짜가 있고 보존을 제거 하면 일시 삭제 된 사서함 보존 기간이 만료 될 때까지 사서함을 복구할 수 있습니다. 자세한 내용은 [Exchange Online에서 사용자 사서함 삭제 또는 복원을](https://go.microsoft.com/fwlink/?linkid=856835)참조 하십시오. 일시 삭제 된 사서함 보존 기간이 만료 되 면 비활성 사서함을 복구 하기 위한 절차를 따릅니다. 자세한 내용은 [Office 365에서 비활성 사서함 복구](recover-an-inactive-mailbox.md)를 참조 하십시오.
     
-- **보류를 제거한 후 비활성 사서함에 대 한 정보를 표시 하는 방법은 무엇 인가요?** 보류를 제거 하 고 비활성 사서함이 일시 삭제 된 사서함으로 다시 되돌아간 후에는 **사서함** cmdlet과 함께 *Inactivemailboxonly* 매개 변수를 사용 하 여 반환 되지 않습니다. 그러나 **undo-softdeletedmailbox** 명령을 사용 하 여 사서함에 대 한 정보를 표시할 수 있습니다. 예: 
+- **보류를 제거한 후 비활성 사서함에 대 한 정보를 표시 하는 방법은 무엇 인가요?** 보류를 제거 하 고 비활성 사서함이 일시 삭제 된 사서함으로 다시 되돌아간 후에는 **사서함** cmdlet과 함께 *Inactivemailboxonly* 매개 변수를 사용 하 여 반환 되지 않습니다. 그러나 **undo-softdeletedmailbox** 명령을 사용 하 여 사서함에 대 한 정보를 표시할 수 있습니다. 예시는 다음과 같습니다: 
     
   ```text
   Get-Mailbox -SoftDeletedMailbox -Identity pilarp | FL Name,Identity,LitigationHoldEnabled,In

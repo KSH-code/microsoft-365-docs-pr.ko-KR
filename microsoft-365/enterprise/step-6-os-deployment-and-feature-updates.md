@@ -1,5 +1,7 @@
 ---
 title: 6단계 - 운영 체제 배포 및 기능 업데이트
+f1.keywords:
+- NOCSH
 ms.author: jogruszc
 author: JGruszczyk
 manager: jemed
@@ -13,23 +15,23 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: OS 배포 및 기능 업데이트를 위한 옵션을 알아봅니다.
-ms.openlocfilehash: 7da7c9ade2be43e8c60726bafd69cc7939b7bddc
-ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
+ms.openlocfilehash: 24b6cf30398031cf2bf4032795013338fec39ffb
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41112682"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42085235"
 ---
 # <a name="step-6-os-deployment-and-feature-updates"></a>6단계: 운영 체제 배포 및 기능 업데이트
 
-![](media/step-6-os-deployment-and-feature-updates-media/step-6-os-deployment-and-feature-updates-media-1.png)
+![](../media/step-6-os-deployment-and-feature-updates-media/step-6-os-deployment-and-feature-updates-media-1.png)
 
 <table>
 <thead>
-<td><img src="media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-9.png" alt="Step 6" height="144" width="144" /></td>
+<td><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-9.png" alt="Step 6" height="144" width="144" /></td>
 <td><p><strong>6단계: 운영 체제 배포 및 기능 업데이트</strong></p>
 <p>완전 설치, PC 업그레이드 및 PC 교체를 위해 대규모의 단계별 배포를 자동화하는 데 작업 시퀀스 기반 배포가 사용됩니다. 업그레이드 작업 시퀀스는 주요 반기 업데이트로 최신 상태를 유지하도록 도와줍니다. 또한 Windows Autopilot은 새 PC 취득 프로세스를 현대화하는 최신 추가 기능입니다.</p></td>
-<td><a href="https://aka.ms/ddev6" target="_blank"><img src="media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-19.png" alt="Step 6" height="130" width="231" /></a></td>
+<td><a href="https://aka.ms/ddev6" target="_blank"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-19.png" alt="Step 6" height="130" width="231" /></a></td>
 </thead>
 </table>
 
@@ -81,7 +83,7 @@ ms.locfileid: "41112682"
 
 [Setup.exe를 사용하는 Windows 10 업그레이드 전 유효성 검사](https://blogs.technet.microsoft.com/mniehaus/2015/08/23/windows-10-pre-upgrade-validation-using-setup-exe/)
 
-![](media/step-6-os-deployment-and-feature-updates-media/step-6-os-deployment-and-feature-updates-media-3.png)
+![](../media/step-6-os-deployment-and-feature-updates-media/step-6-os-deployment-and-feature-updates-media-3.png)
 
 현재 위치 업그레이드 시나리오는 레거시 버전의 Windows에서 Windows 10으로 마이그레이션하거나 이전 버전의 Windows 10에서 업그레이드하는 데 사용할 수 있습니다. Windows 설치 프로그램이 업그레이드를 완료하면 작업 시퀀스가 계속 실행되면서 Office와 같은 응용 프로그램을 업그레이드하고, 드라이버를 교체하고, 개인 설정을 적용합니다. 마찬가지로 업그레이드 작업 시퀀스를 사용하여 업그레이드를 수행하기 전에 설치 전 작업 및 검사를 수행할 수 있습니다.
 
@@ -93,7 +95,7 @@ ms.locfileid: "41112682"
 
 배포를 계획할 때 완전 복구, 새로 고침, 교체 및 업그레이드 경로에 대한 컴퓨터를 타기팅하게 됩니다. 이 경우에 권장되는 방법은 비슷한 컴퓨터 컬렉션에 대해 단계별 배포를 사용하는 것입니다. 이러한 방식으로 배포 규모를 넓히기 전에 호환성, 전달 및 자동화, 사용자 수용, 네트워크 대역폭 사용량 및 기타 요소가 유효한지 확인할 수 있습니다.
 
-![](media/step-6-os-deployment-and-feature-updates-media/step-6-os-deployment-and-feature-updates-media-4.png)
+![](../media/step-6-os-deployment-and-feature-updates-media/step-6-os-deployment-and-feature-updates-media-4.png)
 
 ### <a name="recommended-tools-microsoft-endpoint-configuration-manager-current-branch-and-the-microsoft-deployment-toolkit"></a>권장 도구: Microsoft Endpoint Configuration Manager(현재 분기) 및 Microsoft Deployment Toolkit
 
@@ -103,7 +105,7 @@ ms.locfileid: "41112682"
 
   - 또한 인기 있는 다른 배포 옵션 중 하나는 무료 **[Microsoft Deployment Toolkit](https://docs.microsoft.com/windows/deployment/deploy-windows-mdt/get-started-with-the-microsoft-deployment-toolkit)**(MDT)으로, 일반적으로 중소기업이 OS 배포에 사용합니다. 이 도구 키트에는 약간의 인프라만 필요합니다. MDT는 네트워크 부을 위해 WDS(Windows 배포 서비스)와 통합됩니다. 4가지 배포 유형과 응용 프로그램, 드라이버 및 설정 설치를 모두 지원합니다. 또한 MDT를 Configuration Manager와 통합할 수도 있습니다.
 
-![](media/step-6-os-deployment-and-feature-updates-media/step-6-os-deployment-and-feature-updates-media-5.png)
+![](../media/step-6-os-deployment-and-feature-updates-media/step-6-os-deployment-and-feature-updates-media-5.png)
 
 ### <a name="windows-autopilot"></a>Windows Autopilot
 

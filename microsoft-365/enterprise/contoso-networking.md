@@ -1,6 +1,8 @@
 ---
 title: Contoso Corporation에 대한 네트워킹
 author: JoeDavies-MSFT
+f1.keywords:
+- NOCSH
 ms.author: josephd
 manager: laurawi
 ms.date: 10/01/2019
@@ -13,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Contoso 네트워킹 인프라와 이 인프라가 Microsoft 365 Enterprise 클라우드 서비스에 최적의 성능을 제공하기 위해 SD-WAN 기술을 사용하는 방법을 이해합니다.
-ms.openlocfilehash: 87584660805608c45b36e13804ca1dab6b8e7d17
-ms.sourcegitcommit: 9ee873c6a2f738a0c99921e036894b646742e706
+ms.openlocfilehash: 20279ac0aed1b7ad86e1fc8e1d78a412230eba52
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38673174"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42068349"
 ---
 # <a name="networking-for-the-contoso-corporation"></a>Contoso Corporation에 대한 네트워킹
 
@@ -42,7 +44,7 @@ Contoso의 네트워크 엔지니어들은 클라우드 포함 인프라를 채�
 
 그림 1은 Contoso의 네트워킹 인프라 및 해당 인터넷 연결을 보여 줍니다.
 
-![Contoso의 네트워크](./media/contoso-networking/contoso-networking-fig1.png)
+![Contoso의 네트워크](../media/contoso-networking/contoso-networking-fig1.png)
  
 **그림 1: Contoso의 네트워크**
 
@@ -75,7 +77,7 @@ Contoso는 다음을 위한 LOB(기간 업무) 응용 프로그램 및 서버 �
 
 그림 2에서는 Contoso의 인트라넷을 통해 서버에 액세스할 때의 네트워크 트래픽 비율을 보여 줍니다.
 
-![내부 응용 프로그램에 대한 Contoso의 인프라](./media/contoso-networking/contoso-networking-fig2.png)
+![내부 응용 프로그램에 대한 Contoso의 인프라](../media/contoso-networking/contoso-networking-fig2.png)
  
 **그림 2: 내부 응용 프로그램에 대한 Contoso의 인프라**
 

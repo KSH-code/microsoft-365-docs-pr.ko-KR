@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 위험 평가를 간소화 하 고 자동화 하는 데 도움이 되는 M365 준수 센터의 기능인 Microsoft 준수 점수 (미리 보기)에 대 한 릴리스 정보 및 알려진 문제
-ms.openlocfilehash: a46a495e14187ed76926438bc3e28bd70d4f025e
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: d89e1415b836e79187c9e484fef72670f828cfbf
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595765"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42078625"
 ---
 # <a name="microsoft-compliance-score-preview-release-notes"></a>Microsoft 준수 점수 (미리 보기) 릴리스 정보
 

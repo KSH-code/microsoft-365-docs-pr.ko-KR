@@ -315,7 +315,7 @@ Set-OrganizationConfig -AuditDisabled $false
 
 현재 조직에서 사서함 감사가 기본적으로 설정 된 경우에는 특정 사서함에 대해 사서함 감사를 사용 하지 않도록 설정할 수 없습니다. 예를 들어 *Auditenabled* mailbox 속성을 **False** 로 설정 하는 것은 무시 됩니다.
 
-그러나 Exchange Online PowerShell에서 **get-mailboxauditbypassassociation** cmdlet을 사용 하 여 작업이 수행 되는 위치에 관계 없이 지정 된 사용자의 *모든* 사서함 작업이 로깅되지 않도록 할 수 있습니다. 예:
+그러나 Exchange Online PowerShell에서 **get-mailboxauditbypassassociation** cmdlet을 사용 하 여 작업이 수행 되는 위치에 관계 없이 지정 된 사용자의 *모든* 사서함 작업이 로깅되지 않도록 할 수 있습니다. 예시는 다음과 같습니다:
 
 - 바이패스 된 사용자가 수행한 사서함 소유자 작업은 로깅되지 않습니다.
 

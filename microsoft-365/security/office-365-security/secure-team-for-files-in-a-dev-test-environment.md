@@ -1,5 +1,7 @@
 ---
 title: 개발/테스트 환경에서의 파일을 위한 Teams 보안
+f1.keywords:
+- NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -15,18 +17,18 @@ search.appverid:
 - MET150
 ms.assetid: 06af70f3-e7dc-4ee2-a385-fb4d61a5e93b
 description: '요약: Microsoft Teams에서 개발/테스트 환경에서의 파일에 대한 중요하고 극비인 팀을 만듭니다.'
-ms.openlocfilehash: 26fed13973a87acdd62957dcfc2e0f69323234ef
-ms.sourcegitcommit: fb3815ee186b2b3ec790ee32a9d7b1628d623b0b
+ms.openlocfilehash: 7af36e5a3af94297124c6f03cdead514ac941e5b
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/22/2019
-ms.locfileid: "39202299"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42082271"
 ---
 # <a name="secure-teams-for-files-in-a-devtest-environment"></a>개발/테스트 환경에서의 파일을 위한 Teams 보안
 
 이 문서에서는 [Microsoft Teams에서의 파일 보안](secure-files-in-teams.md) 솔루션에 대한 중요하고 극비인 팀을 포함하는 개발/테스트 환경을 만드는 방법을 단계별로 설명합니다.
   
-![파일에 대한 Microsoft Teams에서의 중요하고 극비인 팀.](../media/sensitive-highly-confidential-teams-dev-test.png)
+![파일에 대한 Microsoft Teams에서의 중요하고 극비인 팀.](../../media/sensitive-highly-confidential-teams-dev-test.png)
   
 이 개발/테스트 환경을 사용하여 생산에 이러한 유형의 팀을 배포하기 전에 특정 요구 사항에 맞게 설정을 시험해보고 세부 조정하도록 합니다.
   
@@ -86,7 +88,7 @@ ms.locfileid: "39202299"
   
 조직 이름, 사용자 위치 및 공통 암호를 입력한 다음 PowerShell 명령 프롬프트 또는 ISE(Integrated Script Environment)에서 다음 명령을 실행하여 사용자 계정을 만들고 해당 그룹에 추가합니다.
   
-```
+```powershell
 $orgName="<organization name, such as contoso for the contoso.onmicrosoft.com trial subscription domain name>"
 $location="<the ISO ALPHA2 country code, such as US for the United States>"
 $commonPassword="<common password for all the new accounts>"
@@ -167,7 +169,7 @@ Add-AzureADGroupMember -RefObjectId (Get-AzureADUser | Where { $_.DisplayName -e
 
 마케팅 그룹의 구성원이 지속적인 마케팅 캠페인을 공동으로 작업하기 위해 중요한 수준의 팀을 만들려면 다음을 수행합니다.
 
-1. **마케팅 캠페인** 이름을 사용하여 [새로운 비공개 팀을 만듭니다](https://support.office.com//article/create-a-team-from-scratch-174adf5f-846b-4780-b765-de1a0a737e2b).
+1. **마케팅 캠페인** 이름을 사용하여 [새로운 비공개 팀을 만듭니다](https://support.office.com/article/174adf5f-846b-4780-b765-de1a0a737e2b).
 2. **마케팅 캠페인** 팀을 엽니다.
 3.  팀의 도구 막대에서 **파일**을 클릭합니다.
 4.  줄임표를 클릭한 다음 **SharePoint에서 열기**를 클릭합니다.
@@ -226,13 +228,13 @@ Add-AzureADGroupMember -RefObjectId (Get-AzureADUser | Where { $_.DisplayName -e
 
 다음은 마케팅 캠페인 팀에 대한 구성의 결과입니다.
 
-![마케팅 캠페인 팀에 대한 구성.](../media/sensitive-team-config-dev-test.png)
+![마케팅 캠페인 팀에 대한 구성.](../../media/sensitive-team-config-dev-test.png)
   
 ### <a name="company-strategy-team-site"></a>회사 전략 팀 사이트
 
 수석 리더십 팀 구성원을 위해 회사 전략을 공동으로 작업하기 위한 극비의 팀을 만들려면 다음을 수행합니다.
 
-1. **회사 전략**을 사용하여 [새로운 비공개 팀을 만듭니다](https://support.office.com//article/create-a-team-from-scratch-174adf5f-846b-4780-b765-de1a0a737e2b).
+1. **회사 전략**을 사용하여 [새로운 비공개 팀을 만듭니다](https://support.office.com/article/174adf5f-846b-4780-b765-de1a0a737e2b).
 2. **회사 전략** 팀을 엽니다.
 3.  팀의 도구 막대에서 **파일**을 클릭합니다.
 4.  줄임표를 클릭한 다음 **SharePoint에서 열기**를 클릭합니다.
@@ -300,7 +302,7 @@ Add-AzureADGroupMember -RefObjectId (Get-AzureADUser | Where { $_.DisplayName -e
 
 다음은 회사 전략 팀에 대한 구성의 결과입니다.
 
-![회사 전략 팀에 대한 구성.](../media/highlyconfidential-team-config-dev-test.png) 
+![회사 전략 팀에 대한 구성.](../../media/highlyconfidential-team-config-dev-test.png) 
 
 기본 회사 전략 SharePoint 사이트의 문서 섹션에 있는 파일에는 극비 보존 레이블이 할당되고 구성된 DLP 정책이 적용됩니다. 파일에는 또한 회사 전략 중요 레이블이 할당될 수도 있습니다.    
   

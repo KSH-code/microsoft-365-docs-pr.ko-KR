@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: b270243e-99a0-4c34-9b21-acb1512d56c6
 description: '보고서를 실행 하는 방법을 알아보고 Office 365 Advanced eDiscovery에서 해당 .csv 파일을 다운로드 합니다.  '
-ms.openlocfilehash: 9d459065878eceaf9f0fc8b6ebacb749ff4c4830
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: badc657e100961ba89de6a49349b7016ae790b09
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597595"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42069993"
 ---
 # <a name="run-reports-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery에서 보고서 실행
 
@@ -36,7 +36,7 @@ ms.locfileid: "41597595"
   
 1. **보고서 탭의** **보고서 이름** 목록에서 옵션을 선택 합니다. **관련성 결정**, **테마 목록** 또는 **태그가 지정 된 파일**의 세 가지 **보고서 이름** 옵션 중에서 선택 합니다.
     
-    ![eDiscovery 분석 보고서](media/f16aee7a-508f-4acc-99bc-a2c8dec01312.png)
+    ![eDiscovery 분석 보고서](../media/f16aee7a-508f-4acc-99bc-a2c8dec01312.png)
   
 2. 사용 가능한 매개 변수 및 정렬 및 필터 옵션은 선택한 보고서에 따라 설정할 수 있습니다. 
     

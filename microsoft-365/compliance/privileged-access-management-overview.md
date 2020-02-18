@@ -99,6 +99,6 @@ Office 365 E5 및 Advanced 준수 Sku가 있는 고객은 권한 있는 액세�
 
 [권한 있는 액세스 관리를 위한 조직 구성을](privileged-access-management-configuration.md)시작 합니다.
 
-## <a name="learn-more"></a>자세히 알아보기
+## <a name="learn-more"></a>자세한 정보
 
 [대화형 가이드: 권한이 부여 된 액세스 관리로 관리자 작업 모니터링 및 제어](https://content.cloudguides.com/guides/Privileged%20Access%20Management)

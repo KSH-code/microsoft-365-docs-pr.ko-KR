@@ -1,6 +1,8 @@
 ---
 title: Contoso Corporation의 정보 보호
 author: JoeDavies-MSFT
+f1.keywords:
+- NOCSH
 ms.author: josephd
 manager: laurawi
 ms.date: 10/02/2019
@@ -13,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Contoso에서 Microsoft 365 Enterprise의 정보 보호 기능을 사용하여 클라우드에서 디지털 자산을 보호하는 방법을 이해합니다.
-ms.openlocfilehash: d6167896c3e42c5fef373de7c5be7123467936f4
-ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
+ms.openlocfilehash: 2fed60d18c878bf6e509c6955b8c8df758cc4caf
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39831681"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42068421"
 ---
 # <a name="information-protection-for-the-contoso-corporation"></a>Contoso Corporation의 정보 보호
 
@@ -85,7 +87,7 @@ Contoso는 다음 단계를 사용하여 정보 보호 요구에 맞게 Microsof
 
 다음은 Contoso의 정보 보호를 위한 정책 결과 집합을 보여줍니다.
 
-![장치, Exchange Online 및 SharePoint 조건부 액세스 정책](./media/contoso-info-protect/contoso-info-protect-fig1.png)
+![장치, Exchange Online 및 SharePoint 조건부 액세스 정책](../media/contoso-info-protect/contoso-info-protect-fig1.png)
 
 >[!Note]
 >또한 Contoso는 ID 및 로그인에 대한 조건부 액세스 정책을 추가로 구성했습니다. [Contoso Corporation ID](contoso-identity.md#conditional-access-policies-for-identity-and-device-access)를 참조하세요.
@@ -113,7 +115,7 @@ Contoso는 다음 단계를 사용하여 정보 보호 요구에 맞게 Microsof
 
 다음은 Contoso의 결과 정보 보호 구성입니다.
 
-![Contoso의 결과 정보 보호 구성](./media/contoso-info-protect/contoso-info-protect-fig2.png)
+![Contoso의 결과 정보 보호 구성](../media/contoso-info-protect/contoso-info-protect-fig2.png)
 
 ## <a name="next-step"></a>다음 단계
 

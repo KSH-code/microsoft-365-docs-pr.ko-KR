@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 03cc4387-2c7d-4058-8a44-0deefb58f011
 description: 'Office 365 Advanced eDiscovery에서 태그를 지정 하는 동안 관련 파일을 식별 하는 데 도움이 되는 사용자 정의 키워드와 관련성을 추가 하는 방법에 대해 알아보고 비용 매개 변수  '
-ms.openlocfilehash: 4b74730498b3cb08cd646d57845446ae91daeee9
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: f24c2d736a1d3c36ed23d16e1bb5d2dadb42cec9
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595365"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42075938"
 ---
 # <a name="define-highlighted-keywords-and-advanced-options-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery에서 강조 표시 된 키워드 및 고급 옵션 정의
 
@@ -48,11 +48,11 @@ ms.locfileid: "41595365"
     
 6. **설명**에 키워드 목록을 입력 합니다 (선택 사항).
     
-    ![새 키워드를 추가 합니다.](media/1683a71f-0875-48fc-b4ef-01f3b0e8e8e9.png)
+    ![새 키워드를 추가 합니다.](../media/1683a71f-0875-48fc-b4ef-01f3b0e8e8e9.png)
   
 7. 완료 되 면 **확인을** 클릭 합니다. 만들어진 목록은 키워드 목록 테이블에 추가 되 고 편집 하거나 삭제할 수 있습니다. 
     
-    ![관련성 설정 키워드 목록](media/a05d5ec0-8bde-470d-97e2-456b169281d6.png)
+    ![관련성 설정 키워드 목록](../media/a05d5ec0-8bde-470d-97e2-456b169281d6.png)
   
 사용자 정의 키워드는 관련성 \> 태그의 지정 된 색에 표시 됩니다. 
   
@@ -68,7 +68,7 @@ ms.locfileid: "41595365"
     
 2. **시간별로 검토 한 파일 수** 목록에서 크기를 선택 하거나 기본값을 그대로 사용 합니다. 
     
-    ![매개 변수 비용 관련성 설정](media/bab7b5b7-6297-4e7c-b0a6-ba5aa8b21787.png)
+    ![매개 변수 비용 관련성 설정](../media/bab7b5b7-6297-4e7c-b0a6-ba5aa8b21787.png)
   
 3. **저장**을 클릭합니다. 선택한 설정이 저장 됩니다.
     

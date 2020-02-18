@@ -18,12 +18,12 @@ ms.assetid: e3c6df61-8513-499d-ad8e-8a91770bff63
 ms.collection:
 - m365-security-compliance
 description: Microsoft 365 준수 센터의 기능과 마찬가지로, 도움말 콘텐츠는 항상 발전 하 고 있습니다. Microsoft에서는 피드백에 따라 계속 새 문서를 만들고, 기존 기사를 업데이트 하 고, 변경 작업을 수행 하 고 있습니다. 이번 달의 새로운 기능과 업데이트 된 기능에 대해 알아보세요.
-ms.openlocfilehash: 40ad0249b834eb187fecc34df3e2785e84201eee
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: b285b51ca20e2822be9d8193d33e634418adbeb3
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601655"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42081626"
 ---
 # <a name="recent-updates-to-microsoft-365-compliance-content"></a>Microsoft 365 준수 콘텐츠에 대 한 최신 업데이트
 
@@ -117,13 +117,13 @@ Microsoft 365 준수 센터의 기능과 마찬가지로, 도움말 콘텐츠는
 
 ### <a name="sensitivity-labels"></a>민감도 레이블
 
-[콘텐츠에 민감도 레이블을 자동으로 적용](apply-sensitivity-label-automatically.md) (업데이트 됨)<br>Outlook에서 권장 되는 레이블 지원에 대 한 정보가 제거 되었습니다. 중복 된 라이선스 정보를 제거 했습니다. 이제 [Office 앱의 민감도 레이블에서](sensitivity-labels-office-apps.md)신뢰할 수 있는 정보를 가리킵니다.
+[콘텐츠에 민감도 레이블을 자동으로 적용](apply-sensitivity-label-automatically.md) (업데이트 됨)<br>Outlook에서 권장 되는 레이블 지원에 대 한 정보가 제거 되었습니다. 중복 된 라이선스 정보를 제거 했습니다. 이제 [Office 앱의 사용 민감도 레이블에서](sensitivity-labels-office-apps.md)신뢰할 수 있는 정보를 가리킵니다.
 
 [SharePoint 및 OneDrive의 Office 파일에 대해 민감도 레이블 사용 (공개 미리 보기)](sensitivity-labels-sharepoint-onedrive-files.md) (새로 만들기)<br>SharePoint 및 OneDrive에 해당 위치에 저장 된 콘텐츠에 대 한 민감도 레이블 적용을 준비 하는 방법에 대 한 지침입니다.
 
 [민감도 레이블 개요](sensitivity-labels.md) (업데이트 됨)<br>SharePoint 및 OneDrive의 웹, Microsoft 팀, Office 365 그룹, SharePoint 사이트 및 Office 파일에 대 한 지원 정보에 대 한 자세한 내용이 추가 되었습니다.
 
-[Office 앱의 민감도 레이블](sensitivity-labels-office-apps.md) (업데이트 됨)<br>새로 지원 되는 앱, 구독 및 라이선스 요구 사항, 관리자 정의 서식 파일 간의 상호 작용 (예를 들어 Office 365 메시지 암호화 및 민감도 레이블)에 대 한 세부 정보를 비롯 한 여러 업데이트
+[Office 앱에서 민감도 레이블 사용](sensitivity-labels-office-apps.md) (업데이트 됨)<br>새로 지원 되는 앱, 구독 및 라이선스 요구 사항, 관리자 정의 서식 파일 간의 상호 작용 (예를 들어 Office 365 메시지 암호화 및 민감도 레이블)에 대 한 세부 정보를 비롯 한 여러 업데이트
 
 [Microsoft 팀, Office 365 그룹 및 SharePoint 사이트 (공개 미리 보기)에 민감도 레이블 사용](sensitivity-labels-teams-groups-sites.md) (신규)<br>Microsoft 팀, Office 365 그룹 및 SharePoint 사이트에서 민감도 레이블을 설정 및 적용 하는 방법에 대해 자세히 설명 합니다.
 

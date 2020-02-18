@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 준수 관리자는 Microsoft Service Trust Portal의 무료 워크플로 기반 위험 평가 도구입니다. 준수 관리자를 사용 하면 Microsoft 클라우드 서비스와 관련 된 규정 준수 활동을 추적, 할당 및 확인할 수 있습니다.
-ms.openlocfilehash: 43d7e3a12c72573b46d6c8d2aff36eed97fd08ac
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 4d79b0480462510927f0b1b4c8b5da7132cffec8
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595795"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42078673"
 ---
 # <a name="microsoft-compliance-manager-preview"></a>Microsoft 준수 관리자 (미리 보기)
 
@@ -45,7 +45,7 @@ ms.locfileid: "41595795"
 
 다음 다이어그램은 준수 관리자의 기본 구성 요소 간의 관계를 보여 줍니다.
 
-![준수 관리자 버전 3의 관계](media/compliance-manager-relationships.png)
+![준수 관리자 버전 3의 관계](../media/compliance-manager-relationships.png)
 
 ## <a name="groups"></a>그룹
 
@@ -77,7 +77,7 @@ ms.locfileid: "41595795"
 - **문서 ID**:이 필드는 gdpr 평가에만 사용할 수 있으며 해당 gdpr 문서 번호를 지정 합니다.
 - **설명**: 해당 하는 인증 또는 규정의 컨트롤 텍스트입니다. 저작권 제한으로 인해 ISO 표준에 대 한 관련 정보에 대 한 링크가 나열 됩니다.
 
-![준수 관리자 버전 3의 컨트롤](media/compliance-manager-controls.png)
+![준수 관리자 버전 3의 컨트롤](../media/compliance-manager-controls.png)
 
 준수 관리자, **Microsoft 관리 되는 컨트롤**, **고객 관리 되는 컨트롤**및 **공유 관리 컨트롤** 의 세 가지 유형의 컨트롤이 있습니다.
 

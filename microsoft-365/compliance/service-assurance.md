@@ -15,12 +15,12 @@ search.appverid:
 - BCS160
 ms.assetid: 47e8b964-4b09-44f7-a2d7-b8a06e8e389c
 description: 타사 감사를 다운로드 하 고, Microsoft에서 고객 데이터를 안전 하 게 보호 하는 방법을 확인 하 고, Office 365을 사용할 때 ISO, HIPAA, FINRA 및 FedRAMP을 준수 하는 방법을 알아봅니다.
-ms.openlocfilehash: f883f625e872076146e75c01bde26d40f7e1a4d3
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 823722fe49349a11e828ca56978240e662c8435c
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601525"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42081334"
 ---
 # <a name="service-assurance-in-the-security--compliance-center"></a>보안 & 준수 센터의 서비스 보증
 
@@ -71,7 +71,7 @@ ms.locfileid: "41601525"
   
 1. 서비스 보증에 액세스 한 후에는 **설정을** 선택 하 고 다음 스크린샷에 표시 된 대로 지역 및 업계 설정 페이지를 표시 합니다. 
     
-    ![보호 센터 설정 페이지를 표시 합니다.](media/101716e8-9c0a-4839-a2c0-f6aacf64eb9d.png)
+    ![보호 센터 설정 페이지를 표시 합니다.](../media/101716e8-9c0a-4839-a2c0-f6aacf64eb9d.png)
   
 2. **설정** 페이지에서 **지역** 옆의 아래쪽 화살표를 선택 하 고 조직에 적합 한 지역을 확인 합니다. 
     
@@ -86,15 +86,15 @@ ms.locfileid: "41601525"
   
 - 다음 스크린 샷과 같이 Office 365 및 기타 Microsoft 클라우드 서비스의 독립적인 감사 및 평가를 확인 하는 **준수 보고서** 
     
-    ![서비스 보증 페이지: 서비스 준수 보고서를 표시 합니다.](media/149f2181-a558-4963-85e5-8d5ebc7cdac8.png)
+    ![서비스 보증 페이지: 서비스 준수 보고서를 표시 합니다.](../media/149f2181-a558-4963-85e5-8d5ebc7cdac8.png)
   
 - **문서를 신뢰** 하 여 Microsoft가 다음 스크린샷과 같이 Office 365을 작동 하는 방법에 대 한 정보를 볼 수 있습니다. 
     
-    ![서비스 보증 페이지 표시: Microsoft에서 제공 하는 신뢰 문서](media/5dd4e89a-25a2-45e7-8d6c-a5c5b9237327.png)
+    ![서비스 보증 페이지 표시: Microsoft에서 제공 하는 신뢰 문서](../media/5dd4e89a-25a2-45e7-8d6c-a5c5b9237327.png)
   
 - 다음 스크린 샷과 같이 Office 365 컨트롤이 보안, 규정 준수 및 개인 정보 요구 사항을 충족 하는 방식에 대 한 정보를 볼 수 있는 **감사 된 컨트롤** 입니다. 
     
-    ![서비스 보증 감사 컨트롤 화면을 표시 합니다.](media/4baf252b-603d-45e0-af12-32616154df65.png)
+    ![서비스 보증 감사 컨트롤 화면을 표시 합니다.](../media/4baf252b-603d-45e0-af12-32616154df65.png)
   
 다운로드 하려는 보고서를 선택 하 고 **저장** 을 선택 하 여 컴퓨터에 다운로드 합니다. 감사 되는 컨트롤의 경우 원하는 보고서를 선택 하 고 **다운로드**를 선택 합니다. 아래 표에는 각 서비스 보증 페이지에서 찾을 수 있는 보고서에 대 한 설명이 나와 있습니다. 
   
@@ -116,15 +116,15 @@ ms.locfileid: "41601525"
   
 1. 보안 & 준수 센터에서 다음 스크린샷에 표시 된 대로 왼쪽 창에서 **사용 권한을** 선택 합니다. 
     
-    ![보안 &amp; 준수 권한 메뉴](media/8b479ad4-5c91-4e4c-a1db-372d50526db6.png)
+    ![보안 &amp; 준수 권한 메뉴](../media/8b479ad4-5c91-4e4c-a1db-372d50526db6.png)
   
 2. 오른쪽 창에서 **서비스 보증 사용자**를 선택한 다음, **역할 그룹 편집**을 선택 하 고 **구성원** 섹션에서 **편집** 을 선택 하 여 다음 스크린샷과 같이 서비스 보증 사용자 역할에 구성원을 추가 합니다. 
     
-    ![서비스 보증 사용자-추가](media/c8b1978e-9b6e-4200-860a-a1704f8e2355.png)
+    ![서비스 보증 사용자-추가](../media/c8b1978e-9b6e-4200-860a-a1704f8e2355.png)
   
 3. 다음 대화 상자에서 서비스 보증 준수 보고서 및 신뢰 리소스를 확인 해야 하는 개인 또는 그룹을 검색 하 고 선택한 다음, 작업을 마치면 **추가** 를 선택 하 고 창의 오른쪽 위 모서리에 있는 **X** 를 클릭 합니다. 
     
-    ![서비스 보증 사용자-사용자 선택](media/33f13ef6-1e10-4d49-af06-8e1ad5ffbfba.png)
+    ![서비스 보증 사용자-사용자 선택](../media/33f13ef6-1e10-4d49-af06-8e1ad5ffbfba.png)
   
 4. 이제 서비스 보증 사용자 역할에 추가한 모든 사용자 또는 그룹은 서비스 보증을 찾고 보안 & 준수 센터에서 보고서 및 기타 문서를 다운로드할 수 있습니다.
     
@@ -135,7 +135,7 @@ ms.locfileid: "41601525"
 
 [비즈니스 제품에 대 한 지원 문의-관리자 도움말](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
   
-## <a name="frequently-asked-questions"></a>질문과 대답
+## <a name="frequently-asked-questions"></a>FAQ
 <a name="addother"> </a>
 
  **서비스 보증의 문서가 손상 되었다는 오류 메시지가 표시 되는 이유는 무엇 인가요?**

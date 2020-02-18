@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 규정 준수 점수가 위험을 해결 하 고 준수 상태를 개선 하기 위해 수행한 조치에 따라 개인 설정 점수를 계산 하는 방법을 이해 합니다.
-ms.openlocfilehash: 1ee9410e3b40a8180d768945a643d3e52c29046b
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: ca8615f8c15264104faa71d155d2656cd788bd53
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41596245"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42078635"
 ---
 # <a name="microsoft-compliance-score-preview-calculation"></a>Microsoft 규정 준수 점수 (미리 보기) 계산
 

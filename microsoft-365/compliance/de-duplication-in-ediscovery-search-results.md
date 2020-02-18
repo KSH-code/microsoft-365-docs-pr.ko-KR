@@ -16,12 +16,12 @@ ms.collection:
 search.appverid: MOE150
 ms.assetid: 5af334b6-a15d-4f73-97f8-1423457d9f6b
 description: 동일한 메시지의 여러 인스턴스가 서로 다른 사서함에서 발견 된 경우에도 전자 메일 메시지의 복사본 하나만 내보내도록 내보내기 위해 내보낸 eDiscovery 검색 결과를 복제 해제 하는 옵션을 사용할 수 있습니다.
-ms.openlocfilehash: bfd810d358a85c0cdfacab50fb512a8d2a9c8828
-ms.sourcegitcommit: 3e93676223948a1d2209ff2b7ce7a91b18817260
+ms.openlocfilehash: f3a0291c2c611814e35528e87f5a3897c4e8ba59
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41892041"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42076280"
 ---
 # <a name="de-duplication-in-ediscovery-search-results"></a>EDiscovery 검색 결과에서 중복 제거
 
@@ -45,11 +45,11 @@ EDiscovery 내보내기 프로세스 중에 검색 조건과 일치 하는 모�
   
  ### <a name="resultscsv-report-viewed-in-excel"></a>결과 .csv 보고서 (Excel에서 표시)
   
-![결과 .csv 보고서의 중복 된 항목에 대 한 정보 보기](media/e3d64004-3b91-4cba-b6f3-934b46cbdcdb.png)
+![결과 .csv 보고서의 중복 된 항목에 대 한 정보 보기](../media/e3d64004-3b91-4cba-b6f3-934b46cbdcdb.png)
   
  ### <a name="manifestxml-report-viewed-in-excel"></a>Manifest.xml 보고서 (Excel에서 표시)
   
-![Manifest.xml 보고서의 중복 항목에 대 한 정보 보기](media/69aa4786-9883-46ff-bcae-b35e0daf4a6d.png)
+![Manifest.xml 보고서의 중복 항목에 대 한 정보 보기](../media/69aa4786-9883-46ff-bcae-b35e0daf4a6d.png)
   
 또한 중복 메시지의 다른 속성도 내보내기 보고서에 포함 됩니다. 여기에는 중복 메시지가 있는 사서함이 포함 되 고, 메시지가 메일 그룹으로 전송 되었는지, 메시지가 다른 사용자에 게 참조 아웃 또는 숨은 참조 인지 여부입니다.
   

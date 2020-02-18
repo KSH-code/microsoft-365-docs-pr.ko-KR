@@ -1,6 +1,8 @@
 ---
 title: 원격 작업자 지원
 author: JoeDavies-MSFT
+f1.keywords:
+- NOCSH
 ms.author: josephd
 manager: laurawi
 ms.date: 10/24/2019
@@ -13,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 직원들이 언제 어디서나 원격으로 작업할 수 있도록 하는 인프라와 보안을 구성합니다.
-ms.openlocfilehash: 2544820b577b81062550a8c0a84513f2a8c28668
-ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
+ms.openlocfilehash: b86071b7e5a6101c328b43177e965856f74995d5
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39831969"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42067754"
 ---
 # <a name="empower-remote-workers"></a>원격 작업자 지원
 
@@ -70,9 +72,9 @@ ms.locfileid: "39831969"
 
 다음 단계에서는 원격 액세스를 위한 Microsoft 365 Enterprise 기능을 배포하고 원격 작업자의 채택을 유도합니다. 이러한 단계의 요소가 이미 배포된 경우에는 다음 요소로 이동하기 전에 규정된 요구 사항을 충족하는지 확인합니다.
 
-<a name="poster"></a> 이 시나리오의 1페이지 요약은 [원격 작업자 지원 포스터](media/empower-people-to-work-remotely/empower-remote-workers-scenario.pdf)를 참조하세요.
+<a name="poster"></a> 이 시나리오의 1페이지 요약은 [원격 작업자 지원 포스터](../media/empower-people-to-work-remotely/empower-remote-workers-scenario.pdf)를 참조하세요.
 
-[![원격 작업자 지원](./media/empower-people-to-work-remotely/empower-remote-workers-poster.png)](media/empower-people-to-work-remotely/empower-remote-workers-scenario.pdf)
+[![원격 작업자 지원](../media/empower-people-to-work-remotely/empower-remote-workers-poster.png)](../media/empower-people-to-work-remotely/empower-remote-workers-scenario.pdf)
 
 이 포스터를 [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/empower-people-to-work-remotely/empower-remote-workers-scenario.pdf)나 [PowerPoint](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/empower-people-to-work-remotely/Empower-Remote-Workers-Poster.pptx) 형식으로 다운로드할 수 있고, Letter, Legal, Tabloid(11 x 17) 크기 용지에 인쇄할 수도 있습니다.
 
@@ -94,7 +96,7 @@ ms.locfileid: "39831969"
 
 다음은 ID 요소가 강조 표시된 결과 구성입니다.
 
-![원격 작업자를 위한 ID 요소](./media/empower-people-to-work-remotely/remote-workers-id-phase.png)
+![원격 작업자를 위한 ID 요소](../media/empower-people-to-work-remotely/remote-workers-id-phase.png)
  
 [3단계: Windows 10 Enterprise](windows10-infrastructure.md)에서는 다음을 배포합니다.
 
@@ -103,13 +105,13 @@ ms.locfileid: "39831969"
 
 다음은 Windows 10 Enterprise 장치의 구성 결과입니다.
 
-![원격 작업자를 위한 Windows 10 Enterprise 요소 ](./media/empower-people-to-work-remotely/remote-workers-win10-phase.png)
+![원격 작업자를 위한 Windows 10 Enterprise 요소 ](../media/empower-people-to-work-remotely/remote-workers-win10-phase.png)
  
 [4단계: Office 365 ProPlus](office365proplus-infrastructure.md)에서는 인프라를 배포하여 Office 365 ProPlus를 설치하거나 조직 장치의 현재 설치된 Office 제품군(예: Office 2010 또는 Office 2013)을 Office 365 ProPlus로 업그레이드합니다. 이렇게 하면 사용자에게 최상의 보안과 공동 작업 환경을 제공합니다.
 
 다음은 Office 365 ProPlus가 장치에 설치된 결과 구성입니다.
 
-![원격 작업자를 위한 OFFICE 365 PROPLUS 요소](./media/empower-people-to-work-remotely/remote-workers-proplus-phase.png)
+![원격 작업자를 위한 OFFICE 365 PROPLUS 요소](../media/empower-people-to-work-remotely/remote-workers-proplus-phase.png)
  
 [5단계: 모바일 장치 관리](mobility-infrastructure.md)에서는 다음에 대 한 Intune 장치 및 앱 관리를 배포합니다.
 
@@ -119,7 +121,7 @@ ms.locfileid: "39831969"
 
 다음은 Intune에서 등록한 장치 및 정책이 강조 표시된 결과 구성입니다.
 
-![원격 작업자를 위한 모바일 장치 관리 요소](./media/empower-people-to-work-remotely/remote-workers-mdm-phase.png)
+![원격 작업자를 위한 모바일 장치 관리 요소](../media/empower-people-to-work-remotely/remote-workers-mdm-phase.png)
  
 [6단계: 정보 보호](infoprotect-infrastructure.md)에서는 다음을 사용하여 디지털 자산에 대한 보호를 설계하고 구성합니다.
 
@@ -128,13 +130,13 @@ ms.locfileid: "39831969"
 
 다음은 DLP 정책과 민감도 레이블이 강조 표시된 결과 구성입니다.
 
-![원격 작업자를 위한 정보 보호 요소](./media/empower-people-to-work-remotely/remote-workers-ip-phase.png)
+![원격 작업자를 위한 정보 보호 요소](../media/empower-people-to-work-remotely/remote-workers-ip-phase.png)
  
 온-프레미스 앱에 액세스하는 경우 하이브리드 ID 환경을 필요로 하는 [Azure AD 애플리케이션 프록시](https://docs.microsoft.com/azure/active-directory/manage-apps/application-proxy)를 사용할 수 있습니다.
 
 애플리케이션 프록시 구성 요소가 강조 표시된 결과 구성입니다.
 
-![원격 작업자를 위한 애플리케이션 프록시 요소](./media/empower-people-to-work-remotely/remote-workers-app-proxy.png)
+![원격 작업자를 위한 애플리케이션 프록시 요소](../media/empower-people-to-work-remotely/remote-workers-app-proxy.png)
  
 ### <a name="step-2-workloads-for-remote-workers"></a>2단계: 원격 작업자를 위한 워크로드
 
@@ -146,7 +148,7 @@ ms.locfileid: "39831969"
 
 다음은 워크로드가 강조 표시된 결과 구성입니다.
 
-![원격 작업자를 위한 Microsoft 365 워크로드](./media/empower-people-to-work-remotely/remote-workers-workloads.png)
+![원격 작업자를 위한 Microsoft 365 워크로드](../media/empower-people-to-work-remotely/remote-workers-workloads.png)
  
 ### <a name="deployment-results"></a>배포 결과
 
@@ -165,11 +167,11 @@ ms.locfileid: "39831969"
 
 하이브리드 ID를 사용하는 경우 조직의 원격 작업자를 위한 결과 구성은 다음과 같습니다.
 
-![하이브리드 ID를 사용하는 조직에 대한 최종 구성](./media/empower-people-to-work-remotely/remote-workers-hybrid.png) 
+![하이브리드 ID를 사용하는 조직에 대한 최종 구성](../media/empower-people-to-work-remotely/remote-workers-hybrid.png) 
  
 클라우드 전용 ID를 사용하는 경우 조직의 원격 작업자를 위한 결과 구성은 다음과 같습니다.
 
-![클라우드 전용 ID를 사용하는 조직에 대한 최종 구성](./media/empower-people-to-work-remotely/remote-workers-cloud-only.png)
+![클라우드 전용 ID를 사용하는 조직에 대한 최종 구성](../media/empower-people-to-work-remotely/remote-workers-cloud-only.png)
 
 ## <a name="phase-2-drive-user-adoption-for-remote-workers"></a>2단계: 원격 작업자를 위한 사용자 채택 유도
 

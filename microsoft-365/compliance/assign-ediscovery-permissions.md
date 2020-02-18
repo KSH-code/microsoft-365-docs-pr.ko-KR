@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 5b9a067b-9d2e-4aa5-bb33-99d8c0d0b5d7
 description: 보안 & 준수 센터를 사용 하 여 eDiscovery 관련 작업을 수행 하는 데 필요한 사용 권한을 할당 합니다.
-ms.openlocfilehash: 0ba8defac50c4037f8a7100b5e4d0808eb0af362
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 234748b8390dcbc5742961c2f10a19a284e01f1c
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595995"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42079615"
 ---
 # <a name="assign-ediscovery-permissions-in-the-security--compliance-center"></a>보안 & 준수 센터에서 eDiscovery 권한 할당
 
@@ -61,9 +61,9 @@ ms.locfileid: "41595995"
     
 4. **Ediscovery 관리자** 플라이 아웃 페이지에서 할당 하려는 eDiscovery 권한에 따라 다음 중 하나를 수행 합니다. 
   
-    **사용자를 EDiscovery 관리자로 지정 하려면 다음을** 수행 합니다. **EDiscovery 관리자**옆에 있는 **편집**을 선택 합니다. **Ediscovery 관리자 선택** 섹션에서 **ediscovery 관리자 선택** 하이퍼링크를 선택 하 고 아이콘 ![](media/ITPro-EAC-AddIcon.gif) **추가**(추가)를 선택 합니다. EDiscovery 관리자로 추가할 사용자 (또는 사용자)를 선택 하 고 **추가**를 선택 합니다. 사용자 추가가 완료 되 면 **완료**를 선택 합니다. 그런 다음 **Ediscovery 관리자** 플라이 아웃 선택 페이지에서 **저장** 을 선택 하 여 ediscovery 관리자 멤버 자격에 대 한 변경 내용을 저장 합니다.
+    **사용자를 EDiscovery 관리자로 지정 하려면 다음을** 수행 합니다. **EDiscovery 관리자**옆에 있는 **편집**을 선택 합니다. **Ediscovery 관리자 선택** 섹션에서 **ediscovery 관리자 선택** 하이퍼링크를 선택 하 고 아이콘 ![](../media/ITPro-EAC-AddIcon.gif) **추가**(추가)를 선택 합니다. EDiscovery 관리자로 추가할 사용자 (또는 사용자)를 선택 하 고 **추가**를 선택 합니다. 사용자 추가가 완료 되 면 **완료**를 선택 합니다. 그런 다음 **Ediscovery 관리자** 플라이 아웃 선택 페이지에서 **저장** 을 선택 하 여 ediscovery 관리자 멤버 자격에 대 한 변경 내용을 저장 합니다.
   
-    **사용자를 EDiscovery 관리자로 설정 하려면 다음을** 수행 합니다. **EDiscovery 관리자**옆에 있는 **편집**을 선택 합니다. **Ediscovery 관리자 선택** 섹션의 **ediscovery 관리자**에서 **ediscovery 관리자 선택을**선택 하 고 **편집**을 선택한 후에 아이콘 ![](media/ITPro-EAC-AddIcon.gif) **추가**를 선택 합니다. **EDiscovery 관리자로**추가 하려는 사용자 (또는 사용자)를 선택한 다음 **추가**를 선택 합니다. 사용자 추가가 완료 되 면 **완료**를 선택 합니다. 그런 다음 **Ediscovery 관리자** 플라이 아웃 선택 페이지에서 **저장** 을 선택 하 여 ediscovery 관리자 멤버 자격에 대 한 변경 내용을 저장 합니다.
+    **사용자를 EDiscovery 관리자로 설정 하려면 다음을** 수행 합니다. **EDiscovery 관리자**옆에 있는 **편집**을 선택 합니다. **Ediscovery 관리자 선택** 섹션의 **ediscovery 관리자**에서 **ediscovery 관리자 선택을**선택 하 고 **편집**을 선택한 후에 아이콘 ![](../media/ITPro-EAC-AddIcon.gif) **추가**를 선택 합니다. **EDiscovery 관리자로**추가 하려는 사용자 (또는 사용자)를 선택한 다음 **추가**를 선택 합니다. 사용자 추가가 완료 되 면 **완료**를 선택 합니다. 그런 다음 **Ediscovery 관리자** 플라이 아웃 선택 페이지에서 **저장** 을 선택 하 여 ediscovery 관리자 멤버 자격에 대 한 변경 내용을 저장 합니다.
       
 > [!NOTE]
 > **EDiscoveryCaseAdmin** cmdlet을 사용 하 여 사용자를 eDiscovery 관리자로 설정할 수도 있습니다. 그러나이 cmdlet을 eDiscovery 관리자로 설정 하려면 사용자에 게 사례 관리 역할을 할당 받아야 합니다. 자세한 내용은 [Add-eDiscoveryCaseAdmin](https://go.microsoft.com/fwlink/p/?LinkID=798217)를 참조 하세요. 
@@ -76,14 +76,14 @@ ms.locfileid: "41595995"
     
 |**역할**|**준수 관리자**|**eDiscovery 관리자 & 관리자**|**조직 관리**|**Reviewer**|
 |:-----|:-----:|:-----:|:-----:|:-----:|
-|사례 관리 <br/> |![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> |![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> |![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> | <br/> |
-|규격 검색 <br/> |![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> |![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> |![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> | <br/> |
-|내보내기 <br/> | <br/> |![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> | <br/> | <br/> |
-|Hold <br/>  |![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> |![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> |![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> | <br/> |
-|미리 보기 <br/>  | <br/> |![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> | <br/> | <br/> |
-|검토 <br/>  | <br/> |![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> | <br/> |![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> |
-|RMS 암호 해독 <br/>  ||![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> |||
-|검색 및 제거 <br/> | <br/> | <br/> |![확인 표시](media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> | <br/> | 
+|사례 관리 <br/> |![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> |![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> |![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> | <br/> |
+|규격 검색 <br/> |![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> |![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> |![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> | <br/> |
+|내보내기 <br/> | <br/> |![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> | <br/> | <br/> |
+|Hold <br/>  |![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> |![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> |![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> | <br/> |
+|미리 보기 <br/>  | <br/> |![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> | <br/> | <br/> |
+|검토 <br/>  | <br/> |![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> | <br/> |![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> |
+|RMS 암호 해독 <br/>  ||![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png) <br/> |||
+|검색 및 제거 <br/> | <br/> | <br/> |![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)           <br/> | <br/> | 
 ||||
   
 다음 섹션에서는 위의 표에 나열 된 각 eDiscovery 관련 RBAC 역할에 대해 설명 합니다.

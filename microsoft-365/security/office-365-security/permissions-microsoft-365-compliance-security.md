@@ -1,5 +1,7 @@
 ---
 title: Microsoft 365 규정 준수 센터 및 Microsoft 365 보안 센터의 권한
+f1.keywords:
+- NOCSH
 ms.author: cabailey
 author: cabailey
 manager: laurawi
@@ -14,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 365 보안 센터나 Microsoft 365 규정 준수 센터를 사용하여 보안 또는 규정 준수와 관련된 모든 작업에 대한 권한을 중앙에서 관리할 수 있습니다.
-ms.openlocfilehash: 070e9bb1f7bf070a1b95995c2010b79dee7cbc9b
-ms.sourcegitcommit: 3f8957ddd04b8710bb5f314a0902fdee50c7c9b7
+ms.openlocfilehash: 6553020c215b3ffad0707a699414a6939ef368ca
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "41572965"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42082449"
 ---
 # <a name="permissions-in-the-microsoft-365-compliance-center-and-microsoft-365-security-center"></a>Microsoft 365 규정 준수 센터 및 Microsoft 365 보안 센터의 권한
 
@@ -27,7 +29,7 @@ ms.locfileid: "41572965"
 
 전역 관리자가 이러한 관리 역할을 할당하면, 관리자는 Microsoft 365 보안 센터, Microsoft 365 규정 준수 센터, Azure, Office 365, Enterprise Mobility + Security와 같은 Microsoft 365의 모든 서비스에 적용되는 기능과 데이터에 액세스할 수 있습니다.
 
-![Microsoft 365 보안 센터의 사용 권한 페이지](../media/m365-security-permissions-page.png)
+![Microsoft 365 보안 센터의 사용 권한 페이지](../../media/m365-security-permissions-page.png)
 
 ## <a name="what-the-microsoft-365-roles-are"></a>Microsoft 365 역할이란?
 
@@ -128,13 +130,13 @@ Microsoft 365 규정 준수 센터 및 Microsoft 365 보안 센터에서 역할�
 
 자세한 내용은 [Azure Active Directory에서 관리자 역할 보기 및 할당](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-manage-roles-portal)을 참조하세요.
 
-![Azure Active Directory의 권한 관리 링크](../media/permissions-manage-in-azure-ad-link.png)
+![Azure Active Directory의 권한 관리 링크](../../media/permissions-manage-in-azure-ad-link.png)
 
 ## <a name="managing-roles-in-a-service-instead-of-azure-active-directory"></a>Azure Active Directory 대신 서비스에서 역할 관리
 
 Microsoft 365 규정 준수 센터 및 Microsoft 365 보안 센터에 나타나는 역할은 사용자에게 권한이 있는 서비스에도 나타납니다. 예를 들어, Office 365 보안 및 준수 센터에서 이러한 역할을 볼 수 있습니다.
 
-![Office 365 보안 및 준수 센터의 역할](../media/m365-roles-in-o365-scc.png)
+![Office 365 보안 및 준수 센터의 역할](../../media/m365-roles-in-o365-scc.png)
 
 ### <a name="breaking-inheritance"></a>상속 끊기
 

@@ -15,23 +15,23 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 환경에서 장치 및 앱 준비 상태를 평가하는 방법을 알아봅니다.
-ms.openlocfilehash: 6bf41d0930a3c957bb856d35815bf05087997208
-ms.sourcegitcommit: ca2209d9176f99048d0a7adc20261029ca23dcbd
+ms.openlocfilehash: abeb6bbfcc5a8de869263f5a4aa922a6642a92f1
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "41774214"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42085499"
 ---
 # <a name="step-1-device-and-app-readiness"></a>1단계: 장치 및 앱 준비
 
-![](media/step-1-device-and-app-readiness-media/step-1-device-and-app-readiness-media-1.png)
+![](../media/step-1-device-and-app-readiness-media/step-1-device-and-app-readiness-media-1.png)
 
 <table>
 <thead>
-<td><img src="media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-3.png" alt="Step 1" height="130" width="130" /></td>
+<td><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-3.png" alt="Step 1" height="130" width="130" /></td>
 <td><p><strong>1단계: 장치 및 앱 준비</strong></p>
 <p>장치 및 앱의 인벤토리 사용하여 데스크톱 배포 프로젝트를 시작하고, 이동할 항목의 우선 순위를 지정하고, 우선 순위가 지정된 앱 및 장치를 테스트한 후, 배포 준비 완료에 필요한 항목을 수정합니다.</p></td>
-<td><a href="https://aka.ms/ddev1" target="_blank"><img src="media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-14.png" alt="Step 1" height="120" width="213" /></a></td>
+<td><a href="https://aka.ms/ddev1" target="_blank"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-14.png" alt="Step 1" height="120" width="213" /></a></td>
 </thead>
 </table>
 
@@ -71,15 +71,15 @@ Desktop Analytics를 설정하려면 먼저 Azure 구독을 설정하고 Azure L
 
 Desktop Analytics는 에이전트 없는 프로세스를 사용하여 데스크톱 자산 전체에 걸쳐 컴퓨터 및 응용 프로그램에 대한 인벤토리를 파악합니다. 또한 자주 방문한 인터넷 사이트, 응용 프로그램 및 인트라넷 위치에 대한 보고서를 제공하여 나중에 호환성 테스트를 도와줍니다.
 
-![](media/step-1-device-and-app-readiness-media/step-1-device-and-app-readiness-media-3.png)
+![](../media/step-1-device-and-app-readiness-media/step-1-device-and-app-readiness-media-3.png)
 
-![](media/step-1-device-and-app-readiness-media/step-1-device-and-app-readiness-media-4.png)
+![](../media/step-1-device-and-app-readiness-media/step-1-device-and-app-readiness-media-4.png)
 
 ### <a name="2-prioritize"></a>2\. 우선 순위 지정
 
 인벤토리가 확인되면, Desktop Analytics는 조직에서 가장 일반적으로 사용되는 앱 및 하드웨어, 배포를 위해 가능한 한 많은 PC를 차단 해제할 때 초점을 맞춰야 하는 항목을 식별하고 또한 우선 순위를 부여하는 데 도움을 줍니다.
 
-![](media/step-1-device-and-app-readiness-media/step-1-device-and-app-readiness-media-5.png)
+![](../media/step-1-device-and-app-readiness-media/step-1-device-and-app-readiness-media-5.png)
 
 또한 다음 단계인 테스트 동안 문제를 해결하는 데 필요한 업데이트를 평가하는 데 도움이 되는 지침도 제공합니다.
 
@@ -91,13 +91,13 @@ Desktop Analytics를 사용하여 브라우저 기반 호환성 문제를 평가
 
 또한 Office 365 ProPlus로의 이전을 지원하기 위해, [Office용 Readiness Toolkit](https://docs.microsoft.com/deployoffice/use-the-readiness-toolkit-to-assess-application-compatibility-for-office-365-pro)을 사용하여 추가 기능 및 Microsoft VBA(Visual Basic for Applications) 매크로의 호환성을 테스트할 수 있습니다.
 
-![](media/step-1-device-and-app-readiness-media/step-1-device-and-app-readiness-media-6.png)
+![](../media/step-1-device-and-app-readiness-media/step-1-device-and-app-readiness-media-6.png)
 
 ### <a name="4-remediation"></a>4\. 수정
 
 기기 및 앱 준비의 최종 단계는 '수정'입니다. 여기에서 필요한 소프트웨어 또는 드라이버 패키지를 수집할 수 있습니다. 이러한 항목을 사용하여 배포 프로세스의 일부로 이전 버전을 대체하거나 업데이트하게 됩니다.
 
-![](media/step-1-device-and-app-readiness-media/step-1-device-and-app-readiness-media-7.png)
+![](../media/step-1-device-and-app-readiness-media/step-1-device-and-app-readiness-media-7.png)
 
 목록을 따라 이동하면서 문제를 수정하면 점점 더 많은 PC가 “배포 준비 완료” 상태가 되는 것을 알 수 있습니다. 즉, PC의 드라이버와 앱 둘 다 배포 목표로 지정한 Windows 10 버전과 호환되는 상태가 됩니다.
 

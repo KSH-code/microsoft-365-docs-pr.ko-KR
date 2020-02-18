@@ -17,12 +17,12 @@ ms.assetid: e0ada764-6422-4b44-9472-513bed04837b
 ms.collection:
 - M365-security-compliance
 description: 첫 번째 DLP (데이터 손실 방지) 정책을 만들기 전에 DLP는 기본 정책을 사용 하 여 중요 한 정보를 보호 하는 것을 지원 합니다. 이 기본 정책 및 권장 사항 (아래에 표시)은 신용 카드 번호를 포함 하는 전자 메일 또는 문서가 조직 외부의 사용자와 공유 될 때 사용자에 게 알리기 때문에 중요 한 콘텐츠를 안전 하 게 유지할 수 있습니다.
-ms.openlocfilehash: 3ac2fef32c7ba20d906ec96e2510971c94ef2652
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 687cfb50568310aa29f06da6bfbbc644d3edc853
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41596545"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42073128"
 ---
 # <a name="get-started-with-the-default-dlp-policy"></a>기본 DLP 정책을 사용하여 시작
 
@@ -30,7 +30,7 @@ ms.locfileid: "41596545"
   
 이 위젯을 사용 하 여 공유 된 중요 한 정보를 신속 하 게 확인 한 다음 한 번만을 클릭 하 여 기본 DLP 정책을 구체화할 수 있습니다. 또한 기본 DLP 정책은 완전히 사용자 지정 가능 하므로 언제 든 지 편집할 수 있습니다. 처음에는 권장 사항이 표시 되지 않으면 **권장** 섹션의 아래쪽에서 **+ 자세히** 를 클릭 해 보세요. 
   
-![공유 콘텐츠 추가 보호 라는 위젯](media/2bae6dbc-cc92-4f35-b54c-c36e60226b5b.png)
+![공유 콘텐츠 추가 보호 라는 위젯](../media/2bae6dbc-cc92-4f35-b54c-c36e60226b5b.png)
   
 ## <a name="view-the-report-and-refine-the-default-dlp-policy"></a>보고서 보기 및 기본 DLP 정책 구체화
 
@@ -58,7 +58,7 @@ ms.locfileid: "41596545"
   
 나중에 이러한 옵션을 변경 하려면 언제 든 지 기본 DLP 정책을 편집할 수 있습니다-다음 섹션을 참고 하세요.
   
-![공유 콘텐츠 더 보호 라는 위젯에 대 한 설정](media/dad30a84-2715-4c0a-a5c5-44d85492363e.png)
+![공유 콘텐츠 더 보호 라는 위젯에 대 한 설정](../media/dad30a84-2715-4c0a-a5c5-44d85492363e.png)
   
 ## <a name="edit-the-default-dlp-policy"></a>기본 DLP 정책 편집
 
@@ -66,7 +66,7 @@ ms.locfileid: "41596545"
   
 이 정책은 처음부터 직접 만든 DLP 정책과 동일한 방법으로 완전히 사용자 지정할 수 있습니다. 또한 정책을 해제 하거나 삭제 하 여 사용자가 더 이상 정책 팁 이나 전자 메일 알림을 받지 않도록 설정할 수 있습니다.
   
-![기본 Office 365 DLP 정책 이라는 DLP 정책](media/260731e8-4d57-4c98-abec-07b052ec48d5.png)
+![기본 Office 365 DLP 정책 이라는 DLP 정책](../media/260731e8-4d57-4c98-abec-07b052ec48d5.png)
   
 ## <a name="when-the-widget-does-and-does-not-appear"></a>위젯이 수행 되 고 표시 되지 않는 경우
 

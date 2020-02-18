@@ -1,5 +1,7 @@
 ---
 title: '2단계: 사용자 환경에 대한 분류 구성'
+f1.keywords:
+- NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -13,18 +15,18 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 조직에서 데이터를 분류하는 다양한 방법을 이해하고 구성합니다.
-ms.openlocfilehash: e1f0a6b9bdc4b6844037e7e873ed321942e8258e
-ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
+ms.openlocfilehash: e8c40ca4c419edc2d59a060dfd4fe8918cf4e784
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "37370415"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42067255"
 ---
 # <a name="step-2-configure-classification-for-your-environment"></a>2단계: 사용자 환경에 대한 분류 구성
 
 *이 단계는 선택 사항이며, Microsoft 365 Enterprise E3 및 E5 버전에 적용됩니다.*
 
-![6단계: 정보 보호](./media/deploy-foundation-infrastructure/infoprotection_icon-small.png)
+![6단계: 정보 보호](../media/deploy-foundation-infrastructure/infoprotection_icon-small.png)
 
 이 단계에서는 법률 및 준수 팀과 함께 조직의 데이터에 대한 분류 체계를 정의합니다.
 
@@ -100,7 +102,7 @@ GDPR에 대한 개인 데이터를 포함하는 예제 분류 체계는 [개인 
 
 |||
 |:-------|:-----|
-|![Microsoft 클라우드의 테스트 랩 가이드](media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)| [테스트 랩 가이드: 데이터 분류](data-classification-microsoft-365-enterprise-dev-test-environment.md) |
+|![Microsoft 클라우드의 테스트 랩 가이드](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)| [테스트 랩 가이드: 데이터 분류](data-classification-microsoft-365-enterprise-dev-test-environment.md) |
 |||
 
 중간 검사점으로 이 단계에 해당하는 [종료 조건](infoprotect-exit-criteria.md#crit-infoprotect-step2)을 확인하세요.
@@ -109,5 +111,5 @@ GDPR에 대한 개인 데이터를 포함하는 예제 분류 체계는 [개인 
 
 |||
 |:-------|:-----|
-|![3단계](./media/stepnumbers/Step3.png)|[Office 365에 대한 향상된 보안 구성](infoprotect-configure-increased-security-office-365.md)|
+|![3단계](../media/stepnumbers/Step3.png)|[Office 365에 대한 향상된 보안 구성](infoprotect-configure-increased-security-office-365.md)|
 

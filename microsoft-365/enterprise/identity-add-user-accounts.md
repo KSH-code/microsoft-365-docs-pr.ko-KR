@@ -1,5 +1,7 @@
 ---
 title: '4단계: 사용자 계정 추가'
+f1.keywords:
+- NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -13,16 +15,16 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 사용자 계정 및 그룹을 클라우드에서 직접 추가하거나 온-프레미스 디렉터리와 동기화하는 방법으로 추가할 수 있습니다.
-ms.openlocfilehash: 04564d86031642276e964f3a70fa2729f6b16c00
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 324d4662f868a4a92693b43c6bc0f75c11f20519
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40801843"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42067380"
 ---
 # <a name="step-4-add-your-user-accounts"></a>4단계: 사용자 계정 추가
 
-![2단계-ID](./media/deploy-foundation-infrastructure/identity_icon-small.png)
+![2단계-ID](../media/deploy-foundation-infrastructure/identity_icon-small.png)
 
 <a name="identity-cloud-only"></a>
 ## <a name="create-your-user-accounts-for-cloud-only-identity"></a>클라우드 전용 ID에 대한 사용자 계정 만들기
@@ -42,7 +44,7 @@ ms.locfileid: "40801843"
 
 Azure AD Connect는 단일 또는 다중 포리스트 AD DS 환경에서 실제로 필요한 ID만 Azure AD 테넌트에 동기화하는 과정을 안내하는 지원되는 Microsoft 도구입니다. 다음 그림에서는 Azure AD Connect 동기화의 기본 프로세스를 보여 줍니다.
 
-![Azure AD Connect에서 온-프레미스 디렉터리를 Azure AD와 동기화하는 방법](./media/identity-add-user-accounts/azure-ad-connect.png)
+![Azure AD Connect에서 온-프레미스 디렉터리를 Azure AD와 동기화하는 방법](../media/identity-add-user-accounts/azure-ad-connect.png)
 
 1. 서버에서 실행되는 Azure AD Connect는 계정, 그룹 및 연락처 변경 내용을 AD DS에서 폴링합니다.
 2. Azure AD Connect는 이러한 변경 내용을 Microsoft 365 구독의 Azure AD 테넌트로 보냅니다.
@@ -74,7 +76,7 @@ Azure AD에 온-프레미스 사용자 및 그룹이 있으면 라이선스를 �
 
 |||
 |:-------|:-----|
-|![Microsoft 클라우드의 테스트 랩 가이드](media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)| [테스트 랩 가이드: 암호 해시 동기화](password-hash-sync-m365-ent-test-environment.md)<br> [테스트 랩 가이드: 경유 인증](pass-through-auth-m365-ent-test-environment.md) |
+|![Microsoft 클라우드의 테스트 랩 가이드](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)| [테스트 랩 가이드: 암호 해시 동기화](password-hash-sync-m365-ent-test-environment.md)<br> [테스트 랩 가이드: 경유 인증](pass-through-auth-m365-ent-test-environment.md) |
 |||
 
 중간 검사점으로 이 섹션에 해당하는 [종료 조건](identity-exit-criteria.md#crit-identity-sync)을 확인할 수 있습니다.
@@ -86,7 +88,7 @@ Azure AD에 온-프레미스 사용자 및 그룹이 있으면 라이선스를 �
 
 이 섹션에서는 각 온-프레미스 AD DS 도메인 컨트롤러에 Azure AD Connect 상태 에이전트를 설치하여 Azure AD Connect에서 제공하는 ID 인프라 및 동기화 서비스를 모니터링합니다. 모니터링 정보는 Azure AD Connect Health 포털에서 사용할 수 있습니다. 이 포털에서 경고, 성능 모니터링, 사용 현황 분석, 기타 정보를 볼 수 있습니다.
 
-![Azure AD Connect Health의 구성 요소](./media/identity-add-user-accounts/identity-azure-ad-connect-health.png)
+![Azure AD Connect Health의 구성 요소](../media/identity-add-user-accounts/identity-azure-ad-connect-health.png)
 
 Azure AD Connect Health 사용 방법에 대한 주요 디자인 의사 결정은 Azure AD Connect 사용 방법을 기반으로 합니다.
 
@@ -119,11 +121,11 @@ Azure AD Connect Health 사용 방법에 대한 주요 디자인 의사 결정�
 
 |||
 |:-------|:-----|
-|![Microsoft 클라우드의 테스트 랩 가이드](media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)| [테스트 랩 가이드: 암호 쓰기 저장](password-writeback-m365-ent-test-environment.md) |
+|![Microsoft 클라우드의 테스트 랩 가이드](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)| [테스트 랩 가이드: 암호 쓰기 저장](password-writeback-m365-ent-test-environment.md) |
 |||
 
 중간 검사점으로 이 섹션에 대한 [종료 조건](identity-exit-criteria.md#crit-identity-pw-writeback)을 확인할 수 있습니다.
 
 |||
 |:-------|:-----|
-|![5단계](./media/stepnumbers/Step5.png)| [그룹을 사용하여 관리](identity-use-group-management.md) |
+|![5단계](../media/stepnumbers/Step5.png)| [그룹을 사용하여 관리](identity-use-group-management.md) |

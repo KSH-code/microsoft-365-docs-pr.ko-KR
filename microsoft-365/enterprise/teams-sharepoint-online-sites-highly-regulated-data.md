@@ -1,6 +1,8 @@
 ---
 title: 높은 규제 대상 데이터를 위한 SharePoint 사이트
 author: JoeDavies-MSFT
+f1.keywords:
+- NOCSH
 ms.author: josephd
 manager: laurawi
 ms.date: 10/31/2019
@@ -11,14 +13,15 @@ localization_priority: Priority
 ms.collection:
 - M365-security-compliance
 - Strat_O365_Enterprise
+- SPO_Content
 ms.custom: ''
 description: 가장 중요하고 민감한 파일을 저장할 수 있도록 안전한 SharePoint 팀 사이트를 만듭니다.
-ms.openlocfilehash: f8ccda85256e1f590f80a9302897e2950c59d154
-ms.sourcegitcommit: 0ceb79a633f7004e82b80e69b6f7a7329ccec7ff
+ms.openlocfilehash: c74a2bc59a6ef9d16ecd0dfbed06d577bd98649b
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/18/2019
-ms.locfileid: "38699748"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42085065"
 ---
 # <a name="sharepoint-sites-for-highly-regulated-data"></a>높은 규제 대상 데이터를 위한 SharePoint 사이트
 
@@ -59,7 +62,7 @@ Microsoft 365 Enterprise에는 완전한 클라우드 기반 서비스 제품군
 
 다음은 보안 SharePoint 사이트의 구성 예시입니다.
 
-![높은 규제 대상 데이터를 위한 SharePoint 사이트 시나리오](./media/teams-sharepoint-online-sites-highly-regulated-data/end-to-end-configuration.png)
+![높은 규제 대상 데이터를 위한 SharePoint 사이트 시나리오](../media/teams-sharepoint-online-sites-highly-regulated-data/end-to-end-configuration.png)
 
 이 시나리오를 사용하려면 다음을 배포했어야 합니다.
 
@@ -68,9 +71,9 @@ Microsoft 365 Enterprise에는 완전한 클라우드 기반 서비스 제품군
 
 다음 단계에서는 높은 규제 대상 데이터를 위한 SharePoint 사이트의 디자인 및 구성 작업과 채택을 유도하는 과정을 안내합니다.
 
-<a name="poster"></a> 이 시나리오의 1 페이지 요약서를 보려면 [높은 규제 대상 데이터를 위한 SharePoint 사이트 포스터](./media/teams-sharepoint-online-sites-highly-regulated-data/SharePointSitesHighlyRegulatedData.pdf)를 참조하세요.
+<a name="poster"></a> 이 시나리오의 1 페이지 요약서를 보려면 [높은 규제 대상 데이터를 위한 SharePoint 사이트 포스터](../media/teams-sharepoint-online-sites-highly-regulated-data/SharePointSitesHighlyRegulatedData.pdf)를 참조하세요.
 
-[![높은 규제 대상 데이터를 위한 SharePoint 사이트 포스터](./media/teams-sharepoint-online-sites-highly-regulated-data/sharepoint-sites-highly-regulated-data-poster.png)](./media/teams-sharepoint-online-sites-highly-regulated-data/SharePointSitesHighlyRegulatedData.pdf)
+[![높은 규제 대상 데이터를 위한 SharePoint 사이트 포스터](../media/teams-sharepoint-online-sites-highly-regulated-data/sharepoint-sites-highly-regulated-data-poster.png)](../media/teams-sharepoint-online-sites-highly-regulated-data/SharePointSitesHighlyRegulatedData.pdf)
 
 이 포스터를 [PDF](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/teams-sharepoint-online-sites-highly-regulated-data/SharePointSitesHighlyRegulatedData.pdf)나 [PowerPoint](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/teams-sharepoint-online-sites-highly-regulated-data/SharePoint-Sites-Highly-Regulated-Data.pptx) 형식으로 다운로드할 수 있고, Letter, Legal, Tabloid(11 x 17) 크기 용지에 인쇄할 수도 있습니다.
 
@@ -170,11 +173,11 @@ SharePoint 사이트에서 사용 권한 설정을 구성합니다.
 
 다음은 높은 규제 대상의 레이블의 하위 레이블을 사용하는 결과의 구성입니다.
 
-![높은 규제 대상 데이터를 위한 SharePoint 사이트 시나리오](./media/teams-sharepoint-online-sites-highly-regulated-data/end-to-end-configuration.png)
+![높은 규제 대상 데이터를 위한 SharePoint 사이트 시나리오](../media/teams-sharepoint-online-sites-highly-regulated-data/end-to-end-configuration.png)
 
 다음은 해당 사이트에 저장된 파일에 하위 레이블을 적용한 사용자의 예시입니다.
 
-![높은 규제 대상 데이터를 위한 SharePoint 사이트 시나리오](./media/teams-sharepoint-online-sites-highly-regulated-data/end-to-end-configuration-example-file.png)
+![높은 규제 대상 데이터를 위한 SharePoint 사이트 시나리오](../media/teams-sharepoint-online-sites-highly-regulated-data/end-to-end-configuration-example-file.png)
 
 
 ## <a name="phase-3-drive-user-adoption"></a>3단계: 사용자 채택 주도

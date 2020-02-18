@@ -1,5 +1,7 @@
 ---
 title: 보존 레이블 및 DLP를 사용하여 팀에서 파일을 보호
+f1.keywords:
+- NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -17,12 +19,12 @@ ms.custom:
 - Ent_Solutions
 ms.assetid: c9f837af-8d71-4df1-a285-dedb1c5618b3
 description: '요약: 다양한 정보 보호 수준을 통해 팀 파일에 보존 레이블 및 DLP(데이터 손실 방지) 정책을 적용합니다.'
-ms.openlocfilehash: 89320a074d5d52062268a7585081849ac42d2025
-ms.sourcegitcommit: 33242c260439de0d8db41247e9414913f24adc22
+ms.openlocfilehash: 94d8a02d0ea88fa8a05cd6a2c95a2db866d72fad
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/01/2019
-ms.locfileid: "37925848"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42083411"
 ---
 # <a name="protect-files-in-teams-with-retention-labels-and-dlp"></a>보존 레이블 및 DLP를 사용하여 팀에서 파일을 보호
 
@@ -114,7 +116,7 @@ ms.locfileid: "37925848"
     
 구성 결과는 다음과 같습니다.
   
-![기본 SharePoint 사이트의 4가지 유형에 대한 보존 레이블입니다.](../media/retention-labels.png)
+![기본 SharePoint 사이트의 4가지 유형에 대한 보존 레이블입니다.](../../media/retention-labels.png)
   
 ## <a name="dlp-policies-for-your-underlying-sharepoint-sites"></a>기본 SharePoint 사이트에 대한 DLP 정책
 
@@ -165,7 +167,7 @@ ms.locfileid: "37925848"
     
 결과적으로 중요한 팀에 대한 구성은 다음과 같습니다.
   
-![민감한 보존 레이블을 사용하는 중요한 팀에 대한 DLP 정책](../media/retention-labels-sensitive-dlp.png)
+![민감한 보존 레이블을 사용하는 중요한 팀에 대한 DLP 정책](../../media/retention-labels-sensitive-dlp.png)
   
 다음 단계를 사용하여 사용자가 조직 외부의 중요 기본 SharePoint 사이트에서 문서를 공유할 때 사용자를 차단하는 DLP 정책을 구성합니다.
   
@@ -211,7 +213,7 @@ ms.locfileid: "37925848"
     
 결과적으로 극비 팀에 대한 구성은 다음과 같습니다.
   
-![극비 보존 레이블을 사용하는 극비 팀에 대한 DLP 정책](../media/retention-labels-highly-confidential-dlp.png)
+![극비 보존 레이블을 사용하는 극비 팀에 대한 DLP 정책](../../media/retention-labels-highly-confidential-dlp.png)
   
 ## <a name="next-step"></a>다음 단계
 

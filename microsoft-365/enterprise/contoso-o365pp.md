@@ -1,6 +1,8 @@
 ---
 title: Contoso의 Office 365 ProPlus 배포
 author: JoeDavies-MSFT
+f1.keywords:
+- NOCSH
 ms.author: josephd
 manager: laurawi
 ms.date: 10/01/2019
@@ -13,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Contoso에서 Microsoft Endpoint Configuration Manager를 사용하여 Office 365 ProPlus를 배포하는 방식을 이해합니다.
-ms.openlocfilehash: 7649a4a5c77c7f743e3339db6f91b7afc3b1343f
-ms.sourcegitcommit: c5ca71d6feb0f033b50ccd4de816fd59b0925007
+ms.openlocfilehash: 45c9933ea04632b255acfa1062ae7ecaf9810030
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/04/2019
-ms.locfileid: "39831989"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42068323"
 ---
 # <a name="office-365-proplus-deployment-for-contoso"></a>Contoso의 Office 365 ProPlus 배포
 
@@ -73,7 +75,7 @@ Contoso는 자동으로 클라우드로부터 장치를 업데이트하도록 �
 
 Contoso의 Office 365 ProPlus 설치 및 지속적인 업데이트 배포 아키텍처는 다음과 같습니다.
 
-![Contoso의 Office 365 ProPlus 배포 인프라](./media/contoso-o365pp/contoso-o365pp-fig1.png)
+![Contoso의 Office 365 ProPlus 배포 인프라](../media/contoso-o365pp/contoso-o365pp-fig1.png)
  
 ## <a name="next-step"></a>다음 단계
 

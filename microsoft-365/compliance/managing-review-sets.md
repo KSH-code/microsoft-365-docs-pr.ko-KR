@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 95c45034204e04a0b7fe6e0be5a9b3315c821b6c
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 06dc88e395ea31d40a4163565d7894a2720cb469
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41582737"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42081797"
 ---
 # <a name="manage-review-sets-in-advanced-ediscovery"></a>고급 eDiscovery에서 검토 집합 관리
 
@@ -41,15 +41,15 @@ ms.locfileid: "41582737"
 
 검토 집합을 클릭 하 **여 검토 집합 탭에서** + 검토 **설정 추가**를 클릭할 수 있습니다.
 
-![검토 설정 추가](media/f45c51d9-585d-47d1-b7fb-0288715e0b6a.png)
+![검토 설정 추가](../media/f45c51d9-585d-47d1-b7fb-0288715e0b6a.png)
 
 **검토 설정** 플라이 아웃 추가 페이지에서 검토 집합의 이름을 입력 하 고 **저장**을 클릭 합니다. 새 검토 집합이 **검토 집합** 탭의 목록에 표시 됩니다.
 
-![검토 설정 탭에 나열 된 새 검토 집합](media/AeDnewreviewset.png)
+![검토 설정 탭에 나열 된 새 검토 집합](../media/AeDnewreviewset.png)
 
 고급 eDiscovery 사례에서는 세 가지 방법으로 검토 집합에 데이터를 추가할 수 있습니다.
 
-![검토 집합에 추가 하는 세 가지 방법](media/1f1f4efd-c03b-4255-bc3d-df358e56549c.png)
+![검토 집합에 추가 하는 세 가지 방법](../media/1f1f4efd-c03b-4255-bc3d-df358e56549c.png)
 
 1. [검색 결과를 검토 집합에 추가](add-data-to-review-set.md)
 

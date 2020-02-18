@@ -1,9 +1,11 @@
 ---
 title: Microsoft 365 테스트 환경에서 암호 해시 동기화를 위한 ID 및 장치 액세스 필수 구성 요소
 author: JoeDavies-MSFT
+f1.keywords:
+- NOCSH
 ms.author: josephd
 manager: laurawi
-ms.date: 04/23/2019
+ms.date: 12/12/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 암호 해시 동기화를 위한 필수 구성 요소를 사용하여 ID 및 장치 액세스를 테스트하는 Microsoft 365 환경을 만듭니다.
-ms.openlocfilehash: d5feddd7ddddd0ad8891873a654627a0e7ba4fa3
-ms.sourcegitcommit: 9ee873c6a2f738a0c99921e036894b646742e706
+ms.openlocfilehash: 125d8c6e1e954a05edd630c8f4d55848fa3314b3
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2019
-ms.locfileid: "38673354"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42066038"
 ---
 # <a name="identity-and-device-access-prerequisites-for-password-hash-synchronization-in-your-microsoft-365-test-environment"></a>Microsoft 365 테스트 환경에서 암호 해시 동기화를 위한 ID 및 장치 액세스 필수 구성 요소
 
@@ -44,7 +46,7 @@ ms.locfileid: "38673354"
 [암호 해시 동기화](password-hash-sync-m365-ent-test-environment.md)에 있는 지침을 따르세요.
 구성 결과는 다음과 같습니다.
 
-![암호 해시 동기화 테스트 환경을 사용하여 시뮬레이션된 엔터프라이즈](media/password-hash-sync-m365-ent-test-environment/Phase3.png)
+![암호 해시 동기화 테스트 환경을 사용하여 시뮬레이션된 엔터프라이즈](../media/password-hash-sync-m365-ent-test-environment/Phase3.png)
  
 ## <a name="phase-2-configure-azure-ad-seamless-single-sign-on"></a>2단계: Azure AD Seamless Single Sign-on 구성
 
@@ -86,7 +88,7 @@ ms.locfileid: "38673354"
 
 ## <a name="phase-7-enable-azure-ad-identity-protection"></a>7단계: Azure Active Directory Identity Protection 사용
 
-[Azure AD ID 보호 테스트 랩 가이드의 2 단계](azure-ad-identity-protection-microsoft-365-test-environment.md#phase-2-enable-and-use-azure-ad-identity-protection) 지침을 따릅니다. 
+[Azure AD ID 보호 테스트 랩 가이드의 2 단계](azure-ad-identity-protection-microsoft-365-test-environment.md#phase-2-use-azure-ad-identity-protection) 지침을 따릅니다. 
 
 ## <a name="phase-8-enable-modern-authentication-for-exchange-online-and-skype-for-business-online"></a>8단계: Exchange Online 및 Skype for Business Online에 대한 최신 인증을 실행합니다.
 

@@ -96,7 +96,7 @@ Office 365의 DLP는 검색 크롤러를 사용하여 사이트의 중요한 정
   
 이러한 cmdlet에 대 한 자세한 내용은 [Office 365 보안 &amp; 및 준수 센터 cmdlet](https://go.microsoft.com/fwlink/?LinkID=799772&amp;clcid=0x409)를 참조 하세요.
   
-1. [원격 PowerShell을 사용하여 Office 365 보안 &amp; 준수 센터에 연결하십시오.](https://go.microsoft.com/fwlink/?LinkID=799771&amp;clcid=0x409)
+1. [원격 PowerShell을 사용하여 Office 365 보안 및 준수 센터에 연결](https://go.microsoft.com/fwlink/?LinkID=799771&amp;clcid=0x409)
     
 2. 을 사용 하 `New-DlpCompliancePolicy`여 정책을 만듭니다.
 

@@ -13,12 +13,12 @@ localization_priority: Normal
 search.appverid: MOE150
 ms.assetid: 39e4654a-9588-41f6-892b-c33ab57bfbe2
 description: Office 365 또는 Microsoft 365의 보안 및 준수 센터에서 대량 검색 편집기를 사용 하 여 하나 이상의 콘텐츠 검색에 대 한 쿼리 및 콘텐츠 위치를 신속 하 게 변경 합니다.
-ms.openlocfilehash: 40d3a6c04a57f368a4f53ae0bbc543b049b26d52
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 5d1fd8a877ffb6c2012567583e46e561fb09836f
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41596275"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42078997"
 ---
 # <a name="bulk-edit-content-searches"></a>콘텐츠 검색 일괄 편집
 
@@ -30,13 +30,13 @@ ms.locfileid: "41596275"
 
 1. 로 이동한 후 \> **콘텐츠 검색**검색을 선택 합니다. **** [https://protection.office.com](https://protection.office.com)
     
-2. 검색 목록에서 검색을 하나 이상 선택 하 고 **대량 검색 편집기** ![대량 검색 편집기 단추](media/1ddb3d18-2f00-4a7b-98a6-817ca5ec7014.png)를 선택 합니다.
+2. 검색 목록에서 검색을 하나 이상 선택 하 고 **대량 검색 편집기** ![대량 검색 편집기 단추](../media/1ddb3d18-2f00-4a7b-98a6-817ca5ec7014.png)를 선택 합니다.
     
-    ![하나 이상의 검색을 선택한 다음 대량 검색 편집기를 선택 합니다.](media/600c9716-89a2-4451-b111-fa7cfaad2006.png)
+    ![하나 이상의 검색을 선택한 다음 대량 검색 편집기를 선택 합니다.](../media/600c9716-89a2-4451-b111-fa7cfaad2006.png)
   
     다음 정보는 대량 검색 편집기의 **쿼리** 페이지에 표시 됩니다. 
     
-    ![대량 검색 편집기 페이지에 선택한 검색에 대 한 쿼리가 표시 됩니다.](media/189659af-cc78-4479-b0bc-a93decad2f6c.png)
+    ![대량 검색 편집기 페이지에 선택한 검색에 대 한 쿼리가 표시 됩니다.](../media/189659af-cc78-4479-b0bc-a93decad2f6c.png)
   
     a. **검색** 열에는 콘텐츠 검색의 이름이 표시 됩니다. 앞에서 설명한 것 처럼 여러 검색에 대 한 쿼리를 편집할 수 있습니다. 
     
@@ -71,7 +71,7 @@ ms.locfileid: "41596275"
     
     다음 정보는 대량 검색 편집기의 **위치** 페이지에 표시 됩니다. 
     
-    ![대량 위치 편집기 사용을 선택 하 고 콘텐츠 위치를 추가 또는 제거할 위치를 선택 합니다.](media/a5a468ce-bd63-4c53-bc37-ff64cf769e59.png)
+    ![대량 위치 편집기 사용을 선택 하 고 콘텐츠 위치를 추가 또는 제거할 위치를 선택 합니다.](../media/a5a468ce-bd63-4c53-bc37-ff64cf769e59.png)
   
     a. **검색할 사서함** 이 섹션에는 선택한 각 콘텐츠 검색에 대 한 열과 검색에 포함 된 각 사서함에 대 한 행이 표시 됩니다. 확인 표시가 있으면 해당 사서함이 검색에 포함 된 것입니다. 빈 행에 사서함의 전자 메일 주소를 입력 한 다음 추가 하려는 콘텐츠 검색에 대 한 확인란을 선택 하 여 검색에 사서함을 추가할 수 있습니다. 또는 확인란 선택을 취소 하 여 검색에서 사서함을 제거할 수 있습니다.
     

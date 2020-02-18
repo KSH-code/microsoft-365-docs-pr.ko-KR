@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Advanced eDiscovery의 검토 집합에서 내보낸 문서를 Azure 저장소 탐색기를 설치 하 고 사용 하 여 다운로드 합니다.
-ms.openlocfilehash: c92b92a91755ef641d7fd5f4ef0533065e1f8349
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 640dd9b6d5768a22cb6529f476e4003c5eeb4d86
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595153"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42074899"
 ---
 # <a name="download-export-jobs"></a>내보내기 작업 다운로드
 
@@ -43,7 +43,7 @@ ms.locfileid: "41595153"
 
 3. 플라이 아웃 페이지의 **위치**아래에 표시 된 SAS URL을 복사 합니다. 필요한 경우 3 단계에서 액세스할 수 있도록 파일을 파일로 저장할 수 있습니다.
  
-   ![위치 아래에 표시 된 SAS URL 복사](./media/eDiscoExportJob.png)
+   ![위치 아래에 표시 된 SAS URL 복사](../media/eDiscoExportJob.png)
 
 ## <a name="step-3-connect-to-the-azure-storage-location"></a>3 단계: Azure 저장소 위치에 연결
 
@@ -53,15 +53,15 @@ ms.locfileid: "41595153"
 
 2. **계정 추가** 아이콘을 클릭 합니다. 또는 **저장소 계정을**마우스 오른쪽 단추로 클릭 해도 됩니다.
 
-   ![계정 추가 아이콘을 클릭 합니다.](./media/AzureStorageConnect.png)
+   ![계정 추가 아이콘을 클릭 합니다.](../media/AzureStorageConnect.png)
 
 3.  **Azure Storage에 연결** 페이지에서 **SAS (공유 액세스 서명) URI 사용** 을 클릭 한 후 **다음**을 클릭 합니다.
 
-    ![SAS (공유 액세스 서명) URI 사용을 클릭 한 후 다음을 클릭 합니다.](./media/AzureStorageConnect2.png)
+    ![SAS (공유 액세스 서명) URI 사용을 클릭 한 후 다음을 클릭 합니다.](../media/AzureStorageConnect2.png)
 
 4.  **SAS URI로 연결** 페이지에서 URI 상자를 클릭 한 다음 2 단계에서 얻은 SAS URL을 붙여 넣습니다. 
 
-    ![URI 상자에 SAS URL을 붙여 넣습니다.](./media/AzureStorageConnect3.png)
+    ![URI 상자에 SAS URL을 붙여 넣습니다.](../media/AzureStorageConnect3.png)
 
     **표시 이름** 상자에 SAS URL의 일부가 표시 됩니다. 이 이름은 저장소 위치에 연결한 후 **저장소 계정** 에 만들어지는 컨테이너의 표시 이름으로 사용 됩니다. 이 이름은 Advanced eDiscovery 사례의 ID와 고유 식별자로 구성 됩니다. 기본 표시 이름을 그대로 유지 하거나 변경할 수 있습니다. 이름을 변경 하는 경우에는 표시 이름이 고유 해야 합니다.
 
@@ -69,13 +69,13 @@ ms.locfileid: "41595153"
 
     **연결 요약** 페이지가 표시 됩니다.
    
-    ![연결 요약 페이지에서 연결을 클릭 하 여 Azure 저장소 위치에 연결 합니다.](./media/AzureStorageConnect4.png)
+    ![연결 요약 페이지에서 연결을 클릭 하 여 Azure 저장소 위치에 연결 합니다.](../media/AzureStorageConnect4.png)
 
 6. **연결 요약** 페이지에서 연결 정보를 검토 한 다음 **연결**을 클릭 합니다. 
 
     **Blob 컨테이너** 노드 ( **저장소 계정** > **(연결 된 컨테이너))** \> 가 열립니다. 
 
-    ![Blob 컨테이너 노드의 작업 내보내기](./media/AzureStorageConnect5.png)
+    ![Blob 컨테이너 노드의 작업 내보내기](../media/AzureStorageConnect5.png)
 
     여기에는 4 단계의 표시 이름으로 이름이 지정 된 컨테이너가 포함 되어 있습니다. 이 컨테이너에는 사용자가 만든 각 내보내기 작업에 대 한 폴더가 포함 됩니다. 이러한 폴더는 내보내기 작업의 ID에 해당 하는 ID로 이름이 지정 됩니다. **작업** 탭에 나열 된 각 **내보내기 데이터 준비** 작업에 대 한 플라이 아웃 페이지의 **지원 정보** 아래에서 이러한 내보내기 id와 내보내기 이름을 찾을 수 있습니다.
 
@@ -83,7 +83,7 @@ ms.locfileid: "41595153"
 
    폴더 및 내보내기 보고서 목록이 표시 됩니다.
    
-    ![내보내기 폴더에는 내보낸 파일 및 내보내기 보고서가 포함 되어 있습니다.](./media/AzureStorageConnect6.png)
+    ![내보내기 폴더에는 내보낸 파일 및 내보내기 보고서가 포함 되어 있습니다.](../media/AzureStorageConnect6.png)
 
    내보내기 작업 폴더에는 다음과 같은 항목이 포함 됩니다. 내보내기 폴더의 실제 항목은 내보내기 작업을 만들 때 구성 된 내보내기 옵션에 따라 결정 됩니다. 자세한 내용은 [문서를 검토 집합에서 내보내기를](export-documents-from-review-set.md)참조 하십시오.
 
@@ -107,7 +107,7 @@ ms.locfileid: "41595153"
 
     Azure Storage Explorer가 내보내기 프로세스를 시작 합니다. 내보낸 항목을 다운로드 하는 상태가 **활동** 창에 표시 됩니다. 다운로드가 완료 되 면 메시지가 표시 됩니다.
 
-    ![다운로드가 완료 되 면 메시지가 표시 됨](./media/AzureStorageConnect8.png)
+    ![다운로드가 완료 되 면 메시지가 표시 됨](../media/AzureStorageConnect8.png)
 
 > [!NOTE]
 > 전체 내보내기 작업을 다운로드 하는 대신 특정 항목을 선택 하 여 다운로드할 수 있습니다. 항목을 다운로드 하는 대신 항목을 두 번 클릭 하 여 볼 수 있습니다.

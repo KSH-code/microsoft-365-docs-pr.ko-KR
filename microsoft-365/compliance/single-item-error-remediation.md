@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: 고급 eDiscovery의 검토 집합에 포함 된 문서에서 대량 오류 업데이트 관리 프로세스를 수행 하지 않고도 처리 오류를 해결할 수 있습니다.
-ms.openlocfilehash: c049ce4b5d3f8fc12a015a61ea927b744ae76eb3
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 3c50f9dcd1448ee36edd0e82e5b2c2879c11d6b5
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601495"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42069697"
 ---
 # <a name="single-item-error-remediation"></a>단일 항목 오류 수정
 
@@ -31,21 +31,21 @@ ms.locfileid: "41601495"
 
 검토 집합에서 처리 오류가 발생 한 문서가 배너를 통해 식별 됩니다. 오류를 수정 하거나 무시할 수 있습니다. 다음 스크린샷은 검토 중에 암호로 보호 된 Word 문서에 대 한 처리 오류 배너를 보여 줍니다. 또한 처리 오류가 있는 문서의 파일 메타 데이터를 볼 수 있습니다.
 
-![처리 오류가 있는 문서에 대해 표시 되는 배너](media/SIERimage1.png)
+![처리 오류가 있는 문서에 대해 표시 되는 배너](../media/SIERimage1.png)
 
 [검토 집합에서 문서를 쿼리할](review-set-search.md)때 **처리 상태** 조건을 사용 하 여 처리 오류가 있는 문서를 검색할 수도 있습니다.
 
-![처리 상태 조건을 사용 하 여 오류 문서 검색](media/SIERimage2.png)
+![처리 상태 조건을 사용 하 여 오류 문서 검색](../media/SIERimage2.png)
 
 ### <a name="ignore-errors"></a>오류 무시
 
 처리 오류 배너에서 **건너뛰기를** 클릭 하 여 처리 오류를 무시할 수 있습니다. 오류를 무시 하면 문서가 [대량 오류 수정 워크플로](error-remediation-when-processing-data-in-advanced-ediscovery.md)에서 제거 됩니다. 오류가 무시 되 면 문서 배너가 색이 변경 되 고 처리 오류가 무시 됨을 나타냅니다. 언제 든 지 **되돌리기를**클릭 하 여 오류를 무시 하도록 결정을 되돌릴 수 있습니다.
 
-![처리 오류를 무시 하려면 Ignore를 클릭 합니다.](media/SIERimage3.png)
+![처리 오류를 무시 하려면 Ignore를 클릭 합니다.](../media/SIERimage3.png)
 
 검토 집합에서 문서를 쿼리할 때 *처리 오류 무시* 조건을 사용 하 여 처리 오류가 발생 한 모든 문서를 검색할 수도 있습니다.
 
-![무시 된 오류 문서를 검색 하는 데 필요한 문제 처리 오류 조건을 사용 합니다.](media/SIERimage4.png)
+![무시 된 오류 문서를 검색 하는 데 필요한 문제 처리 오류 조건을 사용 합니다.](../media/SIERimage4.png)
 
 ## <a name="remediate-a-document-with-errors"></a>오류가 있는 문서 수정
 
@@ -55,26 +55,26 @@ ms.locfileid: "41601495"
 
 1. **원본 다운로드** **다운로드** > 를 클릭 하 여 로컬 컴퓨터에 파일의 복사본을 다운로드 합니다.
 
-   ![처리 오류와 함께 문서 다운로드](media/SIERimage5.png)
+   ![처리 오류와 함께 문서 다운로드](../media/SIERimage5.png)
 
 2. 오프 라인 파일에서 오류를 수정 합니다. 암호화 된 파일의 경우 암호 보호를 제거 하려면 암호를 입력 하 고 파일을 저장 하거나 암호 해독을 사용 해야 합니다. 파일을 수정 했으면 다음 단계로 이동 합니다.
 
 3. 검토 집합에서 재구성 한 처리 오류가 있는 파일을 선택 하 고 **수정을**클릭 합니다.
 
-   ![처리 오류가 있는 문서의 배너에서 업데이트를 클릭 합니다.](media/SIERimage6.png)
+   ![처리 오류가 있는 문서의 배너에서 업데이트를 클릭 합니다.](../media/SIERimage6.png)
 
 
 4. **찾아보기를**클릭 하 고 로컬 컴퓨터에서 재구성 된 파일 위치로 이동한 다음 파일을 선택 합니다.
 
-   ![찾아보기를 클릭 하 고 로컬 컴퓨터에서 재구성 한 파일을 선택 합니다.](media/SIERimage7.png)
+   ![찾아보기를 클릭 하 고 로컬 컴퓨터에서 재구성 한 파일을 선택 합니다.](../media/SIERimage7.png)
 
     재구성 된 파일을 선택 하면 해당 파일이 검토 집합에 자동으로 업로드 됩니다. 파일의 처리 상태를 추적할 수 있습니다.
 
-    ![업데이트 관리 프로세스의 상태가 표시 됩니다.](media/SIERimage8.png)
+    ![업데이트 관리 프로세스의 상태가 표시 됩니다.](../media/SIERimage8.png)
 
    처리가 완료 되 면 재구성 된 문서를 볼 수 있습니다.
 
-    ![재구성 한 파일을 검토 집합의 기본 형식으로 볼 수 있습니다.](media/SIERimage9.png)
+    ![재구성 한 파일을 검토 집합의 기본 형식으로 볼 수 있습니다.](../media/SIERimage9.png)
 
 문서를 수정 하는 경우 수행 되는 작업에 대 한 자세한 내용은 파일을 수정 [했을 때 수행 되는 작업](error-remediation.md#what-happens-when-files-are-remediated)을 참조 하십시오.
 

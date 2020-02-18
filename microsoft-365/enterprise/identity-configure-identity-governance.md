@@ -1,5 +1,7 @@
 ---
 title: '7단계: ID 거버넌스 구성'
+f1.keywords:
+- NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -13,16 +15,16 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Azure AD 테넌트에 대한 ID 거버넌스를 이해하고 구성합니다.
-ms.openlocfilehash: d9a9a63f46230a07b35052a3b02231f7b5315d9e
-ms.sourcegitcommit: 9083036e787cf997fbceb19c66af594d0fa81d0f
+ms.openlocfilehash: 5b7b1c91735611046133a0247ae028ed090106fd
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "38302925"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42067355"
 ---
 # <a name="step-6-configure-identity-governance"></a>6단계: ID 거버넌스 구성
 
-![2단계-ID](./media/deploy-foundation-infrastructure/identity_icon-small.png)
+![2단계-ID](../media/deploy-foundation-infrastructure/identity_icon-small.png)
 
 ID 거버넌스는 직원 생산성을 보장하면서 중요한 자산에 대한 액세스를 보호, 모니터링 및 감사하는 것입니다. 예를 들어 ID 거버넌스를 사용하는 경우 올바른 사용자에게 올바른 리소스에 대한 올바른 액세스 권한이 있는지 확인하고, 해당 액세스 권한이 시간에 따라 변경되는지 확인할 수 있습니다.
 

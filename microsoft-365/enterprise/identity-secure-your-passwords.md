@@ -1,5 +1,7 @@
 ---
 title: '2단계: 암호 보호'
+f1.keywords:
+- NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -13,16 +15,16 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 조직 전체에 암호를 강력하고 관리하기 쉽도록 설정해야 합니다.
-ms.openlocfilehash: 143f7727846316100e4133ccf4b34646645bfd7f
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: c0ad9e2ad86cb803484e3d350fe112580610f509
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40801743"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42067285"
 ---
 # <a name="step-2-secure-your-passwords"></a>2단계: 암호 보호
 
-![2단계-ID](./media/deploy-foundation-infrastructure/identity_icon-small.png)
+![2단계-ID](../media/deploy-foundation-infrastructure/identity_icon-small.png)
 
 <a name="identity-password-prot"></a>
 ## <a name="prevent-bad-passwords"></a>잘못된 암호 방지
@@ -54,7 +56,7 @@ ms.locfileid: "40801743"
 
 |||
 |:-------|:-----|
-|![Microsoft 클라우드의 테스트 랩 가이드](media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)| [테스트 랩 가이드: 암호 재설정](password-reset-m365-ent-test-environment.md) |
+|![Microsoft 클라우드의 테스트 랩 가이드](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)| [테스트 랩 가이드: 암호 재설정](password-reset-m365-ent-test-environment.md) |
 |||
 
 중간 검사점으로 이 단계에 대한 [종료 조건](identity-exit-criteria.md#crit-identity-pw-reset)을 확인할 수 있습니다.
@@ -73,7 +75,7 @@ Azure AD Connect 도구를 사용하여 Azure AD Seamless SSO를 구성합니다
 
 |||
 |:-------|:-----|
-|![Microsoft 클라우드의 테스트 랩 가이드](media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)| [테스트 랩 가이드: Azure AD Seamless Single Sign-on](single-sign-on-m365-ent-test-environment.md) |
+|![Microsoft 클라우드의 테스트 랩 가이드](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)| [테스트 랩 가이드: Azure AD Seamless Single Sign-on](single-sign-on-m365-ent-test-environment.md) |
 |||
 
 중간 검사점으로 이 단계에 대한 [종료 조건](identity-exit-criteria.md#crit-identity-sso)을 확인할 수 있습니다.
@@ -98,4 +100,4 @@ Microsoft 365 Enterprise를 사용하는 경우 회사 로고, 색 구성표 및
 
 |||
 |:-------|:-----|
-|![3단계](./media/stepnumbers/Step3.png)| [사용자 로그인 보안 및 관리](identity-secure-user-sign-ins.md) |
+|![3단계](../media/stepnumbers/Step3.png)| [사용자 로그인 보안 및 관리](identity-secure-user-sign-ins.md) |

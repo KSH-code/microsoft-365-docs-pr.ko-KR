@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: e2a789f2-9962-4960-9fd4-a00aa063559e
 description: '관리자: 사용자에 게 Exchange Online 사서함에 대 한 무제한 저장소를 제공 하는 Office 365에서 자동 확장 보관을 사용 하도록 설정 하는 방법을 알아봅니다. 전체 조직 또는 특정 사용자만 자동 확장 보관을 사용 하도록 설정할 수 있습니다.'
-ms.openlocfilehash: d37243c65770ff7bbcce4cbe4cfd593b68b7a869
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: a0ca31372d99f0727a6da48be4d8276a533fbe3f
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41593209"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42074693"
 ---
 # <a name="enable-unlimited-archiving-in-office-365--admin-help"></a>Office 365에서 무제한 보관을 사용 하도록 설정-관리자 도움말
 
@@ -102,7 +102,7 @@ Get-Mailbox <user mailbox> | FL AutoExpandingArchiveEnabled
     
 - 마찬가지로 자동 확장 보관을 사용 하도록 설정 하면 *ArchiveQuota* 및 *ArchiveWarningQuota* 사서함 속성의 값이 변경 되지 않습니다. 실제로 사용자 사서함에 대해 자동 확장 보관을 사용 하도록 설정 하 고 *AutoExpandingArchiveEnabled* `True`속성을로 설정 하면 *ArchiveQuota* 및 *ArchiveWarningQuota* 속성이 무시 됩니다. 다음은 사용자 사서함에 대해 자동 확장 보관을 사용 하도록 설정한 후 이러한 사서함 속성의 예입니다. 
     
-    ![자동 확장 보관을 사용 하도록 설정한 후에는 ArchiveQuota 및 ArchiveWarningQuota 속성이 무시 됩니다.](media/6a1c1b69-5c4c-4267-aac8-53577667f03e.png)
+    ![자동 확장 보관을 사용 하도록 설정한 후에는 ArchiveQuota 및 ArchiveWarningQuota 속성이 무시 됩니다.](../media/6a1c1b69-5c4c-4267-aac8-53577667f03e.png)
 
   
 ## <a name="more-information"></a>추가 정보

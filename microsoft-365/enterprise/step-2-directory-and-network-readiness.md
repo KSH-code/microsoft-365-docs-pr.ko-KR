@@ -1,5 +1,7 @@
 ---
 title: '2단계: 디렉터리 및 네트워크 준비'
+f1.keywords:
+- NOCSH
 ms.author: jogruszc
 author: JGruszczyk
 manager: jemed
@@ -13,25 +15,25 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 환경에서 디렉터리 및 네트워크 준비 상태를 평가하는 방법을 알아봅니다.
-ms.openlocfilehash: cae32d7bd7791cdfb0acce564b2a7839d5314a19
-ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
+ms.openlocfilehash: 985212cc240d91ac04f9def1b7a53c42889d826f
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41112619"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42085431"
 ---
 # <a name="step-2-directory-and-network-readiness"></a>2단계: 디렉터리 및 네트워크 준비
 
 디렉터리와 네트워크가 구성되고, Windows 10 및 Office 365 ProPlus로의 전원을 지원할 준비가 되었는지 확인합니다. 이를 위해서는 사용자가 Azure Active Directory 서비스를 사용할 수 있게 설정되고, 네트워크에는 일반 트래픽과 방대해질 수 있는 데이터의 이동(예: PC가 업그레이드되거나 사용자 파일, 설정 및 응용 프로그램이 복원되는 경우)을 처리할 수 있는 용량이 준비되어야 합니다.
 
-![](media/step-2-directory-and-network-readiness-media/step-2-directory-and-network-readiness-media-1.png)
+![](../media/step-2-directory-and-network-readiness-media/step-2-directory-and-network-readiness-media-1.png)
 
 <table>
 <thead>
-<td><img src="media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-5.png" alt="Step 2" height="144" width="144" /></td>
+<td><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-5.png" alt="Step 2" height="144" width="144" /></td>
 <td><p><strong>2단계: 디렉터리 및 네트워크 준비</strong></p>
 <p>Office 365 ProPlus의 클라우드 연결 서비스와 새로운 배포 옵션(예: Windows Autopilot)에는 Azure Active Directory가 필요합니다. Windows 이미지, 앱, 드라이버 및 관련 파일을 PC로 이동할 때 계획해야 하는 중요한 영역이 바로 네트워크와 연결입니다. 새로운 도구와 배포 옵션으로 네트워크 트래픽을 줄이고 능률화하는 방법을 알아봅니다.</p></td>
-<td><a href="https://aka.ms/ddev2" target="_blank"><img src="media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-15.png" alt="Step 2" height="130" width="231" /></a></td>
+<td><a href="https://aka.ms/ddev2" target="_blank"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-15.png" alt="Step 2" height="130" width="231" /></a></td>
 </thead>
 </table>
 
@@ -85,7 +87,7 @@ Microsoft Endpoint Configuration Manager(현재 분기)를 사용하는 경우 B
 
 다행히 사용자가 대규모 데스크톱 배포가 네트워크에 미치는 영향을 보다 쉽게 관리하도록 하는 새로운 도구들이 있습니다. 사용 가능한 대역폭의 사용을 최적화하는 LEDBAT, 배포 트래픽을 네트워크 중심에서 주변 네트워크로 이동하기 위한 P2P(피어 투 피어) 옵션이 여기에 해당됩니다.
 
-![](media/step-2-directory-and-network-readiness-media/step-2-directory-and-network-readiness-media-3.png)
+![](../media/step-2-directory-and-network-readiness-media/step-2-directory-and-network-readiness-media-3.png)
 
 ## <a name="scavenging-bandwidth"></a>대역폭 청소
 
@@ -95,7 +97,7 @@ Windows Server 2019 및 Microsoft Endpoint Configuration Manager(현재 분기)�
 
 기존 제한과 달리, LEDBAT는 사용 가능한 모든 네트워크 대역폭을 백그라운드 작업으로 사용할 수 있으며, 다른 트래픽이 요청할 때 대역폭을 즉시 양보할 수 있습니다. BITS와 달리 지연도 발생하지 않습니다. 모든 작업은 자동으로 진행되므로 수동 조정이나 일정 관리가 필요하지 않으며, 모든 설치가 서버 쪽에서 진행됩니다. 따라서 성능이 크게 향상될 수 있습니다.
 
-![](media/step-2-directory-and-network-readiness-media/step-2-directory-and-network-readiness-media-4.png)
+![](../media/step-2-directory-and-network-readiness-media/step-2-directory-and-network-readiness-media-4.png)
 
 ## <a name="peer-to-peer-options"></a>피어 투 피어 옵션
 
@@ -111,7 +113,7 @@ Configuration Manager에서 지원되는 **피어 캐시** 클라이언트 또�
 
 **배달 최적화** 배달 최적화는 다른 피어 투 피어 캐싱 기술로, 배포를 위한 네트워크 기반 컨트롤을 제공합니다. 기본 제공 UWP 앱을 업데이트하고, Microsoft Store에서 애플리케이션을 설치하고, Express 업데이트를 사용한 소프트웨어 업데이트를 위한 Windows 10 배달 최적화. 이 기능은 최근에 이르러서야 Microsoft Endpoint Configuration Manager(현재 분기)와 통합되었지만 초기 버전의 Windows 10 이후부터 사용할 수 있었습니다. Windows 10 버전 1803의 새 구성 옵션부터, Store에서의 앱 설치와 같은 백그라운드 업데이트 및 포그라운드 작업을 위해 대역폭 제한을 별도로 설정할 수 있습니다. 이제 Windows 배달 최적화는 지원되는 모든 Office 365 클라이언트 업데이트 채널에서 사용할 수 있는 클라이언트 업데이트 동안 Office 365 ProPlus도 지원합니다. Office 365 클라이언트 초기 설치 동안의 Windows 배달 최적화 지원도 곧 제공될 예정입니다.  
 
-![](media/step-2-directory-and-network-readiness-media/step-2-directory-and-network-readiness-media-5.png)
+![](../media/step-2-directory-and-network-readiness-media/step-2-directory-and-network-readiness-media-5.png)
 
 **Office 365 ProPlus에 대한 추가 고려 사항**
 
@@ -123,11 +125,11 @@ Configuration Manager에서 지원되는 **피어 캐시** 클라이언트 또�
 
 **Outlook 데이터 파일**: 오프라인 사용을 위해 사용자의 전체 사서함을 로컬로 캐시하도록 Outlook을 구성하는 경우가 많습니다. 현재 위치 업그레이드를 제외하고 모든 Windows 배포에서 사용자의 Outlook 데이터 파일은 업그레이드 후에 자체적으로 다시 작성되어야 합니다. 이것은 자동화된 프로세스이지만, 일반적으로 Outlook 사서함 제한을 최대 100GB로 설정한 상태에서 모든 사용자에 대해 로컬로 전체 사서함을 다시 캐시하면 많은 데이터가 전송됩니다. 네트워크 부하를 줄이기 위해 그룹 정책을 사용하여 "오프라인으로 유지할 메일" 설정을 줄이는 것이 바람직할 수 있습니다. Office 365 ProPlus 또는 Office 2016에서 Outlook의 기본값은 12개월로 설정됩니다. 네트워크에 미치는 영향을 줄이려면 오프라인 캐시를 1~6개월 정도 유지하도록 설정하는 것이 좋습니다. 이 설정을 변경해도 온라인 사서함의 크기에는 영향을 주지 않으며, 온라인 상태에서 Outlook을 통해 전체 사서함을 계속 검색할 수 있습니다.
 
-![](media/step-2-directory-and-network-readiness-media/step-2-directory-and-network-readiness-media-6.png)
+![](../media/step-2-directory-and-network-readiness-media/step-2-directory-and-network-readiness-media-6.png)
 
 **요청 시 OneDrive 파일 및 알려진 폴더 이동** OneDrive는 PC 및 클라우드의 다른 디바이스에 있는 사용자 파일을 동기화하고 보호하는 유용한 방법입니다. 알려진 폴더 이동 기능을 사용하면 사용자의 바탕 화면, 문서 및 그림 폴더에서 OneDrive로 파일을 동기화하여 새 디바이스나 이미지로 다시 설치한 PC에 로그인할 때 해당 파일을 사용하도록 할 수 있습니다. 바탕 화면, 문서 및 그림 위치에 보관된 파일의 순수한 크기 및 개수 때문에, PC에서 OneDrive를 사용하고 적용하는 정책을 롤아웃하여 보다 계획적으로 작업하려고 할 수 있습니다. 한 가지 옵션은 그룹 정책 네트워크 컨트롤을 사용하여 OneDrive 동기화 서비스에서 사용되는 대역폭을 제한하는 것입니다.
 
-![](media/step-2-directory-and-network-readiness-media/step-2-directory-and-network-readiness-media-7.png)
+![](../media/step-2-directory-and-network-readiness-media/step-2-directory-and-network-readiness-media-7.png)
 
 [알려진 폴더 이동 설정](https://techcommunity.microsoft.com/t5/Microsoft-OneDrive-Blog/Migrate-Your-Files-to-OneDrive-Easily-with-Known-Folder-Move/ba-p/207076)
 
