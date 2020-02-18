@@ -1,5 +1,7 @@
 ---
 title: 스팸 메일을 보낸 후 제한된 사용자 포털에서 사용자 제거
+f1.keywords:
+- NOCSH
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
@@ -16,12 +18,12 @@ ms.assetid: 712cfcc1-31e8-4e51-8561-b64258a8f1e5
 ms.collection:
 - M365-security-compliance
 description: 사용자가 스팸으로 분류되는 Office 365에서 계속해서 전자 메일을 보내는 경우 더 이상 메시지를 보낼 수 없게 됩니다.
-ms.openlocfilehash: e942cd9012c3eba226db58808031ac200fbdfeca
-ms.sourcegitcommit: 03a83ff76c8162b850c4c552759c49f2a4750574
+ms.openlocfilehash: 6fad4b9d3554228bdbf474bce2b4b2d0f29f7e2b
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/26/2020
-ms.locfileid: "41558635"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41598585"
 ---
 # <a name="removing-a-user-from-the-restricted-users-portal-after-sending-spam-email"></a>스팸 메일을 보낸 후 제한된 사용자 포털에서 사용자 제거
 

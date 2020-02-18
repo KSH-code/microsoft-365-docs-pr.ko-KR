@@ -1,5 +1,7 @@
 ---
 title: Office 365에서 손상된 이메일 계정에 응답
+f1.keywords:
+- NOCSH
 ms.author: chrisda
 author: chrisda
 manager: dansimp
@@ -14,12 +16,12 @@ localization_priority: Priority
 search.appverid:
 - MET150
 description: Office 365에서 손상된 전자 메일 계정을 인식하고 응답하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 0262ca29681aa04d66c628a7d9101e3d3296481b
-ms.sourcegitcommit: 3f8957ddd04b8710bb5f314a0902fdee50c7c9b7
+ms.openlocfilehash: 3aa8be9b53f2aa8f3fc6bf64744b36de5d912645
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/28/2020
-ms.locfileid: "41572714"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41598605"
 ---
 # <a name="responding-to-a-compromised-email-account-in-office-365"></a>Office 365에서 손상된 이메일 계정에 응답
 

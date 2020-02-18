@@ -1,5 +1,7 @@
 ---
 title: Office 365 Advanced Threat Protection
+f1.keywords:
+- CSH
 ms.author: tracyp
 author: msfttracyp
 manager: dansimp
@@ -15,12 +17,12 @@ ms.assetid: e100fe7c-f2a1-4b7d-9e08-622330b83653
 ms.collection:
 - M365-security-compliance
 description: Office 365 Advanced Threat Protection에는 안전한 첨부 파일, 안전한 링크, 고급 피싱 방지 도구, 보고 도구 및 위협 인텔리전스 기능이 포함되어 있습니다.
-ms.openlocfilehash: 0f7ba86208746909470063e406226545bf1a006d
-ms.sourcegitcommit: 5710ce729c55d95b8b452d99ffb7ea92b5cb254a
+ms.openlocfilehash: 7210cc2cfbb060ee6afe9042a5c8934ff6f53576
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/11/2019
-ms.locfileid: "39970354"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41598745"
 ---
 # <a name="office-365-advanced-threat-protection"></a>Office 365 Advanced Threat Protection
 

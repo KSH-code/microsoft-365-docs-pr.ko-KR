@@ -1,5 +1,7 @@
 ---
 title: Office 365에서 사용자 권한으로 격리된 메시지 검색 및 해제
+f1.keywords:
+- NOCSH
 ms.author: tracyp
 author: MSFTTracyP
 manager: dansimp
@@ -15,12 +17,12 @@ ms.assetid: efff08ec-68ff-4099-89b7-266e3c4817be
 ms.collection:
 - M365-security-compliance
 description: Office 365 사용자는 스팸으로 격리된 자신의 메시지를 수신한 스팸 알림에서 직접 응답(관리자가 기능을 설정한 경우)하거나 보안 &amp; 준수 센터에서 스팸 격리 기능을 사용하여 관리할 수 있습니다.
-ms.openlocfilehash: bcc9b7ed52af0e9920506aa667e51daad7f82c80
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 277af18d2061e8bd13386ab96e37d982d68e0b52
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40808003"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41599295"
 ---
 # <a name="find-and-release-quarantined-messages-as-a-user-in-office-365"></a>Office 365에서 사용자 권한으로 격리된 메시지 검색 및 해제
 

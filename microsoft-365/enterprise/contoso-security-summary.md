@@ -1,6 +1,8 @@
 ---
 title: Contoso Corporation의 Microsoft 365 Enterprise 보안 요약
 author: JoeDavies-MSFT
+f1.keywords:
+- NOCSH
 ms.author: josephd
 manager: laurawi
 ms.date: 10/02/2019
@@ -13,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Contoso가 Microsoft 365 Enterprise에서 보안 기능을 사용하는 방법
-ms.openlocfilehash: fd3f73919a113389e9d423dbed11cf0074fb5833
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 036c812e645399e00af270e62d057637867595fe
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40802063"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41597095"
 ---
 # <a name="summary-of-microsoft-365-enterprise-security-for-the-contoso-corporation"></a>Contoso Corporation의 Microsoft 365 Enterprise 보안 요약
 

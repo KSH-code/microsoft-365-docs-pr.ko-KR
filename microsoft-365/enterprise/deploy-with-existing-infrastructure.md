@@ -1,5 +1,7 @@
 ---
 title: 기존 인프라를 사용하여 엔터프라이즈용 Microsoft 365 배포
+f1.keywords:
+- NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -13,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 기존 인프라가 있는 경우 엔터프라이즈용 Microsoft 365 배포에 대한 종료 조건을 안내합니다.
-ms.openlocfilehash: 1b3ed8edd84a1879f4cd46795fc55e3625a97be2
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: ce9c9343ff6983968f3ed96b1e1558788d04ffc1
+ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40801933"
+ms.lasthandoff: 01/29/2020
+ms.locfileid: "41597065"
 ---
 # <a name="deployment-of-microsoft-365-for-enterprise-with-existing-infrastructure"></a>기존 인프라를 사용하여 엔터프라이즈용 Microsoft 365 배포
 
