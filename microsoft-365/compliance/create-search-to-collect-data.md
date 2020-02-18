@@ -16,29 +16,29 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: ab57bcd3cd21d691e8c2dc669a55588dbcaa886b
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 67b4eb399b422cac032bbfcfe49079e4d55b2d02
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595555"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42077115"
 ---
-# <a name="create-a-search"></a><span data-ttu-id="3d455-102">검색 만들기</span><span class="sxs-lookup"><span data-stu-id="3d455-102">Create a search</span></span>
+# <a name="create-a-search"></a><span data-ttu-id="40d29-102">검색 만들기</span><span class="sxs-lookup"><span data-stu-id="40d29-102">Create a search</span></span>
 
-<span data-ttu-id="3d455-103">사례에 있는 **검색** 탭에서 **새 검색** 을 클릭 하 고 마법사를 수행 하 여 새 검색을 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3d455-103">On the **Searches** tab in your case, you can create a new search by clicking **New search** and following the wizard.</span></span>
+<span data-ttu-id="40d29-103">사례에 있는 **검색** 탭에서 **새 검색** 을 클릭 하 고 마법사를 수행 하 여 새 검색을 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="40d29-103">On the **Searches** tab in your case, you can create a new search by clicking **New search** and following the wizard.</span></span>
 
-## <a name="name-your-search-and-give-it-a-description"></a><span data-ttu-id="3d455-104">검색의 이름을 지정 하 고 설명을 입력 합니다.</span><span class="sxs-lookup"><span data-stu-id="3d455-104">Name your search and give it a description</span></span>
+## <a name="name-your-search-and-give-it-a-description"></a><span data-ttu-id="40d29-104">검색의 이름을 지정 하 고 설명을 입력 합니다.</span><span class="sxs-lookup"><span data-stu-id="40d29-104">Name your search and give it a description</span></span>
 
-<span data-ttu-id="3d455-105">케이스가 포함 된 각 검색의 이름은 고유 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="3d455-105">Each search with a case should have a unique name.</span></span> <span data-ttu-id="3d455-106">선택적으로 검색에 대 한 설명을 제공할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3d455-106">You can optionally provide a description for your search.</span></span> 
+<span data-ttu-id="40d29-105">케이스가 포함 된 각 검색의 이름은 고유 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="40d29-105">Each search with a case should have a unique name.</span></span> <span data-ttu-id="40d29-106">선택적으로 검색에 대 한 설명을 제공할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="40d29-106">You can optionally provide a description for your search.</span></span> 
 
-## <a name="define-your-search-query-and-conditions"></a><span data-ttu-id="3d455-107">검색 쿼리 및 조건 정의</span><span class="sxs-lookup"><span data-stu-id="3d455-107">Define your search query and conditions</span></span>
+## <a name="define-your-search-query-and-conditions"></a><span data-ttu-id="40d29-107">검색 쿼리 및 조건 정의</span><span class="sxs-lookup"><span data-stu-id="40d29-107">Define your search query and conditions</span></span>
 
-<span data-ttu-id="3d455-108">미리 작성 된 조건 카드를 사용 하거나 KQL (키워드 쿼리 언어)를 사용 하 여 검색에 대 한 키워드 쿼리 및 조건을 정의할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3d455-108">You can define the keywords query and any conditions for the search by using the pre-built condition cards or using Keyword Query Language (KQL).</span></span> <span data-ttu-id="3d455-109">자세한 내용은 [빌드 검색 쿼리](building-search-queries.md)를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="3d455-109">For more information, see [Build search queries](building-search-queries.md).</span></span>
+<span data-ttu-id="40d29-108">미리 작성 된 조건 카드를 사용 하거나 KQL (키워드 쿼리 언어)를 사용 하 여 검색에 대 한 키워드 쿼리 및 조건을 정의할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="40d29-108">You can define the keywords query and any conditions for the search by using the pre-built condition cards or using Keyword Query Language (KQL).</span></span> <span data-ttu-id="40d29-109">자세한 내용은 [빌드 검색 쿼리](building-search-queries.md)를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="40d29-109">For more information, see [Build search queries](building-search-queries.md).</span></span>
 
-## <a name="choose-the-custodians-to-search-from"></a><span data-ttu-id="3d455-110">검색할 custodians 선택</span><span class="sxs-lookup"><span data-stu-id="3d455-110">Choose the custodians to search from</span></span>
+## <a name="choose-the-custodians-to-search-from"></a><span data-ttu-id="40d29-110">검색할 custodians 선택</span><span class="sxs-lookup"><span data-stu-id="40d29-110">Choose the custodians to search from</span></span>
 
-<span data-ttu-id="3d455-111">조건을 정의한 후에는 검색 하려는 위치를 선택 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="3d455-111">Once you have defined your conditions, you need to choose which locations you want to search.</span></span> <span data-ttu-id="3d455-112">이 작업을 수행 하는 한 가지 방법은 검색 하려는 사례에 이미 추가한 custodians를 지정 하는 것입니다.</span><span class="sxs-lookup"><span data-stu-id="3d455-112">One way to do it is by specifying which custodians you have already added to the case you want to search.</span></span> <span data-ttu-id="3d455-113">Custodian를 선택 하 여 custodian에 매핑된 모든 데이터 원본에 대해 검색을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="3d455-113">By selecting a custodian, you will run the search against all data sources mapped to the custodian.</span></span> <span data-ttu-id="3d455-114">사례에 custodians을 추가 하 고 해당 데이터 원본을 관리 하는 방법에 대 한 자세한 내용은 [custodians With Work](managing-custodians.md) 를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="3d455-114">See [Work with custodians](managing-custodians.md) for more information on how to add custodians to your case and manage their data sources.</span></span>
+<span data-ttu-id="40d29-111">조건을 정의한 후에는 검색 하려는 위치를 선택 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="40d29-111">Once you have defined your conditions, you need to choose which locations you want to search.</span></span> <span data-ttu-id="40d29-112">이 작업을 수행 하는 한 가지 방법은 검색 하려는 사례에 이미 추가한 custodians를 지정 하는 것입니다.</span><span class="sxs-lookup"><span data-stu-id="40d29-112">One way to do it is by specifying which custodians you have already added to the case you want to search.</span></span> <span data-ttu-id="40d29-113">Custodian를 선택 하 여 custodian에 매핑된 모든 데이터 원본에 대해 검색을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="40d29-113">By selecting a custodian, you will run the search against all data sources mapped to the custodian.</span></span> <span data-ttu-id="40d29-114">사례에 custodians을 추가 하 고 해당 데이터 원본을 관리 하는 방법에 대 한 자세한 내용은 [custodians With Work](managing-custodians.md) 를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="40d29-114">See [Work with custodians](managing-custodians.md) for more information on how to add custodians to your case and manage their data sources.</span></span>
 
-## <a name="choose-non-custodial-locations"></a><span data-ttu-id="3d455-115">비 custodial 위치 선택</span><span class="sxs-lookup"><span data-stu-id="3d455-115">Choose non-custodial locations</span></span>
+## <a name="choose-non-custodial-locations"></a><span data-ttu-id="40d29-115">비 custodial 위치 선택</span><span class="sxs-lookup"><span data-stu-id="40d29-115">Choose non-custodial locations</span></span>
 
-<span data-ttu-id="3d455-116">어떤 경우에는 custodian에 매핑되지 않은 데이터 원본을 검색할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3d455-116">In some cases, you may wish to search data sources that are not mapped to a custodian.</span></span> <span data-ttu-id="3d455-117">이 경우 검색할 위치를 지정 하거나, 모든 Exchange 사서함 또는 모든 SharePoint 및 비즈니스용 OneDrive 사이트 검색과 같은 특정 Office 365 서비스의 모든 콘텐츠 위치를 검색 하도록 선택할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3d455-117">In this case, you can specify the locations you would like to search, or choose to search all content locations for a specific Office 365 service (such as searching all Exchange mailboxes or all SharePoint and OneDrive for Business sites).</span></span>
+<span data-ttu-id="40d29-116">어떤 경우에는 custodian에 매핑되지 않은 데이터 원본을 검색할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="40d29-116">In some cases, you may wish to search data sources that are not mapped to a custodian.</span></span> <span data-ttu-id="40d29-117">이 경우 검색할 위치를 지정 하거나, 모든 Exchange 사서함 또는 모든 SharePoint 및 비즈니스용 OneDrive 사이트 검색과 같은 특정 Office 365 서비스의 모든 콘텐츠 위치를 검색 하도록 선택할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="40d29-117">In this case, you can specify the locations you would like to search, or choose to search all content locations for a specific Office 365 service (such as searching all Exchange mailboxes or all SharePoint and OneDrive for Business sites).</span></span>

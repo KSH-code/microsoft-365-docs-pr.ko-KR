@@ -16,13 +16,13 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 86bab81ffc1c607e9794b3436cc0cea3c34e9ef7
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: a076a24612349533d9b33cb12972997d4b071b2a
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41588518"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42074375"
 ---
-# <a name="export-documents-from-an-incident"></a><span data-ttu-id="c3f5c-102">인시던트 로부터 문서 내보내기</span><span class="sxs-lookup"><span data-stu-id="c3f5c-102">Export documents from an incident</span></span>
+# <a name="export-documents-from-an-incident"></a><span data-ttu-id="614a8-102">인시던트 로부터 문서 내보내기</span><span class="sxs-lookup"><span data-stu-id="614a8-102">Export documents from an incident</span></span>
 
-<span data-ttu-id="c3f5c-103">곧 제공될 콘텐츠입니다.</span><span class="sxs-lookup"><span data-stu-id="c3f5c-103">Content coming soon.</span></span>
+<span data-ttu-id="614a8-103">곧 제공될 콘텐츠입니다.</span><span class="sxs-lookup"><span data-stu-id="614a8-103">Content coming soon.</span></span>
