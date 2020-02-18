@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 정책을 사용하여 콘텐츠를 보존할지, 삭제할지, 아니면 보존한 다음 삭제할지 사전에 결정할 수 있습니다. 조직 전체에 또는 특정 위치 또는 사용자에게 하나의 정책을 적용할 수 있고, 모든 콘텐츠에 또는 특정 조건에 부합하는 콘텐츠에 정책을 적용할 수 있습니다.
-ms.openlocfilehash: 3dbc3e221849cd9b5cde1d1f97e50ccf043c336d
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: dd9cc9624cc58f481e8d8d491493efc22b095d5b
+ms.sourcegitcommit: b78a7a578dce1868b40675b7f7e6b0e16131704c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42070240"
+ms.lasthandoff: 02/17/2020
+ms.locfileid: "42093445"
 ---
 # <a name="overview-of-retention-policies"></a>보존 정책 개요
 
@@ -201,8 +201,9 @@ SharePoint 사이트 모음의 경우, 사용자가 콘텐츠를 편집하거나
     
 - Exchange 공용 폴더
     
+
 ![모든 위치 옵션](../media/c343bd8e-42ac-4f17-a338-36f3c9598a86.png)
-  
+
 조직 전체 보존 정책의 기타 중요한 기능은 다음과 같습니다.
   
 - 정책이 포함할 수 있는 사서함 또는 사이트 개수에 제한이 없습니다.

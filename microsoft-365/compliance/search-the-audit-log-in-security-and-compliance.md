@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: '보안 및 준수 센터를 사용하여 통합 감사 로그를 검색해 Office 365 조직의 사용자 및 관리자 활동을 확인합니다. '
-ms.openlocfilehash: 43cc0317bfce749affc41efe987fe905e1edae5d
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: e4e09360e4f07935867b03b3436a5581bb671774
+ms.sourcegitcommit: 7d07e7ec84390a8f05034d3639fa5db912809585
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 02/15/2020
-ms.locfileid: "42069959"
+ms.locfileid: "42091371"
 ---
 # <a name="search-the-audit-log-in-the-security--compliance-center"></a>보안 및 준수 센터에서 감사 로그 검색
 
@@ -109,7 +109,7 @@ Office 365 감사 로그의 검색을 시작하기 전에 반드시 아래 내�
 
 - Office 365 감사 로그에서 프로그래밍 방식으로 데이터를 다운로드하려면 PowerShell 스크립트를 사용하는 대신 Office 365 관리 작업 API를 사용하는 것이 좋습니다. Office 365 관리 작업 API는 조직의 작업, 보안 및 규정 준수 모니터링 솔루션을 개발하는 데 사용할 수 있는 REST 웹 서비스입니다. 자세한 내용은 [Office 365 관리 작업 API 참조](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-reference)를 참조하세요.
 
-- 검색 결과에 해당 감사 로그 항목이 표시되려면 이벤트 발생 시점으로부터 30분에서 24시간 정도 걸릴 수 있습니다. 다음 표에는 Office 365의 여러 서비스가 표시되는 데 걸리는 시간이 나와 있습니다.
+- 감사 로그 검색 결과에 해당 감사 로그 레코드가 반환되려면 이벤트 발생 시점으로부터 30분에서 24시간 정도 걸릴 수 있습니다. 다음 표에는 Office 365의 여러 서비스가 표시되는 데 걸리는 시간이 나와 있습니다.
 
   |**Office 365 서비스**|**30분**|**24시간**|
   |:-----|:-----:|:-----:|
@@ -117,14 +117,14 @@ Office 365 감사 로그의 검색을 시작하기 전에 반드시 아래 내�
   |Azure Active Directory(사용자 로그인 이벤트)||![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
   |Azure Active Directory(관리 이벤트)||![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
   |데이터 손실 방지|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
-  |Dynamics 365 CRM|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
+  |Dynamics 365 CRM||![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
   |eDiscovery|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
   |Exchange Online|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
-  |Microsoft Power Automate|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
+  |Microsoft Power Automate||![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
   |Microsoft Project|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
   |Microsoft Stream|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
   |Microsoft Teams|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
-  |Power Apps|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
+  |Power Apps||![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
   |Power BI|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
   |보안 및 준수 센터|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
   |SharePoint Online 및 비즈니스용 OneDrive|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
