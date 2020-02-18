@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: SharePoint Online의 DLP (데이터 손실 방지)를 사용 하 여 테 넌 트 전체에서 중요 한 데이터가 포함 된 문서를 검색할 수 있습니다. 문서를 검색한 후 문서 소유자와 함께 작업하여 데이터를 보호할 수 있습니다. 이 항목은 중요한 데이터를 검색하는 쿼리를 작성하는 데 도움이 될 수 있습니다.
-ms.openlocfilehash: e3750ee69a197de5e7e5c0ac9346124568b8d5f5
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 7c0b17ef8f1e6a10d095f4533867a108b937a56a
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41594549"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42073903"
 ---
 # <a name="form-a-query-to-find-sensitive-data-stored-on-sites"></a>사이트에 저장된 중요한 데이터를 찾기 위한 쿼리 작성
 
@@ -35,7 +35,7 @@ ms.locfileid: "41594549"
 
 기본 DLP 쿼리는 중요한 정보 유형, 개수 범위 및 신뢰도 범위의 세 부분으로 구성됩니다. 다음 그림과 같이 **SensitiveType: "\<\>type"** 이 필요 하며**|\<\> count 범위** 와**|\<신뢰 범위\> ** 모두 선택 사항입니다. 
   
-![필수 및 옵션으로 구분되는 예제 쿼리](media/DLP-query-example-text.png)
+![필수 및 옵션으로 구분되는 예제 쿼리](../media/DLP-query-example-text.png)
   
 ### <a name="sensitive-type---required"></a>중요한 정보 유형 - 필수
 

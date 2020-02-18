@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: c87bb0e5-301c-4d1d-958e-aabeb7990f44
 description: 'Office 365 보안 &amp; 및 준수 센터를 사용 하 여 Office 365 Advanced eDiscovery에 액세스 하 고 서비스 케이스에 대해 프로세스 모듈을 실행 하는 방법에 대해 알아봅니다.  '
-ms.openlocfilehash: e99071246e6c63292bf3ca1fbca0a0fd25eab5a8
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 13b665c377022997ef4e60bc883993a86d8b9f75
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601595"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42081531"
 ---
 # <a name="run-the-process-module-and-load-data-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery에서 프로세스 모듈 실행 및 데이터 로드
 
@@ -49,7 +49,7 @@ Advanced eDiscovery는 거의 중복 된 그룹 또는 관련성 점수와 같�
     
 4. \> **프로세스** **** \> 준비 **설정**의 사용 가능한 컨테이너 목록에서 컨테이너를 선택 합니다.
     
-    ![프로세스를 클릭 하 여 검색 결과를 사례에 추가 합니다.](media/50bdc55c-d378-4881-b302-31ef785fa359.png)
+    ![프로세스를 클릭 하 여 검색 결과를 사례에 추가 합니다.](../media/50bdc55c-d378-4881-b302-31ef785fa359.png)
   
 5. 컨테이너를 시드 파일 또는 미리 태그가 지정 된 파일로 추가 하려면 **고급 설정 ...** 을 클릭 합니다. 
     
@@ -57,7 +57,7 @@ Advanced eDiscovery는 거의 중복 된 그룹 또는 관련성 점수와 같�
     
     미리 태그가 지정 된 파일을 사용 하 여 관련성 있는 교육을 자동화 합니다. 적어도 1500 개 파일에 태그를 추가 하 고 관련성이 높은 파일에 대 한 관련성을 관련에 추가한 컬렉션에서와 동일한 비율로 유지 해야 합니다. 이러한 파일에는 수동으로 태그를 지정 해야 하며 태깅 품질이 확실 해야 합니다.
     
-    ![배치 파일 처리에 대 한 고급 설정 페이지 스크린샷](media/3c25cb78-4484-41e5-bd34-3753c7ab6cf2.jpg)
+    ![배치 파일 처리에 대 한 고급 설정 페이지 스크린샷](../media/3c25cb78-4484-41e5-bd34-3753c7ab6cf2.jpg)
   
   - **Seed** 섹션에서 다음을 수행 합니다. 
     

@@ -16,12 +16,12 @@ localization_priority: Normal
 search.appverid: MOE150
 ms.assetid: e3cbc79c-5e97-43d3-8371-9fbc398cd92e
 description: 보안 & 준수 센터에서 콘텐츠 검색을 사용 하 여 대상 지정 된 컬렉션을 수행 합니다. 대상 컬렉션은 사례 또는 권한이 부여 된 항목에 대 한 응답 항목이 특정 사서함 또는 사이트 폴더에 있는 것을 확신 함을 의미 합니다. 이 문서의 스크립트를 사용 하 여 검색 하려는 특정 사서함 또는 사이트 폴더의 폴더 ID 또는 경로를 가져옵니다.
-ms.openlocfilehash: 66929911cdb1692ea1ee2a8920dad349d50ec156
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: b8afe9e65aa65c697d9c5cefbeaf89638c1782d4
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597305"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42080817"
 ---
 # <a name="use-content-search-in-office-365-for-targeted-collections"></a>대상 모음에 Office 365의 콘텐츠 검색 사용
 
@@ -201,7 +201,7 @@ Office 365 보안 &amp; 준수 센터의 콘텐츠 검색 기능은 Exchange 사
   
 다음은 사서함 폴더에 대 한 스크립트에서 반환 하는 출력의 예입니다.
   
-![스크립트에서 반환 된 사서함 폴더 및 폴더 Id 목록의 예](media/cd739207-eb84-4ebf-a03d-703f3d3a797d.png)
+![스크립트에서 반환 된 사서함 폴더 및 폴더 Id 목록의 예](../media/cd739207-eb84-4ebf-a03d-703f3d3a797d.png)
   
 2 단계의 예제에서는 사용자의 복구 가능한 항목 폴더에서 제거 하위 폴더를 검색 하는 데 사용 되는 쿼리를 보여 줍니다.
   
@@ -211,7 +211,7 @@ SharePoint 또는 비즈니스용 OneDrive 사이트에서 **documentlink** 속�
   
 다음은 사이트 폴더 스크립트에서 반환 하는 출력의 예입니다.
   
-![스크립트에서 반환 하는 사이트 폴더의 documentlink 이름 목록 예제](media/519e8347-7365-4067-af78-96c465dc3d15.png)
+![스크립트에서 반환 하는 사이트 폴더의 documentlink 이름 목록 예제](../media/519e8347-7365-4067-af78-96c465dc3d15.png)
   
 ## <a name="step-2-use-a-folder-id-or-documentlink-to-perform-a-targeted-collection"></a>2 단계: 폴더 ID 또는 documentlink를 사용 하 여 대상 모음을 수행 합니다.
 
@@ -221,7 +221,7 @@ SharePoint 또는 비즈니스용 OneDrive 사이트에서 **documentlink** 속�
     
 2. 1 단계에서 스크립트를 실행 하는 데 사용한 계정 및 자격 증명을 사용 하 여 Office 365에 로그인 합니다.
     
-3. 보안 & 준수 센터의 왼쪽 창에서 **콘텐츠 검색** **검색** \> 을 클릭 하 고 **새** ![추가 아이콘](media/O365-MDM-CreatePolicy-AddIcon.gif)을 클릭 합니다.
+3. 보안 & 준수 센터의 왼쪽 창에서 **콘텐츠 검색** **검색** \> 을 클릭 하 고 **새** ![추가 아이콘](../media/O365-MDM-CreatePolicy-AddIcon.gif)을 클릭 합니다.
     
 4. **새 검색** 페이지에서 콘텐츠 검색의 이름을 입력합니다. 이 이름은 조직 내에서 고유해야 합니다. 
     
@@ -239,7 +239,7 @@ SharePoint 또는 비즈니스용 OneDrive 사이트에서 **documentlink** 속�
     
     예를 들어 다음 스크린샷의 쿼리는 사용자의 복구할 수 있는 항목 폴더에 있는 제거 하위 폴더의 모든 항목을 검색 합니다 (제거 하위 폴더 `folderid` 의 속성 값은 1 단계의 스크린샷에 표시 됨).
     
-    ![검색 쿼리의 키워드 상자에 folderid 또는 documentlink를 붙여 넣습니다.](media/84057516-b663-48a4-a78f-8032a8f8da80.png)
+    ![검색 쿼리의 키워드 상자에 folderid 또는 documentlink를 붙여 넣습니다.](../media/84057516-b663-48a4-a78f-8032a8f8da80.png)
   
 8. **검색** 을 클릭 하 여 대상 지정 된 모음 검색을 시작 합니다. 
   

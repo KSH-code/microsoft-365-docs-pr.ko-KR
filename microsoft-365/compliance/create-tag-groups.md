@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 2cf0bafa45e96960b8d957d1b8905124223173ce
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 9dc6f92ffdc5a676bd6f8895fe884b5493724963
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595545"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42077095"
 ---
 # <a name="create-tag-groups"></a>태그 그룹 만들기
 
@@ -31,17 +31,17 @@ ms.locfileid: "41595545"
 
 1.  검토 집합에서 **검토 설정 관리**를 클릭 합니다.
 
-    ![검토 집합 관리를 클릭 합니다.](media/ED-managews.png)
+    ![검토 집합 관리를 클릭 합니다.](../media/ED-managews.png)
 
 2.  **태그** 타일에서 **태그 관리**를 클릭 합니다.
 
-    ![태그 타일에서 태그 관리를 클릭 합니다.](media/ED-managetags.png)
+    ![태그 타일에서 태그 관리를 클릭 합니다.](../media/ED-managetags.png)
 
 태그 관리 내에서 사용자의 사례 요구 사항을 충족 하도록 태그를 만들 수 있습니다. 먼저 태그 그룹을 만들 수 있습니다.
 
 1.  **섹션 추가**를 클릭 합니다.
 
-    ![태그 그룹 추가](media/ED-addtagsection.png)
+    ![태그 그룹 추가](../media/ED-addtagsection.png)
 
     파일을 저장할 때 미리 보기 화면이 업데이트 되므로 태그 관리 화면을 닫고 작업 집합으로 돌아갈 필요 없이 태그 패널을 미리 볼 수 있습니다.
 
@@ -49,7 +49,7 @@ ms.locfileid: "41595545"
 
 3. 해당 그룹 내에 태그를 만들려면 새 태그 그룹의 줄임표를 클릭 하 여 해당 새 섹션에 태그를 만듭니다.
     
-    ![태그 그룹에 태그 만들기](media/ED-createtag.png)
+    ![태그 그룹에 태그 만들기](../media/ED-createtag.png)
 
    - **옵션 태그** 는 사용자가 태그 그룹에서 하나의 태그를 선택 하도록 강제 합니다.
    
@@ -59,5 +59,5 @@ ms.locfileid: "41595545"
 
 태그를 중첩 하려면 태그 옆의 줄임표를 클릭 한 다음 추가할 새 태그를 선택 합니다.
 
-![태그 중첩](media/ED-tagnesting.png)
+![태그 중첩](../media/ED-tagnesting.png)
 

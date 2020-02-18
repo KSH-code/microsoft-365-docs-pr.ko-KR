@@ -1,5 +1,7 @@
 ---
 title: Microsoft 365 테스트 환경에 대한 페더레이션 ID
+f1.keywords:
+- NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -18,12 +20,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 65a6d687-a16a-4415-9fd5-011ba9c5fd80
 description: '요약: Microsoft 365 테스트 환경에 대한 페더레이션 인증을 구성합니다.'
-ms.openlocfilehash: 1158109a4d42a7434a1d66750b2182f940d511b9
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 4796f8f2a7dc6757ccbcb3d608d72ad789d34e40
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40801853"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42067636"
 ---
 # <a name="federated-identity-for-your-microsoft-365-test-environment"></a>Microsoft 365 테스트 환경에 대한 페더레이션 ID
 
@@ -33,7 +35,7 @@ Office 365은 페더레이션 ID를 지원합니다. 즉, 자격 증명 자체�
   
 이 문서에서는 Microsoft 365 또는 Office 365 테스트 환경에 대한 페더레이션 인증을 구성하여 다음과 같은 결과를 얻는 방법을 설명합니다.
 
-![Microsoft 365 테스트 환경에 대한 페더레이션 인증](media/federated-identity-for-your-office-365-dev-test-environment/federated-tlg-phase3.png)
+![Microsoft 365 테스트 환경에 대한 페더레이션 인증](../media/federated-identity-for-your-office-365-dev-test-environment/federated-tlg-phase3.png)
   
 이 구성 내용은 다음과 같습니다. 
   
@@ -60,7 +62,7 @@ Office 365은 페더레이션 ID를 지원합니다. 즉, 자격 증명 자체�
 
 [Microsoft 365에 대한 암호 해시 동기화](password-hash-sync-m365-ent-test-environment.md) 지침을 따릅니다. 결과 구성은 다음과 같습니다.
   
-![암호 해시 동기화 테스트 환경으로 시뮬레이트된 엔터프라이즈](media/federated-identity-for-your-office-365-dev-test-environment/federated-tlg-phase1.png)
+![암호 해시 동기화 테스트 환경으로 시뮬레이트된 엔터프라이즈](../media/federated-identity-for-your-office-365-dev-test-environment/federated-tlg-phase1.png)
   
 이 구성은 다음으로 이루어집니다. 
   
@@ -109,7 +111,7 @@ Restart-Computer
 
 구성 결과는 다음과 같습니다.
   
-![AD FS 서버가 Microsoft 365 테스트 환경에 추가됨](media/federated-identity-for-your-office-365-dev-test-environment/federated-tlg-phase2.png)
+![AD FS 서버가 Microsoft 365 테스트 환경에 추가됨](../media/federated-identity-for-your-office-365-dev-test-environment/federated-tlg-phase2.png)
   
 ## <a name="phase-3-create-the-web-proxy-server"></a>3단계: 웹 프록시 서버 만들기
 
@@ -176,7 +178,7 @@ Add-DnsServerResourceRecordA -Name "fs" -ZoneName corp.contoso.com -AllowUpdateA
   
 구성 결과는 다음과 같습니다.
   
-![웹 응용프로그램 프록시 서버가 Microsoft 365 테스트 환경에 대한 DirSync에 추가됨](media/federated-identity-for-your-office-365-dev-test-environment/federated-tlg-phase3.png)
+![웹 응용프로그램 프록시 서버가 Microsoft 365 테스트 환경에 대한 DirSync에 추가됨](../media/federated-identity-for-your-office-365-dev-test-environment/federated-tlg-phase3.png)
   
 ## <a name="phase-4-create-a-self-signed-certificate-and-configure-adfs1-and-proxy1"></a>4단계: 자체 서명된 인증서를 만들고 ADFS1 및 PROXY1을 구성
 

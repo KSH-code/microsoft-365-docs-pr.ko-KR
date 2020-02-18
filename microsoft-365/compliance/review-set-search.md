@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 4005b1e379b138f4eb22bb5c11e1f278185dc65e
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 97c1acdb515e278c40ca25d47e2d9fd24c23d51f
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597615"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42070069"
 ---
 # <a name="query-the-data-in-a-review-set"></a>검토 집합에서 데이터 쿼리
 
@@ -31,7 +31,7 @@ ms.locfileid: "41597615"
 
 검토 집합의 문서에 대 한 쿼리를 만들고 실행 하려면 검토 집합에서 **새 쿼리** 를 클릭 합니다. 쿼리 이름을 지정 하 고 조건을 정의한 후 **저장** 을 클릭 하 여 쿼리를 저장 하 고 실행 합니다. 이전에 저장 한 쿼리를 실행 하려면 저장 된 쿼리를 클릭 합니다.
 
-![집합 쿼리 검토](media/AeDReviewSetQueries.png)
+![집합 쿼리 검토](../media/AeDReviewSetQueries.png)
 
 ## <a name="building-a-review-set-query"></a>검토 집합 쿼리 작성
 
@@ -59,7 +59,7 @@ ms.locfileid: "41597615"
 
 검토할 수 있는 쿼리 외에도 검토 집합 필터를 사용 하 여 검토 집합 쿼리에 추가 조건을 빠르게 적용할 수 있습니다. 이를 통해 검토 집합 쿼리로 표시 되는 결과를 보다 구체화 하는 데 도움이 됩니다.
 
-![집합 필터 검토](media/AeDReviewSetFilters.png)
+![집합 필터 검토](../media/AeDReviewSetFilters.png)
 
 필터는 다음과 같은 두 가지 중요 한 방식으로 쿼리와 다릅니다.
 

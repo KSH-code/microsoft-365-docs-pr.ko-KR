@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 ms.assetid: c4639c2e-7223-4302-8e0d-b6e10f1c3be3
 description: '보안 & 준수 센터의 콘텐츠 검색 도구를 사용 하 여 Exchange Online 사서함 및 SharePoint 또는 비즈니스용 OneDrive 사이트에서 검색할 수 있는 전자 메일 및 파일 속성에 대해 알아봅니다.  '
-ms.openlocfilehash: e8a0da1815b7ddda889217d027a3aabae4420c56
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: aad4ff401ee66db2f88bf5476cfaab8fce4ad821
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41585917"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42072419"
 ---
 # <a name="keyword-queries-and-search-conditions-for-content-search"></a>콘텐츠 검색에 대한 키워드 쿼리 및 검색 조건
 
@@ -271,9 +271,9 @@ SharePoint 및 비즈니스용 OneDrive 사이트에서 문서를 검색할 때 
     
 - 앞에서 설명한 것 처럼 일부 조건 속성을 사용 하 여 여러 값을 입력할 수 있습니다. 각 값은 **OR** 연산자에 의해 논리적으로 연결 됩니다. 이렇게 하면 동일한 조건의 인스턴스가 여러 개 있는 것과 같은 논리가 생성 되며 각 인스턴스에는 단일 값이 있습니다. 다음 그림에서는 값이 여러 개 있는 단일 조건과 동일한 속성에 대 한 여러 조건의 예가 단일 값을 갖는 예제를 보여 줍니다. 두 예 모두 같은 쿼리를 실행 합니다.`(filetype="docx") OR (filetype="pptx") OR (filetype="xlsx")`
     
-    ![메시지는 규칙의 모든 조건과 일치해야 합니다. 하나의 조건 또는 다른 조건과 일치해야 하는 경우 각 조건에 대해 별도의 규칙을 사용합니다. 예를 들어 패턴과 일치하는 콘텐츠가 있는 메시지 및 첨부 파일이 있는 메시지에 동일한 고지 사항을 추가하려면 각 조건에 대해 하나의 규칙을 만듭니다. 규칙은 쉽게 복사할 수 있습니다.](media/9880aa29-d117-4531-be20-6d53f1d21341.gif)
+    ![메시지는 규칙의 모든 조건과 일치해야 합니다. 하나의 조건 또는 다른 조건과 일치해야 하는 경우 각 조건에 대해 별도의 규칙을 사용합니다. 예를 들어 패턴과 일치하는 콘텐츠가 있는 메시지 및 첨부 파일이 있는 메시지에 동일한 고지 사항을 추가하려면 각 조건에 대해 하나의 규칙을 만듭니다. 규칙은 쉽게 복사할 수 있습니다.](../media/9880aa29-d117-4531-be20-6d53f1d21341.gif)
   
-    ![동일한 속성에 대한 여러 검색 조건](media/1e63d37d-6d8d-4c9b-a509-a7e1c3a05193.gif)
+    ![동일한 속성에 대한 여러 검색 조건](../media/1e63d37d-6d8d-4c9b-a509-a7e1c3a05193.gif)
   
 > [!TIP]
 > 조건이 여러 값을 허용하는 경우 단일 조건을 사용하고 여러 값(쉼표나 세미콜론으로 구분)을 지정하는 것이 좋습니다. 이렇게 하면 적용되는 쿼리 논리가 사용자의 의도와 맞는지 확인하는 데 도움이 됩니다. 
@@ -288,7 +288,7 @@ SharePoint 및 비즈니스용 OneDrive 사이트에서 문서를 검색할 때 
   
  **GUI**
   
-![검색 조건 첫 번째 예제](media/099515ba-d4ee-474e-af25-3aa48816b87b.gif)
+![검색 조건 첫 번째 예제](../media/099515ba-d4ee-474e-af25-3aa48816b87b.gif)
   
  **검색 쿼리 구문**
   
@@ -304,7 +304,7 @@ SharePoint 및 비즈니스용 OneDrive 사이트에서 문서를 검색할 때 
   
  **GUI**
   
-![검색 조건 두 번째 예제](media/fe07d495-df81-42da-8106-3cdb409c6e7f.gif)
+![검색 조건 두 번째 예제](../media/fe07d495-df81-42da-8106-3cdb409c6e7f.gif)
   
  **검색 쿼리 구문**
   
@@ -320,7 +320,7 @@ SharePoint 및 비즈니스용 OneDrive 사이트에서 문서를 검색할 때 
   
  **GUI**
   
-![검색 조건 두 번째 예제](media/973d45fc-0923-43d6-9d0a-25e4a625f057.gif)
+![검색 조건 두 번째 예제](../media/973d45fc-0923-43d6-9d0a-25e4a625f057.gif)
   
  **검색 쿼리 구문**
   
@@ -379,7 +379,7 @@ SharePoint 및 비즈니스용 OneDrive 사이트에서 문서를 검색할 때 
   
 이 속성을 사용 하는 `SharedWithUsersOWSUser` 경우 검색 결과에 반환 될 특정 사용자와 문서를 명시적으로 공유 해야 합니다. 예를 들어 사용자가 OneDrive 계정에서 문서를 공유 하는 경우에는 다른 사용자 (조직 내부 또는 외부)와 공유 하는 옵션을 사용 하 여 조직 내 사용자와 공유 하거나 특정 사람과 공유할 수 있습니다. 다음은 세 가지 공유 옵션을 보여 주는 OneDrive의 **공유** 창에 대 한 스크린샷입니다. 
   
-![특정 사용자와 공유 하는 파일만 SharedWithUsersOWSUser 속성을 사용 하는 검색 쿼리에서 반환 됩니다.](media/469a4b61-68bd-4ab0-b612-ab6302973886.png)
+![특정 사용자와 공유 하는 파일만 SharedWithUsersOWSUser 속성을 사용 하는 검색 쿼리에서 반환 됩니다.](../media/469a4b61-68bd-4ab0-b612-ab6302973886.png)
   
 세 번째 옵션 ( **특정 사용자**와 공유)을 사용 하 여 공유 하는 문서만 해당 `SharedWithUsersOWSUser` 속성을 사용 하는 검색 쿼리에 의해 반환 됩니다. 
 

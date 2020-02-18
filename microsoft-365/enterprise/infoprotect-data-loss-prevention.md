@@ -1,5 +1,7 @@
 ---
 title: '5단계: Office 365 데이터 손실 방지 구성'
+f1.keywords:
+- NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -13,18 +15,18 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Microsoft 365의 Office 365 데이터 손실 방지를 이해 및 배포
-ms.openlocfilehash: 43ebfb39202e407fe6dc7bb4c8e0fe8f906f7a6d
-ms.sourcegitcommit: 8bcd76e5c8749a5670fbc3356957a089454c03d1
+ms.openlocfilehash: 896670e9ae83324a1220d64f49a8ea48aee85169
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/02/2019
-ms.locfileid: "37370165"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42067225"
 ---
 # <a name="step-5-configure-office-365-data-loss-prevention"></a>5단계: Office 365 데이터 손실 방지 구성
 
 *이 단계는 선택 사항이며, Microsoft 365 Enterprise E3 및 E5 버전에 적용됩니다.*
 
-![6단계: 정보 보호](./media/deploy-foundation-infrastructure/infoprotection_icon-small.png)
+![6단계: 정보 보호](../media/deploy-foundation-infrastructure/infoprotection_icon-small.png)
 
 Office 365 보안 및 준수 센터의 DLP(데이터 손실 방지) 정책을 사용하면 Microsoft 365 전체에서 중요한 정보를 식별하고, 모니터링하고, 자동으로 보호할 수 있습니다. DLP 정책을 사용하여 다음을 수행할 수 있습니다.
 
@@ -58,6 +60,6 @@ DLP 정책을 지정합니다.
 
 |||
 |:-------|:-----|
-|![6단계](./media/stepnumbers/Step6.png)|[전자 메일 암호화 구성](infoprotect-email-encryption.md)|
+|![6단계](../media/stepnumbers/Step6.png)|[전자 메일 암호화 구성](infoprotect-email-encryption.md)|
 
 

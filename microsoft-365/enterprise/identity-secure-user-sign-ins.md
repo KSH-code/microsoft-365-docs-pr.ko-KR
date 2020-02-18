@@ -1,5 +1,7 @@
 ---
 title: '3단계: 사용자 로그인 보안 및 관리'
+f1.keywords:
+- NOCSH
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
@@ -13,16 +15,16 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 사용자가 Windows 장치 및 Microsoft 365에 더욱 안전하게 로그인할 수 있습니다.
-ms.openlocfilehash: c1379cfdd65204a27c8147ade8c8c8704e441f1f
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: c541f5b74fe3ea6e94b002212f21ec8645e8e87e
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40801733"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42067295"
 ---
 # <a name="step-3-secure-and-manage-your-user-sign-ins"></a>3단계: 사용자 로그인 보안 및 관리
 
-![2단계-ID](./media/deploy-foundation-infrastructure/identity_icon-small.png)
+![2단계-ID](../media/deploy-foundation-infrastructure/identity_icon-small.png)
 
 
 <a name="identity-windows-hello"></a>
@@ -54,7 +56,7 @@ MFA를 사용하도록 설정하고 Azure AD(Azure Active Directory) 그룹을 �
 
 |||
 |:-------|:-----|
-|![Microsoft 클라우드의 테스트 랩 가이드](media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)| [테스트 랩 가이드: Azure 다단계 인증](multi-factor-authentication-microsoft-365-test-environment.md) |
+|![Microsoft 클라우드의 테스트 랩 가이드](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)| [테스트 랩 가이드: Azure 다단계 인증](multi-factor-authentication-microsoft-365-test-environment.md) |
 |||
 
 중간 검사점으로 이 단계에 대한 [종료 조건](identity-exit-criteria.md#crit-identity-mfa)을 확인할 수 있습니다.
@@ -86,11 +88,11 @@ Azure AD ID 보호를 사용하면 다음을 수행할 수 있습니다.
 
 |||
 |:-------|:-----|
-|![Microsoft 클라우드의 테스트 랩 가이드](media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)| [테스트 랩 가이드: Azure AD ID 보호](azure-ad-identity-protection-microsoft-365-test-environment.md) |
+|![Microsoft 클라우드의 테스트 랩 가이드](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)| [테스트 랩 가이드: Azure AD ID 보호](azure-ad-identity-protection-microsoft-365-test-environment.md) |
 |||
 
 중간 검사점으로 이 섹션에 대한 [종료 조건](identity-exit-criteria.md#crit-identity-ident-prot)을 확인할 수 있습니다.
 
 |||
 |:-------|:-----|
-|![4단계](./media/stepnumbers/Step4.png)| [사용자 계정 추가](identity-add-user-accounts.md) |
+|![4단계](../media/stepnumbers/Step4.png)| [사용자 계정 추가](identity-add-user-accounts.md) |

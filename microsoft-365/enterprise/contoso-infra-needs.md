@@ -1,6 +1,8 @@
 ---
 title: Contoso의 IT 인프라 및 비즈니스 요구 사항
 author: JoeDavies-MSFT
+f1.keywords:
+- NOCSH
 ms.author: josephd
 manager: laurawi
 ms.date: 10/01/2019
@@ -13,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Contoso 온-프레미스 IT 인프라의 기본 구조와 Microsoft 365 Enterprise로 해당 비즈니스 요구를 충족하는 방법을 이해합니다.
-ms.openlocfilehash: d98f401ae4a39e3e04b5840e8f76c1e3e1b1a24d
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 3cee0f3e6cd20b0d93038595cdab9270c8eb30aa
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40802073"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42068392"
 ---
 # <a name="contosos-it-infrastructure-and-business-needs"></a>Contoso의 IT 인프라 및 비즈니스 요구 사항
 
@@ -30,7 +32,7 @@ Contoso는 주로 중앙 집중식 온-프레미스 IT 인프라를 사용하며
 
 그림 1에서는 데이터 센터, DMZ 및 인터넷이 구비된 본사 사무실을 볼 수 있습니다.
 
-![Contoso의 기존 IT 인프라](./media/contoso-infra-needs/contoso-infra-needs-fig1.png)
+![Contoso의 기존 IT 인프라](../media/contoso-infra-needs/contoso-infra-needs-fig1.png)
 
 **그림 1: Contoso의 기존 IT 인프라**
  

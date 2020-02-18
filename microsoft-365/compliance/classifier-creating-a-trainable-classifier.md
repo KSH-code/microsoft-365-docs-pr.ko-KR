@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 사용 준비 상자 분류자 중 하나가 사용자의 요구 사항을 충족 하지 않는 경우 trainable 분류자를 사용 합니다. Microsoft 365 분류자는 다양 한 유형의 콘텐츠를 확인할 수 있도록 교육을 제공 하는 도구입니다. 이 항목에서는 사용자 지정 분류자를 만드는 방법을 보여 줍니다.
-ms.openlocfilehash: f11da4c36c9d6ed1667d5bed4a7d3e59c2cb21a9
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: bbf2fac4e912e6619f3fe1c9a328aa61782cb640
+ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595915"
+ms.lasthandoff: 02/15/2020
+ms.locfileid: "42078884"
 ---
 # <a name="creating-a-trainable-classifier-preview"></a>Trainable 분류자 만들기 (미리 보기)
 
@@ -29,7 +29,7 @@ ms.locfileid: "41595915"
 
 이 타임 라인은 예제 배포를 반영 합니다.
 
-![trainable-분류자-timeline](media/trainable-classifier-deployment-timeline_border.png)
+![trainable-분류자-timeline](../media/trainable-classifier-deployment-timeline_border.png)
 
 > [!TIP]
 > Trainable 분류자에 대해 처음으로 옵트인이 필요 합니다. Microsoft 365에서 조직의 콘텐츠를 기준으로 평가 하는 데 12 일이 걸립니다. 전역 관리자에 게 연락 하 여 옵트인 프로세스를 시작 합니다.
@@ -80,7 +80,7 @@ Trainable 분류자가 예측 모델을 작성 하기에 충분 한 긍정적인
 10. 이제 분류자를 선택 하 여 세부 정보 페이지를 볼 수 있습니다.
 
 
-![trainable 분류자에서 테스트할 준비가 되었습니다.](media/classifier-trainable-ready-to-test-detail.png)
+![trainable 분류자에서 테스트할 준비가 되었습니다.](../media/classifier-trainable-ready-to-test-detail.png)
 
 11. 테스트 콘텐츠 항목을 200 개 이상 수집 합니다. 최상의 결과를 위해 1만을 권장 합니다. 이러한 항목은 강력한 포지티브, 강력한 네거티브 및 해당 특성을 약간 명확 하 게 나타내는 항목과 함께 사용할 수 있습니다. 지원 되는 파일 형식에 대해서는 [기본 크롤링 파일 이름 확장명 및 구문 분석 된 파일 형식 SharePoint Server](https://docs.microsoft.com/sharepoint/technical-reference/default-crawled-file-name-extensions-and-parsed-file-types) 를 참조 하세요.
 
@@ -100,13 +100,13 @@ Trainable 분류자가 예측 모델을 작성 하기에 충분 한 긍정적인
 
 16. Trainable 분류자가 테스트 파일의 처리를 마치면 세부 정보 페이지의 상태가로 `Ready to review`변경 됩니다. 테스트 샘플 크기 `Add items to test` 를 증가 시켜야 하는 경우에는 trainable 분류자가 추가 항목을 처리 하도록 허용 합니다.
 
-![스크린샷 검토 준비 완료](media/classifier-trainable-ready-to-review-detail.png)
+![스크린샷 검토 준비 완료](../media/classifier-trainable-ready-to-review-detail.png)
 
 17. 항목 `Tested items to review` 을 검토 하려면 탭을 선택 합니다.
 
 18. Microsoft 365는 한 번에 30 개의 항목을 제공 합니다. 이러한 항목을 검토 하 `We predict this item is "Relevant". Do you agree?` 고 상자에서 `Yes` 또는 `No` 또는 `Not sure, skip to next item`를 선택 합니다. 모델 정확도는 30 개 항목 마다 자동으로 업데이트 됩니다.
 
-![검토 항목 상자](media/classifier-trainable-review-detail.png)
+![검토 항목 상자](../media/classifier-trainable-review-detail.png)
 
 19. *최소* 200 항목을 검토 합니다.
 
@@ -114,7 +114,7 @@ Trainable 분류자가 예측 모델을 작성 하기에 충분 한 긍정적인
 
 20. 정확도가 최소 70%이 고 `Publish the classifier` 상태가 인지 `Ready to use`때까지 계속 검토 합니다.
 
-![정확성과 게시할 준비가 완료 되었습니다.](media/classifier-trainable-review-ready-to-publish.png)
+![정확성과 게시할 준비가 완료 되었습니다.](../media/classifier-trainable-review-ready-to-publish.png)
 
 21. 분류자를 게시 합니다.
 
