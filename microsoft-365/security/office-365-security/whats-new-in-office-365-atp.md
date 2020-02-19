@@ -15,12 +15,13 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: dc781d9f800b3db938b253775b31df118c21fd03
-ms.sourcegitcommit: 0f09f54f43924d1fcd2fdcfcbf04c53519b92a7b
+ms.date: 01/28/2020
+ms.openlocfilehash: acb6dbf69033b97f2899738a5ca17182ac9942c6
+ms.sourcegitcommit: ee18bdd08e85b1262b91c180ccf61df59c19dab2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "41784705"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42106851"
 ---
 # <a name="whats-new-in-office-365-atp"></a>Office 365 ATP의 새로운 기능
 
@@ -33,15 +34,27 @@ ms.locfileid: "41784705"
 > [!TIP]
 > 아직 Office 365 ATP가 없습니까? [영업 담당자에 게 문의 하 여 평가판을 시작](https://go.microsoft.com/fwlink/p/?LinkId=518644)합니다.
 
+## <a name="januaryfebruary-2020"></a>1 월/2 월 2020 일
+
+- 보안 운영 팀이 [전자 메일을 조사](investigate-malicious-email-that-was-delivered.md)하는 동안 여러 필드를 검색 및 필터링 할 수 있도록 [위협 탐색기](threat-explorer.md) 가 향상 되었습니다.
+    - 배달 위치 및 특수 작업
+    - 방향성 (인바운드, 아웃 바운드 또는 조직 내)
+    - 재정의 (사용자 차단 또는 허용)
+    - URL 위협 (맬웨어, 피싱, 스팸 또는 없음)
+    - 고급 필터 (포함 하지 않는 고급 필터링 옵션, 포함 하지 않음 등)
+    - 자세한 시간 필터 (일, 시간, 30 분) 
+
+- **문제** 위젯은 이제 **동작 센터** 위젯입니다. 보안 위젯을 보려면 Office 365 보안 & 준수 센터에서 **위협 관리** > **검토**로 이동 합니다.
+
 ## <a name="december-2019"></a>2019년 12월
 
 - [URL 내보내기 오프 라인 분석을 위한 데이터 클릭](threat-explorer.md#new-features-in-threat-explorer-and-real-time-detections) (OFFICE 365 ATP 계획 1 또는 계획 2)
 
-- [Office 365 ATP (**preview**)의 캠페인 보기](campaigns.md)
+- [Office 365 ATP에서 캠페인 보기 사용 (**미리 보기**)](campaigns.md)
 
 ## <a name="november-2019"></a>2019년 11월
 
-- [새로운 손상 된 사용자 검색 및 응답 기능 (**미리 보기**)](https://techcommunity.microsoft.com/t5/Security-Privacy-and-Compliance/Speed-up-time-to-detect-and-respond-to-user-compromise-and-limit/ba-p/977053) (Office 365 ATP 계획 2)을 확인 합니다.
+- [새로운 손상 된 사용자 검색 및 응답 기능](address-compromised-users-quickly.md) (**미리 보기**) (Office 365 ATP 계획 2)을 확인 합니다.
 
 ## <a name="september-2019"></a>2019년 9월
 
