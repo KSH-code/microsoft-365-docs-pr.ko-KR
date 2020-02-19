@@ -17,12 +17,12 @@ ms.assetid: e3c6df61-8513-499d-ad8e-8a91770bff63
 ms.collection:
 - M365-security-compliance
 description: Microsoft 365 준수 센터에 지속적으로 새로운 기능을 추가 하 고, 문제를 해결 하 고, 사용자 의견에 따라 변경 사항을 적용 하 고 있습니다. 이번 달에 제공 된 내용을 확인 합니다.
-ms.openlocfilehash: c3537657eb0bd3bf5b31f1b90c513c3e49eef000
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 2140b2b529ccec9a4d081a2e7b6ea1fdb7fb900f
+ms.sourcegitcommit: ee18bdd08e85b1262b91c180ccf61df59c19dab2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42068713"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42106811"
 ---
 # <a name="whats-new-in-the-microsoft-365-compliance-center"></a>Microsoft 365 준수 센터의 새로운 기능
 
@@ -134,7 +134,7 @@ Preview 단계에서 모든 가용성으로 Graduating, 통신 준수는 새로�
 |알림 정책|알림 > 경고 정책 <br/> https://protection.office.com/alertpolicies |현재 경고 정책은 Office 365 보안 & 준수 센터 에서만 관리 됩니다. |[보안 및 준수 센터의 경고 정책](alert-policies.md) |
 |경고|알림 > 경고 보기 <br/> https://protection.office.com/viewalerts |경고 <br/> https://compliance.microsoft.com/compliancealerts |[알림 보기](alert-policies.md#viewing-alerts)|
 |보관|정보 거 버 넌 스 > 보관 함 <br/> https://protection.office.com/archiving |정보 거 버 넌 스 > 보관 함 탭 <br/> https://compliance.microsoft.com/informationgovernance?viewid=archive |[보관 사서함 사용](enable-archive-mailboxes.md)|
-|감사 로그 검색|검색 > 감사 로그 검색 <br/> https://protection.office.com/unifiedauditlog |감사 <br/> https://compliance.microsoft.com/auditlogsearch| [보안 & 준수 센터에서 감사 로그 검색](search-the-audit-log-in-security-and-compliance.md)|
+|감사 로그 검색|검색 > 감사 로그 검색 <br/> https://protection.office.com/unifiedauditlog |감사 <br/> https://compliance.microsoft.com/auditlogsearch | [보안 & 준수 센터에서 감사 로그 검색](search-the-audit-log-in-security-and-compliance.md)|
 |콘텐츠 검색|검색 > 콘텐츠 검색 <br/> https://protection.office.com/contentsearchbeta?ContentOnly=1 | 콘텐츠 검색 <br/> https://compliance.microsoft.com/contentsearch |[Office 365에서 콘텐츠 검색](search-for-content.md) |
 |데이터 커넥터|타사 데이터 보관 > 정보 관리 기능 <br/> https://protection.office.com/nativeconnector | 데이터 커넥터 <br/> https://compliance.microsoft.com/connectorlanding |[타사 데이터 보관](archiving-third-party-data.md)|
 |데이터 손실 방지|데이터 손실 방지 <br/> https://protection.office.com/datalossprevention |데이터 손실 방지 <br/> https://compliance.microsoft.com/datalossprevention |[데이터 손실 방지의 개요](data-loss-prevention-policies.md)|
@@ -146,8 +146,8 @@ Preview 단계에서 모든 가용성으로 Graduating, 통신 준수는 새로�
 |레이블 활동 탐색기|정보 거 버 넌 스 > 레이블 활동 탐색기 <br/> https://protection.office.com/labelexplorer |데이터 분류 > 활동 탐색기 탭 <br/> https://compliance.microsoft.com/dataclassification?viewid=activitiesexplorer |[레이블이 지정된 콘텐츠의 활동 보기(미리 보기)](data-classification-activity-explorer.md)|
 |보존 레이블 및 레이블 정책 |분류 > 보존 레이블 > 레이블 및 레이블 정책 탭 <br/> https://protection.office.com/retentionlabels |정보 거 버 넌 스 > 레이블 및 레이블 정책 탭 <br/> https://compliance.microsoft.com/informationgovernance?viewid=labels <br/> https://compliance.microsoft.com/informationgovernance?viewid=labelpolicies | [보존 레이블 개요](labels.md)|
 |보존 정책|정보 거 버 넌 스 > 보존 <br/> https://protection.office.com/retention |정보 거 버 넌 스 > 보존 탭 <br/> https://compliance.microsoft.com/informationgovernance?viewid=retention |[보존 정책 개요](retention-policies.md)|
-|중요 한 정보 유형|분류 > 중요 한 정보 유형 <br/> https://protection.office.com/sensitivetypes |데이터 분류 > 중요 한 정보 유형 탭 <br/> https://compliance.microsoft.com/dataclassification?viewid=sensitiveinfotypes |[중요한 정보 유형이 찾는 항목](what-the-sensitive-information-types-look-for.md)|
-|민감도 레이블 및 레이블 정책|분류 > 민감도 레이블 > 레이블 및 레이블 정책 탭 <br/> https://protection.office.com/sensitivity |정보 보호 > 레이블 및 레이블 정책 탭 <br/> https://compliance.microsoft.com/informationprotection?viewid=sensitivitylabels <br/> https://compliance.microsoft.com/informationprotection?viewid=sensitivitylabelpolicies |[민감도 레이블에 대 한 자세한 정보](sensitivity-labels.md) |
+|중요 한 정보 유형|분류 > 중요 한 정보 유형 <br/> https://protection.office.com/sensitivetypes |데이터 분류 > 중요 한 정보 유형 탭 <br/> https://compliance.microsoft.com/dataclassification?viewid=sensitiveinfotypes |[What the sensitive information types look for](what-the-sensitive-information-types-look-for.md)(중요한 정보 유형이 찾는 항목)|
+|민감도 레이블 및 레이블 정책|분류 > 민감도 레이블 > 레이블 및 레이블 정책 탭 <br/> https://protection.office.com/sensitivity |정보 보호 > 레이블 및 레이블 정책 탭 <br/> https://compliance.microsoft.com/informationprotection?viewid=sensitivitylabels <br/> https://compliance.microsoft.com/informationprotection?viewid=sensitivitylabelpolicies |[민감도 레이블 알아보기](sensitivity-labels.md) |
 |서비스 보증|서비스 보증 <br/> https://protection.office.com/serviceassurance/dashboard |현재 서비스 보증 리소스는 Office 365 보안 & 준수 센터 에서만 액세스할 수 있습니다. |[보안 & 준수 센터의 서비스 보증](service-assurance.md)|
 |감독|감독 <br/> https://protection.office.com/supervisoryreviewv2 |커뮤니케이션 규정 준수 <br/> https://compliance.microsoft.com/supervisoryreview |[Microsoft 365의 통신 준수 (미리 보기)](communication-compliance.md) |
 

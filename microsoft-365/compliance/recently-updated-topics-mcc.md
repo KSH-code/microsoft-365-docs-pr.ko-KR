@@ -18,12 +18,12 @@ ms.assetid: e3c6df61-8513-499d-ad8e-8a91770bff63
 ms.collection:
 - m365-security-compliance
 description: Microsoft 365 준수 센터의 기능과 마찬가지로, 도움말 콘텐츠는 항상 발전 하 고 있습니다. Microsoft에서는 피드백에 따라 계속 새 문서를 만들고, 기존 기사를 업데이트 하 고, 변경 작업을 수행 하 고 있습니다. 이번 달의 새로운 기능과 업데이트 된 기능에 대해 알아보세요.
-ms.openlocfilehash: 36edcbc7106710ff62bc1a176fb76a17fd7076a6
-ms.sourcegitcommit: 7dc36305721a92e19a6e397f906e19dcafa0073b
+ms.openlocfilehash: ad9b6865b0afe5b49c2b02d3ee9adba4d62ef9eb
+ms.sourcegitcommit: ee18bdd08e85b1262b91c180ccf61df59c19dab2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/17/2020
-ms.locfileid: "42101248"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42106821"
 ---
 # <a name="recent-updates-to-microsoft-365-compliance-content"></a>Microsoft 365 준수 콘텐츠에 대 한 최신 업데이트
 
@@ -108,7 +108,7 @@ Microsoft Managed Desktop에 대 한 지원을 명확히 하기 위한 문서가
 
 ### <a name="mrm-in-exchange-online"></a>Exchange Online의 MRM
 
-[사서함을 보존 상태로 설정](https://docs.microsoft.com/en-us/Exchange/security-and-compliance/messaging-records-management/mailbox-retention-hold#difference-between-elcprocessingdisabled-and-retentionholdenabled) (업데이트 됨)<br>ElcProcessingDisabled 및 RetentionHoldEnabled 사서함 속성과 해당 속성이 관리 되는 폴더 도우미 처리에 미치는 영향을 비교 하 여 새로운 섹션이 추가 되었습니다.
+[사서함을 보존 상태로 설정](https://docs.microsoft.com/Exchange/security-and-compliance/messaging-records-management/mailbox-retention-hold#difference-between-elcprocessingdisabled-and-retentionholdenabled) (업데이트 됨)<br>ElcProcessingDisabled 및 RetentionHoldEnabled 사서함 속성과 해당 속성이 관리 되는 폴더 도우미 처리에 미치는 영향을 비교 하 여 새로운 섹션이 추가 되었습니다.
 
 ### <a name="records-management"></a>레코드 관리
 
