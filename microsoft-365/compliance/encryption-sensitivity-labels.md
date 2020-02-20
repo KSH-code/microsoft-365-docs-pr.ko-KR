@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 민감한 레이블을 만들면 레이블이 적용되는 콘텐츠에 대한 액세스를 제한할 수 있습니다. 민감도 레이블에서 암호화를 사용하여 내용을 보호할 수 있습니다.
-ms.openlocfilehash: 17cea4f80ac1dee75c10c2beef63be06141c89d5
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 102d1da2ec5f49e26a634611f4f640a083d167ff
+ms.sourcegitcommit: 7dc36305721a92e19a6e397f906e19dcafa0073b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42074656"
+ms.lasthandoff: 02/17/2020
+ms.locfileid: "42101268"
 ---
 # <a name="restrict-access-to-content-by-using-sensitivity-labels-to-apply-encryption"></a>민감도 레이블을 사용하여 암호화를 적용하여 콘텐츠 액세스 제한 
 
@@ -44,15 +44,15 @@ ms.locfileid: "42074656"
 
 암호화 설정은 Microsoft 365 규정 준수 센터, Microsoft 365 보안 센터 또는 Office 365 보안 및 규정 준수 센터에서 [민감도 레이블 만들기](create-sensitivity-labels.md)할 때 사용할 수 있습니다.
 
-## <a name="how-encryption-works"></a>암호화가 작동하는 방식
+## <a name="understand-how-the-encryption-works"></a>암호화 작동 방식 이해
 
 암호화는 Azure Information Protection의 Azure RMS(Azure 권한 관리 서비스)를 사용합니다. 이 보호 솔루션은 암호화, ID 및 권한 부여 정책을 사용합니다. 자세한 내용은 Azure Information Protection 문서에서 [Azure 권한 관리란?](https://docs.microsoft.com/azure/information-protection/what-is-azure-rms)을 참조하세요. 
 
 이 암호화 솔루션을 사용하는 경우 **수퍼 사용자** 기능은 권한있는 사용자 및 서비스에서 조직에 대해 암호화된 데이터를 언제든지 읽고 검사 할 수 있도록 해줍니다. 필요한 경우 암호화를 제거하거나 변경할 수 있습니다. 자세한 내용은 [Azure Information Protection 및 검색 서비스 또는 데이터 복구에 대한 수퍼 사용자 구성](https://docs.microsoft.com/azure/information-protection/configure-super-users)을 참조하세요.
 
-## <a name="configuring-a-label-for-encryption"></a>암호에 대한 레이블 구성
+## <a name="how-to-configure-a-label-for-encryption"></a>암호화 레이블을 구성하는 방법
 
-[민감도 레이블을 만들거나 편집할 때](create-sensitivity-labels.md#create-and-configure-sensitivity-labels) 마법사의 **암호화** 페이지에서 다음 옵션 중 하나를 선택할 수 있습니다.
+[민감도 레이블을 만들거나 편집](create-sensitivity-labels.md#create-and-configure-sensitivity-labels)하고 마법사의 **암호화** 페이지에서 다음 옵션 중 하나를 선택할 수 있습니다.
 
 - **없음**: 새 레이블의 기본 설정입니다. 새 암호화가 적용되지 않습니다.
 - **적용**: 암호화를 켠 다음 암호화 설정을 지정합니다.
@@ -98,7 +98,7 @@ ms.locfileid: "42074656"
 
 이미 암호화된 후 첨부 파일로 추가된 문서는 항상 원래 암호화를 유지합니다. 
 
-## <a name="how-to-configure-encryption-settings-for-a-sensitivity-label"></a>민감도 레이블에 대한 암호화 설정을 구성하는 방법
+## <a name="configure-encryption-settings"></a>암호화 설정 구성
 
 마법사의 **암호화** 페이지에서 **적용**을 선택하여 민감도 레이블을 작성하거나 편집할 때 다음을 수행할지 여부를 선택하세요.
 

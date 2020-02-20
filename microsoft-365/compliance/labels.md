@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 레이블을 사용하여 조직 전체의 데이터를 관리하여 분류하고 해당 분류에 따라 보존 규칙을 시행하십시오. 보존 레이블을 사용하여 Microsoft 365용 레코드 관리 솔루션을 구현할 수도 있습니다.
-ms.openlocfilehash: 27f680bf2acf844618f133b074faf6f5ec3f7e90
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 162b9fed66fa3135829f422ccd04a396ddf7e632
+ms.sourcegitcommit: b78a7a578dce1868b40675b7f7e6b0e16131704c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42072601"
+ms.lasthandoff: 02/17/2020
+ms.locfileid: "42093457"
 ---
 # <a name="overview-of-retention-labels"></a>보존 레이블 개요
 
@@ -44,9 +44,11 @@ ms.locfileid: "42072601"
     
 - 콘텐츠에 다음이 포함된 경우처럼 특정 조건과 일치하는 경우 **콘텐츠에 보존 레이블을 자동으로 적용**합니다. 
     
-  - 특정 중요한 정보 유형
+    - 특정 중요한 정보 유형
     
-  - 만든 쿼리와 일치하는 특정 키워드
+    - 만든 쿼리와 일치하는 특정 키워드
+    
+    - 학습 가능한 분류자에 대한 패턴 일치
     
   콘텐츠에 자동으로 보존 레이블을 적용하는 기능도 다음과 같은 이유로 중요합니다.
     
@@ -57,13 +59,13 @@ ms.locfileid: "42072601"
    - 사용자가 더 이상 데이터 거버넌스 정책을 알아야 할 필요가 없으며, 그 대신 업무에 집중할 수 있습니다.
 
   > [!NOTE]
-  > 자동으로 레이블을 적용하는 기능을 사용하려면 사이트에서 자동으로 레이블이 지정되었거나 사서함의 자동 레이블 지정 기능이 선택되어 있는 콘텐츠를 편집할 수 있는 권한이 있는 각 사용자에 대해 Office 365 Enterprise E5 라이선스가 있어야 합니다. 콘텐츠 혹은 레이블이 지정된 전자 메일 회신에 대한 읽기 전용 액세스 권한만 있는 사용자에게는 이러한 라이선스가 필요하지 않습니다.
+  > 레이블을 자동으로 적용하는 기능을 사용하려면 사이트에서 자동으로 레이블이 지정된 콘텐츠를 편집할 권한이 있거나 사서함이 자동 레이블 지정을 위해 선택된 각 사용자에 대해 최소 Office 365 Enterprise E5 라이선스가 필요합니다. 컨텐츠에 대한 읽기 전용 액세스 권한이 있거나 레이블이 있는 이메일에 회신하는 사용자에게는 이 라이선스가 필요하지 않습니다.
       
 - 전자 메일 문서를 포함하는 **기록 관리를 Office 365에서 구현**합니다. 보존 레이블을 사용하여 콘텐츠를 기록으로 분류할 수 있습니다. 이 경우 레이블을 변경하거나 제거할 수 없으며 콘텐츠를 편집하거나 삭제할 수 없습니다. 
 
 - SharePoint의 **문서 라이브러리, 폴더 또는 문서 집합에 기본 보존 레이블을 적용**하여 해당 위치에 도착하는 모든 문서가 기본 보존 레이블을 상속하도록 합니다.  
     
-Microsoft 365 규정 준수 센터, Microsoft 365 보안 센터 또는 Office 365 보안 규정 준수 센터에서 보존 레이블을 생성합니다. 왼쪽 탐색 창에서 **분류** > **보존 레이블** > **레이블 만들기**를 선택합니다.
+Microsoft 365 규정 준수 센터, Microsoft 365 보안 센터 또는 Office 365 보안 규정 준수 센터에서 보존 레이블을 생성합니다.
 
 ## <a name="how-retention-labels-work-with-retention-label-policies"></a>보존 레이블이 보존 레이블 정책에 작동하는 방식
 
@@ -258,14 +260,17 @@ Office 365 그룹 콘텐츠를 보존하려면 Office 365 그룹 위치를 사�
     
 콘텐츠에 다음이 포함될 경우 콘텐츠에 자동으로 보존 레이블을 적용하도록 선택할 수 있습니다.
   
-- 특정 중요한 정보 유형
+- [특정 중요한 정보 유형](#auto-apply-retention-labels-to-content-with-specific-types-of-sensitive-information)
     
-- 만든 쿼리와 일치하는 특정 키워드
+- [만든 쿼리와 일치하는 특정 키워드](#auto-apply-labels-to-content-with-keywords-or-searchable-properties)
+
+- [훈련 가능한 분류자와 일치](#auto-apply-labels-to-content-by-using-trainable-classifers)
     
 ![자동 적용 레이블에 대한 조건 페이지 선택](../media/classifier-pre-trained-apply-label-match-trainable-classifier.png)
 
+처음 두 옵션에 대해 구성된 보존 레이블을 자동으로 적용하려면 Office 365 Enterprise E5 구독이 필요합니다. 교육 가능한 분류자 옵션을 사용하는 경우 이 기능에는 [추가 라이선스 요구 사항](classifier-getting-started-with.md#licensing-requirements)이 있습니다.
 
-자동 적용 보존 레이블에는 Office 365 Enterprise E5 구독이 필요하며, 위에 설명한 것처럼 조건과 일치하는 모든 콘텐츠에 자동 적용 보존 레이블이 적용되는 데는 7일까지 소요될 수 있습니다.
+구성한 조건과 일치하는 모든 콘텐츠에 자동 적용 보존 레이블을 적용하는 데 최대 7일이 걸릴 수 있습니다.
   
 > [!TIP]
 > SharePont에서 관리 속성을 사용하여 보존 레이블을 자동 적용하고 이벤트 중심 보존을 구현하는 방법에 대한 자세한 시나리오는 [보존 레이블로 SharePoint 문서의 수명 주기 관리](auto-apply-retention-labels-scenario.md)를 참조하세요.
@@ -309,6 +314,17 @@ Office 365 그룹 콘텐츠를 보존하려면 Office 365 그룹 위치를 사�
     - site:https<!--nolink-->://contoso.sharepoint.com/sites/teams/procurement AND contenttype:contract
 
 ![쿼리 편집기](../media/ac5b8e5e-7453-4ec7-905c-160df57298d3.png)
+
+
+### <a name="auto-apply-labels-to-content-by-using-trainable-classifers"></a>학습 가능한 분류자를 사용하여 콘텐츠에 레이블 자동 적용
+
+학습 가능한 분류자 옵션을 선택할 때 기본 분류자 중 하나 또는 사용자 지정 분류자를 선택할 수 있습니다. 기본 분류기에는 **공격 언어**, **이력서**, **소스 코드**, **희롱**, **비속어** 및 **위협**이 포함됩니다.
+
+이 옵션을 사용하여 레이블을 자동으로 적용하려면 SharePoint Online 사이트 및 사서함에 10MB 이상의 데이터가 있어야 합니다.
+
+학습 가능한 분류자에 대한 자세한 내용은 [교육 가능한 분류자 시작(미리 보기)](classifier-getting-started-with.md)를 참조하십시오.
+
+구성 예는 [분류자를 준비하고 준비된 분류자를 사용하는 방법](classifier-using-a-ready-to-use-classifier.md#how-to-prepare-for-and-use-a-ready-to-use-classifier)을 참조하십시오.
 
 ## <a name="applying-a-default-retention-label-to-all-content-in-a-sharepoint-library-folder-or-document-set"></a>SharePoint 라이브러리, 폴더 또는 문서 집합의 모든 콘텐츠에 기본 보존 레이블 적용
 
