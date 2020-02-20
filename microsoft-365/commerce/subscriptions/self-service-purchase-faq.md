@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 description: 셀프 서비스 구매에 대 한 일반적인 질문과 대답을 확인할 수 있습니다.
 ms.custom: aka.ms/self-service-purchase-faq
-ms.openlocfilehash: b5289f4c9b7ea8c723dab8bf4bf97b83fef5b34c
-ms.sourcegitcommit: 290d95f9ba118336cb136f34313de265b97e869e
+ms.openlocfilehash: b94a09757cf6e7126a6b7cc73ac5cc0930d1ea2e
+ms.sourcegitcommit: 08f9af6cd98e2de4bb634b90f5630e6a66676497
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42155627"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42157380"
 ---
 # <a name="self-service-purchase-faq"></a>셀프 서비스 구매 FAQ
 
@@ -151,4 +151,4 @@ IT 부서 및 파트너가 셀프 서비스 구매를 통해 구매한 제품에
 
 ### <a name="in-which-countries-can-i-make-a-self-service-purchase"></a>셀프 서비스를 구매할 수 있는 국가
 
-셀프 서비스 구매는 오스트레일리아, 캐나다, 일본 및 미국 국가에서 사용할 수 있습니다.
+셀프 서비스 구매는 오스트레일리아, 캐나다, 프랑스, 독일, 일본, 영국 및 미국 국가에서 사용할 수 있습니다.
