@@ -15,19 +15,19 @@ search.appverid:
 - MET150
 description: 셀프 서비스 구매에 대 한 일반적인 질문과 대답을 확인할 수 있습니다.
 ms.custom: aka.ms/self-service-purchase-faq
-ms.openlocfilehash: a9e49f5b9b518711f72c9b9a29e690c55acf3861
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: b5289f4c9b7ea8c723dab8bf4bf97b83fef5b34c
+ms.sourcegitcommit: 290d95f9ba118336cb136f34313de265b97e869e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42080313"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42155627"
 ---
 # <a name="self-service-purchase-faq"></a>셀프 서비스 구매 FAQ
 
 > [!NOTE]
 > 이 문서의 정보는 Microsoft Power Platform (Power BI, Power Apps 및 Power 자동화) 구독에만 적용 됩니다.
 
-이제 미국, 호주, 캐나다 및 일본의 전원 플랫폼에 셀프 서비스 구매를 사용할 수 있습니다.
+이제 여러 국가의 전원 플랫폼에 셀프 서비스 구매를 사용할 수 있습니다.
 
 ## <a name="general"></a>일반
 
@@ -146,3 +146,9 @@ IT 부서 및 파트너가 셀프 서비스 구매를 통해 구매한 제품에
 ### <a name="whats-the-role-of-microsofts-partners-in-self-service-purchases"></a>셀프 서비스 구매에서의 Microsoft 파트너 역할은 무엇 인가요?
 
 관리 권한을 위임 받은 파트너는 관리자와 마찬가지로 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 관리 센터</a>에서 셀프 서비스 구매를 볼 수 있습니다. 파트너는 셀프 서비스 구매를 통해 구매한 제품을 중앙 집중식으로 관리 하려는 조직을 지 원하는 데 도움이 될 수 있습니다. 또한 파트너는 셀프 서비스 구매 기능을 확장 하는 솔루션을 제공할 수 있습니다.
+
+## <a name="country-availability"></a>국가 사용 가능 여부
+
+### <a name="in-which-countries-can-i-make-a-self-service-purchase"></a>셀프 서비스를 구매할 수 있는 국가
+
+셀프 서비스 구매는 오스트레일리아, 캐나다, 일본 및 미국 국가에서 사용할 수 있습니다.
