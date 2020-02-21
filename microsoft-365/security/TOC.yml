@@ -1,7 +1,7 @@
 - name: Microsoft 365 보안
   href: index.yml
   items:
-    - name: 시작
+    - name: 시작하기
       items:
         - name: BDM에 대한 Microsoft 365 보안
           href: Microsoft-365-security-for-bdm.md
@@ -67,9 +67,11 @@
               items:
                 - name: AIR 개요
                   href: mtp/mtp-autoir.md
-                - name: 알림 센터로 이동합니다.
+                - name: 재구성 작업 보기
+                  href: mtp/mtp-remediation-actions.md
+                - name: 알림 센터 방문
                   href: mtp/mtp-action-center.md
-                - name: AIR 결과 보기
+                - name: 조사 결과 보기
                   href: mtp/mtp-autoir-results.md
                 - name: 보류 중인 작업 승인 또는 거부
                   href: mtp/mtp-autoir-actions.md
@@ -364,6 +366,20 @@
               href: ./office-365-security/campaigns.md
             - name: 위협 분석을 사용 하 여 최신 공격 이해
               href: ./mtp/latest-attack-campaigns.md
+            - name: 자동화된 조사 및 응답
+              items:
+                - name: 공기 개요
+                  href: ./office-365-security/office-365-air.md
+                - name: 조사 세부 정보 및 결과 보기
+                  href: ./office-365-security/air-view-investigation-results.md
+                - name: 재구성 작업 보기 및 승인
+                  href: ./office-365-security/air-remediation-actions.md
+                - name: 사용자 지정 또는 타사 보고 솔루션에 AIR 통합
+                  href: ./office-365-security/air-custom-reporting.md
+            - name: 손상 된 사용자 계정을 빠르게 검색 및 처리
+              href: ./office-365-security/address-compromised-users-quickly.md
+            - name: 악성 전자 메일 조사 및 재구성
+              href: ./office-365-security/investigate-malicious-email-that-was-delivered.md
             - name: ATP 보고서 보기 및 읽기
               href: ./office-365-security/view-reports-for-atp.md
             - name: ATP 안전한 링크 경고 페이지의 의미
@@ -372,12 +388,6 @@
               href: ./office-365-security/threat-trackers.md
             - name: Office 365에서의 공격 시뮬레이터 사용
               href: ./office-365-security/attack-simulator.md
-            - name: 위협 조사 및 응답을 활용하여 사용자 안전 보장
-              href: ./office-365-security/keep-users-safe-with-office-365-ti.md
-            - name: Office 365의 위협에 대한 자동 조사 및 응답
-              href: ./office-365-security/office-365-air.md
-            - name: 배달된 악성 전자 메일 찾기 및 조사
-              href: ./office-365-security/investigate-malicious-email-that-was-delivered.md
             - name: Office 365 ATP의 안전한 문서
               href: ./office-365-security/safe-docs.md
             - name: 위협 탐색기 (실시간 검출)
@@ -393,6 +403,8 @@
                   href: ./office-365-security/siem-integration-with-office-365-ti.md
             - name: ATP의 작동 방식
               items:
+                - name: 자동화 된 조사 및 대응 작동 방식
+                  href: ./office-365-security/automated-investigation-response-office.md
                 - name: ATP 안전한 링크가 작동하는 방식
                   href: ./office-365-security/how-atp-safe-links-works.md
                 - name: ATP 안전한 첨부 정책의 작동 방식
@@ -403,8 +415,6 @@
                   href: ./office-365-security/atp-for-spo-odb-and-teams.md
                 - name: 위협 조사 및 응답이 작동하는 방식
                   href: ./office-365-security/office-365-ti.md
-                - name: 자동화된 조사 및 대응이 작동하는 방식
-                  href: ./office-365-security/automated-investigation-response-office.md
         - name: 보안 사고 관리
           items:
             - name: Office 365 보안 사고 대응
