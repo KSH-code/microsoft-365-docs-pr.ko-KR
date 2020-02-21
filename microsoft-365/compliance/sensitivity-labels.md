@@ -16,19 +16,19 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: 민감도 레이블을 사용하여 사용자의 생산성 및 공동 작업 능력이 저하되지 않도록 하면서 중요한 콘텐츠를 분류 및 보호할 수 있습니다. 민감도 레이블을 사용하여 레이블이 지정된 콘텐츠에 암호화 및 워터마크를 포함하는 보호 설정을 적용할 수 있습니다.
-ms.openlocfilehash: fa04fdc2713cbba090ec56972cd87e6cbdc4387b
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: Microsoft Information Protection 프레임 워크의 민감도 레이블을 사용하여 조직의 데이터를 분류하고 보호하는 동시에 사용자 생산성과 공동 작업 능력이 방해받지 않도록 하십시오. 이 레이블은 바닥글 및 워터마크와 같은 암호화 시각적 표시가 포함된 보호 설정을 적용할 수 있습니다.
+ms.openlocfilehash: 92bfb768cf044b6a4837e5dab6936c2d77424a25
+ms.sourcegitcommit: ee18bdd08e85b1262b91c180ccf61df59c19dab2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42081480"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42106831"
 ---
 # <a name="learn-about-sensitivity-labels"></a>민감도 레이블 알아보기
 
 작업을 완료하기 위해 조직의 사용자는 조직 내부 및 외부의 다른 사용자와 공동으로 작업합니다. 이는 콘텐츠가 더 이상 방화벽 뒤에 있지 않으며 장치, 앱 및 서비스를 비롯한 모든 위치에서 로밍할 수 있음을 의미합니다. 또한 사용자는 로밍 중에는 조직의 비즈니스 및 준수 정책을 충족하는 안전하고 보호된 방식으로 진행하는 것이 좋습니다.
 
-민감도 레이블을 사용하여 사용자의 생산성 및 공동 작업 능력이 저하되지 않도록 하면서 조직의 데이터를 분류하고 보호할 수 있습니다.
+Microsoft Information Protection 프레임 워크의 민감도 레이블을 사용하면 조직의 데이터를 분류하고 보호하는 동시에 사용자 생산성과 공동 작업 능력에 방해가되지 않습니다.
 
 리본 메뉴의 **홈** 탭에서 Excel의 사용 가능한 민감도 레이블을 보여 주는 예제입니다. 이 예제에서 적용된 레이블은 상태 표시줄에 표시 됩니다.
 
@@ -100,7 +100,11 @@ Office 앱의 경우, 민감도 레이블이 전자 메일 또는 문서에서 �
     
     주요 필수 구성 요소를 포함하여 민감도 레이블을 만들거나 편집할 때 **끝점 데이터 손실 방지** 설정에 대한 자세한 내용은 [Windows Information Protection에서 민감도 레이블을 사용하여 파일을 보호하는 방법](https://docs.microsoft.com/windows/security/information-protection/windows-information-protection/how-wip-works-with-labels?branch=vsts17546553)을 참조하십시오.
 
-- **중요한 정보를 포함하는 콘텐츠에 레이블을 자동으로 적용합니다.** 레이블을 지정할 중요한 정보의 유형을 선택하고 레이블을 자동으로 적용하거나 사용자가 추천 레이블을 적용할 수 있도록 메시지를 표시할 수 있습니다. 레이블을 추천하는 경우 어떤 텍스트를 선택해도 다음과 같이 메시지가 표시됩니다.
+-  [Microsoft Teams, Office 365 그룹 및 SharePoint 사이트에서 민감도 레이블을 사용](sensitivity-labels-teams-groups-sites.md)하도록 미리보기를 선택하여 **사이트 및 그룹과 같은 컨테이너의 컨텐츠를 보호**합니다.
+    
+    미리 보기를 선택하지 않으면 **사이트 및 그룹 설정**에 대한 구성 옵션이 표시되지 않습니다. 이 레이블 구성으로 인해 문서가 자동으로 레이블링되지는 않지만 대신 레이블 설정은 문서가 저장된 컨테이너에 대한 액세스를 제어하여 컨텐츠를 보호합니다. 이러한 설정에는 개인 정보 수준, Office 365 그룹 소유자가 게스트를 그룹에 추가할 수 있는지 여부 및 관리되지 않는 장치에 부여된 액세스 수준이 포함됩니다.
+
+- **Office 앱에서 자동으로 레이블을 적용하거나 레이블을 권장합니다.** 레이블을 지정할 민감한 정보 유형을 선택하고 레이블을 자동으로 적용하거나 사용자에게 권장 레이블을 적용하라는 메시지를 표시할 수 있습니다. 레이블을 권장하면 선택한 텍스트가 프롬프트에 표시됩니다. 예를 들어 다음과 같은 가치를 제공해야 합니다.
     
     ![필수 레이블 할당 메시지](../media/Sensitivity-label-Prompt-for-required-label.png)
     

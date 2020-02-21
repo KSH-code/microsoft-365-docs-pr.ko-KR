@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 조직의 데이터를 보호하는 데 도움이 되는 민감도 레이블 구현을 시작할 준비가 되었지만 어디서부터 시작해야 할지 모르겠나요? 레이블 여행에 도움이 되는 몇 가지 실용적인 지침을 읽으세요.
-ms.openlocfilehash: 9ffe0f52adf108ba03a41b2dba7261d21171bbba
-ms.sourcegitcommit: 7dc36305721a92e19a6e397f906e19dcafa0073b
+ms.openlocfilehash: 6c461cd049cb89a2de0dbfc4cb1a5f8ea28c3ea6
+ms.sourcegitcommit: ee18bdd08e85b1262b91c180ccf61df59c19dab2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/17/2020
-ms.locfileid: "42101258"
+ms.lasthandoff: 02/19/2020
+ms.locfileid: "42106861"
 ---
 # <a name="get-started-with-sensitivity-labels"></a>민감도 레이블 시작
 
@@ -61,7 +61,7 @@ ms.locfileid: "42101258"
 |필요|설명서|
 |----------------|---------------|
 |조직의 데이터를 보호하는 데 도움이 되는 민감도 레이블을 만들고 게시합니다.|[민감도 레이블과 해당 정책 생성 및 구성](create-sensitivity-labels.md)|
-|민감도 레이블로 문서 및 전자 메일을 암호화하고 액세스할 수 있는 사람과 해당 컨텐츠를 사용하는 방법을 제한합니다. |[민감도 레이블을 사용하여 암호화를 적용하여 콘텐츠 액세스 제한](encryption-sensitivity-labels.md)|
+|민감도 레이블이있는 문서 및 이메일을 암호화하고 해당 컨텐츠에 액세스할 수 있는 사람과 사용 방법을 제한합니다. |[민감도 레이블을 사용하여 암호화를 적용하여 콘텐츠 액세스 제한](encryption-sensitivity-labels.md)|
 |암호화 레이블이 지정된 문서에 대해 SharePoint(및 OneDrive)의 공동 작업 기능을 사용하도록 설정합니다. | [SharePoint 및 OneDrive에서 Office 파일에 대한 민감도 레이블 사용(공개 미리 보기)](sensitivity-labels-sharepoint-onedrive-files.md)
 |콘텐츠가 만들어 질 때 레이블이 지정되도록 Office 앱의 민감도 레이블을 관리합니다. |[Office 앱의 민감도 레이블 사용](sensitivity-labels-office-apps.md)|
 |콘텐츠를 만들 때 자동으로 민감도 레이블 적용하거나 사용자에게 레이블을 추천합니다. | [민감도 레이블을 콘텐츠에 자동으로 적용](apply-sensitivity-label-automatically.md)|
@@ -76,7 +76,7 @@ ms.locfileid: "42101258"
 가장 효과적인 최종 사용자 문서는 선택한 레이블 이름 및 구성에 대한 사용자 지정 안내사항 및 지침입니다. 그러나 기본 지침으로 다음 리소스를 사용할 수 있습니다.   
 
 - [Office에서 파일 및 전자 메일에 민감도 레이블 적용](https://support.office.com/article/apply-sensitivity-labels-to-your-files-and-email-in-office-2f96e7cd-d5a4-403b-8bd7-4cc636bae0f9)
-    - [Office의 민감도 레이블과 관련된 알려진 문제](https://support.office.com/en-us/article/known-issues-with-sensitivity-labels-in-office-b169d687-2bbd-4e21-a440-7da1b2743edc)
+    - [Office의 민감도 레이블과 관련된 알려진 문제점](https://support.office.com/en-us/article/known-issues-with-sensitivity-labels-in-office-b169d687-2bbd-4e21-a440-7da1b2743edc)
 
 - [Office에서 파일 및 전자 메일에 자동으로 민감도 레이블 적용 또는 추천](https://support.office.com/article/automatically-apply-or-recommend-sensitivity-labels-to-your-files-and-emails-in-office-622e0d9c-f38c-470a-bcdb-9e90b24d71a1)
     - [민감도 레이블 자동 적용 또는 추천에 대한 알려진 문제](https://support.office.com/article/known-issues-with-automatically-applying-or-recommending-sensitivity-labels-451698ae-311b-4d28-83aa-a839a66f6efc)
