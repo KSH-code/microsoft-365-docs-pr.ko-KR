@@ -18,19 +18,17 @@ ms.collection:
 - M365-security-compliance
 ms.topic: conceptual
 ms.custom: autoir
-ms.openlocfilehash: 5f31c9cb5272248ae8250f73d054ca599b83edc2
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: c838db1b3792bda719102f18a7c473192a7f9481
+ms.sourcegitcommit: 2f117a6fd27a097ca25afa933dd088b69d483974
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42083791"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42175711"
 ---
 # <a name="go-to-the-action-center-to-view-remediation-actions"></a>알림 센터로 이동하여 조치 작업을 봅니다.
 
 **적용 대상:**
 - Microsoft Threat Protection
-
-[!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
 ## <a name="a-single-pane-of-glass-experience"></a>"단일 창 방식" 환경
 
@@ -47,11 +45,6 @@ ms.locfileid: "42083791"
 
 ## <a name="remediation-actions"></a>수정 작업
 
-다음 표에는 알림 센터에서 현재 지원되는 수정 작업이 나와 있습니다. 
-
-|끝점 수정 작업  |전자 메일 수정 작업  |
-|---------|---------|
-|파일 격리<br/>레지스트리 키 추가<br/>프로세스 중단 <br/>서비스 중지 <br/>레지스트리 키 추가 <br/>드라이버 해제 <br/>예약된 작업 제거      |전자 메일 메시지 또는 클러스터의 일시 삭제<br/>차단 URL(클릭 시간)<br/>외부 메일 전달 해제          |
 
 ## <a name="go-to-the-action-center"></a>알림 센터로 이동합니다.
 

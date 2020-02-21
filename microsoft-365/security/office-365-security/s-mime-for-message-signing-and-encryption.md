@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: 887c710b-0ec6-4ff0-8065-5f05f74afef3
 description: 관리자는 Exchange Online에서 S/MIME을 사용 하는 방법에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: b135a9dc2c5ad8fbf190b38f9fe10161b95a7531
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 1c7b2a56f15b39818d51f405192febebeb2717e8
+ms.sourcegitcommit: 1c445d68e54ca4249024ca4bb72460dd6fac0a2d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41598535"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42170498"
 ---
 # <a name="smime-for-message-signing-and-encryption-in-exchange-online"></a>Exchange Online의 메시지 서명 및 암호화를 위한 S/MIME
 
@@ -39,15 +39,15 @@ Exchange Online 관리자로 서 조직의 사서함에 대해 S/MIME 기반 보
 
 이러한 각 끝점에 대해 S/MIME을 설정 하기 위해 수행 하는 단계는 약간 다릅니다. 일반적으로는 다음 단계를 수행 해야 합니다.
 
-- S/MIME 인증서를 발급하도록 Windows 기반 인증 기관을 설치하고 공개 키 인프라를 설정합니다. 타사 인증서 공급자가 발급한 인증서도 지원됩니다. 자세한 내용은 [Active Directory 인증서 서비스 개요](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/hh831740(v=ws.11))를 참조하세요.
+1. S/MIME 인증서를 발급하도록 Windows 기반 인증 기관을 설치하고 공개 키 인프라를 설정합니다. 타사 인증서 공급자가 발급한 인증서도 지원됩니다. 자세한 내용은 [Active Directory 인증서 서비스 개요](https://docs.microsoft.com/previous-versions/windows/it-pro/windows-server-2012-r2-and-2012/hh831740(v=ws.11))를 참조하세요.
 
-- **UserSMIMECertificate** 및/또는 **UserCertificate** 특성의 온-프레미스 AD DS 계정에 사용자 인증서를 게시 합니다.
+2. **UserSMIMECertificate** 및/또는 **UserCertificate** 특성의 온-프레미스 AD DS 계정에 사용자 인증서를 게시 합니다.
 
-- Exchange Online 조직의 경우 해당하는 DirSync 버전을 사용하여 AD DS에서 Azure Active Directory로 사용자 인증서를 동기화합니다. 그러면 이러한 인증서가 Azure Active Directory에서 Exchange Online 디렉터리로 동기화되며 받는 사람에 대한 메시지를 암호화할 때 사용됩니다.
+3. Exchange Online 조직의 경우 적절 한 Azure AD Connect 버전을 사용 하 여 AD DS의 사용자 인증서를 Azure Active Directory에 동기화 합니다. 그러면 이러한 인증서가 Azure Active Directory에서 Exchange Online 디렉터리로 동기화되며 받는 사람에 대한 메시지를 암호화할 때 사용됩니다.
 
-- S/MIME의 유효성을 검사하기 위해 가상 인증서 모음을 설정합니다. 이 정보는 전자 메일의 서명 유효성을 검사 하 고 신뢰할 수 있는 인증서로 서명 되었는지 확인할 때 웹에서 Outlook에서 사용 합니다.
+4. S/MIME의 유효성을 검사하기 위해 가상 인증서 모음을 설정합니다. 이 정보는 전자 메일의 서명 유효성을 검사 하 고 신뢰할 수 있는 인증서로 서명 되었는지 확인할 때 웹에서 Outlook에서 사용 합니다.
 
-- S/MIME을 사용하도록 Outlook 또는 EAS 끝점을 설정합니다.
+5. S/MIME을 사용하도록 Outlook 또는 EAS 끝점을 설정합니다.
 
 > [!NOTE]
 > Mac, iOS, Android 또는 기타 비 Windows 장치에서는 Outlook에서 S/MIME 컨트롤을 설치할 수 없습니다. 자세한 내용은 [웹용 Outlook에서 S/MIME을 사용 하 여 메시지 암호화](https://support.office.com/article/878c79fc-7088-4b39-966f-14512658f480)를 참조 하세요.

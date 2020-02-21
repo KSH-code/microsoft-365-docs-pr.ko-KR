@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 056685cbd49e6fb247a92357b3483b479d705c90
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 434f62d5ddfc8bc75c54de422aafc8c6325c4086
+ms.sourcegitcommit: 1c445d68e54ca4249024ca4bb72460dd6fac0a2d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42085735"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42170598"
 ---
 # <a name="battery-insights"></a>배터리 정보
 이 보기는 Microsoft 관리 데스크톱 장치에 대 한 전원, 배터리 및 앱 사용 메트릭을 제공 합니다. 이러한 용도의 앱은 실행 중이 고 포커스가 있는 경우 "사용 중"으로 간주 됩니다.
@@ -33,7 +33,7 @@ ms.locfileid: "42085735"
 
 ## <a name="top-energy-consumers"></a>주요 에너지 소비자
 
-**상위 에너지 소비자** 분야에서는 MilliWatt (mWh)에서 가장 많은 에너지를 사용 하는 환경에서 앱을 찾을 수 있습니다. 표시 되는 앱은 왼쪽에 있는 **예측 된 배터리 수명** 섹션에서 선택한 특정 장치에 따라 결정 됩니다. 예를 들어 마이크로 Sft Surface Book 2 장치의 앱 단위 소비량을 보려면 배터리 수명 영역에서 해당 행을 선택 합니다. 모델을 선택 하지 않으면 기본적으로 데이터를 포함 하는 모든 앱에 대 한 앱 소비 데이터가 표시 됩니다.
+**상위 에너지 소비자** 분야에서는 MilliWatt (mWh)에서 가장 많은 에너지를 사용 하는 환경에서 앱을 찾을 수 있습니다. 표시 되는 앱은 왼쪽에 있는 **예측 된 배터리 수명** 섹션에서 선택한 특정 장치에 따라 결정 됩니다. 예를 들어 Microsoft Surface Book 2 장치에 대 한 앱 단위 소비량을 보려면 배터리 수명 영역에서 해당 행을 선택 합니다. 모델을 선택 하지 않으면 기본적으로 데이터를 포함 하는 모든 앱에 대 한 앱 소비 데이터가 표시 됩니다.
 
  각 앱에 대해 색 세그먼트는 다음 범주 중에서 앱의 에너지 사용 분포를 보여 줍니다.
 

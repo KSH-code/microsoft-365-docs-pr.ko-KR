@@ -15,18 +15,24 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Office 365 ATP의 안전한 문서에 대해 알아봅니다.
-ms.openlocfilehash: c76ae2c776c31cf798c21d7330bce488ad1e7cc6
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 3980746eb2f48e77c22f5139827bead5640dad61
+ms.sourcegitcommit: 1c445d68e54ca4249024ca4bb72460dd6fac0a2d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42082374"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42170478"
 ---
 # <a name="safe-documents-in-office-365-advanced-threat-protection"></a>Office 365 Advanced Threat Protection의 안전한 문서
 
 안전한 문서는 [Microsoft Defender Advanced Threat protection](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) 을 사용 하 여 [제한 된 보기](https://support.office.com/article/d6f09ac7-e6b9-4495-8e43-2bbcdbcb6653)에서 열린 문서와 파일을 검색 하는 Office 365 ATP (Advanced threat protection)의 기능입니다.
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 사항은 무엇인가요?
+
+- 이 기능은 Microsoft 365 E5 또는 Microsoft 365 E5 보안 라이선스가 있는 사용자만 사용할 수 있습니다.
+
+- 안전한 문서는 현재 공개 미리 보기에서 사용할 수 있으며, ' 매월 채널 (대상 지정) '에서 office [참가자 프로그램](https://insider.office.com/en-us/join) 의 일부인 사용자가 office 버전 2002 (12527.20092) 이상으로 사용할 수 있습니다. 이 기능은 기본적으로 해제 되어 있으며 보안 관리자가 사용 하도록 설정 해야 합니다.
+
+- 현재 규격 파일 처리에 대해서만 미국 지역이 지원 됩니다 (모든 파일은 검색을 위해 US 지역으로 이동 됨). 영국/EU 지역에 대 한 지원은 향후 업데이트에서 계획 됩니다.
 
 - Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell)을 참조하세요. Exchange Online Protection PowerShell에 연결 하려면 [Exchange Online Protection powershell에 연결](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell)을 참조 하세요.
 

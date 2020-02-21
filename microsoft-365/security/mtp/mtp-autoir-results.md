@@ -18,19 +18,17 @@ ms.collection:
 - M365-security-compliance
 ms.topic: conceptual
 ms.custom: autoir
-ms.openlocfilehash: 08aa1f0c252d931ab1abf078b1c0cfcf7d9b43a2
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 062dd86de49eb3dfe47566aa8d7269780cf9995c
+ms.sourcegitcommit: 2f117a6fd27a097ca25afa933dd088b69d483974
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42083763"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42175721"
 ---
 # <a name="view-the-details-and-results-of-an-automated-investigation"></a>자동화 조사 세부정보 및 결과 보기
 
 **적용 대상:**
 - Microsoft Threat Protection
-
-[!INCLUDE [Prerelease information](../includes/prerelease.md)]
 
 Microsoft Threat Protection에서 자동 조사가 발생 하는 경우, 해당 조사에 대한 세부 정보는 자동화 검사 프로세스 중에 확인할 수 있습니다. [필수 권한이](mtp-action-center.md#required-permissions-for-action-center-tasks)있는 경우 조사 세부 정보 보기에서 해당 정보를 확인할 수 있습니다.  조사 세부정부 보기에서 최신 상태를 확인하거나 보류중인 작업을 승인할 수 있습니다. 
 
