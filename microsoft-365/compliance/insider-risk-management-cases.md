@@ -1,5 +1,5 @@
 ---
-title: 참가자 위험 관리 사례 (미리 보기)
+title: 참가자 위험 관리 사례
 description: Microsoft 365의 참가자 위험 관리 사례에 대해 자세히 알아보기
 keywords: Microsoft 365, 참가자 위험 관리, 위험 관리, 규정 준수
 localization_priority: Normal
@@ -12,14 +12,14 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 02f665f966b929ac8a83acfcdf5be6a5818a64d3
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 6b5132cad5725e46a49b9010868ede423321f307
+ms.sourcegitcommit: 87cc278ea2ddcd536ecfaa3dfae9a5ddaa502cf9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42072863"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42179179"
 ---
-# <a name="insider-risk-management-cases-preview"></a>참가자 위험 관리 사례 (미리 보기)
+# <a name="insider-risk-management-cases"></a>참가자 위험 관리 사례
 
 사례는 참가자 위험 관리의 핵심 이며, 정책에 정의 된 위험 지표에 의해 발생 한 문제를 깊이 있게 조사 하 고 조치를 취할 수 있도록 합니다. 직원의 준수 관련 문제를 해결 하기 위해 추가 작업을 수행 해야 하는 상황에서 경고가 수동으로 작성 됩니다. 각 사례는 단일 직원으로 범위가 지정 되며 직원에 대 한 여러 알림을 기존 사례 또는 새 사례에 추가할 수 있습니다. 사례에 대 한 세부 정보를 조사한 후에는 직원에 게 알림을 보내거나, 사례를 심각 하 게 해결 하거나, 데이터 또는 직원 조사로 확대 하 여 조치를 취할 수 있습니다.
 
@@ -96,7 +96,7 @@ ms.locfileid: "42072863"
     - 위험 활동의 **날짜** 입니다.
     - **위험 활동 범주**입니다. 예를 들어 *SharePoint Online에서 다운로드*한 조직 또는 파일 *외부에서 보낸 첨부 파일이 포함 된 전자 메일* 입니다.
     - 경고에 대 한 **위험 점수** 입니다. 이 점수는 경고 위험 심각도 수준에 대 한 수치 점수입니다.
-    - 경고와 연결 된 **파일** 또는 **전자 메일** 수입니다. 위험 활동과 연결 된 각 파일 또는 전자 메일에 대 한 링크도 사용할 수 있습니다.
+    - 경고와 연결 된 이벤트 수입니다. 위험 활동과 연결 된 각 파일 또는 전자 메일에 대 한 링크도 사용할 수 있습니다.
 3. **위험 활동 범례**: 사용자 활동 차트 아래쪽에 있는 색으로 구분 된 범례를 통해 각 경고에 대 한 위험 범주를 빠르게 확인할 수 있습니다.
 4. **위험 활동 chronology**: 해당 경고 버블에서 사용 가능한 모든 세부 정보를 포함 하 여 사례와 관련 된 모든 위험 경고의 전체 chronology 나열 됩니다.
 5. **사례 작업**: 사례를 해결 하기 위한 옵션은 사례 작업 도구 모음에 있습니다. 사례를 해결 하거나, 직원에 게 전자 메일 알림을 보내거나, 데이터 또는 직원 조사를 위해 사례를 확대할 수 있습니다.

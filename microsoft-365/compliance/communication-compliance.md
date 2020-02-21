@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: d5eb8b2f9aff59363c60d7bd75aa3f76fdf1283a
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: d733c73f1c418af2f9c12b67927838875b707aa1
+ms.sourcegitcommit: 87cc278ea2ddcd536ecfaa3dfae9a5ddaa502cf9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42078701"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42179239"
 ---
 # <a name="communication-compliance-in-microsoft-365"></a>Microsoft 365의 통신 준수
 
@@ -36,6 +36,8 @@ Microsoft 365의 통신 준수 정책을 통해 규정 준수 및 내부 및 외
 - 규정 적용 및 벌금과 위험
 
 일부 조직에서는 IT 지원 및 준수 관리 그룹 간에 의무를 분리할 수 있습니다. Microsoft 365에서는 통신 준수 구성 및 통신 검색 정책 구성 간의 분리를 지원 합니다. 예를 들어 조직의 IT 그룹은 조직의 규정 준수 팀이 구성 하 고 관리 하는 통신 준수 정책을 지원 하기 위해 역할 권한 및 그룹을 설정할 책임이 있을 수 있습니다.
+
+통신 준수에 대 한 간략 한 개요를 보려면 [Microsoft 메커니즘 채널](https://www.youtube.com/user/OfficeGarageSeries)에서 [microsoft 365 비디오의 검색 작업 harassment 및 응답을](https://youtu.be/z33ji7a7Zho) 참조 하십시오.
 
 ## <a name="scenarios-for-communication-compliance"></a>통신 준수에 대 한 시나리오
 

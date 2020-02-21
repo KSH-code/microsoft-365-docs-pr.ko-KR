@@ -1,5 +1,5 @@
 ---
-title: 참가자 위험 관리 사용자 (미리 보기)
+title: 참가자 위험 관리 사용자
 description: Microsoft 365의 참가자 위험 관리 사용자에 대 한 자세한 정보
 keywords: Microsoft 365, 참가자 위험 관리, 위험 관리, 규정 준수
 localization_priority: Normal
@@ -12,19 +12,19 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: a9ff7e38a99a5fe5bd8da5301bec5e19bc015cf3
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 322cd0aa8b72ea2c81792b36614e87d97db87d7c
+ms.sourcegitcommit: 87cc278ea2ddcd536ecfaa3dfae9a5ddaa502cf9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42072793"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42179109"
 ---
-# <a name="insider-risk-management-users-preview"></a>참가자 위험 관리 사용자 (미리 보기)
+# <a name="insider-risk-management-users"></a>참가자 위험 관리 사용자
 
 참가자 위험 관리 사용자는 하나 이상의 참가자 위험 관리 정책에 포함 된 조직의 직원입니다. **사용자 대시보드** 를 사용 하 여 직원에 대 한 위험 정보를 신속 하 게 검토 하 고 기존 참가자 위험 관리 정책에 직원을 추가할 수 있습니다. 참가자 위험 관리 정책에 포함 된 각 사용자는 **사용자 대시보드에**다음과 같은 정보를 표시 합니다.
 
-- **사용자**: 사용자의 사용자 이름입니다.
-- **위험 수준**: 
+- **사용자**: 사용자에 대 한 사용자 이름입니다.
+- **위험 수준**: 사용자의 현재 계산 된 위험 수준입니다. 이 점수는 24 시간 마다 계산 되며 사용자에 게 연결 된 모든 활성 알림의 경고 위험 점수를 사용 합니다.
 - **활성 경고**: 모든 정책에 대 한 활성 경고 수입니다.
 - **확인 된 위반**: 사용자에 대 한 *확인 정책 위반* 으로 해결 되는 사례 수입니다.
 - **사례**: 사용자의 현재 활성 사례입니다.
@@ -54,5 +54,5 @@ ms.locfileid: "42072793"
 2. 도구 모음에서 **정책에 사용자 추가** 를 선택 합니다.
 3. **새 사용자 추가** 대화 상자에서 **사용자** 필드에 사용자 이름을 입력 합니다. 정책에 추가 하려는 사용자를 선택 합니다.
 4. **정책** 필드의 드롭다운 화살표를 선택 하 여 구성 된 참가자 위험 관리 정책을 표시 합니다. 사용자를 추가할 정책을 선택 합니다.
-5. **모니터링 창** 슬라이더 컨트롤을 사용 하 여 다음을 정의 합니다. 모니터링 창의 범위는 5 ~ 30 일입니다.
+5. **정품 인증 창** 에서이 사용자에 대해 정책이 활성화 되는 기간을 정의 하 고 사용자가 정책과 일치 하는 첫 번째 활동을 수행할 때 트리거되는 경우에는이 컨트롤을 사용 합니다. 모니터링 창의 범위는 5 ~ 30 일입니다.
 6. **추가** 를 선택한 다음 사용자를 정책에 추가 하 고 **확인** 을 클릭 합니다.

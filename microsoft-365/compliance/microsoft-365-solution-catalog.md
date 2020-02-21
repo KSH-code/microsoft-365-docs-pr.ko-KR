@@ -11,12 +11,12 @@ ms.service: o365-seccomp
 localization_priority: Normal
 description: 포함 된 내용, 가져오는 방법 및 다음 단계를 포함 하 여 Microsoft 365 솔루션 카탈로그에 대해 알아봅니다.
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 31ebd472a5ed33ab6046b9831e02c095d52721a2
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 3c44d5ffd401645fbac1f1f122024e41597b0207
+ms.sourcegitcommit: 87cc278ea2ddcd536ecfaa3dfae9a5ddaa502cf9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42071364"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42179149"
 ---
 # <a name="microsoft-365-solution-catalog"></a>Microsoft 365 솔루션 카탈로그
 
@@ -95,7 +95,7 @@ Microsoft 365 솔루션 카탈로그를 방문 하려면로 [https://compliance.
 
 - 조직의 주요 표준 및 규정 준수 상태를 이해 하는 데 도움이 되는 개인 설정 된 위험 기반 점수가 **Microsoft 준수 점수를 검토**합니다. 전체 준수 상황을 강화 하기 위해 수행할 수 있는 권장 작업을 제공 하 고 이러한 작업을 효율적으로 수행 하는 데 도움이 되는 워크플로 기능을 제공 합니다. 자세한 내용은 [준수 점수 (preview)](compliance-score.md)를 참조 하십시오.
 
-- 내부 위험을 최소화 하 고 조직에서 위험한 활동을 감지 하 고 조사 하며 작업을 수행할 수 있도록 하는 **참가자 위험 관리 정책을 구성** 합니다. [Insider 위기 관리 (preview)](insider-risk-management.md)를 참조 하세요.
+- 내부 위험을 최소화 하 고 조직에서 위험한 활동을 감지 하 고 조사 하며 작업을 수행할 수 있도록 하는 **참가자 위험 관리 정책을 구성** 합니다. [참가자 위험 관리](insider-risk-management.md)를 참조 하세요.
 
 - 회사에서 수행 하는 정책 위반을 빠르게 확인 하 고 수정 하기 위한 **통신 준수 정책에 대해 알아봅니다** . [통신 준수](communication-compliance.md)를 참조 하세요.
 

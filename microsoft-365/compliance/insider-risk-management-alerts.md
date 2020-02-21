@@ -12,14 +12,14 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: d1946bb3667fbdde6e7d2c3fbc70f8f546890e27
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: eef600b2fc325454ad7a4d36019a4e762409c8b9
+ms.sourcegitcommit: 87cc278ea2ddcd536ecfaa3dfae9a5ddaa502cf9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42072885"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42179219"
 ---
-# <a name="insider-risk-management-alerts-preview"></a>참가자 위험 관리 경고 (미리 보기)
+# <a name="insider-risk-management-alerts"></a>참가자 위험 관리 알림
 
 참가자 위험 관리 알림은 참가자 위험 관리 정책에 정의 된 위험 지표에 의해 자동으로 생성 됩니다. 이러한 경고는 준수 분석가를 제공 하 고 현재 위험 상태의 모든 보기를 investigators 조직에서 검색 된 위험에 대 한 조치를 취할 수 있도록 허용 합니다.
 
@@ -29,7 +29,7 @@ ms.locfileid: "42072885"
 
 - **검토할 경고**: 검토 및 심사가 필요한 총 경고 수는 경고 심각도 별 분석을 포함 하 여 나열 됩니다.
 - **지난 30 일간 경고 열기**: 지난 30 일 동안 정책에서 생성 된 총 경고 수는 높음, 중간 및 낮은 경고 심각도 수준에 따라 정렬 됩니다.
-- **평균 해결 시간 경고**: 유용한 경고 통계에 대 한 요약:
+- **평균 경고 해결 시간**: 유용한 경고 통계에 대 한 요약:
     - 시간, 일 또는 월 단위로 나열 되는 심각도가 높은 경고를 확인 하는 데 소요 되는 평균 시간입니다.
     - 시간, 일 또는 월 단위로 나열 되는 중간 심각도 경고를 해결 하는 데 소요 되는 평균 시간입니다.
     - 시간, 일 또는 월 단위로 나열 되는 낮은 심각도 경고를 확인 하는 데 소요 되는 평균 시간입니다.

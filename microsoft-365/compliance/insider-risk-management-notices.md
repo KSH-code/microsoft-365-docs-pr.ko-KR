@@ -1,5 +1,5 @@
 ---
-title: 참가자 위험 관리 알림 서식 파일 (미리 보기)
+title: 참가자 위험 관리 알림 서식 파일
 description: Microsoft 365의 참가자 위험 관리 공지 서식 파일에 대해 자세히 알아보기
 keywords: Microsoft 365, 참가자 위험 관리, 위험 관리, 규정 준수
 localization_priority: Normal
@@ -12,14 +12,14 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 9e114f0292b4513176cff70afa25f69532e35d86
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 92844691cba4adf39c7b4eee30de97ccff9d0890
+ms.sourcegitcommit: 87cc278ea2ddcd536ecfaa3dfae9a5ddaa502cf9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42072812"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42179089"
 ---
-# <a name="insider-risk-management-notice-templates-preview"></a>참가자 위험 관리 알림 서식 파일 (미리 보기)
+# <a name="insider-risk-management-notice-templates"></a>참가자 위험 관리 알림 서식 파일
 
 참가자 위험 관리 알림 서식 파일을 사용 하면 활동에서 정책 일치 및 알림을 생성 하는 경우 직원에 게 전자 메일 메시지를 보낼 수 있습니다. 대부분의 경우 경고를 생성 하는 직원 작업은 실수로 인 한 실수 또는 실수로 인 한 의도 없이 작업을 수행 합니다. 통지는 직원 들에 게 보다 주의 하거나, 리프레셔 교육 또는 회사 정책 리소스에 대 한 링크나 정보를 제공 하기 위한 간단한 미리 알림 역할을 합니다. 알림은 내부 준수 교육 프로그램의 중요 한 일부일 수 있으며, 위험 활동이 반복 되는 직원에 대 한 문서화 된 감사 내역을 만드는 데 도움이 될 수 있습니다.
 

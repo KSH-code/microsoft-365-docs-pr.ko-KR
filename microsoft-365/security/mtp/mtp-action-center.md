@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 ms.topic: conceptual
 ms.custom: autoir
-ms.openlocfilehash: c838db1b3792bda719102f18a7c473192a7f9481
-ms.sourcegitcommit: 2f117a6fd27a097ca25afa933dd088b69d483974
+ms.openlocfilehash: 05356cb9ef17d8c8355896e76185ff9498882069
+ms.sourcegitcommit: ff2f521afdd60a16b2db8ff77b537f345c0e0f7e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42175711"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42219179"
 ---
 # <a name="go-to-the-action-center-to-view-remediation-actions"></a>알림 센터로 이동하여 조치 작업을 봅니다.
 
@@ -42,9 +42,6 @@ ms.locfileid: "42175711"
 - 완료된 수정 작업을 검토
 
 알림 센터를 통해 회사에서 Microsoft Threat Protection를 종합적으로 볼 수 있기 때문에 보안 운영팀이 보다 효과적이고 효율적으로 운영될 수 있습니다.
-
-## <a name="remediation-actions"></a>수정 작업
-
 
 ## <a name="go-to-the-action-center"></a>알림 센터로 이동합니다.
 

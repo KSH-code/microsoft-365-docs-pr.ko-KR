@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: aaca8987-5b62-458b-9882-c28476a66918
 description: 사서함 감사 로깅은 기본적으로 Office 365에서 설정 됩니다 (기본 사서함 감사 또는 사서함 감사가 기본적으로 라고도 함). 즉, 사서함 소유자, 대리인 및 관리자가 수행 하는 특정 작업이 사서함 감사 로그에 자동으로 기록 되므로 사서함에 대해 수행 된 작업을 검색할 수 있습니다.
-ms.openlocfilehash: 1c1d9996ef72c686a6a543a30bcb34e265cc79cc
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 28823c3b2b43261d18352cb939c36f1cfc0b2c7c
+ms.sourcegitcommit: 1c445d68e54ca4249024ca4bb72460dd6fac0a2d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42074715"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42170578"
 ---
 # <a name="manage-mailbox-auditing"></a>사서함 감사 관리
 
@@ -111,7 +111,7 @@ Get-OrganizationConfig | Format-List AuditDisabled
 |**기본값**||![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
 |**FolderBind**|사서함 폴더에 액세스했습니다. 관리자 또는 대리인이 사서함을 열 때에도 작업이 기록됩니다.<br/><br/> **참고**: 대리인에 의해 수행 된 폴더 바인드 작업에 대 한 감사 기록이 통합 되어 있습니다. 24 시간 내에 개별 폴더 액세스에 대 한 감사 레코드 하나를 생성 합니다.|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
 |**HardDelete**|메시지가 복구 가능한 항목 폴더에서 제거되었습니다.|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|
-|**액세스 한 Mail항목**|메일 데이터는 메일 프로토콜 및 클라이언트에서 액세스 합니다. 이 값은 E5 또는 E5 준수 추가 기능 구독 사용자에 대해서만 사용할 수 있습니다. 자세한 내용은 [높은 값 감사 이벤트](https://docs.microsoft.com/microsoft-365/compliance/advanced-audit#high-value-audit-events) 를 참조 하십시오.|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
+|**액세스 한 Mail항목**|메일 데이터는 메일 프로토콜 및 클라이언트에서 액세스 합니다. 이 값은 E5 또는 E5 준수 추가 기능 구독 사용자에 대해서만 사용할 수 있습니다. 자세한 내용은 [조사의 중요 이벤트 액세스](advanced-audit.md#access-to-crucial-events-for-investigations)를 참조 하십시오.|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
 |**MailboxLogin**|사용자가 사서함에 로그인 되어 있습니다. |||![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
 |**대해 수행한 messagebind**|메시지가 미리 보기 창에 표시 되거나 관리자가 열었습니다. **참고**:이 값은 사서함 작업으로 허용 되지만 더 이상 기록 되지 않습니다.|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|||
 |**ModifyFolderPermissions**|**참고**:이 값은 사서함 작업으로 허용 되지만 **updatefolderpermissions** 작업에 이미 포함 되어 있으며 별도로 감사 되지 않습니다. 즉,이 값을 사용 하지 마십시오.||||
@@ -315,7 +315,7 @@ Set-OrganizationConfig -AuditDisabled $false
 
 현재 조직에서 사서함 감사가 기본적으로 설정 된 경우에는 특정 사서함에 대해 사서함 감사를 사용 하지 않도록 설정할 수 없습니다. 예를 들어 *Auditenabled* mailbox 속성을 **False** 로 설정 하는 것은 무시 됩니다.
 
-그러나 Exchange Online PowerShell에서 **get-mailboxauditbypassassociation** cmdlet을 사용 하 여 작업이 수행 되는 위치에 관계 없이 지정 된 사용자의 *모든* 사서함 작업이 로깅되지 않도록 할 수 있습니다. 예시는 다음과 같습니다:
+그러나 Exchange Online PowerShell에서 **get-mailboxauditbypassassociation** cmdlet을 사용 하 여 작업이 수행 되는 위치에 관계 없이 지정 된 사용자의 *모든* 사서함 작업이 로깅되지 않도록 할 수 있습니다. 예:
 
 - 바이패스 된 사용자가 수행한 사서함 소유자 작업은 로깅되지 않습니다.
 

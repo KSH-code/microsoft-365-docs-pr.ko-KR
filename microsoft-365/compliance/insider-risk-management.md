@@ -12,16 +12,16 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 5a3401b80469fa6d22d973204703a6b012ebb11b
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: cc0c698b5c27b41548b646d03d9f94a2f8671eea
+ms.sourcegitcommit: 87cc278ea2ddcd536ecfaa3dfae9a5ddaa502cf9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42072761"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42179189"
 ---
-# <a name="insider-risk-management-in-microsoft-365-preview"></a>Microsoft 365의 참가자 위험 관리 (미리 보기)
+# <a name="insider-risk-management-in-microsoft-365"></a>Microsoft 365의 참가자 위험 관리
 
-참가자 위험 관리는 조직에서 위험한 활동을 감지 하 고 조사 하며 조치를 취할 수 있도록 하 여 내부 위험을 최소화 하는 Microsoft 365의 내부 위험 솔루션입니다. 사용자 지정 정책을 사용 하면 필요한 경우 다른 Microsoft 365 조사 솔루션으로 사례를 이동 하는 것을 포함 하 여 조직의 악의적이 고 실수로 위험한 활동을 검색 하 고 작업을 수행할 수 있습니다. 조직의 위험 분석가는 사용자가 조직의 규정 준수 표준을 준수 하도록 하기 위해 적절 한 조치를 신속 하 게 수행할 수 있습니다.
+참가자 위험 관리는 조직에서 위험한 활동을 감지 하 고 조사 하며 조치를 취할 수 있도록 하 여 내부 위험을 최소화 하는 Microsoft 365의 솔루션입니다. 사용자 지정 정책을 사용 하면 필요한 경우 Microsoft Advanced eDiscovery로 사례를 확대 하는 등 조직의 악의적이 고 실수로 인 한 위험 활동을 검색 하 고 작업을 수행할 수 있습니다. 조직의 위험 분석가는 사용자가 조직의 규정 준수 표준을 준수 하도록 하기 위해 적절 한 조치를 신속 하 게 수행할 수 있습니다.
 
 아래 동영상을 검토 하 여 조직의 가치, 문화 및 직원 경험 우선 순위를 지정 하는 동안 조직에서 위험을 방지, 감지 및 포함 하는 데 도움이 되는 방법을 알아봅니다.
 <br>
@@ -66,7 +66,7 @@ Microsoft 365의 참가자 위험 관리의 내부 위험 활동 및 준수 문�
 
 - Departing 직원 데이터 도난
 - 데이터 누수
-- 공격에 대 한 정보 교환
+- 전자 메일의 공격적인 언어
 
 자세한 내용은 [참가자 위험 관리 정책을](insider-risk-management-policies.md)참조 하세요.
 

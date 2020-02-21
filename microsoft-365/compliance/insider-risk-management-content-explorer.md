@@ -1,5 +1,5 @@
 ---
-title: 참가자 위험 관리 콘텐츠 탐색기 (미리 보기)
+title: 참가자 위험 관리 콘텐츠 탐색기
 description: Microsoft 365의 참가자 위험 관리 콘텐츠 탐색기에 대해 자세히 알아보기
 keywords: Microsoft 365, 참가자 위험 관리, 위험 관리, 규정 준수
 localization_priority: Normal
@@ -12,14 +12,14 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: a8c1c77bdfa3236ce8f2222fd21a7fba0535f149
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 68a472e4e6b7556fc1b738a49b3c82dcf4804842
+ms.sourcegitcommit: 87cc278ea2ddcd536ecfaa3dfae9a5ddaa502cf9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41590649"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42179079"
 ---
-# <a name="insider-risk-management-content-explorer-preview"></a>참가자 위험 관리 콘텐츠 탐색기 (미리 보기)
+# <a name="insider-risk-management-content-explorer"></a>참가자 위험 관리 콘텐츠 탐색기
 
 참가자 위험 관리 콘텐츠 탐색기를 사용 하면 위험 분석가와 investigators가 경고에서 캡처한 통신의 컨텍스트 및 세부 정보를 확인할 수 있습니다. 모든 경고에 대해 데이터 및 메시지 파일의 복사본은 저장소 원본에 있는 원본 파일 및 메시지를 유지 하면서 항목의 시간에 스냅샷으로 보관 됩니다. 데이터와 메시지를 복사 하는 것은 알림과 연결 된 직원 및 콘텐츠의 소유자에 게 투명 합니다. 데이터에 대 한 사용 권한 설정 및 액세스 권한은 복사한 콘텐츠 및 메시지 및 위험 분석가에 대해 유지 관리 되며, 파일을 열고 확인 해야 하는 경우에는 이러한 사용 권한 및 investigators 필요 합니다. 각 파일 및 메시지에는 관리 목적을 위해 참가자 위험 관리의 경우 고유한 파일 ID가 자동으로 할당 됩니다.
 

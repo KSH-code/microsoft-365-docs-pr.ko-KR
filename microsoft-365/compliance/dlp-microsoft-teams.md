@@ -15,12 +15,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: 이제 Microsoft 팀 채팅 및 채널에 DLP 정책을 적용할 수 있습니다. 이 문서를 읽으면 작동 방식에 대해 자세히 알아볼 수 있습니다.
-ms.openlocfilehash: 30436659b8b1bd336823e8dc6be06c8fbc8e08e3
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 2c530279dde03f357386f11b9e9af5d68be5ee7f
+ms.sourcegitcommit: 1c445d68e54ca4249024ca4bb72460dd6fac0a2d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42075331"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42170558"
 ---
 # <a name="data-loss-prevention-and-microsoft-teams"></a>데이터 손실 방지 및 Microsoft 팀
 
@@ -31,7 +31,12 @@ ms.locfileid: "42075331"
 
 ## <a name="overview-of-dlp-for-microsoft-teams"></a>Microsoft 팀의 DLP 개요
 
-최근에 DLP ( [데이터 손실 방지](data-loss-prevention-policies.md) ) 기능은 Microsoft 팀 채팅 및 채널 메시지를 포함 하도록 확장 되었습니다. 조직에 DLP가 있는 경우에는 사용자가 Microsoft 팀 채널 또는 채팅 세션에서 중요 한 정보를 공유 하지 못하도록 하는 정책을 정의할 수 있습니다. 다음은 이러한 보호의 작동 방식에 대 한 몇 가지 예입니다.
+최근에 DLP ( [데이터 손실 방지](data-loss-prevention-policies.md) ) 기능은 Microsoft 팀 채팅 및 채널 메시지를 포함 하도록 확장 되었습니다.
+
+> [!NOTE]
+> 이 시점에서 개인 채널 메시지에 대 한 DLP는 지원 되지 않습니다.
+
+조직에 DLP가 있는 경우에는 사용자가 Microsoft 팀 채널 또는 채팅 세션에서 중요 한 정보를 공유 하지 못하도록 하는 정책을 정의할 수 있습니다. 다음은 이러한 보호의 작동 방식에 대 한 몇 가지 예입니다.
 
 - **예 1: 메시지의 중요 한 정보 보호** 다른 사용자가 guests (외부 사용자)를 사용 하 여 팀 채팅 이나 채널에서 중요 한 정보를 공유 하려고 한다고 가정 합니다. 이를 방지 하기 위해 DLP 정책이 정의 된 경우 외부 사용자에 게 전송 되는 중요 한 정보가 포함 된 메시지가 삭제 됩니다. 이 작업은 DLP 정책이 구성 되는 방식에 따라 자동으로 몇 초 이내에 수행 됩니다.
 
@@ -50,7 +55,7 @@ ms.locfileid: "42075331"
 
 ![차단 된 메시지 해결 옵션](../media/dlp-teams-blockedmessage-possibleactions.png)
 
-조직에서는 사용자가 DLP 정책을 재정의할 수 있도록 선택할 수 있습니다. 그리고 DLP 정책을 구성할 때 기본 정책 팁을 사용 하거나 조직에 대 한 [정책 팁을 사용자 지정할](#to-customize-policy-tips) 수 있습니다. 
+조직에서는 사용자가 DLP 정책을 재정의할 수 있도록 선택할 수 있습니다. 그리고 DLP 정책을 구성할 때 기본 정책 팁을 사용 하거나 조직에 대 한 [정책 팁을 사용자 지정할](#to-customize-policy-tips) 수 있습니다.
 
 예를 들어 보낸 사람이 팀 채널에서 주민 등록 번호를 공유 하는 경우, 받는 사람에 게 표시 되는 결과는 다음과 같습니다.
 
@@ -64,7 +69,7 @@ ms.locfileid: "42075331"
 
 1. Office 365 Security & 준수 센터 ([https://protection.office.com](https://protection.office.com))로 이동 하 여 로그인 합니다.
 
-2. **데이터 손실 방지** > **정책을**선택 합니다. 
+2. **데이터 손실 방지** > **정책을**선택 합니다.
 
 3. 정책을 선택 하 고 **정책 설정**옆에서 **편집**을 선택 합니다.
 
@@ -72,7 +77,7 @@ ms.locfileid: "42075331"
 
 5. **사용자 알림** 탭에서 **전자 메일 텍스트 사용자 지정** 및/또는 **정책 팁 텍스트 옵션 사용자 지정** 을 선택 합니다.<br/>![사용자 알림 및 정책 팁 사용자 지정](../media/dlp-teams-editrule-usernotifications.png)<br/>  
 
-6. 전자 메일 알림 및/또는 정책 팁에 사용할 텍스트를 지정 하 고 **저장**을 선택 합니다. 
+6. 전자 메일 알림 및/또는 정책 팁에 사용할 텍스트를 지정 하 고 **저장**을 선택 합니다.
 
 7. **정책 설정** 탭에서 **저장**을 선택 합니다.
 
@@ -84,7 +89,7 @@ ms.locfileid: "42075331"
 
 1. Office 365 Security & 준수 센터 ([https://protection.office.com](https://protection.office.com))로 이동 하 여 로그인 합니다.
 
-2. **데이터 손실 방지** > **정책을**선택 합니다. 
+2. **데이터 손실 방지** > **정책을**선택 합니다.
 
 3. 정책을 선택 하 고 **위치**아래의 값을 확인 합니다. **팀 채팅 및 채널 메시지가**표시 되 면 모든 설정이 완료 됩니다. 그렇지 않으면 **편집**을 클릭 합니다.<br/>![기존 정책에 대 한 위치](../media/dlp-teams-editexistingpolicy.png)<br/>
 
@@ -102,11 +107,11 @@ ms.locfileid: "42075331"
 
 1. Office 365 Security & 준수 센터 ([https://protection.office.com](https://protection.office.com))로 이동 하 여 로그인 합니다.
 
-2. **데이터 손실 방지** > **정책** > 및**정책 만들기를**선택 합니다. 
+2. **데이터 손실 방지** > **정책** > 및**정책 만들기를**선택 합니다.
 
 3. [서식 파일](data-loss-prevention-policies.md#dlp-policy-templates)을 선택 하 고 **다음**을 선택 합니다.<br/>이 예제에서는 미국 개인 식별이 가능한 정보 데이터 서식 파일을 선택 했습니다.<br/>![DLP 정책에 대 한 개인 정보 서식 파일](../media/dlp-teams-createnewpolicy-template.png)<br/>
 
-4. **정책 이름** 지정 탭에서 정책의 이름과 설명을 입력 하 고 **다음**을 선택 합니다. 
+4. **정책 이름** 지정 탭에서 정책의 이름과 설명을 입력 하 고 **다음**을 선택 합니다.
 
 5. **위치 선택** 탭에서 모든 위치의 기본 설정을 유지 하거나, **특정 위치 선택 허용**을 선택 하 고 **다음**을 선택 합니다.<br/>특정 위치를 선택 하는 경우 DLP 정책에 대해이를 선택한 후 **다음**을 선택 합니다.<br/>![DLP 정책 위치](../media/dlp-teams-selectlocationsnewpolicy.png)<br/>
     > [!NOTE]
@@ -120,7 +125,7 @@ ms.locfileid: "42075331"
 
 8. **정책 설정** 탭의 정책을 **설정 하거나 먼저 테스트를 수행**하 시겠습니까?에서 정책을 켤 지, [먼저](data-loss-prevention-policies.md#roll-out-dlp-policies-gradually-with-test-mode)테스트를 시작할지, 지금은 해제를 선택 하 고 **다음**을 선택 합니다.<br/>![정책을 켤 지 여부를 지정 합니다.](../media/dlp-teams-policysettings-turnonnow.png)<br/>
 
-9. **설정 검토** 탭에서 새 정책에 대 한 설정을 검토 합니다. **편집** 을 선택 하 여 변경 내용을 적용 합니다. 작업이 완료 되 면 **만들기**를 선택 합니다. 
+9. **설정 검토** 탭에서 새 정책에 대 한 설정을 검토 합니다. **편집** 을 선택 하 여 변경 내용을 적용 합니다. 작업이 완료 되 면 **만들기**를 선택 합니다.
 
 새 정책이 데이터 센터를 통해 작동 하 고 사용자 계정과 동기화 되도록 약 1 시간을 허용 합니다.
 
