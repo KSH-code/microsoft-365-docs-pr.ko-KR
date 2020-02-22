@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 87bb8faa13f34fbe299b6de82bdd9099eaaff5aa
-ms.sourcegitcommit: 82e6b56d7265f8389b0af8baf51acb3013d88754
+ms.openlocfilehash: 98b669a216b5c3a875cb1a42fd0cc97fb6112f1b
+ms.sourcegitcommit: b6ab845d64e2801051d249de09ad5059809b649a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41851855"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42222110"
 ---
 # <a name="australian-government-information-security-registered-assessor-program-irap"></a>오스트레일리아 정부 정보 보안 등록 된 평가자 Program (IRAP)
 
@@ -86,9 +86,9 @@ IRAP는 클라우드 서비스를 사용 하는 모든 오스트레일리아 연
 - [IRAP 교육을 제공 하는 사람은 누구 인가요?](https://acsc.gov.au/infosec/irap/training.htm)
 - [규정 준수 및 비호환 요구 사항 정보](https://acsc.gov.au/infosec/irap/compliance.htm)
 
-## <a name="use-microsoft-compliance-score-to-assess-your-risk"></a>Microsoft 준수 점수를 사용 하 여 위험 평가
+## <a name="use-microsoft-compliance-score-to-assess-your-risk"></a>Microsoft 준수 점수를 사용하여 위험 평가
 
-[Microsoft 준수 점수가](compliance-score.md) [microsoft 365 준수 센터](microsoft-365-compliance-center.md) 의 미리 보기 기능을 통해 조직의 규정 준수 상태를 이해 하 고 위험을 줄일 수 있는 조치를 취할 수 있습니다. [규정 준수 점수를 설정한](compliance-score-setup.md)후에는 미리 구성 된 [irap 서식 파일](https://go.microsoft.com/fwlink/?linkid=2117913) 을 사용 하 여 조직이이 규정 요구 사항을 충족 하는 데 도움을 받을 수 있습니다.
+[Microsoft 준수 점수](compliance-score.md)는 조직의 준수 입장을 이해하고 위험을 줄이기 위한 조치를 취하도록 돕는 [Microsoft 365 컴플라이언스 센터](microsoft-365-compliance-center.md)의 미리 보기 기능입니다. [규정 준수 점수를 설정한](compliance-score-setup.md)후에는 **서식 파일** 드롭다운 메뉴에서 미리 구성 된 [irap 서식 파일](https://go.microsoft.com/fwlink/?linkid=2117913) 을 선택 하 여 조직이이 규정 요구 사항을 충족 하는 데 도움을 받을 수 있습니다.
 
 ## <a name="resources"></a>리소스
 
@@ -96,4 +96,4 @@ IRAP는 클라우드 서비스를 사용 하는 모든 오스트레일리아 연
 - [Microsoft STP (서비스 트러스트 포털)의 오스트레일리아 페이지](https://aka.ms/au-irap)
 - [오스트레일리아 보안 및 게이트웨이 가이드](https://docs.microsoft.com/azure/azure-australia)
 - [ASD 인증 된 클라우드 서비스](https://acsc.gov.au/infosec/irap/certified_clouds.htm)
-- [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Microsoft 보안 센터의 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)

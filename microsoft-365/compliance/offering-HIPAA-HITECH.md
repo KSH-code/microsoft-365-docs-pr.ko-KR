@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: d6f6dc2cc8cb9a36816fa843fcea969d65c94dac
-ms.sourcegitcommit: 82e6b56d7265f8389b0af8baf51acb3013d88754
+ms.openlocfilehash: 52752c31ae52fa75a3a50dbd6a4aa27605f6d921
+ms.sourcegitcommit: 8876c216954b94adce9cdf493c49bd5a10190a3a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41851895"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42228514"
 ---
 # <a name="health-insurance-portability-and-accountability-hipaa--hitech-acts"></a>HITECH의 상태 보험 이식성 및 책임 (HIPAA) &
 
@@ -49,7 +49,7 @@ HIPAA 규정에 대해 다루는 엔터티 및 해당 비즈니스 관계자 (�
 
 Microsoft 엔터프라이즈 클라우드 서비스에는 FedRAMP 평가도 포함 됩니다. Microsoft Azure 및 Microsoft Azure 정부는 FedRAMP 공동 인증 위원회에서 운영 하는 Provisional 기관을 수신 했습니다. Microsoft Dynamics 365 U.S. 정부 기관에서 미국 부서, Microsoft Office 365 미국 정부 기관의 의료 부서와 도시 개발을 수행 하기 위한 에이전시 기관을 수신 했습니다.
 
-Microsoft 클라우드에서 HIPAA 및 HITECH의 장점 [(Zwanger-Pesiri Radiology Customer Story)](https://customers.microsoft.com/story/radiology-clinics-ease-compliance-drive-innovation-with-cloud-based-data-network) 에 대해 자세히 알아봅니다.
+고객이 Microsoft 클라우드를 통해 HIPAA 및 HITECH 요구 사항을 지원 하는 방법을 알아보려면 [Microsoft 고객 스토리](https://customers.microsoft.com)를 방문 하세요.
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 범위 내 클라우드 서비스
 
@@ -92,7 +92,7 @@ Microsoft 서비스가 모든 고객에 대해 일관성이 있으므로 microso
 
 **감사자 보고서의 복사본은 어떻게 얻을 수 있나요?**
 
-[서비스 보안 포털](https://www.microsoft.com/trustcenter/STP/default.aspx)은 독립적으로 감사를 거친 규정 준수 보고서를 제공합니다. 이 포털을 사용 하 여 감사자가 Microsoft의 클라우드 서비스 결과와 사용자의 법적 및 규정 요구 사항을 비교할 수 있도록 감사 보고서를 요청할 수 있습니다.
+[Service Trust Portal](https://www.microsoft.com/trustcenter/STP/default.aspx)은 독립적으로 감사를 거친 규정 준수 보고서를 제공합니다. 이 포털을 사용 하 여 감사자가 Microsoft의 클라우드 서비스 결과와 사용자의 법적 및 규정 요구 사항을 비교할 수 있도록 감사 보고서를 요청할 수 있습니다.
 
 **HIPAA 및 HITECH Act 준수에 대 한 자세한 내용은 어떻게 확인할 수 있나요?**
 
@@ -102,9 +102,9 @@ Microsoft 서비스가 모든 고객에 대해 일관성이 있으므로 microso
 - [Microsoft Azure를 사용 하 여 보안 상태 솔루션을 디자인 하는 실용적인 가이드](https://aka.ms/azureindustrysecurity) 를 통해 안전한 방식으로 클라우드 서비스를 성공적으로 채택 하는 데 필요한 정보를 보다 효율적으로 파악할 수 있습니다.
 - [Microsoft 클라우드에서 HIPAA 보안 및 개인 정보 요구 사항을 해결](https://smb.blob.core.windows.net/smbproduction/Content/Microsoft_Cloud_Healthcare_HIPAA_Security_Privacy.pdf) 하면 규정 요구 사항에 대 한 간략 한 개요를 제공 합니다. 또한 이러한 요구 사항에 매핑되는 방법론을 사용 하 여 Microsoft 클라우드 서비스가 구축 된 방식 및 준수 준비 솔루션을 구축 하는 방법에 대 한 자세한 분석을 제공 합니다.
 
-## <a name="use-microsoft-compliance-score-to-assess-your-risk"></a>Microsoft 준수 점수를 사용 하 여 위험 평가
+## <a name="use-microsoft-compliance-score-to-assess-your-risk"></a>Microsoft 준수 점수를 사용하여 위험 평가
 
-[Microsoft 준수 점수가](compliance-score.md) [microsoft 365 준수 센터](microsoft-365-compliance-center.md) 의 미리 보기 기능을 통해 조직의 규정 준수 상태를 이해 하 고 위험을 줄일 수 있는 조치를 취할 수 있습니다. [규정 준수 점수를 설정한](compliance-score-setup.md)후에는 미리 구성 된 [HIPAA Office 365 서식](https://go.microsoft.com/fwlink/?linkid=2118005) 파일과 [HIPAA Intune 서식](https://go.microsoft.com/fwlink/?linkid=2118006) 파일을 사용 하 여 조직이이 규정 요구 사항을 충족 하는 데 도움을 받을 수 있습니다.
+[Microsoft 준수 점수](compliance-score.md)는 조직의 준수 입장을 이해하고 위험을 줄이기 위한 조치를 취하도록 돕는 [Microsoft 365 컴플라이언스 센터](microsoft-365-compliance-center.md)의 미리 보기 기능입니다. [규정 준수 점수를 설정한](compliance-score-setup.md)후에는 **서식 파일** 드롭다운 메뉴에서 미리 구성 된 [HIPAA Office 365 서식 파일](https://go.microsoft.com/fwlink/?linkid=2118005) 및 [HIPAA Intune 서식](https://go.microsoft.com/fwlink/?linkid=2118006) 파일을 선택 하 여 조직이이 규정 요구 사항을 충족 하는 데 도움을 받을 수 있습니다.
 
 ## <a name="resources"></a>리소스
 
@@ -114,7 +114,7 @@ Microsoft 서비스가 모든 고객에 대해 일관성이 있으므로 microso
 - [Microsoft Government 클라우드](https://go.microsoft.com/fwlink/p/?linkid=2087246)
 - [Azure에서 HIPAA 준수 이해](https://www.youtube.com/embed/6ptdye1LZ5k?autoplay=0)(5 월 19 2016 일)
 - [Azure HIPAA 구현 지침](https://aka.ms/azure-hipaa-guide)
-- [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Microsoft 보안 센터의 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
 ## <a name="download-the-offering-backgrounder"></a>제공 사항의 배경 설명 다운로드
 

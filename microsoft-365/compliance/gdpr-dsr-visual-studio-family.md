@@ -18,12 +18,12 @@ ms.collection:
 ms.workload:
 - multiple
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 08c6bfbcfc571103939d0b824d5fda0fcb789bb6
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 159e7a69f0714b93913c36d745641485d7c80798
+ms.sourcegitcommit: 48b69caf6550e68cb14472ea8cfc76b53e7ae9c6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41596485"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42225511"
 ---
 # <a name="visual-studio-family-data-subject-requests-for-the-gdpr-and-ccpa"></a>GDPR 및 CCPA에 대한 Visual Studio 제품군 데이터 주체 요청
 
@@ -47,7 +47,7 @@ GDPR 대한 일반적인 내용은 [Service Trust portal의 GDPR 섹션](https:/
 
 GDPR에 따른 데이터 프로세서로, Microsoft는 사용자가 Mac 및 Microsoft 확장용 Visual Studio 및 Visual Studio에 대한 경험을 제공하고 해당 Studio 및 Visual Studio Code를 향상하기 위해 필요한 데이터를 수집합니다. 데이터에는 고객 데이터와 시스템 생성 로그라는 두 가지 범주가 있습니다. 고객 데이터에는 이러한 제품이 제공하는 서비스를 수행하는 데 필요한 사용자 식별 가능한 트랜잭션 및 상호 작용 데이터가 포함됩니다. 예를 들어, 사용자에게 로밍 설정과 같은 개인화된 환경을 제공하려면 사용자 계정 정보 및 설정 데이터를 수집해야 합니다. 시스템 생성 로그는 문제를 식별하고 해결하며 제품과 서비스를 개선하는 데 사용되는 사용 또는 진단 데이터이며 사용자 이름과 같은 최종 사용자에 대한 식별 가능한 정보를 포함할 수 있습니다. 시스템 생성 로그는 18개월 동안 보관됩니다. 예를 들어, 시스템 생성 로그는 매일 제품 사용에 대해 집계되며 사용 날짜, 사용된 제품(예: "Visual Studio 2017"), 취한 조치(예: "vs/core/packagecostsummary/solutionload"), 조치가 취해진 횟수를 포함합니다.
 
-```
+```Log
 {Time":"2/23/2018 12:00:00 AM","AppName":"Visual Studio 2017","Action":"vs/core/packagecostsummary/solutionload","Target":"1 times",
 "DevicePlatform":"Windows 10 Enterprise","IP":null,"InputMethod":null,
 "SearchTerm":null,"SearchResult":null}

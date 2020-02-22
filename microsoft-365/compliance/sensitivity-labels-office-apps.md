@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 사용자가 데스크톱에 대 한 Office 앱, 모바일 용 Office 앱 및 웹 용 Office 앱에서 민감도 레이블을 사용 하는 방법에 대해 알아봅니다. 민감도 레이블을 지 원하는 앱을 찾습니다.
-ms.openlocfilehash: 596580a413778e54a3aaeb04bae8f5f164a96c14
-ms.sourcegitcommit: 7dc36305721a92e19a6e397f906e19dcafa0073b
+ms.openlocfilehash: 5ca3d7b68f931b7596bc61a587d5e4199aa5f70f
+ms.sourcegitcommit: 48b69caf6550e68cb14472ea8cfc76b53e7ae9c6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/17/2020
-ms.locfileid: "42101238"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42225516"
 ---
 # <a name="use-sensitivity-labels-in-office-apps"></a>Office 앱의 민감도 레이블 사용
 
@@ -123,10 +123,15 @@ Office 365 메시지 암호화에 대해 정의 하는 것과 같은 관리자 �
 
 사용자는 각 문서 또는 전자 메일에 대해 한 번에 하나의 레이블만 적용할 수 있습니다.
 
-첨부 파일이 포함 된 전자 메일 메시지에 레이블을 지정 하면 첨부 파일이 레이블을 상속 하지 않습니다.
+첨부 파일이 포함 된 전자 메일 메시지에 레이블을 지정 하면 첨부 파일은 다음과 같은 한 가지 예외를 제외 하 고 레이블을 상속 하지 않습니다.
 
-- 첨부 파일에 레이블이 있으면 개별적으로 적용 된 레이블을 유지 합니다.
-- 첨부 파일에 레이블이 없으면 첨부 파일은 레이블을 사용 하지 않고 그대로 유지 됩니다. 그러나 전자 메일에 대한 레이블이 보호를 적용하는 경우 해당 보호는 Office 첨부 파일에 적용됩니다.
+- 이 첨부 파일은 암호화를 적용 하지 않는 레이블이 있는 Office 문서 이며 전자 메일 메시지에 적용 하는 레이블은 암호화를 적용 합니다. 이 경우 이메일로 받은 Office 문서는 해당 암호화 설정으로 전자 메일의 레이블을 상속 받습니다.
+
+방법 
+
+- 첨부 파일에 레이블이 있으면 원래 적용 된 레이블을 유지 합니다.
+- 레이블을 사용 하지 않고 첨부 파일을 암호화 하면 암호화는 유지 되지만 레이블이 지정 되지 않습니다.
+- 첨부 파일에 레이블이 없는 경우에는 레이블이 없는 상태로 유지 됩니다.
 
 ## <a name="sensitivity-label-compatibility"></a>민감도 레이블 호환성
 

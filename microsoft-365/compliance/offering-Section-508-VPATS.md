@@ -1,7 +1,7 @@
 ---
 title: 미국 508
 description: Microsoft는 이러한 서비스의 내게 필요한 옵션 기능을 설명 하는 많은 클라우드 서비스에 대 한 자세한 내게 필요한 옵션 규칙 보고서를 제공 합니다.
-keywords: Microsoft 365, 규정 준수, 제품
+keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: d9d0c213fcca5b991b4912d5b9158e2d3836aff9
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: dc5e8312f219176dbed7a84072c90e0ca165cd11
+ms.sourcegitcommit: 8876c216954b94adce9cdf493c49bd5a10190a3a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602025"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42228524"
 ---
 # <a name="us-section-508"></a>미국 508
 
@@ -45,7 +45,7 @@ Microsoft는 미국 연방 및 지방 정부에 대 한 주요 소프트웨어 �
 
 ## <a name="microsoft-accessibility-conformance-reports"></a>Microsft 접근성 적합성 보고서
 
-모든 제품 및 서비스에 대한 [적합성 보고서](https://go.microsoft.com/fwlink/p/?linkid=2050974)를 찾아보세요.
+모든 제품 및 서비스에 대한 [적합성 보고서](https://cloudblogs.microsoft.com/industry-blog/government/2018/09/11/accessibility-conformance-reports/)를 찾아보세요.
 
 ## <a name="resources"></a>리소스
 
@@ -53,7 +53,7 @@ Microsoft는 미국 연방 및 지방 정부에 대 한 주요 소프트웨어 �
 - [Office 365 접근성 센터](https://go.microsoft.com/fwlink/p/?linkid=2051801): 장애가 있는 사용자를 위한 Office 365 리소스
 - [Enterprise Disability Answer Desk](https://go.microsoft.com/fwlink/p/?linkid=2050890): 제품 및 서비스 또는 규정 준수에 대한 접근성과 관련된 질문이 있는 엔터프라이즈 고객을 위한 전용 지원
 - [DHS 신뢰할 수 있는 테스터 프로그램](https://go.microsoft.com/fwlink/?linkid=2052171): Microsoft가 참여 하는 DHS (Homeland Security) 신뢰할 수 있는 테스터 프로그램에 대 한 정보를 가져옵니다.
-- [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Microsoft 보안 센터의 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
 ## <a name="download-the-offering-backgrounder"></a>제공 사항의 배경 설명 다운로드
 

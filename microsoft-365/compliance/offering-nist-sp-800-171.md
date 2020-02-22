@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: a08932d4f16a17b35fef11cdcd8243c96060a4b5
-ms.sourcegitcommit: 82e6b56d7265f8389b0af8baf51acb3013d88754
+ms.openlocfilehash: e90d5e47c6aa5ac6c2813f150e8136b93214fa3d
+ms.sourcegitcommit: b6ab845d64e2801051d249de09ad5059809b649a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41851785"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42222000"
 ---
 # <a name="nist-sp-800171"></a>NIST SP 800 – 171
 
@@ -63,9 +63,9 @@ US 정부 기관, 컨설팅 회사, 제조 계약자 등을 처리 하거나 저
 
 예. Microsoft 고객은 FedRAMP 표준에 대 한 독립 타사 평가 조직 (3PAO)의 보고서에 설명 된 감사 되는 컨트롤을 고유한 FedRAMP 및 NIST 위험 분석 및 한정 노력의 일부로 사용할 수 있습니다. 이러한 보고서는 Microsoft가 해당 범위 내 클라우드 서비스에서 구현한 컨트롤의 효율성을 보증 합니다. 고객은 171 규정을 준수 하 고 NIST SP 800?
 
-## <a name="use-microsoft-compliance-score-to-assess-your-risk"></a>Microsoft 준수 점수를 사용 하 여 위험 평가
+## <a name="use-microsoft-compliance-score-to-assess-your-risk"></a>Microsoft 준수 점수를 사용하여 위험 평가
 
-[Microsoft 준수 점수가](compliance-score.md) [microsoft 365 준수 센터](microsoft-365-compliance-center.md) 의 미리 보기 기능을 통해 조직의 규정 준수 상태를 이해 하 고 위험을 줄일 수 있는 조치를 취할 수 있습니다. [규정 준수 점수를 설정한](compliance-score-setup.md)후에는 미리 구성 된 [NIST 800-171 서식 파일](https://go.microsoft.com/fwlink/?linkid=2117526) 을 사용 하 여 조직이이 규정 요구 사항을 충족 하는 데 도움을 받을 수 있습니다.
+[Microsoft 준수 점수](compliance-score.md)는 조직의 준수 입장을 이해하고 위험을 줄이기 위한 조치를 취하도록 돕는 [Microsoft 365 컴플라이언스 센터](microsoft-365-compliance-center.md)의 미리 보기 기능입니다. [규정 준수 점수를 설정한](compliance-score-setup.md)후에는 **서식 파일** 드롭다운 메뉴에서 미리 구성 된 [NIST 800-171 서식 파일](https://go.microsoft.com/fwlink/?linkid=2117526) 을 선택 하 여 조직이이 규정 요구 사항을 충족 하는 데 도움을 받을 수 있습니다.
 
 ## <a name="resources"></a>리소스
 

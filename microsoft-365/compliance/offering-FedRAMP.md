@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 71be1e70a04881b937ee1f75d5fda6f03efdbd5f
-ms.sourcegitcommit: 82e6b56d7265f8389b0af8baf51acb3013d88754
+ms.openlocfilehash: fb667cdf13ed8ed6777f454b8fa3e21342f90272
+ms.sourcegitcommit: b6ab845d64e2801051d249de09ad5059809b649a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41851865"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42222090"
 ---
 # <a name="federal-risk-and-authorization-management-program-fedramp"></a>FedRAMP(Federal Risk and Authorization Management Program)
 
@@ -109,9 +109,9 @@ FedRAMP을 성공적으로 탐색 하 고 요구 사항을 충족 하기 위해 
 
 예. 연방 정부 기관에서 ATO를 필요로 하는 모든 프로그램 또는 이니셔티브의 기반으로 Microsoft 클라우드 서비스의 인증을 사용할 수 있습니다. 그러나 이러한 서비스 외부의 구성 요소에 대 한 사용자의 권한 부여를 구현 해야 합니다.
 
-## <a name="use-microsoft-compliance-score-to-assess-your-risk"></a>Microsoft 준수 점수를 사용 하 여 위험 평가
+## <a name="use-microsoft-compliance-score-to-assess-your-risk"></a>Microsoft 준수 점수를 사용하여 위험 평가
 
-[Microsoft 준수 점수가](compliance-score.md) [microsoft 365 준수 센터](microsoft-365-compliance-center.md) 의 미리 보기 기능을 통해 조직의 규정 준수 상태를 이해 하 고 위험을 줄일 수 있는 조치를 취할 수 있습니다. [규정 준수 점수를 설정한](compliance-score-setup.md)후에는 미리 구성 된 [FedRAMP 서식 파일](https://go.microsoft.com/fwlink/?linkid=2118102) 을 사용 하 여 조직이이 규정 요구 사항을 충족 하는 데 도움을 받을 수 있습니다.
+[Microsoft 준수 점수](compliance-score.md)는 조직의 준수 입장을 이해하고 위험을 줄이기 위한 조치를 취하도록 돕는 [Microsoft 365 컴플라이언스 센터](microsoft-365-compliance-center.md)의 미리 보기 기능입니다. [규정 준수 점수를 설정한](compliance-score-setup.md)후에는 **서식 파일** 드롭다운 메뉴에서 미리 구성 된 [FedRAMP 서식 파일](https://go.microsoft.com/fwlink/?linkid=2118102) 을 선택 하 여 조직이이 규정 요구 사항을 충족 하는 데 도움을 받을 수 있습니다.
 
 ## <a name="resources"></a>리소스
 
@@ -119,7 +119,7 @@ FedRAMP을 성공적으로 탐색 하 고 요구 사항을 충족 하기 위해 
 - [Microsoft 공통 컨트롤 허브 규정 준수 프레임 워크](https://www.microsoft.com/trustcenter/common-controls-hub)
 - [Microsoft Government 클라우드](https://go.microsoft.com/fwlink/p/?linkid=2087246)
 - [FedRAMP 보안 평가 프레임 워크](https://go.microsoft.com/fwlink/p/?linkid=2099507)
-- [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Microsoft 보안 센터의 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
 ## <a name="download-the-offering-backgrounder"></a>제공 사항의 배경 설명 다운로드
 
