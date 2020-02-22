@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 ms.collection: M365-security-compliance
 description: Office 365 Advanced Threat Protection 계획 2의 자동화 된 조사 및 응답 기능 사용을 시작 하세요.
-ms.openlocfilehash: d777ca0a61655c8df16d62c72691195bdec330a9
-ms.sourcegitcommit: 2f117a6fd27a097ca25afa933dd088b69d483974
+ms.openlocfilehash: 7bfa07880a302f77769ee15e9108db21dac2519c
+ms.sourcegitcommit: 8876c216954b94adce9cdf493c49bd5a10190a3a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42175782"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42228573"
 ---
 # <a name="office-365-automated-investigation-and-response"></a>Office 365 자동 조사 및 응답
 
@@ -42,3 +42,31 @@ ms.locfileid: "42175782"
 - [조사 결과로 작업 검토 및 승인](air-remediation-actions.md#approve-or-reject-pending-actions)
 
 자세한 내용은 [AIR works](https://docs.microsoft.com/microsoft-365/security/office-365-security/automated-investigation-response-office)를 참조 하세요.
+
+## <a name="how-to-get-air"></a>공기를 얻는 방법
+
+Office 365 AIR은 다음의 구독에 포함되어 있습니다.
+
+- Microsoft 365 E5
+- Office 365 E5
+- Microsoft 위협 방지
+- Office 365 Advanced Threat Protection Plan 2
+
+이러한 구독을 사용 하지 않는 경우 [무료 평가판을 시작](https://go.microsoft.com/fwlink/p/?LinkID=698279&culture=en-US&country=US)합니다.
+
+기능 가용성에 대 한 자세한 내용은 [ATP (Advanced Threat Protection) 계획에서 사용 가능한 기능](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans)을 참조 하세요.
+
+## <a name="required-permissions-to-use-air-capabilities"></a>AIR 기능을 사용 하는 데 필요한 사용 권한
+
+사용 권한은 다음 표에 설명 된 것과 같은 특정 역할을 통해 부여 됩니다. 
+
+|작업 |필요한 역할 |
+|--|--|
+|AIR 기능을 설정 하려면 |다음 역할 중 하나입니다. <br/>- **전역 관리자**<br/>- **보안 관리자** <br/>이러한 역할은 [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles) 또는 [Office 365 보안 & 준수 센터](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center)에서 할당 될 수 있습니다. |
+|권장 작업을 승인 하거나 거부 하려면|[Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles) 또는 [Office 365 보안 & 준수 센터](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center))에서 할당 된 다음 역할 중 하나입니다.<br/>- **전역 관리자** <br/>- **보안 관리자**<br/>- **보안 독자** <br/>--- 및 ---<br/>- **검색 및 제거** (이 역할은 [Office 365 보안 & 준수 센터](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center)에만 할당 됩니다. 여기에 새 역할 그룹을 만들고 새 역할 그룹에 검색 및 제거 역할을 추가 해야 할 수 있습니다.
+
+## <a name="related-articles"></a>관련 문서
+
+- [Microsoft Threat Protection의 자동화된 조사 및 대응](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-autoir)
+
+- [Microsoft Defender Advanced Threat Protection의 자동화 된 조사 및 재구성](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/automated-investigations)

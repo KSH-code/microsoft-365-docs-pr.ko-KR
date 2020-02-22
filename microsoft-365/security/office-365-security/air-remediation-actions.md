@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 ms.collection: M365-security-compliance
 description: Office 365 Advanced Threat Protection 계획 2의 자동화 된 조사 및 응답 기능의 수정 작업에 대해 알아봅니다.
-ms.openlocfilehash: 1a39ffb5bf57e0f4ffa38a210c299480d3081345
-ms.sourcegitcommit: 2f117a6fd27a097ca25afa933dd088b69d483974
+ms.openlocfilehash: e75ef1523247cbddcf6cb28d69a889db1de8e42f
+ms.sourcegitcommit: 8876c216954b94adce9cdf493c49bd5a10190a3a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42175953"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42228534"
 ---
 # <a name="remediation-actions-following-an-automated-investigation-in-office-365"></a>Office 365의 자동화 된 조사에 따라 수정 작업
 
@@ -42,14 +42,13 @@ Office 365의 [자동화 된 조사 및 응답 기능](https://docs.microsoft.co
 [조사 세부 정보](air-view-investigation-results.md)를 볼 때 보류 중인 모든 수정 작업을 승인 하거나 거부할 수 있습니다. 자동 조사가 완료 되도록 가능한 한 빨리이 작업을 수행 하는 것이 좋습니다.
 
 > [!IMPORTANT]
-> 재구성 작업을 승인 하거나 거부 하려면 적절 한 사용 권한이 필요 합니다. [AIR 기능을 사용 하려면 필수 권한을](automated-investigation-response-office.md#required-permissions-to-use-air-capabilities)참조 하세요.
+> 재구성 작업을 승인 하거나 거부 하려면 적절 한 사용 권한이 필요 합니다. [AIR 기능을 사용 하려면 필수 권한을](office-365-air.md#required-permissions-to-use-air-capabilities)참조 하세요.
 
 1. **작업** 탭을 선택 합니다.
 
 2. 목록에서 항목을 선택 합니다. 승인 및 거부 단추가 활성화 됩니다.
 
 3. 선택한 항목에 대해 사용 가능한 정보를 검토 하 고 작업을 승인 하거나 거부 합니다. 
-
  - **승인** 을 사용 하 여 업데이트를 시작할 수 있습니다.
  - **거부** 는 추가 작업을 수행 하지 않습니다.
 

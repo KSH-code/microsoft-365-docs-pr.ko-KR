@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 ms.collection: M365-security-compliance
 description: Office 365 Advanced Threat Protection 계획 2의 자동화 된 조사 및 응답 기능에 대 한 개요를 확인 하세요.
-ms.openlocfilehash: 8f781687047f39d4d038e293e50c9caad83d051a
-ms.sourcegitcommit: 87cc278ea2ddcd536ecfaa3dfae9a5ddaa502cf9
+ms.openlocfilehash: 436d70934e32f8609d35532188ac71cbd590c345
+ms.sourcegitcommit: 8876c216954b94adce9cdf493c49bd5a10190a3a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 02/21/2020
-ms.locfileid: "42179249"
+ms.locfileid: "42228584"
 ---
 # <a name="automated-investigation-and-response-air-in-office-365"></a>Office 365의 자동화 된 조사 및 응답 (AIR)
 
@@ -132,28 +132,6 @@ AIR에서는 각 보안 playbook 다음이 포함 됩니다.
 ![탐색기에서 맬웨어 조사 시작](../../media/Explorer-Malware-Email-ActionsInvestigate.png)
 
 경고로 트리거되는 playbook와 마찬가지로, 탐색기의 보기에서 트리거되는 자동 조사에는 루트 조사, 위협의 식별 및 상관 지정, 위협 완화를 위한 권장 작업 등이 포함 됩니다.
-
-## <a name="how-to-get-air"></a>공기를 얻는 방법
-
-Office 365 AIR은 다음의 구독에 포함되어 있습니다.
-
-- Microsoft 365 E5
-- Office 365 E5
-- Microsoft 위협 방지
-- Office 365 Advanced Threat Protection Plan 2
-
-이러한 구독을 사용 하지 않는 경우 [무료 평가판을 시작](https://go.microsoft.com/fwlink/p/?LinkID=698279&culture=en-US&country=US)합니다.
-
-기능 가용성에 대 한 자세한 내용은 [ATP (Advanced Threat Protection) 계획에서 사용 가능한 기능](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans)을 참조 하세요.
-
-## <a name="required-permissions-to-use-air-capabilities"></a>AIR 기능을 사용 하는 데 필요한 사용 권한
-
-사용 권한은 다음 표에 설명 된 것과 같은 특정 역할을 통해 부여 됩니다. 
-
-|작업 |필요한 역할 |
-|--|--|
-|AIR 기능을 설정 하려면 |다음 역할 중 하나입니다. <br/>- **전역 관리자**<br/>- **보안 관리자** <br/>이러한 역할은 [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles) 또는 [Office 365 보안 & 준수 센터](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center)에서 할당 될 수 있습니다. |
-|권장 작업을 승인 하거나 거부 하려면|[Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles) 또는 [Office 365 보안 & 준수 센터](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center))에서 할당 된 다음 역할 중 하나입니다.<br/>- **전역 관리자** <br/>- **보안 관리자**<br/>- **보안 독자** <br/>--- 및 ---<br/>- **검색 및 제거** (이 역할은 [Office 365 보안 & 준수 센터](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center)에만 할당 됩니다. 여기에 새 역할 그룹을 만들고 새 역할 그룹에 검색 및 제거 역할을 추가 해야 할 수 있습니다.
 
 ## <a name="next-steps"></a>다음 단계
 

@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 ms.topic: conceptual
 ms.custom: autoir
-ms.openlocfilehash: 73bb90a0537df8e6f23e4e0e50a748aebda3a487
-ms.sourcegitcommit: 2f117a6fd27a097ca25afa933dd088b69d483974
+ms.openlocfilehash: 65ace4bda091b3e000d25a984b706f26fe9c8696
+ms.sourcegitcommit: 48b69caf6550e68cb14472ea8cfc76b53e7ae9c6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42175951"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42225486"
 ---
 # <a name="remediation-actions-in-automated-investigation-and-response-capabilities-in-microsoft-threat-protection"></a>Microsoft Threat Protection의 자동화 된 조사 및 응답 기능의 수정 작업
 
@@ -36,7 +36,7 @@ Microsoft Threat Protection의 자동화 된 조사 및 응답 기능은 특정 
 
 |끝점 수정 작업  |전자 메일 수정 작업  |
 |---------|---------|
-|파일 격리<br/>레지스트리 키 추가<br/>프로세스 중단 <br/>서비스 중지 <br/>레지스트리 키 추가 <br/>드라이버 해제 <br/>예약된 작업 제거      |전자 메일 메시지 또는 클러스터의 일시 삭제<br/>차단 URL(클릭 시간)<br/>외부 메일 전달 해제          |
+|파일 격리<br/>레지스트리 키 추가<br/>프로세스 중단 <br/>서비스 중지 <br/>드라이버 해제 <br/>예약된 작업 제거      |전자 메일 메시지 또는 클러스터의 일시 삭제<br/>차단 URL(클릭 시간)<br/>외부 메일 전달 해제          |
 
 승인 보류 중 이거나 이미 완료 되었는지 여부에 관계 없이 수정 작업은 [알림 센터](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-action-center)에서 볼 수 있습니다.
 

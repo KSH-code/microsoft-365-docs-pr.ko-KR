@@ -18,21 +18,19 @@ ms.collection:
 - M365-security-compliance
 ms.topic: conceptual
 ms.custom: autoir
-ms.openlocfilehash: fa572e71ec5b6613e5db7751e0341ea94fb9bf5f
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 5118f7fddaee0fa768675597dee862eb75e4ed96
+ms.sourcegitcommit: 48b69caf6550e68cb14472ea8cfc76b53e7ae9c6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42087545"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42225496"
 ---
 # <a name="approve-or-reject-pending-actions-from-automated-investigations"></a>자동화된 검사에서 대기 중인 작업 승인 또는 거부
 
 **적용 대상:**
 - Microsoft 위협 방지
 
-[!INCLUDE [Prerelease information](../includes/prerelease.md)]
-
-자동화 조사가 실행되면 승인이 필요한 [수정 작업](mtp-action-center.md#remediation-actions)이 하나 이상 진행될 수 있습니다. 예를 들어 전자 메일 메시지의 클러스터를 삭제 하거나 격리된 파일을 제거해야 할 수 있습니다. 자동화된 조사가 진행되고 적시에 완료될 수 있도록 가능한 한 빨리 보류 중인 작업을 승인하거나 거부하는 것이 중요합니다. 
+자동화 조사가 실행되면 승인이 필요한 [수정 작업](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-remediation-actions)이 하나 이상 진행될 수 있습니다. 예를 들어 전자 메일 메시지의 클러스터를 삭제 하거나 격리된 파일을 제거해야 할 수 있습니다. 자동화된 조사가 진행되고 적시에 완료될 수 있도록 가능한 한 빨리 보류 중인 작업을 승인하거나 거부하는 것이 중요합니다. 
 
 > [!TIP]
 > Microsoft Threat Protection의 자동화 된 조사 및 응답 기능을 통해 누락 되었거나 지워지는이 감지 되었다고 생각 되 면 알려주세요. [Microsoft Threat Protection에서 자동 조사 및 응답 (AIR) 기능을 통해 허위 긍정/네거티브를 보고 하는 방법을](mtp-autoir-report-false-positives-negatives.md)참조 하세요.

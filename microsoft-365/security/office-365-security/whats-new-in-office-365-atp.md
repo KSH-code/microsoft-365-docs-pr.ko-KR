@@ -15,13 +15,13 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.date: 01/28/2020
-ms.openlocfilehash: acb6dbf69033b97f2899738a5ca17182ac9942c6
-ms.sourcegitcommit: ee18bdd08e85b1262b91c180ccf61df59c19dab2
+ms.date: 02/21/2020
+ms.openlocfilehash: 09cf8e74cb52d75d454fec371ee965978851b5e5
+ms.sourcegitcommit: 74bf600424d0cb7b9d16b4f391aeda7875058be1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42106851"
+ms.lasthandoff: 02/22/2020
+ms.locfileid: "42230071"
 ---
 # <a name="whats-new-in-office-365-atp"></a>Office 365 ATP의 새로운 기능
 
@@ -45,6 +45,8 @@ ms.locfileid: "42106851"
     - 자세한 시간 필터 (일, 시간, 30 분) 
 
 - **문제** 위젯은 이제 **동작 센터** 위젯입니다. 보안 위젯을 보려면 Office 365 보안 & 준수 센터에서 **위협 관리** > **검토**로 이동 합니다.
+
+- [Office 365의 안전 문서](https://docs.microsoft.com/microsoft-365/security/office-365-security/safe-docs) **(미리 보기)**
 
 ## <a name="december-2019"></a>2019년 12월
 
