@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 6791754e0d34ca2ca564a805269bb9fdc216d0ad
-ms.sourcegitcommit: 82e6b56d7265f8389b0af8baf51acb3013d88754
+ms.openlocfilehash: e2a26b91de38c876145b9b5b1c7765058b4b25a3
+ms.sourcegitcommit: b6ab845d64e2801051d249de09ad5059809b649a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41851875"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42222060"
 ---
 # <a name="isoiec-27018-code-of-practice-for-protecting-personal-data-in-the-cloud"></a>클라우드 내 개인 데이터 보호를 위한 ISO/IEC 27018 규약
 
@@ -123,7 +123,7 @@ ISO/IEC 27018 관련:
 
 ## <a name="use-microsoft-compliance-score-to-assess-your-risk"></a>Microsoft 준수 점수를 사용하여 위험 평가
 
-[Microsoft 준수 점수](compliance-score.md)는 조직의 준수 입장을 이해하고 위험을 줄이기 위한 조치를 취하도록 돕는 [Microsoft 365 컴플라이언스 센터](microsoft-365-compliance-center.md)의 미리 보기 기능입니다. [ 준수점수를 설정](compliance-score-setup.md)한 후, 사전 구성된 [ISO 27018 템플릿](https://go.microsoft.com/fwlink/?linkid=2117523)을 사용하여 조직이 이 규정에 대한 요구 사항을 충족하도록하십시오.
+[Microsoft 준수 점수](compliance-score.md)는 조직의 준수 입장을 이해하고 위험을 줄이기 위한 조치를 취하도록 돕는 [Microsoft 365 컴플라이언스 센터](microsoft-365-compliance-center.md)의 미리 보기 기능입니다. [준수 점수를 설정](compliance-score-setup.md)한 후, **서식 파일** 드롭다운 메뉴에서 사전 구성된 [ISO 27018 서식 파일](https://go.microsoft.com/fwlink/?linkid=2117523)을 선택하여 조직이 이 규정에 대한 요구 사항을 충족할 수 있도록 하십시오.
 
 ## <a name="resources"></a>리소스
 

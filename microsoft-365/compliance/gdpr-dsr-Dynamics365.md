@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: fee4e0472a6d9b08bdab4c5340097d4222aac1d9
-ms.sourcegitcommit: 836bd8135cc49d6db37e78a7cfeb7d2cc4159e4e
+ms.openlocfilehash: 1eeed6c1dfef1765089a5998200c93be595a719a
+ms.sourcegitcommit: 48b69caf6550e68cb14472ea8cfc76b53e7ae9c6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/04/2020
-ms.locfileid: "41722019"
+ms.lasthandoff: 02/21/2020
+ms.locfileid: "42225526"
 ---
 # <a name="dynamics-365-data-subject-requests-for-the-gdpr-and-ccpa"></a>GDPR 및 CCPA에 대한 Dynamics 365 데이터 주체 요청
 
@@ -82,10 +82,9 @@ Dynamics 365는 여러 데이터 처리 기능을 SaaS(Software-as-a-Service)로
 
 Microsoft는 데이터 주체 권리 요청에 응답하고 고객 데이터에 액세스하는 데 도움이 될 수 있는 기능을 제공합니다. 그렇지만 개인 데이터를 적절히 찾아 분류하는 것은 귀하의 책임입니다.
 
-***Dynamics 365 for Customer Engagement***는 상세하게 찾기 검색, 관련성 검색, 레코드 검색과 같이 레코드 내에서 개인 데이터를 검색하는 여러 방법을 제공합니다.  이러한 기능을 통해 개인 데이터를 식별하고 찾을 수 있습니다.
+***Dynamics 365 for Customer Engagement***는 상세하게 찾기 검색 및 레코드 검색과 같이 레코드 내에서 개인 데이터를 검색하는 여러 방법을 제공합니다.  이러한 기능을 통해 개인 데이터를 식별하고 찾을 수 있습니다.
 
 - [상세하게 찾기 검색](https://docs.microsoft.com/dynamics365/customer-engagement/basics/save-advanced-find-search)
-- [관련성 검색](https://docs.microsoft.com/dynamics365/customer-engagement/basics/relevance-search-results): 대시보드를 사용하여 나중에 참조하기 위해 저장할 수 있습니다.
 - [레코드 검색](https://docs.microsoft.com/dynamics365/customer-engagement/basics/search-records): 여러 레코드 유형 간에 검색 가능
 
 Dynamics 365 for Marketing에서는 다음과 같은 추가 기능을 사용할 수 있습니다.
