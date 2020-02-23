@@ -17,19 +17,19 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Microsoft 365의 고급 감사는 조직에서 법의학 및 규정 준수 조사를 수행하는 데 도움이 되는 새로운 감사 기능을 제공합니다.
-ms.openlocfilehash: e06e7f6330a36c8f98042fcce472b7baf6ef16ff
-ms.sourcegitcommit: c2a36b16e354e20db5fd6275175ca856eae55bfc
+ms.openlocfilehash: 79c7e24349d3b6603e82946fda4a3c1f0c0ae6ff
+ms.sourcegitcommit: 1c445d68e54ca4249024ca4bb72460dd6fac0a2d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "41960244"
+ms.lasthandoff: 02/20/2020
+ms.locfileid: "42170518"
 ---
 # <a name="advanced-audit-in-microsoft-365"></a>Microsoft 365의 고급 감사
 
 Microsoft 365의 [통합 감사 기능](search-the-audit-log-in-security-and-compliance.md)은 조직에 Microsoft 365의 여러 서비스에서 다양한 유형의 감사 활동에 대한 가시성을 제공합니다. 이제 Microsoft 365의 고급 감사가 릴리스되면서 조직에서 법의학 및 규정 준수 조사를 수행하는 데 도움이 되는 새로운 감사 기능이 추가되었습니다.
 
 > [!NOTE]
-> Office 365 또는 Microsoft 365 Enterprise E5 구독이 있는 조직의 경우 고급 감사 기능을 사용할 수 있습니다. 또한 감사 로그의 장기 보존 및 높은 값의 감사 이벤트의 경우와 같이 고급 감사 기능에 사용자별 라이선스가 필요한 경우 Microsoft 365 E5 규정 준수 추가 기능 구독을 사용자에게 할당할 수 있습니다.
+> Office 365 또는 Microsoft 365 Enterprise E5 구독이 있는 조직의 경우 고급 감사 기능을 사용할 수 있습니다. 또한 감사 로그의 장기 보존 및 조사를 위한 중요 이벤트에 대한 액세스와 같이 고급 감사 기능에 사용자별 라이선스가 필요한 경우 Microsoft 365 E5 규정 준수 추가 기능 구독을 사용자에게 할당할 수 있습니다.
 
 이 문서는 이러한 고급 감사 기능에 대한 개요를 제공합니다.
 
@@ -49,9 +49,9 @@ Microsoft 365의 [통합 감사 기능](search-the-audit-log-in-security-and-com
 
 특정 정책이 다른 정책보다 우선하도록 정책 및 우선순위 수준과 일치하는 감사 레코드에 대한 보존 기간을 지정할 수도 있습니다. 또한 조직의 일부 또는 모든 사용자에 대해 Exchange, SharePoint 또는 Azure Active Directory 감사 레코드를 1년 미만 동안 유지해야하는 경우 사용자 지정 감사 로그 보존 정책이 기본 감사 보존 정책보다 우선합니다. 자세한 내용은 [감사 로그 보존 정책 관리](audit-log-retention-policies.md)를 참조하십시오.
 
-## <a name="high-value-audit-events"></a>가치가 높은 감사 이벤트
+## <a name="access-to-crucial-events-for-investigations"></a>조사에 대한 중요 이벤트 액세스
 
-가치가 높은 보안 및 준수 관련 감사 이벤트는 가능한 위반사항 또는 기타 법의학 관련 조사를 조사하는 데 도움이 되는 감사 이벤트입니다. Microsoft가 발표하는 첫 번째 고 가치 이벤트는 *MailItemsAccessed* 사서함 감사 이벤트입니다. 이 이벤트는 메일 프로토콜 및 클라이언트가 메일 데이터에 액세스할 때 트리거됩니다. MailItemsAccessed 이벤트는 조사자가 데이터 유출을 식별하고 손상되었을 수 있는 메시지 범위를 결정하는 데 도움이됩니다. 공격자가 전자 메일 메시지에 액세스한 경우 실제로 메시지를 읽었다는 명시적인 신호가 없는 경우에도 MailItemsAccessed 이벤트가 트리거됩니다(즉, 바인딩 또는 동기화를 통한 액세스 유형이 감사 레코드에 기록됨).
+중요한 보안 및 준수 관련 감사 이벤트는 가능한 위반사항 또는 기타 법의학 관련 조사를 조사하는 데 도움이 되는 감사 이벤트입니다. Microsoft가 발표하는 첫 번째 중요한 이벤트는 *MailItemsAccessed* 사서함 감사 이벤트입니다. 이 이벤트는 메일 프로토콜 및 클라이언트가 메일 데이터에 액세스할 때 트리거됩니다. MailItemsAccessed 이벤트는 조사자가 데이터 유출을 식별하고 손상되었을 수 있는 메시지 범위를 결정하는 데 도움이됩니다. 공격자가 전자 메일 메시지에 액세스한 경우 실제로 메시지를 읽었다는 명시적인 신호가 없는 경우에도 MailItemsAccessed 이벤트가 트리거됩니다(즉, 바인딩 또는 동기화를 통한 액세스 유형이 감사 레코드에 기록됨).
 
 새로운 MailItemsAccessed 사서함 작업은 Exchange Online의 사서함 감사 로깅에서 MessageBind를 대체하고 다음과 같은 향상된 기능을 제공합니다.
 
