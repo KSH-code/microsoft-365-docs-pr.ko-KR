@@ -1,5 +1,5 @@
 ---
-title: Microsoft Threat Protection의 자동화된 조사 및 대응
+title: Microsoft Threat Protection의 자동화 된 조사 및 응답 기능
 description: Microsoft Threat Protection의 자동화된 조사 및 대응 기능에 대한 개요를 확인하세요.
 keywords: 자동화된, 조사, 경고, 트리거, 작업, 수정
 search.appverid: met150
@@ -18,23 +18,21 @@ ms.collection:
 - M365-security-compliance
 ms.topic: conceptual
 ms.custom: autoir
-ms.openlocfilehash: da7216aa94455a4b431e540b976f8a1662378a58
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: f54ec3c0b318acaf6c81d26f32cfde5e87585a13
+ms.sourcegitcommit: 133bf7936e5ef1a4d06998429d0d01096bda929f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600075"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42261995"
 ---
-# <a name="automated-investigation-and-response-air-in-microsoft-threat-protection"></a>Microsoft Threat Protection의 자동화된 조사 및 대응(AIR)
+# <a name="automated-investigation-and-response-air-capabilities-in-microsoft-threat-protection"></a>Microsoft Threat Protection의 자동 조사 및 응답 (AIR) 기능
 
 **적용 대상:**
 - Microsoft Threat Protection
 
-[!INCLUDE [Prerelease information](../includes/prerelease.md)]
+보안 경고가 트리거되면 보안 운영팀이 해당 경고를 살펴보고 조직 보호 단계를 수행해야 합니다. 조사가 진행되는 동안 새 경고를 계속해서 받는 경우 경고 우선 순위를 설정하고 검사하는 것은 매우 시간이 오래 걸릴 수 있습니다. 보안 운영 팀은 모니터링하고 방어해야 하는 많은 위협 요소를 통해 압도될 수 있습니다. Microsoft Threat Protection의 자동 조사 및 응답 (AIR) 기능은 도움이 될 수 있습니다. AIR은 보안 운영 센터에서 가상 분석가를 보유 하 고 있는 것과 같습니다.
 
 ## <a name="your-virtual-analyst"></a>가상 분석가
-
-보안 경고가 트리거되면 보안 운영팀이 해당 경고를 살펴보고 조직 보호 단계를 수행해야 합니다. 조사가 진행되는 동안 새 경고를 계속해서 받는 경우 경고 우선 순위를 설정하고 검사하는 것은 매우 시간이 오래 걸릴 수 있습니다. 보안 운영 팀은 모니터링하고 방어해야 하는 많은 위협 요소를 통해 압도될 수 있습니다. 
 
 계층 1/계층 2 보안 운영팀에 가상 분석가가 있다고 가정합니다. 가상 분석가가 보안 운영에서 위협을 조사하고 수정하는 데 취하는 이상적인 단계를 모방합니다. 가상 도우미는 연중무휴, 무제한으로 작업하고, 상당한 양의 조사와 위협 수정을 수행할 수 있습니다. 이러한 가상 도우미는 대응 시간을 크게 줄이고 보안 운영팀이 다른 중요한 전략 프로젝트를 수행할 수 있도록 합니다. 이 시나리오가 공상 과학 소설 같이 들린다면 그렇지 않습니다! 이러한 가상 분석가는 Microsoft Threat Protection 제품군의 일부이며, 이름은 *자동화된 조사와 대응*(AIR)입니다.
 
@@ -73,6 +71,7 @@ AIR을 사용하면 보안 운영팀에서 보안 경고와 인시던트를 처�
 |구독 요구 사항 |- ID 및 위협 방지가 있는 Microsoft 365 E5 또는 Microsoft 365 E3<br/>= [Microsoft 365 요금제](https://docs.microsoft.com/microsoft-365/enterprise/microsoft-365-overview#plans) 참조|
 |네트워크 요구 사항 |- [Azure ATP](https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp) 사용<br/>- [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security)(MCAS) 구성됨<br/>- [Azure ATP와 통합된 MCAS](https://docs.microsoft.com/cloud-app-security/aatp-integration) |
 |Windows 컴퓨터 요구 사항 |- Windows 10, 버전 1709 이상이 설치됨([Windows 10 릴리스 정보](https://docs.microsoft.com/windows/release-information/)참조)<br/>- [Microsoft Defender ATP](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/configure-endpoints) 구성됨 <br/>- [Windows Defender Antivirus](https://docs.microsoft.com/windows/security/threat-protection/windows-defender-antivirus/configure-windows-defender-antivirus-features) 구성됨 |
+|전자 메일 콘텐츠 및 Office 파일 보호 |[Office 365 Advanced Threat Protection](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp#configure-atp-policies) 구성 |
 |사용 권한 |- AIR을 *구성*하려면 Azure Active Directory([https://portal.azure.com](https://portal.azure.com)) 또는 Microsoft 365 관리 센터([https://admin.microsoft.com](https://admin.microsoft.com))에 할당된 **전역 관리자** 또는 **보안 관리자** 역할이 있어야 합니다.<br/><br/>- AIR 기능을 *사용*하려면 [알림 센터 작업에 필요한 사용 권한](mtp-action-center.md#required-permissions-for-action-center-tasks)을 참조하세요. |
 
 ## <a name="next-steps"></a>다음 단계

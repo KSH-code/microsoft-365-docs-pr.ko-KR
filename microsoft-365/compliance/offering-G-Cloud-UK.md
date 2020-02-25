@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: ecd8a362b0e77df846f486b0a424425f012ee68b
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 27f664f9657e88db1dab86f765be36458b4090d9
+ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602355"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42236888"
 ---
 # <a name="united-kingdom-government-cloud-g-cloud"></a>영국 정부-클라우드 (G-클라우드)
 
@@ -64,17 +64,17 @@ Microsoft 클라우드 서비스가 G-Cloud 계약 준수를 유지 하 고 있�
 
 ### <a name="dynamics-365"></a>Dynamics 365
 
-- [Dynamics 365 UK G 클라우드 위험 환경](https://aka.ms/Dynamics365UKGCloudRiskEnvironment)
+- [Dynamics 365 UK G 클라우드 위험 환경](https://go.microsoft.com/fwlink/?linkid=2099702)
 
 ### <a name="intune"></a>Intune
 
-- [Intune UK G 클라우드 위험 환경](https://aka.ms/IntuneUKGCloudRiskEnvironment)
+- [Intune UK G 클라우드 위험 환경](https://go.microsoft.com/fwlink/?linkid=2099702)
 - [Intune UK G 클라우드의 잔류 위험](https://aka.ms/IntuneUKGCloudResidualRisk)
 - [Azure UK G 클라우드 보안 평가 요약](https://aka.ms/IntuneUKGCloudSecurityAssessmentSummary)
 
 ### <a name="office-365"></a>Office 365
 
-- [Office 365 UK G 클라우드 위험 환경](https://aka.ms/Office365UKGCloudRiskEnvironment)
+- [Office 365 UK G 클라우드 위험 환경](https://go.microsoft.com/fwlink/?linkid=2099702)
 
 ## <a name="accelerate-your-deployment-of-uk-g-cloud-solutions-on-azure"></a>Azure에서 영국 G 클라우드 솔루션 배포를 가속화 합니다.
 

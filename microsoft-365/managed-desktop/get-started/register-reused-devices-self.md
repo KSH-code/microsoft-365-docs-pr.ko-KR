@@ -7,12 +7,12 @@ f1.keywords:
 - NOCSH
 ms.author: jaimeo
 ms.localizationpriority: medium
-ms.openlocfilehash: b9e1f0691d7bec1d8a17bb7f68a0e0941b3f6bd9
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: a971d8dc413e7794aa48c0b39cc0f42e511739ed
+ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42085957"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42250448"
 ---
 # <a name="register-existing-devices-yourself"></a>직접 기존의 장치 등록
 
@@ -150,7 +150,7 @@ Get-ADComputer -filter * | powershell -ExecutionPolicy Unrestricted Get-MMDRegis
 Set-ExecutionPolicy powershell -ExecutionPolicy Unrestricted Get-MMDRegistrationInfo.ps1 -credential Domainname\<accountname> -Name Machine1,Machine2,Machine3
 ```
 3. 장치에 대 한 항목이 있을 수 있는 모든 디렉터리에 액세스 합니다. Windows Server Active Directory 도메인 서비스 및 Azure Active Directory를 포함 하 여 *모든* 디렉터리에서 각 장치에 대 한 항목을 제거 합니다. 이 제거 작업을 완료 하는 데 몇 시간이 걸릴 수 있습니다.
-4. 장치에 대 한 항목이 있을 수 있는 관리 서비스에 액세스 합니다. Microsoft 끝점 구성 관리자, Microsoft Intune 및 Windows Autopilot를 비롯 한 *모든* 관리 서비스에서 각 장치에 대 한 항목을 제거 합니다. 이 제거 작업을 완료 하는 데 몇 시간이 걸릴 수 있습니다.
+4. 장치에 대 한 항목이 있을 수 있는 관리 서비스에 액세스 합니다. Microsoft Endpoint Configuration Manager, Microsoft Intune 및 Windows Autopilot를 비롯 한 *모든* 관리 서비스에서 각 장치에 대 한 항목을 제거 합니다. 이 제거 작업을 완료 하는 데 몇 시간이 걸릴 수 있습니다.
 
 이제 [장치 등록](#register-devices)을 계속할 수 있습니다.
 

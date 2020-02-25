@@ -9,12 +9,12 @@ f1.keywords:
 ms.author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 63e07ffd58a7add7f7f72aad20b6389cd22d2ca7
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: de674da4230697e953c88d812b0edac8cb7904e5
+ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602755"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42250478"
 ---
 # <a name="how-updates-are-handled-in-microsoft-managed-desktop"></a>Microsoft Managed Desktop에서 업데이트를 처리 하는 방법
 
@@ -23,7 +23,7 @@ ms.locfileid: "41602755"
 
 <!--Update management -->
 
-Microsoft Managed Desktop은 모든 장치를 최신 클라우드 기반 인프라에 연결 합니다. Windows, Office, 드라이버, 펌웨어 및 Microsoft Store for Business applications를 최신 상태로 유지 하려면 속도와 안정성을 조화 해야 합니다. 배포 그룹은 운영 체제 업데이트 및 정책이 안전한 방식으로 롤아웃 되도록 하는 데 사용 됩니다. 
+Microsoft Managed Desktop은 모든 장치를 최신 클라우드 기반 인프라에 연결 합니다. Windows, Office, 드라이버, 펌웨어 및 Microsoft Store for Business applications를 최신 상태로 유지 하려면 속도와 안정성을 조화 해야 합니다. 배포 그룹은 운영 체제 업데이트 및 정책이 안전한 방식으로 롤아웃 되도록 하는 데 사용 됩니다. 이에 대 한 자세한 내용은 [Microsoft Managed Desktop 변경 및 릴리스 프로세스](https://www.microsoft.com/videoplayer/embed/RE4mWqP)비디오를 참조 하십시오.
 
 Microsoft에서 릴리스된 업데이트는 누적 되며 품질 또는 기능 업데이트로 분류 됩니다.
 자세한 내용은 [Windows update For Business: update types](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-wufb#update-types)를 참조 하십시오. 

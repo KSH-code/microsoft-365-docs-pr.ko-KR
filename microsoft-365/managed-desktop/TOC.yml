@@ -100,6 +100,8 @@
               href: working-with-managed-desktop/reliability-insights.md
             - name: 배터리 정보
               href: working-with-managed-desktop/battery-insights.md
+            - name: Windows 보안 업데이트 insights
+              href: working-with-managed-desktop/security-update-insights.md
         - name: 관리자 지원
           href: working-with-managed-desktop/admin-support.md
         - name: 최종 사용자 지원

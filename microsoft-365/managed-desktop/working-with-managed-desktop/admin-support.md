@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: bc6c0199c6ee019cbb032c288612d36a254ee7e6
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: c3137c25de9f8fe941f62e5c53b1006c5009e222
+ms.sourcegitcommit: 59b006f8e82d1772cae2029f278a59ae8a106736
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42085715"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "42266094"
 ---
 # <a name="admin-support-for-microsoft-managed-desktop"></a>Microsoft Managed Desktop에 대 한 관리자 지원
 
@@ -59,12 +59,7 @@ Microsoft Managed Desktop 관리 포털을 사용 하 여 Microsoft에 지원 �
 
 ![사용자 의견 양식](../../media/feedback_form.png)
 
-## <a name="provide-administrator-rights-to-specific-users"></a>특정 사용자에 게 관리자 권한 제공
 
-지원 담당자와 작업 하는 동안 문제 해결을 지원 하려면 장치에 대 한 로컬 관리자 권한을 사용자에 게 제공 해야 할 수 있습니다. 이렇게 하려면 사용자의 계정에 대해 이미 Microsoft Intune에 전역 관리자 또는 장치 관리자 권한이 있어야 합니다. 상황에 따라 다음 단계 중 하나를 수행 합니다.
-
-- 사용자가 온-프레미스 Active Directory 계정에서 동기화 된 경우 관리자 권한 명령 프롬프트에서 **net localgroup administrators/add "Contoso\username"** 를 실행 합니다.
-- 사용자가 Azure Active Directory에서 만들어진 경우 관리자 권한 명령 프롬프트에서 **net localgroup administrators/add "AzureAD\UserUpn"** 를 실행 합니다.
 
 ## <a name="additional-resources"></a>추가 리소스
 - [Microsoft Managed Desktop에 대 한 최종 사용자 지원을 제공](end-user-support.md)합니다. 
