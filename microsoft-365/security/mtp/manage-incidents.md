@@ -19,19 +19,19 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 46904323a1ec8f969355931f8b69a3ed0ebf4519
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: b8f7e3bbb6d2348c3f19e8df251d700d8adf8e33
+ms.sourcegitcommit: 74bf600424d0cb7b9d16b4f391aeda7875058be1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600215"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42235087"
 ---
 # <a name="manage-incidents-in-microsoft-threat-protection"></a>Microsoft 위협 방지의 인시던트 관리
 
 **적용 대상:**
 - Microsoft 위협 방지
 
-[!INCLUDE [Prerelease information](../includes/prerelease.md)]
+
 
 인시던트 관리는 위협이 포함되어 있고 해결되었는지 확인하는 데 매우 중요합니다. Microsoft 위협 방지에서 디바이스, 사용자 및 사서함에서 인시던트 관리에 액세스할 수 있습니다. 
 

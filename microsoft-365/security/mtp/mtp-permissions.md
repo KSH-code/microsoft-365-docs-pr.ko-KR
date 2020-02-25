@@ -19,19 +19,19 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 1b6411d04c2ecc8c646072e4da61dea1c470db5a
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 110bbe6fe48932217c9bdc009d175161fe9226cd
+ms.sourcegitcommit: 74bf600424d0cb7b9d16b4f391aeda7875058be1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42086977"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42235197"
 ---
 # <a name="manage-access-to-microsoft-threat-protection"></a>Microsoft 위협 방지에 대한 액세스 관리
 
 **적용 대상:**
 - Microsoft 위협 방지
 
-[!INCLUDE [Prerelease information](../includes/prerelease.md)]
+
 
 다음 Azure AD(Active Directory) 역할이 할당 된 계정은 Microsoft 위협 방지 기능 및 데이터에 액세스할 수 있습니다.
 - 전역 관리자

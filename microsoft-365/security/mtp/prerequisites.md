@@ -19,19 +19,19 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 7498f7a15578979a24a1524e94f307067eeeb893
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: ba50572405da05359594fea85fdba2d28f3b141b
+ms.sourcegitcommit: 74bf600424d0cb7b9d16b4f391aeda7875058be1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42083607"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42235227"
 ---
 # <a name="microsoft-threat-protection-prerequisites"></a>Microsoft 위협 방지 필수 구성 요소
 
 **적용 대상:**
 - Microsoft 위협 방지
 
-[!INCLUDE [Prerelease information](../includes/prerelease.md)]
+
 
 Microsoft Threat Protection을 프로 비전 하 고 사용 하기 위한 라이선스, 하드웨어 및 소프트웨어 요구 사항 및 기타 구성 설정에 대해 알아봅니다.
 

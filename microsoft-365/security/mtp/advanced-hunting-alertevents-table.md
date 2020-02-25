@@ -18,19 +18,19 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 02a3f50019321f68390d3eb9b76576f4e6dfdd8a
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 9f341705d8247183b7e8a5271231c82faf8b386a
+ms.sourcegitcommit: 74bf600424d0cb7b9d16b4f391aeda7875058be1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602775"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42235097"
 ---
 # <a name="alertevents"></a>AlertEvents
 
 **적용 대상:**
 - Microsoft 위협 방지
 
-[!INCLUDE [Prerelease information](../includes/prerelease.md)]
+
 
 [고급 헌팅](advanced-hunting-overview.md) 스키마의 `AlertEvents` 표에는 Microsoft Defender ATP 경고에 대한 정보가 포함되어 있습니다. 이 참조를 사용하여 이 표의 정보를 반환하는 쿼리를 생성합니다.
 

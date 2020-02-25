@@ -17,19 +17,19 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 5d43584ed9af9a0ac6154d593f4517d0a4152023
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: c0b58d41996df2829590d7184615e8f30f4c4e16
+ms.sourcegitcommit: 74bf600424d0cb7b9d16b4f391aeda7875058be1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42087967"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42234807"
 ---
 # <a name="deviceregistryevents"></a>DeviceRegistryEvents
 
 **적용 대상:**
 - Microsoft 위협 방지
 
-[!INCLUDE [Prerelease information](../includes/prerelease.md)]
+
 
 `DeviceRegistryEvents` [고급 구하기](advanced-hunting-overview.md) 스키마의 표에는 레지스트리 항목 만들기 및 수정에 대 한 정보가 포함 되어 있습니다. 이 참조를 사용하여 이 표의 정보를 반환하는 쿼리를 생성합니다.
 
