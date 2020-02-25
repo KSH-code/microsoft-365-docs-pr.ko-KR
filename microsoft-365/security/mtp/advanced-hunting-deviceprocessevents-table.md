@@ -17,19 +17,19 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 460c1e76020457fb4f640c32df39c09adaaba32a
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: eae1eff69fa6a91413e3f2dd6644c9c27549968e
+ms.sourcegitcommit: 74bf600424d0cb7b9d16b4f391aeda7875058be1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600405"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42234777"
 ---
 # <a name="deviceprocessevents"></a>DeviceProcessEvents
 
 **적용 대상:**
 - Microsoft 위협 방지
 
-[!INCLUDE [Prerelease information](../includes/prerelease.md)]
+
 
 `DeviceProcessEvents` [고급 구하기](advanced-hunting-overview.md) 스키마의 표에는 프로세스 만들기 및 관련 이벤트에 대 한 정보가 포함 되어 있습니다. 이 참조를 사용하여 이 표의 정보를 반환하는 쿼리를 생성합니다.
 

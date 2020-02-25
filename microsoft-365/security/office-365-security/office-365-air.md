@@ -1,5 +1,5 @@
 ---
-title: Office 365 자동 조사 및 응답
+title: Office 365의 자동화 된 조사 및 응답 (AIR)
 keywords: AIR, autoIR, ATP, 자동화, 조사, 대응, 재구성, 위협, 고급, 위협, 보호
 f1.keywords:
 - NOCSH
@@ -15,16 +15,18 @@ search.appverid:
 - MOE150
 ms.collection: M365-security-compliance
 description: Office 365 Advanced Threat Protection 계획 2의 자동화 된 조사 및 응답 기능 사용을 시작 하세요.
-ms.openlocfilehash: 7bfa07880a302f77769ee15e9108db21dac2519c
-ms.sourcegitcommit: 8876c216954b94adce9cdf493c49bd5a10190a3a
+ms.openlocfilehash: 3a362f7d15a9cc8e1f5784ec03c8c04d3d77886d
+ms.sourcegitcommit: 133bf7936e5ef1a4d06998429d0d01096bda929f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42228573"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42262015"
 ---
-# <a name="office-365-automated-investigation-and-response"></a>Office 365 자동 조사 및 응답
+# <a name="automated-investigation-and-response-air-in-office-365"></a>Office 365의 자동화 된 조사 및 응답 (AIR)
 
 [Office 365 Advanced Threat Protection](office-365-atp.md) 요금제 2에는 보안 작업 팀의 시간과 노력을 줄일 수 있는 강력한 자동 조사 및 응답 (AIR) 기능이 포함 되어 있습니다. 특정 알림이 트리거되면 하나 이상의 보안 playbook가 시작 되 고 자동화 된 조사 프로세스가 시작 됩니다. 이를 통해 보안 운영 팀은 트리거된 경고에 대 한 시야 없이 우선 순위가 높은 작업에 집중할 수 있습니다. 
+
+## <a name="the-overall-flow-of-air"></a>전체 공기 흐름
 
 높은 수준에서 AIR 흐름은 다음과 같은 방식으로 작동 합니다.
 

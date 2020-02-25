@@ -17,19 +17,19 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: b5cd421770469e674e66045ac341d12a2808da09
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: a859aa201b43813d6c66a797cbfee160051d5103
+ms.sourcegitcommit: 74bf600424d0cb7b9d16b4f391aeda7875058be1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602845"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42235067"
 ---
 # <a name="advanced-hunting-query-best-practices"></a>고급 헌팅 쿼리 모범 사례
 
 **적용 대상:**
 - Microsoft Threat Protection
 
-[!INCLUDE [Prerelease information](../includes/prerelease.md)]
+
 
 ## <a name="optimize-query-performance"></a>쿼리 성능 최적화
 복잡한 쿼리를 실행하는 동안 이들 권장 사항을 수행하여 결과를 신속하게 확인하고 타임아웃을 방지하세요.

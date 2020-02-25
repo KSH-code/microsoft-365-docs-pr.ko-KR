@@ -19,19 +19,19 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: d6fd2c5cb6e22ae3aab2853a035fb41bee69f670
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: fd8a09ceb32b8ddacea06b4569a2d2a851daaeb2
+ms.sourcegitcommit: 74bf600424d0cb7b9d16b4f391aeda7875058be1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42086967"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42235207"
 ---
 # <a name="set-the-time-zone-for-microsoft-threat-protection"></a>Microsoft 위협 방지에 대한 표준 시간대 설정
 
 **적용 대상:**
 - Microsoft 위협 방지
 
-[!INCLUDE [Prerelease information](../includes/prerelease.md)]
+
 
 Microsoft 위협 방지는 현지 표준 시간대 또는 UTC를 사용하여 날짜 및 시간 정보를 표시할 수 있습니다. 선택한 표준 시간대는 Microsoft 365 보안 센터에서 다음 기능에 표시된 모든 날짜 및 시간 정보에 적용됩니다.
 - 인시던트

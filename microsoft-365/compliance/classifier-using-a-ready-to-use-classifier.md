@@ -1,5 +1,5 @@
 ---
-title: 바로 사용 가능한 분류자 사용 (미리 보기)
+title: 기본 제공 분류자 사용 (미리 보기)
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -13,15 +13,15 @@ ms.collection: M365-security-compliance
 search.appverid:
 - MOE150
 - MET150
-description: Microsoft 365에는 조직 전체에서 콘텐츠를 식별 하 고 레이블을 지정 하는 데 사용할 수 있는 기계 학습 분류자를 사용 하기 위한 다양 한 준비가 제공 됩니다. 이 항목에서는 이러한 분류자 사용을 위해 준비 된 사용을 준비 하는 방법을 설명 합니다.
-ms.openlocfilehash: 8f3df8e7851bf453add162df4088e11dc7745cee
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: Microsoft 365에는 조직 전체에서 콘텐츠를 식별 하 고 레이블을 지정 하는 데 사용할 수 있는 다양 한 기본 제공 분류자가 제공 됩니다. 이 항목에서는 이러한 분류자 사용을 준비 하는 방법을 보여 줍니다.
+ms.openlocfilehash: 2157e06da251b1f02b6a4623c573d350d838aff0
+ms.sourcegitcommit: 59b006f8e82d1772cae2029f278a59ae8a106736
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42078795"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "42266734"
 ---
-# <a name="using-a-ready-to-use-classifier-preview"></a>바로 사용 가능한 분류자 사용 (미리 보기)
+# <a name="using-a-built-in-classifier-preview"></a>기본 제공 분류자 사용 (미리 보기)
 
 Microsoft는 특정 콘텐츠 범주를 식별 하는 데 도움이 될 수 있는 매우 큰 예제 데이터 집합을 사용 하 여 여러 분류자를 교육 하 고 테스트 했습니다. [Trainable 분류자 (미리 보기) 시작을](classifier-getting-started-with.md)참조 하세요. 이러한 분류자는 `Ready to use` 기본적으로 그룹에 표시 됩니다.
 
@@ -33,14 +33,14 @@ Microsoft는 특정 콘텐츠 범주를 식별 하는 데 도움이 될 수 있�
 - **위협**: 사용자 또는 속성에 대 한 폭력을 커밋하거나 물리적인 손상을 주거나 위협에 관련 된 비속어 텍스트 항목의 특정 범주를 감지 합니다.
 
 > [!NOTE]
-> 분류 및 레이블 지정 워크플로에 사용할 수 있는 분류자를 사용 하기 전에 분류 예측이 예상과 맞는지 확인 하기 위해 범주에 적합 한 조직의 콘텐츠 샘플에 대해 테스트 해야 합니다.
+> 분류 및 레이블 지정 워크플로에 기본 제공 분류자를 사용 하기 전에 분류 예측이 예상과 맞는지 확인 하기 위해 범주에 적합 한 조직의 콘텐츠 샘플에서이를 테스트 해야 합니다.
 
 > [!IMPORTANT]
 > 비속어, harassment, 비속어 및 threat 분류자는 검색 가능한 텍스트만 사용할 수 있습니다. 추가적으로, 언어 및 문화 표준이 지속적으로 변경 되 고 이러한 현실에 따라 Microsoft는 이러한 분류자를 업데이트할 수 있는 권리를 보유 합니다. 이 분류자는 사용 중인 공격적인 및 기타 언어를 모니터링 하는 데 도움이 될 수 있지만,이 분류자는 이러한 언어의 결과를 해결 하지 않으며, 조직의 사용자가 사용 하는 유일한 모니터링 또는 대응 수단을 제공 하기 위한 것이 아닙니다. 해당 언어 Microsoft 또는 해당 자회사가 아닌 조직은 미리 훈련 된 분류자로 식별 되는 콘텐츠의 모니터링, 적용, 차단, 제거 및 보존과 관련 된 모든 결정을 계속 담당 합니다.
 
-## <a name="how-to-prepare-for-and-use-a-ready-to-use-classifier"></a>분류자 사용을 준비 하 고 사용 하는 방법
+## <a name="how-to-prepare-for-and-use-a-built-in-classifier"></a>기본 제공 분류자를 준비 하 고 사용 하는 방법
 
-1. 사용 가능한 분류자 (긍정 일치) 및 포함 하지 않을 항목 (음수 일치)이 테스트 대상 범주에 속하는 것으로 생각 하는 삭제 가능 테스트 콘텐츠를 수집 합니다.
+1. 테스트 중인 범주에서 기본 제공 분류자의 범주 (긍정 일치) 및 포함 되지 않은 항목 (음수 일치)이 있는 삭제 가능한 테스트 콘텐츠를 수집 합니다.
 
 > [!IMPORTANT]
 > 샘플 항목은 암호화 하지 않아야 하며 영어로 되어 있어야 합니다.
@@ -65,7 +65,7 @@ Microsoft는 특정 콘텐츠 범주를 식별 하는 데 도움이 될 수 있�
 
 10. 이 경우 목록에서 분류자를 선택 합니다.`Source Code`
 
-11. 정책 이름 (예: "소스 코드에서 분류자 테스트를 사용할 준비가 되었습니다.")
+11. 정책 이름 (예: "소스 코드 기본 제공 분류자 test")을 사용 합니다.
 
 12. 을 `Let me choose specific locations`선택 합니다.
 

@@ -17,19 +17,19 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 708e55db1c39d85501b1c42f9a46821bbc2eff9e
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 7c7f1bba23379b25ccecc427b2aa866a1105396d
+ms.sourcegitcommit: 74bf600424d0cb7b9d16b4f391aeda7875058be1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600435"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42235017"
 ---
 # <a name="devicelogonevents"></a>DeviceLogonEvents
 
 **적용 대상:**
 - Microsoft 위협 방지
 
-[!INCLUDE [Prerelease information](../includes/prerelease.md)]
+
 
 `DeviceLogonEvents` [고급 구하기](advanced-hunting-overview.md) 스키마의 표에는 사용자 로그온 및 기타 인증 이벤트에 대 한 정보가 포함 됩니다. 이 참조를 사용하여 이 표의 정보를 반환하는 쿼리를 생성합니다.
 

@@ -17,19 +17,19 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 34401bde5af594899f88b93f8ca76695ce3c7132
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: f99420b978f77f8b4a4660394d4a6f335c5aad66
+ms.sourcegitcommit: 74bf600424d0cb7b9d16b4f391aeda7875058be1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602765"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42235047"
 ---
 # <a name="deviceevents"></a>DeviceEvents
 
 **적용 대상:**
 - Microsoft 위협 방지
 
-[!INCLUDE [Prerelease information](../includes/prerelease.md)]
+
 
 [고급 구하기](advanced-hunting-overview.md) 스키마의 기타 `DeviceEvents` 장치 이벤트 또는 테이블에는 Windows Defender 바이러스 백신 및 exploit protection과 같은 보안 컨트롤에서 트리거되는 이벤트를 비롯 하 여 다양 한 이벤트 유형에 대 한 정보가 포함 되어 있습니다. 이 참조를 사용하여 이 표의 정보를 반환하는 쿼리를 생성합니다.
 

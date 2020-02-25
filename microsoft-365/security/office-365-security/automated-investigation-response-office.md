@@ -14,21 +14,18 @@ search.appverid:
 - MOE150
 ms.collection: M365-security-compliance
 description: Office 365 Advanced Threat Protection 계획 2의 자동화 된 조사 및 응답 기능에 대 한 개요를 확인 하세요.
-ms.openlocfilehash: 436d70934e32f8609d35532188ac71cbd590c345
-ms.sourcegitcommit: 8876c216954b94adce9cdf493c49bd5a10190a3a
+ms.openlocfilehash: 49b7e95e1669c106ee7f7bf9191ff8e73ae4802f
+ms.sourcegitcommit: 133bf7936e5ef1a4d06998429d0d01096bda929f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42228584"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42261975"
 ---
 # <a name="automated-investigation-and-response-air-in-office-365"></a>Office 365의 자동화 된 조사 및 응답 (AIR)
 
 보안 알림이 트리거되면 해당 경고를 확인 하 고 조직을 보호 하기 위한 단계를 수행 하는 보안 운영 팀이 진행 됩니다. 경우에 따라 보안 운영 팀에서 트리거된 경고 량이 지나치게 느껴질 수 있습니다. Office 365의 자동화 된 조사 및 응답 (AIR) 기능은 도움이 될 수 있습니다. AIR을 사용 하면 보안 운영 팀이 보다 효율적이 고 효율적으로 작업할 수 있습니다. AIR 기능에는 현재 존재 하는 잘 알려진 위협에 대 한 응답으로 자동화 된 조사 프로세스가 포함 됩니다. 적절 한 교정 작업을 통해 승인을 받고, 보안 운영 팀이 검색 된 위협에 대처할 수 있도록 합니다. 
 
 이 문서에서는 AIR 및 해당 구성 요소에 대 한 개요를 제공 합니다. AIR 사용을 시작할 준비가 되 면 [자동으로 Office 365의 위협에 대 한 조사 및 응답](office-365-air.md)을 참조 하세요.
-
-> [!TIP]
-> ID 및 위협 방지가 지원되는 Microsoft 365 E5 또는 Microsoft 365 E3가 있나요? [Microsoft 위협 방지](../mtp/microsoft-threat-protection.md)를 시도해 보세요.
 
 ## <a name="at-a-high-level"></a>높은 수준
 

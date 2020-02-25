@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.date: 09/24/2018
-ms.openlocfilehash: 3d5765de70b21036800d87cedd175ea4fd53b7ba
-ms.sourcegitcommit: ca2209d9176f99048d0a7adc20261029ca23dcbd
+ms.openlocfilehash: 6b18b0c681950c2bce75045aef70dd3d021b0fb9
+ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/05/2020
-ms.locfileid: "41774234"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42250438"
 ---
 # <a name="security-in-microsoft-managed-desktop"></a>Microsoft Managed Desktop의 보안
 
@@ -26,7 +26,7 @@ Microsoft Managed Desktop은 다양 한 Microsoft 기술을 사용 하 여 관�
 - [정보 보안](#information-security) -중요 한 정보를 보다 안전 하 게 보호 하는 데 사용할 수 있는 선택적 서비스 
 
 
-
+Microsoft Managed Desktop의 보안 운영 팀과 장치에 대 한 보안을 제공 하는 방법에 대 한 자세한 내용은 [Microsoft Managed Desktop 보안 작업](https://www.microsoft.com/videoplayer/embed/RE4q6nP)비디오를 참조 하세요. 
 
 ## <a name="device-security"></a>장치 보안
 
@@ -64,7 +64,7 @@ VPN | 고객은 VPN 인프라를 소유 하 여 제한 된 회사 리소스가 �
 
 ## <a name="information-security"></a>정보 보안
 
-고객은 이러한 선택적 서비스를 구성 하 여 회사 높은 가치 자산을 보호할 수 있습니다. 
+이러한 선택적 서비스를 구성 하 여 회사 높은 가치 자산을 보호할 수 있습니다. 
 
 서비스 | 설명
 --- | ---

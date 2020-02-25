@@ -19,19 +19,19 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 9f9d170ff16ccba4ef37231b37123f6818a2ae74
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: f303ea37e67077c2a55c4fd94766b34671b78e5d
+ms.sourcegitcommit: 74bf600424d0cb7b9d16b4f391aeda7875058be1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600025"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42235237"
 ---
 # <a name="whats-new-in-microsoft-365-security"></a>Microsoft 365 보안의 새로운 기능
 
 **적용 대상:**
 - Microsoft 위협 방지
 
-[!INCLUDE [Prerelease information](../includes/prerelease.md)]
+
 
 이 항목에서는 Microsoft 365 보안의 최신 릴리스에서 일반적으로 사용할 수 있는(GA) 기능을 다룹니다. 
 

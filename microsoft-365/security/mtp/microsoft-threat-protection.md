@@ -17,19 +17,19 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: 7c165ec5869f8f53c28fb28414a04d73033a5772
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: ef68143d185b6b716b8b5c8213b1e4f3ea1a5abd
+ms.sourcegitcommit: 74bf600424d0cb7b9d16b4f391aeda7875058be1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42087622"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42235077"
 ---
 # <a name="microsoft-threat-protection"></a>Microsoft 위협 방지
 
 **적용 대상:**
 - Microsoft 위협 방지
 
-[!INCLUDE [Prerelease information](../includes/prerelease.md)]
+
 
 Microsoft Threat Protection은 끝점, id, 전자 메일 및 응용 프로그램 간에 고유 하 게 통합 되어 정교한 공격에 대 한 검색, 방지, 조사 및 자동 대응을 지 원하는 통합 사전 및 사후 위반 엔터프라이즈 방어 제품군입니다.  
 

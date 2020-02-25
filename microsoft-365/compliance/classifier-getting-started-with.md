@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 365 trainable 분류자는 긍정적이 고 부정적 샘플을 확인 하 여 다양 한 유형의 콘텐츠를 인식할 수 있도록 교육을 제공 하는 도구입니다. 일단 분류자가 학습 되 면 결과가 정확 함을 확인할 수 있습니다. 그런 다음이를 사용 하 여 조직의 콘텐츠를 검색 하 고이를 분류 하 여 보존 또는 민감도 레이블을 적용 하거나 DLP (데이터 손실 방지) 또는 보존 정책에 포함 합니다.
-ms.openlocfilehash: 75cf79e162c2e371821b4329fc1be949f0b3a81c
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 7ebd991fe70401b91c14673bcff8aabbdabbda6a
+ms.sourcegitcommit: 59b006f8e82d1772cae2029f278a59ae8a106736
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42078826"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "42266880"
 ---
 # <a name="getting-started-with-trainable-classifiers-preview"></a>학습 가능한 분류자 시작 (미리 보기)
 
@@ -44,6 +44,8 @@ ms.locfileid: "42078826"
 
 이 분류 방법은 수동 또는 자동 패턴 일치 방법으로 쉽게 식별할 수 없는 콘텐츠에 특히 적합 합니다. 이 분류 방법은 항목에 있는 요소 (패턴 일치)가 아니라 항목을 기준으로 항목을 식별 하는 분류자를 교육 하는 방법에 대해 자세히 설명 합니다. 분류자는 분류에 관심이 있는 콘텐츠의 수백 가지 예를 검토 하 여 콘텐츠 형식을 식별 하는 방법을 학습 합니다. 먼저 범주에서 명확 하 게 보여 주는 예제를 공급 합니다. 이를 처리 하 고 나면 일치 및 일치 하지 않는 예제를 모두 함께 제공 하 여 테스트 합니다. 그런 다음 분류자는 지정 된 항목이 작성 중인 범주에 속하는지 여부에 따라 예측을 수행 합니다. 그런 다음 결과를 확인 하 여 정확도를 높일 수 있도록 긍정, 음수, 가양성 및 거짓 네거티브를 정렬 합니다. 숙련 된 분류자를 게시 하면 SharePoint Online, Exchange 및 OneDrive와 같은 위치에 있는 항목을 통해 정렬 되며 콘텐츠를 분류 합니다.
 
+<!-- add link in the below note to sensitivity label topic when carolb provides -->
+
 > [!IMPORTANT]
 > 두 유형의 분류자는 조건 및 [통신 준수](communication-compliance.md)를 [기반으로 한 보존 레이블 정책 자동 적용](labels.md#applying-a-retention-label-automatically-based-on-conditions) 의 조건으로 사용 가능 합니다.
 
@@ -56,14 +58,14 @@ Trainable 분류자는 Microsoft 365 E5 또는 E5 규정 준수 기능입니다.
 
 ## <a name="types-of-classifiers"></a>분류자 유형
 
-분류자 및 trainable 분류자를 사용할 준비가 되었습니다. Trainable 분류자를 publishable 상태로 가져오면 훈련에 시간을 투자 해야 합니다. 분류자 사용을 시작 하는 데 도움이 되도록 Microsoft 365에는 몇 가지 분류자를 사용할 준비가 되었습니다.
+기본 제공 되는 분류자와 trainable 분류자는 다음과 같습니다. Trainable 분류자를 publishable 상태로 가져오면 훈련에 시간을 투자 해야 합니다. 분류자 사용을 시작 하는 데 도움이 되도록 Microsoft 365에 몇 가지 기본 제공 분류자가 제공 됩니다.
 
 > [!NOTE]
-> 분류 및 레이블 지정 워크플로에 사용할 수 있는 분류자를 사용 하기 전에 분류 예측이 예상과 맞는지 확인 하기 위해 범주에 적합 한 조직의 콘텐츠 샘플에 대해 테스트 해야 합니다.
+> 분류 및 레이블 지정 워크플로에 기본 제공 분류자를 사용 하기 전에 분류 예측이 예상과 맞는지 확인 하기 위해 범주에 적합 한 조직의 콘텐츠 샘플에 대해 테스트 해야 합니다.
 
-### <a name="understanding-ready-to-use-classifiers"></a>사용 가능한 분류자 이해
+### <a name="understanding-built-in-classifiers"></a>기본 제공 분류자 이해
 
-Microsoft 365에는 다음과 같은 6 개의 분류자를 사용할 준비가 되었습니다.
+Microsoft 365에는 다음과 같은 6 개의 기본 제공 분류자가 있습니다.
 
 - **비속어**: profanities, slurs, taunts 및 가짜 식이 포함 된 텍스트 항목 (더 공격적인 용어와 의미가 동일한 식 임)을 검색 합니다.
 - **다시 시작**: 지원자 개인, 교육, 전문가 자격, 작업 환경 및 기타 개인 식별 정보에 해당 하는 텍스트 계정인 항목을 검색 합니다.
@@ -79,15 +81,15 @@ Microsoft 365에는 다음과 같은 6 개의 분류자를 사용할 준비가 �
 > [!IMPORTANT]
 > 비속어, harassment, 비속어 및 threat 분류자는 검색 가능한 텍스트만 사용할 수 있습니다.  추가적으로, 언어 및 문화 표준이 지속적으로 변경 되 고 이러한 현실에 따라 Microsoft는 이러한 분류자를 업데이트할 수 있는 권리를 보유 합니다. 이 분류자는 사용 중인 공격적인 및 기타 언어를 모니터링 하는 데 도움이 될 수 있지만,이 분류자는 이러한 언어의 결과를 해결 하지 않으며, 조직의 사용자가 사용 하는 유일한 모니터링 또는 대응 수단을 제공 하기 위한 것이 아닙니다. 해당 언어 Microsoft 또는 해당 자회사가 아닌 조직은 미리 훈련 된 분류자로 식별 되는 콘텐츠의 모니터링, 적용, 차단, 제거 및 보존과 관련 된 모든 결정을 계속 담당 합니다.
 
-#### <a name="process-flow-for-using-ready-to-use-classifiers"></a>분류자를 사용 하 여 사용 하도록 준비 된 프로세스 흐름
+#### <a name="process-flow-for-using-built-in-classifiers"></a>기본 제공 분류자 사용을 위한 프로세스 흐름
 
-사용할 준비가 완료 된 분류자는 교육을 받을 필요가 없지만 준수 솔루션에서 사용 하기 전에 필요한 콘텐츠 유형을 확인할 필요가 있는지 확인 해야 합니다. 미리 훈련 된 분류자를 테스트 하려면이 흐름을 따릅니다.
+기본 제공 분류자는 교육을 받을 필요가 없지만 준수 솔루션에서 사용 하기 전에 필요한 콘텐츠 유형을 확인할 필요가 있는지 확인 해야 합니다. 미리 훈련 된 분류자를 테스트 하려면이 흐름을 따릅니다.
 
 ![미리 훈련 된 분류자를 테스트 하는 프로세스 흐름](../media/classifier-pre-trained-classifier-flow.png)
 
 ### <a name="understanding-trainable-classifiers"></a>Trainable 분류자 이해
 
-사용할 준비가 완료 된 분류자가 사용자의 요구를 충족 하지 않는 경우 고유한 분류자를 만들고 교육 해 볼 수 있습니다. 자체를 만드는 작업과 관련 된 작업은 훨씬 더 많이 수행 되지만 조직 요구 사항에 맞게 조정 하는 것이 훨씬 더 낫습니다. 미리 정의 된 분류자를 사용 하는 방법에 대 한 자세한 내용은 [Using a 분류자](classifier-using-a-ready-to-use-classifier.md) 사용을 참조 하십시오.
+기본 제공 분류자가 사용자의 요구를 충족 하지 않는 경우 고유한 분류자를 만들어 교육할 수 있습니다. 자체를 만드는 작업과 관련 된 작업은 훨씬 더 많이 수행 되지만 조직 요구 사항에 맞게 조정 하는 것이 훨씬 더 낫습니다. 미리 정의 된 분류자를 사용 하는 방법에 대 한 자세한 내용은 [기본 제공 분류자 사용](classifier-using-a-ready-to-use-classifier.md) 을 참조 하십시오.
 
 > [!IMPORTANT]
 > Trainable 분류자를 만드는 사용자만이 해당 분류자가 수행한 예측을 학습 하 고 검토할 수 있습니다.
