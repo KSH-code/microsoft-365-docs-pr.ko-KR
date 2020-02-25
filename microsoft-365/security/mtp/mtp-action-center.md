@@ -18,23 +18,23 @@ ms.collection:
 - M365-security-compliance
 ms.topic: conceptual
 ms.custom: autoir
-ms.openlocfilehash: 05356cb9ef17d8c8355896e76185ff9498882069
-ms.sourcegitcommit: ff2f521afdd60a16b2db8ff77b537f345c0e0f7e
+ms.openlocfilehash: a8f4cd9d3b970d6216e05fa6ff78699558c82600
+ms.sourcegitcommit: 133bf7936e5ef1a4d06998429d0d01096bda929f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42219179"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42262025"
 ---
-# <a name="go-to-the-action-center-to-view-remediation-actions"></a>알림 센터로 이동하여 조치 작업을 봅니다.
+# <a name="the-action-center"></a>알림 센터
 
 **적용 대상:**
 - Microsoft Threat Protection
 
-## <a name="a-single-pane-of-glass-experience"></a>"단일 창 방식" 환경
+알림 센터를 사용하여 조직의 장치 및 사서함 전체에서 현재 및 과거 조사의 결과를 확인할 수 있습니다. 위협 유형 및 결과 결과에 따라 [업데이트 관리 작업](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-remediation-actions) 은 조직의 보안 운영 팀의 승인을 받을 때 자동으로 수행 됩니다. 모든 수정 작업이 승인이 보류 중이든 이미 승인되었든 알림 센터에 통합되어 있습니다. 
 
 ![알림 센터 ](../../media/air-actioncenter.png)
 
-알림 센터를 사용하여 조직의 장치 및 사서함 전체에서 현재 및 과거 조사의 결과를 확인할 수 있습니다. 위협 유형과 [결과 판정](mtp-autoir-results.md#remediation-actions-following-automated-investigation)에 따라 수정 작업이 자동으로 수행되거나 조직의 보안 운영 팀의 승인에 따라 발생합니다. 모든 수정 작업이 승인이 보류 중이든 이미 승인되었든 알림 센터에 통합되어 있습니다. 
+## <a name="a-single-pane-of-glass-experience"></a>"단일 창 방식" 환경
 
 알림 센터를 통해 다음과 같은 작업에 대한 "단일 창 방식" 환경을 제공합니다.
 - 보류 중인 수정 작업 승인.
@@ -63,7 +63,6 @@ ms.locfileid: "42219179"
 
     - 조사가 장치에 관련된 경우 조사 세부 정보는 보안 센터([https://security.microsoft.com](https://security.microsoft.com))에서 열립니다. 
 
-
 > [!TIP]
 > Microsoft Threat Protection의 자동화 된 조사 및 응답 기능을 통해 누락 되었거나 지워지는이 감지 되었다고 생각 되 면 알려주세요. [Microsoft Threat Protection에서 자동 조사 및 응답 (AIR) 기능을 통해 허위 긍정/네거티브를 보고 하는 방법을](mtp-autoir-report-false-positives-negatives.md)참조 하세요.
 
@@ -82,6 +81,8 @@ ms.locfileid: "42219179"
 ## <a name="next-steps"></a>다음 단계 
 
 - [Microsoft Threat Protection에 관해 자세히 알아보기](incidents-overview.md)
+
 - [자동화된 조사 결과 보기](mtp-autoir-results.md)
+
 - [Microsoft Threat Protection의 헌팅에 대해 알아보기](advanced-hunting-overview.md)
 

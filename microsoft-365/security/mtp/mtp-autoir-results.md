@@ -1,5 +1,5 @@
 ---
-title: 자동화 조사 세부정보 및 결과 보기
+title: 자동화 된 조사에 대 한 세부 정보 및 결과
 description: '자동화 조사가 진행 되는 동한 혹은 진행 완료된 후 주요 사항 및 결과를 확인할 수 있습니다. '
 keywords: 자동화, 조사, 결과, 분속, 세부정보, 재구성, 오토에어
 search.appverid: met150
@@ -18,14 +18,14 @@ ms.collection:
 - M365-security-compliance
 ms.topic: conceptual
 ms.custom: autoir
-ms.openlocfilehash: 062dd86de49eb3dfe47566aa8d7269780cf9995c
-ms.sourcegitcommit: 2f117a6fd27a097ca25afa933dd088b69d483974
+ms.openlocfilehash: 6b3bc068e5da99e02a64463891e32d137c448d64
+ms.sourcegitcommit: 133bf7936e5ef1a4d06998429d0d01096bda929f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42175721"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42261065"
 ---
-# <a name="view-the-details-and-results-of-an-automated-investigation"></a>자동화 조사 세부정보 및 결과 보기
+# <a name="details-and-results-of-an-automated-investigation"></a>자동화 된 조사에 대 한 세부 정보 및 결과
 
 **적용 대상:**
 - Microsoft Threat Protection
@@ -80,24 +80,9 @@ Microsoft Threat Protection에서 자동 조사가 발생 하는 경우, 해당 
 |로그    |조사 중에 수행된 모든 단계의 세부정보와 상태를 보여줍니다. |
 |보류 중인 작업    |진행 하려면 승인이 필요한 항목을 나열 합니다.|
 
-## <a name="remediation-actions-following-automated-investigation"></a>자동화 검사 후 재구성 작업
-
-자동화 조사가 완료 되면 관련된 모든 증명정보에 따라 결과가 도출되고 재구성 작업이 식별됩니다.   경우에 따라 수정 작업이 자동으로 수행 됩니다. 그 밖의 경우에는 재구성 작업이 승인을 기다립니다. 도출 가능한 의견과 결과는 다음 테이블에서 확인할 수 있습니다. 
-
-|의견    |영역   |결과|
-|------|------|------|
-|악성  |장치 (끝점)    |재구성 작업이 자동으로 실행 됩니다.|
-|악성  |전자 메일 콘텐츠 (Url 또는 첨부 파일) | 승인 보류 중인 재구성 활동 |
-|피싱 |장치 또는 전자 메일 콘텐츠 |승인 보류 중인 재구성 활동 |
-|정리  |장치 또는 전자 메일 콘텐츠   |재구성 작업이 필요 하지 않습니다.|
-
-[활동 센터에서 대기 중인 작업 검토](mtp-autoir-actions.md#review-a-pending-action-in-the-action-center)
-
-> [!TIP]
-> Microsoft Threat Protection의 자동화 된 조사 및 응답 기능을 통해 누락 되었거나 지워지는이 감지 되었다고 생각 되 면 알려주세요. [Microsoft Threat Protection에서 자동 조사 및 응답 (AIR) 기능을 통해 허위 긍정/네거티브를 보고 하는 방법을](mtp-autoir-report-false-positives-negatives.md)참조 하세요.
-
 ## <a name="next-steps"></a>다음 단계
 
 - [활동 센터 사용 권한 개요를 확인 하세요.](mtp-action-center.md#required-permissions-for-action-center-tasks)
+
 - [자동화 조사 및 대응과 관련된 작업 승인 또는 거부](mtp-autoir-actions.md)
 

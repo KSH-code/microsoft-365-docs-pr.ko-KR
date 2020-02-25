@@ -15,20 +15,20 @@ search.appverid:
 - MOE150
 ms.collection: M365-security-compliance
 description: Office 365 Advanced Threat Protection 계획 2의 자동화 된 조사 및 응답 기능의 수정 작업에 대해 알아봅니다.
-ms.openlocfilehash: e75ef1523247cbddcf6cb28d69a889db1de8e42f
-ms.sourcegitcommit: 8876c216954b94adce9cdf493c49bd5a10190a3a
+ms.openlocfilehash: 433813ed1a801117a88da696392030db5091b54b
+ms.sourcegitcommit: 133bf7936e5ef1a4d06998429d0d01096bda929f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42228534"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42261055"
 ---
 # <a name="remediation-actions-following-an-automated-investigation-in-office-365"></a>Office 365의 자동화 된 조사에 따라 수정 작업
 
-## <a name="remediation-actions-overview"></a>재구성 작업 개요
+## <a name="remediation-actions"></a>수정 작업
 
 Office 365의 [자동화 된 조사 및 응답 기능](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air) Advanced Threat Protection은 특정 수정 작업을 포함 합니다. 자동 조사가 실행 중이거나 완료 된 경우에는 일반적으로 보안 운영 팀의 승인이 요구 되는 하나 이상의 수정 작업을 확인할 수 있습니다. 다음 표에서는 현재 Office 365 Advanced Threat Protection에서 사용할 수 있는 수정 작업을 요약 하 여 보여 줍니다. 
 
-|작업 | 설명 |
+|동작은 | 설명 |
 |-----|-----|
 |차단 URL(클릭 시간) |악성 Url이 포함 된 전자 메일 및 문서에 대해 보호 합니다. 이렇게 하면 사용자가 기존 Office 파일 또는 이전 전자 메일 메시지의 링크를 클릭할 때 [안전한 링크](https://docs.microsoft.com/microsoft-365/security/office-365-security/atp-safe-links) 를 통해 악성 링크 및 관련 웹 페이지를 차단 하는 데 사용할 수 있습니다. |
 |전자 메일 일시 삭제  |사용자 사서함에서 특정 전자 메일 메시지 일시 삭제|
@@ -52,6 +52,8 @@ Office 365의 [자동화 된 조사 및 응답 기능](https://docs.microsoft.co
  - **승인** 을 사용 하 여 업데이트를 시작할 수 있습니다.
  - **거부** 는 추가 작업을 수행 하지 않습니다.
 
-## <a name="related-articles"></a>관련 문서
+## <a name="next-steps"></a>다음 단계
 
-[Microsoft Threat Protection의 자동화 된 조사 및 응답에 대해 자세히 알아보기](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-autoir)
+- [손상 된 사용자 보안 playbook에 대해 자세히 알아보기](https://docs.microsoft.com/microsoft-365/security/office-365-security/address-compromised-users-quickly)
+
+- [ATP 보고서 보기](https://docs.microsoft.com/microsoft-365/security/office-365-security/view-reports-for-atp)

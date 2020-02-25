@@ -1,5 +1,5 @@
 ---
-title: 자동화된 검사 후 대기 중인 작업 승인 또는 거부
+title: 자동화 된 조사에 따라 보류 중인 작업 승인 또는 거부
 description: 자동화된 조사 및 대응과 관련된 조치를 관리하는 작업 센터의 사용
 keywords: 조치, 센터, 자동 공기, 자동화, 조사, 대응, 수정
 search.appverid: met150
@@ -18,14 +18,14 @@ ms.collection:
 - M365-security-compliance
 ms.topic: conceptual
 ms.custom: autoir
-ms.openlocfilehash: 5118f7fddaee0fa768675597dee862eb75e4ed96
-ms.sourcegitcommit: 48b69caf6550e68cb14472ea8cfc76b53e7ae9c6
+ms.openlocfilehash: 725d22629d2c81a0edf8f329602214afddde6511
+ms.sourcegitcommit: 133bf7936e5ef1a4d06998429d0d01096bda929f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42225496"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42261985"
 ---
-# <a name="approve-or-reject-pending-actions-from-automated-investigations"></a>자동화된 검사에서 대기 중인 작업 승인 또는 거부
+# <a name="approve-or-reject-pending-actions-following-an-automated-investigation"></a>자동화 된 조사에 따라 보류 중인 작업 승인 또는 거부
 
 **적용 대상:**
 - Microsoft 위협 방지
@@ -35,9 +35,7 @@ ms.locfileid: "42225496"
 > [!TIP]
 > Microsoft Threat Protection의 자동화 된 조사 및 응답 기능을 통해 누락 되었거나 지워지는이 감지 되었다고 생각 되 면 알려주세요. [Microsoft Threat Protection에서 자동 조사 및 응답 (AIR) 기능을 통해 허위 긍정/네거티브를 보고 하는 방법을](mtp-autoir-report-false-positives-negatives.md)참조 하세요.
 
-여러 방법 중 하나를 사용하여 보류 중인 작업을 검토하고 승인할 수 있습니다.
-- [알림 센터를 이용](#review-a-pending-action-in-the-action-center)
-- [조사 세부 정보 보기를 이용](#review-a-pending-action-in-the-investigation-details-view)
+[작업 센터](#review-a-pending-action-in-the-action-center) 또는 [조사 세부 정보 보기](#review-a-pending-action-in-the-investigation-details-view)를 사용 하 여 보류 중인 작업을 검토 하 고 승인할 수 있습니다.
 
 > [!NOTE]
 > 수정 작업을 승인하거나 거부하려면 [적절한 사용 권한](mtp-action-center.md#required-permissions-for-action-center-tasks)이 있어야 합니다.
@@ -65,5 +63,7 @@ ms.locfileid: "42225496"
 ## <a name="next-steps"></a>다음 단계
 
 - [알림 센터에 대한 자세한 정보 알아보기](mtp-action-center.md)
+
 - [인시던트에 대해 자세히 알아보기](incidents-overview.md)
+
 - [헌팅에 대해 알아보기](advanced-hunting-overview.md)

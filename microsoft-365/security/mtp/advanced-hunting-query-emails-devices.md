@@ -17,19 +17,19 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 83a4b7b52508002ad9bc5c27e1ebf68677808444
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 0bbcef72fa305819c9f8e0813cfcdfd6c2b0fff3
+ms.sourcegitcommit: 74bf600424d0cb7b9d16b4f391aeda7875058be1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42087937"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42234727"
 ---
 # <a name="hunt-for-threats-across-devices-and-emails"></a>여러 장치 및 전자 메일에서 위협을 탐지
 
 **적용 대상:**
 - Microsoft Threat Protection
 
-[!INCLUDE [Prerelease information](../includes/prerelease.md)]
+
 
 Microsoft Threat Protection의 [고급 헌팅](advanced-hunting-overview.md)을 통해 Windows 장치 및 Office 365 전자 메일 전반에 걸쳐 위협을 사전에 헌팅할 수 있습니다. 다음은 장치와 전자 메일을 모두 포괄하는 쿼리를 구성하는 방법을 탐색하는 데 도움이 되는 몇 가지 헌팅 시나리오와 예제 쿼리입니다.
 
