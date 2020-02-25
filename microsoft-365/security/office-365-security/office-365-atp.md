@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: tracyp
 author: msfttracyp
 manager: dansimp
-ms.date: 12/04/2019
+ms.date: 02/24/2020
 audience: Admin
 ms.topic: hub-page
 ms.service: O365-seccomp
@@ -17,12 +17,12 @@ ms.assetid: e100fe7c-f2a1-4b7d-9e08-622330b83653
 ms.collection:
 - M365-security-compliance
 description: Office 365 Advanced Threat Protection에는 안전한 첨부 파일, 안전한 링크, 고급 피싱 방지 도구, 보고 도구 및 위협 인텔리전스 기능이 포함되어 있습니다.
-ms.openlocfilehash: 9d7b2561c40e1322b7f15e72c48755268c119f24
-ms.sourcegitcommit: ee18bdd08e85b1262b91c180ccf61df59c19dab2
+ms.openlocfilehash: 712fdf6935fa69bfb2079858d6384eee270776e6
+ms.sourcegitcommit: 133bf7936e5ef1a4d06998429d0d01096bda929f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42106841"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42261035"
 ---
 # <a name="office-365-advanced-threat-protection"></a>Office 365 Advanced Threat Protection
 
@@ -39,7 +39,7 @@ Office 365 ATP (Advanced Threat Protection)는 전자 메일 메시지, 링크 (
 
 - **[위협 조사 및 응답 기능](#use-threat-investigation-and-response-capabilities)**: 최신 도구를 사용하여 위협의 조사, 이해, 시뮬레이션 및 예방 등을 할 수 있습니다.
 
-- **[자동화된 조사 및 응답 기능](#save-time-with-automated-investigation-and-response)**: 위협에 대한 조사 및 위협을 낮추기 위한 시간과 노력을 줄입니다.
+- **[자동화된 조사 및 응답 기능](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air)**: 위협에 대한 조사 및 위협을 낮추기 위한 시간과 노력을 줄입니다.
 
 ## <a name="office-365-atp-plan-1-and-plan-2"></a>Office 365 ATP 플랜 1 및 플랜 2
 
@@ -47,7 +47,7 @@ Office 365 ATP (Advanced Threat Protection)는 전자 메일 메시지, 링크 (
 
 |Office 365 ATP 계획 1 |Office 365 ATP 계획 2|
 |---------|---------|
-|구성, 보호 및 검색 기능:<br/>- [안전한 첨부 파일](atp-safe-attachments.md)<br/>- [안전한 링크](atp-safe-links.md)<br/>- [ATP for SharePoint, OneDrive 및 Microsoft Teams](atp-for-spo-odb-and-teams.md)<br/>- [고급 피싱 방지](atp-anti-phishing.md)<br/>- [실시간 탐지](threat-explorer.md)     |Office 365 ATP 계획 1 기능<br/>--- 추가 ---<br/>자동화, 조사, 수정 및 교육 기능:<br/>- [위협 추적기](threat-trackers.md)<br/>- [위협 탐색기](threat-explorer.md)<br/>- [자동화된 조사 및 응답](automated-investigation-response-office.md)<br/>- [공격 시뮬레이터](attack-simulator.md)|
+|구성, 보호 및 검색 기능:<br/>- [안전한 첨부 파일](atp-safe-attachments.md)<br/>- [안전한 링크](atp-safe-links.md)<br/>- [ATP for SharePoint, OneDrive 및 Microsoft Teams](atp-for-spo-odb-and-teams.md)<br/>- [고급 피싱 방지](atp-anti-phishing.md)<br/>- [실시간 탐지](threat-explorer.md)     |Office 365 ATP 계획 1 기능<br/>--- 추가 ---<br/>자동화, 조사, 수정 및 교육 기능:<br/>- [위협 추적기](threat-trackers.md)<br/>- [위협 탐색기](threat-explorer.md)<br/>- [자동화된 조사 및 응답](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air)<br/>- [공격 시뮬레이터](attack-simulator.md)|
 
 - Office 365 ATP 계획 2는 Office 365 E5, Office 365 A5 및 Microsoft 365 E5에 포함되어 있습니다.
 
@@ -56,9 +56,6 @@ Office 365 ATP (Advanced Threat Protection)는 전자 메일 메시지, 링크 (
 - Office 365 ATP 계획 1과 Office 365 ATP 계획 2는 특정 구독의 추가 기능으로 사용할 수 있습니다. 자세한 내용은 [ATP 계획에서의 기능 가용성](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans)을 참조하세요.
 
 - 현재 구독에 Office 365 ATP가 포함되어 있지 않은 경우 [평가판을 시작하고 ATP가 조직에 대해 작동하는 방법을 알아보려면 영업 담당자에게 문의](https://go.microsoft.com/fwlink/p/?LinkId=518644)하세요.
-
-> [!TIP]
-> ID 및 위협 방지가 지원되는 Microsoft 365 E5 또는 Microsoft 365 E3가 있나요? [Microsoft 위협 방지](../mtp/microsoft-threat-protection.md)를 시도해 보세요.
 
 ## <a name="configure-atp-policies"></a>ATP 정책 구성
 
@@ -105,7 +102,7 @@ Office 365 ATP Plan 2에는 조직의 보안팀이 악의적인 공격을 예측
 
 ## <a name="save-time-with-automated-investigation-and-response"></a>자동화된 조사 및 응답으로 시간 절약하기
 
-(**새로운 기능!**) 잠재적인 사이버 공격을 조사할 때는 시간이 가장 중요합니다. 위협을 빨리 식별하고 완화할 수록 조직을 보호하는데 더욱 좋습니다. [자동화된 조사 및 대응](automated-investigation-response-office.md)(AIR) 기능에는 알림이 트리거되는 경우와 같이 자동으로 시작되거나 또는 Explorer의 보기와 같이 수동으로 시작할 수 있는 보안 플레이북 세트가 포함되어 있습니다. AIR을 사용하면 보안 운영팀이 위협을 효과적이고 효율적으로 완화하도록 하는데 드는 시간과 노력을 절약할 수 있습니다. 자세한 내용은 [Office 365의 AIR](automated-investigation-response-office.md)를 참조하세요.
+(**새로운 기능!**) 잠재적인 사이버 공격을 조사할 때는 시간이 가장 중요합니다. 위협을 빨리 식별하고 완화할 수록 조직을 보호하는데 더욱 좋습니다. [자동화된 조사 및 대응](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air)(AIR) 기능에는 알림이 트리거되는 경우와 같이 자동으로 시작되거나 또는 Explorer의 보기와 같이 수동으로 시작할 수 있는 보안 플레이북 세트가 포함되어 있습니다. AIR을 사용하면 보안 운영팀이 위협을 효과적이고 효율적으로 완화하도록 하는데 드는 시간과 노력을 절약할 수 있습니다. 자세한 내용은 [Office 365의 AIR](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air)를 참조하세요.
 
 ## <a name="permissions-required-to-use-atp-features"></a>ATP 기능을 사용하는 데 필요한 사용 권한
 
