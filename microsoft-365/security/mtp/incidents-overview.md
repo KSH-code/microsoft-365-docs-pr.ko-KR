@@ -19,37 +19,37 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 95934d9884328d4311abbd0f29b96e46e0c06894
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 29eeb5f0699321441543057040b434c4dad61925
+ms.sourcegitcommit: 74bf600424d0cb7b9d16b4f391aeda7875058be1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42087637"
+ms.lasthandoff: 02/24/2020
+ms.locfileid: "42235117"
 ---
-# <a name="incidents-overview-in-microsoft-threat-protection"></a><span data-ttu-id="525ba-104">Microsoft Threat Protection의 인시던트 개요</span><span class="sxs-lookup"><span data-stu-id="525ba-104">Incidents overview in Microsoft Threat Protection</span></span>
+# <a name="incidents-overview-in-microsoft-threat-protection"></a><span data-ttu-id="20e30-104">Microsoft Threat Protection의 인시던트 개요</span><span class="sxs-lookup"><span data-stu-id="20e30-104">Incidents overview in Microsoft Threat Protection</span></span>
 
-<span data-ttu-id="525ba-105">**적용 대상:**</span><span class="sxs-lookup"><span data-stu-id="525ba-105">**Applies to:**</span></span>
-- <span data-ttu-id="525ba-106">Microsoft Threat Protection</span><span class="sxs-lookup"><span data-stu-id="525ba-106">Microsoft Threat Protection</span></span>
-
-[!INCLUDE [Prerelease information](../includes/prerelease.md)]
-
-<span data-ttu-id="525ba-107">모든 인시던트의 기반은 경고입니다.</span><span class="sxs-lookup"><span data-stu-id="525ba-107">The basis of all incidents are alerts.</span></span> <span data-ttu-id="525ba-108">네트워크에서 악성 이벤트 또는 활동이 발견되면 경고가 만들어집니다.</span><span class="sxs-lookup"><span data-stu-id="525ba-108">Alerts are created when a malicious event or activity is seen on your network.</span></span> <span data-ttu-id="525ba-109">개별 경고는 개별 이벤트나 엔터티에서 발생하는 상황에 대한 유용한 단서를 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="525ba-109">Individual alerts provide valuable clues in what's happening on individual events or entities.</span></span> <span data-ttu-id="525ba-110">그러나 일반적으로 공격은 다양한 공격 벡터를 사용하여 위반을 수행합니다.</span><span class="sxs-lookup"><span data-stu-id="525ba-110">However, attacks typically employ various attack vectors to carry out a breach.</span></span> <span data-ttu-id="525ba-111">개별 단서를 하나로 묶는 것은 어렵고 시간이 많이 걸리는 작업이 될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="525ba-111">Piecing individual clues together can be a challenging and time-consuming task.</span></span> 
-
-<span data-ttu-id="525ba-112">Microsoft Threat Protection는 개별 경고의 점들을 연결합니다.</span><span class="sxs-lookup"><span data-stu-id="525ba-112">Microsoft Threat Protection connects the dots on individual alerts.</span></span> <span data-ttu-id="525ba-113">다음 엔터티에 대한 악성 이벤트는 Microsoft 365 보안 센터에 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="525ba-113">Malicious events on the following entities are surfaced in the Microsoft 365 security center:</span></span>
-- <span data-ttu-id="525ba-114">장치</span><span class="sxs-lookup"><span data-stu-id="525ba-114">Devices</span></span>
-- <span data-ttu-id="525ba-115">사용자</span><span class="sxs-lookup"><span data-stu-id="525ba-115">Users</span></span>
-- <span data-ttu-id="525ba-116">사서함</span><span class="sxs-lookup"><span data-stu-id="525ba-116">Mailboxes</span></span>
-
-<span data-ttu-id="525ba-117">더 큰 공격의 일부가 될 특성을 보여주는 의심스러운 이벤트는 인시던트로 집계됩니다.</span><span class="sxs-lookup"><span data-stu-id="525ba-117">Suspicious events that show characteristics of being part of a larger attack are aggregated into an incident.</span></span> 
-
-<span data-ttu-id="525ba-118">공격 범위를 확인하는 데 도움이 되는 공격이 시작된 위치와 기타 세부 정보를 정확하게 알 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="525ba-118">You'll know exactly where an attack started and other details to help you see the extent of the attack.</span></span>
-
-<span data-ttu-id="525ba-119">플랫폼은 보안 방어자가 복잡한 크로스 엔터티 위협을 이해하고 처리하도록 올바른 시각 자료 및 데이터 표현을 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="525ba-119">The platform provides security defenders with the right visuals and data representations to understand and address complex cross-entity threats.</span></span> 
-
-<span data-ttu-id="525ba-120">공격 범위에 대한 가시성을 확보할 뿐만 아니라 인시던트를 방지하기 위한 전략적 단계를 수행하는 서비스에도 액세스할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="525ba-120">Not only will you have visibility on the scope of an attack, but you'll also have access to services that will allow you to take tactical steps to contain an incident.</span></span>
+<span data-ttu-id="20e30-105">**적용 대상:**</span><span class="sxs-lookup"><span data-stu-id="20e30-105">**Applies to:**</span></span>
+- <span data-ttu-id="20e30-106">Microsoft Threat Protection</span><span class="sxs-lookup"><span data-stu-id="20e30-106">Microsoft Threat Protection</span></span>
 
 
-## <a name="related-topics"></a><span data-ttu-id="525ba-121">관련 항목</span><span class="sxs-lookup"><span data-stu-id="525ba-121">Related topics</span></span>
-- [<span data-ttu-id="525ba-122">인시던트 우선 순위 지정</span><span class="sxs-lookup"><span data-stu-id="525ba-122">Prioritize incidents</span></span>](incident-queue.md)
-- [<span data-ttu-id="525ba-123">인시던트 조사</span><span class="sxs-lookup"><span data-stu-id="525ba-123">Investigate incidents</span></span>](investigate-incidents.md)
-- [<span data-ttu-id="525ba-124">인시던트 관리</span><span class="sxs-lookup"><span data-stu-id="525ba-124">Manage incidents</span></span>](manage-incidents.md)
+
+<span data-ttu-id="20e30-107">모든 인시던트의 기반은 경고입니다.</span><span class="sxs-lookup"><span data-stu-id="20e30-107">The basis of all incidents are alerts.</span></span> <span data-ttu-id="20e30-108">네트워크에서 악성 이벤트 또는 활동이 발견되면 경고가 만들어집니다.</span><span class="sxs-lookup"><span data-stu-id="20e30-108">Alerts are created when a malicious event or activity is seen on your network.</span></span> <span data-ttu-id="20e30-109">개별 경고는 개별 이벤트나 엔터티에서 발생하는 상황에 대한 유용한 단서를 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="20e30-109">Individual alerts provide valuable clues in what's happening on individual events or entities.</span></span> <span data-ttu-id="20e30-110">그러나 일반적으로 공격은 다양한 공격 벡터를 사용하여 위반을 수행합니다.</span><span class="sxs-lookup"><span data-stu-id="20e30-110">However, attacks typically employ various attack vectors to carry out a breach.</span></span> <span data-ttu-id="20e30-111">개별 단서를 하나로 묶는 것은 어렵고 시간이 많이 걸리는 작업이 될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="20e30-111">Piecing individual clues together can be a challenging and time-consuming task.</span></span> 
+
+<span data-ttu-id="20e30-112">Microsoft Threat Protection는 개별 경고의 점들을 연결합니다.</span><span class="sxs-lookup"><span data-stu-id="20e30-112">Microsoft Threat Protection connects the dots on individual alerts.</span></span> <span data-ttu-id="20e30-113">다음 엔터티에 대한 악성 이벤트는 Microsoft 365 보안 센터에 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="20e30-113">Malicious events on the following entities are surfaced in the Microsoft 365 security center:</span></span>
+- <span data-ttu-id="20e30-114">장치</span><span class="sxs-lookup"><span data-stu-id="20e30-114">Devices</span></span>
+- <span data-ttu-id="20e30-115">사용자</span><span class="sxs-lookup"><span data-stu-id="20e30-115">Users</span></span>
+- <span data-ttu-id="20e30-116">사서함</span><span class="sxs-lookup"><span data-stu-id="20e30-116">Mailboxes</span></span>
+
+<span data-ttu-id="20e30-117">더 큰 공격의 일부가 될 특성을 보여주는 의심스러운 이벤트는 인시던트로 집계됩니다.</span><span class="sxs-lookup"><span data-stu-id="20e30-117">Suspicious events that show characteristics of being part of a larger attack are aggregated into an incident.</span></span> 
+
+<span data-ttu-id="20e30-118">공격 범위를 확인하는 데 도움이 되는 공격이 시작된 위치와 기타 세부 정보를 정확하게 알 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="20e30-118">You'll know exactly where an attack started and other details to help you see the extent of the attack.</span></span>
+
+<span data-ttu-id="20e30-119">플랫폼은 보안 방어자가 복잡한 크로스 엔터티 위협을 이해하고 처리하도록 올바른 시각 자료 및 데이터 표현을 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="20e30-119">The platform provides security defenders with the right visuals and data representations to understand and address complex cross-entity threats.</span></span> 
+
+<span data-ttu-id="20e30-120">공격 범위에 대한 가시성을 확보할 뿐만 아니라 인시던트를 방지하기 위한 전략적 단계를 수행하는 서비스에도 액세스할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="20e30-120">Not only will you have visibility on the scope of an attack, but you'll also have access to services that will allow you to take tactical steps to contain an incident.</span></span>
+
+
+## <a name="related-topics"></a><span data-ttu-id="20e30-121">관련 항목</span><span class="sxs-lookup"><span data-stu-id="20e30-121">Related topics</span></span>
+- [<span data-ttu-id="20e30-122">인시던트 우선 순위 지정</span><span class="sxs-lookup"><span data-stu-id="20e30-122">Prioritize incidents</span></span>](incident-queue.md)
+- [<span data-ttu-id="20e30-123">인시던트 조사</span><span class="sxs-lookup"><span data-stu-id="20e30-123">Investigate incidents</span></span>](investigate-incidents.md)
+- [<span data-ttu-id="20e30-124">인시던트 관리</span><span class="sxs-lookup"><span data-stu-id="20e30-124">Manage incidents</span></span>](manage-incidents.md)
