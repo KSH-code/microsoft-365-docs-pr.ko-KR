@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: '보안 및 준수 센터를 사용하여 통합 감사 로그를 검색해 Office 365 조직의 사용자 및 관리자 활동을 확인합니다. '
-ms.openlocfilehash: fe91f43d088242336d7e77e5422093979d34193b
-ms.sourcegitcommit: 8876c216954b94adce9cdf493c49bd5a10190a3a
+ms.openlocfilehash: 380c424acbcb609944ebfc3ea775ca31ac02bfe8
+ms.sourcegitcommit: 59b006f8e82d1772cae2029f278a59ae8a106736
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42228594"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "42266744"
 ---
 # <a name="search-the-audit-log-in-the-security--compliance-center"></a>보안 및 준수 센터에서 감사 로그 검색
 
@@ -332,7 +332,7 @@ Office 365에서 감사 로그를 검색하는 과정은 다음과 같습니다.
 |휴지통에서 파일 삭제됨|FileDeletedFirstStageRecycleBin|사용자가 사이트의 휴지통에서 파일을 삭제합니다.|
 |2단계 휴지통에서 파일 삭제됨|FileDeletedSecondStageRecycleBin|사용자가 사이트의 2단계 휴지통에서 파일을 삭제합니다.|
 |준수 정책 레이블 삭제됨|ComplianceRecordDelete|레코드로 분류된 문서가 삭제되었습니다. 문서에 콘텐츠를 레코드로 분류하는 보존 레이블이 적용된 경우 문서는 레코드로 간주됩니다.|
-|발견된 문서 민감도 불일치|DocumentSensitivityMismatchDetected|사용자는 민감도 레이블로 보호된 사이트에 문서를 업로드하고 문서는 사이트보다 민감도 레이블이 낮습니다. <br/><br/> 이 이벤트는 사이트에 적용된 민감도 레이블이 사이트에 업로드된 문서에 적용된 민감도 레이블보다 우선 순위가 높은 경우 트리거되지 않습니다. 민감도 레이블 우선 순위에 대한 자세한 정보는 [라벨 우선 순위(순서 중요)](sensitivity-labels.md#label-priority-order-matters)를 참조하십시오.|
+|발견된 문서 민감도 불일치|DocumentSensitivityMismatchDetected|사용자는 민감도 레이블로 보호된 사이트에 문서를 업로드하고 문서는 사이트에 적용된 민감도 레이블보다 우선 순위 민감도 레이블을 갖습니다. 예를 들어 기밀 이라는 레이블이 지정된 문서가 일반 사이트에 업로드됩니다. <br/><br/> 이 이벤트는 사이트에 적용된 민감도 레이블 보다 문서에 적용된 민감도 레이블이 우선 순위가 낮은 경우 트리거되지 않습니다. 예를 들어 일반이라는 레이블이 지정된 문서가 기밀 사이트에 업로드됩니다. 민감도 레이블 우선 순위에 대한 자세한 정보는 [라벨 우선 순위(순서 중요)](sensitivity-labels.md#label-priority-order-matters)를 참조하십시오.|
 |파일에서 맬웨어 검색됨|FileMalwareDetected|SharePoint 바이러스 백신 엔진이 파일에서 맬웨어를 검색합니다.|
 |파일 체크 아웃 취소됨|FileCheckOutDiscarded|사용자가 체크 아웃한 파일을 취소(또는 명령 취소)합니다. 즉, 체크 아웃되었을 때 파일에서 변경한 내용이 취소되고 문서 라이브러리의 문서 버전에 저장되지 않습니다.|
 |다운로드한 파일|FileDownloaded|사용자가 사이트에서 문서를 다운로드합니다.|
@@ -519,6 +519,7 @@ Office 365에서 감사 로그를 검색하는 과정은 다음과 같습니다.
 
 |**친숙한 이름**|**작업**|**설명**|
 |:-----|:-----|:-----|
+|액세스한 사서함 항목|MailItemsAccessed|사서함에서 메시지를 읽거나 액세스했습니다. 이 활동에 대한 감사 레코드는 메일 클라이언트(예: Outlook)가 메시지에 대한 바인드 작업을 수행하는 경우 또는 메일 프로토콜(예: Exchange ActiveSync 또는 IMAP)이 메일 폴더의 항목을 동기화하는 경우의 두 가지 방법 중 하나로 트리거됩니다. 이 활동은 Office 365 또는 Microsoft 365 E5 라이선스가 있는 사용자에게만 기록됩니다. 이 활동에 대한 감사 레코드를 분석하면 손상된 전자 메일 계정을 조사할 때 유용합니다. 자세한 내용은 [고급 감사](advanced-audit.md#access-to-crucial-events-for-investigations)의 "조사에 대한 중요 이벤트 액세스" 섹션을 참조하세요. |
 |대리인 사서함 사용 권한 추가됨|AddMailboxPermissions|관리자가 다른 사람의 사서함에 사용자(대리인)에 대한 FullAcess 사서함 사용 권한을 부여했습니다. FullAccess 사용 권한이 부여된 대리인은 다른 사람의 사서함을 열고 사서함의 콘텐츠를 읽거나 관리할 수 있습니다.|
 |일정 폴더에 대한 대리인 액세스 권한이 있는 사용자 추가 또는 제거 됨|UpdateCalendarDelegation|사용자가 다른 사용자의 사서함 일정에 대리인으로 추가 또는 제거되었습니다. 일정 위임 기능을 사용하여 같은 조직의 다른 사용자가 사서함 소유자의 일정을 관리할 수 있습니다.|
 |폴더에 사용 권한 추가됨|AddFolderPermissions|폴더 사용 권한이 추가되었습니다. 폴더 사용 권한은 사서함의 폴더와 해당 폴더에 있는 메시지에 액세스할 수 있는 조직의 사용자를 제어합니다.|
@@ -725,7 +726,7 @@ Workplace Analytics는 Office 365 조직에서 그룹이 공동으로 작업하�
 |팀에 봇이 추가됨|BotAddedToTeam|사용자가 팀에 봇을 추가합니다.|
 |채널 추가됨|ChannelAdded|사용자가 팀에 채널을 추가합니다.|
 |커넥터 추가됨|ConnectorAdded|사용자가 채널에 커넥터를 추가합니다.|
-|구성원이 추가됨|MemberAdded|팀 소유자가 팀 또는 그룹 채팅에 구성원을 추가합니다.|
+|구성원이 추가됨|MemberAdded|팀 소유자가 팀, 채널 또는 그룹 채팅에 구성원을 추가합니다.|
 |탭 추가됨|TabAdded|사용자가 채널에 탭을 추가합니다.|
 |채널 설정 변경함|ChannelSettingChanged|ChannelSettingChanged 작업은 팀 구성원이 다음 활동을 수행하는 경우 로깅됩니다. 각 활동에 대해 감사 로그 검색 결과의 **항목** 열에 변경된 설정에 대한 설명(아래에서 괄호 안에 표시된 내용)이 표시됩니다. <br/><br/>• 팀 채널의 이름을 변경합니다(**채널 이름**). <br/><br/>• 팀 채널의 설명을 변경합니다(**채널 설명**).|
 |조직 설정 변경함|TeamsTenantSettingChanged|TeamsTenantSettingChanged 작업은 Microsoft 365 관리 센터를 사용하여 전역 관리자가 다음 활동을 수행할 때 기록됩니다. 이러한 활동은 조직 전체의 Microsoft Teams 설정에 영향을 미칩니다. 자세한 내용은 [Microsoft Teams의 관리자 설정](https://support.office.com/article/3966a3f5-7e0f-4ea9-a402-41888f455ba2)을 참조하세요. <br/> 각 활동에 대해 감사 로그 검색 결과의 **항목** 열에 변경된 설정에 대한 설명(아래에서 괄호 안에 표시된 내용)이 표시됩니다. <br/><br/>• 조직에서 Microsoft Teams를 사용하거나 사용하지 않도록 설정합니다(**Microsoft Teams**). <br/><br/>• 조직에서 Microsoft Teams과 비즈니스용 Skype 사이의 상호 운용성을 사용하거나 사용하지 않도록 설정합니다(**비즈니스용 Skype 상호 운용성**). <br/><br/>• Microsoft Teams 클라이언트에서 조직도 보기를 사용하거나 사용하지 않습니다(조직도 보기 **). <br/><br/>• 팀 구성원이 비공개 모임을 예약할 수 있는 기능을사용하거나 사용하지 않도록 설정합니다(** 비공개 모임 예약 **). <br/><br/>• 팀 구성원이 채널 모임을 예약하는 기능을 사용하거나 사용하지 않도록 설정합니다(채널 모임 예약**). <br/><br/>• 팀 회의에서 비디오 통화를 사용하거나 사용하지 않도록 설정합니다(Skype 모임용 비디오 **). <br/><br/>• 조직의 Microsoft Teams 모임에서 화면 공유를 사용하거나 사용하지 않도록 설정합니다(** Skype 모임의 화면 공유 **). <br/><br/>• 팀 대화(애니메이션 이미지**)에 애니메이션 이미지(Giphys라고 함)를 추가하는 기능을 사용하거나 사용하지 않도록 설정합니다. <br/><br/>• 조직의 콘텐츠 등급 설정을 변경합니다(**콘텐츠 등급**). 콘텐츠 등급으로 인해 대화에 표시될 수 있는 애니메이션 이미지의 유형이 제한됩니다. <br/><br/>• 팀 구성원이 사용자 지정할 수 있는 이미지(사용자 지정 memes라고 함)를 인터넷에서 팀 대화에 추가할 수 있도록 허용하거나 허용하지 않습니다(인터넷에서 사용자 지정할 수 있는 이미지 **). <br/><br/>• 팀 구성원이 편집할 수 있는 이미지(스티커)를 팀 대화에 추가할 수 있도록 허용하거나 허용하지 않습니다(** 편집할 수 있는 이미지 **). <br/><br/>• 팀원들이 Microsoft Teams에서 봇을 사용할 수 있도록 허용하거나 허용하지 않습니다(조직 전체 봇**). <br/><br/>• Microsoft Teams의 전용 봇을 활성화합니다. 조직에서 봇이 활성화된 경우 사용할 수 있는 Teams 도움말 봇인 T-Bot은 여기에 포함되지 않습니다(**개별 봇**). <br/><br/>• 팀 구성원이 확장자 또는 탭을 추가할 수 있도록 허용하거나 허용하지 않습니다(**확장자 또는 탭**). <br/><br/>• Microsoft Teams용 독점 봇의 테스트용 로드 기능을 활성화하거나 비활성화합니다(**봇의 테스트용 로드**). <br/><br/>• 사용자가 Microsoft Teams 채널로 전자 메일 메시지를 보낼 수 있도록 허용하거나 허용하지 않습니다(**채널 전자 메일**).|
@@ -736,7 +737,7 @@ Workplace Analytics는 Office 365 조직에서 그룹이 공동으로 작업하�
 |팀 삭제됨|TeamDeleted|팀 소유자가 팀을 삭제합니다.|
 |팀에서 봇이 제거됨|BotRemovedFromTeam|사용자가 팀에서 봇을 제거합니다.|
 |커넥터 제거됨|ConnectorRemoved|사용자가 채널에 커넥터를 제거합니다.|
-|구성원이 제거됨|MemberRemoved|팀 소유자가 팀 또는 그룹 채팅에서 구성원을 제거합니다.|
+|구성원이 제거됨|MemberRemoved|팀 소유자가 팀, 채널 또는 그룹 채팅에서 구성원을 제거합니다.|
 |탭 제거됨|TabRemoved|사용자는 채널에서 탭을 제거합니다.|
 |커넥터가 업데이트됨|ConnectorUpdated|사용자가 채널의 커넥터를 수정했습니다.|
 |탭이 업데이트됨|TabUpdated|사용자가 채널의 탭을 수정했습니다.|

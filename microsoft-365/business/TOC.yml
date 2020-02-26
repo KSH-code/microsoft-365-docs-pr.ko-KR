@@ -2,11 +2,11 @@
   items:
     - name: Microsoft 365
       href: index.yml
-    - name: Microsoft 365 Business란 무엇인가요?
+    - name: Microsoft 365 Business란?
       href: microsoft-365-business-overview.md
     - name: Microsoft 365 Business 받기
       href: sign-up.md
-    - name: 데이터 보호를 위한 필요 조건
+    - name: 데이터 보호를 위한 필수 조건
       href: pre-requisites-for-data-protection.md
     - name: 설정
       items:
@@ -45,7 +45,7 @@
           href: set-up-compliance.md
     - name: 사용자 관리
       items:
-        - name: Add users
+        - name: 사용자 추가
           href: add-users-m365b.md
         - name: 직원 제거
           href: /Office365/Admin/add-users/remove-former-employee?toc=/microsoft-365/business/toc.json&bc=/microsoft-365/business/breadcrumb/toc.json

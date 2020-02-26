@@ -18,7 +18,7 @@
       href: m365-campaigns-sign-in.md
     - name: 로그인 페이지 사용자 지정
       href: m365-customize-sign-in.md
-    - name: Add users
+    - name: 사용자 추가
       href: ../business/add-users-m365b.md?toc=/microsoft-365/campaigns/toc.json
 - name: 보안 및 보호 강화
   items:

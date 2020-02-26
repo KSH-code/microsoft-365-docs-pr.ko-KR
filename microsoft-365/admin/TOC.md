@@ -152,7 +152,7 @@
 ## 21Vianet에서 운영하는 Office 365
 ### [21Vianet에서 운영하는 Office 365 정보](services-in-china/services-in-china.md)
 ### [구독 구입 또는 체험](services-in-china/buy-or-try-subscriptions.md)
-### [21Vianet에서 운영 하는 Office 365 용 iOS 용 Office 앱을 다운로드 합니다.](services-in-china/download-office-app-for-iOS.md)
+### [21Vianet에서 운영하는 Office 365용 iOS Office 앱 다운로드](services-in-china/download-office-app-for-iOS.md)
 ### [청구서 보기 또는 Fapiao 받기](services-in-china/view-your-bill-or-get-a-fapiao.md)
 ### [Fapiao 신청](services-in-china/apply-for-a-fapiao.md)
 ### [Azure Information Protection 패리티](services-in-china/parity-between-azure-information-protection.md)
