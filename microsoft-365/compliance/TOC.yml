@@ -1,6 +1,6 @@
 - name: Microsoft 365 규정 준수
   href: index.yml
-- name: 시작하기
+- name: 시작
   items:
     - name: 준수 센터의 새로운 기능
       href: whats-new.md
@@ -698,27 +698,30 @@
           href: manage-jobs.md
 - name: 감사 및 경고 정책 관리
   items:
-    - name: 감사 로그 검색
-      href: search-the-audit-log-in-security-and-compliance.md
+    - name: 통합 감사
+      items:
+        - name: 감사 로그 검색
+          href: search-the-audit-log-in-security-and-compliance.md
+        - name: 감사 로그 검색 켜기 또는 끄기
+          href: turn-audit-log-search-on-or-off.md
+        - name: 감사 로그의 자세한 속성
+          href: detailed-properties-in-the-office-365-audit-log.md
+        - name: '감사 로그 레코드 내보내기, 구성 및 보기'
+          href: export-view-audit-log-records.md
+        - name: 감사 로그를 사용하여 일반적인 문제 조사
+          href: auditing-troubleshooting-scenarios.md
+        - name: 감사 로그에서 공유 감사 사용
+          href: use-sharing-auditing.md
+        - name: 감사 로그에서 eDiscovery 활동 검색
+          href: search-for-ediscovery-activities-in-the-audit-log.md
+    - name: 사서함 감사
+      href: enable-mailbox-auditing.md
     - name: 고급 감사
       href: advanced-audit.md
-    - name: 감사 로그 검색 켜기 또는 끄기
-      href: turn-audit-log-search-on-or-off.md
-    - name: 사서함 감사 관리
-      href: enable-mailbox-auditing.md
-    - name: 로그 보존 정책 감사 관리
-      href: audit-log-retention-policies.md
-    - name: 감사 로그의 자세한 속성
-      href: detailed-properties-in-the-office-365-audit-log.md
-    - name: '감사 로그 레코드 내보내기, 구성 및 보기'
-      href: export-view-audit-log-records.md
-    - name: 감사 로그를 사용하여 일반적인 문제 조사
-      href: auditing-troubleshooting-scenarios.md
-    - name: 감사 로그에서 공유 감사 사용
-      href: use-sharing-auditing.md
-    - name: 감사 로그에서 eDiscovery 활동 검색
-      href: search-for-ediscovery-activities-in-the-audit-log.md
-    - name: 경고 정책 관리
+      items:
+        - name: 로그 보존 정책 감사 관리
+          href: audit-log-retention-policies.md
+    - name: 알림 정책
       href: alert-policies.md
 - name: 규정 준수 위험 관리
   items:

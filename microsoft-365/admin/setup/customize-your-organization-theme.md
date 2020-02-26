@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 8275da91-7a48-4591-94ab-3123a3f79530
 description: 'Office 365의 기본 테마를 변경 하 고 회사 로고나 색과 일치 하도록 사용자 지정 하는 방법을 알아봅니다. '
-ms.openlocfilehash: b59efa21195c0c7bed12c98b9d360d84451b3d35
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 729f029f58a19ed819b194deff526fc9b44757c5
+ms.sourcegitcommit: 6d672eb8287526a9db90df5fa85bc4984a7047d1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42247871"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "42280186"
 ---
 # <a name="customize-the-office-365-theme-for-your-organization"></a>조직의 Office 365 테마 사용자 지정
 
@@ -43,7 +43,7 @@ Microsoft 365 관리 센터에서 테마를 사용자 지정 하는 방법에 �
   - **사용자 지정 로고 이미지 사용**: URL에서 이미지를 사용할지 아니면 이미지를 업로드할 지를 선택 합니다. URL을 사용 하는 경우 URL에서 HTTPS를 사용 하는지 확인 하 고, 모든 형식의 크기를 200 x 30 픽셀로 지정 합니다. JPG, PNG, GIF 또는 SVG 형식의 200 x 30 픽셀은 10kb에서 로고를 업로드할 수 있습니다.
 
     > [!NOTE]
-    > 로고가 SharePoint 모바일 앱에 표시 되도록 하려면 SVG 이미지만 사용 합니다. 다른 형식으로 업로드 된 이미지는 앱에 표시 되지 않습니다. 
+    > 로고가 SharePoint 모바일 앱에 표시 되도록 하려면 SVG 이미지만 사용 합니다. 다른 형식으로 업로드 된 이미지는 앱에 표시 되지 않습니다. SharePoint 모바일 앱에서는 클릭 가능한 로고를 사용할 수 없습니다.
     
   - **로고를 클릭**하 여 만들 수 있음: 탐색 모음에서 로고를 회사 리소스에 대 한 링크로 사용할 수도 있습니다. 여기에는 http://또는 https://로 시작 하는 로고의 URL을 입력할 수 있습니다. 이 단계는 선택 사항입니다.
     

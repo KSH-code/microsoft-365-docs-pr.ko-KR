@@ -1,19 +1,20 @@
 ---
-title: Microsoft Managed Desktop에 대 한 매핑된 드라이브 준비
+title: Microsoft Managed Desktop의 매핑된 드라이브 준비
 description: 확인 해야 하는 중요 한 단계
-keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 설명서
+keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
 author: jaimeo
+ms.author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: e4c2dbe8f1cae12aa1b10c6cd43f295a9a6062d0
-ms.sourcegitcommit: 8102751ae20c93439e19afded396c4e6ee5ea5a5
+ms.openlocfilehash: 8bdbbefb1fc3bfff324787eedb497afe781184f0
+ms.sourcegitcommit: 6d672eb8287526a9db90df5fa85bc4984a7047d1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/16/2019
-ms.locfileid: "34100714"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "42280176"
 ---
-#  <a name="prepare-mapped-drives-for-microsoft-managed-desktop"></a>Microsoft Managed Desktop에 대 한 매핑된 드라이브 준비
+#  <a name="prepare-mapped-drives-for-microsoft-managed-desktop"></a>Microsoft Managed Desktop의 매핑된 드라이브 준비
 
 대부분의 엔터프라이즈 환경에서는 사용자 또는 팀이 파일을 공유 및 저장 하거나 온-프레미스 응용 프로그램을 사용할 수 있도록 매핑된 드라이브에 대 한 레거시 요구 사항이 있습니다. Microsoft 관리 데스크톱에서는 매핑된 드라이브를 사용 하지 않는 것이 좋습니다. 대신 다음과 같이 yor 파일 액세스 솔루션을 modernize 것이 좋습니다.
   
@@ -33,7 +34,7 @@ ms.locfileid: "34100714"
 - 이러한 파일 공유 위치에 액세스 해야 하는 사용자 그룹 
 - 할당 해야 하는 특정 드라이브 문자 (필요한 경우)
 
-예를 들면 다음과 같습니다.
+예:
 
 | 드라이브 문자 | UNC 경로 | 사용자 그룹 |
 |--------------|----------|------------|

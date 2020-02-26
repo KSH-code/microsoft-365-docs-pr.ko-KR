@@ -12,18 +12,18 @@ search.appverid:
 - MET150
 - MOE150
 ms.collection: M365-security-compliance
-ms.date: 02/20/2020
+ms.date: 02/25/2020
 description: Office 365 Advanced Threat Protection 계획 2의 자동화 된 조사 및 응답 기능을 사용 하 여 공격에 노출 된 사용자 계정을 검색 하 고 해결 하는 프로세스를 빠르게 진행 하는 방법을 알아봅니다.
-ms.openlocfilehash: 7dfa1db02e777e3fdb546ebf948ebc297f1caad5
-ms.sourcegitcommit: 8876c216954b94adce9cdf493c49bd5a10190a3a
+ms.openlocfilehash: e5444b0b628be9acba029829b6fbb275b9c2f554
+ms.sourcegitcommit: 6d672eb8287526a9db90df5fa85bc4984a7047d1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42228570"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "42280216"
 ---
 # <a name="address-compromised-user-accounts-with-automated-investigation-and-response"></a>자동 조사 및 응답을 통해 손상 된 사용자 계정 처리
 
-[Office 365 Advanced Threat Protection 계획 2](office-365-atp.md#office-365-atp-plan-1-and-plan-2) 에는 강력한 [자동화 된 조사 및 응답](office-365-air.md) (AIR) 기능이 포함 되어 있습니다. 이러한 기능을 통해 보안 운영 팀을 보다 많은 시간과 노력으로 위협을 처리할 수 있습니다. Microsoft는 계속 해 서 보안 기능을 개선 합니다. 최근, AIR 기능은 손상 된 사용자 보안 playbook (현재 미리 보기)를 포함 하도록 향상 되었습니다. 이 문서를 읽으면 손상 된 사용자 보안 playbook에 대해 자세히 알아볼 수 있습니다. 그리고 추가 세부 정보를 확인 하 고 [사용자 손상 및 제한 위반 범위에 응답 하 고 Office 365 ATP를 통해 침해](https://techcommunity.microsoft.com/t5/Security-Privacy-and-Compliance/Speed-up-time-to-detect-and-respond-to-user-compromise-and-limit/ba-p/977053) 를 처리 하는 시간을 빠르게 확인할 수 있습니다.
+[Office 365 Advanced Threat Protection 계획 2](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide#office-365-atp-plan-1-and-plan-2) 에는 강력한 [자동화 된 조사 및 응답](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air) (AIR) 기능이 포함 되어 있습니다. 이러한 기능을 통해 보안 운영 팀을 보다 많은 시간과 노력으로 위협을 처리할 수 있습니다. Microsoft는 계속 해 서 보안 기능을 개선 합니다. 최근, AIR 기능은 손상 된 사용자 보안 playbook (현재 미리 보기)를 포함 하도록 향상 되었습니다. 이 문서를 읽으면 손상 된 사용자 보안 playbook에 대해 자세히 알아볼 수 있습니다. 그리고 추가 세부 정보를 확인 하 고 [사용자 손상 및 제한 위반 범위에 응답 하 고 Office 365 ATP를 통해 침해](https://techcommunity.microsoft.com/t5/Security-Privacy-and-Compliance/Speed-up-time-to-detect-and-respond-to-user-compromise-and-limit/ba-p/977053) 를 처리 하는 시간을 빠르게 확인할 수 있습니다.
 
 ![손상 된 사용자에 대 한 자동화 된 조사](/microsoft-365/media/office365atp-compduserinvestigation.jpg)
 
@@ -56,7 +56,7 @@ ms.locfileid: "42228570"
 - [자동화 된 조사에 대 한 세부 정보 보기](#view-details-about-automated-investigations)
 
 > [!IMPORTANT]
-> 다음 작업을 수행 하려면 적절 한 사용 권한이 있어야 합니다. [AIR 기능을 사용 하려면 필수 권한을](office-365-air.md#required-permissions-to-use-air-capabilities)참조 하세요.
+> 다음 작업을 수행 하려면 적절 한 사용 권한이 있어야 합니다. [AIR 기능을 사용 하려면 필수 권한을](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air?view=o365-worldwide#required-permissions-to-use-air-capabilities)참조 하세요.
 
 ### <a name="view-and-investigate-restricted-users"></a>제한 된 사용자 보기 및 조사
 
@@ -70,13 +70,13 @@ ms.locfileid: "42228570"
    ![기타 알림 위젯](/microsoft-365/media/office365atp-otheralertswidget.jpg)<br/>
    이렇게 하면 제한 된 사용자 목록이 열립니다.<br/>![Office 365의 제한 된 사용자](/microsoft-365/media/office365atp-restrictedusers.jpg) 
 
-4. 목록에서 사용자 계정을 선택 하 여 세부 정보를 확인 하 고 [제한 된 사용자 해제](removing-user-from-restricted-users-portal-after-spam.md)와 같은 작업을 수행 합니다. 
+4. 목록에서 사용자 계정을 선택 하 여 세부 정보를 확인 하 고 [제한 된 사용자 해제](https://docs.microsoft.com/microsoft-365/security/office-365-security/removing-user-from-restricted-users-portal-after-spam)와 같은 작업을 수행 합니다. 
 
 ### <a name="view-details-about-automated-investigations"></a>자동화 된 조사에 대 한 세부 정보 보기
 
 자동 조사가 시작 되 면 Office 365 보안 & 준수 센터에서 해당 세부 정보와 결과를 볼 수 있습니다. **위협 관리** > **조사**로 이동한 다음 조사를 선택 하 여 세부 정보를 확인 합니다.
 
-자세한 내용은 [조사의 세부 정보 보기](air-view-investigation-results.md#view-details-of-an-investigation)를 참조 하세요.
+자세한 내용은 [조사의 세부 정보 보기](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-view-investigation-results)를 참조 하세요.
 
 ## <a name="keep-the-following-points-in-mind"></a>다음 사항에 유의 하세요.
 
@@ -88,9 +88,9 @@ ms.locfileid: "42228570"
 
 ## <a name="next-steps"></a>다음 단계
 
-- [필요한 사용 권한을 검토 하 여 AIR 기능 사용](office-365-air.md#required-permissions-to-use-air-capabilities)
+- [필요한 사용 권한을 검토 하 여 AIR 기능 사용](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air?view=o365-worldwide#required-permissions-to-use-air-capabilities)
 
-- [Office 365에서 악성 전자 메일 찾기 및 조사](investigate-malicious-email-that-was-delivered.md)
+- [Office 365에서 악성 전자 메일 찾기 및 조사](https://docs.microsoft.com/microsoft-365/security/office-365-security/investigate-malicious-email-that-was-delivered?view=o365-worldwide)
 
 - [Microsoft Defender ATP의 AIR에 대해 자세히 알아보기](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/automated-investigations)
 
