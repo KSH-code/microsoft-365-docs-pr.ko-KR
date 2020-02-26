@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: b4527d49-4073-4b43-8274-31b7a3166f92
 description: Office 365 테 넌 트 및 사용자가 요구 사항을 충족 하는지 확인 하 여 중앙 집중식 배포를 사용 하 여 Office 추가 기능을 배포할 수 있도록 합니다.
-ms.openlocfilehash: 4351658f2637b86c9b3233f55916d8e0ac0f8cfb
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: b5cd04100b025705d29f86a07ec5f6aece259a8a
+ms.sourcegitcommit: 1f04eb8a32aed8571ac37bcfef61e0d0ef181eda
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42255051"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "42278764"
 ---
 # <a name="determine-if-centralized-deployment-of-add-ins-works-for-your-organization"></a>추가 기능의 중앙 집중식 배포가 조직에 맞게 작동 하는지 확인
 
@@ -82,9 +82,9 @@ Office 365 ProPlus를 사용 하려면 사용자에 게 Office 365 계정이 있
 Office 365 ProPlus에 대한 도움말은 [Office 365 ProPlus에 대한 문제 해결 팁](https://go.microsoft.com/fwlink/p/?linkid=846339)을 참조하세요.
 
 
-### <a name="exchange-requirements"></a>Exchange 요구 사항
+### <a name="exchange-online-requirements"></a>Exchange Online 요구 사항
 
-Microsoft Exchange는 조직 테넌트 내의 매니페스트에 추가 기능을 저장합니다. 추가 기능을 배포하는 관리자와 해당 추가 기능을 받는 사용자는 OAuth 인증을 지원하는 Exchange Server 버전에 있어야 합니다. 기본적으로 Exchange 다중 테넌트 및 전용 VNext 배포는 OAuth를 지원합니다. OAuth를 지원하도록 Exchange 전용 레거시 및 하이브리드 온-프레미스 배포를 구성할 수 있지만, 기본 구성은 아닙니다.
+Microsoft Exchange는 조직 테넌트 내의 매니페스트에 추가 기능을 저장합니다. 추가 기능과 해당 추가 기능을 받는 사용자를 배포 하는 관리자는 OAuth 인증을 지 원하는 Exchange Online 버전에 속해야 합니다. 기본적으로 Exchange 다중 테넌트 및 전용 VNext 배포는 OAuth를 지원합니다. 
   
 조직의 Exchange 관리자에게 문의하여 사용 중인 구성을 확인합니다. 사용자당 OAuth 연결은 [Test-OAuthConnectivity](https://go.microsoft.com/fwlink/p/?linkid=846351) PowerShell cmdlet을 사용하여 확인할 수 있습니다. 
 

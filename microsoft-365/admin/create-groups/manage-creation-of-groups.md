@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 4c46c8cb-17d0-44b5-9776-005fced8e618
 description: Office 365 그룹을 만들 수 있는 사용자를 제어 하는 방법을 알아봅니다.
-ms.openlocfilehash: 1f0d3109d1102c740a9be0b670e618eac982e6e2
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: a211cb3b69348a4d4a401a3c318fe019d8fd257f
+ms.sourcegitcommit: 109b44aa71bb8453d0a602663df0fcf7ed7dfdbe
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42245466"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "42277195"
 ---
 # <a name="manage-who-can-create-office-365-groups"></a>Office 365 그룹을 만들 수 있는 사용자 관리
 
@@ -120,14 +120,20 @@ ms.locfileid: "42245466"
 2. Right-click on **Windows PowerShell** and select **Run as Administrator**.
     
     !["관리자 권한으로 실행"으로 PowerShell을 여세요.](../media/52517af8-c7b0-4c8f-b2f3-0f82f9d5ace1.png)
+    
+3. [ExecutionPolicy](https://docs.microsoft.com/powershell/module/microsoft.powershell.security/set-executionpolicy)을 사용 하 여 RemoteSigned에 정책을 설정 합니다.
+    
+    ```
+    Set-ExecutionPolicy RemoteSigned
+    ```
   
-2. 설치된 모듈 확인:
+4. 설치된 모듈 확인:
     
     ```
     Get-InstalledModule -Name "AzureAD*"
     ```
 
-3. 이전 버전의 AzureADPreview 또는 AzureAD를 제거하려면 다음 명령을 실행합니다.
+5. 이전 버전의 AzureADPreview 또는 AzureAD를 제거하려면 다음 명령을 실행합니다.
   
     ```
     Uninstall-Module AzureADPreview
@@ -139,7 +145,7 @@ ms.locfileid: "42245466"
     Uninstall-Module AzureAD
     ```
 
-4. To install the latest version of AzureADPreview, run this command:
+6. To install the latest version of AzureADPreview, run this command:
   
     ```
     Install-Module AzureADPreview
