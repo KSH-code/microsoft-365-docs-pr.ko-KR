@@ -47,11 +47,11 @@
               href: mtp/overview-security-center.md
             - name: 필수 구성 요소
               href: mtp/prerequisites.md
-            - name: 데이터 보안 및 개인 정보
+            - name: 데이터 보안 및 개인 정보 보호
               href: mtp/data-privacy.md
             - name: 문제 해결
               href: ./mtp/troubleshoot.md
-        - name: 방법 가이드
+        - name: 사용 방법 가이드
           items:
             - name: Microsoft Threat Protection 사용 설정
               href: mtp/mtp-enable.md
@@ -61,7 +61,7 @@
                   href: mtp/incidents-overview.md
                 - name: 인시던트 우선 순위 지정
                   href: mtp/incident-queue.md
-                - name: 사고 조사
+                - name: 인시던트 조사
                   href: mtp/investigate-incidents.md
                 - name: 인시던트 관리
                   href: mtp/manage-incidents.md
@@ -73,23 +73,23 @@
                   href: mtp/mtp-remediation-actions.md
                 - name: 알림 센터
                   href: mtp/mtp-action-center.md
-                - name: 자동화 된 조사 세부 정보 및 결과 보기
+                - name: 자동화된 조사 세부정보 및 결과 보기
                   href: mtp/mtp-autoir-results.md
                 - name: 보류 중인 작업 승인 또는 거부
                   href: mtp/mtp-autoir-actions.md
-                - name: 가양성/네거티브 보고
+                - name: 가양성/가음성 보고
                   href: mtp/mtp-autoir-report-false-positives-negatives.md
             - name: 고급 헌팅
               items:
                 - name: Microsoft 365에서 찾기
                   href: mtp/hunting.md
-                - name: 고급 구하기 개요
+                - name: 고급 헌팅 개요
                   href: mtp/advanced-hunting-overview.md
                 - name: 쿼리 언어 배우기
                   href: mtp/advanced-hunting-query-language.md
                 - name: 공유 쿼리 사용
                   href: mtp/advanced-hunting-shared-queries.md
-                - name: 장치 및 전자 메일에 대 한 헌트
+                - name: 장치 및 전자 메일 헌트
                   href: mtp/advanced-hunting-query-emails-devices.md
                 - name: 스키마의 이해
                   href: mtp/advanced-hunting-schema-tables.md
@@ -136,7 +136,7 @@
                   href: mtp/microsoft-secure-score.md
                 - name: 보안 점수(미리 보기)
                   href: mtp/microsoft-secure-score-preview.md
-                - name: 제공 되는 기능
+                - name: 향후 계획
                   href: mtp/microsoft-secure-score-whats-coming.md
             - name: 보고서
               items:
@@ -150,7 +150,7 @@
                   href: mtp/monitor-devices.md
                 - name: 앱 모니터링 및 보고
                   href: mtp/monitor-apps.md
-            - name: 사용 권한 & 설정
+            - name: 사용 권한 및 설정
               items:
                 - name: 액세스 관리
                   href: mtp/mtp-permissions.md
@@ -160,7 +160,7 @@
               href: ./mtp/tickets.md
     - name: Office 365 보안
       items:
-        - name: 시작
+        - name: 시작하기
           items:
             - name: Office 365 보안 로드맵
               href: ./office-365-security/security-roadmap.md
@@ -187,7 +187,7 @@
                       href: ./office-365-security/configure-anti-malware-policies.md
                     - name: 분석을 위해 맬웨어 및 비 맬웨어를 Microsoft에 제출
                       href: ./office-365-security/submitting-malware-and-non-malware-to-microsoft-for-analysis.md
-                    - name: 랜 섬 웨어 공격에서 복구
+                    - name: 랜섬웨어 공격으로부터 복구
                       href: ./office-365-security/recover-from-ransomware.md
                     - name: SharePoint Online에서의 바이러스 탐지
                       href: ./office-365-security/virus-detection-in-spo.md
@@ -195,13 +195,13 @@
                   href: ./office-365-security/advanced-spam-filtering-asf-options.md
                 - name: 아웃바운드 메시지용 높은 위험 배달 풀
                   href: ./office-365-security/high-risk-delivery-pool-for-outbound-messages.md
-                - name: 스팸 방지 및 보호 FAQ
+                - name: 스팸 방지 보호 FAQ
                   href: ./office-365-security/anti-spam-protection-faq.md
                 - name: 스팸 필터 규칙과 스팸 필터 정책에서 유효하지 않은 문자 방지
                   href: ./office-365-security/invalid-characters-hosted-spam-filter-rules-policies.md
                 - name: Exchange Online에서의 안전한 발신자 및 차단된 발신자 목록
                   href: ./office-365-security/safe-sender-and-blocked-sender-lists-faq.md
-                - name: Office 365에서의 전자 메일 메시지에 대한 안전 조언
+                - name: Office 365에서 전자 메일 메시지의 안전 팁
                   href: ./office-365-security/safety-tips-in-office-365.md
                 - name: 발신자가 아웃 바운드 스팸을 보내지 못하도록 차단될 시의 알림 샘플
                   href: ./office-365-security/sample-notification-when-a-sender-is-blocked-sending-outbound-spam.md
@@ -364,25 +364,25 @@
                       href: ./office-365-security/set-up-a-custom-blocked-urls-list-wtih-atp.md
                 - name: 역할 관리자 설정 작업
                   items:
-                    - name: 'SharePoint, OneDrive 및 Microsoft Teams에 대한 ATP 켜기'
+                    - name: 'SharePoint, OneDrive 및 Microsoft Teams의 ATP 켜기'
                       href: ./office-365-security/turn-on-atp-for-spo-odb-and-teams.md
             - name: 캠페인 보기
               href: ./office-365-security/campaigns.md
-            - name: 위협 분석을 사용 하 여 최신 공격 이해
+            - name: 위협 분석을 통해 최신 공격 이해하기
               href: ./mtp/latest-attack-campaigns.md
             - name: 자동화된 조사 및 응답
               items:
                 - name: AIR 개요
                   href: ./office-365-security/office-365-air.md
-                - name: 자동화 된 조사 세부 정보 및 결과 보기
+                - name: 자동화된 조사 세부정보 및 결과 보기
                   href: ./office-365-security/air-view-investigation-results.md
                 - name: 보류 중인 작업 승인 또는 거부
                   href: ./office-365-security/air-remediation-actions.md
-                - name: 사용자 지정 솔루션 또는 타사 솔루션에 AIR 통합
+                - name: AIR를 사용자 지정 솔루션 또는 타사 솔루션과 통합
                   href: ./office-365-security/air-custom-reporting.md
-            - name: 손상 된 사용자 계정을 빠르게 검색 및 처리
+            - name: 손상된 사용자 계정을 신속하게 탐지 및 해결
               href: ./office-365-security/address-compromised-users-quickly.md
-            - name: 악성 전자 메일 조사 및 재구성
+            - name: 악성 전자 메일 조사 및 치료
               href: ./office-365-security/investigate-malicious-email-that-was-delivered.md
             - name: ATP 보고서 보기 및 읽기
               href: ./office-365-security/view-reports-for-atp.md
@@ -394,7 +394,7 @@
               href: ./office-365-security/attack-simulator.md
             - name: Office 365 ATP의 안전한 문서
               href: ./office-365-security/safe-docs.md
-            - name: 위협 탐색기 (실시간 검출)
+            - name: 위협 탐색기(및 실시간 검출)
               href: ./office-365-security/threat-explorer.md
               items:
                 - name: 위협 탐색기 보기
@@ -407,7 +407,7 @@
                   href: ./office-365-security/siem-integration-with-office-365-ti.md
             - name: ATP의 작동 방식
               items:
-                - name: 자동화 된 조사 및 대응 작동 방식
+                - name: 자동화된 조사 및 대응이 작동하는 방식
                   href: ./office-365-security/automated-investigation-response-office.md
                 - name: ATP 안전한 링크가 작동하는 방식
                   href: ./office-365-security/how-atp-safe-links-works.md
@@ -448,7 +448,7 @@
                   href: ./office-365-security/mfi-smtp-auth-clients-report.md
                 - name: 보낸 사람 도메인 정보 문제 해결
                   href: ./office-365-security/mfi-sender-domain-insight.md
-                - name: 미실행 보고서
+                - name: 배달 못 함 보고서
                   href: ./office-365-security/mfi-non-delivery-report.md
                 - name: 비허용 도메인 보고서
                   href: ./office-365-security/mfi-non-accepted-domain-report.md

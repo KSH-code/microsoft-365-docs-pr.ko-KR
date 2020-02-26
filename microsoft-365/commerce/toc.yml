@@ -1,4 +1,4 @@
-- name: 상거래 구매 및 대금 청구 관리
+- name: 상업용 구매 및 청구 관리
   href: index.md
   expanded: true
   items:
@@ -6,11 +6,11 @@
       items:
         - name: 타사 앱 관리
           href: manage-saas-apps.md
-        - name: 업그레이드 구독
+        - name: 구독 업그레이드
           href: /microsoft-365/commerce/subscriptions/upgrade-to-different-plan
-        - name: 셀프 서비스 구입 관리 (사용자)
+        - name: 셀프 서비스 구매(사용자) 관리
           href: /microsoft-365/commerce/subscriptions/manage-self-service-purchases-users
-        - name: 셀프 서비스 구입 관리 (관리자)
+        - name: 셀프 서비스 구매(관리자) 관리
           href: /microsoft-365/commerce/subscriptions/manage-self-service-purchases-admins
     - name: 라이선스 관리
       items:
@@ -18,27 +18,27 @@
           href: /microsoft-365/commerce/licenses/buy-licenses
         - name: 라이선스 할당
           href: /microsoft-365/admin/manage/assign-licenses-to-users
-        - name: 라이선스 할당 해제
+        - name: 라이선스 할당 취소
           href: /microsoft-365/admin/manage/remove-licenses-from-users
         - name: 구독에서 라이선스 제거
           href: /microsoft-365/commerce/licenses/remove-licenses-from-subscription
-    - name: 자재 명세서 및 지불
+    - name: 청구 및 결제
       items:
-        - name: 요금 청구 방식
+        - name: 송장 이해
           href: /microsoft-365/commerce/billing-and-payments/understand-your-invoice
         - name: 결제 방법 관리
           href: /microsoft-365/commerce/billing-and-payments/add-update-or-remove-credit-card-or-bank-account
         - name: 청구 프로필 관리
           href: /microsoft-365/commerce/billing-and-payments/manage-billing-profiles
-        - name: 결제 서비스 지시어 2 및 강력한 고객 인증
+        - name: 결제 서비스 지침 2 및 강력한 고객 인증
           href: /microsoft-365/commerce/billing-and-payments/psd2
     - name: 청구 계정
       items:
         - name: 청구 계정 관리
           href: /microsoft-365/commerce/billing-accounts/manage-billing-accounts
-        - name: 내 청구 계정에 테 넌 트 연결
+        - name: 테넌트를 내 청구 계정에 연결
           href: /microsoft-store/manage-mpsa-software-microsoft-store-for-business?context=/microsoft-365/commerce/context/context-commerce
-    - name: 파트너와의 관계 관리
+    - name: 파트너십 관계 관리
       href: manage-partners.md
-    - name: 계정 닫기
+    - name: '계정 사용 중지 '
       href: close-your-account.md

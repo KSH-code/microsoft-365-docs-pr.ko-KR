@@ -28,7 +28,7 @@
           href: service-description/device-policies.md
         - name: 보안
           href: service-description/security.md
-        - name: '업데이트 '
+        - name: 업데이트
           href: service-description/updates.md
         - name: 지원
           href: service-description/support.md
@@ -38,7 +38,7 @@
           href: service-description/mmd-app-requirements.md
         - name: 서비스 변경 및 커뮤니케이션
           href: service-description/servicechanges.md
-        - name: 서비스 계획에 대 한 예외
+        - name: 서비스 계획에 대한 예외
           href: service-description/customizing.md
     - name: Microsoft Managed Desktop에 등록 준비
       href: get-ready/index.md
@@ -71,7 +71,7 @@
           href: get-started/company-portal.md
         - name: 엔터프라이즈 상태 로밍 사용
           href: get-started/enterprise-state-roaming.md
-        - name: 장치 설정
+        - name: 디바이스 설정
           href: get-started/set-up-devices.md
           items:
             - name: 직접 새 장치 등록
@@ -94,13 +94,13 @@
         - name: 인사이트를 활용한 작업
           href: working-with-managed-desktop/insights.md
           items:
-            - name: 인사이트 활용
+            - name: 사용 현황 정보 활용
               href: working-with-managed-desktop/usage-insights.md
             - name: 안정성 인사이트
               href: working-with-managed-desktop/reliability-insights.md
-            - name: 배터리 정보
+            - name: 배터리 정보 활용
               href: working-with-managed-desktop/battery-insights.md
-            - name: Windows 보안 업데이트 insights
+            - name: Windows 보안 업데이트 정보 활용
               href: working-with-managed-desktop/security-update-insights.md
         - name: 관리자 지원
           href: working-with-managed-desktop/admin-support.md
