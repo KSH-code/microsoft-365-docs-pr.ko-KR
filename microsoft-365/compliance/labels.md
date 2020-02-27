@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 레이블을 사용하여 조직 전체의 데이터를 관리하여 분류하고 해당 분류에 따라 보존 규칙을 시행하십시오. 보존 레이블을 사용하여 Microsoft 365용 레코드 관리 솔루션을 구현할 수도 있습니다.
-ms.openlocfilehash: 0675601a888d19e6faaeb75169691909b071b92d
-ms.sourcegitcommit: 87cc278ea2ddcd536ecfaa3dfae9a5ddaa502cf9
+ms.openlocfilehash: 5dcd97400067645c48f02a31061721644bae553c
+ms.sourcegitcommit: 109b44aa71bb8453d0a602663df0fcf7ed7dfdbe
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42179209"
+ms.lasthandoff: 02/25/2020
+ms.locfileid: "42277445"
 ---
 # <a name="overview-of-retention-labels"></a>보존 레이블 개요
 
@@ -324,7 +324,7 @@ Office 365 그룹 콘텐츠를 보존하려면 Office 365 그룹 위치를 사�
 
 학습 가능한 분류자에 대한 자세한 내용은 [교육 가능한 분류자 시작(미리 보기)](classifier-getting-started-with.md)를 참조하십시오.
 
-구성 예는 [분류자를 준비하고 준비된 분류자를 사용하는 방법](classifier-using-a-ready-to-use-classifier.md#how-to-prepare-for-and-use-a-ready-to-use-classifier)을 참조하십시오.
+구성 예는 [분류자를 준비하고 기본 제공 분류자를 사용하는 방법](classifier-using-a-ready-to-use-classifier.md#how-to-prepare-for-and-use-a-built-in-classifier)을 참조하세요.
 
 ## <a name="applying-a-default-retention-label-to-all-content-in-a-sharepoint-library-folder-or-document-set"></a>SharePoint 라이브러리, 폴더 또는 문서 집합의 모든 콘텐츠에 기본 보존 레이블 적용
 

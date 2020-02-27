@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: '보안 및 준수 센터를 사용하여 통합 감사 로그를 검색해 Office 365 조직의 사용자 및 관리자 활동을 확인합니다. '
-ms.openlocfilehash: 380c424acbcb609944ebfc3ea775ca31ac02bfe8
-ms.sourcegitcommit: 59b006f8e82d1772cae2029f278a59ae8a106736
+ms.openlocfilehash: 0dc9173c03d93ebe79544f8d417842b407025054
+ms.sourcegitcommit: 109b44aa71bb8453d0a602663df0fcf7ed7dfdbe
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 02/25/2020
-ms.locfileid: "42266744"
+ms.locfileid: "42277225"
 ---
 # <a name="search-the-audit-log-in-the-security--compliance-center"></a>보안 및 준수 센터에서 감사 로그 검색
 
@@ -795,6 +795,9 @@ Microsoft Stream에서 활동에 대한 감사 로그를 검색할 수 있습니
 
 아래의 설명에서 언급된 것과 같이, 일부 작업은 추가 활동 매개 변수를 포함합니다.
 
+> [!NOTE]
+> 공동 작성자 또는 익명 응답자가 Forms 활동을 수행하는 경우에는 조금 다르게 기록됩니다. 자세한 내용은 [공동 작성자 및 익명 응답자가 수행하는 Forms 활동](#forms-activities-performed-by-co-authors-and-anonymous-responders) 섹션을 참조하세요.
+
 |**친숙한 이름**|**작업**|**설명**|
 |:-----|:-----|:-----|
 |메모가 작성됨|CreateComment|양식 소유자가 퀴즈에 메모 또는 점수를 추가합니다.|
@@ -826,7 +829,23 @@ Microsoft Stream에서 활동에 대한 감사 로그를 검색할 수 있습니
 |응답이 제출됨|SubmitResponse|사용자가 양식에 응답을 제출합니다. <br><br>속성 IsInternalForm: 부울은 응답자가 양식 소유자와 동일한 조직 내에 있는지를 나타냅니다.|
 ||||
 
-### <a name="sensitivity-label-activities"></a>민감도 레이블 활동 
+#### <a name="forms-activities-performed-by-co-authors-and-anonymous-responders"></a>공동 작성자 및 익명 응답자가 수행하는 Forms 활동
+
+Forms는 양식을 설계할 때와 응답을 분석할 때 공동 작업을 지원합니다. 양식 협력자는 *공동 작성자*라고 합니다. 공동 작성자는 양식을 삭제하거나 이동하는 것을 제외하고 양식 소유자가 할 수 있는 모든 작업을 수행할 수 있습니다. Forms를 사용하면 익명으로 응답할 수 있는 양식을 만들 수도 있습니다. 즉, 응답자는 조직에 로그인하지 않아도 양식에 응답할 수 있습니다. 
+
+다음 표에서는 공동 작성자와 익명 응답자가 수행한 활동에 대한 감사 레코드의 감사 활동과 정보를 설명합니다.
+
+|**활동 유형**|**내부 또는 외부 사용자**|**기록되는 사용자 ID**|**로그인한 조직**|**Forms 사용자 유형**|
+|:-----|:-----|:-----|:-----|:-----|
+|공동 작성 활동|내부|UPN|양식 소유자의 조직|공동 작성자|
+|공동 작성 활동|외부|UPN<br>|공동 작성자의 조직<br>|공동 작성자|
+|공동 작성 활동|외부|`urn:forms:coauthor#a0b1c2d3@forms.office.com`<br>(ID의 두 번째 부분은 해시이고, 다른 사용자에게는 달라질 수 있습니다.)|양식 소유자의 조직<br>|공동 작성자|
+|응답 활동|외부|UPN<br>|응답자의 조직<br>|응답자|
+|응답 활동|외부|`urn:forms:external#a0b1c2d3@forms.office.com`<br>(사용자 ID의 두 번째 부분은 해시이고, 다른 사용자에게는 달라질 수 있습니다.)|양식 소유자의 조직|응답자|
+|응답 활동|익명|`urn:forms:anonymous#a0b1c2d3@forms.office.com`<br>(사용자 ID의 두 번째 부분은 해시이고, 다른 사용자에게는 달라질 수 있습니다.)|양식 소유자의 조직|응답자|
+||||
+
+### <a name="sensitivity-label-activities"></a>민감도 레이블 활동
 
 다음 표에는 SharePoint Online 및 팀 사이트의 레이블 활동으로 인해 발생한 이벤트가 나열되어 있습니다.
 

@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: b4527d49-4073-4b43-8274-31b7a3166f92
 description: Office 365 테 넌 트 및 사용자가 요구 사항을 충족 하는지 확인 하 여 중앙 집중식 배포를 사용 하 여 Office 추가 기능을 배포할 수 있도록 합니다.
-ms.openlocfilehash: b5cd04100b025705d29f86a07ec5f6aece259a8a
-ms.sourcegitcommit: 1f04eb8a32aed8571ac37bcfef61e0d0ef181eda
+ms.openlocfilehash: 09487e0ff495f4b561e7a27eecf2c99fd4da10af
+ms.sourcegitcommit: 213b33cbf14e35e6dc563e0b700a4eed5e42e91d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 02/26/2020
-ms.locfileid: "42278764"
+ms.locfileid: "42284389"
 ---
 # <a name="determine-if-centralized-deployment-of-add-ins-works-for-your-organization"></a>추가 기능의 중앙 집중식 배포가 조직에 맞게 작동 하는지 확인
 
@@ -84,7 +84,7 @@ Office 365 ProPlus에 대한 도움말은 [Office 365 ProPlus에 대한 문제 �
 
 ### <a name="exchange-online-requirements"></a>Exchange Online 요구 사항
 
-Microsoft Exchange는 조직 테넌트 내의 매니페스트에 추가 기능을 저장합니다. 추가 기능과 해당 추가 기능을 받는 사용자를 배포 하는 관리자는 OAuth 인증을 지 원하는 Exchange Online 버전에 속해야 합니다. 기본적으로 Exchange 다중 테넌트 및 전용 VNext 배포는 OAuth를 지원합니다. 
+Microsoft Exchange는 조직 테넌트 내의 매니페스트에 추가 기능을 저장합니다. 추가 기능과 해당 추가 기능을 받는 사용자를 배포 하는 관리자는 OAuth 인증을 지 원하는 Exchange Online 버전에 속해야 합니다.
   
 조직의 Exchange 관리자에게 문의하여 사용 중인 구성을 확인합니다. 사용자당 OAuth 연결은 [Test-OAuthConnectivity](https://go.microsoft.com/fwlink/p/?linkid=846351) PowerShell cmdlet을 사용하여 확인할 수 있습니다. 
 

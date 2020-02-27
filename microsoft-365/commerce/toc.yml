@@ -2,42 +2,76 @@
   href: index.md
   expanded: true
   items:
+    - name: 체험 또는 구매
+      items:
+        - name: Office 365 평가판 등록
+          href: sign-up-for-office-365-trial.md
+        - name: Microsoft 365 체험 또는 구입
+          href: try-or-buy-microsoft-365.md
+        - name: 평가판 연장
+          href: extend-your-trial.md
+        - name: 다른 구독 구입
+          href: buy-another-subscription.md
+        - name: 추가 기능 구입 또는 편집
+          href: buy-or-edit-an-add-on.md
+        - name: 저장 공간 추가
+          href: add-storage-space.md
     - name: 구독 관리
       items:
+        - name: 구독 업그레이드
+          href: subscriptions/upgrade-to-different-plan.md
+        - name: 구독 취소
+          href: subscriptions/cancel-your-subscription.md
+        - name: 구독 다시 활성화
+          href: subscriptions/reactivate-your-subscription.md
+        - name: 구독 갱신
+          href: subscriptions/renew-your-subscription.md
+        - name: 구독이 만료된 경우 어떻게 하나요?
+          href: subscriptions/what-if-my-subscription-expires.md
         - name: 타사 앱 관리
           href: manage-saas-apps.md
-        - name: 구독 업그레이드
-          href: /microsoft-365/commerce/subscriptions/upgrade-to-different-plan
         - name: 셀프 서비스 구매(사용자) 관리
-          href: /microsoft-365/commerce/subscriptions/manage-self-service-purchases-users
+          href: subscriptions/manage-self-service-purchases-users.md
         - name: 셀프 서비스 구매(관리자) 관리
-          href: /microsoft-365/commerce/subscriptions/manage-self-service-purchases-admins
+          href: subscriptions/manage-self-service-purchases-admins.md
     - name: 라이선스 관리
       items:
         - name: 라이선스 구매
-          href: /microsoft-365/commerce/licenses/buy-licenses
+          href: licenses/buy-licenses.md
         - name: 라이선스 할당
-          href: /microsoft-365/admin/manage/assign-licenses-to-users
+          href: ../admin/manage/assign-licenses-to-users.md
         - name: 라이선스 할당 취소
-          href: /microsoft-365/admin/manage/remove-licenses-from-users
+          href: ../admin/manage/remove-licenses-from-users.md
         - name: 구독에서 라이선스 제거
-          href: /microsoft-365/commerce/licenses/remove-licenses-from-subscription
+          href: licenses/remove-licenses-from-subscription.md
+        - name: 구독 및 라이선스 이해
+          href: licenses/subscriptions-and-licenses.md
     - name: 청구 및 결제
       items:
+        - name: 송장 보기
+          href: billing-and-payments/view-your-bill-or-invoice.md
         - name: 송장 이해
-          href: /microsoft-365/commerce/billing-and-payments/understand-your-invoice
+          href: billing-and-payments/understand-your-invoice.md
         - name: 결제 방법 관리
-          href: /microsoft-365/commerce/billing-and-payments/add-update-or-remove-credit-card-or-bank-account
+          href: billing-and-payments/add-update-or-remove-credit-card-or-bank-account.md
+        - name: 구독 결제
+          href: billing-and-payments/pay-for-your-subscription.md
+        - name: 결제 방법 변경
+          href: billing-and-payments/change-payment-method.md
+        - name: 지불 주기 변경
+          href: billing-and-payments/change-payment-frequency.md
         - name: 청구 프로필 관리
-          href: /microsoft-365/commerce/billing-and-payments/manage-billing-profiles
+          href: billing-and-payments/manage-billing-profiles.md
+        - name: 대금 청구 주소 변경
+          href: billing-and-payments/change-your-billing-addresses.md
         - name: 결제 서비스 지침 2 및 강력한 고객 인증
-          href: /microsoft-365/commerce/billing-and-payments/psd2
+          href: billing-and-payments/psd2.md
     - name: 청구 계정
       items:
         - name: 청구 계정 관리
-          href: /microsoft-365/commerce/billing-accounts/manage-billing-accounts
+          href: manage-billing-accounts.md
         - name: 테넌트를 내 청구 계정에 연결
-          href: /microsoft-store/manage-mpsa-software-microsoft-store-for-business?context=/microsoft-365/commerce/context/context-commerce
+          href: 'https://docs.microsoft.com/microsoft-store/manage-mpsa-software-microsoft-store-for-business'
     - name: 파트너십 관계 관리
       href: manage-partners.md
     - name: '계정 사용 중지 '

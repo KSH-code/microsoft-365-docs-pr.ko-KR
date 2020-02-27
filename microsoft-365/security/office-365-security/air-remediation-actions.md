@@ -15,18 +15,20 @@ search.appverid:
 - MOE150
 ms.collection: M365-security-compliance
 description: Office 365 Advanced Threat Protection 계획 2의 자동화 된 조사 및 응답 기능의 수정 작업에 대해 알아봅니다.
-ms.openlocfilehash: 433813ed1a801117a88da696392030db5091b54b
-ms.sourcegitcommit: 133bf7936e5ef1a4d06998429d0d01096bda929f
+ms.openlocfilehash: 0db49a28fb90bcddcdd874ac54216957e4be5fa1
+ms.sourcegitcommit: 45ee610a380db113c2a50f6ea82d30137498babb
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42261055"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "42288516"
 ---
 # <a name="remediation-actions-following-an-automated-investigation-in-office-365"></a>Office 365의 자동화 된 조사에 따라 수정 작업
 
 ## <a name="remediation-actions"></a>수정 작업
 
-Office 365의 [자동화 된 조사 및 응답 기능](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air) Advanced Threat Protection은 특정 수정 작업을 포함 합니다. 자동 조사가 실행 중이거나 완료 된 경우에는 일반적으로 보안 운영 팀의 승인이 요구 되는 하나 이상의 수정 작업을 확인할 수 있습니다. 다음 표에서는 현재 Office 365 Advanced Threat Protection에서 사용할 수 있는 수정 작업을 요약 하 여 보여 줍니다. 
+Office 365의 [자동화 된 조사 및 응답 기능](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air) Advanced Threat Protection은 특정 수정 작업을 포함 합니다. 자동 조사가 실행 중이거나 완료 된 경우에는 일반적으로 보안 운영 팀의 승인이 요구 되는 하나 이상의 수정 작업을 확인할 수 있습니다. 
+
+다음 표에서는 현재 [Office 365 Advanced Threat Protection](office-365-atp.md)에서 사용할 수 있는 수정 작업을 요약 하 여 보여 줍니다. 
 
 |동작은 | 설명 |
 |-----|-----|

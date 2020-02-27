@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 정책을 사용하여 콘텐츠를 보존할지, 삭제할지, 아니면 보존한 다음 삭제할지 사전에 결정할 수 있습니다. 조직 전체에 또는 특정 위치 또는 사용자에게 하나의 정책을 적용할 수 있고, 모든 콘텐츠에 또는 특정 조건에 부합하는 콘텐츠에 정책을 적용할 수 있습니다.
-ms.openlocfilehash: aa0c4667ab85945cd849f94fbfb1fda693e108bd
-ms.sourcegitcommit: ee18bdd08e85b1262b91c180ccf61df59c19dab2
+ms.openlocfilehash: 9ecc74610c0d150dd511a8e24fb66037768587a4
+ms.sourcegitcommit: 6d672eb8287526a9db90df5fa85bc4984a7047d1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42106894"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "42280206"
 ---
 # <a name="overview-of-retention-policies"></a>보존 정책 개요
 
@@ -275,7 +275,7 @@ Teams의 보존 기능 최적화를 계속 진행하고 있으며, 몇 개월 �
    > [!NOTE]
    > 전에는 보존 정책으로 30일이 지나지 않은 Teams 콘텐츠를 삭제할 수 없었지만 이 제한을 제거했습니다. 이제 Teams 콘텐츠의 보존 기간은 원하는 일수이며 단 하루에 그칠 수도 있습니다. 보존 기간이 하루인 경우 보존 기간이 만료 된 후 메시지가 영구적으로 삭제되기까지 최대 3일이 소요됩니다.
     
-팀의 채팅에서 공유되는 파일은 파일을 공유하는 사용자의 OneDrive 계정에 저장됩니다. 채널에 업로드된 파일은 해당 팀의 SharePoint 사이트에 저장됩니다. 따라서 팀의 파일을 보존하거나 삭제하려면 구첵적으로 SharePoint 및 OneDrive 위치에 적용되는 보존 정책을 만들어야 합니다. 특정 팀의 파일에 정책을 적용하려면 해당 팀의 SharePoint 사이트 및 해당 팀 사용자의 OneDrive 계정을 선택할 수 있습니다.
+Teams의 채팅에서 공유되는 파일은 파일을 공유하는 사용자의 OneDrive 계정에 저장됩니다. 채널에 업로드된 파일은 해당 팀의 SharePoint 사이트에 저장됩니다. 따라서 Teams의 파일을 보존하거나 삭제하려면 OneDrive 및 Office 365 그룹 위치에 적용되는 보존 정책을 만들어야 합니다. 특정 사용자 또는 Teams의 팀에서 공유하는 파일에 정책을 적용하려는 경우 OneDrive 또는 Office 365 그룹 위치를 선택하고 특정 사용자 또는 팀을 포함할 수 있습니다.
   
 Teams에 적용되는 보존 정책은 [유지 잠금](#locking-a-retention-policy)을 사용할 수 있습니다.
   
@@ -402,7 +402,7 @@ SharePoint 사이트에서 [정보 관리 정책](intro-to-info-mgmt-policies.md
 
 보존 정책을 만드는 규정준수 팀의 구성원은 [보안 &amp; 규정 준수 센터](https://protection.office.com/)에 대한 사용 권한이 필요합니다. 기본적으로 테넌트 관리자는 이 위치에 액세스할 수 있으며, 규정 준수 책임자와 기타 사용자에게 테넌트 관리를 위한 모든 권한을 부여하지는 않으면서, [보안 &amp;규정 준수 센터](https://protection.office.com/)에 대한 액세스 권한을 부여할 수 있습니다. 이 작업을 수행하기 위해서는 [보안 &amp;규정 준수 센터](https://protection.office.com/)의 **권한** 페이지로 이동한 후 **규정 준수 관리자** 역할 그룹을 편집하고 해당 역할 그룹에 구성원을 추가할 것을 권장합니다. 
   
-자세한 내용은 [사용자에게 Office 365 보안 및 준수 센터에 대한 액세스 권한 부여](/security/office-365-security/grant-access-to-the-security-and-compliance-center)를 참조하세요. 
+자세한 내용은 [사용자에게 Office 365 보안 및 준수 센터에 대한 액세스 권한 부여](https://docs.microsoft.com/microsoft-365/security/office-365-security/grant-access-to-the-security-and-compliance-center)를 참조하세요. 
 
 이러한 정책은 보존 정책을 만들고 적용하는 데만 필요합니다. 정책 적용을 위해서는 콘텐츠에 액세스하지 않아도 됩니다.
   

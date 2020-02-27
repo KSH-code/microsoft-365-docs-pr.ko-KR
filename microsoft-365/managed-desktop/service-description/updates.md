@@ -9,12 +9,12 @@ f1.keywords:
 ms.author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: de674da4230697e953c88d812b0edac8cb7904e5
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 0acbb82001d8856639f5b67daa99323f333e26ad
+ms.sourcegitcommit: 213b33cbf14e35e6dc563e0b700a4eed5e42e91d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42250478"
+ms.lasthandoff: 02/26/2020
+ms.locfileid: "42284379"
 ---
 # <a name="how-updates-are-handled-in-microsoft-managed-desktop"></a>Microsoft Managed Desktop에서 업데이트를 처리 하는 방법
 
@@ -32,7 +32,7 @@ Microsoft에서 릴리스된 업데이트는 누적 되며 품질 또는 기능 
 
 Microsoft Managed Desktop은 다음과 같은 네 가지 Azure AD 그룹을 사용 하 여 업데이트를 관리 합니다.
 
-- **Test**: Microsoft Managed Desktop policy 변경 내용, 운영 체제 업데이트, 기능 업데이트 및 테 넌 트로 푸시된 기타 변경 내용을 확인 하는 데 사용 됩니다. 최종 사용자가 테스트 그룹에 있는 경우는 안 됩니다. 테스트 그룹은 설정 된 서비스 수준 계약과 최종 사용자 지원에서 제외 됩니다. 이 그룹은 새 정책 또는 운영 체제 hanges 응용 프로그램의 호환성을 검사 하는 데 사용할 수 있습니다.  
+- **Test**: Microsoft Managed Desktop policy 변경 내용, 운영 체제 업데이트, 기능 업데이트 및 테 넌 트로 푸시된 기타 변경 내용을 확인 하는 데 사용 됩니다. 최종 사용자가 테스트 그룹에 있는 경우는 안 됩니다. 테스트 그룹은 설정 된 서비스 수준 계약과 최종 사용자 지원에서 제외 됩니다. 이 그룹은 새 정책 또는 운영 체제 변경 사항과 함께 응용 프로그램의 호환성을 검사 하는 데 사용할 수 있습니다.  
 - **첫 번째**: 시험판 업데이트를 적용할 수 있는 초기 소프트웨어 사용권 및 장치를 포함 합니다. 테스트 링에서 테스트 중에 다루지 않았던 시나리오가 있는 경우이 그룹의 장치가 중단 될 수 있습니다.
 - **Fast**: 안정성 보다 빠른 우선 순위를 갖습니다. 광범위 한 그룹에 제공 되기 전에 품질 문제를 검색 하는 데 유용 합니다. 이 그룹은 다음 유효성 검사 계층의 역할을 하지만 일반적으로 테스트 및 첫째 그룹 보다 더 안정적입니다. 
 - **광범위**: 기능 및 품질 업데이트를 사용할 수 있는 마지막 그룹입니다. 이 그룹에는 테 넌 트에 있는 대다수의 사용자가 포함 되므로 배포 속도에 따른 안정성에 우위를 갖습니다. 환경이 안정화 될 때까지 앱 테스트를 여기서 수행 해야 합니다. 
