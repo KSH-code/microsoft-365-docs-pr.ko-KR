@@ -2,7 +2,7 @@
 title: Microsoft Teams, Office 365 그룹 및 SharePoint 사이트(공개 미리 보기)에서 민감도 레이블 사용
 f1.keywords:
 - NOCSH
-ms.author: krowley
+ms.author: cabailey
 author: cabailey
 manager: laurawi
 ms.date: ''
@@ -17,91 +17,44 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 팀, Office 365 그룹 및 SharePoint 사이트에 레이블을 적용할 수 있습니다.
-ms.openlocfilehash: 297ccd3e17f6c5a747e18a46747e6f2c23311df0
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 611876b7e403c8d877c602d21967675adef2d061
+ms.sourcegitcommit: 45ee610a380db113c2a50f6ea82d30137498babb
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42069828"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "42288581"
 ---
 # <a name="use-sensitivity-labels-with-microsoft-teams-office-365-groups-and-sharepoint-sites-public-preview"></a>Microsoft Teams, Office 365 그룹 및 SharePoint 사이트(공개 미리 보기)에서 민감도 레이블 사용
 
-[Microsoft 365 준수 센터](https://protection.office.com/)에서 민감도 레이블을 만들 때 이제 레이블을 Microsoft Teams, Office 365 그룹 그리고 SharePoint 사이트에 적용할 수 있습니다. 사용자는 정책을 레이블과 연결하여 다음을 제어할 수 있습니다.
+[Microsoft 365 준수 센터](https://protection.office.com/)에서 민감도 레이블을 만들 때 이제 레이블을 Microsoft Teams, Office 365 그룹 그리고 SharePoint 사이트 등의 컨테이너에 적용할 수 있습니다. 레이블 설정을 사용하여 이러한 컨테이너에 대해 다음 옵션을 제어하세요.
 
-- 공개/비공개 설정
-- 게스트 액세스
-- 관리되지 않는 장치에서 액세스
+- Office 365 그룹에 연결된 팀 사이트의 개인 정보 보호 (공개 또는 비공개)
+- 외부 사용자 액세스
+- 관리되지 않는 장치에서 액세스 
 
-팀 또는 그룹에 레이블을 적용하는 경우 레이블은 자동으로 연결된 SharePoint 팀 사이트로 적용되고 그 반대로 적용되기도 합니다.
+지원되는 컨테이너 중 하나에 이 레이블을 적용하면, 레이블은 연결된 SharePoint 사이트 또는 팀 사이트에 구성된 옵션을 자동으로 적용합니다. 
 
-사용자는 이제 또한 SharePoint 및 OneDrive에서 Office 파일에 민감도 레이블을 사용할 수 있습니다. 자세한 내용은 [SharePoint 및 OneDrive에서 Office 파일에 민감도 레이블 사용(공개 미리 보기)](sensitivity-labels-sharepoint-onedrive-files.md)을 참조하세요.
+그러나 이러한 컨테이너의 콘텐츠는 레이블 이름, 시각적 표시 또는 암호화와 같은 설정에 대한 레이블을 상속하지 않습니다. SharePoint 사이트 또는 팀 사이트에서 파일에 레이블을 지정하려면 [SharePoint 및 OneDrive에서 Office 파일에 대한 민감도 레이블 사용](sensitivity-labels-sharepoint-onedrive-files.md)을 설정하세요.
 
 ## <a name="about-the-public-preview-for-microsoft-teams-office-365-groups-and-sharepoint-sites"></a>Microsoft Teams, Office 365 그룹 및 SharePoint 사이트의 공개 미리 보기에 대한 정보
 
-Microsoft Teams, Office 365 그룹 및 SharePoint 사이트의 민감도 레이블은 테넌트에 점진적으로 배포되고 있으며 최종 출시 전에 변경될 수 있습니다.
+Microsoft Teams, Office 365 그룹 및 SharePoint 사이트의 민감도 레이블은 테넌트에 점진적으로 배포되고 있으며 최종 출시 전에 변경될 수 있습니다. 이 공개 미리 보기는 Office 365 Content Delivery Network(CDNs)에서는 작동하지 않습니다.
 
-이 공개 미리 보기는 Office 365 Content Delivery Network(CDNs)에서는 작동하지 않습니다.
-
-## <a name="overview"></a>개요
-
-민감도 레이블을 게시할 때 Office 365의 사용자는 같은 레이블 목록에 액세스할 수 있습니다.
-
-이 이미지들은 다음을 표시합니다.
-
-- SharePoint에서 새 팀 사이트를 만들 때 목록이 표시되는 방식
-
-- Word에서 목록을 볼 때
-
-예를 들어:
-
-![SharePoint에서 팀 사이트를 만들 때의 민감도 레이블](../media/sensitivity-label-new-team-site.png)
+이 미리보기를 활성화하고 새 설정에 대한 민감도 레이블을 구성하기 전에 사용자는 앱에서 민감도 레이블을 보고 적용할 수 있습니다. 예를 들어 Word의 경우 다음과 같습니다.
 
 ![Word 데스크톱 앱에 표시되는 민감도 레이블](../media/sensitivity-label-word.png)
 
-## <a name="enable-this-preview"></a>이 미리 보기를 사용
+이 미리보기를 활성화하고 구성한 후 사용자는 Microsoft Teams, Office 365 그룹 및 SharePoint 사이트에 대한 민감도 레이블을 추가적으로 보고 적용할 수 있습니다. 예를 들어 SharePoint에서 새 팀 사이트를 만드는 경우 다음과 같습니다.
 
-사용자는 Microsoft Teams, Office 365 그룹 및 SharePoint 사이트를 사용하여 이 민감도 레이블의 미리 보기를 사용하도록 설정하려면 [그래프용 Azure Directory PowerShell(AzureAD)](https://docs.microsoft.com/powershell/azure/active-directory/overview?view=azureadps-2.0)(모듈 이름 **AzureADPreview**)의 미리 보기 버전을 사용해야 합니다.
+![SharePoint에서 팀 사이트를 만들 때의 민감도 레이블](../media/sensitivity-labels-new-team-site.png)
 
-- 이전에 Azure AD PowerShell 모듈의 어떠한 버전도 설치하지 않은 경우 [Azure AD 모듈 설치](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2?view=azureadps-2.0-preview#installing-the-azure-ad-module)를 참조하고 지침에 따라 공개 미리 보기 릴리스를 설치합니다.
+## <a name="enable-this-preview-and-synchronize-labels"></a>이 미리 보기를 사용하고 레이블을 동기화
 
-- AzureAD(Azure AD PowerShell 모듈)의 2.0 일반 가용성 버전을 설치한 경우에는 PowerShell 세션에서 `Uninstall-Module AzureAD`를 실행하여 제거를 하고 `Install-Module AzureADPreview`를 실행하여 미리 보기 버전을 설치해야 합니다.
+1. 이 기능은 Azure AD 기능을 사용하므로 Azure AD 설명서의 지침에 따라 미리보기를 활성화하세요. [Azure Active Directory의 Office 365 그룹에 민감도 레이블 지정(미리보기)](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-assign-sensitivity-labels).
 
-- 미리 보기 버전을 이미 설치한 경우에는 `Install-Module AzureADPreview`를 실행하여 이 모듈의 최신 버전인지 확인합니다.
+2. PowerShell 세션에서 전역 관리자 권한이 있는 회사 또는 학교 계정을 사용하여 보안 & 준수 센터에 연결합니다. 지침은 [Office 365 보안 및 규정 준수 센터 PowerShell에 연결](/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell)을 참조합니다.
 
-이제 Microsoft Teams, Office 365 그룹 및 SharePoint 사이트에서 민감도 레이블의 미리 보기를 사용할 준비가 되었습니다.
-
-1. PowerShell 세션에서 전역 관리자 권한이 있는 회사 또는 학교 계정을 사용하여 Azure Active Directory에 연결합니다. 예를 들어 다음을 실행합니다.
-    
-    ```powershell
-    Connect-AzureAD
-    ````
-    
-    자세한 지침은 [Azure AD에 연결](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2?view=azureadps-2.0-preview#connect-to-azure-ad)을 참조하세요.
-
-2. 다음의 명령을 실행합니다.
-    
-    ```powershell
-    $setting=(Get-AzureADDirectorySetting | where -Property DisplayName -Value "Group.Unified" -EQ)
-    if ($setting -eq $null)
-    {
-    $template = Get-AzureADDirectorySettingTemplate -Id 62375ab9-6b52-47ed-826b-58e47e0e304b
-    $setting = $template.CreateDirectorySetting()
-    $setting["EnableMIPLabels"] = "True"
-    New-AzureADDirectorySetting -DirectorySetting $setting
-    }
-    else
-    {
-    $setting["EnableMIPLabels"] = "True"
-    Set-AzureADDirectorySetting -Id $setting.Id -DirectorySetting $setting
-    }
-    ```
-    
-    > [!NOTE]
-    > 이 미리 보기를 사용하도록 설정하면 Office 365에서 새 그룹 및 SharePoint 사이트에 대해 이전의 분류를 더 이상 사용하지 않습니다. [Azure AD 사이트 분류](/sharepoint/dev/solution-guidance/modern-experience-site-classification)($setting ["ClassificationList"])를 사용한 경우 기존 그룹과 사이트에서는 여전히 이전의 분류를 표시합니다. 새 분류를 표시하려면 전환을 합니다. 전환하는 방법에 대한 내용은 [클래식 Azure AD 사이트 분류를 사용한 경우](#if-you-used-classic-azure-ad-site-classification)를 참조하세요. 
-
-3. 동일한 PowerShell 세션에서 이제 전역 관리자 권한이 있는 회사 또는 학교 계정을 사용하여 보안 & 준수 센터에 연결합니다. 지침은 [Office 365 보안 및 규정 준수 센터 PowerShell에 연결](/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell)을 참조합니다.
-
-4. 다음 명령을 실행하여 레이블을 Azure AD에 동기화하여 Office 365 그룹에서 사용할 수 있습니다.
+3. 다음 명령을 실행하여 레이블을 Azure AD에 동기화하여 Office 365 그룹에서 사용할 수 있습니다.
     
     ```powershell
     Set-ExecutionPolicy RemoteSigned
@@ -110,28 +63,31 @@ Microsoft Teams, Office 365 그룹 및 SharePoint 사이트의 민감도 레이�
     Import-PSSession $Session -DisableNameChecking
     Execute-AzureAdLabelSync
     ```
-## <a name="set-site-and-group-settings-when-you-create-or-edit-sensitivity-labels"></a>민감도 레이블을 만들거나 편집할 때 사이트 및 그룹 설정을 지정
 
-미리 보기를 사용하도록 설정한 후 다음 단계를 사용하여 민감도 레이블을 만들거나 편집합니다. 레이블이 이미 정의되어 있는 경우에도 새 민감도 레이블이 사이트 및 그룹과 작동하려면 다음의 단계를 완료해야 합니다. 이러한 설정에 대한 변경은 동기화하는 데 최대 24시간이 걸릴 수 있습니다.
+## <a name="how-to-configure-site-and-group-settings-when-you-create-or-edit-sensitivity-labels"></a>민감도 레이블을 만들거나 편집할 때 사이트 및 그룹 설정을 구성하는 방법
 
-1. Microsoft 365 규정 준수 센터에서 **분류** > **민감도 레이블**을 선택합니다.
+이제 사이트 및 그룹에 사용할 민감도 레이블을 만들거나 편집할 준비가 되었습니다. 미리보기를 활성화하면 민감도 레이블 마법사에서 새 페이지가 표시됩니다. **사이트 및 그룹 설정**
 
-2. **레이블 만들기**를 선택합니다. 이미 레이블이 있으면 다음 단계로 건너뜁니다.
+민감도 레이블 작성 또는 편집에 도움이 필요한 경우 [민감도 레이블 생성 및 구성](create-sensitivity-labels.md#create-and-configure-sensitivity-labels)의 지침을 참조하세요.
 
-3. 원하는 옵션을 선택한 다음 **사이트 및 그룹 설정** 탭에서 다음을 선택합니다.
+이 새 **사이트 및 그룹 설정** 페이지에서 다음과 같이 설정을 구성합니다.
+
+- **Office 365 그룹에 연결된 팀 사이트의 개인 정보**: 기본 설정이 **공개**로 자동 선택되므로 조직의 모든 사용자가 이 레이블이 적용된 팀 사이트에 액세스할 수 있습니다. 조직에서 승인된 구성원만 그룹의 팀 사이트에 액세스할 수 있도록 하려면 **비공개**를 선택합니다. 
     
-    - 개인 정보(공개/비공개): 비공개는 조직에서 승인된 구성원만 그룹 내부의 내용을 볼 수 있음을 의미합니다. 조직의 그 외의 사람은 그룹 내부의 내용을 볼 수 없습니다. [자세한 정보](https://support.office.com/article/36236e39-26d3-420b-b0ac-8072d2d2bedc)
-    - 게스트 액세스: 사용자는 그룹에 게스트를 추가할 수 있는지를 제어할 수 있습니다. [Office 365 그룹에서의 게스트 액세스 관리에 대해 알아보세요](/office365/admin/create-groups/manage-guest-access-in-groups)
-    - 관리되지 않는 장치: 이 설정을 사용하면 Intune에서 하이브리드 AD에 참가하지 않았거나 비규격인 장치에서의 SharePoint 콘텐츠로의 액세스를 차단하거나 제한할 수 있습니다. 관리되지 않는 장치를 선택하는 경우 Azure AD로 이동하여 정책 설정을 완료해야 합니다. 관련 정보는 [관리되지 않는 장치에서 액세스 제어](/sharepoint/control-access-from-unmanaged-devices)를 참조합니다.
-    
-    ![사이트 및 그룹 설정 탭](../media/edit-sensitivity-label-site-group.png)
+    이 옵션을 선택하면 그룹에 대해 구성할 수 있는 이전 개인 정보 설정을 대체하 고 개인 정보 보호 값을 잠가 팀 사이트 또는 그룹에서 민감도 레이블을 먼저 제거해야만 변경할 수 있습니다. 민감도 레이블을 제거한 후에도 레이블의 개인 정보 설정이 유지되며 필요한 경우 변경할 수 있습니다.
+
+- **외부 사용자 액세스**: 그룹 소유자가 [그룹에 게스트를 추가](/office365/admin/create-groups/manage-guest-access-in-groups)할 수 있는지를 제어합니다.
+
+- **관리되지 않는 장치**: [관리되지 않는 장치](/sharepoint/control-access-from-unmanaged-devices)의 경우 전체 액세스, 웹 전용 액세스를 허용하거나 액세스를 완벽하게 차단합니다. 
+
+![사이트 및 그룹 설정 탭](../media/edit-sensitivity-label-site-group.png)
 
 > [!IMPORTANT]
-> 팀, 그룹 또는 사이트에 레이블을 적용하는 경우에는 사이트 및 그룹 설정만 적용이 됩니다. 암호화 및 콘텐츠 표시와 같은 다른 설정은 팀, 그룹 또는 사이트 내의 모든 콘텐츠에 적용되지 않습니다.
+> 팀, 그룹 또는 사이트에 레이블을 적용할 때 이러한 사이트 및 그룹 설정만 적용됩니다. 팀, 그룹 또는 사이트 내의 콘텐츠에는 암호화 및 콘텐츠 표시와 같은 다른 레이블 설정이 적용되지 않습니다.
 > 
-> 마찬가지로, 레이블을 만들고 사이트 및 그룹 설정을 켜지 않는 경우에는 사용자가 팀, 그룹 및 사이트를 만들 때 해당 레이블을 계속 사용할 수 있지만 설정을 적용하지 않고 분류를 하게 됩니다.
+> 마찬가지로, 레이블을 만들고 이러한 사이트 및 그룹 설정을 켜지 않는 경우에는 사용자가 팀, 그룹 및 사이트를 만들 때 해당 레이블을 계속 사용할 수 있지만 오직 레이블 이름만 적용됩니다.
 
-[민감도 레이블 게시에 대해 자세히 알아보기](/microsoft-365/compliance/sensitivity-labels#what-label-policies-can-do)
+레이블이 아직 게시되지 않은 경우 [레이블 정책에 추가](create-sensitivity-labels.md#publish-sensitivity-labels-by-creating-a-label-policy)하여 게시합니다.
 
 ## <a name="sensitivity-label-management"></a>민감도 레이블 관리
 
@@ -164,23 +120,19 @@ Microsoft Teams, Office 365 그룹 및 SharePoint 사이트의 민감도 레이�
 
 4. 민감도 레이블이 보이지 않는 경우에는 안전하게 레이블을 수정하거나 삭제할 수 있습니다. 레이블이 계속 표시되면 [Microsoft 지원 센터](https://docs.microsoft.com/office365/admin/contact-support-for-business-products)에 문의하세요.
 
-## <a name="troubleshoot-sensitivity-label-deployment"></a>민감도 레이블 배포 문제 해결
+## <a name="assign-sensitivity-labels-to-office-365-groups"></a>Office 365 그룹에 민감도 레이블 지정
 
-### <a name="labels-not-visible-after-publishing"></a>게시 후 레이블이 보이지 않음
-이 설정을 사용하도록 설정하거나 민감도 레이블의 설명을 수정한 후 팀 또는 Office 365 그룹을 만들 때 문제가 발생하는 경우 레이블을 저장하고 몇 시간을 기다린 후에 팀 또는 그룹을 다시 만들어 봅니다. 이에 대한 내용은 [민감도 레이블을 만들거나 변경한 후의 롤아웃 일정 예약](sensitivity-labels-sharepoint-onedrive-files.md#schedule-roll-out-after-you-create-or-change-a-sensitivity-label)을 참조하세요.
+이제 민감도 레이블을 Office 365 그룹에 적용할 준비가 되었습니다. Azure AD 문서로 돌아가서 다음 지침을 참조하세요.
 
-아직 SharePoint Online에서 새 민감도 레이블을 표시할 수 없는 경우 [Microsoft 지원 센터](https://docs.microsoft.com/office365/admin/contact-support-for-business-products)에 문의하세요.
+- [Azure 포털의 새 그룹에 레이블 지정](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-assign-sensitivity-labels#assign-a-label-to-a-new-group-in-azure-portal)
 
-### <a name="team-group-or-sharepoint-site-creation-errors"></a>팀, 그룹 또는 SharePoint 사이트 만들기 오류
-공개 미리 보기를 진행하는 동안 만들기 오류가 발생하는 경우 다음과 같은 두 가지 옵션이 있습니다.
+-  [Azure 포털의 기존 그룹에 레이블 지정](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-assign-sensitivity-labels#assign-a-label-to-an-existing-group-in-azure-portal)
 
-- 모든 사용자에 대해 민감도 레이블이 필수가 아닌지 확인합니다.
-
-- 이 페이지의 [이 미리 보기를 사용](#enable-this-preview) 섹션에서와 동일한 지침을 사용하여 Microsoft Teams, Office 365 그룹 및 SharePoint 사이트의 민감도 레이블을 해제할 수 있습니다. 그러나 미리 보기를 사용하지 않도록 설정하려면 회선 `$setting["EnableMIPLabels"] = "True"`을 검색하고 **True**값을 **False**로 변경합니다.
+-  [Azure 포털의 기존 그룹에서 레이블 제거](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-assign-sensitivity-labels#remove-a-label-from-an-existing-group-in-azure-portal).
 
 ## <a name="apply-a-sensitivity-label-to-a-new-team"></a>새 팀에 민감도 레이블을 적용
 
-사용자는 Microsoft Teams에서 새 팀을 만들 때 민감도 레이블을 선택할 수 있습니다. 사용자가 민감도 레이블을 선택할 때 개인 정보 설정이 필요에 따라 변경됩니다. 사용자가 레이블에 대해 선택한 게스트 액세스 설정에 따라 조직 외부의 사용자를 팀에 추가할 수 있는지의 여부가 결정됩니다.
+사용자는 Microsoft Teams에서 새 팀을 만들 때 민감도 레이블을 선택할 수 있습니다. 사용자가 민감도 레이블을 선택할 때 개인 정보 설정이 필요에 따라 변경됩니다. 사용자가 레이블에 대해 선택한 외부 사용자 액세스 설정에 따라 조직 외부의 사용자를 팀에 추가할 수 있는지의 여부가 결정됩니다.
 
 [Teams용 민감도 레이블에 대해 자세히 알아보기](https://docs.microsoft.com/microsoftteams/sensitivity-labels)
 
@@ -192,17 +144,15 @@ Microsoft Teams, Office 365 그룹 및 SharePoint 사이트의 민감도 레이�
 
 이 서비스는 Office 365 그룹 및 연결된 SharePoint 팀 사이트에 자동으로 동일한 민감도 레이블을 적용합니다.
 
-## <a name="apply-a-sensitivity-label-to-a-new-group"></a>새 그룹에 민감도 레이블을 적용
+## <a name="apply-a-sensitivity-label-to-a-new-group-in-outlook-on-the-web"></a>웹용 Outlook의 새 그룹에 민감도 레이블 적용
 
-웹용 Outlook에서 새 **민감도** 상자에는 게시된 레이블이 포함되어 있습니다. 사용자가 추가 정보를 원하는 경우 도움말 아이콘을 클릭하여 사용 가능한 레이블과 관련 정책에 대한 세부 정보를 읽을 수 있습니다.
+웹용 Outlook에서 새 그룹을 만들 때 게시된 레이블에 대한 **민감도** 옵션을 선택하거나 변경할 수 있습니다.
 
 ![그룹 만들기 및 민감도 아래의 옵션 선택](../media/sensitivity-label-new-group.png)
 
 ## <a name="apply-a-sensitivity-label-to-a-new-site"></a>새 사이트에 민감도 레이블을 적용
 
-관리자 및 최종 사용자는 최신 팀 사이트 및 커뮤니케이션 사이트를 만들 때 민감도 레이블을 선택할 수 있습니다.
-
-[새 SharePoint 관리 센터에서 사이트 만드는 방법 알아보기](/sharepoint/create-site-collection)
+관리자 및 최종 사용자는 [최신 팀 사이트 및 커뮤니케이션 사이트를 만들](/sharepoint/create-site-collection) 때 민감도 레이블을 선택할 수 있습니다.
 
 사용자가 최신 팀 및 커뮤니케이션 사이트를 만들 때 기본적으로 민감도 레이블이 이미 선택되어 있습니다. 사용자는 도움말 아이콘을 선택하여 레이블에 대한 더욱 자세한 정보를 확인할 수 있습니다.
 
@@ -212,9 +162,9 @@ Microsoft Teams, Office 365 그룹 및 SharePoint 사이트의 민감도 레이�
 
 ![민감도 레이블이 적용된 사이트](../media/sensitivity-label-site.png)
 
-## <a name="manage-sensitivity-labels-in-the-sharepoint-admin-center"></a>SharePoint 관리 센터에서 민감도 레이블 관리
+## <a name="view-sensitivity-labels-in-the-sharepoint-admin-center"></a>SharePoint 관리 센터에서 민감도 레이블 보기
 
-레이블을 보고 편집하려면 새 SharePoint 관리 센터의 활성 사이트 페이지를 사용합니다.
+적용된 민감도 레이블을 보려면 새 SharePoint 관리 센터의 **활성 사이트** 페이지를 사용합니다. 먼저 **민감도** 열을 추가해야 할 수 있습니다.
 
 ![활성 사이트 페이지의 민감도 열](../media/manage-site-sensitivity-labels.png)
 
@@ -253,36 +203,36 @@ Microsoft Teams, Office 365 그룹 및 SharePoint 사이트의 민감도 레이�
     {Set-UnifiedGroup -Identity $g.Identity -SensitivityLabelId "e48058ea-98e8-4940-8db0-ba1310fd955e"}
     ```
 
-## <a name="support-for-the-new-sensitivity-labels"></a>새 민감도 레이블에 대한 지원
+## <a name="support-for-the-sensitivity-labels"></a>민감도 레이블에 대한 지원
 
-다음의 앱과 서비스는 이 미리 보기에서 민감도 레이블을 지원합니다.
+다음 앱 및 서비스에서 사이트 및 그룹 설정에 대해 구성한 민감도 레이블을 사용할 수 있습니다.
 
-- Microsoft 365 규정 준수 센터
-- SharePoint
-- 웹용 Outlook
+- SharePoint Online
 - Teams
+- 웹용 Outlook
 - SharePoint 관리 센터
 - Azure AD 관리 센터
 
-다음과 같은 앱과 서비스를 사용하여 새 민감도 레이블이 있는 Office 365 그룹을 만들 수 없습니다.
+사이트 및 그룹 설정에 대해 구성한 민감도 레이블을 현재 사용할 수 없는 기타 앱 및 서비스는 다음과 같습니다.
 
 - Mac용 Outlook
-- Outlook 모바일  
+- Outlook 모바일
 - Windows용 Outlook 데스크톱
-- 양식  
-- Dynamics 365  
-- Yammer  
-- Stream  
-- Planner  
-- Project  
-- PowerBI  
-- Teams 관리 센터  
-- Microsoft 365 관리 센터  
+- 양식
+- Dynamics 365
+- Yammer
+- Stream
+- Planner
+- Project
+- PowerBI
+- Teams 관리 센터
+- Microsoft 365 관리 센터
 - Exchange 관리 센터
 
-## <a name="if-you-used-classic-azure-ad-site-classification"></a>클래식 Azure AD 사이트 분류를 사용한 경우
 
-이 미리 보기를 사용하도록 설정하면 Office 365에서 새 그룹 및 SharePoint 사이트에 대해 이전의 분류를 더 이상 지원하지 않습니다. 그러나 기존의 그룹과 사이트는 이전 분류를 변환하지 않는 한 계속 표시를 합니다. 이전 분류에는 `ClassificationList` 설정에 대한 값을 정의한 Azure AD PowerShell 또는 PnP Core 라이브러리를 통해 설정하는 "최신" 사이트 분류가 포함 됩니다.
+## <a name="classic-azure-ad-site-classification"></a>클래식 Azure AD 사이트 분류
+
+이 미리 보기를 사용하도록 설정하면 Office 365에서 새 그룹 및 SharePoint 사이트에 대해 이전 분류를 더 이상 지원하지 않습니다. 그러나 민감도 레이블을 사용하도록 변환하지 않는 한 기존 그룹 및 사이트는 여전히 이전 분류를 표시합니다. 이전 분류에는 `ClassificationList` 설정에 대한 값을 정의한 Azure AD PowerShell 또는 PnP Core 라이브러리를 통해 설정하는 "최신" 사이트 분류가 포함 됩니다.
 
 예를 들어 PowerShell에서:
 
@@ -292,49 +242,35 @@ Microsoft Teams, Office 365 그룹 및 SharePoint 사이트의 민감도 레이�
 
 이전 분류 방법에 대한 자세한 내용은 [SharePoint "최신" 사이트 분류](https://docs.microsoft.com/sharepoint/dev/solution-guidance/modern-experience-site-classification)를 참조하세요.
 
-현재의 배포에 따라 이전의 분류를 새 분류로 변환하기 위한 두 가지 옵션이 있습니다.
+이전 분류를 민감도 레이블로 변환하려면 다음 중 하나를 수행합니다.
 
-### <a name="if-you-never-used-sensitivity-labels-unified-microsoft-information-protection-labels-for-files-and-email"></a>파일 및 전자 메일에 대해 민감도 레이블(통합 Microsoft 정보 보호 레이블)을 전혀 사용하지 않은 경우
+- 기존 레이블 사용: 이미 게시된 기존 민감도 레이블을 편집하여 사이트 및 그룹에 대해 원하는 레이블 설정을 지정합니다.
 
-다음의 작업을 권장합니다.
+- 새 레이블 만들기: 기존 분류와 이름이 같은 새 민감도 레이블을 만들고 게시하여 사이트 및 그룹에 대해 원하는 레이블 설정을 지정합니다.
 
-1. Microsoft 365 준수 센터에서 기존의 분류와 이름이 같은 새 민감도 레이블을 만듭니다.
-2. PowerShell을 사용하여 새 레이블을 이름 매핑을 사용하여 기존의 Office 365 그룹 및 SharePoint 사이트에 적용합니다.
-3. 이전의 분류를 삭제합니다.
+그런 다음 다음을 수행합니다. 
 
-새 민감도 레이블을 지원하는 앱 및 서비스에서 해당 항목을 표시합니다. 새 레이블과 같이 새 팀, 그룹 및 사이트를 만듭니다. 사용자는 새 레이블을 지원하지 않는 앱 및 서비스에서 계속해서 그룹을 만들 수 있습니다. 그러나 사용자는 이 그룹에 레이블을 적용할 수 없습니다. PowerShell을 사용하여 이 그룹에 새 민감도 레이블을 적용합니다.
+1. 이름 매핑과 함께 PowerShell을 사용하여 민감도 레이블을 기존 Office 365 그룹 및 SharePoint 사이트에 적용합니다. 지침은 다음 섹션을 참조하세요.
 
-사용자는 이전의 분류를 유지할 수 있지만 PowerShell을 사용하여 이러한 그룹에 새 민감도 레이블을 적용할 것을 권장합니다.
+2. 기존 그룹과 사이트에서 이전 분류를 제거합니다.
 
-새 민감도 레이블을 지원하는 앱 및 서비스가 새 레이블과 함께 만들어집니다. 사용자는 새 레이블을 지원하지 않는 앱 및 서비스에서 그룹을 만들 때 분류를 선택할 수 있습니다.
+사용자가 아직 민감도 레이블을 지원하지 않는 앱과 서비스에서 새 그룹을 만들지 못하도록 할 수는 없지만, 반복적인 PowerShell 스크립트를 실행하여 사용자가 이전 분류로 만든 새 그룹을 찾고, 이러한 그룹을 민감도 레이블을 사용하도록 변환할 수 있습니다. 
 
-### <a name="if-you-use-sensitivity-labels-unified-microsoft-information-protection-labels-for-files-and-email"></a>파일 및 전자 메일에 대해 민감도 레이블(통합 Microsoft 정보 보호 레이블)을 사용하는 경우
+#### <a name="use-powershell-to-convert-classifications-for-office-365-groups-to-sensitivity-labels"></a>PowerShell을 사용하여 Office 365 그룹 분류를 민감도 레이블로 변환
 
-이 미리 보기를 사용하도록 설정하는 즉시 Microsoft 365 준수 센터의 각 레이블로 이동하여 사이트 및 그룹에 원하는 정책을 적용합니다. 사용자는 사이트 및 그룹에 대해 사용할 수 있는 기존 레이블을 보게 됩니다.
+1. SharePoint Online 관리 셸 버전 16.0.19418.12000 이상을 실행 중인지 확인하세요. 최신 버전을 이미 보유한 경우 4단계로 건너뜁니다.
 
-### <a name="prepare-the-sharepoint-online-management-shell-before-you-relabel-office-365-groups"></a>Office 365 그룹의 레이블을 변경하기 전에 SharePoint Online 관리 셸을 준비합니다.
+2. PowerShell 갤러리에서 이전 버전의 SharePoint Online 관리 셸을 설치한 경우 다음 cmdlet을 실행하여 모듈을 업데이트할 수 있습니다.
+    
+    ```PowerShell
+    Update-Module -Name Microsoft.Online.SharePoint.PowerShell
+    ```
 
-새 레이블을 적용하기 전에 최신 SharePoint Online 관리 셸을 실행하고 있는지 확인합니다. 이미 최신 버전을 사용하고 있는 경우 [새 민감도 레이블로 Office 365 그룹의 레이블 변경 ](#relabel-office-365-groups-with-new-sensitivity-labels)을 계속 진행할 수 있습니다.
+3. Microsoft 다운로드 센터에서 이전 버전의 SharePoint Online 관리 셸을 설치한 경우 **프로그램 추가/제거**로 이동하여 SharePoint Online 관리 셸을 제거합니다. 그런 다음 [다운로드 센터](https://go.microsoft.com/fwlink/p/?LinkId=255251)에서 최신 SharePoint Online 관리 셸을 설치합니다.
 
-미리 보기를 위한 SharePoint Online 관리 셸을 준비하려면 다음을 수행합니다.
+4. Office 365에서 전역 관리자 또는 SharePoint 관리자 권한을 보유하는 회사 또는 학교 계정을 사용하여 SharePoint Online 관리 셸에 연결합니다. 자세한 방법은 [SharePoint Online 관리 셸 시작](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)을 참조하세요.
 
-1. 이전 버전의 SharePoint Online 관리 셸을 설치한 경우 **프로그램 추가/제거**로 이동하여 "SharePoint Online 관리 셸"을 제거합니다.
-
-2. 웹 브라우저에서 다운로드 센터 페이지로 이동한 다음 [최신 SharePoint Online 관리 셸을 다운로드](https://go.microsoft.com/fwlink/p/?LinkId=255251)합니다.
-
-3. 언어를 선택한 다음 **다운로드**를 클릭합니다.
-
-4. X64 및 x86 .msi 파일 중에서 선택합니다. 64비트 버전의 Windows를 실행하는 경우 x64 파일을 혹은 32비트 버전을 실행하는 경우 x86 파일을 다운로드합니다. 버전을 모르는 경우에는 [어떠한 Windows 운영 체제 버전을 실행 중인가요?](https://support.microsoft.com/help/13443/windows-which-operating-system)를 참조하세요.
-
-5. 파일을 다운로드한 후 실행을 하고 설정 마법사의 단계를 따릅니다.
-
-### <a name="relabel-office-365-groups-with-new-sensitivity-labels"></a>새 민감도 레이블로 Office 365 그룹의 레이블을 변경합니다.
-
-1. 최신 버전의 SharePoint Online 관리 셸을 사용 하고 있는지 확인합니다. 이에 대한 지침은 [Office 365 그룹의 레이블을 변경하기 전에 SharePoint Online 관리 셸을 준비](#prepare-the-sharepoint-online-management-shell-before-you-relabel-office-365-groups)를 참조합니다.
-
-2. Office 365에서 전역 관리자 또는 SharePoint 관리자 권한을 보유하는 회사 또는 학교 계정을 사용하여 SharePoint Online 관리 셸에 연결합니다. 자세한 방법은 [SharePoint Online 관리 셸 시작](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)을 참조하세요.
-
-3. 다음의 명령을 실행하여 민감도 레이블과 해당 GUID 목록을 가져옵니다.
+5. 다음의 명령을 실행하여 민감도 레이블과 해당 GUID 목록을 가져옵니다.
 
     ```PowerShell
     Set-ExecutionPolicy RemoteSigned
@@ -344,21 +280,48 @@ Microsoft Teams, Office 365 그룹 및 SharePoint 사이트의 민감도 레이�
     Get-Label |ft Name, Guid  
     ```
 
-4. 덮어쓸 레이블의 GUID를 기록합니다. 예를 들면 "일반" 레이블입니다.
+6. Office 365 그룹에 적용할 민감도 레이블의 GUID를 기록해 둡니다.
 
-5. 다음의 명령을 사용하여 "일반" 분류를 포함하는 그룹의 목록을 가져옵니다. 이 명령을 실행하는 경우 Exchange Online PowerShell에 연결하고 Get-unifiedGroup cmdlet을 실행합니다.
+7. 다음 명령을 예로 사용하여 현재 "일반" 분류”를 포함하는 그룹 목록을 가져옵니다.
 
    ```PowerShell
-   Set-ExecutionPolicy RemoteSigned
-   $UserCredential = Get-Credential
-   $Session = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://outlook.office365.com/powershell-liveid/ -Credential $UserCredential -Authentication Basic -AllowRedirection
-   Import-PSSession $Session
    $Groups= Get-UnifiedGroup | Where {$_.classification -eq "General"}
    ```
 
-6. 각 그룹에 새 민감도 레이블 GUID를 추가합니다.
+6. 각 그룹에 새 민감도 레이블 GUID를 추가합니다. 예:
 
     ```PowerShell
     foreach ($g in $groups)
     {Set-UnifiedGroup -Identity $g.Identity -SensitivityLabelId "457fa763-7c59-461c-b402-ad1ac6b703cc"}
     ```
+
+## <a name="auditing-sensitivity-label-activities"></a>민감도 레이블 활동 감사
+
+누군가가 민감도 레이블로 보호된 사이트에 문서를 업로드하고 해당 문서에 사이트에 적용된 민감도 레이블보다 [높은 우선 순위](sensitivity-labels.md#label-priority-order-matters)의 레이블이 있는 경우 이 작업이 차단되지 않습니다. 예를 들어 **일반** 레이블을 SharePoint 사이트에 적용하고 누군가가 이 사이트에 **기밀** 레이블이 지정된 문서를 업로드합니다. 우선 순위가 높은 민감도 레이블은 우선 순위가 낮은 컨텐츠보다 민감도가 높은 컨텐츠를 먼저 식별하므로 이 상황은 보안상의 문제가 될 수 있습니다.
+
+작업이 차단되는 것은 아니지만 감사가 진행되므로 레이블 우선 순위가 이처럼 잘못 정렬된 문서를 확인하고 필요한 경우 조치를 취할 수 있습니다. 예를 들어 업로드된 문서를 사이트에서 삭제하거나 이동합니다. 
+
+사이트에 적용된 민감도 레이블보다 우선 순위가 낮은 레이블이 문서에 지정되어 있다면 보안 문제가 되지 않습니다. 예를 들어 **일반** 레이블이 지정된 문서가 **기밀** 레이블이 지정된 사이트에 업로드됩니다. 이 시나리오에서는 감사 이벤트가 생성되지 않습니다.
+
+이 이벤트에 대한 감사 로그를 검색하려면 **파일 및 페이지 활동** 범주에서 **발견된 문서 감도 불일치**를 찾습니다. 
+
+누군가가 사이트 또는 그룹에 민감도 레이블을 추가하거나 제거하는 경우에도 이러한 활동이 감사됩니다. 이러한 이벤트는 [민감도 레이블 활동](search-the-audit-log-in-security-and-compliance.md#sensitivity-label-activities) 범주에서 찾을 수 있습니다. 
+
+감사 로그를 검색하기 위한 지침은 [보안 및 준수 센터에서 감사 로그 검색](search-the-audit-log-in-security-and-compliance.md)을 참조하세요.
+
+## <a name="troubleshoot-sensitivity-label-deployment"></a>민감도 레이블 배포 문제 해결
+
+Microsoft Teams, Office 365 그룹 및 SharePoint 사이트의 민감도 레이블에 문제가 있나요? 다음을 확인하세요.
+
+### <a name="labels-not-visible-after-publishing"></a>게시 후 레이블이 보이지 않음
+이 설정을 사용하도록 설정하거나 민감도 레이블의 설명을 수정한 후 팀 또는 Office 365 그룹을 만들 때 문제가 발생하는 경우 레이블 변경 내용을 저장하고 몇 시간을 기다린 후에 팀 또는 그룹을 다시 만들어 봅니다. 이에 대한 내용은 [민감도 레이블을 만들거나 변경한 후의 롤아웃 일정 예약](sensitivity-labels-sharepoint-onedrive-files.md#schedule-roll-out-after-you-create-or-change-a-sensitivity-label)을 참조하세요.
+
+아직 SharePoint Online에서 새 민감도 레이블을 표시할 수 없는 경우 [Microsoft 지원 센터](https://docs.microsoft.com/office365/admin/contact-support-for-business-products)에 문의하세요.
+
+### <a name="team-group-or-sharepoint-site-creation-errors"></a>팀, 그룹 또는 SharePoint 사이트 만들기 오류
+공개 미리 보기를 진행하는 동안 만들기 오류가 발생하는 경우 다음과 같은 두 가지 옵션이 있습니다.
+
+- 모든 사용자에 대해 민감도 레이블이 필수가 아닌지 확인합니다.
+
+- [PowerShell에서 민감도 레이블 지원 활성화](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-assign-sensitivity-labels#enable-sensitivity-label-support-in-powershell)와 동일한 지침을 사용하여 Microsoft Teams, Office 365 그룹 및 SharePoint 사이트에 대한 민감도 레이블을 해제할 수 있습니다. 그러나 미리보기를 비활성화하려면 5단계에서 `$setting["EnableMIPLabels"] = "False"`을(를) 사용하여 기능을 비활성화합니다.
+
