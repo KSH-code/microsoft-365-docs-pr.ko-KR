@@ -15,12 +15,12 @@ ms.collection:
 - GDPR
 - M365-security-compliance
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: f7c2a19a58dd616e2516ea70492f4f65ab211441
-ms.sourcegitcommit: 2498cd4af90c31771167a1be9f8f12a96dc6500f
+ms.openlocfilehash: 960a09c89c855861e3db0402f40dd558b27527ac
+ms.sourcegitcommit: 6c7f6ef98c321c80a9254c10bbbb917895b5c156
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41916883"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "42322557"
 ---
 # <a name="general-data-protection-regulation-summary"></a>일반 데이터 보호 규정 요약
 
@@ -56,15 +56,11 @@ GDPR 표준을 충족하기 위해 다음과 같은 작업이 수행됩니다. �
 
 위에서 설명한 것처럼, GDPR의 권장 실행 계획 및 책임 준비 상태 검사 목록은 Microsoft 제품 및 서비스를 사용하여 GDPR 준수을 구현하거나 평가하기 위한 지침을 제공합니다.
 
-## <a name="the-gdpr-in-action"></a>GDPR 수행
-
-이 섹션에서는 위에 언급된 GDPR 작업을 완료하는 간략한 방법과 고려 사항을 설명합니다. 이러한 작업의 완료는 Microsoft 구성에 따라 다를 수 있습니다.
-
-### <a name="data-subject-request-dsr"></a>DSR(데이터 주체 요청)
+## <a name="data-subject-request-dsr"></a>DSR(데이터 주체 요청)
 
 GDPR은 잘못된 데이터를 수정하고, 데이터를 지우거나 처리를 제한하고, 데이터를 수신하고, 다른 관리자에 대한 데이터 전송 요청을 이행할 권리를 포함하여 개인 데이터의 처리와 관련된 특정 권리를 개인(또는 데이터 주체)에게 부여합니다. 컨트롤러는 시기 적절한 GDPR 일치 응답을 제공해야 합니다. 기술 세부 정보에 대해서는 [데이터 주체 요청](gdpr-data-subject-requests.md)을 참조하세요.  
 
-#### <a name="dsr-faqs"></a>DSR FAQ
+### <a name="dsr-faqs"></a>DSR FAQ
 
 **DSR을 완료하는 데 필요한 작업은 무엇인가요?**
 
@@ -105,11 +101,11 @@ GDPR은 관리자에게 다음을 할 수 있도록 요구합니다.
 
 온라인 서비스는 관리자가 데이터 주체 요청에 대처할 수 있도록 지원하는 다양한 기능을 제공합니다. Microsoft 엔터프라이즈 온라인 서비스 및 관리 제어 기능은 사용자가 데이터 주체 권리 요청에 따라 개인 데이터를 처리하도록 지원하여 Microsoft 클라우드에 저장된 관리자가 관리하는 데이터에 포함된 개인 데이터를 검색, 액세스, 수정, 제한, 삭제 및 내보내기할 수 있도록 합니다. 또한 온라인 서비스는 사용자에게 해당 데이터가 필요한 경우 컴퓨터에서 읽을 수 있는 형태로 제공합니다.
 
-### <a name="data-protection-impact-assessment"></a>데이터 보호 영향 평가
+## <a name="data-protection-impact-assessment"></a>데이터 보호 영향 평가
 
 GDPR에 따라 데이터 컨트롤러는 ‘자연인의 권리와 자유에 대한 높은 위험을 초래할 가능성이 있는’ 작업을 처리하기 위해 DPIA([데이터 보호 영향 평가](gdpr-data-protection-impact-assessments.md))를 준비해야 합니다. DPIA를 만들어야 하는 Microsoft 제품 및 서비스에는 아무것도 내제되어 있지 않습니다. 오히려 Microsoft 구성의 세부 정보에 따라 다릅니다. Office에서 고려해야 하는 세부 정보 목록은 [DPIA 콘텐츠](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dpia-office365#part-2--contents-of-a-dpia)에서 찾을 수 있습니다
 
-#### <a name="dpia-faqs"></a>DPIA FAQ
+### <a name="dpia-faqs"></a>DPIA FAQ
 
 **DPIA는 언제 수행해야 하나요?**
 
@@ -142,11 +138,11 @@ Microsoft는 해당 엔지니어링 및 비즈니스 업무에서 기본적으�
 
 Microsoft는 프로세서로서 GDPR에 규정된 DPIA 요구 조항을 준수하도록 하기 위해 관리자를 지원할 책임이 있습니다. Microsoft의 고객을 지원하기 위해 Microsoft의 DPIA 관련 섹션이 발췌되고, 향후 업데이트 시 이 섹션에 제공됩니다. 이러한 작업은 Microsoft 서비스를 활용하는 관리자가 이러한 발췌 데이터를 활용하여 자체 DPIA를 만들 수 있도록 하기 위한 것입니다.
 
-### <a name="breach-notification"></a>위반 알림
+## <a name="breach-notification"></a>위반 알림
 
 GDPR은 개인 데이터의 위반에 대해 데이터 관리자 및 프로세서에게 알려야 한다고 명시합니다. Microsoft는 데이터 프로세서로서, 고객이 GDPR의 위반 알림 요구 사항을 충족할 수 있도록 합니다. 데이터 컨트롤러는 데이터 개인 정보에 대한 위험을 평가하고 고객의 DPA에게 알려야 하는 위반인지 여부를 파악해야 합니다. Microsoft는 이러한 평가에 필요한 정보를 제공합니다. Microsoft에서 개인 데이터 위반을 감지하고 대처하는 방법에 대한 자세한 내용은 [GDPR에서 데이터 위반 알림](gdpr-breach-notification.md)에 나와 있습니다.
 
-#### <a name="breach-notification-faqs"></a>위반 알림 FAQ
+### <a name="breach-notification-faqs"></a>위반 알림 FAQ
 
 **GDPR에서 개인 데이터의 위반을 구성하는 요인은 무엇인가요?**
 
@@ -182,7 +178,7 @@ Microsoft는 개인 데이터 위반 시 사용자를 지원하기 위해 다음
 
 Microsoft에는 사용자에게 즉시 알리기 위한 정책 및 절차가 구현되어 있습니다. DPA에 대한 알림 요건을 충족하기 위해, Microsoft는 개인 데이터 침해가 발생했는지 확인하는 데 사용하는 프로세스에 대한 설명, 침해 특성에 대한 설명, 침해 완화를 위해 수행한 조치에 대한 설명을 제공합니다.
 
-### <a name="accountability-readiness-checklists-for-the-gdpr"></a>GDPR에 대한 책임 준비 상태 검사 목록
+## <a name="accountability-readiness-checklists-for-the-gdpr"></a>GDPR에 대한 책임 준비 상태 검사 목록
 
 이러한 [검사 목록](gdpr-arc.md)은 Microsoft 제품 사용 시 GDPR을 지원하는 데 필요할 수 있는 정보에 편리하게 액세스할 수 있습니다. GDPR 타일의 고객 관리 컨트롤에서 컨트롤 ID 및 컨트롤 제목을 참조하여 [준수 점수](compliance-score.md)를 통해 이 검사 목록의 항목을 관리할 수 있습니다.
 

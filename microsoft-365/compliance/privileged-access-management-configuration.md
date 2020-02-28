@@ -1,5 +1,5 @@
 ---
-title: Office 365에서 권한이 부여 된 액세스 관리 구성
+title: 권한 있는 액세스 관리 시작
 f1.keywords:
 - NOCSH
 ms.author: robmazz
@@ -16,15 +16,15 @@ ms.collection:
 - M365-security-compliance
 ms.custom: Ent_Solutions
 ms.assetid: ''
-description: 이 항목을 사용 하 여 Office 365에서 권한이 부여 된 액세스 관리 구성에 대 한 자세한 내용을 알아보세요.
-ms.openlocfilehash: 36a473369ba539230bc4bbb2a630d74830844fc7
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+description: 이 항목을 사용 하 여 권한 있는 액세스 관리 구성에 대 한 자세한 내용을 알아보세요.
+ms.openlocfilehash: bb1589252ab7a5f7a512db92666827dd9d3cc2d3
+ms.sourcegitcommit: 6c7f6ef98c321c80a9254c10bbbb917895b5c156
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601735"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "42322534"
 ---
-# <a name="configuring-privileged-access-management-in-office-365"></a>Office 365에서 권한이 부여 된 액세스 관리 구성
+# <a name="get-started-with-privileged-access-management"></a>권한 있는 액세스 관리 시작
 
 >[!IMPORTANT]
 >이 항목에서는 현재 Office 365 E5 및 고급 규정 준수 Sku에서 사용할 수 있는 기능에 대 한 배포 및 구성 지침에 대해 설명 합니다.

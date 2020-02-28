@@ -7,12 +7,12 @@ author: jaimeo
 ms.author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 1ca08e84bf27a64ba7515b6f4c0307c94621601c
-ms.sourcegitcommit: 6d672eb8287526a9db90df5fa85bc4984a7047d1
+ms.openlocfilehash: 01c580cd671a84ef68c18b114e133f046a3e5b3b
+ms.sourcegitcommit: 7930fb8327bbd3594fde52f2dbf91e0f5d92f684
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "42280106"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "42328070"
 ---
 # <a name="microsoft-managed-desktop-app-requirements"></a>Microsoft Managed Desktop 응용 프로그램 요구 사항
 
@@ -59,5 +59,5 @@ Microsoft 관리 장치에 설치 된 모든 응용 프로그램 및 드라이�
 
 Microsoft Managed Desktop은 Microsoft 관리 장치를 사용 하 여 Windows Update 또는 설치 된 받은 편지함을 통해 제공 되는 장치 드라이버만 지원 합니다. 
 
-응용 프로그램에서 실행 해야 하는 특정 드라이버가 필요한 경우에는 제한 된 응용 프로그램으로 간주 되므로를 Microsoft Managed Desktop에 배포 해야 합니다. 
+응용 프로그램에서 실행 해야 하는 특정 드라이버가 필요한 경우에는 제한 된 응용 프로그램으로 간주 되므로 Microsoft Managed Desktop에 배포 하기 전에 예외가 필요 합니다. 
 

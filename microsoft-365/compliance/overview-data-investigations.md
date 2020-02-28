@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: 이 문서에서는 Microsoft 365의 새 데이터 조사 (미리 보기) 도구에 대해 설명 합니다.
-ms.openlocfilehash: 1dc0a98208d553a4ea94703b98f982dd8e19167f
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: e147275c21696520c33d5a6679e3ea81023877de
+ms.sourcegitcommit: 7930fb8327bbd3594fde52f2dbf91e0f5d92f684
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42071083"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "42328080"
 ---
 # <a name="overview-of-data-investigations-preview-in-microsoft-365"></a>Microsoft 365의 데이터 조사 개요 (미리 보기)
 
@@ -29,9 +29,9 @@ ms.locfileid: "42071083"
 
 이 문서에서는 새 데이터 조사 (미리 보기) 도구에서 제공 하는 기능을 사용 하 여 데이터 유출 시나리오를 처리 하는 방법을 설명 합니다.
 
-## <a name="permissions"></a>권한
+## <a name="permissions"></a>사용 권한
 
-데이터 조사에 액세스 하 고이를 수행 하려면 Data investigator 역할 그룹의 구성원 이어야 합니다. 자세한 내용은 [데이터 조사에 대 한 사용 권한 할당](permissions.md)을 참조 하세요.
+데이터 조사에 액세스 하 고이를 수행 하려면 Data investigator 역할 그룹의 구성원 이어야 합니다. 자세한 내용은 [데이터 조사에 대 한 사용 권한 할당](data-investigations-permissions.md)을 참조 하세요.
 
 ## <a name="data-investigations-preview-workflow"></a>데이터 조사 (미리 보기) 워크플로 
 

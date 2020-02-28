@@ -1,18 +1,18 @@
 ---
 title: Microsoft Managed Desktop 장치 서비스
 description: 이 항목에서는 Microsoft Managed Desktop의 장치 서비스 및 제한 사항에 대해 설명 합니다.
-keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 설명서
+keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.date: 02/06/2019
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 57ad4573712f0a407f8576c1a9ef7e19155bb0e1
-ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
+ms.openlocfilehash: b20c3b3be7c4582c7adbfae183698c2725de4e7f
+ms.sourcegitcommit: 7930fb8327bbd3594fde52f2dbf91e0f5d92f684
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/14/2019
-ms.locfileid: "36982489"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "42328090"
 ---
 # <a name="microsoft-managed-desktop-device-services"></a>Microsoft Managed Desktop 장치 서비스
 
@@ -26,7 +26,7 @@ Microsoft는 이러한 서비스를 Microsoft Managed Desktop 장치에 제공 �
  --- | ---
 지원 | 지원 에이전트는 장치 기능과 직접적으로 관련 된 질문에 답하고 장치 문제를 진단 합니다.
 재고 | 모든 장치는 Microsoft Managed Desktop Administration portal for inventory 및 상태 추적에서 추적 됩니다.
-펌웨어/드라이버 업데이트 | 기본적으로 Microsoft Managed Desktop 장치는 Windows Update에서 펌웨어와 드라이버 업데이트를 수신 합니다. 모든 하드웨어 파트너가 Windows Update를 통해 업데이트를 배포 하는 것은 아닙니다. 이러한 업데이트는 별도로 요청할 수 있습니다.
+펌웨어/드라이버 업데이트 | 기본적으로 Microsoft Managed Desktop 장치는 Windows Update에서 펌웨어와 드라이버 업데이트를 수신 합니다. 모든 하드웨어 파트너가 Windows Update를 통해 업데이트를 배포 하는 것은 아닙니다. 자동으로 게시 되지 않는 업데이트에는 예외가 필요 하며 고객이 배포 해야 합니다.
 용품 | 장치와 함께 제공 되는 액세서리는 장치 자체와 동일한 서비스에 포함 되지만, 무상 수리 기간은 다를 수 있습니다. 장치를 선택할 때 선택한 무상 수리 조항를 참조 하세요. 
 장치 설정    | 장치는 현재 버전의 Windows를 사용 하 여 미리 구성 되며 클라우드를 통해 해당 앱 및 구성을 수신 합니다. 
 

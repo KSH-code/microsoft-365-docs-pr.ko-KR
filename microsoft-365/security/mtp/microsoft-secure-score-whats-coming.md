@@ -17,12 +17,12 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 55c7cb34c5484eaf8f6693be0ce439e33a82550f
-ms.sourcegitcommit: 59b006f8e82d1772cae2029f278a59ae8a106736
+ms.openlocfilehash: 4d445d4c917a46b12592308f599570725ace8e9d
+ms.sourcegitcommit: 6c7f6ef98c321c80a9254c10bbbb917895b5c156
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/25/2020
-ms.locfileid: "42266976"
+ms.lasthandoff: 02/27/2020
+ms.locfileid: "42322567"
 ---
 # <a name="whats-coming-in-microsoft-secure-score"></a>Microsoft 보안 점수가 어떻게 제공 됩니까?
 
@@ -59,7 +59,7 @@ Intune에서 제공 하는 Microsoft 보안 점수 향상 작업을 평가한 �
 - 모든 장치에 고급 보안 구성 필요
 - 매주 차단 된 장치 보고서 검토
 
-### <a name="removing-improvement-actions-that-dont-meet-expectations-for-reliable-measurement"></a>신뢰할 수 있는 측정에 대 한 기대치를 충족 하지 않는 개선 작업 제거
+### <a name="removing-improvement-actions-that-dont-meet-expectations-for-reliable-measurement"></a>신뢰할 수 있는 측정에 대 한 기대치를 충족 하지 않는 개선 작업 제거 
 
 Microsoft 보안 점수가 의미 있고 모든 개선 조치를 측정할 수 있으며 안정성을 유지 하려면 다음과 같은 개선 작업을 제거 합니다.
 
@@ -93,7 +93,7 @@ Microsoft 보안 점수가 의미 있고 모든 개선 조치를 측정할 수 �
 
 ## <a name="march-16th-2020"></a>16 월 여섯째 2020
 
-### <a name="removing-improvement-actions-that-dont-meet-expectations-for-reliable-measurement"></a>신뢰할 수 있는 측정에 대 한 기대치를 충족 하지 않는 개선 작업 제거
+### <a name="removing-improvement-actions-that-dont-meet-expectations-for-reliable-measurement-or-dont-provide-a-useful-representation-of-security-posture"></a>신뢰할 수 있는 측정에 대 한 기대치를 충족 하지 않는 개선 작업을 제거 하거나 보안 환경을 효과적으로 표현 하지 않습니다.
 
 Microsoft 보안 점수가 의미 있고 모든 개선 조치를 측정할 수 있으며 안정성을 유지 하려면 다음과 같은 개선 작업을 제거 합니다.
 
@@ -102,6 +102,7 @@ Microsoft 보안 점수가 의미 있고 모든 개선 조치를 측정할 수 �
 - Url을 확인 하기 위한 Office 365 안전한 링크 설정
 - 사서함 위임 허용 안 함
 - 사이트 및 문서에 대 한 익명 게스트 공유 링크 허용
+- Cloud App Security Console 켜기
 
 ### <a name="supporting-security-defaults-for-azure-ad-improvement-actions"></a>Azure AD 개선 작업에 대 한 보안 기본값 지원
 
