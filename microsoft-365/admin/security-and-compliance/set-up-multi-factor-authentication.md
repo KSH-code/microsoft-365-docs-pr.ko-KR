@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: 8f0454b2-f51a-4d9c-bcde-2c48e41621c6
 description: 보안 기본값을 사용하여 Office 365 사용자의 다단계 인증을 설정하는 방법을 알아봅니다.
 monikerRange: o365-worldwide
-ms.openlocfilehash: bc906299e42929dd4dd09b94502a6d463a5971b4
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: cb2205e5f5b7df4f6e7d8f7263a91fb2f0f4d3e2
+ms.sourcegitcommit: cf07dfccec476ac2526a6171ec6b6365686f759f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42257193"
+ms.lasthandoff: 02/29/2020
+ms.locfileid: "42341252"
 ---
 # <a name="set-up-multi-factor-authentication"></a>다단계 인증 설정
   
@@ -88,11 +88,11 @@ ms.locfileid: "42257193"
 
 2. **활성 사용자** 섹션에서 **다단계 인증**을 클릭 합니다.
 
-3. **Multi-factor authentication** 페이지에서 한 명의 사용자에 대해이 기능을 사용 하도록 설정 하는 경우 **사용자** 를 선택 하거나 **대량 업데이트**를 수행할 수 있습니다.
+3. **다단계 인증** 페이지에서 한 명의 사용자에 대해이 기능을 사용 하도록 설정 하는 경우 **사용자** 를 선택 하거나 다중 사용자를 사용 하도록 설정 하려면 **대량 업데이트** 를 선택 합니다.
 
 4. **빠른 단계**에서 **사용** 을 클릭 합니다.
 
-5. 팝업 창에서 **다단계 인증 사용**에서 c를 마우스를 한 번만 확인 합니다.
+5. 팝업 창에서 **다단계 인증 사용**을 클릭 합니다.
 
 조직에 대한 다단계 인증을 설정한 후에는 사용자가 장치에서 2단계 인증을 설정해야 합니다. 자세한 내용은 [Office 365에 대해 2단계 인증 설정](https://support.office.com/article/ace1d096-61e5-449b-a875-58eb3d74de14)을 참조하세요.
     

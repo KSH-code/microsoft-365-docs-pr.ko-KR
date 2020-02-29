@@ -15,12 +15,12 @@ ms.assetid: bfc91c73-a955-40e1-a95f-ad466624339a
 ms.collection:
 - M365-security-compliance
 description: 회사 전체의 기본 스팸 필터 정책 또는 도메인에 적용 되는 사용자 지정 스팸 필터 정책에 대 한 최종 사용자 스팸 알림을 구성할 수 있습니다.
-ms.openlocfilehash: cc3054715fdc5cbe72bc6655462b61eb8a9db5d3
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: c8690a64e222bca2bbdc6be62d1077a9d361ae85
+ms.sourcegitcommit: cf07dfccec476ac2526a6171ec6b6365686f759f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42086467"
+ms.lasthandoff: 02/29/2020
+ms.locfileid: "42341291"
 ---
 # <a name="configure-end-user-spam-notifications-in-exchange-online"></a>Exchange Online에서 최종 사용자 스팸 알림 구성
 
@@ -63,7 +63,8 @@ Preview 또는 Release와 같은 다른 작업을 수행 하려는 경우 보안
     
    - **알림 언어** 드롭다운 목록을 사용하여 이 정책의 최종 사용자 스팸 알림에 작성할 언어를 선택합니다. 
     
-   - **저장**을 클릭합니다. 최종 사용자 스팸 알림 설정을 비롯 한 스팸 필터 정책 설정에 대 한 요약이 오른쪽 창에 표시 됩니다.
+   - 
+            **저장**을 클릭합니다. 최종 사용자 스팸 알림 설정을 비롯 한 스팸 필터 정책 설정에 대 한 요약이 오른쪽 창에 표시 됩니다.
     
 > [!NOTE]
 >  최종 사용자 스팸 알림은 사용 하도록 설정 된 스팸 필터 정책에 대해서만 작동 합니다. >  최종 사용자 스팸 알림은 하루에 한 번만 전송됩니다. 특정 고객에 대한 알림 배달 시간을 보장하거나 구성할 수는 없습니다. 
@@ -74,7 +75,7 @@ Preview 또는 Release와 같은 다른 작업을 수행 하려는 경우 보안
   
 ## <a name="use-the-scc-to-configure-end-user-spam-notifications"></a>SCC를 사용 하 여 최종 사용자 스팸 알림 구성
 
-또한 SCC (보안 및 준수 센터)를 사용 하 여 최종 사용자 스팸 알림을 구성할 수도 있습니다. 다음 단계를 따릅니다:
+또한 SCC (보안 및 준수 센터)를 사용 하 여 최종 사용자 스팸 알림을 구성할 수도 있습니다. 다음 단계를 따릅니다.
 
 1. 보안 및 준수 센터를 열고 **스팸 방지** https://protection.office.com/antispam를 위한 **위협 관리** \> **정책** \> 으로 이동 하거나 직접 링크를 사용 합니다.
 
@@ -90,9 +91,12 @@ Preview 또는 Release와 같은 다른 작업을 수행 하려는 경우 보안
     
    - **알림 언어** 드롭다운 목록을 사용하여 이 정책의 최종 사용자 스팸 알림에 작성할 언어를 선택합니다. 
     
-   - **저장**을 클릭합니다. 최종 사용자 스팸 알림 설정을 비롯 한 스팸 필터 정책 설정에 대 한 요약이 창에 표시 됩니다.
+   - 
+            **저장**을 클릭합니다. 최종 사용자 스팸 알림 설정을 비롯 한 스팸 필터 정책 설정에 대 한 요약이 창에 표시 됩니다.
 
 ## <a name="for-more-information"></a>자세한 내용
 
 [스팸 필터 정책 구성](configure-your-spam-filter-policies.md)
+
+[Get-hostedcontentfilterpolicy](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/set-hostedcontentfilterpolicy)
   

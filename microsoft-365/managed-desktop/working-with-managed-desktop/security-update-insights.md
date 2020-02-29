@@ -1,19 +1,19 @@
 ---
-title: Windows 보안 업데이트 insights
+title: Windows 보안 업데이트 정보 활용
 description: ''
 keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 600491fbdd70315385587eb8cb443a1696c3bee6
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: ef2d5c897709e7f7d2484d032b7471031be77d74
+ms.sourcegitcommit: cf07dfccec476ac2526a6171ec6b6365686f759f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42257833"
+ms.lasthandoff: 02/29/2020
+ms.locfileid: "42341261"
 ---
-# <a name="windows-security-update-insights"></a>Windows 보안 업데이트 insights
+# <a name="windows-security-update-insights"></a>Windows 보안 업데이트 정보 활용
 이 보기에서는 Microsoft Managed Desktop 장치에 대 한 보안 업데이트 상태에 대 한 개요를 제공 합니다. 
 
 사용 현황 데이터를 보려면 <strong>Windows 보안 업데이트</strong> 탭을 선택 합니다.
@@ -28,7 +28,7 @@ Windows 업데이트를 통해 장치를 업데이트 하려면 해당 장치가
 
 - <strong>활성 상태:</strong> 최신 보안 업데이트 릴리스에 대 한 최소 사용 조건 (6 시간, 두 개 연속)을 충족 하 고 최소 5 일 마다 Microsoft Intune을 체크 인 한 장치
 - <strong>동기화 됨:</strong> 지난 28 일 이내에 Intune을 사용 하 여 체크 인 한 장치
-- <strong>동기화</strong> <i>되지 않음</i> -지난 28 일 동안 Intune을 사용 하 여 체크 인하지 않은 장치
+- <strong>비동기화 됨:</strong> 지난 28 일 동안 Intune을 사용 하 <i>여 체크 인하지 않은 장치</i>
 
 
 

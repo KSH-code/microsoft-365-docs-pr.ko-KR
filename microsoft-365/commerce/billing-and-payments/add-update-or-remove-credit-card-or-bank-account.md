@@ -24,12 +24,12 @@ search.appverid:
 - BEA160
 ms.assetid: 30ba9c83-50d8-4020-90ed-830a5b8c8724
 description: Microsoft 365 관리 센터에서 결제 방법을 관리 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 7e217f5fcb7f93e91ec0ed3ab6d4a806597fbfb9
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 56ffbcc638ecfe304ff71273ec2ce00abd05ddca
+ms.sourcegitcommit: cf07dfccec476ac2526a6171ec6b6365686f759f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42246504"
+ms.lasthandoff: 02/29/2020
+ms.locfileid: "42341231"
 ---
 # <a name="add-update-or-remove-your-payment-methods"></a>결제 방법 추가, 업데이트 또는 제거
 
@@ -42,6 +42,8 @@ ms.locfileid: "42246504"
 > 일부 국가나 지역에서는 은행 계좌 결제 옵션을 사용할 수 없습니다.
 >
 > 테 넌 트와 동일한 국가에서 발급 한 신용 카드를 사용 해야 합니다.
+
+**인터페이스가이 문서에서 설명 하는 것과 일치 하지 않습니까?** 이 경우 [결제 방법 관리](manage-payment-methods.md)를 참조 하세요.
 
 ## <a name="add-a-payment-method"></a>결제 방법 추가
 
