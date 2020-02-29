@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 관리자는 SharePoint 및 OneDrive에서 Word, Excel 및 PowerPoint 파일에 대해 민감도 레이블 지원을 사용 하도록 설정할 수 있습니다.
-ms.openlocfilehash: 5d9b5a493b44ef4453906f1601481a6aa89c3884
-ms.sourcegitcommit: 45ee610a380db113c2a50f6ea82d30137498babb
+ms.openlocfilehash: 89925858ac749ac6f50b7a049a372cf2f7912698
+ms.sourcegitcommit: cf07dfccec476ac2526a6171ec6b6365686f759f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "42288536"
+ms.lasthandoff: 02/29/2020
+ms.locfileid: "42341243"
 ---
 # <a name="enable-sensitivity-labels-for-office-files-in-sharepoint-and-onedrive-public-preview"></a>SharePoint 및 OneDrive에서 Office 파일에 대한 민감도 레이블 사용(공개 미리 보기)
 
@@ -74,11 +74,13 @@ ms.locfileid: "42288536"
     
     1. Azure Information Protection 레이블을 민감도 레이블로 마이그레이션하고 Microsoft 365 준수 센터 또는 레이블 관리 센터에서 게시 했는지 확인 합니다.
     
-    2. 파일을 다운로드 하 여 SharePoint에 업로드 합니다.
+    2. 파일을 다운로드 한 다음 SharePoint에 업로드 합니다.
 
 - 암호화를 적용 한 레이블에서 암호화에 대 한 다음 구성 중 하나를 수행 하면 SharePoint에서 암호화 된 파일을 처리할 수 없습니다.
-    - **사용자가 레이블을 적용할 때 사용 권한을 할당할 수 있도록** 하 고 **Word, PowerPoint 및 Excel에서 사용자에 게 사용 권한을 지정 하 라는 메시지를 표시** 합니다.
+    - 사용자가 **Word, PowerPoint 및 Excel에서 사용 권한을 지정할** **때 사용 권한을 할당할 수** 있습니다. 이 설정을 "사용자 정의 권한"이 라고도 합니다.
     - **콘텐츠에 대 한 사용자 액세스 만료** 는 **Never**이외의 값으로 설정 됩니다.
+    
+    이러한 암호화 구성 중 하나가 있는 레이블의 경우에는 웹에서 Office 사용자에 게 레이블이 표시 되지 않습니다. 또한이 미리 보기의 새로운 기능은 이미 이러한 암호화 설정이 적용 된 레이블이 지정 된 문서에는 사용할 수 없습니다. 예를 들어 이러한 문서는 업데이트 되더라도 검색 결과에 반환 되지 않습니다.
 
 - 사용자에 게 편집 권한을 부여 하는 암호화 된 문서에서는 Office 앱의 웹 버전에서 복사를 차단할 수 없습니다.
 
@@ -100,7 +102,7 @@ ms.locfileid: "42288536"
 
 미리 보기를 사용 하도록 설정 하기 전에 SharePoint Online 관리 셸 버전 16.0.19418.12000 이상이 실행 되 고 있는지 확인 합니다. 최신 버전을 이미 사용 하 고 있는 경우 미리 보기를 사용할 수 있습니다.
 
-1. PowerShell 갤러리에서 이전 버전의 SharePoint Online 관리 셸을 설치한 경우 다음 cmdlet을 실행 하 여 모듈을 업데이트할 수 있습니다.
+1. PowerShell 갤러리에서 이전 버전의 SharePoint Online 관리 셸을 설치한 경우 다음 cmdlet을 실행하여 모듈을 업데이트할 수 있습니다.
 
     ```PowerShell
     Update-Module -Name Microsoft.Online.SharePoint.PowerShell

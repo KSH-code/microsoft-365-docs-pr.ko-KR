@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 1c53eded5e50d480cdce2ccbcb61f732bc899041
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 4f456b44ed0d7b3fb83a20d9c66ab49ff8af4946
+ms.sourcegitcommit: 004f01fc5d5bdb8aac03d69692d86c38b5e05e14
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42078783"
+ms.lasthandoff: 02/28/2020
+ms.locfileid: "42333668"
 ---
 # <a name="configure-communication-compliance-in-microsoft-365"></a>Microsoft 365에서 통신 준수 구성
 
@@ -45,7 +45,7 @@ Microsoft 365 Enterprise E5 요금제가 아직 없는 경우 microsoft 365을 �
 >[!Important]
 >기본적으로 전역 관리자는 통신 준수 기능에 액세스할 수 없습니다. 이 단계에서 할당 된 역할은 통신 준수 기능에 액세스할 수 있으려면 먼저 필요 합니다.
 
-Microsoft 365 준수 센터에서 **통신 준수** 를 메뉴 옵션으로 사용할 수 있도록 하려면 **관리 검토 관리자** 역할이 할당 되어야 합니다. **관리 검토 관리자**, **사례 관리**및 **검토** 역할을 사용 하 여 검토자에 대 한 새 역할 그룹을 만들어 정책 일치 항목을 갖는 메시지를 조사 하 고 수정 해야 합니다.
+Microsoft 365 준수 센터에서 **통신 준수** 를 메뉴 옵션으로 사용할 수 있도록 하려면 **관리 검토 관리자** 역할이 할당 되어야 합니다. **관리 검토 관리자**, **사례 관리**, **준수 관리자**및 **검토** 역할로 검토자에 대 한 새 역할 그룹을 만들어 정책 일치 항목이 있는 메시지를 조사 하 고 수정 해야 합니다.
 
 ### <a name="create-a-new-role-group"></a>새 역할 그룹 만들기
 
@@ -57,9 +57,9 @@ Microsoft 365 준수 센터에서 **통신 준수** 를 메뉴 옵션으로 사�
 
 4. **이름** 필드에서 새 역할 그룹에 이름을 지정 합니다.  Select **Next**. 
 
-5. **역할 선택을** 선택 하 고 **추가**를 선택 합니다. **관리 검토 관리자**, **사례 관리**및 **검토**에 대 한 확인란을 선택 하 고 **추가** 및 **완료**를 선택 합니다.  Select **Next**. 
+5. **역할 선택을** 선택 하 고 **추가**를 선택 합니다. **관리 검토 관리자**, **사례 관리**, **준수 관리자**및 **검토**에 대 한 확인란을 선택 하 고 **추가** 및 **완료**를 선택 합니다.  Select **Next**. 
 
-    ![통신 준수 필수 역할 그룹](../media/communication-compliance-role-groups.png)
+    ![통신 준수 필수 역할 그룹](../media/communication-compliance-role-groups-1.png)
 
 6. **구성원 선택을** 선택 하 고 **추가**를 선택 합니다. 정책을 만들 모든 사용자 및 그룹에 대 한 확인란을 선택 하 고 정책 일치가 포함 된 메시지를 관리 한 다음 **추가** 및 **완료**를 선택 합니다.  Select **Next**. 
 
