@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 민감한 레이블을 만들면 레이블이 적용되는 콘텐츠에 대한 액세스를 제한할 수 있습니다. 민감도 레이블에서 암호화를 사용하여 내용을 보호할 수 있습니다.
-ms.openlocfilehash: ef4b5c9768687864427a0805039a35958c476142
-ms.sourcegitcommit: 1f04eb8a32aed8571ac37bcfef61e0d0ef181eda
+ms.openlocfilehash: a8418a85c6d936fbe49deb2f11caacf67a2ce407
+ms.sourcegitcommit: cf07dfccec476ac2526a6171ec6b6365686f759f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "42278774"
+ms.lasthandoff: 02/29/2020
+ms.locfileid: "42341275"
 ---
 # <a name="restrict-access-to-content-by-using-sensitivity-labels-to-apply-encryption"></a>민감도 레이블을 사용하여 암호화를 적용하여 콘텐츠 액세스 제한 
 
@@ -155,7 +155,10 @@ ms.locfileid: "42278774"
 - 조직의 모든 사용자(모든 테넌트 구성원). 이 설정에서는 게스트 계정이 제외됩니다.
 - 인증된 모든 사용자. 이 설정을 선택하기 전에 이 설정의 [요구 사항과 제한 사항](#requirements-and-limitations-for-add-any-authenticated-users)을 이해해야 합니다.
 - 모든 특정 사용자 또는 전자 메일 사용이 가능한 보안 그룹, 메일 그룹, Office 365 그룹 또는 동적 메일 그룹. 
-- 조직 외부의 모든 이메일 주소 또는 도메인(예: gmail.com, hotmail.com 또는 outlook.com). 
+- 모든 전자 메일 주소 또는 도메인. 해당 조직에서 도메인 이름을 입력하여 Azure AD를 사용하는 다른 조직의 모든 사용자를 지정하려면 이 옵션을 사용합니다. 소셜 공급자의 도메인 이름(예: **gmail.com**, **hotmail.com** 또는 **outlook.com**)을 입력하여 소셜 공급자에 이 옵션을 사용할 수도 있습니다.
+
+> [!NOTE]
+> Azure AD를 사용하는 조직에서 도메인을 지정할 경우 해당 특정 도메인에 대한 액세스를 제한할 수 없습니다. 대신에 Azure AD에서 확인된 모든 도메인은 사용자가 지정한 도메인 이름을 소유하는 테넌트에 자동으로 포함됩니다.
 
 모든 테넌트 구성원을 선택하거나 디렉토리를 탐색할 때 사용자 또는 그룹에 전자 메일 주소가 있어야 합니다.
 
@@ -163,7 +166,7 @@ ms.locfileid: "42278774"
 
 ##### <a name="requirements-and-limitations-for-add-any-authenticated-users"></a>**인증된 사용자 추가**에 대한 요구 사항 및 제한 사항
 
-이 설정은 레이블이 암호화하는 컨텐츠에 액세스할 수 있는 사람을 제한하지 않고 컨텐츠를 계속 암호화하고 컨텐츠 사용 방법(권한) 및 액세스 방법(만료 및 오프라인 액세스)을 제한하는 옵션을 제공합니다. 그러나 암호화된 콘텐츠를 여는 응용 프로그램은 사용되는 인증을 지원할 수 있어야 합니다. 이러한 이유로 Google과 같은 페더레이션된 소셜 공급자 및 일회용 암호 인증은 전자 메일에 대해서만 작동하며 Exchange Online과 Office 365 메시지 암호화의 새로운 기능을 사용할 때만 가능합니다. Microsoft 계정은 Office 365 앱 및 [Azure Information Protection 뷰어](https://portal.azurerms.com/#/download)와 함께 사용할 수 있습니다.
+이 설정은 레이블이 암호화하는 컨텐츠에 액세스할 수 있는 사람을 제한하지 않고 컨텐츠를 계속 암호화하고 컨텐츠 사용 방법(권한) 및 액세스 방법(만료 및 오프라인 액세스)을 제한하는 옵션을 제공합니다. 그러나 암호화된 콘텐츠를 여는 응용 프로그램은 사용되는 인증을 지원할 수 있어야 합니다. 이러한 이유로 Google과 같은 페더레이션된 소셜 공급자 및 일회용 암호 인증은 Exchange Online을 사용할 때에 한해 전자 메일에 대해서만 작동합니다. Microsoft 계정은 Office 365 앱 및 [Azure Information Protection 뷰어](https://portal.azurerms.com/#/download)와 함께 사용할 수 있습니다.
 
 인증된 사용자 설정에 대한 일반적인 시나리오는 다음과 같습니다.
 - 누가 컨텐츠를 보는지는 신경 쓰지 않지만 컨텐츠 사용 방법을 제한하려고 합니다. 예를 들어 내용의 편집, 복사 또는 인쇄를 원하지 않습니다.
@@ -175,9 +178,9 @@ ms.locfileid: "42278774"
 해당 사용자 또는 그룹에 허용할 사용 권한을 선택하면 다음 중 하나를 선택할 수 있습니다.
 
 - 미리 설정된 권한 그룹(예: 공동 작성 또는 검토자)이 있는 [미리 정의된 권한 수준](https://docs.microsoft.com/azure/information-protection/configure-usage-rights#rights-included-in-permissions-levels).
-- 원하는 사용 권한을 선택해 허용할 수 있는 사용자 지정 권한 그룹.
+- 하나 이상의 사용 권한을 선택하는 경우 권한 사용자 지정
 
-각 특정 사용 권한에 대한 자세한 내용은 [사용 권한 및 설명](https://docs.microsoft.com/azure/information-protection/configure-usage-rights#usage-rights-and-descriptions)을 참조하세요.  
+적절한 사용 권한을 선택하는 데 도움이 되는 자세한 내용은 [사용 권한 및 설명](https://docs.microsoft.com/azure/information-protection/configure-usage-rights#usage-rights-and-descriptions)을 참조하세요.  
 
 ![미리 설정된 옵션 또는 사용자 지정 사용 권한](../media/Sensitivity-Choose-permissions-settings.png)
 
@@ -255,6 +258,97 @@ Word, PowerPoint 및 Excel에서 사용자가 문서에 사용 권한을 할당�
 - MacOS: **검토** 탭 > **보호** > **사용 권한** > **제한된 액세스**
 
 
+## <a name="example-configurations-for-the-encryption-settings"></a>암호화 설정의 예제 구성
+
+아래에 나오는 각 예제에 대해 [민감도 레이블을 만들거나 편집](create-sensitivity-labels.md#create-and-configure-sensitivity-labels) 시 마법사의 **암호화**페이지에서 구성을 수행합니다. 먼저 **암호화**가 **적용**으로 설정되어 있는지 확인합니다.
+
+![민감도 레이블 마법사의 암호화 옵션 적용](../media/apply-encryption-option.png)
+
+### <a name="example-1-label-that-applies-do-not-forward-to-send-an-encrypted-email-to-a-gmail-account"></a>예제 1: 적용되는 레이블 암호화된 전자 메일을 Gmail 계정으로 보내기 위해 전달하지 않습니다.
+
+이 레이블은 Outlook 및 웹에서의 Outlook에서만 사용할 수 있으며 Exchange Online을 사용해야 합니다. 사용자가 Gmail 계정(또는 조직 외부의 다른 전자 메일 계정)을 사용하는 사용자에게 암호화된 전자 메일을 보내야 하는 경우 이 레이블을 선택하도록 지시합니다. 
+
+사용자는 **받는 사람** 상자에 Gmail 전자 메일 주소를 입력합니다.  그런 다음 레이블을 선택하면 전달 금지 옵션이 전자 메일에 자동으로 추가됩니다. 그 결과 받는 사람이 **다른 이름으로 저장** 옵션을 사용하여 전자 메일을 전달, 인쇄, 복사하거나 혹은 사서함 외부에 해당 전자 메일을 저장하는 것을 방지할 수 있습니다. 
+
+1. **암호화** 페이지에서 다음을 수행합니다. **사용 권한을 지금 할당 혹은 사용자가 결정하도록 하기**에서 **사용자가 레이블을 적용할 때 사용 권한을 할당하도록 하기**를 선택합니다.
+
+3. 확인란 선택: **Outlook에서 전달 금지 옵션에 해당하는 제한 사항을 적용합니다**.
+
+4. 선택된 경우 확인란의 선택을 취소합니다. **Word, PowerPoint 및 Excel에서 사용자에게 사용 권한을 지정하라는 메시지를 표시합니다**.
+
+5. **다음**을 선택하고 마법사를 완료합니다.
+
+
+### <a name="example-2-label-that-restricts-read-only-permission-to-all-users-in-another-organization"></a>예제 2: 다른 조직의 모든 사용자에게 읽기 전용 권한을 제한하는 레이블
+
+이 레이블은 매우 중요한 문서를 읽기 전용으로 공유하는 데 적합하며, 이러한 문서를 보려면 항상 인터넷 연결이 필요합니다.
+
+이 레이블은 전자 메일에 적합하지 않습니다.
+
+1. **암호화** 페이지에서 다음을 수행합니다. **사용 권한을 지금 할당 혹은 사용자가 결정하도록 하기**에서 **지금 사용 권한을 할당**을 선택합니다.
+
+3. **오프라인 액세스를 허용**은 **절대 불허**를 선택합니다.
+
+4. **사용 권한 할당**을 선택합니다.
+
+3. **사용 권한 할당** 창에서 **이 전자 메일 주소 또는 도메인 추가**를 선택합니다.
+
+4. 텍스트 상자에 다른 조직의 도메인 이름을 입력 합니다(예:**fabrikam.com**). 그런 다음 **추가**를 선택합니다.
+
+5. **현재 또는 사용자 지정으로 사용 권한 선택**을 선택합니다.
+
+6. **현재 또는 사용자 지정으로 사용 권한 선택** 창에서 드롭다운 상자를 선택하고 **뷰어**를 선택한 다음 **저장**을 선택합니다.
+
+6. **사용 권한 할당** 창으로 돌아가서 **저장**을 선택합니다.
+
+7. **암호화**페이지에서 **다음**을 선택하고 마법사를 완료합니다.
+
+
+### <a name="example-3-add-external-users-to-an-existing-label-that-encrypts-content"></a>예제 3: 콘텐츠를 암호화하는 기존 레이블에 외부 사용자 추가
+
+추가하는 새 사용자는 이 레이블로 이미 보호된 문서 및 전자 메일을 열 수 있습니다. 이러한 사용자에게 부여하는 사용 권한은 기존 사용자의 사용 권한과 다를 수 있습니다.
+
+1. **암호화** 페이지에서 다음을 수행합니다. **사용 권한을 지금 할당 혹은 사용자가 결정하도록 하기**에서 반드시 **지금 사용 권한을 할당**이 선택되도록 합니다.
+
+2. **사용 권한 할당**을 선택합니다.
+
+3. **사용 권한 할당** 창에서 **이 전자 메일 주소 또는 도메인 추가**를 선택합니다.
+
+4. 텍스트 상자에 추가할 첫 번째 사용자(또는 그룹)의 전자 메일 주소를 입력한 다음 **추가**를 선택합니다.
+
+5. **현재 또는 사용자 지정으로 사용 권한 선택**을 선택합니다.
+
+6. **현재 또는 사용자 지정으로 사용 권한 선택** 창에서 이 사용자(또는 그룹)에 대한 사용 권한을 선택하고 **저장**을 선택합니다.
+
+7. **사용 권한 할당** 창으로 돌아가서 이 레이블에 추가하려는 각 사용자(또는 그룹)에 대해 3 ~ 6단계를 반복합니다. 그런 다음 **저장**을 클릭합니다.
+
+8. **암호화**페이지에서 **다음**을 선택하고 마법사를 완료합니다.
+
+
+### <a name="example-4-label-that-encrypts-content-but-doesnt-restrict-who-can-access-it"></a>예제 4: 콘텐츠를 암호화하지만 액세스할 수 있는 사용자를 제한하지 않는 레이블
+
+이 구성은 전자 메일이나 문서를 암호화하는 데 사용자, 그룹 또는 도메인을 지정할 필요가 없다는 장점이 있습니다. 콘텐츠는 계속 암호화되므로 사용 권한, 만료 날짜 및 오프라인 액세스를 계속 지정할 수 있습니다. 
+
+보호되는 문서 또는 전자 메일을 열 수 있는 사용자를 제한할 필요가 없는 경우에만 이 구성을 사용합니다. [이 설정에 대한 자세한 내용](#requirements-and-limitations-for-add-any-authenticated-users)
+
+1. **암호화** 페이지에서 다음을 수행합니다. **사용 권한을 지금 할당 혹은 사용자가 결정하도록 하기**에서 반드시 **지금 사용 권한을 할당**이 선택되도록 합니다.
+
+2. 필요한 경우 **콘텐츠에 대한 사용자 액세스 만료** 및 **오프라인 액세스 허용**에 대한 설정을 구성합니다.
+
+3. **사용 권한 할당**을 선택합니다.
+
+4. **사용 권한 할당** 창에서 **인증된 사용자 추가**를 선택합니다. 
+    
+    **사용자 및 그룹**의 경우 **인증된 사용자**가 자동으로 추가되는 것을 확인할 수 있습니다. 이 값은 변경할 수 없고 삭제만 가능하며 삭제 시 **인증된 사용자 추가** 선택이 취소됩니다.
+
+5. **현재 또는 사용자 지정으로 사용 권한 선택**을 선택합니다.
+
+6. **현재 또는 사용자 지정으로 사용 권한 선택** 창에서 드롭다운 상자를 선택하고 원하는 **뷰어** 사용 권한을 선택한 다음 **저장**을 선택합니다.
+
+7. **사용 권한 할당** 창으로 돌아가서 **저장**을 선택합니다.
+
+8. **암호화**페이지에서 **다음**을 선택하고 마법사를 완료합니다.
+
 ## <a name="considerations-for-encrypted-content"></a>암호화된 콘텐츠의 고려 사항
 
 가장 중요한 문서와 전자 메일을 암호화하면 권한있는 사용자만 이 데이터에 액세스할 수 있습니다. 그러나 다음과 같은 몇 가지 고려해야 할 사항이 있습니다.
@@ -291,9 +385,9 @@ Word, PowerPoint 및 Excel에서 사용자가 문서에 사용 권한을 할당�
 
 ### <a name="configure-exchange-for-azure-information-protection"></a>Azure Information Protection에 대한 Exchange 구성
 
-사용자가 전자 메일을 보호하기 위해 Outlook에서 레이블을 적용하기 전에 Exchange에서 Azure 정보 보호를 구성할 필요가 없습니다. 그러나 Exchange에서 Microsoft Azure Information Protection을 구성하기 전까지 Exchange에서 Microsoft Azure AD Rights Management을 사용하는 모든 기능을 온전히 사용할 수 없습니다.
+사용자가 Outlook에서 전자 메일을 암호화하기 위해 레이블을 적용하기 전에 Azure Information Protection을 위해 Exchange를 구성할 필요는 없습니다. 그러나 Exchange에 Azure Information Protection을 구성하기 전에는 Exchange에서 Azure 권한 관리 보호 사용의 모든 기능을 이용할 수 없습니다.
  
-예를 들어 사용자는 휴대폰 또는 웹용 Outlook에서 보호된 전자 메일을 볼 수 없으며 검색 시 보호된 전자 메일이 인덱싱되지 않으며 권한 관리 보호를 위한 Exchange Online DLP를 구성할 수 없습니다. 
+예를 들어 사용자는 휴대폰 또는 웹에서의 Outlook으로 암호화된 전자 메일을 볼 수 없으며 검색 시 암호화된 전자 메일이 인덱싱되지 않으며 권한 관리 보호를 위한 Exchange Online DLP를 구성할 수 없습니다. 
 
 Exchange에서 이러한 추가 시나리오를 지원할 수 있는지 확인하려면 다음을 참조하세요.
 
