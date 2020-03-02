@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 팀, Office 365 그룹 및 SharePoint 사이트에 레이블을 적용할 수 있습니다.
-ms.openlocfilehash: 611876b7e403c8d877c602d21967675adef2d061
-ms.sourcegitcommit: 45ee610a380db113c2a50f6ea82d30137498babb
+ms.openlocfilehash: 350e1906e4d645c444d772b1ade9a2ff9c850992
+ms.sourcegitcommit: 1b1425142ae06deae3da10a7d30dce4db029d6d3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 02/27/2020
-ms.locfileid: "42288581"
+ms.locfileid: "42313803"
 ---
 # <a name="use-sensitivity-labels-with-microsoft-teams-office-365-groups-and-sharepoint-sites-public-preview"></a>Microsoft Teams, Office 365 그룹 및 SharePoint 사이트(공개 미리 보기)에서 민감도 레이블 사용
 
