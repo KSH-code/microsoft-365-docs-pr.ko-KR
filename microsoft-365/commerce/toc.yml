@@ -1,5 +1,5 @@
-- name: 상업용 구매 및 청구 관리
-  href: index.md
+- name: 비즈니스용 구독 관리
+  href: index.yml
   expanded: true
   items:
     - name: 체험 또는 구매
@@ -20,12 +20,12 @@
       items:
         - name: 구독 업그레이드
           href: subscriptions/upgrade-to-different-plan.md
-        - name: 구독 취소
-          href: subscriptions/cancel-your-subscription.md
-        - name: 구독 다시 활성화
-          href: subscriptions/reactivate-your-subscription.md
         - name: 구독 갱신
           href: subscriptions/renew-your-subscription.md
+        - name: 구독 다시 활성화
+          href: subscriptions/reactivate-your-subscription.md
+        - name: 구독 취소
+          href: subscriptions/cancel-your-subscription.md
         - name: 구독이 만료된 경우 어떻게 하나요?
           href: subscriptions/what-if-my-subscription-expires.md
         - name: 타사 앱 관리
@@ -38,12 +38,12 @@
       items:
         - name: 라이선스 구매
           href: licenses/buy-licenses.md
-        - name: 라이선스 할당
-          href: ../admin/manage/assign-licenses-to-users.md
-        - name: 라이선스 할당 취소
-          href: ../admin/manage/remove-licenses-from-users.md
         - name: 구독에서 라이선스 제거
           href: licenses/remove-licenses-from-subscription.md
+        - name: 사용자에게 라이선스 할당
+          href: ../admin/manage/assign-licenses-to-users.md
+        - name: 사용자의 라이선스 할당 취소
+          href: ../admin/manage/remove-licenses-from-users.md
         - name: 구독 및 라이선스 이해
           href: licenses/subscriptions-and-licenses.md
     - name: 청구 및 결제
@@ -76,3 +76,5 @@
       href: manage-partners.md
     - name: '계정 사용 중지 '
       href: close-your-account.md
+    - name: 지원 센터 문의
+      href: ../admin/contact-support-for-business-products.md
