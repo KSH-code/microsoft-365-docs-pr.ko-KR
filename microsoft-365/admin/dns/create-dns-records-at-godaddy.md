@@ -21,12 +21,12 @@ search.appverid:
 ms.assetid: f40a9185-b6d5-4a80-bb31-aa3bb0cab48a
 description: 도메인을 확인 하 고 전자 메일, 비즈니스용 Skype Online 및 Office 365에 대 한 GoDaddy의 기타 서비스에 대 한 DNS 레코드를 설정 하는 방법을 알아봅니다.
 ms.custom: okr_smb
-ms.openlocfilehash: 4a67ef090c2b91c4cf1fdde376ab35e3a4ed4e20
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: e037e989a51a95b16077d1edfcdff4b341ee3b80
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42245371"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42349239"
 ---
 # <a name="create-dns-records-at-godaddy-for-office-365"></a>GoDaddy에서 Office 365용 DNS 레코드 만들기
 
@@ -53,44 +53,44 @@ Office 365에서 사용자 도메인을 사용하려면 먼저 도메인을 소�
 
 1. 시작하려면 [이 링크](https://account.godaddy.com/products/?go_redirect=disabled)를 사용하여 GoDaddy의 도메인 페이지로 이동합니다. 로그인하라는 메시지가 표시됩니다.
 
-    ![GoDaddy-BP-구성-1-1](../media/d6833ec7-9904-43fd-a877-7c663e5f5c25.png)
+    ![GoDaddy-BP-구성-1-1](../../media/d6833ec7-9904-43fd-a877-7c663e5f5c25.png)
 
 2. **도메인**아래에서 편집 하려는 도메인의 DNS를 선택 합니다.
 
-    ![GoDaddy-BP-구성-1-2](../media/dns/56528038-94b6ac00-651c-11e9-8874-12db60cc7ea6.png)
+    ![GoDaddy-BP-구성-1-2](../../media/dns/56528038-94b6ac00-651c-11e9-8874-12db60cc7ea6.png)
 
 3. **추가**를 선택합니다.
 
-    ![GoDaddy-BP-구성-1-4](../media/dns/56527673-ffb3b300-651b-11e9-91c2-83dc9fe5ca30.png)
+    ![GoDaddy-BP-구성-1-4](../../media/dns/56527673-ffb3b300-651b-11e9-91c2-83dc9fe5ca30.png)
 
-4. 드롭다운 목록에서 **TXT(텍스트)** 를 선택합니다. In the boxes for the new record, type or copy and paste the values from the following table.
+4. 드롭다운 목록에서 **TXT(텍스트)** 를 선택합니다. 새 레코드의 상자에서 다음 표의 값을 입력하거나 복사하여 붙여넣습니다.
 
-    |**Record type(레코드 종류)** |**Host(호스트)**|**TXT VALUE(TXT 값)**|**TTL** |
+    |**Record type(레코드 종류)** |**Host(호스트)**|**TXT 값**|**TTL** |
     |:-----|:-----|:-----|:-----|
-    |TXT (텍스트)|@|MS=ms *XXXXXXXX*<br>**참고**:이는 예입니다. 여기에는 Office 365의 표에 있는 특정 **대상 또는 주소 가리키기** 값을 사용합니다. [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)|1시간  <br>(드롭다운 목록에서 값을 선택 합니다.)|
+    |TXT(텍스트)|@|MS=ms *XXXXXXXX*<br>**참고**:이는 예입니다. 여기에는 Office 365의 표에 있는 특정 **보낼 대상 또는 지점** 값을 사용합니다. [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)|1시간  <br>(드롭다운 목록에서 값을 선택 합니다.)|
 
-      ![GoDaddy-1-0](../media/dns/56526870-d6465780-651a-11e9-9cf0-d6fff71e2f62.png)
+      ![GoDaddy-1-0](../../media/dns/56526870-d6465780-651a-11e9-9cf0-d6fff71e2f62.png)
 
 5. **저장**을 선택합니다.
 
 6. 방금 만든 레코드가 인터넷에서 업데이트될 수 있도록 몇 분 정도 기다립니다.
 
-Now that you've added the record at your domain registrar's site, you'll go back to Office 365 and request Office 365 to look for the record.
+이제 도메인 등록 기관에 레코드가 추가되었습니다. Office 365로 돌아가서 Office 365에 레코드를 찾을 것을 요청합니다.
 
-When Office 365 finds the correct TXT record, your domain is verified.
+Office 365에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것입니다.
   
-1. 관리 센터에서 **설정** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">도메인</a> 페이지로 이동 합니다.
+1. I관리 센터에서 ** 설정 ** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank"> 도메인 </a> 페이지로 이동하십시오.
 
     
-2. **도메인** 페이지에서 확인 하려는 도메인을 선택 합니다. 
+2. **도메인** 페이지에서 확인 중인 도메인을 선택합니다. 
     
     
   
-3. **설정** 페이지에서 **설정 시작**을 선택 합니다.
+3. **설정** 페이지에서 **설정 시작**을 선택합니다.
 
 
 
-4. **도메인 확인** 페이지에서 **확인**을 선택 합니다.
+4. **도메인 확인** 페이지에서 **확인**을 선택합니다.
 
 
 
@@ -104,27 +104,27 @@ When Office 365 finds the correct TXT record, your domain is verified.
 
 1. 시작하려면 [이 링크](https://account.godaddy.com/products/?go_redirect=disabled)를 사용하여 GoDaddy의 도메인 페이지로 이동합니다. 로그인하라는 메시지가 표시됩니다.
 
-    ![GoDaddy-BP-구성-1-1](../media/d6833ec7-9904-43fd-a877-7c663e5f5c25.png)
+    ![GoDaddy-BP-구성-1-1](../../media/d6833ec7-9904-43fd-a877-7c663e5f5c25.png)
 
 2. **도메인**아래에서 편집 하려는 도메인의 DNS를 선택 합니다.
 
-    ![GoDaddy-BP-구성-1-2](../media/dns/56528038-94b6ac00-651c-11e9-8874-12db60cc7ea6.png)
+    ![GoDaddy-BP-구성-1-2](../../media/dns/56528038-94b6ac00-651c-11e9-8874-12db60cc7ea6.png)
 
 3. **추가**를 선택합니다.
 
-    ![GoDaddy-BP-구성-1-4](../media/dns/56527673-ffb3b300-651b-11e9-91c2-83dc9fe5ca30.png)
+    ![GoDaddy-BP-구성-1-4](../../media/dns/56527673-ffb3b300-651b-11e9-91c2-83dc9fe5ca30.png)
 
 4. 드롭다운 목록에서 **MX(메일 교환기)** 를 선택합니다.
 
-    ![GoDaddy-BP-구성-2-0](../media/dns/56528642-85842e00-651d-11e9-8dd8-217f468f9a18.png)
+    ![GoDaddy-BP-구성-2-0](../../media/dns/56528642-85842e00-651d-11e9-8dd8-217f468f9a18.png)
 
 5. 새 레코드의 상자에 다음 표의 값을 입력하거나 복사하여 붙여넣습니다.
 
     (드롭다운 목록에서 **TTL** 값을 선택 합니다.)
 
-    |**Record type(레코드 종류)**|**호스트**|**연결 대상**|**우선 순위**|**TTL**|
+    |**Record type(레코드 종류)**|**호스트**|**Points to(연결 대상)**|**Priority(우선 순위)**|**TTL**|
     |:-----|:-----|:-----|:-----|:-----|
-    |MX (Mail Exchanger)(MX(메일 교환기))  <br/> |@  <br/> | *\<domain-key\>*  .mail.protection.outlook.com  <br/> **참고:** Office 365 계정에서 * \<도메인\> 키* 를 가져옵니다.           [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)          |10   <br/> 우선 순위에 대한 자세한 내용은 [MX 우선 순위란?](https://support.office.com/article/2784cc4d-95be-443d-b5f7-bb5dd867ba83.aspx)을 참조하세요. <br/> |1 hour  <br/> |
+    |MX (Mail Exchanger)(MX(메일 교환기))  <br/> |@  <br/> | *\<domain-key\>*  .mail.protection.outlook.com  <br/> **참고:** Office 365 계정에서 * \<도메인\> 키* 를 가져옵니다.           [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)          |10   <br/> 우선 순위에 대한 자세한 내용은 [MX 우선 순위란?](https://support.office.com/article/2784cc4d-95be-443d-b5f7-bb5dd867ba83.aspx)을 참조하세요. <br/> |1시간  <br/> |
 
 6. **저장**을 선택합니다.
 
@@ -135,34 +135,34 @@ When Office 365 finds the correct TXT record, your domain is verified.
 
 1. 시작하려면 [이 링크](https://account.godaddy.com/products/?go_redirect=disabled)를 사용하여 GoDaddy의 도메인 페이지로 이동합니다. 로그인하라는 메시지가 표시됩니다.
 
-    ![GoDaddy-BP-구성-1-1](../media/d6833ec7-9904-43fd-a877-7c663e5f5c25.png)
+    ![GoDaddy-BP-구성-1-1](../../media/d6833ec7-9904-43fd-a877-7c663e5f5c25.png)
 
 2. **도메인**아래에서 편집 하려는 도메인의 DNS를 선택 합니다.
 
-    ![GoDaddy-BP-구성-1-2](../media/dns/56528038-94b6ac00-651c-11e9-8874-12db60cc7ea6.png)
+    ![GoDaddy-BP-구성-1-2](../../media/dns/56528038-94b6ac00-651c-11e9-8874-12db60cc7ea6.png)
 
 3. **추가**를 선택합니다.
 
-    ![GoDaddy-BP-구성-1-4](../media/dns/56527673-ffb3b300-651b-11e9-91c2-83dc9fe5ca30.png)
+    ![GoDaddy-BP-구성-1-4](../../media/dns/56527673-ffb3b300-651b-11e9-91c2-83dc9fe5ca30.png)
 
 
 4. 드롭다운 목록에서 **CNAME(별칭)** 을 선택합니다.
 
-    ![GoDaddy-BP-구성-3-0](../media/dns/56528891-e7449800-651d-11e9-8eac-112285b8e38c.png)
+    ![GoDaddy-BP-구성-3-0](../../media/dns/56528891-e7449800-651d-11e9-8eac-112285b8e38c.png)
 
 5. 첫 번째 CNAME 레코드를 만듭니다.
 
-    새 레코드의 상자에서 다음 표에 있는 첫 번째 행의 값을 입력하거나 복사하여 붙여넣습니다.
+    새 레코드의 상자에서 다음 표에 있는 첫 번째 행의 값을 입력하거나 복사하여 붙여넣습니다. 
 
     (드롭다운 목록에서 **TTL** 값을 선택 합니다.)
 
-    |**Record type(레코드 종류)**|**호스트**|**연결 대상**|**TTL**|
+    |**Record type(레코드 종류)**|**호스트**|**Points to(연결 대상)**|**TTL**|
     |:-----|:-----|:-----|:-----|
-    |CNAME (Alias)  <br/> |autodiscover  <br/> |autodiscover.outlook.com  <br/> |1 hour  <br/> |
+    |CNAME (Alias)  <br/> |autodiscover  <br/> |autodiscover.outlook.com  <br/> |1시간  <br/> |
     |CNAME (Alias)(CNAME(별칭))  <br/> |sip  <br/> |sipdir.online.lync.com  <br/> |1시간  <br/> |
     |CNAME (Alias)(CNAME(별칭))  <br/> |lyncdiscover  <br/> |webdir.online.lync.com  <br/> |1시간  <br/> |
     |CNAME (Alias)(CNAME(별칭))  <br/> |enterpriseregistration  <br/> |enterpriseregistration.windows.net  <br/> |1시간  <br/> |
-    |CNAME (Alias)(CNAME(별칭))  <br/> |enterpriseenrollment  <br/> |enterpriseenrollment.manage.microsoft.com  <br/> |1 hour  <br/> |
+    |CNAME (Alias)(CNAME(별칭))  <br/> |enterpriseenrollment  <br/> |enterpriseenrollment.manage.microsoft.com  <br/> |1시간  <br/> |
 
 
 
@@ -172,35 +172,35 @@ When Office 365 finds the correct TXT record, your domain is verified.
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
-> You cannot have more than one TXT record for SPF for a domain. If your domain has more than one SPF record, you'll get email errors, as well as delivery and spam classification issues. If you already have an SPF record for your domain, don't create a new one for Office 365. Instead, add the required Office 365 values to the current record so that you have a  *single*  SPF record that includes both sets of values.
+> 도메인 한 개의 SPF에 둘 이상의 TXT 레코드가 있을 수 없습니다. 도메인에 둘 이상의 SPF 레코드가 있는 경우 전자 메일 오류를 비롯하여 배달 및 스팸 분류 문제가 발생할 수 있습니다. If you already have an SPF record for your domain, don't create a new one for Office 365. Instead, add the required Office 365 values to the current record so that you have a  *single*  SPF record that includes both sets of values.
 
 아래 단계를 따릅니다.
 
 1. 시작하려면 [이 링크](https://account.godaddy.com/products/?go_redirect=disabled)를 사용하여 GoDaddy의 도메인 페이지로 이동합니다. 로그인하라는 메시지가 표시됩니다.
 
-    ![GoDaddy-BP-구성-1-1](../media/d6833ec7-9904-43fd-a877-7c663e5f5c25.png)
+    ![GoDaddy-BP-구성-1-1](../../media/d6833ec7-9904-43fd-a877-7c663e5f5c25.png)
 
 2. **도메인**아래에서 편집 하려는 도메인의 DNS를 선택 합니다.
 
-    ![GoDaddy-BP-구성-1-2](../media/dns/56528038-94b6ac00-651c-11e9-8874-12db60cc7ea6.png)
+    ![GoDaddy-BP-구성-1-2](../../media/dns/56528038-94b6ac00-651c-11e9-8874-12db60cc7ea6.png)
 
 3. **추가**를 선택합니다.
 
-    ![GoDaddy-BP-구성-1-4](../media/dns/56527673-ffb3b300-651b-11e9-91c2-83dc9fe5ca30.png)
+    ![GoDaddy-BP-구성-1-4](../../media/dns/56527673-ffb3b300-651b-11e9-91c2-83dc9fe5ca30.png)
 
 4. 드롭다운 목록에서 **TXT(텍스트)** 를 선택합니다.
 
-    ![GoDaddy-BP-구성-4-0](../media/dns/56529449-c0d32c80-651e-11e9-90e9-895aa1c4bbf1.png)
+    ![GoDaddy-BP-구성-4-0](../../media/dns/56529449-c0d32c80-651e-11e9-90e9-895aa1c4bbf1.png)
 
 5. 새 레코드의 상자에서 다음 값을 입력하거나 복사하여 붙여넣습니다.
 
     (드롭다운 목록에서 **TTL** 값을 선택 합니다.)
 
-    |**Record type(레코드 종류)**|**Host(호스트)**|**TXT VALUE(TXT 값)**|**TTL**|
+    |**Record type(레코드 종류)**|**Host(호스트)**|**TXT 값**|**TTL**|
     |:-----|:-----|:-----|:-----|
-    |TXT (텍스트)  <br/> |@  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **참고:** 모든 공백이 올바르게 유지 되도록이 항목을 복사 하 여 붙여 넣는 것이 좋습니다.           |1 hour  <br/> |
+    |TXT(텍스트)  <br/> |@  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **참고: ** 모든 간격이 올바르게 유지되도록 이 항목을 복사하여 붙여넣는 것이 좋습니다.           |1시간  <br/> |
 
-    ![GoDaddy-BP-구성-4-1](../media/7c724f02-c9b3-42ab-b9c0-78959fa6ffad.png)
+    ![GoDaddy-BP-구성-4-1](../../media/7c724f02-c9b3-42ab-b9c0-78959fa6ffad.png)
 
 6. **저장**을 선택합니다.
 
@@ -212,19 +212,19 @@ When Office 365 finds the correct TXT record, your domain is verified.
 
 1. 시작하려면 [이 링크](https://account.godaddy.com/products/?go_redirect=disabled)를 사용하여 GoDaddy의 도메인 페이지로 이동합니다. 로그인하라는 메시지가 표시됩니다.
 
-    ![GoDaddy-BP-구성-1-1](../media/d6833ec7-9904-43fd-a877-7c663e5f5c25.png)
+    ![GoDaddy-BP-구성-1-1](../../media/d6833ec7-9904-43fd-a877-7c663e5f5c25.png)
 
 2. **도메인**아래에서 편집 하려는 도메인의 DNS를 선택 합니다.
 
-    ![GoDaddy-BP-구성-1-2](../media/dns/56528038-94b6ac00-651c-11e9-8874-12db60cc7ea6.png)
+    ![GoDaddy-BP-구성-1-2](../../media/dns/56528038-94b6ac00-651c-11e9-8874-12db60cc7ea6.png)
 
 3. **추가**를 선택합니다.
 
-    ![GoDaddy-BP-구성-1-4](../media/dns/56527673-ffb3b300-651b-11e9-91c2-83dc9fe5ca30.png)
+    ![GoDaddy-BP-구성-1-4](../../media/dns/56527673-ffb3b300-651b-11e9-91c2-83dc9fe5ca30.png)
 
 4. 드롭다운 목록에서 **SRV(서비스)** 를 선택합니다.
 
-    ![GoDaddy-BP-구성-5-0](../media/dns/56529669-1dcee280-651f-11e9-8ba2-ecf4fc2f6dca.png)
+    ![GoDaddy-BP-구성-5-0](../../media/dns/56529669-1dcee280-651f-11e9-8ba2-ecf4fc2f6dca.png)
 
 5. 첫 번째 SRV 레코드를 생성합니다.
 
@@ -232,12 +232,12 @@ When Office 365 finds the correct TXT record, your domain is verified.
 
     (드롭다운 목록에서 **레코드 종류** 및 **TTL** 값을 선택 합니다.)
 
-    |**Record type(레코드 종류)**|**이름**|**대상**|**프로토콜**|**서비스**|**우선 순위**|**가중치**|**포트**|**TTL**|
+    |**Record type(레코드 종류)**|**Name(이름)**|**Target(대상)**|**Protocol(프로토콜)**|**Service(서비스)**|**Priority(우선 순위)**|**Weight(가중치)**|**Port(포트)**|**TTL**|
     |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
     |SRV (Service)(SRV(서비스))  <br/> |@  <br/> |sipdir.online.lync.com  <br/> |_tls  <br/> |_sip  <br/> |100  <br/> |개  <br/> |443  <br/> |1시간  <br/> |
     |SRV (Service)(SRV(서비스))  <br/> |@  <br/> |sipfed.online.lync.com  <br/> |_tcp  <br/> |_sipfederationtls  <br/> |100  <br/> |개  <br/> |5061  <br/> |1시간  <br/> |
 
-    ![GoDaddy-BP-구성-5-1](../media/a1b15ab1-eb6a-4672-90d1-7ac3e0beb223.png)
+    ![GoDaddy-BP-구성-5-1](../../media/a1b15ab1-eb6a-4672-90d1-7ac3e0beb223.png)
 
 
 6. **5 단계** 를 반복 하 여 다른 SRV 레코드를 만듭니다.

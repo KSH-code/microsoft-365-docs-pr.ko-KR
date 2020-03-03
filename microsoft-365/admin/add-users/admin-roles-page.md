@@ -18,18 +18,18 @@ search.appverid:
 - MET150
 - MOE150
 description: 관리자 역할은 비즈니스 기능에 매핑되며 관리 센터에서 특정 작업을 수행할 수 있는 권한을 부여합니다. 예를 들어 서비스 관리자는 Microsoft로 지원 티켓을 엽니다.
-ms.openlocfilehash: 40660f8f04c51c61aeec2144f4e7f3da8fa39fd9
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 749e0532cf379d1fcff0580c9d5ede7910cfa38b
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42245773"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42353269"
 ---
 # <a name="get-started-with-the-roles-page"></a>역할 페이지 시작
 
 역할 페이지에서는 관리자 센터에서 작업을 수행할 수 있는 권한을 사용자에 게 부여할 수 있습니다. 이렇게 하면 조직에서 작업을 적절 한 사람에 게 분배 하 고 데이터를 안전 하 게 유지할 수 있습니다.
 
-:::image type="content" source="../media/roles-main-page.png" alt-text="관리자 역할을 보여 주는 그림":::
+:::image type="content" source="../../media/roles-main-page.png" alt-text="관리자 역할을 보여 주는 그림":::
 
 > [!TIP]
 > 자세한 역할 설명을 찾고 계신가요? [Azure Active Directory에서 관리자 역할 권한을](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles#available-roles) 확인 하 고 [관리 역할에 대해](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles)알아봅니다.
@@ -38,7 +38,7 @@ ms.locfileid: "42245773"
 
 관리자 목록 및 검색 및 역할별 필터링을 내보낼 수 있습니다.
 
-:::image type="content" source="../media/admin-role-page-options.png" alt-text="관리자 역할 필터링 또는 가져오기":::
+:::image type="content" source="../../media/admin-role-page-options.png" alt-text="관리자 역할 필터링 또는 가져오기":::
 
 |||
 |:-----|:-----|
@@ -95,6 +95,6 @@ Skype 관리 센터 & 팀에 액세스 하 고 관리 하려는 사용자에 게
 
 - 역할을 최고 3 개 선택 하 고 역할 **비교** 를 선택 하 여 각 역할이 가진 사용 권한을 확인 합니다.
 
-:::image type="content" source="../media/compare-roles-list.png" alt-text="관리자 역할 비교를 보여 주는 그림":::
+:::image type="content" source="../../media/compare-roles-list.png" alt-text="관리자 역할 비교를 보여 주는 그림":::
 
 ::: moniker-end

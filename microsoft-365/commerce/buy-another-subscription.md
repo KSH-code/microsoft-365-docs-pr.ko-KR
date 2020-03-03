@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: fab3b86c-3359-4042-8692-5d4dc7550b7c
 description: '이미 구독이 있는 경우 조직의 다른 Office 365 for business 구독을 구입 하는 방법을 알아봅니다. '
 ms.custom: okr_SMB
-ms.openlocfilehash: 5f134d69c83e3c3fbb62dbb794e40e22d544ad1f
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 1a322be8ee76e37259d4a2cddf9ed2d75c379576
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42246408"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42354649"
 ---
 # <a name="buy-another-office-365-for-business-subscription"></a>비즈니스용 Office 365 구독 구입
 
@@ -66,11 +66,11 @@ ms.locfileid: "42246408"
 
     조직에서 사용할 수 있는 구독이 표시 됩니다. 이미 구매한 구독은 다음과 같이 식별 됩니다.
 
-    ![이 조직에서 구독을 이미 구매한 것을 보여 주는 배너입니다.](../admin/media/9e18d31a-24a5-4c64-a71c-fafd4a4feb28.png)
+    ![이 조직에서 구독을 이미 구매한 것을 보여 주는 배너입니다.](../media/9e18d31a-24a5-4c64-a71c-fafd4a4feb28.png)
   
 3. 구입 하려는 구독을 마우스로 가리키거나 탭 한 다음 **지금 구입**을 선택 합니다.
 
-    ![Microsoft 365 관리 센터의 서비스 구매 페이지에서 지금 구입 링크를 누르십시오.](../admin/media/f344c0a8-c58f-461d-b8e9-cddbb18f8ee8.png)
+    ![Microsoft 365 관리 센터의 서비스 구매 페이지에서 지금 구입 링크를 누르십시오.](../media/f344c0a8-c58f-461d-b8e9-cddbb18f8ee8.png)
   
 4. 필요한 사용자 라이선스 수를 입력 하 고 매달 지불할 지를 선택한 다음 **카트에 추가**를 선택 합니다.
 
@@ -92,11 +92,11 @@ ms.locfileid: "42246408"
 
     조직에서 사용할 수 있는 구독이 표시 됩니다. 이미 구매한 구독은 다음과 같이 식별 됩니다.
 
-    ![이 조직에서 구독을 이미 구매한 것을 보여 주는 배너입니다.](../admin/media/9e18d31a-24a5-4c64-a71c-fafd4a4feb28.png)
+    ![이 조직에서 구독을 이미 구매한 것을 보여 주는 배너입니다.](../media/9e18d31a-24a5-4c64-a71c-fafd4a4feb28.png)
   
 3. 구입 하려는 구독을 마우스로 가리키거나 탭 한 다음 **지금 구입**을 선택 합니다.
 
-    ![Microsoft 365 관리 센터의 서비스 구매 페이지에서 지금 구입 링크를 누르십시오.](../admin/media/f344c0a8-c58f-461d-b8e9-cddbb18f8ee8.png)
+    ![Microsoft 365 관리 센터의 서비스 구매 페이지에서 지금 구입 링크를 누르십시오.](../media/f344c0a8-c58f-461d-b8e9-cddbb18f8ee8.png)
   
 4. 필요한 사용자 라이선스 수를 입력 하 고 매달 지불할 지를 선택한 다음 **카트에 추가**를 선택 합니다.
 

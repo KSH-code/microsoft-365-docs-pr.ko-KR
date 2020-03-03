@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 ms.assetid: 77ff780d-ab19-4553-adea-09cb65ad0f1f
 description: 조직이 Microsoft 365 서비스를 채택 하 여 통신 및 공동 작업 하는 방법에 대 한 개요를 확인 하세요.
-ms.openlocfilehash: ce55d8374c4fd927914ae3fb63edbdf1f7df4089
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 8770d3f49c50ffcab46c1aba302320a49cff8312
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42255902"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42355279"
 ---
 # <a name="microsoft-365-usage-analytics"></a>Microsoft 365 사용 현황 분석
 ---
@@ -49,7 +49,7 @@ Microsoft 365 사용 현황 분석에는 다음 섹션에서 설명 하는 여�
 
 이 요약을 통해 Office의 사용 패턴 및 직원과 공동 작업을 진행 하는 방법과 위치를 신속 하 게 파악할 수 있습니다.
 
-![Microsoft 365 usage executive 요약의 이미지입니다.](../media/office365usage-exec-summary.png)
+![Microsoft 365 usage executive 요약의 이미지입니다.](../../media/office365usage-exec-summary.png)
 
 ## <a name="overview"></a>개요
 

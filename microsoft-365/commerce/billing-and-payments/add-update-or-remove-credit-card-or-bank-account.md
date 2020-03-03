@@ -24,12 +24,12 @@ search.appverid:
 - BEA160
 ms.assetid: 30ba9c83-50d8-4020-90ed-830a5b8c8724
 description: Microsoft 365 관리 센터에서 결제 방법을 관리 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 56ffbcc638ecfe304ff71273ec2ce00abd05ddca
-ms.sourcegitcommit: cf07dfccec476ac2526a6171ec6b6365686f759f
+ms.openlocfilehash: 894b1cbf9033521c6978f54d0483fe61c3d6114d
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/29/2020
-ms.locfileid: "42341231"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42354939"
 ---
 # <a name="add-update-or-remove-your-payment-methods"></a>결제 방법 추가, 업데이트 또는 제거
 
@@ -172,11 +172,11 @@ ms.locfileid: "42341231"
 
 2. 새 신용 카드 또는 은행 계좌에 대해 지불 하려는 구독을 선택 하 고 **결제 정보 업데이트**를 선택 합니다.
 
-    ![결제 정보 업데이트 링크를 보여 주는 구독 페이지의 결제 방법 섹션입니다.](../../admin/media/03839d72-773c-4030-88d0-484d1efe49c5.png)
+    ![결제 정보 업데이트 링크를 보여 주는 구독 페이지의 결제 방법 섹션입니다.](../../media/03839d72-773c-4030-88d0-484d1efe49c5.png)
   
 3. **결제 방법 추가 또는 선택**아래의 드롭다운 화살표를 선택 하 고 **새 신용 카드** 또는 **새 은행**계좌를 선택 합니다.
 
-    ![새 신용 카드와 새 은행 계좌 옵션을 표시 하는 드롭다운 메뉴입니다.](../../admin/media/2de0566c-e527-4ae7-ad6a-8b461c1e5322.png)
+    ![새 신용 카드와 새 은행 계좌 옵션을 표시 하는 드롭다운 메뉴입니다.](../../media/2de0566c-e527-4ae7-ad6a-8b461c1e5322.png)
   
 4. 새 신용 카드 또는 은행 계좌에 대 한 정보를 입력 한 다음 **제출을**선택 합니다.
 
@@ -203,11 +203,11 @@ ms.locfileid: "42341231"
 
 2. 새 신용 카드 또는 은행 계좌에 대해 지불 하려는 구독을 선택 하 고 **결제 정보 업데이트**를 선택 합니다.
 
-    ![결제 정보 업데이트 링크를 보여 주는 구독 페이지의 결제 방법 섹션입니다.](../../admin/media/03839d72-773c-4030-88d0-484d1efe49c5.png)
+    ![결제 정보 업데이트 링크를 보여 주는 구독 페이지의 결제 방법 섹션입니다.](../../media/03839d72-773c-4030-88d0-484d1efe49c5.png)
   
 3. **결제 방법 추가 또는 선택**아래의 드롭다운 화살표를 선택 하 고 **새 신용 카드** 또는 **새 은행**계좌를 선택 합니다.
 
-    ![새 신용 카드와 새 은행 계좌 옵션을 표시 하는 드롭다운 메뉴입니다.](../../admin/media/2de0566c-e527-4ae7-ad6a-8b461c1e5322.png)
+    ![새 신용 카드와 새 은행 계좌 옵션을 표시 하는 드롭다운 메뉴입니다.](../../media/2de0566c-e527-4ae7-ad6a-8b461c1e5322.png)
   
 4. 새 신용 카드 또는 은행 계좌에 대 한 정보를 입력 한 다음 **제출을**선택 합니다.
 
@@ -230,17 +230,17 @@ ms.locfileid: "42341231"
     > [!NOTE]
     > 다른 관리자가 구독을 구매한 경우 해당 구독의 신용 카드 또는 은행 계좌 정보를 업데이트할 수 없습니다. 신용 카드가 만료 되 고 다른 관리자가이를 업데이트할 수 없는 경우 구독에 대해 다른 신용 카드 또는 새 은행 계좌를 추가 하는 경우 서비스 중단을 방지할 수 있습니다.
   
-    ![결제 정보 업데이트 링크를 보여 주는 구독 페이지의 결제 방법 섹션입니다.](../../admin/media/03839d72-773c-4030-88d0-484d1efe49c5.png)
+    ![결제 정보 업데이트 링크를 보여 주는 구독 페이지의 결제 방법 섹션입니다.](../../media/03839d72-773c-4030-88d0-484d1efe49c5.png)
   
 3. **결제 방법 추가 또는 선택**아래의 드롭다운 화살표를 선택 합니다. 업데이트할 신용 카드 또는 은행 계좌를 선택한 다음 **세부 정보 편집**을 선택 합니다.
 
-    ![The Update payment details pane when a subscription is paid for by credit card or bank account.](../../admin/media/fa9b3a8f-9a80-4887-88e6-d19e6afd1b3d.png)
+    ![The Update payment details pane when a subscription is paid for by credit card or bank account.](../../media/fa9b3a8f-9a80-4887-88e6-d19e6afd1b3d.png)
   
 4. 신용 카드 또는 은행 계좌 정보 (신용 카드 또는 은행 계좌에 있는 이름, 청구지 주소)를 업데이트 합니다. 필요한 경우 전화 번호 또는 만료 날짜)를 선택한 다음 **제출을**선택 합니다.
 
 5. 확인 메시지가 표시됩니다. 메시지가 나타나지 않으면 [신용 카드 및 은행 계좌 문제 해결](#troubleshooting-credit-cards-and-bank-accounts)을 참조하세요.
 
-    !["결제 방법이 성공적으로 업데이트 되었습니다." 라는 확인 메시지가 나타납니다.](../../admin/media/23b4aa8e-f5d5-4535-92a2-9111a270f097.png)
+    !["결제 방법이 성공적으로 업데이트 되었습니다." 라는 확인 메시지가 나타납니다.](../../media/23b4aa8e-f5d5-4535-92a2-9111a270f097.png)
 
 ::: moniker-end
 
@@ -258,17 +258,17 @@ ms.locfileid: "42341231"
     > [!NOTE]
     > 다른 관리자가 구독을 구매한 경우 해당 구독의 신용 카드 또는 은행 계좌 정보를 업데이트할 수 없습니다. 신용 카드가 만료 되 고 다른 관리자가이를 업데이트할 수 없는 경우 구독에 대해 다른 신용 카드 또는 새 은행 계좌를 추가 하는 경우 서비스 중단을 방지할 수 있습니다.
   
-    ![결제 정보 업데이트 링크를 보여 주는 구독 페이지의 결제 방법 섹션입니다.](../../admin/media/03839d72-773c-4030-88d0-484d1efe49c5.png)
+    ![결제 정보 업데이트 링크를 보여 주는 구독 페이지의 결제 방법 섹션입니다.](../../media/03839d72-773c-4030-88d0-484d1efe49c5.png)
   
 3. **결제 방법 추가 또는 선택**아래의 드롭다운 화살표를 선택 합니다. 업데이트할 신용 카드 또는 은행 계좌를 선택한 다음 **세부 정보 편집**을 선택 합니다.
 
-    ![The Update payment details pane when a subscription is paid for by credit card or bank account.](../../admin/media/fa9b3a8f-9a80-4887-88e6-d19e6afd1b3d.png)
+    ![The Update payment details pane when a subscription is paid for by credit card or bank account.](../../media/fa9b3a8f-9a80-4887-88e6-d19e6afd1b3d.png)
   
 4. 신용 카드 또는 은행 계좌 정보 (신용 카드 또는 은행 계좌에 있는 이름, 청구지 주소)를 업데이트 합니다. 필요한 경우 전화 번호 또는 만료 날짜)를 선택한 다음 **제출을**선택 합니다.
 
 5. 확인 메시지가 표시됩니다. 메시지가 나타나지 않으면 [신용 카드 및 은행 계좌 문제 해결](#troubleshooting-credit-cards-and-bank-accounts)을 참조하세요.
 
-    !["결제 방법이 성공적으로 업데이트 되었습니다." 라는 확인 메시지가 나타납니다.](../../admin/media/23b4aa8e-f5d5-4535-92a2-9111a270f097.png)
+    !["결제 방법이 성공적으로 업데이트 되었습니다." 라는 확인 메시지가 나타납니다.](../../media/23b4aa8e-f5d5-4535-92a2-9111a270f097.png)
 
 ::: moniker-end
 
@@ -279,20 +279,20 @@ ms.locfileid: "42341231"
 
 2. 구독을 선택 하 고 **결제 정보 업데이트**를 선택 합니다.
 
-    ![결제 정보 업데이트 링크를 보여 주는 구독 페이지의 결제 방법 섹션입니다.](../../admin/media/03839d72-773c-4030-88d0-484d1efe49c5.png)
+    ![결제 정보 업데이트 링크를 보여 주는 구독 페이지의 결제 방법 섹션입니다.](../../media/03839d72-773c-4030-88d0-484d1efe49c5.png)
   
 3. **결제 방법 추가 또는 선택**아래의 드롭다운 화살표를 선택 합니다.
 
 4. 신용 카드 또는 은행 계좌를 선택한 다음 **제거**를 선택 합니다.
 
-    ![The Update payment details pane when a subscription is paid for by credit card or bank account.](../../admin/media/fa9b3a8f-9a80-4887-88e6-d19e6afd1b3d.png)
+    ![The Update payment details pane when a subscription is paid for by credit card or bank account.](../../media/fa9b3a8f-9a80-4887-88e6-d19e6afd1b3d.png)
   
 5. **제거** 를 다시 선택 하 여 신용 카드 또는 은행 계좌를 삭제 합니다.
 
-    ![제거 및 취소 단추](../../admin/media/22135f0d-c758-4564-a3b2-9c9050f7601b.png)
+    ![제거 및 취소 단추](../../media/22135f0d-c758-4564-a3b2-9c9050f7601b.png)
   
     > [!NOTE]
-    > 신용 카드 또는 은행 계좌를 현재 구독 요금을 지불 하는 데 사용 하는 경우에는 제거할 수 없습니다. 이 경우 다음과 같은 메시지가 표시 됩니다. 현재 활성 구독 ![을 지불 하는 데 사용 되는 결제 방법을 제거 하려고 하면 표시 되는 오류 메시지입니다.](../../admin/media/29319a8b-af0b-4487-853b-6f47d6fe4a28.png) <br/>
+    > 신용 카드 또는 은행 계좌를 현재 구독 요금을 지불 하는 데 사용 하는 경우에는 제거할 수 없습니다. 이 경우 다음과 같은 메시지가 표시 됩니다. 현재 활성 구독 ![을 지불 하는 데 사용 되는 결제 방법을 제거 하려고 하면 표시 되는 오류 메시지입니다.](../../media/29319a8b-af0b-4487-853b-6f47d6fe4a28.png) <br/>
     > 신용 카드 또는 은행 계좌를 제거 하려면 **뒤로** 를 선택 하 고이 문서의 단계에 따라 구독 요금을 지불 하는 데 사용 하는 신용 카드 또는 은행 계좌를 변경 합니다. 그런 다음 다시 신용 카드 또는 은행 계좌를 제거해 봅니다.
 
 ::: moniker-end
@@ -304,20 +304,20 @@ ms.locfileid: "42341231"
 
 2. 구독을 선택 하 고 **결제 정보 업데이트**를 선택 합니다.
 
-    ![결제 정보 업데이트 링크를 보여 주는 구독 페이지의 결제 방법 섹션입니다.](../../admin/media/03839d72-773c-4030-88d0-484d1efe49c5.png)
+    ![결제 정보 업데이트 링크를 보여 주는 구독 페이지의 결제 방법 섹션입니다.](../../media/03839d72-773c-4030-88d0-484d1efe49c5.png)
   
 3. **결제 방법 추가 또는 선택**아래의 드롭다운 화살표를 선택 합니다.
 
 4. 신용 카드 또는 은행 계좌를 선택한 다음 **제거**를 선택 합니다.
 
-    ![The Update payment details pane when a subscription is paid for by credit card or bank account.](../../admin/media/fa9b3a8f-9a80-4887-88e6-d19e6afd1b3d.png)
+    ![The Update payment details pane when a subscription is paid for by credit card or bank account.](../../media/fa9b3a8f-9a80-4887-88e6-d19e6afd1b3d.png)
 
 5. **제거** 를 다시 선택 하 여 신용 카드 또는 은행 계좌를 삭제 합니다.
 
-    ![제거 및 취소 단추](../../admin/media/22135f0d-c758-4564-a3b2-9c9050f7601b.png)
+    ![제거 및 취소 단추](../../media/22135f0d-c758-4564-a3b2-9c9050f7601b.png)
   
     > [!NOTE]
-    > 신용 카드 또는 은행 계좌를 현재 구독 요금을 지불 하는 데 사용 하는 경우에는 제거할 수 없습니다. 이 경우 다음과 같은 메시지가 표시 됩니다. 현재 활성 구독 ![을 지불 하는 데 사용 되는 결제 방법을 제거 하려고 하면 표시 되는 오류 메시지입니다.](../../admin/media/29319a8b-af0b-4487-853b-6f47d6fe4a28.png) <br/>
+    > 신용 카드 또는 은행 계좌를 현재 구독 요금을 지불 하는 데 사용 하는 경우에는 제거할 수 없습니다. 이 경우 다음과 같은 메시지가 표시 됩니다. 현재 활성 구독 ![을 지불 하는 데 사용 되는 결제 방법을 제거 하려고 하면 표시 되는 오류 메시지입니다.](../../media/29319a8b-af0b-4487-853b-6f47d6fe4a28.png) <br/>
     > 신용 카드 또는 은행 계좌를 제거 하려면 **뒤로** 를 선택 하 고이 문서의 단계에 따라 구독 요금을 지불 하는 데 사용 하는 신용 카드 또는 은행 계좌를 변경 합니다. 그런 다음 다시 신용 카드 또는 은행 계좌를 제거해 봅니다.
 
 ::: moniker-end
@@ -329,11 +329,11 @@ ms.locfileid: "42341231"
 
 2. 새 신용 카드 또는 은행 계좌에 대해 지불 하려는 구독을 선택 하 고 **결제 정보 업데이트**를 선택 합니다.
 
-    ![결제 정보 업데이트 링크를 보여 주는 구독 페이지의 결제 방법 섹션입니다.](../../admin/media/03839d72-773c-4030-88d0-484d1efe49c5.png)
+    ![결제 정보 업데이트 링크를 보여 주는 구독 페이지의 결제 방법 섹션입니다.](../../media/03839d72-773c-4030-88d0-484d1efe49c5.png)
   
 3. **결제 방법 추가 또는 선택** 아래의 드롭다운 화살표를 선택 하 고 사용 하려는 신용 카드 또는 은행 계좌를 선택 합니다.
 
-    ![The Update payment details pane when a subscription is paid for by credit card or bank account.](../../admin/media/fa9b3a8f-9a80-4887-88e6-d19e6afd1b3d.png)
+    ![The Update payment details pane when a subscription is paid for by credit card or bank account.](../../media/fa9b3a8f-9a80-4887-88e6-d19e6afd1b3d.png)
   
 4. **제출을**선택 합니다. 사용 하려는 신용 카드 또는 은행 계좌에 아직 나열 되지 않은 경우 **새 신용 카드** 또는 **새 은행** 계좌를 선택 하 여 추가 합니다.
 
@@ -346,11 +346,11 @@ ms.locfileid: "42341231"
 
 2. 새 신용 카드 또는 은행 계좌에 대해 지불 하려는 구독을 선택 하 고 **결제 정보 업데이트**를 선택 합니다.
 
-    ![결제 정보 업데이트 링크를 보여 주는 구독 페이지의 결제 방법 섹션입니다.](../../admin/media/03839d72-773c-4030-88d0-484d1efe49c5.png)
+    ![결제 정보 업데이트 링크를 보여 주는 구독 페이지의 결제 방법 섹션입니다.](../../media/03839d72-773c-4030-88d0-484d1efe49c5.png)
   
 3. **결제 방법 추가 또는 선택** 아래의 드롭다운 화살표를 선택 하 고 사용 하려는 신용 카드 또는 은행 계좌를 선택 합니다.
 
-    ![The Update payment details pane when a subscription is paid for by credit card or bank account.](../../admin/media/fa9b3a8f-9a80-4887-88e6-d19e6afd1b3d.png)
+    ![The Update payment details pane when a subscription is paid for by credit card or bank account.](../../media/fa9b3a8f-9a80-4887-88e6-d19e6afd1b3d.png)
   
 4. **제출을**선택 합니다. 사용 하려는 신용 카드 또는 은행 계좌에 아직 나열 되지 않은 경우 **새 신용 카드** 또는 **새 은행** 계좌를 선택 하 여 추가 합니다.
 

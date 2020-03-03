@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9de497a9-2f5c-43d6-ae18-767f2e6fe6e0
 description: Office 365 그룹에 게스트를 추가 하 고, 게스트 사용자를 보고, PowerShell을 사용 하 여 게스트 액세스를 제어 하는 방법을 알아봅니다.
-ms.openlocfilehash: 98777792237a9143e89d8b4d20cd8a5ab3136789
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 02a951b1fbf43c22f12a89663a0aee279b191088
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42245430"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42352619"
 ---
 # <a name="manage-guest-access-in-office-365-groups"></a>Office 365 그룹에서 게스트 액세스 관리
 
@@ -109,7 +109,7 @@ Get-AzureADObjectSetting -TargetObjectId $groupID -TargetType Groups | fl Values
 
 확인은 다음과 같습니다.
     
-![게스트 그룹 액세스가 false로 설정 되었음을 보여 주는 PowerShell 창의 스크린샷](../media/09ebfb4f-859f-44c3-a29e-63a59fd6ef87.png)
+![게스트 그룹 액세스가 false로 설정 되었음을 보여 주는 PowerShell 창의 스크린샷](../../media/09ebfb4f-859f-44c3-a29e-63a59fd6ef87.png)
   
 ## <a name="allow-or-block-guest-access-based-on-their-domain"></a>도메인을 기반으로 게스트 액세스 허용 또는 차단
 

@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: f3bd3c62-0477-48e4-b2b5-21e329d67985
 description: Hostgator에서 사용자 지정 도메인의 DNS 레코드를 관리 하기 위해 Office 365을 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: f0d3b495285685c3f666560816f99b07a1a5f6d5
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 95131e258482fdb0ff9aa7f00b3339e1c6f9509d
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42246667"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42351849"
 ---
 # <a name="change-nameservers-to-set-up-office-365-with-hostgator"></a>Hostgator에서 이름 서버를 변경하여 Office 365 설정
 
@@ -43,27 +43,27 @@ Office 365에서 Office 365 DNS 레코드를 관리하도록 하려면 다음 �
   
 1. 시작하려면 [이 링크](https://portal.hostgator.com/domain/manage)를 사용하여 Hostgator의 고객 포털 페이지로 이동합니다. 로그인하라는 메시지가 표시됩니다.
     
-    ![Hostgator-BP-Redelegate-1-0](../media/6749ac23-4832-4daf-8f3b-bc3b9b1b979c.png)
+    ![Hostgator-BP-Redelegate-1-0](../../media/6749ac23-4832-4daf-8f3b-bc3b9b1b979c.png)
   
 2. **도메인** 탭을 선택 합니다.
     
-    ![Hostgator-BP-Redelegate-1-1](../media/56d12bfd-3549-4033-90dc-077c76ca798c.png)
+    ![Hostgator-BP-Redelegate-1-1](../../media/56d12bfd-3549-4033-90dc-077c76ca798c.png)
   
 3. **도메인 관리** 페이지의 **내 도메인** 영역에서 업데이트할 도메인을 선택 합니다.
     
-    ![Hostgator-BP-Redelegate-1-2](../media/2c2f8530-26a1-4e62-bb04-b3874bc1cf36.png)
+    ![Hostgator-BP-Redelegate-1-2](../../media/2c2f8530-26a1-4e62-bb04-b3874bc1cf36.png)
   
 4. **도메인 개요** 페이지의 **이름 서버** 영역에서 **변경을**선택 합니다.
     
-    ![Hostgator-BP-Redelegate-1-3](../media/c8979d8a-ee96-4064-a8df-c5b01054cb16.png)
+    ![Hostgator-BP-Redelegate-1-3](../../media/c8979d8a-ee96-4064-a8df-c5b01054cb16.png)
   
 5. 도메인의 **이름 서버** 페이지에 있는 **호스팅 계정 선택** 드롭다운 목록에서 도메인과 연결 된 **호스팅 계정을** 선택 합니다.
     
-    ![Hostgator-BP-Redelegate-1-4](../media/4cf61060-1e8a-4758-9892-32059ffc90c2.png)
+    ![Hostgator-BP-Redelegate-1-4](../../media/4cf61060-1e8a-4758-9892-32059ffc90c2.png)
   
 6. **이름 서버 저장**을 선택 합니다.
     
-    ![Hostgator-BP-Redelegate-1-9](../media/b52a825a-6d54-49ba-87c8-52f770fdfa0c.png)
+    ![Hostgator-BP-Redelegate-1-9](../../media/b52a825a-6d54-49ba-87c8-52f770fdfa0c.png)
   
 ## <a name="add-a-txt-record-for-verification"></a>확인을 위해 TXT 레코드 추가
 
@@ -93,27 +93,27 @@ Office 365에서 사용자 도메인을 사용하려면 먼저 도메인을 소�
 |||||
 |:-----|:-----|:-----|:-----|
 |**이름** <br/> |**TTL** <br/> |**종류** <br/> |**TXT 데이터** <br/> |
-|사용자의  *domain_name*  (예: fourthcoffee.com)을 사용합니다.<br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> |개  <br/> |TXT  <br/> |MS=ms *XXXXXXXX*  <br/> **참고:** 예를 들면 다음과 같습니다. 여기에는 Office 365의 표에 있는 특정 **대상 또는 주소 가리키기** 값을 사용합니다. [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)     <br/>  |
+|사용자의  *domain_name*  (예: fourthcoffee.com)을 사용합니다.<br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> |개  <br/> |TXT  <br/> |MS=ms *XXXXXXXX*  <br/> **참고:** 이 값은 예시입니다. 여기에는 Office 365의 표에 있는 특정 **보낼 대상 또는 지점** 값을 사용합니다. [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)     <br/>  |
    
 4. **레코드 추가**를 선택 합니다.
     
 5. 방금 만든 레코드가 인터넷에서 업데이트될 수 있도록 몇 분 정도 기다립니다.
     
-Now that you've added the record at your domain registrar's site, you'll go back to Office 365 and request Office 365 to look for the record.
+이제 도메인 등록 기관에 레코드가 추가되었습니다. Office 365로 돌아가서 Office 365에 레코드를 찾을 것을 요청합니다.
   
-When Office 365 finds the correct TXT record, your domain is verified.
+Office 365에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것입니다.
   
-1. 관리 센터에서 **설정** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">도메인</a> 페이지로 이동 합니다.
+1. I관리 센터에서 ** 설정 ** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank"> 도메인 </a> 페이지로 이동하십시오.
 
     
-2. **도메인** 페이지에서 확인 하려는 도메인을 선택 합니다. 
+2. **도메인** 페이지에서 확인 중인 도메인을 선택합니다. 
     
-3. **설정** 페이지에서 **설정 시작**을 선택 합니다.
+3. **설정** 페이지에서 **설정 시작**을 선택합니다.
     
-4. **도메인 확인** 페이지에서 **확인**을 선택 합니다.
+4. **도메인 확인** 페이지에서 **확인**을 선택합니다.
     
 > [!NOTE]
-> Typically it takes about 15 minutes for DNS changes to take effect. However, it can occasionally take longer for a change you've made to update across the Internet's DNS system. DNS 레코드를 추가한 후 메일 흐름 또는 기타 문제에 문제가 있는 경우 [Office 365에서 도메인 또는 DNS 레코드를 추가한 후 문제 찾기 및 해결](../get-help-with-domains/find-and-fix-issues.md)을 참조 하세요. 
+> Typically it takes about 15 minutes for DNS changes to take effect. 그러나 변경한 내용이 인터넷의 DNS 시스템 전체에 업데이트되는 데에는 시간이 오래 걸릴 수 있습니다. DNS 레코드를 추가한 후 메일 흐름 또는 기타 문제가 발생하는 경우 [Office 365에서 도메인 또는 DNS 레코드를 추가한 후 문제 찾기 및 해결](../get-help-with-domains/find-and-fix-issues.md)를 참조하세요. 
   
 ## <a name="change-your-domains-nameserver-ns-records"></a>도메인의 NS(이름 서버) 레코드 변경
 
@@ -127,33 +127,33 @@ Office 365에서 도메인 설정을 완료하려면 도메인 등록 기관에�
   
 1. 시작하려면 [이 링크](https://portal.hostgator.com/domain/manage)를 사용하여 Hostgator의 고객 포털 페이지로 이동합니다. 로그인하라는 메시지가 표시됩니다.
     
-    ![Hostgator-BP-Redelegate-1-0](../media/6749ac23-4832-4daf-8f3b-bc3b9b1b979c.png)
+    ![Hostgator-BP-Redelegate-1-0](../../media/6749ac23-4832-4daf-8f3b-bc3b9b1b979c.png)
   
 2. **도메인** 탭을 선택 합니다. 
     
-    ![Hostgator-BP-Redelegate-1-1](../media/56d12bfd-3549-4033-90dc-077c76ca798c.png)
+    ![Hostgator-BP-Redelegate-1-1](../../media/56d12bfd-3549-4033-90dc-077c76ca798c.png)
   
 3. **도메인 관리** 페이지의 **내 도메인** 영역에서 업데이트할 도메인을 선택 합니다. 
     
-    ![Hostgator-BP-Redelegate-1-2](../media/2c2f8530-26a1-4e62-bb04-b3874bc1cf36.png)
+    ![Hostgator-BP-Redelegate-1-2](../../media/2c2f8530-26a1-4e62-bb04-b3874bc1cf36.png)
   
 4. **도메인 개요** 페이지의 **이름 서버** 영역에서 **변경을**선택 합니다.
     
-    ![Hostgator-BP-Redelegate-1-3](../media/c8979d8a-ee96-4064-a8df-c5b01054cb16.png)
+    ![Hostgator-BP-Redelegate-1-3](../../media/c8979d8a-ee96-4064-a8df-c5b01054cb16.png)
   
 5. 도메인의 **이름 서버** 페이지에 있는 **호스팅 계정 선택** 드롭다운 목록에서 도메인과 연결 된 **호스팅 계정을** 선택 합니다. 
     
-    ![Hostgator-BP-Redelegate-1-4](../media/4cf61060-1e8a-4758-9892-32059ffc90c2.png)
+    ![Hostgator-BP-Redelegate-1-4](../../media/4cf61060-1e8a-4758-9892-32059ffc90c2.png)
   
 6. **내 이름 서버 수동 설정을**선택 합니다.
     
-    ![Hostgator-BP-Redelegate-1-5](../media/5b73ae32-f26e-48aa-b5ad-6da20f1c491a.png)
+    ![Hostgator-BP-Redelegate-1-5](../../media/5b73ae32-f26e-48aa-b5ad-6da20f1c491a.png)
   
 7.   **주의**: 네 가지 올바른 이름 서버 이외의 기존 이름 서버 있는 경우에만 다음 단계를 수행 합니다. (즉, **ns1.bdm.microsoftonline.com**, **ns2.bdm.microsoftonline.com**, **ns3.bdm.microsoftonline.com**또는 **ns4.bdm.microsoftonline.com**로 이름이 지정 *되지* 않은 현재 이름 서버 삭제 합니다.)
   
         계속 도메인에 대한 **이름 서버** 페이지의 이름 서버 목록에서 각 이름 서버를 선택하고 키보드에서 **Delete** 키를 눌러 삭제합니다. 
     
-   ![Hostgator-BP-Redelegate-1-6](../media/fa9820e7-28bb-4792-b16c-51e54d83feb1.png)
+   ![Hostgator-BP-Redelegate-1-6](../../media/fa9820e7-28bb-4792-b16c-51e54d83feb1.png)
   
 8. 계속 이름 서버 목록에서 다음 표의 처음 두 개의 값을 입력하거나 복사하여 붙여넣습니다.
     
@@ -164,7 +164,7 @@ Office 365에서 도메인 설정을 완료하려면 도메인 등록 기관에�
 |**이름 서버 3:** <br/> |ns3.bdm.microsoftonline.com  <br/> |
 |**이름 서버 4:** <br/> |ns4.bdm.microsoftonline.com  <br/> |
    
-   ![Hostgator-BP-Redelegate-1-7-1](../media/a8c10aa7-30b0-4bc8-9596-20256d396274.png)
+   ![Hostgator-BP-Redelegate-1-7-1](../../media/a8c10aa7-30b0-4bc8-9596-20256d396274.png)
   
 9. 다른 이름 서버 값을 추가합니다.
     
@@ -172,11 +172,11 @@ Office 365에서 도메인 설정을 완료하려면 도메인 등록 기관에�
     
     4개의 이름 서버 레코드를 모두 만들 때까지 이 과정을 반복합니다.
     
-    ![Hostgator-BP-Redelegate-1-7-2](../media/92159a39-e498-4220-9b0d-ae2e718c7fb9.png)
+    ![Hostgator-BP-Redelegate-1-7-2](../../media/92159a39-e498-4220-9b0d-ae2e718c7fb9.png)
   
 10. **이름 서버 저장**을 선택 합니다.
     
-    ![Hostgator-BP-Redelegate-1-8](../media/bd6b0dfa-5d39-4805-970d-7ab153cff117.png)
+    ![Hostgator-BP-Redelegate-1-8](../../media/bd6b0dfa-5d39-4805-970d-7ab153cff117.png)
   
 > [!NOTE]
 > 이름 서버 레코드 업데이트가 인터넷의 DNS 시스템 전체에 업데이트되기까지 몇 시간이 걸릴 수 있습니다. 그 후에는 Office 365 전자 메일 및 기타 서비스가 모두 사용자의 도메인을 사용하도록 설정됩니다.

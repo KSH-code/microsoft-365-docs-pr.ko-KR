@@ -21,12 +21,12 @@ search.appverid:
 - BEA160
 ms.assetid: b1bc0bef-4608-4601-813a-cdd9f746709a
 description: 비즈니스용 Office 365 또는 Microsoft 365 평가판 또는 유료 구독을 취소 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: d3590f224757265af3107566023413d276443c46
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 58c545257895de8da4256cea4826029916b66961
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42245994"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42354599"
 ---
 # <a name="cancel-your-subscription"></a>구독 취소
 
@@ -64,7 +64,7 @@ ms.locfileid: "42245994"
 
 3. **기타 작업** 메뉴에서 **구독 취소**를 선택 합니다.
 
-    ![기타 작업 메뉴를 닫습니다.](../../admin/media/befa74b7-62c1-42a3-a38e-db76a1c97dba.png)
+    ![기타 작업 메뉴를 닫습니다.](../../media/befa74b7-62c1-42a3-a38e-db76a1c97dba.png)
 
 4. 중요 날짜를 검토 하 고 취소 하는 이유에 대 한 의견을 제공한 다음 **구독 취소**를 선택 합니다.
 
@@ -80,7 +80,7 @@ ms.locfileid: "42245994"
 
 3. **기타 작업** 메뉴에서 **구독 취소**를 선택 합니다.
 
-    ![기타 작업 메뉴를 닫습니다.](../../admin/media/befa74b7-62c1-42a3-a38e-db76a1c97dba.png)
+    ![기타 작업 메뉴를 닫습니다.](../../media/befa74b7-62c1-42a3-a38e-db76a1c97dba.png)
 
 4. 중요 날짜를 검토 하 고 취소 하는 이유에 대 한 의견을 제공한 다음 **구독 취소**를 선택 합니다.
 

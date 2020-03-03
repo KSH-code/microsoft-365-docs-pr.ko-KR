@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 ms.assetid: b793ffdd-effa-43d0-849a-b1ca2e899f38
 description: 'Yammer 장치 사용 보고서를 다운로드 하 여 사용자가 Yammer를 사용 하는 장치에 대해 알 수 있습니다. '
-ms.openlocfilehash: 5202fd2ebe3e99182ecf7cd2d9bee77be0573cde
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 42fc4b1f9a4d782c50eabd892f6a49d1c474be01
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42245826"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42353379"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---yammer-device-usage-report"></a>관리 센터의 Microsoft 365 보고서-Yammer 장치 사용 현황 보고서
 
@@ -50,9 +50,9 @@ Yammer 장치 사용 현황 보고서는 사용자가 Yammer를 사용하는 장
     
 - 각 보고서에는 보고서가 생성된 날짜가 포함되어 있습니다. 일반적으로 보고서에는 활동 시간으로부터 24~48시간의 대기 시간이 반영됩니다.
     
-- **사용자** 차트에서 장치 유형별로 일일 사용자 수를 볼 수 있습니다.<br/>![Yammer 장치 사용 현황 차트의 사용자 보기](../media/ecfba1ec-fbea-4491-88da-1fb19b4d5629.png)<br/>![사용자 보기를 보여 주는 Yammer 장치 사용 현황 보고서](../media/f396865a-ad6e-4f8b-a145-cc3865b352f4.png)
+- **사용자** 차트에서 장치 유형별로 일일 사용자 수를 볼 수 있습니다.<br/>![Yammer 장치 사용 현황 차트의 사용자 보기](../../media/ecfba1ec-fbea-4491-88da-1fb19b4d5629.png)<br/>![사용자 보기를 보여 주는 Yammer 장치 사용 현황 보고서](../../media/f396865a-ad6e-4f8b-a145-cc3865b352f4.png)
   
-- **분포** 차트에서 장치 유형별로 사용자 수를 볼 수 있습니다.<br/>![Yammer 장치 사용 현황 보고서의 메일 보기](../media/7a0b152e-2d2b-4d23-8dc2-046be53b724f.png)<br/>![Yammer 장치 사용 현황 보고서](../media/780c351d-7a1d-451d-8c16-4c454ef58aa8.png)
+- **분포** 차트에서 장치 유형별로 사용자 수를 볼 수 있습니다.<br/>![Yammer 장치 사용 현황 보고서의 메일 보기](../../media/7a0b152e-2d2b-4d23-8dc2-046be53b724f.png)<br/>![Yammer 장치 사용 현황 보고서](../../media/780c351d-7a1d-451d-8c16-4c454ef58aa8.png)
   
 - 그래프 아래의 **세부 정보** 표에서는 사용자 수준별 Yammer 장치 사용 현황 분석 결과를 보여 줍니다. 
     

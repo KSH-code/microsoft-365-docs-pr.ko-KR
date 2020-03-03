@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 7712b6af-329c-43a0-af7b-c4e4c1befb0e
 description: 'Bluehost에서 DNS 레코드를 관리 하기 위해 Office 365을 설정 하는 방법을 알아봅니다. '
-ms.openlocfilehash: 27d73071a08477b0adc372d8a88db2c805fecacf
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 081abe977b498ea0cc0a0e2da9b54b00687df530
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42245227"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42352379"
 ---
 # <a name="change-nameservers-to-set-up-office-365-with-bluehost"></a>Bluehost에서 이름 서버를 변경하여 Office 365 설정
 
@@ -40,7 +40,7 @@ Office 365에서 사용자 도메인을 사용하려면 먼저 도메인을 소�
 > [!NOTE]
 > 이 레코드는 사용자가 도메인을 소유하고 있는지 확인하는 데만 사용되며 그 밖에 아무런 영향도 주지 않습니다. 원하는 경우 나중에 삭제할 수 있습니다. 
   
-1. 시작하려면 [이 링크](https://my.bluehost.com/cgi/dm)를 사용하여 Bluehost의 도메인 페이지로 이동합니다. You'll be prompted to log in first.
+1. 시작하려면 [이 링크](https://my.bluehost.com/cgi/dm)를 사용하여 Bluehost의 도메인 페이지로 이동합니다. 먼저 로그인하라는 메시지가 표시됩니다.
     
 2. **domains(도메인)** 페이지의 **domain(도메인)** 영역에서 변경 중인 도메인의 행을 찾아 해당 도메인의 확인란을 선택합니다. 
     
@@ -55,28 +55,28 @@ Office 365에서 사용자 도메인을 사용하려면 먼저 도메인을 소�
 |||||
 |:-----|:-----|:-----|:-----|
 |**Host Record** <br/> |**TTL** <br/> |**종류** <br/> |**TXT Value** <br/> |
-|@  <br/> |14400  <br/> |TXT  <br/> |MS=ms *XXXXXXXX* <br/> **참고:** 예를 들면 다음과 같습니다. 여기에는 Office 365의 표에 있는 특정 **대상 또는 주소 가리키기** 값을 사용합니다. [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md) <br/> |
+|@  <br/> |14400  <br/> |TXT  <br/> |MS=ms *XXXXXXXX* <br/> **참고:** 이 값은 예시입니다. 여기에는 Office 365의 표에 있는 특정 **보낼 대상 또는 지점** 값을 사용합니다. [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md) <br/> |
 
    
 5. **레코드 추가**를 선택 합니다.
     
 6. 방금 만든 레코드가 인터넷에서 업데이트될 수 있도록 몇 분 정도 기다립니다.
     
-Now that you've added the record at your domain registrar's site, you'll go back to Office 365 and request Office 365 to look for the record.
+이제 도메인 등록 기관에 레코드가 추가되었습니다. Office 365로 돌아가서 Office 365에 레코드를 찾을 것을 요청합니다.
   
-When Office 365 finds the correct TXT record, your domain is verified.
+Office 365에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것입니다.
   
-1. 관리 센터에서 **설정** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">도메인</a> 페이지로 이동 합니다.
+1. I관리 센터에서 ** 설정 ** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank"> 도메인 </a> 페이지로 이동하십시오.
 
     
-2. **도메인** 페이지에서 확인 하려는 도메인을 선택 합니다. 
+2. **도메인** 페이지에서 확인 중인 도메인을 선택합니다. 
     
-3. **설정** 페이지에서 **설정 시작**을 선택 합니다.
+3. **설정** 페이지에서 **설정 시작**을 선택합니다.
     
-4. **도메인 확인** 페이지에서 **확인**을 선택 합니다.
+4. **도메인 확인** 페이지에서 **확인**을 선택합니다.
     
 > [!NOTE]
-> Typically it takes about 15 minutes for DNS changes to take effect. However, it can occasionally take longer for a change you've made to update across the Internet's DNS system. DNS 레코드를 추가한 후 메일 흐름 또는 기타 문제에 문제가 있는 경우 [Office 365에서 도메인 또는 DNS 레코드를 추가한 후 문제 찾기 및 해결](../get-help-with-domains/find-and-fix-issues.md)을 참조 하세요. 
+> Typically it takes about 15 minutes for DNS changes to take effect. 그러나 변경한 내용이 인터넷의 DNS 시스템 전체에 업데이트되는 데에는 시간이 오래 걸릴 수 있습니다. DNS 레코드를 추가한 후 메일 흐름 또는 기타 문제가 발생하는 경우 [Office 365에서 도메인 또는 DNS 레코드를 추가한 후 문제 찾기 및 해결](../get-help-with-domains/find-and-fix-issues.md)를 참조하세요. 
   
 ## <a name="change-your-domains-nameserver-ns-records"></a>도메인의 NS(이름 서버) 레코드 변경
 
@@ -88,15 +88,15 @@ Office 365에서 도메인 설정을 완료하려면 도메인 등록 기관에�
 > [!IMPORTANT]
 >  다음 절차에서는 목록에서 원치 않는 이름 서버를 삭제 하는 방법 및 올바른 이름 서버가 나열 되어 있지 않은 경우 추가 하는 방법을 보여 줍니다. >이 섹션의 단계를 완료 한 후에는 > ns1.bdm.microsoftonline.com > ns2.bdm.microsoftonline.com > ns3.bdm.microsoftonline.com > ns4.bdm.microsoftonline.com와 같은 4 가지 이름 서버를 나열 해야 합니다. 
   
-1. 시작하려면 [이 링크](https://my.bluehost.com/cgi/dm)를 사용하여 Bluehost의 도메인 페이지로 이동합니다. You'll be prompted to log in first.
+1. 시작하려면 [이 링크](https://my.bluehost.com/cgi/dm)를 사용하여 Bluehost의 도메인 페이지로 이동합니다. 먼저 로그인하라는 메시지가 표시됩니다.
     
 2. **도메인** 페이지의 **domain_name** 영역에서 도메인에 대 한 확인란을 선택한 다음 **이름 서버**를 선택 합니다.
     
-    ![Bluehost-BP-Redelegate-1-1](../media/8f384386-197c-4272-9675-82037922dac4.png)
+    ![Bluehost-BP-Redelegate-1-1](../../media/8f384386-197c-4272-9675-82037922dac4.png)
   
 3. **Domain_name** 영역에서 **사용자 지정 이름 서버 사용**을 선택 합니다.
     
-    ![Bluehost-BP-Redelegate-1-2](../media/9fb47d21-c4ce-4eee-af90-c9569870a329.png)
+    ![Bluehost-BP-Redelegate-1-2](../../media/9fb47d21-c4ce-4eee-af90-c9569870a329.png)
   
 4. 현재 표시된 페이지에 이름 서버가 이미 나열되어 있는지 여부에 따라 다음 두 가지 절차 중 하나를 계속합니다.
     
@@ -113,11 +113,11 @@ Office 365에서 도메인 설정을 완료하려면 도메인 등록 기관에�
 |**첫 번째 빈 행** <br/> |ns1.bdm.microsoftonline.com  <br/> |
 |**두 번째 빈 행** <br/> |ns2.bdm.microsoftonline.com  <br/> |
    
-   ![Bluehost-BP-Redelegate-1-3-1](../media/07b13d6d-a34e-45b5-afd5-48ebd4c1344f.png)
+   ![Bluehost-BP-Redelegate-1-3-1](../../media/07b13d6d-a34e-45b5-afd5-48ebd4c1344f.png)
   
 2. **행 추가**를 선택 합니다.
     
-    ![Bluehost-BP-Redelegate-1-3-2](../media/db34b632-1d10-44b7-aa1f-44bd27bf09e3.png)
+    ![Bluehost-BP-Redelegate-1-3-2](../../media/db34b632-1d10-44b7-aa1f-44bd27bf09e3.png)
   
 3. 계속 **Use Custom Nameservers**(사용자 지정 이름 서버 사용) 구역에서 다음 표에 나온 첫 번째 행의 값을 새 빈 행에 입력하거나 복사하여 붙여넣습니다. 
     
@@ -126,13 +126,13 @@ Office 365에서 도메인 설정을 완료하려면 도메인 등록 기관에�
 |**세 번째 빈 행** <br/> |ns3.bdm.microsoftonline.com  <br/> |
 |**네 번째 빈 행** <br/> |ns4.bdm.microsoftonline.com  <br/> |
    
-    ![Bluehost-BP-Redelegate-1-3-3](../media/480b32bb-af27-40a5-90c5-5617ed02bb41.png)
+    ![Bluehost-BP-Redelegate-1-3-3](../../media/480b32bb-af27-40a5-90c5-5617ed02bb41.png)
   
 4. 네 번째 이름 서버 레코드를 추가 하려면 **행 추가** 를 다시 선택 하 고 위의 표에 있는 마지막 행의 값을 사용 하 여 레코드를 만듭니다. 
     
 5. **이름 서버 설정 저장**을 선택 합니다.
     
-    ![Bluehost-BP-Redelegate-1-4](../media/b24a4cfd-924b-4b6d-ad3d-2dea148fc77f.png)
+    ![Bluehost-BP-Redelegate-1-4](../../media/b24a4cfd-924b-4b6d-ad3d-2dea148fc77f.png)
   
 > [!NOTE]
 > 이름 서버 레코드 업데이트가 인터넷의 DNS 시스템 전체에 업데이트되기까지 몇 시간이 걸릴 수 있습니다. 그 후에는 Office 365 전자 메일 및 기타 서비스가 모두 사용자의 도메인을 사용하도록 설정됩니다. 
@@ -144,7 +144,7 @@ Office 365에서 도메인 설정을 완료하려면 도메인 등록 기관에�
   
 1. 다른 이름 서버가 나열되어 있으면 하나씩 선택한 후 키보드의 **Delete** 키를 눌러 삭제합니다. 
     
-    ![Bluehost-BP-Redelegate-1-5](../media/d1051c43-f8ff-46d7-af26-3975d3f0f621.png)
+    ![Bluehost-BP-Redelegate-1-5](../../media/d1051c43-f8ff-46d7-af26-3975d3f0f621.png)
   
 2. 계속 **사용자 지정 이름 서버 사용** 구역에서 다음 표의 값을 입력하거나 복사하여 붙여넣습니다. 
     
@@ -153,11 +153,11 @@ Office 365에서 도메인 설정을 완료하려면 도메인 등록 기관에�
 |**첫 번째 빈 행** <br/> |ns1.bdm.microsoftonline.com  <br/> |
 |**두 번째 빈 행** <br/> |ns2.bdm.microsoftonline.com  <br/> |
    
-   ![Bluehost-BP-Redelegate-1-3](../media/1523debf-5eb0-4765-8e05-bcd56e375c20.png)
+   ![Bluehost-BP-Redelegate-1-3](../../media/1523debf-5eb0-4765-8e05-bcd56e375c20.png)
   
 3. **행 추가**를 선택 합니다.
     
-    ![Bluehost-BP-Redelegate-1-3-2](../media/db34b632-1d10-44b7-aa1f-44bd27bf09e3.png)
+    ![Bluehost-BP-Redelegate-1-3-2](../../media/db34b632-1d10-44b7-aa1f-44bd27bf09e3.png)
   
 4. 계속 **Use Custom Nameservers**(사용자 지정 이름 서버 사용) 구역에서 다음 표에 나온 첫 번째 행의 값을 새 빈 행에 입력하거나 복사하여 붙여넣습니다. 
     
@@ -166,13 +166,13 @@ Office 365에서 도메인 설정을 완료하려면 도메인 등록 기관에�
 |**세 번째 빈 행** <br/> |ns3.bdm.microsoftonline.com  <br/> |
 |**네 번째 빈 행** <br/> |ns4.bdm.microsoftonline.com  <br/> |
    
-   ![Bluehost-BP-Redelegate-1-3-3](../media/480b32bb-af27-40a5-90c5-5617ed02bb41.png)
+   ![Bluehost-BP-Redelegate-1-3-3](../../media/480b32bb-af27-40a5-90c5-5617ed02bb41.png)
   
 5. 네 번째 이름 서버 레코드를 추가 하려면 **행 추가** 를 다시 선택 하 고 위의 표에 있는 마지막 행의 값을 사용 하 여 레코드를 만듭니다. 
     
 6. **이름 서버 설정 저장**을 선택 합니다.
     
-    ![Bluehost-BP-Redelegate-1-4](../media/b24a4cfd-924b-4b6d-ad3d-2dea148fc77f.png)
+    ![Bluehost-BP-Redelegate-1-4](../../media/b24a4cfd-924b-4b6d-ad3d-2dea148fc77f.png)
   
 > [!NOTE]
 > 이름 서버 레코드 업데이트가 인터넷의 DNS 시스템 전체에 업데이트되기까지 몇 시간이 걸릴 수 있습니다. 그 후에는 Office 365 전자 메일 및 기타 서비스가 모두 사용자의 도메인을 사용하도록 설정됩니다. 

@@ -26,12 +26,12 @@ search.appverid:
 - GEA150
 ms.assetid: 8652f539-3123-4a8f-b9bd-6aa2f0e0372d
 description: 비즈니스 구독의 결제 방법을 변경 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 64b38e384f02b8187582bef86f2ccab7a820b008
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: c3833b656eb00eeb5a8c5e78fbdb7ae4ff9c2321
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42246463"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42354839"
 ---
 # <a name="change-your-payment-method"></a>결제 방법 변경
 
@@ -197,7 +197,7 @@ ms.locfileid: "42246463"
 
 2. 변경 하려는 구독을 찾습니다. **결제 방법** 섹션에서 **결제 정보 변경을**선택 합니다.
 
-    ![The Payment method section of a Subscription card for a subscription that pays by credit card.](../../admin/media/6c9d9cae-6086-4687-a979-bb971f35f1b4.png)
+    ![The Payment method section of a Subscription card for a subscription that pays by credit card.](../../media/6c9d9cae-6086-4687-a979-bb971f35f1b4.png)
   
 3. **결제 정보 변경** 창에서 **결제 방법 변경을**선택 합니다.
 

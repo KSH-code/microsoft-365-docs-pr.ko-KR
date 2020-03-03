@@ -23,12 +23,12 @@ search.appverid:
 - GEA150
 ms.assetid: d5155593-3bac-4d8d-9d8b-f4513a81479e
 description: 사용자 계정을 삭제 하는 방법에 대해 알아봅니다. 사용자의 전자 메일, OneDrive 콘텐츠, 제품 라이선스를 유지할지 아니면 지불할 지를 결정 합니다.
-ms.openlocfilehash: f54d0d4a39ff116b4bee6aceb10233344835a455
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 2c87f04675ec92e964acb6fc9aef7171b6d7d510
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42245736"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42353139"
 ---
 # <a name="delete-a-user-from-your-organization"></a>조직에서 사용자 삭제
   
@@ -78,19 +78,19 @@ ms.locfileid: "42245736"
 
 ::: moniker range="o365-worldwide"
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다..
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다.
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다..
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다..
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다.
 
 ::: moniker-end
 
@@ -103,7 +103,7 @@ ms.locfileid: "42245736"
   
 ::: moniker range="o365-worldwide"
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다..  
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다.  
 
 2. 삭제할 사용자의 이름을 선택 하 고 **기타 옵션** (**...**)을 선택한 다음 **사용자 삭제**를 선택 합니다.
 
@@ -113,7 +113,7 @@ ms.locfileid: "42245736"
 
 ::: moniker range="o365-germany"
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다..
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다.
 
 2. 삭제 하려는 사용자의 이름을 선택 하 고 **대량 작업** 창에서 **사용자 삭제**를 선택 합니다.
 
@@ -123,7 +123,7 @@ ms.locfileid: "42245736"
 
 ::: moniker range="o365-21vianet"
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다..
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다.
 
 2. 삭제 하려는 사용자의 이름을 선택 하 고 **대량 작업** 창에서 **사용자 삭제**를 선택 합니다.
 

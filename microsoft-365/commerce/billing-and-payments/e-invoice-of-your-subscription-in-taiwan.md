@@ -20,12 +20,12 @@ search.appverid:
 ms.assetid: 66315e5b-883a-432b-8650-d896f95af228
 ROBOTS: NOINDEX
 description: 대만식에 대 한 Office 365 for business 전자 송장에 대해 알아봅니다.
-ms.openlocfilehash: 3253e620236810a51b62fe958f76589309dfbe1f
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 5b06d8634fef81027cff14170da4e50072a1b48e
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42246444"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42354669"
 ---
 # <a name="understand-your-e-invoice-for-office-365-for-business-taiwan"></a>Office 365 for business (대만식)에 대 한 전자 송장 이해
 
@@ -33,7 +33,7 @@ ms.locfileid: "42246444"
   
 전자 송장 예제 복사본은 다음과 같습니다.
   
-![대만식 e-송장입니다.](../../admin/media/01a275ad-54a9-4b76-ac03-4b288508b161.png)
+![대만식 e-송장입니다.](../../media/01a275ad-54a9-4b76-ac03-4b288508b161.png)
   
 ## <a name="what-is-my-tax-rate"></a>세금 률
 

@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: b7c66b59-657a-4e1a-8aa0-8163b1f4eb54
 description: 'Exchange 관리 센터를 사용 하 여 삭제 된 Office 365 그룹을 복원 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 98eb00d90f5b607a58cd32728ce43cb4a1de1ff5
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: c88f10df27e5f3a0af79c93c7d0e347c5646abc9
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42246558"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42352439"
 ---
 # <a name="restore-a-deleted-office-365-group"></a>삭제된 Office 365 그룹 복원
 
@@ -69,7 +69,7 @@ Office 365 그룹을 복원 하려는 사용자 인 경우 관리자에 게 이�
 
 Office 365 전역 관리자 권한이 있어야 합니다.
 
-1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">Exchange 관리 센터</a> 로 이동합니다.
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">Exchange 관리 센터</a>로 이동합니다.
     
 2. Exchange 관리 센터에서 **받는 사람**을 선택한 다음 **그룹**을 선택합니다. 그룹이 활성 상태 인지 일시 삭제 되었는지 확인할 수 있습니다. 그룹이 영구적으로 삭제된 경우에는 목록에 표시되지 않습니다.
   
@@ -77,9 +77,9 @@ Office 365 전역 관리자 권한이 있어야 합니다.
       
 4. 복원할 그룹을 선택한 다음 복원 아이콘을 선택 합니다.
     
-    ![복원할 그룹을 선택한 다음 복원 아이콘을 선택 합니다.](../media/restore-group.png)
+    ![복원할 그룹을 선택한 다음 복원 아이콘을 선택 합니다.](../../media/restore-group.png)
   
-5. 새로 고침 선택 ![새로 고침 아이콘](../media/6464df90-2a91-4c1f-92a6-9a38c7696ac3.gif) 을 선택합니다. 그룹이 활성으로 표시됩니다. 그룹과 연결 된 양식 및 양식 데이터도 복원 됩니다.
+5. 새로 고침 선택 ![새로 고침 아이콘](../../media/6464df90-2a91-4c1f-92a6-9a38c7696ac3.gif) 을 선택합니다. 그룹이 활성으로 표시됩니다. 그룹과 연결 된 양식 및 양식 데이터도 복원 됩니다.
     
 ## <a name="restore-an-office-365-group-using-powershell"></a>PowerShell을 사용하여 Office 365그룹 복원
 

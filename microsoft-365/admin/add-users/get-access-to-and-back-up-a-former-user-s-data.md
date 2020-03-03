@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: a6f7f9ad-e3f5-43de-ade5-e5a0d7531604
 description: 사용자가 조직을 떠날 때 직원의 파일 및 전자 메일을 보존 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 92e863e3b849f6a89e6d67d805fdb5024879999f
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 3c7a63852ad20fc005f7a0f4e3f909474bda2a3c
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42245730"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42353199"
 ---
 # <a name="get-access-to-and-back-up-a-former-users-data"></a>액세스 권한 받기 및 이전 사용자 데이터 백업
 
@@ -46,7 +46,7 @@ ms.locfileid: "42245730"
 > [!NOTE]
 > 새로운 Microsoft 365 관리 센터를 사용하지 않는 경우 홈페이지 상단에 있는 **새 관리 센터 시도** 토글을 선택하여 켤 수 있습니다.
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다..  
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다.  
     
 2. 사용자를 선택 합니다.
 
@@ -62,7 +62,7 @@ ms.locfileid: "42245730"
 
 ::: moniker range="o365-germany"
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다..  
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다.  
 
 2. 사용자를 선택 합니다.
 
@@ -78,7 +78,7 @@ ms.locfileid: "42245730"
 
 ::: moniker range="o365-21vianet"
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다.. 
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다. 
 
 2. 사용자를 선택 합니다.
 
@@ -143,15 +143,15 @@ ms.locfileid: "42245730"
     
 2. Outlook에서 **파일**을 선택 합니다.
     
-    ![리본 메뉴의 모양은 Outlook 2016에서 확인할 수 있습니다.](../media/d7f66ed3-9861-4521-b410-e86a58ab15a7.png)
+    ![리본 메뉴의 모양은 Outlook 2016에서 확인할 수 있습니다.](../../media/d7f66ed3-9861-4521-b410-e86a58ab15a7.png)
   
 3. 내보내기 \> **가져오기/내보내기** **열기 &amp; ** 를 선택 합니다.
     
-    ![Backstage 보기의 가져오기/내보내기 명령](../media/6013919e-d8ce-4902-b7b4-78ff4260a2f8.jpg)
+    ![Backstage 보기의 가져오기/내보내기 명령](../../media/6013919e-d8ce-4902-b7b4-78ff4260a2f8.jpg)
   
 4. **파일로 내보내기를**선택 하 고 **다음**을 선택 합니다.
     
-    ![가져오기/내보내기 마법사에서 파일로 내보내기 옵션](../media/458466a0-366b-4fbf-a2db-1919412c6527.jpg)
+    ![가져오기/내보내기 마법사에서 파일로 내보내기 옵션](../../media/458466a0-366b-4fbf-a2db-1919412c6527.jpg)
   
 5. **Outlook 데이터 파일 (.pst)** 을 선택 하 고 **다음**을 선택 합니다.
     
@@ -160,7 +160,7 @@ ms.locfileid: "42245730"
     > [!NOTE]
     > 한 번에 하나의 계정만 내보낼 수 있습니다. 여러 계정을 내보내려는 경우 하나의 계정을 내보낸 후에는 이러한 단계를 반복 합니다. 
   
-    ![폴더를 선택 하 고 하위 폴더를 포함 하는 Outlook 데이터 파일 내보내기 대화 상자](../media/ce36616f-d76d-4ce2-b517-8ac4874e0971.jpg)
+    ![폴더를 선택 하 고 하위 폴더를 포함 하는 Outlook 데이터 파일 내보내기 대화 상자](../../media/ce36616f-d76d-4ce2-b517-8ac4874e0971.jpg)
   
 7.  Select **Next**. 
     
@@ -195,7 +195,7 @@ Outlook 2010에서 [전자 메일, 연락처 및 일정을 outlook .pst 파일�
     
 2. **다른 프로그램 또는 파일에서 가져오기를**선택 하 고 **다음**을 선택 합니다.
     
-    ![가져오기 및 내보내기 마법사](../media/15cdd674-cd7b-492c-8e93-992cfa890f26.jpg)
+    ![가져오기 및 내보내기 마법사](../../media/15cdd674-cd7b-492c-8e93-992cfa890f26.jpg)
   
 3. **Outlook 데이터 파일 (.pst)** 을 선택 하 고 **다음**을 선택 합니다.
     

@@ -22,18 +22,18 @@ search.appverid:
 - MOE150
 ms.assetid: e16f6421-2a1a-4142-bf9d-9846600a060a
 description: Microsoft 365 관리 앱을 다운로드 하 고 전화나 태블릿에서 온라인 조직을 관리 하는 방법에 대해 알아보세요.
-ms.openlocfilehash: 6f81da66ff8d60f1adc249c1e21542b0174050d6
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: fc1be50c10ba5158c335d9c9b9dd1e69079ac2c1
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42245652"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42353039"
 ---
 # <a name="about-the-microsoft-365-admin-mobile-app"></a>Microsoft 365 관리 모바일 앱 정보
 
 관리자에 게는 대개 이동 중 입니까? 그런 다음 [Microsoft 365 Admin 앱](https://go.microsoft.com/fwlink/?LinkID=627216)을 확인 하세요. 앱을 사용 하 여 휴대폰 또는 태블릿에서 온라인 조직을 관리할 수 있습니다. Apple 스토어 및 Google Play에서 앱을 가져올 수 있습니다. <br> 
 
-![검색, 메시지, 상태 및 빠른 링크를 표시 하는 관리 모바일 앱 홈페이지의 화면 캡처](../media/admin-mobile-app-darkbg.png)
+![검색, 메시지, 상태 및 빠른 링크를 표시 하는 관리 모바일 앱 홈페이지의 화면 캡처](../../media/admin-mobile-app-darkbg.png)
 
 관리 앱은 컴퓨터에 액세스할 수 없는 경우 org를 관리 하는 데 도움이 되는 기능이 80 포함 된 다양 한 기능의 앱입니다. 다음은 앱에서 수행할 수 있는 몇 가지 작업에 대 한 목록입니다.
 
@@ -42,7 +42,7 @@ ms.locfileid: "42245652"
 - 사용자 암호 다시 설정
 - 라이선스 할당
 - 그룹 구성원 추가 또는 제거
-- Add users 
+- 사용자 추가 
 
 또한 둘 이상의 온라인 조직을 담당 하는 사용자는 여러 조직을에 로그인 하 여 서로 빠르게 전환할 수 있습니다. 
   

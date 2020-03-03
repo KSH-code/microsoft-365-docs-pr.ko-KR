@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 4c46c8cb-17d0-44b5-9776-005fced8e618
 description: Office 365 그룹을 만들 수 있는 사용자를 제어 하는 방법을 알아봅니다.
-ms.openlocfilehash: a211cb3b69348a4d4a401a3c318fe019d8fd257f
-ms.sourcegitcommit: 109b44aa71bb8453d0a602663df0fcf7ed7dfdbe
+ms.openlocfilehash: a6016f6406b211aae216702910a696be50e1b82c
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/25/2020
-ms.locfileid: "42277195"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42352639"
 ---
 # <a name="manage-who-can-create-office-365-groups"></a>Office 365 그룹을 만들 수 있는 사용자 관리
 
@@ -119,7 +119,7 @@ ms.locfileid: "42277195"
     
 2. Right-click on **Windows PowerShell** and select **Run as Administrator**.
     
-    !["관리자 권한으로 실행"으로 PowerShell을 여세요.](../media/52517af8-c7b0-4c8f-b2f3-0f82f9d5ace1.png)
+    !["관리자 권한으로 실행"으로 PowerShell을 여세요.](../../media/52517af8-c7b0-4c8f-b2f3-0f82f9d5ace1.png)
     
 3. [ExecutionPolicy](https://docs.microsoft.com/powershell/module/microsoft.powershell.security/set-executionpolicy)을 사용 하 여 RemoteSigned에 정책을 설정 합니다.
     
@@ -205,7 +205,7 @@ Set-AzureADDirectorySetting -Id $settingsObjectID -DirectorySetting $settingsCop
 
 스크립트의 마지막 줄에 업데이트 된 설정이 표시 됩니다.
 
-![This is what your settings will look like when you're done.](../media/952cd982-5139-4080-9add-24bafca0830c.png)
+![This is what your settings will look like when you're done.](../../media/952cd982-5139-4080-9add-24bafca0830c.png)
 
 나중에 사용 되는 보안 그룹을 변경 하려는 경우 새 보안 그룹의 이름으로 스크립트를 다시 실행할 수 있습니다.
 

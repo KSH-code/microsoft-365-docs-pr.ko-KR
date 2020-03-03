@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: 092252f8-08df-4cdb-a8d2-b8653caa29a1
 description: 구독 페이지로 이동 하 여 조직에 있는 구독을 확인 하는 방법을 알아봅니다.
 ms.custom: okr_SMB
-ms.openlocfilehash: e8871e5d10d86f7e0f45dc34dd824bae6fb2c007
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 1a63b0b17333ad12846ba8bac2c83b2d8dfc67a8
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42245587"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42352829"
 ---
 # <a name="what-subscription-do-i-have"></a>내가 구독한 것은 무엇인가요?
 
@@ -52,13 +52,13 @@ ms.locfileid: "42245587"
 
 2. 구독이 하나뿐인 경우에는 구독의 이름, 정보 및 상태와 함께 **구독** 페이지에 표시됩니다. 다음 스크린샷에서 Office 365 Business 구독을 확인할 수 있습니다.
 
-    ![The Subscriptions page that shows which subscription you have as well as its status.](../media/4d51dfcc-e9f3-4414-964a-6ef182f49eba.png)
+    ![The Subscriptions page that shows which subscription you have as well as its status.](../../media/4d51dfcc-e9f3-4414-964a-6ef182f49eba.png)
   
 3. 구독이 여러 개인 경우 세부적인 구독 정보 옆에는 평가판 구독은 물론, 구입한 구독들을 나열하는 열이 표시됩니다. 기본적으로 목록 맨 위에 있는 구독이 자동으로 선택되고, 해당 구독에 대한 세부 정보가 표시됩니다.
 
     구독이 여러 개인 경우에는 자세한 정보를 보려는 구독을 하나 이상 선택 합니다. 구독 카드는 구독에 대한 정보로 업데이트됩니다.
 
-    ![관리 센터의 구독 페이지로, 상태별로 그룹화 된 여러 구독의 목록을 보여 줍니다.](../media/548ab8e9-bf9c-46d1-8c7c-ef5b631f3faa.png)
+    ![관리 센터의 구독 페이지로, 상태별로 그룹화 된 여러 구독의 목록을 보여 줍니다.](../../media/548ab8e9-bf9c-46d1-8c7c-ef5b631f3faa.png)
   
     > [!NOTE]
     > 만료되었거나 사용하지 않도록 설정된 구독이 있는 경우 이러한 구독은 현재 상태를 기반으로 나열됩니다.
@@ -71,13 +71,13 @@ ms.locfileid: "42245587"
 
 2. 구독이 하나뿐인 경우에는 구독의 이름, 정보 및 상태와 함께 **구독** 페이지에 표시됩니다. 다음 스크린샷에서 Office 365 Business 구독을 확인할 수 있습니다.
 
-    ![The Subscriptions page that shows which subscription you have as well as its status.](../media/4d51dfcc-e9f3-4414-964a-6ef182f49eba.png)
+    ![The Subscriptions page that shows which subscription you have as well as its status.](../../media/4d51dfcc-e9f3-4414-964a-6ef182f49eba.png)
   
 3. 구독이 여러 개인 경우 세부적인 구독 정보 옆에는 평가판 구독은 물론, 구입한 구독들을 나열하는 열이 표시됩니다. 기본적으로 목록 맨 위에 있는 구독이 자동으로 선택되고, 해당 구독에 대한 세부 정보가 표시됩니다.
 
     구독이 여러 개인 경우에는 자세한 정보를 보려는 구독을 하나 이상 선택 합니다. 구독 카드는 구독에 대한 정보로 업데이트됩니다.
 
-    ![관리 센터의 구독 페이지로, 상태별로 그룹화 된 여러 구독의 목록을 보여 줍니다.](../media/548ab8e9-bf9c-46d1-8c7c-ef5b631f3faa.png)
+    ![관리 센터의 구독 페이지로, 상태별로 그룹화 된 여러 구독의 목록을 보여 줍니다.](../../media/548ab8e9-bf9c-46d1-8c7c-ef5b631f3faa.png)
   
     > [!NOTE]
     > 만료되었거나 사용하지 않도록 설정된 구독이 있는 경우 이러한 구독은 현재 상태를 기반으로 나열됩니다.

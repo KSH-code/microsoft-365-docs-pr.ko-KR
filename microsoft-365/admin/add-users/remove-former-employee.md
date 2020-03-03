@@ -24,12 +24,12 @@ search.appverid:
 - MOE150
 ms.assetid: 44d96212-4d90-4027-9aa9-a95eddb367d1
 description: '이 검사 목록을 따라 Office 365에서 직원을 제거 하 고 데이터를 보호 합니다. '
-ms.openlocfilehash: a59ad66f6c188695e6794bd259668b97669f2217
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: f29f24e0f9cf583e768000cff2d6081eb9df6d87
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42245689"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42353119"
 ---
 # <a name="remove-a-former-employee-from-office-365"></a>Office 365에서 이전 직원 제거
   
@@ -48,7 +48,7 @@ ms.locfileid: "42245689"
 
 직원을 제거 하려면 다음을 수행 합니다.
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다..
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다.
 
 2. 사용자 이름 옆의 상자를 선택 하 고 **암호 다시 설정을**선택 합니다.
 
@@ -60,7 +60,7 @@ ms.locfileid: "42245689"
 
 ::: moniker range="o365-germany"
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다..
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다.
 
 2. 사용자를 선택 하 고 **암호 다시 설정을**선택 합니다.
 
@@ -72,7 +72,7 @@ ms.locfileid: "42245689"
 
 ::: moniker range="o365-21vianet"
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다..
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다.
 
 2. 사용자를 선택 하 고 **암호 다시 설정을**선택 합니다.
 
@@ -151,7 +151,7 @@ PowerShell을 사용하여 사용자를 즉시 로그아웃하려면 [Revoke-Azu
 > [!NOTE]
 > 새로운 Microsoft 365 관리 센터를 사용하지 않는 경우 홈페이지 상단에 있는 **새 관리 센터 시도** 토글을 선택하여 켤 수 있습니다.
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다..
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다.
 
 2. 차단할 직원의 이름을 선택 하 고 **메일** 탭을 선택 합니다.
 
@@ -167,7 +167,7 @@ PowerShell을 사용하여 사용자를 즉시 로그아웃하려면 [Revoke-Azu
 
 ::: moniker range="o365-germany"
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다..
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다.
 
 2. 차단 하려는 직원을 선택 하 고 **메일 설정을**확장 합니다.
 
@@ -183,7 +183,7 @@ PowerShell을 사용하여 사용자를 즉시 로그아웃하려면 [Revoke-Azu
 
 ::: moniker range="o365-21vianet"
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다..
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다.
 
 2. 차단 하려는 직원을 선택 하 고 **메일 설정을**확장 합니다.
 
@@ -205,13 +205,13 @@ PowerShell을 사용하여 사용자를 즉시 로그아웃하려면 [Revoke-Azu
 이전 직원이 조직 휴대폰을 보유했던 경우 해당 장치에서 모든 조직 데이터가 제거되고 해당 장치가 더 이상 Office 365에 연결될 수 없도록 Exchange 관리 센터를 사용하여 해당 장치를 초기화 및 차단할 수 있습니다.
   
 
-1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">Exchange 관리 센터</a> 로 이동합니다.
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">Exchange 관리 센터</a>로 이동합니다.
 
 3. Exchange 관리 센터에서 **받는 사람** \> **사서함** 으로 이동합니다. 
     
 4. 사용자를 선택 하 고 **모바일 장치**에서 **세부 정보 보기**를 선택 합니다. 
     
-5. 모바일 장치 **세부 정보** 페이지의 **모바일**장치에서 모바일 장치를 선택 하 고 **데이터**![지우기 장치](../media/1c113a36-53cb-4974-884f-3ecd9535506e.png)지우기를 선택한 다음 **차단을**선택 합니다. 
+5. 모바일 장치 **세부 정보** 페이지의 **모바일**장치에서 모바일 장치를 선택 하 고 **데이터**![지우기 장치](../../media/1c113a36-53cb-4974-884f-3ecd9535506e.png)지우기를 선택한 다음 **차단을**선택 합니다. 
     
 6. **저장**을 선택합니다. 
     
@@ -229,7 +229,7 @@ PowerShell을 사용하여 사용자를 즉시 로그아웃하려면 [Revoke-Azu
 > [!NOTE]
 > 새로운 Microsoft 365 관리 센터를 사용하지 않는 경우 홈페이지 상단에 있는 **새 관리 센터 시도** 토글을 선택하여 켤 수 있습니다.
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다..
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다.
 
 2. 차단할 직원의 이름을 선택 하 고 사용자 이름 아래에 **이 사용자 차단**에 대 한 기호를 선택 합니다.
 
@@ -239,7 +239,7 @@ PowerShell을 사용하여 사용자를 즉시 로그아웃하려면 [Revoke-Azu
 
 ::: moniker range="o365-germany"
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다..
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다.
 
 2. 차단할 직원을 선택한 다음 **로그인 차단을**선택 합니다.
 
@@ -249,7 +249,7 @@ PowerShell을 사용하여 사용자를 즉시 로그아웃하려면 [Revoke-Azu
 
 ::: moniker range="o365-21vianet"
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다..
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다.
 
 2. 차단할 직원을 선택한 다음 **로그인 차단을**선택 합니다.
 
@@ -263,7 +263,7 @@ PowerShell을 사용하여 사용자를 즉시 로그아웃하려면 [Revoke-Azu
 Office 365 구독의 일부로 Office 365 전자 메일을 사용하는 경우 Exchange 관리 센터에 로그인해서 이러한 단계를 따라 이전 직원이 해당 전자 메일에 액세스하지 못하도록 해야 합니다.
   
 
-1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">Exchange 관리 센터</a> 로 이동합니다.
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">Exchange 관리 센터</a>로 이동합니다.
      
 2. Exchange 관리 센터에서 **받는 사람** \> **사서함** 으로 이동합니다. 
     
@@ -283,7 +283,7 @@ Office 365 구독의 일부로 Office 365 전자 메일을 사용하는 경우 E
 > [!NOTE]
 > 새로운 Microsoft 365 관리 센터를 사용하지 않는 경우 홈페이지 상단에 있는 **새 관리 센터 시도** 토글을 선택하여 켤 수 있습니다.
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다..
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다.
 
 2. 차단할 직원의 이름을 선택 하 고 **라이선스 및 앱** 탭을 선택 합니다.
 
@@ -293,7 +293,7 @@ Office 365 구독의 일부로 Office 365 전자 메일을 사용하는 경우 E
 
 ::: moniker range="o365-germany"
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다..
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다.
 
 2. 차단할 직원을 선택 하 고 **제품 라이선스**옆에 있는 **편집**을 선택 합니다.
 
@@ -303,7 +303,7 @@ Office 365 구독의 일부로 Office 365 전자 메일을 사용하는 경우 E
 
 ::: moniker range="o365-21vianet"
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다..
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다.
 
 2. 차단할 직원을 선택 하 고 **제품 라이선스**옆에 있는 **편집**을 선택 합니다.
 
@@ -360,7 +360,7 @@ Office 365에서 사용자 라이선스를 제거하면 사용자와 연결된 P
 > [!NOTE]
 > 새로운 Microsoft 365 관리 센터를 사용하지 않는 경우 홈페이지 상단에 있는 **새 관리 센터 시도** 토글을 선택하여 켤 수 있습니다.
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다..
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다.
 
 2. 삭제할 직원의 이름을 선택 합니다.
 
@@ -370,7 +370,7 @@ Office 365에서 사용자 라이선스를 제거하면 사용자와 연결된 P
 
 ::: moniker range="o365-germany"
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다..
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다.
 
 2. 삭제할 직원의 이름을 선택 합니다.
 
@@ -380,7 +380,7 @@ Office 365에서 사용자 라이선스를 제거하면 사용자와 연결된 P
 
 ::: moniker range="o365-21vianet"
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다..
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다.
 
 2. 삭제할 직원의 이름을 선택 합니다.
 

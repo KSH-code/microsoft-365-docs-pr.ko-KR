@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: e158b079-b054-4b7e-8e01-e55169ce18d7
 description: 도메인을 확인 하 고 전자 메일, 비즈니스용 Skype Online 및 기타 서비스에 대 한 DNS 레코드를 Office 365 용 DNSMadeEasy에 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: 7b94b8d4b3a02a0f436ba2af314eece8b7606ec2
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 82244d216652b1957aefc3b81acd881ea4b32393
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42248823"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42350319"
 ---
 # <a name="create-dns-records-at-dnsmadeeasy-for-office-365"></a>DNSMadeEasy에서 Office 365용 DNS 레코드 만들기
 
@@ -38,7 +38,7 @@ DNSMadeEasy에서 이러한 레코드를 추가하고 나면 도메인이 Office
 Office 365에서 웹 사이트의 웹 호스팅 및 DNS에 대한 자세한 내용은 [Office 365에서 공개 웹 사이트 사용](https://support.office.com/article/choose-a-public-website-3325d50e-d131-403c-a278-7f3296fe33a9)을 참조하세요.
   
 > [!NOTE]
-> Typically it takes about 15 minutes for DNS changes to take effect. However, it can occasionally take longer for a change you've made to update across the Internet's DNS system. DNS 레코드를 추가한 후 메일 흐름 또는 기타 문제에 문제가 있는 경우 [Office 365에서 도메인 또는 DNS 레코드를 추가한 후 문제 찾기 및 해결](../get-help-with-domains/find-and-fix-issues.md)을 참조 하세요. 
+> Typically it takes about 15 minutes for DNS changes to take effect. 그러나 변경한 내용이 인터넷의 DNS 시스템 전체에 업데이트되는 데에는 시간이 오래 걸릴 수 있습니다. DNS 레코드를 추가한 후 메일 흐름 또는 기타 문제가 발생하는 경우 [Office 365에서 도메인 또는 DNS 레코드를 추가한 후 문제 찾기 및 해결](../get-help-with-domains/find-and-fix-issues.md)를 참조하세요. 
   
 ## <a name="add-a-txt-record-for-verification"></a>확인을 위해 TXT 레코드 추가
 <a name="BKMK_verify"> </a>
@@ -63,28 +63,28 @@ Office 365에서 사용자 도메인을 사용하려면 먼저 도메인을 소�
     
     ||||
     |:-----|:-----|:-----|
-    |**이름** <br/> |**값** <br/> |**TTL** <br/> |
-    |(이 필드는 비워 둡니다.)  <br/> |MS=ms *XXXXXXXX*  <br/> **참고:** 예를 들면 다음과 같습니다. 여기에는 Office 365의 표에 있는 특정 **대상 또는 주소 가리키기** 값을 사용합니다. [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)          |1800  <br/> |
+    |**이름** <br/> |**Value(값)** <br/> |**TTL** <br/> |
+    |(이 필드는 비워 둡니다.)  <br/> |MS=ms *XXXXXXXX*  <br/> **참고:** 이 값은 예시입니다. 여기에는 Office 365의 표에 있는 특정 **보낼 대상 또는 지점** 값을 사용합니다. [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)          |1800  <br/> |
    
 5. **제출을**선택 합니다.
     
 6. 방금 만든 레코드가 인터넷에서 업데이트될 수 있도록 몇 분 정도 기다립니다.
     
-Now that you've added the record at your domain registrar's site, you'll go back to Office 365 and request Office 365 to look for the record.
+이제 도메인 등록 기관에 레코드가 추가되었습니다. Office 365로 돌아가서 Office 365에 레코드를 찾을 것을 요청합니다.
   
-When Office 365 finds the correct TXT record, your domain is verified.
+Office 365에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것입니다.
   
-1. 관리 센터에서 **설정** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">도메인</a> 페이지로 이동 합니다.
+1. I관리 센터에서 ** 설정 ** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank"> 도메인 </a> 페이지로 이동하십시오.
 
     
-2. **도메인** 페이지에서 확인 하려는 도메인을 선택 합니다. 
+2. **도메인** 페이지에서 확인 중인 도메인을 선택합니다. 
     
-3. **설정** 페이지에서 **설정 시작**을 선택 합니다.
+3. **설정** 페이지에서 **설정 시작**을 선택합니다.
     
-4. **도메인 확인** 페이지에서 **확인**을 선택 합니다.
+4. **도메인 확인** 페이지에서 **확인**을 선택합니다.
     
 > [!NOTE]
-> Typically it takes about 15 minutes for DNS changes to take effect. However, it can occasionally take longer for a change you've made to update across the Internet's DNS system. DNS 레코드를 추가한 후 메일 흐름 또는 기타 문제에 문제가 있는 경우 [Office 365에서 도메인 또는 DNS 레코드를 추가한 후 문제 찾기 및 해결](../get-help-with-domains/find-and-fix-issues.md)을 참조 하세요. 
+> Typically it takes about 15 minutes for DNS changes to take effect. 그러나 변경한 내용이 인터넷의 DNS 시스템 전체에 업데이트되는 데에는 시간이 오래 걸릴 수 있습니다. DNS 레코드를 추가한 후 메일 흐름 또는 기타 문제가 발생하는 경우 [Office 365에서 도메인 또는 DNS 레코드를 추가한 후 문제 찾기 및 해결](../get-help-with-domains/find-and-fix-issues.md)를 참조하세요. 
   
 ## <a name="add-an-mx-record-so-email-for-your-domain-will-come-to-office-365"></a>사용자 도메인의 전자 메일이 Office 365로 전송되도록 MX 레코드 추가
 <a name="BKMK_add_MX"> </a>
@@ -95,13 +95,13 @@ When Office 365 finds the correct TXT record, your domain is verified.
     
     **관리 콘솔** 페이지의 **최근에 업데이트 된 도메인** 영역에서 업데이트할 도메인을 선택 합니다. 
     
-    ![DNSMadeEasy-BP-구성-1-2](../media/8d8f403e-d7cd-429e-913b-dacb1f4644a2.png)
+    ![DNSMadeEasy-BP-구성-1-2](../../media/8d8f403e-d7cd-429e-913b-dacb1f4644a2.png)
   
 3. **관리 되는 DNS** 페이지의 **MX 레코드** 영역에서 **(+)** 컨트롤 ( **새로 추가**)을 선택 합니다.
     
     (You may have to scroll down.)
     
-    ![DNSMadeEasy-BP-구성-2-1](../media/404c73bf-1db4-4d68-82d8-68303f418ed4.png)
+    ![DNSMadeEasy-BP-구성-2-1](../../media/404c73bf-1db4-4d68-82d8-68303f418ed4.png)
   
 4. **MX 레코드 추가** 영역의 새 레코드용 상자에 다음 표의 값을 입력하거나 복사하여 붙여넣습니다. 
     
@@ -109,25 +109,25 @@ When Office 365 finds the correct TXT record, your domain is verified.
     
     |**이름**|**서버**|**MX 수준**|**TTL**|
     |:-----|:-----|:-----|:-----|
-    |(이 필드는 비워 둡니다.)  <br/> | *\<domain-key\>*  .mail.protection.outlook.com  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> **참고:** \<Office 365 계정에서 *도메인 키* \> 를 가져옵니다. [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)          |10   <br/> 우선 순위에 대한 자세한 내용은 [MX 우선 순위란?](https://support.office.com/article/2784cc4d-95be-443d-b5f7-bb5dd867ba83.aspx)을 참조하세요. <br/> |1800  <br/> |
+    |(이 필드는 비워 둡니다.)  <br/> | *\<domain-key\>*  .mail.protection.outlook.com  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> **참고:** Office 365 계정에서 \<*도메인-키*\>를 가져옵니다. [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)          |10   <br/> 우선 순위에 대한 자세한 내용은 [MX 우선 순위란?](https://support.office.com/article/2784cc4d-95be-443d-b5f7-bb5dd867ba83.aspx)을 참조하세요. <br/> |1800  <br/> |
    
-    ![DNSMadeEasy-BP-구성-2-2](../media/69b53af9-1eec-435c-8434-1b6058c1ec82.png)
+    ![DNSMadeEasy-BP-구성-2-2](../../media/69b53af9-1eec-435c-8434-1b6058c1ec82.png)
   
 5. **제출을**선택 합니다.
     
-    ![DNSMadeEasy-BP-구성-2-3](../media/381054a6-bb85-4ebb-b576-42cbba78ed1b.png)
+    ![DNSMadeEasy-BP-구성-2-3](../../media/381054a6-bb85-4ebb-b576-42cbba78ed1b.png)
   
 6. **MX 레코드** 구역에 다른 MX 레코드가 나열되어 있으면 하나씩 선택하여 모두 삭제합니다. 
     
-    ![DNSMadeEasy-BP-구성-2-4-1](../media/58a07769-0b30-4111-b555-bfc3b82a7d4c.png)
+    ![DNSMadeEasy-BP-구성-2-4-1](../../media/58a07769-0b30-4111-b555-bfc3b82a7d4c.png)
   
 7. 모든 레코드를 선택 하 고 선택 **삭제**를 선택 합니다.
     
-    ![DNSMadeEasy-BP-구성-2-4-2](../media/e9064c07-1ce7-4387-b47a-90d4193da374.png)
+    ![DNSMadeEasy-BP-구성-2-4-2](../../media/e9064c07-1ce7-4387-b47a-90d4193da374.png)
   
 8. **MX 레코드 삭제** 대화 상자에서 **삭제** 를 선택 하 여 변경 내용을 확인 합니다. 
     
-    ![DNSMadeEasy-BP-구성-2-5](../media/03c405e5-868f-468f-b6d2-046d27b201fb.png)
+    ![DNSMadeEasy-BP-구성-2-5](../../media/03c405e5-868f-468f-b6d2-046d27b201fb.png)
   
 ## <a name="add-the-five-cname-records-that-are-required-for-office-365"></a>Office 365에 필요한 다섯 개의 CNAME 레코드를 추가 합니다.
 <a name="BKMK_add_CNAME"> </a>
@@ -138,9 +138,9 @@ When Office 365 finds the correct TXT record, your domain is verified.
     
 3. **관리 되는 DNS** 페이지의 **CNAME 레코드** 영역에서 **(+)** 컨트롤 ( **새로 추가**)을 선택 합니다.
     
-    (아래로 스크롤해야 할 수 있습니다.)
+    (You may have to scroll down.)
     
-    ![DNSMadeEasy-BP-구성-3-1](../media/a5feb238-690d-4b64-a625-91a82b3f4068.png)
+    ![DNSMadeEasy-BP-구성-3-1](../../media/a5feb238-690d-4b64-a625-91a82b3f4068.png)
   
 4. 5 개의 CNAME 레코드 중 처음 일부를 추가 합니다.
     
@@ -154,11 +154,11 @@ When Office 365 finds the correct TXT record, your domain is verified.
     |enterpriseregistration  <br/> |enterpriseregistration.windows.net  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> |1800  <br/> |
     |enterpriseenrollment  <br/> |enterpriseenrollment-s.manage.microsoft.com  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> |1800  <br/> |
    
-    ![DNSMadeEasy-BP-구성-3-2](../media/de6dddcd-bf0a-4993-ab4c-a6d10167bf34.png)
+    ![DNSMadeEasy-BP-구성-3-2](../../media/de6dddcd-bf0a-4993-ab4c-a6d10167bf34.png)
   
 5. **제출을**선택 합니다.
     
-    ![DNSMadeEasy-BP-구성-3-3](../media/e44ef73e-99cb-41ce-a3f2-549cb2f29eef.png)
+    ![DNSMadeEasy-BP-구성-3-3](../../media/e44ef73e-99cb-41ce-a3f2-549cb2f29eef.png)
   
 6. 나머지 4 개의 CNAME 레코드를 각각 추가 합니다.
     
@@ -170,7 +170,7 @@ When Office 365 finds the correct TXT record, your domain is verified.
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
-> You cannot have more than one TXT record for SPF for a domain. If your domain has more than one SPF record, you'll get email errors, as well as delivery and spam classification issues. If you already have an SPF record for your domain, don't create a new one for Office 365. Instead, add the required Office 365 values to the current record so that you have a  *single*  SPF record that includes both sets of values. Need examples? 이러한 [외부 도메인 이름 시스템 레코드에서 Office 365를](https://support.office.com/article/c0531a6f-9e25-4f2d-ad0e-a70bfef09ac0)확인 하세요. SPF 레코드의 유효성을 검사 하기 위해 이러한[spf 유효성 검사 도구](../setup/domains-faq.md)중 하나를 사용할 수 있습니다. 
+> 도메인 한 개의 SPF에 둘 이상의 TXT 레코드가 있을 수 없습니다. 도메인에 둘 이상의 SPF 레코드가 있는 경우 전자 메일 오류를 비롯하여 배달 및 스팸 분류 문제가 발생할 수 있습니다. If you already have an SPF record for your domain, don't create a new one for Office 365. Instead, add the required Office 365 values to the current record so that you have a  *single*  SPF record that includes both sets of values. 예제가 필요하세요? [Office 365에 대한 외부 Domain Name System 레코드](https://support.office.com/article/c0531a6f-9e25-4f2d-ad0e-a70bfef09ac0)를 참조하세요. SPF 레코드의 유효성을 검사 하기 위해 이러한[spf 유효성 검사 도구](../setup/domains-faq.md)중 하나를 사용할 수 있습니다. 
   
 1. 시작하려면 [이 링크](https://cp.dnsmadeeasy.com/)를 사용하여 DNSMadeEasy의 도메인 페이지로 이동합니다. 먼저 로그인하라는 메시지가 표시됩니다.
     
@@ -180,19 +180,19 @@ When Office 365 finds the correct TXT record, your domain is verified.
     
     (아래로 스크롤해야 할 수 있습니다.)
     
-    ![DNSMadeEasy-BP-구성-4-1](../media/657b87a5-dcb4-4ae7-8f27-bd857f0f4189.png)
+    ![DNSMadeEasy-BP-구성-4-1](../../media/657b87a5-dcb4-4ae7-8f27-bd857f0f4189.png)
   
 4. In the **Add TXT Records** area, in the boxes for the new record, type or copy and paste the values from the following table. 
     
-    |**이름**|**값**|**TTL**|
+    |**이름**|**Value(값)**|**TTL**|
     |:-----|:-----|:-----|
-    |(이 필드는 비워 둡니다.)  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **참고:** 모든 공백이 올바르게 유지 되도록이 항목을 복사 하 여 붙여 넣는 것이 좋습니다.           |1800  <br/> |
+    |(이 필드는 비워 둡니다.)  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **참고: ** 모든 간격이 올바르게 유지되도록 이 항목을 복사하여 붙여넣는 것이 좋습니다.           |1800  <br/> |
    
-    ![DNSMadeEasy-BP-구성-4-2](../media/b317bcb9-18c6-4609-a8f4-963823032669.png)
+    ![DNSMadeEasy-BP-구성-4-2](../../media/b317bcb9-18c6-4609-a8f4-963823032669.png)
   
 5. **제출을**선택 합니다.
     
-    ![DNSMadeEasy-BP-구성-4-3](../media/8a1c53c3-1222-4127-a190-70f6f5059433.png)
+    ![DNSMadeEasy-BP-구성-4-3](../../media/8a1c53c3-1222-4127-a190-70f6f5059433.png)
   
 ## <a name="add-the-two-srv-records-that-are-required-for-office-365"></a>Office 365에 필요한 2개의 SRV 레코드 추가
 <a name="BKMK_add_SRV"> </a>
@@ -205,28 +205,28 @@ When Office 365 finds the correct TXT record, your domain is verified.
     
     (아래로 스크롤해야 할 수 있습니다.)
     
-    ![DNSMadeEasy-BP-구성-5-1](../media/5c9e8f50-adbd-4f23-8ce3-2844b2896f3f.png)
+    ![DNSMadeEasy-BP-구성-5-1](../../media/5c9e8f50-adbd-4f23-8ce3-2844b2896f3f.png)
   
 4. 2개의 SRV 레코드 중 첫 번째 레코드를 추가합니다.
     
     **SRV 레코드 추가** 영역의 새 레코드용 상자에 다음 표의 첫 번째 행의 값을 입력하거나 복사하여 붙여넣습니다. 
     
-    |**이름**|**우선 순위**|**가중치**|**포트**|**호스트**|**TTL**|
+    |**이름**|**Priority(우선 순위)**|**Weight(가중치)**|**Port(포트)**|**호스트**|**TTL**|
     |:-----|:-----|:-----|:-----|:-----|:-----|
     |_sip _tls  <br/> |100  <br/> |개  <br/> |443  <br/> |sipdir.online.lync.com  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> |1800  <br/> |
     |_sipfederationtls _tcp  <br/> |100  <br/> |개  <br/> |5061  <br/> |sipfed.online.lync.com  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> |1800  <br/> |
    
-    ![DNSMadeEasy-BP-구성-5-2](../media/e1155f94-575f-441a-9a61-d948391d42ca.png)
+    ![DNSMadeEasy-BP-구성-5-2](../../media/e1155f94-575f-441a-9a61-d948391d42ca.png)
   
 5. **제출을**선택 합니다.
     
-    ![DNSMadeEasy-BP-구성-5-3](../media/7eae54e1-08bd-4902-afdf-fd5cc251ab59.png)
+    ![DNSMadeEasy-BP-구성-5-3](../../media/7eae54e1-08bd-4902-afdf-fd5cc251ab59.png)
   
 6. 다른 SRV 레코드를 추가합니다.
     
     **SRV 레코드** 구역에서 **(+)** 컨트롤 ( **새로 추가**)을 선택 하 고 표에 있는 다음 행의 값을 사용 하 여 레코드를 만든 다음 다시 **제출을** 선택 하 여 해당 레코드를 완료 합니다. 
     
 > [!NOTE]
-> Typically it takes about 15 minutes for DNS changes to take effect. However, it can occasionally take longer for a change you've made to update across the Internet's DNS system. DNS 레코드를 추가한 후 메일 흐름 또는 기타 문제에 문제가 있는 경우 [Office 365에서 도메인 또는 DNS 레코드를 추가한 후 문제 찾기 및 해결](../get-help-with-domains/find-and-fix-issues.md)을 참조 하세요. 
+> Typically it takes about 15 minutes for DNS changes to take effect. 그러나 변경한 내용이 인터넷의 DNS 시스템 전체에 업데이트되는 데에는 시간이 오래 걸릴 수 있습니다. DNS 레코드를 추가한 후 메일 흐름 또는 기타 문제가 발생하는 경우 [Office 365에서 도메인 또는 DNS 레코드를 추가한 후 문제 찾기 및 해결](../get-help-with-domains/find-and-fix-issues.md)를 참조하세요. 
   
 

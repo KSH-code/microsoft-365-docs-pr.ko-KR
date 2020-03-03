@@ -24,12 +24,12 @@ search.appverid:
 - GEA150
 ms.assetid: 73318661-8f33-478b-bcc7-fb8d69dbb22a
 description: 새 Office 365 for business 구독으로 전환 하는 방법을 알아봅니다.
-ms.openlocfilehash: 22b1d187c18743a467e9e13abbb5d2635b62da40
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: f341222945d4af6d35c00ee26c3a2645fabf98f8
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42257708"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42354469"
 ---
 # <a name="switch-to-a-different-office-365-for-business-plan"></a>다른 Microsoft Office 365 비즈니스 에디션 요금제로 전환
 
@@ -95,4 +95,4 @@ ms.locfileid: "42257708"
   
 ## <a name="call-support-to-help-you-switch-plans"></a>요금제 전환에 대한 도움을 받기 위해 지원 서비스에 문의
 
-![전화](../../admin/media/88eae4a1-b8d9-4a12-bc4a-44af244f084b.png) [통화 지원](../../admin/contact-support-for-business-products.md)
+![전화](../../media/88eae4a1-b8d9-4a12-bc4a-44af244f084b.png) [통화 지원](../../admin/contact-support-for-business-products.md)

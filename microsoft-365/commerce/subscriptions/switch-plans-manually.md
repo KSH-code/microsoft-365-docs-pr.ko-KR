@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: eb0d0680-5677-41a0-8c46-4b9d47f1c209
 ROBOTS: NOINDEX
 description: 새 구독을 구입 하 고 구독이 모두 나열 되 고 활성 상태가 되도록 하 여 Office 365 비즈니스 구독을 수동으로 전환 합니다.
-ms.openlocfilehash: 5fe50cbc0a11c4fe9976be07bfb0ab752bae5bba
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 19efd94f320fcf5dc54f44b70b436f713a663a40
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42257458"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42354712"
 ---
 # <a name="switch-office-365-for-business-plans-manually"></a>Office 365 비즈니스 에디션 요금제를 수동으로 전환
 
@@ -74,7 +74,7 @@ ms.locfileid: "42257458"
 
    **사용 가능한 라이선스가 포함 된 새로운 Office 365 비즈니스 에디션 구독**
 
-    ![새 구독에 대 한 라이선스 수를 보여 주는 구독 페이지입니다.](../../admin/media/65a73e96-7c95-4daa-b6ec-71a4bf74dda5.png)
+    ![새 구독에 대 한 라이선스 수를 보여 주는 구독 페이지입니다.](../../media/65a73e96-7c95-4daa-b6ec-71a4bf74dda5.png)
   
 3. **각 사용자에 대 한 라이선스가 충분 한지 확인**
 
@@ -100,7 +100,7 @@ ms.locfileid: "42257458"
 
 ### <a name="reassign-a-license-for-one-user"></a>한 사용자에 대 한 라이선스 다시 할당
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다..
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다.
 
     사용 중인 경우 Office 365 Germany이 <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다.
 
@@ -115,7 +115,7 @@ ms.locfileid: "42257458"
     > [!TIP]
     > 사용자가 사용할 수 있는 서비스를 제한 하려면 해당 사용자에 대해 제거할 서비스의 **해제** 위치로 전환 합니다 .를 선택 합니다. 예를 들어 사용자에 게 비즈니스용 Skype Online을 제외한 모든 사용 가능한 서비스에 대 한 액세스 권한을 제공 하려는 경우 비즈니스용 Skype Online 서비스에 대 한 토글을 **해제** 위치로 전환할 수 있습니다.
   
-    ![사용자에 대 한 라이선스 할당 설정](../../admin/media/5e53a979-6b08-4981-bb0b-fa657146334b.png)
+    ![사용자에 대 한 라이선스 할당 설정](../../media/5e53a979-6b08-4981-bb0b-fa657146334b.png)
   
 5. 이 사용자가 더 이상 필요 하지 않은 라이선스를 **해제** 위치로 전환 합니다.
 
@@ -141,7 +141,7 @@ ms.locfileid: "42257458"
     > - 사용자가 사용할 수 있는 서비스를 제한 하려면 해당 사용자에 대해 제거할 서비스에 대 한 **해제** 위치로 전환 합니다. 예를 들어 사용자에 게 비즈니스용 Skype Online을 제외한 모든 사용 가능한 서비스에 대 한 액세스 권한을 제공 하려는 경우 비즈니스용 Skype Online 서비스에 대 한 토글을 **해제** 위치로 전환할 수 있습니다.
     > - 선택한 사용자에 대한 모든 이전 라이선스 할당이 제거됩니다.
   
-    ![사용자에 대 한 라이선스 할당 설정](../../admin/media/5e53a979-6b08-4981-bb0b-fa657146334b.png)
+    ![사용자에 대 한 라이선스 할당 설정](../../media/5e53a979-6b08-4981-bb0b-fa657146334b.png)
   
 6. **기존 제품 바꾸기** 창의 아래쪽에서 **바꾸기** \> **닫기**를 선택합니다.
 

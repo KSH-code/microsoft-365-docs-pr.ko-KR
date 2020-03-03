@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9db96e9f-a622-4d5d-b134-09dcace55b6a
 description: Power BI의 Microsoft 365 사용 현황 분석 서식 파일 앱을 사용 하 여 테 넌 트에 대 한 데이터 수집을 시작 하는 방법을 알아봅니다.
-ms.openlocfilehash: 651a820916f65a1695b7300772b1d2ce8aee92bb
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 249fadce15ca2e4c979d6e1930ff0d14ccd9bc08
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42247294"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42355009"
 ---
 # <a name="enable-microsoft-365-usage-analytics"></a>Microsoft 365 사용 현황 분석을 사용하도록 설정
 
@@ -70,7 +70,7 @@ Power BI가 아직 없는 경우 [POWER Bi Pro에 등록할](https://go.microsof
   
 3. **앱** 탭의 검색 상자에 microsoft 365을 입력 한 다음 **microsoft 365 사용 현황 분석** \> 을 선택 하 여 **지금 다운로드**합니다.
 
-    [![지금 받기 선택](../media/78102250-9874-4a32-8365-436f13560b52.png)](https://app.powerbi.com/groups/me/getapps/services/cia_microsoft365.microsoft-365-usage-analytics)
+    [![지금 받기 선택](../../media/78102250-9874-4a32-8365-436f13560b52.png)](https://app.powerbi.com/groups/me/getapps/services/cia_microsoft365.microsoft-365-usage-analytics)
     
 4.  앱이 설치 되 면 타일을 클릭 하 여 엽니다.
 
@@ -80,7 +80,7 @@ Power BI가 아직 없는 경우 [POWER Bi Pro에 등록할](https://go.microsof
     
 7. 다음 화면에서 **인증 방법** \> **로그인**으로 **oAuth2** 을 선택 합니다. 다른 인증 방법을 선택 하는 경우에는 서식 파일 앱에 대 한 연결이 실패 하 게 됩니다.
     
-    ![Choose oAuth2 as authentication method](../media/ac85a360-c278-4c60-8aa3-68f4828f1d96.png)
+    ![Choose oAuth2 as authentication method](../../media/ac85a360-c278-4c60-8aa3-68f4828f1d96.png)
   
 8. 서식 파일 앱이 인스턴스화되면 Microsoft 365 사용 현황 분석 대시보드를 웹의 Power BI에서 사용할 수 있습니다. 대시보드의 초기 로드는 2 ~ 30 분 정도 소요 됩니다.
   
@@ -94,4 +94,4 @@ Power BI가 아직 없는 경우 [POWER Bi Pro에 등록할](https://go.microsof
     
 2. **보고서**를 선택 하 고 **익명 식별자를 표시**하도록 선택 합니다. 이 설정은 사용 현황 보고서와 서식 파일 앱에 모두 적용 됩니다.
   
-3. **변경 내용 저장**을 선택 합니다.
+3. **변경 내용 저장**을 선택합니다.

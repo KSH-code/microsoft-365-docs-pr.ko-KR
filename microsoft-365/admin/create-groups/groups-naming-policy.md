@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 6ceca4d3-cad1-4532-9f0f-d469dfbbb552
 description: Office 365 그룹에 대 한 명명 정책을 만드는 방법을 알아봅니다.
-ms.openlocfilehash: 50ea076e22680a444cb9acf04466a7e7d052bb7a
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 11e2907462d325e4ad421914ae5a0deb5013e695
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42245490"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42352719"
 ---
 # <a name="office-365-groups-naming-policy"></a>Office 365 그룹 명명 정책
 
@@ -125,7 +125,7 @@ Office 365 그룹에 대해 Azure AD 명명 정책을 사용 하려면 하나 �
 5. 각 줄에 대해 **특성** 및 **문자열** 을 선택한 다음 특성 또는 문자열을 지정 합니다.
 6. 필요한 접두 번호와 접미사를 추가한 후 **저장**을 클릭 합니다.
 
-![Azure Active Directory의 그룹 명명 정책 설정 스크린샷](../media/groups-naming-policy-azure.png)
+![Azure Active Directory의 그룹 명명 정책 설정 스크린샷](../../media/groups-naming-policy-azure.png)
 
 ## <a name="naming-policy-experiences-across-office-365-apps"></a>Office 365 앱 전반의 명명 정책 환경
 
@@ -135,7 +135,7 @@ Office 365 그룹에 대해 Azure AD 명명 정책을 사용 하려면 하나 �
 
 웹에서 outlook (이전의 Outlook Web App 또는 OWA)은 사용자가 그룹 이름 또는 그룹 별칭을 입력할 때 이름이 데코레이팅된 이름으로 표시 됩니다. 사용자가 차단 된 사용자 지정 단어를 입력 하면 사용자가 제거할 수 있도록 차단 된 단어와 함께 오류 메시지가 UI에 표시 됩니다. 아래에는 웹 환경 스냅숏의 Outlook이 나와 있습니다.
 
-![Office 365 그룹의 그룹 명명 정책의 나란히 보기](../media/1a21657a-c542-4d9e-ac7d-887ac542a9d9.png)
+![Office 365 그룹의 그룹 명명 정책의 나란히 보기](../../media/1a21657a-c542-4d9e-ac7d-887ac542a9d9.png)
 
 ## <a name="outlook-desktop"></a>Outlook 데스크톱
 
@@ -145,19 +145,19 @@ Outlook 데스크톱에서 만든 그룹은 명명 정책을 따릅니다. Outlo
 
 Microsoft 팀은 사용자가 팀 이름을 입력할 때 명명 정책을 데코레이팅된 이름으로 표시 합니다. 사용자가 차단 된 사용자 지정 단어를 입력 하면 사용자가 해당 단어를 제거할 수 있도록 차단 된 word와 함께 오류 메시지가 표시 됩니다.
 
-![Microsoft 팀의 그룹 명명 정책 차단 됨 예](../media/7c904546-5853-4642-949a-a55dbb004eca.png)
+![Microsoft 팀의 그룹 명명 정책 차단 됨 예](../../media/7c904546-5853-4642-949a-a55dbb004eca.png)
 
 ## <a name="sharepoint"></a>SharePoint
 
 SharePoint는 사용자가 사이트 이름 또는 그룹 전자 메일 주소를 입력할 때 이름 지정 정책 이름을 표시 합니다. 사용자가 차단 된 사용자 지정 단어를 입력 하면 사용자가 해당 단어를 제거할 수 있도록 차단 된 word와 함께 오류 메시지가 표시 됩니다.
 
-![그룹 명명 정책-SharePoint 사이트 차단 된 이름](../media/cf0d6158-fd32-4a93-ac24-2e037102c42c.png)
+![그룹 명명 정책-SharePoint 사이트 차단 된 이름](../../media/cf0d6158-fd32-4a93-ac24-2e037102c42c.png)
 
 ## <a name="microsoft-stream"></a>Microsoft Stream
 
 Microsoft Stream은 사용자가 그룹 이름 또는 그룹 전자 메일 별칭을 입력할 때 명명 정책을 데코레이팅된 이름으로 표시 합니다. 사용자가 차단 된 사용자 지정 단어를 입력 하면 사용자가 해당 메시지를 제거할 수 있도록 차단 된 단어와 함께 오류 메시지가 표시 됩니다.
 
-![Microsoft Stream에 대 한 그룹 명명 정책 차단 된 예제](../media/9748f52a-3814-41a6-9ac1-4e8cd4c91011.png)
+![Microsoft Stream에 대 한 그룹 명명 정책 차단 된 예제](../../media/9748f52a-3814-41a6-9ac1-4e8cd4c91011.png)
 
 ## <a name="outlook-ios-and-android-app"></a>Outlook iOS 및 Android 앱
 
@@ -167,13 +167,13 @@ Outlook 앱에서 만든 그룹은 명명 정책을 따릅니다. Outlook mobile
 
 Planner는 명명 정책을 따릅니다. Planner 계획 이름을 입력할 때 이름 지정 정책 미리 보기를 표시 합니다. 사용자가 차단 된 사용자 지정 단어를 입력 하면 계획을 만들 때 오류 메시지가 표시 되므로 사용자가 차단 된 단어를 제거할 수 있습니다.
 
-![그룹 명명 정책-새 계획 차단 됨 만들기 예제](../media/ea692b44-3a56-4e6d-bcb8-8444fe5bbc4f.png)
+![그룹 명명 정책-새 계획 차단 됨 만들기 예제](../../media/ea692b44-3a56-4e6d-bcb8-8444fe5bbc4f.png)
 
 ## <a name="dynamics-365-for-customer-engagement"></a>고객 계약에 대 한 Dynamics 365
 
 고객 계약에 대 한 Dynamics 365는 명명 정책을 준수 합니다. Dynamics 365은 사용자가 그룹 이름 또는 그룹 전자 메일 별칭을 입력할 때 이름이 데코레이팅된 이름 지정 정책을 보여 줍니다. 사용자가 차단 된 사용자 지정 단어를 입력 하면 사용자가 해당 메시지를 제거할 수 있도록 차단 된 단어와 함께 오류 메시지가 표시 됩니다.
 
-![Dynamics 365](../media/8190331c-6779-42bd-a6b3-f7007428c8ae.png)
+![Dynamics 365](../../media/8190331c-6779-42bd-a6b3-f7007428c8ae.png)
 
 ## <a name="school-data-sync-sds"></a>SDS (학교 데이터 동기화)
 

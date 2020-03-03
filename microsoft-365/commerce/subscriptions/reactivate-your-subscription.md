@@ -25,12 +25,12 @@ search.appverid:
 - GEA150
 ms.assetid: 23aa9dd5-a2b0-42f5-8893-9541d2f3761f
 description: 만료 되는 Office 365 구독을 다시 활성화 하는 방법 또는 Microsoft에서 사용 하지 않도록 설정 하거나 중간에 취소 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 7b902e210e39f41f6753958c5b6453c85a242f6c
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 4bd5a0b9c8013117b07c69ad222447bdfd56af3a
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42245983"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42354609"
 ---
 # <a name="reactivate-your-subscription"></a>구독 다시 활성화
 
@@ -67,7 +67,7 @@ ms.locfileid: "42245983"
 
 2. 다시 활성화할 구독을 찾은 다음 **다시 활성화**를 선택 합니다.
 
-    ![다시 활성화 단추를 사용 하 여 사용 하지 않도록 설정 되거나 축소 된 기능을 의미 하는 가입 카드의 클로즈업](../../admin/media/4042c2c7-48d3-4add-963f-42f9fbcede07.png)
+    ![다시 활성화 단추를 사용 하 여 사용 하지 않도록 설정 되거나 축소 된 기능을 의미 하는 가입 카드의 클로즈업](../../media/4042c2c7-48d3-4add-963f-42f9fbcede07.png)
   
     사용 가능한 작업으로 **다시 활성화** 가 표시 되지 않으면 [지원 서비스를 호출](../../admin/contact-support-for-business-products.md) 하 여 구독을 다시 활성화 합니다.
 
@@ -88,7 +88,7 @@ ms.locfileid: "42245983"
 
 2. 다시 활성화할 구독을 찾은 다음 **다시 활성화**를 선택 합니다.
 
-    ![다시 활성화 단추를 사용 하 여 사용 하지 않도록 설정 되거나 축소 된 기능을 의미 하는 가입 카드의 클로즈업](../../admin/media/4042c2c7-48d3-4add-963f-42f9fbcede07.png)
+    ![다시 활성화 단추를 사용 하 여 사용 하지 않도록 설정 되거나 축소 된 기능을 의미 하는 가입 카드의 클로즈업](../../media/4042c2c7-48d3-4add-963f-42f9fbcede07.png)
   
     사용 가능한 작업으로 **다시 활성화** 가 표시 되지 않으면 [지원 서비스를 호출](../../admin/contact-support-for-business-products.md) 하 여 구독을 다시 활성화 합니다.
 

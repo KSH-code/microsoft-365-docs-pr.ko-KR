@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: c7c9f938-5b8e-4d52-b1a2-c7c32cb2312a
 description: Yammer 활동 보고서를 가져오고 Yammer를 사용 하 여 메시지를 게시 하거나 읽거나 읽는 사용자 수에 대 한 자세한 정보를 확인 하세요.
-ms.openlocfilehash: 0b6e7feb1d80ddc56c9ea172fa3c7e91ea0903b3
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: e4e51707aa487486e2d41d5d8bd4e84294c36ef2
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42245845"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42353519"
 ---
 # <a name="office-365-reports-in-the-admin-center---yammer-activity-report"></a>관리 센터의 Office 365 보고서-Yammer 활동 보고서
 
@@ -44,7 +44,7 @@ Microsoft 365 admin의 **보고서** 대시보드에는 조직 내 제품의 사
 
 활동 및 사용자 차트를 확인하여 사용자의 Yammer 활동을 볼 수 있습니다.
   
-![Yammer 활동 보고서](../media/92e8b2c6-166a-4154-9824-3fb6bbedf0db.JPG)
+![Yammer 활동 보고서](../../media/92e8b2c6-166a-4154-9824-3fb6bbedf0db.JPG)
   
 활동 보고서에는 다음 정보가 포함되어 있습니다.
   
@@ -54,13 +54,13 @@ Microsoft 365 admin의 **보고서** 대시보드에는 조직 내 제품의 사
     
 - **활동** 차트를 통해 조직에서 수행되는 Yammer 활동이 어느 정도인지 추세를 파악할 수 있습니다. 게시하거나 읽거나 좋아요를 클릭한 메시지를 구분하여 파악할 수 있습니다. 
     
-    ![Yammer 활동 보고서의 활동 보기](../media/76983516-2c5f-43a1-a5e3-c414e9f17638.JPG)
+    ![Yammer 활동 보고서의 활동 보기](../../media/76983516-2c5f-43a1-a5e3-c414e9f17638.JPG)
   
   - **활동** 차트에서 Y축은 메시지를 게시하거나 읽거나 좋아요를 클릭한 활동의 수입니다. 
     
 - **사용자** 차트를 통해 Yammer 활동을 생성 중인 고유한 사용자 수의 추세를 파악할 수 있습니다. 사용자가 게시하거나 읽거나 좋아요를 클릭한 Yammer 메시지의 추세를 볼 수 있습니다. 
     
-    ![Yammer 활동 보고서의 사용자 보기](../media/b1098162-7b79-430f-bfe4-9d3957d56885.JPG)
+    ![Yammer 활동 보고서의 사용자 보기](../../media/b1098162-7b79-430f-bfe4-9d3957d56885.JPG)
   
   - **사용자** 활동 차트에서 Y축은 사용자가 게시하거나 읽거나 좋아요를 클릭한 Yammer 메시지입니다. 
     
@@ -68,7 +68,7 @@ Microsoft 365 admin의 **보고서** 대시보드에는 조직 내 제품의 사
     
 - 범례에서 항목을 선택 하 여 차트에 표시 되는 계열을 필터링 할 수 있습니다. 예를 들어 **활동** 차트에서 **게시**됨, **읽음**또는 **좋아요** 를 선택 하 여 각 항목에 관련 된 정보만 표시 합니다. 
     
-    ![게시 된, 읽기 및 좋아 된 옵션](../media/8b832afc-415c-409b-816f-cb02b7a71e69.png)
+    ![게시 된, 읽기 및 좋아 된 옵션](../../media/8b832afc-415c-409b-816f-cb02b7a71e69.png)
   
     이 선택 항목을 변경해도 눈금 표에 있는 정보가 변경되지는 않습니다.
     
@@ -76,7 +76,7 @@ Microsoft 365 admin의 **보고서** 대시보드에는 조직 내 제품의 사
     
     메뉴를 사용하여 데이터를 필터링하고 정렬할 수 있습니다.
     
-    ![Yammer 보고서 메뉴 옵션](../media/9d32240c-f1ff-400b-9c4e-a21b48651530.JPG)
+    ![Yammer 보고서 메뉴 옵션](../../media/9d32240c-f1ff-400b-9c4e-a21b48651530.JPG)
   
     열도 추가하고 제거할 수 있습니다. 사용 가능한 열은 다음과 같습니다.
     

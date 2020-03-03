@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 0ddbe33c-81ea-4c02-8db9-e71d3810c0ec
 description: 'AWS (Amazon Web Services)에서 DNS 레코드를 관리 하기 위해 Office 365을 설정 하는 방법을 알아봅니다. '
-ms.openlocfilehash: 08deba83738ba0e530e719cd6fd57bee423df5e0
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 9500522478c22277c57772ef64b4d0a4b87e8c44
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42246763"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42352489"
 ---
 # <a name="change-nameservers-to-set-up-office-365-with-amazon-web-services-aws"></a>AWS(Amazon Web Services)에서 이름 서버를 변경하여 Office 365 설정
 
@@ -59,27 +59,27 @@ Office 365에서 사용자 도메인을 사용하려면 먼저 도메인을 소�
 |||||||
 |:-----|:-----|:-----|:-----|:-----|:-----|
 |**이름** <br/> |**종류** <br/> |**별칭** <br/> |**TTL(초)** <br/> |**값** <br/> |**라우팅 정책** <br/> |
-|(이 필드는 비워 둡니다.)  <br/> |TXT - Text  <br/> |아니요  <br/> |300  <br/> |MS=ms *XXXXXXXX* <br/> **참고:** 예를 들면 다음과 같습니다. 여기에는 Office 365의 표에 있는 특정 **대상 또는 주소 가리키기** 값을 사용합니다. [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)  <br/>  |Simple(단순형) <br/> |
+|(이 필드는 비워 둡니다.)  <br/> |TXT - Text  <br/> |아니요  <br/> |300  <br/> |MS=ms *XXXXXXXX* <br/> **참고:** 이 값은 예시입니다. 여기에는 Office 365의 표에 있는 특정 **보낼 대상 또는 지점** 값을 사용합니다. [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)  <br/>  |Simple(단순형) <br/> |
    
 6. **만들기**를 선택합니다.
     
 7. 방금 만든 레코드가 인터넷에서 업데이트될 수 있도록 몇 분 정도 기다립니다.
     
-Now that you've added the record at your domain registrar's site, you'll go back to Office 365 and request Office 365 to look for the record.
+이제 도메인 등록 기관에 레코드가 추가되었습니다. Office 365로 돌아가서 Office 365에 레코드를 찾을 것을 요청합니다.
   
-When Office 365 finds the correct TXT record, your domain is verified.
+Office 365에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것입니다.
   
-1. 관리 센터에서 **설정** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">도메인</a> 페이지로 이동 합니다.
+1. I관리 센터에서 ** 설정 ** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank"> 도메인 </a> 페이지로 이동하십시오.
 
     
-2. **도메인** 페이지에서 확인 하려는 도메인을 선택 합니다. 
+2. **도메인** 페이지에서 확인 중인 도메인을 선택합니다. 
     
-3. **설정** 페이지에서 **설정 시작**을 선택 합니다.
+3. **설정** 페이지에서 **설정 시작**을 선택합니다.
     
-4. **도메인 확인** 페이지에서 **확인**을 선택 합니다.
+4. **도메인 확인** 페이지에서 **확인**을 선택합니다.
     
 > [!NOTE]
-> Typically it takes about 15 minutes for DNS changes to take effect. However, it can occasionally take longer for a change you've made to update across the Internet's DNS system. DNS 레코드를 추가한 후 메일 흐름 또는 기타 문제에 문제가 있는 경우 [Office 365에서 도메인 또는 DNS 레코드를 추가한 후 문제 찾기 및 해결](../get-help-with-domains/find-and-fix-issues.md)을 참조 하세요. 
+> Typically it takes about 15 minutes for DNS changes to take effect. 그러나 변경한 내용이 인터넷의 DNS 시스템 전체에 업데이트되는 데에는 시간이 오래 걸릴 수 있습니다. DNS 레코드를 추가한 후 메일 흐름 또는 기타 문제가 발생하는 경우 [Office 365에서 도메인 또는 DNS 레코드를 추가한 후 문제 찾기 및 해결](../get-help-with-domains/find-and-fix-issues.md)를 참조하세요. 
   
 ## <a name="change-your-domains-nameserver-ns-records"></a>도메인의 NS(이름 서버) 레코드 변경
 
@@ -99,18 +99,18 @@ Office 365에서 도메인 설정을 완료하려면 도메인 등록 기관에�
     
 4. **이름 서버** 레코드 집합을 선택합니다. 
     
-    ![Select the recordset](../media/24e618e4-0a16-43a2-9886-f4f5dac79374.png)
+    ![Select the recordset](../../media/24e618e4-0a16-43a2-9886-f4f5dac79374.png)
   
 5. **NS - Name server(NS - 이름 서버)** 레코드 집합의 **Value(값)** 상자에서 모든 이름 서버를 선택한 다음 키보드의 **Delete** 키를 눌러 모든 이름 서버를 삭제합니다. 
     
     > [!CAUTION]
     > Follow these steps only if you have existing nameservers other than the four correct nameservers. (즉, **ns1.bdm.microsoftonline.com**, **ns2.bdm.microsoftonline.com**, **ns3.bdm.microsoftonline.com**또는 **ns4.bdm.microsoftonline.com**로 이름이 지정 *되지* 않은 현재 이름 서버 삭제 합니다.) 
   
-    ![Select and delete all of the nameservers in the Value box](../media/ecf1e897-fa7d-4abc-b00b-bf55b8ed2139.png)
+    ![Select and delete all of the nameservers in the Value box](../../media/ecf1e897-fa7d-4abc-b00b-bf55b8ed2139.png)
   
 6. **TTL (초):** 영역에서 **1H** (1 시간)을 선택 합니다. 
     
-    ![1 시간 동안 1H 선택](../media/c70070e1-4bde-41a7-b271-9d22c475edf6.png)
+    ![1 시간 동안 1H 선택](../../media/c70070e1-4bde-41a7-b271-9d22c475edf6.png)
   
 7. 계속해서 **NS - Name server**(NS - 이름 서버) 레코드 집합의 **Value**(값) 상자에 다음 표의 **First line**(첫 줄)에 있는 값을 입력하거나 복사하여 붙여넣고 키보드의 **Enter** 키를 누른 후 다음 **line**(줄)에 있는 값을 입력하거나 복사하여 붙여넣습니다. 
     
@@ -124,11 +124,11 @@ Office 365에서 도메인 설정을 완료하려면 도메인 등록 기관에�
 |**셋째 줄** <br/> |ns3.bdm.microsoftonline.com  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> |
 |**넷째 줄** <br/> |ns4.bdm.microsoftonline.com  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> |
    
-   ![값 상자에 첫 번째 줄 값 입력 또는 붙여넣기](../media/b63f41e0-51ef-4ab2-a4b8-ee7380e5ab35.png)
+   ![값 상자에 첫 번째 줄 값 입력 또는 붙여넣기](../../media/b63f41e0-51ef-4ab2-a4b8-ee7380e5ab35.png)
   
 8. **레코드 집합 저장**을 선택 합니다.
     
-    ![레코드 집합 저장을 선택 합니다.](../media/ab3c0558-bb7c-41e4-871e-ea82f1553476.png)
+    ![레코드 집합 저장을 선택 합니다.](../../media/ab3c0558-bb7c-41e4-871e-ea82f1553476.png)
   
 > [!NOTE]
 > 이름 서버 레코드 업데이트가 인터넷의 DNS 시스템 전체에 업데이트되기까지 몇 시간이 걸릴 수 있습니다. 그 후에는 Office 365 전자 메일 및 기타 서비스가 모두 사용자의 도메인을 사용하도록 설정됩니다. 

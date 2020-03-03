@@ -23,12 +23,12 @@ search.appverid:
 ms.assetid: a25c10d6-c1e9-4299-9185-25178df9eba6
 description: 비즈니스용 Office 365의 대금 청구 주소를 업데이트 하는 방법을 알아봅니다. 또한 대금 청구 알림을 수신 하는 데 사용 되는 전자 메일 주소를 업데이트할 수 있습니다.
 ms.custom: okr_SMB
-ms.openlocfilehash: c3d15417eed227d7e9ea94abf7fe4aa7a2eff98a
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 8cf7a8a8ac3414e8c40a1642b33e36f9b5cdf1a9
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42246457"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42354759"
 ---
 # <a name="change-your-billing-addresses-for-office-365-for-business"></a>비즈니스용 Office 365의 대금 청구 주소 변경
 
@@ -95,7 +95,7 @@ ms.locfileid: "42246457"
 
 2. 변경 하려는 구독을 선택한 다음 **결제 정보 변경을**선택 합니다.
 
-    ![The Payment method section of a Subscription card for a subscription that pays by credit card.](../../admin/media/6c9d9cae-6086-4687-a979-bb971f35f1b4.png)
+    ![The Payment method section of a Subscription card for a subscription that pays by credit card.](../../media/6c9d9cae-6086-4687-a979-bb971f35f1b4.png)
   
 3. *신용 카드 및 은행 계좌 고객:*  **결제 정보 변경** 페이지에서 업데이트할 신용 카드 또는 은행 계좌를 선택 하 고 **세부 정보 편집**, 대금 청구 주소 업데이트를 선택한 다음 **제출을**선택 합니다.
   
@@ -115,7 +115,7 @@ ms.locfileid: "42246457"
 
 2. 변경 하려는 구독을 선택한 다음 **결제 정보 변경을**선택 합니다.
 
-    ![The Payment method section of a Subscription card for a subscription that pays by invoice.](../../admin/media/51ab38aa-6e15-4e51-9f27-261c38c98fed.png)
+    ![The Payment method section of a Subscription card for a subscription that pays by invoice.](../../media/51ab38aa-6e15-4e51-9f27-261c38c98fed.png)
   
 3. **결제 정보 변경** 페이지에서 청구 주소를 업데이트 한 다음 **제출을**선택 합니다.
 
@@ -141,7 +141,7 @@ ms.locfileid: "42246457"
 
 2. 변경 하려는 구독을 선택 하 고 **기타 작업**을 선택한 다음 **서비스 사용 주소 편집**을 선택 합니다.
 
-    ![기타 작업 메뉴를 닫습니다.](../../admin/media/befa74b7-62c1-42a3-a38e-db76a1c97dba.png)
+    ![기타 작업 메뉴를 닫습니다.](../../media/befa74b7-62c1-42a3-a38e-db76a1c97dba.png)
   
 3. **서비스 사용 주소 편집** 창에서 주소를 업데이트 한 다음 **제출을**선택 합니다.
 
@@ -153,7 +153,7 @@ ms.locfileid: "42246457"
 
 2. 변경 하려는 구독을 선택 하 고 **기타 작업**을 선택한 다음 **서비스 사용 주소 편집**을 선택 합니다.
 
-    ![기타 작업 메뉴를 닫습니다.](../../admin/media/befa74b7-62c1-42a3-a38e-db76a1c97dba.png)
+    ![기타 작업 메뉴를 닫습니다.](../../media/befa74b7-62c1-42a3-a38e-db76a1c97dba.png)
   
 3. **서비스 사용 주소 편집** 창에서 주소를 업데이트 한 다음 **제출을**선택 합니다.
 

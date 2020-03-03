@@ -20,12 +20,12 @@ search.appverid:
 - GEA150
 ROBOTS: NOINDEX
 description: Microsoft 365 관리 센터를 사용 하 여 도움을 받을 수 있는 모든 방법에 대해 알아봅니다.
-ms.openlocfilehash: 4aa2d46121aa1a817381592a02bbb9b875207427
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 2d75add5b34a760358523de6e6f10553c1984abe
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42245599"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42352979"
 ---
 <!-- The following is just placeholder text from Madhura's mail. We need to add images/examples of each -->
 
@@ -43,7 +43,7 @@ ms.locfileid: "42245599"
                     <a href="what-is-help.md#integrated-help">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="../media/what-is-help/M365_WhatisHelp_IntegratedHelp.png" alt="Integrated help" />
+                                <img src="../../media/what-is-help/M365_WhatisHelp_IntegratedHelp.png" alt="Integrated help" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -62,7 +62,7 @@ ms.locfileid: "42245599"
                     <a href="what-is-help.md#modern-self-help-powered-by-ai">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="../media/what-is-help/M365_WhatisHelp_IntelligentAssistance.png" alt="Intelligent assistance" />
+                                <img src="../../media/what-is-help/M365_WhatisHelp_IntelligentAssistance.png" alt="Intelligent assistance" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -81,7 +81,7 @@ ms.locfileid: "42245599"
                     <a href="what-is-help.md#guides-and-articles">
                         <div class="cardImageOuter">
                             <div class="cardImage">
-                                <img src="../media/what-is-help/M365_WhatisHelp_ArticlesGuides.png" alt="Guides and articles" />
+                                <img src="../../media/what-is-help/M365_WhatisHelp_ArticlesGuides.png" alt="Guides and articles" />
                             </div>
                         </div>
                         <div class="cardText">
@@ -98,7 +98,7 @@ ms.locfileid: "42245599"
 ## <a name="integrated-help"></a>통합 도움말
 도움말은 관리 센터 전체에 통합 되므로 필요한 경우 바로 확인할 수 있습니다. 많은 페이지의 맨 위에는 작업에 대 한 정보 개요를 제공 하 고 자세한 학습을 위한 공식적인 설명서를 빠르게 찾을 수 있는 문서에 대 한 링크와 함께 설명 하는 인라인 도움말 텍스트가 나와 있습니다.
 
-![인라인 도움말과 문서에 대 한 링크를 보여 주는 그룹 페이지](../media/integrated-help.png)
+![인라인 도움말과 문서에 대 한 링크를 보여 주는 그룹 페이지](../../media/integrated-help.png)
 
 ## <a name="modern-self-help-powered-by-ai"></a>AI를 통해 제공 되는 최신 자가 진단
 
@@ -106,7 +106,7 @@ Microsoft 365 관리 센터에서 "도움이 필요" 단추를 선택 하면 해
 
 또는 특정 상황에서 작업을 수행 하는 방법을 모르는 경우 지원 도우미를 사용 하세요. 이 경험은 현재 영어로만 제공 됩니다. "도움이 필요" 창의 맨 위에 있는 토글을 사용 하 여 켜십시오. 지원 도우미는 도움말을 보기 위한 대화 인터페이스를 제공 합니다. 쿼리를 입력 하면 사용자가 특정 상황에 적절 한 답을 얻을 수 있는 상세한 질문이 표시 됩니다. 이를 가상 도우미로 생각 하면 솔루션을 검색 하 고 작업을 완료할 수 있습니다.
 
-![최신 자가 진단](../media/help-options.png)
+![최신 자가 진단](../../media/help-options.png)
 
 물론 가끔 질문에 대 한 답변을 많이 받은 경우가 있습니다. 최신 자가 도움이 되지 않는 경우 지원 에이전트에 연락 하는 옵션은 항상 제공 됩니다.
 

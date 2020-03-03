@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Office 365 그룹 만료 정책에 대해 알아봅니다.
-ms.openlocfilehash: 5a7a9f9a67e8436a8d4120551e306a68a015bcb9
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: c4c2f7b98247cc81b3fadc561f92084f9bd39c96
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42245424"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42352589"
 ---
 # <a name="office-365-group-expiration-policy"></a>Office 365 그룹 만료 정책
 
@@ -66,7 +66,7 @@ Office 365 그룹의 사용이 증가 함에 따라서 관리자와 사용자는
 
 모든 그룹에 대 한 정책, 선택한 그룹만 설정할 수 있으며, **없음 (없음**)을 선택 하 여 완전히 끌 수도 있습니다. 현재 다른 그룹에 대해 서로 다른 정책을 사용할 수 없습니다.
 
-![Azure Active Directory의 그룹 만료 설정 스크린샷](../media/azure-groups-expiration-settings.png)
+![Azure Active Directory의 그룹 만료 설정 스크린샷](../../media/azure-groups-expiration-settings.png)
 
 ## <a name="how-expiry-works-with-the-retention-policy"></a>보존 정책에서 만료 작동 방식
 

@@ -24,12 +24,12 @@ search.appverid:
 - GEA150
 ms.assetid: 8d83b530-f4ca-47f6-a666-e5791cbacc7e
 description: '제품 키를 사용 하 여 Office 365 비즈니스 구독을 갱신 하 고, 되풀이 대금 청구를 설정 하거나 해제 하는 방법을 알아봅니다. '
-ms.openlocfilehash: f9b80fa6cc28edbea955575016824532239ec2f9
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: bef43359b2a073339488648466adaf4603a12c43
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42257473"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42354579"
 ---
 # <a name="renew-office-365-for-business"></a>비즈니스용 Office 365 갱신
 
@@ -80,7 +80,7 @@ ms.locfileid: "42257473"
  
 3. 되풀이 되는 **대금 청구**를 설정 하려면 토글을 **설정으로 전환 합니다.**
 
-    ![정기 청구 기능이 설정 된 구독 카드의 클로즈업입니다.](../../admin/media/984464dc-6b63-4b24-84e1-67f6c4b1d48e.png)
+    ![정기 청구 기능이 설정 된 구독 카드의 클로즈업입니다.](../../media/984464dc-6b63-4b24-84e1-67f6c4b1d48e.png)
   
     전환 기능을 **해제**로 전환 하 여 되풀이 되는 **대금 청구** 를 해제할 수 있습니다.
 
@@ -103,7 +103,7 @@ ms.locfileid: "42257473"
  
 3. 되풀이 되는 **대금 청구**를 설정 하려면 토글을 **설정으로 전환 합니다.**
 
-    ![정기 청구 기능이 설정 된 구독 카드의 클로즈업입니다.](../../admin/media/984464dc-6b63-4b24-84e1-67f6c4b1d48e.png)
+    ![정기 청구 기능이 설정 된 구독 카드의 클로즈업입니다.](../../media/984464dc-6b63-4b24-84e1-67f6c4b1d48e.png)
   
     전환 기능을 **해제**로 전환 하 여 되풀이 되는 **대금 청구** 를 해제할 수 있습니다.
 

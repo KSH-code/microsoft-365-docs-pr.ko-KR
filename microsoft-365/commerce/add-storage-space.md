@@ -28,12 +28,12 @@ search.appverid:
 - GSP150
 ms.assetid: 96ea3533-de64-4b01-839a-c560875a662c
 description: Office 365 구독에서 파일 저장소를 추가 하 고 줄이는 방법에 대해 알아봅니다. 추가 파일 저장소를 사용 하는 경우 SharePoint Online 및 OneDrive에 더 많은 콘텐츠를 저장할 수 있습니다.
-ms.openlocfilehash: 9bf87715cb5acbcc5c6dd34ccd023d5aa5ce6c2c
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 64e98ff830b592b12e25620e4c2e89e09a161a3e
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42246522"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42354849"
 ---
 # <a name="add-storage-space-for-your-subscription"></a>구독에 대 한 저장소 공간 추가
 
@@ -118,14 +118,14 @@ SharePoint Online 사이트 모음의 저장소 부족을 시작 하는 경우 �
 
 2. **구독** 페이지에서 저장소 공간을 추가 하려는 구독을 선택 하 고 **추가 기능**을 선택 합니다.
 
-    ![Add-ons button used to purchase add-ons.](../admin/media/b4d2beb4-4f6d-435a-b127-01ceebd6eebf.png)
+    ![Add-ons button used to purchase add-ons.](../media/b4d2beb4-4f6d-435a-b127-01ceebd6eebf.png)
   
     > [!NOTE]
     > **추가 기능이**표시 되지 않는 경우 파트너를 통해 구독을 구매한 경우 **볼륨 라이선스 서비스 센터 (VLSC)** 를 선택 합니다.
   
 3. **추가 기능 구입**을 선택 합니다.
 
-    ![관리 센터의 구독 페이지에서 추가 기능 구입 링크를 사용 하세요.](../admin/media/f5cbc3fa-90f7-4299-976d-2482f2c69755.png)
+    ![관리 센터의 구독 페이지에서 추가 기능 구입 링크를 사용 하세요.](../media/f5cbc3fa-90f7-4299-976d-2482f2c69755.png)
   
 4. **서비스 구매** 페이지에서 **Office 365 추가 파일 저장소**를 마우스로 가리키거나 탭 한 다음 **지금 구입**을 선택 합니다.
   
@@ -143,14 +143,14 @@ SharePoint Online 사이트 모음의 저장소 부족을 시작 하는 경우 �
 
 2. **구독** 페이지에서 저장소 공간을 추가 하려는 구독을 선택 하 고 **추가 기능**을 선택 합니다.
 
-    ![Add-ons button used to purchase add-ons.](../admin/media/b4d2beb4-4f6d-435a-b127-01ceebd6eebf.png)
+    ![Add-ons button used to purchase add-ons.](../media/b4d2beb4-4f6d-435a-b127-01ceebd6eebf.png)
   
     > [!NOTE]
     > **추가 기능이**표시 되지 않는 경우 파트너를 통해 구독을 구매한 경우 **볼륨 라이선스 서비스 센터 (VLSC)** 를 선택 합니다.
   
 3. **추가 기능 구입**을 선택 합니다.
 
-    ![관리 센터의 구독 페이지에서 추가 기능 구입 링크를 사용 하세요.](../admin/media/f5cbc3fa-90f7-4299-976d-2482f2c69755.png)
+    ![관리 센터의 구독 페이지에서 추가 기능 구입 링크를 사용 하세요.](../media/f5cbc3fa-90f7-4299-976d-2482f2c69755.png)
   
 4. **서비스 구매** 페이지에서 **Office 365 추가 파일 저장소**를 마우스로 가리키거나 탭 한 다음 **지금 구입**을 선택 합니다.
   
@@ -189,20 +189,20 @@ SharePoint Online 사이트 모음의 저장소 부족을 시작 하는 경우 �
 
 2. **구독** 페이지에서 **추가 기능**을 선택 합니다.
 
-    ![Add-ons button used to purchase add-ons.](../admin/media/b4d2beb4-4f6d-435a-b127-01ceebd6eebf.png)
+    ![Add-ons button used to purchase add-ons.](../media/b4d2beb4-4f6d-435a-b127-01ceebd6eebf.png)
   
     > [!NOTE]
     > **추가 기능이**표시 되지 않는 경우 파트너를 통해 구독을 구매한 경우 **볼륨 라이선스 서비스 센터 (VLSC)** 를 선택 합니다.
   
 3. **Office 365 추가 파일 저장소**에서 **수량 변경을**선택 합니다.
 
-    ![수량 변경 링크](../admin/media/96473f2b-6ff6-45ec-b1a3-d7b204ac1f6e.png)
+    ![수량 변경 링크](../media/96473f2b-6ff6-45ec-b1a3-d7b204ac1f6e.png)
   
 4. 오른쪽 창에서 필요한 총 기가바이트 수를 입력 한 다음 **제출을**선택 합니다.
 
     예를 들어, 현재 추가 파일 저장소가 200기가바이트인데 100기가바이트만 필요한 경우 이 상자에 **100**을 입력할 수 있습니다.
 
-5. **닫기를**선택 합니다.
+5. **닫기**를 선택합니다.
 
 ::: moniker-end
 
@@ -212,20 +212,20 @@ SharePoint Online 사이트 모음의 저장소 부족을 시작 하는 경우 �
 
 2. **구독** 페이지에서 **추가 기능**을 선택 합니다.
 
-    ![Add-ons button used to purchase add-ons.](../admin/media/b4d2beb4-4f6d-435a-b127-01ceebd6eebf.png)
+    ![Add-ons button used to purchase add-ons.](../media/b4d2beb4-4f6d-435a-b127-01ceebd6eebf.png)
   
     > [!NOTE]
     > **추가 기능이**표시 되지 않는 경우 파트너를 통해 구독을 구매한 경우 **볼륨 라이선스 서비스 센터 (VLSC)** 를 선택 합니다.
   
 3. **Office 365 추가 파일 저장소**에서 **수량 변경을**선택 합니다.
 
-    ![수량 변경 링크](../admin/media/96473f2b-6ff6-45ec-b1a3-d7b204ac1f6e.png)
+    ![수량 변경 링크](../media/96473f2b-6ff6-45ec-b1a3-d7b204ac1f6e.png)
   
 4. 오른쪽 창에서 필요한 총 기가바이트 수를 입력 한 다음 **제출을**선택 합니다.
 
     예를 들어, 현재 추가 파일 저장소가 200기가바이트인데 100기가바이트만 필요한 경우 이 상자에 **100**을 입력할 수 있습니다.
 
-5. **닫기를**선택 합니다.
+5. **닫기**를 선택합니다.
 
 ::: moniker-end
 

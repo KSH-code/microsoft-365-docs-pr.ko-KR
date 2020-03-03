@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 0ad41414-0cc6-4b97-90fb-06bec7bcf590
 description: 구성원이 office 365 그룹을 대신 하 여 전자 메일을 보내거나 office 365 그룹을 사용 하 여 전자 메일을 보내는 것을 허용 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: c0dca3a3bbed6617874d9dfbca06a4ec5d6b4ebc
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 0179dbd2e3093ce80929f6c5f9e689aece845a40
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42245520"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42352759"
 ---
 # <a name="allow-members-to-send-as-or-send-on-behalf-of-a-group"></a>구성원이 그룹을 대신 하거나 다른 사람 이름으로 보내기 허용
 
@@ -47,17 +47,17 @@ ms.locfileid: "42245520"
   
 1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">Exchange 관리 센터</a>에서 **받는 사람** \> **그룹**으로 이동 합니다.
     
-2. 사용자 ****![에 게 보낼 수](../media/0cfcb590-dc51-4b4f-9276-bb2ce300d87e.png) 있도록 허용할 그룹에서 그룹 편집 아이콘 편집을 선택 합니다.   
+2. 사용자 ****![에 게 보낼 수](../../media/0cfcb590-dc51-4b4f-9276-bb2ce300d87e.png) 있도록 허용할 그룹에서 그룹 편집 아이콘 편집을 선택 합니다.   
     
 3. **그룹 위임을**선택 합니다.
     
 4. **다른 이름으로 보내기** 섹션에서 그룹으로 **+** 보낼 사용자를 추가 하려면 서명을 선택 합니다. 
     
-    ![+ 기호를 선택 하 여 Office 365 그룹으로 보낼 사용자를 추가 합니다.](../media/1df167f6-1eff-4f98-9ecd-4230fab46557.png)
+    ![+ 기호를 선택 하 여 Office 365 그룹으로 보낼 사용자를 추가 합니다.](../../media/1df167f6-1eff-4f98-9ecd-4230fab46557.png)
   
 5. 목록에서 사용자를 검색 하거나 선택 하려면 입력 합니다. **확인** 및 **저장**을 선택 합니다.
     
-    ![목록에서 사용자를 검색 하거나 선택 하려면 입력 합니다.](../media/522919cf-664c-4a25-8076-c51c8c9fbe43.png)
+    ![목록에서 사용자를 검색 하거나 선택 하려면 입력 합니다.](../../media/522919cf-664c-4a25-8076-c51c8c9fbe43.png)
   
 ## <a name="allow-members-to-send-email-on-behalf-of-a-group"></a>구성원이 그룹을 대신 하 여 전자 메일을 보낼 수 있도록 허용
 
@@ -65,17 +65,17 @@ ms.locfileid: "42245520"
   
 1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">Exchange 관리 센터</a>에서 **받는 사람** \> **그룹**으로 이동 합니다.
     
-2. 사용자에 게 보낼 수](../media/0cfcb590-dc51-4b4f-9276-bb2ce300d87e.png) 있도록 허용할 그룹에서 ![ **그룹 편집 아이콘을 선택 합니다** . 
+2. 사용자에 게 보낼 수](../../media/0cfcb590-dc51-4b4f-9276-bb2ce300d87e.png) 있도록 허용할 그룹에서 ![ **그룹 편집 아이콘을 선택 합니다** . 
     
 3. **그룹 위임을**선택 합니다.
     
 4. 대신 보내기 섹션에서 그룹으로 보낼 사용자를 **+** 추가 하려면 서명을 선택 합니다. 
     
-    ![+ 기호를 선택 하 여 Office 365 그룹으로 보낼 사용자를 추가 합니다.](../media/2bae0579-8907-4d6b-8920-ddd6555897b4.png)
+    ![+ 기호를 선택 하 여 Office 365 그룹으로 보낼 사용자를 추가 합니다.](../../media/2bae0579-8907-4d6b-8920-ddd6555897b4.png)
   
 5. 목록에서 사용자를 검색 하거나 선택 하려면 입력 합니다. **확인** 및 **저장**을 선택 합니다.
     
-    ![목록에서 사용자를 검색 하거나 선택 하려면 입력 합니다.](../media/522919cf-664c-4a25-8076-c51c8c9fbe43.png)
+    ![목록에서 사용자를 검색 하거나 선택 하려면 입력 합니다.](../../media/522919cf-664c-4a25-8076-c51c8c9fbe43.png)
 
 ## <a name="related-articles"></a>관련 문서
 

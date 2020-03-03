@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9b76065f-29b9-4b89-8059-c5f9db9ddbf6
 description: 브라우저 및 Power BI Desktop에서 보고서를 사용자 지정 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 5fc3b399638b2f1e9b1b2726fbf58e22eda33e01
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 6e4bb6cf977607ca6e3b3f57240ac89dbd530e4f
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42248231"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42355159"
 ---
 # <a name="customize-the-reports-in-microsoft-365-usage-analytics"></a>Microsoft 365 사용 현황 분석에서 보고서 사용자 지정
 
@@ -42,19 +42,19 @@ Microsoft 365 사용 현황 분석은 Power BI에 사용자가 Microsoft 365를 
   
 1. **정품 인증/라이선싱** 보고서 내에서 **정품 인증** 탭을 클릭 합니다.
     
-2. Power BI ![](../media/d8da3c19-3f2d-4bf6-811e-faa804f74770.png) 단추의 기타 페이지 단추를 맨 위에 있는 **편집** 단추를 클릭 하 여 편집 모드를 시작 합니다. 
+2. Power BI ![](../../media/d8da3c19-3f2d-4bf6-811e-faa804f74770.png) 단추의 기타 페이지 단추를 맨 위에 있는 **편집** 단추를 클릭 하 여 편집 모드를 시작 합니다. 
     
-    ![Click Edit report on the top right navigation](../media/e2c16663-1fbd-4d7f-887c-0cbb891d3b3d.png)
+    ![Click Edit report on the top right navigation](../../media/e2c16663-1fbd-4d7f-887c-0cbb891d3b3d.png)
   
 3. 오른쪽 맨 위에서 **이 페이지 복제**를 클릭 합니다.
     
-    ![Choose Duplicate this page](../media/b2d18dcd-6b82-4ce7-ab79-1b24e3721309.png)
+    ![Choose Duplicate this page](../../media/b2d18dcd-6b82-4ce7-ab79-1b24e3721309.png)
   
 4. 오른쪽 아래에서 Android, iOS, Mac 등의 OS를 기반으로 정품 인증을 사용 하는 사용자 수를 보여 주는 가로 막대형 차트를 클릭 합니다.
     
 5. 오른쪽의 **시각화** 영역에서, Visual에서 **Mac 카운트** 를 제거 하려면 옆에 있는 **X** 를 클릭 합니다.
 
-    ![Mac 개수 제거](../media/ce3d8358-df57-4f64-bd25-ac5be7fc8713.png)    
+    ![Mac 개수 제거](../../media/ce3d8358-df57-4f64-bd25-ac5be7fc8713.png)    
     
 ### <a name="create-a-new-visual"></a>새 시각적 개체 만들기
 
@@ -62,13 +62,13 @@ Microsoft 365 사용 현황 분석은 Power BI에 사용자가 Microsoft 365를 
   
 1. 왼쪽 탐색 창에서 **제품 사용** 보고서로 이동 하 고 **Yammer** 탭을 클릭 합니다.
     
-2. Power BI](../media/d8da3c19-3f2d-4bf6-811e-faa804f74770.png) 및 **편집**에서 기타 페이지 ![단추를 클릭 하 여 편집 모드로 전환 합니다. 
+2. Power BI](../../media/d8da3c19-3f2d-4bf6-811e-faa804f74770.png) 및 **편집**에서 기타 페이지 ![단추를 클릭 하 여 편집 모드로 전환 합니다. 
     
-3. 페이지 맨 아래에서 다음을 클릭 합니다. ![Power BI의 페이지 추가 단추](../media/d3b8c117-17d4-4f53-b078-8fefc2155b24.png) 새 페이지를 만들 수 있습니다.
+3. 페이지 맨 아래에서 다음을 클릭 합니다. ![Power BI의 페이지 추가 단추](../../media/d3b8c117-17d4-4f53-b078-8fefc2155b24.png) 새 페이지를 만들 수 있습니다.
   
 4. 오른쪽의 **시각화** 영역에서 **누적 가로 막대형 차트** (위쪽 행, 왼쪽부터 시작)를 클릭 합니다.
 
-    ![가로 막대형 차트 선택](../media/214c3fed-6eae-43e6-83fb-708a2d74406e.png)
+    ![가로 막대형 차트 선택](../../media/214c3fed-6eae-43e6-83fb-708a2d74406e.png)
     
 5. 해당 시각화 오른쪽 아래를 클릭하고 끌어서 확대합니다.
 
@@ -76,7 +76,7 @@ Microsoft 365 사용 현황 분석은 Power BI에 사용자가 Microsoft 365를 
 
 7. **시각화** 영역의 **축** 머리글 바로 아래에 있는 필드로 **MonthName**을 끌어다 놓습니다.
  
-    ![달 이름 끌기](../media/bff99987-8c4b-4618-89fd-47df557b0ed7.png)
+    ![달 이름 끌기](../../media/bff99987-8c4b-4618-89fd-47df557b0ed7.png)
     
 8. 오른쪽의 **필드** 영역에서 **TenantProductUsage** 테이블을 확장합니다.
 
@@ -86,9 +86,9 @@ Microsoft 365 사용 현황 분석은 Power BI에 사용자가 Microsoft 365를 
 
 11. **필터 형식** 영역이 표시되면 **Yammer** 확인란을 선택합니다.
 
-    ![Yammer 선택 확인란](../media/82e99730-0de9-42da-928a-76aab0c3e609.png)
+    ![Yammer 선택 확인란](../../media/82e99730-0de9-42da-928a-76aab0c3e609.png)
   
-12. 시각화 목록 바로 아래에서 Power BI Visualizaions ![](../media/ee0602f3-3df5-4930-b862-db1d90ae4ae2.png)의 아이콘 형식 **서식** 아이콘을 클릭 합니다.
+12. 시각화 목록 바로 아래에서 Power BI Visualizaions ![](../../media/ee0602f3-3df5-4930-b862-db1d90ae4ae2.png)의 아이콘 형식 **서식** 아이콘을 클릭 합니다.
 
 13. 제목을 확장하고 **제목 텍스트** 값을 **First-Time Yammer Users by Month**(월별 Yammer 최초 사용자)로 변경합니다.
     
@@ -112,7 +112,7 @@ Microsoft 365 사용 현황 분석은 Power BI에 사용자가 Microsoft 365를 
     
     **참고:** 보고 Api는 미리 보기 상태 이며 프로덕션 환경에 들어갈 때까지 변경 될 수 있습니다. 
   
-    ![OData feed URL for Power BI desktop](../media/c0ef967e-a454-4eba-bc8e-61e113170053.png)
+    ![OData feed URL for Power BI desktop](../../media/c0ef967e-a454-4eba-bc8e-61e113170053.png)
   
 3. 메시지가 표시 되 면 microsoft 365 (조직 또는 학교) 관리 자격 증명을 입력 하 여 Microsoft 365를 인증 합니다.
     
@@ -124,7 +124,7 @@ Microsoft 365 사용 현황 분석은 Power BI에 사용자가 Microsoft 365를 
     
     그러면 데이터가 Power BI Desktop으로 다운로드됩니다. 이 파일을 저장한 다음 필요한 보고서를 만들 수 있습니다.
     
-    ![보고 API에서 사용 가능한 ODATA 값](../media/545b4d17-dbbd-4cfc-b75a-a8b27283d438.png)
+    ![보고 API에서 사용 가능한 ODATA 값](../../media/545b4d17-dbbd-4cfc-b75a-a8b27283d438.png)
   
 ### <a name="use-the-microsoft-365-usage-analytics-template"></a>Microsoft 365 사용 현황 분석 서식 파일 사용
 
@@ -136,7 +136,7 @@ Microsoft 365 사용 현황 분석 보고서에 해당 하는 Power BI 서식 �
     
 2. 대화 상자에 테넌트 ID 값을 입력합니다.
     
-    ![Enter your tenant ID to open the pbit file](../media/071ed0bf-8b9d-49c6-81fc-fd4c6cc85bd3.png)
+    ![Enter your tenant ID to open the pbit file](../../media/071ed0bf-8b9d-49c6-81fc-fd4c6cc85bd3.png)
   
 3. 메시지가 표시 되 면 Microsoft 365에 인증 하기 위한 관리자 자격 증명을 입력 합니다.
     

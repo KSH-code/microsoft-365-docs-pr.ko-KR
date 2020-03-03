@@ -24,12 +24,12 @@ search.appverid:
 - BEA160
 ms.assetid: 0724b428-fb59-4962-8c37-6674166d7507
 description: 비즈니스 송장에 대 한 Office 365의 요금 청구 및 지불 정보를 해석 하는 방법과 구매 주문 번호를 변경 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 2cb95b49136c186158d3b8ba3fe868d2c863e0de
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 624480cdc810d5e764cad2a8e569ca60d14dc3ea
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42246427"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42354689"
 ---
 # <a name="understand-your-invoice-for-office-365-for-business"></a>Office 365 비즈니스 에디션의 송장 이해
 
@@ -37,11 +37,11 @@ ms.locfileid: "42246427"
   
 송장은 두 페이지로 되어 있습니다. 1페이지는 송장 요약으로, 송장, 주문, 지불 금액, 납부 방법, 지원 서비스 문의 방법에 대한 일반 정보가 나와 있습니다.
   
-![Page 1 of a sample invoice.](../../admin/media/b2f2cf85-a005-4f8a-a7b7-bea231372025.png)
+![Page 1 of a sample invoice.](../../media/b2f2cf85-a005-4f8a-a7b7-bea231372025.png)
   
 2페이지는 각 구독의 청구 내역에 대한 세부 정보가 나와 있습니다.
   
-![Page 2 of a sample invoice.](../../admin/media/808195cb-b1d2-4492-a748-29671ccecdd2.png)
+![Page 2 of a sample invoice.](../../media/808195cb-b1d2-4492-a748-29671ccecdd2.png)
   
 송장에 포함된 필드와 용어에 대한 설명은 이 문서 후반에 있는 [송장 필드 용어](#invoice-field-glossary)를 참조하세요.
   
