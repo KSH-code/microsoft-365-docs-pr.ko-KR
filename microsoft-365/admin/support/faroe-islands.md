@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: 사용자의 국가 또는 지역에 대 한 지원 서비스에 문의 하는 방법을 알아보세요.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: ce30fa7aab7e5a6ebe4428cbef88711473d34fd4
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 31d9306ecc6a32ddc59edec09413f2f7625c1a1a
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42256568"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42358959"
 ---
 # <a name="contact-support-for-faroe-islands"></a>페로 군도 지원 서비스에 문의
 

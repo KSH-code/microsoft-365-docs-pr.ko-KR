@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: 사용자의 국가 또는 지역에 대 한 지원 서비스에 문의 하는 방법을 알아보세요.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 71b145a42d873c7c6b2345a7da31d072493e7594
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 4710e4ecdb8e17f3601cd375db461e8357a4aded
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42248430"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42356679"
 ---
 # <a name="contact-support-for-saint-pierre-and-miquelon"></a>생피에르앤드미클롱에 대 한 지원 문의
 

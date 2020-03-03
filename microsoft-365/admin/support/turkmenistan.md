@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: 사용자의 국가 또는 지역에 대 한 지원 서비스에 문의 하는 방법을 알아보세요.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: e397af9d662739448ac7206996ad1a1442e7513d
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 58cc54d1ae57c44e9fe4a916269ed278eb3ce0fc
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42255438"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42355879"
 ---
 # <a name="contact-support-for-turkmenistan"></a>투르크메니스탄에 대 한 지원 문의
 

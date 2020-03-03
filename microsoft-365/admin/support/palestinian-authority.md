@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: 사용자의 국가 또는 지역에 대 한 지원 서비스에 문의 하는 방법을 알아보세요.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: ec2a7f172cee679008b400f6a824ba89f1b7e760
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 729d4c0aa53b75facf1295281dc0bbb237eaf97a
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42248551"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42357069"
 ---
 # <a name="contact-support-for-palestinian-authority"></a>팔레스타인 자치 정부에 대 한 지원 문의
 

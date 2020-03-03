@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: 사용자의 국가 또는 지역에 대 한 지원 서비스에 문의 하는 방법을 알아보세요.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: b8c37e773af40880391f8adefd17030b244fd71c
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: d9f60a2129ffdf93b7116f97150a1df49038e8c9
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42248662"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42357749"
 ---
 # <a name="contact-support-for-martinique"></a>마르티니크에 대 한 지원 문의
 

@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: 사용자의 국가 또는 지역에 대 한 지원 서비스에 문의 하는 방법을 알아보세요.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: abd9dd7eeb2982e1a0a1f38aa678885b4b3f67ff
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 640565ccf560ab51009a7a16dc921eb830fdd27d
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42248654"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42357979"
 ---
 # <a name="contact-support-for-mauritius"></a>모리셔스 기술 지원 서비스에 문의
 

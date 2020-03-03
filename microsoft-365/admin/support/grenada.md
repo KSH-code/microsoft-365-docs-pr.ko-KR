@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: 사용자의 국가 또는 지역에 대 한 지원 서비스에 문의 하는 방법을 알아보세요.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 10b10c873fe4af01c6fb2e71be855d5aa46b0756
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 301dc4c52ead06c1a49d36563be6da54b74b4d32
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42256488"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42358689"
 ---
 # <a name="contact-support-for-grenada"></a>Grenada에 대 한 지원 문의
 

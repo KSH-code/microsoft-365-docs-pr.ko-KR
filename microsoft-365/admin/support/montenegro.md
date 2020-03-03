@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: 사용자의 국가 또는 지역에 대 한 지원 서비스에 문의 하는 방법을 알아보세요.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: ddf99fe40f28110f346a44e7ef657c8c8f141d56
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: d6c9095762fc7107ef5a3198df1a296459d5b1df
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42248639"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42357699"
 ---
 # <a name="contact-support-for-montenegro"></a>몬테네그로에 대 한 지원 문의
 

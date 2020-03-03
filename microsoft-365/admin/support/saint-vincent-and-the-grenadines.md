@@ -12,12 +12,12 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: 사용자의 국가 또는 지역에 대 한 지원 서비스에 문의 하는 방법을 알아보세요.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: c135b2d2c6aadb90914ff3e5bc89bee8dfe36b95
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: f80998a2f3cf1afc55c5e2e62af4e4e3edcc2f34
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42256046"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42356669"
 ---
 # <a name="contact-support-for-saint-vincent-and-the-grenadines"></a>세인트 빈센트 그레나딘에 대 한 지원 문의
 
