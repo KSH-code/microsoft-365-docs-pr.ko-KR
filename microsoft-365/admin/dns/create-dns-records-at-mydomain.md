@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9982191d-ed79-46a9-b2e7-317d1a3a9867
 description: My Domain for Office 365에서 도메인을 확인하고 전자 메일, 비즈니스용 Skype 온라인 및 기타 서비스에 대한 DNS 레코드를 설정하는 방법을 알아보세요.
-ms.openlocfilehash: 5a935ea456175f6d63926c9aa33280c4ec113abd
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: c85c04d369add95d3aaa815229257fe90a24fb28
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42249374"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42349871"
 ---
 # <a name="create-dns-records-at-mydomain-for-office-365"></a>MyDomain에서 Office 365용 DNS 레코드 만들기
 
@@ -79,7 +79,7 @@ Office 365에서 사용자 도메인을 사용하려면 먼저 도메인을 소�
   
 Office 365에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것입니다.
   
-1. 관리 센터에서 **설정** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">도메인</a> 페이지로 이동합니다.
+1. I관리 센터에서 ** 설정 ** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank"> 도메인 </a> 페이지로 이동하십시오.
     
 2. **도메인** 페이지에서 확인 중인 도메인을 선택합니다. 
     
@@ -104,7 +104,7 @@ Office 365에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것
 5. 
             **Modify(수정)** 드롭다운 목록에서 **MX Record(MX 레코드)** 를 선택합니다.
     
-    ![MyDomain-BP-Configure-2-1](../media/bbfba978-8c53-471b-8c9e-8ae62e559d15.png)
+    ![MyDomain-BP-Configure-2-1](../../media/bbfba978-8c53-471b-8c9e-8ae62e559d15.png)
   
 6. 새 레코드의 상자에서 다음 표의 값을 입력하거나 복사하여 붙여넣습니다.
     
@@ -112,19 +112,19 @@ Office 365에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것
     |:-----|:-----|:-----|
     |0  <br/> 우선 순위에 대한 자세한 내용은 [MX 우선 순위란?](https://support.office.com/article/2784cc4d-95be-443d-b5f7-bb5dd867ba83.aspx)을 참조하세요. <br/> |@  <br/> | *\<domain-key\>*  .mail.protection.outlook.com  <br/> **참고:** Office 365 계정에서 \<*도메인-키*\>를 가져옵니다. > [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)          |
    
-    ![MyDomain-BP-Configure-2-2](../media/3e19cec3-7f3b-493d-81f7-cda30ba007d5.png)
+    ![MyDomain-BP-Configure-2-2](../../media/3e19cec3-7f3b-493d-81f7-cda30ba007d5.png)
   
 7. **추가**를 선택합니다.
     
-    ![MyDomain-BP-Configure-2-3](../media/1a1951a8-11d7-405d-bef5-285bbb053ce8.png)
+    ![MyDomain-BP-Configure-2-3](../../media/1a1951a8-11d7-405d-bef5-285bbb053ce8.png)
   
 8. 기존의 다른 MX 레코드가 있는 경우 삭제할 각 레코드에 대해 **Action(작업)** 열에서 **Remove(제거)** 를 선택합니다. 
     
-    ![MyDomain-BP-Configure-2-4](../media/42576149-e056-4a81-a5fd-2c5dfac44e2e.png)
+    ![MyDomain-BP-Configure-2-4](../../media/42576149-e056-4a81-a5fd-2c5dfac44e2e.png)
   
 9. **확인**을 선택합니다.
     
-    ![MyDomain-BP-Configure-2-5](../media/d6b70eb7-b79c-499e-82ff-ecef2e300368.png)
+    ![MyDomain-BP-Configure-2-5](../../media/d6b70eb7-b79c-499e-82ff-ecef2e300368.png)
   
 ## <a name="add-the-cname-records-that-are-required-for-office-365"></a>Office 365에 필요한 CNAME 레코드 추가
 <a name="BKMK_add_CNAME"> </a>
@@ -140,7 +140,7 @@ Office 365에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것
 5. 
             **Modify(수정)** 드롭다운 목록에서 **CNAME Alias(CNAME 별칭)** 를 선택합니다.
     
-    ![MyDomain-BP-Configure-3-1](../media/628267fc-d37b-42ef-bb92-265284e339ac.png)
+    ![MyDomain-BP-Configure-3-1](../../media/628267fc-d37b-42ef-bb92-265284e339ac.png)
   
 6. 첫 번째 CNAME 레코드를 추가합니다.
     
@@ -154,11 +154,11 @@ Office 365에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것
     |enterpriseregistration  <br/> |enterpriseregistration.windows.net  <br/> |
     |enterpriseenrollment  <br/> |enterpriseenrollment-s.manage.microsoft.com  <br/> |
    
-    ![MyDomain-BP-Configure-3-2](../media/3c8660b3-40bb-453d-8b99-4d22032bc4b3.png)
+    ![MyDomain-BP-Configure-3-2](../../media/3c8660b3-40bb-453d-8b99-4d22032bc4b3.png)
   
 7. **추가**를 선택하여 첫 번째 레코드를 추가합니다. 
     
-    ![MyDomain-BP-Configure-3-3](../media/103a1d99-70da-4fdf-9291-7dd058ec6c4a.png)
+    ![MyDomain-BP-Configure-3-3](../../media/103a1d99-70da-4fdf-9291-7dd058ec6c4a.png)
   
 8. 두 번째 CNAME 레코드를 추가합니다.
     
@@ -183,7 +183,7 @@ Office 365에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것
 5. 
             **수정** 드롭다운 목록에서 **TXT/SPF 레코드**를 선택합니다.
     
-    ![MyDomain-BP-Configure-4-1](../media/c461c762-52e6-4fde-b5bc-4dd5e5d62ed3.png)
+    ![MyDomain-BP-Configure-4-1](../../media/c461c762-52e6-4fde-b5bc-4dd5e5d62ed3.png)
   
 6. 
             **콘텐츠** 아래의 새 레코드에 대한 상자에 다음 표의 값을 입력하거나 복사하여 붙여넣습니다.
@@ -192,11 +192,11 @@ Office 365에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것
     |:-----|
     |v=spf1 include:spf.protection.outlook.com -all  <br/> **참고:** 모든 공백이 올바르게 유지되도록 이 항목을 복사하여 붙여 넣는 것이 좋습니다.           |
    
-    ![MyDomain-BP-Configure-4-2](../media/17d43106-88e6-47e5-aeba-0f18484acf3e.png)
+    ![MyDomain-BP-Configure-4-2](../../media/17d43106-88e6-47e5-aeba-0f18484acf3e.png)
   
 7. **추가**를 선택합니다.
     
-    ![MyDomain-BP-Configure-4-3](../media/b3670563-b620-470c-a42b-2c77888981f8.png)
+    ![MyDomain-BP-Configure-4-3](../../media/b3670563-b620-470c-a42b-2c77888981f8.png)
   
 ## <a name="add-the-two-srv-records-that-are-required-for-office-365"></a>Office 365에 필요한 2개의 SRV 레코드 추가
 <a name="BKMK_add_SRV"> </a>

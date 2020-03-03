@@ -24,12 +24,12 @@ search.appverid:
 - GEA150
 ms.assetid: 997596b5-4173-4627-b915-36abac6786dc
 description: 사용자에게 라이선스를 할당하거나 새 구독으로 사용자를 이동하는 방법을 알아봅니다.
-ms.openlocfilehash: c0fc92870d11ef199f37f15f8be34bba9c9fa3ed
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: ab8a54db77ea022cbd3aec7b3c30e8a988ff7853
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42255059"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42362063"
 ---
 # <a name="assign-licenses-to-users"></a>사용자에게 라이선스 할당
 

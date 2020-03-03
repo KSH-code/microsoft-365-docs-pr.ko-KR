@@ -25,16 +25,16 @@ search.appverid:
 - BEA160
 ms.assetid: 6a3a29a0-e616-4713-99d1-15eda62d04fa
 description: Office 365 Business Premium, Office 365 Business Essentials, Office 365 Business 또는 Office 365 Education 구독을 설정하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 28847b1b2773a0f725a5ac1a99dfc2a807f66b82
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 303e736bb3296eba5ddb7ca7e9da8f86ebdc0217
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42247838"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42360449"
 ---
 # <a name="set-up-office-365-for-business"></a>비즈니스용 Office 365 설정
 
-다음 단계에 따라 [Office 365 Business Premium, Office 365 Business Essentials, Office 365 Business 또는 Office 365 Education을 통해 비즈니스 또는 비영리 기관을 시작하고 운영할 수 있습니다.
+다음 단계에 따라 [Office 365 Business Premium](https://go.microsoft.com/fwlink/p/?LinkId=627220), Office 365 Business Essentials, Office 365 Business 또는 Office 365 Education을 통해 비즈니스 또는 [비영리 기관](https://go.microsoft.com/fwlink/p/?LinkId=627221)을 시작하고 운영할 수 있습니다.
   
 비즈니스용이 아닌가요? [Office 365 Home 또는 Office 365 Personal을 위한 설정](https://support.office.com/article/65415a24-3cbf-4f30-901d-9bf9eba7fce2.aspx)을 참조하세요.
   
@@ -58,7 +58,7 @@ Office 365 Business Premium을 설정하는 방법에 대한 간단한 비디오
 
     등록 프로세스가 완료되면 관리 센터로 이동하여 마법사를 따라 Office 앱을 설치하고 도메인을 추가하며 사용자를 추가하고 라이선스를 할당합니다. 초기 설정을 완료한 후 관리 센터의 **설정** 페이지를 사용하여 구독과 함께 제공되는 서비스를 계속 설정하고 구성할 수 있습니다.
 
-    Office 365 설정 마법사와 관리 센터 설정 페이지에 대한 자세한 내용은 [Office 365 설정 마법사와 설정 페이지의 차이점](o365-setup-wizard-and-setup-page.md)을 참조하세요.
+    Office 365 설정 마법사와 관리 센터 **설정** 페이지에 대한 자세한 내용은 [Office 365 설정 마법사와 설정 페이지의 차이점](o365-setup-wizard-and-setup-page.md)을 참조하세요.
 
 ### <a name="2-set-up-outlook-for-email"></a>2. 전자 메일에 대한 Outlook 설정
 
@@ -168,7 +168,7 @@ Office 365 Germany를 사용하는 경우 [https://portal.office.de](https://por
 
 1. **메일**을 선택합니다.
 
-2. Outlook 탐색 모음에서 **설정**![설정: 프로필 업데이트, 소프트웨어 설치 및 클라우드에 연결](../media/4b83e9cb-c7e4-46c8-b3d1-cfee017123ae.png) \> **옵션**을 선택하세요.
+2. Outlook 탐색 모음에서 **설정**![설정: 프로필 업데이트, 소프트웨어 설치 및 클라우드에 연결](../../media/4b83e9cb-c7e4-46c8-b3d1-cfee017123ae.png) \> **옵션**을 선택하세요.
 
 3. 왼쪽 창에서 **메일**을 선택하고 **계정** 아래에서 **연결된 계정**을 선택합니다.
 

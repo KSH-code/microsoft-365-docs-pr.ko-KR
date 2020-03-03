@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 7c3be3d13e40c3a758edeb224aa2b8383908dd1f
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: ef8a7695e3e54acda069f73eea88fd54b292ba8a
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41594529"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42353939"
 ---
 # <a name="azure-accountability-readiness-checklist-for-the-gdpr"></a>GDPR에 대한 Azure 책임 준비 상태 검사 목록
 
@@ -145,7 +145,7 @@ GDPR 타일의 고객 관리 컨트롤에서 컨트롤 ID 및 컨트롤 제목�
 | 12 <a name="12"> </a> | [SOC 2 유형 2 감사 보고서 [12]](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=3c7123a5-f507-48b7-8dce-cd948e6150e6&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_SOC_%2F_SSAE_16_Reports) |
 | 13 <a name="13"> </a> | [Microsoft Azure(All-Up) ISO/IEC 27001:2013 ISMS 적용성 보고서](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide?command=Download&downloadType=Document&downloadId=47d89200-b24b-491d-b657-7c523ddfb6f9&docTab=4ce99610-c9c0-11e7-8c2c-f908a777fa4d_ISO_Reports) |
 | 14 <a name="14"> </a> | [Microsoft 보안 센터 준수 제공 사항](offering-home.md)  |
-| 15 <a name="15"> </a> | [Intune의 개인 정보 및 개인 데이터](https://review.docs.microsoft.com/intune/privacy-personal-data) |
+| 15 <a name="15"> </a> | [Intune의 개인 정보 및 개인 데이터](https://docs.microsoft.com/intune/privacy-personal-data) |
 | 16 <a name="16"> </a> | [다운로드 가능한 완전한 Azure GDPR 제어 세트](https://aka.ms/GDPRControls) 또는 [준수 점수](compliance-score.md)를 통해 |
 | 17 <a name="17"> </a> | [Microsoft DPO 정보](https://aka.ms/GDPRDPO) |
 

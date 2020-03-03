@@ -14,18 +14,18 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: cfd0c127b7cea626d6e2ed571f8ed1913370c1db
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 04b14f913a9b513ee5235223315daa2611395854
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602715"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42363034"
 ---
 # <a name="financial-authority-amf-and-prudential-authority-acpr-france"></a>프랑스 재무 기관(AMF) 및 건전성 감독청(ACPR)
 
 ## <a name="about-the-amf-and-acpr"></a>AMF 및 ACPR 정보
 
-[재무 기관](https://www.amf-france.org/en_US/?langSwitch=true)([Autorité des Marchés Financiers, AMF](https://amf-france.org/)) 및 [건전성 감독청](https://acpr.banque-france.fr/en/page-sommaire/about-acpr)([Autorité de Contrôle Prudentiel et de Résolution, ACPR](https://acpr.banque-france.fr/))은 프랑스의 주요 금융 규제 기관입니다. 주식 시장 규제 기관으로서 AMF는 재무 시장 및 투자 기업을 감독하는 일을 담당합니다. 중앙 은행 소속의 독립 행정 당국인 ACPR([Banque de France](https://www.banque-france.fr/))은 은행과 보험 부문을 관리합니다.  
+[재무 기관](https://www.amf-france.org/en)([Autorité des Marchés Financiers, AMF](https://www.amf-france.org/)) 및 [건전성 감독청](https://acpr.banque-france.fr/en/page-sommaire/about-acpr)([Autorité de Contrôle Prudentiel et de Résolution, ACPR](https://acpr.banque-france.fr/))은 프랑스의 주요 금융 규제 기관입니다. 주식 시장 규제 기관으로서 AMF는 재무 시장 및 투자 기업을 감독하는 일을 담당합니다. 중앙 은행 소속의 독립 행정 당국인 ACPR([Banque de France](https://www.banque-france.fr/))은 은행과 보험 부문을 관리합니다.  
   
 AMF 및 ACPR은 “유럽 뱅킹 부문 전반에서 효과적이고 일관된 세심한 규제 및 감독을 보장하기 위해 업무를 하는 독립된 EU 기관”인 유럽은행관리국(EBA)과 협조하여 운영됩니다. 그 목적을 달성하기 위해 EBA는 EU에서 금융 기관의 클라우드 컴퓨팅을 사용하는 방법에 대한 포괄적인 접근 방법인 [클라우드 서비스 공급자로의 아웃소싱에 대한 권장 사항](https://eba.europa.eu/sites/default/documents/files/documents/10180/1848359/c1005743-567e-40fc-a995-d05fb93df5d1/Draft%20Recommendation%20on%20outsourcing%20to%20Cloud%20Service%20%20%28EBA-CP-2017-06%29.pdf )을 개요화하였습니다.  
   

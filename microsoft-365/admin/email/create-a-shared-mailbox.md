@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 871a246d-3acd-4bba-948e-5de8be0544c9
 description: 공유 사서함을 만들어 회사의 여러 사용자가 하나의 주소로 전송된 전자 메일을 읽고 답장하는 업무를 나눌 수 있습니다.
-ms.openlocfilehash: 270894da77d9ddf2b35187d8409cd2fd878b0e6d
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 2ceec37928eafab0c4f02382dd24aa3fa91aa9cd
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42255254"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42362303"
 ---
 # <a name="create-a-shared-mailbox"></a>공유 사서함 만들기 
 
@@ -64,17 +64,17 @@ ms.locfileid: "42255254"
     
 3. **공유 사서함** 페이지에서 **+ 사서함 추가**를 선택합니다. 공유 사서함의 이름을 입력합니다. 마법사에서 이름이 선택되지만, 원하는 경우 편집할 수 있습니다.
     
-    ![공유 사서함 이름을 지정합니다.](../media/e3035132-8986-4ec7-b7c0-f2752080d2c0.png)
+    ![공유 사서함 이름을 지정합니다.](../../media/e3035132-8986-4ec7-b7c0-f2752080d2c0.png)
   
 4. **추가**를 선택합니다. 몇 분 정도 기다린 다음에 구성원을 추가할 수 있습니다.
 
 5. **다음 단계**에서 **이 사서함에 구성원 추가**를 선택합니다. 구성원은 이 공유 사서함으로 받는 메일과 보내는 회신을 볼 수 있습니다.
 
-   ![구성원 추가를 선택합니다.](../media/a2a72e3d-6170-40fe-a94f-0af8fbef8ab2.png)
+   ![구성원 추가를 선택합니다.](../../media/a2a72e3d-6170-40fe-a94f-0af8fbef8ab2.png)
 
 6. **+구성원 추가** 단추를 선택합니다. 이 공유 사서함을 사용할 사람 옆에 확인 표시를 하고 **저장**을 클릭합니다.
 
-   ![공유 사서함에 구성원을 할당합니다.](../media/e6c58953-f6d7-4f0b-97ba-308516bf2a94.png)
+   ![공유 사서함에 구성원을 할당합니다.](../../media/e6c58953-f6d7-4f0b-97ba-308516bf2a94.png)
 
 7. **닫기**를 선택합니다.
 
@@ -95,7 +95,7 @@ ms.locfileid: "42255254"
 
 2. 사용자 계정 목록에서 공유 사서함의 계정을 찾습니다(예: 필터를 **라이선스가 없는 사용자**로 변경).
 
-3. 사용자를 선택하여 속성 창을 연 다음 **이 사용자 차단** 아이콘 및 ![이 사용자 차단 아이콘의 스크린 샷](../media/block-user-icon.png)을 선택합니다.
+3. 사용자를 선택하여 속성 창을 연 다음 **이 사용자 차단** 아이콘 및 ![이 사용자 차단 아이콘의 스크린 샷](../../media/block-user-icon.png)을 선택합니다.
 
    **참고**: 계정이 이미 차단된 경우 상단에 **로그인 차단됨**이 표시되고 아이콘은 **이 사용자 차단 해제**로 표시됩니다.
 

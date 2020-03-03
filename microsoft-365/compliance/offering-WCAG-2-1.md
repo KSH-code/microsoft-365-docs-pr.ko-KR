@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: fe40e4a972d205470474c6bcd137712e031b065b
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: f1abc4d885a1d9a1d915bdf5492e3492dc4318a6
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602005"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42363024"
 ---
 # <a name="web-content-accessibility-guidelines"></a>웹 콘텐츠 접근성 지침
 
@@ -51,7 +51,7 @@ Microsoft는 전체 제품 또는 서비스를 반영하는 WCAG 보고서를 �
 
 ## <a name="microsoft-accessibility-conformance-reports"></a>Microsft 접근성 적합성 보고서
 
-[모든 제품 및 서비스](https://go.microsoft.com/fwlink/p/?linkid=205097)에 대한 WCAG 보고서를 읽어보세요.
+[모든 제품 및 서비스](https://cloudblogs.microsoft.com/industry-blog/government/2018/09/11/accessibility-conformance-reports/)에 대한 WCAG 보고서를 읽어보세요.
 
 ## <a name="resources"></a>리소스
 

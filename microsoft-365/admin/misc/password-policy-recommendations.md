@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9fa2539a-2211-41fd-85a0-bc37b9619ca4
 description: 암호 공격으로부터 조직을 더 안전하게 보호하는 방법과 일반적인 암호를 금지하고 위험 기반 다단계 인증을 사용해야 하는 이유를 알아봅니다.
-ms.openlocfilehash: 0d18605559cc58dd23b91446f2ef13dc28d144cb
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 7136243aa0a358a59e4be6c348f53ca459e8a65d
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42248055"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42361329"
 ---
 # <a name="password-policy-recommendations-for-office-365"></a>Office 365에 대한 암호 정책 권장 사항
  

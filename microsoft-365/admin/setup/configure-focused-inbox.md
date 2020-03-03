@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 613a845c-4b71-41de-b331-acdcf5b6625d
 description: '조직의 모든 사용자나 특정 사용자에 대해 중요 받은 편지함을 구성하는 방법을 알아봅니다. '
-ms.openlocfilehash: 6762bf4e81254e962171ddc80027273542288f34
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 29f412b82121b8955c2ddabb5d152bbe6b2255e0
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42257073"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42360879"
 ---
 # <a name="configure-focused-inbox-for-everyone-in-your-organization"></a>조직의 모든 사용자에 대해 중요 받은 편지함 구성
 
@@ -53,7 +53,7 @@ Get-OrganizationConfig
 
 4. **FocusedInboxOn** 을 찾아 현재 설정을 확인합니다. 
     
-    ![중요 받은 편지함 상태에서의 PowerShell 응답.](../media/419d8caa-89b9-45c5-91d9-8c023297456e.png)
+    ![중요 받은 편지함 상태에서의 PowerShell 응답.](../../media/419d8caa-89b9-45c5-91d9-8c023297456e.png)
   
 5. 다음 cmdlet을 실행하여 중요 받은 편지함을 끕니다.
     
@@ -75,11 +75,11 @@ Get-OrganizationConfig
 
 Outlook을 닫았다가 다시 시작해야 중요 보기가 사용자에게 표시됩니다. Outlook을 다시 시작하면 Outlook 사용자 인터페이스에 새 중요 받은 편지함을 사용하기 위한 옵션을 제공하는 팁이 표시됩니다.
   
-![사용자가 처음으로 웹용 Outlook을 열 때 중요 받은 편지함의 이미지입니다.](../media/f6ef79e7-0f4c-4a23-b6f0-7c15d927b5f0.png)
+![사용자가 처음으로 웹용 Outlook을 열 때 중요 받은 편지함의 이미지입니다.](../../media/f6ef79e7-0f4c-4a23-b6f0-7c15d927b5f0.png)
   
 낮은 우선 순위 메일에서 중요 받은 편지함으로 전환하는 경우 사용자가 이를 사용하도록 설정할지("사용해 보기") 또는 이 기능을 해제할지를 결정할 수 있습니다. 여러(지원되는) 클라이언트가 있는 경우 사용자는 각각에서 개별적으로 중요 받은 편지함을 사용하거나 사용하지 않도록 설정할 수 있습니다. 팁은 다음과 같습니다.
   
-![중요 받은 편지함이 사용자에게 배포되고 Outlook을 다시 열었을 때 중요 받은 편지함이 어떻게 표시되는지를 보여 주는 이미지](../media/c034f969-d650-4333-88f1-dd10ade0a94c.png)
+![중요 받은 편지함이 사용자에게 배포되고 Outlook을 다시 열었을 때 중요 받은 편지함이 어떻게 표시되는지를 보여 주는 이미지](../../media/c034f969-d650-4333-88f1-dd10ade0a94c.png)
   
 사용자가 중요 받은 편지함을 사용하기로 결정하면 낮은 우선 순위 메일이 자동으로 사용하지 않도록 설정됩니다. 낮은 우선 순위 메일 폴더는 사용자가 이름을 바꾸거나 삭제할 수 있는 표준 폴더로 변환됩니다.
   
@@ -99,7 +99,7 @@ Outlook을 닫았다가 다시 시작해야 중요 보기가 사용자에게 표
 
 4. FocusedInboxOn을 찾아 현재 설정을 확인합니다.
     
-    ![중요 받은 편지함 상태에서의 PowerShell 응답.](../media/419d8caa-89b9-45c5-91d9-8c023297456e.png)
+    ![중요 받은 편지함 상태에서의 PowerShell 응답.](../../media/419d8caa-89b9-45c5-91d9-8c023297456e.png)
   
 5. 다음 cmdlet을 실행하여 중요 받은 편지함을 끕니다.
     
@@ -117,13 +117,13 @@ Outlook을 닫았다가 다시 시작해야 중요 보기가 사용자에게 표
 
 1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">Exchange 관리 센터</a>로 이동합니다.
     
-2. **메일 흐름** \> **규칙**으로 이동합니다. ![EAC 아이콘 추가](../media/795e5bdd-48bb-433f-8e07-3c7a19f8eca2.gif)를 선택한 다음 **새 규칙 만들기**를 선택합니다. 
+2. **메일 흐름** \> **규칙**으로 이동합니다. ![EAC 아이콘 추가](../../media/795e5bdd-48bb-433f-8e07-3c7a19f8eca2.gif)를 선택한 다음 **새 규칙 만들기**를 선택합니다. 
     
 3. 새 규칙 만들기가 완료되면 **저장** 을 선택하여 해당 규칙을 시작합니다. 
     
     다음 이미지는 "급여 부서"의 모든 메시지가 중요 받은 편지함으로 배달되는 예를 보여 줍니다.
     
-    ![focusedinbox 급여](../media/focusedinbox-transport-rule.PNG)
+    ![focusedinbox 급여](../../media/focusedinbox-transport-rule.PNG)
   
 ## <a name="use-powershell-to-create-a-transport-rule-to-direct-email-messages-to-the-focused-view-for-all-your-users"></a>PowerShell을 사용하여 전자 메일 메시지를 모든 사용자의 중요 보기로 보내도록 전송 규칙을 만듭니다.
 

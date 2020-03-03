@@ -19,12 +19,12 @@ search.appverid:
 - GEA150
 ms.assetid: 0d6dfb17-8582-4172-a9a9-aed798150263
 description: 조직의 사용자가 Office 365 서비스를 사용하는 방식에 대한 주기적인 보고를 받을 수 있습니다. 사용 현황 개요 대시보드를 사용하면 각 차트에 대한 세부 정보를 확인할 수 있습니다.
-ms.openlocfilehash: 6962d8ed9632ae2e819f1ea1d0e0950d82ef7ad7
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 490f7722d0bb8eb93d0d6e0ff18b7364cca5185c
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42245280"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42353969"
 ---
 # <a name="activity-reports-in-the-microsoft-365-admin-center"></a>Office 365 관리 센터의 활동 보고서
 
@@ -58,7 +58,7 @@ ms.locfileid: "42245280"
 ::: moniker-end
 
    
-2. 대시보드의 맨 위에서 **보고서 선택**을 선택하여 사용 가능한 모든 보고서 목록에서 선택합니다. 또는 서비스(전자 메일, OneDrive 등)에 대한 활동을 한눈에 볼 수 있는 위젯을 선택하여 자세한 내용을 확인합니다. <br/>![Office 365 사용 현황 대시보드](../media/usage-report-dashboard.png)
+2. 대시보드의 맨 위에서 **보고서 선택**을 선택하여 사용 가능한 모든 보고서 목록에서 선택합니다. 또는 서비스(전자 메일, OneDrive 등)에 대한 활동을 한눈에 볼 수 있는 위젯을 선택하여 자세한 내용을 확인합니다. <br/>![Office 365 사용 현황 대시보드](../../media/usage-report-dashboard.png)
   
 ## <a name="who-can-see-reports"></a>보고서를 볼 수 있는 사용자
 
@@ -164,7 +164,7 @@ ms.locfileid: "42245280"
   
 사용자 목록은 다음과 같습니다.
   
-![Office 365 보고서 - 익명 사용자 목록](../media/2ed99bce-4978-4ee3-9ea2-4a8db26eef02.png)
+![Office 365 보고서 - 익명 사용자 목록](../../media/2ed99bce-4978-4ee3-9ea2-4a8db26eef02.png)
   
 보고서 대시보드의 보고서에 효과가 적용되려면 몇 분 정도 소요됩니다. 이 설정은 보고서 API에도 적용됩니다.
   

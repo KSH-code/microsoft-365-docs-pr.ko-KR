@@ -24,12 +24,12 @@ search.appverid:
 ms.assetid: 32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b
 description: 해당 지역 또는 현지 전화 번호를 사용하거나 온라인으로 서비스 요청을 제출하거나 Microsoft store를 방문하여 기술 및 청구 지원을 받습니다.
 feedback_system: None
-ms.openlocfilehash: 72644e1e55f3432fd9027a5964022f4d989a05da
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 7fdd2f1232fe20d55ef54f72333d35ff6de8d41e
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42245575"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42352949"
 ---
 # <a name="contact-support-for-business-products---admin-help"></a>비즈니스 제품에 대해 고객 지원 센터 문의 - 관리자 도움말
 
@@ -230,7 +230,7 @@ Office 365 계획 간의 기능 가용성을 확인하려면 [Office 365 서비�
 
 이 QR 코드를 스캔하여 WeChat에서 팔로우하면 21Vianet에서 운영하는 Office 365에 대한 최신 업데이트를 받을 수 있습니다.
 
-![21Vianet에서 운영하는 Office 365용 업데이트 QR 코드](media/4d8fe09c-1a11-4cd8-be4c-75add8dccddd.jpg)
+![21Vianet에서 운영하는 Office 365용 업데이트 QR 코드](../media/4d8fe09c-1a11-4cd8-be4c-75add8dccddd.jpg)
 
 ::: moniker-end
 
