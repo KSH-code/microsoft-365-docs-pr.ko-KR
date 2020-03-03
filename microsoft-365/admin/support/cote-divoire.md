@@ -12,35 +12,35 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: 사용자의 국가 또는 지역에 대 한 지원 서비스에 문의 하는 방법을 알아보세요.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 1e4f7a56708643c588a257d0b50d94a388e72b74
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 247c06296cf5d959d69260987b3f0541e4695e01
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42247599"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42359319"
 ---
-# <a name="contact-support-for-cte-divoire"></a><span data-ttu-id="cb482-103">팀 연락처에 대 한 지원 문의</span><span class="sxs-lookup"><span data-stu-id="cb482-103">Contact support for Côte d'Ivoire</span></span>
+# <a name="contact-support-for-cte-divoire"></a><span data-ttu-id="73fa2-103">팀 연락처에 대 한 지원 문의</span><span class="sxs-lookup"><span data-stu-id="73fa2-103">Contact support for Côte d'Ivoire</span></span>
 
-<span data-ttu-id="cb482-104">[다른 국가 또는 지역을 찾습니다](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="cb482-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
+<span data-ttu-id="73fa2-104">[다른 국가 또는 지역을 찾습니다](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="73fa2-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="cb482-105">전화 번호</span><span class="sxs-lookup"><span data-stu-id="cb482-105">Phone number</span></span>
-<span data-ttu-id="cb482-106">020 24 24 90</span><span class="sxs-lookup"><span data-stu-id="cb482-106">020 24 24 90</span></span>
+## <a name="phone-number"></a><span data-ttu-id="73fa2-105">전화 번호</span><span class="sxs-lookup"><span data-stu-id="73fa2-105">Phone number</span></span>
+<span data-ttu-id="73fa2-106">020 24 24 90</span><span class="sxs-lookup"><span data-stu-id="73fa2-106">020 24 24 90</span></span>
 
-<span data-ttu-id="cb482-107">옵션 9 선택</span><span class="sxs-lookup"><span data-stu-id="cb482-107">Select option 9</span></span>
+<span data-ttu-id="73fa2-107">옵션 9 선택</span><span class="sxs-lookup"><span data-stu-id="73fa2-107">Select option 9</span></span>
 
-<span data-ttu-id="cb482-108">7703 코드 입력</span><span class="sxs-lookup"><span data-stu-id="cb482-108">Enter code 7703</span></span>
+<span data-ttu-id="73fa2-108">7703 코드 입력</span><span class="sxs-lookup"><span data-stu-id="73fa2-108">Enter code 7703</span></span>
 
-## <a name="hours"></a><span data-ttu-id="cb482-109">시간</span><span class="sxs-lookup"><span data-stu-id="cb482-109">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="cb482-110">대금 청구 지원:</span><span class="sxs-lookup"><span data-stu-id="cb482-110">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="73fa2-109">시간</span><span class="sxs-lookup"><span data-stu-id="73fa2-109">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="73fa2-110">대금 청구 지원:</span><span class="sxs-lookup"><span data-stu-id="73fa2-110">Billing Support:</span></span>
 
-<span data-ttu-id="cb482-111">프랑스어: Mon-금요일 오전 8 시-오후 4 시</span><span class="sxs-lookup"><span data-stu-id="cb482-111">French: Mon-Fri 8 AM-4 PM</span></span>
+<span data-ttu-id="73fa2-111">프랑스어: Mon-금요일 오전 8 시-오후 4 시</span><span class="sxs-lookup"><span data-stu-id="73fa2-111">French: Mon-Fri 8 AM-4 PM</span></span>
 
-<span data-ttu-id="cb482-112">영어: Mon-금요일 오전 8 시-오후 4 시</span><span class="sxs-lookup"><span data-stu-id="cb482-112">English: Mon-Fri 8 AM-4 PM</span></span>
+<span data-ttu-id="73fa2-112">영어: Mon-금요일 오전 8 시-오후 4 시</span><span class="sxs-lookup"><span data-stu-id="73fa2-112">English: Mon-Fri 8 AM-4 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="cb482-113">기술 지원:</span><span class="sxs-lookup"><span data-stu-id="cb482-113">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="73fa2-113">기술 지원:</span><span class="sxs-lookup"><span data-stu-id="73fa2-113">Technical Support:</span></span>
 
-<span data-ttu-id="cb482-114">프랑스어: Mon-금요일 7 시-오후 8 시</span><span class="sxs-lookup"><span data-stu-id="cb482-114">French: Mon-Fri 7 AM-8 PM</span></span>
+<span data-ttu-id="73fa2-114">프랑스어: Mon-금요일 7 시-오후 8 시</span><span class="sxs-lookup"><span data-stu-id="73fa2-114">French: Mon-Fri 7 AM-8 PM</span></span>
 
-<span data-ttu-id="cb482-115">영어: 하루 24 시간 365 일 연중 무휴로</span><span class="sxs-lookup"><span data-stu-id="cb482-115">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="73fa2-115">영어: 하루 24 시간 365 일 연중 무휴로</span><span class="sxs-lookup"><span data-stu-id="73fa2-115">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="cb482-116">지역 전화 요금이 적용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="cb482-116">Local call charges apply</span></span>
+<span data-ttu-id="73fa2-116">지역 전화 요금이 적용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="73fa2-116">Local call charges apply</span></span>

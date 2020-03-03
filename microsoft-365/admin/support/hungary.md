@@ -12,31 +12,31 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: 사용자의 국가 또는 지역에 대 한 지원 서비스에 문의 하는 방법을 알아보세요.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 546d61ec55f6c0076aa9e33b315ddd239d23221d
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 803d55911f680820dec47e96a6be4dea485cf46d
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42256418"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42358439"
 ---
-# <a name="contact-support-for-hungary"></a><span data-ttu-id="111e1-103">헝가리어 지원 서비스에 문의</span><span class="sxs-lookup"><span data-stu-id="111e1-103">Contact support for Hungary</span></span>
+# <a name="contact-support-for-hungary"></a><span data-ttu-id="01970-103">헝가리어 지원 서비스에 문의</span><span class="sxs-lookup"><span data-stu-id="01970-103">Contact support for Hungary</span></span>
 
-<span data-ttu-id="111e1-104">[다른 국가 또는 지역을 찾습니다](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="111e1-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
+<span data-ttu-id="01970-104">[다른 국가 또는 지역을 찾습니다](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="01970-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="111e1-105">전화 번호</span><span class="sxs-lookup"><span data-stu-id="111e1-105">Phone number</span></span>
-<span data-ttu-id="111e1-106">+ 36 80 983 899</span><span class="sxs-lookup"><span data-stu-id="111e1-106">+36 80 983 899</span></span>
+## <a name="phone-number"></a><span data-ttu-id="01970-105">전화 번호</span><span class="sxs-lookup"><span data-stu-id="01970-105">Phone number</span></span>
+<span data-ttu-id="01970-106">+ 36 80 983 899</span><span class="sxs-lookup"><span data-stu-id="01970-106">+36 80 983 899</span></span>
 
-## <a name="hours"></a><span data-ttu-id="111e1-107">시간</span><span class="sxs-lookup"><span data-stu-id="111e1-107">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="111e1-108">대금 청구 지원:</span><span class="sxs-lookup"><span data-stu-id="111e1-108">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="01970-107">시간</span><span class="sxs-lookup"><span data-stu-id="01970-107">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="01970-108">대금 청구 지원:</span><span class="sxs-lookup"><span data-stu-id="01970-108">Billing Support:</span></span>
 
-<span data-ttu-id="111e1-109">영어: Mon-금요일 오전 9 시-오후 5 시</span><span class="sxs-lookup"><span data-stu-id="111e1-109">English: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="01970-109">영어: Mon-금요일 오전 9 시-오후 5 시</span><span class="sxs-lookup"><span data-stu-id="01970-109">English: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="111e1-110">기술 지원:</span><span class="sxs-lookup"><span data-stu-id="111e1-110">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="01970-110">기술 지원:</span><span class="sxs-lookup"><span data-stu-id="01970-110">Technical Support:</span></span>
 
-<span data-ttu-id="111e1-111">헝가리어: Mon-금요일 오전 8 시-오후 6 시</span><span class="sxs-lookup"><span data-stu-id="111e1-111">Hungarian: Mon-Fri 8 AM-6 PM</span></span>
+<span data-ttu-id="01970-111">헝가리어: Mon-금요일 오전 8 시-오후 6 시</span><span class="sxs-lookup"><span data-stu-id="01970-111">Hungarian: Mon-Fri 8 AM-6 PM</span></span>
 
-<span data-ttu-id="111e1-112">영어: 하루 24 시간 365 일 연중 무휴로</span><span class="sxs-lookup"><span data-stu-id="111e1-112">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="01970-112">영어: 하루 24 시간 365 일 연중 무휴로</span><span class="sxs-lookup"><span data-stu-id="01970-112">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="111e1-113">대체 전화 번호: + 36 1 778 9292</span><span class="sxs-lookup"><span data-stu-id="111e1-113">Alternative Phone Number: +36 1 778 9292</span></span>
+<span data-ttu-id="01970-113">대체 전화 번호: + 36 1 778 9292</span><span class="sxs-lookup"><span data-stu-id="01970-113">Alternative Phone Number: +36 1 778 9292</span></span>
 
-<span data-ttu-id="111e1-114">지역 전화 요금이 적용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="111e1-114">Local call charges apply</span></span>
+<span data-ttu-id="01970-114">지역 전화 요금이 적용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="01970-114">Local call charges apply</span></span>
