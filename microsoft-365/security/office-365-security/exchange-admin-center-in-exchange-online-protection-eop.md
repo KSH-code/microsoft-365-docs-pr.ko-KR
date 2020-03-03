@@ -16,216 +16,216 @@ ms.assetid: 97921f0e-832f-40c7-b56d-414faede5191
 ms.collection:
 - M365-security-compliance
 description: EAC(Exchange 관리 센터)는 Microsoft EOP(Exchange Online Protection)의 웹 기반 관리 콘솔입니다.
-ms.openlocfilehash: f38d36249387fce2ba3b4cac9e187c1cbcadd707
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 3b5fb014e56a9928d58abffd5e4c96e1eef463ad
+ms.sourcegitcommit: 9224a7a5886c0c5fa0bc12bd9f7234a0eba90023
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42083293"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42372496"
 ---
-# <a name="exchange-admin-center-in-exchange-online-protection"></a><span data-ttu-id="b8e9e-103">Exchange Online Protection의 Exchange 관리 센터</span><span class="sxs-lookup"><span data-stu-id="b8e9e-103">Exchange admin center in Exchange Online Protection</span></span>
+# <a name="exchange-admin-center-in-exchange-online-protection"></a><span data-ttu-id="9a361-103">Exchange Online Protection의 Exchange 관리 센터</span><span class="sxs-lookup"><span data-stu-id="9a361-103">Exchange admin center in Exchange Online Protection</span></span>
 
-<span data-ttu-id="b8e9e-104">EAC(Exchange 관리 센터)는 Microsoft EOP(Exchange Online Protection)의 웹 기반 관리 콘솔입니다.</span><span class="sxs-lookup"><span data-stu-id="b8e9e-104">The Exchange admin center (EAC) is the web-based management console for Microsoft Exchange Online Protection (EOP).</span></span>
+<span data-ttu-id="9a361-104">EAC(Exchange 관리 센터)는 Microsoft EOP(Exchange Online Protection)의 웹 기반 관리 콘솔입니다.</span><span class="sxs-lookup"><span data-stu-id="9a361-104">The Exchange admin center (EAC) is the web-based management console for Microsoft Exchange Online Protection (EOP).</span></span>
 
-<span data-ttu-id="b8e9e-105">이 항목의 Exchange Server 버전을 찾으십니까?</span><span class="sxs-lookup"><span data-stu-id="b8e9e-105">Looking for the Exchange Server version of this topic?</span></span> <span data-ttu-id="b8e9e-106">[Exchange 관리 센터를](https://docs.microsoft.com/exchange/architecture/client-access/exchange-admin-center)참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="b8e9e-106">See [Exchange admin center in Exchange Server](https://docs.microsoft.com/exchange/architecture/client-access/exchange-admin-center).</span></span>
+<span data-ttu-id="9a361-105">이 항목의 Exchange Server 버전을 찾으십니까?</span><span class="sxs-lookup"><span data-stu-id="9a361-105">Looking for the Exchange Server version of this topic?</span></span> <span data-ttu-id="9a361-106">[Exchange 관리 센터를](https://docs.microsoft.com/exchange/architecture/client-access/exchange-admin-center)참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="9a361-106">See [Exchange admin center in Exchange Server](https://docs.microsoft.com/exchange/architecture/client-access/exchange-admin-center).</span></span>
 
-<span data-ttu-id="b8e9e-107">이 항목의 Exchange Online 버전을 찾으시나요?</span><span class="sxs-lookup"><span data-stu-id="b8e9e-107">Looking for the Exchange Online version of this topic?</span></span> <span data-ttu-id="b8e9e-108">Exchange [Online의 exchange 관리 센터를](https://docs.microsoft.com/exchange/exchange-admin-center)참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="b8e9e-108">See [Exchange admin center in Exchange Online](https://docs.microsoft.com/exchange/exchange-admin-center).</span></span>
+<span data-ttu-id="9a361-107">이 항목의 Exchange Online 버전을 찾으시나요?</span><span class="sxs-lookup"><span data-stu-id="9a361-107">Looking for the Exchange Online version of this topic?</span></span> <span data-ttu-id="9a361-108">Exchange [Online의 exchange 관리 센터를](https://docs.microsoft.com/exchange/exchange-admin-center)참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="9a361-108">See [Exchange admin center in Exchange Online](https://docs.microsoft.com/exchange/exchange-admin-center).</span></span>
 
-## <a name="accessing-the-eac"></a><span data-ttu-id="b8e9e-109">EAC 액세스</span><span class="sxs-lookup"><span data-stu-id="b8e9e-109">Accessing the EAC</span></span>
+## <a name="accessing-the-eac"></a><span data-ttu-id="9a361-109">EAC 액세스</span><span class="sxs-lookup"><span data-stu-id="9a361-109">Accessing the EAC</span></span>
 
-<span data-ttu-id="b8e9e-110">대부분의 경우 EOP 고객은 Microsoft 365 관리 센터를 통해 EAC에 액세스 합니다.</span><span class="sxs-lookup"><span data-stu-id="b8e9e-110">In most cases, EOP customers will access the EAC through the Microsoft 365 admin center.</span></span> <span data-ttu-id="b8e9e-111">**내 소식** 타일 옆에 있는 **관리** 타일의 드롭다운 메뉴에 EOP에 대한 링크가 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b8e9e-111">You can find a link to EOP in the drop-down menu in the **Admin** tile, which is next to the **Me** tile.</span></span> <span data-ttu-id="b8e9e-112">**관리** 타일을 클릭하고 드롭다운 메뉴에서 **Exchange Online Protection**를 선택하여 EAC로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="b8e9e-112">Click the **Admin** tile and select **Exchange Online Protection** from the drop down menu to be taken to the EAC.</span></span>
+<span data-ttu-id="9a361-110">대부분의 경우 EOP 고객은 Microsoft 365 관리 센터를 통해 EAC에 액세스 합니다.</span><span class="sxs-lookup"><span data-stu-id="9a361-110">In most cases, EOP customers will access the EAC through the Microsoft 365 admin center.</span></span> <span data-ttu-id="9a361-111">**내 소식** 타일 옆에 있는 **관리** 타일의 드롭다운 메뉴에 EOP에 대한 링크가 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9a361-111">You can find a link to EOP in the drop-down menu in the **Admin** tile, which is next to the **Me** tile.</span></span> <span data-ttu-id="9a361-112">**관리** 타일을 클릭 하 고 드롭다운 메뉴에서 **Exchange Online Protection** 을 선택 하 여 EAC로 이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="9a361-112">Click the **Admin** tile and select **Exchange Online Protection** from the drop-down menu to be taken to the EAC.</span></span>
 
-<span data-ttu-id="b8e9e-p104">You can also access the EAC sign in page directly via the following URL: `https://admin.protection.outlook.com/ecp/<companydomain>`. For example, `https://admin.protection.outlook.com/ecp/contoso.onmicrosoft.com`. After specifying your user credentials you will be taken directly into the EAC.</span><span class="sxs-lookup"><span data-stu-id="b8e9e-p104">You can also access the EAC sign in page directly via the following URL: `https://admin.protection.outlook.com/ecp/<companydomain>`. For example, `https://admin.protection.outlook.com/ecp/contoso.onmicrosoft.com`. After specifying your user credentials you will be taken directly into the EAC.</span></span>
+<span data-ttu-id="9a361-p104">You can also access the EAC sign in page directly via the following URL: `https://admin.protection.outlook.com/ecp/<companydomain>`. For example, `https://admin.protection.outlook.com/ecp/contoso.onmicrosoft.com`. After specifying your user credentials you will be taken directly into the EAC.</span><span class="sxs-lookup"><span data-stu-id="9a361-p104">You can also access the EAC sign in page directly via the following URL: `https://admin.protection.outlook.com/ecp/<companydomain>`. For example, `https://admin.protection.outlook.com/ecp/contoso.onmicrosoft.com`. After specifying your user credentials you will be taken directly into the EAC.</span></span>
 
-## <a name="common-user-interface-elements-in-the-eac"></a><span data-ttu-id="b8e9e-116">EAC의 공통 사용자 인터페이스 요소</span><span class="sxs-lookup"><span data-stu-id="b8e9e-116">Common user interface elements in the EAC</span></span>
+## <a name="common-user-interface-elements-in-the-eac"></a><span data-ttu-id="9a361-116">EAC의 공통 사용자 인터페이스 요소</span><span class="sxs-lookup"><span data-stu-id="9a361-116">Common user interface elements in the EAC</span></span>
 
-<span data-ttu-id="b8e9e-117">이 섹션에서는 EMC에 있는 사용자 인터페이스 요소에 대해 설명합니다.</span><span class="sxs-lookup"><span data-stu-id="b8e9e-117">This section describes the user interface elements that are found in the EAC.</span></span>
+<span data-ttu-id="9a361-117">이 섹션에서는 EMC에 있는 사용자 인터페이스 요소에 대해 설명합니다.</span><span class="sxs-lookup"><span data-stu-id="9a361-117">This section describes the user interface elements that are found in the EAC.</span></span>
 
 ![EOP-AdminCenter](../../media/EOP-AdminCenter.png)
 
-### <a name="feature-pane"></a><span data-ttu-id="b8e9e-119">기능 창</span><span class="sxs-lookup"><span data-stu-id="b8e9e-119">Feature Pane</span></span>
+### <a name="feature-pane"></a><span data-ttu-id="9a361-119">기능 창</span><span class="sxs-lookup"><span data-stu-id="9a361-119">Feature Pane</span></span>
 
-<span data-ttu-id="b8e9e-p105">이 창은 EAC에서 수행할 대부분의 작업에 대한 첫 번째 탐색 수준으로, 기능 영역별로 구성됩니다.</span><span class="sxs-lookup"><span data-stu-id="b8e9e-p105">This is the first level of navigation for most of the tasks you'll perform in the EAC. The feature pane is organized by feature areas.</span></span>
+<span data-ttu-id="9a361-p105">이 창은 EAC에서 수행할 대부분의 작업에 대한 첫 번째 탐색 수준으로, 기능 영역별로 구성됩니다.</span><span class="sxs-lookup"><span data-stu-id="9a361-p105">This is the first level of navigation for most of the tasks you'll perform in the EAC. The feature pane is organized by feature areas.</span></span>
 
-1. <span data-ttu-id="b8e9e-122">**받는 사람**: 내부 사용자와 외부 연락처를 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b8e9e-122">**Recipients**: This is where you'll view internal users and external contacts.</span></span>
+1. <span data-ttu-id="9a361-122">**받는 사람**: 내부 사용자와 외부 연락처를 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9a361-122">**Recipients**: This is where you'll view internal users and external contacts.</span></span>
 
-2. <span data-ttu-id="b8e9e-123">**사용 권한**: 관리자 역할을 관리할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b8e9e-123">**Permissions**: This where you'll manage administrator roles.</span></span>
+2. <span data-ttu-id="9a361-123">**사용 권한**: 관리자 역할을 관리할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9a361-123">**Permissions**: This where you'll manage administrator roles.</span></span>
 
-3. <span data-ttu-id="b8e9e-124">**준수 관리**:이 기능을 통해 관리자 역할 그룹 보고서와 같은 감사 로그 및 보고서를 찾을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b8e9e-124">**Compliance Management**: This is where you'll find audit logs and reports, such as the administrator role group report.</span></span>
+3. <span data-ttu-id="9a361-124">**준수 관리**:이 기능을 통해 관리자 역할 그룹 보고서와 같은 감사 로그 및 보고서를 찾을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9a361-124">**Compliance Management**: This is where you'll find audit logs and reports, such as the administrator role group report.</span></span>
 
-4. <span data-ttu-id="b8e9e-125">**보호**:이 기능을 통해 조직의 맬웨어 방지 및 스팸 방지 보호 기능을 관리할 수 있을 뿐만 아니라 격리에서 메시지를 관리할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b8e9e-125">**Protection**: This is where you'll manage anti-malware and anti-spam protection for your organization, as well as manage messages in quarantine.</span></span>
+4. <span data-ttu-id="9a361-125">**보호**:이 기능을 통해 조직의 맬웨어 방지 및 스팸 방지 보호 기능을 관리할 수 있을 뿐만 아니라 격리에서 메시지를 관리할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9a361-125">**Protection**: This is where you'll manage anti-malware and anti-spam protection for your organization, as well as manage messages in quarantine.</span></span>
 
-5. <span data-ttu-id="b8e9e-126">**메일 흐름**:이 기능을 통해 규칙, 허용 도메인 및 커넥터를 관리할 수 있을 뿐만 아니라 메시지 추적을 수행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b8e9e-126">**Mail Flow**: This is where you'll manage rules, accepted domains, and connectors, as well as where you'll go to perform message trace.</span></span>
+5. <span data-ttu-id="9a361-126">**메일 흐름**:이 기능을 통해 규칙, 허용 도메인 및 커넥터를 관리할 수 있을 뿐만 아니라 메시지 추적을 수행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9a361-126">**Mail Flow**: This is where you'll manage rules, accepted domains, and connectors, as well as where you'll go to perform message trace.</span></span>
 
-### <a name="tabs"></a><span data-ttu-id="b8e9e-127">탭</span><span class="sxs-lookup"><span data-stu-id="b8e9e-127">Tabs</span></span>
+### <a name="tabs"></a><span data-ttu-id="9a361-127">탭</span><span class="sxs-lookup"><span data-stu-id="9a361-127">Tabs</span></span>
 
-<span data-ttu-id="b8e9e-p106">탭은 두 번째 탐색 수준입니다. 각 기능 영역에는 각각의 기능을 나타내는 다양한 탭이 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b8e9e-p106">The tabs are your second level of navigation. Each of the feature areas contains various tabs, each representing a feature.</span></span>
+<span data-ttu-id="9a361-p106">탭은 두 번째 탐색 수준입니다. 각 기능 영역에는 각각의 기능을 나타내는 다양한 탭이 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9a361-p106">The tabs are your second level of navigation. Each of the feature areas contains various tabs, each representing a feature.</span></span>
 
-### <a name="toolbar"></a><span data-ttu-id="b8e9e-130">도구 모음</span><span class="sxs-lookup"><span data-stu-id="b8e9e-130">Toolbar</span></span>
+### <a name="toolbar"></a><span data-ttu-id="9a361-130">도구 모음</span><span class="sxs-lookup"><span data-stu-id="9a361-130">Toolbar</span></span>
 
-<span data-ttu-id="b8e9e-p107">대부분의 탭은 클릭하면 도구 모음이 표시됩니다. 도구 모음에는 특정 작업을 수행하는 아이콘이 있습니다. 다음 표에서는 아이콘과 그 작업에 대해 설명합니다.</span><span class="sxs-lookup"><span data-stu-id="b8e9e-p107">When you click most tabs, you'll see a toolbar. The toolbar has icons that perform a specific action. The following table describes the icons and their actions.</span></span>
+<span data-ttu-id="9a361-p107">대부분의 탭은 클릭하면 도구 모음이 표시됩니다. 도구 모음에는 특정 작업을 수행하는 아이콘이 있습니다. 다음 표에서는 아이콘과 그 작업에 대해 설명합니다.</span><span class="sxs-lookup"><span data-stu-id="9a361-p107">When you click most tabs, you'll see a toolbar. The toolbar has icons that perform a specific action. The following table describes the icons and their actions.</span></span>
 
-|<span data-ttu-id="b8e9e-134">**아이콘**</span><span class="sxs-lookup"><span data-stu-id="b8e9e-134">**Icon**</span></span>|<span data-ttu-id="b8e9e-135">**이름**</span><span class="sxs-lookup"><span data-stu-id="b8e9e-135">**Name**</span></span>|<span data-ttu-id="b8e9e-136">**작업**</span><span class="sxs-lookup"><span data-stu-id="b8e9e-136">**Action**</span></span>|
+|<span data-ttu-id="9a361-134">**아이콘**</span><span class="sxs-lookup"><span data-stu-id="9a361-134">**Icon**</span></span>|<span data-ttu-id="9a361-135">**이름**</span><span class="sxs-lookup"><span data-stu-id="9a361-135">**Name**</span></span>|<span data-ttu-id="9a361-136">**작업**</span><span class="sxs-lookup"><span data-stu-id="9a361-136">**Action**</span></span>|
 |:-----|:-----|:-----|
-|![아이콘 추가](../../media/ITPro-EAC-AddIcon.gif)|<span data-ttu-id="b8e9e-138">추가, 새로 만들기</span><span class="sxs-lookup"><span data-stu-id="b8e9e-138">Add, New</span></span>|<span data-ttu-id="b8e9e-p108">이 아이콘을 사용하면 새 개체를 만들 수 있습니다. 일부 아이콘에는 아래쪽 화살표가 있으며 이 화살표를 클릭하면 만들 수 있는 추가 개체가 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="b8e9e-p108">Use this icon to create a new object. Some of these icons have an associated down arrow you can click to show additional objects you can create.</span></span>|
-|![편집 아이콘](../../media/ITPro-EAC-EditIcon.gif)|<span data-ttu-id="b8e9e-142">편집</span><span class="sxs-lookup"><span data-stu-id="b8e9e-142">Edit</span></span>|<span data-ttu-id="b8e9e-143">이 아이콘을 사용하면 개체를 편집할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b8e9e-143">Use this icon to edit an object.</span></span>|
-|![삭제 아이콘](../../media/ITPro-EAC-DeleteIcon.gif)|<span data-ttu-id="b8e9e-145">삭제</span><span class="sxs-lookup"><span data-stu-id="b8e9e-145">Delete</span></span>|<span data-ttu-id="b8e9e-p109">이 아이콘을 사용하면 개체를 삭제할 수 있습니다. 일부 삭제 아이콘에는 아래쪽 화살표가 있으며 이 화살표를 클릭하면 추가 옵션이 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="b8e9e-p109">Use this icon to delete an object. Some delete icons have a down arrow you can click to show additional options.</span></span>|
-|![검색 아이콘](../../media/ITPro-EAC-.gif)|<span data-ttu-id="b8e9e-149">검색</span><span class="sxs-lookup"><span data-stu-id="b8e9e-149">Search</span></span>|<span data-ttu-id="b8e9e-150">이 아이콘을 사용하면 찾으려는 개체에 대한 검색어를 입력할 수 있는 검색 상자가 열립니다.</span><span class="sxs-lookup"><span data-stu-id="b8e9e-150">Use this icon to open a search box in which you can type the search phrase for an object you want to find.</span></span>|
-|![새로 고침 아이콘](../../media/ITPro-EAC-RefreshIcon.gif)|<span data-ttu-id="b8e9e-152">새로 고침</span><span class="sxs-lookup"><span data-stu-id="b8e9e-152">Refresh</span></span>|<span data-ttu-id="b8e9e-153">이 아이콘을 사용하면 목록 보기를 새로 고칠 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b8e9e-153">Use this icon to refresh the list view.</span></span>|
-|![기타 옵션 아이콘](../../media/ITPro-EAC-MoreOptionsIcon.gif)|<span data-ttu-id="b8e9e-155">기타 옵션</span><span class="sxs-lookup"><span data-stu-id="b8e9e-155">More options</span></span>|<span data-ttu-id="b8e9e-p110">이 아이콘을 사용하면 해당 탭의 개체에 대해 수행할 수 있는 기타 작업을 볼 수 있습니다. 예를 들어 **받는 사람 \> 사용자**에서 이 아이콘을 클릭하면 **고급 검색**을 수행할 수 있는 옵션이 표시됩니다.  </span><span class="sxs-lookup"><span data-stu-id="b8e9e-p110">Use this icon to view more actions you can perform for that tab's objects. For example, in **Recipients \> Users** clicking this icon shows the option to perform an **Advanced Search**.</span></span>|
-|![위쪽 화살표 아이콘](../../media/ITPro-EAC-UpArrowIcon.gif)![아래쪽 화살표 아이콘](../../media/ITPro-EAC-DownArrowIcon.gif)|<span data-ttu-id="b8e9e-160">위쪽 화살표와 아래쪽 화살표</span><span class="sxs-lookup"><span data-stu-id="b8e9e-160">Up arrow and down arrow</span></span>|<span data-ttu-id="b8e9e-161">이 아이콘을 사용하면 개체 우선 순위를 위나 아래로 이동할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b8e9e-161">Use these icons to move an object's priority up or down.</span></span>|
-|![아이콘 제거](../../media/ITPro-EAC-RemoveIcon.gif)|<span data-ttu-id="b8e9e-163">제거</span><span class="sxs-lookup"><span data-stu-id="b8e9e-163">Remove</span></span>|<span data-ttu-id="b8e9e-164">이 아이콘을 사용하면 목록에서 개체를 제거할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b8e9e-164">Use this icon to remove objects from a list.</span></span>|
+|![아이콘 추가](../../media/ITPro-EAC-AddIcon.gif)|<span data-ttu-id="9a361-138">추가, 새로 만들기</span><span class="sxs-lookup"><span data-stu-id="9a361-138">Add, New</span></span>|<span data-ttu-id="9a361-p108">이 아이콘을 사용하면 새 개체를 만들 수 있습니다. 일부 아이콘에는 아래쪽 화살표가 있으며 이 화살표를 클릭하면 만들 수 있는 추가 개체가 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="9a361-p108">Use this icon to create a new object. Some of these icons have an associated down arrow you can click to show additional objects you can create.</span></span>|
+|![편집 아이콘](../../media/ITPro-EAC-EditIcon.gif)|<span data-ttu-id="9a361-142">편집</span><span class="sxs-lookup"><span data-stu-id="9a361-142">Edit</span></span>|<span data-ttu-id="9a361-143">이 아이콘을 사용하면 개체를 편집할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9a361-143">Use this icon to edit an object.</span></span>|
+|![삭제 아이콘](../../media/ITPro-EAC-DeleteIcon.gif)|<span data-ttu-id="9a361-145">삭제</span><span class="sxs-lookup"><span data-stu-id="9a361-145">Delete</span></span>|<span data-ttu-id="9a361-p109">이 아이콘을 사용하면 개체를 삭제할 수 있습니다. 일부 삭제 아이콘에는 아래쪽 화살표가 있으며 이 화살표를 클릭하면 추가 옵션이 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="9a361-p109">Use this icon to delete an object. Some delete icons have a down arrow you can click to show additional options.</span></span>|
+|![검색 아이콘](../../media/ITPro-EAC-.gif)|<span data-ttu-id="9a361-149">검색</span><span class="sxs-lookup"><span data-stu-id="9a361-149">Search</span></span>|<span data-ttu-id="9a361-150">이 아이콘을 사용하면 찾으려는 개체에 대한 검색어를 입력할 수 있는 검색 상자가 열립니다.</span><span class="sxs-lookup"><span data-stu-id="9a361-150">Use this icon to open a search box in which you can type the search phrase for an object you want to find.</span></span>|
+|![새로 고침 아이콘](../../media/ITPro-EAC-RefreshIcon.gif)|<span data-ttu-id="9a361-152">새로 고침</span><span class="sxs-lookup"><span data-stu-id="9a361-152">Refresh</span></span>|<span data-ttu-id="9a361-153">이 아이콘을 사용하면 목록 보기를 새로 고칠 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9a361-153">Use this icon to refresh the list view.</span></span>|
+|![기타 옵션 아이콘](../../media/ITPro-EAC-MoreOptionsIcon.gif)|<span data-ttu-id="9a361-155">기타 옵션</span><span class="sxs-lookup"><span data-stu-id="9a361-155">More options</span></span>|<span data-ttu-id="9a361-p110">이 아이콘을 사용하면 해당 탭의 개체에 대해 수행할 수 있는 기타 작업을 볼 수 있습니다. 예를 들어 **받는 사람 \> 사용자**에서 이 아이콘을 클릭하면 **고급 검색**을 수행할 수 있는 옵션이 표시됩니다.  </span><span class="sxs-lookup"><span data-stu-id="9a361-p110">Use this icon to view more actions you can perform for that tab's objects. For example, in **Recipients \> Users** clicking this icon shows the option to perform an **Advanced Search**.</span></span>|
+|![위쪽 화살표 아이콘](../../media/ITPro-EAC-UpArrowIcon.gif)![아래쪽 화살표 아이콘](../../media/ITPro-EAC-DownArrowIcon.gif)|<span data-ttu-id="9a361-160">위쪽 화살표와 아래쪽 화살표</span><span class="sxs-lookup"><span data-stu-id="9a361-160">Up arrow and down arrow</span></span>|<span data-ttu-id="9a361-161">이 아이콘을 사용하면 개체 우선 순위를 위나 아래로 이동할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9a361-161">Use these icons to move an object's priority up or down.</span></span>|
+|![아이콘 제거](../../media/ITPro-EAC-RemoveIcon.gif)|<span data-ttu-id="9a361-163">제거</span><span class="sxs-lookup"><span data-stu-id="9a361-163">Remove</span></span>|<span data-ttu-id="9a361-164">이 아이콘을 사용하면 목록에서 개체를 제거할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9a361-164">Use this icon to remove objects from a list.</span></span>|
 
-### <a name="list-view"></a><span data-ttu-id="b8e9e-165">목록 보기</span><span class="sxs-lookup"><span data-stu-id="b8e9e-165">List View</span></span>
+### <a name="list-view"></a><span data-ttu-id="9a361-165">목록 보기</span><span class="sxs-lookup"><span data-stu-id="9a361-165">List View</span></span>
 
-<span data-ttu-id="b8e9e-p111">탭을 선택하면 대부분의 경우 목록 보기가 표시됩니다. EAC 목록 보기 내에서 약 10,000개의 개체를 볼 수 있습니다. 또한 결과로 페이징할 수 있도록 페이징이 포함되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b8e9e-p111">When you select a tab, in most cases you'll see a list view. The viewable limit with the EAC list view is approximately 10,000 objects. In addition, paging is included so that you can page to results.</span></span>
+<span data-ttu-id="9a361-p111">탭을 선택하면 대부분의 경우 목록 보기가 표시됩니다. EAC 목록 보기 내에서 약 10,000개의 개체를 볼 수 있습니다. 또한 결과로 페이징할 수 있도록 페이징이 포함되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9a361-p111">When you select a tab, in most cases you'll see a list view. The viewable limit with the EAC list view is approximately 10,000 objects. In addition, paging is included so that you can page to results.</span></span>
 
-### <a name="details-pane"></a><span data-ttu-id="b8e9e-169">세부 정보 창</span><span class="sxs-lookup"><span data-stu-id="b8e9e-169">Details Pane</span></span>
+### <a name="details-pane"></a><span data-ttu-id="9a361-169">세부 정보 창</span><span class="sxs-lookup"><span data-stu-id="9a361-169">Details Pane</span></span>
 
-<span data-ttu-id="b8e9e-p112">목록 보기에서 개체를 선택하면 해당 개체에 대한 정보가 세부 정보 창에 표시됩니다. 세부 정보 창에 관리 작업이 포함된 경우도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b8e9e-p112">When you select an object from the list view, information about that object is displayed in the details pane. In some cases the details pane includes management tasks.</span></span>
+<span data-ttu-id="9a361-p112">목록 보기에서 개체를 선택하면 해당 개체에 대한 정보가 세부 정보 창에 표시됩니다. 세부 정보 창에 관리 작업이 포함된 경우도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9a361-p112">When you select an object from the list view, information about that object is displayed in the details pane. In some cases the details pane includes management tasks.</span></span>
 
-### <a name="me-tile-and-help"></a><span data-ttu-id="b8e9e-172">내 소식 타일 및 도움말</span><span class="sxs-lookup"><span data-stu-id="b8e9e-172">Me tile and Help</span></span>
+### <a name="me-tile-and-help"></a><span data-ttu-id="9a361-172">내 소식 타일 및 도움말</span><span class="sxs-lookup"><span data-stu-id="9a361-172">Me tile and Help</span></span>
 
-<span data-ttu-id="b8e9e-p113">**내 소식** 타일을 통해 EAC에서 로그아웃하고 다른 사용자로 로그인할 수 있습니다. **도움말**![도움말 아이콘](../../media/ITPro-EAC-HelpIcon.gif) 드롭다운 메뉴에서 다음 작업을 수행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b8e9e-p113">The **Me** tile allows you to sign out the EAC and sign in as a different user. From the **Help**![Help Icon](../../media/ITPro-EAC-HelpIcon.gif) drop-down menu, you can perform the following actions:</span></span>
+<span data-ttu-id="9a361-p113">**내 소식** 타일을 통해 EAC에서 로그아웃하고 다른 사용자로 로그인할 수 있습니다. **도움말**![도움말 아이콘](../../media/ITPro-EAC-HelpIcon.gif) 드롭다운 메뉴에서 다음 작업을 수행할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9a361-p113">The **Me** tile allows you to sign out the EAC and sign in as a different user. From the **Help**![Help Icon](../../media/ITPro-EAC-HelpIcon.gif) drop-down menu, you can perform the following actions:</span></span>
 
-1. <span data-ttu-id="b8e9e-175">**도움말**: 온라인 ![도움말 콘텐츠](../../media/ITPro-EAC-HelpIcon.gif) 를 보려면 도움말 아이콘을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="b8e9e-175">**Help**: Click ![Help Icon](../../media/ITPro-EAC-HelpIcon.gif) to view the online help content.</span></span>
+1. <span data-ttu-id="9a361-175">**도움말**: 온라인 ![도움말 콘텐츠](../../media/ITPro-EAC-HelpIcon.gif) 를 보려면 도움말 아이콘을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="9a361-175">**Help**: Click ![Help Icon](../../media/ITPro-EAC-HelpIcon.gif) to view the online help content.</span></span>
 
-2. <span data-ttu-id="b8e9e-176">**사용 안 함 버블**: 도움말 버블에는 개체를 만들거나 편집할 때 필드에 대 한 상황에 맞는 도움말이 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="b8e9e-176">**Disable Help bubble**: The Help bubble displays contextual help for fields when you create or edit an object.</span></span> <span data-ttu-id="b8e9e-177">풍선형 도움말을 끌 수 있으며, 풍선형 도움말을 사용하지 않도록 설정한 경우에는 켤 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b8e9e-177">You can turn off the Help bubble or turn it on if it has been disabled.</span></span>
+2. <span data-ttu-id="9a361-176">**사용 안 함 버블**: 도움말 버블에는 개체를 만들거나 편집할 때 필드에 대 한 상황에 맞는 도움말이 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="9a361-176">**Disable Help bubble**: The Help bubble displays contextual help for fields when you create or edit an object.</span></span> <span data-ttu-id="9a361-177">풍선형 도움말을 끌 수 있으며, 풍선형 도움말을 사용하지 않도록 설정한 경우에는 켤 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="9a361-177">You can turn off the Help bubble or turn it on if it has been disabled.</span></span>
 
-3. <span data-ttu-id="b8e9e-178">**저작권**: Exchange Online Protection에 대 한 저작권 표시를 보려면이 링크를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="b8e9e-178">**Copyright**: Click this link to read the copyright notice for Exchange Online Protection.</span></span>
+3. <span data-ttu-id="9a361-178">**저작권**: Exchange Online Protection에 대 한 저작권 표시를 보려면이 링크를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="9a361-178">**Copyright**: Click this link to read the copyright notice for Exchange Online Protection.</span></span>
 
-4. <span data-ttu-id="b8e9e-179">**개인 정보 보호**:를 클릭 하 여 Exchange Online Protection에 대 한 개인 정보 보호 정책을 읽습니다.</span><span class="sxs-lookup"><span data-stu-id="b8e9e-179">**Privacy**: Click to read the privacy policy for Exchange Online Protection.</span></span>
+4. <span data-ttu-id="9a361-179">**개인 정보 보호**:를 클릭 하 여 Exchange Online Protection에 대 한 개인 정보 보호 정책을 읽습니다.</span><span class="sxs-lookup"><span data-stu-id="9a361-179">**Privacy**: Click to read the privacy policy for Exchange Online Protection.</span></span>
 
-## <a name="supported-browsers"></a><span data-ttu-id="b8e9e-180">지원되는 브라우저</span><span class="sxs-lookup"><span data-stu-id="b8e9e-180">Supported Browsers</span></span>
+## <a name="supported-browsers"></a><span data-ttu-id="9a361-180">지원되는 브라우저</span><span class="sxs-lookup"><span data-stu-id="9a361-180">Supported Browsers</span></span>
 
-<span data-ttu-id="b8e9e-181">최상의 EAC 사용 환경을 위해 항상 최신 브라우저, Office 클라이언트 및 앱을 사용하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="b8e9e-181">For the best experience using the EAC, we recommend that you always use the latest browsers, Office clients, and apps.</span></span> <span data-ttu-id="b8e9e-182">또한 소프트웨어 업데이트가 제공되면 이를 설치하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="b8e9e-182">We also recommend that you install software updates when they become available.</span></span> <span data-ttu-id="b8e9e-183">서비스의 지원 되는 브라우저 및 시스템 요구 사항에 대 한 자세한 내용은 [Office의 시스템 요구 사항을](https://products.office.com/office-system-requirements)참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="b8e9e-183">For more information about the supported browsers and system requirements for the service, see [System requirements for Office](https://products.office.com/office-system-requirements).</span></span>
+<span data-ttu-id="9a361-181">최상의 EAC 사용 환경을 위해 항상 최신 브라우저, Office 클라이언트 및 앱을 사용하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="9a361-181">For the best experience using the EAC, we recommend that you always use the latest browsers, Office clients, and apps.</span></span> <span data-ttu-id="9a361-182">또한 소프트웨어 업데이트가 제공되면 이를 설치하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="9a361-182">We also recommend that you install software updates when they become available.</span></span> <span data-ttu-id="9a361-183">서비스의 지원 되는 브라우저 및 시스템 요구 사항에 대 한 자세한 내용은 [Office의 시스템 요구 사항을](https://products.office.com/office-system-requirements)참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="9a361-183">For more information about the supported browsers and system requirements for the service, see [System requirements for Office](https://products.office.com/office-system-requirements).</span></span>
 
-## <a name="supported-languages-in-eop"></a><span data-ttu-id="b8e9e-184">EOP에서 지원되는 언어</span><span class="sxs-lookup"><span data-stu-id="b8e9e-184">Supported languages in EOP</span></span>
+## <a name="supported-languages-in-eop"></a><span data-ttu-id="9a361-184">EOP에서 지원되는 언어</span><span class="sxs-lookup"><span data-stu-id="9a361-184">Supported languages in EOP</span></span>
 
-<span data-ttu-id="b8e9e-185">Exchange Online Protection에서 지원되고 사용할 수 있는 언어는 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="b8e9e-185">The following languages are supported and available for Exchange Online Protection.</span></span>
+<span data-ttu-id="9a361-185">Exchange Online Protection에서 지원되고 사용할 수 있는 언어는 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="9a361-185">The following languages are supported and available for Exchange Online Protection.</span></span>
 
-- <span data-ttu-id="b8e9e-186">암하라어</span><span class="sxs-lookup"><span data-stu-id="b8e9e-186">Amharic</span></span>
+- <span data-ttu-id="9a361-186">암하라어</span><span class="sxs-lookup"><span data-stu-id="9a361-186">Amharic</span></span>
 
-- <span data-ttu-id="b8e9e-187">아랍어</span><span class="sxs-lookup"><span data-stu-id="b8e9e-187">Arabic</span></span>
+- <span data-ttu-id="9a361-187">아랍어</span><span class="sxs-lookup"><span data-stu-id="9a361-187">Arabic</span></span>
 
-- <span data-ttu-id="b8e9e-188">바스크어(바스크)</span><span class="sxs-lookup"><span data-stu-id="b8e9e-188">Basque (Basque)</span></span>
+- <span data-ttu-id="9a361-188">바스크어(바스크)</span><span class="sxs-lookup"><span data-stu-id="9a361-188">Basque (Basque)</span></span>
 
-- <span data-ttu-id="b8e9e-189">뱅골어(인도)</span><span class="sxs-lookup"><span data-stu-id="b8e9e-189">Bengali (India)</span></span>
+- <span data-ttu-id="9a361-189">뱅골어(인도)</span><span class="sxs-lookup"><span data-stu-id="9a361-189">Bengali (India)</span></span>
 
-- <span data-ttu-id="b8e9e-190">불가리아어</span><span class="sxs-lookup"><span data-stu-id="b8e9e-190">Bulgarian</span></span>
+- <span data-ttu-id="9a361-190">불가리아어</span><span class="sxs-lookup"><span data-stu-id="9a361-190">Bulgarian</span></span>
 
-- <span data-ttu-id="b8e9e-191">카탈로니아어</span><span class="sxs-lookup"><span data-stu-id="b8e9e-191">Catalan</span></span>
+- <span data-ttu-id="9a361-191">카탈로니아어</span><span class="sxs-lookup"><span data-stu-id="9a361-191">Catalan</span></span>
 
-- <span data-ttu-id="b8e9e-192">중국어(간체)</span><span class="sxs-lookup"><span data-stu-id="b8e9e-192">Chinese (Simplified)</span></span>
+- <span data-ttu-id="9a361-192">중국어(간체)</span><span class="sxs-lookup"><span data-stu-id="9a361-192">Chinese (Simplified)</span></span>
 
-- <span data-ttu-id="b8e9e-193">중국어(번체)</span><span class="sxs-lookup"><span data-stu-id="b8e9e-193">Chinese (Traditional)</span></span>
+- <span data-ttu-id="9a361-193">중국어(번체)</span><span class="sxs-lookup"><span data-stu-id="9a361-193">Chinese (Traditional)</span></span>
 
-- <span data-ttu-id="b8e9e-194">크로아티아어</span><span class="sxs-lookup"><span data-stu-id="b8e9e-194">Croatian</span></span>
+- <span data-ttu-id="9a361-194">크로아티아어</span><span class="sxs-lookup"><span data-stu-id="9a361-194">Croatian</span></span>
 
-- <span data-ttu-id="b8e9e-195">체코어</span><span class="sxs-lookup"><span data-stu-id="b8e9e-195">Czech</span></span>
+- <span data-ttu-id="9a361-195">체코어</span><span class="sxs-lookup"><span data-stu-id="9a361-195">Czech</span></span>
 
-- <span data-ttu-id="b8e9e-196">덴마크어</span><span class="sxs-lookup"><span data-stu-id="b8e9e-196">Danish</span></span>
+- <span data-ttu-id="9a361-196">덴마크어</span><span class="sxs-lookup"><span data-stu-id="9a361-196">Danish</span></span>
 
-- <span data-ttu-id="b8e9e-197">네덜란드어</span><span class="sxs-lookup"><span data-stu-id="b8e9e-197">Dutch</span></span>
+- <span data-ttu-id="9a361-197">네덜란드어</span><span class="sxs-lookup"><span data-stu-id="9a361-197">Dutch</span></span>
 
-- <span data-ttu-id="b8e9e-198">네덜란드어</span><span class="sxs-lookup"><span data-stu-id="b8e9e-198">Dutch</span></span>
+- <span data-ttu-id="9a361-198">네덜란드어</span><span class="sxs-lookup"><span data-stu-id="9a361-198">Dutch</span></span>
 
-- <span data-ttu-id="b8e9e-199">영어</span><span class="sxs-lookup"><span data-stu-id="b8e9e-199">English</span></span>
+- <span data-ttu-id="9a361-199">영어</span><span class="sxs-lookup"><span data-stu-id="9a361-199">English</span></span>
 
-- <span data-ttu-id="b8e9e-200">에스토니아어</span><span class="sxs-lookup"><span data-stu-id="b8e9e-200">Estonian</span></span>
+- <span data-ttu-id="9a361-200">에스토니아어</span><span class="sxs-lookup"><span data-stu-id="9a361-200">Estonian</span></span>
 
-- <span data-ttu-id="b8e9e-201">필리핀어(필리핀)</span><span class="sxs-lookup"><span data-stu-id="b8e9e-201">Filipino (Philippines)</span></span>
+- <span data-ttu-id="9a361-201">필리핀어(필리핀)</span><span class="sxs-lookup"><span data-stu-id="9a361-201">Filipino (Philippines)</span></span>
 
-- <span data-ttu-id="b8e9e-202">핀란드어</span><span class="sxs-lookup"><span data-stu-id="b8e9e-202">Finnish</span></span>
+- <span data-ttu-id="9a361-202">핀란드어</span><span class="sxs-lookup"><span data-stu-id="9a361-202">Finnish</span></span>
 
-- <span data-ttu-id="b8e9e-203">프랑스어</span><span class="sxs-lookup"><span data-stu-id="b8e9e-203">French</span></span>
+- <span data-ttu-id="9a361-203">프랑스어</span><span class="sxs-lookup"><span data-stu-id="9a361-203">French</span></span>
 
-- <span data-ttu-id="b8e9e-204">갈리시아어</span><span class="sxs-lookup"><span data-stu-id="b8e9e-204">Galician</span></span>
+- <span data-ttu-id="9a361-204">갈리시아어</span><span class="sxs-lookup"><span data-stu-id="9a361-204">Galician</span></span>
 
-- <span data-ttu-id="b8e9e-205">독일어</span><span class="sxs-lookup"><span data-stu-id="b8e9e-205">German</span></span>
+- <span data-ttu-id="9a361-205">독일어</span><span class="sxs-lookup"><span data-stu-id="9a361-205">German</span></span>
 
-- <span data-ttu-id="b8e9e-206">그리스어</span><span class="sxs-lookup"><span data-stu-id="b8e9e-206">Greek</span></span>
+- <span data-ttu-id="9a361-206">그리스어</span><span class="sxs-lookup"><span data-stu-id="9a361-206">Greek</span></span>
 
-- <span data-ttu-id="b8e9e-207">구자라트어</span><span class="sxs-lookup"><span data-stu-id="b8e9e-207">Gujarati</span></span>
+- <span data-ttu-id="9a361-207">구자라트어</span><span class="sxs-lookup"><span data-stu-id="9a361-207">Gujarati</span></span>
 
-- <span data-ttu-id="b8e9e-208">히브리어</span><span class="sxs-lookup"><span data-stu-id="b8e9e-208">Hebrew</span></span>
+- <span data-ttu-id="9a361-208">히브리어</span><span class="sxs-lookup"><span data-stu-id="9a361-208">Hebrew</span></span>
 
-- <span data-ttu-id="b8e9e-209">힌디어</span><span class="sxs-lookup"><span data-stu-id="b8e9e-209">Hindi</span></span>
+- <span data-ttu-id="9a361-209">힌디어</span><span class="sxs-lookup"><span data-stu-id="9a361-209">Hindi</span></span>
 
-- <span data-ttu-id="b8e9e-210">헝가리어</span><span class="sxs-lookup"><span data-stu-id="b8e9e-210">Hungarian</span></span>
+- <span data-ttu-id="9a361-210">헝가리어</span><span class="sxs-lookup"><span data-stu-id="9a361-210">Hungarian</span></span>
 
-- <span data-ttu-id="b8e9e-211">아이슬란드어</span><span class="sxs-lookup"><span data-stu-id="b8e9e-211">Icelandic</span></span>
+- <span data-ttu-id="9a361-211">아이슬란드어</span><span class="sxs-lookup"><span data-stu-id="9a361-211">Icelandic</span></span>
 
-- <span data-ttu-id="b8e9e-212">인도네시아어</span><span class="sxs-lookup"><span data-stu-id="b8e9e-212">Indonesian</span></span>
+- <span data-ttu-id="9a361-212">인도네시아어</span><span class="sxs-lookup"><span data-stu-id="9a361-212">Indonesian</span></span>
 
-- <span data-ttu-id="b8e9e-213">이탈리아어</span><span class="sxs-lookup"><span data-stu-id="b8e9e-213">Italian</span></span>
+- <span data-ttu-id="9a361-213">이탈리아어</span><span class="sxs-lookup"><span data-stu-id="9a361-213">Italian</span></span>
 
-- <span data-ttu-id="b8e9e-214">일본어</span><span class="sxs-lookup"><span data-stu-id="b8e9e-214">Japanese</span></span>
+- <span data-ttu-id="9a361-214">일본어</span><span class="sxs-lookup"><span data-stu-id="9a361-214">Japanese</span></span>
 
-- <span data-ttu-id="b8e9e-215">칸나다어</span><span class="sxs-lookup"><span data-stu-id="b8e9e-215">Kannada</span></span>
+- <span data-ttu-id="9a361-215">칸나다어</span><span class="sxs-lookup"><span data-stu-id="9a361-215">Kannada</span></span>
 
-- <span data-ttu-id="b8e9e-216">카자흐어</span><span class="sxs-lookup"><span data-stu-id="b8e9e-216">Kazakh</span></span>
+- <span data-ttu-id="9a361-216">카자흐어</span><span class="sxs-lookup"><span data-stu-id="9a361-216">Kazakh</span></span>
 
-- <span data-ttu-id="b8e9e-217">스와힐리어</span><span class="sxs-lookup"><span data-stu-id="b8e9e-217">Kiswahili</span></span>
+- <span data-ttu-id="9a361-217">스와힐리어</span><span class="sxs-lookup"><span data-stu-id="9a361-217">Kiswahili</span></span>
 
-- <span data-ttu-id="b8e9e-218">한국어</span><span class="sxs-lookup"><span data-stu-id="b8e9e-218">Korean</span></span>
+- <span data-ttu-id="9a361-218">한국어</span><span class="sxs-lookup"><span data-stu-id="9a361-218">Korean</span></span>
 
-- <span data-ttu-id="b8e9e-219">라트비아어</span><span class="sxs-lookup"><span data-stu-id="b8e9e-219">Latvian</span></span>
+- <span data-ttu-id="9a361-219">라트비아어</span><span class="sxs-lookup"><span data-stu-id="9a361-219">Latvian</span></span>
 
-- <span data-ttu-id="b8e9e-220">리투아니아어</span><span class="sxs-lookup"><span data-stu-id="b8e9e-220">Lithuanian</span></span>
+- <span data-ttu-id="9a361-220">리투아니아어</span><span class="sxs-lookup"><span data-stu-id="9a361-220">Lithuanian</span></span>
 
-- <span data-ttu-id="b8e9e-221">말레이어(브루나이)</span><span class="sxs-lookup"><span data-stu-id="b8e9e-221">Malay (Brunei Darussalam)</span></span>
+- <span data-ttu-id="9a361-221">말레이어(브루나이)</span><span class="sxs-lookup"><span data-stu-id="9a361-221">Malay (Brunei Darussalam)</span></span>
 
-- <span data-ttu-id="b8e9e-222">말레이어(말레이시아)</span><span class="sxs-lookup"><span data-stu-id="b8e9e-222">Malay (Malaysia)</span></span>
+- <span data-ttu-id="9a361-222">말레이어(말레이시아)</span><span class="sxs-lookup"><span data-stu-id="9a361-222">Malay (Malaysia)</span></span>
 
-- <span data-ttu-id="b8e9e-223">말라얄람어</span><span class="sxs-lookup"><span data-stu-id="b8e9e-223">Malayalam</span></span>
+- <span data-ttu-id="9a361-223">말라얄람어</span><span class="sxs-lookup"><span data-stu-id="9a361-223">Malayalam</span></span>
 
-- <span data-ttu-id="b8e9e-224">마라티어</span><span class="sxs-lookup"><span data-stu-id="b8e9e-224">Marathi</span></span>
+- <span data-ttu-id="9a361-224">마라티어</span><span class="sxs-lookup"><span data-stu-id="9a361-224">Marathi</span></span>
 
-- <span data-ttu-id="b8e9e-225">노르웨이어(복말)</span><span class="sxs-lookup"><span data-stu-id="b8e9e-225">Norwegian (Bokmål)</span></span>
+- <span data-ttu-id="9a361-225">노르웨이어(복말)</span><span class="sxs-lookup"><span data-stu-id="9a361-225">Norwegian (Bokmål)</span></span>
 
-- <span data-ttu-id="b8e9e-226">노르웨이어(니노르스크)</span><span class="sxs-lookup"><span data-stu-id="b8e9e-226">Norwegian (Nynorsk)</span></span>
+- <span data-ttu-id="9a361-226">노르웨이어(니노르스크)</span><span class="sxs-lookup"><span data-stu-id="9a361-226">Norwegian (Nynorsk)</span></span>
 
-- <span data-ttu-id="b8e9e-227">오리야어</span><span class="sxs-lookup"><span data-stu-id="b8e9e-227">Oriya</span></span>
+- <span data-ttu-id="9a361-227">오리야어</span><span class="sxs-lookup"><span data-stu-id="9a361-227">Oriya</span></span>
 
-- <span data-ttu-id="b8e9e-228">페르시아어</span><span class="sxs-lookup"><span data-stu-id="b8e9e-228">Persian</span></span>
+- <span data-ttu-id="9a361-228">페르시아어</span><span class="sxs-lookup"><span data-stu-id="9a361-228">Persian</span></span>
 
-- <span data-ttu-id="b8e9e-229">폴란드어</span><span class="sxs-lookup"><span data-stu-id="b8e9e-229">Polish</span></span>
+- <span data-ttu-id="9a361-229">폴란드어</span><span class="sxs-lookup"><span data-stu-id="9a361-229">Polish</span></span>
 
-- <span data-ttu-id="b8e9e-230">포르투갈어(브라질)</span><span class="sxs-lookup"><span data-stu-id="b8e9e-230">Portuguese (Brazil)</span></span>
+- <span data-ttu-id="9a361-230">포르투갈어(브라질)</span><span class="sxs-lookup"><span data-stu-id="9a361-230">Portuguese (Brazil)</span></span>
 
-- <span data-ttu-id="b8e9e-231">포르투갈어(포르투갈)</span><span class="sxs-lookup"><span data-stu-id="b8e9e-231">Portuguese (Portugal)</span></span>
+- <span data-ttu-id="9a361-231">포르투갈어(포르투갈)</span><span class="sxs-lookup"><span data-stu-id="9a361-231">Portuguese (Portugal)</span></span>
 
-- <span data-ttu-id="b8e9e-232">루마니아어</span><span class="sxs-lookup"><span data-stu-id="b8e9e-232">Romanian</span></span>
+- <span data-ttu-id="9a361-232">루마니아어</span><span class="sxs-lookup"><span data-stu-id="9a361-232">Romanian</span></span>
 
-- <span data-ttu-id="b8e9e-233">러시아어</span><span class="sxs-lookup"><span data-stu-id="b8e9e-233">Russian</span></span>
+- <span data-ttu-id="9a361-233">러시아어</span><span class="sxs-lookup"><span data-stu-id="9a361-233">Russian</span></span>
 
-- <span data-ttu-id="b8e9e-234">세르비아어(키릴 자모, 세르비아)</span><span class="sxs-lookup"><span data-stu-id="b8e9e-234">Serbian (Cyrillic, Serbia)</span></span>
+- <span data-ttu-id="9a361-234">세르비아어(키릴 자모, 세르비아)</span><span class="sxs-lookup"><span data-stu-id="9a361-234">Serbian (Cyrillic, Serbia)</span></span>
 
-- <span data-ttu-id="b8e9e-235">세르비아어(라틴 문자)</span><span class="sxs-lookup"><span data-stu-id="b8e9e-235">Serbian (Latin)</span></span>
+- <span data-ttu-id="9a361-235">세르비아어(라틴 문자)</span><span class="sxs-lookup"><span data-stu-id="9a361-235">Serbian (Latin)</span></span>
 
-- <span data-ttu-id="b8e9e-236">슬로바키아어</span><span class="sxs-lookup"><span data-stu-id="b8e9e-236">Slovak</span></span>
+- <span data-ttu-id="9a361-236">슬로바키아어</span><span class="sxs-lookup"><span data-stu-id="9a361-236">Slovak</span></span>
 
-- <span data-ttu-id="b8e9e-237">슬로베니아어</span><span class="sxs-lookup"><span data-stu-id="b8e9e-237">Slovenian</span></span>
+- <span data-ttu-id="9a361-237">슬로베니아어</span><span class="sxs-lookup"><span data-stu-id="9a361-237">Slovenian</span></span>
 
-- <span data-ttu-id="b8e9e-238">스페인어</span><span class="sxs-lookup"><span data-stu-id="b8e9e-238">Spanish</span></span>
+- <span data-ttu-id="9a361-238">스페인어</span><span class="sxs-lookup"><span data-stu-id="9a361-238">Spanish</span></span>
 
-- <span data-ttu-id="b8e9e-239">스웨덴어</span><span class="sxs-lookup"><span data-stu-id="b8e9e-239">Swedish</span></span>
+- <span data-ttu-id="9a361-239">스웨덴어</span><span class="sxs-lookup"><span data-stu-id="9a361-239">Swedish</span></span>
 
-- <span data-ttu-id="b8e9e-240">타밀어</span><span class="sxs-lookup"><span data-stu-id="b8e9e-240">Tamil</span></span>
+- <span data-ttu-id="9a361-240">타밀어</span><span class="sxs-lookup"><span data-stu-id="9a361-240">Tamil</span></span>
 
-- <span data-ttu-id="b8e9e-241">텔루구어</span><span class="sxs-lookup"><span data-stu-id="b8e9e-241">Telugu</span></span>
+- <span data-ttu-id="9a361-241">텔루구어</span><span class="sxs-lookup"><span data-stu-id="9a361-241">Telugu</span></span>
 
-- <span data-ttu-id="b8e9e-242">태국어</span><span class="sxs-lookup"><span data-stu-id="b8e9e-242">Thai</span></span>
+- <span data-ttu-id="9a361-242">태국어</span><span class="sxs-lookup"><span data-stu-id="9a361-242">Thai</span></span>
 
-- <span data-ttu-id="b8e9e-243">터키어</span><span class="sxs-lookup"><span data-stu-id="b8e9e-243">Turkish</span></span>
+- <span data-ttu-id="9a361-243">터키어</span><span class="sxs-lookup"><span data-stu-id="9a361-243">Turkish</span></span>
 
-- <span data-ttu-id="b8e9e-244">우크라이나어</span><span class="sxs-lookup"><span data-stu-id="b8e9e-244">Ukrainian</span></span>
+- <span data-ttu-id="9a361-244">우크라이나어</span><span class="sxs-lookup"><span data-stu-id="9a361-244">Ukrainian</span></span>
 
-- <span data-ttu-id="b8e9e-245">우르두어</span><span class="sxs-lookup"><span data-stu-id="b8e9e-245">Urdu</span></span>
+- <span data-ttu-id="9a361-245">우르두어</span><span class="sxs-lookup"><span data-stu-id="9a361-245">Urdu</span></span>
 
-- <span data-ttu-id="b8e9e-246">베트남어</span><span class="sxs-lookup"><span data-stu-id="b8e9e-246">Vietnamese</span></span>
+- <span data-ttu-id="9a361-246">베트남어</span><span class="sxs-lookup"><span data-stu-id="9a361-246">Vietnamese</span></span>
 
-- <span data-ttu-id="b8e9e-247">웨일스어</span><span class="sxs-lookup"><span data-stu-id="b8e9e-247">Welsh</span></span>
+- <span data-ttu-id="9a361-247">웨일스어</span><span class="sxs-lookup"><span data-stu-id="9a361-247">Welsh</span></span>
 
 

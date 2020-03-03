@@ -12,31 +12,31 @@ ms.collection: Adm_Support
 localization_priority: Normal
 description: 사용자의 국가 또는 지역에 대 한 지원 서비스에 문의 하는 방법을 알아보세요.
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 9b4aaa9ea3e9b236c8ff2c6335d590516dc07eee
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 829715176ec545e92b5af9509e2b6085ec0705f9
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42247830"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42360339"
 ---
-# <a name="contact-support-for-albania"></a><span data-ttu-id="85ea1-103">알바니아에 대 한 지원 문의</span><span class="sxs-lookup"><span data-stu-id="85ea1-103">Contact support for Albania</span></span>
+# <a name="contact-support-for-albania"></a><span data-ttu-id="a82e0-103">알바니아에 대 한 지원 문의</span><span class="sxs-lookup"><span data-stu-id="a82e0-103">Contact support for Albania</span></span>
 
-<span data-ttu-id="85ea1-104">[다른 국가 또는 지역을 찾습니다](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="85ea1-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
+<span data-ttu-id="a82e0-104">[다른 국가 또는 지역을 찾습니다](../contact-support-for-business-products.md).</span><span class="sxs-lookup"><span data-stu-id="a82e0-104">[Find another country or region](../contact-support-for-business-products.md).</span></span>
 
-## <a name="phone-number"></a><span data-ttu-id="85ea1-105">전화 번호</span><span class="sxs-lookup"><span data-stu-id="85ea1-105">Phone number</span></span>
-<span data-ttu-id="85ea1-106">04 451 5151</span><span class="sxs-lookup"><span data-stu-id="85ea1-106">04 451 5151</span></span>
+## <a name="phone-number"></a><span data-ttu-id="a82e0-105">전화 번호</span><span class="sxs-lookup"><span data-stu-id="a82e0-105">Phone number</span></span>
+<span data-ttu-id="a82e0-106">04 451 5151</span><span class="sxs-lookup"><span data-stu-id="a82e0-106">04 451 5151</span></span>
 
-<span data-ttu-id="85ea1-107">옵션 9 선택</span><span class="sxs-lookup"><span data-stu-id="85ea1-107">Select option 9</span></span>
+<span data-ttu-id="a82e0-107">옵션 9 선택</span><span class="sxs-lookup"><span data-stu-id="a82e0-107">Select option 9</span></span>
 
-<span data-ttu-id="85ea1-108">7700 코드 입력</span><span class="sxs-lookup"><span data-stu-id="85ea1-108">Enter code 7700</span></span>
+<span data-ttu-id="a82e0-108">7700 코드 입력</span><span class="sxs-lookup"><span data-stu-id="a82e0-108">Enter code 7700</span></span>
 
-## <a name="hours"></a><span data-ttu-id="85ea1-109">시간</span><span class="sxs-lookup"><span data-stu-id="85ea1-109">Hours</span></span>
-### <a name="billing-support"></a><span data-ttu-id="85ea1-110">대금 청구 지원:</span><span class="sxs-lookup"><span data-stu-id="85ea1-110">Billing Support:</span></span>
+## <a name="hours"></a><span data-ttu-id="a82e0-109">시간</span><span class="sxs-lookup"><span data-stu-id="a82e0-109">Hours</span></span>
+### <a name="billing-support"></a><span data-ttu-id="a82e0-110">대금 청구 지원:</span><span class="sxs-lookup"><span data-stu-id="a82e0-110">Billing Support:</span></span>
 
-<span data-ttu-id="85ea1-111">영어: Mon-금요일 오전 9 시-오후 5 시</span><span class="sxs-lookup"><span data-stu-id="85ea1-111">English: Mon-Fri 9 AM-5 PM</span></span>
+<span data-ttu-id="a82e0-111">영어: Mon-금요일 오전 9 시-오후 5 시</span><span class="sxs-lookup"><span data-stu-id="a82e0-111">English: Mon-Fri 9 AM-5 PM</span></span>
 
-### <a name="technical-support"></a><span data-ttu-id="85ea1-112">기술 지원:</span><span class="sxs-lookup"><span data-stu-id="85ea1-112">Technical Support:</span></span>
+### <a name="technical-support"></a><span data-ttu-id="a82e0-112">기술 지원:</span><span class="sxs-lookup"><span data-stu-id="a82e0-112">Technical Support:</span></span>
 
-<span data-ttu-id="85ea1-113">영어: 하루 24 시간 365 일 연중 무휴로</span><span class="sxs-lookup"><span data-stu-id="85ea1-113">English: 24 hours a day, 7 days a week</span></span>
+<span data-ttu-id="a82e0-113">영어: 하루 24 시간 365 일 연중 무휴로</span><span class="sxs-lookup"><span data-stu-id="a82e0-113">English: 24 hours a day, 7 days a week</span></span>
 
-<span data-ttu-id="85ea1-114">지역 전화 요금이 적용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="85ea1-114">Local call charges apply</span></span>
+<span data-ttu-id="a82e0-114">지역 전화 요금이 적용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="a82e0-114">Local call charges apply</span></span>
