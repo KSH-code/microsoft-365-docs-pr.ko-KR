@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 55c96b32-e086-4c9e-948b-a018b44510cb
 description: 보안 그룹을 만들거나 편집 하거나 삭제 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 26b431a65035f2546bb44af2ecf31bfd327e53b6
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: f51c21261a83e1a0034a67f9f1580dd297a3d583
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42255238"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42362283"
 ---
 # <a name="create-edit-or-delete-a-security-group-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터에서 보안 그룹 만들기, 편집 또는 삭제
 
@@ -135,7 +135,7 @@ Office 365 **그룹** 페이지에서 SharePoint ONLINE 및 CRM Online에 동일
     
 ## <a name="groups-in-exchange-online-and-sharepoint-online"></a>Exchange Online 및 SharePoint Online의 그룹
 
-전자 메일을 모두 동시에 보낼 수 있도록 사용자 그룹을 만들려는 경우에는 exchange 관리 센터에서 **관리** \> **exchange** \> **받는 사람** \> **그룹**으로 이동 하 여이 작업을 수행할 수 있습니다. 그런 다음 **새로 만들기**![](../media/328ffb57-5f31-430a-b653-4a6b8e76d338.png)를 선택 하 고 만들려는 그룹의 유형을 선택 합니다. 
+전자 메일을 모두 동시에 보낼 수 있도록 사용자 그룹을 만들려는 경우에는 exchange 관리 센터에서 **관리** \> **exchange** \> **받는 사람** \> **그룹**으로 이동 하 여이 작업을 수행할 수 있습니다. 그런 다음 **새로 만들기**![](../../media/328ffb57-5f31-430a-b653-4a6b8e76d338.png)를 선택 하 고 만들려는 그룹의 유형을 선택 합니다. 
   
 - **메일 그룹**: 사용자 그룹에 메시지를 배포하는 데 사용됩니다. *메일 사용이 가능한 메일 그룹이*라고도 하며, Office 365에서 *메일*그룹입니다. 자세한 내용은 [메일 그룹 관리](https://technet.microsoft.com/library/bb124513.aspx)를 참조하세요.
     

@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 ms.assetid: 7dc5d983-84b2-4802-bef0-602ae1780a42
 description: 계획 또는 회사 이름을 변경 했을 때 두 Office 365 계정 간에 데이터를 수동으로 전송 하거나 여러 구독을 하나로 결합 하는 방법을 알아봅니다.
-ms.openlocfilehash: 004dd586c207678157afdb418e54f3c3b5353304
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 91f9d7b17a0296931393a89ff95d70628400c61a
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42255070"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42362153"
 ---
 # <a name="transfer-data-manually-between-two-office-365-accounts"></a>두 Office 365 계정 간에 데이터를 수동으로 전송
 

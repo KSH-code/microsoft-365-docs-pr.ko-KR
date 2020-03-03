@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 48b26596-9e5b-4e5a-a64f-7430eb2a1e45
 description: '관리자가 되 고 조직에 대 한 Office 365 구독을 가져오는 방법을 알아봅니다. '
-ms.openlocfilehash: 6fd85f79b32d0a51a5069cfbb55ca58e7cdb1b36
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: d646b2e0ead1a4d911b4c9335660e2998ab5292a
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42257403"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42361553"
 ---
 # <a name="become-the-admin-and-purchase-office-365-for-your-organization"></a>조직의 관리자가 되어 Office 365 구입
 
@@ -55,16 +55,16 @@ Microsoft는 조직 내 사용자가 IT 부서의 공식 배포를 기다리지 
   
 ## <a name="overview-of-the-steps"></a>단계 개요
 
-![관리자 되기 및 Office 365 구입과 관련한 단계의 고급 보기](../media/1ee46aff-dccb-4bfd-abb3-811a616009af.png)
+![관리자 되기 및 Office 365 구입과 관련한 단계의 고급 보기](../../media/1ee46aff-dccb-4bfd-abb3-811a616009af.png)
   
 마법사가 프로세스를 안내하지만, 각 단계의 요약은 다음과 같습니다.
   
 |||
 |:-----|:-----|
-|![분홍색 원의 숫자 1](../media/a4da261d-2516-48c5-b58a-9c452b9086b8.png)|**등록** 관리자가 되려면 이미 회사 전자 메일 주소로 Skype 모임을 등록한 상태여야 합니다.  <br/> |
-|![분홍색 원의 숫자 2](../media/de3c1ab4-4f01-4026-b1ba-3265bdb32a89.png)|**마법사 실행** 등록한 후 다음 중 하나를 실행하여 마법사를 실행합니다.  <br/>  앱 시작 관리자에서 **관리자** 를 선택한 후 표시 되는 **관리자가 됩니다** .를 실행 합니다.  <br/>  또는  <br/>  Skype 모임에서 **office 365으로 업그레이드** 를 선택 하 고 업그레이드할 office 365 구독을 선택 합니다.  <br/> |
-|![분홍색 원의 숫자 3](../media/60fa378c-6ac1-4cbd-a782-2fa7ca619dc6.png)|**도메인 소유권 확인** 다음으로, 조직의 전자 메일 주소와 연결된 도메인 이름(예: contoso.com)을 소유하거나 관리함을 Office 365에 확인합니다. 도메인 이름 소유자만 이렇게 할 수 있는 권한이 있습니다.  <br/> |
-|![분홍색 원의 숫자 4](../media/1a0ff2ce-0942-405a-94e3-9bfeb1e5059e.png)|**라이선스 구입** 마법사의 마지막 단계에서 회사 전자 메일로 Skype 모임을 등록한 조직 내 각 사용자의 Office 365 라이선스를 구입합니다.  <br/> 예를 들어 두 명의 사용자가 회사 전자 메일로 Skype 모임을 등록한 경우 두 사용자 각각에 대해 하나씩, 두 개의 라이선스를 구입해야 합니다.  <br/> > [!NOTE]> 라이선스를 구입한 후에야 Office 365를 관리할 수 있습니다.           |
+|![분홍색 원의 숫자 1](../../media/a4da261d-2516-48c5-b58a-9c452b9086b8.png)|**등록** 관리자가 되려면 이미 회사 전자 메일 주소로 Skype 모임을 등록한 상태여야 합니다.  <br/> |
+|![분홍색 원의 숫자 2](../../media/de3c1ab4-4f01-4026-b1ba-3265bdb32a89.png)|**마법사 실행** 등록한 후 다음 중 하나를 실행하여 마법사를 실행합니다.  <br/>  앱 시작 관리자에서 **관리자** 를 선택한 후 표시 되는 **관리자가 됩니다** .를 실행 합니다.  <br/>  또는  <br/>  Skype 모임에서 **office 365으로 업그레이드** 를 선택 하 고 업그레이드할 office 365 구독을 선택 합니다.  <br/> |
+|![분홍색 원의 숫자 3](../../media/60fa378c-6ac1-4cbd-a782-2fa7ca619dc6.png)|**도메인 소유권 확인** 다음으로, 조직의 전자 메일 주소와 연결된 도메인 이름(예: contoso.com)을 소유하거나 관리함을 Office 365에 확인합니다. 도메인 이름 소유자만 이렇게 할 수 있는 권한이 있습니다.  <br/> |
+|![분홍색 원의 숫자 4](../../media/1a0ff2ce-0942-405a-94e3-9bfeb1e5059e.png)|**라이선스 구입** 마법사의 마지막 단계에서 회사 전자 메일로 Skype 모임을 등록한 조직 내 각 사용자의 Office 365 라이선스를 구입합니다.  <br/> 예를 들어 두 명의 사용자가 회사 전자 메일로 Skype 모임을 등록한 경우 두 사용자 각각에 대해 하나씩, 두 개의 라이선스를 구입해야 합니다.  <br/> > [!NOTE]> 라이선스를 구입한 후에야 Office 365를 관리할 수 있습니다.           |
 
 ## <a name="your-office-365-subscription"></a>Office 365 구독
 

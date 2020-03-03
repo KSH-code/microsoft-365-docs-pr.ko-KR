@@ -218,8 +218,9 @@
     - name: 정보 거버넌스 관리
       href: manage-information-governance.md
     - name: 데이터 가져오기
-      href: importing-pst-files-to-office-365.md
       items:
+        - name: PST 파일 가져오기 개요
+          href: importing-pst-files-to-office-365.md
         - name: 네트워크 업로드를 사용하여 PST 파일 가져오기
           href: use-network-upload-to-import-pst-files.md
         - name: 드라이브 발송을 사용하여 PST 파일 가져오기
@@ -231,8 +232,9 @@
         - name: PST 파일 가져오기에 대한 FAQ
           href: faqimporting-pst-files-to-office-365.md
     - name: 타사 데이터 보관
-      href: archiving-third-party-data.md
       items:
+        - name: 타사 데이터 보관 개요
+          href: archiving-third-party-data.md
         - name: Facebook 데이터를 보관 하는 커넥터 설정
           href: archive-facebook-data-with-sample-connector.md
         - name: Twitter 데이터를 보관할 커넥터 설정
@@ -276,8 +278,9 @@
     - name: 데이터 삭제
       href: disposition-reviews.md
     - name: 비활성 사서함 관리
-      href: inactive-mailboxes-in-office-365.md
       items:
+        - name: 비활성 사서함 개요
+          href: inactive-mailboxes-in-office-365.md
         - name: 비활성 사서함 만들기 및 관리
           href: create-and-manage-inactive-mailboxes.md
         - name: 비활성 사서함의 보존 기간 변경
@@ -320,7 +323,7 @@
               href: view-label-activity-for-documents.md
             - name: 데이터 거버넌스 보고서 보기
               href: view-the-data-governance-reports.md
-        - name: 이벤트
+        - name: Events
           items:
             - name: 이벤트 기반 보존
               href: event-driven-retention.md
@@ -718,10 +721,13 @@
     - name: 사서함 감사
       href: enable-mailbox-auditing.md
     - name: 고급 감사
-      href: advanced-audit.md
       items:
+        - name: 고급 감사 개요
+          href: advanced-audit.md
         - name: 로그 보존 정책 감사 관리
           href: audit-log-retention-policies.md
+        - name: 고급 감사를 사용 하 여 손상 된 계정 조사
+          href: mailitemsaccessed-forensics-investigations.md
     - name: 알림 정책
       href: alert-policies.md
 - name: 규정 준수 위험 관리
@@ -818,7 +824,7 @@
               href: gdpr-data-subject-requests.md
             - name: Azure
               href: gdpr-dsr-azure.md
-            - name: Azure DevOps Services
+            - name: Azure DevOps 서비스
               href: gdpr-dsr-vsts.md
             - name: Dynamics 365
               href: gdpr-dsr-dynamics365.md

@@ -2,9 +2,9 @@
 title: Office 365에서 불법 동의 권한 부여 검색 및 교정
 f1.keywords:
 - NOCSH
-ms.author: chrfox
-author: chrfox
-manager: laurawi
+ms.author: tracyp
+author: MSFTTracyp
+manager: dansimp
 ms.date: ''
 audience: ITPro
 ms.topic: article
@@ -16,12 +16,12 @@ localization_priority: Normal
 search.appverid:
 - MET150
 description: Office 365에서 불법 동의 권한 부여 공격을 인식하고 교정하는 방법에 대해 알아보세요.
-ms.openlocfilehash: 0ff16d01c3fe0f150e5a39cec574bc80aead9661
-ms.sourcegitcommit: 4986032867b8664a215178b5e095cbda021f3450
+ms.openlocfilehash: e11518b0b16b7ee922f18b0ef771d36f608e41b7
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "41957153"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42363054"
 ---
 # <a name="detect-and-remediate-illicit-consent-grants-in-office-365"></a>Office 365에서 불법 동의 권한 부여 검색 및 교정
 
@@ -79,7 +79,7 @@ Azure Active Directory 포털이나 PowerShell을 사용하여 사용자를 위�
 
 5. **응용 프로그램**을 선택합니다.
 
-사용자에게 할당된 앱과 응용 프로그램이 보유한 사용 권한이 표시됩니다.
+이렇게 하면 사용자에 게 할당 된 앱과 응용 프로그램에 포함 된 사용 권한이 표시 됩니다.
 
 ### <a name="steps-for-having-your-users-enumerate-their-application-access"></a>사용자가 응용 프로그램에 액세스를 열거하도록 하는 단계
 
@@ -102,7 +102,7 @@ Azure Active Directory 포털이나 PowerShell을 사용하여 사용자를 위�
 
 1. 로컬 관리자 권한으로 스크립트를 실행할 컴퓨터에 로그인합니다.
 
-2. GitHub에서 [Get-AzureADPSPermissions.ps1](https://gist.github.com/psignoret/41793f8c6211d2df5051d77ca3728c09) 스크립트를 스크립트를 실행할 폴더로 다운로드하거나 복사합니다. 이 폴더는 "permissions.csv" 출력 파일이 작성되는 폴더와 동일합니다.
+2. GitHub에서 스크립트를 실행 하는 폴더에 [Get-AzureADPSPermissions](https://gist.github.com/psignoret/41793f8c6211d2df5051d77ca3728c09) 스크립트를 다운로드 하거나 복사 합니다. 이 폴더는 "permissions.csv" 출력 파일이 작성되는 폴더와 동일합니다.
 
 3. PowerShell 인스턴스를 관리자로 열고 스크립트를 저장한 폴더를 엽니다.
 

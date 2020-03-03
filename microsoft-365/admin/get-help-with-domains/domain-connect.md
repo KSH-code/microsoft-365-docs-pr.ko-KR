@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: ec6f4bd8-5996-4505-ba68-afaf8a141fb9
 description: 도메인 연결 사용 등록 기관을 사용 하 여 작업 하 고 도메인을 Microsoft 365에 추가 하는 방법을 알아봅니다.
-ms.openlocfilehash: e014504116e5d19c8413549c802fd110dddfb8df
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 59e2f94fe83f87a5426064e49f0441356fbd732e
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42255142"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42362183"
 ---
 # <a name="using-domain-connect"></a>도메인 연결 사용
 

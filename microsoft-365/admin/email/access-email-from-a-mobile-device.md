@@ -16,12 +16,12 @@ search.appverid: MET150
 ms.assetid: ba780859-0297-4114-a258-2b2809bab9e6
 ROBOTS: NOINDEX, NOFOLLOW
 description: 모바일 장치에서 전자 메일에 액세스 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: b50b6986fe44cb19119831774b4357c6efd543d9
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 880044ddd13226c819167fb200f9f61550559944
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42255334"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42362393"
 ---
 # <a name="options-for-accessing-email-from-your-mobile-device"></a>모바일 장치에서 전자 메일에 액세스 하기 위한 옵션
 
@@ -35,7 +35,7 @@ Android 용 Outlook 및 iOS 모바일 앱에 대 한 outlook은 회사 또는 �
   
 조직에서는 Android 용 Outlook 또는 iOS 모바일 앱 용 Outlook을 사용 하 여 회사 전자 메일, 일정 및 연락처에 액세스 해야 합니다. Android 용 Outlook 또는 iOS 용 Outlook을 다운로드 하 고 설치한 후에 데이터가 동기화가 시작 됩니다.
   
-![Outlook을 사용 하 여 전자 메일을 동기화 하는 전자 메일 예](../media/798d942a-4181-4dcb-8039-cd9f2edd9723.png)
+![Outlook을 사용 하 여 전자 메일을 동기화 하는 전자 메일 예](../../media/798d942a-4181-4dcb-8039-cd9f2edd9723.png)
   
 자세한 Outlook 기능을 보려면 [iOS 또는 Android 휴대폰에 대 한 outlook 모바일 앱 최적화를](https://support.office.com/article/de075b19-b73c-4d8a-841b-459982c7e890.aspx) 참조 하세요. 그리고 문제가 발생 하는 경우 [Outlook For iOS 및 Android 도움말 센터로](https://support.office.com/article/cd84214e-a5ac-4e95-9ea3-e07f78d0cde6.aspx) 이동 합니다. 
   

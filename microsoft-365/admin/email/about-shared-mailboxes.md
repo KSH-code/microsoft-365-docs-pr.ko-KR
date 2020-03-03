@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 공유 사서함은 여러 사용자가 같은 사서함에 액세스 해야 하는 경우에 사용 됩니다. 공유 사서함을 만들기 전에 알아야 할 사항에 대해 알아봅니다.
-ms.openlocfilehash: a5565f7299a8565b9f70745efebea3444296f353
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 3bb78cc272a1920d9eab92aff50a14e345dce2e1
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42255342"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42362383"
 ---
 # <a name="about-shared-mailboxes"></a>공유 사서함 정보
 

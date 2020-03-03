@@ -21,16 +21,16 @@ search.appverid:
 - GEA150
 ms.assetid: f09696b2-8c29-4588-a08b-b333da19810c
 description: Office 365에서 이전 도메인을 제거 하 고 사용자 및 그룹을 다른 도메인으로 이동 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 9c960b5f18f3892c57f7dc9907e580a02fce39d4
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: c012d7a8484026d04bbe216ff28715e9df0de15c
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42255078"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42362213"
 ---
 # <a name="remove-a-domain-from-office-365"></a>Office 365에서 도메인 제거
 
-참가자: [![Peter Baumgartner](../media/e70dc696-c5f8-4717-a48b-9087431503e7.png)](https://go.microsoft.com/fwlink/p/?linkid=847121)
+참가자: [![Peter Baumgartner](../../media/e70dc696-c5f8-4717-a48b-9087431503e7.png)](https://go.microsoft.com/fwlink/p/?linkid=847121)
   
  **원하는 정보를 찾지 못한 경우 [도메인 질문과 대답을 확인](../setup/domains-faq.md)** 하세요. 
   
@@ -154,7 +154,7 @@ PowerShell을 사용하여 사용자를 다른 도메인으로 이동할 수도 
 
 3. 드롭다운 목록을 사용 하 여 다른 도메인을 선택 합니다.
 
-4. **저장**을 선택한 다음 **닫기를**선택 합니다. 제거하려는 도메인과 연관된 그룹 또는 분배 목록에 대해 이 단계를 반복합니다.
+4. **저장**을 선택한 다음 **닫기**를 선택합니다. 제거하려는 도메인과 연관된 그룹 또는 분배 목록에 대해 이 단계를 반복합니다.
 
 ::: moniker-end
 
@@ -166,7 +166,7 @@ PowerShell을 사용하여 사용자를 다른 도메인으로 이동할 수도 
 
 3. 드롭다운 목록을 사용 하 여 다른 도메인을 선택 합니다.
 
-4. **저장**을 선택한 다음 **닫기를**선택 합니다. 제거하려는 도메인과 연관된 그룹 또는 분배 목록에 대해 이 단계를 반복합니다.
+4. **저장**을 선택한 다음 **닫기**를 선택합니다. 제거하려는 도메인과 연관된 그룹 또는 분배 목록에 대해 이 단계를 반복합니다.
 
 ::: moniker-end
 
@@ -178,7 +178,7 @@ PowerShell을 사용하여 사용자를 다른 도메인으로 이동할 수도 
 
 3. 드롭다운 목록을 사용 하 여 다른 도메인을 선택 합니다.
 
-4. **저장**을 선택한 다음 **닫기를**선택 합니다. 제거하려는 도메인과 연관된 그룹 또는 분배 목록에 대해 이 단계를 반복합니다.
+4. **저장**을 선택한 다음 **닫기**를 선택합니다. 제거하려는 도메인과 연관된 그룹 또는 분배 목록에 대해 이 단계를 반복합니다.
 
 ::: moniker-end
 
@@ -186,7 +186,7 @@ PowerShell을 사용하여 사용자를 다른 도메인으로 이동할 수도 
 
 ::: moniker range="o365-worldwide"
 
-1. 관리 센터에서 **설정** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">도메인</a> 페이지로 이동 합니다.
+1. I관리 센터에서 ** 설정 ** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank"> 도메인 </a> 페이지로 이동하십시오.
 
 ::: moniker-end
 

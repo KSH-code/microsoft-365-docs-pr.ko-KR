@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 2d75860f-c527-4352-a7f6-73eba54c0c72
 description: 조직을 들어가거나 탈퇴 하는 모든 전자 메일 메시지에 전자 메일 서명, 법적 고 지 사항 또는 공개 설명을 추가 하는 방법을 알아봅니다.
-ms.openlocfilehash: 3d95e92c4994a99ab3426133580d70453a2f83eb
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: a63f21dff90c70d39e3709d4c34b53d99a315a59
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42257033"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42360669"
 ---
 # <a name="create-organization-wide-signatures-and-disclaimers"></a>조직 차원의 서명 및 부인 만들기
 
@@ -62,7 +62,7 @@ ms.locfileid: "42257033"
 
 ::: moniker-end
 
-1. Office 365](../media/7502f4ec-3c9a-435d-a7b4-b9cda85189a7.png)에서 앱 ![시작 관리자 앱 시작 관리자 아이콘을 선택 하 고 **관리자**를 선택 합니다.
+1. Office 365](../../media/7502f4ec-3c9a-435d-a7b4-b9cda85189a7.png)에서 앱 ![시작 관리자 앱 시작 관리자 아이콘을 선택 하 고 **관리자**를 선택 합니다.
    
     찾고자 하는 앱을 찾을 수 없나요? 앱 시작 관리자에서 **모든 앱**을 선택하여 사용 가능한 Office 365 앱의 사전순 목록을 보세요. 거기에서 특정 앱을 검색할 수 있습니다. 
     

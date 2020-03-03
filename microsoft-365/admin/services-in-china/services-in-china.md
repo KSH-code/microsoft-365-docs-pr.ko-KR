@@ -21,12 +21,12 @@ search.appverid:
 ms.assetid: a8ab5061-3346-4da0-bb7c-5260822b53ae
 description: 중국의 안전 하 고 안정적 이며 확장 가능한 클라우드 서비스에 대 한 요구를 충족 하도록 설계 된 21Vianet에서 운영 하는 Office 365에 대해 자세히 알아봅니다.
 monikerRange: o365-21vianet
-ms.openlocfilehash: 3c211421db74bc6ff916682d0670570d1de98568
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: c473dacee7fe6f2e779960711a87368e261c3448
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42247934"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42360799"
 ---
 # <a name="office-365-operated-by-21vianet"></a>21Vianet에서 운영하는 Office 365
 
@@ -41,7 +41,7 @@ Microsoft에서는 이 서비스 자체를 운영하지 않습니다. 21Vianet�
   
 이 QR 코드를 스캔하여 WeChat에서 팔로우하면 21Vianet에서 운영하는 Office 365에 대한 최신 업데이트를 받을 수 있습니다.
   
-![WeChat에서 팔 로우 하기 위해이 QR 코드 검색](../media/9bbbdf3b-b3ab-4355-82a0-37a84d70735b.png)
+![WeChat에서 팔 로우 하기 위해이 QR 코드 검색](../../media/9bbbdf3b-b3ab-4355-82a0-37a84d70735b.png)
   
  **21Vianet에서 운영 하는 Office 365의 서비스 정보**
   
@@ -151,9 +151,9 @@ Microsoft에서는 이 서비스 자체를 운영하지 않습니다. 21Vianet�
 
 |**온-프레미스 Exchange 버전**|**MRM (분할 보관)**|**OWA 액세스 (분할 보관)**|**원본 위치 eDiscovery**|**사서함 감사**|**원본 위치 유지/보관**|
 |:-----|:-----|:-----|:-----|:-----|:-----|
-| 모든 2013 CU5  <br/> | 지원됨 <br/>  | 미지원 <br/>  | 지원됨 <br/>  | 지원됨  <br/> | 지원됨 <br/> |
-| 모든 2010 SP3 <br/>  | 지원되지 않음 <br/>  | 지원되지 않음 <br/>  | 지원 됨<sup>1</sup> <br/> | 지원됨  <br/> | 지원됨 <br/>  |
-| 하나 이상의 2013 CU5 서버  <br/> | 지원 됨<sup>2</sup> <br/> | 지원되지 않음  <br/> | 지원되지 않음 <br/> | 지원됨  <br/> | 지원됨 <br/> |
+| 모든 2013 CU5  <br/> | 지원됨 <br/>  | 미지원 <br/>  | 지원 <br/>  | 지원  <br/> | 지원 <br/> |
+| 모든 2010 SP3 <br/>  | 지원되지 않음 <br/>  | 지원되지 않음 <br/>  | 지원 됨<sup>1</sup> <br/> | 지원  <br/> | 지원 <br/>  |
+| 하나 이상의 2013 CU5 서버  <br/> | 지원 됨<sup>2</sup> <br/> | 지원되지 않음  <br/> | 지원되지 않음 <br/> | 지원  <br/> | 지원 <br/> |
 |||
 
 <sup>1</sup> 온-프레미스 및 Exchange Online 사서함에는 별도의 검색을 수행 해야 합니다.  <br/> <sup>2</sup> mrm 이동-보관 정책은 EXCHANGE 2013 CU5 이상 서버에 있는 사서함에 사용할 수 있습니다. 
@@ -196,7 +196,7 @@ Apple 모바일 장치에 대 한 Exchange 연락처 데이터를 Apple iCloud�
 |Bing services에 대 한 리서치 창 통합  <br/> |사용할 수 없습니다.  <br/> |
 |접근성 검사  <br/> |사용할 수 없습니다.  <br/> |
 |수업용 전자 필기장  <br/> |사용할 수 없습니다.  <br/> |
-|Forms  <br/> |사용할 수 없습니다.  <br/> |
+|양식  <br/> |사용할 수 없습니다.  <br/> |
 |몰입 형 리더  <br/> |사용할 수 없습니다.  <br/> |
 |온라인 그림 삽입  <br/> |사용할 수 없습니다.  <br/> |
 |모임 세부 정보  <br/> |사용할 수 없습니다.  <br/> |

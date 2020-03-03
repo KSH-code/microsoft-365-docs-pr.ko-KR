@@ -27,12 +27,12 @@ search.appverid:
 - ODB160
 ms.assetid: 7aa9cdc8-2245-4218-81ee-86fa7c35f1de
 description: 파일 저장 및 공유를 위해 OneDrive 및 팀 사이트를 사용 하는 방법을 알아봅니다.
-ms.openlocfilehash: ec55e54fb15113589d7c9b68add511d2cfa9bc97
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: be3c845710fdf5531b1a3d91b9579c55cdc4d203
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42256953"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42360499"
 ---
 # <a name="set-up-office-365-file-storage-and-sharing"></a>Office 365 파일 저장 및 공유 설정
 
@@ -52,7 +52,7 @@ Office 365에서 파일을 저장할 위치에 대 한 간단한 비디오를 �
 
 OneDrive 및 팀 사이트는 모두 사용자와 직원을 위한 원격 액세스를 제공 합니다.
   
-![Office 365 제품에서 OneDrive 또는 팀 사이트를 사용 하는 방법을 보여 주는 다이어그램](../media/7493131e-665f-4dbd-9a60-f5612aea7e42.png)
+![Office 365 제품에서 OneDrive 또는 팀 사이트를 사용 하는 방법을 보여 주는 다이어그램](../../media/7493131e-665f-4dbd-9a60-f5612aea7e42.png)
   
 OneDrive 및 팀 사이트를 함께 사용할 때 각 위치에 저장할 항목에 대 한 권장 사항은 다음과 같습니다.
   
@@ -81,7 +81,7 @@ OneDrive 및 팀 사이트를 함께 사용할 때 각 위치에 저장할 항�
 
 3. OneDrive에서 팀 구성원은 자신의 비즈니스 관련 파일을 저장할 수 있습니다. 개별 파일 또는 전체 폴더를 공유할 수 있습니다. 파일 또는 폴더를 선택 하 고 마우스 오른쪽 단추를 클릭 한 다음 **공유**를 선택 합니다.
 
-    ![폴더 공유](../media/e8df9df3-aea5-404d-a320-92d7826c260c.png)
+    ![폴더 공유](../../media/e8df9df3-aea5-404d-a320-92d7826c260c.png)
   
 4. 링크 **보내기** 페이지에서 **링크가 있는 모든 사용자가 보기 및 편집할 수**있는 기본 선택을 유지 합니다.
 
@@ -89,15 +89,15 @@ OneDrive 및 팀 사이트를 함께 사용할 때 각 위치에 저장할 항�
 
     전송 되는 전자 메일을 직접 복사 하려면 목록에 전자 메일 주소를 추가 합니다.
 
-    ![이름을 입력 하 고 선택 하는 것을 보여 주는 링크 공유 대화 상자](../media/877e6587-db9d-4903-a87b-11e570eee926.png)
+    ![이름을 입력 하 고 선택 하는 것을 보여 주는 링크 공유 대화 상자](../../media/877e6587-db9d-4903-a87b-11e570eee926.png)
   
 5. 공유할 사용자를 모두 입력 했으면 **보내기를**선택 합니다. 초대한 사람에게 즉시 전자 메일이 전송됩니다.
 
-    ![이름 목록을 보여 주는 링크 공유](../media/e85625ea-7655-43f3-8623-72db68d0ea39.png)
+    ![이름 목록을 보여 주는 링크 공유](../../media/e85625ea-7655-43f3-8623-72db68d0ea39.png)
   
 6. 전자 메일이 표시 되는 결과는 다음과 같습니다. 
 
-    ![공유 OneDrive 폴더 링크를 포함 하는 전자 메일](../media/750c92e1-f14f-404c-a6a3-2095e26c680c.png)
+    ![공유 OneDrive 폴더 링크를 포함 하는 전자 메일](../../media/750c92e1-f14f-404c-a6a3-2095e26c680c.png)
   
 ### <a name="upload-files-to-a-team-site-for-online-collaboration"></a>온라인 공동 작업을 위해 팀 사이트에 파일 업로드
 
@@ -138,15 +138,15 @@ OneDrive 및 팀 사이트를 함께 사용할 때 각 위치에 저장할 항�
   
 4. 그런 다음 OneDrive 프롬프트를 **설정** 하려면 회사 또는 학교 계정으로 로그인 합니다.
 
-    ![OneDrive 설정 화면](../media/82cbb1ac-2ac5-42bd-82de-ba710bf46145.png)
+    ![OneDrive 설정 화면](../../media/82cbb1ac-2ac5-42bd-82de-ba710bf46145.png)
   
 5. 아직 OneDrive를 동기화 하지 않은 경우 **onedrive 폴더** 화면이 표시 될 수 있습니다. **OneDrive 폴더**아래의 경로가 여기에 있는지 확인 합니다. 다른 경로를 사용 하려면 **위치 변경을** 선택 하 고 **다음**을 선택 합니다.
 
-    ![이 화면에서 로컬 폴더 변경](../media/6395485a-e729-4a9a-8e7d-b35e662435da.png)
+    ![이 화면에서 로컬 폴더 변경](../../media/6395485a-e729-4a9a-8e7d-b35e662435da.png)
   
 6. 팀 사이트의 파일이 조직 이름 아래에 있는 파일 탐색기의 왼쪽 창에 표시 됩니다. OneDrive의 파일이 "OneDrive \<이름\>" 아래에 표시 됩니다.
 
-    ![로컬 폴더에서 동기화 된 항목 확인](../media/93e2ca9f-4b5b-4930-a94d-ebc5b95aca84.png)
+    ![로컬 폴더에서 동기화 된 항목 확인](../../media/93e2ca9f-4b5b-4930-a94d-ebc5b95aca84.png)
   
 7. 컴퓨터의 팀 폴더에서 파일을 열어 동기화를 테스트 합니다. 내용을 변경하고 **저장**을 선택합니다.
 

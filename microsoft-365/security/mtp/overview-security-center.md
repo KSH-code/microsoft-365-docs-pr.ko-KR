@@ -14,12 +14,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: eb341e3f27ade163c6d646f759efed7504dad342
-ms.sourcegitcommit: 004f01fc5d5bdb8aac03d69692d86c38b5e05e14
+ms.openlocfilehash: 3f60c40ecd1810d630a4607d6b0915d6f3089a99
+ms.sourcegitcommit: 9224a7a5886c0c5fa0bc12bd9f7234a0eba90023
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "42333695"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42372046"
 ---
 # <a name="overview-of-the-microsoft-365-security-center"></a>Microsoft 365 보안 센터 개요
 
@@ -65,4 +65,4 @@ Microsoft 365 보안 센터는 다음을 포함합니다.
 - 위협 분석을 사용한 [최신 공격 캠페인](latest-attack-campaigns.md) 및 기술 이해
 
 ## <a name="related-topics"></a>관련 항목
-- [Microsoft 365 보안 포털](portals.md)
+- [Microsoft 보안 포털](portals.md)

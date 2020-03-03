@@ -19,18 +19,18 @@ search.appverid:
 - MOE150
 ms.assetid: 8275da91-7a48-4591-94ab-3123a3f79530
 description: 'Office 365의 기본 테마를 변경 하 고 회사 로고나 색과 일치 하도록 사용자 지정 하는 방법을 알아봅니다. '
-ms.openlocfilehash: 729f029f58a19ed819b194deff526fc9b44757c5
-ms.sourcegitcommit: 6d672eb8287526a9db90df5fa85bc4984a7047d1
+ms.openlocfilehash: 9d83abb919cfb9f6ea3c804d9c5d934614f35285
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "42280186"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42360639"
 ---
 # <a name="customize-the-office-365-theme-for-your-organization"></a>조직의 Office 365 테마 사용자 지정
 
 Microsoft 365 관리 센터에서 테마를 사용자 지정 하는 방법에 대해 알아봅니다. 비즈니스용 Office 365 구독 관리자는 조직의 모든 사용자에 대해 위쪽 탐색 모음에 표시 되는 기본 테마를 변경할 수 있습니다. 회사 로고를 추가 하 고 나머지 브랜드와 일치 하도록 색을 변경할 수 있습니다. 사용자가 로고를 선택할 때 탐색할 대상 링크를 추가할 수도 있습니다. Office 365에서 기본 테마 및 사용자 지정 테마 결과를 확인할 수 있습니다.
   
-![기본 Office 365 테마 및 사용자 지정 Office 365 테마](../media/e2cbc922-b424-4683-8c5c-fdbcbd0ce844.png)
+![기본 Office 365 테마 및 사용자 지정 Office 365 테마](../../media/e2cbc922-b424-4683-8c5c-fdbcbd0ce844.png)
   
 ## <a name="customize-your-theme-in-the-admin-center"></a>관리 센터에서 테마 사용자 지정
 
@@ -62,7 +62,7 @@ Microsoft 365 관리 센터에서 테마를 사용자 지정 하는 방법에 �
       
   - **사용자 이름 표시**: 사용자가 로그인 할 때 페이지의 오른쪽 위에 있는 계정 관리자의 진입점에 사용자의 전체 이름을 표시할지 여부를 선택 합니다. 기본적으로 사용자는 사진이 업로드 되지 않은 경우 사진이 나 이니셜을 볼 수 있습니다.
     
-4. **변경 내용 저장**을 선택 합니다.
+4. **변경 내용 저장**을 선택합니다.
     
 이제 관리 센터에서 새 테마를 즉시 볼 수 있으며 잠시 후에 Outlook 및 SharePoint 페이지를 비롯 한 Office 365 전체에 해당 테마가 표시 됩니다. 언제 든 지 사용자 지정 아이콘 또는 사용자 지정 색을 제거할 수 있습니다. 테마 페이지로 돌아가서 **사용자 지정 테마 제거**를 선택 하면 됩니다.
   

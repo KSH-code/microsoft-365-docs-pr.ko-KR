@@ -18,12 +18,12 @@ search.appverid:
 ms.assetid: d7941332-8aec-4e5e-87e8-92073ce73dc5
 ROBOTS: NOINDEX
 description: Power BI 및 조직의 사용자가이 비즈니스 분석 서비스를 사용 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 56a6dd1c90b8dcb810e74c36b5e7f93ab6a0eb2c
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 4d89594812486d06629d614ab0c59fba09dcdad8
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42257303"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42361339"
 ---
 # <a name="power-bi-in-your-organization"></a>조직의 Power BI
 
@@ -102,7 +102,7 @@ Microsoft에서 테넌트가 만들어진 경우 다음 단계에 따라 해당 
     
 4. 왼쪽 위에서 앱 시작 관리자 아이콘을 선택하고 **관리자**를 선택합니다.
     
-    ![The Office 365 app launcher with the Admin app highlighted](../media/4eea9dbc-591b-48be-9916-322d41c6525b.png)
+    ![The Office 365 app launcher with the Admin app highlighted](../../media/4eea9dbc-591b-48be-9916-322d41c6525b.png)
   
 5. **관리자 되기** 페이지의 지침을 읽은 다음 **예, 관리자가 됩니다 .를**선택 합니다.
     
@@ -174,13 +174,13 @@ To allow your existing users to sign up for Power BI, run the opposite command a
 > [!NOTE]
 > 새로운 Microsoft 365 관리 센터를 사용하지 않는 경우 홈페이지 상단에 있는 **새 관리 센터 시도** 토글을 선택하여 켤 수 있습니다.
   
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다..
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다.
     
 2. 라이선스를 제거할 사용자를 찾은 다음 해당 이름을 선택 합니다.
     
 3. **라이선스 및 앱** 탭에서 **Microsoft Power BI** 확인란의 선택을 취소 합니다.
     
-4. **변경 내용 저장**을 선택 합니다.
+4. **변경 내용 저장**을 선택합니다.
 
 ::: moniker-end
 
@@ -201,7 +201,7 @@ To allow your existing users to sign up for Power BI, run the opposite command a
 
 ::: moniker range="o365-21vianet"
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다..
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다.
 
 2. 라이선스를 제거할 사용자를 찾은 다음 해당 이름을 선택 합니다.
     

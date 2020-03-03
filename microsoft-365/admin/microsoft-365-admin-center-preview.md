@@ -18,12 +18,12 @@ search.appverid:
 - FRP150
 ms.assetid: 739574d7-2c5b-4911-a549-f56ecc7d3b48
 description: 새로운 Microsoft 365 관리 센터에 대해 알아봅니다.
-ms.openlocfilehash: 1506dc63c2ba1e7e8926985b3c5e1cd7d6a11b52
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 3cd2fcff839213d843d6474ba826d06c5f2bf504
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42257418"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42361603"
 ---
 # <a name="about-the-new-microsoft-365-admin-center"></a>새 Microsoft 365 관리 센터 정보
 
@@ -50,9 +50,9 @@ Microsoft 365 관리 센터에서 새 기능을 사용할 수 있게 되 면 새
     
 ### <a name="switch-to-the-new-admin-center-and-back-again"></a>새 관리 센터로 전환한 후 다시 돌아가기
 
-- 새 Microsoft 365 관리 센터를 사용할 수 있는 경우 홈 페이지 맨 위에 있는 **새 관리 센터** 사용 설정/해제를 선택 하 여 옵트인 할 수 있습니다. 관리 센터에서 로그 아웃 하면 선택 항목이 저장 되며 새 관리 센터에 다시 로그인 됩니다. <br/><br/>![새 관리 센터는 이전 관리 센터에서 전환 합니다.](media/admin-center-toggle-off.png) 
+- 새 Microsoft 365 관리 센터를 사용할 수 있는 경우 홈 페이지 맨 위에 있는 **새 관리 센터** 사용 설정/해제를 선택 하 여 옵트인 할 수 있습니다. 관리 센터에서 로그 아웃 하면 선택 항목이 저장 되며 새 관리 센터에 다시 로그인 됩니다. <br/><br/>![새 관리 센터는 이전 관리 센터에서 전환 합니다.](../media/admin-center-toggle-off.png) 
   
-- 홈 페이지에서 이전 관리 센터로 다시 전환 **합니다.** <br/><br/>![새 관리 센터 설정/해제](media/admin-center-toggle-on.png)
+- 홈 페이지에서 이전 관리 센터로 다시 전환 **합니다.** <br/><br/>![새 관리 센터 설정/해제](../media/admin-center-toggle-on.png)
 
 새 관리 센터에서는 모든 페이지의 맨 아래에 있는 **도움말 보기** 바로 옆에 있는 **사용자 의견 제공** 을 선택 하 여 사용자 환경에 대 한 사용자 의견을 제공 받을 수 있습니다. 원하는 것과 더 나은 작업을 수행할 수 있는 작업을 알려주십시오. 또한 전체 상대 또는 새로 출시 된 특정 환경을 확인 하는 시간을 들 여 팝업을 조사 하는 경우를 볼 수 있습니다. 이 **정보가 도움이 되었습니까?** 를 선택 하 여이 문서 끝에 의견을 제공할 수도 있습니다.
   

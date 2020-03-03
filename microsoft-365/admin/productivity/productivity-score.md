@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 ROBOTS: NOINDEX, NOFOLLOW
 description: Microsoft 생산성 점수 개요
-ms.openlocfilehash: 863d644a2dc3b7f756c61b8a9c3063a8545c1fb0
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 03a8e68248458f5dfa1d7192a5c2771b46723129
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42257223"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42361319"
 ---
 # <a name="microsoft-productivity-score-preview"></a>Microsoft 생산성 점수 (미리 보기)
 
@@ -84,7 +84,7 @@ Microsoft 생산성 점수에 액세스할 수 있는 권한을 부여 하려면
 
 생산성 점수 홈 페이지에는 벤치 마크로 보완 된 각 점수 범주 내의 영역에 대 한 기본 정보를 제공 하 여 현재 점수 및 역사를 백분율로 표시 합니다. 
 
-![생산성 점수 홈 페이지](../media/pslanding.png)
+![생산성 점수 홈 페이지](../../media/pslanding.png)
 
 1.**생산성 점수가** 백분율 단위로 <numerator> / <denominator> 나열 되며 절대 점수 (분자) 및 최대 가능한 점수를 볼 수도 있습니다.  
 1. 이 피벗을 사용 하면 포커스를 구하려는 점수 범주를 선택할 수 있습니다. 미리 보기에서 **직원 환경을**볼 수만 있고, 선택 영역은 **기술 환경을**포함 하도록 곧 확장 됩니다. 
@@ -113,7 +113,7 @@ Microsoft 생산성 점수에 액세스할 수 있는 권한을 부여 하려면
 
 ### <a name="area-detail-page--collaborating-on-content"></a>영역 세부 정보 페이지-콘텐츠 공동 작업 
 
-![콘텐츠 페이지의 Collaborationg](../media/pscollab.png)
+![콘텐츠 페이지의 Collaborationg](../../media/pscollab.png)
 
 콘텐츠 페이지 공동 작업 생산성 점수 홈 페이지의 주요 통찰력을 포함 합니다. 여기에는 다음과 같은 구성 요소가 있습니다.
 
@@ -134,7 +134,7 @@ Microsoft 생산성 점수에 액세스할 수 있는 권한을 부여 하려면
 
 ### <a name="area-detail-page--working-anywhere"></a>영역 세부 정보 페이지-외부에서 작업 
 
-![모든 위치에서 사용 페이지](../media/psflexibility.png)
+![모든 위치에서 사용 페이지](../../media/psflexibility.png)
 
 외부에서 작업 중 페이지는 데스크톱, 모바일 및 웹 인 두 개 이상의 플랫폼에서 적어도 한 명의 생산성 앱을 사용 하는 사용자 (백분율 및 절대값)를 quantifies 합니다. 사용자는 더 많은 앱과 플랫폼을 사용 하기 위해 점수가 높다는 것을 볼 수 있습니다. 고려 되는 앱은 Outlook, 팀, Word, Excel, PowerPoint, OneNote, Yammer, Skype입니다. 의견 기반은 사용자가 Office 365 ProPlus, Exchange, Yammer, Skype 또는 팀에 대해 사용 하도록 설정 된 것입니다.
 
@@ -147,7 +147,7 @@ Microsoft 생산성 점수에 액세스할 수 있는 권한을 부여 하려면
 
 Actionability을 승격 하기 위해 지원 되는 각 정보에는 직원의 업무를 변환 하는 데 도움이 되는 인라인 작업과 구성 변경 또는 홍보 캠페인이 포함 될 수 있습니다. 이러한 통화를 클릭 하면 권장 되는 작업 패널 옵션에서 고려해 야 할 수 있습니다. 현재 **콘텐츠에 대 한 공동** 작업의 작업이 사용 되도록 설정 됩니다.
 
-![Office 문서 공동 작업 페이지입니다.](../media/psactions1.png)
+![Office 문서 공동 작업 페이지입니다.](../../media/psactions1.png)
 
 1. **보기 작업** 은 콘텐츠 공동 작업과 관련 된 모든 작업을 나열 하는 창으로 이동 합니다.
 1. 공동 **작업을 수행 하는 사용자에** 게 공동 작성 및 @mentions 같은 항목과 공동 작업을 수행 하는 방법을 안내 하는 비디오 목록을 설명 합니다. 
@@ -156,7 +156,7 @@ Actionability을 승격 하기 위해 지원 되는 각 정보에는 직원의 �
 
 실행 단추 중 하나를 선택 하면 오른쪽에 각 작업에 대 한 요약과 문서 페이지에 대 한 링크가 있는 **권장 작업** 창이 열립니다.
 
-![권장 작업 창입니다.](../media/psacttions2.png)
+![권장 작업 창입니다.](../../media/psacttions2.png)
 
 
 ## <a name="we-want-to-hear-from-you"></a>사용자의 의견을 듣고 싶습니다. 

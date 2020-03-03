@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 767349fa-f646-46d9-9dab-4a65049bdd1f
 description: 관리 센터에서 관리자 전화 번호 및 전자 메일 주소를 업데이트 합니다. 자신의 관리자 암호를 다시 설정 하려면이 정보가 필요 합니다.
-ms.openlocfilehash: 56b2011b3a871ba862fc9bd1c635ab84c9ca90d2
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 255c1d72ae032b0ebaf0606e0731e9bbe8a1b40d
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42254819"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42361673"
 ---
 # <a name="update-your-admin-phone-number-and-email-address-in-office-365"></a>Office 365에서 관리자 전화 번호 및 전자 메일 주소 업데이트
 

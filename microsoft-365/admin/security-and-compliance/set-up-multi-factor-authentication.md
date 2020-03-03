@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: 8f0454b2-f51a-4d9c-bcde-2c48e41621c6
 description: 보안 기본값을 사용하여 Office 365 사용자의 다단계 인증을 설정하는 방법을 알아봅니다.
 monikerRange: o365-worldwide
-ms.openlocfilehash: cb2205e5f5b7df4f6e7d8f7263a91fb2f0f4d3e2
-ms.sourcegitcommit: cf07dfccec476ac2526a6171ec6b6365686f759f
+ms.openlocfilehash: 4dc52c25c3a9351be1a9f4d094d664bc4ed527f9
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/29/2020
-ms.locfileid: "42341252"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42361049"
 ---
 # <a name="set-up-multi-factor-authentication"></a>다단계 인증 설정
   
@@ -80,7 +80,7 @@ ms.locfileid: "42341252"
 
 2. **최신 인증** 패널에서 **최신 인증 사용** 확인란을 선택합니다. 
 
-    ![사용 확인란이 선택된 최신 인증 패널](../media/enablemodernauth.png)
+    ![사용 확인란이 선택된 최신 인증 패널](../../media/enablemodernauth.png)
     
 ## <a name="enable-multi-factor-authentication-for-your-organization"></a>조직이 Azure 다단계 인증을 사용하도록 설정
     

@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 787d7a75-e201-46f3-a242-f698162ff09f
 description: Outlook에서 하나 또는 여러 개의 메일 그룹을 Office 365 그룹으로 업그레이드 하는 방법 및 PowerShell을 사용 하 여 여러 메일 그룹을 동시에 업그레이드 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 9e6867a5ccdb97586e3d58784a49312e078ae659
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 7337d450cf1e9b249b2b9dc2ab66f32f5b1577e0
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42254811"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42361713"
 ---
 # <a name="upgrade-distribution-lists-to-office-365-groups-in-outlook"></a>Outlook에서 배포 목록을 Office 365 그룹으로 업그레이드
 
@@ -36,13 +36,13 @@ Dl은 한 번에 하나씩 또는 여러 개 동시에 업그레이드할 수 �
 
 메일 그룹을 업그레이드 하려면 Office 365 전역 관리자 또는 Exchange 관리자 여야 합니다. Office 365 그룹으로 업그레이드 하려면 메일 그룹에 사서함 소유자가 있어야 합니다. 
 
-1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">Exchange 관리 센터</a> 로 이동합니다.
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">Exchange 관리 센터</a>로 이동합니다.
 
-2. Exchange 관리 센터에서 **받는 사람** \> **그룹**으로 이동 합니다.<br/>Office 365 그룹으로 업그레이드할 수 있는 메일 **그룹 (메일 그룹이** 라고도 함)이 있음을 나타내는 알림이 표시 됩니다.<br/> ![시작 단추를 선택 합니다.](../media/8cf838b4-2644-401f-a366-08c1eea183eb.png)
+2. Exchange 관리 센터에서 **받는 사람** \> **그룹**으로 이동 합니다.<br/>Office 365 그룹으로 업그레이드할 수 있는 메일 **그룹 (메일 그룹이** 라고도 함)이 있음을 나타내는 알림이 표시 됩니다.<br/> ![시작 단추를 선택 합니다.](../../media/8cf838b4-2644-401f-a366-08c1eea183eb.png)
 
-3. **그룹** 페이지에서 하나 이상의 메일 **그룹 (메일 그룹이** 라고도 함)을 선택 합니다.<br/>![메일 그룹 선택](../media/2c303433-d60b-4100-a6ae-5809b03a8cdb.png)
+3. **그룹** 페이지에서 하나 이상의 메일 **그룹 (메일 그룹이** 라고도 함)을 선택 합니다.<br/>![메일 그룹 선택](../../media/2c303433-d60b-4100-a6ae-5809b03a8cdb.png)
 
-4. 업그레이드 아이콘을 선택 합니다.<br/>![Office 365 그룹으로 업그레이드 아이콘](../media/1e28cb3d-bff3-4be3-8329-1902d2d54720.png)
+4. 업그레이드 아이콘을 선택 합니다.<br/>![Office 365 그룹으로 업그레이드 아이콘](../../media/1e28cb3d-bff3-4be3-8329-1902d2d54720.png)
 
 5. 정보 대화 상자에서 **예** 를 선택 하 여 업그레이드를 확인 합니다. 프로세스가 즉시 시작 됩니다. 업그레이드 중인 Dl의 크기 및 수에 따라 프로세스에 몇 분 또는 몇 시간이 걸릴 수 있습니다.<br/>메일 그룹을 업그레이드할 수 없는 경우에는 대화 상자가 표시 됩니다. [업그레이드할 수 없는 메일 그룹을 확인 하 시겠습니까?](#which-distribution-lists-cannot-be-upgraded).
 

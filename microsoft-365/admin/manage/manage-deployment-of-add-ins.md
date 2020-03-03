@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 737e8c86-be63-44d7-bf02-492fa7cd9c3f
 description: 관리 센터에서 중앙 집중식 배포를 사용 하 여 조직의 사용자 및 그룹에 추가 기능을 배포 하는 방법을 알아봅니다.
-ms.openlocfilehash: acb6febf03e40b37b167113666b3577e0b9fb61e
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: b2fe57bd2b3b51ac5097723613c608580da06bea
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42254963"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42361953"
 ---
 # <a name="manage-deployment-of-office-365-add-ins-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터에서 Office 365 추가 기능 배포 관리
 
@@ -250,7 +250,7 @@ Windows 용 Word, Excel 및 PowerPoint 2013은 ADAL (Active Directory 인증 라
   
 추가 기능이 추가 기능 명령을 지원하는 경우 명령은 Office 리본에 나타납니다. 다음 예에서는 **인용 검색** 명령이 **인용** 추가 기능에 나타납니다. 
 
-![검색 인용이 있는 Office 리본 메뉴](../media/553b0c0a-65e9-4746-b3b0-8c1b81715a86.png)
+![검색 인용이 있는 Office 리본 메뉴](../../media/553b0c0a-65e9-4746-b3b0-8c1b81715a86.png)
   
 배포 된 추가 기능이 추가 기능 명령을 지원 하지 않거나 배포한 모든 추가 기능을 보려는 경우 **내 추가 기능**을 통해 볼 수 있습니다. 
   
@@ -260,11 +260,11 @@ Windows 용 Word, Excel 및 PowerPoint 2013은 ADAL (Active Directory 인증 라
     
 2. Office 추가 기능 창에서 **관리자가 관리함** 탭을 선택합니다. 
     
-3. 이전에 배포한 추가 기능을 두 번 클릭합니다(이 예에서는 **인용** ). <br/>![Office 추가 기능 페이지의 관리 관리 탭](../media/fd36ba81-9882-40f0-9fce-74f991aa97d5.png)
+3. 이전에 배포한 추가 기능을 두 번 클릭합니다(이 예에서는 **인용** ). <br/>![Office 추가 기능 페이지의 관리 관리 탭](../../media/fd36ba81-9882-40f0-9fce-74f991aa97d5.png)
   
 ### <a name="in-outlook"></a>Outlook의 경우
 
-1. **홈** 리본에서 **추가 기능 가져오기를**선택 합니다.<br/>![Outlook의 스토어 단추](../media/getaddinsicon.png)
+1. **홈** 리본에서 **추가 기능 가져오기를**선택 합니다.<br/>![Outlook의 스토어 단추](../../media/getaddinsicon.png)
   
 2. 왼쪽 탐색 창에서 **관리-관리** 를 선택 합니다.
 
@@ -279,7 +279,7 @@ Windows 용 Word, Excel 및 PowerPoint 2013은 ADAL (Active Directory 인증 라
 3. **추가 기능 삭제**를 클릭 합니다. 오른쪽 아래 모서리에 있는 추가 기능 단추를 제거 합니다.
 4. 선택한 항목의 유효성을 검사 하 고 **추가 기능 제거**를 선택 합니다.
   
-## <a name="learn-more"></a>자세히 알아보기
+## <a name="learn-more"></a>자세한 정보
 
 [Office 추가 기능](https://go.microsoft.com/fwlink/p/?linkid=846362)을 만들고 빌드하는 방법에 대해 자세히 알아보세요.
   

@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 97af2932-0868-4ccf-8f6b-21a94946c58a
 description: 변경 관리에 도움이 되도록 메시지 센터 메시지를 관리 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: f2c7c5324fe77d1d3dc13a235d7a2f391b09a603
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 5b1772eb86acb937d532990830f9220f197c1c00
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42254947"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42361933"
 ---
 # <a name="manage-messages-in-message-center"></a>메시지 센터에서 메시지 관리
 
@@ -51,7 +51,7 @@ ms.locfileid: "42254947"
 
 열 머리글을 선택 하 여 메시지를 오름차순 또는 내림차순으로 정렬할 수 있습니다. 예를 들어이 다이어그램에서는 메시지가 **작업 날짜에 따라 정렬** 됩니다.
 
-![날짜별로 작업 별로 정렬 된 메시지 센터 보기](../media/message-center-filter-act-by.png)
+![날짜별로 작업 별로 정렬 된 메시지 센터 보기](../../media/message-center-filter-act-by.png)
 
 ::: moniker-end
 
@@ -61,7 +61,7 @@ ms.locfileid: "42254947"
  
 열 머리글을 선택 하 여 메시지를 오름차순 또는 내림차순으로 정렬할 수 있습니다. 예를 들어이 그림에서 메시지는 **작업 날짜에 따라 정렬** 됩니다.
 
-![날짜별로 작업 별로 정렬 된 메시지 센터 보기](../media/message-center-old-admin-center1.png)
+![날짜별로 작업 별로 정렬 된 메시지 센터 보기](../../media/message-center-old-admin-center1.png)
 
 ::: moniker-end
 
@@ -71,7 +71,7 @@ ms.locfileid: "42254947"
  
 열 머리글을 선택 하 여 메시지를 오름차순 또는 내림차순으로 정렬할 수 있습니다. 예를 들어이 그림에서 메시지는 **작업 날짜에 따라 정렬** 됩니다.
 
-![날짜별로 작업 별로 정렬 된 메시지 센터 보기](../media/message-center-old-admin-center1.png)
+![날짜별로 작업 별로 정렬 된 메시지 센터 보기](../../media/message-center-old-admin-center1.png)
 
 ::: moniker-end
 

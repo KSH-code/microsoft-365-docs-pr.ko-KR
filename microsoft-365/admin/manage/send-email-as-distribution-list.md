@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: a7c98273-067e-4162-b3a1-4ba081796012
 description: Office 365에서 메일 그룹으로 전자 메일을 보내는 방법에 대해 알아봅니다.
-ms.openlocfilehash: f165279cf6cfbedda4f122f453c2321c16f412d3
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 076405b54f2a1521e0d9a1fc54c734b172eb82e8
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42254851"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42361743"
 ---
 # <a name="send-email-as-a-distribution-list-in-office-365"></a>Office 365에서 전자 메일을 메일 그룹으로 보내기
 
@@ -43,10 +43,10 @@ Office 365에서는 전자 메일을 메일 그룹으로 보낼 수 있습니다
     
 3. **회신**을 선택 합니다. 
     
-4. 메시지 맨 아래에서 **기타** \> **표시를**선택 합니다.<br/> ![자세히를 선택 하 고 다음에서 표시를 선택 합니다.](../media/534f13b7-9f15-48ea-8835-ea2ed1863ece.png)
+4. 메시지 맨 아래에서 **기타** \> **표시를**선택 합니다.<br/> ![자세히를 선택 하 고 다음에서 표시를 선택 합니다.](../../media/534f13b7-9f15-48ea-8835-ea2ed1863ece.png)
   
-5. 보낸 사람 주소 (예: `Ina@weewalter.me` -)를 마우스 오른쪽 단추로 클릭 하 고 **제거**를 선택 합니다.<br/> ![보낸 사람 별칭 제거](../media/9b8d8e8f-dc46-499c-89bd-0a480603bf1f.png)
+5. 보낸 사람 주소 (예: `Ina@weewalter.me` -)를 마우스 오른쪽 단추로 클릭 하 고 **제거**를 선택 합니다.<br/> ![보낸 사람 별칭 제거](../../media/9b8d8e8f-dc46-499c-89bd-0a480603bf1f.png)
   
-6. 그런 다음 메일 그룹 주소 (예: support@contoso.com)를 입력 하 고 메시지를 보냅니다. 다음에 메일 그룹에서 회신할 때 **보낸** 사람 목록에는 해당 주소가 옵션으로 표시 됩니다.<br/>![공유 사서함의 별칭이 표시 됩니다.](../media/f7632a9a-9cab-446c-9e37-23ef50c5b975.png)
+6. 그런 다음 메일 그룹 주소 (예: support@contoso.com)를 입력 하 고 메시지를 보냅니다. 다음에 메일 그룹에서 회신할 때 **보낸** 사람 목록에는 해당 주소가 옵션으로 표시 됩니다.<br/>![공유 사서함의 별칭이 표시 됩니다.](../../media/f7632a9a-9cab-446c-9e37-23ef50c5b975.png)
   
 

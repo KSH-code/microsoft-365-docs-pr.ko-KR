@@ -20,12 +20,12 @@ search.appverid:
 ms.assetid: f9877a28-1434-4108-9e92-f29ef8ee5591
 description: 중국의 21Vianet에서 운영 하는 기존 Office 365 계정에 Office 365 구독을 구입 하거나 바로 구매 하거나 구독을 추가 하거나 추가 기능을 가져오는 방법을 알아봅니다.
 monikerRange: o365-21vianet
-ms.openlocfilehash: b08a26752a5195208d562067ab8e26e4aa8cb2f8
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 0781430eaf2ccfeed7c31665029d514be9cc5f2e
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42247958"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42360839"
 ---
 # <a name="buy-or-try-subscriptions-for-office-365-operated-by-21vianet"></a>21Vianet에서 운영 하는 Office 365 구독 구입 또는 체험
 
@@ -48,11 +48,11 @@ ms.locfileid: "42247958"
 
 2. 시작 페이지가 아닌 경우 왼쪽 위 모서리에서 **Office 365**를 선택합니다.
 
-    ![Office 365 시작 페이지로 이동하는 단추](../media/2fc597ab-ae33-4e5a-aec1-e60e48beac62.png)
+    ![Office 365 시작 페이지로 이동하는 단추](../../media/2fc597ab-ae33-4e5a-aec1-e60e48beac62.png)
 
 3. 페이지 오른쪽 위의 탐색 모음에서 **구매**를 선택합니다.
 
-    ![Office 365 평가판 구입 단추](../media/73fba4ad-6879-460b-8ef1-f2efb2ee4104.png)
+    ![Office 365 평가판 구입 단추](../../media/73fba4ad-6879-460b-8ef1-f2efb2ee4104.png)
 
 4. **구독 구매** 페이지에 구입할 수 있는 다양한 계획이 표시됩니다. 평가판으로 사용 중인 계획은 **평가판** 배너로 구분됩니다.
 

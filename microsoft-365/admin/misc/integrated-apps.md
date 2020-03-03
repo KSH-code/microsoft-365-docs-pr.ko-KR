@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 7e453a40-66df-44ab-92a1-96786cb7fb34
 description: 타사 앱이 사용자의 Office 365 정보에 액세스할 수 있도록 통합 앱에 대해 알아봅니다.
-ms.openlocfilehash: 932a99ec2c65b14e903ccffb86d291dac20ddfcf
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 3c7c92e16b375fc374563e87ea2f6166c7384a29
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42248070"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42361389"
 ---
 # <a name="turning-integrated-apps-on-or-off"></a>통합 앱 설정 또는 해제
 
@@ -48,11 +48,11 @@ ms.locfileid: "42248070"
 
 Office 365에서 통합 앱을 사용할 때 두 가지 유형의 권한(사용자 권한 및 관리자 권한)이 적용됩니다. 예를 들어 조직에서 통합 앱이 설정되어 있고 사용자가 타사 앱을 사용하는 경우, 해당 앱은 사용자 프로필의 세부 정보를 읽고, 파일을 편집하거나 삭제하고, 사이트 모음에 포함된 항목을 읽고, 해당 사용자의 이름으로 전자 메일을 보낼 수 있는 사용자의 권한을 요청할 수 있습니다.
 
-![통합 앱 사용자 권한](../media/bb9a6cf8-da39-4ac0-9e40-cde03a81c121.gif)
+![통합 앱 사용자 권한](../../media/bb9a6cf8-da39-4ac0-9e40-cde03a81c121.gif)
 
 관리자가 조직의 모든 사용자에 대해 앱을 등록 한 경우 해당 앱이 조직의 정보 및 리소스에 액세스할 수 있는 권한을 부여 하 라는 메시지가 표시 됩니다. 이후 조직의 사용자가 이 앱을 사용할 때는 권한을 요청하지 않습니다. 관리자가 앱을 등록할 때 해당 앱의 게시자를 신뢰할 수 있는지 확인해야 합니다. 앱 등록에 대한 자세한 내용은 [응용 프로그램 추가, 업데이트, 제거](https://go.microsoft.com/fwlink/p/?LinkID=518600)를 참조하세요.
 
-![통합 앱 관리자 권한](../media/e24aa504-bf10-446c-a9d5-45a6f2655187.gif)
+![통합 앱 관리자 권한](../../media/e24aa504-bf10-446c-a9d5-45a6f2655187.gif)
 
 통합 앱이 해제된 경우 이미 설치되어 정보에 대한 액세스 권한을 가진 앱은 제거되지 않으며 권한도 제거되지 않습니다. 통합 앱이 해제되더라도 관리자는 앱을 등록하여 사용자가 앱을 이용하고, 앱이 사용자 정보에 액세스하도록 허용할 수 있습니다. 등록된 응용 프로그램 및 권한 제거에 대한 자세한 내용은 [응용 프로그램 추가, 업데이트, 제거](https://go.microsoft.com/fwlink/?LinkID=518600&amp;clcid=0x409)를 참조하세요.
 

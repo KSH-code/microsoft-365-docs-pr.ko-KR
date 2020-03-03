@@ -20,12 +20,12 @@ search.appverid:
 ms.assetid: 043807b2-21db-4d5c-b430-c8a6dee0e6ba
 ROBOTS: NOINDEX, NOFOLLOW
 description: Office 365의 다단계 인증 및 설정 하기 위해 수행 해야 하는 단계에 대해 알아봅니다.
-ms.openlocfilehash: c3d5e83b951e4fd4a05cb18408ecb3d26e397cf9
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 2e2cbc9d6d966a9858fafb62f08d26893c9f4353
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42257208"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42361179"
 ---
 # <a name="plan-for-multi-factor-authentication-for-office-365-deployments"></a>Office 365 배포의 다단계 인증 계획
 
@@ -77,7 +77,7 @@ Office 365에 대한 클라우드 전용 배포 또는 Single Sign-On 및 AD FS(
     
 다음 그림에서 자세히 설명합니다.
   
-![Office 2013 장치 앱용 최신 인증](../media/dc37645c-b899-4715-b162-d7653bd0aebd.png)
+![Office 2013 장치 앱용 최신 인증](../../media/dc37645c-b899-4715-b162-d7653bd0aebd.png)
   
 ## <a name="software-requirements"></a>소프트웨어 요구 사항
 
@@ -91,7 +91,7 @@ Office 설치가 간편 실행 기반인지 MSI 기반인지 확인하려면:
     
 3. Outlook 2013 간편 실행 설치의 경우 **업데이트 옵션** 항목이 표시됩니다. MSI 기반 설치의 경우 **업데이트 옵션** 항목이 표시되지 않습니다. 
     
-    ![Graphic that shows how to tell if Office 2013 install is click-to-run or MSI-based](../media/1e75143f-9e37-4e0c-9610-43a80771571e.png)
+    ![Graphic that shows how to tell if Office 2013 install is click-to-run or MSI-based](../../media/1e75143f-9e37-4e0c-9610-43a80771571e.png)
   
 ### <a name="click-to-run-based-installations"></a>간편 실행 기반 설치
 

@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: bb229ee9-e7be-4990-b3eb-354e75740496
 description: '공유 사서함에서 라이선스를 제거 하 여 다른 사용자에 게 할당 합니다. '
-ms.openlocfilehash: 7b708c7877a307e2d51b97848a3780c5586d7d2a
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 90ec29681aa5b15dd04895df2b48b2b1619b521d
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42255187"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42362223"
 ---
 # <a name="remove-a-license-from-a-shared-mailbox"></a>공유 사서함에서 라이선스 제거
 
@@ -39,7 +39,7 @@ ms.locfileid: "42255187"
 > [!NOTE]
 > 새로운 Microsoft 365 관리 센터를 사용하지 않는 경우 홈페이지 상단에 있는 **새 관리 센터 시도** 토글을 선택하여 켤 수 있습니다.
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다..
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다.
 
    > [!NOTE]
    > 활성 사용자 페이지에서 라이선스를 제거 해야 합니다. 라이선스가 사용자 설정 이므로 공유 사서함 페이지에서 라이선스를 제거할 수 없습니다. 
@@ -48,7 +48,7 @@ ms.locfileid: "42255187"
 
 3. **라이선스 및 앱** 탭 중 하나에서 **라이선스** 를 확장 하 고 제거할 라이선스에 대 한 확인란의 선택을 취소 합니다.
 
-4. **변경 내용 저장**을 선택 합니다.
+4. **변경 내용 저장**을 선택합니다.
 
 5. **활성 사용자** 페이지로 돌아가면 공유 사서함의 상태가 사용 **허가**되지 않습니다.
 
@@ -58,7 +58,7 @@ ms.locfileid: "42255187"
 
 ::: moniker range="o365-germany"
 
- 1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다..
+ 1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다.
 
    > [!NOTE]
    > 활성 사용자 페이지에서 라이선스를 제거 해야 합니다. 라이선스가 사용자 설정 이므로 공유 사서함 페이지에서 라이선스를 제거할 수 없습니다.
@@ -77,7 +77,7 @@ ms.locfileid: "42255187"
 
 ::: moniker range="o365-21vianet"
 
- 1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다..
+ 1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다.
 
    > [!NOTE]
    > 활성 사용자 페이지에서 라이선스를 제거 해야 합니다. 라이선스가 사용자 설정 이므로 공유 사서함 페이지에서 라이선스를 제거할 수 없습니다.

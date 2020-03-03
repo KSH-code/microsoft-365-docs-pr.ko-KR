@@ -26,12 +26,12 @@ search.appverid:
 - MOW150
 ms.assetid: a3e3bddb-582e-4133-8670-e61b9f58627e
 description: 'Gmail 또는 다른 전자 메일 공급자에서 Office 365으로 연락처, 일정, 전자 메일을 가져오는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 6281e3b48249a67d3cf2754ebcfcaa9bc1789ef6
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 2b2f4441772a9d373316ff14f06bcdeb61e5840d
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42247855"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42360709"
 ---
 # <a name="migrate-email-and-contacts-to-office-365"></a>Office 365로 전자 메일 및 연락처 마이그레이션
 
@@ -69,7 +69,7 @@ Outlook에서 .pst 파일로 전자 메일, 연락처 및 일정을 내보낸 �
     
 프로세스를 시작 하려면 Outlook을 열고 **파일** \> **열기 &amp; ** \> **/내보내기 가져오기/내보내기를**선택 합니다.
   
-![Outlook 2016의 파일 메뉴](../media/2f1c39a5-177e-4052-9dd8-90c0d140be2c.png)![Outlook &amp; 2016에서 내보내기 명령 열기](../media/eecab6df-c372-45b1-8a8a-2f6d7af0dd68.png)![Outlook 2016의 가져오기/내보내기 단추](../media/ed90ae47-20db-4be1-b0c0-826008432c6e.png)
+![Outlook 2016의 파일 메뉴](../../media/2f1c39a5-177e-4052-9dd8-90c0d140be2c.png)![Outlook &amp; 2016에서 내보내기 명령 열기](../../media/eecab6df-c372-45b1-8a8a-2f6d7af0dd68.png)![Outlook 2016의 가져오기/내보내기 단추](../../media/ed90ae47-20db-4be1-b0c0-826008432c6e.png)
   
 ## <a name="see-other-email-accounts-in-outlook"></a>Outlook에서 다른 전자 메일 계정 참조
 
@@ -83,7 +83,7 @@ Outlook에서 Gmail, Yahoo 또는 Live.com와 같은 다른 공급자의 전자 
     
 좀 더 자세한 단계가 필요 한가요? [계정 추가](https://support.office.com/article/6e27792a-9267-4aa4-8bb6-c84ef146101b)를 참조 하세요.
   
-[![Backstage 보기의 Outlook 계정 정보 페이지를 보여 주는 스크린샷](../media/6a7fa106-1077-4351-9fe2-8eb00918b40a.png)](https://support.office.com/article/6e27792a-9267-4aa4-8bb6-c84ef146101b.aspx)
+[![Backstage 보기의 Outlook 계정 정보 페이지를 보여 주는 스크린샷](../../media/6a7fa106-1077-4351-9fe2-8eb00918b40a.png)](https://support.office.com/article/6e27792a-9267-4aa4-8bb6-c84ef146101b.aspx)
   
 ## <a name="multiple-mailboxes-admins-can-bulk-import-email-contacts-and-calendars-to-office-365"></a>여러 사서함: 관리자가 전자 메일, 연락처 및 일정을 Office 365에 대량으로 가져올 수 있음
 

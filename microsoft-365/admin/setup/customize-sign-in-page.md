@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: a1229cdb-ce19-4da5-90c7-2b9b146aef0a
 description: Azure Active Directory를 사용 하 여 Office 365 로그인 페이지를 사용자 지정 합니다. 로그인 페이지에 그림, 로고 및 텍스트를 추가할 수 있습니다.
-ms.openlocfilehash: 7db1271cd3d009bdbf1a26166f95a99d44087421
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 97d1d1c7dcb5a31395c98295a250913bb8ab69f5
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42247886"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42360649"
 ---
 # <a name="add-your-company-branding-to-office-365-sign-in-page"></a>Office 365 로그인 페이지에 회사 브랜딩 추가
 
@@ -36,7 +36,7 @@ Office 365, Microsoft Dynamics CRM Online, Enterprise Mobility Suite 또는 기�
   
 다음 그림에서는 Azure에서 로그인 페이지의 어떤 부분을 수정할 수 있는지 보여줍니다.
   
-![사용자 지정할 수 있는 Office 365 로그인 페이지 영역입니다.](../media/screenshotbranding.png)
+![사용자 지정할 수 있는 Office 365 로그인 페이지 영역입니다.](../../media/screenshotbranding.png)
   
 1. 큰 그림 및/또는 배경색
     

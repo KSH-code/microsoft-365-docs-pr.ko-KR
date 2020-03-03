@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 322cd0aa8b72ea2c81792b36614e87d97db87d7c
-ms.sourcegitcommit: 87cc278ea2ddcd536ecfaa3dfae9a5ddaa502cf9
+ms.openlocfilehash: f499cacd0ec63f9a192e2773b3604473d2153545
+ms.sourcegitcommit: 9d6f9fd271e83c00e92a5e0247fcc51fc2070c3c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42179109"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42370497"
 ---
 # <a name="insider-risk-management-users"></a>참가자 위험 관리 사용자
 
@@ -30,6 +30,9 @@ ms.locfileid: "42179109"
 - **사례**: 사용자의 현재 활성 사례입니다.
 
 ![참가자 위험 관리 사용자 대시보드](../media/insider-risk-users-dashboard.png)
+
+>[!NOTE]
+>사용자 대시보드에 표시 되는 사용자 수는 활성 경고 및 일치 정책에 따라 일부 인스턴스에서 제한 될 수 있습니다. 경고가 생성 되 면 활성 경고가 있는 사용자가 표시 되 고, 표시 된 사용자의 최대 수에 도달 하면 드문 경우에 발생할 수 있습니다. 이 경우 기존 사용자 경고가 심사 됨에 따라 표시 되지 않은 활성 알림이 있는 사용자가 사용자 대시보드에 추가 됩니다.
 
 ## <a name="view-user-details"></a>사용자 세부 정보 보기
 

@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: eef600b2fc325454ad7a4d36019a4e762409c8b9
-ms.sourcegitcommit: 87cc278ea2ddcd536ecfaa3dfae9a5ddaa502cf9
+ms.openlocfilehash: 74e84fc00e5fe633f0d70315cea9ad1329e2f639
+ms.sourcegitcommit: 9224a7a5886c0c5fa0bc12bd9f7234a0eba90023
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42179219"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42372016"
 ---
 # <a name="insider-risk-management-alerts"></a>참가자 위험 관리 알림
 
@@ -35,6 +35,9 @@ ms.locfileid: "42179219"
     - 시간, 일 또는 월 단위로 나열 되는 낮은 심각도 경고를 확인 하는 데 소요 되는 평균 시간입니다.
 
 ![참가자 위험 관리 경고 대시보드](../media/insider-risk-alerts-dashboard.png)
+
+>[!NOTE]
+>참가자 위험 관리는 위험 조사 및 검토 환경을 보호 하 고 최적화 하는 데 도움이 되는 기본 제공 알림 제한을 사용 합니다. 이러한 제한은 잘못 구성 된 데이터 커넥터 또는 DLP 정책과 같은 정책 경고의 오버 로드를 초래할 수 있는 문제 로부터 보호 합니다. 따라서 사용자에 대 한 새 알림을 표시 하는 데 지연이 있을 수 있습니다.
 
 ## <a name="alert-status-and-severity"></a>경고 상태 및 심각도
 

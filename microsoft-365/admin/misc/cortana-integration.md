@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 7257cb50-0d5c-4f7a-ac2e-9fe5d13bb5cb
 description: 'Office 365와 통합 된 경우 Cortana를 사용 하는 방법에 대해 알아봅니다. 관리 센터에서 Cortana를 해제 하 여 조직의 데이터에 대 한 액세스를 제한할 수 있습니다. '
-ms.openlocfilehash: 21de80d127498dd40db932923a8d650b87b8a24c
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 8f20c9b96ee57dcdf5da99dc08ffeb72465bc515
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42257423"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42361439"
 ---
 # <a name="cortana-in-office-365"></a>Office 365의 Cortana
 
@@ -46,7 +46,7 @@ Cortana 선택적인 연결 된 서비스는 조직의 직원 들에 대해 해�
 
 4. Cortana에서 연결 **된 Microsoft 호스팅된 데이터를 사용** 하 여 cortana 연결 환경을 사용 하거나 사용 하지 않도록 설정할 수 있는 확인란을 선택 합니다.
 
-5. **변경 내용 저장**을 선택 합니다.
+5. **변경 내용 저장**을 선택합니다.
 
 ## <a name="turn-off-cortana-ost-experiences"></a>Cortana OST 환경 끄기
 

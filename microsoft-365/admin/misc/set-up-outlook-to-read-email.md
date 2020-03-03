@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 2e155154-bc66-48cc-8476-ab558c97115a
 description: Outlook에서 Windows 및 Mac에 대해 전자 메일 계정을 설정 하는 방법과 Office 앱을 설치 하 고 온라인으로 전자 메일에 액세스 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 87a1bd45f763b4a802b083eb4936d67c50a92df3
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: f5be456c845381a07c380e4d480e03a39c42f0ed
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42257278"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42361239"
 ---
 # <a name="set-up-outlook-to-read-email"></a>Outlook을 설정 하 여 전자 메일 읽기
 
@@ -64,7 +64,7 @@ Outlook 앱을 처음 열 때 받은 편지함 설정 마법사가 열립니다.
 
 Office 365에 로그인 한 후 **Outlook**을 선택 합니다.
   
-![Outlook 앱이 강조 표시 된 상태로 Office 365 홈 페이지](../media/3ceee838-9d85-4af3-95a6-fbcee11036f4.png)
+![Outlook 앱이 강조 표시 된 상태로 Office 365 홈 페이지](../../media/3ceee838-9d85-4af3-95a6-fbcee11036f4.png)
   
 찾고자 하는 앱을 찾을 수 없나요? 앱 시작 관리자에서 **모든 앱**을 선택하여 사용 가능한 Office 365 앱의 사전순 목록을 보세요. 거기에서 특정 앱을 검색할 수 있습니다. 
   

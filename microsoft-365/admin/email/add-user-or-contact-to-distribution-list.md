@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: ba256583-03ca-429e-be4d-a92d9c221ad6
 description: 메일 그룹에 Office 365 사용자 또는 연락처를 추가 하는 방법에 대해 알아봅니다. 예를 들어 전자 메일 그룹에 직원, 파트너 또는 공급 업체를 추가할 수 있습니다.
-ms.openlocfilehash: ef9721a8620044a07909dd329dd42a01b2c700e8
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 2a6ee1336f738b57740469d6d74b461a69d7fc8c
+ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42255323"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42362373"
 ---
 # <a name="add-a-user-or-contact-to-an-office-365-distribution-group"></a>Office 365 메일 그룹에 사용자 또는 연락처 추가
 
@@ -45,7 +45,7 @@ Office 365 조직의 관리자는 사용자 또는 연락처 중 하나를 메�
 
 4. **구성원 보기** 페이지에서 **구성원 추가**를 선택 하 고 메일 그룹에 추가 하려는 사용자 또는 연락처를 선택 합니다. 
     
-    ![메일 그룹에 구성원 추가](../media/f79f59f8-1606-43fe-bae6-df74f5b6259d.png)
+    ![메일 그룹에 구성원 추가](../../media/f79f59f8-1606-43fe-bae6-df74f5b6259d.png)
   
 5. **저장** 을 선택한 다음 **닫기를**선택 합니다.
 
@@ -61,7 +61,7 @@ Office 365 조직의 관리자는 사용자 또는 연락처 중 하나를 메�
   
 4. **구성원 보기** 페이지에서 **구성원 추가**를 선택 하 고 메일 그룹에 추가 하려는 사용자 또는 연락처를 선택 합니다. 
     
-    ![메일 그룹에 구성원 추가](../media/f79f59f8-1606-43fe-bae6-df74f5b6259d.png)
+    ![메일 그룹에 구성원 추가](../../media/f79f59f8-1606-43fe-bae6-df74f5b6259d.png)
   
 5. **저장** 을 선택한 다음 **닫기를**선택 합니다.
     
@@ -79,7 +79,7 @@ Office 365 조직의 관리자는 사용자 또는 연락처 중 하나를 메�
   
 4. **구성원 보기** 페이지에서 **구성원 추가**를 선택 하 고 메일 그룹에 추가 하려는 사용자 또는 연락처를 선택 합니다. 
     
-    ![메일 그룹에 구성원 추가](../media/f79f59f8-1606-43fe-bae6-df74f5b6259d.png)
+    ![메일 그룹에 구성원 추가](../../media/f79f59f8-1606-43fe-bae6-df74f5b6259d.png)
   
 5. **저장** 을 선택한 다음 **닫기를**선택 합니다.
     
