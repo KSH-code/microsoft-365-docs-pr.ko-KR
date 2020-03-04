@@ -55,6 +55,8 @@
               href: ./mtp/troubleshoot.md
         - name: 사용 방법 가이드
           items:
+            - name: 지원 서비스 사용
+              href: mtp/deploy-supported-services.md
             - name: Microsoft Threat Protection 사용 설정
               href: mtp/mtp-enable.md
             - name: 인시던트
@@ -83,8 +85,6 @@
                   href: mtp/mtp-autoir-report-false-positives-negatives.md
             - name: 고급 헌팅
               items:
-                - name: Microsoft 365에서 찾기
-                  href: mtp/hunting.md
                 - name: 고급 헌팅 개요
                   href: mtp/advanced-hunting-overview.md
                 - name: 쿼리 언어 배우기
