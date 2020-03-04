@@ -14,14 +14,14 @@ ms.collection:
 search.appverid:
 - MET150
 description: 관리자는 조직의 사용자가 만든 셀프 서비스 구매를 관리 하는 방법을 확인할 수 있습니다.
-ms.openlocfilehash: f3ccd1f8ab5f2f9fc78e2920182155ef7f6f16e3
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: ab0e98963e1274925fcf678307907a93eafc9663
+ms.sourcegitcommit: 9c335d110e0b499501edc8a31b987641819118a1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42080335"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "42409633"
 ---
-# <a name="manage-self-service-purchases-admin"></a>셀프 서비스 구입 관리 (관리자)
+# <a name="manage-self-service-purchases-admin"></a>셀프 서비스 구매(관리자) 관리
 
 관리자는 조직의 사용자가 만든 셀프 서비스 구매를 볼 수 있습니다. 제품, 구매자 이름, 구독 구입, 만료 날짜, 구입 가격 및 할당 된 사용자를 각 셀프 서비스 구매에 대해 확인할 수 있습니다. 조직에 필요한 경우 PowerShell을 통해 제품별로 셀프 서비스 구매를 해제할 수 있습니다. 셀프 서비스 구매 나 중앙을 통해 구매한 제품에 대해 동일한 데이터 관리 및 액세스 정책을 사용 합니다.
 
@@ -76,12 +76,12 @@ ms.locfileid: "42080335"
 
 5. 보기의 단계에 따라 [셀프 서비스를 구매한 구독에 대 한 라이선스를 가진](#view-who-has-licenses-for-a-self-service-purchase-subscription) 사용자 목록을 내보내 6 단계에서 참조 합니다.
 
-6. 다른 구독에 라이선스가 있는 모든 사용자에 게 라이선스를 할당 합니다. 전체 단계는 [사용자에 게 라이선스 할당](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users)을 참조 하세요.
+6. 다른 구독에 라이선스가 있는 모든 사용자에 게 라이선스를 할당 합니다. 전체 단계는 [사용자에 게 라이선스 할당](../../admin/manage/assign-licenses-to-users.md)을 참조 하세요.
 
 7. 셀프 서비스 구매 구독을 구매한 사용자에 게 문의 하 여 취소 하도록 요청 합니다.
 
-## <a name="need-help-contact-us"></a>도움이 필요 하세요? 문의처.
+## <a name="need-help-contact-us"></a>도움이 필요하신가요? 문의처.
 
 셀프 서비스 구매에 대 한 일반적인 질문은 [셀프 서비스 구매 FAQ](self-service-purchase-faq.md)를 참조 하세요.
 
-궁금한 사항이 있거나 셀프 서비스 구매에 도움이 필요한 경우 [고객 지원에 문의 하세요](https://docs.microsoft.com/office365/admin/contact-support-for-business-products).
+궁금한 사항이 있거나 셀프 서비스 구매에 도움이 필요한 경우 [고객 지원에 문의 하세요](../../admin/contact-support-for-business-products.md).

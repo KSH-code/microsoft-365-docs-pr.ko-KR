@@ -23,12 +23,12 @@ search.appverid:
 ms.assetid: a25c10d6-c1e9-4299-9185-25178df9eba6
 description: 비즈니스용 Office 365의 대금 청구 주소를 업데이트 하는 방법을 알아봅니다. 또한 대금 청구 알림을 수신 하는 데 사용 되는 전자 메일 주소를 업데이트할 수 있습니다.
 ms.custom: okr_SMB
-ms.openlocfilehash: 8cf7a8a8ac3414e8c40a1642b33e36f9b5cdf1a9
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: aa696be3fd541fb98bc29c65c1285e2b2e967726
+ms.sourcegitcommit: 9c335d110e0b499501edc8a31b987641819118a1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42354759"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "42409643"
 ---
 # <a name="change-your-billing-addresses-for-office-365-for-business"></a>비즈니스용 Office 365의 대금 청구 주소 변경
 
@@ -195,5 +195,4 @@ ms.locfileid: "42354759"
 
 [구독 결제](pay-for-your-subscription.md)
 
-[구독 및 대금 청구-관리자 도움말](../subscriptions-and-billing.md)
-
+[구독 및 대금 청구-관리자 도움말](../index.yml)

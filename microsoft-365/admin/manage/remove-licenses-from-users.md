@@ -1,5 +1,5 @@
 ---
-title: 사용자의 라이선스 할당 취소
+title: 사용자의 라이선스 할당 해제
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -21,14 +21,14 @@ search.appverid:
 - GEA150
 ms.assetid: 9b497c85-d0a4-4735-80fa-d3565bc05bd1
 description: 사용자 계정에서 라이선스를 제거 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: bd14b7c62672d08e608b476e9c5982ac4b5ce070
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 031a29f9e005c5acc2fdf2aa5f24268268d180ab
+ms.sourcegitcommit: 9a4084ce2b80bac883412e0ec956b6c0cc18d0f5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42254878"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "42400935"
 ---
-# <a name="unassign-licenses-from-users"></a>사용자의 라이선스 할당 취소
+# <a name="unassign-licenses-from-users"></a>사용자의 라이선스 할당 해제
 
 ::: moniker range="o365-worldwide"
 **활성 사용자** 페이지 또는 **라이선스** 페이지에서 사용자의 라이선스를 제거 하거나 할당을 해제할 수 있습니다. 특정 사용자의 제품 라이선스를 할당 하지 않을 지 아니면 특정 제품에서 사용자의 라이선스를 할당 해제할 것인지에 따라 사용 하는 방법을 결정 합니다.
@@ -55,7 +55,7 @@ ms.locfileid: "42254878"
 > [!NOTE]
 > 새로운 Microsoft 365 관리 센터를 사용하지 않는 경우 홈페이지 상단에 있는 **새 관리 센터 시도** 토글을 선택하여 켤 수 있습니다.
   
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다..
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다.
 
 2. **활성 사용자** 페이지에서 라이선스를 할당 해제할 사용자의 행을 선택 합니다.
 
@@ -67,7 +67,7 @@ ms.locfileid: "42254878"
 
 ::: moniker range="o365-germany"
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다..
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다.
 
 2. 라이선스의 할당을 취소할 사용자를 선택 합니다.
 
@@ -100,7 +100,7 @@ ms.locfileid: "42254878"
 > [!NOTE]
 > 새로운 Microsoft 365 관리 센터를 사용하지 않는 경우 홈페이지 상단에 있는 **새 관리 센터 시도** 토글을 선택하여 켤 수 있습니다.
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다..
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다.
 
 2. 라이선스를 할당 하지 않을 사용자의 이름 옆에 있는 원을 선택 합니다.
 
@@ -114,7 +114,7 @@ ms.locfileid: "42254878"
 
 ::: moniker range="o365-germany"
   
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다..
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다.
 
 2. 모든 라이선스의 할당을 취소할 사용자의 이름 옆에 있는 상자를 선택 합니다.
 
@@ -128,7 +128,7 @@ ms.locfileid: "42254878"
 
 ::: moniker range="o365-21vianet"
   
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다..
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다.
 
 2. 모든 라이선스의 할당을 취소할 사용자의 이름 옆에 있는 상자를 선택 합니다.
 
@@ -148,9 +148,11 @@ ms.locfileid: "42254878"
 
 - 다른 사용자가 라이선스를 사용할 수 있도록 라이선스가 할당된 [사용자 계정을 삭제](../add-users/delete-a-user.md)할 수도 있습니다. 사용자 계정을 삭제하면 해당 라이선스를 즉시 다른 사람에게 할당할 수 있습니다.
 
-- 사용자가 라이선스를 제거 하면 해당 계정과 연결 된 데이터가 30 일 동안 보관 됩니다. 30 일 유예 기간이 지나면 데이터는 삭제 되며 복구할 수 없습니다. OneDrive 또는 SharePoint Online에 저장 된 파일은 삭제 되지 않습니다. 자세한 내용은 [OneDrive 보존 및 삭제](https://docs.microsoft.com/onedrive/retention-and-deletion) 를 참조 하세요.
+- 사용자가 라이선스를 제거 하면 해당 계정과 연결 된 데이터가 30 일 동안 보관 됩니다. 30 일 유예 기간이 지나면 데이터는 삭제 되며 복구할 수 없습니다.
 
-   또한 라이선스를 제거할 때 콘텐츠 검색 또는 고급 eDiscovery와 같은 eDiscovery 도구를 사용 하 여 사용자의 사서함을 더 이상 검색할 수 없습니다. 자세한 내용은 [Office 365의 콘텐츠 검색](https://docs.microsoft.com/office365/securitycompliance/content-search#searching-disconnected-or-de-licensed-mailboxes)에서 "연결이 끊어지거나 사용이 허가 되지 않은 사서함 검색" 섹션을 참조 하세요.
+- 사용자가 Microsoft 365 관리 센터에서 삭제 되거나 Active Directory 동기화를 통해 제거 되지 않으면 비즈니스용 OneDrive에 저장 된 파일이 삭제 되지 않습니다. 자세한 내용은 [OneDrive 보존 및 삭제](https://docs.microsoft.com/onedrive/retention-and-deletion)를 참조 하세요.
+
+- 또한 라이선스를 제거할 때 콘텐츠 검색 또는 고급 eDiscovery와 같은 eDiscovery 도구를 사용 하 여 사용자의 사서함을 더 이상 검색할 수 없습니다. 자세한 내용은 [Office 365의 콘텐츠 검색](https://docs.microsoft.com/office365/securitycompliance/content-search#searching-disconnected-or-de-licensed-mailboxes)에서 "연결이 끊어지거나 사용이 허가 되지 않은 사서함 검색" 섹션을 참조 하세요.
 
 - Office 365 Enterprise E3와 같은 엔터프라이즈 구독을 사용 하는 경우 Exchange Online에서는 [비활성 사서함](https://docs.microsoft.com/office365/securitycompliance/inactive-mailboxes-in-office-365)을 통해 삭제 된 사용자 계정의 사서함 데이터를 보존할 수 있습니다. 자세한 내용은 [Exchange Online에서 비활성 사서함 만들기 및 관리](https://docs.microsoft.com/office365/securitycompliance/create-and-manage-inactive-mailboxes)를 참조 하세요.
 

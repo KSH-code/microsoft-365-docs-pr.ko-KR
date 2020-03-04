@@ -17,12 +17,12 @@ ms.assetid: 8f54cd33-4af7-4d1b-b800-68f8818e5b2a
 ms.collection:
 - M365-security-compliance
 description: 위협 조사 및 응답 기능을 사용 하 여 악성 전자 메일을 찾고 조사 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 5fe9e06a582d72b46c4f90f13aee283050a06253
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 1cb7c418e9c4ae5f2223748d512e8718f81b010c
+ms.sourcegitcommit: 9c335d110e0b499501edc8a31b987641819118a1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42088727"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "42409753"
 ---
 # <a name="investigate-and-remediate-malicious-email-that-was-delivered-in-office-365"></a>Office 365에서 제공 된 악성 전자 메일 조사 및 재구성
 
@@ -32,7 +32,7 @@ ms.locfileid: "42088727"
 
 다음 조건이 충족되었는지 확인하세요.
   
-- 조직에 [Office 365 Advanced Threat Protection](office-365-atp.md) 이 있고 [라이선스가 사용자에 게 할당 되어](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users)있습니다.
+- 조직에 [Office 365 Advanced Threat Protection](office-365-atp.md) 이 있고 [라이선스가 사용자에 게 할당 되어](../../admin/manage/assign-licenses-to-users.md)있습니다.
     
 - [Office 365](../../compliance/turn-audit-log-search-on-or-off.md) 조직에 대해 감사 로깅이 설정 됩니다. 
     

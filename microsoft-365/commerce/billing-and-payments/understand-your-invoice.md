@@ -1,5 +1,5 @@
 ---
-title: 요금 청구 방식
+title: 송장 이해
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -18,18 +18,18 @@ search.appverid:
 - MET150
 description: Microsoft 비즈니스 제품의 송장을 읽고 이해 하는 방법을 알아봅니다.
 keywords: 청구 계정, 조직 정보, 송장
-ms.openlocfilehash: bf6f26b2f3bbeb3ac22273eca98b223383b88924
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 0ccf8484ba5f8badd29e1a8a54e1b570dd1e0548
+ms.sourcegitcommit: 9c335d110e0b499501edc8a31b987641819118a1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41594699"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "42409713"
 ---
-# <a name="understand-your-invoice"></a>요금 청구 방식
+# <a name="understand-your-invoice"></a>송장 이해
 
 송장에서는 결제에 대 한 요금 및 지침을 요약해 서 제공 합니다. Microsoft 365 관리 센터에서 [온라인 송장을 볼](#view-your-online-invoice) 수 있습니다. 또한이 파일을 휴대용 문서 형식 (.pdf)으로 다운로드 하 여 전자 메일을 통해 보낼 수 있습니다.
 
-Office 365 구독이 있는 경우 [office 365 비즈니스 에디션에 대 한 청구서 보기](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/view-your-bill-or-invoice)를 참조 하세요.
+Office 365 구독이 있는 경우 [office 365 비즈니스 에디션에 대 한 청구서 보기](view-your-bill-or-invoice.md)를 참조 하세요.
 
 ## <a name="understand-the-invoice-header"></a>송장 헤더 이해
 
@@ -102,14 +102,14 @@ Office 365 구독이 있는 경우 [office 365 비즈니스 에디션에 대 한
 
 ### <a name="to-view-your-online-invoice"></a>온라인 송장을 보려면
 
-1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">금액 & 지불</a> 페이지로 이동 합니다.
+1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2102895" target="_blank">청구서 및 결제</a> 페이지로 이동하십시오.
 
 2. 해당 송장의 .pdf 버전을 다운로드 하려면 보려는 송장에 대 한 행에서 **송장 Pdf 다운로드** 를 선택 합니다.
 
 3. 온라인 송장을 보려면 목록에서 송장을 선택 합니다. 송장 세부 정보 페이지 에서도 .pdf를 다운로드할 수 있습니다.
 
-## <a name="need-help-contact-support"></a>도움이 필요 하세요? 고객 지원에 문의하세요.
+## <a name="need-help-contact-support"></a>도움이 필요하신가요? 고객 지원에 문의하세요.
 
 Azure 제작진 관련 질문이 있거나 도움이 필요한 경우 <a href="https://portal.azure.com/#blade/Microsoft_Azure_Support/HelpAndSupportBlade/newsupportrequest" target="_blank">azure 지원 서비스를 통해 지원 요청을 만듭니다</a>.
 
-Microsoft 365 관리 센터의 청구서에 대 한 질문이 있거나 도움이 필요한 경우 [비즈니스 제품 지원 서비스에 문의 하세요](https://docs.microsoft.com/office365/admin/contact-support-for-business-products).
+Microsoft 365 관리 센터의 청구서에 대 한 질문이 있거나 도움이 필요한 경우 [비즈니스 제품 지원 서비스에 문의 하세요](../../admin/contact-support-for-business-products.md).

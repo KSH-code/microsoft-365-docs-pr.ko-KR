@@ -16,16 +16,19 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: 이 문서에서는 Microsoft 365의 새로운 고급 eDiscovery 버전에 대해 설명 합니다.
-ms.openlocfilehash: b3583037953d8dcb36ea6b3f7a2ba521e47fd9c4
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: a9c7811d9ad0660105f7063e674a54c01707ea58
+ms.sourcegitcommit: 9a4084ce2b80bac883412e0ec956b6c0cc18d0f5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42071061"
+ms.lasthandoff: 03/03/2020
+ms.locfileid: "42400952"
 ---
 # <a name="overview-of-the-advanced-ediscovery-solution-in-microsoft-365"></a>Microsoft 365의 고급 eDiscovery 솔루션 개요
 
 Microsoft 365의 고급 eDiscovery 솔루션은 Office 365의 기존 eDiscovery 및 분석 기능을 기반으로 작성 되었습니다. *Advanced eDiscovery*라는이 새로운 솔루션은 조직의 내부 및 외부 조사에 응답 하는 콘텐츠를 보존, 수집, 검토, 분석 및 내보내기 위한 종단 간 워크플로를 제공 합니다. 또한 법률 팀에서 법적 보존 알림 워크플로 전체를 관리 하 여 사례와 관련 된 custodians와 통신할 수 있습니다. 
+
+> [!NOTE]
+> 고급 eDiscovery에는 Office 365 또는 Microsoft 365 E5 Enterprise 구독이 필요 합니다. 고급 eDiscovery 라이선스에 대 한 자세한 내용은 [보안 & 준수에 대 한 Microsoft 365 라이선스 지침](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#advanced-ediscovery)을 참조 하세요.
 
 ## <a name="alignment-with-edrm"></a>EDRM과 맞춤
 

@@ -16,16 +16,25 @@ search.appverid:
 - MOE150
 - MET150
 description: 콘텐츠 탐색기를 사용하여 레이블이 지정된 항목을 원래 상태로 볼 수 있습니다.
-ms.openlocfilehash: 2d9be42c00940bf9d37d1fdeb9b15b071aa412ac
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 205ec6b4f2049e18ee95f25505d8a58d7eb7ac77
+ms.sourcegitcommit: 9c335d110e0b499501edc8a31b987641819118a1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42076433"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "42409693"
 ---
 # <a name="using-data-classification-content-explorer-preview"></a>데이터 분류 콘텐츠 탐색기(미리 보기) 사용
 
 데이터 분류 콘텐츠 탐색기를 사용하여 개요 페이지에 요약된 항목을 원래 상태로 볼 수 있습니다.
+
+## <a name="prerequisites"></a>필수 구성 요소
+
+활동 탐색기에 액세스하고 이를 사용하는 모든 계정에는 다음 구독 중 하나에서 할당된 라이선스가 있어야 합니다.
+
+- Microsoft 365 (E5)
+- Office 365 (E5)
+- 고급 규정 준수 (E5) 추가 기능
+- 고급 위협 인텔리전스 (E5) 추가 기능
 
 ## <a name="content-explorer"></a>콘텐츠 탐색기
 
@@ -58,6 +67,8 @@ ms.locfileid: "42076433"
 콘텐츠 탐색기에 액세스하는 데 사용하는 계정은 역할 그룹 중 하나 또는 둘 다에 있어야 합니다. 이러한 역할은 독립적인 역할 그룹이며 누적되지 않습니다. 예를 들어 계정에 항목 및 해당 위치만 볼 수 있는 권한을 부여 하려는 경우 콘텐츠 탐색기 목록 표시기 권한을 부여 합니다. 동일한 계정에서 목록에 있는 항목의 내용을 볼 수 있게 하려면 콘텐츠 탐색기 콘텐츠 뷰어 권한도 부여합니다.
 
 사용자 지정 역할 그룹에 역할 중 하나 또는 둘 다를 할당하여 콘텐츠 탐색기에 대한 액세스를 조정할 수도 있습니다.
+
+전역 관리자, 준수 관리자 또는 데이터 관리자는 필요한 콘텐츠 탐색기 목록 뷰어와 콘텐츠 탐색기 콘텐츠 뷰어 역할 그룹 구성원 자격을 할당할 수 있습니다.
 
 ### <a name="how-to-use-content-explorer"></a>콘텐츠 탐색기를 사용하는 방법
 

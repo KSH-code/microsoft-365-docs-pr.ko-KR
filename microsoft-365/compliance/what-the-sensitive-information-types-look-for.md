@@ -16,12 +16,12 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: Office 365 보안 &amp; 및 준수 센터의 dlp (데이터 손실 방지)에는 dlp 정책에서 사용할 준비가 된 80 중요 한 정보 유형이 포함 되어 있습니다. 이 항목에서는 이러한 모든 중요한 정보 유형의 목록과 DLP 정책이 이러한 각 유형을 검색할 때 찾는 내용을 보여 줍니다.
-ms.openlocfilehash: 517ff6ae711d61b783e837aebeeb991dfaa53daa
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 368ccef9e5213a7494140d2c305ddafe1e0c3f79
+ms.sourcegitcommit: 9c335d110e0b499501edc8a31b987641819118a1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42084337"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "42409513"
 ---
 # <a name="what-the-sensitive-information-types-look-for"></a>중요한 정보 형식이 찾는 항목
 
@@ -1968,7 +1968,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 
 ### <a name="format"></a>형식일
 
-서식이 있거나 서식이 없을 수 있는 16 자리 (dddddddddddddddd), Luhn 테스트를 통과 해야 합니다.
+서식이 있거나 서식이 없을 수 있는 (dddddddddddddddd), Luhn 테스트를 통과 해야 하는 16 자리 숫자입니다.
 
 ### <a name="pattern"></a>패턴
 
@@ -6165,4 +6165,3 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 - 대비 # 
 - 생길 
    
-

@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: '정책 팁은 다른 사용자가 DLP 정책과 충돌 하는 콘텐츠로 작업할 때 표시 되는 알림 또는 경고입니다. 전자 메일 알림 및 정책 팁을 사용 하 여 인식을 향상 하 고 조직의 정책에 대 한 사용자를 교육 시킬 수 있습니다. 또한 사용자에 게 올바른 비즈니스 요구 사항이 있거나 정책이 가양성을 검색 하는 경우 차단 되지 않도록 정책을 재정의 하는 옵션을 제공할 수도 있습니다. '
-ms.openlocfilehash: 676581a5cfdf7308cf6c5cd71083dedae34836fb
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: adf9d41fd528b2146ae3b3ee6f61390d61deaabe
+ms.sourcegitcommit: 9c335d110e0b499501edc8a31b987641819118a1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42084061"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "42409583"
 ---
 # <a name="send-email-notifications-and-show-policy-tips-for-dlp-policies"></a>DLP 정책에 대한 전자 메일 알림 보내기 및 정책 팁 표시
 
@@ -50,7 +50,7 @@ Office 365 보안 &amp; 및 준수 센터에서 DLP 정책을 만들 때 다음 
     
 ## <a name="add-user-notifications-to-a-dlp-policy"></a>DLP 정책에 사용자 알림 추가
 
-DLP 정책을 만들 때 전자 메일 알림과 정책 팁은 모두 **사용자 알림** 섹션의 일부입니다. 
+DLP 정책을 만들 때 **사용자 알림을**사용 하도록 설정할 수 있습니다. 이 옵션을 사용 하도록 설정 하면 Microsoft 365에서 전자 메일 알림과 정책 팁을 모두 전송 합니다. 전자 메일을 보낼 사용자를 사용자 지정할 수 있습니다.
   
 1. [https://protection.office.com](https://protection.office.com)으로 이동합니다.
     

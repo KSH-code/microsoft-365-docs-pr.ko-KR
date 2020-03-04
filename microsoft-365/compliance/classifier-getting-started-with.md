@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 365 trainable 분류자는 긍정적이 고 부정적 샘플을 확인 하 여 다양 한 유형의 콘텐츠를 인식할 수 있도록 교육을 제공 하는 도구입니다. 일단 분류자가 학습 되 면 결과가 정확 함을 확인할 수 있습니다. 그런 다음이를 사용 하 여 조직의 콘텐츠를 검색 하 고이를 분류 하 여 보존 또는 민감도 레이블을 적용 하거나 DLP (데이터 손실 방지) 또는 보존 정책에 포함 합니다.
-ms.openlocfilehash: 877001784f30f4b51e0e8c9fdb15091ea6308bf5
-ms.sourcegitcommit: 109b44aa71bb8453d0a602663df0fcf7ed7dfdbe
+ms.openlocfilehash: 159f0935a2191c668c317fac17096a9427a0f889
+ms.sourcegitcommit: 9c335d110e0b499501edc8a31b987641819118a1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/25/2020
-ms.locfileid: "42277205"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "42409723"
 ---
 # <a name="getting-started-with-trainable-classifiers-preview"></a>학습 가능한 분류자 시작 (미리 보기)
 
@@ -45,7 +45,7 @@ ms.locfileid: "42277205"
 이 분류 방법은 수동 또는 자동 패턴 일치 방법으로 쉽게 식별할 수 없는 콘텐츠에 특히 적합 합니다. 이 분류 방법은 항목에 있는 요소 (패턴 일치)가 아니라 항목을 기준으로 항목을 식별 하는 분류자를 교육 하는 방법에 대해 자세히 설명 합니다. 분류자는 분류에 관심이 있는 콘텐츠의 수백 가지 예를 검토 하 여 콘텐츠 형식을 식별 하는 방법을 학습 합니다. 먼저 범주에서 명확 하 게 보여 주는 예제를 공급 합니다. 이를 처리 하 고 나면 일치 및 일치 하지 않는 예제를 모두 함께 제공 하 여 테스트 합니다. 그런 다음 분류자는 지정 된 항목이 작성 중인 범주에 속하는지 여부에 따라 예측을 수행 합니다. 그런 다음 결과를 확인 하 여 정확도를 높일 수 있도록 긍정, 음수, 가양성 및 거짓 네거티브를 정렬 합니다. 숙련 된 분류자를 게시 하면 SharePoint Online, Exchange 및 OneDrive와 같은 위치에 있는 항목을 통해 정렬 되며 콘텐츠를 분류 합니다.
 
 > [!IMPORTANT]
-> 두 유형의 분류자는 조건 및 [통신 준수](communication-compliance.md)를 [기반으로 한 보존 레이블 정책 자동 적용](labels.md#applying-a-retention-label-automatically-based-on-conditions) 의 조건으로 사용 가능 합니다. 민감도 레이블은 기본 제공 분류자를 조건만 사용할 수 있으며 [민감도 레이블을 콘텐츠에 자동으로 적용](apply-sensitivity-label-automatically.md)을 참조 하십시오.
+> 기본 제공 분류자와 trainable 분류자는 모두 조건 및 [통신 준수](communication-compliance.md)를 [기반으로 하는 자동 적용 보존 레이블 정책의](labels.md#applying-a-retention-label-automatically-based-on-conditions) 조건으로 사용할 수 있습니다. 민감도 레이블은 기본 제공 분류자를 조건만 사용할 수 있으며 [민감도 레이블을 콘텐츠에 자동으로 적용](apply-sensitivity-label-automatically.md)을 참조 하십시오.
 
 > [!IMPORTANT]
 > Trainable 분류자는 암호화 되지 않고 영어로 있는 항목에 대해서만 작동 합니다.

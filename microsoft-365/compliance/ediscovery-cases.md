@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: 8dd335ab-29d0-41c3-8dd8-9f7c7481e60c
 description: 보안 & 준수 센터를 사용 하 여 조직에서 eDiscovery 사례를 만들고 관리 합니다. 사례에 멤버를 할당 하 고, 콘텐츠 위치를 유지 하 고, 사례와 연결 된 콘텐츠 검색을 실행 하 고, 검색 결과를 내보낼 수 있습니다. Office 365 Advanced eDiscovery에서 사례 데이터를 추가로 분석 하기 위해 준비할 수도 있습니다.
-ms.openlocfilehash: 7ae834e7f93c381cf6d386131e3a5c671e2bc529
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 22547a69b78e8ca8497dd2e2a6ae5d77f913a08f
+ms.sourcegitcommit: 9c335d110e0b499501edc8a31b987641819118a1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42075121"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "42409743"
 ---
 # <a name="manage-ediscovery-cases-in-the-security--compliance-center"></a>보안 및 준수 센터에서 eDiscovery 사례 관리
 
@@ -77,9 +77,6 @@ eDiscovery 사례를 사용하여 사례에 구성원을 추가하고, 특정 �
     - 조직의 모든 경우에 대 한 고급 eDiscovery의 사례 데이터 액세스
     
     사용자가 조직에서 eDiscovery 관리자가 되려고 하는 이유에 자세한 내용은 [More information](#more-information)를 참조하세요. 
-    
-> [!IMPORTANT]
-> 사용자가 이러한 eDiscovery 관련 역할 그룹 중 하나의 구성원이 아니거나 검토자 역할이 할당 된 역할 그룹의 구성원이 아닌 경우 eDiscovery 사례의 구성원으로 추가할 수 없습니다. 
 
 EDiscovery 권한에 대 한 자세한 내용은 [ediscovery 사용 권한 할당](assign-ediscovery-permissions.md)을 참조 하십시오.
   
@@ -117,28 +114,27 @@ EDiscovery 권한에 대 한 자세한 내용은 [ediscovery 사용 권한 할�
     
     > [!TIP]
     > 새 사례를 만든 후에는 언제 든 지 이름을 바꿀 수 있습니다. **EDiscovery** 페이지에서 사례 이름을 클릭 하면 됩니다. **이 사례** 플라이 아웃 관리 페이지에서 **이름**아래의 상자에 표시 되는 이름을 변경 하 고 변경 내용을 저장 합니다. 
-  
 ## <a name="step-3-add-members-to-a-case"></a>3 단계: 사례에 구성원 추가
 
-사례를 만든 후 다음 단계는 사례에 구성원을 추가 하는 것입니다. 앞에서 설명한 것 처럼 검토자 또는 eDiscovery 관리자 역할 그룹의 구성원 인 사용자만 사례 구성원으로 추가할 수 있습니다. 사례를 만든 eDiscovery 관리자가 구성원으로 자동 추가 됩니다.
+사례를 만든 후 다음 단계는 사례에 구성원을 추가 하는 것입니다. 사례를 만든 eDiscovery 관리자가 구성원으로 자동 추가 됩니다. 앞에서 설명한 것 처럼 구성원은 적절 한 eDiscovery 권한을 할당 하 여 추가 후 사례에 액세스할 수 있어야 합니다.
   
 1. 보안 & 준수 센터에서 **ediscovery** \> **ediscovery** 를 클릭 하 여 조직의 사례 목록을 표시 합니다. 
-    
+
 2. 구성원을 추가 하려는 사례 이름을 클릭 합니다.
-    
+
     **이 사례** 플라이 아웃 관리 페이지가 표시 됩니다. 
-    
+
     ![사례 플라이 아웃 관리 페이지](../media/11f35ceb-6c98-4580-a3bc-ad688e9c7af9.png)
   
 3. **구성원 관리**에서 add Icon ![](../media/ITPro-EAC-AddIcon.gif) **추가** 를 클릭 하 여 서비스 케이스에 구성원을 추가 합니다. 
-    
+
     또한 사례에 역할 그룹을 추가 하도록 선택할 수 있습니다. **역할 그룹 관리**에서 add 아이콘 ![](../media/ITPro-EAC-AddIcon.gif) **추가**를 클릭 합니다.
-    
+
     > [!NOTE]
     > 역할 그룹은 eDiscovery 사례에 구성원을 할당할 수 있는 사용자를 제어 합니다. 즉, 사용자가 구성원으로 속해 있는 역할 그룹을 사례에만 할당할 수 있습니다.
-    
+
 4. 사례 구성원으로 추가할 수 있는 사용자 또는 역할 그룹의 목록에서 추가할 사용자 또는 역할 그룹의 이름 옆에 있는 확인란을 클릭 합니다.
-    
+
     > [!TIP]
     > 구성원으로 추가할 수 있는 사용자 목록이 많은 경우에는 **검색** 상자를 사용 하 여 목록에서 특정 사용자를 검색 합니다. 
   
@@ -154,7 +150,7 @@ eDiscovery 사례를 사용하여 보류를 만든 후에 사례와 관련된 �
 
 > [!NOTE]
 > 콘텐츠 위치를 보존 상태로 설정 하 고 나면 보존을 적용 하는 데 최대 24 시간이 걸릴 수 있습니다. 
->   
+
 보류를 만들 때 지정 된 콘텐츠 위치에 보관 되는 콘텐츠의 범위를 지정할 수 있는 옵션은 다음과 같습니다.
   
 - 모든 콘텐츠가 보류 되는 영구 보존을 만듭니다. 또는 검색 쿼리와 일치 하는 콘텐츠만 보존 되는 쿼리 기반 보류를 만들 수 있습니다.

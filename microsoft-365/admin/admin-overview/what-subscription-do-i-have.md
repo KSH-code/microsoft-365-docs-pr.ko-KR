@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: 092252f8-08df-4cdb-a8d2-b8653caa29a1
 description: 구독 페이지로 이동 하 여 조직에 있는 구독을 확인 하는 방법을 알아봅니다.
 ms.custom: okr_SMB
-ms.openlocfilehash: 1a63b0b17333ad12846ba8bac2c83b2d8dfc67a8
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: dad08784a775e590972d1f5dd554aeb2d147c28b
+ms.sourcegitcommit: 9c335d110e0b499501edc8a31b987641819118a1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42352829"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "42409503"
 ---
 # <a name="what-subscription-do-i-have"></a>내가 구독한 것은 무엇인가요?
 
@@ -86,4 +86,4 @@ ms.locfileid: "42352829"
 
 ## <a name="related-articles"></a>관련 문서
   
-[구독 및 청구](../../commerce/subscriptions-and-billing.md)
+[구독 및 청구](../../commerce/index.yml)

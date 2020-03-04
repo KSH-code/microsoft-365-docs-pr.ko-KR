@@ -21,12 +21,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Office 365 E3에서 Microsoft 365 Business로 비즈니스를 이동 하는 방법을 알아봅니다.
-ms.openlocfilehash: 54320ed60825a28147542094b19761889a70ae9f
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: b86a163792aa71f0bca115ab918e0800acc0427d
+ms.sourcegitcommit: 9c335d110e0b499501edc8a31b987641819118a1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42065582"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "42409683"
 ---
 # <a name="migrating-from-office-365-e3-to-microsoft-365-business"></a>Office 365 E3에서 Microsoft 365 Business로 마이그레이션 
 
@@ -38,27 +38,27 @@ Microsoft 365 Business는 최고급 클라우드 기반 생산성 앱과 간단�
 
 이 표에서는 Microsoft 365 Business 및 Office 365 E3의 차이점을 보여 줍니다.
 
-| 기능   | Microsoft 365 Business의 지원 | Office 365 E3의 지원 | 
+| 기능    | Microsoft 365 Business의 지원    | Office 365 E3의 지원 | 
 |:-------|:-----|:-----|
-| **온-프레미스**       | | | 
-| Office 앱<sup>1</sup>   | Office 365 Business   | Office 365 ProPlus | 
-| **클라우드 생산성 앱**       | | | 
-| Exchange Online 및 Outlook   | 사서함 당 50 GB 저장소 제한 및 무제한 Exchange 온라인 보관   | 사서함 당 100 GB 저장소 제한 및 무제한 Exchange 온라인 보관 | 
-| Teams | ![Microsoft 365 Business에 포함](../media/check-mark.png)  | ![Office 365 E3에 포함](../media/check-mark.png) | 
-| 비즈니스용 OneDrive | 사용자 당 1TB 저장소 제한   | 무제한 | 
-| Yammer, SharePoint Online, Planner, 스트림    | ![Microsoft 365 Business에 포함](../media/check-mark.png)  | ![Office 365 E3에 포함](../media/check-mark.png) | 
-| StaffHub  | ![Microsoft 365 Business에 포함](../media/check-mark.png)  | ![Office 365 E3에 포함](../media/check-mark.png) | 
-| Outlook 고객 관리자, MileIQ  | ![Microsoft 365 Business에 포함](../media/check-mark.png)  | | 
-| **위협 방지**     | | | 
-| Office 365 ATP (Advanced Threat Protection) 계획 1 | ![Microsoft 365 Business에 포함](../media/check-mark.png) | 포함 되지 않지만 추가할 수 있음 | 
-| **Id 관리**       | | | 
-| 하이브리드 Azure Active Directory에 대 한 셀프 서비스 암호 재설정 (Azure AD) 계정, Azure MFA (다단계 인증), 조건부 액세스, 온-프레미스 id에 대 한 암호 쓰기 저장|    ![Microsoft 365 Business에 포함](../media/check-mark.png)    |  | 
-| **장치 및 앱 관리**     | | |
-| Microsoft Intune, Windows AutoPilot|  ![Microsoft 365 Business에 포함](../media/check-mark.png)    |  |
-| 공유 컴퓨터 활성화|   ![Microsoft 365 Business에 포함](../media/check-mark.png)    | ![Office 365 E3에 포함](../media/check-mark.png)| 
+| **온-프레미스**        | | | 
+| Office 앱<sup>1</sup>    | Office 365 Business    | Office 365 ProPlus | 
+| **클라우드 생산성 앱**        | | | 
+| Exchange Online 및 Outlook    | 사서함 당 50 GB 저장소 제한 및 무제한 Exchange 온라인 보관    | 사서함 당 100 GB 저장소 제한 및 무제한 Exchange 온라인 보관 | 
+| Teams    | ![Microsoft 365 Business에 포함](../media/check-mark.png)    | ![Office 365 E3에 포함](../media/check-mark.png) | 
+| 비즈니스용 OneDrive    | 사용자 당 1TB 저장소 제한    | 무제한 | 
+| Yammer, SharePoint Online, Planner, 스트림    | ![Microsoft 365 Business에 포함](../media/check-mark.png)    | ![Office 365 E3에 포함](../media/check-mark.png) | 
+| StaffHub    | ![Microsoft 365 Business에 포함](../media/check-mark.png)    | ![Office 365 E3에 포함](../media/check-mark.png) | 
+| Outlook 고객 관리자, MileIQ    | ![Microsoft 365 Business에 포함](../media/check-mark.png)    | | 
+| **위협 방지**        | | | 
+| Office 365 ATP (Advanced Threat Protection) 계획 1 | ![Microsoft 365 Business에 포함](../media/check-mark.png)    | 포함 되지 않지만 추가할 수 있음 | 
+| **Id 관리**        | | | 
+| 하이브리드 Azure Active Directory에 대 한 셀프 서비스 암호 재설정 (Azure AD) 계정, Azure MFA (다단계 인증), 조건부 액세스, 온-프레미스 id에 대 한 암호 쓰기 저장|     ![Microsoft 365 Business에 포함](../media/check-mark.png)    |  | 
+| **장치 및 앱 관리**        | | |
+| Microsoft Intune, Windows AutoPilot|     ![Microsoft 365 Business에 포함](../media/check-mark.png)    |  |
+| 공유 컴퓨터 활성화|     ![Microsoft 365 Business에 포함](../media/check-mark.png)    | ![Office 365 E3에 포함](../media/check-mark.png)| 
 | Win 7/8.1 Pro 라이선스에서 Windows 10 Pro로의 업그레이드 권한|     ![Microsoft 365 Business에 포함](../media/check-mark.png)    || 
 | **정보 보호**        | | |
-|Office 365 데이터 손실 방지|   ![Microsoft 365 Business에 포함](../media/check-mark.png)|![Office 365 E3에 포함](../media/check-mark.png)|
+|Office 365 데이터 손실 방지|    ![Microsoft 365 Business에 포함](../media/check-mark.png)|![Office 365 E3에 포함](../media/check-mark.png)|
 |Azure Information Protection 계획 1, Bitlocker 적용|![Microsoft 365 Business에 포함](../media/check-mark.png)||
 |Azure Information Protection 계획 1, 민감도 레이블|![Microsoft 365 Business에 포함](../media/check-mark.png)||
 |**클라이언트 액세스 라이선스 (CAL 권한)**|||
@@ -68,7 +68,7 @@ Microsoft 365 Business는 최고급 클라우드 기반 생산성 앱과 간단�
 
 ## <a name="migration"></a>마이그레이션
 
-구독을 마이그레이션하려면 소수의 사용자만 Microsoft 365 Business로 이동 하려는 경우 지침을 위해 [다른 요금제로 전환을](https://docs.microsoft.com/office365/admin/misc/switch-plans-manually) 참조 하세요. [모든 사용자를 자동으로 업그레이드](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/upgrade-to-different-plan)하거나 파트너와 함께 작업 하 여 E3 구독 및 라이선스를 Microsoft 365 비즈니스 구독으로 이동할 수도 있습니다.
+구독을 마이그레이션하려면 소수의 사용자만 Microsoft 365 Business로 이동 하려는 경우 [계획을 수동으로 변경](../commerce/subscriptions/change-plans-manually.md) 합니다 .를 참조 하세요. [모든 사용자를 자동으로 업그레이드](../commerce/subscriptions/upgrade-to-different-plan.md)하거나 파트너와 함께 작업 하 여 E3 구독 및 라이선스를 Microsoft 365 비즈니스 구독으로 이동할 수도 있습니다.
 다음 섹션에서는 마이그레이션 후 수행 해야 하는 작업 및 변경 내용에 대해 설명 합니다.
 
 ### <a name="office-365-e3-subscription-configuration-and-data"></a>Office 365 E3 구독 구성 및 데이터

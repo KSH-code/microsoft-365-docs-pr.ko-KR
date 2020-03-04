@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
 description: 캠페인에 대 한 Microsoft 365에 대 한 단계별 등록입니다. Cybersecurity 위협 으로부터 전자 메일, 데이터 및 통신으로 캠페인을 보호 합니다.
-ms.openlocfilehash: e142adcc9b1858355414c28b7e94116a6505f1b9
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 604e0be01c3824ed63361bb7fc9e694787ae83ef
+ms.sourcegitcommit: 9c335d110e0b499501edc8a31b987641819118a1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42080533"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "42409663"
 ---
 # <a name="sign-up-for-microsoft-365-for-campaigns"></a>캠페인에 대 한 Microsoft 365 등록 
 
@@ -84,13 +84,10 @@ Office 365 Business Premium과 같은 비즈니스용 Office 365에 대 한 기�
 4. 모양을 어떻게 **확인 하 시겠습니까?** 사용자 수를 입력 하 고 **다음**을 선택 합니다. 홍보 코드는 이미 초대 URL에 포함 되어 있으므로 여기에 입력 하지 않아도 됩니다.
 5. **어떻게 결제** 하 시겠습니까? 페이지에서 결제 방법을 입력 하 고 **주문 하기**를 선택 합니다.
 
-이러한 단계를 완료 하면 캠페인 직원에 게 [새 라이선스를 할당할](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users?view=o365-worldwide) 수 있습니다. 
+이러한 단계를 완료 하면 캠페인 직원에 게 [새 라이선스를 할당할](../admin/manage/assign-licenses-to-users.md) 수 있습니다.
 
 
 ## <a name="whats-next"></a>다음 작업
 - [Microsoft 365을 설정](../business/set-up.md?toc=/microsoft-365/campaigns/toc.json) 하 여 캠페인에 대 한 microsoft 365를 설정 합니다. 
 - 계획에 [사용자를 추가](../business/add-users-m365b.md?toc=/microsoft-365/campaigns/toc.json) 합니다. 캠페인 후보, 모든 선임 캠페인 직원 및 중요 한 캠페인 또는 파티 정보에 액세스할 수 있는 모든 사용자를 포함 합니다.
 - [캠페인에 대 한 범프 보호](m365-campaigns-security-overview.md)
-
-
-

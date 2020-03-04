@@ -23,12 +23,12 @@ search.appverid:
 ms.assetid: e81e09d2-cd52-4212-8550-5405864b6d62
 ROBOTS: NOINDEX
 description: 때로는 수동으로 전환 하거나 지원 서비스를 호출 하 여 계획을 수행 해야 하는 이유를 이해 합니다.
-ms.openlocfilehash: d7c076a5ce003f7d5ce5317f4330857e632e53ad
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: a78ce8614dcc7382543bfda5bdfdfb025b6e5077
+ms.sourcegitcommit: 9c335d110e0b499501edc8a31b987641819118a1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42246972"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "42409623"
 ---
 # <a name="why-cant-i-switch-office-365-for-business-plans"></a>Office 365 비즈니스 에디션 요금제를 전환할 수 없는 이유는 무엇인가요?
 
@@ -41,12 +41,12 @@ ms.locfileid: "42246972"
   
 ::: moniker range="o365-worldwide"
 
- **다른 사항이 필요 합니다.** [다른 구독](../buy-another-subscription.md) | 구입 구독 | [구독 및 대금 청구](../subscriptions-and-billing.md) | [통화 지원을](../../admin/contact-support-for-business-products.md) [취소 합니다](cancel-your-subscription.md).
+ **다른 사항이 필요 합니다.** [다른 구독](../buy-another-subscription.md) | 구입 구독 | [구독 및 대금 청구](../index.yml) | [통화 지원을](../../admin/contact-support-for-business-products.md) [취소 합니다](cancel-your-subscription.md).
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
- **다른 사항이 필요 합니다.** [다른 구독](../buy-another-subscription.md) | 구입 구독 | [구독 및 대금 청구](../subscriptions-and-billing.md) | [통화 지원을](../../admin/contact-support-for-business-products.md) [취소 합니다](cancel-your-subscription.md).
+ **다른 사항이 필요 합니다.** [다른 구독](../buy-another-subscription.md) | 구입 구독 | [구독 및 대금 청구](../index.yml) | [통화 지원을](../../admin/contact-support-for-business-products.md) [취소 합니다](cancel-your-subscription.md).
 
 ::: moniker-end
 
