@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Microsoft 365의 고급 감사는 조직에서 법의학 및 규정 준수 조사를 수행하는 데 도움이 되는 새로운 감사 기능을 제공합니다.
-ms.openlocfilehash: 4812f81140bc80a1437c13b7bce38a7ed101592d
-ms.sourcegitcommit: 6d672eb8287526a9db90df5fa85bc4984a7047d1
+ms.openlocfilehash: 7d672dd8a84107d8d4561ae8982114abc4e01af9
+ms.sourcegitcommit: 9d6f9fd271e83c00e92a5e0247fcc51fc2070c3c
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "42280166"
+ms.lasthandoff: 03/02/2020
+ms.locfileid: "42370487"
 ---
 # <a name="advanced-audit-in-microsoft-365"></a>Microsoft 365의 고급 감사
 
@@ -61,7 +61,7 @@ Microsoft 365의 [통합 감사 기능](search-the-audit-log-in-security-and-com
 
 - MessageBind 작업은 동일한 전자 메일 메시지에 액세스할 때 여러 감사 레코드가 생성되어 "노이즈" 감사가 발생합니다. 반대로 MailItemsAccessed 이벤트는 더 적은 감사 레코드로 집계됩니다.
 
-사서함 감사 로깅에 대한 자세한 내용은 [사서함 감사 관리](enable-mailbox-auditing.md)를 참조하십시오.
+MailItemsAccessed 액세스 활동의 감사 레코드에 대한 자세한 내용은 [고급 감사를 사용하여 손상된 계정 조사](mailitemsaccessed-forensics-investigations.md)를 참조하세요.
 
 ### <a name="search-for-mailitemsaccessed-audit-records"></a>MailItemsAccessed 감사 레코드 검색
 
