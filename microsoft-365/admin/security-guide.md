@@ -11,23 +11,24 @@ ms.service: o365-administration
 localization_priority: Normal
 ms.custom:
 - SMB_SuccessCenter
+- MARVEL_SEO_MAR
 search.appverid:
 - MET150
 - MOE150
-description: 소규모 기업을 보안 위협 으로부터 보호 하는 쉬운 방법을 알아봅니다.
-ms.openlocfilehash: a3923731e93962d1976d0cd163db4f97a07aaed2
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+description: 비즈니스 직면 및 직원 들이 데이터, 계정 및 장치를 보호할 수 있는 방법에 대 한 보안 위협에 대해 알아봅니다.
+ms.openlocfilehash: 0997f6bab379ccc5ff68d5bf890419772fd4aaaf
+ms.sourcegitcommit: d6c871bf3f94d9299d22695f5dbaf25dc1bd6ff9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42360779"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42417284"
 ---
-# <a name="security-info-graphic-for-small-businesses"></a><span data-ttu-id="cfec2-103">중소 기업에 대 한 보안 정보 그래픽</span><span class="sxs-lookup"><span data-stu-id="cfec2-103">Security info graphic for small businesses</span></span>
+# <a name="security-info-graphic-for-small-businesses"></a><span data-ttu-id="b7932-103">중소 기업에 대 한 보안 정보 그래픽</span><span class="sxs-lookup"><span data-stu-id="b7932-103">Security info graphic for small businesses</span></span>
 
-<span data-ttu-id="cfec2-104">**요약:** 비즈니스가 직면 한 위협에 대 한 기본 용어와 데이터, 계정 및 장치를 보호 하기 위해 수행할 수 있는 작업에 대해 알아봅니다.</span><span class="sxs-lookup"><span data-stu-id="cfec2-104">**Summary:** Learn the basic terms for the threats your business faces and what you can do to protect your data, accounts, and devices.</span></span> <span data-ttu-id="cfec2-105">비즈니스에 대 한 Office 365, Microsoft 365 비즈니스용 관리자는 업무를 보다 안전 하 게 하기 위한 조치를 취하고, 모든 직원이 비즈니스 데이터와 장치를 안전 하 게 유지 하는 방법을 알아봅니다.</span><span class="sxs-lookup"><span data-stu-id="cfec2-105">As an admin for Office 365 for business or for Microsoft 365 Business, take action to make your business more secure, and help every employee learn how to keep your business data and devices safe..</span></span>
+<span data-ttu-id="b7932-104">**요약:** 비즈니스가 직면 한 위협에 대 한 기본 용어와 데이터, 계정 및 장치를 보호 하기 위해 수행할 수 있는 작업에 대해 알아봅니다.</span><span class="sxs-lookup"><span data-stu-id="b7932-104">**Summary:** Learn the basic terms for the threats your business faces and what you can do to protect your data, accounts, and devices.</span></span> <span data-ttu-id="b7932-105">비즈니스에 대 한 Office 365, Microsoft 365 비즈니스용 관리자는 업무를 보다 안전 하 게 하기 위한 조치를 취하고, 모든 직원이 비즈니스 데이터와 장치를 안전 하 게 유지 하는 방법을 알아봅니다.</span><span class="sxs-lookup"><span data-stu-id="b7932-105">As an admin for Office 365 for business or for Microsoft 365 Business, take action to make your business more secure, and help every employee learn how to keep your business data and devices safe..</span></span>
 
-<span data-ttu-id="cfec2-106">아래 PowerPoint 및 PDF 링크는 tabloid 형식 (원장, 11 x 17 또는 A3이 라고도 함)으로 다운로드 하 고 인쇄할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="cfec2-106">The links for PowerPoint and PDF below can be downloaded and printed in tabloid format (also known as ledger, 11 x 17, or A3).</span></span>
+<span data-ttu-id="b7932-106">아래 PowerPoint 및 PDF 링크는 tabloid 형식 (원장, 11 x 17 또는 A3이 라고도 함)으로 다운로드 하 고 인쇄할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b7932-106">The links for PowerPoint and PDF below can be downloaded and printed in tabloid format (also known as ledger, 11 x 17, or A3).</span></span>
 
 ![Small business 정보 그래픽 보안 이미지](../media/smbthreatprotectioninfographic-thumbnail.png)
 
-<span data-ttu-id="cfec2-108">[PDF](downloads/smbthreatprotection-infographic.pdf) | [PowerPoint](https://github.com/MicrosoftDocs/microsoft-365-docs-pr/raw/live/m365-democracy/microsoft-365/admin/downloads/smbthreatprotection-infographic.pptx)</span><span class="sxs-lookup"><span data-stu-id="cfec2-108">[PDF](downloads/smbthreatprotection-infographic.pdf) | [PowerPoint](https://github.com/MicrosoftDocs/microsoft-365-docs-pr/raw/live/m365-democracy/microsoft-365/admin/downloads/smbthreatprotection-infographic.pptx)</span></span>
+<span data-ttu-id="b7932-108">[PDF](downloads/smbthreatprotection-infographic.pdf) | [PowerPoint](https://github.com/MicrosoftDocs/microsoft-365-docs-pr/raw/live/m365-democracy/microsoft-365/admin/downloads/smbthreatprotection-infographic.pptx)</span><span class="sxs-lookup"><span data-stu-id="b7932-108">[PDF](downloads/smbthreatprotection-infographic.pdf) | [PowerPoint](https://github.com/MicrosoftDocs/microsoft-365-docs-pr/raw/live/m365-democracy/microsoft-365/admin/downloads/smbthreatprotection-infographic.pptx)</span></span>
