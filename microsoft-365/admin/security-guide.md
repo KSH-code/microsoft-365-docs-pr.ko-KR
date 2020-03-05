@@ -11,16 +11,17 @@ ms.service: o365-administration
 localization_priority: Normal
 ms.custom:
 - SMB_SuccessCenter
+- MARVEL_SEO_MAR
 search.appverid:
 - MET150
 - MOE150
-description: 소규모 기업을 보안 위협 으로부터 보호 하는 쉬운 방법을 알아봅니다.
-ms.openlocfilehash: a3923731e93962d1976d0cd163db4f97a07aaed2
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+description: 비즈니스 직면 및 직원 들이 데이터, 계정 및 장치를 보호할 수 있는 방법에 대 한 보안 위협에 대해 알아봅니다.
+ms.openlocfilehash: 0997f6bab379ccc5ff68d5bf890419772fd4aaaf
+ms.sourcegitcommit: d6c871bf3f94d9299d22695f5dbaf25dc1bd6ff9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42360779"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42417284"
 ---
 # <a name="security-info-graphic-for-small-businesses"></a>중소 기업에 대 한 보안 정보 그래픽
 

@@ -17,17 +17,18 @@ ms.custom:
 - MiniMaven
 - MSB365
 - OKR_SMB_M365
+- MARVEL_SEO_MAR
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 80bdae57-f8bc-4e40-a58c-956007117ecb
-description: 'Microsoft 365 Business를 사용 하 여 사용자 장치 또는 Windows Pc에서 회사 데이터를 제거 하는 방법을 알아봅니다. '
-ms.openlocfilehash: 338ce030cb37a6cbd4a1f63c33dc6866bef93c24
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: Microsoft 365 Business를 사용 하 여 사용자가 자신의 장치 또는 Windows Pc에 보유 한 회사 데이터를 제거 하는 방법을 알아봅니다.
+ms.openlocfilehash: 81b6e16f3824863fcc87003cf9d07ad33e5f2873
+ms.sourcegitcommit: d6c871bf3f94d9299d22695f5dbaf25dc1bd6ff9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42064910"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42417359"
 ---
 # <a name="remove-company-data-from-devices"></a>장치에서 회사 데이터 제거
 

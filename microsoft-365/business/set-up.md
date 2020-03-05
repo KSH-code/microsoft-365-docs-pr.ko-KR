@@ -23,17 +23,18 @@ ms.custom:
 - OKR_SMB_M365
 - TRN_M365B
 - OKR_SMB_Videos
+- MARVEL_SEO_MAR
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
-description: Microsoft 365 Business를 설정 하는 방법을 알아보세요.
-ms.openlocfilehash: c370a5b3fd735e704eea56ac1079bb2e5dad4c4b
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+description: 도메인 및 사용자 추가, 보안 정책 설정 등 Microsoft 365 Business의 설치 단계를 알아봅니다.
+ms.openlocfilehash: 4535a32b579b91b6c2bb0e64ec95904be6c08fce
+ms.sourcegitcommit: d6c871bf3f94d9299d22695f5dbaf25dc1bd6ff9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41594272"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42417299"
 ---
 # <a name="set-up-microsoft-365-business-in-the-setup-wizard"></a>설치 마법사에서 Microsoft 365 Business 설정
 
@@ -45,7 +46,7 @@ ms.locfileid: "41594272"
 
 ## <a name="add-your-domain-users-and-set-up-policies"></a>도메인, 사용자 및 정책 설정 추가
 
-[![관리 센터가 변경되고 있음을 알리는 레이블이며 aka.ms/aboutM365preview에서 자세한 내용을 확인할 수 있습니다.](media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
+[![관리 센터가 변경되고 있음을 알리는 레이블이며 aka.ms/aboutM365preview에서 자세한 내용을 확인할 수 있습니다.](../media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
 
 Microsoft 365 Business를 구매 하는 경우 소유 하 고 있는 도메인을 사용 하거나 [등록](sign-up.md)중에 하나를 구입 하는 옵션이 있습니다.
 
@@ -57,7 +58,7 @@ Microsoft 365 Business를 구매 하는 경우 소유 하 고 있는 도메인�
 
 2. **설정으로 이동을** 선택 하 여 마법사를 시작 합니다.
 
-    ![설정으로 이동을 선택 합니다.](media/gotosetupinadmincenter.png)
+    ![설정으로 이동을 선택 합니다.](../media/gotosetupinadmincenter.png)
 
 3. **Office 앱 설치** 페이지에서 필요에 따라 컴퓨터에 앱을 설치할 수 있습니다.
     
@@ -66,14 +67,14 @@ Microsoft 365 Business를 구매 하는 경우 소유 하 고 있는 도메인�
     > [!IMPORTANT]
     > 등록할 때 도메인을 구매한 경우에 **는 추가 도메인** 단계가 표시 되지 않습니다. 대신 [사용자 추가](#add-users-and-assign-licenses) 로 이동 합니다.
 
-    ![로그인 페이지를 개인 설정 합니다.](media/adddomain.png)
+    ![로그인 페이지를 개인 설정 합니다.](../media/adddomain.png)
 
     
 4. 마법사의 단계에 따라 도메인을 소유 하 고 있는지 확인 하는 [dns 호스팅 공급자 (Office 365)에 dns 레코드를 만듭니다](https://docs.microsoft.com/office365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider) . 도메인 호스트를 알고 있는 경우에는 [호스트 관련 지침](https://docs.microsoft.com/office365/admin/get-help-with-domains/set-up-your-domain-host-specific-instructions)도 참조 하세요.
 
     호스팅 공급자가 GoDaddy 이거나 [도메인 연결](https://docs.microsoft.com/office365/admin/get-help-with-domains/domain-connect)을 사용 하 여 다른 호스트를 사용 하는 경우에는 프로세스가 쉬우며 자동으로 로그인 하 라는 메시지가 표시 되며 사용자가 대신 인증을 받을 수 있습니다.
 
-    ![GoDaddy 액세스 확인 페이지에서 권한 부여를 선택 합니다.](media/godaddyauth.png)
+    ![GoDaddy 액세스 확인 페이지에서 권한 부여를 선택 합니다.](../media/godaddyauth.png)
 
 ### <a name="add-users-and-assign-licenses"></a>사용자 추가 및 라이선스 할당
 
@@ -83,7 +84,7 @@ Microsoft 365 Business를 구매 하는 경우 소유 하 고 있는 도메인�
 
 마법사에서 추가 하는 모든 사용자는 Microsoft 365 비즈니스 라이선스를 자동으로 할당 받습니다.
 
-![마법사의 새 사용자 추가 페이지 스크린샷](media/addnewuserspage.png)
+![마법사의 새 사용자 추가 페이지 스크린샷](../media/addnewuserspage.png)
 
 1. Microsoft 365 비즈니스 구독에 기존 사용자가 있는 경우 (예: Azure AD Connect를 사용한 경우) 지금 라이선스를 할당 하는 옵션이 제공 됩니다. 해당 사용자에게도 라이선스를 추가합니다.
 
@@ -101,7 +102,7 @@ Microsoft 365 Business를 구매 하는 경우 소유 하 고 있는 도메인�
     - 기존 웹 사이트와 같이 기존 DNS 레코드가 있지만 DNS 호스트가 [도메인 연결](https://docs.microsoft.com/office365/admin/get-help-with-domains/domain-connect)을 사용 하도록 설정 된 경우 **에는 레코드 추가**를 선택 합니다. **온라인 서비스 선택** 페이지에서 기본값을 모두 적용 하 고 **다음**을 선택한 다음, DNS 호스트의 페이지에서 **권한 부여** 를 선택 합니다.
     - 다른 DNS 호스트 (도메인 연결에 대해 사용 하도록 설정 되지 않음)의 기존 DNS 레코드가 있는 경우에는 자체 DNS 레코드를 관리 하 여 기존 서비스가 계속 연결 되어 있는지 확인 해야 합니다. 자세한 내용은 [도메인 기본 사항을](https://docs.microsoft.com/office365/admin/get-help-with-domains/dns-basics) 참조 하세요.
 
-        ![레코드 활성화 페이지](media/activaterecords.png)
+        ![레코드 활성화 페이지](../media/activaterecords.png)
 
 2. 마법사의 단계를 따르고 전자 메일 및 기타 서비스가 설정 됩니다.
 
@@ -111,14 +112,14 @@ Microsoft 365 Business를 구매 하는 경우 소유 하 고 있는 도메인�
 
 1. **고급 사이버 위협 으로부터 보호를 강화**하려면 기본값을 사용 하 여 [Office 365 advanced Threat protection](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp) 이 office 앱에서 파일 및 링크를 검사 하도록 하는 것이 좋습니다.
 
-    ![보호 기능 향상 페이지 스크린샷](media/increasetreatprotection.png)
+    ![보호 기능 향상 페이지 스크린샷](../media/increasetreatprotection.png)
 
 
 2. **중요 한 데이터의 누출 방지** 페이지에서 OFFICE 365 DLP (데이터 손실 방지)를 설정 하 여 office 앱에서 중요 한 데이터를 추적 하 고 조직 외부에서 실수로 공유 하지 않도록 하는 기본값을 적용 합니다.
 
 3. **비즈니스용 Office의 데이터 보호** 페이지에서 모바일 앱 관리를 유지 하 고 설정을 확장 하 고 검토 한 다음, **모바일 앱 관리 정책 만들기**를 선택 합니다.
 
-    ![Mobile 용 Office의 데이터 보호 페이지 스크린샷](media/protectdatainmobile.png)
+    ![Mobile 용 Office의 데이터 보호 페이지 스크린샷](../media/protectdatainmobile.png)
 
 
 ## <a name="secure-windows-10-pcs"></a>Windows 10 Pc 보안

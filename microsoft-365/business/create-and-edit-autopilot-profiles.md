@@ -19,18 +19,19 @@ ms.custom:
 - MiniMaven
 - MSB365
 - OKR_SMB_M365
+- MARVEL_SEO_MAR
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 5cf7139e-cfa1-4765-8aad-001af1c74faa
-description: AutoPilot 프로필 만들기, 편집, 삭제 또는 제거 방법에 대해 알아봅니다.
-ms.openlocfilehash: 28f5b679d58711d11d9af26dffb7022024b72c79
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: 프로필을 편집 또는 삭제 하거나 장치에서 프로필을 제거 하는 방법 뿐 아니라 AutoPilot 프로필을 만들어 장치에 적용 하는 방법에 대해 알아봅니다.
+ms.openlocfilehash: 6a8057969242d839ebbb4cbef8d26dd3f1858c59
+ms.sourcegitcommit: d6c871bf3f94d9299d22695f5dbaf25dc1bd6ff9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42065904"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42417339"
 ---
 # <a name="create-and-edit-autopilot-profiles"></a>AutoPilot 프로필 만들기 및 편집
 
