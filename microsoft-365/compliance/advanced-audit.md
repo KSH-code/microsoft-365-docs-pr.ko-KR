@@ -17,19 +17,19 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Microsoft 365의 고급 감사는 조직에서 법의학 및 규정 준수 조사를 수행하는 데 도움이 되는 새로운 감사 기능을 제공합니다.
-ms.openlocfilehash: 7d672dd8a84107d8d4561ae8982114abc4e01af9
-ms.sourcegitcommit: 9d6f9fd271e83c00e92a5e0247fcc51fc2070c3c
+ms.openlocfilehash: bdde2552d2c5ccd790740e1f9077e5d26391e920
+ms.sourcegitcommit: 26e4d5091583765257b7533b5156daa373cd19fe
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42370487"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "42551827"
 ---
 # <a name="advanced-audit-in-microsoft-365"></a>Microsoft 365의 고급 감사
 
 Microsoft 365의 [통합 감사 기능](search-the-audit-log-in-security-and-compliance.md)은 조직에 Microsoft 365의 여러 서비스에서 다양한 유형의 감사 활동에 대한 가시성을 제공합니다. 이제 Microsoft 365의 고급 감사가 릴리스되면서 조직에서 법의학 및 규정 준수 조사를 수행하는 데 도움이 되는 새로운 감사 기능이 추가되었습니다.
 
 > [!NOTE]
-> Office 365 또는 Microsoft 365 Enterprise E5 구독이 있는 조직의 경우 고급 감사 기능을 사용할 수 있습니다. 또한 감사 로그의 장기 보존 및 조사를 위한 중요 이벤트에 대한 액세스와 같이 고급 감사 기능에 사용자별 라이선스가 필요한 경우 Microsoft 365 E5 규정 준수 추가 기능 구독을 사용자에게 할당할 수 있습니다.
+> Office 365 E5 또는 Microsoft 365 Enterprise E5 라이선스 있는 조직의 경우 고급 감사 기능을 사용할 수 있습니다. 또한 감사 로그의 장기 보존 및 조사를 위한 중요 이벤트에 대한 액세스와 같이 고급 감사 기능에 사용자별 라이선스가 필요한 경우 Microsoft 365 E5 규정 준수 추가 기능 라이선스를 사용자에게 할당할 수 있습니다.
 
 이 문서는 이러한 고급 감사 기능에 대한 개요를 제공합니다.
 
