@@ -18,17 +18,18 @@ ms.custom:
 - MiniMaven
 - MSB365
 - OKR_SMB_M365
+- MARVEL_SEO_MAR
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
-description: Microsoft 파트너 센터에서 Microsoft 365 Business를 구입 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: ba6aa806e3e628e8c3478abb57c4529e4f5692bf
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: Microsoft 365 Business 및 Microsoft 파트너 센터에서 구입 하기 위한 단계별 지침을 제공 하는 옵션에 대해 알아봅니다.
+ms.openlocfilehash: decfd3b99ebd0134715d721287057b7131a8f066
+ms.sourcegitcommit: 41c0bc5cf50f4ca63b4286d1ea0f58ab82984b7a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42065825"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42547814"
 ---
 # <a name="get-microsoft-365-business"></a>Microsoft 365 Business 받기
 

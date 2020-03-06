@@ -15,23 +15,24 @@ ms.custom:
 - MiniMaven
 - MSB365
 - OKR_SMB_M365
+- MARVEL_SEO_MAR
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 7770e280-3a6c-436f-a157-b008a2744f51
-description: Microsoft 365 Business를 사용 하 여 조직을 설정 하기 위한 필수 구성 요소를 파악 합니다.
-ms.openlocfilehash: 3ca0433faaaeacbe6e0d2c88c820ebad19afec51
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+description: Microsoft 365 Business를 사용 하 여 조직을 설정 하 고 사용자의 장치에서 작업 데이터를 보호 하기 위한 요구 사항에 대해 알아봅니다.
+ms.openlocfilehash: 9e35e3b1cd4f0df1c5852b0fec407a99c9bcf4f4
+ms.sourcegitcommit: 26e4d5091583765257b7533b5156daa373cd19fe
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41593642"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "42550190"
 ---
 # <a name="prerequisites-for-protecting-data-on-devices-with-microsoft-365-business"></a>Microsoft 365 Business를 사용 하 여 장치의 데이터를 보호 하기 위한 필수 구성 요소
 
 Microsoft 365 Business를 사용 하 여 조직을 설정 하는 첫 번째 단계는 필수 구성 요소를 충족할 수 있는지 확인 하는 것입니다.
   
-## <a name="prerequisites"></a>필수 구성 요소
+## <a name="requirements-for-setting-up-your-organization-with-microsoft-365-business"></a>Microsoft 365 Business를 사용 하 여 조직을 설정 하기 위한 요구 사항
 
 - Windows 장치에서는 Windows 7 Professional, Windows 8 Pro 또는 Windows 8.1 Pro를 실행 해야 합니다.
     

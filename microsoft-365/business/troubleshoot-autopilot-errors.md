@@ -20,18 +20,19 @@ ms.custom:
 - Adm_O365
 - Core_O365Admin_Migration
 - MSB365
+- MARVEL_SEO_MAR
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 1f468690-530c-47ea-918f-fede24607c53
-description: AutoPilot 장치 파일 오류 문제를 해결 하는 방법을 알아봅니다.
-ms.openlocfilehash: 8390f695a3e11386ae2617da4061bed1d8214375
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+description: Microsoft 365 Business에서 AutoPilot 장치 파일을 사용 하 여 작업 하는 동안 발생할 수 있는 오류를 해결 하는 방법을 알아봅니다.
+ms.openlocfilehash: 7569f18097a1f5959b3dd491958c78886e1e05d6
+ms.sourcegitcommit: 41c0bc5cf50f4ca63b4286d1ea0f58ab82984b7a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41594211"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42547474"
 ---
 # <a name="troubleshoot-autopilot-device-errors"></a>AutoPilot 장치 오류 문제 해결
 

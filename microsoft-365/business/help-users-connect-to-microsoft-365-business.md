@@ -1,5 +1,7 @@
 ---
 title: 사용자가 Microsoft 365 Business에 접속하도록 지원
+f1.keywords:
+- NOCSH
 ms.author: sirkkuw
 author: sirkkuw
 manager: scotv
@@ -18,18 +20,19 @@ ms.custom:
 - MiniMaven
 - MSB365
 - OKR_SMB_M365
+- MARVEL_SEO_MAR
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: f338e660-6483-4eef-acb9-53dee5bd4408
-description: Business Cloud Suite 설치가 완료 된 후 예상 되는 작업에 대해 알아봅니다.
-ms.openlocfilehash: d19438d6e085ba27ec3fb0308005a9bf473383e1
-ms.sourcegitcommit: 8193b7da5b1a415835d02ca96883c351df7326ed
+description: Business Cloud Suite 설치가 완료 되 고 기본 장치 정책이 준비 되어 적용할 준비가 된 후 예상 되는 작업에 대해 알아봅니다.
+ms.openlocfilehash: 7ec5a5e7e1f3fadbcdb8422ae041544436c185ed
+ms.sourcegitcommit: 41c0bc5cf50f4ca63b4286d1ea0f58ab82984b7a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38320191"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42547694"
 ---
 # <a name="help-users-connect-to-microsoft-365-business"></a>사용자가 Microsoft 365 Business에 접속하도록 지원
 

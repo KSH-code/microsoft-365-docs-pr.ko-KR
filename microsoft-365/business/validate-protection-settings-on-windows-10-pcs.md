@@ -16,17 +16,18 @@ ms.custom:
 - Adm_O365
 - Core_O365Admin_Migration
 - MSB365
+- MARVEL_SEO_MAR
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: fae8819d-7235-495f-9f07-d016f545887f
-description: Windows 10 장치에서 Microsoft 365 Business 앱 보호 설정을 확인 하는 방법을 알아봅니다.
-ms.openlocfilehash: 577921f7f33eafbbe652dcf825a145d89f1ff556
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: Windows 10 장치에서 Microsoft 365 Business 앱 보호 설정을 확인 하 고 사용자가 회사 데이터를 개인 파일이 나 관리 되지 않는 앱에 복사할 수 없는지 확인 합니다.
+ms.openlocfilehash: 4d3d7e950311ac32606e700ebb35bf026ae091cc
+ms.sourcegitcommit: 26e4d5091583765257b7533b5156daa373cd19fe
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42057298"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "42550000"
 ---
 # <a name="validate-app-protection-settings-on-windows-10-pcs"></a>Windows 10 PC에서 앱 보호 설정 유효성 검사
 

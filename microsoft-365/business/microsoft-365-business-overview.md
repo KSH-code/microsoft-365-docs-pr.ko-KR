@@ -22,23 +22,24 @@ ms.custom:
 - OKR_SMB_M365
 - TRN_M365B
 - OKR_SMB_Videos
+- MARVEL_SEO_MAR
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
-description: Microsoft 365 Business에 대해 자세히 알아보세요.
-ms.openlocfilehash: bfda6801bee526084ad11ead819fcd04787d17ce
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: 사이버 위협 으로부터 비즈니스에 대 한 Office 365 plus 고급 보호 기능을 포함 하는 구독 서비스인 Microsoft 365 Business에 대해 알아봅니다.
+ms.openlocfilehash: 508262daa9367ebd3b973a7a519fbb953d719fb1
+ms.sourcegitcommit: 41c0bc5cf50f4ca63b4286d1ea0f58ab82984b7a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42065657"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42547854"
 ---
 # <a name="overview-of-microsoft-365-business"></a>Microsoft 365 비즈니스 개요
 
 ## <a name="what-is-microsoft-365-business"></a>Microsoft 365 Business란
 
-Microsoft 365 Business는 cyberthreats에서 비즈니스를 보호 하 고 데이터를 보호 하 고 장치를 관리 하는 데 도움이 되는 Office 365 생산성 도구와 고급 기능을 포함 하는 구독 서비스입니다.
+Microsoft 365 Business는 Office 365 생산성 도구와 고급 기능을 포함 하는 구독 서비스로, 사이버 위협 으로부터 비즈니스를 보호 하 고, 데이터를 보호 하 고, 장치를 관리 하는 데 도움이 됩니다.
 
 Microsoft 365 Business에 대 한 간략 한 개요를 보려면이 비디오를 시청 하세요.<br><br>
 

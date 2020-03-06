@@ -16,20 +16,21 @@ ms.custom:
 - MiniMaven
 - MSB365
 - OKR_SMB_M365
+- MARVEL_SEO_MAR
 search.appverid:
 - BCS160
 - MET150
-description: 규정 준수 기능을 설정 하 여 데이터 손실 및 중요 한 데이터에 레이블을 지정 하지 않도록 합니다.
-ms.openlocfilehash: d569ff8d84faf82881035f0ed54e5d175605776f
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: 규정 준수 기능을 설정 하 여 데이터 손실을 방지 하 고 및 고객의 중요 한 정보를 안전 하 게 유지 합니다.
+ms.openlocfilehash: 4c8efc4ca96f2db7bc4d1592ad3fdc85dfb6b3b5
+ms.sourcegitcommit: 26e4d5091583765257b7533b5156daa373cd19fe
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42064711"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "42550060"
 ---
 # <a name="set-up-compliance-features"></a>준수 기능 설정
 
-Microsoft 365 Business에는 데이터 및 장치를 보호 하기 위한 기능이 제공 되며, 사용자와 고객의 중요 한 정보를 안전 하 게 유지 하는 데 도움이 됩니다.
+Microsoft 365 Business에는 데이터와 장치를 보호 하는 기능이 포함 되어 있으며, 고객의 중요 한 정보를 안전 하 게 유지 하는 데 도움이 됩니다.
 
 ## <a name="set-up-dlp-features"></a>DLP 기능 설정
 

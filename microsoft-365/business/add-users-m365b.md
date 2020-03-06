@@ -20,17 +20,18 @@ ms.custom:
 - OKR_SMB_M365
 - TRN_M365B
 - OKR_SMB_Videos
+- MARVEL_SEO_MAR
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 96153102-1db1-4df8-bca5-38cea80b65ce
-description: Microsoft 365 Business에서 새 사용자를 추가 하 고, 해당 장치를 보호 하 고, 역할을 할당 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: a7893a8b070b37b7643a4d4e7de3e8ef2ec704f2
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: Microsoft 365 Business에서 새 사용자를 쉽게 추가 하 고, 해당 장치를 보호 하 고, 역할을 할당 하는 단계를 알아봅니다.
+ms.openlocfilehash: 574adbc6ae936d611c185681e99a3e9a516962aa
+ms.sourcegitcommit: 41c0bc5cf50f4ca63b4286d1ea0f58ab82984b7a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42068604"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42547774"
 ---
 # <a name="add-more-users-to-microsoft-365-business"></a>Microsoft 365 Business에 더 많은 사용자 추가
 

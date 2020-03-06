@@ -17,17 +17,18 @@ ms.custom:
 - OKR_SMB_M365
 - TRN_M365B
 - OKR_SMB_Videos
+- MARVEL_SEO_MAR
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: eb8244aa-a302-481a-b2b5-d34e88b18ec7
-description: 파일을 OneDrive로 이동 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 85ff7ad2ecab3646eeb196a380f85983b1403f7a
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: 몇 가지 간단한 단계 만으로 개인 회사 파일 및 중요 한 회사 파일을 비즈니스용 OneDrive로 이동할 수 있는 방법을 알아봅니다.
+ms.openlocfilehash: 837ec8bb01ed78e7a13ee802afaf845c80544f5d
+ms.sourcegitcommit: 26e4d5091583765257b7533b5156daa373cd19fe
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42065228"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "42550270"
 ---
 # <a name="move-files-to-onedrive-for-business"></a>비즈니스용 OneDrive로 파일 이동
 
@@ -50,6 +51,6 @@ ms.locfileid: "42065228"
     
 사용자 프로필과 중요 파일을 전송하려면 ForensiT과 같은 타사 도구를 사용할 수도 있습니다. 결과 파일도 비즈니스용 OneDrive에서 업로드해야 합니다.
   
-## <a name="see-also"></a>참고 항목
+## <a name="for-more-on-setting-up-and-using-microsoft-365-business"></a>Microsoft 365 Business 설정 및 사용에 대 한 자세한 내용은
 
 [Microsoft 365 Business 교육 비디오](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

@@ -17,11 +17,11 @@ search.appverid:
 ms.assetid: ''
 description: 지원 되는 파일 형식 목록 (Microsoft 365 Advanced eDiscovery) 여기에는 Advanced eDiscovery의 OCR 기능에서 지 원하는 이미지 파일 형식 목록이 포함 됩니다.
 ms.openlocfilehash: 562b39664dd29ff3cf738e0d3ded7cc2f0cbb21c
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.sourcegitcommit: 6c8edbc54b193e964cf93aec48c51cb79231f1d9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597385"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42543717"
 ---
 # <a name="supported-file-types-in-advanced-ediscovery"></a>고급 eDiscovery에서 지원 되는 파일 형식
 

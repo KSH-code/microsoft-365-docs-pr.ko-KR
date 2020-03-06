@@ -27,12 +27,12 @@ search.appverid:
 - BEA160
 ms.assetid: 485fee6d-b22e-440a-9053-a4e7fa509c92
 description: 비즈니스용 Office 365 구독을 구매 합니다. 같은 유형의 구독을 구입 하거나 다른 요금제를 구입할 수 있습니다.
-ms.openlocfilehash: fcd38783082f9b86c4e1b99b1eec06d948e8e4b4
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: faac769a89824964315c84da507adcf18d8cfeac
+ms.sourcegitcommit: 26e4d5091583765257b7533b5156daa373cd19fe
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42246409"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "42549805"
 ---
 # <a name="buy-a-subscription-to-office-365-for-business-from-your-free-trial"></a>무료 평가판에서 Office 365 비즈니스 에디션 구독 구입
 
@@ -41,14 +41,14 @@ Office 365 평가판을 사용해 봤으며 이제 구입할 준비가 되었습
 - [평가판과 동일한 계획 구입](#buy-the-same-plan-as-your-trial)
 - [평가판과 다른 계획 구입](#buy-a-different-plan-than-your-trial)
 
+> [!NOTE]
+> 무료 평가판 사용 기간이 끝나면 평가판 구독이 유료 구독으로 자동 변환 됩니다. 유료 구독은 현재 등록 된 요금제를 기본값으로 합니다. 아래의 [평가판 보다 다른 요금제 구입](#buy-a-different-plan-than-your-trial) 섹션에 나와 있는 단계를 수행 하 여 다른 요금제를 구입할 수 있습니다.
+
 ## <a name="buy-the-same-plan-as-your-trial"></a>평가판과 동일한 계획 구입
 
 구입 방법은 매우 간단하며 평가판과 동일한 구독 유형을 구입하는 경우에는 데이터, 계정 및 구성이 손실되지 않습니다.
 
 ::: moniker range="o365-worldwide"
-
-> [!NOTE]
-> 새로운 Microsoft 365 관리 센터를 사용하지 않는 경우 홈페이지 상단에 있는 **새 관리 센터 시도** 토글을 선택하여 켤 수 있습니다.
 
 1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품 및 서비스</a> 페이지로 이동합니다.
 
@@ -94,7 +94,7 @@ Office 365 평가판을 사용해 봤으며 이제 구입할 준비가 되었습
 
 ## <a name="buy-a-different-plan-than-your-trial"></a>평가판과 다른 계획 구입
 
-평가판과 다른 구독 유형을 구입하는 경우 데이터, 계정 및 구성을 유지하려면 평가판 계획이 만료된 후 90일의 유예 기간이 끝나기 전에 평가판 계획의 사용자 라이선스를 새 계획으로 재할당해야 합니다.
+평가판 보다 다른 유형의 구독을 구입 하는 경우에는 데이터, 계정을 보존 하기 위해 평가판 계획에서 새 요금제로 사용자 라이선스를 다시 할당 해야 합니다 (평가판 계획 만료 후 90 일 유예 기간이 종료 되기 전에). 및 구성
 
 ::: moniker range="o365-worldwide"
 
