@@ -18,11 +18,11 @@ search.appverid:
 - MET150
 description: 조직의 데이터를 보호하는 데 도움이 되는 민감도 레이블 구현을 시작할 준비가 되었지만 어디서부터 시작해야 할지 모르겠나요? 레이블 여행에 도움이 되는 몇 가지 실용적인 지침을 읽으세요.
 ms.openlocfilehash: 6c461cd049cb89a2de0dbfc4cb1a5f8ea28c3ea6
-ms.sourcegitcommit: ee18bdd08e85b1262b91c180ccf61df59c19dab2
+ms.sourcegitcommit: 6c8edbc54b193e964cf93aec48c51cb79231f1d9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42106861"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42543136"
 ---
 # <a name="get-started-with-sensitivity-labels"></a>민감도 레이블 시작
 
