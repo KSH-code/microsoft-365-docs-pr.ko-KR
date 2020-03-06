@@ -43,6 +43,8 @@
               href: mtp/microsoft-threat-protection.md
             - name: Microsoft Threat Protection의 새로운 기능
               href: mtp/whats-new.md
+            - name: 미리 보기 기능
+              href: mtp/preview.md
             - name: Microsoft 365 보안 센터
               href: mtp/overview-security-center.md
             - name: 필수 구성 요소

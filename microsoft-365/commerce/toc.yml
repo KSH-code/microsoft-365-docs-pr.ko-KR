@@ -36,10 +36,8 @@
           href: subscriptions/manage-self-service-purchases-admins.md
     - name: 라이선스 관리
       items:
-        - name: 라이선스 구매
+        - name: 구독 라이선스 관리
           href: licenses/buy-licenses.md
-        - name: 구독에서 라이선스 제거
-          href: licenses/remove-licenses-from-subscription.md
         - name: 사용자에게 라이선스 할당
           href: ../admin/manage/assign-licenses-to-users.md
         - name: 사용자의 라이선스 할당 취소
