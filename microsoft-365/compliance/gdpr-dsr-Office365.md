@@ -15,12 +15,12 @@ ms.collection:
 - GDPR
 - M365-security-compliance
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: c7b945ea464cbb18ae19eaa9f9e4a8df0313b0c6
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 7cd7490b941150bbc1a1f2a9a43aaaeeb6a72544
+ms.sourcegitcommit: 9c335d110e0b499501edc8a31b987641819118a1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42073742"
+ms.lasthandoff: 03/04/2020
+ms.locfileid: "42409733"
 ---
 # <a name="office-365-data-subject-requests-for-the-gdpr-and-ccpa"></a>GDPR 및 CCPA에 대한 Office 365 데이터 주체 요청
 
@@ -88,7 +88,7 @@ DSR 요청에 응답할 경우, DSR 요청에 해당되는 데이터가 Microsof
 
 개인 데이터가 검색할 위치 또는 검색할 대상을 결정하는 데 도움이 되도록 조직 사용자가 Office 365에서 데이터를 만들고 저장 하는 데 사용할 수 있는 Office 365 응용 프로그램을 식별 하는 데 도움이 됩니다. 이 기능을 통해 DSR에 대한 범위 내에 있는 Office 365 응용 프로그램을 좁혀서 DSR과 관련된 개인 데이터를 검색하고 액세스하는 방법을 결정하는 데 도움이 됩니다. 구체적으로, 이는 콘텐츠 검색 도구를 사용할 수 있는지 또는 데이터를 만든 응용 프로그램에 대한 인앱 기능을 사용해야 하는지 여부를 나타냅니다.
 
-조직의 사용자가 고객 데이터를 만드는 데 사용하는 Office 365 응용 프로그램을 빠르게 식별하는 방법은 조직의 Office 365 구독에 포함된 응용 프로그램을 확인하는 것입니다. 이렇게 하려면 Office 365 관리자 포털에서 사용자 계정에 액세스하여 제품 라이선스 정보를 확인하면 됩니다. [비즈니스용 Office 365에서 사용자에게 라이선스 할당](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users)을 참조하세요.
+조직의 사용자가 고객 데이터를 만드는 데 사용하는 Office 365 응용 프로그램을 빠르게 식별하는 방법은 조직의 Office 365 구독에 포함된 응용 프로그램을 확인하는 것입니다. 이렇게 하려면 Office 365 관리자 포털에서 사용자 계정에 액세스하여 제품 라이선스 정보를 확인하면 됩니다. [사용자에게 라이선스 할당](../admin/manage/assign-licenses-to-users.md)을 참조하세요.
 
 ## <a name="using-the-content-search-ediscovery-tool-to-respond-to-dsrs"></a>콘텐츠 검색 eDiscovery 도구를 사용하여 DSR에 응답
 
@@ -111,11 +111,11 @@ DSR 요청에 응답할 경우, DSR 요청에 해당되는 데이터가 Microsof
 ||
 
 >[!NOTE]
->콘텐츠 검색 eDiscovery 도구를 [21Vianet에서 운영하는 Office 365(중국)](https://support.office.com/article/Learn-about-Office-365-operated-by-21Vianet-A8AB5061-3346-4DA0-BB7C-5260822B53AE)에서는 사용할 수 없습니다. 즉, 표 1에 나와 있는 Office 365 응용 프로그램에서 고객 데이터를 검색 및 내보낼 때는 이 도구를 사용할 수 없습니다. 그러나 Exchange Online의 원본 위치 eDiscovery 도구를 사용하여 사용자 사서함에서 콘텐츠를 검색할 수 있습니다. 또한 SharePoint Online에서 eDiscovery 센터를 사용하여 SharePoint 사이트 및 OneDrive 계정에서 콘텐츠를 검색할 수도 있습니다. 또는 문서 소유자에게 콘텐츠를 찾도록 도와달라고 요청하고 필요에 따라 콘텐츠를 변경 또는 삭제하거나 내보낼 수 있습니다. 자세한 내용은 다음을 참조하세요.</br><br> • [원본 위치 eDiscovery 검색 만들기](https://technet.microsoft.com/library/dd353189(v=exchg.150).aspx)<br> • [SharePoint Online에서 eDiscovery 센터 설정](https://support.office.com/article/Set-up-an-eDiscovery-Center-in-SharePoint-Online-A18F8975-AA7F-43B4-A7D6-001D14744D8E)
+>콘텐츠 검색 eDiscovery 도구를 [21Vianet에서 운영하는 Office 365(중국)](https://support.office.com/article/Learn-about-Office-365-operated-by-21Vianet-A8AB5061-3346-4DA0-BB7C-5260822B53AE)에서는 사용할 수 없습니다. 즉, 표 1에 나와 있는 Office 365 응용 프로그램에서 고객 데이터를 검색 및 내보낼 때는 이 도구를 사용할 수 없습니다. 그러나 Exchange Online의 원본 위치 eDiscovery 도구를 사용하여 사용자 사서함에서 콘텐츠를 검색할 수 있습니다. 또한 SharePoint Online에서 eDiscovery 센터를 사용하여 SharePoint 사이트 및 OneDrive 계정에서 콘텐츠를 검색할 수도 있습니다. 또는 문서 소유자에게 콘텐츠를 찾도록 도와달라고 요청하고 필요에 따라 콘텐츠를 변경 또는 삭제하거나 내보낼 수 있습니다. 자세한 내용은 다음을 참조하세요.</br><br> * [원본 위치 eDiscovery 검색 만들기](https://technet.microsoft.com/library/dd353189(v=exchg.150).aspx)<br> * [SharePoint Online에서 eDiscovery 센터 설정](https://support.office.com/article/Set-up-an-eDiscovery-Center-in-SharePoint-Online-A18F8975-AA7F-43B4-A7D6-001D14744D8E)
 
 ### <a name="using-content-search-to-find-personal-data"></a>콘텐츠 검색을 사용하여 개인 데이터 찾기
 
-DSR에 대응하는 첫 번째 단계는 DSR의 주체인 개인 데이터를 찾는 것입니다. 이는 Office 365 eDiscovery 도구를 사용하여 개인 데이터 (Office 365의 모든 조직 데이터 중에서)를 검색하거나 데이터가 만들어진 기본 응용 프로그램으로 직접 이동하는 것으로 구성됩니다. 첫 번째 단계(문제가 된 개인 데이터 찾기 및 검토)를 통해 데이터 주체 요청의 준수 또는 거부에 필요한 이 조직의 요구 사항을 충족하는지를 판별할 수 있습니다. 예를 들어, 문제가 된 개인 데이터를 찾고 검토한 후, 이 작업이 타인의 권리와 자유에 불리한 영향을 미칠 수 있거나 혹은 사용자의 조직의 정당한 비즈니스 유지의 일환으로 개인 데이터가 비즈니스 기록에 포함되어 있을 수 있으므로 해당 요청이 조직의 요구 사항을 충족하지 않는지를 판별합니다. 
+DSR에 대응하는 첫 번째 단계는 DSR의 주체인 개인 데이터를 찾는 것입니다. 이는 Office 365 eDiscovery 도구를 사용하여 개인 데이터 (Office 365의 모든 조직 데이터 중에서)를 검색하거나 데이터가 만들어진 기본 응용 프로그램으로 직접 이동하는 것으로 구성됩니다. 첫 번째 단계(문제가 된 개인 데이터 찾기 및 검토)를 통해 데이터 주체 요청의 준수 또는 거부에 필요한 이 조직의 요구 사항을 충족하는지를 판별할 수 있습니다. 예를 들어, 문제가 된 개인 데이터를 찾고 검토한 후, 이 작업이 타인의 권리와 자유에 불리한 영향을 미칠 수 있거나 혹은 사용자의 조직의 정당한 비즈니스 유지의 일환으로 개인 데이터가 비즈니스 기록에 포함되어 있을 수 있으므로 해당 요청이 조직의 요구 사항을 충족하지 않는지를 판별합니다.
 
 앞서 언급했듯이 Microsoft는 조직의 데이터 중 90% 이상이 Word 및 Excel와 같은 Office 응용 프로그램을 사용하여 만들어지는 것으로 추정합니다. 이는 보안 및 준수 센터에서 콘텐츠 검색을 사용하여 대부분의 DSR 관련 데이터를 검색할 수 있음을 의미합니다.
 
@@ -146,7 +146,7 @@ DSR에 대응하는 첫 번째 단계는 DSR의 주체인 개인 데이터를 �
 
 #### <a name="building-search-queries-to-find-personal-data"></a>검색 쿼리를 작성하여 개인 데이터 찾기
 
-조사중인 DSR에는 개인 데이터를 검색하기 위해 키워드 검색 쿼리에 사용할 수있는 식별자가 포함되어 있을 가능성이 큽니다. 다음은 검색 쿼리에서 개인 데이터를 찾는 데 사용할 수 있는 몇 가지 일반적인 식별자입니다.
+조사 중인 DSR에는 개인 데이터를 검색하기 위해 키워드 검색 쿼리에 사용할 수있는 식별자가 포함되어 있을 가능성이 큽니다. 다음은 검색 쿼리에서 개인 데이터를 찾는 데 사용할 수 있는 몇 가지 일반적인 식별자입니다.
 
 - 전자 메일 주소 또는 별칭
 - 전화 번호
@@ -335,9 +335,9 @@ Azure Active Directory에서 제공되는 속성은 SharePoint Online에서 변�
 
 교육용 Microsoft Teams는 교사와 학생들이 개인 데이터를 만들고 저장하는 데 사용할 수 있는 두 가지 추가 공동 작업 기능인 과제와 OneNote 수업용 전자 필기장을 제공합니다. 콘텐츠 검색을 사용하여 이 두 기능 모두에서 데이터를 검색할 수 있습니다.
 
-##### <a name="assignments"></a>과제
+##### <a name="assignments"></a>Assignments
 
-과제와 연관된 학생 파일은 해당 학생 과제와 연결 된 파일은 해당 팀 SharePoint Online 사이트의 문서 라이브러리에 저장됩니다. IT 관리자는 콘텐츠 검색 도구를 사용하여 과제와 연관된 학생 파일을 검색할 수 있습니다. 예를 들어 관리자는 조직의 모든 SharePoint Online 사이트를 검색하고 검색 쿼리에서 학생의 이름과 수업 또는 과제 이름을 사용하여 DSR과 관련된 데이터를 찾을 수 있습니다.
+과제와 연관된 학생 파일은 해당 Teams SharePoint Online 사이트의 문서 라이브러리에 저장됩니다. IT 관리자는 콘텐츠 검색 도구를 사용하여 과제와 연관된 학생 파일을 검색할 수 있습니다. 예를 들어 관리자는 조직의 모든 SharePoint Online 사이트를 검색하고 검색 쿼리에서 학생의 이름과 수업 또는 과제 이름을 사용하여 DSR과 관련된 데이터를 찾을 수 있습니다.
 
 수업 팀 SharePoint Online 사이트에 저장되지 않는 과제와 관련된 다른 데이터가 있습니다. 이러한 데이터는 콘텐츠 검색으로 검색할 수 없으며 다음과 같습니다.
 
@@ -399,7 +399,7 @@ DSR에 응답하는 개인 데이터를 찾은 후 여러분과 조직은 데이
 
 #### <a name="preview-and-download-items"></a>항목 미리 보기 및 다운로드
 
-새 검색을 실행하거나 기존 검색을 열면 검색 쿼리와 일치하는 각 항목을 미리보고 조사중인 DSR과 관련이 있는지 확인할 수 있습니다. 여기에는 검색 결과에 반환되는 SharePoint 목록 및 웹 페이지도 포함됩니다. 원본 파일을 데이터 주체에 제공해야하는 경우 원본 파일을 다운로드 할 수도 있습니다. 두 경우 모두 데이터 주체의 요청을 충족시키기 위해 스크린 샷을 찍어 정보를 얻을 수 있습니다.
+새 검색을 실행하거나 기존 검색을 열면 검색 쿼리와 일치하는 각 항목을 미리 보고, 조사 중인 DSR과 관련이 있는지 확인할 수 있습니다. 여기에는 검색 결과에 반환되는 SharePoint 목록 및 웹 페이지도 포함됩니다. 원본 파일을 데이터 주체에 제공해야하는 경우 원본 파일을 다운로드 할 수도 있습니다. 두 경우 모두 데이터 주체의 요청을 충족시키기 위해 스크린샷을 찍어 정보를 얻을 수 있습니다.
 
 일부 유형의 항목은 미리 볼 수 없습니다. 항목 또는 파일 형식의 미리 보기가 지원되지 않는 경우 로컬 컴퓨터나 매핑된 네트워크 드라이브 또는 다른 네트워크 위치에 개별 항목을 다운로드할 수 있습니다. [지원되는 파일 형식](https://support.office.com/article/content-search-in-office-365-53390468-eec6-45cb-b6cd-7511f9c909e4)만 미리 볼 수 있습니다.
 
@@ -478,7 +478,7 @@ DSR에 응답하여 개인 데이터를 조사하거나 삭제할 준비를 할 
 >[!NOTE]
 >항목이 일시 삭제되거나 영구 삭제되는 작업을 이해하면 삭제 요청에 응답할 때 GDPR 요구 사항을 충족하는 방식으로 데이터를 삭제하는 방법을 결정하는 데 도움이 됩니다.
 
-- **Legal 보류 및 보존 정책:** Office 365에서는 사서함과 사이트에 "보류"가 있을 수 있습니다. 간단히 말해서, 이는 사서함이나 사이트가 보류 중일 때, 항목의 보존 기간이 만료되거나 보류가 제거될 때까지 영구적으로 제거 (하드 삭제)되지 않는 것을 의미합니다. 이는 DSR에 대한 응답으로 고객 콘텐츠를 삭제하는 맥락에서 중요합니다. 보류중인 콘텐츠 위치에서 항목을 하드 삭제하면 해당 항목이 Office 365에서 영구적으로 제거되지 않습니다. 이는 IT 관리자가 복구할 수 있음을 의미합니다. 조직에서 DSR에 대한 응답으로 Office 365에서 데이터를 영구히 삭제하고 복구할 수 없는 요구 사항이나 정책이있는 경우 Office 365에서 데이터를 영구적으로 삭제하려면 보류를 사서함이나 사이트에서 제거해야합니다. DSR에 응답하기 위한 조직의 지침에는 특정 DSR 삭제 요청 또는 법적 보류가 우선하는지 여부를 결정하는 프로세스가 있습니다. 항목을 삭제하기 위해 보류가 제거되면 항목을 삭제한 후에 보류를 다시 구현할 수 있습니다.
+- **법적 보류 및 보존 정책:** Office 365에서는 사서함과 사이트에 "보류"가 적용될 수 있습니다. 간단히 말해서, 이는 사서함이나 사이트가 보류 중일 때, 항목의 보존 기간이 만료되거나 보류가 제거될 때까지 영구적으로 제거 (하드 삭제)되지 않는 것을 의미합니다. 이는 DSR에 대한 응답으로 고객 콘텐츠를 삭제하는 맥락에서 중요합니다. 보류중인 콘텐츠 위치에서 항목을 하드 삭제하면 해당 항목이 Office 365에서 영구적으로 제거되지 않습니다. 이는 IT 관리자가 복구할 수 있음을 의미합니다. 조직에서 DSR에 대한 응답으로 Office 365에서 데이터를 영구히 삭제하고 복구할 수 없는 요구 사항이나 정책이있는 경우 Office 365에서 데이터를 영구적으로 삭제하려면 보류를 사서함이나 사이트에서 제거해야합니다. DSR에 응답하기 위한 조직의 지침에는 특정 DSR 삭제 요청 또는 법적 보류가 우선하는지 여부를 결정하는 프로세스가 있습니다. 항목을 삭제하기 위해 보류가 제거되면 항목을 삭제한 후에 보류를 다시 구현할 수 있습니다.
 
 ### <a name="deleting-documents-in-sharepoint-online-and-onedrive-for-business"></a>SharePoint Online 및 비즈니스용 OneDrive에서 문서 삭제
 
@@ -492,7 +492,7 @@ SharePoint Online 사이트 또는 비즈니스용 OneDrive 계정에서 삭제�
 4. 2단계 휴지통(사이트 모음 휴지통)으로 이동하여 1단계 휴지통에서 삭제한 동일한 문서를 삭제합니다. **이때 이 문서는 영구 삭제됩니다.**
 
 >[!IMPORTANT]
->보존(Office 365의 보존 또는 법적 보존 기능 중 하나) 중인 사이트에 있는 문서는 삭제할 수 없습니다. DSR 삭제 요청이 법적 보존에 우선하는 경우 문서를 영구적으로 삭제하려면 먼저 사이트에서 보존을 제거해야 합니다.
+>보존(Office 365의 보존 또는 법적 보류 기능 중 하나) 중인 사이트에 있는 문서는 삭제할 수 없습니다. DSR 삭제 요청이 법적 보류에 우선하는 경우 문서를 영구적으로 삭제하려면 먼저 사이트에서 보존을 제거해야 합니다.
 
 자세한 절차는 다음 항목을 참조하세요.
 
@@ -545,7 +545,7 @@ SharePoint 사용자 프로필은 Azure Active Directory에서 사용자 계정�
 
 ### <a name="deleting-items-in-exchange-online-mailboxes"></a>Exchange Online 사서함에서 항목 삭제
 
-DSR 삭제 요청을 충족하기 위해 Exchange Online 사서함의 항목을 삭제해야 할 수 있습니다. IT 관리자가 대상 항목을 일시 삭제할지 또는 영구 삭제할지에 따라 사서함의 항목을 삭제할 수 있는 두 가지 방법이 있습니다. SharePoint Online 또는 비즈니스용 OneDrive 사이트의 문서와 마찬가지로 보류중인 사서함의 항목은 Office 365에서 영구적으로 삭제할 수 없습니다. 항목을 삭제하려면 먼저 보류를 제거해야 합니다. 다시 말하자면 사서함의 보류 또는 DSR 삭제 요청이 우선적인지 여부를 결정해야합니다.
+DSR 삭제 요청을 충족하기 위해 Exchange Online 사서함의 항목을 삭제해야 할 수 있습니다. IT 관리자가 대상 항목을 일시 삭제할지 또는 영구 삭제할지에 따라 사서함의 항목을 삭제할 수 있는 두 가지 방법이 있습니다. SharePoint Online 또는 비즈니스용 OneDrive 사이트의 문서와 마찬가지로 보류 중인 사서함의 항목은 Office 365에서 영구적으로 삭제할 수 없습니다. 항목을 삭제하려면 먼저 보류를 제거해야 합니다. 다시 말하자면 사서함의 보류 또는 DSR 삭제 요청이 우선적인지 여부를 결정해야합니다.
 
 #### <a name="soft-delete-mailbox-items"></a>사서함 항목 일시 삭제
 
@@ -698,7 +698,7 @@ Microsoft Bookings를 사용하여 조직에서 Bookings 라이선스를 보유�
 
 - **확인/취소/업데이트 전자 메일** - 특정 예약 이벤트와 관련하여 시스템이 생성하고 전송하는 전자 메일 메시지입니다.  여기에는 관련 서비스를 전달하도록 예약된 직원에 대한 개인 데이터가 포함되며, 비즈니스 소유자 또는 고객이 예약 시에 입력한 고객의 개인 데이터도 포함됩니다.
 
-모든 고객 콘텐츠는 조직의 Bookings를 호스팅하는 Exchange Online 사서함에 저장 됩니다. 이 콘텐츠는 비즈니스 소유자와 사용자가 데이터를 삭제하도록 명시적으로 요청 하거나 서비스를 종료하는 경우를 제외하고 서비스에서 활성화 된 경우 계속 유지됩니다. 이 콘텐츠는 제품 내 UI, cmdlet 또는 관련 예약 사서함을 삭제하여 제거할 수 있습니다. 삭제 된 작업이 시작되면 비즈니스 소유자가 설정한 기간 내에 데이터가 삭제됩니다. 
+모든 고객 콘텐츠는 조직의 Bookings를 호스트하는 Exchange Online 사서함에 저장됩니다. 이 콘텐츠는 비즈니스 소유자와 사용자가 데이터를 삭제하도록 명시적으로 요청 하거나 서비스를 종료하는 경우를 제외하고 서비스에서 활성화 된 경우 계속 유지됩니다. 이 콘텐츠는 제품 내 UI, cmdlet 또는 관련 예약 사서함을 삭제하여 제거할 수 있습니다. 삭제 된 작업이 시작되면 비즈니스 소유자가 설정한 기간 내에 데이터가 삭제됩니다. 
 
 고객이 서비스를 종료하기로 결정하면 고객의 콘텐츠는 90일 후에 삭제됩니다. 사용자 계정을 삭제한 후에 사서함 콘텐츠를 삭제하는 경우에 대한 자세한 내용은 [Exchange Online 데이터 제거](#removing-exchange-online-data)를 참조하세요.
 
@@ -771,7 +771,7 @@ Connections에서는 다음과 같은 유형의 데이터를 수집하고 저장
 - 고객은 Connections 등록 페이지에서 등록하고 개인 정보를 저장할 수 있습니다.
 - 전자 메일 캠페인의 링크
 
-##### <a name="access"></a>액세스
+##### <a name="access"></a>Access
 
 Connections 소유자는 Connections 대시보드에 로그인하고 전송한 전자 메일 캠페인을 볼 수 있습니다.
 
@@ -796,7 +796,7 @@ Outlook Customer Manager는 Outlook Customer Manager 소유자 및 해당 고객
 
 또한 Outlook Customer Manager는 고객에 대한 활동 및 정보를 Exchange에 저장합니다.
 
-##### <a name="access"></a>액세스
+##### <a name="access"></a>Access
 
 Outlook Customer Manager 소유자는 Outlook 또는 Outlook Web App에 로그인한 후 Outlook Customer Manager 대시보드로 가서 고객과 수행한 상호 작용을 확인할 수 있습니다.
 
@@ -1009,7 +1009,7 @@ Forms 사용자는 <https://forms.office.com>으로 이동한 후 **내 양식**
 - Kaizala에서 사용자가 수행한 거래(인도의 Kaizala 사용자에게만 해당)
 - 사용자의 제품 및 서비스 사용 현황 데이터
 
-#### <a name="access"></a>액세스
+#### <a name="access"></a>Access
 
 Kaizala 사용자는 해당 모바일 장치로 이동하여 장치에서 만들어진 Kaizala 콘텐츠를 확인할 수 있습니다. Kaizala 모바일 앱이 DSR에 해당하는 개인 데이터가 있을 가능성이 높은 위치인지 확인하기 위해 데이터 주체에게 Kaizala 앱에서 요청된 정보를 검색하도록 요청할 수 있습니다.
 
@@ -1037,7 +1037,7 @@ Kaizala 관리자는 Kaizala 관리 포털에서 Kaizala 사용자의 계정을 
 
 #### <a name="discover"></a>검색
 
-Planner 계획은 Office 365 그룹과 연결되고 Office 365 그룹의 파일은 해당 그룹의 연결된 SharePoint Online 사이트에 저장됩니다. 즉, Office 365 그룹 사이트를 검색하여 콘텐츠 검색을 사용하면 Planner 파일을 찾을 수 있습니다. 이렇게 하려면 Office 365 그룹에 대한 URL이 있어야 합니다. "Office 365의 콘텐츠 검색" 도움말 항목에서 [Microsoft Teams 및 Office 365 그룹 검색](https://support.office.com/article/Content-Search-in-Office-365-53390468-eec6-45cb-b6cd-7511f9c909e4)을 참조하여 해당 SharePoint Online 사이트에서 Planner 파일을 검색하는 데 도움이되는 Office 365 그룹에 대한 정보를 얻는 방법에 대한 팁을 참조하세요.
+Planner 계획은 Office 365 그룹과 연결되고 Office 365 그룹의 파일은 해당 그룹의 연결된 SharePoint Online 사이트에 저장됩니다. 즉, Office 365 그룹 사이트를 검색하여 콘텐츠 검색을 사용하면 Planner 파일을 찾을 수 있습니다. 이렇게 하려면 Office 365 그룹에 대한 URL이 있어야 합니다. "Office 365의 콘텐츠 검색" 도움말 항목에서 [Microsoft Teams 및 Office 365 그룹 검색](https://support.office.com/article/Content-Search-in-Office-365-53390468-eec6-45cb-b6cd-7511f9c909e4)을 참조하여 해당 SharePoint Online 사이트에서 Planner 파일을 검색하는 데 도움이 되는 Office 365 그룹에 대한 정보를 얻는 방법에 대한 팁을 참조하세요.
 
 #### <a name="access"></a>Access
 
@@ -1060,7 +1060,7 @@ PowerShell 스크립트를 사용하여 Planner에서 사용자의 데이터를 
 
 #### <a name="access"></a>Access
 
-Power BI의 보고서에서 대시보드, 보고서 및 시각적 개체를 인쇄하여 실제 복사본을 만들 수 있습니다. 전체 보고서를 인쇄할 수는 없습니다. 한 번에 한 페이지만 인쇄할 수 있습니다. 이렇게하려면 보고서로 이동하고 검색 필드를 사용하여 특정 데이터를 찾은 다음 해당 페이지를 인쇄합니다. [Power BI 서비스에서 인쇄](https://docs.microsoft.com/power-bi/service-print)를 참조하세요.
+Power BI의 보고서에서 대시보드, 보고서 및 시각적 개체를 인쇄하여 실제 복사본을 만들 수 있습니다. 전체 보고서를 인쇄할 수는 없습니다. 한번에 한 페이지만 인쇄할 수 있습니다. 이렇게하려면 보고서로 이동하고 검색 필드를 사용하여 특정 데이터를 찾은 다음 해당 페이지를 인쇄합니다. [Power BI 서비스에서 인쇄](https://docs.microsoft.com/power-bi/service-print)를 참조하세요.
 
 #### <a name="delete"></a>삭제
 
@@ -1103,7 +1103,7 @@ PowerApps 서비스에는 사용자가 Common Data Service 데이터베이스 �
 
 #### <a name="delete"></a>삭제
 
-PowerApp는 사용자가 조직의 일상적인 작업에서 중요한 역할을 할 수 있는 기간 업무 (LOB) 응용 프로그램을 만들 수 있도록 하기 때문에 사용자가 조직을 떠나 자신의 Office 365 계정이 삭제될 때 관리자는 사용자가 소유한 앱을 삭제할지 또는 새 소유자에게 재할당할 지 여부를 결정해야합니다. 이 기능으로 조직에서 새 소유자에게 해당 앱을 이전하고, 공유된 비즈니스 프로세스에 사용되는 앱에 대한 비즈니스 중단을 방지할 수 있습니다.
+PowerApp는 사용자가 조직의 일상적인 작업에서 중요한 역할을 할 수 있는 기간 업무 (LOB) 응용 프로그램을 만들 수 있도록 하기 때문에 사용자가 조직을 떠나 자신의 Office 365 계정이 삭제될 때 관리자는 사용자가 소유한 앱을 삭제할지 또는 새 소유자에게 재할당할 지 여부를 결정해야 합니다. 이 기능으로 조직에서 새 소유자에게 해당 앱을 이전하고, 공유된 비즈니스 프로세스에 사용되는 앱에 대한 비즈니스 중단을 방지할 수 있습니다.
 
 앱과 같은 공유 데이터의 경우 관리자는 해당 사용자의 공유 데이터를 영구적으로 삭제할지 또는 조직 내에서 자신이나 다른 누군가에게 데이터를 재할당하여 유지할지 결정해야 합니다. [PowerApps 개인 데이터 삭제](https://go.microsoft.com/fwlink/?linkid=871883)를 참조하세요.
 
@@ -1127,7 +1127,7 @@ PowerApp는 사용자가 조직의 일상적인 작업에서 중요한 역할을
 
 #### <a name="discover-and-access"></a>검색 및 액세스
 
-콘텐츠 검색을 사용하여 프로젝트와 연결된 SharePoint Online 사이트를 검색할 수 있습니다. (프로젝트가 처음 생성되면 연결된 SharePoint Online 사이트를 만들 수 있는 옵션이 표시 됩니다.) 콘텐츠 검색을 통해 Project Online에서 실제 프로젝트의 데이터를 검색하지 않고, 연결된 사이트의 데이터만 검색합니다. 콘텐츠 검색에서 제목에 언급된 사용자와 같은 프로젝트에 대한 메타 데이터를 검색하지만,이를 통해 DSR과 관련된 데이터를 포함하는 프로젝트를 찾는 데 (또한 액세스 하는 데) 도움이 될 수 있습니다.
+콘텐츠 검색을 사용하여 프로젝트와 연결된 SharePoint Online 사이트를 검색할 수 있습니다. (프로젝트가 처음 생성되면 연결된 SharePoint Online 사이트를 만들 수 있는 옵션이 표시됩니다.) 콘텐츠 검색을 통해 Project Online에서 실제 프로젝트의 데이터를 검색하지 않고, 연결된 사이트의 데이터만 검색합니다. 콘텐츠 검색에서 제목에 언급된 사용자와 같은 프로젝트에 대한 메타 데이터를 검색하지만,이를 통해 DSR과 관련된 데이터를 포함하는 프로젝트를 찾는 데 (또한 액세스 하는 데) 도움이 될 수 있습니다.
 
 >[!TIP]
 >사이트가 프로젝트와 연결된 조직의 사이트 모음에 대한 URL은 **https://\<your org\>.sharepoint.com/sites/pwa**입니다(예: **https://contoso.sharepoint.com/pwa**). 이 특정 사이트 모음을 콘텐츠 검색의 위치로 사용한 다음 검색 쿼리에서 프로젝트의 이름을 사용할 수 있습니다. 또한 IT 관리자는 SharePoint 관리 센터의 사이트 모음 페이지를 사용하여 조직의 PWA 사이트 모음 목록을 가져올 수 있습니다.
@@ -1192,15 +1192,15 @@ Stream에 대한 액세스 섹션을 참조하세요.
 
 #### <a name="discover"></a>검색
 
-Sway ([www.sway.com](https://www.sway.com)에서 찾음)를 사용하여 만든 콘텐츠는 소유자와 작성자가 Sway를 볼 수 있도록 허용한 사람만 볼 수 있습니다. [Sway의 개인 정보 설정](https://support.office.com/article/privacy-settings-in-sway-394b551c-be6f-4bd7-a70a-f318d72bf217)을 참조하세요. Sway가 사용자의 DSR에 대응하는 개인 데이터가 있는 장소인지 여부를 확인하려면 데이터 주체 및 데이터 주체에 대한 컨텐츠를 생성 할 가능성이 있는 조직 사용자에게 Sways를 검색하고 데이터 주체의 요청에 응답하는 개인 데이터를 포함할 가능성이 있는 Sways를 공유하도록 요청할 수 있습니다. Sway를 공유하는 방법에 대한 자세한 내용은 이 [Sway 공유](https://support.office.com/article/share-your-sway-1cf853b8-ef7e-46b0-b704-003e58d28998) 문서에서 "조직 계정에서 Sway를 공유하세요"를 참조합니다.
+Sway ([www.sway.com](https://www.sway.com)에서 찾음)를 사용하여 만든 콘텐츠는 소유자와 작성자가 Sway를 볼 수 있도록 허용한 사람만 볼 수 있습니다. [Sway의 개인 정보 설정](https://support.office.com/article/privacy-settings-in-sway-394b551c-be6f-4bd7-a70a-f318d72bf217)을 참조하세요. Sway가 사용자의 DSR에 대응하는 개인 데이터가 있는 장소인지 여부를 확인하려면 데이터 주체 및 데이터 주체에 대한 컨텐츠를 생성할 가능성이 있는 조직 사용자에게 Sways를 검색하고 데이터 주체의 요청에 응답하는 개인 데이터를 포함할 가능성이 있는 Sways를 공유하도록 요청할 수 있습니다. Sway를 공유하는 방법에 대한 자세한 내용은 이 [Sway 공유](https://support.office.com/article/share-your-sway-1cf853b8-ef7e-46b0-b704-003e58d28998) 문서에서 "조직 계정에서 Sway를 공유하세요"를 참조하세요.
 
 #### <a name="access"></a>Access
 
-Sway에서 데이터 주체와 공유하려는 개인 데이터가 있는 경우 데이터에 대한 액세스 권한을 여러 가지 방법 중 하나로 제공할 수 있습니다. 데이터 주체에 Sway의 온라인 버전 사본을 제공할 수 있습니다 (위 설명 참조). 사용자는 공유하고 싶은 Sway의 관련 부분에 대한 스크린 샷을 찍을 수 있습니다. 또는 Sway를 인쇄하거나 Word로 다운로드하거나 PDF로 변환할 수 있습니다. Sway를 다운로드 하는 방법에 대한 자세한 내용은 아래의 "내보내기" 섹션을 참조하세요.
+Sway에서 데이터 주체와 공유하려는 개인 데이터가 있는 경우 데이터에 대한 액세스 권한을 여러 가지 방법 중 하나로 제공할 수 있습니다. 데이터 주체에 Sway의 온라인 버전 사본을 제공할 수 있습니다 (위 설명 참조). 사용자는 공유하고 싶은 Sway의 관련 부분에 대한 스크린 샷을 찍을 수 있습니다. 또는 Sway를 인쇄하거나 Word로 다운로드하거나 PDF로 변환할 수 있습니다. Sway를 다운로드하는 방법에 대한 자세한 내용은 아래의 "내보내기" 섹션을 참조하세요.
 
 #### <a name="delete"></a>삭제
 
-Sway를 삭제하는 방법을 알아보려면 [Sway의 개인 정보 설정](https://support.office.com/article/privacy-settings-in-sway-394b551c-be6f-4bd7-a70a-f318d72bf217)에서 "내 Sway 삭제하려면 어떻게 해야 하나요?" 섹션으로 이동하세요.
+Sway를 삭제하는 방법을 알아보려면 [Sway의 개인 정보 설정](https://support.office.com/article/privacy-settings-in-sway-394b551c-be6f-4bd7-a70a-f318d72bf217)에서 "내 Sway를 삭제하려면 어떻게 해야 하나요?" 섹션으로 이동하세요.
 
 #### <a name="export"></a>내보내기
 
@@ -1219,7 +1219,7 @@ Sway를 내보내려면 다운로드할 Sway를 열고 오른쪽 위에서 일�
 
 ##### <a name="discover"></a>검색
 
-Whiteboard 파일(.wbx 파일)은 사용자의 비즈니스용 OneDrive 계정에 저장됩니다. 데이터 주체 또는 다른 사용자에게 만든 화이트보드에 DSR 요청에 해당하는 개인 데이터가 포함되어 있을 수 있는지 물어볼 수 있습니다. 이러한 사용자는 화이트보드를 공유하거나 데이터 주체에게 사본을 제공할 수 있습니다.
+화이트보드 파일(.wbx 파일)은 사용자의 비즈니스용 OneDrive 계정에 저장됩니다. 데이터 주체 또는 다른 사용자에게 만든 화이트보드에 DSR 요청에 해당하는 개인 데이터가 포함되어 있을 수 있는지 물어볼 수 있습니다. 이러한 사용자는 화이트보드를 공유하거나 데이터 주체에게 사본을 제공할 수 있습니다.
 
 화이트보드를 액세스 및 전송하려면 
 
@@ -1228,7 +1228,7 @@ Whiteboard 파일(.wbx 파일)은 사용자의 비즈니스용 OneDrive 계정�
 3. 자기 자신에게 데이터 주체의 비즈니스용 OneDrive 계정에 대한 액세스 권한을 부여한 후 화이트보드 앱 데이터 폴더로 이동합니다.
 4. 이전 단계에서 복사한 .wbx 파일을 붙여넣습니다.
 
-##### <a name="access"></a>액세스
+##### <a name="access"></a>Access
 
 화이트보드에서 DSR 액세스 요청에 해당하는 개인 데이터를 찾으면 다음과 같은 여러 가지 방법으로 데이터 주체에게 화이트보드에 대한 액세스 권한을 제공할 수 있습니다.
 
@@ -1281,10 +1281,10 @@ Yammer 관리 센터에서 Yammer 확인된 관리자 (Office 365 전역 관리�
 
 -   사용자의 설정:
 
-- 사용자는 자신의 설정을 보고 변경할 수 있습니다. 사용자 설정을 보고 수정하는 방법에 대한 자세한 내용은 [Yammer 프로필 및 설정 변경](https://support.office.com/article/change-my-yammer-profile-and-settings-a3aeca0e-de34-4897-9b59-de6516542851)을 참조하세요. 관리자는 이 정보를 보고 스크린샷을 만들 수 있지만 변경할 수는 없습니다. Yammer 설정 \> **사용자**로 이동한 다음 사용자의 이름을 클릭합니다.<br/>
+- 사용자는 자신의 설정을 보고 변경할 수 있습니다. 사용자 설정을 보고 수정하는 방법에 대한 자세한 내용은 [Yammer 프로필 및 설정 변경](https://support.office.com/article/change-my-yammer-profile-and-settings-a3aeca0e-de34-4897-9b59-de6516542851)을 참조하세요. 관리자는 이 정보를 보고 스크린샷을 만들 수 있지만 변경할 수는 없습니다. Yammer 설정 \> **사용자**로 이동한 다음, 사용자의 이름을 클릭합니다.<br/>
     - 사용자의 그룹 구성원 자격, 책갈피로 지정된 메시지, 팔로우한 사용자 및 팔로우한 항목.
     
-    - 사용자는 이 정보를 볼 수 있습니다. 방법에 대한 자세한 내용은 [Yammer에서 구성된 상태로 유지하기 위한 팁](https://support.office.com/article/tips-for-staying-organized-in-yammer-40ae9666-75c0-4254-a84c-d87a9542f380)을 참조하세요. 관리자는 이 정보를 보고 스크린샷을 만들 수 있지만 변경할 수는 없습니다. Yammer 설정 \> **사용자**로 이동한 다음 사용자의 이름을 클릭합니다.
+    - 사용자는 이 정보를 볼 수 있습니다. 방법에 대한 자세한 내용은 [Yammer에서 구성된 상태로 유지하기 위한 팁](https://support.office.com/article/tips-for-staying-organized-in-yammer-40ae9666-75c0-4254-a84c-d87a9542f380)을 참조하세요. 관리자는 이 정보를 보고 스크린샷을 만들 수 있지만 변경할 수는 없습니다. Yammer 설정 \> **사용자**로 이동한 다음, 사용자의 이름을 클릭합니다.
 
 #### <a name="export"></a>내보내기
 
@@ -1299,13 +1299,13 @@ Yammer에는 사용자가 메시지나 파일을 삭제할 때 데이터가 일�
 >[!NOTE]
 >14일 동안 사용자의 파일 및 메시지를 제거하려는 경우 관리자는 사용자 수준 내보내기를 수행하여 파일 및 메시지를 식별한 다음, 제품 내 삭제 또는 PowerShell 스크립트를 사용하여 삭제할 항목을 결정해야 합니다. 14일 후에는 관리자가 사용자를 파일 또는 메시지에 더 이상 연결할 수 없습니다.
 
-사용자 지우기 옵션을 통해 사용자가삭 제되면 모든 네트워크 관리자 및 확인된 관리자의 Yammer 받은 편지함으로 알림이 전송됩니다. 사용자 지우기 옵션을 선택하면 사용자의 Yammer 프로필이 삭제되지만 해당 Office 365 또는 Azure Active Directory 프로필은 삭제되지 않습니다.
+사용자 지우기 옵션을 통해 사용자가 삭제되면 모든 네트워크 관리자 및 확인된 관리자의 Yammer 받은 편지함으로 알림이 전송됩니다. 사용자 지우기 옵션을 선택하면 사용자의 Yammer 프로필이 삭제되지만 해당 Office 365 또는 Azure Active Directory 프로필은 삭제되지 않습니다.
 
 사용자를 제거하기 위한 세부 단계는 [Yammer Enterprise에서 GDPR 데이터 주체 요청 관리](https://support.office.com/article/enterprise-privacy-yammer-eae49f12-4661-4ba5-aa72-01248f0709bf)를 참조하세요.
 
 ## <a name="responding-to-dsr-rectification-requests"></a>DSR 수정 요청에 응답
 
-데이터 주체가 Office 365에 저장된 조직의 데이터에 있는 개인 데이터를 수정하도록 요청한 경우 사용자와 조직은 요청을 준수하는 것이 적절한 지 여부를 결정해야 합니다. 요청을 존중하기로 선택한 경우 데이터의 수정은 문서 또는 다른 유형이나 항목에서 개인 데이터를 편집, 삭제 또는 제거하는 등의 조치를 취하는 것을 포함합니다. 이 작업을 수행 하는 가장 쉬운 방법은 데이터/문서 소유자에게 해당 Office 365 응용 프로그램을 사용하여 요청한 변경을 수행하도록 요청하는 것입니다. 다른 방법은 조직에서 IT 관리자가 변경을 수행하는 것입니다. 이 경우 IT 관리자 (또는 SharePoint Online 사이트 모음 관리자와 같은 적절한 권한이 있는 조직에 있는 다른 사용자)에게 그 자신 또는 다른 사용자에게 DSR 관련한 작업을 하는데 필요한 사용 권한을 부여 해야 합니다. 이는 문서에 대한 액세스 또는 문서가 있는 콘텐츠 위치에 대한 액세스에 대한 권한을 주어 문서를 직접 변경할 수 있습니다.
+데이터 주체가 Office 365에 저장된 조직의 데이터에 있는 개인 데이터를 수정하도록 요청한 경우 사용자와 조직은 요청을 준수하는 것이 적절한지 여부를 결정해야 합니다. 요청을 존중하기로 선택한 경우 데이터의 수정은 문서 또는 다른 유형이나 항목에서 개인 데이터를 편집, 삭제 또는 제거하는 등의 조치를 취하는 것을 포함합니다. 이 작업을 수행 하는 가장 쉬운 방법은 데이터/문서 소유자에게 해당 Office 365 응용 프로그램을 사용하여 요청한 변경을 수행하도록 요청하는 것입니다. 다른 방법은 조직에서 IT 관리자가 변경을 수행하는 것입니다. 이 경우 IT 관리자 (또는 SharePoint Online 사이트 모음 관리자와 같은 적절한 권한이 있는 조직에 있는 다른 사용자)에게 그 자신 또는 다른 사용자에게 DSR 관련한 작업을 하는데 필요한 사용 권한을 부여 해야 합니다. 이는 문서에 대한 액세스 또는 문서가 있는 콘텐츠 위치에 대한 액세스에 대한 권한을 주어 문서를 직접 변경할 수 있습니다.
 
 ### <a name="requesting-that-the-data-owner-to-make-the-approved-change"></a>데이터 소유자에게 승인된 변경 작업을 수행하도록 요청
 
@@ -1330,7 +1330,7 @@ Yammer에는 사용자가 메시지나 파일을 삭제할 때 데이터가 일�
 
 #### <a name="onedrive-for-business"></a>비즈니스용 OneDrive
 
-Office 365 전역 관리자는 를 사용하여 사용자의 비즈니스용 OneDrive 계정에 액세스할 수 있습니다.
+Office 365 전역 관리자는 자격 증명을 사용하여 사용자의 비즈니스용 OneDrive 계정에 액세스할 수 있습니다.
 
 1. 전역 관리자 자격 증명으로 Office 365에 로그인합니다.
 2. 관리 센터로 이동합니다.
@@ -1411,7 +1411,7 @@ Power BI는 완전성과 정확성을 위해 대시보드 및 보고서에서 �
 
 ### <a name="removing-the-license-for-an-office-365-application"></a>Office 365 응용 프로그램에 대한 라이선스 제거
 
-앞서 설명한 것 처럼 조직의 Office 365 구독에 포함된 모든 Office 365 응용 프로그램에 대한 라이선스는 기본적으로 모든 사용자에게 할당됩니다. IT 관리자는 DSR이 적용되는 데이터에 대한 액세스를 제한해야 할 필요가 있는 경우 Office 365 관리 포털을 사용하여 응용 프로그램에 대한 사용자 라이선스를 일시적으로 해제할 수 있습니다. 사용자가 해당 응용 프로그램을 사용하려고 하면 사용 허가되지 않은 제품 알림이나 해당 사용자에게 더 이상 액세스 권한이 없다는 메시지가 나타납니다. 자세한 내용은 [비즈니스용 Office 365 사용자로부터 라이선스 제거](https://support.office.com/article/Remove-licenses-from-users-in-Office-365-for-business-9B497C85-D0A4-4735-80FA-D3565BC05BD1)를 참조하세요.
+앞서 설명한 것처럼 조직의 Office 365 구독에 포함된 모든 Office 365 응용 프로그램에 대한 라이선스는 기본적으로 모든 사용자에게 할당됩니다. IT 관리자는 DSR이 적용되는 데이터에 대한 액세스를 제한해야 할 필요가 있는 경우 Office 365 관리 포털을 사용하여 응용 프로그램에 대한 사용자 라이선스를 일시적으로 해제할 수 있습니다. 사용자가 해당 응용 프로그램을 사용하려고 하면 사용 허가되지 않은 제품 알림이나 해당 사용자에게 더 이상 액세스 권한이 없다는 메시지가 나타납니다. 자세한 내용은 [비즈니스용 Office 365 사용자로부터 라이선스 제거](https://support.office.com/article/Remove-licenses-from-users-in-Office-365-for-business-9B497C85-D0A4-4735-80FA-D3565BC05BD1)를 참조하세요.
 
 **참고:**
 
@@ -1436,7 +1436,7 @@ Power BI는 완전성과 정확성을 위해 대시보드 및 보고서에서 �
 
 개인 데이터 처리를 제한하는 또 다른 방법은 DSR에 응답하여 Office 365에서 개인 데이터를 일시적으로 제거하는 것입니다. 조직에서 제한을 더 이상 적용하지 않기로 결정한 경우 Office 365로 데이터를 다시 가져올 수 있습니다.
 
-대부분의 Office 문서는 SharePoint Online 또는 비즈니스용 OneDrive 사이트에 있는 때문에 사이트에서 문서를 제거한 다음 다시 가져오는 개략적인 프로세스는 다음과 같습니다.
+대부분의 Office 문서는 SharePoint Online 또는 비즈니스용 OneDrive 사이트에 있는 때문에 사이트에서 문서를 제거한 다음, 다시 가져오는 개략적인 프로세스는 다음과 같습니다.
 
 1. 제한 요청의 주체인 문서의 복사본을 가져옵니다. 사이트에 대한 액세스를 요청하거나 Office 365 전역 관리자 또는 사이트 모음 관리자에게 문서의 복사본을 제공하도록 요청해야 할 수도 있습니다.
 2. 온-프레미스 위치(예: 파일 서버 또는 파일 공유) 또는 Microsoft 클라우드의 Office 365 테넌트가 아닌 다른 위치에 문서를 저장합니다.
@@ -1451,11 +1451,11 @@ Power BI는 완전성과 정확성을 위해 대시보드 및 보고서에서 �
 4. 제한이 더 이상 적용되지 않는 경우 온-프레미스에 저장된 문서의 복사본을 Office 365의 사이트에 다시 업로드할 수 있습니다.
 
 >[!IMPORTANT]
->이전 절차는 문서가 보존(Microsoft Office 365의 보존 또는 법적 보존 기능 중 하나) 중인 사이트에 있는 경우에는 적용되지 않습니다. DSR 제한 요청이 법적 보존에 우선하는 경우 문서를 영구적으로 삭제하려면 먼저 사이트에서 보존을 제거해야 합니다. 이 경우 삭제된 문서의 문서 기록도 영구적으로 제거됩니다.
+>이전 절차는 문서가 보류(Microsoft Office 365의 보존 또는 법적 보류 기능 중 하나) 중인 사이트에 있는 경우에는 적용되지 않습니다. DSR 제한 요청이 법적 보존에 우선하는 경우 문서를 영구적으로 삭제하려면 먼저 사이트에서 보존을 제거해야 합니다. 이 경우 삭제된 문서의 문서 기록도 영구적으로 제거됩니다.
 
 ### <a name="temporarily-restricting-access-to-sharepoint-online-sites"></a>일시적으로 SharePoint Online 사이트에 대한 액세스 제한
 
-SharePoint Online 관리자는 일시적으로 SharePoint Online PowerShell의 **Set-SPOSite -LockState** 명령을 사용하여 사이트 모음을 잠가서 모든 사용자가 SharePoint Online 사이트 모음에 액세스하지 못하게 할 수 있습니다. 이렇게하면 사용자가 사이트 모음 및 사이트에 있는 모든 콘텐츠 나 데이터에 액세스 할 수 없습니다. 그런 다음 사용자가 사이트에 액세스할 수 있어야 한다고 결정하면 관리자는 사이트의 잠금을 해제할 수 있습니다. 이 PowerShell cmdlet 실행에 대한 자세한 내용은 [Set-SPOSite](https://docs.microsoft.com/powershell/module/sharepoint-online/set-sposite)를 참조하세요.
+SharePoint Online 관리자는 일시적으로 SharePoint Online PowerShell의 **Set-SPOSite -LockState** 명령을 사용하여 사이트 모음을 잠가서 모든 사용자가 SharePoint Online 사이트 모음에 액세스하지 못하게 할 수 있습니다. 이렇게 하면 사용자가 사이트 모음 및 사이트에 있는 콘텐츠나 데이터에 액세스할 수 없습니다. 그런 다음 사용자가 사이트에 액세스할 수 있어야 한다고 결정하면 관리자는 사이트의 잠금을 해제할 수 있습니다. 이 PowerShell cmdlet 실행에 대한 자세한 내용은 [Set-SPOSite](https://docs.microsoft.com/powershell/module/sharepoint-online/set-sposite)를 참조하세요.
 
 ### <a name="preventing-a-user-from-signing-in-to-office-365"></a>사용자가 Office 365에 로그인하지 못하도록 방지
 
@@ -1480,7 +1480,7 @@ Delve에서는 사용자가 Office 365 프로필을 관리하고 관련된 사�
 
 ##### <a name="data-available-in-the-delve-user-interface"></a>Delve 사용자 인터페이스에서 사용할 수 있는 데이터
 
-- **프로필 데이터:** 사용자가 자신에 대해 추가하도록 선택한 정보(선택 사항)와 Azure Active Directory에 있는 조직의 전체 주소 목록의 프로필 정보입니다.  Delve에서 프로필 데이터에 액세스하거나 데이터를 내보내려면 **나** \> **프로필 업데이트**를 클릭합니다. 페이지에서 직접 콘텐츠를 복사하거나 
+- **프로필 데이터:** 사용자가 자신에 대해 추가하도록 선택한 정보(선택 사항)와 Azure Active Directory에 있는 조직의 전체 주소 목록의 프로필 정보입니다. Delve에서 프로필 데이터에 액세스하거나 데이터를 내보내려면 **나** \> **프로필 업데이트**를 클릭합니다. 페이지에서 직접 콘텐츠를 복사하거나 
 - **블로그 데이터:** 사용자가 게시한 블로그 게시물입니다. 사용자는 **나** \> **모든 게시물**을 클릭하여 블로그 데이터에 액세스하거나 데이터를 내보낼 수 있습니다. 페이지에서 직접 콘텐츠를 복사하거나 스크린샷을 찍을 수 있습니다.
 - **최근 사용자 데이터:** 일정 시기에 가장 관련이 높은 조직 내 사용자를 Delve가 유추한 정보입니다. 사용자가 “사용자를 클릭하여 각자 진행 중인 작업 보기” 창에서 **나** \> **모두 보기**를 클릭하면 일정 시기에 가장 관련이 높은 사용자가 Delve에 표시됩니다.
 
@@ -1494,7 +1494,7 @@ Delve에서는 사용자가 Office 365 프로필을 관리하고 관련된 사�
 
 ##### <a name="data-thats-available-through-other-services"></a>다른 서비스를 통해 사용할 수 있는 데이터
 
-- **인기 문서 데이터:** 사용자와 연관이 있을 수 있는 문서와 전자 메일 첨부 파일입니다. Delve는 사용자의 활동과 Office 365에서 함께 작업하는 사람들을 기반으로 이 문서와 전자 메일 메시지를 자동으로 정리합니다. 사용자가 Delve를 열거나 **홈**을 클릭하면 일정 시간에 사용자에게 가장 관련이 있는 문서 또는 첨부 파일이 Delve에 표시됩니다. 사용자는 실제 문서 및 첨부 파일에 액세스하거나 내보내기 위해 문서 또는 첨부 파일을 사용할 수 있는 플랫폼(예: Office.com, SharePoint Online, 비즈니스용 OneDrive 또는 Exchange Online)을 통해 Office 365 서비스로 이동할 수 있습니다.
+- **인기 문서 데이터:** 사용자와 연관이 있을 수 있는 문서와 전자 메일 첨부 파일입니다. Delve는 사용자의 활동과 Office 365에서 함께 작업하는 사람들을 기준으로 이 문서와 전자 메일 메시지를 자동으로 정리합니다. 사용자가 Delve를 열거나 **홈**을 클릭하면 일정 시간에 사용자에게 가장 관련이 있는 문서 또는 첨부 파일이 Delve에 표시됩니다. 사용자는 실제 문서 및 첨부 파일에 액세스하거나 내보내기 위해 문서 또는 첨부 파일을 사용할 수 있는 플랫폼(예: Office.com, SharePoint Online, 비즈니스용 OneDrive 또는 Exchange Online)을 통해 Office 365 서비스로 이동할 수 있습니다.
 - **최근 문서 및 전자 메일 첨부 파일 데이터:** 사용자가 수정한 최근 문서 및 전자 메일 첨부 파일입니다. “최근 문서 및 전자 메일 첨부 파일로 돌아가기” 창에서 사용자가 **나** \> **모두 보기**를 클릭하면 일정 시기에 사용자가 수정한 최근 문서와 전자 메일 첨부 파일이 Delve에 표시됩니다. 사용자는 실제 문서 및 첨부 파일에 액세스하거나 내보내기 위해 문서 또는 첨부 파일을 사용할 수 있는 플랫폼(예: Office.com, SharePoint Online, 비즈니스용 OneDrive 또는 Exchange Online)을 통해 Office 365 서비스로 이동할 수 있습니다.
 - **주변 사용자의 문서 데이터:** Delve가 일정 시기에 사용자와 가장 관련이 높은 것으로 추정한 문서입니다. 사용자가 “주변 사용자의 문서 검색” 창에서 **나** \> **모두 보기**를 클릭하면 일정 시기에 사용자와 가장 관련이 높은 문서가 Delve에 표시됩니다. 사용자는 실제 문서에 액세스하거나 내보내기 위해 문서 또는 첨부 파일을 사용할 수 있는 플랫폼(예: Office.com, SharePoint Online, 비즈니스용 OneDrive 또는 Exchange Online)을 통해 Office 365 서비스로 이동할 수 있습니다.
 
@@ -1542,17 +1542,17 @@ MyAnalytics 데이터를 포함하는 모든 사서함 콘텐츠는 Active Direc
 
 Workplace Analytics에서 DSR을 지원하려면 
 
-1. 조직에서 Workplace Analytics를 사용하고 있는지 확인합니다. 자세한 내용은 [비즈니스용 Office 365에서 사용자에게 라이선스 할당](https://docs.microsoft.com/office365/admin/subscriptions-and-billing/assign-licenses-to-users)을 참조하세요. 조직에서 Workplace Analytics를 사용하고 있지 않으면 추가 작업이 필요하지 않습니다.
+1. 조직에서 Workplace Analytics를 사용하고 있는지 확인합니다. 자세한 내용은 [비즈니스용 Office 365에서 사용자에게 라이선스 할당](../admin/manage/assign-licenses-to-users.md)을 참조하세요. 조직에서 Workplace Analytics를 사용하고 있지 않으면 추가 작업이 필요하지 않습니다.
 
 2. 조직에서 Workplace Analytics를 사용하는 경우 조직에서 Workplace Analytics 관리자 역할이 할당된 사람을 확인합니다. 또한 데이터 주체의 사서함이 Workplace Analytics에 대한 라이선스가 있는지 확인합니다. 필요한 경우 Workplace Analytics 관리자에게 Microsoft 기술 지원부에 문의하여 다음 DSR 요청을 처리하도록 합니다. 
 
 #### <a name="access-and-export"></a>액세스 및 내보내기
 
-사용자가 만든 Workplace Analytics 인사이트 보고서에는 조직에서 Office 365 데이터를 보완하는 데 사용하는 정보에 따라 조직에서 Workplace Analytics에 대해 라이선스를 허가한 사용자의 개인 데이터가 포함되어 있을 수도 있고 없을 수도 있습니다. Workplace Analytics 관리자는 해당 보고서를 검토하여 사용자의 개인 데이터가 포함되어있는지 확인해야 합니다. 보고서에 사용자의 개인 데이터가 포함되어 있는 경우 해당 보고서의 복사본을 사용자에게 제공할지 여부를 결정해야합니다. Workplace Analytics를 사용하여 보고서를 내보낼 수 있습니다. 
+사용자가 만든 Workplace Analytics 인사이트 보고서에는 조직에서 Office 365 데이터를 보완하는 데 사용하는 정보에 따라 조직에서 Workplace Analytics에 대해 라이선스를 허가한 사용자의 개인 데이터가 포함되어 있을 수도 있고 없을 수도 있습니다. Workplace Analytics 관리자는 해당 보고서를 검토하여 사용자의 개인 데이터가 포함되어 있는지 확인해야 합니다. 보고서에 사용자의 개인 데이터가 포함되어 있는 경우 해당 보고서의 복사본을 사용자에게 제공할지 여부를 결정해야 합니다. Workplace Analytics를 사용하여 보고서를 내보낼 수 있습니다. 
 
 #### <a name="rectify"></a>수정
 
-위에서 설명한 것처럼 Workplace Analytics는 Office 365 데이터를 사용자가 제공하는 조직 데이터와 함께 사용하여 관심있는 보고서를 생성합니다. Office 365 데이터는 수정할 수 없습니다. 사용자의 전자 메일 및 일정 활동을 기반으로 합니다. 그러나 보고서를 생성하기 위해 Workplace Analytics에 업로드 한 조직 데이터는 수정할 수 있습니다. 이렇게 하려면 원본 데이터를 수정하고 업로드한 다음 보고서를 다시 실행하여 새 Workplace Analytics 보고서를 생성해야 합니다.
+위에서 설명한 것처럼 Workplace Analytics는 Office 365 데이터를 사용자가 제공하는 조직 데이터와 함께 사용하여 관심있는 보고서를 생성합니다. Office 365 데이터는 수정할 수 없습니다. 사용자의 전자 메일 및 일정 활동을 기준으로 합니다. 그러나 보고서를 생성하기 위해 Workplace Analytics에 업로드 한 조직 데이터는 수정할 수 있습니다. 이렇게 하려면 원본 데이터를 수정하고 업로드한 다음 보고서를 다시 실행하여 새 Workplace Analytics 보고서를 생성해야 합니다.
 
 #### <a name="restrict"></a>제한
 
@@ -1598,7 +1598,7 @@ Microsoft에서는 특정 서비스의 기존 API(응용 프로그래밍 인터�
 
 액세스 요청을 통해 검색된 시스템 생성 로그를 삭제하려면 서비스에서 사용자를 제거하고 해당 Azure Active Directory 계정을 영구적으로 삭제해야 합니다. 사용자를 영구적으로 삭제하는 방법에 대한 지침은 이 가이드에서 [사용자 삭제](#deleting-a-user)를 참조하세요. 사용자 계정을 영구적으로 삭제하는 작업을 일단 시작하면 되돌릴 수 없습니다.
 
-영구적으로 사용자 계정을 삭제하면 30일 이내에 거의 모든 Office 365 서비스의 시스템 생성 로그에서 사용자의 데이터가 제거됩니다. 한 가지 예외는 Exchange Online에서 사용자 계정을 영구적으로 삭제하는 데 30일 이상이 걸리는 것입니다. Exchange Online 콘텐츠의 중요한 특성을 감안하여 실수로 인한 데이터 손실을 방지하세요. 이 시스템은 사용자 계정이 영구적으로 삭제된 후 최대 60일 동안 의도적으로 데이터를 보관 상태로 유지하도록 설계되었습니다. 30일 기간 내에 사용자의 Exchange Online 데이터를 영구히 삭제하려면 Azure Active Directory에서 사용자 계정을 영구적으로 삭제한 다음 [Microsoft 고객지원팀](https://support.microsoft.com/)에 연락하여 예약된 삭제 프로세스 외부에서 사용자의 Exchange Online 데이터를 수동으로 제거하도록 요청하세요. 자세한 내용은 이 가이드에서 이전에 설명한 [Exchange Online 데이터 제거](#removing-exchange-online-data)를 참조하세요.
+영구적으로 사용자 계정을 삭제하면 30일 이내에 거의 모든 Office 365 서비스의 시스템 생성 로그에서 사용자의 데이터가 제거됩니다. 한 가지 예외는 Exchange Online에서 사용자 계정을 영구적으로 삭제하는 데 30일 이상이 걸리는 것입니다. Exchange Online 콘텐츠의 중요한 특성을 감안하여 실수로 인한 데이터 손실을 방지하세요. 이 시스템은 사용자 계정이 영구적으로 삭제된 후 최대 60일 동안 의도적으로 데이터를 보관 상태로 유지하도록 설계되었습니다. 30일 기간 내에 사용자의 Exchange Online 데이터를 영구히 삭제하려면 Azure Active Directory에서 사용자 계정을 영구적으로 삭제한 다음, [Microsoft 지원 서비스](https://support.microsoft.com/)에 연락하여 예약된 삭제 프로세스 외부에서 사용자의 Exchange Online 데이터를 수동으로 제거하도록 요청하세요. 자세한 내용은 이 가이드에서 이전에 설명한 [Exchange Online 데이터 제거](#removing-exchange-online-data)를 참조하세요.
 
 사용자 계정을 삭제해도 Yammer 및 Kaizala에 대한 시스템 생성 로그는 제거되지 않습니다. 이러한 응용 프로그램에서 데이터를 제거하려면 다음 중 하나를 참조합니다.
 
