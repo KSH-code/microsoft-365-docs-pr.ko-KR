@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: fbc2ad99433e2bf296e2891b6f3e85e22b6af6df
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 0f9cb386ce57d6581ade5caa05e029511100d9b3
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42079935"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42556786"
 ---
 # <a name="analyze-data-in-a-review-set-in-advanced-ediscovery"></a>고급 eDiscovery에서 검토 집합의 데이터 분석
 
@@ -57,12 +57,18 @@ ms.locfileid: "42079935"
 
 3. **보고서 보기**를 클릭 합니다.
 
-보고서에는 분석을 통해 다음과 같은 4 가지 구성 요소가 포함 됩니다.
+보고서에는 분석을 통해 7 개의 구성 요소가 있습니다.
 
-- **분석 결과** -검토 집합에서 찾은 전자 메일 메시지, 첨부 파일 및 느슨한 문서 수입니다.
+- **대상 채우기:** 검토 집합에 있는 전자 메일 메시지, 첨부 파일 및 느슨한 문서 수입니다.
 
-- **문서 (첨부 파일 제외)** -피벗, 중복 되는 항목에 대 한 고유 하지 않은 문서 또는 다른 문서와 정확히 일치 하는 복사본의 수입니다.
+- **문서 (첨부 파일 제외):** 피벗, 중복 되는 항목에 거의 고유 하지 않은 문서 또는 다른 문서와 정확히 일치 하는 복제본의 수입니다.
 
-- **전자 메일** -inclusives, 포함 복사본, 포함 minuses 또는이 중 어느 것도 사용 되지 않은 전자 메일 메시지의 수입니다.
+- **전자 메일:** Inclusives, 포함 복사본, 포함 minuses, 또는 없음 중 하나에 해당 하는 전자 메일 메시지의 수입니다.
 
-- **첨부 파일** -검토 집합에 있는 다른 전자 메일 첨부 파일의 고유 또는 중복 되는 전자 메일 첨부 파일의 수입니다.
+- **첨부 파일:** 검토 집합에 있는 다른 전자 메일 첨부 파일의 고유 또는 중복 되는 전자 메일 첨부 파일의 수입니다.
+
+- **유형별 파일 수:** 파일 확장명으로 식별 되는 파일 수입니다.
+
+- **출처 별 문서:** 원래 데이터 원본에의 한 콘텐츠 요약입니다.
+
+- **프로세스 별로 집계 된 문서:** 검토 집합 프로세스의 콘텐츠 요약입니다. 

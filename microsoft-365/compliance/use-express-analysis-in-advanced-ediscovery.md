@@ -16,14 +16,14 @@ search.appverid:
 - MET150
 ms.assetid: 50580099-3dc0-44a1-a9b6-5ca6d396316b
 description: Office 365 Advanced eDiscovery의 빠른 분석 모드를 실행 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 49e8f04b893f0a15563cf091c728352a97c4141f
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: d4b8e1fa5e8251f5ede2d9a3003c756decac3b45
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42080747"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42557646"
 ---
-# <a name="use-express-analysis-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery에서 빠른 분석 사용
+# <a name="use-express-analysis-in-advanced-ediscovery-classic"></a>고급 eDiscovery에서 빠른 분석 사용 (클래식) 
 
 > [!NOTE]
 > Advanced eDiscovery를 사용하려면 Office 365 E3의 고급 준수 추가 기능이나 조직을 위한 E5 구독이 필요합니다. 이 요금제가 없는 상태에서 Advanced eDiscovery를 사용하려는 경우에는 [Office 365 Enterprise E5 평가판을 등록](https://go.microsoft.com/fwlink/p/?LinkID=698279)할 수 있습니다. 
@@ -132,5 +132,5 @@ ms.locfileid: "42080747"
 ## <a name="see-also"></a>참고 항목
 <a name="BK_AdvancedSettings"> </a>
 
-[Office 365 Advanced eDiscovery](office-365-advanced-ediscovery.md)
+[고급 eDiscovery (클래식)](office-365-advanced-ediscovery.md)
 

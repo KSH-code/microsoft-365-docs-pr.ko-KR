@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 01f2e6f9ceccd1903f62e8661f2cfc8f4cc2b47e
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: ca8389bf6a7622d4db98bdf7422aea85942e8978
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42078145"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42556776"
 ---
 # <a name="review-conversations-in-advanced-ediscovery"></a>Advanced eDiscovery에서 대화 검토 
 
@@ -79,8 +79,6 @@ ms.locfileid: "42078145"
   
 3. 항목이 검토 집합에 추가 된 후에는 *CRC1*에서 모든 개별 메시지를 검토할 수 있습니다. 
 
-
-
 대화 검색을 사용 하도록 설정 하려면:
   
 1. 고급 eDiscovery 사례의 **검색** 탭에서 검색을 선택 하 고 플라이 아웃 페이지에서 **설정을 검토 하려면 추가를** 클릭 합니다.
@@ -91,7 +89,7 @@ ms.locfileid: "42078145"
   
 4. **작업** 탭에서 **집합을 검토 하도록 추가** 작업을 완료 한 후에는 대화 검토를 시작할 수 있습니다.
 
-## <a name="step-4-review-conversations-in-the-review-set"></a>4 단계: 검토 집합의 대화 검토
+## <a name="step-4-review-and-export-conversations-in-a-review-set"></a>4 단계: 검토 집합의 대화 검토 및 내보내기
 
 콘텐츠를 처리 하 고 검토 집합에 추가한 후에는 검토 집합에서 데이터 검토를 시작할 수 있습니다. 검토 기능은 콘텐츠가 표준 검토 설정 또는 대화 검토 집합에 추가 되었는지 여부에 따라 달라 집니다. 
 
@@ -129,7 +127,6 @@ ms.locfileid: "42078145"
 
 - **대화 내용 변환을 다시 실행 합니다.** 메시지가 대화 검토 설정에 추가 되 면 변환 작업이 자동으로 실행 되어 스레드 요약을 만들고 보기에 주석을 추가 합니다. 대화 재구성 작업이 실패 하면 검토 설정에서 **대화 Pdf 만들기 > 실행** 을 클릭 하 여이 작업을 다시 실행할 수 있습니다.
 
-
 #### <a name="exporting-conversations"></a>대화 내보내기
 
 대화 검토 집합에서 다음 옵션을 설정 하 여 대화를 내보낼 수 있습니다.
@@ -161,7 +158,7 @@ c. 기타 옵션
 
 Advanced eDiscovery에서 사례 데이터를 검토 하는 방법에 대 한 자세한 내용은 다음 문서를 참조 하십시오.
 
-- [사례 데이터 보기](view-documents-in-review-set.md) 
+- [사례 데이터 보기](view-documents-in-review-set.md)
 
 - [대/소문자 데이터 분석](analyzing-data-in-review-set.md)
 

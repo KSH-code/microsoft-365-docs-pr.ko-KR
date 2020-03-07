@@ -1,5 +1,7 @@
 ---
 title: Office 365 Advanced eDiscovery에서 사례 데이터 내보내기
+f1.keywords:
+- NOCSH
 ms.author: chrfox
 author: chrfox
 manager: laurawi
@@ -13,14 +15,14 @@ search.appverid:
 - MET150
 ms.assetid: c3198d1c-51b4-4280-87c5-269b47246d33
 description: 'Office 365 Advanced eDiscovery의 내보내기 프로세스를 사용 하 여 eDiscovery 사례 데이터 및 검토 결과를 내보내는 방법에 대 한 지침을 이해 합니다.  '
-ms.openlocfilehash: 22713d38bf93f32a59646d6b0105f6c0cece69bd
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: ced09e872ab1cf7f3f5a798a916357cb8016b797
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40805811"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42558219"
 ---
-# <a name="export-case-data-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery에서 사례 데이터 내보내기
+# <a name="export-case-data-in-advanced-ediscovery-classic"></a>Advanced eDiscovery에서 사례 데이터 내보내기 (클래식)
 
 > [!NOTE]
 > Advanced eDiscovery를 사용하려면 Office 365 E3의 고급 준수 추가 기능이나 조직을 위한 E5 구독이 필요합니다. 이 요금제가 없는 상태에서 Advanced eDiscovery를 사용하려는 경우에는 [Office 365 Enterprise E5 평가판을 등록](https://go.microsoft.com/fwlink/p/?LinkID=698279)할 수 있습니다. 
@@ -37,7 +39,7 @@ ms.locfileid: "40805811"
     
 ## <a name="see-also"></a>참고 항목
 
-[Office 365 Advanced eDiscovery](office-365-advanced-ediscovery.md)
+[고급 eDiscovery (클래식)](office-365-advanced-ediscovery.md)
   
 [결과 내보내기](export-results-in-advanced-ediscovery.md)
   

@@ -15,14 +15,14 @@ search.appverid:
 - MOE150
 ms.assetid: dce7a700-3b6e-435f-88ba-e4b82c0f2b26
 description: 'Office 365 Advanced eDiscovery에서 매개 변수를 설정 하 고, 옵션을 실행 하 고, 결과를 볼 수 있는 분석 프로세스의 개요를 확인 하세요. '
-ms.openlocfilehash: ff26d0ce28d725cb922c228ff4b6ddf9ab174757
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 31745651ddbebbfc5e9670a5a906d82cf493aea4
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41596125"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42556806"
 ---
-# <a name="analyze-case-data-with-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery를 사용 하 여 사례 데이터 분석
+# <a name="analyze-case-data-with-advanced-ediscovery-classic"></a>고급 eDiscovery를 사용 하 여 사례 데이터 분석 (클래식)
 
 > [!NOTE]
 > Advanced eDiscovery를 사용하려면 Office 365 E3의 고급 준수 추가 기능이나 조직을 위한 E5 구독이 필요합니다. 이 요금제가 없는 상태에서 Advanced eDiscovery를 사용하려는 경우에는 [Office 365 Enterprise E5 평가판을 등록](https://go.microsoft.com/fwlink/p/?LinkID=698279)할 수 있습니다. 
@@ -45,7 +45,7 @@ ms.locfileid: "41596125"
   
 ## <a name="see-also"></a>참고 항목
 
-[Office 365 Advanced eDiscovery](office-365-advanced-ediscovery.md)
+[고급 eDiscovery (클래식)](office-365-advanced-ediscovery.md)
   
 [문서 유사성 이해](understand-document-similarity-in-advanced-ediscovery.md)
   

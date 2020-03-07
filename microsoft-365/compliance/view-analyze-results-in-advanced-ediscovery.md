@@ -16,14 +16,14 @@ search.appverid:
 - MET150
 ms.assetid: 5974f3c2-89fe-4c5f-ac7b-57f214437f7e
 description: '표시 된 작업 옵션의 정의를 포함 하 여 Office 365 Advanced eDiscovery에서 분석 프로세스의 결과를 볼 수 있는 위치를 파악 합니다.  '
-ms.openlocfilehash: bac173beebe2fdf3d07122bfca04cbaaee6410e6
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: adee00d2b7826827cc14f4ca945952f4892511a1
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42069191"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42557626"
 ---
-# <a name="view-analyze-results-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery에서 결과 분석 보기
+# <a name="view-analyze-results-in-advanced-ediscovery-classic"></a>Advanced eDiscovery에서 결과 분석 보기 (클래식)
 
 > [!NOTE]
 > Advanced eDiscovery를 사용하려면 Office 365 E3의 고급 준수 추가 기능이나 조직을 위한 E5 구독이 필요합니다. 이 요금제가 없는 상태에서 Advanced eDiscovery를 사용하려는 경우에는 [Office 365 Enterprise E5 평가판을 등록](https://go.microsoft.com/fwlink/p/?LinkID=698279)할 수 있습니다. 
@@ -77,7 +77,7 @@ Advanced eDiscovery에서는 아래에 설명 된 것 처럼 다양 한 표시�
   
 ## <a name="see-also"></a>참고 항목
 
-[Office 365 Advanced eDiscovery](office-365-advanced-ediscovery.md)
+[고급 eDiscovery (클래식)](office-365-advanced-ediscovery.md)
   
 [문서 유사성 이해](understand-document-similarity-in-advanced-ediscovery.md)
   

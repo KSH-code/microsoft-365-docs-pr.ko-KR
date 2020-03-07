@@ -5,6 +5,8 @@ keywords: GDPR 책임 준비 상태, 책임 준비 상태 점검 목록, Microso
 localization_priority: Priority
 ms.prod: microsoft-365-enterprise
 ms.topic: article
+f1.keywords:
+- NOCSH
 ms.author: robmazz
 author: robmazz
 manager: laurawi
@@ -13,12 +15,12 @@ ms.collection:
 - M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 49933990388688ad5f683b13c68447be4d6ce50f
-ms.sourcegitcommit: 03a83ff76c8162b850c4c552759c49f2a4750574
+ms.openlocfilehash: 26c7e15eab3d66f3daee180f213bf5d66cad15ff
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/26/2020
-ms.locfileid: "41558085"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42558149"
 ---
 # <a name="accountability-readiness-checklist-for-microsoft-office-365"></a>Microsoft Office 365에 대한 책임 준비 상태 검사 목록
 
@@ -152,5 +154,5 @@ GDPR 타일의 *고객 관리 컨트롤*에서 컨트롤 ID 및 컨트롤 제목
 
 ## <a name="learn-more"></a>자세한 정보
 
-- [Microsoft 보안 센터](https://www.microsoft.com/TrustCenter/Privacy/gdpr/default.aspx)
+- [Microsoft 보안 센터](https://www.microsoft.com/trust-center/privacy/gdpr-overview)
 - [서비스 보안 포털](https://servicetrust.microsoft.com/ViewPage/GDPRGetStarted)

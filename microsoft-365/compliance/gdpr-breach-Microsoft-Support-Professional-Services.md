@@ -15,12 +15,12 @@ ms.collection:
 - GDPR
 - M365-security-compliance
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: f86e1109b7d2d10e13a7be35336ae485bedd96b6
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: c6f32258f4997db4cb806141414cffc808e63517
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42073865"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42558108"
 ---
 # <a name="microsoft-support-and-professional-services-and-breach-notification-under-the-gdpr"></a>Microsoft 고객 지원 및 전문 서비스와 GDPR에 따른 위반 알림
 
@@ -100,4 +100,4 @@ Microsoft는 데이터 처리자로서, 고객이 알림이 적절한지 여부�
 
 ## <a name="learn-more"></a>자세한 정보
 
-Microsoft 전문 서비스(<https://aka.ms/pstrust>)에 대해 자세히 알아봅니다. 
+Microsoft 전문 서비스(<https://aka.ms/pstrust>)에 대해 자세히 알아봅니다.

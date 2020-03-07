@@ -7,12 +7,12 @@ f1.keywords:
 - NOCSH
 ms.author: jaimeo
 ms.localizationpriority: medium
-ms.openlocfilehash: e41003a7137b864b52f823debcd72c72ca55045d
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 1d4ca01e7b791dafc952b62a5f5dd59263b31546
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42085044"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42557556"
 ---
 # <a name="register-new-devices-yourself"></a>직접 새 장치 등록
 
@@ -72,7 +72,7 @@ Microsoft Managed Desktop은 해당 하드웨어 해시를 참조 하 여 각 �
 등록 하려면 CSV 파일을 특정 형식으로 만들어야 합니다. 이전 단계에서 데이터를 직접 수집한 경우 파일은 올바른 형식으로 되어 있어야 합니다. 공급자 로부터 파일을 가져오는 경우에는 형식을 조정 해야 할 수 있습니다.
 
 >[!NOTE]
->편의를 위해 [예제 CSV 파일](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-started/downloads/device-registration-sample-partner.csv)을 다운로드할 수 있습니다.
+>편의를 위해 [예제 CSV 파일](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-started/downloads/device-registration-sample-self.csv)을 다운로드할 수 있습니다.
 
 샘플 1과 **정확히 같은 열 머리글** 을 포함 해야 하지만 (제조업체, 모델 등), 다른 행에 대 한 고유한 데이터를 포함할 수 있습니다. 서식 파일을 사용 하는 경우 메모장 등의 텍스트 편집 도구에서이 템플릿을 열고 행 2와 아래에 데이터만 입력 하는 것이 좋습니다. 
     
@@ -98,7 +98,7 @@ Microsoft Managed Desktop [Azure Portal](https://aka.ms/mmdportal)의 왼쪽 탐
 <!--Registering any existing devices with Managed Desktop will completely re-image them; make sure you've backed up any important data prior to starting the registration process.-->
 
 
-다음 단계를 따릅니다:
+다음 단계를 따릅니다.
 
 1. **파일 업로드**에서 이전에 만든 CSV 파일의 경로를 제공 합니다.
 2. 원하는 경우 사용자의 추적 목적으로 **주문 id** 또는 **구매 ID** 를 추가할 수 있습니다. 이러한 값에 대 한 형식 요구 사항은 없습니다.

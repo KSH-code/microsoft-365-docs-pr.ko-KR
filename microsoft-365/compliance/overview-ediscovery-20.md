@@ -17,11 +17,11 @@ search.appverid:
 ms.assetid: ''
 description: 이 문서에서는 Microsoft 365의 새로운 고급 eDiscovery 버전에 대해 설명 합니다.
 ms.openlocfilehash: a9c7811d9ad0660105f7063e674a54c01707ea58
-ms.sourcegitcommit: 9a4084ce2b80bac883412e0ec956b6c0cc18d0f5
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "42400952"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42557928"
 ---
 # <a name="overview-of-the-advanced-ediscovery-solution-in-microsoft-365"></a>Microsoft 365의 고급 eDiscovery 솔루션 개요
 

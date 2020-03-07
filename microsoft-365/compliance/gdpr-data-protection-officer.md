@@ -15,12 +15,12 @@ ms.collection:
 - GDPR
 - M365-security-compliance
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 2b37cce37db01c664a51327ac3d2a0d34ecc21a7
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 8e517db11806085339f6f431c9b942b468a211ed
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42073845"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42558068"
 ---
 # <a name="microsofts-data-protection-officer"></a>Microsoft의 데이터 보호 관리자
 
@@ -57,4 +57,4 @@ Ireland<br>
 
 ## <a name="learn-more"></a>자세한 정보
 
-- [Microsoft 보안 센터](https://www.microsoft.com/TrustCenter/Privacy/gdpr/default.aspx)
+- [Microsoft 보안 센터](https://www.microsoft.com/trust-center/privacy/gdpr-overview)

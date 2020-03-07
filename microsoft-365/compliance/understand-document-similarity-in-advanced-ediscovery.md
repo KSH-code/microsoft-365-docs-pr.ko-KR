@@ -16,14 +16,14 @@ search.appverid:
 - MET150
 ms.assetid: 4d4cb381-4c9a-4165-a455-609d525c7a88
 description: '문서 유사성 값을 검토 하 고 거의 중복으로 간주 되는 두 파일의 최소 resemblance 수준이 Office 365 Advanced eDiscovery에서 작동 합니다. '
-ms.openlocfilehash: b5c777579e876e54032ce5872291a2791e2c3b09
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: e15eb119a569c7cd296f9d3546969848808652da
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42080779"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42557668"
 ---
-# <a name="understand-document-similarity-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery의 문서 유사성 이해
+# <a name="understand-document-similarity-in-advanced-ediscovery-classic"></a>Advanced eDiscovery의 문서 유사성 이해 (클래식)
 
 > [!NOTE]
 > Advanced eDiscovery를 사용하려면 Office 365 E3의 고급 준수 추가 기능이나 조직을 위한 E5 구독이 필요합니다. 이 요금제가 없는 상태에서 Advanced eDiscovery를 사용하려는 경우에는 [Office 365 Enterprise E5 평가판을 등록](https://go.microsoft.com/fwlink/p/?LinkID=698279)할 수 있습니다. 
@@ -57,7 +57,7 @@ Resemblance의 수준은 다음과 같이 표시 됩니다.
   
 ## <a name="see-also"></a>참고 항목
 
-[Office 365 Advanced eDiscovery](office-365-advanced-ediscovery.md)
+[고급 eDiscovery (클래식)](office-365-advanced-ediscovery.md)
   
 [분석 옵션 설정](set-analyze-options-in-advanced-ediscovery.md)
   

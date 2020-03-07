@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: ea6cc92fe84cc39502e3db97361ff9d294fdfca2
-ms.sourcegitcommit: 39bd4be7e8846770f060b5dd7d895fc8040b18f5
+ms.openlocfilehash: adb6423d5c014b5f02fc272f9653abebc14cf543
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/14/2020
-ms.locfileid: "41112662"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42557576"
 ---
 # <a name="apps-in-microsoft-managed-desktop"></a>Microsoft Managed Desktop의 앱
 
@@ -23,7 +23,7 @@ ms.locfileid: "41112662"
 
 Microsoft에는 microsoft Managed Desktop에 참여 하는 데 필요한 Microsoft 365 E3 또는 E5 라이선스와 함께 특정 주요 앱이 포함 되어 있습니다. 그러나 이러한 앱을 제공 하더라도 완료 해야 하는 몇 가지 책임과 작업이 계속 남아 있습니다.
 
-또한 Microsoft Intune의 배포 파이프라인을 사용 하 여 회사 포털 또는 필요한 백그라운드 설치를 통해 셀프 서비스에 대 한 타사 앱을 추가 하 여 최종 사용자에 게 배포할 수 있습니다. 전문 지식을 보유 한 사용자는 자신이 필요로 하는 앱을 마이그레이션할 수 있습니다. MCS (Microsoft 컨설팅 서비스) 또는 타사 공급 업체가 아니면 패키징 및 마이그레이션 프로젝트에 도움을 주는 데 도움이 될 것입니다. MCS에서 작업 하는 방법에 대 한 자세한 내용은 [Microsoft 컨설팅 Services 사용](apps-MCS.md)을 참조 하십시오.
+또한 Microsoft Intune의 배포 파이프라인을 사용 하 여 회사 포털 또는 필요한 백그라운드 설치를 통해 셀프 서비스에 대 한 타사 앱을 추가 하 여 최종 사용자에 게 배포할 수 있습니다. 전문 지식을 보유 한 경우 사용자가 필요한 앱을 마이그레이션할 수 있습니다. 또는 MCS (Microsoft 컨설팅 서비스) 또는 타사 공급 업체가 사용자에 게 패키징 및 마이그레이션 프로젝트를 제공 하는 데 도움을 드립니다. MCS에서 작업 하는 방법에 대 한 자세한 내용은 [Microsoft 컨설팅 Services 사용](apps-MCS.md)을 참조 하십시오.
 
 
 ## <a name="apps-provided-by-microsoft"></a>Microsoft에서 제공 하는 앱

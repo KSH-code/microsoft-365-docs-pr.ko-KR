@@ -18,14 +18,16 @@ search.appverid:
 - MET150
 ms.assetid: 1b45c82f-26c8-44fb-9f3b-b45436fe2271
 description: 준수 경계를 사용 하 여 eDiscovery 관리자가 검색할 수 있는 사용자 콘텐츠 위치를 제어 하는 Office 365 조직 내에 논리적 경계를 만듭니다. 준수 경계는 검색 권한 필터링 (규정 준수 보안 필터 라고도 함)을 사용 하 여 특정 사용자가 검색할 수 있는 사서함, SharePoint 사이트 및 OneDrive 계정을 제어 합니다.
-ms.openlocfilehash: 9ca390dfc96307e6323e897e762813719f2b3ac0
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 247c2649029d3029bb14ca9873a553f2ef8c356c
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42069749"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42557757"
 ---
 # <a name="set-up-compliance-boundaries-for-ediscovery-investigations-in-office-365"></a>Office 365에서 eDiscovery 조사에 대한 준수 경계 설정
+
+이 문서의 지침은 중요 eDiscovery 또는 고급 eDiscovery를 사용 하 여 조사를 관리할 때 적용할 수 있습니다.
 
 준수 경계는 eDiscovery 관리자가 검색할 수 있는 사용자 콘텐츠 위치 (예: 사서함, SharePoint 사이트, OneDrive 계정)를 제어 하는 Office 365 조직 내에 논리적 경계를 만듭니다. 또한 규정 준수 경계는 법률, 인적 자원 또는 조직 내 다른 조사를 관리 하는 데 사용 되는 eDiscovery 사례에 액세스할 수 있는 사용자를 제어 합니다. 지리적 boarders 및 규정을 준수 해야 하는 국내 기업에는 종종 다양 한 기관으로 분류 되는 정부에 대 한 적합성 경계가 필요 합니다. Office 365에서 준수 경계는 콘텐츠 검색을 수행 하 고 eDiscovery 사례를 통해 조사를 관리할 때 이러한 요구 사항을 충족 하는 데 도움이 됩니다.
   
@@ -157,29 +159,29 @@ New-ComplianceSecurityFilter -FilterName "Coho Winery Security Filter" -Users "C
 - 사례에 할당 된 역할 그룹의 구성원이 사례와 연결 된 검색을 실행 하는 경우, 해당 사용자는 해당 에이전시 (4 단계에서 만든 검색 권한 필터에 의해 정의 됨) 내의 콘텐츠 위치만 검색할 수 있습니다.
 
 사례를 만들고 구성원을 할당 하려면 다음을 수행 합니다.
-    
-1. 보안 & 준수 센터의 **eDiscovery** 페이지로 이동 하 여 사례를 만듭니다. 
-    
+
+1. 보안 & 준수 센터에서 **ediscovery** 또는 **Advanced eDiscovery** 페이지로 이동한 후 사례를 만듭니다. 
+
 2. EDiscovery 사례 목록에서 만든 사례 이름을 클릭 합니다.
-    
+
 3. **이 사례** 플라이 아웃 관리 페이지의 **역할 그룹 관리**에서 아이콘](../media/8ee52980-254b-440b-99a2-18d068de62d3.gif) **추가**를 ![클릭 합니다.
-    
+
     ![EDiscovery 사례의 구성원으로 역할 그룹 추가](../media/f8b4b557-01b9-4388-85be-b5b5ab7c5629.png)
   
 4. 역할 그룹 목록에서 3 단계에서 만든 역할 그룹 중 하나를 선택 하 고 **추가**를 클릭 합니다.
-    
+
 5. **이 사례** 플라이 아웃 관리에서 **저장** 을 클릭 하 여 변경 내용을 저장 합니다. 
 
 ## <a name="compliance-boundary-limitations"></a>준수 경계 제한
 
 EDiscovery 사례를 관리 하 고 준수 경계를 사용 하는 조사를 관리할 때는 다음과 같은 제한 사항을 염두에 두어야 합니다.
   
-- 콘텐츠 검색을 만들고 실행 하는 경우에는 에이전시 외부에 있는 콘텐츠 위치를 선택할 수 있습니다. 그러나 검색 권한 필터 때문에 해당 위치의 콘텐츠가 검색 결과에 포함 되지 않습니다.
-    
+- 검색을 만들고 실행 하는 경우에는 에이전시 외부에 있는 콘텐츠 위치를 선택할 수 있습니다. 그러나 검색 권한 필터 때문에 해당 위치의 콘텐츠가 검색 결과에 포함 되지 않습니다.
+
 - 준수 경계는 eDiscovery 사례의 보류에 적용 되지 않습니다. 즉, 한 에이전시의 eDiscovery 관리자가 사용자를 보류 중인 다른 에이전시에 배치할 수 있습니다. 그러나 eDiscovery 관리자가 보류 되었던 사용자의 콘텐츠 위치를 검색 하는 경우 준수 경계가 적용 됩니다. 즉, eDiscovery 관리자는 사용자를 보류 상태로 설정할 수 있더라도 사용자의 콘텐츠 위치를 검색할 수 없습니다.
-    
+
     또한 보유 통계는 에이전시의 콘텐츠 위치에만 적용 됩니다.
-    
+
 - 검색 사용 권한 필터는 Exchange 공용 폴더에 적용 되지 않습니다.
 
 ## <a name="searching-and-exporting-content-in-multi-geo-environments"></a>다중 지역 환경에서 콘텐츠 검색 및 내보내기

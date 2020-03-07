@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 1eeed6c1dfef1765089a5998200c93be595a719a
-ms.sourcegitcommit: 48b69caf6550e68cb14472ea8cfc76b53e7ae9c6
+ms.openlocfilehash: 38c50703fbc58e85a646720b5bbe8b400477b9d4
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42225526"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42558008"
 ---
 # <a name="dynamics-365-data-subject-requests-for-the-gdpr-and-ccpa"></a>GDPR 및 CCPA에 대한 Dynamics 365 데이터 주체 요청
 
@@ -251,4 +251,4 @@ Azure에서는 조직이 네이티브 JSON 형식의 데이터를 지정된 Azur
 
 ## <a name="learn-more"></a>자세히 알아보기
 
-- [Microsoft 보안 센터](https://www.microsoft.com/TrustCenter/Privacy/gdpr/default.aspx)
+- [Microsoft 보안 센터](https://www.microsoft.com/trust-center/privacy/gdpr-overview)

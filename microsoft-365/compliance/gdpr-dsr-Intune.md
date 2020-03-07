@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 4ed49de0254fb834f84816236c2925791076f423
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 3d30b2187199b223086d53a144d711537fd7e59d
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42073345"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42557998"
 ---
 # <a name="intune-data-subject-requests-for-the-gdpr-and-ccpa"></a>GDPR 및 CCPA에 대한 Intune 데이터 주체 요청
 
@@ -127,4 +127,4 @@ Azure Portal에서 데이터를 내보내거나 삭제하는 동안 문제가 �
 
 ## <a name="learn-more"></a>자세한 정보
 
-- [Microsoft 보안 센터](https://www.microsoft.com/TrustCenter/Privacy/gdpr/default.aspx)
+- [Microsoft 보안 센터](https://www.microsoft.com/trust-center/privacy/gdpr-overview)

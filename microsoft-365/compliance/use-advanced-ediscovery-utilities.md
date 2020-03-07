@@ -16,14 +16,14 @@ search.appverid:
 - MET150
 ms.assetid: 66ca9993-75f4-4724-aea2-5a0719b660c1
 description: '사례 로그, 데이터 지우기, 프로세스 오류, 수정 관련성 및 투명도 분석을 포함 하 여 Office 365 Advanced eDiscovery의 유틸리티에 대해 알아봅니다.  '
-ms.openlocfilehash: 3952d1ec58b3f55f997079cec16f16ddb301ed89
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: ce8eb00382bd6ff0514dfef99d18a8e4b2679cec
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601335"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42557658"
 ---
-# <a name="use-office-365-advanced-ediscovery-utilities"></a>Office 365 Advanced eDiscovery 유틸리티 사용
+# <a name="use-advanced-ediscovery-classic-utilities"></a>클래식 (Advanced eDiscovery) 유틸리티 사용
 
 > [!NOTE]
 > Advanced eDiscovery를 사용하려면 Office 365 E3의 고급 준수 추가 기능이나 조직을 위한 E5 구독이 필요합니다. 이 요금제가 없는 상태에서 Advanced eDiscovery를 사용하려는 경우에는 [Office 365 Enterprise E5 평가판을 등록](https://go.microsoft.com/fwlink/p/?LinkID=698279)할 수 있습니다. 
@@ -109,7 +109,7 @@ ms.locfileid: "41601335"
     
 ## <a name="see-also"></a>참고 항목
 
-[Office 365 Advanced eDiscovery](office-365-advanced-ediscovery.md)
+[고급 eDiscovery (클래식)](office-365-advanced-ediscovery.md)
   
 [사례 및 테 넌 트 설정 정의](define-case-and-tenant-settings-in-advanced-ediscovery.md)
 

@@ -16,14 +16,14 @@ search.appverid:
 - MET150
 ms.assetid: b270243e-99a0-4c34-9b21-acb1512d56c6
 description: '보고서를 실행 하는 방법을 알아보고 Office 365 Advanced eDiscovery에서 해당 .csv 파일을 다운로드 합니다.  '
-ms.openlocfilehash: badc657e100961ba89de6a49349b7016ae790b09
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 1ca01fc0ab77ec0a727029c3f8ef680a56f9c5c6
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42069993"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42557838"
 ---
-# <a name="run-reports-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery에서 보고서 실행
+# <a name="run-reports-in-advanced-ediscovery-classic"></a>Advanced eDiscovery에서 보고서 실행 (클래식)
 
 > [!NOTE]
 > Advanced eDiscovery를 사용하려면 Office 365 E3의 고급 준수 추가 기능이나 조직을 위한 E5 구독이 필요합니다. 이 요금제가 없는 상태에서 Advanced eDiscovery를 사용하려는 경우에는 [Office 365 Enterprise E5 평가판을 등록](https://go.microsoft.com/fwlink/p/?LinkID=698279)할 수 있습니다. 
@@ -44,5 +44,4 @@ ms.locfileid: "42069993"
     
 ## <a name="see-also"></a>참고 항목
 
-[Office 365 Advanced eDiscovery](office-365-advanced-ediscovery.md)
-
+[고급 eDiscovery (클래식)](office-365-advanced-ediscovery.md)

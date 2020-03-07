@@ -16,14 +16,14 @@ search.appverid:
 - MET150
 ms.assetid: 35d52b41-75ab-4144-9edf-31e11453bd5d
 description: '선택한 배치 내보내기 세션에 대 한 자세한 정보를 확인 하는 방법과 Office 365 Advanced eDiscovery에서 마지막 내보내기 세션을 실행 취소 하는 방법에 대해 알아봅니다.  '
-ms.openlocfilehash: a13faf7a0c81eb22498239b5ac9f26cce52387f6
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: de7366e1eb43c276899ecf35339c0443fad4879d
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42069133"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42557616"
 ---
-# <a name="view-batch-history-and-export-past-results-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery에서 일괄 처리 기록 보기 및 이전 결과 내보내기
+# <a name="view-batch-history-and-export-past-results-in-advanced-ediscovery-classic"></a>고급 eDiscovery에서 일괄 처리 기록 보기 및 이전 결과 내보내기 (클래식)
 
 > [!NOTE]
 > Advanced eDiscovery를 사용하려면 Office 365 E3의 고급 준수 추가 기능이나 조직을 위한 E5 구독이 필요합니다. 이 요금제가 없는 상태에서 Advanced eDiscovery를 사용하려는 경우에는 [Office 365 Enterprise E5 평가판을 등록](https://go.microsoft.com/fwlink/p/?LinkID=698279)할 수 있습니다. 
@@ -62,7 +62,7 @@ ms.locfileid: "42069133"
     
 ## <a name="see-also"></a>참고 항목
 
-[Office 365 Advanced eDiscovery](office-365-advanced-ediscovery.md)
+[고급 eDiscovery (클래식)](office-365-advanced-ediscovery.md)
   
 [결과 내보내기](export-results-in-advanced-ediscovery.md)
 

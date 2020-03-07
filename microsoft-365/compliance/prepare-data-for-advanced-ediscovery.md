@@ -16,19 +16,19 @@ search.appverid:
 - MET150
 ms.assetid: 2fb94c23-1846-4a0e-994d-da6d02445f15
 description: 'Microsoft 365 보안 &amp; 규정 준수 센터에서 Office 365 Advanced eDiscovery를 사용하여 Office 365 데이터를 분석할 수 있도록 준비하는 방법을 알아봅니다. '
-ms.openlocfilehash: 028cdb48e5ece2509d175a363c19beb6c2fafa19
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 44ccb6250e28e0fa75f6d1a037236a100fca102c
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42071035"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42557868"
 ---
-# <a name="prepare-data-for-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery에 대한 데이터 준비
+# <a name="prepare-data-for-advanced-ediscovery-classic"></a>고급 eDiscovery에 대 한 데이터 준비 (클래식)
 
-이 항목에서는 Advanced eDiscovery에서 콘텐츠 검색 결과를 사례에 로드하는 방법에 대해 설명합니다. 
+이 항목에서는 Advanced eDiscovery (클래식)에서 사례에 대 한 콘텐츠 검색 결과를 로드 하는 방법에 대해 설명 합니다. 
   
 > [!IMPORTANT]
-> 최신 버전의 Advanced eDiscovery에 계속 투자함에 따라, Office 365 Advanced eDiscovery(*Advanced eDiscovery v1.0*이라고도 함)를 발표합니다. Advanced eDiscovery v1.0을 계속 사용하고 있는 경우 [Advanced eDiscovery v2.0](overview-ediscovery-20.md)(*Advanced eDiscovery solution in Microsoft 365*라고도 함)으로 전환하세요. Advanced eDiscovery 2.0에는 Advanced eDiscovery v1.0에 있는 유사한 기능이 포함되어 있습니다. 또한 보유자 관리, 통신 관리, 검토 집합 등의 새로운 기능도 제공합니다. Advanced eDiscovery v1.0의 사용 중지에 대한 자세한 내용은 [레거시 eDiscovery 도구의 사용 중지](legacy-ediscovery-retirement.md#advanced-ediscovery-v10)를 참조하세요.  
+> 최신 버전의 Advanced eDiscovery에 계속 투자 하는 경우에는 *고급 ediscovery (클래식)* 또는 *advanced ediscovery v 1.0*이 라고도 하는 Office 365 Advanced ediscovery의 만료를 발표 하 고 있습니다. Advanced eDiscovery v1.0을 계속 사용하고 있는 경우 [Advanced eDiscovery v2.0](overview-ediscovery-20.md)(*Advanced eDiscovery solution in Microsoft 365*라고도 함)으로 전환하세요. Advanced eDiscovery 2.0에는 Advanced eDiscovery v1.0에 있는 유사한 기능이 포함되어 있습니다. 또한 보유자 관리, 통신 관리, 검토 집합 등의 새로운 기능도 제공합니다. Advanced eDiscovery v1.0의 사용 중지에 대한 자세한 내용은 [레거시 eDiscovery 도구의 사용 중지](legacy-ediscovery-retirement.md#advanced-ediscovery-v10)를 참조하세요.  
   
 ## <a name="step-1-prepare-office-365-data-for-advanced-ediscovery"></a>1단계: Advanced eDiscovery에 사용하도록 Office 365 데이터 준비
 
@@ -67,7 +67,7 @@ Advanced eDiscovery에서 보안 &amp; 규정 준수 센터의 검색 결과를 
   
 ## <a name="see-also"></a>참고 항목
 
-[Office 365 Advanced eDiscovery](office-365-advanced-ediscovery.md)
+[고급 eDiscovery (클래식)](office-365-advanced-ediscovery.md)
   
 [사용자 및 사례 설정](set-up-users-and-cases-in-advanced-ediscovery.md)
   

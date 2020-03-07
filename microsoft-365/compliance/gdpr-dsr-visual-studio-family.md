@@ -18,12 +18,12 @@ ms.collection:
 ms.workload:
 - multiple
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 159e7a69f0714b93913c36d745641485d7c80798
-ms.sourcegitcommit: 48b69caf6550e68cb14472ea8cfc76b53e7ae9c6
+ms.openlocfilehash: 81dfd4b0c0724e2ab40113c1d134e0932c215c8f
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42225511"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42557988"
 ---
 # <a name="visual-studio-family-data-subject-requests-for-the-gdpr-and-ccpa"></a>GDPR 및 CCPA에 대한 Visual Studio 제품군 데이터 주체 요청
 
@@ -217,7 +217,7 @@ IIS.NET 웹사이트에 대한 DSR의 자세한 내용은 [IIS.NET 웹사이트 
 ## <a name="learn-more"></a>자세한 정보
 
 - [일반적으로 사용할 수 있는 엔터프라이즈 소프트웨어 제품의 고객에 대한 Microsoft의 GDPR 약속](https://docs.microsoft.com/legal/gdpr)
-- [Microsoft 보안 센터](https://www.microsoft.com/TrustCenter/Privacy/gdpr/default.aspx)
+- [Microsoft 보안 센터](https://www.microsoft.com/trust-center/privacy/gdpr-overview)
 - [서비스 보안 포털](https://servicetrust.microsoft.com/ViewPage/GDPRGetStarted)
 - [Microsoft 개인 정보 대시보드](https://account.microsoft.com/privacy)
 - [Microsoft 개인 정보 응답 센터](https://aka.ms/userprivacysite)

@@ -17,17 +17,17 @@ ms.collection:
 search.appverid: MOE150
 ms.assetid: 0b6fac2d-8627-4b05-9df0-03609db6248b
 description: Advanced eDiscovery 도구로 추가 분석을 위해 Office 365의 보안 & 준수 센터에서 콘텐츠 검색 결과를 준비 하는 방법을 알아봅니다.
-ms.openlocfilehash: 3ba115cf45aa3be7b9cb43b3a261687e073edba2
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 01a09da78198c31ff88b0e539ae9b149b2fbdd02
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42071021"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42557858"
 ---
-# <a name="prepare-search-results-for-office-365-advanced-ediscovery"></a>Office 365 고급 eDiscovery 검색 결과 준비
+# <a name="prepare-search-results-for-advanced-ediscovery-classic"></a>고급 eDiscovery에 대 한 검색 결과 준비 (클래식)
 
 > [!IMPORTANT]
-> 최신 버전의 Advanced eDiscovery에 계속 투자함에 따라, Office 365 Advanced eDiscovery(*Advanced eDiscovery v1.0*이라고도 함)를 발표합니다. Advanced eDiscovery v1.0을 계속 사용하고 있는 경우 [Advanced eDiscovery v2.0](overview-ediscovery-20.md)(*Advanced eDiscovery solution in Microsoft 365*라고도 함)으로 전환하세요. Advanced eDiscovery 2.0에는 Advanced eDiscovery v1.0에 있는 유사한 기능이 포함되어 있습니다. 또한 보유자 관리, 통신 관리, 검토 집합 등의 새로운 기능도 제공합니다. Advanced eDiscovery v1.0의 사용 중지에 대한 자세한 내용은 [레거시 eDiscovery 도구의 사용 중지](legacy-ediscovery-retirement.md#advanced-ediscovery-v10)를 참조하세요. 
+> 최신 버전의 Advanced eDiscovery에 계속 투자 하는 경우에는 *고급 ediscovery (클래식)* 또는 *advanced ediscovery v 1.0*이 라고도 하는 Office 365 Advanced ediscovery의 만료를 발표 하 고 있습니다. Advanced eDiscovery v1.0을 계속 사용하고 있는 경우 [Advanced eDiscovery v2.0](overview-ediscovery-20.md)(*Advanced eDiscovery solution in Microsoft 365*라고도 함)으로 전환하세요. Advanced eDiscovery 2.0에는 Advanced eDiscovery v1.0에 있는 유사한 기능이 포함되어 있습니다. 또한 보유자 관리, 통신 관리, 검토 집합 등의 새로운 기능도 제공합니다. Advanced eDiscovery v1.0의 사용 중지에 대한 자세한 내용은 [레거시 eDiscovery 도구의 사용 중지](legacy-ediscovery-retirement.md#advanced-ediscovery-v10)를 참조하세요. 
 
 보안 & 준수 센터에서 eDiscovery 사례와 관련 된 검색을 성공적으로 실행 한 후에는 Office 365 Advanced eDiscovery를 사용 하 여 검색 결과를 준비 하 고, 구조화 되지 않은 대규모 데이터 집합을 분석 하 고 법적 사례와 관련 된 데이터의 양을 줄일 수 있습니다. 고급 eDiscovery 기능에는 다음이 포함 됩니다.
   
@@ -110,7 +110,7 @@ EDiscovery 사례와 연결 된 검색의 결과를 준비할 수 있습니다. 
     
 ## <a name="next-steps"></a>다음 단계
 
-EDiscovery 검색의 결과를 사례에 추가한 후에는 고급 eDiscovery 도구를 사용 하 여 데이터를 분석 하 고 특정 법적 사례에 대응 되는 콘텐츠를 식별 합니다. 고급 eDiscovery를 사용 하는 방법에 대 한 자세한 내용은 [Office 365 Advanced eDiscovery](office-365-advanced-ediscovery.md)를 참조 하세요.
+EDiscovery 검색의 결과를 사례에 추가한 후에는 고급 eDiscovery 도구를 사용 하 여 데이터를 분석 하 고 특정 법적 사례에 대응 되는 콘텐츠를 식별 합니다. 고급 eDiscovery를 사용 하는 방법에 대 한 자세한 내용은 [Advanced ediscovery (클래식)](office-365-advanced-ediscovery.md)을 참조 하십시오.
   
 ## <a name="more-information"></a>추가 정보
 

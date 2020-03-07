@@ -16,14 +16,14 @@ search.appverid:
 - MET150
 ms.assetid: f6cd6588-f6b6-424a-a9ab-3782b842faee
 description: '유사 복제, 전자 메일 스레드 및 테마를 포함 하 여 Office 365 Advanced eDiscovery의 분석 프로세스에 대 한 옵션을 설정 하는 단계를 검토 합니다.  '
-ms.openlocfilehash: c32a63ee538522a5314a74be6248f253f70f279e
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 8897099d7531b48f7c6618c106eeb6f051dac546
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42081162"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42557788"
 ---
-# <a name="set-analyze-options-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery에서 분석 옵션 설정
+# <a name="set-analyze-options-in-advanced-ediscovery-classic"></a>고급 eDiscovery에서 분석 옵션 설정 (클래식)
 
 > [!NOTE]
 > Advanced eDiscovery를 사용하려면 Office 365 E3의 고급 준수 추가 기능이나 조직을 위한 E5 구독이 필요합니다. 이 요금제가 없는 상태에서 Advanced eDiscovery를 사용하려는 경우에는 [Office 365 Enterprise E5 평가판을 등록](https://go.microsoft.com/fwlink/p/?LinkID=698279)할 수 있습니다. 
@@ -78,7 +78,7 @@ ms.locfileid: "42081162"
   
 ## <a name="see-also"></a>참고 항목
 
-[Office 365 Advanced eDiscovery](office-365-advanced-ediscovery.md)
+[고급 eDiscovery (클래식)](office-365-advanced-ediscovery.md)
   
 [문서 유사성 이해](understand-document-similarity-in-advanced-ediscovery.md)
   

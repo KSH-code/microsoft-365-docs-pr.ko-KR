@@ -16,12 +16,12 @@ ms.collection:
 - GDPR
 - M365-security-compliance
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 0bd09751ae3da311b753906b9c341a52a93b14f6
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 2b8bfa67a8af8686627e239b06c1025c3e8f3137
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41596385"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42557948"
 ---
 # <a name="information-protection-for-gdpr-with-microsoft-365-capabilities"></a>Microsoft 365 기능을 사용한 GDPR에 대한 정보 보호
 
@@ -60,4 +60,5 @@ Microsoft에서는 시작점으로 사용할 수 있는 권장 구성을 제공�
 - [Windows 위협 보호](https://docs.microsoft.com/windows/security/threat-protection/). Windows Defender Advanced Threat Protection 및 Windows 10의 기타 기능에 대해 자세히 알아봅니다.
 
 ## <a name="learn-more"></a>자세한 정보
-[Microsoft 보안 센터](https://www.microsoft.com/TrustCenter/Privacy/gdpr/default.aspx)
+
+[Microsoft 보안 센터](https://www.microsoft.com/trust-center/privacy/gdpr-overview)

@@ -15,14 +15,14 @@ search.appverid:
 - MET150
 ms.assetid: a9951a07-10b3-48cb-b37a-0ffaa24931ad
 description: '내보내기 일괄 처리에 대 한 매개 변수를 지정 하는 절차를 포함 하 여 Office 365 Advanced eDiscovery에서 결과를 내보내기 위한 옵션을 정의 하는 방법을 알아봅니다. '
-ms.openlocfilehash: 9194bc9dc44587fb03798c2107c408d2afb2ae70
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: e439753b427a4e4a90e219912f8d3c1fcf4cfff3
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42074329"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42558199"
 ---
-# <a name="export-results-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery에서 결과 내보내기
+# <a name="export-results-in-advanced-ediscovery-classic"></a>Advanced eDiscovery에서 결과 내보내기 (클래식)
 
 > [!NOTE]
 > Advanced eDiscovery를 사용하려면 Office 365 E3의 고급 준수 추가 기능이나 조직을 위한 E5 구독이 필요합니다. 이 요금제가 없는 상태에서 Advanced eDiscovery를 사용하려는 경우에는 [Office 365 Enterprise E5 평가판을 등록](https://go.microsoft.com/fwlink/p/?LinkID=698279)할 수 있습니다. 
@@ -194,7 +194,7 @@ EDiscovery 내보내기 도구는 고급 eDiscovery의 검색 결과를 로컬 �
    
 ## <a name="see-also"></a>참고 항목
 
-[Office 365 Advanced eDiscovery](office-365-advanced-ediscovery.md)
+[고급 eDiscovery (클래식)](office-365-advanced-ediscovery.md)
   
 [일괄 처리 기록 보기 및 이전 결과 내보내기](view-batch-history-and-export-past-results.md)
   

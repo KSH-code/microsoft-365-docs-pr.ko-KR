@@ -15,19 +15,19 @@ search.appverid:
 - MET150
 ms.assetid: 60ffd80b-4376-419d-b6e4-a72029b9907c
 description: 'Office 365 Advanced eDiscovery에서 사용자 역할을 구성 하 고 사례를 만들고 사용자를 사례에 할당 하는 방법에 대해 알아봅니다.  '
-ms.openlocfilehash: 754cc7d73fc3325c2525e3101d1378d55afea4de
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 76d5e6ab503cc053e31811cc06ac12545a9eeb7e
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601455"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42557758"
 ---
-# <a name="set-up-users-and-cases-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery에서 사용자 및 사례 설정
+# <a name="set-up-users-and-cases-in-advanced-ediscovery-classic"></a>고급 eDiscovery에서 사용자 및 사례 설정 (클래식)
 
-이 항목에서는 Office 365 Advanced eDiscovery에 대 한 사용자 및 사례를 설정 하는 방법에 대해 설명 합니다.
+이 항목에서는 고급 eDiscovery (클래식)에 대 한 사용자 및 사례를 설정 하는 방법에 대해 설명 합니다.
   
 > [!IMPORTANT]
-> 최신 버전의 Advanced eDiscovery에 계속 투자 하면 Office 365 Advanced eDiscovery ( *고급 ediscovery v 1.0*이 라고도 함)가 만료 됨을 알리는 것입니다. 여전히 고급 eDiscovery v 1.0을 사용 중인 경우에는 가능한 한 빨리 [Advanced ediscovery v 2.0](overview-ediscovery-20.md) ( *Microsoft 365의 고급 ediscovery 솔루션*이 라고도 함)으로 전환 하세요. Advanced eDiscovery 2.0에는 Advanced eDiscovery v 1.0과 비슷한 기능이 포함 되어 있지만 custodian 관리, 통신 관리 및 검토 집합과 같은 다양 한 새로운 기능도 제공 됩니다. Advanced eDiscovery v 1.0의 만료에 대 한 자세한 내용은 [레거시 ediscovery 도구 만료](legacy-ediscovery-retirement.md#advanced-ediscovery-v10)를 참조 하세요. 
+> 최신 버전의 Advanced eDiscovery에 계속 투자 하는 경우에는 *고급 ediscovery (클래식)* 또는 *advanced ediscovery v 1.0*이 라고도 하는 Office 365 Advanced ediscovery의 만료를 발표 하 고 있습니다. Advanced eDiscovery v1.0을 계속 사용하고 있는 경우 [Advanced eDiscovery v2.0](overview-ediscovery-20.md)(*Advanced eDiscovery solution in Microsoft 365*라고도 함)으로 전환하세요. Advanced eDiscovery 2.0에는 Advanced eDiscovery v1.0에 있는 유사한 기능이 포함되어 있습니다. 또한 보유자 관리, 통신 관리, 검토 집합 등의 새로운 기능도 제공합니다. Advanced eDiscovery v1.0의 사용 중지에 대한 자세한 내용은 [레거시 eDiscovery 도구의 사용 중지](legacy-ediscovery-retirement.md#advanced-ediscovery-v10)를 참조하세요. 
   
 ## <a name="prerequisites"></a>필수 구성 요소
 
@@ -61,7 +61,7 @@ EDiscovery 사례를 만들고 구성원을 추가 하 고 나면 사용자 (또
   
 ## <a name="see-also"></a>참고 항목
 
-[Office 365 Advanced eDiscovery](office-365-advanced-ediscovery.md)
+[고급 eDiscovery (클래식)](office-365-advanced-ediscovery.md)
   
 [데이터 준비](prepare-data-for-advanced-ediscovery.md)
  

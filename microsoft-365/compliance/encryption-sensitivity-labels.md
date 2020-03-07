@@ -16,11 +16,11 @@ search.appverid:
 - MET150
 description: 민감한 레이블을 만들면 레이블이 적용되는 콘텐츠에 대한 액세스를 제한할 수 있습니다. 민감도 레이블에서 암호화를 사용하여 내용을 보호할 수 있습니다.
 ms.openlocfilehash: a8418a85c6d936fbe49deb2f11caacf67a2ce407
-ms.sourcegitcommit: cf07dfccec476ac2526a6171ec6b6365686f759f
+ms.sourcegitcommit: 6c8edbc54b193e964cf93aec48c51cb79231f1d9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/29/2020
-ms.locfileid: "42341275"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42543827"
 ---
 # <a name="restrict-access-to-content-by-using-sensitivity-labels-to-apply-encryption"></a>민감도 레이블을 사용하여 암호화를 적용하여 콘텐츠 액세스 제한 
 

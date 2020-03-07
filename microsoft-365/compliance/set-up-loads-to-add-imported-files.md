@@ -16,14 +16,14 @@ search.appverid:
 - MET150
 ms.assetid: 0e0a9d04-294f-4f54-8bf1-b32d81345126
 description: 'Office 365 Advanced eDiscovery에서 관련성 훈련을 수행 하기 전에 가져온 파일을 마지막으로 정의한 부하 또는 일괄 파일에 추가 하는 단계를 검토 합니다.  '
-ms.openlocfilehash: e9179878d085840fcfb93dacc79ac3f776f1f041
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 3dd302e107b10726dd0110dfcb19bf59a3703add
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42081102"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42557768"
 ---
-# <a name="set-up-loads-to-add-imported-files-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery에서 가져온 파일을 추가 하도록 로드 설정
+# <a name="set-up-loads-to-add-imported-files-in-advanced-ediscovery-classic"></a>고급 eDiscovery에서 가져온 파일을 추가 하도록 로드 설정 (클래식)
 
 > [!NOTE]
 > Advanced eDiscovery를 사용하려면 Office 365 E3의 고급 준수 추가 기능이나 조직을 위한 E5 구독이 필요합니다. 이 요금제가 없는 상태에서 Advanced eDiscovery를 사용하려는 경우에는 [Office 365 Enterprise E5 평가판을 등록](https://go.microsoft.com/fwlink/p/?LinkID=698279)할 수 있습니다. 
@@ -138,7 +138,7 @@ ms.locfileid: "42081102"
     
 ## <a name="see-also"></a>참고 항목
 
-[Office 365 Advanced eDiscovery](office-365-advanced-ediscovery.md)
+[고급 eDiscovery (클래식)](office-365-advanced-ediscovery.md)
   
 [문제 정의 및 사용자 할당](define-issues-and-assign-users.md)
   

@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: a797682f-ad85-4c08-a354-3850ba2237ee
 description: 'Office 365 Advanced eDiscovery의 분석 프로세스에 대해 거의 중복, 전자 메일 스레드 및 테마를 포함 하 여 고급 설정을 구성 하는 방법을 알아봅니다. '
-ms.openlocfilehash: f2f882f5c5b2bbaf3144d3979455387a4471280c
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: effb573165abea0d4f9939fbf7c367cbdf333f57
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42081273"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42557798"
 ---
 # <a name="set-analyze-advanced-settings-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery에서 분석 고급 설정에 대 한 설정
 
@@ -48,7 +48,7 @@ Advanced eDiscovery는 모듈 설정 분석을 위한 기본 고급 매개 변�
     
 ## <a name="see-also"></a>참고 항목
 
-[Office 365 Advanced eDiscovery](office-365-advanced-ediscovery.md)
+[고급 eDiscovery (클래식)](office-365-advanced-ediscovery.md)
   
 [문서 유사성 이해](understand-document-similarity-in-advanced-ediscovery.md)
   

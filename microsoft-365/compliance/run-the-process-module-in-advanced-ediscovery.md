@@ -16,14 +16,14 @@ search.appverid:
 - MET150
 ms.assetid: dbc1e251-0596-443b-ac9b-f398ba955b73
 description: 'Office 365 Advanced eDiscovery를 사용 하 여 분석을 위해 Office 365 데이터의 사례 파일을 준비 하기 위한 지침을 알아봅니다.  '
-ms.openlocfilehash: 779f9ae4f93933063139b2d7d65deb2500b263e1
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: eb608eeac33e0d5d06dce9d0c35cd86f4e0bc280
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597585"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42557818"
 ---
-# <a name="run-the-process-module-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery에서 프로세스 모듈 실행
+# <a name="run-the-process-module-in-advanced-ediscovery-classic"></a>고급 eDiscovery에서 프로세스 모듈 실행 (클래식)
 
 사례 파일은 **준비** \> **프로세스**중에 고급 eDiscovery에 로드 됩니다. 
   
@@ -74,7 +74,7 @@ ms.locfileid: "41597585"
   
 ## <a name="see-also"></a>참고 항목
 
-[Office 365 Advanced eDiscovery](office-365-advanced-ediscovery.md)
+[고급 eDiscovery (클래식)](office-365-advanced-ediscovery.md)
   
 [프로세스 모듈 실행 및 데이터 로드](run-the-process-module-and-load-data-in-advanced-ediscovery.md)
   

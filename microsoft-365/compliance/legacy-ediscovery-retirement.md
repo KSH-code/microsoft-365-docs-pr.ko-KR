@@ -13,11 +13,11 @@ ms.collection: M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
 description: Exchange Online의 원본 위치 eDiscovery 및 원본 위치 유지 및 해당 PowerShell cmdlet은 2020의 처음 절반에서 만료 됩니다. 검색 사서함 cmdlet 및 Office 365 Advanced eDiscovery v 1.0은 동일한 기간 내에도 폐기 됩니다.
 ms.openlocfilehash: 0ce85a1c73de38f0032f3e667add77a424d5486e
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.sourcegitcommit: 6c8edbc54b193e964cf93aec48c51cb79231f1d9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600565"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42543219"
 ---
 # <a name="retirement-of-legacy-ediscovery-tools"></a>레거시 eDiscovery 도구 만료
 
@@ -71,7 +71,7 @@ Microsoft 365 준수 센터에서 새롭게 향상 된 eDiscovery 기능을 사�
 
 - Office 365 및 Microsoft 365 정부 기관 여기에는 GCC, GCC High 및 DoD가 포함 됩니다.
 
-- Office 365 Germany
+- Office 365 독일
 
 ### <a name="timeline-for-retirement"></a>만료에 대 한 시간 표시 막대
 
@@ -168,7 +168,7 @@ Exchange 관리 센터에서 2017 년 7 월 1 일에 발표 된 원래 공지와
 
 - Office 365 및 Microsoft 365 정부 기관 여기에는 GCC, GCC High 및 DoD가 포함 됩니다.
 
-- Office 365 Germany
+- Office 365 독일
 
 ### <a name="timeline"></a>시간 표시 막대
 
@@ -242,7 +242,7 @@ Exchange Online PowerShell의 **검색 사서함** cmdlet은 처음에 2018에�
 
 - Office 365 및 Microsoft 365 정부 기관 여기에는 GCC, GCC High 및 DoD가 포함 됩니다.
 
-- Office 365 Germany
+- Office 365 독일
 
 ### <a name="timeline"></a>시간 표시 막대
 
@@ -297,7 +297,7 @@ Exchange Online PowerShell의 **검색 사서함** cmdlet은 처음에 2018에�
 
 - Office 365 및 Microsoft 365 정부 기관 여기에는 GCC, GCC High 및 DoD가 포함 됩니다.
 
-- Office 365 Germany
+- Office 365 독일
 
 ### <a name="timeline"></a>시간 표시 막대
 
@@ -317,7 +317,7 @@ Microsoft 365 ( *Advanced eDiscovery v 2.0*이 라고도 함)의 새로운 고�
 
 - Office 365 및 Microsoft 365 교육 기관
 
-- Office 365 Germany
+- Office 365 독일
 
 ### <a name="timeline"></a>시간 표시 막대
 

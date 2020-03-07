@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: 211c5c90-9719-4d73-9ad9-1925bb80f5f6
 description: Microsoft 365 Business를 사용 하 여 GDPR (일반 데이터 보호 규정) 프로세스를 지원 하는 방법을 알아봅니다.
-ms.openlocfilehash: 1d3b3485625996c0840a630c1b903c866bd01dbe
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 1a2df3fb52536cd2caca247332bc1c54fbdbe668
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42257213"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42556966"
 ---
 # <a name="gdpr-simplified-a-guide-for-your-small-business"></a>GDPR 간소화: 소규모 기업에 대 한 가이드
 
@@ -157,7 +157,8 @@ GDPR을 준비 하려면 다음 단계를 수행 하기 위한 몇 가지 제안
   
 ## <a name="additional-resources"></a>추가 리소스
 
-[GDPR에 대 한 Microsoft 보안 센터 개요](https://www.microsoft.com/TrustCenter/Privacy/gdpr/default.aspx)
+[GDPR에 대 한 Microsoft 보안 센터 개요](https://www.microsoft.com/trust-center/privacy/gdpr-overview
+)
   
 공식 Microsoft 블로그: [GDPR에 대 한 microsoft 약정](https://blogs.microsoft.com/on-the-issues/2018/05/21/microsofts-commitment-to-gdpr-privacy-and-putting-customers-in-control-of-their-own-data/)
   

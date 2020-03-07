@@ -15,14 +15,14 @@ search.appverid:
 - MET150
 ms.assetid: 383809de-7f5e-4a1d-9098-c525f67b7a9a
 description: 'Office 365 Advanced eDiscovery의 사례 수준에서 정의할 수 있는 레이블, 모듈 간 및 테 넌 트 설정에 대해 알아봅니다.  '
-ms.openlocfilehash: 2d482c7409c546042488ba4f0c7cc74571152e86
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 3f206feaa48f13db48552fb7d1be1445609edeae
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595375"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42556946"
 ---
-# <a name="define-case-and-tenant-settings-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery에서 사례 및 테 넌 트 설정 정의
+# <a name="define-case-and-tenant-settings-in-advanced-ediscovery-classic"></a>고급 eDiscovery에서 사례 및 테 넌 트 설정 정의 (클래식)
 
 > [!NOTE]
 > Advanced eDiscovery를 사용하려면 Office 365 E3의 고급 준수 추가 기능이나 조직을 위한 E5 구독이 필요합니다. 이 요금제가 없는 상태에서 Advanced eDiscovery를 사용하려는 경우에는 [Office 365 Enterprise E5 평가판을 등록](https://go.microsoft.com/fwlink/p/?LinkID=698279)할 수 있습니다. 
@@ -90,7 +90,7 @@ Advanced eDiscovery 버전 시스템 정보 및 활성 작업이 테 넌 트 설
   
 ## <a name="see-also"></a>참고 항목
 
-[Office 365 Advanced eDiscovery](office-365-advanced-ediscovery.md)
+[고급 eDiscovery (클래식)](office-365-advanced-ediscovery.md)
   
 [유틸리티 사용](use-advanced-ediscovery-utilities.md)
 

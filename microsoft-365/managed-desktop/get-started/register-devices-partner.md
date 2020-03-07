@@ -7,12 +7,12 @@ f1.keywords:
 - NOCSH
 ms.author: jaimeo
 ms.localizationpriority: medium
-ms.openlocfilehash: a9a2a0ccb1e0830d674f4b1b1ef5495fafb38ca3
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: dc446281e8a791b59a9ac97592ff6a53dcde310c
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41596555"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42557566"
 ---
 # <a name="steps-for-partners-to-register-devices"></a>파트너가 장치를 등록하기 위한 단계
 
@@ -27,7 +27,7 @@ ms.locfileid: "41596555"
 고객에 대 한 등록을 완료 하려면 먼저 CSV 파일을 만듭니다.
 
 >[!NOTE]
->편의상이 *파트너 버전*에 대 한 [예제 CSV 파일](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-started/downloads/device-registration-sample-self.csv) 을 다운로드할 수 있습니다.
+>편의상이 *파트너 버전*에 대 한 [예제 CSV 파일](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/get-started/downloads/device-registration-sample-partner.csv) 을 다운로드할 수 있습니다.
 
 샘플 1과 **정확히 같은 열 머리글** 을 포함 해야 하지만 (제조업체, 모델 등), 다른 행에 대 한 고유한 데이터를 포함할 수 있습니다. 서식 파일을 사용 하는 경우 메모장 등의 텍스트 편집 도구에서이 템플릿을 열고 행 2와 아래에 데이터만 입력 하는 것이 좋습니다. 
     
@@ -53,7 +53,7 @@ ms.locfileid: "41596555"
 
 ## <a name="register-devices-by-using-the-azure-portal"></a>Azure Portal을 사용 하 여 장치 등록
 
-Azure Portal을 사용 하 여 등록 하는 것은 다른 방법으로 포털에 액세스 하는 것을 제외 하 고 셀프 서비스와 동일 합니다. 다음 단계를 따릅니다:
+Azure Portal을 사용 하 여 등록 하는 것은 다른 방법으로 포털에 액세스 하는 것을 제외 하 고 셀프 서비스와 동일 합니다. 다음 단계를 따릅니다.
 
 1. [파트너 센터로](https://partner.microsoft.com/dashboard) 이동
 2. **고객**을 선택 합니다.

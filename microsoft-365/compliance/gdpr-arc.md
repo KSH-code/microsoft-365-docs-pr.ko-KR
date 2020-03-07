@@ -15,12 +15,12 @@ ms.collection:
 - GDPR
 - M365-security-compliance
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: bb4056b90afc8805d4e56b9b73c0c7d118d6f08c
-ms.sourcegitcommit: 2498cd4af90c31771167a1be9f8f12a96dc6500f
+ms.openlocfilehash: b34221c45acc3d2918ed1a397e9e1ff0e726c152
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41916893"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42558128"
 ---
 # <a name="support-your-gdpr-program-with-accountability-readiness-checklists"></a>책임 준비 상태 검사 목록으로 GDPR 프로그램 지원
 
@@ -77,4 +77,4 @@ GDPR 타일의 고객 관리 컨트롤에서 컨트롤 ID 및 컨트롤 제목�
 
 ## <a name="learn-more"></a>자세히 알아보기
 
-- [Microsoft 보안 센터](https://www.microsoft.com/TrustCenter/Privacy/gdpr/default.aspx)
+- [Microsoft 보안 센터](https://www.microsoft.com/trust-center/privacy/gdpr-overview)

@@ -15,14 +15,14 @@ search.appverid:
 - MET150
 ms.assetid: 48d37ee7-05bd-4cb8-9723-a8959ad23fbe
 description: Office 365 Advanced eDiscovery에서 문제점을 추가 하거나 편집 하 여 사용자 할당을 포함 하거나 eDiscovery 사례에 대 한 문제를 삭제 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: d0777f6829944a6f64c71bda805edd1b5d55de4b
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 5c7c15b765a0c129e8a58533951b6569b8766b45
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42075900"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42556976"
 ---
-# <a name="define-issues-and-assign-users-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery에서 문제점 정의 및 사용자 할당
+# <a name="define-issues-and-assign-users-in-advanced-ediscovery-classic"></a>고급 eDiscovery에서 문제 정의 및 사용자 지정 (클래식)
 
 > [!NOTE]
 > Advanced eDiscovery를 사용하려면 Office 365 E3의 고급 준수 추가 기능이나 조직을 위한 E5 구독이 필요합니다. 이 요금제가 없는 상태에서 Advanced eDiscovery를 사용하려는 경우에는 [Office 365 Enterprise E5 평가판을 등록](https://go.microsoft.com/fwlink/p/?LinkID=698279)할 수 있습니다. 
@@ -76,7 +76,7 @@ ms.locfileid: "42075900"
     
 ## <a name="see-also"></a>참고 항목
 
-[Office 365 Advanced eDiscovery](office-365-advanced-ediscovery.md)
+[고급 eDiscovery (클래식)](office-365-advanced-ediscovery.md)
   
 [가져온 파일을 추가하도록 로드 설정](set-up-loads-to-add-imported-files.md)
   

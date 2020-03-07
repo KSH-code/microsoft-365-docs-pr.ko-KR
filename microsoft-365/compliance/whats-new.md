@@ -17,12 +17,12 @@ ms.assetid: e3c6df61-8513-499d-ad8e-8a91770bff63
 ms.collection:
 - M365-security-compliance
 description: Microsoft 365 준수 센터에 지속적으로 새로운 기능을 추가 하 고, 문제를 해결 하 고, 사용자 의견에 따라 변경 사항을 적용 하 고 있습니다. 이번 달에 제공 된 내용을 확인 합니다.
-ms.openlocfilehash: 042e95d19ef44eef8dfdfef24a996606c9d0e00c
-ms.sourcegitcommit: b567e946b57697186267cdfe303dfe3463cfd6ba
+ms.openlocfilehash: 1f92267e9f0e7ed720983ebe58e524485a130506
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/06/2020
-ms.locfileid: "42552042"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42557595"
 ---
 # <a name="whats-new-in-the-microsoft-365-compliance-center"></a>Microsoft 365 준수 센터의 새로운 기능
 
@@ -36,7 +36,7 @@ ms.locfileid: "42552042"
 
 ### <a name="insider-risk-management-is-officially-released"></a>Insider 위기 관리 공식적으로 출시 됨
 
-드럼 롤, ... 이제 다음과 같은 구독이 있는 조직에서 참가자 위험 관리를 사용할 수 있습니다.
+드럼 롤, ...<br>이제 다음과 같은 구독이 있는 조직에서 참가자 위험 관리를 사용할 수 있습니다.
 
 - [Microsoft 365 E5](https://go.microsoft.com/fwlink/?linkid=2120431) (유료 또는 평가판)
 - [Microsoft](https://go.microsoft.com/fwlink/?linkid=2120432) 365 Enterprise E3 구독을 포함 합니다.
@@ -55,7 +55,7 @@ ms.locfileid: "42552042"
 
 ### <a name="solution-spotlight-data-connectors-for-facebook-and-twitter"></a>솔루션 추천: Facebook 및 Twitter의 데이터 커넥터
 
-[지난 달에 출시](#just-launched) 된 데이터 커넥터는 예상 대로 작동 하는지 확인 하기 위해 다음 커넥터를 테스트 하는 데 도움이 되는 정보를 찾아 보세요.
+[지난 달에 출시](#just-launched) 된 데이터 커넥터는 다음과 같은 커넥터를 테스트 하는 데 도움이 되는 정보를 찾고 있습니다.
 
 - [Facebook business 페이지](archive-facebook-data-with-sample-connector.md) Facebook business pages에서 Microsoft 365로 데이터를 가져오고 보관 합니다. 레코드 관리 및 eDiscovery와 같은 규정 준수 솔루션에 유용 합니다.
 - [Twitter](archive-twitter-data-with-sample-connector.md) Twitter에서 Microsoft 365로 데이터를 가져오고 보관 합니다. 레코드 관리 및 eDiscovery와 같은 규정 준수 솔루션에 유용 합니다.

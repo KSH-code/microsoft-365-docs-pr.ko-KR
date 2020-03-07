@@ -16,14 +16,14 @@ search.appverid:
 - MET150
 ms.assetid: b5c82de7-ed2f-4cc6-becd-db403faf4d18
 description: '태그 파일을 포함 하 여 평가 교육을 수행 하는 단계를 검토 하 고 Office 365 Advanced eDiscovery에서 평가 결과를 검토 합니다. '
-ms.openlocfilehash: 93780d42cd42ced692a81f5cfd739bcd8713c2c2
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 04f88a5efbd48c222c8c7033d94ae41634a06d99
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42081055"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42557728"
 ---
-# <a name="tagging-and-assessment-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery에서 태그 지정 및 평가
+# <a name="tagging-and-assessment-in-advanced-ediscovery-classic"></a>Advanced eDiscovery에서 태그 지정 및 평가 (클래식)
 
 > [!NOTE]
 > Advanced eDiscovery를 사용하려면 Office 365 E3의 고급 준수 추가 기능이나 조직을 위한 E5 구독이 필요합니다. 이 요금제가 없는 상태에서 Advanced eDiscovery를 사용하려는 경우에는 [Office 365 Enterprise E5 평가판을 등록](https://go.microsoft.com/fwlink/p/?LinkID=698279)할 수 있습니다. 
@@ -125,7 +125,7 @@ ms.locfileid: "42081055"
   
 ## <a name="see-also"></a>참고 항목
 
-[Office 365 Advanced eDiscovery](office-365-advanced-ediscovery.md)
+[고급 eDiscovery (클래식)](office-365-advanced-ediscovery.md)
   
 [관련성 평가 이해](assessment-in-relevance-in-advanced-ediscovery.md)
   

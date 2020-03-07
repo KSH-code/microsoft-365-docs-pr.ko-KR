@@ -16,14 +16,14 @@ search.appverid:
 - MET150
 ms.assetid: c87bb0e5-301c-4d1d-958e-aabeb7990f44
 description: 'Office 365 보안 &amp; 및 준수 센터를 사용 하 여 Office 365 Advanced eDiscovery에 액세스 하 고 서비스 케이스에 대해 프로세스 모듈을 실행 하는 방법에 대해 알아봅니다.  '
-ms.openlocfilehash: 13b665c377022997ef4e60bc883993a86d8b9f75
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 60da3fd66ce33443e991ece2dc756c7d1ab0d14a
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42081531"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42557828"
 ---
-# <a name="run-the-process-module-and-load-data-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery에서 프로세스 모듈 실행 및 데이터 로드
+# <a name="run-the-process-module-and-load-data-in-advanced-ediscovery-classic"></a>고급 eDiscovery에서 프로세스 모듈 실행 및 데이터 로드 (클래식)
 
 > [!NOTE]
 > Advanced eDiscovery를 사용하려면 Office 365 E3의 고급 준수 추가 기능이나 조직을 위한 E5 구독이 필요합니다. 이 요금제가 없는 상태에서 Advanced eDiscovery를 사용하려는 경우에는 [Office 365 Enterprise E5 평가판을 등록](https://go.microsoft.com/fwlink/p/?LinkID=698279)할 수 있습니다. 
@@ -83,7 +83,7 @@ Advanced eDiscovery는 거의 중복 된 그룹 또는 관련성 점수와 같�
   
 ## <a name="see-also"></a>참고 항목
 
-[Office 365 Advanced eDiscovery](office-365-advanced-ediscovery.md)
+[고급 eDiscovery (클래식)](office-365-advanced-ediscovery.md)
   
 [프로세스 모듈 결과 보기](view-process-module-results-in-advanced-ediscovery.md)
 

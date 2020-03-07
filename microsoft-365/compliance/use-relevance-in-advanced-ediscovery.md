@@ -16,14 +16,14 @@ search.appverid:
 - MET150
 ms.assetid: 5d671821-d188-42da-a9ce-9cfe92beedfd
 description: '교육 및 파일 검토를 위한 워크플로, 지침 및 단계를 포함 하 여 Office 365 Advanced eDiscovery의 관련성 모듈에 대해 알아봅니다.  '
-ms.openlocfilehash: 0b160a5b251f4be7d23ef24a79164b824fe65b7f
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 5cb20d140e9369d6eccccb6936740030e6b5ca41
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42080715"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42557636"
 ---
-# <a name="use-the-relevance-module-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery에서 관련성 모듈 사용
+# <a name="use-the-relevance-module-in-advanced-ediscovery-classic"></a>고급 eDiscovery에서 관련성 모듈 사용 (클래식)
 
 > [!NOTE]
 > Advanced eDiscovery를 사용하려면 Office 365 E3의 고급 준수 추가 기능이나 조직을 위한 E5 구독이 필요합니다. 이 요금제가 없는 상태에서 Advanced eDiscovery를 사용하려는 경우에는 [Office 365 Enterprise E5 평가판을 등록](https://go.microsoft.com/fwlink/p/?LinkID=698279)할 수 있습니다. 
@@ -133,7 +133,7 @@ ms.locfileid: "42080715"
   
 ## <a name="see-also"></a>참고 항목
 
-[Office 365 Advanced eDiscovery](office-365-advanced-ediscovery.md)
+[고급 eDiscovery (클래식)](office-365-advanced-ediscovery.md)
   
 [관련성 평가 이해](assessment-in-relevance-in-advanced-ediscovery.md)
   

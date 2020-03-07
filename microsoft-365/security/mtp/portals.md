@@ -1,7 +1,7 @@
 ---
 title: Microsoft 보안 포털 및 관리 센터
 description: Microsoft 365 보안과 관련 된 다양 한 서비스를 관리 하기 위한 Microsoft 관리 센터 또는 포털 찾기
-keywords: 보안, 포털, Microsoft 365, M365, security center, administration center, URL, link, MTP, Azure ATP, Office 365 ATP, MCAS, WDSI, SCC, Intune, MDM, MEM, ASC, OATP, AATP
+keywords: 보안, 포털, Microsoft 365, M365, 보안 센터, 관리 센터, URL, 링크, MTP, Microsoft Defender ATP, microsoft it, ad, Azure atp, Office 365 ATP, MCAS, WDSI,,, Intune, AATP, & Cloud,
 ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
 ms.localizationpriority: medium
@@ -14,15 +14,15 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: 24bfd07b4b7baf9082ef99691fb1048e1f0b655e
-ms.sourcegitcommit: 004f01fc5d5bdb8aac03d69692d86c38b5e05e14
+ms.openlocfilehash: 98bfa8da792bfc5b75d1a2532492c2de6071f1b1
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "42336921"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42558239"
 ---
 # <a name="microsoft-security-portals-and-admin-centers"></a>Microsoft 보안 포털 및 관리 센터
-[Microsoft 365 보안 센터](overview-security-center.md) 는 id, 데이터, 장치, 앱 간의 보안을 모니터링 하 고 관리 하는 새로운 집으로, 특정 특수 작업을 위해 다양 한 포털에 액세스 해야 합니다.
+[Microsoft 365 보안 센터가](overview-security-center.md) id, 데이터, 장치 및 앱 간의 보안을 모니터링 하 고 관리 하는 새로운 홈 인 반면, 특정 특수 작업을 위해 다양 한 포털에 액세스 해야 합니다.
 
 > [!TIP] 
 > Microsoft 365 보안 센터에서 다양 한 관련 포털에 액세스 하려면 탐색 창에서 **기타 리소스** 를 선택 합니다.
