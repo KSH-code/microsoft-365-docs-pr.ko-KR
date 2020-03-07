@@ -21,11 +21,11 @@ search.appverid:
 ms.assetid: c4639c2e-7223-4302-8e0d-b6e10f1c3be3
 description: '보안 & 준수 센터의 콘텐츠 검색 도구를 사용 하 여 Exchange Online 사서함 및 SharePoint 또는 비즈니스용 OneDrive 사이트에서 검색할 수 있는 전자 메일 및 파일 속성에 대해 알아봅니다.  '
 ms.openlocfilehash: aad4ff401ee66db2f88bf5476cfaab8fce4ad821
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.sourcegitcommit: 6c8edbc54b193e964cf93aec48c51cb79231f1d9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42072419"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42543429"
 ---
 # <a name="keyword-queries-and-search-conditions-for-content-search"></a>콘텐츠 검색에 대한 키워드 쿼리 및 검색 조건
 

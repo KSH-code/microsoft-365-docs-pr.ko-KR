@@ -17,12 +17,12 @@ ms.assetid: e3c6df61-8513-499d-ad8e-8a91770bff63
 ms.collection:
 - M365-security-compliance
 description: Microsoft 365 준수 센터에 지속적으로 새로운 기능을 추가 하 고, 문제를 해결 하 고, 사용자 의견에 따라 변경 사항을 적용 하 고 있습니다. 이번 달에 제공 된 내용을 확인 합니다.
-ms.openlocfilehash: 2140b2b529ccec9a4d081a2e7b6ea1fdb7fb900f
-ms.sourcegitcommit: ee18bdd08e85b1262b91c180ccf61df59c19dab2
+ms.openlocfilehash: 042e95d19ef44eef8dfdfef24a996606c9d0e00c
+ms.sourcegitcommit: b567e946b57697186267cdfe303dfe3463cfd6ba
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/19/2020
-ms.locfileid: "42106811"
+ms.lasthandoff: 03/06/2020
+ms.locfileid: "42552042"
 ---
 # <a name="whats-new-in-the-microsoft-365-compliance-center"></a>Microsoft 365 준수 센터의 새로운 기능
 
@@ -31,6 +31,36 @@ ms.locfileid: "42106811"
 > [!TIP]
 > 다른 관리 센터에서 어떤 작업을 진행 하 고 싶으십니까? 다음 문서를 확인 하세요.<br>[Microsoft 365 관리 센터의 새로운 기능](https://docs.microsoft.com/office365/admin/whats-new-in-preview?view=o365-worldwide)<br>[SharePoint 관리 센터의 새로운 기능](https://docs.microsoft.com/sharepoint/what-s-new-in-admin-center)<br><br>
 [Microsoft 365 로드맵을](https://www.microsoft.com/en-us/microsoft-365/roadmap) 방문 하 여 시작 되었거나, 배포 중이거나, 개발 중 이거나, 이전에 출시 된 microsoft 365 기능에 대해 알아보세요.
+
+## <a name="february-2020"></a>2020년 2월
+
+### <a name="insider-risk-management-is-officially-released"></a>Insider 위기 관리 공식적으로 출시 됨
+
+드럼 롤, ... 이제 다음과 같은 구독이 있는 조직에서 참가자 위험 관리를 사용할 수 있습니다.
+
+- [Microsoft 365 E5](https://go.microsoft.com/fwlink/?linkid=2120431) (유료 또는 평가판)
+- [Microsoft](https://go.microsoft.com/fwlink/?linkid=2120432) 365 Enterprise E3 구독을 포함 합니다.
+
+[새 역할 그룹과](insider-risk-management-configure.md#step-1-required-enable-permissions-for-insider-risk-management) [솔루션 수준 설정을](insider-risk-management-configure.md#step-4-required-configure-insider-risk-settings)비롯 하 여 preview 릴리스 이후 몇 가지 향상 된 기능을 제공 했습니다.
+
+계속 해 서 개선할 수 있도록 항상 솔루션을 사용할 때 피드백을 남겨 두세요.
+
+### <a name="records-management"></a>레코드 관리
+
+이 새로운 솔루션은 모든 레코드 관리 기능을 단일 우산에 제공 합니다. 여기에는 SharePoint 및 OneDrive에 대 한 레코드 버전 관리와 레코드에 대 한 삭제 증명의 도입이 포함 되어 있습니다.
+
+![Microsoft 365 준수 센터의 레코드 관리 페이지](../media/mcc-records-management-page.png)
+
+[레코드 관리에 대해 자세히 알아보기](records-management.md)
+
+### <a name="solution-spotlight-data-connectors-for-facebook-and-twitter"></a>솔루션 추천: Facebook 및 Twitter의 데이터 커넥터
+
+[지난 달에 출시](#just-launched) 된 데이터 커넥터는 예상 대로 작동 하는지 확인 하기 위해 다음 커넥터를 테스트 하는 데 도움이 되는 정보를 찾아 보세요.
+
+- [Facebook business 페이지](archive-facebook-data-with-sample-connector.md) Facebook business pages에서 Microsoft 365로 데이터를 가져오고 보관 합니다. 레코드 관리 및 eDiscovery와 같은 규정 준수 솔루션에 유용 합니다.
+- [Twitter](archive-twitter-data-with-sample-connector.md) Twitter에서 Microsoft 365로 데이터를 가져오고 보관 합니다. 레코드 관리 및 eDiscovery와 같은 규정 준수 솔루션에 유용 합니다.
+
+이러한 커넥터를 설정 하 고 유효성을 검사할 때,이에 대 한 자세한 내용은 무엇이 고 그렇지 않으며 환경을 개선 하기 위해 수행할 수 있는 작업에 대 한 의견을 보내 주시기 바랍니다.
 
 ## <a name="january-2020"></a>2020년 1월
 
@@ -140,13 +170,13 @@ Preview 단계에서 모든 가용성으로 Graduating, 통신 준수는 새로�
 |데이터 손실 방지|데이터 손실 방지 <br/> https://protection.office.com/datalossprevention |데이터 손실 방지 <br/> https://compliance.microsoft.com/datalossprevention |[데이터 손실 방지의 개요](data-loss-prevention-policies.md)|
 |데이터 주체 요청 |데이터 개인 정보 > 데이터 주체 요청 <br/> https://protection.office.com/dsrcases |데이터 주체 요청 <br/> https://compliance.microsoft.com/datasubjectrequest |[DSR 사례 도구를 사용 하 여 GDPR 데이터 주체 요청 관리](manage-gdpr-data-subject-requests-with-the-dsr-case-tool.md)|
 |eDiscovery|eDiscovery > eDiscovery <br/> https://protection.office.com/ediscoveryv1 |eDiscovery > 코어 <br/> https://compliance.microsoft.com/classicediscovery |[eDiscovery 사례 관리](ediscovery-cases.md) |
-|이벤트|레코드 관리 > 이벤트 <br/> https://protection.office.com/events |레코드 관리 > 이벤트 탭 <br/> https://compliance.microsoft.com/recordsmanagement?viewid=events |[이벤트 구동 보존 개요](event-driven-retention.md)|
+|Events|레코드 관리 > 이벤트 <br/> https://protection.office.com/events |레코드 관리 > 이벤트 탭 <br/> https://compliance.microsoft.com/recordsmanagement?viewid=events |[이벤트 구동 보존 개요](event-driven-retention.md)|
 |파일 플랜|파일 계획 > 레코드 관리 <br/> https://protection.office.com/fileplan |레코드 관리 > 파일 계획 탭 <br/> https://compliance.microsoft.com/recordsmanagement?viewid=fileplan |[파일 계획 관리자 개요](file-plan-manager.md)|
 |PST 파일 가져오기|정보 거 버 넌 스 > 가져오기 PST 파일 <br/> https://protection.office.com/importV2 |정보 거 버 넌 스 > 가져오기 탭 <br/> https://compliance.microsoft.com/informationgovernance?viewid=import |[조직의 PST 파일 가져오기 개요](importing-pst-files-to-office-365.md)|
 |레이블 활동 탐색기|정보 거 버 넌 스 > 레이블 활동 탐색기 <br/> https://protection.office.com/labelexplorer |데이터 분류 > 활동 탐색기 탭 <br/> https://compliance.microsoft.com/dataclassification?viewid=activitiesexplorer |[레이블이 지정된 콘텐츠의 활동 보기(미리 보기)](data-classification-activity-explorer.md)|
 |보존 레이블 및 레이블 정책 |분류 > 보존 레이블 > 레이블 및 레이블 정책 탭 <br/> https://protection.office.com/retentionlabels |정보 거 버 넌 스 > 레이블 및 레이블 정책 탭 <br/> https://compliance.microsoft.com/informationgovernance?viewid=labels <br/> https://compliance.microsoft.com/informationgovernance?viewid=labelpolicies | [보존 레이블 개요](labels.md)|
 |보존 정책|정보 거 버 넌 스 > 보존 <br/> https://protection.office.com/retention |정보 거 버 넌 스 > 보존 탭 <br/> https://compliance.microsoft.com/informationgovernance?viewid=retention |[보존 정책 개요](retention-policies.md)|
-|중요 한 정보 유형|분류 > 중요 한 정보 유형 <br/> https://protection.office.com/sensitivetypes |데이터 분류 > 중요 한 정보 유형 탭 <br/> https://compliance.microsoft.com/dataclassification?viewid=sensitiveinfotypes |[What the sensitive information types look for](what-the-sensitive-information-types-look-for.md)(중요한 정보 유형이 찾는 항목)|
+|중요 한 정보 유형|분류 > 중요 한 정보 유형 <br/> https://protection.office.com/sensitivetypes |데이터 분류 > 중요 한 정보 유형 탭 <br/> https://compliance.microsoft.com/dataclassification?viewid=sensitiveinfotypes |[중요한 정보 유형이 찾는 항목](what-the-sensitive-information-types-look-for.md)|
 |민감도 레이블 및 레이블 정책|분류 > 민감도 레이블 > 레이블 및 레이블 정책 탭 <br/> https://protection.office.com/sensitivity |정보 보호 > 레이블 및 레이블 정책 탭 <br/> https://compliance.microsoft.com/informationprotection?viewid=sensitivitylabels <br/> https://compliance.microsoft.com/informationprotection?viewid=sensitivitylabelpolicies |[민감도 레이블 알아보기](sensitivity-labels.md) |
 |서비스 보증|서비스 보증 <br/> https://protection.office.com/serviceassurance/dashboard |현재 서비스 보증 리소스는 Office 365 보안 & 준수 센터 에서만 액세스할 수 있습니다. |[보안 & 준수 센터의 서비스 보증](service-assurance.md)|
 |감독|감독 <br/> https://protection.office.com/supervisoryreviewv2 |커뮤니케이션 규정 준수 <br/> https://compliance.microsoft.com/supervisoryreview |[Microsoft 365의 통신 준수 (미리 보기)](communication-compliance.md) |

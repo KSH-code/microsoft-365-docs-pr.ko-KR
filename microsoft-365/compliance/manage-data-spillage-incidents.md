@@ -17,11 +17,11 @@ search.appverid:
 ms.assetid: ''
 description: 이 문서에서는 보안 & 준수 센터의 새 데이터 조사 (미리 보기) 도구를 사용 하 여 데이터 유출 인시던트를 관리 하는 방법을 설명 합니다.
 ms.openlocfilehash: f02d5c42d42f6031202e874497f92fdfbe5d0bcf
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.sourcegitcommit: 6c8edbc54b193e964cf93aec48c51cb79231f1d9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42072033"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42543369"
 ---
 # <a name="manage-a-data-spillage-incident-in-microsoft-365"></a>Microsoft 365에서 데이터 유출 인시던트 관리
 
