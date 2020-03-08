@@ -18,19 +18,19 @@ ms.custom:
 - Core_O365Admin_Migration
 - MiniMaven
 - MSB365
-- MARVEL_SEO_MAR
+- seo-marvel-mar
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: c12164c7-6190-4294-b88a-590580c9869a
 description: 사용자의 장치를 분실 하거나 도난당 한 경우 Microsoft 365 Business에서 사용할 수 있는 설정에 대해 설명 하 여 작업 파일을 보호 합니다.
-ms.openlocfilehash: 244e4773f1efa9548dd2126e03a007aefb840b40
-ms.sourcegitcommit: 26e4d5091583765257b7533b5156daa373cd19fe
+ms.openlocfilehash: 4371acd53da902aa4dea93e7b8bd087d1cf27100
+ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/06/2020
-ms.locfileid: "42550170"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42561653"
 ---
 # <a name="protect-work-files-when-a-mobile-device-is-lost-or-stolen"></a>분실하거나 도난당한 모바일 장치의 업무 파일 보호
 

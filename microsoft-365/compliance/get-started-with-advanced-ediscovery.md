@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: 이 문서에서는 Microsoft 365에서 고급 eDiscovery 사용을 시작 하는 방법을 설명 합니다. 몇 가지 빠른 단계를 완료 한 후에는 고급 eDiscovery 도구를 사용할 준비가 된 것입니다. 첫 번째 단계는 사례를 만든 다음 고급 eDiscovery 기능 및 기능 사용을 시작 하는 것입니다.
-ms.openlocfilehash: b351524f1bcaa54360d9f7422c0955c5c4a35254
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+ms.openlocfilehash: 2819fdd2f3b98ca82535aa0f08830bb37744c3f7
+ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 03/07/2020
-ms.locfileid: "42557922"
+ms.locfileid: "42561668"
 ---
 # <a name="get-started-with-advanced-ediscovery"></a>Advanced eDiscovery 시작
 
@@ -94,7 +94,7 @@ Ediscovery 권한 및 eDiscovery 관리자 역할 그룹에 할당 된 각 역�
 
 ## <a name="step-3-configure-global-settings-for-advanced-ediscovery"></a>3 단계: 고급 eDiscovery에 대 한 전역 설정 구성
 
-조직의 사용자가 사례 만들기 및 사용을 시작 하기 전에 완료 해야 하는 마지막 단계는 조직의 모든 사례에 적용 되는 전역 설정을 구성 하는 것입니다. 현재로 서는 *변호사 클라이언트 권한 검색* (나중에 더 많은 전역 설정을 사용할 수 있음)만 사용할 수 있는 전역 설정입니다. 이 설정은 검토 집합의 데이터를 분석할 때 변호사-클라이언트 권한 모델을 실행할 수 있도록 합니다. 이 모델은 컴퓨터 학습을 사용 하 여 문서에 본래 법적 정보가 포함 되어 있을 가능성을 확인 합니다. 또한 문서 참여자와 해당 모델을 설정할 때 제출 하는 변호사 목록을 비교 하 여 문서에 변호사 인 참가자가 하나 이상 있는지를 확인할 수 있습니다.
+조직의 사용자가 사례 만들기 및 사용을 시작 하기 전에 완료 해야 하는 마지막 단계는 조직의 모든 사례에 적용 되는 전역 설정을 구성 하는 것입니다. 현재로 서의 글로벌 설정은 *변호사-클라이언트 권한 검색* (나중에 더 많은 전역 설정을 사용할 수 있음)입니다. 이 설정은 검토 집합의 데이터를 분석할 때 변호사-클라이언트 권한 모델을 실행할 수 있도록 합니다. 이 모델은 컴퓨터 학습을 사용 하 여 문서에 본래 법적 정보가 포함 되어 있을 가능성을 확인 합니다. 또한 문서 참여자와 해당 모델을 설정할 때 제출 하는 변호사 목록을 비교 하 여 문서에 변호사 인 참가자가 하나 이상 있는지를 확인할 수 있습니다.
 
 변호사 클라이언트 권한 검색 모델을 설정 하 고 사용 하는 방법에 대 한 자세한 내용은 [Set up 변호사-클라이언트 권한 검색에서 고급 eDiscovery](attorney-privilege-detection.md)를 참조 하세요.
 

@@ -19,18 +19,18 @@ ms.custom:
 - MiniMaven
 - MSB365
 - OKR_SMB_M365
-- MARVEL_SEO_MAR
+- seo-marvel-mar
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: fae8819d-7235-495f-9f07-d016f545887f
 description: Microsoft 365 Business 앱 보호 설정이 사용자의 Windows 10 장치에 적용 되는지 확인 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 1b661b41a8042e81f653463cbd32fc6bf6428b53
-ms.sourcegitcommit: 26e4d5091583765257b7533b5156daa373cd19fe
+ms.openlocfilehash: 47977f8d79eb6dbb2f4d087af8f8ad7da4313c61
+ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/06/2020
-ms.locfileid: "42549960"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42560683"
 ---
 # <a name="validate-device-protection-settings-on-windows-10-pcs"></a>Windows 10 Pc에서 장치 보호 설정 유효성 검사
 
@@ -58,7 +58,7 @@ ms.locfileid: "42549960"
     
     ![바이러스 및 위협 방지 설정이 회색으로 표시 됩니다.](../media/9ca68d40-a5d9-49d7-92a4-c581688b5926.png)
   
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [Microsoft 365 Business 문서 및 리소스](https://go.microsoft.com/fwlink/p/?linkid=853701)
   

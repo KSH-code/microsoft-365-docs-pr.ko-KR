@@ -20,18 +20,18 @@ ms.custom:
 - Core_O365Admin_Migration
 - MSB365
 - OKR_SMB_M365
-- MARVEL_SEO_MAR
+- seo-marvel-mar
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: Microsoft 365 Business, 구독, 도메인 및 사용자 추가, 보안 정책 설정 등에 대 한 설정 단계를 알아봅니다.
-ms.openlocfilehash: 75ef784a886de754e7550d9e86af1242209346dd
-ms.sourcegitcommit: d6c871bf3f94d9299d22695f5dbaf25dc1bd6ff9
+ms.openlocfilehash: 9bb536b52981966f6c4c487f8400577b896261e0
+ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42417229"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42561209"
 ---
 # <a name="overview-of-setup"></a>설치 개요
 

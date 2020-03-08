@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: ce004100-9e7f-443e-942b-9b04098fcfc3
 description: Office 365 감사 로그 레코드에 포함 된 추가 속성에 대 한 설명입니다.
-ms.openlocfilehash: 2f68aacf83a6cff20a8165dd6b603a02e15cfd74
-ms.sourcegitcommit: 109b44aa71bb8453d0a602663df0fcf7ed7dfdbe
+ms.openlocfilehash: 06e9e2b24cc3a0af57bf0419abbd6319b0931b0b
+ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/25/2020
-ms.locfileid: "42277185"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42561638"
 ---
 # <a name="detailed-properties-in-the-office-365-audit-log"></a>Office 365 감사 로그의 자세한 속성
 
@@ -79,12 +79,12 @@ ms.locfileid: "42277185"
 |SourceRelativeUrl|사용자가 액세스 한 파일이 들어 있는 폴더의 URL입니다. **SiteURL**, **SourceRelativeURL**및 **sourcefilename** 속성의 값 조합은 사용자가 액세스 하는 파일의 전체 경로 이름인 **ObjectID** 속성의 값과 같습니다.|SharePoint|
 |제목|액세스 한 메시지의 제목 줄입니다.|Exchange (사서함 활동)|
 |TabType| 팀에서 추가, 제거 또는 업데이트 된 탭의 유형입니다. 이 속성에 사용할 수 있는 값은 다음과 같습니다.  <br/><br/> Excel **pin** -excel 탭입니다.  <br/> **내선** -모든 자사 및 타사 앱 예를 들면 클래스 일정, VSTS 및 양식 등이 있습니다.  <br/> **Notes** -OneNote 탭  <br/> **Pdfpin** -PDF 탭  <br/> **Powerbi** -Powerbi 탭  <br/> **Powerpointpin** -PowerPoint 탭  <br/> **Sharepointfiles** -SharePoint 탭  <br/> **웹 페이지** -고정 된 웹 사이트 탭  <br/> **위 키-탭** -위 키 탭  <br/> **Wordpin** -Word 탭입니다.|Microsoft Teams|
-|대상|작업 ( **Operation** ) 속성에서 식별 된 작업을 수행 하는 사용자입니다. 예를 들어 게스트 사용자가 SharePoint 또는 Microsoft 팀에 추가 된 경우에는 해당 사용자가이 속성에 나열 됩니다.|Azure Active Directory|
+|Target(대상)|작업 ( **Operation** ) 속성에서 식별 된 작업을 수행 하는 사용자입니다. 예를 들어 게스트 사용자가 SharePoint 또는 Microsoft 팀에 추가 된 경우에는 해당 사용자가이 속성에 나열 됩니다.|Azure Active Directory|
 |TeamGuid|Microsoft 팀의 팀 ID입니다.|Microsoft Teams|
 |TeamName|Microsoft 팀의 팀 이름입니다.|Microsoft Teams|
 |UserAgent|사용자 브라우저에 대 한 정보입니다. 이 정보는 브라우저에서 제공 됩니다.|SharePoint|
 |UserDomain|작업을 수행한 사용자 (작업자)의 테 넌 트 조직에 대 한 id 정보입니다.|Azure Active Directory|
-|UserID|**작업** 속성에 지정 된 작업을 수행 하 여 레코드가 기록 되는 사용자입니다. 시스템 계정 (예: SHAREPOINT\system 또는 NT 권한 \ 컴퓨터)에서 수행 된 작업에 대 한 레코드는 감사 로그에도 포함 됩니다.|모두|
+|UserId|**작업** 속성에 지정 된 작업을 수행 하 여 레코드가 기록 되는 사용자입니다. 시스템 계정 (예: SHAREPOINT\system 또는 NT 권한 \ 컴퓨터)에서 수행 된 작업에 대 한 감사 레코드는 감사 로그에도 포함 됩니다. UserId 속성의 또 다른 일반적인 값은 app@sharepoint입니다. 이는 해당 활동을 수행한 "사용자"가 SharePoint에서 사용자, 관리자 또는 서비스를 대신 하 여 조직 전체 작업을 수행 하는 데 필요한 사용 권한이 있는 응용 프로그램 인지를 나타냅니다. 자세한 내용은 [감사 레코드의 앱\@sharepoint 사용자](search-the-audit-log-in-security-and-compliance.md#the-appsharepoint-user-in-audit-records)를 참조 하세요. |모두|
 |UserKey|**UserID** 속성에서 식별 된 사용자의 대체 ID입니다. 예를 들어이 속성은 SharePoint의 사용자가 수행한 이벤트에 대 한 passport 고유 ID (PUID)로 채워집니다. 또한이 속성은 다른 서비스에서 발생 하는 이벤트에 대 한 **UserID** 속성과 동일한 값과 시스템 계정에서 수행 하는 이벤트를 지정할 수 있습니다.|모두|
 |UserSharedWith|리소스를 공유한 사용자입니다. 이 속성은 **Operation** 속성의 값이 **SharingSet**인 경우에 포함 됩니다. 이 사용자는 보고서의 **공유** 됨 열에도 표시 됩니다.|SharePoint|
 |UserType|작업을 수행한 사용자의 유형입니다. 다음 값은 사용자 형식을 나타냅니다. <br/> <br/> **0** -일반 사용자입니다. <br/>**2** -Office 365 조직의 관리자입니다. <sup>1</sup> <br/>**3** -Microsoft 데이터 센터 관리자 또는 데이터 센터 시스템 계정입니다. <br/>**4** -시스템 계정입니다. <br/>**5** -응용 프로그램 <br/>**6** -서비스 사용자입니다.<br/>**7** -사용자 지정 정책<br/>**8** -시스템 정책.|모두|

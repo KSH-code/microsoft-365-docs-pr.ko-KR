@@ -19,19 +19,19 @@ ms.custom:
 - Core_O365Admin_Migration
 - MiniMaven
 - MSB365
-- MARVEL_SEO_MAR
+- seo-marvel-mar
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: aa31319c-9196-48c9-a90b-4057e0494c7a
 description: 사용자가 모바일 장치에서 Office 앱 및 작업 파일에 액세스 하는 방법을 관리 하는 데 사용할 수 있는 보호 정책에 대해 알아봅니다.
-ms.openlocfilehash: 21e83114664d06aaeb27b08d9f4e2153eea02030
-ms.sourcegitcommit: 26e4d5091583765257b7533b5156daa373cd19fe
+ms.openlocfilehash: 870706103a6c05e2e193c80f7a586eab529bb1e7
+ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/06/2020
-ms.locfileid: "42550320"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42561503"
 ---
 # <a name="manage-how-users-access-office-documents-on-mobile-devices"></a>사용자가 모바일 장치에서 Office 문서에 액세스하는 방법 관리
 

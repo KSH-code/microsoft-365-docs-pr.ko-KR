@@ -17,19 +17,19 @@ ms.custom:
 - MiniMaven
 - MSB365
 - OKR_SMB_M365
-- MARVEL_SEO_MAR
+- seo-marvel-mar
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: be5b6d90-3344-4c5e-bf40-5733eb845beb
 description: Windows AutoPilot를 사용 하 여 비즈니스에 대 한 새 Windows 10 장치를 설정 하 여 직원 들이 사용할 수 있도록 준비 하는 방법을 알아봅니다.
-ms.openlocfilehash: 8449d5a3672a20b0cd1ba61bbda863073138c04c
-ms.sourcegitcommit: 26e4d5091583765257b7533b5156daa373cd19fe
+ms.openlocfilehash: 3b1cf297914862aaa74fdf9a8bb7290d00f73b1d
+ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/06/2020
-ms.locfileid: "42550390"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42561583"
 ---
 # <a name="use-the-step-by-step-guide-to-add-autopilot-devices-and-profile"></a>단계별 가이드를 사용하여 AutoPilot 장치 및 프로필 추가
 

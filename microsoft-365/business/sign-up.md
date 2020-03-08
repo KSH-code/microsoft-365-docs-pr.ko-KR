@@ -20,17 +20,17 @@ ms.custom:
 - OKR_SMB_M365
 - TRN_M365B
 - OKR_SMB_Videos
-- MARVEL_SEO_MAR
+- seo-marvel-mar
 search.appverid:
 - BCS160
 - MET150
 description: Microsoft 365 Business에 대 한 등록에 대 한 자세한 내용은 마이크로소프트 365 Business에 포함 된 내용 및 단계별 지침을 참조 하세요.
-ms.openlocfilehash: 003bf332a9183a5e062a294297a30c9b7d19fdb9
-ms.sourcegitcommit: 41c0bc5cf50f4ca63b4286d1ea0f58ab82984b7a
+ms.openlocfilehash: 85e9ff3585e1e4bbadc6c34699f75d77486f58ea
+ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42547834"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42560769"
 ---
 # <a name="sign-up-for-microsoft-365-business"></a>Microsoft 365 Business에 등록
 

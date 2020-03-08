@@ -17,12 +17,12 @@ ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: Office 365 메시지 암호화 (OME) 설정을 완료 한 후에는 여러 가지 방법으로 배포 구성을 사용자 지정할 수 있습니다. 예를 들어, 웹의 Outlook에서 1 회 통과, 보호 단추를 표시할 것인지 여부를 구성할 수 있습니다. 이 문서의 작업에서는 이러한 방법을 설명 합니다.
-ms.openlocfilehash: fa328abc36ffa0d22bb2c96114b3bbb3dfa12ed3
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 102d57681e049bf803b377fea97cc0fdb11affb2
+ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600515"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42562090"
 ---
 # <a name="manage-office-365-message-encryption"></a>Office 365 메시지 암호화 관리
 
@@ -173,27 +173,15 @@ Office 365에서 암호화 전용 옵션을 사용 하 여 전자 메일 첨부 
    Set-IRMConfiguration -DecryptAttachmentForEncryptOnly $false
    ```
 
-## <a name="ensure-all-external-recipients-use-the-ome-portal-to-read-encrypted-mail--office-365-advanced-message-encryption-only"></a>모든 외부 받는 사람이 OME 포털을 사용 하 여 암호화 된 메일을 읽도록 확인-Office 365 Advanced Message Encryption만 해당
+## <a name="ensure-all-external-recipients-use-the-ome-portal-to-read-encrypted-mail"></a>모든 외부 받는 사람이 OME 포털을 사용 하 여 암호화 된 메일 읽기 확인
 
-Office 365 고급 메시지 암호화가 있는 경우 사용자 지정 브랜딩 템플릿을 사용 하 여 받는 사람이 웹에서 Outlook 또는 Outlook을 사용 하는 대신 OME 포털에서 암호화 된 전자 메일을 읽도록 지시 하는 래퍼 메일을 받을 수 있습니다. 받는 사람이 받은 메일을 사용 하는 방법을 보다 강력 하 게 제어 하려는 경우에이 작업을 수행 하는 것이 좋습니다. 예를 들어 외부 받는 사람이 웹 포털에서 전자 메일을 볼 경우 전자 메일의 만료 날짜를 설정할 수 있으며 전자 메일을 해지할 수 있습니다. 이러한 기능은 OME 포털을 통해서만 지원 됩니다. 메일 흐름 규칙을 만들 때 암호화 옵션 및 전달 금지 옵션을 사용할 수 있습니다.
+사용자 지정 브랜딩 서식 파일을 사용 하 여 받는 사람이 Outlook 또는 웹용 Outlook을 사용 하는 대신 OME 포털에서 암호화 된 전자 메일을 읽도록 지시 하는 래퍼 메일을 받을 수 있습니다. 받는 사람이 받은 메일을 사용 하는 방법을 보다 강력 하 게 제어 하려는 경우에이 작업을 수행 하는 것이 좋습니다. 예를 들어 외부 받는 사람이 웹 포털에서 전자 메일을 볼 경우 전자 메일의 만료 날짜를 설정할 수 있으며 전자 메일을 해지할 수 있습니다. 이러한 기능은 OME 포털을 통해서만 지원 됩니다. 메일 흐름 규칙을 만들 때 암호화 옵션 및 전달 금지 옵션을 사용할 수 있습니다.
 
-### <a name="create-a-custom-template-to-force-all-external-recipients-to-use-the-ome-portal-and-for-encrypted-email-to-be-revocable-and-expire-in-7-days"></a>모든 외부 받는 사람이 OME 포털을 사용 하 고 암호화 된 전자 메일이 7 일 후에 revocable 및 만료 되도록 하려면 사용자 지정 서식 파일을 만듭니다.
+### <a name="use-a-custom-template-to-force-all-external-recipients-to-use-the-ome-portal-and-for-encrypted-email"></a>사용자 지정 서식 파일을 사용 하 여 모든 외부 받는 사람이 OME 포털을 사용 하 고 암호화 된 전자 메일에 대해 강제 적용
 
 1. Office 365 조직에서 전역 관리자 권한이 있는 회사 또는 학교 계정을 사용 하 고, Windows PowerShell 세션을 시작 하 고, Exchange Online에 연결 합니다. 지침을 확인하려면 [Exchange Online PowerShell에 연결](https://aka.ms/exopowershell)을 참조하세요.
 
-2. Set-omeconfiguration cmdlet을 실행 합니다.
-
-   ```powershell
-   New-OMEConfiguration -Identity "<template name>" -ExternalMailExpiryInDays 7
-   ```
-
-   여기서 `template name` 는 Office 365 메시지 암호화 사용자 지정 브랜딩 서식 파일에 사용 하려는 이름입니다. For example,
-
-   ```powershell
-   New-OMEConfiguration -Identity "<One week expiration>" -ExternalMailExpiryInDays 7
-   ```
-
-3. New-transportrule cmdlet을 실행 합니다.
+2. New-transportrule cmdlet을 실행 합니다.
 
    ```powershell
    New-TransportRule -name "<mail flow rule name>" -FromScope "InOrganization" -ApplyRightsProtectionTemplate "<option name>" -ApplyRightsProtectionCustomizationTemplate "<template name>"
@@ -205,18 +193,18 @@ Office 365 고급 메시지 암호화가 있는 경우 사용자 지정 브랜�
 
    - `option name`은 `Encrypt` 또는 `Do Not Forward`입니다.
 
-   - `template name`은 사용자 지정 브랜딩 서식 파일에 지정한 이름입니다 예: `One week expiration`
+   - `template name`은 사용자 지정 브랜딩 서식 파일에 지정한 이름입니다 예: `OME Configuration`
 
-   모든 외부 전자 메일을 "한 주 만료" 서식 파일로 암호화 하 고 암호화 전용 옵션을 적용 하려면 다음을 수행 합니다.
+   모든 외부 전자 메일을 "1 주 영업" 서식 파일로 암호화 하 고 암호화 전용 옵션을 적용 하려면 다음을 수행 합니다.
 
    ```powershell
-   New-TransportRule -name "<All outgoing mail>" -FromScope "InOrganization" -ApplyRightsProtectionTemplate "Encrypt" -ApplyRightsProtectionCustomizationTemplate "<One week expiration>"
+   New-TransportRule -name "<All outgoing mail>" -FromScope "InOrganization" -ApplyRightsProtectionTemplate "Encrypt" -ApplyRightsProtectionCustomizationTemplate "<OME Configuration>"
    ```
 
-   모든 외부 전자 메일을 "한 주 만료" 서식 파일로 암호화 하 고 전달 금지 옵션을 적용 하려면 다음을 수행 합니다.
+   "OME Configuration" 서식 파일을 사용 하 여 모든 외부 전자 메일을 암호화 하 고 전달 금지 옵션을 적용 하려면 다음을 수행 합니다.
 
    ```powershell
-   New-TransportRule -name "<All outgoing mail>" -FromScope "InOrganization" -ApplyRightsProtectionTemplate "Do Not Forward" -ApplyRightsProtectionCustomizationTemplate "<One week expiration>"
+   New-TransportRule -name "<All outgoing mail>" -FromScope "InOrganization" -ApplyRightsProtectionTemplate "Do Not Forward" -ApplyRightsProtectionCustomizationTemplate "<OME Configuration>"
    ```
 
 ## <a name="customize-the-appearance-of-email-messages-and-the-ome-portal"></a>전자 메일 메시지 및 OME 포털의 모양 사용자 지정

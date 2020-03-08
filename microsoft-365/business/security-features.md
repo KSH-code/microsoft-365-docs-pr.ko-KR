@@ -17,18 +17,18 @@ ms.custom:
 - MiniMaven
 - MSB365
 - OKR_SMB_M365
-- MARVEL_SEO_MAR
+- seo-marvel-mar
 search.appverid:
 - BCS160
 - MET150
 ms.assetid: c123694a-1efb-459e-a8d5-2187975373dc
 description: Pc, 휴대폰 및 태블릿에서 데이터를 안전 하 게 보호 하기 위해 Microsoft 365 Business와 함께 제공 되는 보안 기능에 대해 알아봅니다.
-ms.openlocfilehash: eb92131cc937875615342b2b0d39c78d51a8a99f
-ms.sourcegitcommit: 26e4d5091583765257b7533b5156daa373cd19fe
+ms.openlocfilehash: 85f9b50225c3dbdb0c1b76c33d516aaa03bec773
+ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/06/2020
-ms.locfileid: "42550040"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42561263"
 ---
 # <a name="microsoft-365-business-security-and-compliance-features"></a>Microsoft 365 Business 보안 및 규정 준수 기능
 
