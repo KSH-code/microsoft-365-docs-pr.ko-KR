@@ -16,17 +16,17 @@ search.appverid:
 - MET150
 ms.assetid: d7ccd944-9698-41c7-a21b-677dc62973c4
 description: 'Office 365 보안 및 준수 센터에서 Office 365 Advanced eDiscovery에 액세스하는 방법을 알아보고 Advanced eDiscovery를 사용하기 위한 일반적인 워크플로를 검토합니다.  '
-ms.openlocfilehash: e1af09caf57509bf472a766c9d9124ea969acc4e
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 1f434fe87fd93ebee03c4300c67214011f646134
+ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42070303"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42557848"
 ---
-# <a name="quick-setup-for-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery에 대한 빠른 설정
+# <a name="quick-setup-advanced-ediscovery-classic"></a>고급 eDiscovery 빠른 설정(클래식)
 
 > [!IMPORTANT]
-> 최신 버전의 Advanced eDiscovery에 계속 투자함에 따라, Office 365 Advanced eDiscovery(*Advanced eDiscovery v1.0*이라고도 함)를 발표합니다. Advanced eDiscovery v1.0을 계속 사용하고 있는 경우 [Advanced eDiscovery v2.0](overview-ediscovery-20.md)(*Advanced eDiscovery solution in Microsoft 365*라고도 함)으로 전환하세요. Advanced eDiscovery 2.0에는 Advanced eDiscovery v1.0에 있는 유사한 기능이 포함되어 있습니다. 또한 보유자 관리, 통신 관리, 검토 집합 등의 새로운 기능도 제공합니다. Advanced eDiscovery v1.0의 사용 중지에 대한 자세한 내용은 [레거시 eDiscovery 도구의 사용 중지](legacy-ediscovery-retirement.md#advanced-ediscovery-v10)를 참조하세요. 
+> 최신 버전의 Advanced eDiscovery에 계속 투자함에 따라, Office 365 Advanced eDiscovery(*Advanced eDiscovery(클래식)* 또는 *Advanced eDiscovery v1.0*이라고도 함)를 발표합니다. Advanced eDiscovery v1.0을 계속 사용하고 있는 경우 [Advanced eDiscovery v2.0](overview-ediscovery-20.md)(*Advanced eDiscovery solution in Microsoft 365*라고도 함)으로 전환하세요. Advanced eDiscovery 2.0에는 Advanced eDiscovery v1.0에 있는 유사한 기능이 포함되어 있습니다. 또한 보유자 관리, 통신 관리, 검토 집합 등의 새로운 기능도 제공합니다. Advanced eDiscovery v1.0의 사용 중지에 대한 자세한 내용은 [레거시 eDiscovery 도구의 사용 중지](legacy-ediscovery-retirement.md#advanced-ediscovery-v10)를 참조하세요. 
 
 이 설정 섹션에는 Advanced eDiscovery를 시작하는 방법에 대한 Microsoft 365 보안 &amp; 준수 센터 eDiscovery 관리자를 표시합니다. 사용자에게 두 기능에 대한 작업 지식이 있다고 가정합니다.
   
@@ -73,7 +73,7 @@ Advanced eDiscovery에서 사례로 이동하려면
   
 ## <a name="see-also"></a>참고 항목
 
-[Office 365 Advanced eDiscovery](office-365-advanced-ediscovery.md)
+[고급 eDiscovery (클래식)](office-365-advanced-ediscovery.md)
   
 [사용자 및 사례 설정](set-up-users-and-cases-in-advanced-ediscovery.md)
   
