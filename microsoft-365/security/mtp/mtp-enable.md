@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 73c4c9864713432d318b0b3cec9fbaf395deff45
-ms.sourcegitcommit: 0df099d2e1028bbba8b6371dc5fcd021dddc902b
+ms.openlocfilehash: fa970b28939ad43bf6a2717e603013277bc9130f
+ms.sourcegitcommit: cc3b64a91e16ccdaa9c338b9a9056dbe3963ba9e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "42374149"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42569169"
 ---
 # <a name="turn-on-microsoft-threat-protection"></a>Microsoft Threat Protection 사용 설정
 
@@ -36,7 +36,7 @@ Microsoft Threat Protection은 Microsoft Defender의 ATP(Advanced Threat Protect
 최적의 보호를 위해 Microsoft 위협 보호를 얻으려면 해당 하는 모든 지원 서비스를 네트워크에 배포 하는 것이 좋습니다. 자세한 내용은 [지원 되는 서비스 배포에 대 한 내용을 참조](deploy-supported-services.md)하세요.
 
 ## <a name="check-license-eligibility-and-required-permissions"></a>라이선스 자격 및 필요한 권한 확인
-Microsoft 365 E5, E5 Security, A5 또는 A5 보안 라이선스 또는 유효한 라이선스 조합이 지원 되는 서비스에 대 한 액세스를 제공 하 고 통해 microsoft 365 보안 센터에서 Microsoft Threat Protection을 사용할 수 있습니다.
+Microsoft 365 E5, E5 Security 또는 A5 라이선스 또는 유효한 라이선스 조합이 지원 되는 서비스에 대 한 액세스를 제공 하 고 통해 microsoft 365 보안 센터에서 Microsoft Threat Protection을 사용할 수 있습니다.
 
 라이선스 정보에 대 한 자세한 내용은 [라이선스 요구 사항을 참조](prerequisites.md#licensing-requirements)하세요.
 
@@ -88,7 +88,7 @@ Microsoft 지원 요원은 테 넌 트에 서비스 및 관련 리소스를 구�
 
 - [Microsoft Threat Protection 개요](microsoft-threat-protection.md)
 - [라이선스 요구 사항 및 기타 필수 구성 요소](prerequisites.md)
-- [지원 되는 서비스 배포](deploy-supported-services.md)
+- [지원 서비스 사용](deploy-supported-services.md)
 - [Microsoft Defender ATP 개요](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection)
 - [Office 365 ATP 개요](../office-365-security/office-365-atp.md)
 - [Microsoft Cloud App Security 개요](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security)

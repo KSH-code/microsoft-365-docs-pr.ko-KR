@@ -1,7 +1,7 @@
 ---
 title: Microsoft Threat Protection에서 고급 헌팅 쿼리 언어 알아보기
 description: 첫 번째 위협 헌팅 쿼리를 만들고 고급 헌팅 쿼리 언어의 일반적인 연산자와 기타 요소에 대한 정보를 알아봅니다.
-keywords: 고급 구하기, 위협 검색, 사이버 위협 검색, microsoft threat protection, microsoft 365, mtp, m365, 검색, 쿼리, 언어, 학습, 첫 번째 쿼리, 원격 분석, 이벤트, 원격, 사용자 지정 감지, 스키마, kusto, and, data types
+keywords: 고급 구하기, 위협 검색, 사이버 위협 검색, microsoft threat protection, microsoft 365, mtp, m365, 검색, 쿼리, 언어, 학습, 첫 번째 쿼리, 원격 분석, 이벤트, 원격, 사용자 지정 감지, 스키마, kusto, and, data types, powershell 다운로드, 쿼리 예제
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: microsoft-365-enterprise
@@ -17,83 +17,96 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: eda9b893057afd54a644f0091bf4e1b421bd5439
-ms.sourcegitcommit: 74bf600424d0cb7b9d16b4f391aeda7875058be1
+ms.openlocfilehash: 7f2cf7f62060774343354467d27b76456f6581fc
+ms.sourcegitcommit: cc3b64a91e16ccdaa9c338b9a9056dbe3963ba9e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42234697"
+ms.lasthandoff: 03/09/2020
+ms.locfileid: "42567034"
 ---
 # <a name="learn-the-advanced-hunting-query-language"></a>고급 헌팅 쿼리 언어 알아보기
 
 **적용 대상:**
 - Microsoft Threat Protection
 
-
-
 고급 헌팅은 [Kusto 쿼리 언어](https://docs.microsoft.com/azure/kusto/query/)를 기반으로 합니다. Kusto 구문 및 연산자를 사용하여 고급 헌팅을 위해 특별히 구성된 [스키마](advanced-hunting-schema-tables.md)에서 정보를 찾는 쿼리를 만들 수 있습니다. 이러한 개념을 보다 잘 이해하려면 첫 번째 쿼리를 실행합니다.
 
 ## <a name="try-your-first-query"></a>첫 번째 쿼리 시도하기
 
-Microsoft 365 보안 센터에서 **헌팅**으로 이동하여 첫 번째 쿼리를 실행합니다. 다음 예제를 사용합니다.
+Microsoft 365 보안 센터에서 **검색으로 이동 하 여** 첫 번째 쿼리를 실행 합니다. 다음 예제를 사용합니다.
 
 ```kusto
-// Finds PowerShell execution events that could involve a download.
-DeviceProcessEvents 
+// Finds PowerShell execution events that could involve a download
+union DeviceProcessEvents, DeviceNetworkEvents
 | where Timestamp > ago(7d)
-| where FileName in ("powershell.exe", "POWERSHELL.EXE", "powershell_ise.exe", "POWERSHELL_ISE.EXE") 
-| where ProcessCommandLine has "Net.WebClient"
-        or ProcessCommandLine has "DownloadFile"
-        or ProcessCommandLine has "Invoke-WebRequest"
-        or ProcessCommandLine has "Invoke-Shellcode"
-        or ProcessCommandLine contains "http:"
-| project Timestamp, DeviceName, InitiatingProcessFileName, FileName, ProcessCommandLine
+// Pivoting on PowerShell processes
+| where FileName in~ ("powershell.exe", "powershell_ise.exe")
+// Suspicious commands
+| where ProcessCommandLine has_any("WebClient",
+ "DownloadFile",
+ "DownloadData",
+ "DownloadString",
+"WebRequest",
+"Shellcode",
+"http",
+"https")
+| project Timestamp, DeviceName, InitiatingProcessFileName, InitiatingProcessCommandLine, 
+FileName, ProcessCommandLine, RemoteIP, RemoteUrl, RemotePort, RemoteIPType
 | top 100 by Timestamp
 ```
 
 이는 고급 헌팅에서 표시되는 모습입니다.
 
-![Microsoft Defender ATP 고급 헌팅 쿼리 이미지](../../media/advanced-hunting-query-example.png)
+![Microsoft Threat Protection 고급 구하기 쿼리 이미지](../../media/advanced-hunting-query-example.png)
 
-쿼리는 내용을 설명하는 짧은 메모로 시작합니다. 이렇게 하면 나중에 쿼리를 저장하여 조직의 다른 사용자와 공유하도록 결정한 경우에 도움이 됩니다.
+쿼리의 시작 부분에 요약 설명이 추가 되어 해당 내용을 설명 합니다. 이렇게 하면 나중에 쿼리를 저장 하 고 조직의 다른 사용자와 공유할 수 있습니다. 
 
 ```kusto
-// Finds PowerShell execution events that could involve a download.
-DeviceProcessEvents
+// Finds PowerShell execution events that could involve a download
 ```
 
-일반적으로 쿼리 자체는 표 이름으로 시작하고 다음으로 파이프(`|`)로 시작되는 일련의 요소가 옵니다. 이 예제에서는 표 이름 `DeviceProcessEvents`로 추가하고, 필요에 따라 파이프된 요소를 추가하는 것으로 시작합니다.
+일반적으로 쿼리 자체는 표 이름으로 시작하고 다음으로 파이프(`|`)로 시작되는 일련의 요소가 옵니다. 이 예제에서는 먼저 두 개의 테이블 `DeviceProcessEvents` `DeviceNetworkEvents`을 통합 하 고 필요에 따라 파이프 된 요소를 추가 합니다.
 
-첫 번째 파이프된 요소는 이전 7일 이내에 범위가 지정된 시간 필터입니다. 시간 범위를 가능한 한 좁게 유지하면 쿼리가 제대로 수행되고 관리 가능한 결과를 반환하며 시간 초과되지 않습니다.
+```kusto
+union DeviceProcessEvents, DeviceNetworkEvents
+```
+첫 번째 파이프 요소는 이전 7 일간 범위가 지정 된 시간 필터입니다. 시간 범위를 가능한 한 좁게 유지하면 쿼리가 제대로 수행되고 관리 가능한 결과를 반환하며 시간 초과되지 않습니다.
 
 ```kusto
 | where Timestamp > ago(7d)
 ```
 
-시간 범위 바로 다음으로 PowerShell 응용 프로그램을 나타내는 파일을 검색합니다.
+시간 범위 바로 뒤에 PowerShell 응용 프로그램을 나타내는 프로세스 파일 이름을 검색 합니다.
 
-```kusto
-| where FileName in ("powershell.exe", "POWERSHELL.EXE", "powershell_ise.exe", "POWERSHELL_ISE.EXE")
+```
+// Pivoting on PowerShell processes
+| where FileName in~ ("powershell.exe", "powershell_ise.exe")
 ```
 
-그런 다음 쿼리는 PowerShell과 함께 일반적으로 파일을 다운로드하는 데 사용되는 명령줄을 검색합니다.
+나중에이 쿼리는 PowerShell을 사용 하 여 파일을 다운로드 하는 데 일반적으로 사용 되는 명령줄에서 문자열을 찾습니다.
 
 ```kusto
-| where ProcessCommandLine has "Net.WebClient"
-        or ProcessCommandLine has "DownloadFile"
-        or ProcessCommandLine has "Invoke-WebRequest"
-        or ProcessCommandLine has "Invoke-Shellcode"
-        or ProcessCommandLine contains "http:"
+// Suspicious commands
+| where ProcessCommandLine has_any("WebClient",
+ "DownloadFile",
+ "DownloadData",
+ "DownloadString",
+"WebRequest",
+"Shellcode",
+"http",
+"https")
 ```
-
-쿼리에서 찾으려고 하는 데이터를 명확하게 식별하므로 결과 모양을 정의하는 요소를 추가할 수 있습니다. `project`은(는) 특정 열을 반환하고 `top`은(는) 결과 수를 제한하여 결과를 잘 서식화하고 상당히 크고 쉽게 처리할 수 있도록 합니다.
+쿼리에서 찾으려고 하는 데이터를 명확하게 식별하므로 결과 모양을 정의하는 요소를 추가할 수 있습니다. `project`특정 열을 반환 `top` 하 고 결과 수를 제한 하 여 결과의 올바른 형식을 지정 하 고 합리적이 고 쉽게 처리할 수 있도록 지원 합니다.
 
 ```kusto
-| project Timestamp, DeviceName, InitiatingProcessFileName, FileName, ProcessCommandLine
+| project Timestamp, DeviceName, InitiatingProcessFileName, InitiatingProcessCommandLine, 
+FileName, ProcessCommandLine, RemoteIP, RemoteUrl, RemotePort, RemoteIPType
 | top 100 by Timestamp
 ```
 
-**쿼리 실행**을 클릭하여 결과를 확인합니다. 헌팅 쿼리와 결과에 집중할 수 있도록 화면 보기를 확장할 수 있습니다.
+**쿼리 실행**을 클릭하여 결과를 확인합니다. 검색 쿼리와 결과에 중점을 두기 위해 쿼리 편집기의 오른쪽 위에 있는 확장 아이콘을 선택 합니다.
+
+![고급 구하기 쿼리 편집기의 확장 컨트롤 이미지](../../media/advanced-hunting-expand.png)
 
 ## <a name="learn-common-query-operators-for-advanced-hunting"></a>고급 헌팅에 대한 일반적인 쿼리 연산자 살펴보기
 

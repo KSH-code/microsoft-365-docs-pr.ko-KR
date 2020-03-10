@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: ef26a2ebc25d7f55e7dc22347d85767dab970536
-ms.sourcegitcommit: 9224a7a5886c0c5fa0bc12bd9f7234a0eba90023
+ms.openlocfilehash: 3e18759387525ec600c24f74c96d6cddf206fc82
+ms.sourcegitcommit: cc3b64a91e16ccdaa9c338b9a9056dbe3963ba9e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42372056"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42569048"
 ---
 # <a name="microsoft-threat-protection-prerequisites"></a>Microsoft 위협 방지 필수 구성 요소
 
@@ -40,8 +40,6 @@ Microsoft Threat Protection을 사용 하려면 다음 라이선스 또는 라�
 - Microsoft 365 E5 Security
 - Office 365 E5 및 "Enterprise Mobility + Security E5 (EMS E5)" 및 Windows E5
 - Microsoft 365 A5
-- Microsoft 365 A5 보안
-- Office 365 A5 및 "Enterprise Mobility + Security A5 (EMS A5)" 및 Windows A5
 
 자세한 내용은 [Microsoft 365 Enterprise 서비스 요금제를 참조](https://www.microsoft.com/licensing/product-licensing/microsoft-365-enterprise)하세요.
 
