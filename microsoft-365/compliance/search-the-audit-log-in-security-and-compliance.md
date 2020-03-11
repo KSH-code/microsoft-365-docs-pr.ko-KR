@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: '보안 및 준수 센터를 사용하여 통합 감사 로그를 검색해 Office 365 조직의 사용자 및 관리자 활동을 확인합니다. '
-ms.openlocfilehash: 2c69cc6f7e5b332819061e3bf92b9ab02a1dc8db
-ms.sourcegitcommit: 26e4d5091583765257b7533b5156daa373cd19fe
+ms.openlocfilehash: 6d83b9af94ecb086d933cd00476ca84e87d6db2e
+ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/06/2020
-ms.locfileid: "42551818"
+ms.lasthandoff: 03/07/2020
+ms.locfileid: "42562035"
 ---
 # <a name="search-the-audit-log-in-the-security--compliance-center"></a>보안 및 준수 센터에서 감사 로그 검색
 
@@ -340,7 +340,7 @@ Office 365에서 감사 로그를 검색하는 과정은 다음과 같습니다.
 |(없음)|FileModifiedExtended|“파일 수정됨"(FileModified) 활동과 관련이 있습니다. FileModifiedExtended 이벤트는 동일한 사용자가 장시간(최대 3시간) 지속적으로 파일을 수정할 때 기록됩니다. <br/><br/> FileModifiedExtended 이벤트 로깅의 목적은 파일이 지속적으로 수정될 때 기록되는 FileModified 이벤트의 수를 줄이는 것입니다. 이렇게 하면 기본적으로 무엇이 동일한 사용자 활동인지에 대한 여러 FileModified 레코드의 노이즈를 줄일 수 있으며 초기( 및 중요한) FileModified 이벤트에 집중할 수 있습니다.|
 |파일 이동됨|FileMoved|사용자가 사이트의 현재 위치에서 새 위치로 문서를 이동합니다.|
 |(없음)|FilePreviewed|사용자가 SharePoint 또는 비즈니스용 OneDrive 사이트에서 파일을 미리 봅니다. 이러한 이벤트는 일반적으로 이미지 갤러리 보기와 같이 단일 활동을 기반으로 대량으로 발생합니다.|
-|수행한 검색 쿼리|SearchQueryPerformed|사용자 또는 시스템 계정이 SharePoint 또는 비즈니스용 OneDrive에서 검색을 수행합니다. 서비스 계정에서 검색 쿼리를 수행하는 몇 가지 일반적인 시나리오에는 사이트 및 OneDrive 계정에 eDiscovery 보존 또는 보존 정책을 적용하는 것과 보존 혹은 민감도 레이블이 사이트 콘텐츠에 자동으로 적용되는 경우가 포함됩니다. 대부분의 경우 감사 레코드의 사용자 필드에 기록된 서비스 계정의 이름은 **app\@sharepoint**입니다. </br></br> **팁**: 수행한 검색 쿼리 활동에 대한 감사 레코드에서 ApplicationDisplayName 및 EventData 필드는 이 이벤트를 트리거한 시나리오 또는 서비스를 식별하는 데 도움이 될 수 있습니다.|
+|수행한 검색 쿼리|SearchQueryPerformed|사용자 또는 시스템 계정이 SharePoint 또는 비즈니스용 OneDrive에서 검색을 수행합니다. 서비스 계정에서 검색 쿼리를 수행하는 몇 가지 일반적인 시나리오에는 사이트 및 OneDrive 계정에 eDiscovery 보존 및 보존 정책을 적용하는 것과 보존 혹은 민감도 레이블이 사이트 콘텐츠에 자동으로 적용되는 경우가 포함됩니다.|
 |파일의 모든 부 버전이 재생됨|FileVersionsAllMinorsRecycled|사용자가 파일의 버전 기록에서 모든 부 버전을 삭제합니다. 삭제된 버전은 사이트의 휴지통으로 이동됩니다.|
 |파일의 모든 버전이 재생됨|FileVersionsAllRecycled|사용자가 파일의 버전 기록에서 모든 버전을 삭제합니다. 삭제된 버전은 사이트의 휴지통으로 이동됩니다.|
 |파일의 버전이 재생됨|FileVersionRecycled|사용자가 파일의 버전 기록에서 버전을 삭제합니다. 삭제된 버전은 사이트의 휴지통으로 이동됩니다.|
@@ -353,10 +353,25 @@ Office 365에서 감사 로그를 검색하는 과정은 다음과 같습니다.
 |(없음)|PagePrefetched|사용자의 클라이언트(예 : 웹 사이트 또는 모바일 앱)가 사용자가 웹 페이지를 탐색할 때 성능을 개선할 수 있도록 표시된 페이지를 요청했습니다. 이 이벤트는 페이지 콘텐츠가 사용자의 클라이언트에게 제공되었음을 나타내기 위해 기록됩니다. 이 이벤트는 사용자가 페이지를 탐색했다는 명확한 표시가 아닙니다. <br/><br/> 클라이언트가 페이지 콘텐츠를 렌더링하면(사용자 요청에 따라) ClientViewSignaled 이벤트가 생성되어야 합니다. 모든 클라이언트가 사전 페치 표시하도록 지원하지 않으므로 일부 사전 페치된 활동이 PageViewed 이벤트로 대신 기록될 수 있습니다.|
 ||||
 
+#### <a name="the-appsharepoint-user-in-audit-records"></a>감사 레코드의 app\@sharepoint 사용자입니다.
+
+일부 파일 작업(및 기타 SharePoint 관련 작업)에 대한 감사 기록에서 작업을 수행한 사용자(User 및 UserId 필드에 식별됨)가 app@sharepoint인 것을 알 수 있습니다. 이는 작업을 수행한 "사용자"가 응용 프로그램임을 나타냅니다. 이 경우 응용 프로그램은 사용자, 관리자 또는 서비스를 대신하여 조직 전체 작업(예: SharePoint 사이트 검색 또는 OneDrive 계정 검색)을 수행할 수 있는 권한을 SharePoint에서 부여 받았습니다. 응용 프로그램에 대한 사용 권한을 부여하는 프로세스를 *SharePoint 앱 전용* 액세스 권한이라고 합니다. 이는 사용자가 아닌 응용 프로그램에서 작업을 수행하기 위해 SharePoint에 제공되는 인증을 의미합니다. App@sharepoint 사용자가 특정 감사 레코드로 식별되었기 때문입니다. 자세한 내용은 [SharePoint 앱 전용을 사용하여 액세스 허가](https://docs.microsoft.com/sharepoint/dev/solution-guidance/security-apponly-azureacs)를 참조하세요.
+
+예를 들어 app@sharepoint은 종종 "검색 쿼리 수행" 및 "액세스 파일" 이벤트에 대한 사용자로 식별됩니다. 이는 조직에서 SharePoint 앱 전용 액세스 권한을 가진 응용 프로그램이 사이트 및 OneDrive 계정에 보존 정책을 적용할 때 검색 쿼리를 수행하고 파일에 액세스하기 때문입니다.
+
+다음은 app@sharepoint를 감사 기록에서 활동을 수행한 사용자로 식별할 수 있는 몇 가지 다른 시나리오입니다.
+
+- Office 365 그룹 사용자 또는 관리자가 새 그룹을 만들 때 사이트 수집, 목록 업데이트 및 SharePoint 그룹에 구성원을 추가하기 위한 감사 레코드가 생성됩니다. 이 작업은 그룹을 만든 사용자를 대신하여 응용 프로그램을 수행합니다.
+
+- Microsoft Teams. Office 365 그룹과 마찬가지로 팀이 생성될 때 사이트 수집을 생성하고 목록을 업데이트하고 SharePoint 그룹에 구성원을 추가하는 감사 레코드가 생성됩니다.
+
+- 규정 준수 기능 관리자가 보존 정책과 같은 컴플라이언스 기능을 구현할 때 eDiscovery가 유지되고 감도 레이블이 자동으로 적용됩니다.
+
+이러한 시나리오 및 기타 시나리오에서는 app@sharepoint가 지정된 사용자인 여러 개의 감사 레코드가 매우 짧은 시간 내에, 종종 몇 초 이내에 생성되었음을 알 수 있습니다. 이는 또한 동일한 사용자 시작 작업에 의해 트리거되었을 수 있음을 나타냅니다. 또한 감사 레코드의 ApplicationDisplayName 및 EventData 필드는 이벤트를 트리거한 시나리오 또는 응용 프로그램을 식별하는 데 도움이 될 수 있습니다.
 
 ### <a name="folder-activities"></a>폴더 활동
 
-다음 표에서는 SharePoint Online 및 비즈니스용 OneDrive의 폴더 활동에 대해 설명합니다.
+다음 표에서는 SharePoint Online 및 비즈니스용 OneDrive의 폴더 활동에 대해 설명합니다. 앞에서 설명한 대로 일부 SharePoint 작업에 대한 감사 기록은 app@sharepoint 사용자가 작업을 시작한 사용자 또는 관리자를 대신하여 작업을 수행했음을 나타냅니다. 자세한 재용은 감사 레코드의 [앱\@sharepoint 사용자를 확인하세요](#the-appsharepoint-user-in-audit-records).
 
 |**친숙한 이름**|**작업**|**설명**|
 |:-----|:-----|:-----|
@@ -373,7 +388,7 @@ Office 365에서 감사 로그를 검색하는 과정은 다음과 같습니다.
 
 ### <a name="sharepoint-list-activities"></a>SharePoint 목록 활동
 
-다음 표에서는 사용자가 SharePoint Online에서 목록과 목록 항목과 상호 작용하는 경우와 관련된 활동에 대해 설명합니다.
+다음 표에서는 사용자가 SharePoint Online에서 목록과 목록 항목과 상호 작용하는 경우와 관련된 활동에 대해 설명합니다. 앞에서 설명한 대로 일부 SharePoint 작업에 대한 감사 기록은 app@sharepoint 사용자가 작업을 시작한 사용자 또는 관리자를 대신하여 작업을 수행했음을 나타냅니다. 자세한 재용은 감사 레코드의 [앱\@sharepoint 사용자를 확인하세요](#the-appsharepoint-user-in-audit-records).
 
 |**친숙한 이름**|**작업**|**설명**|
 |:-----|:-----|:-----|
@@ -451,7 +466,7 @@ Office 365에서 감사 로그를 검색하는 과정은 다음과 같습니다.
 
 ### <a name="site-permissions-activities"></a>사이트 사용 권한 활동
 
-다음 표에서는 SharePoint에서 사용 권한을 할당하고 그룹을 사용하 여 사이트에 대한 액세스를 제공하고 철회하는 데 관련된 이벤트를 보여 줍니다.
+다음 표에서는 SharePoint에서 사용 권한을 할당하고 그룹을 사용하 여 사이트에 대한 액세스를 제공하고 철회하는 데 관련된 이벤트를 보여 줍니다. 앞에서 설명한 대로 일부 SharePoint 작업에 대한 감사 기록은 app@sharepoint 사용자가 작업을 시작한 사용자 또는 관리자를 대신하여 작업을 수행했음을 나타냅니다. 자세한 재용은 감사 레코드의 [앱\@sharepoint 사용자를 확인하세요](#the-appsharepoint-user-in-audit-records).
 
 |**친숙한 이름**|**작업**|**설명**|
 |:-----|:-----|:-----|
@@ -475,7 +490,7 @@ Office 365에서 감사 로그를 검색하는 과정은 다음과 같습니다.
 
 ### <a name="site-administration-activities"></a>사이트 관리 활동
 
-다음 표에는 사용자가 SharePoint Online에서 사이트 관리 작업이 수행될 때 발생하는 이벤트가 나와 있습니다.
+다음 표에는 사용자가 SharePoint Online에서 사이트 관리 작업이 수행될 때 발생하는 이벤트가 나와 있습니다. 앞에서 설명한 대로 일부 SharePoint 작업에 대한 감사 기록은 app@sharepoint 사용자가 작업을 시작한 사용자 또는 관리자를 대신하여 작업을 수행했음을 나타냅니다. 자세한 재용은 감사 레코드의 [앱\@sharepoint 사용자를 확인하세요](#the-appsharepoint-user-in-audit-records).
 
 |**친숙한 이름**|**작업**|**설명**|
 |:-----|:-----|:-----|
