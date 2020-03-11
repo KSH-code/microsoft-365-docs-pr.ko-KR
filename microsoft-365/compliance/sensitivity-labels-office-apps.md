@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 사용자가 데스크톱에 대 한 Office 앱, 모바일 용 Office 앱 및 웹 용 Office 앱에서 민감도 레이블을 사용 하는 방법에 대해 알아봅니다. 민감도 레이블을 지 원하는 앱을 찾습니다.
-ms.openlocfilehash: 759c944bc72c39d1fd118dcb1b3515b5ede79687
-ms.sourcegitcommit: 41c0bc5cf50f4ca63b4286d1ea0f58ab82984b7a
+ms.openlocfilehash: 41d4231b163d85b55ed0cd68ffb551f67d30827a
+ms.sourcegitcommit: 1883a103449d7b03d482228bd9ef39a7caf306cf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42548184"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42583155"
 ---
 # <a name="use-sensitivity-labels-in-office-apps"></a>Office 앱의 민감도 레이블 사용
 
@@ -118,6 +118,34 @@ Azure Information Protection 클라이언트 및 Office 기본 제공 레이블 
 Office 365 메시지 암호화에 대해 정의 하는 것과 같은 관리자 정의 [보호 템플릿은](https://docs.microsoft.com/azure/information-protection/configure-policy-templates)기본 제공 레이블을 사용 하는 경우 office 앱에 표시 되지 않습니다. 이러한 단순화 된 환경은 암호화를 사용 하도록 설정 된 민감도 레이블에 동일한 설정이 포함 되므로 보호 템플릿을 선택할 필요가 없다는 것을 나타냅니다.
 
 기존 보호 템플릿을 레이블로 변환 해야 하는 경우 Azure portal 및 다음 지침을 사용 [하 여 서식 파일을 레이블로 변환](https://docs.microsoft.com/azure/information-protection/configure-policy-templates#to-convert-templates-to-labels)합니다.
+
+## <a name="information-rights-management-irm-options-and-sensitivity-labels"></a>IRM (정보 권한 관리) 옵션 및 민감도 레이블
+
+민감도 레이블 암호화를 적용 하도록 구성한 사용자의 복잡도를 제거 하 여 고유한 암호화 설정을 지정 합니다. 대부분의 Office 앱에서 이러한 개별 암호화 설정은 IRM (정보 권한 관리) 옵션을 사용 하 여 사용자가 수동으로 구성할 수 있습니다. 예를 들어 Windows 앱에 대해 다음을 수행 합니다.
+
+- 문서의 경우: **파일** > **정보** > **보호 문서** > **제한 액세스**
+- 전자 메일의 경우: **Options** 탭에서 **Encrypt** > 합니다. 
+  
+처음에 문서 또는 전자 메일에 레이블을 지정 하면 사용자는 레이블 구성 설정을 자체 암호화 설정으로 무시할 수 있습니다. 예를 들면 다음과 같습니다.
+
+- 사용자가 문서에 **기밀 \ 모든 직원** 레이블을 적용 하며,이 레이블은 조직의 모든 사용자에 대해 암호화 설정을 적용 하도록 구성 됩니다. 이 사용자는 조직 외부의 사용자에 대 한 액세스를 제한 하도록 IRM 설정을 수동으로 구성 합니다. 최종 결과는 **기밀 \ 모든 직원** 및 암호화 됨 이라는 레이블이 지정 된 문서이 고 조직의 사용자가 예상 대로 열 수 없습니다.
+
+- 사용자가 **기밀 \ 받는 사람 전용** 레이블을 전자 메일에 적용 하 고이 전자 메일은 **전달 하지**않음에 대 한 암호화 설정을 적용 하도록 구성 됩니다. 이 사용자는 전자 메일이 무제한으로 표시 되도록 IRM 설정을 수동으로 구성 합니다. 최종 결과는 **기밀 \ 받는 사람 전용** 레이블을 갖고 있더라도 받는 사람이 전자 메일을 전달할 수 있습니다.
+
+- 사용자가 문서에 **일반** 레이블을 적용 하며이 레이블은 암호화를 적용 하도록 구성 되지 않습니다. 이 사용자는 문서에 대 한 액세스를 제한 하기 위해 IRM 설정을 수동으로 구성 합니다. 최종 결과는 레이블이 **일반** 이지만 일부 사용자가 예상 대로 열 수 없도록 암호화도 적용 되는 문서입니다.
+
+문서 또는 전자 메일에 이미 레이블이 지정 되어 있는 경우에는 콘텐츠가 아직 암호화 되지 않았거나 [사용 권한](https://docs.microsoft.com/azure/information-protection/configure-usage-rights#usage-rights-and-descriptions) 내보내기 또는 모든 권한이 있는 경우 사용자가 이러한 작업을 수행할 수 있습니다. 
+
+의미 있는 보고를 사용 하 여 보다 일관성 있는 레이블 환경을 제공 하려면 사용자에 게 레이블을 독점적으로 적용 하는 데 적합 한 레이블과 지침을 제시 합니다. 예를 들면 다음과 같습니다.
+
+- 사용자가 자신의 사용 권한을 할당 해야 하는 경우 사용자에 [게 고유한 사용 권한을 할당](encryption-sensitivity-labels.md#let-users-assign-permissions)하는 데 사용할 수 있는 레이블을 제공 합니다. 
+
+- 사용자가 암호화를 적용 하는 레이블을 선택한 후 수동으로 암호화를 제거 하는 대신, 사용자에 게 동일한 분류의 레이블이 필요한 경우에는 암호화를 사용 하지 않는 sublabel 대체 방법을 제공 합니다. 예:
+    - **기밀 \ 모든 직원**
+    - **기밀 \ 모든 사용자 (암호화 안 함)**
+
+> [!NOTE]
+> 사용자가 SharePoint 또는 OneDrive에 저장 되어 있는 레이블이 지정 된 문서에서 암호화를 수동으로 제거 하 고 [sharepoint 및 onedrive에서 Office 파일에 대 한 민감도 레이블을 사용 하도록 설정한](sensitivity-labels-sharepoint-onedrive-files.md)경우 다음에 문서를 액세스 하거나 다운로드할 때 레이블 암호화가 자동으로 복원 됩니다. 
 
 ## <a name="apply-sensitivity-labels-to-files-emails-and-attachments"></a>파일, 전자 메일 및 첨부 파일로 민감도 레이블 적용
 

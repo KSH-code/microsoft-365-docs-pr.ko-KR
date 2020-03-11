@@ -5,16 +5,16 @@ keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
-ms.openlocfilehash: 2d6dffad4b4d96e065dd5163ea702c91c27520fb
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: b65724a1eee35149d473fb69ff646b5ef5751b2c
+ms.sourcegitcommit: 1883a103449d7b03d482228bd9ef39a7caf306cf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42085849"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42583175"
 ---
 # <a name="microsoft-managed-desktop-product-lifecycle"></a>Microsoft Managed Desktop 제품 수명 주기
 
-Microsoft Managed Desktop 복지 최종 사용자는 항상 최상의 성능, 안정성, 디자인 및 보안 기능을 제공 하는 장치 (예: Windows Hello와 같은 기능 지원)를 사용 하는 것을 보장 합니다. 이 작업을 수행 하기 위해 Microsoft Managed Desktop은 [승인 된 장치](device-list.md)를 지속적으로 업데이트 하는 짧은 카탈로그를 유지 관리 합니다. 
+Microsoft Managed Desktop 이점은 최종 사용자가 항상 최상의 성능, 안정성, 디자인 및 보안 기능을 제공 하는 장치 (예: Windows Hello와 같은 기능 지원)를 사용 하는 것을 보장 합니다. 이 작업을 수행 하기 위해 Microsoft Managed Desktop은 [승인 된 장치](device-list.md)를 지속적으로 업데이트 하는 짧은 카탈로그를 유지 관리 합니다. 
  
 이 항목에서는 승인 된 카탈로그에서 장치가 추가 되거나 제거 될 때의 장치 수명 주기에 대해 자세히 설명 합니다. 
 
@@ -31,7 +31,7 @@ Microsoft Managed Desktop 복지 최종 사용자는 항상 최상의 성능, �
 - [제품 폐기](#product-retirement)
 
 
-전체 순서는 다음 그림에 나와 있습니다.
+다음 그림에서는 전체 시퀀스를 보여 줍니다.
 
 ![수명 주기 시간 표시 막대: 제품 일반 가용성부터 시작 하 여 "기본 가용성"은 2 년 동안 지속 됩니다. 이 시간 동안에는 인증 윈도우가 종료 되 고 특정 지점에서 장치가 등록 됩니다. 기본 가용성이 끝나면 제품이 보관 되 고 "유예 기간"이 3 년 후에 시작 됩니다. 시작 중에는 장치가 등록 때부터 관리에서 제거 될 때까지 3 년 동안 사용할 수 있습니다. 유예 기간이 끝나면 카탈로그에서 제품을 제거 합니다.](../../media/non-dark1-edits.PNG)
 
@@ -40,7 +40,7 @@ Microsoft Managed Desktop 복지 최종 사용자는 항상 최상의 성능, �
 이 표에서는 이론적인 제품의 예제 날짜를 보여 줍니다.
 
 
-|제품  |승인 날짜  |기본 가용성 종료  |기능 사용 자격 끝  |
+|제품  |승인 날짜  |기본 가용성 종료  |자격의 끝  |
 |---------|---------|---------|---------|
 |Fabrikam 랩톱    | 1/1/2017 | 6/1/2019 | 6/1/2022 |
 |Adatum 랩톱   | 1/1/2018 | 6/1/2020 | 6/1/2023  |
@@ -64,14 +64,14 @@ Microsoft Managed Desktop 복지 최종 사용자는 항상 최상의 성능, �
   
 Microsoft Managed Desktop은 처음 6 개월 이내에 인증 장치를 평가 합니다. 이렇게 하면 항상 최신 하드웨어 세대에 초점을 맞추어 작업을 진행 하 게 됩니다.
  
-이 단계를 완료 하면 Microsoft Managed Desktop이 제품을 [승인 된 목록](device-list.md)에 추가 하 여 고객 enrollments 제품을 효과적으로 출시 합니다. 장치가 인증 된 날짜에 관계 없이 해당 사용자의 **승인 된 날짜** 는 제품의 일반 사용 가능 날짜를 소유 하 게 됩니다. 
+이 단계를 완료 하면 Microsoft Managed Desktop이 제품을 [승인 된 목록](device-list.md)에 추가 하 여 고객 enrollments 제품을 효과적으로 출시 합니다. 장치가 인증 된 날짜에 관계 없이 해당 **승인 된 날짜** 는 제품의 일반 사용 가능 날짜에 따라 다시 날짜가 지정 됩니다. 
 
 
 ## <a name="product-primary-availability-period"></a>제품 기본 가용성 기간
 
 이 기간은 제품 가용성의 핵심입니다.
 
-![기본 availibility를 보여 주는 수명 주기 시간 표시줄](../../media/non-dark4-edits.PNG)
+![기본 가용성을 보여 주는 수명 주기 시간 표시줄](../../media/non-dark4-edits.PNG)
 
 이 기간 중에 등록 된 모든 장치에는 Microsoft Managed Desktop (파란색 시간 표시 막대)에서 지원 되는 3 년간의 모든 지원이 제공 됩니다. 이 기간은 일반 사용 가능 날짜 로부터 24 개월 후로 설정 될 때까지 지속 됩니다.
 
@@ -88,7 +88,7 @@ Microsoft Managed Desktop에 등록 하기 전에 최근 많은 수의 승인 �
 
 위 표에서 Fabrikam 랩톱 예제에는 다음과 같은 상황이 나와 있습니다. 
 
-|제품  |승인 날짜  |기본 가용성 종료  |기능 사용 자격 끝  |
+|제품  |승인 날짜  |기본 가용성 종료  |자격의 끝  |
 |---------|---------|---------|---------|
 |Fabrikam 랩톱    | 6/1/2017 | 6/1/2019 | 6/1/2022 |
 
@@ -105,21 +105,10 @@ Microsoft Managed Desktop에 등록 하기 전에 최근 많은 수의 승인 �
 
 Microsoft Managed Desktop management에 허용 된 창이 경과 하면 장치가 준수 되지 않습니다. 장치가 3 년 동안 관리 되거나 해당 제품 유형이 장치 카탈로그에서 제거 될 때 발생 합니다. 현재 장치에 대 한 준수를 중단 하기 전에 새 장치를 배포 하는 것과 같은 조달 주기를 항상 대상으로 지정 해야 합니다.
 
-Microsoft Managed Desktop 팀은 조달 주기가 길고 장기간 실행 되는 예산을 중심으로 계획 되는 것을 알 수 있습니다. 장치 채우기의 상태를 항상 확인 하려면 관리 되는 모든 장치, 미래의 퇴직 날짜 및 준수를 나타내는 상태를 나열 하는 [웹 사이트](https://aka.ms/mmdportal) 를 제공 합니다. 즉, 항상 장치 보존 기간에 대 한 최신 정보가 있으며, 모든 조달 계획 주기에서이 보고서를 활용할 수 있습니다. 
+Microsoft Managed Desktop 팀은 조달 주기가 길고 장기간 실행 되는 예산을 중심으로 계획 되는 것을 알 수 있습니다. 장치 채우기의 상태를 항상 확인 하려면 관리 되는 모든 장치, 해당 보존 기간 및 준수를 나타내는 상태를 나열 하는 [웹 사이트](https://aka.ms/mmdportal) 를 제공 합니다. 즉, 항상 장치 보존 기간에 대 한 최신 정보가 있으며, 모든 조달 계획 주기에서이 보고서를 사용할 수 있습니다. 
 
 
-또한 새로운 장치가 시간에 배포 되도록 다음과 같은 자동화 된 작업도 수행 됩니다.
 
-
-|시간 표시 막대  |작업  |
-|---------|---------|
-|T-90     | 이 장치는 **곧 만료**되며 장치 인벤토리 웹 사이트에 노란색 마커가 표시 됩니다.  |
-|T-60     | 이 장치는 장치 인벤토리 웹 사이트에서 빨간색 마커로 **만료** 로 플래그를 지정 합니다.       |
-|T-30     | 관리자 포털에 해당 장치가 규정 준수를 imminently 것을 알리는 메시지를 게시 합니다.       |
-|개     |  관리자 포털을 조정 하 여 장치가 이제 만료 되어 장치 목록에서 먼저 지점으로 관리자에 게 리디렉션됩니다.       |
-|T + 30     |  새 장치를 배포할 때까지 관리자 포털 기능을 낮춥니다.       |
-|T + 60     |  새 장치를 배포할 때까지 관리자 포털 기능을 낮춥니다.       |
-|T + 90     |  관리에서 디바이스를 제거 합니다. 이때 장치는 자신만의 책임을 차지 하며 더 이상 안전 하지도 않으며 최신 상태로 간주 하지 않는 것이 좋습니다. 또한 각 구성 서비스 공급자가 자체 설정을 제어 하므로 장치가 알 수 없는 상태가 됩니다.|
 
 
 

@@ -16,12 +16,12 @@ ms.assetid: 6f64f2de-d626-48ed-8084-03cc72301aa4
 ms.collection:
 - M365-security-compliance
 description: EOP (Exchange Online Protection) 및 ATP (Advanced Threat Protection) 보안 설정에 대 한 모범 사례 표준 보호에 대 한 최신 권장 사항은 무엇 인가요? 보다 엄격한 기능을 사용 하려면 어떻게 해야 합니까? 또한 ATP (Advanced Threat Protection)를 사용 하는 경우에는 어떤 것을 얻게 됩니까?
-ms.openlocfilehash: 8a64b92e8191000be2767f498fbaee179c3b9e69
-ms.sourcegitcommit: 30ff011e5e8ba51c7ccc7e5fa9cd25aeca472acd
+ms.openlocfilehash: b7c98fe4b362a5be72be9e103a2602cd4954e028
+ms.sourcegitcommit: 3b6e226d07b5227054d5c8d1a012694caf88f50a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/03/2020
-ms.locfileid: "41678926"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42587293"
 ---
 # <a name="recommended-settings-for-eop-and-office-365-atp-security"></a>EOP 및 Office 365 ATP 보안에 대 한 권장 설정
 
@@ -62,8 +62,8 @@ ms.locfileid: "41678926"
 |MarkAsSpamBulkMail|켜짐|켜짐|이 설정은 PowerShell 에서만 사용할 수 있습니다.|
 
 스팸 방지 정책에는 더 이상 사용 되지 않는 고급 스팸 필터 (ASF) 라는 몇 가지 다른 매개 변수가 있습니다. 이러한 기능의 감가 상각 일정에 대 한 자세한 내용은이 항목의 외부에서 제공 됩니다.
- 
- 표준 수준과 엄격한 수준에 대해 이러한 설정을 **해제** 하는 것이 좋습니다.
+
+표준 수준과 엄격한 수준에 대해 이러한 설정을 **해제** 하는 것이 좋습니다.
 
 |보안 기능 이름|설명|
 |---------|---------|
@@ -145,10 +145,9 @@ EOP 고객은 앞에서 설명한 것 처럼 기본 피싱 방지를 제공 하�
 |스푸핑 방지 보호 사용|켜짐|켜짐||
 |인증 되지 않은 보낸 사람 (태깅) 사용|켜짐|켜짐||
 |도메인을 스푸핑할 수 없는 사용자가 전자 메일을 보낸 경우|받는 사람의 정크 메일 폴더로 메시지 이동|메시지 격리||
-|EnableAuthenticationSafetyTip|참|참|이 설정은 PowerShell 에서만 사용할 수 있습니다.|
-|EnableAuthenticationSoftPassSafetyTip|False|참|이 설정은 PowerShell 에서만 사용할 수 있습니다.|
 |EnableSuspiciousSafetyTip|False|참|이 설정은 PowerShell 에서만 사용할 수 있습니다.|
 |TreatSoftPassAsAuthenticated|참|False|이 설정은 PowerShell 에서만 사용할 수 있습니다.|
+
 
 |고급 설정 보안 기능 이름|표준을|항등|Comment|
 |---------|---------|---------|---------|
@@ -170,7 +169,7 @@ EOP 고객은 앞에서 설명한 것 처럼 기본 피싱 방지를 제공 하�
 
 |보안 기능 이름|표준을|항등|Comment|
 |---------|---------|---------|---------|
-|SharePoint, OneDrive 및 Microsoft Teams에 대한 ATP 켜기|사용|사용||
+|SharePoint, OneDrive 및 Microsoft Teams의 ATP 켜기|사용|사용||
 |ATP 안전한 첨부 파일 알 수 없는 맬웨어 응답|정책의|정책의||
 |검색 시 첨부 파일 리디렉션|사용|사용|첨부 파일이 맬웨어 인지 여부를 확인 하는 방법을 알고 있는 보안 관리자의 전자 메일 주소로 리디렉션|
 |ATP 안전한 첨부 파일 응답에 대 한 맬웨어 검색 시간이 초과 되거나 오류가 발생 하는 경우|사용|사용||

@@ -17,11 +17,11 @@ search.appverid:
 ms.assetid: ''
 description: 사례에서 모든 검토 설정에 적용 되는 고급 eDiscovery 설정을 구성 합니다. 여기에는 분석 및 OCR에 대 한 설정이 포함 됩니다.
 ms.openlocfilehash: 9a7568fac91fa9c021d05b255fc0a145002e7f29
-ms.sourcegitcommit: b567e946b57697186267cdfe303dfe3463cfd6ba
+ms.sourcegitcommit: 0b2c41dad19da5f0513097c36a4ff32a5868836c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/06/2020
-ms.locfileid: "42552073"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "42588811"
 ---
 # <a name="configure-search-and-analytics-settings"></a>검색 및 분석 설정 구성
 

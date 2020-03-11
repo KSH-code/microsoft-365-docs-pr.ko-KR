@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: 1fbd74e8-7a60-4157-afe8-fe79f05d2038
 description: 사서함을 비활성 사서함으로 설정 하 여 이전 직원의 사서함 콘텐츠를 보존 하는 방법에 대해 알아봅니다. 이 작업을 수행 하려면 사서함을 소송 보존으로 설정 하거나, 사서함에 Office 365 유지 정책을 적용 한 다음 해당 하는 Office 365 계정을 제거 하면 됩니다.
-ms.openlocfilehash: b5c6730a30ac0efba8f00abc01c0b2c26bf9e562
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 958572fc922f3bef140773369124b1c45147ad16
+ms.sourcegitcommit: 1883a103449d7b03d482228bd9ef39a7caf306cf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42072905"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42583045"
 ---
 # <a name="overview-of-inactive-mailboxes-in-office-365"></a>Office 365의 비활성 사서함에 대 한 개요
 
@@ -70,13 +70,21 @@ Office 365 보존 정책을 구성 하는 방법에 대 한 자세한 내용은 
 보안 & 준수 센터에서 eDiscovery 사례와 관련 된 보류가 사서함에 배치 되 면 사서함 이나 사용자의 Office 365 계정이 삭제 되 고 사서함이 비활성 사서함이 됩니다. However, we don't recommend using eDiscovery case holds to make a mailbox inactive. That's because eDiscovery cases are intended for specific, time-bound cases related to a legal issue. At some point, a legal case will probably end and the holds associated with the case will be removed and the eDiscovery case will be closed. In fact, if a hold that's placed on an inactive mailbox is associated with an eDiscovery case, and then the hold is released or the eDiscovery case is closed (or deleted), the inactive mailbox will be permanently deleted. 또한 시간 기반 eDiscovery 보류를 만들 수 없습니다. 즉, 비활성 사서함의 콘텐츠는 영구적으로 보존 되거나 보존을 제거 하 고 비활성 사서함을 삭제할 때까지 유지 됩니다. Therefore, we recommend using a Litigation Hold or an Office 365 retention policy for inactive mailboxes.
   
 EDiscovery 사례 및 보류에 대 한 자세한 내용은 [ediscovery 사례](ediscovery-cases.md)를 참조 하십시오.
-  
+
 ## <a name="inactive-mailboxes-and-office-365-labels"></a>비활성 사서함 및 Office 365 레이블
 
 레이블 Office 365 의 관리 방식에 대 한 조직에서 전자 메일 데이터를 분류 하 고 해당 분류에 따라 보존 규칙을 적용 하는데 도움이 됩니다. 레이블 관리자, 사용자가 수동으로 또는 자동으로 전자 메일 항목에 적용할 수 있습니다 및 전자 메일 항목에 할당 된 단일 레이블 하나만 사용할 수 있습니다. 사용자의 사서함에 있는 단일 전자 메일 항목에 레이블이 할당 되 고 해당 항목을 보존 하거나 보존 하 여 삭제 하도록 구성 되어 있는 경우 사서함 이나 사용자의 Office 365 계정이 삭제 되 면 사서함이 비활성 사서함이 됩니다. EDiscovery 사례 보류와 마찬가지로 하지 것이 좋습니다 레이블을 사용 하 여 사서함을 비활성화 해야 합니다. 대신, 소송 보존 또는 Office 365 보존 정책을 사용 하는 것이 좋습니다. 레이블의 경우 전자 메일 항목에 레이블이 적용 된 것을 모르고 사용자 계정을 삭제할 때 실수로 비활성 사서함을 만들지 못할 수 있습니다. 
   
 레이블에 대 한 자세한 내용은 [Office 365의 레이블 개요](labels.md)를 참조 하십시오.
   
+## <a name="inactive-mailboxes-and-auto-expanding-archives"></a>비활성 사서함 및 자동 확장 보관 함
+
+자동 확장 보관 함으로 구성 된 비활성 사서함은 복구 하거나 복원할 수 없습니다. 자동 확장 보관 함을 사용 하 여 비활성 사서함의 데이터를 복구 해야 하는 경우에는 콘텐츠 검색 도구를 사용 하 여 사서함에서 데이터를 내보낸 다음 다른 사서함으로 가져오는 것이 좋습니다. 비활성 사서함을 검색 하 고 검색 결과를 내보내는 단계별 지침은 다음을 참조 하십시오.
+
+- [Office 365의 콘텐츠 검색](https://docs.microsoft.com/microsoft-365/compliance/content-search)
+
+- [콘텐츠 검색 결과 내보내기](https://docs.microsoft.com/microsoft-365/compliance/export-search-results)
+
 ## <a name="inactive-mailboxes-and-exchange-mrm-retention-policies"></a>비활성 사서함과 Exchange MRM 보존 정책
 
 Exchange 보존 정책 ( Exchange Online 의 메시징 레코드 관리 또는 MRM, 기능) 비활성 이었습니다 때 사서함에 적용 된, (하는 보존 태그를 **삭제** 하는 보존 작업을 사용 하 여 구성 된) 모든 삭제 정책 계속 비활성 사서함에서 처리할 수 있습니다. 즉, 삭제 정책을 사용 하 여 태그가 지정 된 항목 보존 기간이 만료 되 면 복구 가능한 항목 폴더를 이동 됩니다. 이러한 항목은 보존 기간이 만료 될 때 비활성 사서함에서 제거 됩니다. 를 비활성 사서함에 대 한 보존 기간을 지정 하지 않으면 복구할 항목 폴더에서 항목을 무기한 유지 됩니다. 
