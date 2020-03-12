@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 3e3f16339d25c8cc592e937e30a446ed7e7cd333
-ms.sourcegitcommit: b567e946b57697186267cdfe303dfe3463cfd6ba
+ms.openlocfilehash: 69b3bbbbca98c3ef9e16f1cca4d67122ae14af3f
+ms.sourcegitcommit: 21338a9287017a66298e0ff557e80051946ebf13
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/06/2020
-ms.locfileid: "42542542"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "42604205"
 ---
 # <a name="configure-communication-compliance-in-microsoft-365"></a>Microsoft 365에서 통신 준수 구성
 
@@ -34,7 +34,7 @@ ms.locfileid: "42542542"
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
-통신 준수를 시작 하기 전에 Microsoft 365 구독을 확인 해야 합니다. 통신 준수 정책에 포함 된 사용자에 게는 Microsoft 365 E5 준수 라이선스, 고급 준수 추가 기능이 포함 된 Office 365 Enterprise E3 라이선스 또는 Microsoft 365 E5 구독에 포함 되어 있어야 합니다.
+통신 준수를 시작 하기 전에 Microsoft 365 구독을 확인 해야 합니다. 통신 준수 정책에 포함 된 사용자에 게는 Microsoft 365 E5 준수 라이선스, Advanced 준수 추가 기능이 포함 된 Office 365 Enterprise E3 라이선스 또는 Office 365 Enterprise E5 구독에 포함 되거나 Microsoft에 포함 되어야 합니다. 365 E5 구독
 
 Microsoft 365 Enterprise E5 요금제가 아직 없는 경우 microsoft 365을 기존 Office 365 구독에 [추가](https://docs.microsoft.com/office365/admin/try-or-buy-microsoft-365) 하거나 Microsoft 365 Enterprise E5 [평가판에 등록할](https://www.microsoft.com/microsoft-365/enterprise) 수 있습니다.
   

@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 5861348bb7c447c878f7f203acfd39fdf4c0a5f8
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 733abf925c80f90527b67660b84aea3e0482e906
+ms.sourcegitcommit: 6c8edbc54b193e964cf93aec48c51cb79231f1d9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42078765"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42543757"
 ---
 # <a name="communication-compliance-feature-reference"></a>통신 준수 기능 참조
 
@@ -65,14 +65,14 @@ Microsoft 365 준수 센터에서 Microsoft 365 조 직에 대 한 통신 준수
 
 통신 준수 정책을 사용 하 여 다음 통신 플랫폼 중 하나 이상의 메시지를 그룹으로 또는 독립 실행형 소스로 검색 하도록 선택할 수 있습니다. 이러한 플랫폼에서 캡처된 통신은 사용자가 조직과 사서함을 삭제 한 경우에도 기본적으로 각 정책에 대해 7 년 동안 보존 됩니다.
 
-- **Microsoft 팀**: 채팅 통신 및 공개 및 개인 Microsoft 팀 채널과 개별 채팅 모두에 연결 된 첨부 파일을 검색할 수 있습니다. 팀 대화방 일치 통신 준수 정책 조건은 24 시간 마다 한 번 처리 된 다음 통신 준수 보고서에서 사용할 수 있습니다. 다음 그룹 관리 구성을 사용 하 여 팀에서 개별 사용자 채팅 및 채널 통신을 감독할 수 있습니다.
+- **Microsoft 팀**: 채팅 통신 및 공개 및 개인 Microsoft 팀 채널과 개별 채팅 모두에 연결 된 첨부 파일을 검색할 수 있습니다. 통신 준수 정책 조건과 일치 하는 팀 채팅 및 첨부 파일 처리에 최대 24 시간이 걸릴 수 있습니다. 다음 그룹 관리 구성을 사용 하 여 팀에서 개별 사용자 채팅 및 채널 통신을 감독할 수 있습니다.
 
     - **팀 채팅 통신의 경우:** 개별 사용자를 할당 하거나 [메일 그룹](https://support.office.com/article/Distribution-groups-E8BA58A8-FAB2-4AAF-8AA1-2A304052D2DE) 을 통신 준수 정책에 할당 합니다. 이 설정은 일대일 또는 일대다 사용자/채팅 관계에 대 한 것입니다.
     - **팀 채널 통신의 경우:** 검색 하려는 모든 Microsoft 팀 채널 또는 Office 365 그룹에 특정 사용자가 포함 된 통신 준수 정책에 할당 합니다. 다른 Microsoft 팀 채널 또는 Office 365 그룹에 동일한 사용자를 추가 하는 경우 이러한 새 채널과 그룹을 통신 준수 정책에 추가 해야 합니다.
 
-- **Exchange 전자 메일**: Microsoft 365 또는 Office 365 구독의 일부로 exchange Online에서 호스트 되는 사서함은 모두 메시지를 검색 하는 데 적합 합니다. 통신 준수 정책 조건과 일치 하는 전자 메일 및 첨부 파일은 통신 준수 보고서에서 즉시 사용할 수 있습니다. 통신 준수를 위해 지원 되는 첨부 파일 유형은 [Exchange 메일 흐름 규칙 콘텐츠 검사에 대해 지원 되는 파일 형식과](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/inspect-message-attachments#supported-file-types-for-mail-flow-rule-content-inspection)동일 합니다.
+- **Exchange 전자 메일**: Microsoft 365 또는 Office 365 구독의 일부로 exchange Online에서 호스트 되는 사서함은 모두 메시지를 검색 하는 데 적합 합니다. Exchange 전자 메일 메시지 및 통신 준수 정책 조건과 일치 하는 첨부 파일을 처리 하는 데 최대 24 시간이 걸릴 수 있습니다. 통신 준수를 위해 지원 되는 첨부 파일 유형은 [Exchange 메일 흐름 규칙 콘텐츠 검사에 대해 지원 되는 파일 형식과](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/inspect-message-attachments#supported-file-types-for-mail-flow-rule-content-inspection)동일 합니다.
 
-- 비즈니스용 **Skype online**: 비즈니스용 skype online의 채팅 통신 및 관련 첨부 파일을 감독 합니다. 비즈니스용 Skype 온라인 대화방 일치 통신 준수 정책 조건은 24 시간 마다 한 번 처리 된 후 통신 준수 보고서에서 사용할 수 있습니다. 감독 채팅 대화는 [비즈니스용 Skype Online에 저장 된 이전 대화](https://support.office.com/article/Find-a-previous-Skype-for-Business-conversation-18892eba-5f18-4281-8c87-fd48bd72e6a2)에서 원본으로 합니다.  비즈니스용 Skype Online에서 사용자 채팅 통신을 감독할 다음 그룹 관리 구성을 사용 합니다.
+- 비즈니스용 **Skype online**: 비즈니스용 skype online의 채팅 통신 및 관련 첨부 파일을 감독 합니다. 비즈니스용 Skype 온라인 채팅은 통신 준수 정책 조건과 일치 하는 프로세스에 최대 24 시간이 걸릴 수 있습니다. 감독 채팅 대화는 [비즈니스용 Skype Online에 저장 된 이전 대화](https://support.office.com/article/Find-a-previous-Skype-for-Business-conversation-18892eba-5f18-4281-8c87-fd48bd72e6a2)에서 원본으로 합니다.  비즈니스용 Skype Online에서 사용자 채팅 통신을 감독할 다음 그룹 관리 구성을 사용 합니다.
 
     - **비즈니스용 Skype 온라인 채팅 통신**: 개별 사용자를 할당 하거나 통신 준수 정책에 [메일 그룹](https://support.office.com/article/Distribution-groups-E8BA58A8-FAB2-4AAF-8AA1-2A304052D2DE) 을 할당 합니다. 이 설정은 일대일 또는 일대다 사용자/채팅 관계에 대 한 것입니다.
 
@@ -229,7 +229,7 @@ Microsoft 365의 분류자에 대 한 자세한 내용은 [분류자](classifier
 | **보낸 사람 도메인** | 메시지를 보낸 도메인입니다. |
 | **크기** | 메시지 크기 (MB)입니다. |
 | **제목/제목** | 메시지 제목 또는 채팅 제목입니다. |
-| **사이** | 메시지에 할당 된 태그 ( *불확실*, *호환*또는 *비호환)* |
+| **태그** | 메시지에 할당 된 태그 ( *불확실*, *호환*또는 *비호환)* |
 | **에스컬레이션** | 메시지 에스컬레이션 작업의 일부로 포함 된 사용자의 이름입니다. |
 | **분류자** | 메시지에 적용 되는 기본 제공 및 사용자 지정 분류자의 이름입니다. *공격적인 언어*, *대상 Harassment*, *불경*, *위협*등의 일부 예를 들어 예로 들 수도 있습니다.
 
@@ -286,16 +286,16 @@ Office 365 보안 & 준수 센터의 **경고 정책** 페이지에서 활동 �
 
 통합 된 감사 로그 또는 [Search-unifiedauditlog](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-audit/search-unifiedauditlog) PowerShell cmdlet을 사용 하 여 감사 작업을 볼 수도 있습니다.
 
-예를 들어 다음 예에서는 모든 관리 검토 작업 (정책 및 규칙)에 대 한 활동을 반환 하 고 각 정보에 대 한 자세한 내용을 나열 합니다.
+예를 들어 다음은 모든 관리 검토 작업 (정책 및 규칙)에 대 한 작업을 반환 하는 예입니다.
 
 ```PowerShell
-Search-UnifiedAuditLog -StartDate 3/1/2019 -EndDate ([System.DateTime]::Now) -RecordType DataGovernance -ResultSize 5000 | Where-Object {$_.Operations -like "*SupervisoryReview*"}  | fl CreationDate,Operations,UserIds,AuditData
+Search-UnifiedAuditLog -StartDate $startDate -EndDate $endDate -RecordType AeD -Operations SupervisoryReviewTag
 ```
 
 이 예에서는 통신 준수 정책에 대 한 업데이트 작업을 반환 합니다.
 
 ```PowerShell
-Search-UnifiedAuditLog -StartDate $startDate -EndDate $endDate -Operations SupervisionPolicyCreated,SupervisionPolicyUpdated,SupervisionPolicyDeletedAuditData
+Search-UnifiedAuditLog -StartDate $startDate -EndDate $endDate -RecordType Discovery -Operations SupervisionPolicyCreated,SupervisionPolicyUpdated,SupervisionPolicyDeleted
 ```
 
 ## <a name="ready-to-get-started"></a>시작할 준비가 되셨습니까?

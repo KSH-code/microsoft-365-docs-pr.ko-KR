@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 - MOE150
 titleSuffix: Office 365 Compliance
-ms.openlocfilehash: dafc745d985c93e4665db469442b0b6dc2eda070
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 33cd1e9956410c66c21c6b4279416df5358f4adf
+ms.sourcegitcommit: 21338a9287017a66298e0ff557e80051946ebf13
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42081075"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "42604085"
 ---
 # <a name="supervision-policies-in-office-365"></a>Office 365에서의 감독 정책
 
@@ -51,7 +51,6 @@ Office 365에서 감독 정책을 사용 하 고 [Microsoft 365의 통신 준수
 - Office 365의 감독 솔루션은 Microsoft 365의 통신 준수 솔루션으로 완전히 교체 됩니다. 조직에서 감독 정책의 통신 준수로 전환 하는 경우 새로운 조사 및 개선 방안 개선을 위해 기존 감독 정책과 동일한 *조건* 에 해당 하는 새로운 정책을 통신 준수로 만드는 것이 좋습니다. Microsoft 365의 통신 준수로 전환할 때 내부 준수 보존 정책 요구 사항이 있는 경우 Office 365의 보고 데이터를 내보내야 합니다.
 - 중간에 조직은 완전히 마이그레이션될 때까지 두 솔루션을 모두 함께 사용할 수 있지만 각 솔루션에 사용 되는 정책에는 *고유한 정책 이름이*있어야 합니다. 그룹 및 사용자 지정 키워드 사전은 전환 기간 동안 솔루션 간에 공유할 수 있습니다.
 - Office 365의 감독에 저장 된 메시지는 Microsoft 365의 통신 준수로 이동 하거나 공유할 수 없습니다.
-
 
 Office 365의 감독 정보에 대 한 자세한 내용은 [Microsoft 365 로드맵](https://www.microsoft.com/microsoft-365/roadmap) 를 참조 하세요.
 
@@ -82,7 +81,7 @@ Office 365의 감독 정보에 대 한 자세한 내용은 [Microsoft 365 로드
 감독 사용을 시작 하기 전에 의사 소통을 검토 해야 하는 사람을 결정 해야 합니다. 정책에서 사용자 전자 메일 주소는 감독할에 해당 하는 개인 또는 사용자 그룹을 식별 합니다. 이러한 그룹의 몇 가지 예로는 Office 365 그룹, Exchange 기반 메일 그룹 및 Microsoft 팀 채널이 있습니다. 또한 감독 된 그룹이 나 그룹 목록을 사용 하 여 특정 사용자 또는 그룹을 감독 으로부터 제외할 수 있습니다.
 
 >[!IMPORTANT]
->감독 정책에 따라 모니터링 되는 사용자에 게는 Microsoft 365 E5 규정 준수 라이선스, 고급 준수 추가 기능이 포함 된 Office 365 Enterprise E3 라이선스 또는 Office 365 Enterprise E5 구독에 포함 되어 있어야 합니다. 기존 Enterprise E5 요금제가 없고, 감독을 려 고 하는 경우 [Office 365 Enterprise e 5의 평가판에 등록할](https://go.microsoft.com/fwlink/p/?LinkID=698279)수 있습니다.
+>감독 정책에 따라 모니터링 되는 사용자에 게는 Microsoft 365 E5 준수 라이선스, 고급 준수 추가 기능이 포함 된 Office 365 Enterprise E3 라이선스 또는 Office 365 Enterprise E5 구독에 포함 되거나 Microsoft 365 E5 구독에 포함 되어 있어야 합니다. 기존 Enterprise E5 요금제가 없고, 감독을 려 고 하는 경우 [Office 365 Enterprise e 5의 평가판에 등록할](https://go.microsoft.com/fwlink/p/?LinkID=698279)수 있습니다.
 
 ### <a name="reviewers"></a>가
 
@@ -178,7 +177,7 @@ Office 365의 감독 정보에 대 한 자세한 내용은 [Microsoft 365 로드
 | **첨부 파일이 다음 보다 큼** <br><br> **첨부 파일이 다음 보다 크지 않음** | 첨부 파일의 크기에 따라 메시지를 검토 하려면 첨부 파일의 최대 또는 최소 크기를 해당 메시지와 해당 첨부 파일을 검토할 수 있을 때까지 지정 합니다. 예를 들어 **첨부 파일** \> 을 지정 하는 경우 **2.0**보다 큰 경우 첨부 파일이 2.01 mb이 하 인 모든 메시지는 검토 대상이 됩니다. 이 조건에 대해 바이트, 킬로바이트, 메가바이트 또는 기가바이트를 선택할 수 있습니다.|
    
 ##### <a name="matching-words-and-phrases-to-emails-or-attachments"></a>단어 및 구를 전자 메일 또는 첨부 파일에 일치
-<a name="Matchwords"></a> 쉼표로 구분 하 여 입력 한 각 단어를 개별적으로 적용 합니다 (전자 메일 또는 첨부 파일에 적용할 정책 조건에 한 단어씩 적용 해야 함). 예를 들어 "banker" 및 "insider 교역" 키워드를 쉼표로 구분 하 여 (banker, 참가자 사업) "이라는 조건을 사용 하 여 메시지를 예로 **들어**보겠습니다. 이 정책은 "banker" 또는 "insider 거래" 라는 단어가 포함 된 모든 메시지에 적용 됩니다. 이 정책 조건을 적용 하려면 이러한 단어 또는 구문 중 하나만 발생 해야 합니다. 메시지 또는 첨부 파일의 단어는 입력 한 내용과 정확히 일치 해야 합니다.
+<a name="Matchwords"> </a> 쉼표로 구분 하 여 입력 한 각 단어를 개별적으로 적용 합니다 (전자 메일 또는 첨부 파일에 적용할 정책 조건에 한 단어씩 적용 해야 함). 예를 들어 "banker" 및 "insider 교역" 키워드를 쉼표로 구분 하 여 (banker, 참가자 사업) "이라는 조건을 사용 하 여 메시지를 예로 **들어**보겠습니다. 이 정책은 "banker" 또는 "insider 거래" 라는 단어가 포함 된 모든 메시지에 적용 됩니다. 이 정책 조건을 적용 하려면 이러한 단어 또는 구문 중 하나만 발생 해야 합니다. 메시지 또는 첨부 파일의 단어는 입력 한 내용과 정확히 일치 해야 합니다.
 
 동일한 키워드에 대 한 전자 메일 메시지와 첨부 파일을 모두 검색 하려면 모니터링할 용어에 대 한 [사용자 지정 키워드 사전을](create-a-keyword-dictionary.md) 사용 하 여 [데이터 손실 방지 정책을](create-test-tune-dlp-policy.md) 만듭니다. 이 정책 구성에서는 전자 메일 메시지 **또는** 전자 메일 첨부 파일에 표시 되는 정의 된 키워드를 식별 합니다. 메시지와 첨부 파일에서 용어를 식별 하기 위해 표준 조건부 정책 설정 (*이러한 단어* 와 *첨부 파일*포함)을 사용 하면 메시지와 첨부 파일 **둘 다** 에 조건이 제공 되어야 합니다.
   

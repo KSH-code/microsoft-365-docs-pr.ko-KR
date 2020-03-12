@@ -17,12 +17,12 @@ ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: Office 365 메시지 암호화 (OME) 설정을 완료 한 후에는 여러 가지 방법으로 배포 구성을 사용자 지정할 수 있습니다. 예를 들어, 웹의 Outlook에서 1 회 통과, 보호 단추를 표시할 것인지 여부를 구성할 수 있습니다. 이 문서의 작업에서는 이러한 방법을 설명 합니다.
-ms.openlocfilehash: 102d57681e049bf803b377fea97cc0fdb11affb2
-ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
+ms.openlocfilehash: c235205535b4871deb1963a9113a82429917b75e
+ms.sourcegitcommit: 21338a9287017a66298e0ff557e80051946ebf13
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42562090"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "42605351"
 ---
 # <a name="manage-office-365-message-encryption"></a>Office 365 메시지 암호화 관리
 
@@ -195,16 +195,16 @@ Office 365에서 암호화 전용 옵션을 사용 하 여 전자 메일 첨부 
 
    - `template name`은 사용자 지정 브랜딩 서식 파일에 지정한 이름입니다 예: `OME Configuration`
 
-   모든 외부 전자 메일을 "1 주 영업" 서식 파일로 암호화 하 고 암호화 전용 옵션을 적용 하려면 다음을 수행 합니다.
+   "OME Configuration" 서식 파일을 사용 하 여 모든 외부 전자 메일을 암호화 하 고 암호화 전용 옵션을 적용 하려면 다음을 수행 합니다.
 
    ```powershell
-   New-TransportRule -name "<All outgoing mail>" -FromScope "InOrganization" -ApplyRightsProtectionTemplate "Encrypt" -ApplyRightsProtectionCustomizationTemplate "<OME Configuration>"
+   New-TransportRule -name "<All outgoing mail>" -FromScope "InOrganization" -ApplyRightsProtectionTemplate "Encrypt" -ApplyRightsProtectionCustomizationTemplate "OME Configuration"
    ```
 
    "OME Configuration" 서식 파일을 사용 하 여 모든 외부 전자 메일을 암호화 하 고 전달 금지 옵션을 적용 하려면 다음을 수행 합니다.
 
    ```powershell
-   New-TransportRule -name "<All outgoing mail>" -FromScope "InOrganization" -ApplyRightsProtectionTemplate "Do Not Forward" -ApplyRightsProtectionCustomizationTemplate "<OME Configuration>"
+   New-TransportRule -name "<All outgoing mail>" -FromScope "InOrganization" -ApplyRightsProtectionTemplate "Do Not Forward" -ApplyRightsProtectionCustomizationTemplate "OME Configuration"
    ```
 
 ## <a name="customize-the-appearance-of-email-messages-and-the-ome-portal"></a>전자 메일 메시지 및 OME 포털의 모양 사용자 지정

@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 관리자는 SharePoint 및 OneDrive에서 Word, Excel 및 PowerPoint 파일에 대해 민감도 레이블 지원을 사용 하도록 설정할 수 있습니다.
-ms.openlocfilehash: ba65624d0c7a67eb4a5be55a7f3e08c217039e83
-ms.sourcegitcommit: 1883a103449d7b03d482228bd9ef39a7caf306cf
+ms.openlocfilehash: 1ef4a91206c676be0404e5e4e8c7fdf02cedf089
+ms.sourcegitcommit: 794f2f416a258157cb44d962b5be6a348ee20fea
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42583145"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "42594016"
 ---
 # <a name="enable-sensitivity-labels-for-office-files-in-sharepoint-and-onedrive-public-preview"></a>SharePoint 및 OneDrive에서 Office 파일에 대한 민감도 레이블 사용(공개 미리 보기)
 
@@ -30,7 +30,7 @@ ms.locfileid: "42583145"
 
 - Sharepoint 및 OneDrive에서 Word, Excel 및 PowerPoint 파일에 적용 되는 민감도 레이블 (sharepoint 및 비즈니스용 파일)은 sharepoint에 저장 되므로 파일 내용을 처리할 수 있도록 Azure Information Protection의 암호화가 제거 됩니다. SharePoint에 저장 되어 있는 동안 문서를 보호 하는 방법에 대 한 자세한 내용은 [비즈니스용 OneDrive 및 SharePoint Online의 데이터 암호화](data-encryption-in-odb-and-spo.md)를 참조 하세요.
 
-- SharePoint 또는 OneDrive에서이 파일을 다운로드 하거나 액세스할 때 레이블에 있는 민감도 레이블과 모든 암호화 설정이 파일에 다시 적용 되며, 이러한 설정은 파일을 저장할 때마다 적용 됩니다. 이 동작으로 인해 문서를 보호 하기 위해 레이블을 단독으로 사용할 수 있는 사용자 지침을 제공 해야 합니다. 자세한 내용은 [정보 권한 관리 (테두리) 옵션 및 민감도 레이블을](sensitivity-labels-office-apps.md#information-rights-management-irm-options-and-sensitivity-labels)참조 하세요.
+- SharePoint 또는 OneDrive에서이 파일을 다운로드 하거나 액세스할 때 레이블에 있는 민감도 레이블과 모든 암호화 설정이 파일에 다시 적용 되며, 이러한 설정은 파일을 저장할 때마다 적용 됩니다. 이 동작으로 인해 문서를 보호 하기 위해 레이블을 단독으로 사용할 수 있는 사용자 지침을 제공 해야 합니다. 자세한 내용은 [IRM (정보 권한 관리) 옵션 및 민감도 레이블을](sensitivity-labels-office-apps.md#information-rights-management-irm-options-and-sensitivity-labels)참조 하세요.
 
 - SharePoint에서 업로드 시 파일의 암호화를 제거 하려면 레이블이 지정 되 고 암호화 된 파일을 업로드 하는 사용자에 게 최소한 파일 보기에 대 한 사용 권한이 있어야 합니다. Sharepoint에서 사용자가 파일을 열 수 없는 경우 sharepoint에서 암호화를 제거 하지 않습니다.
 

@@ -17,12 +17,12 @@ ms.collection:
 - Strat_O365_Enterprise
 - SPO_Content
 description: '요약: Skype, OneDrive, SharePoint 및 Exchange Online의 암호화에 대 한 설명입니다.'
-ms.openlocfilehash: cffaab87049f466794706ad6537e663e43d5de91
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 4a8dbc2fbe204b09b30eee4ed7ce2136d0ec69f9
+ms.sourcegitcommit: 21338a9287017a66298e0ff557e80051946ebf13
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601845"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "42604165"
 ---
 # <a name="office-365-encryption-for-skype-for-business-onedrive-for-business-sharepoint-online-and-exchange-online"></a>비즈니스용 Skype, 비즈니스용 OneDrive, SharePoint Online 및 Exchange Online에 대 한 Office 365 암호화
 
@@ -76,7 +76,7 @@ SharePoint Online 및 비즈니스용 OneDrive의 데이터 암호화에 대 한
 
 비즈니스용 OneDrive 및 SharePoint Online에는 데이터 센터를 시작 및 종료하는 데이터에 대한 두 가지 시나리오가 있습니다.
 
-- 인터넷을 통한 비즈니스용 OneDrive **와의 클라이언트 통신** 은 SSL/TLS 연결을 사용 합니다. 모든 SSL 연결이 2048비트 키를 사용하여 설정됩니다.
+- **클라이언트와의 서버** 간 통신 및 인터넷을 통한 비즈니스용 ONEDRIVE는 TLS 연결을 사용 합니다.
 - 데이터 **센터 간에 데이터가** 이동 하는 가장 중요 한 이유는 데이터 센터 간에 데이터가 변경 되는 주된 이유는 재해 복구를 사용 하도록 설정 하는 것입니다. 예를 들어 SQL Server 트랜잭션 로그 및 Blob Storage 델타가 이 파이프를 따라 이동합니다. 이 데이터는 개인 네트워크를 사용하여 이미 전송되었지만 최고급 암호화로 추가 보호됩니다.
 
 ## <a name="exchange-online"></a>Exchange Online

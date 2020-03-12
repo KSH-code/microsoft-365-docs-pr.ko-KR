@@ -1,0 +1,291 @@
+- name: 관리 홈
+  href: admin-home.md
+  items:
+    - name: 개요
+      items:
+        - name: 관리자 개요
+          href: admin-overview/admin-overview.md
+        - name: Office 365 등록
+          href: admin-overview/sign-up-for-office-365.md
+        - name: 동영상 교육
+          href: 'https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)'
+        - name: 관리 센터 소개
+          href: admin-overview/about-the-admin-center.md
+        - name: 내가 구독한 것은 무엇인가요?
+          href: admin-overview/what-subscription-do-i-have.md
+        - name: Office 365 Germany에 대해 알아보기
+          href: admin-overview/learn-about-office-365-germany.md
+        - name: 관리자 모바일 앱
+          href: admin-overview/admin-mobile-app.md
+    - name: 설정
+      items:
+        - name: 설정 계획
+          href: setup/plan-your-setup.md
+        - name: Office 365 설정
+          href: setup/setup.md
+        - name: 설정 마법사와 설정 페이지의 차이점
+          href: setup/o365-setup-wizard-and-setup-page.md
+        - name: 도메인 추가
+          href: setup/add-domain.md
+        - name: 도메인 FAQ
+          href: setup/domains-faq.md
+        - name: 응용 프로그램 설치
+          href: setup/install-applications.md
+        - name: 전자 메일 및 연락처 마이그레이션
+          href: setup/migrate-email-and-contacts-admin.md
+        - name: Teams 배포
+          href: 'https://docs.microsoft.com/microsoftteams/how-to-roll-out-teams?toc=/office365/admin/toc.json&bc=/office365/admin/breadcrumb/toc.json'
+        - name: 파일 저장 및 공유 설정
+          href: setup/set-up-file-storage-and-sharing.md
+        - name: 팀 사이트 사용자 지정
+          href: setup/customize-team-site.md
+        - name: 사용자를 최신 Office 클라이언트로 업그레이드
+          href: setup/upgrade-users-to-latest-office-client.md
+        - name: 로그인 페이지 사용자 지정
+          href: setup/customize-sign-in-page.md
+        - name: 메일 그룹 만들기
+          href: setup/create-distribution-lists.md
+        - name: 조직 테마 사용자 지정
+          href: setup/customize-your-organization-theme.md
+    - name: 사용자 및 역할
+      items:
+        - name: 사용자 추가
+          href: add-users/add-users.md
+        - name: 서식 파일을 만들고 사용하여 사용자 추가
+          href: add-users/create-and-use-a-template-to-add-users.md
+        - name: 사용자 삭제
+          href: add-users/delete-a-user.md
+        - name: 사용자 복원
+          href: add-users/restore-user.md
+        - name: 암호 다시 설정
+          href: add-users/reset-passwords.md
+        - name: 만료되지 않는 암호 설정
+          href: add-users/set-password-to-never-expire.md
+        - name: 사용자 암호 초기화 허용
+          href: add-users/let-users-reset-passwords.md
+        - name: 사용자 암호 재전송
+          href: add-users/resend-user-password.md
+        - name: 다른 사용자에게 사서함 권한 제공
+          href: add-users/give-mailbox-permissions-to-another-user.md
+        - name: 사용자 이름 및 이메일 주소 변경
+          href: add-users/change-a-user-name-and-email-address.md
+        - name: '사용자 지정 사용자 보기 만들기, 편집 또는 삭제'
+          href: add-users/create-edit-or-delete-a-custom-user-view.md
+        - name: 새 직원 추가
+          href: add-users/add-new-employee.md
+        - name: 이전 직원 제거
+          href: add-users/remove-former-employee.md
+        - name: 액세스 권한 받기 및 이전 사용자 데이터 백업
+          href: add-users/get-access-to-and-back-up-a-former-user-s-data.md
+        - name: 관리자 역할 정보
+          href: add-users/about-admin-roles.md
+        - name: 관리자 역할 할당
+          href: add-users/assign-admin-roles.md
+        - name: Exchange Online 관리자 역할 소개
+          href: add-users/about-exchange-online-admin-role.md
+    - name: 전자 메일
+      items:
+        - name: Office 365의 전자 메일
+          href: email/email.md
+        - name: Office 365 사용자 전자 메일 설정
+          href: email/office-365-user-email-settings.md
+        - name: 사용자의 다른 전자 메일 별칭 추가
+          href: email/add-another-email-alias-for-a-user.md
+        - name: 공유 사서함
+          items:
+            - name: 공유 사서함 정보
+              href: email/about-shared-mailboxes.md
+            - name: 공유 사서함 만들기
+              href: email/create-a-shared-mailbox.md
+            - name: 공유 사서함 구성
+              href: email/configure-a-shared-mailbox.md
+            - name: 사용자 사서함을 공유 사서함으로 변환
+              href: email/convert-user-mailbox-to-shared-mailbox.md
+            - name: 공유 사서함에서 라이선스 제거
+              href: email/remove-license-from-shared-mailbox.md
+            - name: 공유 사서함의 문제 해결
+              href: email/resolve-issues-with-shared-mailboxes.md
+        - name: 이메일 주소 변경
+          href: email/change-email-address.md
+        - name: 중요 받은 편지함 구성
+          href: setup/configure-focused-inbox.md
+        - name: 서명 및 고지 사항 만들기
+          href: setup/create-signatures-and-disclaimers.md
+        - name: '보안 그룹 만들기, 편집 또는 삭제'
+          href: email/create-edit-or-delete-a-security-group.md
+        - name: 전자 메일 전달 구성
+          href: email/configure-email-forwarding.md
+        - name: 이메일 공동 작업
+          href: email/email-collaboration.md
+        - name: 메일 그룹에 사용자 또는 연락처 추가
+          href: email/add-user-or-contact-to-distribution-list.md
+        - name: 낮은 우선 순위 메일 구성
+          href: email/configure-clutter.md
+    - name: 비즈니스 데이터 보안
+      items:
+        - name: 데이터를 보호하는 10가지 유용한 방법
+          href: security-and-compliance/secure-your-business-data.md
+        - name: 다단계 인증 설정
+          href: security-and-compliance/set-up-multi-factor-authentication.md
+        - name: 오피스 2013으로 다단계 인증 설정
+          href: security-and-compliance/enable-modern-authentication.md
+        - name: GDPR 규정 준수
+          href: security-and-compliance/gdpr-compliance.md
+    - name: 관리 센터의 활동 보고서
+      href: activity-reports/activity-reports.md
+    - name: Power BI 사용 분석
+      items:
+        - name: 사용 현황 분석
+          href: usage-analytics/usage-analytics.md
+        - name: 사용 현황 분석 활성화
+          href: usage-analytics/enable-usage-analytics.md
+        - name: 사용 현황 분석 최신 버전 가져오기
+          href: usage-analytics/get-the-latest-version-of-usage-analytics.md
+        - name: 보고서 탐색 및 활용
+          href: usage-analytics/navigate-and-utilize-reports.md
+        - name: 사용 현황 보고서 내 활성 사용자
+          href: usage-analytics/active-user-in-usage-reports.md
+        - name: 보고서 사용자 지정
+          href: usage-analytics/customize-reports.md
+        - name: 사용 현황 분석 데이터 모델
+          href: usage-analytics/usage-analytics-data-model.md
+        - name: 사용 현황 분석 오류
+          href: usage-analytics/usage-analytics-errors.md
+    - name: 관리
+      items:
+        - name: Office 365 관리
+          href: manage/manage.md
+        - name: 연락처 기본 설정 변경
+          href: manage/change-contact-preferences.md
+        - name: 주소와 연락처 등의 변경
+          href: manage/change-address-contact-and-more.md
+        - name: 전화번호와 이메일 주소 업데이트
+          href: manage/update-phone-number-and-email-address.md
+        - name: 암호 만료 정책 설정
+          href: manage/set-password-expiration-policy.md
+        - name: 앱 시작 관리자 사용자 지정
+          href: manage/customize-the-app-launcher.md
+        - name: 중앙 집중식 배포를 위한 요구 사항
+          href: manage/centralized-deployment-of-add-ins.md
+        - name: 중앙 집중식 배포를 사용하여 부가 기능 배포
+          href: manage/manage-deployment-of-add-ins.md
+        - name: 파트너 또는 대리점 찾기
+          href: manage/find-your-partner-or-reseller.md
+        - name: 회의실 및 장비 사서함
+          href: manage/room-and-equipment-mailboxes.md
+        - name: 메일 그룹에 이메일 보내기
+          href: manage/send-email-as-distribution-list.md
+        - name: 외부 사용자와 일정 공유
+          href: manage/upgrade-distribution-lists.md
+        - name: 사이트 및 파일 외부 공유
+          href: manage/share-sites-with-external-users.md
+        - name: 외부 사용자와 일정 공유
+          href: manage/share-calendars-with-external-users.md
+        - name: 사용자에게 라이선스 할당
+          href: manage/assign-licenses-to-users.md
+        - name: 사용자의 라이선스 할당 해제
+          href: manage/remove-licenses-from-users.md
+        - name: 라이선스 충돌 해결
+          href: manage/resolve-license-conflicts.md)
+        - name: 메시지 센터에서 메시지 관리
+          href: manage/manage-messages.md)
+    - name: 구독 및 청구
+      items:
+        - name: 구독 관리
+          href: ../commerce/index.yml
+        - name: 송장 보기
+          href: ../commerce/billing-and-payments/view-your-bill-or-invoice.md
+        - name: 결제 방법 관리
+          href: ../commerce/billing-and-payments/add-update-or-remove-credit-card-or-bank-account.md
+        - name: 구독 취소
+          href: ../commerce/subscriptions/cancel-your-subscription.md
+    - name: 도메인
+      items:
+        - name: Office 365의 도메인
+          href: get-help-with-domains/get-help-with-domains.md
+        - name: 도메인이란 무엇인가요?
+          href: get-help-with-domains/what-is-a-domain.md
+        - name: 도메인 이름 구입
+          href: get-help-with-domains/buy-a-domain-name.md
+        - name: 도메인 등록 기관 찾기
+          href: get-help-with-domains/find-your-domain-registrar.md
+        - name: DNS 기본 사항
+          href: get-help-with-domains/dns-basics.md
+        - name: DNS 레코드에 대 한 정보
+          href: get-help-with-domains/information-for-dns-records.md
+        - name: 문제 찾기 및 해결
+          href: get-help-with-domains/find-and-fix-issues.md
+        - name: 도메인 연결
+          href: get-help-with-domains/domain-connect.md
+        - name: 도메인 설정(호스트별 지침)
+          href: get-help-with-domains/set-up-your-domain-host-specific-instructions.md
+        - name: 도메인 등록 기관에 상관없이 이름 서버 변경
+          href: get-help-with-domains/change-nameservers-at-any-domain-registrar.md
+        - name: DNS 호스팅 공급자에 상관없이 DNS 레코드 만들기
+          href: get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md
+        - name: 도메인 제거
+          href: get-help-with-domains/remove-a-domain.md
+        - name: 수동 데이터 전송
+          href: get-help-with-domains/transfer-data-manually.md
+    - name: 그룹
+      items:
+        - name: 그룹 개요
+          href: create-groups/office-365-groups.md
+        - name: 그룹 비교
+          href: create-groups/compare-groups.md
+        - name: Office 365 그룹 만들기
+          href: create-groups/create-groups.md
+        - name: Office 365 그룹 관리
+          href: create-groups/manage-groups.md
+        - name: Office 365 그룹에서 거버넌스를 계획합니다.
+          href: create-groups/plan-for-groups-governance.md
+        - name: 그룹 생성 관리
+          href: create-groups/manage-creation-of-groups.md
+        - name: 도메인을 선택하여 그룹 만들기
+          href: create-groups/choose-domain-to-create-groups.md
+        - name: 그룹 명명 정책
+          href: create-groups/groups-naming-policy.md
+        - name: 구성원이 그룹 이름으로 보내거나 그룹을 대표하여 보낼 수 있도록 허용
+          href: create-groups/allow-members-to-send-as-or-send-on-behalf-of-group.md
+        - name: 그룹에서 구성원 추가 또는 제거
+          href: create-groups/add-or-remove-members-from-groups.md
+        - name: Office 365 그룹 만료 정책
+          href: create-groups/office-365-groups-expiration-policy.md
+        - name: 삭제된 그룹 복원
+          href: create-groups/restore-deleted-group.md
+        - name: 그룹에서 게스트 액세스 관리
+          href: create-groups/manage-guest-access-in-groups.md
+        - name: 그룹에서 민감도 레이블 사용
+          href: 'https://docs.microsoft.com/en-us/microsoft-365/compliance/sensitivity-labels-teams-groups-sites?toc=/office365/admin/toc.json'
+    - name: 21Vianet에서 운영하는 Office 365
+      items:
+        - name: 21Vianet에서 운영하는 Office 365 정보
+          href: services-in-china/services-in-china.md
+        - name: 구독 구입 또는 체험
+          href: services-in-china/buy-or-try-subscriptions.md
+        - name: 21Vianet에서 운영하는 Office 365용 Android Office 앱 다운로드
+          href: services-in-china/download-office-app-for-Android.md
+        - name: 21Vianet에서 운영하는 Office 365용 iOS Office 앱 다운로드
+          href: services-in-china/download-office-app-for-iOS.md
+        - name: 청구서 보기 또는 Fapiao 받기
+          href: services-in-china/view-your-bill-or-get-a-fapiao.md
+        - name: Fapiao 신청
+          href: services-in-china/apply-for-a-fapiao.md
+        - name: Azure Information Protection 패리티
+          href: services-in-china/parity-between-azure-information-protection.md
+    - name: 새로운 기능 받기
+      items:
+        - name: 새 관리 센터 정보
+          href: microsoft-365-admin-center-preview.md
+        - name: 새 관리 센터의 새로운 기능
+          href: whats-new-in-preview.md
+        - name: 변경 내용에 관한 최신 정보 확인
+          href: manage/stay-on-top-of-updates.md
+        - name: Office 365의 릴리스 옵션
+          href: manage/release-options-in-office-365.md
+        - name: 메시지 센터
+          href: manage/message-center.md
+        - name: Microsoft 365 체험 또는 구입
+          href: ../commerce/try-or-buy-microsoft-365.md
+    - name: 비즈니스 제품에 대해서는 고객 지원 센터에 문의하세요
+      href: contact-support-for-business-products.md
