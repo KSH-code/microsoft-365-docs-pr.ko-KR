@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 정책을 사용하여 콘텐츠를 보존할지, 삭제할지, 아니면 보존한 다음 삭제할지 사전에 결정할 수 있습니다. 조직 전체에 또는 특정 위치 또는 사용자에게 하나의 정책을 적용할 수 있고, 모든 콘텐츠에 또는 특정 조건에 부합하는 콘텐츠에 정책을 적용할 수 있습니다.
-ms.openlocfilehash: 9ecc74610c0d150dd511a8e24fb66037768587a4
-ms.sourcegitcommit: 6d672eb8287526a9db90df5fa85bc4984a7047d1
+ms.openlocfilehash: f373accc35684c055af8d58907e39aa7a0f4b4f4
+ms.sourcegitcommit: 3b6e226d07b5227054d5c8d1a012694caf88f50a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "42280206"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42586735"
 ---
 # <a name="overview-of-retention-policies"></a>보존 정책 개요
 
@@ -94,7 +94,8 @@ SharePoint 사이트 모음의 경우, 사용자가 콘텐츠를 편집하거나
     > [!NOTE]
     > 최근 보존 라이브러리에서 콘텐츠를 삭제하는 방법을 변경했습니다. 실수로 데이터가 손실되는 것을 방지하기 위해 더 이상 보존 라이브러리의 콘텐츠를 영구적으로 삭제하지 않습니다. 대신 휴지통에서 콘텐츠를 영구적으로 삭제합니다. 이제는 보존 라이브러리의 모든 콘텐츠가 2단계 휴지통을 거칩니다.
     
-2. 보존 기간 내에 **콘텐츠가 수정되거나 삭제되지 않으면** 보존 기간의 종료 시점에 1단계 휴지통으로 이동됩니다. 여기에서 사용자가 콘텐츠를 삭제하거나 휴지통을 비우면 문서가 2단계 휴지통으로 이동됩니다. 1단계 휴지통과 2단계 휴지통을 포함하여 총 93일 간의 보존 기간이 적용됩니다. 93일이 지나면 1단계 휴지통 또는 2단계 휴지통에서 문서가 영구적으로 삭제됩니다. 휴지통은 인덱싱되지 않으므로 휴지통의 콘텐츠는 검색 기능으로 찾을 수 없습니다. 즉, eDiscovery 보류를 통해 휴지통에 있는 콘텐츠를 찾을 수 없습니다. 
+2. 보존 기간 내에 **콘텐츠가 수정되거나 삭제되지 않으면** 보존 기간의 종료 시점에 1단계 휴지통으로 이동됩니다. 여기에서 사용자가 콘텐츠를 삭제하거나 휴지통을 비우면 문서가 2단계 휴지통으로 이동됩니다. 1단계 휴지통과 2단계 휴지통을 포함하여 총 93일 간의 보존 기간이 적용됩니다. 93일이 지나면 1단계 휴지통 또는 2단계 휴지통에서 문서가 영구적으로 삭제됩니다. 휴지통이 아님 
+3. 검색 기능으로 콘텐츠를 찾을 수 없습니다. 즉, eDiscovery 보류를 통해 휴지통에 있는 콘텐츠를 찾을 수 없습니다. 
     
 ### <a name="content-in-mailboxes-and-public-folders"></a>사서함 및 공용 폴더의 콘텐츠
 
@@ -106,8 +107,6 @@ SharePoint 사이트 모음의 경우, 사용자가 콘텐츠를 편집하거나
   
 사용자가 메시지의 제목, 본문, 첨부 파일, 보내는 사람 및 받는 사람, 보낸 날짜 또는 받은 날짜와 같은 사서함 항목의 특정 속성을 변경하려고 하면 변경이 적용되기 전에 원본 항목의 복사본이 복구 가능한 항목 폴더에 저장됩니다. 이 작업은 후속 변경이 있을 때마다 진행됩니다. 보존 기간이 끝나면 복구 가능한 항목 폴더의 복사본이 영구적으로 삭제됩니다.
   
-사용자가 조직을 떠나며 해당 사서함이 보존 정책에 포함된 경우 사용자의 Office 365 계정이 삭제되면 사서함은 비활성 사서함이 됩니다. 비활성 사서함의 콘텐츠는 해당 사서함이 비활성 상태가 되기 전에 지정된 보존 정책이 계속 적용되며, eDiscovery 검색에서 해당 콘텐츠를 사용할 수 있습니다. 자세한 내용은 [Exchange Online의 비활성 사서함](inactive-mailboxes-in-office-365.md)을 참조하세요.
-  
 보존 정책이 사서함 또는 공용 폴더에 할당되면 콘텐츠는 다음 두 가지 경로 중 하나를 따를 수 있습니다.
 
 ![전자 메일 및 공용 폴더의 보존 흐름 다이어그램](../media/88f174cc-bbf4-4305-93d7-0515f496c8f9.png)
@@ -115,7 +114,21 @@ SharePoint 사이트 모음의 경우, 사용자가 콘텐츠를 편집하거나
 1. **보존 기간 동안 사용자가 항목을 수정하거나 영구적으로 삭제하는 경우**(Shift + Delete 사용 또는 지운 편지함에서 삭제) 항목은 복구 가능한 항목 폴더로 이동(또는 편집의 경우 복사)됩니다. 여기에서 프로세스가 주기적으로 실행되고 보존 기간이 만료된 항목이 식별되며, 이러한 항목은 보존 기간이 끝나고 14일 이내에 영구적으로 삭제됩니다. 14일은 기본 설정이지만 최대 30일로 구성할 수 있습니다.
     
 2. 보존 기간 내에 **항목이 수정되거나 삭제되지 않으면** 사서함의 모든 폴더에서 동일한 프로세스가 주기적으로 실행되며 보존 기간이 만료된 항목을 식별합니다. 식별된 항목은 보존 기간 종료일로부터 14일 이내에 영구적으로 삭제됩니다. 14일은 기본값이며, 최대 30일로 설정할 수 있습니다. 
-    
+
+### <a name="when-a-user-leaves-the-organization"></a>사용자가 조직을 떠나는 경우
+
+**Exchange** 
+
+조직에서 나간 사용자의 사서함이 보존 정책에 포함되어 있는 경우, 사용자의 Office 365 계정이 삭제되면 해당 사서함이 비활성화됩니다. 비활성화된 사서함의 콘텐츠 또한 비활성화 상태로 변경되기 전에 사서함에 적용된 보존 정책의 적용을 받으며, 콘텐츠 또한 eDiscovery 검색에서 사용될 수 있습니다. 자세한 내용은 [Exchange Online에서 비활성 사서함](inactive-mailboxes-in-office-365.md)을 참조하세요.
+
+**OneDrive**
+
+사용자가 조직을 떠나는 경우, 보존 정책이 적용되거나 보존 레이블이 포함된 모든 파일은 정책이나 레이블 기간 동안 유지됩니다. 이 기간 동안 모든 공유 액세스는 계속 작동합니다. 보존 기간이 만료되면 콘텐츠가 사이트 모음 휴지통으로 이동하고 관리자를 제외한 모든 사용자가 액세스할 수 없습니다. 문서가 보존 정책에서 레코드로 표시되는 경우 보존 기간이 종료될 때까지 해당 문서는 삭제되지 않으며 그 후에는 콘텐츠가 영구적으로 삭제됩니다.
+
+**SharePoint**
+
+사용자가 조직을 떠나는 경우, 사용자의 사서함 또는 OneDrive 계정과 달리, SharePoint는 공동 작업 환경으로 간주되므로 사용자가 만든 콘텐츠는 영향을 받지 않습니다.
+
 ## <a name="how-a-retention-policy-works-with-document-versions-in-a-site-collection"></a>보존 정책이 사이트 모음의 문서 버전에 작동하는 방식
 
 버전 관리는 SharePoint Online 및 비즈니스용 OneDrive의 모든 문서 라이브러리의 기능입니다. 기본적으로 버전 관리에서는 최소 500개의 주요 버전이 유지되지만이 제한을 늘릴 수 있습니다. 자세한 내용은 [목록 또는 라이브러리의 버전 관리 설정 및 구성](https://support.office.com/article/1555d642-23ee-446a-990a-bcab618c7a37)을 참조하세요.
@@ -240,6 +253,16 @@ Exchange 전자 메일과 달리, Skype 위치의 상태는 간단히 설정으�
   
 Outlook의 **대화 내용** 폴더는 Skype 보관과 아무 관계가 없는 기능입니다. **대화 내용**은 최종 사용자가 해제할 수 있지만 Skype 보관은 사용자는 액세스할 수 없고 eDiscovery에서 사용할 수 있는 숨겨진 폴더에 Skype 대화 사본을 저장하여 수행됩니다.
 
+### <a name="sharepoint-locations"></a>SharePoint 위치
+
+보존 정책을 사용하여 SharePoint 커뮤니케이션 사이트, Office 365 그룹에서 연결되지 않는 팀 사이트 및 클래식 사이트에서 콘텐츠를 보존할 수 있습니다. Office 365 그룹에서 연결된 팀 사이트는 이 옵션에서 지원되지 않으며 대신 **Office 365 그룹** 위치를 사용합니다.
+
+지원되지 않는 사이트를 지정하는 경우 해당 사이트는 보존 정책에 따라 무시됩니다.
+
+SharePoint 사이트의 위치를 지정하는 경우, 사이트에 액세스할 수 있는 권한이 필요하지 않으며 **위치 편집** 페이지에서 URL을 지정하는 시점에 유효성 검사가 수행되지 않습니다. 그러나 사이트를 색인화해야 하며 마법사 종료 시 지정한 사이트가 존재하는지 검사합니다.
+
+이 검사에 실패하는 경우, 입력한 URL에 대한 유효성 검사에 실패했다는 메시지가 표시되고 유효성 검사가 통과한 후에 마법사에서 보존 정책이 만들어집니다. 이 메시지가 표시되는 경우 마법사에서 돌아가서 URL을 변경하거나 사이트를 제거합니다.
+
 ### <a name="teams-locations"></a>Teams 위치
 
 Teams에서 보존 정책을 사용하여 채팅 및 채널 메시지를 보존할 수 있습니다. Teams 채팅은 채팅에 포함된 각 사용자의 사서함에 있는 숨겨진 폴더에 저장되고, Teams 채널 메시지는 팀의 그룹 사서함에 있는 비슷한 숨겨진 폴더에 저장됩니다. 그렇지만 Teams에서 이 데이터도 저장하는 Azure 지원 채팅 서비스를 사용하며, 기본적으로 이 서비스는 데이터를 영구히 저장한다는 점을 이해하는 것이 중요합니다. 이 때문에 Teams 데이터를 보존 및 삭제할 때는 Teams 위치를 사용하는 것이 좋습니다. Teams 위치를 사용하면 Exchange 사서함과 기본 Azure 지원 채팅 서비스 둘 다에서 데이터가 영구적으로 삭제됩니다. 자세한 내용은 [Microsoft Teams의 보안 및 규정 준수 개요](https://go.microsoft.com/fwlink/?linkid=871258)를 참조하세요.
@@ -293,7 +316,7 @@ Office 365 그룹의 콘텐츠를 보존하려면 Office 365 그룹 위치를 �
 ## <a name="excluding-specific-types-of-exchange-items-from-a-retention-policy"></a>보존 정책에서 특정 유형의 Exchange 항목 제외
 PowerShell을 사용하여 특정 유형의 Exchange 항목을 보존 정책에서 제외할 수 있습니다. 예를 들어, 사서함의 음성 메일 메시지, 메신저 대화 및 기타 비즈니스용 Skype Online 콘텐츠를 제외할 수 있습니다. 또한 일정, 메모 및 작업 항목도 제외할 수 있습니다. 이 기능은 PowerShell을 통해서만 사용할 수 있으며 보존 정책을 만들 때 UI에서 사용할 수 없습니다.
   
-이를 수행하려면 `New-RetentionComplianceRule` 및 `Set-RetentionComplianceRule` cmdlet의 `ExcludedItemClasses` 매개 변수를 사용합니다. PowerShell에 대한 자세한 내용은 아래의 [보존 정책에 대한 PowerShell cmdlet 찾기](#find-the-powershell-cmdlets-for-retention-policies) 섹션을 참조하세요.
+이렇게 하려면 `New-RetentionComplianceRule` 및 `Set-RetentionComplianceRule` cmdlet의 `ExcludedItemClasses` 매개 변수를 사용합니다.
 
 ## <a name="locking-a-retention-policy"></a>보존 정책 잠그기
 일부 조직에서는 SEC(Securities and Exchange Commission) 규칙 17a-4와 같은 규제 기구에서 정의한 규칙을 준수해야 합니다. 따라서 예약 정책을 켠 후에는 끄거나 덜 제한적인 정책으로 변경할 수 없습니다. 보존 잠금을 사용하면 정책을 잠가 관리자를 비롯한 어느 누구도 정책을 해제하거나 덜 제한적으로 만들지 못하게 할 수 있습니다.
@@ -314,7 +337,7 @@ PowerShell만 사용하여 보존 정책을 잠글 수 있습니다.
 
 마지막으로 보존 정책에 유지 잠금을 적용하려면 `RestrictiveRetention` 매개 변수가 true로 설정된 `Set-RetentionCompliancePolicy`를 실행합니다. 예시는 다음과 같습니다:
 
-`Set-RetentionCompliancePolicy -Identity “<Name of Policy>” – RestrictiveRetention $true`
+`Set-RetentionCompliancePolicy -Identity "<Name of Policy>" – RestrictiveRetention $true`
 
 ![PowerShell의 RestrictiveRetention 매개 변수](../media/retention-policy-preservation-lock-restrictiveretention.PNG)
 
@@ -324,7 +347,7 @@ cmdlet을 실행하면 확인 메시지가 표시됩니다. **모두 예**를 �
 
 이제 보존 정책에 보존 잠금이 적용됩니다. `Get-RetentionCompliancePolicy`을 실행할 경우, `RestrictiveRetention` 매개 변수가 True로 설정됩니다. 예시는 다음과 같습니다:
 
-`Get-RetentionCompliancePolicy -Identity “<Name of Policy>” |Fl`
+`Get-RetentionCompliancePolicy -Identity "<Name of Policy>" |Fl`
 
 ![PowerShell에 모든 매개 변수와 함께 표시된 잠긴 정책](../media/retention-policy-preservation-lock-locked-policy.PNG)
   
@@ -405,15 +428,7 @@ SharePoint 사이트에서 [정보 관리 정책](intro-to-info-mgmt-policies.md
 자세한 내용은 [사용자에게 Office 365 보안 및 준수 센터에 대한 액세스 권한 부여](https://docs.microsoft.com/microsoft-365/security/office-365-security/grant-access-to-the-security-and-compliance-center)를 참조하세요. 
 
 이러한 정책은 보존 정책을 만들고 적용하는 데만 필요합니다. 정책 적용을 위해서는 콘텐츠에 액세스하지 않아도 됩니다.
-  
-## <a name="find-the-powershell-cmdlets-for-retention-policies"></a>보존 정책에 대한 PowerShell cmdlet 찾기
 
-보존 정책 cmdlet을 사용하려면 다음을 수행해야 합니다.
-  
-1. [원격 PowerShell을 사용하여 Office 365 보안 및 준수 센터에 연결](https://go.microsoft.com/fwlink/?LinkID=799771&amp;clcid=0x409)
-    
-2. 다음 [Office 365 보안 및 준수 센터 cmdlet](https://go.microsoft.com/fwlink/?LinkID=799772&amp;clcid=0x409) 사용
-    
 ## <a name="more-information"></a>추가 정보
 
 - [레이블 개요](labels.md)

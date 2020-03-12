@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Office 365 또는 Microsoft 조직에서 레코드 관리 전략을 구현하려면 콘텐츠를 레코드로 선언하는 보존 레이블을 사용합니다. 그런 다음 보존 레코드 레이블을 게시하거나 자동으로 적용합니다.
-ms.openlocfilehash: 87bed90f4c9bf27eb960a2018b6a641ff3e06993
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: e92ec8be90d27696538f46e5609f6dc039200136
+ms.sourcegitcommit: 3b6e226d07b5227054d5c8d1a012694caf88f50a
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42081704"
+ms.lasthandoff: 03/10/2020
+ms.locfileid: "42586730"
 ---
 # <a name="overview-of-records"></a>레코드 개요
 
@@ -70,7 +70,7 @@ Microsoft 365에서 레코드 관리를 사용하면 조직은 회사 정책, �
 
 ## <a name="using-retention-labels-to-declare-records"></a>보존 레이블을 사용하여 레코드 선언
 
-보존 레이블을 만들 때 보존 레이블을 사용하여 콘텐츠를 레코드로 분류하는 옵션이 제공됩니다. 콘텐츠를 레코드로 선언하려면 다음을 수행해야 합니다.
+보존 레이블을 만들 때 보존 레이블을 사용하여 콘텐츠를 레코드로 분류하는 옵션이 제공됩니다. 콘텐츠를 레코드로 선언하려면 다음 단계를 따릅니다.
 
 1. 보존 레이블을 만듭니다. Microsoft 365 준수 센터에서 **레코드 관리** \> **파일 계획**으로 이동합니다. **파일 계획** 페이지에서 **레이블 만들기**를 클릭합니다.
 
@@ -115,7 +115,7 @@ SharePoint 사이트 또는 OneDrive 계정에서 문서에 레코드 레이블�
 
 ### <a name="locking-and-unlocking-a-record"></a>레코드 잠금 및 잠금 해제
 
-문서에 레코드 레이블을 할당한 후 기본 구성원 그룹에 있는 모든 사용자(참가 권한 수준)는 레코드를 잠금 해제하거나 잠금 해제된 레코드를 잠글 수 있습니다.
+문서에 레코드 레이블을 할당한 후 참가 권한 또는 더 적은 권한 수준을 사용하는 모든 사용자가 레코드를 잠금 해제하거나 잠금 해제된 레코드를 잠글 수 있습니다.
 <br/><br/>
 
 ![레코드 문서가 잠금 해제됨을 표시하는 레코드 상태](../media/recordversioning9.png)
