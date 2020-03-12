@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 민감도 레이블을 사용하여 SharePoint 및 Microsoft Teams 사이트, Office 365 그룹의 콘텐츠 보호
-ms.openlocfilehash: 934999f3c1b55c738ebc30eb9b87c65c5cc08376
-ms.sourcegitcommit: 26e4d5091583765257b7533b5156daa373cd19fe
+ms.openlocfilehash: b1bac1cbe094a1e56c05dd7fd1aa5377f0a85ce5
+ms.sourcegitcommit: 62eac95c27295ba285e28cec5acf815314fbfd00
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/06/2020
-ms.locfileid: "42550425"
+ms.lasthandoff: 03/11/2020
+ms.locfileid: "42601355"
 ---
 # <a name="use-sensitivity-labels-to-protect-content-in-microsoft-teams-office-365-groups-and-sharepoint-sites-public-preview"></a>민감도 레이블 사용하요 Microsoft Teams, Office 365 그룹 및 SharePoint 사이트(공개 미리 보기)에서 콘텐츠 보호
 
@@ -329,4 +329,8 @@ Microsoft Teams, Office 365 그룹 및 SharePoint 사이트의 민감도 레이�
 
 ### <a name="team-group-or-sharepoint-site-creation-errors"></a>팀, 그룹 또는 SharePoint 사이트 만들기 오류
 공개 미리 보기 중에 생성 오류가 발생하는 경우에는 [PowerShell에서 민감도 레이블 지원 활성화](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-assign-sensitivity-labels#enable-sensitivity-label-support-in-powershell)와 동일한 지침을 사용하여 Microsoft Teams, Office 365 그룹 및 SharePoint 사이트에 대한 민감도 레이블을 해제할 수 있습니다. 그러나 미리보기를 비활성화하려면 5단계에서 `$setting["EnableMIPLabels"] = "False"`을(를) 사용하여 기능을 비활성화합니다.
+
+## <a name="additional-resources"></a>추가 리소스
+
+[Microsoft Teams, O365 그룹, SharePoint Online 사이트에서 민감도 레이블 사용에](https://techcommunity.microsoft.com/t5/security-privacy-and-compliance/using-sensitivity-labels-with-microsoft-teams-o365-groups-and/ba-p/1221885#M1380) 대한 웨비나 기록 및 질응답을 참조하세요.
 
