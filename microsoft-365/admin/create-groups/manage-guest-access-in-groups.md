@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9de497a9-2f5c-43d6-ae18-767f2e6fe6e0
 description: Office 365 그룹에 게스트를 추가 하 고, 게스트 사용자를 보고, PowerShell을 사용 하 여 게스트 액세스를 제어 하는 방법을 알아봅니다.
-ms.openlocfilehash: e4d71919fa5ebfb97a6bab8013fc6bc54ac071a4
-ms.sourcegitcommit: 21338a9287017a66298e0ff557e80051946ebf13
+ms.openlocfilehash: 3314746e4d12c318eaae8fbfa34c2ed0b4d31aed
+ms.sourcegitcommit: dcea75af89f5f80ec6670346ee176407e043de54
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "42604005"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "42610616"
 ---
 # <a name="manage-guest-access-in-office-365-groups"></a>Office 365 그룹에서 게스트 액세스 관리
 
@@ -43,8 +43,8 @@ ms.locfileid: "42604005"
 
 그룹의 게스트 액세스는 SharePoint 또는 팀이 포함 된 보다 광범위 한 시나리오의 일부로 사용 되는 경우가 많습니다. 이러한 서비스에는 자체 게스트 공유 설정이 있습니다. 그룹, SharePoint 및 팀에서 게스트 공유를 설정 하는 방법에 대 한 자세한 내용은 다음을 참조 하십시오.
 
-- [게스트와 현장에서 공동 작업하기](https://docs.microsoft.com/Office365/Enterprise/collaborate-in-site)
-- [게스트와 팀으로 공동 작업하기](https://docs.microsoft.com/Office365/Enterprise/collaborate-as-team)
+- [게스트와 현장에서 공동 작업하기](../../solutions/collaborate-in-site.md)
+- [게스트와 팀으로 공동 작업하기](../../solutions/collaborate-as-team.md)
 
 ## <a name="manage-groups-guest-access"></a>그룹 관리 게스트 액세스
 

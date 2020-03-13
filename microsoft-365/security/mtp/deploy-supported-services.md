@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 2b0e033bb80fd73d5b5194bd59ab9c9f14a644b3
-ms.sourcegitcommit: cc3b64a91e16ccdaa9c338b9a9056dbe3963ba9e
+ms.openlocfilehash: 1c06562cc0ff8cdc43efb3a8f62924c435883408
+ms.sourcegitcommit: dcea75af89f5f80ec6670346ee176407e043de54
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42569053"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "42610565"
 ---
 # <a name="deploy-supported-services"></a>지원 서비스 사용
 
@@ -71,7 +71,7 @@ Microsoft Threat Protection의 전체 이점을 얻으려면 지원 되는 모�
 
 | 서비스 | 프로 비전 지침 | 초기 구성 |
 | ------ | ------ | ------ |
-| Microsoft Defender ATP | [Microsoft Defender ATP에 대 한 라이선스 프로비저닝 및 전체 설정 확인](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/licensing) | *프로비저닝 지침 참조* |
+| Microsoft Defender ATP | [Microsoft Defender ATP 배포 가이드](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/deployment-phases) | *프로비저닝 지침 참조* |
 | Office 365 ATP | *없음, Office 365와 함께 구축 됨* | [ATP 정책 구성](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp#configure-atp-policies) |
 | Azure ATP | [빠른 시작: Azure ATP 인스턴스 만들기](https://docs.microsoft.com/azure-advanced-threat-protection/install-atp-step1) | *프로비저닝 지침 참조* |
 | Microsoft Cloud App Security | *없음* | [퀵 스타트: Microsoft Cloud App Security 시작](https://docs.microsoft.com/cloud-app-security/getting-started-with-cloud-app-security) |

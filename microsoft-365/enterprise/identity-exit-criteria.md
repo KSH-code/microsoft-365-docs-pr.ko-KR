@@ -16,11 +16,11 @@ ms.collection:
 ms.custom: ''
 description: 구성이 ID 기반 서비스 및 인프라에 대한 Microsoft 365 Enterprise 조건을 충족하는지 확인합니다.
 ms.openlocfilehash: 3fd4d0a1df50d55cb7a21668b609341d0c01aa35
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.sourcegitcommit: 6c8edbc54b193e964cf93aec48c51cb79231f1d9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42067312"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42544067"
 ---
 # <a name="phase-2-identity-infrastructure-exit-criteria"></a>2단계: ID 인프라 종료 조
 

@@ -16,11 +16,11 @@ ms.collection:
 ms.custom: ''
 description: 조직에서 데이터를 분류하는 다양한 방법을 이해하고 구성합니다.
 ms.openlocfilehash: e8c40ca4c419edc2d59a060dfd4fe8918cf4e784
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.sourcegitcommit: 6c8edbc54b193e964cf93aec48c51cb79231f1d9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42067255"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42544187"
 ---
 # <a name="step-2-configure-classification-for-your-environment"></a>2단계: 사용자 환경에 대한 분류 구성
 

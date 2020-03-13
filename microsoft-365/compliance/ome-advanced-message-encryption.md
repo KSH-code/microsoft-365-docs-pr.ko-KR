@@ -16,12 +16,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: Advanced Message Encryption in Office 365에서는 보호 된 메시지를 사용 하 여 관리자가 더 많은 작업을 수행할 수 있도록 함으로써 조직이 준수 의무를 충족할 수 있습니다.
-ms.openlocfilehash: 580803d7b15608ebb0852896cdbd9a43ee5a2ff4
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 99dacc928c8549157ff0d9d1d9a7c07fc33c2600
+ms.sourcegitcommit: dcea75af89f5f80ec6670346ee176407e043de54
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601805"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "42610606"
 ---
 # <a name="office-365-advanced-message-encryption"></a>Office 365 고급 메시지 암호화
 
@@ -45,4 +45,4 @@ Advanced Message Encryption in Office 365에서는 고객이 외부 받는 사�
 
 [Office 365 고급 메시지 암호화로 암호화 된 전자 메일을 해지](revoke-ome-encrypted-mail.md)합니다. 조직 외부에서 공유 되는 중요 한 전자 메일 제어 및 보안 웹 포털을 통한 암호화 된 전자 메일에 대 한 액세스를 해지 하 여 보호 기능 향상  
 
-Office 365 고급 메시지 암호화를 사용 하 여 사용자 지정 브랜딩 템플릿을 적용할 때마다 Office 365에서 템플릿을 적용 한 메일 흐름 규칙에 맞는 전자 메일에 래퍼를 적용 합니다. 사용자가 포털을 통해 받은 메시지에만 메시지를 해지 하 고 만료 날짜를 적용할 수 있습니다. 즉, 사용자 지정 브랜딩 서식 파일이 적용 된 전자 메일입니다. 자세한 내용 및 예제는 [모든 외부 받는 사람이 OME 포털을 사용 하 여 암호화 된 메일 읽기 (Office 365 Advanced Message Encryption only)](manage-office-365-message-encryption.md#ensure-all-external-recipients-use-the-ome-portal-to-read-encrypted-mail--office-365-advanced-message-encryption-only)의 지침을 참조 하십시오.
+Office 365 고급 메시지 암호화를 사용 하 여 사용자 지정 브랜딩 템플릿을 적용할 때마다 Office 365에서 템플릿을 적용 한 메일 흐름 규칙에 맞는 전자 메일에 래퍼를 적용 합니다. 사용자가 포털을 통해 받은 메시지에만 메시지를 해지 하 고 만료 날짜를 적용할 수 있습니다. 즉, 사용자 지정 브랜딩 서식 파일이 적용 된 전자 메일입니다. 자세한 내용 및 예제는 [모든 외부 받는 사람이 OME 포털을 사용 하 여 암호화 된 메일을 읽었는지 확인](manage-office-365-message-encryption.md#ensure-all-external-recipients-use-the-ome-portal-to-read-encrypted-mail)의 지침을 참조 하십시오.

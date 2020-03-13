@@ -1,7 +1,6 @@
 ---
 title: 사이트 및 파일 외부 공유
-f1.keywords:
-- NOCSH
+f1.keywords: NOCSH
 ms.author: twerner
 author: twernermsft
 manager: scotv
@@ -21,20 +20,20 @@ search.appverid:
 ms.assetid: 89502322-bfbb-43d6-9207-4030f8ce26e0
 ROBOTS: NOINDEX
 description: '조직 외부의 사용자와 사이트 및 파일을 공유 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 83b111153389bf75a92bcc32af9563bf7432bf8a
-ms.sourcegitcommit: 21338a9287017a66298e0ff557e80051946ebf13
+ms.openlocfilehash: a0a98c9ead997e4748804e4f8a87533a9943ec4f
+ms.sourcegitcommit: dcea75af89f5f80ec6670346ee176407e043de54
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "42603995"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "42610575"
 ---
 # <a name="share-sites-and-files-externally"></a>사이트 및 파일 외부 공유
 
 조직 외부의 사용자와 공동 작업을 하려면 전체 사이트 또는 특정 파일을 외부에서 공유할 수 있습니다. 공유 설정으로 바로 이동하려면 사용하려는 시나리오를 선택합니다.
 
-- [게스트와 문서에서 공동 작업하기](https://docs.microsoft.com/Office365/Enterprise/collaborate-on-documents)
-- [게스트와 현장에서 공동 작업하기](https://docs.microsoft.com/Office365/Enterprise/collaborate-in-site)
-- [게스트와 팀으로 공동 작업하기](https://docs.microsoft.com/Office365/Enterprise/collaborate-as-team)
+- [게스트와 문서에서 공동 작업하기](../../solutions/collaborate-on-documents.md)
+- [게스트와 현장에서 공동 작업하기](../../solutions/collaborate-in-site.md)
+- [게스트와 팀으로 공동 작업하기](../../solutions/collaborate-as-team.md)
   
 ## <a name="deciding-how-to-share-your-content"></a>콘텐츠 공유 방법 결정
 

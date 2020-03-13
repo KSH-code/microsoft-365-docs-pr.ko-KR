@@ -16,11 +16,11 @@ ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
 ms.openlocfilehash: c1af88f489072490777cc6f2c7edfc66fd038bdf
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.sourcegitcommit: 6c8edbc54b193e964cf93aec48c51cb79231f1d9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601025"
+ms.lasthandoff: 03/05/2020
+ms.locfileid: "42544027"
 ---
 # <a name="prerequisite-work-for-implementing-identity-and-device-access-policies"></a>Id 및 장치 액세스 정책을 구현 하기 위한 필수 작업
 
@@ -82,12 +82,12 @@ BYOD Windows 장치에서는 사용자가 **회사 또는 학교 계정 추가**
 
 |플랫폼|Word/Excel/PowerPoint|OneNote|OneDrive 앱|SharePoint 앱|OneDrive 동기화 클라이언트|
 |:-------|:-----|:------------|:-------|:-------------|:-----|
-|Windows 7|지원|지원|해당 없음|해당 없음|미리 보기<sup>*</sup>|
-|Windows 8.1|지원|지원|해당 없음|해당 없음|미리 보기<sup>*</sup>|
-|Windows 10|지원|지원|해당 없음|해당 없음|미리 보기<sup>*</sup>|
+|Windows 7|지원됨|지원됨|해당 없음|해당 없음|미리 보기<sup>*</sup>|
+|Windows 8.1|지원됨|지원됨|해당 없음|해당 없음|미리 보기<sup>*</sup>|
+|Windows 10|지원됨|지원됨|해당 없음|해당 없음|미리 보기<sup>*</sup>|
 |Windows Phone 10|지원되지 않음|지원되지 않음|미지원|미지원|미지원|
-|Android|지원|지원|지원|지원|해당 없음|
-|iOS|지원|지원|지원|지원|해당 없음|
+|Android|지원됨|지원됨|지원됨|지원됨|해당 없음|
+|iOS|지원됨|지원됨|지원됨|지원됨|해당 없음|
 |macOS|공개 미리 보기|공개 미리 보기|해당 없음|해당 없음|지원되지 않음|
 |Linux|지원되지 않음|지원되지 않음|지원되지 않음|지원되지 않음|지원되지 않음|
 
