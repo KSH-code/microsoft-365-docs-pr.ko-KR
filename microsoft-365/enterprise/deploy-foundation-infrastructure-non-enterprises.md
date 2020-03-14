@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 엔터프라이즈 이외의 조직의 엔터프라이즈용 Microsoft 365에 대해 간소화된 기본 인프라 단계를 안내합니다.
-ms.openlocfilehash: 2620b210c40d5c838cf1a4be4fcd67bf3de03d29
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 0d372578539ff05fcd2cadaa45c554921ee68f71
+ms.sourcegitcommit: 9afcc63b1a7e73f6946f67207337f10b71a5d7f3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42068196"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "42612648"
 ---
 # <a name="microsoft-365-for-enterprise-foundation-infrastructure-for-non-enterprises"></a>엔터프라이즈 이외의 비즈니스용 Microsoft 365 기본 인프라
 
@@ -292,7 +292,7 @@ Intune 정책은 디바이스 준수 및 앱 보호를 적용할 수 있습니�
 
   예로는 새로운 제품 또는 서비스 연구 개발 데이터 및 재무/법률 정보가 있습니다.
 
-- 높은 규제
+- 매우 엄격한 규제
 
   예로는 고객 및 파트너의 개인 식별 정보와 조직의 전략적 계획 혹은 지적 재산이 있습니다.
 
@@ -371,7 +371,7 @@ Intune 정책은 디바이스 준수 및 앱 보호를 적용할 수 있습니�
 
 Microsoft 365 관리 센터의 여러 Azure AD 그룹에 사용자 계정을 추가할 수 있습니다. 사용자 계정의 속성에서 **그룹 관리 > 구성원 자격 추가**를 클릭합니다.
 
-Powershell을 사용하려면 이 [다운로드 가능한 Excel 통합 문서](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/deploy-foundation-infrastructure-non-enterprises/Group-License-Mgmt-PowerShell.xlsx)를 참조하여 지정된 사용자 계정 및 선택한 그룹 이름을 기준으로 PowerShell 명령을 생성합니다.
+Powershell을 사용하려면 이 [다운로드 가능한 Excel 통합 문서](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/deploy-foundation-infrastructure-non-enterprises/Group-License-Mgmt-PowerShell.xlsx)를 참조하여 지정된 사용자 계정 및 선택한 그룹 이름을 기준으로 PowerShell 명령을 생성합니다.
 
 ### <a name="new-employee-with-a-cloud-only-user-account"></a>클라우드 전용 사용자 계정이 있는 신입 직원
 
