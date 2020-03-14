@@ -1,5 +1,5 @@
 ---
-title: 랜 섬 웨어 공격에서 복구
+title: 랜섬웨어 공격으로부터 복구
 ms.author: chrisda
 author: chrisda
 manager: dansimp
@@ -13,12 +13,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Office 365 관리자는 랜 섬 웨어 공격 으로부터 복구 하는 방법에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: 04cfd2f2417b0c2e084a88f9ee156521339b18c4
-ms.sourcegitcommit: e47694dedf7e213167d3d979a44c07c668bba543
+ms.openlocfilehash: aa606ea3bf3f549645fe26a4aa95066568132243
+ms.sourcegitcommit: 72983702a42552a29228d387bb279e8ff2ab59b4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41932377"
+ms.lasthandoff: 03/14/2020
+ms.locfileid: "42640020"
 ---
 # <a name="recover-from-a-ransomware-attack-in-office-365"></a>Office 365에서 랜 섬 웨어 공격 으로부터 복구
 
@@ -74,11 +74,7 @@ OneDrive 동기화를 일시 중지 하면 잠재적으로 감염 된 장치에 
 
 ## <a name="step-5-recover-your-files-in-your-onedrive-for-business"></a>5 단계: 비즈니스용 OneDrive에서 파일 복구
 
-비즈니스용 OneDrive를 사용 하면 저장 한 파일을 복구할 수 있습니다. 두 가지 옵션 가운데 선택하십시오.
-
-- [OneDrive 웹 사이트](https://support.office.com/article/159cad6d-d76e-4981-88ef-de6e96c93893)를 사용 합니다.
-
-- 많은 수의 파일이 영향을 받는 경우 "사이트 모음 복원"에 대 한 지원 요청을 만들 수 있습니다. 이 요청은 이전에 최대 14 일 동안 파일을 복원할 수 있습니다.
+비즈니스용 OneDrive의 파일 복원 기능을 사용 하면 지난 30 일 이내에 이전 시점으로 전체 OneDrive를 복원할 수 있습니다. 자세한 내용은 [OneDrive 복원을](https://support.office.com/article/fa231298-759d-41cf-bcd0-25ac53eb8a15)참조 하세요.
 
 ## <a name="step-6-recover-deleted-email"></a>6 단계: 삭제 된 전자 메일 복구
 

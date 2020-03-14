@@ -15,11 +15,11 @@ search.appverid:
 - MET150
 description: Microsoft 365에는 조직 전체에서 콘텐츠를 식별 하 고 레이블을 지정 하는 데 사용할 수 있는 다양 한 기본 제공 분류자가 제공 됩니다. 이 항목에서는 이러한 분류자 사용을 준비 하는 방법을 보여 줍니다.
 ms.openlocfilehash: 2157e06da251b1f02b6a4623c573d350d838aff0
-ms.sourcegitcommit: 59b006f8e82d1772cae2029f278a59ae8a106736
+ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/25/2020
-ms.locfileid: "42266734"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42634466"
 ---
 # <a name="using-a-built-in-classifier-preview"></a>기본 제공 분류자 사용 (미리 보기)
 

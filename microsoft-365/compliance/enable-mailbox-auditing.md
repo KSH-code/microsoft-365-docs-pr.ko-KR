@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: aaca8987-5b62-458b-9882-c28476a66918
 description: 사서함 감사 로깅은 기본적으로 Office 365에서 설정 됩니다 (기본 사서함 감사 또는 사서함 감사가 기본적으로 라고도 함). 즉, 사서함 소유자, 대리인 및 관리자가 수행 하는 특정 작업이 사서함 감사 로그에 자동으로 기록 되므로 사서함에 대해 수행 된 작업을 검색할 수 있습니다.
-ms.openlocfilehash: 28823c3b2b43261d18352cb939c36f1cfc0b2c7c
-ms.sourcegitcommit: 1c445d68e54ca4249024ca4bb72460dd6fac0a2d
+ms.openlocfilehash: 6a1c435ca3be16ef2f4926cce56afe180c576f15
+ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42170578"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42634966"
 ---
 # <a name="manage-mailbox-auditing"></a>사서함 감사 관리
 
@@ -39,7 +39,7 @@ ms.locfileid: "42170578"
 - 모든 사서함에 대해 동일한 작업을 감사 하 고 있으므로 조직 전체에 일관 된 사서함 감사 정책이 있습니다.
 
 > [!NOTE]
->• 기본적으로 사서함 감사 릴리스를 고려해 야 하는 중요 한 사항은 다음과 같습니다. 사서함 감사를 관리 하기 위해 별도의 작업을 수행할 필요가 없습니다. 그러나 자세한 내용을 보거나 기본 설정에서 사서함 감사를 사용자 지정 하거나 완전히 해제 하려면이 항목을 참조 하십시오. <br><br>• 기본적으로 E5 사용자에 대 한 사서함 감사 이벤트만 보안 & 준수 센터 또는 Office 365 관리 활동 API를 통해 감사 로그 검색에서 사용할 수 있습니다. 자세한 내용은이 항목의 [추가 정보](#more-information) 섹션을 참조 하십시오.
+>* 기본적으로 사서함 감사 릴리스를 고려해 야 할 중요 한 사항은 다음과 같습니다. 사서함 감사를 관리할 필요가 없습니다. 그러나 자세한 내용을 보거나 기본 설정에서 사서함 감사를 사용자 지정 하거나 완전히 해제 하려면이 항목을 참조 하십시오. <br><br>* 기본적으로 E5 사용자에 대 한 사서함 감사 이벤트만 보안 & 준수 센터 또는 Office 365 관리 활동 API를 통해 감사 로그 검색에서 사용할 수 있습니다. 자세한 내용은이 항목의 [추가 정보](#more-information) 섹션을 참조 하십시오.
 
 ## <a name="verify-mailbox-auditing-on-by-default-is-turned-on"></a>기본적으로 사서함 감사가 설정 되어 있는지 확인
 
@@ -111,7 +111,7 @@ Get-OrganizationConfig | Format-List AuditDisabled
 |**기본값**||![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
 |**FolderBind**|사서함 폴더에 액세스했습니다. 관리자 또는 대리인이 사서함을 열 때에도 작업이 기록됩니다.<br/><br/> **참고**: 대리인에 의해 수행 된 폴더 바인드 작업에 대 한 감사 기록이 통합 되어 있습니다. 24 시간 내에 개별 폴더 액세스에 대 한 감사 레코드 하나를 생성 합니다.|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
 |**HardDelete**|메시지가 복구 가능한 항목 폴더에서 제거되었습니다.|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|
-|**액세스 한 Mail항목**|메일 데이터는 메일 프로토콜 및 클라이언트에서 액세스 합니다. 이 값은 E5 또는 E5 준수 추가 기능 구독 사용자에 대해서만 사용할 수 있습니다. 자세한 내용은 [조사의 중요 이벤트 액세스](advanced-audit.md#access-to-crucial-events-for-investigations)를 참조 하십시오.|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
+|**MailItemsAccessed**|메일 데이터는 메일 프로토콜 및 클라이언트에서 액세스 합니다. 이 값은 E5 또는 E5 준수 추가 기능 구독 사용자에 대해서만 사용할 수 있습니다. 자세한 내용은 [조사의 중요 이벤트 액세스](advanced-audit.md#access-to-crucial-events-for-investigations)를 참조 하십시오.|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|
 |**MailboxLogin**|사용자가 사서함에 로그인 되어 있습니다. |||![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
 |**대해 수행한 messagebind**|메시지가 미리 보기 창에 표시 되거나 관리자가 열었습니다. **참고**:이 값은 사서함 작업으로 허용 되지만 더 이상 기록 되지 않습니다.|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|||
 |**ModifyFolderPermissions**|**참고**:이 값은 사서함 작업으로 허용 되지만 **updatefolderpermissions** 작업에 이미 포함 되어 있으며 별도로 감사 되지 않습니다. 즉,이 값을 사용 하지 마십시오.||||
@@ -223,7 +223,7 @@ Get-Mailbox -Identity <MailboxIdentity> | Select-Object -ExpandProperty AuditAdm
 
 다음과 같은 두 가지 방법을 사용 하 여 사서함 작업을 지정할 수 있습니다.
 
-- ** 다음 `action1,action2,...actionN`구문을 사용 하 여 기존 사서함 작업을 교체 (덮어씀) 합니다.
+- *Replace* 다음 `action1,action2,...actionN`구문을 사용 하 여 기존 사서함 작업을 교체 (덮어씀) 합니다.
 
 - 다음 `@{Add="action1","action2",..."actionN"}` 구문을 사용 하 여 기존 값에 영향을 주지 않고 사서함 작업을 `@{Remove="action1","action2",..."actionN"}` *추가 하거나 제거* 합니다.
 

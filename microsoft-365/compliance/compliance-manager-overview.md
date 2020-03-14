@@ -15,11 +15,11 @@ search.appverid:
 - MET150
 description: Microsoft 준수 관리자는 Microsoft Service Trust Portal의 무료 워크플로 기반 위험 평가 도구입니다. 준수 관리자를 사용 하면 Microsoft 클라우드 서비스와 관련 된 규정 준수 활동을 추적, 할당 및 확인할 수 있습니다.
 ms.openlocfilehash: 4d79b0480462510927f0b1b4c8b5da7132cffec8
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42078673"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42635156"
 ---
 # <a name="microsoft-compliance-manager-preview"></a>Microsoft 준수 관리자 (미리 보기)
 
@@ -111,7 +111,7 @@ ms.locfileid: "42078673"
 
 인증 컨트롤은 일반적으로 한 사람에 의해 구현 되며 다른 사용자가 테스트 합니다. 예를 들어 초기에 한 사람에 게 할당 된 작업 항목이 완료 된 후에는 해당 작업 항목이 다음 사용자에 게 할당 되어 증거를 테스트 및 업로드 합니다. 컨트롤 할당에 대 한 충분 한 사용 권한이 있는 모든 사용자는 작업 항목을 할당 하 고 다시 할당할 수 있습니다. 이를 통해 제어 할당을 중앙 집중식으로 관리 하 고 implementors 및 테스터 간에 작업 항목을 분산 하 여 라우팅할 수 있습니다.
 
-## <a name="permissions"></a>권한
+## <a name="permissions"></a>사용 권한
 
 준수 관리자는 역할 기반 액세스 제어 사용 권한 모델을 사용합니다. 사용자 역할이 할당된 사용자만 준수 관리자에 액세스할 수 있으며, 각 사용자가 허용하는 작업은 역할 유형에 따라 제한됩니다. 각 권한에 대해 허용 되는 작업을 보여 주는 [테이블을 봅니다](working-with-compliance-manager.md#permissions) .
 

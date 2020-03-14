@@ -1,18 +1,18 @@
 ---
 title: Microsoft Managed Desktop에 대 한 구성 가능한 설정 참조
 description: Microsoft Managed Desktop에서 구성 가능한 설정에 대 한 범주 설정
-keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 설명서
+keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.date: 2/14/2019
 ms.collection: M365-modern-desktop
 ms.openlocfilehash: 9a405f96ee7a113197fbc9c237779db3e3e5e5ca
-ms.sourcegitcommit: 3d37043c0447359c952dc99026c219dd69f6fb8d
+ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/06/2019
-ms.locfileid: "38012263"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42632986"
 ---
 # <a name="configurable-settings-reference---microsoft-managed-desktop"></a>구성 가능한 설정 참조-Microsoft Managed Desktop
 

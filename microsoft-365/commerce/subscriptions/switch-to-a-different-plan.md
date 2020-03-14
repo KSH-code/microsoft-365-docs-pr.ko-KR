@@ -25,11 +25,11 @@ search.appverid:
 ms.assetid: 73318661-8f33-478b-bcc7-fb8d69dbb22a
 description: 새 Office 365 for business 구독으로 전환 하는 방법을 알아봅니다.
 ms.openlocfilehash: f341222945d4af6d35c00ee26c3a2645fabf98f8
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42354469"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42633406"
 ---
 # <a name="switch-to-a-different-office-365-for-business-plan"></a>다른 Microsoft Office 365 비즈니스 에디션 요금제로 전환
 

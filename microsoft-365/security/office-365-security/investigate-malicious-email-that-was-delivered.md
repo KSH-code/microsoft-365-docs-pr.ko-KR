@@ -1,5 +1,5 @@
 ---
-title: 'Office 365, 재구성, 해결책, 재구성에 제공 된 악성 전자 메일을 찾고 조사 합니다. '
+title: Office 365, 재구성, 보상, 관리, 위협 방지, 위협 탐색기, 보호에서 제공 되는 악성 전자 메일 찾기 및 조사
 keywords: TIMailData-Inline, Security 인시던트, 인시던트, ATP PowerShell, 전자 메일 맬웨어, 손상 된 사용자, 전자 메일 피싱, 전자 메일 맬웨어, 읽기 전자 메일 머리글, 읽기 헤더, 공개 전자 메일 헤더
 f1.keywords:
 - NOCSH
@@ -17,12 +17,12 @@ ms.assetid: 8f54cd33-4af7-4d1b-b800-68f8818e5b2a
 ms.collection:
 - M365-security-compliance
 description: 위협 조사 및 응답 기능을 사용 하 여 악성 전자 메일을 찾고 조사 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 1cb7c418e9c4ae5f2223748d512e8718f81b010c
-ms.sourcegitcommit: 9c335d110e0b499501edc8a31b987641819118a1
+ms.openlocfilehash: 178bdbfd97bea654959cf71da560a80e686a5fde
+ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "42409753"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42632919"
 ---
 # <a name="investigate-and-remediate-malicious-email-that-was-delivered-in-office-365"></a>Office 365에서 제공 된 악성 전자 메일 조사 및 재구성
 
@@ -56,6 +56,9 @@ ms.locfileid: "42409753"
 ## <a name="find-and-delete-suspicious-email-that-was-delivered"></a>배달 된 의심 스러운 전자 메일 찾기 및 삭제
 
 위협 탐색기는 메시지 찾기 및 삭제, 악의적인 전자 메일 보낸 사람의 IP 주소 식별, 추가 조사를 위해 인시던트 시작 등의 여러 용도로 사용할 수 있는 강력한 보고서입니다. 다음 절차에서는 탐색기를 사용 하 여 받는 사람의 사서함에서 악성 전자 메일을 찾아서 삭제 하는 방법에 대해 중점적으로 설명 합니다.
+
+> [!NOTE]
+> 탐색기의 기본 검색에는 Zapped 항목이 포함 되어 있지 않습니다.  이는 맬웨어 또는 피싱 보기와 같은 모든 보기에 적용 됩니다. Zapped 항목을 포함 하려면 ' 삭제에 의해 제거 '를 포함 하도록 설정 된 ' 배달 작업 ' 집합을 추가 해야 합니다. 모든 옵션을 포함 하는 경우 Zapped 항목을 포함 하 여 모든 배달 작업 결과가 표시 됩니다.
 
 1. **위협 탐색기** [https://protection.office.com](https://protection.office.com) 로 이동 하 여 회사 또는 Office 365의 학교 계정을 사용 하 여 로그인 합니다. 이렇게 하면 보안 &amp; 및 준수 센터로 이동 합니다.
 

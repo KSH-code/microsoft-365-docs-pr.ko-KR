@@ -16,11 +16,11 @@ ms.collection:
 ms.custom: ''
 description: Azure AD 테넌트에 대한 ID 거버넌스를 이해하고 구성합니다.
 ms.openlocfilehash: 5b7b1c91735611046133a0247ae028ed090106fd
-ms.sourcegitcommit: 6c8edbc54b193e964cf93aec48c51cb79231f1d9
+ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42543997"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42633586"
 ---
 # <a name="step-6-configure-identity-governance"></a>6단계: ID 거버넌스 구성
 

@@ -24,11 +24,11 @@ search.appverid:
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
 description: 캠페인에 대 한 Microsoft 365에 대 한 단계별 등록입니다. Cybersecurity 위협 으로부터 전자 메일, 데이터 및 통신으로 캠페인을 보호 합니다.
 ms.openlocfilehash: 604e0be01c3824ed63361bb7fc9e694787ae83ef
-ms.sourcegitcommit: 9c335d110e0b499501edc8a31b987641819118a1
+ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "42409663"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42633736"
 ---
 # <a name="sign-up-for-microsoft-365-for-campaigns"></a>캠페인에 대 한 Microsoft 365 등록 
 
@@ -47,7 +47,7 @@ ms.locfileid: "42409663"
 1. 캠페인 전자 메일에 대 한 Microsoft 365 초대에서 **조직 등록 >** 를 선택 합니다. 그러면 Microsoft 365 등록을 수행 하는 데 도움이 됩니다.
     > [!NOTE]
     > 기존 Office 365 for business 구독이 이미 있고 캠페인 행사에 Microsoft 365을 추가 하려는 경우에는 [캠페인에 대 한 microsoft 365을 기존 구독으로](#steps-to-add-microsoft-365-for-campaigns-to-an-existing-subscription)이동 하 여 추가 합니다.
-1. **Microsoft 365 business 페이지에서**비즈니스 세부 정보를 입력 합니다. **업무용 전자 메일 주소**에 대해 현재 전자 메일 주소를 사용 합니다. 이 주소는 설치 프로세스 동안 계속 해 서 연락을 받아야 합니다.  Select **Next**. 
+1. **Microsoft 365 business 페이지에서**비즈니스 세부 정보를 입력 합니다. **업무용 전자 메일 주소**에 대해 현재 전자 메일 주소를 사용 합니다. 이 주소는 설치 프로세스 동안 계속 해 서 연락을 받아야 합니다. **다음**을 선택합니다.
 1. **사용자 ID 만들기 페이지에서 다음을 수행 합니다**.
     1. **사용자 이름**에 전자 메일 주소에 사용할 이름 또는 별칭을 입력 합니다. 예를 들어 Alice 또는 Rob만을 사용할 수 있습니다. 캠페인 규모가 큰 경우에는 AliceC 또는 AliceChavez을 활용 하는 것이 더 효과적일 수 있습니다.
     2. **회사**에서 작업 하려는 캠페인의 이름을 입력 합니다. 예: ContosoCampaign. 이미 도메인을 소유 하 고 있는 경우 해당 이름을 여기에서 사용 합니다. 
@@ -60,7 +60,7 @@ ms.locfileid: "42409663"
     1. 휴대폰을 준비 하 고 **텍스트 나** 를 선택 합니다 (또는 원하는 경우 **내게 전화** 하십시오). 그런 다음 전화 번호를 입력 합니다. 
     2. **Text me**를 선택 하면 인증 코드가 전송 됩니다. 또는 **통화**를 선택한 경우 코드를 호출 합니다.
     3. 문자 메시지 (또는 통화)에서 코드를 입력 하 고 **Next (다음**)를 선택 합니다. 짧은 대기가 예상 됩니다. 
-5. **이 페이지를 사용할 위치**: 캠페인의 기본 작업 위치 세부 정보 및 전화 번호를 입력 합니다.  Select **Next**. 
+5. **이 페이지를 사용할 위치**: 캠페인의 기본 작업 위치 세부 정보 및 전화 번호를 입력 합니다. **다음**을 선택합니다.
 6. **이 디자인 페이지의 기능은**다음과 같습니다.
     1. 사용자 당 비용이 $5.00 인지 확인 합니다. 
     2. 지금 자신만을 설정 하려면 **다음**을 선택 합니다. 

@@ -18,11 +18,11 @@ search.appverid:
 ms.assetid: a85e1c87-a48e-4715-bfa9-d5275cde67b0
 description: "관리자:에서 항목을 삭제 합니다. \n\n사서함이 법적 보존 상태로 설정 된 경우에도 Exchange Online 사서함에 대해 er의 복구 가능한 항목 폴더 이 방법은 실수로 Office 365에 분산 된 데이터를 삭제 하는 효율적인 방법입니다."
 ms.openlocfilehash: 5c8614c0faf8ea0f807b09cb24ccd3409dd7facb
-ms.sourcegitcommit: 9c335d110e0b499501edc8a31b987641819118a1
+ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "42409653"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42635066"
 ---
 # <a name="delete-items-in-the-recoverable-items-folder-of-cloud-based-mailboxes-on-hold---admin-help"></a>보류에서 클라우드 기반 사서함의 복구 가능한 항목 폴더에 있는 항목 삭제-관리자 도움말
 
@@ -199,7 +199,7 @@ Get-MailboxSearch -InPlaceHoldIdentity <hold GUID> | FL Name
 Get-RetentionCompliancePolicy <retention policy GUID without prefix> | FL Name
 ```
 
-보존 정책을 식별 한 후에는 보안 & 준수 센터의 **정보 거 버 넌 스** \> **** 로 이동한 후, 이전 단계에서 식별 한 보존 정책을 편집 하 고, 보존 정책에 포함 된 받는 사람 목록에서 해당 사서함을 제거 합니다. 
+보존 정책을 식별 한 후에는 보안 & 준수 센터의 **정보 거 버 넌 스** \> **Retention** 로 이동한 후, 이전 단계에서 식별 한 보존 정책을 편집 하 고, 보존 정책에 포함 된 받는 사람 목록에서 해당 사서함을 제거 합니다. 
   
  ### <a name="organization-wide-office-365-retention-policies"></a>조직 전체 Office 365 보존 정책
   

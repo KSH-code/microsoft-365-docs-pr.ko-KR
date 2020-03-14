@@ -17,11 +17,11 @@ search.appverid:
 ms.assetid: 9701a024-c52e-43f0-b545-9a53478aec04
 description: 검색 통계 기능을 사용 하 여 보안 & 준수 센터에서 여러 콘텐츠 검색에 대 한 통계를 표시 하 고 비교 합니다. 검색 쿼리를 만들거나 편집할 때 키워드 목록을 구성 하 여 각 키워드나 키워드 구와 일치 하는 항목 수를 표시 하는 통계를 향상 시킬 수도 있습니다.
 ms.openlocfilehash: 07a13ab2f183cfa9349f827cf410e417c0944869
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42068977"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42634126"
 ---
 # <a name="view-keyword-statistics-for-content-search-results"></a>콘텐츠 검색 결과에 대한 키워드 통계 보기
 

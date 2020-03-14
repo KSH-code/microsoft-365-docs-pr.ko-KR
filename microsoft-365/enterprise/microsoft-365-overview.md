@@ -1,5 +1,5 @@
 ---
-title: 엔터프라이즈에 대 한 Microsoft 365 개요
+title: 엔터프라이즈용 Microsoft 365 개요
 f1.keywords:
 - NOCSH
 ms.author: josephd
@@ -14,13 +14,13 @@ ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: Microsoft 365 for enterprise의 구성 요소, 계획 및 배포 경로에 대해 소개 합니다.
 ms.openlocfilehash: 035c7bc2086b4f70dacc31c3489a4a8adc8fb3dd
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42066899"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42633306"
 ---
-# <a name="microsoft-365-for-enterprise-overview"></a>엔터프라이즈에 대 한 Microsoft 365 개요
+# <a name="microsoft-365-for-enterprise-overview"></a>엔터프라이즈용 Microsoft 365 개요
 
 기업에 대 한 Microsoft 365는 모든 사람이 창의적인 작업을 수행 하 고 안전 하 게 함께 작업할 수 있도록 지 원하는 완벽 한 지능형 솔루션입니다. 
 

@@ -16,11 +16,11 @@ search.appverid:
 ms.collection: M365-security-compliance
 description: Office 365에서 자동화 된 조사가 진행 되는 동안과 후에는 결과 및 주요 발견 사항을 볼 수 있습니다.
 ms.openlocfilehash: 638559efe5f7028a647b466c030a339c677601ce
-ms.sourcegitcommit: 87cc278ea2ddcd536ecfaa3dfae9a5ddaa502cf9
+ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42179259"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42633846"
 ---
 # <a name="details-and-results-of-an-automated-investigation-in-office-365"></a>Office 365의 자동화 된 조사에 대 한 세부 정보 및 결과
 

@@ -16,11 +16,11 @@ ms.collection:
 ms.custom: ''
 description: 정보 보호 기반 서비스 및 인프라에 대한 조건을 검사하여 구성이 Microsoft 365 Enterprise 요구 사항을 충족하는지 확인합니다.
 ms.openlocfilehash: 28eff02ea870dcfca7e2e32580ed6a3a9e8a9484
-ms.sourcegitcommit: 6c8edbc54b193e964cf93aec48c51cb79231f1d9
+ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42544167"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42633356"
 ---
 # <a name="information-protection-infrastructure-exit-criteria"></a>정보 보호 인프라 종료 조건
 

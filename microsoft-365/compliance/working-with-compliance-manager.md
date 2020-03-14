@@ -15,11 +15,11 @@ search.appverid:
 - MET150
 description: Microsoft 준수 관리자는 Microsoft Service Trust Portal의 무료 워크플로 기반 위험 평가 도구입니다. 준수 관리자를 사용 하면 Microsoft 제품과 관련 된 규정 준수 활동을 추적, 할당 및 확인할 수 있습니다.
 ms.openlocfilehash: a0cdabdc37779ee2f7624242eeb177f3d35b87da
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42083910"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42634136"
 ---
 # <a name="work-with-microsoft-compliance-manager-preview"></a>Microsoft 준수 관리자 사용 (미리 보기)
 
@@ -458,7 +458,7 @@ Service Trust Portal에서 준수 관리자에 액세스할 수 있습니다. Mi
     Dimension Key::Dimension Value;;Dimension Key::Dimension Value.
     ```
     
-    예시는 다음과 같습니다:
+    예:
 
     ```Markdown
     Product::Office 365;;Certification::NIST CSF
@@ -492,7 +492,7 @@ Service Trust Portal에서 준수 관리자에 액세스할 수 있습니다. Mi
 - 하이퍼링크
 - 굵은
 
-글머리 기호는 Word 또는 Excel 글머리 기호 대신 별표로 표시 됩니다. 예시는 다음과 같습니다:
+글머리 기호는 Word 또는 Excel 글머리 기호 대신 별표로 표시 됩니다. 예:
 
 ```Markdown
 * Item A
@@ -500,7 +500,7 @@ Service Trust Portal에서 준수 관리자에 액세스할 수 있습니다. Mi
 * Item C
 ```
 
-숫자는 숫자로 나타내지만 들여쓰기가 필요한 경우 공백을 사용 하 고, 각 하위 수준에는 숫자만 사용 합니다 (예: 문자 없음).  예시는 다음과 같습니다:
+숫자는 숫자로 나타내지만 들여쓰기가 필요한 경우 공백을 사용 하 고, 각 하위 수준에는 숫자만 사용 합니다 (예: 문자 없음).  예:
    1. 항목 A
    2. 항목 B
       1. 하위 항목 A
@@ -511,7 +511,7 @@ Service Trust Portal에서 준수 관리자에 액세스할 수 있습니다. Mi
       2. 하위 항목 B
    5. 항목 E
 
-하이퍼링크 텍스트를 대괄호로 묶고 닫는 대괄호 바로 다음에 하이퍼링크를 괄호로 묶어 구성 합니다.  예시는 다음과 같습니다:
+하이퍼링크 텍스트를 대괄호로 묶고 닫는 대괄호 바로 다음에 하이퍼링크를 괄호로 묶어 구성 합니다.  예:
 
 ```Markdown
 Click [here](https://www.microsoft.com) to go to Microsoft’s home page.
@@ -520,7 +520,7 @@ Click [here](https://www.microsoft.com) to go to Microsoft’s home page.
 
 위의 예제에 나와 있는 것 처럼 준수 관리자는 밑줄을 사용 하 여 Url을 렌더링 하지 않습니다.
 
-굵은 텍스트는 텍스트의 양쪽에 있는 두 개의 별표가 며 굵게 표시 됩니다.  예시는 다음과 같습니다:
+굵은 텍스트는 텍스트의 양쪽에 있는 두 개의 별표가 며 굵게 표시 됩니다.  예:
 
 ```Markdown
 **This text will render in bold**
@@ -596,7 +596,7 @@ Click [here](https://www.microsoft.com) to go to Microsoft’s home page.
 
 ![준수 관리자 평가 Excel 보고서](../media/compliance-manager-assessment-report.png)
 
-## <a name="permissions"></a>권한
+## <a name="permissions"></a>사용 권한
 
 다음 표에서는 각 준수 관리자 권한 및 사용자가 수행할 수 있는 작업에 대해 설명 합니다. 또한이 표에서는 각 사용 권한에 할당 되는 역할을 나타냅니다.
 

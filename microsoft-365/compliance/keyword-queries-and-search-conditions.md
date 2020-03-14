@@ -21,11 +21,11 @@ search.appverid:
 ms.assetid: c4639c2e-7223-4302-8e0d-b6e10f1c3be3
 description: '보안 & 준수 센터의 콘텐츠 검색 도구를 사용 하 여 Exchange Online 사서함 및 SharePoint 또는 비즈니스용 OneDrive 사이트에서 검색할 수 있는 전자 메일 및 파일 속성에 대해 알아봅니다.  '
 ms.openlocfilehash: aad4ff401ee66db2f88bf5476cfaab8fce4ad821
-ms.sourcegitcommit: 6c8edbc54b193e964cf93aec48c51cb79231f1d9
+ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42543429"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42634366"
 ---
 # <a name="keyword-queries-and-search-conditions-for-content-search"></a>콘텐츠 검색에 대한 키워드 쿼리 및 검색 조건
 
@@ -147,7 +147,7 @@ ms.locfileid: "42543429"
 |**연산자**|**Usage**|**설명**|
 |:-----|:-----|:-----|
 |그리고|keyword1 AND keyword2|지정한 키워드나 `property:value` 식이 모두 포함 된 항목을 반환 합니다. 예를 들어 `from:"Ann Beebe" AND subject:northwind` 제목 줄에 northwind 라는 단어를 포함 하는 Ann Beebe에서 보낸 모든 메시지를 반환 합니다. <sup>2</sup>|
-|+|keyword1 + keyword2 + keyword3|`keyword2` 또는 `keyword3` *가 포함 된* *항목을 반환* `keyword1`합니다.   따라서이 예제는 쿼리와 `(keyword2 OR keyword3) AND keyword1`동일 합니다.  <br/> 기호 뒤 `keyword1 + keyword2` 에 공백이 있는 쿼리는 AND 연산자를 사용 하는 것과는 다릅니다. **** **+** 이 쿼리는 해당 하는 `"keyword1 + keyword2"` 것과 동일한 작업을 포함 하 `"keyword1 + keyword2"`는 항목을 반환 합니다.|
+|+|keyword1 + keyword2 + keyword3|`keyword2` 또는 `keyword3` *가 포함 된* *항목을 반환* `keyword1`합니다.   따라서이 예제는 쿼리와 `(keyword2 OR keyword3) AND keyword1`동일 합니다.  <br/> 기호 뒤 `keyword1 + keyword2` 에 공백이 있는 쿼리는 AND 연산자를 사용 하는 것과는 다릅니다. **AND** **+** 이 쿼리는 해당 하는 `"keyword1 + keyword2"` 것과 동일한 작업을 포함 하 `"keyword1 + keyword2"`는 항목을 반환 합니다.|
 |또는|keyword1 OR keyword2|지정 된 키워드나 `property:value` 식이 하나 이상 포함 된 항목을 반환 합니다. <sup>2</sup>|
 |아닌|keyword1 NOT keyword2  <br/> NOT from:"Ann Beebe"  <br/> 종류 아님: im|키워드나 `property:value` 식으로 지정한 항목을 제외 합니다. 두 번째 예에서는 Ann Beebe에서 보낸 메시지를 제외 합니다. 세 번째 예에서는 대화 내용 사서함 폴더에 저장 된 비즈니스용 Skype 대화와 같은 인스턴트 메시징 대화를 제외 합니다. <sup>2</sup>|
 |-|keyword1 -keyword2|**NOT** 연산자와 같습니다. 따라서이 쿼리는를 포함 하 `keyword1` 는 항목을 반환 하며 해당 `keyword2`항목이 포함 된 항목을 제외 합니다.|

@@ -17,11 +17,11 @@ search.appverid:
 - MOE150
 description: Office 365 감사 로그 검색 도구를 사용 하면 손상 된 계정을 조사 하거나, 사서함에 대 한 전자 메일 전달을 설정 하는 사람을 찾거나, 외부 사용자가 조직에 로그인 한 이유를 확인 하는 등의 일반적인 문제를 해결 하는 데 도움이 될 수 있습니다.
 ms.openlocfilehash: b18db4c24548c929043d79adb73e11b46be6ddb8
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42079181"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42634486"
 ---
 # <a name="search-the-office-365-audit-log-to-investigate-common-support-issues"></a>Office 365 감사 로그를 검색 하 여 일반적인 지원 문제 조사
 

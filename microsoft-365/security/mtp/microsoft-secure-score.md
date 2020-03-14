@@ -17,12 +17,12 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: b19c48161d5d0f43c2beb207dd0ee2db8bfb1470
-ms.sourcegitcommit: 9224a7a5886c0c5fa0bc12bd9f7234a0eba90023
+ms.openlocfilehash: ea91fc29a0fa768113ff3ca8d8129a0ee56ab5f5
+ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42372026"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42633996"
 ---
 # <a name="microsoft-secure-score"></a>Microsoft 보안 점수
 
@@ -89,11 +89,11 @@ Microsoft 보안 점수에 액세스할 수 있는 권한을 부여 하려면 Az
 
 필요한 정보를 보다 신속 하 게 지원 하기 위해 Microsoft 개선 작업을 그룹으로 구성 합니다.
 
-* Id (Azure AD 계정 & 역할, Azure ATP가 곧 출시 될 예정)
+* Id (Azure AD 계정 & 역할)
 * 데이터 (Microsoft Information Protection)
-* 장치 (Microsoft Defender ATP 디바이스, 곧 출시 예정)
+* 장치 (지금 향상 작업 없음)
 * 앱 (Office 365 및 Microsoft Cloud App Security)을 포함 하는 전자 메일 및 클라우드 앱
-* 인프라 (Azure 리소스)
+* 인프라 (지금은 향상 작업 없음)
 
 Microsoft 보안 점수 개요 페이지에서 이러한 그룹 간의 점수가 분할 되는 방식과 사용할 수 있는 지점을 볼 수 있습니다. 개요 페이지는 또한 전체 점수에 대 한 모든 보기, 벤치 마크 비교를 사용한 보안 점수의 역사적 추세 및 점수를 높이기 위해 수행할 수 있는 향상 작업의 우선 순위를 지정 하는 위치를 제공 합니다.
 

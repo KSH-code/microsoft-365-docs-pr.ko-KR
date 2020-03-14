@@ -20,11 +20,11 @@ search.appverid:
 ms.assetid: c7228a3e-061f-4575-b1ef-adf1d1669870
 description: Microsoft 365 관리 센터에 대해 설명 하 고, 관리자를 위해 로그인 하 고,이에 대 한 비디오 소개를 시청 하세요.
 ms.openlocfilehash: 5f2727b582fcae2b4e001be1ec355747c96e9084
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42245641"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42633466"
 ---
 # <a name="office-365-admin-overview"></a>Office 365 관리 개요 
 

@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 69b3bbbbca98c3ef9e16f1cca4d67122ae14af3f
-ms.sourcegitcommit: 21338a9287017a66298e0ff557e80051946ebf13
+ms.openlocfilehash: 027189a10e34687833e6a266d5fe4382a1e14e3a
+ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "42604205"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42632899"
 ---
 # <a name="configure-communication-compliance-in-microsoft-365"></a>Microsoft 365에서 통신 준수 구성
 
@@ -107,7 +107,7 @@ Microsoft 365 준수 센터에서 **통신 준수** 를 메뉴 옵션으로 사�
 
     - 정책 이름을 확인 하거나 업데이트 합니다. 정책을 만든 후에는 정책 이름을 변경할 수 없습니다.
     - 제외할 사용자 또는 그룹 선택을 비롯 하 여 감독할 사용자 또는 그룹을 선택 합니다.
-    - 정책에 대 한 검토자를 선택 합니다. 검토자는 개별 사용자 또는 [메일 사용이 가능한 보안 그룹이](https://docs.microsoft.com/Exchange/recipients-in-exchange-online/manage-mail-enabled-security-groups#create-a-mail-enabled-security-group)될 수 있습니다. 모든 검토자에 게 Exchange Online에서 호스트 되는 사서함이 있어야 합니다.
+    - 정책에 대 한 검토자를 선택 합니다. 검토자는 개별 사용자 또는 [메일 사용이 가능한 보안 그룹이](https://docs.microsoft.com/Exchange/recipients-in-exchange-online/manage-mail-enabled-security-groups#create-a-mail-enabled-security-group)될 수 있습니다. 모든 검토자에 게 Exchange Online에서 호스트 되는 사서함이 있어야 합니다. 여기에 추가 된 검토자는 조사 및 재구성 워크플로에서 알림을 에스컬레이션 할 때 선택할 수 있는 검토자입니다.
     - 정책에 적용할 제한 된 조건 필드 (일반적으로 중요 한 정보 유형 또는 키워드 사전)를 선택 합니다.
 
     정책 마법사를 사용 하 여 사용자 지정 정책을 만드는 경우 다음을 수행 합니다.

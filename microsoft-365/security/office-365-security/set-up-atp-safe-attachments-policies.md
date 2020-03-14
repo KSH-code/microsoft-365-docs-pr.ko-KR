@@ -17,12 +17,12 @@ ms.assetid: 078eb946-819a-4e13-8673-fe0c0ad3a775
 ms.collection:
 - M365-security-compliance
 description: 안전한 첨부 파일 정책을 정의 하 여 전자 메일의 악의적인 파일 로부터 조직을 보호 합니다.
-ms.openlocfilehash: ad90ffb4e3503021923470238626d6025e9820fb
-ms.sourcegitcommit: 4986032867b8664a215178b5e095cbda021f3450
+ms.openlocfilehash: c5001823979c19ec68cd15a10bf7c2d7e54cae1d
+ms.sourcegitcommit: 08a4ee7765f3eba42f0c037c5c564c581e45df3e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "41957183"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42637321"
 ---
 # <a name="set-up-office-365-atp-safe-attachments-policies"></a>Office 365 ATP 안전한 첨부 파일 정책 설정
 
@@ -45,11 +45,13 @@ ms.locfileid: "41957183"
 
 - 필요한 사용 권한이 있는지 확인 합니다. ATP 정책을 정의 하거나 편집 하려면 Exchange Online 조직 관리 역할 (기본적으로 Office 365 전역 관리자가이 역할에 할당 됨) 또는 Exchange Online 바이러스 예방 관리 및 보안 관리자 역할을 모두 할당 받아야 합니다. 자세한 내용은 다음 표를 참조 하십시오.
 
-  |역할|할당 된 위치/방법|
-  |---------|---------|
+  |||
+  |---|---|
+  |**역할**|**할당 된 위치/방법**|
   |Office 365 전역 관리자 |Office 365을 구매 하기 위해 등록 하는 사람은 기본적으로 전역 관리자입니다. 자세한 내용은 [Office 365 관리자 역할 정보](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) 를 참조 하세요.|
   |보안 관리자 |Azure Active Directory 관리 센터 ([https://aad.portal.azure.com](https://aad.portal.azure.com))|
   |Exchange Online 조직 관리, Exchange Online 바이러스 관리 |Exchange 관리 센터 ([https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)) <br>또는 <br>  PowerShell cmdlet ( [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell)참조)|
+  |
 
   역할 및 사용 권한에 대 한 자세한 내용은 [Office 365 보안 &amp; 및 준수 센터의 사용 권한을](permissions-in-the-security-and-compliance-center.md)참조 하세요.
 
@@ -87,15 +89,17 @@ ms.locfileid: "41957183"
 
 ATP 안전한 첨부 파일 정책을 설정 하는 경우 모니터, 차단, 교체, 동적 배달 등의 다양 한 옵션 중에서 선택할 수 있습니다. 다음 표에는 이러한 옵션의 기능에 대 한 설명이 나와 있으며 각 작업의 결과를 요약 하 여 설명 합니다.
 
+||||
+|---|---|---|
 |**옵션**|**효과**|**다음 작업을 수행할 때 사용 합니다.**|
-|:-----|:-----|:-----|
-|**해제**|맬웨어 용 첨부 파일을 검색 하지 않음  <br/> 메시지 배달을 연기 하지 않음|알려진 양호한 첨부 파일만 전송 하는 내부 보낸 사람, 스캐너, 팩스 또는 스마트 호스트에 대 한 검사 해제  <br/> 내부 메일 라우팅의 불필요 한 지연 방지  <br/> **이 옵션은 대부분의 사용자에 게 권장 되지 않습니다. 이를 통해 소수의 내부 보낸 사람 그룹에 대해 ATP 안전 첨부 파일 검색 기능을 해제할 수 있습니다.**|
+|**해제**|맬웨어 용 첨부 파일을 검색 하지 않음  <br/> 메시지 배달을 연기 하지 않음|알려진 적절 한 첨부 파일만 전송 하는 스캐너, 팩스 또는 스마트 호스트에 대해 검사 해제  <br/> 내부 메일 라우팅의 불필요 한 지연을 방지 합니다.  <br/> **대부분의 사용자에 게는이 옵션을 선택 하지 않는 것이 좋습니다. 신뢰할 수 있는 보낸 사람 그룹에 대 한 ATP 안전한 첨부 파일 검색을 해제 하려면이 옵션을 사용 해야 합니다.**|
 |**모니터링**|첨부 파일이 있는 메시지를 배달 하 고 검색 된 맬웨어로부터 발생 하는 결과를 추적 합니다.|조직에서 검색 된 맬웨어가 이동 하는 위치 확인|
 |**정책의**|검색 된 맬웨어 첨부 파일이 있는 메시지를 계속 진행 하지 않음  <br/> 보안 관리자 또는 분석가가 해당 메시지를 검토 하 고 릴리스 (또는 삭제할 수 있음)가 검색 된 맬웨어가 있는 메시지를 [365 격리](manage-quarantined-messages-and-files.md) 로 전송 합니다.  <br/> 나중에 메시지와 첨부 파일을 자동으로 차단 합니다.|동일한 맬웨어 첨부 파일을 사용 하 여 조직에서 반복 되는 공격 으로부터 보호|
 |**바꾸기**|검색 된 맬웨어 첨부 파일을 제거 합니다.  <br/> 첨부 파일이 제거 되었음을 받는 사람에 게 알립니다.  <br/> 보안 관리자 또는 분석가가 해당 메시지를 검토 하 고 릴리스 (또는 삭제할 수 있음)가 검색 된 맬웨어가 있는 메시지를 [365 격리](manage-quarantined-messages-and-files.md) 로 전송 합니다.|검색 된 맬웨어로 인해 첨부 파일이 제거 된 받는 사람에 대 한 가시성을 높입니다.|
 |**동적 배달**|메시지를 즉시 배달  <br/> 검색이 완료 될 때까지 첨부 파일을 자리 표시자 파일로 바꾼 다음, 맬웨어가 감지 되지 않으면 첨부 파일을가.  <br/> 검색 중 대부분의 Pdf 및 Office 파일에 대 한 첨부 파일 미리 보기 기능을 포함 합니다.  <br/> 검색 된 맬웨어가 있는 메시지를 격리로 전송 하 여 보안 관리자 또는 분석가가 해당 메시지를 검토 하 고 릴리스 (또는 삭제할 수 있음)  <br/> [동적 배달 및 ATP 안전한 첨부 파일로 미리 보는 방법 알아보기](dynamic-delivery-and-previewing.md) <br/> |악성 파일에서 받는 사람을 보호 하는 동안 메시지 지연 방지  <br/> 검색을 수행 하는 동안 받는 사람이 안전 모드에서 첨부 파일을 미리 볼 수 있도록 허용|
 |**리디렉션 사용**|모니터, 차단 또는 바꾸기 옵션을 선택한 경우에 적용 됩니다.  <br/> 보안 관리자 또는 분석가가 조사를 수행할 수 있는 지정 된 전자 메일 주소로 첨부 파일을 보냅니다.|보안 관리자 및 분석가가 의심 스러운 첨부 파일을 연구할 수 있도록 설정|
 |**첨부 파일에 대 한 맬웨어 검사 시간이 초과 되거나 오류가 발생 하는 경우 위 선택 항목을 적용 합니다.**|Unasfe 첨부 파일에 대해 구성 된 작업을 검색할 수 없는 첨부 파일에 적용 합니다 (시간 초과 또는 오류로 인해).|
+|
 
 ## <a name="next-steps"></a>다음 단계
 

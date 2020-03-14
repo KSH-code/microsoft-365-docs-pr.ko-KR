@@ -17,11 +17,11 @@ search.appverid:
 ms.assetid: 2fe71b05-f5a2-4182-ade7-4dc5cabdfd51
 description: '관리자가 Office 365 가져오기 서비스를 사용 하 여 조직의 PST 파일을 Office 365 사서함으로 가져오는 방법에 대 한 질문과 대답을 확인할 수 있습니다. '
 ms.openlocfilehash: 31df33ffe2c69478f0304bd27b49254995d8b89c
-ms.sourcegitcommit: 1c445d68e54ca4249024ca4bb72460dd6fac0a2d
+ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42170488"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42634436"
 ---
 # <a name="faq-about-importing-pst-files-to-office-365"></a>PST 파일을 Office 365로 가져오기에 대 한 FAQ
 
@@ -53,7 +53,7 @@ PST 파일을 Office 365 사서함으로 가져오려면 Exchange Online에서 �
 네트워크 업로드는 현재 지역 (미국, 캐나다, 브라질, 영국, 프랑스, 유럽, 인도, 동부 아시아, 동남 아시아, 일본, 미국 및 오스트레일리아)에서 사용할 수 있습니다. Network upload will be available in more regions soon.
 
 > [!NOTE]
-> 현재 독일 및 스위스에서는 PST 파일의 네트워크 업로드를 사용할 수 없습니다. 이 FAQ는 다음 국가에서 네트워크 업로드를 사용할 수 있을 때 업데이트 될 예정입니다.
+> 현재 독일 및 스위스에서는 PST 파일의 네트워크 업로드를 사용할 수 없습니다. 이러한 국가에서 네트워크 업로드가 가능한 경우 이 FAQ가 업데이트됩니다.
   
  **네트워크 업로드를 사용하여 PST 파일을 가져오는 경우 그 가격은 얼마인가요?**
   
@@ -127,7 +127,7 @@ PST 파일을 Office 365 사서함으로 가져오려면 사서함 가져오기 
 현재 드라이브 배송은 미국, 캐나다, 브라질, 영국, 유럽, 인도, 동아시아, 동남 아시아, 일본, 대한민국 및 오스트레일리아에서 사용할 수 있습니다. 드라이브 배송을 사용할 수 있는 지역이 곧 더 많아질 예정입니다.
 
 > [!NOTE]
-> 현재 독일 및 스위스에서는 PST 파일 가져오기에 대 한 드라이브 전달을 사용할 수 없습니다. 이 FAQ는 다음 국가에서 드라이브 전달을 사용할 수 있을 때 업데이트 될 예정입니다.
+> 현재 독일 및 스위스에서는 PST 파일을 가져오기 위한 드라이브 배송을 사용할 수 없습니다. 이러한 국가에서 드라이브 배송이 가능한 경우 이 FAQ가 업데이트됩니다.
   
  **어떤 상업용 사용권 계약을 통해 드라이브 배송을 사용할 수 있나요?**
   

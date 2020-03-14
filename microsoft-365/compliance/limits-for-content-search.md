@@ -18,11 +18,11 @@ search.appverid:
 ms.assetid: 78fe3147-1979-4c41-83bb-aeccf244368d
 description: '동시 검색의 최대 수와 같은 Office 365의 보안 & 준수 센터에서 콘텐츠 검색 기능에 적용 되는 제한 사항에 대해 알아봅니다. '
 ms.openlocfilehash: a560e26b6a02e48ca50033acad554e3c7bb2ec6e
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600555"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42634736"
 ---
 # <a name="limits-for-content-search-in-the-security--compliance-center"></a>보안 & 준수 센터의 콘텐츠 검색에 대 한 제한
 

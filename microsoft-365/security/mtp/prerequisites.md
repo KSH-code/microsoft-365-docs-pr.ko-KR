@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 3e18759387525ec600c24f74c96d6cddf206fc82
-ms.sourcegitcommit: cc3b64a91e16ccdaa9c338b9a9056dbe3963ba9e
+ms.openlocfilehash: 2b653575e9e79ffe3448f622ca5be2cef37999dd
+ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42569048"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42633956"
 ---
 # <a name="microsoft-threat-protection-prerequisites"></a>Microsoft 위협 방지 필수 구성 요소
 
@@ -53,6 +53,9 @@ Microsoft 365 관리 센터 ([admin.microsoft.com](https://admin.microsoft.com/)
 
 ## <a name="browser-requirements"></a>브라우저 요구 사항
 Microsoft Edge, Internet Explorer 11 또는 HTML 5와 호환 되는 웹 브라우저를 사용 하 여 microsoft 365 보안 센터의 Microsoft 위협 보호에 액세스 합니다.
+
+## <a name="microsoft-threat-protection-for-us-government-community-cloud-and-us-government-community-cloud-high-gcc-high-customers"></a>Microsoft Threat Protection for US 정부 커뮤니티 클라우드 및 미국 정부 커뮤니티 클라우드 (GCC 최고) 고객
+현재 Microsoft Threat Protection은 GCC 및 GCC High 고객에 게 제공 되지 않습니다. 
 
 ## <a name="related-topics"></a>관련 항목
 - [Microsoft 위협 방지 개요](microsoft-threat-protection.md)

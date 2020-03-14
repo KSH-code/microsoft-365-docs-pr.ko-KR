@@ -15,11 +15,11 @@ search.appverid:
 - MET150
 description: Microsoft 규정 준수 점수는 조직이 위험 평가를 간소화 하 고 자동화 하는 데 도움이 되며, 위험을 해결 하기 위한 권장 조치를 제시 합니다.
 ms.openlocfilehash: dff5e6c057df37c076e328d5203a1eb4e4b3207a
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42078529"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42635116"
 ---
 # <a name="microsoft-compliance-score-preview"></a>Microsoft 준수 점수 (미리 보기)
 

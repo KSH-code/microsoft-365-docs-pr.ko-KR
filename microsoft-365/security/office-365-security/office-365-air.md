@@ -17,11 +17,11 @@ ms.collection: M365-security-compliance
 description: Office 365 Advanced Threat Protection 계획 2의 자동화 된 조사 및 응답 기능 사용을 시작 하세요.
 ms.custom: air
 ms.openlocfilehash: c06874ea5d55334d9049d6c5d9d5c55a499dae06
-ms.sourcegitcommit: 45ee610a380db113c2a50f6ea82d30137498babb
+ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "42288476"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42634026"
 ---
 # <a name="automated-investigation-and-response-air-in-office-365"></a>Office 365의 자동화 된 조사 및 응답 (AIR)
 
@@ -35,10 +35,10 @@ ms.locfileid: "42288476"
 
 |단계  |진행 작업  |
 |---------|---------|
-|개     |Office 이벤트에 의해 알림이 트리거되고 [보안 playbook](automated-investigation-response-office.md#security-playbooks) 선택한 경고에 대 한 자동 조사를 시작 합니다. <br/><br/>또는 보안 분석가가 [위협 탐색기](threat-explorer.md)를 사용 하는 동안 [자동화 된 조사를 트리거할](automated-investigation-response-office.md#example-a-security-administrator-triggers-an-investigation-from-threat-explorer) 수 있습니다.        |
-|2     |자동 조사가 실행 되는 동안 전자 메일 및 해당 전자 메일에 관련 된 엔터티에 대 한 추가 데이터 (파일, Url 및 받는 사람)를 수집 합니다.  새 관련 경고가 트리거되면 조사 범위가 증가할 수 있습니다.         |
-|3(sp3)     |자동화 된 조사 도중 및 후에 [세부 정보 및 결과](air-view-investigation-results.md) 를 볼 수 있습니다. 결과에는 발견 된 모든 위협을 응답 하 고 수정 하기 위해 취할 수 있는 [권장 작업이](air-remediation-actions.md) 포함 됩니다. 또한 모든 조사 활동을 추적 하는 [playbook 로그](air-view-investigation-results.md#playbook-log) 를 사용할 수 있습니다.<br/><br/>조직에서 사용자 지정 보고 솔루션 또는 타사 솔루션을 사용 하는 경우에는 [Office 365 관리 활동 API를 사용](air-custom-reporting.md) 하 여 자동화 된 조사 및 위협에 대 한 정보를 볼 수 있습니다.         |
-|1-4     |보안 운영 팀은 [조사 결과 및 권장 사항을](air-view-investigation-results.md)검토 하 고 [업데이트 관리 작업을 승인](air-remediation-actions.md#approve-or-reject-pending-actions)합니다. Office 365에서는 작업이 자동으로 수행 되지 않습니다. 관리 작업은 조직의 보안 팀이 승인 하는 경우에만 수행 됩니다.         |
+|1      |Office 이벤트에 의해 알림이 트리거되고 [보안 playbook](automated-investigation-response-office.md#security-playbooks) 선택한 경고에 대 한 자동 조사를 시작 합니다. <br/><br/>또는 보안 분석가가 [위협 탐색기](threat-explorer.md)를 사용 하는 동안 [자동화 된 조사를 트리거할](automated-investigation-response-office.md#example-a-security-administrator-triggers-an-investigation-from-threat-explorer) 수 있습니다.        |
+|2      |자동 조사가 실행 되는 동안 전자 메일 및 해당 전자 메일에 관련 된 엔터티에 대 한 추가 데이터 (파일, Url 및 받는 사람)를 수집 합니다.  새 관련 경고가 트리거되면 조사 범위가 증가할 수 있습니다.         |
+|3      |자동화 된 조사 도중 및 후에 [세부 정보 및 결과](air-view-investigation-results.md) 를 볼 수 있습니다. 결과에는 발견 된 모든 위협을 응답 하 고 수정 하기 위해 취할 수 있는 [권장 작업이](air-remediation-actions.md) 포함 됩니다. 또한 모든 조사 활동을 추적 하는 [playbook 로그](air-view-investigation-results.md#playbook-log) 를 사용할 수 있습니다.<br/><br/>조직에서 사용자 지정 보고 솔루션 또는 타사 솔루션을 사용 하는 경우에는 [Office 365 관리 활동 API를 사용](air-custom-reporting.md) 하 여 자동화 된 조사 및 위협에 대 한 정보를 볼 수 있습니다.         |
+|4      |보안 운영 팀은 [조사 결과 및 권장 사항을](air-view-investigation-results.md)검토 하 고 [업데이트 관리 작업을 승인](air-remediation-actions.md#approve-or-reject-pending-actions)합니다. Office 365에서는 작업이 자동으로 수행 되지 않습니다. 관리 작업은 조직의 보안 팀이 승인 하는 경우에만 수행 됩니다.         |
 
 자동화 된 조사 프로세스 중 및 이후에 보안 팀은 다음을 수행할 수 있습니다.
 

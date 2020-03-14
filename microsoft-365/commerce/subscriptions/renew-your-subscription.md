@@ -25,11 +25,11 @@ search.appverid:
 ms.assetid: 8d83b530-f4ca-47f6-a666-e5791cbacc7e
 description: '제품 키를 사용 하 여 Office 365 비즈니스 구독을 갱신 하 고, 되풀이 대금 청구를 설정 하거나 해제 하는 방법을 알아봅니다. '
 ms.openlocfilehash: bef43359b2a073339488648466adaf4603a12c43
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42354579"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42633706"
 ---
 # <a name="renew-office-365-for-business"></a>비즈니스용 Office 365 갱신
 
