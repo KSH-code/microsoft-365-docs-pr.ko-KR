@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft Information Protection 프레임 워크의 민감도 레이블을 사용하여 조직의 데이터를 분류하고 보호하는 동시에 사용자 생산성과 공동 작업 능력이 방해받지 않도록 하십시오. 이 레이블은 바닥글 및 워터마크와 같은 암호화 시각적 표시가 포함된 보호 설정을 적용할 수 있습니다.
-ms.openlocfilehash: 3b8e5e39ef6e2cb2e452fbf1764d53bd51ad24d8
-ms.sourcegitcommit: 6c8edbc54b193e964cf93aec48c51cb79231f1d9
+ms.openlocfilehash: 7593774b4cb0786cc82988442bbca522ce534cc8
+ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/05/2020
-ms.locfileid: "42543156"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42634646"
 ---
 # <a name="learn-about-sensitivity-labels"></a>민감도 레이블 알아보기
 
@@ -190,6 +190,9 @@ Office 앱의 경우, 민감도 레이블이 전자 메일 또는 문서에서 �
 Azure Information Protection으로 레이블을 배포한 경우 민감도 레이블 사용을 시작하기 전에 다음 섹션을 참조하십시오.
 
 ### <a name="azure-information-protection-labels"></a>Azure Information Protection 레이블
+
+> [!NOTE]
+> Azure 포털의 Azure Information Protection 레이블에 대한 레이블 관리는 **2021년 3월 31일**부로 더 이상 사용되지 않습니다. 공식 [사용 중단 통지](https://techcommunity.microsoft.com/t5/azure-information-protection/announcing-timelines-for-sunsetting-label-management-in-the/ba-p/1226179)에서 자세히 알아봅니다.
 
 테넌트가 아직 [통합 레이블 지정 플랫폼](https://docs.microsoft.com/azure/information-protection/faqs#how-can-i-determine-if-my-tenant-is-on-the-unified-labeling-platform)에 있지 않기 때문에 Azure Information Protection 레이블을 사용하는 경우, 통합 레이블 지정을 활성화할 때까지 민감도 레이블을 만들지 않을 것을 권장합니다. 이 시나리오에서 Azure Portal에 표시되는 레이블은 민감도 레이블이 아니라 Azure Information Protection 레이블입니다. 이 레이블은 Windows 컴퓨터의 Azure Information Protection 클라이언트(클래식)에서 사용할 수 있지만 macOS, iOS 또는 Android를 실행하는 장치에서는 사용할 수 없습니다. 이 문제를 해결하려면 민감도 레이블에 [이 레이블을 마이그레이션](/azure/information-protection/configure-policy-migrate-labels)합니다. 
 

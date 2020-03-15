@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 레이블을 사용하여 조직 전체의 데이터를 관리하여 분류하고 해당 분류에 따라 보존 규칙을 시행하십시오. 보존 레이블을 사용하여 Microsoft 365용 레코드 관리 솔루션을 구현할 수도 있습니다.
-ms.openlocfilehash: 5dcd97400067645c48f02a31061721644bae553c
-ms.sourcegitcommit: 109b44aa71bb8453d0a602663df0fcf7ed7dfdbe
+ms.openlocfilehash: 4052cf691e9123e3d840d5fa6759ff7f032b67c2
+ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/25/2020
-ms.locfileid: "42277445"
+ms.lasthandoff: 03/13/2020
+ms.locfileid: "42634306"
 ---
 # <a name="overview-of-retention-labels"></a>보존 레이블 개요
 
@@ -58,9 +58,6 @@ ms.locfileid: "42277445"
     
    - 사용자가 더 이상 데이터 거버넌스 정책을 알아야 할 필요가 없으며, 그 대신 업무에 집중할 수 있습니다.
 
-  > [!NOTE]
-  > 레이블을 자동으로 적용하는 기능을 사용하려면 사이트에서 자동으로 레이블이 지정된 콘텐츠를 편집할 권한이 있거나 사서함이 자동 레이블 지정을 위해 선택된 각 사용자에 대해 최소 Office 365 Enterprise E5 라이선스가 필요합니다. 컨텐츠에 대한 읽기 전용 액세스 권한이 있거나 레이블이 있는 이메일에 회신하는 사용자에게는 이 라이선스가 필요하지 않습니다.
-      
 - 전자 메일 문서를 포함하는 **기록 관리를 Office 365에서 구현**합니다. 보존 레이블을 사용하여 콘텐츠를 기록으로 분류할 수 있습니다. 이 경우 레이블을 변경하거나 제거할 수 없으며 콘텐츠를 편집하거나 삭제할 수 없습니다. 
 
 - SharePoint의 **문서 라이브러리, 폴더 또는 문서 집합에 기본 보존 레이블을 적용**하여 해당 위치에 도착하는 모든 문서가 기본 보존 레이블을 상속하도록 합니다.  
@@ -268,8 +265,6 @@ Office 365 그룹 콘텐츠를 보존하려면 Office 365 그룹 위치를 사�
     
 ![자동 적용 레이블에 대한 조건 페이지 선택](../media/classifier-pre-trained-apply-label-match-trainable-classifier.png)
 
-처음 두 옵션에 대해 구성된 보존 레이블을 자동으로 적용하려면 Office 365 Enterprise E5 구독이 필요합니다. 교육 가능한 분류자 옵션을 사용하는 경우 이 기능에는 [추가 라이선스 요구 사항](classifier-getting-started-with.md#licensing-requirements)이 있습니다.
-
 구성한 조건과 일치하는 모든 콘텐츠에 자동 적용 보존 레이블을 적용하는 데 최대 7일이 걸릴 수 있습니다.
   
 > [!TIP]
@@ -318,7 +313,9 @@ Office 365 그룹 콘텐츠를 보존하려면 Office 365 그룹 위치를 사�
 
 ### <a name="auto-apply-labels-to-content-by-using-trainable-classifers"></a>학습 가능한 분류자를 사용하여 콘텐츠에 레이블 자동 적용
 
-학습 가능한 분류자 옵션을 선택할 때 기본 분류자 중 하나 또는 사용자 지정 분류자를 선택할 수 있습니다. 기본 분류기에는 **공격 언어**, **이력서**, **소스 코드**, **희롱**, **비속어** 및 **위협**이 포함됩니다.
+학습 가능한 분류자 옵션을 선택할 때 기본 분류자 중 하나 또는 사용자 지정 분류자를 선택할 수 있습니다. 기본 분류자에는 **공격 언어**, **이력서**, **소스 코드**, **희롱**, **비속어** 및 **위협**을 포함합니다.
+
+![학습 간능한 분류자 선택](../media/retention-label-classifers.png)
 
 이 옵션을 사용하여 레이블을 자동으로 적용하려면 SharePoint Online 사이트 및 사서함에 10MB 이상의 데이터가 있어야 합니다.
 
@@ -328,7 +325,7 @@ Office 365 그룹 콘텐츠를 보존하려면 Office 365 그룹 위치를 사�
 
 ## <a name="applying-a-default-retention-label-to-all-content-in-a-sharepoint-library-folder-or-document-set"></a>SharePoint 라이브러리, 폴더 또는 문서 집합의 모든 콘텐츠에 기본 보존 레이블 적용
 
-사용자가 개별 문서에 보존 레이블을 적용할 수 있도록 하는 것 외에, SharePoint 라이브러리, 폴더 또는 문서 집합의 모든 문서에 기본 보존 레이블이 적용되도록 해당 위치에 기본 보존 레이블을 적용할 수도 있습니다.(기본 레이블은 E5 기능)
+사용자가 개별 문서에 보존 레이블을 적용할 수 있도록 하는 것 외에, SharePoint 라이브러리, 폴더 또는 문서 집합의 모든 문서에 기본 보존 레이블이 적용되도록 해당 위치에 기본 보존 레이블을 적용할 수도 있습니다.
   
 문서 라이브러리의 경우 이 작업은 문서 라이브러리의 **라이브러리 설정** 페이지에서 수행합니다. 기본 보존 레이블을 선택하는 경우 라이브러리의 기존 항목에 적용하도록 선택할 수도 있습니다. 
   
