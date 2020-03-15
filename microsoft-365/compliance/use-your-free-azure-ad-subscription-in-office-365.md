@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: d104fb44-1c42-4541-89a6-1f67be22e4ad
 description: 조직의 Office 365 유료 구독에 포함되어 있는 Azure Active Directory에 액세스하는 방법을 알아봅니다.
-ms.openlocfilehash: fe3829d349e5721ebdcf0688c1f5b2bd3c9f7f45
-ms.sourcegitcommit: 21338a9287017a66298e0ff557e80051946ebf13
+ms.openlocfilehash: 40ed5808f6e921a3649af408ee078dba64167bb3
+ms.sourcegitcommit: dcea75af89f5f80ec6670346ee176407e043de54
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "42604095"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "42610595"
 ---
 # <a name="use-your-free-azure-active-directory-subscription-in-office-365"></a>Office 365에서 무료 Azure Active Directory 구독 사용
 
@@ -29,7 +29,11 @@ ms.locfileid: "42604095"
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
-비공개 브라우징 세션(일반 세션이 아님)을 사용하여 Azure Portal에 액세스합니다(아래 1단계). 이렇게 해야 현재 로그인된 자격 증명이 Azure로 전달되지 않습니다. Microsoft Edge, Internet Explorer 또는 Mozilla FireFox에서 InPrivate 브라우징 세션을 열려면 Ctrl+Shift+P를 누르면 됩니다. Google Chrome에서 비공개 브라우징 세션(시크릿 모드 창이라고 함)을 열려면 Ctrl+Shift+N을 누릅니다.
+비공개 브라우징 세션(일반 세션이 아님)을 사용하여 (아래의 1단계에서) Azure 포털에 액세스하면 현재 로그온한 자격 증명이 Azure에 전달되지 않으므로 비공개 브라우징 세션을 사용하세요.
+
+- Microsoft Edge(레거시 버전), Internet Explorer 또는 Mozilla FireFox에서 `CTRL+SHIFT+P`을(를) 누릅니다.
+
+- Microsoft Edge (최신 버전) 또는 Google Chrome에서 `CTRL+SHIFT+N`을(를) 누릅니다.
 
 ## <a name="access-azure-active-directory"></a>Azure Active Directory에 액세스
 
