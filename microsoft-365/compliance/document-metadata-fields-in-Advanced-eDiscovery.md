@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: 이 문서에서는 Microsoft 365의 Advanced eDiscovery에서 사례에 대 한 검토 집합의 문서에 대 한 메타 데이터 필드를 정의 합니다.
-ms.openlocfilehash: ae268c1368933c729177d6083294e7e7a8735958
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 78cfba97c14259ec40abc17e17676263b37fcedf
+ms.sourcegitcommit: 9231cbea48374fca3aeeb1f267dcdcd270fd9f42
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42074925"
+ms.lasthandoff: 03/15/2020
+ms.locfileid: "42651842"
 ---
 # <a name="document-metadata-fields-in-advanced-ediscovery"></a>고급 eDiscovery의 문서 메타 데이터 필드
 
@@ -31,7 +31,7 @@ ms.locfileid: "42074925"
 
 - **검색 가능한 필드 이름:** [검토 집합 쿼리](review-set-search.md)를 실행할 때 검색할 수 있는 속성의 이름입니다. 빈 셀은 검토 집합 쿼리에서 필드를 검색할 수 없음을 의미 합니다.
 
--  **내보낸 필드 이름:** 문서를 내보낼 때 포함 되는 메타 데이터 필드의 이름입니다.  빈 셀은 내보낸 메타 데이터에는 해당 필드가 포함 되지 않음을 의미 합니다.
+- **내보낸 필드 이름:** 문서를 내보낼 때 포함 되는 메타 데이터 필드의 이름입니다.  빈 셀은 내보낸 메타 데이터에는 해당 필드가 포함 되지 않음을 의미 합니다.
 
 - **설명:** 메타 데이터 필드에 대 한 설명입니다.
 
@@ -77,7 +77,7 @@ ms.locfileid: "42074925"
 |전자 메일 보안|EmailSecurity|Email_security|메시지 보안 설정: **0** -없음; **1** -서명 됨, **2** -암호화 됨 **3** -암호화 및 서명 됨|
 |전자 메일 민감도|EmailSensitivity|email_sensitivity|민감도 설정: **0** -없음; **1** 개인; **2** -Private; **3** -CompanyConfidential|
 |전자 메일 설정|EmailSet|Email_set|같은 전자 메일 집합에 있는 모든 메시지의 그룹 ID입니다.|
-|EmailThread *||Email_thread|전자 메일 집합 내의 메시지 위치입니다. 루트에서 현재 메시지 까지의 노드 Id로 구성 됩니다. , 마침표로 구분 됩니다.|
+|EmailThread *||Email_thread|전자 메일 집합 내의 메시지 위치입니다. 루트에서 현재 메시지로, 마침표 (.)로 구분 되는 노드 Id로 구성 됩니다.|
 |추출 된 콘텐츠 형식||Extracted_content_type|콘텐츠 형식을 mime 형식 형식으로 추출 합니다. 예: **image/jpeg**|
 |ExtractedTextLength*||Extracted_text_length|추출 된 텍스트의 문자 수입니다.|
 |제품군 관련성 점수 1 *||Family_relevance_score_case_issue_1|제품군 관련성 점수 1의 관련성을 구분 합니다.|
@@ -93,7 +93,7 @@ ms.locfileid: "42074925"
 |첨부 파일 있음|HasAttachment|Email_has_attachment|메시지에 첨부 파일이 있는지 여부를 나타냅니다.|
 |변호사 있음|HasAttorney||하나 이상의 참가자가 변호사 목록에 있으면 **True** 이 고, 그렇지 않으면 false입니다. 그렇지 않은 경우이 값은 **False**입니다.|
 |HasText||Has_text|항목에 텍스트가 있는지 여부를 나타냅니다. 사용할 수 있는 값은 **True** 및 **False**입니다.|
-|변경할 수 없는 ID|ImmutableId|Immutable_ID|Office 365에 저장 된 변경 불가능 한 Id입니다.|
+|변경할 수 없는 ID||Immutable_ID|이 Id는 검토 집합 내에서 문서를 고유 하 게 식별 하는 데 사용 됩니다. 이 필드는 검토 집합 검색에 사용할 수 없으며, 기본 위치에 있는 문서에 액세스 하는 데 Id를 사용할 수 없습니다.|
 |포함 유형|InclusiveType|Inclusive_type|분석에 대해 계산 된 포괄 유형: **0** -포함 안 함 **1 개** (포함) **2 개** 포함 마이너스; **3** -포함 복사본|
 |다음에 대 한 회신 Id||In_reply_to_ID|메시지의 Id에 대 한 회신에서|
 |대표|IsRepresentative|Is_representative|정확 하 게 일치 하는 모든 집합의 문서 하나는 담당자로 표시 됩니다.|
@@ -111,8 +111,8 @@ ms.locfileid: "42074925"
 |네이티브 확장명|NativeExtension|Native_extension|항목의 네이티브 확장명입니다.|
 |기본 파일 이름|NativeFileName|Native_file_name|항목의 기본 파일 이름입니다.|
 |NativeMD5||Native_MD5|파일 스트림의 MD5 해시|
-|ND/ET Sort: 첨부 파일 제외|NdEtSortExclAttach|ND_ET_sort_excl_attach|검토 시간을 효율적으로 정렬 하기 위해 전자 메일 설정 및 ND 집합을 연결 합니다. **D** 는 ND 집합에 접두사로 추가 되 고 **e** 는 전자 메일 집합에 추가 됩니다.|
-|ND/ET Sort: 첨부 파일 포함|NdEtSortInclAttach|ND_ET_sort_incl_attach|검토 시간을 효율적으로 정렬 하기 위해 전자 메일 설정 및 ND 집합을 연결 합니다. **D** 는 ND 집합에 접두사로 추가 되 고 **e** 는 전자 메일 집합에 추가 됩니다. 전자 메일 집합 내의 각 전자 메일에 해당 하는 첨부 파일이 나옵니다.|
+|ND/ET Sort: 첨부 파일 제외|NdEtSortExclAttach|ND_ET_sort_excl_attach|전자 메일 스레드 (ET) 설정 및 유사 복제 (ND) 집합의 연결 이 필드는 검토 시간에 효율적으로 정렬 하는 데 사용 됩니다. **D** 는 ND 집합에 붙는 접두사이 고 **E** 에는 to ET sets가 붙습니다.|
+|ND/ET Sort: 첨부 파일 포함|NdEtSortInclAttach|ND_ET_sort_incl_attach|전자 메일 스레드 (ET) 설정 및 유사 중복 (ND) 집합의 연결 이 필드는 검토 시간에 효율적으로 정렬 하는 데 사용 됩니다. **D** 는 ND 집합에 붙는 접두사이 고 **E** 에는 to ET sets가 붙습니다. ET 집합의 각 전자 메일 항목 다음에 해당 하는 첨부 파일이 나옵니다.|
 |정규화 된 관련성 점수 사례 1||Normalized_relevance_score_case_issue_1|정규화 된 관련성 점수 사례 1과 관련성을 구분 합니다.|
 |O365 제작자||O365_authors|SharePoint에서 만든이입니다.|
 |O365을 만든 사람||O365_created_by|SharePoint에서 만듭니다.|
@@ -149,7 +149,7 @@ ms.locfileid: "42074925"
 |제목|제목|Email_subject|메시지의 제목입니다.|
 |제목/제목|호칭 제목||항목의 제목 또는 제목으로 구성 된 계산 필드입니다.|
 |사례 문제점 1 별 태그 지정||Tagged_by_Case_issue_1|사례 문제점 1에 대 한이 문서를 태그가 지정 된 사용자는 관련성을 갖습니다.|
-|사이|사이|사이|검토 집합에 적용 된 태그|
+|태그|태그|태그|검토 집합에 적용 된 태그|
 |테마 목록|기타 Eslist|Themes_list|분석을 위해 계산 되는 테마 목록|
 |제목|제목|Doc_title|문서 메타 데이터의 제목입니다.|
 |받는 사람|받는 사람|Email_to|메시지 유형의 대상 필드 형식이 **\<DisplayName SmtpAddress>**|

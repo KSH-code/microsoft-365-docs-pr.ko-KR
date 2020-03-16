@@ -17,12 +17,12 @@ ms.assetid: e100fe7c-f2a1-4b7d-9e08-622330b83653
 ms.collection:
 - M365-security-compliance
 description: Office 365 Advanced Threat Protection에는 안전한 첨부 파일, 안전한 링크, 고급 피싱 방지 도구, 보고 도구 및 위협 인텔리전스 기능이 포함되어 있습니다.
-ms.openlocfilehash: 712fdf6935fa69bfb2079858d6384eee270776e6
-ms.sourcegitcommit: 133bf7936e5ef1a4d06998429d0d01096bda929f
+ms.openlocfilehash: aac4cb43386577851d74e424d6435d0c15762bab
+ms.sourcegitcommit: 9afcc63b1a7e73f6946f67207337f10b71a5d7f3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42261035"
+ms.lasthandoff: 03/12/2020
+ms.locfileid: "42612608"
 ---
 # <a name="office-365-advanced-threat-protection"></a>Office 365 Advanced Threat Protection
 
@@ -98,7 +98,7 @@ Office 365 ATP Plan 2에는 조직의 보안팀이 악의적인 공격을 예측
 
 - **[위협 탐색기 (또는 실시간 검출)](threat-explorer.md)** (탐색기라고도 함)는 최근 위협을 식별하고 분석할 수있는 실시간 보고서입니다. 사용자 지정 기간에 대한 데이터를 표시하도록 탐색기를 구성할 수 있습니다.
 
-- **[Attack Simulator](attack-simulator.md)** 를 사용하면 사용자 조직에서 실제적인 공격 시나리오를 실행하여 취약성을 식별할 수 있습니다. [자격 증명 수집 스피어피싱 공격](attack-simulator.md#credential-harvest-spear-phishing-attack), [비밀번호 분무 공격](attack-simulator.md#password-spray-attack), [무차별 비밀번호 대입 공격](attack-simulator.md#brute-force-password-attack) 등을 포함하여 최근 유형의 공격에 대한 시뮬레이션을 사용할 수 있습니다.
+- **[공격 시뮬레이터](attack-simulator.md)** 를 사용하면 사용자 조직에서 실제적인 공격 시나리오를 실행하여 취약성을 식별할 수 있습니다. 스피어 피싱 자격 증명 수집 및 첨부 파일 공격과 비밀번호 분무 및 무차별 비밀번호 대입 공격 등을 포함하여 최근 유형의 공격에 대한 시뮬레이션을 사용할 수 있습니다.
 
 ## <a name="save-time-with-automated-investigation-and-response"></a>자동화된 조사 및 응답으로 시간 절약하기
 
