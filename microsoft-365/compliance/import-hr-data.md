@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: 관리자는 조직의 HR (인적 자원) 시스템에서 직원 데이터를 Microsoft 365로 가져오는 데이터 커넥터를 설정할 수 있습니다. 이를 통해 참가자 위험 관리 정책에 HR 데이터를 사용 하 여 조직에 내부적인 위협을 초래할 수 있는 특정 사용자의 작업을 검색 하는 데 도움을 받을 수 있습니다.
-ms.openlocfilehash: 4b01571d5a56d53861481dac6cb399e227ca0db6
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 53c1a44ad1e27d2d1002680faee56ae88e3e0921
+ms.sourcegitcommit: 01ead889086ecc7dcf5d10244bcf67c5a33c8114
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42073040"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42710547"
 ---
 # <a name="set-up-a-connector-to-import-hr-data"></a>HR 데이터를 가져올 커넥터 설정
 
@@ -35,7 +35,7 @@ Microsoft 365 준수 센터에서 데이터 커넥터를 설정 하 여 직원 �
 
 ## <a name="step-1-create-an-app-in-azure-active-directory"></a>1 단계: Azure Active Directory에 앱 만들기
 
-첫 번째 단계는 AAD (Azure Active Directory)에서 새 앱을 만들고 등록 하는 것입니다. 이 앱은 3 단계에서 만든 HR 커넥터에 해당 합니다.  이 앱을 만들면 AAD에서 HR 커넥터를 실행 하 여 조직에 액세스 하려고 할 때 인증을 받을 수 있습니다. 이 앱은 Microsoft 클라우드로 HR 데이터를 업로드 하는 4 단계에서 실행 하는 스크립트를 인증 하는 데에도 사용 됩니다. 이 AAD 앱을 만드는 동안 다음 정보를 저장 해야 합니다. 이러한 값은 이후 단계에서이 프로세스에 사용 됩니다.
+첫 번째 단계는 AAD (Azure Active Directory)에서 새 앱을 만들고 등록 하는 것입니다. 이 앱은 3 단계에서 만든 HR 커넥터에 해당 합니다. 이 앱을 만들면 AAD에서 HR 커넥터를 실행 하 여 조직에 액세스 하려고 할 때 인증을 받을 수 있습니다. 이 앱은 Microsoft 클라우드로 HR 데이터를 업로드 하는 4 단계에서 실행 하는 스크립트를 인증 하는 데에도 사용 됩니다. 이 AAD 앱을 만드는 동안 다음 정보를 저장 해야 합니다. 이러한 값은 이후 단계에서 사용 됩니다.
 
 - AAD 응용 프로그램 ID ( *앱 id* 또는 *클라이언트 ID*라고도 함)
 
@@ -43,7 +43,7 @@ Microsoft 365 준수 센터에서 데이터 커넥터를 설정 하 여 직원 �
 
 - 테 넌 트 Id ( *디렉터리 Id*라고도 함)
 
-AAD에서 앱을 만드는 단계별 지침은 [Aad 응용 프로그램 만들기](https://docs.microsoft.com/azure/kusto/management/access-control/how-to-provision-aad-app) 를 참조 하세요.
+AAD에서 앱을 만드는 단계별 지침은 [Microsoft id 플랫폼을 사용 하 여 응용 프로그램 등록](https://docs.microsoft.com/azure/active-directory/develop/quickstart-register-app)을 참조 하세요.
 
 ## <a name="step-2-prepare-a-csv-file-with-your-hr-data"></a>2 단계: HR 데이터를 사용 하 여 CSV 파일 준비
 
@@ -159,7 +159,7 @@ HR 커넥터를 만들고 스크립트를 실행 하 여 HR 데이터를 업로�
 
    ![HR 커넥터 로그 파일은 업로드 된 CSV 파일의 번호 행을 표시 합니다.](../media/HRConnectorLogFile.png)
 
-   **레코드 저장** 필드에는 CSV 파일에서 업로드 한 행의 수가 표시 됩니다. 예를 들어 CSV 파일에 4 개의 행이 포함 되어 있는 경우 스크립트에서 CSV 파일의 모든 행을 성공적으로 업로드 한 경우에는 **레코드에 저장** 된 필드의 값이 4가 됩니다.
+   **레코드 저장** 필드에는 CSV 파일에서 업로드 한 행의 수가 표시 됩니다. 예를 들어 CSV 파일에 행이 4 개 포함 되어 있으면 스크립트에서 CSV 파일의 모든 행을 성공적으로 업로드 한 경우 **레코드에 저장** 된 필드의 값은 4가 됩니다.
 
 4 단계에서 스크립트를 실행 하지 않은 경우 스크립트를 다운로드 하기 위한 링크가 **마지막 가져오기**아래에 표시 됩니다. 스크립트를 다운로드 한 다음 4 단계의 단계를 수행 하 여 실행할 수 있습니다.
 

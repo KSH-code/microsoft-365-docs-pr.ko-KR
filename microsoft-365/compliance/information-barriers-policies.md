@@ -13,14 +13,14 @@ ms.collection:
 - M365-security-compliance
 localization_priority: None
 description: Microsoft 팀에서 정보 장벽에 대 한 정책을 정의 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 15b17dba38a8e34bebf8d128c669fb7fa1f0ebd1
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 3dc59a78d25045f3816b48705b5427141a1caea7
+ms.sourcegitcommit: 01ead889086ecc7dcf5d10244bcf67c5a33c8114
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600605"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42710507"
 ---
-# <a name="define-policies-for-information-barriers"></a>정보 장벽에 대 한 정책 정의
+# <a name="define-information-barrier-policies"></a>정보 장벽 정책 정의
 
 ## <a name="overview"></a>개요
 
@@ -35,15 +35,15 @@ ms.locfileid: "41600605"
 
 정보 장벽에 대 한 정책을 정의 하는 경우에는 사용자 계정 특성, 세그먼트, "차단" 및/또는 정책 응용 프로그램을 사용 하 여 작업 합니다.
 
-- **사용자 계정 특성** 은 Azure Active Directory (또는 Exchange Online)에서 정의 됩니다. 이러한 특성에는 부서, 직함, 위치, 팀 이름 및 기타 작업 프로필 정보가 포함 될 수 있습니다. 
+- 사용자 계정 특성은 Azure Active Directory (또는 Exchange Online)에서 정의 됩니다. 이러한 특성에는 부서, 직함, 위치, 팀 이름 및 기타 작업 프로필 정보가 포함 될 수 있습니다. 
 
-- **세그먼트** 는 선택한 **사용자 계정 특성**을 사용 하 여 Office 365 보안 & 준수 센터에 정의 된 사용자 집합입니다. ( [지원 되는 특성 목록](information-barriers-attributes.md)참조) 
+- 세그먼트는 선택한 **사용자 계정 특성**을 사용 하 여 Office 365 보안 & 준수 센터에 정의 된 사용자 집합입니다. ( [지원 되는 특성 목록](information-barriers-attributes.md)참조) 
 
-- **정보 장벽 정책** 에 따라 통신 제한 또는 제한이 결정 됩니다. 정보 장벽 정책을 정의할 때는 두 가지 정책 유형 중에서 선택 합니다.
+- 정보 장벽 정책에 따라 통신 제한 또는 제한이 결정 됩니다. 정보 장벽 정책을 정의할 때는 두 가지 정책 유형 중에서 선택 합니다.
     - "차단" 정책은 한 세그먼트가 다른 세그먼트와 통신 하지 못하도록 합니다.
     - "허용" 정책은 한 세그먼트가 다른 특정 세그먼트와도 통신할 수 있도록 허용 합니다.
 
-- **정책 응용 프로그램** 은 모든 정보 장벽 정책이 정의 된 후에 수행 되며, 조직에 적용할 준비가 된 것입니다.
+- 정책 응용 프로그램은 모든 정보 장벽 정책이 정의 된 후에 수행 되며, 조직에 적용할 준비가 된 것입니다.
 
 ## <a name="the-work-flow-at-a-glance"></a>워크플로 한 눈에 보기
 
@@ -60,22 +60,22 @@ ms.locfileid: "41600605"
 
 [필요한 라이선스 및 사용 권한](information-barriers.md#required-licenses-and-permissions)외에도 다음과 같은 요구 사항을 충족 하는지 확인 합니다. 
      
-- **디렉터리 데이터** 조직의 구조가 디렉터리 데이터에 반영 되는지 확인 합니다. 이렇게 하려면 그룹 구성원 자격, 부서 이름 등의 사용자 계정 특성이 Azure Active Directory 또는 Exchange Online에서 올바르게 채워졌는지 확인 합니다. 자세한 내용은 다음 리소스를 참조하세요.
+- 디렉터리 데이터-조직의 구조가 디렉터리 데이터에 반영 되는지 확인 합니다. 이렇게 하려면 그룹 구성원 자격, 부서 이름 등의 사용자 계정 특성이 Azure Active Directory 또는 Exchange Online에서 올바르게 채워졌는지 확인 합니다. 자세한 내용은 다음 리소스를 참조하세요.
   - [정보 장벽 정책의 속성](information-barriers-attributes.md)
   - [Azure Active Directory를 사용 하 여 사용자 프로필 정보 추가 또는 업데이트](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-users-profile-azure-portal)
   - [Office 365 PowerShell를 사용 하 여 사용자 계정 속성 구성](https://docs.microsoft.com/office365/enterprise/powershell/configure-user-account-properties-with-office-365-powershell)
 
-- **범위 디렉터리 검색** 조직의 첫 번째 정보 장벽 정책을 정의 하기 전에 [Microsoft 팀에서 범위 지정 디렉터리 검색을 사용 하도록 설정](https://docs.microsoft.com/MicrosoftTeams/teams-scoped-directory-search)해야 합니다. 정보 장벽 정책을 설정 하거나 정의 하기 전에 범위 디렉터리 검색을 사용 하도록 설정한 후 24 시간 이상 기다립니다.
+- 범위 디렉터리 검색 조직의 첫 번째 정보 장벽 정책을 정의 하기 전에 [Microsoft 팀에서 범위 지정 디렉터리 검색을 사용 하도록 설정](https://docs.microsoft.com/MicrosoftTeams/teams-scoped-directory-search)해야 합니다. 정보 장벽 정책을 설정 하거나 정의 하기 전에 범위 디렉터리 검색을 사용 하도록 설정한 후 24 시간 이상 기다립니다.
 
-- **감사 로깅** 정책 응용 프로그램의 상태를 조회 하려면 감사 로깅이 설정 되어 있어야 합니다. 세그먼트 또는 정책 정의를 시작 하기 전에이 작업을 수행 하는 것이 좋습니다. 자세한 내용은 [Turn Office 365 감사 로그 검색 설정 또는 해제](turn-audit-log-search-on-or-off.md)를 참조 하세요.
+- 감사 로깅-정책 응용 프로그램의 상태를 조회 하려면 감사 로깅을 설정 해야 합니다. 세그먼트 또는 정책 정의를 시작 하기 전에이 작업을 수행 하는 것이 좋습니다. 자세한 내용은 [Turn Office 365 감사 로그 검색 설정 또는 해제](turn-audit-log-search-on-or-off.md)를 참조 하세요.
 
-- 주소록 **정책 없음** 정보 장벽 정책을 정의 하 고 적용 하기 전에 Exchange 주소록 정책이 없는지 확인 합니다. 정보 장애물은 주소록 정책에 따라 다르지만 두 가지 종류의 정책은 서로 호환 되지 않습니다. 이러한 정책이 있는 경우 먼저 주소록 [정책을 제거](https://docs.microsoft.com/exchange/address-books/address-book-policies/remove-an-address-book-policy) 해야 합니다.
+- 주소록 정책 없음-정보 장벽 정책을 정의 하 고 적용 하기 전에 Exchange 주소록 정책이 없는지 확인 합니다. 정보 장애물은 주소록 정책에 기반을 둔 반면 두 가지 종류의 정책은 서로 호환 되지 않습니다. 이러한 정책이 있는 경우 먼저 주소록 [정책을 제거](https://docs.microsoft.com/exchange/address-books/address-book-policies/remove-an-address-book-policy) 해야 합니다. 정보 장벽 정책이 사용 하도록 설정 되 고 계층 구조 주소록을 사용 하도록 설정 하면 정보 장벽 세그먼트에 ***포함 되지*** 않은 모든 사용자에 게 Exchange online의 [계층 구조](https://docs.microsoft.com/exchange/address-books/hierarchical-address-books/hierarchical-address-books) 주소록이 표시 됩니다.
 
-- **PowerShell**입니다. 현재 정보 장벽 정책은 PowerShell cmdlet을 사용 하 여 Office 365 보안 & 준수 센터에서 정의 되 고 관리 됩니다. 이 문서에서는 몇 가지 예를 제공 했지만 PowerShell cmdlet 및 매개 변수에 익숙해져야 합니다. AzureRM 모듈도 필요 합니다.
+- PowerShell-현재 정보 장벽 정책은 PowerShell cmdlet을 사용 하 여 Office 365 보안 & 준수 센터에서 정의 되 고 관리 됩니다. 이 문서에서는 몇 가지 예를 제공 했지만 PowerShell cmdlet 및 매개 변수에 익숙해져야 합니다. AzureRM 모듈도 필요 합니다.
     - [Office 365 보안 및 준수 센터 PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps)
     - [Azure PowerShell 모듈 설치](https://docs.microsoft.com/powershell/azure/install-az-ps?view=azps-2.3.2)
 
-- **Microsoft 팀의 정보 장벽에 대 한 관리자 동의** 정책이 적용 되 면 정보 장애물은에는 없는 채팅 세션에서 사용자를 제거할 수 있습니다. 이렇게 하면 조직이 정책 및 규정 준수 상태를 유지할 수 있습니다. 다음 절차를 사용 하 여 정보 장벽 정책이 Microsoft 팀에서 예상 대로 작동 하도록 설정 합니다. 
+- 관리자 동의 Microsoft 팀의 정보 장벽-정책이 마련 되 면 정보 장벽에서 사용자를 제거할 수 있습니다. 이렇게 하면 조직이 정책 및 규정 준수 상태를 유지할 수 있습니다. 다음 절차를 사용 하 여 정보 장벽 정책이 Microsoft 팀에서 예상 대로 작동 하도록 설정 합니다. 
 
    1. 다음 PowerShell cmdlet을 실행 합니다.
 
@@ -122,7 +122,7 @@ ms.locfileid: "41600605"
 
 ### <a name="define-segments-using-powershell"></a>PowerShell을 사용 하 여 세그먼트 정의
 
-세그먼트를 정의 해도 사용자에 게 영향을 주지 않습니다. 정보 장벽 정책을 정의 하 고 적용 하기 위한 단계를 설정 하기만 하면 됩니다.
+세그먼트를 정의 해도 사용자에 게는 영향을 주지 않습니다. 정보 장벽 정책을 정의 하 고 적용 하기 위한 단계를 설정 하기만 하면 됩니다.
 
 1. 사용 하려는 [특성](information-barriers-attributes.md) 에 해당 하는 **usergroupfilter** 매개 변수와 함께 **OrganizationSegment** cmdlet을 사용 합니다.
 
@@ -153,16 +153,21 @@ ms.locfileid: "41600605"
 
 |구문과  |예제  |
 |---------|---------|
-|`New-OrganizationSegment -Name "segmentname" -UserGroupFilter "attribute -ne 'attributevalue'"`    |`New-OrganizationSegment -Name "NotSales" -UserGroupFilter "Department -ne 'Sales'"` <p>이 예에서는 *sales*에 없는 모든 사용자를 포함 하는 *notsales* 라는 세그먼트를 정의 했습니다. Cmdlet의 **-ne** 부분은 "같지 않음"을 참조 합니다.  |
+|`New-OrganizationSegment -Name "NotSales" -UserGroupFilter "Department -ne 'Sales'"`   | <p>이 예에서는 *sales*에 없는 모든 사용자를 포함 하는 *notsales* 라는 세그먼트를 정의 했습니다. Cmdlet의 **-ne** 부분은 "같지 않음"을 참조 합니다.  |
 
-"같음" 또는 "같지 않음"을 사용 하 여 세그먼트를 정의 하는 것 외에도 "같음" 및 "같지 않음" 매개 변수를 모두 사용 하 여 세그먼트를 정의할 수 있습니다.
+"같음" 또는 "같지 않음"을 사용 하 여 세그먼트를 정의 하는 것 외에도 "같음" 및 "같지 않음" 매개 변수를 모두 사용 하 여 세그먼트를 정의할 수 있습니다. 논리적 *AND* 및 *OR* 연산자를 사용 하 여 복잡 한 그룹 필터를 정의할 수도 있습니다.
 
-|예제  |
-|---------|
-|`New-OrganizationSegment -Name "LocalFTE" -UserGroupFilter "Location -eq 'Local'" and "Position -ne 'Temporary'"` <p>이 예에서는 로컬로 위치 하 고 위치가 *임시*로 나열 되지 않은 사용자를 포함 하는 *LocalFTE* 라는 세그먼트를 정의 했습니다.    |
+
+|구문과    |예제  |
+|---------|---------|
+|`New-OrganizationSegment -Name "LocalFTE" -UserGroupFilter "Location -eq 'Local'" -and "Position -ne 'Temporary'"` |<p>이 예에서는 로컬에 있고 위치가 *임시*로 나열 되지 않은 사용자를 포함 하는 *LocalFTE* 라는 세그먼트를 정의 했습니다.    |
+ |`New-OrganizationSegment -Name "Segment1" -UserGroupFilter "MemberOf -eq 'group1@contoso.com'' -and MemberOf -ne 'group3@contoso.com'"`|  <p>이 예에서는 group3@contoso.com의 구성원이 아니라 group1@contoso.com의 구성원 인 사용자를 포함 하는 *Segment1* 라는 세그먼트를 정의 했습니다.
+|`New-OrganizationSegment -Name "Segment2" -UserGroupFilter "MemberOf -eq 'group2@contoso.com'' -or MemberOf -ne 'group3@contoso.com'"` | 이 예에서는 group3@contoso.com의 구성원이 아니라 group2@contoso.com의 구성원 인 사용자를 포함 하는 *Segment2* 라는 세그먼트를 정의 했습니다.
+|`New-OrganizationSegment -Name "Segment1and2" -UserGroupFilter "(MemberOf -eq 'group1@contoso.com' -or MemberOf -eq 'group2@contoso.com') -and MemberOf -ne 'group3@contoso.com'"`|  이 예에서는 group3@contoso.com의 구성원이 아닌 group1@contoso.com 및 group2@contoso.com의 구성원을 포함 하는 *Segment1and2* 라는 세그먼트를 정의 했습니다.
+
 
 > [!TIP]
-> 가능한 경우 "-eq" 또는 "-ne"를 포함 하는 세그먼트 정의를 사용 합니다. 복잡 한 세그먼트 정의를 정의 하지 마십시오. 
+> 가능한 경우 "-eq" 또는 "-ne"를 포함 하는 세그먼트 정의를 사용 합니다. 복잡 한 세그먼트 정의를 정의 하지 마십시오.
 
 ## <a name="part-2-define-information-barrier-policies"></a>2 부: 정보 장벽 정책 정의
 
@@ -255,6 +260,8 @@ PowerShell을 사용 하 여 다음 표에 나와 있는 것 처럼 사용자 �
 |정보 장벽 정책     |**InformationBarrierPolicy** cmdlet을 사용 합니다. <p> 구문과`Get-InformationBarrierPolicy` <p>이렇게 하면 정의 된 정보 장벽 정책 목록과 해당 상태가 표시 됩니다.       |
 |가장 최근 정보 장벽 정책 응용 프로그램     | **InformationBarrierPoliciesApplicationStatus** cmdlet을 사용 합니다. <p>구문과`Get-InformationBarrierPoliciesApplicationStatus`<p>    이렇게 하면 정책 응용 프로그램이 완료, 실패 또는 진행 중인지에 대 한 정보가 표시 됩니다.       |
 |모든 정보 장벽 정책 응용 프로그램|하십시오`Get-InformationBarrierPoliciesApplicationStatus -All $true`<p>이렇게 하면 정책 응용 프로그램이 완료, 실패 또는 진행 중인지에 대 한 정보가 표시 됩니다.|
+
+<!-- IN the " The most recent information barrier policy application, add link to troubleshooting topic -->
 
 ## <a name="what-if-i-need-to-remove-or-change-policies"></a>정책을 제거 하거나 변경 해야 하는 경우
 

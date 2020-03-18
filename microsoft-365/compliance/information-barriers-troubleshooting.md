@@ -13,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 localization_priority: None
 description: 이 문서를 정보 장벽 문제 해결을 위한 지침으로 사용 하십시오.
-ms.openlocfilehash: b4c9bb46bc1e3c13cdc8b46a95733558714a44df
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 4c601ddedf3acc816181f287c74f8f4df207a6b5
+ms.sourcegitcommit: 9b79701eba081cd4b3263db7a15c088d92054b4b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600595"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42692665"
 ---
 # <a name="troubleshooting-information-barriers"></a>정보 장벽 문제 해결
 
@@ -171,11 +171,46 @@ ms.locfileid: "41600595"
 
 3. [사용자 계정, 세그먼트, 정책 또는 정책 응용 프로그램의 상태를 확인](information-barriers-policies.md#view-status-of-user-accounts-segments-policies-or-policy-application)합니다.
 
+## <a name="issue-information-barrier-policy-not-applied-to-all-designated-users"></a>문제: 지정 된 모든 사용자에 게 정보 장벽 정책이 적용 되지 않음
+
+세그먼트, 정의 된 정보 장벽 정책 및 해당 정책을 적용 하려고 한 후에는 정책이 일부 받는 사람에 게 적용 되지 않을 수 있습니다.
+`Get-InformationBarrierPoliciesApplicationStatus` Cmdlet을 실행할 때 다음과 같은 텍스트에 대 한 출력을 검색 합니다.
+
+> 식별`<application guid>`
+>
+> 총 받는 사람: 81527
+>
+> 실패 한 받는 사람: 2
+>
+> 오류 범주: 없음
+>
+> 상태: 완료
+
+### <a name="what-to-do"></a>수행할 작업
+
+1. 에 대 한 `<application guid>`감사 로그에서 검색 합니다. 이 PowerShell 코드를 복사 하 고 변수를 수정할 수 있습니다.
+
+```powershell
+$DetailedLogs = Search-UnifiedAuditLog -EndDate <yyyy-mm-ddThh:mm:ss>  -StartDate <yyyy-mm-ddThh:mm:ss> -RecordType InformationBarrierPolicyApplication -ResultSize 1000 |?{$_.AuditData.Contains(<application guid>)} 
+```
+
+2. 감사 로그에서 `"UserId"` 및 `"ErrorDetails"` 필드 값에 대 한 자세한 출력을 확인 합니다. 이렇게 하면 오류에 대 한 이유가 제공 됩니다. 이 PowerShell 코드를 복사 하 고 변수를 수정할 수 있습니다.
+
+```powershell
+   $DetailedLogs[1] |fl
+```
+ 다음의 예를 참조하십시오.
+
+> "UserId": User1
+> 
+>"ErrorDetails": "Status: IBPolicyConflict. 오류: IB 세그먼트 "segment id1" 및 IB 세그먼트 "segment id2"이 (가) 충돌 하 여 받는 사람에 게 할당할 수 없습니다. 
+
+3. 일반적으로 사용자가 둘 이상의 세그먼트에 포함 된 것을 확인할 수 있습니다. 에서 `-UserGroupFilter` `OrganizationSegments`값을 업데이트 하 여이 문제를 해결할 수 있습니다.
+
+4. 이러한 절차 [정보 장벽 정책을](information-barriers-policies.md#part-3-apply-information-barrier-policies)사용 하 여 정보 장애물 정책을 다시 적용 합니다.
+
 ## <a name="related-topics"></a>관련 항목
 
 [Microsoft 팀의 정보 장벽에 대 한 정책 정의](information-barriers-policies.md)
 
 [정보 장벽](information-barriers.md)
-
-
-

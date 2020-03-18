@@ -16,12 +16,12 @@ localization_priority: Normal
 search.appverid:
 - MET150
 description: Office 365에서 불법 동의 권한 부여 공격을 인식하고 교정하는 방법에 대해 알아보세요.
-ms.openlocfilehash: e11518b0b16b7ee922f18b0ef771d36f608e41b7
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 171dbf586a869e9c85bb1e10b6beb7a2f4e5f425
+ms.sourcegitcommit: 01ead889086ecc7dcf5d10244bcf67c5a33c8114
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42363054"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42710527"
 ---
 # <a name="detect-and-remediate-illicit-consent-grants-in-office-365"></a>Office 365에서 불법 동의 권한 부여 검색 및 교정
 
@@ -29,7 +29,12 @@ ms.locfileid: "42363054"
 
 ## <a name="what-is-the-illicit-consent-grant-attack-in-office-365"></a>Office 365에서 불법 동의 권한 부여 공격은 무엇인가요?
 
-불법 동의 권한 부여 공격에는 공격자가 연락처 정보, 전자 메일 또는 문서 등의 데이터에 대한 액세스를 요청하는 Azure 등록 응용 프로그램을 만듭니다. 그런 다음 공격자는 최종 사용자가 피싱 공격을 통해 또는 신뢰할 수있는 웹 사이트에 불법 코드를 주입하여 해당 응용 프로그램에 데이터 액세스 권한을 부여하도록 속임수를 씁니다. 불법 응용 프로그램에 대한 동의가 부여되면 조직 계정이 없어도 데이터에 대한 계정 수준의 액세스 권한을 갖습니다. 침해된 계정에 대한 암호를 재설정하거나 계정에 MFA(다단계 인증)을 요구하는 등의 일반적인 조치 단계는 이러한 응용 프로그램이 타사 응용 프로그램이므로 조직 외부에 있기 때문에 이 유형의 공격에 효과적이지 않습니다. 이러한 공격은 정보를 호출하는 엔터티가 사용자가 아니라 자동화임을 가정하는 상호 작용 모델을 활용합니다.
+불법 동의 권한 부여 공격에는 공격자가 연락처 정보, 전자 메일 또는 문서 등의 데이터에 대한 액세스를 요청하는 Azure 등록 응용 프로그램을 만듭니다. 그런 다음 공격자는 최종 사용자가 피싱 공격을 통해 또는 신뢰할 수있는 웹 사이트에 불법 코드를 주입하여 해당 응용 프로그램에 데이터 액세스 권한을 부여하도록 속임수를 씁니다. 불법 응용 프로그램에 대한 동의가 부여되면 조직 계정이 없어도 데이터에 대한 계정 수준의 액세스 권한을 갖습니다. 침해된 계정에 대한 암호를 재설정하거나 계정에 MFA(다단계 인증)을 요구하는 등의 일반적인 조치 단계는 이러한 응용 프로그램이 타사 응용 프로그램이므로 조직 외부에 있기 때문에 이 유형의 공격에 효과적이지 않습니다. 
+
+이러한 공격은 정보를 호출하는 엔터티가 사용자가 아니라 자동화임을 가정하는 상호 작용 모델을 활용합니다.
+
+> [!IMPORTANT]
+> 지금은 앱에서 불법 동의 허용으로 인해 문제가 발생 하는 것으로 생각 하십니까? Microsoft Cloud App Security (MCAS)에는 OAuth 앱을 검색, 조사 및 수정 하기 위한 도구가 포함 되어 있습니다. 이 MCAS 문서에는 [위험한 OAuth 앱 조사](https://docs.microsoft.com/cloud-app-security/investigate-risky-oauth)에 대 한 방법을 설명 하는 자습서가 포함 되어 있습니다. 또한 [OAuth 앱 정책을](https://docs.microsoft.com/cloud-app-security/app-permission-policy) 설정 하 여 앱 요청 권한, 사용자가 이러한 앱에 권한을 부여 하 고 있으며 이러한 사용 권한 요청을 광범위 하 게 승인 하거나 금지 하도록 설정할 수 있습니다.
 
 ## <a name="what-does-an-illicit-consent-grant-attack-look-like-in-office-365"></a>불법 동의 권한 부여는 Office 365에서 어떻게 보이나요?
 
@@ -48,7 +53,7 @@ ms.locfileid: "42363054"
 5. 결과를 클릭 하 여 활동의 세부 정보를 확인 합니다. **자세한 정보** 를 클릭 하면 활동에 대 한 세부 정보를 볼 수 있습니다. IsAdminContent가 True로 설정 되어 있는지 확인 하세요.
 
 > [!NOTE]
-> • 검색 결과에 해당 감사 로그 항목이 표시되려면 이벤트 발생 시점으로부터 30분에서 24시간 정도 걸릴 수 있습니다.<br/><br/> • 감사 기록이 보존되고 감사 로그에서 검색 가능한 시간은 Office 365 구독, 특히 특정 사용자에게 할당된 라이선스 유형에 따라 다릅니다. 자세한 내용은 [감사 로그](../../compliance/search-the-audit-log-in-security-and-compliance.md)를 참조하세요.
+> * 이벤트가 발생 한 후에는 해당 감사 로그 항목이 검색 결과에 표시 될 때까지 30 분에서 24 시간까지 소요 될 수 있습니다. <br/><br/> 감사 레코드가 보존 되 고 검색 가능 하 게 되는 기간은 Office 365 구독에 따라 다르며, 특히 특정 사용자에 게 할당 된 라이선스의 유형입니다. 자세한 내용은 [감사 로그](../../compliance/search-the-audit-log-in-security-and-compliance.md)를 참조하세요.
 이 값이 true이면 전역 관리자 액세스 권한이 있는 사용자가 데이터에 대한 광범위한 액세스 권한을 부여할 수 있음을 나타냅니다. 예기치 않은 상황이라면 [공격을 확인](#how-to-confirm-an-attack)하는 단계를 수행하세요.
 
 ## <a name="how-to-confirm-an-attack"></a>공격을 확인하는 방법
@@ -98,7 +103,7 @@ Azure Active Directory 포털이나 PowerShell을 사용하여 사용자를 위�
 - 스크립트를 실행할 컴퓨터의 로컬 관리자
 
 > [!IMPORTANT]
-> 모든 관리 계정에 대해 MFA(다단계 인증)을 요구하는 것이 좋습니다. 이 스크립트는 MFA 인증을 지원합니다.
+> 관리 계정에 대해 multi-factor authentication을 사용 하는 것 ***이 좋습니다*** . 이 스크립트는 MFA 인증을 지원합니다.
 
 1. 로컬 관리자 권한으로 스크립트를 실행할 컴퓨터에 로그인합니다.
 

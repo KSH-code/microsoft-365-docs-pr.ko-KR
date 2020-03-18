@@ -1,5 +1,5 @@
 ---
-title: 정보 장벽 개요
+title: 정보 장벽에 대해 자세히 알아보기
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -13,14 +13,14 @@ ms.collection:
 - M365-security-compliance
 localization_priority: None
 description: 정보 장애물을 사용 하 여 조직 내에서 Microsoft 팀을 사용 하 여 통신을 준수 하는지 확인 합니다.
-ms.openlocfilehash: 95d3268830fe506000416e2281a49325fb95efec
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 8bee0f368edc91b6f926eb6cb3e0a2f8dad81e9b
+ms.sourcegitcommit: 9b79701eba081cd4b3263db7a15c088d92054b4b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600665"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42692655"
 ---
-# <a name="information-barriers"></a>정보 장벽
+# <a name="learn-about-information-barriers"></a>정보 장벽에 대해 자세히 알아보기
 
 ## <a name="overview"></a>개요
 
@@ -36,7 +36,7 @@ Microsoft 팀부터 정보 장애물을 즉시 롤아웃할 수 있습니다. [�
 이러한 모든 시나리오 (및 이상)에서 정보 장벽 정책은 Microsoft 팀의 통신을 방지 하거나 허용 하도록 정의할 수 있습니다. 이러한 정책을 사용 하면 사용자가 전화를 걸 수도 있고 채팅을 할 수 없거나, 사용자가 Microsoft 팀의 특정 그룹과 통신 하는 것을 허용 합니다. 정보 장벽 정책을 적용 하면 해당 정책에 포함 된 사용자가 Microsoft 팀의 다른 사람들과 통신을 시도할 때마다 정보 장벽 정책에 정의 된 대로 통신을 방지 하거나 허용 하기 위해 검사가 수행 됩니다. 정보 장벽에 대 한 사용자 환경에 대 한 자세한 내용은 [Microsoft 팀의 정보 장벽](https://docs.microsoft.com/MicrosoftTeams/information-barriers-in-teams)를 참조 하세요.
 
 > [!IMPORTANT]
-> 현재 정보 장애물은 SharePoint Online 또는 OneDrive를 통한 전자 메일 통신 또는 파일 공유에는 적용 되지 않습니다. 또한 정보 장애물은 [준수 경계](tagging-and-assessment-in-advanced-ediscovery.md)와는 별개입니다.<p>정보 장벽 정책을 정의 하 고 적용 하기 전에 조직에 [Exchange 주소록 정책이](https://docs.microsoft.com/exchange/address-books/address-book-policies/address-book-policies) 적용 되지 않았는지 확인 합니다. 정보 장애물은 주소록 정책에 따라 달라 집니다. 
+> 현재 정보 장애물은 SharePoint Online 또는 OneDrive를 통한 전자 메일 통신 또는 파일 공유에는 적용 되지 않습니다. 또한 정보 장애물은 [준수 경계](set-up-compliance-boundaries.md)와는 별개입니다.<p>정보 장벽 정책을 정의 하 고 적용 하기 전에 조직에 [Exchange 주소록 정책이](https://docs.microsoft.com/exchange/address-books/address-book-policies/address-book-policies) 적용 되지 않았는지 확인 합니다. 정보 장애물은 주소록 정책에 따라 달라 집니다. 
 
 ## <a name="what-happens-with-information-barriers"></a>정보 장벽에 따라 수행 되는 작업
 
