@@ -17,27 +17,27 @@ search.appverid:
 - MET150
 ms.assetid: 3526fd06-b45f-445b-aed4-5ebd37b3762a
 description: Office365 보안 및 준수 센터의 검색 및 지우기 기능을 사용하여 조직의 모든 사서함에서 전자 메일 메시지를 검색하고 삭제할 수 있습니다.
-ms.openlocfilehash: 27340bf832feee0dc7b5222f187816b0dfa1bb59
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: 9e3825fbbe3c058e6f8fff48511e4e450b3e54e9
+ms.sourcegitcommit: 01ead889086ecc7dcf5d10244bcf67c5a33c8114
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42634166"
+ms.lasthandoff: 03/17/2020
+ms.locfileid: "42710517"
 ---
-# <a name="search-for-and-delete-email-messages-in-your-office-365-organization"></a>Office 365 조직의 전자 메일 메시지 검색 및 삭제
+# <a name="search-for-and-delete-email-messages"></a>전자 메일 메시지 검색 및 삭제
 
 **이 문서는 관리자를 위해 작성되었습니다. 사서함에서 삭제할 항목을 찾으려고 하나요? [빠른 검색을 사용하여 메시지 또는 항목 찾기](https://support.office.com/article/69748862-5976-47b9-98e8-ed179f1b9e4d)**|을 참조하세요.
    
 Office365의 콘텐츠 검색 기능을 사용하여 조직의 모든 사서함에서 전자 메일 메시지를 검색하고 삭제할 수 있습니다. 이렇게 하면 잠재적으로 유해하거나 위험성이 높은 전자 메일을 찾아서 제거하는 데 도움이 됩니다.
   
 - 위험한 첨부 파일 또는 바이러스를 포함하는 메시지
-    
+
 - 피싱 메시지
-    
+
 - 중요한 데이터가 포함된 메시지
-    
+
 > [!CAUTION]
-> 검색 및 삭제는 필요한 권한이 할당된 누구든지 조직의 사서함에서 전자 메일 메시지를 삭제할 수 있도록 하는 강력한 기능입니다. 
+> 검색 및 삭제는 필요한 권한이 할당된 누구든지 조직의 사서함에서 전자 메일 메시지를 삭제할 수 있도록 하는 강력한 기능입니다.
   
 ## <a name="before-you-begin"></a>시작하기 전에
 
