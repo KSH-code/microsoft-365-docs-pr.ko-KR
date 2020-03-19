@@ -1,0 +1,109 @@
+### YamlMime:Landing
+title: Office 365 documation 관리
+summary: Office 365에서 가장 일반적인 관리 작업에 대한 빠른 연결.
+metadata:
+  title: Office 365 documation 관리
+  description: Office 365에서 가장 일반적인 관리 작업에 대한 빠른 연결.
+  ms.service: o365-administration
+  ms.topic: landing-page
+  ms.collection:
+  - Adm_O365
+  - Adm_TOC
+  author: wingtofree
+  ms.author: v-qingao
+  ms.date: 03/06/2020
+  ms.openlocfilehash: 47d5fa7ffb64b8af8d3bde2a126e153768654fa2
+  ms.sourcegitcommit: fe4beef350ef9f39b1098755cff46fa2b8e7dc4d
+  ms.translationtype: MT
+  ms.contentlocale: ko-KR
+  ms.lasthandoff: 03/19/2020
+  ms.locfileid: "42857641"
+landingContent:
+- title: Microsoft Teams
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Microsoft 팀 개요
+      url: https://go.microsoft.com/fwlink/p/?linkid=863169
+    - text: Microsoft Teams
+      url: https://docs.microsoft.com/MicrosoftTeams/Microsoft-Teams
+    - text: 비즈니스용 Skype Online 관리자
+      url: https://docs.microsoft.com/SkypeForBusiness/skype-for-business-online
+  - linkListType: how-to-guide
+    links:
+    - text: 사용자가 외부 비즈니스용 Skype 사용자와 연락하도록 허용
+      url: https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-skype-for-business-online/allow-users-to-contact-external-skype-for-business-users
+    - text: 비즈니스용 Skype 사용자가 Skype 연락처를 추가하도록 허용
+      url: https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-skype-for-business-online/let-skype-for-business-users-add-skype-contacts
+    - text: 비즈니스용 Skype 온라인 설정
+      url: https://docs.microsoft.com/en-us/SkypeForBusiness/set-up-skype-for-business-online/set-up-skype-for-business-online
+    - text: PC에 비즈니스용 Skype 설치
+      url: https://support.office.com/article/8a0d4da8-9d58-44f9-9759-5c8f340cb3fb
+    - text: 문제 해결
+      url: https://docs.microsoft.com/SkypeForBusiness/set-up-skype-for-business-online/troubleshoot-problems-with-skype-for-business-online
+- title: SharePoint
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: SharePoint Online
+      url: https://docs.microsoft.com/sharepoint/sharepoint-online
+  - linkListType: how-to-guide
+    links:
+    - text: SharePoint Online의 외부 공유 설정 또는 해제
+      url: https://docs.microsoft.com/sharepoint/turn-external-sharing-on-or-off
+    - text: 사이트 만들기 및 관리
+      url: https://docs.microsoft.com/sharepoint/manage-sites-in-new-admin-center
+    - text: 인트라넷 계획 가이드
+      url: https://docs.microsoft.com/sharepoint/planning-hub-sites
+    - text: 사이트 만들기 관리
+      url: https://docs.microsoft.com/sharepoint/manage-site-creation
+    - text: 검색 환경 사용자 지정
+      url: https://docs.microsoft.com/sharepoint/overview-of-search
+- title: 전자 메일
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: 비즈니스용 Office 365의 전자 메일
+      url: https://docs.microsoft.com/en-us/microsoft-365/admin/email/email?view=o365-worldwide
+  - linkListType: how-to-guide
+    links:
+    - text: 새 직원 추가
+      url: https://docs.microsoft.com/en-us/microsoft-365/admin/add-users/add-users?view=o365-worldwide
+    - text: 전자 메일 메시지를 보내지 못하는 문제 해결
+      url: https://support.office.com/article/97748418-bbd5-4743-a05b-581f22a466dd
+    - text: 문제 해결
+      url: https://docs.microsoft.com/office365/troubleshoot/troubleshooting/troubleshoot-email-issues
+- title: Yammer
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Yammer 관리자 도움말
+      url: https://docs.microsoft.com/yammer/yammer-landing-page
+  - linkListType: how-to-guide
+    links:
+    - text: Yammer의 Office 365 로그인
+      url: https://docs.microsoft.com/yammer/manage-yammer-users/office-365-sign-in
+    - text: Office 365에서 Yammer 사용자 관리
+      url: https://docs.microsoft.com/yammer/manage-yammer-users/manage-users-across-their-lifecycle
+    - text: Yammer 사용자에 대해 Office 365 ID 적용
+      url: https://docs.microsoft.com/yammer/configure-your-yammer-network/enforce-office-365-identity
+    - text: SharePoint 사이트에 Yammer 피드 포함
+      url: https://docs.microsoft.com/yammer/integrate-yammer-with-other-apps/embed-a-feed-into-a-sharepoint-site
+- title: OneDrive
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Office 365의 OneDrive
+      url: https://support.office.com/article/3e21f8f0-e0a1-43be-aa3e-8c0236bf11bb
+  - linkListType: how-to-guide
+    links:
+    - text: OneDrive 동기화 클라이언트 및 모바일 앱 사용
+      url: https://go.microsoft.com/fwlink/p/?LinkId=798319
+    - text: Windows에서 OneDrive 동기화 클라이언트를 사용하여 파일 동기화
+      url: https://support.office.com/article/615391c4-2bd3-4aae-a42a-858262e42a49
+    - text: OneDrive 및 SharePoint의 공유 관리
+      url: https://docs.microsoft.com/onedrive/manage-sharing
+    - text: OneDrive 사용자에 대한 기본 저장소 공간 설정
+      url: https://docs.microsoft.com/onedrive/set-default-storage-space
+    - text: OneDrive 동기화 문제 해결
+      url: https://support.office.com/article/fix-onedrive-sync-problems-0899b115-05f7-45ec-95b2-e4cc8c4670b2

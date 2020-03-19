@@ -1,5 +1,5 @@
 - name: 관리 홈
-  href: admin-home.md
+  href: admin-home.yml
   items:
     - name: 개요
       items:
@@ -8,7 +8,7 @@
         - name: Office 365 등록
           href: admin-overview/sign-up-for-office-365.md
         - name: 동영상 교육
-          href: 'https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)'
+          href: 'https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816'
         - name: 관리 센터 소개
           href: admin-overview/about-the-admin-center.md
         - name: 내가 구독한 것은 무엇인가요?
@@ -86,7 +86,7 @@
     - name: 전자 메일
       items:
         - name: Office 365의 전자 메일
-          href: email/email.md
+          href: email/email.yml
         - name: Office 365 사용자 전자 메일 설정
           href: email/office-365-user-email-settings.md
         - name: 사용자의 다른 전자 메일 별칭 추가
@@ -154,7 +154,7 @@
     - name: 관리
       items:
         - name: Office 365 관리
-          href: manage/manage.md
+          href: manage/manage.yml
         - name: 연락처 기본 설정 변경
           href: manage/change-contact-preferences.md
         - name: 주소와 연락처 등의 변경
@@ -186,9 +186,9 @@
         - name: 사용자의 라이선스 할당 해제
           href: manage/remove-licenses-from-users.md
         - name: 라이선스 충돌 해결
-          href: manage/resolve-license-conflicts.md)
+          href: manage/resolve-license-conflicts.md
         - name: 메시지 센터에서 메시지 관리
-          href: manage/manage-messages.md)
+          href: manage/manage-messages.md
     - name: 구독 및 청구
       items:
         - name: 구독 관리
@@ -202,7 +202,7 @@
     - name: 도메인
       items:
         - name: Office 365의 도메인
-          href: get-help-with-domains/get-help-with-domains.md
+          href: get-help-with-domains/get-help-with-domains.yml
         - name: 도메인이란 무엇인가요?
           href: get-help-with-domains/what-is-a-domain.md
         - name: 도메인 이름 구입
