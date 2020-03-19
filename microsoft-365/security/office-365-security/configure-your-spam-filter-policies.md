@@ -16,12 +16,12 @@ ms.assetid: 316544cb-db1d-4c25-a5b9-c73bbcf53047
 ms.collection:
 - M365-security-compliance
 description: 기본 스팸 필터 설정에는 스팸으로 식별되는 메시지에 관해 수행할 작업 선택이 포함됩니다.
-ms.openlocfilehash: 6cf4d84b72e774f734f198b09285bba2c68bc4df
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 0fa597887a75ff71d768d4df0b1ac4f17fe9ef13
+ms.sourcegitcommit: fe4beef350ef9f39b1098755cff46fa2b8e7dc4d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42086277"
+ms.lasthandoff: 03/19/2020
+ms.locfileid: "42857360"
 ---
 # <a name="configure-your-spam-filter-policies"></a>스팸 필터 정책 구성
 스팸 필터 설정에는 스팸으로 식별되는 메시지에 관해 수행할 작업 선택이 포함됩니다. 스팸 필터 정책 설정은 인바운드 메시지에만 적용되며 다음 두 가지 유형이 있습니다.
@@ -83,7 +83,7 @@ ms.locfileid: "42086277"
    - **메시지 격리:**  메시지를 받는 사람에게 보내지 않고 격리로 보냅니다. 이 작업이 피싱에 대한 기본 작업입니다. 이 옵션을 선택하는 경우 **스팸 보존 기간(일)** 입력란에서 스팸 메시지를 격리할 기간을 일 단위로 지정합니다. 해당 기간이 경과하면 메시지는 자동으로 삭제됩니다. 기본값(최대값)은 30일이고 최소값은 1일입니다.
 
      > [!TIP]
-     > 관리자가 격리에 있는 전자 메일 메시지를 관리하는 방법에 대한 자세한 내용은 [격리](quarantine.md) 및 [관리자로 격리된 메시지 찾기 및 릴리스](find-and-release-quarantined-messages-as-an-administrator.md)를 참조하세요. <br/><br/> 사용자에게 스팸 알림 메시지를 구성하는 방법에 대한 자세한 내용은 [EOP에서 최종 사용자 스팸 알림 구성](configure-end-user-spam-notifications-in-eop.md) 또는 [Exchange Online에서 최종 사용자 스팸 알림 구성](configure-end-user-spam-notifications-in-exchange-online.md)을 참조하세요.
+     > 관리자가 격리에 있는 전자 메일 메시지를 관리하는 방법에 대한 자세한 내용은 [격리](quarantine.md) 및 [Office 365에서 관리자로 격리된 메시지 및 파일 관리](manage-quarantined-messages-and-files.md)를 참조하세요.  <br/><br/> 사용자에게 스팸 알림 메시지를 구성하는 방법에 대한 자세한 내용은 [EOP에서 최종 사용자 스팸 알림 구성](configure-end-user-spam-notifications-in-eop.md) 또는 [Exchange Online에서 최종 사용자 스팸 알림 구성](configure-end-user-spam-notifications-in-exchange-online.md)을 참조하세요.
 
    - **임계값 선택**을 구성하여 메시지의 BCL(대량 불만 수준)에 따라 대량 전자 메일을 스팸으로 처리할 방법을 결정합니다. 1~9 중에서 임계값 설정을 선택할 수 있으며 1을 설정하면 대부분의 대량 전자 메일이 스팸으로 표시되고 9를 설정하면 대부분의 대량 전자 메일을 전달할 수 있습니다. 그러면 서비스에서 받는 사람의 정크 메일 폴더로 메시지를 보내는 등의 구성된 작업을 수행합니다. 자세한 내용은 [대량 불만 수준 값](bulk-complaint-level-values.md) 및 [정크 메일과 대량 전자 메일의 차이점](what-s-the-difference-between-junk-email-and-bulk-email.md)을 참조하세요.
 

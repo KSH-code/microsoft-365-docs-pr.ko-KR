@@ -68,9 +68,13 @@
                 - name: 인시던트 우선 순위 지정
                   href: mtp/incident-queue.md
                 - name: 인시던트 조사
-                  href: mtp/investigate-incidents.md
-                - name: 인시던트 관리
-                  href: mtp/manage-incidents.md
+                  items:
+                    - name: 인시던트 조사
+                      href: mtp/investigate-incidents.md
+                    - name: 인시던트 관리
+                      href: mtp/manage-incidents.md
+                    - name: 컴퓨터 프로필 페이지
+                      href: mtp/machine-profile.md
             - name: 자동화된 조사 및 응답
               items:
                 - name: AIR 개요
@@ -372,16 +376,16 @@
                       href: ./office-365-security/turn-on-atp-for-spo-odb-and-teams.md
             - name: 캠페인 보기
               href: ./office-365-security/campaigns.md
-            - name: 위협 분석을 통해 최신 공격 이해하기
-              href: ./mtp/latest-attack-campaigns.md
             - name: 자동화된 조사 및 응답
               items:
                 - name: AIR 개요
                   href: ./office-365-security/office-365-air.md
-                - name: 자동화된 조사 세부정보 및 결과 보기
-                  href: ./office-365-security/air-view-investigation-results.md
-                - name: 보류 중인 작업 승인 또는 거부
+                - name: 수정 작업
                   href: ./office-365-security/air-remediation-actions.md
+                - name: 자동화 조사 세부정보 및 결과 보기
+                  href: ./office-365-security/air-view-investigation-results.md
+                - name: 보류 중인 작업 검토 또는 승인(또는 거부)
+                  href: ./office-365-security/air-review-approve-pending-completed-actions.md
                 - name: AIR를 사용자 지정 솔루션 또는 타사 솔루션과 통합
                   href: ./office-365-security/air-custom-reporting.md
             - name: 손상된 사용자 계정을 신속하게 탐지 및 해결
@@ -390,6 +394,8 @@
               href: ./office-365-security/investigate-malicious-email-that-was-delivered.md
             - name: ATP 보고서 보기 및 읽기
               href: ./office-365-security/view-reports-for-atp.md
+            - name: 위협 분석을 통해 최신 공격 이해하기
+              href: ./mtp/latest-attack-campaigns.md
             - name: ATP 안전한 링크 경고 페이지의 의미
               href: ./office-365-security/atp-safe-links-warning-pages.md
             - name: 위협 트래커 사용
@@ -552,9 +558,6 @@
                       href: ./office-365-security/mail-flow-intelligence-in-office-365.md
                 - name: 격리
                   href: ./office-365-security/quarantine.md
-                  items:
-                    - name: 관리자로 격리된 메시지 찾기 및 릴리스
-                      href: ./office-365-security/find-and-release-quarantined-messages-as-an-administrator.md
                 - name: 문제 해결 및 지원 정보
                   href: ./office-365-security/troubleshooting-and-support-information.md
                   items:

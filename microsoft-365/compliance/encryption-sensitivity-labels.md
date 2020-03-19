@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 민감한 레이블을 만들면 레이블이 적용되는 콘텐츠에 대한 액세스를 제한할 수 있습니다. 민감도 레이블에서 암호화를 사용하여 내용을 보호할 수 있습니다.
-ms.openlocfilehash: a8418a85c6d936fbe49deb2f11caacf67a2ce407
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: 3f59a6038da8600923f5fcc0d18f1de5ab5dc06c
+ms.sourcegitcommit: 2859c82b30ae9cbd3a3e4bcdebd65f18444f1a9e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42634916"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "42826239"
 ---
 # <a name="restrict-access-to-content-by-using-sensitivity-labels-to-apply-encryption"></a>민감도 레이블을 사용하여 암호화를 적용하여 콘텐츠 액세스 제한 
 
@@ -59,7 +59,7 @@ ms.locfileid: "42634916"
 - **제거**: 문서 또는 전자 메일이 암호화된 경우 암호화를 제거합니다.
 
 > [!NOTE]
-> **제거** 옵션은 Azure Information Protection 통합 레이블 클라이언트에서만 지원됩니다. 기본 제공 레이블을 사용하는 경우, 이 옵션이 있는 레이블이 Office 앱에 표시되며 이 옵션을 선택하면 암호화 동작은 **없음**과 동일합니다.
+> **제거** 옵션은 Azure Information Protection 통합 레이블 클라이언트에서만 지원됩니다. 기본 제공 레이블을 사용하는 경우, 이 옵션이 있는 레이블이 Office 앱과 서비스에 표시되며 이 옵션을 선택하면 암호화 동작은 **없음**과 동일합니다.
 
 암호화 옵션 구성:
 

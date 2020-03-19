@@ -20,12 +20,12 @@ search.appverid:
 ms.assetid: da585eea-f576-4f55-a1e0-87090b6aaa9d
 description: 관리자 역할은 비즈니스 기능에 매핑되며 관리 센터에서 특정 작업을 수행할 수 있는 권한을 부여합니다. 예를 들어 서비스 관리자는 Microsoft로 지원 티켓을 엽니다.
 ms.custom: okr_smb
-ms.openlocfilehash: b0aa799112fb2b714f369237958b583dfb8e8baa
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: 446af9ad49649487f4df1982613f8e84fdf39910
+ms.sourcegitcommit: fe4beef350ef9f39b1098755cff46fa2b8e7dc4d
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42632976"
+ms.lasthandoff: 03/19/2020
+ms.locfileid: "42857194"
 ---
 # <a name="about-admin-roles"></a>관리자 역할 정보
 
@@ -81,7 +81,7 @@ Microsoft 365 관리 센터를 통해 30개 이상의 Azure AD 역할을 관리�
 |Office 앱 관리자    |   다음 작업을 수행해야 하는 사용자에게 Office 앱 관리자 역할을 할당합니다. <br> - Office 클라우드 정책 서비스를 사용하여 Office에 대한 클라우드 기반 정책을 만들고 관리 <br> - 서비스 요청 만들기 및 관리 <br> - Office 앱에서 사용자에게 표시되는 새로운 콘텐츠를 관리   <br> - 서비스 상태 모니터링  |
 |서비스 관리자    |   역할에 다음 작업이 포함되지 않지만 여전히 다음 작업을 수행해야 하는 관리자 또는 사용자에게 추가 역할로 서비스 관리자 역할을 할당합니다. <br> - 서비스 요청 열기 및 관리 <br> - 메시지 센터 게시물 보기 및 공유   |
 |SharePoint 관리자    |   Sharepoint Online 관리 센터에 액세스하고 관리해야 하는 사용자에게 SharePoint 관리자 역할을 할당합니다. <br><br>SharePoint 관리자는 다음 작업도 수행할 수 있습니다. <br> - 사이트 만들기 및 삭제 <br> - 사이트 모음 및 전역 SharePoint 설정 관리   |
-|Teams 관리자    |   Teams 관리 센터에 액세스하고 관리해야 하는 사용자에게 Teams 관리자 역할을 할당합니다. <br><br>Teams 관리자는 다음 작업도 수행할 수 있습니다. <br> - 모임 관리 <br> - 회의 브리지 관리 <br> - 페더레이션, 팀 업그레이드 및 팀 클라이언트 설정을 포함한 모든 조직 전체 설정 관리   |
+|Teams 서비스 관리자    |   Teams 관리 센터에 액세스하고 관리해야 하는 사용자에게 Teams 서비스 관리자 역할을 할당합니다. <br><br>Teams 서비스 관리자도 다음을 수행할 수 있습니다. <br> - 모임 관리 <br> - 회의 브리지 관리 <br> - 페더레이션, 팀 업그레이드 및 팀 클라이언트 설정을 포함한 모든 조직 전체 설정 관리   |
 |사용자 관리자     |    모든 사용자를 위해 다음 작업을 수행해야 하는 사용자에게 사용자 관리자 역할을 할당합니다. <br> - 사용자 및 그룹 추가 <br> - 라이선스 할당 <br> - 대부분의 사용자 속성 관리 <br> - 사용자 보기 만들기 및 관리 <br> - 암호 만료 정책 설정 <br> - 서비스 요청 관리 <br> - 서비스 상태 모니터링 <br><br>  사용자 관리자는 또한 관리자가 아닌 사용자와 디렉터리 읽기 권한자, 게스트 초대자, 헬프 데스크 관리자, 메시지 센터 읽기 권한자, 보고서 읽기 권한자 역할이 할당된 사용자에 대해 다음 작업을 수행할 수 있습니다.  <br> - 사용자 이름 관리<br> - 사용자 삭제 및 복원<br> - 암호 초기화 <br> - 강제로 사용자에게 로그 아웃 <br> - 업데이트(FIDO) 장치 키   |
 
 ### <a name="all-roles"></a>모든 역할
