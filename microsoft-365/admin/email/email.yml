@@ -1,0 +1,93 @@
+### YamlMime:Landing
+title: 전자 메일 설명서
+summary: Office 365 사서함의 전자 메일을 관리하는 방법을 알아봅니다.
+metadata:
+  title: 전자 메일 설명서
+  description: Office 365 사서함의 전자 메일을 관리하는 방법을 알아봅니다.
+  ms.service: o365-administration
+  ms.topic: landing-page
+  ms.collection:
+  - Adm_O365
+  - Adm_TOC
+  author: wingtofree
+  ms.author: v-qingao
+  ms.date: 11/03/2020
+  ms.openlocfilehash: e4ec9d99fdba8e577feb07628d8d617afbf8c9f7
+  ms.sourcegitcommit: fe4beef350ef9f39b1098755cff46fa2b8e7dc4d
+  ms.translationtype: MT
+  ms.contentlocale: ko-KR
+  ms.lasthandoff: 03/19/2020
+  ms.locfileid: "42857658"
+landingContent:
+- title: 전자 메일 설정
+  linkLists:
+  - linkListType: video
+    links:
+    - text: Outlook에서 전자 메일 설정
+      url: https://support.office.microsoft.com/article/f5bf0cd1-e1f3-4b0d-a022-ecab17efe86f
+    - text: 전자 메일 가져오기 및 리디렉션
+      url: https://support.office.microsoft.com/article/6a3771d4-4c1d-4a25-92a6-0b8e476335de
+  - linkListType: tutorial
+    links:
+    - text: Outlook 교육
+      url: https://support.office.microsoft.com/article/8a5b816d-9052-4190-a5eb-494512343cca
+  - linkListType: how-to-guide
+    links:
+    - text: 전자 메일 및 연락처 마이그레이션
+      url: https://support.office.com/article/a3e3bddb-582e-4133-8670-e61b9f58627e
+    - text: 공유 사서함 만들기
+      url: https://docs.microsoft.com/microsoft-365/admin/email/create-a-shared-mailbox
+    - text: 다른 전자 메일 주소를 사용자에 추가
+      url: https://docs.microsoft.com/microsoft-365/admin/email/add-another-email-alias-for-a-user
+    - text: 사용자가 직접 IPhone 또는 iPad와 전자 메일 연락처 동기화할 수 있도록 지원
+      url: https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/outlook-on-the-web/owa-for-devices-contact-sync
+    - text: 전자 메일을 보낼 수 있도록 다기능 장치 설정
+      url: https://support.office.com/article/69f58e99-c550-4274-ad18-c805d654b4c4
+    - text: Outlook에 다른 계정 추가
+      url: https://support.office.com/article/c5224df4-5885-4e79-91ba-523aa743f0ba
+- title: 전자 메일 보호
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: 보안 그룹 만들기, 편집 또는 삭제
+      url: https://docs.microsoft.com/microsoft-365/admin/email/create-edit-or-delete-a-security-group
+    - text: 전자 메일 스팸 방지 보호
+      url: https://docs.microsoft.com/office365/securitycompliance/anti-spam-protection
+    - text: 스팸 방지 및 맬웨어 방지 보호
+      url: https://docs.microsoft.com/office365/securitycompliance/anti-spam-and-anti-malware-protection
+    - text: 전자 메일 스팸으로 표시 방지
+      url: https://docs.microsoft.com/office365/securitycompliance/prevent-email-from-being-marked-as-spam
+- title: 전자 메일 연결 및 배달 문제 해결
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Office 365 및 Exchange Online의 Outlook 연결 문제 해결
+      url: https://diagnostics.outlook.com/#/
+    - text: 사용자의 사서함에서 삭제된 항목 복구
+      url: https://docs.microsoft.com/office365/enterprise/recover-deleted-items-in-a-mailbox
+    - text: 전자 메일 전송 문제 찾기 및 해결
+      url: https://support.office.com/article/e7758b99-1896-41db-bf39-51e2dba21de6
+    - text: 도메인 또는 DNS 레코드를 추가한 후 문제 찾기 및 해결(전자 메일 관련 문제 포함)
+      url: https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/find-and-fix-issues
+    - text: 전자 메일 배달 못 함 보고서에서 NDR 오류 코드 조회
+      url: https://support.office.com/article/51daa6b9-2e35-49c4-a0c9-df85bf8533c3
+    - text: Outlook 문제 해결
+      url: https://go.microsoft.com/fwlink/?LinkID=618675
+- title: 엔터프라이즈에 대한 리소스
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Exchange Online 및 Office 365에 대한 메일 흐름 모범 사례
+      url: https://docs.microsoft.com/exchange/mail-flow-best-practices/mail-flow-best-practices
+    - text: Exchange Online
+      url: https://docs.microsoft.com/exchange/exchange-online
+    - text: Exchange Online
+      url: https://docs.microsoft.com/office365/securitycompliance/eop/exchange-online-protection-overview
+  - linkListType: deploy
+    links:
+    - text: Exchange 하이브리드 배포 콘텐츠
+      url: https://docs.microsoft.com/exchange/exchange-hybrid
+  - linkListType: how-to-guide
+    links:
+    - text: Office 365로 여러 전자 메일 계정을 마이그레이션하는 방법
+      url: https://docs.microsoft.com/Exchange/mailbox-migration/mailbox-migration
