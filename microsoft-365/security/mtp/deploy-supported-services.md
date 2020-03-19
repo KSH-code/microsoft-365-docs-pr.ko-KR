@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 1c06562cc0ff8cdc43efb3a8f62924c435883408
-ms.sourcegitcommit: dcea75af89f5f80ec6670346ee176407e043de54
+ms.openlocfilehash: c2798238f0e3cb10edab7f98bf096474a80fa006
+ms.sourcegitcommit: fe4beef350ef9f39b1098755cff46fa2b8e7dc4d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "42610565"
+ms.lasthandoff: 03/19/2020
+ms.locfileid: "42857478"
 ---
 # <a name="deploy-supported-services"></a>지원 서비스 사용
 
@@ -36,7 +36,7 @@ ms.locfileid: "42610565"
 [Microsoft Threat Protection](microsoft-threat-protection.md) 은 다양 한 Microsoft 보안 서비스를 통합 하 여 정교한 공격에 대 한 중앙 집중식 검색, 예방 및 조사 기능을 제공 합니다. 이 문서에서는 지원 되는 서비스, 라이선스 요구 사항, 하나 이상의 서비스 배포와 관련 된 장점과 제한 사항에 대해 설명 하 고 개별적으로 배포 하는 방법에 대 한 링크를 제공 합니다.
 
 ## <a name="supported-services"></a>지원 되는 서비스
-[Microsoft 365 E5, E5 Security 또는 A5 라이선스 또는 유효한 라이선스 조합을](prerequisites.md#licensing-requirements) 사용 하면 지원 되는 다음 서비스에 대 한 액세스를 제공 하 고 통해 microsoft 365 보안 센터에서 Microsoft Threat Protection을 사용할 수 있습니다.
+Microsoft 365 E5, E5 Security, A5 또는 A5 보안 라이선스 또는 유효한 라이선스 조합을 사용 하면 지원 되는 다음 서비스에 대 한 액세스를 제공 하 고 통해 microsoft 365 보안 센터에서 Microsoft Threat Protection을 사용할 수 있습니다. [라이선스 요구 사항 참조](prerequisites.md#licensing-requirements)
 
 | 지원 되는 서비스 | 설명 |
 | ------ | ------ |

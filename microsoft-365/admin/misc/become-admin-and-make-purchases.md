@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 48b26596-9e5b-4e5a-a64f-7430eb2a1e45
 description: '관리자가 되 고 조직에 대 한 Office 365 구독을 가져오는 방법을 알아봅니다. '
-ms.openlocfilehash: d646b2e0ead1a4d911b4c9335660e2998ab5292a
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 7b213d2a2e987a4e12cb410372e540ca715528a1
+ms.sourcegitcommit: fe4beef350ef9f39b1098755cff46fa2b8e7dc4d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42361553"
+ms.lasthandoff: 03/19/2020
+ms.locfileid: "42857418"
 ---
 # <a name="become-the-admin-and-purchase-office-365-for-your-organization"></a>조직의 관리자가 되어 Office 365 구입
 
@@ -87,7 +87,7 @@ Microsoft는 조직 내 사용자가 IT 부서의 공식 배포를 기다리지 
 |라이선스 추가 또는 제거  <br/> |아직 Office 365을 사용 하지 않는 사용자에 대해 [라이선스를 더 추가](../../commerce/licenses/buy-licenses.md) 하거나, 조직의 Office 365 구독을 사용 하지 않으려는 [사용자의 라이선스를 제거할](../manage/remove-licenses-from-users.md) 수 있습니다.  <br/> |
 |이미 등록한 다른 사용자에게 연락  <br/> |다른 사용자에게 연락하여 귀하가 해당 사용자의 Office 365 구독을 관리할 것이며 해당 사용자가 업그레이드되었음을 알립니다. [이러한 단계에 따라](../add-users/add-users.md) **활성 사용자** 및 해당 전자 메일 주소 목록을 표시합니다.  <br/> |
 |Office 365 사용 시작  <br/> |[Office 365 학습 센터](https://support.office.com/learn/office365-for-business)를 방문하여 로그인, 전자 메일 확인, 문서 공유 등의 방법을 알아보세요. 귀하와 사용자는 이 사이트를 사용하여 Office 365를 시작할 수 있습니다.  <br/> |
-|Office 365 구독 관리  <br/> |[Office 365 관리 도움말 센터](../admin-home.md) 를 방문 하 고 사용자 추가 및 제거, 암호 재설정 및 모바일 장치 설정과 같은 일반적인 관리 작업에 대해 알아봅니다.  <br/> |
+|Office 365 구독 관리  <br/> |[Office 365 관리 도움말 센터](../admin-home.yml) 를 방문 하 고 사용자 추가 및 제거, 암호 재설정 및 모바일 장치 설정과 같은 일반적인 관리 작업에 대해 알아봅니다.  <br/> |
 
 ## <a name="still-need-help"></a>여전히 도움이 필요하세요?
 

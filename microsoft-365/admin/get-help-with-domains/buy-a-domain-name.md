@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: 1561140a-16a9-4a02-822d-a989250e479d
 description: Office 365에서 도메인 이름을 구입 하는 방법을 알아봅니다.
 ms.custom: okr_smb
-ms.openlocfilehash: 8b2b23e2e699723d54ecb7ca2807296641178664
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 1982ac054ca64f2442e108b457553a58ebcb234c
+ms.sourcegitcommit: fe4beef350ef9f39b1098755cff46fa2b8e7dc4d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42255163"
+ms.lasthandoff: 03/19/2020
+ms.locfileid: "42857442"
 ---
 # <a name="buy-a-domain-name-in-office-365"></a>Office 365에서 도메인 이름 구입
 
@@ -37,7 +37,7 @@ ms.locfileid: "42255163"
   
 ### <a name="sign-in-and-go-to-settings--domains--buy-a-domain"></a>로그인 하 고 설정 \> 도메인 \> 으로 이동 하 여 도메인 구입
 
-1. 관리 센터에서 **설정** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">도메인</a> 페이지로 이동 합니다.
+1. I관리 센터에서 ** 설정 ** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank"> 도메인 </a> 페이지로 이동하십시오.
     
 3. **도메인** 페이지에서 **도메인 구입**을 선택 합니다.
     
@@ -121,4 +121,4 @@ Office 365에서 도메인을 설정하려면 사용자가 도메인을 소유�
 
 [도메인 FAQ](../setup/domains-faq.md)
 
-[Office 365 도메인에 대 한 도움말 보기](get-help-with-domains.md)
+[Office 365 도메인에 대 한 도움말 보기](get-help-with-domains.yml)
