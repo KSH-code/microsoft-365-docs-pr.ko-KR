@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 365 trainable 분류자는 긍정적이 고 부정적 샘플을 확인 하 여 다양 한 유형의 콘텐츠를 인식할 수 있도록 교육을 제공 하는 도구입니다. 일단 분류자가 학습 되 면 결과가 정확 함을 확인할 수 있습니다. 그런 다음이를 사용 하 여 조직의 콘텐츠를 검색 하 고이를 분류 하 여 보존 또는 민감도 레이블을 적용 하거나 DLP (데이터 손실 방지) 또는 보존 정책에 포함 합니다.
-ms.openlocfilehash: 159f0935a2191c668c317fac17096a9427a0f889
-ms.sourcegitcommit: 9c335d110e0b499501edc8a31b987641819118a1
+ms.openlocfilehash: 6706fe25194191d57ffd91f07f13d22fe5ec6cfd
+ms.sourcegitcommit: 2859c82b30ae9cbd3a3e4bcdebd65f18444f1a9e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "42409723"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "42826259"
 ---
 # <a name="getting-started-with-trainable-classifiers-preview"></a>학습 가능한 분류자 시작 (미리 보기)
 
@@ -36,7 +36,7 @@ ms.locfileid: "42409723"
 - 키워드 또는 메타 데이터 값 (키워드 쿼리 언어)
 - 이전에는 사회 보안, 신용 카드 또는 은행 계좌 번호와 같은 중요 한 정보 [(중요 한 정보 유형)](what-the-sensitive-information-types-look-for.md) 를 사용 하 여 확인
 - 항목을 인식 하 여 서식 파일의 변형 [(문서 손가락 인쇄)](document-fingerprinting.md)
-- 정확한 문자열 [(정확한 데이터 일치)](create-custom-sensitive-information-types-with-exact-data-match-based-classification.md)을 사용 합니다.
+- 정확한 문자열 [(정확히 일치)](create-custom-sensitive-information-types-with-exact-data-match-based-classification.md)을 사용 합니다.
 
 그런 다음 민감도 및 보존 레이블을 자동으로 적용 하 여 [DLP (데이터 손실 방지)](data-loss-prevention-policies.md) 및 [보존 정책](retention-policies.md)에서 콘텐츠를 사용할 수 있도록 설정할 수 있습니다.
 
@@ -67,7 +67,17 @@ Microsoft 365에는 다음과 같은 6 개의 기본 제공 분류자가 있습�
 
 - **비속어**: profanities, slurs, taunts 및 가짜 식이 포함 된 텍스트 항목 (더 공격적인 용어와 의미가 동일한 식 임)을 검색 합니다.
 - **다시 시작**: 지원자 개인, 교육, 전문가 자격, 작업 환경 및 기타 개인 식별 정보에 해당 하는 텍스트 계정인 항목을 검색 합니다.
-- **SourceCode**: 광범위 하 게 사용 되는 컴퓨터 프로그래밍 언어로 작성 된 지침 및 명령문 집합이 포함 되어 있는 항목을 검색 합니다.
+- **소스 코드**: GitHub에서 상위 25 사용 컴퓨터 프로그래밍 언어에 작성 된 지침 및 문 집합을 포함 하는 항목을 검색 합니다.
+
+|언어 이름|||||
+|---------|---------|---------|---------|---------|
+|ActionScript|C        |& #       |C + +     |Clojure  |
+|CoffeeScript|시트     |갈       |Haskell |HTML     |
+|Java     |JavaScript|Lua      |MATLAB   |목표-C|
+|Perl     |PHP      |Python   |이력서        |Ruby     |
+|Scala    |셸    |Swift    |Tex      |Vim 스크립트|
+
+
 - **Harassment**: 레이스, ethnicity, religion, 국립 근원, 성별, 성적 방향, 연령, 장애 등의 특성을 기반으로 하 여 한 명 이상의 개인이 대상으로 하는 공격적인 언어 텍스트 항목의 특정 범주를 감지 합니다.
 - **불경**: 대부분의 사용자를 embarrass 하는 식이 포함 된 공격적인 언어 텍스트 항목의 특정 범주를 감지 합니다.
 - **위협**: 사용자 또는 속성에 대 한 폭력을 커밋하거나 물리적인 손상을 주거나 위험에 관련 된 공격적인 언어 텍스트 항목의 특정 범주를 감지 합니다.

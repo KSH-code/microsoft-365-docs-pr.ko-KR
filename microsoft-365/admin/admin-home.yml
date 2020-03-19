@@ -1,0 +1,81 @@
+### YamlMime:Landing
+title: Microsoft 365 관리자 documation
+summary: Microsoft 365 관리자가 사용할 수 있는 리소스에 대해 알아봅니다.
+metadata:
+  title: Microsoft 365 관리자 documation
+  description: Microsoft 365 관리자가 사용할 수 있는 리소스에 대해 알아봅니다.
+  ms.service: o365-administration
+  ms.topic: landing-page
+  ms.collection:
+  - Adm_O365
+  - Adm_TOC
+  author: wingtofree
+  ms.author: v-qingao
+  ms.date: 03/05/2020
+  ms.openlocfilehash: 9baffa7688223c57c5ef863d9d39beed7bc38f62
+  ms.sourcegitcommit: fe4beef350ef9f39b1098755cff46fa2b8e7dc4d
+  ms.translationtype: MT
+  ms.contentlocale: ko-KR
+  ms.lasthandoff: 03/19/2020
+  ms.locfileid: "42857631"
+landingContent:
+- title: 관리 센터 정보
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: 관리 센터 란?
+      url: admin-overview/admin-overview.md
+  - linkListType: whats-new
+    links:
+    - text: 새로운 기능 받기
+      url: manage/stay-on-top-of-updates.md
+- title: 시작하기
+  linkLists:
+  - linkListType: get-started
+    links:
+    - text: 설정 계획
+      url: setup/plan-your-setup.md
+    - text: Office 365 설정
+      url: setup/setup.md
+    - text: Office 365에 도메인 추가
+      url: setup/add-domain.md
+    - text: Office 365로 전자 메일 및 연락처 마이그레이션
+      url: setup/migrate-email-and-contacts-admin.md
+    - text: Office 365 파일 저장 및 공유 설정
+      url: setup/set-up-file-storage-and-sharing.md
+    - text: 사용자 추가
+      url: add-users/add-users.md
+    - text: 다단계 인증 설정
+      url: security-and-compliance/set-up-multi-factor-authentication.md
+- title: 문제 해결
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: Office 설치 문제 해결
+      url: https://support.office.com/article/troubleshoot-installing-office-35ff2def-e0b2-4dac-9784-4cf212c1f6c2
+    - text: Microsoft 지원 및 복구 도우미로 Outlook 및 Office 365 문제 해결
+      url: https://support.office.com/article/about-the-microsoft-support-and-recovery-assistant-e90bb691-c2a7-4697-a94f-88836856c72f
+    - text: 전자 메일 문제 해결
+      url: https://docs.microsoft.com/office365/troubleshoot/troubleshooting/troubleshoot-email-issues
+    - text: 비즈니스용 OneDrive 동기화 문제 해결
+      url: https://go.microsoft.com/fwlink/?linkid=866431
+- title: 구독
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: 무료 평가판에서 구독 구입
+      url: https://docs.microsoft.com/microsoft-365/commerce/buy-a-subscription-from-your-free-trial
+    - text: 구독 취소
+      url: https://docs.microsoft.com/microsoft-365/commerce/subscriptions/cancel-your-subscription?
+- title: 자세한 정보
+  linkLists:
+  - linkListType: learn
+    links:
+    - text: Microsoft Teams 문서
+      url: https://docs.microsoft.com/MicrosoftTeams/Microsoft-Teams
+    - text: Office 365 엔터프라이즈 설명서
+      url: https://docs.microsoft.com/Office365/Enterprise
+    - text: Office 365 교육 센터
+      url: https://support.office.com/office-training-center
+    - text: Microsoft 365 시작
+      url: https://docs.microsoft.com/en-us/learn/m365/

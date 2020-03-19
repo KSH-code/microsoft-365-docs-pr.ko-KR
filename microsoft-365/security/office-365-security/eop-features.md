@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 599b8048-1056-457b-aae4-c063138fd319
 description: 다음 표에는 EOP(Exchange 온라인 보호) 호스팅 전자 메일 필터링 서비스에서 사용할 수 있는 기능 목록이 나와 있습니다.
-ms.openlocfilehash: 9422330cb4999e4391f92e39807e2d2367366972
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 505487e079ea198c6575fd76e2e59a60ead19940
+ms.sourcegitcommit: fe4beef350ef9f39b1098755cff46fa2b8e7dc4d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41599375"
+ms.lasthandoff: 03/19/2020
+ms.locfileid: "42857348"
 ---
 # <a name="eop-features"></a>EOP 기능
 
@@ -48,9 +48,9 @@ ms.locfileid: "41599375"
 |웹에서 Outlook을 통한 스팸 및 비 스팸 전송 정크 메일 보고|정크 메일 및 스팸이 아닌 메시지는 웹에서 Outlook을 통해 Microsoft에 제출할 수 있습니다. 자세한 내용은 [웹용 Outlook에서 정크 메일 및 피싱 사기 보고](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md)를 참조 하세요.  <br/><br/> 이 기능은 현재 Exchange Server 2013 SP1 이상 사서함이 EOP에 의해 필터링 되는 웹 고객의 Outlook에서 사용할 수 있습니다. 웹에서 Exchange Online Outlook 고객 에게도이 기능이 곧 출시 될 예정입니다.|
 |최종 사용자 스팸 격리 알림|최종 사용자는 자신의 스팸 격리 메시지를 릴리스하고, 필요한 경우 최종 사용자 스팸 알림 메시지를 통해 이를 정크 메일 아님으로 보고할 수 있습니다. 이러한 알림 전자 메일은 [Exchange Online에서 최종 사용자 스팸 알림 구성](configure-end-user-spam-notifications-in-exchange-online.md) 또는 [EOP에서 최종 사용자 스팸 알림 구성](configure-end-user-spam-notifications-in-eop.md)에 설명 된 대로 관리자가 구성 하 고 사용 하도록 설정 해야 합니다.|
 |최종 사용자 스팸 격리 알림 빈도|이 빈도는 기본적으로 3일이며, 1~15일로 구성할 수 있습니다.|
-|관리자가 최종 사용자 스팸 격리 알림 언어를 구성하는 기능|이 기능은 최종 사용자 및 관리자가 사용할 수 있습니다. 자세한 내용은 [관리자로 격리 된 메시지 찾기 및 릴리스](find-and-release-quarantined-messages-as-an-administrator.md) 또는 [사용자로 격리 된 메시지 찾기 및 릴리스](find-and-release-quarantined-messages-as-a-user.md)를 참조 하세요.|
-|웹 페이지를 통해 격리의 메시지 액세스 및 관리|이 기능은 최종 사용자 및 관리자가 사용할 수 있습니다. 자세한 내용은 [관리자로 격리 된 메시지 찾기 및 릴리스](find-and-release-quarantined-messages-as-an-administrator.md) 또는 [사용자로 격리 된 메시지 찾기 및 릴리스](find-and-release-quarantined-messages-as-a-user.md)를 참조 하세요.|
-|격리를 검색하는 기능|격리에서 특정 스팸 메시지를 검색하는 기능은 관리자와 최종 사용자 모두 사용할 수 있습니다. 자세한 내용은 [관리자로 격리 된 메시지 찾기 및 릴리스](find-and-release-quarantined-messages-as-an-administrator.md) 또는 [사용자로 격리 된 메시지 찾기 및 릴리스](find-and-release-quarantined-messages-as-a-user.md)를 참조 하세요.|
+|관리자가 최종 사용자 스팸 격리 알림 언어를 구성하는 기능|이 기능은 최종 사용자 및 관리자가 사용할 수 있습니다. 자세한 내용은 [Office 365에서 격리 된 메시지 및 파일 관리를 관리자 권한으로](manage-quarantined-messages-and-files.md) 확인 하거나, [사용자로 격리 된 메시지를 찾아 릴리스](find-and-release-quarantined-messages-as-a-user.md)를 참조 하세요.|
+|웹 페이지를 통해 격리의 메시지 액세스 및 관리|이 기능은 최종 사용자 및 관리자가 사용할 수 있습니다. 자세한 내용은 [Office 365에서 격리 된 메시지 및 파일 관리를 관리자 권한으로](manage-quarantined-messages-and-files.md) 확인 하거나, [사용자로 격리 된 메시지를 찾아 릴리스](find-and-release-quarantined-messages-as-a-user.md)를 참조 하세요.|
+|격리를 검색하는 기능|격리에서 특정 스팸 메시지를 검색하는 기능은 관리자와 최종 사용자 모두 사용할 수 있습니다. 자세한 내용은 [Office 365에서 격리 된 메시지 및 파일 관리를 관리자 권한으로](manage-quarantined-messages-and-files.md) 확인 하거나, [사용자로 격리 된 메시지를 찾아 릴리스](find-and-release-quarantined-messages-as-a-user.md)를 참조 하세요.|
 |Exchange 관리 센터에서 스팸으로 격리된 메시지 헤더 보기|격리에서 메시지 헤더를 확인한 후 메시지 헤더 텍스트를 복사하여 메시지에 발생한 상황에 대한 정보를 제공하는 [메시지 헤더 분석기](https://testconnectivity.microsoft.com/?tabid=mha)에 붙여넣을 수도 있습니다.|
 |**맬웨어 방지 보호 기능**||
 |여러 엔진 맬웨어 방지 보호|여러 맬웨어 방지 엔진을 사용하여 자동으로 고객을 항상 보호할 수 있습니다.|

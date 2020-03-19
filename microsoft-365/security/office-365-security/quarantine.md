@@ -16,12 +16,12 @@ ms.assetid: e9eecdde-dcc2-4283-a820-98d1e740e4f
 ms.collection:
 - M365-security-compliance
 description: Exchange Online 및 Exchange Online Protection에 대 한 호스팅된 격리에 대해 알아봅니다.
-ms.openlocfilehash: bcbd0db1c05834882c464fa28012b82a13929d7f
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: ea803a4681a12647f57cf17839d26fb391222364
+ms.sourcegitcommit: fe4beef350ef9f39b1098755cff46fa2b8e7dc4d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41598655"
+ms.lasthandoff: 03/19/2020
+ms.locfileid: "42856884"
 ---
 # <a name="quarantine"></a>격리
 
@@ -29,7 +29,7 @@ ms.locfileid: "41598655"
 
 - [격리 FAQ](quarantine-faq.md) - 관리자와 최종 사용자 모두에게 적용되는 격리에 대한 일반적인 질문과 대답을 제공합니다.
 
-- [격리 된 메시지 찾기 및 릴리스 관리자](find-and-release-quarantined-messages-as-an-administrator.md)에 게는 Exchange 관리 센터 (EAC)에서 격리에 있는 메시지를 찾아서 릴리스 하는 방법에 대해 설명 하 고, 필요한 경우이를 가양성 (정크 메일 아님) 메시지로 Microsoft에 보고 합니다.
+- [관리자에 게 격리 된 메시지 및 파일 관리 Office 365](manage-quarantined-messages-and-files.md): 관리자가 EAC (Exchange 관리 센터)의 격리에 있는 메시지를 찾아서 릴리스하고, 필요한 경우이를 가양성 (정크 메일 아님) 메시지로 Microsoft에 보고 하는 방법에 대해 설명 합니다.
 
 - [사용자에 게 격리 된 메시지 찾기 및 릴리스 Office 365](find-and-release-quarantined-messages-as-a-user.md): 최종 사용자가 스팸 격리 사용자 인터페이스에서 자신의 스팸 격리 메시지를 찾아서 릴리스하고이를 정크 메일 아님으로 Microsoft에 보고 하는 방법에 대해 설명 합니다.
 

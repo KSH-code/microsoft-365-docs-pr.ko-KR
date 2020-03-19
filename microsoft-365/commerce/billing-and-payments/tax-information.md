@@ -21,12 +21,12 @@ search.appverid:
 - BEA160
 description: '서로 다른 지역에서 비즈니스용 Office 365 구독에 대해 부과할 세금을 확인할 수 있습니다. '
 ms.custom: okr_SMB
-ms.openlocfilehash: 88997eb69cbbee1b7ec4520773c167609434e0a4
-ms.sourcegitcommit: 01ead889086ecc7dcf5d10244bcf67c5a33c8114
+ms.openlocfilehash: f437e2f58797f3cc092b50611f34ecb2ce9cf3b0
+ms.sourcegitcommit: 2859c82b30ae9cbd3a3e4bcdebd65f18444f1a9e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42710565"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "42826316"
 ---
 # <a name="tax-information"></a>세금 정보
 
@@ -90,7 +90,7 @@ Microsoft 365 관리 센터 구입에 대 한 세금은 회사 주소로 결정 
 
 ## <a name="what-tax-will-i-be-charged"></a>부과되는 세금은 무엇인가요?
 
-다음 지역에서 어떤 세금이 부과되는지 알아보세요. 적절한 문서를 지원 센터에 제공하여 [면세 자격을 신청](apply-for-tax-exempt-status.md)할 수도 있습니다.
+다음 지역에서 어떤 세금이 부과되는지 알아보세요. 적절한 문서를 지원 센터에 제공하여 [면세 자격을 신청](tax-information.md#apply-for-tax-exempt-status)할 수도 있습니다.
   
 ### <a name="europe-the-middle-east-and-africa-emea"></a>EMEA(유럽, 중동, 아프리카)
 
@@ -160,7 +160,7 @@ Microsoft Corporation에서 대금이 청구([송장 참조](view-your-bill-or-i
 
 판매 세금이 단가를 기준으로 계산 된 다음 집계 됩니다.
 
-다음의 예를 참조하십시오.
+예시:
 
 >*(단가 X 세금 비율) X 수량 = 총 판매액 세금*
 

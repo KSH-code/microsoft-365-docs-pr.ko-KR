@@ -16,12 +16,12 @@ search.appverid:
 ms.collection: M365-security-compliance
 description: Office 365 Advanced Threat Protection 계획 2의 자동화 된 조사 및 응답 기능 사용을 시작 하세요.
 ms.custom: air
-ms.openlocfilehash: 8871329d254057a0f9d6f10d3ae7acc10139832e
-ms.sourcegitcommit: 01ead889086ecc7dcf5d10244bcf67c5a33c8114
+ms.openlocfilehash: 45a2bc0e581916493a0170a5f86c152d02403efe
+ms.sourcegitcommit: 2859c82b30ae9cbd3a3e4bcdebd65f18444f1a9e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42710537"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "42826352"
 ---
 # <a name="automated-investigation-and-response-air-in-office-365"></a>Office 365의 자동화 된 조사 및 응답 (AIR)
 
@@ -47,7 +47,7 @@ ms.locfileid: "42710537"
 
     조직에서 사용자 지정 보고 솔루션 또는 타사 솔루션을 사용 하는 경우에는 [Office 365 관리 활동 API를 사용](air-custom-reporting.md) 하 여 자동화 된 조사 및 위협에 대 한 정보를 볼 수 있습니다.
 
-4. 보안 운영 팀은 [조사 결과 및 권장 사항을](air-view-investigation-results.md)검토 하 고 [재구성 작업을 승인 하거나 거부](air-remediation-actions.md#approve-or-reject-pending-actions)합니다. 
+4. 보안 운영 팀은 [조사 결과 및 권장 사항을](air-view-investigation-results.md)검토 하 고 [재구성 작업을 승인 하거나 거부](air-review-approve-pending-completed-actions.md)합니다. 
 
     보류 중인 재구성 작업이 승인 되거나 거부 됨에 따라 자동 조사가 완료 됩니다.
 
@@ -60,7 +60,7 @@ ms.locfileid: "42710537"
 
 - [조사 결과 세부 정보 보기](air-view-investigation-results.md#view-details-of-an-investigation)
 
-- [조사 결과로 작업 검토 및 승인](air-remediation-actions.md#approve-or-reject-pending-actions)
+- [조사 결과로 작업 검토 및 승인](air-review-approve-pending-completed-actions.md)
 
 > [!TIP]
 > 자세한 내용은 [AIR works](https://docs.microsoft.com/microsoft-365/security/office-365-security/automated-investigation-response-office)를 참조 하세요.

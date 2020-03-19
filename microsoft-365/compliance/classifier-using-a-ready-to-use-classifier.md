@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 365에는 조직 전체에서 콘텐츠를 식별 하 고 레이블을 지정 하는 데 사용할 수 있는 다양 한 기본 제공 분류자가 제공 됩니다. 이 항목에서는 이러한 분류자 사용을 준비 하는 방법을 보여 줍니다.
-ms.openlocfilehash: 2157e06da251b1f02b6a4623c573d350d838aff0
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: b8e4b51300bee86682924245bbf530e1e954b483
+ms.sourcegitcommit: 2859c82b30ae9cbd3a3e4bcdebd65f18444f1a9e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42634466"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "42826249"
 ---
 # <a name="using-a-built-in-classifier-preview"></a>기본 제공 분류자 사용 (미리 보기)
 
@@ -27,7 +27,16 @@ Microsoft는 특정 콘텐츠 범주를 식별 하는 데 도움이 될 수 있�
 
 - **비속어**: profanities, slurs, taunts 및 가짜 식이 포함 된 텍스트 항목 (더 공격적인 용어와 의미가 동일한 식 임)을 검색 합니다.
 - **다시 시작**: 지원자 개인, 교육, 전문가 자격, 작업 환경 및 기타 개인 식별 정보에 해당 하는 텍스트 계정인 항목을 검색 합니다.
-- **SourceCode**: 광범위 하 게 사용 되는 컴퓨터 프로그래밍 언어로 작성 된 지침 및 명령문 집합이 포함 되어 있는 항목을 검색 합니다.
+- **소스 코드**: GitHub에서 상위 25 사용 컴퓨터 프로그래밍 언어에 작성 된 지침 및 문 집합을 포함 하는 항목을 검색 합니다.
+
+|언어 이름|||||
+|---------|---------|---------|---------|---------|
+|ActionScript|C        |& #       |C + +     |Clojure  |
+|CoffeeScript|시트     |갈       |Haskell |HTML     |
+|Java     |JavaScript|Lua      |MATLAB   |목표-C|
+|Perl     |PHP      |Python   |이력서        |Ruby     |
+|Scala    |셸    |Swift    |Tex      |Vim 스크립트|
+
 - **Harassment**: 레이스, ethnicity, religion, 국립 근원, 성별, 성적 방향, 연령, 장애 등의 특성을 기반으로 하 여 한 명 이상의 개인이 대상으로 하는 공격적인 언어 텍스트 항목의 특정 범주를 감지 합니다.
 - **불경**: 대부분의 사용자를 embarrass 하는 식이 포함 된 공격적인 언어 텍스트 항목의 특정 범주를 감지 합니다.
 - **위협**: 사용자 또는 속성에 대 한 폭력을 커밋하거나 물리적인 손상을 주거나 위협에 관련 된 비속어 텍스트 항목의 특정 범주를 감지 합니다.

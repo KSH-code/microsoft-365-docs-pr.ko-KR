@@ -20,12 +20,12 @@ search.appverid:
 ms.assetid: e64ceac2-ae62-4d29-a9ee-6aab9870ae2b
 ROBOTS: NOINDEX
 description: 관리 센터에서 연락처를 만들고 전체 주소 목록을 관리 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: e1bb5c71a15c8e278b087339e469dcba50003795
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 44bd7319a369da84b8855c5d640b2797a173689e
+ms.sourcegitcommit: fe4beef350ef9f39b1098755cff46fa2b8e7dc4d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42248095"
+ms.lasthandoff: 03/19/2020
+ms.locfileid: "42857394"
 ---
 # <a name="quick-help-contacts"></a>빠른 도움말: 연락처
 
@@ -61,4 +61,4 @@ Windows PowerShell과 CSV(쉼표로 구분 된 값) 파일을 사용하여 [Bulk
   
 ## <a name="what-if-my-question-still-hasnt-been-answered"></a>여전히 질문에 대한 답변을 받지 못한 경우 어떻게 하나요?
 
-[관리자 도움말](../admin-home.md) 의 나머지 부분을 방문하거나 아래에서 피드백을 제공해 주세요.
+[관리자 도움말](../admin-home.yml) 의 나머지 부분을 방문하거나 아래에서 피드백을 제공해 주세요.

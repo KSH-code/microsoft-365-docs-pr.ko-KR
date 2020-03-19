@@ -2,8 +2,8 @@
 title: 격리 FAQ
 f1.keywords:
 - NOCSH
-ms.author: tracyp
-author: MSFTTracyP
+ms.author: chrisda
+author: chrisda
 manager: dansimp
 ms.date: ''
 audience: ITPro
@@ -15,62 +15,62 @@ search.appverid:
 ms.assetid: c440b2ac-cafa-4be5-ba4c-14278a7990ae
 ms.collection:
 - M365-security-compliance
-description: 이 항목에서는 호스팅되는 격리에 대한 질문과 대답을 제공합니다.
-ms.openlocfilehash: b4112bf785a6ee2f4c833ab08d2c199388585093
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+description: Office 365의 격리에 대 한 질문과 대답
+ms.openlocfilehash: 58800d5645241c2115356bc9899ce53302d1e37e
+ms.sourcegitcommit: fe4beef350ef9f39b1098755cff46fa2b8e7dc4d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41598665"
+ms.lasthandoff: 03/19/2020
+ms.locfileid: "42856908"
 ---
-# <a name="quarantine-faq"></a>격리 FAQ
+# <a name="quarantine-faq-in-office-365"></a>Office 365의 격리 FAQ
 
-이 항목에서는 호스팅되는 격리에 대한 질문과 대답을 제공합니다. 대답은 Microsoft Exchange Online 및 Exchange Online Protection 고객에게 해당됩니다.
+이 항목에서는 Exchange Online 사서함이 없는 Exchange Online 또는 독립 실행형 EOP (Exchange Online Protection) 고객의 사서함을 포함 하는 Office 365 고객의 격리에 대 한 질문과 대답을 제공 합니다.
 
- **Q. 격리에서 맬웨어 격리 메시지를 관리 하려면 어떻게 해야 하나요?**
+## <a name="q-how-do-i-manage-messages-that-were-quarantined-for-malware"></a>Q: 맬웨어로부터 격리 된 메시지는 어떻게 관리 하나요?
 
-격리로 전송 된 메시지를 보고 작업 하려면 맬웨어를 포함 하므로 보안 & 준수 센터를 사용 해야 합니다. 자세한 내용은 [Office 365에서 전자 메일 메시지 격리](quarantine-email-messages.md)를 참조 하세요.
+관리자만이 맬웨어로 격리 된 메시지를 관리할 수 있습니다. 자세한 내용은 [Office 365에서 격리 된 메시지 및 파일 관리로 관리자](manage-quarantined-messages-and-files.md)를 참조 하세요.
 
- **질문. 스팸으로 격리된 메시지를 격리로 보내도록 서비스를 구성하려면 어떻게 해야 합니까?**
+## <a name="q-how-do-i-quarantine-spam"></a>Q: 스팸을 격리 하려면 어떻게 해야 하나요?
 
-대답. 기본적으로 콘텐츠가 필터링된 메시지는 받는 사람의 정크 메일 폴더로 전송됩니다. 그러나 관리자는 스팸으로 격리된 메시지를 격리로 대신 보내도록 콘텐츠 필터 정책을 구성할 수 있습니다. 콘텐츠가 필터링 된 메시지에 대해 수행할 수 있는 다양 한 작업에 대 한 자세한 내용은 [스팸 필터 정책 구성을](configure-your-spam-filter-policies.md)참조 하십시오.
+대답. 기본적으로 스팸 필터링을 통해 스팸으로 분류 되는 메시지는 사용자의 사서함에 배달 되 고 정크 메일 폴더로 이동 됩니다. 그러나 스팸 또는 대량 전자 메일 메시지를 격리 하도록 스팸 방지 정책을 만들고 구성할 수 있습니다. 자세한 내용은 [Office 365에서 스팸 방지 정책 구성을](configure-your-spam-filter-policies.md)참조 하세요.
 
- **질문. 서비스에서 스팸으로 격리된 메시지를 관리자 및 최종 사용자가 관리할 수 있는 기능을 제공합니까?**
+## <a name="q-how-do-i-give-users-access-to-the-quarantine"></a>Q: 사용자에 게 격리에 대 한 액세스 권한을 부여 하려면 어떻게 해야 합니까?
 
-대답. 관리자는 SCC (보안 및 준수 센터)에서 격리 된 모든 전자 메일 메시지에 대 한 세부 정보를 검색 하 고 확인할 수 있습니다. 메시지를 찾은 후 특정 사용자에게 릴리스하고 원하는 경우 Microsoft 스팸 분석 팀에 가양성(정크 메일 아님)으로 보고할 수 있습니다. 자세한 내용은 [Office 365에서 격리 된 메시지 및 파일 관리로 관리자](manage-quarantined-messages-and-files.md)를 참조 하세요.
+대답. 격리에서 자체 메시지에 액세스 하려면 사용자에 게 유효한 계정이 있어야 합니다. 독립 실행형 EOP 사용자가 EOP (디렉터리 동기화를 통해 수동으로 만들어지거나 만들어짐)에서 메일 사용자로 표시 되어야 합니다. 독립 실행형 EOP 환경에서 사용자를 관리 하는 방법에 대 한 자세한 내용은 [Manage mail users IN EOP](manage-mail-users-in-eop.md)을 참조 하십시오.
 
-최종 사용자는 다음을 통해 스팸 격리된 메시지를 관리할 수 있습니다.
+## <a name="q-what-messages-can-end-users-access-in-quarantine"></a>Q: 사용자가 격리에서 액세스할 수 있는 메시지는 무엇입니까?
 
-- 스팸 격리 사용자 인터페이스입니다. 자세한 내용은 [Office 365의 사용자로 격리 된 메시지 찾기 및 릴리스](find-and-release-quarantined-messages-as-a-user.md)를 참조 하세요.
+대답. 사용자는 스팸, 대량 전자 메일에 액세스할 수 있으며, 2020 년 4 월에 해당 하 여 받는 사람 인 피싱 메시지가 전송 됩니다. 최종 사용자는 메일 흐름 규칙 (전송 규칙이 라고도 함)의 **호스트 된 격리 작업으로 메시지를 배달 하** 여 격리 된 맬웨어, 높은 신뢰도 피싱 또는 격리 되어 있는 메시지에 액세스할 수 없습니다. 격리 된 메시지에 액세스 하는 사용자에 대 한 자세한 내용은 [Office 365의 사용자로 격리 된 메시지 찾기 및 릴리스](find-and-release-quarantined-messages-as-a-user.md)를 참조 하세요.
 
- **Q. 최종 사용자의 격리에 대 한 액세스 권한을 부여 하려면 어떻게 해야 합니까?**
+## <a name="q-how-long-are-messages-kept-in-the-quarantine"></a>Q: 메시지가 격리에 보관 되는 기간
 
-대답. 최종 사용자 스팸 격리에 액세스 하려면 최종 사용자에 게 유효한 Office 365 사용자 ID 및 암호가 있어야 합니다. 온-프레미스 사서함을 보호 하는 EOP 고객은 디렉터리 동기화 또는 EAC를 통해 만든 유효한 전자 메일 사용자 여야 합니다. 사용자를 관리 하는 방법에 대 한 자세한 내용은 EOP 관리자가 [EOP에서 메일 사용자 관리](manage-mail-users-in-eop.md)를 참조할 수 있습니다. EOP 독립 실행형 고객의 경우 디렉터리 동기화 및 디렉터리 기반 Edge 차단을 사용 하는 것이 좋습니다. 자세한 내용은 [디렉터리 기반 Edge 차단을 사용 하 여 잘못 된 받는 사람에 게 보낸 메시지 거부](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-directory-based-edge-blocking)를 참조 하세요.
+대답. 스팸 방지 정책을 사용 하 여 스팸, 피싱 및 대량 전자 메일 메시지가 격리에 보관 되는 기간을 구성 합니다. 기본값은 30 일 이며 최대값 이기도 합니다. 자세한 내용은 [Office 365에서 스팸 방지 정책 구성](configure-your-spam-filter-policies.md) 를 참조 하세요.
 
- **Q. 사용자가 격리에서 액세스할 수 있는 메시지는 무엇입니까?**
+메일 흐름 규칙 작업에 의해 격리 된 메시지에 대해 **호스팅된 격리로**메시지를 배달 하면 메시지가 30 일 동안 격리 된 상태로 유지 됩니다. 이 기간을 구성할 수 없습니다.
 
-대답. 최종 사용자는 자신의 피싱, 스팸 및 대량 메일에 액세스할 수 있습니다. 최종 사용자는 자신의 맬웨어, 높은 신뢰도 피싱 또는 메일 흐름 규칙 (전송 규칙이 라고도 함)과 일치 하는 메시지에 액세스할 수 없습니다. 관리자 격리 에서만 사용할 수 있습니다. 
+기간이 만료 되 면 메시지가 삭제 되며 복구할 수 없습니다.
 
- **질문. 메시지는 얼마 동안 격리에 보관됩니까?**
+## <a name="q-can-i-release-or-report-more-than-one-quarantined-message-at-a-time"></a>Q: 한 번에 두 개 이상의 격리 된 메시지를 릴리스 또는 보고할 수 있나요?
 
-대답. 기본적으로 스팸 격리 메시지는 30 일 동안 격리 된 상태로 유지 되지만, 메일 흐름 규칙과 일치 하는 격리 된 메시지는 기본 콘텐츠 필터 정책에 설정 된 보존 기간을 기준으로 최대 30 일 동안 격리에 보관 됩니다. 이 기간 후에 메시지는 삭제되며 검색할 수 없게 됩니다. 메일 흐름 규칙과 일치 하는 격리 된 메시지의 보존 기간은 구성할 수 없습니다. 그렇지만 스팸 격리 메시지의 보존 기간은 콘텐츠 필터 정책의 **스팸 보존 기간(일)** 설정을 통해 줄일 수 있습니다. 자세한 내용은 [스팸 필터 정책 구성을](configure-your-spam-filter-policies.md) 참조하세요.
+대답. 보안 & 준수 센터에서는 메시지를 한 번에 최대 100 개까지 선택 하 고 릴리스할 수 있습니다.
 
- **Q. 한 번에 2개 이상의 격리된 메시지를 해제하거나 보고할 수 있습니까?**
+관리자는 Exchange Online PowerShell 또는 독립 실행형 Exchange Online Protection PowerShell의 [get-quarantinemessage](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/get-quarantinemessage) 및 [Release get-quarantinemessage](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/release-quarantinemessage) cmdlet을 사용 하 여 격리 된 메시지를 검색 하 고 일괄적으로 해제 하며, 가양성을 허위에 보고할 수 있습니다.
 
-A. 예, 격리 포털에서 한 번에 최대 100 개의 메시지를 릴리스할 수 있습니다. 또한 관리자는이 작업을 수행 하는 원격 Windows PowerShell 스크립트를 만들 수 있습니다. [Get-QuarantineMessage](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/get-quarantinemessage) cmdlet을 사용하여 메시지를 검색하고 [Release-QuarantineMessage](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/release-quarantinemessage) cmdlet을 사용하여 메시지를 해제할 수 있습니다.
+## <a name="q-are-wildcards-supported-when-searching-for-quarantined-messages-can-i-search-for-quarantined-messages-for-a-specific-domain"></a>Q: 격리 된 메시지를 검색할 때 와일드 카드를 지원 하나요? 특정 도메인에 대해 격리된 메시지를 검색할 수 있습니까?
 
- **질문. 격리된 메시지 검색 시 와일드카드가 지원됩니까? 특정 도메인에 대해 격리된 메시지를 검색할 수 있습니까?**
+대답. 보안 & 준수 센터에서는 와일드 카드가 지원 되지 않습니다. 예를 들어 보낸 사람을 검색할 때는 전체 전자 메일 주소를 지정 해야 합니다. 그러나 Exchange Online PowerShell 또는 Exchange Online Protection PowerShell에서 와일드 카드를 사용할 수 있습니다.
 
-대답. Exchange 관리 센터에서 검색 조건을 지정할 때는 와일드카드가 지원되지 않습니다. 예를 들어 보낸 사람을 검색할 때는 전체 전자 메일 주소를 지정해야 합니다.
-
-원격 Windows PowerShell을 통해 관리자는 [Get-QuarantineMessage](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/get-quarantinemessage) cmdlet을 지정하여 contoso.com과 같은 특정 도메인에 대해 격리된 메시지를 검색할 수 있습니다.
+예를 들어 contoso.com 도메인의 모든 보낸 사람 으로부터 격리 된 메시지를 찾으려면 다음 명령을 실행 합니다.
 
 ```powershell
-Get-QuarantineMessage | ? {$_.Senderaddress -like "*@contoso.com"}
+$CQ = Get-QuarantineMessage -Type Spam | where {$_.SenderAddress -like "*@contoso.com"}
 ```
 
-이 결과는 [Release-QuarantineMessage](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/release-quarantinemessage) cmdlet으로 전달될 수 있습니다. 메시지를 모든 받는 사람에게 릴리스하려면 -ReleaseToAll 매개 변수를 포함합니다. 메시지를 릴리스한 후에는 다시 릴리스할 수 없습니다.
+그런 다음 다음 명령을 실행 하 여 원래 받는 사람 모두에 게 해당 메시지를 릴리스 합니다.
 
 ```powershell
-Get-QuarantineMessage | ? {$_.Senderaddress -like "*@contoso.com"}
+$CQ | foreach {Release-QuarantineMessage -Identity $CQ.Identity -ReleaseToAll}
 ```
+
+메시지를 해제 한 후에는 다시 릴리스할 수 없습니다.

@@ -17,31 +17,30 @@ search.appverid:
 ms.assetid: 4c234874-015e-4768-8495-98fcccfc639b
 ms.collection:
 - M365-security-compliance
-description: 스팸, 대량, 피싱 메일 및 맬웨어로 필터링 된 받는 전자 메일 메시지를 나중에 검토할 수 있도록 Office 365에서 받는 전자 메일 메시지에 대 한 격리를 설정할 수 있습니다.
-ms.openlocfilehash: 280421457662dd30cdcc3c7985feaad7ba0d16f2
-ms.sourcegitcommit: 4986032867b8664a215178b5e095cbda021f3450
+description: Office 365에서 격리를 통해 위험할 수도 있고 원치 않는 메시지를 저장할 수 있습니다. 관리자 및 최종 사용자가 격리에 액세스할 수 있습니다.
+ms.openlocfilehash: 9c82ba9821c42fe6c3dd78dbcecf63327d176e93
+ms.sourcegitcommit: fe4beef350ef9f39b1098755cff46fa2b8e7dc4d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "41957433"
+ms.lasthandoff: 03/19/2020
+ms.locfileid: "42857312"
 ---
-# <a name="quarantine-email-messages-in-office-365"></a>Office 365 전자 메일 메시지 격리
+# <a name="quarantine-in-office-365"></a>Office 365의 격리
 
-전자 메일 365 메시지에 대해 격리를 설정 하 여 스팸, 대량 메일, 피싱 메일, 맬웨어를 포함 하는 메일 및 지정 된 메일 흐름 규칙 (trasport 규칙이 라고도 함)과 일치 하는 메일을 나중에 유지할 수 있습니다. 검토.
-  
-기본적으로 피싱, 맬웨어 및 메일 흐름 규칙에 따라 필터링 된 메시지는 격리로 전송 되 고, 스팸 및 대량 메일으로 필터링 된 메시지는 받는 사람의 정크 메일 폴더로 전송 됩니다. 관리자는 스팸 필터 정책 (콘텐츠 필터 정책이 라고도 함)을 설정 하 여 스팸 및 대량 메일 메시지를 격리에 보낼 수 있습니다. 자세한 내용은 [스팸 필터 정책 구성을](configure-your-spam-filter-policies.md) 참조하세요.
-  
-사용자와 관리자가 격리 된 메시지를 사용 하 여 작업할 수 있습니다. 사용자는 격리에서 필터링 된 메시지를 사용 하 여 작업할 수 있습니다. 관리자는 모든 사용자에 대해 격리 된 메시지를 검색 하 고 관리할 수 있습니다.
+Exchange online 사서함이 없는 Office 365 고객이 나 독립 실행형 EOP (Exchange Online Protection) 고객의 경우에는 격리를 사용 하 여 위험할 수도 있고 원치 않는 메시지를 저장할 수 있습니다.
 
-> [!NOTE]
-> 맬웨어, 높은 신뢰도 피싱 메시지 및 메일 흐름 규칙 작업에 의해 격리 된 메시지는 관리자 격리 에서만 사용할 수 있습니다. 사용자는 자신의 피싱, 스팸 및 대량 메일 메시지에 액세스할 수 있습니다. 
-  
-격리 된 메시지 작업에 대해 자세히 알아보세요.
-  
-- [관리자로 격리 된 메시지 관리](manage-quarantined-messages-and-files.md)
+맬웨어를 포함 하 *는 첨부 파일이 있는 경우* 맬웨어 방지 정책은 메시지를 자동으로 격리 합니다. 자세한 내용은 [Office 365에서 맬웨어 방지 정책 구성을](configure-anti-malware-policies.md)참조 하세요.
 
-- [사용자로 격리된 메시지 찾기 및 릴리스](find-and-release-quarantined-messages-as-a-user.md)
+기본적으로 스팸 방지 정책은 피싱 메시지를 격리 하 고 사용자의 정크 메일 폴더에 스팸 및 대량 전자 메일 메시지를 배달 합니다. 그러나 스팸 방지 정책을 만들고 사용자 지정 하 여 스팸을 격리 하 고 대량 전자 메일 메시지를 격리할 수도 있습니다. 자세한 내용은 [Office 365에서 스팸 방지 정책 구성을](configure-your-spam-filter-policies.md)참조 하세요.
 
-- [사용자 스팸 알림을 사용 하 여 스팸 격리 된 메시지 릴리스 및 보고](use-spam-notifications-to-release-and-report-quarantined-messages.md)
+사용자와 관리자가 격리 된 메시지를 사용 하 여 작업할 수 있습니다.
 
-- [격리 FAQ](quarantine-faq.md)
+- 관리자는 모든 사용자에 대해 격리 된 모든 유형의 메시지를 사용할 수 있습니다. 관리자만이 맬웨어, 높은 신뢰도 피싱 또는 메일 흐름 규칙 (전송 규칙이 라고도 함)의 결과로 격리 된 메시지를 사용할 수 있습니다. 자세한 내용은 [Office 365에서 격리 된 메시지 및 파일 관리로 관리자](manage-quarantined-messages-and-files.md)를 참조 하세요.
+
+- 사용자는 메시지가 스팸으로, 대량 전자 메일 또는 (4 월, 2020) 피싱 메일로 격리 된 경우 받는 사람 인 격리 된 메시지를 사용 하 여 작업할 수 있습니다. 자세한 내용은 [Office 365의 사용자로 격리 된 메시지 찾기 및 릴리스](find-and-release-quarantined-messages-as-a-user.md)를 참조 하세요.
+
+  사용자가 격리 된 자체 피싱 메시지를 관리 하지 못하도록 하기 위해 관리자는 스팸 방지 정책에서 **피싱 전자 메일** 필터링 결과에 대해 다른 작업을 구성할 수 있습니다. 자세한 내용은 [Office 365에서 스팸 방지 정책 구성을](configure-your-spam-filter-policies.md)참조 하세요.
+
+- 관리자 및 사용자는 차단 되는 Microsoft에 가양성을 보고할 수 있습니다.
+
+격리에 대 한 자세한 내용은 [격리 FAQ](quarantine-faq.md)를 참조 하세요.

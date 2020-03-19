@@ -24,29 +24,29 @@ search.appverid:
 - BEA160
 - GEA150
 ms.assetid: 5480fc33-dd47-41e7-bcfb-b2533efdb92a
-description: '비즈니스용 Office 365 구독에 대 한 주요 답변을 확인할 수 있습니다. '
-ms.openlocfilehash: 5f889c9f402d059dc068e987eb4384a58d0e4fe2
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+description: 비즈니스 구독에 대 한 주요 대금 청구 질문에 대 한 답변을 확인할 수 있습니다.
+ms.openlocfilehash: 661339518f43531f656ee9960d7f005fd1398023
+ms.sourcegitcommit: 2859c82b30ae9cbd3a3e4bcdebd65f18444f1a9e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42246433"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "42826304"
 ---
-# <a name="top-billing-questions-for-office-365-for-business"></a>비즈니스용 Office 365에 대 한 주요 대금 청구 질문
+# <a name="top-billing-questions-for-business-subscriptions"></a>비즈니스 구독에 대 한 주요 청구 관련 질문
 
 청구 내역에 대 한 질문이 있나요? 다음은 주요 청구 질문에 대 한 대답입니다.
   
-질문에 대 한 답변을 찾을 수 없거나 청구서에 문제가 있는 경우 [지원 서비스에 문의](../../admin/contact-support-for-business-products.md) 하세요. 
+질문에 대 한 답변을 찾을 수 없거나 청구서에 문제가 있는 경우 [지원 서비스에 문의](../../admin/contact-support-for-business-products.md) 하세요.
   
 ::: moniker range="o365-worldwide"
 
-청구서에 표시 되는 요금을 해석 하거나 사용 된 용어를 이해 하는 데 도움이 필요한 경우 [Office 365 for business에 대 한 청구서 이해](understand-your-invoice2.md)를 참조 하세요.
+청구서에 표시 되는 요금을 해석 하거나 사용 된 용어를 이해 하는 데 도움이 필요한 경우 [청구서 이해](understand-your-invoice2.md)를 참조 하세요.
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-청구서에 표시 되는 요금을 해석 하거나 사용 된 용어를 이해 하는 데 도움이 필요한 경우 [Office 365 for business에 대 한 청구서 이해](understand-your-invoice2.md)를 참조 하세요.
+청구서에 표시 되는 요금을 해석 하거나 사용 된 용어를 이해 하는 데 도움이 필요한 경우 [청구서 이해](understand-your-invoice2.md)를 참조 하세요.
 
 ::: moniker-end
 
@@ -57,13 +57,13 @@ ms.locfileid: "42246433"
 대금 청구 지원은 영어로 제공 되며, 월요일-금요일, 오전 6 시에서 오후 5 시까지 (UTC-8), 호주 오전 5 시에서 오후 9 시 (UTC + 8)로 표시 됩니다.
   
 - 미국의 경우 1 (800) 865-9408을 호출 합니다.
-    
+
 - 오스트레일리아에서 1 (800) 197-503을 호출 합니다.
-    
+
 - 캐나다에서 1 (800) 865-9408을 호출 합니다.
-    
+
 - 영국에서 0 (800) 032-6417를 호출 합니다.
-    
+
 국가 또는 지역별 연락처 전화 번호에 대 한 자세한 내용은 [비즈니스 제품 지원 서비스](../../admin/contact-support-for-business-products.md)를 참조 하십시오.
   
 ::: moniker-end
@@ -73,7 +73,7 @@ ms.locfileid: "42246433"
 청구 지원은 독일어와 영어로 제공 되며, 오전 9 시부터 오후 5 시 (UTC + 1)로 표시 됩니다.
   
 - 독일에서 0800 589 2330를 호출 합니다.
-    
+
 국가 또는 지역별 기타 연락처 전화 번호에 대 한 자세한 내용은 [비즈니스 제품 지원에 문의 하세요](../../admin/contact-support-for-business-products.md).
   
 ::: moniker-end
@@ -87,31 +87,31 @@ ms.locfileid: "42246433"
 ::: moniker range="o365-worldwide"
 ## <a name="how-do-i-update-my-credit-card-or-bank-account-information"></a>신용 카드 또는 은행 계좌 정보를 업데이트 하려면 어떻게 해야 합니까?
 
-[비즈니스용 Office 365에서 신용 카드 또는 은행 계좌 추가, 업데이트 또는 제거](add-update-or-remove-credit-card-or-bank-account.md)를 참조 하세요.
+[결제 방법 관리](manage-payment-methods.md)를 참조 하세요.
   
 > [!NOTE]
-> 은행 계좌를 통한 결제는 일부 국가나 지역에서는 사용할 수 없습니다. 
+> 은행 계좌를 통한 결제는 일부 국가나 지역에서는 사용할 수 없습니다.
   
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 ## <a name="how-do-i-update-my-credit-card-or-bank-account-information"></a>신용 카드 또는 은행 계좌 정보를 업데이트 하려면 어떻게 해야 합니까?
 
-[비즈니스용 Office 365에서 신용 카드 또는 은행 계좌 추가, 업데이트 또는 제거](add-update-or-remove-credit-card-or-bank-account.md)를 참조 하세요.
+[결제 방법 관리](manage-payment-methods.md)를 참조 하세요.
   
 > [!NOTE]
-> 은행 계좌를 통한 결제는 일부 국가나 지역에서는 사용할 수 없습니다. 
+> 은행 계좌를 통한 결제는 일부 국가나 지역에서는 사용할 수 없습니다.
   
 ::: moniker-end
 
 ## <a name="can-i-change-the-method-i-use-to-pay-for-my-subscription"></a>구독 요금을 지불 하는 데 사용 하는 방법을 변경할 수 있나요?
 
-예. [비즈니스에 대 한 결제 365 방법 변경 method.md]을 참조 하십시오.
+예. [결제 방법 변경을](change-payment-method.md)참조 하세요.
   
 ::: moniker range="o365-worldwide"
 ## <a name="can-i-change-how-frequently-i-pay-for-my-subscription"></a>구독에 대해 지불할 빈도를 변경할 수 있나요?
 
-예, 그러나 [지원 서비스에 문의](../../admin/contact-support-for-business-products.md) 해야 합니다. 
+예, 그러나 [지원 서비스에 문의](../../admin/contact-support-for-business-products.md) 해야 합니다.
 
 ::: moniker-end
 
@@ -121,11 +121,11 @@ ms.locfileid: "42246433"
 예. 청구 내역을 전자 메일 첨부 파일로 사용 하려면 다음 단계를 수행 합니다.
   
 1. Microsoft 365 관리 센터에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=853212" target="_blank">청구 알림</a> 페이지로 이동 하거나 **대금** \> 청구 **알림을**선택 합니다.
-    
+
 2. **청구 내역을 전자 메일 첨부 파일로 받기?** 에서 켜기/끄기를 **설정으로 전환 합니다.**
-    
+
     언제든지 토글을 **해제**로 전환하여 청구서 전자 메일 수신을 중지할 수 있습니다.
-    
+
 ::: moniker-end
 
 ::: moniker range="o365-germany"
@@ -134,11 +134,11 @@ ms.locfileid: "42246433"
 예. 청구 내역을 전자 메일 첨부 파일로 사용 하려면 다음 단계를 수행 합니다.
   
 1. 관리 센터에서 **대금 청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=853213" target="_blank">알림</a> 페이지로 이동 합니다.
-    
+
 2. **청구 내역을 전자 메일 첨부 파일로 받기?** 에서 켜기/끄기를 **설정으로 전환 합니다.**
-    
+
     언제든지 토글을 **해제**로 전환하여 청구서 전자 메일 수신을 중지할 수 있습니다.
-    
+
 ::: moniker-end
 
 ## <a name="how-do-i-cancel-a-subscription"></a>구독을 취소 하려면 어떻게 해야 합니까?
@@ -151,13 +151,13 @@ ms.locfileid: "42246433"
   
 ::: moniker range="o365-worldwide"
 
-[비즈니스용 Office 365에 대 한 청구서 또는 송장 보기](view-your-bill-or-invoice.md)를 참조 하세요.
+[청구서 또는 송장 보기를](view-your-bill-or-invoice.md)참조 하세요.
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-[비즈니스용 Office 365에 대 한 청구서 또는 송장 보기](view-your-bill-or-invoice.md)를 참조 하세요.
+[청구서 또는 송장 보기를](view-your-bill-or-invoice.md)참조 하세요.
 
 ::: moniker-end
 
@@ -167,32 +167,31 @@ ms.locfileid: "42246433"
 
 ::: moniker-end
 
-  
 ::: moniker range="o365-worldwide"
 ## <a name="what-taxes-will-i-be-charged"></a>어떤 세금을 부과할 것인가?
 
-국가 또는 지역에 따라 어떤 세금을 지불 해야 하나요? 요금이 부과 되 [365는](what-tax-will-i-be-charged.md) 세금을 확인 하세요. 
+국가 또는 지역에 따라 요금이 부과 [되는](tax-information.md#what-tax-will-i-be-charged) 세금을 확인할 수 있습니다.
   
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 ## <a name="what-taxes-will-i-be-charged"></a>어떤 세금을 부과할 것인가?
 
-국가 또는 지역에 따라 어떤 세금을 지불 해야 하나요? 요금이 부과 되 [365는](what-tax-will-i-be-charged.md) 세금을 확인 하세요. 
+국가 또는 지역에 따라 요금이 부과 [되는](tax-information.md#what-tax-will-i-be-charged) 세금을 확인할 수 있습니다.
   
 ::: moniker-end
 
 ::: moniker range="o365-worldwide"
 ## <a name="how-do-i-apply-for-tax-exempt-status"></a>세금 면제 상태를 어떻게 적용 하나요?
 
-지원에 대 한 적절 한 설명서를 제공 하 여 [Office 365 비즈니스에 대 한 세금 면제 상태를 적용할](apply-for-tax-exempt-status.md) 수 있습니다. 
+지원에 대 한 적절 한 설명서를 제공 하 여 [세금 면제 상태를 적용할](tax-information.md#apply-for-tax-exempt-status) 수 있습니다.
   
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 ## <a name="how-do-i-apply-for-tax-exempt-status"></a>세금 면제 상태를 어떻게 적용 하나요?
 
-지원에 대 한 적절 한 설명서를 제공 하 여 [Office 365 비즈니스에 대 한 세금 면제 상태를 적용할](apply-for-tax-exempt-status.md) 수 있습니다. 
+지원에 대 한 적절 한 설명서를 제공 하 여 [세금 면제 상태를 적용할](tax-information.md#apply-for-tax-exempt-status) 수 있습니다.
   
 ::: moniker-end
 
@@ -204,7 +203,7 @@ ms.locfileid: "42246433"
   
 2. 청구서의 PDF 복사본을 인쇄 하거나 저장 하려면 **송장 Pdf 다운로드**를 선택 하 고 pdf를 인쇄 합니다.
 
-자세한 내용은 [비즈니스용 Office 365의 청구서 또는 송장 보기](view-your-bill-or-invoice.md)를 참조 하세요.
+자세한 내용은 [청구서 또는 송장 보기](view-your-bill-or-invoice.md)를 참조 하세요.
 
 ::: moniker-end
 
@@ -214,7 +213,7 @@ ms.locfileid: "42246433"
   
 2. 청구서의 PDF 복사본을 인쇄 하거나 저장 하려면 **송장 Pdf 다운로드**를 선택 하 고 pdf를 인쇄 합니다.
 
-자세한 내용은 [비즈니스용 Office 365의 청구서 또는 송장 보기](view-your-bill-or-invoice.md)를 참조 하세요.
+자세한 내용은 [청구서 또는 송장 보기](view-your-bill-or-invoice.md)를 참조 하세요.
 
 ::: moniker-end
 
@@ -230,4 +229,4 @@ ms.locfileid: "42246433"
 
 ## <a name="why-dont-i-see-any-bills"></a>어떤 자재 명세서도 표시 되지 않는 이유는 무엇 인가요?
 
-평가판 구독만 있거나 소매점에서 구입한 선불 제품 키 또는 Office 365 파트너를 사용 하는 경우에는 청구서가 없습니다.
+평가판 구독이 있거나 소매점에서 구입한 선불 제품 키를 사용 하거나 파트너가 보낸 경우에는 요금을 지불 하지 않아도 됩니다.

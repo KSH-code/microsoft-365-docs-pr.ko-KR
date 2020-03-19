@@ -25,12 +25,12 @@ search.appverid:
 - MOE150
 ms.assetid: 6383f56d-3d09-4dcb-9b41-b5f5a5efd611
 description: DNS 호스트에서 DNS 레코드를 추가 하 여 Microsoft 365 관리 센터에서 Office 365에 도메인을 추가 합니다. 설치 마법사가 프로세스를 안내 합니다.
-ms.openlocfilehash: 4170fd74ae734a6fda9e535c17086997b1db6f6b
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 86ca8f986624ad37f780961cb58923ea0a1b2308
+ms.sourcegitcommit: fe4beef350ef9f39b1098755cff46fa2b8e7dc4d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42247919"
+ms.lasthandoff: 03/19/2020
+ms.locfileid: "42857382"
 ---
 # <a name="add-a-domain-to-office-365"></a>Office 365에 도메인 추가
 
@@ -112,4 +112,4 @@ ms.locfileid: "42247919"
 
 [도메인 설정(호스트별 지침)](../get-help-with-domains/set-up-your-domain-host-specific-instructions.md)
 
-[Office 365 도메인에 대 한 도움말 보기](../get-help-with-domains/get-help-with-domains.md)
+[Office 365 도메인에 대 한 도움말 보기](../get-help-with-domains/get-help-with-domains.yml)

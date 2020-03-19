@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 2b653575e9e79ffe3448f622ca5be2cef37999dd
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: c482e46cf51cbf11960c02663221df0c136b067c
+ms.sourcegitcommit: fe4beef350ef9f39b1098755cff46fa2b8e7dc4d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42633956"
+ms.lasthandoff: 03/19/2020
+ms.locfileid: "42857182"
 ---
 # <a name="microsoft-threat-protection-prerequisites"></a>Microsoft 위협 방지 필수 구성 요소
 
@@ -34,12 +34,20 @@ ms.locfileid: "42633956"
 Microsoft Threat Protection을 프로 비전 하 고 사용 하기 위한 라이선스, 하드웨어 및 소프트웨어 요구 사항 및 기타 구성 설정에 대해 알아봅니다.
 
 ## <a name="licensing-requirements"></a>라이선스 요구 사항
-Microsoft Threat Protection을 사용 하려면 다음 라이선스 또는 라이선스 조합 중 *하나가* 필요 합니다.
+Microsoft Threat Protection을 사용 하려면 단일 라이선스 또는 라이선스 조합이 필요 합니다.
 
-- Microsoft 365 E5
-- Microsoft 365 E5 Security
-- Office 365 E5 및 "Enterprise Mobility + Security E5 (EMS E5)" 및 Windows E5
-- Microsoft 365 A5
+### <a name="single-license"></a>단일 라이선스
+다음 라이선스 *중 하나* 를 사용할 수 있습니다.
+
+- Microsoft 365 E5 또는 A5
+- Microsoft 365 E5 보안 또는 A5 보안
+
+### <a name="combination-of-licenses"></a>라이선스 조합
+Office 365, *EMS (Enterprise Mobility + Security)* 및 Windows에 대해 E5 또는 A5 구독에 대해 라이선스 조합을 사용할 수도 있습니다. 라이선스 조합에는 다음 라이선스가 *모두* 포함 되어야 합니다.
+
+- Office 365 E5 또는 A5
+- *EMS (Enterprise Mobility + Security)* E5 또는 A5
+- Windows E5 또는 A5
 
 자세한 내용은 [Microsoft 365 Enterprise 서비스 요금제를 참조](https://www.microsoft.com/licensing/product-licensing/microsoft-365-enterprise)하세요.
 

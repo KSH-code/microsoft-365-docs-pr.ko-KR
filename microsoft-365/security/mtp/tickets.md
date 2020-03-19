@@ -17,12 +17,12 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 240e153c43c7dc52d67d35eeca36def2f76b08e2
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 904c1a019c55cabce6856a7caaca73d08d6db3f7
+ms.sourcegitcommit: 841c06a5d566d404c35d5e9c0c7de5088daab976
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42086945"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "42836883"
 ---
 # <a name="manage-tickets-through-servicenow"></a>ServiceNow를 통해 티켓 관리
 
@@ -141,6 +141,10 @@ ServiceNow에서 사용자 **> 관리 > 사용자**로 이동 하 고 자신에 
 
 1. Azure Active Directory에서 보안 관리자 권한을 가진 사용자를 만듭니다. 사용자는 설치 검사 목록에서 만든 통합 사용자와 이름 및 전자 메일 주소를 모두 사용 해야 합니다. 로그인 및 연결이 완료 되 면 보안 관리자 역할을 제거할 수 있습니다.
 2. 이 사용자로 Microsoft 365 보안 센터에 로그인 하 고 설치 단계를 따릅니다.
+
+### <a name="ip-filtering"></a>IP 필터링
+
+IP 필터링을 사용 하도록 설정한 경우 IP 주소를 명시적으로 허용 해야 할 수 있습니다. ServiceNow에서 IP 범위를 허용 하는 방법에 대 한 자세한 내용은 [Ip 주소 액세스 제어](https://docs.servicenow.com/bundle/orlando-platform-administration/page/administer/login/task/t_AccessControl.html) 를 참조 하세요. 허용할 IP 주소 목록은 [AZURE IP 범위 및 서비스 태그-공용 클라우드](https://www.microsoft.com/en-us/download/details.aspx?id=56519) 를 참조 하세요.
 
 ### <a name="installation-is-complete-but-dont-see-tickets-and-cant-share"></a>설치가 완료 되었지만 티켓이 표시 되지 않으며 공유할 수 없음
 

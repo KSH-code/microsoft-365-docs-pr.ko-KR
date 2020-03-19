@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 8275da91-7a48-4591-94ab-3123a3f79530
 description: 'Office 365의 기본 테마를 변경 하 고 회사 로고나 색과 일치 하도록 사용자 지정 하는 방법을 알아봅니다. '
-ms.openlocfilehash: fc50519190abe1b827bd3a5f93a6a82f8c22f0b6
-ms.sourcegitcommit: 72983702a42552a29228d387bb279e8ff2ab59b4
+ms.openlocfilehash: c553e5254246bd81d435b4ebc2be2e975dd80a9d
+ms.sourcegitcommit: 2859c82b30ae9cbd3a3e4bcdebd65f18444f1a9e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "42640030"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "42826335"
 ---
 # <a name="customize-the-office-365-theme-for-your-organization"></a>조직의 Office 365 테마 사용자 지정
 
@@ -64,9 +64,9 @@ Microsoft 365 관리 센터에서 테마를 사용자 지정 하는 방법에 �
     
 4. **변경 내용 저장**을 선택합니다.
     
-이제 관리 센터에서 새 테마를 즉시 확인할 수 있으며 잠시 후에 Outlook, SharePoint 및 iOS 및 Android 용 SharePoint 모바일 앱의 페이지를 포함 하 여 Office 365 전체에 표시 됩니다. 다음 그림에서는 Sharepoint 모바일 앱에 대해 사용자 지정할 수 있는 테마 요소를 보여 줍니다.
+관리 센터에서 새 테마를 즉시 확인할 수 있으며 잠시 후에 Outlook, SharePoint, [iOS 용 sharepoint 모바일 앱](https://support.office.com/en-us/article/SharePoint-mobile-app-for-iOS-339402ce-16bb-4c97-9475-0c5375ccef7a), [Android 용 sharepoint 모바일 앱](https://support.office.com/en-us/article/SharePoint-mobile-app-for-Android-d875654b-fb0a-4dbe-a17a-a676cf936284)의 페이지를 포함 하 여 Office 365 전체에서 해당 테마가 표시 됩니다. 관리 센터에서 테마 변경 내용을 사용자 지정 하는 방법의 예제를 보려면 다음 그래픽을 참조 하십시오.
 
-![SharePoint 모바일 앱에 대 한 기본 Office 365 테마 및 사용자 지정 Office 365 테마]()
+![m365-관리-테 넌 트-개념-개념적](../../media/m365-admin-tenant-theme-conceptual.png)
 
 언제 든 지 사용자 지정 아이콘 또는 사용자 지정 색을 제거할 수 있습니다. 테마 페이지로 돌아가서 **사용자 지정 테마 제거**를 선택 하면 됩니다.
   

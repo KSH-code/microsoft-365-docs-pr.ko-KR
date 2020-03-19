@@ -15,12 +15,12 @@ search.appverid:
 ms.collection: M365-security-compliance
 description: Office 365 Advanced Threat Protection 계획 2의 자동화 된 조사 및 응답 기능에 대 한 개요를 확인 하세요.
 ms.custom: air
-ms.openlocfilehash: 341d950f81d0d74deab901f0e5af24a559c0f342
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: 420143a6a2888900cdc128b22f7b0bcb05adad27
+ms.sourcegitcommit: 2859c82b30ae9cbd3a3e4bcdebd65f18444f1a9e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42633826"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "42826406"
 ---
 # <a name="automated-investigation-and-response-air-in-office-365"></a>Office 365의 자동화 된 조사 및 응답 (AIR)
 
@@ -30,7 +30,7 @@ ms.locfileid: "42633826"
 
 ## <a name="at-a-high-level"></a>높은 수준
 
-알림이 트리거되면 보안 playbook가 적용 됩니다. 상황에 따라 [자동화 된 조사 프로세스](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air) 를 시작할 수 있습니다. 자동화 된 조사 중 및 후에는 [업데이트 관리 작업](air-remediation-actions.md) 을 수행 하는 것이 좋습니다. Office 365 Advanced Threat Protection에서는 아무 작업도 자동으로 수행 되지 않습니다. 보안 운영 팀에서 각 수정 작업을 검토 하 고 [승인 하거나 거부](air-remediation-actions.md#approve-or-reject-pending-actions)하 고,이 작업이 완료 되 면 각 조사가 완료 됩니다. 이러한 모든 활동은 모든 Office 365 보안 & 준수 센터에서 추적 및 볼 수 있습니다 ( [자세한 내용은 보기 세부 정보](air-view-investigation-results.md#view-details-of-an-investigation)참조).
+알림이 트리거되면 보안 playbook가 적용 됩니다. 상황에 따라 [자동화 된 조사 프로세스](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air) 를 시작할 수 있습니다. 자동화 된 조사 중 및 후에는 [업데이트 관리 작업](air-remediation-actions.md) 을 수행 하는 것이 좋습니다. Office 365 Advanced Threat Protection에서는 아무 작업도 자동으로 수행 되지 않습니다. 보안 운영 팀에서 각 수정 작업을 검토 하 고 [승인 하거나 거부](air-review-approve-pending-completed-actions.md)하 고,이 작업이 완료 되 면 각 조사가 완료 됩니다. 이러한 모든 활동은 모든 Office 365 보안 & 준수 센터에서 추적 및 볼 수 있습니다 ( [자세한 내용은 보기 세부 정보](air-view-investigation-results.md#view-details-of-an-investigation)참조).
 
 다음 섹션에서는 경고, 보안 playbooks 및 작업 중인 AIR의 예에 대 한 자세한 정보를 제공 합니다.
 

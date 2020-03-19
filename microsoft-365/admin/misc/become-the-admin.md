@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: b9707ec8-2247-4e25-9bad-f11ddbc686e4
 description: Office 365에서 관리 되지 않는 테 넌 트를 사용 하도록 전자 메일 및 도메인 소유권을 확인 하는 방법을 알아봅니다.
-ms.openlocfilehash: e3c89e122264808e2a8631c07269ea263c87fdaa
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 0f7932b9ba727db62f81ac15b99a5f5ca276f09f
+ms.sourcegitcommit: fe4beef350ef9f39b1098755cff46fa2b8e7dc4d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42248102"
+ms.lasthandoff: 03/19/2020
+ms.locfileid: "42857406"
 ---
 # <a name="perform-an-internal-admin-takeover-in-office-365"></a>Office 365에서 내부 관리자 인수을 수행 합니다.
 
@@ -71,7 +71,7 @@ Youtube: [Power BI 및 Office 365에 대한 IT 관리자 인수를 수행하는 
 
 [Azure AD의 관리 인수](https://docs.microsoft.com/azure/active-directory/users-groups-roles/domains-admin-takeover)
 
-[Office 365 도메인에 대 한 도움말 보기](../get-help-with-domains/get-help-with-domains.md)
+[Office 365 도메인에 대 한 도움말 보기](../get-help-with-domains/get-help-with-domains.yml)
 
 [조직에서 셀프 서비스 등록 사용](self-service-sign-up.md)
   
