@@ -47,12 +47,14 @@
           href: get-ready/prerequisites.md
         - name: 네트워크 준비
           href: get-ready/network.md
-        - name: Microsoft Managed Desktop의 온-프레미스 리소스 액세스 준비
+        - name: 온-프레미스 리소스 액세스 준비
           href: get-ready/authentication.md
-        - name: Microsoft Managed Desktop의 매핑된 드라이브 준비
+        - name: 매핑된 드라이브 준비
           href: get-ready/mapped-drives.md
-        - name: Microsoft Managed Desktop 인증서 및 네트워크 프로필 준비
+        - name: 인증서 및 네트워크 프로필 준비
           href: get-ready/certs-wifi-lan.md
+        - name: 인쇄 리소스 준비
+          href: get-ready/printing.md
         - name: 앱 준비
           href: get-ready/apps.md
           items:

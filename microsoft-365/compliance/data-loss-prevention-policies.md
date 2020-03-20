@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: 보안 &amp; 준수 센터의 DLP(데이터 손실 방지) 정책을 사용하여 Office 365 전체의 중요한 정보를 식별하고 모니터링하며 자동으로 보호할 수 있습니다.
-ms.openlocfilehash: 722afcb7bdebb6004d9a7ab365ac6038fe1d31a4
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: 574a3376aa54311db3edc581e0a3e602cb1ac383
+ms.sourcegitcommit: 2859c82b30ae9cbd3a3e4bcdebd65f18444f1a9e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42635096"
+ms.lasthandoff: 03/18/2020
+ms.locfileid: "42826293"
 ---
 # <a name="overview-of-data-loss-prevention"></a>데이터 손실 방지 개요
 <!-- this topic needs to be split into smaller, more coherent ones. It is confusing as it is. -->
@@ -179,6 +179,8 @@ DLP 정책이 신용 카드 번호와 같은 중요한 정보 유형을 찾을 �
 규칙이 일치하면 규정 준수 책임자(또는 다른 사용자)에게 사고 보고서와 이벤트에 대한 세부 정보를 보낼 수 있습니다. 이 보고서에는 일치된 항목에 관한 정보, 규칙과 일치한 실제 콘텐츠, 해당 콘텐츠를 마지막으로 수정한 사람이 포함됩니다. 전자 메일 메시지의 경우 보고서에는 DLP 정책과 일치하는 원본 메시지가 첨부 파일로 포함되어 있습니다.
   
 ![사고 보고서를 구성하기 위한 페이지](../media/31c6da0e-981c-415e-91bf-d94ca391a893.png)
+
+DLP는 SharePoint Online 또는 비즈니스용 OneDrive의 항목과는 다른 방식으로 전자 메일을 검사합니다. SharePoint Online 및 비즈니스용 OneDrive에서 DLP는 기존 항목을 비롯하여 새 항목을 검사하고 일치하는 항목이 발견될 때마다 인시던트 보고서를 생성합니다. Exchange Online에서 DLP는 새 전자 메일 메시지만 검사하고 정책 일치 항목이 있는 경우에 보고서를 생성합니다. DLP는 사서함이나 보관함에 저장된 기존 전자 메일 항목을 검색하거나 일치시키지 ***않습니다.***
   
 ## <a name="grouping-and-logical-operators"></a>그룹화 및 논리 연산자
 
