@@ -1,8 +1,7 @@
 ---
 title: Office 365 그룹 거 버 넌 스 계획
 ms.reviewer: johasand
-f1.keywords:
-- NOCSH
+f1.keywords: NOCSH
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
@@ -20,12 +19,12 @@ search.appverid:
 - MOE150
 - BSA160
 description: Office 365 그룹 거 버 넌 스를 계획 하는 방법을 알아봅니다.
-ms.openlocfilehash: b79da69995446aa7e61eea4d836e322743a7d2bb
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 2608f3803e13319a349e9a915392778b9793e847
+ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42352909"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42894736"
 ---
 # <a name="plan-for-governance-in-office-365-groups"></a>Office 365 그룹에서 거버넌스를 계획합니다.
 
@@ -42,16 +41,16 @@ Office 365 그룹은 사용자에 게 도움을 주며, 공동 작업에 필요�
 
 ## <a name="technical-architecture"></a>기술 아키텍처
 
-Office 365 그룹에서는 세 가지 주요 통신 형식 지원 됩니다. 이러한 환경 내에서 그룹을 만들고 Office 365 제품군에서 사용할 수 있습니다.
-- [Outlook](https://support.office.com/article/learn-about-office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2): 공유 그룹 받은 편지함 및 일정을 사용 하 여 전자 메일 공동 작업
-- [Microsoft 팀](https://support.office.com/article/learn-about-office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2): 다양 한 주제에 대 한 비공식적인 실시간 대화를 포함할 수 있는 지속적인 채팅 기반 작업 영역으로, 특정 하위 그룹으로 구성 됩니다.
-- [Yammer](https://support.office.com/article/learn-about-office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2): 공동 작업용 엔터프라이즈 소셜 환경
+Office 365 그룹에서 지 원하는 주요 통신 방법에는 세 가지가 있습니다. 이러한 환경 내에서 그룹을 만들고 Office 365에서 사용할 수 있습니다.
+- Outlook: 공유 그룹 받은 편지함 및 일정을 사용 하 여 전자 메일 공동 작업
+- Microsoft 팀: 다양 한 주제에 대 한 비공식적인 실시간 대화를 포함할 수 있는 지속적인 채팅 기반 작업 영역으로, 특정 하위 그룹으로 구성 됩니다.
+- Yammer: 공동 작업용 엔터프라이즈 소셜 환경
 
 > [!NOTE]
-> SharePoint, Planner 또는 Stream과 같은 다른 팀 작업 응용 프로그램을 통해 새 그룹을 만들면 Microsoft 팀에 연결 하는 기능을 사용 하 여 Outlook 통신을 사용 하 여 그룹을 만들 수 있습니다.
+> SharePoint, Planner 또는 Stream과 같은 다른 팀 작업 응용 프로그램을 통해 새 그룹을 만들면 Outlook 받은 편지함 및 Microsoft 팀에 연결 하는 기능을 사용 하 여 그룹을 만들 수 있습니다.
 
 그룹을 만든 위치에 따라 다음과 같은 특정 리소스가 자동으로 프로 비전 됩니다.
-- [받은 편지함](https://support.office.com/article/have-a-group-conversation-in-outlook-a0482e24-a769-4e39-a5ba-a7c56e828b22) -구성원 간의 전자 메일 대화에 사용 됩니다. 이 받은 편지함에는 전자 메일 주소가 있으며, 기존 메일 그룹과 같이 그룹 외부에 있는 사람이 나 조직 외부의 메시지를 수락 하도록 설정할 수 있습니다.
+- [받은 편지함](https://support.office.com/article/have-a-group-conversation-in-outlook-a0482e24-a769-4e39-a5ba-a7c56e828b22) -그룹 구성원 간의 전자 메일 대화에 사용 됩니다. 이 받은 편지함에는 전자 메일 주소가 있으며, 기존 메일 그룹과 같이 그룹 외부에 있는 사람이 나 조직 외부의 메시지를 수락 하도록 설정할 수 있습니다.
  - [일정](https://support.office.com/article/schedule-a-meeting-on-a-group-calendar-in-outlook-0cf1ad68-1034-4306-b367-d75e9818376a) -그룹과 관련 된 이벤트 예약
 - [SharePoint 팀 사이트](https://support.office.com/article/what-is-a-sharepoint-team-site-75545757-36c3-46a7-beed-0aaa74f0401e) -그룹에 관련 된 정보, 링크 및 콘텐츠를 위한 중앙 리포지토리입니다.
 - [SharePoint 문서 라이브러리](https://support.office.com/article/share-group-files-749bc73b-90c9-4760-9b6f-9aa1cf01b403) -그룹이 파일을 저장 하 고 공유할 수 있는 중앙 위치입니다.
@@ -63,15 +62,12 @@ Office 365 그룹에서는 세 가지 주요 통신 형식 지원 됩니다. 이
 각 그룹에 대해 만들어지는 리소스에 대해 자세히 알아보려면 [Office 365 그룹에 대 한](https://support.office.com/article/learn-about-office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2)자세한 정보를 참조 하세요.
 
 > [!NOTE]
-> Yammer 또는 팀을 통해 새 Office 365 그룹을 만드는 경우 해당 사용자 간의 기본 통신은 해당 클라이언트에서 발생 하므로 Outlook 또는 주소록에 그룹이 표시 되지 않습니다.
-
-> [!IMPORTANT]
-> 새 Yammer 그룹을 만들면 Office 365 그룹이 그룹 사서함 또는 달력 리소스를 만들지 않습니다. 따라서 Yammer 그룹은 Microsoft 팀에 연결할 수 없습니다. [Yammer 및 그룹](https://docs.microsoft.com/yammer/manage-yammer-groups/yammer-and-office-365-groups) 참조
+> Yammer 또는 팀을 통해 새 Office 365 그룹을 만드는 경우 해당 사용자 간의 기본 통신은 해당 클라이언트에서 발생 하므로 Outlook 또는 주소록에 그룹이 표시 되지 않습니다. Yammer 그룹은 Microsoft 팀에 연결할 수 없습니다.
 
 ## <a name="where-to-start-a-conversation"></a>대화를 시작 하는 위치
 여러 위치에서 Office 365 내에 대화를 할 수 있습니다. 대화를 시작 하는 위치를 이해 하면 조직에서 통신 전략을 정의 하는 데 도움이 될 수 있습니다.
 
-![이미지 desc](../../media/02.png)
+![이미지 desc](../../media/03.png)
 
 - 팀: 채팅 기반 작업 영역 (고속 공동 작업) – 내부 루프
    - 매일 근무 하는 사람들과 공동 작업을 하도록 작성
@@ -92,8 +88,6 @@ Office 365 그룹에서는 세 가지 주요 통신 형식 지원 됩니다. 이
   - 콘텐츠 공유, 사용자 지정 된 페이지 및 만든이 뉴스 만들기
   - 기존 SharePoint 팀 사이트를 새 Office 365 그룹에 [연결](https://docs.microsoft.com/sharepoint/dev/features/groupify/groupify-overview)
 
-![이미지 desc](../../media/03.png)
-
 ##  <a name="managing-and-governing-office-365-at-scale"></a>확장에서의 Office 365 관리 및 관리
 
 Office 365 그룹에는 조직에 필요한 거 버 넌 스 기능을 구현 하기 위한 다양 한 도구가 포함 되어 있습니다. 다음 섹션에서는 이러한 기능에 대해 설명 하 고 최상의 방법을 권장 하며, 거 버 넌 스에 대 한 요구 사항을 확인 하 고 문제를 충족 하는 방법을 문의할 수 있는 지침을 제공 합니다.
@@ -108,8 +102,8 @@ Office 365 그룹에는 조직에 필요한 거 버 넌 스 기능을 구현 하
 - [기존 공동 작업 도구 업그레이드](https://docs.microsoft.com/office365/admin/create-groups/plan-for-groups-governance#upgrade-traditional-collaboration-tools)
 - [그룹 보고](https://docs.microsoft.com/office365/admin/create-groups/plan-for-groups-governance#groups-reporting)
 
-### <a name="control-who-can-create-office-365-groups"></a>Office 365 그룹을 만들 수 있는 사용자 제어
-최종 사용자가 Outlook, SharePoint, Microsoft 팀 및 기타 환경을 비롯 한 여러 최종 지점에서 그룹을 만들 수 있습니다.
+### <a name="control-who-can-create-office-365-groups"></a><a name="control-who-can-create-office-365-groups"></a>Office 365 그룹을 만들 수 있는 사용자 제어
+최종 사용자가 Outlook, SharePoint, 팀 및 기타 환경을 비롯 한 여러 최종 지점에서 그룹을 만들 수 있습니다.
 
 ![이미지 desc](../../media/04.png)
 > [!Tip]
@@ -117,9 +111,9 @@ Office 365 그룹에는 조직에 필요한 거 버 넌 스 기능을 구현 하
 >- 그룹을 요청 하는 방법을 문서화 하 고 전달 합니다.
 >- 클라우드 여행 중에 그룹을 만들 수 있는 사용자를 다시 검토 합니다.
 >- 동적 구성원 자격을 사용 하 여 그룹 만들기를 제어 하는 보안 그룹 구성원을 구성 하는 것이 좋습니다.
->- 동적 구성원을 통해 관리할 수 있는 그룹 시나리오를 평가 하 고 나머지는 셀프 서비스를 허용 합니다.
+>- 동적 멤버 자격을 통해 관리할 수 있는 그룹 시나리오를 평가 하 고 rest를 위해 셀프 서비스를 허용 합니다.
 
-그룹에는 공개, led 또는 제어의 세 가지 기본 프로 비전 모델이 있습니다. 다음 표에서는 각 모델의 장점을 설명 합니다.
+그룹에는 공개, led 및 제어의 세 가지 기본 프로 비전 모델이 있습니다. 다음 표에서는 각 모델의 장점을 설명 합니다.
 
 | 모델          | 장점                                                   |
 | -------------- | ------------------------------------------------------------ |
@@ -143,7 +137,7 @@ Office 365 그룹에는 조직에 필요한 거 버 넌 스 기능을 구현 하
 - [Outlook에 대 한 Office 365 그룹의 기본 설정을 공용 또는 개인으로 변경 하는 방법](https://support.office.com/article/office-365-groups-in-outlook-private-by-default-36236e39-26d3-420b-b0ac-8072d2d2bedc)
 - [보안 그룹과 팀 멤버 자격 동기화](https://techcommunity.microsoft.com/t5/Microsoft-Teams-Blog/Syncing-Security-Groups-with-team-membership/ba-p/241959)
 
-### <a name="group-soft-delete-and-restore"></a>그룹 일시 삭제 및 복원
+### <a name="group-soft-delete-and-restore"></a><a name="group-soft-delete-and-restore"></a>그룹 일시 삭제 및 복원
 Office 365 그룹을 삭제한 경우 삭제된 그룹은 기본적으로 30일간 보존됩니다. 이 30일의 기간을 "일시 삭제"라고 하며 이 기간 동안 그룹을 복원할 수 있습니다. 30일이 지나면 그룹 및 관련 콘텐츠가 영구적으로 삭제되며 복원할 수 없습니다.
 
 > [!Tip]
@@ -164,7 +158,7 @@ Office 365 그룹을 삭제한 경우 삭제된 그룹은 기본적으로 30일�
 - [Azure Active Directory에서 삭제 된 Office 365 그룹 복원](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-restore-deleted)
 - [Remove-UnifiedGroup cmdlet을 사용하여 그룹 삭제](https://technet.microsoft.com/library/mt238270%28v=exchg.160%29.aspx)
 
-### <a name="group-naming-policy"></a>그룹 명명 정책
+### <a name="group-naming-policy"></a><a name="group-naming-policy"></a>그룹 명명 정책
 명명 정책을 통해 그룹, 구성원, 지리적 위치 또는 그룹을 만든 사용자의 기능을 식별 하는 데 도움이 될 수 있습니다. 또한 명명 정책은 주소록의 그룹을 분류 하는 데 도움이 됩니다. 정책을 사용 하 여 그룹 이름 및 별칭에 특정 단어를 사용 하지 못하도록 차단할 수 있습니다.
 
 > [!Tip]
@@ -188,8 +182,8 @@ Office 365 그룹을 삭제한 경우 삭제된 그룹은 기본적으로 30일�
 - [그룹 설정 구성을 위한 Azure Active Directory cmdlet](https://go.microsoft.com/fwlink/?linkid=868341)
 - [그룹 이름 지정을 위한 미리 보기 기능](https://portal.azure.com/#blade/Microsoft_AAD_IAM/GroupsManagementMenuBlade/NamingPolicy)
 
-### <a name="group-expiration-policy"></a>그룹 만료 정책
-관리자는 만료 기간을 지정할 수 있으며 해당 기간 끝에 도달 하 고 갱신 되지 않은 그룹은 삭제 됩니다. 만료 기간은 그룹을 만들 때 또는 마지막으로 갱신 된 날짜에 시작 됩니다. 그룹 소유자는 만료 되기 전에 자동으로 전자 메일을 보내 다른 만료 간격으로 그룹을 갱신할 수 있습니다.
+### <a name="group-expiration-policy"></a><a name="group-expiration-policy"></a>그룹 만료 정책
+관리자는 만료 기간을 지정할 수 있으며 해당 기간 끝에 도달 하 고 갱신 되지 않은 그룹은 삭제 됩니다. 만료 기간은 그룹을 만들 때 또는 마지막으로 갱신 된 날짜에 시작 됩니다. 그룹 소유자는 만료 되기 전에 자동으로 전자 메일을 보내 다른 만료 간격으로 그룹을 갱신할 수 있습니다. 활성 그룹은 자동으로 갱신 됩니다.
 
 그룹 만료로 설정 하는 경우:
 - 그룹 소유자에 게는 만료 됨에 따라 그룹 갱신을 알리는 알림이 표시 됩니다.
@@ -206,7 +200,7 @@ Office 365 그룹을 삭제한 경우 삭제된 그룹은 기본적으로 30일�
 
 |         |         |         |
 |---------|---------|---------|
-|![이미지 desc](../../media/decision_point.png)|의사 결정 지점|<ul><li>조직에서 팀의 만료 날짜를 지정해야 하나요?</li><li>고아 그룹을 처리 하기 위한 전략 결정</li></ul>|
+|![이미지 desc](../../media/decision_point.png)|의사 결정 지점|<ul><li>조직에서 팀의 만료 날짜를 지정해야 하나요?</li><li>고아 그룹을 처리 하기 위한 전략을 결정 합니다.</li></ul>|
 |![이미지 desc](../../media/next_steps.png)|다음 단계|<ul><li>조직의 그룹 만료, 데이터 보존 및 보관에 대 한 요구 사항을 문서화 합니다.</li><li>그룹 구축의 일부로 이러한 요구 사항을 구현할 계획입니다.</li><li>단일 소유자가 있거나 소유자가 낮은 그룹에 대해 보고할 사용자 지정 작업을 구현할 계획을 세워야 합니다. </li></ul>|
 
 > [!Important]
@@ -216,7 +210,7 @@ Office 365 그룹을 삭제한 경우 삭제된 그룹은 기본적으로 30일�
 - [Office 365 그룹 만료 정책](https://support.office.com/article/Office-365-Group-Expiration-Policy-8d253fe5-0e09-4b3c-8b5e-f48def064733?ui=en-US&rs=en-US&ad=US)
 - [Office 365 그룹에 대 한 만료 정책 구성](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-lifecycle)
 
-### <a name="group-guest-access"></a>그룹 게스트 액세스
+### <a name="group-guest-access"></a><a name="group-guest-access"></a>그룹 게스트 액세스
 관리자는 전체 조직 또는 개별 Office 365 그룹에 대 한 Office 365 그룹에 대 한 게스트 액세스를 허용할지 여부를 제어할 수 있습니다. 또한 그룹에 게스트를 추가하는 사람을 제어할 수 있습니다.
 >[!Tip]
 >- 테 넌 트 수준에서 게스트 액세스를 사용 하도록 설정 합니다. 필요한 경우 특정 그룹을 차단 합니다.
@@ -230,15 +224,14 @@ Office 365 그룹을 삭제한 경우 삭제된 그룹은 기본적으로 30일�
 
 
 #### <a name="resources"></a>*리소스*
+- [조직 외부의 사용자와 공동 작업](https://docs.microsoft.com/microsoft-365/solutions/collaborate-with-people-outside-your-organization)
 - [Office 365 그룹에서 게스트 액세스 관리](https://docs.microsoft.com/office365/admin/create-groups/manage-guest-access-in-groups)
 - [Office 365 그룹의 게스트 액세스](https://support.office.com/article/Guest-access-in-Office-365-Groups-bfc7a840-868f-4fd6-a390-f347bf51aff6)
-- [Office 365 그룹의 게스트 액세스 – 관리자 도움말](https://support.office.com/article/Guest-access-to-Office-365-groups-Admin-Help-7c713d74-a144-4eab-92e7-d50df526ff96)
 - [Azure AD 액세스 검토](https://docs.microsoft.com/azure/active-directory/active-directory-azure-ad-controls-perform-access-review)
 - [Azure Active Directory 사용 약관 기능](https://docs.microsoft.com/azure/active-directory/active-directory-tou)
 - [Google Federation](https://docs.microsoft.com/azure/active-directory/b2b/google-federation)
-- [Microsoft 팀에서 게스트 액세스 권한 부여](https://docs.microsoft.com/microsoftteams/teams-dependencies)
 
-### <a name="group-policies--information-protection"></a>정보 보호 & 그룹 정책
+### <a name="group-policies--information-protection"></a><a name="group-policies--information-protection"></a>정보 보호 & 그룹 정책
 Office 365 그룹은 Office 365의 고급 보안 및 규정 준수 기능을 기반으로 구축 되며 분류, 감사 및 보고, 준수 콘텐츠 검색, 전자 검색, 법적 보존 및 보관 정책을 지원 합니다.
 >[!Tip]
 >- 조직의 요구 사항에 맞게 분류, 사용 지침 및 레이블을 구성 합니다.
@@ -248,7 +241,7 @@ Office 365 그룹은 Office 365의 고급 보안 및 규정 준수 기능을 기
 
 |         |         |         |
 |---------|---------|---------|
-|![이미지 desc](../../media/decision_point.png)|의사 결정 지점|<ul><li>조직에 모든 사용자에 게 전달 해야 하는 특정 사용 요구 사항이 있습니까?</li><li>조직에서 모든 콘텐츠의 분류가 필요 합니까?</li><li>조직에서 특정 기간 동안 콘텐츠를 보존 해야 하나요?</li><li>조직에서 특정 데이터 보존 정책이 필요 하지만 그룹에 적용 될 것인가?</li><li>조직은 콘텐츠를 보존 하기 위해 비활성 그룹을 보관 해야 할 것으로 예상 됩니까?</li><li>그룹 작성자가 팀에 조직별 분류를 할당할 수 있어야 합니까?</li></ul>|
+|![이미지 desc](../../media/decision_point.png)|의사 결정 지점|<ul><li>조직에 모든 사용자에 게 전달 해야 하는 특정 사용 요구 사항이 있습니까?</li><li>조직에서 모든 콘텐츠의 분류가 필요 합니까?</li><li>조직에서 특정 기간 동안 콘텐츠를 보존 해야 하나요?</li><li>조직에서 특정 데이터 보존 정책을 그룹에 적용 해야 하는지 여부</li><li>조직은 콘텐츠를 보존 하기 위해 비활성 그룹을 보관 해야 할 것으로 예상 됩니까?</li><li>그룹 작성자가 팀에 조직별 분류를 할당할 수 있어야 합니까?</li></ul>|
 |![이미지 desc](../../media/next_steps.png)|다음 단계|<ul><li>그룹에 대 한 조직의 사용 지침 문서화</li><li>조직의 분류 요구 사항을 문서화 합니다.</li><li>민감도, 보존, 게스트 액세스 등 분류에 따라 적용할 정책을 결정 합니다.</li><li>조직의 민감도 레이블과 연결 하려는 보호 설정을 정의 합니다.</li><li>레이블이 표시 되는 사용자 및 그룹을 제어 하는 레이블 정책을 정의 합니다.</li><li>[그룹 민감도 레이블 미리 보기](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels-teams-groups-sites) 를 구성 하 고 조직에서 그룹 분류를 시작 합니다.</li><li>이러한 요구 사항을 그룹 롤아웃의 일부로 구현할 계획입니다.</li></ul>|
 
 
@@ -265,7 +258,7 @@ Office 365 그룹은 Office 365의 고급 보안 및 규정 준수 기능을 기
 - [Office 365 보안 및 준수 센터에서 콘텐츠 검색 실행](https://docs.microsoft.com/Office365/SecurityCompliance/content-search)
 - [Windows PowerShell을 사용하여 보존 레이블 대량 생성 및 게시](https://docs.microsoft.com/office365/securitycompliance/bulk-create-publish-labels-using-powershell)
 
-### <a name="upgrade-traditional-collaboration-tools"></a>기존 공동 작업 도구 업그레이드
+### <a name="upgrade-traditional-collaboration-tools"></a><a name="upgrade-traditional-collaboration-tools"></a>기존 공동 작업 도구 업그레이드
 수년간 조직이 메일 그룹에 의존 하 여 회사 내부 및 외부의 사용자 그룹에 대 한 공동 작업을 수행 했습니다. 그러나 이제 Outlook의 Office 365 그룹은 보다 강력한 공동 작업 솔루션을 제공 합니다. 또한 해당 사이트를 modernize 하는 경우에는 Office 365 그룹을 기존 SharePoint 사이트에 연결할 수 있도록 하는 것이 중요 합니다.
 
 >[!Tip]
@@ -274,20 +267,19 @@ Office 365 그룹은 Office 365의 고급 보안 및 규정 준수 기능을 기
 
 |         |         |         |
 |---------|---------|---------|
-|![이미지 desc](../../media/decision_point.png)|의사 결정 지점|<ul><li>조직에 업그레이드에 [적합 하지](https://docs.microsoft.com/office365/admin/manage/upgrade-distribution-lists#how-do-i-check-which-dls-are-eligible-for-upgrade) 않은 메일 그룹이 있습니까?<li>가장 많이 마이그레이션되는 메일 그룹의 유형을 결정 합니다.</li></ul>|
+|![이미지 desc](../../media/decision_point.png)|의사 결정 지점|<ul><li>조직에 업그레이드에 [적합 하지](https://docs.microsoft.com/office365/admin/manage/upgrade-distribution-lists#how-do-i-check-which-dls-are-eligible-for-upgrade) 않은 메일 그룹이 있습니까?<li>가장 잘 마이그레이션되는 메일 그룹의 유형을 결정 합니다.</li></ul>|
 |![이미지 desc](../../media/next_steps.png)|다음 단계|<ul><li>Office 365 그룹으로 업그레이드할 수 있는 메일 그룹을 식별 합니다.</li><li>기존 SharePoint 팀 사이트를 분석 하 여 그룹으로 연결할 준비가 된 사이트를 확인 합니다.</li><li>회사의 다른 팀에 게 사용자의 메일 그룹 업그레이드를 알리는 것을 허용 하 고, 성공적인 작업을 위해 수행한 단계를 확인 하세요.</li></ul>|
 
 
 #### <a name="resources"></a>*리소스*
-- [Outlook의 그룹에 대 한 DL (배포 목록) 업그레이드](https://aka.ms/whyupgradedls):
-- [Outlook에서 DL을 그룹으로 업그레이드 해야 하는 이유](https://aka.ms/whyupgradedls)
-- Exchange 관리 센터를 통해 또는 [PowerShell 스크립트](https://support.office.com/article/Migrate-distribution-lists-to-Office-365-Groups-Admin-help-787d7a75-e201-46f3-a242-f698162ff09f?ui=en-US&rs=en-US&ad=US) 를 통해 한 번 클릭으로 업그레이드
+- [Outlook에서 그룹으로의 DL (배포 목록) 업그레이드](https://aka.ms/whyupgradedls)
+- Exchange 관리 센터를 통해 또는 [PowerShell 스크립트](https://support.office.com/article/787d7a75-e201-46f3-a242-f698162ff09f) 를 통해 한 번 클릭으로 업그레이드
 - [Office 365 그룹으로 메일 그룹 마이그레이션-관리자 도움말](https://docs.microsoft.com/office365/admin/manage/upgrade-distribution-lists)
 - [기존 SharePoint 사이트를 Office 365 그룹에 연결:](https://docs.microsoft.com/sharepoint/dev/transform/modernize-connect-to-office365-group)
 - [스캐너 데이터 분석 및 사용](https://docs.microsoft.com/sharepoint/dev/transform/modernize-connect-to-office365-group-scanner)
 - [SharePoint Modernization 스캐너](https://github.com/SharePoint/sp-dev-modernization/tree/master/Tools/SharePoint.Modernization) (GitHub에 있는 도구)
 
-### <a name="groups-reporting"></a>그룹 보고
+### <a name="groups-reporting"></a><a name="groups-reporting"></a>그룹 보고
 Office 365 보고서 대시보드에는 조직의 Office 365 제품 전체에 대한 활동 개요가 표시됩니다. 보고서 대시보드를 통해 개별 제품 수준 보고서의 하위 수준을 표시하여 각 제품 내의 활동에 대한 더 세부화된 정보를 확인할 수 있습니다.
 > [!TIP]
 >- 그룹 활동 보고서를 사용 하 여 조직의 Office 365 그룹 활동에 대 한 정보를 파악 하 고 만들고 사용 하 고 있는 그룹의 수를 확인할 수 있습니다.
@@ -317,8 +309,8 @@ Office 365 보고서 대시보드에는 조직의 Office 365 제품 전체에 �
 Office 365 그룹에서는 조직에 필요한 다양 한 거 버 넌 스 기능 집합을 제공 합니다. 모범 사례를 이해 하 고 적절 한 질문에 따라 거 버 넌 스에 대 한 요구 사항을 확인 하 고이를 충족 하는 방법에 대 한 지침은 다음 조직 프로필을 고려 하세요.
 
 **다음과 같은 조직 프로필을 고려해 야 합니다.**
-- Small Business
-- 중간 규모의 비즈니스
+- 소규모 기업
+- 중간 규모 기업
 - 규제 또는 기업
 
 ### <a name="small-business"></a>소규모 기업
@@ -326,19 +318,19 @@ Office 365 그룹에서는 조직에 필요한 다양 한 거 버 넌 스 기능
 
 | 단계 | 설명 |
 | --------------- | ------------------------------------------------------------ |
-| 지침 |<ul><li>셀프 서비스 프로 비전 모델 고려</li><li> Outlook & SharePoint 사이트의 그룹은 [기본적으로 비공개로](https://techcommunity.microsoft.com/t5/Office-365-Groups/Groups-in-Outlook-and-Group-connected-team-sites-are-now-private/m-p/186395)되어 있습니다.</li><li> 그룹은 기존 Dl (메일 그룹)을 일대일로 또는 PowerShell을 통해 대량으로 업그레이드 하 여 만들 수 있습니다. [Office 365 그룹으로 배포 목록 업그레이드를](https://support.office.com/article/Upgrade-distribution-lists-to-Office-365-Groups-in-Outlook-787D7A75-E201-46F3-A242-F698162FF09F)참조 하세요.</li><li> 게스트 액세스를 사용 하도록 설정 하 되 허용/차단 게스트 도메인을 제어 합니다.</li><li> 그룹 보고를 사용 하 여 사용자가 그룹을 사용 하는 방법을 통찰력을 얻습니다.</li><li> 공동 작업을 위해 모든 사용자가 단일 팀의 일부가 되는 방식으로 조직 차원의 팀 Microsoft 팀을 만드는 것이 좋습니다. </li></ul>|
-| 다음 단계      |<ul><li>[JSON 스키마 참조](https://docs.microsoft.com/sharepoint/dev/declarative-customization/site-design-json-schema)에 정의 된 작업을 사용 하 여 컨트롤에 대 한 기본 디자인을 정의 하는 [사이트 디자인 및 사이트 스크립트](https://docs.microsoft.com/sharepoint/dev/declarative-customization/site-design-overview) 를 사용 하는 것이 좋습니다.</li><li>[보고 그룹](https://support.office.com/article/Office-365-Reports-in-the-admin-center-Office-365-groups-a27f1a99-3557-4f85-9560-a28e3d822a40) 검토</li><li>전체 그룹 및 비활성/활성 그룹 추적</li><li>사용 되는 Exchange 및 SharePoint 저장소를 모두 추적</li><li>그룹 사서함 대화, 그룹 사이트/파일 활동 등을 통해 그룹 활동을 봅니다.</li></ul> |
+| 지침 |<ul><li>셀프 서비스 프로 비전 모델을 고려해 보십시오.</li><li> Outlook & SharePoint 사이트의 그룹은 [기본적으로 비공개로](https://techcommunity.microsoft.com/t5/Office-365-Groups/Groups-in-Outlook-and-Group-connected-team-sites-are-now-private/m-p/186395)되어 있습니다.</li><li> 그룹은 기존 Dl (메일 그룹)을 일대일로 또는 PowerShell을 통해 대량으로 업그레이드 하 여 만들 수 있습니다. [Office 365 그룹으로 배포 목록 업그레이드를](https://support.office.com/article/Upgrade-distribution-lists-to-Office-365-Groups-in-Outlook-787D7A75-E201-46F3-A242-F698162FF09F)참조 하세요.</li><li> 게스트 액세스를 사용 하도록 설정 하 되 허용/차단 게스트 도메인을 제어 합니다.</li><li> 그룹 보고를 사용 하 여 사용자가 그룹을 사용 하는 방법을 통찰력을 얻습니다.</li><li> 공동 작업을 위해 모든 사용자가 단일 팀의 일부가 되는 방식으로 조직 차원의 팀 Microsoft 팀 팀을 만드는 것이 좋습니다. </li></ul>|
+| 다음 단계      |<ul><li>[JSON 스키마 참조](https://docs.microsoft.com/sharepoint/dev/declarative-customization/site-design-json-schema)에 정의 된 작업을 사용 하 여 컨트롤에 대 한 기본 디자인을 정의 하는 [사이트 디자인 및 사이트 스크립트](https://docs.microsoft.com/sharepoint/dev/declarative-customization/site-design-overview) 를 사용 하는 것이 좋습니다.</li><li>[그룹 보고](https://support.office.com/article/Office-365-Reports-in-the-admin-center-Office-365-groups-a27f1a99-3557-4f85-9560-a28e3d822a40)를 검토 합니다.</li><li>전체 그룹 및 비활성/활성 그룹을 추적 합니다.</li><li>사용 되는 Exchange 및 SharePoint 저장소를 모두 추적 합니다.</li><li>그룹 사서함 대화, 그룹 사이트/파일 활동 등을 통해 그룹 활동을 봅니다.</li></ul> |
 
 ### <a name="medium-sized-business"></a>중간 규모 기업
 위의 권장 사항 외에도, Azure Active Directory Premium P1 라이선스를 사용 하 여 최소한 엔터프라이즈 E3/E5를 사용 하 여 Office 365을 배포한 중간 규모의 비즈니스에 대해 다음 사항을 고려 하세요.
 
 | 단계 | 설명 |
 | --------------- | ------------------------------------------------------------ |
-| 지침 |<ul><li>오픈 또는 IT-led 프로 비전 모델을 결정 합니다.</li><li> 부서와 같은 Azure AD 특성을 기반으로 [동적 멤버 자격 규칙](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-dynamic-membership) 에 연결 되는 특정 그룹을 만들 수 있습니다.</li><li> 조직 내에서 분류를 정의 합니다 (예: 고도의 기밀, 기밀 (기본값), 일반).</li><li>  보존 및 민감도와 같은 분류에 따라 정책을 정의 합니다.</li><li> SharePoint는 모든 Office 365 그룹에 대 한 콘텐츠 서비스입니다. 세 가지 보호 계층 (기준, 중요 및 고도의 기밀) [에 대 한 SharePoint Online 사이트를](https://docs.microsoft.com/office365/enterprise/deploy-sharepoint-online-sites-for-three-tiers-of-protection) 디자인 하 고 배포 하는 방법을 고려 합니다. 이러한 3계층 보호에 대한 자세한 내용은 [SharePoint Online 사이트 및 파일 보호](https://docs.microsoft.com/office365/enterprise/secure-sharepoint-online-sites-and-files)를 참조하세요.</li><li> 공용 및 개인 그룹은 기본적으로 GAL에 나열 됩니다. Microsoft 팀 외부에서 만들어진 GAL 전용 그룹에 표시할 그룹을 결정 합니다.  [Remove-unifiedgroup](https://technet.microsoft.com/library/mt238274(v=exchg.160).aspx) cmdlet의 "HiddenFromAddressListsEnabled" 또는 "HidefromExchangeClients"를 사용 하 여 특정 그룹을 숨깁니다. </li></ul> |
+| 지침 |<ul><li>오픈 또는 IT-led 프로 비전 모델을 결정 합니다.</li><li> 부서와 같은 Azure AD 특성을 기반으로 [동적 멤버 자격 규칙](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-dynamic-membership) 에 연결 되는 특정 그룹을 만들 수 있습니다.</li><li> 조직 내에서 분류를 정의 합니다 (예: 고도의 기밀, 기밀 (기본값), 일반).</li><li>  보존 및 민감도와 같은 분류에 따라 정책을 정의 합니다.</li><li> SharePoint는 모든 Office 365 그룹에 대 한 콘텐츠 서비스입니다. 세 가지 보호 계층 (기준, 중요 및 고도의 기밀) [에 대 한 SharePoint Online 사이트를](https://docs.microsoft.com/office365/enterprise/deploy-sharepoint-online-sites-for-three-tiers-of-protection) 디자인 하 고 배포 하는 방법을 고려 합니다. 이러한 3계층 보호에 대한 자세한 내용은 [SharePoint Online 사이트 및 파일 보호](https://docs.microsoft.com/office365/enterprise/secure-sharepoint-online-sites-and-files)를 참조하세요.</li><li> 공용 및 개인 그룹은 기본적으로 GAL에 나열 됩니다. Microsoft 팀 외부에서 만들어진 GAL 전용 그룹에 표시할 그룹을 결정 합니다.  [Remove-unifiedgroup](https://technet.microsoft.com/library/mt238274(v=exchg.160).aspx) cmdlet의 "HiddenFromAddressListsEnabled" 또는 "HidefromExchangeClients"를 사용 하 여 특정 그룹을 숨깁니다.</li></ul> |
 | 다음 단계      |<ul><li>그룹을 효과적으로 유지 하는 데 도움이 되는 모범 사례를 사용자에 게 교육 하 고 내부 콘텐츠 정책에 대해 교육 하기 위한 [사용 지침](https://docs.microsoft.com/azure/active-directory/active-directory-accessmanagement-groups-settings-cmdlets) 을 정의 합니다. 예를 들어 분류, 정책 및 절차에 대해 설명 합니다. </li><li>그룹을 갱신 하거나 삭제 하는 만료 정책에 해당 그룹의 수명 주기 기간을 정의 합니다.</li><li>다음 사용자 지정 작업을 만들어 분류에 따라 정책을 구현 하는 것이 좋습니다.</li><li>개인 정보를 비공개로 설정 합니다.</li><li>외부 구성원/공유를 사용 하지 않도록 설정 합니다. </li><li>[소유자가 없는](https://support.office.com/article/Assign-a-new-owner-to-an-orphaned-group-86bb3db6-8857-45d1-95c8-f6d540e45732)그룹을 그룹 구성원에 게 알리기 위한 전자 메일</li><li>소유권 정책 적용 (최소 2 명의 소유자)</li><li> 분류를 기반으로 그룹에 대 한 보존 정책을 정의 합니다. </li><li>보존 정책 개요</li><li>Powershell을 사용 하 여 분류 및 [new-retentioncompliancepolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/set-retentioncompliancepolicy?view=exchange-ps)을 사용 하 여 그룹 식별</li><li>[JSON 스키마 참조](https://docs.microsoft.com/sharepoint/dev/declarative-customization/site-design-json-schema)에 정의 된 작업을 사용 하 여 컨트롤을 정의 하려면 사이트 디자인 및 사이트 스크립트를 사용 하는 것이 좋습니다.</li><li>사이트 디자인 및 Microsoft 흐름 [을 사용 하 여 간단한 사이트 디렉터리를 작성 하는](https://docs.microsoft.com/sharepoint/dev/declarative-customization/site-design-trigger-flow-tutorial) 것이 좋습니다. 이 사이트 디자인을 사용 하 여 사이트를 만들 때마다 사이트의 세부 정보를 캡처하여 목록에 씁니다. </li></ul>|
 
 ### <a name="regulated-or-enterprise"></a>규제 또는 기업
-위의 권장 사항 외에, Azure Active Directory Premium P1/P2 라이선스를 사용 하 여 최소한 엔터프라이즈 E3/E5를 사용 하 여 Office 365을 배포한 정부, 금융 서비스 또는 의료과 같은 고도로 규제 또는 대규모 입력 환경에 대해 다음 사항을 고려 하세요.
+위의 권장 사항 외에, Azure Active Directory Premium P1/P2 라이선스를 사용 하 여 최소한 엔터프라이즈 E3/E5를 사용 하 여 Office 365을 배포한 정부, 금융 서비스 또는 의료과 같은 고도로 규제 또는 대규모 입력 환경에 대해 다음을 고려해 야 합니다.
 
 | 단계 | 설명 |
 | --------------- | ------------------------------------------------------------ |

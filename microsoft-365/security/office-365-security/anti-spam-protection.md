@@ -1,11 +1,11 @@
 ---
-title: Office 365 전자 메일 스팸 방지 보호
+title: 스팸 방지 보호 기능
 f1.keywords:
 - NOCSH
-ms.author: krowley
-author: kccross
+ms.author: chrisda
+author: chrisda
 manager: dansimp
-ms.date: 6/29/2018
+ms.date: ''
 audience: Admin
 ms.topic: overview
 ms.service: O365-seccomp
@@ -16,79 +16,99 @@ search.appverid:
 ms.assetid: 6a601501-a6a8-4559-b2e7-56b59c96a586
 ms.collection:
 - M365-security-compliance
-description: Exchange Online 및 Office 365에서 스팸을 방지 하는 데 도움이 되는 스팸 방지 설정 및 필터에 대해 알아봅니다. Office 365에서 너무 많은 스팸 받기 스팸 필터 및 스팸 방지 정책 설정을 사용자 지정할 수 있습니다.
-ms.openlocfilehash: b7ffb29d09a357cc0a2e407d1a66f29273fc950f
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+description: Exchange Online 및 Office 365에서 스팸을 방지 하는 데 도움이 되는 스팸 방지 설정 및 필터에 대해 알아봅니다. Office 365에서 너무 많은 스팸 받기 스팸 필터 및 스팸 방지 설정을 사용자 지정할 수 있습니다.
+ms.openlocfilehash: 5558bfa29427df4df12a83bc8b30adaf6001b9c3
+ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42633836"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42894073"
 ---
-# <a name="office-365-email-anti-spam-protection"></a>Office 365 전자 메일 스팸 방지 보호
-
-Office 365에서 너무 많은 스팸을 걱정 하나요? Microsoft는 Office 365 또는 Exchange Online Protection (EOP) 서비스에 여러 개의 스팸 필터를 작성 하 여 첫 번째 메시지를 받은 순간 로부터 전자 메일을 보호 합니다. Office 365에서 스팸을 방지 하기 위해 조직의 특정 문제를 처리 하는 보호 설정을 변경 하 고, 예를 들어 특정 보낸 사람 으로부터 많은 스팸 메일을 받거나, 단순히 설정을 미세 조정 하 여 조직의 요구에 가장 잘 맞는 조정 이렇게 하려면 Office 365 보안 &amp; 및 준수 센터에서 스팸 방지 설정을 변경 하면 됩니다.
-
-이 문서는 Office 365 관리자를 위한 것입니다. 관리자가 아니지만 Office 365 사용자가 수신 하는 스팸 자료를 처리 하는 방법을 알아보려면 원하는 문서가 아닙니다. 대신, Outlook for PC 또는 Mac 용 Outlook을 사용 하는 경우에 [는 정크 메일 필터 개요](https://support.office.com/article/5ae3ea8e-cf41-4fa0-b02a-3b96e21de089)를 사용 하 여 시작 합니다. 웹에서 Outlook을 사용 하는 경우에는 [정크 메일 및 피싱에 대 한 자세한](https://support.office.com/article/86c1d76f-4d5a-4967-9647-35665dc17c31)정보부터 확인 하세요.
-
-## <a name="these-options-help-you-prevent-spam-in-office-365"></a>이러한 옵션은 Office 365에서 스팸을 방지 하는 데 도움이 됩니다.
-
- **연결 필터링**: 연결 필터링을 사용 하는 경우 Office 365에서는 메시지를 받기 전에 보낸 사람의 신뢰도를 확인 합니다. 특정 IP 주소 또는 IP 주소 범위에서 전송 되는 모든 메시지를 수신 하도록 허용 목록 또는 안전한 보낸 사람 목록을 만들 수 있습니다. 또한 차단 목록 이라는 메시지를 차단 하는 데 사용할 IP 주소 목록을 만들 수도 있습니다. 자세한 내용은 [Configure the connection filter policy](configure-the-connection-filter-policy.md)를 참조하십시오. Office 365의 스팸이 염려 되는 경우에는 연결 필터링을 사용 하 여 스팸을 방지 합니다.
-
-Office 365 Enterprise e 5가 있고, Advanced Threat Protection (ATP) 라이선스를 구매한 고객의 경우에는 스푸핑 인텔리전스에서 연결 필터링을 사용 하 여 도메인을 위장 하는 보낸 사람 목록을 만들고 차단 합니다. 자세한 내용은 [스푸핑 인텔리전스에 대 한 자세한 내용을](learn-about-spoof-intelligence.md)참조 하세요.
-
- **스팸 필터링**: Office 365에서 스팸 필터링을 사용 하 여 메시지 특성이 스팸으로 일치 하는지 확인 합니다. 스팸으로 식별된 메시지에 대해 수행할 작업을 변경할 수 있으며, 특정 언어로 작성되었거나 특정 국가 또는 지역에서 보낸 메시지를 필터링할지 여부를 선택할 수 있습니다. 적극적인 스팸 필터링 방식을 원하는 경우에는 고급 스팸 필터링 옵션을 설정할 수도 있습니다. 또한 메시지가 격리되면 해당 메시지의 대상이었던 받는 사람에게 알림을 표시하도록 최종 사용자 스팸 알림을 구성할 수도 있습니다. (격리로 메시지를 보내는 것은 구성 가능한 작업 중 하나입니다.) 이러한 알림에서 최종 사용자는 가양성을 릴리스하고 분석을 위해 Microsoft에 보고할 수 있습니다. 자세한 내용은 [스팸 필터 정책 구성을](configure-your-spam-filter-policies.md) 참조하세요. Office 365에서 스팸을 방지 하려면 스팸 필터링을 사용 하 고, Office 365에서 스팸을 너무 많이 걱정 되는 경우에는 연결 필터링을 사용 하 여 스팸을 방지 합니다.
+# <a name="anti-spam-protection-in-office-365"></a>Office 365의 스팸 방지 보호 기능
 
 > [!NOTE]
-> EOP 독립 실행형 고객의 경우: 기본적으로 EOP 스팸 필터는 스팸 검색 메시지를 각 받는 사람의 정크 메일 폴더로 보냅니다. 그러나 온-프레미스 사서함을 사용 하 여 **정크 메일 폴더로 메시지 이동** 작업을 수행 하려면 온-프레미스 서버에서 두 개의 Exchange 메일 흐름 규칙 (전송 규칙이 라고도 함)을 구성 하 여 EOP에서 추가한 스팸 헤더를 검색 해야 합니다. 자세한 내용은 [스팸이 각 사용자의 정크 메일 폴더로 라우팅되는지 확인](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md)을 참조하십시오.
+> 이 항목은 Office 365 관리자를 위한 것입니다. 최종 사용자 항목의 경우 [정크 메일 필터 개요](https://support.office.com/article/5ae3ea8e-cf41-4fa0-b02a-3b96e21de089) 및 [정크 메일 및 피싱에 대 한 자세한](https://support.office.com/article/86c1d76f-4d5a-4967-9647-35665dc17c31)정보를 참조 하세요.
 
-## <a name="extra-information-if-you-receive-too-much-spam-in-office-365"></a>Office 365에서 스팸이 너무 많이 수신 되는 경우 추가 정보
+Exchange online 사서함이 없는 Office 365 고객 또는 독립 실행형 EOP (Exchange Online Protection) 고객의 경우 전자 메일 메시지가 EOP을 통해 스팸 (정크 메일) 로부터 자동으로 보호 됩니다.
 
-다음 비디오에서는 EOP에서 스팸 필터링을 구성 하는 방법에 대해 간략하게 설명 합니다.
+Microsoft의 전자 메일 보안 로드맵에는 일치 하지 않는 제품 간 방법이 포함 됩니다. EOP 스팸 방지 및 피싱 방지 기술은 전자 메일 플랫폼에 적용 되어 사용자에 게 최신 스팸 방지 및 피싱 방지 도구와 네트워크 전체의 혁신을 제공 합니다. EOP의 목표는 정크 메일, 사기성 전자 메일 위협 (피싱) 및 맬웨어로부터 사용자를 감지 하 고 보호 하는 데 도움이 되는 포괄적이 고 사용 가능한 전자 메일 서비스를 제공 하는 것입니다.
 
-> [!VIDEO https://www.microsoft.com/videoplayer/embed/608be94c-d763-4c47-af94-99e7cb277713?autoplay=false]
+전자 메일 사용이 증가 함에 따라 전자 메일 남용이 발생 합니다. 모니터링 되지 않는 정크 메일은 받은 편지함 및 네트워크를 clog 하 고 사용자 만족도에 영향을 줄 수 있으며 합법적인 전자 메일 통신의 효율성을 저하 합니다. Microsoft가 스팸 방지 기술에 계속 투자 하는 이유입니다. 간단히 말해서 정크 메일을 포함 하 고 필터링 하 여 시작 합니다.
 
-자세한 내용은 [스팸 필터 정책 구성](configure-your-spam-filter-policies.md) 항목을 참조 하십시오.
+## <a name="anti-spam-technologies-in-eop"></a>EOP의 스팸 방지 기술
 
-## <a name="check-your-outgoing-messages-to-prevent-spam-in-office-365"></a>Office 365에서 스팸을 방지 하기 위해 보내는 메시지 확인
+정크 메일을 줄이기 위해 EOP에서는 독점 스팸 필터링 기술을 사용 하 여 합법적인 전자 메일에서 정크 메일을 식별 하 고 분리 하는 정크 메일 보호 기능을 포함 합니다. EOP 스팸 필터링은 알려진 스팸 및 피싱 위협과 소비자 플랫폼 Outlook.com의 사용자 의견을 알아냅니다. 정크 메일 분류 프로그램에서 EOP 사용자의 지속적인 피드백을 통해 EOP 기술을 지속적으로 교육 하 고 향상 시킬 수 있습니다.
 
- **아웃 바운드 필터링**: Office 365 에서도 사용자가 스팸을 보내지 않는지 확인 합니다. 예를 들어 사용자의 컴퓨터가 스팸 메시지를 보내도록 하는 맬웨어를 감염 시킬 수 있으므로 *아웃 바운드 필터링*이라고 하는 보호 기능을 구축 합니다. 아웃 바운드 필터링을 해제할 수는 없지만, [아웃 바운드 스팸 정책 구성](configure-the-outbound-spam-policy.md)에서 설명 하는 설정을 구성할 수도 있습니다. Office 365에서 너무 많은 스팸 메일이 염려 되는 경우 아웃 바운드 필터링을 사용 하 여 Exchange Online에서 스팸을 방지 합니다.
+EOP의 스팸 방지 설정은 다음과 같은 기술로 구성 됩니다.
 
-## <a name="beyond-the-basics-more-ways-to-prevent-spam-in-office-365"></a>기본 사항 외에도, Office 365에서 스팸을 방지 하는 다른 방법이 있습니다.
+- **연결 필터링**: Ip 허용 목록, Ip 차단 목록 및 *안전한 목록* (Microsoft에서 유지 관리 되는 신뢰할 수 있는 보낸 사람 목록)을 통해 인바운드 전자 메일 연결 초기에 양호 하 고 잘못 된 전자 메일 원본 서버를 식별 합니다. 이러한 설정은 연결 필터 정책에서 구성 합니다. 자세한 내용은 [Configure connection 필터링할지 In Office 365](configure-the-connection-filter-policy.md)을 참고 하세요.
 
- **메일 흐름 규칙**: 기본 제공 되는 스팸 필터링 이상의 기능을 사용 하 여 비즈니스 정책을 기반으로 하는 사용자 지정 규칙을 만드는 경우에는 _[메일 흐름 규칙](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/mail-flow-rules)_ ( _전송 규칙이_라고도 함)은 Office 365에서 스팸을 방지 하는 데 도움이 되는 또 다른 필터입니다. 예를 들어 메일 흐름 규칙을 사용 하 여 [메시지의 scl (스팸 지 수) 설정](use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages.md)에 설명 된 대로 특정 조건과 일치 하는 메시지에 대 한 SCL (스팸 지 수) 값을 설정할 수 있습니다.
+  > [!NOTE]
+  > 스푸핑 인텔리전스는 연결 필터링을 사용 하 여 전자 메일 도메인을 위장 하는 보낸 사람 목록을 만들고 허용을 차단 합니다. 자세한 내용은 [Office 365에서 스푸핑 인텔리전스에 대 한 자세한 내용을](learn-about-spoof-intelligence.md)참조 하세요.
 
- **전자 메일 인증**: DNS (Domain Name System)를 사용 하 여 전자 메일 메시지를 보낸 사람에 대 한 전자 메일 메시지에 안정형 정보를 추가 하는 기법을 전자 메일 인증 이라고 합니다. 고급 Office 365 관리자는 다음과 같은 전자 메일 인증 방법을 사용할 수 있습니다.
+- **스팸 필터링 (콘텐츠 필터링)**: EOP은 스팸 필터링 verdicts **스팸**, **높은 신뢰도 스팸**, **대량 전자 메일**, **피싱 메일** 및 **높은 신뢰도 피싱 전자 메일** 을 사용 하 여 메시지를 분류 합니다. 이러한 verdicts에 따라 수행할 작업을 구성 하 고, 전달 되지 않고 격리 된 메시지에 대 한 최종 사용자 알림 옵션을 구성할 수 있습니다. 자세한 내용은 [Office 365의 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)를 참조하세요.
 
-- **Spf (Sender Policy Framework)**: 전송 도메인의와 대조 소유자에 대해 보낸 사람의 IP 주소를 확인 하 여 전자 메일 메시지의 원본에 대 한 유효성을 검사 합니다. SPF를 빠르게 도입하여 신속하게 구성하려면 [스푸핑 방지를 위해 Office 365에서 SPF 설정](set-up-spf-in-office-365-to-help-prevent-spoofing.md)을 참조하세요. Office 365에서 SPF를 사용하는 방법이나 문제 해결 또는 비표준 배포(예: 하이브리드 배포)에 대한 자세한 내용은 [Office 365에서 SPF(Sender Policy Framework)를 사용하여 스푸핑을 차단하는 방법](how-office-365-uses-spf-to-prevent-spoofing.md)을 참조하세요.
+  > [!NOTE]
+  > 기본적으로 스팸 필터링은 스팸으로 표시 된 메시지를 받는 사람의 정크 메일 폴더로 보내도록 구성 됩니다. 그러나 EOP가 온-프레미스 Exchange 사서함을 보호 하는 하이브리드 환경에서는 메시지에 추가 되는 EOP 스팸 헤더를 인식할 수 있도록 온-프레미스 Exchange 조직에서 두 개의 메일 흐름 규칙 (전송 규칙이 라고도 함)을 구성 해야 합니다. 자세한 내용은 [하이브리드 환경의 정크 메일 폴더에 스팸을 배달 하도록 독립 실행형 EOP 구성을](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md)참조 하십시오.
 
-- **Domainkeys 확인 메일 (dkim)**: dkim을 사용 하면 전자 메일 메시지에 디지털 서명을 첨부 하 여 보내는 전자 메일의 메시지 헤더에 첨부할 수 있습니다. 도메인에서 전자 메일을 수신 하는 전자 메일 시스템은이 디지털 서명을 사용 하 여 수신 하는 받는 전자 메일이 합법적인 지를 확인 합니다. DKIM 및 Office 365에 대 한 자세한 내용은 [office 365의 사용자 지정 도메인에서 보낸 아웃 바운드 전자 메일의 유효성 검사를 위해 DKIM을 사용](use-dkim-to-validate-outbound-email.md)합니다 .를 참조 하세요.
+- **아웃 바운드 스팸 필터링**: EOP 또한 사용자가 아웃 바운드 메시지 콘텐츠 또는 아웃 바운드 메시지 제한을 초과 하 여 스팸 메일을 보내지 않도록 확인 합니다. 자세한 내용은 [Office 365에서 아웃 바운드 스팸 필터링 구성을](configure-the-outbound-spam-policy.md)참조 하세요.
 
-- **도메인 기반 메시지 인증, 보고 및 적합성 (DMARC)**: DMARC에서는 전자 메일 시스템 수신에 도움이 되는 메시지에 대해 수행할 작업을 결정 하 고, SPF 또는 dkim을 검사 하는 데에는 어떤 작업을 수행 하는 것이 좋습니다. DMARC 설정에 대 한 자세한 내용은 [Office 365에서 DMARC를 사용 하 여 전자 메일의 유효성 검사를](use-dmarc-to-validate-email.md)참조 하세요.
+- **스푸핑 인텔리전스**: 자세한 내용은 [Office 365에서 스푸핑 인텔리전스에 대 한 자세한](learn-about-spoof-intelligence.md)정보를 참조 하세요.
 
-Office 365의 스팸, 피싱 및 스푸핑에 대해 염려 되는 경우 SPF, DKIM 및 DMARC을 함께 사용 하 여 스팸 및 원치 않는 스푸핑 방지를 방지할 수 있습니다.
+## <a name="manage-errors-in-spam-filtering"></a>스팸 필터링의 오류 관리
 
- **최종 사용자 관리 설정**: 최종 사용자가 자신의 스팸 설정을 관리 하는 방법에 대 한 자세한 내용은 [정크 메일 필터 개요](https://support.office.com/article/5ae3ea8e-cf41-4fa0-b02a-3b96e21de089) (Microsoft outlook 사용자의 경우) 또는 [정크 메일 및 피싱](https://support.microsoft.com/article/86c1d76f-4d5a-4967-9647-35665dc17c31) (웹 사용자의 경우)에 대 한 자세한 내용을 참조 하세요. EOP을 사용 하 여 온-프레미스 사서함을 보호 하는 경우에는 디렉터리 동기화를 사용 하 여 이러한 설정이 서비스에 동기화 되었는지 확인 해야 합니다. 디렉터리 동기화 설정에 대한 자세한 내용은 [EOP에서 메일 사용자 관리](manage-mail-users-in-eop.md)에서 "디렉터리 동기화를 사용하여 메일 사용자 관리"를 참조하세요.
+좋은 메시지를 스팸으로 식별 하거나 (가양성이 라고도 함) 스팸을 받은 편지 함으로 배달할 수 있습니다. 다음 섹션에 나와 있는 제안을 사용 하 여 발생 한 상황을 확인 하 고 그에 해당 하지 않는 문제를 방지할 수 있습니다.
 
-## <a name="for-more-information"></a>자세한 내용
+다음은 두 시나리오에 적용 되는 몇 가지 최상의 방법입니다.
 
-[블로그: 스팸 및 피싱이 Office 365를 통해 제공 되는 이유는 무엇 인가요?](https://blogs.msdn.microsoft.com/tzink/2014/09/12/why-does-spam-and-phishing-get-through-office-365-and-what-can-be-done-about-it/)
+- 스팸으로 잘못 분류 메시지를 항상 Microsoft에 제출 합니다. 관리자는 [전송 탐색기](admin-submission.md)를 사용 하거나, 사용자가 [보고서 메시지 추가 기능 사용](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2)을 사용 하 여 메시지를 보고할 수 있습니다.
 
-[스팸 방지 및 보호 FAQ](anti-spam-protection-faq.md)
+- **스팸 방지 메시지 헤더를 검사**합니다. 이러한 값은 메시지가 스팸으로 표시 된 이유와 스팸 필터링을 건너뛴 이유를 알려줍니다. 자세한 내용은 [스팸 방지 메시지 헤더](anti-spam-message-headers.md)를 참조하세요.
 
-[수신 허용 목록 또는 기타 방법으로 스팸으로 표시된 거짓 부정 전자 메일 차단](prevent-email-from-being-marked-as-spam.md)
+- **MX 레코드가 office 365에 게 가리키기**: EOP에서 최상의 보호를 제공 하려면 먼저 전자 메일을 office 365로 배달 하는 것이 좋습니다. 자세한 내용은 [dns 호스팅 공급자에서 Office 365에 대 한 dns 레코드 만들기](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider)를 참조 하세요.
 
-[정크 메시지를 차단할 수 있도록 Office 365 스팸 필터링을 설정 하는 방법](reduce-spam-email.md)
+  MX 레코드가 다른 위치 (예: 타사 스팸 방지 솔루션 또는 어플라이언스)를 가리키는 경우에는 EOP가 정확한 스팸 필터링을 제공 하기가 어렵습니다. 이 시나리오에서는 커넥터 ( _건너뛰기 목록_)에 대 한 향상 된 필터링을 구성 해야 합니다. 자세한 내용은 [Exchange Online의 커넥터에 대 한 향상 된 필터링](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors)을 참조 하십시오.
 
-[정크 이메일과 대량 이메일의 차이점이 무엇인가요?](what-s-the-difference-between-junk-email-and-bulk-email.md)
+- **전자 메일 인증 사용**: 전자 메일 도메인을 소유 하 고 있는 경우 DNS를 사용 하 여 해당 도메인의 보낸 사람 으로부터 메시지가 유효한 지 확인할 수 있습니다. EOP에서 스팸 및 원치 않는 스푸핑 문제를 방지 하려면 다음과 같은 전자 메일 인증 방법을 모두 사용 합니다.
 
-[스팸 방지 메시지 헤더](anti-spam-message-headers.md)
+  - **SPF**: 보낸 사람 정책 프레임 워크는 보내는 도메인의 소유자에 대해 메시지의 원본 IP 주소를 확인 합니다. SPF를 빠르게 도입하여 신속하게 구성하려면 [스푸핑 방지를 위해 Office 365에서 SPF 설정](set-up-spf-in-office-365-to-help-prevent-spoofing.md)을 참조하세요. Office 365에서 SPF를 사용하는 방법이나 문제 해결 또는 비표준 배포(예: 하이브리드 배포)에 대한 자세한 내용은 [Office 365에서 SPF(Sender Policy Framework)를 사용하여 스푸핑을 차단하는 방법](how-office-365-uses-spf-to-prevent-spoofing.md)을 참조하세요.
 
-[후방 분산 메시지 및 EOP](backscatter-messages-and-eop.md)
+  - **Dkim**: Domainkeys 확인 메일 도메인에서 보낸 메시지의 메시지 헤더에 디지털 서명을 추가 합니다. 자세한 내용은 [DKIM을 사용 하 여 Office 365에서 사용자 지정 도메인에서 보낸 아웃 바운드 전자 메일의 유효성 검사](use-dkim-to-validate-outbound-email.md)를 참조 하세요.
 
-## <a name="more-resources"></a>추가 리소스
+  - **DMARC**: 도메인 기반 메시지 인증, 보고 및 적합성은 대상 전자 메일 시스템에서 SPF 또는 dkim 검사가 실패 한 메시지에 대해 수행할 작업을 결정 하 고 전자 메일 파트너에 게 다른 수준의 신뢰를 제공 하는 데 도움이 됩니다. 자세한 내용은 [Office 365에서 DMARC을 사용 하 여 전자 메일의 유효성 검사를](use-dmarc-to-validate-email.md)참조 하세요.
 
-[Office 365 커뮤니티 포럼에서 도움 받기](https://techcommunity.microsoft.com/t5/Office-365/ct-p/Office365)
+- **대량 전자 메일 설정 확인**: 스팸 방지 정책에 구성 하는 BCL (대량 준수 수준) 임계값에 따라 대량 전자 메일 ( _회색 메일이_라고도 함)이 스팸으로 표시 되는지 여부가 결정 됩니다. 기본적으로 설정 되는 PowerShell 전용 _MarkAsSpamBulkMail_ 결과에도 기여 합니다. 자세한 내용은 [Office 365의 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)를 참조하세요.
 
-[관리자: 로그인 및 서비스 요청 만들기](https://portal.office.com/AdminPortal/Home?ref=support)
+### <a name="prevent-the-delivery-of-spam-to-the-inbox"></a>받은 편지함에 스팸 배달 방지
 
-[비즈니스 제품에 대 한 AContact 지원-관리자 도움말](https://docs.microsoft.com/Office365/Admin/contact-support-for-business-products)
+- **조직 설정 확인**: 스팸 방지 정책에서 허용 되는 도메인 목록에 자체 도메인을 추가 하는 경우와 같이 메시지가 스팸 필터링을 건너뛰는 것을 허용 하는 설정을 검토 합니다. 권장 설정에 대 한 자세한 내용은 [EOP And office 365 ATP security의 권장 설정](recommended-settings-for-eop-and-office365-atp.md) 및 [office 365에서 수신 허용-보낸 사람 목록 만들기](create-safe-sender-lists-in-office-365.md)를 참조 하세요.
+
+- **정크 메일 규칙이 사용자 사서함에서 사용 하도록 설정 되어 있는지 확인**: 기본적으로 사용 하도록 설정 되어 있지만 정크 메일로 표시 된 메시지를 정크 메일 폴더로 이동할 수 없습니다. 자세한 내용은 [Office 365에서 Exchange Online 사서함의 정크 메일 설정 구성을](configure-junk-email-settings-on-exo-mailboxes.md)참조 하세요.
+
+- **사용할 수 있는 차단 된 보낸 사람 목록 사용**: 자세한 내용은 [Office 365에서 차단 된 보낸 사람 목록 만들기](create-block-sender-lists-in-office-365.md)를 참조 하세요.
+
+- **대량 전자 메일 구독 취소** 사용자가 등록 한 메시지 (뉴스레터, 제품 공지 사항 등)가 있고 믿을 수 있는 출처의 구독 취소 링크를 포함 하는 경우 간단히 구독을 취소할 것을 요청 하는 것이 좋습니다.
+
+- **독립 실행형 EOP: 온-프레미스 exchange에서 EOP 스팸 필터링 verdicts에 대 한 메일 흐름 규칙 만들기**: EOP 온-프레미스 exchange 사서함을 보호 하는 독립 실행형 EOP 환경에서는 온-프레미스 exchange의 메일 흐름 규칙 (전송 규칙이 라고도 함)을 구성 하 여 정크 메일 규칙에서 메시지를 정크 메일 폴더로 이동할 수 있도록 해야 합니다. 자세한 내용은 [하이브리드 환경의 정크 메일 폴더에 스팸을 배달 하도록 독립 실행형 EOP 구성을](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md)참조 하십시오.
+
+### <a name="prevent-good-email-from-being-identified-as-spam"></a>전자 메일이 스팸으로 식별 되지 않도록 방지
+
+가양성을 방지 하기 위해 수행할 수 있는 몇 가지 단계는 다음과 같습니다.
+
+- **사용자의 Outlook 정크 메일 필터 설정을 확인 합니다**.
+
+  - **Outlook 정크 메일 필터가 사용 하지 않도록 설정 되어 있는지 확인**: Outlook 정크 메일 필터를 기본값인 **자동 필터링**이 해제 되지 않으면 outlook에서 massages를 스팸으로 분류 하지 않습니다.  **낮음** 또는 **높음으로**설정 된 경우 Outlook 정크 메일 필터는 자체 SmartScreen 필터 기술을 사용 하 여 스팸을 식별 하 고 정크 메일 폴더로 이동 하므로 가양성을 가져올 수 있습니다. Microsoft는 Exchange 및 11 월 2016의 Outlook에서 SmartScreen 필터에 대 한 스팸 정의 업데이트 생성을 중지 했습니다. 기존 SmartScreen 스팸 정의는 그대로 남아 있지만 해당 효율성은 시간이 지남에 따라 저하 될 수 있습니다.
+
+  - **Outlook ' 안전한 목록만 ' 설정이 사용 하지 않도록 설정 되어 있는지 확인**:이 설정을 사용 하도록 설정 하면 사용자의 수신 허용-보낸 사람 목록 또는 수신 허용-받는 사람 목록에 있는 보낸 사람의 메시지만 받은 편지 함으로 배달 됩니다. 다른 사용자의 전자 메일은 자동으로 정크 메일 폴더로 이동 됩니다.
+
+  이러한 설정에 대 한 자세한 내용은 [Office 365에서 Exchange Online 사서함의 정크 메일 설정 구성을](configure-junk-email-settings-on-exo-mailboxes.md)참조 하세요.
+
+- **사용할 수 있는 수신 허용-보낸 사람 목록을 사용**합니다. 자세한 내용은 [Office 365에서 수신 허용-보낸 사람 목록 만들기](create-safe-sender-lists-in-office-365.md)를 참조 하세요.
+
+- Exchange Online 서비스 설명의 [수신 및 전송 제한](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#receiving-and-sending-limits) 에 설명 된 대로, **사용자가 보내기 및 받기 제한 내에 있는지 확인** 합니다.
+
+- **독립 실행형 EOP: 디렉터리 동기화 사용**: 독립 실행형 EOP을 사용 하 여 온-프레미스 Exchange 조직을 보호 하는 경우 디렉터리 동기화를 사용 하 여 사용자 설정을 서비스와 동기화 해야 합니다. 이렇게 하면 EOP에서 수신 허용-보낸 사람 목록을 유지할 수 있습니다. 자세한 내용은 [메일 사용자 관리를 위한 디렉토리 동기화 사용을](manage-mail-users-in-eop.md#use-directory-synchronization-to-manage-mail-users) 참고하세요.
+
+## <a name="anti-spam-legislation"></a>스팸 방지 법규
+
+Microsoft에서는 새로운 기술 및 자체 규정을 개발 하는 데 효과적인 정부 정책 및 올바른 프레임 워크를 지원 해야 한다고 생각 합니다. 전 세계의 스팸 확산에는 상업용 전자 메일을 규제 하기 위해 수많은 기관 본문 spurred 있습니다. 이제 대부분의 국가에서는 스팸 방지 법이 마련 되었습니다. 미국에는 스팸이 관리 되는 연방 및 지방 법률이 있으며, 이러한 보완 방식은 합법적인 전자 상거래를 프로 스퍼로 설정 하는 동안 스팸을 curtail 하는 데 도움이 됩니다. CAN-스팸 Act는 curbing 사기 및 사기성 전자 메일 메시지에 사용할 수 있는 도구를 확장 합니다.

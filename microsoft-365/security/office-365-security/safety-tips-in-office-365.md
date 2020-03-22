@@ -1,5 +1,5 @@
 ---
-title: Office 365에서의 전자 메일 메시지에 대한 안전 조언
+title: Office 365에서 전자 메일 메시지의 안전 팁
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -17,14 +17,14 @@ ms.assetid: fb4f8e49-0468-4be2-8fa6-99501f1ad9d5
 ms.collection:
 - M365-security-compliance
 description: EOP 및 Office 365 스팸 필터로 필터링 된 전자 메일 메시지에 대 한 보안 팁이 도입 되었습니다.
-ms.openlocfilehash: 1fddb38be711a9d43e85adea34fe14eb9e7a85ef
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: bd493fba7a41f9452f915ff456c9483f48e299f5
+ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42082349"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42895194"
 ---
-# <a name="safety-tips-in-email-messages-in-office-365"></a>Office 365에서의 전자 메일 메시지에 대한 안전 조언
+# <a name="safety-tips-in-email-messages-in-office-365"></a>Office 365에서 전자 메일 메시지의 안전 팁
 
 EOP (Exchange Online Protection) 및 Office 365는 스팸, 피싱 및 맬웨어 방지 기능을 사용 하 여 사용자를 보호 합니다. 현재 이러한 공격 중 일부는 합법적인 것으로 제대로 조작 되었습니다. 정크 메일 폴더로 메시지를 보내는 것이 항상 적절 하지는 않습니다. 이제 Outlook 또는 웹용 Outlook에서 전자 메일을 확인 하면 EOP에서 보낸 사람을 자동으로 확인 하 고 전자 메일의 맨 위에 보안 팁을 추가 합니다.
 
@@ -58,11 +58,6 @@ EOP (Exchange Online Protection) 및 Office 365는 스팸, 피싱 및 맬웨어 
 
 ## <a name="working-with-safety-tips"></a>보안 팁 작업
 
-모든 메시지가 메시지를 받지 않더라도 보안 팁은 웹에서 항상 Outlook에 대해 사용 하도록 설정 됩니다. Office 365 관리자는 Outlook과 같은 다른 전자 메일 클라이언트에 대해 보안 팁을 해제할 수 있습니다. 자세한 내용은 [Office 365에서 보안 팁 사용 또는 사용 안 함을](enable-or-disable-safety-tips.md)참조 하세요.
+모든 메시지가 메시지를 받지 않더라도 보안 팁은 웹에서 항상 Outlook에 대해 사용 하도록 설정 됩니다. Office 365 관리자는 Outlook과 같은 다른 전자 메일 클라이언트에 대해 보안 팁을 해제할 수 있습니다. 자세한 내용은 [Office 365의 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)를 참조하세요.
 
 Office 365 및 EOP에서 메시지를 범주화 한 방법 (스팸이 아니거나 합법적인 것이 아님)이 만족 스 럽 지 않은 경우에는 분석을 위해 메시지를 제출 하 여 환경을 개선 하는 데 도움을 받을 수 있습니다. 자세한 내용은 [웹용 Outlook에서 정크 메일 및 피싱 사기 보고](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md)를 참조 하세요. 보안 팁의 피드백 링크를 클릭 하 여 의견을 Microsoft에 직접 제출 하 여 개선할 수 있도록 도울 수도 있습니다.
-
-## <a name="see-also"></a>참고 항목
-
-[Office 365에서 보안 팁 사용 여부 설정](enable-or-disable-safety-tips.md)
-

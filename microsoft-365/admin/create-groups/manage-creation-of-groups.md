@@ -1,7 +1,6 @@
 ---
 title: Office 365 그룹을 만들 수 있는 사용자 관리
-f1.keywords:
-- NOCSH
+f1.keywords: NOCSH
 ms.author: mikeplum
 ms.reviewer: arvaradh
 author: MikePlumleyMSFT
@@ -22,19 +21,19 @@ search.appverid:
 - MOE150
 ms.assetid: 4c46c8cb-17d0-44b5-9776-005fced8e618
 description: Office 365 그룹을 만들 수 있는 사용자를 제어 하는 방법을 알아봅니다.
-ms.openlocfilehash: a6016f6406b211aae216702910a696be50e1b82c
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 0da8aded4b7a55975a9327cc4f29ff8679b3ccf2
+ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42352639"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42894554"
 ---
 # <a name="manage-who-can-create-office-365-groups"></a>Office 365 그룹을 만들 수 있는 사용자 관리
 
   
 사용자가 Office 365 그룹을 매우 쉽게 만들 수 있으므로 다른 사람을 대신하여 이러한 그룹을 만들어 달라는 요청을 많이 받게 되지는 않습니다. 그러나 비즈니스에 따라 그룹을 만들 수 있는 사용자를 제어하고자 할 수 있습니다.
   
-이 문서에서는 **그룹을 사용하는 모든 Office 365 서비스에서** 그룹을 만드는 기능을 사용하지 않도록 설정하는 방법을 설명합니다. 
+이 문서에서는 다음을 비롯 한 그룹을 사용 하는 모든 Office 365 서비스에서 그룹을 만드는 기능을 사용 하지 않도록 설정 하는 방법을 설명 합니다.
   
 - Outlook
     
@@ -92,7 +91,7 @@ ms.locfileid: "42352639"
 위에 나열 된 역할의 관리자는 그룹을 만들 수 있는 기능을 유지 하므로이 그룹의 구성원 일 필요는 없습니다.
 
 > [!IMPORTANT]
-> **보안 그룹** 을 사용 하 여 그룹을 만들 수 있는 사용자를 제한 해야 합니다. Office 365 그룹을 사용하려고 하면 SharePoint에서 보안 그룹을 확인하므로 구성원이 SharePoint에서 그룹을 만들 수 없습니다. 
+> **보안 그룹** 을 사용 하 여 그룹을 만들 수 있는 사용자를 제한 해야 합니다. Office 365 그룹을 사용 하려고 하면 보안 그룹을 확인 하므로 구성원이 SharePoint에서 그룹을 만들 수 없습니다. 
     
 1. 관리 센터에서 **그룹** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">그룹</a> 페이지로 이동 합니다.
 
@@ -103,63 +102,22 @@ ms.locfileid: "42352639"
 4. 조직에서 그룹을 만들 수 있도록 하려는 사용자 또는 다른 보안 그룹을 추가 하 여 보안 그룹 설정을 완료 합니다.
     
 자세한 내용은 [Microsoft 365 관리 센터에서 보안 그룹 만들기, 편집 또는 삭제](../email/create-edit-or-delete-a-security-group.md)를 참조 하세요.
-  
-## <a name="step-2-install-the-preview-version-of-the-azure-active-directory-powershell-for-graph"></a>2 단계: Graph 용 Azure Active Directory PowerShell의 preview 버전 설치
+ 
+## <a name="step-2-run-powershell-commands"></a>2단계: PowerShell 명령 실행
 
-이러한 절차를 수행 하려면 Graph 용 Azure Active Directory PowerShell의 preview 버전이 필요 합니다. GA 버전은 작동 하지 않습니다.
+그룹 수준 게스트 액세스 설정을 변경 하려면 AzureAD (module name **AzureADPreview**)의 [Azure Active Directory PowerShell for Graph](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2) 의 preview 버전을 사용 해야 합니다.
+
+- 이전에 Azure AD PowerShell 모듈의 어떠한 버전도 설치하지 않은 경우 [Azure AD 모듈 설치](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2?view=azureadps-2.0-preview#installing-the-azure-ad-module)를 참조하고 지침에 따라 공개 미리 보기 릴리스를 설치합니다.
+
+- AzureAD(Azure AD PowerShell 모듈)의 2.0 일반 가용성 버전을 설치한 경우에는 PowerShell 세션에서 `Uninstall-Module AzureAD`를 실행하여 제거를 하고 `Install-Module AzureADPreview`를 실행하여 미리 보기 버전을 설치해야 합니다.
+
+- 미리 보기 버전을 이미 설치한 경우에는 `Install-Module AzureADPreview`를 실행하여 이 모듈의 최신 버전인지 확인합니다.
 
 
-> [!IMPORTANT]
-> 같은 컴퓨터에 preview와 GA 버전을 동시에 모두 설치할 수는 없습니다. Windows 10, Windows Server 2016에 모듈을 설치할 수 있습니다.
-
-  
-*항상*  최신 상태로 유지하는 것이 좋습니다. 이전 AzureADPreview 또는 old AzureAD 버전을 제거하고 최신 버전을 설치하세요. 
-  
-1. 검색 창에 Windows PowerShell을 입력합니다.
-    
-2. Right-click on **Windows PowerShell** and select **Run as Administrator**.
-    
-    !["관리자 권한으로 실행"으로 PowerShell을 여세요.](../../media/52517af8-c7b0-4c8f-b2f3-0f82f9d5ace1.png)
-    
-3. [ExecutionPolicy](https://docs.microsoft.com/powershell/module/microsoft.powershell.security/set-executionpolicy)을 사용 하 여 RemoteSigned에 정책을 설정 합니다.
-    
-    ```
-    Set-ExecutionPolicy RemoteSigned
-    ```
-  
-4. 설치된 모듈 확인:
-    
-    ```
-    Get-InstalledModule -Name "AzureAD*"
-    ```
-
-5. 이전 버전의 AzureADPreview 또는 AzureAD를 제거하려면 다음 명령을 실행합니다.
-  
-    ```
-    Uninstall-Module AzureADPreview
-    ```
-
-    또는
-  
-    ```
-    Uninstall-Module AzureAD
-    ```
-
-6. To install the latest version of AzureADPreview, run this command:
-  
-    ```
-    Install-Module AzureADPreview
-    ```
-
-    At the message about an untrusted repository, type **Y**. It will take a minute or so for the new module to install. 
-
-아래의 3 단계에 대해 PowerShell 창을 열어 두세요.
-  
-## <a name="step-3-run-powershell-commands"></a>3 단계: PowerShell 명령 실행
 
 아래 스크립트를 메모장과 같은 텍스트 편집기 또는 [Windows POWERSHELL ISE](https://docs.microsoft.com/powershell/scripting/components/ise/introducing-the-windows-powershell-ise)에 복사 합니다.
 
-* \<SecurityGroupName\> * 을 만든 보안 그룹의 이름으로 바꿉니다. 예:
+* \<SecurityGroupName\> * 을 만든 보안 그룹의 이름으로 바꿉니다. 예시:
 
 `$GroupName = "Group Creators"`
 

@@ -1,8 +1,7 @@
 ---
 title: Office 365 그룹을 만들 때 사용할 도메인 선택
 ms.reviewer: arvaradh
-f1.keywords:
-- NOCSH
+f1.keywords: NOCSH
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
@@ -20,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 7cf5655d-e523-4bc3-a93b-3ccebf44a01a
 description: 'PowerShell을 사용 하 여 전자 메일 주소 정책을 구성 하 여 Office 365 그룹을 만들 때 사용할 도메인을 선택 하는 방법을 알아봅니다. '
-ms.openlocfilehash: 55fc99cd201e66166e7da164777cfba2f763609c
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 8bca0e3c33d5cb523fc075d1d2d5b04b6506b256
+ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42245503"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42894648"
 ---
 # <a name="choose-the-domain-to-use-when-creating-office-365-groups"></a>Office 365 그룹을 만들 때 사용할 도메인 선택
 
@@ -113,7 +112,7 @@ EAP를 변경 해도 이미 프로 비전 된 그룹에는 영향을 주지 않�
     
 - 관리자 및 사용자는 그룹을 만들 때 도메인을 수정할 수도 있습니다.
     
-- 사용자 그룹은 이미 사용 가능한 표준 쿼리 (사용자 속성)를 사용 하 여 결정 됩니다. 지원 되는 필터링 할 수 있는 pproperties에 대 한 [-RecipientFilter 매개 변수의 필터링 된 속성](https://go.microsoft.com/fwlink/p/?LinkId=785918) 을 확인 합니다. 
+- 사용자 그룹은 이미 사용 가능한 표준 쿼리 (사용자 속성)를 사용 하 여 결정 됩니다. 지원 되는 필터링 할 수 있는 속성에 대 한 [-RecipientFilter 매개 변수의 필터링 된 속성](https://go.microsoft.com/fwlink/p/?LinkId=785918) 을 확인 합니다. 
     
 - 그룹에 대해 EAPs를 구성 하지 않으면 그룹을 만들 때 사용할 수 있는 기본 허용 도메인을 선택 합니다.
     

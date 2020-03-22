@@ -12,12 +12,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: 7ab3f63008c65fca1a99128cc6f11f83bc86b2b4
-ms.sourcegitcommit: fe4beef350ef9f39b1098755cff46fa2b8e7dc4d
+ms.openlocfilehash: 1dfb567c8e6b8573397d503ae27c0aceb447c916
+ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42857697"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42895466"
 ---
 # <a name="machine-profile-page"></a>컴퓨터 프로필 페이지
 
@@ -29,9 +29,7 @@ Microsoft 365 보안 포털은 컴퓨터 프로필 페이지를 제공 하므로
 
 ## <a name="navigating-the-machine-profile-page"></a>컴퓨터 프로필 페이지 탐색
 
-컴퓨터 프로필 페이지는 컴퓨터 목록에서 장치 이름을 직접 선택 하거나 컴퓨터 목록 플라이 아웃에서 **컴퓨터 열기 페이지** 를 선택 하 여 액세스할 수 있습니다.
-
-페이지를 연 후에는 세 섹션으로 구분 됩니다.
+컴퓨터 프로필 페이지는 세 섹션으로 구분 됩니다.
 
 ![컴퓨터 프로필 페이지 이미지 (1) 탭 영역 (2) 보조 메뉴가 있고 (3) 작업이 빨간색으로 강조 표시 됨](../../media/mtp-machine-profile/mtp-machine-profile-all.png)
 

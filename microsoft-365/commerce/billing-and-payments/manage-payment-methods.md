@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - BEA160
 description: Microsoft 365 관리 센터에서 결제 방법을 관리 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 61c6d0b4fb21762eaeee96d8923eda7702fc70bb
-ms.sourcegitcommit: cf07dfccec476ac2526a6171ec6b6365686f759f
+ms.openlocfilehash: 997b957bb28d32402e17eb855bc891ed07e5f27f
+ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/29/2020
-ms.locfileid: "42341596"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42894844"
 ---
 # <a name="manage-payment-methods"></a>결제 방법 관리
 
@@ -35,6 +35,15 @@ Microsoft에서 비즈니스 제품 또는 서비스를 구매할 때 기존 결
 > 일부 국가나 지역에서는 은행 계좌 결제 옵션을 사용할 수 없습니다.
 >
 > 테 넌 트와 동일한 국가에서 발급 된 결제 방법을 사용 해야 합니다.
+
+## <a name="add-a-payment-method"></a>결제 방법 추가
+
+결제 방법을 추가 해도 구독이 연결 되지 않습니다. 지불 방법에 대해 단일 구독을 할당 하려면 [단일 구독에 대 한 결제 방법 변경을](#change-a-payment-method-for-a-single-subscription)참조 하십시오. 다른 결제 방법을 사용 하는 모든 구독을 새 것으로 바꾸려면 [결제 방법 바꾸기를](#replace-a-payment-method)참조 하세요.
+
+1. 관리 센터에서 **청구** > **금액 & 지불** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2018806" target="_blank">지불 방법</a> 페이지로 이동 합니다.
+2. **결제 방법 추가**를 선택합니다.
+3. **결제 방법** 페이지의 드롭다운 메뉴에서 결제 방법을 선택합니다.
+4. 새 카드나 은행 계좌에 대 한 정보를 입력 하 고 **추가**를 선택 합니다.
 
 ## <a name="update-payment-method-details"></a>결제 방법 세부 정보 업데이트
 
@@ -96,8 +105,8 @@ Microsoft에서 비즈니스 제품 또는 서비스를 구매할 때 기존 결
     > 청구 프로필과 연결 된 구독이 있는 경우 신용 카드로 결제 하는 경우에만 해당 구독을 사용할 수 있습니다. **결제 방법** 페이지에 나열 된 은행 계좌는 드롭다운 목록에서 선택할 수 없습니다.
 5. 새 결제 방법을 추가 하려면 **지불 방법 추가**를 선택 합니다.
 6. 추가 하려는 결제 방법의 유형을 선택 하 고 계정 정보를 입력 한 다음 **저장**을 선택 합니다.
-7. 드롭다운 목록에서 새 결제 방법이 이미 선택 되어 있습니다.  Select **Next**. 
-8. **삭제**를 선택 합니다.
+7. 드롭다운 목록에서 새 결제 방법이 이미 선택 되어 있습니다. **다음**을 선택합니다.
+8. **삭제**를 선택합니다.
 
 ## <a name="troubleshoot-payment-methods"></a>결제 방법 문제 해결
 

@@ -2,10 +2,10 @@
 title: 아웃바운드 메시지용 높은 위험 배달 풀
 f1.keywords:
 - NOCSH
-ms.author: tracyp
-author: MSFTTracyP
+ms.author: chrisda
+author: chrisda
 manager: dansimp
-ms.date: 8/24/2016
+ms.date: ''
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -15,42 +15,41 @@ search.appverid:
 ms.assetid: ac11edd9-2da3-462d-8ea3-bbf9dbc6f948
 ms.collection:
 - M365-security-compliance
-description: 고객의 전자 메일 시스템이 맬웨어 또는 악성 스팸 공격에 의해 손상 되 고 호스팅된 필터링 서비스를 통해 아웃 바운드 스팸 메일을 보내는 경우이로 인해 타사 블록에 나열 되는 Office 365 데이터 센터 서버의 IP 주소가 생성 될 수 있습니다. 주고.
-ms.openlocfilehash: 19987ae74b9c78a796ddb5f13cf8291a5ed269ad
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+description: 위험성이 높은 배달 풀을 사용 하 여 Office 365 데이터 센터의 전자 메일 서버 신뢰도를 보호 하는 방법을 알아봅니다.
+ms.openlocfilehash: 5d1bd2b14eb17ed74ee1cf1e44967f660f4595b8
+ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41599235"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42895362"
 ---
-# <a name="high-risk-delivery-pool-for-outbound-messages"></a>아웃바운드 메시지용 높은 위험 배달 풀
+# <a name="high-risk-delivery-pool-for-outbound-messages-in-office-365"></a>Office 365의 아웃 바운드 메시지에 대 한 위험성이 높은 배달 풀
 
-고객의 전자 메일 시스템이 맬웨어 또는 악성 스팸 공격에 의해 손상 되 고 호스팅된 필터링 서비스를 통해 아웃 바운드 스팸 메일을 보내는 경우이로 인해 타사 블록에 나열 되는 Office 365 데이터 센터 서버의 IP 주소가 생성 될 수 있습니다. 주고. 호스트 필터링 서비스를 사용 하지 않지만 이러한 차단 목록을 사용 하 여 해당 목록에 추가 된 호스트 필터링 IP 주소에서 보낸 모든 전자 메일은 거부 하는 대상 서버입니다. 이를 방지 하기 위해 스팸 임계값을 초과 하는 모든 아웃 바운드 메시지는 위험성이 높은 배달 풀을 통해 전송 됩니다. 이 보조 아웃 바운드 전자 메일 풀은 저품질 일 수 있는 메시지를 보내는 데만 사용 됩니다. 이렇게 하면 네트워크의 나머지 부분에서 보내는 IP 주소가 차단 될 가능성이 높은 메시지가 전송 되지 않도록 할 수 있습니다.
-  
-전용 위험성이 높은 배달 풀을 사용 하면 일반 아웃 바운드 풀이 높은 품질로 알려진 메시지만 보낼 수 있습니다. 이 보조 IP 풀을 사용 하면 일반 아웃 바운드 IP 풀이 차단 된 목록에 추가 될 가능성을 줄일 수 있습니다. 위험성이 높은 배달 풀이 차단 된 목록에 포함 될 가능성은 여전히 위험에 노출 됩니다. 이는 설계에 따른 것입니다.
-  
-보내는 도메인에 도메인의 IP 주소를 제공 하는 주소 레코드 (A 레코드) 및 DNS의 특정 도메인에 대 한 메일을 받아야 하는 서버로 메일을 보낼 수 있도록 하는 MX 레코드가 없는 메시지는 항상 스팸 처리에 관계 없이 위험성이 높은 배달 풀
-  
-## <a name="understanding-delivery-status-notification-dsn-messages"></a>DSN (배달 상태 알림) 메시지 이해
+Office 365 데이터 센터의 전자 메일 서버가 일시적으로 스팸 메일을 guilty 수 있습니다. 예를 들어 온-프레미스 전자 메일 조직에서 Office 365 또는 손상 된 Office 365 계정을 통해 아웃 바운드 메일을 보내는 맬웨어 또는 악성 스팸 공격이 발생 합니다. 이러한 시나리오로 인해 영향을 받는 Office 365 데이터 센터 서버의 IP 주소가 타사 차단 목록에 표시 될 수 있습니다. 이러한 차단 목록을 사용 하는 대상 전자 메일 조직은 해당 메시지 원본의 전자 메일을 거부 합니다.
 
-아웃 바운드 높은 위험 배달 풀은 모든 "반송" 또는 "실패" (DSN) 메시지의 배달을 관리 합니다.
-  
-DSN 메시지가 갑자기 증가하는 경우의 가능한 원인은 다음과 같습니다.
-  
-- 서비스 사용 고객 중 한 명에게 영향을 주는 스푸핑 캠페인
-    
-- 디렉터리 수집 공격
-    
+이를 방지 하기 위해 스팸으로 확인 되거나 [서비스](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#sending-limits-across-office-365-options) 의 전송 제한을 초과 하는 Office 365 데이터 센터 서버의 모든 아웃 바운드 메시지는 _높은 위험 배달 풀_ [을 통해 전송 됩니다.](configure-the-outbound-spam-policy.md)
+
+높은 위험 배달 풀은 "낮은 품질" 메시지 (예: 스팸 및 [백 분산](backscatter-messages-and-eop.md))를 보내는 데만 사용 되는 아웃 바운드 전자 메일에 대 한 보조 IP 주소 풀입니다. 높은 위험 배달 풀을 사용 하면 아웃 바운드 전자 메일에 대 한 일반 IP 주소 풀이 스팸을 보내지 못합니다. 아웃 바운드 전자 메일의 일반 IP 주소 풀은 "고품질" 메시지를 보내는 신뢰도를 유지 하므로 이러한 IP 주소가 IP 차단 목록에 표시 되는 가능성이 줄어듭니다.
+
+높은 위험 배달 풀의 IP 주소가 IP 차단 목록에 남아 있는 것은 매우 실질적인 일 이지만 이것은 의도적으로 설계 된 것입니다. 대부분의 전자 메일 조직에서는 높은 위험 배달 풀의 메시지를 수락 하지 않으므로 원하는 받는 사람에 게 배달할 수 없습니다.
+
+자세한 내용은 [Office 365에서 아웃 바운드 스팸 제어](outbound-spam-controls.md)를 참조 하세요.
+
+> [!NOTE]
+> 원본 전자 메일 도메인에 레코드가 없고 공용 DNS에 정의 된 MX 레코드가 없는 메시지는 항상 스팸 또는 전송 제한 처리에 관계 없이 위험성이 높은 배달 풀을 통해 라우팅됩니다.
+
+## <a name="bounce-messages"></a>바운스 메시지
+
+아웃 바운드 높은 위험 배달 풀은 모든 배달 못 함 보고서 (Ndr, 바운스 메시지, 배달 상태 알림 또는 Dsn)에 대 한 배달을 관리 합니다.
+
+Ndr의 서 지에 대 한 가능한 원인은 다음과 같습니다.
+
+- 서비스를 사용 하는 고객 중 한 명에 게 영향을 주는 스푸핑 캠페인
+
+- 디렉터리 수집 공격입니다.
+
 - 스팸 공격
-    
-- Rogue SMTP 서버
-    
-이러한 모든 문제로 인해 서비스에서 처리하는 DSN 메시지의 수가 급증할 수 있습니다. 대부분의 경우 이러한 DSN 메시지는 다른 전자 메일 서버 및 서비스에 스팸으로 표시 됩니다.
-  
-## <a name="for-more-information"></a>자세한 내용
 
-[아웃바운드 스팸 정책 구성](configure-the-outbound-spam-policy.md)
-  
-[스팸 방지 및 보호 FAQ](anti-spam-protection-faq.md)
-  
+- Rogue 전자 메일 서버
 
+이러한 모든 문제로 인해 서비스에서 처리 하는 Ndr 수가 급격 하 게 증가할 수 있습니다. 여러 번 이러한 ndr은 다른 전자 메일 서버 및 서비스에 스팸으로 표시 됩니다 ( _[후방 산란](backscatter-messages-and-eop.md)_ 이 라고도 함).

@@ -1,8 +1,7 @@
 ---
 title: Office 365 그룹 만료 정책
 ms.reviewer: arvaradh
-f1.keywords:
-- NOCSH
+f1.keywords: NOCSH
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
@@ -19,18 +18,18 @@ search.appverid:
 - MET150
 - MOE150
 description: Office 365 그룹 만료 정책에 대해 알아봅니다.
-ms.openlocfilehash: c4c2f7b98247cc81b3fadc561f92084f9bd39c96
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 40b0b56507c46f2a658126627d5f8794848bde27
+ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42352589"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42894518"
 ---
 # <a name="office-365-group-expiration-policy"></a>Office 365 그룹 만료 정책
 
 Office 365 그룹의 사용이 증가 함에 따라서 관리자와 사용자는 사용 하지 않는 그룹을 정리할 수 있는 방법이 필요 합니다. 만료 정책은 시스템에서 비활성 그룹을 제거 하는 데 도움이 될 수 있습니다.
 
-그룹이 만료 되 면 연결 된 모든 서비스 (사서함, Planner, SharePoint 사이트 등)도 삭제 됩니다.
+그룹이 만료 되 면 관련 된 모든 서비스 (사서함, Planner, SharePoint 사이트, 팀 등)도 삭제 됩니다.
 
 그룹이 만료 되 면 "일시 삭제"가 되어 최대 30 일 동안 복구할 수 있다는 것을 의미 합니다.
 
@@ -44,7 +43,7 @@ Office 365 그룹의 사용이 증가 함에 따라서 관리자와 사용자는
 > [!IMPORTANT]
 > 만료 정책을 변경 하면 서비스에서 각 그룹의 만료 날짜를 다시 계산 합니다. 항상 그룹을 만든 날짜부터 계산을 시작 하 고 새 만료 정책을 적용 합니다.
 
-만료는 기본적으로 꺼져 있다는 것을 알아야 합니다. 관리자가 사용 하려는 테 넌 트에 대해이 기능을 사용 하도록 설정 해야 합니다.
+만료는 기본적으로 꺼져 있다는 것을 알아야 합니다. 관리자가 사용 하려는 조직에 대해이를 사용 하도록 설정 해야 합니다.
 
 > [!NOTE]
 > Office 365 그룹에 대 한 만료 정책을 구성 하 고 사용 하려면 만료 정책이 적용 되는 모든 그룹의 구성원에 대해 Azure AD Premium 라이선스를 소유 하 고 반드시 할당 해야 하는 것은 아닙니다. 자세한 내용은 [Azure Active Directory Premium 시작을](https://docs.microsoft.com/azure/active-directory/active-directory-get-started-premium)참조 하세요.
@@ -62,7 +61,7 @@ Office 365 그룹의 사용이 증가 함에 따라서 관리자와 사용자는
 
 그룹 수명은 일 단위로 지정 되며 180, 365 또는 지정한 사용자 지정 값으로 설정할 수 있습니다. 사용자 지정 값은 30 일 이상 이어야 합니다.
 
-그룹에 소유자가 없는 경우 만료 전자 메일은 지정 된 관리자에 게 전달 됩니다.
+그룹에 소유자가 없으면 만료 전자 메일이 지정 된 관리자에 게 전달 됩니다.
 
 모든 그룹에 대 한 정책, 선택한 그룹만 설정할 수 있으며, **없음 (없음**)을 선택 하 여 완전히 끌 수도 있습니다. 현재 다른 그룹에 대해 서로 다른 정책을 사용할 수 없습니다.
 

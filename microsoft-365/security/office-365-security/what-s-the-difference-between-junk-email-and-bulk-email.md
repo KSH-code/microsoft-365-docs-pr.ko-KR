@@ -16,12 +16,12 @@ ms.assetid: 8079f193-1b40-4081-9e5d-d0e50dfbcc59
 ms.collection:
 - M365-security-compliance
 description: 고객의 경우에 따라 정크 메일과 대량 전자 메일 메시지의 차이점은 무엇 인가요? 이 항목의 목적은 차이점을 설명 하 고 Exchange Online 및 Exchange Online Protection (EOP)에서 모두 사용할 수 있는 다양 한 옵션에 대 한 정보를 제공 하기 위한 것입니다.
-ms.openlocfilehash: a427fd7a37ec4a5b9828a0f78a32d6e5fd54d69b
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 55924ac5e83ca109fd66d1723cdb7c5f43f20df6
+ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597985"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42895038"
 ---
 # <a name="whats-the-difference-between-junk-email-and-bulk-email"></a>정크 메일과 대량 전자 메일의 차이점
 
@@ -32,7 +32,7 @@ ms.locfileid: "41597985"
 정크 메일 메시지는 서비스에 의해 필터링되는 원치 않는(그리고 일반적으로 불필요한) 이메일 메시지인 "스팸" 메시지입니다. 기본적으로 서비스에서는 보내는 IP 주소의 신뢰도에 따라 스팸 메시지를 거부합니다. 그러나 IP 검사를 통과했지만 콘텐츠 필터에 의해 스팸으로 분류된 메시지는 지정된 받는 사람의 정크 메일 폴더로 전송됩니다. 
   
 > [!NOTE]
-> 콘텐츠 필터링 된 메시지에 대해 수행 되는 작업은 [스팸 필터 정책 구성](configure-your-spam-filter-policies.md)의 설명에 따라 EAC (Exchange 관리 센터)의 콘텐츠 필터 정책을 통해 구성할 수 있습니다. 또한 스팸 분류에 동의 하지 않는 경우 microsoft에 [분석용 스팸, 스팸 아님 및 피싱 사기 메시지](submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md)에 설명 된 것 처럼 스팸으로, 스팸이 아닌 것으로 간주 하는 메시지를 microsoft에 보고할 수 있습니다. 
+> 콘텐츠가 필터링 된 메시지에 대해 수행 되는 작업은 [Office 365의 스팸 방지 정책 구성](configure-your-spam-filter-policies.md)에 설명 되어 있는 EAC (Exchange 관리 센터)의 콘텐츠 필터 정책을 통해 구성할 수 있습니다. 또한 스팸 분류에 동의 하지 않는 경우 microsoft에 [분석용 스팸, 스팸 아님 및 피싱 사기 메시지](submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md)에 설명 된 것 처럼 스팸으로, 스팸이 아닌 것으로 간주 하는 메시지를 microsoft에 보고할 수 있습니다. 
   
  **대량 전자 메일이란?**
   
@@ -44,6 +44,6 @@ ms.locfileid: "41597985"
   
 ### <a name="enable-bulk-mail-sensitivity-control-in-the-content-filter-policy"></a>콘텐츠 필터 정책에서 대량 메일 민감도 제어 사용
 
-대량 전자 메일 메시지에 대 한 회사 정책에 따라 관리자는 임계값을 선택 하 여 대량 전자 메일을 할당할 수 있습니다. 이 설정은 EAC에서 콘텐츠 필터 정책을 통해 구성할 수 있습니다. 자세한 [내용은 스팸 필터 정책 구성을](configure-your-spam-filter-policies.md) 참조 하십시오. 1에서 최대 대량 전자 메일을 스팸으로 표시 하 고 9에서 최대 대량 전자 메일을 배달 하도록 허용 하는 임계값 설정을 1-9에서 선택할 수 있습니다. 그러면 서비스에서 받는 사람의 정크 메일 폴더로 메시지를 보내는 등의 구성된 작업을 수행합니다. 
+대량 전자 메일 메시지에 대 한 회사 정책에 따라 관리자는 임계값을 선택 하 여 대량 전자 메일을 할당할 수 있습니다. 이 설정은 EAC에서 콘텐츠 필터 정책을 통해 구성할 수 있습니다. 단계에 대해서는 [Office 365에서 스팸 방지 정책 구성을](configure-your-spam-filter-policies.md) 확인 합니다. 1에서 최대 대량 전자 메일을 스팸으로 표시 하 고 9에서 최대 대량 전자 메일을 배달 하도록 허용 하는 임계값 설정을 1-9에서 선택할 수 있습니다. 그러면 서비스에서 받는 사람의 정크 메일 폴더로 메시지를 보내는 등의 구성된 작업을 수행합니다. 
   
 

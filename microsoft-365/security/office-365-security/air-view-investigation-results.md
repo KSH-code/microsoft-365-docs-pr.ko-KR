@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 ms.collection: M365-security-compliance
 description: Office 365에서 자동화 된 조사가 진행 되는 동안과 후에는 결과 및 주요 발견 사항을 볼 수 있습니다.
-ms.openlocfilehash: 638559efe5f7028a647b466c030a339c677601ce
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: 104be669dcb6d22cba00974075418e2d14ed629c
+ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42633846"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42894231"
 ---
 # <a name="details-and-results-of-an-automated-investigation-in-office-365"></a>Office 365의 자동화 된 조사에 대 한 세부 정보 및 결과
 
@@ -248,6 +248,6 @@ ms.locfileid: "42633846"
 
 ## <a name="next-steps"></a>다음 단계
 
-- [보류 중인 작업 검토 및 승인](air-remediation-actions.md)
+- [보류 중인 작업 검토 및 승인](https://review.docs.microsoft.com/microsoft-365/security/office-365-security/air-review-approve-pending-completed-actions)
 
 - [Microsoft Threat Protection의 자동화 된 조사 및 응답에 대해 자세히 알아보기](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-autoir)

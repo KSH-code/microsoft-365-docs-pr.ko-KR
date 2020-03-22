@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: aaca8987-5b62-458b-9882-c28476a66918
 description: 사서함 감사 로깅은 기본적으로 Office 365에서 설정 됩니다 (기본 사서함 감사 또는 사서함 감사가 기본적으로 라고도 함). 즉, 사서함 소유자, 대리인 및 관리자가 수행 하는 특정 작업이 사서함 감사 로그에 자동으로 기록 되므로 사서함에 대해 수행 된 작업을 검색할 수 있습니다.
-ms.openlocfilehash: 6a1c435ca3be16ef2f4926cce56afe180c576f15
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: 2b69d63e63e049566c9827f08d2ead592b918684
+ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42634966"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42894923"
 ---
 # <a name="manage-mailbox-auditing"></a>사서함 감사 관리
 
@@ -107,7 +107,7 @@ Get-OrganizationConfig | Format-List AuditDisabled
 |**AddFolderPermissions**|**참고**:이 값은 사서함 작업으로 허용 되지만 **updatefolderpermissions** 작업에 이미 포함 되어 있으며 별도로 감사 되지 않습니다. 즉,이 값을 사용 하지 마십시오.||||
 |**ApplyRecord**|항목은 레코드로 레이블이 지정 됩니다.|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
 |**복사**|메시지가 다른 폴더에 복사되었습니다.|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|||
-|**만들기**|사서함의 일정, 연락처, 메모 또는 작업 폴더 (예: 새 모임 요청이 만들어짐)에 항목이 만들어집니다. 메시지 만들기, 보내기 또는 받기는 감사 되지 않습니다. 사서함 폴더 만들기도 감사되지 않습니다.|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
+|**만들기**|사서함의 일정, 연락처, 메모 또는 작업 폴더 (예: 새 모임 요청이 만들어짐)에 항목이 만들어집니다. 메시지 작성, 보내기 또는 받기는 감사되지 않습니다. 사서함 폴더 만들기도 감사되지 않습니다.|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
 |**기본값**||![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
 |**FolderBind**|사서함 폴더에 액세스했습니다. 관리자 또는 대리인이 사서함을 열 때에도 작업이 기록됩니다.<br/><br/> **참고**: 대리인에 의해 수행 된 폴더 바인드 작업에 대 한 감사 기록이 통합 되어 있습니다. 24 시간 내에 개별 폴더 액세스에 대 한 감사 레코드 하나를 생성 합니다.|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
 |**HardDelete**|메시지가 복구 가능한 항목 폴더에서 제거되었습니다.|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|
@@ -141,7 +141,7 @@ Office 365 그룹 사서함에 대 한 모든 권한이 있는 관리자는 대�
 
 |**사서함 작업**|**설명**|**Admin**|**대리인**|**소유자**|
 |:---------|:---------|:---------:|:---------:|:---------:|
-|**만들기**|일정 항목 만들기 메시지 만들기, 보내기 또는 받기는 감사 되지 않습니다.|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>||
+|**만들기**|일정 항목 만들기 메시지 작성, 보내기 또는 받기는 감사되지 않습니다.|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>||
 |**HardDelete**|메시지가 복구 가능한 항목 폴더에서 제거되었습니다.|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|
 |**MoveToDeletedItems**|메시지가 삭제되어 지운 편지함 폴더로 이동되었습니다.|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|
 |**SendAs**|SendAs 권한을 사용하여 메시지가 전송되었습니다.|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)<sup>\*</sup>||
@@ -301,7 +301,7 @@ Set-OrganizationConfig -AuditDisabled $true
 
 - **Get-mailboxauditbypassassociation** cmdlet을 사용 하 여 구성 되는 모든 사서함 감사 바이패스 연결 설정은 무시 됩니다.
 
-- 기존 사서함 감사 레코드는 레코드에 대 한 감사 로그 기간 제한이 만료 될 때까지 유지 됩니다.
+- 기존 사서함 감사 레코드는 레코드에 대 한 감사 로그 기간 제한이 만료 될 때까지 보존 됩니다.
 
 ### <a name="turn-on-mailbox-auditing-on-by-default"></a>기본적으로 사서함 감사 켜기
 
@@ -315,7 +315,7 @@ Set-OrganizationConfig -AuditDisabled $false
 
 현재 조직에서 사서함 감사가 기본적으로 설정 된 경우에는 특정 사서함에 대해 사서함 감사를 사용 하지 않도록 설정할 수 없습니다. 예를 들어 *Auditenabled* mailbox 속성을 **False** 로 설정 하는 것은 무시 됩니다.
 
-그러나 Exchange Online PowerShell에서 **get-mailboxauditbypassassociation** cmdlet을 사용 하 여 작업이 수행 되는 위치에 관계 없이 지정 된 사용자의 *모든* 사서함 작업이 로깅되지 않도록 할 수 있습니다. 예:
+그러나 Exchange Online PowerShell에서 **get-mailboxauditbypassassociation** cmdlet을 사용 하 여 작업이 수행 되는 위치에 관계 없이 지정 된 사용자의 *모든* 사서함 작업이 로깅되지 않도록 할 수 있습니다. 예시:
 
 - 바이패스 된 사용자가 수행한 사서함 소유자 작업은 로깅되지 않습니다.
 
@@ -343,8 +343,11 @@ Get-MailboxAuditBypassAssociation -Identity <MailboxIdentity> | Format-List Audi
 
   E5 라이선스를 사용 하지 않고 사용자에 대 한 사서함 감사 로그 항목을 검색 하려면 다음을 수행할 수 있습니다.
 
-  - 개별 사서함에 대해 사서함 감사를 수동으로 사용 하도록 설정한 **후** 보안 & 준수 센터 또는 Office 365 관리 활동 API를 통해 감사 로그 검색을 사용 합니다.
-
+  - 개별 사서함에서 사서함 감사를 `Set-Mailbox -Identity <MailboxIdentity> -AuditEnabled $true`수동으로 사용 하도록 설정 합니다 (명령 실행). 이 작업을 수행한 후에는 보안 & 준수 센터 또는 Office 365 관리 활동 API를 통해 감사 로그 검색을 사용할 수 있습니다.
+  
+    > [!NOTE]
+    > 사서함 감사가 이미 사용 하도록 설정 된 것으로 나타나지만 검색에서 결과가 반환 되지 않는 경우에는 _Auditenabled_ 매개 변수의 값을로 `$false` 변경한 다음 다시으로 `$true`변경 합니다.
+  
   - Exchange Online PowerShell에서 다음 cmdlet을 사용 합니다.
 
     - [검색-search-mailboxauditlog](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-audit/search-mailboxauditlog) 에서 특정 사용자에 대 한 사서함 감사 로그를 검색 합니다.
@@ -387,3 +390,5 @@ Get-MailboxAuditBypassAssociation -Identity <MailboxIdentity> | Format-List Audi
     - 복구 가능한 항목 폴더의 감사 로그 레코드에 직접 액세스할 수는 없습니다. 대신 **search-mailboxauditlog** cmdlet을 사용 하거나 Office 365 감사 로그를 검색 하 여 사서함 감사 레코드를 찾아서 확인 합니다.
 
 - 사서함이 보류 중이거나 준수 센터의 보존 정책에 할당 된 경우에는 사서함의 *Auditlogagelimit* 속성에 정의 된 기간 동안 감사 로그 레코드가 여전히 보존 됩니다 (기본적으로 90 days). 보류 중인 사서함에 대해 감사 로그 레코드를 더 오랫동안 보존 하려면 사서함의 *Auditlogagelimit* 값을 늘려야 합니다.
+
+- 다중 지리적 환경에서는 교차 지리적 사서함 감사가 지원 되지 않습니다. 예를 들어 사용자에 게 다른 지리적 위치에 있는 공유 사서함에 대 한 액세스 권한이 할당 된 경우 해당 사용자가 수행한 사서함 작업은 공유 사서함의 사서함 감사 로그에 기록 되지 않습니다.

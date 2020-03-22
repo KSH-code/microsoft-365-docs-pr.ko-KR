@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 9dbff00a-474e-4452-aeb5-5be9a6b8c6d5
 description: 다음은 Microsoft EOP(Exchange Online Protection) 클라우드 호스팅 전자 메일 필터링 서비스에 대한 가장 일반적인 질문과 그에 대한 대답입니다. 그 이외의 FAQ(질문과 대답) 항목은 다음 링크를 참조하십시오.
-ms.openlocfilehash: 03fb070b2a40ad1e363138124eb0225e64fd5702
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 842f022edbba9d1a790a26987982c3bd508e9d5e
+ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41599385"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42893685"
 ---
 # <a name="eop-general-faq"></a>EOP 관련 일반 FAQ(질문과 대답)
 
@@ -28,8 +28,6 @@ ms.locfileid: "41599385"
 - [위임된 관리 FAQ](delegated-administration-faq.md)
 
 - [스팸 방지 및 보호 FAQ](anti-spam-protection-faq.md)
-
-- [Exchange Online에서의 안전한 발신자 및 차단된 발신자 목록](safe-sender-and-blocked-sender-lists-faq.md)
 
 - [Quarantine FAQ](quarantine-faq.md)
 

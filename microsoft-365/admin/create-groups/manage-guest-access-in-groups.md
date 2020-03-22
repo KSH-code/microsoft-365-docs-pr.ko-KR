@@ -1,12 +1,10 @@
 ---
 title: Office 365 그룹에서 게스트 액세스 관리
 ms.reviewer: arvaradh
-f1.keywords:
-- NOCSH
+f1.keywords: NOCSH
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
-ms.date: 12/18/2019
 audience: Admin
 ms.topic: article
 ms.service: o365-administration
@@ -20,12 +18,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9de497a9-2f5c-43d6-ae18-767f2e6fe6e0
 description: Office 365 그룹에 게스트를 추가 하 고, 게스트 사용자를 보고, PowerShell을 사용 하 여 게스트 액세스를 제어 하는 방법을 알아봅니다.
-ms.openlocfilehash: 3314746e4d12c318eaae8fbfa34c2ed0b4d31aed
-ms.sourcegitcommit: dcea75af89f5f80ec6670346ee176407e043de54
+ms.openlocfilehash: e76718ccb20843b252c939be48653c61c7c1f0a9
+ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "42610616"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42894506"
 ---
 # <a name="manage-guest-access-in-office-365-groups"></a>Office 365 그룹에서 게스트 액세스 관리
 
@@ -50,11 +48,9 @@ ms.locfileid: "42610616"
 
 그룹에서 게스트 액세스를 사용 하도록 설정 하거나 사용 하지 않도록 설정 하려면 Microsoft 365 관리 센터에서이 작업을 수행 하면 됩니다.
 
-1. 관리 센터에서 **설정** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2053743" target="_blank">서비스 & 추가</a> 기능 페이지로 이동 합니다.
-
-2. **Office 365 그룹**을 선택 합니다.
+1. 관리 센터에서 **설정** \> **설정** 으로 이동 하 여 **Office 365 그룹**을 선택 합니다.
   
-3. **Office 365 그룹** 페이지에서 조직 외부의 사용자에 게 그룹 리소스에 대 한 액세스를 허용 하거나 그룹 소유자가 조직 외부의 사용자를 그룹에 추가할 수 있도록 할지 여부를 선택 합니다.
+2. **Office 365 그룹** 페이지에서 조직 외부의 사용자에 게 그룹 리소스에 대 한 액세스를 허용 하거나 그룹 소유자가 조직 외부의 사용자를 그룹에 추가할 수 있도록 할지 여부를 선택 합니다.
 
 ## <a name="add-guests-to-an-office-365-group-from-the-admin-center"></a>관리 센터에서 Office 365 그룹에 게스트 추가
 
@@ -62,7 +58,7 @@ ms.locfileid: "42610616"
   
 1. 관리 센터에서 **그룹** > **그룹** 페이지로 이동 합니다.
   
-2. 게스트를 추가할 그룹을 선택 하 고 **구성원** 탭에서 **모두 보기 및 구성원 관리** 를 선택 합니다. 
+2. 게스트를 추가할 그룹을 클릭 하 고 **구성원** 탭에서 **모두 보기 및 구성원 관리** 를 선택 합니다. 
   
 4. **구성원 추가**를 선택 하 고 추가 하려는 게스트의 이름을 선택 합니다.
     
@@ -76,7 +72,7 @@ ms.locfileid: "42610616"
 
 대부분의 그룹에 대 한 게스트 액세스를 허용 하지만 게스트 액세스를 차단 하려는 경우에는 Microsoft PowerShell을 사용 하 여 개별 그룹에 대 한 게스트 액세스를 차단할 수 있습니다.
 
-그룹 수준 게스트 액세스 설정을 변경 하려면 AzureAD (module name **AzureADPreview**)의 [Azure Active Directory PowerShell for Graph](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2) 의 preview 버전을 사용 해야 합니다.
+그룹 수준 게스트 액세스 설정을 변경 하려면 [Graph에 대 한 Azure Active Directory PowerShell](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2) 의 preview 버전 (모듈 이름 **AzureADPreview**)을 사용 해야 합니다.
 
 - 이전에 Azure AD PowerShell 모듈의 어떠한 버전도 설치하지 않은 경우 [Azure AD 모듈 설치](https://docs.microsoft.com/powershell/azure/active-directory/install-adv2?view=azureadps-2.0-preview#installing-the-azure-ad-module)를 참조하고 지침에 따라 공개 미리 보기 릴리스를 설치합니다.
 

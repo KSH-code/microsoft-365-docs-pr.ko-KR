@@ -16,12 +16,12 @@ ms.assetid: dad30e2f-93fe-4d21-9a36-21c87ced85c1
 ms.collection:
 - M365-security-compliance
 description: '귀하와 사용자는 분석을 위해 Microsoft에 허위 네거티브 및 가양성 스팸 메시지를 제출할 수 있습니다. '
-ms.openlocfilehash: 7b53f74be78bc1203189815c6a7adf3337decd21
-ms.sourcegitcommit: fe4beef350ef9f39b1098755cff46fa2b8e7dc4d
+ms.openlocfilehash: 27e0698d1ad7d05adfa69e18e9b5b21edb74b1eb
+ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42856872"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42893649"
 ---
 # <a name="submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis"></a>분석을 위해 Microsoft에 스팸 메시지, 스팸이 아닌 메시지 및 피싱 스캠 메시지 제출
 
@@ -36,7 +36,7 @@ ms.locfileid: "42856872"
 
 스팸 필터를 통과 하 여 정크 메일 이나 피싱 사기로 분류 해야 하는 메시지를 수신 하는 경우 Microsoft 스팸 분석 및 Microsoft 피싱 분석 팀에 적절 하 게 "가양성" 메시지를 제출할 수 있습니다. 분석가는 메시지를 검토 하 고 해당 메시지가 분류 기준을 충족 하는 경우 서비스 전체 필터에 추가 합니다.
 
-전체 조직에 적용 되는 스팸 설정에 대 한 자세한 내용은 [false 부정 문제를 방지 하려면 Office 365 스팸 필터를 사용 하 여 전자 메일 스팸 차단](reduce-spam-email.md)를 참조 하세요. 이 문서에서는 거짓 네거티브를 방지 하기 위한 팁을 제공 합니다.
+전체 조직에 적용 되는 추가 스팸 설정에 대 한 자세한 내용은 [Office 365의 스팸 방지 보호](anti-spam-protection.md)를 참조 하세요. 이 문서에서는 거짓 네거티브를 방지 하기 위한 팁을 제공 합니다.
 
 정크 메일 메시지는 다음과 같은 방법으로 제출할 수 있습니다.
 
@@ -59,16 +59,16 @@ ms.locfileid: "42856872"
 3. 정크 또는 피싱 사기 메시지를 복사 하 여 새 메시지에 첨부 파일로 붙여 넣습니다.
 
    > [!NOTE]
-   > • 새 메시지에 여러 메시지를 첨부할 수 있습니다. 모든 메시지의 유형 (피싱 사기 메시지 또는 정크 메일 메시지)이 동일한 지 확인 합니다. <br/><br/>• 새 메시지의 본문은 비워 둡니다. <br/><br/>• .Msg (기본 Outlook 형식) 또는 .eml (웹 형식의 기본 Outlook)를 사용 하 여 첨부 된 메시지에 대 한 서식을 적용 합니다.
+   > * 새 메시지에 여러 메시지를 첨부할 수 있습니다. 모든 메시지의 유형 (피싱 사기 메시지 또는 정크 메일 메시지)이 동일한 지 확인 합니다. <br/><br/>* 새 메시지의 본문은 비워 둡니다. <br/><br/>* .Msg (기본 Outlook 형식) 또는 .eml (웹 형식의 기본 Outlook)를 사용 하 여 첨부 된 메시지를 지정 합니다.
 
 4. **보내기**를 클릭합니다.
 
 ## <a name="submit-messages-that-were-tagged-as-junk-but-should-have-been-allowed-through"></a>정크로 태그가 지정 되었지만 허용 되는 메시지를 전송 합니다.
 
 메시지가 정크 메일로 잘못 식별 된 경우 Microsoft 스팸 분석 팀에 "허위 긍정" 메시지를 제출할 수 있습니다. 분석가는 메시지를 평가 하 고 분석 합니다. 분석 결과에 따라 메시지 통과를 허용하도록 서비스 전체적으로 스팸 콘텐츠 필터 규칙이 조정될 수 있습니다.
-  
-관리자는 전체 조직에 적용 되는 스팸 설정 정보를 더 검토할 수 있습니다. [메시지가 스팸으로 표시 되지 않도록](prevent-email-from-being-marked-as-spam.md)하는 방법을 알아봅니다. 이 정보는 관리자 수준 컨트롤이 있고 가양성을 방지 하려는 경우에 유용 합니다.
-  
+
+관리자는 전체 조직에 적용 되는 스팸 설정 정보를 더 검토할 수 있습니다. [Office 365에서 수신 허용-보낸 사람 목록 만들기를](create-safe-sender-lists-in-office-365.md)참조 하세요. 이 정보는 관리자 수준 컨트롤이 있고 가양성을 방지 하려는 경우에 유용 합니다.
+
 다음과 같은 방법으로 스팸이 아닌 메시지를 전송할 수 있습니다.
 
 - 콘텐츠 필터를 구성할 때 **정크 메일 폴더로 메시지 이동** 작업을 사용 하는 경우 (이것이 기본 작업) 사용자는 outlook 또는 웹용 outlook (이전의 Outlook web App) 정크 메일 폴더에서 가양성 메시지를 릴리스할 수 있습니다.
@@ -114,14 +114,3 @@ ms.locfileid: "42856872"
 [Microsoft Exchange 스팸 팀 비디오](https://youtu.be/-TpX_-GMC7o?hd=1)
 
 스팸 평가는 원래 언어 또는 문자 집합에 관계 없이 적용 되는 지속적인 프로세스입니다. 스팸 메시지는 모호 하거나 제목 또는 메시지 본문의 텍스트가 부족할 수 있으므로 스팸 팀은 다른 메시지 특성을 사용 하 여 필터링을 수행 합니다. 즉, 스팸 팀이 지정된 메시지에 스팸으로 플래그를 지정하고 규칙 기준을 필요한 대로 변경하고 나면 Microsoft의 필터를 피할 수 있도록 해당 특성이 수정될 때까지 해당 메시지가 차단됩니다. 새로운 스팸 규칙이 계속해서 배포됩니다. 개별 전송에 대 한 규칙의 시간 프레임은 전송 수량 및 품질에 따라 달라 집니다. 새 스팸 규칙은 모든 고객에 대해 전역적으로 설정 되므로, 개별 스팸 전송 이외의 모든 경우에 새 스팸 규칙이 생성 되는 것은 아닙니다.
-
-## <a name="for-more-information"></a>자세한 내용
-
-[스팸 방지 및 맬웨어 방지 보호](anti-spam-and-anti-malware-protection.md)
-  
-[메시지가 스팸으로 표시되지 않는지 확인하는 방법](prevent-email-from-being-marked-as-spam.md)
-  
-[Office 365 스팸 필터로 전자 메일 스팸을 차단하여 거짓 부정 문제 방지](reduce-spam-email.md)
-  
-
-[Office 365 스팸 필터로 전자 메일 스팸을 차단하여 거짓 부정 문제 방지](reduce-spam-email.md)

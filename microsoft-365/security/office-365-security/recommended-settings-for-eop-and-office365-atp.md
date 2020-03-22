@@ -16,12 +16,12 @@ ms.assetid: 6f64f2de-d626-48ed-8084-03cc72301aa4
 ms.collection:
 - M365-security-compliance
 description: EOP (Exchange Online Protection) 및 ATP (Advanced Threat Protection) 보안 설정에 대 한 모범 사례 표준 보호에 대 한 최신 권장 사항은 무엇 인가요? 보다 엄격한 기능을 사용 하려면 어떻게 해야 합니까? 또한 ATP (Advanced Threat Protection)를 사용 하는 경우에는 어떤 것을 얻게 됩니까?
-ms.openlocfilehash: b7c98fe4b362a5be72be9e103a2602cd4954e028
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: b68c10eccfdacd7782f402b5712a808ff278254d
+ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42632946"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42895230"
 ---
 # <a name="recommended-settings-for-eop-and-office-365-atp-security"></a>EOP 및 Office 365 ATP 보안에 대 한 권장 설정
 
@@ -30,7 +30,7 @@ ms.locfileid: "42632946"
 보안 관리자는 보안 설정을 사용자 지정할 수 있도록 하지만 EOP 및 Office 365 ATP에는 **표준** 및 **Strict**의 두 가지 보안 수준이 권장 됩니다. 각 고객의 환경과 요구 사항은 서로 다르지만, 이러한 수준의 메일 필터링 구성은 대부분의 상황에서 원치 않는 메일이 직원의 받은 편지함에 도달 하지 못하도록 방지 하는 데 도움이 됩니다.
 
 > [!IMPORTANT]
-> 필터링이 제대로 작동 하려면 사서함에서 정크 메일 구성을 사용 하도록 설정 해야 합니다. 이 옵션은 기본적으로 사용 하도록 설정 되어 있지만 필터링이 작동 하지 않는 것 처럼 보이는 경우에는 확인 해야 합니다. 자세한 내용은 [set-mailboxjunkemailconfiguration](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/set-mailboxjunkemailconfiguration) 를 참조 하십시오. 
+> 필터링이 제대로 작동 하려면 사서함에서 정크 메일 규칙을 사용 하도록 설정 해야 합니다. 이 기능은 기본적으로 사용 하도록 설정 되어 있지만 필터링이 작동 하지 않는 것 처럼 보이는 경우에는 확인 해야 합니다. 자세한 내용은 [Office 365에서 Exchange Online 사서함의 정크 메일 설정 구성을](configure-junk-email-settings-on-exo-mailboxes.md)참조 하세요.
 
 이 항목에서는 Office 365 사용자를 보호 하기 위해 이러한 Microsoft 권장 설정에 대해 설명 합니다.
 
@@ -43,68 +43,84 @@ ms.locfileid: "42632946"
 
 ### <a name="eop-anti-spam-policy-settings"></a>EOP 스팸 방지 정책 설정
 
-|보안 기능 이름|표준을|항등|댓글|
-|---------|---------|---------|---------|
-|스팸 검색 작업|정크 메일 폴더로 메시지 이동|메시지 격리||
-|높은 정확도 스팸 검색 작업|메시지 격리|메시지 격리||
-|피싱 전자 메일 검색 작업|메시지 격리|메시지 격리||
-|높은 신뢰도 피싱 전자 메일 검색 작업|메시지 격리|메시지 격리||
-|대량 전자 메일 검색 작업|정크 메일 폴더로 메시지 이동|메시지 격리||
-|대량 전자 메일 임계값을 다음으로 설정|6 |4 |기본값은 7 이지만이 값을 6으로 변경 하는 것이 좋습니다. 자세한 내용은 [대량 불만 수준 값](bulk-complaint-level-values.md)을 참조 하십시오.|
-|격리 보존 기간|30일|30일||
-|보안 팁|켜짐|켜짐||
-|허용 된 보낸 사람|없음|없음||
-|허용 된 보낸 사람 도메인|없음|없음|소유한 도메인 (허용 _도메인이_라고도 함)을 허용 된 보낸 사람 목록에 추가 하지 않아도 됩니다. 실제로는 잘못 된 행위자가 메일을 필터링 할 수 있는 기회를 만들기 때문에 높은 위험으로 간주 됩니다. **스팸 방지 설정** 페이지의 보안 & 준수 센터 [에서 스푸핑 정보를 사용 하](learn-about-spoof-intelligence.md) 여 조직의 일부인 도메인을 스푸핑 하는 모든 보낸 사람을 검토 하거나 외부 도메인을 위장 합니다.|
-|수신 거부|없음|없음||
-|수신 거부 도메인|없음|없음||
-|최종 사용자 스팸 알림 빈도|사용|사용|3 일|
-|제로 시간 자동 삭제|켜짐|켜짐|스팸 및 피싱 ZAP에 대해|
-|MarkAsSpamBulkMail|켜짐|켜짐|이 설정은 PowerShell 에서만 사용할 수 있습니다.|
+스팸 방지 정책을 만들고 구성 하려면 [Office 365에서 스팸 방지 정책 구성을](configure-your-spam-filter-policies.md)참조 하세요.
 
-스팸 방지 정책에는 더 이상 사용 되지 않는 고급 스팸 필터 (ASF) 라는 몇 가지 다른 매개 변수가 있습니다. 이러한 기능의 감가 상각 일정에 대 한 자세한 내용은이 항목의 외부에서 제공 됩니다.
+|||||
+|---|---|---|---|
+|**보안 기능 이름**|**표준을**|**항등**|**설명**|
+|**스팸** 검색 작업 <br/><br/> _SpamAction_|**정크 메일 폴더로 메시지 이동** <br/><br/> `MoveToJmf`|**메시지 격리** <br/><br/> `Quarantine`||
+|**높은 정확도 스팸** 검색 작업 <br/><br/> _HighConfidenceSpamAction_|**메시지 격리** <br/><br/> `Quarantine`|**메시지 격리** <br/><br/> `Quarantine`||
+|**피싱 전자 메일** 검색 작업 <br/><br/> _PhishSpamAction_|**메시지 격리** <br/><br/> `Quarantine`|**메시지 격리** <br/><br/> `Quarantine`||
+|**높은 신뢰도 피싱 전자 메일** 검색 작업 <br/><br/> _HighConfidencePhishAction_|**메시지 격리** <br/><br/> `Quarantine`|**메시지 격리** <br/><br/> `Quarantine`||
+|**대량 전자 메일** 검색 작업 <br/><br/> _대량 Spampaction_|**정크 메일 폴더로 메시지 이동** <br/><br/> `MoveToJmf`|**메시지 격리** <br/><br/> `Quarantine`||
+|대량 전자 메일 임계값 <br/><br/> _대량 임계값_|6 |4 |기본값은 7 이지만이 값을 6으로 변경 하는 것이 좋습니다. 자세한 내용은 [Office 365의 BCL (대량 불만 수준)](bulk-complaint-level-values.md)을 참조 하세요.|
+|격리 보존 기간 <br/><br/> _QuarantineRetentionPeriod_|30일|30일||
+|**보안 팁** <br/><br/> _InlineSafetyTipsEnabled_|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`||
+|허용 된 보낸 사람 <br/><br/> _AllowedSenders 사람_|없음|없음||
+|허용 된 보낸 사람 도메인 <br/><br/> _AllowedSenderDomains_|없음|없음|소유한 도메인 (허용 _도메인이_라고도 함)을 허용 된 보낸 사람 목록에 추가 하지 않아도 됩니다. 실제로는 잘못 된 행위자가 메일을 필터링 할 수 있는 기회를 만들기 때문에 높은 위험으로 간주 됩니다. **스팸 방지 설정** 페이지의 보안 & 준수 센터 [에서 스푸핑 정보를 사용 하](learn-about-spoof-intelligence.md) 여 조직의 일부인 도메인을 스푸핑 하는 모든 보낸 사람을 검토 하거나 외부 도메인을 위장 합니다.|
+|수신 거부 <br/><br/> _BlockedSenders_|없음|없음||
+|차단할 보낸 사람 도메인 <br/><br/> _BlockedSenderDomains_|없음|없음||
+|**최종 사용자 스팸 알림 사용** <br/><br/> _EnableEndUserSpamNotifications_|사용 <br/><br/> `$true`|사용 <br/><br/> `$true`||
+|**다음 간격으로 최종 사용자 스팸 알림 보내기 (일)** <br/><br/> _EndUserSpamNotificationFrequency_|3 일|3 일||
+|**스팸 ZAP** <br/><br/> _SpamZapEnabled_|사용 <br/><br/> `$true`|사용 <br/><br/> `$true`||
+|**피싱 ZAP** <br/><br/> _PhishZapEnabled_|사용 <br/><br/> `$true`|사용 <br/><br/> `$true`||
+|_MarkAsSpamBulkMail_|켜짐|켜짐|이 설정은 PowerShell 에서만 사용할 수 있습니다.|
+|
 
-표준 수준과 엄격한 수준에 대해 이러한 설정을 **해제** 하는 것이 좋습니다.
+스팸 방지 정책에는 더 이상 사용 되지 않는 여러 ASF (고급 스팸 필터) 설정이 있습니다. 이러한 기능의 감가 상각 일정에 대 한 자세한 내용은이 항목의 외부에서 제공 됩니다.
 
-|보안 기능 이름|설명|
-|---------|---------|
-|IncreaseScoreWithImageLinks||
-|IncreaseScoreWithNumericIps||
-|IncreaseScoreWithRedirectToOtherPort||
-|IncreaseScoreWithBizOrInfoUrls||
-|MarkAsSpamEmptyMessages||
-|MarkAsSpamJavaScriptInHtml||
-|MarkAsSpamFramesInHtml||
-|MarkAsSpamObjectTagsInHtml||
-|MarkAsSpamEmbedTagsInHtml||
-|MarkAsSpamFormTagsInHtml||
-|MarkAsSpamWebBugsInHtml||
-|MarkAsSpamSensitiveWordList||
-|MarkAsSpamFromAddressAuthFail||
-|MarkAsSpamNdrBackscatter||
-|MarkAsSpamSpfRecordHardFail||
+이러한 ASF 설정은 **표준** 및 **Strict** 수준에 대해 모두 **해제** 하는 것이 좋습니다. ASF 설정에 대 한 자세한 내용은 [Office 365의 asf (Advanced 스팸 필터) 설정을](advanced-spam-filtering-asf-options.md)참조 하십시오.
 
-#### <a name="eop-outbound-spam-filter-policy-settings"></a>EOP 아웃 바운드 스팸 필터 정책 설정
+|||
+|----|---|
+|**보안 기능 이름**|**Comments**|
+|**원격 사이트에 대 한 이미지 링크** (_IncreaseScoreWithImageLinks_)||
+|**URL의 숫자 IP 주소** (_IncreaseScoreWithNumericIps_)||
+|**UL이 다른 포트로 리디렉션** (_IncreaseScoreWithRedirectToOtherPort_)||
+|**-Biz 또는 IncreaseScoreWithBizOrInfoUrls (info websites)에 대 한 URL** _IncreaseScoreWithBizOrInfoUrls_||
+|**빈 메시지** (_MarkAsSpamEmptyMessages_)||
+|**JavaScript 또는 HTML의 VBScript** (_MarkAsSpamJavaScriptInHtml_)||
+|**HTML의 Frame 또는 IFrame 태그** (_MarkAsSpamFramesInHtml_)||
+|**HTML의 개체 태그** (_MarkAsSpamObjectTagsInHtml_)||
+|**HTML로 태그 포함** (_MarkAsSpamEmbedTagsInHtml_)||
+|**HTML의 양식 태그** (_MarkAsSpamFormTagsInHtml_)||
+|**HTML의 웹 버그** (_MarkAsSpamWebBugsInHtml_)||
+|**중요 한 단어 목록 적용** (_MarkAsSpamSensitiveWordList_)||
+|**SPF 레코드: 하드 실패** (_MarkAsSpamSpfRecordHardFail_)||
+|**조건부 보낸 사람 ID 필터링: 하드 실패** (_MarkAsSpamFromAddressAuthFail_)||
+|**NDR 백 분산** (_MarkAsSpamNdrBackscatter_)||
+|
 
-|보안 기능 이름|표준을|항등|댓글|
-|---------|---------|---------|---------|
-|아웃 바운드 스팸 정책 받는 사람 제한-외부 시간 제한|500|400||
-|아웃 바운드 스팸 정책 받는 사람 제한-내부 시간 제한|1000|800||
-|아웃 바운드 스팸 정책 받는 사람 제한-일별 제한|1000|800||
-|사용자가 제한을 초과 하는 경우의 동작|사용자가 메일을 보낼 수 없도록 제한|사용자가 메일을 보낼 수 없도록 제한||
+#### <a name="eop-outbound-spam-policy-settings"></a>EOP 아웃 바운드 스팸 정책 설정
+
+아웃 바운드 스팸 정책을 만들고 구성 하려면 [Office 365에서 아웃 바운드 스팸 필터링 구성을](configure-the-outbound-spam-policy.md)참조 하세요.
+
+||||
+|---|---|---|---|
+|**보안 기능 이름**|**표준을**|**항등**|**설명**|
+|**사용자 당 최대 받는 사람 수: 외부 시간 제한** <br/><br/> _RecipientLimitExternalPerHour_|500|400||
+|**사용자 당 최대 받는 사람 수: 내부 시간 제한** <br/><br/> _RecipientLimitInternalPerHour_|1000|800||
+|**사용자 당 최대 받는 사람 수: 일일 제한** <br/><br/> _RecipientLimitPerDay_|1000|800||
+|**사용자가 제한을 초과 하는 경우의 동작** <br/><br/> _ActionWhenThresholdReached_|**사용자가 메일을 보낼 수 없도록 제한** <br/><br/> `BlockUser`|**사용자가 메일을 보낼 수 없도록 제한** <br/><br/> `BlockUser`||
+|
 
 ### <a name="eop-anti-malware-policy-settings"></a>EOP 맬웨어 방지 정책 설정
 
-|보안 기능 이름|표준을|항등|댓글|
-|---------|---------|---------|---------|
-|맬웨어 검색 응답|아니요|아니요|전자 메일 첨부 파일에서 맬웨어가 검색 되 면 메시지가 격리 되며 관리자만 해제할 수 있습니다.|
-|의심 스러운 파일 형식을 차단 하는 "공용 첨부 파일 형식 필터"|켜짐|켜짐||
-|맬웨어 제로 시간 자동 삭제|켜짐|켜짐||
-|배달 되지 않은 메시지의 내부 보낸 사람에 게 알림|사용 안 함|사용 안 함||
-|배달 되지 않은 메시지의 외부 보낸 사람에 게 알림|사용 안 함|사용 안 함||
+맬웨어 방지 정책을 만들고 구성 하려면 [Office 365에서 맬웨어 방지 정책 구성을](configure-anti-malware-policies.md)참조 하세요.
+
+|||||
+|---|---|---|---|
+|**보안 기능 이름**|**표준을**|**항등**|**설명**|
+|**메시지가 격리 된 경우 받는 사람에 게 알릴지 여부** <br/><br/> _작업_|아니요 <br/><br/> _DeleteMessage_|아니요 <br/><br/> _DeleteMessage_|전자 메일 첨부 파일에서 맬웨어가 검색 되 면 메시지가 격리 되며 관리자만 해제할 수 있습니다.|
+|**일반 첨부 파일 형식 필터** <br/><br/> _EnableFileFilter_|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`|이 설정은 첨부 파일 내용에 상관 없이 설정별 첨부 파일이 들어 있는 메시지의 형식을 설정 합니다.|
+|**맬웨어 제로 시간 자동 삭제** <br/><br/> _ZapEnabled_|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`||
+|배달 되지 않은 메시지의 **내부 보낸 사람에 게 알림** <br/><br/> _EnableInternalSenderNotifications_|사용 안 함 <br/><br/> `$false`|사용 안 함 <br/><br/> `$false`||
+|배달 되지 않은 메시지의 **외부 보낸 사람에 게 알림** <br/><br/> _EnableExternalSenderNotifications_|사용 안 함 <br/><br/> `$false`|사용 안 함 <br/><br/> `$false`||
+|
 
 ### <a name="eop-anti-phishing-policy-settings"></a>EOP 피싱 방지 정책 설정
 
-|보안 기능 이름|표준을|항등|댓글|
+|보안 기능 이름|표준을|항등|Comment|
 |---------|---------|---------|---------|
 |스푸핑 방지 보호 사용|켜짐|켜짐||
 |인증 되지 않은 보낸 사람 (태깅) 사용|켜짐|켜짐||
@@ -125,7 +141,7 @@ EOP에 Office 365 ATP 구독을 추가한 경우에는 다음 구성을 설정 �
 
 EOP 고객은 앞에서 설명한 것 처럼 기본 피싱 방지를 제공 하지만 Office 365 ATP에는 공격을 방지, 감지 및 수정 하는 데 도움이 되는 다양 한 기능 및 제어가 포함 되어 있습니다.
 
-|가장 보안 기능 이름|표준을|항등|댓글|
+|가장 보안 기능 이름|표준을|항등|Comment|
 |---------|---------|---------|---------|
 |(가장 정책 편집) 보호할 사용자 추가|켜짐|켜짐|조직에 따라 다르지만 주요 역할에 사용자를 추가 하는 것이 좋습니다. 내부적으로는 CEO, CFO 및 기타 선임 리더가 될 수 있습니다. 외부에는 council 구성원 또는 이사회의 보드가 포함 될 수 있습니다.|
 |(가장 정책 편집) 소유한 도메인을 자동으로 포함|켜짐|켜짐||
@@ -140,7 +156,7 @@ EOP 고객은 앞에서 설명한 것 처럼 기본 피싱 방지를 제공 하�
 |사서함 인텔리전스를 통해 보호 되는 가장 된 사용자가 전자 메일을 보낸 경우|받는 사람의 정크 메일 폴더로 메시지 이동|메시지 격리||
 |(가장 정책 편집) 신뢰할 수 있는 보낸 사람 및 도메인 추가|없음|없음|조직에 따라 다르지만 가장을 제외 하 고는 피싱으로 표시 되는 사용자 또는 도메인을 추가 하는 것이 좋습니다.|
 
-|스푸핑 보안 기능 이름|표준을|항등|댓글|
+|스푸핑 보안 기능 이름|표준을|항등|Comment|
 |---------|---------|---------|---------|
 |스푸핑 방지 보호 사용|켜짐|켜짐||
 |인증 되지 않은 보낸 사람 (태깅) 사용|켜짐|켜짐||
@@ -149,13 +165,13 @@ EOP 고객은 앞에서 설명한 것 처럼 기본 피싱 방지를 제공 하�
 |TreatSoftPassAsAuthenticated|참|False|이 설정은 PowerShell 에서만 사용할 수 있습니다.|
 
 
-|고급 설정 보안 기능 이름|표준을|항등|댓글|
+|고급 설정 보안 기능 이름|표준을|항등|Comment|
 |---------|---------|---------|---------|
 |고급 피싱 임계값|2-적극적인|3-적극적인||
 
 ### <a name="safe-links-settings"></a>안전한 링크 설정
 
-|보안 기능 이름|표준을|항등|댓글|
+|보안 기능 이름|표준을|항등|Comment|
 |---------|---------|---------|---------|
 |Office 365 앱, iOS 및 Android 용 Office에서 ATP 안전한 링크 사용|사용|사용|이는 전체 조직에 적용 되는 ATP 안전한 링크 정책에 속합니다.|
 사용자가 안전 링크를 클릭 하는 경우 추적 안 함|사용 안 함|사용 안 함|전체 조직에 적용 되는 정책과 특정 받는 사람에 게 적용 되는 모든 정책을 위한 것입니다.|
@@ -167,7 +183,7 @@ EOP 고객은 앞에서 설명한 것 처럼 기본 피싱 방지를 제공 하�
 
 ### <a name="safe-attachments"></a>안전한 첨부 파일
 
-|보안 기능 이름|표준을|항등|댓글|
+|보안 기능 이름|표준을|항등|Comment|
 |---------|---------|---------|---------|
 |SharePoint, OneDrive 및 Microsoft Teams의 ATP 켜기|사용|사용||
 |ATP 안전한 첨부 파일 알 수 없는 맬웨어 응답|정책의|정책의||

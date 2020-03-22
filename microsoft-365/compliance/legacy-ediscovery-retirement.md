@@ -10,14 +10,13 @@ ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
-ROBOTS: NOINDEX, NOFOLLOW
 description: Exchange Online의 원본 위치 eDiscovery 및 원본 위치 유지 및 해당 PowerShell cmdlet은 2020의 처음 절반에서 만료 됩니다. 검색 사서함 cmdlet 및 Office 365 Advanced eDiscovery v 1.0은 동일한 기간 내에도 폐기 됩니다.
-ms.openlocfilehash: 761378f848c358f2234576ac87507b91c55f4ccf
-ms.sourcegitcommit: fe4beef350ef9f39b1098755cff46fa2b8e7dc4d
+ms.openlocfilehash: a3e19580def43c894e13c58eeaa28af498ad1399
+ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42857371"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42894855"
 ---
 # <a name="retirement-of-legacy-ediscovery-tools"></a>레거시 eDiscovery 도구 만료
 
@@ -46,11 +45,13 @@ Microsoft 365 준수 센터에서 새롭게 향상 된 eDiscovery 기능을 사�
 
    - [GetSearchableMailboxes](https://docs.microsoft.com/exchange/client-developer/web-service-reference/getsearchablemailboxes-operation)
 
+   - [SearchMailboxes](https://docs.microsoft.com/exchange/client-developer/web-service-reference/searchmailboxes-operation)
+   
    - [SetHoldOnMailboxes](https://docs.microsoft.com/exchange/client-developer/web-service-reference/setholdonmailboxes-operation)
 
    - [GetHoldOnMailboxes](https://docs.microsoft.com/exchange/client-developer/web-service-reference/getholdonmailboxes-operation)
    
-   - [SearchMailboxes](https://docs.microsoft.com/exchange/client-developer/web-service-reference/searchmailboxes-operation)
+
 
 - Office [365 Advanced ediscovery v 1.0](office-365-advanced-ediscovery.md)-Office 365 보안 & 준수 센터에서 eDiscovery 사례를 통해 액세스 하는 고급 ediscovery의 첫 번째 버전입니다.
 
@@ -294,9 +295,9 @@ Exchange Online PowerShell의 **검색 사서함** cmdlet은 처음에 2018에�
 </tbody>
 </table>
 
-## <a name="getsearchablemailboxes-setholdonmailboxes-and-getholdonmailboxes-operations-in-the-ews-api"></a>A EWS API의 GetSearchableMailboxes, SetHoldOnMailboxes 및 GetHoldOnMailboxes 작업
+## <a name="exchange-web-services-api-operations"></a>Exchange 웹 서비스 API 작업
 
-이러한 세 가지 exchange 웹 서비스 api는 exchange 관리 센터의 원본 위치 eDiscovery & 보류 기능 및 exchange Online PowerShell의 해당 ** \*new-mailboxsearch** cmdlet에서 사용 됩니다. 다른 레거시 eDiscovery 도구를 중지 하는 경우에도 회수 됩니다.
+Exchange 웹 서비스 API에서 이러한 작업은 exchange 관리 센터의 원본 위치 eDiscovery & 보류 기능 및 exchange Online PowerShell의 해당 ** \*new-mailboxsearch** cmdlet에서 사용 됩니다. 다른 레거시 eDiscovery 도구를 중지 하는 경우에도 회수 됩니다.
 
 ### <a name="scope-of-affected-organizations"></a>영향을 받는 조직의 범위
 
@@ -310,7 +311,7 @@ Exchange Online PowerShell의 **검색 사서함** cmdlet은 처음에 2018에�
 
 ### <a name="timeline"></a>시간 표시 막대
 
-- 2020 년 4 월 1 일: GetSearchableMailboxes, SetHoldOnMailboxes 및 GetHoldOnMailboxes 작업을 더 이상 사용할 수 없으며 Microsoft Support에서 더 이상 지원을 제공 하지 않습니다.
+- 2020 년 4 월 1 일: GetSearchableMailboxes, Search우편함, SetHoldOnMailboxes 및 GetHoldOnMailboxes 작업을 더 이상 사용할 수 없으며 Microsoft Support에서 더 이상 지원을 제공 하지 않습니다.
 
 ## <a name="advanced-ediscovery-v10"></a>Advanced eDiscovery v 1.0
 

@@ -1,11 +1,11 @@
 ---
-title: 메일 흐름 규칙을 사용하여 메시지의 스팸 신뢰 수준(SCL) 설정
+title: 메시지의 SCL에 메일 흐름 규칙 사용
 f1.keywords:
 - NOCSH
-ms.author: tracyp
-author: MSFTTracyP
+ms.author: chrisda
+author: chrisda
 manager: dansimp
-ms.date: 11/17/2014
+ms.date: ''
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -16,56 +16,55 @@ ms.assetid: 4ccab17a-6d49-4786-aa28-92fb28893e99
 ms.collection:
 - M365-security-compliance
 description: 관리자는 Exchange Online Protection에서 메시지의 SCL을 설정 하는 방법을 확인할 수 있습니다.
-ms.openlocfilehash: 10440d5ac8cd57388f4550f21ca72ce7aa1a2745
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: b7ea9a0f046e5a48f0de8d4ac9ae6d53821f03c0
+ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42081984"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42895098"
 ---
 # <a name="use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages"></a>메일 흐름 규칙을 사용하여 메시지의 스팸 신뢰 수준(SCL) 설정
 
-전자 메일 메시지의 SCL (스팸 지 수)을 설정 하는 메일 흐름 규칙 (전송 규칙이 라고도 함)을 만들 수 있습니다. SCL은 메시지의 스팸 가능성을 측정 한 것입니다. 스팸은 요청되지 않은(일반적으로 원치 않는) 전자 메일 메시지입니다. 서비스는 SCL 등급에 따라 메시지에서 다른 작업을 수행 합니다. 예를 들어 동료 로부터 내부에 보낸 메시지가 스팸이 아닌 것을 신뢰 하기 때문에 조직 내부의 사용자가 보낸 메시지에 대해서는 스팸 콘텐츠 필터링을 무시 하는 것이 좋습니다. 메일 흐름 규칙을 사용 하 여 메시지의 SCL 값을 설정 하면 스팸을 보다 쉽게 제어할 수 있습니다.
+Exchange online 사서함이 없는 Office 365 고객 또는 독립 실행형 EOP (Exchange Online Protection) 고객 인 경우 EOP에서는 스팸 방지 정책 (스팸 필터 정책 또는 콘텐츠 필터 정책이 라고도 함)을 사용 하 여 검색을 수행 합니다. 스팸에 대 한 인바운드 메시지입니다. 자세한 내용은 [Office 365의 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)를 참조하세요.
 
- **시작하기 전에 알아야 할 내용**
+특정 메시지를 스팸으로 표시 하 여 스팸 필터링으로 검색 하거나 메시지를 표시 하 여 스팸 필터링을 건너뛰도록 하려면 메시지를 식별 하 고 SCL (스팸 지 수)을 설정 하는 메일 흐름 규칙 (전송 규칙이 라고도 함)을 만들 수 있습니다. SCL에 대 한 자세한 내용은 [Office 365에서 scl (스팸](spam-confidence-levels.md)지 수)을 참조 하세요.
 
-- 이 절차의 예상 완료 시간: 10 분.
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
 
-- 이러한 절차를 수행하려면 먼저 사용 권한을 할당받아야 합니다. 필요한 사용 권한을 확인 하려면 [Feature permissions In Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/feature-permissions) 또는 [FEATURE permissions in EOP에서](feature-permissions-in-eop.md)"메일 흐름 규칙" 항목을 참조 하세요.
+- 이러한 절차를 수행 하려면 먼저 Exchange Online에서 사용 권한을 할당 받아야 합니다. 특히 **조직 관리**, **규정 준수 관리**및 **레코드 관리** 역할에 할당 되는 **전송 규칙** 역할을 기본적으로 할당 해야 합니다. 자세한 내용은 [Exchange Online에서 역할 그룹 관리](https://docs.microsoft.com/Exchange/permissions-exo/role-groups)를 참조하세요.
 
-- 이 항목의 절차에 적용할 수 있는 바로 가기 키에 대 한 자세한 내용은 [Exchange Online에서 exchange 관리 센터에 대 한 바로 가기 키](https://docs.microsoft.com/Exchange/accessibility/keyboard-shortcuts-in-admin-center)를 참조 하십시오.
+- Exchange Online에서 EAC를 열려면 exchange [online의 exchange 관리 센터](https://docs.microsoft.com/Exchange/exchange-admin-center)를 참조 하세요.
 
-### <a name="to-create-a-mail-flow-rule-that-sets-the-scl-of-a-message"></a>메시지의 SCL을 설정 하는 메일 흐름 규칙을 만들려면
+- Exchange Online의 메일 흐름 규칙에 대 한 자세한 내용은 [Exchange online의 메일 흐름 규칙 (전송 규칙)](https://docs.microsoft.com/Exchange/security-and-compliance/mail-flow-rules/mail-flow-rules) 을 참조 하세요.
 
-1. EAC (Exchange 관리 센터)에서 **메일 흐름** \> **규칙**을 선택 합니다.
+## <a name="use-the-eac-to-create-a-mail-flow-rule-that-sets-the-scl-of-a-message"></a>EAC를 사용 하 여 메시지의 SCL을 설정 하는 메일 흐름 규칙 만들기
 
-2. **새로**![만들기 아이콘](../../media/ITPro-EAC-AddIcon.gif)을 선택한 다음 **새 규칙 만들기**를 선택 합니다.
+1. EAC에서 **메일 흐름** \> **규칙**으로 이동합니다.
 
-3. 규칙 이름을 지정합니다.
+2. ![](../../media/ITPro-EAC-AddIcon.png) 추가 **아이콘 추가를 클릭 한** 다음 **새 규칙 만들기**를 선택 합니다.
 
-4. **기타 옵션**을 선택한 다음 다음의 **경우이 규칙 적용**에서이 규칙에 대해 설정할 작업을 트리거할 조건을 지정 합니다 (SCL 값 설정).
+3. **새 규칙** 페이지가 열리면 다음 설정을 구성 합니다.
 
-   예를 들어 **보낸 사람이** \> **내부/외부 인지**설정할 수 있으며, **보낸 사람 위치 선택** 대화 상자에서 **조직 내부**를 선택 하 고 **확인**을 선택 합니다.<br/>
-   ![보낸 사람 위치 선택](../../media/EOP-ETR-SetSCL-1.jpg)
+   - **이름**: 규칙에 대 한 설명이 포함 된 고유 이름을 입력 합니다.
 
-5. **다음 작업 실행**에서 **메시지 속성 수정** \> **SCL(스팸 지수) 설정**을 선택합니다.
+   - **기타 옵션**을 클릭 합니다.
 
-6. **SCL 지정** 상자에서 다음 값 중 하나를 선택 하 고 **확인**을 선택 합니다.
+   - 다음의 **경우이 규칙 적용**: 메시지를 식별할 조건을 하나 이상 선택 합니다. 자세한 내용은 [메일 흐름 규칙 조건 및 예외 (조건자)에서 Exchange Online](https://docs.microsoft.com/Exchange/security-and-compliance/mail-flow-rules/conditions-and-exceptions)을 참조 하세요.
 
-   - **스팸 필터링 바이패스**:이를 통해 SCL이-1로 설정 되므로 콘텐츠 필터링이 수행 되지 않습니다.
+   - **다음을 수행**합니다. **메시지 속성** \> 수정을 선택 하 여 **SCL (스팸 지 수)을 설정**합니다. **SCL 지정** 대화 상자가 나타나면 다음 값 중 하나를 구성 합니다.
 
-   - **0-4**: 추가 처리를 위해 메시지는 콘텐츠 필터에 따라 전달 됩니다.
+   - **스팸 필터링 바이패스**: 그러면 SCL이-1로 설정 되므로 메시지는 스팸 필터링을 건너뜁니다.
 
-   - **5-6**: 해당 콘텐츠 필터 정책의 **스팸** 에 대해 지정 된 작업이 적용 됩니다. 기본적으로 받는 사람의 정크 메일 폴더로 메시지를 전송 하는 작업이 수행 됩니다.
+     > [!CAUTION]
+     > 스팸 필터링을 건너뛰도록 메시지를 허용 하는 경우에 특히 주의 해야 합니다. 공격자는이 보안 문제를 사용 하 여 피싱 및 기타 악의적인 메시지를 조직에 보낼 수 있습니다. 메일 흐름 규칙은 보낸 사람의 전자 메일 주소 또는 도메인을 초과 하는 경우에만 필요 합니다. 자세한 내용은 [Office 365에서 수신 허용-보낸 사람 목록 만들기](create-safe-sender-lists-in-office-365.md)를 참조 하세요.
 
-   - **7-9**: 해당 콘텐츠 필터 정책의 **신뢰도가 높은 스팸** 에 대해 지정 된 작업이 적용 됩니다. 기본적으로 받는 사람의 정크 메일 폴더로 메시지를 전송 하는 작업이 수행 됩니다.
+   - **0 ~ 4**: 추가 처리를 위해 스팸 필터링을 통해 메시지가 전송 됩니다.
 
-   콘텐츠 필터 정책 구성에 대 한 자세한 내용은 [스팸 필터 정책 구성을](configure-your-spam-filter-policies.md)참조 하세요. 서비스의 SCL 값에 대한 자세한 내용은 [스팸 신뢰 수준](spam-confidence-levels.md)를 참조하세요.
+   - **5 또는 6**: 메시지가 **스팸으로**표시 됩니다. 스팸 방지 정책에서 **스팸** 필터링 verdicts에 대해 구성한 작업이 메시지에 적용 됩니다 (기본값은 **정크 메일 폴더로 메시지 이동**).
 
-7. 규칙에 대 한 추가 속성을 지정 하 고 **저장**을 선택 합니다.
+   - **7-9**: 메시지가 **높은 신뢰도 스팸으로**표시 됩니다. 스팸 방지 정책에서 **높은 신뢰도의 스팸** 필터링 verdicts에 대해 구성한 작업은 메시지에 적용 됩니다 (기본값은 **정크 메일 폴더로 메시지 이동**).
 
-   > [!TIP]
-   > 이 규칙에 대해 선택 하거나 지정할 수 있는 추가 속성에 대 한 자세한 내용은 [EAC를 사용 하 여 메일 흐름 규칙 만들기](https://docs.microsoft.com/Exchange/policy-and-compliance/mail-flow-rules/mail-flow-rule-procedures#use-the-eac-to-create-mail-flow-rules)를 참조 하십시오.
+4. 규칙에 대해 원하는 추가 속성을 지정 합니다. 작업을 마친 후 **저장**을 클릭합니다.
 
 ## <a name="how-do-you-know-this-worked"></a>작동 여부는 어떻게 확인하나요?
 

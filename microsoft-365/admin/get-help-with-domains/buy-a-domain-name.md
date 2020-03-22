@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: 1561140a-16a9-4a02-822d-a989250e479d
 description: Office 365에서 도메인 이름을 구입 하는 방법을 알아봅니다.
 ms.custom: okr_smb
-ms.openlocfilehash: 1982ac054ca64f2442e108b457553a58ebcb234c
-ms.sourcegitcommit: fe4beef350ef9f39b1098755cff46fa2b8e7dc4d
+ms.openlocfilehash: 5ffb5f9268dcd8b38245e0b85c7d790b46628766
+ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42857442"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42894470"
 ---
 # <a name="buy-a-domain-name-in-office-365"></a>Office 365에서 도메인 이름 구입
 
@@ -121,4 +121,6 @@ Office 365에서 도메인을 설정하려면 사용자가 도메인을 소유�
 
 [도메인 FAQ](../setup/domains-faq.md)
 
-[Office 365 도메인에 대 한 도움말 보기](get-help-with-domains.yml)
+[Office 365 도메인에 대 한 도움말 보기](get-help-with-domains.md)
+
+[DNS 레코드를 업데이트 하 여 현재 호스팅 공급자에 웹 사이트 유지](https://docs.microsoft.com/microsoft-365/admin/dns/update-dns-records-to-retain-current-hosting-provider) 

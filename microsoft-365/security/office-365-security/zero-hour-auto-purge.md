@@ -1,11 +1,11 @@
 ---
-title: 제로 아워 자동 비우기 - 스팸 및 맬웨어로부터 보호
+title: 제로 시간 자동 삭제 (ZAP)-스팸, 맬웨어 및 피싱에 대 한 retroactive 보호
 f1.keywords:
 - NOCSH
-ms.author: tracyp
-author: MSFTTracyP
+ms.author: chrisda
+author: chrisda
 manager: dansimp
-ms.date: 11/21/2019
+ms.date: ''
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
@@ -18,117 +18,96 @@ search.appverid:
 ms.assetid: 96deb75f-64e8-4c10-b570-84c99c674e15
 ms.collection:
 - M365-security-compliance
-description: ZAP (자동 삭제)은 사용자의 받은 편지 함으로 이미 배달 된 스팸 또는 맬웨어가 있는 메시지를 검색 한 다음 악의적인 콘텐츠를 렌더링 하는 전자 메일 보호 기능입니다. ZAP이 수행 하는 방법은 검색 된 악의적인 콘텐츠의 유형에 따라 다릅니다.
-ms.openlocfilehash: 6616281a98487c7edd7ca7721ade9a8510f6a21f
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+description: 0 시간 자동 삭제 (ZAP)는 Exchange Online으로 이미 배달 된 스팸, 맬웨어 또는 피싱 메시지를 감지 하는 Office 365의 전자 메일 보호 기능입니다. ZAP이 수행 하는 방법은 검색 된 악의적인 콘텐츠의 유형에 따라 다릅니다.
+ms.openlocfilehash: 7cce0c15d861ee43d5704f3fc4da5a6dccb9d5d4
+ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597963"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42895014"
 ---
-# <a name="zero-hour-auto-purge---protection-against-spam-and-malware"></a>제로 아워 자동 비우기 - 스팸 및 맬웨어로부터 보호
+# <a name="zero-hour-auto-purge-zap---protection-against-spam-and-malware-in-office-365"></a>제로 시간 자동 삭제 (ZAP)-Office 365의 스팸 및 맬웨어에 대 한 보호
 
 ## <a name="overview"></a>개요
 
-ZAP (자동 삭제)은 사용자의 받은 편지 함으로 이미 배달 된 피싱, 스팸 또는 맬웨어가 있는 메시지를 검색 한 다음 악성 콘텐츠 무해 함을 렌더링 하는 전자 메일 보호 기능입니다. ZAP이 수행 하는 방법은 검색 된 악의적인 콘텐츠의 유형에 따라 다릅니다. 메일은 mail content, Url 또는 attachments로 인해 zapped 될 수 있습니다.
+0 시간 자동 삭제 (ZAP)는 retroactively에서 Exchange Online 사서함으로 이미 배달 된 악의적인 피싱, 스팸 또는 맬웨어 메시지를 감지 하 고 neutralizes 하는 Office 365의 전자 메일 보호 기능입니다.
 
-ZAP은 Exchange Online 사서함이 포함 된 모든 Office 365 구독에 포함 된 기본 Exchange Online Protection에서 사용할 수 있습니다.
+ZAP은 Exchange Online 사서함이 포함 된 모든 Office 365 구독에 포함 된 기본 EOP (Exchange Online Protection)에서 사용할 수 있습니다. ZAP은 온-프레미스 Exchange 사서함을 보호 하는 독립 실행형 EOP 환경에서 작동 하지 않습니다.
 
 ## <a name="how-zap-works"></a>ZAP 작동 방식
 
-Office 365에서는 매일 실시간으로 스팸 방지 엔진 및 맬웨어 서명을 업데이트 합니다. 그러나 사용자에 게 콘텐츠를 배달 한 후에 weaponized를 포함 하 여 여러 가지 이유로 인해 사용자가 여전히 해당 받은 편지함에 악성 메시지를 배달 하도록 할 수 있습니다. ZAP은 Office 365 스팸 및 맬웨어 서명에 대 한 업데이트를 지속적으로 모니터링 하 여이를 해결 합니다. ZAP은 이전에 전달한 메시지 중 사용자의 받은 편지함에 이미 배달 된 메시지가 있는지 찾아 제거할 수 있습니다.
+Office 365는 스팸 및 맬웨어 서명을 매일 실시간으로 업데이트 합니다. 그러나 사용자에 게 콘텐츠를 배달 한 후에 weaponized를 포함 하 여 여러 가지 이유로 인해 여전히 악의적인 메시지를 받을 수 있습니다. ZAP은 Office 365 스팸 및 맬웨어 서명에 대 한 업데이트를 지속적으로 모니터링 하 여이 문제를 해결 합니다. ZAP은 이미 사용자의 사서함에 있는 메시지를 찾아 제거할 수 있습니다.
 
-사서함 사용자에 게는 ZAP 동작이 원활 하 게 수행 됩니다. 전자 메일 메시지를 이동 하는 경우이 사용자에 게 알림이 제공 되지 않습니다. 
+사용자가 ZAP 작업을 원활 하 게 수행할 수 있습니다. 메시지를 검색 하 고 이동한 경우 알림을 받지 않습니다.
 
-허용 목록, [메일 흐름 규칙](use-transport-rules-to-configure-bulk-email-filtering.md) (전송 규칙이 라고도 함) 및 최종 사용자 규칙 또는 추가 필터가 ZAP 보다 우선적으로 적용 됩니다.
+[수신 허용-보낸 사람 목록](create-safe-sender-lists-in-office-365.md), 메일 흐름 규칙 (전송 규칙이 라고도 함), 받은 편지함 규칙 또는 추가 필터는 ZAP 보다 우선적으로 적용 됩니다.
 
 ### <a name="malware-zap"></a>맬웨어 ZAP
 
-새로 검색 된 맬웨어의 경우 ZAP은 첨부 파일을 포함 하 여 전체 메시지를 맬웨어 격리로 이동 합니다. 메시지는 메일의 읽기 상태와 관계 없이 이동 됩니다. 동적 배달 검색 프로세스에서 메시지에 대 한 맬웨어 신호가 수신 되 면 메시지에 대해 스팸 메일로 이동 작업이 수행 됩니다. 그런 다음 동적 배달이 배달 검사 시간을 완료 하 고 적절 한 조치를 취할 수 있도록 합니다.
+배달 후 맬웨어가 포함 되는 것으로 확인 된 **읽음 또는 읽지 않은 메시지** 에 대해 ZAP 설정별가 맬웨어 첨부 파일을 포함 하는 메시지를 표시 합니다. 관리자만 격리에서 맬웨어 메시지를 보고 관리할 수 있습니다.
 
-맬웨어 ZAP은 맬웨어 정책에서 기본적으로 사용 하도록 설정 됩니다. Exchange Online PowerShell 또는 Exchange Online Protection PowerShell의 [get-malwarefilterpolicy](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/set-malwarefilterpolicy) Cmdlet에서 *ZapEnabled* 매개 변수를 사용 하 여 맬웨어 ZAP을 사용 하지 않도록 설정할 수 있습니다. 보안 및 준수 센터에서 맬웨어 정책을 편집 하 여 맬웨어 ZAP을 사용 하거나 사용 하지 않도록 설정할 수도 있습니다.
+맬웨어 ZAP은 맬웨어 방지 정책에서 기본적으로 사용 하도록 설정 됩니다. 자세한 내용은 [Office 365에서 맬웨어 방지 정책 구성을](configure-anti-malware-policies.md)참조 하세요.
 
 ### <a name="phish-zap"></a>피싱 ZAP
 
-배달 후에 피싱으로 식별 되는 메일의 경우에는 메일의 읽기 상태에 관계 없이 특정 사용자를 포함 하는 스팸 정책에 따라 ZAP이 작업을 수행 합니다. 정책 피싱 동작이 작업을 수행 *하지 않도록* 설정 (X-헤더 추가, 주체 수정, 작업 없음) 되 면 ZAP은 메일에 대해 아무 작업도 수행 하지 않습니다. 피싱 동작이 정크로 이동 하도록 설정 된 경우 ZAP은 메시지를 사용자의 받은 편지함에 있는 정크 메일 폴더로 이동 합니다. **다른 피싱 작업 (리디렉션, 삭제, 격리)을 사용할 경우에는 메시지가 피싱 격리로 이동 됩니다**. 구성 요구 사항 및 제외 항목은 아래에서 읽으십시오. [스팸 필터 정책을 구성](https://docs.microsoft.com//office365/securitycompliance/configure-your-spam-filter-policies) 하는 방법에 대 한 자세한 내용은 여기에서 확인할 수 있습니다.
+배달 후에 피싱으로 식별 되는 **읽음 또는 읽지 않은 메시지** 의 경우 ZAP 결과는 해당 하는 스팸 방지 정책에서 **피싱 전자 메일** 필터링 결과에 대해 구성 된 작업에 따라 달라 집니다. 다음 목록에서는 피싱에 대 한 사용 가능한 필터링 결과 작업 및 가능한 ZAP 결과에 대해 설명 합니다.
 
-피싱 ZAP은 스팸 정책에서 기본적으로 사용 하도록 설정 되어 있습니다. EOP cmdlet의 *PhishZapEnabled* 매개 변수를 사용 하 여 피싱 ZAP을 사용 하지 [않도록 설정할 수](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/Set-HostedContentFilterPolicy)있습니다.
+- **X-헤더 추가**( **제목 줄 앞에 텍스트 포함**): ZAP이 메시지에 대해 작업을 수행 하지 않습니다.
+
+- **정크 메일로 메시지 이동**: ZAP 사서함에서 정크 메일 규칙을 사용 하는 경우 (기본적으로 사용 하도록 설정 되어 있음) 메시지를 정크 메일 폴더로 이동 합니다. 자세한 내용은 [Office 365에서 Exchange Online 사서함의 정크 메일 설정 구성을](configure-junk-email-settings-on-exo-mailboxes.md)참조 하세요.
+
+- **전자 메일 주소로 메시지 리디렉션**, **메시지 삭제**, **격리 메시지**: ZAP 설정별 메시지 관리자만 격리 된 피싱 메시지를 보고 관리할 수 있습니다.
+
+기본적으로 스팸 방지 정책에서 피싱 ZAP을 사용 하도록 설정 되어 있으며 **피싱 전자 메일** 필터링 결과의 기본 작업은 **메시지를 격리**하며,이는 메시지를 기본적으로 피싱 ZAP 설정별 한다는 것을 의미 합니다.
+
+스팸 필터링 verdicts을 구성 하는 방법에 대 한 자세한 내용은 [Configure 안티스팸 information In Office 365](configure-your-spam-filter-policies.md)을 참조 하십시오.
 
 ### <a name="spam-zap"></a>스팸 ZAP
 
-배달 후 스팸으로 확인 된 메일의 경우, 메시지를 읽지 않은 경우에만 ZAP이 특정 사용자를 포함 하는 스팸 정책에 따라 동작을 수행 합니다.  정책 스팸 작업이 작업을 수행 하지 않도록 설정 된 경우 (X-헤더 추가, 주체 수정, 작업 없음), ZAP은 메일에 대해 아무 작업도 수행 하지 않습니다. 스팸 동작이 정크로 이동 하도록 설정 된 경우 ZAP은 메시지를 사용자의 받은 편지함에 있는 정크 메일 폴더로 이동 합니다. **다른 스팸 작업 (리디렉션, 삭제, 격리) ZAP은 메시지를 스팸 격리로 이동**합니다. 구성 요구 사항 및 제외 항목은 아래에서 읽으십시오. [스팸 필터 정책을 구성](https://docs.microsoft.com//office365/securitycompliance/configure-your-spam-filter-policies) 하는 방법에 대 한 자세한 내용은 여기에서 확인할 수 있습니다.
+배달 후 스팸으로 식별 된 **읽지 않은 메시지** 의 경우 ZAP 결과는 해당 하는 스팸 방지 정책에서 **스팸** 필터링 결과에 대해 구성 된 작업에 따라 달라 집니다. 스팸 및 가능한 ZAP 결과에 대 한 사용 가능한 필터링 결과 작업은 다음 목록에 설명 되어 있습니다.
 
-스팸 ZAP은 스팸 정책에서 기본적으로 사용 하도록 설정 되어 있습니다. Exchange Online PowerShell 또는 Exchange Online Protection PowerShell에서 [get-hostedcontentfilterpolicy](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/Set-HostedContentFilterPolicy) Cmdlet의 *SpamZapEnabled* 매개 변수를 사용 하 여 스팸 ZAP을 사용 하지 않도록 설정할 수 있습니다.
+- **X-헤더 추가**( **제목 줄 앞에 텍스트 포함**): ZAP이 메시지에 대해 작업을 수행 하지 않습니다.
 
-### <a name="phish-and-spam-zap-requirements-exclusions-and-notices"></a>피싱 및 스팸 ZAP 요구 사항, 제외 및 알림
+- **정크 메일로 메시지 이동**: ZAP 사서함에서 정크 메일 규칙을 사용 하는 경우 (기본적으로 사용 하도록 설정 되어 있음) 메시지를 정크 메일 폴더로 이동 합니다. 자세한 내용은 [Office 365에서 Exchange Online 사서함의 정크 메일 설정 구성을](configure-junk-email-settings-on-exo-mailboxes.md)참조 하세요.
 
-> [!IMPORTANT]
-> 피싱 및 스팸 ZAP을 모두 제어 하는 이전 *ZapEnabled* cmdlet 매개 변수는 **사용 되지 않으며, 2020 년 2 월 1**일입니다. ZapEnabled 매개 변수를 사용 하는 스크립트를 작성 한 경우이를 SpamZapEnabled 및 PhishZapEnabled를 사용 하도록 업데이트 하는 것이 좋습니다. 전환 기간에는 cmdlet을 통해 모든 3 개의 매개 변수 (ZapEnabled, PhishZapEnabled 및 SpamZapEnabled)를 사용할 수 있습니다. UI 또는 PowerShell을 통해 명시적으로 설정 하기 전에는 PhishZapEnabled 및 SpamZapEnabled에 ZapEnabled 매개 변수의 상속 된 값이 표시 됩니다. 새 매개 변수를 설정한 후에는 ZapEnabled 매개 변수에서 더 이상 상속 되지 않습니다. 더 이상 사용 되지 않도록 설정 된 후에 ZapEnabled는 PhishZapEnabled 또는 SpamZapEnabled 속성에 영향을 주지 않으며 ZapEnabled가 cmdlet의 매개 변수 목록에서 제거 됩니다.
+- **전자 메일 주소로 메시지 리디렉션**, **메시지 삭제**, **격리 메시지**: ZAP 설정별 메시지 최종 사용자는 자신의 스팸 격리 된 메시지를 보고 관리할 수 있습니다.
 
-ZAP은 동적 배달 검색 프로세스에 있거나 대체 된 첨부 파일이 있는 맬웨어 결과 이미 있는 격리로 메시지를 이동 하지 않습니다. 이러한 유형의 메시지에 대 한 피싱 또는 스팸 신호를 수신 하 고 스팸 정책/피싱 작업이 몇 가지 작업을 수행 하도록 설정 된 경우 (정크로 이동, 리디렉션, 삭제, 격리), ZAP은 ' 정크로 이동 ' 작업을 기본으로 합니다. ZAP이 메시지에 대해 ' 정크로 이동 ' 작업을 수행 하려면 사용자에 게 정크 메일 보호를 사용 하도록 설정 하 고 기본 정크 메일 설정을 사용 해야 합니다. (Outlook의 사용자 옵션에 대 한 자세한 내용은 [정크 메일 필터의 보호 수준 변경을](https://support.office.com/article/e89c12d8-9d61-4320-8c57-d982c8d52f6b) 참조 하세요.)
+기본적으로 스팸 방지 정책에서 스팸 ZAP을 사용 하도록 설정 되어 있으며 스팸 필터링 결과의 기본 작업은 **정크 메일 폴더로 메시지를 이동**하는 것으로 **, 스팸 zap** 은 **읽지 않은** 메시지를 정크 메일 폴더로 이동 합니다.
+
+스팸 필터링 verdicts을 구성 하는 방법에 대 한 자세한 내용은 [Configure 안티스팸 information In Office 365](configure-your-spam-filter-policies.md)을 참조 하십시오.
+
+### <a name="zap-considerations-for-office-365-advanced-threat-protection-atp"></a>Office 365 ATP (Advanced Threat Protection)에 대 한 ZAP 고려 사항
+
+ZAP은 [동적 배달](dynamic-delivery-and-previewing.md) 검색 프로세스에 포함 된 메시지를 격리 하지 않으며 맬웨어 필터링이 이미 **맬웨어 경고 텍스트인 .txt** 파일로 첨부 파일을 바꿨습니다. 이러한 유형의 메시지에 대 한 피싱 또는 스팸 신호를 수신 하 고 스팸 방지 정책의 필터링 결과 메시지에 대 한 특정 작업을 수행 하도록 설정 된 경우 (정크로 이동, 리디렉션, 삭제, 격리), ZAP은 ' 정크로 이동 ' 작업을 기본으로 합니다.
 
 ## <a name="how-to-see-if-zap-moved-your-message"></a>메시지가 ZAP에서 이동 된 것을 확인 하는 방법
 
-ZAP이 메시지를 이동 했는지 확인 하려면 [위협 방지 상태 보고서](view-email-security-reports.md#threat-protection-status-report) 또는 [위협 탐색기 (및 실시간 검색)](threat-explorer.md)를 사용할 수 있습니다. 시스템 작업으로, ZAP이 exchange 사서함 감사 로그에 기록 되지 않습니다. 
- 
-## <a name="disable-zap"></a>ZAP 사용 안 함
+ZAP이 메시지를 이동 했는지 확인 하려면 [위협 방지 상태 보고서](view-email-security-reports.md#threat-protection-status-report) 또는 [위협 탐색기 (및 실시간 검색)](threat-explorer.md)를 사용할 수 있습니다. 시스템 작업으로, ZAP이 Exchange 사서함 감사 로그에 기록 되지 않습니다.
 
-Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell)을 참조하세요. Exchange Online Protection PowerShell에 연결 하려면 [Exchange Online Protection powershell에 연결](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell)을 참조 하세요.
+## <a name="zap-faq"></a>ZAP FAQ
 
-### <a name="disable-malware-zap"></a>맬웨어 ZAP 사용 안 함 * *
+### <a name="q-what-happens-if-a-legitimate-message-is-moved-to-the-junk-email-folder"></a>Q: 합법적인 메시지를 정크 메일 폴더로 이동 하면 어떻게 되나요?
 
-Exchange Online PowerShell 또는 Exchange Online Protection PowerShell에서 [get-malwarefilterpolicy](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/set-malwarefilterpolicy) Cmdlet의 *ZapEnabled* 매개 변수를 통해 맬웨어 ZAP을 사용 하지 않도록 설정할 수 있습니다. 보안 및 준수 센터에서 맬웨어 정책을 편집 하 여 맬웨어 ZAP을 사용 하거나 사용 하지 않도록 설정할 수도 있습니다.
+A: 일반적인 보고 프로세스는 [가양성](report-junk-email-messages-to-microsoft.md)에 따라 수행 해야 합니다. 메시지를 받은 편지함에서 정크 메일 폴더로 이동 하는 유일한 이유는 서비스가 스팸 또는 악성 메시지를 받는 것으로 확인 되었기 때문입니다.
 
-이 예에서는 "Test" 라는 맬웨어 필터 정책에서 ZAP을 사용 하지 않도록 설정 합니다.
+### <a name="q-what-if-i-use-the-office-365-quarantine-instead-of-the-junk-mail-folder"></a>Q: 정크 메일 폴더 대신 Office 365 검역을 사용 하는 경우는 어떻게 하나요?
 
-```Powershell
-Set-MalwareFilterPolicy -Identity Test -ZapEnabled $false
-```
+A: ZAP은이 항목의 앞부분에서 설명한 대로, 스팸 방지 정책 구성을 기반으로 메시지에 대해 작업을 수행 합니다.
 
-구문 및 매개 변수에 대 한 자세한 내용은 [get-malwarefilterpolicy](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/set-malwarefilterpolicy)를 참조 하십시오.
+### <a name="q-what-if-im-using-mail-flow-rules-or-allowedblocked-sender-lists"></a>Q: 메일 흐름 규칙 또는 허용/차단 된 보낸 사람 목록을 사용 하는 경우
 
-### <a name="disable-phish-zap-and-spam-zap"></a>피싱 ZAP 및 스팸 ZAP 사용 안 함
+A: 메일 흐름 규칙 또는 차단 및 조직 설정 허용이 우선적으로 적용 됩니다. 이러한 메시지는 ZAP에서 제외 됩니다.
 
-O365 테 넌 트에 대 한 피싱 및 스팸 ZAP을 사용 하지 않도록 설정 하거나, 사용자 집합 [을 설정 하려면](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/Set-HostedContentFilterPolicy)EOP cmdlet *PhishZapEnabled* 및 *SpamZapEnabled* 매개 변수를 사용 합니다.
+### <a name="q-what-if-a-message-is-moved-to-another-folder-eg-inbox-rules"></a>Q: 메시지를 다른 폴더 (예: 받은 편지함 규칙)로 이동 하는 경우
 
-다음 예제에서는 "Test" 라는 콘텐츠 필터 정책에 대해 피싱 및 스팸 ZAP을 사용 하지 않도록 설정 합니다.
+A: 메시지를 삭제 하거나 정크 메일 폴더로 이동 하지 않은 동안에도 ZAP 계속 작동 합니다.
 
-```Powershell
-Set-HostedContentFilterPolicy -Identity Test -PhishZapEnabled $false -SpamZapEnabled $false
-```
+### <a name="q-does-zap-change-the-message-header"></a>Q: ZAP이 메시지 헤더를 변경 합니까?
 
-구문 및 매개 변수에 대 한 자세한 내용은 [get-hostedcontentfilterpolicy](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/Set-HostedContentFilterPolicy)를 참조 하십시오.
+A: 메시지 헤더는 ZAP 작업을 통해 변경 되지 않습니다.
 
-## <a name="faq"></a>FAQ
+### <a name="q-how-does-zap-affect-mailboxes-on-hold"></a>Q: ZAP이 보존 되는 사서함에 어떤 영향을 줍니까?
 
-### <a name="what-happens-if-a-legitimate-message-is-moved-to-the-junk-mail-folder"></a>합법적인 메시지를 정크 메일 폴더로 이동 하면 어떻게 되나요?
+A: ZAP은 보류 중인 사서함에서 메시지를 격리 하지 않습니다. 스팸 방지 정책에서 스팸 또는 피싱 결과에 대해 구성 된 작업을 기반으로 메시지를 정크 메일 폴더로 이동할 수 있습니다.
 
-[가양성](prevent-email-from-being-marked-as-spam.md)에 대 한 일반 보고 프로세스를 따라야 합니다. 메시지를 받은 편지함에서 정크 메일 폴더로 이동 하는 유일한 이유는 서비스가 스팸 또는 악성 메시지를 받는 것으로 확인 되었기 때문입니다.
-
-### <a name="what-if-i-use-the-office-365-quarantine-instead-of-the-junk-mail-folder"></a>정크 메일 폴더 대신 Office 365 검역을 사용 하는 경우에는 어떻게 하나요?
-
-스팸 방지 정책에서 피싱 및 스팸 작업 설정 구성에 따라 작업을 수행 합니다. 맬웨어, 피싱 및 스팸 ZAP에 대 한 자세한 내용은 위를 참조 하세요.
-
-### <a name="what-if-i-have-a-custom-mail-flow-rule-block-allow-rule"></a>사용자 지정 메일 흐름 규칙 (차단/허용 규칙)이 있는 경우 어떻게 하나요?
-
-관리자가 만든 규칙 (메일 흐름 규칙) 또는 차단 및 허용 규칙을 우선적으로 사용 합니다. 이러한 메시지는 기능 조건에서 제외 되므로 메일 흐름은 규칙 동작 (차단/허용 규칙)을 따릅니다.
-
-### <a name="what-if-a-message-is-moved-to-another-folder-eg-inbox-rule"></a>다른 폴더 (예: 받은 편지함 규칙)로 메시지를 이동 하는 경우
-
-메시지가 삭제 되었거나 정크 상태인 경우가 아니면이 경우에도 ZAP이 작동 합니다.
-
-### <a name="does-zap-change-the-email-header"></a>ZAP이 전자 메일 헤더를 변경 합니까?
-
-ZAP 매크로 함수는 전자 메일의 머리글을 변경 하지 않습니다.
-
-### <a name="how-does-zap-affect-mailboxes-on-hold"></a>ZAP이 보류 중인 사서함에 어떤 영향을 줍니까?
-
-ZAP은 보류 중인 사서함에서 메시지를 제거 하지 않으므로 메시지에 대 한 격리 작업으로 이동 하지 않습니다. 정책에 의해 지정 된 경우에도 메시지는 정크 메일로 이동 됩니다. 
-
-[사서함 보존에 대 한 자세한 내용을 보려면 여기를 클릭 하십시오.](https://docs.microsoft.com/exchange/policy-and-compliance/holds/holds?view=exchserver-2019)
-
-## <a name="related-topics"></a>관련 주제
-
-[Office 365 이메일 스팸 방지 보호](anti-spam-protection.md)
-
-[Office 365 스팸 필터로 전자 메일 스팸을 차단하여 거짓 부정 문제 방지](reduce-spam-email.md)
+Exchange Online의 보류에 대 한 자세한 내용은 [Exchange online의 원본 위치 유지 및 소송 보존](https://docs.microsoft.com/Exchange/security-and-compliance/in-place-and-litigation-holds)을 참조 하세요.

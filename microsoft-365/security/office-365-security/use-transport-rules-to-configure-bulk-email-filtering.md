@@ -1,9 +1,9 @@
 ---
-title: 메일 흐름 규칙을 사용 하 여 Exchange Online Protection에서 대량 전자 메일 필터링 구성
+title: 메일 흐름 규칙을 사용 하 여 Office 365에서 대량 전자 메일 필터링
 f1.keywords:
 - NOCSH
-ms.author: tracyp
-author: MSFTTracyP
+ms.author: chrisda
+author: chrisda
 manager: dansimp
 audience: ITPro
 ms.topic: article
@@ -15,133 +15,161 @@ ms.assetid: 2889c82e-fab0-4e85-87b0-b001b2ccd4f7
 ms.collection:
 - M365-security-compliance
 description: 관리자는 대량 전자 메일 필터링에 대해 Exchange Online Protection의 메일 흐름 규칙을 사용 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 81b0f4cc58d712c3a1c1e09dab02d1c6f56cb69d
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 2ac81d798af957f23f95b92f633b93bdda677991
+ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42081824"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42895050"
 ---
-# <a name="use-mail-flow-rules-to-configure-bulk-email-filtering-in-exchange-online-protection"></a>메일 흐름 규칙을 사용 하 여 Exchange Online Protection에서 대량 전자 메일 필터링 구성
+# <a name="use-mail-flow-rules-to-filter-bulk-email-in-office-365"></a>메일 흐름 규칙을 사용 하 여 Office 365에서 대량 전자 메일 필터링
 
-기본 스팸 콘텐츠 필터 정책을 사용 하 여 스팸 및 대량 전자 메일에 대 한 회사 전체의 콘텐츠 필터를 설정할 수 있습니다. 이 문서에서는 [스팸 필터 정책 구성](configure-your-spam-filter-policies.md) 및 [get-hostedcontentfilterpolicy](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/Set-HostedContentFilterPolicy) 에서 콘텐츠 필터 정책을 설정 하는 방법에 대 한 설정을 확인 합니다.
+Exchange online 사서함이 없는 Office 365 고객 또는 독립 실행형 EOP (Exchange Online Protection) 고객 인 경우 EOP에서는 스팸 방지 정책 (스팸 필터 정책 또는 콘텐츠 필터 정책이 라고도 함)을 사용 하 여 검색을 수행 합니다. 스팸 및 대량 메일에 대 한 인바운드 메시지 (회색 메일이 라고도 함) 자세한 내용은 [Office 365의 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)를 참조하세요.
 
-대량 메시지를 필터링 하는 더 많은 옵션을 원하는 경우 메일 흐름 규칙 (전송 규칙이 라고도 함)을 만들어 대량 전자 메일에서 자주 발견 되는 텍스트 패턴이 나 구를 검색할 수 있습니다. 이러한 특성을 포함 하는 모든 메시지는 스팸으로 표시 됩니다. 이러한 규칙을 사용하면 조직에 수신되는 원치 않는 대량 전자 메일을 줄일 수 있습니다.
+대량 메일을 필터링 하는 옵션을 추가로 원하는 경우 메일 흐름 규칙 (전송 규칙이 라고도 함)을 만들어 대량 메일에서 자주 발견 되는 텍스트 패턴이 나 구를 검색 하 고 해당 메시지를 스팸으로 표시할 수 있습니다. 대량 메일에 대 한 자세한 내용은 [정크 메일과 대량 전자 메일의 차이점](what-s-the-difference-between-junk-email-and-bulk-email.md) 및 [OFFICE 365의 BCL (대량 불만 수준)](bulk-complaint-level-values.md)을 참조 하세요.
 
-> [!IMPORTANT]
-> 이 항목에서 설명 하는 메일 흐름 규칙을 만들기 전에 먼저 [정크 메일과 대량 전자 메일의 차이점](what-s-the-difference-between-junk-email-and-bulk-email.md) 을 읽고, [대량 불만 수준 값](bulk-complaint-level-values.md)을 확인 하는 것이 좋습니다.<br>
-> 다음 절차에서는 메시지를 전체 조직에 대한 스팸으로 표시합니다. 그러나 다른 조건을 추가하여 조직의 특정 받는 사람에게만 이러한 규칙을 적용할 수 있습니다. 이러한 방식으로 대상이 높은 대규모 전자 메일 필터링 설정은 소수의 사용자에 게 적용할 수 있지만, 사용자의 나머지 (대부분의 경우 대량 전자 메일을 가장 많이 받는 사람)에는 영향을 주지 않습니다.
+이 항목에서는 EAC (Exchange 관리 센터) 및 PowerShell (Office 365 고객을 위한 Exchange Online PowerShell)에서 이러한 메일 흐름 규칙을 만드는 방법에 대해 설명 합니다. 독립 실행형 EOP 고객을 위한 Exchange Online Protection PowerShell
 
-## <a name="create-a-mail-flow-rule-to-filter-bulk-email-messages-based-on-text-patterns"></a>텍스트 패턴에 따라 대량 전자 메일 메시지를 필터링 하는 메일 흐름 규칙 만들기
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
 
-1. EAC(Exchange 관리 센터)에서 **메일 흐름** \> **규칙**으로 이동합니다.
+- 이러한 절차를 수행 하려면 먼저 Exchange Online에서 사용 권한을 할당 받아야 합니다. 특히 **조직 관리**, **규정 준수 관리**및 **레코드 관리** 역할에 할당 되는 **전송 규칙** 역할을 기본적으로 할당 해야 합니다. 자세한 내용은 [Exchange Online에서 역할 그룹 관리](https://docs.microsoft.com/Exchange/permissions-exo/role-groups)를 참조하세요.
 
-2. ![](../../media/ITPro-EAC-AddIcon.gif) 추가 **아이콘 추가를 클릭 한** 다음 **새 규칙 만들기**를 선택 합니다.
+- Exchange Online에서 EAC를 열려면 exchange [online의 exchange 관리 센터](https://docs.microsoft.com/Exchange/exchange-admin-center)를 참조 하세요.
 
-3. 규칙 이름을 지정합니다.
+- Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell)을 참조하세요. 독립 실행형 Exchange Online Protection PowerShell에 연결 하려면 [Exchange Online Protection powershell에 연결](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell)을 참조 하세요.
 
-4. **기타 옵션** ![기타 옵션 아이콘](../../media/ITPro-EAC-MoreOptionsIcon.png)을 클릭 합니다. 다음의 **경우이 규칙 적용**에서 **제목 또는 본문** \> **제목 또는 본문이 다음 텍스트 패턴과 일치 하는 항목**을 선택 합니다.
+- Exchange Online 및 독립 실행형 EOP의 메일 흐름 규칙에 대 한 자세한 내용은 다음 항목을 참조 하십시오.
 
-5. **단어 또는 구 지정** 대화 상자에 대량 전자 메일에서 일반적으로 발견 되는 다음 정규식을 한 번에 하나씩 추가 하 고 작업을 마치면 **확인** 을 클릭 합니다.
+  - [Exchange Online의 메일 흐름 규칙 (전송 규칙)](https://docs.microsoft.com/Exchange/security-and-compliance/mail-flow-rules/mail-flow-rules)
 
-   - `If you are unable to view the content of this email\, please`
+  - [메일 흐름 규칙 조건 및 예외 (조건자)가 Exchange Online에 있습니다.](https://docs.microsoft.com/Exchange/security-and-compliance/mail-flow-rules/conditions-and-exceptions)
 
-   - `\>(safe )?unsubscribe( here)?\</a\>`
+  - [Exchange Online의 메일 흐름 규칙 동작](https://docs.microsoft.com/Exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions)
 
-   - `If you do not wish to receive further communications like this\, please`
+- 예를 들어 대량 메일을 식별 하는 데 사용 되는 단어 및 텍스트 패턴 목록은 포괄적이 아닙니다. 필요에 따라 항목을 추가 및 제거할 수 있습니다. 그러나이를 통해 시작 하는 것이 좋습니다.
 
-   - `\<img height\="?1"? width\="?1"? sr\c=.?http\://`
+- ASCII 텍스트의 SMTP 서버 간에 바이너리 메시지를 전송하는 데 사용되는 MIME 콘텐츠 전송 인코딩 메서드에서 메시지가 디코딩된 *후* 메시지의 제목이나 다른 머리글 필드에 있는 단어 또는 텍스트 패턴이 검색됩니다. 조건이나 예외를 사용하여 메시지의 제목이나 다른 머리글 필드에 있는 원시(일반적으로, Base64) 인코딩된 값을 검색할 수 없습니다.
 
-   - `To stop receiving these+emails\:http\://`
+- 다음 절차에서는 대량 메시지를 전체 조직에 대 한 스팸으로 표시 합니다. 그러나 다른 조건을 추가 하 여 이러한 규칙을 특정 받는 사람 에게만 적용할 수 있으므로, 사용자의 나머지 (대부분 등록 된 대량 전자 메일을 가장 많이 받는)에서는 영향을 받지 않습니다.
 
-   - `To unsubscribe from \w+ (e\-?letter|e?-?mail|newsletter)`
-
-   - `no longer (wish )?(to )?(be sent|receive) w+ email`
-
-   - `If you are unable to view the content of this email\, please click here`
-
-   - `To ensure you receive (your daily deals|our e-?mails)\, add`
-
-   - `If you no longer wish to receive these emails`
-
-   - `to change your (subscription preferences|preferences or unsubscribe)`
-
-   - `click (here to|the) unsubscribe`
-
-   위의 목록은 대량 전자 메일에서 발견 되는 일반 정규식 집합입니다. 필요에 따라 추가 하거나 제거할 수 있습니다. 그러나 이 목록에서 시작하는 것이 좋습니다.
-
-   ASCII 텍스트의 SMTP 서버 간에 바이너리 메시지를 전송하는 데 사용되는 MIME 콘텐츠 전송 인코딩 메서드에서 메시지가 디코딩된 *후* 메시지의 제목이나 다른 머리글 필드에 있는 단어 또는 텍스트 패턴이 검색됩니다. 조건이나 예외를 사용하여 메시지의 제목이나 다른 머리글 필드에 있는 원시(일반적으로, Base64) 인코딩된 값을 검색할 수 없습니다.
-
-6. **다음 작업 실행**에서 **메시지 속성 수정** \> **SCL(스팸 지수) 설정**을 선택합니다.
-
-7. **SCL 지정** 대화 상자에서 SCL을 **5**, **6** 또는 **9**로 설정하고 **확인**을 클릭합니다.
-
-   SCL을 5 또는 6으로 설정하면 **스팸** 동작이 수행되지만 SCL을 9로 설정하면 콘텐츠 필터 정책에 구성된 대로 **높은 정확도 스팸** 작업이 수행됩니다. 서비스는 콘텐츠 필터 정책에 설정된 작업을 수행합니다. 기본 작업은 받는 사람의 정크 메일 폴더로 메시지를 배달 하는 것 이지만, [스팸 필터 정책 구성](configure-your-spam-filter-policies.md)에 설명 된 대로 다른 작업을 구성할 수도 있습니다.
-
-   메시지를 받는 사람의 정크 메일 폴더로 보내지 않고 격리 하는 작업을 수행 하는 경우 메시지는 메일 흐름 규칙 일치로 관리자 격리로 보내지며 최종 사용자 스팸 격리 또는 최종 사용자에 게는 제공 되지 않습니다. 스팸 알림
-
-   서비스의 SCL 값에 대한 자세한 내용은 [스팸 신뢰 수준](spam-confidence-levels.md)를 참조하세요.
-
-8. 규칙을 저장합니다.
-
-## <a name="create-a-mail-flow-rule-to-filter-bulk-email-messages-based-on-phrases"></a>구에 따라 대량 전자 메일 메시지를 필터링 하는 메일 흐름 규칙 만들기
+## <a name="use-the-eac-to-create-mail-flow-rules-that-filter-bulk-email"></a>EAC를 사용 하 여 대량 전자 메일을 필터링 하는 메일 흐름 규칙 만들기
 
 1. EAC에서 **메일 흐름** \> **규칙**으로 이동합니다.
 
-2. ![](../../media/ITPro-EAC-AddIcon.gif) 추가 **아이콘 추가를 클릭 한** 다음 **새 규칙 만들기**를 선택 합니다.
+2. ![](../../media/ITPro-EAC-AddIcon.png) 추가 **아이콘 추가를 클릭 한** 다음 **새 규칙 만들기**를 선택 합니다.
 
-3. 규칙 이름을 지정합니다.
+3. **새 규칙** 페이지가 열리면 다음 설정을 구성 합니다.
 
-4. **기타 옵션**을 클릭합니다. 다음의 **경우이 규칙 적용**에서 **제목 또는 본문** \> 에 **다음 단어 포함 또는 본문**을 선택 합니다.
+   - **이름**: 규칙에 대 한 설명이 포함 된 고유 이름을 입력 합니다.
 
-5. **단어 또는 구 지정** 대화 상자에 대량 전자 메일에서 일반적으로 발견되는 다음 구를 한 번에 하나씩 추가하고 작업을 마치면 **확인**을 클릭합니다.
+   - **기타 옵션**을 클릭 합니다.
 
-   - `to change your preferences or unsubscribe`
+   - 다음의 **경우이 규칙 적용**: 정규식 (RegEx) 또는 단어 또는 구를 사용 하 여 메시지의 콘텐츠를 찾도록 다음 설정 중 하나를 구성 합니다.
 
-   - `Modify email preferences or unsubscribe`
+     - **제목 또는 본문** \> **제목 또는 본문이 다음 텍스트 패턴과 일치**하는 경우 표시 되는 **단어 또는 구 지정** 대화 상자에서 다음 값 중 하나를 입력 하 **Add** ![고 추가 아이콘](../../media/ITPro-EAC-AddIcon.png)추가를 클릭 한 다음 필요한 만큼 반복 합니다.
 
-   - `This is a promotional email`
+       - `If you are unable to view the content of this email\, please`
 
-   - `You are receiving this email because you requested a subscription`
+       - `\>(safe )?unsubscribe( here)?\</a\>`
 
-   - `click here to unsubscribe`
+       - `If you do not wish to receive further communications like this\, please`
 
-   - `You have received this email because you are subscribed`
+       - `\<img height\="?1"? width\="?1"? sr\c=.?http\://`
 
-   - `If you no longer wish to receive our email newsletter`
+       - `To stop receiving these+emails\:http\://`
 
-   - `to unsubscribe from this newsletter`
+       - `To unsubscribe from \w+ (e\-?letter|e?-?mail|newsletter)`
 
-   - `If you have trouble viewing this email`
+       - `no longer (wish )?(to )?(be sent|receive) w+ email`
 
-   - `This is an advertisement`
+       - `If you are unable to view the content of this email\, please click here`
 
-   - `you would like to unsubscribe or change your`
+       - `To ensure you receive (your daily deals|our e-?mails)\, add`
 
-   - `view this email as a webpage`
+       - `If you no longer wish to receive these emails`
 
-   - `You are receiving this email because you are subscribed`
+       - `to change your (subscription preferences|preferences or unsubscribe)`
 
-   이 목록은 대량 전자 메일에서 발견 되는 포괄적인 구 집합이 아닙니다. 필요에 따라 추가 하거나 제거할 수 있습니다. 그러나 이 목록에서 시작하는 것이 좋습니다.
+       - `click (here to|the) unsubscribe`
 
-6. **다음 작업 실행**에서 **메시지 속성 수정** \> **SCL(스팸 지수) 설정**을 선택합니다.
+      항목을 편집 하려면 선택 하 고 편집](../../media/ITPro-EAC-EditIcon.png)아이콘 **편집** ![을 클릭 합니다. 항목을 제거 하려면 선택 하 고 제거](../../media/ITPro-EAC-DeleteIcon.png)아이콘 **제거** ![를 클릭 합니다.
 
-7. **SCL 지정** 대화 상자에서 SCL을 **5**, **6** 또는 **9**로 설정하고 **확인**을 클릭합니다.
+       작업을 마친 후 **확인**을 클릭합니다.
 
-   SCL을 5 또는 6으로 설정하면 **스팸** 동작이 수행되지만 SCL을 9로 설정하면 콘텐츠 필터 정책에 구성된 대로 **높은 정확도 스팸** 작업이 수행됩니다. 서비스는 콘텐츠 필터 정책에 설정된 작업을 수행합니다. 기본 작업은 받는 사람의 정크 메일 폴더로 메시지를 배달 하는 것 이지만, [스팸 필터 정책 구성](configure-your-spam-filter-policies.md)에 설명 된 대로 다른 작업을 구성할 수도 있습니다.
+     - **제목 또는 본문** \> **제목 또는 본문에 다음 단어 포함**대화 상자가 나타나면 다음 값 중 하나를 입력 하 고 추가 아이콘](../../media/ITPro-EAC-AddIcon.png) **추가** ![를 클릭 한 다음 필요한 횟수 만큼 **반복 합니다.**
 
-   메시지를 받는 사람의 정크 메일 폴더로 보내지 않고 격리 하는 작업을 수행 하는 경우 메시지는 메일 흐름 규칙 일치로 관리자 격리로 보내지며 최종 사용자 스팸 격리 또는 최종 사용자에 게는 제공 되지 않습니다. 스팸 알림
+       - `to change your preferences or unsubscribe`
 
-   서비스의 SCL 값에 대한 자세한 내용은 [스팸 신뢰 수준](spam-confidence-levels.md)를 참조하세요.
+       - `Modify email preferences or unsubscribe`
 
-8. 규칙을 저장합니다.
+       - `This is a promotional email`
 
-## <a name="for-more-information"></a>자세한 내용
+       - `You are receiving this email because you requested a subscription`
 
-[정크 이메일과 대량 이메일의 차이점이 무엇인가요?](what-s-the-difference-between-junk-email-and-bulk-email.md)
+       - `click here to unsubscribe`
 
-[대량 불만 수준 값](bulk-complaint-level-values.md)
+       - `You have received this email because you are subscribed`
 
-[스팸 필터 정책 구성](configure-your-spam-filter-policies.md)
+       - `If you no longer wish to receive our email newsletter`
 
-[고급 스팸 필터링 옵션](advanced-spam-filtering-asf-options.md)
+       - `to unsubscribe from this newsletter`
+
+       - `If you have trouble viewing this email`
+
+       - `This is an advertisement`
+
+       - `you would like to unsubscribe or change your`
+
+       - `view this email as a webpage`
+
+       - `You are receiving this email because you are subscribed`
+
+      항목을 편집 하려면 선택 하 고 편집](../../media/ITPro-EAC-EditIcon.png)아이콘 **편집** ![을 클릭 합니다. 항목을 제거 하려면 선택 하 고 제거](../../media/ITPro-EAC-DeleteIcon.png)아이콘 **제거** ![를 클릭 합니다.
+
+       작업을 마친 후 **확인**을 클릭합니다.
+
+   - **다음을 수행**합니다. **메시지 속성** \> 수정을 선택 하 여 **SCL (스팸 지 수)을 설정**합니다. **SCL 지정** 대화 상자가 나타나면 다음 설정 중 하나를 구성 합니다.
+
+     - 메시지를 **스팸으로**표시 하려면 **6**을 선택 합니다. 스팸 방지 정책에서 **스팸** 필터링 verdicts에 대해 구성한 작업이 메시지에 적용 됩니다 (기본값은 **정크 메일 폴더로 메시지 이동**).
+
+     - 메시지를 **높은 신뢰도 스팸으로** 표시 하려면 **9**를 선택 합니다. 스팸 방지 정책에서 **높은 신뢰도의 스팸** 필터링 verdicts에 대해 구성한 작업은 메시지에 적용 됩니다 (기본값은 **정크 메일 폴더로 메시지 이동**).
+
+    SCL 값에 대 한 자세한 내용은 [Office 365에서 scl (스팸](spam-confidence-levels.md)지 수)을 참조 하십시오.
+
+   작업이 끝나면 **저장** 을 클릭 합니다.
+
+## <a name="use-powershell-to-create-a-mail-flow-rules-that-filter-bulk-email"></a>PowerShell을 사용 하 여 대량 전자 메일을 필터링 하는 메일 흐름 규칙 만들기
+
+다음 구문을 사용 하 여 메일 흐름 규칙 (정규식과 단어 비교) 중 하나 또는 둘 다를 만들 수 있습니다.
+
+```powershell
+New-TransportRule -Name "<UniqueName>" [-SubjectOrBodyMatchesPatterns "<RegEx1>","<RegEx2>"...] [-SubjectOrBodyContainsWords "<WordOrPrhase1>","<WordOrPhrase2>"...] -SetSCL <6 | 9>
+```
+
+이 예에서는 메시지를 **스팸으로**설정 하기 위해 이전 항목과 동일한 정규식 목록을 사용 하는 "대량 전자 메일 필터링-RegEx" 라는 새 규칙을 만듭니다.
+
+```powershell
+New-TransportRule -Name "Bulk email filtering - RegEx" -SubjectOrBodyMatchesPatterns "If you are unable to view the content of this email\, please","\>(safe )?unsubscribe( here)?\</a\>","If you do not wish to receive further communications like this\, please","\<img height\="?1"? width\="?1"? sr\c=.?http\://","To stop receiving these+emails\:http\://","To unsubscribe from \w+ (e\-?letter|e?-?mail|newsletter)","no longer (wish )?(to )?(be sent|receive) w+ email","If you are unable to view the content of this email\, please click here","To ensure you receive (your daily deals|our e-?mails)\, add","If you no longer wish to receive these emails","to change your (subscription preferences|preferences or unsubscribe)","click (here to|the) unsubscribe"... -SetSCL 6
+```
+
+이 예에서는 메시지를 **높은 신뢰도 스팸으로**설정 하기 위해 이전 항목과 동일한 단어 목록을 사용 하는 "대량 전자 메일 필터링-단어" 라는 새 규칙을 만듭니다.
+
+```powershell
+New-TransportRule -Name "Bulk email filtering - Words" -SubjectOrBodyContainsWords "to change your preferences or unsubscribe","Modify email preferences or unsubscribe","This is a promotional email","You are receiving this email because you requested a subscription","click here to unsubscribe","You have received this email because you are subscribed","If you no longer wish to receive our email newsletter","to unsubscribe from this newsletter","If you have trouble viewing this email","This is an advertisement","you would like to unsubscribe or change your","view this email as a webpage","You are receiving this email because you are subscribed" -SetSCL 9
+```
+
+자세한 구문 및 매개변수 정보 [New-TransportRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/new-transportrule)을 참조하세요.
+
+## <a name="how-do-you-know-this-worked"></a>작동 여부는 어떻게 확인하나요?
+
+대량 전자 메일을 필터링 하도록 메일 흐름 규칙을 구성 했는지 확인 하려면 다음 단계 중 하나를 수행 합니다.
+
+- EAC에서 **메일 흐름** \> **규칙** \> 을 선택 하 고 편집 아이콘 **Edit** ![](../../media/ITPro-EAC-EditIcon.png)편집 \> 을 클릭 한 다음 설정을 확인 합니다.
+
+- PowerShell에서 규칙 이름을 \<\> 규칙 이름으로 바꾸고 다음 명령을 실행 하 여 설정을 확인 합니다.
+
+  ```powershell
+  Get-TransportRule -Identity "<Rule Name>" | Format-List
+  ```
+
+- 외부 계정에서 구 또는 텍스트 패턴 중 하나를 포함 하는 해당 받는 사람에 게 테스트 메시지를 보낸 다음 결과를 확인 합니다.
