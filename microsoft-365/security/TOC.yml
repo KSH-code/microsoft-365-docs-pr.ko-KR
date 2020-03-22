@@ -199,70 +199,58 @@
                       href: ./office-365-security/recover-from-ransomware.md
                     - name: SharePoint Online에서의 바이러스 탐지
                       href: ./office-365-security/virus-detection-in-spo.md
-                - name: 고급 스팸 필터링 옵션
-                  href: ./office-365-security/advanced-spam-filtering-asf-options.md
-                - name: 아웃바운드 메시지용 높은 위험 배달 풀
-                  href: ./office-365-security/high-risk-delivery-pool-for-outbound-messages.md
-                - name: 스팸 방지 보호 FAQ
-                  href: ./office-365-security/anti-spam-protection-faq.md
-                - name: 스팸 필터 규칙과 스팸 필터 정책에서 유효하지 않은 문자 방지
-                  href: ./office-365-security/invalid-characters-hosted-spam-filter-rules-policies.md
-                - name: Exchange Online에서의 안전한 발신자 및 차단된 발신자 목록
-                  href: ./office-365-security/safe-sender-and-blocked-sender-lists-faq.md
-                - name: Office 365에서 전자 메일 메시지의 안전 팁
-                  href: ./office-365-security/safety-tips-in-office-365.md
-                - name: 발신자가 아웃 바운드 스팸을 보내지 못하도록 차단될 시의 알림 샘플
-                  href: ./office-365-security/sample-notification-when-a-sender-is-blocked-sending-outbound-spam.md
-                - name: 최종 사용자 스팸 알림을 사용하여 스팸으로 격리된 메시지 릴리스 및 보고
-                  href: ./office-365-security/use-end-user-spam-notifications-to-release-and-report-spam-quarantined-messages.md
-                - name: Office 365에 전송되는 정크 메일에 맞서기
-                  href: ./office-365-security/fighting-junk-email.md
-                - name: Office 365 전자 메일 스팸 방지 보호
+                - name: 스팸 방지 보호 기능
                   href: ./office-365-security/anti-spam-protection.md
+                  items:
+                    - name: 스팸 방지 보호 FAQ
+                      href: ./office-365-security/anti-spam-protection-faq.md
+                    - name: 스팸 방지 정책 구성
+                      href: ./office-365-security/configure-your-spam-filter-policies.md
+                    - name: 연결 필터 정책 구성
+                      href: ./office-365-security/configure-the-connection-filter-policy.md
+                    - name: 차단할 보낸 사람 목록 만들기
+                      href: ./office-365-security/Create-block-sender-lists-in-office-365.md
+                    - name: 안전한 보낸 사람 목록 만들기
+                      href: ./office-365-security/Create-safe-sender-lists-in-office-365.md
+                    - name: 스팸 지수(SCL)
+                      href: ./office-365-security/spam-confidence-levels.md
+                    - name: 대량 불만 수준(SCL)
+                      href: ./office-365-security/bulk-complaint-level-values.md
+                    - name: Exchange Online 사서함에 대한 정크 메일 설정 구성
+                      href: ./office-365-security/configure-junk-email-settings-on-exo-mailboxes.md
+                    - name: 최종 사용자 스팸 알림
+                      href: ./office-365-security/use-spam-notifications-to-release-and-report-quarantined-messages.md
+                    - name: 메일 흐름 규칙을 사용하여 SCL 설정
+                      href: ./office-365-security/use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages.md
+                    - name: 고급 스팸 필터 (ASF) 설정
+                      href: ./office-365-security/advanced-spam-filtering-asf-options.md
+                    - name: 정크 메일 폴더에 스팸을 전달하도록 독립 실행형 EOP 구성
+                      href: ./office-365-security/ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md
+                - name: 아웃바운드 스팸 검색
+                  href: ./office-365-security/outbound-spam-controls.md
+                  items:
+                    - name: 아웃바운드 스팸 필터링 구성
+                      href: ./office-365-security/configure-the-outbound-spam-policy.md
+                    - name: 아웃바운드 메시지용 높은 위험 배달 풀
+                      href: ./office-365-security/high-risk-delivery-pool-for-outbound-messages.md
+                    - name: 제한된 사용자 포털에서 차단된 사용자 제거
+                      href: ./office-365-security/removing-user-from-restricted-users-portal-after-spam.md
+                - name: 스팸 방지 메시지 헤더
+                  href: ./office-365-security/anti-spam-message-headers.md
                 - name: 정책 및 보호 조치의 결합 방식
                   href: ./office-365-security/how-policies-and-protections-are-combined.md
-                - name: Office 365에서 스팸 메일을 줄이는 방법
-                  href: ./office-365-security/reduce-spam-email.md
-                - name: Office 365에서 아웃바운드 스팸 제어
-                  href: ./office-365-security/outbound-spam-controls.md
-                - name: Office 365 스팸 필터로 전자 메일 스팸을 차단하여 거짓 부정 문제 방지
-                  href: ./office-365-security/reduce-spam-email.md
                 - name: 제로 아워 자동 비우기 - 스팸 및 맬웨어로부터 보호
                   href: ./office-365-security/zero-hour-auto-purge.md
-                - name: 스팸이 각 사용자의 정크 메일 폴더로 라우팅되는지 확인
-                  href: ./office-365-security/ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md
+                - name: 전자 메일 메시지의 안전 팁
+                  href: ./office-365-security/safety-tips-in-office-365.md
                 - name: Microsoft에 정크 메일 메시지 보고
                   href: ./office-365-security/report-junk-email-messages-to-microsoft.md
-                - name: 대량 메일에 대해 수신 허용 - 보낸 사람 목록 관리
-                  href: ./office-365-security/manage-safe-sender-lists-for-bulk-mailers.md
-                - name: 스팸 방지 정책 구성
-                  href: ./office-365-security/configure-the-anti-spam-policies.md
-                - name: Create-block-sender-lists-in-office-365
-                  href: ./office-365-security/Create-block-sender-lists-in-office-365.md
-                - name: Create-safe-sender-lists-in-office-365
-                  href: ./office-365-security/Create-safe-sender-lists-in-office-365.md
-                - name: 스팸 필터 정책 구성
-                  href: ./office-365-security/configure-your-spam-filter-policies.md
-                - name: 연결 필터 정책 구성
-                  href: ./office-365-security/configure-the-connection-filter-policy.md
-                - name: 아웃바운드 스팸 정책 구성
-                  href: ./office-365-security/configure-the-outbound-spam-policy.md
-                - name: 스팸 메일을 보낸 후 제한된 사용자 포털에서 사용자 제거
-                  href: ./office-365-security/removing-user-from-restricted-users-portal-after-spam.md
-                - name: 스팸 지수
-                  href: ./office-365-security/spam-confidence-levels.md
-                - name: Exchange Online의 오류 코드 5.7.7xx 수정
-                  href: ./office-365-security/fix-error-code-5-7-7xx-in-exchange-online.md
-                - name: 메일 흐름 규칙을 사용하여 메시지의 스팸 신뢰 수준(SCL) 설정
-                  href: ./office-365-security/use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages.md
                 - name: '분석을 위해 Microsoft에 스팸 메시지, 스팸이 아닌 메시지 및 피싱 스캠 메시지 제출'
                   href: ./office-365-security/submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md
                 - name: Office 365에서 관리자 제출
                   href: ./office-365-security/admin-submission.md
                 - name: 목록 해제 포털을 사용하여 Office 365 수신 거부 목록에서 본인 제거
                   href: ./office-365-security/use-the-delist-portal-to-remove-yourself-from-the-office-365-blocked-senders-lis.md
-                - name: 스팸 방지 메시지 헤더
-                  href: ./office-365-security/anti-spam-message-headers.md
             - name: Office 365의 피싱 방지 보호 기능
               href: ./office-365-security/anti-phishing-protection.md
               items:
@@ -290,10 +278,6 @@
                   href: ./office-365-security/support-for-anonymous-inbound-email-messages-over-ipv6.md
                 - name: EOP 독립 실행형에서 전자 메일 스팸 차단
                   href: ./office-365-security/block-email-spam-in-EOPStandalone.md
-                - name: EOP에서 최종 사용자 스팸 알림 구성
-                  href: ./office-365-security/configure-end-user-spam-notifications-in-eop.md
-                - name: Exchange Online에서 최종 사용자 스팸 알림 구성
-                  href: ./office-365-security/configure-end-user-spam-notifications-in-exchange-online.md
                 - name: 웹용 Outlook에서 정크 전자 메일 및 피싱 사기 보고
                   href: ./office-365-security/report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md
                 - name: Exchange Online Protection을 사용 하여 온-프레미스 사서함 보호
@@ -304,17 +288,15 @@
                   href: ./office-365-security/turn-off-junk-email-reporting-in-outlook-on-the-web.md
                 - name: 정크 메일과 대량 전자 메일의 차이점
                   href: ./office-365-security/what-s-the-difference-between-junk-email-and-bulk-email.md
-            - name: Office 365 전자 메일 메시지 격리
+            - name: 격리
               href: ./office-365-security/quarantine-email-messages.md
               items:
+                - name: 격리 FAQ
+                  href: ./office-365-security/quarantine-faq.md
                 - name: 관리자로 격리된 메시지 및 파일 관리
                   href: ./office-365-security/manage-quarantined-messages-and-files.md
                 - name: 사용자로 격리된 메시지 찾기 및 릴리스
                   href: ./office-365-security/find-and-release-quarantined-messages-as-a-user.md
-                - name: Office 365에 대한 격리 FAQ
-                  href: ./office-365-security/quarantine-faq.md
-                - name: Office 365에서 사용자 스팸 알림을 사용하여 격리된 메시지 릴리스 및 보고
-                  href: ./office-365-security/use-spam-notifications-to-release-and-report-quarantined-messages.md
             - name: 전자 메일 유효성 검사 및 인증
               items:
                 - name: Office 365에서 SPF를 사용해 스푸핑을 차단하는 방법
@@ -347,8 +329,6 @@
                       href: ./office-365-security/set-up-and-download-a-custom-report.md
                     - name: 기존 보고서 다운로드
                       href: ./office-365-security/download-existing-reports.md
-                - name: Office 365에서 보안 팁 사용 여부 설정
-                  href: ./office-365-security/enable-or-disable-safety-tips.md
                 - name: 악성 파일에 대한 정보 보기
                   href: ./office-365-security/malicious-files-detected-in-spo-odb-or-teams.md
         - name: Advanced Threat Protection
@@ -556,8 +536,6 @@
                       href: ./office-365-security/reporting-and-message-trace-in-exchange-online-protection.md
                     - name: Office 365의 메일 흐름 인텔리전스
                       href: ./office-365-security/mail-flow-intelligence-in-office-365.md
-                - name: 격리
-                  href: ./office-365-security/quarantine.md
                 - name: 문제 해결 및 지원 정보
                   href: ./office-365-security/troubleshooting-and-support-information.md
                   items:

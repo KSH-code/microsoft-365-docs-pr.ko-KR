@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 분류에 기반한 정확한 데이터 매치를 사용한 사용자 지정 중요한 정보 유형 만들기
-ms.openlocfilehash: 044801416c7db4ddec8936a496862c432a63acde
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: f4ebd34104cd4f3c5b3976a10e8bf64da990342c
+ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42077610"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42894945"
 ---
 # <a name="create-custom-sensitive-information-types-with-exact-data-match-based-classification"></a>분류에 기반한 정확한 데이터 매치를 사용한 사용자 지정 중요한 정보 유형 만들기
 
@@ -76,49 +76,49 @@ EDM 기반 분류를 설정하고 구성하려면 중요한 데이터를 .csv �
 
 3. 중요한 정보 데이터의 스키마를 .xml 형식으로 정의합니다(아래 예제와 비슷). 이 스키마 파일의 이름을  **edm.xml**로 지정하고 데이터베이스의 각 열에 구문을 사용하는 줄이 있도록 구성합니다. 
 
-`\<Field name="" searchable=""/\>`.
+      `\<Field name="" searchable=""/\>`.
 
--  *Field name* 값에 열 이름을 사용합니다.
-- 최대 5개의 필드까지 검색할 수 있게 하려는 필드에 *searchable="true"* 를 사용합니다. 최소 하나의 필드를 검색 가능한 항목으로 지정해야 합니다.
+      -  *Field name* 값에 열 이름을 사용합니다.
+      - 최대 5개의 필드까지 검색할 수 있게 하려는 필드에 *searchable="true"* 를 사용합니다. 최소 하나의 필드를 검색 가능한 항목으로 지정해야 합니다.
 
-예를 들어 다음 .xml 파일에서는 5개의 *필드(PatientID*, *MRN*, *SSN*, *Phone* 및 *DOB*)가 검색 가능으로 지정된 환자 레코드 데이터베이스의 스키마를 정의합니다.
+      예를 들어 다음 .xml 파일에서는 5개의 *필드(PatientID*, *MRN*, *SSN*, *Phone* 및 *DOB*)가 검색 가능으로 지정된 환자 레코드 데이터베이스의 스키마를 정의합니다.
 
-(여기에 있는 예제를 복사, 수정 및 사용할 수 있습니다.)
+      (여기에 있는 예제를 복사, 수정 및 사용할 수 있습니다.)
 
- ```xml
-<EdmSchema xmlns="https://schemas.microsoft.com/office/2018/edm">
-      <DataStore name="PatientRecords" description="Schema for patient records" version="1">
-            <Field name="PatientID" searchable="true" />
-            <Field name="MRN" searchable="true" />
-            <Field name="FirstName" />
-            <Field name="LastName" />
-            <Field name="SSN" searchable="true" />
-            <Field name="Phone" searchable="true" />
-            <Field name="DOB" searchable="true" />
-            <Field name="Gender" />
-            <Field name="Address" />
-      </DataStore>
-</EdmSchema>
-```
+      ```xml
+      <EdmSchema xmlns="http://schemas.microsoft.com/office/2018/edm">
+            <DataStore name="PatientRecords" description="Schema for patient records" version="1">
+                  <Field name="PatientID" searchable="true" />
+                  <Field name="MRN" searchable="true" />
+                  <Field name="FirstName" />
+                  <Field name="LastName" />
+                  <Field name="SSN" searchable="true" />
+                  <Field name="Phone" searchable="true" />
+                  <Field name="DOB" searchable="true" />
+                  <Field name="Gender" />
+                  <Field name="Address" />
+            </DataStore>
+      </EdmSchema>
+      ```
 
 4. [Office 365 보안 및 준수 센터 PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps)
 
 5. 데이터베이스 스키마를 업로드 하려면 다음과 같은 cmdlet을 한 번에 하나씩 실행하십시오:
 
-```powershell
-$edmSchemaXml=Get-Content .\\edm.xml -Encoding Byte -ReadCount 0
-New-DlpEdmSchema -FileData $edmSchemaXml -Confirm:$true
-```
+      ```powershell
+      $edmSchemaXml=Get-Content .\\edm.xml -Encoding Byte -ReadCount 0
+      New-DlpEdmSchema -FileData $edmSchemaXml -Confirm:$true
+      ```
 
-다음과 같이 확인하라는 메시지가 표시됩니다.
+      다음과 같이 확인하라는 메시지가 표시됩니다.
 
-> 확인
->
-> 이 작업을 수행하시겠습니까?
->
-> 'patientrecords' 데이터 저장소의 새로운 EDM 스키마를 가져옵니다.
->
-> \[Y\] 예 \[A\] 모두 예 \[N\] 아니요 \[L\] 모두 아니요 \[?\] 도움말(기본값: "Y"):
+      > 확인
+      >
+      > 이 작업을 수행하시겠습니까?
+      >
+      > 'patientrecords' 데이터 저장소의 새로운 EDM 스키마를 가져옵니다.
+      >
+      > \[Y\] 예 \[A\] 모두 예 \[N\] 아니요 \[L\] 모두 아니요 \[?\] 도움말(기본값: "Y"):
 
 > [!TIP]
 > 5단계에서 확인하지 않고 변경 사항을 적용하려면 New-DlpEdmSchema -FileData $edmSchemaXml 대신 해당 cmdlet을 사용하십시오.
@@ -138,26 +138,26 @@ EDM 기반 분류에 사용되는 필드를 변경하는 것과 같이 **edm.xml
 
 3. 데이터베이스 스키마를 업데이트하려면 다음과 같은 cmdlet을 한 번에 하나씩 실행하십시오:
 
-```powershell
-$edmSchemaXml=Get-Content .\\edm.xml -Encoding Byte -ReadCount 0
-Set-DlpEdmSchema -FileData $edmSchemaXml -Confirm:$true
-```
+      ```powershell
+      $edmSchemaXml=Get-Content .\\edm.xml -Encoding Byte -ReadCount 0
+      Set-DlpEdmSchema -FileData $edmSchemaXml -Confirm:$true
+      ```
 
-다음과 같이 확인하라는 메시지가 표시됩니다.
+      다음과 같이 확인하라는 메시지가 표시됩니다.
 
-> 확인
->
-> 이 작업을 수행하시겠습니까?
->
-> 'patientrecords' 데이터 저장소의 새로운 EDM 스키마를 업데이트합니다.
->
-> \[Y\] 예 \[A\] 모두 예 \[N\] 아니요 \[L\] 모두 아니요 \[?\] 도움말(기본값: "Y"):
+      > 확인
+      >
+      > 이 작업을 수행하시겠습니까?
+      >
+      > 'patientrecords' 데이터 저장소의 새로운 EDM 스키마를 업데이트합니다.
+      >
+      > \[Y\] 예 \[A\] 모두 예 \[N\] 아니요 \[L\] 모두 아니요 \[?\] 도움말(기본값: "Y"):
 
-> [!TIP]
-> 3단계에서 확인하지 않고 변경 사항을 적용하려면 Set-DlpEdmSchema -FileData $edmSchemaXml 대신 해당 cmdlet을 사용하십시오.
+      > [!TIP]
+      > 3단계에서 확인하지 않고 변경 사항을 적용하려면 Set-DlpEdmSchema -FileData $edmSchemaXml 대신 해당 cmdlet을 사용하십시오.
 
-> [!NOTE]
-> EDMSchema를 추가 사항으로 업데이트하는 데 10~60분이 소요될 수 있습니다. 추가 사항을 사용하는 단계를 실행하기 전에 업데이트를 완료해야 합니다.
+      > [!NOTE]
+      > EDMSchema를 추가 사항으로 업데이트하는 데 10~60분이 소요될 수 있습니다. 추가 사항을 사용하는 단계를 실행하기 전에 업데이트를 완료해야 합니다.
 
 ## <a name="removing-the-schema-for-edm-based-classification"></a>EDM 기반 분류에 대한 스키마 제거
 
@@ -167,89 +167,89 @@ Set-DlpEdmSchema -FileData $edmSchemaXml -Confirm:$true
 
 2. 다음의 PowerShell cmdlet을 실행하여 "patientrecords"의 데이터 저장소 이름을 제거하고자 하는 것으로 대체하십시오.
 
-```powershell
-Remove-DlpEdmSchema -Identity patientrecords
-```
+      ```powershell
+      Remove-DlpEdmSchema -Identity patientrecords
+      ```
 
-다음과 같이 확인하라는 메시지가 표시됩니다.
+      다음과 같이 확인하라는 메시지가 표시됩니다.
 
-> 확인
->
-> 이 작업을 수행하시겠습니까?
->
-> 'patientrecords' 데이터 저장소의 EDM 스키마를 제거합니다.
->
-> \[Y\] 예 \[A\] 모두 예 \[N\] 아니요 \[L\] 모두 아니요 \[?\] 도움말(기본값: "Y"):
+      > 확인
+      >
+      > 이 작업을 수행하시겠습니까?
+      >
+      > 'patientrecords' 데이터 저장소의 EDM 스키마를 제거합니다.
+      >
+      > \[Y\] 예 \[A\] 모두 예 \[N\] 아니요 \[L\] 모두 아니요 \[?\] 도움말(기본값: "Y"):
 
-> [!TIP]
->  2단계에서 확인하지 않고 변경 사항을 적용하려면 Remove-DlpEdmSchema -Identity patientrecords -Confirm:$false 대신 해당 cmdlet을 사용하십시오.
+      > [!TIP]
+      >  2단계에서 확인하지 않고 변경 사항을 적용하려면 Remove-DlpEdmSchema -Identity patientrecords -Confirm:$false 대신 해당 cmdlet을 사용하십시오.
 
 ### <a name="set-up-a-rule-package"></a>규칙 패키지 설정
 
 1. 다음 예제와 같이 in .xml 형식(유니코드 인코딩 사용)에 규칙 패키지를 생성하십시오. (여기에 있는 예제를 복사, 수정 및 사용할 수 있습니다.)
 
-규칙 패키지를 설정하는 경우 .csv 파일과 **edm.xml** 파일을 정확하게 참조하도록 하십시오. (여기에 있는 예제를 복사, 수정 및 사용할 수 있습니다.) 이 샘플 xml에서 EDM 중요 유형을 만들려면 다음 필드를 사용자 지정해야 합니다.
+      규칙 패키지를 설정하는 경우 .csv 파일과 **edm.xml** 파일을 정확하게 참조하도록 하십시오. (여기에 있는 예제를 복사, 수정 및 사용할 수 있습니다.) 이 샘플 xml에서 EDM 중요 유형을 만들려면 다음 필드를 사용자 지정해야 합니다.
 
-- **RulePack ID & ExactMatch ID**: [New-GUID](https://docs.microsoft.com/powershell/module/microsoft.powershell.utility/new-guid?view=powershell-6)를  사용하여 GUID를 생성합니다.
+      - **RulePack ID & ExactMatch ID**: [New-GUID](https://docs.microsoft.com/powershell/module/microsoft.powershell.utility/new-guid?view=powershell-6)를  사용하여 GUID를 생성합니다.
 
-- **Datastore**: 이 필드는 사용할 EDM 조회 데이터 저장소를 지정합니다. 구성된 EDM 스키마의 데이터 원본 이름을 입력합니다.
+      - **Datastore**: 이 필드는 사용할 EDM 조회 데이터 저장소를 지정합니다. 구성된 EDM 스키마의 데이터 원본 이름을 입력합니다.
 
-- **idMatch**: 이 필드는 EDM의 기본 요소를 가리킵니다.
-  - Matches: 정확한 조회에 사용할 필드를 지정합니다. 데이터 저장소의 EDM 스키마에서 검색 가능한 필드 이름을 입력합니다.
-  - Classification: 이 필드는 EDM 조회를 트리거하는 중요한 유형 일치를 지정합니다. 기존의 기본 제공 분류 또는 사용자 지정 분류의 이름 또는 GUID를 입력할 수 있습니다.
+      - **idMatch**: 이 필드는 EDM의 기본 요소를 가리킵니다.
+        - Matches: 정확한 조회에 사용할 필드를 지정합니다. 데이터 저장소의 EDM 스키마에서 검색 가능한 필드 이름을 입력합니다.
+        - Classification: 이 필드는 EDM 조회를 트리거하는 중요한 유형 일치를 지정합니다. 기존의 기본 제공 분류 또는 사용자 지정 분류의 이름 또는 GUID를 입력할 수 있습니다.
 
-- **Match:** 이 필드는 idMatch의 근접성에서 찾은 추가 증명을 가리킵니다.
-  - Matches: 데이터 저장소의 EDM 스키마에 필드 이름을 입력합니다.
-- **리소스:** 이 섹션에서는 여러 로캘에서 중요한 유형의 이름과 설명을 지정합니다.
-  - idRef: ExactMatch ID의 GUID를 입력합니다.
-  - Name & des 스키마 설명 편집: 필요에 따라 사용자 지정합니다.
+      - **Match:** 이 필드는 idMatch의 근접성에서 찾은 추가 증명을 가리킵니다.
+        - Matches: 데이터 저장소의 EDM 스키마에 필드 이름을 입력합니다.
+      - **리소스:** 이 섹션에서는 여러 로캘에서 중요한 유형의 이름과 설명을 지정합니다.
+        - idRef: ExactMatch ID의 GUID를 입력합니다.
+        - 이름 및 설명: 필요에 따라 사용자 지정합니다.
 
-```xml
-<RulePackage xmlns="https://schemas.microsoft.com/office/2018/edm">
-  <RulePack id="fd098e03-1796-41a5-8ab6-198c93c62b11">
-    <Version build="0" major="2" minor="0" revision="0" />
-    <Publisher id="eb553734-8306-44b4-9ad5-c388ad970528" />
-    <Details defaultLangCode="en-us">
-      <LocalizedDetails langcode="en-us">
-        <PublisherName>IP DLP</PublisherName>
-        <Name>Health Care EDM Rulepack</Name>
-        <Description>This rule package contains the EDM sensitive type for health care sensitive types.</Description>
-      </LocalizedDetails>
-    </Details>
-  </RulePack>
-  <Rules>
-    <ExactMatch id = "E1CC861E-3FE9-4A58-82DF-4BD259EAB371" patternsProximity = "300" dataStore ="PatientRecords" recommendedConfidence = "65" >
-      <Pattern confidenceLevel="65">
-        <idMatch matches = "SSN" classification = "U.S. Social Security Number (SSN)" />
-      </Pattern>
-      <Pattern confidenceLevel="75">
-        <idMatch matches = "SSN" classification = "U.S. Social Security Number (SSN)" />
-        <Any minMatches ="3" maxMatches ="100">
-          <match matches="PatientID" />
-          <match matches="MRN"/>
-          <match matches="FirstName"/>
-          <match matches="LastName"/>
-          <match matches="Phone"/>
-          <match matches="DOB"/>
-        </Any>
-      </Pattern>
-    </ExactMatch>
-    <LocalizedStrings>
-      <Resource idRef="E1CC861E-3FE9-4A58-82DF-4BD259EAB371">
-        <Name default="true" langcode="en-us">Patient SSN Exact Match.</Name>
-        <Description default="true" langcode="en-us">EDM Sensitive type for detecting Patient SSN.</Description>
-      </Resource>
-    </LocalizedStrings>
-  </Rules>
-</RulePackage>
-```
+      ```xml
+      <RulePackage xmlns="http://schemas.microsoft.com/office/2018/edm">
+        <RulePack id="fd098e03-1796-41a5-8ab6-198c93c62b11">
+          <Version build="0" major="2" minor="0" revision="0" />
+          <Publisher id="eb553734-8306-44b4-9ad5-c388ad970528" />
+          <Details defaultLangCode="en-us">
+            <LocalizedDetails langcode="en-us">
+              <PublisherName>IP DLP</PublisherName>
+              <Name>Health Care EDM Rulepack</Name>
+              <Description>This rule package contains the EDM sensitive type for health care sensitive types.</Description>
+            </LocalizedDetails>
+          </Details>
+        </RulePack>
+        <Rules>
+          <ExactMatch id = "E1CC861E-3FE9-4A58-82DF-4BD259EAB371" patternsProximity = "300" dataStore ="PatientRecords" recommendedConfidence = "65" >
+            <Pattern confidenceLevel="65">
+              <idMatch matches = "SSN" classification = "U.S. Social Security Number (SSN)" />
+            </Pattern>
+            <Pattern confidenceLevel="75">
+              <idMatch matches = "SSN" classification = "U.S. Social Security Number (SSN)" />
+              <Any minMatches ="3" maxMatches ="100">
+                <match matches="PatientID" />
+                <match matches="MRN"/>
+                <match matches="FirstName"/>
+                <match matches="LastName"/>
+                <match matches="Phone"/>
+                <match matches="DOB"/>
+              </Any>
+            </Pattern>
+          </ExactMatch>
+          <LocalizedStrings>
+            <Resource idRef="E1CC861E-3FE9-4A58-82DF-4BD259EAB371">
+              <Name default="true" langcode="en-us">Patient SSN Exact Match.</Name>
+              <Description default="true" langcode="en-us">EDM Sensitive type for detecting Patient SSN.</Description>
+            </Resource>
+          </LocalizedStrings>
+        </Rules>
+      </RulePackage>
+      ```
 
 1. 다음의 PowerShell cmdlet을 한 번에 하나씩 실행하여 규칙 패키지를 업로드하십시오.
 
-```powershell
-$rulepack=Get-Content .\\rulepack.xml -Encoding Byte -ReadCount 0
-New-DlpSensitiveInformationTypeRulePackage -FileData $rulepack
-```
+      ```powershell
+      $rulepack=Get-Content .\\rulepack.xml -Encoding Byte -ReadCount 0
+      New-DlpSensitiveInformationTypeRulePackage -FileData $rulepack
+      ```
 
 이 시점에서 EDM 기반 분류를 설정합니다. 다음 단계로는 중요한 데이터를 색인화하고 색인화된 데이터를 업로드합니다.
 
@@ -304,8 +304,8 @@ PatientRecords 스키마가 검색 가능한 것으로 5개의 필드를 정의�
 
 1. [EDM 업로드 에이전트](https://go.microsoft.com/fwlink/?linkid=2088639)를 다운로드하고 설치합니다. 기본적으로 설치 위치는  **C:\\Program Files\\Microsoft\\EdmUploadAgent**여야 합니다.
 
-> [!TIP]
-> 지원되는 명령 매개 변수에 대한 목록을 얻으려면 에이전트(인수 없음)를 실행하십시오. 예를 들어 'EdmUploadAgent'가 해당됩니다.
+      > [!TIP]
+      > 지원되는 명령 매개 변수에 대한 목록을 얻으려면 에이전트(인수 없음)를 실행하십시오. 예를 들어 'EdmUploadAgent'가 해당됩니다.
 
 2. EDM 업로드 에이전트에 권한을 부여하려면 Windows 명령 프롬프트를 열고(관리자로) 다음 명령을 실행합니다.
 
@@ -331,7 +331,7 @@ PatientRecords 스키마가 검색 가능한 것으로 5개의 필드를 정의�
 
 `EdmUploadAgent.exe /CreateHash /DataFile \<DataFilePath\> /HashLocation \<HashedFileLocation\>`
 
-예시는 다음과 같습니다:
+예시:
 
 > **EdmUploadAgent.exe /CreateHash /DataFile C:\\Edm\\Data\\PatientRecords.csv /HashLocation C:\\Edm\\Hash**
 
@@ -339,7 +339,7 @@ PatientRecords 스키마가 검색 가능한 것으로 5개의 필드를 정의�
 
 `EdmUploadAgent.exe /UploadHash /DataStoreName \<DataStoreName\> /HashFile \<HashedSourceFilePath\>`
 
-예시는 다음과 같습니다: 
+예시:
 
 > **EdmUploadAgent.exe /UploadHash /DataStoreName PatientRecords /HashFile C:\\Edm\\Hash\\PatientRecords.EdmHash**
 
@@ -361,16 +361,16 @@ PatientRecords 스키마가 검색 가능한 것으로 5개의 필드를 정의�
 
 2. Microsoft Excel과 같은 앱에 중요한 데이터를 다시 내보내고 .csv 형식으로 파일을 저장합니다.  [중요한 데이터 색인화 및 업로드](#index-and-upload-the-sensitive-data)에 설명된 단계를 수행할 때 사용한 파일 이름과 위치를 동일하게 유지합니다.
 
-> [!NOTE]
-> .csv 파일의 구조(필드 이름)를 변경하지 않은 경우 데이터를 새로 고칠 때 데이터베이스 스키마 파일을 변경하지 않아도 됩니다. 하지만 변경해야 하는 경우 데이터베이스 스키마와 규칙 패키지를 적절하게 편집해야 합니다.
+      > [!NOTE]
+      > .csv 파일의 구조(필드 이름)를 변경하지 않은 경우 데이터를 새로 고칠 때 데이터베이스 스키마 파일을 변경하지 않아도 됩니다. 하지만 변경해야 하는 경우 데이터베이스 스키마와 규칙 패키지를 적절하게 편집해야 합니다.
 
 3.  [작업 스케줄러](https://docs.microsoft.com/windows/desktop/TaskSchd/task-scheduler-start-page)를 사용하여 [중요한 데이터 색인화 및 업로드](#index-and-upload-the-sensitive-data) 절차의 2단계와 3단계를 자동화합니다. 다음과 같은 여러 방법을 사용하여 작업을 예약할 수 있습니다.
 
-| **방법**             | **수행할 작업**                                                                                                                                                                                                                                                                                                                                                                                                                     |
-| ---------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| Windows PowerShell     |  [ScheduledTasks](https://docs.microsoft.com/powershell/module/scheduledtasks/?view=win10-ps) 문서와 이 문서에 있는 [예제 PowerShell 스크립트](#example-powershell-script-for-task-scheduler)를  참고하세요. |
-| 작업 스케줄러 API     |  [작업 스케줄러](https://docs.microsoft.com/windows/desktop/TaskSchd/using-the-task-scheduler) 문서를 참조하세요.                                                                                                                                                                                                                                                                                |
-| Windows 사용자 인터페이스 | Windows에서 **시작**을 클릭하고 작업 스케줄러를 입력합니다. 그런 다음 결과 목록에서 **작업 스케줄러**를 마우스 오른쪽 단추로 클릭하고 **관리자로 실행**을 선택합니다.                                                                                                                                                                                                                                                                           |
+      | **방법**             | **수행할 작업**                                                                                                                                                                                                                                                                                                                                                                                                                     |
+      | ---------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+      | Windows PowerShell     |  [ScheduledTasks](https://docs.microsoft.com/powershell/module/scheduledtasks/?view=win10-ps) 문서와 이 문서에 있는 [예제 PowerShell 스크립트](#example-powershell-script-for-task-scheduler)를  참고하세요. |
+      | 작업 스케줄러 API     |  [작업 스케줄러](https://docs.microsoft.com/windows/desktop/TaskSchd/using-the-task-scheduler) 문서를 참조하세요.                                                                                                                                                                                                                                                                                |
+      | Windows 사용자 인터페이스 | Windows에서 **시작**을 클릭하고 작업 스케줄러를 입력합니다. 그런 다음 결과 목록에서 **작업 스케줄러**를 마우스 오른쪽 단추로 클릭하고 **관리자로 실행**을 선택합니다.                                                                                                                                                                                                                                                                           |
 
 #### <a name="example-powershell-script-for-task-scheduler"></a>작업 스케줄러의 예제 Windows PowerShell 스크립트
 
@@ -473,7 +473,9 @@ Exchange Online용 Office 365 DLP(전자 메일), Business용 OneDrive(파일), 
 
 9.  **이름** 섹션에서 규칙의 이름과 설명을 지정합니다.
 
-10.  **조건** 섹션의 **+ 조건 추가** 목록에서 **콘텐츠에 중요한 유형 포함**을 선택합니다.<br/>![콘텐츠에 중요한 정보 유형이 포함됨](../media/edm-dlp-newrule-conditions.png)<br/>
+10.  **조건** 섹션의 **+ 조건 추가** 목록에서 **콘텐츠에 중요한 유형 포함**을 선택합니다.
+
+      ![콘텐츠에 중요한 정보 유형이 포함됨](../media/edm-dlp-newrule-conditions.png)
 
 11. 규칙 패키지를 설치할 때 만든 중요한 정보 유형을 검색한 다음  **+ 추가**를 선택합니다.  
     그런 다음 **완료**를 선택합니다.
