@@ -1,9 +1,9 @@
 ---
-title: 메일 흐름 규칙을 사용 하 여 Exchange Online Protection에서 대량 전자 메일 필터링 구성
+title: 메일 흐름 규칙을 사용 하 여 Office 365에서 대량 전자 메일 필터링
 f1.keywords:
 - NOCSH
-ms.author: tracyp
-author: MSFTTracyP
+ms.author: chrisda
+author: chrisda
 manager: dansimp
 audience: ITPro
 ms.topic: article
@@ -15,133 +15,161 @@ ms.assetid: 2889c82e-fab0-4e85-87b0-b001b2ccd4f7
 ms.collection:
 - M365-security-compliance
 description: 관리자는 대량 전자 메일 필터링에 대해 Exchange Online Protection의 메일 흐름 규칙을 사용 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 81b0f4cc58d712c3a1c1e09dab02d1c6f56cb69d
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 2ac81d798af957f23f95b92f633b93bdda677991
+ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42081824"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42895050"
 ---
-# <a name="use-mail-flow-rules-to-configure-bulk-email-filtering-in-exchange-online-protection"></a><span data-ttu-id="56920-103">메일 흐름 규칙을 사용 하 여 Exchange Online Protection에서 대량 전자 메일 필터링 구성</span><span class="sxs-lookup"><span data-stu-id="56920-103">Use mail flow rules to configure bulk email filtering in Exchange Online Protection</span></span>
+# <a name="use-mail-flow-rules-to-filter-bulk-email-in-office-365"></a><span data-ttu-id="fd48a-103">메일 흐름 규칙을 사용 하 여 Office 365에서 대량 전자 메일 필터링</span><span class="sxs-lookup"><span data-stu-id="fd48a-103">Use mail flow rules to filter bulk email in Office 365</span></span>
 
-<span data-ttu-id="56920-104">기본 스팸 콘텐츠 필터 정책을 사용 하 여 스팸 및 대량 전자 메일에 대 한 회사 전체의 콘텐츠 필터를 설정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="56920-104">You can set company-wide content filters for spam and bulk email using the default spam content-filter policies.</span></span> <span data-ttu-id="56920-105">이 문서에서는 [스팸 필터 정책 구성](configure-your-spam-filter-policies.md) 및 [get-hostedcontentfilterpolicy](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/Set-HostedContentFilterPolicy) 에서 콘텐츠 필터 정책을 설정 하는 방법에 대 한 설정을 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="56920-105">Check out [Configure your spam filter policies](configure-your-spam-filter-policies.md) and [Set-HostedContentFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/Set-HostedContentFilterPolicy) on how to set the content filter policies.</span></span>
+<span data-ttu-id="fd48a-104">Exchange online 사서함이 없는 Office 365 고객 또는 독립 실행형 EOP (Exchange Online Protection) 고객 인 경우 EOP에서는 스팸 방지 정책 (스팸 필터 정책 또는 콘텐츠 필터 정책이 라고도 함)을 사용 하 여 검색을 수행 합니다. 스팸 및 대량 메일에 대 한 인바운드 메시지 (회색 메일이 라고도 함)</span><span class="sxs-lookup"><span data-stu-id="fd48a-104">If you're an Office 365 customer with mailboxes in Exchange Online or a standalone Exchange Online Protection (EOP) customer without Exchange Online mailboxes, EOP uses anti-spam policies (also known as spam filter policies or content filter policies) to scan inbound messages for spam and bulk mail (also known as gray mail).</span></span> <span data-ttu-id="fd48a-105">자세한 내용은 [Office 365의 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="fd48a-105">For more information, see [Configure anti-spam policies in Office 365](configure-your-spam-filter-policies.md).</span></span>
 
-<span data-ttu-id="56920-106">대량 메시지를 필터링 하는 더 많은 옵션을 원하는 경우 메일 흐름 규칙 (전송 규칙이 라고도 함)을 만들어 대량 전자 메일에서 자주 발견 되는 텍스트 패턴이 나 구를 검색할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="56920-106">If you want to more options to filter bulk messages, you can create mail flow rules (also known as transport rules) to search for text patterns or phrases frequently found in bulk emails.</span></span> <span data-ttu-id="56920-107">이러한 특성을 포함 하는 모든 메시지는 스팸으로 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="56920-107">Any message containing these characteristics will be marked as spam.</span></span> <span data-ttu-id="56920-108">이러한 규칙을 사용하면 조직에 수신되는 원치 않는 대량 전자 메일을 줄일 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="56920-108">Using these rules can help reduce the amount of unwanted bulk email your organization receives.</span></span>
+<span data-ttu-id="fd48a-106">대량 메일을 필터링 하는 옵션을 추가로 원하는 경우 메일 흐름 규칙 (전송 규칙이 라고도 함)을 만들어 대량 메일에서 자주 발견 되는 텍스트 패턴이 나 구를 검색 하 고 해당 메시지를 스팸으로 표시할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="fd48a-106">If you want more options to filter bulk mail, you can create mail flow rules (also known as transport rules) to search for text patterns or phrases that are frequently found in bulk mail, and mark those messages as spam.</span></span> <span data-ttu-id="fd48a-107">대량 메일에 대 한 자세한 내용은 [정크 메일과 대량 전자 메일의 차이점](what-s-the-difference-between-junk-email-and-bulk-email.md) 및 [OFFICE 365의 BCL (대량 불만 수준)](bulk-complaint-level-values.md)을 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="fd48a-107">For more information about bulk mail, see [What's the difference between junk email and bulk email?](what-s-the-difference-between-junk-email-and-bulk-email.md) and [Bulk complaint level (BCL) in Office 365](bulk-complaint-level-values.md).</span></span>
 
-> [!IMPORTANT]
-> <span data-ttu-id="56920-109">이 항목에서 설명 하는 메일 흐름 규칙을 만들기 전에 먼저 [정크 메일과 대량 전자 메일의 차이점](what-s-the-difference-between-junk-email-and-bulk-email.md) 을 읽고, [대량 불만 수준 값](bulk-complaint-level-values.md)을 확인 하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="56920-109">Before creating the mail flow rules documented this topic, we recommend that you first read [What's the difference between junk email and bulk email?](what-s-the-difference-between-junk-email-and-bulk-email.md) and [Bulk Complaint Level values](bulk-complaint-level-values.md).</span></span><br>
-> <span data-ttu-id="56920-110">다음 절차에서는 메시지를 전체 조직에 대한 스팸으로 표시합니다.</span><span class="sxs-lookup"><span data-stu-id="56920-110">The following procedures mark a message as spam for your entire organization.</span></span> <span data-ttu-id="56920-111">그러나 다른 조건을 추가하여 조직의 특정 받는 사람에게만 이러한 규칙을 적용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="56920-111">However, you can add another condition to apply these rules only to specific recipients in your organization.</span></span> <span data-ttu-id="56920-112">이러한 방식으로 대상이 높은 대규모 전자 메일 필터링 설정은 소수의 사용자에 게 적용할 수 있지만, 사용자의 나머지 (대부분의 경우 대량 전자 메일을 가장 많이 받는 사람)에는 영향을 주지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="56920-112">This way, the aggressive bulk email filtering settings can apply to a few users who are highly targeted, while the rest of your users (who mostly get the bulk email they signed up for) aren't impacted.</span></span>
+<span data-ttu-id="fd48a-108">이 항목에서는 EAC (Exchange 관리 센터) 및 PowerShell (Office 365 고객을 위한 Exchange Online PowerShell)에서 이러한 메일 흐름 규칙을 만드는 방법에 대해 설명 합니다. 독립 실행형 EOP 고객을 위한 Exchange Online Protection PowerShell</span><span class="sxs-lookup"><span data-stu-id="fd48a-108">This topic explains how create these mail flow rules in the Exchange admin center (EAC) and PowerShell (Exchange Online PowerShell for Office 365 customers; Exchange Online Protection PowerShell for standalone EOP customers).</span></span>
 
-## <a name="create-a-mail-flow-rule-to-filter-bulk-email-messages-based-on-text-patterns"></a><span data-ttu-id="56920-113">텍스트 패턴에 따라 대량 전자 메일 메시지를 필터링 하는 메일 흐름 규칙 만들기</span><span class="sxs-lookup"><span data-stu-id="56920-113">Create a mail flow rule to filter bulk email messages based on text patterns</span></span>
+## <a name="what-do-you-need-to-know-before-you-begin"></a><span data-ttu-id="fd48a-109">시작하기 전에 알아야 할 내용은 무엇인가요?</span><span class="sxs-lookup"><span data-stu-id="fd48a-109">What do you need to know before you begin?</span></span>
 
-1. <span data-ttu-id="56920-114">EAC(Exchange 관리 센터)에서 **메일 흐름** \> **규칙**으로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="56920-114">In the Exchange admin center (EAC), go to **Mail flow** \> **Rules**.</span></span>
+- <span data-ttu-id="fd48a-110">이러한 절차를 수행 하려면 먼저 Exchange Online에서 사용 권한을 할당 받아야 합니다.</span><span class="sxs-lookup"><span data-stu-id="fd48a-110">You need to be assigned permissions in Exchange Online before you can do these procedures.</span></span> <span data-ttu-id="fd48a-111">특히 **조직 관리**, **규정 준수 관리**및 **레코드 관리** 역할에 할당 되는 **전송 규칙** 역할을 기본적으로 할당 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="fd48a-111">Specifically, you need to be assigned the **Transport Rules** role, which is assigned to the **Organization Management**, **Compliance Management**, and **Records Management** roles by default.</span></span> <span data-ttu-id="fd48a-112">자세한 내용은 [Exchange Online에서 역할 그룹 관리](https://docs.microsoft.com/Exchange/permissions-exo/role-groups)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="fd48a-112">For more information, see [Manage role groups in Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/role-groups).</span></span>
 
-2. <span data-ttu-id="56920-115">![](../../media/ITPro-EAC-AddIcon.gif) 추가 **아이콘 추가를 클릭 한** 다음 **새 규칙 만들기**를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="56920-115">Click **Add** ![Add Icon](../../media/ITPro-EAC-AddIcon.gif) and then select **Create a new rule**.</span></span>
+- <span data-ttu-id="fd48a-113">Exchange Online에서 EAC를 열려면 exchange [online의 exchange 관리 센터](https://docs.microsoft.com/Exchange/exchange-admin-center)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="fd48a-113">To open the EAC in Exchange Online, see [Exchange admin center in Exchange Online](https://docs.microsoft.com/Exchange/exchange-admin-center).</span></span>
 
-3. <span data-ttu-id="56920-116">규칙 이름을 지정합니다.</span><span class="sxs-lookup"><span data-stu-id="56920-116">Specify a name for the rule.</span></span>
+- <span data-ttu-id="fd48a-114">Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell)을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="fd48a-114">To connect to Exchange Online PowerShell, see [Connect to Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell).</span></span> <span data-ttu-id="fd48a-115">독립 실행형 Exchange Online Protection PowerShell에 연결 하려면 [Exchange Online Protection powershell에 연결](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell)을 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="fd48a-115">To connect to standalone Exchange Online Protection PowerShell, see [Connect to Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell).</span></span>
 
-4. <span data-ttu-id="56920-117">**기타 옵션** ![기타 옵션 아이콘](../../media/ITPro-EAC-MoreOptionsIcon.png)을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="56920-117">Click **More options** ![More options icon](../../media/ITPro-EAC-MoreOptionsIcon.png).</span></span> <span data-ttu-id="56920-118">다음의 **경우이 규칙 적용**에서 **제목 또는 본문** \> **제목 또는 본문이 다음 텍스트 패턴과 일치 하는 항목**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="56920-118">Under **Apply this rule if**, select **The subject or body** \> **subject or body matches these text patterns**.</span></span>
+- <span data-ttu-id="fd48a-116">Exchange Online 및 독립 실행형 EOP의 메일 흐름 규칙에 대 한 자세한 내용은 다음 항목을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="fd48a-116">For more information about mail flow rules in Exchange Online and standalone EOP, see the following topics:</span></span>
 
-5. <span data-ttu-id="56920-119">**단어 또는 구 지정** 대화 상자에 대량 전자 메일에서 일반적으로 발견 되는 다음 정규식을 한 번에 하나씩 추가 하 고 작업을 마치면 **확인** 을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="56920-119">In the **specify words or phrases** dialog box, add the following regular expressions commonly found in bulk emails, one at a time, and click **OK** when you're done:</span></span>
+  - [<span data-ttu-id="fd48a-117">Exchange Online의 메일 흐름 규칙 (전송 규칙)</span><span class="sxs-lookup"><span data-stu-id="fd48a-117">Mail flow rules (transport rules) in Exchange Online</span></span>](https://docs.microsoft.com/Exchange/security-and-compliance/mail-flow-rules/mail-flow-rules)
 
-   - `If you are unable to view the content of this email\, please`
+  - [<span data-ttu-id="fd48a-118">메일 흐름 규칙 조건 및 예외 (조건자)가 Exchange Online에 있습니다.</span><span class="sxs-lookup"><span data-stu-id="fd48a-118">Mail flow rule conditions and exceptions (predicates) in Exchange Online</span></span>](https://docs.microsoft.com/Exchange/security-and-compliance/mail-flow-rules/conditions-and-exceptions)
 
-   - `\>(safe )?unsubscribe( here)?\</a\>`
+  - [<span data-ttu-id="fd48a-119">Exchange Online의 메일 흐름 규칙 동작</span><span class="sxs-lookup"><span data-stu-id="fd48a-119">Mail flow rule actions in Exchange Online</span></span>](https://docs.microsoft.com/Exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions)
 
-   - `If you do not wish to receive further communications like this\, please`
+- <span data-ttu-id="fd48a-120">예를 들어 대량 메일을 식별 하는 데 사용 되는 단어 및 텍스트 패턴 목록은 포괄적이 아닙니다. 필요에 따라 항목을 추가 및 제거할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="fd48a-120">The list of words and text patterns that are used to identify bulk mail in the examples aren't exhaustive; you can add and remove entries as necessary.</span></span> <span data-ttu-id="fd48a-121">그러나이를 통해 시작 하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="fd48a-121">However, they are a good starting point.</span></span>
 
-   - `\<img height\="?1"? width\="?1"? sr\c=.?http\://`
+- <span data-ttu-id="fd48a-p106">ASCII 텍스트의 SMTP 서버 간에 바이너리 메시지를 전송하는 데 사용되는 MIME 콘텐츠 전송 인코딩 메서드에서 메시지가 디코딩된 *후* 메시지의 제목이나 다른 머리글 필드에 있는 단어 또는 텍스트 패턴이 검색됩니다. 조건이나 예외를 사용하여 메시지의 제목이나 다른 머리글 필드에 있는 원시(일반적으로, Base64) 인코딩된 값을 검색할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="fd48a-p106">The search for words or text patterns in the subject or other header fields in the message occurs *after* the message has been decoded from the MIME content transfer encoding method that was used to transmit the binary message between SMTP servers in ASCII text. You can't use conditions or exceptions to search for the raw (typically, Base64) encoded values of the subject or other header fields in messages.</span></span>
 
-   - `To stop receiving these+emails\:http\://`
+- <span data-ttu-id="fd48a-124">다음 절차에서는 대량 메시지를 전체 조직에 대 한 스팸으로 표시 합니다.</span><span class="sxs-lookup"><span data-stu-id="fd48a-124">The following procedures mark a bulk message as spam for your entire organization.</span></span> <span data-ttu-id="fd48a-125">그러나 다른 조건을 추가 하 여 이러한 규칙을 특정 받는 사람 에게만 적용할 수 있으므로, 사용자의 나머지 (대부분 등록 된 대량 전자 메일을 가장 많이 받는)에서는 영향을 받지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="fd48a-125">However, you can add another condition to apply these rules only to specific recipients, so you can use aggressive filtering on a few, highly targeted users, while the rest of your users (who mostly get the bulk email they signed up for) aren't impacted.</span></span>
 
-   - `To unsubscribe from \w+ (e\-?letter|e?-?mail|newsletter)`
+## <a name="use-the-eac-to-create-mail-flow-rules-that-filter-bulk-email"></a><span data-ttu-id="fd48a-126">EAC를 사용 하 여 대량 전자 메일을 필터링 하는 메일 흐름 규칙 만들기</span><span class="sxs-lookup"><span data-stu-id="fd48a-126">Use the EAC to create mail flow rules that filter bulk email</span></span>
 
-   - `no longer (wish )?(to )?(be sent|receive) w+ email`
+1. <span data-ttu-id="fd48a-127">EAC에서 **메일 흐름** \> **규칙**으로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="fd48a-127">In the EAC, go to **Mail flow** \> **Rules**.</span></span>
 
-   - `If you are unable to view the content of this email\, please click here`
+2. <span data-ttu-id="fd48a-128">![](../../media/ITPro-EAC-AddIcon.png) 추가 **아이콘 추가를 클릭 한** 다음 **새 규칙 만들기**를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="fd48a-128">Click **Add** ![Add icon](../../media/ITPro-EAC-AddIcon.png) and then select **Create a new rule**.</span></span>
 
-   - `To ensure you receive (your daily deals|our e-?mails)\, add`
+3. <span data-ttu-id="fd48a-129">**새 규칙** 페이지가 열리면 다음 설정을 구성 합니다.</span><span class="sxs-lookup"><span data-stu-id="fd48a-129">In the **New rule** page that opens, configure the following settings:</span></span>
 
-   - `If you no longer wish to receive these emails`
+   - <span data-ttu-id="fd48a-130">**이름**: 규칙에 대 한 설명이 포함 된 고유 이름을 입력 합니다.</span><span class="sxs-lookup"><span data-stu-id="fd48a-130">**Name**: Enter a unique, descriptive name for the rule.</span></span>
 
-   - `to change your (subscription preferences|preferences or unsubscribe)`
+   - <span data-ttu-id="fd48a-131">**기타 옵션**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="fd48a-131">Click **More Options**.</span></span>
 
-   - `click (here to|the) unsubscribe`
+   - <span data-ttu-id="fd48a-132">다음의 **경우이 규칙 적용**: 정규식 (RegEx) 또는 단어 또는 구를 사용 하 여 메시지의 콘텐츠를 찾도록 다음 설정 중 하나를 구성 합니다.</span><span class="sxs-lookup"><span data-stu-id="fd48a-132">**Apply this rule if**: Configure one of the following settings to look for content in messages using regular expressions (RegEx) or words or phrases:</span></span>
 
-   <span data-ttu-id="56920-120">위의 목록은 대량 전자 메일에서 발견 되는 일반 정규식 집합입니다. 필요에 따라 추가 하거나 제거할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="56920-120">The above list isn't an exhaustive set of regular expressions found in bulk emails; more can be added or removed as needed.</span></span> <span data-ttu-id="56920-121">그러나 이 목록에서 시작하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="56920-121">However, it's a good starting point.</span></span>
+     - <span data-ttu-id="fd48a-133">**제목 또는 본문** \> **제목 또는 본문이 다음 텍스트 패턴과 일치**하는 경우 표시 되는 **단어 또는 구 지정** 대화 상자에서 다음 값 중 하나를 입력 하 **Add** ![고 추가 아이콘](../../media/ITPro-EAC-AddIcon.png)추가를 클릭 한 다음 필요한 만큼 반복 합니다.</span><span class="sxs-lookup"><span data-stu-id="fd48a-133">**The subject or body** \> **subject or body matches these text patterns**: In the **Specify words or phrases** dialog that appears, enter one of the following values, click **Add** ![Add Icon](../../media/ITPro-EAC-AddIcon.png), and repeat as many times as necessary.</span></span>
 
-   <span data-ttu-id="56920-p106">ASCII 텍스트의 SMTP 서버 간에 바이너리 메시지를 전송하는 데 사용되는 MIME 콘텐츠 전송 인코딩 메서드에서 메시지가 디코딩된 *후* 메시지의 제목이나 다른 머리글 필드에 있는 단어 또는 텍스트 패턴이 검색됩니다. 조건이나 예외를 사용하여 메시지의 제목이나 다른 머리글 필드에 있는 원시(일반적으로, Base64) 인코딩된 값을 검색할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="56920-p106">The search for words or text patterns in the subject or other header fields in the message occurs *after* the message has been decoded from the MIME content transfer encoding method that was used to transmit the binary message between SMTP servers in ASCII text. You can't use conditions or exceptions to search for the raw (typically, Base64) encoded values of the subject or other header fields in messages.</span></span>
+       - `If you are unable to view the content of this email\, please`
 
-6. <span data-ttu-id="56920-124">**다음 작업 실행**에서 **메시지 속성 수정** \> **SCL(스팸 지수) 설정**을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="56920-124">Under **Do the following**, select **Modify the message properties** \> **set the spam confidence level (SCL)**.</span></span>
+       - `\>(safe )?unsubscribe( here)?\</a\>`
 
-7. <span data-ttu-id="56920-125">**SCL 지정** 대화 상자에서 SCL을 **5**, **6** 또는 **9**로 설정하고 **확인**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="56920-125">In the **specify SCL** dialog box, set the SCL to **5**, **6**, or **9**, and click **ok**.</span></span>
+       - `If you do not wish to receive further communications like this\, please`
 
-   <span data-ttu-id="56920-126">SCL을 5 또는 6으로 설정하면 **스팸** 동작이 수행되지만 SCL을 9로 설정하면 콘텐츠 필터 정책에 구성된 대로 **높은 정확도 스팸** 작업이 수행됩니다.</span><span class="sxs-lookup"><span data-stu-id="56920-126">Setting the SCL to 5 or 6 takes the **Spam** action, while setting the SCL to 9 takes the **High confidence spam** action, as configured in the content filter policy.</span></span> <span data-ttu-id="56920-127">서비스는 콘텐츠 필터 정책에 설정된 작업을 수행합니다.</span><span class="sxs-lookup"><span data-stu-id="56920-127">The service will perform the action set in the content filter policy.</span></span> <span data-ttu-id="56920-128">기본 작업은 받는 사람의 정크 메일 폴더로 메시지를 배달 하는 것 이지만, [스팸 필터 정책 구성](configure-your-spam-filter-policies.md)에 설명 된 대로 다른 작업을 구성할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="56920-128">The default action is to deliver the message to the recipients' Junk Email folder, but different actions can be configured as described in [Configure your spam filter policies](configure-your-spam-filter-policies.md).</span></span>
+       - `\<img height\="?1"? width\="?1"? sr\c=.?http\://`
 
-   <span data-ttu-id="56920-129">메시지를 받는 사람의 정크 메일 폴더로 보내지 않고 격리 하는 작업을 수행 하는 경우 메시지는 메일 흐름 규칙 일치로 관리자 격리로 보내지며 최종 사용자 스팸 격리 또는 최종 사용자에 게는 제공 되지 않습니다. 스팸 알림</span><span class="sxs-lookup"><span data-stu-id="56920-129">If your configured action is to quarantine the message rather than send it to the recipients' Junk Email folder, the message will be sent to the administrator quarantine as a mail flow rule match, and it will not be available in the end user spam quarantine or via end-user spam notifications.</span></span>
+       - `To stop receiving these+emails\:http\://`
 
-   <span data-ttu-id="56920-130">서비스의 SCL 값에 대한 자세한 내용은 [스팸 신뢰 수준](spam-confidence-levels.md)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="56920-130">For more information about SCL values in the service, see [Spam confidence levels](spam-confidence-levels.md).</span></span>
+       - `To unsubscribe from \w+ (e\-?letter|e?-?mail|newsletter)`
 
-8. <span data-ttu-id="56920-131">규칙을 저장합니다.</span><span class="sxs-lookup"><span data-stu-id="56920-131">Save the rule.</span></span>
+       - `no longer (wish )?(to )?(be sent|receive) w+ email`
 
-## <a name="create-a-mail-flow-rule-to-filter-bulk-email-messages-based-on-phrases"></a><span data-ttu-id="56920-132">구에 따라 대량 전자 메일 메시지를 필터링 하는 메일 흐름 규칙 만들기</span><span class="sxs-lookup"><span data-stu-id="56920-132">Create a mail flow rule to filter bulk email messages based on phrases</span></span>
+       - `If you are unable to view the content of this email\, please click here`
 
-1. <span data-ttu-id="56920-133">EAC에서 **메일 흐름** \> **규칙**으로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="56920-133">In the EAC, go to **Mail flow** \> **Rules**.</span></span>
+       - `To ensure you receive (your daily deals|our e-?mails)\, add`
 
-2. <span data-ttu-id="56920-134">![](../../media/ITPro-EAC-AddIcon.gif) 추가 **아이콘 추가를 클릭 한** 다음 **새 규칙 만들기**를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="56920-134">Click **Add** ![Add Icon](../../media/ITPro-EAC-AddIcon.gif) and then select **Create a new rule**.</span></span>
+       - `If you no longer wish to receive these emails`
 
-3. <span data-ttu-id="56920-135">규칙 이름을 지정합니다.</span><span class="sxs-lookup"><span data-stu-id="56920-135">Specify a name for the rule.</span></span>
+       - `to change your (subscription preferences|preferences or unsubscribe)`
 
-4. <span data-ttu-id="56920-136">**기타 옵션**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="56920-136">Click **More options**.</span></span> <span data-ttu-id="56920-137">다음의 **경우이 규칙 적용**에서 **제목 또는 본문** \> 에 **다음 단어 포함 또는 본문**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="56920-137">Under **Apply this rule if**, select **The subject or body** \> **subject or body includes any of these words**.</span></span>
+       - `click (here to|the) unsubscribe`
 
-5. <span data-ttu-id="56920-138">**단어 또는 구 지정** 대화 상자에 대량 전자 메일에서 일반적으로 발견되는 다음 구를 한 번에 하나씩 추가하고 작업을 마치면 **확인**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="56920-138">In the **specify words or phrases** dialog box, add the following phrases commonly found in bulk emails, one at a time, and click **ok** when you're done:</span></span>
+      <span data-ttu-id="fd48a-134">항목을 편집 하려면 선택 하 고 편집](../../media/ITPro-EAC-EditIcon.png)아이콘 **편집** ![을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="fd48a-134">To edit an entry, select it and click **Edit** ![Edit icon](../../media/ITPro-EAC-EditIcon.png).</span></span> <span data-ttu-id="fd48a-135">항목을 제거 하려면 선택 하 고 제거](../../media/ITPro-EAC-DeleteIcon.png)아이콘 **제거** ![를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="fd48a-135">To remove an entry, select it and click **Remove** ![Remove icon](../../media/ITPro-EAC-DeleteIcon.png).</span></span>
 
-   - `to change your preferences or unsubscribe`
+       <span data-ttu-id="fd48a-136">작업을 마친 후 **확인**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="fd48a-136">When you're finished, click **OK**.</span></span>
 
-   - `Modify email preferences or unsubscribe`
+     - <span data-ttu-id="fd48a-137">**제목 또는 본문** \> **제목 또는 본문에 다음 단어 포함**대화 상자가 나타나면 다음 값 중 하나를 입력 하 고 추가 아이콘](../../media/ITPro-EAC-AddIcon.png) **추가** ![를 클릭 한 다음 필요한 횟수 만큼 **반복 합니다.**</span><span class="sxs-lookup"><span data-stu-id="fd48a-137">**The subject or body** \> **subject or body includes any of these words**: In the **Specify words or phrases** dialog that appears, enter one of the following values, click **Add** ![Add Icon](../../media/ITPro-EAC-AddIcon.png), and repeat as many times as necessary.</span></span>
 
-   - `This is a promotional email`
+       - `to change your preferences or unsubscribe`
 
-   - `You are receiving this email because you requested a subscription`
+       - `Modify email preferences or unsubscribe`
 
-   - `click here to unsubscribe`
+       - `This is a promotional email`
 
-   - `You have received this email because you are subscribed`
+       - `You are receiving this email because you requested a subscription`
 
-   - `If you no longer wish to receive our email newsletter`
+       - `click here to unsubscribe`
 
-   - `to unsubscribe from this newsletter`
+       - `You have received this email because you are subscribed`
 
-   - `If you have trouble viewing this email`
+       - `If you no longer wish to receive our email newsletter`
 
-   - `This is an advertisement`
+       - `to unsubscribe from this newsletter`
 
-   - `you would like to unsubscribe or change your`
+       - `If you have trouble viewing this email`
 
-   - `view this email as a webpage`
+       - `This is an advertisement`
 
-   - `You are receiving this email because you are subscribed`
+       - `you would like to unsubscribe or change your`
 
-   <span data-ttu-id="56920-139">이 목록은 대량 전자 메일에서 발견 되는 포괄적인 구 집합이 아닙니다. 필요에 따라 추가 하거나 제거할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="56920-139">This list isn't an exhaustive set of phrases found in bulk emails; more can be added or removed as needed.</span></span> <span data-ttu-id="56920-140">그러나 이 목록에서 시작하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="56920-140">However, it's a good starting point.</span></span>
+       - `view this email as a webpage`
 
-6. <span data-ttu-id="56920-141">**다음 작업 실행**에서 **메시지 속성 수정** \> **SCL(스팸 지수) 설정**을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="56920-141">Under **Do the following**, select **Modify the message properties** \> **set the spam confidence level (SCL)**.</span></span>
+       - `You are receiving this email because you are subscribed`
 
-7. <span data-ttu-id="56920-142">**SCL 지정** 대화 상자에서 SCL을 **5**, **6** 또는 **9**로 설정하고 **확인**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="56920-142">In the **specify SCL** dialog box, set the SCL to **5**, **6**, or **9**, and click **ok**.</span></span>
+      <span data-ttu-id="fd48a-138">항목을 편집 하려면 선택 하 고 편집](../../media/ITPro-EAC-EditIcon.png)아이콘 **편집** ![을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="fd48a-138">To edit an entry, select it and click **Edit** ![Edit icon](../../media/ITPro-EAC-EditIcon.png).</span></span> <span data-ttu-id="fd48a-139">항목을 제거 하려면 선택 하 고 제거](../../media/ITPro-EAC-DeleteIcon.png)아이콘 **제거** ![를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="fd48a-139">To remove an entry, select it and click **Remove** ![Remove icon](../../media/ITPro-EAC-DeleteIcon.png).</span></span>
 
-   <span data-ttu-id="56920-143">SCL을 5 또는 6으로 설정하면 **스팸** 동작이 수행되지만 SCL을 9로 설정하면 콘텐츠 필터 정책에 구성된 대로 **높은 정확도 스팸** 작업이 수행됩니다.</span><span class="sxs-lookup"><span data-stu-id="56920-143">Setting the SCL to 5 or 6 takes the **Spam** action, while setting the SCL to 9 takes the **High confidence spam** action, as configured in the content filter policy.</span></span> <span data-ttu-id="56920-144">서비스는 콘텐츠 필터 정책에 설정된 작업을 수행합니다.</span><span class="sxs-lookup"><span data-stu-id="56920-144">The service will perform the action set in the content filter policy.</span></span> <span data-ttu-id="56920-145">기본 작업은 받는 사람의 정크 메일 폴더로 메시지를 배달 하는 것 이지만, [스팸 필터 정책 구성](configure-your-spam-filter-policies.md)에 설명 된 대로 다른 작업을 구성할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="56920-145">The default action is to deliver the message to the recipients' Junk Email folder, but different actions can be configured as described in [Configure your spam filter policies](configure-your-spam-filter-policies.md).</span></span>
+       <span data-ttu-id="fd48a-140">작업을 마친 후 **확인**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="fd48a-140">When you're finished, click **OK**.</span></span>
 
-   <span data-ttu-id="56920-146">메시지를 받는 사람의 정크 메일 폴더로 보내지 않고 격리 하는 작업을 수행 하는 경우 메시지는 메일 흐름 규칙 일치로 관리자 격리로 보내지며 최종 사용자 스팸 격리 또는 최종 사용자에 게는 제공 되지 않습니다. 스팸 알림</span><span class="sxs-lookup"><span data-stu-id="56920-146">If your configured action is to quarantine the message rather than send it to the recipients' Junk Email folder, the message will be sent to the administrator quarantine as a mail flow rule match, and it will not be available in the end user spam quarantine or via end-user spam notifications.</span></span>
+   - <span data-ttu-id="fd48a-141">**다음을 수행**합니다. **메시지 속성** \> 수정을 선택 하 여 **SCL (스팸 지 수)을 설정**합니다.</span><span class="sxs-lookup"><span data-stu-id="fd48a-141">**Do the following**: Select **Modify the message properties** \> **set the spam confidence level (SCL)**.</span></span> <span data-ttu-id="fd48a-142">**SCL 지정** 대화 상자가 나타나면 다음 설정 중 하나를 구성 합니다.</span><span class="sxs-lookup"><span data-stu-id="fd48a-142">In the **Specify SCL** dialog that appears, configure one of the following settings:</span></span>
 
-   <span data-ttu-id="56920-147">서비스의 SCL 값에 대한 자세한 내용은 [스팸 신뢰 수준](spam-confidence-levels.md)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="56920-147">For more information about SCL values in the service, see [Spam confidence levels](spam-confidence-levels.md).</span></span>
+     - <span data-ttu-id="fd48a-143">메시지를 **스팸으로**표시 하려면 **6**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="fd48a-143">To mark messages as **Spam**, select **6**.</span></span> <span data-ttu-id="fd48a-144">스팸 방지 정책에서 **스팸** 필터링 verdicts에 대해 구성한 작업이 메시지에 적용 됩니다 (기본값은 **정크 메일 폴더로 메시지 이동**).</span><span class="sxs-lookup"><span data-stu-id="fd48a-144">The action that you've configured for **Spam** filtering verdicts in your anti-spam policies is applied to the messages (the default value is **Move message to Junk Email folder**).</span></span>
 
-8. <span data-ttu-id="56920-148">규칙을 저장합니다.</span><span class="sxs-lookup"><span data-stu-id="56920-148">Save the rule.</span></span>
+     - <span data-ttu-id="fd48a-145">메시지를 **높은 신뢰도 스팸으로** 표시 하려면 **9**를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="fd48a-145">To mark messages as **High confidence spam** select **9**.</span></span> <span data-ttu-id="fd48a-146">스팸 방지 정책에서 **높은 신뢰도의 스팸** 필터링 verdicts에 대해 구성한 작업은 메시지에 적용 됩니다 (기본값은 **정크 메일 폴더로 메시지 이동**).</span><span class="sxs-lookup"><span data-stu-id="fd48a-146">The action that you've configured for **High confidence spam** filtering verdicts in your anti-spam policies is applied to the messages (the default value is **Move message to Junk Email folder**).</span></span>
 
-## <a name="for-more-information"></a><span data-ttu-id="56920-149">자세한 내용</span><span class="sxs-lookup"><span data-stu-id="56920-149">For more information</span></span>
+    <span data-ttu-id="fd48a-147">SCL 값에 대 한 자세한 내용은 [Office 365에서 scl (스팸](spam-confidence-levels.md)지 수)을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="fd48a-147">For more information about SCL values, see [Spam confidence level (SCL) in Office 365](spam-confidence-levels.md).</span></span>
 
-[<span data-ttu-id="56920-150">정크 이메일과 대량 이메일의 차이점이 무엇인가요?</span><span class="sxs-lookup"><span data-stu-id="56920-150">What's the difference between junk email and bulk email?</span></span>](what-s-the-difference-between-junk-email-and-bulk-email.md)
+   <span data-ttu-id="fd48a-148">작업이 끝나면 **저장** 을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="fd48a-148">When you're finished, click **Save**</span></span>
 
-[<span data-ttu-id="56920-151">대량 불만 수준 값</span><span class="sxs-lookup"><span data-stu-id="56920-151">Bulk Complaint Level values</span></span>](bulk-complaint-level-values.md)
+## <a name="use-powershell-to-create-a-mail-flow-rules-that-filter-bulk-email"></a><span data-ttu-id="fd48a-149">PowerShell을 사용 하 여 대량 전자 메일을 필터링 하는 메일 흐름 규칙 만들기</span><span class="sxs-lookup"><span data-stu-id="fd48a-149">Use PowerShell to create a mail flow rules that filter bulk email</span></span>
 
-[<span data-ttu-id="56920-152">스팸 필터 정책 구성</span><span class="sxs-lookup"><span data-stu-id="56920-152">Configure your spam filter policies</span></span>](configure-your-spam-filter-policies.md)
+<span data-ttu-id="fd48a-150">다음 구문을 사용 하 여 메일 흐름 규칙 (정규식과 단어 비교) 중 하나 또는 둘 다를 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="fd48a-150">Use the following syntax to create one or both of the mail flow rules (regular expressions vs. words):</span></span>
 
-[<span data-ttu-id="56920-153">고급 스팸 필터링 옵션</span><span class="sxs-lookup"><span data-stu-id="56920-153">Advanced spam filtering  options</span></span>](advanced-spam-filtering-asf-options.md)
+```powershell
+New-TransportRule -Name "<UniqueName>" [-SubjectOrBodyMatchesPatterns "<RegEx1>","<RegEx2>"...] [-SubjectOrBodyContainsWords "<WordOrPrhase1>","<WordOrPhrase2>"...] -SetSCL <6 | 9>
+```
+
+<span data-ttu-id="fd48a-151">이 예에서는 메시지를 **스팸으로**설정 하기 위해 이전 항목과 동일한 정규식 목록을 사용 하는 "대량 전자 메일 필터링-RegEx" 라는 새 규칙을 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="fd48a-151">This example creates a new rule named "Bulk email filtering - RegEx" that uses the same list of regular expressions from earlier in the topic to set messages as **Spam**.</span></span>
+
+```powershell
+New-TransportRule -Name "Bulk email filtering - RegEx" -SubjectOrBodyMatchesPatterns "If you are unable to view the content of this email\, please","\>(safe )?unsubscribe( here)?\</a\>","If you do not wish to receive further communications like this\, please","\<img height\="?1"? width\="?1"? sr\c=.?http\://","To stop receiving these+emails\:http\://","To unsubscribe from \w+ (e\-?letter|e?-?mail|newsletter)","no longer (wish )?(to )?(be sent|receive) w+ email","If you are unable to view the content of this email\, please click here","To ensure you receive (your daily deals|our e-?mails)\, add","If you no longer wish to receive these emails","to change your (subscription preferences|preferences or unsubscribe)","click (here to|the) unsubscribe"... -SetSCL 6
+```
+
+<span data-ttu-id="fd48a-152">이 예에서는 메시지를 **높은 신뢰도 스팸으로**설정 하기 위해 이전 항목과 동일한 단어 목록을 사용 하는 "대량 전자 메일 필터링-단어" 라는 새 규칙을 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="fd48a-152">This example creates a new rule named "Bulk email filtering - Words" that uses the same list of words from earlier in the topic to set messages as **High confidence spam**.</span></span>
+
+```powershell
+New-TransportRule -Name "Bulk email filtering - Words" -SubjectOrBodyContainsWords "to change your preferences or unsubscribe","Modify email preferences or unsubscribe","This is a promotional email","You are receiving this email because you requested a subscription","click here to unsubscribe","You have received this email because you are subscribed","If you no longer wish to receive our email newsletter","to unsubscribe from this newsletter","If you have trouble viewing this email","This is an advertisement","you would like to unsubscribe or change your","view this email as a webpage","You are receiving this email because you are subscribed" -SetSCL 9
+```
+
+<span data-ttu-id="fd48a-153">자세한 구문 및 매개변수 정보 [New-TransportRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/new-transportrule)을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="fd48a-153">For detailed syntax and parameter information, see [New-TransportRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/new-transportrule).</span></span>
+
+## <a name="how-do-you-know-this-worked"></a><span data-ttu-id="fd48a-154">작동 여부는 어떻게 확인하나요?</span><span class="sxs-lookup"><span data-stu-id="fd48a-154">How do you know this worked?</span></span>
+
+<span data-ttu-id="fd48a-155">대량 전자 메일을 필터링 하도록 메일 흐름 규칙을 구성 했는지 확인 하려면 다음 단계 중 하나를 수행 합니다.</span><span class="sxs-lookup"><span data-stu-id="fd48a-155">To verify that you've configured mail flow rules to filter bulk email, do any of the following steps:</span></span>
+
+- <span data-ttu-id="fd48a-156">EAC에서 **메일 흐름** \> **규칙** \> 을 선택 하 고 편집 아이콘 **Edit** ![](../../media/ITPro-EAC-EditIcon.png)편집 \> 을 클릭 한 다음 설정을 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="fd48a-156">In the EAC, go to **Mail flow** \> **Rules** \> select the rule \> click **Edit** ![Edit icon](../../media/ITPro-EAC-EditIcon.png), and verify the settings.</span></span>
+
+- <span data-ttu-id="fd48a-157">PowerShell에서 규칙 이름을 \<\> 규칙 이름으로 바꾸고 다음 명령을 실행 하 여 설정을 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="fd48a-157">In PowerShell, replace \<Rule Name\> with the name of the rule, and run the following command to verify the settings:</span></span>
+
+  ```powershell
+  Get-TransportRule -Identity "<Rule Name>" | Format-List
+  ```
+
+- <span data-ttu-id="fd48a-158">외부 계정에서 구 또는 텍스트 패턴 중 하나를 포함 하는 해당 받는 사람에 게 테스트 메시지를 보낸 다음 결과를 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="fd48a-158">From an external account, send a test messages to an affected recipient that contains one of the phrases or text patterns, and verify the results.</span></span>

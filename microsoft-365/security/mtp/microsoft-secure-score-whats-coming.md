@@ -17,39 +17,44 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: efb75f26d66258880c9defa94869f27e18685052
-ms.sourcegitcommit: 9224a7a5886c0c5fa0bc12bd9f7234a0eba90023
+ms.openlocfilehash: 61f066b2fff2798e78e6379bbca46e48e93ff017
+ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42372006"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42895444"
 ---
-# <a name="whats-coming-in-microsoft-secure-score"></a><span data-ttu-id="98055-104">Microsoft 보안 점수가 어떻게 제공 됩니까?</span><span class="sxs-lookup"><span data-stu-id="98055-104">What's coming in Microsoft Secure Score?</span></span>
+# <a name="whats-coming-in-microsoft-secure-score"></a><span data-ttu-id="a9f03-104">Microsoft 보안 점수가 어떻게 제공 됩니까?</span><span class="sxs-lookup"><span data-stu-id="a9f03-104">What's coming in Microsoft Secure Score?</span></span>
 
-<span data-ttu-id="98055-105">Microsoft의 보안 점수를 보안 환경을 보다 효율적으로 대표 하 고 유용성을 향상 시키기 위해 곧 몇 가지 사항을 변경 하 고 있습니다.</span><span class="sxs-lookup"><span data-stu-id="98055-105">To make Microsoft Secure Score a better representative of your security posture and improve usability, we are making some changes in the near future.</span></span> <span data-ttu-id="98055-106">점수와 가능한 최대 점수가 변경 됩니다.</span><span class="sxs-lookup"><span data-stu-id="98055-106">Your score and the maximum possible score will change.</span></span> <span data-ttu-id="98055-107">그러나 보안 환경을 변경 하는 것은 아닙니다.</span><span class="sxs-lookup"><span data-stu-id="98055-107">However, this does not imply a change in your security posture.</span></span>
+<span data-ttu-id="a9f03-105">Microsoft의 보안 점수를 보안 환경을 보다 효율적으로 대표 하 고 유용성을 향상 시키기 위해 곧 몇 가지 사항을 변경 하 고 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a9f03-105">To make Microsoft Secure Score a better representative of your security posture and improve usability, we are making some changes in the near future.</span></span> <span data-ttu-id="a9f03-106">점수와 가능한 최대 점수가 변경 됩니다.</span><span class="sxs-lookup"><span data-stu-id="a9f03-106">Your score and the maximum possible score will change.</span></span> <span data-ttu-id="a9f03-107">그러나 보안 환경을 변경 하는 것은 아닙니다.</span><span class="sxs-lookup"><span data-stu-id="a9f03-107">However, this does not imply a change in your security posture.</span></span>
 
-<span data-ttu-id="98055-108">최근 변경 내용에 대 한 자세한 내용은 [Microsoft 보안 점수의 새로운 기능](microsoft-secure-score.md#whats-new) 을 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="98055-108">To learn about recent changes, see [What's new in Microsoft Secure Score?](microsoft-secure-score.md#whats-new)</span></span>
+<span data-ttu-id="a9f03-108">최근 변경 내용에 대 한 자세한 내용은 [Microsoft 보안 점수의 새로운 기능](microsoft-secure-score.md#whats-new) 을 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="a9f03-108">To learn about recent changes, see [What's new in Microsoft Secure Score?](microsoft-secure-score.md#whats-new)</span></span>
 
-## <a name="march-16th-2020"></a><span data-ttu-id="98055-109">16 월 여섯째 2020</span><span class="sxs-lookup"><span data-stu-id="98055-109">March 16th 2020</span></span>
+## <a name="april-21st-2020"></a><span data-ttu-id="a9f03-109">4 월 21 일 2020</span><span class="sxs-lookup"><span data-stu-id="a9f03-109">April 21st 2020</span></span>
 
-### <a name="removing-improvement-actions-that-dont-meet-expectations-for-reliable-measurement-or-dont-provide-a-useful-representation-of-security-posture"></a><span data-ttu-id="98055-110">신뢰할 수 있는 측정에 대 한 기대치를 충족 하지 않는 개선 작업을 제거 하거나 보안 환경을 효과적으로 표현 하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="98055-110">Removing improvement actions that don't meet expectations for reliable measurement or don't provide a useful representation of security posture</span></span>
+### <a name="removing-improvement-actions-that-dont-meet-expectations-for-reliable-measurement-or-dont-provide-a-useful-representation-of-security-posture"></a><span data-ttu-id="a9f03-110">신뢰할 수 있는 측정에 대 한 기대치를 충족 하지 않는 개선 작업을 제거 하거나 보안 환경을 효과적으로 표현 하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="a9f03-110">Removing improvement actions that don't meet expectations for reliable measurement or don't provide a useful representation of security posture</span></span>
 
-<span data-ttu-id="98055-111">Microsoft 보안 점수가 의미 있고 모든 개선 조치를 측정할 수 있으며 안정성을 유지 하려면 다음과 같은 개선 작업을 제거 합니다.</span><span class="sxs-lookup"><span data-stu-id="98055-111">To ensure that the Microsoft Secure Score is meaningful and that every improvement action is measurable and reliable, we are removing the following improvement actions.</span></span>
+<span data-ttu-id="a9f03-111">Microsoft 보안 점수가 의미 있고 모든 개선 조치를 측정할 수 있으며 안정성을 유지 하려면 다음과 같은 개선 작업을 제거 합니다.</span><span class="sxs-lookup"><span data-stu-id="a9f03-111">To ensure that the Microsoft Secure Score is meaningful and that every improvement action is measurable and reliable, we are removing the following improvement actions.</span></span>
 
-- <span data-ttu-id="98055-112">비즈니스용 OneDrive에 사용자 문서 저장</span><span class="sxs-lookup"><span data-stu-id="98055-112">Store user documents in OneDrive for Business</span></span>
-- <span data-ttu-id="98055-113">Office 365 ATP 안전한 첨부 파일 정책 설정</span><span class="sxs-lookup"><span data-stu-id="98055-113">Set up Office 365 ATP Safe Attachment policies</span></span>
-- <span data-ttu-id="98055-114">Url을 확인 하기 위한 Office 365 안전한 링크 설정</span><span class="sxs-lookup"><span data-stu-id="98055-114">Set up Office 365 Safe Links to verify URLs</span></span>
-- <span data-ttu-id="98055-115">사서함 위임 허용 안 함</span><span class="sxs-lookup"><span data-stu-id="98055-115">Do not allow mailbox delegation</span></span>
-- <span data-ttu-id="98055-116">사이트 및 문서에 대 한 익명 게스트 공유 링크 허용</span><span class="sxs-lookup"><span data-stu-id="98055-116">Allow anonymous guest sharing links for sites and docs</span></span>
-- <span data-ttu-id="98055-117">Cloud App Security Console 켜기</span><span class="sxs-lookup"><span data-stu-id="98055-117">Turn on Cloud App Security Console</span></span>
-- <span data-ttu-id="98055-118">외부 공유 링크에 대 한 만료 시간 구성</span><span class="sxs-lookup"><span data-stu-id="98055-118">Configure expiration time for external sharing links</span></span>
+- <span data-ttu-id="a9f03-112">지난 30 일 동안 사용 되지 않은 계정 삭제/차단</span><span class="sxs-lookup"><span data-stu-id="a9f03-112">Delete/block accounts not used in last 30 days</span></span>
+- <span data-ttu-id="a9f03-113">전역 관리자를 5 명 미만으로 지정</span><span class="sxs-lookup"><span data-stu-id="a9f03-113">Designate fewer than 5 global admins</span></span>
+- <span data-ttu-id="a9f03-114">문서에 IRM 보호 적용</span><span class="sxs-lookup"><span data-stu-id="a9f03-114">Apply IRM protections to documents</span></span>
+- <span data-ttu-id="a9f03-115">데이터 손실 방지 정책 적용</span><span class="sxs-lookup"><span data-stu-id="a9f03-115">Apply Data Loss Prevention policies</span></span>
 
-### <a name="supporting-security-defaults-for-azure-ad-improvement-actions"></a><span data-ttu-id="98055-119">Azure AD 개선 작업에 대 한 보안 기본값 지원</span><span class="sxs-lookup"><span data-stu-id="98055-119">Supporting security defaults for Azure AD improvement actions</span></span>
+### <a name="adding-additional-control-support-in-the-preview-version"></a><span data-ttu-id="a9f03-116">미리 보기 버전에서 컨트롤 지원 추가</span><span class="sxs-lookup"><span data-stu-id="a9f03-116">Adding additional control support in the preview version</span></span>
+- <span data-ttu-id="a9f03-117">사용자가 관리 되지 않는 응용 프로그램에 동의 하도록 허용 하지 않습니다 (현재 릴리스된 버전에서 사용 가능).</span><span class="sxs-lookup"><span data-stu-id="a9f03-117">Do not allow users to grant consent to unmanaged applications (currently available in released version)</span></span>
 
-<span data-ttu-id="98055-120">Microsoft 보안 점수는 [AZURE AD에서 보안 기본값](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults)을 지원 하기 위해 개선 작업을 업데이트 하 여 일반적인 공격에 대 한 미리 구성 된 보안 설정으로 조직을 보호 하는 데 도움이 됩니다.</span><span class="sxs-lookup"><span data-stu-id="98055-120">Microsoft Secure Score will be updating improvement actions to support [security defaults in Azure AD](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults), which make it easier to help protect your organization with pre-configured security settings for common attacks.</span></span>
+#### <a name="support-for-additional-microsoft-cloud-app-security-improvement-actions"></a><span data-ttu-id="a9f03-118">추가 Microsoft Cloud App Security 개선 작업 지원</span><span class="sxs-lookup"><span data-stu-id="a9f03-118">Support for additional Microsoft Cloud App Security improvement actions</span></span>
+- <span data-ttu-id="a9f03-119">도메인 컨트롤러에서 인쇄 스풀러 서비스 사용 안 함</span><span class="sxs-lookup"><span data-stu-id="a9f03-119">Disable Print spooler service on domain controllers</span></span>
+- <span data-ttu-id="a9f03-120">가장을 방지 하도록 보안 되지 않은 Kerberos 위임 수정</span><span class="sxs-lookup"><span data-stu-id="a9f03-120">Modify unsecure Kerberos delegations to prevent impersonation</span></span>
+- <span data-ttu-id="a9f03-121">Microsoft 랩를 사용 하 여 로컬 관리자 암호 보호 및 관리</span><span class="sxs-lookup"><span data-stu-id="a9f03-121">Protect and manage local admin passwords with Microsoft LAPS</span></span>
+- <span data-ttu-id="a9f03-122">중요 한 엔터티에 대 한 측면 이동 경로 위험 감소</span><span class="sxs-lookup"><span data-stu-id="a9f03-122">Reduce lateral movement path risk to sensitive entities</span></span>
+- <span data-ttu-id="a9f03-123">중요 한 그룹에서 유휴 계정 제거</span><span class="sxs-lookup"><span data-stu-id="a9f03-123">Remove dormant accounts from sensitive groups</span></span>
+- <span data-ttu-id="a9f03-124">엔터티에서 보안 되지 않은 SID 기록 특성 제거</span><span class="sxs-lookup"><span data-stu-id="a9f03-124">Remove unsecure SID history attributes from entities</span></span>
+- <span data-ttu-id="a9f03-125">보안 되지 않은 계정 특성 확인</span><span class="sxs-lookup"><span data-stu-id="a9f03-125">Resolve unsecure account attributes</span></span>
+- <span data-ttu-id="a9f03-126">일반 텍스트 자격 증명 노출 중지</span><span class="sxs-lookup"><span data-stu-id="a9f03-126">Stop clear text credentials exposure</span></span>
+- <span data-ttu-id="a9f03-127">레거시 프로토콜 통신 중지</span><span class="sxs-lookup"><span data-stu-id="a9f03-127">Stop legacy protocols communication</span></span>
+- <span data-ttu-id="a9f03-128">약한 암호화 사용 중지</span><span class="sxs-lookup"><span data-stu-id="a9f03-128">Stop weak cipher usage</span></span>
 
-<span data-ttu-id="98055-121">이는 다음과 같은 개선 작업에 영향을 줍니다.</span><span class="sxs-lookup"><span data-stu-id="98055-121">It will affect the following improvement actions:</span></span>
-
-- <span data-ttu-id="98055-122">모든 사용자가 보안 액세스를 위해 multi-factor authentication을 완료할 수 있는지 확인</span><span class="sxs-lookup"><span data-stu-id="98055-122">Ensure all users can complete multi-factor authentication for secure access</span></span>
-- <span data-ttu-id="98055-123">관리 역할에 대 한 MFA 필요</span><span class="sxs-lookup"><span data-stu-id="98055-123">Require MFA for administrative roles</span></span>
-- <span data-ttu-id="98055-124">정책을 사용 하 여 레거시 인증 차단</span><span class="sxs-lookup"><span data-stu-id="98055-124">Enable policy to block legacy authentication</span></span>
+#### <a name="support-for-microsoft-defender-atp-threat--vulnerability-management-tvm-security-recommendations"></a><span data-ttu-id="a9f03-129">TVM (Microsoft Defender ATP Threat &) 보안 권장 사항에 대 한 지원</span><span class="sxs-lookup"><span data-stu-id="a9f03-129">Support for Microsoft Defender ATP Threat & Vulnerability Management (TVM) security recommendations</span></span>
+- <span data-ttu-id="a9f03-130">이제 TVM에서 제공 하는 모든 릴리스된 보안 권장 사항을 Microsoft 보안 점수 에서도 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="a9f03-130">All released security recommendations supplied by TVM will now also be available in Microsoft Secure Score</span></span>

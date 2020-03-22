@@ -2,10 +2,10 @@
 title: 아웃바운드 메시지용 높은 위험 배달 풀
 f1.keywords:
 - NOCSH
-ms.author: tracyp
-author: MSFTTracyP
+ms.author: chrisda
+author: chrisda
 manager: dansimp
-ms.date: 8/24/2016
+ms.date: ''
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -15,42 +15,41 @@ search.appverid:
 ms.assetid: ac11edd9-2da3-462d-8ea3-bbf9dbc6f948
 ms.collection:
 - M365-security-compliance
-description: 고객의 전자 메일 시스템이 맬웨어 또는 악성 스팸 공격에 의해 손상 되 고 호스팅된 필터링 서비스를 통해 아웃 바운드 스팸 메일을 보내는 경우이로 인해 타사 블록에 나열 되는 Office 365 데이터 센터 서버의 IP 주소가 생성 될 수 있습니다. 주고.
-ms.openlocfilehash: 19987ae74b9c78a796ddb5f13cf8291a5ed269ad
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+description: 위험성이 높은 배달 풀을 사용 하 여 Office 365 데이터 센터의 전자 메일 서버 신뢰도를 보호 하는 방법을 알아봅니다.
+ms.openlocfilehash: 5d1bd2b14eb17ed74ee1cf1e44967f660f4595b8
+ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41599235"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42895362"
 ---
-# <a name="high-risk-delivery-pool-for-outbound-messages"></a><span data-ttu-id="ffc9b-103">아웃바운드 메시지용 높은 위험 배달 풀</span><span class="sxs-lookup"><span data-stu-id="ffc9b-103">High-risk delivery pool for outbound messages</span></span>
+# <a name="high-risk-delivery-pool-for-outbound-messages-in-office-365"></a><span data-ttu-id="ac713-103">Office 365의 아웃 바운드 메시지에 대 한 위험성이 높은 배달 풀</span><span class="sxs-lookup"><span data-stu-id="ac713-103">High-risk delivery pool for outbound messages in Office 365</span></span>
 
-<span data-ttu-id="ffc9b-104">고객의 전자 메일 시스템이 맬웨어 또는 악성 스팸 공격에 의해 손상 되 고 호스팅된 필터링 서비스를 통해 아웃 바운드 스팸 메일을 보내는 경우이로 인해 타사 블록에 나열 되는 Office 365 데이터 센터 서버의 IP 주소가 생성 될 수 있습니다. 주고.</span><span class="sxs-lookup"><span data-stu-id="ffc9b-104">When a customer's email system has been compromised by malware or a malicious spam attack, and it's sending outbound spam through the hosted filtering service, this can result in the IP addresses of the Office 365 data center servers being listed on third-party block lists.</span></span> <span data-ttu-id="ffc9b-105">호스트 필터링 서비스를 사용 하지 않지만 이러한 차단 목록을 사용 하 여 해당 목록에 추가 된 호스트 필터링 IP 주소에서 보낸 모든 전자 메일은 거부 하는 대상 서버입니다.</span><span class="sxs-lookup"><span data-stu-id="ffc9b-105">Destination servers that do not use the hosted filtering service, but do use these block lists, reject all email sent from any of the hosted filtering IP addresses that have been added to those lists.</span></span> <span data-ttu-id="ffc9b-106">이를 방지 하기 위해 스팸 임계값을 초과 하는 모든 아웃 바운드 메시지는 위험성이 높은 배달 풀을 통해 전송 됩니다.</span><span class="sxs-lookup"><span data-stu-id="ffc9b-106">To prevent this, all outbound messages that exceed the spam threshold are sent through a high-risk delivery pool.</span></span> <span data-ttu-id="ffc9b-107">이 보조 아웃 바운드 전자 메일 풀은 저품질 일 수 있는 메시지를 보내는 데만 사용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="ffc9b-107">This secondary outbound email pool is only used to send messages that may be of low quality.</span></span> <span data-ttu-id="ffc9b-108">이렇게 하면 네트워크의 나머지 부분에서 보내는 IP 주소가 차단 될 가능성이 높은 메시지가 전송 되지 않도록 할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ffc9b-108">This helps to protect the rest of the network from sending messages that are more likely to result in the sending IP address being blocked.</span></span>
-  
-<span data-ttu-id="ffc9b-109">전용 위험성이 높은 배달 풀을 사용 하면 일반 아웃 바운드 풀이 높은 품질로 알려진 메시지만 보낼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ffc9b-109">The use of a dedicated high-risk delivery pool helps ensure that the normal outbound pool is only sending messages that are known to be of a high-quality.</span></span> <span data-ttu-id="ffc9b-110">이 보조 IP 풀을 사용 하면 일반 아웃 바운드 IP 풀이 차단 된 목록에 추가 될 가능성을 줄일 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ffc9b-110">Using this secondary IP pool helps to reduce the probability of the normal outbound-IP pool being added to a blocked list.</span></span> <span data-ttu-id="ffc9b-111">위험성이 높은 배달 풀이 차단 된 목록에 포함 될 가능성은 여전히 위험에 노출 됩니다.</span><span class="sxs-lookup"><span data-stu-id="ffc9b-111">The possibility of the high-risk delivery pool being placed on a blocked list remains a risk.</span></span> <span data-ttu-id="ffc9b-112">이는 설계에 따른 것입니다.</span><span class="sxs-lookup"><span data-stu-id="ffc9b-112">This is by design.</span></span>
-  
-<span data-ttu-id="ffc9b-113">보내는 도메인에 도메인의 IP 주소를 제공 하는 주소 레코드 (A 레코드) 및 DNS의 특정 도메인에 대 한 메일을 받아야 하는 서버로 메일을 보낼 수 있도록 하는 MX 레코드가 없는 메시지는 항상 스팸 처리에 관계 없이 위험성이 높은 배달 풀</span><span class="sxs-lookup"><span data-stu-id="ffc9b-113">Messages where the sending domain has no address record (A record), which gives you the IP address of the domain, and no MX record, which helps direct mail to the servers that should receive the mail for a particular domain in the DNS, are always routed through the high-risk delivery pool regardless of their spam disposition.</span></span>
-  
-## <a name="understanding-delivery-status-notification-dsn-messages"></a><span data-ttu-id="ffc9b-114">DSN (배달 상태 알림) 메시지 이해</span><span class="sxs-lookup"><span data-stu-id="ffc9b-114">Understanding Delivery Status Notification (DSN) messages</span></span>
+<span data-ttu-id="ac713-104">Office 365 데이터 센터의 전자 메일 서버가 일시적으로 스팸 메일을 guilty 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ac713-104">Email servers in the Office 365 datacenters might be temporarily guilty of sending spam.</span></span> <span data-ttu-id="ac713-105">예를 들어 온-프레미스 전자 메일 조직에서 Office 365 또는 손상 된 Office 365 계정을 통해 아웃 바운드 메일을 보내는 맬웨어 또는 악성 스팸 공격이 발생 합니다.</span><span class="sxs-lookup"><span data-stu-id="ac713-105">For example, a malware or malicious spam attack in an on-premises email organization that sends outbound mail through Office 365, or compromised Office 365 accounts.</span></span> <span data-ttu-id="ac713-106">이러한 시나리오로 인해 영향을 받는 Office 365 데이터 센터 서버의 IP 주소가 타사 차단 목록에 표시 될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ac713-106">These scenarios can result in the IP address of the affected Office 365 datacenter servers appearing on third-party block lists.</span></span> <span data-ttu-id="ac713-107">이러한 차단 목록을 사용 하는 대상 전자 메일 조직은 해당 메시지 원본의 전자 메일을 거부 합니다.</span><span class="sxs-lookup"><span data-stu-id="ac713-107">Destination email organizations that use these block lists will reject email from those messages sources.</span></span>
 
-<span data-ttu-id="ffc9b-115">아웃 바운드 높은 위험 배달 풀은 모든 "반송" 또는 "실패" (DSN) 메시지의 배달을 관리 합니다.</span><span class="sxs-lookup"><span data-stu-id="ffc9b-115">The outbound high-risk delivery pool manages the delivery for all "bounced" or "failed" (DSN) messages.</span></span>
-  
-<span data-ttu-id="ffc9b-116">DSN 메시지가 갑자기 증가하는 경우의 가능한 원인은 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="ffc9b-116">Possible causes for a surge in DSN messages include the following:</span></span>
-  
-- <span data-ttu-id="ffc9b-117">서비스 사용 고객 중 한 명에게 영향을 주는 스푸핑 캠페인</span><span class="sxs-lookup"><span data-stu-id="ffc9b-117">A spoofing campaign affecting one of the customers using the service</span></span>
-    
-- <span data-ttu-id="ffc9b-118">디렉터리 수집 공격</span><span class="sxs-lookup"><span data-stu-id="ffc9b-118">A directory harvest attack</span></span>
-    
-- <span data-ttu-id="ffc9b-119">스팸 공격</span><span class="sxs-lookup"><span data-stu-id="ffc9b-119">A spam attack</span></span>
-    
-- <span data-ttu-id="ffc9b-120">Rogue SMTP 서버</span><span class="sxs-lookup"><span data-stu-id="ffc9b-120">A rogue SMTP server</span></span>
-    
-<span data-ttu-id="ffc9b-121">이러한 모든 문제로 인해 서비스에서 처리하는 DSN 메시지의 수가 급증할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ffc9b-121">All of these issues can result in a sudden increase in the number of DSN messages being processed by the service.</span></span> <span data-ttu-id="ffc9b-122">대부분의 경우 이러한 DSN 메시지는 다른 전자 메일 서버 및 서비스에 스팸으로 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="ffc9b-122">Many times, these DSN messages appear to be spam to other email servers and services.</span></span>
-  
-## <a name="for-more-information"></a><span data-ttu-id="ffc9b-123">자세한 내용</span><span class="sxs-lookup"><span data-stu-id="ffc9b-123">For more information</span></span>
+<span data-ttu-id="ac713-108">이를 방지 하기 위해 스팸으로 확인 되거나 [서비스](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#sending-limits-across-office-365-options) 의 전송 제한을 초과 하는 Office 365 데이터 센터 서버의 모든 아웃 바운드 메시지는 _높은 위험 배달 풀_ [을 통해 전송 됩니다.](configure-the-outbound-spam-policy.md)</span><span class="sxs-lookup"><span data-stu-id="ac713-108">To prevent this, all outbound messages from Office 365 datacenter servers that's determined to be spam or that exceeds the sending limits of [the service](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#sending-limits-across-office-365-options) or [outbound spam policies](configure-the-outbound-spam-policy.md) are sent through the _high-risk delivery pool_.</span></span>
 
-[<span data-ttu-id="ffc9b-124">아웃바운드 스팸 정책 구성</span><span class="sxs-lookup"><span data-stu-id="ffc9b-124">Configure the outbound spam policy</span></span>](configure-the-outbound-spam-policy.md)
-  
-[<span data-ttu-id="ffc9b-125">스팸 방지 및 보호 FAQ</span><span class="sxs-lookup"><span data-stu-id="ffc9b-125">Anti-spam protection FAQ</span></span>](anti-spam-protection-faq.md)
-  
+<span data-ttu-id="ac713-109">높은 위험 배달 풀은 "낮은 품질" 메시지 (예: 스팸 및 [백 분산](backscatter-messages-and-eop.md))를 보내는 데만 사용 되는 아웃 바운드 전자 메일에 대 한 보조 IP 주소 풀입니다.</span><span class="sxs-lookup"><span data-stu-id="ac713-109">The high risk delivery pool is a secondary IP address pool for outbound email that's only used to send "low quality" messages (for example, spam and [backscatter](backscatter-messages-and-eop.md)).</span></span> <span data-ttu-id="ac713-110">높은 위험 배달 풀을 사용 하면 아웃 바운드 전자 메일에 대 한 일반 IP 주소 풀이 스팸을 보내지 못합니다.</span><span class="sxs-lookup"><span data-stu-id="ac713-110">Using the high risk delivery pool helps prevent the normal IP address pool for outbound email from sending spam.</span></span> <span data-ttu-id="ac713-111">아웃 바운드 전자 메일의 일반 IP 주소 풀은 "고품질" 메시지를 보내는 신뢰도를 유지 하므로 이러한 IP 주소가 IP 차단 목록에 표시 되는 가능성이 줄어듭니다.</span><span class="sxs-lookup"><span data-stu-id="ac713-111">The normal IP address pool for outbound email maintains the reputation sending "high quality" messages, which reduces the likelihood that these IP address will appear on IP block lists.</span></span>
 
+<span data-ttu-id="ac713-112">높은 위험 배달 풀의 IP 주소가 IP 차단 목록에 남아 있는 것은 매우 실질적인 일 이지만 이것은 의도적으로 설계 된 것입니다.</span><span class="sxs-lookup"><span data-stu-id="ac713-112">The very real possibility that IP addresses in the high-risk delivery pool will be placed on IP block lists remains, but this is by design.</span></span> <span data-ttu-id="ac713-113">대부분의 전자 메일 조직에서는 높은 위험 배달 풀의 메시지를 수락 하지 않으므로 원하는 받는 사람에 게 배달할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="ac713-113">Delivery to the intended recipients isn't guaranteed, because many email organizations won't accept messages from the high risk delivery pool.</span></span>
+
+<span data-ttu-id="ac713-114">자세한 내용은 [Office 365에서 아웃 바운드 스팸 제어](outbound-spam-controls.md)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="ac713-114">For more information, see [Control outbound spam in Office 365](outbound-spam-controls.md).</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="ac713-115">원본 전자 메일 도메인에 레코드가 없고 공용 DNS에 정의 된 MX 레코드가 없는 메시지는 항상 스팸 또는 전송 제한 처리에 관계 없이 위험성이 높은 배달 풀을 통해 라우팅됩니다.</span><span class="sxs-lookup"><span data-stu-id="ac713-115">Messages where the source email domain has no A record and no MX record defined in public DNS are always routed through the high-risk delivery pool, regardless of their spam or sending limit disposition.</span></span>
+
+## <a name="bounce-messages"></a><span data-ttu-id="ac713-116">바운스 메시지</span><span class="sxs-lookup"><span data-stu-id="ac713-116">Bounce messages</span></span>
+
+<span data-ttu-id="ac713-117">아웃 바운드 높은 위험 배달 풀은 모든 배달 못 함 보고서 (Ndr, 바운스 메시지, 배달 상태 알림 또는 Dsn)에 대 한 배달을 관리 합니다.</span><span class="sxs-lookup"><span data-stu-id="ac713-117">The outbound high-risk delivery pool manages the delivery for all non-delivery reports (also known as NDRs, bounce messages, delivery status notifications, or DSNs).</span></span>
+
+<span data-ttu-id="ac713-118">Ndr의 서 지에 대 한 가능한 원인은 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="ac713-118">Possible causes for a surge in NDRs include:</span></span>
+
+- <span data-ttu-id="ac713-119">서비스를 사용 하는 고객 중 한 명에 게 영향을 주는 스푸핑 캠페인</span><span class="sxs-lookup"><span data-stu-id="ac713-119">A spoofing campaign that affects one of the customers using the service.</span></span>
+
+- <span data-ttu-id="ac713-120">디렉터리 수집 공격입니다.</span><span class="sxs-lookup"><span data-stu-id="ac713-120">A directory harvest attack.</span></span>
+
+- <span data-ttu-id="ac713-121">스팸 공격</span><span class="sxs-lookup"><span data-stu-id="ac713-121">A spam attack.</span></span>
+
+- <span data-ttu-id="ac713-122">Rogue 전자 메일 서버</span><span class="sxs-lookup"><span data-stu-id="ac713-122">A rogue email server.</span></span>
+
+<span data-ttu-id="ac713-123">이러한 모든 문제로 인해 서비스에서 처리 하는 Ndr 수가 급격 하 게 증가할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ac713-123">All of these issues can result in a sudden increase in the number of NDRs being processed by the service.</span></span> <span data-ttu-id="ac713-124">여러 번 이러한 ndr은 다른 전자 메일 서버 및 서비스에 스팸으로 표시 됩니다 ( _[후방 산란](backscatter-messages-and-eop.md)_ 이 라고도 함).</span><span class="sxs-lookup"><span data-stu-id="ac713-124">Many times, these NDRs appear to be spam to other email servers and services (also known as _[backscatter](backscatter-messages-and-eop.md)_).</span></span>

@@ -1,11 +1,11 @@
 ---
-title: 아웃바운드 스팸 정책 구성
+title: 아웃 바운드 스팸 필터링 구성
 f1.keywords:
 - NOCSH
-ms.author: tracyp
-author: MSFTTracyP
+ms.author: chrisda
+author: chrisda
 manager: dansimp
-ms.date: 10/02/2019
+ms.date: ''
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -16,102 +16,484 @@ ms.assetid: a44764e9-a5d2-4c67-8888-e7fb871c17c7
 ms.collection:
 - M365-security-compliance
 description: 아웃바운드 전자 메일 보내기 서비스를 사용하는 경우 아웃바운드 스팸 필터링이 항상 사용하도록 설정되므로 서비스와 받는 사람을 사용하여 조직을 보호할 수 있습니다.
-ms.openlocfilehash: 0fa5ec23eee6144864f16b52d452d02f38b554d7
-ms.sourcegitcommit: 4986032867b8664a215178b5e095cbda021f3450
+ms.openlocfilehash: e788310ae8fd3c0da7f1a39fbba2dc0d6e369d30
+ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "41957343"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42893962"
 ---
-# <a name="configure-the-outbound-spam-policy"></a><span data-ttu-id="db97e-103">아웃바운드 스팸 정책 구성</span><span class="sxs-lookup"><span data-stu-id="db97e-103">Configure the outbound spam policy</span></span>
+# <a name="configure-outbound-spam-filtering-in-office-365"></a><span data-ttu-id="40d8b-103">Office 365에서 아웃 바운드 스팸 필터링 구성</span><span class="sxs-lookup"><span data-stu-id="40d8b-103">Configure outbound spam filtering in Office 365</span></span>
 
-<span data-ttu-id="db97e-104">아웃바운드 전자 메일 보내기 서비스를 사용하는 경우 아웃바운드 스팸 필터링이 항상 사용하도록 설정되므로 서비스와 받는 사람을 사용하여 조직을 보호할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="db97e-104">Outbound spam filtering is always enabled if you use the service for sending outbound email, thereby protecting organizations using the service and their intended recipients.</span></span> <span data-ttu-id="db97e-105">인바운드 필터링과 마찬가지로 아웃 바운드 스팸 필터링은 연결 필터링 및 콘텐츠 필터링으로 구성 되며 특정 컨트롤에서 아웃 바운드 메시지를 처리할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="db97e-105">Similar to inbound filtering, outbound spam filtering is comprised of connection filtering and content filtering and allows some specific controls to handle outbound messages.</span></span> <span data-ttu-id="db97e-106">아웃 바운드 스팸 필터 정책 설정 유형:</span><span class="sxs-lookup"><span data-stu-id="db97e-106">Outbound spam filter policy settings types:</span></span>
+<span data-ttu-id="40d8b-104">Exchange online 사서함이 없는 Office 365 고객 또는 독립 실행형 EOP (Exchange Online Protection) 고객의 경우 EOP를 통해 전송 되는 아웃 바운드 전자 메일 메시지가 스팸 및 비정상적인 기능을 자동으로 확인 합니다. 활동을 보냅니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-104">If you're an Office 365 customer with mailboxes in Exchange Online or a standalone Exchange Online Protection (EOP) customer without Exchange Online mailboxes, outbound email messages that are sent through EOP are automatically checked for spam and unusual sending activity.</span></span>
 
-- <span data-ttu-id="db97e-107">기본값: 회사 전체의 아웃 바운드 스팸 필터 설정을 구성 하는 데 기본 아웃 바운드 스팸 필터 정책이 사용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="db97e-107">Default: The default outbound spam filter policy is used to configure company-wide outbound spam filter settings.</span></span> <span data-ttu-id="db97e-108">이 정책은 이름을 바꿀 수 없으며 항상 켜져 있습니다.</span><span class="sxs-lookup"><span data-stu-id="db97e-108">This policy can not be renamed and is always on.</span></span>
+<span data-ttu-id="40d8b-105">조직에 있는 사용자의 아웃 바운드 스팸은 일반적으로 계정이 노출 된 것을 나타냅니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-105">Outbound spam from a user in your organization typically indicates a compromised account.</span></span> <span data-ttu-id="40d8b-106">의심 스러운 아웃 바운드 메시지는 스팸 지 수 또는 SCL에 관계 없이 스팸으로 표시 되며, [높은 위험 배달 풀](high-risk-delivery-pool-for-outbound-messages.md) 을 통해 라우팅되는 서비스의 신뢰도를 보호 하는 데 도움이 됩니다 (즉, Office 365 원본 전자 메일 서버를 IP 차단 목록 밖으로 유지).</span><span class="sxs-lookup"><span data-stu-id="40d8b-106">Suspicious outbound messages are marked as spam (regardless of the spam confidence level or SCL) and are routed through the [high-risk delivery pool](high-risk-delivery-pool-for-outbound-messages.md) to help protect the reputation of the service (that is, keep Office 365 source email servers off of IP block lists).</span></span> <span data-ttu-id="40d8b-107">관리자는 [경고 정책을](../../compliance/alert-policies.md)통해 의심 스러운 아웃 바운드 전자 메일 활동 및 차단 된 사용자에 게 자동으로 알림을 보냅니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-107">Admins are automatically notified of suspicious outbound email activity and blocked users via [alert policies](../../compliance/alert-policies.md).</span></span>
 
-- <span data-ttu-id="db97e-109">사용자 지정: 사용자 지정 아웃 바운드 스팸 필터 정책은 세분화 하 여 조직의 특정 사용자, 그룹 또는 도메인에 적용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="db97e-109">Custom: Custom outbound spam filter policies can be granular and applied to specific users, groups, or domains in your organization.</span></span> <span data-ttu-id="db97e-110">사용자 지정 정책은 기본 정책보다 항상 우선합니다.</span><span class="sxs-lookup"><span data-stu-id="db97e-110">Custom policies always take precedence over the default policy.</span></span> <span data-ttu-id="db97e-111">각 사용자 지정 정책의 우선 순위를 변경 하 여 사용자 지정 정책이 실행 되는 순서를 변경할 수 있습니다. 그러나 사용자가 여러 정책과 일치 하는 경우에는 가장 높은 우선 순위 (즉, 0에 가장 가까운 수) 정책만 적용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="db97e-111">You can change the order in which your custom policies run by changing the priority of each custom policy; however, only the highest priority (i.e. number closest to 0) policy will apply if the user matches multiple policies.</span></span>
+<span data-ttu-id="40d8b-108">EOP에서는 스팸을 방지 하기 위해 조직의 전반적인 방어 과정에서 아웃 바운드 스팸 정책을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-108">EOP uses outbound spam policies as part of your organization's overall defense against spam.</span></span> <span data-ttu-id="40d8b-109">자세한 내용은 [Office 365의 스팸 방지 보호](anti-spam-protection.md)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="40d8b-109">For more information, see [Anti-spam protection in Office 365](anti-spam-protection.md).</span></span>
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a><span data-ttu-id="db97e-112">시작하기 전에 알아야 할 사항은 무엇인가요?</span><span class="sxs-lookup"><span data-stu-id="db97e-112">What do you need to know before you begin?</span></span>
-<span data-ttu-id="db97e-113"><a name="sectionSection0"> </a></span><span class="sxs-lookup"><span data-stu-id="db97e-113"><a name="sectionSection0"> </a></span></span>
+<span data-ttu-id="40d8b-110">관리자는 기본 아웃 바운드 스팸 정책을 보고 편집 하 고 구성할 수 있습니다 (삭제 하지 않음).</span><span class="sxs-lookup"><span data-stu-id="40d8b-110">Admins can view, edit, and configure (but not delete) the default outbound spam policy.</span></span> <span data-ttu-id="40d8b-111">세분성을 높이기 위해 조직의 특정 사용자, 그룹 또는 도메인에 적용 되는 사용자 지정 아웃 바운드 스팸 정책을 만들 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-111">For greater granularity, you can also create custom outbound spam policies that apply to specific users, groups, or domains in your organization.</span></span> <span data-ttu-id="40d8b-112">사용자 지정 정책은 항상 기본 정책보다 우선하지만 사용자 지정 정책의 우선 순위(실행 순서)를 변경할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-112">Custom policies always take precedence over the default policy, but you can change the priority (running order) of your custom policies.</span></span>
 
-- <span data-ttu-id="db97e-114">예상 완료 시간: 5분</span><span class="sxs-lookup"><span data-stu-id="db97e-114">Estimated time to complete: 5 minutes</span></span>
+<span data-ttu-id="40d8b-113">Office 365 보안 & 준수 센터 또는 PowerShell (Office 365 고객을 위한 Exchange Online PowerShell)에서 아웃 바운드 스팸 정책을 구성할 수 있습니다. 독립 실행형 EOP 고객을 위한 Exchange Online Protection PowerShell</span><span class="sxs-lookup"><span data-stu-id="40d8b-113">You can configure outbound spam policies in the Office 365 Security & Compliance Center or in PowerShell (Exchange Online PowerShell for Office 365 customers; Exchange Online Protection PowerShell for standalone EOP customers).</span></span>
 
-- <span data-ttu-id="db97e-115">이러한 절차를 수행하려면 먼저 사용 권한을 할당받아야 합니다.</span><span class="sxs-lookup"><span data-stu-id="db97e-115">You need to be assigned permissions before you can perform this procedure or procedures.</span></span> <span data-ttu-id="db97e-116">필요한 권한을 확인하려면 [Exchange Online의 기능 사용 권한](https://docs.microsoft.com/exchange/permissions-exo/feature-permissions) 항목에서 스팸 방지 항목을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="db97e-116">To see what permissions you need, see the "Anti-spam entry in the [Feature Permissions in Exchange Online](https://docs.microsoft.com/exchange/permissions-exo/feature-permissions) topic.</span></span>
+## <a name="outbound-spam-policies-in-the-office-365-security--compliance-center-vs-exchange-online-powershell-or-exchange-online-protection-powershell"></a><span data-ttu-id="40d8b-114">Office 365 보안 & 준수 센터 vs Exchange Online PowerShell 또는 Exchange Online Protection PowerShell의 아웃 바운드 스팸 정책</span><span class="sxs-lookup"><span data-stu-id="40d8b-114">Outbound spam policies in the Office 365 Security & Compliance Center vs Exchange Online PowerShell or Exchange Online Protection PowerShell</span></span>
 
-- <span data-ttu-id="db97e-117">원격 PowerShell에서이 항목의 절차를 수행할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="db97e-117">You can also do the procedures in this topic in remote PowerShell.</span></span> <span data-ttu-id="db97e-118">[Get-HostedOutboundSpamFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/get-hostedoutboundspamfilterpolicy) cmdlet을 사용하여 설정을 검토하고 [Set-HostedOutboundSpamFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/set-hostedoutboundspamfilterpolicy) cmdlet을 사용하여 아웃바운드 스팸 정책 설정을 편집할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="db97e-118">Use the [Get-HostedOutboundSpamFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/get-hostedoutboundspamfilterpolicy) cmdlet to review your settings, and the [Set-HostedOutboundSpamFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/set-hostedoutboundspamfilterpolicy) to edit your outbound spam policy settings.</span></span>
+<span data-ttu-id="40d8b-115">EOP의 아웃 바운드 스팸 정책의 기본 요소는 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-115">The basic elements of an outbound spam policy in EOP are:</span></span>
 
-  <span data-ttu-id="db97e-119">Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell)을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="db97e-119">To connect to Exchange Online PowerShell, see [Connect to Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell).</span></span> <span data-ttu-id="db97e-120">Exchange Online Protection PowerShell에 연결 하려면 [Exchange Online Protection powershell에 연결](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell)을 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="db97e-120">To connect to Exchange Online Protection PowerShell, see [Connect to Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell).</span></span>
+- <span data-ttu-id="40d8b-116">**아웃 바운드 스팸 필터 정책**: 아웃 바운드 스팸 필터링 verdicts 및 알림 옵션에 대 한 작업을 지정 합니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-116">**The outbound spam filter policy**: Specifies the actions for outbound spam filtering verdicts and the notification options.</span></span>
 
-## <a name="use-the-security--compliance-center-scc-to-edit-the-default-outbound-spam-policy"></a><span data-ttu-id="db97e-121">SCC (보안 & 준수 센터)를 사용 하 여 기본 아웃 바운드 스팸 정책 편집</span><span class="sxs-lookup"><span data-stu-id="db97e-121">Use the Security & Compliance Center (SCC) to edit the default outbound spam policy</span></span>
+- <span data-ttu-id="40d8b-117">**아웃 바운드 스팸 필터 규칙**: 아웃 바운드 스팸 필터 정책에 대해 정책이 적용 되는 우선 순위 및 받는 사람 필터를 지정 합니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-117">**The outbound spam filter rule**: Specifies the priority and recipient filters (who the policy applies to) for a outbound spam filter policy.</span></span>
 
-<span data-ttu-id="db97e-122">다음 절차에 따라 기본 아웃바운드 스팸 정책을 편집합니다.</span><span class="sxs-lookup"><span data-stu-id="db97e-122">Use the following procedure to edit the default outbound spam policy:</span></span>
+<span data-ttu-id="40d8b-118">보안 & 준수 센터에서 아웃 바운드 스팸 정책을 관리할 때는 이러한 두 가지 요소 간의 차이가 명확 하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-118">The difference between these two elements isn't obvious when you manage outbound spam polices in the Security & Compliance Center:</span></span>
 
-### <a name="to-configure-the-default-outbound-spam-policy"></a><span data-ttu-id="db97e-123">기본 아웃바운드 스팸 정책을 구성하려면 다음을 수행합니다.</span><span class="sxs-lookup"><span data-stu-id="db97e-123">To configure the default outbound spam policy</span></span>
+- <span data-ttu-id="40d8b-119">보안 & 준수 센터에서 아웃 바운드 스팸 정책을 만드는 경우 실제로는 둘 다에 대해 동일한 이름을 사용 하 여 아웃 바운드 스팸 필터 규칙과 연결 된 아웃 바운드 스팸 필터 정책을 동시에 만드는 것입니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-119">When you create an outbound spam policy in the Security & Compliance Center, you're actually creating a outbound spam filter rule and the associated outbound spam filter policy at the same time using the same name for both.</span></span>
 
-1. <span data-ttu-id="db97e-124">SCC에서 **위협 관리** \> **정책** \> **스팸 방지** 로 이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="db97e-124">In the SCC, navigate to **Threat Management** \> **Policy** \> **Anti-spam**</span></span>
+- <span data-ttu-id="40d8b-120">보안 & 준수 센터에서 아웃 바운드 스팸 정책을 수정 하는 경우 이름, 우선 순위, 사용/사용 안 함 및 받는 사람 필터와 관련 된 설정이 아웃 바운드 스팸 필터 규칙을 수정 합니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-120">When you modify an outbound spam policy in the Security & Compliance Center, settings related to the name, priority, enabled or disabled, and recipient filters modify the outbound spam filter rule.</span></span> <span data-ttu-id="40d8b-121">다른 모든 설정은 연결 된 아웃 바운드 스팸 필터 정책을 수정 합니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-121">All other settings modify the associated outbound spam filter policy.</span></span>
 
-2. <span data-ttu-id="db97e-125">**아웃 바운드 스팸 필터 정책 (ALWAYS ON)** 섹션을 확장 하 고 **정책 편집**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="db97e-125">Expand the **Outbound spam filter policy (always ON)** section and click **Edit policy**.</span></span>
+- <span data-ttu-id="40d8b-122">보안 & 준수 센터에서 아웃 바운드 스팸 정책을 제거 하면 아웃 바운드 스팸 필터 규칙과 연결 된 아웃 바운드 스팸 필터 정책이 제거 됩니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-122">When you remove an outbound spam policy from the Security & Compliance Center, the outbound spam filter rule and the associated outbound spam filter policy are removed.</span></span>
 
-3. <span data-ttu-id="db97e-126">**알림** 섹션을 확장 하 고 아웃 바운드 메시지에 대 한 다음 확인란을 선택한 다음 **사용자 추가** 를 선택 하 여 해당 대화 상자에 연결 된 전자 메일 주소나 주소를 추가 합니다.</span><span class="sxs-lookup"><span data-stu-id="db97e-126">Expand the **Notifications** section and select the following check boxes pertaining to outbound messages, then select **Add people** to add an associated email address or addresses in the accompanying dialog box.</span></span> <span data-ttu-id="db97e-127">(이는 올바른 SMTP 대상으로 확인 되는 경우 메일 목록 일 수 있습니다.)</span><span class="sxs-lookup"><span data-stu-id="db97e-127">(these can be distribution lists if they resolve as valid SMTP destinations):</span></span>
+<span data-ttu-id="40d8b-123">Exchange Online PowerShell 또는 독립 실행형 Exchange Online Protection PowerShell에서 아웃 바운드 스팸 필터 정책 및 아웃 바운드 스팸 필터 규칙 간의 차이가 명백 합니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-123">In Exchange Online PowerShell or standalone Exchange Online Protection PowerShell, the difference between outbound spam filter policies and outbound spam filter rules is apparent.</span></span> <span data-ttu-id="40d8b-124">-Get-hostedcontentfilterpolicy cmdlet을 사용 하 여 아웃 바운드 스팸 필터 정책을 관리 하 고 \*\* \*-disable-hostedcontentfilterrule\*\* cmdlet을 사용 하 여 아웃 바운드 스팸 필터 규칙을 관리 합니다. \*\* \*\*\*</span><span class="sxs-lookup"><span data-stu-id="40d8b-124">You manage outbound spam filter policies by using the **\*-HostedContentFilterPolicy** cmdlets, and you manage outbound spam filter rules by using the **\*-HostedContentFilterRule** cmdlets.</span></span>
 
-   - <span data-ttu-id="db97e-128">**의심 스러운 모든 아웃 바운드 전자 메일 메시지의 복사본을 다음 전자 메일 주소 또는 주소로 보내기**: SCL 등급에 관계 없이 필터에 의해 스팸으로 표시 된 메시지입니다.</span><span class="sxs-lookup"><span data-stu-id="db97e-128">**Send a copy of all suspicious outbound email messages to the following email address or addresses**: These are messages that are marked as spam by the filter (regardless of the SCL rating).</span></span> <span data-ttu-id="db97e-129">필터에 의해 거부 되지는 않지만 높은 위험 배달 풀을 통해 라우팅됩니다.</span><span class="sxs-lookup"><span data-stu-id="db97e-129">They are not rejected by the filter but are routed through the higher risk delivery pool.</span></span> <span data-ttu-id="db97e-130">주소가 여러 개인 경우 세미콜론으로 구분합니다.</span><span class="sxs-lookup"><span data-stu-id="db97e-130">Separate multiple addresses with a semicolon.</span></span> <span data-ttu-id="db97e-131">지정 된 받는 사람은 메시지를 Bcc (숨은 참조) 주소로 받습니다 (보낸 사람 및 받는 사람 필드는 원본에 대 한 송신자 및 수신자).</span><span class="sxs-lookup"><span data-stu-id="db97e-131">Note that the recipients specified will receive the messages as a Blind carbon copy (Bcc) address (the From and To fields are the original sender and recipient).</span></span>
+- <span data-ttu-id="40d8b-125">PowerShell에서 먼저 아웃 바운드 스팸 필터 정책을 만든 다음 규칙이 적용 되는 정책을 식별 하는 아웃 바운드 스팸 필터 규칙을 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-125">In PowerShell, you create the outbound spam filter policy first, then you create the outbound spam filter rule that identifies the policy that the rule applies to.</span></span>
 
-   - <span data-ttu-id="db97e-132">**보낸 사람이 아웃 바운드 스팸을 보낼 수 없도록 차단 된 경우 다음 전자 메일 주소로 알림 보내기**: 세미콜론을 사용 하 여 여러 주소를 구분 합니다.</span><span class="sxs-lookup"><span data-stu-id="db97e-132">**Send a notification to the following email address when a sender is blocked sending outbound spam**: Separate multiple addresses with a semicolon.</span></span>
+- <span data-ttu-id="40d8b-126">PowerShell에서는 아웃 바운드 스팸 필터 정책 및 아웃 바운드 스팸 필터 규칙의 설정을 개별적으로 수정 합니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-126">In PowerShell, you modify the settings in the outbound spam filter policy and the outbound spam filter rule separately.</span></span>
 
-   <span data-ttu-id="db97e-133">특정 사용자가 상당량의 스팸 또는 기타 보내기 예외를 감지 하면 사용자가 전자 메일 메시지를 보낼 수 없으며 지정 된 전자 메일 주소로 알림이 전송 됩니다.</span><span class="sxs-lookup"><span data-stu-id="db97e-133">When a significant amount of spam or other sending anomalies are detected from a particular user, the user is restricted from sending email messages and a notification is sent to the email addresses specified.</span></span>
+- <span data-ttu-id="40d8b-127">PowerShell에서 아웃 바운드 스팸 필터 정책을 제거 하면 해당 하는 아웃 바운드 스팸 필터 규칙이 자동으로 제거 되지 않으며 그 반대의 경우도 마찬가지입니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-127">When you remove a outbound spam filter policy from PowerShell, the corresponding outbound spam filter rule isn't automatically removed, and vice versa.</span></span>
 
-   <span data-ttu-id="db97e-134">이 설정을 사용하여 지정되는 도메인의 관리자에게는 해당 사용자의 아웃바운드 메시지가 차단되었다는 알림이 제공됩니다.</span><span class="sxs-lookup"><span data-stu-id="db97e-134">The administrator for the domain, who is specified using this setting, will be informed that outbound messages are blocked for this user.</span></span>  <span data-ttu-id="db97e-135">이 알림의 모양을 보려면 [보낸 사람이 보내는 아웃 바운드 스팸 차단 되 면 샘플 알림](sample-notification-when-a-sender-is-blocked-sending-outbound-spam.md)을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="db97e-135">To see what this notification looks like, see [Sample notification when a sender is blocked sending outbound spam](sample-notification-when-a-sender-is-blocked-sending-outbound-spam.md).</span></span>
+### <a name="default-outbound-spam-policy"></a><span data-ttu-id="40d8b-128">기본 아웃 바운드 스팸 정책</span><span class="sxs-lookup"><span data-stu-id="40d8b-128">Default outbound spam policy</span></span>
 
-   > [!NOTE]
-   > <span data-ttu-id="db97e-136">사용자가 제한 되었음을 나타내는 시스템 경고도 생성 됩니다.</span><span class="sxs-lookup"><span data-stu-id="db97e-136">A system alert is also generated indicating the user has been restricted.</span></span> <span data-ttu-id="db97e-137">경고에 대 한 자세한 내용을 보고 사용자를 복구 하는 방법에 대 한 자세한 내용은 [스팸 메일을 보낸 후 제한 된 사용자 포털에서 사용자 제거](removing-user-from-restricted-users-portal-after-spam.md)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="db97e-137">To learn more about the alert and how to recover the user, see [Removing a user from the Restricted Users portal after sending spam email](removing-user-from-restricted-users-portal-after-spam.md).</span></span>
+<span data-ttu-id="40d8b-129">모든 조직에는 다음과 같은 속성을 갖는 기본 제공 아웃 바운드 스팸 정책 (기본값)이 있습니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-129">Every organization has a built-in outbound spam policy named Default that has these properties:</span></span>
 
-4. <span data-ttu-id="db97e-138">**받는 사람 제한** 섹션을 확장 하 여 사용자가 내부 및 외부 받는 사람에 대해 하루 당 최대 수와 함께 보낼 수 있는 최대 받는 사람 수를 지정 합니다.</span><span class="sxs-lookup"><span data-stu-id="db97e-138">Expand the **Recipient limits** section to specify the maximum number of recipients that a user can send to, per hour for internal and external recipients together with the maximum number per day.</span></span>
+- <span data-ttu-id="40d8b-130">정책과 연결 된 아웃 바운드 스팸 필터 규칙 (받는 사람 필터)이 없는 경우에도 조직의 모든 받는 사람에 게 Default 라는 아웃 바운드 스팸 필터 정책이 적용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-130">The outbound spam filter policy named Default is applied to all recipients in the organization, even though there's no outbound spam filter rule (recipient filters) associated with the policy.</span></span>
 
-   > [!NOTE]
-   > <span data-ttu-id="db97e-139">모든 입력의 최대 수는 1만입니다.</span><span class="sxs-lookup"><span data-stu-id="db97e-139">The maximum number for any input is 10000.</span></span> <span data-ttu-id="db97e-140">자세한 내용은 [Exchange online 내에서의 수신 및 전송 제한](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#receiving-and-sending-limits) 참조</span><span class="sxs-lookup"><span data-stu-id="db97e-140">For more information see [receiving and sending limits within Exchange online](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#receiving-and-sending-limits)</span></span>
+- <span data-ttu-id="40d8b-131">Default 라는 정책에는 수정할 수 없는 사용자 지정 우선 순위 값인 **가장 낮은** 값이 있습니다 (정책이 항상 마지막으로 적용 됨).</span><span class="sxs-lookup"><span data-stu-id="40d8b-131">The policy named Default has the custom priority value **Lowest** that you can't modify (the policy is always applied last).</span></span> <span data-ttu-id="40d8b-132">만드는 모든 사용자 지정 정책에는 항상 Default 라는 정책 보다 높은 우선 순위가 부여 됩니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-132">Any custom policies that you create always have a higher priority than the policy named Default.</span></span>
 
-7. <span data-ttu-id="db97e-141">사용자가 지정 된 제한을 초과 했을 때 수행할 **작업** 을 지정 합니다.</span><span class="sxs-lookup"><span data-stu-id="db97e-141">Specify the **action** to take when a user exceeds the specified limits.</span></span>  <span data-ttu-id="db97e-142">가능한 작업은 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="db97e-142">The actions that are possible are as follows:</span></span>
+- <span data-ttu-id="40d8b-133">Default 라는 정책이 기본 정책 ( **IsDefault** 속성에 값 `True`이 있음) 이며 기본 정책을 삭제할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-133">The policy named Default is the default policy (the **IsDefault** property has the value `True`), and you can't delete the default policy.</span></span>
 
-   - <span data-ttu-id="db97e-143">**다음 날까지 사용자가 메일을 보낼 수 없도록**합니다.</span><span class="sxs-lookup"><span data-stu-id="db97e-143">**Restrict the user from sending mail till the following day**.</span></span>  <span data-ttu-id="db97e-144">전송 제한이 초과 되 면 (내부, 외부 또는 매일) 관리자에 대 한 경고가 생성 되며 사용자는 UTC 시간을 기준으로 다음 날까지 더 이상 전자 메일을 보낼 수 없게 됩니다.</span><span class="sxs-lookup"><span data-stu-id="db97e-144">Once any sending limit has been exceeded (internal, external or daily) an alert will be generated for the admin and the user will be unable to send any further email until the following day, based on UTC time.</span></span> <span data-ttu-id="db97e-145">관리자가이 블록을 무시할 수 있는 방법은 없습니다.</span><span class="sxs-lookup"><span data-stu-id="db97e-145">There is no way for the administrator to override this block.</span></span>
+<span data-ttu-id="40d8b-134">아웃 바운드 스팸 필터링의 효율성을 높이려면 특정 사용자 또는 사용자 그룹에 적용 되는 보다 엄격한 설정을 사용 하 여 사용자 지정 아웃 바운드 스팸 정책을 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-134">To increase the effectiveness of outbound spam filtering, you can create custom outbound spam policies with stricter settings that are applied to specific users or groups of users.</span></span>
 
-   - <span data-ttu-id="db97e-146">**사용자가 메일을 보낼 수 없도록 제한**합니다.</span><span class="sxs-lookup"><span data-stu-id="db97e-146">**Restrict the user from sending mail**.</span></span>  <span data-ttu-id="db97e-147">전송 제한이 초과 되는 경우 (내부, 외부 또는 매일) 관리자에 대 한 알림이 생성 되 고 사용자가 제한을 제거할 때까지 더 이상 전자 메일을 보낼 수 없게 됩니다.</span><span class="sxs-lookup"><span data-stu-id="db97e-147">Once any sending limit has been exceeded (internal, external or daily) an alert will be generated for the admin and the user will be unable to send any further email until the administrator removes the restriction.</span></span>  <span data-ttu-id="db97e-148">이러한 경우 사용자는 [제한 된 사용자 페이지](removing-user-from-restricted-users-portal-after-spam.md)에 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="db97e-148">In these cases the user will be listed on the [Restricted Users page](removing-user-from-restricted-users-portal-after-spam.md).</span></span>  <span data-ttu-id="db97e-149">목록에서 제거 된 사용자는 해당 날짜에 대해 다시 제한 되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="db97e-149">Once removed from the list the user will not be restricted again for that day.</span></span>
+## <a name="what-do-you-need-to-know-before-you-begin"></a><span data-ttu-id="40d8b-135">시작하기 전에 알아야 할 내용은 무엇인가요?</span><span class="sxs-lookup"><span data-stu-id="40d8b-135">What do you need to know before you begin?</span></span>
 
-   - <span data-ttu-id="db97e-150">**작업/알림을 받지 않습니다**.</span><span class="sxs-lookup"><span data-stu-id="db97e-150">**No Action/Alert only**.</span></span> <span data-ttu-id="db97e-151">전송 제한이 초과 되 면 (내부, 외부 또는 매일) 관리자에 대 한 경고가 생성 되지만 사용자를 제한 하기 위한 조치는 수행 되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="db97e-151">Once any sending limit has been exceeded (internal, external or daily) an alert will be generated for the admin but no action will be taken to restrict the user.</span></span>
+- <span data-ttu-id="40d8b-136">보안 & 준수 센터를에서 <https://protection.office.com/>엽니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-136">You open the Security & Compliance Center at <https://protection.office.com/>.</span></span> <span data-ttu-id="40d8b-137">**스팸 방지 설정** 페이지로 바로 이동 하려면을 사용 <https://protection.office.com/antispam>합니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-137">To go directly to the **Anti-spam settings** page, use <https://protection.office.com/antispam>.</span></span>
 
-6. <span data-ttu-id="db97e-152">**적용 대상** 섹션을 확장 하 고이 정책을 적용할 사용자, 그룹 및 도메인을 지정 하는 조건 기반 규칙을 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="db97e-152">Expand the **Applies to** section and then create a condition-based rule to specify the users, groups, and domains to which to apply this policy.</span></span> <span data-ttu-id="db97e-153">고유한 조건을 여러 개 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="db97e-153">You can create multiple conditions, if they are unique.</span></span>  <span data-ttu-id="db97e-154">참고: 사용자는 여러 조건을 지정할 때 모든 조건을 충족 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="db97e-154">Note: that users must meet all the conditions when multiple conditions are specified.</span></span>  
+- <span data-ttu-id="40d8b-138">Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell)을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="40d8b-138">To connect to Exchange Online PowerShell, see [Connect to Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell).</span></span> <span data-ttu-id="40d8b-139">독립 실행형 Exchange Online Protection PowerShell에 연결 하려면 [Exchange Online Protection powershell에 연결](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell)을 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="40d8b-139">To connect to standalone Exchange Online Protection PowerShell, see [Connect to Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell).</span></span>
 
-   - <span data-ttu-id="db97e-155">사용자를 선택 하려면 **보낸 사람**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="db97e-155">To select users, select **The sender is**.</span></span> <span data-ttu-id="db97e-156">그러면 표시되는 대화 상자의 사용자 선택 목록에서 회사의 보낸 사람을 한 명 이상 선택하고 추가를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="db97e-156">In the subsequent dialog box, select one or more senders from your company from the user picker list, and then click add.</span></span> <span data-ttu-id="db97e-157">목록에 없는 보낸 사람을 추가하려면 해당 전자 메일 주소를 입력한 다음 이름 확인을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="db97e-157">To add senders who aren't on the list, type their email addresses, and then click Check names.</span></span> <span data-ttu-id="db97e-158">원하는 항목을 모두 선택한 후 확인을 클릭하여 주 화면으로 돌아갑니다.</span><span class="sxs-lookup"><span data-stu-id="db97e-158">When you are done making your selections, click ok to return to the main screen.</span></span>
+- <span data-ttu-id="40d8b-140">이러한 절차를 수행 하려면 먼저 사용 권한을 할당 받아야 합니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-140">You need to be assigned permissions before you can perform these procedures.</span></span> <span data-ttu-id="40d8b-141">아웃 바운드 스팸 정책을 추가, 수정 및 삭제 하려면 **조직 관리** 또는 **보안 관리자** 역할 그룹의 구성원 이어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-141">To add, modify, and delete outbound spam policies, you need to be a member of the **Organization Management** or **Security Administrator** role groups.</span></span> <span data-ttu-id="40d8b-142">아웃 바운드 스팸 정책에 대 한 읽기 전용 액세스를 위해서는 **보안 독자** 역할 그룹의 구성원 이어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-142">For read-only access to outbound spam policies, you need to be a member of the **Security Reader** role group.</span></span> <span data-ttu-id="40d8b-143">보안 & 준수 센터의 역할 그룹에 대 한 자세한 내용은 [Permissions in The Office 365 Security & 준수 센터](permissions-in-the-security-and-compliance-center.md)를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="40d8b-143">For more information about role groups in the Security & Compliance Center, see [Permissions in the Office 365 Security & Compliance Center](permissions-in-the-security-and-compliance-center.md).</span></span>
 
-   - <span data-ttu-id="db97e-159">그룹을 선택 하려면 **보낸 사람이 구성원 인**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="db97e-159">To select groups, select **The sender is a member of**.</span></span> <span data-ttu-id="db97e-160">그런 다음 후속 대화 상자에서 그룹을 선택하거나 지정합니다.</span><span class="sxs-lookup"><span data-stu-id="db97e-160">Then, in the subsequent dialog box, select or specify the groups.</span></span> <span data-ttu-id="db97e-161">그런 후에 확인을 클릭하여 주 화면으로 돌아갑니다.</span><span class="sxs-lookup"><span data-stu-id="db97e-161">Click ok to return to the main screen.</span></span>
+- <span data-ttu-id="40d8b-144">아웃 바운드 스팸 정책에 대 한 권장 설정에 대 한 자세한 내용은 [EOP outbound 스팸 필터 정책 설정을](recommended-settings-for-eop-and-office365-atp.md#eop-outbound-spam-policy-settings)참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="40d8b-144">For our recommended settings for outbound spam policies, see [EOP outbound spam filter policy settings](recommended-settings-for-eop-and-office365-atp.md#eop-outbound-spam-policy-settings).</span></span>
 
-   - <span data-ttu-id="db97e-162">도메인을 선택 하려면 **보낸 사람 도메인**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="db97e-162">To select domains, select **The sender domain is**.</span></span> <span data-ttu-id="db97e-163">그런 다음 후속 대화 상자에서 도메인을 추가합니다.</span><span class="sxs-lookup"><span data-stu-id="db97e-163">Then, in the subsequent dialog box, add the domains.</span></span> <span data-ttu-id="db97e-164">그런 후에 확인을 클릭하여 주 화면으로 돌아갑니다.</span><span class="sxs-lookup"><span data-stu-id="db97e-164">Click ok to return to the main screen.</span></span>
+- <span data-ttu-id="40d8b-145">**전자 메일 전송 제한 초과**, **의심 스러운 전자 메일 전송 패턴 감지**및 아웃 바운드 스팸으로 인해 차단 된 사용자에 대 한 전자 메일 알림 (**글로벌 관리자**) 그룹의 구성원에 게 전자 메일을 보낼 **수 없도록 하** **는 기본** [알림 정책이](../../compliance/alert-policies.md) 있습니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-145">The default [alert policies](../../compliance/alert-policies.md) named **Email sending limit exceeded**, **Suspicious email sending patterns detected**, and **User restricted from sending email** already send email notifications to members of the **TenantAdmins** (**Global admins**) group about unusual outbound email activity and blocked users due to outbound spam.</span></span> <span data-ttu-id="40d8b-146">자세한 내용은 [제한 된 사용자에 대 한 알림 설정 확인](removing-user-from-restricted-users-portal-after-spam.md#verify-the-alert-settings-for-restricted-users)을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="40d8b-146">For more information, see [Verify the alert settings for restricted users](removing-user-from-restricted-users-portal-after-spam.md#verify-the-alert-settings-for-restricted-users).</span></span> <span data-ttu-id="40d8b-147">아웃 바운드 스팸 정책에서 알림 옵션 대신 이러한 경고 정책을 사용 하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-147">We recommend that you use these alert policies instead of the the notification options in outbound spam policies.</span></span>
 
-   <span data-ttu-id="db97e-165">규칙 내에서 예외를 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="db97e-165">You can create exceptions within the rule.</span></span> <span data-ttu-id="db97e-166">예를 들어 특정 도메인을 제외한 모든 도메인에서 보내는 메시지를 필터링할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="db97e-166">For example, you can filter messages from all domains except for a certain domain.</span></span> <span data-ttu-id="db97e-167">이렇게 하려면 예외 추가를 클릭하고 다른 조건을 만들 때와 비슷한 방식으로 예외 조건을 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="db97e-167">Click add exception, and then create your exception conditions similar to the way that you created the other conditions.</span></span>
+## <a name="use-the-security--compliance-center-to-create-outbound-spam-policies"></a><span data-ttu-id="40d8b-148">보안 & 준수 센터를 사용 하 여 아웃 바운드 스팸 정책 만들기</span><span class="sxs-lookup"><span data-stu-id="40d8b-148">Use the Security & Compliance Center to create outbound spam policies</span></span>
 
-   <span data-ttu-id="db97e-168">그룹에 아웃 바운드 스팸 정책을 적용 하는 것은 메일 사용이 가능한 보안 그룹에 대해서만 지원 됩니다.</span><span class="sxs-lookup"><span data-stu-id="db97e-168">Applying an outbound spam policy to a group is supported only for Mail Enabled Security Groups.</span></span>
+<span data-ttu-id="40d8b-149">보안 & 준수 센터에서 사용자 지정 아웃 바운드 스팸 정책을 만들면 두 가지 모두에 대해 동일한 이름을 사용 하 여 스팸 필터 규칙과 연결 된 스팸 필터 정책이 동시에 만들어집니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-149">Creating a custom outbound spam policy in the Security & Compliance Center creates the spam filter rule and the associated spam filter policy at the same time using the same name for both.</span></span>
 
-7. <span data-ttu-id="db97e-169">**저장**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="db97e-169">Click **save**.</span></span>
+1. <span data-ttu-id="40d8b-150">보안 & 준수 센터에서 **위협 관리** \> **정책** \> **스팸 방지**로 이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-150">In the Security & Compliance Center, go to **Threat management** \> **Policy** \> **Anti-spam**.</span></span>
 
-## <a name="to-create-a-custom-policy-for-a-specific-set-of-users"></a><span data-ttu-id="db97e-170">특정 사용자 집합에 대 한 사용자 지정 정책을 만들려면</span><span class="sxs-lookup"><span data-stu-id="db97e-170">To create a custom policy for a specific set of users</span></span>
+2. <span data-ttu-id="40d8b-151">**스팸 방지 설정** 페이지에서 **아웃 바운드 정책 만들기**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-151">On the **Anti-spam settings** page, click **Create an outbound policy**.</span></span>
 
-1. <span data-ttu-id="db97e-171">SCC에서 **위협 관리** \> **정책** \> **스팸 방지** 로 이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="db97e-171">In the SCC, navigate to **Threat Management** \> **Policy** \> **Anti-spam**</span></span>
+3. <span data-ttu-id="40d8b-152">**아웃 바운드 스팸 필터 정책** 날아가기가 열리면 다음 설정을 구성 합니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-152">In the **Outbound spam filter policy** fly out that opens, configure the following settings:</span></span>
 
-2. <span data-ttu-id="db97e-172">**아웃 바운드 정책 만들기** 단추를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="db97e-172">Click on the **Create an outbound policy** button.</span></span>
+   - <span data-ttu-id="40d8b-153">**이름**: 정책에 대 한 설명이 포함 된 고유 이름을 입력 합니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-153">**Name**: Enter a unique, descriptive name for the policy.</span></span>
 
-3. <span data-ttu-id="db97e-173">**알림** 섹션을 확장 하 고 아웃 바운드 메시지에 대 한 다음 확인란을 선택한 다음 **사용자 추가** 를 선택 하 여 해당 대화 상자에 연결 된 전자 메일 주소나 주소를 추가 합니다.</span><span class="sxs-lookup"><span data-stu-id="db97e-173">Expand the **Notifications** section and select the following check boxes pertaining to outbound messages, then select **Add people** to add an associated email address or addresses in the accompanying dialog box.</span></span>
+   - <span data-ttu-id="40d8b-154">**설명**: 정책에 대 한 설명을 입력 합니다 (선택 사항).</span><span class="sxs-lookup"><span data-stu-id="40d8b-154">**Description**: Enter an optional description for the policy.</span></span>
 
-4. <span data-ttu-id="db97e-174">받는 사람 **제한** 섹션을 확장 하 여 내부 및 외부 받는 사람 및 하루 최대 수에 대해 사용자가 보낼 수 있는 최대 받는 사람 수를 지정 합니다.</span><span class="sxs-lookup"><span data-stu-id="db97e-174">Expand the **Recipient limits** section to specify the maximum number of recipients that a user can send to, per hour for internal and external recipients and maximum number per day.</span></span>
+4. <span data-ttu-id="40d8b-155">반드시 **알림** 섹션을 확장 하 여 의심 스러운 아웃 바운드 전자 메일 메시지에 대 한 복사본 및 알림을 수신 해야 하는 추가 사용자를 구성 합니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-155">(Optional) Expand the **Notifications** section to configure additional users who should receive copies and notifications of suspicious outbound email messages:</span></span>
 
-7. <span data-ttu-id="db97e-175">사용자가 지정 된 제한을 초과 했을 때 수행할 **작업** 을 지정 합니다.</span><span class="sxs-lookup"><span data-stu-id="db97e-175">Specify the **action** to take when a user exceeds the specified limits.</span></span>
+   - <span data-ttu-id="40d8b-156">**의심 스러운 아웃 바운드 전자 메일 메시지의 복사본을 특정 사용자에 게 보내기**:이 설정은 지정한 사용자를 숨은 참조로 받는 사람에 게 의심 되는 아웃 바운드 메시지에 추가 합니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-156">**Send a copy of suspicious outbound email messages to specific people**: This setting adds the specified users as Bcc recipients to the suspicious outbound messages.</span></span> <span data-ttu-id="40d8b-157">이 설정을 사용 하도록 설정 하려면:</span><span class="sxs-lookup"><span data-stu-id="40d8b-157">To enable this setting:</span></span>
 
-6. <span data-ttu-id="db97e-176">**적용 대상** 섹션을 확장 하 고이 정책을 적용할 사용자, 그룹 및 도메인을 지정 하는 조건 기반 규칙을 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="db97e-176">Expand the **Applies to** section and create a condition-based rule to specify the users, groups, and domains to which to apply this policy.</span></span> <span data-ttu-id="db97e-177">고유한 조건을 여러 개 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="db97e-177">You can create multiple conditions, if they are unique.</span></span>  
+     <span data-ttu-id="40d8b-158">a.</span><span class="sxs-lookup"><span data-stu-id="40d8b-158">a.</span></span> <span data-ttu-id="40d8b-159">확인란을 선택 하 여 설정을 사용 하도록 설정 합니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-159">Select the check box to enable the setting.</span></span>
 
-8. <span data-ttu-id="db97e-178">**저장** 을 클릭</span><span class="sxs-lookup"><span data-stu-id="db97e-178">Click **save**</span></span>
+     <span data-ttu-id="40d8b-160">b.</span><span class="sxs-lookup"><span data-stu-id="40d8b-160">b.</span></span> <span data-ttu-id="40d8b-161">**사용자 추가**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-161">Click **Add people**.</span></span> <span data-ttu-id="40d8b-162">표시 되는 **받는 사람 추가 또는 제거** 플라이 아웃에서 다음을 수행 합니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-162">In the **Add or remove recipients** flyout that appears:</span></span>
 
-## <a name="for-more-information"></a><span data-ttu-id="db97e-179">자세한 내용</span><span class="sxs-lookup"><span data-stu-id="db97e-179">For more information</span></span>
+     <span data-ttu-id="40d8b-163">c.</span><span class="sxs-lookup"><span data-stu-id="40d8b-163">c.</span></span> <span data-ttu-id="40d8b-164">보낸 사람의 전자 메일 주소를 입력 합니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-164">Enter the sender's email address.</span></span> <span data-ttu-id="40d8b-165">세미콜론으로 구분 하 여 여러 전자 메일 주소를 지정할 수 있습니다 (;) 한 줄에 한 명 또는 여러 명의 받는 사람이 있습니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-165">You can specify multiple email addresses separated by semicolons (;) or one recipient per line.</span></span>
 
-[<span data-ttu-id="db97e-180">스팸 메일을 보낸 후 제한된 사용자 포털에서 사용자 제거</span><span class="sxs-lookup"><span data-stu-id="db97e-180">Removing a user from the Restricted Users portal after sending spam email</span></span>](https://docs.microsoft.com/office365/SecurityCompliance/removing-user-from-restricted-users-portal-after-spam)
+     <span data-ttu-id="40d8b-166">d.</span><span class="sxs-lookup"><span data-stu-id="40d8b-166">d.</span></span> <span data-ttu-id="40d8b-167">누른</span><span class="sxs-lookup"><span data-stu-id="40d8b-167">Click</span></span> ![아이콘 추가](../../media/c2dd8b3a-5a22-412c-a7fa-143f5b2b5612.png) <span data-ttu-id="40d8b-169">받는 사람을 추가 합니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-169">to add the recipients.</span></span>
 
-[<span data-ttu-id="db97e-181">아웃바운드 메시지용 높은 위험 배달 풀</span><span class="sxs-lookup"><span data-stu-id="db97e-181">High-risk delivery pool for outbound messages</span></span>](high-risk-delivery-pool-for-outbound-messages.md)
+        <span data-ttu-id="40d8b-170">필요한 횟수 만큼이 단계를 반복 합니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-170">Repeat these steps as many times as necessary.</span></span>
 
-[<span data-ttu-id="db97e-182">스팸 방지 및 보호 FAQ</span><span class="sxs-lookup"><span data-stu-id="db97e-182">Anti-spam protection FAQ</span></span>](anti-spam-protection-faq.md)
+        <span data-ttu-id="40d8b-171">추가한 받는 사람이 플라이 아웃의 **받는 사람 목록** 섹션에 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-171">The recipients you added appear in the **Recipient list** section on the flyout.</span></span> <span data-ttu-id="40d8b-172">받는 사람을 삭제 하려면 제거 ![단추](../../media/scc-remove-icon.png)를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-172">To delete a recipient, click ![Remove button](../../media/scc-remove-icon.png).</span></span>
+
+     <span data-ttu-id="40d8b-173">e.</span><span class="sxs-lookup"><span data-stu-id="40d8b-173">e.</span></span> <span data-ttu-id="40d8b-174">작업을 마친 후 **저장**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-174">When you're finished, click **Save**.</span></span>
+
+     <span data-ttu-id="40d8b-175">이 설정을 사용 하지 않도록 설정 하려면 확인란의 선택을 취소 합니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-175">To disable this setting, clear the check box.</span></span>
+
+   - <span data-ttu-id="40d8b-176">**아웃 바운드 스팸 전송로 인해 보낸 사람이 차단 된 경우 특정 사용자에 게 알림**:</span><span class="sxs-lookup"><span data-stu-id="40d8b-176">**Notify specific people if a sender is blocked due to sending outbound spam**:</span></span>
+
+     > [!NOTE]
+     > <span data-ttu-id="40d8b-177">**받는 사람 제한** 섹션의 제한을 초과 하 여 사용자가 **차단 된 경우** **전자 메일을 보내는** 것이 제한**Global admins**된 사용자에 게 이미 전자 메일 알림이 전송 됩니다. 라는 기본 [경고 정책](../../compliance/alert-policies.md)</span><span class="sxs-lookup"><span data-stu-id="40d8b-177">The default [alert policy](../../compliance/alert-policies.md) named **User restricted from sending email** already sends email notifications to members of the **TenantAdmins** (**Global admins**) group when users are blocked due to exceeding the limits in the **Recipient Limits** section.</span></span> <span data-ttu-id="40d8b-178">아웃 바운드 스팸 정책에서이 설정이 관리자 및 기타 사용자에 게 알리도록 설정 하는 것이 아니라 경고 정책을 사용 하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-178">We recommend that you use the alert policy rather than this setting in the outbound spam policy to notify admins and other users.</span></span> <span data-ttu-id="40d8b-179">자세한 내용은 [제한 된 사용자에 대 한 알림 설정 확인](removing-user-from-restricted-users-portal-after-spam.md#verify-the-alert-settings-for-restricted-users)을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="40d8b-179">For instructions, see [Verify the alert settings for restricted users](removing-user-from-restricted-users-portal-after-spam.md#verify-the-alert-settings-for-restricted-users).</span></span>
+
+     <span data-ttu-id="40d8b-180">이 설정을 사용 하도록 설정 하려면:</span><span class="sxs-lookup"><span data-stu-id="40d8b-180">To enable this setting:</span></span>
+
+     <span data-ttu-id="40d8b-181">a.</span><span class="sxs-lookup"><span data-stu-id="40d8b-181">a.</span></span> <span data-ttu-id="40d8b-182">확인란을 선택 하 여 설정을 사용 하도록 설정 합니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-182">Select the check box to enable the setting.</span></span>
+
+     <span data-ttu-id="40d8b-183">b.</span><span class="sxs-lookup"><span data-stu-id="40d8b-183">b.</span></span> <span data-ttu-id="40d8b-184">**사용자 추가**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-184">Click **Add people**.</span></span> <span data-ttu-id="40d8b-185">표시 되는 **받는 사람 추가 또는 제거** 플라이 아웃에서 다음을 수행 합니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-185">In the **Add or remove recipients** flyout that appears:</span></span>
+
+     <span data-ttu-id="40d8b-186">c.</span><span class="sxs-lookup"><span data-stu-id="40d8b-186">c.</span></span> <span data-ttu-id="40d8b-187">보낸 사람의 전자 메일 주소를 입력 합니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-187">Enter the sender's email address.</span></span> <span data-ttu-id="40d8b-188">세미콜론으로 구분 하 여 여러 전자 메일 주소를 지정할 수 있습니다 (;) 한 줄에 한 명 또는 여러 명의 받는 사람이 있습니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-188">You can specify multiple email addresses separated by semicolons (;) or one recipient per line.</span></span>
+
+     <span data-ttu-id="40d8b-189">d.</span><span class="sxs-lookup"><span data-stu-id="40d8b-189">d.</span></span> <span data-ttu-id="40d8b-190">누른</span><span class="sxs-lookup"><span data-stu-id="40d8b-190">Click</span></span> ![아이콘 추가](../../media/c2dd8b3a-5a22-412c-a7fa-143f5b2b5612.png) <span data-ttu-id="40d8b-192">받는 사람을 추가 합니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-192">to add the recipients.</span></span>
+
+        <span data-ttu-id="40d8b-193">필요한 횟수 만큼이 단계를 반복 합니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-193">Repeat these steps as many times as necessary.</span></span>
+
+        <span data-ttu-id="40d8b-194">추가한 받는 사람이 플라이 아웃의 **받는 사람 목록** 섹션에 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-194">The recipients you added appear in the **Recipient list** section on the flyout.</span></span> <span data-ttu-id="40d8b-195">받는 사람을 삭제 하려면 제거 ![단추](../../media/scc-remove-icon.png)를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-195">To delete a recipient, click ![Remove button](../../media/scc-remove-icon.png).</span></span>
+
+     <span data-ttu-id="40d8b-196">e.</span><span class="sxs-lookup"><span data-stu-id="40d8b-196">e.</span></span> <span data-ttu-id="40d8b-197">작업을 마친 후 **저장**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-197">When you're finished, click **Save**.</span></span>
+
+     <span data-ttu-id="40d8b-198">이 설정을 사용 하지 않도록 설정 하려면 확인란의 선택을 취소 합니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-198">To disable this setting, clear the check box.</span></span>
+
+5. <span data-ttu-id="40d8b-199">반드시 **받는 사람 제한** 섹션을 확장 하 여 의심 스러운 아웃 바운드 전자 메일 메시지에 대 한 제한 및 작업을 구성 합니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-199">(Optional) Expand the **Recipient Limits** section to configure the limits and actions for suspicious outbound email messages: ]</span></span>
+   - <span data-ttu-id="40d8b-200">**사용자 당 최대 받는 사람 수**</span><span class="sxs-lookup"><span data-stu-id="40d8b-200">**Maximum number of recipients per user**</span></span>
+
+     <span data-ttu-id="40d8b-201">유효한 값은 0 ~ 1만입니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-201">A valid value is 0 to 10000.</span></span> <span data-ttu-id="40d8b-202">기본값은 0 이며이 값은 서비스 기본값을 사용 함을 의미 합니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-202">The default value is 0, which means the service defaults are used.</span></span> <span data-ttu-id="40d8b-203">자세한 내용은 [Office 365 옵션을 통한 제한 보내기](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#sending-limits-across-office-365-options)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="40d8b-203">For more information, see [Sending limits across Office 365 options](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#sending-limits-across-office-365-options).</span></span>
+
+     - <span data-ttu-id="40d8b-204">**외부 시간 제한**: 시간당 최대 외부 받는 사람 수입니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-204">**External hourly limit**: The maximum number of external recipients per hour.</span></span>
+
+     - <span data-ttu-id="40d8b-205">**내부 시간 제한**: 시간당 내부 받는 사람의 최대 수입니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-205">**Internal hourly limit**: The maximum number of internal recipients per hour.</span></span>
+
+     - <span data-ttu-id="40d8b-206">**일별 제한**: 일별 최대 받는 사람 수입니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-206">**Daily limit**: The maximum total number of recipients per day.</span></span>
+
+   - <span data-ttu-id="40d8b-207">**사용자가 위의 제한을 초과**하는 경우: **받는 사람 한도** 를 초과 하는 경우 수행할 작업을 구성 합니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-207">**Action when a user exceeds the limits above**: Configure the action to take when any one of the **Recipient Limits** are exceeded.</span></span> <span data-ttu-id="40d8b-208">모든 작업의 경우 사용자에 게 **전자 메일 알림 정책 전송 제한** , 즉 아웃 바운드 스팸 정책 수신 전자 메일 알림을 보내는 **아웃 바운드 스팸 설정으로 인해 보낸 사람이 차단 되는 경우** 에는 중복 알림에 특정 사용자에 게 지정 됩니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-208">For all actions, the recipients specified in the **User restricted from sending email** alert policy (and in the now redundant **Notify specific people if a sender is blocked due to sending outbound spam** setting in the outbound spam policy receive email notifications.</span></span>
+
+     - <span data-ttu-id="40d8b-209">**다음 날까지 사용자가 메일을 보낼 수 없도록 제한**합니다:이 값은 기본값입니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-209">**Restrict the user from sending mail till the following day**: This is the default value.</span></span> <span data-ttu-id="40d8b-210">전자 메일 알림이 전송 되 고 사용자가 UTC 시간을 기준으로 다음 날까지 메시지를 더 이상 보낼 수 없게 됩니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-210">Email notifications are sent, and the user will be unable to send any more messages until the following day, based on UTC time.</span></span> <span data-ttu-id="40d8b-211">관리자가이 블록을 무시할 수 있는 방법은 없습니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-211">There is no way for the admin to override this block.</span></span>
+
+       - <span data-ttu-id="40d8b-212">**사용자가 전자 메일을 보낼 수 없도록 제한** 된 작업 경고는 전자 메일을 통해 관리자에 게 알림 페이지를 **표시** 합니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-212">The activity alert named **User restricted from sending email** notifies admins (via email and on the **View alerts** page).</span></span>
+
+       - <span data-ttu-id="40d8b-213">정책에서 **아웃 바운드 스팸 설정을 전송 하 여 보낸 사람이 차단 되는 경우 특정 사용자에 게 알림** 메시지가 지정 된 모든 받는 사람은 알림을 받습니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-213">Any recipients specified in the **Notify specific people if a sender is blocked due to sending outbound spam** setting in the policy are also notified.</span></span>
+
+       - <span data-ttu-id="40d8b-214">사용자는 UTC 시간을 기준으로 다음 날까지 메시지를 더 이상 보낼 수 없게 됩니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-214">The user will be unable to send any more messages until the following day, based on UTC time.</span></span> <span data-ttu-id="40d8b-215">관리자가이 블록을 무시할 수 있는 방법은 없습니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-215">There is no way for the admin to override this block.</span></span>
+
+     - <span data-ttu-id="40d8b-216">**사용자가 메일을 보낼 수 없도록 제한**: 전자 메일 알림이 전송 되 고 사용자가 보안 & 준수 센터의 \*\*[제한 된 사용자]<https://sip.protection.office.com/restrictedusers> \*\* 포털에 추가 되 고 관리자가 제한 된 **사용자** 포털에서 제거 될 때까지 사용자가 전자 메일을 보낼 수 없습니다. 관리자가 목록에서 사용자를 제거 하면 해당 날짜에 대해 사용자가 다시 제한 되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-216">**Restrict the user from sending mail**: Email notifications are sent, the user is added to the **[Restricted Users]<https://sip.protection.office.com/restrictedusers>** portal in the Security & Compliance Center, and the user can't send email until they're removed from the **Restricted Users** portal by an admin. After an admin removes the user from the list, the user won't be restricted again for that day.</span></span> <span data-ttu-id="40d8b-217">자세한 내용은 [스팸 메일을 보낸 후 제한 된 사용자 포털에서 사용자 제거](removing-user-from-restricted-users-portal-after-spam.md)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="40d8b-217">For instructions, see [Removing a user from the Restricted Users portal after sending spam email](removing-user-from-restricted-users-portal-after-spam.md).</span></span>
+
+     - <span data-ttu-id="40d8b-218">**작업 없음, 알림만**: 전자 메일 알림을 보냅니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-218">**No action, alert only**: Email notifications are sent.</span></span>
+
+6. <span data-ttu-id="40d8b-219">않아도 **적용 대상** 섹션을 확장 하 여 정책이 적용 되는 내부 보낸 사람을 식별 합니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-219">(Required) Expand the **Applied to** section to identify the internal senders that the policy applies to.</span></span>
+
+    <span data-ttu-id="40d8b-220">조건 또는 예외는 한 번만 사용할 수 있지만 조건 또는 예외에 대해 여러 값을 지정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-220">You can only use a condition or exception once, but you can specify multiple values for the condition or exception.</span></span> <span data-ttu-id="40d8b-221">동일한 조건 또는 예외를 사용 하는 여러 값 또는 논리 (예: _ \<sender1\> _ 또는 _ \<sender2\>_)</span><span class="sxs-lookup"><span data-stu-id="40d8b-221">Multiple values of the same condition or exception use OR logic (for example, _\<sender1\>_ or _\<sender2\>_).</span></span> <span data-ttu-id="40d8b-222">서로 다른 조건 또는 예외 사용 및 논리 (예: _ \<sender1\> _ , _ \<그룹 1\>의 구성원_)</span><span class="sxs-lookup"><span data-stu-id="40d8b-222">Different conditions or exceptions use AND logic (for example, _\<sender1\>_ and _\<member of group 1\>_).</span></span>
+
+    <span data-ttu-id="40d8b-223">**조건 추가** 를 세 번 클릭 하 여 사용 가능한 모든 조건을 확인 하는 것이 가장 쉽습니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-223">It's easiest to click **Add a condition** three times to see all of the available conditions.</span></span> <span data-ttu-id="40d8b-224">제거 단추](../../media/scc-remove-icon.png) 를 ![클릭 하 여 구성 하지 않을 조건을 제거할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-224">You can click ![Remove button](../../media/scc-remove-icon.png) to remove conditions that you don't want to configure.</span></span>
+
+    - <span data-ttu-id="40d8b-225">**보낸 사람 도메인**: Office 365에서 구성 된 허용 도메인 중 하나 이상에 있는 보낸 사람을 지정 합니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-225">**The sender domain is**: Specifies senders in one or more of the configured accepted domains in Office 365.</span></span> <span data-ttu-id="40d8b-226">**태그 추가** 상자를 클릭 하 여 도메인을 확인 하 고 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-226">Click in the **Add a tag** box to see and select a domain.</span></span> <span data-ttu-id="40d8b-227">두 개 이상의 도메인을 사용할 수 있는 경우 추가 도메인을 선택 하려면 **태그 추가** 상자를 다시 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-227">Click again the **Add a tag** box to select additional domains if more than one domain is available.</span></span>
+
+    - <span data-ttu-id="40d8b-228">**Sender is**: 조직에서 사용자를 한 명 이상 지정 합니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-228">**Sender is**: Specifies one or more users in your organization.</span></span> <span data-ttu-id="40d8b-229">**Add a tag** 을 클릭 하 고 입력을 시작 하 여 목록을 필터링 합니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-229">Click in the **Add a tag** and start typing to filter the list.</span></span> <span data-ttu-id="40d8b-230">**태그 추가** 상자를 다시 클릭 하 여 추가 보낸 사람을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-230">Click again the **Add a tag** box to select additional senders.</span></span>
+
+    - <span data-ttu-id="40d8b-231">**보낸 사람이 다음 구성원 인 경우**: 조직의 그룹을 하나 이상 지정 합니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-231">**Sender is a member of**: Specifies one or more groups in your organization.</span></span> <span data-ttu-id="40d8b-232">**Add a tag** 을 클릭 하 고 입력을 시작 하 여 목록을 필터링 합니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-232">Click in the **Add a tag** and start typing to filter the list.</span></span> <span data-ttu-id="40d8b-233">**태그 추가** 상자를 다시 클릭 하 여 추가 보낸 사람을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-233">Click again the **Add a tag** box to select additional senders.</span></span>
+
+    - <span data-ttu-id="40d8b-234">다음의 **경우 제외**: 규칙에 대 한 예외를 추가 하려면 **조건 추가** 를 세 번 클릭 하 여 사용 가능한 예외를 모두 표시 합니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-234">**Except if**: To add exceptions for the rule, click **Add a condition** three times to see all of the available exceptions.</span></span> <span data-ttu-id="40d8b-235">설정 및 동작은 조건과 동일 합니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-235">The settings and behavior are exactly like the conditions.</span></span>
+
+7. <span data-ttu-id="40d8b-236">작업을 마친 후 **저장**을 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-236">When you're finished, click **Save**.</span></span>
+
+## <a name="use-the-security--compliance-center-to-view-outbound-spam-policies"></a><span data-ttu-id="40d8b-237">보안 & 준수 센터를 사용 하 여 아웃 바운드 스팸 정책 보기</span><span class="sxs-lookup"><span data-stu-id="40d8b-237">Use the Security & Compliance Center to view outbound spam policies</span></span>
+
+1. <span data-ttu-id="40d8b-238">보안 & 준수 센터에서 **위협 관리** \> **정책** \> **스팸 방지**로 이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-238">In the Security & Compliance Center, go to **Threat management** \> **Policy** \> **Anti-spam**.</span></span>
+
+2. <span data-ttu-id="40d8b-239">**스팸 방지 설정** 페이지에서 확장 아이콘 ![](../../media/scc-expand-icon.png) 을 클릭 하 여 아웃 바운드 스팸 정책을 확장 합니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-239">On the **Anti-spam settings** page, click ![Expand icon](../../media/scc-expand-icon.png) to expand an outbound spam policy:</span></span>
+
+   - <span data-ttu-id="40d8b-240">**아웃 바운드 스팸 필터 정책**이라는 기본 정책</span><span class="sxs-lookup"><span data-stu-id="40d8b-240">The default policy named **Outbound spam filter policy**.</span></span>
+
+   - <span data-ttu-id="40d8b-241">**Type** 열의 값이 **사용자 지정 아웃 바운드 스팸 정책**인 경우 만든 사용자 지정 정책입니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-241">A custom policy that you created where the value in the **Type** column is **Custom outbound spam policy**.</span></span>
+
+3. <span data-ttu-id="40d8b-242">표시 되는 확장 된 정책 세부 정보에 정책 설정이 표시 되거나, **정책 편집**을 클릭할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-242">The policy settings are displayed in the expanded policy details that appear, or you can click **Edit policy**.</span></span>
+
+## <a name="use-the-security--compliance-center-to-modify-outbound-spam-policies"></a><span data-ttu-id="40d8b-243">보안 & 준수 센터를 사용 하 여 아웃 바운드 스팸 정책 수정</span><span class="sxs-lookup"><span data-stu-id="40d8b-243">Use the Security & Compliance Center to modify outbound spam policies</span></span>
+
+1. <span data-ttu-id="40d8b-244">보안 & 준수 센터에서 **위협 관리** \> **정책** \> **스팸 방지**로 이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-244">In the Security & Compliance Center, go to **Threat management** \> **Policy** \> **Anti-spam**.</span></span>
+
+2. <span data-ttu-id="40d8b-245">**스팸 방지 설정** 페이지에서 확장 아이콘 ![](../../media/scc-expand-icon.png) 을 클릭 하 여 아웃 바운드 스팸 정책을 확장 합니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-245">On the **Anti-spam settings** page, click ![Expand icon](../../media/scc-expand-icon.png) to expand an outbound spam policy:</span></span>
+
+   - <span data-ttu-id="40d8b-246">**아웃 바운드 스팸 필터 정책**이라는 기본 정책</span><span class="sxs-lookup"><span data-stu-id="40d8b-246">The default policy named **Outbound spam filter policy**.</span></span>
+
+   - <span data-ttu-id="40d8b-247">**Type** 열의 값이 **사용자 지정 아웃 바운드 스팸 정책**인 경우 만든 사용자 지정 정책입니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-247">A custom policy that you created where the value in the **Type** column is **Custom outbound spam policy**.</span></span>
+
+3. <span data-ttu-id="40d8b-248">**정책 편집**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-248">Click **Edit policy**.</span></span>
+
+<span data-ttu-id="40d8b-249">사용자 지정 아웃 바운드 스팸 정책에서 표시 되는 플라이 아웃의 사용 가능 설정은 [보안 & 준수 센터를 사용 하 여 아웃 바운드 스팸 정책 만들기](#use-the-security--compliance-center-to-create-outbound-spam-policies) 섹션에 설명 된 설정과 동일 합니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-249">For custom outbound spam policies, the available settings in the flyout that appears are identical to those described in the [Use the Security & Compliance Center to create outbound spam policies](#use-the-security--compliance-center-to-create-outbound-spam-policies) section.</span></span>
+
+<span data-ttu-id="40d8b-250">**아웃 바운드 스팸 필터 정책**이라는 기본 아웃 바운드 스팸 정책의 경우 **적용 대상** 섹션을 사용할 수 없으며 정책이 모든 사용자에 게 적용 되며 정책의 이름을 바꿀 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-250">For the default outbound spam policy named **Outbound spam filter policy**, the **Applied to** section isn't available (the policy applies to everyone), and you can't rename the policy.</span></span>
+
+<span data-ttu-id="40d8b-251">정책을 사용 하거나 사용 하지 않도록 설정 하거나, 정책 우선 순위를 설정할 수 있습니다. 또는 최종 사용자 격리 알림을 구성 하려면 다음 섹션을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="40d8b-251">To enable or disable a policy, set the policy priority order, or configure the end-user quarantine notifications, see the following sections.</span></span>
+
+### <a name="enable-or-disable-outbound-spam-policies"></a><span data-ttu-id="40d8b-252">아웃 바운드 스팸 정책 사용 또는 사용 안 함</span><span class="sxs-lookup"><span data-stu-id="40d8b-252">Enable or disable outbound spam policies</span></span>
+
+1. <span data-ttu-id="40d8b-253">보안 & 준수 센터에서 **위협 관리** \> **정책** \> **스팸 방지**로 이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-253">In the Security & Compliance Center, go to **Threat management** \> **Policy** \> **Anti-spam**.</span></span>
+
+2. <span data-ttu-id="40d8b-254">**스팸 방지 설정** 페이지에서 확장 아이콘](../../media/scc-expand-icon.png) 을 클릭 ![하 여 만든 사용자 지정 정책 ( **유형** 열의 값은 **사용자 지정 아웃 바운드 스팸 정책**)을 확장 합니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-254">On the **Anti-spam settings** page, click ![Expand icon](../../media/scc-expand-icon.png) to expand a custom policy that you created (the value in the **Type** column is **Custom outbound spam policy**).</span></span>
+
+3. <span data-ttu-id="40d8b-255">표시 되는 확장 된 정책 세부 정보에서 **설정** 열의 값을 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-255">In the expanded policy details that appear, notice the value in the **On** column.</span></span>
+
+   <span data-ttu-id="40d8b-256">정책을 사용 하지 않으려면 왼쪽으로 이동을 이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-256">Move the toggle to the left to disable the policy:</span></span> ![설정/해제](../../media/scc-toggle-off.png)
+
+   <span data-ttu-id="40d8b-258">정책을 사용 하도록 설정 하려면 오른쪽으로 이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-258">Move the toggle to the right to enable the policy:</span></span> ![설정/해제](../../media/963dfcd0-1765-4306-bcce-c3008c4406b9.png)
+
+<span data-ttu-id="40d8b-260">기본 아웃 바운드 스팸 정책을 사용 하지 않도록 설정할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-260">You can't disable the default outbound spam policy.</span></span>
+
+### <a name="set-the-priority-of-custom-outbound-spam-policies"></a><span data-ttu-id="40d8b-261">사용자 지정 아웃 바운드 스팸 정책의 우선 순위 설정</span><span class="sxs-lookup"><span data-stu-id="40d8b-261">Set the priority of custom outbound spam policies</span></span>
+
+<span data-ttu-id="40d8b-262">기본적으로 아웃 바운드 스팸 정책에는 만든 순서를 기준으로 하는 우선 순위가 지정 됩니다 (최신 정책은 이전 정책 보다 낮은 우선 순위).</span><span class="sxs-lookup"><span data-stu-id="40d8b-262">By default, outbound spam policies are given a priority that's based on the order they were created in (newer polices are lower priority than older policies).</span></span> <span data-ttu-id="40d8b-263">우선 순위 번호가 낮을수록 정책에 대 한 우선 순위가 높기 때문에 (0은 가장 높음) 정책이 우선 순위 순으로 처리 됩니다 (우선 순위가 더 높은 정책이 낮은 우선 순위 정책 보다 먼저 처리 됨).</span><span class="sxs-lookup"><span data-stu-id="40d8b-263">A lower priority number indicates a higher priority for the policy (0 is the highest), and policies are processed in priority order (higher priority policies are processed before lower priority policies).</span></span> <span data-ttu-id="40d8b-264">두 정책이 같은 우선 순위를 가질 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-264">No two policies can have the same priority.</span></span>
+
+<span data-ttu-id="40d8b-265">사용자 지정 아웃 바운드 스팸 정책은 처리 되는 순서 대로 표시 됩니다 (첫 번째 정책의 **우선 순위** 값은 0).</span><span class="sxs-lookup"><span data-stu-id="40d8b-265">Custom outbound spam policies are displayed in the order they're processed (the first policy has the **Priority** value 0).</span></span> <span data-ttu-id="40d8b-266">**아웃 바운드 스팸 필터 정책** 이라는 기본 아웃 바운드 스팸 정책에서는 우선 순위 값이 **가장 낮은**것 이며,이를 변경할 수는 없습니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-266">The default outbound spam policy named **Outbound spam filter policy** has the priority value **Lowest**, and you can't change it.</span></span>
+
+<span data-ttu-id="40d8b-267">정책의 우선 순위를 변경 하려면 목록에서 정책을 위나 아래로 이동 합니다 (보안 & 준수 센터에서 직접 **우선 순위** 번호를 수정할 수는 없습니다).</span><span class="sxs-lookup"><span data-stu-id="40d8b-267">To change the priority of a policy, move the policy up or down in the list (you can't directly modify the **Priority** number in the Security & Compliance Center).</span></span>
+
+1. <span data-ttu-id="40d8b-268">보안 & 준수 센터에서 **위협 관리** \> **정책** \> **스팸 방지**로 이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-268">In the Security & Compliance Center, go to **Threat management** \> **Policy** \> **Anti-spam**.</span></span>
+
+2. <span data-ttu-id="40d8b-269">**스팸 방지 설정** 페이지에서 **유형** 열의 값이 **사용자 지정 아웃 바운드 스팸 정책**인 정책을 찾습니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-269">On the **Anti-spam settings** page, find the policies where the value in the **Type** column is **Custom outbound spam policy**.</span></span> <span data-ttu-id="40d8b-270">**Priority** 열의 값은 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-270">Notice the values in the **Priority** column:</span></span>
+
+   - <span data-ttu-id="40d8b-271">우선 순위가 가장 높은 사용자 지정 아웃 바운드 스팸 정책의 값 ![은 아래쪽 화살표 아이콘](../../media/ITPro-EAC-DownArrowIcon.png) **0**입니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-271">The custom outbound spam policy with the highest priority has the value ![Down Arrow icon](../../media/ITPro-EAC-DownArrowIcon.png) **0**.</span></span>
+
+   - <span data-ttu-id="40d8b-272">우선 순위가 가장 낮은 사용자 ![지정 아웃 바운드 스팸 정책의 값 위쪽 화살표 아이콘](../../media/ITPro-EAC-UpArrowIcon.png) **n** (예: ![위쪽 화살표 아이콘](../../media/ITPro-EAC-UpArrowIcon.png) **3**)이 사용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-272">The custom outbound spam policy with the lowest priority has the value ![Up Arrow icon](../../media/ITPro-EAC-UpArrowIcon.png) **n** (for example, ![Up Arrow icon](../../media/ITPro-EAC-UpArrowIcon.png) **3**).</span></span>
+
+   - <span data-ttu-id="40d8b-273">사용자 지정 된 아웃 바운드 스팸 정책이 3 개 이상인 경우 위쪽/최저 우선 순위 간의 정책에는 위쪽 ![](../../media/ITPro-EAC-UpArrowIcon.png)![화살표 아이콘 아래쪽 화살표 아이콘](../../media/ITPro-EAC-DownArrowIcon.png) **n** (예를 들어, ![위 화살표가 아이콘](../../media/ITPro-EAC-UpArrowIcon.png)![아래쪽 화살표 아이콘](../../media/ITPro-EAC-DownArrowIcon.png) **2**)로 설정 됩니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-273">If you have three or more custom outbound spam policies, the policies between the highest and lowest priority have values ![Up Arrow icon](../../media/ITPro-EAC-UpArrowIcon.png)![Down Arrow icon](../../media/ITPro-EAC-DownArrowIcon.png) **n** (for example, ![Up Arrow icon](../../media/ITPro-EAC-UpArrowIcon.png)![Down Arrow icon](../../media/ITPro-EAC-DownArrowIcon.png) **2**).</span></span>
+
+3. <span data-ttu-id="40d8b-274">누른</span><span class="sxs-lookup"><span data-stu-id="40d8b-274">Click</span></span> ![위쪽 화살표 아이콘](../../media/ITPro-EAC-UpArrowIcon.png) <span data-ttu-id="40d8b-276">또는</span><span class="sxs-lookup"><span data-stu-id="40d8b-276">or</span></span> ![아래쪽 화살표 아이콘](../../media/ITPro-EAC-DownArrowIcon.png) <span data-ttu-id="40d8b-278">사용자 지정 아웃 바운드 스팸 정책을 우선 순위 목록에서 위아래로 이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-278">to move the custom outbound spam policy up or down in the priority list.</span></span>
+
+## <a name="use-the-security--compliance-center-to-remove-outbound-spam-policies"></a><span data-ttu-id="40d8b-279">보안 & 준수 센터를 사용 하 여 아웃 바운드 스팸 정책 제거</span><span class="sxs-lookup"><span data-stu-id="40d8b-279">Use the Security & Compliance Center to remove outbound spam policies</span></span>
+
+1. <span data-ttu-id="40d8b-280">보안 & 준수 센터에서 **위협 관리** \> **정책** \> **스팸 방지**로 이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-280">In the Security & Compliance Center, go to **Threat management** \> **Policy** \> **Anti-spam**.</span></span>
+
+2. <span data-ttu-id="40d8b-281">**스팸 방지 설정** 페이지에서 확장 아이콘](../../media/scc-expand-icon.png) 을 클릭 ![하 여 삭제할 사용자 지정 정책 ( **유형** 열은 **사용자 지정 아웃 바운드 스팸 정책**)을 확장 합니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-281">On the **Anti-spam settings** page, click ![Expand icon](../../media/scc-expand-icon.png) to expand the custom policy that you want to delete (the **Type** column is **Custom outbound spam policy**).</span></span>
+
+3. <span data-ttu-id="40d8b-282">표시 되는 확장 된 정책 세부 정보에서 **정책 삭제**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-282">In the expanded policy details that appear, click **Delete policy**.</span></span>
+
+4. <span data-ttu-id="40d8b-283">표시 되는 경고 대화 상자에서 **예** 를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-283">Click **Yes** in the warning dialog that appears.</span></span>
+
+<span data-ttu-id="40d8b-284">기본 정책은 제거할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-284">You can't remove the default policy.</span></span>
+
+## <a name="use-exchange-online-powershell-or-exchange-online-protection-powershell-to-configure-outbound-spam-policies"></a><span data-ttu-id="40d8b-285">Exchange Online PowerShell 또는 Exchange Online Protection PowerShell을 사용 하 여 아웃 바운드 스팸 정책 구성</span><span class="sxs-lookup"><span data-stu-id="40d8b-285">Use Exchange Online PowerShell or Exchange Online Protection PowerShell to configure outbound spam policies</span></span>
+
+### <a name="use-powershell-to-create-outbound-spam-policies"></a><span data-ttu-id="40d8b-286">PowerShell을 사용 하 여 아웃 바운드 스팸 정책 만들기</span><span class="sxs-lookup"><span data-stu-id="40d8b-286">Use PowerShell to create outbound spam policies</span></span>
+
+<span data-ttu-id="40d8b-287">PowerShell에서 아웃 바운드 스팸 정책을 만드는 과정은 다음 두 단계로 진행 됩니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-287">Creating an outbound spam policy in PowerShell is a two-step process:</span></span>
+
+1. <span data-ttu-id="40d8b-288">아웃 바운드 스팸 필터 정책을 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-288">Create the outbound spam filter policy.</span></span>
+
+2. <span data-ttu-id="40d8b-289">규칙이 적용 되는 아웃 바운드 스팸 필터 정책을 지정 하는 아웃 바운드 스팸 필터 규칙을 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-289">Create the outbound spam filter rule that specifies the outbound spam filter policy that the rule applies to.</span></span>
+
+ <span data-ttu-id="40d8b-290">**참고:**</span><span class="sxs-lookup"><span data-stu-id="40d8b-290">**Notes**:</span></span>
+
+- <span data-ttu-id="40d8b-291">새 아웃 바운드 스팸 필터 규칙을 만들고 연결 되지 않은 기존 아웃 바운드 스팸 필터 정책을 할당할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-291">You can create a new outbound spam filter rule and assign an existing, unassociated outbound spam filter policy to it.</span></span> <span data-ttu-id="40d8b-292">아웃 바운드 스팸 필터 규칙을 두 개 이상의 아웃 바운드 스팸 필터 정책에 연결할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-292">An outbound spam filter rule can't be associated with more than one outbound spam filter policy.</span></span>
+
+- <span data-ttu-id="40d8b-293">정책을 만든 후에 야 보안 & 준수 센터에서 사용할 수 없는 PowerShell에서 새 아웃 바운드 스팸 필터 정책에 대해 다음 설정을 구성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-293">You can configure the following settings on new outbound spam filter policies in PowerShell that aren't available in the Security & Compliance Center until after you create the policy:</span></span>
+
+  - <span data-ttu-id="40d8b-294">**HostedOutboundSpamFilterRule** cmdlet에서_사용 하도록 설정_ `$false` 된 새 정책을 사용 하지 않도록 설정 합니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-294">Create the new policy as disabled (_Enabled_ `$false` on the **New-HostedOutboundSpamFilterRule** cmdlet).</span></span>
+
+  - <span data-ttu-id="40d8b-295">**HostedOutboundSpamFilterRule** cmdlet에 대해 만드는 동안 정책의 우선 순위 (_우선 순위_ _ \<번호\>_)를 설정 합니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-295">Set the priority of the policy during creation (_Priority_ _\<Number\>_) on the **New-HostedOutboundSpamFilterRule** cmdlet).</span></span>
+
+- <span data-ttu-id="40d8b-296">사용자가 PowerShell에서 만든 새 아웃 바운드 스팸 필터 정책이 보안 & 준수 센터에 표시 되지 않는 경우에는 해당 정책을 스팸 필터 규칙에 할당할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-296">A new outbound spam filter policy that you create in PowerShell isn't visible in the Security & Compliance Center until you assign the policy to a spam filter rule.</span></span>
+
+#### <a name="step-1-use-powershell-to-create-an-outbound-spam-filter-policy"></a><span data-ttu-id="40d8b-297">1 단계: PowerShell을 사용 하 여 아웃 바운드 스팸 필터 정책 만들기</span><span class="sxs-lookup"><span data-stu-id="40d8b-297">Step 1: Use PowerShell to create an outbound spam filter policy</span></span>
+
+<span data-ttu-id="40d8b-298">아웃 바운드 스팸 필터 정책을 만들려면 다음 구문을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-298">To create an outbound spam filter policy, use this syntax:</span></span>
+
+```PowerShell
+New-HostedOutboundSpamFilterPolicy -Name "<PolicyName>" [-AdminDisplayName "<Comments>"] <Additional Settings>
+```
+
+<span data-ttu-id="40d8b-299">이 예에서는 다음 설정을 사용 하 여 Contoso 임원 이라는 새 아웃 바운드 스팸 필터 정책을 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-299">This example creates a new outbound spam filter policy named Contoso Executives with the following settings:</span></span>
+
+- <span data-ttu-id="40d8b-300">받는 사람 비율 제한은 기본값 보다 작은 값으로 제한 됩니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-300">The recipient rate limits are restricted to smaller values that the defaults.</span></span> <span data-ttu-id="40d8b-301">자세한 내용은 [Office 365 옵션을 통한 제한 보내기](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#sending-limits-across-office-365-options)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="40d8b-301">For more information, see [Sending limits across Office 365 options](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#sending-limits-across-office-365-options).</span></span>
+
+- <span data-ttu-id="40d8b-302">한도에 도달한 후에는 사용자가 메시지를 보낼 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-302">After one of the limits is reached, the user is prevented from sending messages.</span></span>
+
+```PowerShell
+New-HostedOutboundSpamFilterPolicy -Name "Contoso Executives" -RecipientLimitExternalPerHour 400 -RecipientLimitInternalPerHour 800 -RecipientLimitPerDay 800 -ActionWhenThresholdReached BlockUser
+```
+
+<span data-ttu-id="40d8b-303">구문과 매개 변수에 대 한 자세한 내용은 [get-hostedoutboundspamfilterpolicy](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/new-hostedoutboundspamfilterpolicy)를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="40d8b-303">For detailed syntax and parameter information, see [New-HostedOutboundSpamFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/new-hostedoutboundspamfilterpolicy).</span></span>
+
+#### <a name="step-2-use-powershell-to-create-an-outbound-spam-filter-rule"></a><span data-ttu-id="40d8b-304">2 단계: PowerShell을 사용 하 여 아웃 바운드 스팸 필터 규칙 만들기</span><span class="sxs-lookup"><span data-stu-id="40d8b-304">Step 2: Use PowerShell to create an outbound spam filter rule</span></span>
+
+<span data-ttu-id="40d8b-305">아웃 바운드 스팸 필터 규칙을 만들려면 다음 구문을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-305">To create an outbound spam filter rule, use this syntax:</span></span>
+
+```PowerShell
+New-HostedOutboundSpamFilterRule -Name "<RuleName>" -HostedOutboundSpamFilterPolicy "<PolicyName>" <Recipient filters> [<Recipient filter exceptions>] [-Comments "<OptionalComments>"]
+```
+
+<span data-ttu-id="40d8b-306">이 예에서는 다음 설정을 사용 하 여 Contoso 임원 이라는 새 아웃 바운드 스팸 필터 규칙을 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-306">This example creates a new outbound spam filter rule named Contoso Executives with these settings:</span></span>
+
+- <span data-ttu-id="40d8b-307">Contoso 임원 이라는 아웃 바운드 스팸 필터 정책이 규칙과 연결 됩니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-307">The outbound spam filter policy named Contoso Executives is associated with the rule.</span></span>
+
+- <span data-ttu-id="40d8b-308">이 규칙은 Contoso 임원 그룹 이라는 그룹의 구성원에 게 적용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-308">The rule applies to members of the group named Contoso Executives Group.</span></span>
+
+```PowerShell
+New-HostedOutboundSpamFilterRule -Name "Contoso Executives" -HostedOutboundSpamFilterPolicy "Contoso Executives" -SentToMemberOf "Contoso Executives Group"
+```
+
+<span data-ttu-id="40d8b-309">구문과 매개 변수에 대 한 자세한 내용은 [HostedOutboundSpamFilterRule](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/new-hostedoutboundspamfilterrule)를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="40d8b-309">For detailed syntax and parameter information, see [New-HostedOutboundSpamFilterRule](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/new-hostedoutboundspamfilterrule).</span></span>
+
+### <a name="use-powershell-to-view-outbound-spam-filter-policies"></a><span data-ttu-id="40d8b-310">PowerShell을 사용 하 여 아웃 바운드 스팸 필터 정책 보기</span><span class="sxs-lookup"><span data-stu-id="40d8b-310">Use PowerShell to view outbound spam filter policies</span></span>
+
+<span data-ttu-id="40d8b-311">모든 아웃 바운드 스팸 필터 정책의 요약 목록을 반환 하려면 다음 명령을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-311">To return a summary list of all outbound spam filter policies, run this command:</span></span>
+
+```PowerShell
+Get-HostedOutboundSpamFilterPolicy
+```
+
+<span data-ttu-id="40d8b-312">특정 아웃 바운드 스팸 필터 정책에 대 한 자세한 정보를 반환 하려면 다음 구문을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-312">To return detailed information about a specific outbound spam filter policy, use the this syntax:</span></span>
+
+```PowerShell
+Get-HostedOutboundSpamFilterPolicy -Identity "<PolicyName>" | Format-List [<Specific properties to view>]
+```
+
+<span data-ttu-id="40d8b-313">이 예에서는 임원 라는 아웃 바운드 스팸 필터 정책에 대 한 모든 속성 값을 반환 합니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-313">This example returns all the property values for the outbound spam filter policy named Executives.</span></span>
+
+```PowerShell
+Get-HostedOutboundSpamFilterPolicy -Identity "Executives" | Format-List
+```
+
+<span data-ttu-id="40d8b-314">구문과 매개 변수에 대 한 자세한 내용은 [get-hostedoutboundspamfilterpolicy](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/get-hostedoutboundspamfilterpolicy)를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="40d8b-314">For detailed syntax and parameter information, see [Get-HostedOutboundSpamFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/get-hostedoutboundspamfilterpolicy).</span></span>
+
+### <a name="use-powershell-to-view-outbound-spam-filter-rules"></a><span data-ttu-id="40d8b-315">PowerShell을 사용 하 여 아웃 바운드 스팸 필터 규칙 보기</span><span class="sxs-lookup"><span data-stu-id="40d8b-315">Use PowerShell to view outbound spam filter rules</span></span>
+
+<span data-ttu-id="40d8b-316">기존 아웃 바운드 스팸 필터 규칙을 보려면 다음 구문을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-316">To view existing outbound spam filter rules, use the following syntax:</span></span>
+
+```PowerShell
+Get-HostedOutboundSpamFilterRule [-Identity "<RuleIdentity>] [-State <Enabled | Disabled]
+```
+
+<span data-ttu-id="40d8b-317">모든 아웃 바운드 스팸 필터 규칙의 요약 목록을 반환 하려면 다음 명령을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-317">To return a summary list of all outbound spam filter rules, run this command:</span></span>
+
+```PowerShell
+Get-HostedOutboundSpamFilterRule
+```
+
+<span data-ttu-id="40d8b-318">사용 하거나 사용 하지 않도록 설정 된 규칙을 기준으로 목록을 필터링 하려면 다음 명령을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-318">To filter the list by enabled or disabled rules, run the following commands:</span></span>
+
+```PowerShell
+Get-HostedOutboundSpamFilterRule -State Disabled
+```
+
+```PowerShell
+Get-HostedOutboundSpamFilterRule -State Enabled
+```
+
+<span data-ttu-id="40d8b-319">특정 아웃 바운드 스팸 필터 규칙에 대 한 자세한 정보를 반환 하려면 다음 구문을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-319">To return detailed information about a specific outbound spam filter rule, use this syntax:</span></span>
+
+```PowerShell
+Get-HostedOutboundSpamFilterRule -Identity "<RuleName>" | Format-List [<Specific properties to view>]
+```
+
+<span data-ttu-id="40d8b-320">이 예에서는 Contoso 임원 이라는 아웃 바운드 스팸 필터 규칙에 대 한 모든 속성 값을 반환 합니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-320">This example returns all the property values for the outbound spam filter rule named Contoso Executives.</span></span>
+
+```PowerShell
+Get-HostedOutboundSpamFilterRule -Identity "Contoso Executives" | Format-List
+```
+
+<span data-ttu-id="40d8b-321">구문과 매개 변수에 대 한 자세한 내용은 [HostedOutboundSpamFilterRule](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/get-hostedoutboundspamfilterrule)를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="40d8b-321">For detailed syntax and parameter information, see [Get-HostedOutboundSpamFilterRule](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/get-hostedoutboundspamfilterrule).</span></span>
+
+### <a name="use-powershell-to-modify-outbound-spam-filter-policies"></a><span data-ttu-id="40d8b-322">PowerShell을 사용 하 여 아웃 바운드 스팸 필터 정책 수정</span><span class="sxs-lookup"><span data-stu-id="40d8b-322">Use PowerShell to modify outbound spam filter policies</span></span>
+
+<span data-ttu-id="40d8b-323">이 항목 앞부분의 [1 단계: powershell을 사용 하 여 아웃 바운드 스팸 필터 정책 만들기](#step-1-use-powershell-to-create-an-outbound-spam-filter-policy) 섹션에 설명 된 대로, powershell에서 맬웨어 필터 정책을 수정 하는 경우에도 동일한 설정을 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-323">The same settings are available when you modify a malware filter policy in PowerShell as when you create the policy as described in the [Step 1: Use PowerShell to create an outbound spam filter policy](#step-1-use-powershell-to-create-an-outbound-spam-filter-policy) section earlier in this topic.</span></span>
+
+<span data-ttu-id="40d8b-324">**참고**: 아웃 바운드 스팸 필터 정책의 이름을 바꿀 수는 없습니다 (get-hostedoutboundspamfilterpolicy Cmdlet은 _Name_ 매개 변수를 **사용** 하지 않음).</span><span class="sxs-lookup"><span data-stu-id="40d8b-324">**Note**: You can't rename an outbound spam filter policy (the **Set-HostedOutboundSpamFilterPolicy** cmdlet has no _Name_ parameter).</span></span> <span data-ttu-id="40d8b-325">보안 & 준수 센터에서 아웃 바운드 스팸 정책의 이름을 바꿀 때 아웃 바운드 스팸 필터 _규칙만_이름을 변경 하는 것입니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-325">When you rename an outbound spam policy in the Security & Compliance Center, you're only renaming the outbound spam filter _rule_.</span></span>
+
+<span data-ttu-id="40d8b-326">아웃 바운드 스팸 필터 정책을 수정 하려면 다음 구문을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-326">To modify an outbound spam filter policy, use this syntax:</span></span>
+
+```PowerShell
+Set-HostedOutboundSpamFilterPolicy -Identity "<PolicyName>" <Settings>
+```
+
+<span data-ttu-id="40d8b-327">구문 및 매개 변수에 대 한 자세한 내용은 [get-hostedoutboundspamfilterpolicy](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/set-hostedoutboundspamfilterpolicy)를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="40d8b-327">For detailed syntax and parameter information, see [Set-HostedOutboundSpamFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/set-hostedoutboundspamfilterpolicy).</span></span>
+
+### <a name="use-powershell-to-modify-outbound-spam-filter-rules"></a><span data-ttu-id="40d8b-328">PowerShell을 사용 하 여 아웃 바운드 스팸 필터 규칙 수정</span><span class="sxs-lookup"><span data-stu-id="40d8b-328">Use PowerShell to modify outbound spam filter rules</span></span>
+
+<span data-ttu-id="40d8b-329">PowerShell에서 아웃 바운드 스팸 필터 규칙을 수정할 때 사용할 수 없는 설정은 사용 하지 않도록 설정 된 규칙을 만들 수 있는 _사용_ 가능한 매개 변수입니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-329">The only setting that isn't available when you modify an outbound spam filter rule in PowerShell is the _Enabled_ parameter that allows you to create a disabled rule.</span></span> <span data-ttu-id="40d8b-330">기존 아웃 바운드 스팸 필터 규칙을 사용 하거나 사용 하지 않도록 설정 하려면 다음 섹션을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="40d8b-330">To enable or disable existing outbound spam filter rules, see the next section.</span></span>
+
+<span data-ttu-id="40d8b-331">그렇지 않으면 PowerShell에서 아웃 바운드 스팸 필터 규칙을 수정할 때 사용할 수 있는 추가 설정이 없습니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-331">Otherwise, no additional settings are available when you modify an outbound spam filter rule in PowerShell.</span></span> <span data-ttu-id="40d8b-332">이 항목 앞부분의 [2 단계: PowerShell을 사용 하 여 아웃 바운드 스팸 필터 규칙 만들기](#step-2-use-powershell-to-create-an-outbound-spam-filter-rule) 섹션에 설명 된 대로 규칙을 만들 때도 같은 설정을 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-332">The same settings are available when you create a rule as described in the [Step 2: Use PowerShell to create an outbound spam filter rule](#step-2-use-powershell-to-create-an-outbound-spam-filter-rule) section earlier in this topic.</span></span>
+
+<span data-ttu-id="40d8b-333">아웃 바운드 스팸 필터 규칙을 수정 하려면 다음 구문을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-333">To modify an outbound spam filter rule, use this syntax:</span></span>
+
+```PowerShell
+Set-HostedOutboundSpamFilterRule -Identity "<RuleName>" <Settings>
+```
+
+<span data-ttu-id="40d8b-334">구문 및 매개 변수에 대 한 자세한 내용은 [HostedOutboundSpamFilterRule](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/set-hostedoutboundspamfilterrule)를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="40d8b-334">For detailed syntax and parameter information, see [Set-HostedOutboundSpamFilterRule](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/set-hostedoutboundspamfilterrule).</span></span>
+
+### <a name="use-powershell-to-enable-or-disable-outbound-spam-filter-rules"></a><span data-ttu-id="40d8b-335">PowerShell을 사용 하 여 아웃 바운드 스팸 필터 규칙을 사용 하거나 사용 하지 않도록 설정</span><span class="sxs-lookup"><span data-stu-id="40d8b-335">Use PowerShell to enable or disable outbound spam filter rules</span></span>
+
+<span data-ttu-id="40d8b-336">PowerShell에서 아웃 바운드 스팸 필터 규칙을 사용 하거나 사용 하지 않도록 설정 하면 전체 아웃 바운드 스팸 정책 (아웃 바운드 스팸 필터 규칙 및 할당 된 아웃 바운드 스팸 필터 정책)을 사용 하거나 사용 하지 않도록 설정 됩니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-336">Enabling or disabling an outbound spam filter rule in PowerShell enables or disables the whole outbound spam policy (the outbound spam filter rule and the assigned outbound spam filter policy).</span></span> <span data-ttu-id="40d8b-337">기본 아웃 바운드 스팸 정책을 사용 하거나 사용 하지 않도록 설정할 수 없습니다 (항상 항상 모든 받는 사람에 게 적용 됨).</span><span class="sxs-lookup"><span data-stu-id="40d8b-337">You can't enable or disable the default outbound spam policy (it's always always applied to all recipients).</span></span>
+
+<span data-ttu-id="40d8b-338">PowerShell에서 아웃 바운드 스팸 필터 규칙을 사용 하거나 사용 하지 않도록 설정 하려면 다음 구문을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-338">To enable or disable an outbound spam filter rule in PowerShell, use this syntax:</span></span>
+
+```PowerShell
+<Enable-HostedOutboundSpamFilterRule | Disable-HostedOutboundSpamFilterRule> -Identity "<RuleName>"
+```
+
+<span data-ttu-id="40d8b-339">이 예에서는 Marketing 부서 라는 아웃 바운드 스팸 필터 규칙을 사용 하지 않도록 설정 합니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-339">This example disables the outbound spam filter rule named Marketing Department.</span></span>
+
+```PowerShell
+Disable-HostedOutboundSpamFilterRule -Identity "Marketing Department"
+```
+
+<span data-ttu-id="40d8b-340">이 예에서는 동일한 규칙을 사용 하도록 설정 합니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-340">This example enables same rule.</span></span>
+
+```PowerShell
+Enable-HostedOutboundSpamFilterRule -Identity "Marketing Department"
+```
+
+<span data-ttu-id="40d8b-341">구문 및 매개 변수에 대 한 자세한 내용은 [Enable-HostedOutboundSpamFilterRule](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/enable-hostedoutboundspamfilterrule) 및 [Disable-HostedOutboundSpamFilterRule](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/disable-hostedoutboundspamfilterrule)을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="40d8b-341">For detailed syntax and parameter information, see [Enable-HostedOutboundSpamFilterRule](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/enable-hostedoutboundspamfilterrule) and [Disable-HostedOutboundSpamFilterRule](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/disable-hostedoutboundspamfilterrule).</span></span>
+
+### <a name="use-powershell-to-set-the-priority-of-outbound-spam-filter-rules"></a><span data-ttu-id="40d8b-342">PowerShell을 사용 하 여 아웃 바운드 스팸 필터 규칙의 우선 순위 설정</span><span class="sxs-lookup"><span data-stu-id="40d8b-342">Use PowerShell to set the priority of outbound spam filter rules</span></span>
+
+<span data-ttu-id="40d8b-343">규칙에 대해 설정할 수 있는 가장 높은 우선 순위 값은 0입니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-343">The highest priority value you can set on a rule is 0.</span></span> <span data-ttu-id="40d8b-344">설정할 수 있는 가장 낮은 값은 규칙 수에 따라 달라 집니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-344">The lowest value you can set depends on the number of rules.</span></span> <span data-ttu-id="40d8b-345">예를 들어 규칙이 5 개인 경우 우선 순위 값으로 0 ~ 4를 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-345">For example, if you have five rules, you can use the priority values 0 through 4.</span></span> <span data-ttu-id="40d8b-346">기존 규칙의 우선 순위를 변경 하면 다른 규칙에 모두 적용 될 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-346">Changing the priority of an existing rule can have a cascading effect on other rules.</span></span> <span data-ttu-id="40d8b-347">예를 들어 사용자 지정 규칙 (우선 순위: 0 ~ 4)을 사용 하 여 규칙의 우선 순위를 2로 변경 하는 경우 우선 순위가 2 인 기존 규칙이 우선 순위 3으로 변경 되 고 우선 순위가 3 인 규칙은 우선 순위 4로 변경 됩니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-347">For example, if you have five custom rules (priorities 0 through 4), and you change the priority of a rule to 2, the existing rule with priority 2 is changed to priority 3, and the rule with priority 3 is changed to priority 4.</span></span>
+
+<span data-ttu-id="40d8b-348">PowerShell에서 아웃 바운드 스팸 필터 규칙의 우선 순위를 설정 하려면 다음 구문을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-348">To set the priority of an outbound spam filter rule in PowerShell, use the following syntax:</span></span>
+
+```PowerShell
+Set-HostedOutboundSpamFilterRule -Identity "<RuleName>" -Priority <Number>
+```
+
+<span data-ttu-id="40d8b-349">다음은 Marketing 부서 라는 규칙의 우선 순위를 2로 설정 하는 예제입니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-349">This example sets the priority of the rule named Marketing Department to 2.</span></span> <span data-ttu-id="40d8b-350">우선 순위가 2 보다 작거나 같은 모든 기존 규칙은 1만 큼 감소 합니다 (우선 순위 번호는 1 씩 증가 함).</span><span class="sxs-lookup"><span data-stu-id="40d8b-350">All existing rules that have a priority less than or equal to 2 are decreased by 1 (their priority numbers are increased by 1).</span></span>
+
+```PowerShell
+Set-HostedOutboundSpamFilterRule -Identity "Marketing Department" -Priority 2
+```
+
+<span data-ttu-id="40d8b-351">**참고:**</span><span class="sxs-lookup"><span data-stu-id="40d8b-351">**Notes**:</span></span>
+
+- <span data-ttu-id="40d8b-352">새 규칙을 만들 때 우선 순위를 설정 하려면 대신 **HostedOutboundSpamFilterRule** Cmdlet에서 _priority_ 매개 변수를 사용 하십시오.</span><span class="sxs-lookup"><span data-stu-id="40d8b-352">To set the priority of a new rule when you create it, use the _Priority_ parameter on the **New-HostedOutboundSpamFilterRule** cmdlet instead.</span></span>
+
+- <span data-ttu-id="40d8b-353">아웃 바운드 기본 스팸 필터 정책에는 해당 하는 스팸 필터 규칙이 없으며 항상이에 해당 하지 않는 우선 순위 값이 **가장 낮습니다**.</span><span class="sxs-lookup"><span data-stu-id="40d8b-353">The outbound default spam filter policy doesn't have a corresponding spam filter rule, and it always has the unmodifiable priority value **Lowest**.</span></span>
+
+### <a name="use-powershell-to-remove-outbound-spam-filter-policies"></a><span data-ttu-id="40d8b-354">PowerShell을 사용 하 여 아웃 바운드 스팸 필터 정책 제거</span><span class="sxs-lookup"><span data-stu-id="40d8b-354">Use PowerShell to remove outbound spam filter policies</span></span>
+
+<span data-ttu-id="40d8b-355">PowerShell을 사용 하 여 아웃 바운드 스팸 필터 정책을 제거 하면 해당 하는 아웃 바운드 스팸 필터 규칙이 제거 되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-355">When you use PowerShell to remove an outbound spam filter policy, the corresponding outbound spam filter rule isn't removed.</span></span>
+
+<span data-ttu-id="40d8b-356">PowerShell에서 아웃 바운드 스팸 필터 정책을 제거 하려면 다음 구문을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-356">To remove an outbound spam filter policy in PowerShell, use this syntax:</span></span>
+
+```PowerShell
+Remove-HostedOutboundSpamFilterPolicy -Identity "<PolicyName>"
+```
+
+<span data-ttu-id="40d8b-357">이 예에서는 Marketing 학과 라는 아웃 바운드 스팸 필터 정책을 제거 합니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-357">This example removes the outbound spam filter policy named Marketing Department.</span></span>
+
+```PowerShell
+Remove-HostedOutboundSpamFilterPolicy -Identity "Marketing Department"
+```
+
+<span data-ttu-id="40d8b-358">구문과 매개 변수에 대 한 자세한 내용은 [get-hostedoutboundspamfilterpolicy](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/remove-hostedoutboundspamfilterpolicy)를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="40d8b-358">For detailed syntax and parameter information, see [Remove-HostedOutboundSpamFilterPolicy](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/remove-hostedoutboundspamfilterpolicy).</span></span>
+
+### <a name="use-powershell-to-remove-outbound-spam-filter-rules"></a><span data-ttu-id="40d8b-359">PowerShell을 사용 하 여 아웃 바운드 스팸 필터 규칙 제거</span><span class="sxs-lookup"><span data-stu-id="40d8b-359">Use PowerShell to remove outbound spam filter rules</span></span>
+
+<span data-ttu-id="40d8b-360">PowerShell을 사용 하 여 아웃 바운드 스팸 필터 규칙을 제거 하면 해당 하는 아웃 바운드 스팸 필터 정책이 제거 되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-360">When you use PowerShell to remove an outbound spam filter rule, the corresponding outbound spam filter policy isn't removed.</span></span>
+
+<span data-ttu-id="40d8b-361">PowerShell에서 아웃 바운드 스팸 필터 규칙을 제거 하려면 다음 구문을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-361">To remove an outbound spam filter rule in PowerShell, use this syntax:</span></span>
+
+```PowerShell
+Remove-HostedOutboundSpamFilterRule -Identity "<PolicyName>"
+```
+
+<span data-ttu-id="40d8b-362">이 예에서는 Marketing 부서 라는 아웃 바운드 스팸 필터 규칙을 제거 합니다.</span><span class="sxs-lookup"><span data-stu-id="40d8b-362">This example removes the outbound spam filter rule named Marketing Department.</span></span>
+
+```PowerShell
+Remove-HostedOutboundSpamFilterRule -Identity "Marketing Department"
+```
+
+<span data-ttu-id="40d8b-363">구문과 매개 변수에 대 한 자세한 내용은 [HostedOutboundSpamFilterRule](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/remove-hostedoutboundspamfilterrule)를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="40d8b-363">For detailed syntax and parameter information, see [Remove-HostedOutboundSpamFilterRule](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/remove-hostedoutboundspamfilterrule).</span></span>
+
+
+## <a name="for-more-information"></a><span data-ttu-id="40d8b-364">자세한 내용</span><span class="sxs-lookup"><span data-stu-id="40d8b-364">For more information</span></span>
+
+[<span data-ttu-id="40d8b-365">스팸 메일을 보낸 후 제한된 사용자 포털에서 사용자 제거</span><span class="sxs-lookup"><span data-stu-id="40d8b-365">Removing a user from the Restricted Users portal after sending spam email</span></span>](https://docs.microsoft.com/office365/SecurityCompliance/removing-user-from-restricted-users-portal-after-spam)
+
+[<span data-ttu-id="40d8b-366">아웃바운드 메시지용 높은 위험 배달 풀</span><span class="sxs-lookup"><span data-stu-id="40d8b-366">High-risk delivery pool for outbound messages</span></span>](high-risk-delivery-pool-for-outbound-messages.md)
+
+[<span data-ttu-id="40d8b-367">스팸 방지 및 보호 FAQ</span><span class="sxs-lookup"><span data-stu-id="40d8b-367">Anti-spam protection FAQ</span></span>](anti-spam-protection-faq.md)
