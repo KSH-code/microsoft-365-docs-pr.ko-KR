@@ -2,8 +2,8 @@
 title: Office 365의 스푸핑 방지 보호 기능
 f1.keywords:
 - NOCSH
-ms.author: tracyp
-author: MSFTtracyp
+ms.author: chrisda
+author: chrisda
 manager: dansimp
 ms.date: ''
 audience: ITPro
@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: TopSMBIssues
 localization_priority: Priority
 description: 이 문서에서는 Office 365가 위조된 보낸 사람 도메인, 즉 스푸핑된 도메인을 사용하는 피싱 공격을 줄이는 방법에 대해 설명합니다. 표준 전자 메일 인증 방법이나 다른 보낸 사람 신뢰도 기술을 사용하지 않고 메시지를 분석하고 인증할 수 있는 메시지를 차단하여 이 작업을 수행합니다. 이 변경 사항은 Office 365의 조직이 피싱 공격에 노출된 수를 줄이기 위해 구현되었습니다.
-ms.openlocfilehash: 007686f8d210124948a42b2c254fc58332cdd3de
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 9e1a4cf31c2565eeb6be53b5c43bda0154f9ea6f
+ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42087177"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42894141"
 ---
 # <a name="anti-spoofing-protection-in-office-365"></a>Office 365의 스푸핑 방지 보호 기능
 
@@ -89,10 +89,9 @@ Microsoft의 일반 공지 사항을 확인ㅎ려면 [피싱의 세계 2장 - Of
 
 SPF, DKIM 및 DMARC는 모두 유용하지만 메시지에 명시적인 인증 레코드가 없는 경우 충분한 인증 상태를 전달하지 못합니다. 따라서 Microsoft는 여러 신호를 복합 인증이라는 단일 값 또는 간략히 compauth로 결합한 알고리즘을 개발했습니다. Office 365의 고객은 메시지 머리글의 *Authentication-Results* 머리글에 스탬프된 compauth 값을 확인할 수 있습니다.
 
-```
+```text
 Authentication-Results:
   compauth=<fail|pass|softpass|none> reason=<yyy>
-
 ```
 
 |**CompAuth 결과**|**설명**|
@@ -259,7 +258,7 @@ To: someone@fabrikam.com
 
 ### <a name="changing-your-anti-spoofing-settings"></a>스푸핑 방지 설정 변경
 
-(도메인 간) 스푸핑 방지 설정을 만들거나 업데이트하려면 보안 &amp; 준수 센터의 위협 관리 \> 정책 탭에서 스팸 방지 \> 스푸핑 방지 설정으로 이동하십시오. 피싱 방지 설정을 생성한 적이 없다면 다음 중 하나를 만들어야 합니다.
+(도메인 간) 스푸핑 방지 설정을 만들거나 업데이트하려면 보안 준수 센터의 위협 관리 \> 정책 탭에서 스팸 방지 \> 스푸핑 방지 설정으로 이동하십시오. 피싱 방지 설정을 생성한 적이 없다면 다음 중 하나를 만들어야 합니다.
 
 ![피싱 방지 - 새 정책 생성](../../media/9337ec91-270e-4fa7-9dfa-a51a2d1eb95e.jpg)
 
@@ -380,19 +379,19 @@ Set-PhishFilterPolicy -Identity Default -SpoofAllowBlockList $UpdateSpoofedSende
 
 ### <a name="viewing-reports-of-how-many-messages-were-marked-as-spoofed"></a>스푸핑으로 표시된 메시지 수에 대한 보고서 보기
 
-스푸핑 방지 정책을 사용하면 위협 조사 및 응답 기능을 사용하여 피싱으로 표시된 메시지 수에 대한 정보를 얻을 수 있습니다. 이렇게 하려면 위협 관리 \> 탐색기 아래의 보안 &amp; 준수 센터(SCC)로 가서 피싱으로보기를 설정하고 보낸 사람 도메인 또는 보호 상태별로 그룹화합니다.
+스푸핑 방지 정책을 사용하면 위협 조사 및 응답 기능을 사용하여 피싱으로 표시된 메시지 수에 대한 정보를 얻을 수 있습니다. 이렇게 하려면 위협 관리 \> 탐색기 아래의 보안 준수 센터(SCC)로 가서 피싱으로 보기를 설정하고 보낸 사람 도메인 또는 보호 상태별로 그룹화합니다.
 
 ![피싱으로 표시된 메시지 수 보기](../../media/de25009a-44d4-4c5f-94ba-9c75cd9c64b3.jpg)
 
 다양한 보고서와 상호 작용하여 스푸핑으로 표시된 메시지 등 피싱으로 표시된 수를 확인할 수 있습니다. 자세한 내용은 [Office 365 위협 조사 및 응답 시작하기](office-365-ti.md)를 참조하십시오.
 
-다른 유형의 피싱(일반 피싱, 도메인 또는 사용자 가장 등)과 달리 스푸핑으로 인해 표시된 메시지를 아직 분리할 수 없습니다. 그러나 나중에 보안 &amp; 준수 센터를 통해 이 작업을 수행할 수 있습니다. 일단 이 보고서를 사용하면 실패한 인증으로 인해 스푸핑으로 표시되는 합법적인 보내는 도메인을 식별할 수 있습니다.
+다른 유형의 피싱(일반 피싱, 도메인 또는 사용자 가장 등)과 달리 스푸핑으로 인해 표시된 메시지를 아직 분리할 수 없습니다. 그러나 나중에 보안 준수 센터를 통해 이 작업을 수행할 수 있습니다. 일단 이 보고서를 사용하면 실패한 인증으로 인해 스푸핑으로 표시되는 합법적인 보내는 도메인을 식별할 수 있습니다.
 
 다음 스크린 샷은 이 데이터의 형태에 대한 제안이지만 릴리스될 때에는 변경될 수 있습니다.
 
 ![탐지 유형별 피싱 보고서 보기](../../media/dd25d63f-152c-4c55-a07b-184ecda2de81.jpg)
 
-비 ATP 및 E5 고객의 경우, 이 보고서는 나중에 Threat Protection Status(TPS) 보고서에서 볼 수 있지만 최소 24시간이 지연됩니다. 이 페이지는 보안 &amp; 준수 센터에 통합되어 업데이트됩니다.
+비 ATP 및 E5 고객의 경우, 이 보고서는 나중에 Threat Protection Status(TPS) 보고서에서 볼 수 있지만 최소 24시간이 지연됩니다. 이 페이지는 보안 준수 센터에 통합되어 업데이트됩니다.
 
 ### <a name="predicting-how-many-messages-will-be-marked-as-spoof"></a>얼마나 많은 메시지가 스푸핑으로 표시될지 예측
 
@@ -503,7 +502,7 @@ New-AntiphishRule -Name $name -AntiphishPolicy -RecipientDomainIs $domains
 Set-AntiphishPolicy -Identity $name -EnableAntispoofEnforcement $false
 ```
 
-스푸핑 방지를 사용하지 않도록 설정하는 것은 cmdlet을 통해서만 가능합니다(나중에 보안 &amp; 준수 센터에서 사용할 수 있습니다). PowerShell에 액세스 할 수 없는 경우 지원 티켓을 만드십시오.
+스푸핑 방지를 사용하지 않도록 설정하는 것은 cmdlet을 통해서만 가능합니다(나중에 보안 준수 센터에서 사용할 수 있습니다). PowerShell에 액세스 할 수 없는 경우 지원 티켓을 만드십시오.
 
 Office 365로 보낼 때 간접 라우팅을 수행하는 도메인에만 이 규칙을 적용해야 합니다. 오탐지로 인해 스푸핑 방지를 해지 않도록 유의하십시오. 장기적으로는 이를 통해 작업하는 것이 더 낫습니다.
 
@@ -650,9 +649,11 @@ Microsoft 자체는 처음에 다른 고객들에게 배포하기 몇 주 전에
 
 거의 모든 대형 전자 메일 수신자는 기존의 SPF, DKIM 및 DMARC를 구현합니다. 일부 수신자에는 그 표준보다 엄격한 다른 검사가 있지만 인증되지 않은 전자 메일을 차단하고 이를 스푸핑으로 취급하는 Office 365는 거의 없습니다. 그러나 대부분의 업계에서는 이러한 특정 유형의 전자 메일에 대해 점점 더 엄격 해지고 있습니다. 특히 피싱 문제 때문입니다.
 
-### <a name="do-i-still-need-the-advanced-spam-filtering-option-enabled-for-spf-hard-fail-if-i-enable-anti-spoofing"></a>스푸핑 방지를 활성화하면 "SPF 하드 실패"에 대해 고급 스팸 필터링 옵션이 계속 설정되어 있어야 합니까?
+### <a name="do-i-still-need-to-enable-the-advanced-spam-filter-asf-setting-spf-record-hard-fail-_markasspamspfrecordhardfail_-if-i-enable-anti-spoofing"></a>스푸핑 방지를 사용하는 경우에도 고급 스팸 필터(ASF) 설정 "SPF 레코드: 하드 실패"(_MarkAsSpamSpfRecordHardFail_)을 사용하도록 설정해야 하나요?
 
-아니요, 이 옵션은 더 이상 필요하지 않습니다. 이는 스푸핑 방지 기능이 SPF 하드 실패 뿐 아니라 훨씬 더 광범위한 기준을 고려하기 때문입니다. 스푸핑 방지를 사용하고 SPF 하드 실패 옵션을 사용하도록 설정한 경우 더 많은 오탐지가 발생할 것입니다. 스팸이나 피싱을 추가로 포착하지 않아도되고 대부분 오탐지가 발생하기 때문에 이 기능을 비활성화하는 것이 좋습니다.
+아니요, 이 옵션은 더 이상 필요하지 않습니다. 이는 스푸핑 방지 기능이 SPF 하드 실패 뿐 아니라 훨씬 더 광범위한 기준을 고려하기 때문입니다. 스푸핑 방지를 사용하고 **SPF 레코드: 하드 실패**(_MarkAsSpamSpfRecordHardFail_)를 켠 경우 더 많은 오탐지가 발생할 것입니다.
+
+스팸이나 피싱을 추가로 포착하지 않고 대부분 오탐지가 발생하기 때문에 이 기능을 비활성화하는 것이 좋습니다. 자세한 내용은, [Office 365의 고급 스팸 필터링(ASF) 설정](advanced-spam-filtering-asf-options.md)을 참고하세요.
 
 ### <a name="does-sender-rewriting-scheme-srs-help-fix-forwarded-email"></a>보낸 사람 다시 작성 구상(SRS)이 전달된 전자 메일을 수정하는 데 도움이 됩니까?
 

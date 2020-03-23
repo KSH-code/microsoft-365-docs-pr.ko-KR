@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: 보안 &amp; 준수 센터의 DLP(데이터 손실 방지) 정책을 사용하여 Office 365 전체의 중요한 정보를 식별하고 모니터링하며 자동으로 보호할 수 있습니다.
-ms.openlocfilehash: 574a3376aa54311db3edc581e0a3e602cb1ac383
-ms.sourcegitcommit: 2859c82b30ae9cbd3a3e4bcdebd65f18444f1a9e
+ms.openlocfilehash: 9a7b31f779982381fcc0eea7e8aa051f4fa2dafc
+ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42826293"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42894889"
 ---
 # <a name="overview-of-data-loss-prevention"></a>데이터 손실 방지 개요
 <!-- this topic needs to be split into smaller, more coherent ones. It is confusing as it is. -->
@@ -88,6 +88,9 @@ DLP 정책은 정보가 Exchange Online, SharePoint Online, 비즈니스용 OneD
 특정 SharePoint 사이트 또는 OneDrive 계정을 포함하거나 제외하도록 선택하는 경우 DLP 정책은 이러한 포함 항목 및 제외 항목을 100개까지 포함할 수 있습니다. 해당 제한 사항에도 불구하고 조직 전체의 정책이나 전체 위치에 적용되는 정책을 적용하여 해당 제한 사항을 극복할 수 있습니다.
   
 ### <a name="rules"></a>규칙
+
+> [!NOTE]
+> 알림을 구성하지 않은 경우 DLP 정책에 대한 기본 동작은 알림을 보내거나 트리거하는 게 아닙니다. 이는 기본 정보 유형에만 적용됩니다. 사용자 지정 정보 유형의 경우에는 정책에 정의된 작업이 없는 경우에도 시스템이 알림을 보냅니다.
 
 규칙은 조직의 콘텐츠에 비즈니스 요구사항을 적용한 것입니다. 정책은 하나 이상의 규칙을 포함하고 각 규칙은 조건 및 작업을 구성됩니다. 각 규칙에 대해 조건이 충족되면 작업이 자동으로 수행됩니다. 규칙은 각 정책에서 가장 우선순위가 높은 규칙부터 순차적으로 실행됩니다.
   
@@ -423,16 +426,16 @@ DLP 정책을 만든 후에는 완전히 적용하기 전에 서서히 롤아웃
 2. **알림 및 정책 팁을 사용하여 테스트 모드로 전환**하여 사용자에게 규정 준수 정책을 교육하고 적용될 규칙을 준비하도록 할 수 있습니다. 이 단계에서 규칙을 미세 조정할 수 있도록 사용자에게 가양성을 보고하도록 요청할 수도 있습니다. 
     
 3. 규칙에서 작업이 적용되고 콘텐츠가 보호되도록 **정책에 대한 전체 적용을 시작합니다**. DLP 보고서 및 모든 사고 보고서나 알림을 계속 모니터링하여 결과가 의도한 대로 나타나는지 확인합니다. 
-    
-![테스트 모드를 사용하고 정책을 설정하기 위한 옵션](../media/49fafaac-c6cb-41de-99c4-c43c3e380c3a.png)
-  
-언제든지 DLP 정책을 종료할 수 있습니다. 이 경우 정책의 모든 규칙들이 영향을 받습니다. 하지만 규칙 편집기에서 상태를 전환하여 각 규칙을 개별적으로 종료할 수도 있습니다.
-  
-![정책에서 규칙을 종료하기 위한 옵션](../media/f7b258ff-1b8b-4127-b580-83c6492f2bef.png)
 
-정책에서 여러 규칙의 우선 순위를 변경할 수도 있습니다. 이를 위해 편집할 정책을 엽니다. 규칙의 행에서 줄임표(**...**)를 선택하고 **아래로 이동** 또는 **마지막 규칙 가져오기**와 같은 옵션을 선택하십시오.
+    ![테스트 모드를 사용하고 정책을 설정하기 위한 옵션](../media/49fafaac-c6cb-41de-99c4-c43c3e380c3a.png)
 
-![규칙 우선 순위를 설정하십시오.](../media/dlp-set-rule-priority.png)
+    언제든지 DLP 정책을 종료할 수 있습니다. 이 경우 정책의 모든 규칙들이 영향을 받습니다. 하지만 규칙 편집기에서 상태를 전환하여 각 규칙을 개별적으로 종료할 수도 있습니다.
+
+    ![정책에서 규칙을 종료하기 위한 옵션](../media/f7b258ff-1b8b-4127-b580-83c6492f2bef.png)
+
+    정책에서 여러 규칙의 우선 순위를 변경할 수도 있습니다. 이를 위해 편집할 정책을 엽니다. 규칙의 행에서 줄임표(**...**)를 선택하고 **아래로 이동** 또는 **마지막 규칙 가져오기**와 같은 옵션을 선택하십시오.
+
+    ![규칙 우선 순위를 설정하십시오.](../media/dlp-set-rule-priority.png)
   
 ## <a name="dlp-reports"></a>DLP 보고서
 
@@ -534,9 +537,9 @@ DLP 정책을 만드는 규정 준수 팀의 구성원에게는 보안 &amp; 준
     
 2. 다음과 같은 DLP 보고서용 cmdlet 중 하나 사용
     
-  - [Get-DlpDetectionsReport](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-dlp/Get-DlpDetectionsReport?view=exchange-ps)
-    
-  - [Get-DlpDetailReport](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-dlp/Get-DlpDetailReport?view=exchange-ps)
+    - [Get-DlpDetectionsReport](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-dlp/Get-DlpDetectionsReport?view=exchange-ps)
+
+    - [Get-DlpDetailReport](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-dlp/Get-DlpDetailReport?view=exchange-ps)
     
 ## <a name="more-information"></a>추가 정보
 
@@ -554,4 +557,3 @@ DLP 정책을 만드는 규정 준수 팀의 구성원에게는 보안 &amp; 준
     
 - [사용자 지정 중요한 정보 유형 만들기](create-a-custom-sensitive-information-type.md)
     
-

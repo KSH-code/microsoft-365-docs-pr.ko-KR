@@ -18,12 +18,12 @@ ms.assetid: da21c0b6-e8f0-4cc8-af2e-5029a9433d59
 ms.collection:
 - M365-security-compliance
 description: 스팸 거짓 부정을 방지하는 데 도움이 되는 EOP 독립 실행형 관리자를 위한 문서
-ms.openlocfilehash: 6261c183d39b84435110616491f5bd0b2f3f891b
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: b3b4005016d8a4192241299cac50eddf59f332d5
+ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42086593"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42895420"
 ---
 # <a name="customize-the-office-365-anti-spam-filter-with-these-settings"></a>다음 설정을 사용하여 Office 365 스팸 방지 필터 사용자 지정
 
@@ -41,13 +41,13 @@ ms.locfileid: "42086593"
 
 ### <a name="block-bulk-mail-with-mail-flow-rules-transport-rules-or-the-spam-filter"></a>메일 흐름 규칙(전송 규칙) 또는 스팸 필터를 사용하여 대량 메일 차단
 
-스팸이 회보나 프로모션과 같이 주로 대량 메일인가요? [메일 흐름 규칙을 사용하여 대량 전자 메일 필터링을 구성](use-transport-rules-to-configure-bulk-email-filtering.md)하거나 스팸 필터의 [고급 스팸 필터링 옵션](advanced-spam-filtering-asf-options.md)에서 **에서 대량 메일** 설정을 사용하도록 설정한 경우 Office 365에서 스팸 필터를 사용자 지정할 수 있습니다. Exchange 관리 센터에서 **보호** \> **콘텐츠 필터**를 클릭한 다음 조정하려는 필터 정책을 두 번 클릭하여 시작합니다. **스팸 및 대량 전자 메일 작업**을 클릭하고 다음과 같이 설정을 조정합니다.
+스팸이 회보나 프로모션과 같이 주로 대량 메일인가요? [메일 흐름 규칙을 사용하여 대량 전자 메일 필터링을 구성](use-transport-rules-to-configure-bulk-email-filtering.md)하거나 스팸 필터의 [Office 365 고급 스팸 필터링(ASF) 옵션](advanced-spam-filtering-asf-options.md)에서 **대량 메일** 설정을 켜도록 설정한 경우 Office 365에서 스팸 필터를 사용자 지정할 수 있습니다. Exchange 관리 센터에서 **보호** \> **콘텐츠 필터**를 클릭한 다음 조정하려는 필터 정책을 두 번 클릭하여 시작합니다. **스팸 및 대량 전자 메일 작업**을 클릭하여 다음과 같이 설정을 조정합니다.
 
 ![Exchange Online의 대량 메일 필터 설정](../../media/a45095c2-269d-45b8-a76c-999b5e78da68.png)
 
 ### <a name="block-email-spam-using-spam-filter-block-lists"></a>스팸 필터 차단 목록을 사용하여 전자 메일 스팸 차단
 
-[스팸 필터 정책을 구성](configure-your-spam-filter-policies.md)하여 스팸 필터의 보낸 사람 차단 목록에 보낸 사람 주소를 추가하거나 도메인 차단 목록에 도메인을 추가합니다. 스팸 필터 차단 목록에 있는 보낸 사람 또는 도메인에서 보낸 전자 메일은 스팸으로 표시됩니다.
+[Office 365의 스팸 방지 정책을 구성](configure-your-spam-filter-policies.md)하여 스팸 필터의 보낸 사람 차단 목록에 보낸 사람 주소를 추가하거나 도메인 차단 목록에 도메인을 추가합니다. 스팸 필터 차단 목록에 있는 보낸 사람 또는 도메인에서 보낸 전자 메일은 스팸으로 표시됩니다.
 
 ## <a name="email-users-can-also-help-ensure-that-false-negative-and-email-spam-is-blocked-with-office-365-spam-filter"></a>전자 메일 사용자도 Office 365 스팸 필터로 거짓 부정 및 전자 메일 스팸이 차단되도록 할 수 있습니다.
 
@@ -56,7 +56,7 @@ ms.locfileid: "42086593"
 ![웹용 Outlook에서 보낸 사람 차단](../../media/fdf51381-2527-4819-ac2a-5dff84d2a36d.png)
 
 > [!NOTE]
-> 수신 허용 - 보낸 사람 목록에 대한 자세한 내용은 [Exchange Online의 수신 허용 - 보낸 사람 및 수신 거부 목록](safe-sender-and-blocked-sender-lists-faq.md)을 참조하세요.
+> 수신 허용 - 보낸 사람 목록에 대한 자세한 내용은 [Office 365의 수신 허용 - 보낸 사람 목록](create-safe-sender-lists-in-office-365.md)을 참조하세요.
 
 ## <a name="eop-only-customers-set-up-directory-synchronization"></a>EOP 전용 고객: 디렉터리 동기화 설정
 
@@ -76,11 +76,11 @@ EOP 서비스는 서비스에서 정보가 공유되는 경우 사용자의 수�
 
 2. SCL -1로 표시된 모든 메시지의 SCL을 업데이트하려면 다음 명령을 실행하여 콘텐츠 필터링된 스팸 메시지를 정크 메일 폴더로 라우팅합니다.
 
-  ```powershell
-  New-TransportRule "NameForRule" -HeaderContainsMessageHeader "X-Forefront-Antispam-Report" -HeaderContainsWords "SCL:-1" -SetSCL 0
-  ```
+   ```powershell
+   New-TransportRule "NameForRule" -HeaderContainsMessageHeader "X-Forefront-Antispam-Report" -HeaderContainsWords "SCL:-1" -SetSCL 0
+   ```
 
-    SCL이 온-프레미스 Exchange 서버에서 0이기 때문에 스팸이 아닌 전자 메일은 사용자의 받은 편지함으로 배달되지만 사용자의 로컬 수신 거부 목록에 대해서는 정크 메일로 보낼 수 있습니다. EOP에서 스팸 격리를 사용하는 경우, 사용자의 수신 허용 목록에 있는 보내는 사람이 스팸으로 식별되고 격리로 전송될 수 있습니다. 그러나 로컬 사서함에서 정크 메일 폴더를 사용하는 경우, 수신 허용 - 보낸 사람에 대해 받은 편지함으로 배달될 수 있습니다.
+   SCL이 온-프레미스 Exchange 서버에서 0이기 때문에 스팸이 아닌 전자 메일은 사용자의 받은 편지함으로 배달되지만 사용자의 로컬 수신 거부 목록에 대해서는 정크 메일로 보낼 수 있습니다. EOP에서 스팸 격리를 사용하는 경우, 사용자의 수신 허용 목록에 있는 보내는 사람이 스팸으로 식별되고 격리로 전송될 수 있습니다. 그러나 로컬 사서함에서 정크 메일 폴더를 사용하는 경우, 수신 허용 - 보낸 사람에 대해 받은 편지함으로 배달될 수 있습니다.
 
 > [!WARNING]
 > 메일 흐름 규칙을 사용하여 SCL 값을 0(또는 -1 외의 다른 값)으로 변경하는 경우 모든 Outlook 정크 메일 옵션이 메시지에 적용됩니다. 즉, 수신 차단 목록과 수신 허용 목록이 존중되지만, 수신 차단 목록이나 허용 목록의 주소가 없는 메시지는 클라이언트 측 정크 메일 필터 프로세스에 의해 잠재적으로 정크로 표시됩니다. Outlook에서 수신 차단 목록 및 수신 허용 목록을 처리하도록 하고 싶지만 클라이언트 측 정크 메일 필터는 사용하고 싶지 않은 경우 Outlook 정크 메일 옵션의 “자동 필터링 기능 사용하지 않음” 옵션을 설정해야 합니다. “자동 필터링 기능 사용하지 않음”은 최신 버전의 Outlook에서 기본 옵션이지만 클라이언트 측 정크 메일 필터가 메시지에 적용되지 않도록 이 설정을 확인해야 합니다. 관리자는 [Outlook: 정크 메일 UI 및 필터링 메커니즘을 비활성화하는 정책 설정](https://support.microsoft.com/kb/2180568)의 지침에 따라 Outlook 정크 메일 필터링 비활성화를 적용할 수 있습니다.
@@ -88,5 +88,3 @@ EOP 서비스는 서비스에서 정보가 공유되는 경우 사용자의 수�
 ## <a name="see-also"></a>참고 항목
 
 [Office 365 이메일 스팸 방지 보호](anti-spam-protection.md)
-
-[수신 허용 목록 또는 기타 방법으로 스팸으로 표시된 거짓 부정 전자 메일 차단](prevent-email-from-being-marked-as-spam.md)

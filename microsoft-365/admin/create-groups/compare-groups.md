@@ -1,8 +1,7 @@
 ---
 title: Office 365의 그룹 비교
 ms.reviewer: arvaradh
-f1.keywords:
-- CSH
+f1.keywords: CSH
 ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
@@ -20,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 758759ad-63ee-4ea9-90a3-39f941897b7d
 description: Office 365에서 사용할 수 있는 그룹 유형에 대해 알아봅니다.
-ms.openlocfilehash: 5b8a3a7859a510a07b579f3b1da255e555d6ae1f
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 7d0a18606918884381b0bf7863cfac6cafb29c29
+ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42245502"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42894602"
 ---
 # <a name="compare-groups"></a>그룹 비교
 
@@ -33,8 +32,8 @@ Microsoft 365 관리 센터의 **Groups** 구역에서 다음과 같은 유형�
 
 - **Office 365 그룹**은 회사 내부 및 외부의 사용자 간의 공동 작업에 사용됩니다.
 - **메일 그룹**은 사용자 그룹에 알림을 보내는 데 사용됩니다.
-- **보안 그룹**은 SharePoint 리소스에 대한 액세스 권한을 부여하는 데 사용됩니다.
-- **메일 사용이 가능한 보안 그룹**은 SharePoint 리소스에 대한 액세스 권한을 부여하고 해당 사용자에게 전자 메일로 알림을 보내는 데 사용됩니다.
+- **보안 그룹**은 SharePoint 사이트와 같은 리소스에 대한 액세스 권한을 부여하는 데 사용됩니다.
+- **메일 사용이 가능한 보안 그룹**은 SharePoint와 같은 리소스에 대한 액세스 권한을 부여하고 해당 사용자에게 전자 메일로 알림을 보내는 데 사용됩니다.
 - **공유 사서함**은 여러 사용자가 같은 사서함에 액세스해야 하는 경우(예: 회사 정보 또는 지원 전자 메일 주소)에 사용됩니다.
 
 ## <a name="office-365-groups"></a>Office 365 그룹
@@ -77,7 +76,7 @@ Office 365 그룹은 iOS용 Outlook 및 Android용 Outlook과 같은 모바일 �
 
 그룹 사서함에 대한 권한이 있는 사용자는 관리자가 해당 사용자에게 권한을 부여한 경우 사서함 전자 메일 주소를 보내기 혹은 대신하여 보낼 수 있습니다. 이 기능은 사용자가 "Contoso 지원" 또는 “A 빌딩 리셉션 데스크"에서 전자 메일을 보낼 수 있기 때문에 도움말 및 지원 사서함에 특히 유용합니다.
 
-현재 공유 사서함을 Office 365 그룹으로 마이그레이션할 수 없습니다. 원하는 사항이 있나요? 의견을 보내주세요. **[여기에서 투표하세요.](https://go.microsoft.com/fwlink/?linkid=871518)**
+현재 공유 사서함을 Office 365 그룹으로 마이그레이션할 수 없습니다. 원하는 사항이 있나요? 의견을 보내주세요. **[여기에서 투표하세요](https://go.microsoft.com/fwlink/?linkid=871518)**.
 
 ## <a name="related-articles"></a>관련 문서
 

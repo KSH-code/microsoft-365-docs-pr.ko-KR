@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: '보안 및 준수 센터를 사용하여 통합 감사 로그를 검색해 Office 365 조직의 사용자 및 관리자 활동을 확인합니다. '
-ms.openlocfilehash: 6d83b9af94ecb086d933cd00476ca84e87d6db2e
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: 13a65f5a6a82eed748eaa79a3683ebdf2fe7ed9a
+ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42634756"
+ms.lasthandoff: 03/21/2020
+ms.locfileid: "42894399"
 ---
 # <a name="search-the-audit-log-in-the-security--compliance-center"></a>보안 및 준수 센터에서 감사 로그 검색
 
@@ -311,7 +311,8 @@ Office 365에서 감사 로그를 검색하는 과정은 다음과 같습니다.
 |[고급 eDiscovery 활동](#advanced-ediscovery-activities)|[Power BI 활동](#power-bi-activities)|[Microsoft Workplace Analytics](#microsoft-workplace-analytics-activities)|
 |[Microsoft Teams 활동](#microsoft-teams-activities)|[Microsoft Teams 보건 활동](#microsoft-teams-healthcare-activities)|[Yammer 활동](#yammer-activities)|
 |[Microsoft Power Automate 활동](#microsoft-power-automate-activities)|[Microsoft Power Apps 활동](#microsoft-power-apps-activities)|[Microsoft Stream 활동](#microsoft-stream-activities)|
-|[Microsoft Forms 활동](#microsoft-forms-activities)|[민감도 레이블 및 활동](#sensitivity-label-activities)|[Exchange 관리자 활동](#exchange-admin-audit-log)||
+|[콘텐츠 탐색기 활동](#content-explorer-activities)|[Microsoft Forms 활동](#microsoft-forms-activities)|[민감도 레이블 및 활동](#sensitivity-label-activities)|
+|[Exchange 관리자 활동](#exchange-admin-audit-log)||
 ||||
 
 ### <a name="file-and-page-activities"></a>파일 및 페이지 활동
@@ -802,7 +803,16 @@ Power Apps에서 활동에 대한 감사 로그를 검색할 수 있습니다. �
 
 ### <a name="microsoft-stream-activities"></a>Microsoft Stream 활동
 
-Microsoft Stream에서 활동에 대한 감사 로그를 검색할 수 있습니다. 이러한 활동에는 사용자가 수행한 비디오 활동, 그룹 채널 활동 및 관리자 활동(예: 사용자 관리, 조직 설정 관리, 보고서 내보내기 등)이 포함됩니다. 이러한 활동에 대 한 설명은 [Microsoft Stream의 감사 로그](https://docs.microsoft.com/stream/audit-logs)에서 "Microsoft Stream에 기록된 활동" 섹션을 참조하세요.
+Microsoft Stream에서 활동에 대한 감사 로그를 검색할 수 있습니다. 이러한 활동에는 사용자가 수행한 비디오 활동, 그룹 채널 활동 및 관리자 활동(예: 사용자 관리, 조직 설정 관리, 보고서 내보내기 등)이 포함됩니다. 이러한 활동에 대한 설명은 [Microsoft Stream의 감사 로그](https://docs.microsoft.com/stream/audit-logs#actions-logged-in-stream)에서 "Stream에 기록된 활동" 섹션을 참조하세요.
+
+### <a name="content-explorer-activities"></a>콘텐츠 탐색기 활동
+
+다음 표에서는 콘텐츠 탐색기에서 Office 365 감사 로그에 기록되는 활동을 보여줍니다. 콘텐츠 탐색기는 Microsoft 365 규정 준수 센터의 데이터 분류 도구에서 액세스합니다. 자세한 내용은 [데이터 분류 콘텐츠 탐색기 사용](data-classification-content-explorer.md)을 참조하세요.
+
+|**친숙한 이름**|**작업**|**설명**|
+|:-----|:-----|:-----|
+|파일에 액세스함|AccessedItem|관리자(또는 콘텐츠 탐색기 콘텐츠 뷰어 역할 그룹의 구성원인 사용자)는 콘텐츠 탐색기로 전자 메일 메시지나 SharePoint/OneDrive 문서를 볼 수 있습니다.|
+||||
 
 ### <a name="microsoft-forms-activities"></a>Microsoft Forms 활동
 
