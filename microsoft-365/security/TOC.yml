@@ -73,8 +73,6 @@
                       href: mtp/investigate-incidents.md
                     - name: 인시던트 관리
                       href: mtp/manage-incidents.md
-                    - name: 컴퓨터 프로필 페이지
-                      href: mtp/machine-profile.md
             - name: 자동화된 조사 및 응답
               items:
                 - name: AIR 개요
@@ -95,13 +93,28 @@
                   href: mtp/advanced-hunting-overview.md
                 - name: 쿼리 언어 배우기
                   href: mtp/advanced-hunting-query-language.md
+                - name: 쿼리 결과 작업
+                  href: mtp/advanced-hunting-query-results.md
                 - name: 공유 쿼리 사용
                   href: mtp/advanced-hunting-shared-queries.md
                 - name: 장치 및 전자 메일 헌트
                   href: mtp/advanced-hunting-query-emails-devices.md
-                - name: 스키마의 이해
-                  href: mtp/advanced-hunting-schema-tables.md
+                - name: 데이터 스키마
                   items:
+                    - name: 스키마 이해
+                      href: mtp/advanced-hunting-schema-tables.md
+                    - name: AlertInfo
+                      href: mtp/advanced-hunting-alertinfo-table.md
+                    - name: AlertEvidence
+                      href: mtp/advanced-hunting-alertevidence-table.md
+                    - name: AccountInfo
+                      href: mtp/advanced-hunting-accountinfo-table.md
+                    - name: EmailEvents
+                      href: mtp/advanced-hunting-emailevents-table.md
+                    - name: EmailAttachmentInfo
+                      href: mtp/advanced-hunting-emailattachmentinfo-table.md
+                    - name: EmailUrlInfo
+                      href: mtp/advanced-hunting-emailurlinfo-table.md
                     - name: DeviceInfo
                       href: mtp/advanced-hunting-deviceinfo-table.md
                     - name: DeviceNetworkInfo
@@ -122,12 +135,6 @@
                       href: mtp/advanced-hunting-deviceevents-table.md
                     - name: DeviceFileCertificateInfoBeta
                       href: mtp/advanced-hunting-devicefilecertificateinfobeta-table.md
-                    - name: EmailEvents
-                      href: mtp/advanced-hunting-emailevents-table.md
-                    - name: EmailAttachmentInfo
-                      href: mtp/advanced-hunting-emailattachmentinfo-table.md
-                    - name: EmailUrlInfo
-                      href: mtp/advanced-hunting-emailurlinfo-table.md
                     - name: DeviceTvmSecureConfigurationAssessment
                       href: mtp/advanced-hunting-tvm-configassessment-table.md
                     - name: DeviceTvmSecureConfigurationAssessmentKB
@@ -136,9 +143,21 @@
                       href: mtp/advanced-hunting-tvm-softwareinventory-table.md
                     - name: DeviceTvmSoftwareVulnerabilitiesKB
                       href: mtp/advanced-hunting-tvm-softwarevulnerability-table.md
+                    - name: AppFileEvents
+                      href: mtp/advanced-hunting-appfileevents-table.md
+                    - name: IdentityLogonEvents
+                      href: mtp/advanced-hunting-identitylogonevents-table.md
+                    - name: IdentityQueryEvents
+                      href: mtp/advanced-hunting-identityqueryevents-table.md
                 - name: 쿼리 모범 사례 적용
                   href: mtp/advanced-hunting-best-practices.md
-            - name: 보안 점수
+                - name: 사용자 지정 검색
+                  items:
+                    - name: 사용자 지정 검색 개요
+                      href: mtp/custom-detections-overview.md
+                    - name: 검색 규칙 만들기 및 관리
+                      href: mtp/custom-detection-rules.md
+            - name: Secure Score
               items:
                 - name: 보안 점수
                   href: mtp/microsoft-secure-score.md
