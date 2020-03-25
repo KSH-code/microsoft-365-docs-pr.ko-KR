@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 82069224a3f38357e52c2772c984d20d6597342d
-ms.sourcegitcommit: fe4beef350ef9f39b1098755cff46fa2b8e7dc4d
+ms.openlocfilehash: 1883f61f50dad9b601329369bf180ddecba70138
+ms.sourcegitcommit: 3b2fdf159d7dd962493a3838e3cf0cf429ee2bf2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42857490"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "42928965"
 ---
 # <a name="investigate-incidents-in-microsoft-threat-protection"></a>Microsoft Threat Protection의 인시던트 조사
 
@@ -115,4 +115,4 @@ Microsoft Threat Protection은 알림에서 모든 인시던트 지원 이벤트
 - [인시던트 개요](incidents-overview.md)
 - [인시던트 우선 순위 지정](incident-queue.md)
 - [인시던트 관리](manage-incidents.md)
-- [특정 컴퓨터에서 이벤트 및 알림 검토](machine-profile.md)
+

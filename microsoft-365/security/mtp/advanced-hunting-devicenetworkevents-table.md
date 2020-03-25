@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 2e7999fef43adb372947d9edf92b84ac67f347fe
-ms.sourcegitcommit: 74bf600424d0cb7b9d16b4f391aeda7875058be1
+ms.openlocfilehash: d5e3327f4b4e066b3e4c14f646ad8db78ff3804a
+ms.sourcegitcommit: 3b2fdf159d7dd962493a3838e3cf0cf429ee2bf2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42235007"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "42929043"
 ---
 # <a name="devicenetworkevents"></a>DeviceNetworkEvents
 
@@ -46,7 +46,7 @@ ms.locfileid: "42235007"
 | `RemoteUrl` | 문자열 | 연결된 URL 또는 FQDN(정규화된 도메인 이름) |
 | `LocalIP` | 문자열 | 통신 중에 사용 되는 로컬 컴퓨터에 할당 된 IP 주소 |
 | `LocalPort` | int | 통신 중에 사용 되는 로컬 컴퓨터의 TCP 포트 |
-| `Protocol` | 문자열 | 사용 되는 IP 프로토콜 (TCP 또는 UDP에 관계 없음) |
+| `Protocol` | 문자열 | 통신 중에 사용 되는 프로토콜 |
 | `LocalIPType` | 문자열 | IP 주소 유형 (예: Public, Private, Reserved, 루프백, Teredo, FourToSixMapping 및 브로드캐스트) |
 | `RemoteIPType` | 문자열 | IP 주소 유형 (예: Public, Private, Reserved, 루프백, Teredo, FourToSixMapping 및 브로드캐스트) |
 | `InitiatingProcessSHA1` | 문자열 | 이벤트를 시작한 프로세스 (이미지 파일)의 SHA-1 |
