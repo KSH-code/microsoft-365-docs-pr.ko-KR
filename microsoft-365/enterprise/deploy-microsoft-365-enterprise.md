@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 조직에서 엔터프라이즈용 Microsoft 365를 배포하는 데 사용할 수 있는 리소스를 이해합니다.
-ms.openlocfilehash: e4660ff6e7fc9646b2e28181afff4df2811acdd1
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 9ea96af7cef0e497e8f7560ef87239828789b117
+ms.sourcegitcommit: 6adfcf042e64b21f09f2b8e072e8eba6d3479e31
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42067963"
+ms.lasthandoff: 03/25/2020
+ms.locfileid: "42951937"
 ---
 # <a name="deploy-microsoft-365-for-enterprise"></a>엔터프라이즈용 Microsoft 365 배포
 
@@ -95,7 +95,7 @@ TLG를 사용하면 복잡한 구성, 워크로드 또는 종단 간 시나리�
 
 이 두 페이지 포스터는 신속하게 기존 인프라를 목록화하고 엔터프라이즈용 Microsoft 365에서 해당 제품이나 서비스로 전환하는 방법에 대한 지침을 제공합니다. Windows와 Office 제품, 디바이스 관리, ID, 정보 및 위협 방지와 같은 기타 인프라 및 보안 요소가 포함됩니다.
 
-[전환 포스터를 다운로드](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf)하고 편지형, 법률형 또는 타블로이드(11 x 17) 형식으로 인쇄할 수 있습니다.
+[전환 포스터를 다운로드](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf)하고 편지형, 법률형 또는 타블로이드(11 x 17) 형식으로 인쇄할 수 있습니다.
 
 ## <a name="how-did-others-do-it"></a>다른 사용자는 어떻게 했습니까?
 

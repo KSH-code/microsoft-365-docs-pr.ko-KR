@@ -2,8 +2,8 @@
 title: SharePoint, OneDrive 또는 Microsoft Teams에서 감지한 악성 파일에 대한 정보 보기
 f1.keywords:
 - NOCSH
-ms.author: deniseb
-author: denisebmsft
+ms.author: tracyp
+author: msfttracyp
 manager: dansimp
 audience: ITPro
 ms.topic: article
@@ -16,12 +16,12 @@ ms.assetid: 5ed8abf1-c0e9-4e5b-a5b7-2059cea50b61
 ms.collection:
 - M365-security-compliance
 description: SharePoint, OneDrive 또는 팀에서 검색 된 악성 파일에 대 한 정보를 볼 수 있는 위치 및 해당 파일에 대해 작업을 수행 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 49c7e1668602a63b8b82339ad0cc7823146212a4
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 3a14c7d69c7081be6bd08840eb8f52c5e11d4be7
+ms.sourcegitcommit: 58c1b4208a5e231463091573e40696d08fc39b8e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41599015"
+ms.lasthandoff: 03/25/2020
+ms.locfileid: "42955558"
 ---
 # <a name="view-information-about-malicious-files-detected-in-sharepoint-onedrive-or-microsoft-teams"></a>SharePoint, OneDrive 또는 Microsoft Teams에서 감지한 악성 파일에 대한 정보 보기
 
@@ -53,13 +53,13 @@ Office 365 ATP가 검색 한 파일에 대 한 상태 및 자세한 정보를 �
     
 4. 사용 가능한 작업을 선택 합니다.
     
-  - 파일 차단을 해제 하려면 **파일 릴리스** 를 선택 합니다. 
-    
-    Microsoft **에 보고서 보내기를** 선택 하 여 파일을 가양성으로 microsoft에 보고 합니다. 
-    
-  - 파일 **다운로드** 를 선택 하 여 파일을 더 조사 합니다. 
-    
-  - 격리 **에서 제거** 를 선택 하 여 격리 된 항목 목록에서 파일을 제거 합니다. 이 옵션을 선택 하는 경우 SharePoint Online, 비즈니스용 OneDrive 또는 Microsoft 팀의 각 라이브러리 에서도 해당 파일을 삭제 해야 합니다. 이 옵션을 선택 해도 파일이 열리거나 공유 되지 않도록 차단 해제 되지 않습니다. 
+    - 파일 차단을 해제 하려면 **파일 릴리스** 를 선택 합니다. 
+
+      Microsoft **에 보고서 보내기를** 선택 하 여 파일을 가양성으로 microsoft에 보고 합니다. 
+
+    - 파일 **다운로드** 를 선택 하 여 파일을 더 조사 합니다. 
+
+    - 격리 **에서 제거** 를 선택 하 여 격리 된 항목 목록에서 파일을 제거 합니다. 이 옵션을 선택 하는 경우 SharePoint Online, 비즈니스용 OneDrive 또는 Microsoft 팀의 각 라이브러리 에서도 해당 파일을 삭제 해야 합니다. 이 옵션을 선택 해도 파일이 열리거나 공유 되지 않도록 차단 해제 되지 않습니다. 
     
 5. **닫기를** 선택 하 여 선택한 항목에 대 한 세부 정보를 닫습니다. 
   

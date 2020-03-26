@@ -11,12 +11,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Exchange Online의 원본 위치 eDiscovery 및 원본 위치 유지 및 해당 PowerShell cmdlet은 2020의 처음 절반에서 만료 됩니다. 검색 사서함 cmdlet 및 Office 365 Advanced eDiscovery v 1.0은 동일한 기간 내에도 폐기 됩니다.
-ms.openlocfilehash: a3e19580def43c894e13c58eeaa28af498ad1399
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: f5ca92dc12fae102cef8e7dc5aa3c4c07785cd96
+ms.sourcegitcommit: 58c1b4208a5e231463091573e40696d08fc39b8e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42894855"
+ms.lasthandoff: 03/25/2020
+ms.locfileid: "42955547"
 ---
 # <a name="retirement-of-legacy-ediscovery-tools"></a>레거시 eDiscovery 도구 만료
 
@@ -135,7 +135,13 @@ Microsoft 365 준수 센터에서 새롭게 향상 된 eDiscovery 기능을 사�
 <p>
 <p>또는 검색 결과를 PST 파일로 내보낸 다음 Microsoft 365 가져오기 서비스를 사용 하 여 Pst를 검색 사서함으로 가져올 수 있습니다. 단계별 지침은 <a href="https://docs.microsoft.com/microsoft-365/compliance/use-network-upload-to-import-pst-files">네트워크 업로드를 사용 하 여 PST 파일을 Office 365에 가져오기</a>를 참조 하세요.
 </tr>
-<tr class="even">
+<tr class=even>
+  <td>한 사서함에서 다른 사서함으로 메시지 복사</td>
+  <td><a href="https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-permissions-for-recipients">사서함에 사용 권한 할당</a></td>
+  <td>사용자에 게 다른 사용자의 전자 메일에 대 한 액세스 권한을 부여 하려면 (예: 직원이 조직에서 나갈 때 다른 사람에 게 이전 직원의 전자 메일에 대 한 액세스 권한을 부여 해야 하는 경우) 해당 사용자에 게 기존 직원에 게 액세스 하기 위한 권한 할당을 권장 하는 것이 좋습니다. 사서함별. 따라서 사서함 항목을 다른 사용자 사서함 또는 공유 사서함으로 복사 하는 대신 사용자에 게 원본 사서함에 액세스 하기 위한 권한을 할당 하기만 하면 됩니다.</td>
+  
+  </tr>
+<tr class="odd">
 <td>복구 가능한 항목 폴더에서 항목 복원</td>
   <td><a href="https://docs.microsoft.com/powershell/module/exchange/mailboxes/Restore-RecoverableItems">복원-RecoverableItems</td>
   <td>항목에 대해 삭제 된 항목 보존 기간이 만료 되지 않은 경우 사서함에서 영구적으로 삭제 된 항목 ( <i>일시 삭제</i> 된 항목으로도 알려짐)을 복원할 수 있습니다. 자세한 내용은 <a href="https://docs.microsoft.com/Exchange/security-and-compliance/recoverable-items-folder/recoverable-items-folder">Exchange Online의 복구 가능한 항목 폴더</a>를 참조 하세요.</td>
@@ -216,6 +222,13 @@ Exchange 관리 센터에서 2017 년 7 월 1 일에 발표 된 원래 공지와
 <td>없음</td>
 <td>이 기능은 모든 Microsoft 365 서비스에 대 한 액세스를 제공 하지 않으므로 직접 대체할 수 없습니다. 다른 해결 방법에 대 한 다음 FAQ를 참조 하세요.</td>
 </tr>
+  <tr class=even>
+  <td>한 사서함에서 다른 사서함으로 메시지 복사</td>
+  <td><a href="https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-permissions-for-recipients">사서함에 사용 권한 할당</a></td>
+  <td>사용자에 게 다른 사용자의 전자 메일에 대 한 액세스 권한을 부여 하려면 (예: 직원이 조직에서 나갈 때 다른 사람에 게 이전 직원의 전자 메일에 대 한 액세스 권한을 부여 해야 하는 경우) 해당 사용자에 게 기존 직원에 게 액세스 하기 위한 권한 할당을 권장 하는 것이 좋습니다. 사서함별. 따라서 사서함 항목을 다른 사용자 사서함 또는 공유 사서함으로 복사 하는 대신 사용자에 게 원본 사서함에 액세스 하기 위한 권한을 할당 하기만 하면 됩니다.</td>
+  
+  </tr>
+
 </tbody>
 </table>
 

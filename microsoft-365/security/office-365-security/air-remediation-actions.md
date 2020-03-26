@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 ms.collection: M365-security-compliance
 description: Office 365 Advanced Threat Protection 계획 2의 자동화 된 조사 및 응답 기능의 수정 작업에 대해 알아봅니다.
-ms.openlocfilehash: 2efe0124304a9f9dcfdc92b548c850882ad507a0
-ms.sourcegitcommit: 841c06a5d566d404c35d5e9c0c7de5088daab976
+ms.openlocfilehash: 1dff52fe1bdab364e03bc42afc84c9b54696ccf5
+ms.sourcegitcommit: 58c1b4208a5e231463091573e40696d08fc39b8e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42836861"
+ms.lasthandoff: 03/25/2020
+ms.locfileid: "42955536"
 ---
 # <a name="remediation-actions-following-an-automated-investigation-in-office-365"></a>Office 365의 자동화 된 조사에 따라 수정 작업
 
@@ -45,3 +45,9 @@ ms.locfileid: "42836861"
 - [Office 365에서 자동화 된 조사에 따라 보류 중 또는 완료 된 재구성 작업 보기](air-review-approve-pending-completed-actions.md)
 
 - [Office 365의 자동화 된 조사에 대 한 세부 정보 및 결과](air-view-investigation-results.md)
+
+## <a name="related-articles"></a>관련 문서
+
+- [Microsoft Defender Advanced Threat Protection의 자동화 된 조사](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/automated-investigations)
+
+- [Microsoft 위협 방지](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-threat-protection)

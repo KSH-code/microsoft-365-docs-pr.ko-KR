@@ -22,12 +22,12 @@ search.appverid:
 - GEA150
 ms.assetid: 4436582f-211a-45ec-b72e-33647f97d8a3
 description: Office 365 for business 구독이 만료 되거나, 사용 하지 않도록 설정 되었거나, 취소 된 경우 데이터에 대 한 결과를 알아봅니다.
-ms.openlocfilehash: 717beff94255fe669f9ce9bc733300679ffc3d53
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 2529d5027305a9ceaf71033b4de52a867b9fa9fb
+ms.sourcegitcommit: 58c1b4208a5e231463091573e40696d08fc39b8e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42257673"
+ms.lasthandoff: 03/25/2020
+ms.locfileid: "42955676"
 ---
 # <a name="what-happens-to-my-data-and-access-when-my-office-365-for-business-subscription-ends"></a>비즈니스에 대 한 Office 365 구독이 종료 되 면 내 데이터 및 액세스에 대 한 변화
 
@@ -44,7 +44,7 @@ ms.locfileid: "42257673"
 |------------------------------------------------------------------------|------------------------------------------------------------------------------|------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
 | *모든 데이터에 액세스할 수 있음*                                               | *모든 데이터에 액세스할 수 있음*                                                     | *관리자만 데이터에 액세스할 수 있음*                                             | **다른 서비스<br/>에서 사용 하 고 있지 않은 경우 삭제 된 데이터가 Azure Active Directory를 제거 함** |
 | 사용자에 게 Office 365, 데이터 및 Office 응용 프로그램에 대 한 일반 액세스 권한  | 사용자에 게 Office 365, 파일 및 응용 프로그램에 대 한 일반 액세스 권한              | 사용자가 Office 365, 파일 또는 응용 프로그램에 액세스할 수 없음                        | 사용자가 Office 365, 파일 또는 응용 프로그램에 액세스할 수 없음                                     |
-| 관리자가 Office 365, 데이터 및 Office 응용 프로그램에 대 한 일반 액세스 권한 | 관리자가 관리 센터에 액세스할 수 있음                                           | 관리자가 관리 센터에 액세스할 수 있으 나 사용자에 게 라이선스 할당 불가       | 관리자가 관리 센터에 액세스 하 여 다른 구독을 구매 및 관리할 수 있음             |
+| 관리자가 Office 365, 데이터 및 Office 응용 프로그램에 대 한 일반 액세스 권한 | 관리자가 관리 센터에 액세스할 수 있으 나 사용자에 게 라이선스 할당 불가   | 관리자가 관리 센터에 액세스할 수 있으 나 사용자에 게 라이선스 할당 불가       | 관리자가 관리 센터에 액세스 하 여 다른 구독을 구매 및 관리할 수 있음             |
 |                                                                        | 전역 또는 대금 청구 관리자는 관리 센터에서 구독을 다시 활성화할 수 있습니다. | 전역 또는 대금 청구 관리자는 관리 센터에서 구독을 다시 활성화할 수 있습니다. |                                                                                           |
 
 * 대부분의 국가 및 지역에서 제공 됩니다.
@@ -66,7 +66,7 @@ ms.locfileid: "42257673"
 
   - 선불 카드를 사용 하 여 Office 365 Business를 구매한 경우 구독에 대해 되풀이 되는 [대금 청구 기능을 켤](renew-your-subscription.md) 수 있습니다.
 
-  - 1 년 동안의 선불 구독을 가진 오픈 볼륨 라이선스 고객 인 경우 파트너에 게 문의 하 여 새 제품 키를 구입 합니다. [볼륨 라이선스 서비스 센터](https://go.microsoft.com/fwlink/p/?LinkID=282016)에서 전자 메일을 통해 키를 활성화 하는 지침을 받습니다. 새 파트너 또는 이전에 작업 했던 파트너를 찾는 방법에 대 한 자세한 내용은 [Office 365 파트너 또는 대리점 찾기를](../../admin/manage/find-your-partner-or-reseller.md)참조 하세요.
+  - 1 년 동안의 선불 구독을 가진 오픈 볼륨 라이선스 고객 인 경우 파트너에 게 문의 하 여 새 제품 키를 구입 합니다. [볼륨 라이선스 서비스 센터](https://go.microsoft.com/fwlink/p/?LinkID=282016)에서 전자 메일을 통해 키를 활성화 하는 지침을 받습니다. 새 파트너 또는 이전에 작업 한 파트너를 찾는 방법에 대 한 자세한 내용은 [파트너 또는 대리점 찾기를](../../admin/manage/find-your-partner-or-reseller.md)참조 하세요.
 
   - Office 365 Business가 있는 경우 [구독에 대 한 되풀이 된 청구 관리](renew-your-subscription.md)를 참조 하세요.
 
@@ -90,9 +90,9 @@ ms.locfileid: "42257673"
 
   - 선불 카드를 사용 하 여 Office 365 Business를 구매한 경우 구독에 대해 되풀이 되는 [대금 청구 기능을 켤](renew-your-subscription.md) 수 있습니다.
 
-  - 1 년 동안의 선불 구독을 가진 오픈 볼륨 라이선스 고객 인 경우 파트너에 게 문의 하 여 새 제품 키를 구입 합니다. [볼륨 라이선스 서비스 센터](https://go.microsoft.com/fwlink/p/?LinkID=282016)에서 전자 메일을 통해 키를 활성화 하는 지침을 받습니다. 새 파트너 또는 이전에 작업 했던 파트너를 찾는 방법에 대 한 자세한 내용은 [Office 365 파트너 또는 대리점 찾기를](../../admin/manage/find-your-partner-or-reseller.md)참조 하세요.
+  - 1 년 동안의 선불 구독을 가진 오픈 볼륨 라이선스 고객 인 경우 파트너에 게 문의 하 여 새 제품 키를 구입 합니다. [볼륨 라이선스 서비스 센터](https://go.microsoft.com/fwlink/p/?LinkID=282016)에서 전자 메일을 통해 키를 활성화 하는 지침을 받습니다. 새 파트너 또는 이전에 작업 한 파트너를 찾는 방법에 대 한 자세한 내용은 [파트너 또는 대리점 찾기를](../../admin/manage/find-your-partner-or-reseller.md)참조 하세요.
 
-  - Office 365 Business가 있는 경우 [office 365 비즈니스 에디션 갱신](renew-your-subscription.md)을 참조 하세요.
+  - Office 365 Business가 있는 경우 [구독 갱신](renew-your-subscription.md)을 참조 하세요.
 
 - **구독 만료를 허용 합니다.**
 
@@ -143,7 +143,7 @@ ms.locfileid: "42257673"
 
 이 상태에서는 사용자가 Office 365 포털, Office 응용 프로그램 및 서비스 (예: 전자 메일 및 SharePoint Online)에 대 한 일반 액세스 권한을 갖습니다.
   
-관리자는 여전히 관리 센터에 액세스할 수 있습니다. 전역 또는 대금 청구 관리자는 [구독을 다시 활성화](reactivate-your-subscription.md) 하 고 Office 365를 계속 사용할 수 있습니다. 다시 활성화 하지 않으면 [데이터를 백업](back-up-data-before-switching-plans.md)해야 합니다.
+관리자는 여전히 관리 센터에 대 한 액세스 권한이 있지만 사용자에 게 라이선스를 할당할 수는 없습니다. 전역 또는 대금 청구 관리자 [는 구독을 다시 활성화](reactivate-your-subscription.md) 하 고 Office 365를 계속 사용할 수 있습니다. 다시 활성화 하지 않으면 [데이터를 백업](back-up-data-before-switching-plans.md)해야 합니다.
   
 ### <a name="state-disabled"></a>상태: 사용 안 함
   

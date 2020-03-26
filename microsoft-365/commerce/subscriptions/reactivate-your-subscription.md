@@ -24,13 +24,13 @@ search.appverid:
 - BEA160
 - GEA150
 ms.assetid: 23aa9dd5-a2b0-42f5-8893-9541d2f3761f
-description: 만료 되는 Office 365 구독을 다시 활성화 하는 방법 또는 Microsoft에서 사용 하지 않도록 설정 하거나 중간에 취소 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 4bd5a0b9c8013117b07c69ad222447bdfd56af3a
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+description: 구독이 만료 되는 경우 다시 활성화 하는 방법 또는 Microsoft가 사용 하지 않도록 설정 하는 경우 또는 중앙에서 취소할 수 있습니다.
+ms.openlocfilehash: 6126c9ccc05a1ee0927f928b045bd1c383479893
+ms.sourcegitcommit: 6adfcf042e64b21f09f2b8e072e8eba6d3479e31
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42354609"
+ms.lasthandoff: 03/25/2020
+ms.locfileid: "42952045"
 ---
 # <a name="reactivate-your-subscription"></a>구독 다시 활성화
 

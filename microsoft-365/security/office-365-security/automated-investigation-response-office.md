@@ -15,12 +15,12 @@ search.appverid:
 ms.collection: M365-security-compliance
 description: Office 365 Advanced Threat Protection 계획 2의 자동화 된 조사 및 응답 기능에 대 한 개요를 확인 하세요.
 ms.custom: air
-ms.openlocfilehash: 420143a6a2888900cdc128b22f7b0bcb05adad27
-ms.sourcegitcommit: 2859c82b30ae9cbd3a3e4bcdebd65f18444f1a9e
+ms.openlocfilehash: f6bbad82f3dce7080aca079a5f750dfc1fea068b
+ms.sourcegitcommit: 58c1b4208a5e231463091573e40696d08fc39b8e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42826406"
+ms.lasthandoff: 03/25/2020
+ms.locfileid: "42955578"
 ---
 # <a name="automated-investigation-and-response-air-in-office-365"></a>Office 365의 자동화 된 조사 및 응답 (AIR)
 
@@ -92,7 +92,7 @@ AIR에서는 각 보안 playbook 다음이 포함 됩니다.
 
 ## <a name="example-a-user-reported-phish-message-launches-an-investigation-playbook"></a>예: 사용자가 보고 한 피싱 메시지가 조사 playbook를 시작 합니다.
 
-조직의 사용자가 전자 메일 메시지를 전송 하 고 [outlook 또는 Outlook Web App 용 보고서 메시지 추가 기능](enable-the-report-message-add-in.md)을 사용 하 여 Microsoft에 보고 하는 경우 보고서도 시스템에 전송 되며 사용자가 보고 한 보기의 탐색기에 표시 됩니다. 이 사용자가 보고 한이 메시지는 이제 조사 playbook를 자동으로 시작 하는 시스템 기반 정보 알림을 트리거합니다.
+조직의 사용자가 피싱 시도 라고 생각 하는 전자 메일을 받는 경우를 가정해 보겠습니다. 이러한 메시지를 보고 하도록 훈련 된 사용자는 [outlook 또는 Outlook Web App 용 보고서 메시지 추가 기능](enable-the-report-message-add-in.md) 을 사용 하 여 분석을 위해 Microsoft로 보냅니다. 전송도 시스템에 전송 되 고 **제출 보기의** 탐색기 (이전에는 **사용자가 보고** 한 보기 라고 함)에 표시 됩니다. 또한 사용자가 보고 한 메시지는 이제 조사 playbook를 자동으로 실행 하는 시스템 기반 정보 알림을 트리거합니다.
 
 루트 조사 단계에서는 전자 메일의 다양 한 측면을 평가 합니다. 여기에는 다음이 포함됩니다.
 - 사용할 수 있는 위협의 유형에 대 한 결정
@@ -121,13 +121,13 @@ AIR에서는 각 보안 playbook 다음이 포함 됩니다.
 
 알림을 통해 트리거되는 자동 조사 외에 조직의 보안 운영 팀은 [위협 탐색기](threat-explorer.md)의 보기에서 자동 조사를 트리거할 수 있습니다.
 
-예를 들어 Explorer에서 사용자가 보고 한 메시지에 대 한 데이터를 보고 있다고 가정 합니다. 결과 목록에서 항목을 선택 하 고 작업 메뉴에서 **조사** 를 클릭할 수 있습니다 (적절 한 수정 권한이 있는 경우).
+예를 들어 위협 탐색기에서 **맬웨어** 보기를 사용 한다고 가정해 보겠습니다. 차트 아래 탭을 사용 하 여 **전자 메일** 탭을 선택 합니다. 목록에서 항목을 하나 이상 선택 하면 **+ Actions** 단추가 활성화 됩니다. 
 
-![검사 단추를 사용 하 여 탐색기에서 사용자가 보고 한 메시지](../../media/Explorer-UserReported-Investigate.png)
+:::image type="content" source="../../media/Explorer-Malware-Email-ActionsInvestigate.png" alt-text="선택한 메시지가 있는 탐색기":::
 
-또 다른 예로, 맬웨어를 포함 하는 것으로 검색 된 전자 메일 메시지에 대 한 데이터를 보고 있는 경우 맬웨어가 있는 전자 메일 메시지를 여러 개 검색 한다고 가정해 보겠습니다. **전자 메일** 탭을 선택 하 고 전자 메일 메시지를 하나 이상 선택 하 고 **작업** 메뉴에서 **조사**를 선택 합니다. 
+**동작** 메뉴를 사용 하 여 **트리거 조사**를 선택할 수 있습니다.
 
-![탐색기에서 맬웨어 조사 시작](../../media/Explorer-Malware-Email-ActionsInvestigate.png)
+:::image type="content" source="../../media/explorer-malwareview-selectedemails-actions.jpg" alt-text="선택한 메시지에 대 한 동작 메뉴":::
 
 경고로 트리거되는 playbook와 마찬가지로, 탐색기의 보기에서 트리거되는 자동 조사에는 루트 조사, 위협의 식별 및 상관 지정, 위협 완화를 위한 권장 작업 등이 포함 됩니다.
 

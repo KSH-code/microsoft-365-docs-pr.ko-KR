@@ -23,20 +23,20 @@ search.appverid:
 - BEA160
 ms.assetid: 4fb4bd7e-3920-4ce0-98fb-0c06e3fedf53
 ROBOTS: NOINDEX
-description: Office 365 구독에 라이선스를 추가 하는 방법을 알아봅니다.
-ms.openlocfilehash: 93c2929ae575282716cad7b6f64519f5974e3158
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+description: 구독에 라이선스를 추가 하는 방법을 알아봅니다.
+ms.openlocfilehash: 4d559d977ac507b448d816f3f87e85a923df810f
+ms.sourcegitcommit: 6adfcf042e64b21f09f2b8e072e8eba6d3479e31
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42246367"
+ms.lasthandoff: 03/25/2020
+ms.locfileid: "42951949"
 ---
 # <a name="add-licenses-to-or-extend-a-subscription-paid-for-using-a-product-key"></a>제품 키를 사용 하 여 유료 구독에 라이선스 추가 또는 연장
 
 선불 라이선스는 25 자의 영숫자 코드로 발급 됩니다. 필요한 라이선스를 구매한 후 구독에 추가할 수 있습니다. 제품 키를 사용 하 여 구독의 만료 날짜를 연장할 수도 있습니다.
 
 > [!NOTE]
-> 새 제품 키를 구입 하지 않을 경우에는 언제 든 지 구독에 신용 카드 또는 은행 계좌를 추가 하 여 더 많은 라이선스를 지불 하거나 구독 만료 날짜를 연장할 수 있습니다. 자세한 내용은 [비즈니스용 Office 365 갱신](../subscriptions/renew-your-subscription.md)을 참조 하세요.
+> 새 제품 키를 구입 하지 않을 경우에는 언제 든 지 구독에 신용 카드 또는 은행 계좌를 추가 하 여 더 많은 라이선스를 지불 하거나 구독 만료 날짜를 연장할 수 있습니다. 자세한 내용은 [구독 갱신](../subscriptions/renew-your-subscription.md)을 참조 하세요.
   
 ## <a name="add-licenses-to-your-subscription"></a>구독에 라이선스 추가
 

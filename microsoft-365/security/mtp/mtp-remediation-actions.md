@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 ms.topic: conceptual
 ms.custom: autoir
-ms.openlocfilehash: 76a4fe678ce0106c7345dd3bdf504673733b63b6
-ms.sourcegitcommit: 59b006f8e82d1772cae2029f278a59ae8a106736
+ms.openlocfilehash: ca0c557de24320692d903a1136fc434d635f0507
+ms.sourcegitcommit: 58c1b4208a5e231463091573e40696d08fc39b8e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/25/2020
-ms.locfileid: "42266054"
+ms.lasthandoff: 03/25/2020
+ms.locfileid: "42955594"
 ---
 # <a name="remediation-actions-following-automated-investigations-in-microsoft-threat-protection"></a>Microsoft Threat Protection의 자동화 된 조사에 따라 수정 작업 수행
 
@@ -43,16 +43,16 @@ Microsoft Threat Protection에 대 한 자동화 된 조사 중 및 후에는 �
 
 승인 보류 중 이거나 이미 완료 되었는지 여부에 관계 없이 수정 작업은 [알림 센터](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-action-center)에서 볼 수 있습니다.
 
-## <a name="verdicts-and-outcomes-following-automated-investigations"></a>자동화 된 조사 후 Verdicts 및 결과
+## <a name="remediation-actions-follow-automated-investigations"></a>재구성 작업의 자동화 된 조사 진행
 
 자동화 조사가 완료 되면 관련된 모든 증명정보에 따라 결과가 도출되고 재구성 작업이 식별됩니다.   경우에 따라 수정 작업이 자동으로 수행 됩니다. 그 밖의 경우에는 재구성 작업이 승인을 기다립니다. 도출 가능한 의견과 결과는 다음 테이블에서 확인할 수 있습니다. 
 
-|의견    |영역   |결과|
+|의견    |영역    |결과|
 |------|------|------|
-|악성  |장치 (끝점)    |재구성 작업이 자동으로 실행 됩니다.|
-|악성  |전자 메일 콘텐츠 (Url 또는 첨부 파일) | 승인 보류 중인 재구성 활동 |
-|피싱 |장치 또는 전자 메일 콘텐츠 |승인 보류 중인 재구성 활동 |
-|정리  |장치 또는 전자 메일 콘텐츠   |재구성 작업이 필요 하지 않습니다.|
+|악성    |장치 (끝점)    |재구성 작업이 자동으로 실행 됩니다.|
+|악성    |전자 메일 콘텐츠 (Url 또는 첨부 파일) | 승인 보류 중인 재구성 활동 |
+|피싱    |장치 또는 전자 메일 콘텐츠 |승인 보류 중인 재구성 활동 |
+|발견 된 위협 없음    |장치 또는 전자 메일 콘텐츠    |재구성 작업이 필요 하지 않습니다.|
 
 [활동 센터에서 대기 중인 작업 검토](mtp-autoir-actions.md#review-a-pending-action-in-the-action-center)
 

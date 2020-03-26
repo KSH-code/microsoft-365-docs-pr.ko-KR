@@ -15,12 +15,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: aea95dae0165eb23331b2fa24d5fc752df3f4345
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 8370744d244ce424fa21e496e8dfd4f470de88e6
+ms.sourcegitcommit: 8e8230ceab480a5f1506e31de828f04f5590a350
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42084315"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42959185"
 ---
 # <a name="policy-recommendations-for-securing-email"></a>메일을 보호하기 위한 정책 권장 사항
 
@@ -43,40 +43,18 @@ ms.locfileid: "42084315"
 |**기준선**|[로그인 위험이 *보통* 또는 *높을* 때 MFA 필요](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|클라우드 앱 할당에 Exchange Online 포함|
 |        |[최신 인증을 지원하지 않는 클라이언트 차단](identity-access-policies.md#block-clients-that-dont-support-modern-authentication)|클라우드 앱 할당에 Exchange Online 포함|
 |        |[앱 보호 정책 정의](identity-access-policies.md#high-risk-users-must-change-password)|Outlook이 앱 목록에 포함 되어 있어야 합니다. 각 플랫폼의 정책 (iOS, Android, Windows)을 업데이트 해야 합니다.|
-|        |[승인 된 앱 필요](identity-access-policies.md#require-approved-apps)|클라우드 앱 목록에 Exchange Online 포함|
+|        |[Intune 앱 보호 정책을 지 원하는 앱 필요](identity-access-policies.md#require-apps-that-support-intune-app-protection-policies)|클라우드 앱 목록에 Exchange Online 포함|
 |        |[호환 PC 필요](identity-access-policies.md#require-compliant-pcs-but-not-compliant-phones-and-tablets)|클라우드 앱 목록에 Exchange Online 포함|
 |        |[ActiveSync 클라이언트 차단](#block-activesync-clients)|새 정책 추가| 
-|**중요**|[로그인 위험이 *낮은* *경우 MFA* 필요 **](identity-access-policies.md#require-mfa-based-on-sign-in-risk)| 클라우드 앱 할당에 Exchange Online 포함|
+|**중요**|[로그인 위험이 *낮은* *경우 MFA* 필요 *high*](identity-access-policies.md#require-mfa-based-on-sign-in-risk)| 클라우드 앱 할당에 Exchange Online 포함|
 |         |[준수 Pc *및* 모바일 장치 요구](identity-access-policies.md#require-compliant-pcs-and-mobile-devices)|클라우드 앱 목록에 Exchange Online 포함|
-|**높은 규제**|[*항상* MFA 필요](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|클라우드 앱 할당에 Exchange Online 포함|
+|**매우 엄격한 규제**|[*항상* MFA 필요](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|클라우드 앱 할당에 Exchange Online 포함|
 
 ## <a name="block-activesync-clients"></a>ActiveSync 클라이언트 차단
 
-이 정책은 ActiveSync 클라이언트가 다른 조건부 액세스 규칙을 무시할 수 없도록 합니다. 규칙 구성은 ActiveSync 클라이언트에만 적용 됩니다. 승인 된 **클라이언트 앱 필요**를 선택 하면이 정책은 ActiveSync 클라이언트를 차단 합니다. 이 정책을 구성 하려면 다음을 수행 합니다.
+이 정책은 ActiveSync 클라이언트가 다른 조건부 액세스 규칙을 무시할 수 없도록 합니다. 규칙 구성은 ActiveSync 클라이언트에만 적용 됩니다. 이 정책은 **[앱 보호 정책 필요](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-grant#require-app-protection-policy)** 를 선택 하 여 ActiveSync 클라이언트를 차단 합니다. 이 정책 만들기에 대 한 자세한 내용은 [조건부 액세스를 사용한 클라우드 앱 액세스에 대 한 앱 보호 정책 필요](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access)를 참조 하세요.
 
-1. [Azure Portal](https://portal.azure.com)로 이동한 다음 자격 증명을 사용하여 로그인합니다. 성공적으로 로그인 하면 Azure 대시보드가 표시 됩니다.
-
-2. 왼쪽 메뉴에서 **Azure Active Directory**를 선택합니다.
-
-3. **보안** 섹션 아래에서 **조건부 액세스**를 선택합니다.
-
-4. **새 정책**을 선택합니다.
-
-5. 정책 이름을 입력한 다음 정책을 적용할 **사용자 및 그룹**을 선택합니다.
-
-6. **클라우드 앱**을 선택합니다.
-
-7. **앱 선택을**선택 하 고 **Office 365 Exchange Online**을 선택 합니다. **선택** 및 **완료**를 선택 합니다.
-
-8. **조건을**선택 하 고 **클라이언트 앱**을 선택 합니다.
-
-9. **구성**하려면 **예**를 선택 합니다. **모바일 앱 및 데스크톱 클라이언트** 및 **Exchange ActiveSync 클라이언트만**확인 합니다. **완료**를 선택합니다.
-
-10. **액세스 제어** 섹션에서 **권한 부여**를 선택합니다.
-
-11. **액세스 부여**를 선택 하 고 **승인 된 클라이언트 앱 필요**를 선택 합니다.  여러 컨트롤에 대해 **선택한 컨트롤 필요**를 선택한 다음 **선택을**선택 합니다.
-
-12. **만들기**를 선택합니다.
+1. 시나리오 1의 "2 단계: ActiveSync를 사용 하 여 Azure AD 조건부 액세스 정책 구성 (EAS)" [: Office 365 앱은 앱 보호 정책과 함께 승인 된 앱이 필요](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access#scenario-1-office-365-apps-require-approved-apps-with-app-protection-policies)하므로 기본 인증을 사용 하는 exchange ActiveSync 클라이언트에서 exchange Online에 연결할 수 없습니다.
 
 ## <a name="setup-office-365-message-encryption"></a>Office 365 메시지 암호화 설정
 

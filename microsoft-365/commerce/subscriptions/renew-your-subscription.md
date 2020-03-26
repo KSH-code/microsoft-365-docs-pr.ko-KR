@@ -24,18 +24,18 @@ search.appverid:
 - GEA150
 ms.assetid: 8d83b530-f4ca-47f6-a666-e5791cbacc7e
 description: '제품 키를 사용 하 여 Office 365 비즈니스 구독을 갱신 하 고, 되풀이 대금 청구를 설정 하거나 해제 하는 방법을 알아봅니다. '
-ms.openlocfilehash: bef43359b2a073339488648466adaf4603a12c43
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: 777f60ae40e72a6762015b24ffe1a1f0fed055ba
+ms.sourcegitcommit: 8e8230ceab480a5f1506e31de828f04f5590a350
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42633706"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42959219"
 ---
 # <a name="renew-office-365-for-business"></a>비즈니스용 Office 365 갱신
 
 이 문서는 가장 유료 Office 365 비즈니스 구독에 적용 됩니다.
   
-소매점 매장 또는 Office 365 파트너 로부터 구매한 제품 키를 사용 하 여 갱신 하려면 [Efind를 참조 하 여 제품 키를 입력](../enter-your-product-key.md)합니다.
+소매점 또는 Office 365 파트너 로부터 구매한 제품 키를 사용 하 여 갱신 하려면 [제품 키를 찾아 입력](../enter-your-product-key.md)합니다 .를 참조 하세요.
 
 > [!NOTE]
 > 은행 계좌를 통한 결제는 일부 국가나 지역에서는 사용할 수 없습니다.
@@ -120,7 +120,7 @@ ms.locfileid: "42633706"
   
 [신용 카드 또는 은행 계좌 추가, 업데이트 또는 제거](../billing-and-payments/add-update-or-remove-credit-card-or-bank-account.md)
   
-[Mysubscription이 종료 되 면 내 데이터 및 액세스가 어떻게 될까요?](what-if-my-subscription-expires.md)
+[구독이 종료되면 내 데이터와 액세스 권한에 어떤 변화가 있나요?](what-if-my-subscription-expires.md)
 
 [결제 방법 추가, 업데이트 또는 제거](../billing-and-payments/add-update-or-remove-credit-card-or-bank-account.md)
 

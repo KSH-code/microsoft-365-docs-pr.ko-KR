@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Microsoft 365 Enterprise에 대한 사용자의 ID 인프라를 배포하는 단계입니다.
-ms.openlocfilehash: f32df9a35e09b438b5034ad963523879a639a3fc
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 0189da0814d1d526d9e07ad35dbbabcbfe82a4cd
+ms.sourcegitcommit: 6adfcf042e64b21f09f2b8e072e8eba6d3479e31
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42067332"
+ms.lasthandoff: 03/25/2020
+ms.locfileid: "42952033"
 ---
 # <a name="phase-2-identity"></a>2단계: ID
 
@@ -44,7 +44,7 @@ Microsoft 365 Enterprise에 대한 인증과 ID 모델의 개요에 대한 비�
 
 이 두 페이지 포스터는 Microsoft 365 Enterprise에 대한 ID 개념과 구성을 빠르게 향상시킬 수 있는 방법입니다.
 
-[이 포스터를 다운로드](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/enterprise/media/identity-infrastructure/M365E-ID-Infra.pdf)하고 편지형, 법률형 또는 타블로이드(11 x 17) 형식으로 인쇄할 수 있습니다.
+[이 포스터를 다운로드](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/media/identity-infrastructure/M365E-ID-Infra.pdf)하고 편지형, 법률형 또는 타블로이드(11 x 17) 형식으로 인쇄할 수 있습니다.
 
 ## <a name="plan-and-deploy-your-microsoft-365-enterprise-identity-infrastructure"></a>Microsoft 365 Enterprise ID 인프라 계획 및 배포 
 

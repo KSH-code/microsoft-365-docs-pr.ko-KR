@@ -24,12 +24,12 @@ search.appverid:
 - BEA160
 ms.assetid: 30ba9c83-50d8-4020-90ed-830a5b8c8724
 description: Microsoft 365 관리 센터에서 결제 방법을 관리 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 49f1c0847ef53bea9a16a6aedb20f7d3a96d6e2c
-ms.sourcegitcommit: 9c335d110e0b499501edc8a31b987641819118a1
+ms.openlocfilehash: 47635f5fe5ffd37fbd33c258ab1df729dfc13399
+ms.sourcegitcommit: 6adfcf042e64b21f09f2b8e072e8eba6d3479e31
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "42409703"
+ms.lasthandoff: 03/25/2020
+ms.locfileid: "42952009"
 ---
 # <a name="add-update-or-remove-your-payment-methods"></a>결제 방법 추가, 업데이트 또는 제거
 
@@ -107,7 +107,7 @@ ms.locfileid: "42409703"
 6. 드롭다운 목록에서 새 결제 방법을 선택 하 고 **변경을**선택 합니다.
     > [!WARNING]
     > 이렇게 하면 모든 구독이 새 결제 방법으로 이동 됩니다.
-7. **삭제**를 선택 합니다.
+7. **삭제**를 선택합니다.
 
 ### <a name="change-the-payment-method-used-to-pay-for-subscriptions"></a>구독 요금을 지불 하는 데 사용 되는 지불 방법 변경
 
@@ -120,7 +120,7 @@ ms.locfileid: "42409703"
 5. 드롭다운 목록에서 대체 지불 방법을 선택한 다음 **변경을**선택 합니다.
     > [!WARNING]
     > 이렇게 하면 모든 구독이 대체 결제 방법으로 이동 됩니다.
-6. **삭제**를 선택 합니다.
+6. **삭제**를 선택합니다.
 
 ### <a name="change-the-payment-method-for-a-billing-profile"></a>대금 청구 프로필에 대 한 결제 방법 변경
 
@@ -158,9 +158,7 @@ ms.locfileid: "42409703"
 이 문서에 설명된 작업을 수행하려면 전역 관리자 또는 대금 청구 관리자여야 합니다.
   
  **관리자가 아니세요?** IT 관리자에 게 문의 하 여 도움을 요청 하세요. [내 비즈니스에서 관리자 사용 권한이 있는 사람은 누구 입니까?](../../admin/admin-overview/admin-overview.md#who-has-admin-permissions-in-my-business)
-  
- **Office 365 Home 또는 Personal의**경우 [Microsoft 계정에 연결 된 결제 방법 또는 신용 카드 변경을](https://support.microsoft.com/help/4026594)참조 하세요.
-  
+
 > [!NOTE]
 > 일부 국가나 지역에서는 은행 계좌 결제 옵션을 사용할 수 없습니다.
 >
@@ -181,7 +179,7 @@ ms.locfileid: "42409703"
 4. 새 신용 카드 또는 은행 계좌에 대 한 정보를 입력 한 다음 **제출을**선택 합니다.
 
     > [!NOTE]
-    > 새 신용 카드 또는 은행 계좌는 2 단계에서 선택한 Office 365 구독에만 사용 됩니다. 새 신용 카드 또는 은행 계좌를 사용하려는 다른 구독이 있는 경우 이 문서의 단계에 따라 각 구독 비용을 결제하는 데 사용되는 신용 카드 또는 은행 계좌를 변경합니다.
+    > 새 신용 카드 또는 은행 계좌는 2 단계에서 선택한 구독에만 사용 됩니다. 새 신용 카드 또는 은행 계좌를 사용하려는 다른 구독이 있는 경우 이 문서의 단계에 따라 각 구독 비용을 결제하는 데 사용되는 신용 카드 또는 은행 계좌를 변경합니다.
 
 ::: moniker-end
 
@@ -191,8 +189,6 @@ ms.locfileid: "42409703"
 이 문서에 설명된 작업을 수행하려면 전역 관리자 또는 대금 청구 관리자여야 합니다.
   
  **관리자가 아니세요?** IT 관리자에게 지원을 문의하세요. [비즈니스에서 누가 관리자 계정을 가지고 있나요?](../../admin/admin-overview/admin-overview.md#who-has-admin-permissions-in-my-business)
-  
- **Office 365 Home 또는 Personal의**경우 [Microsoft 계정에 연결 된 결제 방법 또는 신용 카드 변경을](https://support.microsoft.com/help/4026594)참조 하세요.
   
 > [!NOTE]
 > 일부 국가나 지역에서는 은행 계좌 결제 옵션을 사용할 수 없습니다.
@@ -212,7 +208,7 @@ ms.locfileid: "42409703"
 4. 새 신용 카드 또는 은행 계좌에 대 한 정보를 입력 한 다음 **제출을**선택 합니다.
 
     > [!NOTE]
-    > 새 신용 카드 또는 은행 계좌는 2 단계에서 선택한 Office 365 구독에만 사용 됩니다. 새 신용 카드 또는 은행 계좌를 사용하려는 다른 구독이 있는 경우 이 문서의 단계에 따라 각 구독 비용을 결제하는 데 사용되는 신용 카드 또는 은행 계좌를 변경합니다.
+    > 새 신용 카드 또는 은행 계좌는 2 단계에서 선택한 구독에만 사용 됩니다. 새 신용 카드 또는 은행 계좌를 사용하려는 다른 구독이 있는 경우 이 문서의 단계에 따라 각 구독 비용을 결제하는 데 사용되는 신용 카드 또는 은행 계좌를 변경합니다.
 
 ::: moniker-end
 

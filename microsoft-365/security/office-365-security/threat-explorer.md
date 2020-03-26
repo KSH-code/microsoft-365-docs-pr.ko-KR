@@ -2,8 +2,8 @@
 title: 위협 탐색기 및 실시간 검색, 위협 탐색기에 대 한 새로운 기능, Office 365, 보안, 클라우드 보안, 새로운 기능의 신규 보안, 새로운 ATP 기능의 변경 사항
 f1.keywords:
 - NOCSH
-ms.author: deniseb
-author: denisebmsft
+ms.author: tracyp
+author: msfttracyp
 manager: dansimp
 audience: ITPro
 ms.topic: article
@@ -16,12 +16,12 @@ ms.assetid: 82ac9922-939c-41be-9c8a-7c75b0a4e27d
 ms.collection:
 - M365-security-compliance
 description: 보안 &amp; 및 준수 센터의 Explorer 및 실시간 검색에 대해 알아봅니다.
-ms.openlocfilehash: 3ddcaf4dc457ead7a203e00d71d0d18c23ee6557
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 47dd871a385613c08ad5b4c02a7be8701e4b93a8
+ms.sourcegitcommit: 58c1b4208a5e231463091573e40696d08fc39b8e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42082160"
+ms.lasthandoff: 03/25/2020
+ms.locfileid: "42955606"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>위협 탐색기 및 실시간 검색
 
@@ -94,13 +94,13 @@ Explorer (또는 실시간 검색)를 사용 하는 경우 보안 운영 팀이 
 
 또한 이제는 URL 클릭에 대 한 보고서를 Microsoft Excel로 내보내 해당 네트워크 메시지 ID를 확인 하 고, 결과 클릭 하 여 URL이 더 쉽게 전송 되는 위치를 이해 하는 작업을 수행할 수 있습니다. 작동 방식은 다음과 같습니다. Office 365 빠른 실행의 위협 관리에서이 체인을 통해를 클릭 합니다.
 
-**Explorer** > **보기 피싱** > **** 클릭 > **위쪽 url 또는 위쪽** > url**클릭 모든 레코드에서 url 플라이 아웃을 클릭할 수** 있습니다.
+**Explorer** > **보기 피싱** > **Clicks**클릭 > **위쪽 url 또는 위쪽** > url**클릭 모든 레코드에서 url 플라이 아웃을 클릭할 수** 있습니다.
 
 목록에서 URL을 클릭 하면 플라이 아웃 패널에 새 내보내기 단추가 표시 됩니다. 이 단추를 사용 하 여 데이터를 보다 쉽게 보고 하도록 Excel 스프레드시트로 이동 합니다.
 
 실시간 검색 보고서의 동일한 위치를 다음과 같이 가져올 수 있습니다.
 
-**Explorer** > **실시간** >  >  > **** > ******** **** 검색 보기 피싱 url 상위 url 또는 맨 위 클릭**모든 레코드를 클릭 하 여 URL 플라이 아웃을 열려면**클릭 탭으로 이동 합니다. > 
+**Explorer** > **실시간** >  >  > **View Phish** > **URLs****Navigate to the Clicks Tab.** **Top URLs or Top Clicks**검색 보기 피싱 url 상위 url 또는 맨 위 클릭**모든 레코드를 클릭 하 여 URL 플라이 아웃을 열려면**클릭 탭으로 이동 합니다. > 
 
 > [!TIP]
 > Network Message ID는 네트워크 메시지 ID를 통해 탐색기나 연결 된 타사 도구를 검색할 때 클릭을 특정 메일에 다시 매핑합니다. 네트워크 메시지 ID를 통해 검색 하면 관리자가 클릭 결과와 연결 된 특정 전자 메일을 제공 합니다. 내보낼 때 네트워크 메시지 ID의 일치 확인을 통해 더 빠르고 강력한 분석이 가능 합니다.
@@ -139,7 +139,7 @@ Office 365 기술을 통해 전자 메일로 검색 된 맬웨어를 확인 하�
 
    - **상위 url** 은 필터링 된 메시지에 포함 된 url 및 각 URL에 대 한 전자 메일 배달 작업 수입니다. 피싱 전자 메일 보기에서 일반적으로이 목록에는 합법적인 Url이 포함 됩니다. 공격자는 메시지에 효과적이 고 잘못 된 Url을 함께 사용 하 여 배달 하려고 할 수 있지만, 사용자가 클릭 하는 데 더 흥미로운 악성 링크를 만들 수 있습니다. Url의 테이블은 총 전자 메일 수를 기준으로 정렬 됩니다 (참고:이 열은 보기를 단순하게 하기 위해 표시 되지 않음).
 
-   - **위쪽** 클릭은 클릭 한 안전한 링크 래핑된 url이 총 클릭 횟수에 따라 정렬 되며 보기를 단순화 하기 위해이 열도 표시 되지 않습니다. 총 개수 열에서 안전한 링크를 나타냅니다. 클릭 한 각 URL에 대해 결과 count를 클릭 합니다. 피싱 email (전자 메일 보기)에서 이러한 메시지는 일반적으로 의심 되거나 악성 Url 이지만 피싱 메시지가 있는 깨끗 한 Url을 포함할 수 있습니다. 래핑 해제 한 링크의 URL 클릭은 여기에 표시 되지 않습니다.
+   - **위쪽** 클릭은 클릭 한 안전한 링크 래핑된 url이 총 클릭 횟수에 따라 정렬 되며 보기를 단순화 하기 위해이 열도 표시 되지 않습니다. 총 개수 열에서 안전한 링크를 나타냅니다. 클릭 한 각 URL에 대해 결과 count를 클릭 합니다. 피싱 email (전자 메일 보기)에서 이러한 메시지는 일반적으로 의심 되거나 악성 Url 이지만 위협이 아닌 Url을 포함할 수 있지만 피싱 메시지가 있습니다. 래핑 해제 한 링크의 URL 클릭은 여기에 표시 되지 않습니다.
    
    두 개의 URL 테이블은 배달 작업 및 위치로 피싱 전자 메일 메시지의 상위 Url을 표시 하 고, 사용자가 사용자와 상호 작용 한 잘못 된 링크를 확인할 수 있도록 차단 된 (또는 경고에 따라 방문) URL 클릭을 보여 줍니다. 여기서는 추가 분석을 수행할 수 있습니다. 예를 들어 차트 아래에서 조직의 환경에서 차단 된 전자 메일 메시지의 최상위 Url을 볼 수 있습니다.
    
