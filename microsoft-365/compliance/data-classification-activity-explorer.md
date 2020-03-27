@@ -1,5 +1,5 @@
 ---
-title: 데이터 분류 활동 탐색기 사용
+title: 콘텐츠 탐색기로 시작(미리 보기)
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -16,14 +16,14 @@ search.appverid:
 - MOE150
 - MET150
 description: 활동 탐색기는 사용자가 레이블이 지정된 콘텐츠에 대해 수행하는 작업을 확인하고 필터링하여 데이터 분류 기능을 자세히 설명합니다.
-ms.openlocfilehash: f80ce94433028b2434d442a364c336060b730d94
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 68304bc75d33c993db52895828ec49e3b5203a4c
+ms.sourcegitcommit: 3b2fdf159d7dd962493a3838e3cf0cf429ee2bf2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42076776"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "42929462"
 ---
-# <a name="view-activity-on-your-labeled-content-preview"></a>레이블이 지정된 콘텐츠의 활동 보기(미리 보기)
+# <a name="get-started-with-activity-explorer-preview"></a>활동 탐색기로 시작(미리 보기)
 
 데이터 분류 개요 및 콘텐츠 탐색기 탭을 통해 검색된 후 레이블이 지정된 콘텐츠와 해당 콘텐츠의 위치를 확인할 수 있습니다. 활동 탐색기는 사용자가 레이블이 지정된 콘텐츠로 수행한 작업을 모니터링할 수 있도록 하여 이 기능 제품군을 자세히 설명합니다. 활동 탐색기는 기록 보기를 제공합니다.
 

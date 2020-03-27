@@ -1,5 +1,5 @@
 ---
-title: 데이터 분류 콘텐츠 탐색기(미리 보기) 사용
+title: 콘텐츠 탐색기로 시작(미리 보기)
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -16,14 +16,14 @@ search.appverid:
 - MOE150
 - MET150
 description: 콘텐츠 탐색기를 사용하여 레이블이 지정된 항목을 원래 상태로 볼 수 있습니다.
-ms.openlocfilehash: 205ec6b4f2049e18ee95f25505d8a58d7eb7ac77
-ms.sourcegitcommit: 9c335d110e0b499501edc8a31b987641819118a1
+ms.openlocfilehash: 91246a701e1c5a030f4c9c53e25e56c137e7569b
+ms.sourcegitcommit: 3b2fdf159d7dd962493a3838e3cf0cf429ee2bf2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "42409693"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "42929410"
 ---
-# <a name="using-data-classification-content-explorer-preview"></a>데이터 분류 콘텐츠 탐색기(미리 보기) 사용
+# <a name="get-started-with-content-explorer-preview"></a>콘텐츠 탐색기로 시작(미리 보기)
 
 데이터 분류 콘텐츠 탐색기를 사용하여 개요 페이지에 요약된 항목을 원래 상태로 볼 수 있습니다.
 

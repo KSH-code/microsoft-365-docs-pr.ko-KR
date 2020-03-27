@@ -20,12 +20,12 @@ search.appverid:
 ms.assetid: da585eea-f576-4f55-a1e0-87090b6aaa9d
 description: 관리자 역할은 비즈니스 기능에 매핑되며 관리 센터에서 특정 작업을 수행할 수 있는 권한을 부여합니다. 예를 들어 서비스 관리자는 Microsoft로 지원 티켓을 엽니다.
 ms.custom: okr_smb
-ms.openlocfilehash: 446af9ad49649487f4df1982613f8e84fdf39910
-ms.sourcegitcommit: fe4beef350ef9f39b1098755cff46fa2b8e7dc4d
+ms.openlocfilehash: 22693bbf8acdf8872b621ae214dd8d7a62b98b40
+ms.sourcegitcommit: 3b2fdf159d7dd962493a3838e3cf0cf429ee2bf2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42857194"
+ms.lasthandoff: 03/24/2020
+ms.locfileid: "42929553"
 ---
 # <a name="about-admin-roles"></a>관리자 역할 정보
 
@@ -119,6 +119,7 @@ Microsoft 365 관리 센터를 통해 30개 이상의 Azure AD 역할을 관리�
 |Power BI 관리자    |   전원 Bl 관리 작업 전체에 액세스하고 서비스 요청을 관리하고 서비스 상태를 모니터링합니다.   |
 |파워 플랫폼 관리자     |    Microsoft Dynamics 365, PowerApp, 데이터 손실 방지 정책 및 Microsoft Flow에 대한 전체에 액세스합니다.     |
 |권한 있는 역할 관리자     |    Privileged Identity Management의 모든 액세스 제어 기능과 역할 할당을 관리합니다.     |
+|권한 있는 인증 관리자     |    비밀번호를 재설정하고 비밀번호가 아닌 자격 증명을 업데이트하며 강제로 사용을 로그 아웃시켜 서비스 상태를 모니터링하고 서비스 요청을 관리합니다.     |
 |보고서 읽기 권한자     |   보고서 대시 보드, PowerBI 채택 컨텐츠 팩, 로그인 보고서 및 Microsoft Graph 보고 API에서 사용량 보고 데이터를 읽습니다.      |
 |검색 관리자     |    Microsoft 검색 전체에 액세스하고 검색 관리자 및 검색 편집자 역할을 할당하고 편집 콘텐츠를 관리하고 서비스 상태를 모니터링하고 서비스 요청을 만듭니다.     |
 |검색 편집자     |    책갈피, Q&A 및 위치와 같은 Microsoft Search에 대한 콘텐츠만을 만들고 편집하고 삭제할 수 있습니다.     |
