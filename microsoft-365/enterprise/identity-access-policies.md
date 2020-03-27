@@ -15,12 +15,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: 772c4c5785115995593a4946bfbac49312ad15f3
-ms.sourcegitcommit: 8e8230ceab480a5f1506e31de828f04f5590a350
+ms.openlocfilehash: cfeef08c087d826d3e6f90bd1bb87bd852859a7c
+ms.sourcegitcommit: 7646e2d742d1b2fad085a00200a2a10461dd4bac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 03/26/2020
-ms.locfileid: "42959231"
+ms.locfileid: "42978269"
 ---
 # <a name="common-identity-and-device-access-policies"></a>일반 ID 및 장치 액세스 정책
 이 문서에서는 Azure AD 응용 프로그램 프록시를 통해 게시 된 온-프레미스 응용 프로그램을 포함 하 여 클라우드 서비스에 대 한 액세스를 보호 하기 위한 일반적인 권장 정책을 설명 합니다. 
@@ -217,7 +217,7 @@ MFA를 요청 하기 전에 먼저 Id 보호 MFA 등록 정책을 사용 하 여
    > [!NOTE]
    > 이 정책은 모바일 사용자가 해당 앱을 사용 하 여 모든 Office 끝점에 액세스할 수 있도록 합니다.
 
-2. Exchange Online에 대 한 모바일 액세스를 사용 하도록 설정 하는 경우 기본 인증을 활용 하는 Exchange ActiveSync 클라이언트에서 Exchange Online에 연결할 수 없도록 [ActiveSync 클라이언트 차단] (보안-전자 메일-권장 정책. md-클라이언트)을 구현 합니다.
+2. Exchange Online에 모바일 액세스를 사용 하도록 설정 하는 경우 [ActiveSync를 차단](secure-email-recommended-policies.md#block-activesync-clients)하는 클라이언트를 구현 하 여 기본 인증을 활용 하는 exchange ActiveSync 클라이언트가 exchange online에 연결 하지 못하도록 합니다.
 
    권한 부여 컨트롤을 활용 하는 위의 정책에는 [승인 된 클라이언트 앱이 필요](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-grant#require-approved-client-app) 하며 [앱 보호 정책이 필요](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-grant#require-app-protection-policy)합니다.
 

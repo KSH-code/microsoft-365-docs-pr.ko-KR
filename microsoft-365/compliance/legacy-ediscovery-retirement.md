@@ -11,14 +11,17 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Exchange Online의 원본 위치 eDiscovery 및 원본 위치 유지 및 해당 PowerShell cmdlet은 2020의 처음 절반에서 만료 됩니다. 검색 사서함 cmdlet 및 Office 365 Advanced eDiscovery v 1.0은 동일한 기간 내에도 폐기 됩니다.
-ms.openlocfilehash: f5ca92dc12fae102cef8e7dc5aa3c4c07785cd96
-ms.sourcegitcommit: 58c1b4208a5e231463091573e40696d08fc39b8e
+ms.openlocfilehash: 5ee588b2c05241628242e8660f10c23dba809bf8
+ms.sourcegitcommit: 7646e2d742d1b2fad085a00200a2a10461dd4bac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2020
-ms.locfileid: "42955547"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42978168"
 ---
 # <a name="retirement-of-legacy-ediscovery-tools"></a>레거시 eDiscovery 도구 만료
+
+> [!IMPORTANT]
+> Microsoft는 공개 상태 상황을 평가 했으며이로 인해 고객에 게 미치는 영향을 이해 하 고 있습니다. 강력 하 게 파트너와 협력 하 고 글로벌 시민을 맡고 싶습니다. 지금까지 수행 하는 여러 부담 중 하나를 간편 하 게 하려면 아래에 나열 된 레거시 eDiscovery 도구에 대 한 예약 된 만료를 3 개월로 연기 합니다. **업데이트 된 만료 날짜는 아래에 반영 됩니다.**
 
 Microsoft는 지난 몇 년 동안 Exchange Online에서 전자 메일 콘텐츠를 검색, 미리 보기 및 내보내는 데 사용할 수 있는 eDiscovery 도구를 제공 하 고 있습니다. 그러나 이러한 도구는 더 이상 SharePoint Online 및 Office 365 그룹과 같은 다른 Office 365 서비스에서 비 Exchange 콘텐츠를 검색 하는 효율적인 방법을 제공 하지 않습니다. 이 문제를 해결 하기 위해 Microsoft는 광범위 한 Office 365 콘텐츠를 검색 하는 데 도움이 되는 기타 eDiscovery 도구를 제공 합니다. 그리고 [Microsoft 365 준수 센터](https://compliance.microsoft.com)의 최신 eDiscovery 기능을 최신 및 강력 하 게 통합 하는 것이 어려운 작업입니다. 이를 통해 조직은 Exchange Online을 비롯 한 여러 Office 365 서비스에서 콘텐츠에 대 한 법적, 내부 및 기타 문서 요청에 응답할 수 있습니다.
 
@@ -78,9 +81,9 @@ Microsoft 365 준수 센터에서 새롭게 향상 된 eDiscovery 기능을 사�
 
 ### <a name="timeline-for-retirement"></a>만료에 대 한 시간 표시 막대
 
-- 2020 년 4 월 1 일: 새 검색 및 보류를 만들 수는 없지만 기존 검색을 계속 실행 하 고 편집 하 고 삭제할 수는 없습니다. Microsoft Support는 EAC에서 더 이상 원본 위치 eDiscovery & 보존 되지 않습니다.
+- 2020 년 7 월 1 일: 새 검색 및 보류를 만들 수는 없지만 기존 검색을 계속 실행 하 고 편집 하 고 삭제할 수 있습니다. Microsoft Support는 EAC에서 더 이상 원본 위치 eDiscovery & 보존 되지 않습니다.
 
-- 2020 년 7 월 1 일: EAC의 원본 위치 eDiscovery &은 읽기 전용 모드로 설정 됩니다. 즉, 기존 검색 및 보류만 제거할 수 있습니다.
+- 2020: EAC의 원본 위치 eDiscovery & 보존 기능은 읽기 전용 모드에 저장 됩니다. 즉, 기존 검색 및 보류만 제거할 수 있습니다.
 
 ### <a name="alternative-tools"></a>대체 도구
 
@@ -181,9 +184,9 @@ Exchange 관리 센터에서 2017 년 7 월 1 일에 발표 된 원래 공지와
 
 ### <a name="timeline"></a>시간 표시 막대
 
-- 2020 년 4 월 1 일 **: 새 원본** 위치 eDiscovery 검색 및 원본 위치 유지를 만들 수는 없지만 cmdlet을 사용 하 여 기존 검색을 실행, 편집 및 삭제 하 고 사용자의 위험에도 영향을 받을 수 있습니다. Microsoft Support는 이러한 유형의 검색 및 보존에 대 한 지원을 더 이상 제공 하지 않습니다.
+- 7 월 1 일, 2020 **: 새 원본** 위치 eDiscovery 검색 및 원본 위치 유지를 만들 수는 없지만, cmdlet을 사용 하 여 기존 검색을 실행, 편집 및 삭제 하 고 사용자의 위험에도 영향을 받을 수 있습니다. Microsoft Support는 이러한 유형의 검색 및 보존에 대 한 지원을 더 이상 제공 하지 않습니다.
 
-- 2020 년 7 월 1 일: 앞에서 설명한 것 처럼 EAC의 원본 위치 eDiscovery &은 읽기 전용 모드로 설정 됩니다. 이는 또한 **new-mailboxsearch**, **new-mailboxsearch**또는 **new-mailboxsearch** cmdlet을 사용할 수 없음을 의미 합니다. 기존 검색 및 보류만 가져오고 제거할 수 있습니다.
+- 2020 년 10 월 1 일: 앞에서 설명한 것 처럼 EAC의 원본 위치 eDiscovery &는 읽기 전용 모드에 저장 됩니다. 이는 또한 **new-mailboxsearch**, **new-mailboxsearch**또는 **new-mailboxsearch** cmdlet을 사용할 수 없음을 의미 합니다. 기존 검색 및 보류만 가져오고 제거할 수 있습니다.
 
 ### <a name="alternative-tools"></a>대체 도구
 
@@ -262,7 +265,7 @@ Exchange Online PowerShell의 **검색 사서함** cmdlet은 처음에 2018에�
 
 ### <a name="timeline"></a>시간 표시 막대
 
--  2020 년 4 월 1 일: **검색 사서함** cmdlet은 더 이상 사용할 수 없게 되며 Microsoft Support에서는 더 이상 지원을 제공 하지 않습니다.
+-  2020 년 7 월 1 일: **검색 사서함** cmdlet을 더 이상 사용할 수 없으며 Microsoft Support에서 더 이상 지원을 제공 하지 않습니다.
 
 ### <a name="alternative-tools"></a>대체 도구
 
@@ -324,7 +327,7 @@ Exchange 웹 서비스 API에서 이러한 작업은 exchange 관리 센터의 �
 
 ### <a name="timeline"></a>시간 표시 막대
 
-- 2020 년 4 월 1 일: GetSearchableMailboxes, Search우편함, SetHoldOnMailboxes 및 GetHoldOnMailboxes 작업을 더 이상 사용할 수 없으며 Microsoft Support에서 더 이상 지원을 제공 하지 않습니다.
+- 2020 년 7 월 1 일: GetSearchableMailboxes, Search우편함, SetHoldOnMailboxes 및 GetHoldOnMailboxes 작업을 더 이상 사용할 수 없으며 Microsoft Support에서 더 이상 지원을 제공 하지 않습니다.
 
 ## <a name="advanced-ediscovery-v10"></a>Advanced eDiscovery v 1.0
 
@@ -332,7 +335,7 @@ Advanced ediscovery를 사용 하는 advanced ediscovery 버전의 고급 edisco
 
 Microsoft 365 ( *Advanced eDiscovery v 2.0*이 라고도 함)의 새로운 고급 ediscovery 솔루션은 원래 솔루션의 모든 기능을 제공 하지만, 해당 콘텐츠를 수집한 다음 custodian가 fast search 쿼리, 태그 지정 및 분석 기능을 활용 하 여 관련 문서를 cull 수 있도록 하는 검토 집합에 추가 하는 365 방법에 대해 설명 합니다. 이제 고급 eDiscovery에는 Microsoft 및 Microsoft 이외의 파일 형식에 대 한 향상 된 처리 및 기본 뷰어가 포함 되어 있으므로 전체 파일 형식 목록과 지원 [되는 메타](https://docs.microsoft.com/microsoft-365/compliance/document-metadata-fields-in-advanced-ediscovery)데이터 [필드가 여기에](https://docs.microsoft.com/microsoft-365/compliance/supported-filetypes-ediscovery20) 있습니다. 또한 새로운 고급 eDiscovery 솔루션은 다른 서비스의 콘텐츠에 보류를 적용 하 고, 보류를 사용자에 게 알리고, custodian 응답을 고급 eDiscovery 사례 내에서 추적할 수 있도록 하는 강력한 custodian 유지 관리 기능을 제공 합니다.
 
-지금은 eDiscovery 워크플로를 새 고급 eDiscovery 기능으로 전환 하기 시작 하는 것이 좋습니다. 기존 사례에서는 여전히 고급 eDiscovery v 1.0에 액세스할 수 있지만 Microsoft Support는 2020 년 7 월 1 일 이후에는 지원을 제공 하지 않습니다. 자세한 내용은 다음 시간 표시 막대를 참조 하세요.
+지금은 eDiscovery 워크플로를 새 고급 eDiscovery 기능으로 전환 하기 시작 하는 것이 좋습니다. 기존 사례에서는 여전히 고급 eDiscovery v 1.0에 액세스할 수 있지만 Microsoft Support는 2020 년 10 월 1 일 이후에는 지원을 제공 하지 않습니다. 자세한 내용은 다음 시간 표시 막대를 참조 하세요.
 
 ### <a name="scope-of-affected-organizations"></a>영향을 받는 조직의 범위
     
@@ -344,9 +347,9 @@ Microsoft 365 ( *Advanced eDiscovery v 2.0*이 라고도 함)의 새로운 고�
 
 ### <a name="timeline"></a>시간 표시 막대
 
-- 2020 년 4 월 1 일: 새 고급 eDiscovery v 1.0 사례를 만들 수 없습니다.
+- 2020 년 7 월 1 일: 새 고급 eDiscovery v 1.0 사례를 만들 수 없습니다.
 
-- 2020 년 7 월 1 일: 모든 경우에 새 데이터 (고급 eDiscovery에 대 한 검색 결과 준비)를 추가할 수 없습니다. 기존 사례에서 데이터 작업을 계속 수행할 수 있습니다. Microsoft Support에서는 더 이상 지원을 제공 하지 않습니다. 
+- 2020 년 10 월 1 일: 모든 경우에 새 데이터 (고급 eDiscovery에 대 한 검색 결과 준비)를 추가할 수 없습니다. 기존 사례에서 데이터 작업을 계속 수행할 수 있습니다. Microsoft Support에서는 더 이상 지원을 제공 하지 않습니다. 
 
 ### <a name="alternative-tools"></a>대체 도구
 

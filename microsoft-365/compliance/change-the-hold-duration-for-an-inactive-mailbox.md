@@ -16,19 +16,19 @@ ms.collection:
 search.appverid: MOE150
 ms.assetid: bdee24ed-b8cf-4dd0-92ae-b86ec4661e6b
 description: Office 365 사서함이 비활성 상태가 되 면 비활성 사서함에 할당 된 보류 또는 Office 365 보존 정책의 기간을 변경할 수 있습니다. 보류 기간은 복구 가능한 항목 폴더에서 항목이 보관 되는 기간을 정의 합니다.
-ms.openlocfilehash: bcfea972bd627da831e9927884669d2ed8ee5234
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 3d4b8f6195e0034b5801b394c232d21d85fa7d1e
+ms.sourcegitcommit: 7646e2d742d1b2fad085a00200a2a10461dd4bac
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42078943"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42978248"
 ---
 # <a name="change-the-hold-duration-for-an-inactive-mailbox-in-office-365"></a>Office 365에서 비활성 사서함에 대 한 보존 기간 변경
 
 비활성 사서함은 조직에서 이전 직원의 전자 메일을 유지 하는 데 사용 됩니다. 소송 보존, 원본 위치 유지, Office 365 보존 정책 또는 eDiscovery 사례와 연결 된 보류가 사서함에 배치 되 고 해당 Office 365 사용자 계정이 삭제 되 면 사서함이 비활성화 됩니다. 비활성 사서함의 콘텐츠는 비활성 상태로 설정 되기 전에 사서함에 적용 된 보류 기간 동안 보존 됩니다. 보류 기간은 복구 가능한 항목 폴더에서 항목이 보관 되는 기간을 정의 합니다. 복구 가능한 항목 폴더의 항목에 대 한 보존 기간이 만료 되 면 해당 항목이 비활성 사서함에서 영구적으로 삭제 (제거) 됩니다. 사서함을 비활성화 한 후 비활성 사서함에 할당 된 보류 또는 Office 365 보존 정책의 기간을 변경할 수 있습니다.
   
 > [!IMPORTANT]
-> 계속 해 서 사서함 콘텐츠를 보존 하는 다양 한 방법을 사용할 때 Exchange 관리 센터에서 원본 위치 유지의 만료를 알리는 것입니다. 즉, 소송 보류 및 Office 365 보존 정책을 사용 하 여 비활성 사서함을 만들어야 합니다. 2020 년 4 월 1 일부 터 Exchange Online에 새로운 현재 위치 유지를 만들 수 없습니다. 그러나 비활성 사서함에 저장 된 원본 위치 유지의 보존 기간은 여전히 변경할 수 있습니다. 그러나 2020 년 7 월 1 일부 터 시작 하는 경우에는 보류 시간을 변경할 수 없습니다. 원본 위치 유지를 제거 해야만 비활성 사서함을 삭제할 수 있습니다. 원본 위치 유지 상태인 기존 비활성 사서함은 보존을 제거할 때까지 계속 유지 됩니다. 원본 위치 유지의 만료에 대 한 자세한 내용은 [레거시 eDiscovery 도구의 만료](legacy-ediscovery-retirement.md)를 참조 하세요.
+> 계속 해 서 사서함 콘텐츠를 보존 하는 다양 한 방법을 사용할 때 Exchange 관리 센터에서 원본 위치 유지의 만료를 알리는 것입니다. 즉, 소송 보류 및 Office 365 보존 정책을 사용 하 여 비활성 사서함을 만들어야 합니다. 2020 년 7 월 1 일부 터 시작 Exchange Online에 새로운 현재 위치 유지를 만들 수 없습니다. 그러나 비활성 사서함에 저장 된 원본 위치 유지의 보존 기간은 여전히 변경할 수 있습니다. 그러나 2020 년 10 월 1 일부 터 시작 하는 경우에는 보존 기간을 변경할 수 없습니다. 원본 위치 유지를 제거 해야만 비활성 사서함을 삭제할 수 있습니다. 원본 위치 유지 상태인 기존 비활성 사서함은 보존을 제거할 때까지 계속 유지 됩니다. 원본 위치 유지의 만료에 대 한 자세한 내용은 [레거시 eDiscovery 도구의 만료](legacy-ediscovery-retirement.md)를 참조 하세요.
   
 ## <a name="before-you-begin"></a>시작하기 전에
 

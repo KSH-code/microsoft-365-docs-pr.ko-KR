@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: d733c73f1c418af2f9c12b67927838875b707aa1
-ms.sourcegitcommit: 87cc278ea2ddcd536ecfaa3dfae9a5ddaa502cf9
+ms.openlocfilehash: 61da6df18a8e41a609ae8aea7ff57c2f53f92d84
+ms.sourcegitcommit: 242f051c4cf3683f8c1a5da20ceca81bde212cfc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42179239"
+ms.lasthandoff: 03/26/2020
+ms.locfileid: "42982051"
 ---
 # <a name="communication-compliance-in-microsoft-365"></a>Microsoft 365의 통신 준수
 
@@ -53,7 +53,7 @@ Microsoft 365의 통신 준수 정책을 통해 규정 준수 및 내부 및 외
 
 - **규정 준수**
 
-    대부분의 조직은 일반적인 운영 절차의 일부로 특정 유형의 규정 준수 표준을 준수 해야 합니다. 이러한 규정에 따라 조직이 업계에 적합 한 특정 유형의 관리 또는 감시 프로세스를 구현 해야 하는 경우가 많습니다. 금융 업계 규정 기관 (FINRA) 규칙 3110은 조직에서 직원 통신을 검사 하기 위해 관리 절차를 수행 하 고 it가 관여 하는 회사 유형을 결정 하는 데 필요한 요구 사항의 좋은 예입니다. 또 다른 예는 조직에서 브로커 딜러 통신을 검토 하 여 잠재적인 자금, collusion 또는 bribery 활동을 방지 하는 데 도움이 될 수 있습니다. 통신 준수 정책은 회사 통신에 대 한 검사 및 보고에 대 한 프로세스를 제공 하 여 조직이 이러한 요구 사항을 충족 하는 데 도움이 될 수 있습니다.
+    대부분의 조직은 일반적인 운영 절차의 일부로 특정 유형의 규정 준수 표준을 준수 해야 합니다. 이러한 규정에 따라 조직이 업계에 적합 한 특정 유형의 관리 또는 감시 프로세스를 구현 해야 하는 경우가 많습니다. 금융 업계 규정 기관 (FINRA) 규칙 3110은 조직에서 직원 통신을 검사 하기 위해 관리 절차를 수행 하 고 it가 관여 하는 회사 유형을 결정 하는 데 필요한 요구 사항의 좋은 예입니다. 또 다른 예는 조직에서 브로커 딜러 통신을 검토 하 여 잠재적인 자금, collusion 또는 bribery 활동을 방지 하는 데 도움이 될 수 있습니다. 통신 준수 정책은 회사 통신에 대 한 검사 및 보고에 대 한 프로세스를 제공 하 여 조직이 이러한 요구 사항을 충족 하는 데 도움이 될 수 있습니다. 금융 조직 지원에 대 한 자세한 내용은 [US 은행 및 자본 시장을 위한 주요 준수 및 보안 고려 사항을](../solutions/financial-services-secure-collaboration.md)참조 하세요.
 
 ## <a name="new-enhancements"></a>향상 된 새로운 기능
 
@@ -155,4 +155,4 @@ Microsoft 365 준수 센터에서 다음 정책 서식 파일 중에서 선택�
 
 ## <a name="ready-to-get-started"></a>시작할 준비가 되셨습니까?
 
-Microsoft 365 조 직에 대 한 통신 준수를 구성 하려면 [microsoft 365에 대 한 통신 준수 구성을](communication-compliance-configure.md)참조 하십시오.
+Microsoft 365 조 직에 대 한 통신 준수를 구성 하려면 microsoft [365에 대 한 통신 준수 구성](communication-compliance-configure.md) 또는 [Contoso에 대 한 사례 연구](communication-compliance-case-study.md) 를 확인 하거나 Microsoft 팀 및 Exchange Online 통신에서 비속어를 모니터링 하기 위한 통신 준수 정책을 빠르게 구성 하는 방법을 참조 하세요.
