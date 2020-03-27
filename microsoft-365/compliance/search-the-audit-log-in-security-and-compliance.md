@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: '보안 및 준수 센터를 사용하여 통합 감사 로그를 검색해 Office 365 조직의 사용자 및 관리자 활동을 확인합니다. '
-ms.openlocfilehash: 13a65f5a6a82eed748eaa79a3683ebdf2fe7ed9a
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: 66e75561084c3f3e8e67303e1cd359ef01c6b01a
+ms.sourcegitcommit: 58c1b4208a5e231463091573e40696d08fc39b8e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42894399"
+ms.lasthandoff: 03/25/2020
+ms.locfileid: "42955687"
 ---
 # <a name="search-the-audit-log-in-the-security--compliance-center"></a>보안 및 준수 센터에서 감사 로그 검색
 
@@ -311,8 +311,8 @@ Office 365에서 감사 로그를 검색하는 과정은 다음과 같습니다.
 |[고급 eDiscovery 활동](#advanced-ediscovery-activities)|[Power BI 활동](#power-bi-activities)|[Microsoft Workplace Analytics](#microsoft-workplace-analytics-activities)|
 |[Microsoft Teams 활동](#microsoft-teams-activities)|[Microsoft Teams 보건 활동](#microsoft-teams-healthcare-activities)|[Yammer 활동](#yammer-activities)|
 |[Microsoft Power Automate 활동](#microsoft-power-automate-activities)|[Microsoft Power Apps 활동](#microsoft-power-apps-activities)|[Microsoft Stream 활동](#microsoft-stream-activities)|
-|[콘텐츠 탐색기 활동](#content-explorer-activities)|[Microsoft Forms 활동](#microsoft-forms-activities)|[민감도 레이블 및 활동](#sensitivity-label-activities)|
-|[Exchange 관리자 활동](#exchange-admin-audit-log)||
+|[콘텐츠 탐색기 활동](#content-explorer-activities)|[격리 활동](#quarantine-activities)|[Microsoft Forms 활동](#microsoft-forms-activities)
+|[민감도 레이블 및 활동](#sensitivity-label-activities)|[Exchange 관리자 활동](#exchange-admin-audit-log)|||
 ||||
 
 ### <a name="file-and-page-activities"></a>파일 및 페이지 활동
@@ -811,7 +811,20 @@ Microsoft Stream에서 활동에 대한 감사 로그를 검색할 수 있습니
 
 |**친숙한 이름**|**작업**|**설명**|
 |:-----|:-----|:-----|
-|파일에 액세스함|AccessedItem|관리자(또는 콘텐츠 탐색기 콘텐츠 뷰어 역할 그룹의 구성원인 사용자)는 콘텐츠 탐색기로 전자 메일 메시지나 SharePoint/OneDrive 문서를 볼 수 있습니다.|
+|파일에 액세스함|LabelContentExplorerAccessedItem|관리자(또는 콘텐츠 탐색기 콘텐츠 뷰어 역할 그룹의 구성원인 사용자)는 콘텐츠 탐색기로 전자 메일 메시지나 SharePoint/OneDrive 문서를 볼 수 있습니다.|
+||||
+
+### <a name="quarantine-activities"></a>격리 활동
+
+다음 표에는 감사 로그에서 검색 할 수 있는 격리 활동이 나와 있습니다. 격리에 대한 자세한 내용은 [ㅡMicrosoft Office 365에서 전자 메일 메시지 격리](../security/office-365-security/quarantine-email-messages.md)를 참조하세요.
+
+|**친숙한 이름**|**작업**|**설명**|
+|:-----|:-----|:-----|
+|삭제된 격리 메시지|QuarantineDelete|사용자가 해로운 것으로 간주되는 전자 메일 메시지를 삭제했습니다.|
+|내보내기한 격리 메시지|QuarantineExport|사용자가 해로운 것으로 간주되는 전자 메일 메시지를 내보내기했습니다.|
+|미리보기한 격리 메시지|QuarantinePreview|사용자가 해로운 것으로 간주되는 전자 메일 메시지를 미리 보기했습니다.|
+|릴리스된 격리 메시지|QuarantineRelease|사용자가 해로운 것으로 간주되는 전자 메일 메시지를 릴리스했습니다.|
+|확인한 격리 메시지 머리글|QuarantineViewHeader|사용자가 해로운 것으로 간주되는 전자 메일 메시지의 머리글을 봤습니다.|
 ||||
 
 ### <a name="microsoft-forms-activities"></a>Microsoft Forms 활동
