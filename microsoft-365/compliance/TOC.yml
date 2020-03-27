@@ -46,6 +46,8 @@
           href: communication-compliance-investigate-remediate.md
         - name: 통신 준수를 위한 기능 참조
           href: communication-compliance-feature-reference.md
+        - name: 사례 연구-Contoso가 공격적인 언어 정책을 빠르게 구성 합니다.
+          href: communication-compliance-case-study.md
         - name: Office 365에서의 감독 정책
           href: supervision-policies.md
         - name: Office 365에 대한 감독 정책 구성
@@ -638,6 +640,8 @@
               href: use-advanced-ediscovery-utilities.md
             - name: 보고서 실행
               href: run-reports-in-advanced-ediscovery.md
+    - name: 레거시 eDiscovery 도구 만료
+      href: legacy-ediscovery-retirement.md
 - name: 데이터 조사 관리
   items:
     - name: 데이터 조사 개요
