@@ -4,7 +4,7 @@ f1.keywords:
 - NOCSH
 ms.author: deniseb
 author: denisebmsft
-manager: laurawi
+manager: dansimp
 ms.date: 08/28/2018
 audience: ITPro
 ms.topic: article
@@ -17,12 +17,12 @@ ms.assetid: a74f637b-3710-4c41-b70f-b5a812929a81
 ms.collection:
 - M365-security-compliance
 description: 보안 &amp; 및 준수 센터에서 보고서 일정을 설정 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 5a7a4d0b6bef3f800a53e4f980ccd689e011a9ea
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 3e09dee36e14ca1e25f6ea20c8f2b5843dc7edaa
+ms.sourcegitcommit: ce6121a8e3ca7438071d73b0c76e2b6f33ac1cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42083473"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "43030167"
 ---
 # <a name="create-a-schedule-for-a-report-in-the-security-amp-compliance-center"></a>보안 &amp; 및 준수 센터에서 보고서 일정 만들기
 
@@ -57,7 +57,8 @@ ms.locfileid: "42083473"
     
     ![일정 만들기](../../media/atpfiletypes-createschedule.png)
 
-    (참고: 모든 보고서에 **+ 일정 만들기** 단추가 있는 것은 아닙니다.)
+    > [!NOTE]
+    > 모든 보고서에 **+ 일정 만들기** 단추가 있는 것은 아닙니다.
   
     **일정 만들기** 대화 상자가 열립니다. 
     
