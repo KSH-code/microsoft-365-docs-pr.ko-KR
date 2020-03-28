@@ -18,7 +18,7 @@
       href: plan-for-security-and-compliance.md
 - name: 참가자 위험 관리
   items:
-    - name: 참가자 위험 관리
+    - name: 내부자 위험 관리
       items:
         - name: 참가자 위험 관리에 대해 알아보기
           href: insider-risk-management.md
@@ -203,9 +203,9 @@
     - name: 데이터 분류 이해 (미리 보기)
       href: data-classification-overview.md
       items:
-        - name: 콘텐츠 탐색기 시작 (미리 보기)
+        - name: 콘텐츠 탐색기로 시작(미리 보기)
           href: data-classification-content-explorer.md
-        - name: 작업 탐색기 시작 (미리 보기)
+        - name: 활동 탐색기로 시작(미리 보기)
           href: data-classification-activity-explorer.md
         - name: 데이터 분류 공개 미리 보기 릴리스 정보(미리 보기)
           href: data-classification-pub-preview-relnotes.md
@@ -245,8 +245,6 @@
           href: archive-linkedin-data.md
         - name: 즉석 Bloomberg 데이터를 보관할 커넥터 설정
           href: archive-instant-bloomberg-data.md
-        - name: 얼음 채팅 데이터를 보관 하는 커넥터 설정 (미리 보기)
-          href: archive-icechat-data.md
         - name: HR 데이터를 가져올 커넥터 설정
           href: import-hr-data.md
         - name: 타사 데이터를 저장하는 데 파트너와 협력

@@ -2,10 +2,10 @@
 title: '웹용 Outlook에서 정크 전자 메일 및 피싱 사기 보고 '
 f1.keywords:
 - NOCSH
-ms.author: tracyp
-author: MSFTTracyP
+ms.author: chrisda
+author: chrisda
 manager: dansimp
-ms.date: 12/09/2016
+ms.date: ''
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -15,64 +15,106 @@ search.appverid:
 ms.assetid: 758822b5-0126-463a-9d08-7366bb2a807d
 ms.collection:
 - M365-security-compliance
-description: 웹 사용자의 Microsoft Outlook은 기본 제공 전자 메일 보고 옵션을 사용 하 여 정크 (스팸) 및 피싱 사기를 보고할 수 있습니다. 또한 전자 메일이 정크 (스팸)로 잘못 식별 되었는지 여부를 Microsoft에 게 알릴 수도 있습니다.
-ms.openlocfilehash: 58973e59644b2e20853cfe053a18586efa5211bf
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: Office 365 Exchange Online 사서함이 있는 사용자는 웹에서 Outlook (Outlook Web App)을 사용 하 여 Microsoft에 분석용 스팸, 스팸 아님 및 피싱 메시지를 제출할 수 있습니다.
+ms.openlocfilehash: c6aba9a701b23be4bbbe508825a55c6438461928
+ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42082411"
+ms.lasthandoff: 03/28/2020
+ms.locfileid: "43033707"
 ---
-# <a name="report-junk-email-and-phishing-scams-in-outlook-on-the-web"></a><span data-ttu-id="84881-104">웹용 Outlook에서 정크 전자 메일 및 피싱 사기 보고</span><span class="sxs-lookup"><span data-stu-id="84881-104">Report junk email and phishing scams in Outlook on the web</span></span>
+# <a name="report-junk-and-phishing-email-in-outlook-on-the-web-in-office-365"></a><span data-ttu-id="3d41b-103">Office 365에서 웹용 Outlook에 정크 및 피싱 전자 메일 보고</span><span class="sxs-lookup"><span data-stu-id="3d41b-103">Report junk and phishing email in Outlook on the web in Office 365</span></span>
 
-<span data-ttu-id="84881-105">조직의 사용자가 정크 메일을 받거나 스팸으로 잘못 식별 되어 중요 한 전자 메일이 누락 되는 경우에는 어려울 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="84881-105">It can be frustrating when users in your organization receive junk email or miss an important email because it was misidentified as spam.</span></span> <span data-ttu-id="84881-106">Microsoft는 EOP (Exchange Online Protection) 스팸 필터를 보다 정확 하 게 조정 하 고 있으며, 사용자가이 프로세스를 도울 수 있습니다. 웹 사용자의 Microsoft Outlook은 기본 제공 전자 메일 보고 옵션을 사용 하 여 정크 (스팸) 및 피싱 사기를 보고할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="84881-106">We're constantly fine-tuning the Exchange Online Protection (EOP) spam filters to be more accurate, and you and your end users can help with this process; Microsoft Outlook on the web users can report junk (spam) and phishing scams by using built-in email reporting options.</span></span> <span data-ttu-id="84881-107">또한 전자 메일이 정크 (스팸)로 잘못 식별 되었는지 여부를 Microsoft에 게 알릴 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="84881-107">You can also let Microsoft know if an email was incorrectly identified as junk (spam).</span></span>
+<span data-ttu-id="3d41b-104">Exchange Online 사서함을 사용 하는 Office 365 고객의 경우에는 웹에서 Outlook (이전의 Outlook Web App)의 기본 제공 보고 옵션을 사용 하 여 가양성 (스팸으로 표시 된 좋은 전자 메일), 거짓 네거티브 (잘못 된 전자 메일 허용)를 제출할 수 있습니다. EOP (Exchange Online Protection)에 대 한 피싱 메시지</span><span class="sxs-lookup"><span data-stu-id="3d41b-104">If you're an Office 365 customer with Exchange Online mailboxes, you can use the built-in reporting options in Outlook on the web (formerly known as Outlook Web App) to submit false positives (good email marked as spam), false negatives (bad email allowed) and phishing messages to Exchange Online Protection (EOP).</span></span>
 
-## <a name="submit-junk-messages-in-outlook-on-the-web"></a><span data-ttu-id="84881-108">웹용 Outlook에서 정크 메일 메시지 제출</span><span class="sxs-lookup"><span data-stu-id="84881-108">Submit junk messages in Outlook on the web</span></span>
+## <a name="what-do-you-need-to-know-before-you-begin"></a><span data-ttu-id="3d41b-105">시작하기 전에 알아야 할 내용은 무엇인가요?</span><span class="sxs-lookup"><span data-stu-id="3d41b-105">What do you need to know before you begin?</span></span>
 
-<span data-ttu-id="84881-109">정크 메일 메시지를 Microsoft에 제출 하려면 다음을 수행 합니다.</span><span class="sxs-lookup"><span data-stu-id="84881-109">To submit a junk mail message to Microsoft:</span></span>
+- <span data-ttu-id="3d41b-106">Exchange Online 사서함을 사용 하는 Office 365 조직의 관리자는 Office 365 보안 & 준수 센터의 전송 포털을 사용 하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="3d41b-106">If you're an admin in an Office 365 organization with Exchange Online mailboxes, we recommend that you use the Submissions portal in the Office 365 Security & Compliance Center.</span></span> <span data-ttu-id="3d41b-107">자세한 내용은 [관리자 제출을 사용 하 여 의심 스러운 스팸, 피싱, url 및 파일을 Microsoft에 제출](admin-submission.md)합니다 .를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="3d41b-107">For more information, see [Use Admin Submission to submit suspected spam, phish, URLs, and files to Microsoft](admin-submission.md).</span></span>
 
-1. <span data-ttu-id="84881-110">정크 메시지를 클릭 하 고 도구 모음에서 **정크** 을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="84881-110">Click on the junk message and then click **Junk** on the toolbar.</span></span> <span data-ttu-id="84881-111">그러면 메시지가 정크 메일 폴더로 이동 하 고 보낸 사람이 수신 거부 목록에 추가 됩니다.</span><span class="sxs-lookup"><span data-stu-id="84881-111">This moves the message to your Junk email folder and adds the sender to your blocked sender list.</span></span>
+- <span data-ttu-id="3d41b-108">관리자는 사용자가 웹용 Outlook에서 Microsoft에 메시지를 보고 하는 기능을 사용 하거나 사용 하지 않도록 설정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3d41b-108">Admins can disable or enable the ability for users to report messages to Microsoft in Outlook on the web.</span></span> <span data-ttu-id="3d41b-109">자세한 내용은이 항목 뒷부분에 나오는 [웹용 Outlook에서 정크 메일 보고 사용 안 함 또는 사용](#disable-or-enable-junk-email-reporting-in-outlook-on-the-web) 섹션을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="3d41b-109">For details, see the [Disable or enable junk email reporting in Outlook on the web](#disable-or-enable-junk-email-reporting-in-outlook-on-the-web) section later in this topic.</span></span>
 
-   ![웹상의 Outlook에서 정크 메일 표시](../../media/a10ae792-aab6-4374-a041-6c3f732eb2e3.png)
+- <span data-ttu-id="3d41b-110">Microsoft에 메시지를 보고 하는 방법에 대 한 자세한 내용은 [Office 365에서 microsoft에 메시지 및 파일](report-junk-email-messages-to-microsoft.md)보고를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="3d41b-110">For more information about reporting messages to Microsoft, see [Report messages and files to Microsoft in Office 365](report-junk-email-messages-to-microsoft.md).</span></span>
 
-   > [!NOTE]
-   > <span data-ttu-id="84881-113">또는 메시지를 마우스 오른쪽 단추로 클릭 하 여 메뉴를 표시 하 고 **정크 메일로 표시**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="84881-113">Alternatively, right-click a message to display a menu, and click **Mark as junk**.</span></span>
+## <a name="report-spam-and-phishing-messages-in-outlook-on-the-web"></a><span data-ttu-id="3d41b-111">웹용 Outlook에서 스팸 및 피싱 메시지 보고</span><span class="sxs-lookup"><span data-stu-id="3d41b-111">Report spam and phishing messages in Outlook on the web</span></span>
 
-   <span data-ttu-id="84881-114">정크 메일 메시지는 **받은 편지함** **폴더에서** 보고할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="84881-114">You can report a junk message from your **Inbox** or **Deleted Items** folder.</span></span>
+1. <span data-ttu-id="3d41b-112">정크 메일을 제외한 받은 편지함 또는 다른 모든 전자 메일 폴더의 메시지에 대해 다음 방법 중 하나를 사용 하 여 스팸 및 피싱 메시지를 보고 합니다.</span><span class="sxs-lookup"><span data-stu-id="3d41b-112">For messages in the Inbox or any other email folder except Junk Email, use either of the following methods to report spam and phishing messages:</span></span>
 
-2. <span data-ttu-id="84881-115">분석을 위해 정크 메일 메시지 복사본을 Microsoft로 보낼지 묻는 대화 상자가 열립니다.</span><span class="sxs-lookup"><span data-stu-id="84881-115">A dialog box opens asking if you want to send a copy of the junk email message to Microsoft for analysis.</span></span> <span data-ttu-id="84881-116">**보고서** 를 클릭 하 여 Microsoft 스팸 분석 팀에 메시지를 보냅니다.</span><span class="sxs-lookup"><span data-stu-id="84881-116">Click **report** to send the message to the Microsoft Spam Analysis Team.</span></span> <span data-ttu-id="84881-117">메시지 없이 이후의 정크 메시지를 Microsoft에 자동으로 제출하려면 **이 메시지를 다시 표시 안 함** 확인란을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="84881-117">Optionally, select the **Don't show me this message again** check box if you want to automatically submit future junk messages to Microsoft without being prompted.</span></span>
+   - <span data-ttu-id="3d41b-113">메시지를 선택 하 고 도구 모음에서 **정크 메일** 을 클릭 한 다음 **정크** 또는 **피싱**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="3d41b-113">Select the message, click **Junk** on the toolbar, and then select **Junk** or **Phishing**.</span></span>
 
-   ![웹의 Outlook에서 Microsoft에 정크 메일 보고](../../media/e8d3a9f9-6eb6-4309-ba6d-643dffdb6a33.png)
+     ![리본 메뉴에서 정크 또는 피싱 전자 메일 보고](../../media/owa-report-junk.png)
 
-   > [!TIP]
-   > <span data-ttu-id="84881-119">**이 메시지를 다시 표시 안 함** 확인란을 선택한 경우에도 나중에 웹에서 Outlook의 표시 설정에 액세스 하 여 정크 메일 보고에 대 한 기본 설정을 변경할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="84881-119">Even if you select the **Don't show me this message again** check box, you can later change your preferences for reporting junk email by accessing the display settings in Outlook on the web.</span></span> <span data-ttu-id="84881-120">이러한 설정에는 로그인 이름 옆의 기어 메뉴를 통해 액세스할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="84881-120">(You can access these settings through the gear menu next to your sign in name.)</span></span>
+   - <span data-ttu-id="3d41b-115">하나 이상의 메시지를 선택 하 고 마우스 오른쪽 단추를 클릭 한 다음 **정크 메일로 표시**를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="3d41b-115">Select one or more messages, right-click, and then select **Mark as junk**.</span></span>
 
-## <a name="submit-phishing-scam-messages-in-outlook-on-the-web"></a><span data-ttu-id="84881-121">웹용 Outlook에서 피싱 사기 메시지 제출</span><span class="sxs-lookup"><span data-stu-id="84881-121">Submit phishing scam messages in Outlook on the web</span></span>
+2. <span data-ttu-id="3d41b-116">대화 상자가 나타나면 **보고서**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="3d41b-116">In the dialog that appears, click **Report**.</span></span> <span data-ttu-id="3d41b-117">생각이 변경 되 면 **보고서 표시 안 함을**클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="3d41b-117">If you change your mind, click **Don't Report**.</span></span>
 
-<span data-ttu-id="84881-122">피싱 사기 메시지를 Microsoft에 제출 하려면 다음을 수행 합니다.</span><span class="sxs-lookup"><span data-stu-id="84881-122">To submit a phishing scam message to Microsoft:</span></span>
+   ![정크 메일로 신고 대화 상자](../../media/owa-report-as-junk-dialog.png)
 
-1. <span data-ttu-id="84881-123">피싱 사기 메시지를 클릭 하 고 **정크**옆에 있는 아래쪽 화살표를 클릭 한 다음 도구 모음에서 **피싱** 을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="84881-123">Click on the phishing scam message, click the down arrow next to **Junk**, and then click **Phishing** on the toolbar.</span></span> <span data-ttu-id="84881-124">Office 365은 일반적으로 피싱 사기 메시지의 보낸 사람이 합법적인 보낸 사람을 가장 하 여 보낸 사람을 차단 하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="84881-124">Office 365 does not block the sender because senders of phishing scam messages typically impersonate legitimate senders.</span></span> <span data-ttu-id="84881-125">원하는 경우 [웹에서 Outlook의 정크 메일 및 스팸 필터](https://support.office.com/article/db786e79-54e2-40cc-904f-d89d57b7f41d)항목에 나와 있는 지침에 따라 보낸 사람을 수신 거부 목록에 추가 합니다.</span><span class="sxs-lookup"><span data-stu-id="84881-125">If you prefer, add the sender to your blocked senders list by following the instructions in the topic [Filter junk email and spam in Outlook on the web](https://support.office.com/article/db786e79-54e2-40cc-904f-d89d57b7f41d).</span></span>
+   ![피싱 메일로 신고 대화 상자](../../media/owa-report-as-phishing-dialog.png)
 
-   ![웹상의 Outlook에서 피싱 사기 전자 메일 표시](../../media/959bb577-341c-41ee-a159-e46600b2cf8a.png)
+3. <span data-ttu-id="3d41b-120">선택한 메시지가 분석을 위해 Microsoft로 전송 됩니다.</span><span class="sxs-lookup"><span data-stu-id="3d41b-120">The selected messages will be sent to Microsoft for analysis.</span></span> <span data-ttu-id="3d41b-121">메시지가 전송되었는지 확인하려면 **보낸 편지함** 폴더를 열고 전송한 메시지를 확인합니다.</span><span class="sxs-lookup"><span data-stu-id="3d41b-121">To confirm that the messages have been submitted, open your **Sent Items** folder to view the submitted messages.</span></span>
 
-   <span data-ttu-id="84881-127">또는 메시지를 마우스 오른쪽 단추로 클릭 하 여 메뉴를 표시 하 고 **피싱 메일로 표시**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="84881-127">Alternatively, right-click a message to display a menu, and click **Mark as Phishing**.</span></span>
+## <a name="report-non-spam-and-phishing-messages-from-the-junk-email-folder-in-outlook-on-the-web"></a><span data-ttu-id="3d41b-122">웹용 Outlook의 정크 메일 폴더에서 스팸이 아닌 메시지 및 피싱 메시지가 보고 되도록 합니다.</span><span class="sxs-lookup"><span data-stu-id="3d41b-122">Report non-spam and phishing messages from the Junk Email folder in Outlook on the web</span></span>
 
-   <span data-ttu-id="84881-128">**받은 편지함** 또는 **삭제 된 항목** 폴더에서 피싱 사기 메시지를 보고할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="84881-128">You can report a phishing scam message from your **Inbox** or **Deleted Items** folder.</span></span>
+1. <span data-ttu-id="3d41b-123">정크 메일 폴더에서 다음 방법 중 하나를 사용 하 여 스팸 가양성 또는 피싱 메시지를 보고 합니다.</span><span class="sxs-lookup"><span data-stu-id="3d41b-123">In the Junk Email folder, use either of the following methods to report spam false positives or phishing messages:</span></span>
 
-2. <span data-ttu-id="84881-129">일부 조직의 경우 분석을 위해 Microsoft에 피싱 사기 전자 메일 복사본을 보낼지 묻는 대화 상자가 열립니다.</span><span class="sxs-lookup"><span data-stu-id="84881-129">For some organizations, a dialog box opens asking if you want to send a copy of the phishing scam email to Microsoft for analysis.</span></span> <span data-ttu-id="84881-130">**보고서** 를 클릭 하 여 Microsoft 스팸 분석 팀에 메시지를 보냅니다.</span><span class="sxs-lookup"><span data-stu-id="84881-130">Click **report** to send the message to the Microsoft Spam Analysis Team.</span></span> <span data-ttu-id="84881-131">이 보고 옵션은 현재 제한 된 수의 조직에서 사용할 수 있습니다. Microsoft에 피싱 사기를 보고할지 묻는 메시지가 표시 되지 않을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="84881-131">This reporting option is currently available to a limited number of organizations; you might not be asked to report a phishing scam to Microsoft.</span></span>
+   - <span data-ttu-id="3d41b-124">메시지를 선택 하 고 도구 모음에서 **정크 메일** 아님으로 클릭 한 다음 **정크** 또는 **피싱**아님을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="3d41b-124">Select the message, click **Not Junk** on the toolbar, and then select **Not Junk** or **Phishing**.</span></span>
 
-## <a name="submit-not-junk-messages-in-outlook-on-the-web"></a><span data-ttu-id="84881-132">웹용 Outlook에서 "정크 메일 아님" 메시지 전송</span><span class="sxs-lookup"><span data-stu-id="84881-132">Submit "not junk" messages in Outlook on the web</span></span>
+     ![리본 메뉴에서 정크 또는 피싱 전자 메일 보고](../../media/owa-report-not-junk.png)
 
-<span data-ttu-id="84881-133">Office 365에서 메시지가 정크 메일로 잘못 식별 된 경우 메시지를 "정크 메일 아님"으로 Microsoft에 제출 합니다.</span><span class="sxs-lookup"><span data-stu-id="84881-133">When a message is incorrectly identified as junk by Office 365, submit a message as "not junk" to Microsoft:</span></span>
+   - <span data-ttu-id="3d41b-126">하나 이상의 메시지를 선택 하 고 마우스 오른쪽 단추를 클릭 한 다음 **정크 메일 아님으로 표시**를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="3d41b-126">Select one or more messages, right-click, and then select **Mark as not junk**.</span></span>
 
-1. <span data-ttu-id="84881-134">정크 메일 폴더에서 메시지를 클릭 한 다음 도구 모음에서 **정크 메일 보내지 않음** 을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="84881-134">In your Junk email folder, click on the message and then click **Not Junk** on the toolbar.</span></span> <span data-ttu-id="84881-135">그러면 메시지가 **받은 편지 함으로** 이동 하 고 보낸 사람이 수신 허용-보낸 사람 목록에 추가 됩니다.</span><span class="sxs-lookup"><span data-stu-id="84881-135">This moves the message to your **Inbox** and adds the sender to your safe senders list.</span></span>
+2. <span data-ttu-id="3d41b-127">대화 상자가 나타나면 정보를 읽고 **보고서**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="3d41b-127">In the dialog that appears, read the information and click **Report**.</span></span> <span data-ttu-id="3d41b-128">생각이 변경 되 면 **보고서 표시 안 함을**클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="3d41b-128">If you change your mind, click **Don't Report**.</span></span>
 
-   <span data-ttu-id="84881-136">정크 메일 폴더에서 메시지를 마우스 오른쪽 단추로 클릭 하 여 메뉴를 표시 하 고 **정크 메일이 아닌 것으로 표시**를 클릭할 수도 있습니다.</span><span class="sxs-lookup"><span data-stu-id="84881-136">You can also right-click on a message in your Junk mail folder to display a menu and click **Mark as not junk**.</span></span>
+   ![정크 메일 아님으로 보고 대화 상자](../../media/owa-report-as-not-junk-dialog.png)
 
-2. <span data-ttu-id="84881-137">분석을 위해 정크 메일이 아닌 메시지의 복사본을 Microsoft로 보낼지 묻는 대화 상자가 열립니다.</span><span class="sxs-lookup"><span data-stu-id="84881-137">A dialog box opens asking if you want to send a copy of the not junk email message to Microsoft for analysis.</span></span> <span data-ttu-id="84881-138">**보고서** 를 클릭 하 여 Microsoft 스팸 분석 팀에 메시지를 보냅니다.</span><span class="sxs-lookup"><span data-stu-id="84881-138">Click **report** to send the message to the Microsoft Spam Analysis Team..</span></span>
+   ![피싱 메일로 신고 대화 상자](../../media/owa-report-as-phishing-dialog.png)
 
-## <a name="for-more-information"></a><span data-ttu-id="84881-139">자세한 내용</span><span class="sxs-lookup"><span data-stu-id="84881-139">For more information</span></span>
+3. <span data-ttu-id="3d41b-131">선택한 메시지가 분석을 위해 Microsoft로 전송 됩니다.</span><span class="sxs-lookup"><span data-stu-id="3d41b-131">The selected messages will be sent to Microsoft for analysis.</span></span> <span data-ttu-id="3d41b-132">메시지가 전송되었는지 확인하려면 **보낸 편지함** 폴더를 열고 전송한 메시지를 확인합니다.</span><span class="sxs-lookup"><span data-stu-id="3d41b-132">To confirm that the messages have been submitted, open your **Sent Items** folder to view the submitted messages.</span></span>
 
-[<span data-ttu-id="84881-140">정크 메일 및 피싱에 대한 자세한 정보</span><span class="sxs-lookup"><span data-stu-id="84881-140">Learn about junk email and phishing</span></span>](https://support.microsoft.com/article/86c1d76f-4d5a-4967-9647-35665dc17c31)
+## <a name="disable-or-enable-junk-email-reporting-in-outlook-on-the-web"></a><span data-ttu-id="3d41b-133">웹용 Outlook에서 정크 메일 보고를 사용 하지 않도록 설정 하거나 사용</span><span class="sxs-lookup"><span data-stu-id="3d41b-133">Disable or enable junk email reporting in Outlook on the web</span></span>
 
-[<span data-ttu-id="84881-141">Microsoft Outlook 용 정크 메일 보고 추가 기능</span><span class="sxs-lookup"><span data-stu-id="84881-141">Junk email reporting add-in for Microsoft Outlook</span></span>](https://docs.microsoft.com/office365/securitycompliance/junk-email-reporting-add-in-for-microsoft-outlook)
+<span data-ttu-id="3d41b-134">기본적으로 사용자는 웹용 Outlook에서 분석을 위해 Microsoft에 가짜 긍정, 거짓 네거티브 및 피싱 메시지를 보고할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3d41b-134">By default, users can report spam false positives, false negatives, and phishing messages to Microsoft for analysis in Outlook on the web.</span></span> <span data-ttu-id="3d41b-135">관리자가 Exchange online의 웹 사서함 정책에서 Outlook을 사용 하 여 exchange online PowerShell 에서만이 기능을 사용 하거나 사용 하지 않도록 설정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3d41b-135">Admins can use Outlook on the web mailbox policies in Exchange Online to disable or enable this ability, but only in Exchange Online PowerShell.</span></span>
+
+- <span data-ttu-id="3d41b-136">Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell)을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="3d41b-136">To connect to Exchange Online PowerShell, see [Connect to Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell).</span></span>
+
+- <span data-ttu-id="3d41b-137">이 절차를 수행하려면 먼저 사용 권한을 할당받아야 합니다.</span><span class="sxs-lookup"><span data-stu-id="3d41b-137">You need to be assigned permissions before you can perform these procedures.</span></span> <span data-ttu-id="3d41b-138">특히 **조직 관리** 및 **받는 사람 관리** 역할 그룹에 기본적으로 할당 되는 **받는 사람 정책** 또는 **메일 받는 사람** 역할이 Exchange Online에 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="3d41b-138">Specifically you need the **Recipient Policies** or **Mail Recipients** roles in Exchange Online, which are assigned to the **Organization Management** and **Recipient Management** role groups by default.</span></span> <span data-ttu-id="3d41b-139">Exchange Online의 역할 그룹에 대 한 자세한 내용은 [Exchange online에서 역할 그룹 수정을](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#modify-role-groups)참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="3d41b-139">For more information about role groups in Exchange Online, see [Modify role groups in Exchange Online](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#modify-role-groups).</span></span>
+
+- <span data-ttu-id="3d41b-140">모든 조직에는 Set-owamailboxpolicy 라는 기본 정책이 있지만 사용자 지정 정책을 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="3d41b-140">Every organization has a default policy named OwaMailboxPolicy-Default, but you can create custom policies.</span></span> <span data-ttu-id="3d41b-141">사용자 지정 정책은 기본 정책 이전의 범위 사용자에 게 적용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="3d41b-141">Custom policies are applied to scoped users before the default policy.</span></span> <span data-ttu-id="3d41b-142">웹 사서함 정책의 Outlook에 대 한 자세한 내용은 [Exchange Online의 웹 사서함 정책에서 outlook](https://docs.microsoft.com/Exchange/clients-and-mobile-in-exchange-online/outlook-on-the-web/outlook-web-app-mailbox-policies)을 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="3d41b-142">For more information about Outlook on the web mailbox policies, see [Outlook on the web mailbox policies in Exchange Online](https://docs.microsoft.com/Exchange/clients-and-mobile-in-exchange-online/outlook-on-the-web/outlook-web-app-mailbox-policies).</span></span>
+
+1. <span data-ttu-id="3d41b-143">웹 사서함 정책 및 정크 메일 보고 상태에 대 한 기존 Outlook을 찾으려면 다음 명령을 실행 합니다.</span><span class="sxs-lookup"><span data-stu-id="3d41b-143">To find your existing Outlook on the web mailbox policies and the status of junk email reporting, run the following command:</span></span>
+
+   ```powershell
+   Get-OwaMailboxPolicy | Format-Table Name,ReportJunkEmailEnabled
+   ```
+
+2. <span data-ttu-id="3d41b-144">웹용 Outlook에서 정크 메일 보고를 사용 하지 않도록 설정 하거나 사용 하도록 설정 하려면 다음 구문을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="3d41b-144">To disable or enable junk email reporting in Outlook on the web, use the following syntax:</span></span>
+
+   ```powershell
+   Set-OwaMailboxPolicy -Identity "<OWAMailboxPolicyName>" -ReportJunkEmailEnabled <$true | $false>
+   ```
+
+   <span data-ttu-id="3d41b-145">이 예에서는 기본 정책에서 정크 메일 보고를 사용 하지 않도록 설정 합니다.</span><span class="sxs-lookup"><span data-stu-id="3d41b-145">This example disables junk email reporting in the default policy.</span></span>
+
+   ```powershell
+   Set-OwaMailboxPolicy -Identity "OwaMailboxPolicy-Default" -ReportJunkEmailEnabled $false
+   ```
+
+   <span data-ttu-id="3d41b-146">이 예에서는 Contoso 관리자 라는 사용자 지정 정책에서 정크 메일 보고를 사용 하도록 설정 합니다.</span><span class="sxs-lookup"><span data-stu-id="3d41b-146">This example enabled junk email reporting in the custom policy named Contoso Managers.</span></span>
+
+   ```powershell
+   Set-OwaMailboxPolicy -Identity "Contoso Managers" -ReportJunkEmailEnabled $true
+   ```
+
+<span data-ttu-id="3d41b-147">구문과 매개 변수에 대 한 자세한 내용은 [set-owamailboxpolicy](https://docs.microsoft.com/powershell/module/exchange/client-access/get-owamailboxpolicy) 및 [set-owamailboxpolicy](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy)를 참조 하십시오.</span><span class="sxs-lookup"><span data-stu-id="3d41b-147">For detailed syntax and parameter information, see [Get-OwaMailboxPolicy](https://docs.microsoft.com/powershell/module/exchange/client-access/get-owamailboxpolicy) and [Set-OwaMailboxPolicy](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy).</span></span>
+
+### <a name="how-do-you-know-this-worked"></a><span data-ttu-id="3d41b-148">작동 여부는 어떻게 확인하나요?</span><span class="sxs-lookup"><span data-stu-id="3d41b-148">How do you know this worked?</span></span>
+
+<span data-ttu-id="3d41b-149">웹용 Outlook에서 정크 메일 보고를 사용 하거나 사용 하지 않도록 설정 했는지 확인 하려면 다음 단계 중 하나를 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="3d41b-149">To verify that you've successfully enabled or disabled junk email reporting in Outlook on the web, use any of the following steps:</span></span>
+
+- <span data-ttu-id="3d41b-150">Exchange Online PowerShell에서 다음 명령을 실행 하 고 **ReportJunkEmailEnabled** 속성 값을 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="3d41b-150">In Exchange Online PowerShell, run the following command and verify the **ReportJunkEmailEnabled** property value:</span></span>
+
+  ```powershell
+  Get-OwaMailboxPolicy | Format-Table Name,ReportJunkEmailEnabled
+  ```
+
+- <span data-ttu-id="3d41b-151">웹에서 Outlook의 영향을 받는 사용자의 사서함을 열고 정크 메일, 정크 메일이 아닌 메시지를 보고 하는 옵션을 사용할 수 있는지 또는 사용할 수 없는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="3d41b-151">Open an affected user's mailbox in Outlook on the web, and verify the options to report junk, not junk, and phishing messages are available or not available.</span></span> <span data-ttu-id="3d41b-152">사용자는 메시지를 정크 메일 이나 피싱이 아닌 메시지로 표시할 수는 있지만 사용자가 Microsoft에 보고 하지는 못합니다.</span><span class="sxs-lookup"><span data-stu-id="3d41b-152">Note that the user can still mark messages as junk, phishing, and not junk, but the user can't report them to Microsoft.</span></span>

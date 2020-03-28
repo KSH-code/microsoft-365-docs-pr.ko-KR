@@ -1,5 +1,5 @@
 ---
-title: Microsoft에 정크 메일 메시지 보고
+title: Microsoft에 스팸, 스팸 아님 및 피싱 메시지 보고
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -16,55 +16,25 @@ ms.assetid: c31406ea-2979-4fac-9288-f835269b9d2f
 ms.collection:
 - M365-security-compliance
 description: Microsoft Office Outlook용 Microsoft 정크 메일 보고 추가 기능은 정크 메일 메시지를 보고하는 다양한 방법을 제공합니다.
-ms.openlocfilehash: b1ed918e4b954cc7b2d79e52abd6f58a99eda0f0
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: b7e7ed56f171ee3b74b36ed7c10c46286fb1e570
+ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42895182"
+ms.lasthandoff: 03/28/2020
+ms.locfileid: "43033665"
 ---
-# <a name="report-junk-email-messages-to-microsoft"></a><span data-ttu-id="d72b1-103">Microsoft에 정크 메일 메시지 보고</span><span class="sxs-lookup"><span data-stu-id="d72b1-103">Report junk email messages to Microsoft</span></span>
+# <a name="report-messages-and-files-to-microsoft"></a><span data-ttu-id="ee56c-103">Microsoft에 메시지 및 파일 보고</span><span class="sxs-lookup"><span data-stu-id="ee56c-103">Report messages and files to Microsoft</span></span>
 
-<span data-ttu-id="d72b1-104">Microsoft Office Outlook용 Microsoft 정크 메일 보고 추가 기능은 정크 메일 메시지를 보고하는 다양한 방법을 제공합니다.</span><span class="sxs-lookup"><span data-stu-id="d72b1-104">The Microsoft Junk Email Reporting Add-in for Microsoft Office Outlook offers several ways for you to report junk email messages:</span></span>
+<span data-ttu-id="ee56c-104">Office 365의 사용자 및 관리자 Exchange online의 사서함이 있는 조직 또는 Exchange Online 사서함이 없는 EOP (독립 실행형 Exchange Online Protection) 조직에서 전자 메일 메시지를 제출할 수 있는 여러 가지 방법을 통해 메시지를 보고 하 고 파일을 Microsoft에 추가할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ee56c-104">Users and admins in Office 365 organizations with mailboxes in Exchange Online, or standalone Exchange Online Protection (EOP) organizations without Exchange Online mailboxes to submit email messages have several different methods for reporting messages and files to Microsoft.</span></span>
 
-- <span data-ttu-id="d72b1-105">Outlook 리본 메뉴에서</span><span class="sxs-lookup"><span data-stu-id="d72b1-105">From the Outlook ribbon</span></span>
+|||
+|---|---|
+|<span data-ttu-id="ee56c-105">**방법**</span><span class="sxs-lookup"><span data-stu-id="ee56c-105">**Method**</span></span>|<span data-ttu-id="ee56c-106">**설명**</span><span class="sxs-lookup"><span data-stu-id="ee56c-106">**Description**</span></span>|
+|[<span data-ttu-id="ee56c-107">관리자 제출을 사용 하 여 의심 스러운 스팸, 피싱, Url 및 파일을 Microsoft에 제출</span><span class="sxs-lookup"><span data-stu-id="ee56c-107">Use Admin Submission to submit suspected spam, phish, URLs, and files to Microsoft</span></span>](admin-submission.md)|<span data-ttu-id="ee56c-108">이는 Exchange Online 사서함을 사용 하는 조직의 관리자에 게 권장 되는 보고 방법으로, 독립 실행형 EOP에서 사용할 수 없습니다.</span><span class="sxs-lookup"><span data-stu-id="ee56c-108">This is the recommended reporting method for admins in organizations with Exchange Online mailboxes (not available in standalone EOP).</span></span>|
+|[<span data-ttu-id="ee56c-109">Office 365에서 보고서 메시지 추가 기능을 사용 하도록 설정</span><span class="sxs-lookup"><span data-stu-id="ee56c-109">Enable the Report Message add-in in Office 365</span></span>](enable-the-report-message-add-in.md)|<span data-ttu-id="ee56c-110">Outlook, Mac 용 Outlook 및 웹용 Outlook에서 작동 합니다.</span><span class="sxs-lookup"><span data-stu-id="ee56c-110">Works with Outlook, Outlook for Mac, and Outlook on the web.</span></span> <span data-ttu-id="ee56c-111">이 추가 기능을 사용 하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="ee56c-111">This is the recommended add-in.</span></span> <br/><br/> <span data-ttu-id="ee56c-112">라이선스에 따라 보고 된 메시지는 [사용자가 보고 한 메시지 보고서](view-email-security-reports.md#user-reported-messages-report) 및 [위협 탐색기](threat-explorer-views.md#email--submissions)의 [자동 조사 및 응답 (AIR) 결과](air-view-investigation-results.md)에서 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ee56c-112">Depending on your license, the reported messages are available in [Automated investigation and response (AIR) results](air-view-investigation-results.md), the [User-reported messages report](view-email-security-reports.md#user-reported-messages-report) and [Threat Explorer](threat-explorer-views.md#email--submissions).</span></span>|
+|[<span data-ttu-id="ee56c-113">Office 365에서 Microsoft Outlook 용 정크 메일 보고 추가 기능 설치 및 사용</span><span class="sxs-lookup"><span data-stu-id="ee56c-113">Install and use the Junk Email Reporting add-in for Microsoft Outlook in Office 365</span></span>](junk-email-reporting-add-in-for-microsoft-outlook.md)|<span data-ttu-id="ee56c-114">Outlook 에서만 작동 합니다.</span><span class="sxs-lookup"><span data-stu-id="ee56c-114">Only works in Outlook.</span></span>|
+|[<span data-ttu-id="ee56c-115">Office 365에서 웹용 Outlook에 정크 및 피싱 전자 메일 보고</span><span class="sxs-lookup"><span data-stu-id="ee56c-115">Report junk and phishing email in Outlook on the web in Office 365</span></span>](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md)|<span data-ttu-id="ee56c-116">Exchange Online 사서함이 있는 조직에 대해 웹용 Outlook에서 기본 제공 되는 기능 (독립 실행형 EOP에서 사용할 수 없음)을 사용 합니다.</span><span class="sxs-lookup"><span data-stu-id="ee56c-116">Use the built-in capabilities in Outlook on the web for organizations with Exchange Online mailboxes (not available in standalone EOP).</span></span>|
+|[<span data-ttu-id="ee56c-117">분석을 위해 맬웨어 및 비 맬웨어를 Microsoft에 제출</span><span class="sxs-lookup"><span data-stu-id="ee56c-117">Submit malware and non-malware to Microsoft for analysis</span></span>](submitting-malware-and-non-malware-to-microsoft-for-analysis.md)|<span data-ttu-id="ee56c-118">Microsoft 보안 인텔리전스 사이트를 사용 하 여 첨부 파일 및 기타 파일을 제출 합니다.</span><span class="sxs-lookup"><span data-stu-id="ee56c-118">Use the Microsoft Security Intelligence site to submit attachments and other files.</span></span>|
+|
 
-- <span data-ttu-id="d72b1-106">받은 편지함에서</span><span class="sxs-lookup"><span data-stu-id="d72b1-106">From your Inbox</span></span>
-
-- <span data-ttu-id="d72b1-107">열린 전자 메일 메시지 내에서</span><span class="sxs-lookup"><span data-stu-id="d72b1-107">From within an opened email message</span></span>
-
-<span data-ttu-id="d72b1-108">정크 메일 보고 추가 기능을 사용하면 Microsoft EOP(Exchange Online Protection) 서비스에 보고서를 쉽게 제출할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="d72b1-108">The Junk Email Reporting Add-in helps you submit reports to the Microsoft Exchange Online Protection (EOP) service.</span></span> <span data-ttu-id="d72b1-109">사서함이 서비스에 의해 보호되지 않는 경우에 정크 전자 메일 보고서 제출은 스팸 필터에 영향을 주지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="d72b1-109">If your mailbox is not protected by the service, your junk email report submission will not affect your spam filters.</span></span> <span data-ttu-id="d72b1-110">관리자는 office 365에서 [수신 허용-보낸 사람 365 목록 만들기](create-safe-sender-lists-in-office-365.md) 및 [차단 된 보낸](create-block-sender-lists-in-office-365.md)사람 목록 만들기에서 전체 조직에 적용 되는 추가 스팸 설정에 대해 자세히 알아볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="d72b1-110">Administrators can learn about more spam settings that apply to a whole organization at [Create safe sender lists in Office 365](create-safe-sender-lists-in-office-365.md) and [Create blocked sender lists in Office 365](create-block-sender-lists-in-office-365.md).</span></span> <span data-ttu-id="d72b1-111">사용자가 관리자 수준 제어를 가지고 있고 가양성이나 거짓 부정을 방지하려고 할 때 유용합니다.</span><span class="sxs-lookup"><span data-stu-id="d72b1-111">These are helpful if you have administrator-level control and you want to prevent false positives or false negatives.</span></span>
-
-> [!TIP]
-> <span data-ttu-id="d72b1-112">또한 [junk@office365.microsoft.com](mailto:junk@office365.microsoft.com) 전자 메일 주소와 [not_junk@office365.microsoft.com](mailto:not_junk@office365.microsoft.com) 전자 메일 주소를 사용 하 여 가양성 (스팸 아님) 메시지를 사용 하 여 Microsoft에 직접 스팸 메시지를 제출할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="d72b1-112">You can also submit spam messages directly to Microsoft by using the [junk@office365.microsoft.com](mailto:junk@office365.microsoft.com) email address, and false positive (non-spam) messages by using the [not_junk@office365.microsoft.com](mailto:not_junk@office365.microsoft.com) email address.</span></span> <span data-ttu-id="d72b1-113">자세한 내용은 [분석을 위해 Microsoft에 스팸 및 스팸이 아닌 메시지 제출을](submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md)참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="d72b1-113">For more information, see [Submit spam, non-spam, and phishing scam messages to Microsoft for analysis](submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md).</span></span>
-
-### <a name="to-report-junk-email-messages-from-outlook"></a><span data-ttu-id="d72b1-114">Outlook에서 정크 메일 메시지를 보고 하려면</span><span class="sxs-lookup"><span data-stu-id="d72b1-114">To report junk email messages from Outlook</span></span>
-
-[<span data-ttu-id="d72b1-115">보고서 메시지 추가 기능 사용</span><span class="sxs-lookup"><span data-stu-id="d72b1-115">Use the Report Message add-in</span></span>](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2)
-
-### <a name="to-report-junk-email-messages-from-your-inbox"></a><span data-ttu-id="d72b1-116">받은 편지함에서 정크 메일 메시지를 보고하려면</span><span class="sxs-lookup"><span data-stu-id="d72b1-116">To report junk email messages from your Inbox</span></span>
-
-1. <span data-ttu-id="d72b1-117">정크로 보고할 메시지를 마우스 오른쪽 단추로 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="d72b1-117">Right-click the message or messages that you want to report as junk.</span></span>
-
-2. <span data-ttu-id="d72b1-118">**정크**를 선택하고 **정크 보고**를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="d72b1-118">Select **Junk** and then click **Report Junk**.</span></span>
-    <span data-ttu-id="d72b1-119">![받은 편지함에서 정크 메시지 보고](../../media/EOP-Outlook-Junk-Reporting-Tool-3.jpg)</span><span class="sxs-lookup"><span data-stu-id="d72b1-119">![Report junk messages from your Inbox](../../media/EOP-Outlook-Junk-Reporting-Tool-3.jpg)</span></span>
-
-3. <span data-ttu-id="d72b1-120">**Microsoft 정크 메일 보고 추가 기능** 대화 상자가 열립니다.</span><span class="sxs-lookup"><span data-stu-id="d72b1-120">The **Microsoft Junk E-mail Reporting Add-in** dialog box opens.</span></span> <span data-ttu-id="d72b1-121">선택한 메시지를 정크로 제출하려면 **예**를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="d72b1-121">If you're sure that you want to submit the messages you selected as junk, click **Yes**.</span></span>
-    <span data-ttu-id="d72b1-122">![정크 메일로 보고 확인](../../media/EOP-Outlook-Junk-Reporting-Tool-2.jpg)</span><span class="sxs-lookup"><span data-stu-id="d72b1-122">![Confirm report as junk](../../media/EOP-Outlook-Junk-Reporting-Tool-2.jpg)</span></span>
-
-    > [!NOTE]
-    > <span data-ttu-id="d72b1-123">정크 메시지 전송 시 이 확인 메시지를 표시하지 않으려면 **이 메시지를 다시 표시 안 함**을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="d72b1-123">If you don't want to receive this confirmation message when submitting junk messages, check **Do not show this message again**.</span></span>
-
-<span data-ttu-id="d72b1-p105">선택한 메시지가 분석을 위해 Microsoft로 전송되고 정크 메일 폴더로 이동됩니다. 메시지가 전송되었는지 확인하려면 **보낸 편지함** 폴더를 열고 전송한 메시지를 확인합니다.</span><span class="sxs-lookup"><span data-stu-id="d72b1-p105">The selected messages will be sent to Microsoft for analysis and moved to the Junk Email folder. To confirm that the messages have been submitted, open your **Sent Items** folder to view the submitted messages.</span></span>
-
-### <a name="to-report-a-junk-email-message-from-within-an-opened-message"></a><span data-ttu-id="d72b1-126">열린 메시지 내에서 정크 메일 메시지를 보고하려면</span><span class="sxs-lookup"><span data-stu-id="d72b1-126">To report a junk email message from within an opened message</span></span>
-
-1. <span data-ttu-id="d72b1-127">열린 메시지 내에서 메시지 리본 메뉴의 **정크 보고** 단추를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="d72b1-127">From within an opened message, click the **Report Junk** button on the message ribbon.</span></span> <span data-ttu-id="d72b1-128">예를 \> **들어 정크 메일** **보고서 정크** ![메일로 메시지 내에서 정크 메일이 전송 됩니다.](../../media/EOP-Outlook-Junk-Reporting-Tool-4.jpg)</span><span class="sxs-lookup"><span data-stu-id="d72b1-128">For example, click **Junk** \> **Report Junk** ![Report a junk email from within a message](../../media/EOP-Outlook-Junk-Reporting-Tool-4.jpg)</span></span>
-
-2. <span data-ttu-id="d72b1-129">**Microsoft 정크 메일 보고 추가 기능** 대화 상자가 열립니다.</span><span class="sxs-lookup"><span data-stu-id="d72b1-129">The **Microsoft Junk E-mail Reporting Add-in** dialog box opens.</span></span> <span data-ttu-id="d72b1-130">선택한 메시지를 정크로 제출하려면 **예**를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="d72b1-130">If you're sure that you want to submit the message you selected as junk, click **Yes**.</span></span>
-    <span data-ttu-id="d72b1-131">![정크 메일로 보고 확인](../../media/EOP-Outlook-Junk-Reporting-Tool-2.jpg)</span><span class="sxs-lookup"><span data-stu-id="d72b1-131">![Confirm report as junk](../../media/EOP-Outlook-Junk-Reporting-Tool-2.jpg)</span></span>
-
-    > [!NOTE]
-    > <span data-ttu-id="d72b1-132">정크 메시지 전송 시 이 확인 메시지를 표시하지 않으려면 **이 메시지를 다시 표시 안 함**을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="d72b1-132">If you don't want to receive this confirmation message when submitting junk messages, check **Do not show this message again**.</span></span>
-
-<span data-ttu-id="d72b1-p108">선택한 메시지가 분석을 위해 Microsoft로 전송되고 정크 메일 폴더로 이동됩니다. 메시지가 전송되었는지 확인하려면 **보낸 편지함** 폴더를 열고 전송한 메시지를 확인합니다.</span><span class="sxs-lookup"><span data-stu-id="d72b1-p108">The selected message will be sent to Microsoft for analysis and moved to the Junk Email folder. To confirm that the message has been submitted, open your **Sent Items** folder to view the submitted message.</span></span>
+<span data-ttu-id="ee56c-119">스팸 또는 피싱 메시지가 배달 되지 않고 격리 된 경우 사용자는 Office 365 보안 & 준수 센터의 격리 포털에서 Microsoft로 메시지를 보고할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ee56c-119">If the spam or phishing messages were quarantined instead of delivered, users can report the messages to Microsoft from the Quarantine portal in the Office 365 Security & Compliance Center.</span></span> <span data-ttu-id="ee56c-120">자세한 내용은 [Office 365의 사용자로 격리 된 메시지 찾기 및 릴리스](find-and-release-quarantined-messages-as-a-user.md)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="ee56c-120">For details, see [Find and release quarantined messages as a user in Office 365](find-and-release-quarantined-messages-as-a-user.md).</span></span>
