@@ -16,12 +16,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: d11b2682b9699e61a4c9ecfa47eb73de87de5e4f
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 2b0d015485196bc76e7de580c888892967fe5d05
+ms.sourcegitcommit: c079cc893cd1bd5d894b13814063a2f42238806e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42084212"
+ms.lasthandoff: 03/28/2020
+ms.locfileid: "43035126"
 ---
 # <a name="policy-recommendations-for-securing-sharepoint-sites-and-files"></a>SharePoint 사이트 및 파일을 보호 하기 위한 정책 권장 사항
 
@@ -47,13 +47,13 @@ ms.locfileid: "42084212"
 |:---------------|:-------|:----------------|
 |**기준선**|[로그인 위험이 *보통* 또는 *높을* 때 MFA 필요](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|클라우드 앱 할당에 SharePoint Online 포함|
 |        |[최신 인증을 지원하지 않는 클라이언트 차단](identity-access-policies.md#block-clients-that-dont-support-modern-authentication)|클라우드 앱 할당에 SharePoint Online 포함|
-|        |[앱 보호 정책 정의](identity-access-policies.md#define-app-protection-policies)|모든 권장 앱이 앱 목록에 포함 되어 있는지 확인해 보십시오. 각 플랫폼의 정책 (iOS, Android, Windows)을 업데이트 해야 합니다.|
+|        |[앱 데이터 보호 정책 적용](identity-access-policies.md#apply-app-data-protection-policies)|모든 권장 앱이 앱 목록에 포함 되어 있는지 확인해 보십시오. 각 플랫폼의 정책 (iOS, Android, Windows)을 업데이트 해야 합니다.|
 |        |[호환 PC 필요](identity-access-policies.md#require-compliant-pcs-but-not-compliant-phones-and-tablets)|클라우드 앱 목록에 SharePoint Online 포함|
 |        |[SharePoint Online에서 앱 적용 제한 사용](#use-app-enforced-restrictions-in-sharepoint-online)|새 정책을 추가 합니다. 이렇게 하면 Azure AD에서 SharePoint Online에 지정 된 설정을 사용 하 게 됩니다. 이 규칙은 모든 사용자에 게 적용 되지만 SharePoint Online access 정책에 포함 된 사이트에 대 한 액세스에만 영향을 줍니다.|
-|**중요**|[로그인 위험이 *낮은* *경우 MFA* 필요 **](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|클라우드 앱의 할당에 SharePoint Online 포함|
+|**중요**|[로그인 위험이 *낮은* *경우 MFA* 필요 *high*](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|클라우드 앱의 할당에 SharePoint Online 포함|
 |         |[준수 Pc *및* 모바일 장치 요구](identity-access-policies.md#require-compliant-pcs-and-mobile-devices)|클라우드 앱 목록에 SharePoint Online 포함|
 ||[SharePoint Online 액세스 제어 정책](#sharepoint-online-access-control-policies): 관리 되지 않는 장치에서 특정 SharePoint 사이트에 대 한 브라우저 전용 액세스 허용|이렇게 하면 파일을 편집 하 고 다운로드할 수 없습니다. PowerShell을 사용 하 여 사이트 지정|
-|**높은 규제**|[*항상* MFA 필요](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|클라우드 앱 할당에 SharePoint Online 포함|
+|**매우 엄격한 규제**|[*항상* MFA 필요](identity-access-policies.md#require-mfa-based-on-sign-in-risk)|클라우드 앱 할당에 SharePoint Online 포함|
 ||[SharePoint Online 액세스 제어 정책](#use-app-enforced-restrictions-in-sharepoint-online): 관리 되지 않는 장치에서 특정 SharePoint 사이트에 대 한 액세스 차단|PowerShell을 사용 하 여 사이트 지정|
 
 ## <a name="use-app-enforced-restrictions-in-sharepoint-online"></a>SharePoint Online에서 앱 적용 제한 사용
