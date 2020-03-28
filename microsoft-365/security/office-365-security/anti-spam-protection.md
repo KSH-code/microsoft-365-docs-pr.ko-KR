@@ -17,12 +17,12 @@ ms.assetid: 6a601501-a6a8-4559-b2e7-56b59c96a586
 ms.collection:
 - M365-security-compliance
 description: Exchange Online 및 Office 365에서 스팸을 방지 하는 데 도움이 되는 스팸 방지 설정 및 필터에 대해 알아봅니다. Office 365에서 너무 많은 스팸 받기 스팸 필터 및 스팸 방지 설정을 사용자 지정할 수 있습니다.
-ms.openlocfilehash: 5558bfa29427df4df12a83bc8b30adaf6001b9c3
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: bb2b714273af5177d8c69c4b89b0daec87c31650
+ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42894073"
+ms.lasthandoff: 03/28/2020
+ms.locfileid: "43033473"
 ---
 # <a name="anti-spam-protection-in-office-365"></a>Office 365의 스팸 방지 보호 기능
 
@@ -49,7 +49,7 @@ EOP의 스팸 방지 설정은 다음과 같은 기술로 구성 됩니다.
 - **스팸 필터링 (콘텐츠 필터링)**: EOP은 스팸 필터링 verdicts **스팸**, **높은 신뢰도 스팸**, **대량 전자 메일**, **피싱 메일** 및 **높은 신뢰도 피싱 전자 메일** 을 사용 하 여 메시지를 분류 합니다. 이러한 verdicts에 따라 수행할 작업을 구성 하 고, 전달 되지 않고 격리 된 메시지에 대 한 최종 사용자 알림 옵션을 구성할 수 있습니다. 자세한 내용은 [Office 365의 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)를 참조하세요.
 
   > [!NOTE]
-  > 기본적으로 스팸 필터링은 스팸으로 표시 된 메시지를 받는 사람의 정크 메일 폴더로 보내도록 구성 됩니다. 그러나 EOP가 온-프레미스 Exchange 사서함을 보호 하는 하이브리드 환경에서는 메시지에 추가 되는 EOP 스팸 헤더를 인식할 수 있도록 온-프레미스 Exchange 조직에서 두 개의 메일 흐름 규칙 (전송 규칙이 라고도 함)을 구성 해야 합니다. 자세한 내용은 [하이브리드 환경의 정크 메일 폴더에 스팸을 배달 하도록 독립 실행형 EOP 구성을](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md)참조 하십시오.
+  > 기본적으로 스팸 필터링은 스팸으로 표시 된 메시지를 받는 사람의 정크 메일 폴더로 보내도록 구성 됩니다. 그러나 EOP가 온-프레미스 Exchange 사서함을 보호 하는 하이브리드 환경에서는 메시지에 추가 되는 EOP 스팸 헤더를 인식할 수 있도록 온-프레미스 Exchange 조직에서 두 개의 메일 흐름 규칙 (전송 규칙이 라고도 함)을 구성 해야 합니다. 자세한 내용은 [하이브리드 환경에서 스팸을 정크 메일 폴더로 배달하도록 독립 실행형 EOP 구성하기](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md)를 참조하세요.
 
 - **아웃 바운드 스팸 필터링**: EOP 또한 사용자가 아웃 바운드 메시지 콘텐츠 또는 아웃 바운드 메시지 제한을 초과 하 여 스팸 메일을 보내지 않도록 확인 합니다. 자세한 내용은 [Office 365에서 아웃 바운드 스팸 필터링 구성을](configure-the-outbound-spam-policy.md)참조 하세요.
 
@@ -61,7 +61,7 @@ EOP의 스팸 방지 설정은 다음과 같은 기술로 구성 됩니다.
 
 다음은 두 시나리오에 적용 되는 몇 가지 최상의 방법입니다.
 
-- 스팸으로 잘못 분류 메시지를 항상 Microsoft에 제출 합니다. 관리자는 [전송 탐색기](admin-submission.md)를 사용 하거나, 사용자가 [보고서 메시지 추가 기능 사용](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2)을 사용 하 여 메시지를 보고할 수 있습니다.
+- 스팸으로 잘못 분류 메시지를 항상 Microsoft에 제출 합니다. 자세한 내용은 [메시지 및 파일을 Microsoft에 보고](report-junk-email-messages-to-microsoft.md)를 참조 하세요.
 
 - **스팸 방지 메시지 헤더를 검사**합니다. 이러한 값은 메시지가 스팸으로 표시 된 이유와 스팸 필터링을 건너뛴 이유를 알려줍니다. 자세한 내용은 [스팸 방지 메시지 헤더](anti-spam-message-headers.md)를 참조하세요.
 
@@ -83,13 +83,13 @@ EOP의 스팸 방지 설정은 다음과 같은 기술로 구성 됩니다.
 
 - **조직 설정 확인**: 스팸 방지 정책에서 허용 되는 도메인 목록에 자체 도메인을 추가 하는 경우와 같이 메시지가 스팸 필터링을 건너뛰는 것을 허용 하는 설정을 검토 합니다. 권장 설정에 대 한 자세한 내용은 [EOP And office 365 ATP security의 권장 설정](recommended-settings-for-eop-and-office365-atp.md) 및 [office 365에서 수신 허용-보낸 사람 목록 만들기](create-safe-sender-lists-in-office-365.md)를 참조 하세요.
 
-- **정크 메일 규칙이 사용자 사서함에서 사용 하도록 설정 되어 있는지 확인**: 기본적으로 사용 하도록 설정 되어 있지만 정크 메일로 표시 된 메시지를 정크 메일 폴더로 이동할 수 없습니다. 자세한 내용은 [Office 365에서 Exchange Online 사서함의 정크 메일 설정 구성을](configure-junk-email-settings-on-exo-mailboxes.md)참조 하세요.
+- **정크 메일 규칙이 사용자 사서함에서 사용 하도록 설정 되어 있는지 확인**: 기본적으로 사용 하도록 설정 되어 있지만 정크 메일로 표시 된 메시지를 정크 메일 폴더로 이동할 수 없습니다. 자세한 내용은 [Office 365에서 Exchange Online 사서함에 대한 정크 메일 설정 구성하기](configure-junk-email-settings-on-exo-mailboxes.md)를 참조하세요.
 
 - **사용할 수 있는 차단 된 보낸 사람 목록 사용**: 자세한 내용은 [Office 365에서 차단 된 보낸 사람 목록 만들기](create-block-sender-lists-in-office-365.md)를 참조 하세요.
 
 - **대량 전자 메일 구독 취소** 사용자가 등록 한 메시지 (뉴스레터, 제품 공지 사항 등)가 있고 믿을 수 있는 출처의 구독 취소 링크를 포함 하는 경우 간단히 구독을 취소할 것을 요청 하는 것이 좋습니다.
 
-- **독립 실행형 EOP: 온-프레미스 exchange에서 EOP 스팸 필터링 verdicts에 대 한 메일 흐름 규칙 만들기**: EOP 온-프레미스 exchange 사서함을 보호 하는 독립 실행형 EOP 환경에서는 온-프레미스 exchange의 메일 흐름 규칙 (전송 규칙이 라고도 함)을 구성 하 여 정크 메일 규칙에서 메시지를 정크 메일 폴더로 이동할 수 있도록 해야 합니다. 자세한 내용은 [하이브리드 환경의 정크 메일 폴더에 스팸을 배달 하도록 독립 실행형 EOP 구성을](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md)참조 하십시오.
+- **독립 실행형 EOP: 온-프레미스 exchange에서 EOP 스팸 필터링 verdicts에 대 한 메일 흐름 규칙 만들기**: EOP 온-프레미스 exchange 사서함을 보호 하는 독립 실행형 EOP 환경에서는 온-프레미스 exchange의 메일 흐름 규칙 (전송 규칙이 라고도 함)을 구성 하 여 정크 메일 규칙에서 메시지를 정크 메일 폴더로 이동할 수 있도록 해야 합니다. 자세한 내용은 [하이브리드 환경에서 스팸을 정크 메일 폴더로 배달하도록 독립 실행형 EOP 구성하기](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md)를 참조하세요.
 
 ### <a name="prevent-good-email-from-being-identified-as-spam"></a>전자 메일이 스팸으로 식별 되지 않도록 방지
 

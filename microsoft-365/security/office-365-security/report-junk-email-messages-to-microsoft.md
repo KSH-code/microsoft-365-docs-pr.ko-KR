@@ -1,5 +1,5 @@
 ---
-title: Microsoft에 정크 메일 메시지 보고
+title: Microsoft에 스팸, 스팸 아님 및 피싱 메시지 보고
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -16,55 +16,25 @@ ms.assetid: c31406ea-2979-4fac-9288-f835269b9d2f
 ms.collection:
 - M365-security-compliance
 description: Microsoft Office Outlook용 Microsoft 정크 메일 보고 추가 기능은 정크 메일 메시지를 보고하는 다양한 방법을 제공합니다.
-ms.openlocfilehash: b1ed918e4b954cc7b2d79e52abd6f58a99eda0f0
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: b7e7ed56f171ee3b74b36ed7c10c46286fb1e570
+ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42895182"
+ms.lasthandoff: 03/28/2020
+ms.locfileid: "43033665"
 ---
-# <a name="report-junk-email-messages-to-microsoft"></a>Microsoft에 정크 메일 메시지 보고
+# <a name="report-messages-and-files-to-microsoft"></a>Microsoft에 메시지 및 파일 보고
 
-Microsoft Office Outlook용 Microsoft 정크 메일 보고 추가 기능은 정크 메일 메시지를 보고하는 다양한 방법을 제공합니다.
+Office 365의 사용자 및 관리자 Exchange online의 사서함이 있는 조직 또는 Exchange Online 사서함이 없는 EOP (독립 실행형 Exchange Online Protection) 조직에서 전자 메일 메시지를 제출할 수 있는 여러 가지 방법을 통해 메시지를 보고 하 고 파일을 Microsoft에 추가할 수 있습니다.
 
-- Outlook 리본 메뉴에서
+|||
+|---|---|
+|**방법**|**설명**|
+|[관리자 제출을 사용 하 여 의심 스러운 스팸, 피싱, Url 및 파일을 Microsoft에 제출](admin-submission.md)|이는 Exchange Online 사서함을 사용 하는 조직의 관리자에 게 권장 되는 보고 방법으로, 독립 실행형 EOP에서 사용할 수 없습니다.|
+|[Office 365에서 보고서 메시지 추가 기능을 사용 하도록 설정](enable-the-report-message-add-in.md)|Outlook, Mac 용 Outlook 및 웹용 Outlook에서 작동 합니다. 이 추가 기능을 사용 하는 것이 좋습니다. <br/><br/> 라이선스에 따라 보고 된 메시지는 [사용자가 보고 한 메시지 보고서](view-email-security-reports.md#user-reported-messages-report) 및 [위협 탐색기](threat-explorer-views.md#email--submissions)의 [자동 조사 및 응답 (AIR) 결과](air-view-investigation-results.md)에서 사용할 수 있습니다.|
+|[Office 365에서 Microsoft Outlook 용 정크 메일 보고 추가 기능 설치 및 사용](junk-email-reporting-add-in-for-microsoft-outlook.md)|Outlook 에서만 작동 합니다.|
+|[Office 365에서 웹용 Outlook에 정크 및 피싱 전자 메일 보고](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md)|Exchange Online 사서함이 있는 조직에 대해 웹용 Outlook에서 기본 제공 되는 기능 (독립 실행형 EOP에서 사용할 수 없음)을 사용 합니다.|
+|[분석을 위해 맬웨어 및 비 맬웨어를 Microsoft에 제출](submitting-malware-and-non-malware-to-microsoft-for-analysis.md)|Microsoft 보안 인텔리전스 사이트를 사용 하 여 첨부 파일 및 기타 파일을 제출 합니다.|
+|
 
-- 받은 편지함에서
-
-- 열린 전자 메일 메시지 내에서
-
-정크 메일 보고 추가 기능을 사용하면 Microsoft EOP(Exchange Online Protection) 서비스에 보고서를 쉽게 제출할 수 있습니다. 사서함이 서비스에 의해 보호되지 않는 경우에 정크 전자 메일 보고서 제출은 스팸 필터에 영향을 주지 않습니다. 관리자는 office 365에서 [수신 허용-보낸 사람 365 목록 만들기](create-safe-sender-lists-in-office-365.md) 및 [차단 된 보낸](create-block-sender-lists-in-office-365.md)사람 목록 만들기에서 전체 조직에 적용 되는 추가 스팸 설정에 대해 자세히 알아볼 수 있습니다. 사용자가 관리자 수준 제어를 가지고 있고 가양성이나 거짓 부정을 방지하려고 할 때 유용합니다.
-
-> [!TIP]
-> 또한 [junk@office365.microsoft.com](mailto:junk@office365.microsoft.com) 전자 메일 주소와 [not_junk@office365.microsoft.com](mailto:not_junk@office365.microsoft.com) 전자 메일 주소를 사용 하 여 가양성 (스팸 아님) 메시지를 사용 하 여 Microsoft에 직접 스팸 메시지를 제출할 수 있습니다. 자세한 내용은 [분석을 위해 Microsoft에 스팸 및 스팸이 아닌 메시지 제출을](submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md)참조 하세요.
-
-### <a name="to-report-junk-email-messages-from-outlook"></a>Outlook에서 정크 메일 메시지를 보고 하려면
-
-[보고서 메시지 추가 기능 사용](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2)
-
-### <a name="to-report-junk-email-messages-from-your-inbox"></a>받은 편지함에서 정크 메일 메시지를 보고하려면
-
-1. 정크로 보고할 메시지를 마우스 오른쪽 단추로 클릭합니다.
-
-2. **정크**를 선택하고 **정크 보고**를 클릭합니다.
-    ![받은 편지함에서 정크 메시지 보고](../../media/EOP-Outlook-Junk-Reporting-Tool-3.jpg)
-
-3. **Microsoft 정크 메일 보고 추가 기능** 대화 상자가 열립니다. 선택한 메시지를 정크로 제출하려면 **예**를 클릭합니다.
-    ![정크 메일로 보고 확인](../../media/EOP-Outlook-Junk-Reporting-Tool-2.jpg)
-
-    > [!NOTE]
-    > 정크 메시지 전송 시 이 확인 메시지를 표시하지 않으려면 **이 메시지를 다시 표시 안 함**을 선택합니다.
-
-선택한 메시지가 분석을 위해 Microsoft로 전송되고 정크 메일 폴더로 이동됩니다. 메시지가 전송되었는지 확인하려면 **보낸 편지함** 폴더를 열고 전송한 메시지를 확인합니다.
-
-### <a name="to-report-a-junk-email-message-from-within-an-opened-message"></a>열린 메시지 내에서 정크 메일 메시지를 보고하려면
-
-1. 열린 메시지 내에서 메시지 리본 메뉴의 **정크 보고** 단추를 클릭합니다. 예를 \> **들어 정크 메일** **보고서 정크** ![메일로 메시지 내에서 정크 메일이 전송 됩니다.](../../media/EOP-Outlook-Junk-Reporting-Tool-4.jpg)
-
-2. **Microsoft 정크 메일 보고 추가 기능** 대화 상자가 열립니다. 선택한 메시지를 정크로 제출하려면 **예**를 클릭합니다.
-    ![정크 메일로 보고 확인](../../media/EOP-Outlook-Junk-Reporting-Tool-2.jpg)
-
-    > [!NOTE]
-    > 정크 메시지 전송 시 이 확인 메시지를 표시하지 않으려면 **이 메시지를 다시 표시 안 함**을 선택합니다.
-
-선택한 메시지가 분석을 위해 Microsoft로 전송되고 정크 메일 폴더로 이동됩니다. 메시지가 전송되었는지 확인하려면 **보낸 편지함** 폴더를 열고 전송한 메시지를 확인합니다.
+스팸 또는 피싱 메시지가 배달 되지 않고 격리 된 경우 사용자는 Office 365 보안 & 준수 센터의 격리 포털에서 Microsoft로 메시지를 보고할 수 있습니다. 자세한 내용은 [Office 365의 사용자로 격리 된 메시지 찾기 및 릴리스](find-and-release-quarantined-messages-as-a-user.md)를 참조 하세요.

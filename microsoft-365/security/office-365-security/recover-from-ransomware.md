@@ -13,12 +13,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Office 365 관리자는 랜 섬 웨어 공격 으로부터 복구 하는 방법에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: aa606ea3bf3f549645fe26a4aa95066568132243
-ms.sourcegitcommit: 72983702a42552a29228d387bb279e8ff2ab59b4
+ms.openlocfilehash: 6d57142bac6dad22d38cc26a9353b528a9f8eb10
+ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/14/2020
-ms.locfileid: "42640020"
+ms.lasthandoff: 03/28/2020
+ms.locfileid: "43032879"
 ---
 # <a name="recover-from-a-ransomware-attack-in-office-365"></a>Office 365에서 랜 섬 웨어 공격 으로부터 복구
 
@@ -66,7 +66,7 @@ OneDrive 동기화를 일시 중지 하면 잠재적으로 감염 된 장치에 
 
 이전 단계를 완료 하 여 환경에서 랜 섬 웨어 페이로드를 제거한 후 (섬 웨어 파일을 암호화 하거나 제거 하지 못하게 함) windows 10 및 Windows 8.1의 [파일 기록을](https://support.microsoft.com/help/17128/windows-8-file-history) 사용 하 여 로컬 파일 및 폴더 복구를 시도할 수 있습니다.
 
-**참고**:
+**참고:**
 
 - 일부 랜 섬 웨어도 백업 버전을 암호화 하거나 삭제 하므로 파일 기록 또는 시스템 보호를 사용 하 여 파일을 복원할 수 없습니다. 이 경우 다음 섹션에 설명 된 대로 랜 섬 웨어 또는 OneDrive의 영향을 받지 않았던 외부 드라이브 또는 장치에서 백업을 사용 해야 합니다.
 
@@ -122,7 +122,7 @@ OneDrive 동기화를 일시 중지 하면 잠재적으로 감염 된 장치에 
 
 ### <a name="submit-email-messages-to-microsoft"></a>Microsoft로 전자 메일 메시지 제출
 
-[분석을 위해 Microsoft에 스팸, 스팸이 아닌 피싱 사기 메시지를 제출](https://docs.microsoft.com/microsoft-365/security/office-365-security/submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis)하는 지침에 따라 랜 섬 웨어가 포함 된 피싱 메시지를 보고할 수 있습니다.
+몇 가지 방법 중 하나를 사용 하 여 랜 섬 웨어가 포함 된 피싱 메시지를 보고할 수 있습니다. 자세한 내용은 [메시지 및 파일을 Microsoft에 보고](report-junk-email-messages-to-microsoft.md)를 참조 하세요.
 
 ## <a name="see-also"></a>참고 항목
 

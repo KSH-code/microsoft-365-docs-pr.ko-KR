@@ -13,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 localization_priority: None
 description: Microsoft 팀에서 정보 장벽에 대 한 정책을 정의 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 3dc59a78d25045f3816b48705b5427141a1caea7
-ms.sourcegitcommit: 01ead889086ecc7dcf5d10244bcf67c5a33c8114
+ms.openlocfilehash: efce9a1c9827ddc904d6942ff9e1005850acfe8c
+ms.sourcegitcommit: ce6121a8e3ca7438071d73b0c76e2b6f33ac1cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42710507"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "43029884"
 ---
 # <a name="define-information-barrier-policies"></a>정보 장벽 정책 정의
 
@@ -247,7 +247,7 @@ ms.locfileid: "42710507"
 
     구문과`Start-InformationBarrierPoliciesApplication`
 
-    약 1 시간 후에는 조직에 대해 사용자에 게 정책이 적용 됩니다. 대규모 조직에서는이 프로세스를 완료 하는 데 24 시간 이상 소요 될 수 있습니다. 일반적으로 5000 사용자 계정을 처리 하는 데 한 시간 정도 소요 됩니다.
+    시스템에서 정책 `Start-InformationBarrierPoliciesApplication` 적용을 시작할 때까지 30 분까지 허용을 실행 합니다. 시스템은 사용자별 정책을 사용자에 게 적용 합니다. 일반적으로 시스템은 시간당 5000 사용자 계정에 대해 프로세스를 처리 합니다.
 
 ## <a name="view-status-of-user-accounts-segments-policies-or-policy-application"></a>사용자 계정, 세그먼트, 정책 또는 정책 응용 프로그램의 상태 보기
 

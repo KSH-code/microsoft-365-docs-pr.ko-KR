@@ -1,5 +1,5 @@
 ---
-title: 사례 연구-Contoso가 공격적인 언어 정책을 빠르게 구성 합니다.
+title: 사례 연구-Contoso는 Microsoft 팀 및 Exchange 통신에 대 한 비속어 (공격적인 언어 정책)를 빠르게 구성 합니다.
 description: Contoso에 대 한 사례 연구 및 Microsoft 팀 및 Exchange Online 통신에서 비속어를 모니터링 하기 위한 통신 준수 정책을 신속 하 게 구성 하는 방법
 f1.keywords:
 - NOCSH
@@ -18,14 +18,14 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 6b5ce3b9ca738ddf94edbb035daeb730f5e3f96a
-ms.sourcegitcommit: 242f051c4cf3683f8c1a5da20ceca81bde212cfc
+ms.openlocfilehash: 6f23bece83f0c0fc25ddb26b8ceddcb1c956bc5e
+ms.sourcegitcommit: 9ddf2005a36a27cc6d2d85a5b9fac0483a55f245
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42982387"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "43024348"
 ---
-# <a name="case-study---contoso-quickly-configures-an-offensive-language-policy"></a>사례 연구-Contoso가 공격적인 언어 정책을 빠르게 구성 합니다.
+# <a name="case-study---contoso-quickly-configures-an-offensive-language-policy-for-microsoft-teams-and-exchange-communications"></a>사례 연구-Contoso는 Microsoft 팀 및 Exchange 통신에 대 한 비속어 (공격적인 언어 정책)를 빠르게 구성 합니다.
 
 Microsoft 365의 통신 준수 기능은 조직의 부적절 한 메시지에 대 한 검색, 캡처 및 수정 작업 수행을 지원 하 여 통신 위험을 최소화 하는 데 도움이 됩니다. 미리 정의 된 정책 및 사용자 지정 정책을 사용 하면 정책 일치에 대 한 내부 및 외부 통신을 검색 하 여 지정한 검토자가 검사할 수 있습니다. 검토자는 조직에서 검사 된 전자 메일, Microsoft 팀 또는 타사 통신을 조사 하 고 적절 한 교정 작업을 수행 하 여 조직의 메시지 표준을 준수 하도록 할 수 있습니다.
 

@@ -13,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 localization_priority: None
 description: 정보 장애물을 사용 하 여 조직 내에서 Microsoft 팀을 사용 하 여 통신을 준수 하는지 확인 합니다.
-ms.openlocfilehash: 8bee0f368edc91b6f926eb6cb3e0a2f8dad81e9b
-ms.sourcegitcommit: 9b79701eba081cd4b3263db7a15c088d92054b4b
+ms.openlocfilehash: 5d3abe41680a8399600fdea51df6f3b85fbd6b94
+ms.sourcegitcommit: ce6121a8e3ca7438071d73b0c76e2b6f33ac1cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42692655"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "43029842"
 ---
 # <a name="learn-about-information-barriers"></a>정보 장벽에 대해 자세히 알아보기
 
@@ -28,10 +28,13 @@ Microsoft 클라우드 서비스에는 강력한 통신 및 공동 작업 기능
 
 Microsoft 팀부터 정보 장애물을 즉시 롤아웃할 수 있습니다. [구독](#required-licenses-and-permissions) 에 정보 장애가 포함 된 경우 규정 준수 관리자 또는 정보 장벽 관리자는 Microsoft 팀의 사용자 그룹 간 통신을 허용 하거나 차단 하는 정책을 정의할 수 있습니다. 정보 장벽 정책은 다음과 같은 경우에 사용할 수 있습니다.
 
-- 하루 상인은 마케팅 팀에서 다른 사람에 게 전화를 걸 수 없습니다.
-- 기밀 회사 정보에 대 한 작업을 수행 하는 금융 직원은 조직 내의 특정 그룹에서 전화를 받을 수 없습니다.
-- 영업 비밀 자료가 있는 내부 팀이 조직 내의 특정 그룹에 있는 사용자와 통화 하거나 온라인으로 대화할 수 없습니다.
-- 연구 팀은 제품 개발 팀과 온라인 으로만 전화를 걸어 대화할 수 있습니다.
+- 일일 상인 그룹의 사용자는 마케팅 팀과 의견을 교환할 수 없습니다.
+- 기밀 회사 정보에 대 한 작업을 수행 하는 금융 직원은 조직 내의 특정 그룹과 통신 하지 않아야 합니다.
+- 무역 박람회가 포함 된 내부 팀에서 조직 내의 특정 그룹에 있는 사용자와 통화 하거나 온라인으로 채팅 해서는 안 됩니다.
+- 연구 팀은 제품 개발 팀과 온라인 으로만 전화 하거나 채팅을 수행 해야 합니다.
+
+> [!IMPORTANT]
+> 정보 장벽에서는 두 가지 제한 ***만 지원*** 합니다. 마케팅과 같은 단방향 제한은 하루 상인과 통신할 수 있지만,이 경우에 ***는 상인이***marketing과 통신할 수 없습니다.
 
 이러한 모든 시나리오 (및 이상)에서 정보 장벽 정책은 Microsoft 팀의 통신을 방지 하거나 허용 하도록 정의할 수 있습니다. 이러한 정책을 사용 하면 사용자가 전화를 걸 수도 있고 채팅을 할 수 없거나, 사용자가 Microsoft 팀의 특정 그룹과 통신 하는 것을 허용 합니다. 정보 장벽 정책을 적용 하면 해당 정책에 포함 된 사용자가 Microsoft 팀의 다른 사람들과 통신을 시도할 때마다 정보 장벽 정책에 정의 된 대로 통신을 방지 하거나 허용 하기 위해 검사가 수행 됩니다. 정보 장벽에 대 한 사용자 환경에 대 한 자세한 내용은 [Microsoft 팀의 정보 장벽](https://docs.microsoft.com/MicrosoftTeams/information-barriers-in-teams)를 참조 하세요.
 

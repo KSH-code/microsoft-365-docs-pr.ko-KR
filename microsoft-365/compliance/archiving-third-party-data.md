@@ -16,28 +16,28 @@ ms.collection:
 search.appverid: MOE150
 ms.assetid: 0ce338d5-3666-4a18-86ab-c6910ff408cc
 description: '관리자는 소셜 미디어 플랫폼, 인스턴트 메시징 플랫폼 및 문서 공동 작업 플랫폼에서 Microsoft 365 조직의 사서함으로 타사 데이터를 가져올 수 있습니다. 이를 통해 Microsoft 365의 Facebook, Twitter 및 기타 타사 데이터 원본에서 데이터를 보관할 수 있습니다. 그런 다음 타사 데이터에 대해 Microsoft 365 준수 기능 (예: 법적 보존, eDiscovery, 원본 위치 보관 및 보존 정책)을 사용 하 여 적용할 수 있습니다.'
-ms.openlocfilehash: ac732110dac8d590ac30cfb062251d2e970bdd3d
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 72afb48f74a30bac2904e857a33487a83eba48cd
+ms.sourcegitcommit: f9b5eca20e025acc36635cbd1786ff3407295857
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41596005"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "43027658"
 ---
 # <a name="archive-third-party-data"></a>타사 데이터 보관
 
 Microsoft 365에서는 관리자가 소셜 미디어 플랫폼, 인스턴트 메시징 플랫폼 및 문서 공동 작업 플랫폼에서 타사 데이터를 가져오고 Microsoft 365 조직의 사서함으로 보관할 수 있습니다. Microsoft 365로 가져올 수 있는 타사 데이터 원본의 예에는 다음 서비스가 포함 됩니다. 
   
-- **공유:** Facebook, LinkedIn, Twitter 및 Yammer 
+- **공유:** Facebook, LinkedIn, Twitter 및 Yammer
 
-- **인스턴트 메시징:** Yahoo Messenger, GoogleTalk 및 Cisco Jabber 
+- **인스턴트 메시징:** Yahoo Messenger 및 GoogleTalk
 
-- **문서 공동 작업:** Box 및 DropBox 
+- **문서 공동 작업:** Box 및 DropBox
 
-- **세로줄:** 고객 관계 관리 (예: Salesforce Chatter) 및 금융 서비스 (예: Bloomberg 및: Thomson Reuters) 
+- **세로줄:** 고객 관계 관리 (예: Salesforce Chatter) 및 금융 서비스 (예: Bloomberg 및: Thomson Reuters)
 
-- **SMS/문자 메시징:** BlackBerry 
+- **SMS/문자 메시징:** BlackBerry
 
-타사 데이터를 가져온 후에는이 데이터에 소송 보존, eDiscovery,&mdash;원본 위치 보관, 감사, 통신 준수 및 보존 정책과&mdash;같은 Microsoft 365 준수 기능을 적용할 수 있습니다. 예를 들어 사서함이 소송 보존 상태에 있는 경우 타사 데이터는 보존 됩니다. Microsoft eDiscovery 도구를 사용 하 여 타사 데이터를 검색할 수 있습니다. 또는 Microsoft 데이터에 대해 사용할 수 있는 것과 마찬가지로 보관 및 보존 정책을 타사 데이터에 적용할 수도 있습니다. 또한 Microsoft 365에서 타사 데이터를 보관 하면 조직이 정부 및 규정 정책을 준수 하는 데 도움이 될 수 있습니다.
+타사 데이터를 가져온 후에는이 데이터에 소송 보존, eDiscovery, 원본 위치 보관, 감사, 통신 준수 및 보존 정책과 같은 Microsoft 365 준수 기능을 적용할 수 있습니다. 예를 들어 사서함이 소송 보존 상태에 있는 경우 타사 데이터는 보존 됩니다. Microsoft eDiscovery 도구를 사용 하 여 타사 데이터를 검색할 수 있습니다. 또는 Microsoft 데이터에 대해 사용할 수 있는 것과 마찬가지로 보관 및 보존 정책을 타사 데이터에 적용할 수도 있습니다. 또한 Microsoft 365에서 타사 데이터를 보관 하면 조직이 정부 및 규정 정책을 준수 하는 데 도움이 될 수 있습니다.
 
 Microsoft 365에서는 두 가지 방법으로 타사 데이터를 가져오고 보관할 수 있습니다.
 

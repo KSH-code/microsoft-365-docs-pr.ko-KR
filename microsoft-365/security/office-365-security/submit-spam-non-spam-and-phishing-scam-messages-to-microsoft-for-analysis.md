@@ -1,5 +1,5 @@
 ---
-title: 분석을 위해 Microsoft에 스팸 메시지, 스팸이 아닌 메시지 및 피싱 스캠 메시지 제출
+title: 분석을 위해 Microsoft에 수동으로 메시지 전송
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -16,101 +16,138 @@ ms.assetid: dad30e2f-93fe-4d21-9a36-21c87ced85c1
 ms.collection:
 - M365-security-compliance
 description: '귀하와 사용자는 분석을 위해 Microsoft에 허위 네거티브 및 가양성 스팸 메시지를 제출할 수 있습니다. '
-ms.openlocfilehash: 27e0698d1ad7d05adfa69e18e9b5b21edb74b1eb
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: 13b2e42f749b54e0c2b71fe095c077992560ea8c
+ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42893649"
+ms.lasthandoff: 03/28/2020
+ms.locfileid: "43032807"
 ---
-# <a name="submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis"></a>분석을 위해 Microsoft에 스팸 메시지, 스팸이 아닌 메시지 및 피싱 스캠 메시지 제출
+# <a name="manually-submit-messages-to-microsoft-for-analysis"></a>분석을 위해 Microsoft에 수동으로 메시지 전송
 
-조직의 사용자가 받은 편지함에 정크 메시지 (스팸) 나 피싱 사기 메시지를 받거나, 정크로 표시 되어 합법적인 전자 메일 메시지를 받지 못하는 경우에는 혼란을 가져올 수 있습니다. Microsoft는 스팸 필터를 보다 정확 하 게 미세 조정 하 고 있습니다. 귀하와 사용자는 분석을 위해 Microsoft에 가양성 및 가양성 스팸 메시지를 제출 하 여이 프로세스를 지원할 수 있습니다. "거짓 부정"은 스팸으로 식별 되지 않은 스팸 메시지입니다. "허위 긍정"은 스팸으로 잘못 식별 된 합법적인 전자 메일 메시지입니다.
+> [!NOTE]
+> Exchange Online 사서함을 사용 하는 Office 365 조직의 관리자는 Office 365 보안 & 준수 센터의 전송 포털을 사용 하는 것이 좋습니다. 자세한 내용은 [관리자 제출을 사용 하 여 의심 스러운 스팸, 피싱, url 및 파일을 Microsoft에 제출](admin-submission.md)합니다 .를 참조 하세요.
+
+조직의 사용자가 받은 편지함에서 정크 메시지 (스팸) 나 피싱 메시지를 받거나, 정크로 표시 되어 합법적인 전자 메일 메시지를 받지 못하는 경우에는 혼란을 가져올 수 있습니다. Microsoft는 스팸 필터를 보다 정확 하 게 미세 조정 하 고 있습니다.
+
+귀하와 사용자는 가양성 (잘못 된 것으로 표시 된 전자 메일), 거짓 네거티브 (잘못 된 메일 허용), 분석을 위해 Microsoft에 피싱 메시지를 제출 하 여이 프로세스를 지원할 수 있습니다.
 
 > [!NOTE]
 > 수신 되는 전송 양이 많기 때문에 분석을 위해 모든 요청에 응답 하지 못할 수 있습니다.
 
-관리자는 검토를 위해 전자 메일, url 및 첨부 파일을 Microsoft에 보낼 수 있습니다. [Office 365 ATP의 관리자 제출을](admin-submission.md)참조 하세요.
+## <a name="submit-false-negatives-to-microsoft"></a>Microsoft에 거짓 네거티브 전송
 
-## <a name="submit-junk-or-phishing-messages-that-passed-through-the-spam-filters"></a>스팸 필터를 통과 하는 정크 메일 또는 피싱 메시지 전송
+> [!TIP]
+> 다음 절차를 사용 하 여 거짓 네거티브를 보고 하는 대신 Outlook 및 웹용 Outlook (이전의 Outlook Web App)에 있는 사용자가 Microsoft Outlook 용 보고서 메시지 추가 기능을 사용할 수 있습니다. 이 도구를 설치 하 고 사용 하는 방법에 대 한 자세한 내용은 [보고서 메시지 추가 기능을 사용 하도록 설정을](enable-the-report-message-add-in.md)참조 하십시오.
 
-스팸 필터를 통과 하 여 정크 메일 이나 피싱 사기로 분류 해야 하는 메시지를 수신 하는 경우 Microsoft 스팸 분석 및 Microsoft 피싱 분석 팀에 적절 하 게 "가양성" 메시지를 제출할 수 있습니다. 분석가는 메시지를 검토 하 고 해당 메시지가 분류 기준을 충족 하는 경우 서비스 전체 필터에 추가 합니다.
+스팸 또는 피싱으로 식별 되어야 하는 스팸 필터링을 통해 전달 된 메시지를 수신 하는 경우 Microsoft 스팸 분석 및 Microsoft 피싱 분석 팀에 적절 하 게 메시지를 제출할 수 있습니다. 분석가는 메시지를 검토 하 고 해당 메시지가 분류 기준을 충족 하는 경우 서비스 전체 필터에 추가 합니다.
 
-전체 조직에 적용 되는 추가 스팸 설정에 대 한 자세한 내용은 [Office 365의 스팸 방지 보호](anti-spam-protection.md)를 참조 하세요. 이 문서에서는 거짓 네거티브를 방지 하기 위한 팁을 제공 합니다.
+1. 다음 받는 사람 중 하 나와의 비어 있는 새 전자 메일 메시지를 만듭니다.
 
-정크 메일 메시지는 다음과 같은 방법으로 제출할 수 있습니다.
+   - **정크 메일**:`junk@office365.microsoft.com`
 
-- Outlook 및 웹 사용자의 Outlook의 경우 Microsoft Outlook 용 보고서 메시지 추가 기능을 사용 합니다. 이 도구를 설치 하 고 사용 하는 방법에 대 한 자세한 내용은 [보고서 메시지 추가 기능을 사용 하도록 설정을](enable-the-report-message-add-in.md)참조 하십시오.
+   - **피싱**:`phish@office365.microsoft.com`
 
-- 다음 절차에 설명 된 대로 전자 메일을 사용 하 여 Microsoft에 정크 또는 피싱 사기로 분류 해야 하는 메시지를 전송할 수도 있습니다.
-
-### <a name="use-email-to-submit-junk-spam-or-phishing-scam-messages-to-microsoft"></a>전자 메일을 사용 하 여 정크 (스팸) 또는 피싱 사기 메시지를 Microsoft에 제출
-
-정크 또는 피싱 사기 메시지를 Microsoft에 제출 하려면 다음을 수행 합니다.
-
-1. 빈 전자 메일 메시지를 만듭니다.
-
-2. 다음과 같이 메시지를 검토 하는 Microsoft 팀에 게 메시지를 주소로 주소를 구성 합니다.
-
-   - 정크 메시지: junk@office365.microsoft.com
-
-   - 피싱 사기 메시지: phish@office365.microsoft.com
-
-3. 정크 또는 피싱 사기 메시지를 복사 하 여 새 메시지에 첨부 파일로 붙여 넣습니다.
+2. 정크 또는 피싱 메시지를 새 메시지에 끌어서 놓습니다. 이렇게 하면 정크 또는 피싱 메시지가 새 메시지에 첨부 파일로 저장 됩니다. 메시지의 내용을 복사 하 여 붙여넣거나 메시지를 전달 하지 않습니다 (메시지 헤더를 검사할 수 있도록 원본 메시지가 필요 함).
 
    > [!NOTE]
-   > * 새 메시지에 여러 메시지를 첨부할 수 있습니다. 모든 메시지의 유형 (피싱 사기 메시지 또는 정크 메일 메시지)이 동일한 지 확인 합니다. <br/><br/>* 새 메시지의 본문은 비워 둡니다. <br/><br/>* .Msg (기본 Outlook 형식) 또는 .eml (웹 형식의 기본 Outlook)를 사용 하 여 첨부 된 메시지를 지정 합니다.
+   > <ul><li>새 메시지에 여러 메시지를 첨부할 수 있습니다. 모든 메시지의 유형 (피싱 사기 메시지 또는 정크 메일 메시지)이 동일한 지 확인 합니다.</li><li>새 메시지의 본문은 비워 둡니다.<li></li>첨부 된 메시지의 형식은 .msg (기본 Outlook 형식) 또는 .eml (기본 outlook 형식) 중 하나를 사용 합니다.</li></ul>
 
-4. **보내기**를 클릭합니다.
+3. 작업이 완료 되 면 **보내기를**클릭 합니다.
 
-## <a name="submit-messages-that-were-tagged-as-junk-but-should-have-been-allowed-through"></a>정크로 태그가 지정 되었지만 허용 되는 메시지를 전송 합니다.
+> [!TIP]
+> 관리자는 스팸으로 잘못 식별 되어는 특정 메시지를 차단 하는 여러 가지 방법을 제공 합니다. 자세한 내용은 [Office 365에서 차단 된 보낸 사람 목록 만들기](create-block-sender-lists-in-office-365.md)를 참조 하십시오.
 
-메시지가 정크 메일로 잘못 식별 된 경우 Microsoft 스팸 분석 팀에 "허위 긍정" 메시지를 제출할 수 있습니다. 분석가는 메시지를 평가 하 고 분석 합니다. 분석 결과에 따라 메시지 통과를 허용하도록 서비스 전체적으로 스팸 콘텐츠 필터 규칙이 조정될 수 있습니다.
+## <a name="submit-false-positives-to-microsoft"></a>Microsoft에 가양성 제출
 
-관리자는 전체 조직에 적용 되는 스팸 설정 정보를 더 검토할 수 있습니다. [Office 365에서 수신 허용-보낸 사람 목록 만들기를](create-safe-sender-lists-in-office-365.md)참조 하세요. 이 정보는 관리자 수준 컨트롤이 있고 가양성을 방지 하려는 경우에 유용 합니다.
+> [!TIP]
+> 다음 절차를 사용 하 여 가양성을 보고 하는 대신 Outlook 및 웹용 Outlook의 사용자가 Microsoft Outlook 용 보고서 메시지 추가 기능을 사용할 수 있습니다. 이 도구를 설치 하 고 사용 하는 방법에 대 한 자세한 내용은 [보고서 메시지 추가 기능을 사용 하도록 설정을](enable-the-report-message-add-in.md)참조 하십시오.
 
-다음과 같은 방법으로 스팸이 아닌 메시지를 전송할 수 있습니다.
+메시지가 스팸으로 잘못 식별 된 경우 Microsoft 스팸 분석 팀에 메시지를 제출할 수 있습니다. 분석가는 메시지를 평가 하 고, 분석 결과에 따라, 서비스 전체 필터를 통해 메시지를 통과 하도록 조정할 수 있습니다.
 
-- 콘텐츠 필터를 구성할 때 **정크 메일 폴더로 메시지 이동** 작업을 사용 하는 경우 (이것이 기본 작업) 사용자는 outlook 또는 웹용 outlook (이전의 Outlook web App) 정크 메일 폴더에서 가양성 메시지를 릴리스할 수 있습니다.
+1. 받는 사람이 다음과 같은 비어 있는 `not_junk@office365.microsoft.com` 새 전자 메일 메시지를 만듭니다.
 
-  - Outlook 사용자는 **정크 메일 아님** 마우스 오른쪽 단추 클릭 메뉴 옵션을 사용 하 여 가양성 메시지를 릴리스할 수 있습니다. 그러나이 문서의 절차에 나와 있는 것 처럼 전자 메일을 통해 Microsoft에 메시지를 제출 해야 합니다.
+2. 잘못 식별 되어 메시지를 끌어서 새 메시지에 놓습니다. 이렇게 하면 잘못 식별 되어 메시지가 새 메시지에 첨부 파일로 저장 됩니다. 메시지의 내용을 복사 하 여 붙여넣거나 메시지를 전달 하지 않습니다 (메시지 헤더를 검사할 수 있도록 원본 메시지가 필요 함).
 
-  - 웹용 Outlook 사용자는 **정크 메일 아님으로 표시** 작업을 사용 하 여 가양성 메시지를 릴리스하고 분석을 위해 Microsoft에 제출할 수 있습니다. 이 작업을 수행 하는 방법에 대 한 자세한 내용은 [웹용 Outlook에서 정크 메일 및 피싱 사기 보고 ](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md)를 참조 하세요.
+   > [!NOTE]
+   > <ul><li>새 메시지에 여러 메시지를 첨부할 수 있습니다. 모든 메시지의 유형 (피싱 사기 메시지 또는 정크 메일 메시지)이 동일한 지 확인 합니다.</li><li>새 메시지의 본문은 비워 둡니다.<li></li>첨부 된 메시지의 형식은 .msg (기본 Outlook 형식) 또는 .eml (기본 outlook 형식) 중 하나를 사용 합니다.</li></ul>
 
-- 콘텐츠 필터를 구성할 때 **정크 메일 폴더로 메시지 이동** 작업 대신 **메시지 격리** 작업을 사용 하는 경우 다음을 수행 합니다.
+3. 작업이 완료 되 면 **보내기를**클릭 합니다.
 
-  - 관리자는 Exchange 관리 센터에서 스팸으로 격리된 메시지를 릴리스하고 가양성으로 보고할 수 있습니다. 자세한 내용은 [Office 365에서 격리 된 메시지 및 파일 관리로 관리자](manage-quarantined-messages-and-files.md)를 참조 하세요.
+> [!TIP]
+> 관리자는 특정 메시지에서 스팸 필터링을 건너뛰는 여러 가지 방법을 사용할 수 있습니다. 자세한 내용은 [Office 365에서 수신 허용-보낸 사람 목록 만들기](create-safe-sender-lists-in-office-365.md)를 참조 하십시오.
 
-  - 사용자는 다음과 같은 채널을 통해 스팸 격리 된 자체 메시지를 릴리스하고 가양성으로 보고할 수 있습니다.
+## <a name="create-a-mail-flow-rule-to-receive-copies-of-messages-that-are-reported-to-microsoft"></a>Microsoft에 보고 되는 메시지의 복사본을 수신 하는 메일 흐름 규칙 만들기
 
-  - EAC(Exchange 관리 센터) 사용자 인터페이스. 자세한 내용은 [Find and Release Quarantined Messages (End Users)](find-and-release-quarantined-messages-as-a-user.md)을 참조하세요.
+이 항목에서 설명 하는 방법을 사용 하 여 Microsoft에 보고 되는 전자 메일 메시지를 찾는 메일 흐름 규칙 (전송 규칙이 라고도 함)을 만들 수 있으며, 이러한 보고 된 메시지의 복사본을 받도록 숨은 참조 받는 사람을 구성할 수 있습니다.
 
-  - 최종 사용자 스팸 알림 메시지(관리자가 사용하도록 설정한 경우).
+EAC (Exchange 관리 센터) 및 PowerShell (Office 365 고객을 위한 Exchange Online PowerShell)에서 메일 흐름 규칙을 만들 수 있습니다. 독립 실행형 EOP 고객을 위한 Exchange Online Protection PowerShell
 
-- 전자 메일을 통해 스팸으로 분류되지 않아야 하는 메시지를 Microsoft로 전송할 수도 있습니다. 이 작업을 수행할 때는 다음 절차의 단계를 사용 해야 합니다.
+### <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
 
-### <a name="use-email-to-submit-false-positive-messages"></a>전자 메일을 통해 가양성 메시지 전송
+- 이러한 절차를 수행 하려면 먼저 Exchange Online에서 사용 권한을 할당 받아야 합니다. 특히 **조직 관리**, **규정 준수 관리**및 **레코드 관리** 역할에 할당 되는 **전송 규칙** 역할을 기본적으로 할당 해야 합니다. 자세한 내용은 [Exchange Online에서 역할 그룹 관리](https://docs.microsoft.com/Exchange/permissions-exo/role-groups)를 참조하세요.
 
-[전자 메일을 사용 하 여 정크 (스팸) 또는 Microsoft에 피싱 사기 메시지를 전송 하](#use-email-to-submit-junk-spam-or-phishing-scam-messages-to-microsoft) 는 것과 같은 절차를 사용 하 되 not_junk@office365.microsoft.com로 메시지를 보냅니다.
+- Exchange Online에서 EAC를 열려면 exchange [online의 exchange 관리 센터](https://docs.microsoft.com/Exchange/exchange-admin-center)를 참조 하세요.
 
-## <a name="spam-evaluation-and-rules-deployment"></a>스팸 평가 및 규칙 배포
+- Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결하기](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell)를 참조하세요. Exchange Online Protection PowerShell에 연결하려면 [Exchange Online Protection PowerShell에 연결하기](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell)를 참조하세요.
 
-스팸 분석 팀은 제출한 메시지를 검사 하 고, 스팸 필터를 조정 하 여 향후 정크 메일을 방지 합니다. 따라서 Office 365 스팸 필터 areconstantly으로 구체화 합니다. 전체 네트워크 수준에서 전송된 모든 항목을 평가합니다. 거짓 긍정 전송을 검토 하 고 평가 하 여 나중에 스팸 필터를 통해 메시지를 허용할 수 있습니다. 따라서 서비스에 가양성 및 거짓 네거티브 (필터링 되지 않은 스팸)를 알리는 것은 사용자와 전역 네트워크를 사용 하는 모든 고객에 게 유용 합니다. 스팸 팀은 전송된 각 메시지에서 다음과 같은 지표를 검사합니다.
+- Exchange Online 및 독립 실행형 EOP의 메일 흐름 규칙에 대 한 자세한 내용은 다음 항목을 참조 하십시오.
 
-- 보낸 사람 주소
+  - [Exchange Online의 메일 흐름 규칙 (전송 규칙)](https://docs.microsoft.com/Exchange/security-and-compliance/mail-flow-rules/mail-flow-rules)
 
-- 보낸 IP 주소
+  - [메일 흐름 규칙 조건 및 예외 (조건자)가 Exchange Online에 있습니다.](https://docs.microsoft.com/Exchange/security-and-compliance/mail-flow-rules/conditions-and-exceptions)
 
-- 키워드
+  - [Exchange Online의 메일 흐름 규칙 동작](https://docs.microsoft.com/Exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions)
 
-- 구
+### <a name="use-the-eac-to-create-a-mail-flow-rule-to-receive-copies-of-reported-messages"></a>EAC를 사용 하 여 보고 된 메시지의 복사본을 수신 하는 메일 흐름 규칙 만들기
 
-- 전송 빈도
+1. EAC에서 **메일 흐름** \> **규칙**으로 이동합니다.
 
-- 기타 추세 및 패턴
+2. ![](../../media/ITPro-EAC-AddIcon.png) 추가 **아이콘 추가를 클릭 한** 다음 **새 규칙 만들기**를 선택 합니다.
 
-스팸 팀은이 정보를 검토 한 후 서비스의 스팸 필터링 계층을 변경할 수 있습니다. 스팸 팀에 대 한 자세한 내용은 다음 영어 전용 비디오를 시청 하면 됩니다.
+3. **새 규칙** 페이지가 열리면 다음 설정을 구성 합니다.
 
-[Microsoft Exchange 스팸 팀 비디오](https://youtu.be/-TpX_-GMC7o?hd=1)
+   - **이름**: 규칙에 대 한 설명이 포함 된 고유 이름을 입력 합니다. 예를 들어 숨은 참조 메시지는 Microsoft에 보고 됩니다.
 
-스팸 평가는 원래 언어 또는 문자 집합에 관계 없이 적용 되는 지속적인 프로세스입니다. 스팸 메시지는 모호 하거나 제목 또는 메시지 본문의 텍스트가 부족할 수 있으므로 스팸 팀은 다른 메시지 특성을 사용 하 여 필터링을 수행 합니다. 즉, 스팸 팀이 지정된 메시지에 스팸으로 플래그를 지정하고 규칙 기준을 필요한 대로 변경하고 나면 Microsoft의 필터를 피할 수 있도록 해당 특성이 수정될 때까지 해당 메시지가 차단됩니다. 새로운 스팸 규칙이 계속해서 배포됩니다. 개별 전송에 대 한 규칙의 시간 프레임은 전송 수량 및 품질에 따라 달라 집니다. 새 스팸 규칙은 모든 고객에 대해 전역적으로 설정 되므로, 개별 스팸 전송 이외의 모든 경우에 새 스팸 규칙이 생성 되는 것은 아닙니다.
+   - **기타 옵션**을 클릭 합니다.
+
+   - 다음 **의** **경우에이 규칙 적용**: \> 표시 **되는 단어** **또는 구 지정** 대화 상자에 다음 값 중 하나를 입력 하 고 추가 아이콘](../../media/ITPro-EAC-AddIcon.png) **추가** ![를 클릭 한 다음 모든 값을 입력할 때까지 반복 합니다.
+
+     - `junk@office365.microsoft.com`
+     - `abuse@messaging.microsoft.com`
+     - `phish@office365.microsoft.com`
+     - `false_positive@messaging.microsoft.com`
+
+     항목을 편집 하려면 선택 하 고 편집](../../media/ITPro-EAC-EditIcon.png)아이콘 **편집** ![을 클릭 합니다. 항목을 제거 하려면 선택 하 고 제거](../../media/ITPro-EAC-DeleteIcon.png)아이콘 **제거** ![를 클릭 합니다.
+
+     작업을 마친 후 **확인**을 클릭합니다.
+
+   - **다음을 수행**합니다. \> **숨은 참조 상자에** **받는 사람 추가** 를 선택 합니다. 대화 상자가 나타나면 추가 하려는 받는 사람을 찾아 선택 합니다. 작업을 마친 후 **확인**을 클릭합니다.
+
+4. 규칙을 감사 하 고 규칙을 테스트 하며 특정 기간 동안 규칙을 활성화 하 고 기타 설정을 선택할 수 있습니다. 규칙을 적용 하기 전에 테스트 하는 것이 좋습니다.
+
+5. 작업을 마쳤으면 **저장**을 클릭합니다.
+
+### <a name="use-powershell-to-create-a-mail-flow-rule-to-receive-copies-of-reported-messages"></a>PowerShell을 사용 하 여 보고 된 메시지의 복사본을 수신 하는 메일 흐름 규칙 만들기
+
+이 예에서는이 항목에 설명 된 방법을 사용 하 여 Microsoft에 보고 되는 전자 메일 메시지를 찾아서 사용자 laura@contoso.com 및 julia@contoso.com를 숨은 참조 받는 사람으로 추가 하는 숨은 참조 메시지 라는 이름의 새 메일 흐름 규칙을 만듭니다.
+
+```powershell
+New-TransportRule -Name "Bcc Messages Reported to Microsoft" -RecipientAddressContainsWords "junk@office365.microsoft.com","abuse@messaging.microsoft.com","phish@office365.microsoft.com","false_positive@messaging.microsoft.com" -BlindCopyTo "laura@contoso.com","julia@contoso.com".
+```
+
+자세한 구문 및 매개변수 정보 [New-TransportRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/new-transportrule)을 참조하세요.
+
+### <a name="how-do-you-know-this-worked"></a>작동 여부는 어떻게 확인하나요?
+
+보고 된 메시지의 복사본을 수신 하도록 메일 흐름 규칙을 구성 했는지 확인 하려면 다음 단계 중 하나를 수행 합니다.
+
+- EAC에서 **메일 흐름** \> **규칙** \> 을 선택 하 고 편집 아이콘 **Edit** ![](../../media/ITPro-EAC-EditIcon.png)편집 \> 을 클릭 한 다음 설정을 확인 합니다.
+
+- PowerShell에서 다음 명령을 실행 하 여 설정을 확인 합니다.
+
+  ```powershell
+  Get-TransportRule -Identity "Bcc Messages Reported to Microsoft" | Format-List
+  ```
+
+- 보고 전자 메일 주소 중 하나로 테스트 메시지를 보내 결과를 확인 합니다.

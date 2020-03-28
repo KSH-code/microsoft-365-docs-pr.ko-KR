@@ -15,12 +15,12 @@ search.appverid:
 ms.collection: M365-security-compliance
 description: Office 365 Advanced Threat Protection 계획 2의 자동화 된 조사 및 응답 기능에 대 한 개요를 확인 하세요.
 ms.custom: air
-ms.openlocfilehash: f6bbad82f3dce7080aca079a5f750dfc1fea068b
-ms.sourcegitcommit: 58c1b4208a5e231463091573e40696d08fc39b8e
+ms.openlocfilehash: e8e10160da4ddb43b47ecf41e2184dc1b8953941
+ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2020
-ms.locfileid: "42955578"
+ms.lasthandoff: 03/28/2020
+ms.locfileid: "43033449"
 ---
 # <a name="automated-investigation-and-response-air-in-office-365"></a>Office 365의 자동화 된 조사 및 응답 (AIR)
 
@@ -92,7 +92,7 @@ AIR에서는 각 보안 playbook 다음이 포함 됩니다.
 
 ## <a name="example-a-user-reported-phish-message-launches-an-investigation-playbook"></a>예: 사용자가 보고 한 피싱 메시지가 조사 playbook를 시작 합니다.
 
-조직의 사용자가 피싱 시도 라고 생각 하는 전자 메일을 받는 경우를 가정해 보겠습니다. 이러한 메시지를 보고 하도록 훈련 된 사용자는 [outlook 또는 Outlook Web App 용 보고서 메시지 추가 기능](enable-the-report-message-add-in.md) 을 사용 하 여 분석을 위해 Microsoft로 보냅니다. 전송도 시스템에 전송 되 고 **제출 보기의** 탐색기 (이전에는 **사용자가 보고** 한 보기 라고 함)에 표시 됩니다. 또한 사용자가 보고 한 메시지는 이제 조사 playbook를 자동으로 실행 하는 시스템 기반 정보 알림을 트리거합니다.
+조직의 사용자가 피싱 시도 라고 생각 하는 전자 메일을 받는 경우를 가정해 보겠습니다. 이러한 메시지를 보고 하도록 훈련 된 사용자는 [보고서 메시지 추가 기능](enable-the-report-message-add-in.md) 을 사용 하 여 분석을 위해 Microsoft에 보냅니다. 전송도 시스템에 전송 되 고 **제출 보기의** 탐색기 (이전에는 **사용자가 보고** 한 보기 라고 함)에 표시 됩니다. 또한 사용자가 보고 한 메시지는 이제 조사 playbook를 자동으로 실행 하는 시스템 기반 정보 알림을 트리거합니다.
 
 루트 조사 단계에서는 전자 메일의 다양 한 측면을 평가 합니다. 여기에는 다음이 포함됩니다.
 - 사용할 수 있는 위협의 유형에 대 한 결정

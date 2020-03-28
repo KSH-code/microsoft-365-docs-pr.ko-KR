@@ -16,12 +16,12 @@ ms.assetid: c534a35d-b121-45da-9d0a-ce738ce51fce
 ms.collection:
 - M365-security-compliance
 description: 이 항목에서는 스팸 방지 보호 기능에 대한 질문과 대답을 제공합니다. 대답은 Microsoft Exchange Online 및 EOP(Exchange Online Protection) 고객에게 해당됩니다.
-ms.openlocfilehash: daabb84115f1f993fd01891bcef74c23f0391bb4
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: 47970cd2f67873b3c8b1fbfa70b7e1754fc8359c
+ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42894061"
+ms.lasthandoff: 03/28/2020
+ms.locfileid: "43033497"
 ---
 # <a name="anti-spam-protection-in-office-365-faq"></a>Office 365의 스팸 방지 보호에 대 한 FAQ
 
@@ -36,13 +36,15 @@ ms.locfileid: "42894061"
 대답. **인바운드 메시지의 경우:** 대부분의 스팸은 원본 전자 메일 서버의 IP 주소를 기반으로 하는 연결 필터링을 통해 삭제 됩니다. 스팸 방지 정책 (스팸 필터 정책 또는 콘텐츠 필터 정책이 라고도 함)은 메시지를 조사 하 여 스팸, 대량 또는 피싱으로 분류 합니다. 기본적으로 스팸으로 분류 된 메시지는 받는 사람의 정크 메일 폴더로 배달 되며, 피싱로 분류 된 메시지는 격리 됩니다. 모든 받는 사람에 게 적용 되는 기본 스팸 방지 정책을 수정 하거나, 특정 사용자 그룹에 대 한 보다 엄격한 설정으로 사용자 지정 스팸 방지 정책을 만들 수 있습니다 (예: 임원에 전송 된 스팸 격리 가능). 자세한 내용은 [Office 365에서 스팸 방지 정책 구성](configure-your-spam-filter-policies.md) 및 [권장 되는 스팸 방지 정책 설정을](recommended-settings-for-eop-and-office365-atp.md#eop-anti-spam-policy-settings)참조 하세요.
 
 > [!IMPORTANT]
-> EOP가 온-프레미스 사서함을 보호 하는 하이브리드 배포에서는 메시지에 추가 되는 EOP 스팸 필터링 헤더를 검색 하도록 온-프레미스 Exchange 조직에서 두 가지 Exchange 메일 흐름 규칙 (전송 규칙이 라고도 함)을 구성 해야 합니다. 자세한 내용은 [하이브리드 환경의 정크 메일 폴더에 스팸을 배달 하도록 독립 실행형 EOP 구성을](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md)참조 하십시오.
+> EOP가 온-프레미스 사서함을 보호 하는 하이브리드 배포에서는 메시지에 추가 되는 EOP 스팸 필터링 헤더를 검색 하도록 온-프레미스 Exchange 조직에서 두 가지 Exchange 메일 흐름 규칙 (전송 규칙이 라고도 함)을 구성 해야 합니다. 자세한 내용은 [하이브리드 환경에서 스팸을 정크 메일 폴더로 배달하도록 독립 실행형 EOP 구성하기](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md)를 참조하세요.
 
  **아웃 바운드 메시지의 경우:** 메시지가 [위험성이 높은 배달 풀](high-risk-delivery-pool-for-outbound-messages.md) 을 통해 라우팅되고 있거나 배달 못 함 보고서 (NDR 또는 바운스 메시지로 알려짐)에서 보낸 사람에 게 반환 됩니다. 아웃 바운드 스팸 보호에 대 한 자세한 내용은 [Office 365의 아웃 바운드 스팸 제어](outbound-spam-controls.md)를 참조 하세요.
 
 ## <a name="q-whats-a-zero-day-spam-variant-and-how-is-it-handled-by-the-service"></a>질문. 스팸이 0 일에 해당 하는 것은 무엇 이며, 서비스에서 처리 하는 방법은 무엇 인가요?
 
-대답. 0 일의 스팸 변형은 첫 번째 세대 이며, 이전에는 캡처되지 않거나 분석 되지 않은 스팸의 변종 이며, 스팸 방지 필터에는 아직 해당 정보를 검색 하는 데 사용할 수 있는 정보가 없습니다. 스팸 분석가에 의해 0 일 동안의 스팸 샘플이 캡처 및 분석 된 후 스팸 분류 조건을 충족 하는 경우이를 검색 하기 위해 스팸 방지 필터를 업데이트 했으며 더 이상 "0 일"로 간주 되지 않습니다. (**참고:** 서비스를 개선 하는 데 도움이 되도록 0 일 동안의 스팸 변종 인 메시지를 받는 경우에는 microsoft에 [게 스팸, 스팸이 아닌 메시지 및 피싱 사기](submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md)message에 설명 된 방법 중 하나를 사용 하 여 microsoft로 메시지를 제출 하십시오.)
+대답. 0 일의 스팸 변형은 첫 번째 세대 이며, 이전에는 캡처되지 않거나 분석 되지 않은 스팸의 변종 이며, 스팸 방지 필터에는 아직 해당 정보를 검색 하는 데 사용할 수 있는 정보가 없습니다. 스팸 분석가에 의해 0 일 동안의 스팸 샘플이 캡처 및 분석 된 후 스팸 분류 조건을 충족 하는 경우이를 검색 하기 위해 스팸 방지 필터를 업데이트 했으며 더 이상 "0 일"로 간주 되지 않습니다.
+
+**참고:** 서비스를 개선 하는 데 도움이 되도록 0 일 동안의 스팸 변종 메시지를 받은 경우에는 [보고서 메시지 및 파일](report-junk-email-messages-to-microsoft.md)에 설명 된 방법 중 하나를 microsoft에 제출 하십시오.
 
 ## <a name="q-do-i-need-to-configure-the-service-to-provide-anti-spam-protection"></a>질문. 스팸 방지 보호 기능을 제공하도록 서비스를 구성해야 합니까?
 
@@ -54,7 +56,7 @@ ms.locfileid: "42894061"
 
 [앤티 policy 구성](configure-the-connection-filter-policy.md)
 
-[Office 365에서 스팸 방지 정책 구성](configure-your-spam-filter-policies.md)
+[Office 365에서 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)
 
 [아웃바운드 스팸 정책 구성](configure-the-outbound-spam-policy.md)
 
@@ -72,7 +74,7 @@ A. 예. 대량 전자 메일에 대 한 자세한 내용은 [정크 메일과 �
 
 ## <a name="q-how-can-customers-using-the-service-send-false-negative-spam-and-false-positive-non-spam-messages-to-microsoft"></a>질문. 서비스를 사용하는 고객이 거짓 부정(스팸) 및 가양성(스팸 아님) 메시지를 Microsoft로 보내려면 어떻게 해야 합니까?
 
-대답. 스팸 및 스팸이 아닌 메시지는 분석을 위해 여러 가지 방법으로 Microsoft에 제출할 수 있습니다. 자세한 내용은 [분석을 위해 Microsoft에 스팸 및 스팸이 아닌 메시지 제출을](submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md)참조 하세요.
+대답. 스팸 및 스팸이 아닌 메시지는 분석을 위해 여러 가지 방법으로 Microsoft에 제출할 수 있습니다. 자세한 내용은 [메시지 및 파일을 Microsoft에 보고](report-junk-email-messages-to-microsoft.md)를 참조 하세요.
 
 ## <a name="q-can-i-get-spam-reports"></a>질문. 스팸 보고서를 확인할 수 있습니까?
 

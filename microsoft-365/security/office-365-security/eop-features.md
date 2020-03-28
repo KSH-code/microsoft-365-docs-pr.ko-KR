@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 599b8048-1056-457b-aae4-c063138fd319
 description: 다음 표에는 EOP(Exchange 온라인 보호) 호스팅 전자 메일 필터링 서비스에서 사용할 수 있는 기능 목록이 나와 있습니다.
-ms.openlocfilehash: 857c2c4dd62f036cda78cd9fee61e2ce464d35cc
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: f8a9165cd377549d355a72da5428b777e7c1a505
+ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42893709"
+ms.lasthandoff: 03/28/2020
+ms.locfileid: "43032891"
 ---
 # <a name="eop-features"></a>EOP 기능
 
@@ -27,10 +27,10 @@ ms.locfileid: "42893709"
 > [업무용 Office 365 로드맵](https://www.microsoft.com/microsoft-365/roadmap?filters=O365)에서는 예정된 새로운 기능에 대한 정보를 제공합니다. 여러 EOP 구독 계획에서 사용할 수 있는 기능에 대한 폭넓은 정보는 [Exchange 온라인 보호 서비스 설명](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)에서 확인할 수 있습니다.
 
 |||
-|:-----|:-----|
+|---|---|
 |**기능**|**설명**|
 |**스팸 방지 보호 기능**||
-|인바운드 스팸 검색|인바운드 스팸 방지 보호는 항상 사용되며, 사용하지 않도록 설정할 수 없습니다. 연결 필터 및 콘텐츠 필터 정책을 통해 사용자 지정 설정을 구성할 수 있습니다.  <br/><br/> EOP 독립 실행형 고객의 경우: 기본적으로 EOP 콘텐츠 필터는 스팸 검색 메시지를 각 받는 사람의 정크 메일 폴더로 보냅니다. 그러나 온-프레미스 사서함에서 **정크 메일 폴더로 메시지 이동** 작업을 수행 하려면 온-프레미스 서버에서 두 개의 Exchange 메일 흐름 규칙 (전송 규칙이 라고도 함)을 구성 하 여 EOP에서 추가한 스팸 헤더를 검색 해야 합니다. 자세한 내용은 [하이브리드 환경의 정크 메일 폴더에 스팸을 배달 하도록 독립 실행형 EOP 구성을](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md)참조 하십시오.|
+|인바운드 스팸 검색|인바운드 스팸 방지 보호는 항상 사용되며, 사용하지 않도록 설정할 수 없습니다. 연결 필터 및 콘텐츠 필터 정책을 통해 사용자 지정 설정을 구성할 수 있습니다.  <br/><br/> EOP 독립 실행형 고객의 경우: 기본적으로 EOP 콘텐츠 필터는 스팸 검색 메시지를 각 받는 사람의 정크 메일 폴더로 보냅니다. 그러나 온-프레미스 사서함에서 **정크 메일 폴더로 메시지 이동** 작업을 수행 하려면 온-프레미스 서버에서 두 개의 Exchange 메일 흐름 규칙 (전송 규칙이 라고도 함)을 구성 하 여 EOP에서 추가한 스팸 헤더를 검색 해야 합니다. 자세한 내용은 [하이브리드 환경에서 스팸을 정크 메일 폴더로 배달하도록 독립 실행형 EOP 구성하기](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md)를 참조하세요.|
 |아웃바운드 스팸 검색|아웃바운드 스팸 방지 보호는 아웃바운드 전자 메일을 보내는 서비스를 사용하는 경우 항상 사용되므로 이를 통해 서비스를 사용하는 조직과 이 조직의 의도된 받는 사람을 보호할 수 있습니다. 인바운드 필터링과 마찬가지로 아웃바운드 스팸 필터링은 연결 필터링과 콘텐츠 필터링으로 구성됩니다. 아웃바운드 스팸 필터링 설정은 구성할 수 없지만 의심스럽고 차단된 아웃바운드 메시지에 대한 관리자 알림을 구성하는 데 사용할 수 있는 아웃바운드 스팸 정책 설정이 있습니다. 자세한 내용은 [아웃 바운드 스팸 정책 구성을](configure-the-outbound-spam-policy.md)참조 하세요.|
 |NDR 후방 산란 보호 기능|Ndr 백 분산에 대 한 자세한 내용은 [Office 365의 ASF (Advanced 스팸 필터) 설정](advanced-spam-filtering-asf-options.md) 에서 ndr 백 분산 설정 [및 후방 산란 메시지 및 EOP](backscatter-messages-and-eop.md)을 참조 하십시오.|
 |대량 메일 필터링|EOP에는 대량 전자 메일 메시지를 식별하는 향상된 검색 방법이 있습니다. 사용자 인터페이스를 통해 대량 전자 메일 메시지를 표시하도록 서비스를 구성할 수 있습니다. 대량 메일 메시지 헤더 스탬프를 검색 하 여 대량 메일을 보다 적극적으로 필터링 하는 메일 흐름 규칙을 만들 수도 있습니다. 대량 전자 메일에 대 한 자세한 내용은 [정크 메일과 대량 전자 메일의 차이점](what-s-the-difference-between-junk-email-and-bulk-email.md) 및 관련 하위 주제를 참조 하세요.|
@@ -43,15 +43,10 @@ ms.locfileid: "42893709"
 |적극적인 스팸 필터링에 대한 고급 옵션을 구성하는 기능|자세한 내용은 [configure 스팸 방지 정책 구성](configure-your-spam-filter-policies.md) (여기서는 office 365) 및 [Office 365의 고급 스팸 필터 (ASF) 설정](advanced-spam-filtering-asf-options.md) (각 옵션의 기능에 대 한 구체적인 세부 정보 제공)을 참조 하세요.|
 |다국어 스팸 필터링|특정 언어로 작성되었거나 특정 국가 또는 지역에서 보낸 메시지를 필터링하도록 EOP를 구성할 수 있습니다. 최대 86개 언어와 250개 지역을 구성할 수 있습니다. 서비스에서는 높은 스팸 지수에 대해 구성된 작업을 적용합니다. 자세한 내용은 [Office 365의 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)를 참조하세요.|
 |Outlook 또는 웹용 Outlook을 통한 스팸 관리 (이전의 Outlook Web App)|관리자 및 최종 사용자가 안전한 보낸 사람 목록 및 차단된 보낸 사람 목록을 만들 수 있습니다. 자세한 내용은 다음을 참조하세요. <br/>* **웹용 Outlook**: [차단 또는 허용 (정크 메일 설정)](https://support.office.com/article/48c9f6f7-2309-4f95-9a4d-de987e880e46)을 참조 하세요.  <br/>* **Outlook**: [정크 메일 필터 개요](https://support.office.com/article/5ae3ea8e-cf41-4fa0-b02a-3b96e21de089)를 참조 하세요. <br/><br/> EOP을 사용 하 여 온-프레미스 사서함을 보호 하는 경우 이러한 설정이 서비스와 동기화 되도록 디렉터리 동기화를 사용 해야 합니다. 디렉터리 동기화 설정에 대한 자세한 내용은 [EOP에서 메일 사용자 관리](manage-mail-users-in-eop.md)에서 "디렉터리 동기화를 사용하여 메일 사용자 관리"를 참조하세요.|
-|Microsoft Office Outlook용 정크 메일 보고 추가 기능을 통한 스팸 전송|분석을 위해 Microsoft로 스팸 메시지를 제출할 수 있도록 해주는 Outlook 추가 기능을 다운로드할 수 있습니다. 이 도구를 다운로드 하 고 사용 하는 방법에 대 한 자세한 내용은 [보고서 메시지 추가 기능을 사용 하도록 설정을](enable-the-report-message-add-in.md)참조 하십시오. <br/><br/> Exchange Server 2013 이상 버전을 사용 하는 경우에는 웹용 outlook에서 [정크 메일 및 피싱 사기 보고](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md)에 설명 된 대로 EOP를 웹에서 마우스 오른쪽 단추로 클릭 하 여 스팸 메시지를 제출할 수도 있습니다.|
-|전자 메일 별칭을 통해 스팸 및 비스팸 전송|전자 메일을 통해 스팸(정크) 및 비스팸(정크 아님) 메시지를 Microsoft에 제출할 수 있습니다. 자세한 내용은 [분석을 위해 Microsoft에 스팸 및 스팸이 아닌 메시지 제출을](submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md)참조 하세요.|
-|웹에서 Outlook을 통한 스팸 및 비 스팸 전송 정크 메일 보고|정크 메일 및 스팸이 아닌 메시지는 웹에서 Outlook을 통해 Microsoft에 제출할 수 있습니다. 자세한 내용은 [웹용 Outlook에서 정크 메일 및 피싱 사기 보고](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md)를 참조 하세요.  <br/><br/> 이 기능은 현재 Exchange Server 2013 SP1 이상 사서함이 EOP에 의해 필터링 되는 웹 고객의 Outlook에서 사용할 수 있습니다. 웹에서 Exchange Online Outlook 고객 에게도이 기능이 곧 출시 될 예정입니다.|
-|최종 사용자 스팸 격리 알림|Mor information에 대 한 자세한 내용은 [Office 365의 최종 사용자 스팸 알림을](use-spam-notifications-to-release-and-report-quarantined-messages.md)참조 하세요.|
-|최종 사용자 스팸 격리 알림 빈도|이 빈도는 기본적으로 3일이며, 1~15일로 구성할 수 있습니다.|
-|관리자가 최종 사용자 스팸 격리 알림 언어를 구성하는 기능|이 기능은 최종 사용자 및 관리자가 사용할 수 있습니다. 자세한 내용은 [Office 365에서 격리 된 메시지 및 파일 관리를 관리자 권한으로](manage-quarantined-messages-and-files.md) 확인 하거나, [사용자로 격리 된 메시지를 찾아 릴리스](find-and-release-quarantined-messages-as-a-user.md)를 참조 하세요.|
-|웹 페이지를 통해 격리의 메시지 액세스 및 관리|이 기능은 최종 사용자 및 관리자가 사용할 수 있습니다. 자세한 내용은 [Office 365에서 격리 된 메시지 및 파일 관리를 관리자 권한으로](manage-quarantined-messages-and-files.md) 확인 하거나, [사용자로 격리 된 메시지를 찾아 릴리스](find-and-release-quarantined-messages-as-a-user.md)를 참조 하세요.|
-|격리를 검색하는 기능|격리에서 특정 스팸 메시지를 검색하는 기능은 관리자와 최종 사용자 모두 사용할 수 있습니다. 자세한 내용은 [Office 365에서 격리 된 메시지 및 파일 관리를 관리자 권한으로](manage-quarantined-messages-and-files.md) 확인 하거나, [사용자로 격리 된 메시지를 찾아 릴리스](find-and-release-quarantined-messages-as-a-user.md)를 참조 하세요.|
-|Exchange 관리 센터에서 스팸으로 격리된 메시지 헤더 보기|격리에서 메시지 헤더를 확인한 후 메시지 헤더 텍스트를 복사하여 메시지에 발생한 상황에 대한 정보를 제공하는 [메시지 헤더 분석기](https://testconnectivity.microsoft.com/?tabid=mha)에 붙여넣을 수도 있습니다.|
+|허위 긍정 (잘못 된 것으로 표시 된 전자 메일)과 Microsoft에 거짓 네거티브 (잘못 된 전자 메일 허용) 보고|자세한 내용은 [메시지 및 파일을 Microsoft에 보고](report-junk-email-messages-to-microsoft.md)를 참조 하세요.|
+|최종 사용자 스팸 격리 알림|자세한 내용은 [Office 365의 최종 사용자 스팸 알림과](use-spam-notifications-to-release-and-report-quarantined-messages.md) [최종 사용자 스팸 알림 구성을](configure-your-spam-filter-policies.md#configure-end-user-spam-notifications)참조 하십시오.|
+|웹 페이지를 통해 격리의 메시지 보기, 찾기 및 관리|이 기능은 최종 사용자 및 관리자가 사용할 수 있습니다. 자세한 내용은 [Office 365에서 격리 된 메시지 및 파일 관리를 관리자 권한으로](manage-quarantined-messages-and-files.md) 확인 하거나, [사용자로 격리 된 메시지를 찾아 릴리스](find-and-release-quarantined-messages-as-a-user.md)를 참조 하세요.|
+|스팸 격리 된 메시지 헤더 보기|격리에서 메시지 헤더를 확인 한 후 메시지 [헤더 분석기](https://mha.azurewebsites.net/) 에 머리글 텍스트를 복사 하 여 메시지에 발생 한 상황에 대 한 정보를 볼 수도 있습니다.|
 |**맬웨어 방지 보호 기능**||
 |여러 엔진 맬웨어 방지 보호|여러 맬웨어 방지 엔진을 사용하여 자동으로 고객을 항상 보호할 수 있습니다.|
 |맬웨어 필터링을 해제하는 옵션|Microsoft에서는 서비스를 통해 라우팅되는 모든 이메일 메시지에 대해 맬웨어 방지 검사를 적용하고 있으므로 사용자는 맬웨어 필터링을 사용하지 않도록 설정할 수 없습니다. Microsoft는 모든 고객에게 일관되고 엄격한 수준의 보호 기능을 제공하는 것이 이메일 메시징 환경을 보호하는 데 필요한 심층 방어 전략의 중요한 부분이라고 생각합니다. 따라서 모든 고객에 대해 맬웨어 필터링이 자동으로 사용하도록 설정됩니다.|

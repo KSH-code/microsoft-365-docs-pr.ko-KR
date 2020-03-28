@@ -2,10 +2,10 @@
 title: '웹용 Outlook에서 정크 전자 메일 및 피싱 사기 보고 '
 f1.keywords:
 - NOCSH
-ms.author: tracyp
-author: MSFTTracyP
+ms.author: chrisda
+author: chrisda
 manager: dansimp
-ms.date: 12/09/2016
+ms.date: ''
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -15,64 +15,106 @@ search.appverid:
 ms.assetid: 758822b5-0126-463a-9d08-7366bb2a807d
 ms.collection:
 - M365-security-compliance
-description: 웹 사용자의 Microsoft Outlook은 기본 제공 전자 메일 보고 옵션을 사용 하 여 정크 (스팸) 및 피싱 사기를 보고할 수 있습니다. 또한 전자 메일이 정크 (스팸)로 잘못 식별 되었는지 여부를 Microsoft에 게 알릴 수도 있습니다.
-ms.openlocfilehash: 58973e59644b2e20853cfe053a18586efa5211bf
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: Office 365 Exchange Online 사서함이 있는 사용자는 웹에서 Outlook (Outlook Web App)을 사용 하 여 Microsoft에 분석용 스팸, 스팸 아님 및 피싱 메시지를 제출할 수 있습니다.
+ms.openlocfilehash: c6aba9a701b23be4bbbe508825a55c6438461928
+ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42082411"
+ms.lasthandoff: 03/28/2020
+ms.locfileid: "43033707"
 ---
-# <a name="report-junk-email-and-phishing-scams-in-outlook-on-the-web"></a>웹용 Outlook에서 정크 전자 메일 및 피싱 사기 보고
+# <a name="report-junk-and-phishing-email-in-outlook-on-the-web-in-office-365"></a>Office 365에서 웹용 Outlook에 정크 및 피싱 전자 메일 보고
 
-조직의 사용자가 정크 메일을 받거나 스팸으로 잘못 식별 되어 중요 한 전자 메일이 누락 되는 경우에는 어려울 수 있습니다. Microsoft는 EOP (Exchange Online Protection) 스팸 필터를 보다 정확 하 게 조정 하 고 있으며, 사용자가이 프로세스를 도울 수 있습니다. 웹 사용자의 Microsoft Outlook은 기본 제공 전자 메일 보고 옵션을 사용 하 여 정크 (스팸) 및 피싱 사기를 보고할 수 있습니다. 또한 전자 메일이 정크 (스팸)로 잘못 식별 되었는지 여부를 Microsoft에 게 알릴 수도 있습니다.
+Exchange Online 사서함을 사용 하는 Office 365 고객의 경우에는 웹에서 Outlook (이전의 Outlook Web App)의 기본 제공 보고 옵션을 사용 하 여 가양성 (스팸으로 표시 된 좋은 전자 메일), 거짓 네거티브 (잘못 된 전자 메일 허용)를 제출할 수 있습니다. EOP (Exchange Online Protection)에 대 한 피싱 메시지
 
-## <a name="submit-junk-messages-in-outlook-on-the-web"></a>웹용 Outlook에서 정크 메일 메시지 제출
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
 
-정크 메일 메시지를 Microsoft에 제출 하려면 다음을 수행 합니다.
+- Exchange Online 사서함을 사용 하는 Office 365 조직의 관리자는 Office 365 보안 & 준수 센터의 전송 포털을 사용 하는 것이 좋습니다. 자세한 내용은 [관리자 제출을 사용 하 여 의심 스러운 스팸, 피싱, url 및 파일을 Microsoft에 제출](admin-submission.md)합니다 .를 참조 하세요.
 
-1. 정크 메시지를 클릭 하 고 도구 모음에서 **정크** 을 클릭 합니다. 그러면 메시지가 정크 메일 폴더로 이동 하 고 보낸 사람이 수신 거부 목록에 추가 됩니다.
+- 관리자는 사용자가 웹용 Outlook에서 Microsoft에 메시지를 보고 하는 기능을 사용 하거나 사용 하지 않도록 설정할 수 있습니다. 자세한 내용은이 항목 뒷부분에 나오는 [웹용 Outlook에서 정크 메일 보고 사용 안 함 또는 사용](#disable-or-enable-junk-email-reporting-in-outlook-on-the-web) 섹션을 참조 하십시오.
 
-   ![웹상의 Outlook에서 정크 메일 표시](../../media/a10ae792-aab6-4374-a041-6c3f732eb2e3.png)
+- Microsoft에 메시지를 보고 하는 방법에 대 한 자세한 내용은 [Office 365에서 microsoft에 메시지 및 파일](report-junk-email-messages-to-microsoft.md)보고를 참조 하세요.
 
-   > [!NOTE]
-   > 또는 메시지를 마우스 오른쪽 단추로 클릭 하 여 메뉴를 표시 하 고 **정크 메일로 표시**를 클릭 합니다.
+## <a name="report-spam-and-phishing-messages-in-outlook-on-the-web"></a>웹용 Outlook에서 스팸 및 피싱 메시지 보고
 
-   정크 메일 메시지는 **받은 편지함** **폴더에서** 보고할 수 있습니다.
+1. 정크 메일을 제외한 받은 편지함 또는 다른 모든 전자 메일 폴더의 메시지에 대해 다음 방법 중 하나를 사용 하 여 스팸 및 피싱 메시지를 보고 합니다.
 
-2. 분석을 위해 정크 메일 메시지 복사본을 Microsoft로 보낼지 묻는 대화 상자가 열립니다. **보고서** 를 클릭 하 여 Microsoft 스팸 분석 팀에 메시지를 보냅니다. 메시지 없이 이후의 정크 메시지를 Microsoft에 자동으로 제출하려면 **이 메시지를 다시 표시 안 함** 확인란을 선택합니다.
+   - 메시지를 선택 하 고 도구 모음에서 **정크 메일** 을 클릭 한 다음 **정크** 또는 **피싱**을 선택 합니다.
 
-   ![웹의 Outlook에서 Microsoft에 정크 메일 보고](../../media/e8d3a9f9-6eb6-4309-ba6d-643dffdb6a33.png)
+     ![리본 메뉴에서 정크 또는 피싱 전자 메일 보고](../../media/owa-report-junk.png)
 
-   > [!TIP]
-   > **이 메시지를 다시 표시 안 함** 확인란을 선택한 경우에도 나중에 웹에서 Outlook의 표시 설정에 액세스 하 여 정크 메일 보고에 대 한 기본 설정을 변경할 수 있습니다. 이러한 설정에는 로그인 이름 옆의 기어 메뉴를 통해 액세스할 수 있습니다.
+   - 하나 이상의 메시지를 선택 하 고 마우스 오른쪽 단추를 클릭 한 다음 **정크 메일로 표시**를 선택 합니다.
 
-## <a name="submit-phishing-scam-messages-in-outlook-on-the-web"></a>웹용 Outlook에서 피싱 사기 메시지 제출
+2. 대화 상자가 나타나면 **보고서**를 클릭 합니다. 생각이 변경 되 면 **보고서 표시 안 함을**클릭 합니다.
 
-피싱 사기 메시지를 Microsoft에 제출 하려면 다음을 수행 합니다.
+   ![정크 메일로 신고 대화 상자](../../media/owa-report-as-junk-dialog.png)
 
-1. 피싱 사기 메시지를 클릭 하 고 **정크**옆에 있는 아래쪽 화살표를 클릭 한 다음 도구 모음에서 **피싱** 을 클릭 합니다. Office 365은 일반적으로 피싱 사기 메시지의 보낸 사람이 합법적인 보낸 사람을 가장 하 여 보낸 사람을 차단 하지 않습니다. 원하는 경우 [웹에서 Outlook의 정크 메일 및 스팸 필터](https://support.office.com/article/db786e79-54e2-40cc-904f-d89d57b7f41d)항목에 나와 있는 지침에 따라 보낸 사람을 수신 거부 목록에 추가 합니다.
+   ![피싱 메일로 신고 대화 상자](../../media/owa-report-as-phishing-dialog.png)
 
-   ![웹상의 Outlook에서 피싱 사기 전자 메일 표시](../../media/959bb577-341c-41ee-a159-e46600b2cf8a.png)
+3. 선택한 메시지가 분석을 위해 Microsoft로 전송 됩니다. 메시지가 전송되었는지 확인하려면 **보낸 편지함** 폴더를 열고 전송한 메시지를 확인합니다.
 
-   또는 메시지를 마우스 오른쪽 단추로 클릭 하 여 메뉴를 표시 하 고 **피싱 메일로 표시**를 클릭 합니다.
+## <a name="report-non-spam-and-phishing-messages-from-the-junk-email-folder-in-outlook-on-the-web"></a>웹용 Outlook의 정크 메일 폴더에서 스팸이 아닌 메시지 및 피싱 메시지가 보고 되도록 합니다.
 
-   **받은 편지함** 또는 **삭제 된 항목** 폴더에서 피싱 사기 메시지를 보고할 수 있습니다.
+1. 정크 메일 폴더에서 다음 방법 중 하나를 사용 하 여 스팸 가양성 또는 피싱 메시지를 보고 합니다.
 
-2. 일부 조직의 경우 분석을 위해 Microsoft에 피싱 사기 전자 메일 복사본을 보낼지 묻는 대화 상자가 열립니다. **보고서** 를 클릭 하 여 Microsoft 스팸 분석 팀에 메시지를 보냅니다. 이 보고 옵션은 현재 제한 된 수의 조직에서 사용할 수 있습니다. Microsoft에 피싱 사기를 보고할지 묻는 메시지가 표시 되지 않을 수 있습니다.
+   - 메시지를 선택 하 고 도구 모음에서 **정크 메일** 아님으로 클릭 한 다음 **정크** 또는 **피싱**아님을 선택 합니다.
 
-## <a name="submit-not-junk-messages-in-outlook-on-the-web"></a>웹용 Outlook에서 "정크 메일 아님" 메시지 전송
+     ![리본 메뉴에서 정크 또는 피싱 전자 메일 보고](../../media/owa-report-not-junk.png)
 
-Office 365에서 메시지가 정크 메일로 잘못 식별 된 경우 메시지를 "정크 메일 아님"으로 Microsoft에 제출 합니다.
+   - 하나 이상의 메시지를 선택 하 고 마우스 오른쪽 단추를 클릭 한 다음 **정크 메일 아님으로 표시**를 선택 합니다.
 
-1. 정크 메일 폴더에서 메시지를 클릭 한 다음 도구 모음에서 **정크 메일 보내지 않음** 을 클릭 합니다. 그러면 메시지가 **받은 편지 함으로** 이동 하 고 보낸 사람이 수신 허용-보낸 사람 목록에 추가 됩니다.
+2. 대화 상자가 나타나면 정보를 읽고 **보고서**를 클릭 합니다. 생각이 변경 되 면 **보고서 표시 안 함을**클릭 합니다.
 
-   정크 메일 폴더에서 메시지를 마우스 오른쪽 단추로 클릭 하 여 메뉴를 표시 하 고 **정크 메일이 아닌 것으로 표시**를 클릭할 수도 있습니다.
+   ![정크 메일 아님으로 보고 대화 상자](../../media/owa-report-as-not-junk-dialog.png)
 
-2. 분석을 위해 정크 메일이 아닌 메시지의 복사본을 Microsoft로 보낼지 묻는 대화 상자가 열립니다. **보고서** 를 클릭 하 여 Microsoft 스팸 분석 팀에 메시지를 보냅니다.
+   ![피싱 메일로 신고 대화 상자](../../media/owa-report-as-phishing-dialog.png)
 
-## <a name="for-more-information"></a>자세한 내용
+3. 선택한 메시지가 분석을 위해 Microsoft로 전송 됩니다. 메시지가 전송되었는지 확인하려면 **보낸 편지함** 폴더를 열고 전송한 메시지를 확인합니다.
 
-[정크 메일 및 피싱에 대한 자세한 정보](https://support.microsoft.com/article/86c1d76f-4d5a-4967-9647-35665dc17c31)
+## <a name="disable-or-enable-junk-email-reporting-in-outlook-on-the-web"></a>웹용 Outlook에서 정크 메일 보고를 사용 하지 않도록 설정 하거나 사용
 
-[Microsoft Outlook 용 정크 메일 보고 추가 기능](https://docs.microsoft.com/office365/securitycompliance/junk-email-reporting-add-in-for-microsoft-outlook)
+기본적으로 사용자는 웹용 Outlook에서 분석을 위해 Microsoft에 가짜 긍정, 거짓 네거티브 및 피싱 메시지를 보고할 수 있습니다. 관리자가 Exchange online의 웹 사서함 정책에서 Outlook을 사용 하 여 exchange online PowerShell 에서만이 기능을 사용 하거나 사용 하지 않도록 설정할 수 있습니다.
+
+- Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell)을 참조하세요.
+
+- 이 절차를 수행하려면 먼저 사용 권한을 할당받아야 합니다. 특히 **조직 관리** 및 **받는 사람 관리** 역할 그룹에 기본적으로 할당 되는 **받는 사람 정책** 또는 **메일 받는 사람** 역할이 Exchange Online에 있어야 합니다. Exchange Online의 역할 그룹에 대 한 자세한 내용은 [Exchange online에서 역할 그룹 수정을](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#modify-role-groups)참조 하십시오.
+
+- 모든 조직에는 Set-owamailboxpolicy 라는 기본 정책이 있지만 사용자 지정 정책을 만들 수 있습니다. 사용자 지정 정책은 기본 정책 이전의 범위 사용자에 게 적용 됩니다. 웹 사서함 정책의 Outlook에 대 한 자세한 내용은 [Exchange Online의 웹 사서함 정책에서 outlook](https://docs.microsoft.com/Exchange/clients-and-mobile-in-exchange-online/outlook-on-the-web/outlook-web-app-mailbox-policies)을 참조 하십시오.
+
+1. 웹 사서함 정책 및 정크 메일 보고 상태에 대 한 기존 Outlook을 찾으려면 다음 명령을 실행 합니다.
+
+   ```powershell
+   Get-OwaMailboxPolicy | Format-Table Name,ReportJunkEmailEnabled
+   ```
+
+2. 웹용 Outlook에서 정크 메일 보고를 사용 하지 않도록 설정 하거나 사용 하도록 설정 하려면 다음 구문을 사용 합니다.
+
+   ```powershell
+   Set-OwaMailboxPolicy -Identity "<OWAMailboxPolicyName>" -ReportJunkEmailEnabled <$true | $false>
+   ```
+
+   이 예에서는 기본 정책에서 정크 메일 보고를 사용 하지 않도록 설정 합니다.
+
+   ```powershell
+   Set-OwaMailboxPolicy -Identity "OwaMailboxPolicy-Default" -ReportJunkEmailEnabled $false
+   ```
+
+   이 예에서는 Contoso 관리자 라는 사용자 지정 정책에서 정크 메일 보고를 사용 하도록 설정 합니다.
+
+   ```powershell
+   Set-OwaMailboxPolicy -Identity "Contoso Managers" -ReportJunkEmailEnabled $true
+   ```
+
+구문과 매개 변수에 대 한 자세한 내용은 [set-owamailboxpolicy](https://docs.microsoft.com/powershell/module/exchange/client-access/get-owamailboxpolicy) 및 [set-owamailboxpolicy](https://docs.microsoft.com/powershell/module/exchange/client-access/set-owamailboxpolicy)를 참조 하십시오.
+
+### <a name="how-do-you-know-this-worked"></a>작동 여부는 어떻게 확인하나요?
+
+웹용 Outlook에서 정크 메일 보고를 사용 하거나 사용 하지 않도록 설정 했는지 확인 하려면 다음 단계 중 하나를 사용 합니다.
+
+- Exchange Online PowerShell에서 다음 명령을 실행 하 고 **ReportJunkEmailEnabled** 속성 값을 확인 합니다.
+
+  ```powershell
+  Get-OwaMailboxPolicy | Format-Table Name,ReportJunkEmailEnabled
+  ```
+
+- 웹에서 Outlook의 영향을 받는 사용자의 사서함을 열고 정크 메일, 정크 메일이 아닌 메시지를 보고 하는 옵션을 사용할 수 있는지 또는 사용할 수 없는지 확인 합니다. 사용자는 메시지를 정크 메일 이나 피싱이 아닌 메시지로 표시할 수는 있지만 사용자가 Microsoft에 보고 하지는 못합니다.

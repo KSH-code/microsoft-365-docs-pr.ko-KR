@@ -13,14 +13,15 @@ localization_priority: Priority
 ms.collection:
 - M365-subscription-management
 - Strat_O365_Enterprise
+- remotework
 ms.custom: ''
 description: 클라우드 서비스가 IT 제공의 일부일 때 비즈니스 연속성을 계획하고 구현하는 방법에 대해 알아보세요.
-ms.openlocfilehash: 2236304647275f5e2b7ddde3af1804ba749254b0
-ms.sourcegitcommit: 0b2c41dad19da5f0513097c36a4ff32a5868836c
+ms.openlocfilehash: bb9f3f1367b376c63b8779f3ff62f05b0312ef55
+ms.sourcegitcommit: ce6121a8e3ca7438071d73b0c76e2b6f33ac1cf7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "42588721"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "43030109"
 ---
 # <a name="enterprise-business-continuity-management-ebcm-with-cloud-services"></a>클라우드 서비스를 사용한 엔터프라이즈 비즈니스 연속성 관리(EBCM)
 

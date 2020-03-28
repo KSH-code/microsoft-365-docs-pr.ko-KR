@@ -12,12 +12,12 @@ localization_priority: Normal
 search.appverid:
 - MET150
 description: 관리자는 피싱 메시지의 원인과 방법을 파악 하 고, 향후 피싱 메시지를 더 많이 차단 하기 위해 수행 해야 하는 작업에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: 94c28bf63ad7ba87d06298576cf7989b6848f8e6
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 56baf39335837158cd061b4cbaede25a81c484ee
+ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42082027"
+ms.lasthandoff: 03/28/2020
+ms.locfileid: "43033653"
 ---
 # <a name="tune-anti-phishing-protection-in-office-365"></a>Office 365에서 피싱 방지 보호 기능 조정
 
@@ -39,11 +39,7 @@ ATP 기능이 설정 되어 있는지 확인 합니다.
 
 ## <a name="report-the-phishing-message-to-microsoft"></a>Microsoft에 피싱 메시지 보고
 
-보고 피싱 메시지는 Office 365의 모든 고객을 보호 하는 데 사용 되는 필터를 조정할 때 유용 합니다.
-
-피싱 메시지를 새 메시지의 _첨부_ 파일로 전송 하 고 비어 있지 않으면 **phish@office365.microsoft.com**. 원본 메시지를 전달 하는 것이 아니라 그렇지 않은 경우에는 원본 메시지 헤더를 확인할 수 없습니다. 또는 Outlook 또는 웹용 Outlook (이전의 Outlook Web App)에서 [보고서 메시지](https://docs.microsoft.com/office365/securitycompliance/enable-the-report-message-add-in) 추가 기능을 사용할 수 있습니다.
-
-자세한 내용은 [분석을 위해 Microsoft에 스팸 및 스팸이 아닌 메시지 제출을](submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md)참조 하세요.
+보고 피싱 메시지는 Office 365의 모든 고객을 보호 하는 데 사용 되는 필터를 조정할 때 유용 합니다. 자세한 내용은 [Microsoft에 메시지 및 파일 보고서](report-junk-email-messages-to-microsoft.md)를 참조 하십시오.
 
 ## <a name="inspect-the-message-headers"></a>메시지 헤더를 검사 합니다.
 

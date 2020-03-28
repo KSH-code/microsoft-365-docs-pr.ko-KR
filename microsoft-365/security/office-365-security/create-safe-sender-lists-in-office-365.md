@@ -14,12 +14,12 @@ search.appverid:
 - MET150s
 ms.assetid: 9721b46d-cbea-4121-be51-542395e6fd21
 description: 관리자는 인바운드 메시지가 스팸 필터링을 건너뛰도록 허용 하는 Office 365 및 EOP의 사용 가능한 옵션에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: 2b7463165bb376655fd7f63ac0bdd79a8eccb617
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: f9178dae93f8eb33996d05034d27fceed66edd39
+ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42893853"
+ms.lasthandoff: 03/28/2020
+ms.locfileid: "43033413"
 ---
 # <a name="create-safe-sender-lists-in-office-365"></a>Office 365에서 수신 허용-보낸 사람 목록 만들기
 
@@ -38,9 +38,9 @@ Exchange online 사서함이 없는 Office 365, 독립 실행형 EOP (Exchange O
 메일 흐름 규칙을 사용 하면 가장 유연 하 게 적절 한 메시지만 허용 됩니다. 스팸 방지 정책에서 허용 되는 보낸 사람 및 허용 도메인 목록은 보낸 사람의 전자 메일 도메인이 쉽게 위장 되므로 IP 허용 목록 처럼 안전 하지 않습니다. 그러나 ip 허용 목록에는 해당 IP 주소에서 보낸 _모든_ 도메인의 전자 메일이 스팸 필터링을 무시 하므로 위험도 표시 됩니다.
 
 > [!IMPORTANT]
-> <ul><li>안전한 보낸 사람 목록을 사용 하 여 스팸 필터링에 대 *한 예외를* 주의 깊게 모니터링 해야 합니다.</li><li>수신 허용-보낸 사람 목록을 사용 하 여 가양성 (스팸으로 표시 된 전자 메일)에 대 한 도움을 받을 수 있지만 안전한 보낸 사람 목록을 가능한 경우 피해 야 하는 임시 솔루션으로 사용 하는 것이 좋습니다. 스팸 필터링에 대 한 예외로 인해 조직이 스푸핑 및 기타 공격을 막을 수 있으므로 수신 허용-보낸 사람 목록을 사용 하 여 가양성을 관리 하지 않는 것이 좋습니다. 수신 허용-보낸 사람 목록을 사용 하 여 가양성을 관리 해야 하는 경우에는 vigilant를 수행 하 고, 준비 상태에서 [분석을 위해 스팸, 스팸 아님 및 피싱 메일을 제출](submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md) 하는 항목을 Microsoft에 보관해 두어야 합니다.</li><li>도메인이 인증 되지 않은 전자 메일을 보낼 수 있도록 허용 하려면 (스푸핑 방지 보호 무시), 스팸 방지 및 맬웨어 방지 검사를 우회 하지 않도록 하려면 [Allowedtospoof 수신 허용-보낸 사람 목록](walkthrough-spoof-intelligence-insight.md) 에 추가 하면 됩니다.</li><li>EOP 및 Outlook에서 다른 메시지 속성을 검사 하 여 메시지를 보낸 사람을 확인 합니다. 자세한 내용은이 항목의 뒷부분에 나오는 [대량 전자 메일 고려 사항](#considerations-for-bulk-email) 섹션을 참조 하십시오.</li></ul>
+> <ul><li>안전한 보낸 사람 목록을 사용 하 여 스팸 필터링에 대 *한 예외를* 주의 깊게 모니터링 해야 합니다.</li><li>수신 허용-보낸 사람 목록을 사용 하 여 가양성 (스팸으로 표시 된 전자 메일)에 대 한 도움을 받을 수 있지만 안전한 보낸 사람 목록을 가능한 경우 피해 야 하는 임시 솔루션으로 사용 하는 것이 좋습니다. 스팸 필터링에 대 한 예외로 인해 조직이 스푸핑 및 기타 공격을 막을 수 있으므로 수신 허용-보낸 사람 목록을 사용 하 여 가양성을 관리 하지 않는 것이 좋습니다. 수신 허용-보낸 사람 목록을 사용 하 여 가양성을 관리 해야 하는 경우에는 vigilant를 수행 하 고 준비 하는 동안 항목 [보고서 메시지 및 파일을 Microsoft에](report-junk-email-messages-to-microsoft.md) 보관해 두어야 합니다.</li><li>도메인이 인증 되지 않은 전자 메일을 보낼 수 있도록 허용 하려면 (스푸핑 방지 보호 무시), 스팸 방지 및 맬웨어 방지 검사를 우회 하지 않도록 하려면 [Allowedtospoof 수신 허용-보낸 사람 목록](walkthrough-spoof-intelligence-insight.md) 에 추가 하면 됩니다.</li><li>EOP 및 Outlook에서 다른 메시지 속성을 검사 하 여 메시지를 보낸 사람을 확인 합니다. 자세한 내용은이 항목의 뒷부분에 나오는 [대량 전자 메일 고려 사항](#considerations-for-bulk-email) 섹션을 참조 하십시오.</li></ul>
 
-반면, _차단 된 보낸 사람 목록을_사용 하 여 특정 원본의 전자 메일을 차단 하는 몇 가지 옵션도 있습니다. 자세한 내용은 [Create block sender lists In Office 365](create-block-sender-lists-in-office-365.md)를 참조 하세요.
+반면, _차단 된 보낸 사람 목록을_사용 하 여 특정 원본의 전자 메일을 차단 하는 몇 가지 옵션도 있습니다. 자세한 내용은 [Office 365에서 차단할 보낸 사람 목록 만들기](create-block-sender-lists-in-office-365.md)를 참조하세요.
 
 ## <a name="recommended-use-mail-flow-rules"></a>는 메일 흐름 규칙 사용
 

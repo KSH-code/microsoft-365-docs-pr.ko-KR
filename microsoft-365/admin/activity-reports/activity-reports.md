@@ -19,12 +19,12 @@ search.appverid:
 - GEA150
 ms.assetid: 0d6dfb17-8582-4172-a9a9-aed798150263
 description: 조직의 사용자가 Office 365 서비스를 사용하는 방식에 대한 주기적인 보고를 받을 수 있습니다. 사용 현황 개요 대시보드를 사용하면 각 차트에 대한 세부 정보를 확인할 수 있습니다.
-ms.openlocfilehash: 490f7722d0bb8eb93d0d6e0ff18b7364cca5185c
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: af6817471224e5747849b6020df3c56b64e29fed
+ms.sourcegitcommit: ce6121a8e3ca7438071d73b0c76e2b6f33ac1cf7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42353969"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "43029863"
 ---
 # <a name="activity-reports-in-the-microsoft-365-admin-center"></a>Office 365 관리 센터의 활동 보고서
 
@@ -74,7 +74,11 @@ ms.locfileid: "42353969"
 
 - 전역 읽기 권한자
     
-- 보고서 독자
+- 보고서 읽기 권한자
+
+- Teams 서비스 관리자
+
+- Teams 커뮤니케이션 관리자
     
 자세한 내용은 [관리자 역할 정보](../add-users/about-admin-roles.md) 및 [관리자 역할 할당](../add-users/assign-admin-roles.md)을 참조하세요.
   

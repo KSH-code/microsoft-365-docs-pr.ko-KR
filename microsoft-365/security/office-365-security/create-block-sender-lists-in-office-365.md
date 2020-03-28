@@ -13,12 +13,12 @@ localization_priority: Normal
 search.appverid:
 - MET150s
 description: 관리자는 Office 365 및 EOP에서 사용 가능한 옵션에 대해 설명 하 여 인바운드 메시지를 차단할 수 있습니다.
-ms.openlocfilehash: a588c9c869dae39ab60fc7ad68b6496f57ae015a
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: 0bfab3024bc781e53600092ebc88fae25c5f4afc
+ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42893865"
+ms.lasthandoff: 03/28/2020
+ms.locfileid: "43033425"
 ---
 # <a name="create-blocked-sender-lists-in-office-365"></a>Office 365에서 차단 된 보낸 사람 목록 만들기
 
@@ -30,12 +30,12 @@ Exchange online 사서함이 없는 Office 365, 독립 실행형 EOP (Exchange O
 
 2. 차단 된 보낸 사람 목록 또는 차단 된 도메인 목록 (스팸 방지 정책)
 
-3. Mai 흐름 규칙
+3. 메일 흐름 규칙
 
 4. IP 차단 목록 (연결 필터링)
 
 > [!NOTE]
-> 조직 전체 차단 설정을 사용 하 여 거짓 네거티브 (부재 중 스팸)를 처리할 수 있지만 이러한 메시지를 분석을 위해 Microsoft로 제출 해야 합니다. 차단 목록을 사용 하 여 거짓 네거티브를 관리 하면 관리 오버 헤드가 크게 증가 합니다. 차단 목록을 사용 하 여 누락 된 스팸을 돌리기 경우에는 준비 중에 [스팸, 스팸 아님 및 피싱 사기 메시지를 분석을 위해 Microsoft로 전송](https://docs.microsoft.com/office365/SecurityCompliance/submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis)하기 위한 항목을 유지 해야 합니다.
+> 조직 전체 차단 설정을 사용 하 여 거짓 네거티브 (부재 중 스팸)를 처리할 수 있지만 이러한 메시지를 분석을 위해 Microsoft로 제출 해야 합니다. 차단 목록을 사용 하 여 거짓 네거티브를 관리 하면 관리 오버 헤드가 크게 증가 합니다. 차단 목록을 사용 하 여 누락 된 스팸을 돌리기에는 준비 중에 항목 [보고서 메시지 및 파일을 Microsoft에](report-junk-email-messages-to-microsoft.md) 유지 해야 합니다.
 
 반면에, 수신 허용- _보낸 사람 목록을_사용 하 여 특정 원본에서 전자 메일을 보낼 수 있는 몇 가지 옵션도 있습니다. 자세한 내용은 [Office 365에서 수신 허용-보낸 사람 목록 만들기](create-safe-sender-lists-in-office-365.md)를 참조 하세요.
 

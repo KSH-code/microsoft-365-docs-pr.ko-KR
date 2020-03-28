@@ -18,16 +18,19 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: c1279b0258047ed4653e0bb3d4d95333b28af643
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: 6f3019c57d35e6ac54a9f1a2cd0dbede22601ec1
+ms.sourcegitcommit: ce6121a8e3ca7438071d73b0c76e2b6f33ac1cf7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42894823"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "43029852"
 ---
 # <a name="communication-compliance-feature-reference"></a>통신 준수 기능 참조
 
 ## <a name="policies"></a>정책도
+
+>[!Important]
+>PowerShell을 사용 하 여 통신 준수 정책을 만들고 관리 하는 기능은 지원 되지 않습니다. 이러한 정책을 만들고 관리 하려면 [Microsoft 365 통신 규정 준수 솔루션](https://compliance.microsoft.com/supervisoryreview)의 정책 관리 컨트롤을 사용 해야 합니다.
 
 Microsoft 365 준수 센터에서 Microsoft 365 조 직에 대 한 통신 준수 정책을 만듭니다. Office 365 조직이 있는 경우 Office 365 보안 & 준수 센터에서 [감독 정책을 구성](configure-supervision-policies.md) 합니다. 통신 준수 정책은 조직의 검토 대상이 되는 통신 및 사용자를 정의 하 고, 통신에 충족 해야 하는 사용자 지정 조건을 정의 하 고, 검토 해야 하는 사람을 지정 합니다. **관리 검토 관리자** 역할 그룹에 포함 된 사용자는 정책을 설정할 수 있으며이 역할을 할당 받은 사람은 Microsoft 365 준수 센터의 **통신 준수** 페이지에 액세스할 수 있습니다. 필요한 경우 정책에 대 한 수정 기록을 보류 중인 검토, 제기 된 항목 및 해결 된 항목의 상태를 포함 하는 .csv 파일로 내보낼 수 있습니다. 정책 이름을 바꿀 수 없으며 더 이상 필요 하지 않은 경우 삭제할 수 있습니다.
 
@@ -166,7 +169,7 @@ Microsoft 365의 분류자에 대 한 자세한 내용은 [분류자](classifier
 쉼표로 구분 하 여 입력 한 각 단어를 개별적으로 적용 합니다 (전자 메일 또는 첨부 파일에 적용할 정책 조건에 한 단어씩 적용 해야 함). 예를 **들어 다음**조건을 사용 하 여 메시지에 "banker", "기밀" 및 "참가자 거래" 라는 키워드를 쉼표로 구분 하 여 허용 합니다. 이 정책은 "banker", "기밀" 또는 "참가자 거래" 라는 단어가 포함 된 모든 메시지에 적용 됩니다. 이 정책 조건을 적용 하려면 이러한 단어 또는 구문 중 하나만 발생 해야 합니다. 메시지 또는 첨부 파일의 단어는 입력 한 내용과 정확히 일치 해야 합니다.
 
 >[!IMPORTANT]
->사용자 지정 사전 파일을 가져올 때는 각 단어나 구를 캐리지 리턴과 별도의 줄에 구분 해야 합니다. <br> 예시: <br><br>
+>사용자 지정 사전 파일을 가져올 때는 각 단어나 구를 캐리지 리턴과 별도의 줄에 구분 해야 합니다. <br> 예: <br><br>
 >*banker* <br>
 >*기밀로* <br>
 >*insider 사업*

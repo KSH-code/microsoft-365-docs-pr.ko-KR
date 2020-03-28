@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: faf1efd1-3b0c-411a-804d-17f37292eac0
 description: 일반적인 구성 오류를 방지하고 구성 설정에 성공하려면 Exchange Online Protection EOP 모범 사례 권장 사항을 따르세요.
-ms.openlocfilehash: b4b1f02e3b034b7e89d605a2164b6add3f20dae5
-ms.sourcegitcommit: 3d17c1d6b80672719b1878e2f321f0de39595226
+ms.openlocfilehash: fd0baf81b516c30e2cee3b702e2ca0be560e9f4d
+ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41887305"
+ms.lasthandoff: 03/28/2020
+ms.locfileid: "43033437"
 ---
 # <a name="best-practices-for-configuring-eop-and-office-365-atp"></a>EOP 및 Office 365 ATP 구성 모범 사례
 
@@ -61,11 +61,9 @@ ms.locfileid: "41887305"
 
 관리 센터의 보고서를 사용 하 여 일반적인 문제 및 추세 문제를 해결 합니다. 메시지 추적 도구를 사용하면 메시지에 대한 단일 지점 관련 데이터를 찾을 수 있습니다. 보고에 대한 자세한 내용은 [Exchange Online Protection의 보고 및 메시지 추적](reporting-and-message-trace-in-exchange-online-protection.md)을 참조하세요. [보안 & 준수 센터의 메시지 추적](message-trace-scc.md)에서 메시지 추적 도구에 대해 자세히 알아보세요.
 
-## <a name="reporting-false-positive-and-false-negatives-to-microsoft"></a>Microsoft에 거짓 긍정 및 거짓 네거티브 보고
+## <a name="report-false-positive-and-false-negatives-to-microsoft"></a>Microsoft에 거짓 긍정 및 거짓 네거티브 보고
 
-관리자는 관리 되는 전송 포털을 통해 거짓 네거티브 (스팸) 및 가양성 (스팸 아님)을 Microsoft에 제출 해야 합니다. 관리자가 최종 사용자에 게 메시지를 배달 했는지 여부를 확인할 수 있도록 전자 메일, 파일 및 Url을 제출 합니다. 자세한 내용은 [의심 스러운 스팸, 피싱, url 및 파일을 Microsoft에 Office 365 검색을 제출 하는 방법을](admin-submission.md)참조 하세요.
-
-최종 사용자는 지정 된 verdicts에 동의 하지 않을 경우 Microsoft에 분석을 위해 거짓 부정 (스팸) 및 가양성 (스팸 아님)을 직접 보고할 수도 있습니다. 자세한 내용은 분석을 [위해 Microsoft에 스팸, 스팸이 아닌 정보 및 피싱 사기 메시지 제출을](submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md)참조 하세요.
+모든 사용자에 대 한 서비스의 스팸 필터링을 향상 시키려면 가양성 (불량으로 표시 된 전자 메일)과 가양성 (잘못 된 전자 메일 허용)을 Microsoft에 분석용으로 보고 해야 합니다. 자세한 내용은 [메시지 및 파일을 Microsoft에 보고](report-junk-email-messages-to-microsoft.md)를 참조 하세요.
 
 ## <a name="create-mail-flow-rules"></a>메일 흐름 규칙 만들기
 

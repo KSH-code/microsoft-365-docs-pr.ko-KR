@@ -17,12 +17,12 @@ ms.assetid: fb4f8e49-0468-4be2-8fa6-99501f1ad9d5
 ms.collection:
 - M365-security-compliance
 description: EOP 및 Office 365 스팸 필터로 필터링 된 전자 메일 메시지에 대 한 보안 팁이 도입 되었습니다.
-ms.openlocfilehash: bd493fba7a41f9452f915ff456c9483f48e299f5
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: 3e4e645c6ac0285d9d6fff43b301f1f5c61a90e3
+ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42895194"
+ms.lasthandoff: 03/28/2020
+ms.locfileid: "43032819"
 ---
 # <a name="safety-tips-in-email-messages-in-office-365"></a>Office 365에서 전자 메일 메시지의 안전 팁
 
@@ -60,4 +60,4 @@ EOP (Exchange Online Protection) 및 Office 365는 스팸, 피싱 및 맬웨어 
 
 모든 메시지가 메시지를 받지 않더라도 보안 팁은 웹에서 항상 Outlook에 대해 사용 하도록 설정 됩니다. Office 365 관리자는 Outlook과 같은 다른 전자 메일 클라이언트에 대해 보안 팁을 해제할 수 있습니다. 자세한 내용은 [Office 365의 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)를 참조하세요.
 
-Office 365 및 EOP에서 메시지를 범주화 한 방법 (스팸이 아니거나 합법적인 것이 아님)이 만족 스 럽 지 않은 경우에는 분석을 위해 메시지를 제출 하 여 환경을 개선 하는 데 도움을 받을 수 있습니다. 자세한 내용은 [웹용 Outlook에서 정크 메일 및 피싱 사기 보고](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md)를 참조 하세요. 보안 팁의 피드백 링크를 클릭 하 여 의견을 Microsoft에 직접 제출 하 여 개선할 수 있도록 도울 수도 있습니다.
+EOP가 메시지를 분류 한 방법 (스팸이 아니거나 스팸으로 표시 되어야 함)에 동의 하지 않는 경우에는 분석을 위해 Microsoft에 메시지를 제출 하 여 환경을 개선 하는 데 도움을 받을 수 있습니다. 자세한 내용은 [Microsoft에 메시지 및 파일 보고서](report-junk-email-messages-to-microsoft.md)를 참조 하십시오. 보안 팁의 피드백 링크를 클릭 하 여 의견을 Microsoft에 직접 제출 하 여 개선할 수 있도록 도울 수도 있습니다.

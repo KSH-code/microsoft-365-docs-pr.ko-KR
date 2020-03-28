@@ -17,12 +17,12 @@ ms.assetid: 6e13311e-92ae-495e-a619-56d770199170
 ms.collection:
 - M365-security-compliance
 description: 안전한 첨부 파일 기능은 전자 메일 첨부 파일을 클릭 하 여 확인할 시간을 제공 합니다. 안전한 첨부 파일을 사용 하 여 사용자가 전자 메일로 보내거나 받는 악의적인 파일 로부터 조직을 보호 합니다.
-ms.openlocfilehash: c95287b3dd05cce28bad6761ca7e69ce9cc2f914
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 60a5a95af846fe6dbe8c2c7aa6dced9deaae1a2d
+ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41599815"
+ms.lasthandoff: 03/28/2020
+ms.locfileid: "43033461"
 ---
 # <a name="office-365-atp-safe-attachments"></a>Office 365 ATP 안전한 첨부 파일
 
@@ -68,4 +68,4 @@ ATP 정책을 정의 하거나 편집 하려면 적절 한 역할이 할당 되�
 
 - Microsoft에 분석할 파일을 받은 경우 [맬웨어 분석용 파일 제출을](https://aka.ms/wdsi/submit)참조 하세요.
 
-- 분석을 위해 Microsoft에 제출 하려는 전자 메일 메시지 (첨부 파일 포함 또는 제외)가 수신 되는 경우 [보고서 메시지 추가 기능](enable-the-report-message-add-in.md)을 사용 합니다.
+- 분석을 위해 Microsoft에 제출 하려는 전자 메일 메시지 (첨부 파일 포함 또는 제외)가 수신 되는 경우 [microsoft에 메시지 및 파일 보고](report-junk-email-messages-to-microsoft.md)를 참조 하세요.

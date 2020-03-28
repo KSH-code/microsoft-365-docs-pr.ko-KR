@@ -11,17 +11,17 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Exchange Online의 원본 위치 eDiscovery 및 원본 위치 유지 및 해당 PowerShell cmdlet은 2020의 처음 절반에서 만료 됩니다. 검색 사서함 cmdlet 및 Office 365 Advanced eDiscovery v 1.0은 동일한 기간 내에도 폐기 됩니다.
-ms.openlocfilehash: 5ee588b2c05241628242e8660f10c23dba809bf8
-ms.sourcegitcommit: 7646e2d742d1b2fad085a00200a2a10461dd4bac
+ms.openlocfilehash: d0d9856a30d905e73ba31abc9af92bbe060c0ec4
+ms.sourcegitcommit: 9ddf2005a36a27cc6d2d85a5b9fac0483a55f245
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42978168"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "43024358"
 ---
 # <a name="retirement-of-legacy-ediscovery-tools"></a>레거시 eDiscovery 도구 만료
 
 > [!IMPORTANT]
-> Microsoft는 공개 상태 상황을 평가 했으며이로 인해 고객에 게 미치는 영향을 이해 하 고 있습니다. 강력 하 게 파트너와 협력 하 고 글로벌 시민을 맡고 싶습니다. 지금까지 수행 하는 여러 부담 중 하나를 간편 하 게 하려면 아래에 나열 된 레거시 eDiscovery 도구에 대 한 예약 된 만료를 3 개월로 연기 합니다. **업데이트 된 만료 날짜는 아래에 반영 됩니다.**
+> Microsoft는 공개 상태 상황을 평가 했으며이로 인해 고객에 게 미치는 영향을 이해 하 고 있습니다. 강력 하 게 파트너와 협력 하 고 글로벌 시민을 맡고 싶습니다. 이 문서에 설명 된 레거시 eDiscovery 도구에 대 한 예약 된 만료는 3 개월까지 지연 하 게 됩니다. **업데이트 된 만료 날짜는 아래에 반영 됩니다.**
 
 Microsoft는 지난 몇 년 동안 Exchange Online에서 전자 메일 콘텐츠를 검색, 미리 보기 및 내보내는 데 사용할 수 있는 eDiscovery 도구를 제공 하 고 있습니다. 그러나 이러한 도구는 더 이상 SharePoint Online 및 Office 365 그룹과 같은 다른 Office 365 서비스에서 비 Exchange 콘텐츠를 검색 하는 효율적인 방법을 제공 하지 않습니다. 이 문제를 해결 하기 위해 Microsoft는 광범위 한 Office 365 콘텐츠를 검색 하는 데 도움이 되는 기타 eDiscovery 도구를 제공 합니다. 그리고 [Microsoft 365 준수 센터](https://compliance.microsoft.com)의 최신 eDiscovery 기능을 최신 및 강력 하 게 통합 하는 것이 어려운 작업입니다. 이를 통해 조직은 Exchange Online을 비롯 한 여러 Office 365 서비스에서 콘텐츠에 대 한 법적, 내부 및 기타 문서 요청에 응답할 수 있습니다.
 

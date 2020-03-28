@@ -15,12 +15,12 @@ ms.assetid: 2889c82e-fab0-4e85-87b0-b001b2ccd4f7
 ms.collection:
 - M365-security-compliance
 description: 관리자는 대량 전자 메일 필터링에 대해 Exchange Online Protection의 메일 흐름 규칙을 사용 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 2ac81d798af957f23f95b92f633b93bdda677991
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: b08edfdd88f6f522d3bf212b209ee4b293d7198a
+ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42895050"
+ms.lasthandoff: 03/28/2020
+ms.locfileid: "43033641"
 ---
 # <a name="use-mail-flow-rules-to-filter-bulk-email-in-office-365"></a>메일 흐름 규칙을 사용 하 여 Office 365에서 대량 전자 메일 필터링
 
@@ -36,7 +36,7 @@ Exchange online 사서함이 없는 Office 365 고객 또는 독립 실행형 EO
 
 - Exchange Online에서 EAC를 열려면 exchange [online의 exchange 관리 센터](https://docs.microsoft.com/Exchange/exchange-admin-center)를 참조 하세요.
 
-- Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell)을 참조하세요. 독립 실행형 Exchange Online Protection PowerShell에 연결 하려면 [Exchange Online Protection powershell에 연결](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell)을 참조 하세요.
+- Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결하기](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell)를 참조하세요. Exchange Online Protection PowerShell에 연결하려면 [Exchange Online Protection PowerShell에 연결하기](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell)를 참조하세요.
 
 - Exchange Online 및 독립 실행형 EOP의 메일 흐름 규칙에 대 한 자세한 내용은 다음 항목을 참조 하십시오.
 
@@ -66,7 +66,7 @@ Exchange online 사서함이 없는 Office 365 고객 또는 독립 실행형 EO
 
    - 다음의 **경우이 규칙 적용**: 정규식 (RegEx) 또는 단어 또는 구를 사용 하 여 메시지의 콘텐츠를 찾도록 다음 설정 중 하나를 구성 합니다.
 
-     - **제목 또는 본문** \> **제목 또는 본문이 다음 텍스트 패턴과 일치**하는 경우 표시 되는 **단어 또는 구 지정** 대화 상자에서 다음 값 중 하나를 입력 하 **Add** ![고 추가 아이콘](../../media/ITPro-EAC-AddIcon.png)추가를 클릭 한 다음 필요한 만큼 반복 합니다.
+     - **제목 또는 본문** \> **제목 또는 본문이 다음 텍스트 패턴과 일치**하는 경우 표시 되는 **단어 또는 구 지정** 대화 상자에서 다음 값 중 하나를 입력 하 **Add** ![고 추가 아이콘](../../media/ITPro-EAC-AddIcon.png)추가를 클릭 한 다음 모든 값을 입력할 때까지 반복 합니다.
 
        - `If you are unable to view the content of this email\, please`
 
@@ -96,7 +96,7 @@ Exchange online 사서함이 없는 Office 365 고객 또는 독립 실행형 EO
 
        작업을 마친 후 **확인**을 클릭합니다.
 
-     - **제목 또는 본문** \> **제목 또는 본문에 다음 단어 포함**대화 상자가 나타나면 다음 값 중 하나를 입력 하 고 추가 아이콘](../../media/ITPro-EAC-AddIcon.png) **추가** ![를 클릭 한 다음 필요한 횟수 만큼 **반복 합니다.**
+     - **제목 또는 본문** \> **제목 또는 본문에 다음 단어 포함**대화 상자가 나타나면 다음 값 중 하나를 입력 하 고 추가 아이콘](../../media/ITPro-EAC-AddIcon.png) **추가** ![를 클릭 한 다음 모든 값을 입력할 때까지 **반복 합니다.**
 
        - `to change your preferences or unsubscribe`
 
@@ -138,7 +138,7 @@ Exchange online 사서함이 없는 Office 365 고객 또는 독립 실행형 EO
 
    작업이 끝나면 **저장** 을 클릭 합니다.
 
-## <a name="use-powershell-to-create-a-mail-flow-rules-that-filter-bulk-email"></a>PowerShell을 사용 하 여 대량 전자 메일을 필터링 하는 메일 흐름 규칙 만들기
+## <a name="use-powershell-to-create-mail-flow-rules-that-filter-bulk-email"></a>PowerShell을 사용 하 여 대량 전자 메일을 필터링 하는 메일 흐름 규칙 만들기
 
 다음 구문을 사용 하 여 메일 흐름 규칙 (정규식과 단어 비교) 중 하나 또는 둘 다를 만들 수 있습니다.
 

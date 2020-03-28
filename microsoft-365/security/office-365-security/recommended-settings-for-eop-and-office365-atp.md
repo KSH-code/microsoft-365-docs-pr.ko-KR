@@ -16,12 +16,12 @@ ms.assetid: 6f64f2de-d626-48ed-8084-03cc72301aa4
 ms.collection:
 - M365-security-compliance
 description: EOP (Exchange Online Protection) 및 ATP (Advanced Threat Protection) 보안 설정에 대 한 모범 사례 표준 보호에 대 한 최신 권장 사항은 무엇 인가요? 보다 엄격한 기능을 사용 하려면 어떻게 해야 합니까? 또한 ATP (Advanced Threat Protection)를 사용 하는 경우에는 어떤 것을 얻게 됩니까?
-ms.openlocfilehash: b68c10eccfdacd7782f402b5712a808ff278254d
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: 9ddf704f767dfa5ff5c93888e51b91b2079a6c43
+ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42895230"
+ms.lasthandoff: 03/28/2020
+ms.locfileid: "43032855"
 ---
 # <a name="recommended-settings-for-eop-and-office-365-atp-security"></a>EOP 및 Office 365 ATP 보안에 대 한 권장 설정
 
@@ -30,7 +30,7 @@ ms.locfileid: "42895230"
 보안 관리자는 보안 설정을 사용자 지정할 수 있도록 하지만 EOP 및 Office 365 ATP에는 **표준** 및 **Strict**의 두 가지 보안 수준이 권장 됩니다. 각 고객의 환경과 요구 사항은 서로 다르지만, 이러한 수준의 메일 필터링 구성은 대부분의 상황에서 원치 않는 메일이 직원의 받은 편지함에 도달 하지 못하도록 방지 하는 데 도움이 됩니다.
 
 > [!IMPORTANT]
-> 필터링이 제대로 작동 하려면 사서함에서 정크 메일 규칙을 사용 하도록 설정 해야 합니다. 이 기능은 기본적으로 사용 하도록 설정 되어 있지만 필터링이 작동 하지 않는 것 처럼 보이는 경우에는 확인 해야 합니다. 자세한 내용은 [Office 365에서 Exchange Online 사서함의 정크 메일 설정 구성을](configure-junk-email-settings-on-exo-mailboxes.md)참조 하세요.
+> 필터링이 제대로 작동 하려면 사서함에서 정크 메일 규칙을 사용 하도록 설정 해야 합니다. 이 기능은 기본적으로 사용 하도록 설정 되어 있지만 필터링이 작동 하지 않는 것 처럼 보이는 경우에는 확인 해야 합니다. 자세한 내용은 [Office 365에서 Exchange Online 사서함에 대한 정크 메일 설정 구성하기](configure-junk-email-settings-on-exo-mailboxes.md)를 참조하세요.
 
 이 항목에서는 Office 365 사용자를 보호 하기 위해 이러한 Microsoft 권장 설정에 대해 설명 합니다.
 
@@ -190,12 +190,11 @@ EOP 고객은 앞에서 설명한 것 처럼 기본 피싱 방지를 제공 하�
 |검색 시 첨부 파일 리디렉션|사용|사용|첨부 파일이 맬웨어 인지 여부를 확인 하는 방법을 알고 있는 보안 관리자의 전자 메일 주소로 리디렉션|
 |ATP 안전한 첨부 파일 응답에 대 한 맬웨어 검색 시간이 초과 되거나 오류가 발생 하는 경우|사용|사용||
 
-
 ## <a name="related-topics"></a>관련 항목
 
 - **Exchange 메일 흐름/Exchange 전송 규칙**에 대 한 모범 사례를 찾으십니까? 자세한 내용은 [이 문서](https://docs.microsoft.com/microsoft-365/security/office-365-security/best-practices-for-configuring-eop) 를 참조 하세요.
 
-- 의심 스러운 우편, 의심 스러운 스팸, 피싱 또는 Url을 검색을 위해 Microsoft에 전송 합니다. [이 문서의](https://docs.microsoft.com/microsoft-365/security/office-365-security/admin-submission) **관리자 전송** 지침을 사용 합니다.
+- 관리자 및 사용자는 가양성 (잘못 된 것으로 표시 된 좋은 전자 메일)과 거짓 네거티브 (잘못 된 전자 메일 허용)를 분석을 위해 Microsoft에 제출할 수 있습니다. 자세한 내용은 [메시지 및 파일을 Microsoft에 보고](report-junk-email-messages-to-microsoft.md)를 참조 하세요.
 
 - [EOP 서비스](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-your-eop-service)를 **설정** 하는 방법에 대 한 정보를 보려면 다음 링크를 사용 하 고, [Office 365 Advanced Threat Protection](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)을 **구성** 합니다. ('[Office 365의 위협 으로부터 보호](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats)하는 방법에 대 한 유용한 지침은 참조 하세요.)
 

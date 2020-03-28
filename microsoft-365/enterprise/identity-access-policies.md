@@ -15,12 +15,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: cfeef08c087d826d3e6f90bd1bb87bd852859a7c
-ms.sourcegitcommit: 7646e2d742d1b2fad085a00200a2a10461dd4bac
+ms.openlocfilehash: b6e10757c3a4370c83b6ee0c1fb6c818a13089ea
+ms.sourcegitcommit: 7eaecb91c7cb1f8679f99882563f5c1149175992
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42978269"
+ms.lasthandoff: 03/27/2020
+ms.locfileid: "43022924"
 ---
 # <a name="common-identity-and-device-access-policies"></a>일반 ID 및 장치 액세스 정책
 이 문서에서는 Azure AD 응용 프로그램 프록시를 통해 게시 된 온-프레미스 응용 프로그램을 포함 하 여 클라우드 서비스에 대 한 액세스를 보호 하기 위한 일반적인 권장 정책을 설명 합니다. 
@@ -225,18 +225,22 @@ MFA를 요청 하기 전에 먼저 Id 보호 MFA 등록 정책을 사용 하 여
 
 ## <a name="define-device-compliance-policies"></a>장치 준수 정책 정의
 
-장치 준수 정책은 장치가 준수로 표시 되기 위해 준수 해야 하는 요구 사항을 정의 합니다. Azure portal 내에서 Intune 장치 준수 정책을 만듭니다. 
+장치 준수 정책은 장치가 준수로 표시 되기 위해 준수 해야 하는 요구 사항을 정의 합니다. Microsoft Endpoint Manager 관리 센터 내에서 Intune 장치 준수 정책을 만듭니다.
 
 각 플랫폼에 대 한 정책을 만듭니다.
-- Android
-- Android enterprise
-- iOS
+- Android 장치 관리자
+- Android Enterprise
+- iOS/iPadOS
 - macOS
 - 이 설정은 다음과 같은 유형의 장치에서 사용할 수 있습니다.
 - Windows 8.1 이상
 - Windows 10 이상
 
-장치 준수 정책을 만들려면 관리자 자격 증명을 사용 하 여 Microsoft Azure portal에 로그인 한 다음 **Intune > 장치 준수**로 이동 합니다. **정책 만들기**를 선택합니다.
+장치 준수 정책을 만들려면 관리자 자격 증명을 사용 하 여 [Microsoft Endpoint Manager 관리 센터](https://go.microsoft.com/fwlink/?linkid=2109431) 에 로그인 한 다음 **장치** > **준수 정책** > **정책**으로 이동 합니다. **정책 만들기**를 선택 합니다.
+
+장치 준수 정책이 배포 되려면 사용자 그룹에 할당 되어야 합니다. 정책을 만들고 저장 한 후 할당 합니다. 관리 센터에서 정책을 선택한 다음 **할당**을 선택 합니다. 정책을 수신 하려는 그룹을 선택한 후 **저장** 을 선택 하 여 해당 그룹 할당을 저장 하 고 정책을 배포 합니다.
+
+Intune에서 준수 정책을 만드는 방법에 대 한 단계별 지침은 Intune 설명서의 [Microsoft Intune에서 준수 정책 만들기](https://docs.microsoft.com/mem/intune/protect/create-compliance-policy) 를 참조 하세요.
 
 다음은 Windows 10에 권장 되는 설정입니다.
 
@@ -255,8 +259,6 @@ MFA를 요청 하기 전에 먼저 Id 보호 MFA 등록 정책을 사용 하 여
 |:---|:---------|:-----|:----|
 |운영 체제 버전|모두|구성되지 않음||
 
-위의 모든 정책을 배포하는 것으로 간주하려면 사용자 그룹에서 이들을 대상으로 설정해야 합니다. 이 작업은 저장 시 또는 나중에 **정책** 섹션 (추가와 같은 수준)에서 **배포 관리** 를 선택 하 여 정책을 만들어 수행할 수 있습니다.
-
 **시스템 보안**
 
 |유형|속성|값|참고|
@@ -273,9 +275,9 @@ MFA를 요청 하기 전에 먼저 Id 보호 MFA 등록 정책을 사용 하 여
 |장치 보안|방화벽이|할||
 ||바이러스 검사|할||
 ||백신|할|이 설정을 사용 하려면 Windows 보안 센터에 등록 된 스파이웨어 방지 솔루션을 사용 해야 합니다.|
-|Defender|Windows Defender Antimalware|할||
-||Windows Defender 맬웨어 방지 최소 버전||Windows 10 desktop에 대해서만 지원 됩니다. 최신 버전에서 5 개 이하의 버전을 포함 하는 Microsoft 권장|
-||Windows Defender 맬웨어 방지 서명이 최신 상태입니다.|할||
+|Defender|Microsoft Defender 맬웨어 방지|할||
+||Microsoft Defender 맬웨어 방지 최소 버전||Windows 10 desktop에 대해서만 지원 됩니다. 최신 버전에서 5 개 이하의 버전을 포함 하는 Microsoft 권장|
+||Microsoft Defender 맬웨어 방지 서명이 최신 상태입니다.|할||
 ||실시간 보호|할|Windows 10 desktop에만 지원 됨|
 
 **Microsoft Defender ATP**
@@ -283,6 +285,7 @@ MFA를 요청 하기 전에 먼저 Id 보호 MFA 등록 정책을 사용 하 여
 |유형|속성|값|참고|
 |:---|:---------|:-----|:----|
 |Microsoft Defender Advanced Threat Protection 규칙|장치가 컴퓨터 위험 점수에 있거나 그 아래에 있어야 합니다.|보통||
+
 
 ## <a name="require-compliant-pcs-but-not-compliant-phones-and-tablets"></a>준수 Pc 필요 (준수 전화 및 태블릿 제외)
 준수 Pc를 요구 하는 정책을 추가 하기 전에 관리를 위한 장치를 Intune에 등록 해야 합니다. 장치가 원하는 사용자의 소유 인지 확인 하기 위해 장치를 Intune에 등록 하기 전에 다단계 인증을 사용 하는 것이 좋습니다. 

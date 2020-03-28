@@ -16,12 +16,12 @@ ms.assetid: ff3f140b-b005-445f-bfe0-7bc3f328aaf0
 ms.collection:
 - M365-security-compliance
 description: Microsoft는 다양 한 정책과 절차를 개발 하 고 사용자가 악성 전자 메일, 원치 않는 이메일 또는 악의적으로 보호 하는 데 도움이 되는 몇 가지 업계 모범 사례를 채택 했습니다.
-ms.openlocfilehash: e6e5565b032af656b2204ce448581014595013de
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: c95c586f6287857b910c82e8f21b3d977cdc5966
+ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41598615"
+ms.lasthandoff: 03/28/2020
+ms.locfileid: "43033749"
 ---
 # <a name="reference-policies-practices-and-guidelines"></a>참조: 정책, 사례 및 지침
 
@@ -89,7 +89,7 @@ Microsoft는 인터넷 및 전자 메일 에코 시스템을 개선 하기 위�
 
 ## <a name="abuse-and-spam-reporting"></a>불건전 및 스팸 보고
 
-불법적, 악성 글, 원치 않는 전자 메일 등을 보고 하려면 [웹용 Outlook에서 정크 메일 및 피싱 사기를 신고](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md)하세요. 이러한 유형의 통신을 전송 하는 것은 Microsoft 정책 위반 및 확인 된 보고서에 대 한 적절 한 작업을 수행 하는 것입니다.
+불법적, 악성 글, 원치 않는 전자 메일 또는 악성 메일이 보고 되도록 하려면 [Microsoft에 메시지 및 파일 보고서](report-junk-email-messages-to-microsoft.md)를 참조 하세요. 이러한 유형의 통신을 전송 하는 것은 Microsoft 정책 위반 이며 확인 된 보고서에 대해 적절 한 작업을 수행 합니다.
 
 ## <a name="law-enforcement"></a>법 집행
 
