@@ -18,12 +18,12 @@ search.appverid:
 - GEA150
 ms.assetid: 87c24ae2-82e0-4d1e-be01-c3bcc3f18c60
 description: Office 정품 인증 보고서를 다운로드 하 여 사용자에 게 제품을 정품 인증 했는지 확인 하 고 추가 도움이 필요할 수 있는 사용자를 식별 하는 방법을 알아봅니다.
-ms.openlocfilehash: de558c75009007bbc02a1c5ca51bb7c86a97c47a
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 7a26928b654c222a2eef05371ff9b220cf59cfe4
+ms.sourcegitcommit: 2b626a7924b4be08f6eb21181453b778e6fde418
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42353759"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "43046978"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---microsoft-office-activations"></a>관리 센터의 microsoft 365 보고서-Microsoft Office 정품 인증
 
@@ -32,7 +32,7 @@ Microsoft 365 **보고서** 대시보드에는 조직의 제품 전체에 대 �
 Office 정품 인증 보고서는 하나 이상의 장치에서 Office 구독을 정품 인증한 사용자의 보기를 제공합니다. 이 보고서는 데스크톱 및 장치에서의 정품 인증 분석 결과뿐만 아니라 Office 365 ProPlus, Project 및 Visio Pro for Office 365 구독 정품 인증의 분석 결과를 제공합니다. 이 보고서는 Office 구독 정품 인증에 대한 추가 도움말 및 지원이 필요할 수 있는 사용자를 식별하는 데 유용할 수 있습니다.
   
 > [!NOTE]
-> 보고서를 보려면 Microsoft 365 또는 Exchange, SharePoint, 비즈니스용 Skype 관리자 또는 보고서 구독자의 전역 관리자 여야 합니다. 
+> 보고서를 보려면 Microsoft 365 또는 Exchange, SharePoint, 팀 서비스, 팀 통신 또는 비즈니스용 Skype 관리자의 전역 관리자, 전역 독자 또는 보고서 독자 여야 합니다.  
   
 ## <a name="how-to-get-to-the-office-activations-report"></a>Office 정품 인증 보고서에 액세스하는 방법
 
@@ -49,13 +49,13 @@ Office 정품 인증 보고서는 하나 이상의 장치에서 Office 구독을
   
 |||
 |:-----|:-----|
-|개  <br/> |Office 정품 인증 보고서에는 Office 라이선스 정품 인증 데이터의 현재 상태가 보고서 날짜를 기준으로 차트의 오른쪽 위에 표시됩니다.  <br/> |
-|2  <br/> |각 보고서의 데이터는 대개 최근 24 ~ 48 시간까지 포함 됩니다.  <br/> |
-|3(sp3)  <br/> |**정품 인증** 차트에는 데스크톱 및 장치의 Office 정품 인증 수가 표시됩니다.  <br/> |
-|1-4  <br/> |**사용자** 차트에는 데스크톱 또는 장치에서 Office 구독을 사용하도록 설정하고 정품 인증을 수행한 사용자의 수가 표시됩니다.  <br/> |
-|2-5  <br/> | **정품 인증** 차트의 Y축은 Office 정품 인증 수입니다.  <br/>  **사용자** 차트의 Y축은 사용자의 Office 정품 인증 활동 수행입니다.  <br/>  두 차트의 X축은 모두 이 특정 보고서에 대해 선택된 날짜 범위입니다.  <br/> |
-|번  <br/> |범례에서 항목을 선택 하 여 표시 되는 차트를 필터링 할 수 있습니다. 예를 들어 **정품 인증** 차트에서 **windows OS**, **Mac OS**, **windows 10 mobile**, **iOS** 또는 **Android** 를 선택 하 여 각 항목에 관련 된 정보만 표시 합니다. 이 선택 항목을 변경해도 눈금 표에 있는 정보가 변경되지는 않습니다. <br/> ![장치에 대 한 정품 인증 데이터](../../media/59d3ec6e-2a6e-4b21-8aac-c73038c47b9f.png)  <br/> |
-|연중  <br/> | 이 표는 사용자 수준의 Office 정품 인증 분석 결과를 보여 줍니다. 이 표는 Office 제품이 할당된 모든 사용자의 목록입니다. 표에 열을 더 추가할 수 있습니다.  <br/> ![Office 정품 인증 사용 가능 열](../../media/410a4baa-cef8-4676-bf7c-02a907a3a575.png)<br/> **사용자 이름**은 사용자의 전자 메일 주소입니다.  <br/> **표시 이름은** 사용자의 전체 이름입니다.  <br/> **제품 라이선스** 는이 사용자에 게 할당 된 제품입니다.  <br/> **마지막으로 활성화된 날짜**는 사용자가 데스크톱 또는 장치에서 Office를 정품 인증한 날짜를 의미합니다.  <br/> **사용 된 공유** 컴퓨터 활성화는 사용자가 공유 컴퓨터를 통해 Office를 사용한 경우 true입니다. <br/> **Windows** 는 사용자가 Office를 정품 인증 한 windows 데스크톱 수를 나타냅니다.  <br/> **Mac** 은 사용자가 Office를 정품 인증 한 mac 데스크톱 수를 나타냅니다.  <br/> **Windows 10 mobile** 은 사용자가 Office를 정품 인증 한 windows 10 모바일 장치 수를 나타냅니다.  <br/> **iOS** 는 사용자가 Office를 정품 인증 한 ios 장치 수를 나타냅니다.  <br/> **Android** 는 사용자가 Office를 정품 인증 한 android 장치의 수를 나타냅니다.  <br/>  조직의 정책으로 인해 사용자 정보를 식별할 수 있는 보고서를 볼 수 없는 경우 이러한 모든 보고서의 개인 정보 설정을 변경할 수 있습니다. [Microsoft 365 관리 센터에서 활동 보고서](activity-reports.md)의 **보고서 섹션에서 사용자 세부 정보 숨기기** 항목을 확인 합니다.  <br/> |
+|1   <br/> |Office 정품 인증 보고서에는 Office 라이선스 정품 인증 데이터의 현재 상태가 보고서 날짜를 기준으로 차트의 오른쪽 위에 표시됩니다.  <br/> |
+|2   <br/> |각 보고서의 데이터는 대개 최근 24 ~ 48 시간까지 포함 됩니다.  <br/> |
+|3   <br/> |**정품 인증** 차트에는 데스크톱 및 장치의 Office 정품 인증 수가 표시됩니다.  <br/> |
+|4   <br/> |**사용자** 차트에는 데스크톱 또는 장치에서 Office 구독을 사용하도록 설정하고 정품 인증을 수행한 사용자의 수가 표시됩니다.  <br/> |
+|5   <br/> | **정품 인증** 차트의 Y축은 Office 정품 인증 수입니다.  <br/>  **사용자** 차트의 Y축은 사용자의 Office 정품 인증 활동 수행입니다.  <br/>  두 차트의 X축은 모두 이 특정 보고서에 대해 선택된 날짜 범위입니다.  <br/> |
+|6   <br/> |범례에서 항목을 선택 하 여 표시 되는 차트를 필터링 할 수 있습니다. 예를 들어 **정품 인증** 차트에서 **windows OS**, **Mac OS**, **windows 10 mobile**, **iOS** 또는 **Android** 를 선택 하 여 각 항목에 관련 된 정보만 표시 합니다. 이 선택 항목을 변경해도 눈금 표에 있는 정보가 변경되지는 않습니다. <br/> ![장치에 대 한 정품 인증 데이터](../../media/59d3ec6e-2a6e-4b21-8aac-c73038c47b9f.png)  <br/> |
+|7   <br/> | 이 표는 사용자 수준의 Office 정품 인증 분석 결과를 보여 줍니다. 이 표는 Office 제품이 할당된 모든 사용자의 목록입니다. 표에 열을 더 추가할 수 있습니다.  <br/> ![Office 정품 인증 사용 가능 열](../../media/410a4baa-cef8-4676-bf7c-02a907a3a575.png)<br/> **사용자 이름**은 사용자의 전자 메일 주소입니다.  <br/> **표시 이름은** 사용자의 전체 이름입니다.  <br/> **제품 라이선스** 는이 사용자에 게 할당 된 제품입니다.  <br/> **마지막으로 활성화된 날짜**는 사용자가 데스크톱 또는 장치에서 Office를 정품 인증한 날짜를 의미합니다.  <br/> **사용 된 공유** 컴퓨터 활성화는 사용자가 공유 컴퓨터를 통해 Office를 사용한 경우 true입니다. <br/> **Windows** 는 사용자가 Office를 정품 인증 한 windows 데스크톱 수를 나타냅니다.  <br/> **Mac** 은 사용자가 Office를 정품 인증 한 mac 데스크톱 수를 나타냅니다.  <br/> **Windows 10 mobile** 은 사용자가 Office를 정품 인증 한 windows 10 모바일 장치 수를 나타냅니다.  <br/> **iOS** 는 사용자가 Office를 정품 인증 한 ios 장치 수를 나타냅니다.  <br/> **Android** 는 사용자가 Office를 정품 인증 한 android 장치의 수를 나타냅니다.  <br/>  조직의 정책으로 인해 사용자 정보를 식별할 수 있는 보고서를 볼 수 없는 경우 이러한 모든 보고서의 개인 정보 설정을 변경할 수 있습니다. [Microsoft 365 관리 센터에서 활동 보고서](activity-reports.md)의 **보고서 섹션에서 사용자 세부 정보 숨기기** 항목을 확인 합니다.  <br/> |
 |||
    
 

@@ -19,19 +19,19 @@ search.appverid:
 - MOE150
 ms.assetid: c7c9f938-5b8e-4d52-b1a2-c7c32cb2312a
 description: Yammer 활동 보고서를 가져오고 Yammer를 사용 하 여 메시지를 게시 하거나 읽거나 읽는 사용자 수에 대 한 자세한 정보를 확인 하세요.
-ms.openlocfilehash: e4e51707aa487486e2d41d5d8bd4e84294c36ef2
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: de62ef0ceed54da76ead64274923ac646240ce44
+ms.sourcegitcommit: 2b626a7924b4be08f6eb21181453b778e6fde418
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42353519"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "43047026"
 ---
 # <a name="office-365-reports-in-the-admin-center---yammer-activity-report"></a>관리 센터의 Office 365 보고서-Yammer 활동 보고서
 
 Microsoft 365 admin의 **보고서** 대시보드에는 조직 내 제품의 사용 현황에 대 한 데이터가 표시 됩니다. [관리 센터에서 활동 보고서](activity-reports.md)를 체크 아웃 합니다. **Yammer 활동 보고서** 를 사용하면 메시지를 게시하거나 좋아요를 클릭하거나 읽는 데 Yammer를 사용하는 고유한 사용자 수와 조직 전체에서 생성된 활동의 크기를 확인하여 조직의 Yammer 사용 수준을 이해할 수 있습니다. 
   
 > [!NOTE]
-> 보고서를 보려면 Microsoft 365 또는 Exchange, SharePoint 또는 비즈니스용 Skype 관리자의 전역 관리자, 전역 독자 또는 보고서 독자 여야 합니다. 
+> 보고서를 보려면 Microsoft 365 또는 Exchange, SharePoint, 팀 서비스, 팀 통신 또는 비즈니스용 Skype 관리자의 전역 관리자, 전역 독자 또는 보고서 독자 여야 합니다. 
  
 ## <a name="how-to-get-to-the-yammer-activity-report"></a>Yammer 활동 보고서에 액세스하는 방법
 

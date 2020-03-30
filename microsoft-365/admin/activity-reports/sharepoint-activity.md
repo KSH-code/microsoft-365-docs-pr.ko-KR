@@ -20,12 +20,12 @@ search.appverid:
 - BSA160
 ms.assetid: a91c958f-1279-499d-9959-12f0de08dc8f
 description: SharePoint 작업 사용 보고서를 통해 모든 SharePoint 사용자의 활동, 공유 되는 파일 수 및 저장소 사용률에 대 한 정보를 확인할 수 있습니다.
-ms.openlocfilehash: df025d41a2c570761fd59e228eebb277c922e06e
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: a3c8d73707ef09c3702450ebddab6e43c159638c
+ms.sourcegitcommit: 2b626a7924b4be08f6eb21181453b778e6fde418
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42353429"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "43047050"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---sharepoint-activity"></a>관리 센터의 Microsoft 365 보고서-SharePoint 활동
 
@@ -39,7 +39,7 @@ Microsoft 365 관리자 인 **보고서** 대시보드에는 조직의 다양 �
 각 SharePoint 사이트와 관련하여 수행되는 활동의 양과 저장소 활용도를 파악하려면 [SharePoint 사이트 사용 보고서](sharepoint-site-usage.md)를 참조하세요.
   
 > [!NOTE]
-> 보고서를 보려면 Microsoft 365 또는 Exchange, SharePoint 또는 비즈니스용 Skype 관리자의 전역 관리자, 전역 독자 또는 보고서 독자 여야 합니다. 
+> 보고서를 보려면 Microsoft 365 또는 Exchange, SharePoint, 팀 서비스, 팀 통신 또는 비즈니스용 Skype 관리자의 전역 관리자, 전역 독자 또는 보고서 독자 여야 합니다.  
  
 ## <a name="how-do-i-get-to-the-to-the-sharepoint-activity-report"></a>SharePoint 활동 보고서에 어떻게 액세스하나요?
 

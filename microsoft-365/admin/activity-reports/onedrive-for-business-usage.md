@@ -21,12 +21,12 @@ search.appverid:
 - ODB160
 ms.assetid: 0de3b312-c4e8-4e4b-a02d-32b2f726a680
 description: '비즈니스용 OneDrive 사용 현황 보고서를 다운로드 하 여 조직 전체에서 사용 되는 총 파일 및 저장소 수를 확인할 수 있습니다. '
-ms.openlocfilehash: 8bbf904faf1afe28f4a8a83209f681a44eaa932f
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 4c7cfaeed03627b6dfab6c694f3a5e858b125c40
+ms.sourcegitcommit: 2b626a7924b4be08f6eb21181453b778e6fde418
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42353559"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "43047110"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---onedrive-for-business-usage"></a>관리 센터의 Microsoft 365 보고서-비즈니스용 OneDrive 사용 현황
 
@@ -35,7 +35,7 @@ Microsoft 365 **보고서** 대시보드에는 조직의 제품 전체에 대 �
 예를 들어 대시보드의 OneDrive 카드에서는 비즈니스용 OneDrive에서 가져오는 값(예: 총 파일 수 및 조직 전체를 통해 사용되는 저장소)을 대략적으로 볼 수 있습니다. 그런 다음 하위 수준을 표시하여 활성 OneDrive 계정의 추세, 사용자가 상호 작용 중인 파일 수 외에도 사용되는 저장소를 파악할 수 있습니다. 사용자의 OneDrive에 대한 세부 정보도 제공합니다.
   
 > [!NOTE]
-> 보고서를 보려면 Microsoft 365 또는 Exchange, SharePoint 또는 비즈니스용 Skype 관리자의 전역 관리자, 전역 독자 또는 보고서 독자 여야 합니다. 
+> 보고서를 보려면 Microsoft 365 또는 Exchange, SharePoint, 팀 서비스, 팀 통신 또는 비즈니스용 Skype 관리자의 전역 관리자, 전역 독자 또는 보고서 독자 여야 합니다.  
  
 ## <a name="how-do-i-get-to-the-onedrive-usage-report"></a>OneDrive 사용 현황 보고서에 액세스하려면 어떻게 하나요?
 

@@ -21,12 +21,12 @@ search.appverid:
 - ODB160
 ms.assetid: 8bbe4bf8-221b-46d6-99a5-2fb3c8ef9353
 description: 조직의 OneDrive 사용 현황 보고서를 가져오고 모든 OneDrive 사용자, 공유 된 파일 수 및 저장소 사용률의 활동을 파악 합니다.
-ms.openlocfilehash: b51071fe8c91b0064d6680b628b58df1f370c73d
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: b94e5e34f7599cc372b506c2c365503ea1334685
+ms.sourcegitcommit: 2b626a7924b4be08f6eb21181453b778e6fde418
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42353589"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "43047088"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---onedrive-for-business-activity"></a>관리 센터의 Microsoft 365 보고서-비즈니스용 OneDrive 활동
 
@@ -40,7 +40,7 @@ Microsoft 365 **보고서** 대시보드에는 조직의 제품 전체에 대 �
 각 OneDrive 계정과 관련하여 수행되는 활동의 양과 저장소 활용도를 파악하려면 [OneDrive 사용 보고서](onedrive-for-business-usage.md)를 참조하세요.
   
 > [!NOTE]
-> 보고서를 보려면 Microsoft 365 또는 Exchange, SharePoint 또는 비즈니스용 Skype 관리자의 전역 관리자, 전역 독자 또는 보고서 독자 여야 합니다. 
+> 보고서를 보려면 Microsoft 365 또는 Exchange, SharePoint, 팀 서비스, 팀 통신 또는 비즈니스용 Skype 관리자의 전역 관리자, 전역 독자 또는 보고서 독자 여야 합니다.  
  
 ## <a name="how-do-i-get-to-the-onedrive-activity-report"></a>OneDrive 활동 보고서에 액세스하려면 어떻게 하나요?
 

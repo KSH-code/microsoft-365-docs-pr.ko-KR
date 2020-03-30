@@ -18,12 +18,12 @@ search.appverid:
 - GEA150
 ms.assetid: 1cbe2c00-ca65-4fb9-9663-1bbfa58ebe44
 description: Microsoft 365 관리 센터에서 Microsoft 365 보고서 대시보드를 사용 하 여 Microsoft Forms 활동 보고서를 가져오는 방법을 알아봅니다.
-ms.openlocfilehash: 601e110719e4d69a647cfd55ecd4ae6db2568947
-ms.sourcegitcommit: 9a4084ce2b80bac883412e0ec956b6c0cc18d0f5
+ms.openlocfilehash: c836644f88fe635bfe608f57e015f06e9f815862
+ms.sourcegitcommit: 2b626a7924b4be08f6eb21181453b778e6fde418
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "42402324"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "43046942"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---forms-activity"></a>관리 센터의 Microsoft 365 보고서-양식 활동
 
@@ -32,7 +32,7 @@ Microsoft 365 **보고서** 대시보드에는 조직의 제품 전체에 대 �
 예를 들어 양식과의 상호 작용을 확인 하 여 Microsoft 양식을 사용 하도록 라이선스가 부여 된 모든 사용자의 작업을 이해할 수 있습니다. 또한 만들어진 양식 수와 사용자가 응답 한 양식을 확인 하 여 진행 중인 공동 작업의 수준을 이해 하는 데 도움이 됩니다.
   
 > [!NOTE]
-> 보고서를 보려면 Microsoft 365 또는 Exchange, SharePoint 또는 비즈니스용 Skype 관리자의 전역 관리자, 전역 독자 또는 보고서 독자 여야 합니다. 
+> 보고서를 보려면 Microsoft 365 또는 Exchange, SharePoint, 팀 서비스, 팀 통신 또는 비즈니스용 Skype 관리자의 전역 관리자, 전역 독자 또는 보고서 독자 여야 합니다. 
 
 ## <a name="how-to-get-to-the-forms-activity-report"></a>양식 활동 보고서에 액세스 하는 방법
 

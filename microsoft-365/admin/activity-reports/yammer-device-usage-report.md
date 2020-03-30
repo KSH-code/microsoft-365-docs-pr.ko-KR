@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 ms.assetid: b793ffdd-effa-43d0-849a-b1ca2e899f38
 description: 'Yammer 장치 사용 보고서를 다운로드 하 여 사용자가 Yammer를 사용 하는 장치에 대해 알 수 있습니다. '
-ms.openlocfilehash: 42fc4b1f9a4d782c50eabd892f6a49d1c474be01
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 1dfd72c8974aa10b3774d2cdb17ac1bf82b9501b
+ms.sourcegitcommit: 2b626a7924b4be08f6eb21181453b778e6fde418
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42353379"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "43047014"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---yammer-device-usage-report"></a>관리 센터의 Microsoft 365 보고서-Yammer 장치 사용 현황 보고서
 
@@ -31,7 +31,7 @@ Microsoft 365 **보고서** 대시보드에는 조직의 제품 전체에 대 �
 Yammer 장치 사용 현황 보고서는 사용자가 Yammer를 사용하는 장치에 대한 정보를 제공합니다. 장치 유형별로 일일 사용자 수 및 장치 유형별로 사용자 수를 볼 수 있습니다. 선택한 기간에 대해 이 두 정보를 모두 볼 수 있습니다. 사용자당 세부 정보도 볼 수 있습니다.
   
 > [!NOTE]
-> 보고서를 보려면 Microsoft 365 또는 Exchange, SharePoint 또는 비즈니스용 Skype 관리자의 전역 관리자, 전역 독자 또는 보고서 독자 여야 합니다. 
+> 보고서를 보려면 Microsoft 365 또는 Exchange, SharePoint, 팀 서비스, 팀 통신 또는 비즈니스용 Skype 관리자의 전역 관리자, 전역 독자 또는 보고서 독자 여야 합니다. 
   
 ## <a name="how-do-i-get-to-the-yammer-device-usage-report"></a>Yammer 장치 사용 현황 보고서에 액세스하려면 어떻게 하나요?
 

@@ -18,12 +18,12 @@ search.appverid:
 - GEA150
 ms.assetid: 1cbe2c00-ca65-4fb9-9663-1bbfa58ebe44
 description: Microsoft 365 관리 센터에서 Microsoft 365 보고서 대시보드를 사용 하 여 전자 메일 활동 보고서를 가져오는 방법을 알아봅니다.
-ms.openlocfilehash: 34cacd3a1c4682a53fdefd8f3fe26c38651676df
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 2cdf20014b04010e1912fbc41ec6f4ce61eaaca1
+ms.sourcegitcommit: 2b626a7924b4be08f6eb21181453b778e6fde418
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42353849"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "43046834"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---email-activity"></a>관리 센터의 Microsoft 365 보고서-전자 메일 활동
 
@@ -32,7 +32,7 @@ Microsoft 365 **보고서** 대시보드에는 조직의 제품 전체에 대 �
 예를 들어 보고서 페이지에서 조직 내의 전자 메일 트래픽을 개략적으로 본 다음, 조직 내 전자 메일 활동의 추세와 사용자 수준별 세부 정보를 이해하기 위해 전자 메일 활동 위젯을 표시할 수 있습니다.
   
 > [!NOTE]
-> 보고서를 보려면 Microsoft 365 또는 Exchange, SharePoint 또는 비즈니스용 Skype 관리자의 전역 관리자, 전역 독자 또는 보고서 독자 여야 합니다. 
+> 보고서를 보려면 Microsoft 365 또는 Exchange, SharePoint, 팀 서비스, 팀 통신 또는 비즈니스용 Skype 관리자의 전역 관리자, 전역 독자 또는 보고서 독자 여야 합니다. 
 
 ## <a name="how-to-get-to-the-email-activity-report"></a>전자 메일 활동 보고서에 액세스하는 방법
 

@@ -18,19 +18,19 @@ search.appverid:
 - GEA150
 ms.assetid: c2ce12a2-934f-4dd4-ba65-49b02be4703d
 description: Exchange Online에 연결 하는 전자 메일 앱 및 사용자가 사용 중인 Outlook 버전에 대 한 정보를 확인 하기 위해 전자 메일 앱 사용 현황 보고서를 가져오는 방법을 알아봅니다.
-ms.openlocfilehash: bb75b28e41de37d4f21acedd4705db71f6c2c303
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 5bdd62d150cf103cd3c3520cf5a0c593dceb8e66
+ms.sourcegitcommit: 2b626a7924b4be08f6eb21181453b778e6fde418
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42353789"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "43046858"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---email-apps-usage"></a>관리 센터의 Microsoft 365 보고서-전자 메일 앱 사용 현황
 
 Microsoft 365 **보고서** 대시보드에는 조직의 제품 전체에 대 한 활동 개요가 표시 됩니다. 보고서 대시보드를 통해 개별 제품 수준 보고서의 하위 수준을 표시하여 각 제품 내의 활동에 대한 더 세부화된 정보를 확인할 수 있습니다. [보고서 개요 항목](activity-reports.md)을 확인하세요. 전자 메일 앱 사용 보고서에서 Exchange Online에 연결 된 전자 메일 앱 수를 확인할 수 있습니다. 사용자가 사용하는 Outlook 앱의 버전 정보도 표시되며 이 정보를 확인하여 지원되지 않는 버전을 사용하는 사용자가 지원되는 버전의 Outlook을 설치할 수 있도록 조치할 수 있습니다.
   
 > [!NOTE]
-> 보고서를 보려면 Microsoft 365 또는 Exchange, SharePoint 또는 비즈니스용 Skype 관리자의 전역 관리자, 전역 독자 또는 보고서 독자 여야 합니다. 
+> 보고서를 보려면 Microsoft 365 또는 Exchange, SharePoint, 팀 서비스, 팀 통신 또는 비즈니스용 Skype 관리자의 전역 관리자, 전역 독자 또는 보고서 독자 여야 합니다.  
  
 ## <a name="how-to-get-to-the-email-apps-report"></a>전자 메일 앱 보고서에 액세스 하는 방법
 

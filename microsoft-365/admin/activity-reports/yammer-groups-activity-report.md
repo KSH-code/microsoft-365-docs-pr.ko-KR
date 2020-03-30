@@ -19,19 +19,19 @@ search.appverid:
 - MOE150
 ms.assetid: 94dd92ec-ea73-43c6-b51f-2a11fd78aa31
 description: Yammer 그룹 활동 보고서를 통해 조직에서 만들고 사용 하는 Yammer 그룹의 수와 해당 활동을 파악할 수 있습니다.
-ms.openlocfilehash: 69b9be1b6f632f0e6fa212e5be6209097ccb6669
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 117217f8dd275432342afd0381b39e93de23b92f
+ms.sourcegitcommit: 2b626a7924b4be08f6eb21181453b778e6fde418
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42353329"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "43047074"
 ---
 # <a name="office-365-reports-in-the-admin-center---yammer-groups-activity-report"></a>관리 센터의 Office 365 보고서-Yammer 그룹 활동 보고서
 
 Office 365 **보고서** 대시보드에는 조직의 제품 전체에 대 한 활동 개요가 표시 됩니다. 보고서 대시보드를 통해 개별 제품 수준 보고서의 하위 수준을 표시하여 각 제품 내의 활동에 대한 더 세부화된 정보를 확인할 수 있습니다. [보고서 개요 항목](activity-reports.md)을 확인하세요. Yammer 그룹 활동 보고서에서는 조직의 Yammer 그룹 활동을 파악하고, 만들어지고 사용되는 Yammer 그룹의 수를 확인할 수 있습니다.
   
 > [!NOTE]
-> 보고서를 보려면 Microsoft 365 또는 Exchange, SharePoint 또는 비즈니스용 Skype 관리자의 전역 관리자, 전역 독자 또는 보고서 독자 여야 합니다. 
+> 보고서를 보려면 Microsoft 365 또는 Exchange, SharePoint, 팀 서비스, 팀 통신 또는 비즈니스용 Skype 관리자의 전역 관리자, 전역 독자 또는 보고서 독자 여야 합니다.  
 
 ## <a name="how-to-get-to-the-yammer-groups-activity-report"></a>Yammer 그룹 활동 보고서에 액세스하는 방법
 

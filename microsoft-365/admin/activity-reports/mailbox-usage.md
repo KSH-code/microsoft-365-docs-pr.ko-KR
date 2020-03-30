@@ -18,19 +18,19 @@ search.appverid:
 - GEA150
 ms.assetid: beffbe01-ce2d-4614-9ae5-7898868e2729
 description: 사용자 사서함을 사용 하 여 사용자의 활동을 파악 하기 위해 사서함 사용 현황 보고서를 가져오는 방법을 알아봅니다.
-ms.openlocfilehash: d7d36359801fe72ac1c3ffc210c7795030f0b2e2
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 7453bf20949e04f07d74f6cf1df13e88de522b92
+ms.sourcegitcommit: 2b626a7924b4be08f6eb21181453b778e6fde418
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42245401"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "43046930"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---mailbox-usage"></a>관리 센터의 Microsoft 365 보고서-사서함 사용량
 
 **사서함 사용 현황 보고서** 에서는 사용자 사서함을 사용 하는 사용자에 대 한 정보와 전자 메일 보내기, 읽기/약속 만들기, 모임 참석, 모임 수락 및 모임 거절 작업을 기준으로 각각의 작업 수준을 제공 합니다. 또한 각 사용자 사서함에서 사용한 저장소의 양과 저장소 할당량에 가까워지고 있는 저장소 수에 대한 정보가 제공됩니다. 
   
 > [!NOTE]
-> 보고서를 보려면 Microsoft 365 또는 Exchange, SharePoint 또는 비즈니스용 Skype 관리자의 전역 관리자, 전역 독자 또는 보고서 독자 여야 합니다. 
+> 보고서를 보려면 Microsoft 365 또는 Exchange, SharePoint, 팀 서비스, 팀 통신 또는 비즈니스용 Skype 관리자의 전역 관리자, 전역 독자 또는 보고서 독자 여야 합니다. 
  
 ## <a name="how-to-get-to-the-mailbox-usage-report"></a>사서함 사용량 보고서에 액세스하는 방법
 
