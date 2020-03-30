@@ -1,5 +1,5 @@
 ---
-title: 집에서 작업을 지원 하기 위한 보안 팀의 상위 12 개 작업
+title: 집에서 작업을 지원 하기 위한 보안 팀을 위한 상위 12 개 작업
 f1.keywords:
 - CSH
 ms.author: bcarter
@@ -12,12 +12,12 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: '랜 섬 웨어, 피싱 및 악의적 첨부 파일을 포함 하 여 사이버 위협 으로부터 비즈니스 전자 메일 및 데이터를 보호 합니다. '
-ms.openlocfilehash: 73f2ae19a7424d392bb365d7a24a83532a1950bf
-ms.sourcegitcommit: 37f17c918208b83fc04ba92e986e0a7548d4c38d
+ms.openlocfilehash: b675f8abc5487dcb08324795fb1d6cc3b91592a1
+ms.sourcegitcommit: 71612ef8f2f93063c2a070e8a079506362f54c58
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 03/29/2020
-ms.locfileid: "43036391"
+ms.locfileid: "43037479"
 ---
 # <a name="top-12-tasks-for-security-teams-to-support-working-from-home"></a>집에서 작업을 지원 하기 위한 보안 팀을 위한 상위 12 개 작업
 
@@ -116,7 +116,7 @@ Exchange Online 관리자 및 SharePoint Online 관리자와 협력 하 여 이�
 Office 365 ATP 및 Azure ATP가 구성 되었으므로 한 대시보드에서 이러한 기능 으로부터 결합 된 신호를 볼 수 있습니다. MTP ( [Microsoft Threat Protection](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-threat-protection) )는 작업 (Azure Atp, OFFICE 365 ATP, MICROSOFT Defender ATP 및 Microsoft Cloud App Security)에서 경고, 문제, 자동화 된 조사 및 응답을 함께 제공 하며 [security.microsoft.com](https://security.microsoft.com)에서 단일 창으로 진행 됩니다. 
 <br>
 
-![MTP 대시보드 그림](../media/top-10-security-remote-work-mtp-dashboard.png)
+![MTP 대시보드 그림](../media/top-ten-security-remote-work-mtp-dashboard.png)
 <br><br>
 Advanced threat protection 서비스를 하나 이상 구성한 후에 MTP를 켜십시오. 새 기능은 MTP에 계속적으로 추가 됩니다. 미리 보기 기능을 받으려면 옵트인을 고려 하세요.
 
@@ -128,7 +128,7 @@ Advanced threat protection 서비스를 하나 이상 구성한 후에 MTP를 �
 ## <a name="6-configure-intune-mobile-app-protection-for-phones-and-tablets"></a>6: 휴대폰 및 태블릿에서 Intune 모바일 앱 보호 구성
 
 Microsoft Intune MAM (모바일 응용 프로그램 관리)를 사용 하면 이러한 장치를 관리 하지 않고도 휴대폰 및 태블릿에서 조직의 데이터를 관리 하 고 보호할 수 있습니다. 작동 방식은 다음과 같습니다.
-- 장치에서 관리 되는 앱과 허용 되는 동작을 결정 하는 앱 (앱 보호 정책) (예: 관리 되는 앱의 데이터를 관리 되지 않는 앱에 복사 하는 것을 막는 작업)을 만듭니다. 각 platorm (iOS, Android)에 대해 하나의 정책을 만듭니다.
+- 장치에서 관리 되는 앱을 결정 하는 앱 (앱 보호 정책)과 관리 되는 응용 프로그램의 데이터가 관리 되지 않는 앱에 복사 되는 것을 방지 하는 것과 같은 허용 되는 동작을 만듭니다. 각 platorm (iOS, Android)에 대해 하나의 정책을 만듭니다.
 - 앱 보호 정책을 만든 후에는 승인 된 앱 및 앱 데이터 보호를 요구 하도록 Azure AD에서 조건부 액세스 규칙을 만들어이를 적용 합니다.
 
 앱 보호 정책에는 여러 설정이 포함 됩니다. 다행히도, 모든 설정에 대 한 정보를 파악 하 고 옵션을 평가 하지 않아도 됩니다. Microsoft는 시작 지점을 추천 하 여 설정 구성을 쉽게 적용할 수 있도록 합니다. [앱 보호 정책을 사용 하는 데이터 보호 프레임 워크](https://docs.microsoft.com/mem/intune/apps/app-protection-framework) 에는 세 가지 수준 중에서 선택할 수 있습니다. 
@@ -181,7 +181,7 @@ VPN 집중 장치, 중앙 네트워크 송신 장비 (예: 프록시 및 데이�
 
 자세한 내용은 문서에서 다음 리소스를 참조 하세요.
 - [개요: VPN 분할 tunnelling을 사용 하 여 원격 사용자에 대 한 Office 365 연결 최적화](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
-- [Office 365에 대 한 VPN 분할 tunnelling 구현](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-implement-split-tunnel)
+- [Office 365 VPN 분할 터널링 구현](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-implement-split-tunnel)
 
 이 항목에 대 한 최신 블로그 문서:
 - [원격 직원에 대 한 Office 365 트래픽을 빠르게 최적화 하 & 인프라의 부하를 줄이려면 어떻게 해야 합니까?](https://techcommunity.microsoft.com/t5/office-365-blog/how-to-quickly-optimize-office-365-traffic-for-remote-staff-amp/ba-p/1214571#)
