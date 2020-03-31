@@ -14,12 +14,12 @@ ms.collection: M365-security-compliance
 ms.custom: Ent_TLGs
 ms.assetid: 1aa9639b-2862-49c4-bc33-1586dda636b8
 description: 이 테스트 랩 가이드를 사용 하 여 microsoft 365 Enterprise Test environment 추가 Microsoft 365 보안 설정을 사용 하도록 설정 합니다.
-ms.openlocfilehash: 465e9df40e8dfe9883a81d352eabff17151df8f3
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 166388de138f5268eb29b8a427bad61ec6ab7cda
+ms.sourcegitcommit: 2c4dfce178695a99bbdf1468f072cc1f94f6915b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42067265"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "43058884"
 ---
 # <a name="increased-microsoft-365-security-for-your-microsoft-365-enterprise-test-environment"></a>Microsoft 365 Enterprise 테스트 환경에 대 한 Microsoft 365 보안이 향상 되었습니다.
 
@@ -56,7 +56,7 @@ ms.locfileid: "42067265"
   - 시뮬레이트된 엔터프라이즈 Microsoft 365 테스트 환경을 사용 하는 경우 [Azure portal](https://portal.azure.com) 을 사용 하 여 client1 가상 컴퓨터에 연결한 다음 client1에서 로그인 합니다.
  
 2. 새 **Microsoft 365 관리 센터** 탭의 왼쪽 탐색 창에 있는 **관리 센터** 에서 **SharePoint**를 클릭 합니다.
-3. 새 **SharePoint 관리 센터** 탭에서 **액세스 제어**를 클릭 합니다.
+3. 새 **SharePoint 관리 센터** 탭에서 **정책 > 액세스 제어**를 클릭 합니다.
 4. **최신 인증을 지원 하지 않는 앱**을 클릭 하 고 **액세스 차단을**선택한 다음 **저장**을 클릭 합니다.
 
 

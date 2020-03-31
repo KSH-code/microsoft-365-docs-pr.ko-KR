@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 관리자는 Office 365 보안 & 준수 센터에서 제공 되는 사용 권한에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: e45a9b369e127ca29de23f308f2d28808571cc42
-ms.sourcegitcommit: cc3b64a91e16ccdaa9c338b9a9056dbe3963ba9e
+ms.openlocfilehash: b74537dfdbb7447b29d7ad0c0e0d8f8ff3e15c08
+ms.sourcegitcommit: 2c4dfce178695a99bbdf1468f072cc1f94f6915b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42569062"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "43058930"
 ---
 # <a name="permissions-in-the-office-365-security--compliance-center"></a>Office 365 보안 및 준수 센터의 사용 권한
 
@@ -42,8 +42,6 @@ Office 365 보안 & 준수 센터를 사용 하면 장치 관리, 데이터 손�
 
 ![역할 그룹에 역할 및 멤버의 관계를 보여 주는 다이어그램](../../media/2a16d200-968c-4755-98ec-f1862d58cb8b.png)
 
-기존 역할 그룹을 편집 하거나 삭제할 수는 있지만이 방법을 권장 하지는 않습니다. 기본 역할 그룹을 편집하는 대신, 복사하고, 수정한 후 다른 이름으로 저장할 수 있습니다.
-
 ## <a name="permissions-needed-to-use-features-in-the-security--compliance-center"></a>보안 & 준수 센터의 기능을 사용 하는 데 필요한 사용 권한
 
 다음 표에서는 보안 & 준수 센터에서 사용할 수 있는 기본 역할 그룹 및 역할 그룹에 기본적으로 할당 되는 역할을 보여 줍니다. 준수 작업을 수행할 수 있는 권한을 사용자에 게 부여 하려면 해당 보안 & 준수 센터 역할 그룹에 추가 합니다.
@@ -56,8 +54,8 @@ Office 365 보안 & 준수 센터를 사용 하면 장치 관리, 데이터 손�
 |:-----|:-----|:-----|
 |**준수 관리자**<sup>1</sup>|구성원은 장치 관리, 데이터 손실 방지, 보고서 및 보존에 대 한 설정을 관리할 수 있습니다.|사례 관리 <br/><br/> 준수 관리자 <br/><br/> 규격 검색 <br/><br/> DLP 준수 관리 <br/><br/> 장치 관리 <br/><br/> 처리 관리 <br/><br/> Hold <br/><br/> IB 준수 관리 <br/><br/> 알림 관리 <br/><br/> 조직 구성 <br/><br/> RecordManagement <br/><br/> 보존 관리 <br/><br/> 보기 전용 감사 로그 <br/><br/> 보기 전용 보존 관리 <br/><br/> 보기 전용 DLP 준수 관리 <br/><br/> 보기 전용 장치 관리 <br/><br/> 보기 전용 IB 준수 관리 <br/><br/> 보기 전용 알림 관리 <br/><br/> 보기 전용 받는 사람 <br/><br/> 보기 전용 레코드 관리|
 |**준수 데이터 관리자**|구성원은 장치 관리, 데이터 보호, 데이터 손실 방지, 보고서 및 보존에 대 한 설정을 관리할 수 있습니다.|준수 관리자 <br/><br/> 규격 검색 <br/><br/> DLP 준수 관리 <br/><br/> 장치 관리 <br/><br/> 처리 관리 <br/><br/> IB 준수 관리 <br/><br/> 알림 관리 <br/><br/> 조직 구성 <br/><br/> RecordManagement <br/><br/> 보존 관리 <br/><br/> 민감도 레이블 관리자 <br/><br/> 보기 전용 감사 로그 <br/><br/> 보기 전용 DLP 준수 관리 <br/><br/> 보기 전용 장치 관리 <br/><br/> 보기 전용 IB 준수 관리 <br/><br/> 보기 전용 알림 관리 <br/><br/> 보기 전용 받는 사람 <br/><br/> 보기 전용 레코드 관리 <br/><br/> 보기 전용 보존 관리|
-|**데이터 Investigator**|구성원은 사서함, SharePoint 사이트 및 OneDrive 계정에 대 한 검색을 수행할 수 있습니다.|커뮤니케이션 <br/><br/> 규격 검색 <br/><br/> Custodian <br/><br/> 데이터 조사 관리 <br/><br/> 내보내기<br/><br/> 미리 보기 <br/><br/> RMS 암호 해독 <br/><br/> Review<br/><br/> 검색 및 제거|
-|**eDiscovery 관리자(Manager)**|구성원은 사서함, SharePoint Online 사이트 및 비즈니스용 OneDrive 위치에서 검색을 수행하고 원본 위치를 유지할 수 있습니다. 또한 구성원은 eDiscovery 사례를 만들고 관리 하 고, 사례에 구성원을 추가 및 제거 하 고, 사례와 연결 된 콘텐츠 검색을 만들고 편집 하 고, Office 365 Advanced eDiscovery에서 사례 데이터에 액세스할 수 있습니다. <br/><br/> eDiscovery 관리자는 추가 사용 권한이 할당된 eDiscovery 관리자 역할 그룹의 구성원입니다. Ediscovery 관리자가 수행할 수 있는 작업 외에 다음과 같은 방법을 사용할 수 있습니다. <br/>* 조직의 모든 eDiscovery 사례를 확인 합니다. <br/>* 사례를 대/소문자 구성원으로 추가한 후 eDiscovery 사례를 관리 합니다. <br/><br/> Ediscovery 관리자와 eDiscovery 관리자의 주요 차이점은 eDiscovery 관리자가 보안 & 준수 센터의 **ediscovery 사례** 페이지에 나열 된 모든 경우에 액세스할 수 있다는 것입니다. EDiscovery 관리자는 자신이 만들었거나 사례를 구성원으로 사용 하는 경우에만 액세스할 수 있습니다. 사용자를 eDiscovery 관리자로 설정 하는 방법에 대 한 자세한 내용은 [Office 365 보안 & 준수 센터에서 ediscovery 사용 권한 할당](../../compliance/assign-ediscovery-permissions.md)을 참조 하십시오.|사례 관리 <br/><br/> 커뮤니케이션 <br/><br/> 규격 검색 <br/><br/> Custodian <br/><br/> 내보내기 <br/><br/> Hold <br/><br/> 미리 보기 <br/><br/> RMS 암호 해독 <br/><br/> Review|
+|**데이터 Investigator**|구성원은 사서함, SharePoint 사이트 및 OneDrive 계정에 대 한 검색을 수행할 수 있습니다.|통신 <br/><br/> 규격 검색 <br/><br/> Custodian <br/><br/> 데이터 조사 관리 <br/><br/> 내보내기<br/><br/> 미리 보기 <br/><br/> RMS 암호 해독 <br/><br/> Review<br/><br/> 검색 및 제거|
+|**eDiscovery 관리자(Manager)**|구성원은 사서함, SharePoint Online 사이트 및 비즈니스용 OneDrive 위치에서 검색을 수행하고 원본 위치를 유지할 수 있습니다. 또한 구성원은 eDiscovery 사례를 만들고 관리 하 고, 사례에 구성원을 추가 및 제거 하 고, 사례와 연결 된 콘텐츠 검색을 만들고 편집 하 고, Office 365 Advanced eDiscovery에서 사례 데이터에 액세스할 수 있습니다. <br/><br/> eDiscovery 관리자는 추가 사용 권한이 할당된 eDiscovery 관리자 역할 그룹의 구성원입니다. Ediscovery 관리자가 수행할 수 있는 작업 외에 다음과 같은 방법을 사용할 수 있습니다. <br/>* 조직의 모든 eDiscovery 사례를 확인 합니다. <br/>* 사례를 대/소문자 구성원으로 추가한 후 eDiscovery 사례를 관리 합니다. <br/><br/> Ediscovery 관리자와 eDiscovery 관리자의 주요 차이점은 eDiscovery 관리자가 보안 & 준수 센터의 **ediscovery 사례** 페이지에 나열 된 모든 경우에 액세스할 수 있다는 것입니다. EDiscovery 관리자는 자신이 만들었거나 사례를 구성원으로 사용 하는 경우에만 액세스할 수 있습니다. 사용자를 eDiscovery 관리자로 설정 하는 방법에 대 한 자세한 내용은 [Office 365 보안 & 준수 센터에서 ediscovery 사용 권한 할당](../../compliance/assign-ediscovery-permissions.md)을 참조 하십시오.|사례 관리 <br/><br/> 통신 <br/><br/> 규격 검색 <br/><br/> Custodian <br/><br/> 내보내기 <br/><br/> Hold <br/><br/> 미리 보기 <br/><br/> RMS 암호 해독 <br/><br/> Review|
 |**전역 독자**|구성원은 보고서 및 경고에 대 한 읽기 전용 액세스 권한을 가지 며 모든 구성 및 설정을 볼 수 있습니다.<br/><br/> 전역 읽기 권한자와 보안 판독기의 주요 차이점은 전역 판독기가 **구성 및 설정**에 액세스할 수 있다는 것입니다.|보안 읽기 권한자 <br/><br/> 민감도 레이블 판독기 <br/><br/> 서비스 보증 보기 <br/><br/> 보기 전용 감사 로그 <br/><br/> 보기 전용 DLP 준수 관리 <br/><br/> 보기 전용 장치 관리 <br/><br/> 보기 전용 IB 준수 관리 <br/><br/> 보기 전용 알림 관리 <br/><br/> 보기 전용 받는 사람 <br/><br/> 보기 전용 레코드 관리 <br/><br/> 보기 전용 보존 관리|
 |**메일 흐름 관리자**|구성원은 보안 & 준수 센터에서 메일 흐름 정보 및 보고서를 모니터링 하 고 확인할 수 있습니다. 전역 관리자는이 그룹에 일반 사용자를 추가할 수 있지만 사용자가 Exchange 관리 그룹의 구성원이 아닌 경우에는 Exchange 관리자와 관련 된 작업에 액세스 하지 못합니다.|보기 전용 받는 사람|
 |**조직 관리**<sup>1</sup>|구성원은 보안 & 준수 센터에서 기능에 액세스 하기 위한 권한을 제어 하 고 장치 관리, 데이터 손실 방지, 보고서 및 보존에 대 한 설정도 관리할 수 있습니다. <br/><br/> 전역 관리자가 아닌 사용자가 365 Office * 용 MDM에서 관리 되는 장치 목록을 확인 하 고 이러한 장치에 대 한 작업을 수행 하는 경우 (예: Office 365 용 MDM에서 장치를 사용 하지 않도록 설정한 경우) 사용자는 Exchange 관리자 여야 합니다. <br/><br/> Office 365 전역 관리자는이 역할 그룹의 구성원으로 자동 추가 됩니다.|감사 로그 <br/><br/> 사례 관리 <br/><br/> 준수 관리자 <br/><br/> 규격 검색 <br/><br/> DLP 준수 관리 <br/><br/> 장치 관리 <br/><br/> 처리 관리 <br/><br/> Hold <br/><br/> IB 준수 관리 <br/><br/> 알림 관리 <br/><br/> 조직 구성 <br/><br/> 격리 <br/><br/> RecordManagement <br/><br/> 보존 관리 <br/><br/> 역할 관리 <br/><br/> 검색 및 제거 <br/><br/> 보안 관리자 <br/><br/> 보안 읽기 권한자 <br/><br/> 민감도 레이블 관리자 <br/><br/> 민감도 레이블 판독기 <br/><br/> 서비스 보증 보기 <br/><br/> 보기 전용 감사 로그 <br/><br/> 보기 전용 DLP 준수 관리 <br/><br/> 보기 전용 장치 관리 <br/><br/> 보기 전용 IB 준수 관리 <br/><br/> 보기 전용 알림 관리 <br/><br/> 보기 전용 받는 사람 <br/><br/> 보기 전용 레코드 관리 <br/><br/> 보기 전용 보존 관리|
@@ -79,7 +77,7 @@ Office 365 보안 & 준수 센터를 사용 하면 장치 관리, 데이터 손�
 
 기본적으로 조직 관리 역할 그룹에는 다음 역할이 할당 되지 않습니다.
 
-- 커뮤니케이션
+- 통신
 
 - Custodian
 
@@ -99,7 +97,7 @@ Office 365 보안 & 준수 센터를 사용 하면 장치 관리, 데이터 손�
 |:-----|:-----|:-----|
 |**감사 로그**|Office 365 조 직에 대 한 감사를 설정 및 구성 하 고 조직의 감사 보고서를 본 다음 해당 보고서를 파일로 내보냅니다.|조직 관리 <br/><br/> 레코드 관리 <br/><br/> 보안 관리자|
 |**사례 관리**|EDiscovery 사례에 대 한 액세스를 만들고, 편집 하 고, 삭제 하 고, 제어 합니다.|준수 관리자 <br/><br/> eDiscovery 관리자 <br/><br/> 조직 관리|
-|**커뮤니케이션**|고급 eDiscovery 사례에서 식별 된 custodians를 사용 하 여 모든 통신을 관리 합니다.  보존 알림, 유지 미리 알림 및 관리로의 에스컬레이션을 만들 수 있습니다. 보존 알림의 custodian 확인을 추적 하 고 custodian로 식별 된 경우의 통신을 추적 하기 위해 각 custodian에서 사용 하는 custodian 포털에 대 한 액세스를 관리 합니다.|eDiscovery 관리자|
+|**통신**|고급 eDiscovery 사례에서 식별 된 custodians를 사용 하 여 모든 통신을 관리 합니다.  보존 알림, 유지 미리 알림 및 관리로의 에스컬레이션을 만들 수 있습니다. 보존 알림의 custodian 확인을 추적 하 고 custodian로 식별 된 경우의 통신을 추적 하기 위해 각 custodian에서 사용 하는 custodian 포털에 대 한 액세스를 관리 합니다.|eDiscovery 관리자|
 |**준수 관리자**|규정 준수 기능에 대 한 설정 및 보고서를 보고 편집 합니다.|준수 관리자 <br/><br/> 준수 데이터 관리자 <br/><br/> 조직 관리|
 |**규격 검색**|사서함에서 검색을 수행 하 고 결과를 추정 합니다.|준수 관리자 <br/><br/> 준수 데이터 관리자 <br/><br/> eDiscovery 관리자 <br/><br/> 조직 관리 <br/><br/> 보안 운영자|
 |**Custodian**|Advanced eDiscovery 사례에 대 한 custodians를 식별 및 관리 하 고, Azure Active Directory 및 기타 원본의 정보를 사용 하 여 custodians와 연결 된 데이터 원본을 찾습니다. 사서함, SharePoint 사이트 및 팀과 같은 다른 데이터 원본을 사례에 custodians 연결 합니다.  Custodians와 연결 된 데이터 원본을 법적으로 유지 하 여 사례 컨텍스트에서 콘텐츠를 보존 합니다.|eDiscovery 관리자|

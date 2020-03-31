@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: Microsoft 365 for enterprise의 구성 요소, 계획 및 배포 경로에 대해 소개 합니다.
-ms.openlocfilehash: 01c5eac2c1ad90bfaa189c26fa4997a1bd2fc10e
-ms.sourcegitcommit: 6adfcf042e64b21f09f2b8e072e8eba6d3479e31
+ms.openlocfilehash: 1e902d1ca0eb80a7588a9b4060a41183f5a5db24
+ms.sourcegitcommit: 144c0f3c2c6112bffc5a9b04392a38123a979ebc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2020
-ms.locfileid: "42951997"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "43053098"
 ---
 # <a name="microsoft-365-for-enterprise-overview"></a>엔터프라이즈용 Microsoft 365 개요
 
@@ -84,11 +84,11 @@ Microsoft 365 E3이 있는 경우 다음 [제품](https://www.microsoft.com/micr
 
 ## <a name="avoid-end-of-support-for-windows-7-and-office-2010-clients-and-servers"></a>Windows 7 및 Office 2010 클라이언트 및 서버에 대 한 지원 종료 방지
 
-다음 제품은 **2020 년 1 월 14**일에 대 한 지원 종료에 도달 했습니다.
+다음 제품은 **2020 년 1 월 14 일**에 대 한 지원 종료에 도달 했습니다.
 
 - [Windows 7](https://aka.ms/win7upgrade)
 
-다음 제품은 **2020 년 10 월 13 일**에 지원 종료에 도달 했습니다.
+다음 제품은 **2020 년 10 월 13 일**에 지원 종료에 도달 합니다.
 
 - [Office 2010](https://docs.microsoft.com/DeployOffice/office-2010-end-support-roadmap)
 - [Exchange Server 2010](https://docs.microsoft.com/office365/enterprise/exchange-2010-end-of-support)
