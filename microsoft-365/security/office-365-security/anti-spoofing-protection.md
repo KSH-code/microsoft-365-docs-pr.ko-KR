@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: TopSMBIssues
 localization_priority: Priority
 description: 이 문서에서는 Office 365가 위조된 보낸 사람 도메인, 즉 스푸핑된 도메인을 사용하는 피싱 공격을 줄이는 방법에 대해 설명합니다. 표준 전자 메일 인증 방법이나 다른 보낸 사람 신뢰도 기술을 사용하지 않고 메시지를 분석하고 인증할 수 있는 메시지를 차단하여 이 작업을 수행합니다. 이 변경 사항은 Office 365의 조직이 피싱 공격에 노출된 수를 줄이기 위해 구현되었습니다.
-ms.openlocfilehash: 9e1a4cf31c2565eeb6be53b5c43bda0154f9ea6f
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: a81c22d83e0a476657aa89823e52d3eb6afc4514
+ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42894141"
+ms.lasthandoff: 03/28/2020
+ms.locfileid: "43033485"
 ---
 # <a name="anti-spoofing-protection-in-office-365"></a>Office 365의 스푸핑 방지 보호 기능
 
@@ -631,7 +631,7 @@ Microsoft 자체는 처음에 다른 고객들에게 배포하기 몇 주 전에
 
 ### <a name="how-can-i-report-spam-or-non-spam-messages-back-to-microsoft"></a>스팸 또는 비스팸 메시지를 Microsoft에 다시 보고하려면 어떻게 합니까?
 
-[Outlook용 보고서 메시지 추가 기능](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2)을 사용하거나 이것이 설치되어 있지 않은 경우 [분석용 Microsoft에 스팸, 스팸 방지 및 피싱 사기 메시지를 제출](submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md)할 수 있습니다.
+[Microsoft에 메시지와 파일 보고](report-junk-email-messages-to-microsoft.md)를 참조하세요.
 
 ### <a name="im-a-domain-administrator-who-doesnt-know-who-all-my-senders-are"></a>저는 도메인 관리자이고 나의 보낸 사람을 모두 다 알지 못합니다.
 
