@@ -1,7 +1,7 @@
 ---
 title: 미국 보안 (DoD) Provisional 권한 부여
 description: Microsoft에서 영향 수준 5, 4 및 2에 DoD (수준 보안) Provisional 권한 부여를 받았습니다.
-keywords: Microsoft 365, 규정 준수, 제품
+keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 0cd96d9b7d769f75d5b7f26bb364cf517844e29d
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: bfcad9829c32a7a4f91e4d7dee7dec922059cd18
+ms.sourcegitcommit: 397b22cea138cadef026128d878650f8f609a329
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602525"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "43068576"
 ---
 # <a name="us-department-of-defense-dod-provisional-authorization-at-impact-levels-2-4-and-5"></a>보안 수준 2, 4 및 5에서 DoD (US) Provisional 권한 부여
 
@@ -35,8 +35,8 @@ DoD Cloud Service Support는 SRG에서 정책, 보안 제어 및 기타 요구 �
 
 Microsoft의 정부 클라우드 서비스는 미국 방어 기관에서 Microsoft 클라우드의 비용 절감 및 엄격한 보안 이점을 활용할 수 있도록, 영향 수준 2 ~ 5 로부터 미국 방어의 까다로운 요구 사항을 충족 합니다. 방어 기관은 Azure 정부, Office 365 미국 정부 및 Dynamics 365 정부를 포함 하는 보호 된 서비스를 배포 하 여 다양 한 준수 서비스를 사용할 수 있습니다.
 
-- Microsoft 클라우드에서 DoD DISA L2, L4, L5의 장점에 대 한 자세한 내용은 [방어 부서 DISA을 다운로드](https://aka.ms/disa-backgrounder) 하세요. Backgrounder
-- Azure 보안 및 준수 청사진을 사용 하 여 DoD DISA L2, L4, L5 배포를 가속화 하는 방법을 알아봅니다. [Azure DoD 수준 5 보안 제어 구현 다운로드](https://servicetrust.microsoft.com/ViewPage/Blueprint?command=Download&downloadType=Document&downloadId=e391da04-ae17-472c-9634-959c5ce6ba92&docTab=fc060920-cdb8-11e7-bacf-0bf52b09d912_DoD%20Blueprint)
+- Microsoft 클라우드에서 L4를 통한 DoD (DISA L2 [)의 장점](https://aka.ms/disa-backgrounder) 에 대해 알아봅니다.
+- [Azure Dod 청사진](https://docs.microsoft.com/azure/governance/blueprints/samples/dod-impact-level-4/) 을 사용 하 여 DoD DISA L2, L4 배포를 가속화 하는 방법을 알아봅니다.
 
 ## <a name="dod-impact-level-5-provisional-authorization"></a>DoD 영향 수준 5 Provisional 권한 부여
 
@@ -83,17 +83,17 @@ DoD PA가 부여 되 면 Microsoft 클라우드 서비스를 매년 모니터링
 
 ## <a name="fast-track-your-deployment-of-dod-solutions-on-azure"></a>Azure에서 DoD 솔루션 배포의 빠른 추적
 
-심층적인 보호 청사진의 Azure 보안 및 준수 부서와 함께 정부 클라우드의 이점을 활용할 수 있는 방법을 알아봅니다. 이 청사진에서는 현재 DoD 규격 솔루션을 구축할 수 있는 도구와 지침을 제공 합니다. [Azure DoD 청사진 사용을 시작](https://aka.ms/Azure-Blueprint-DoD-NIST)합니다.
+심층적인 보호 청사진의 Azure 보안 및 준수 부서와 함께 정부 클라우드의 이점을 활용할 수 있는 방법을 알아봅니다. 이 청사진에서는 현재 DoD 규격 솔루션을 구축할 수 있는 도구와 지침을 제공 합니다. [Azure DoD 청사진 사용을 시작](https://docs.microsoft.com/azure/governance/blueprints/samples/dod-impact-level-4/)합니다.
 
-## <a name="frequently-asked-questions"></a>자주하는 질문
+## <a name="frequently-asked-questions"></a>질문과 대답
 
-**우리 회사의 인증 프로세스에 Microsoft의 규정 준수를 사용할 수 있나요?**
+**조직의 인증 프로세스에서 Microsoft의 준수를 사용할 수 있나요?**
 
 예. 모든 DoD 기관은 DoD 인증을 필요로 하는 모든 프로그램 또는 이니셔티브의 기반으로 Microsoft 클라우드 서비스의 인증을 사용할 수 있습니다. (이는 DoD를 지 원하는 다른 조직에도 적용 되며 클라우드 서비스가 필요 합니다.) 그러나 이러한 서비스 외부의 구성 요소에 대 한 사용자의 권한 부여를 구현 해야 합니다.
 
 **Microsoft의 DoD 인증은 NIST 800-171 요구 사항을 충족 하나요?**
 
-2016 년 10 월, 보안 (DoD) promulgated는 "포함 된 방어 정보"를 처리, 저장 또는 전송 하는 모든 DoD 계약자에 게 적용 되는 DFARS (방어 연방 획득 규정 보완) 절을 구현 하는 최종 규칙입니다. 정보 시스템 이 규칙은 이러한 시스템이 NIST SP 800-171에서 설정 된 보안 요구 사항을 충족 해야 하며, 관리 되지 않는 [정보 시스템 및 조직에서 제어 된 분류](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-171.pdf)되지 않은 정보를 보호 하는 경우, 또는 DoD 계약 관리자가 승인한 "대안 및 실제 보안 조치"를 의미 합니다. 또한 DoD 계약자가 외부 클라우드 서비스 공급자를 사용 하 여 특정 방어 정보를 처리, 저장 또는 전송 하는 경우 해당 공급자는 FedRAMP 보통 기준선에 해당 하는 보안 요구 사항을 충족 해야 합니다.
+2016 년 10 월, 보안 (DoD) promulgated는 해당 정보 시스템을 통해 "포함 된 방어 정보"를 처리, 저장 또는 전송 하는 모든 DoD 계약자에 게 적용 되는 DFARS (방어 연방 획득 규정 보완) 절을 구현 하는 최종 규칙을 수행 합니다. 이 규칙은 이러한 시스템이 NIST SP 800-171에서 설정 된 보안 요구 사항을 충족 해야 하며, 관리 되지 않는 [정보 시스템 및 조직에서 제어 된 분류](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-171.pdf)되지 않은 정보를 보호 하는 경우, 또는 DoD 계약 관리자가 승인한 "대안 및 실제 보안 조치"를 의미 합니다. 또한 DoD 계약자가 외부 클라우드 서비스 공급자를 사용 하 여 특정 방어 정보를 처리, 저장 또는 전송 하는 경우 해당 공급자는 FedRAMP 보통 기준선에 해당 하는 보안 요구 사항을 충족 해야 합니다.
 
 다음 Microsoft 클라우드 서비스는 FedRAMP 일반 인증 (Azure, Azure 정부, Dynamics 365 미국 정부, Office 365 MT, Office 365 미국 정부 및 Office 365 미국 정부 방어를 수신 했습니다.
 
