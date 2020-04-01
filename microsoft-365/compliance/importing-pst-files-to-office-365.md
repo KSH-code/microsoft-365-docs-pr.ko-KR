@@ -18,12 +18,12 @@ ms.collection:
 search.appverid: MET150
 ms.assetid: ba688e0a-0fcb-4bd7-8e57-2b669564ea84
 description: '관리자용: 보안 & 준수 센터에서 가져오기 서비스를 사용하여 Exchange Online의 전자 메일 데이터 (PST 파일)를 사용자 사서함으로 한 번에 대량으로 가져오는 방법에 대해 알아보세요. 이 항목에서는 FAQ를 제공하고 PST 가져 오기 프로세스가 어떻게 작동하는지 설명합니다.'
-ms.openlocfilehash: 94681af376d7c9ae32bdd2cbbb2a28da464712c1
-ms.sourcegitcommit: 1c445d68e54ca4249024ca4bb72460dd6fac0a2d
+ms.openlocfilehash: 2d28889f6cba782b5b9ee70b0fb17cff6ca911a2
+ms.sourcegitcommit: 2c4dfce178695a99bbdf1468f072cc1f94f6915b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42170548"
+ms.lasthandoff: 03/30/2020
+ms.locfileid: "43058941"
 ---
 # <a name="overview-of-importing-your-organizations-pst-files-to-office-365"></a>조직의 PST 파일을 Office 365로 가져오기 개요
 
@@ -174,6 +174,10 @@ PST 파일 형식의 버전은 두 가지로, ANSI와 유니코드입니다. 유
   
 다른 PST 파일을 다른 대상 사서함으로 가져오는 경우 가져오기 프로세스가 동시에 수행됩니다. 즉, 각 PST/사서함 쌍을 동시에 가져올 수 있습니다. 마찬가지로, 여러 PST 파일을 같은 사서함으로 동시에 가져올 수 있습니다.
   
+ **PST 가져오기 프로세스는 중복 전자 메일 항목을 어떻게 처리합니까?**
+
+PST 가져오기 프로세스는 중복 항목을 확인하고 대상 사서함 또는 대상 아카이브의 대상 폴더에 일치하는 항목이 있는 경우 PST 파일에서 사서함 또는 아카이브로 항목을 복사하지 않습니다. 동일한 PST 파일을 다시 가져오고 이전 가져오기 작업에서 지정한 폴더와 다른 대상 폴더(PST 가져오기 매핑 파일의 TargetRootFolder 속성을 사용하여)를 지정하면 PST 파일의 모든 항목을 다시 가져옵니다.
+ 
  **PST 파일을 가져올 때 메시지 크기가 제한되나요?**
   
 예. PST 파일이 150MB보다 큰 사서함을 포함한 경우 항목은 가져오기 프로세스 중에 건너뜁니다.
@@ -271,6 +275,10 @@ PST 파일 형식의 버전은 두 가지로, ANSI와 유니코드입니다. 유
   
 예. PST 파일이 150MB보다 큰 사서함을 포함한 경우 항목은 가져오기 프로세스 중에 건너뜁니다.
   
+  **PST 가져오기 프로세스는 중복 전자 메일 항목을 어떻게 처리합니까?**
+
+PST 가져오기 프로세스는 중복 항목을 확인하고 대상 사서함 또는 대상 아카이브의 대상 폴더에 일치하는 항목이 있는 경우 PST 파일에서 사서함 또는 아카이브로 항목을 복사하지 않습니다. 동일한 PST 파일을 다시 가져오고 이전 가져오기 작업에서 지정한 폴더와 다른 대상 폴더(PST 가져오기 매핑 파일의 TargetRootFolder 속성을 사용하여)를 지정하면 PST 파일의 모든 항목을 다시 가져옵니다.
+ 
  **PST 파일을 Office 365 사서함으로 가져올 때 메시지를 보내거나 받은 시간, 받는 사람의 목록, 기타 속성 등 메시지 속성이 보존되나요?**
   
 예. 가져오기 프로세스 중에는 원본 메시지 메타데이터가 변경되지 않습니다.
