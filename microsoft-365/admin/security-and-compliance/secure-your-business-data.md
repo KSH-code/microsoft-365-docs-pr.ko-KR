@@ -35,15 +35,15 @@ Microsoft의 비즈니스 계획 중 하나를 사용 하는 중소 규모의 �
   
 ||**작업**|**Office 365 Business Premium**|**Microsoft 365 Business**|
 |:-----|:-----|:-----|:-----|
-|개  <br/> |[다단계 인증 설정](secure-your-business-data.md#setup) <br/> |![시킨](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |![시킨](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
-|2  <br/> |[사용자 교육](secure-your-business-data.md#train) <br/> |![시킨](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |![시킨](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
-|3(sp3)  <br/> |[전용 관리자 계정 사용](secure-your-business-data.md#admin) <br/> |![시킨](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |![시킨](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
-|1-4  <br/> |[메일에서 맬웨어에 대 한 보호 수준 올리기](secure-your-business-data.md#malware) <br/> |![시킨](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |![시킨](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
-|2-5  <br/> |[랜 섬 웨어 로부터 보호](secure-your-business-data.md#ransomware) <br/> |![시킨](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |![시킨](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
-|번  <br/> |[전자 메일에 대 한 자동 전달 중지](secure-your-business-data.md#forwarding) <br/> |![시킨](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |![시킨](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
-|연중  <br/> |[Office 메시지 암호화 사용](secure-your-business-data.md#encryption) <br/> ||![시킨](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
-|8  <br/> |[피싱 공격 으로부터 전자 메일을 보호 합니다.](secure-your-business-data.md#phishing) <br/> ||![시킨](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
-|까지의  <br/> |[ATP 안전한 첨부 파일을 사용 하 여 악의 있는 첨부 파일과 파일을 보호 합니다.](secure-your-business-data.md#atp) <br/> ||![시킨](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
+|1   <br/> |[다단계 인증 설정](secure-your-business-data.md#setup) <br/> |![시킨](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |![시킨](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
+|2   <br/> |[사용자 교육](secure-your-business-data.md#train) <br/> |![시킨](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |![시킨](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
+|3   <br/> |[전용 관리자 계정 사용](secure-your-business-data.md#admin) <br/> |![시킨](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |![시킨](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
+|4   <br/> |[메일에서 맬웨어에 대 한 보호 수준 올리기](secure-your-business-data.md#malware) <br/> |![시킨](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |![시킨](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
+|5   <br/> |[랜 섬 웨어 로부터 보호](secure-your-business-data.md#ransomware) <br/> |![시킨](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |![시킨](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
+|6   <br/> |[전자 메일에 대 한 자동 전달 중지](secure-your-business-data.md#forwarding) <br/> |![시킨](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |![시킨](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
+|7   <br/> |[Office 메시지 암호화 사용](secure-your-business-data.md#encryption) <br/> ||![시킨](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
+|8   <br/> |[피싱 공격 으로부터 전자 메일을 보호 합니다.](secure-your-business-data.md#phishing) <br/> ||![시킨](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
+|9   <br/> |[ATP 안전한 첨부 파일을 사용 하 여 악의 있는 첨부 파일과 파일을 보호 합니다.](secure-your-business-data.md#atp) <br/> ||![시킨](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
 |10   <br/> |[ATP 안전한 링크를 통한 피싱 공격 으로부터 보호](secure-your-business-data.md#phishingatp) <br/> ||![시킨](../../media/d238e041-6854-4a78-9141-049224df0795.png)           <br/> |
    
 시작 하기 전에 Microsoft 365 보안 센터에서 [microsoft 365 보안 점수](https://docs.microsoft.com/microsoft-365/security/mtp/microsoft-secure-score) 를 확인 하세요. 중앙 집중식 대시보드에서 Microsoft 365 id, 데이터, 앱, 장치 및 인프라에 대 한 보안을 모니터링 하 고 향상 시킬 수 있습니다. 권장 되는 보안 기능을 구성 하 고, 보고서 보기와 같은 보안 관련 작업을 수행 하거나, 타사 응용 프로그램 또는 소프트웨어를 사용 하 여 권장 주소를 지정 하기 위한 사항이 제공 됩니다. 보다 광범위 한 Microsoft 제품 및 서비스 집합에 대 한 추가 통찰력과 가시성을 통해 조직의 보안 상태에 대 한 보고를 받을 수 있습니다.
@@ -151,7 +151,7 @@ Office 365 또는 Microsoft 365 환경에는 맬웨어에 대 한 보호 기능�
     
 |**설정**|**Office 파일의 첨부 파일을 열기 전에 사용자에 게 경고 표시**|**랜 섬 웨어 또는 기타 악성 코드가 포함 될 수 있는 파일 형식 차단**|
 |:-----|:-----|:-----|
-|Name  <br/> |랜 섬 웨어 방지 규칙: 사용자에 게 경고 표시  <br/> |랜 섬 웨어 방지 규칙: 파일 형식 차단  <br/> |
+|이름  <br/> |랜 섬 웨어 방지 규칙: 사용자에 게 경고 표시  <br/> |랜 섬 웨어 방지 규칙: 파일 형식 차단  <br/> |
 |다음 경우에이 규칙을 적용 합니다. . .  <br/> |모든 첨부 파일 . . 일치 하는 파일 확장명 . .  <br/> |모든 첨부 파일 . . 일치 하는 파일 확장명 . .  <br/> |
 |단어 또는 구 지정  <br/> |다음 파일 형식을 추가 합니다.  <br/> normal.dotm, .docm, .xlsm, sltm, .xla, xlam, xll, pptm, potm, ppam, ppsm, sltm  <br/> |다음 파일 형식을 추가 합니다.  <br/> ade, adp, ani, bas, bat, chm, cmd, a, m, s, com, cpl, crt, .hlp, ht, mdz, inf, v p v, ini, 작업, js, shs, 모바일,, mde, msi, wsc, .pcd, s p l, exe, .wsf 인  <br/> |
 |다음을 수행 합니다. . .  <br/> |받는 사람에게 메시지로 알림  <br/> |메시지를 차단 합니다. . . 메시지를 거부 하 고 설명 포함  <br/> |
@@ -187,7 +187,7 @@ Office 365 또는 Microsoft 365 환경에는 맬웨어에 대 한 보호 기능�
     
 |**설정**|**Office 파일의 첨부 파일을 열기 전에 사용자에 게 경고 표시**|
 |:-----|:-----|
-|Name  <br/> |외부 도메인에 대 한 전자 메일 자동 전달 금지  <br/> |
+|이름  <br/> |외부 도메인에 대 한 전자 메일 자동 전달 금지  <br/> |
 |다음 경우에이 규칙 적용 ...  <br/> |보낸 사람입니다. . . 은 외부/내부입니다. . . 조직 내부  <br/> |
 |조건 추가  <br/> |메시지 속성 . . 메시지 유형을 포함 합니다. . . 자동 전달  <br/> |
 |다음을 수행 합니다.  <br/> |메시지를 차단 합니다. . . 메시지를 거부 하 고 설명을 포함 합니다.  <br/> |
