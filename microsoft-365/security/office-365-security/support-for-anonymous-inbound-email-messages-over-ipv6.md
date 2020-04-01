@@ -1,10 +1,10 @@
 ---
-title: IPv6을 통한 익명 인바운드 전자 메일 메시지 지원
+title: I p v 6을 통한 익명 인바운드 전자 메일 지원 추가
 f1.keywords:
 - NOCSH
-ms.author: tracyp
-author: MSFTTracyP
-manager: dansimp
+author: chrisda
+ms.author: chrisda
+manager: chrisda
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -14,36 +14,48 @@ search.appverid:
 ms.assetid: b68df621-0a5f-4824-8abc-41e0c4fd1398
 ms.collection:
 - M365-security-compliance
-description: Exchange Online Protection 및 Exchange Online에 대해 IPv6 원본에서 익명 메시지에 대 한 지원을 구성 하는 방법을 알아봅니다.
-ms.openlocfilehash: 1cd38798aa644b79c8f1d6362edd17a515b5c98d
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+description: 관리자는 Exchange Online 및 Exchange Online Protection에서 IPv6 원본의 익명 인바운드 전자 메일에 대 한 지원을 구성 하는 방법을 알 수 있습니다.
+ms.openlocfilehash: 67e839249d41381be22bbccf6b09d1616c387c66
+ms.sourcegitcommit: 748bc3484b7ccbd65b558f495b6fa42196c3c571
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41598235"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43083644"
 ---
-# <a name="support-for-anonymous-inbound-email-messages-over-ipv6"></a><span data-ttu-id="ad961-103">IPv6을 통한 익명 인바운드 전자 메일 메시지 지원</span><span class="sxs-lookup"><span data-stu-id="ad961-103">Support for anonymous inbound email messages over IPv6</span></span>
+# <a name="add-support-for-anonymous-inbound-email-over-ipv6-in-office-365"></a><span data-ttu-id="84403-103">Office 365에서 i p v 6을 통한 익명 인바운드 전자 메일 지원 추가</span><span class="sxs-lookup"><span data-stu-id="84403-103">Add support for anonymous inbound email over IPv6 in Office 365</span></span>
 
-<span data-ttu-id="ad961-104">EOP (exchange Online Protection) 및 Exchange Online 지원은 TLS (전송 계층 보안)를 통해 메시지를 보내지 않는 보낸 사람 으로부터 IPv6 통신을 통해 익명 인바운드 전자 메일 메시지를 수신 합니다.</span><span class="sxs-lookup"><span data-stu-id="ad961-104">Exchange Online Protection (EOP) and Exchange Online support receiving anonymous inbound email messages over IPv6 communications from senders who don't send messages over Transport Layer Security (TLS).</span></span> <span data-ttu-id="ad961-105">Microsoft 365 관리 센터 [https://admin.microsoft.com/adminportal/home](https://admin.microsoft.com/adminportal/home)를 열고 **지원을**클릭 한 다음 **새 서비스 요청**을 클릭 하 여 microsoft 지원에서이 기능을 요청 하면 IPv6을 통한 메시지를 수신 하도록 설정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="ad961-105">You can opt-in to receive messages over IPv6 by requesting this functionality from Microsoft Support by opening the Microsoft 365 admin center at [https://admin.microsoft.com/adminportal/home](https://admin.microsoft.com/adminportal/home), clicking **Support**, and then clicking **New service request**).</span></span> <span data-ttu-id="ad961-106">I p v 6을 사용 하지 않는 경우에는 IPv4를 통해 메시지가 계속 수신 됩니다.</span><span class="sxs-lookup"><span data-stu-id="ad961-106">If you don't opt-in to IPv6 you'll continue to receive messages over IPv4.</span></span>
-  
-<span data-ttu-id="ad961-107">IPv6을 통해 서비스로 메시지를 전송하는 보낸 사람은 다음의 두 가지 요구 사항을 준수해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="ad961-107">Senders who transmit messages to the service over IPv6 must comply with the following two requirements:</span></span>
-  
-1. <span data-ttu-id="ad961-108">보내는 IPv6 주소에는 보내는 IPv6 주소의 유효한 PTR 레코드([역방향 DNS 레코드](https://en.wikipedia.org/wiki/Reverse_DNS_lookup))가 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="ad961-108">The sending IPv6 address must have a valid PTR record ([reverse DNS record](https://en.wikipedia.org/wiki/Reverse_DNS_lookup) of the sending IPv6 address).</span></span> 
-    
-2. <span data-ttu-id="ad961-109">보낸 사람은 [RFC 7208](https://tools.ietf.org/html/rfc7208)에 정의되어 있는 SPF 확인 또는 [RFC 6376](https://dkim.org/)에 정의되어 있는 [DKIM 확인](https://www.rfc-editor.org/rfc/rfc6376.txt)을 통과해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="ad961-109">The sender must pass either SPF verification (defined in [RFC 7208](https://tools.ietf.org/html/rfc7208)) or [DKIM verification](https://dkim.org/) (defined in [RFC 6376](https://www.rfc-editor.org/rfc/rfc6376.txt)).</span></span>
-    
-<span data-ttu-id="ad961-110">IPv6에 옵트인하기 이전의 구성에 상관없이 이러한 요구 사항을 충족해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="ad961-110">Meeting these requirements is mandatory regardless of your configuration prior to opting-in to IPv6.</span></span> <span data-ttu-id="ad961-111">두 요구 사항이 모두 충족되면 메시지에 대해 서비스에서 제공되는 일반 전자 메일 메시지 필터링이 수행됩니다.</span><span class="sxs-lookup"><span data-stu-id="ad961-111">If both requirements are met, the message will go through normal email message filtering provided by the service.</span></span> <span data-ttu-id="ad961-112">한 가지 또는 다른 조건이 충족 되지 않으면 다음 450 응답 중 하나로 메시지가 거부 됩니다.</span><span class="sxs-lookup"><span data-stu-id="ad961-112">If one or the other isn't met, the message will be rejected with one of the following 450 responses:</span></span>
-  
--  `450 4.7.25 Service unavailable, sending IPv6 address [2a01:111:f200:2004::240] must have reverse DNS record.`
-    
--  `450 4.7.26 Service unavailable, message sent over IPv6 [2a01:111:f200:2004::240] must pass either SPF or DKIM validation.`
-    
-<span data-ttu-id="ad961-113">IPv6을 통해 메시지를 받도록 설정하지 않은 상태에서 보낸 사람이 메일 서버에 수동으로 연결하여 IPv6을 통해 메시지를 강제로 보내려고 하면 메시지가 거부되며 다음과 같은 550 응답이 반환됩니다.</span><span class="sxs-lookup"><span data-stu-id="ad961-113">If you aren't opted in to receive messages over IPv6 and the sender tries to force a message over IPv6 by manually connecting to the mail server, the message will be rejected with a 550 response that looks similar to the following:</span></span>
-  
- `550 5.2.1 Service unavailable, [contoso.com] does not accept email over IPv6.`
-  
-## <a name="for-more-information"></a><span data-ttu-id="ad961-114">자세한 내용</span><span class="sxs-lookup"><span data-stu-id="ad961-114">For more information</span></span>
+<span data-ttu-id="84403-104">Exchange online 사서함을 사용 하는 Office 365 조직 및 EOP (독립 실행형 Exchange Online Protection) 조직에서는 IPv6을 통한 익명 인바운드 전자 메일을 지원 합니다.</span><span class="sxs-lookup"><span data-stu-id="84403-104">Office 365 organizations with Exchange Online mailboxes and standalone Exchange Online Protection (EOP) organizations without Exchange Online mailboxes support anonymous inbound email over IPv6.</span></span> <span data-ttu-id="84403-105">원본 IPv6 전자 메일 서버는 다음 요구 사항을 모두 충족 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="84403-105">The source IPv6 email server must meet both of the following requirements:</span></span>
 
-[<span data-ttu-id="ad961-115">DKIM으로 서명된 메시지의 유효성 검사 지원</span><span class="sxs-lookup"><span data-stu-id="ad961-115">Support for validation of DKIM signed messages</span></span>](support-for-validation-of-dkim-signed-messages.md)
-  
+- <span data-ttu-id="84403-106">원본 IPv6 주소에는 대상에서 IPv6 주소 로부터 도메인 이름을 찾을 수 있도록 하는 유효한 PTR (역방향 DNS 조회) 레코드가 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="84403-106">The source IPv6 address must have a valid reverse DNS lookup (PTR) record that allows the destination to find the domain name from the IPv6 address.</span></span>
 
+- <span data-ttu-id="84403-107">보낸 사람은 [RFC 7208](https://tools.ietf.org/html/rfc7208)에 정의되어 있는 SPF 확인 또는 [RFC 6376](https://dkim.org/)에 정의되어 있는 [DKIM 확인](https://www.rfc-editor.org/rfc/rfc6376.txt)을 통과해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="84403-107">The sender must pass either SPF verification (defined in [RFC 7208](https://tools.ietf.org/html/rfc7208)) or [DKIM verification](https://dkim.org/) (defined in [RFC 6376](https://www.rfc-editor.org/rfc/rfc6376.txt)).</span></span>
+
+<span data-ttu-id="84403-108">조직이 i p v 6을 통해 익명 인바운드 전자 메일을 수신 하기 전에 관리자가 Microsoft 지원에 문의 하 여 다음을 요청 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="84403-108">Before your organization can receive anonymous inbound email over IPv6, an admin needs to contact Microsoft support and ask for it:</span></span>
+
+1. <span data-ttu-id="84403-109">Microsoft 365 관리 센터 <https://admin.microsoft.com/adminportal/home> 를 열고 **도움말** (?)을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="84403-109">Open the Microsoft 365 admin center at <https://admin.microsoft.com/adminportal/home> and click **Help** (?).</span></span>
+
+2. <span data-ttu-id="84403-110">표시 되는 **도움말을 보려면** 검색 상자에 설명 된 내용을 입력 하 고 (예: "익명 인바운드 IPv6 전자 메일 요청") enter 키를 누릅니다.</span><span class="sxs-lookup"><span data-stu-id="84403-110">In the **Need help?** flyout that appears, type something descriptive in the search box (for example, "request anonymous inbound IPv6 email"), and then press ENTER.</span></span>
+
+3. <span data-ttu-id="84403-111">페이지 맨 아래에서 **지원 서비스**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="84403-111">At the bottom of the page, click **Contact support**.</span></span>
+
+4. <span data-ttu-id="84403-112">지원 되는 **연락처** 페이지에서 정보를 입력 하 고 필요한 경우 아래로 스크롤한 다음 **대화 상대**를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="84403-112">In the **Contact support** page that appears, fill out and verify the information (scroll down as necessary), and then click **Contact me**.</span></span>
+
+<span data-ttu-id="84403-113">조직에서 익명 인바운드 IPv6 메시지 지원을 사용 하도록 설정한 후에는 메시지가 서비스에서 제공 하는 일반 메시지 필터링을 거칩니다.</span><span class="sxs-lookup"><span data-stu-id="84403-113">After anonymous inbound IPv6 message support is enabled in your organization, the message will go through the normal message filtering that's provided by the service.</span></span>
+
+## <a name="troubleshooting"></a><span data-ttu-id="84403-114">문제 해결</span><span class="sxs-lookup"><span data-stu-id="84403-114">Troubleshooting</span></span>
+
+- <span data-ttu-id="84403-115">원본 전자 메일 서버에 IPv6 역방향 DNS 조회 레코드가 없으면 다음 오류가 발생 하 여 메시지가 거부 됩니다.</span><span class="sxs-lookup"><span data-stu-id="84403-115">If the source email server doesn't have an IPv6 reverse DNS lookup record, the messages will be rejected with the following error:</span></span>
+
+  > <span data-ttu-id="84403-116">450 4.7.25 서비스를 사용할 수 없음, 전송 IPv6 주소 [2a01:111: f200:2004:: 240]에 역방향 DNS 레코드가 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="84403-116">450 4.7.25 Service unavailable, sending IPv6 address [2a01:111:f200:2004::240] must have reverse DNS record.</span></span>
+
+- <span data-ttu-id="84403-117">보낸 사람이 SPF 또는 DKIM 유효성 검사를 통과 하지 못하면 다음 오류가 발생 하 여 메시지가 거부 됩니다.</span><span class="sxs-lookup"><span data-stu-id="84403-117">If the sender doesn't pass SPF or DKIM validation, the messages will be rejected with the following error:</span></span>
+
+  > <span data-ttu-id="84403-118">450 4.7.26 서비스를 사용할 수 없음, IPv6을 통해 전송 되는 메시지는 SPF 또는 DKIM 유효성 검사를 통과 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="84403-118">450 4.7.26 Service unavailable, message sent over IPv6 [2a01:111:f200:2004::240] must pass either SPF or DKIM validation.</span></span>
+
+- <span data-ttu-id="84403-119">옵트인 하기 전에 익명 IPv6 메시지를 수신 하려고 하면 다음 오류와 함께 메시지가 거부 됩니다.</span><span class="sxs-lookup"><span data-stu-id="84403-119">If you try to receive anonymous IPv6 messages before you've opted in, the message will be rejected with the following error:</span></span>
+
+  > <span data-ttu-id="84403-120">550 5.2.1 서비스를 사용할 수 없음 [contoso.com]에서는 IPv6을 통한 전자 메일을 수락 하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="84403-120">550 5.2.1 Service unavailable, [contoso.com] does not accept email over IPv6.</span></span>
+
+## <a name="for-more-information"></a><span data-ttu-id="84403-121">자세한 내용</span><span class="sxs-lookup"><span data-stu-id="84403-121">For more information</span></span>
+
+[<span data-ttu-id="84403-122">DKIM으로 서명된 메시지의 유효성 검사 지원</span><span class="sxs-lookup"><span data-stu-id="84403-122">Support for validation of DKIM signed messages</span></span>](support-for-validation-of-dkim-signed-messages.md)
