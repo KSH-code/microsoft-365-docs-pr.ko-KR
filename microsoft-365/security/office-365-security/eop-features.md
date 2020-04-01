@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 599b8048-1056-457b-aae4-c063138fd319
 description: 다음 표에는 EOP(Exchange 온라인 보호) 호스팅 전자 메일 필터링 서비스에서 사용할 수 있는 기능 목록이 나와 있습니다.
-ms.openlocfilehash: f8a9165cd377549d355a72da5428b777e7c1a505
-ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
+ms.openlocfilehash: 1bab584c62114c74c0eb4d9937acef4f17b89073
+ms.sourcegitcommit: a7b2cd892cb65a61ee246268e1af2f8b9e526f6b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43032891"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43081451"
 ---
 # <a name="eop-features"></a>EOP 기능
 
@@ -91,4 +91,4 @@ ms.locfileid: "43032891"
 |**기타 기능**||
 |지역 중복 글로벌 서버 네트워크|EOP는 최상의 가용성을 제공하도록 설계된 데이터 센터의 전 세계 네트워크에서 실행됩니다. 자세한 내용은 [Exchange Online Protection 개요](exchange-online-protection-overview.md)에서 "EOP 데이터 센터" 섹션을 참조하세요.  |
 |온-프레미스 서버가 메일을 수락할 수 없는 경우 메시지 큐 대기|지연 상태인 메시지는 하루 동안 큐에 남아 있습니다. 메시지 다시 시도는 받는 사람의 메일 시스템에서 다시 수신된 오류를 기반으로 합니다. 평균적으로 5분마다 메시지가 다시 시도됩니다. 자세한 내용은 [EOP 대기, 지연 및 반송 메시지 FAQ](eop-queued-deferred-and-bounced-messages-faq.md)를 참조하세요.|
-|추가 서비스로 사용할 수 있는 Office 365 메시지 암호화|자세한 내용은 [Office 365의 암호화](https://docs.microsoft.com/office365/securitycompliance/encryption)를 참조하세요.|
+|추가 서비스로 사용할 수 있는 Office 365 메시지 암호화|자세한 내용은 [Office 365의 암호화](../../compliance/encryption.md)를 참조하세요.|

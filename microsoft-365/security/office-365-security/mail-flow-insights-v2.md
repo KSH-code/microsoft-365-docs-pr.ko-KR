@@ -11,12 +11,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: beb6acaa-6016-4d54-ba7e-3d6d035e2b46
 description: 관리자는 보안 & 준수 센터의 메일 흐름 대시보드에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: 36183f6b5f664a8d5a971f9e141b0607fa66a0bb
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 792fb07c1faae54696354619347d1eb5367d45b2
+ms.sourcegitcommit: a7b2cd892cb65a61ee246268e1af2f8b9e526f6b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42082935"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43081439"
 ---
 # <a name="mail-flow-insights-in-the-security--compliance-center"></a>보안 및 준수 센터의 메일 흐름 파악
 
@@ -64,7 +64,7 @@ ms.locfileid: "42082935"
 
 Office 365 전역 관리자 역할에 대 한 자세한 내용은 [office 365 관리자 역할 정보](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles)를 참조 하세요.
 
-사용자에 게 보안 & 준수 센터 역할을 할당 하는 방법에 대 한 자세한 내용은 사용자에 게 [보안 & 준수 센터에 대 한 액세스 권한을 부여](https://docs.microsoft.com/office365/securitycompliance/grant-access-to-the-security-and-compliance-center)를 참조 하십시오
+사용자에 게 보안 & 준수 센터 역할을 할당 하는 방법에 대 한 자세한 내용은 사용자에 게 [Office 365 보안 & 준수 센터에 대 한 액세스 권한을 부여](grant-access-to-the-security-and-compliance-center.md)합니다.
 
 ## <a name="where-to-find-the-mail-flow-dashboard"></a>메일 흐름 대시보드를 찾는 위치
 

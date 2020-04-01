@@ -12,12 +12,12 @@ localization_priority: Normal
 search.appverid:
 - MET150
 description: 관리자는 피싱 메시지의 원인과 방법을 파악 하 고, 향후 피싱 메시지를 더 많이 차단 하기 위해 수행 해야 하는 작업에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: 56baf39335837158cd061b4cbaede25a81c484ee
-ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
+ms.openlocfilehash: 37d1e8bbf91bc6f0a1c8e9b5aa97fe460e8b5c82
+ms.sourcegitcommit: a7b2cd892cb65a61ee246268e1af2f8b9e526f6b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43033653"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43081211"
 ---
 # <a name="tune-anti-phishing-protection-in-office-365"></a>Office 365에서 피싱 방지 보호 기능 조정
 
@@ -45,7 +45,7 @@ ATP 기능이 설정 되어 있는지 확인 합니다.
 
 피싱 메시지의 헤더를 검사 하 여 더 많은 피싱 메시지를 통해 들어오는 것을 방지 하기 위해 수행할 수 있는 작업이 있는지 확인할 수 있습니다. 즉 메시지 헤더를 검사 하면에서 피싱 메시지를 허용 하는 일을 담당 하는 조직의 설정을 식별 하는 데 도움이 될 수 있습니다.
 
-특히 SFV (스팸 필터링 결과) 값에서 건너뛴 스팸 또는 피싱 필터링이 표시 되는 메시지 헤더에서 **스팸 방지-Report** 헤더 필드를 확인 해야 합니다. 필터링을 건너뛰지 않는 메시지에는 항목이 있는데 `SCL:-1`,이는 설정 중 하나에서 서비스에 의해 결정 된 스팸 또는 피싱 verdicts를 재정의 하 여이 메시지를 허용 한다는 것을 의미 합니다. 사용 가능한 모든 스팸 방지 및 피싱 메시지 헤더의 전체 목록과 메시지 헤더를 가져오는 방법에 대 한 자세한 내용은 [스팸 방지 메시지 헤더](https://docs.microsoft.com/office365/SecurityCompliance/anti-spam-message-headers)를 참조 하십시오.
+특히 SFV (스팸 필터링 결과) 값에서 건너뛴 스팸 또는 피싱 필터링이 표시 되는 메시지 헤더에서 **스팸 방지-Report** 헤더 필드를 확인 해야 합니다. 필터링을 건너뛰지 않는 메시지에는 항목이 있는데 `SCL:-1`,이는 설정 중 하나에서 서비스에 의해 결정 된 스팸 또는 피싱 verdicts를 재정의 하 여이 메시지를 허용 한다는 것을 의미 합니다. 사용 가능한 모든 스팸 방지 및 피싱 메시지 헤더의 전체 목록 및 메시지 헤더를 가져오는 방법에 대 한 자세한 내용은 [스팸 방지 메시지 헤더 (Office 365)](anti-spam-message-headers.md)를 참조 하세요.
 
 ## <a name="best-practices-to-stay-protected"></a>보호를 유지 하기 위한 모범 사례
 
@@ -61,7 +61,7 @@ ATP 기능이 설정 되어 있는지 확인 합니다.
 
   - SPF 레코드에 도메인의 보낸 사람에 대 한 _모든_ 전자 메일 원본이 식별 되는지 확인 합니다 (타사 서비스를 잊지 마십시오.).
 
-  - 권한 없는 보낸 사람이\-이를 수행 하도록 구성 된 전자 메일 시스템에 의해 거부 되도록 하려면 hard fail ()을 사용 합니다. [스푸핑 인텔리전스](https://docs.microsoft.com/office365/securitycompliance/learn-about-spoof-intelligence) 를 사용 하면 SPF 레코드에 권한이 부여 된 타사 보낸 사람을 포함할 수 있도록 도메인을 사용 중인 보낸 사람을 식별 하는 데 도움이 됩니다.
+  - 권한 없는 보낸 사람이\-이를 수행 하도록 구성 된 전자 메일 시스템에 의해 거부 되도록 하려면 hard fail ()을 사용 합니다. [스푸핑 인텔리전스](learn-about-spoof-intelligence.md) 를 사용 하면 SPF 레코드에 권한이 부여 된 타사 보낸 사람을 포함할 수 있도록 도메인을 사용 중인 보낸 사람을 식별 하는 데 도움이 됩니다.
 
   구성 지침에 대해서는 다음을 참조 하세요.
   
@@ -71,8 +71,8 @@ ATP 기능이 설정 되어 있는지 확인 합니다.
 
   - [DMARC를 사용하여 Office 365에서 전자 메일 유효성 검사](use-dmarc-to-validate-email.md)
 
-- 가능한 경우에는 항상 도메인에 대 한 전자 메일을 Office 365에 직접 배달 하는 것이 좋습니다. 즉, Office 365 도메인의 MX 레코드를 Office 365에 가리키도록 합니다. EOP (Exchange Online Protection)은 메일이 Office 365로 직접 배달 될 때 클라우드 사용자에 게 최상의 보호를 제공할 수 있습니다. EOP 앞에 타사 전자 메일 바이러스 예방 시스템을 사용 해야 하는 경우 [여기](https://docs.microsoft.com/exchange/mail-flow-best-practices/manage-mail-flow-using-third-party-cloud)에서 지침을 따랐는지 확인 합니다.
+- 가능한 경우에는 항상 도메인에 대 한 전자 메일을 Office 365에 직접 배달 하는 것이 좋습니다. 즉, Office 365 도메인의 MX 레코드를 Office 365에 가리키도록 합니다. EOP (Exchange Online Protection)은 메일이 Office 365로 직접 배달 될 때 클라우드 사용자에 게 최상의 보호를 제공할 수 있습니다. EOP 앞에 타사 전자 메일 바이러스 예방 시스템을 사용 해야 하는 경우에는 커넥터에 대 한 고급 필터링을 사용 합니다. 자세한 내용은 [Exchange Online의 커넥터에 대 한 향상 된 필터링](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors)을 참조 하십시오.
 
-- MFA (multi-factor authentication)는 손상 된 계정을 방지 하는 매우 좋은 방법입니다. 모든 사용자에 대해 MFA를 사용 하도록 설정 하는 것이 좋습니다. 단계적 접근 방식에서는 모든 사용자에 대해 MFA를 사용 하도록 설정 하기 전에 가장 중요 한 사용자 (관리자, 임원 등)에 대해 MFA를 사용 하도록 설정 하는 것부터 시작 합니다. 자세한 내용은 [다단계 인증 설정을](https://docs.microsoft.com/office365/admin/security-and-compliance/set-up-multi-factor-authentication)참조 하십시오.
+- MFA (multi-factor authentication)는 손상 된 계정을 방지 하는 매우 좋은 방법입니다. 모든 사용자에 대해 MFA를 사용 하도록 설정 하는 것이 좋습니다. 단계적 접근 방식에서는 모든 사용자에 대해 MFA를 사용 하도록 설정 하기 전에 가장 중요 한 사용자 (관리자, 임원 등)에 대해 MFA를 사용 하도록 설정 하는 것부터 시작 합니다. 자세한 내용은 [다단계 인증 설정을](../../admin/security-and-compliance/set-up-multi-factor-authentication.md)참조 하십시오.
 
 - 외부 받는 사람에 게 규칙을 전달 하는 경우 공격자가 데이터를 추출 하는 경우가 많습니다. [Microsoft 보안 점수](../mtp/microsoft-secure-score.md) 에서 **사서함 전달 규칙 검토** 정보를 사용 하 여 외부의 받는 사람에 대 한 전달 규칙을 찾아이를 방지할 수도 있습니다. 자세한 내용은 [보안 점수를 사용한 클라이언트 외부 전달 규칙 완화](https://blogs.technet.microsoft.com/office365security/mitigating-client-external-forwarding-rules-with-secure-score/)를 참조 하세요.

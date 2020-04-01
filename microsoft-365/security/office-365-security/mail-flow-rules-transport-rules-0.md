@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 9c2cf227-eff7-48ef-87fb-487186e47363
 description: 메일 흐름 규칙 (전송 규칙)을 사용 하 여 Office 365 조직을 통해 전송 되는 메시지를 식별 하 고 작업을 수행할 수 있습니다.
-ms.openlocfilehash: 42b55893a9884b547a0d2d36e901169153d290d7
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 4332399ce7b3724a7bd23c761eec4328afe5e2a9
+ms.sourcegitcommit: a7b2cd892cb65a61ee246268e1af2f8b9e526f6b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41599025"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43081427"
 ---
 # <a name="mail-flow-rules-transport-rules-in-exchange-online-protection"></a>Exchange Online Protection의 메일 흐름 규칙(전송 규칙)
 
@@ -126,6 +126,6 @@ Exchange Online Protection에서 사용할 수 있는 메일 흐름 규칙 작�
 
 [메일 흐름 규칙을 사용 하 여 Exchange Online의 메시지 첨부 파일 검사](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/inspect-message-attachments)
 
-[Office 365의 전자 메일 암호화](https://docs.microsoft.com/office365/securitycompliance/email-encryption)
+[Office 365의 전자 메일 암호화](../../compliance/email-encryption.md)
 
 [저널, 전송 및 받은 편지함 규칙 제한](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#journal-transport-and-inbox-rule-limits)

@@ -17,12 +17,12 @@ ms.assetid: 978c3173-3578-4286-aaf4-8a10951978bf
 ms.collection:
 - M365-security-compliance
 description: 스팸 방지 설정 페이지의 보안 &amp; 준수 센터에서 스푸핑 인텔리전스를 사용 하 여 조직의 일부인 도메인을 위장 하는 모든 보낸 사람을 검토 하거나 외부 도메인을 위장 합니다. 스푸핑 인텔리전스는 Advanced Threat Protection 및 Exchange Online Protection의 일부로 Office 365 Enterprise E5의 일부로 사용할 수 있습니다.
-ms.openlocfilehash: e3ef4399ab79e894e8013169eee6d1949c2489c4
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: a58f98852f321791615c5f0064b69e8510aadbe5
+ms.sourcegitcommit: a7b2cd892cb65a61ee246268e1af2f8b9e526f6b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42082976"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43081463"
 ---
 # <a name="learn-more-about-spoof-intelligence"></a>스푸핑 인텔리전스에 대해 자세히 알아보기
 
@@ -101,7 +101,7 @@ ms.locfileid: "42082976"
 
 6. **저장** 을 선택 하 여 변경 내용을 저장 합니다.
 
-Office 365 Enterprise E5 구독이 있거나 추가 기능으로 Advanced Threat Protection을 별도로 구매한 경우 [스푸핑 인텔리전스](https://docs.microsoft.com/office365/securitycompliance/walkthrough-spoof-intelligence-insight)정보를 통해 도메인을 위장 하는 보낸 사람을 관리할 수도 있습니다.
+Office 365 Enterprise E5 구독이 있거나 추가 기능으로 Advanced Threat Protection을 별도로 구매한 경우 [스푸핑 인텔리전스](walkthrough-spoof-intelligence-insight.md)정보를 통해 도메인을 위장 하는 보낸 사람을 관리할 수도 있습니다.
 
 ## <a name="configuring-the-anti-spoofing-policy"></a>스푸핑 방지 정책 구성
 <a name="Managespooflist"> </a>

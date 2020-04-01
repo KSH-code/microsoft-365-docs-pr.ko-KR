@@ -11,13 +11,14 @@ ms.service: o365-seccomp
 localization_priority: Normal
 ms.collection:
 - M365-security-compliance
+- remotework
 description: '랜 섬 웨어, 피싱 및 악의적 첨부 파일을 포함 하 여 사이버 위협 으로부터 비즈니스 전자 메일 및 데이터를 보호 합니다. '
-ms.openlocfilehash: b675f8abc5487dcb08324795fb1d6cc3b91592a1
-ms.sourcegitcommit: 71612ef8f2f93063c2a070e8a079506362f54c58
+ms.openlocfilehash: 3bbd5951ac6005f20584d53e17ac55927acd4c89
+ms.sourcegitcommit: a7b2cd892cb65a61ee246268e1af2f8b9e526f6b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/29/2020
-ms.locfileid: "43037479"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43081307"
 ---
 # <a name="top-12-tasks-for-security-teams-to-support-working-from-home"></a>집에서 작업을 지원 하기 위한 보안 팀을 위한 상위 12 개 작업
 
@@ -165,8 +166,8 @@ Microsoft 365 E5 요금제를 사용 하는 경우에는 위험 기반 MFA에 �
 - [Intune에서 apple Business Manager (ABM)의 회사 장비 등록 기능을 사용 하 여 iPadOS에서 iOS/장치를 등록 합니다.](https://docs.microsoft.com/mem/intune/enrollment/tutorial-use-device-enrollment-program-enroll-ios)
 
 장치를 등록 한 후 [일반 id 및 장치 액세스 정책](../enterprise/identity-access-policies.md) 에 설명 된 지침을 사용 하 여 다음 정책을 만듭니다.
-- [장치 준수 정책 정의](../enterprise/identity-access-policies.md#define-device-compliance-policies)
-- [준수 Pc 필요](../enterprise/identity-access-policies.md#require-compliant-pcs-but-not-compliant-phones-and-tablets) (조건부 액세스 규칙)
+- [장치 준수 정책 정의](../enterprise/identity-access-policies.md#define-device-compliance-policies) -Windows 10에 권장 되는 설정에는 바이러스 백신 보호가 필요 합니다. Microsoft 365 E5가 있는 경우 Microsoft Defender Advanced Threat Protection을 사용 하 여 직원 장치의 상태를 모니터링 합니다. 다른 운영 체제에 대 한 준수 정책에는 바이러스 백신 보호 및 최종 지점 보호 소프트웨어가 포함 되어 있어야 합니다. 
+- [준수 Pc 필요](../enterprise/identity-access-policies.md#require-compliant-pcs-but-not-compliant-phones-and-tablets) -이는 장치 준수 정책을 적용 하는 Azure AD의 조건부 액세스 규칙입니다.
 
 한 조직 에서만 장치를 관리할 수 있으므로 Azure AD의 조건부 액세스 규칙에서 게스트 계정을 제외 해야 합니다. 장치 준수를 요구 하는 정책에서 게스트 및 외부 사용자를 제외 하지 않으면 이러한 정책은 이러한 사용자를 차단 합니다. 자세한 내용은 [게스트 및 외부 액세스를 허용 하 고 보호 하기 위해 일반 정책 업데이트](../enterprise/identity-access-policies-guest-access.md)를 참조 하세요.
 
@@ -174,7 +175,7 @@ Microsoft 365 E5 요금제를 사용 하는 경우에는 위험 기반 MFA에 �
 
 집에서 대규모 직원을 빠르게 사용할 수 있도록 설정 하는 경우이 급격 한 연결 패턴 전환이 회사 네트워크 인프라에 큰 영향을 줄 수도 있습니다. 많은 네트워크는 클라우드 서비스를 채택 하기 전에 확장 되 고 설계 되었습니다. 대부분의 경우 네트워크는 원격 작업자를 허용 하지만 모든 사용자가 동시에 원격으로 사용 하도록 설계 되지 않았습니다.
 
-VPN 집중 장치, 중앙 네트워크 송신 장비 (예: 프록시 및 데이터 손실 방지 장치), 중앙 인터넷 대역폭/백 MPLS 회로, NAT 기능 등의 네트워크 요소는 갑자기 로드 되어 전체 비즈니스를 사용 합니다. 최종 결과로 성능이 저하 되 고, 가정에서 작업을 수행 하는 사용자에 게 뛰어난 사용자 환경에 대 한 만족도가 저하 됩니다.
+VPN 집중 장치, 중앙 네트워크 송신 장비 (예: 프록시 및 데이터 손실 방지 장치), 중앙 인터넷 대역폭, MPLS 회로, NAT 기능 등의 네트워크 요소를 사용 하는 경우에는 전체 비즈니스의 부하로 인해 상당한 부담을 초래 하 게 됩니다. 최종 결과로 성능이 저하 되 고, 가정에서 작업을 수행 하는 사용자에 게 뛰어난 사용자 환경에 대 한 만족도가 저하 됩니다.
 
 회사 네트워크를 통해 전송 되는 트래픽 라우팅을 통해 전통적으로 제공 되는 일부 보호 기능은 사용자가 액세스 하는 클라우드 앱에서 제공 합니다. 이 문서의이 단계에 도달 하면 Microsoft 365 서비스 및 데이터에 대 한 정교한 클라우드 보안 컨트롤 집합을 구현 해야 합니다. 이러한 컨트롤을 사용 하는 경우 원격 사용자의 트래픽을 Office 365로 직접 라우팅할 수 있습니다. 다른 응용 프로그램에 액세스 하기 위한 VPN 링크가 여전히 필요한 경우 분할 터널링을 구현 하 여 성능 및 사용자 환경을 대폭 개선할 수 있습니다. Oganization에서 계약을 받은 후에는 잘 조정 된 네트워크 팀이 하루 이내에이 작업을 수행할 수 있습니다.
 
@@ -200,7 +201,7 @@ Microsoft 365에서는 조직에서 사용자에 게 알릴 수 있도록 다음
 |---------|---------|
 |Microsoft 365     |[사용자 지정 가능한 학습 경로](https://docs.microsoft.com/office365/customlearning/) <p>이러한 리소스를 통해 조직의 최종 사용자에 게 교육을 추가 하는 데 도움이 될 수 있습니다.        |
 |Microsoft 365 보안 |[학습 모듈: 기본 제공 되는 Microsoft 365의 지능형 보안을 사용 하 여 조직 보호](https://docs.microsoft.com/learn/modules/security-with-microsoft-365) <p>이 모듈을 사용 하 여 Microsoft 365 보안 기능이 함께 작동 하는 방식에 대해 설명 하 고 이러한 보안 기능의 이점을 구체화할 수 있습니다. |
-|Multi-Factor Authentication     | [2 단계 인증: 추가 확인 페이지 란?](https://docs.microsoft.com/azure/active-directory/user-help/multi-factor-authentication-end-user-first-time) <p>이 문서에서는 최종 사용자가 다단계 인증을 이해 하 고 조직에서이를 사용 하는 이유를 파악 하는 데 도움이 됩니다.    |
+|다단계 인증     | [2 단계 인증: 추가 확인 페이지 란?](https://docs.microsoft.com/azure/active-directory/user-help/multi-factor-authentication-end-user-first-time) <p>이 문서에서는 최종 사용자가 다단계 인증을 이해 하 고 조직에서이를 사용 하는 이유를 파악 하는 데 도움이 됩니다.    |
 | | |
 
 이 지침 외에도, 사용자가 [해커 및 맬웨어로부터 계정 및 장치를 보호](https://support.office.com/article/066d6216-a56b-4f90-9af3-b3a1e9a327d6.aspx)하는이 문서에서 설명 하는 작업을 수행 하는 것이 좋습니다. 이러한 작업은 다음과 같습니다.

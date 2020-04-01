@@ -22,15 +22,18 @@ search.appverid:
 ms.assetid: 8f0454b2-f51a-4d9c-bcde-2c48e41621c6
 description: 보안 기본값을 사용하여 Office 365 사용자의 다단계 인증을 설정하는 방법을 알아봅니다.
 monikerRange: o365-worldwide
-ms.openlocfilehash: 4dc52c25c3a9351be1a9f4d094d664bc4ed527f9
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 914d01bf2f045c6752aba4f2df3a204c6a21d09c
+ms.sourcegitcommit: 4d4d27a49eb258dc560439ca4baf61ebb9c1eff3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42361049"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "43075611"
 ---
 # <a name="set-up-multi-factor-authentication"></a>다단계 인증 설정
   
+> [!IMPORTANT]
+> 2019 년 10 월 21 일 이후에 구독 또는 평가판을 구매한 경우 MFA를 예기치 않게 묻는 메시지가 표시 되 면 구독에 대해 [보안 기본값이](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults) 자동으로 사용 하도록 설정 된 것입니다.
+
 모든 새 비즈니스용 Office 365 또는 Microsoft 365 Business 구독에는 자동으로 보안 기본값이 설정됩니다. 즉, 모든 사용자는 MFA(다단계 인증)를 설정하고 모바일 장치에 인증자 앱을 설치해야 합니다. 자세한 내용은 [Office 365에 대해 2단계 인증 설정](https://support.office.com/article/ace1d096-61e5-449b-a875-58eb3d74de14)을 참조하세요.  
 
 다음 9개의 관리자 역할은 로그인할 때마다 추가 인증을 수행해야 합니다.
@@ -50,7 +53,10 @@ ms.locfileid: "42361049"
 > 다단계 인증을 설정하거나 수정하려면 Office 365 전역 관리자이어야 합니다. <br><br>
 > 새로운 Microsoft 365 관리 센터를 사용하지 않는 경우 홈페이지 상단에 있는 **새 관리 센터 시도** 토글을 선택하여 켤 수 있습니다.
 
-이전에 기본 정책을 사용 하여 MFA를 설정한 경우 [ 이를 해제하고 보안 기본값](#move-from-baseline-policies-to-security-defaults)을 설정해야 합니다. 그러나 Microsoft 365 Business 또는 구독에 [Azure Active Directory Premium 1 또는 Azure Active Directory Premium 2](https://azure.microsoft.com/pricing/details/active-directory/)가 포함되어 있는 경우에도 [조건부 액세스](https://docs.microsoft.com/azure/active-directory/conditional-access/overview) 정책을 설정할 수 있습니다. 조건부 액세스 정책을 사용하려면 [최신 인증이 사용 ](#enable-multi-factor-authentication-for-your-organization)되고 있는지 확인해야 합니다.
+이전에 기본 정책을 사용 하여 MFA를 설정한 경우 [ 이를 해제하고 보안 기본값](#move-from-baseline-policies-to-security-defaults)을 설정해야 합니다. 그러나 Microsoft 365 Business 또는 구독에 [Azure Active Directory Premium 1 또는 Azure Active Directory Premium 2](https://azure.microsoft.com/pricing/details/active-directory/)가 포함되어 있는 경우에도 [조건부 액세스](https://docs.microsoft.com/azure/active-directory/conditional-access/overview) 정책을 설정할 수 있습니다. 조건부 액세스 정책을 사용 하려면 [최신 인증이](#enable-modern-authentication-for-your-organization) 사용 되도록 설정 되어 있는지 확인 해야 합니다.
+
+> [!TIP]
+> 사용자에게 인증자 앱을 설정하는 방법을 설명하려면 [Office 365에서 Microsoft Authenticator 사용](https://support.office.com/article/use-microsoft-authenticator-with-office-365-1412611f-ad8d-43ab-807c-7965e5155411?ui=en-US&rs=en-US&ad=US#ID0EAADAAA=_Step_1)을 방문하세요.
 
 ## <a name="manage-security-defaults"></a>보안 기본값 관리
 
@@ -82,24 +88,6 @@ ms.locfileid: "42361049"
 
     ![사용 확인란이 선택된 최신 인증 패널](../../media/enablemodernauth.png)
     
-## <a name="enable-multi-factor-authentication-for-your-organization"></a>조직이 Azure 다단계 인증을 사용하도록 설정
-    
-1. [관리 센터](https://go.microsoft.com/fwlink/p/?linkid=834822)에서 **사용자** 및 **활성 사용자**를 선택 합니다.
-
-2. **활성 사용자** 섹션에서 **다단계 인증**을 클릭 합니다.
-
-3. **다단계 인증** 페이지에서 한 명의 사용자에 대해이 기능을 사용 하도록 설정 하는 경우 **사용자** 를 선택 하거나 다중 사용자를 사용 하도록 설정 하려면 **대량 업데이트** 를 선택 합니다.
-
-4. **빠른 단계**에서 **사용** 을 클릭 합니다.
-
-5. 팝업 창에서 **다단계 인증 사용**을 클릭 합니다.
-
-조직에 대한 다단계 인증을 설정한 후에는 사용자가 장치에서 2단계 인증을 설정해야 합니다. 자세한 내용은 [Office 365에 대해 2단계 인증 설정](https://support.office.com/article/ace1d096-61e5-449b-a875-58eb3d74de14)을 참조하세요.
-    
-> [!TIP]
-> 사용자에게 인증자 앱을 설정하는 방법을 설명하려면 [Office 365에서 Microsoft Authenticator 사용](https://support.office.com/article/use-microsoft-authenticator-with-office-365-1412611f-ad8d-43ab-807c-7965e5155411?ui=en-US&rs=en-US&ad=US#ID0EAADAAA=_Step_1)을 방문하세요.
-
-
 > [!IMPORTANT]
 > 2017년 8월을 기준으로 비즈니스용 Skype Online 및 Exchange Online을 포함하는 모든 새 Office 365 테넌트는 기본적으로 최신 인증을 사용하도록 설정되어 있습니다. 비즈니스용 Skype Online의 최신 인증 상태를 확인하려면 전역 관리자 자격 증명을 사용하여 비즈니스용 Skype Online PowerShell을 사용할 수 있습니다. Get-CsOAuthConfiguration을 실행하여ClientADALAuthOverride의 결과물을 확인합니다. ClientADALAuthOverride가 '허용'인 경우 최신 인증이 설정되어 있습니다.
 Exchange Online의 MA 상태를 확인하려면 [Exchange Online에서 최신 인증을 사용하도록 설정](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/enable-or-disable-modern-authentication-in-exchange-online)을 참조하세요.

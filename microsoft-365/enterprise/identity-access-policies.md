@@ -15,12 +15,13 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: 803edd6fdf3d711a67b2ba4ff2e35f15c683c414
-ms.sourcegitcommit: 37f17c918208b83fc04ba92e986e0a7548d4c38d
+- remotework
+ms.openlocfilehash: 8b5cb7d8d8b16fea1c1bef44e477dfd43a79a3d8
+ms.sourcegitcommit: a7b2cd892cb65a61ee246268e1af2f8b9e526f6b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/29/2020
-ms.locfileid: "43036352"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43081328"
 ---
 # <a name="common-identity-and-device-access-policies"></a>일반 ID 및 장치 액세스 정책
 이 문서에서는 Azure AD 응용 프로그램 프록시를 통해 게시 된 온-프레미스 응용 프로그램을 포함 하 여 클라우드 서비스에 대 한 액세스를 보호 하기 위한 일반적인 권장 정책을 설명 합니다. 

@@ -16,18 +16,18 @@ ms.assetid: 758822b5-0126-463a-9d08-7366bb2a807d
 ms.collection:
 - M365-security-compliance
 description: Office 365 Exchange Online 사서함이 있는 사용자는 웹에서 Outlook (Outlook Web App)을 사용 하 여 Microsoft에 분석용 스팸, 스팸 아님 및 피싱 메시지를 제출할 수 있습니다.
-ms.openlocfilehash: c6aba9a701b23be4bbbe508825a55c6438461928
-ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
+ms.openlocfilehash: b58e3ae5be9bf2a473b655287ad9bb1cb8ef2c78
+ms.sourcegitcommit: 4d4d27a49eb258dc560439ca4baf61ebb9c1eff3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43033707"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "43075623"
 ---
 # <a name="report-junk-and-phishing-email-in-outlook-on-the-web-in-office-365"></a>Office 365에서 웹용 Outlook에 정크 및 피싱 전자 메일 보고
 
-Exchange Online 사서함을 사용 하는 Office 365 고객의 경우에는 웹에서 Outlook (이전의 Outlook Web App)의 기본 제공 보고 옵션을 사용 하 여 가양성 (스팸으로 표시 된 좋은 전자 메일), 거짓 네거티브 (잘못 된 전자 메일 허용)를 제출할 수 있습니다. EOP (Exchange Online Protection)에 대 한 피싱 메시지
+Exchange Online 사서함을 사용 하는 Office 365 고객의 경우에는 웹에서 Outlook (이전의 Outlook Web App)의 기본 제공 보고 옵션을 사용 하 여 가양성 (스팸으로 표시 된 좋은 전자 메일), 거짓 네거티브 (잘못 된 전자 메일 허용) 및 EOP (Exchange Online Protection)에 대 한 피싱 메시지를 제출할 수 있습니다.
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 사항은 무엇인가요?
 
 - Exchange Online 사서함을 사용 하는 Office 365 조직의 관리자는 Office 365 보안 & 준수 센터의 전송 포털을 사용 하는 것이 좋습니다. 자세한 내용은 [관리자 제출을 사용 하 여 의심 스러운 스팸, 피싱, url 및 파일을 Microsoft에 제출](admin-submission.md)합니다 .를 참조 하세요.
 
@@ -73,13 +73,19 @@ Exchange Online 사서함을 사용 하는 Office 365 고객의 경우에는 웹
 
 ## <a name="disable-or-enable-junk-email-reporting-in-outlook-on-the-web"></a>웹용 Outlook에서 정크 메일 보고를 사용 하지 않도록 설정 하거나 사용
 
-기본적으로 사용자는 웹용 Outlook에서 분석을 위해 Microsoft에 가짜 긍정, 거짓 네거티브 및 피싱 메시지를 보고할 수 있습니다. 관리자가 Exchange online의 웹 사서함 정책에서 Outlook을 사용 하 여 exchange online PowerShell 에서만이 기능을 사용 하거나 사용 하지 않도록 설정할 수 있습니다.
+기본적으로 사용자는 웹용 Outlook에서 분석을 위해 Microsoft에 가짜 긍정, 거짓 네거티브 및 피싱 메시지를 보고할 수 있습니다. 관리자는 Exchange Online PowerShell에서 웹 사서함 정책에 대 한 Outlook을 구성 하 여 사용자가 스팸 가양성 및 스팸 거짓 네거티브를 Microsoft에 보고 하지 못하도록 할 수 있습니다. 사용자가 피싱 메시지를 Microsoft에 보고 하는 기능을 사용 하지 않도록 설정할 수 없습니다.
+
+### <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 사항은 무엇인가요?
 
 - Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell)을 참조하세요.
 
 - 이 절차를 수행하려면 먼저 사용 권한을 할당받아야 합니다. 특히 **조직 관리** 및 **받는 사람 관리** 역할 그룹에 기본적으로 할당 되는 **받는 사람 정책** 또는 **메일 받는 사람** 역할이 Exchange Online에 있어야 합니다. Exchange Online의 역할 그룹에 대 한 자세한 내용은 [Exchange online에서 역할 그룹 수정을](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#modify-role-groups)참조 하십시오.
 
 - 모든 조직에는 Set-owamailboxpolicy 라는 기본 정책이 있지만 사용자 지정 정책을 만들 수 있습니다. 사용자 지정 정책은 기본 정책 이전의 범위 사용자에 게 적용 됩니다. 웹 사서함 정책의 Outlook에 대 한 자세한 내용은 [Exchange Online의 웹 사서함 정책에서 outlook](https://docs.microsoft.com/Exchange/clients-and-mobile-in-exchange-online/outlook-on-the-web/outlook-web-app-mailbox-policies)을 참조 하십시오.
+
+- 정크 메일 보고를 사용 하지 않도록 설정 해도 해당 메시지를 웹용 Outlook에서 정크 메일로 표시 하는 기능이 제거 되지 않습니다. 정크 메일 폴더에서 메시지를 선택 하는 경우 **정크 메일이** \> **아닌** 정크 메일이 아닌 클릭 해도 메시지를 다시 받은 편지 함으로 이동 합니다. 다른 전자 메일 폴더에서 메시지를 선택 하 고 **정크** \> **정크** 을 클릭 해도 메시지가 정크 메일 폴더로 이동 됩니다. 더 이상 사용할 수 없는 작업은 Microsoft에 메시지를 보고 하는 옵션입니다.
+
+### <a name="use-exchange-online-powershell-to-disable-or-enable-junk-email-reporting-in-outlook-on-the-web"></a>웹에서 Outlook에서 정크 메일 보고를 사용 하지 않도록 설정 하거나 사용 하도록 설정 하려면 Exchange Online PowerShell을 사용 합니다.
 
 1. 웹 사서함 정책 및 정크 메일 보고 상태에 대 한 기존 Outlook을 찾으려면 다음 명령을 실행 합니다.
 
@@ -117,4 +123,13 @@ Exchange Online 사서함을 사용 하는 Office 365 고객의 경우에는 웹
   Get-OwaMailboxPolicy | Format-Table Name,ReportJunkEmailEnabled
   ```
 
-- 웹에서 Outlook의 영향을 받는 사용자의 사서함을 열고 정크 메일, 정크 메일이 아닌 메시지를 보고 하는 옵션을 사용할 수 있는지 또는 사용할 수 없는지 확인 합니다. 사용자는 메시지를 정크 메일 이나 피싱이 아닌 메시지로 표시할 수는 있지만 사용자가 Microsoft에 보고 하지는 못합니다.
+- 영향 받는 사용자의 사서함을 웹에서 열고, 받은 편지함에서 메시지를 선택 하 고, **정크** \> **메일** 을 클릭 하 고, Microsoft에 게 메시지를 보고할지 묻는 메시지가 표시 되는지 확인 합니다.<sup>\*</sup>
+
+- 영향을 받는 사용자의 사서함을 웹에서 열고 정크 메일 폴더에서 메시지를 선택 하 고 **정크** \> **메일로 확인** 을 클릭 하 고 Microsoft에 게 메시지를 보고할지 여부를 묻는 메시지가 표시 되는지 여부를 결정 합니다.<sup>\*</sup>
+
+<sup>\*</sup>사용자는 메시지를 보고 하는 동안 메시지를 보고 하 라는 메시지가 표시 되지 않도록 숨길 수 있습니다. 웹용 Outlook에서이 설정을 확인 하려면:
+
+1. 웹 **설정 아이콘** ![](../../media/owa-settings-icon.png) \> 의 outlook 설정을 클릭 하 여 **모든 outlook 설정** \> **정크 메일**을 봅니다.
+2. **보고** 섹션 **에서 다음 값**을 확인 합니다.
+
+   ![웹용 Outlook 정크 메일 보고 설정](../../media/owa-junk-email-reporting-options.png)
