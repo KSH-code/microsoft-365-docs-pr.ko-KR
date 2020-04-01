@@ -255,12 +255,14 @@
                 - name: Microsoft에 메시지와 파일 보고
                   href: ./office-365-security/report-junk-email-messages-to-microsoft.md
                   items:
-                    - name: '관리자 제출을 사용하여 의심스러운 스팸, 피싱, URL 및 파일을 Microsoft에 제출'
+                    - name: 관리자 제출 사용
                       href: ./office-365-security/admin-submission.md
                     - name: 보고서 메시지 추가 기능을 사용하도록 설정
                       href: ./office-365-security/enable-the-report-message-add-in.md
                     - name: 정크 전자 메일 보고 추가 기능 설치 및 사용
                       href: ./office-365-security/junk-email-reporting-add-in-for-microsoft-outlook.md
+                    - name: 웹용 Outlook에서 정크 전자 메일 및 피싱 보고
+                      href: ./office-365-security/report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md
                     - name: 수동으로 Microsoft에 메시지 제출
                       href: ./office-365-security/submit-spam-non-spam-and-phishing-scam-messages-to-microsoft-for-analysis.md
                     - name: 맬웨어 및 비 맬웨어를 Microsoft에 제출
