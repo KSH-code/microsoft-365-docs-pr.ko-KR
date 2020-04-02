@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 43c6f5db64c929fcdb8a9f64e9fc27d472d65ba8
-ms.sourcegitcommit: 242588d7f5f96a2a937317541ef3976541ff81d8
+ms.openlocfilehash: f04d2e587a55a680a65425b34a88896466e09be3
+ms.sourcegitcommit: 9ca28ae8f7804eb488cf76ca4b09fe88787e0a49
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43100902"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43113462"
 ---
 # <a name="microsoft-threat-protection-preview-features"></a>Microsoft Threat Protection 미리 보기 기능
 
@@ -51,6 +51,9 @@ Microsoft Threat Protection 서비스는 새로운 기능 향상 및 기능을 �
 3. **미리 보기 기능** > 을 선택 하 여**미리 보기 기능을 켭니다**. 
 
 3. **저장**을 선택합니다.
+
+**미리 보기 기능 켜기** 확인란이 선택 되어 있으면 미리 보기 기능이 설정 되어 있는 것을 알 수 있습니다. 
+
 
 
 ## <a name="preview-features"></a>미리 보기 기능

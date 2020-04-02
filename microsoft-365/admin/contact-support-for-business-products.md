@@ -24,12 +24,12 @@ search.appverid:
 ms.assetid: 32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b
 description: 해당 지역 또는 현지 전화 번호를 사용하거나 온라인으로 서비스 요청을 제출하거나 Microsoft store를 방문하여 기술 및 청구 지원을 받습니다.
 feedback_system: None
-ms.openlocfilehash: 7fdd2f1232fe20d55ef54f72333d35ff6de8d41e
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: b77f08b8e0734cfa7629a5c5d61f22d63ef6328c
+ms.sourcegitcommit: e695bcfc69203da5d3d96f3d6a891664a0e27ae2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42352949"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43106063"
 ---
 # <a name="contact-support-for-business-products---admin-help"></a>비즈니스 제품에 대해 고객 지원 센터 문의 - 관리자 도움말
 
@@ -95,7 +95,7 @@ Office 365 또는 Microsoft 365 비즈니스 지원 전화번호가 위에 나�
 
 ### <a name="community-and-self-service-support-options"></a>커뮤니티 및 셀프 서비스 지원 옵션
 
-셀프 서비스 지원은 21Vianet 사용자가 운영하는 모든 Office 365에 대해 제공되며 문제 해결 도구/비디오, 도움말 문서/비디오 및 [Office 365 커뮤니티](https://go.microsoft.com/fwlink/p/?linkid=842838)의 포럼/Wiki를 포함합니다. 셀프 서비스 지원 리소스에 대한 자세한 내용은 [21Vianet에서 운영하는 Office 365 알아보기](/services-in-china/services-in-china.md)를 참조하세요.
+셀프 서비스 지원은 21Vianet 사용자가 운영하는 모든 Office 365에 대해 제공되며 문제 해결 도구/비디오, 도움말 문서/비디오 및 [Office 365 커뮤니티](https://go.microsoft.com/fwlink/p/?linkid=842838)의 포럼/Wiki를 포함합니다. 셀프 서비스 지원 리소스에 대한 자세한 내용은 [21Vianet에서 운영하는 Office 365 알아보기](services-in-china/services-in-china.md)를 참조하세요.
 
 ### <a name="pre-sales-support"></a>사전 판매 지원
 

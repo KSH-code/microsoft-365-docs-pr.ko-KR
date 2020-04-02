@@ -15,13 +15,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.date: 02/21/2020
-ms.openlocfilehash: 09cf8e74cb52d75d454fec371ee965978851b5e5
-ms.sourcegitcommit: 74bf600424d0cb7b9d16b4f391aeda7875058be1
+ms.openlocfilehash: 1507a88a37591c43ce612f3c18d946403a85f41f
+ms.sourcegitcommit: e695bcfc69203da5d3d96f3d6a891664a0e27ae2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/22/2020
-ms.locfileid: "42230071"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43106187"
 ---
 # <a name="whats-new-in-office-365-atp"></a>Office 365 ATP의 새로운 기능
 
@@ -36,6 +35,7 @@ ms.locfileid: "42230071"
 
 ## <a name="januaryfebruary-2020"></a>1 월/2 월 2020 일
 
+- [Office 365 ATP의 일반 캠페인 보기 가용성](campaigns.md)
 - 보안 운영 팀이 [전자 메일을 조사](investigate-malicious-email-that-was-delivered.md)하는 동안 여러 필드를 검색 및 필터링 할 수 있도록 [위협 탐색기](threat-explorer.md) 가 향상 되었습니다.
     - 배달 위치 및 특수 작업
     - 방향성 (인바운드, 아웃 바운드 또는 조직 내)

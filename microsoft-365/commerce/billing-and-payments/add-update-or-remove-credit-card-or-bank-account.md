@@ -24,12 +24,12 @@ search.appverid:
 - BEA160
 ms.assetid: 30ba9c83-50d8-4020-90ed-830a5b8c8724
 description: Microsoft 365 관리 센터에서 결제 방법을 관리 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 47635f5fe5ffd37fbd33c258ab1df729dfc13399
-ms.sourcegitcommit: 6adfcf042e64b21f09f2b8e072e8eba6d3479e31
+ms.openlocfilehash: be03d4b779c0592d47b23c4cf1fd491b7c8f455e
+ms.sourcegitcommit: e695bcfc69203da5d3d96f3d6a891664a0e27ae2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2020
-ms.locfileid: "42952009"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43106051"
 ---
 # <a name="add-update-or-remove-your-payment-methods"></a>결제 방법 추가, 업데이트 또는 제거
 
@@ -234,7 +234,7 @@ ms.locfileid: "42952009"
   
 4. 신용 카드 또는 은행 계좌 정보 (신용 카드 또는 은행 계좌에 있는 이름, 청구지 주소)를 업데이트 합니다. 필요한 경우 전화 번호 또는 만료 날짜)를 선택한 다음 **제출을**선택 합니다.
 
-5. 확인 메시지가 표시됩니다. 메시지가 나타나지 않으면 [신용 카드 및 은행 계좌 문제 해결](#troubleshooting-credit-cards-and-bank-accounts)을 참조하세요.
+5. 확인 메시지가 표시됩니다. 그렇지 않으면이 문서 뒷부분의 "신용 카드 및 은행 계좌 문제 해결"을 참조 하세요.
 
     !["결제 방법이 성공적으로 업데이트 되었습니다." 라는 확인 메시지가 나타납니다.](../../media/23b4aa8e-f5d5-4535-92a2-9111a270f097.png)
 
@@ -262,7 +262,7 @@ ms.locfileid: "42952009"
   
 4. 신용 카드 또는 은행 계좌 정보 (신용 카드 또는 은행 계좌에 있는 이름, 청구지 주소)를 업데이트 합니다. 필요한 경우 전화 번호 또는 만료 날짜)를 선택한 다음 **제출을**선택 합니다.
 
-5. 확인 메시지가 표시됩니다. 메시지가 나타나지 않으면 [신용 카드 및 은행 계좌 문제 해결](#troubleshooting-credit-cards-and-bank-accounts)을 참조하세요.
+5. 확인 메시지가 표시됩니다. 그렇지 않으면이 문서 뒷부분의 "신용 카드 및 은행 계좌 문제 해결"을 참조 하세요.
 
     !["결제 방법이 성공적으로 업데이트 되었습니다." 라는 확인 메시지가 나타납니다.](../../media/23b4aa8e-f5d5-4535-92a2-9111a270f097.png)
 

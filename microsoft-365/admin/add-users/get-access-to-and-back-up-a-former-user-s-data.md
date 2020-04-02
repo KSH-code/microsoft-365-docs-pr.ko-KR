@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: a6f7f9ad-e3f5-43de-ade5-e5a0d7531604
 description: 사용자가 조직을 떠날 때 직원의 파일 및 전자 메일을 보존 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 3c7a63852ad20fc005f7a0f4e3f909474bda2a3c
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 2b608b51060e746d0b69fd887882b51735578496
+ms.sourcegitcommit: e695bcfc69203da5d3d96f3d6a891664a0e27ae2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42353199"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43105762"
 ---
 # <a name="get-access-to-and-back-up-a-former-users-data"></a>액세스 권한 받기 및 이전 사용자 데이터 백업
 
@@ -102,11 +102,15 @@ ms.locfileid: "42353199"
 
 1. 전역 관리자 또는 SharePoint 관리자로 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">관리 센터</a> 에 로그인 합니다. 
 
+    관리 센터에 액세스할 수 있는 권한이 없다는 메시지가 표시 되 면 조직에서 관리자 권한이 없는 것입니다.
+
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
 1. 전역 관리자 또는 SharePoint 관리자로 <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">관리 센터</a> 에 로그인 합니다.
+
+    관리 센터에 액세스할 수 있는 권한이 없다는 메시지가 표시 되 면 조직에서 관리자 권한이 없는 것입니다.
 
 ::: moniker-end
 
@@ -114,9 +118,9 @@ ms.locfileid: "42353199"
 
 1. 전역 관리자 또는 SharePoint 관리자로 <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">관리 센터</a> 에 로그인 합니다.
 
-::: moniker-end
+    관리 센터에 액세스할 수 있는 권한이 없다는 메시지가 표시 되 면 조직에서 관리자 권한이 없는 것입니다.
 
-   관리 센터에 액세스할 수 있는 권한이 없다는 메시지가 표시 되 면 조직에서 관리자 권한이 없는 것입니다.
+::: moniker-end
 
 2. 왼쪽 창에서 **관리 센터** \> **SharePoint**를 선택 합니다. (관리 센터의 목록을 보려면 **모두 표시**를 선택해야 할 수도 있습니다.)
 
@@ -162,7 +166,7 @@ ms.locfileid: "42353199"
   
     ![폴더를 선택 하 고 하위 폴더를 포함 하는 Outlook 데이터 파일 내보내기 대화 상자](../../media/ce36616f-d76d-4ce2-b517-8ac4874e0971.jpg)
   
-7.  Select **Next**. 
+7. **다음**을 선택합니다.
     
 8. **찾아보기를** 선택 하 여 Outlook 데이터 파일 (.pst)을 저장할 위치를 선택 합니다. *파일 이름을*입력 한 다음 **확인** 을 선택 하 여 계속 합니다. 
     
@@ -181,6 +185,10 @@ ms.locfileid: "42353199"
     
 Outlook 2010에서 [전자 메일, 연락처 및 일정을 outlook .pst 파일로 내보내거나 백업](https://support.office.com/article/14252b52-3075-4e9b-be4e-ff9ef1068f91.aspx) 하는 방법을 참조 하세요. 
   
+  
+  > [!NOTE]
+  > 기본적으로 12 개월 동안 전자 메일을 오프 라인으로 사용할 수 있습니다. 필요한 경우 [오프 라인에서 사용할 수 있는 데이터를 늘리는](Https://docs.microsoft.com/outlook/troubleshoot/mailboxes/only-subset-items-synchronized)방법을 참조 하세요.
+ 
 ## <a name="give-another-user-access-to-a-former-users-email"></a>다른 사용자에 게 이전 사용자의 전자 메일에 대 한 액세스 권한 부여 
 
 다른 직원에 게 이전 직원의 전자 메일 메시지, 일정, 작업 및 연락처에 대 한 액세스 권한을 부여 하려면 해당 정보를 다른 직원의 Outlook 받은 편지 함으로 가져옵니다.
@@ -203,13 +211,16 @@ Outlook 2010에서 [전자 메일, 연락처 및 일정을 outlook .pst 파일�
     
 5. **옵션**에서 중복 항목을 처리할 방법을 선택 합니다.
     
-6.  Select **Next**. 
+6. **다음**을 선택합니다.
     
 7. 암호를 Outlook 데이터 파일 (.pst)에 할당 한 경우 암호를 입력 하 고 **확인**을 선택 합니다.
     
 8. 항목 가져오기에 대 한 옵션을 설정 합니다. 기본 설정은 대개 변경할 필요가 없습니다.
     
 9. Select **Finish**.
+
+> [!NOTE]
+> 이 단계는 기존 사용자의 OneDrive 및 전자 메일 데이터에 액세스 하는 경우에도 동일 하 게 유지 됩니다.
     
 > [!TIP]
 > Outlook 데이터 파일 (.pst)에서 항목을 몇 개 가져오거나 복원 하려는 경우 Outlook 데이터 파일을 열 수 있습니다. 그런 다음 탐색 창에서 Outlook 데이터 파일 폴더의 항목을 기존 Outlook 폴더로 끌어 놓습니다. 
@@ -224,4 +235,3 @@ Outlook 2010에서 [전자 메일, 연락처 및 일정을 outlook .pst 파일�
   
 [OneDrive 보존 및 삭제](/onedrive/retention-and-deletion)
   
-
