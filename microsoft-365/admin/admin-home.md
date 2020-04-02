@@ -16,12 +16,12 @@ ms.collection:
 ms.assetid: b9acfd4c-df82-4eb5-a652-232a6829870a
 description: Microsoft 365 관리자에게 제공되는 리소스에 대해 알아보세요.
 ms.custom: okr_smb
-ms.openlocfilehash: cafb63d53178a2cc21448643ba9fd78773265aa8
-ms.sourcegitcommit: 2b626a7924b4be08f6eb21181453b778e6fde418
+ms.openlocfilehash: e38c15d0e68e908bada941443b019e9f243c7f11
+ms.sourcegitcommit: 4d4d27a49eb258dc560439ca4baf61ebb9c1eff3
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43046918"
+ms.lasthandoff: 03/31/2020
+ms.locfileid: "43075599"
 ---
 # <a name="microsoft-365-admin-help-center"></a>Microsoft 365 관리자 도움말 센터
 
@@ -41,11 +41,11 @@ ms.locfileid: "43046918"
                         <h3>Office 365가 Microsoft 365로 바뀝니다.</h3>
                         <p>몇 가지 Office 365 및 Microsoft 365 구독 이름이 변경되고 있습니다. 사용자는 아무 작업도 수행할 필요가 없습니다. 서비스, 앱 및 기능은 구독 가격과 함께 똑같이 유지됩니다. Microsoft 365 관리 센터에서 구독 이름이 자동으로 업데이트되고 청구서는 2020년 4월 21일에 또는 그 이후에 업데이트됩니다.</p>
                         <ul>
-                            <li><p>Office 365 Business Essentials는 이제 Microsoft 365 Business Basic으로 변경됩니다.</p></li>
-                            <li><p>Office 365 Business Premium은 이제 Microsoft 365 Business Standard로 변경됩니다.</p></li>
-                            <li><p>Microsoft 365 Business는 이제 Microsoft 365 Business Premium으로 변경됩니다.</p></li>
-                            <li><p>Office 365 Business는 이제 비즈니스용 Microsoft 365 Apps로 변경됩니다.</p></li>
-                            <li><p>Office 365 ProPlus는 이제 엔터프라이즈용 Microsoft 365 Apps로 변경됩니다.</p></li>
+                            <li><p><b>Office 365 Business Essentials</b>는 이제 <b>Microsoft 365 Business Basic</b>으로 변경됩니다.</p></li>
+                            <li><p><b>Office 365 Business Premium</b>은 이제 <b>Microsoft 365 Business Standard</b>로 변경됩니다.</p></li>
+                            <li><p><b>Microsoft 365 Business</b>는 이제 <b>Microsoft 365 Business Premium</b>으로 변경됩니다.</p></li>
+                            <li><p><b>Office 365 Business</b>는 이제 <b>비즈니스용 Microsoft 365 앱</b>로 변경됩니다.</p></li>
+                            <li><p><b>Office 365 ProPlus</b>는 이제 <b>엔터프라이즈용 Microsoft 365 앱</b>으로 변경됩니다.</p></li>
                         </ul>
                         <p><a href="https://go.microsoft.com/fwlink/?linkid=2120533">자세한 정보</a></p>
                     </div>
