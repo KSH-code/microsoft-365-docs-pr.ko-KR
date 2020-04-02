@@ -15,14 +15,16 @@ search.appverid:
 - MOE150
 - MET150
 description: Cohasset Associates는 Exchange Online 및 Security & Compliance Center가 권장대로 구성되어 있으면 CFTC 규칙 1.31 (c) - (d), FINRA 규칙 4511 및 SEC 규칙 17a-4의 관련 저장소 요구 사항을 충족함을 확인했습니다. 평가판을 다운로드할 수 있습니다.
-ms.openlocfilehash: d2f92f97ba15bcce9466e8886198c7502c41732b
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: bf54bf5798d4bbb5b655cc367330bbb50de7f7b2
+ms.sourcegitcommit: e695bcfc69203da5d3d96f3d6a891664a0e27ae2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42069262"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43106126"
 ---
 # <a name="use-exchange-online-and-the-security--compliance-center-to-comply-with-sec-rule-17a-4"></a>SEC Rule 17a-4를 준수하기 위해 Exchange Online과 보안 및 준수 센터 사용
+
+>*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](https://aka.ms/ComplianceSD).*
 
 조직에서 데이터 보존 을위한 규제 표준을 준수해야하는 경우 Office 365 보안 및 준수 센터는 Exchange Online에서 데이터 수명주기를 관리하는 기능을 제공합니다. 여기에는 데이터를 보존, 감사, 검색 및 내보내기 기능이 포함됩니다. 이러한 기능은 대부분의 조직의 요구를 충족하기에 충분합니다.
 

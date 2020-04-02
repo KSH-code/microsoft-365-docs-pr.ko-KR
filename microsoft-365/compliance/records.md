@@ -17,14 +17,16 @@ search.appverid:
 - MOE150
 - MET150
 description: Office 365 또는 Microsoft 조직에서 레코드 관리 전략을 구현하려면 콘텐츠를 레코드로 선언하는 보존 레이블을 사용합니다. 그런 다음 보존 레코드 레이블을 게시하거나 자동으로 적용합니다.
-ms.openlocfilehash: e92ec8be90d27696538f46e5609f6dc039200136
-ms.sourcegitcommit: 3b6e226d07b5227054d5c8d1a012694caf88f50a
+ms.openlocfilehash: ba69c9705c14c2f836f67c8747d30ee2280c6d99
+ms.sourcegitcommit: e695bcfc69203da5d3d96f3d6a891664a0e27ae2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42586730"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43106146"
 ---
 # <a name="overview-of-records"></a>레코드 개요
+
+>*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](https://aka.ms/ComplianceSD)*
 
 Microsoft 365에서 레코드 관리를 사용하면 조직은 회사 정책, 법적 고지 사항 및 규제 의무를 준수하는 동시에 위험과 법적 책임을 줄일 수 있습니다.
 
@@ -79,10 +81,6 @@ Microsoft 365에서 레코드 관리를 사용하면 조직은 회사 정책, �
    ![레이블을 사용하여 콘텐츠를 레코드로 분류 확인란을 클릭합니다.](../media/recordversioning6.png)
 
 3. SharePoint 사이트 및/또는 OneDrive 계정에 대한 보존 레이블을 [게시](labels.md#how-retention-labels-work-with-retention-label-policies)하거나 [자동 적용](labels.md#applying-a-retention-label-automatically-based-on-conditions)합니다.
-
-> [!NOTE]
-> [보존 레이블](labels.md)를 사용하여 항목을 레코드로 선언하는 경우에는 이 위치에서 콘텐츠를 편집할 수 있는 권한이 있는 각 사용자에 대해 Office 365 Enterprise E5 라이선스 또는 동등한 권한이 필요합니다. 읽기 전용 권한이 있는 사용자는 라이선스가 필요 없습니다.
-
 
 ### <a name="applying-a-retention-label-to-content"></a>콘텐츠에 보존 레이블 적용
 

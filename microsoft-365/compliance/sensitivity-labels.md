@@ -17,14 +17,16 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft Information Protection 프레임 워크의 민감도 레이블을 사용하여 조직의 데이터를 분류하고 보호하는 동시에 사용자 생산성과 공동 작업 능력이 방해받지 않도록 하십시오. 이 레이블은 바닥글 및 워터마크와 같은 암호화 시각적 표시가 포함된 보호 설정을 적용할 수 있습니다.
-ms.openlocfilehash: 7593774b4cb0786cc82988442bbca522ce534cc8
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: a67d71c16f93cf8872646c5bbeb072f8b5f07935
+ms.sourcegitcommit: e695bcfc69203da5d3d96f3d6a891664a0e27ae2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42634646"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43106156"
 ---
 # <a name="learn-about-sensitivity-labels"></a>민감도 레이블 알아보기
+
+>*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](https://aka.ms/ComplianceSD).*
 
 작업을 완료하기 위해 조직의 사용자는 조직 내부 및 외부의 다른 사용자와 공동으로 작업합니다. 이는 콘텐츠가 더 이상 방화벽 뒤에 있지 않으며 장치, 앱 및 서비스를 비롯한 모든 위치에서 로밍할 수 있음을 의미합니다. 또한 사용자는 로밍 중에는 조직의 비즈니스 및 준수 정책을 충족하는 안전하고 보호된 방식으로 진행하는 것이 좋습니다.
 

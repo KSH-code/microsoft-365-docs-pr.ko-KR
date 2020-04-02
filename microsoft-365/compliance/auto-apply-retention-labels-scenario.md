@@ -16,14 +16,16 @@ search.appverid:
 - MOE150
 - MET150
 description: 이 솔루션 시나리오에서는 Office 365 보존 레이블을 사용하여 SharePoint Online에 저장된 제품 관련 문서의 수명 주기를 관리하는 방법을 설명합니다. 이 작업은 문서 메타 데이터를 사용하여 콘텐츠를 분류하고 특히 Office 365 보존 레이블을 자동으로 적용하며 이벤트 기반 보존을 구성하여 수행됩니다.
-ms.openlocfilehash: aa73feecbfaa830b2297a5c64f653c4da4d4b325
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: bccfb7d20bfcca6476ce5fa971a2ab0c455824a5
+ms.sourcegitcommit: e695bcfc69203da5d3d96f3d6a891664a0e27ae2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42079527"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43106040"
 ---
 # <a name="manage-the-lifecycle-of-sharepoint-documents-with-retention-labels"></a>보존 레이블을 사용하여 SharePoint 문서의 수명 주기 관리
+
+>*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](https://aka.ms/ComplianceSD)*
 
 이 문서에서는 Office 365 보존 레이블을 사용하고 레이블을 자동으로 적용하며 이벤트 기반 보존을 구성하여 SharePoint Online에 저장된 제품 관련 문서의 수명주기를 관리하는 방법에 대해 설명합니다. 자동 적용 기능은 SharePoint 메타 데이터를 사용하여 문서 분류를 활용합니다. 이 문서의 시나리오는 제품 관련 문서를 기반으로 하지만 다른 시나리오에도 동일한 개념을 사용할 수 있습니다. 예를 들어 석유 및 가스 산업에서는 석유 플랫폼, 석유정 로그 또는 생산 라이선스와 같은 물리적 자산과 관련된 문서의 수명주기를 관리할 수 있습니다. 금융 서비스 산업에서는 은행 계좌, 모기지 또는 보험 계약과 관련된 문서를 관리할 수 있습니다. 공공 부문에서는 건설 허가 또는 세금 양식과 관련된 문서를 관리할 수 있습니다.
 
