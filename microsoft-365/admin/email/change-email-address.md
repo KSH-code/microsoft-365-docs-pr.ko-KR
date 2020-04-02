@@ -24,12 +24,12 @@ search.appverid:
 - GEA150
 ms.assetid: f4d8cae9-6d06-4c4b-b4e5-6581fd05ea82
 description: '초기 전자 메일 주소를 tom@fourthcoffee.com와 같은 친숙 한 전자 메일 주소로 변경 합니다. 이렇게 하려면 도메인 이름을 구입 하 여 Office 365에 추가 해야 합니다. '
-ms.openlocfilehash: 3e01f0bfb97fbef762fbd7162944ca25d882f142
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 1c3c77f9626cdf292e0fb9400070cef3df05a9d6
+ms.sourcegitcommit: 8edad75338cf74712ca1ab5d6631b9b52ff54410
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42255315"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43115980"
 ---
 # <a name="change-your-email-address-to-use-your-custom-domain"></a>사용자 지정 도메인을 사용하도록 전자 메일 주소 변경
 
@@ -77,7 +77,7 @@ Office 365 독일의 초기 전자 메일 주소에는 tom@fourthcoffee.onmicros
 
 ::: moniker-end 
 
-2. **설정** > **도메인** 페이지로 이동 합니다. 
+2. **도메인** **설정** > 페이지로 이동 합니다. 
 
 3. **도메인** 페이지에서 **도메인 추가**를 선택 합니다.
     

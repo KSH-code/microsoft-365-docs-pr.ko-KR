@@ -21,12 +21,12 @@ search.appverid:
 - GEA150
 ms.assetid: 40398b0b-bdd0-4afd-ab5e-b5ae6b7990bf
 description: DNS 레코드가 올바르게 설정 되어 있는지 확인 하 여 사용자 지정 도메인을 설정 하는 동안 실행 한 문제를 추적 하는 방법을 설명 합니다.
-ms.openlocfilehash: 277e87ad6b06db0b1ef3b3cb5eaaa45a2e77ed6f
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: a93318d54b950b908319fe50a0cfedefe8586036
+ms.sourcegitcommit: 8edad75338cf74712ca1ab5d6631b9b52ff54410
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42255139"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43115979"
 ---
 # <a name="find-and-fix-issues-after-adding-your-domain-or-dns-records-in-office-365"></a>Office 365에서 도메인 또는 DNS 레코드를 추가한 후 문제 찾기 및 해결
 
@@ -35,7 +35,7 @@ ms.locfileid: "42255139"
 Office 365에서 사용자 도메인을 사용하도록 설정하는 일은 어려울 수 있습니다. DNS 시스템은 번거로우며, 도메인에 대한 DNS 설정은 전자 메일처럼 중요한 비즈니스 활동에 영향을 줍니다.
 
 > [!NOTE]
-> 해당 상태를 확인 하 여 도메인에 문제가 있는지 확인할 수 있습니다. **설정** > **도메인** 으로 이동 하 여 **상태** 열에서 알림을 확인 합니다. 문제가 표시 되 면 추가 작업 (점 3 개)을 선택한 다음 **상태 확인**을 선택 합니다. 열리는 창에는 도메인에서 발생 하는 문제에 대 한 설명이 포함 됩니다.
+> 해당 상태를 확인 하 여 도메인에 문제가 있는지 확인할 수 있습니다. **설치** > **도메인** 으로 이동 하 여 **상태** 열에서 알림을 확인 합니다. 문제가 표시 되 면 추가 작업 (점 3 개)을 선택한 다음 **상태 확인**을 선택 합니다. 열리는 창에는 도메인에서 발생 하는 문제에 대 한 설명이 포함 됩니다.
   
 ## <a name="whats-going-on"></a>무슨 일이죠?
 
