@@ -16,27 +16,24 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 4db0b40d485c4c1107bdcb0d49616cadb15b1915
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 7d2f4fe685e17690b76124517468e0eceec8b414
+ms.sourcegitcommit: 825037f166eea3ba70f8980cedc5492f90c1cc56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42072181"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43097221"
 ---
 # <a name="load-non-office-365-data-into-evidence"></a>비 Office 365 데이터를 증거에 로드
 
 데이터 조사에서 분석을 수행 하는 데 필요한 모든 문서는 Office 365에 있습니다. Office가 아닌 365 콘텐츠 가져오기 기능을 사용 하 여 Office 365에 없는 문서를 데이터 조사에서 분석할 수 있도록 증거에 업로드할 수 있습니다.
 
->[!Note]
->데이터를 조사 하려면 고급 준수 추가 기능 또는 조직에 대 한 E5 구독을 포함 하는 Office 365 E3이 필요 합니다. 고급 eDiscovery를 만들려고 하는 계획이 없는 경우 Office 365 Enterprise E5의 평가판에 등록할 수 있습니다.
-
 ## <a name="before-you-begin"></a>시작하기 전에
 
 이 절차에 설명 된 대로 Office 이외에 업로드 365 기능을 사용 하려면 다음이 필요 합니다.
 
-- 고급 규정 준수 추가 기능 또는 E5 구독을 포함 하는 Office 365 E3
+- Microsoft 365 또는 Office 365 E5 구독
 
-- 비 Office 365 콘텐츠가 업로드 되는 모든 custodians에는 고급 규정 준수 추가 기능 또는 E5 라이선스가 포함 된 E3이 있어야 합니다.
+- 비 Office 365 콘텐츠가 업로드 될 모든 사용자에 게는 해당 E5 또는 E5 추가 기능 라이선스가 있어야 합니다.
 
 - 기존 eDiscovery 사례
 
@@ -48,7 +45,7 @@ ms.locfileid: "42072181"
 
 ## <a name="upload-non-office-365-content-in-to-a-data-investigation"></a>Office 이외 365 콘텐츠를 데이터 조사에 업로드
 
-1. * * * * 데이터 조사 * *를 연 다음 비 Office 365 데이터가 업로드 될 조사를 확인 합니다.  **증거 자료** 탭을 클릭 한 다음 비 Office 365 데이터를 로드할 증거를 선택 합니다.  증명 정보 집합을 아직 만들지 않은 경우 지금 수행할 수 있습니다.  마지막으로 **증거 관리** 를 클릭 하 고 비 Office 365 데이터 섹션에서 **업로드를 확인** 합니다.
+1. **데이터 조사** 를 열고 비 Office 365 데이터를 업로드할 조사로 이동 합니다.  **증거 자료** 탭을 클릭 한 다음 비 Office 365 데이터를 로드할 증거를 선택 합니다.  증명 정보 집합을 아직 만들지 않은 경우 지금 수행할 수 있습니다.  마지막으로 **증거 관리** 를 클릭 하 고 비 Office 365 데이터 섹션에서 **업로드를 확인** 합니다.
 
 2. **파일 업로드** 단추를 클릭 하 여 비 Office 365 데이터 가져오기 마법사를 시작 합니다.
 

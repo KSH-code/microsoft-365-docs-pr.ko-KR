@@ -16,25 +16,22 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: 고급 eDiscovery 사례에서 Office 이외 365 데이터를 검토 집합으로 가져옵니다.
-ms.openlocfilehash: ae5effafd8a208d3c03ce40e03c9da2b0ea6b8d1
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 816519fcaa8dc5172dbb5c369a3ec191585d3647
+ms.sourcegitcommit: 825037f166eea3ba70f8980cedc5492f90c1cc56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42072213"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43097231"
 ---
 # <a name="load-non-office-365-data-into-a-review-set"></a>검토 집합에 비 Office 365 데이터 로드
 
 고급 eDiscovery에서 분석 하는 데 필요한 모든 문서가 Office 365에 있습니다. 고급 eDiscovery의 비 Office 365 데이터 가져오기 기능을 사용 하 여 Office 365에 없는 문서를 검토 집합에 업로드할 수 있습니다. 이 문서에서는 분석을 위해 비 Office 365 문서를 고급 eDiscovery로 가져오는 방법을 설명 합니다.
 
->[!Note]
->고급 eDiscovery에는 조직에 대 한 Microsoft 365 또는 Office 365 E5 구독 또는 고급 준수 추가 기능 구독이 포함 된 E3 구독이 필요 합니다. 고급 eDiscovery를 만들려고 하는 계획이 없는 경우 Office 365 Enterprise E5의 평가판에 등록할 수 있습니다.
-
 ## <a name="before-you-begin"></a>시작하기 전에
 
 이 문서에서 설명 하는 Office 이외 365 업로드 기능을 사용 하려면 다음이 필요 합니다.
 
-- 비 Office 365 콘텐츠를 연결 하려는 모든 custodians에는 E5 라이선스 또는 고급 준수 추가 기능 라이선스가 포함 된 E3 라이선스가 할당 되어야 합니다.
+- Office 이외의 365 콘텐츠를 연결 하려는 모든 custodians에 적절 한 라이선스가 할당 되어야 합니다. 자세한 내용은 [Advanced eDiscovery 시작](get-started-with-advanced-ediscovery.md#step-1-verify-and-assign-appropriate-licenses)하기를 참조 하세요.
 
 - 기존 고급 eDiscovery 사례
 
@@ -61,7 +58,7 @@ ms.locfileid: "42072213"
 
 ## <a name="upload-non-office-365-content-into-advanced-ediscovery"></a>Office 이외의 365 콘텐츠를 고급 eDiscovery에 업로드
 
-1. EDiscovery 관리자 또는 eDiscovery 관리자로 서, 고급 eDiscovery를 열고 비 Office 365 데이터가 업로드 되는 사례를 엽니다.  
+1. EDiscovery 관리자 또는 eDiscovery 관리자로 이동 하 여 고급 eDiscovery를 열고 비 Office 365 데이터를 업로드 해야 하는 경우를 진행 합니다.  
 
 2. **검토 집합**을 클릭 한 다음 검토 집합을 선택 하 여 비 Office 365 데이터를 업로드 합니다.  검토 집합이 없는 경우에는 해당 집합을 만들 수 있습니다. 
  

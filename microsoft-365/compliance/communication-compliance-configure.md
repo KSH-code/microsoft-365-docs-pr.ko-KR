@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 87be266fe9c117afdaf68b66db5d4cf4c7a3d94e
-ms.sourcegitcommit: ce6121a8e3ca7438071d73b0c76e2b6f33ac1cf7
+ms.openlocfilehash: 6d60693e8e67ba91341e01c80a213b75e821721b
+ms.sourcegitcommit: 242588d7f5f96a2a937317541ef3976541ff81d8
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "43029894"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43100881"
 ---
 # <a name="configure-communication-compliance-in-microsoft-365"></a>Microsoft 365에서 통신 준수 구성
 
@@ -34,11 +34,23 @@ ms.locfileid: "43029894"
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
-통신 준수를 시작 하기 전에 Microsoft 365 구독을 확인 해야 합니다. 통신 준수 정책에 포함 된 사용자에 게는 Microsoft 365 E5 준수 라이선스, Advanced 준수 추가 기능이 포함 된 Office 365 Enterprise E3 라이선스 또는 Office 365 Enterprise E5 구독에 포함 되거나 Microsoft에 포함 되어야 합니다. 365 E5 구독
+통신 준수를 시작 하기 전에 [Microsoft 365 구독](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans) 및 모든 추가 기능을 확인 해야 합니다. 통신 준수를 액세스 하 고 사용 하려면 조직에 다음 구독 또는 추가 기능 중 하나가 있어야 합니다.
+
+- Microsoft 365 E5 구독 (유료 또는 평가판 버전)
+- Microsoft 365 E3 구독 + Microsoft 365 E5 준수 추가 기능
+- Microsoft 365 E3 구독 + Microsoft 365 E5 참가자 위험 관리 추가 기능
+- Microsoft 365 A5 구독 (유료 또는 평가판 버전)
+- Microsoft 365 A3 구독 + Microsoft 365 A5 규정 준수 추가 기능
+- Microsoft 365 A3 구독 + Microsoft 365 A5 참가자 위험 관리 추가 기능
+- Office 365 Enterprise E5 구독 (유료 또는 평가판 버전)
+- Office 365 Enterprise E3 구독 + Office 365 고급 준수 추가 기능
+
+통신 준수 정책에 포함 된 사용자에 게는 위의 라이선스 중 하나를 할당 해야 합니다.
+
+>[!IMPORTANT]
+>Office 365 고급 규정 준수는 더 이상 독립 실행형 구독으로 판매 되지 않습니다. 현재 구독이 만료 되 면 고객은 위의 구독 중 하나로 전환 해야 하며, 이러한 기능은 동일 하거나 추가 준수 기능이 포함 되어 있습니다.
 
 Microsoft 365 Enterprise E5 요금제가 아직 없는 경우 microsoft 365을 기존 Office 365 구독에 [추가](https://docs.microsoft.com/office365/admin/try-or-buy-microsoft-365) 하거나 Microsoft 365 Enterprise E5 [평가판에 등록할](https://www.microsoft.com/microsoft-365/enterprise) 수 있습니다.
-  
-다음 단계를 완료 하 여 Microsoft 365 조직에서 통신 준수를 설정 및 사용 합니다.
 
 ## <a name="step-1-required-enable-permissions-for-communication-compliance"></a>1 단계 (필수 사항): 통신 준수에 대 한 사용 권한 설정
 

@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 5b9a067b-9d2e-4aa5-bb33-99d8c0d0b5d7
 description: 보안 & 준수 센터를 사용 하 여 eDiscovery 관련 작업을 수행 하는 데 필요한 사용 권한을 할당 합니다.
-ms.openlocfilehash: 32dc7e9a01211fcd0d1441c2434385ecd611d585
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+ms.openlocfilehash: 30d1a288236678c3daef0a9aaa134d49fea127af
+ms.sourcegitcommit: 825037f166eea3ba70f8980cedc5492f90c1cc56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42556816"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43097211"
 ---
 # <a name="assign-ediscovery-permissions-in-the-security--compliance-center"></a>보안 & 준수 센터에서 eDiscovery 권한 할당
 
@@ -30,9 +30,9 @@ ms.locfileid: "42556816"
   
 보안 & 준수 센터의 기본 eDiscovery 관련 역할 그룹을 **EDiscovery 관리자**라고 합니다. 이 역할 그룹에는 두 개의 하위 그룹이 있습니다. 
   
-- **ediscovery** 관리자-ediscovery Manager는 보안 & 준수 센터의 콘텐츠 검색 도구를 사용 하 여 조직의 콘텐츠 위치를 검색 하 고 미리 보기 및 검색 결과 내보내기와 같은 다양 한 검색 관련 작업을 수행할 수 있습니다. 또한 구성원은 eDiscovery 사례 및 고급 eDiscovery 사례를 만들고 관리 하 고, 사례에 구성원을 추가 및 제거 하 고, 사례 보류를 만들고, 사례와 연결 된 검색을 실행 하 고, 사례 데이터에 액세스할 수 있습니다. eDiscovery 관리자는 자신이 만드는 사례에 액세스 하 고 관리할 수만 있습니다. 다른 eDiscovery 관리자가 만든 사례에 액세스 하거나 관리할 수 없습니다. 
+- **ediscovery** 관리자-ediscovery Manager는 보안 & 준수 센터의 콘텐츠 검색 도구를 사용 하 여 조직의 콘텐츠 위치를 검색 하 고 미리 보기 및 검색 결과 내보내기와 같은 다양 한 검색 관련 작업을 수행할 수 있습니다. 또한 구성원은 eDiscovery 사례 및 고급 eDiscovery 사례를 만들고 관리 하 고, 사례에 구성원을 추가 및 제거 하 고, 사례 보류를 만들고, 사례와 연결 된 검색을 실행 하 고, 사례 데이터에 액세스할 수 있습니다. eDiscovery 관리자는 자신이 만드는 사례에 액세스 하 고 관리할 수만 있습니다. 다른 eDiscovery 관리자가 만든 사례에 액세스 하거나 관리할 수 없습니다.
     
-- **ediscovery** 관리자-ediscovery 관리자는 ediscovery 관리자 역할 그룹의 구성원이 며, ediscovery 관리자가 수행할 수 있는 동일한 콘텐츠 검색 및 사례 관리 관련 작업을 수행할 수 있습니다. 또한 eDiscovery 관리자(Administrator)는 다음과 같은 작업을 수행할 수 있습니다. 
+- **ediscovery** 관리자-ediscovery 관리자는 ediscovery 관리자 역할 그룹의 구성원이 며, ediscovery 관리자가 수행할 수 있는 동일한 콘텐츠 검색 및 사례 관리 관련 작업을 수행할 수 있습니다. 또한 eDiscovery 관리자(Administrator)는 다음과 같은 작업을 수행할 수 있습니다.
     
   - 보안 & 준수 센터의 **eDiscovery** 및 **고급 eDiscovery** 페이지에 나열 된 모든 경우에 액세스 합니다. 
 
@@ -40,10 +40,10 @@ ms.locfileid: "42556816"
     
   - 서비스 케이스의 구성원으로 자신을 추가한 후 eDiscovery 사례를 관리 합니다.
   
-  조직에서 eDiscovery 관리자가 필요한 이유는 [추가 정보](#more-information) 섹션을 참조 하십시오. 
+  조직에서 eDiscovery 관리자가 필요한 이유는 [추가 정보](#more-information) 섹션을 참조 하십시오.
 
 > [!NOTE]
-> 고급 eDiscovery를 사용 하 여 사용자 데이터를 분석 하려면 데이터의 custodian 사용자에 게 Office 365 또는 Microsoft E5 라이선스를 할당 해야 합니다. 또는 Office 365 E1 또는 E3 라이선스를 사용 하는 사용자에 게 고급 준수 추가 기능 라이선스를 할당할 수 있습니다. Microsoft 365 E1 또는 E3 라이선스를 사용 하는 사용자에 게 E5 준수 추가 기능 라이선스를 할당할 수 있습니다. 서비스 케이스에 할당 되 고 고급 eDiscovery를 사용 하 여 데이터를 분석 하는 관리자 및 규정 준수 직원은 E5 라이선스가 필요 하지 않습니다.  
+> 고급 eDiscovery를 사용 하 여 사용자 데이터를 분석 하려면 사용자 (데이터 custodian)에 Office 365 E5 또는 Microsoft E5 라이선스를 할당 해야 합니다. 또는 E1 또는 E3 라이선스를 사용 하는 사용자에 게 E5 추가 기능 라이선스를 할당할 수 있습니다. 관리자, 규정 준수 담당자 또는 구성원으로 사례에 할당 되 고 고급 eDiscovery를 사용 하 여 데이터를 수집, 확인 및 분석 하는 데에는 E5 라이선스가 필요 하지 않습니다. 라이선스에 대 한 자세한 내용은 [보안 & 준수에 대 한 Microsoft 365 라이선스 지침](https://aka.ms/complianceSD)을 참조 하세요.
   
 ## <a name="before-you-begin"></a>시작하기 전에
 

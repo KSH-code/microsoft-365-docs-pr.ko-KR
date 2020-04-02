@@ -12,30 +12,32 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 4b8bd0f8d540434410d9ebc2365789a669f455e1
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: e4f0f90ff7089ba72f7e8b452842d670d45a49f8
+ms.sourcegitcommit: 825037f166eea3ba70f8980cedc5492f90c1cc56
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42634776"
+ms.lasthandoff: 04/01/2020
+ms.locfileid: "43097197"
 ---
 # <a name="get-started-with-insider-risk-management"></a>참가자 위험 관리 시작
 
-참가자 위험 관리 정책을 사용 하 여 조직의 위험 경고에 대해 조치를 취할 위험 작업 및 관리 도구를 식별 합니다. 필수 구성 요소를 설정 하 고 참가자 위험 관리 정책을 구성 하려면 다음 단계를 완료 합니다.
+내부자 위험 관리 정책을 사용하여 위험 활동 및 관리 도구를 식별하고 조직의 위험 경고에 대한 조치를 수행합니다. 필수 구성 요소를 설정 하 고 참가자 위험 관리 정책을 구성 하려면 다음 단계를 완료 합니다.
 
 >[!IMPORTANT]
->Microsoft 365의 참가자 위험 관리 솔루션은 사용자 수준에서 내부 거 버 넌 스를 사용 하는 데 도움이 되는 거주자 수준 옵션을 제공 합니다. 테 넌 트 수준 관리자는 조직의 구성원에 대해이 솔루션에 대 한 액세스 권한을 제공 하 고 Microsoft 365 준수 센터에서 데이터 커넥터를 설정 하 여 사용자 수준 식별을 지원 하기 위해 관련 데이터를 가져올 수 있는 권한 설정 가능 위험한 활동 고객은 개별 사용자 동작, 문자 또는 고용와 관련 된 성능 materially 관련 된 정보를 관리자가 계산 하 고 조직의 다른 사용자가 사용할 수 있게 할 수 있습니다.
+>Microsoft 365의 참가자 위험 관리 솔루션은 사용자 수준에서 내부 거 버 넌 스를 사용 하는 데 도움이 되는 거주자 수준 옵션을 제공 합니다. 테 넌 트 수준 관리자는 조직의 구성원에 대해이 솔루션에 대 한 액세스 권한을 제공 하 고 Microsoft 365 준수 센터에서 데이터 커넥터를 설정 하 여 잠재적으로 위험한 활동의 사용자 수준 식별을 지원 하기 위해 해당 정보를 설정할 수 있습니다. 고객은 개별 사용자 동작, 문자 또는 고용와 관련 된 성능 materially 관련 된 정보를 관리자가 계산 하 고 조직의 다른 사용자가 사용할 수 있게 할 수 있습니다.
 
 사용자의 참가자 위험 정책을 통해 조직의 위험을 관리 하는 방법에 대 한 자세한 내용은 [Microsoft 365의 참가자 위험 관리](insider-risk-management.md)를 참조 하세요.
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
-참가자 위험 관리를 시작 하기 전에 [Microsoft 365 구독](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans)을 확인 해야 합니다. 참가자 위험 관리에 액세스 하 고 사용 하려면 조직에 다음 구독 중 하나가 있어야 합니다.
+참가자 위험 관리를 시작 하기 전에 [Microsoft 365 구독](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans) 및 모든 추가 기능을 확인 해야 합니다. 참가자 위험 관리에 액세스 하 고 사용 하려면 조직에 다음 구독 또는 추가 기능 중 하나가 있어야 합니다.
 
 - Microsoft 365 E5 구독 (유료 또는 평가판 버전)
-- [Microsoft](https://signup.microsoft.com/signup/?offerid=57806d24-4357-4eff-b0a3-4054ebdf2abe&DL=INFORMATION_PROTECTION_COMPLIANCE&ali=1) 365 Enterprise E3 구독을 포함 합니다.
+- Microsoft 365 E3 구독 + Microsoft 365 E5 준수 추가 기능
+- Microsoft 365 A5 구독 (유료 또는 평가판 버전)
+- Microsoft 365 A3 구독 + Microsoft 365 A5 규정 준수 추가 기능
 
-참가자 위험 관리 정책에 포함 된 사용자는 microsoft 365 E5 구독에 포함 되거나 microsoft 365 E5 규정 준수 라이선스가 있어야 합니다.
+참가자 위험 관리 정책에 포함 된 사용자는 위의 라이선스 중 하나를 할당 받아야 합니다.
 
 Microsoft 365 Enterprise E5 요금제가 아직 없는 경우 microsoft 365을 기존 Office 365 구독에 [추가](https://docs.microsoft.com/office365/admin/try-or-buy-microsoft-365) 하거나 Microsoft 365 Enterprise E5 [평가판에 등록할](https://www.microsoft.com/microsoft-365/enterprise) 수 있습니다.
 
@@ -56,7 +58,7 @@ Microsoft 365 Enterprise E5 요금제가 아직 없는 경우 microsoft 365을 �
 
 사용자를 참가자 위험 관리 역할 그룹에 추가 하려면 다음 단계를 완료 합니다.
 
-1. Microsoft 365 [https://protection.office.com/permissions](https://protection.office.com/permissions) 조직의 관리자 계정에 대 한 자격 증명을 사용 하 여 로그인 합니다.
+1. Microsoft 365 [https://protection.office.com/permissions](https://protection.office.com/permissions) 조직의 관리자 계정에 대 한 자격 증명을 사용 하 여 로그인 합니다. "" "" "" ""
 
 2. Microsoft Office 365 보안 및 준수 센터에서 **사용 권한**으로 이동 합니다. Office 365에서 역할을 보고 관리 하는 링크를 선택 합니다.
 
@@ -87,17 +89,17 @@ Microsoft 365 Enterprise E5 요금제가 아직 없는 경우 microsoft 365을 �
 조직에 대 한 Microsoft 365 HR 커넥터를 구성 하려면 단계별 지침을 보려면 [HR 데이터를 가져올 커넥터 설정](import-hr-data.md) 항목을 참조 하십시오. HR 커넥터를 구성한 후에는 다음 구성 단계로 돌아가십시오.
 
 >[!IMPORTANT]
->*Departing employee data 절도* 템플릿을 사용 하 여 정책을 구성 하는 경우 정책 템플릿의 전체 신호 검색 기능을 사용 하도록 HR 커넥터를 구성 해야 합니다. 조직에 대해 두 개 이상의 HR 커넥터를 구성 하는 경우, 참가자 위험 관리는 모든 HR 커넥터에서 자동으로 지표를 가져옵니다.
+>*Departing emplo'ee data 절도* 템플릿을 사용 하 여 p'licy를 구성 하는 경우 정책 템플릿의 전체 신호 검색 기능을 사용 하도록 HR 커넥터를 구성 해야 합니다. 조직에 대해 두 개 이상의 HR 커넥터를 구성 하는 경우, 참가자 위험 관리는 모든 HR 커넥터에서 자동으로 지표를 가져옵니다.
 
 ### <a name="configure-data-loss-prevention-dlp-policies"></a>DLP (데이터 손실 방지) 정책 구성
 
-참가자 위험 관리는 DLP 정책을 사용 하 여 원하지 않는 사용자에 게 중요 한 정보를 고의적으로 또는 실수로 노출 하는 것을 지원 합니다. *데이터 누수* 템플릿을 사용 하 여 참가자 위험 관리 정책을 구성 하는 경우 정책에 특정 DLP 정책을 할당 해야 합니다. 이 정책은 중요 한 정보에 대 한 경고 표시기를 구성 하는 데 도움이 됩니다.
+참가자 위험 수준 \ 사용자는 DLP 정책 사용을 지원 하 여 원하지 않는 사람에 게 중요 한 정보를 의도적으로 또는 실수로 노출 하는 것을 식별 합니다. *데이터 누수* 템플릿을 사용 하 여 참가자 위험 관리 정책을 구성 하는 경우 정책에 특정 DLP 정책을 할당 해야 합니다. 이 정책은 중요 한 정보에 대 한 경고 표시기를 구성 하는 데 도움이 됩니다.
 
-조직의 DLP 정책을 구성 하는 단계별 지침은 [dlp 정책 만들기, 테스트 및 조정](create-test-tune-dlp-policy.md) 항목을 참조 하십시오. DLP 정책을 구성한 후에는 다음 구성 단계로 돌아가십시오.
+조직의 DLP 정책을 구성 하는 단계별 지침은 [dlp 정책 만들기, 테스트 및 조정](create-test-tune-dlp-policy.md) 항목을 참조 하십시오. DLP 정책을 구성한 후에는 "ration 단계." "" "" "" "" "" "로 돌아갑니다.
 
 >[!IMPORTANT]
 >*데이터 누수* 템플릿을 사용 하 여 정책을 구성 하는 경우 정책 템플릿의 전체 신호 검색 기능을 사용 하도록 하나 이상의 DLP 정책을 구성 해야 합니다. 조직에 대해 두 개 이상의 DLP 정책을 구성 하는 경우에는 DLP 정책에 따라 참가자 위험 관리 정책을 할당 해야 합니다.
-
+""""""""
 ## <a name="step-4-required-configure-insider-risk-settings"></a>4 단계 (필수 사항): 참가자 위험 설정 구성
 
 [참가자 위험 설정은](insider-risk-management-policies.md#policy-settings) 정책을 만들 때 선택한 서식 파일에 관계 없이 모든 참가자 위험 관리 정책에 적용 됩니다. 설정은 모든 참가자 위험 관리 탭의 맨 위에 있는 **참가자 위험 설정** 제어를 사용 하 여 구성 됩니다. 이러한 설정은 개인 정보, 지표, 모니터링 windows 및 지능형 검색을 제어 합니다.

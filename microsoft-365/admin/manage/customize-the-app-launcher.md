@@ -20,12 +20,12 @@ search.appverid:
 - GEA150
 ms.assetid: 1136115a-75af-4497-b693-640c4ce70bc6
 description: '앱 시작 관리자에 사용자 지정 타일을 추가 하 여 전자 메일, 문서, 앱, SharePoint 사이트, 외부 사이트 및 기타 리소스에 대 한 빠른 연결을 만듭니다. '
-ms.openlocfilehash: 65c8da7aa0cdb68f4bf32a52b21140413a38a69a
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: e52bad5cdd1809e8aa0d97c681b69daa5143d3fd
+ms.sourcegitcommit: 4b73f070747a66874c03fdf670ffdf16f736585a
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42361983"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43103078"
 ---
 # <a name="add-custom-tiles-to-the-app-launcher"></a>앱 시작 관리자에 사용자 지정 타일 추가
 
@@ -69,7 +69,7 @@ Office 365에서는 Office 365 시작 관리자를 사용하여 전자 메일, �
   
 ## <a name="edit-or-delete-a-custom-tile"></a>사용자 지정 타일 편집 또는 삭제
 
-1. 관리 센터에서<a href="https://go.microsoft.com/fwlink/p/?linkid=2067339" target="_blank">조직 프로필</a> **설정** > 페이지로 이동 합니다.
+1. 관리 센터에서 **설정** > **설정** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2067339" target="_blank">조직 프로필</a> 탭으로 이동 합니다.
     
 2. **조직 프로필** 페이지에서 **조직의 사용자 지정 타일 추가**옆에 있는 **편집**을 선택 합니다.
 

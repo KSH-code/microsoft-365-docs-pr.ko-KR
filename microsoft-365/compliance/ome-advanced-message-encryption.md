@@ -16,16 +16,16 @@ ms.collection:
 search.appverid:
 - MET150
 description: Advanced Message Encryption in Office 365에서는 보호 된 메시지를 사용 하 여 관리자가 더 많은 작업을 수행할 수 있도록 함으로써 조직이 준수 의무를 충족할 수 있습니다.
-ms.openlocfilehash: 99dacc928c8549157ff0d9d1d9a7c07fc33c2600
-ms.sourcegitcommit: dcea75af89f5f80ec6670346ee176407e043de54
+ms.openlocfilehash: 3b7f4d595b8c3592530b107dd7f71aeb8d0dc57e
+ms.sourcegitcommit: e695bcfc69203da5d3d96f3d6a891664a0e27ae2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "42610606"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43106176"
 ---
 # <a name="office-365-advanced-message-encryption"></a>Office 365 고급 메시지 암호화
 
-Office 365 Advanced Message Encryption은 [microsoft 365 Enterprise e5](https://www.microsoft.com/microsoft-365/enterprise/home), Office 365 E5, Microsoft 365 E5 (비영리 스태프 가격), Office 365 Enterprise E5 (비영리 스태프 가격) 및 Office 365 교육용 A5에 포함 되어 있습니다. 조직에서 Office 365 고급 메시지 암호화를 포함 하지 않는 구독을 사용 하는 경우 microsoft 365 E3, Microsoft 365 E3 (비영리 직원 가격) 또는 Office 365 Advanced 용 Microsoft 365 E5 준수 SKU 추가 기능을 통해 구매할 수 있습니다. Microsoft 365 E3, Microsoft 365 E3 (비영리 직원 가격) 또는 Office 365 Sku에 대 한 준수 SKU 추가 기능입니다.
+Office 365 Advanced Message Encryption은 [microsoft 365 Enterprise e5](https://www.microsoft.com/microsoft-365/enterprise/home), Office 365 E5, Microsoft 365 E5 (비영리 스태프 가격), Office 365 Enterprise E5 (비영리 스태프 가격) 및 Office 365 교육용 A5에 포함 되어 있습니다. 조직에서 Office 365 고급 메시지 암호화를 포함 하지 않는 구독을 사용 하는 경우 microsoft 365 E3 용 Microsoft 365 E5 준수 SKU 추가 기능을 통해 구매할 수 있습니다. microsoft 365 E3 (비영리 직원 가격) 또는 microsoft 365 E3, Microsoft 365 E3 (비영리 직원 가격), Office 365 Sku 또는 microsoft 365 E5/A5 정보 보호 및 거 버 넌 스/e 3 용 추가 기능에 대 한 Office 365 Advanced 준수 SKU 추가 기능
 
 Advanced Message Encryption in Office 365에서는 고객이 외부 받는 사람에 대 한 보다 유연한 제어 및 암호화 된 전자 메일 액세스를 필요로 하는 규정 준수 의무를 충족 하도록 지원 합니다. Office 365의 고급 메시지 암호화를 사용 하 여 조직 외부에서 공유 되는 중요 한 전자 메일을 자동 정책으로 제어할 수 있습니다. 이러한 정책을 구성 하 여 PII, 재무 또는 상태 Id와 같은 중요 한 정보 유형을 식별 하거나 키워드를 사용 하 여 보호 기능을 향상 시킬 수 있습니다. 정책을 구성한 후에는 사용자 지정 브랜드 전자 메일 서식 파일을 사용 하 여 정책을 변경한 다음 정책에 맞는 전자 메일에 대 한 추가 제어를 위해 만료 날짜를 추가 합니다. 또한 관리자는 언제 든 지 메일에 대 한 액세스를 취소 하 여 보안 웹 포털을 통해 외부에서 액세스 하는 암호화 된 전자 메일을 제어할 수 있습니다.
 
