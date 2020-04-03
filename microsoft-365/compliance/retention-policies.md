@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 정책을 사용하여 콘텐츠를 보존할지, 삭제할지, 아니면 보존한 다음 삭제할지 사전에 결정할 수 있습니다. 조직 전체에 또는 특정 위치 또는 사용자에게 하나의 정책을 적용할 수 있고, 모든 콘텐츠에 또는 특정 조건에 부합하는 콘텐츠에 정책을 적용할 수 있습니다.
-ms.openlocfilehash: 7c0f0fa97df1c5e57879b222dd117d9b31116260
-ms.sourcegitcommit: e695bcfc69203da5d3d96f3d6a891664a0e27ae2
+ms.openlocfilehash: dc06a8c2cd893bb93ef826c6900531240a138efb
+ms.sourcegitcommit: 5ba1efc0b498430e30231010024044049b8727c7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43106166"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43126035"
 ---
 # <a name="overview-of-retention-policies"></a>보존 정책 개요
 
@@ -293,6 +293,9 @@ SharePoint 사이트의 위치를 지정하는 경우, 사이트에 액세스할
 
 ### <a name="teams-locations"></a>Teams 위치
 
+> [!NOTE]
+> 비공개 채널 메시지 보존을 위한 구성은 아직 지원되지 않습니다. 비공개 채널에서 공유된 파일의 보존이 지원됩니다.
+
 Teams에서 보존 정책을 사용하여 채팅 및 채널 메시지를 보존할 수 있습니다. Teams 채팅은 채팅에 포함된 각 사용자의 사서함에 있는 숨겨진 폴더에 저장되고, Teams 채널 메시지는 팀의 그룹 사서함에 있는 비슷한 숨겨진 폴더에 저장됩니다. 그렇지만 Teams에서 이 데이터도 저장하는 Azure 지원 채팅 서비스를 사용하며, 기본적으로 이 서비스는 데이터를 영구히 저장한다는 점을 이해하는 것이 중요합니다. 이 때문에 Teams 데이터를 보존 및 삭제할 때는 Teams 위치를 사용하는 것이 좋습니다. Teams 위치를 사용하면 Exchange 사서함과 기본 Azure 지원 채팅 서비스 둘 다에서 데이터가 영구적으로 삭제됩니다. 자세한 내용은 [Microsoft Teams의 보안 및 규정 준수 개요](https://go.microsoft.com/fwlink/?linkid=871258)를 참조하세요.
   
 Teams 채팅 및 채널 메시지는 Exchange 또는 Office 365 그룹 위치의 사용자 또는 그룹 사서함에 적용된 보존 정책의 영향을 받지 않습니다. Teams 채팅 및 채널 메시지가 Exchange에 저장되더라도 Teams 채팅 및 채널 메시지는 Teams 위치에 적용된 보존 정책의 영향만 받습니다.
@@ -448,7 +451,31 @@ SharePoint 사이트에서 [정보 관리 정책](intro-to-info-mgmt-policies.md
 ## <a name="what-happened-to-preservation-policies"></a>보류 정책은 어떻게 되었나요?
 
 기존에 유지 정책을 사용한 경우, 해당 정책은 보존 작업만 수행하는 보존 정책으로 자동 변환되었습니다. 즉, 콘텐츠 삭제 작업은 수행하지 않습니다. 앞으로도 유지 정책이 계속해서 작동하며 사용자가 변경하지 않아도 콘텐츠를 계속 유지합니다. 이러한 정책은 [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com/)의 **정책** 페이지 또는 [보안 &amp; 규정 준수 센터](https://protection.office.com/)의 **정보 거버넌스** 아래에 있는 **보존** 페이지에서 찾을 수 있습니다. 유지 정책의 보존 기간을 변경할 수는 있지만, 위치를 추가하거나 제거하는 등의 다른 변경은 수행할 수 없습니다. 
+
+## <a name="find-the-powershell-cmdlets-for-retention-policies"></a>보존 정책에 대한 PowerShell cmdlet 찾기
+
+보존 정책 cmdlet을 사용하려면 다음을 수행합니다.
   
+1. [Office 365 보안 및 준수 센터 PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell)
+    
+2. 다음 Office 365 보안 및 준수 센터 cmdlet 사용:
+    
+    - [Get-RetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/get-retentioncompliancepolicy)
+    
+    - [New-RetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-retentioncompliancepolicy)
+    
+    - [Remove-RetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/remove-retentioncompliancepolicy)
+    
+    - [Set-RetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/set-retentioncompliancepolicy)
+    
+    - [Get-RetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/get-retentioncompliancerule)
+    
+    - [New-RetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-retentioncompliancerule)
+    
+    - [Remove-RetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/remove-retentioncompliancerule)
+    
+    - [Set-RetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/set-retentioncompliancerule)
+
 ## <a name="permissions"></a>권한
 
 보존 정책을 만드는 규정준수 팀의 구성원은 [보안 &amp; 규정 준수 센터](https://protection.office.com/)에 대한 사용 권한이 필요합니다. 기본적으로 테넌트 관리자는 이 위치에 액세스할 수 있으며, 규정 준수 책임자와 기타 사용자에게 테넌트 관리를 위한 모든 권한을 부여하지는 않으면서, [보안 &amp;규정 준수 센터](https://protection.office.com/)에 대한 액세스 권한을 부여할 수 있습니다. 이 작업을 수행하기 위해서는 [보안 &amp;규정 준수 센터](https://protection.office.com/)의 **권한** 페이지로 이동한 후 **규정 준수 관리자** 역할 그룹을 편집하고 해당 역할 그룹에 구성원을 추가할 것을 권장합니다. 
@@ -459,6 +486,7 @@ SharePoint 사이트에서 [정보 관리 정책](intro-to-info-mgmt-policies.md
 
 ## <a name="more-information"></a>추가 정보
 
+- [Microsoft Teams의 보존 정책](/microsoftteams/retention-policies#using-powershell )
 - [레이블 개요](labels.md)
 - [SharePoint Online 제한 사항](https://docs.microsoft.com/office365/servicedescriptions/sharepoint-online-service-description/sharepoint-online-limits)
 - [Microsoft Teams의 제한 사항 및 사양](https://docs.microsoft.com/microsoftteams/limits-specifications-teams) 
