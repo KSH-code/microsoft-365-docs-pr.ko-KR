@@ -17,14 +17,16 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 정책을 사용하여 콘텐츠를 보존할지, 삭제할지, 아니면 보존한 다음 삭제할지 사전에 결정할 수 있습니다. 조직 전체에 또는 특정 위치 또는 사용자에게 하나의 정책을 적용할 수 있고, 모든 콘텐츠에 또는 특정 조건에 부합하는 콘텐츠에 정책을 적용할 수 있습니다.
-ms.openlocfilehash: c012f3ddea19edb9ff22dd4e8353a0de1f3b3812
-ms.sourcegitcommit: 748bc3484b7ccbd65b558f495b6fa42196c3c571
+ms.openlocfilehash: 7c0f0fa97df1c5e57879b222dd117d9b31116260
+ms.sourcegitcommit: e695bcfc69203da5d3d96f3d6a891664a0e27ae2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43083655"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43106166"
 ---
 # <a name="overview-of-retention-policies"></a>보존 정책 개요
+
+>*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](https://aka.ms/ComplianceSD).*
 
 대부분의 조직에서는 전자 메일, 문서, 인스턴트 메시지 등을 비롯한 데이터의 양과 복잡성이 매일 계속해서 증가하고 있습니다. 이러한 정보를 효과적으로 관리하거나 제어하는 일은 다음 작업을 수행해야 하므로 중요합니다.
   
