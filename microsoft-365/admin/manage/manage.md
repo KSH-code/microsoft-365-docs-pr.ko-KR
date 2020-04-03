@@ -15,12 +15,12 @@ ms.service: o365-administration
 localization_priority: Normal
 ms.assetid: 9f818d7a-78b5-4490-b36c-e3bfe328dfc3
 description: Office 365에서 가장 일반적인 관리 작업에 대한 빠른 연결.
-ms.openlocfilehash: 06d745bc4b3487ca05888e390b7100596bced6c9
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: 3c69d24af04567531ea4228202e5ec16cdd39522
+ms.sourcegitcommit: 5ba1efc0b498430e30231010024044049b8727c7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42897074"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43126002"
 ---
 # <a name="manage"></a>관리
 
@@ -152,7 +152,6 @@ Office 365에서 가장 일반적인 관리 작업에 대한 빠른 연결.
                         <h3>전자 메일</h3>
                             <p><a href="../add-users/add-users.md">새 직원 추가</a></p>
                             <p><a href="https://support.office.com/article/97748418-bbd5-4743-a05b-581f22a466dd">전자 메일 메시지를 보내지 못하는 문제 해결</a></p>
-                            <p><a href="https://docs.microsoft.com/office365/troubleshoot/troubleshooting/troubleshoot-email-issues">전자 메일 문제 해결</a></p>
                             <p><b>추가 작업:</b> <a href="../email/email.md">비즈니스용 Office 365의 전자 메일</a></p>
                     </div>
                 </div>
@@ -170,7 +169,7 @@ Office 365에서 가장 일반적인 관리 작업에 대한 빠른 연결.
                             <p><a href="https://docs.microsoft.com/onedrive/manage-sharing">OneDrive 및 SharePoint의 공유 관리</a></p>
                             <p><a href="https://docs.microsoft.com/onedrive/set-default-storage-space">OneDrive 사용자에 대한 기본 저장소 공간 설정</a></p>
                             <p><a href="https://support.office.com/article/fix-onedrive-sync-problems-0899b115-05f7-45ec-95b2-e4cc8c4670b2">OneDrive 동기화 문제 해결</a></p>
-                            <p><b>추가 작업:</b> <a href="https://support.office.com/article/3e21f8f0-e0a1-43be-aa3e-8c0236bf11bb">Office 365의 OneDrive</a></p>
+                            <p><b>추가 작업:</b> <a href="https://docs.microsoft.com/onedrive/onedrive">Office 365의 OneDrive</a></p>
                     </div>
                 </div>
             </div>
