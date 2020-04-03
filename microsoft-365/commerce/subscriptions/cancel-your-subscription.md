@@ -21,12 +21,12 @@ search.appverid:
 - BEA160
 ms.assetid: b1bc0bef-4608-4601-813a-cdd9f746709a
 description: 비즈니스용 Office 365 또는 Microsoft 365 평가판 또는 유료 구독을 취소 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 4e1491a02d97a3a249e377dbae0efbd4709cdf09
-ms.sourcegitcommit: ab916c216053999c9c4ef4838217e82cd861f23f
+ms.openlocfilehash: 47b4ae3e027a218f7d830bb6af24a39ca33a4abb
+ms.sourcegitcommit: 3d1abd7c06d316d6e6586e4bdcd5703291ac1ab0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "42415653"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43117947"
 ---
 # <a name="cancel-your-subscription"></a>구독 취소
 
@@ -94,13 +94,14 @@ ms.locfileid: "42415653"
 
 ### <a name="what-to-expect-for-you-and-your-users-if-you-cancel-a-subscription"></a>구독을 취소할 경우 관리자와 사용자에 대해 예상되는 결과는 다음과 같습니다.
   
-- **관리자 액세스 권한** 관리자는 계속 해 서 관리자 센터에 로그인 하 고 액세스할 수 있으며, 필요에 따라 다른 구독을 구입할 수도 있습니다. 전역 또는 대금 청구 관리자는 90 일 이내에 모든 데이터를 그대로 사용 하 여 [구독을 다시 활성화할](reactivate-your-subscription.md) 수 있습니다. 
-    
+- **관리자 액세스 권한** 관리자는 계속 해 서 관리자 센터에 로그인 하 고 액세스할 수 있으며, 필요에 따라 다른 구독을 구입할 수도 있습니다. 전역 또는 대금 청구 관리자는 90 일 이내에 모든 데이터를 그대로 사용 하 여 [구독을 다시 활성화할](reactivate-your-subscription.md) 수 있습니다.
+
 - **사용자 액세스** 사용자가 비즈니스용 OneDrive와 같은 서비스를 사용할 수 없거나 팀 사이트의 전자 메일 또는 문서와 같은 고객 데이터에 액세스 하지 못할 수도 있습니다. Word 및 Excel 등의 Office 응용 프로그램은 읽기 전용 상태가 되어 기능 제한 모드로 실행되며 [사용 허가되지 않은 제품 알림](https://support.office.com/article/0d23d3c0-c19c-4b2f-9845-5344fedc4380.aspx)을 표시합니다.
-    
- **중요** 정규 비활성 기간이 경과되기 전에 구독 데이터를 삭제하고 싶다면 긴급 프로비전 해제를 요청할 수 있습니다. 긴급 프로비전 해제를 요청하면 취소일로부터 3일 이내에 구독 데이터가 삭제됩니다. 긴급 프로 비전 해제를 사용 하려면 [지원 서비스를 호출](../../admin/contact-support-for-business-products.md)합니다.
-  
+
 자세한 내용은 [내 데이터 및 액세스에 대 한 어떻게 해야 합니까? 구독이 종료 됩니까?](what-if-my-subscription-expires.md) 를 참조 하세요.
+
+> [!IMPORTANT]
+> 일반적인 사용 기간이 종료 되기 전에 구독 데이터를 삭제 하려는 경우 [계정을 닫을](../close-your-account.md)수 있습니다.
 
 ## <a name="other-steps-you-might-have-to-take"></a>수행 해야 할 수 있는 기타 단계
 

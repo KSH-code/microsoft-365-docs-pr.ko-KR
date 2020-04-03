@@ -17,19 +17,36 @@ ms.collection:
 ms.custom: Ent_Solutions
 ms.assetid: ''
 description: 이 항목을 사용 하 여 권한 있는 액세스 관리 구성에 대 한 자세한 내용을 알아보세요.
-ms.openlocfilehash: bb1589252ab7a5f7a512db92666827dd9d3cc2d3
-ms.sourcegitcommit: 6c7f6ef98c321c80a9254c10bbbb917895b5c156
+ms.openlocfilehash: 8c5a0a342c9cabf643bff5e20fc3b64f938c61b7
+ms.sourcegitcommit: 8edad75338cf74712ca1ab5d6631b9b52ff54410
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "42322534"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43115994"
 ---
 # <a name="get-started-with-privileged-access-management"></a>권한 있는 액세스 관리 시작
 
->[!IMPORTANT]
->이 항목에서는 현재 Office 365 E5 및 고급 규정 준수 Sku에서 사용할 수 있는 기능에 대 한 배포 및 구성 지침에 대해 설명 합니다.
+이 항목에서는 Office 365 조직에서 권한이 부여 된 액세스 관리를 사용 하도록 설정 하 고 구성 하는 과정을 안내 합니다. Microsoft 365 관리 센터 또는 Exchange 관리 PowerShell을 사용 하 여 권한 있는 액세스를 관리 하 고 사용할 수 있습니다.
 
-이 항목에서는 Office 365 조직에서 권한이 부여 된 액세스 관리를 사용 하도록 설정 하 고 구성 하는 과정을 안내 합니다. Microsoft 365 관리 센터 또는 Exchange 관리 PowerShell을 사용 하 여 권한 있는 액세스를 관리 하 고 사용할 수 있습니다. 
+## <a name="before-you-begin"></a>시작하기 전에
+
+권한이 부여 된 액세스 관리를 시작 하기 전에 [Microsoft 365 구독](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans) 및 모든 추가 기능을 확인 해야 합니다. 권한이 부여 된 액세스 관리를 액세스 하 고 사용 하려면 조직에 다음 구독 또는 추가 기능 중 하나가 있어야 합니다.
+
+- Microsoft 365 E5 구독 (유료 또는 평가판 버전)
+- Microsoft 365 E3 구독 (또는 Office 365 E3 구독 + Enterprise Mobility and Security E3 구독) + Microsoft 365 E5 준수 추가 기능
+- 모든 Microsoft 365, Office 365, Exchange, SharePoint 또는 비즈니스용 OneDrive 구독 + Microsoft 365 E5 참가자 위험 관리 추가 기능  
+- Microsoft 365 A5 구독 (유료 또는 평가판 버전)
+- Microsoft 365 A3 구독 (또는 Office 365 A3 구독 + Enterprise Mobility and Security A3 구독) + Microsoft A5 준수 추가 기능
+- 모든 Microsoft 365, Office 365, Exchange, SharePoint 또는 비즈니스용 OneDrive 교육 구독 + Microsoft 365 A5 참가자 위험 관리 추가 기능
+- Office 365 Enterprise E5 구독 (유료 또는 평가판 버전)
+- Office 365 Enterprise E3 구독 + Office 365 고급 준수 추가 기능 (새 구독에 더 이상 사용할 수 없음)
+
+권한 있는 액세스 관리 요청을 전송 하 고 응답 하는 사용자에 게는 위의 라이선스 중 하나를 할당 해야 합니다.
+
+>[!IMPORTANT]
+>Office 365 고급 규정 준수는 더 이상 독립 실행형 구독으로 판매 되지 않습니다. 현재 구독이 만료 되 면 고객은 위의 구독 중 하나로 전환 해야 하며, 이러한 기능은 동일 하거나 추가 준수 기능이 포함 되어 있습니다.
+
+기존의 Microsoft 365 Enterprise E5 요금제가 없는 상태에서 권한이 부여 된 액세스 관리를 시도 하려는 경우 기존 Office 365 구독에 [microsoft 365을 추가](https://docs.microsoft.com/office365/admin/try-or-buy-microsoft-365) 하거나 Microsoft 365 Enterprise E5 [평가판을 등록할](https://www.microsoft.com/microsoft-365/enterprise) 수 있습니다.
 
 ## <a name="enable-and-configure-privileged-access-management"></a>권한 있는 액세스 관리 사용 및 구성
 
@@ -103,7 +120,7 @@ Enable-ElevatedAccessControl -AdminGroup 'pamapprovers@fabrikam.onmicrosoft.com'
 ```
 
 >[!NOTE]
->시스템 계정 기능을 사용 하 여 조직 내의 특정 자동화 기능이 권한 있는 액세스에 대 한 종속성 없이 작동할 수 있지만, 이러한 제외가 예외적인 경우에도 허용 되며 승인 되 고 감사 되도록 하는 것이 권장 됩니다. 자주.
+>시스템 계정 기능을 사용 하 여 조직 내의 특정 자동화 기능이 권한 있는 액세스에 대 한 종속성 없이 작동할 수 있으며, 이러한 제외를 허용 하 고 정기적으로 승인 하 고 감사 해야 하는 것이 좋습니다.
 
 <a name="step3"> </a>
 
@@ -279,7 +296,7 @@ Deny-ElevatedAccessRequest -RequestId a4bc1bdf-00a1-42b4-be65-b6c63d6be279 -Comm
 
 5. 삭제할 정책을 선택 하 고 **정책 제거**를 선택 합니다.
 
-6. **닫기를**선택 합니다.
+6. **닫기**를 선택합니다.
 
 ### <a name="in-exchange-management-powershell"></a>Exchange 관리 PowerShell에서
 

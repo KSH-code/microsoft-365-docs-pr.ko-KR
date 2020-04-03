@@ -17,18 +17,20 @@ search.appverid:
 - MOE150
 - MET150
 description: 관리자는 SharePoint 및 OneDrive에서 Word, Excel 및 PowerPoint 파일에 대해 민감도 레이블 지원을 사용 하도록 설정할 수 있습니다.
-ms.openlocfilehash: e6e13ef14ed9ed3e60f2918df0c25c0601d0225e
-ms.sourcegitcommit: e695bcfc69203da5d3d96f3d6a891664a0e27ae2
+ms.openlocfilehash: d0496a194cc734304f8ba6f09e6497c8d4f233bc
+ms.sourcegitcommit: 5ba1efc0b498430e30231010024044049b8727c7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43106104"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43126025"
 ---
 # <a name="enable-sensitivity-labels-for-office-files-in-sharepoint-and-onedrive-public-preview"></a>SharePoint 및 OneDrive에서 Office 파일에 대한 민감도 레이블 사용(공개 미리 보기)
 
->*[보안 & 준수에 대 한 Microsoft 365 라이선스 지침](https://aka.ms/ComplianceSD)*
+>*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](https://aka.ms/ComplianceSD).*
 
-이 미리 보기를 수행 하기 전에 SharePoint 및 OneDrive에 저장 된 Office 파일에 암호화를 포함 한 민감도 레이블을 적용할 때 서비스가 이러한 파일의 콘텐츠를 처리할 수 없습니다. 이러한 상황에서는 공동 작성, eDiscovery, 데이터 손실 방지, 검색, Delve 및 기타 공동 작업 기능이 작동 하지 않습니다. 이 미리 보기를 사용 하면 클라우드 기반 키를 사용 하 여 암호화를 포함 하는 우편물 종류 레이블이 적용 된 새 파일 및 변경 되는 이러한 기능을 사용할 수 있습니다.
+이 미리 보기를 수행 하기 전에는 Office의 웹에 [민감도 레이블을](sensitivity-labels.md) 적용할 수 없습니다. 리본 메뉴에 **민감도** 옵션이 없거나 상태 표시줄에 적용 된 레이블 이름이 표시 되지 않았습니다. 또한 데스크톱 앱을 사용 하 여 파일에 레이블을 지정한 다음 SharePoint 또는 Onedrive에 저장 하면 해당 레이블에서 암호화를 적용 한 경우 이러한 파일의 내용을 처리할 수 없습니다. 이러한 상황에서는 공동 작성, eDiscovery, 데이터 손실 방지, 검색, Delve 및 기타 공동 작업 기능이 작동 하지 않습니다. 
+
+이 미리 보기를 통해 이러한 모든 기능을 사용할 수 있습니다. 다음과 같이 민감도 레이블을 사용자에 게 표시 하는 것 외에, 클라우드 기반 키를 사용 하 여 암호화를 포함 하는 민감도 레이블이 적용 된 파일 및 변경 내용에 대해 다음을 수행 합니다.
 
 - Sharepoint 및 OneDrive에서 Word, Excel 및 PowerPoint 파일에 적용 되는 민감도 레이블 (sharepoint 및 비즈니스용 파일)은 sharepoint에 저장 되므로 파일 내용을 처리할 수 있도록 Azure Information Protection의 암호화가 제거 됩니다. SharePoint에 저장 되어 있는 동안 문서를 보호 하는 방법에 대 한 자세한 내용은 [비즈니스용 OneDrive 및 SharePoint Online의 데이터 암호화](data-encryption-in-odb-and-spo.md)를 참조 하세요.
 
@@ -36,27 +38,25 @@ ms.locfileid: "43106104"
 
 - SharePoint에서 업로드 시 파일의 암호화를 제거 하려면 레이블이 지정 되 고 암호화 된 파일을 업로드 하는 사용자에 게 최소한 파일 보기에 대 한 사용 권한이 있어야 합니다. Sharepoint에서 사용자가 파일을 열 수 없는 경우 sharepoint에서 암호화를 제거 하지 않습니다.
 
-- 웹에서 Office (Word, Excel, PowerPoint)를 사용 하 여 암호화를 적용 하는 레이블이 민감도 인 Office 파일을 열고 편집 합니다. 암호화를 통해 할당 된 사용 권한이 적용 됩니다. 웹에서 Word를 사용 하는 경우 이러한 문서를 편집 하는 경우에도 자동 레이블을 사용할 수 있습니다.
+- 웹에서 Office (Word, Excel, PowerPoint)를 사용 하 여 암호화를 적용 하는 레이블이 민감도 인 Office 파일을 열고 편집 합니다. 암호화를 통해 할당 된 사용 권한이 적용 됩니다. 웹에서 Word를 사용 하는 경우 이러한 문서를 편집할 때도 자동 레이블 기능을 사용할 수 있습니다.
 
 - Office 365 eDiscovery는 이러한 파일에 대 한 전체 텍스트 검색을 지원 합니다. DLP (데이터 손실 방지) 정책은 이러한 파일의 콘텐츠를 포함 합니다.
 
-- 웹에서 Office를 사용 하 여 적용 되는 모니터링 민감도 레이블에 대해 세 가지 새로운 [감사 이벤트](search-the-audit-log-in-security-and-compliance.md#sensitivity-label-activities) 를 사용할 수 있습니다.
-  - **파일에 적용된 민감도 레이블**
-  - **파일에 변경된 민감도 레이블을 적용**
-  - **파일에서 제거된 민감도 레이블**
-
 > [!NOTE]
-> 암호화가 클라우드 기반 키와 함께 온-프레미스 키가 적용 되지 않은 경우 키 관리 토폴로지에서 흔히 "자체 키를 사용" (HYOK)으로 지칭 되는 경우에는이 미리 보기를 통해 SharePoint 동작이 변경 되지 않습니다.
+> 암호화가 클라우드 기반 키와 함께 온-프레미스 키가 적용 되지 않은 경우 키 관리 토폴로지를 흔히 "사용자의 키를 사용 하 고 있습니다." (HYOK)을 참조 하는 경우에는이 미리 보기에서 파일 콘텐츠 처리에 대 한 SharePoint 동작이 변경 되지 않습니다.
 >
 > 또한 SharePoint 동작은 미리 보기를 사용 하도록 설정 하기 전에 SharePoint에서 레이블이 지정 되 고 암호화 된 기존 파일에 대해서는 변경 되지 않습니다. 이러한 파일을 새 기능의 혜택을 얻으려면 미리 보기를 사용 하도록 설정한 후 다운로드 및 업로드 하거나 편집 해야 합니다. 예를 들어 검색 및 eDiscovery 결과에서 반환 됩니다.
 
-이제 Microsoft 팀, Office 365 그룹 및 SharePoint 사이트에 민감도 레이블을 적용할 수도 있습니다. 이 별도의 미리 보기에 대 한 자세한 내용은 [사용 민감도 레이블 (Microsoft 팀, Office 365 그룹 및 SharePoint 사이트 (공용 미리 보기))](sensitivity-labels-teams-groups-sites.md)을 참조 하십시오.
-
-언제 든 지이 미리 보기를 선택할 수 있습니다.
+이 미리 보기를 사용 하도록 설정 하면 웹에서 Office를 사용 하 여 적용 되는 모니터링 민감도 레이블에 대해 세 가지 새 [감사 이벤트](search-the-audit-log-in-security-and-compliance.md#sensitivity-label-activities) 를 사용할 수 있습니다.
+- **파일에 적용된 민감도 레이블**
+- **파일에 변경된 민감도 레이블을 적용**
+- **파일에서 제거된 민감도 레이블**
 
 다음 비디오 (오디오 없음)를 시청 하 여 이러한 새로운 기능이 작동 하는지 확인 합니다.
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed//RE4ornZ]
+
+언제 든 지이 미리 보기를 선택할 수 있습니다.
 
 ## <a name="requirements"></a>요구 사항
 
@@ -66,7 +66,9 @@ ms.locfileid: "43106104"
 
 ## <a name="limitations"></a>제한
 
-- 이 미리 보기를 사용 하도록 설정 하면 OneDrive 동기화 폴더에 있는 파일의 레이블을 변경 하는 사용자가 파일에 변경한 다른 내용을 저장 하지 못할 수 있습니다.  사용자에 게 [흰색 횡단면 오류가 있는 빨간색 원이](https://support.office.com/article/what-do-the-onedrive-icons-mean-11143026-8000-44f8-aaa9-67c985aa49b3)표시 되 고 새 변경 내용을 별도의 복사본으로 저장할지 묻는 메시지가 나타납니다.  사용자가 시작한 레이블 변경 사항 외에도, 관리자가 사용자의 동기화 클라이언트에 다운로드 된 파일에 이미 적용 되어 있는 게시 한 레이블의 설정을 변경 하는 경우에도 같은 동작이 발생할 수 있습니다.
+- 이 미리 보기를 사용 하도록 설정 하면 OneDrive 동기화 폴더에 있는 파일의 레이블을 변경 하는 사용자가 파일에 변경한 다른 내용을 저장 하지 못할 수 있습니다. 이 시나리오는 암호화가 지정 된 파일에 적용 되며, 레이블이 암호화를 적용 하는 레이블에 암호화를 적용 하지 않은 레이블에서 변경 되는 경우에도 마찬가지입니다. 사용자에 게 [흰색 횡단면 오류가 있는 빨간색 원이](https://support.office.com/article/what-do-the-onedrive-icons-mean-11143026-8000-44f8-aaa9-67c985aa49b3)표시 되 고 새 변경 내용을 별도의 복사본으로 저장할지 묻는 메시지가 나타납니다.  
+    
+    사용자가 시작한 레이블 변경 사항 외에도, 관리자가 사용자의 동기화 클라이언트에 다운로드 된 파일에 이미 적용 되어 있는 게시 한 레이블의 설정을 변경 하는 경우에도 같은 동작이 발생할 수 있습니다.
     
     이러한 시나리오에서 작업이 손실 되지 않도록 하려면 다음 작업 중 하나를 수행 합니다.
     - 레이블을 적용 하려면 Office 앱의 웹 버전을 사용 합니다.
@@ -88,7 +90,7 @@ ms.locfileid: "43106104"
 
 - Azure Information Protection 문서 추적 사이트는 지원 되지 않습니다.
 
-- Office 데스크톱 앱 및 모바일 앱은 공동 작성을 지원 하지 않습니다. 대신 이러한 앱은 계속 해 서 단독 편집 모드로 파일을 엽니다.
+- Office 데스크톱 앱 및 모바일 앱은 암호화로 레이블이 지정 된 파일에 대 한 공동 작성을 지원 하지 않습니다. 이러한 앱은 계속 해 서 레이블이 지정 되 고 암호화 된 파일을 단독 편집 모드로 엽니다.
 
 - 레이블이 지정 된 문서가 SharePoint에 업로드 되 고 레이블이 서비스 사용자 이름의 계정을 사용 하 여 암호화를 적용 한 경우에는 웹의 Office에서 해당 문서를 열 수 없습니다. 예제 시나리오에는 Microsoft Cloud App Security 및 팀별로 전자 메일로 전송 되는 파일이 포함 됩니다.
 

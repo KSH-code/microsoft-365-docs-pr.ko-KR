@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 6d60693e8e67ba91341e01c80a213b75e821721b
-ms.sourcegitcommit: 242588d7f5f96a2a937317541ef3976541ff81d8
+ms.openlocfilehash: 31444d677e7cd775f5364796c6821cb82b6dc654
+ms.sourcegitcommit: 9ca28ae8f7804eb488cf76ca4b09fe88787e0a49
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43100881"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43113575"
 ---
 # <a name="configure-communication-compliance-in-microsoft-365"></a>Microsoft 365에서 통신 준수 구성
 
@@ -42,8 +42,11 @@ ms.locfileid: "43100881"
 - Microsoft 365 A5 구독 (유료 또는 평가판 버전)
 - Microsoft 365 A3 구독 + Microsoft 365 A5 규정 준수 추가 기능
 - Microsoft 365 A3 구독 + Microsoft 365 A5 참가자 위험 관리 추가 기능
+- Microsoft 365 G5 구독 (유료 또는 평가판 버전)
+- Microsoft 365 G5 구독 + Microsoft 365 G5 준수 추가 기능
+- Microsoft 365 G5 subscription + Microsoft 365 G5 Insider 위기 관리 추가 기능
 - Office 365 Enterprise E5 구독 (유료 또는 평가판 버전)
-- Office 365 Enterprise E3 구독 + Office 365 고급 준수 추가 기능
+- Office 365 Enterprise E3 구독 + Office 365 고급 준수 추가 기능 (새 구독에 더 이상 사용할 수 없음)
 
 통신 준수 정책에 포함 된 사용자에 게는 위의 라이선스 중 하나를 할당 해야 합니다.
 

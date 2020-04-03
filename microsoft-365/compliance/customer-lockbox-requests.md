@@ -17,16 +17,18 @@ search.appverid:
 - MET150
 - MOE150
 description: 문제가 발생 하는 경우 Microsoft 지원 엔지니어가 데이터에 액세스 하는 방법을 제어할 수 있도록 하는 고객 Lockbox 요청에 대해 알아봅니다.
-ms.openlocfilehash: 8906fde608e6e6c26604450eed063915e4617d29
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 254479f7c07b74abf04802a7e2e591a2ac375e59
+ms.sourcegitcommit: 9ca28ae8f7804eb488cf76ca4b09fe88787e0a49
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42076874"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43113565"
 ---
 # <a name="customer-lockbox-in-office-365"></a>Office 365의 고객 Lockbox
 
-이 문서에서는 Microsoft 365 E5, Office 365 E5, 정보 보호 및 준수, 고급 준수 추가 기능 구독이 있는 조직에만 현재 사용할 수 있는 기능에 대 한 배포 및 구성 지침을 제공 합니다. 고객 Lockbox는 Exchange Online, SharePoint Online 및 비즈니스용 OneDrive의 데이터에 액세스 하기 위한 요청을 지원 합니다. 다른 Office 365 서비스에 대 한 지원을 권장 하려면 [office 365 UserVoice](https://office365.uservoice.com/)에서 요청을 제출 하십시오.
+이 문서에서는 고객 Lockbox에 대 한 배포 및 구성 지침을 제공 합니다. 고객 Lockbox는 Exchange Online, SharePoint Online 및 비즈니스용 OneDrive의 데이터에 액세스 하기 위한 요청을 지원 합니다. 다른 Office 365 서비스에 대 한 지원을 권장 하려면 [office 365 UserVoice](https://office365.uservoice.com/)에서 요청을 제출 하십시오.
+
+사용자에 게 라이선스를 부여 하는 데 사용할 수 있는 옵션을 보려면이 항목을 포함 하 여 Microsoft 365 준수 서비스를 제공 하는 경우 (2020), [보안 & 준수에 대 한 microsoft 365 라이선스 지침](https://aka.ms/ComplianceSD)을 참조 하세요.
 
 고객 Lockbox는 명시적인 승인 없이 서비스 작업을 수행 하기 위해 Microsoft가 콘텐츠에 액세스할 수 없도록 합니다. 고객 Lockbox는 콘텐츠에 액세스 하기 위한 요청에 대 한 승인 워크플로를 사용자에 게 제공 합니다.
 
@@ -173,7 +175,7 @@ Microsoft 365 관리 센터에서 고객 Lockbox 컨트롤을 사용 하도록 �
 | 활동   | Microsoft 엔지니어가 수행한 활동의 이름입니다.|
 | 항목       | \<비운\>                                             |
 
-## <a name="frequently-asked-questions"></a>자주하는 질문
+## <a name="frequently-asked-questions"></a>질문과 대답
 
 #### <a name="which-office-365-services-does-customer-lockbox-apply-to"></a>고객 Lockbox가 적용 되는 Office 365 서비스는 무엇입니까?
 
