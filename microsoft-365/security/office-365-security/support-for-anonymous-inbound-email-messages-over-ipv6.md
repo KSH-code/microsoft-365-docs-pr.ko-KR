@@ -1,5 +1,5 @@
 ---
-title: I p v 6을 통한 익명 인바운드 전자 메일 지원 추가
+title: IPv6을 통한 익명 인바운드 전자 메일 지원 추가
 f1.keywords:
 - NOCSH
 author: chrisda
@@ -15,12 +15,12 @@ ms.assetid: b68df621-0a5f-4824-8abc-41e0c4fd1398
 ms.collection:
 - M365-security-compliance
 description: 관리자는 Exchange Online 및 Exchange Online Protection에서 IPv6 원본의 익명 인바운드 전자 메일에 대 한 지원을 구성 하는 방법을 알 수 있습니다.
-ms.openlocfilehash: 67e839249d41381be22bbccf6b09d1616c387c66
-ms.sourcegitcommit: 748bc3484b7ccbd65b558f495b6fa42196c3c571
+ms.openlocfilehash: 414c10f3387138ed7e62f2de4e8549e45d128d2e
+ms.sourcegitcommit: 256184cf731c1851b04a07dd7d59ecf020d02635
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43083644"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43131522"
 ---
 # <a name="add-support-for-anonymous-inbound-email-over-ipv6-in-office-365"></a>Office 365에서 i p v 6을 통한 익명 인바운드 전자 메일 지원 추가
 
@@ -30,15 +30,7 @@ Exchange online 사서함을 사용 하는 Office 365 조직 및 EOP (독립 실
 
 - 보낸 사람은 [RFC 7208](https://tools.ietf.org/html/rfc7208)에 정의되어 있는 SPF 확인 또는 [RFC 6376](https://dkim.org/)에 정의되어 있는 [DKIM 확인](https://www.rfc-editor.org/rfc/rfc6376.txt)을 통과해야 합니다.
 
-조직이 i p v 6을 통해 익명 인바운드 전자 메일을 수신 하기 전에 관리자가 Microsoft 지원에 문의 하 여 다음을 요청 해야 합니다.
-
-1. Microsoft 365 관리 센터 <https://admin.microsoft.com/adminportal/home> 를 열고 **도움말** (?)을 클릭 합니다.
-
-2. 표시 되는 **도움말을 보려면** 검색 상자에 설명 된 내용을 입력 하 고 (예: "익명 인바운드 IPv6 전자 메일 요청") enter 키를 누릅니다.
-
-3. 페이지 맨 아래에서 **지원 서비스**를 클릭 합니다.
-
-4. 지원 되는 **연락처** 페이지에서 정보를 입력 하 고 필요한 경우 아래로 스크롤한 다음 **대화 상대**를 클릭 합니다.
+조직이 i p v 6을 통해 익명 인바운드 전자 메일을 수신 하기 전에 관리자가 Microsoft 지원에 문의 하 여 도움을 요청 해야 합니다. 지원 요청을 여는 방법에 대 한 자세한 내용은 [비즈니스 제품에 대 한 지원 문의-관리자 도움말](../../admin/contact-support-for-business-products.md)을 참조 하세요.
 
 조직에서 익명 인바운드 IPv6 메시지 지원을 사용 하도록 설정한 후에는 메시지가 서비스에서 제공 하는 일반 메시지 필터링을 거칩니다.
 

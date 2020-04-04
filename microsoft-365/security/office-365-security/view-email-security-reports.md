@@ -17,12 +17,12 @@ ms.assetid: 3a137e28-1174-42d5-99af-f18868b43e86
 ms.collection:
 - M365-security-compliance
 description: 조직의 전자 메일 보안 보고서를 찾아서 사용 하는 방법에 대해 알아봅니다. 보안 &amp; 및 준수 센터에서 전자 메일 보안 보고서를 사용할 수 있습니다.
-ms.openlocfilehash: fba10207fe0b7a8e02aa96f9c8513e1e5b2cd61f
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: b6c4e737d0bcc9f7373a669e8dcd20661733b294
+ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42634066"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43142711"
 ---
 # <a name="view-email-security-reports-in-the-security-amp-compliance-center"></a>보안 &amp; 및 준수 센터의 전자 메일 보안 보고서 보기
 
@@ -31,7 +31,8 @@ ms.locfileid: "42634066"
 ![Advanced Threat Protection이 작동 하는 방식을 보는 대시보드](../../media/6b213d34-adbb-44af-8549-be9a7e2db087.png)
   
 전자 메일 보안 보고서에는 다음이 포함 됩니다.
-- [손상 된 사용자 보고서 (**신규!**)](#compromised-users-report-new)
+- [URL 위협 방지 보고서](#url-threat-protection-report-new) (**신규!**)
+- [손상 된 사용자 보고서](#compromised-users-report)
 - [암호화 보고서](#encryption-report)
 - [위협 방지 상태 보고서](#threat-protection-status-report) 
 - [맬웨어 감지 보고서](#malware-detections-report) 
@@ -43,9 +44,30 @@ ms.locfileid: "42634066"
 - [사용자가 보고 한 메시지 보고서](#user-reported-messages-report)
 
 
-## <a name="compromised-users-report-new"></a>손상 된 사용자 보고서 (**신규!**) 
+## <a name="url-threat-protection-report-new"></a>URL 위협 방지 보고서 (**신규!**)
 
-Exchange Online Protection을 사용 하는 모든 사용자가 사용할 수 있는이 보고서에는 의심 스러운 사용자나 제한 된 사용자로 표시 되는, 특히 계정으로 인해 사용자 계정에 문제가 있을 수 있음을 나타내는 상태 중 하나를 입력 하는 것이 좋습니다. 당한. 자주 사용 하는 경우에는 손상 된 사용자 보고서가 스파이크를 볼 수 있으며, 의심 스러운 또는 제한 상태인 계정으로 증거를 제공 하면 보안 및 테 넌 트의 wellness에 문제가 있을 수 있습니다.
+URL 위협 방지 보고서는 다음 사용자에 게 제공 됩니다.
+
+- Exchange Online Protection *및* Advanced Threat protection 추가 기능 (계획 1 *또는* 계획 2) 
+- Microsoft 365 E5 구독
+
+두 개의 집계 된 보기가 있는 ' 클릭 중심 ' 보고서입니다.
+ 
+1. 첫 번째 보기는 테 넌 트 내의 사용자에의 한 URL 클릭 수와 클릭 결과를 표시 하는 데 초점을 맞춘 *URL 클릭 방지 작업*입니다. 여기에서 클릭은 사용자가 악성 웹 사이트에 대 한 차단 페이지를 클릭 한 것을 나타냅니다 (안전한 링크 정책 내의 관리자가이 기능을 사용 하지 않도록 설정할 수 있음).
+ 
+2. 두 번째 보기는 *url 클릭 응용 프로그램*, 즉 전자 메일 클라이언트나 Microsoft Word 등에서 현재 안전한 링크를 지 원하는 여러 응용 프로그램에서 클릭 합니다. 두 집계 보기의 데이터는 모두 4 시간 마다 한 번씩 새로 고쳐집니다.
+
+URL Threat Protection 보고서의 details table은 테 넌 트 내에서 일어나는 모든 클릭에 대 한 거의 실시간 보기를 제공 하며, *사용자 이름*, *URL*, *네트워크 메시지 ID* (URL이 전자 메일에서 클릭 한 경우), 조사 및 분석에 유용한 기타 정보를 포함 하는 조사 정보  
+
+기본적으로 보고서에는 안전한 링크에 의해 차단 된 Url의 클릭에 대 한 데이터만 표시 되지만, 필터에서 *허용 되는 url* 선택을 통해 모든 URL을 클릭 하는 데 필요한 정보도 볼 수 있습니다.  
+
+이 보고서에는 적용 된 안전한 링크 정책이 사용자가 클릭 하 여 *추적 하지 않음* 옵션을 선택한 경우 사용자의 클릭 데이터는 포함 되지 않습니다.
+
+![실행 중인 URL 위협 방지 보고서의 그래픽입니다.](../../media/tp-URLThreatProRpt1.PNG)
+
+## <a name="compromised-users-report"></a>손상 된 사용자 보고서 
+
+Exchange Online Protection을 사용 하는 모든 사용자가 사용할 수 있는이 보고서에는 의심 스러운 사용자나 제한 된 사용자로 표시 되는, 데이터가 특히 계정으로 사용 하면 사용자 계정을 나타내는 상태 중 일부를 입력 하는 것이 좋습니다. 자주 사용 하는 경우에는 손상 된 사용자 보고서가 스파이크를 볼 수 있으며, 의심 스러운 또는 제한 상태인 계정으로 증거를 제공 하면 보안 및 테 넌 트의 wellness에 문제가 있을 수 있습니다.
 
 ![손상 된 사용자가 Office 365에 표시 되는 대로 보고 합니다.](../../media/tp-threatProtectStatRpt-CompromisedUserRpt.png)
 
@@ -205,7 +227,7 @@ Exchange Online Protection을 사용 하는 모든 사용자가 사용할 수 �
 ![보안 &amp; 및 준수 센터에서 위협 관리 \> 검토 \> 사용자가 보고 한 메시지를 선택 합니다.](../../media/e372c57c-1414-4616-957b-bc933b8c8711.png)
   
 > [!IMPORTANT]
-> 사용자가 보고 한 메시지 보고서가 제대로 작동 하도록 하려면 Office 365 환경에 대해 **감사 로깅을 켜야 합니다** . 이 작업은 일반적으로 Exchange Online에서 감사 로그 역할이 할당 된 사용자가 수행 합니다. 자세한 내용은 [Turn Office 365 감사 로그 검색 켜기 또는 끄기를](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off)참조 하세요. 
+> 사용자가 보고 한 메시지 보고서가 제대로 작동 하도록 하려면 Office 365 환경에 대해 **감사 로깅을 켜야 합니다** . 이 작업은 일반적으로 Exchange Online에서 감사 로그 역할이 할당 된 사용자가 수행 합니다. 자세한 내용은 [Office 365 감사 로그 검색 설정 또는 해제](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off)를 참조하세요. 
   
 ## <a name="what-permissions-are-needed-to-view-these-reports"></a>이러한 보고서를 표시 하는 데 필요한 사용 권한은 무엇입니까?
 
