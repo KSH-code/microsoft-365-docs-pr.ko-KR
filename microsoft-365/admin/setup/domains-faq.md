@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: 1272bad0-4bd4-4796-8005-67d6fb3afc5a
 description: FAQ에서 질문에 대 한 답변을 찾아 Office 365의 도메인에 대해 자세히 알아보세요.
 ms.custom: okr_smb
-ms.openlocfilehash: f3c72f1ce772e3021d79aa4568dbfdb700400803
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: 3e1d5dce6de41e28ad4c04104cf0212c2b657615
+ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42633186"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43142506"
 ---
 # <a name="domains-faq"></a>도메인 FAQ
 
@@ -230,7 +230,7 @@ Office 365 서비스에 대 한 DNS 레코드를 직접 설정 해야 합니다 
     
 2. **도메인** 페이지에서 새 전자 메일 주소에 대 한 기본값으로 설정할 도메인을 선택 합니다. 
     
-3. **기본값으로 설정을**선택 합니다.
+3. **기본값으로 설정**을 선택합니다.
     
 ::: moniker range="o365-worldwide"
 
@@ -285,9 +285,9 @@ Office 365 서비스에 대 한 DNS 레코드를 직접 설정 해야 합니다 
 
 ## <a name="why-do-i-have-an-onmicrosoftcom-domain"></a>"Onmicrosoft.com" 도메인을 보유 하는 이유는 무엇 인가요?
 
-Office 365에서는 서비스에 등록할 때 *contoso.onmicrosoft.com*와 같은 도메인을 만듭니다. 등록할 때 만드는 사용자 ID에는 *alan@contoso.onmicrosoft.com*와 같은 도메인이 포함 됩니다. 
+Office 365에서는 서비스에 등록할 때 _contoso.onmicrosoft.com_와 같은 도메인을 만듭니다. 등록할 때 만드는 사용자 ID에는 _alan\@contoso.onmicrosoft.com_와 같은 도메인이 포함 됩니다. 
   
- **전자 메일을 *\@alan contoso.com*:** 으로 지정 하려면 [도메인을 구입](../get-help-with-domains/buy-a-domain-name.md) 하거나 사용자 및 도메인을 이미 소유 하 고 있는 경우 [Office 365에 추가](add-domain.md) 의 단계를 수행 하세요. 
+ __전자 메일을 _\@alan contoso.com_:__ 으로 지정 하려면 [도메인을 구입](../get-help-with-domains/buy-a-domain-name.md) 하거나 사용자 및 도메인을 이미 소유 하 고 있는 경우 [Office 365에 추가](add-domain.md) 의 단계를 수행 하세요. 
   
 - **등록 후에는 onmicrosoft 도메인의 이름을 바꿀 수 없습니다.** 예를 들어 선택한 초기 도메인이 fourthcoffee.onmicrosoft.com 인 경우 fabrikam.onmicrosoft.com로 변경할 수 없습니다. 다른 onmicrosoft.com 도메인을 사용 하려면 Office 365에서 새 구독을 시작 해야 합니다. 
     
@@ -300,11 +300,12 @@ Office 365에서는 서비스에 등록할 때 *contoso.onmicrosoft.com*와 같�
 ::: moniker-end
 
 ::: moniker range="o365-germany"
+
 ## <a name="why-do-i-have-an-onmicrosoftde-domain"></a>"Onmicrosoft.de" 도메인을 보유 하는 이유는 무엇 인가요?
 
-Office 365에서는 서비스에 등록할 때 *contoso.onmicrosoft.de*와 같은 도메인을 만듭니다. 등록할 때 만드는 사용자 ID에는 *alan@contoso.onmicrosoft.de*와 같은 도메인이 포함 됩니다. 
+Office 365에서는 서비스에 등록할 때 *contoso.onmicrosoft.de*와 같은 도메인을 만듭니다. 등록할 때 만드는 사용자 ID에는 "alan@contoso.onmicrosoft.de"와 같은 도메인이 포함 됩니다. 
   
- **전자 메일을 *alan@contoso.de*같이 표시 하려면** [도메인을 구입](../get-help-with-domains/buy-a-domain-name.md) 하거나 [사용자와 도메인을 이미 소유한 경우 Office 365에 추가](add-domain.md) 의 단계를 따르세요. 
+전자 메일을 "alan@contoso.de"와 같이 표시 하려면 [도메인을 구입](../get-help-with-domains/buy-a-domain-name.md) 하거나 [사용자 및 도메인을 Office 365에 추가](add-domain.md) (이미 소유 하 고 있는 경우)에 설명 된 단계를 수행 하세요. 
   
 - **등록 후에는 onmicrosoft 도메인의 이름을 바꿀 수 없습니다.** 예를 들어 선택한 초기 도메인이 fourthcoffee.onmicrosoft.de 인 경우 fabrikam.onmicrosoft.de로 변경할 수 없습니다. 다른 onmicrosoft.de 도메인을 사용 하려면 Office 365에서 새 구독을 시작 해야 합니다. 
     
@@ -444,7 +445,7 @@ Office 365에서는 서비스에 등록할 때 *contoso.onmicrosoft.de*와 같�
         
     4. 다른 전자 메일 시스템에 있는 사람에 대 한 전자 메일을 테스트 합니다. 예를 들어 사용자 C에 게 전자 메일을 보냅니다. 이 전자 메일은 원래 메일 서버에서 사용자 C의 사서함으로 배달 됩니다.
         
-    5. 외부 계정에서 또는 다른 전자 메일 시스템의 직원 전자 메일 계정에서 다른 전자 메일 시스템에 대 한 전달이 제대로 설정 되었는지 확인 합니다. 예를 들어 사용자 C의 origninal 서버 계정 또는 Hotmail 계정에서 사용자 A에 게 전자 메일을 보내 사용자 A의 Office 365 사서함에 도착 하는지 확인 합니다.
+    5. 외부 계정에서 또는 다른 전자 메일 시스템의 직원 전자 메일 계정에서 다른 전자 메일 시스템에 대 한 전달이 제대로 설정 되었는지 확인 합니다. 예를 들어 사용자 C의 원래 서버 계정 또는 Hotmail 계정에서 사용자에 게 전자 메일을 보내 사용자 A의 Office 365 사서함에 도착 하는지 확인 합니다.
         
 9. 사서함 콘텐츠 이동
     

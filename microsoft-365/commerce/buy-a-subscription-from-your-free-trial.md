@@ -27,12 +27,12 @@ search.appverid:
 - BEA160
 ms.assetid: 485fee6d-b22e-440a-9053-a4e7fa509c92
 description: 비즈니스용 Office 365 구독을 구매 합니다. 같은 유형의 구독을 구입 하거나 다른 요금제를 구입할 수 있습니다.
-ms.openlocfilehash: faac769a89824964315c84da507adcf18d8cfeac
-ms.sourcegitcommit: 26e4d5091583765257b7533b5156daa373cd19fe
+ms.openlocfilehash: 10e3212b739128a9cd2af23f22b644ad4b1df2d9
+ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/06/2020
-ms.locfileid: "42549805"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43142290"
 ---
 # <a name="buy-a-subscription-to-office-365-for-business-from-your-free-trial"></a>무료 평가판에서 Office 365 비즈니스 에디션 구독 구입
 
@@ -94,12 +94,9 @@ Office 365 평가판을 사용해 봤으며 이제 구입할 준비가 되었습
 
 ## <a name="buy-a-different-plan-than-your-trial"></a>평가판과 다른 계획 구입
 
-평가판 보다 다른 유형의 구독을 구입 하는 경우에는 데이터, 계정을 보존 하기 위해 평가판 계획에서 새 요금제로 사용자 라이선스를 다시 할당 해야 합니다 (평가판 계획 만료 후 90 일 유예 기간이 종료 되기 전에). 및 구성
+다른 유형의 구독을 구입 하는 경우에는 데이터, 계정 및 구성을 보존 하기 위해 평가판 계획에서 새 요금제로 사용자 라이선스를 다시 할당 해야 합니다 (평가판 계획 만료 후 90 일 유예 기간이 종료 되기 전에).
 
 ::: moniker range="o365-worldwide"
-
-> [!NOTE]
-> 새로운 Microsoft 365 관리 센터를 사용하지 않는 경우 홈페이지 상단에 있는 **새 관리 센터 시도** 토글을 선택하여 켤 수 있습니다.
 
 1. 관리 센터에서 **결제** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">구매 서비스</a> 페이지로 이동 합니다.
 
@@ -139,7 +136,6 @@ Office 365 평가판을 사용해 봤으며 이제 구입할 준비가 되었습
 
 ::: moniker range="o365-21vianet"
 
-
 1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">구독</a> 페이지로 이동 합니다.
 
 2. **구독** 페이지에서 **구독 추가**를 선택 합니다.
@@ -159,7 +155,6 @@ Office 365 평가판을 사용해 봤으며 이제 구입할 준비가 되었습
 8. 확인 페이지에서 **관리 홈으로 이동을**선택 합니다.
 
 ::: moniker-end
-
 
 ## <a name="related-articles"></a>관련 문서
 

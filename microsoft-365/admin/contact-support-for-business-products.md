@@ -24,12 +24,12 @@ search.appverid:
 ms.assetid: 32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b
 description: 해당 지역 또는 현지 전화 번호를 사용하거나 온라인으로 서비스 요청을 제출하거나 Microsoft store를 방문하여 기술 및 청구 지원을 받습니다.
 feedback_system: None
-ms.openlocfilehash: b77f08b8e0734cfa7629a5c5d61f22d63ef6328c
-ms.sourcegitcommit: e695bcfc69203da5d3d96f3d6a891664a0e27ae2
+ms.openlocfilehash: 4bb35f6d8c2895ec7adf37c6b4e149962fb616bc
+ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43106063"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43142554"
 ---
 # <a name="contact-support-for-business-products---admin-help"></a>비즈니스 제품에 대해 고객 지원 센터 문의 - 관리자 도움말
 
@@ -39,9 +39,6 @@ ms.locfileid: "43106063"
 ## <a name="online-support"></a>[온라인 지원](#tab/online)
 
 온라인으로 서비스 요청을 시작하여 시간을 절약하세요. 해결 방법을 찾거나 전자 메일 또는 전화로 전문가에게 연락할 수 있도록 도와드립니다. [초기 응답 시간를 참조하세요](https://go.microsoft.com/fwlink/p/?LinkId=518251).
-
-> [!NOTE]
-> 새로운 Microsoft 365 관리 센터를 사용하지 않는 경우 홈페이지 상단에 있는 **새 관리 센터 시도** 토글을 선택하여 켤 수 있습니다.
 
 1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a> 의 관리 센터로 이동합니다. 해당 페이지에 액세스 또는 해당 작업 수행에 대한 권한이 없습니다라는 메시지가 나타나는 경우, 관리자가 아닙니다. [내 비즈니스에서 관리자 권한을 가진 사용자를 알아보세요.](admin-overview/admin-overview.md#who-has-admin-permissions-in-my-business)
 
@@ -80,8 +77,6 @@ Office 365 또는 Microsoft 365 비즈니스 지원 전화번호가 위에 나�
 2. 사용자의 현재 위치를 입력하고 가까운 Microsoft Store를 찾습니다.
 
 3. 매장을 선택한 다음, **지금 서비스 예약하기**를 선택합니다.
-
----
 
 ::: moniker-end
 

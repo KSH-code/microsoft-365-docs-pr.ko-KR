@@ -21,12 +21,12 @@ search.appverid:
 - BEA160
 ms.assetid: b1bc0bef-4608-4601-813a-cdd9f746709a
 description: 비즈니스용 Office 365 또는 Microsoft 365 평가판 또는 유료 구독을 취소 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 47b4ae3e027a218f7d830bb6af24a39ca33a4abb
-ms.sourcegitcommit: 3d1abd7c06d316d6e6586e4bdcd5703291ac1ab0
+ms.openlocfilehash: d58ad1b18c8834740984f0ff47b7983a6797e108
+ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43117947"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43142166"
 ---
 # <a name="cancel-your-subscription"></a>구독 취소
 
@@ -42,9 +42,6 @@ ms.locfileid: "43117947"
 구독에 사용할 자체 도메인 이름을 추가한 경우 구독을 취소 하기 전에 도메인을 제거 해야 합니다. 자세한 내용은 [Office 365에서 도메인 제거](../../admin/get-help-with-domains/remove-a-domain.md)를 참조하세요.
 
 ::: moniker range="o365-worldwide"
-
-> [!NOTE]
-> 새로운 Microsoft 365 관리 센터를 사용하지 않는 경우 홈페이지 상단에 있는 **새 관리 센터 시도** 토글을 선택하여 켤 수 있습니다.
 
 1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품 및 서비스</a> 페이지로 이동합니다.
 

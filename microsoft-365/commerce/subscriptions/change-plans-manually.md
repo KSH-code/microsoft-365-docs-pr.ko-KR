@@ -21,17 +21,14 @@ search.appverid:
 - BEA160
 ROBOTS: NOINDEX
 description: 새 구독을 구입 하 고 구독이 모두 나열 되 고 활성 상태가 되도록 하 여 수동으로 구독을 변경 합니다.
-ms.openlocfilehash: 0042e0fd2fa5ac10be512246c252bc1d0f679709
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 80e10c3b24fa69ee5b1a6c89790260c2ac810588
+ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42245988"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43142154"
 ---
 # <a name="change-plans-manually"></a>수동으로 계획 변경
-
-> [!NOTE]
-> 이 문서는 새 관리 센터에 적용 됩니다. 새 관리 센터는 모든 Microsoft 365 관리자가 사용할 수 있으며, 홈 페이지 맨 위에 있는 **새 관리 센터** 전환 사용을 선택 하 여 옵트인 할 수 있습니다. 자세한 내용은 [새 Microsoft 365 관리 센터 정보](../../admin/microsoft-365-admin-center-preview.md)를 참고하세요. 이전 관리 센터에 대 한 문서를 보려면 [Office 365 for business 요금제를 수동으로 전환을](switch-plans-manually.md)참조 하십시오.
 
 ## <a name="step-1-decide-how-to-change-plans"></a>1 단계: 요금제 변경 방법 결정
 
@@ -86,7 +83,7 @@ ms.locfileid: "42245988"
 
 ### <a name="reassign-a-license-for-one-user"></a>한 사용자에 대 한 라이선스 다시 할당
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다..
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다.
 
 2. **활성 사용자** 페이지에서 라이선스를 할당 하려는 사용자를 선택 합니다.
 
@@ -94,7 +91,7 @@ ms.locfileid: "42245988"
 
 ### <a name="reassign-licenses-for-multiple-users-at-once"></a>한 번에 여러 사용자에 대해 라이선스 다시 할당
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다..
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다.
 
 2. 기존 라이선스를 바꾸려는 사용자의 이름 옆에 있는 원을 선택 합니다.
 
@@ -117,4 +114,5 @@ ms.locfileid: "42245988"
 일부 사용자만 다른 구독으로 이동한 경우 더 이상 필요 없는 [라이선스를 제거](../licenses/remove-licenses-from-subscription.md) 합니다.
 
 ## <a name="call-support-to-help-you-change-plans"></a>요금제를 변경 하는 데 도움이 되는 통화 지원
+
 [Microsoft 지원 서비스에 문의](../../admin/contact-support-for-business-products.md)

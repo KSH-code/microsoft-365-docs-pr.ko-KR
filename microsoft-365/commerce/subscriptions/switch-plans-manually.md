@@ -22,18 +22,20 @@ search.appverid:
 ms.assetid: eb0d0680-5677-41a0-8c46-4b9d47f1c209
 ROBOTS: NOINDEX
 description: 새 구독을 구입 하 고 구독이 모두 나열 되 고 활성 상태가 되도록 하 여 Office 365 비즈니스 구독을 수동으로 전환 합니다.
-ms.openlocfilehash: 19efd94f320fcf5dc54f44b70b436f713a663a40
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 9a0c382abf1e61f1b31cb358529925053d037be4
+ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42354712"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43142106"
 ---
 # <a name="switch-office-365-for-business-plans-manually"></a>Office 365 비즈니스 에디션 요금제를 수동으로 전환
 
 ::: moniker range="o365-worldwide"
+
 > [!NOTE]
-> 이 문서는 이전 관리 센터에 적용 됩니다. 새 관리 센터에 대 한 문서를 보려면 [수동으로 변경 계획](change-plans-manually.md)을 참조 하십시오. 새 관리 센터는 모든 Microsoft 365 관리자가 사용할 수 있으며, 홈 페이지 맨 위에 있는 **새 관리 센터를 사용해 보기** 를 선택 하 여 옵트인 할 수 있습니다. 자세한 내용은 [새 Microsoft 365 관리 센터 정보](../../admin/microsoft-365-admin-center-preview.md)를 참고하세요.
+> 이 문서는 이전 관리 센터에 적용 됩니다. 새 관리 센터에 대 한 문서를 보려면 [수동으로 변경 계획](change-plans-manually.md)을 참조 하십시오. 새 관리 센터는 모든 Microsoft 365 관리자가 사용할 수 있습니다. 자세한 내용은 [새 Microsoft 365 관리 센터 정보](../../admin/microsoft-365-admin-center-preview.md)를 참고하세요.
+
 ::: moniker-end
 
 ## <a name="step-1-decide-how-to-switch-plans"></a>1 단계: 요금제 전환 방법 결정

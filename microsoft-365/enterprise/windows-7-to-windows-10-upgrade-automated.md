@@ -15,16 +15,16 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 대규모 조직을 위한 Windows 7에서 Windows 10으로 자동 업그레이드
-ms.openlocfilehash: 727f165dc941eeb429e865fc8321499af6f23512
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: f9ba1022b4c7f702f6cb9b815deee59047c4b704
+ms.sourcegitcommit: 9ca28ae8f7804eb488cf76ca4b09fe88787e0a49
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42085631"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43113484"
 ---
 # <a name="windows-7-to-windows-10-automated-in-place-upgrades-for-large-organizations"></a>대규모 조직을 위한 Windows 7에서 Windows 10으로 현재 위치에서 자동 업그레이드
 
-2020년 1월 14일부터 Windows 7을 실행하는 PC에 대한 보안 업데이트 또는 지원이 더 이상 제공되지 않습니다. Windows 7에서 Windows 10으로 전환하고 여러 옵션을 배포해야 하는 몇 달 남지 않은 상황에서 IT 커뮤니티의 공통된 질문은 "Windows 7에서 Windows 10으로 이동하는 가장 빠른 방법은 무엇인가요?"입니다. 짧은 대답은 기존 PC의 현재 위치에서 업그레이드를 수행하여 데스크톱 배포 프로세스의 여러 측면에 중점을 줄이는 것입니다.
+2020년 1월 14일 기준으로 Windows 7을 실행하는 PC에 대한 보안 업데이트 또는 지원이 더 이상 제공되지 않습니다. 여러 옵션을 배포할 수 있는 Windows 7에서 Windows 10으로의 전환에 대한 IT 커뮤니티의 일반적인 질문은 "Windows 7에서 Windows 10으로 가장 빠르게 이동하는 방법은 무엇입니까?"입니다. 짧은 대답은 기존 PC의 현재 위치에서 업그레이드를 수행하여 데스크톱 배포 프로세스의 여러 측면에 중점을 줄이는 것입니다.
 
 <center><img src="../media/windows-7-to-windows-10-upgrade-automated-media/windows-7-to-windows-10-upgrade-automated-media-1.png" alt="wheel" height="421" width="500" /></center>
 
@@ -38,7 +38,7 @@ ms.locfileid: "42085631"
 
 ## <a name="in-place-upgrade-reliability-safeguards-and-scale"></a>현재 위치 업그레이드 안정성, 보호책 및 규모
 
-Windows 10의 현재 위치 업그레이드는 파일 마이그레이션 또는 응용 프로그램 재설치 없이 Windows 7 이상을 실행하는 기존 장치를 Windows 10으로 이전하는 안정된 방법입니다. 현재 위치 업그레이드를 수행한 후에 사용자 파일, 설정 및 사용 가능한 앱은 이전 Windows 7 설치와 일치합니다. 이 기회로 기존 앱이나 설정을 정리하고 싶겠지만 2020년 1월 Windows 7 지원 종료일이 가까워지면 현실적으로 다른 옵션을 추구할 시간이 부족합니다. 유사 아키텍처(32 비트에서 32 비트 또는 64 비트에서 64 비트로)와 유사 Windows 버전(Professional에서 Pro 또는 Enterprise에서 Enterprise로)으로 업그레이드하는 경우에도 업그레이드가 가능합니다.
+Windows 10의 현재 위치 업그레이드는 파일 마이그레이션 또는 응용 프로그램 재설치 없이 Windows 7 이상을 실행하는 기존 장치를 Windows 10으로 이전하는 안정된 방법입니다. 현재 위치 업그레이드를 수행한 후에 사용자 파일, 설정 및 사용 가능한 앱은 이전 Windows 7 설치와 일치합니다. 유사 아키텍처(32 비트에서 32 비트 또는 64 비트에서 64 비트로)와 유사 Windows 버전(Professional에서 Pro 또는 Enterprise에서 Enterprise로)으로 업그레이드하는 경우에도 업그레이드가 가능합니다.
 
 업그레이드 프로세스는 기본적으로 이전 Windows 설치를 업그레이드의 일부로 백업하므로 업그레이드 실패 시나 장치 또는 응용 프로그램이 업그레이드 후 제대로 작동하지 않는 경우 컴퓨터가 Windows 7로 롤백될 수 있습니다. 업그레이드된 PC는 기본적으로 10일 안에 필요한 경우 수동으로 Windows 7로 롤백할 수 있습니다.
 
@@ -106,4 +106,4 @@ Configuration Manager 배포 작업 순서의 [사전 캐시 옵션](https://doc
 
 컬렉션에서 많은 수의 PC에 호환성 검사와 함께 사전 캐시 시퀀스를 배포했다면 장치 준비를 위해 로그 파일의 구문 분석을 시작할 수 있습니다. 위에 나열된 출력을 사용하여 \#1(0xC1900210)은 "배포 준비"로 동작할 수 있으며 \#4(0xC190020E)는 디스크 공간을 확보하여 실행될 수 있습니다. 여기서는 삭제 대상에 대한 주의를 기울이고 싶겠지만, Windows 업데이트 정리, 휴지통 및 임시 파일에서 시작하면 업그레이드할 수 있는 충분한 공간을 제공하는 경우가 많습니다. PC가 현재 위치 업그레이드를 위해 준비될 때까지 필요에 따라 자주 호환성 검사를 실행할 수 있습니다. Windows 설치 명령 줄 옵션에 대한 자세한 정보는 <https://aka.ms/setupswitches>에서 찾을 수 있습니다.
 
-## <a name="desktop-deployment-centerhttpsakamshowtoshift"></a>[데스크톱 배포 센터](https://aka.ms/howtoshift)
+## <a name="desktop-deployment-center"></a>[데스크톱 배포 센터](https://aka.ms/howtoshift)

@@ -24,12 +24,12 @@ search.appverid:
 - GEA150
 ms.assetid: 8d83b530-f4ca-47f6-a666-e5791cbacc7e
 description: '제품 키를 사용 하 여 Office 365 비즈니스 구독을 갱신 하 고, 되풀이 대금 청구를 설정 하거나 해제 하는 방법을 알아봅니다. '
-ms.openlocfilehash: 777f60ae40e72a6762015b24ffe1a1f0fed055ba
-ms.sourcegitcommit: 8e8230ceab480a5f1506e31de828f04f5590a350
+ms.openlocfilehash: acf5c81fae60fcce272dcee470de0588da3c4a97
+ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42959219"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43142118"
 ---
 # <a name="renew-office-365-for-business"></a>비즈니스용 Office 365 갱신
 
@@ -47,9 +47,6 @@ ms.locfileid: "42959219"
 제품 키를 사용 하 여 구독에 대 한 선불 지불 하는 경우 구독은 구독 종료 시 만료 됩니다. **정기 청구** 를 켜고 신용 카드 또는 은행 계좌 정보를 제공 하 여 연회비에 구독 한 날에 매월 대금을 청구할 수 있습니다. 매달 또는 전체 연도의 비용을 지불 하기 위한 옵션을 사용할 수도 있습니다. 초기 구독 기간이 만료 될 때까지 신용 카드 또는 은행 계좌는 충전 되지 않습니다.
 
 ::: moniker range="o365-worldwide"
-
-> [!NOTE]
-> 새로운 Microsoft 365 관리 센터를 사용하지 않는 경우 홈페이지 상단에 있는 **새 관리 센터 시도** 토글을 선택하여 켤 수 있습니다.
 
 1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품 및 서비스</a> 페이지로 이동합니다.
 
@@ -117,12 +114,10 @@ ms.locfileid: "42959219"
 ## <a name="related-articles"></a>관련 문서
 
 [구독 다시 활성화](reactivate-your-subscription.md)
-  
-[신용 카드 또는 은행 계좌 추가, 업데이트 또는 제거](../billing-and-payments/add-update-or-remove-credit-card-or-bank-account.md)
-  
+
 [구독이 종료되면 내 데이터와 액세스 권한에 어떤 변화가 있나요?](what-if-my-subscription-expires.md)
 
-[결제 방법 추가, 업데이트 또는 제거](../billing-and-payments/add-update-or-remove-credit-card-or-bank-account.md)
+[결제 방법을 추가, 업데이트 또는 제거](../billing-and-payments/add-update-or-remove-credit-card-or-bank-account.md)
 
 [결제 방법 변경](../billing-and-payments/change-payment-method.md)
   

@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 사용자의 파일 및 설정을 마이그레이션하는 방법을 알아봅니다.
-ms.openlocfilehash: 9332542e5b87de3e3c237f969a3842545eb03dc4
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: f17b11efe889359f97087ac5d96ffa968ca8cd88
+ms.sourcegitcommit: 9ca28ae8f7804eb488cf76ca4b09fe88787e0a49
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42085294"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43113544"
 ---
 # <a name="step-4-user-files-and-settings-migration"></a>4단계: 사용자 파일 및 설정
 
@@ -49,7 +49,7 @@ ms.locfileid: "42085294"
 
 조직에서 이러한 결정을 옵션으로 제공할지 여부는 계획 중인 마이그레이션의 규모에 따라 좌우됩니다. 분명한 사실은 이러한 결정은 사용자와 직접 함께 작업하거나, 사용자의 요구를 이해하거나, 새 PC나 업데이트한 PC로 파일을 복사할 때 수반되는 시간과 물리적 공간에 따라 제한된다는 것입니다.
 
-수동 마이그레이션을 수행하기로 결정하면 Windows 7 지원이 종료되는 2020년 1월까지 이 작업을 완료할 수 있는지 여부를 평가해야 할 수 있습니다. 완료 여부가 불투명한 경우 아래의 자동화 옵션 중 하나를 사용하거나 도움을 줄 수 있는 추가 직원을 요청할 수 있습니다.
+수동 마이그레이션에 대한 사용을 선택하는 경우 아래의 자동화된 옵션 중 하나를 사용하여 확인하거나 더 많은 사용자에게 도움을 요청하세요.
 
 ## <a name="automated-migration-using-usmt"></a>USMT를 사용하는 자동화된 마이그레이션 
 
@@ -89,8 +89,8 @@ Windows 10에는 표준 설치의 일부로 여러 유용한 기본 제공 앱�
 
 ## <a name="next-step"></a>다음 단계
 
-## <a name="step-5-security-and-compliance-considerationshttpsakamsmdd5"></a>[5단계: 보안 및 준수 고려 사항](https://aka.ms/mdd5)
+## <a name="step-5-security-and-compliance-considerations"></a>[5단계: 보안 및 준수 고려 사항](https://aka.ms/mdd5)
 
 ## <a name="previous-step"></a>이전 단계
 
-## <a name="step-3-office-and-lob-app-deliveryhttpsakamsmdd3"></a>[3단계: Office 및 LOB 앱 배달](https://aka.ms/mdd3)
+## <a name="step-3-office-and-lob-app-delivery"></a>[3단계: Office 및 LOB 앱 배달](https://aka.ms/mdd3)

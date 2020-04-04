@@ -24,32 +24,35 @@ search.appverid:
 - GEA150
 ms.assetid: 73318661-8f33-478b-bcc7-fb8d69dbb22a
 description: 새 Office 365 for business 구독으로 전환 하는 방법을 알아봅니다.
-ms.openlocfilehash: f341222945d4af6d35c00ee26c3a2645fabf98f8
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: e851ebaa89719f7dae62ed99bf72e2e2a4f361a2
+ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42633406"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43142094"
 ---
 # <a name="switch-to-a-different-office-365-for-business-plan"></a>다른 Microsoft Office 365 비즈니스 에디션 요금제로 전환
 
 비즈니스가 변경 되거나 더 많은 기능이 필요한 경우 요금제를 전환할 수 있습니다.  
 
-요금제를 전환 하는 가장 쉬운 방법은 관리 센터에서 **요금제 전환** 단추를 사용 하는 것입니다. 그러나 **요금제 전환** 단추를 사용 하는 경우에는 모든 상황에서 지원 되지 않습니다. 경우에 따라 요금제를 수동으로 전환할 수 있습니다.
+플랜을 전환하는 가장 쉬운 방법은 관리 센터에서 **플랜 전환** 단추를 사용하는 것입니다. 그러나 **요금제 전환** 단추를 사용 하는 경우에는 모든 상황에서 지원 되지 않습니다. 경우에 따라 요금제를 수동으로 전환할 수 있습니다.
 
 ::: moniker range="o365-worldwide"
+
 > [!NOTE]
-> 이 문서는 이전 관리 센터에 적용 됩니다. 새 관리 센터에 대 한 문서를 보려면 [다른 요금제로 업그레이드](upgrade-to-different-plan.md)를 참조 하세요. 새 관리 센터는 모든 Microsoft 365 관리자가 사용할 수 있으며, 홈 페이지 맨 위에 있는 **새 관리 센터를 사용해 보기** 를 선택 하 여 옵트인 할 수 있습니다. 자세한 내용은[새 Microsoft 365 관리 센터 정보](../../admin/microsoft-365-admin-center-preview.md) 를 참조 하세요. 
+> 이 문서는 이전 관리 센터에 적용 됩니다. 새 관리 센터에 대 한 문서를 보려면 [다른 요금제로 업그레이드](upgrade-to-different-plan.md)를 참조 하세요. 새 관리 센터는 모든 Microsoft 365 관리자가 사용할 수 있습니다. 자세한 내용은[새 Microsoft 365 관리 센터 정보](../../admin/microsoft-365-admin-center-preview.md)를 참조 하세요.
+
 ::: moniker-end
 
 **다른 사항이 필요 합니다.**
+
 - [구독 취소](cancel-your-subscription.md)
 - [재택 Office 365에서 비즈니스 구독으로 업그레이드](https://support.office.com/article/9322ffb8-a35d-4407-8ebe-ed6ea0859b9f.aspx)
 - [Microsoft 지원 문의](../../admin/contact-support-for-business-products.md)
 
 ## <a name="use-the-switch-plans-button"></a>요금제 전환 단추 사용
 
-**요금제 전환** 단추를 사용 하는 경우 현재 요금제를 전환할 수 있는 새 요금제를 구입 하는 프로세스를 진행 하 고 있는 경우 모든 사용자에 게 새 요금제의 라이선스가 자동으로 할당 되며 이전 계획이 사용자에 대해 취소 됩니다. 
+**요금제 전환** 단추를 사용 하는 경우 현재 요금제를 전환할 수 있는 새 요금제를 구입 하는 프로세스를 진행 하 고 있는 경우 모든 사용자에 게 새 요금제의 라이선스가 자동으로 할당 되며 이전 계획이 사용자에 대해 취소 됩니다.
   
 1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">구독</a> 페이지로 이동 합니다.
 
@@ -95,4 +98,4 @@ ms.locfileid: "42633406"
   
 ## <a name="call-support-to-help-you-switch-plans"></a>요금제 전환에 대한 도움을 받기 위해 지원 서비스에 문의
 
-![전화](../../media/88eae4a1-b8d9-4a12-bc4a-44af244f084b.png) [통화 지원](../../admin/contact-support-for-business-products.md)
+[지원 서비스 문의](../../admin/contact-support-for-business-products.md)

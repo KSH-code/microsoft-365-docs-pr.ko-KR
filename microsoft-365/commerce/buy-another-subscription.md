@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: fab3b86c-3359-4042-8692-5d4dc7550b7c
 description: '이미 구독이 있는 경우 조직의 다른 Office 365 for business 구독을 구입 하는 방법을 알아봅니다. '
 ms.custom: okr_SMB
-ms.openlocfilehash: 1a322be8ee76e37259d4a2cddf9ed2d75c379576
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 785080003a8abfac823239bd708eb2e442aa768f
+ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42354649"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43142266"
 ---
 # <a name="buy-another-office-365-for-business-subscription"></a>비즈니스용 Office 365 구독 구입
 
@@ -40,9 +40,6 @@ ms.locfileid: "42354649"
 ## <a name="buy-another-subscription"></a>다른 구독 구입
 
 ::: moniker range="o365-worldwide"
-
-> [!NOTE]
-> 새로운 Microsoft 365 관리 센터를 사용하지 않는 경우 홈페이지 상단에 있는 **새 관리 센터 시도** 토글을 선택하여 켤 수 있습니다.
 
 1. 관리 센터에서 **결제** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">구매 서비스</a> 페이지로 이동 합니다.
 
@@ -109,7 +106,6 @@ ms.locfileid: "42354649"
 8. 확인 페이지에서 **관리 홈으로 이동을**선택 합니다.
 
 ::: moniker-end
-
 
 ## <a name="related-articles"></a>관련 문서
 

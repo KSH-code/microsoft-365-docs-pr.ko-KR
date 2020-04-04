@@ -28,60 +28,59 @@ search.appverid:
 - GSP150
 ms.assetid: 96ea3533-de64-4b01-839a-c560875a662c
 description: Office 365 구독에서 파일 저장소를 추가 하 고 줄이는 방법에 대해 알아봅니다. 추가 파일 저장소를 사용 하는 경우 SharePoint Online 및 OneDrive에 더 많은 콘텐츠를 저장할 수 있습니다.
-ms.openlocfilehash: 64e98ff830b592b12e25620e4c2e89e09a161a3e
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 313ca90c729a89acf00c58e49a7e887313261e66
+ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42354849"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43142338"
 ---
 # <a name="add-storage-space-for-your-subscription"></a>구독에 대 한 저장소 공간 추가
 
-SharePoint Online 사이트 모음의 저장소 부족을 시작 하는 경우 계획이 적합 한 경우 구독에 저장소를 추가할 수 있습니다. 사용 가능한 추가 기능 목록에 **Office 365 추가 파일 저장소가** 표시 되지 않으면 계획이 적합 하지 않음을 의미 합니다. 자세한 내용은 [내 요금제를 참조 하세요](#is-my-plan-eligible-for-office-365-extra-file-storage) .
+SharePoint Online 사이트 모음의 저장소 공간이 부족해지면 해당 플랜에 자격이 있는 경우 구독에 저장소를 추가할 수 있습니다. 사용 가능한 추가 기능 목록에 **Office 365 추가 파일 저장소가** 표시 되지 않으면 계획이 적합 하지 않음을 의미 합니다. 자세한 내용은 [내 요금제를 참조 하세요](#is-my-plan-eligible-for-office-365-extra-file-storage) .
 
 ## <a name="view-available-storage"></a>사용 가능한 저장소 보기
 
 ::: moniker range="o365-worldwide"
 
 1. 글로벌 또는 SharePoint 관리자로서 https://admin.microsoft.com에 로그인합니다(페이지에 액세스할 수 있는 권한이 없다는 메시지가 나타나면 해당 조직에서 Office 365 관리자 권한을 받지 못한 것입니다)
-    
-2. 왼쪽 창의 **관리 센터**에서 **SharePoint**를 선택 합니다. 기존 SharePoint 관리 센터가 나타나는 경우 페이지 위쪽에 있는 **지금 열기**를 선택하여 새 SharePoint 관리 센터를 엽니다. 
-    
+
+2. 왼쪽 창의 **관리 센터**에서 **SharePoint**를 선택 합니다. 기존 SharePoint 관리 센터가 나타나는 경우 페이지 위쪽에 있는 **지금 열기**를 선택하여 새 SharePoint 관리 센터를 엽니다.
+
 3. 새 SharePoint 관리 센터의 왼쪽 창에서 **활성 사이트**를 선택합니다.
 
-4. 페이지 오른쪽 위에서 모든 사이트에서 사용 되는 저장소의 크기와 구독의 총 저장소를 확인 합니다. (조직이 Office 365에서 다중 Geo를 구성한 경우에도 막대에는 모든 지리적 위치에서 사용 된 저장소의 양이 표시 됩니다.) 
+4. 페이지 오른쪽 위에서 모든 사이트에서 사용 되는 저장소의 크기와 구독의 총 저장소를 확인 합니다. (조직이 Office 365에서 다중 Geo를 구성한 경우에도 막대에는 모든 지리적 위치에서 사용 된 저장소의 양이 표시 됩니다.)
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
 1. https://portal.office.de 전역 또는 SharePoint 관리자 권한으로 로그인 한 다음 관리 타일을 선택 하 여 관리 센터를 엽니다. (페이지에 액세스할 수 있는 권한이 없다는 메시지가 표시 되는 경우 조직에 Office 365 관리자 권한이 없는 것입니다.)
-    
-2. 왼쪽 창의 **관리 센터**에서 **SharePoint**를 선택 합니다. 기존 SharePoint 관리 센터가 나타나는 경우 페이지 위쪽에 있는 **지금 열기**를 선택하여 새 SharePoint 관리 센터를 엽니다. 
-    
+
+2. 왼쪽 창의 **관리 센터**에서 **SharePoint**를 선택 합니다. 기존 SharePoint 관리 센터가 나타나는 경우 페이지 위쪽에 있는 **지금 열기**를 선택하여 새 SharePoint 관리 센터를 엽니다.
+
 3. 새 SharePoint 관리 센터의 왼쪽 창에서 **활성 사이트**를 선택합니다.
 
-4. 페이지 오른쪽 위에서 모든 사이트에서 사용 되는 저장소의 크기와 구독의 총 저장소를 확인 합니다. 
+4. 페이지 오른쪽 위에서 모든 사이트에서 사용 되는 저장소의 크기와 구독의 총 저장소를 확인 합니다.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
 1. https://login.partner.microsoftonline.cn/ 전역 또는 SharePoint 관리자 권한으로 로그인 한 다음 관리 타일을 선택 하 여 관리 센터를 엽니다. (페이지에 액세스할 수 있는 권한이 없다는 메시지가 표시 되는 경우 조직에 Office 365 관리자 권한이 없는 것입니다.)
-     
-2. 왼쪽 창의 **관리 센터**에서 **SharePoint**를 선택 합니다. 기존 SharePoint 관리 센터가 나타나는 경우 페이지 위쪽에 있는 **지금 열기**를 선택하여 새 SharePoint 관리 센터를 엽니다. 
-    
+
+2. 왼쪽 창의 **관리 센터**에서 **SharePoint**를 선택 합니다. 기존 SharePoint 관리 센터가 나타나는 경우 페이지 위쪽에 있는 **지금 열기**를 선택하여 새 SharePoint 관리 센터를 엽니다.
+
 3. 새 SharePoint 관리 센터의 왼쪽 창에서 **활성 사이트**를 선택합니다.
 
 4. 페이지 오른쪽 위에서 모든 사이트에서 사용 되는 저장소의 크기와 구독의 총 저장소를 확인 합니다.  
 
 ::: moniker-end
 
-
 ![활성 사이트 페이지의 저장소 표시줄](https://docs.microsoft.com/sharepoint/sharepointonline/media/active-sites-storage-bar.png)
 
 > [!NOTE]
-> 사용 된 저장소에 지난 24-48 시간 동안의 변경 내용은 포함 되지 않습니다. 
+> 사용 된 저장소에 지난 24-48 시간 동안의 변경 내용은 포함 되지 않습니다.
 
 사용 중인 저장소의 용량을 확인한 후에는 구독에 대해 저장소 공간을 추가 또는 제거할 수 있습니다. 저장소 공간을 추가 하는 데 드는 비용을 확인 하려면이 문서에 나와 있는 단계를 수행 하 고 구입 하기 전에 가격 산정 정보를 검토 하세요.
   
@@ -92,9 +91,6 @@ SharePoint Online 사이트 모음의 저장소 부족을 시작 하는 경우 �
 구독에 대 한 추가 저장소를 아직 구입 하지 않은 경우이 작업을 수행할 수 있습니다.
 
 ::: moniker range="o365-worldwide"
-
-> [!NOTE]
-> 새로운 Microsoft 365 관리 센터를 사용하지 않는 경우 홈페이지 상단에 있는 **새 관리 센터 시도** 토글을 선택하여 켤 수 있습니다.
 
 1. 관리 센터에서 **결제** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">구매 서비스</a> 페이지로 이동 합니다.
 
@@ -162,15 +158,11 @@ SharePoint Online 사이트 모음의 저장소 부족을 시작 하는 경우 �
 
 ::: moniker-end
 
-
-## <a name="increase-or-decrease-storage"></a>저장소 늘리기 또는 줄이기
+## <a name="increase-or-decrease-storage"></a>저장소 확대 또는 축소
 
 **Office 365 추가 파일 저장소** 추가 기능을 통해 추가 파일 저장소를 이미 구매한 경우 이러한 단계를 사용 하 여 구독에 대 한 추가 저장소 공간을 늘리거나 낮출 수 있습니다. 저장소 용량을 1gb로 줄일 수 있습니다. 추가 저장 공간을 모두 제거 하려면 [지원 서비스에 문의](../admin/contact-support-for-business-products.md)해야 합니다.
 
 ::: moniker range="o365-worldwide"
-
-> [!NOTE]
-> 새로운 Microsoft 365 관리 센터를 사용하지 않는 경우 홈페이지 상단에 있는 **새 관리 센터 시도** 토글을 선택하여 켤 수 있습니다.
 
 1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품 및 서비스</a> 페이지로 이동합니다.
 
@@ -185,7 +177,6 @@ SharePoint Online 사이트 모음의 저장소 부족을 시작 하는 경우 �
 ::: moniker range="o365-germany"
 
 1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">구독</a> 페이지로 이동 합니다.
-
 
 2. **구독** 페이지에서 **추가 기능**을 선택 합니다.
 
@@ -228,8 +219,6 @@ SharePoint Online 사이트 모음의 저장소 부족을 시작 하는 경우 �
 5. **닫기**를 선택합니다.
 
 ::: moniker-end
-
-
 
 ## <a name="is-my-plan-eligible-for-office-365-extra-file-storage"></a>내 요금제로 Office 365 추가 파일 저장소를 사용할 수 있나요?
 

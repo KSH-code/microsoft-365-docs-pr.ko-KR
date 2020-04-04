@@ -1,5 +1,5 @@
 ---
-title: 셀프 서비스 구입 관리 (사용자)
+title: 셀프 서비스 구매(사용자) 관리
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -14,19 +14,16 @@ ms.collection:
 search.appverid:
 - MET150
 description: 사용자는 셀프 서비스 구매를 관리 하는 방법을 배울 수 있습니다.
-ms.openlocfilehash: cdc50144179dd4c0f9b6355501167e9420ff0b50
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 15fc43d488cb2a8fd38cea8ab2ed85c002e23d92
+ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42080325"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43142142"
 ---
-# <a name="manage-self-service-purchases-users"></a>셀프 서비스 구입 관리 (사용자)
+# <a name="manage-self-service-purchases-users"></a>셀프 서비스 구매(사용자) 관리
 
 사용자는 특정 제품에 대 한 구독을 구입 하 고 해당 구독에 대 한 라이선스를 팀의 사용자에 게 할당할 수 있습니다. 사용자가 수행 하는 셀프 서비스 구매에 대 한 비용을 지불 해야 합니다. <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Admin.microsoft.com</a>의 Microsoft 365 관리 센터에서 구독을 관리할 수 있습니다.
-
-> [!NOTE]
-> 새 관리 센터 환경을 설정 해야 합니다.
 
 관리자는 구매한 구독에 대 한 읽기 전용 보기를 제공 합니다. 구입 하는 각 구독에 대해 제품, 구매자 이름, 구독 구입, 만료 날짜, 구매 가격 및 할당 된 사용자를 볼 수 있습니다.
 
@@ -55,7 +52,7 @@ ms.locfileid: "42080325"
 
 3. **라이선스 할당**을 선택 합니다.
 
-4. **사용자에 게 라이선스 할당** 창에서 이름을 입력 하기 시작한 다음 결과에서 선택 하 여 목록에 추가 합니다. 한 번에 최대 20 명의 사용자를 추가할 수 있습니다.
+4. **사용자에게 라이선스 할당** 창에서 이름을 입력한 다음 결과에서 해당 이름을 선택하여 목록에 추가합니다. 한 번에 최대 20명의 사용자를 추가할 수 있습니다.
 
     > [!NOTE]
     > 조직의 사용자 에게만 라이선스를 할당할 수 있습니다.
@@ -121,7 +118,7 @@ ms.locfileid: "42080325"
 
 2. **송장** 아래에서 보려는 송장을 선택 합니다.
 
-## <a name="need-help-contact-us"></a>도움이 필요 하세요? 문의처.
+## <a name="need-help-contact-us"></a>도움이 필요하신가요? 문의처.
 
 셀프 서비스 구매에 대 한 일반적인 질문은 [셀프 서비스 구매 FAQ](self-service-purchase-faq.md)를 참조 하세요.
 

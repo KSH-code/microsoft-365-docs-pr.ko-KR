@@ -23,12 +23,12 @@ search.appverid:
 ms.assetid: a25c10d6-c1e9-4299-9185-25178df9eba6
 description: 비즈니스용 Office 365의 대금 청구 주소를 업데이트 하는 방법을 알아봅니다. 또한 대금 청구 알림을 수신 하는 데 사용 되는 전자 메일 주소를 업데이트할 수 있습니다.
 ms.custom: okr_SMB
-ms.openlocfilehash: aa696be3fd541fb98bc29c65c1285e2b2e967726
-ms.sourcegitcommit: 9c335d110e0b499501edc8a31b987641819118a1
+ms.openlocfilehash: 6b11e38de33bf6d66c5847643790603b9ce7b0af
+ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "42409643"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43142314"
 ---
 # <a name="change-your-billing-addresses-for-office-365-for-business"></a>비즈니스용 Office 365의 대금 청구 주소 변경
 
@@ -61,9 +61,6 @@ ms.locfileid: "42409643"
 ::: moniker-end
 
 ::: moniker range="o365-worldwide"
-
-> [!NOTE]
-> 새로운 Microsoft 365 관리 센터를 사용하지 않는 경우 홈페이지 상단에 있는 **새 관리 센터 시도** 토글을 선택하여 켤 수 있습니다.
 
 ::: moniker-end
 
@@ -176,12 +173,24 @@ ms.locfileid: "42409643"
 ## <a name="change-the-alternate-email-address-for-another-admin"></a>다른 관리자의 대체 전자 메일 주소 변경
 
 조직의 다른 전역 및 청구 관리자의 대체 전자 메일 주소를 변경할 수도 있습니다.
-  
+
+::: moniker range="o365-worldwide"
+
 1. 관리 센터에서 **대금 청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=853212" target="_blank">알림</a> 페이지로 이동 합니다.
 
-    Office 365 독일를 사용 중인 경우이 <a href="https://go.microsoft.com/fwlink/p/?linkid=853213" target="_blank">청구 알림</a> 페이지로 이동 합니다.
+::: moniker-end
 
-    21Vianet에서 운영 하는 Office 365을 사용 중인 경우이 <a href="https://go.microsoft.com/fwlink/p/?linkid=853215" target="_blank">청구 알림</a> 페이지로 이동 합니다.
+::: moniker range="o365-germany"
+
+1. 관리 센터에서 **대금 청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=853213" target="_blank">알림</a> 페이지로 이동 합니다.
+
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+1. 관리 센터에서 **대금 청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=853215" target="_blank">알림</a> 페이지로 이동 합니다.
+
+::: moniker-end
 
 2. **대금 청구 알림** 페이지에서 변경 하려는 관리자를 선택 합니다.
 
@@ -193,6 +202,4 @@ ms.locfileid: "42409643"
 
 [요금 청구 방식](understand-your-invoice2.md)
 
-[구독 결제](pay-for-your-subscription.md)
-
-[구독 및 대금 청구-관리자 도움말](../index.yml)
+[구독 요금 결제](pay-for-your-subscription.md)

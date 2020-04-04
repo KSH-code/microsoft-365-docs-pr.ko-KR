@@ -24,12 +24,12 @@ search.appverid:
 - BEA160
 ms.assetid: 0724b428-fb59-4962-8c37-6674166d7507
 description: 비즈니스 송장에 대 한 Office 365의 요금 청구 및 지불 정보를 해석 하는 방법과 구매 주문 번호를 변경 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 624480cdc810d5e764cad2a8e569ca60d14dc3ea
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 152b5d888b8773e2e60cea8584417e47ee58c47f
+ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42354689"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43142302"
 ---
 # <a name="understand-your-invoice-for-office-365-for-business"></a>Office 365 비즈니스 에디션의 송장 이해
 
@@ -104,8 +104,6 @@ ms.locfileid: "42354689"
 
 ::: moniker range="o365-worldwide"
 
-### <a name="use-the-new-admin-center-to-change-your-purchase-order-number"></a>새 관리 센터를 사용 하 여 구매 주문 번호 변경
-
 1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품 및 서비스</a> 페이지로 이동합니다.
 
 2. **테이블** 보기인 경우 **카드** 를 선택 하 여 보기를 전환 합니다.
@@ -115,16 +113,6 @@ ms.locfileid: "42354689"
 4. **청구** 섹션의 **송장**옆에서 **편집**을 선택 합니다.
 
 5. **결제 정보 편집** 창의 맨 아래에 PO 번호를 입력 한 다음 **저장**을 선택 합니다.
-
-### <a name="use-the-old-admin-center-to-change-your-purchase-order-number"></a>이전 관리 센터를 사용 하 여 구매 주문 번호 변경
-
-1. 관리 센터에서 **청구** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">구독</a> 페이지로 이동 합니다.
-
-2. 변경 하려는 구독을 선택 하 고 **결제 방법** 섹션에서 **결제 정보 업데이트**를 선택 합니다.
-
-3. **결제 정보 업데이트** 창에서 **아니요**를 선택 합니다.
-
-4. **결제 정보 업데이트** 창의 맨 아래에 PO 번호를 입력 하 고 **제출을**선택한 다음 **닫기를**선택 합니다.
 
 ::: moniker-end
 

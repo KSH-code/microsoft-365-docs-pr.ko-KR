@@ -1,16 +1,16 @@
 ---
 title: Microsoft Managed Desktop 권한이 사용자에 게 적합 합니다.
 description: ''
-keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 설명서
+keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
-ms.openlocfilehash: 7c2cb707f606d6f3f622a72a9fea9fb437626b2b
-ms.sourcegitcommit: 2de2faea7da80712f448e35c2d6c425944013b7e
+ms.openlocfilehash: 0d144e05091eafa2a6314c65869642b4b7ecd233
+ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/23/2019
-ms.locfileid: "39204237"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43142686"
 ---
 # <a name="what-is-microsoft-managed-desktop"></a>Microsoft Managed Desktop이란 무엇인가요?
 
@@ -67,13 +67,14 @@ Microsoft Managed Desktop은 등록 된 장치 및 사용 하는 Microsoft 소�
 ## <a name="need-more-details"></a>자세한 정보가 필요 하세요?
 고객 스토리를 포함 하 여 Microsoft Managed desktop의 값에 대 한 자세한 내용은 [Microsoft Managed desktop](https://aka.ms/mmd)를 참조 하십시오. 더 많은 기능을 시작할 수 있는 좋은 위치는 [로드맵](https://aka.ms/AA6jiam) 및 다운로드 가능한 [1 페이지 요약](https://aka.ms/AA6ob3h)입니다. Microsoft Managed Desktop [블로그에서](https://aka.ms/AA6l2dd)최신 뉴스를 찾을 수 있습니다.
 
-Microsoft Managed Desktop이 조직에 적합 한 것 처럼 보이는 경우 서비스에 대해 자세히 설명 하는 추가 설명서를 확인 하 고, 조직에서 등록을 준비 하는 방법, 서비스를 시작 하는 방법 및 이후 진행 중인 작업을 확인할 수 있습니다. 필요한 경우 사용자와 최종 사용자가 쉽게 도움을 얻을 수 있는 방법을 포함 합니다. 이미 보드에 온 경우에는 [로컬 계정 팀](https://pages.email.office.com/contactmmd/)에 문의 하 여 시작 합니다.
+Microsoft Managed Desktop이 조직에 적합 한 것 처럼 보이는 경우 서비스에 대해 자세히 설명 하는 추가 설명서를 확인 하 고, 조직에서 등록을 준비 하는 방법, 서비스를 시작 하는 방법, 그리고 이후에 최종 사용자와 필요한 경우 도움을 쉽게 얻을 수 있는 작업을 포함 하는 진행 중인 운영을 확인할 수 있습니다. 이미 보드에 온 경우에는 [로컬 계정 팀](https://pages.email.office.com/contactmmd/)에 문의 하 여 시작 합니다.
 
 **추가 개요 및 배경** 기본적으로 기술 및 비즈니스 의사 결정권자를 위해 이러한 항목에서는 조직과 Microsoft 간의 역할 및 책임 구분, Microsoft Managed Desktop에서 사용 되는 기술에 대 한 자세한 내용 및 it가 ITIL 프레임 워크의 일부로 보다 광범위 한 전략에 어떻게 부합 하는지 자세히 설명 합니다.
 
 - [Microsoft Managed Desktop 역할 및 책임](roles-and-responsibilities.md)
 - [Microsoft Managed Desktop 기술](technologies.md)
 - [Microsoft Managed Desktop 및 ITIL](../MMD-and-ITSM.md)
+- [규정 준수](compliance.md)
 - [Microsoft Managed Desktop 서비스 설명](https://docs.microsoft.com/microsoft-365/managed-desktop/service-description/)
 
 **등록 준비** 이러한 항목에서는 환경이 주요 필수 구성 요소를 충족 하는지 확인 하 고, 네트워크를 구성 하 고, 인증서를 설정 하 고, 앱을 준비 하는 등 조직에서 등록을 준비 하기 위해 수행 해야 하는 단계에 대해 설명 합니다.

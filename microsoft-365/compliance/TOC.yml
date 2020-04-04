@@ -149,6 +149,8 @@
           href: document-fingerprinting.md
         - name: ' 중요한 정보에 대한 DLP 기능'
           href: what-the-dlp-functions-look-for.md
+    - name: M365의 암호화
+      href: encryption.md
     - name: 고객 키
       items:
         - name: Office 365의 고객 키를 사용한 서비스 암호화
@@ -200,6 +202,8 @@
               href: legacy-information-for-message-encryption.md
             - name: Office 365 메시지 암호화에 대한 Azure 권한 관리 설정
               href: set-up-azure-rms-for-previous-version-message-encryption.md
+    - name: SharePoint 관리 센터에서 IRM 설정
+      href: set-up-irm-in-sp-admin-center.md
     - name: 데이터 분류 이해 (미리 보기)
       href: data-classification-overview.md
       items:
@@ -769,7 +773,7 @@
           href: compliance-score.md
         - name: 준수 점수 설정 (미리 보기)
           href: compliance-score-setup.md
-        - name: 준수 점수 작업 (미리 보기)
+        - name: 규정 준수 점수를 사용한 작업 (미리 보기)
           href: working-with-compliance-score.md
         - name: 준수 점수 계산 (미리 보기)
           href: compliance-score-methodology.md
@@ -777,14 +781,14 @@
           href: compliance-score-release-notes.md
         - name: 준수 점수 FAQ (미리 보기)
           href: compliance-score-faq.md
-        - name: 규정 준수 관리자(미리 보기)
+        - name: 준수 관리자 (미리 보기)
           href: compliance-manager-overview.md
           items:
-            - name: 준수 관리자(미리 보기)의 새로운 기능
+            - name: 준수 관리자 (미리 보기) 릴리스 정보
               href: compliance-manager-release-notes.md
-            - name: 준수 관리자(미리 보기)로 작업하기
+            - name: 준수 관리자 사용 (미리 보기)
               href: working-with-compliance-manager.md
-            - name: 준수 관리자 (클래식)
+            - name: 준수 관리자(기본)
               href: meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md
     - name: GDPR 데이터 주체 요청 도구
       href: manage-gdpr-data-subject-requests-with-the-dsr-case-tool.md

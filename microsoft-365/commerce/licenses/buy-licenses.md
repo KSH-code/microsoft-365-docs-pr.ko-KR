@@ -25,12 +25,12 @@ search.appverid:
 - GEA150
 ms.assetid: 36081d8d-b3fa-4948-8c34-e217bba825e1
 description: 비즈니스용 Office 365 구독에 대 한 라이선스를 추가 및 제거 하는 방법을 알아봅니다.
-ms.openlocfilehash: 2f9c6b58a478b18fa1844c33689a8a4974a5917a
-ms.sourcegitcommit: 0d7d18b045c9a14c943bc382b16715e67c86259a
+ms.openlocfilehash: f596971016e18747ea2849c0dfcb0dd287a0c811
+ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "42410045"
+ms.lasthandoff: 04/03/2020
+ms.locfileid: "43142178"
 ---
 # <a name="manage-subscription-licenses"></a>구독 라이선스 관리
 
@@ -39,9 +39,6 @@ ms.locfileid: "42410045"
 사용자에게 라이선스가 할당된 경우 구독에서 라이선스를 제거할 수 없습니다. 현재 사용자에 게 할당 된 라이선스를 제거 하려면 구독에서 라이선스를 제거 하기 전에 [사용자 로부터 라이선스를 제거](../../admin/manage/remove-licenses-from-users.md) 해야 합니다.
 
 ::: moniker range="o365-worldwide"
-
-> [!NOTE]
-> 새로운 Microsoft 365 관리 센터를 사용하지 않는 경우 홈페이지 상단에 있는 **새 관리 센터 시도** 토글을 선택하여 켤 수 있습니다.
 
 ## <a name="what-you-need-to-know-about-buying-licenses-for-your-business-subscription"></a>비즈니스 구독의 라이선스 구입에 대해 알아야 할 사항
 
@@ -87,7 +84,7 @@ ms.locfileid: "42410045"
 
 ## <a name="what-if-i-dont-see-the-addremove-licenses-link"></a>라이선스 추가/제거 링크가 표시되지 않으면 어떻게 하나요?
 
-이 표에서는 **라이선스 추가/제거** 링크를 사용 하지 못할 수 있는 이유와이에 대해 수행할 수 있는 작업에 대해 설명 합니다. 
+이 표에서는 **라이선스 추가/제거** 링크를 사용 하지 못할 수 있는 이유와이에 대해 수행할 수 있는 작업에 대해 설명 합니다.
 
 |이유  |설명  |솔루션  |
 |---------|---------|---------|
