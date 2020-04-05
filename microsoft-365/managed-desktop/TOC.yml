@@ -10,6 +10,8 @@
           href: intro/technologies.md
         - name: Microsoft Managed Desktop 및 ITIL
           href: MMD-and-ITSM.md
+        - name: 규정 준수
+          href: intro/compliance.md
     - name: Microsoft Managed Desktop 서비스 설명
       href: service-description/index.md
       items:
