@@ -17,14 +17,16 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 레이블을 사용하여 조직 전체의 데이터를 관리하여 분류하고 해당 분류에 따라 보존 규칙을 시행하십시오. 보존 레이블을 사용하여 Microsoft 365용 레코드 관리 솔루션을 구현할 수도 있습니다.
-ms.openlocfilehash: e41c71a1f8bc0175b179ecd760dac7098551bc91
-ms.sourcegitcommit: 6b7eecad7162c065af80721204fbabdd2e31e42b
+ms.openlocfilehash: 59adebd9b61761f05156247bbb6c4cb27b42c52b
+ms.sourcegitcommit: e695bcfc69203da5d3d96f3d6a891664a0e27ae2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "43065644"
+ms.lasthandoff: 04/02/2020
+ms.locfileid: "43106010"
 ---
 # <a name="overview-of-retention-labels"></a>보존 레이블 개요
+
+>*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](https://aka.ms/ComplianceSD).*
 
 조직 전체에서 산업 규정 및 내부 정책을 준수하기 위해 다른 작업이 수행되어야 하는 다음과 같은 다른 형식의 콘텐츠가 있을 수 있습니다.
   
