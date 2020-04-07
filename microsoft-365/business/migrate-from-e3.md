@@ -21,12 +21,12 @@ search.appverid:
 - BCS160
 - MET150
 description: Office 365 E3에서 Microsoft 365 Business로 비즈니스를 이동 하는 방법을 알아봅니다.
-ms.openlocfilehash: b86a163792aa71f0bca115ab918e0800acc0427d
-ms.sourcegitcommit: 9c335d110e0b499501edc8a31b987641819118a1
+ms.openlocfilehash: cff6166529df2e56ba948a9bd3ea4594fb295b08
+ms.sourcegitcommit: e525bcf073a61e1350484719a0c3ceb6ff0d8db1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "42409683"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43153535"
 ---
 # <a name="migrating-from-office-365-e3-to-microsoft-365-business"></a>Office 365 E3에서 Microsoft 365 Business로 마이그레이션 
 
@@ -52,7 +52,7 @@ Microsoft 365 Business는 최고급 클라우드 기반 생산성 앱과 간단�
 | **위협 방지**        | | | 
 | Office 365 ATP (Advanced Threat Protection) 계획 1 | ![Microsoft 365 Business에 포함](../media/check-mark.png)    | 포함 되지 않지만 추가할 수 있음 | 
 | **Id 관리**        | | | 
-| 하이브리드 Azure Active Directory에 대 한 셀프 서비스 암호 재설정 (Azure AD) 계정, Azure MFA (다단계 인증), 조건부 액세스, 온-프레미스 id에 대 한 암호 쓰기 저장|     ![Microsoft 365 Business에 포함](../media/check-mark.png)    |  | 
+| 하이브리드 Azure Active Directory (Azure AD) 계정, Azure Multi-factor Authentication, 조건부 액세스, 온-프레미스 id의 암호 쓰기 되돌림에 대 한 셀프 서비스 암호 재설정|     ![Microsoft 365 Business에 포함](../media/check-mark.png)    |  | 
 | **장치 및 앱 관리**        | | |
 | Microsoft Intune, Windows AutoPilot|     ![Microsoft 365 Business에 포함](../media/check-mark.png)    |  |
 | 공유 컴퓨터 활성화|     ![Microsoft 365 Business에 포함](../media/check-mark.png)    | ![Office 365 E3에 포함](../media/check-mark.png)| 

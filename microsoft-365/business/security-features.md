@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 ms.assetid: c123694a-1efb-459e-a8d5-2187975373dc
 description: Pc, 휴대폰 및 태블릿에서 데이터를 안전 하 게 보호 하기 위해 Microsoft 365 Business와 함께 제공 되는 보안 기능에 대해 알아봅니다.
-ms.openlocfilehash: 85f9b50225c3dbdb0c1b76c33d516aaa03bec773
-ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
+ms.openlocfilehash: 3f638a3287c06ded7bf4c29c647e62cbf3fca969
+ms.sourcegitcommit: e525bcf073a61e1350484719a0c3ceb6ff0d8db1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42561263"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43153801"
 ---
 # <a name="microsoft-365-business-security-and-compliance-features"></a>Microsoft 365 Business 보안 및 규정 준수 기능
 
@@ -74,11 +74,11 @@ Microsoft 365 Business의 고급 기능을 사용하여 사이버 위협으로�
 
 - **[Azure Portal의 Intune 전체 기능](https://go.microsoft.com/fwlink/p/?linkid=871403)**
     
-    Azure portal의 Intune 관리 센터에 액세스 하 여 MacOS 장치, iPhone 및 Android 장치 관리와 같은 추가 보안 기능을 Windows 용 고급 장치 관리와 함께 Microsoft를 통해 사용할 수 없도록 설정할 수 있습니다. 365 비즈니스 관리 센터
-- **Azure AD P1 계획과 동일한 [조건부 액세스](https://docs.microsoft.com/azure/active-directory/conditional-access/overview)**
+    Azure portal의 Intune 관리 센터에 액세스 하면 MacOS 장치, iPhone 및 Android 장치 관리와 같은 추가 보안 기능을 Windows 용 고급 장치 관리, Microsoft 365 Business 관리 센터를 통해 사용할 수 없도록 설정할 수 있습니다.
+- **Azure AD Premium P1 계획과 동일한 [조건부 액세스](https://docs.microsoft.com/azure/active-directory/conditional-access/overview)**
 
 
-    조건부 액세스를 사용 하면 조직에서 로그인 위험을 방지 하 고, 예기치 않은 네트워크 또는 로캘에서 액세스를 시도 하 고, 위험한 장치 유형의 액세스를 시도할 수 있습니다. 조건부 액세스 정책은 첫 번째 인증을 완료 한 후 적용 되며 첫 번째 인증 이벤트의 신호를 사용 하 여 시도 된 액세스를 승인, 거부 또는 증명 (예: 두 번째 유형의 식별)으로 할지 여부를 결정 합니다. 필수입니다.
+    조건부 액세스를 사용 하면 조직에서 로그인 위험을 방지 하 고, 예기치 않은 네트워크 또는 로캘에서 액세스를 시도 하 고, 위험한 장치 유형의 액세스를 시도할 수 있습니다. 조건부 액세스 정책은 첫 번째 인증을 완료 한 후에 적용 되며 첫 번째 인증 이벤트의 신호를 사용 하 여 시도 된 액세스를 승인, 거부 또는 두 번째 식별 형태의 확인이 필요한 지 여부를 결정 합니다.
 
     다음과 같은 조건부 액세스 기능이 포함 되어 있습니다.
 

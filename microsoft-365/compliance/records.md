@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Office 365 또는 Microsoft 조직에서 레코드 관리 전략을 구현하려면 콘텐츠를 레코드로 선언하는 보존 레이블을 사용합니다. 그런 다음 보존 레코드 레이블을 게시하거나 자동으로 적용합니다.
-ms.openlocfilehash: ba69c9705c14c2f836f67c8747d30ee2280c6d99
-ms.sourcegitcommit: e695bcfc69203da5d3d96f3d6a891664a0e27ae2
+ms.openlocfilehash: d497f3e536a54226ad9e7b5bb9a399f66774c25e
+ms.sourcegitcommit: e525bcf073a61e1350484719a0c3ceb6ff0d8db1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43106146"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43153836"
 ---
 # <a name="overview-of-records"></a>레코드 개요
 
@@ -107,9 +107,6 @@ SharePoint 사이트 또는 OneDrive 계정에서 문서에 레코드 레이블�
 <br/><br/>
 
 ![레코드로 태그가 지정된 문서의 레코드 상태 속성](../media/recordversioning8.png)
-
-> [!NOTE]
-> 레코드 버전 관리를 사용하려면 SharePoint 사이트 또는 OneDrive 계정에서 레코드로 선언된 콘텐츠를 편집할 수 있는 권한이 있는 각 사용자에 대해 Office 365 Enterprise E5 라이선스가 필요합니다. 읽기 전용 권한이 있는 사용자는 이 라이선스가 필요 없습니다.
 
 ### <a name="locking-and-unlocking-a-record"></a>레코드 잠금 및 잠금 해제
 

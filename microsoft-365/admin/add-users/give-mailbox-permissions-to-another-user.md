@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 1dbcf12f-a9de-4d1d-b0b3-a227f8a736d8
 description: '사용자에게 다른 사용자의 사서함에 액세스할 수 있는 권한을 부여하는 방법에 대해 알아봅니다. 이를 통해 사용자에게 다른 사용자의 사서함에서 메일을 읽고 보낼 수 있는 권한을 부여합니다. '
-ms.openlocfilehash: 8c3572cf543545de4a2825012f6c2e8e906cd8dd
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 695068d2002b20637b6df6a2514b74828f273965
+ms.sourcegitcommit: 311bbd6f168225ede166d29696126a1e003eee0f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42245712"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43151350"
 ---
 # <a name="give-mailbox-permissions-to-another-user-in-office-365---admin-help"></a>Office 365에서 다른 사용자에게 사서함 사용 권한 부여 - 관리자 도움말
 
@@ -51,9 +51,9 @@ ms.locfileid: "42245712"
   
 - [다른 사용자의 사서함에서 전자 메일 읽기](https://support.office.com/article/Read-email-from-another-user-s-mailbox-in-Office-365-cb3b6a8a-c6e8-4342-803c-3e54b6428cc2?#bkmk_reademailanotheruser)
     
-- [다른 사용자의 사서함에서 전자 메일 보내기](https://support.office.com/article/Send-email-from-another-user-s-mailbox-in-Office-365-2B828C5F-41AB-4904-97B9-3B63D8129C4E?#bkmk_sendemailanotheruser)
+- [다른 사용자의 사서함에서 전자 메일 보내기](https://docs.microsoft.com/microsoft-365/admin/add-users/give-mailbox-permissions-to-another-user)
     
-- [사용자를 대신하여 전자 메일 보내기](https://support.office.com/article/Send-email-on-behalf-of-another-user-in-Office-365-C5E7749D-244E-477F-998E-55D3876C22EC?#bkmk_sendbehalflanotheruser)
+- [사용자를 대신하여 전자 메일 보내기](https://docs.microsoft.com/microsoft-365/admin/add-users/give-mailbox-permissions-to-another-user)
     
  **전파 변경:**
   

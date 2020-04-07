@@ -15,12 +15,12 @@ ms.custom:
 - TLG
 - Ent_TLGs
 description: 다음 단계를 사용 하 여 Microsoft 365 Enterprise 테스트 환경에서 전역 관리자 계정을 보호 합니다.
-ms.openlocfilehash: 9452ac7bafec416833ece9cbcb645bd7eeee21cc
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: e6b93e3888873b6d78fec1802d179ed9624ffa63
+ms.sourcegitcommit: e525bcf073a61e1350484719a0c3ceb6ff0d8db1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42084327"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43153871"
 ---
 # <a name="protect-global-administrator-accounts-in-your-microsoft-365-enterprise-test-environment"></a>Microsoft 365 Enterprise 테스트 환경에서 전역 관리자 계정 보호
 

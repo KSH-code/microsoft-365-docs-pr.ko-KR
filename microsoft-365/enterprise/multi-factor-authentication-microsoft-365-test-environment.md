@@ -15,18 +15,18 @@ ms.custom:
 - TLG
 - Ent_TLGs
 description: Microsoft 365 Enterprise 테스트 환경에서 스마트 전화로 전송 되는 텍스트 메시지를 사용 하 여 다단계 인증을 구성 합니다.
-ms.openlocfilehash: ea2041a463b224781df101251dab0f4d9f0e8753
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: b17c6b3b39bebaff2737ea5e9bb198beef00844c
+ms.sourcegitcommit: e525bcf073a61e1350484719a0c3ceb6ff0d8db1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42633196"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43153883"
 ---
 # <a name="multi-factor-authentication-for-your-microsoft-365-enterprise-test-environment"></a>Microsoft 365 Enterprise 테스트 환경에 대 한 다단계 인증
 
 *이 테스트 랩 가이드는 Microsoft 365 Enterprise와 Office 365 Enterprise 테스트 환경 모두에서 사용할 수 있습니다.*
 
-Microsoft 365 또는 구독에 대해 Azure AD 테 넌 트를 사용 하는 모든 서비스 또는 응용 프로그램에 로그인 하기 위한 추가 보안 수준에 대 한 자세한 내용을 확인 하기 위해 사용자 이름 및 암호를 초과 하는 Azure multi-factor authentication을 사용 하도록 설정할 수 있습니다. 계정의. 
+Microsoft 365 또는 구독에 대해 Azure AD 테 넌 트를 사용 하는 모든 서비스 또는 응용 프로그램에 로그인 하기 위한 추가 보안 수준에 대 한 자세한 내용은 계정을 확인 하기 위해 사용자 이름 및 암호 뿐 아니라 Azure multi-factor authentication을 사용 하도록 설정할 수 있습니다. 
 
 다단계 인증을 사용 하는 경우 사용자는 전화 통화를 승인 하거나, 문자 메시지로 보낸 확인 코드를 입력 하거나, 암호를 올바르게 입력 한 후 스마트 전화에서 앱 암호를 지정 해야 합니다. 사용자는 이 두 번째 인증 요소를 충족해야 로그인할 수 있습니다. 
   

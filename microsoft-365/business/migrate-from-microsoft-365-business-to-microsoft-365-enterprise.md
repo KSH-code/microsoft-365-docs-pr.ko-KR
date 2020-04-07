@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 ms.assetid: 5b4ba843-24b8-4526-8e1f-f9b9eab89d06
 description: Microsoft 365 Business에서 Microsoft 365 E3으로 비즈니스를 이동 하는 방법을 알아봅니다.
-ms.openlocfilehash: 9e9cfcf2212faa69f600267e4f9bfd2391e3f4e5
-ms.sourcegitcommit: 9c335d110e0b499501edc8a31b987641819118a1
+ms.openlocfilehash: 0d636c0572850a53612bf756508c4b57f1b3e4eb
+ms.sourcegitcommit: e525bcf073a61e1350484719a0c3ceb6ff0d8db1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "42409673"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43153523"
 ---
 # <a name="migrate-from-microsoft-365-business-to-microsoft-365-e3"></a>Microsoft 365 Business에서 Microsoft 365 E3로 마이그레이션
 
@@ -61,10 +61,10 @@ Microsoft 365 Business에는 최고의 비즈니스에 필요한 모든 것이 �
 | 공격 표면 축소 기능    | [이 목록 보기](#threat-protection) | Microsoft Edge에 대 한 하드웨어 기반 격리의 엔터프라이즈 관리 | 
 | Office 365 ATP (Advanced Threat Protection) 계획 1 | ![Microsoft 365 Business에 포함](../media/check-mark.png)    | 포함 되지 않지만 추가할 수 있음 | 
 | **Id 관리**        | | | 
-| 하이브리드 Azure Active Directory에 대 한 셀프 서비스 암호 재설정 (Azure AD) 계정, Azure MFA (다단계 인증), 조건부 액세스, 온-프레미스 id에 대 한 암호 쓰기 저장|     ![Microsoft 365 Business에 포함](../media/check-mark.png)    | ![Microsoft 365 E3에 포함](../media/check-mark.png) | 
+| 하이브리드 Azure Active Directory (Azure AD) 계정, Azure Multi-factor Authentication, 조건부 액세스, 온-프레미스 id의 암호 쓰기 되돌림에 대 한 셀프 서비스 암호 재설정|     ![Microsoft 365 Business에 포함](../media/check-mark.png)    | ![Microsoft 365 E3에 포함](../media/check-mark.png) | 
 | Cloud App Discovery, Azure AD Connect Health    |     | ![Microsoft 365 E3에 포함](../media/check-mark.png) | 
 | Azure AD Office 365 앱 SSO (Single Sign-on): 사용자 당 10 개의 앱 (예: Salesforce와 같은 SaaS 응용 프로그램) * | ![Microsoft 365 Business에 포함](../media/check-mark.png)    | ![Microsoft 365 E3에 포함](../media/check-mark.png) | 
-| Azure AD Premium 1 SSO: 제한 없음 (셀프 서비스 앱 통합 서식 파일을 사용 하는 Azure AD 응용 프로그램 프록시 및 비 갤러리 앱을 통한 온-프레미스 앱)    |     | ![Microsoft 365 E3에 포함](../media/check-mark.png) | 
+| Azure AD Premium P1 SSO: 제한 없음 (셀프 서비스 앱 통합 서식 파일을 사용 하는 Azure AD 응용 프로그램 프록시 및 비 갤러리 앱을 통한 온-프레미스 앱)    |     | ![Microsoft 365 E3에 포함](../media/check-mark.png) | 
 | **장치 및 앱 관리**        | | | 
 | Microsoft Intune, Windows Autopilot|     ![Microsoft 365 Business에 포함](../media/check-mark.png)    | ![Microsoft 365 E3에 포함](../media/check-mark.png) | 
 |VDA (가상 데스크톱 액세스)    |  |     ![Microsoft 365 E3에 포함](../media/check-mark.png) | 

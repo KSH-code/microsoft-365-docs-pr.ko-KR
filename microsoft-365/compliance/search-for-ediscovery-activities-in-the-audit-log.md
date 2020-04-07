@@ -1,11 +1,11 @@
 ---
-title: Office 365 감사 로그에서 eDiscovery 활동 검색
+title: 감사 로그에서 eDiscovery 활동 검색
 f1.keywords:
 - NOCSH
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.date: 10/24/2017
+ms.date: ''
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
@@ -14,27 +14,27 @@ localization_priority: Normal
 search.appverid: MOE150
 ms.assetid: 67cc7f42-a53d-4751-b929-6005c80798f7
 description: 준수 관리자가 보안 & 준수 센터에서 콘텐츠 검색 및 eDiscovery 사례 작업을 수행할 때 기록 되는 이벤트에 대 한 Office 365 감사 로그를 검색 하는 방법을 알아봅니다.
-ms.openlocfilehash: ef9c40debb8c28f0d017423d29016ca4f52b7a17
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: 21a7304abae594557c5ae8fcdc33ca8c88bc2dea
+ms.sourcegitcommit: 311bbd6f168225ede166d29696126a1e003eee0f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42634156"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43151453"
 ---
-# <a name="search-for-ediscovery-activities-in-the-office-365-audit-log"></a>Office 365 감사 로그에서 eDiscovery 활동 검색
+# <a name="search-for-ediscovery-activities-in-the-audit-log"></a>감사 로그에서 eDiscovery 활동 검색
 
-보안 & 준수 센터에서 또는 해당 Windows PowerShell cmdlet을 실행 하 여 수행 되는 콘텐츠 검색 및 eDiscovery 관련 작업은 Office 365 감사 로그에 기록 됩니다. 이벤트는 관리자 또는 준수 관리자 (또는 eDiscovery 권한이 할당 된 사용자)가 보안 & 준수 센터에서 다음과 같은 콘텐츠 검색 및 eDiscovery 관련 작업을 수행할 때 기록 됩니다.
+보안 & 준수 센터에서 또는 해당 PowerShell cmdlet을 실행 하 여 수행 되는 콘텐츠 검색 및 eDiscovery 관련 작업은 Office 365 감사 로그에 기록 됩니다. 이벤트는 관리자나 eDiscovery 관리자 또는 사용자가 할당 한 eDiscovery 권한이 있는 경우 보안 & 준수 센터에서 다음과 같은 콘텐츠 검색 및 핵심 eDiscovery 작업을 수행할 때 기록 됩니다.
   
 - eDiscovery 사례 만들기 및 관리
-    
+
 - 콘텐츠 검색 만들기, 시작 및 편집
-    
+
 - 검색 결과 미리 보기, 내보내기, 삭제 등 콘텐츠 검색 작업 수행
-    
+
 - 콘텐츠 검색에 대한 사용 권한 필터링 구성
-    
+
 - eDiscovery 관리자 역할 관리
-    
+
 > [!IMPORTANT]
 > 이 문서에서 설명 하는 작업은 보안 & 준수 센터를 사용 하 여 수행 된 eDiscovery 작업의 결과에 불과합니다. Exchange Online의 원본 위치 eDiscovery 도구 또는 SharePoint Online의 eDiscovery Center를 사용 하 여 수행한 eDiscovery 작업은 포함 되지 않습니다. 
   
@@ -67,10 +67,9 @@ Office 365 감사 로그 검색, 필요한 사용 권한, 검색 결과 내보�
     
     이벤트 레코드의 자세한 속성을 포함 하는 **세부 정보가** 플라이 아웃 페이지에 표시 됩니다. 자세한 내용을 표시 하려면 **추가 정보**를 클릭 합니다. 이러한 속성에 대 한 [자세한 내용은 eDiscovery 작업에 대 한 자세한 속성](#detailed-properties-for-ediscovery-activities) 섹션을 참조 하십시오. 
 
-  
 ## <a name="ediscovery-activities"></a>eDiscovery 활동
 
-다음 표에서는 관리자 또는 사용자가 보안 & 준수 센터를 사용 하 여 eDiscovery 관련 작업을 수행 하거나 조직의 보안 & 준수 센터에 연결 된 원격 PowerShell에서 해당 cmdlet을 실행 하 여 기록 되는 콘텐츠 검색 및 eDiscovery 관련 작업에 대해 설명 합니다. 
+다음 표에서는 관리자 또는 eDiscovery 관리자가 보안 & 준수 센터를 사용 하 여 eDiscovery 관련 작업을 수행 하거나 Office 365 Security & 준수 센터 PowerShell에서 해당 cmdlet을 실행 하는 경우 기록 되는 콘텐츠 검색 및 핵심 eDiscovery 작업에 대해 설명 합니다. 
   
 > [!NOTE]
 > 이 섹션에서 설명 하는 eDiscovery 작업은 다음 섹션에서 설명 하는 eDiscovery cmdlet 작업에 대 한 유사한 정보를 제공 합니다. 이 섹션에서 설명 하는 eDiscovery 작업은 감사 로그 검색 결과에서 30 분 이내에 표시 되므로 사용 하는 것이 좋습니다. EDiscovery cmdlet 작업이 감사 로그 검색 결과에 표시 되는 데 최대 24 시간이 걸릴 수 있습니다. 
@@ -80,7 +79,7 @@ Office 365 감사 로그 검색, 필요한 사용 권한, 검색 결과 내보�
 |EDiscovery 사례에 구성원이 추가 됨  <br/> |CaseMemberAdded  <br/> |Get-compliancecasemember 추가  <br/> |사용자가 eDiscovery 사례의 구성원으로 추가 되었습니다. 사례 구성원으로 서, 사용자는 필요한 권한이 할당 되었는지 여부에 따라 다양 한 사례 관련 작업을 수행할 수 있습니다.  <br/> |
 |변경 된 콘텐츠 검색  <br/> |SearchUpdated  <br/> |Set-ComplianceSearch  <br/> |기존 콘텐츠 검색이 변경 되었습니다. 변경 사항에는 콘텐츠 위치 추가 또는 제거 또는 검색 쿼리 편집이 포함 될 수 있습니다.  <br/> |
 |EDiscovery 관리자 멤버 자격 변경  <br/> |CaseAdminUpdated  <br/> |업데이트-eDiscoveryCaseAdmin  <br/> |조직의 eDiscovery 관리자 목록이 변경 되었습니다. 이 작업은 eDiscovery 관리자 목록이 새 사용자의 그룹으로 바뀔 때 기록 됩니다. 단일 사용자를 추가 하거나 제거 하면 CaseAdminAdded 작업이 기록 됩니다.  <br/> |
-|EDiscovery 사례 변경  <br/> |CaseUpdated  <br/> |Remove-compliancecase  <br/> |EDiscovery 사례가 변경 되었습니다. 변경 내용에는 미해결 사례 닫기 또는 닫힌 사례 다시 열기가 포함 됩니다.  <br/> |
+|EDiscovery 사례 변경  <br/> |CaseUpdated  <br/> |Remove-compliancecase  <br/> |EDiscovery 사례가 변경 되었습니다. 변경 내용에는 대/소문자 닫기 또는 닫힌 사례 다시 열기가 포함 됩니다.  <br/> |
 |EDiscovery 사례 구성원 자격이 변경 됨  <br/> |CaseMemberUpdated  <br/> |업데이트-Get-compliancecasemember  <br/> |EDiscovery 사례의 구성원 목록이 변경 되었습니다. 이 작업은 모든 구성원이 새 사용자의 그룹으로 바뀔 때 기록 됩니다. 단일 구성원을 추가 하거나 제거 하는 경우 CaseMemberAdded 또는 CaseMemberRemoved 작업이 기록 됩니다.  <br/> |
 |변경 된 검색 권한 필터  <br/> |Search추가 업데이트  <br/> |New-compliancesecurityfilter  <br/> |검색 권한 필터가 변경 되었습니다.  <br/> |
 |EDiscovery 사례 보류에 대 한 검색 쿼리 변경  <br/> |HoldUpdated  <br/> |New-caseholdrule  <br/> |EDiscovery 사례와 관련 된 쿼리 기반 보류가 변경 되었습니다. 가능한 변경 사항에는 쿼리 기반 보존에 대 한 쿼리 또는 날짜 범위 편집이 포함 됩니다.  <br/> |
@@ -94,7 +93,7 @@ Office 365 감사 로그 검색, 필요한 사용 권한, 검색 결과 내보�
 |EDiscovery 사례 보류에 대 한 검색 쿼리를 만들었습니다.  <br/> |HoldCreated  <br/> |New-caseholdrule  <br/> |EDiscovery 사례와 관련 된 쿼리 기반 보류를 만들었습니다.  <br/> |
 |삭제 된 콘텐츠 검색  <br/> |SearchRemoved 됨  <br/> |Remove-ComplianceSearch  <br/> |기존 콘텐츠 검색이 삭제 되었습니다.  <br/> |
 |삭제 된 eDiscovery 관리자  <br/> |CaseAdminRemoved  <br/> |EDiscoveryCaseAdmin을 제거 합니다.  <br/> |EDiscovery 관리자가 조직에서 삭제 되었습니다.  <br/> |
-|삭제 된 eDiscovery 사례  <br/> |CaseRemoved  <br/> |Remove-compliancecase을 제거 합니다.  <br/> |EDiscovery 사례가 삭제 되었습니다. 사례를 삭제 하려면 먼저 케이스와 연결 된 보류를 제거 해야 합니다.  <br/> |
+|삭제 된 eDiscovery 사례  <br/> |CaseRemoved  <br/> |Remove-compliancecase을 제거 합니다.  <br/> |EDiscovery 사례가 삭제 되었습니다. 사례를 삭제 하려면 먼저 케이스와 연결 된 보류를 모두 제거 해야 합니다.  <br/> |
 |삭제 된 검색 권한 필터  <br/> |Search에이 제거 됨  <br/> |New-compliancesecurityfilter을 제거 합니다.  <br/> |검색 권한 필터가 삭제 되었습니다.  <br/> |
 |EDiscovery 사례 보류에 대해 삭제 된 검색 쿼리  <br/> |HoldRemoved  <br/> |New-caseholdrule을 제거 합니다.  <br/> |EDiscovery 사례와 관련 된 쿼리 기반 보류가 삭제 되었습니다. 보류 삭제의 결과는 보류에서 쿼리를 제거 하는 경우가 많습니다. 보류 또는 보류 쿼리를 삭제 하면 보류 되었던 콘텐츠 위치가 릴리스됩니다.  <br/> |
 |다운로드 된 콘텐츠 검색 내보내기  <br/> |SearchExportDownloaded  <br/> |해당 없음  <br/> |사용자가 콘텐츠 검색 결과를 로컬 컴퓨터에 다운로드 했습니다. 검색 결과를 다운로드 하려면 먼저 **콘텐츠 검색 작업의 내보내기를** 시작 해야 합니다.  <br/> |
@@ -111,6 +110,11 @@ Office 365 감사 로그 검색, 필요한 사용 권한, 검색 결과 내보�
 |콘텐츠 검색 내보내기 시작  <br/> |내보낸 search  <br/> |New-compliancesearchaction  <br/> |사용자가 콘텐츠 검색 결과를 내보냈습니다.  <br/> |
 |보고서 내보내기 시작  <br/> |SearchReport  <br/> |New-compliancesearchaction  <br/> |사용자가 콘텐츠 검색 보고서를 내보냈습니다.  <br/> |
 |콘텐츠 검색 중지 됨  <br/> |SearchStopped 됨  <br/> |Stop-ComplianceSearch  <br/> |사용자가 콘텐츠 검색을 중지 했습니다.  <br/> |
+|(없음)|CaseViewed|Remove-compliancecase|사용자가 보안 및 준수 센터의 **eDiscovery** 페이지에서 또는 cmdlet을 실행 하 여 사례 목록을 본 경우|
+|(없음)|SearchViewed|Get-ComplianceSearch|보안 및 준수 센터에서 또는 cmdlet을 실행 하 여 **검색** 탭에 나열 된 콘텐츠 검색에 대 한 목록을 본 사용자입니다. 이 작업은 사용자가 eDiscovery 사례와 연결 된 콘텐츠 검색 목록을 보거나 사례에서 **검색** 탭을 클릭 하 여 **ComplianceSearch** 명령을 실행 하는 경우에도 기록 됩니다.|
+|(없음)|ViewedSearchExported|New-compliancesearchaction-Export|보안 및 준수 센터에서 또는 cmdlet을 실행 하 여 **내보내기** 탭에 나열 된 콘텐츠 검색 내보내기 작업 목록을 본 사용자입니다. 또한이 작업은 사용자가 eDiscovery 사례의 내보내기 작업 목록을 볼 때, **예를 들면 내보내기 탭에** 나열 되어 있거나 **new-compliancesearchaction-export** 명령을 실행 하는 경우에도 기록 됩니다.|
+|(없음)|ViewedSearchPreviewed|New-compliancesearchaction-Preview|사용자는 보안 및 준수 센터에서 또는 cmdlet을 실행 하 여 콘텐츠 검색 결과를 미리 볼 수 있습니다.|
+|||||
   
 ## <a name="ediscovery-cmdlet-activities"></a>eDiscovery cmdlet 작업
 
@@ -130,8 +134,8 @@ Office 365 감사 로그 검색, 필요한 사용 권한, 검색 결과 내보�
 |EDiscovery 사례 보류에 대해 삭제 된 검색 쿼리  <br/> |[New-caseholdrule을 제거 합니다.](https://go.microsoft.com/fwlink/p/?LinkId=823820) <br/> |EDiscovery 사례와 관련 된 쿼리 기반 보류가 삭제 되었습니다. 보류 삭제의 결과는 보류에서 쿼리를 제거 하는 경우가 많습니다. 보류 또는 보류 쿼리를 삭제 하면 보류 되었던 콘텐츠 위치가 릴리스됩니다.  <br/> |
 |EDiscovery 사례 보류에 대 한 검색 쿼리 변경  <br/> |[New-caseholdrule](https://go.microsoft.com/fwlink/p/?LinkId=823819) <br/> |EDiscovery 사례와 관련 된 쿼리 기반 보류가 변경 되었습니다. 가능한 변경 사항에는 쿼리 기반 보존에 대 한 쿼리 또는 날짜 범위 편집이 포함 됩니다.  <br/> |
 |EDiscovery 사례를 만들었습니다.  <br/> |[Remove-compliancecase](https://go.microsoft.com/fwlink/p/?LinkId=823842) <br/> |EDiscovery 사례를 만들었습니다. 사례를 만들 때 이름을 지정 하기만 하면 됩니다. 멤버 추가, 보류 만들기, 사례와 연결 된 콘텐츠 검색 만들기 등의 기타 사례 관련 작업은 추가 이벤트가 기록 됩니다.  <br/> |
-|삭제 된 eDiscovery 사례  <br/> |[Remove-compliancecase을 제거 합니다.](https://go.microsoft.com/fwlink/p/?LinkId=823844) <br/> |EDiscovery 사례가 삭제 되었습니다. 사례를 삭제 하려면 먼저 케이스와 연결 된 보류를 제거 해야 합니다.  <br/> |
-|EDiscovery 사례 변경  <br/> |[Remove-compliancecase](https://go.microsoft.com/fwlink/p/?LinkId=823846) <br/> |EDiscovery 사례가 변경 되었습니다. 변경 내용에는 미해결 사례 닫기 또는 닫힌 사례 다시 열기가 포함 됩니다.  <br/> |
+|삭제 된 eDiscovery 사례  <br/> |[Remove-compliancecase을 제거 합니다.](https://go.microsoft.com/fwlink/p/?LinkId=823844) <br/> |EDiscovery 사례가 삭제 되었습니다. 사례를 삭제 하려면 먼저 케이스와 연결 된 보류를 모두 제거 해야 합니다.  <br/> |
+|EDiscovery 사례 변경  <br/> |[Remove-compliancecase](https://go.microsoft.com/fwlink/p/?LinkId=823846) <br/> |EDiscovery 사례가 변경 되었습니다. 변경 내용에는 대/소문자 닫기 또는 닫힌 사례 다시 열기가 포함 됩니다.  <br/> |
 |EDiscovery 사례에 구성원이 추가 됨  <br/> |[Get-compliancecasemember 추가](https://go.microsoft.com/fwlink/p/?LinkId=823848) <br/> |사용자가 eDiscovery 사례의 구성원으로 추가 되었습니다. 사례 구성원으로 서, 사용자는 필요한 권한이 할당 되었는지 여부에 따라 다양 한 사례 관련 작업을 수행할 수 있습니다.  <br/> |
 |EDiscovery 사례에서 구성원 제거 됨  <br/> |[Get-compliancecasemember을 제거 합니다.](https://go.microsoft.com/fwlink/p/?LinkId=823849) <br/> |사용자가 eDiscovery 사례의 구성원으로 제거 되었습니다.  <br/> |
 |EDiscovery 사례 구성원 자격이 변경 됨  <br/> |[업데이트-Get-compliancecasemember](https://go.microsoft.com/fwlink/p/?LinkId=823850) <br/> |EDiscovery 사례의 구성원 목록이 변경 되었습니다. 이 작업은 모든 구성원이 새 사용자의 그룹으로 바뀔 때 기록 됩니다. 단일 구성원을 추가 하거나 제거 하는 경우 **get-compliancecasemember** 또는 **get-compliancecasemember** 작업이 기록 됩니다.  <br/> |
@@ -182,7 +186,7 @@ Office 365 감사 로그 검색, 필요한 사용 권한, 검색 결과 내보�
 |SecurityComplianceCenterEventType  <br/> |작업이 보안 & 준수 센터 이벤트 임을 나타냅니다. 이 속성의 경우 모든 eDiscovery 활동 값은 **0** 입니다.  <br/> |
 |SharepointLocations  <br/> |콘텐츠 검색에 포함 되거나 eDiscovery 사례에서 보류 되는 SharePoint Online 사이트입니다.  <br/> |
 |StartTime  <br/> |EDiscovery 활동이 시작 된 시간을 UTC (협정 세계시)로 된 날짜와 시간입니다.  <br/> |
-|UserId  <br/> |작업 속성에 지정 된 활동을 수행한 사용자가 레코드를 기록 합니다. 시스템 계정 (예: NT 권한 \ 컴퓨터)에서 수행한 eDiscovery 작업에 대 한 레코드는 감사 로그에도 포함 되어 있습니다.  <br/> |
+|UserId  <br/> |작업 속성에 지정 된 활동을 수행한 사용자가 레코드를 기록 합니다. 시스템 계정 (예: NT 권한 \ 컴퓨터)에서 수행 하는 eDiscovery 작업에 대 한 레코드는 감사 로그에도 포함 됩니다.  <br/> |
 |UserKey  <br/> |UserId 속성에서 식별 된 사용자의 대체 ID입니다. EDiscovery 작업의 경우이 속성 값은 일반적으로 UserId 속성과 동일 합니다.  <br/> |
 |UserServicePlan  <br/> |조직에서 사용 하는 Office 365 구독 EDiscovery 작업의 경우이 속성은 일반적으로 비어 있습니다.  <br/> |
 |UserType  <br/> |작업을 수행한 사용자의 유형입니다. 다음 값은 사용자 형식을 나타냅니다.  <br/> 0 일반 사용자입니다. 2 Office 365 조직의 관리자입니다. 3 A Microsoft 데이터 센터 관리자 또는 데이터 센터 시스템 계정입니다. 4 시스템 계정입니다. 5 응용 프로그램 6 서비스 사용자 |

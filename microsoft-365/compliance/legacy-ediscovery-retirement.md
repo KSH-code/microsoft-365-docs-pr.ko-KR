@@ -11,12 +11,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: Exchange Online의 원본 위치 eDiscovery 및 원본 위치 유지 및 해당 PowerShell cmdlet은 2020의 처음 절반에서 만료 됩니다. 검색 사서함 cmdlet 및 Office 365 Advanced eDiscovery v 1.0은 동일한 기간 내에도 폐기 됩니다.
-ms.openlocfilehash: d0d9856a30d905e73ba31abc9af92bbe060c0ec4
-ms.sourcegitcommit: 9ddf2005a36a27cc6d2d85a5b9fac0483a55f245
+ms.openlocfilehash: 2d1f319986d761135e2c22b1d5882797f90f910c
+ms.sourcegitcommit: 9ba28b255640c7b22f627613430dc69191bfaede
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "43024358"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43158439"
 ---
 # <a name="retirement-of-legacy-ediscovery-tools"></a>레거시 eDiscovery 도구 만료
 
@@ -53,10 +53,8 @@ Microsoft 365 준수 센터에서 새롭게 향상 된 eDiscovery 기능을 사�
    - [SetHoldOnMailboxes](https://docs.microsoft.com/exchange/client-developer/web-service-reference/setholdonmailboxes-operation)
 
    - [GetHoldOnMailboxes](https://docs.microsoft.com/exchange/client-developer/web-service-reference/getholdonmailboxes-operation)
-   
 
-
-- Office [365 Advanced ediscovery v 1.0](office-365-advanced-ediscovery.md)-Office 365 보안 & 준수 센터에서 eDiscovery 사례를 통해 액세스 하는 고급 ediscovery의 첫 번째 버전입니다.
+- Office [365 Advanced ediscovery v 1.0](office-365-advanced-ediscovery.md)-Office 365 보안 & 준수 센터의 핵심 ediscovery 사례를 통해 액세스 되는 고급 ediscovery의 첫 번째 버전입니다. Advanced eDiscovery v 1.0의 만료는 핵심 eDiscovery 사례를 만들고 관리 하는 기능에는 영향을 주지 않습니다.
 
 > [!NOTE]
 > 폐기 중인 eDiscovery 기능은 클라우드 기반 버전의 Microsoft 365 및 Office 365에만 적용 됩니다. 온-프레미스 버전의 Exchange 및 SharePoint에서 eDiscovery 기능은 계속 해 서 지원 됩니다.
@@ -141,7 +139,7 @@ Microsoft 365 준수 센터에서 새롭게 향상 된 eDiscovery 기능을 사�
 <tr class=even>
   <td>한 사서함에서 다른 사서함으로 메시지 복사</td>
   <td><a href="https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-permissions-for-recipients">사서함에 사용 권한 할당</a></td>
-  <td>사용자에 게 다른 사용자의 전자 메일에 대 한 액세스 권한을 부여 하려면 (예: 직원이 조직에서 나갈 때 다른 사람에 게 이전 직원의 전자 메일에 대 한 액세스 권한을 부여 해야 하는 경우) 해당 사용자에 게 기존 직원에 게 액세스 하기 위한 권한 할당을 권장 하는 것이 좋습니다. 사서함별. 따라서 사서함 항목을 다른 사용자 사서함 또는 공유 사서함으로 복사 하는 대신 사용자에 게 원본 사서함에 액세스 하기 위한 권한을 할당 하기만 하면 됩니다.</td>
+  <td>사용자에 게 다른 사용자의 전자 메일에 대 한 액세스 권한을 부여 하려면 (예: 직원이 조직을 떠나는 경우 다른 사용자에 게 이전 직원의 전자 메일에 액세스할 수 있는 경우) 해당 사용자에 게 이전 직원의 사서함에 대 한 액세스 권한을 할당 하는 것이 좋습니다. 따라서 사서함 항목을 다른 사용자 사서함 또는 공유 사서함으로 복사 하는 대신 사용자에 게 원본 사서함에 액세스 하기 위한 권한을 할당 하기만 하면 됩니다.</td>
   
   </tr>
 <tr class="odd">
@@ -182,7 +180,7 @@ Exchange 관리 센터에서 2017 년 7 월 1 일에 발표 된 원래 공지와
 
 - Office 365 Germany
 
-### <a name="timeline"></a>시간 표시 막대
+### <a name="timeline"></a>타임라인
 
 - 7 월 1 일, 2020 **: 새 원본** 위치 eDiscovery 검색 및 원본 위치 유지를 만들 수는 없지만, cmdlet을 사용 하 여 기존 검색을 실행, 편집 및 삭제 하 고 사용자의 위험에도 영향을 받을 수 있습니다. Microsoft Support는 이러한 유형의 검색 및 보존에 대 한 지원을 더 이상 제공 하지 않습니다.
 
@@ -228,7 +226,7 @@ Exchange 관리 센터에서 2017 년 7 월 1 일에 발표 된 원래 공지와
   <tr class=even>
   <td>한 사서함에서 다른 사서함으로 메시지 복사</td>
   <td><a href="https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-permissions-for-recipients">사서함에 사용 권한 할당</a></td>
-  <td>사용자에 게 다른 사용자의 전자 메일에 대 한 액세스 권한을 부여 하려면 (예: 직원이 조직에서 나갈 때 다른 사람에 게 이전 직원의 전자 메일에 대 한 액세스 권한을 부여 해야 하는 경우) 해당 사용자에 게 기존 직원에 게 액세스 하기 위한 권한 할당을 권장 하는 것이 좋습니다. 사서함별. 따라서 사서함 항목을 다른 사용자 사서함 또는 공유 사서함으로 복사 하는 대신 사용자에 게 원본 사서함에 액세스 하기 위한 권한을 할당 하기만 하면 됩니다.</td>
+  <td>사용자에 게 다른 사용자의 전자 메일에 대 한 액세스 권한을 부여 하려면 (예: 직원이 조직을 떠나는 경우 다른 사용자에 게 이전 직원의 전자 메일에 액세스할 수 있는 경우) 해당 사용자에 게 이전 직원의 사서함에 대 한 액세스 권한을 할당 하는 것이 좋습니다. 따라서 사서함 항목을 다른 사용자 사서함 또는 공유 사서함으로 복사 하는 대신 사용자에 게 원본 사서함에 액세스 하기 위한 권한을 할당 하기만 하면 됩니다.</td>
   
   </tr>
 
@@ -263,7 +261,7 @@ Exchange Online PowerShell의 **검색 사서함** cmdlet은 처음에 2018에�
 
 - Office 365 Germany
 
-### <a name="timeline"></a>시간 표시 막대
+### <a name="timeline"></a>타임라인
 
 -  2020 년 7 월 1 일: **검색 사서함** cmdlet을 더 이상 사용할 수 없으며 Microsoft Support에서 더 이상 지원을 제공 하지 않습니다.
 
@@ -325,27 +323,41 @@ Exchange 웹 서비스 API에서 이러한 작업은 exchange 관리 센터의 �
 
 - Office 365 Germany
 
-### <a name="timeline"></a>시간 표시 막대
+### <a name="timeline"></a>타임라인
 
 - 2020 년 7 월 1 일: GetSearchableMailboxes, Search우편함, SetHoldOnMailboxes 및 GetHoldOnMailboxes 작업을 더 이상 사용할 수 없으며 Microsoft Support에서 더 이상 지원을 제공 하지 않습니다.
 
 ## <a name="advanced-ediscovery-v10"></a>Advanced eDiscovery v 1.0
 
-Advanced ediscovery를 사용 하는 advanced ediscovery 버전의 고급 ediscovery v 1.0, **고급을** 클릭 합니다. 해당 기능은 Microsoft 365 준수 센터의 새로운 [고급 eDiscovery 솔루션](https://aka.ms/edisco) 으로 대체 되었습니다.
+Advanced ediscovery **로 전환을**클릭 하 여 코어 ediscovery 사례에서 사용할 수 있는 advanced ediscovery 버전의 advanced ediscovery v 1.0이 만료 되 고 있습니다. 해당 기능은 Microsoft 365 준수 센터의 새로운 [고급 eDiscovery 솔루션](https://aka.ms/edisco) 으로 대체 되었습니다.
+
+조직에서 Advanced eDiscovery v 1.0을 사용 하 고 있는지 확인 하려면
+
+1. [Office 365 Security & 준수 센터로](https://protection.office.com)이동 합니다.
+
+2. 보안 & 준수 센터의 왼쪽 탐색 창에서 **ediscovery > ediscovery**를 클릭 하 고 코어 eDiscovery 사례를 엽니다.
+
+3. **고급 ediscovery로 전환** 단추가 표시 되 면이 단추를 클릭 하면 사용 중지 되 고 있는 1.0 버전의 고급 ediscovery로 이동 합니다. 핵심 eDiscovery에서 사례를 만들고 관리 하는 기능은 영향을 받지 않습니다. Advanced eDiscovery v 1.0에서 사례 데이터를 추가 및 분석 하는 기능 ( **Advanced ediscovery로 전환을**클릭 하는 것)은 폐기 되 고 있습니다.
 
 Microsoft 365 ( *Advanced eDiscovery v 2.0*이 라고도 함)의 새로운 고급 ediscovery 솔루션은 원래 솔루션의 모든 기능을 제공 하지만, 해당 콘텐츠를 수집한 다음 custodian가 fast search 쿼리, 태그 지정 및 분석 기능을 활용 하 여 관련 문서를 cull 수 있도록 하는 검토 집합에 추가 하는 365 방법에 대해 설명 합니다. 이제 고급 eDiscovery에는 Microsoft 및 Microsoft 이외의 파일 형식에 대 한 향상 된 처리 및 기본 뷰어가 포함 되어 있으므로 전체 파일 형식 목록과 지원 [되는 메타](https://docs.microsoft.com/microsoft-365/compliance/document-metadata-fields-in-advanced-ediscovery)데이터 [필드가 여기에](https://docs.microsoft.com/microsoft-365/compliance/supported-filetypes-ediscovery20) 있습니다. 또한 새로운 고급 eDiscovery 솔루션은 다른 서비스의 콘텐츠에 보류를 적용 하 고, 보류를 사용자에 게 알리고, custodian 응답을 고급 eDiscovery 사례 내에서 추적할 수 있도록 하는 강력한 custodian 유지 관리 기능을 제공 합니다.
+
+Advanced eDiscovery v 2.0에 액세스 하려면 다음을 수행 합니다.
+
+1. [Microsoft 365 준수 센터로](https://compliance.microsoft.com)이동 합니다.
+
+2. Microsoft 365 준수 센터의 왼쪽 탐색 창에서 **모두 표시**를 클릭 한 다음 **eDiscovery > 고급**을 클릭 합니다.
 
 지금은 eDiscovery 워크플로를 새 고급 eDiscovery 기능으로 전환 하기 시작 하는 것이 좋습니다. 기존 사례에서는 여전히 고급 eDiscovery v 1.0에 액세스할 수 있지만 Microsoft Support는 2020 년 10 월 1 일 이후에는 지원을 제공 하지 않습니다. 자세한 내용은 다음 시간 표시 막대를 참조 하세요.
 
 ### <a name="scope-of-affected-organizations"></a>영향을 받는 조직의 범위
-    
+
 - Office 365 및 Microsoft 365 Enterprise 조직
 
 - Office 365 및 Microsoft 365 교육 기관
 
 - Office 365 Germany
 
-### <a name="timeline"></a>시간 표시 막대
+### <a name="timeline"></a>타임라인
 
 - 2020 년 7 월 1 일: 새 고급 eDiscovery v 1.0 사례를 만들 수 없습니다.
 

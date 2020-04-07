@@ -6,12 +6,12 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 6ffe912cd9926585181af54cc85c144aef4ce866
-ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
+ms.openlocfilehash: f44d7cd5b919fb06ffb10c39e632956005231e01
+ms.sourcegitcommit: e525bcf073a61e1350484719a0c3ceb6ff0d8db1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43142674"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43153753"
 ---
 # <a name="compliance"></a>규정 준수
 
@@ -33,7 +33,7 @@ Microsoft Managed Desktop은 다음과 같은 인증을 얻은 것입니다.
 - [SOC (서비스 조직 제어) 1, 2, 3](../../compliance/offering-SOC.md)
 - [PCI(Payment Card Industry) DSS(Data Security Standard)](../../compliance/offering-PCI-DSS.md)
 
-## <a name="auditor-reports-and-client-certificates"></a>감사자 보고서 및 클라이언트 인증서
+## <a name="auditor-reports-and-compliance-certificates"></a>감사자 보고서 및 준수 인증서
 
 제어 및 기술 요구 사항을 비롯 한 적절 한 정보 [(STP)](https://servicetrust.microsoft.com/)는 Microsoft 클라우드 서비스 제공에 대 한 이러한 정보를 확인할 수 있는 중앙 리포지토리입니다. STP의 [감사 보고서](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuide) 섹션에서 감사자 보고서, 준수 인증서 등을 다운로드할 수 있습니다.
 

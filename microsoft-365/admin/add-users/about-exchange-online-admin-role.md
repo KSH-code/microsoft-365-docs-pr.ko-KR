@@ -20,12 +20,12 @@ search.appverid:
 - GEA150
 ms.assetid: 097ae285-c4af-4319-9770-e2559d66e4c8
 description: 'Exchange online 관리자는 조직의 전자 메일 및 사서함을 관리 합니다. 예를 들어 사용자 사서함에서 삭제 된 항목을 복구 합니다. '
-ms.openlocfilehash: 1496518dac518b98fb2fc3186610f83df70fca3c
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: ac11a05dd9ea7a0c569e131e7939a0e4e9293dea
+ms.sourcegitcommit: 311bbd6f168225ede166d29696126a1e003eee0f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42245796"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43151368"
 ---
 # <a name="about-the-exchange-online-admin-role"></a>Exchange Online 관리자 역할 정보
 
@@ -41,7 +41,7 @@ Office 365을 관리 하는 데 도움이 되도록 사용자에 게 [Exchange �
     
 - 사서함 공유 정책과 같은 사서함 기능 설정: 사용자가 조직 외부의 다른 사용자와 일정 및 연락처 정보를 공유 하는 방법입니다. 
     
-- 다른 사용자의 사서함에 대해 "[다른 사람 이름으로 보내기](https://support.office.com/article/2B828C5F-41AB-4904-97B9-3B63D8129C4E.aspx)" 및 "[대신](https://support.office.com/article/C5E7749D-244E-477F-998E-55D3876C22EC.aspx)보내기" 대리인을 설정 합니다. 예를 들어 중역은 도우미가 자신을 대신 하 여 메일을 보낼 수 있도록 할 수 있습니다. 
+- 다른 사용자의 사서함에 대해 "[다른 사람 이름으로 보내기](https://docs.microsoft.com/microsoft-365/admin/add-users/give-mailbox-permissions-to-another-user)" 및 "[대신](https://docs.microsoft.com/microsoft-365/admin/add-users/give-mailbox-permissions-to-another-user)보내기" 대리인을 설정 합니다. 예를 들어 중역은 도우미가 자신을 대신 하 여 메일을 보낼 수 있도록 할 수 있습니다. 
     
 - 사용자 그룹이 일반 전자 메일 주소에서 전자 메일을 모니터링 하 고 보낼 수 있도록 [공유 사서함을 만듭니다](../email/create-a-shared-mailbox.md) . 
     

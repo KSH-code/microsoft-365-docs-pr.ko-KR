@@ -18,12 +18,12 @@ search.appverid:
 - GEA150
 ms.assetid: 1cbe2c00-ca65-4fb9-9663-1bbfa58ebe44
 description: Microsoft 365 관리 센터에서 Microsoft 365 보고서 대시보드를 사용 하 여 Microsoft Forms 활동 보고서를 가져오는 방법을 알아봅니다.
-ms.openlocfilehash: c836644f88fe635bfe608f57e015f06e9f815862
-ms.sourcegitcommit: 2b626a7924b4be08f6eb21181453b778e6fde418
+ms.openlocfilehash: 28520bf931df9f909a933be19800ee45fd863cd6
+ms.sourcegitcommit: 311bbd6f168225ede166d29696126a1e003eee0f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43046942"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43151420"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---forms-activity"></a>관리 센터의 Microsoft 365 보고서-양식 활동
 
@@ -41,9 +41,9 @@ Microsoft 365 **보고서** 대시보드에는 조직의 제품 전체에 대 �
     
 2. **보고서 선택** 드롭다운에서 **양식** \> **작업**을 선택 합니다.
 
-## <a name="interpret-the-email-activity-report"></a>전자 메일 활동 보고서 해석
+## <a name="interpret-the-forms-activity-report"></a>양식 활동 보고서 해석
 
-**활동** 및 **사용자** 차트를 확인하여 사용자의 전자 메일 활동을 볼 수 있습니다. 
+**활동** 및 **사용자** 차트를 확인 하 여 사용자의 양식 활동을 볼 수 있습니다. 
 
 ![양식 활동 보고서](../../media/adminformsactivity.png)
 

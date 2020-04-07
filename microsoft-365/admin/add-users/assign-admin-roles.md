@@ -26,12 +26,12 @@ search.appverid:
 - GEA150
 ms.assetid: eac4d046-1afd-4f1a-85fc-8219c79e1504
 description: 관리 센터에서 특정 작업을 수행할 수 있도록 비즈니스의 사용자 또는 여러 사용자에 게 관리자 역할을 할당 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 431c51ea4859899ba9762d6f4c5b7bf1e9ba3d8a
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 9c10ef7d6dade3d826c9c291e58b3e8e2a58f2a6
+ms.sourcegitcommit: 311bbd6f168225ede166d29696126a1e003eee0f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42245761"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43151381"
 ---
 # <a name="assign-admin-roles"></a>관리자 역할 할당
 
@@ -84,7 +84,7 @@ Microsoft 비즈니스 구독을 구매한 사용자는 전역 관리자입니�
 
 ::: moniker range="o365-germany"
 
-1. 관리 센터에서 **사용자** > <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다..
+1. 관리 센터에서 **사용자** > <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다.
 
 2. **활성 사용자** 페이지에서 관리자 역할을 변경 하려는 사용자를 선택 합니다. 플라이 아웃 창에서 **역할**옆에 있는 **편집**을 선택 합니다. 
 
@@ -96,7 +96,7 @@ Microsoft 비즈니스 구독을 구매한 사용자는 전역 관리자입니�
 
 ::: moniker range="o365-21vianet"
 
-1. 관리 센터에서 **사용자** > <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다..
+1. 관리 센터에서 **사용자** > <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다.
 
 2. **활성 사용자** 페이지에서 관리자 역할을 변경 하려는 사용자를 선택 합니다. 플라이 아웃 창에서 **역할**옆에 있는 **편집**을 선택 합니다. 
 
@@ -126,7 +126,7 @@ PowerShell을 알고 [있는 경우 powershell을 사용 하 여 사용자 계�
 
 [PowerShell을 사용 하 여 사용자 계정에 역할 할당](https://docs.microsoft.com/office365/enterprise/powershell/assign-roles-to-user-accounts-with-office-365-powershell)
 
-[파트너 관계 권한 부여 또는 제거](https://support.office.com/article/201ccb3b-6011-4bf1-a6b2-84e7cc1ee2d0.aspx)
+[파트너 관계 권한 부여 또는 제거](https://docs.microsoft.com/microsoft-365/admin/misc/add-partner)
 
 [Exchange 관리 센터를 사용 하 여 대체 전자 메일 주소 추가](https://docs.microsoft.com/Exchange/recipients/user-mailboxes/email-addresses?view=exchserver-2019#add-an-email-address-to-a-user-mailbox)
 

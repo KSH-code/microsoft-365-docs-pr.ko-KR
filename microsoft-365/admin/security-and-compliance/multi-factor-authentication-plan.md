@@ -20,12 +20,12 @@ search.appverid:
 ms.assetid: 043807b2-21db-4d5c-b430-c8a6dee0e6ba
 ROBOTS: NOINDEX, NOFOLLOW
 description: Office 365의 다단계 인증 및 설정 하기 위해 수행 해야 하는 단계에 대해 알아봅니다.
-ms.openlocfilehash: 2e2cbc9d6d966a9858fafb62f08d26893c9f4353
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: e3886387740fe904b9c9458f7b1abf736c3ef83f
+ms.sourcegitcommit: e525bcf073a61e1350484719a0c3ceb6ff0d8db1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42361179"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43153571"
 ---
 # <a name="plan-for-multi-factor-authentication-for-office-365-deployments"></a>Office 365 배포의 다단계 인증 계획
 
@@ -41,7 +41,7 @@ ms.locfileid: "42361179"
     
 ## <a name="multi-factor-authentication-in-office-365"></a>Office 365에서의 다단계 인증
 
-Office 365에서는 multi-factor authentication을 사용 하 여 추가 보안을 제공 하 고 Microsoft 365 관리 센터에서 관리 합니다. Office 365는 구독의 일부로 Azure 다단계 인증 기능의 다음 하위 집합을 제공합니다. 
+Office 365에서는 multi-factor authentication을 사용 하 여 추가 보안을 제공 하 고 Microsoft 365 관리 센터에서 관리 합니다. Office 365에서는 구독의 일부로 Azure Multi-factor Authentication 기능의 다음과 같은 하위 집합을 제공 합니다. 
   
 - 최종 사용자에 대한 다단계 인증을 활성화 및 적용하는 기능
     
@@ -61,8 +61,8 @@ Office 365에 대한 클라우드 전용 배포 또는 Single Sign-On 및 AD FS(
   
 |**Office 365 테넌트를 어디에서 관리하나요?**|**MFA 두 번째 요소 옵션**|
 |:-----|:-----|
-|클라우드만  <br/> |Azure Active Directory MFA(텍스트 또는 전화 통화)  <br/> |
-|하이브리드 설치, 관리되는 온-프레미스  <br/> | 사용자 ID 온-프레미스를 관리하는 경우 다음과 같은 옵션이 있습니다.  <br/>  실제 또는 가상 스마트 카드(AD FS)  <br/> [Azure MFA](https://go.microsoft.com/fwlink/p/?LinkId=526677)(AD FS용 모듈)  <br/>  Azure AD MFA  <br/> |
+|클라우드만  <br/> |Azure Multi-factor Authentication (텍스트 또는 전화 통화)  <br/> |
+|하이브리드 설치, 관리되는 온-프레미스  <br/> | 사용자 ID 온-프레미스를 관리하는 경우 다음과 같은 옵션이 있습니다.  <br/>  실제 또는 가상 스마트 카드 (AD FS를 사용 하는 경우)  <br/> [Azure Multi-factor Authentication](https://go.microsoft.com/fwlink/p/?LinkId=526677) (AD FS 용 모듈)  <br/>  Azure Active Directory (Azure AD) 다단계 인증  <br/> |
    
   
 다음 그림에서는 업데이트된 Office 2013 장치 앱(Windows 기반)에서 사용자가 MFA를 사용하여 로그인할 수 있는 방법을 보여줍니다. Office 2013 장치 앱은 [Active Directory 인증 라이브러리(ADAL)](https://go.microsoft.com/fwlink/p/?LinkId=526684) 사용을 통한 다단계 인증을 지원합니다. Azure AD는 사용자가 로그인할 수 있는 웹 페이지를 호스팅합니다. ID 공급자는 Azure AD이거나 AD FS와 같은 페더레이션 ID 공급자일 수 있습니다. 페더레이션 사용자에 대한 인증은 다음 단계를 따릅니다.
@@ -127,7 +127,7 @@ MFA를 설정하려면 다음을 완료해야 합니다.
     
   - [Windows 장치에서 Office 2013에 대한 최신 인증을 설정합니다](enable-modern-authentication.md) . 
     
-  - 타사 디렉터리 서비스에 Azure MFA를 설정합니다.
+  - 타사 디렉터리 서비스를 사용 하 여 Azure Multi-factor Authentication을 설정 합니다.
     
     이 프로그램에 수락 된 특정 id 공급자에 대 한 정보를 보려면 [Azure Multi-factor Authentication 및 타사 VPN 솔루션을 포함 하는 고급 시나리오](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfaserver-nps-vpn) 를 참조 하세요. 
     
@@ -136,9 +136,9 @@ MFA를 설정하려면 다음을 완료해야 합니다.
 3. MFA로 로그인하는 방법을 개별 사용자에게 알림: [2단계 확인을 통해 Office 365에 로그인합니다](https://support.office.com/article/2b856342-170a-438e-9a4f-3c092394d3cb.aspx).
     
 > [!IMPORTANT]
-> Azure AD MFA에 대해 사용자를 설정했고 사용자가 최신 인증을 사용하도록 설정하지 않은 Office 2013을 실행하는 장치를 사용 중인 경우 해당 장치에서 AppPasswords를 사용해야 합니다. AppPasswords 및 이 항목을 언제 어디서 어떻게 사용해야 하는지에 대한 자세한 내용은 다음을 참조하세요. [Azure 다단계 인증의 앱 암호](https://go.microsoft.com/fwlink/p/?LinkId=528178). 
+> 사용자가 Azure Multi-factor Authentication을 사용 하도록 설정한 상태에서 최신 인증을 사용 하도록 설정 되지 않은 모든 장치를 Office 2013를 실행 하는 경우 해당 장치에서 AppPasswords를 사용 해야 합니다. AppPasswords에 대 한 자세한 내용 및 사용 방법/위치/방법, [Azure Multi_Factor 인증을 사용 하는 앱 암호](https://go.microsoft.com/fwlink/p/?LinkId=528178)를 참조 하세요. 
   
-## <a name="faq"></a>자주 묻는 질문(FAQ)
+## <a name="faq"></a>FAQ
 
 [최신 인증 Wiki 문서에 대한 FAQ](https://go.microsoft.com/fwlink/p/?LinkId=530064)
   
@@ -148,7 +148,7 @@ MFA를 설정하려면 다음을 완료해야 합니다.
   
  **Azure 다단계 인증 문제 해결:**
   
-[Azure MFA 문제 해결](https://support.microsoft.com/help/2937344/troubleshooting-azure-multi-factor-authentication-issues)을 참조하세요.
+[Azure Multi-factor Authentication 문제 해결](https://support.microsoft.com/help/2937344/troubleshooting-azure-multi-factor-authentication-issues)을 참조 하세요.
   
 [AD FS를 사용하는 경우 Office 2013 최신 인증의 로그인 문제를 해결하는 방법](https://support.microsoft.com/kb/3052203/)
   

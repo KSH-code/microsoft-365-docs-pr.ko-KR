@@ -1,6 +1,6 @@
 ---
-title: 5 단계-모바일 장치 관리
-description: Microsoft 365 Enterprise는 Microsoft Intune을 사용 하는 모바일 장치 관리를 포함 합니다. 요구 사항 및 필수 구성 요소를 검토 하 고, Azure Active Directory 리소스를 사용 하 여 Intune을 설정 하 고, iOS, macOS, Android 및 Windows 장치를 등록 하 고, 앱을 배포 하 고, 프로필 구성, 준수 정책을 사용 하 고, 모바일에 조건부 액세스 사용 Microsoft 365 Enterprise를 사용한 장치 관리
+title: 5번째 작업 단계 - 모바일 장치 관리
+description: Microsoft 365 Enterprise는 Microsoft Intune을 사용 하는 모바일 장치 관리를 포함 합니다. 요구 사항 및 필수 구성 요소를 검토 하 고, Azure Active Directory 리소스를 사용 하 여 Intune을 설정 하 고, iOS, macOS, Android 및 Windows 장치를 등록 하 고, 앱을 배포 하 고, 프로필 구성 및 준수 정책을 사용 하 고, Microsoft 365 Enterprise를 통해 모바일 장치 관리에 조건부 액세스를 사용 하도록 설정
 keywords: Microsoft 365, Microsoft 365 Enterprise, Microsoft 365 설명서, 모바일 장치 관리, Intune
 author: JoeDavies-MSFT
 f1.keywords:
@@ -15,12 +15,12 @@ ms.technology: ''
 ms.assetid: fb4182e6-5e78-45d0-9641-d791c4519441
 audience: ITPro
 ms.custom: microsoft-intune
-ms.openlocfilehash: f3c4e36ea650dc0e354697c6fb766f5e32c0e3d2
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: a957ef037aed1f9aba923af428c2a440790dbfba
+ms.sourcegitcommit: e525bcf073a61e1350484719a0c3ceb6ff0d8db1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42066770"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43153895"
 ---
 # <a name="phase-5-mobile-device-management-for-microsoft-365-enterprise"></a>단계 5: Microsoft 365 엔터프라이즈에 대 한 모바일 장치 관리
 

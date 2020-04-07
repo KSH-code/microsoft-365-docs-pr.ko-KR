@@ -28,12 +28,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: 사이버 위협 으로부터 비즈니스에 대 한 Office 365 plus 고급 보호 기능을 포함 하는 구독 서비스인 Microsoft 365 Business에 대해 알아봅니다.
-ms.openlocfilehash: 7b939a9037edbe074a5ef9aa24451fe462016ccb
-ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
+ms.openlocfilehash: fccd0403131d8afe41608c4a195b53db959e7e91
+ms.sourcegitcommit: e525bcf073a61e1350484719a0c3ceb6ff0d8db1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42561483"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43153821"
 ---
 # <a name="overview-of-microsoft-365-business"></a>Microsoft 365 비즈니스 개요
 
@@ -76,7 +76,7 @@ Microsoft 365 Business는 다음과 같은 방법으로 **위협을 defended** �
 
 - 기계 학습 모델 및 가장 검색을 사용 하는 피싱 방지 정책을 통해 고급 공격 (ATP 피싱 방지 인텔리전스)을 보호 합니다. 
 
-- 신뢰할 수 없는 위치에서 액세스를 사용 하지 않도록 설정 하거나 신뢰할 수 있는 Ip 및 조건부 액세스를 포함 하는 office 네트워크와 같은 신뢰 되는 위치의 다단계 인증을 우회 하는 고급 정책을 설정할 수 있습니다. 
+- 신뢰할 수 없는 위치에서 액세스를 사용 하지 않도록 설정 하거나 신뢰할 수 있는 Ip를 비롯 한 Azure Multi-factor Authentication 및 조건부 액세스를 포함 하 여 office 네트워크와 같은 신뢰할 수 있는 위치의 다단계 인증 바이패스 
 
 - 모든 조직의 Windows 10 장치에서 맬웨어 보호를 적용 하 고 컴퓨터 랜 섬 웨어가 수행한 변경 내용에서 주요 시스템 폴더의 파일을 보호 합니다 (Windows Defender).
 

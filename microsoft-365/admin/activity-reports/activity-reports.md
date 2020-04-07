@@ -19,12 +19,12 @@ search.appverid:
 - GEA150
 ms.assetid: 0d6dfb17-8582-4172-a9a9-aed798150263
 description: 조직의 사용자가 Office 365 서비스를 사용하는 방식에 대한 주기적인 보고를 받을 수 있습니다. 사용 현황 개요 대시보드를 사용하면 각 차트에 대한 세부 정보를 확인할 수 있습니다.
-ms.openlocfilehash: af6817471224e5747849b6020df3c56b64e29fed
-ms.sourcegitcommit: ce6121a8e3ca7438071d73b0c76e2b6f33ac1cf7
+ms.openlocfilehash: da62d934b295916a7f0fc952cc9cbe94b8384246
+ms.sourcegitcommit: 311bbd6f168225ede166d29696126a1e003eee0f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "43029863"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43151432"
 ---
 # <a name="activity-reports-in-the-microsoft-365-admin-center"></a>Office 365 관리 센터의 활동 보고서
 
@@ -180,6 +180,6 @@ ms.locfileid: "43029863"
   
 ## <a name="related-articles"></a>관련 문서
 
-[보안 &amp; 준수 센터의 보고서](https://support.office.com/article/7acd33ce-1ec8-49fb-b625-43bac7b58c5a)
+[보안 &amp; 준수 센터의 보고서](https://docs.microsoft.com/microsoft-365/compliance/reports-in-security-and-compliance)
   
 

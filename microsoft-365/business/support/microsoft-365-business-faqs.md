@@ -12,18 +12,18 @@ localization_priority: Normal
 audience: microsoft-business 
 keywords: Microsoft 365 Business, Microsoft 365, SMB, FAQ, 질문과 대답, 답변, 비즈니스
 ms.date: 06/08/2018
-ms.openlocfilehash: 706646eae722b0040db2a5bd7bcf187f5e1295bf
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: edb6476b7711bd17a1dd926d93bdf27d734ea9a9
+ms.sourcegitcommit: e525bcf073a61e1350484719a0c3ceb6ff0d8db1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41594231"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43153621"
 ---
 # <a name="microsoft-365-business-frequently-asked-questions"></a>Microsoft 365 Business 질문과 대답
 
 ## <a name="general"></a>일반
 
-### <a name="what-is-microsoft-365-business"></a>Microsoft 365 Business란 무엇인가요? 
+### <a name="what-is-microsoft-365-business"></a>Microsoft 365 Business란? 
 Microsoft 365는 중소 규모 기업을 위해 최고의 생산성 도구, 보안 및 장치 관리 기능을 함께 제공 하는 통합 솔루션입니다. 이 목록에는 다음과 같은 내용이 포함됩니다.
 
 **비즈니스 생산성 및 공동 작업 도구 집합** 
@@ -37,7 +37,7 @@ Microsoft 365는 중소 규모 기업을 위해 최고의 생산성 도구, 보�
 -  Exchange Online 보관을 사용 하 여 데이터를 보호, 보존 및 백업할 수 있습니다.  
 -   Office 및 Intune 앱 보호가 포함 된 기타 모바일 앱에 대 한 앱 보호 
 -  Windows 10 Pc, MacOS 및 모바일 장치 (Intune 장치 관리)에 대 한 장치 관리입니다. 
--  다단계 인증, 셀프 서비스 암호 재설정 및 조건부 액세스를 사용 하는 id 보호
+-  MFA (multi-factor authentication), 셀프 서비스 암호 재설정 및 조건부 액세스를 사용한 id 보호
 -  장치에서 회사 데이터를&mdash;보호 하는 장치 간의 일관성 있는 보안 구성 Windows Defender: 항상 켜져 있고 최신 상태입니다. 
  
  
@@ -67,7 +67,7 @@ Microsoft 365 Business는 Microsoft에서 직접 구입하는 경우 _연간 계
 ### <a name="is-there-a-cap-to-how-many-microsoft-365-business-seats-a-customer-can-have"></a>고객이 포함할 수 있는 Microsoft 365 Business 사용자 수에 제한이 있습니까? 
 Microsoft 365 Business는 중소 규모 기업에 게 저렴 한 IT 복잡성 요구 사항에 맞게 설계 되었습니다. 고객은 조직에 대해 최대 300 Microsoft 365 Business 라이선스를 구매할 수 있습니다. 고객은 클라우드 구독을 혼합 하 고 일치 시킬 수 있습니다. 따라서 IT 요구 사항에 따라 고객은 동일한 계정에 Microsoft 365 Enterprise 라이선스를 추가할 수 있습니다. 
  
-고객은 여러 구독 유형으로 구성 된 환경을 고려할 때 신뢰할 수 있는 IT 관리자와 협력 하 여 Microsoft 365 비즈니스 및 Microsoft 365 Enterprise 사용으로 다양 한 구독을 관리 하 고 보안 하는 데 가장 적합 한 방법을 결정 해야 합니다. 응용 프로그램 및 데이터를 보호 하 고 관리 하기 위한 다양 한 기능
+고객은 여러 구독 유형으로 구성 된 환경을 고려할 때 신뢰할 수 있는 IT 관리자와 협력 하 여 다양 한 구독을 Microsoft 365 Business 및 Microsoft 365 Enterprise에서 다양 한 기능을 사용 하 여 응용 프로그램 및 데이터를 보호 하 고 관리 하는 데 가장 적합 한 방법을 결정 합니다.
 
 ### <a name="can-i-combine-microsoft-365-business-with-other-microsoft-subscription-offerings"></a>다른 Microsoft 구독 서비스와 Microsoft 365 Business를 결합할 수 있나요? 
 예, 고객은 Azure, Dynamics 365, Enterprise Mobility + Security 및 Office 365의 요금제 및 추가 기능과 Microsoft 365 Business 구독을 결합할 수 있습니다.
@@ -136,8 +136,8 @@ Microsoft 365 Business의 전체 기능을 경험 하려는 고객은 기존 데
 예, Microsoft 365 Business 구독자는 iOS, Android, MacOS 및 기타 플랫폼 간 장치 관리에 대해 전체 Intune 기능을 사용할 수 있습니다. Microsoft 365 Business의 간소화 된 관리 콘솔에서 사용할 수 없는 기능 (예: 타사 앱 관리 및 WiFi 프로필 구성, VPN 인증서)은 전체 Intune 콘솔에서 관리할 수 있습니다. 
   
 
-### <a name="does-azure-active-directory-premium-p1-come-with-microsoft-365-business"></a>Azure Active Directory Premium P1은 Microsoft 365 Business와 함께 제공 되나요? 
-Microsoft 365 Business에는 AD 쓰기 저장, Azure MFA 및 조건부 액세스를 포함 하는 셀프 서비스 암호 재설정 등의 Azure AD Premium P1 (AADP P1) 기능을 선택 합니다. 이는 AADP P1 전체를 포함 하지는 않습니다. 자세한 내용은 [Microsoft 365 Business Service Description](https://technet.microsoft.com/library/b042d1fd-c997-46d8-8c02-1df4c932f148)을 참조 하세요.
+### <a name="does-azure-active-directory-azure-ad-premium-p1-come-with-microsoft-365-business"></a>Azure Active Directory (Azure AD) Premium P1은 Microsoft 365 Business와 함께 제공 되나요? 
+Microsoft 365 Business에는 Azure AD 쓰기 저장, Azure Multi-factor Authentication 및 조건부 액세스를 포함 하는 셀프 서비스 암호 재설정 등의 Azure AD Premium P1 기능을 선택 합니다. Azure AD Premium P1의 전체는 포함 되지 않습니다. 자세한 내용은 [Microsoft 365 Business Service Description](https://technet.microsoft.com/library/b042d1fd-c997-46d8-8c02-1df4c932f148)을 참조 하세요.
  
  
 ### <a name="does-microsoft-365-business-allow-customers-to-manage-macs"></a>Microsoft 365 Business를 통해 Mac을 관리할 수 있습니까? 
@@ -163,7 +163,7 @@ Office 365 Business Premium에 추가할 수 있는 모든 추가 기능을 Micr
 아직 Microsoft 파트너가 아닌 IT 서비스 공급자는 [https://partners.office.com/microsoft365business](https://partners.office.com/microsoft365business)에서 Microsoft 클라우드 솔루션 공급자 프로그램에 대해 자세히 알아볼 수 있습니다.
 
 ### <a name="where-can-i-learn-how-to-sell-microsoft-365-business"></a>Microsoft 365 Business를 판매하는 방법은 어디에서 알 수 있나요? 
-현재 Office 365를 판매하는 파트너는 Microsoft 365 Business를 판매와 동일한 판매 상담 방식을 사용할 수 있습니다. 또한 365 Microsoft는 고객의 기존 데스크톱 환경, Active Directory 의존, 이동성 및 보안 요구 사항을 이해 하기 위해 영업 팀에 게 더 많은 리소스 및 교육을 도입 하 고 있습니다. 고객과 관련 된 방식으로 비즈니스를 담당 합니다. [https://partners.office.com/microsoft365business](https://partners.office.com/microsoft365business)에서 Office 파트너 포털에 대한 리소스를 찾아 보세요. 
+현재 Office 365를 판매하는 파트너는 Microsoft 365 Business를 판매와 동일한 판매 상담 방식을 사용할 수 있습니다. 또한 고객의 기존 데스크톱 환경, Active Directory 의존도, 이동성 및 보안 요구 사항을 이해 하 고 고객과 관련 된 방식으로 Microsoft 365 비즈니스의 전체 가치를 효과적으로 전달 하기 위해 영업 팀에 게 더 많은 리소스 및 교육을 도입 하 고 있습니다. [https://partners.office.com/microsoft365business](https://partners.office.com/microsoft365business)에서 Office 파트너 포털에 대한 리소스를 찾아 보세요. 
 
 ### <a name="how-can-microsoft-365-business-help-partners-increase-the-profitability"></a>어떻게 파트너가 Microsoft 365 Business를 통해 수익성을 높일 수 있나요? 
 Microsoft 365 Business는 파트너사가 보다 높은 운영 효율성을 통해 비용을 절감하고 추가 서비스의 판매를 통해 수익을 개선하는 데 도움이 됩니다. Forrester 연구 Microsoft 365 Business Total Economic Impact (TEI) Study, 2017년 6월(https://www.microsoft.com/microsoft-365/partners/PartnerTEI)에서는 Microsoft 365 Business가 파트너 수익에 미치는 긍정적인 영향을 기술합니다. 
@@ -183,13 +183,13 @@ Microsoft 365 Business에서는 파트너가 추가 서비스를 판매 하 고 
 Microsoft 365 Business에 포함 된 새로운 Windows AutoPilot 기능을 사용 하 여 배포 물류 및 비용으로 인해 새 Windows 장치를 판매할 reluctant 있는 파트너가 이러한 영업 기회를 훨씬 더 매력적으로 찾을 수 있습니다. 온-프레미스 및 모바일 장치에 대 한 보안을 신뢰할 수 있는 고객도 Dynamics 365 같은 더 많은 서비스에 투자할 수 있습니다. 
  
 ### <a name="should-partners-sell-microsoft-365-business-over-other-plans-from-microsoft"></a>파트너는 Microsoft의 다른 요금제가 아닌 Microsoft 365 Business를 판매해야 하나요? 
-Microsoft 클라우드 솔루션 공급자는 항상 고객의 비즈니스 요구와 예산에 가장 적합한 요금제를 판매해야 합니다. 예를 들어 고객이 개인 정보 보호 및 보안 규정을 준수 해야 하는 경우 CSP가 Microsoft 365 Business plus를 판매 하 여 고객이 요구 사항을 충족 하거나 Microsoft 365 Business에서 제공 하는 고급 보안 및 관리를 제안할 수 있는 추가 기능을 판매할 수 있습니다. Enterprise Sku 
+Microsoft 클라우드 솔루션 공급자는 항상 고객의 비즈니스 요구와 예산에 가장 적합한 요금제를 판매해야 합니다. 예를 들어 고객이 개인 정보 보호 및 보안 규정을 준수 해야 하는 경우 CSP는 Microsoft 365 Business plus가 고객의 요구 사항을 충족 하는 데 도움이 되는 추가 기능을 판매 하거나 Microsoft 365 Business Enterprise Sku에서 제공 하는 고급 보안 및 관리를 제안할 수 있습니다. 
  
 ### <a name="some-of-my-customers-have-devices-that-arent-genuine-will-microsoft-365-business-make-these-devices-genuine"></a>일부 고객에 게는 정품이 아닌 장치가 있습니다. Microsoft 365 기업이 이러한 장치를 정품으로 만드시겠습니까? 
 Microsoft 365 Business는 다른 정품 버전의 Windows, 정품를 사용 하지 않도록 설정 합니다. Microsoft 365 Business는 정품 Windows 7, 8 또는 8.1 Pro를 실행 하는 고객이 최신 버전의 Windows 10 Pro로 업그레이드할 수 있도록 하는 업그레이드 혜택을 제공 합니다. 
 
 ### <a name="what-is-the-gdpr-and-how-does-microsoft-365-business-help-customers-with-their-compliance-obligations"></a>GDPR이란 무엇이며, 어떻게 Microsoft 365 Business가 고객의 규정 준수 의무를 돕습니까?
-일반 데이터 보호 규정(GDPR)은 유럽 연합(EU)의 거주자에게 "개인 데이터"에 대한 더 큰 제어를 제공하며 조직에게 개인 데이터의 무결성을 유지하도록 요구하는 종합적인 새 개인 정보 보호 법률입니다. GDPR에서는 EU 거주자와 연결 된 개인 데이터를 제어 하거나 처리 하기 위해 개인 데이터 처리에 대 한 GDPR 요구 사항을 충족 하는 타사 데이터 프로세서만 사용 하는 조직이 필요 합니다. 2017년 3월 Microsoft는 이러한 보장을 제공하는 보증 계약을 체결했습니다. Microsoft의 추가 GDPR 의무를 준수 하는 데 도움이 되는 고객은 microsoft 365 Business에서 사용할 수 있는 고급 규정 준수 및 보안 기능 (예: Azure Information Protection, 데이터)에 대해 알아 두어야 합니다. Microsoft 365 Enterprise E5와 같은 다른 도구 모음에서의 손실 방지, Advanced Threat Protection 등이 있습니다. 자세한 내용을 보려면 [www.microsoft.com/gdpr](https://www.microsoft.com/gdpr)을 방문하세요.
+일반 데이터 보호 규정(GDPR)은 유럽 연합(EU)의 거주자에게 "개인 데이터"에 대한 더 큰 제어를 제공하며 조직에게 개인 데이터의 무결성을 유지하도록 요구하는 종합적인 새 개인 정보 보호 법률입니다. GDPR에서는 EU 거주자와 연결 된 개인 데이터를 제어 하거나 처리 하기 위해 개인 데이터 처리에 대 한 GDPR 요구 사항을 충족 하는 타사 데이터 프로세서만 사용 하는 조직이 필요 합니다. 2017년 3월 Microsoft는 이러한 보장을 제공하는 보증 계약을 체결했습니다. Microsoft에서 추가 GDPR 의무를 충족 하는 데 도움이 되는 고객은 microsoft 365 Business에서 사용할 수 있는 고급 규정 준수 및 보안 기능 (예: Azure Information Protection, 데이터 손실 방지, Advanced Threat Protection 등)과 다른 도구 모음 (예: Microsoft 365 Enterprise E5)에 대해 알아보세요. 자세한 내용을 보려면 [www.microsoft.com/gdpr](https://www.microsoft.com/gdpr)을 방문하세요.
 
 
 ## <a name="footnotes"></a>각주
