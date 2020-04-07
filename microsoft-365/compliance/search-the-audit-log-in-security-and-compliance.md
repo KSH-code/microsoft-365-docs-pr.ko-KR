@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: '보안 및 준수 센터를 사용하여 통합 감사 로그를 검색해 Office 365 조직의 사용자 및 관리자 활동을 확인합니다. '
-ms.openlocfilehash: 66e75561084c3f3e8e67303e1cd359ef01c6b01a
-ms.sourcegitcommit: 58c1b4208a5e231463091573e40696d08fc39b8e
+ms.openlocfilehash: 9fb37cba0e7e9774b4de5c559b7bc0636b599776
+ms.sourcegitcommit: 311bbd6f168225ede166d29696126a1e003eee0f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2020
-ms.locfileid: "42955687"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43151443"
 ---
 # <a name="search-the-audit-log-in-the-security--compliance-center"></a>보안 및 준수 센터에서 감사 로그 검색
 
@@ -588,7 +588,7 @@ Office 365에서 감사 로그를 검색하는 과정은 다음과 같습니다.
 |:-----|:-----|:-----|
 |사용자 추가됨|사용자 추가|Office 365 사용자 계정이 생성되었습니다.|
 |사용자 라이선스 변경됨|사용자 라이선스 변경|사용자에게 할당된 라이선스가 변경되었습니다. 변경된 라이선스를 확인하려면 해당 **사용자 업데이트됨** 활동을 참조하세요.|
-|사용자 암호 변경됨|사용자 암호 변경|관리자가 사용자 암호를 변경했습니다.|
+|사용자 암호 변경됨|사용자 암호 변경|사용자가 암호를 변경합니다. 사용자가 암호를 재설정할 수 있도록 하려면 조직에서 셀프 서비스 암호 재설정을 활성화해야(모든 사용자 또는 선택된 사용자 대상) 합니다. Azure Active Directory에서 셀프 서비스 암호 재설정 활동을 추적할 수도 있습니다. 자세한 내용은 [Azure AD 암호 관리 보고 옵션](https://docs.microsoft.com/azure/active-directory/authentication/howto-sspr-reporting)을 참조하세요.
 |사용자 삭제됨|사용자 삭제|Office 365 사용자 계정이 삭제되었습니다.|
 |사용자 암호 재설정|사용자 암호 재설정|관리자가 사용자 암호를 재설정했습니다.|
 |강제로 사용자 암호를 변경하게 하는 속성 설정|사용자 암호 강제 변경 설정|관리자가 다음에 Office 365에 로그인할 때 강제로 사용자 암호를 변경하게 하는 속성을 설정했습니다.|
