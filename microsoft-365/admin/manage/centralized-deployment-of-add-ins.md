@@ -19,18 +19,18 @@ search.appverid:
 - MOE150
 ms.assetid: b4527d49-4073-4b43-8274-31b7a3166f92
 description: Office 365 테 넌 트 및 사용자가 요구 사항을 충족 하는지 확인 하 여 중앙 집중식 배포를 사용 하 여 Office 추가 기능을 배포할 수 있도록 합니다.
-ms.openlocfilehash: 78d87c5539daa77c2babb7ffa36967c5f27e3c10
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: d6b81a5ac5ef3b5287810110e5d0582bf34bff93
+ms.sourcegitcommit: 732bb72a0b5ae09cb39536185aa29d6097ec72fd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42362133"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "43189022"
 ---
 # <a name="determine-if-centralized-deployment-of-add-ins-works-for-your-organization"></a>추가 기능의 중앙 집중식 배포가 조직에 맞게 작동 하는지 확인
 
 중앙 집중식 배포는 대부분의 고객이 Office 365 조직 내에서 사용자 및 그룹에 Office 추가 기능을 배포하는 데 권장되고 가장 기능이 풍부한 방법입니다. 관리자 인 경우이 지침을 사용 하 여 테 넌 트 및 사용자가 요구 사항을 충족 하는지 확인 하 여 중앙 집중식 배포를 사용할 수 있도록 합니다.
 중앙 집중식 배포는 Windows, Mac, iOS, Android 및 온라인 Office 앱을 지원 합니다.
-모든 사용자에 대해 클라이언트에 대해 추가 기능을 표시 하는 데 최대 12 시간이 걸릴 수 있습니다.
+모든 사용자의 클라이언트에 대해 추가 기능을 표시 하는 데 최대 24 시간이 걸릴 수 있습니다.
   
 ## <a name="requirements"></a>요구 사항
 
@@ -56,7 +56,7 @@ ms.locfileid: "42362133"
 - Word, Excel 및 PowerPoint 추가 기능의 경우 사용자는 다음 중 하나를 사용 해야 합니다.
   - Windows 장치에서 Office 365 ProPlus의 버전 1704 이상입니다.
   - Mac의 경우 버전 15.34 이상입니다.
-      - IOS (iPad 전용)의 경우 버전 2.9.18010804 이상입니다.
+
 - Outlook의 경우 사용자는 다음 중 하나를 사용 해야 합니다. 
   - Office 365 ProPlus의 버전 1701 이상
   - Office Professional Plus 2019 또는 Office Standard 2019 버전 1808 이상

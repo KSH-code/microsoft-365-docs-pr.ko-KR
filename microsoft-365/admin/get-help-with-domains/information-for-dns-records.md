@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: 77f90d4a-dc7f-4f09-8972-c1b03ea85a67
 description: 'Office 365에 대 한 DNS 레코드를 만드는 데 필요한 값/정보를 확인 하는 방법을 설명 합니다. '
 ms.custom: okr_smb
-ms.openlocfilehash: 7b995aedc21305367e4a6621781e138d0d60efd1
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: d6093dd8a7e8d901be7b172a31dcd0e56c549ab3
+ms.sourcegitcommit: 732bb72a0b5ae09cb39536185aa29d6097ec72fd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42255086"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "43188994"
 ---
 # <a name="gather-the-information-you-need-to-create-office-365-dns-records"></a>Office 365 DNS 레코드를 만드는 데 필요한 정보 수집
 
@@ -36,10 +36,18 @@ ms.locfileid: "42255086"
 ### <a name="step-1-find-the-txt-record-value-and-verify"></a>1 단계: TXT 레코드 값을 찾아서 확인
 
 1. Microsoft 365 관리 센터에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">도메인</a> **설정** \> 페이지로 이동 합니다.
-    
-    Office 365 독일를 사용 중인 경우이 <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">도메인</a> 페이지로 이동 합니다. 
-    
-    21Vianet에서 운영 하는 Office 365를 사용 중인 경우이 <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">도메인</a> 페이지로 이동 합니다.
+
+::: moniker range="o365-germany"
+
+1. 관리 센터에서이 <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">도메인</a> 페이지로 이동 합니다.
+
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+1. 관리 센터에서이 <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">도메인</a> 페이지로 이동 합니다.
+
+::: moniker-end
     
 2. **도메인** 페이지에서 도메인을 선택한 다음 **설치 시작**을 선택 합니다. 추가해야 하는 특정 값을 확인하려면 도메인 설정 마법사로 이동합니다.
     
@@ -57,9 +65,17 @@ ms.locfileid: "42255086"
 
 1. Microsoft 365 관리 센터에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">도메인</a> **설정** \> 페이지로 이동 합니다.
     
-    Office 365 독일를 사용 중인 경우이 <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">도메인</a> 페이지로 이동 합니다. 
-    
-    21Vianet에서 운영 하는 Office 365를 사용 중인 경우이 <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">도메인</a> 페이지로 이동 합니다.
+::: moniker range="o365-germany"
+
+1. 관리 센터에서이 <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">도메인</a> 페이지로 이동 합니다.
+
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+1. 관리 센터에서이 <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">도메인</a> 페이지로 이동 합니다.
+
+::: moniker-end
     
 2. **도메인** 페이지에서 도메인을 선택합니다. 
     

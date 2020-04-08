@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Microsoft 365 관리 센터에서 중앙 집중식 배포에 대해 자주 묻는 질문에 대 한 대답을 검토 합니다.
-ms.openlocfilehash: d63158f70e3f905b0ee1acf994cbef207f1ab4f1
-ms.sourcegitcommit: b1ec6ba779a94ddbaab11a272e40abe1d3064532
+ms.openlocfilehash: 313e1dd7481ccdd8bbf7531d5b7433f8bbd54e38
+ms.sourcegitcommit: 732bb72a0b5ae09cb39536185aa29d6097ec72fd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43166496"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "43188965"
 ---
 # <a name="centralized-deployment-faq"></a>중앙 집중식 배포 FAQ
 
@@ -33,7 +33,7 @@ ms.locfileid: "43166496"
 
 추가 기능의 중앙 집중식 배포에서는 사용자가 Office 365 ProPlus를 사용 하 고, 조직 로그인 자격 증명을 사용 하 여 Office에 로그인 하 고, Exchange Online 사서함이 있어야 합니다. 구독 디렉터리는 Azure Active Directory에 있거나 페더레이션 해야 합니다.  
  
-중앙 집중식 배포는 Outlook Online 사서함에 대해서만 지원 됩니다. 온-프레미스 Exchange 사서함에 대 한 배포는 지원 되지 않습니다.
+온라인 사서함에 대해서만 중앙 집중식 배포가 지원 됩니다. 온-프레미스 Exchange 사서함에 대 한 배포는 지원 되지 않습니다.
  
 [Office 365 중앙 집중식 배포 호환성 검사](https://docs.microsoft.com/microsoft-365/admin/manage/centralized-deployment-of-add-ins?view=o365-worldwide#office-365-centralized-deployment-compatibility-checker) 를 사용 하 여 구독에 대 한 자격이 있는지 확인할 수 있습니다. 
   
@@ -47,7 +47,7 @@ ms.locfileid: "43166496"
    
 ## <a name="how-long-does-it-take-for-add-ins-to-show-up-for-all-users"></a>모든 사용자에 대해 추가 기능을 표시 하는 데 소요 되는 시간  
 
-추가 기능이 모든 사용자에 대해 표시 되려면 최대 12 시간이 걸릴 수 있습니다. 추가 기능 업데이트에 대해 같은 시간을 사용 하거나, 설정 또는 해제에서 변경 되거나, 추가 기능이 제거 될 수 있습니다. 
+모든 사용자에 대해 추가 기능을 표시 하는 데 최대 24 시간이 걸릴 수 있습니다. 추가 기능 업데이트에 대해 같은 시간을 사용 하거나, 설정 또는 해제에서 변경 되거나, 추가 기능이 제거 될 수 있습니다. 
   
 ## <a name="as-an-administrator-how-do-i-manage-the-user-access-to-add-ins-for-my-organization"></a>관리자는 조직에 대 한 추가 기능에 대 한 사용자 액세스를 관리 하는 방법은 무엇 인가요?
 

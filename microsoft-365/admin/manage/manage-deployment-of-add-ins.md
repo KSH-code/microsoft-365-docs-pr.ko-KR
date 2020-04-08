@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 737e8c86-be63-44d7-bf02-492fa7cd9c3f
 description: 관리 센터에서 중앙 집중식 배포를 사용 하 여 조직의 사용자 및 그룹에 추가 기능을 배포 하는 방법을 알아봅니다.
-ms.openlocfilehash: 4baba1504bbb7edaba1243d6e774efac81570c4f
-ms.sourcegitcommit: b1ec6ba779a94ddbaab11a272e40abe1d3064532
+ms.openlocfilehash: 74c1ceb8e9d2193e7ad7afd2b339d29d54780517
+ms.sourcegitcommit: 732bb72a0b5ae09cb39536185aa29d6097ec72fd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43165926"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "43189007"
 ---
 # <a name="manage-deployment-of-office-365-add-ins-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터에서 Office 365 추가 기능 배포 관리
 
@@ -75,7 +75,7 @@ Office 추가 기능을 사용하면 문서를 개인 설정하고 웹에서 정
 7. 추가 기능이 배포 되 면 녹색 눈금이 표시 됩니다. 페이지에 설명 된 지침에 따라 추가 기능이 성공적으로 배포 되었는지 테스트할 수 있습니다.
 
 > [!NOTE]
-> 앱의 리본 메뉴에 추가 기능 아이콘이 표시 되도록 하려면 Office를 다시 열어야 할 수도 있습니다. Outlook 추가 기능은 사용자의 리본에 표시 되는 데 최대 12 시간이 걸릴 수 있습니다.
+> 앱의 리본 메뉴에 추가 기능 아이콘이 표시 되도록 하려면 Office를 다시 열어야 할 수도 있습니다. Outlook 추가 기능은 사용자의 리본에 표시 되는 데 최대 24 시간이 걸릴 수 있습니다.
     
 8. 완료 되 면 **다음**을 선택 합니다. 자신에 게 배포한 경우 **추가 기능에 액세스할** 수 있는 사용자를 선택 하 여 다른 사용자에 게 배포 합니다.
 
