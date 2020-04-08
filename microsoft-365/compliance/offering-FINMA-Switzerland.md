@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 99d4b1b07c86989bce0da08324014bda7a8a7d5d
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 728208960932ea8d642ad1604d45ba321f021735
+ms.sourcegitcommit: 053d42480d8aa3792ecb0027ddd53d383a029474
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602415"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "42313763"
 ---
 # <a name="financial-market-supervisory-authority-finma-switzerland"></a>스위스 금융시장감독청 (FINMA, Financial Market Supervisory Authority)
 
@@ -27,7 +27,7 @@ ms.locfileid: "41602415"
 
 [금융시장감독청](https://www.finma.ch/en) ([Eidgenössische Finanzmarktaufsicht](https://www.finma.ch/de/), FINMA)는 스위스의 독립적인 금융 시장의 규제 기관이며 스위스 금융 시장이 효과적으로 움직일 수 있도록 확인하는 책임이 있습니다. 은행, 보험 회사, 거래소, 증권 거래소 및 기타 금융 기관에 대한 건전성 감독권을 보유하고 있습니다.
 
-FINMA는 은행, 증권 거래소 및 보험 회사가 회사의 비즈니스 활동에 중요한 모든 기능을 서비스 제공자에게 아웃소싱할 때 준수해야 하는 요구 사항을 정의하기 위해 [Circular 2018/3 아웃소싱 - 은행 및 보험회사](https://www.finma.ch/en/~/media/finma/dokumente/dokumentencenter/myfinma/rundschreiben/finma-rs-2018-03.pdf?la=en)를 게시했습니다. 자사의 비즈니스 활동을 아웃소싱하는 모든 회사는 아웃소싱 기능 자체를 수행하는 것과 마찬가지로 FINMA에 설명할 의무가 있습니다.
+FINMA는 은행, 증권 거래소 및 보험 회사가 회사의 비즈니스 활동에 중요한 모든 기능을 서비스 제공자에게 아웃소싱할 때 준수해야 하는 요구 사항을 정의하기 위해 [Circular 2018/3 아웃소싱 - 은행 및 보험회사](https://www.finma.ch/en/~/media/finma/dokumente/rundschreiben-archiv/2018/rs-18-03/finma-rs-2018-03---20170921.pdf?la=en)를 게시했습니다. 자사의 비즈니스 활동을 아웃소싱하는 모든 회사는 아웃소싱 기능 자체를 수행하는 것과 마찬가지로 FINMA에 설명할 의무가 있습니다.
 
 ## <a name="microsoft-and-finma"></a>Microsoft와 FINMA
 

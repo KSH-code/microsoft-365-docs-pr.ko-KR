@@ -14,18 +14,18 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 7419bc37b40bb7e2b9b2726c4672d7d8d481ab8b
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: f80e9ab25fda70ae723b844691dc129d0b604921
+ms.sourcegitcommit: 053d42480d8aa3792ecb0027ddd53d383a029474
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597915"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "42313783"
 ---
 # <a name="personal-data-protection-act-pdpa-argentina"></a>PDPA(개인 데이터 보호법) 아르헨티나
 
 ## <a name="about-the-pdpa"></a>PDPA 정보
 
-아르헨티나 국가 헌법에 따라 2000년에 [개인 데이터 보호법 25.326](https://unpan1.un.org/intradoc/groups/public/documents/un-dpadm/unpan044147.pdf)(PDPA)([Ley de Protección de los Datos Personales](http://servicios.infoleg.gob.ar/infolegInternet/anexos/60000-64999/64790/norma.htm))이 개인 데이터의 개인 정보를 보호하고 개인에게 공공 및 개인 데이터베이스 및 레지스트리에 저장된 모든 정보에 대한 액세스를 제공하기 위해 시행되었습니다. 내각부 장관 내 아르헨티나 공공 정보 접근 기관([Agencia de Acceso a la Información Pública, AAIP](https://www.argentina.gob.ar/aaip))은 이 법을 적용할 책임이 있습니다.
+아르헨티나 국가 헌법에 따라 2000년에 [개인 데이터 보호법 25.326](http://www.jus.gob.ar/media/3201023/personal_data_protection_act25326.pdf)(PDPA)([Ley de Protección de los Datos Personales](http://servicios.infoleg.gob.ar/infolegInternet/anexos/60000-64999/64790/norma.htm))이 개인 데이터의 개인 정보를 보호하고 개인에게 공공 및 개인 데이터베이스 및 레지스트리에 저장된 모든 정보에 대한 액세스를 제공하기 위해 시행되었습니다. 내각부 장관 내 아르헨티나 공공 정보 접근 기관([Agencia de Acceso a la Información Pública, AAIP](https://www.argentina.gob.ar/aaip))은 이 법을 적용할 책임이 있습니다.
 
 PDPA는 데이터 개인 정보 보호를 위한 유럽 입법 모델과 일치하며 아르헨티나는 EU로부터 데이터 전송에 대한 "적절한" 자격을 획득한 최초의 라틴 아메리카 국가였습니다.
 
