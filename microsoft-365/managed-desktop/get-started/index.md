@@ -1,21 +1,29 @@
 ---
 title: Microsoft Managed Desktop 시작
-description: ''
-keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 설명서
+description: 장치를 설정 하 고 서비스에서 작동 하도록 Azure 기능을 구성 하는 단계
+keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
-ms.openlocfilehash: 7d007329fbb53da2604e688623621eec86f93f5e
-ms.sourcegitcommit: 0d423b50d2f1f4eccd64e35e00f67313244efba9
+ms.openlocfilehash: 1c5edfd096694324082bdd4fcb70b85b0dd1f5f0
+ms.sourcegitcommit: 053d42480d8aa3792ecb0027ddd53d383a029474
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/18/2019
-ms.locfileid: "37595584"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "38020401"
 ---
-# <a name="get-started-with-microsoft-managed-desktop"></a><span data-ttu-id="7a5ec-103">Microsoft Managed Desktop 시작</span><span class="sxs-lookup"><span data-stu-id="7a5ec-103">Get started with Microsoft Managed Desktop</span></span>
+# <a name="get-started-with-microsoft-managed-desktop"></a><span data-ttu-id="f1fc2-104">Microsoft Managed Desktop 시작</span><span class="sxs-lookup"><span data-stu-id="f1fc2-104">Get started with Microsoft Managed Desktop</span></span>
 
-<span data-ttu-id="7a5ec-104">서비스에 등록할 준비가 되 면이 섹션에는 실제로 서비스에 참여 하 고, 장치를 확보 및 설정 하 고, 최종 사용자를 준비 하 고, 앱을 배포 하기 위해 수행 해야 하는 단계가 포함 됩니다.</span><span class="sxs-lookup"><span data-stu-id="7a5ec-104">Once you're ready to enroll in the service, this section includes the steps to follow to actually join the service, obtain and set up devices, prep your end users, and deploy apps.</span></span>
+<span data-ttu-id="f1fc2-105">이제 서비스에 등록 되었으므로 다음 단계에 따라 관리자 연락처를 확인 하 고, 조건부 액세스 설정을 조정 하 고, 사용자에 게 라이선스를 할당 하 고, 엔터프라이즈 상태 로밍을 사용 하도록 설정 하 고, 사용자를 준비 하 고, 디바이스에 앱을 배포 합니다.</span><span class="sxs-lookup"><span data-stu-id="f1fc2-105">Now that you've enrolled in the service, follow these steps to confirm admin contacts, adjust conditional access settings, assign licences to users, enable Enterprise State Roaming,  obtain and set up devices, prepare users, and deploy apps to devices.</span></span>
 
-- [<span data-ttu-id="7a5ec-105">Microsoft Managed Desktop Administration 포털에서 관리자 연락처 추가</span><span class="sxs-lookup"><span data-stu-id="7a5ec-105">Add Admin contacts in Microsoft Managed Desktop Admin portal</span></span>](add-admin-contacts.md)
-- [<span data-ttu-id="7a5ec-106">Microsoft Managed Desktop 장치 설정</span><span class="sxs-lookup"><span data-stu-id="7a5ec-106">Set up Microsoft Managed Desktop devices</span></span>](set-up-devices.md)
-- [<span data-ttu-id="7a5ec-107">Microsoft Managed Desktop 장치에 앱 배포</span><span class="sxs-lookup"><span data-stu-id="7a5ec-107">Deploy apps to Microsoft Managed Desktop devices</span></span>](deploy-apps.md)
+> [!NOTE]
+> <span data-ttu-id="f1fc2-106">이 작업을 수행 하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="f1fc2-106">This is the recommended order to follow, but you do have some flexibility in the sequence.</span></span>
+
+1. [<span data-ttu-id="f1fc2-107">관리 포털에서 관리자 연락처 추가 및 확인</span><span class="sxs-lookup"><span data-stu-id="f1fc2-107">Add and verify admin contacts in the Admin portal</span></span>](add-admin-contacts.md)
+2. [<span data-ttu-id="f1fc2-108">조건부 액세스 조정</span><span class="sxs-lookup"><span data-stu-id="f1fc2-108">Adjust conditional access</span></span>](conditional-access.md)
+3. [<span data-ttu-id="f1fc2-109">라이선스 할당</span><span class="sxs-lookup"><span data-stu-id="f1fc2-109">Assign licenses</span></span>](assign-licenses.md)
+4. [<span data-ttu-id="f1fc2-110">Intune 회사 포털 배포</span><span class="sxs-lookup"><span data-stu-id="f1fc2-110">Deploy Intune Company Portal</span></span>](company-portal.md)
+5. [<span data-ttu-id="f1fc2-111">엔터프라이즈 상태 로밍 사용</span><span class="sxs-lookup"><span data-stu-id="f1fc2-111">Enable Enterprise State Roaming</span></span>](enterprise-state-roaming.md)
+6. [<span data-ttu-id="f1fc2-112">장치 설정</span><span class="sxs-lookup"><span data-stu-id="f1fc2-112">Set up devices</span></span>](set-up-devices.md)
+7. [<span data-ttu-id="f1fc2-113">사용자들이 장치를 사용할 수 있도록 준비시키기</span><span class="sxs-lookup"><span data-stu-id="f1fc2-113">Get your users ready to use devices</span></span>](get-started-devices.md)
+8. [<span data-ttu-id="f1fc2-114">앱 배포</span><span class="sxs-lookup"><span data-stu-id="f1fc2-114">Deploy apps</span></span>](deploy-apps.md)
