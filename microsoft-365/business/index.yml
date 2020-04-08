@@ -11,15 +11,30 @@ metadata:
   author: samanro
   ms.author: samanro
   ms.date: 10/01/2019
-  ms.openlocfilehash: 238c4cd0c74854def600af876f93c52e6480ebb5
-  ms.sourcegitcommit: 48a45b0d2c60d4d79669174f462603a43f272875
+  ms.openlocfilehash: 9741932fcde29d2b64156c600f1bad1b309d5f66
+  ms.sourcegitcommit: b1ec6ba779a94ddbaab11a272e40abe1d3064532
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 01/18/2020
-  ms.locfileid: "41233669"
+  ms.lasthandoff: 04/07/2020
+  ms.locfileid: "43165914"
+productDirectory:
+  title: Microsoft 365 Business를 통한 원격 작업 보안
+  items:
+  - title: 새로운 기능
+    imageSrc: https://docs.microsoft.com/office/media/icons/get-started-blue.svg
+    summary: Azure AD Premium P1은 Microsoft 365 Business로 예정 되어 있습니다.
+    url: https://aka.ms/aadp1smbblog
+  - title: 시청 파트너 웨 비 나
+    imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-blue.svg
+    summary: COVID-19로 진행 되는 동안 SMB 고객을 보호 합니다.
+    url: https://aka.ms/M365v253PAL-Register
+  - title: 구입
+    imageSrc: https://docs.microsoft.com/office/media/icons/sign-up-blue.svg
+    summary: 링크를 클릭 하 여 구입 하거나 파트너에 게 문의 하세요.
+    url: https://aka.ms/m365bweb
 conceptualContent:
   items:
-  - title: Microsoft 365 Business란 무엇인가요?
+  - title: Microsoft 365 Business란?
     links:
     - url: microsoft-365-business-overview.md
       itemType: overview

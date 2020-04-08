@@ -17,12 +17,12 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 5fe9be7e85288e720b2ba3e5854cf34ec2263ee7
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: 2094549e63be0a8e3c2bbc7997de13475c19bb0c
+ms.sourcegitcommit: d1909d34ac0cddeb776ff5eb8414bfc9707d5ac1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42895432"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43163901"
 ---
 # <a name="microsoft-secure-score"></a>Microsoft 보안 점수
 
@@ -66,6 +66,7 @@ Microsoft 보안 점수에 액세스할 수 있는 권한을 부여 하려면 Az
 * 보안 관리자
 * Exchange 관리자
 * SharePoint 관리자
+* 계정 관리자
 
 ### <a name="read-only-roles"></a>읽기 전용 역할
 
