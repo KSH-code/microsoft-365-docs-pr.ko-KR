@@ -1,16 +1,16 @@
 ---
 title: Microsoft Managed Desktop 사용
 description: ''
-keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 설명서
+keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
 ms.openlocfilehash: 2ee1b38497819f547b0dcf91ecd88249d0d2d704
-ms.sourcegitcommit: 2c2248b03f7753d64490f2f7e56ec644a235b65a
+ms.sourcegitcommit: 053d42480d8aa3792ecb0027ddd53d383a029474
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/15/2019
+ms.lasthandoff: 04/07/2020
 ms.locfileid: "37595414"
 ---
 # <a name="working-with-microsoft-managed-desktop"></a>Microsoft Managed Desktop 사용

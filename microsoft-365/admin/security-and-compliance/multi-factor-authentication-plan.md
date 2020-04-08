@@ -20,12 +20,12 @@ search.appverid:
 ms.assetid: 043807b2-21db-4d5c-b430-c8a6dee0e6ba
 ROBOTS: NOINDEX, NOFOLLOW
 description: Office 365의 다단계 인증 및 설정 하기 위해 수행 해야 하는 단계에 대해 알아봅니다.
-ms.openlocfilehash: e3886387740fe904b9c9458f7b1abf736c3ef83f
-ms.sourcegitcommit: e525bcf073a61e1350484719a0c3ceb6ff0d8db1
+ms.openlocfilehash: be3b355f4487e2df5c2e20c9911c3bb421d5f7e1
+ms.sourcegitcommit: 00ce4626e1be182c5a91210a23662c9704384efa
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43153571"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43170943"
 ---
 # <a name="plan-for-multi-factor-authentication-for-office-365-deployments"></a>Office 365 배포의 다단계 인증 계획
 
@@ -65,7 +65,7 @@ Office 365에 대한 클라우드 전용 배포 또는 Single Sign-On 및 AD FS(
 |하이브리드 설치, 관리되는 온-프레미스  <br/> | 사용자 ID 온-프레미스를 관리하는 경우 다음과 같은 옵션이 있습니다.  <br/>  실제 또는 가상 스마트 카드 (AD FS를 사용 하는 경우)  <br/> [Azure Multi-factor Authentication](https://go.microsoft.com/fwlink/p/?LinkId=526677) (AD FS 용 모듈)  <br/>  Azure Active Directory (Azure AD) 다단계 인증  <br/> |
    
   
-다음 그림에서는 업데이트된 Office 2013 장치 앱(Windows 기반)에서 사용자가 MFA를 사용하여 로그인할 수 있는 방법을 보여줍니다. Office 2013 장치 앱은 [Active Directory 인증 라이브러리(ADAL)](https://go.microsoft.com/fwlink/p/?LinkId=526684) 사용을 통한 다단계 인증을 지원합니다. Azure AD는 사용자가 로그인할 수 있는 웹 페이지를 호스팅합니다. ID 공급자는 Azure AD이거나 AD FS와 같은 페더레이션 ID 공급자일 수 있습니다. 페더레이션 사용자에 대한 인증은 다음 단계를 따릅니다.
+다음 그림에서는 업데이트된 Office 2013 장치 앱(Windows 기반)에서 사용자가 MFA를 사용하여 로그인할 수 있는 방법을 보여줍니다. Office 2013 장치 앱은 [액티브 디렉터리 인증 라이브러리 (ADAL)](https://go.microsoft.com/fwlink/p/?LinkId=526684)사용을 통한 다단계 인증을 지원 합니다. Azure AD는 사용자가 로그인할 수 있는 웹 페이지를 호스팅합니다. ID 공급자는 Azure AD이거나 AD FS와 같은 페더레이션 ID 공급자일 수 있습니다. 페더레이션 사용자에 대한 인증은 다음 단계를 따릅니다.
   
 1. Azure AD는 Office 365 테넌트에 대한 레코드의 ID 공급자가 호스팅하는 로그인 웹 페이지로 사용자를 리디렉션합니다. ID 공급자는 사용자의 로그인 이름에 지정된 도메인에 의해 결정됩니다.
     

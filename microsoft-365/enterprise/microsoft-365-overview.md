@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 09/19/2019
+ms.date: 04/07/2020
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: Microsoft 365 for enterprise의 구성 요소, 계획 및 배포 경로에 대해 소개 합니다.
-ms.openlocfilehash: c66fb5e4d8cd0d24ec20a50ca2ead3f3b9e0851d
-ms.sourcegitcommit: 9ca28ae8f7804eb488cf76ca4b09fe88787e0a49
+ms.openlocfilehash: 043953ddfd38a9ef5119546ec5672dd46e8acb53
+ms.sourcegitcommit: 053d42480d8aa3792ecb0027ddd53d383a029474
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43113520"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43175193"
 ---
 # <a name="microsoft-365-for-enterprise-overview"></a>엔터프라이즈용 Microsoft 365 개요
 
@@ -45,7 +45,7 @@ ms.locfileid: "43113520"
 |:-------|:-----|
 | E3 | 회사 생산성을 향상 시키고 안전 하 게 작업 하는 데 도움이 되도록 Microsoft 365 내의 핵심 제품과 기능에 액세스 합니다. |
 | E5 | Advanced threat protection, 보안 및 공동 작업 도구를 포함 하 여 Microsoft 365 내의 최신 제품 및 기능에 액세스 합니다. 모든 E3's 기능 및 고급 보안, 음성 및 데이터 분석 도구를 포함 합니다. |
-| F1 | 최고 작업을 수행 하는 데 사용할 수 있는 용도의 제작 된 도구 및 리소스를 통해 Firstline 작업자와 연결 합니다. |
+| F3 | 최고 작업을 수행 하는 데 사용할 수 있는 용도의 제작 된 도구 및 리소스를 통해 Firstline 작업자와 연결 합니다. |
 |||
 
 Microsoft 365 E3이 있는 경우 다음 [제품](https://www.microsoft.com/microsoft-365/blog/2019/01/02/introducing-new-advanced-security-and-compliance-offerings-for-microsoft-365/)을 구할 수도 있습니다.
@@ -55,7 +55,7 @@ Microsoft 365 E3이 있는 경우 다음 [제품](https://www.microsoft.com/micr
 
 이러한 제품에는 Microsoft 365 E5에 포함 된 추가 기능이 포함 되어 있습니다.
 
-자세한 내용은 [각 요금제의 기능 및](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans)기능을 참조 하십시오.
+각 계획에 포함 된 기능에 대 한 자세한 내용은 [엔터프라이즈를 Microsoft 365으로 변환](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans)를 참조 하십시오.
 
 ## <a name="get-the-big-picture"></a>큰 그림 가져오기
 

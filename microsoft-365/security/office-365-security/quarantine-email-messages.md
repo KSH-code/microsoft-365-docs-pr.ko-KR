@@ -1,9 +1,9 @@
 ---
-title: Office 365의 격리
+title: Office 365에서 격리
 f1.keywords:
 - NOCSH
-ms.author: tracyp
-author: MSFTTracyP
+ms.author: chrisda
+author: chrisda
 manager: dansimp
 ms.date: ''
 audience: Admin
@@ -18,14 +18,14 @@ ms.assetid: 4c234874-015e-4768-8495-98fcccfc639b
 ms.collection:
 - M365-security-compliance
 description: Office 365에서 격리를 통해 위험할 수도 있고 원치 않는 메시지를 저장할 수 있습니다. 관리자 및 최종 사용자가 격리에 액세스할 수 있습니다.
-ms.openlocfilehash: 29f9fcbed83e9019118bb8b37c19cad1199c4c45
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: a11b4a0d86cfc5f74636d3a9f89cf598320d1ebf
+ms.sourcegitcommit: 053d42480d8aa3792ecb0027ddd53d383a029474
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42895302"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "42940960"
 ---
-# <a name="quarantine-in-office-365"></a>Office 365의 격리
+# <a name="quarantine-in-office-365"></a>Office 365에서 격리
 
 Exchange online 사서함이 없는 Office 365 고객이 나 독립 실행형 EOP (Exchange Online Protection) 고객의 경우에는 격리를 사용 하 여 위험할 수도 있고 원치 않는 메시지를 저장할 수 있습니다.
 
@@ -35,7 +35,7 @@ Exchange online 사서함이 없는 Office 365 고객이 나 독립 실행형 EO
 
 사용자와 관리자가 격리 된 메시지를 사용 하 여 작업할 수 있습니다.
 
-- 관리자는 모든 사용자에 대해 격리 된 모든 유형의 메시지를 사용할 수 있습니다. 관리자만이 맬웨어, 높은 신뢰도 피싱 또는 메일 흐름 규칙 (전송 규칙이 라고도 함)의 결과로 격리 된 메시지를 사용할 수 있습니다. 자세한 내용은 [Office 365에서 격리 된 메시지 및 파일 관리로 관리자](manage-quarantined-messages-and-files.md)를 참조 하세요.
+- 관리자는 모든 사용자에 대해 격리 된 모든 유형의 메시지를 사용할 수 있습니다. 관리자만이 맬웨어, 높은 신뢰도 피싱 또는 메일 흐름 규칙 (전송 규칙이 라고도 함)의 결과로 격리 된 메시지를 사용할 수 있습니다. 자세한 내용은 [Office 365에서 관리자로 격리된 메시지 관리하기](manage-quarantined-messages-and-files.md)를 참조하세요.
 
 - 사용자는 메시지가 스팸으로, 대량 전자 메일 또는 (4 월, 2020) 피싱 메일로 격리 된 경우 받는 사람 인 격리 된 메시지를 사용 하 여 작업할 수 있습니다. 자세한 내용은 [Office 365의 사용자로 격리 된 메시지 찾기 및 릴리스](find-and-release-quarantined-messages-as-a-user.md)를 참조 하세요.
 

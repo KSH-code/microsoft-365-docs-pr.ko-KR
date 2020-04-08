@@ -1,15 +1,15 @@
 ---
 title: Microsoft Managed Desktop 서비스 설명
 description: Microsoft Managed Desktop 서비스에 포함 된 내용에 대해 간략하게 설명 합니다.
-keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 설명서
+keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.openlocfilehash: 0668564fea300ace1bdf8ad32a34d85c2ad5a641
-ms.sourcegitcommit: 6cabf0226de1c95bff6ddb1852dac5ecdb2d6b96
+ms.sourcegitcommit: 053d42480d8aa3792ecb0027ddd53d383a029474
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 07/23/2019
+ms.lasthandoff: 04/07/2020
 ms.locfileid: "35830496"
 ---
 # <a name="microsoft-managed-desktop-service-description"></a>Microsoft Managed Desktop 서비스 설명

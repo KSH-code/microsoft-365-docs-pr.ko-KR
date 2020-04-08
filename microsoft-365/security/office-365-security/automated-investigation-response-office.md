@@ -15,12 +15,12 @@ search.appverid:
 ms.collection: M365-security-compliance
 description: Office 365 Advanced Threat Protection 계획 2의 자동화 된 조사 및 응답 기능에 대 한 개요를 확인 하세요.
 ms.custom: air
-ms.openlocfilehash: e8e10160da4ddb43b47ecf41e2184dc1b8953941
-ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
+ms.openlocfilehash: 1fa99d7676a16ccd83319e5fbf3a6fedb72aec12
+ms.sourcegitcommit: 00ce4626e1be182c5a91210a23662c9704384efa
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43033449"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43170955"
 ---
 # <a name="automated-investigation-and-response-air-in-office-365"></a>Office 365의 자동화 된 조사 및 응답 (AIR)
 
@@ -75,7 +75,7 @@ AIR의 일환으로 보안 playbook가 단계별로 배포 됩니다. 이제 1 �
 
 1 단계에는 [위협 탐색기](threat-explorer.md)를 사용 하 여 관리자가 트리거한 전자 메일 조사에 대 한 지원도 포함 됩니다.
 
-이제 2 단계에서는 **공개 미리 보기**의 다음 playbook을 사용 하 여 작업을 진행 하 고 있으며 문제 조사에 대 한 권장 사항 및 aiding 보안 관리자를 제공 합니다.
+2 단계는 이제 **공개 미리 보기**에서 다음 playbook 사용 하 여 진행 중 이며, 문제 조사에서 작업 및 aiding 보안 관리자에 대 한 권장 사항을 제공 합니다.
 - 사용자가 손상 된 것으로 보고 됨 (공개 미리 보기)
 
 추가 playbook 완료 되 면 릴리스됩니다. [Microsoft 365 로드맵을](https://www.microsoft.com/microsoft-365/roadmap) 방문 하 여 그 밖의 계획 및 출시 예정 사항을 확인 하세요.

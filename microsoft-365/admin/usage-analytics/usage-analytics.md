@@ -18,16 +18,16 @@ search.appverid:
 - MOE150
 ms.assetid: 77ff780d-ab19-4553-adea-09cb65ad0f1f
 description: 조직이 Microsoft 365 서비스를 채택 하 여 통신 및 공동 작업 하는 방법에 대 한 개요를 확인 하세요.
-ms.openlocfilehash: 0481f894a4841488b20af90cd7c00619d2ad5c98
-ms.sourcegitcommit: 2859c82b30ae9cbd3a3e4bcdebd65f18444f1a9e
+ms.openlocfilehash: c9e2b9e6b814ac9245222f5da670862e308d1ab4
+ms.sourcegitcommit: 00ce4626e1be182c5a91210a23662c9704384efa
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42826384"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43170921"
 ---
 # <a name="microsoft-365-usage-analytics"></a>Microsoft 365 사용 현황 분석
----
-Microsoft 365 US 정부 커뮤니티에서는 microsoft 365 사용 현황 분석을 아직 사용할 수 없습니다.
+
+Microsoft 365 사용 현황 분석은 현재 Power BI 정부 고객에 게 제공 되지 않습니다.
  
 ## <a name="overview-of-microsoft-365-usage-analytics"></a>Microsoft 365 사용 현황 분석 개요
 
@@ -83,7 +83,7 @@ Microsoft 365 개요 보고서에는 다음 보고서가 포함 되어 있습니
 
 특정 개별 서비스에 대 한 사용자 활동 보고서를 사용할 수 있습니다. 이러한 보고서는 Active Directory 특성과 결합 된 사용자 수준의 세부 사용 데이터를 제공 합니다. 또한 부서 채택 보고서를 사용 하면 Active Directory 특성을 기준으로 분할 하 여 모든 개별 서비스에서 활성 사용자를 볼 수 있습니다. 모든 메트릭은 최신 완료 달에 대해 집계 됩니다.
 
-## <a name="faq"></a>자주 묻는 질문(FAQ)
+## <a name="faq"></a>FAQ
 
 ### <a name="is-this-template-app-going-to-be-available-through-purchase-or-will-it-be-free"></a>이 서식 파일 앱은 구매를 통해 사용할 수 있습니까, 아니면 무료로 제공 됩니까?
 
