@@ -15,18 +15,18 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: ID 및 장치 액세스를 테스트하는 Microsoft 365 환경을 만듭니다.
-ms.openlocfilehash: e43483afc9e17de9582b2998867b53cfff7d8492
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 45749140698553a75df50ed1111cdbfc8eb15684
+ms.sourcegitcommit: e525bcf073a61e1350484719a0c3ceb6ff0d8db1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601005"
+ms.lasthandoff: 04/06/2020
+ms.locfileid: "43153741"
 ---
 # <a name="identity-and-device-access-for-your-microsoft-365-test-environment"></a>Microsoft 365 테스트 환경에 대한 ID 및 장치 액세스
 
 *이 테스트 랩 가이드는 Microsoft 365 Enterprise 테스트 환경에만 사용할 수 있습니다.*
 
-[ID 및 장치 액세스 구성](microsoft-365-policies-configurations.md)은 Microsoft 365 Enterprise의 Office 365 및 Microsoft Intune 등 Azure Directory(Azure AD)와 통합된 모든 서비스에 대한 액세스를 보호하기 위한 일련의 기능 및 조건부 액세스 정책입니다.
+[ID 및 디바이스 액세스 구성](microsoft-365-policies-configurations.md)은 Microsoft 365 Enterprise의 Office 365 및 Microsoft Intune 등 Azure Directory(Azure AD)와 통합된 모든 서비스에 대한 액세스를 보호하기 위한 일련의 기능 및 조건부 액세스 정책입니다.
 
 다음 정책을 적용한 테스트 환경을 만들기 위해서는 아래 내용을 따릅니다.
 

@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 31444d677e7cd775f5364796c6821cb82b6dc654
-ms.sourcegitcommit: 9ca28ae8f7804eb488cf76ca4b09fe88787e0a49
+ms.openlocfilehash: d4a98383e88634f1e87606df5bcd1d066254081f
+ms.sourcegitcommit: 00ce4626e1be182c5a91210a23662c9704384efa
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43113575"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43170932"
 ---
 # <a name="configure-communication-compliance-in-microsoft-365"></a>Microsoft 365에서 통신 준수 구성
 
@@ -48,7 +48,7 @@ ms.locfileid: "43113575"
 - Office 365 Enterprise E5 구독 (유료 또는 평가판 버전)
 - Office 365 Enterprise E3 구독 + Office 365 고급 준수 추가 기능 (새 구독에 더 이상 사용할 수 없음)
 
-통신 준수 정책에 포함 된 사용자에 게는 위의 라이선스 중 하나를 할당 해야 합니다.
+통신 준수 정책에 포함 된 사용자는 위의 라이선스 중 하나를 할당 받아야 합니다.
 
 >[!IMPORTANT]
 >Office 365 고급 규정 준수는 더 이상 독립 실행형 구독으로 판매 되지 않습니다. 현재 구독이 만료 되 면 고객은 위의 구독 중 하나로 전환 해야 하며, 이러한 기능은 동일 하거나 추가 준수 기능이 포함 되어 있습니다.

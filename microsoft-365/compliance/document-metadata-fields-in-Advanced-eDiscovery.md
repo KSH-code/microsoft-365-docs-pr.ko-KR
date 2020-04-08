@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: 이 문서에서는 Microsoft 365의 Advanced eDiscovery에서 사례에 대 한 검토 집합의 문서에 대 한 메타 데이터 필드를 정의 합니다.
-ms.openlocfilehash: 78cfba97c14259ec40abc17e17676263b37fcedf
-ms.sourcegitcommit: 9231cbea48374fca3aeeb1f267dcdcd270fd9f42
+ms.openlocfilehash: f53a754fce482ddc0944d84059b1e346e93f5067
+ms.sourcegitcommit: 053d42480d8aa3792ecb0027ddd53d383a029474
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/15/2020
-ms.locfileid: "42651842"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "42941240"
 ---
 # <a name="document-metadata-fields-in-advanced-ediscovery"></a>고급 eDiscovery의 문서 메타 데이터 필드
 
@@ -34,6 +34,9 @@ ms.locfileid: "42651842"
 - **내보낸 필드 이름:** 문서를 내보낼 때 포함 되는 메타 데이터 필드의 이름입니다.  빈 셀은 내보낸 메타 데이터에는 해당 필드가 포함 되지 않음을 의미 합니다.
 
 - **설명:** 메타 데이터 필드에 대 한 설명입니다.
+
+> [!NOTE]
+> [검토 집합 검색](https://docs.microsoft.com/microsoft-365/compliance/review-set-search) 의 **키워드** 필드에는 KQL (키워드 쿼리 언어)가 사용 됩니다. 검색 **가능한 필드 이름** 열에 나열 된 필드는 검토 집합의 **키워드** 필드에서 사용 하 여 쿼리 작성기를 사용 하지 않고도 복잡 한 쿼리를 형성할 수 있습니다. KQL에 대 한 자세한 내용은 [키워드 쿼리 언어 구문 참조](https://go.microsoft.com/fwlink/?LinkId=269603)를 참조 하십시오.
 
 |**필드 이름** 및 **표시 필드 이름**|**검색 가능한 필드 이름**|**내보낸 필드 이름**|**설명**|
 |:-----|:-----|:-----|:-----|

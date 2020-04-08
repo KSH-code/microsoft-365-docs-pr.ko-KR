@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 8794a51c60b778814d05a84d2332dc018b54a80a
-ms.sourcegitcommit: b6ab845d64e2801051d249de09ad5059809b649a
+ms.openlocfilehash: 65578f8105d52c87eb74cba57a215682f92bd02d
+ms.sourcegitcommit: 00ce4626e1be182c5a91210a23662c9704384efa
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42222010"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43170910"
 ---
 # <a name="national-institute-of-standards-and-technology-nist-cybersecurity-framework-csf"></a>국내 표준 협회 및 기술 (NIST) Cybersecurity Framework (CSF)
 
@@ -37,7 +37,7 @@ NIST Cybersecurity Framework (CSF)는 Cybersecurity 관련 위험을 관리 하�
 
 준수 점수 및 Azure 보안 및 준수 청사진을 사용 하 여 NIST Cybersecurity Framework 배포를 가속화 하는 방법을 알아봅니다.
 
-- [Azure 보안 및 규정 준수 청사진 다운로드-NIST CSF 위험 요소 분석 검사 목록](https://servicetrust.microsoft.com/ViewPage/Blueprint?command=Download&downloadType=Document&downloadId=11e61716-11ab-4b11-9a9a-434b33a62ff9&docTab=fc060920-cdb8-11e7-bacf-0bf52b09d912_NIST_CSF_Blueprint)
+- [Azure 보안 및 규정 준수 청사진 다운로드-NIST CSF 위험 요소 분석 검사 목록](https://servicetrust.microsoft.com/ViewPage/BlueprintLegacy?command=Download&downloadType=Document&downloadId=89ec5635-be07-4a5d-87d3-51783e4d3002)
 - [규정 준수 점수가 Office 365에 대 한 NIST CSF 평가에 대해 자세히 알아보기](https://techcommunity.microsoft.com/t5/Security-Privacy-and-Compliance/New-NIST-CSF-and-CSA-CCM-assessments-available-in-Compliance/ba-p/218554)
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 범위 내 클라우드 서비스
@@ -68,7 +68,7 @@ Cybersecurity는 디지털 변환 연대의 중요 관리 문제를 그대로 �
 
 **Azure 정부, Dynamics 365 및 Office 365 지원 NIST CSF 요구 사항에 대 한 독립적인 평가자 확인 해야 하나요?**
 
-예, 타사 평가 조직에서는 중요 한 인프라 개선을 위한 프레임 워크에 정의 된 대로, Azure 정부 클라우드 서비스가 CSF (NIST Cybersecurity Framework) 위험 관리 방법을 준수 하는 attested를 제공 합니다. Cybersecurity, 버전 1.0, 날짜가 2 월 12 일 2014입니다. NIST CSF는 FedRAMP 중간 컨트롤 프레임 워크에 매핑되고 독립적 평가자 FedRAMP 일반 기준선에 대해 Dynamics 365를 평가 했습니다. 또한 Office 365에서는 6 월 2018에 HITRUST 로부터 [NIST CSF 인증 편지](https://aka.ms/O365NISTCSFcertification) 를 얻었습니다.
+예, 타사 평가 조직은 Azure 정부 클라우드 서비스 제공은 중요 한 인프라 Cybersecurity, 버전 1.0, 2014 년 2 월 12 일을 개선 하기 위한 프레임 워크에 정의 된 대로, attested가 NIST Cybersecurity Framework (CSF) 위험 관리 방법을 준수 한다는 것을 확인할 수 있습니다. NIST CSF는 FedRAMP 중간 컨트롤 프레임 워크에 매핑되고 독립적 평가자 FedRAMP 일반 기준선에 대해 Dynamics 365를 평가 했습니다. 또한 Office 365에서는 6 월 2018에 HITRUST 로부터 [NIST CSF 인증 편지](https://aka.ms/O365NISTCSFcertification) 를 얻었습니다.
 
 **Microsoft 클라우드 서비스가 프레임 워크의 준수를 어떻게 입증 하나요?**
 
@@ -88,7 +88,7 @@ FICIC에 참가 하는 것은 자발적입니다. 그러나 Microsoft는 Azure, 
 
 **Office 365의 범위 내 서비스는 무엇 인가요?**
 
-NIST CSF 인증의 범위 내 서비스는 Exchange Online 보관, Exchange Online Protection, Exchange Online, 비즈니스용 Skype, 관리 센터, SharePoint Online, Project Online, 비즈니스용 OneDrive, Office Online, MyAnalytics, Microsoft Office 365의 팀, office ProPlus, 다중 테 넌 트 클라우드 및 Office 365 GCC.
+NIST CSF 인증의 범위 내 서비스는 Exchange Online, Exchange online Protection, exchange Online, 비즈니스용 Skype, 관리 센터, SharePoint Online, Project Online, 비즈니스용 OneDrive, office Online, MyAnalytics, Microsoft 팀, office ProPlus, office 365 다중 테 넌 트 클라우드 및 Office 365 GCC입니다.
 
 > [!NOTE]
 > Office 365 ProPlus는 로밍 설정, 라이선스 및 OneDrive 소비자 클라우드 저장소와 같은 다양 한 클라우드 서비스에 액세스할 수 있도록 하며 나중에 추가 클라우드 서비스에 대 한 액세스를 사용 하도록 설정할 수 있습니다. 로밍 설정 및 라이선스는 HITRUST에 대 한 표준을 지원 합니다. OneDrive 소비자 클라우드 저장소 및 Office 365 ProPlus를 통해 액세스할 수 있는 기타 클라우드 서비스 및 Microsoft에서 향후에 제공 하는 서비스도 이러한 표준을 지원 하지 않을 수도 있습니다. *
@@ -109,7 +109,7 @@ Microsoft는 다른 클라우드 서비스 공급자에 비해 가장 포괄적�
 - [연방 네트워크 및 중요 한 인프라의 Cybersecurity을 강화 하는 Presidential Executive 주문](https://www.whitehouse.gov/the-press-office/2017/05/11/presidential-executive-order-strengthening-cybersecurity-federal)
 - [Microsoft Government 클라우드](https://go.microsoft.com/fwlink/p/?linkid=2087246)
 - [온라인 서비스 약관](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=31)
-- [Microsoft 보안 센터의 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
 ## <a name="download-the-offering-backgrounder"></a>제공 사항의 배경 설명 다운로드
 

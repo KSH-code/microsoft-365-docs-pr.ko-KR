@@ -15,14 +15,14 @@ search.appverid:
 - MET150
 ms.assetid: 03cc4387-2c7d-4058-8a44-0deefb58f011
 description: 'Office 365 Advanced eDiscovery에서 태그를 지정 하는 동안 관련 파일을 식별 하는 데 도움이 되는 사용자 정의 키워드와 관련성을 추가 하는 방법에 대해 알아보고 비용 매개 변수  '
-ms.openlocfilehash: f24c2d736a1d3c36ed23d16e1bb5d2dadb42cec9
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: bec34867e7dfdb86848fd1fd2126d5cf96129802
+ms.sourcegitcommit: 053d42480d8aa3792ecb0027ddd53d383a029474
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42075938"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "42556766"
 ---
-# <a name="define-highlighted-keywords-and-advanced-options-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery에서 강조 표시 된 키워드 및 고급 옵션 정의
+# <a name="define-highlighted-keywords-and-advanced-options-in-advanced-ediscovery-classic"></a>고급 eDiscovery에서 강조 표시 된 키워드 및 고급 옵션 정의 (클래식)
 
 > [!NOTE]
 > Advanced eDiscovery를 사용하려면 Office 365 E3의 고급 준수 추가 기능이나 조직을 위한 E5 구독이 필요합니다. 이 요금제가 없는 상태에서 Advanced eDiscovery를 사용하려는 경우에는 [Office 365 Enterprise E5 평가판을 등록](https://go.microsoft.com/fwlink/p/?LinkID=698279)할 수 있습니다. 
@@ -74,7 +74,7 @@ ms.locfileid: "42075938"
     
 ## <a name="see-also"></a>참고 항목
 
-[Office 365 Advanced eDiscovery](office-365-advanced-ediscovery.md)
+[고급 eDiscovery (클래식)](office-365-advanced-ediscovery.md)
   
 [문제 정의 및 사용자 할당](define-issues-and-assign-users.md)
   

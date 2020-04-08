@@ -16,10 +16,10 @@ search.appverid:
 ms.assetid: dce7a700-3b6e-435f-88ba-e4b82c0f2b26
 description: 'Office 365 Advanced eDiscovery에서 매개 변수를 설정 하 고, 옵션을 실행 하 고, 결과를 볼 수 있는 분석 프로세스의 개요를 확인 하세요. '
 ms.openlocfilehash: 31745651ddbebbfc5e9670a5a906d82cf493aea4
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+ms.sourcegitcommit: 053d42480d8aa3792ecb0027ddd53d383a029474
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2020
+ms.lasthandoff: 04/07/2020
 ms.locfileid: "42556806"
 ---
 # <a name="analyze-case-data-with-advanced-ediscovery-classic"></a>고급 eDiscovery를 사용 하 여 사례 데이터 분석 (클래식)

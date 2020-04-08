@@ -12,18 +12,18 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: 관리자는 기본 커넥터를 설정 하 여 인스턴트 Bloomberg 채팅 도구에서 Microsoft 365로 데이터를 가져올 수 있습니다. 이를 통해 Microsoft 365의 타사 데이터 원본에서 데이터를 보관할 수 있으므로 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용 하 여 조직의 타사 데이터를 관리할 수도 있습니다.
-ms.openlocfilehash: 81cfa29bf3db101a87a0827985fb59af187d985e
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: 6d267959f9086830282e9d1f018e4e58f90bc830
+ms.sourcegitcommit: 053d42480d8aa3792ecb0027ddd53d383a029474
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42632881"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "42941260"
 ---
 # <a name="set-up-a-connector-to-archive-instant-bloomberg-data"></a>즉석 Bloomberg 데이터를 보관할 커넥터 설정
 
 Microsoft 365 준수 센터의 네이티브 커넥터를 사용 하 여 [인스턴트 Bloomberg](https://www.bloomberg.com/professional/product/collaboration/) 공동 작업 도구에서 금융 서비스 채팅 데이터를 가져오고 보관 합니다. 커넥터를 설정 하 고 구성한 후에는 조직에서 매월 Bloomberg 보안 FTP 사이트 (SFTP)에 연결 하 고 채팅 메시지의 콘텐츠를 전자 메일 메시지 형식으로 변환한 다음 해당 항목을 Microsoft 365의 사서함으로 가져옵니다.
 
-인스턴트 Bloomberg 데이터가 사용자 사서함에 저장 되 면 소송 보존, 콘텐츠 검색, 원본 위치 보관, 감사, 통신 준수 및 Microsoft 365 보존 정책 등의 Microsoft 365 준수 기능을 적용할 수 있습니다. Bloomberg 데이터 예를 들어 콘텐츠 검색을 사용 하 여 인스턴트 Bloomberg 채팅 메시지를 검색 하거나, 고급 eDiscovery 사례의 custodian에 인스턴트 Bloomberg 데이터가 포함 된 사서함을 연결할 수 있습니다. 인스턴트 Bloomberg 커넥터를 사용 하 여 Microsoft 365에서 데이터를 가져오고 보관 하면 조직이 정부 및 규정 정책을 준수 하는 데 도움이 될 수 있습니다.
+인스턴트 Bloomberg 데이터가 사용자 사서함에 저장 되 면 소송 보존, 콘텐츠 검색, 원본 위치 보관, 감사, 통신 준수 및 인스턴트 Bloomberg 데이터에 대 한 Microsoft 365 보존 정책 등의 Microsoft 365 준수 기능을 적용할 수 있습니다. 예를 들어 콘텐츠 검색을 사용 하 여 인스턴트 Bloomberg 채팅 메시지를 검색 하거나, 고급 eDiscovery 사례의 custodian에 인스턴트 Bloomberg 데이터가 포함 된 사서함을 연결할 수 있습니다. 인스턴트 Bloomberg 커넥터를 사용 하 여 Microsoft 365에서 데이터를 가져오고 보관 하면 조직이 정부 및 규정 정책을 준수 하는 데 도움이 될 수 있습니다.
 
 ## <a name="overview-of-archiving-instant-bloomberg-data"></a>인스턴트 Bloomberg 데이터 보관 개요
 
@@ -37,7 +37,7 @@ Microsoft 365 준수 센터의 네이티브 커넥터를 사용 하 여 [인스�
     
 3. Microsoft 365 준수 센터에서 만든 인스턴트 Bloomberg 커넥터는 매일 Bloomberg SFTP 사이트에 연결 하 고 이전 24 시간에서 Microsoft 클라우드의 안전한 Azure Storage 영역으로 채팅 메시지를 전송 합니다. 또한이 커넥터는 채팅 massage의 콘텐츠를 전자 메일 메시지 형식으로 변환 합니다.
     
-4. 커넥터는 채팅 메시지 항목을 특정 사용자의 사서함으로 가져옵니다. InstantBloomberg 이라는 새 폴더가 특정 사용자의 사서함에 만들어지고이 폴더에 항목을 가져오게 됩니다. 커넥터에서 *CorporateEmailAddress* 속성 값을 사용 합니다. 모든 채팅 메시지에는 채팅 메시지의 모든 참가자의 전자 메일 주소로 채워지는이 속성이 포함 되어 있습니다. *CorporateEmailAddress* 속성 값을 사용 하는 자동 사용자 매핑 외에도 CSV 매핑 파일을 업로드 하 여 사용자 지정 매핑을 정의할 수 있습니다. 이 매핑 파일에는 각 사용자에 대 한 Bloomberg UUID 및 해당 Microsoft 365 사서함 주소가 포함 되어 있어야 합니다. 자동 사용자 매핑을 사용 하도록 설정 하 고 사용자 지정 매핑을 제공 하는 경우, 모든 채팅 항목에 대해 커넥터는 먼저 사용자 지정 매핑 파일을 확인 합니다. 사용자의 Bloomberg UUID에 해당 하는 유효한 Microsoft 365 사용자를 찾지 못하면 커넥터는 채팅 항목의 *CorporateEmailAddress* 속성을 사용 합니다. 커넥터가 사용자 지정 매핑 파일 또는 채팅 항목의 *CorporateEmailAddress* 속성에서 유효한 Microsoft 365 사용자를 찾지 못하면 항목을 가져오지 않습니다.
+4. 커넥터는 채팅 메시지 항목을 특정 사용자의 사서함으로 가져옵니다. InstantBloomberg 이라는 새 폴더가 특정 사용자의 사서함에 만들어지고이 폴더에 항목을 가져오게 됩니다. 커넥터는 *CorporateEmailAddress* 속성 값을 사용 하 여이를 수행 합니다. 모든 채팅 메시지에는 채팅 메시지의 모든 참가자의 전자 메일 주소로 채워지는이 속성이 포함 되어 있습니다. *CorporateEmailAddress* 속성 값을 사용 하는 자동 사용자 매핑 외에도 CSV 매핑 파일을 업로드 하 여 사용자 지정 매핑을 정의할 수 있습니다. 이 매핑 파일에는 각 사용자에 대 한 Bloomberg UUID 및 해당 Microsoft 365 사서함 주소가 포함 되어 있어야 합니다. 자동 사용자 매핑을 사용 하도록 설정 하 고 사용자 지정 매핑을 제공 하는 경우, 모든 채팅 항목에 대해 커넥터는 먼저 사용자 지정 매핑 파일을 확인 합니다. 사용자의 Bloomberg UUID에 해당 하는 유효한 Microsoft 365 사용자를 찾지 못하면 커넥터는 채팅 항목의 *CorporateEmailAddress* 속성을 사용 합니다. 커넥터가 사용자 지정 매핑 파일 또는 채팅 항목의 *CorporateEmailAddress* 속성에서 유효한 Microsoft 365 사용자를 찾지 못하면 항목을 가져오지 않습니다.
 
 ## <a name="before-you-begin"></a>시작하기 전에
 

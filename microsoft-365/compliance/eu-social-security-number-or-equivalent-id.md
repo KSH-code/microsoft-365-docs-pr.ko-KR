@@ -1,5 +1,7 @@
 ---
 title: EU 주민 등록 번호 또는 동등한 ID
+f1.keywords:
+- NOCSH
 ms.author: cabailey
 author: cabailey
 manager: laurawi
@@ -10,12 +12,12 @@ ms.service: O365-seccomp
 ms.collection: M365-security-compliance
 localization_priority: Normal
 description: 이 항목에서는 DLP (데이터 손실 방지) 정책이 EU 주민 등록 번호 또는 동등한 ID 중요 정보 유형을 검색할 때 찾는 항목을 보여 줍니다. 이 중요 한 정보 유형은 각 국가에 대 한 다양 한 패턴, 키워드 및 기타 증거를 정의 합니다.
-ms.openlocfilehash: 0666818dc892070f5c2f0c34abd8ca33d1253e33
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 1f2d1d9c61f27fb47b0c7ac0ce544b17175d4254
+ms.sourcegitcommit: 053d42480d8aa3792ecb0027ddd53d383a029474
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40805931"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "41591229"
 ---
 # <a name="eu-social-security-number-or-equivalent-id"></a>EU 주민 등록 번호 또는 동등한 ID
 

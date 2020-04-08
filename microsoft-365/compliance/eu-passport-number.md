@@ -1,5 +1,7 @@
 ---
 title: EU 여권 번호
+f1.keywords:
+- NOCSH
 ms.author: cabailey
 author: cabailey
 manager: laurawi
@@ -10,12 +12,12 @@ ms.service: O365-seccomp
 ms.collection: M365-security-compliance
 localization_priority: Normal
 description: 이 항목에서는 DLP (데이터 손실 방지) 정책이 EU (유럽 여권 번호) 중요 한 정보 유형을 검색할 때 찾는 항목을 보여 줍니다. 이 중요 한 정보 유형은 각 국가에 대 한 다양 한 패턴, 키워드 및 기타 증거를 정의 합니다.
-ms.openlocfilehash: 4afcf7b764eb8976e0588464515256f7cb1bdb8d
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: 0032d3e50d7dab0b696d9000242e70956469052e
+ms.sourcegitcommit: 053d42480d8aa3792ecb0027ddd53d383a029474
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40805951"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "41592119"
 ---
 # <a name="eu-passport-number"></a>EU 여권 번호
 
@@ -39,7 +41,7 @@ ms.locfileid: "40805951"
     
 ### <a name="checksum"></a>제외
 
-해당 사항 없음
+해당 없음
   
 ### <a name="definition"></a>정의
 
@@ -78,7 +80,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 ### <a name="checksum"></a>제외
 
-해당 사항 없음
+해당 없음
   
 ### <a name="definition"></a>정의
 
@@ -429,7 +431,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 |:-----|
 |passport number  <br/> 헝가리어 여권 번호  <br/> passport 아니요  <br/> útlevél száma  <br/> |
    
-## <a name="ireland"></a>Ireland
+## <a name="ireland"></a>아일랜드
 
 ### <a name="format"></a>형식일
 
@@ -488,7 +490,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
     
 ### <a name="checksum"></a>제외
 
-해당 사항 없음
+해당 없음
   
 ### <a name="definition"></a>정의
 
@@ -570,7 +572,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 ### <a name="checksum"></a>제외
 
-해당 사항 없음
+해당 없음
   
 ### <a name="definition"></a>정의
 
@@ -687,7 +689,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
   
 ### <a name="checksum"></a>제외
 
-해당 사항 없음
+해당 없음
   
 ### <a name="definition"></a>정의
 
@@ -902,7 +904,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
     
 ### <a name="checksum"></a>제외
 
-해당 사항 없음
+해당 없음
   
 ### <a name="definition"></a>정의
 

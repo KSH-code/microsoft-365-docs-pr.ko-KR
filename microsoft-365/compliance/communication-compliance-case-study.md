@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 4a119e0ec082893d393d1b43af76b41dc93c76a1
-ms.sourcegitcommit: 144c0f3c2c6112bffc5a9b04392a38123a979ebc
+ms.openlocfilehash: 834fb37eba578ff87477fd376cd5d33c8612e1b0
+ms.sourcegitcommit: b1ec6ba779a94ddbaab11a272e40abe1d3064532
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43053075"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43165937"
 ---
 # <a name="case-study---contoso-quickly-configures-an-offensive-language-policy-for-microsoft-teams-and-exchange-communications"></a>사례 연구-Contoso는 Microsoft 팀 및 Exchange 통신에 대 한 비속어 (공격적인 언어 정책)를 빠르게 구성 합니다.
 
@@ -41,7 +41,7 @@ Contoso Corporation은 공격적인 언어를 모니터링 하도록 정책을 �
 
 ## <a name="step-1---planning-for-communication-compliance"></a>1 단계-통신 준수 계획
 
-Contoso IT administrators 및 준수 전문가는 Microsoft 365의 규정 준수 솔루션에 대 한 온라인 웹 세미나, 통신 준수 정책을 통해 작업 공간을 줄이기 위해 업데이트 된 회사 정책 요구 사항을 충족 하는 데 도움을 줍니다. harassment. 공동 작업 Exchange Online으로 전송 된 전자 메일 메시지에서 Microsoft 팀으로 전송 되는 채팅에 대 한 악의적인 언어를 모니터링 하는 통신 준수 정책을 만들고 사용 하도록 설정 하는 계획을 개발 했습니다. 계획에는 다음이 포함 됩니다.
+Contoso IT administrators 및 규정 준수 전문가는 Microsoft 365의 규정 준수 솔루션에 대 한 온라인 웹 세미나 통신 준수 정책을 통해 작업 공간 harassment를 줄이기 위한 업데이트 된 회사 정책 요구 사항을 충족 하도록 했습니다. 공동 작업 Exchange Online으로 전송 된 전자 메일 메시지에서 Microsoft 팀으로 전송 되는 채팅에 대 한 악의적인 언어를 모니터링 하는 통신 준수 정책을 만들고 사용 하도록 설정 하는 계획을 개발 했습니다. 계획에는 다음이 포함 됩니다.
 
 - 통신 준수 기능에 액세스 해야 하는 IT 관리자
 - 통신 정책을 만들고 관리 해야 하는 준수 전문가
@@ -53,10 +53,21 @@ Contoso IT administrators 및 준수 전문가는 Microsoft 365의 규정 준수
 첫 번째 단계는 Contoso의 Microsoft 365 라이선스에 통신 준수 솔루션에 대 한 지원이 포함 되어 있는지 확인 하는 것입니다. 통신 준수를 액세스 하 고 사용 하려면 Contoso IT 관리자는 Contoso에 다음 중 하나가 포함 되어 있는지 확인 해야 합니다.
 
 - Microsoft 365 E5 구독 (유료 또는 평가판 버전)
-- 고급 준수 추가 기능이 포함 된 Office 365 Enterprise E3 라이선스
+- Microsoft 365 E3 구독 + Microsoft 365 E5 준수 추가 기능
+- Microsoft 365 E3 구독 + Microsoft 365 E5 참가자 위험 관리 추가 기능
+- Microsoft 365 A5 구독 (유료 또는 평가판 버전)
+- Microsoft 365 A3 구독 + Microsoft 365 A5 규정 준수 추가 기능
+- Microsoft 365 A3 구독 + Microsoft 365 A5 참가자 위험 관리 추가 기능
+- Microsoft 365 G5 구독 (유료 또는 평가판 버전)
+- Microsoft 365 G5 구독 + Microsoft 365 G5 준수 추가 기능
+- Microsoft 365 G5 subscription + Microsoft 365 G5 Insider 위기 관리 추가 기능
 - Office 365 Enterprise E5 구독 (유료 또는 평가판 버전)
+- Office 365 Enterprise E3 구독 + Office 365 고급 준수 추가 기능 (새 구독에 더 이상 사용할 수 없음)
 
-또한 통신 준수 정책에 포함 된 사용자에 게 위에 나열 된 라이선스 중 하나를 할당 해야 한다는 것을 확인 해야 합니다.
+또한 통신 준수 정책에 포함 된 사용자에 게 위의 라이선스 중 하나를 할당 해야 한다는 것을 확인 해야 합니다.
+
+>[!IMPORTANT]
+>Office 365 고급 규정 준수는 더 이상 독립 실행형 구독으로 판매 되지 않습니다. 현재 구독이 만료 되 면 고객은 위의 구독 중 하나로 전환 해야 하며, 이러한 기능은 동일 하거나 추가 준수 기능이 포함 되어 있습니다.
 
 Contoso IT 관리자는 다음 단계를 수행 하 여 Contoso에 대 한 라이선스 지원을 확인 합니다.
 
