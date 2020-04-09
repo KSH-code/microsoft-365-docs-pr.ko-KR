@@ -1,6 +1,6 @@
 - name: Microsoft 365 규정 준수
   href: index.yml
-- name: 시작
+- name: 시작하기
   items:
     - name: 준수 센터의 새로운 기능
       href: whats-new.md
@@ -151,6 +151,8 @@
           href: what-the-dlp-functions-look-for.md
     - name: M365의 암호화
       href: encryption.md
+    - name: Office 365 서비스 암호화
+      href: office-365-service-encryption.md
     - name: 고객 키
       items:
         - name: Office 365의 고객 키를 사용한 서비스 암호화
