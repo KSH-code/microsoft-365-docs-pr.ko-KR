@@ -17,12 +17,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: 많은 조직에서는 이미 Windows Server FCI(파일 분류 인프라)의 분류 속성, SharePoint의 문서 속성 또는 타사 시스템을 통해 적용된 문서 속성을 사용하여 중요한 정보를 식별하고 분류하는 프로세스를 유지하고 있습니다. 이 정책이 조직에 대해 설명하는 경우 Office 365에서 Windows Server FCI 또는 다른 시스템을 통해 문서에 적용된 속성을 인식하는 DLP 정책을 만들어 DLP 정책이 특정 FCI 또는 기타 속성 값을 갖는 Office 문서에 적용되도록 할 수 있습니다.
-ms.openlocfilehash: bfcbc30af3a3dac304dc57551e6246ec9e6554c0
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 32d40c110ca67e15c1be3443999c75c0e36d323e
+ms.sourcegitcommit: 13f28aa762e467bab8ab1e95e1917b3ac28931da
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42070635"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "43193496"
 ---
 # <a name="create-a-dlp-policy-to-protect-documents-with-fci-or-other-properties"></a>FCI 또는 기타 속성을 갖는 문서를 보호하는 DLP 정책 만들기
 
@@ -34,7 +34,7 @@ Office 365에서 DLP(데이터 손실 방지) 정책을 사용하여 중요한 �
   
 DLP 정책은 단순히 특정 속성 이름/값 쌍을 찾습니다. 문서 속성에 SharePoint 검색에 대한 해당 관리 속성이 있으면 어떤 속성도 사용할 수 있습니다. 예를 들어 SharePoint 사이트 모음에서 **고객** 필수 필드가 있는 **출장 보고서**라는 콘텐츠 형식을 사용할 수 있습니다. 사용자는 출장 보고서를 만들 때마다 고객 이름을 입력해야 합니다. 이 속성 이름/값 쌍을 DLP 정책에서도 사용할 수 있습니다. 예를 들어 **고객** 필드에 **Contoso**가 포함되어 있을 때 외부 사용자의 문서 액세스를 차단하는 규칙을 원할 수 있습니다.
   
-특정 Office 365 레이블이 있는 콘텐츠에 DLP 정책을 적용 하려는 경우에는 여기에 나와 있는 단계를 수행 하지 않는 것이 좋습니다. 대신, [레이블을 DLP 정책의 조건으로 사용](data-loss-prevention-policies.md#using-a-label-as-a-condition-in-a-dlp-policy)하는 방법을 알아보세요.
+특정 Office 365 레이블이 있는 콘텐츠에 DLP 정책을 적용 하려는 경우에는 여기에 나와 있는 단계를 수행 하지 않는 것이 좋습니다. 대신 [보존 레이블을 DLP 정책의 조건으로 사용](data-loss-prevention-policies.md#using-a-retention-label-as-a-condition-in-a-dlp-policy)하는 방법에 대해 알아보세요.
   
 ## <a name="before-you-create-the-dlp-policy"></a>DLP 정책 만들기 전
 
@@ -52,7 +52,7 @@ Office 365의 DLP는 검색 크롤러를 사용하여 사이트의 중요한 정
   
 ### <a name="step-2-create-a-managed-property"></a>2단계: 관리 속성 만들기
 
-1. Microsoft 365 관리 센터에 로그인 합니다.
+1. Microsoft 365 관리 센터에 로그인합니다.
     
 2. 왼쪽 탐색 영역에서 **관리 센터** \> **SharePoint**를 선택 합니다. 이제 사용자는 SharePoint 관리 센터에 있습니다.
     
@@ -96,7 +96,7 @@ Office 365의 DLP는 검색 크롤러를 사용하여 사이트의 중요한 정
   
 이러한 cmdlet에 대 한 자세한 내용은 [Office 365 보안 &amp; 및 준수 센터 cmdlet](https://go.microsoft.com/fwlink/?LinkID=799772&amp;clcid=0x409)를 참조 하세요.
   
-1. [원격 PowerShell을 사용하여 Office 365 보안 및 준수 센터에 연결](https://go.microsoft.com/fwlink/?LinkID=799771&amp;clcid=0x409)
+1. [원격 PowerShell을 사용하여 Office 365 보안 &amp; 준수 센터에 연결하십시오.](https://go.microsoft.com/fwlink/?LinkID=799771&amp;clcid=0x409)
     
 2. 을 사용 하 `New-DlpCompliancePolicy`여 정책을 만듭니다.
 
@@ -124,7 +124,7 @@ New-DlpComplianceRule -Name FCI_PII_content-High,Moderate -Policy FCI_PII_policy
   
 ## <a name="after-you-create-the-dlp-policy"></a>DLP 정책을 만든 후
 
-이전 섹션의 단계를 수행 하면 해당 속성을 사용 하 여 콘텐츠를 빠르게 검색할 DLP 정책이 생성 되지만 콘텐츠가 새로 업로드 되는 경우 (콘텐츠가 인덱싱되는 경우) 또는 해당 콘텐츠가 이전에 편집 된 경우에 한 해 콘텐츠를 다시 인덱싱할 수 있습니다. .
+이전 섹션의 단계를 수행 하면 해당 속성을 사용 하 여 콘텐츠를 빠르게 검색할 DLP 정책이 생성 되지만 콘텐츠가 새로 업로드 되는 경우 (콘텐츠가 인덱싱되지 않도록), 해당 콘텐츠가 이전에 편집 된 경우에만 콘텐츠가 다시 인덱싱되는 것을 확인할 수 있습니다.
   
 모든 위치에서 해당 속성을 갖는 콘텐츠를 검색하려는 경우 DLP 정책이 해당 속성의 모든 콘텐츠를 인식할 수 있게 라이브러리, 사이트 또는 사이트 모음을 다시 인덱싱하도록 수동으로 요청할 수 있습니다. SharePoint Online에서 콘텐츠는 정의된 크롤링 일정에 따라 자동으로 크롤링됩니다. 크롤러는 마지막 크롤링 이후에 변경된 콘텐츠를 선택하고 인덱스를 업데이트합니다. 예약된 다음 크롤링 전에 DLP 정책을 통해 콘텐츠를 보호해야 할 경우 다음 단계를 수행할 수 있습니다.
   

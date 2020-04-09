@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: bfcad9829c32a7a4f91e4d7dee7dec922059cd18
-ms.sourcegitcommit: 397b22cea138cadef026128d878650f8f609a329
+ms.openlocfilehash: c68e51fd0efe415458942736a8d19ae1c12adc3c
+ms.sourcegitcommit: 732bb72a0b5ae09cb39536185aa29d6097ec72fd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "43068576"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "43189082"
 ---
 # <a name="us-department-of-defense-dod-provisional-authorization-at-impact-levels-2-4-and-5"></a>보안 수준 2, 4 및 5에서 DoD (US) Provisional 권한 부여
 
@@ -36,7 +36,7 @@ DoD Cloud Service Support는 SRG에서 정책, 보안 제어 및 기타 요구 �
 Microsoft의 정부 클라우드 서비스는 미국 방어 기관에서 Microsoft 클라우드의 비용 절감 및 엄격한 보안 이점을 활용할 수 있도록, 영향 수준 2 ~ 5 로부터 미국 방어의 까다로운 요구 사항을 충족 합니다. 방어 기관은 Azure 정부, Office 365 미국 정부 및 Dynamics 365 정부를 포함 하는 보호 된 서비스를 배포 하 여 다양 한 준수 서비스를 사용할 수 있습니다.
 
 - Microsoft 클라우드에서 L4를 통한 DoD (DISA L2 [)의 장점](https://aka.ms/disa-backgrounder) 에 대해 알아봅니다.
-- [Azure Dod 청사진](https://docs.microsoft.com/azure/governance/blueprints/samples/dod-impact-level-4/) 을 사용 하 여 DoD DISA L2, L4 배포를 가속화 하는 방법을 알아봅니다.
+- [Azure Dod 청사진](https://servicetrust.microsoft.com/ViewPage/BlueprintLegacy) 을 사용 하 여 DoD DISA L2, L4 배포를 가속화 하는 방법을 알아봅니다.
 
 ## <a name="dod-impact-level-5-provisional-authorization"></a>DoD 영향 수준 5 Provisional 권한 부여
 
@@ -83,7 +83,7 @@ DoD PA가 부여 되 면 Microsoft 클라우드 서비스를 매년 모니터링
 
 ## <a name="fast-track-your-deployment-of-dod-solutions-on-azure"></a>Azure에서 DoD 솔루션 배포의 빠른 추적
 
-심층적인 보호 청사진의 Azure 보안 및 준수 부서와 함께 정부 클라우드의 이점을 활용할 수 있는 방법을 알아봅니다. 이 청사진에서는 현재 DoD 규격 솔루션을 구축할 수 있는 도구와 지침을 제공 합니다. [Azure DoD 청사진 사용을 시작](https://docs.microsoft.com/azure/governance/blueprints/samples/dod-impact-level-4/)합니다.
+심층적인 방어 부서에 대 한 청사진 샘플을 사용 하 여 정부용 클라우드의 이점을 활용할 수 있는 방법을 알아봅니다. 이 청사진에서는 현재 DoD 규격 솔루션을 구축할 수 있는 도구와 지침을 제공 합니다. [DoD L4에 대 한 Azure 청사진 사용을 시작](https://docs.microsoft.com/azure/governance/blueprints/samples/dod-impact-level-4/)합니다.
 
 ## <a name="frequently-asked-questions"></a>질문과 대답
 

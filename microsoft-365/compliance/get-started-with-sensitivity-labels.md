@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 조직의 데이터를 보호하는 데 도움이 되는 민감도 레이블 구현을 시작할 준비가 되었지만 어디서부터 시작해야 할지 모르겠나요? 레이블 여행에 도움이 되는 몇 가지 실용적인 지침을 읽으세요.
-ms.openlocfilehash: 4d3f2f84daf1415e7a5f48d66f1fb9d86c612d67
-ms.sourcegitcommit: e695bcfc69203da5d3d96f3d6a891664a0e27ae2
+ms.openlocfilehash: 40747d2ee66d4a873f83247278f04377ccfa8eaf
+ms.sourcegitcommit: d1909d34ac0cddeb776ff5eb8414bfc9707d5ac1
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43105990"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43163858"
 ---
 # <a name="get-started-with-sensitivity-labels"></a>민감도 레이블 시작
 
@@ -77,7 +77,7 @@ ms.locfileid: "43105990"
 |민감도 레이블이있는 문서 및 이메일을 암호화하고 해당 컨텐츠에 액세스할 수 있는 사람과 사용 방법을 제한합니다. |[민감도 레이블을 사용하여 암호화를 적용하여 콘텐츠 액세스 제한](encryption-sensitivity-labels.md)|
 |암호화 레이블이 지정된 문서에 대해 SharePoint(및 OneDrive)의 공동 작업 기능을 사용하도록 설정합니다. | [SharePoint 및 OneDrive에서 Office 파일에 대한 민감도 레이블 사용(공개 미리 보기)](sensitivity-labels-sharepoint-onedrive-files.md)
 |콘텐츠가 만들어 질 때 레이블이 지정되도록 Office 앱의 민감도 레이블을 관리합니다. |[Office 앱의 민감도 레이블 사용](sensitivity-labels-office-apps.md)|
-|콘텐츠를 만들 때 자동으로 민감도 레이블 적용하거나 사용자에게 레이블을 추천합니다. | [민감도 레이블을 콘텐츠에 자동으로 적용](apply-sensitivity-label-automatically.md)|
+|문서 및 전자 메일에 자동으로 민감도 레이블 적용 | [민감도 레이블을 콘텐츠에 자동으로 적용](apply-sensitivity-label-automatically.md)|
 |민감도 레이블을 사용하여 Teams와 SharePoint에서 콘텐츠 보호 |[Microsoft Teams, Office 365 그룹 및 SharePoint 사이트(공개 미리 보기)에서 민감도 레이블 사용](sensitivity-labels-teams-groups-sites.md)|
 |온 프레미스에 있는 데이터 저장소에 저장된 파일 검색, 레이블 지정 및 보호 |[파일을 자동으로 분류하고 보호하는 Azure Information Protection 스캐너 배포](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner)|
 |클라우드에 있는 데이터 저장소에 저장된 파일 검색, 레이블 지정 및 보호|[클라우드에 저장된 데이터를 검색하고, 분류하고, 레이블을 지정하고, 보호](https://docs.microsoft.com/cloud-app-security/best-practices#discover-classify-label-and-protect-regulated-and-sensitive-data-stored-in-the-cloud)|

@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 6f3019c57d35e6ac54a9f1a2cd0dbede22601ec1
-ms.sourcegitcommit: ce6121a8e3ca7438071d73b0c76e2b6f33ac1cf7
+ms.openlocfilehash: 40e8be29c585c0490b93e81c27728085d59c5146
+ms.sourcegitcommit: 13f28aa762e467bab8ab1e95e1917b3ac28931da
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "43029852"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "43193454"
 ---
 # <a name="communication-compliance-feature-reference"></a>통신 준수 기능 참조
 
@@ -43,7 +43,7 @@ Microsoft 365 준수 센터에서 Microsoft 365 조 직에 대 한 통신 준수
 
 |**영역**|**정책 템플릿**|**세부 정보**|
 |:-----|:-----|:-----|
-| **불쾌 한 언어 및 harassment** | 공격적인 언어에 대 한 통신 모니터링 | -위치: Exchange, 팀, 비즈니스용 Skype <br> -방향: 인바운드, 아웃 바운드, 내부 <br> -검토 비율: 100% <br> -조건: 공격적인 언어 분류자 |
+| **불쾌 한 언어 및 harassment** | 공격적인 언어에 대 한 통신 모니터링 | -위치: Exchange, 팀, 비즈니스용 Skype <br> -방향: 인바운드, 아웃 바운드, 내부 <br> -검토 비율: 100% <br> -조건: 위협, 불경 및 Harassment 언어 분류자 |
 | **중요 한 정보** | 중요 한 정보에 대 한 통신 모니터링 | -위치: Exchange, 팀, 비즈니스용 Skype <br> -방향: 인바운드, 아웃 바운드, 내부 <br> -검토 비율: 10% <br> -조건: 중요 한 정보, 기본 콘텐츠 패턴 및 유형, 사용자 지정 사전 옵션, 1mb 보다 큰 첨부 파일 |
 | **규정 준수** | 금융 규제 준수와 관련 된 정보에 대 한 통신 모니터링 | -위치: Exchange, 팀, 비즈니스용 Skype <br> -방향: 인바운드, 아웃 바운드 <br> -검토 비율: 10% <br> -조건: 사용자 지정 사전 옵션, 1mb 보다 큰 첨부 파일 |
 
@@ -133,7 +133,7 @@ Office 365의 감독 정보에 대 한 자세한 내용은 [Microsoft 365 로드
 
 기본 제공 분류자는 다양 한 유형의 준수 문제에 대해 조직의 모든 통신 채널에서 메시지를 보내거나 수신 합니다. 분류자는 인공 지능 및 키워드를 함께 사용 하 여 harassment 정책을 위반할 가능성이 있는 메시지의 언어를 식별 합니다. 현재 기본 제공 분류자는 메시지에서 영어 키워드만 지원 합니다.
 
-통신 준수 기본 제공 분류자는 다음 유형의 언어에 대 한 용어 및 sentiment에 대 한 통신을 검색 합니다.
+통신 준수에서는 기본 제공 분류자를 사용 하 여 다음 유형의 언어에 대해 용어 및 sentiment에 대 한 통신을 검사 합니다.
 
 - **위협**: 사용자 또는 속성에 대 한 폭력 또는 물리적인 위험을 커밋 하기 위한 위협을 검사 합니다.
 - **Harassment**: 레이스, 색, religion, 국가 원점과 관련 된 공격적인 팔을 검색 하는 사용자를 대상으로 합니다.

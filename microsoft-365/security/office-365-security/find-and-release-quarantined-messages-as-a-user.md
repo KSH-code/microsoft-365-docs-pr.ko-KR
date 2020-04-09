@@ -17,28 +17,26 @@ ms.assetid: efff08ec-68ff-4099-89b7-266e3c4817be
 ms.collection:
 - M365-security-compliance
 description: Office 365 사용자는 격리된 메시지(사용자가 받는 사람인 메시지, 스팸 또는 대량 전자 메일로 메시지를 격리하는 스팸 필터링)를 보고, 해제하고, 삭제할 수 있습니다. 보안 및 준수 센터에서 격리된 메시지를 보고 관리할 수 있습니다.
-ms.openlocfilehash: 04f04cfddb123bf176f3c71568789c77d225a601
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: 03c7ce474119ae5ff130b987b58d5130d53c33d6
+ms.sourcegitcommit: 053d42480d8aa3792ecb0027ddd53d383a029474
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42893673"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "42941408"
 ---
 # <a name="find-and-release-quarantined-messages-as-a-user-in-office-365"></a>Office 365에서 사용자 권한으로 격리된 메시지 검색 및 해제하기
 
 격리는 Exchange Online 사서함이 있는 Office 365 조직 또는 Exchange Online 사서함이 없는 독립 실행형 EOP(Exchange online Protection) 조직에 위험할 가능성이 있거나 원치 않는 메시지를 보유합니다. 자세한 내용은 [Office 365의 격리](quarantine-email-messages.md)를 참조하세요.
 
-사용자는 사용자가 받는 사람인 격리되는 메시지를 보고, 해제하고, 삭제할 수 있으며 메시지는 스팸, 대량 전자 메일 또는 (2020년 4월부터)피싱으로 격리되었습니다. Microsoft에 가양성 보고를 할 수도 있습니다.
+사용자는 사용자가 받는 사람인 격리되는 메시지를 보고, 해제하고, 삭제할 수 있으며 메시지는 스팸, 대량 전자 메일 또는 (2020년 4월부터)피싱으로 격리되었습니다. 보안 및 준수 센터에서 또는 [최종 사용자 스팸 알림](use-spam-notifications-to-release-and-report-quarantined-messages.md)에서(관리자가 설정한 경우) 격리 된 메시지를보고 관리합니다.
 
-보안 및 준수 센터에서 격리된 메시지를 보고 관리할 수 있습니다.
-
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 사항은 무엇인가요?
 
 - Office 365 보안 및 준수 센터를 열려면 <https://protection.office.com>으로 이동하세요. 격리 페이지를 바로 열려면 <https://protection.office.com/quarantine>으로 이동하세요.
 
 - 관리자는 메시지를 영구적으로 삭제하기 전에 얼마나 오래 메시지를 격리할지 구성할 수 있습니다(스팸 방지 정책). 격리에서 만료되는 메시지는 복구할 수 없습니다. 자세한 내용은 [Office 365의 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)를 참조하세요.
 
-- 관리자는 스팸 방지 정책에서 [최종 사용자 스팸 알림을 사용하도록 설정](configure-your-spam-filter-policies.md#configure-end-user-spam-notifications)할 수도 있습니다. 2019년 10월부터 격리된 메시지를 더 이상 이 알림에서 바로 해제할 수 없습니다. 알림에서 **검토**를 클릭하여 보안 및 준수 센터의 격리로 이동할 수 있습니다. 알림에 대한 자세한 내용은 [Office 365에서 최종 사용자 스팸 알림](use-spam-notifications-to-release-and-report-quarantined-messages.md)을 참조하세요.
+- 관리자는 스팸 방지 정책에서 [최종 사용자 스팸 알림을 사용하도록 설정](configure-your-spam-filter-policies.md#configure-end-user-spam-notifications)할 수도 있습니다. 사용자는 스팸 격리된 메시지를 해제할 수 있지만 이 알림에서 피싱 격리된 메시지를 직접 해제할 수 없습니다. 자세한 내용은 [Office 365에서 최종 사용자 스팸 알림](use-spam-notifications-to-release-and-report-quarantined-messages.md)을 참조하세요.
 
 - 신뢰도가 높은 피싱, 맬웨어 또는 메일 흐름 규칙(전송 규칙이라고도 함)에 의해 격리된 메시지는 관리자만 볼 수 있습니다. 자세한 내용은 [Office 365에서 관리자로 격리된 메시지 관리하기](manage-quarantined-messages-and-files.md)를 참조하세요.
 

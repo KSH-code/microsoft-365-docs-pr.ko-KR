@@ -16,12 +16,12 @@ ms.assetid: 82ac9922-939c-41be-9c8a-7c75b0a4e27d
 ms.collection:
 - M365-security-compliance
 description: 보안 &amp; 및 준수 센터의 Explorer 및 실시간 검색에 대해 알아봅니다.
-ms.openlocfilehash: 2db16773b305e2e5f929e96fb3ca0e7bfe541990
-ms.sourcegitcommit: a7b2cd892cb65a61ee246268e1af2f8b9e526f6b
+ms.openlocfilehash: e882f89a0020cacd30cb6d85917e78a965ad5cde
+ms.sourcegitcommit: cce5138dfbb27eeeef873d40d8d3606ee3cd6d3d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43081271"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43198386"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>위협 탐색기 및 실시간 검색
 
@@ -173,7 +173,7 @@ Office 365 기술을 통해 전자 메일로 검색 된 맬웨어를 확인 하�
 
 1. 보안 &[https://protection.office.com](https://protection.office.com)준수 센터 ()에서 **Threat management** > **Explorer** (또는 **실시간**검색)를 선택 합니다. (이 예제에서는 탐색기를 사용 합니다.)
 
-2. **보기** 메뉴에서 **전자 메일** > **제출을**선택 합니다.
+2. **보기** 메뉴에서 **전자 메일** > **제출을**선택 합니다. 이는 이전에는 **사용자가 보고 한**것입니다.
 
    ![탐색기에 대 한 보기 메뉴](../../media/ExplorerViewMenuEmailUserReported.png)
 
@@ -234,3 +234,7 @@ Explorer 또는 실시간 검색을 하려면 [Office 365 ATP](office-365-atp.md
 
 - **실시간** 검색 보고서는 OFFICE 365 atp 계획 1에서 사용할 수 있지만, **Threat Explorer** 는 office 365 atp 계획 2에서 사용할 수 있습니다.
 - **실시간** 검색 보고서를 사용 하면 실시간으로 검색을 볼 수 있습니다. **위협 탐색기** 도이를 수행 하지만 지정 된 공격에 대 한 추가 세부 정보를 볼 수도 있습니다.
+- **모든 전자 메일** 보기는 **위협 탐색기** 에서 사용할 수 있으며 **실시간** 검색 보고서에는 없습니다.
+- **위협 탐색기**에는 추가 필터링 기능 및 사용 가능한 작업이 포함 되어 있습니다.
+
+자세한 내용은 [Office 365 Atp 서비스 설명: atp (Advanced Threat Protection) 계획에서의 기능 사용 가능 여부](https://docs.microsoft.com/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans) 를 참조 하세요.

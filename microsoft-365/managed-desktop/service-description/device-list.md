@@ -5,12 +5,12 @@ keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
-ms.openlocfilehash: c781d86c13165ac51dfee57b1c2cf3e9e536d3d5
-ms.sourcegitcommit: 213b33cbf14e35e6dc563e0b700a4eed5e42e91d
+ms.openlocfilehash: b851f3f698abd34d4964c79a68be050ad9f0a4db
+ms.sourcegitcommit: cce5138dfbb27eeeef873d40d8d3606ee3cd6d3d
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "42284359"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43198364"
 ---
 # <a name="microsoft-managed-desktop-devices"></a>Microsoft Managed Desktop 장치 
 
@@ -46,10 +46,11 @@ Microsoft Managed Desktop에 등록 하려면 장치는 다음 모델 중 하나
 | [HP EliteBook x360 830 G6 노트북 PC](https://store.hp.com/us/en/pdp/hp-elitebook-x360-830-g6-notebook-pc) | 128 GB/Intel i5/8gb RAM | 5VS01AV, IR 카메라 또는 지문 센서가 필요한 SKU | 11 월 30 일, 2020 | 11 월 30 일, 2023 |
 | **\*[HP 정예 x2 G4 태블릿](https://store.hp.com/us/en/mdp/laptops/hp-elite-x2-3074457345617405170--1)** | 256 GB/Intel i5/8gb RAM | 5VS03AV가 포함 된 SKU | 2021 년 7 월 31 일 | 2024 년 7 월 31 일 |
 | **\*[HP EliteBook x360 1030 G4 노트북 PC](https://store.hp.com/us/en/pdp/hp-elitebook-x360-1030-g4-notebook-pc)** | 256 GB/Intel i5/8gb RAM | 5VS01AV가 포함 된 SKU | 2021 년 2 월 28 일 | 2024 년 2 월 28 일 |
-| **\*[HP EliteBook x360 1040 G6](http://www.hp.com/go/elitebookx360-1040)** | 256 GB/Intel i5/8gb RAM | 5VS01AV를 사용한 SKU, IR 카메라 필요 | 11 월 30 일, 2020 | 11 월 30 일, 2023 |
+|[HP EliteBook x360 1040 G6](http://www.hp.com/go/elitebookx360-1040) | 256 GB/Intel i5/8gb RAM | 5VS01AV가 포함 된 SKU| 11 월 30 일, 2020 | 11 월 30 일, 2023 |
 | [HP EliteDesk 800 G4 DM](https://store.hp.com/us/en/mdp/desktops/elitedesk-800-mini-349547--1#!&tab=features) | 128 GB/Intel i3/8gb RAM | 5VS04AV를 사용한 SKU | 7 월 18 일 2020 | 7 월 18 일 2023 |
 | [HP EliteDesk 800 G4 SFF](https://store.hp.com/us/en/mdp/desktops/elitedesk-800-small-form-factor-349548--1#!&tab=features) | 128 GB/Intel i3/8gb RAM | 5VS04AV를 사용한 SKU | 7 월 18 일 2020 | 7 월 18 일 2023 |
 | [AIO HP EliteOne 800 G4 23.8](https://store.hp.com/us/en/mdp/desktops/eliteone-800-all-in-one-349552--1#!&tab=features) | 128 GB/Intel i3/8gb RAM | 5VS04AV를 사용한 SKU | 7 월 18 일 2020 | 7 월 18 일 2023 |
+| **\*[HP 정예 DragonFly](https://www8.hp.com/us/en/laptops/2-in-1s/elite-dragonfly-convertible.html--1#!&tab=features)** | 256 GB/Intel i5/8gb RAM | 9MZ21AV가 포함 된 SKU | 2020 년 12 월 31 일 | 2023 년 12 월 31 일 |
 | [HP ProBook x360 440 G1](https://store.hp.com/us/en/mdp/laptops/hp-probook-x360-440-3074457345617293669--1#!&tab=features) | 128 GB/Intel i3/8gb RAM | 5VS04AV, IR 카메라 또는 지문 판독기가 필요한 SKU | 7 월 6 일 2020 | 7 월 6 일 2023 |
 | [HP Z2 미니 G4 워크스테이션](https://store.hp.com/us/en/mdp/hp-z2-mini-workstation-451004--1) | 256 GB/Intel i5/8gb RAM | 8QR48AV가 포함 된 SKU| 1 월 31 일 2021 | 1 월 31 일 2024 |
 |[HP ZBook 14u/15u G6 모바일 워크스테이션](https://store.hp.com/us/en/mdp/hp-zbook-14u-mobile-workstation) | 256 GB/Intel i5/8gb RAM | 5VS02AV를 사용한 SKU, IR 카메라 필요 | 11 월 30 일, 2020 | 11 월 30 일, 2023 |

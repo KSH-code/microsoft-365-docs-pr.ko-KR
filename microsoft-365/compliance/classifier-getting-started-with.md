@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 365 trainable 분류자는 긍정적이 고 부정적 샘플을 확인 하 여 다양 한 유형의 콘텐츠를 인식할 수 있도록 교육을 제공 하는 도구입니다. 일단 분류자가 학습 되 면 결과가 정확 함을 확인할 수 있습니다. 그런 다음이를 사용 하 여 조직의 콘텐츠를 검색 하 고이를 분류 하 여 보존 또는 민감도 레이블을 적용 하거나 DLP (데이터 손실 방지) 또는 보존 정책에 포함 합니다.
-ms.openlocfilehash: 6706fe25194191d57ffd91f07f13d22fe5ec6cfd
-ms.sourcegitcommit: 2859c82b30ae9cbd3a3e4bcdebd65f18444f1a9e
+ms.openlocfilehash: 4d11fcf4e1437641cb73510d341d299ce3695938
+ms.sourcegitcommit: 13f28aa762e467bab8ab1e95e1917b3ac28931da
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42826259"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "43193526"
 ---
 # <a name="getting-started-with-trainable-classifiers-preview"></a>학습 가능한 분류자 시작 (미리 보기)
 
@@ -63,9 +63,11 @@ Trainable 분류자는 Microsoft 365 E5 또는 E5 규정 준수 기능입니다.
 
 ### <a name="understanding-built-in-classifiers"></a>기본 제공 분류자 이해
 
-Microsoft 365에는 다음과 같은 6 개의 기본 제공 분류자가 있습니다.
+Microsoft 365에는 다음과 같이 권장 되는 5 가지 기본 제공 분류자가 있습니다.
 
-- **비속어**: profanities, slurs, taunts 및 가짜 식이 포함 된 텍스트 항목 (더 공격적인 용어와 의미가 동일한 식 임)을 검색 합니다.
+> [!CAUTION]
+> 많은 수의 가양성을 **생성 하 여 방식의 기본 제공** 분류자를 사용 중입니다. 이 도구를 사용 하지 않고 현재 사용 중인 경우 비즈니스 프로세스를 외부에서 이동 해야 합니다. **위협**, **불경**및 **Harassment** 기본 제공 분류자를 대신 사용 하는 것이 좋습니다.
+
 - **다시 시작**: 지원자 개인, 교육, 전문가 자격, 작업 환경 및 기타 개인 식별 정보에 해당 하는 텍스트 계정인 항목을 검색 합니다.
 - **소스 코드**: GitHub에서 상위 25 사용 컴퓨터 프로그래밍 언어에 작성 된 지침 및 문 집합을 포함 하는 항목을 검색 합니다.
 
@@ -87,7 +89,7 @@ Microsoft 365에는 다음과 같은 6 개의 기본 제공 분류자가 있습�
 ![분류자-사용할 수 있는 분류자](../media/classifiers-ready-to-use-classifiers.png)
 
 > [!IMPORTANT]
-> 비속어, harassment, 비속어 및 threat 분류자는 검색 가능한 텍스트만 사용할 수 있습니다.  추가적으로, 언어 및 문화 표준이 지속적으로 변경 되 고 이러한 현실에 따라 Microsoft는 이러한 분류자를 업데이트할 수 있는 권리를 보유 합니다. 이 분류자는 사용 중인 공격적인 및 기타 언어를 모니터링 하는 데 도움이 될 수 있지만,이 분류자는 이러한 언어의 결과를 해결 하지 않으며, 조직의 사용자가 사용 하는 유일한 모니터링 또는 대응 수단을 제공 하기 위한 것이 아닙니다. 해당 언어 Microsoft 또는 해당 자회사가 아닌 조직은 미리 훈련 된 분류자로 식별 되는 콘텐츠의 모니터링, 적용, 차단, 제거 및 보존과 관련 된 모든 결정을 계속 담당 합니다.
+> 비속어, harassment, 비속어 및 threat 분류자는 검색 가능한 텍스트만 사용할 수 있습니다.  추가적으로, 언어 및 문화 표준이 지속적으로 변경 되 고 이러한 현실에 따라 Microsoft는 이러한 분류자를 업데이트할 수 있는 권리를 보유 합니다. 이 분류자는 사용 중인 공격적인 및 기타 언어를 모니터링 하는 데 도움이 될 수 있지만, 이러한 언어의 결과를 해결 하는 것이 아니므로 조직의 해당 언어 사용에 대 한 다양 한 모니터링 또는 대응 수단을 제공 하기 위한 것이 아닙니다. Microsoft 또는 해당 자회사가 아닌 조직은 미리 훈련 된 분류자로 식별 되는 콘텐츠의 모니터링, 적용, 차단, 제거 및 보존과 관련 된 모든 결정을 계속 담당 합니다.
 
 #### <a name="process-flow-for-using-built-in-classifiers"></a>기본 제공 분류자 사용을 위한 프로세스 흐름
 

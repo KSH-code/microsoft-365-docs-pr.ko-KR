@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 관리자는 SharePoint 및 OneDrive에서 Word, Excel 및 PowerPoint 파일에 대해 민감도 레이블 지원을 사용 하도록 설정할 수 있습니다.
-ms.openlocfilehash: d0496a194cc734304f8ba6f09e6497c8d4f233bc
-ms.sourcegitcommit: 5ba1efc0b498430e30231010024044049b8727c7
+ms.openlocfilehash: 8f57a680bf5cbd53153cedc339b35bc2712c3f73
+ms.sourcegitcommit: 732bb72a0b5ae09cb39536185aa29d6097ec72fd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43126025"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "43188978"
 ---
 # <a name="enable-sensitivity-labels-for-office-files-in-sharepoint-and-onedrive-public-preview"></a>SharePoint 및 OneDrive에서 Office 파일에 대한 민감도 레이블 사용(공개 미리 보기)
 
@@ -163,3 +163,7 @@ Microsoft 365 준수 센터에서 민감도 레이블을 만들거나 변경한 
     ```PowerShell
     Set-SPOTenant -EnableAIPIntegration $false
     ```
+
+## <a name="next-steps"></a>다음 단계
+
+SharePoint 및 OneDrive에서 Office 파일에 대 한 민감도 레이블을 사용 하도록 설정 했으므로 이제 자동 레이블 지정 정책을 사용 하 여 이러한 파일에 자동으로 레이블을 지정 하는 것이 좋습니다. 자세한 내용은 [콘텐츠에 민감도 레이블 자동 적용](apply-sensitivity-label-automatically.md)을 참조 하십시오.

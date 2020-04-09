@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 6a3379043108340391764781f52b6a1bc3e05cf3
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: b4699ca9fda4f8d5364dff0fdabd868b886540b3
+ms.sourcegitcommit: b1ec6ba779a94ddbaab11a272e40abe1d3064532
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601935"
+ms.lasthandoff: 04/07/2020
+ms.locfileid: "43165903"
 ---
 # <a name="good-clinical-laboratory-and-manufacturing-practices-gxp"></a>임상, 실험실 및 제조 모범 사례 (GxP)
 
@@ -40,7 +40,7 @@ Microsoft는 리서치, 임상 연구, 유지 관리, 제조 및 생명 과학 �
 
 이러한 표준과 모범 사례는 GxP 규정 준수에 특별히 초점을 맞추지 않지만, 그 목적과 목표는 유사하며 Microsoft 클라우드 서비스에 저장된 데이터의 기밀성, 무결성 및 가용성을 보장하는 데 도움이됩니다.
 
-Microsoft는 생명 과학 산업의 품질 보증 및 규제 GxP 준수를 전문으로 하는 독립 기관인 [Montrium](https://www.montrium.com/)을 유지하여 Microsoft에 대한 GxP 자격 검토를 수행했습니다. 결과적인 자격 지침 ([Azure](https://aka.ms/gxpcompliance) 및 [Office 365](https://aka.ms/o365-qualification-guideline))은 이러한 클라우드 서비스를 사용하여 GxP 규제 컴퓨터 시스템을 호스팅 및 지원하려는 생명 과학 조직을 위한 것입니다. 이 지침은 GxP 요구 사항을 충족하기 위해 Microsoft와 고객이 공유하는 책임을 식별하고, 범위 내 Microsoft 클라우드 서비스를 사용하는 고객이 GxP 컴퓨터 시스템에 대한 제어를 유지하기 위해 설정할 수 있는 활동 및 컨트롤을 권장합니다.
+Microsoft는 생명 과학 산업의 품질 보증 및 규제 GxP 준수를 전문으로 하는 독립 기관인 [Montrium](https://www.montrium.com/)을 유지하여 Microsoft에 대한 GxP 자격 검토를 수행했습니다. 결과적인 자격 지침 ([Azure](https://aka.ms/gxpcompliance) 및 [Office 365](https://resources.techcommunity.microsoft.com/wp-content/uploads/2019/05/Microsoft-Office-365-GxP-Guidelines.pdf))은 이러한 클라우드 서비스를 사용하여 GxP 규제 컴퓨터 시스템을 호스팅 및 지원하려는 생명 과학 조직을 위한 것입니다. 이 지침은 GxP 요구 사항을 충족하기 위해 Microsoft와 고객이 공유하는 책임을 식별하고, 범위 내 Microsoft 클라우드 서비스를 사용하는 고객이 GxP 컴퓨터 시스템에 대한 제어를 유지하기 위해 설정할 수 있는 활동 및 컨트롤을 권장합니다.
 
 Azure 및 Office 365에서 GxP 솔루션을 구축하는 생명 과학 조직은 클라우드 효율성을 활용하면서 환자 안전, 제품 품질 및 데이터 무결성을 보호할 수 있습니다. 고객은 특정 수준에서 데이터 개인 정보 보호 및 무결성을 강화하는 여러 계층의 보안 및 거버넌스 기술, 운영 관행 및 규정 준수 정책의 혜택을 받습니다.
 
@@ -53,9 +53,9 @@ Azure 및 Office 365에서 GxP 솔루션을 구축하는 생명 과학 조직은
 
 - [Azure GxP 지침](https://aka.ms/gxpcompliance): GxP 모범 사례 및 규정을 준수하면서 Azure를 사용하기 위한 포괄적인 도구 집합입니다.
 - [GxP 시스템과 함께 Azure 사용](https://aka.ms/GXP-Azure-Strategies): 생명 과학 조직이 GxP 응용 프로그램을 구축하기 위한 전략을 수립하는 데 도움이됩니다.
-- FDA CFR Title 21 Part 11 가이드: 전자 기록에 대한 FDA 지침을 준수하는 [Azure](https://aka.ms/Azure-FDA-Guidelines) 및 [Office 365](https://aka.ms/o365-qualification-guideline) 인증 전략 수립에 대한 도움을 받으세요.
+- FDA CFR Title 21 Part 11 가이드: 전자 기록에 대한 FDA 지침을 준수하는 [Azure](https://aka.ms/Azure-FDA-Guidelines) 및 [Office 365](https://resources.techcommunity.microsoft.com/wp-content/uploads/2019/05/Microsoft-Office-365-GxP-Guidelines.pdf) 인증 전략 수립에 대한 도움을 받으세요.
 
-## <a name="frequently-asked-questions"></a>자주하는 질문
+## <a name="frequently-asked-questions"></a>질문과 대답
 
 **조직의 GxP 규정 준수 노력에 Microsoft GxP 규정 준수를 사용할 수 있나요?**
 

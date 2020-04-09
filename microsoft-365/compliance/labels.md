@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 레이블을 사용하여 조직 전체의 데이터를 관리하여 분류하고 해당 분류에 따라 보존 규칙을 시행하십시오. 보존 레이블을 사용하여 Microsoft 365용 레코드 관리 솔루션을 구현할 수도 있습니다.
-ms.openlocfilehash: 59adebd9b61761f05156247bbb6c4cb27b42c52b
-ms.sourcegitcommit: e695bcfc69203da5d3d96f3d6a891664a0e27ae2
+ms.openlocfilehash: 720a5b0b2fca16701dd4c2a752ac31b81e2233ab
+ms.sourcegitcommit: 732bb72a0b5ae09cb39536185aa29d6097ec72fd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43106010"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "43189059"
 ---
 # <a name="overview-of-retention-labels"></a>보존 레이블 개요
 
@@ -373,7 +373,7 @@ Outlook 2010 이상에서는 보존 레이블 또는 보존 정책을 적용하�
 
 보존 레이블은 콘텐츠에 보존 작업을 적용할 수 있습니다. 또한 보존 레이블을 DLP(데이터 손실 방지) 정책의 조건으로 사용할 수 있고, DLP 정책은 특정 레이블이 있는 콘텐츠에 대해 액세스 제한과 같은 기타 작업을 적용할 수 있습니다. 
   
-자세한 내용은 [레이블을 DLP 정책의 조건으로 사용](data-loss-prevention-policies.md#using-a-label-as-a-condition-in-a-dlp-policy)을 참조하세요.
+자세한 내용은 [레이블을 DLP 정책의 조건으로 사용](data-loss-prevention-policies.md#using-a-retention-label-as-a-condition-in-a-dlp-policy)을 참조하세요.
   
 ## <a name="monitor-retention-labels"></a>보존 레이블 모니터링
 

@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 61da6df18a8e41a609ae8aea7ff57c2f53f92d84
-ms.sourcegitcommit: 242f051c4cf3683f8c1a5da20ceca81bde212cfc
+ms.openlocfilehash: 13b19079e52a390e8be3372939619541aa3b7294
+ms.sourcegitcommit: 13f28aa762e467bab8ab1e95e1917b3ac28931da
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42982051"
+ms.lasthandoff: 04/08/2020
+ms.locfileid: "43193474"
 ---
 # <a name="communication-compliance-in-microsoft-365"></a>Microsoft 365의 통신 준수
 
@@ -121,10 +121,10 @@ Microsoft 365의 통신 준수에 대 한 준수 문제를 파악 하 고 해결
 
 Microsoft 365 준수 센터에서 다음 정책 서식 파일 중에서 선택할 수 있습니다.
 
-- **비속어 및 harassment**:이 서식 파일을 사용 하면 기본 제공 분류자를 사용 하 여 악성 또는 비속어로 간주 될 수 있는 콘텐츠를 자동으로 검색 하는 정책을 빠르게 만들 수 있습니다.
+- **비속어 및 harassment**:이 서식 파일을 사용 하 여 기본 제공 위협, 불경 및 harassment 분류자를 사용 하 여 악성 또는 비속어로 간주 될 수 있는 콘텐츠를 자동으로 검색 하는 정책을 빠르게 만들 수 있습니다.
 - **중요 한 정보**:이 서식 파일을 사용 하 여 정의 된 중요 한 정보 유형 또는 키워드를 포함 하는 통신을 검사 하는 정책을 만들어 중요 한 데이터가 액세스 권한이 없는 사용자와 공유 되지 않도록 할 수 있습니다.
 - **규정 준수**:이 서식 파일을 사용 하 여 규정 표준과 관련 된 표준 금융 용어에 대 한 참조를 검색 하는 정책을 만듭니다.
-- **사용자 지정 정책**:이 서식 파일을 사용 하 여 특정 통신 채널, 개별 검색 조건 및 조직의 감독에 대해 검토할 콘텐츠의 양을 구성 합니다.
+- **사용자 지정 정책**:이 서식 파일을 사용 하 여 특정 통신 채널, 분류자, 개별 검색 조건 및 조직의 감독에 대해 검토할 콘텐츠의 양을 구성 합니다.
 
 ### <a name="investigate"></a>확인
 
