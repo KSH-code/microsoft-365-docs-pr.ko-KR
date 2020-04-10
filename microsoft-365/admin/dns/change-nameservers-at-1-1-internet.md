@@ -6,7 +6,7 @@ ms.author: pebaum
 author: pebaum
 manager: mnirkhe
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 31efc571-c8b9-46fb-b42d-203c2fb25289
 description: 1&인터넷이 DNS 호스팅 공급자 일 때 21Vianet에서 운영 하는 Office 365을 설정 하 여 DNS 레코드를 관리 하는 방법을 알아봅니다.
-ms.openlocfilehash: 3678d5372b9edd8e9333ad78862694b450abe53a
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: bda6a19ba7bfca20bc1764187f429e13900d8460
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42352569"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43212368"
 ---
 # <a name="change-nameservers-to-set-up-office-365-with-11-ionos"></a>이름 서버를 변경 하 여 Office 365을 설정 하 고 1&1gb 이상 OS
 

@@ -6,7 +6,7 @@ ms.author: pebaum
 author: pebaum
 manager: mnirkhe
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 446babfe-2e08-4cc2-bbfb-c05b854933ac
 description: 도메인을 확인 하 고 전자 메일, 비즈니스용 Skype Online 및 기타 서비스에 대 한 DNS 레코드를 Office 365 용 easyDNS에 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: f55f39f36b8abaee2d500c87ccf1e0089caecc9d
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 9d48896de8f841863e25929a46b2f1d2e1b3ced2
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42255371"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43210555"
 ---
 # <a name="create-dns-records-at-easydns-for-office-365"></a>EasyDNS에서 Office 365에 대 한 DNS 레코드 만들기
 
@@ -44,7 +44,7 @@ Office 365로 메일을 라우팅하고, 팀과 비즈니스용 Skype에 대해 
     
 4. 텍스트 필드에 다음 레코드를 입력 합니다.
     
-    |**호스트**|**텍스트**|
+    |**Host(호스트)**|**텍스트**|
     |:-----|:-----|
     |@  <br/> |MS = msXXXXXXXX (관리 센터 도메인에 제공 된 값 사용 페이지)  <br/> |
    
@@ -54,15 +54,15 @@ Office 365로 메일을 라우팅하고, 팀과 비즈니스용 Skype에 대해 
     
 7. 방금 만든 레코드가 인터넷을 통해 전파 되 고 Office 365에서 검색할 수 있도록 몇 분 정도 기다립니다.
     
-8. Now that you've added the record at your domain registrar's site, you'll go back to Office 365 and request Office 365 to look for the record.
+8. 이제 도메인 등록 기관에 레코드가 추가되었습니다. Office 365로 돌아가서 Office 365에 레코드를 찾을 것을 요청합니다.
     
-9. 관리 센터에서 **설정** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">도메인</a> 페이지로 이동 합니다.
+9. I관리 센터에서 ** 설정 ** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank"> 도메인 </a> 페이지로 이동하십시오.
     
-10. **도메인** 페이지에서 확인 하려는 도메인을 선택 합니다. 
+10. **도메인** 페이지에서 확인 중인 도메인을 선택합니다. 
     
 11. **설정** 페이지에서 **설정 시작을 선택 합니다.**
     
-12. **도메인 확인** 페이지에서 **확인**을 선택 합니다. 
+12. **도메인 확인** 페이지에서 **확인**을 선택합니다. 
     
 ## <a name="add-an-mx-record-to-route-email-to-office-365"></a>전자 메일을 Office 365로 라우팅하기 위해 MX 레코드 추가
 
@@ -117,7 +117,7 @@ Office 365로 메일을 라우팅하고, 팀과 비즈니스용 Skype에 대해 
     
 4. 텍스트 필드에 다음 레코드를 입력 합니다.
     
-    |**호스트**|**텍스트**|
+    |**Host(호스트)**|**텍스트**|
     |:-----|:-----|
     |@  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> |
    
@@ -125,7 +125,7 @@ Office 365로 메일을 라우팅하고, 팀과 비즈니스용 Skype에 대해 
     
 6. 레코드가 올바른지 확인 하 고 **확인**을 선택 합니다. 
     
-## <a name="add-the-two-srv-records-that-are-required-for-office-365"></a>Office 365에 필요한 두 개의 SRV 레코드를 추가 합니다.
+## <a name="add-the-two-srv-records-that-are-required-for-office-365"></a>Office 365에 필요한 2개의 SRV 레코드 추가
 
 참고: easyDNS ' 도메인 Plus 서비스 수준 '에서는 현재 SRV 레코드를 사용할 수 없습니다. SRV 레코드를 추가 하려면 easyDNS를 사용 하 여 더 높은 서비스 수준으로 업그레이드 해야 할 수 있습니다. 
   
@@ -139,8 +139,8 @@ Office 365로 메일을 라우팅하고, 팀과 비즈니스용 Skype에 대해 
     
     |**서비스**|**프로토콜**|**호스트**|**PRI**|**WGT**|**포트**|**대상 ("."로 끝나야 함)**|**TTL**|
     |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-    |_sip  <br/> |TLS  <br/> |@  <br/> |100  <br/> |개  <br/> |443  <br/> |sipdir.online.lync.com  <br/> |1800  <br/> |
-    |_sipfederationtls  <br/> |TCP  <br/> |@  <br/> |100  <br/> |개  <br/> |5061  <br/> |sipfed.online.lync.com  <br/> |1800  <br/> |
+    |_sip  <br/> |TLS  <br/> |@  <br/> |100  <br/> |1   <br/> |443  <br/> |sipdir.online.lync.com  <br/> |1800  <br/> |
+    |_sipfederationtls  <br/> |TCP  <br/> |@  <br/> |100  <br/> |1   <br/> |5061  <br/> |sipfed.online.lync.com  <br/> |1800  <br/> |
    
 5. **다음**을 선택 합니다. 
     

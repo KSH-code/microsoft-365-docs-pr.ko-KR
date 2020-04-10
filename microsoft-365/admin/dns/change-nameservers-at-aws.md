@@ -6,7 +6,7 @@ ms.author: pebaum
 author: pebaum
 manager: mnirkhe
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 0ddbe33c-81ea-4c02-8db9-e71d3810c0ec
 description: 'AWS (Amazon Web Services)에서 DNS 레코드를 관리 하기 위해 Office 365을 설정 하는 방법을 알아봅니다. '
-ms.openlocfilehash: 9500522478c22277c57772ef64b4d0a4b87e8c44
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: a7125cf0add8200fe152c426f47e7f27a8f6226c
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42352489"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43212356"
 ---
 # <a name="change-nameservers-to-set-up-office-365-with-amazon-web-services-aws"></a>AWS(Amazon Web Services)에서 이름 서버를 변경하여 Office 365 설정
 

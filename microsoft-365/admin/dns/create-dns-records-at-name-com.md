@@ -6,7 +6,7 @@ ms.author: pebaum
 author: pebaum
 manager: mnirkhe
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9ddcc2fc-9433-4335-8192-6ffb1f541087
 description: 도메인을 확인 하 고 전자 메일, 비즈니스용 Skype Online 및 기타 서비스에 대 한 DNS 레코드를 Office 365 용 name.com에 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: f21a40f543ff3a9faffe6ffba98f4d541b2a7a7b
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: f39cf9f241851e555ea23ca7b63453796a5f471b
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42349982"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43211658"
 ---
 # <a name="create-dns-records-at-namecom-for-office-365"></a>name.com에서 Office 365용 DNS 레코드 만들기
 
@@ -204,7 +204,7 @@ Office 365에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것
     
     |**Type(종류)**|**호스트**|**응답**|**TTL**|
     |:-----|:-----|:-----|:-----|
-    |TXT  <br/> |(Leave this field empty.)  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **참고: ** 모든 간격이 올바르게 유지되도록 이 항목을 복사하여 붙여넣는 것이 좋습니다.           |Use the default value (300).  <br/> |
+    |TXT  <br/> |(Leave this field empty.)  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **참고:** 모든 공백이 올바르게 유지되도록 이 항목을 복사하여 붙여 넣는 것이 좋습니다.           |Use the default value (300).  <br/> |
    
    ![이름-BP-구성-4-1](../../media/cbbfc071-840a-4ffa-a59e-0dfce03063cc.png)
   
@@ -235,8 +235,8 @@ Office 365에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것
     
     |**유형**|**서비스**|**가중치**|**TTL**|**우선 순위**|**프로토콜**|**포트**|**대상**|
     |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-    |SRV|sip|개|기본값(300)을 사용합니다.|100|tls|443|sipdir.online.lync.com <br> **참고: ** 모든 간격이 올바르게 유지되도록 이 항목을 복사하여 붙여넣는 것이 좋습니다.           |
-    |SRV|sipfederationtls|개|기본값(300)을 사용합니다.|100|tcp|5061|sipfed.online.lync.com <br>**참고: ** 모든 간격이 올바르게 유지되도록 이 항목을 복사하여 붙여넣는 것이 좋습니다.           |
+    |SRV|sip|1 |기본값(300)을 사용합니다.|100|tls|443|sipdir.online.lync.com <br> **참고:** 모든 공백이 올바르게 유지되도록 이 항목을 복사하여 붙여 넣는 것이 좋습니다.           |
+    |SRV|sipfederationtls|1 |기본값(300)을 사용합니다.|100|tcp|5061|sipfed.online.lync.com <br>**참고:** 모든 공백이 올바르게 유지되도록 이 항목을 복사하여 붙여 넣는 것이 좋습니다.           |
    
    ![이름-BP-구성-5-1](../../media/d9a885fd-7300-45b6-ad4c-0b4bf1067560.png)
   

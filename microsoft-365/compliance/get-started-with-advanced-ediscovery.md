@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: 이 문서에서는 Microsoft 365에서 고급 eDiscovery 사용을 시작 하는 방법을 설명 합니다. 몇 가지 빠른 단계를 완료 한 후에는 고급 eDiscovery 도구를 사용할 준비가 된 것입니다. 첫 번째 단계는 사례를 만든 다음 고급 eDiscovery 기능 및 기능 사용을 시작 하는 것입니다.
-ms.openlocfilehash: 1f3eb78ab9f9e96eaa95dbfbc7e087fa1514b836
-ms.sourcegitcommit: 053d42480d8aa3792ecb0027ddd53d383a029474
+ms.openlocfilehash: a43bfd94fcf0a2563a184a3a87d96c64bd8eb619
+ms.sourcegitcommit: 8a88b7526e6a3a907f33a8567e0d25b74fe60d80
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43100871"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43204048"
 ---
 # <a name="get-started-with-advanced-ediscovery"></a>Advanced eDiscovery 시작
 
@@ -173,4 +173,4 @@ Ediscovery 권한 및 eDiscovery 관리자 역할 그룹에 할당 된 각 역�
 
    - [사례 데이터를 분석](analyzing-data-in-review-set.md)합니다. 고급 eDiscovery의 분석 기능은 강력 합니다. 검토 설정에서 데이터에 대 한 분석을 실행 한 후에는 검토 해야 하는 문서 크기를 줄이는 데 도움이 될 수 있는 유사 중복 검색, 전자 메일 스레딩 및 테마와 같은 분석을 수행 합니다. 또한 실행 중인 분석 결과를 요약 한 분석 보고서도 생성 합니다. 앞에서 설명한 것 처럼 실행 분석 [은 변호사 클라이언트 권한 검색 모델](attorney-privilege-detection.md#use-the-attorney-client-privilege-detection-model)도 실행 합니다.
 
-5. **사례 데이터를 내보내고 다운로드**합니다. 사례 데이터를 수집 하 고, 검토 하 고, 분석 한 후 마지막 단계는 조사 팀 외부의 사용자가 외부를 검토 하거나 검토할 수 있도록 고급 eDiscovery에서이를 내보내는 것입니다. 데이터 내보내기는 두 단계로 진행 됩니다. 첫 번째 단계는 검토 집합을 내보내 다른 Azure Storage location (Microsoft에서 제공 하거나 조직에서 관리 하는 위치)으로 [내보내는](export-documents-from-review-set.md) 것입니다. 그런 다음 Azure Storage Explorer를 사용 하 여 로컬 컴퓨터에 데이터를 [다운로드](download-export-jobs.md) 합니다. 내보낸 데이터 파일 외에도 내보내기 패키지의 포함에는 내보내기 보고서, 요약 보고서 및 오류 보고서가 포함 되어 있습니다.
+5. **사례 데이터를 내보내고 다운로드**합니다. 사례 데이터를 수집 하 고, 검토 하 고, 분석 한 후 마지막 단계는 조사 팀 외부의 사용자가 외부를 검토 하거나 검토할 수 있도록 고급 eDiscovery에서이를 내보내는 것입니다. 데이터 내보내기는 두 단계로 진행 됩니다. 첫 번째 단계는 검토 집합에서 데이터를 [내보내고](export-documents-from-review-set.md) 이를 다른 Azure 저장소 위치 (Microsoft에서 제공 하거나 조직에서 관리 하는 위치로)로 복사 하는 것입니다. 그런 다음 Azure Storage Explorer를 사용 하 여 로컬 컴퓨터에 데이터를 [다운로드](download-export-jobs.md) 합니다. 내보낸 데이터 파일 외에도 내보내기 패키지의 포함에는 내보내기 보고서, 요약 보고서 및 오류 보고서가 포함 되어 있습니다.

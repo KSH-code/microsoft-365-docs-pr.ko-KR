@@ -6,7 +6,7 @@ ms.author: v-sharos
 author: shars
 manager: mnirkhe
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - BEA160
 description: Office 365 설치 마법사와 설정 페이지 간의 차이점을 알아봅니다.
-ms.openlocfilehash: 0873e37b849785feb7c70271b97b148f3cea8bd9
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: fb4cf29b2cab493e0240cf9cfef4cbabeb45087c
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42360459"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43209703"
 ---
 # <a name="difference-between-the-office-365-setup-wizard-and-the-setup-page"></a>Office 365 설치 마법사와 설정 페이지의 차이점
 
@@ -49,7 +49,7 @@ Office 365에서는 다음과 같은 두 가지 설치 환경을 제공 합니�
 
 3. Office 365 앱을 다운로드 하 고 설치할 수 있도록 새 사용자를 추가 하 고 라이선스를 할당 합니다.
 
-4. 도메인을 연결 합니다.
+4. Connect'your입니다.
 
 ## <a name="use-the-setup-page-to-complete-and-manage-your-configuration"></a>설정 페이지를 사용 하 여 구성 완료 및 관리
 

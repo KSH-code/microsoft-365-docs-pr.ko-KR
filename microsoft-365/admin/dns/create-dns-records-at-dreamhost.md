@@ -6,7 +6,7 @@ ms.author: pebaum
 author: pebaum
 manager: mnirkhe
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9c0812e0-908b-4b41-a64b-77f0dbd3db7a
 description: 도메인을 확인 하 고 전자 메일, 비즈니스용 Skype Online 및 기타 서비스에 대 한 DNS 레코드를 Office 365 용 Dreamhost에 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: 201452bc68f82138c08e2054452747a900ed0e6b
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 1997af6e14dcb6a118dfcc3558037ed56d07ea87
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42349489"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43211790"
 ---
 # <a name="create-dns-records-at-dreamhost-for-office-365"></a>Dreamhost에서 Office 365에 대 한 DNS 레코드 만들기
 
@@ -212,7 +212,7 @@ Office 365에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것
     
     |**이름**|**종류**|**값**|**설명**|
     |:-----|:-----|:-----|:-----|
-    |(Leave this field empty.)  <br/> |TXT  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **참고: ** 모든 간격이 올바르게 유지되도록 이 항목을 복사하여 붙여넣는 것이 좋습니다.           |(이 필드는 선택 사항입니다.)  <br/> |
+    |(Leave this field empty.)  <br/> |TXT  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **참고:** 모든 공백이 올바르게 유지되도록 이 항목을 복사하여 붙여 넣는 것이 좋습니다.           |(이 필드는 선택 사항입니다.)  <br/> |
    
    ![Dreamhost-BP-구성-4-1](../../media/cbc4bbca-bdbc-4dc9-b1b7-b55491eb1e53.png)
   

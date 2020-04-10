@@ -6,23 +6,23 @@ ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection: ''
 search.appverid: ''
 ROBOTS: NOINDEX, NOFOLLOW
 description: Microsoft 365 관리 센터의 통합 앱 포털에서 조직의 사용자 및 그룹에 대해 Microsoft 및 Microsoft 파트너 앱을 검색 하 고 테스트 하 고 배포 합니다.
-ms.openlocfilehash: 4cd8c71b521c80f8a3043cf13427132b3ec3e750
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 5189eef7524242a87f1797f8856bbd33b9a32a31
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42363072"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43212272"
 ---
 # <a name="test-and-deploy-microsoft-365-apps-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터에서 Microsoft 365 앱 테스트 및 배포
 
-Microsoft 365 관리 센터에서는 단일 위치에서 Microsoft 및 Microsoft 파트너 응용 프로그램을 배포할 수 있는 유연성을 제공 합니다. 통합 앱 포털에서 Microsoft 및 Microsoft 파트너의 구매 및 라이선스가 있는 앱을 찾고, 테스트 하 고, 전체 배포 하는 기능은 조직에서 비즈니스 서비스를 정기적으로 업데이트 하 고 실행 하는 데 필요한 편의성과 이점을 제공 합니다. 빠르고.  
+Microsoft 365 관리 센터에서는 단일 위치에서 Microsoft 및 Microsoft 파트너 응용 프로그램을 배포할 수 있는 유연성을 제공 합니다. 통합 앱 포털에서 Microsoft 및 Microsoft 파트너의 구매 및 라이선스가 있는 앱을 찾고 테스트 하 고 완전 하 게 배포 하는 기능은 비즈니스 서비스를 정기적으로 업데이트 하 고 효율적으로 실행 하는 데 필요한 편의성과 이점을 제공 합니다.  
 
 조직에 대 한 Microsoft 365 앱을 구입 하 고 라이선스를 부여 하는 방법에 대 한 자세한 내용은 [microsoft 365 관리 센터에서 microsoft 365 앱 administration and deploy](https://techcommunity.microsoft.com/t5/microsoft-365-blog/manage-and-deploy-microsoft-365-apps-from-the-microsoft-365/ba-p/1194324)라는 블로그 게시물을 참조 하세요.
   

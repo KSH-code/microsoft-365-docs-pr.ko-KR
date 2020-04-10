@@ -6,7 +6,7 @@ ms.author: pebaum
 author: pebaum
 manager: mnirkhe
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 3c490fbf-7833-4e43-be34-ed0dc3cce5e3
 description: Google Domains 페이지를 통해 eNom에 액세스 하 고 DNS를 만드는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 566b3990c6cc3080eac9d1367531eea42ab135d1
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 8fc13ea2ccc7dfee510ef7abb72f88030d048943
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42362503"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43210661"
 ---
 # <a name="create-dns-records-when-your-domain-is-managed-by-google-enom"></a>Google (eNom)에서 도메인을 관리 하는 경우 DNS 레코드 만들기
 

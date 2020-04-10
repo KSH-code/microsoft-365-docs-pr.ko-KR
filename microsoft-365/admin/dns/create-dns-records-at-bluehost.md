@@ -6,7 +6,7 @@ ms.author: pebaum
 author: pebaum
 manager: mnirkhe
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 657934ff-d9d2-4563-9ccf-ef4832a03a99
 description: 도메인을 확인 하 고 전자 메일, 비즈니스용 Skype Online 및 기타 서비스에 대 한 DNS 레코드를 Office 365 용 Bluehost에 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: 0e64ed8787dca9822e71a63c57de7a7a3e2b3fe4
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 8d8217aa3b87e103f37063248899467d79b6cf18
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42350959"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43211838"
 ---
 # <a name="create-dns-records-at-bluehost-for-office-365"></a>Bluehost에서 Office 365용 DNS 레코드 만들기
 
@@ -190,7 +190,7 @@ Office 365에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것
         
     |**Host Record**|**TTL**|**종류**|**TXT Value**|
     |:-----|:-----|:-----|:-----|
-    |@  <br/> |14400  <br/> |TXT  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/>**참고: ** 모든 간격이 올바르게 유지되도록 이 항목을 복사하여 붙여넣는 것이 좋습니다.           |
+    |@  <br/> |14400  <br/> |TXT  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/>**참고:** 모든 공백이 올바르게 유지되도록 이 항목을 복사하여 붙여 넣는 것이 좋습니다.           |
    
     ![TXT 값 복사](../../media/b2dabd7a-ee3d-4209-aa1e-0233eb8cf3b9.png)
   
@@ -217,8 +217,8 @@ Office 365에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것
     
     |**서비스**|**프로토콜**|**호스트**|**TTL**|**종류**|**Priority(우선 순위)**|**Weight(가중치)**|**Port(포트)**|**연결 대상**|
     |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-    |_sip  <br/> |_tls  <br/> |@  <br/> |14400  <br/> |SRV  <br/> |100  <br/> |개  <br/> |443  <br/> |sipdir.online.lync.com  <br/> |
-    |_sipfederationtls  <br/> |_tcp  <br/> |@  <br/> |14400  <br/> |SRV  <br/> |100  <br/> |개  <br/> |5061  <br/> |sipfed.online.lync.com  <br/> |
+    |_sip  <br/> |_tls  <br/> |@  <br/> |14400  <br/> |SRV  <br/> |100  <br/> |1   <br/> |443  <br/> |sipdir.online.lync.com  <br/> |
+    |_sipfederationtls  <br/> |_tcp  <br/> |@  <br/> |14400  <br/> |SRV  <br/> |100  <br/> |1   <br/> |5061  <br/> |sipfed.online.lync.com  <br/> |
    
     ![새 레코드의 값을 복사 합니다.](../../media/e2911bca-c00b-4b8a-837f-f1d438c474c4.png)
   

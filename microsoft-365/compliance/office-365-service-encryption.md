@@ -14,22 +14,22 @@ search.appverid:
 - MET150
 ms.collection: Strat_O365_Enterprise
 description: '요약: Microsoft Office 365의 서비스 계층에서 데이터 암호화를 이해 합니다.'
-ms.openlocfilehash: a8faded033ade013924eeeab269aa213840430b4
-ms.sourcegitcommit: 13f28aa762e467bab8ab1e95e1917b3ac28931da
+ms.openlocfilehash: fb6bf87fbd51bcb4383e9eb595ef11f081989d86
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "43193464"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43211945"
 ---
 # <a name="office-365-service-encryption"></a>Office 365 서비스 암호화
 
 볼륨 수준 암호화를 위해 BitLocker를 사용 하는 것 외에도 Exchange Online, 비즈니스용 Skype, SharePoint Online, 비즈니스용 OneDrive 및 팀은 서비스 암호화를 사용 하 여 고객 데이터를 암호화 합니다. 서비스 암호화를 사용 하면 다음과 같은 두 가지 주요 관리 옵션을 사용할 수 있습니다.
 
-- Microsoft는 모든 암호화 키를 관리 합니다. 이 옵션은 현재 SharePoint Online, 비즈니스용 OneDrive, 비즈니스용 Skype 및 팀 채팅에서 사용할 수 있습니다. 데이터는 기본적으로 Microsoft 관리 되는 키를 사용 하 여 암호화 됩니다.
+- Microsoft는 모든 암호화 키를 관리 합니다. 이 옵션은 현재 SharePoint Online, 비즈니스용 OneDrive, 비즈니스용 Skype 및 팀 채팅에서 사용할 수 있습니다. 데이터는 기본적으로 Microsoft 관리 키를 사용 하 여 암호화 됩니다.
 
 - 조직에서 루트 키를 제공 합니다. Azure 키 자격 증명 모음을 사용 하 여 이러한 키를 관리 합니다. 이 옵션을 Customer 키 라고 합니다. 현재 Exchange Online, SharePoint Online, 비즈니스용 OneDrive, 비즈니스용 Skype 및 팀 파일에 대해 고객 키를 사용할 수 있습니다. 고객 키를 사용 하는 경우 이러한 키는 Microsoft 관리 되는 키를 대체 하 여 데이터를 암호화 합니다.
 
-선택한 옵션에 관계 없이 서비스 암호화는 다음과 같은 여러 이점을 제공 합니다.
+어떤 옵션을 선택 하든지 서비스 암호화는 여러 가지 이점을 제공 합니다.
 
 - 사용자 인증을 적용 하 여 권한 있는 사용자가 요청한 데이터를 검색 하 고 해독 합니다.
 

@@ -6,7 +6,7 @@ ms.author: pebaum
 author: pebaum
 manager: mnirkhe
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Priority
 ms.collection:
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9982191d-ed79-46a9-b2e7-317d1a3a9867
 description: My Domain for Office 365에서 도메인을 확인하고 전자 메일, 비즈니스용 Skype 온라인 및 기타 서비스에 대한 DNS 레코드를 설정하는 방법을 알아보세요.
-ms.openlocfilehash: c85c04d369add95d3aaa815229257fe90a24fb28
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 1a75c2ab0077cac07781e5102c43e53ed965b1df
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42349871"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43211694"
 ---
 # <a name="create-dns-records-at-mydomain-for-office-365"></a>MyDomain에서 Office 365용 DNS 레코드 만들기
 

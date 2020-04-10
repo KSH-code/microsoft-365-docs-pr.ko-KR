@@ -6,7 +6,7 @@ ms.author: pebaum
 author: pebaum
 manager: mnirkhe
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: a6626053-a9c8-445b-81ee-eeb6672fae77
 description: 도메인을 확인 하 고 전자 메일, 비즈니스용 Skype Online 및 기타 365 서비스에 대 한 DNS 레코드를 설정 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: dec76e0dde2775851ff464e3b8765f82dfb57625
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: fb10c5bc10e9e4bb231e90148dd5d5c742ff169d
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42350469"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43211766"
 ---
 # <a name="create-dns-records-at-enomcentral-for-office-365"></a>eNomCentral에서 Office 365용 DNS 레코드 만들기
 
@@ -207,7 +207,7 @@ Office 365에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것
     
     |**Host Name**|**Record Type**|**Address(주소)**|
     |:-----|:-----|:-----|
-    |@  <br/> |TXT  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/>**참고: ** 모든 간격이 올바르게 유지되도록 이 항목을 복사하여 붙여넣는 것이 좋습니다.           |
+    |@  <br/> |TXT  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/>**참고:** 모든 공백이 올바르게 유지되도록 이 항목을 복사하여 붙여 넣는 것이 좋습니다.           |
    
    ![eNom-BP-구성-4-1](../../media/64c68697-258d-4044-84b1-c28f4a402e3b.png)
   
@@ -240,8 +240,8 @@ Office 365에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것
     
     |**서비스**|**프로토콜**|**Priority(우선 순위)**|**Weight(가중치)**|**Port(포트)**|**대상          (호스트 이름)**|
     |:-----|:-----|:-----|:-----|:-----|:-----|
-    |_sip  <br/> |_tls  <br/> |100  <br/> |개  <br/> |443  <br/> |sipdir.online.lync.com  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> |
-    |_sipfederationtls  <br/> |_tcp  <br/> |100  <br/> |개  <br/> |5061  <br/> |sipfed.online.lync.com  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> |
+    |_sip  <br/> |_tls  <br/> |100  <br/> |1   <br/> |443  <br/> |sipdir.online.lync.com  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> |
+    |_sipfederationtls  <br/> |_tcp  <br/> |100  <br/> |1   <br/> |5061  <br/> |sipfed.online.lync.com  <br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> |
    
     ![eNom-BP-구성-5-2](../../media/4d478f40-780f-43b9-940b-712b09da8c63.png)
   

@@ -6,7 +6,7 @@ ms.author: pebaum
 author: pebaum
 manager: mnirkhe
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 5762c3ca-1de2-4999-bfe5-4c5e25a8957e
 description: 도메인을 확인 하 고 전자 메일, 비즈니스용 Skype Online 및 기타 서비스에 대 한 DNS 레코드를 설정 하는 방법에 대해 설명 합니다 (예를 들어, Office 365에 대 한&1gb OS).
-ms.openlocfilehash: d4ff6bea0d96402c34b1d1ae302510a6e718c38d
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: e31c9d9d08e29156ff6197c030de6b0f4169b5f4
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42352059"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43211874"
 ---
 # <a name="create-dns-records-at-11-ionos-for-office-365"></a>1&에 DNS 레코드 만들기 Office 365의 경우 1gb OS
 
@@ -269,7 +269,7 @@ Office 365에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것
     
     |**종류**|**Prefix(접두사)**|**Name Value(이름 값)**|
     |:-----|:-----|:-----|
-    |TXT  <br/> |(Leave this field empty.)  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **참고: ** 모든 간격이 올바르게 유지되도록 이 항목을 복사하여 붙여넣는 것이 좋습니다.           | 
+    |TXT  <br/> |(Leave this field empty.)  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **참고:** 모든 공백이 올바르게 유지되도록 이 항목을 복사하여 붙여 넣는 것이 좋습니다.           | 
     
     ![TXT 레코드](../../media/0b3ba3b4-64b9-4d68-9ee1-04eb3a17d4c5.png)
   
@@ -300,8 +300,8 @@ Office 365에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것
     
     |**유형**|**서비스**|**프로토콜**|**이름**|**호스트**|**Priority(우선 순위)**|**Weight(가중치)**|**Port(포트)**|**TTL**|
     |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-    |SRV  <br/> |sip  <br/> |tls  <br/> |(Leave this field empty.)  <br/> |sipdir.online.lync.com  <br/> |100  <br/> |개  <br/> |443  <br/> |3600(1시간)  <br/> |
-    |SRV  <br/> |sipfederationtls  <br/> |tcp  <br/> |(이 필드는 비워 둡니다.)  <br/> |sipfed.online.lync.com  <br/> |100  <br/> |개  <br/> |5061  <br/> |3600(1시간)  <br/> |  
+    |SRV  <br/> |sip  <br/> |tls  <br/> |(Leave this field empty.)  <br/> |sipdir.online.lync.com  <br/> |100  <br/> |1   <br/> |443  <br/> |3600(1시간)  <br/> |
+    |SRV  <br/> |sipfederationtls  <br/> |tcp  <br/> |(이 필드는 비워 둡니다.)  <br/> |sipfed.online.lync.com  <br/> |100  <br/> |1   <br/> |5061  <br/> |3600(1시간)  <br/> |  
     
     ![1&amp;1-BP-구성-5-1](../../media/087e337d-926b-42ff-b11d-b449cfaed76c.png)
   

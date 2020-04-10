@@ -6,7 +6,7 @@ ms.author: pebaum
 author: pebaum
 manager: mnirkhe
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 4f374dc7-b96c-49c7-80ed-554716ba0138
 description: '회사 또는 학교 전자 메일을 사용 하 여 IT 부서를 포함 하지 않고 Microsoft online services에 등록 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: c12f379dadd6a3f0bab16f6b49ff462c3becbd75
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 261e1344455602cdf36f38ba647408078bd8dd09
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42248039"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43209691"
 ---
 # <a name="your-domain-may-be-in-use-if-someone-else-signed-up-with-it"></a>다른 사용자가 사용자의 도메인에 등록 한 경우 해당 도메인이 사용 중일 수 있습니다.
 

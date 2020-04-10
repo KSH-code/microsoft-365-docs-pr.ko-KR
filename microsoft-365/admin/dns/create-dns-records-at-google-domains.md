@@ -6,7 +6,7 @@ ms.author: pebaum
 author: pebaum
 manager: mnirkhe
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 0db29490-2612-48bc-9b77-1862e7a41a8c
 description: 도메인을 확인 하 고 Office 365 용 Google Domains의 전자 메일, Lync 및 기타 서비스에 대 한 DNS 레코드를 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: 5b72753dfdf44fa15cd0dffaa4baf61e843cf532
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: f0a9a42127fc5b722679013b899255f77840d670
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42349699"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43211730"
 ---
 # <a name="create-dns-records-at-google-domains-for-office-365"></a>Google 도메인에서 Office 365용 DNS 레코드 만들기
 
@@ -107,7 +107,7 @@ Office 365에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것
     
     ![가상 레코드 섹션에서 삭제를 선택 합니다.](../../media/bd276b5d-5667-4bb1-a233-2dc5194e7ace.png)
   
-6. **삭제**를 선택 합니다.
+6. **삭제**를 선택합니다.
     
     ![삭제 선택](../../media/4413a45a-5b82-4ec6-82c6-0091f5be9696.png)
   

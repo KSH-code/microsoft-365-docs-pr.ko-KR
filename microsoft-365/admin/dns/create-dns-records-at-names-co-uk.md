@@ -6,7 +6,7 @@ ms.author: pebaum
 author: pebaum
 manager: mnirkhe
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: b6c15128-b456-49b4-8b5e-5b823c700f26
 description: 도메인을 확인 하 고 전자 메일, 비즈니스용 Skype Online 및 기타 서비스에 대 한 DNS 레코드를 Office 365 용 Names.co.uk에 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: d27cd22b0047cf58def01533a486c7641f50148e
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 8f8d76c1aebaa7fec80b264e0a9d2c8fffec9f41
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42348139"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43211670"
 ---
 # <a name="create-dns-records-at-namescouk-for-office-365"></a>Names.co.uk에서 Office 365용 DNS 레코드 만들기
 
@@ -120,7 +120,7 @@ Office 365에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것
     
     |**호스트 이름**|**우선 순위**|**결과**|
     |:-----|:-----|:-----|
-    |(이 필드는 비워 둡니다.)  <br/> |개  <br/> 우선 순위에 대한 자세한 내용은 [MX 우선 순위란?](https://support.office.com/article/2784cc4d-95be-443d-b5f7-bb5dd867ba83.aspx)을 참조하세요. <br/> | *\<domain-key\>*  .mail.protection.outlook.com  <br/> > [!NOTE]> Office 365 계정에서 * \<도메인\> 키* 를 가져올 수 있습니다.           [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)          |
+    |(이 필드는 비워 둡니다.)  <br/> |1   <br/> 우선 순위에 대한 자세한 내용은 [MX 우선 순위란?](https://support.office.com/article/2784cc4d-95be-443d-b5f7-bb5dd867ba83.aspx)을 참조하세요. <br/> | *\<domain-key\>*  .mail.protection.outlook.com  <br/> > [!NOTE]> Office 365 계정에서 * \<도메인\> 키* 를 가져올 수 있습니다.           [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)          |
        
     ![NamesUK-BP-구성-2-1](../../media/e211d73d-864f-4114-864b-8e636c69f595.png)
   
@@ -205,7 +205,7 @@ Office 365에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것
     
     |**호스트 이름**|**종류**|**결과**|
     |:-----|:-----|:-----|
-    |(Leave this field empty.)  <br/> |TXT  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **참고: ** 모든 간격이 올바르게 유지되도록 이 항목을 복사하여 붙여넣는 것이 좋습니다.           |
+    |(Leave this field empty.)  <br/> |TXT  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **참고:** 모든 공백이 올바르게 유지되도록 이 항목을 복사하여 붙여 넣는 것이 좋습니다.           |
        
     ![NamesUK-BP-구성-4-1](../../media/cfc61387-630e-4aa0-8762-ef36eaeda44a.png)
   
@@ -234,8 +234,8 @@ Office 365에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것
     
     |**이름**|**Priority(우선 순위)**|**Weight(가중치)**|**Port(포트)**|**결과**|
     |:-----|:-----|:-----|:-----|:-----|
-    |_sip _tls  <br/> |100  <br/> |개  <br/> |443  <br/> |sipdir.online.lync.com  <br/> |
-    |_sipfederationtls _tcp  <br/> |100  <br/> |개  <br/> |5061  <br/> |sipfed.online.lync.com  <br/> |
+    |_sip _tls  <br/> |100  <br/> |1   <br/> |443  <br/> |sipdir.online.lync.com  <br/> |
+    |_sipfederationtls _tcp  <br/> |100  <br/> |1   <br/> |5061  <br/> |sipfed.online.lync.com  <br/> |
        
     ![NamesUK-BP-구성-5-1](../../media/97a96523-005a-4058-9e12-19f6c3bf9b3b.png)
   

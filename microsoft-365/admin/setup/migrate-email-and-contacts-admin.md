@@ -6,7 +6,7 @@ ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -26,12 +26,12 @@ search.appverid:
 - MOW150
 ms.assetid: a3e3bddb-582e-4133-8670-e61b9f58627e
 description: 'Gmail 또는 다른 전자 메일 공급자에서 Office 365으로 연락처, 일정, 전자 메일을 가져오는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 2b2f4441772a9d373316ff14f06bcdeb61e5840d
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 6decee3fd45d11ed1e71e71e0cf7191ccec6aa3d
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42360709"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43212188"
 ---
 # <a name="migrate-email-and-contacts-to-office-365"></a>Office 365로 전자 메일 및 연락처 마이그레이션
 
@@ -53,9 +53,9 @@ Gmail 또는 다른 전자 메일 공급자에서 Office 365 전자 메일을 �
     
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/c1e45708-9a92-475b-910b-f5aa40614d92?autoplay=false]
   
-### <a name="import-from-outlook-desktop"></a>Outlook에서 가져오기 (데스크톱)
+### <a name="import-from-outlook-desktop"></a>Outlook에서 가져오기 (데스크톱) ' '
 
-Outlook에서 .pst 파일로 전자 메일, 연락처 및 일정을 내보낸 다음 해당 파일을 Outlook에 Office 365로 가져오려면 다음 단계를 수행 합니다.
+Outlook에서 .pst 파일로 전자 메일, 연락처 및 일정을 내보낸 다음 해당 파일을 Outlook으로 Office 365로 Fol'ow 다음과 같은 단계를 수행 합니다.
   
 1. [전자 메일, 연락처 및 일정 내보내기](https://support.office.com/article/14252b52-3075-4e9b-be4e-ff9ef1068f91)
     

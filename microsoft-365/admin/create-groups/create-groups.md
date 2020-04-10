@@ -6,7 +6,7 @@ ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 74a1ef8b-3844-4d08-9980-9f8f7a36000f
 description: Office 365 그룹을 만들고 삭제 하 고, 그룹 구성원을 추가 및 제거 하 고, 그룹의 작동 방식을 사용자 지정 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 8b9580fd37581de96d3dc35170a1a61640cc697d
-ms.sourcegitcommit: e525bcf073a61e1350484719a0c3ceb6ff0d8db1
+ms.openlocfilehash: 088ef54531bc42cf563659c460cbf7d2e64c4cfe
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43153547"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43212096"
 ---
 # <a name="create-an-office-365-group-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터에서 Office 365 그룹 만들기
   
@@ -124,3 +124,4 @@ ms.locfileid: "43153547"
 [Office 365 그룹을 만들 때 사용할 도메인 선택](choose-domain-to-create-groups.md)
 
 [Office 365 그룹으로 메일 그룹 업그레이드](../manage/upgrade-distribution-lists.md)
+        

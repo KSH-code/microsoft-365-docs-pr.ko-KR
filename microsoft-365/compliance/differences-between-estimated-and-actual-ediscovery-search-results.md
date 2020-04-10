@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: markjjo
 author: markjjo
 manager: laurawi
-ms.date: 4/13/2017
+ms.date: ''
 audience: Admin
 ms.topic: overview
 ms.service: O365-seccomp
@@ -18,18 +18,19 @@ search.appverid:
 - MOE150
 ms.assetid: 8f20ca4f-a908-46ec-99e6-9890d269ecf2
 description: 'Office 365에서 eDiscovery 도구로 실행 되는 검색에 대해 예상 및 실제 검색 결과가 달라질 수 있는 이유를 이해 합니다. '
-ms.openlocfilehash: 1024a99ffa358e56783d562062f158e71f5e7ddc
-ms.sourcegitcommit: cce5138dfbb27eeeef873d40d8d3606ee3cd6d3d
+ms.openlocfilehash: 9ee24cc0e7b85d39480149d65897b303e23c0adb
+ms.sourcegitcommit: 8a88b7526e6a3a907f33a8567e0d25b74fe60d80
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 04/09/2020
-ms.locfileid: "43198375"
+ms.locfileid: "43204070"
 ---
 # <a name="differences-between-estimated-and-actual-ediscovery-search-results-in-office-365"></a>Office 365의 예상 및 실제 eDiscovery 검색 결과 차이
 
 이 항목은 다음 Microsoft eDiscovery 도구 중 하나를 사용 하 여 실행할 수 있는 검색에 적용 됩니다. 
 
 - 보안 & 준수 센터의 콘텐츠 검색  <br/>  
+- 핵심 eDiscovery 사례와 연결 된 검색
 - EAC (Exchange 관리 센터)의 원본 위치 eDiscovery  <br/>  
 - SharePoint Onlin의 eDiscovery 센터  <br/> 
    
@@ -83,5 +84,3 @@ SharePoint Online의 eDiscovery 센터에서는 eDiscovery 검색의 결과를 �
   
 > [!NOTE]
 > 검색 결과를 내보내거나 단순히 보고서를 다운로드할 때 **암호화 된 항목 포함 또는 인식할 수 없는 형식** 옵션을 선택 하지 않으면 인덱스 오류 보고서가 다운로드 되지만 항목은 포함 되지 않습니다. 인덱싱 오류가 없다는 것을 의미 하는 것은 아닙니다. 이는 인덱싱되지 않은 항목이 내보내기에 포함 되지 않았다는 것을 의미 합니다. 
-  
-

@@ -6,7 +6,7 @@ ms.author: pebaum
 author: pebaum
 manager: mnirkhe
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 7a2efd75-0771-4897-ba7b-082fe5bfa9da
 description: AWS (Amazon Web Services)에서 Office 365에 대 한 도메인을 확인 하 고 전자 메일, 비즈니스용 Skype Online 및 기타 서비스에 대 한 DNS 레코드를 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: baba7bb7275303604d241166f4dc1d2af77b3f17
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: f71e6fa5ce69d789cc7695d30e6447ae281a0e3f
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42351479"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43211850"
 ---
 # <a name="create-dns-records-at-amazon-web-services-aws-for-office-365"></a>AWS(Amazon Web Services)에서 Office 365에 대한 DNS 레코드 만들기
 
@@ -187,7 +187,7 @@ Office 365에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것
     
     |**값:**|
     |:-----|
-    |v=spf1 include:spf.protection.outlook.com -all  <br/> (화면 지침에 필요한 물음표가 자동으로 제공됩니다. 직접 입력할 필요가 없습니다.)  <br/> **참고: ** 모든 간격이 올바르게 유지되도록 이 항목을 복사하여 붙여넣는 것이 좋습니다.           |
+    |v=spf1 include:spf.protection.outlook.com -all  <br/> (화면 지침에 필요한 물음표가 자동으로 제공됩니다. 직접 입력할 필요가 없습니다.)  <br/> **참고:** 모든 공백이 올바르게 유지되도록 이 항목을 복사하여 붙여 넣는 것이 좋습니다.           |
    
     ![AWS-BP-구성-4-2](../../media/beb3c086-eaf8-4245-9860-18512a3ff72e.png)
   
@@ -214,8 +214,8 @@ Office 365에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것
     
     |**이름**|**종류**|**별칭**|**TTL(초)**|**값**|**라우팅 정책**|
     |:-----|:-----|:-----|:-----|:-----|:-----|
-    |_sip _tls|SRV - Service locator(SRV - 서비스 로케이터)|아니요|300|100 1 443 sipdir.online.lync.com. **이 값은 마침표 (.)로 끝나야 합니다.**><br> **참고: ** 모든 간격이 올바르게 유지되도록 이 항목을 복사하여 붙여넣는 것이 좋습니다.           |Simple(단순형)|
-    |_sipfederationtls _tcp|SRV - Service locator(SRV - 서비스 로케이터)|아니요|300|100 1 5061 sipfed.online.lync.com. **This value MUST end with a period (.)**<br> **참고: ** 모든 간격이 올바르게 유지되도록 이 항목을 복사하여 붙여넣는 것이 좋습니다.           |Simple(단순형)|
+    |_sip _tls|SRV - Service locator(SRV - 서비스 로케이터)|아니요|300|100 1 443 sipdir.online.lync.com. **이 값은 마침표 (.)로 끝나야 합니다.**><br> **참고:** 모든 공백이 올바르게 유지되도록 이 항목을 복사하여 붙여 넣는 것이 좋습니다.           |Simple(단순형)|
+    |_sipfederationtls _tcp|SRV - Service locator(SRV - 서비스 로케이터)|아니요|300|100 1 5061 sipfed.online.lync.com. **This value MUST end with a period (.)**<br> **참고:** 모든 공백이 올바르게 유지되도록 이 항목을 복사하여 붙여 넣는 것이 좋습니다.           |Simple(단순형)|
    
     ![AWS-BP-구성-5-1](../../media/c3f841d3-6076-428f-bb04-e71cc5f392fa.png)
   

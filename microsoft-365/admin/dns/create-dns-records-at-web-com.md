@@ -6,7 +6,7 @@ ms.author: pebaum
 author: pebaum
 manager: mnirkhe
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 84acd4fc-6eec-4d00-8bed-568f036ae2af
 description: 도메인을 확인 하 고 전자 메일, 비즈니스용 Skype Online 및 기타 서비스에 대 한 DNS 레코드를 Office 365 용 web.com에 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: eb231f85e568e81a5e229f0533d8176feb590f48
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: d5546b55392849aac9049613bd860f937ffb7618
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42249458"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43211077"
 ---
 # <a name="create-dns-records-at-webcom-for-office-365"></a>Web.com에서 Office 365에 대 한 DNS 레코드 만들기
 
@@ -88,7 +88,7 @@ Office 365에서 사용자 도메인을 사용하려면 먼저 도메인을 소�
     
     |**호스트**|**TTL**|**텍스트**|
     |:-----|:-----|:----|
-    |@  <br/> |3600  <br/> |MS=ms *XXXXXXXX*  <br/> **참고:** 예를 들면 다음과 같습니다. 여기에는 Office 365의 표에 있는 특정 **대상 또는 주소 가리키기** 값을 사용합니다.           [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)    |
+    |@  <br/> |3600  <br/> |MS=ms *XXXXXXXX*  <br/> **참고:** 이 값은 예시입니다. 여기에는 Office 365의 표에 있는 특정 **보낼 대상 또는 지점** 값을 사용합니다.           [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)    |
   
     
 5. **계속**을 선택 합니다.
@@ -96,22 +96,22 @@ Office 365에서 사용자 도메인을 사용하려면 먼저 도메인을 소�
   
 6. 방금 만든 레코드가 인터넷에서 업데이트 될 수 있도록 새 TXT 레코드를 확인 하기 전에 몇 분 정도 기다립니다.
     
-Now that you've added the record at your domain registrar's site, you'll go back to Office 365 and request Office 365 to look for the record.
+이제 도메인 등록 기관에 레코드가 추가되었습니다. Office 365로 돌아가서 Office 365에 레코드를 찾을 것을 요청합니다.
   
-When Office 365 finds the correct TXT record, your domain is verified.
+Office 365에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것입니다.
   
-1. 관리 센터에서 **설정** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">도메인</a> 페이지로 이동 합니다.
+1. I관리 센터에서 ** 설정 ** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank"> 도메인 </a> 페이지로 이동하십시오.
 
     
-2. **도메인** 페이지에서 확인 하려는 도메인을 선택 합니다. 
+2. **도메인** 페이지에서 확인 중인 도메인을 선택합니다. 
     
     
   
-3. **설정** 페이지에서 **설정 시작**을 선택 합니다.
+3. **설정** 페이지에서 **설정 시작**을 선택합니다.
     
     
   
-4. **도메인 확인** 페이지에서 **확인**을 선택 합니다.
+4. **도메인 확인** 페이지에서 **확인**을 선택합니다.
     
     
   
@@ -129,9 +129,9 @@ When Office 365 finds the correct TXT record, your domain is verified.
 
 4. **메일 서버 (Mx 레코드)** 에서 **mx 레코드 편집**을 클릭 하 고 다음 표에서 값을 선택 합니다. 
     
-    |**우선 순위**|**TTL**|**메일 서버**|
+    |**Priority(우선 순위)**|**TTL**|**메일 서버**|
     |:-----|:-----|:-----|
-    |개  <br/> 우선 순위에 대한 자세한 내용은 [MX 우선 순위란?](https://support.office.com/article/2784cc4d-95be-443d-b5f7-bb5dd867ba83.aspx)을 참조하세요. <br/> |3600  <br/> |*\<domain-key\>*  .mail.protection.outlook.com  <br/> **참고:** Office 365 계정에서 * \<도메인\> 키* 를 가져옵니다.   [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md) |
+    |1   <br/> 우선 순위에 대한 자세한 내용은 [MX 우선 순위란?](https://support.office.com/article/2784cc4d-95be-443d-b5f7-bb5dd867ba83.aspx)을 참조하세요. <br/> |3600  <br/> |*\<domain-key\>*  .mail.protection.outlook.com  <br/> **참고:** Office 365 계정에서 * \<도메인\> 키* 를 가져옵니다.   [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md) |
    
 
 5. **저장**을 선택합니다.
@@ -144,7 +144,7 @@ When Office 365 finds the correct TXT record, your domain is verified.
 ## <a name="add-the-six-cname-records-that-are-required-for-office-365"></a>Office 365에 필요한 6 개의 CNAME 레코드 추가
 <a name="BKMK_add_CNAME"> </a>
 
-1. 시작 하려면 [이 링크](https://checkout.web.com/manage-it/index.jsp)를 사용 하 여 web.com의 도메인 페이지로 이동 합니다. You'll be prompted to log in first.
+1. 시작 하려면 [이 링크](https://checkout.web.com/manage-it/index.jsp)를 사용 하 여 web.com의 도메인 페이지로 이동 합니다. 먼저 로그인하라는 메시지가 표시됩니다.
      
 2. **계정 관리자** 페이지에서 **내 도메인 이름을**선택 합니다. 
   
@@ -174,7 +174,7 @@ When Office 365 finds the correct TXT record, your domain is verified.
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
-> You cannot have more than one TXT record for SPF for a domain. If your domain has more than one SPF record, you'll get email errors, as well as delivery and spam classification issues. If you already have an SPF record for your domain, don't create a new one for Office 365. Instead, add the required Office 365 values to the current record so that you have a  *single*  SPF record that includes both sets of values. 
+> 도메인 한 개의 SPF에 둘 이상의 TXT 레코드가 있을 수 없습니다. 도메인에 둘 이상의 SPF 레코드가 있는 경우 전자 메일 오류를 비롯하여 배달 및 스팸 분류 문제가 발생할 수 있습니다. If you already have an SPF record for your domain, don't create a new one for Office 365. Instead, add the required Office 365 values to the current record so that you have a  *single*  SPF record that includes both sets of values. 
   
 1. 시작 하려면 [이 링크](https://checkout.web.com/manage-it/index.jsp)를 사용 하 여 web.com의 도메인 페이지로 이동 합니다. 먼저 로그인 합니다.
     
@@ -188,12 +188,12 @@ When Office 365 finds the correct TXT record, your domain is verified.
     
     |**호스트**|**TTL**|**텍스트**|
     |:-----|:-----|:-----|
-    |@  <br/> |3600  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **참고:** 모든 공백이 올바르게 유지 되도록이 항목을 복사 하 여 붙여 넣는 것이 좋습니다.   |
+    |@  <br/> |3600  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **참고:** 모든 공백이 올바르게 유지되도록 이 항목을 복사하여 붙여 넣는 것이 좋습니다.   |
 
  
 5. **계속**을 선택 합니다.
 
-6. **변경 내용 저장**을 선택 합니다.
+6. **변경 내용 저장**을 선택합니다.
     
 
   
@@ -213,17 +213,17 @@ When Office 365 finds the correct TXT record, your domain is verified.
 
     **서비스 (Srv 레코드)** 에서 **SRV 레코드 편집**을 클릭 하 고 다음 표에서 값을 선택 합니다. 
         
-    |**서비스**|**프로토콜**|**TTL**|**우선 순위**|**가중치**|**포트**|**대상**|
+    |**서비스**|**프로토콜**|**TTL**|**Priority(우선 순위)**|**Weight(가중치)**|**Port(포트)**|**대상**|
     |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-    |_sip |_tls |3600 | 100|개 |443 |sipfed.online.lync.com  |
-    |_sipfederationtls |_tcp |3600 |100 |개 |5061 | sipfed.online.lync.com |
+    |_sip |_tls |3600 | 100|1  |443 |sipfed.online.lync.com  |
+    |_sipfederationtls |_tcp |3600 |100 |1  |5061 | sipfed.online.lync.com |
 
   
 5. 표의 두 번째 행에서 값을 선택 하 여 다른 SRV 레코드를 추가 합니다. 
   
 6. **계속**을 선택 합니다.
 
-7. **변경 내용 저장**을 선택 합니다.
+7. **변경 내용 저장**을 선택합니다.
 
     
 > [!NOTE]

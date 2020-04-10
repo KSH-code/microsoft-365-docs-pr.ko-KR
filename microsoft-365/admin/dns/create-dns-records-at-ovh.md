@@ -6,7 +6,7 @@ ms.author: pebaum
 author: pebaum
 manager: mnirkhe
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 5176feef-36dc-4d84-842f-1f2b5a21ba96
 description: 도메인을 확인 하 고 전자 메일, 비즈니스용 Skype Online 및 기타 서비스에 대 한 DNS 레코드를 Office 365 용 OVH에 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: 4857addd7dfd096c1ddd6e59f1f17ace76b75a9e
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 3ba4e61c875f74a0a6cf76c8b7cd82ea88e0221b
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42354349"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43211113"
 ---
 # <a name="create-dns-records-at-ovh-for-office-365"></a>OVH에서 Office 365에 대 한 DNS 레코드 만들기
 
@@ -147,7 +147,7 @@ Office 365에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것
    
     ![메일에 대 한 OVH MX 레코드](../../media/6e2f5655-93e2-4620-8f19-c452e7edf8f0.png)
   
-7.  Select **Next**. 
+7. **다음**을 선택합니다.
     
     ![OVH MX 레코드 다음 선택](../../media/4db62d07-0dc4-49f6-bd19-2b4a07fd764a.png)
   
@@ -198,7 +198,7 @@ Office 365에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것
    
     ![OVH CNAME 레코드](../../media/516938b3-0b12-4736-a631-099e12e189f5.png)
   
-7.  Select **Next**. 
+7. **다음**을 선택합니다.
     
     ![OVH CNAME 값을 추가 하 고 다음을 선택 합니다.](../../media/f9481cb1-559d-4da1-9643-9cacb0d80d29.png)
   
@@ -236,11 +236,11 @@ Office 365에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것
     
     |**Record type(레코드 종류)**|**하위 도메인**|**TTL**|**TXT 값**|
     |:-----|:-----|:-----|:-----|
-    |TXT  <br/> |(공백으로 둠)  <br/> |3600 (초)  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **참고: ** 모든 간격이 올바르게 유지되도록 이 항목을 복사하여 붙여넣는 것이 좋습니다.           |
+    |TXT  <br/> |(공백으로 둠)  <br/> |3600 (초)  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **참고:** 모든 공백이 올바르게 유지되도록 이 항목을 복사하여 붙여 넣는 것이 좋습니다.           |
    
     ![SPF에 대 한 OVH 추가 TXT 레코드](../../media/f50466e9-1557-4548-8a39-e98978a5ee2e.png)
   
-7.  Select **Next**. 
+7. **다음**을 선택합니다.
     
     ![SPF 용 TXT 레코드 추가 OVH 및 다음 선택](../../media/7937eb7c-114f-479f-a916-bcbe476d6108.png)
   
@@ -277,12 +277,12 @@ Office 365에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것
     
     |**Record type(레코드 종류)**|**하위 도메인**|**Priority(우선 순위)**|**Weight(가중치)**|**Port(포트)**|**TTL**|**Target(대상)**|
     |:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-    |SRV (Service)(SRV(서비스))  <br/> |_sip _tls  <br/> |100  <br/> |개  <br/> |443  <br/> |3600 (초)  <br/> |sipdir.online.lync.com  <br/> |
-    |SRV (Service)(SRV(서비스))  <br/> |_sipfederationtls _tcp  <br/> |100  <br/> |개  <br/> |5061  <br/> |3600 (초)  <br/> |sipfed.online.lync.com  <br/> |
+    |SRV (Service)(SRV(서비스))  <br/> |_sip _tls  <br/> |100  <br/> |1   <br/> |443  <br/> |3600 (초)  <br/> |sipdir.online.lync.com  <br/> |
+    |SRV (Service)(SRV(서비스))  <br/> |_sipfederationtls _tcp  <br/> |100  <br/> |1   <br/> |5061  <br/> |3600 (초)  <br/> |sipfed.online.lync.com  <br/> |
        
     ![OVH SRV 레코드](../../media/73956b9e-9e4f-40a5-803e-c4ead2f77fa6.png)
   
-7.  Select **Next**. 
+7. **다음**을 선택합니다.
     
     ![OVH SRV 레코드 다음 선택](../../media/cb4ad7e2-a8f0-4ab1-9797-d1b51c1d2da9.png)
   

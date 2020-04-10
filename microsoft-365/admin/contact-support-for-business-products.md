@@ -6,7 +6,7 @@ ms.author: cmcatee
 author: cmcatee-MSFT
 manager: mnirkhe
 audience: Admin
-ms.topic: troubleshooting
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Priority
 ms.collection:
@@ -24,12 +24,12 @@ search.appverid:
 ms.assetid: 32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b
 description: 해당 지역 또는 현지 전화 번호를 사용하거나 온라인으로 서비스 요청을 제출하거나 Microsoft store를 방문하여 기술 및 청구 지원을 받습니다.
 feedback_system: None
-ms.openlocfilehash: 4bb35f6d8c2895ec7adf37c6b4e149962fb616bc
-ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
+ms.openlocfilehash: 8f108f4348a7cecd62eba869962d9ee5b179b5b0
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43142554"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43212120"
 ---
 # <a name="contact-support-for-business-products---admin-help"></a>비즈니스 제품에 대해 고객 지원 센터 문의 - 관리자 도움말
 

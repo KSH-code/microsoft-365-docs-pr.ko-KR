@@ -6,7 +6,7 @@ ms.author: pebaum
 author: pebaum
 manager: scotv
 audience: Admin
-ms.topic: troubleshooting
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: bb229ee9-e7be-4990-b3eb-354e75740496
 description: '공유 사서함에서 라이선스를 제거 하 여 다른 사용자에 게 할당 합니다. '
-ms.openlocfilehash: 90ec29681aa5b15dd04895df2b48b2b1619b521d
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 02c98570a1742d710373c6711d2621a0a9ebe818
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42362223"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43210531"
 ---
 # <a name="remove-a-license-from-a-shared-mailbox"></a>공유 사서함에서 라이선스 제거
 
@@ -58,7 +58,7 @@ ms.locfileid: "42362223"
 
 ::: moniker range="o365-germany"
 
- 1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다.
+ 1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다..
 
    > [!NOTE]
    > 활성 사용자 페이지에서 라이선스를 제거 해야 합니다. 라이선스가 사용자 설정 이므로 공유 사서함 페이지에서 라이선스를 제거할 수 없습니다.
@@ -77,7 +77,7 @@ ms.locfileid: "42362223"
 
 ::: moniker range="o365-21vianet"
 
- 1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다.
+ 1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다..
 
    > [!NOTE]
    > 활성 사용자 페이지에서 라이선스를 제거 해야 합니다. 라이선스가 사용자 설정 이므로 공유 사서함 페이지에서 라이선스를 제거할 수 없습니다.

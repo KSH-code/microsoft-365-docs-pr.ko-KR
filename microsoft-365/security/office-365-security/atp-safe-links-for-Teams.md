@@ -14,12 +14,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: 이제 팀이 클릭 시에 안전한 링크에 액세스할 수 있습니다. Office 365 ATP에 대 한 구독을 갖고 있는 경우에는 채팅 1-설정 채팅, 그룹 간 또는 채널에서 탭을 사용 하는 경우에 관계 없이이 보안 기능을 사용 하도록 설정 하 고 사용할 수 있습니다.
-ms.openlocfilehash: 864b211a1f007a0f6bde83da12b61362b53bf041
-ms.sourcegitcommit: ce6121a8e3ca7438071d73b0c76e2b6f33ac1cf7
+ms.openlocfilehash: 49a49bd41e71daf0afc9e7a24e79898ff98ad798
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "43030144"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43212548"
 ---
 <!--06/21/2019-->
 
@@ -35,6 +35,9 @@ Microsoft 팀에서 작업을 관리 하기 위한 Office 365 클라우드 기�
 1. 팀 응용 프로그램을 시작 하면 Office 365에서 사용자가 Office 365 ATP가 있는 조직에 속하고, 사용자가 Microsoft 팀에 대 한 보호를 사용 하는 활성 안전한 링크 정책의 일부 인지 확인 합니다.
 
 2. 위의 사항에 해당 하는 경우에는 채팅, 그룹 채팅, 채널 및 해당 사용자에 대 한 탭에서을 클릭 했을 때 Url의 유효성이 검사 됩니다.
+
+> [!NOTE]
+> 안전한 링크는 게스트 사용자, 페더레이션 사용자, 테 넌 트 사용자가 보낸 링크의 사용자를 보호 합니다. 로그인 한 사용자가 팀에 대 한 안전한 링크를 사용 하는 경우 안전한 링크 보호가 적용 됩니다.
  
 ## <a name="what-will-users-experience"></a>사용자에 게 어떤 문제가 있나요? 
 

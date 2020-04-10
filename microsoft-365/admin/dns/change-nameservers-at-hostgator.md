@@ -6,7 +6,7 @@ ms.author: pebaum
 author: pebaum
 manager: mnirkhe
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: f3bd3c62-0477-48e4-b2b5-21e329d67985
 description: Hostgator에서 사용자 지정 도메인의 DNS 레코드를 관리 하기 위해 Office 365을 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: 95131e258482fdb0ff9aa7f00b3339e1c6f9509d
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: d592fc77513107679206a4ac187116c7d6fb794f
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42351849"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43212332"
 ---
 # <a name="change-nameservers-to-set-up-office-365-with-hostgator"></a>Hostgator에서 이름 서버를 변경하여 Office 365 설정
 
@@ -93,7 +93,7 @@ Office 365에서 사용자 도메인을 사용하려면 먼저 도메인을 소�
 |||||
 |:-----|:-----|:-----|:-----|
 |**이름** <br/> |**TTL** <br/> |**종류** <br/> |**TXT 데이터** <br/> |
-|사용자의  *domain_name*  (예: fourthcoffee.com)을 사용합니다.<br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> |개  <br/> |TXT  <br/> |MS=ms *XXXXXXXX*  <br/> **참고:** 이 값은 예시입니다. 여기에는 Office 365의 표에 있는 특정 **보낼 대상 또는 지점** 값을 사용합니다. [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)     <br/>  |
+|사용자의  *domain_name*  (예: fourthcoffee.com)을 사용합니다.<br/> **이 값은 마침표(.)로 끝나야 합니다.** <br/> |1   <br/> |TXT  <br/> |MS=ms *XXXXXXXX*  <br/> **참고:** 이 값은 예시입니다. 여기에는 Office 365의 표에 있는 특정 **보낼 대상 또는 지점** 값을 사용합니다. [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)     <br/>  |
    
 4. **레코드 추가**를 선택 합니다.
     

@@ -6,7 +6,7 @@ ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Microsoft 365 관리 센터에서 중앙 집중식 배포에 대해 자주 묻는 질문에 대 한 대답을 검토 합니다.
-ms.openlocfilehash: 313e1dd7481ccdd8bbf7531d5b7433f8bbd54e38
-ms.sourcegitcommit: 732bb72a0b5ae09cb39536185aa29d6097ec72fd
+ms.openlocfilehash: 39df2ec5a1671f800572bc845581bdbe2716d209
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "43188965"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43209667"
 ---
 # <a name="centralized-deployment-faq"></a>중앙 집중식 배포 FAQ
 

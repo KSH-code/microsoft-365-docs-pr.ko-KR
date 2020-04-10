@@ -6,7 +6,7 @@ ms.author: pebaum
 author: pebaum
 manager: mnirkhe
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9eec911d-5773-422c-9593-40e1147ffbde
 description: 도메인을 확인 하 고 전자 메일, 비즈니스용 Skype Online 및 기타 서비스에 대 한 DNS 레코드를 Office 365 용 Windows 기반 DNS에 설정 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: ddea5cb95a7f2abef8b68b37de473f936ee08eb5
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: d33a2f79111f8951c3ec31ca5680877ad2e7d570
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42249311"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43210567"
 ---
 # <a name="create-dns-records-for-office-365-using-windows-based-dns"></a>Windows 기반 DNS를 사용하여 Office 365용 DNS 레코드 만들기
 
@@ -38,17 +38,17 @@ Windows 기반 DNS를 사용하여 자체 DNS 레코드를 호스트하는 경�
 메일 흐름 문제 또는 기타 문제 DNS 레코드를 추가한 후에는 [도메인 이름 또는 DNS 레코드 변경 후 문제 해결](../get-help-with-domains/find-and-fix-issues.md)을 참조 하세요. 
   
 ## <a name="find-your-dns-records-in-windows-based-dns"></a>Windows 기반 DNS에서 DNS 레코드 찾기
-<a name="BKMK_find_your_dns_1"></a> 도메인에 대 한 DNS 레코드가 있는 페이지로 이동 합니다. Windows Server 2008에서 작업 하는 경우 **시작** > **실행**으로 이동 합니다. Windows Server 2012에서 작업 하는 경우 Windows 키 및 **r**키를 누릅니다. **Dnsmgmnt.msc**를 입력 한 다음 **확인**을 선택 합니다. Dns 관리자에서 ** \<dns 서버 이름\> \> 정방향 조회 영역  **을 확장 합니다. 도메인을 선택합니다. 이제 DNS 레코드를 만들 준비가 되었습니다.
+<a name="BKMK_find_your_dns_1"> </a> 도메인에 대 한 DNS 레코드가 있는 페이지로 이동 합니다. Windows Server 2008에서 작업 하는 경우 **시작** > **실행**으로 이동 합니다. Windows Server 2012에서 작업 하는 경우 Windows 키 및 **r**키를 누릅니다. **Dnsmgmnt.msc**를 입력 한 다음 **확인**을 선택 합니다. Dns 관리자에서 ** \<dns 서버 이름\> \> 정방향 조회 영역  **을 확장 합니다. 도메인을 선택합니다. 이제 DNS 레코드를 만들 준비가 되었습니다.
    
 ## <a name="add-mx-record"></a>MX 레코드 추가
 <a name="BKMK_add_MX"> </a>
 
 사용자 도메인의 전자 메일이 Office 365로 전송되도록 MX 레코드를 추가합니다.
-- 추가할 MX 레코드에는 mx mail.protection.outlook.com \<\> 와 같이 표시 되는 값 ( **주소에 대 한 점수** 값)이 \<\>포함 되어 있습니다. 
+- 추가할 MX 레코드에는 \<MX 토큰\> .mail.protection.outlook.com과 같은 값 (**지점 주소** 값)이 포함됩니다. 여기서 \<MX 토큰\>은 MSxxxxxxx와 같은 값입니다. 
 - Office 365의 DNS 레코드 추가 페이지에서 Exchange Online 섹션의 MX 행에서 Points to address에 나열 된 값을 복사 합니다. 이 값은이 작업에서 만드는 레코드에 사용 됩니다. 
 - 도메인의 DNS 관리자 페이지에서 **동작** > **MX (메일 교환기)** 로 이동 합니다. 해당 도메인의이 페이지를 찾으려면 [Windows 기반 dns에서 dns 레코드 찾기를](#find-your-dns-records-in-windows-based-dns)참조 하세요.  
 - **새 리소스 레코드** 대화 상자에서 필드가 정확히 다음 값으로 설정 되었는지 확인 합니다. 
-    - 호스트 이름: 
+    - 호스트 이름:  
     - @Address: 방금 Office 365에서 복사한 점수를 주소 값에 붙여 넣습니다.  
     - 우선 
 - **변경 내용 저장**을 선택 합니다.
@@ -60,7 +60,7 @@ Windows 기반 DNS를 사용하여 자체 DNS 레코드를 호스트하는 경�
 Office 365에 필요한 CNAME 레코드를 추가합니다. Office 365에 추가 CNAME 레코드가 나열되면 여기에 표시된 동일한 일반적인 단계에 따라 해당 레코드를 추가합니다.
   
 > [!IMPORTANT]
-> Office 365에 대 한 MDM (모바일 장치 관리)이 있는 경우 두 개의 CNAME 레코드를 추가로 만들어야 합니다. Follow the procedure that you used for the other four CNAME records, but supply the values from the following table. (MDM이 없는 경우에는이 단계를 건너뛰어도 됩니다.) 
+> Office 365용 MDM (Mobile Device Management)이있는 경우 두 개의 추가 CNAME 레코드를 만들어야 합니다. 다른 4개의 CNAME 레코드를 만드는 데 사용한 절차를 따르되 다음 표의 값을 입력합니다. (MDM이 없는 경우에는이 단계를 건너뛰어도 됩니다.) 
 
 - 도메인의 DNS 관리자 페이지에서 **작업** > **cname (cname)** 로 이동 합니다.
 - **새 리소스 레코드** 대화 상자에서 필드가 정확히 다음 값으로 설정 되었는지 확인 합니다.  
@@ -87,7 +87,7 @@ SIP CNAME 레코드를 추가합니다.
 ### <a name="add-two-cname-records-for-mobile-device-management-mdm-for-office-365"></a>Office 365용 MDM(모바일 장치 관리)에 대한 2개의 CNAME 레코드 추가
 
 > [!IMPORTANT]
-> Office 365에 대 한 MDM (모바일 장치 관리)이 있는 경우 두 개의 CNAME 레코드를 추가로 만들어야 합니다. Follow the procedure that you used for the other four CNAME records, but supply the values from the following table. > (MDM이 없는 경우이 단계를 건너뛸 수 있습니다.) 
+> Office 365용 MDM (Mobile Device Management)이있는 경우 두 개의 추가 CNAME 레코드를 만들어야 합니다. 다른 4개의 CNAME 레코드를 만드는 데 사용한 절차를 따르되 다음 표의 값을 입력합니다. > (MDM이 없는 경우이 단계를 건너뛸 수 있습니다.) 
   
 
 MDM Enterpriseregistration CNAME 레코드를 추가합니다.  
@@ -110,7 +110,7 @@ MDM Enterpriseenrollment CNAME 레코드를 추가합니다.
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
-> You cannot have more than one TXT record for SPF for a domain. If your domain has more than one SPF record, you'll get email errors, as well as delivery and spam classification issues. If you already have an SPF record for your domain, don't create a new one for Office 365. Instead, add the required Office 365 values to the current record so that you have a  *single*  SPF record that includes both sets of values. 
+> 도메인 한 개의 SPF에 둘 이상의 TXT 레코드가 있을 수 없습니다. 도메인에 둘 이상의 SPF 레코드가 있는 경우 전자 메일 오류를 비롯하여 배달 및 스팸 분류 문제가 발생할 수 있습니다. If you already have an SPF record for your domain, don't create a new one for Office 365. Instead, add the required Office 365 values to the current record so that you have a  *single*  SPF record that includes both sets of values. 
   
 스팸 메일을 방지하는 데 도움이 되도록 도메인의 SPF TXT 레코드를 추가합니다.
   
@@ -166,7 +166,7 @@ DNS 레코드를 추가하여 Office 365 서비스를 설정하기 전에 Office
   
 
 1. Office 365에서 정보를 수집합니다.  <br/> 
-2. 관리 센터에서 **설정** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">도메인</a> 페이지로 이동 합니다. 
+2. I관리 센터에서 ** 설정 ** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank"> 도메인 </a> 페이지로 이동하십시오. 
 3. **도메인** 페이지의 확인 하려는 도메인에 대 한 **작업** 열에서 **설정 시작**을 선택 합니다. 
 4. **Office에 도메인 추가 365** 페이지에서 **1 단계 시작**을 선택 합니다. 
 5. 사용자의 **도메인을 소유 하** 고 있는지 확인 페이지의 **이 단계를 수행 하기 위한 지침 보기** 드롭다운 목록에서 **일반 지침**을 선택 합니다. 

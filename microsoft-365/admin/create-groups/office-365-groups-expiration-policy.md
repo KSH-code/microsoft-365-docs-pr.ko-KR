@@ -6,7 +6,7 @@ ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Office 365 그룹 만료 정책에 대해 알아봅니다.
-ms.openlocfilehash: 40b0b56507c46f2a658126627d5f8794848bde27
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: 92e472ac56128cc847471b51930aa73dc6598711
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42894518"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43212060"
 ---
 # <a name="office-365-group-expiration-policy"></a>Office 365 그룹 만료 정책
 
@@ -38,7 +38,7 @@ Office 365 그룹의 사용이 증가 함에 따라서 관리자와 사용자는
 현재 사용 중인 그룹은 자동으로 갱신 됩니다. 다음 작업 중 하나를 수행 하면 그룹이 자동으로 갱신 됩니다.
 - SharePoint-파일을 보고, 편집 하 고, 다운로드 하거나, 이동 하거나, 공유 하거나, 업로드 합니다.
 - Outlook-그룹에서 그룹 메시지를 읽거나 메시지를 작성 합니다 (예를 들어, 웹에서 Outlook).
-- 팀-팀 채널을 방문 합니다.
+- 팀-channe 팀 방문
 
 > [!IMPORTANT]
 > 만료 정책을 변경 하면 서비스에서 각 그룹의 만료 날짜를 다시 계산 합니다. 항상 그룹을 만든 날짜부터 계산을 시작 하 고 새 만료 정책을 적용 합니다.
@@ -85,4 +85,4 @@ Office 365 그룹의 사용이 증가 함에 따라서 관리자와 사용자는
 
 [분리된 그룹에 새 소유자 할당](https://support.office.com/article/86bb3db6-8857-45d1-95c8-f6d540e45732)
 
-[Office 365 그룹 만료 구성](https://docs.microsoft.com/azure/active-directory/active-directory-groups-lifecycle-azure-portal)
+[Office 365 그룹 만료 구성](https://docs.microsoft.com/azure/active-directory/active-directory-groups-lifecycle-azure-portal) '

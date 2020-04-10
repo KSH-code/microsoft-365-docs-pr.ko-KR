@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: ce004100-9e7f-443e-942b-9b04098fcfc3
 description: Office 365 감사 로그 레코드에 포함 된 추가 속성에 대 한 설명입니다.
-ms.openlocfilehash: af91acfbdc94439df04ccf5ecd4fd6a01112f442
-ms.sourcegitcommit: 7646e2d742d1b2fad085a00200a2a10461dd4bac
+ms.openlocfilehash: 28056cc6f21d0fbb4a90a455211c3fc368e3cd5e
+ms.sourcegitcommit: 8959701cf009068b40da2757b4a61da61d5c166b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42978238"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43207177"
 ---
 # <a name="detailed-properties-in-the-office-365-audit-log"></a>Office 365 감사 로그의 자세한 속성
 
@@ -54,7 +54,7 @@ ms.locfileid: "42978238"
 |EventSource|SharePoint에서 이벤트가 발생 한 것을 식별 합니다. 사용할 수 있는 값은 **SharePoint** 및 **objectmodel**입니다.|SharePoint|
 |ExternalAccess|Exchange 관리 활동의 경우, cmdlet이 조직의 사용자에 의해 실행 되었는지, Microsoft 데이터 센터 담당자나 데이터 센터 서비스 계정 또는 위임 된 관리자가 실행할지를 지정 합니다. 값이 **False** 이면 조직의 다른 사용자가 cmdlet을 실행 한 것입니다. **True** 값은 데이터 센터 직원, 데이터 센터 서비스 계정 또는 위임 된 관리자에 의해 cmdlet이 실행 되었음을 나타냅니다.  <br/> Exchange 사서함 활동의 경우 조직 외부의 사용자가 사서함에 액세스 했는지 여부를 지정 합니다.|Exchange|
 |ExtendedProperties|Azure Active Directory 이벤트에 대 한 확장 된 속성입니다.|Azure Active Directory|
-|ID|보고서 항목의 ID입니다. ID는 보고서 항목을 고유 하 게 식별 합니다.|모두|
+|ID|감사 레코드 항목의 ID입니다. ID는 감사 로그의 레코드를 고유 하 게 식별 합니다. <sup>1</sup>|모두|
 |InternalLogonType|내부용으로 예약되어 있습니다.|Exchange (사서함 활동)|
 |ItemType|액세스 하거나 수정한 개체의 유형입니다. 사용할 수 있는 값에는 **파일**, **폴더**, **웹**, **사이트**, **테 넌 트**및 **documentlibrary**가 있습니다.|SharePoint|
 |LoginStatus|발생 했을 수 있는 로그인 실패를 확인 합니다.|Azure Active Directory|
@@ -87,13 +87,13 @@ ms.locfileid: "42978238"
 |UserId|**작업** 속성에 지정 된 작업을 수행 하 여 레코드가 기록 되는 사용자입니다. 시스템 계정 (예: SHAREPOINT\system 또는 NT 권한 \ 컴퓨터)에서 수행 된 작업에 대 한 감사 레코드는 감사 로그에도 포함 됩니다. UserId 속성의 또 다른 일반적인 값은 app@sharepoint입니다. 이는 해당 활동을 수행한 "사용자"가 SharePoint에서 사용자, 관리자 또는 서비스를 대신 하 여 조직 전체 작업을 수행 하는 데 필요한 사용 권한이 있는 응용 프로그램 인지를 나타냅니다. 자세한 재용은 감사 레코드의 [앱\@sharepoint 사용자를 확인하세요](search-the-audit-log-in-security-and-compliance.md#the-appsharepoint-user-in-audit-records). |모두|
 |UserKey|**UserID** 속성에서 식별 된 사용자의 대체 ID입니다. 예를 들어이 속성은 SharePoint의 사용자가 수행한 이벤트에 대 한 passport 고유 ID (PUID)로 채워집니다. 또한이 속성은 다른 서비스에서 발생 하는 이벤트에 대 한 **UserID** 속성과 동일한 값과 시스템 계정에서 수행 하는 이벤트를 지정할 수 있습니다.|모두|
 |UserSharedWith|리소스를 공유한 사용자입니다. 이 속성은 **Operation** 속성의 값이 **SharingSet**인 경우에 포함 됩니다. 이 사용자는 보고서의 **공유** 됨 열에도 표시 됩니다.|SharePoint|
-|UserType|작업을 수행한 사용자의 유형입니다. 다음 값은 사용자 형식을 나타냅니다. <br/> <br/> **0** -일반 사용자입니다. <br/>**2** -Office 365 조직의 관리자입니다. <sup>1</sup> <br/>**3** -Microsoft 데이터 센터 관리자 또는 데이터 센터 시스템 계정입니다. <br/>**4** -시스템 계정입니다. <br/>**5** -응용 프로그램 <br/>**6** -서비스 사용자입니다.<br/>**7** -사용자 지정 정책<br/>**8** -시스템 정책.|모두|
+|UserType|작업을 수행한 사용자의 유형입니다. 다음 값은 사용자 형식을 나타냅니다. <br/> <br/> **0** -일반 사용자입니다. <br/>**2** -Office 365 조직의 관리자입니다. <sup>2</sup> <br/>**3** -Microsoft 데이터 센터 관리자 또는 데이터 센터 시스템 계정입니다. <br/>**4** -시스템 계정입니다. <br/>**5** -응용 프로그램 <br/>**6** -서비스 사용자입니다.<br/>**7** -사용자 지정 정책<br/>**8** -시스템 정책.|모두|
 |Version|기록 된 작업의 버전 번호 ( **Operation** 속성으로 식별 됨)를 나타냅니다.|모두|
 |작업량|활동이 발생 한 Office 365 서비스입니다.|모두|
 ||||
 
 > [!NOTE]
-><sup>1</sup> Azure Active Directory 관련 이벤트의 경우 감사 레코드에서 관리자의 값을 사용 하지 않습니다. 관리자가 수행 하는 작업에 대 한 감사 레코드는 일반 사용자 (예 **: UserType, 0**)가 활동을 수행한 것을 나타냅니다. **UserID** 속성은 활동을 수행한 사람 (일반 사용자 또는 관리자)을 식별 합니다.<br/>
+><sup>1</sup> 중복 된 감사 레코드 (ID 속성에 대해 같은 값 포함) **가** 감사 로그에 나타날 수 있습니다. 이는 감사 이벤트 누락을 방지 하기 위해 의도적으로 설계 된 오류 수정 방법입니다.<br/><br/><sup>2</sup> Azure Active Directory 관련 이벤트의 경우 감사 레코드에서 관리자의 값을 사용 하지 않습니다. 관리자가 수행 하는 작업에 대 한 감사 레코드는 일반 사용자 (예 **: UserType, 0**)가 활동을 수행한 것을 나타냅니다. **UserID** 속성은 활동을 수행한 사람 (일반 사용자 또는 관리자)을 식별 합니다.
 
 위에서 설명한 속성은 특정 이벤트의 세부 정보를 볼 때 **자세한 정보** 를 클릭 하면 표시 되기도 합니다.
   

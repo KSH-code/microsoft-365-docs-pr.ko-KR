@@ -6,7 +6,7 @@ ms.author: pebaum
 author: pebaum
 manager: mnirkhe
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -19,12 +19,12 @@ search.appverid:
 ms.assetid: 0413dcce-26be-4b8c-b3fa-73ac1ac4fb35
 ROBOTS: NOINDEX
 description: ICANN 규정을 준수 하도록 연락처 정보를 확인 하는 방법을 알아봅니다.
-ms.openlocfilehash: 1173806aee452f8ca698702a67d3c89b575e6418
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: c9a663a5795a542dfac01f7d4d29e7a3e76d16c9
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42361369"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43212236"
 ---
 # <a name="icann-verification-of-contact-information"></a>ICANN 연락처 정보 확인
 

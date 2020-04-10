@@ -6,7 +6,7 @@ ms.author: kwekua
 author: kwekua
 manager: scotv
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -26,12 +26,12 @@ search.appverid:
 - GEA150
 ms.assetid: eac4d046-1afd-4f1a-85fc-8219c79e1504
 description: 관리 센터에서 특정 작업을 수행할 수 있도록 비즈니스의 사용자 또는 여러 사용자에 게 관리자 역할을 할당 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 9c10ef7d6dade3d826c9c291e58b3e8e2a58f2a6
-ms.sourcegitcommit: 311bbd6f168225ede166d29696126a1e003eee0f
+ms.openlocfilehash: 3f22ef22571dd04dd3364a95ed860f53b8ff207b
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43151381"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43211922"
 ---
 # <a name="assign-admin-roles"></a>관리자 역할 할당
 
@@ -84,7 +84,7 @@ Microsoft 비즈니스 구독을 구매한 사용자는 전역 관리자입니�
 
 ::: moniker range="o365-germany"
 
-1. 관리 센터에서 **사용자** > <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다.
+1. 관리 센터에서 **사용자** > <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다..
 
 2. **활성 사용자** 페이지에서 관리자 역할을 변경 하려는 사용자를 선택 합니다. 플라이 아웃 창에서 **역할**옆에 있는 **편집**을 선택 합니다. 
 
@@ -96,7 +96,7 @@ Microsoft 비즈니스 구독을 구매한 사용자는 전역 관리자입니�
 
 ::: moniker range="o365-21vianet"
 
-1. 관리 센터에서 **사용자** > <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다.
+1. 관리 센터에서 **사용자** > <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다..
 
 2. **활성 사용자** 페이지에서 관리자 역할을 변경 하려는 사용자를 선택 합니다. 플라이 아웃 창에서 **역할**옆에 있는 **편집**을 선택 합니다. 
 

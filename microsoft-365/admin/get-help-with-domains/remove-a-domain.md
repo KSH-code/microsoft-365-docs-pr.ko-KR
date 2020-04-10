@@ -6,7 +6,7 @@ ms.author: pebaum
 author: pebaum
 manager: mnirkhe
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -21,12 +21,12 @@ search.appverid:
 - GEA150
 ms.assetid: f09696b2-8c29-4588-a08b-b333da19810c
 description: Office 365에서 이전 도메인을 제거 하 고 사용자 및 그룹을 다른 도메인으로 이동 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: efbd49daa28b5d15989e1531929cb2d9355aeb8f
-ms.sourcegitcommit: fe4beef350ef9f39b1098755cff46fa2b8e7dc4d
+ms.openlocfilehash: 621b50384b39a21bc0bf5256841c703b3ee0f74a
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42857430"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43210371"
 ---
 # <a name="remove-a-domain-from-office-365"></a>Office 365에서 도메인 제거
 
@@ -229,7 +229,7 @@ Office 365이 보안 그룹, 메일 그룹, 사용자 및 Office 365 그룹과 �
 
 [도메인 FAQ](../setup/domains-faq.md)
 
-[Office 365 도메인에 대 한 도움말 보기](get-help-with-domains.yml)
+[Office 365 도메인에 대 한 도움말 보기](get-help-with-domains.md)
 
 [다른 Office 365 비즈니스 에디션 계획으로 전환](../../commerce/subscriptions/switch-to-a-different-plan.md)
 

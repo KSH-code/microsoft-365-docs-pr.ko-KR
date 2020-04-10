@@ -6,7 +6,7 @@ ms.author: cmcatee
 author: cmcatee-MSFT
 manager: mnirkhe
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 공유 사서함을 만든 후에는 전자 메일 전달 및 자동 회신 같은 사용자에 대 한 일부 설정을 구성 해야 합니다. 나중에 사서함 이름이 나 구성원 등의 다른 설정을 변경할 수 있습니다.
-ms.openlocfilehash: edea829a8578387459afe3ce4889dfa620f95956
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: fc2995dc448c7cb28c13c10d78b57e7141963539
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42255302"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43212024"
 ---
 # <a name="configure-a-shared-mailbox"></a>공유 사서함 구성
 
@@ -35,19 +35,19 @@ ms.locfileid: "42255302"
 
 ::: moniker range="o365-worldwide"
 
-1. 관리 센터에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">공유 사서함</a> **그룹** \> 페이지로 이동 합니다.
+1. 관리 센터에서 **그룹** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">공유 사서함</a> 페이지로 이동합니다.
 
 ::: moniker-end 
 
 ::: moniker range="o365-germany"
 
-1. <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">관리 센터</a>에서 **공유 사서함** **그룹** > 페이지로 이동 합니다. 
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">관리 센터</a>에서 **그룹** > **공유 사서함** 페이지로 이동합니다. 
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">관리 센터</a>에서 **공유 사서함** **그룹** > 페이지로 이동 합니다. 
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">관리 센터</a>에서 **그룹** > **공유 사서함** 페이지로 이동합니다. 
 
 ::: moniker-end
 
@@ -63,19 +63,19 @@ ms.locfileid: "42255302"
 
 ::: moniker range="o365-worldwide"
 
-1. 관리 센터에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">공유 사서함</a> **그룹** \> 페이지로 이동 합니다.
+1. 관리 센터에서 **그룹** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">공유 사서함</a> 페이지로 이동합니다.
 
 ::: moniker-end 
 
 ::: moniker range="o365-germany"
 
-1. <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">관리 센터</a>에서 **공유 사서함** **그룹** > 페이지로 이동 합니다. 
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">관리 센터</a>에서 **그룹** > **공유 사서함** 페이지로 이동합니다. 
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">관리 센터</a>에서 **공유 사서함** **그룹** > 페이지로 이동 합니다. 
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">관리 센터</a>에서 **그룹** > **공유 사서함** 페이지로 이동합니다. 
 
 ::: moniker-end
 
@@ -89,19 +89,19 @@ ms.locfileid: "42255302"
 
 ::: moniker range="o365-worldwide"
 
-1. 관리 센터에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">공유 사서함</a> **그룹** \> 페이지로 이동 합니다.
+1. 관리 센터에서 **그룹** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">공유 사서함</a> 페이지로 이동합니다.
 
 ::: moniker-end 
 
 ::: moniker range="o365-germany"
 
-1. <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">관리 센터</a>에서 **공유 사서함** **그룹** > 페이지로 이동 합니다. 
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">관리 센터</a>에서 **그룹** > **공유 사서함** 페이지로 이동합니다. 
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">관리 센터</a>에서 **공유 사서함** **그룹** > 페이지로 이동 합니다. 
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">관리 센터</a>에서 **그룹** > **공유 사서함** 페이지로 이동합니다. 
 
 ::: moniker-end
 
@@ -126,19 +126,19 @@ ms.locfileid: "42255302"
 
 ::: moniker range="o365-worldwide"
 
-1. 관리 센터에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">공유 사서함</a> **그룹** \> 페이지로 이동 합니다.
+1. 관리 센터에서 **그룹** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">공유 사서함</a> 페이지로 이동합니다.
 
 ::: moniker-end 
 
 ::: moniker range="o365-germany"
 
-1. <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">관리 센터</a>에서 **공유 사서함** **그룹** > 페이지로 이동 합니다. 
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">관리 센터</a>에서 **그룹** > **공유 사서함** 페이지로 이동합니다. 
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">관리 센터</a>에서 **공유 사서함** **그룹** > 페이지로 이동 합니다. 
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">관리 센터</a>에서 **그룹** > **공유 사서함** 페이지로 이동합니다. 
 
 ::: moniker-end
 
@@ -155,19 +155,19 @@ ms.locfileid: "42255302"
 
 ::: moniker range="o365-worldwide"
 
-1. 관리 센터에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">공유 사서함</a> **그룹** \> 페이지로 이동 합니다.
+1. 관리 센터에서 **그룹** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">공유 사서함</a> 페이지로 이동합니다.
 
 ::: moniker-end 
 
 ::: moniker range="o365-germany"
 
-1. <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">관리 센터</a>에서 **공유 사서함** **그룹** > 페이지로 이동 합니다. 
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">관리 센터</a>에서 **그룹** > **공유 사서함** 페이지로 이동합니다. 
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">관리 센터</a>에서 **공유 사서함** **그룹** > 페이지로 이동 합니다. 
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">관리 센터</a>에서 **그룹** > **공유 사서함** 페이지로 이동합니다. 
 
 ::: moniker-end
 
@@ -184,19 +184,19 @@ ms.locfileid: "42255302"
 
 ::: moniker range="o365-worldwide"
 
-1. 관리 센터에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">공유 사서함</a> **그룹** \> 페이지로 이동 합니다.
+1. 관리 센터에서 **그룹** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">공유 사서함</a> 페이지로 이동합니다.
 
 ::: moniker-end 
 
 ::: moniker range="o365-germany"
 
-1. <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">관리 센터</a>에서 **공유 사서함** **그룹** > 페이지로 이동 합니다. 
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">관리 센터</a>에서 **그룹** > **공유 사서함** 페이지로 이동합니다. 
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">관리 센터</a>에서 **공유 사서함** **그룹** > 페이지로 이동 합니다. 
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">관리 센터</a>에서 **그룹** > **공유 사서함** 페이지로 이동합니다. 
 
 ::: moniker-end
 
@@ -212,19 +212,19 @@ ms.locfileid: "42255302"
 
 ::: moniker range="o365-worldwide"
 
-1. 관리 센터에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">공유 사서함</a> **그룹** \> 페이지로 이동 합니다.
+1. 관리 센터에서 **그룹** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">공유 사서함</a> 페이지로 이동합니다.
 
 ::: moniker-end 
 
 ::: moniker range="o365-germany"
 
-1. <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">관리 센터</a>에서 **공유 사서함** **그룹** > 페이지로 이동 합니다. 
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">관리 센터</a>에서 **그룹** > **공유 사서함** 페이지로 이동합니다. 
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">관리 센터</a>에서 **공유 사서함** **그룹** > 페이지로 이동 합니다. 
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">관리 센터</a>에서 **그룹** > **공유 사서함** 페이지로 이동합니다. 
 
 ::: moniker-end
 
@@ -244,19 +244,19 @@ ms.locfileid: "42255302"
 
 ::: moniker range="o365-worldwide"
 
-1. 관리 센터에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">공유 사서함</a> **그룹** \> 페이지로 이동 합니다.
+1. 관리 센터에서 **그룹** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2066847" target="_blank">공유 사서함</a> 페이지로 이동합니다.
 
 ::: moniker-end 
 
 ::: moniker range="o365-germany"
 
-1. <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">관리 센터</a>에서 **공유 사서함** **그룹** > 페이지로 이동 합니다. 
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=848041" target="_blank">관리 센터</a>에서 **그룹** > **공유 사서함** 페이지로 이동합니다. 
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">관리 센터</a>에서 **공유 사서함** **그룹** > 페이지로 이동 합니다. 
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">관리 센터</a>에서 **그룹** > **공유 사서함** 페이지로 이동합니다. 
 
 ::: moniker-end
 

@@ -6,7 +6,7 @@ ms.author: pebaum
 author: pebaum
 manager: mnirkhe
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: d8ff45a2-19e3-413d-aa64-a9982bd6633c
 description: 도메인을 확인 하 고 전자 메일, 비즈니스용 Skype Online에 대 한 DNS 레코드를 설정 하 고 Office 365에 대 한 Freenom에 있는 기타 서비스를 설치 하는 방법을 알아봅니다.
-ms.openlocfilehash: 16348eb03a6507e15d31d5c183bd91125d0236f6
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: d8c33df611a0ef1be95d32026f5d6b99808258f6
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42350669"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43211754"
 ---
 # <a name="create-dns-records-at-freenom-for-office-365"></a>Freenom에서 Office 365에 대 한 DNS 레코드 만들기
 
@@ -138,7 +138,7 @@ Office 365에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것
   
 8. 새 레코드의 상자에서 다음 표에 있는 첫 번째 행의 값을 입력하거나 복사하여 붙여넣습니다. 
     
-    |**이름**|**종류**|**TTL**|**Target(대상)**|**Priority(우선 순위)**|
+    |**이름**|**종류**|**TTL**|**Target(대상)**|**우선 순위**|
     |:-----|:-----|:-----|:-----|:-----|
     |(공백으로 둠)  <br/> |MX (Mail Exchanger)(MX(메일 교환기))  <br/> |3600 (초)  <br/> |\<\>mail.protection.outlook.com  <br/> **참고:** Office 365 계정에서 * \<도메인\> 키* 를 가져옵니다.   [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)          |10   <br/> 우선 순위에 대한 자세한 내용은 [MX 우선 순위란?](https://support.office.com/article/17d415c1-067e-4974-84d5-aaeaf3a0c0a9)을 참조하세요. <br/> |
    
@@ -223,7 +223,7 @@ Office 365에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것
     
     |**이름**|**Record type(레코드 종류)**|**TTL**|**Target(대상)**|
     |:-----|:-----|:-----|:-----|
-    |(공백으로 둠)  <br/> |TXT  <br/> |3600 (초)  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/>**참고: ** 모든 간격이 올바르게 유지되도록 이 항목을 복사하여 붙여넣는 것이 좋습니다.           |
+    |(공백으로 둠)  <br/> |TXT  <br/> |3600 (초)  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/>**참고:** 모든 공백이 올바르게 유지되도록 이 항목을 복사하여 붙여 넣는 것이 좋습니다.           |
    
     ![SPF의 freenom TXT 값](../../media/1b3b1199-9104-4ca1-acdb-786d139c21ac.png)
   

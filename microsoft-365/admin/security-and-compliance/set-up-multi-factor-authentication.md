@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: 8f0454b2-f51a-4d9c-bcde-2c48e41621c6
 description: 보안 기본값을 사용하여 Office 365 사용자의 다단계 인증을 설정하는 방법을 알아봅니다.
 monikerRange: o365-worldwide
-ms.openlocfilehash: 331552a4de21198fe7fbc9980e89bfcd87449ffa
-ms.sourcegitcommit: e525bcf073a61e1350484719a0c3ceb6ff0d8db1
+ms.openlocfilehash: 5f468f040ca88ab4ab2bc198d0d7550bf2e7f4af
+ms.sourcegitcommit: 8a88b7526e6a3a907f33a8567e0d25b74fe60d80
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43153559"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43204025"
 ---
 # <a name="set-up-multi-factor-authentication"></a>다단계 인증 설정
   
@@ -68,11 +68,11 @@ ms.locfileid: "43153559"
 
 ## <a name="move-from-baseline-policies-to-security-defaults"></a>기본 정책에서 보안 기본값으로 이동
 
-1. [관리 센터](https://go.microsoft.com/fwlink/p/?linkid=834822)에서 **설정**을 선택합니다.
+1. [관리 센터](https://go.microsoft.com/fwlink/p/?linkid=834822)에서 **모두 표시**및 **관리 센터**아래의 **Azure Active Directory** 를 선택 합니다.
 
-2. **로그인 및 보안**옆의 **더욱 안전하게 로그인**에서 **보기**를 선택합니다.
+2. **Azure active directory 관리 센터** 에서 **azure active directory** > **보안**을 선택 합니다.
 
-3. **더욱 안전하게 로그인**에서 **관리**를 선택합니다. 
+3. **보안 | 시작** 페이지에서 **조건부 액세스**를 선택 합니다. 
 
 4. **Azure 포털 조건부 액세스 정책** 페이지에서 **켬**으로 되어 있는 각 기본 정책을 선택하고 이 정책들을 **끔**으로 설정합니다.
 5. [Azure Active Directory 속성](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Properties) 페이지로 이동합니다.
