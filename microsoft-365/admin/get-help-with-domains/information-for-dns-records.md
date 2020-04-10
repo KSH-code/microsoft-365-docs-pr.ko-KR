@@ -6,7 +6,7 @@ ms.author: pebaum
 author: pebaum
 manager: mnirkhe
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -22,69 +22,69 @@ search.appverid:
 ms.assetid: 77f90d4a-dc7f-4f09-8972-c1b03ea85a67
 description: 'Office 365에 대 한 DNS 레코드를 만드는 데 필요한 값/정보를 확인 하는 방법을 설명 합니다. '
 ms.custom: okr_smb
-ms.openlocfilehash: d6093dd8a7e8d901be7b172a31dcd0e56c549ab3
-ms.sourcegitcommit: 732bb72a0b5ae09cb39536185aa29d6097ec72fd
+ms.openlocfilehash: 2490532894ef00bab5de3f406b0c104529423382
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "43188994"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43210383"
 ---
-# <a name="gather-the-information-you-need-to-create-office-365-dns-records"></a><span data-ttu-id="03b9b-103">Office 365 DNS 레코드를 만드는 데 필요한 정보 수집</span><span class="sxs-lookup"><span data-stu-id="03b9b-103">Gather the information you need to create Office 365 DNS records</span></span>
+# <a name="gather-the-information-you-need-to-create-office-365-dns-records"></a><span data-ttu-id="031f9-103">Office 365 DNS 레코드를 만드는 데 필요한 정보 수집</span><span class="sxs-lookup"><span data-stu-id="031f9-103">Gather the information you need to create Office 365 DNS records</span></span>
 
- <span data-ttu-id="03b9b-104">원하는 정보를 찾지 못한 경우 **[도메인 FAQ를 확인](../setup/domains-faq.md)** 하세요.</span><span class="sxs-lookup"><span data-stu-id="03b9b-104">**[Check the Domains FAQ](../setup/domains-faq.md)** if you don't find what you're looking for.</span></span> 
+ <span data-ttu-id="031f9-104">원하는 정보를 찾지 못한 경우 **[도메인 FAQ를 확인](../setup/domains-faq.md)** 하세요.</span><span class="sxs-lookup"><span data-stu-id="031f9-104">**[Check the Domains FAQ](../setup/domains-faq.md)** if you don't find what you're looking for.</span></span> 
   
-### <a name="step-1-find-the-txt-record-value-and-verify"></a><span data-ttu-id="03b9b-105">1 단계: TXT 레코드 값을 찾아서 확인</span><span class="sxs-lookup"><span data-stu-id="03b9b-105">Step 1: Find the TXT record value and verify</span></span>
+### <a name="step-1-find-the-txt-record-value-and-verify"></a><span data-ttu-id="031f9-105">1 단계: TXT 레코드 값을 찾아서 확인</span><span class="sxs-lookup"><span data-stu-id="031f9-105">Step 1: Find the TXT record value and verify</span></span>
 
-1. <span data-ttu-id="03b9b-106">Microsoft 365 관리 센터에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">도메인</a> **설정** \> 페이지로 이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="03b9b-106">In the Microsoft 365 admin center, go to the **Setup** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domains</a> page.</span></span>
+1. <span data-ttu-id="031f9-106">Microsoft 365 관리 센터에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">도메인</a> **설정** \> 페이지로 이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="031f9-106">In the Microsoft 365 admin center, go to the **Setup** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domains</a> page.</span></span>
 
 ::: moniker range="o365-germany"
 
-1. <span data-ttu-id="03b9b-107">관리 센터에서이 <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">도메인</a> 페이지로 이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="03b9b-107">In the admin center, go to this <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">Domains</a> page.</span></span>
+1. <span data-ttu-id="031f9-107">관리 센터에서이 <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">도메인</a> 페이지로 이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="031f9-107">In the admin center, go to this <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">Domains</a> page.</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. <span data-ttu-id="03b9b-108">관리 센터에서이 <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">도메인</a> 페이지로 이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="03b9b-108">In the admin center, go to this <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">Domains</a> page.</span></span>
+1. <span data-ttu-id="031f9-108">관리 센터에서이 <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">도메인</a> 페이지로 이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="031f9-108">In the admin center, go to this <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">Domains</a> page.</span></span>
 
 ::: moniker-end
     
-2. <span data-ttu-id="03b9b-109">**도메인** 페이지에서 도메인을 선택한 다음 **설치 시작**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="03b9b-109">On the **Domains** page, select your domain, then select **Start setup**.</span></span> <span data-ttu-id="03b9b-110">추가해야 하는 특정 값을 확인하려면 도메인 설정 마법사로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="03b9b-110">You'll go back to the domains setup wizard to see the specific value you need to add.</span></span>
+2. <span data-ttu-id="031f9-109">**도메인** 페이지에서 도메인을 선택한 다음 **설치 시작**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="031f9-109">On the **Domains** page, select your domain, then select **Start setup**.</span></span> <span data-ttu-id="031f9-110">추가해야 하는 특정 값을 확인하려면 도메인 설정 마법사로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="031f9-110">You'll go back to the domains setup wizard to see the specific value you need to add.</span></span>
     
-3. <span data-ttu-id="03b9b-111">**도메인 확인** 페이지에서 **대신 TXT 레코드 추가**를 선택 하 고 **다음**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="03b9b-111">On the **Verify domain** page, select **Add a TXT record instead**, then select **Next**.</span></span>
+3. <span data-ttu-id="031f9-111">**도메인 확인** 페이지에서 **대신 TXT 레코드 추가**를 선택 하 고 **다음**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="031f9-111">On the **Verify domain** page, select **Add a TXT record instead**, then select **Next**.</span></span>
     
-4. <span data-ttu-id="03b9b-112">표시 된 **TXT 값** 을 복사 합니다.</span><span class="sxs-lookup"><span data-stu-id="03b9b-112">Copy the **TXT value** shown.</span></span> <span data-ttu-id="03b9b-113">**MS = msXXXXXXXX**를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="03b9b-113">It looks like this: **MS=msXXXXXXXX**.</span></span> 
+4. <span data-ttu-id="031f9-112">표시 된 **TXT 값** 을 복사 합니다.</span><span class="sxs-lookup"><span data-stu-id="031f9-112">Copy the **TXT value** shown.</span></span> <span data-ttu-id="031f9-113">**MS = msXXXXXXXX**를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="031f9-113">It looks like this: **MS=msXXXXXXXX**.</span></span> 
     
-5. <span data-ttu-id="03b9b-114">[Dns 호스팅 공급자에서 dns 레코드 만들기](create-dns-records-at-any-dns-hosting-provider.md)로 이동 하 여 등록 기관 목록에서 dns 호스트를 선택 하 여 단계별 지침을 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="03b9b-114">Go to [Create DNS records at any DNS hosting provider](create-dns-records-at-any-dns-hosting-provider.md), and select your DNS host from the list of registrars to see the step-by-step instructions.</span></span>
+5. <span data-ttu-id="031f9-114">[Dns 호스팅 공급자에서 dns 레코드 만들기](create-dns-records-at-any-dns-hosting-provider.md)로 이동 하 여 등록 기관 목록에서 dns 호스트를 선택 하 여 단계별 지침을 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="031f9-114">Go to [Create DNS records at any DNS hosting provider](create-dns-records-at-any-dns-hosting-provider.md), and select your DNS host from the list of registrars to see the step-by-step instructions.</span></span>
     
-6. <span data-ttu-id="03b9b-115">DNS 호스트에서 TXT 레코드(또는 MX 레코드)를 만들기 위한 단계를 따른 다음 Office 365에서 도메인을 다시 확인합니다.</span><span class="sxs-lookup"><span data-stu-id="03b9b-115">Follow the steps for creating the TXT record (or MX record) at your DNS host, then verify the domain back in Office 365.</span></span>
+6. <span data-ttu-id="031f9-115">DNS 호스트에서 TXT 레코드(또는 MX 레코드)를 만들기 위한 단계를 따른 다음 Office 365에서 도메인을 다시 확인합니다.</span><span class="sxs-lookup"><span data-stu-id="031f9-115">Follow the steps for creating the TXT record (or MX record) at your DNS host, then verify the domain back in Office 365.</span></span>
 
-7. <span data-ttu-id="03b9b-116">Office 365에서 도메인을 확인 한 후 DNS 호스트에서 TXT 레코드 (또는 MX 레코드)를 제거 합니다.</span><span class="sxs-lookup"><span data-stu-id="03b9b-116">Remove the TXT record (or MX record) from your DNS host once the domain is verified in Office 365.</span></span>
+7. <span data-ttu-id="031f9-116">Office 365에서 도메인을 확인 한 후 DNS 호스트에서 TXT 레코드 (또는 MX 레코드)를 제거 합니다.</span><span class="sxs-lookup"><span data-stu-id="031f9-116">Remove the TXT record (or MX record) from your DNS host once the domain is verified in Office 365.</span></span>
     
-### <a name="step-2-find-the-mx-record-value-for-email-and-more"></a><span data-ttu-id="03b9b-117">2 단계: 전자 메일에 대 한 MX 레코드 값 찾기</span><span class="sxs-lookup"><span data-stu-id="03b9b-117">Step 2: Find the MX record value for email and more</span></span>
+### <a name="step-2-find-the-mx-record-value-for-email-and-more"></a><span data-ttu-id="031f9-117">2 단계: 전자 메일에 대 한 MX 레코드 값 찾기</span><span class="sxs-lookup"><span data-stu-id="031f9-117">Step 2: Find the MX record value for email and more</span></span>
 
-1. <span data-ttu-id="03b9b-118">Microsoft 365 관리 센터에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">도메인</a> **설정** \> 페이지로 이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="03b9b-118">In the Microsoft 365 admin center, go to the **Setup** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domains</a> page.</span></span>
+1. <span data-ttu-id="031f9-118">Microsoft 365 관리 센터에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">도메인</a> **설정** \> 페이지로 이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="031f9-118">In the Microsoft 365 admin center, go to the **Setup** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domains</a> page.</span></span>
     
 ::: moniker range="o365-germany"
 
-1. <span data-ttu-id="03b9b-119">관리 센터에서이 <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">도메인</a> 페이지로 이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="03b9b-119">In the admin center, go to this <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">Domains</a> page.</span></span>
+1. <span data-ttu-id="031f9-119">관리 센터에서이 <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">도메인</a> 페이지로 이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="031f9-119">In the admin center, go to this <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">Domains</a> page.</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. <span data-ttu-id="03b9b-120">관리 센터에서이 <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">도메인</a> 페이지로 이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="03b9b-120">In the admin center, go to this <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">Domains</a> page.</span></span>
+1. <span data-ttu-id="031f9-120">관리 센터에서이 <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">도메인</a> 페이지로 이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="031f9-120">In the admin center, go to this <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">Domains</a> page.</span></span>
 
 ::: moniker-end
     
-2. <span data-ttu-id="03b9b-121">**도메인** 페이지에서 도메인을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="03b9b-121">On the **Domains** page, select your domain.</span></span> 
+2. <span data-ttu-id="031f9-121">**도메인** 페이지에서 도메인을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="031f9-121">On the **Domains** page, select your domain.</span></span> 
     
-3. <span data-ttu-id="03b9b-122">**필수 DNS 설정**에서 추가할 DNS 레코드를 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="03b9b-122">Under **Required DNS settings**, you'll see the DNS records to add.</span></span>
+3. <span data-ttu-id="031f9-122">**필수 DNS 설정**에서 추가할 DNS 레코드를 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="031f9-122">Under **Required DNS settings**, you'll see the DNS records to add.</span></span>
     
-    <span data-ttu-id="03b9b-123">DNS 호스트에서 변경하는 동안 이 정보를 사용할 수 있도록 유지하여 값을 복사하고 붙여 넣을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="03b9b-123">You'll want to keep this information available while you make changes at your DNS host, so you can copy and paste the values.</span></span>
+    <span data-ttu-id="031f9-123">DNS 호스트에서 변경하는 동안 이 정보를 사용할 수 있도록 유지하여 값을 복사하고 붙여 넣을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="031f9-123">You'll want to keep this information available while you make changes at your DNS host, so you can copy and paste the values.</span></span>
     
-    <span data-ttu-id="03b9b-124">이 페이지에 나열되는 DNS 레코드 그룹은 **도메인 용도** 아래에 나열된 선택 사항에 따라 달라집니다.</span><span class="sxs-lookup"><span data-stu-id="03b9b-124">The groups of DNS records that are listed on the page depend on your choices listed under **Domain purpose**.</span></span>
+    <span data-ttu-id="031f9-124">이 페이지에 나열되는 DNS 레코드 그룹은 **도메인 용도** 아래에 나열된 선택 사항에 따라 달라집니다.</span><span class="sxs-lookup"><span data-stu-id="031f9-124">The groups of DNS records that are listed on the page depend on your choices listed under **Domain purpose**.</span></span>
     
-4. <span data-ttu-id="03b9b-125">Dns [호스팅 공급자에서 dns 레코드 만들기](create-dns-records-at-any-dns-hosting-provider.md)로 이동 하 여 등록 기관 목록에서 dns 호스트를 선택 하면 해당 dns 호스트 웹 사이트에서 레코드를 추가 하는 단계별 지침을 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="03b9b-125">Go to [Create DNS records at any DNS hosting provider](create-dns-records-at-any-dns-hosting-provider.md), and then select your DNS host from the list of registrars to see step-by-step instructions for adding records at that DNS host's website.</span></span>
+4. <span data-ttu-id="031f9-125">Dns [호스팅 공급자에서 dns 레코드 만들기](create-dns-records-at-any-dns-hosting-provider.md)로 이동 하 여 등록 기관 목록에서 dns 호스트를 선택 하면 해당 dns 호스트 웹 사이트에서 레코드를 추가 하는 단계별 지침을 볼 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="031f9-125">Go to [Create DNS records at any DNS hosting provider](create-dns-records-at-any-dns-hosting-provider.md), and then select your DNS host from the list of registrars to see step-by-step instructions for adding records at that DNS host's website.</span></span>
     
-5. <span data-ttu-id="03b9b-126">DNS 호스트에서 레코드를 만들기 위한 단계를 따릅니다.</span><span class="sxs-lookup"><span data-stu-id="03b9b-126">Follow the steps for creating the records at your DNS host.</span></span>
+5. <span data-ttu-id="031f9-126">DNS 호스트에서 레코드를 만들기 위한 단계를 따릅니다.</span><span class="sxs-lookup"><span data-stu-id="031f9-126">Follow the steps for creating the records at your DNS host.</span></span>

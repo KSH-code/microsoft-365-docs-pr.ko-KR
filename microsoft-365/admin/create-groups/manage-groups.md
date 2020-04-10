@@ -6,7 +6,7 @@ ms.author: mikeplum
 author: MikePlumleyMSFT
 manager: pamgreen
 audience: Admin
-ms.topic: get-started-article
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -19,187 +19,187 @@ search.appverid:
 - MOE150
 ms.assetid: 74a1ef8b-3844-4d08-9980-9f8f7a36000f
 description: 그룹 구성원 제거, 전자 메일 주소, 그룹 이름 또는 설명 편집, 그룹 작동 방식 사용자 지정 등 Office 365 그룹을 관리 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 189a41c5049110100b548ca6f906b1324aeb1431
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: 34682d3d06babca04a9b2541e3f33ec79d934f50
+ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42894530"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43212072"
 ---
-# <a name="manage-an-office-365-group-in-the-microsoft-365-admin-center"></a><span data-ttu-id="c8306-103">Microsoft 365 관리 센터에서 Office 365 그룹 관리</span><span class="sxs-lookup"><span data-stu-id="c8306-103">Manage an Office 365 group in the Microsoft 365 admin center</span></span>
+# <a name="manage-an-office-365-group-in-the-microsoft-365-admin-center"></a><span data-ttu-id="5776d-103">Microsoft 365 관리 센터에서 Office 365 그룹 관리</span><span class="sxs-lookup"><span data-stu-id="5776d-103">Manage an Office 365 group in the Microsoft 365 admin center</span></span>
 
-<span data-ttu-id="c8306-104">[Office 365 그룹을 만들고](create-groups.md) 그룹 구성원을 추가한 후에는 그룹을 구성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c8306-104">After you have [created an Office 365 group](create-groups.md) and added group members, you can configure your group.</span></span> <span data-ttu-id="c8306-105">그룹 이름 또는 설명을 편집 하 고, 소유자 또는 구성원을 관리 하 고, 외부 보낸 사람이 그룹에 전자 메일을 보낼 수 있는지 여부와 그룹 대화의 복사본을 구성원에 게 보낼지 여부를 지정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c8306-105">You can edit the group name or description, manage owners or members, and specify whether external senders can email the group and whether to send copies of group conversations to members.</span></span> 
+<span data-ttu-id="5776d-104">[Office 365 그룹을 만들고](create-groups.md) 그룹 구성원을 추가한 후에는 그룹을 구성할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="5776d-104">After you have [created an Office 365 group](create-groups.md) and added group members, you can configure your group.</span></span> <span data-ttu-id="5776d-105">그룹 이름 또는 설명을 편집 하 고, 소유자 또는 구성원을 관리 하 고, 외부 보낸 사람이 그룹에 전자 메일을 보낼 수 있는지 여부와 그룹 대화의 복사본을 구성원에 게 보낼지 여부를 지정할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="5776d-105">You can edit the group name or description, manage owners or members, and specify whether external senders can email the group and whether to send copies of group conversations to members.</span></span> 
 
-## <a name="edit-the-group-name-or-description"></a><span data-ttu-id="c8306-106">그룹 이름 또는 설명 편집</span><span class="sxs-lookup"><span data-stu-id="c8306-106">Edit the group name or description</span></span>
+## <a name="edit-the-group-name-or-description"></a><span data-ttu-id="5776d-106">그룹 이름 또는 설명 편집</span><span class="sxs-lookup"><span data-stu-id="5776d-106">Edit the group name or description</span></span>
 
 ::: moniker range="o365-worldwide"
 
-1. <span data-ttu-id="c8306-107">관리 센터에서 **그룹**을 확장 한 다음 **그룹**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="c8306-107">In the admin center, expand **Groups**, and then click **Groups**.</span></span>
+1. <span data-ttu-id="5776d-107">관리 센터에서 **그룹**을 확장 한 다음 **그룹**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="5776d-107">In the admin center, expand **Groups**, and then click **Groups**.</span></span>
 
-2. <span data-ttu-id="c8306-108">편집 하려는 그룹을 선택 하 고 **이름 및 설명 편집**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="c8306-108">Select the group that you want to edit, and then click **Edit name and description**.</span></span>
+2. <span data-ttu-id="5776d-108">편집 하려는 그룹을 선택 하 고 **이름 및 설명 편집**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="5776d-108">Select the group that you want to edit, and then click **Edit name and description**.</span></span>
 
-3. <span data-ttu-id="c8306-109">이름 및 설명을 업데이트 한 다음 **저장**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="c8306-109">Update the name and description, and then select **Save**.</span></span>
+3. <span data-ttu-id="5776d-109">이름 및 설명을 업데이트 한 다음 **저장**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="5776d-109">Update the name and description, and then select **Save**.</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. <span data-ttu-id="c8306-110">관리 센터에서 **그룹**을 확장 한 다음 **그룹**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="c8306-110">In the admin center, expand **Groups**, and then click **Groups**.</span></span>
+1. <span data-ttu-id="5776d-110">관리 센터에서 **그룹**을 확장 한 다음 **그룹**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="5776d-110">In the admin center, expand **Groups**, and then click **Groups**.</span></span>
 
-2. <span data-ttu-id="c8306-111">편집 하려는 그룹을 선택 하 고 **이름 및 설명 편집**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="c8306-111">Select the group that you want to edit, and then click **Edit name and description**.</span></span>
+2. <span data-ttu-id="5776d-111">편집 하려는 그룹을 선택 하 고 **이름 및 설명 편집**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="5776d-111">Select the group that you want to edit, and then click **Edit name and description**.</span></span>
 
-3. <span data-ttu-id="c8306-112">이름 및 설명을 업데이트 한 다음 **저장**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="c8306-112">Update the name and description, and then select **Save**.</span></span>
+3. <span data-ttu-id="5776d-112">이름 및 설명을 업데이트 한 다음 **저장**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="5776d-112">Update the name and description, and then select **Save**.</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. <span data-ttu-id="c8306-113">관리 센터에서 **그룹**을 확장 한 다음 **그룹**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="c8306-113">In the admin center, expand **Groups**, and then click **Groups**.</span></span>
+1. <span data-ttu-id="5776d-113">관리 센터에서 **그룹**을 확장 한 다음 **그룹**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="5776d-113">In the admin center, expand **Groups**, and then click **Groups**.</span></span>
 
-2. <span data-ttu-id="c8306-114">편집 하려는 그룹을 선택 하 고 **이름 및 설명 편집**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="c8306-114">Select the group that you want to edit, and then click **Edit name and description**.</span></span>
+2. <span data-ttu-id="5776d-114">편집 하려는 그룹을 선택 하 고 **이름 및 설명 편집**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="5776d-114">Select the group that you want to edit, and then click **Edit name and description**.</span></span>
 
-3. <span data-ttu-id="c8306-115">이름 및 설명을 업데이트 한 다음 **저장**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="c8306-115">Update the name and description, and then select **Save**.</span></span>
+3. <span data-ttu-id="5776d-115">이름 및 설명을 업데이트 한 다음 **저장**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="5776d-115">Update the name and description, and then select **Save**.</span></span>
 
 ::: moniker-end
 
-## <a name="manage-group-owners-and-members"></a><span data-ttu-id="c8306-116">그룹 소유자 및 구성원 관리</span><span class="sxs-lookup"><span data-stu-id="c8306-116">Manage group owners and members</span></span>
+## <a name="manage-group-owners-and-members"></a><span data-ttu-id="5776d-116">그룹 소유자 및 구성원 관리</span><span class="sxs-lookup"><span data-stu-id="5776d-116">Manage group owners and members</span></span>
 
 ::: moniker range="o365-worldwide"
 
-1. <span data-ttu-id="c8306-117">관리 센터에서 **그룹**을 확장 한 다음 **그룹**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="c8306-117">In the admin center, expand **Groups**, and then click **Groups**.</span></span>
+1. <span data-ttu-id="5776d-117">관리 센터에서 **그룹**을 확장 한 다음 **그룹**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="5776d-117">In the admin center, expand **Groups**, and then click **Groups**.</span></span>
 
-2. <span data-ttu-id="c8306-118">관리 하려는 그룹의 이름을 클릭 하 여 설정 창을 엽니다.</span><span class="sxs-lookup"><span data-stu-id="c8306-118">Click the name of the group you want to manage to open the settings pane.</span></span>
+2. <span data-ttu-id="5776d-118">관리 하려는 그룹의 이름을 클릭 하 여 설정 창을 엽니다.</span><span class="sxs-lookup"><span data-stu-id="5776d-118">Click the name of the group you want to manage to open the settings pane.</span></span>
 
-3. <span data-ttu-id="c8306-119">**구성원** 탭에서 소유자 또는 구성원을 관리할 것인지를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="c8306-119">On the **Members** tab, choose if you want to manage owners or members.</span></span>
+3. <span data-ttu-id="5776d-119">**구성원** 탭에서 소유자 또는 구성원을 관리할 것인지를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="5776d-119">On the **Members** tab, choose if you want to manage owners or members.</span></span>
 
-4. <span data-ttu-id="c8306-120">다른 사람을 추가 하려면 **추가** 를 선택 하 고, 다른 사람을 제거 하려면 **X** 를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="c8306-120">Choose **Add** to add someone or click **X** to remove someone.</span></span>
+4. <span data-ttu-id="5776d-120">다른 사람을 추가 하려면 **추가** 를 선택 하 고, 다른 사람을 제거 하려면 **X** 를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="5776d-120">Choose **Add** to add someone or click **X** to remove someone.</span></span>
 
-5. <span data-ttu-id="c8306-121">**닫기**를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="c8306-121">Click **Close**.</span></span>
+5. <span data-ttu-id="5776d-121">**닫기**를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="5776d-121">Click **Close**.</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. <span data-ttu-id="c8306-122">관리 센터에서 **그룹**을 확장 한 다음 **그룹**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="c8306-122">In the admin center, expand **Groups**, and then click **Groups**.</span></span>
+1. <span data-ttu-id="5776d-122">관리 센터에서 **그룹**을 확장 한 다음 **그룹**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="5776d-122">In the admin center, expand **Groups**, and then click **Groups**.</span></span>
 
-2. <span data-ttu-id="c8306-123">관리 하려는 그룹의 이름을 클릭 하 여 설정 창을 엽니다.</span><span class="sxs-lookup"><span data-stu-id="c8306-123">Click the name of the group you want to manage to open the settings pane.</span></span>
+2. <span data-ttu-id="5776d-123">관리 하려는 그룹의 이름을 클릭 하 여 설정 창을 엽니다.</span><span class="sxs-lookup"><span data-stu-id="5776d-123">Click the name of the group you want to manage to open the settings pane.</span></span>
 
-3. <span data-ttu-id="c8306-124">**구성원** 탭에서 소유자 또는 구성원을 관리할 것인지를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="c8306-124">On the **Members** tab, choose if you want to manage owners or members.</span></span>
+3. <span data-ttu-id="5776d-124">**구성원** 탭에서 소유자 또는 구성원을 관리할 것인지를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="5776d-124">On the **Members** tab, choose if you want to manage owners or members.</span></span>
 
-4. <span data-ttu-id="c8306-125">다른 사람을 추가 하려면 **추가** 를 선택 하 고, 다른 사람을 제거 하려면 **X** 를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="c8306-125">Choose **Add** to add someone or click **X** to remove someone.</span></span>
+4. <span data-ttu-id="5776d-125">다른 사람을 추가 하려면 **추가** 를 선택 하 고, 다른 사람을 제거 하려면 **X** 를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="5776d-125">Choose **Add** to add someone or click **X** to remove someone.</span></span>
 
-5. <span data-ttu-id="c8306-126">**닫기**를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="c8306-126">Click **Close**.</span></span>
+5. <span data-ttu-id="5776d-126">**닫기**를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="5776d-126">Click **Close**.</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. <span data-ttu-id="c8306-127">관리 센터에서 **그룹**을 확장 한 다음 **그룹**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="c8306-127">In the admin center, expand **Groups**, and then click **Groups**.</span></span>
+1. <span data-ttu-id="5776d-127">관리 센터에서 **그룹**을 확장 한 다음 **그룹**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="5776d-127">In the admin center, expand **Groups**, and then click **Groups**.</span></span>
 
-2. <span data-ttu-id="c8306-128">관리 하려는 그룹의 이름을 클릭 하 여 설정 창을 엽니다.</span><span class="sxs-lookup"><span data-stu-id="c8306-128">Click the name of the group you want to manage to open the settings pane.</span></span>
+2. <span data-ttu-id="5776d-128">관리 하려는 그룹의 이름을 클릭 하 여 설정 창을 엽니다.</span><span class="sxs-lookup"><span data-stu-id="5776d-128">Click the name of the group you want to manage to open the settings pane.</span></span>
 
-3. <span data-ttu-id="c8306-129">**구성원** 탭에서 소유자 또는 구성원을 관리할 것인지를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="c8306-129">On the **Members** tab, choose if you want to manage owners or members.</span></span>
+3. <span data-ttu-id="5776d-129">**구성원** 탭에서 소유자 또는 구성원을 관리할 것인지를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="5776d-129">On the **Members** tab, choose if you want to manage owners or members.</span></span>
 
-4. <span data-ttu-id="c8306-130">다른 사람을 추가 하려면 **추가** 를 선택 하 고, 다른 사람을 제거 하려면 **X** 를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="c8306-130">Choose **Add** to add someone or click **X** to remove someone.</span></span>
+4. <span data-ttu-id="5776d-130">다른 사람을 추가 하려면 **추가** 를 선택 하 고, 다른 사람을 제거 하려면 **X** 를 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="5776d-130">Choose **Add** to add someone or click **X** to remove someone.</span></span>
 
-5. <span data-ttu-id="c8306-131">**닫기**를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="c8306-131">Click **Close**.</span></span>
+5. <span data-ttu-id="5776d-131">**닫기**를 클릭합니다.</span><span class="sxs-lookup"><span data-stu-id="5776d-131">Click **Close**.</span></span>
 
 ::: moniker-end
 
-## <a name="send-copies-of-conversations-to-group-members-inboxes"></a><span data-ttu-id="c8306-132">그룹 구성원의 받은 편지함에 대화 복사본 보내기</span><span class="sxs-lookup"><span data-stu-id="c8306-132">Send copies of conversations to group members' inboxes</span></span>
+## <a name="send-copies-of-conversations-to-group-members-inboxes"></a><span data-ttu-id="5776d-132">그룹 구성원의 받은 편지함에 대화 복사본 보내기</span><span class="sxs-lookup"><span data-stu-id="5776d-132">Send copies of conversations to group members' inboxes</span></span>
   
-<span data-ttu-id="c8306-133">관리 센터를 사용 하 여 그룹을 만들 때 기본적으로 사용자는 받은 편지함에 보낸 그룹 전자 메일 및 모임 초대의 복사본을 가져오지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="c8306-133">When you use the admin center to create a group, by default users  do not get copies of group emails and meeting invitations sent to their inboxes.</span></span> <span data-ttu-id="c8306-134">대화 및 모임을 보려면 그룹으로 이동 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="c8306-134">They'll need to go to the group to see conversations and meetings.</span></span> <span data-ttu-id="c8306-135">관리 센터에서이 설정을 변경할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c8306-135">You can change this setting in the admin center.</span></span>
+<span data-ttu-id="5776d-133">관리 센터를 사용 하 여 그룹을 만들 때 기본적으로 사용자는 받은 편지함에 보낸 그룹 전자 메일 및 모임 초대의 복사본을 가져오지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="5776d-133">When you use the admin center to create a group, by default users  do not get copies of group emails and meeting invitations sent to their inboxes.</span></span> <span data-ttu-id="5776d-134">대화 및 모임을 보려면 그룹으로 이동 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="5776d-134">They'll need to go to the group to see conversations and meetings.</span></span> <span data-ttu-id="5776d-135">관리 센터에서이 설정을 변경할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="5776d-135">You can change this setting in the admin center.</span></span>
 
-<span data-ttu-id="c8306-136">이 설정을 사용 하도록 설정 하면 그룹 구성원은 Outlook 받은 편지함에 보낸 그룹 전자 메일 및 모임 초대의 복사본을 받게 됩니다.</span><span class="sxs-lookup"><span data-stu-id="c8306-136">When you turn this setting on, group members will get a copy of group emails and meeting invitations sent to their Outlook Inbox.</span></span> <span data-ttu-id="c8306-137">전자 메일의 복사본을 읽고 삭제할 수 있으며 다른 사람에게 영향을 주지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="c8306-137">They can read and delete this copy of the email and not affect anyone else.</span></span> <span data-ttu-id="c8306-138">그룹 받은 편지함에는 전자 메일 복사본이 남아 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c8306-138">In the Group inbox, a copy of the email still exists.</span></span>
+<span data-ttu-id="5776d-136">이 설정을 사용 하도록 설정 하면 그룹 구성원은 Outlook 받은 편지함에 보낸 그룹 전자 메일 및 모임 초대의 복사본을 받게 됩니다.</span><span class="sxs-lookup"><span data-stu-id="5776d-136">When you turn this setting on, group members will get a copy of group emails and meeting invitations sent to their Outlook Inbox.</span></span> <span data-ttu-id="5776d-137">전자 메일의 복사본을 읽고 삭제할 수 있으며 다른 사람에게 영향을 주지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="5776d-137">They can read and delete this copy of the email and not affect anyone else.</span></span> <span data-ttu-id="5776d-138">그룹 받은 편지함에는 전자 메일 복사본이 남아 있습니다.</span><span class="sxs-lookup"><span data-stu-id="5776d-138">In the Group inbox, a copy of the email still exists.</span></span>
 
-<span data-ttu-id="c8306-139">그룹 구성원은 Outlook에서 그룹 팔 로우를 중지 하도록 선택 하 여 이러한 전자 메일 수신을 거부할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="c8306-139">Group members can opt out of receiving these emails by choosing to stop following the group in Outlook.</span></span>
+<span data-ttu-id="5776d-139">그룹 구성원은 Outlook에서 그룹 팔 로우를 중지 하도록 선택 하 여 이러한 전자 메일 수신을 거부할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="5776d-139">Group members can opt out of receiving these emails by choosing to stop following the group in Outlook.</span></span>
 
 ::: moniker range="o365-worldwide"
 
-1. <span data-ttu-id="c8306-140">관리 센터에서 **그룹**을 확장 한 다음 **그룹**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="c8306-140">In the admin center, expand **Groups**, and then click **Groups**.</span></span>
+1. <span data-ttu-id="5776d-140">관리 센터에서 **그룹**을 확장 한 다음 **그룹**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="5776d-140">In the admin center, expand **Groups**, and then click **Groups**.</span></span>
 
-2. <span data-ttu-id="c8306-141">관리 하려는 그룹의 이름을 클릭 하 여 설정 창을 엽니다.</span><span class="sxs-lookup"><span data-stu-id="c8306-141">Click the name of the group you want to manage to open the settings pane.</span></span>
+2. <span data-ttu-id="5776d-141">관리 하려는 그룹의 이름을 클릭 하 여 설정 창을 엽니다.</span><span class="sxs-lookup"><span data-stu-id="5776d-141">Click the name of the group you want to manage to open the settings pane.</span></span>
 
-3. <span data-ttu-id="c8306-142">구성원 들이 자신의 받은 편지함에서 그룹 메시지 및 일정 항목의 복사본을 받도록 하려면 **설정** 탭에서 그룹 **대화 및 이벤트의 복사본을 그룹 구성원에 게 보냅니다 .를** 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="c8306-142">On the **Settings** tab, select **Send copies of group conversations and events to group members** if you want members to receive copies of group messages and calendar items in their own inbox.</span></span>
+3. <span data-ttu-id="5776d-142">구성원 들이 자신의 받은 편지함에서 그룹 메시지 및 일정 항목의 복사본을 받도록 하려면 **설정** 탭에서 그룹 **대화 및 이벤트의 복사본을 그룹 구성원에 게 보냅니다 .를** 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="5776d-142">On the **Settings** tab, select **Send copies of group conversations and events to group members** if you want members to receive copies of group messages and calendar items in their own inbox.</span></span>
 
-4. <span data-ttu-id="c8306-143">**저장**을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="c8306-143">Select **Save**.</span></span>
+4. <span data-ttu-id="5776d-143">**저장**을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="5776d-143">Select **Save**.</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. <span data-ttu-id="c8306-144">관리 센터에서 **그룹** \> **그룹** 페이지로 이동한 다음 변경할 그룹을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="c8306-144">In the admin center, go to the **Groups** \> **Groups** page, and then select the group you want to change.</span></span>
+1. <span data-ttu-id="5776d-144">관리 센터에서 **그룹** \> **그룹** 페이지로 이동한 다음 변경할 그룹을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="5776d-144">In the admin center, go to the **Groups** \> **Groups** page, and then select the group you want to change.</span></span>
 
-2. <span data-ttu-id="c8306-145">**이름**옆에 있는 **편집**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="c8306-145">Next to **Name**, select **Edit**.</span></span>
+2. <span data-ttu-id="5776d-145">**이름**옆에 있는 **편집**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="5776d-145">Next to **Name**, select **Edit**.</span></span>
 
-3. <span data-ttu-id="c8306-146">구성원이 그룹 메시지 및 일정 항목의 복사본을 자체 받은 편지함에서 받도록 **On** 하려면 **그룹 대화 및 이벤트 복사본을 그룹 구성원의 받은 편지 함으로 보내기**</span><span class="sxs-lookup"><span data-stu-id="c8306-146">Turn **Send copies of group conversations and events to group members' inboxes** to **On** if you want members to receive copies of group messages and calendar items in their own inbox.</span></span>
+3. <span data-ttu-id="5776d-146">구성원이 그룹 메시지 및 일정 항목의 복사본을 자체 받은 편지함에서 받도록 **On** 하려면 **그룹 대화 및 이벤트 복사본을 그룹 구성원의 받은 편지 함으로 보내기**</span><span class="sxs-lookup"><span data-stu-id="5776d-146">Turn **Send copies of group conversations and events to group members' inboxes** to **On** if you want members to receive copies of group messages and calendar items in their own inbox.</span></span>
 
-4. <span data-ttu-id="c8306-147">**저장**을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="c8306-147">Select **Save**.</span></span>
+4. <span data-ttu-id="5776d-147">**저장**을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="5776d-147">Select **Save**.</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. <span data-ttu-id="c8306-148">관리 센터에서 **그룹** \> **그룹** 페이지로 이동한 다음 변경할 그룹을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="c8306-148">In the admin center, go to the **Groups** \> **Groups** page, and then select the group you want to change.</span></span>
+1. <span data-ttu-id="5776d-148">관리 센터에서 **그룹** \> **그룹** 페이지로 이동한 다음 변경할 그룹을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="5776d-148">In the admin center, go to the **Groups** \> **Groups** page, and then select the group you want to change.</span></span>
 
-2. <span data-ttu-id="c8306-149">**이름**옆에 있는 **편집**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="c8306-149">Next to **Name**, select **Edit**.</span></span>
+2. <span data-ttu-id="5776d-149">**이름**옆에 있는 **편집**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="5776d-149">Next to **Name**, select **Edit**.</span></span>
 
-3. <span data-ttu-id="c8306-150">구성원이 그룹 메시지 및 일정 항목의 복사본을 자체 받은 편지함에서 받도록 **On** 하려면 **그룹 대화 및 이벤트 복사본을 그룹 구성원의 받은 편지 함으로 보내기**</span><span class="sxs-lookup"><span data-stu-id="c8306-150">Turn **Send copies of group conversations and events to group members' inboxes** to **On** if you want members to receive copies of group messages and calendar items in their own inbox.</span></span>
+3. <span data-ttu-id="5776d-150">구성원이 그룹 메시지 및 일정 항목의 복사본을 자체 받은 편지함에서 받도록 **On** 하려면 **그룹 대화 및 이벤트 복사본을 그룹 구성원의 받은 편지 함으로 보내기**</span><span class="sxs-lookup"><span data-stu-id="5776d-150">Turn **Send copies of group conversations and events to group members' inboxes** to **On** if you want members to receive copies of group messages and calendar items in their own inbox.</span></span>
 
-4. <span data-ttu-id="c8306-151">**저장**을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="c8306-151">Select **Save**.</span></span>
+4. <span data-ttu-id="5776d-151">**저장**을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="5776d-151">Select **Save**.</span></span>
 
 ::: moniker-end
 
-## <a name="let-people-outside-the-organization-email-the-group"></a><span data-ttu-id="c8306-152">조직 외부의 사용자가 그룹에 전자 메일을 보낼 것을 허용</span><span class="sxs-lookup"><span data-stu-id="c8306-152">Let people outside the organization email the group</span></span>
+## <a name="let-people-outside-the-organization-email-the-group"></a><span data-ttu-id="5776d-152">조직 외부의 사용자가 그룹에 전자 메일을 보낼 것을 허용</span><span class="sxs-lookup"><span data-stu-id="5776d-152">Let people outside the organization email the group</span></span>
 
-<span data-ttu-id="c8306-153">이 옵션은 회사 전자 메일 주소를 info@contoso.com과 같은 경우에 유용 합니다.</span><span class="sxs-lookup"><span data-stu-id="c8306-153">This option is great if you want to have a company email address such as info@contoso.com.</span></span>
+<span data-ttu-id="5776d-153">이 옵션은 회사 전자 메일 주소를 info@contoso.com과 같은 경우에 유용 합니다.</span><span class="sxs-lookup"><span data-stu-id="5776d-153">This option is great if you want to have a company email address such as info@contoso.com.</span></span>
  
 ::: moniker range="o365-worldwide"
 
-1. <span data-ttu-id="c8306-154">관리 센터에서 **그룹**을 확장 한 다음 **그룹**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="c8306-154">In the admin center, expand **Groups**, and then click **Groups**.</span></span>
+1. <span data-ttu-id="5776d-154">관리 센터에서 **그룹**을 확장 한 다음 **그룹**을 클릭 합니다.</span><span class="sxs-lookup"><span data-stu-id="5776d-154">In the admin center, expand **Groups**, and then click **Groups**.</span></span>
 
-2. <span data-ttu-id="c8306-155">관리 하려는 그룹의 이름을 클릭 하 여 설정 창을 엽니다.</span><span class="sxs-lookup"><span data-stu-id="c8306-155">Click the name of the group you want to manage to open the settings pane.</span></span>
+2. <span data-ttu-id="5776d-155">관리 하려는 그룹의 이름을 클릭 하 여 설정 창을 엽니다.</span><span class="sxs-lookup"><span data-stu-id="5776d-155">Click the name of the group you want to manage to open the settings pane.</span></span>
 
-3. <span data-ttu-id="c8306-156">관리 센터 그룹 목록에서 변경 하려는 그룹의 이름을 선택한 다음 **설정** 탭에서 **외부 보낸 사람이이 그룹에 전자 메일을 보낼 수 있도록 허용**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="c8306-156">In the admin center groups list, select the name of the group you want to change, and then on the **Settings** tab, select **Allow external senders to email this group**.</span></span>
+3. <span data-ttu-id="5776d-156">관리 센터 그룹 목록에서 변경 하려는 그룹의 이름을 선택한 다음 **설정** 탭에서 **외부 보낸 사람이이 그룹에 전자 메일을 보낼 수 있도록 허용**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="5776d-156">In the admin center groups list, select the name of the group you want to change, and then on the **Settings** tab, select **Allow external senders to email this group**.</span></span>
     
-4. <span data-ttu-id="c8306-157">**저장**을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="c8306-157">Select **Save**.</span></span>
+4. <span data-ttu-id="5776d-157">**저장**을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="5776d-157">Select **Save**.</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. <span data-ttu-id="c8306-158">새 그룹이 나타나도록 관리 센터 페이지를 새로 고칩니다.</span><span class="sxs-lookup"><span data-stu-id="c8306-158">Refresh your admin center page so your new group appears.</span></span>
+1. <span data-ttu-id="5776d-158">새 그룹이 나타나도록 관리 센터 페이지를 새로 고칩니다.</span><span class="sxs-lookup"><span data-stu-id="5776d-158">Refresh your admin center page so your new group appears.</span></span>
     
-2. <span data-ttu-id="c8306-159">관리 센터 그룹 목록에서 변경 하려는 그룹을 선택 하 고 **이름**옆에 있는 **편집**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="c8306-159">In the admin center groups list, select the group you want to change, and then next to **Name**, select **Edit**.</span></span> 
+2. <span data-ttu-id="5776d-159">관리 센터 그룹 목록에서 변경 하려는 그룹을 선택 하 고 **이름**옆에 있는 **편집**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="5776d-159">In the admin center groups list, select the group you want to change, and then next to **Name**, select **Edit**.</span></span> 
     
-3. <span data-ttu-id="c8306-160">**조직 외부 사용자가 그룹에 전자 메일을 보낼 수 있도록 허용** 토글을 **켬**으로 설정합니다.</span><span class="sxs-lookup"><span data-stu-id="c8306-160">Set the **Let people outside the organization email the group** toggle to **On**.</span></span>
+3. <span data-ttu-id="5776d-160">**조직 외부 사용자가 그룹에 전자 메일을 보낼 수 있도록 허용** 토글을 **켬**으로 설정합니다.</span><span class="sxs-lookup"><span data-stu-id="5776d-160">Set the **Let people outside the organization email the group** toggle to **On**.</span></span>
     
-4. <span data-ttu-id="c8306-161">**저장**을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="c8306-161">Select **Save**.</span></span>
+4. <span data-ttu-id="5776d-161">**저장**을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="5776d-161">Select **Save**.</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. <span data-ttu-id="c8306-162">새 그룹이 나타나도록 관리 센터 페이지를 새로 고칩니다.</span><span class="sxs-lookup"><span data-stu-id="c8306-162">Refresh your admin center page so your new group appears.</span></span>
+1. <span data-ttu-id="5776d-162">새 그룹이 나타나도록 관리 센터 페이지를 새로 고칩니다.</span><span class="sxs-lookup"><span data-stu-id="5776d-162">Refresh your admin center page so your new group appears.</span></span>
     
-2. <span data-ttu-id="c8306-163">관리 센터 그룹 목록에서 변경 하려는 그룹을 선택 하 고 **이름**옆에 있는 **편집**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="c8306-163">In the admin center groups list, select the group you want to change, and then next to **Name**, select **Edit**.</span></span> 
+2. <span data-ttu-id="5776d-163">관리 센터 그룹 목록에서 변경 하려는 그룹을 선택 하 고 **이름**옆에 있는 **편집**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="5776d-163">In the admin center groups list, select the group you want to change, and then next to **Name**, select **Edit**.</span></span> 
     
-3. <span data-ttu-id="c8306-164">**조직 외부 사용자가 그룹에 전자 메일을 보낼 수 있도록 허용** 토글을 **켬**으로 설정합니다.</span><span class="sxs-lookup"><span data-stu-id="c8306-164">Set the **Let people outside the organization email the group** toggle to **On**.</span></span>
+3. <span data-ttu-id="5776d-164">**조직 외부 사용자가 그룹에 전자 메일을 보낼 수 있도록 허용** 토글을 **켬**으로 설정합니다.</span><span class="sxs-lookup"><span data-stu-id="5776d-164">Set the **Let people outside the organization email the group** toggle to **On**.</span></span>
     
-4. <span data-ttu-id="c8306-165">**저장**을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="c8306-165">Select **Save**.</span></span>
+4. <span data-ttu-id="5776d-165">**저장**을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="5776d-165">Select **Save**.</span></span>
 
 ::: moniker-end
 
-## <a name="related-articles"></a><span data-ttu-id="c8306-166">관련 문서</span><span class="sxs-lookup"><span data-stu-id="c8306-166">Related articles</span></span>
+## <a name="related-articles"></a><span data-ttu-id="5776d-166">관련 문서</span><span class="sxs-lookup"><span data-stu-id="5776d-166">Related articles</span></span>
 
-[<span data-ttu-id="c8306-167">Office 365 그룹 만들기</span><span class="sxs-lookup"><span data-stu-id="c8306-167">Create an Office 365 group</span></span>](create-groups.md)
+[<span data-ttu-id="5776d-167">Office 365 그룹 만들기</span><span class="sxs-lookup"><span data-stu-id="5776d-167">Create an Office 365 group</span></span>](create-groups.md)
 
-[<span data-ttu-id="c8306-168">Office 365 그룹에 대 한 게스트 액세스 관리</span><span class="sxs-lookup"><span data-stu-id="c8306-168">Manage guest access to Office 365 groups</span></span>](https://support.office.com/article/7c713d74-a144-4eab-92e7-d50df526ff96.aspx)
+[<span data-ttu-id="5776d-168">Office 365 그룹에 대 한 게스트 액세스 관리</span><span class="sxs-lookup"><span data-stu-id="5776d-168">Manage guest access to Office 365 groups</span></span>](https://support.office.com/article/7c713d74-a144-4eab-92e7-d50df526ff96.aspx)
 
-[<span data-ttu-id="c8306-169">Office 365 그룹을 만들 때 사용할 도메인 선택</span><span class="sxs-lookup"><span data-stu-id="c8306-169">Choose the domain to use when creating Office 365 Groups</span></span>](choose-domain-to-create-groups.md)
+[<span data-ttu-id="5776d-169">Office 365 그룹을 만들 때 사용할 도메인 선택</span><span class="sxs-lookup"><span data-stu-id="5776d-169">Choose the domain to use when creating Office 365 Groups</span></span>](choose-domain-to-create-groups.md)
 
-[<span data-ttu-id="c8306-170">구성원이 Office 365 그룹을 대신 하 여 보내거나 받을 수 있도록 허용</span><span class="sxs-lookup"><span data-stu-id="c8306-170">Allow members to send as or send on behalf of an Office 365 Group</span></span>](allow-members-to-send-as-or-send-on-behalf-of-group.md)
+[<span data-ttu-id="5776d-170">구성원이 Office 365 그룹을 대신 하 여 보내거나 받을 수 있도록 허용</span><span class="sxs-lookup"><span data-stu-id="5776d-170">Allow members to send as or send on behalf of an Office 365 Group</span></span>](allow-members-to-send-as-or-send-on-behalf-of-group.md)
 
-[<span data-ttu-id="c8306-171">Office 365 그룹으로 메일 그룹 업그레이드</span><span class="sxs-lookup"><span data-stu-id="c8306-171">Upgrade distribution lists to Office 365 Groups</span></span>](../manage/upgrade-distribution-lists.md)
+[<span data-ttu-id="5776d-171">Office 365 그룹으로 메일 그룹 업그레이드</span><span class="sxs-lookup"><span data-stu-id="5776d-171">Upgrade distribution lists to Office 365 Groups</span></span>](../manage/upgrade-distribution-lists.md)
 
-[<span data-ttu-id="c8306-172">PowerShell을 사용하여 Office 365 그룹 관리</span><span class="sxs-lookup"><span data-stu-id="c8306-172">Manage Office 365 Groups with PowerShell</span></span>](https://support.office.com/article/aeb669aa-1770-4537-9de2-a82ac11b0540)
+[<span data-ttu-id="5776d-172">PowerShell을 사용하여 Office 365 그룹 관리</span><span class="sxs-lookup"><span data-stu-id="5776d-172">Manage Office 365 Groups with PowerShell</span></span>](https://support.office.com/article/aeb669aa-1770-4537-9de2-a82ac11b0540)
