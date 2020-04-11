@@ -15,20 +15,38 @@ search.appverid:
 - MOE150
 ms.collection: M365-security-compliance
 description: Office 365에서 자동화 된 조사가 진행 되는 동안과 후에는 결과 및 주요 발견 사항을 볼 수 있습니다.
-ms.openlocfilehash: 6db1c6a999a7791e8fb7bf728a9ee0a33733eeaf
-ms.sourcegitcommit: d1909d34ac0cddeb776ff5eb8414bfc9707d5ac1
+ms.openlocfilehash: e19669f48047f1800d2a904c6ef5565d8db94dd9
+ms.sourcegitcommit: 7bb340f6b47378bcd1c6e770dc975931470bbc26
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43163913"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "43225978"
 ---
 # <a name="details-and-results-of-an-automated-investigation-in-office-365"></a>Office 365의 자동화 된 조사에 대 한 세부 정보 및 결과
 
 [자동 조사가](office-365-air.md) [Office 365 Advanced Threat Protection](office-365-atp.md)에서 발생 하는 경우 자동화 된 조사 프로세스 중 및 후에 해당 조사에 대 한 세부 정보를 확인할 수 있습니다. 필수 권한이있는 경우 조사 세부 정보 보기에서 해당 정보를 확인할 수 있습니다.  조사 세부정부 보기에서 최신 상태를 확인하거나 보류중인 작업을 승인할 수 있습니다. 
 
+## <a name="investigation-status"></a>조사 상태
+
+조사 상태는 분석 및 작업의 진행률을 나타냅니다. 조사가 실행 되 면 상태가 변경 되어 위협이 발견 되었는지 여부와 작업이 승인 되었는지 여부를 나타냅니다. 
+
+|상태  |의미  |
+|---------|---------|
+|시작 중 | 조사가 트리거된 후 실행이 시작 될 때까지 기다리는 중입니다.  |
+|부족 | 조사 프로세스가 시작 되어 진행 중입니다. 이 상태는 [보류 중인 작업이](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-review-approve-pending-completed-actions#approve-or-reject-pending-actions) 승인 된 경우에도 발생 합니다. |
+|발견 된 위협 없음 | 조사가 완료 되었으며 위협 (사용자 계정, 전자 메일 메시지, URL 또는 파일)이 식별 되지 않았습니다. <br/><br/>**팁**: 잘못 된 것으로 의심 되는 경우 (예를 들어 가양성)에는 [Threat Explorer](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-explorer)를 사용 하 여 작업을 수행할 수 있습니다. |
+|발견 된 위협 |자동 조사에서 문제가 발견 되었지만 해당 문제를 해결 하기 위한 특정 수정 작업이 없습니다.<br/><br/> 어떤 유형의 사용자 활동이 식별 되었지만 정리 작업을 사용할 수 없는 경우 발견 되는 위협이 발생할 수 있습니다. 예를 들면 다음과 같은 사용자 작업을 포함할 수 있습니다. <br/>-DLP ( [데이터 손실 방지](https://docs.microsoft.com/Microsoft-365/compliance/data-loss-prevention-policies) ) 이벤트 <br/>-메일 전송 변칙 <br/>-보낸 맬웨어 <br/>에서 보낸 피싱<br/>검토를 통해 수정할 수 있는 악성 Url, 파일 또는 전자 메일 메시지와 수정할 사서함 활동 (예: 전달 규칙 또는 위임 해제)이 없습니다. <br/><br/>**팁**: 잘못 된 것으로 의심 되는 경우 (예를 들어 가양성)에는 [위협 탐색기](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-explorer)를 사용 하 여 검토 하 고 작업을 수행할 수 있습니다. |
+|시스템 종료 | 조사가 중지 되었습니다. 다음과 같은 여러 가지 이유로 인해 조사가 중단 될 수 있습니다.<br/>-조사의 보류 중인 작업이 만료 되었습니다. 1 주일 동안 승인 대기 한 후 보류 중인 작업 시간이 초과 됩니다. <br/>-작업이 너무 많습니다. 예를 들어 너무 많은 사용자가 악성 Url을 클릭 하는 경우 조사 기능이 모든 분석기를 실행 하는 것을 초과할 수 있으므로 조사가 중단 됩니다. <br/><br/>**팁**: 작업을 수행 하기 전에 조사가 중단 되는 경우 [Threat Explorer](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-explorer) 를 사용 하 여 위협을 찾아서 해결 해 보세요.  |
+|보류 중인 작업 | 조사 결과 악성 전자 메일, 악의적인 URL 또는 위험한 사서함 설정과 같은 위협을 발견 하 고 해당 위협이 [승인을](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-review-approve-pending-completed-actions)기다리는 작업을 수정 합니다.<br/><br/>해당 하는 작업을 수행 하는 모든 위협이 발견 되 면 보류 중인 작업 상태가 트리거됩니다. 그러나 조사가 실행 됨에 따라 보류 중인 작업의 목록이 늘어날 수 있습니다. [조사 로그](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-view-investigation-results#playbook-log) 를 확인 하 여 다른 항목의 완료가 아직 보류 중인지 확인 합니다. |
+|수정 | 조사가 완료 되 고 모든 작업이 승인 (완전히 재구성 됨) 되었습니다.<br/><br/>**참고**: 승인 된 재구성 작업은 작업이 수행 되지 않도록 하는 오류를 포함할 수 있습니다. 재구성 작업이 성공적으로 완료 되었는지 여부에 관계 없이 조사 상태는 변경 되지 않습니다. 자세한 결과는 [조사 로그](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-view-investigation-results) 를 확인 하십시오. |
+|부분 재구성 | 조사 결과 재구성 작업이 수행 되 고 일부는 승인 및 완료 된 것입니다. 다른 작업은 여전히 [보류 중](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-review-approve-pending-completed-actions)입니다. |
+|Failed | 하나 이상의 조사 분석기에서 제대로 완료 되지 못한 문제가 발생 했습니다. <br/><br/>**참고**: 재구성 작업이 승인 된 후 조사가 실패 하면 재구성 작업은 여전히 성공적으로 수행 된 것입니다. 자세한 결과는 [조사 로그](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-view-investigation-results) 를 확인 하십시오. |
+|제한에 의해 대기 | 조사가 큐에 보관 됩니다. 다른 조사가 완료 되 면 대기 중인 조사가 시작 됩니다. 제한을 사용 하면 서비스 성능이 저하 되는 것을 방지할 수 있습니다. <br/><br/>**팁**: 보류 중인 작업은 새로 실행할 수 있는 조사 횟수를 제한할 수 있습니다. [보류 중인 작업을 승인 하거나 거부](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-review-approve-pending-completed-actions#approve-or-reject-pending-actions)해야 합니다. |
+|제한에 의해 종료 됨 | 큐에 너무 오래 된 조사가 대기 중인 경우 중지 됩니다. <br/><br/>**팁**: [위협 탐색기에서 조사를 시작할](https://docs.microsoft.com/microsoft-365/security/office-365-security/automated-investigation-response-office#example-a-security-administrator-triggers-an-investigation-from-threat-explorer)수 있습니다. |
+
 ## <a name="view-details-of-an-investigation"></a>조사 세부 정보 보기
 
-1. [https://protection.office.com](https://protection.office.com)으로 이동하여 로그인합니다. 그러면 보안 & 준수 센터로 이동 합니다.
+1. Office 365 Security & 준수 센터 ([https://protection.office.com](https://protection.office.com))로 이동 하 여 로그인 합니다.
 
 2. 다음 중 하나를 수행합니다.
 
@@ -50,7 +68,7 @@ ms.locfileid: "43163913"
 
 특정 유형의 경고는 Office 365에서 자동화 된 조사를 트리거합니다. 자세한 내용은 [Alerts](automated-investigation-response-office.md#alerts)를 참조 하십시오. 다음 절차에 따라 자동화 된 조사에 연결 된 경고에 대 한 세부 정보를 확인 합니다.
 
-1. [https://protection.office.com](https://protection.office.com)으로 이동하여 로그인합니다. 그러면 보안 & 준수 센터로 이동 합니다.
+1. Office 365 Security & 준수 센터 ([https://protection.office.com](https://protection.office.com))로 이동 하 여 로그인 합니다. 
 
 2. **위협 관리** > **조사**로 이동 합니다.
 
@@ -83,20 +101,6 @@ ms.locfileid: "43163913"
 - 필터를 적용 합니다. **조사 유형**, **시간 범위**, **상태**또는 이들의 조합 중에서 선택 합니다.
 - 데이터를 .csv 파일로 내보냅니다.
 
-조사 상태는 분석 및 작업의 진행률을 나타냅니다. 조사가 실행 되 면 상태가 변경 되어 위협이 발견 되었는지 여부와 작업이 승인 되었는지 여부를 나타냅니다. 
-
-|상태  |의미  |
-|---------|---------|
-|시작 중 | 조사가 트리거된 후 실행이 시작 될 때까지 기다리는 중입니다. 첫 번째 단계입니다. |
-|부족 | 조사 프로세스가 시작 되어 진행 중입니다. 이 상태는 [보류 중인 작업이](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-review-approve-pending-completed-actions#approve-or-reject-pending-actions) 승인 된 경우에도 발생 합니다. |
-|발견 된 위협 없음 | 조사가 완료 되었으며 위협 (사용자 계정, 전자 메일 메시지, URL 또는 파일)이 식별 되지 않았습니다. <br/><br/>**팁**: 잘못 된 것으로 의심 되는 경우 (예를 들어 가양성)에는 [Threat Explorer](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-explorer)를 사용 하 여 작업을 수행할 수 있습니다. |
-|시스템 종료 | 조사가 중지 되었습니다. 이 문제는 여러 가지 이유로 인해 발생할 수 있습니다. 다음의 두 가지 일반적인 이유는 다음과 같습니다.<br/>-조사의 보류 중인 작업이 만료 되었습니다. 1 주일 동안 승인 대기 한 후 보류 중인 작업 시간이 초과 됩니다. <br/>-작업이 너무 많습니다. 예를 들어 너무 많은 사용자가 악성 Url을 클릭 하는 경우 조사 기능이 모든 분석기를 실행 하는 것을 초과할 수 있으므로 조사가 중단 됩니다. <br/><br/>**팁**: 작업을 수행 하기 전에 조사가 중단 되는 경우 [Threat Explorer](https://docs.microsoft.com/microsoft-365/security/office-365-security/threat-explorer) 를 사용 하 여 위협을 찾아서 해결 해 보세요.  |
-|보류 중인 작업 | 조사 결과 악성 전자 메일, 악의적인 URL 또는 위험한 사서함 설정과 같은 위협을 발견 하 고 해당 위협이 [승인을](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-review-approve-pending-completed-actions)기다리는 작업을 수정 합니다.<br/><br/>해당 하는 작업에 대 한 모든 위협이 발견 되 면 보류 중인 작업 상태가 트리거됩니다. 그러나 조사가 완전히 완료 되지 않을 수 있습니다.  [조사 로그](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-view-investigation-results#playbook-log) 를 확인 하 여 다른 항목의 완료가 아직 보류 중인지 확인 합니다. |
-|수정 | 조사가 완료 되 고 모든 작업이 승인 (완전히 재구성 됨) 되었습니다.<br/><br/>**참고**: 승인 된 재구성 작업은 작업이 수행 되지 않도록 하는 오류를 포함할 수 있습니다. 이 경우 조사 상태는 변경 되지 않습니다. 자세한 결과는 [조사 로그](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-view-investigation-results) 를 확인 하십시오. |
-|부분 재구성 | 조사 결과 재구성 작업이 수행 되 고 일부는 승인 및 완료 된 것입니다. 다른 작업은 여전히 [보류 중](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-review-approve-pending-completed-actions)입니다. |
-|Failed | 하나 이상의 조사 분석기에서 제대로 완료 되지 못한 문제가 발생 했습니다. <br/><br/>**참고**: 재구성 작업이 승인 된 후 조사가 실패 하면 재구성 작업은 여전히 성공적으로 수행 된 것입니다. 자세한 결과는 [조사 로그](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-view-investigation-results) 를 확인 하십시오. |
-|제한에 의해 대기 | 조사가 큐에 보관 됩니다. 다른 조사가 완료 되 면 대기 중인 조사가 시작 됩니다. 이렇게 하면 서비스 성능이 저하 되는 것을 방지할 수 있습니다. <br/><br/>**팁**: 보류 중인 작업은 새로 실행할 수 있는 조사 횟수를 제한할 수 있습니다. [보류 중인 작업을 승인 하거나 거부](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-review-approve-pending-completed-actions#approve-or-reject-pending-actions)해야 합니다. |
-|제한에 의해 종료 됨 | 큐에 너무 오래 된 조사가 대기 중인 경우 중지 됩니다. <br/><br/>**팁**: [위협 탐색기에서 조사를 시작할](https://docs.microsoft.com/microsoft-365/security/office-365-security/automated-investigation-response-office#example-a-security-administrator-triggers-an-investigation-from-threat-explorer)수 있습니다. |
 
 ### <a name="investigation-graph"></a>조사 그래프
 
@@ -112,7 +116,7 @@ ms.locfileid: "43163913"
 
 ### <a name="alert-investigation"></a>경고 조사
 
-조사에 대 한 **알림** 탭에서 조사와 관련 된 경고를 볼 수 있습니다. 세부 정보에는 조사를 트리거한 경고 및 확인에 상관 된 위험한 로그인, DLP 정책 위반 등의 상호 관련 된 경고가 포함 됩니다. 이 페이지에서는 보안 분석가가 개별 경고에 대 한 추가 세부 정보를 볼 수도 있습니다.
+조사에 대 한 **알림** 탭에서 조사와 관련 된 경고를 볼 수 있습니다. 세부 정보에는 조사를 트리거한 경고 및 확인에 상관 된 위험한 로그인, [DLP 정책](https://docs.microsoft.com/Microsoft-365/compliance/data-loss-prevention-policies) 위반 등의 상호 관련 된 경고가 포함 됩니다. 이 페이지에서는 보안 분석가가 개별 경고에 대 한 추가 세부 정보를 볼 수도 있습니다.
 
 ![AIR 알림 페이지](../../media/air-investigationalertspage.png)
 

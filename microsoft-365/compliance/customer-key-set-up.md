@@ -13,12 +13,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: Exchange Online, 비즈니스용 Skype, SharePoint Online, 비즈니스용 OneDrive 및 팀 파일에 대 한 Office 365의 고객 키를 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: a360c2c7a6876669ce5d2ae6b52a730a3c7f45a5
-ms.sourcegitcommit: 7d07e7ec84390a8f05034d3639fa5db912809585
+ms.openlocfilehash: af3ade4ed411a390d1501d3f3fe15ba3111e14d3
+ms.sourcegitcommit: 7bb340f6b47378bcd1c6e770dc975931470bbc26
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42091291"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "43225945"
 ---
 # <a name="set-up-customer-key-for-office-365"></a>Office 365에 대 한 고객 키 설정
 
@@ -31,7 +31,9 @@ Office 365에 대해 고객 키를 사용 하려면 먼저 Azure를 설정 해�
   
 ## <a name="before-you-set-up-customer-key"></a>Customer 키를 설정 하기 전에
 
-시작 하기 전에 조직에 적합 한 라이선스를 보유 하 고 있는지 확인 합니다. Office 365의 고객 키가 Office 365 E5 또는 Advanced 준수 SKU에 제공 됩니다. 이 항목의 개념과 절차를 이해 하려면 [Azure 키 보관소](https://docs.microsoft.com/azure/key-vault/) 설명서를 검토 하십시오. 또한 Azure에서 사용 되는 용어 (예: [테 넌 트](https://docs.microsoft.com/previous-versions/azure/azure-services/jj573650(v=azure.100)))에 익숙해지는 것이 좋습니다.
+시작 하기 전에 조직에 적합 한 라이선스를 보유 하 고 있는지 확인 합니다. Office 365에서 2020 년 4 월 1 일부 터 M365 E5, M365 E5 규격 및 M365 E5 Information Protection & 관리 Sku 365에 제공 됩니다. Office 365 고급 규정 준수 SKU가 더 이상 조달 새 라이선스를 사용할 수 없습니다. 기존 Office 365 고급 규정 준수 라이선스는 계속 지원 됩니다.
+
+이 항목의 개념과 절차를 이해 하려면 [Azure 키 보관소](https://docs.microsoft.com/azure/key-vault/) 설명서를 검토 하십시오. 또한 azure에서 사용 되는 용어 (예: [AZURE AD 테 넌 트](https://docs.microsoft.com/previous-versions/azure/azure-services/jj573650(v=azure.100)#what-is-an-azure-ad-tenant))를 익힙니다.
 
 FastTrack은 고객 키를 등록 하는 데 사용 되는 필수 테 넌 트 및 서비스 구성 정보를 수집 하는 데만 사용 됩니다. 고객 키 제공은 FastTrack을 통해 게시 되므로 사용자와 파트너가 모두 동일한 방법을 사용 하 여 필요한 정보를 제출할 수 있습니다. FastTrack을 사용 하면 제공 되는 데이터를 쉽게 보관할 수도 있습니다.
   
@@ -176,7 +178,7 @@ Office 365 팀에 연락 하기 전에 고객 키와 함께 사용 하는 각 Az
 또한 키 보관소에는 저장소 용량 (매우 작음)과 키 보관소 로깅이 필요 하기 때문에 (키 보관소를 만드는 경우) 저장 된 데이터도 생성 해야 하므로 Azure 리소스 그룹을 만들어야 합니다. Microsoft는 별도의 관리자를 사용 하 여 각 리소스 그룹을 관리할 것을 권장 하 고, 관리를 모든 관련 고객 키 리소스를 관리 하는 관리자 집합과 맞추고 있습니다.
   
 > [!IMPORTANT]
-> 가용성을 최대화 하려면 키 보관소가 Office 365 서비스에 가까운 지역에 있어야 합니다. 예를 들어 Exchange Online 조직이 북미에 있는 경우 북미에 키 자격 증명 모음을 배치 합니다. Exchange Online 조직이 유럽에 있는 경우 키 보관소를 유럽에 배치 합니다.<br/>키 자격 증명에 대 한 공통 접두사를 사용 하 고, 키 보관소와 키의 사용 및 범위 약어를 포함 하 고 (예: 해당 보관소가 북미에 있는 Contoso SharePoint 서비스의 경우) 가능한 이름 쌍은 Contoso-O365SP-VaultA1 및 Contoso-O365SP-VaultA2. 자격 증명 이름은 Azure 내의 전역적으로 고유한 문자열이 되므로 필요한 이름이 다른 Azure 고객의 요청을 받아야 하는 경우에 대비 하 여 원하는 이름의 변형을 시도해 야 할 수 있습니다. 7 월 2017 볼트 이름은 변경할 수 없으므로 설정 계획을 수립 하 고 두 번째 사용자를 사용 하 여 계획이 올바르게 실행 되는지 확인 하는 것이 좋습니다.<br/>가능 하면 페어링되지 않은 지역에 자격 증명 모음을 만듭니다. 쌍을 이룬 Azure 지역에서 서비스 장애 도메인 별로 고가용성을 제공 합니다. 따라서 지역 쌍을 서로의 백업 지역으로 간주할 수 있습니다. 즉, 한 지역에 배치 된 Azure 리소스가 연결 된 지역을 통과 하는 내결함성을 자동으로 획득 합니다. 이러한 이유 때문에 지역이 연결 된 데이터 암호화 정책에서 사용 되는 두 개의 보관소에 대 한 영역을 선택 하는 것은 사용 중인 사용 가능한 영역의 총 두 영역만을 의미 합니다. 대부분의 지역에는 두 지역이 있으므로 아직 연결 되지 않은 영역을 선택할 수는 없습니다. 가능 하면 데이터 암호화 정책에 사용 되는 두 개의 보관소에 대해 쌍이 없는 두 개의 영역을 선택 합니다. 이는 가용성의 총 4 지역에서 혜택을 제공 합니다. 자세한 내용은 [Business 연속성 및 재해 복구 (BCDR):](https://docs.microsoft.com/azure/best-practices-availability-paired-regions) 현재 지역 쌍 목록의 Azure 연결 된 지역을 참조 하세요.
+> 가용성을 최대화 하려면 키 보관소가 Office 365 서비스에 가까운 지역에 있어야 합니다. 예를 들어 Exchange Online 조직이 북미에 있는 경우 북미에 키 자격 증명 모음을 배치 합니다. Exchange Online 조직이 유럽에 있는 경우 키 보관소를 유럽에 배치 합니다.<br/>키 자격 증명에 대 한 일반적인 접두사를 사용 하 고, 키 보관소와 키의 사용 및 범위 약어를 포함 하 고 (예: 보관소가 있는 Contoso SharePoint 서비스의 경우에는 해당 하는 이름 쌍이 Contoso-O365SP-VaultA1 및 Contoso-O365SP-VaultA2입니다. 자격 증명 이름은 Azure 내의 전역적으로 고유한 문자열이 되므로 필요한 이름이 다른 Azure 고객의 요청을 받아야 하는 경우에 대비 하 여 원하는 이름의 변형을 시도해 야 할 수 있습니다. 7 월 2017 볼트 이름은 변경할 수 없으므로 설정 계획을 수립 하 고 두 번째 사용자를 사용 하 여 계획이 올바르게 실행 되는지 확인 하는 것이 좋습니다.<br/>가능 하면 페어링되지 않은 지역에 자격 증명 모음을 만듭니다. 쌍을 이룬 Azure 지역에서 서비스 장애 도메인 별로 고가용성을 제공 합니다. 따라서 지역 쌍을 서로의 백업 지역으로 간주할 수 있습니다. 즉, 한 지역에 배치 된 Azure 리소스가 연결 된 지역을 통과 하는 내결함성을 자동으로 획득 합니다. 이러한 이유 때문에 지역이 연결 된 데이터 암호화 정책에서 사용 되는 두 개의 보관소에 대 한 영역을 선택 하는 것은 사용 중인 사용 가능한 영역의 총 두 영역만을 의미 합니다. 대부분의 지역에는 두 지역이 있으므로 아직 연결 되지 않은 영역을 선택할 수는 없습니다. 가능 하면 데이터 암호화 정책에 사용 되는 두 개의 보관소에 대해 쌍이 없는 두 개의 영역을 선택 합니다. 이는 가용성의 총 4 지역에서 혜택을 제공 합니다. 자세한 내용은 [Business 연속성 및 재해 복구 (BCDR):](https://docs.microsoft.com/azure/best-practices-availability-paired-regions) 현재 지역 쌍 목록의 Azure 연결 된 지역을 참조 하세요.
   
 ### <a name="assign-permissions-to-each-key-vault"></a>각 키 자격 증명 모음에 사용 권한 할당
 
@@ -195,7 +197,7 @@ Office 365 팀에 연락 하기 전에 고객 키와 함께 사용 하는 각 Az
    Set-AzKeyVaultAccessPolicy -VaultName <vault name> -UserPrincipalName <UPN of user> -PermissionsToKeys create,import,list,get,backup,restore
    ```
 
-   예시는 다음과 같습니다:
+   예시:
 
    ```powershell
    Set-AzKeyVaultAccessPolicy -VaultName Contoso-O365EX-NA-VaultA1 -UserPrincipalName alice@contoso.com -PermissionsToKeys create,import,list,get,backup,restore
@@ -235,7 +237,7 @@ Office 365 팀에 연락 하기 전에 고객 키와 함께 사용 하는 각 Az
   
 키 자격 증명 모음에서 일시 삭제를 사용 하도록 설정 하려면 다음 단계를 완료 합니다.
   
-1. Windows Powershell을 사용 하 여 Azure 구독에 로그인 합니다. 자세한 내용은 [Azure PowerShell을 사용 하 여 로그인](https://docs.microsoft.com/powershell/azure/authenticate-azureps)을 참조 하십시오.
+1. Windows PowerShell을 사용 하 여 Azure 구독에 로그인 합니다. 자세한 내용은 [Azure PowerShell을 사용 하 여 로그인](https://docs.microsoft.com/powershell/azure/authenticate-azureps)을 참조 하십시오.
 
 2. [AzKeyVault](https://docs.microsoft.com/powershell/module/az.keyvault/get-azkeyvault) cmdlet을 실행 합니다. 이 예에서 *보관소 이름은* 소프트 삭제를 활성화할 수 있는 키 보관소의 이름입니다.
 
@@ -319,7 +321,7 @@ Backup-AzKeyVaultKey -VaultName <vault name> -Name <key name>
 > [!TIP]
 > 출력 파일의 경우 자격 증명 모음 이름 및 키 이름을 조합 하 여 선택 합니다. 이렇게 하면 파일 이름이 자체 설명 됩니다. 또한 백업 파일 이름이 충돌 하지 않도록 해야 합니다.
   
-예시는 다음과 같습니다:
+예시:
   
 ```powershell
 Backup-AzKeyVaultKey -VaultName Contoso-O365EX-NA-VaultA1 -Name Contoso-O365EX-NA-VaultA1-Key001 -OutputFile Contoso-O365EX-NA-VaultA1-Key001-Backup-20170802.backup

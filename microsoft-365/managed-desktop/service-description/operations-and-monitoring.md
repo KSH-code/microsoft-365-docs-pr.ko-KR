@@ -9,12 +9,12 @@ f1.keywords:
 ms.author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 5aee7c835643fab94cc7e233ea005c3f3a1b921c
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 1cd620206f559e6870c6706fc0e40f4b7e45bc84
+ms.sourcegitcommit: 7bb340f6b47378bcd1c6e770dc975931470bbc26
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602805"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "43225900"
 ---
 # <a name="microsoft-managed-desktop-operations-and-monitoring"></a>Microsoft Managed Desktop 작업 및 모니터링
 
@@ -67,7 +67,7 @@ ms.locfileid: "41602805"
 **변경 유형** | 기능 업데이트<br>-새로운 기능 또는 응용 프로그램<br>-더 이상 사용 되지 않는 기능 | 문제에 대한 클라이언트 핫픽스 | 보안 패치
 **사전 알림** | 작업이 필요한 변경 내용에 대 한 5 일 유의 사항 |    아니요, 월별 릴리스에 포함 되어 있습니다.   | 아니요, 월별 릴리스에 포함 되어 있습니다. 
 **통신 채널** | -메시지 센터<br>-전자 메일 경고 | -메시지 센터<br>-전자 메일 경고 | -메시지 센터<br>-전자 메일 경고
-**테 넌 트 관리 작업 필요** | 가끔 |  거의 필요 없음 |    거의 필요 없음 
+**전역 관리자 작업이 필요 합니다.** | 가끔 |  거의 필요 없음 |    거의 필요 없음 
 **작업 유형** | 설정 변경 | 사용자에게 변경 내용 전달 | 관리 설정 변경     
 **테스트 필요** | 원격 액세스 서비스를 포함 하 여 비즈니스 응용 프로그램 확인 |  가끔 - 프로세스 또는 사용자 지정 내용에 대해 수정 프로그램 테스트 |   거의 필요 없음 
 **변경 예** | -기능 업데이트: IT 관리 포털 간소화 된 지원 티켓 제출 및 검토<br>-새로운 기능 또는 응용 프로그램: Windows 10 기능 업데이트의 반기 릴리스 | 고객이 보고한 버그에 따른 핫픽스 |  
@@ -79,7 +79,7 @@ Microsoft 관리 데스크톱 서비스는 microsoft 클라우드 인스턴스�
 
 온-프레미스 제품의 경우 조직에서 설치 및 구성 및 운영 작업을 관리 하는 모든 책임을 맡습니다.
 
-범주 |    Microsoft는 | 고객은
+Categories |    Microsoft는 | 고객은
 --- | --- | ---
 네트워크 (프록시, 패킷 검사, VPN)  | 비즈니스 사용자에 대 한 위험을 최소화 하는 고객을 권고 하 고 계획 합니다. | -Microsoft에서 검토할 수 있는 구성 세부 정보, 범위, 시간 표시 막대 및 기타 관련 세부 정보를 비롯 하 여 계획 된 구성 변경에 대 한 정보를 요청 하는 지원 요청을 만듭니다.<br>-Microsoft Managed Desktop Operations가 평가 되 고 advise 된 경우에만 변경 내용을 적용 합니다.
 서비스 계정 |-자격 증명을 구현 하 고 안전 하 게 저장 하 고 관리 합니다.<br> -보안 운영 팀에 이러한 자격 증명을 무단으로 액세스 하거나 사용 하지 못하도록 합니다. | -Microsoft에서 검토할 수 있는 구성 세부 정보, 범위, 시간 표시 막대 및 기타 관련 세부 정보를 비롯 하 여 계획 된 구성 변경에 대 한 정보를 요청 하는 지원 요청을 만듭니다.<br>-Microsoft Managed Desktop Operations가 평가 되 고 advise 된 경우에만 변경 내용을 적용 합니다.<br>-정책, 다단계 인증, 조건부 액세스 또는 Microsoft Managed Desktop Service 계정에 응용 프로그램 배포를 할당 하지 않습니다.<br>-암호를 다시 설정 하거나 자격 증명을 사용 하지 않습니다.<br>-이 서비스 계정과 관련 된 Intune 또는 Azure 감사 로그에서 의심 스러운 작업이 관찰 되는 경우 Microsoft Managed Desktop 작업에 대 한 Sev C 지원 요청을 엽니다.
@@ -98,22 +98,22 @@ Microsoft Managed Desktop Operations 팀은 필요한 경우 서비스에 등록
 
 다음과 같은 몇 가지 요구 사항이 있습니다.
 
-- 고객의 테 넌 트 관리자가 서비스 요청을 제출 해야 합니다.
-- 장치에 대 한 컴퓨터 이름이 필요 합니다.
-- 초기화를 수행 하기 전에 사용자 계정이 Azure AD에 있어야 합니다.
+- 전역 관리자가 서비스 요청을 제출 해야 합니다.
+- 요청에 장치의 컴퓨터 이름을 포함 합니다.
+- 장치를 다시 설정 하기 전에 사용자 계정이 Azure AD에 있어야 합니다.
 
-관리 데스크톱 운영 팀은 다음을 수행 합니다.
+관리 되는 데스크톱 운영 팀에서는 다음을 수행 합니다.
 
 - Intune에서 장치 이름 조회
 - 장치에 공장 리셋 명령 보내기
 
 >[!NOTE]
->공장 초기화를 수행 하기 전에 Azure AD에서 사용자 계정을 제거 하지 마십시오. 사용자가 Azure AD에 없는 경우 Intune이 장치에 공장 리셋 명령을 보낼 수 없습니다. 
+>장치가 다시 설정 되기 전에 Azure AD에서 사용자 계정을 제거 하지 마십시오. 사용자가 Azure AD에 없는 경우 Intune이 장치에 공장 리셋 명령을 보낼 수 없습니다. 
 
-장치가 OOBE로 부팅 되 고 미리 설치 된 모든 응용 프로그램 및 설정이 다시 적용 됩니다. 장치 사용자는 초기 설정 정보를 다시 제공 해야 합니다. 
+장치가 "부재 중 환경"으로 부팅 되 고 미리 설치 된 모든 응용 프로그램 및 설정이 다시 적용 됩니다. 장치의 사용자는 초기 설정 정보를 다시 제공 해야 합니다. 
 
 장치를 다시 설정한 경우 조직의 다른 사람에 게 제공할 수 있습니다. 이전 사용자의 데이터 또는 enterprise 데이터는 장치에 표시 되지 않습니다. 다음 사용자는 이전 사용자가 새로운 Microsoft Managed Desktop 장치와 동일한 프로세스를 진행 합니다.
 
-이 프로세스에서 BitLocker는 데이터 보안의 주요 구성 요소입니다. Microsoft Managed 데스크톱 장치에 대 한 BitLocker 암호화를 사용 하면 초기화가 장치에 적용 된 후에도 드라이브의 데이터가 안전 하 게 유지 됩니다. 드라이브에 있던 모든 데이터는 장치의 다음 사용자가 사용할 수 없게 됩니다. 자세한 내용은 [BitLocker overview](https://docs.microsoft.com/windows/security/information-protection/bitlocker/bitlocker-overview)를 참조 하세요.
+이 프로세스에서 BitLocker는 데이터 보안의 주요 구성 요소입니다. Microsoft Managed 데스크톱 장치에 대 한 BitLocker 암호화를 사용 하면 장치를 출하 시 재설정 한 후에도 드라이브의 데이터를 안전 하 게 유지할 수 있습니다. 드라이브에 있던 모든 데이터는 장치의 다음 사용자가 사용할 수 없게 됩니다. 자세한 내용은 [BitLocker overview](https://docs.microsoft.com/windows/security/information-protection/bitlocker/bitlocker-overview)를 참조 하세요.
 
 자세한 내용은 [공장 초기화 장치를](https://docs.microsoft.com/intune/remote-actions/devices-wipe#factory-reset-a-device)참조 하세요. 
