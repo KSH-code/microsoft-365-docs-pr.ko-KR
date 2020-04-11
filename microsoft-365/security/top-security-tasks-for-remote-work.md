@@ -13,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 - remotework
 description: '랜 섬 웨어, 피싱 및 악의적 첨부 파일을 포함 하 여 사이버 위협 으로부터 비즈니스 전자 메일 및 데이터를 보호 합니다. '
-ms.openlocfilehash: 3bbd5951ac6005f20584d53e17ac55927acd4c89
-ms.sourcegitcommit: a7b2cd892cb65a61ee246268e1af2f8b9e526f6b
+ms.openlocfilehash: d42760f0dbf38b72fe530a5670f3515bf3ba2f94
+ms.sourcegitcommit: 7bb340f6b47378bcd1c6e770dc975931470bbc26
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43081307"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "43225956"
 ---
 # <a name="top-12-tasks-for-security-teams-to-support-working-from-home"></a>집에서 작업을 지원 하기 위한 보안 팀을 위한 상위 12 개 작업
 
@@ -45,7 +45,7 @@ ms.locfileid: "43081307"
 |8       |  [Pc를 장치 관리에 등록 하 고 준수 Pc 필요](#8-enroll-pcs-into-device-management-and-require-compliant-pcs)   |  | ![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)        | ![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)        | 
 |9       | [클라우드 연결용 네트워크 최적화](#9-optimize-your-network-for-cloud-connectivity)  |  ![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png) |![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)      |![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)        | 
 |10    | [사용자 교육](#10-train-users) |    ![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png) |![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)      |![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)      | 
-|11  |[Microsoft Cloud App Security 시작](#11-get-started-with-microsoft-cloud-app-security) |![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)   |![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)   |![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)   |
+|11  |[Microsoft Cloud App Security 시작](#11-get-started-with-microsoft-cloud-app-security) |   |![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)   |![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)   |
 |12  |[위협 모니터링 및 작업 수행](#12-monitor-for-threats-and-take-action) |![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)   |![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)  |![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)  |
 | | | |
 
