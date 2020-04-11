@@ -64,6 +64,8 @@
       href: billing-and-payments/change-your-billing-addresses.md
     - name: 결제 서비스 지침 2 및 강력한 고객 인증
       href: billing-and-payments/psd2.md
+    - name: 세금 정보
+      href: billing-and-payments/tax-information.md
 - name: 청구 계정
   items:
     - name: 청구 계정 관리
