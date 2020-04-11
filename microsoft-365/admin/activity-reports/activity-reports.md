@@ -19,12 +19,12 @@ search.appverid:
 - GEA150
 ms.assetid: 0d6dfb17-8582-4172-a9a9-aed798150263
 description: 조직의 사용자가 Office 365 서비스를 사용하는 방식에 대한 주기적인 보고를 받을 수 있습니다. 사용 현황 개요 대시보드를 사용하면 각 차트에 대한 세부 정보를 확인할 수 있습니다.
-ms.openlocfilehash: da62d934b295916a7f0fc952cc9cbe94b8384246
-ms.sourcegitcommit: 311bbd6f168225ede166d29696126a1e003eee0f
+ms.openlocfilehash: fc9416445fec7a873ae7d09e1af366f029f51ed1
+ms.sourcegitcommit: 8a88b7526e6a3a907f33a8567e0d25b74fe60d80
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43151432"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43204059"
 ---
 # <a name="activity-reports-in-the-microsoft-365-admin-center"></a>Office 365 관리 센터의 활동 보고서
 
@@ -87,6 +87,7 @@ ms.locfileid: "43151432"
 구독에 따라 사용 가능한 보고서는 다음과 같습니다.
   
 - [이메일 활동](email-activity.md)
+- [양식 활동](forms-activity.md)
     
 - [사서함 사용 현황](mailbox-usage.md)
     
@@ -101,6 +102,7 @@ ms.locfileid: "43151432"
 - [비즈니스용 OneDrive 사용자 활동](onedrive-for-business-activity.md)
   
 - [비즈니스용 OneDrive 사용 현황](onedrive-for-business-usage.md)
+- [ProPlus 사용 현황](microsoft365-apps-usage.md)
   
 - [SharePoint 사이트 사용 현황](sharepoint-site-usage.md)
   

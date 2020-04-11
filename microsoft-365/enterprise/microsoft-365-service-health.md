@@ -16,12 +16,12 @@ ms.collection:
 f1.keywords:
 - NOCSH
 description: Microsoft 365 서비스 상태
-ms.openlocfilehash: 8acbd54f8b1d635fa1ba1d02d7c255484fb24758
-ms.sourcegitcommit: 732bb72a0b5ae09cb39536185aa29d6097ec72fd
+ms.openlocfilehash: 16621bc266684397da5fa92e953067e1e8342b4e
+ms.sourcegitcommit: 8959701cf009068b40da2757b4a61da61d5c166b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "43189108"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43207166"
 ---
 # <a name="microsoft-365-network-health-status"></a>Microsoft 365 네트워크 상태
 
@@ -37,7 +37,7 @@ Microsoft 글로벌 네트워크 내에서 또는 고객과 Microsoft 네트워�
 
 | 위치 | 문제 유형 | 자세한 정보 |
 | --- | --- | --- |
-| **현재 문제 없음** |  |  |
+| **현재 문제 없음**  |  |  |
 
 ## <a name="recommendations-to-improve-network-experience"></a>네트워크 환경을 개선하기 위한 권장 사항
 

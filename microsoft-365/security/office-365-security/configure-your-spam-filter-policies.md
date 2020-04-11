@@ -16,12 +16,12 @@ ms.assetid: 316544cb-db1d-4c25-a5b9-c73bbcf53047
 ms.collection:
 - M365-security-compliance
 description: 기본 스팸 필터 설정에는 스팸으로 식별되는 메시지에 관해 수행할 작업 선택이 포함됩니다.
-ms.openlocfilehash: a497dc4cbce877c0aa6113e32223235ffebbfd41
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: f77a4f52e045c96a0538b140022ebee846cb1996
+ms.sourcegitcommit: 8a88b7526e6a3a907f33a8567e0d25b74fe60d80
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42894209"
+ms.lasthandoff: 04/09/2020
+ms.locfileid: "43204103"
 ---
 # <a name="configure-anti-spam-policies-in-office-365"></a>Office 365에서 스팸 방지 정책 구성하기
 
@@ -73,9 +73,9 @@ Exchange Online PowerShell 또는 독립 실행형 Exchange Online Protection Po
 
 - Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결하기](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell)를 참조하세요. Exchange Online Protection PowerShell에 연결하려면 [Exchange Online Protection PowerShell에 연결하기](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell)를 참조하세요.
 
-- 이 절차를 수행하려면 먼저 사용 권한을 할당 받아야 합니다. 스팸 방지 정책을 추가, 수정 및 삭제하려면 **조직 관리** 또는 **보안 관리자** 역할 그룹의 구성원이어야 합니다. 스팸 방지 정책에 대한 읽기 전용 액세스를 위해서는 **보안 읽기 권한자** 역할 그룹의 구성원이어야 합니다. 보안 및 준수 센터의 역할 그룹에 대한 자세한 내용은 [Office 365 보안 및 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)을 참조하세요.
+- 이 절차를 수행하려면 먼저 사용 권한을 할당 받아야 합니다. 스팸 방지 정책을 추가, 수정 및 삭제하려면 **조직 관리** 또는 **보안 관리자** 역할 그룹의 구성원이어야 합니다. 스팸 방지 정책에 대한 읽기 전용 액세스를 위해서는 **보안 읽기 권한자** 역할 그룹의 구성원이어야 합니다. 보안 및 규정 준수 센터의 역할 그룹에 대한 자세한 내용은 [Office 365 보안 및 규정 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)을 참조하세요.
 
-- 맬웨어 방지 정책에 대한 권장 설정은 [EOP 스팸 방지 정책 설정](recommended-settings-for-eop-and-office365-atp.md#eop-anti-spam-policy-settings)을 참조하세요.
+- 스팸 방지 정책에 대한 권장 설정은 [EOP 스팸 방지 정책 설정](recommended-settings-for-eop-and-office365-atp.md#eop-anti-spam-policy-settings)을 참조하세요.
 
 ## <a name="use-the-security--compliance-center-to-create-anti-spam-policies"></a>보안 및 준수 센터를 사용하여 스팸 방지 정책 만들기
 
