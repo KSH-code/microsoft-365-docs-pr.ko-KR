@@ -830,6 +830,8 @@
       items:
         - name: 금융 서비스 보안 및 규정 준수
           href: ../solutions/financial-services-secure-collaboration.md
+        - name: 에너지 서비스 보안 및 규정 준수
+          href: ../solutions/energy-secure-collaboration.md
 - name: 규정 준수 조치 계획
   items:
     - name: ISO - 권장 실행 계획
