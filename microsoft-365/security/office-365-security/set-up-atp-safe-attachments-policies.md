@@ -17,12 +17,12 @@ ms.assetid: 078eb946-819a-4e13-8673-fe0c0ad3a775
 ms.collection:
 - M365-security-compliance
 description: 안전한 첨부 파일 정책을 정의 하 여 전자 메일의 악의적인 파일 로부터 조직을 보호 합니다.
-ms.openlocfilehash: c5001823979c19ec68cd15a10bf7c2d7e54cae1d
-ms.sourcegitcommit: 08a4ee7765f3eba42f0c037c5c564c581e45df3e
+ms.openlocfilehash: 860e733bda8f16eff8e36e42055c7ea7fa88e343
+ms.sourcegitcommit: c876d58b34454f211b50ae5d06f193c1a1e5c4ff
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42637321"
+ms.lasthandoff: 04/11/2020
+ms.locfileid: "43230971"
 ---
 # <a name="set-up-office-365-atp-safe-attachments-policies"></a>Office 365 ATP 안전한 첨부 파일 정책 설정
 
@@ -83,7 +83,7 @@ ms.locfileid: "42637321"
 
 6. **저장**을 선택합니다.
 
-조직에 대해 여러 ATP 안전 첨부 파일 정책을 설정 하는 것이 좋습니다. 이러한 정책은 **ATP 안전한 첨부 파일** 페이지에 나열 된 순서 대로 적용 됩니다. 정책을 정의 하거나 편집한 후에는 정책이 Microsoft 데이터 센터 전체를 적용 하는 데 30 분 이상 걸릴 수 있습니다.
+조직에 대해 여러 ATP 안전 첨부 파일 정책을 설정 하는 것이 좋습니다. 이러한 정책은 **ATP 안전한 첨부 파일** 페이지에 나열 된 순서 대로 적용 됩니다. 정책이 정의 되거나 편집 된 후에는 정책이 Microsoft 데이터 센터 전체를 적용 하는 데 30 분 이상 걸릴 수 있습니다.
 
 ## <a name="step-3-learn-about-atp-safe-attachments-policy-options"></a>3 단계: ATP 안전 첨부 파일 정책 옵션에 대해 알아보기
 

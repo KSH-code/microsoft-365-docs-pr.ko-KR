@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 80ee396d5a9862dd335118d8d4e8018214035f20
-ms.sourcegitcommit: b6ab845d64e2801051d249de09ad5059809b649a
+ms.openlocfilehash: 7cb065bb63bc30c4704abd3d4239fd80bca6d21e
+ms.sourcegitcommit: 7bb340f6b47378bcd1c6e770dc975931470bbc26
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42222050"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "43225911"
 ---
 # <a name="service-organization-controls-soc"></a>SOC(서비스 조직 컨트롤)
 
@@ -27,13 +27,13 @@ ms.locfileid: "42222050"
 
 점차적으로 기업에서는 데이터 저장소, 응용 프로그램 액세스 등과 같은 기본 기능을 CSP(클라우드 서비스 공급자) 및 기타 서비스 조직에 아웃소싱합니다. 이에 대응하여 AICPA(American Institute of Certified Public Accountants)는 클라우드에서 저장 및 처리되는 정보의 기밀성과 개인 정보를 보호하는 제어 표준인 SOC(Service Organization Controls) 프레임워크를 개발했습니다. 이 프레임워크는 국제 서비스 조직에 대한 보고 표준인 ISAE(International Standard on Assurance Engagements)을 준수합니다.
 
-SOC 프레임워크를 기반으로 하는 서비스 감사는 범위 내 Microsoft 클라우드 서비스에 적용되는 두 범주(SOC 1 및 SOC 2)로 분류됩니다.
+SOC 프레임워크를 기반으로 하는 서비스 감사는 범위 내 Microsoft 클라우드 서비스에 적용되는 SOC 1과 SOC 2 범주 중 하나로 분류됩니다.
 
 재무 제표를 감사하는 CPA 회사를 위한 SOC 1 감사에서는 공급자의 클라우드 서비스를 사용하는 고객의 재무 보고서에 영향을 주는 CPA 내부 통제 수단의 유효성을 평가합니다. SSAE(Statement on Standards for Attestation Engagements) 18 및 ISAE 3402(International Standards for Assurance Engagements No. 3402)는 감사 수행 및 SOC 1 보고서의 기반이 되는 표준입니다.
 
 SOC 2 감사에서는 AICPA 트러스트 서비스 원칙 및 기준을 기반으로 CSP 시스템의 유효성을 평가합니다. SOC 2 및 SOC 3 보고서는 Attest Engagement under Attestation Standards(AT) 제101조를 기반으로 합니다.
 
-SOC 1 또는 SOC 2 감사를 마치면서 서비스 감사자는 CSP 시스템을 설명하고 통제 수단에 대한 CSP 설명의 공정성을 평가하는 의견을 SOC 1 유형 2 또는 SOC 2 유형 2 보고서에 기술합니다. 또한 CSP의 통제 수단이 적절히 설계되었는지, 지정된 날짜에 시행되었는지, 지정된 기간 동안 효율적으로 시행되었는지 여부를 평가합니다.
+SOC 1 또는 SOC 2 감사를 마치면서 서비스 감사자는 CSP의 시스템을 설명하고 통제 수단에 대한 CSP 설명의 공정성을 평가하는 의견을 SOC 1 유형 2 또는 SOC 2 유형 2 보고서에 기술합니다. 또한 CSP의 통제 수단이 적절히 설계되었는지, 지정된 날짜에 시행되었는지, 지정된 기간 동안 효율적으로 시행되었는지 여부를 평가합니다.
 
 또한 감사자는 CSP 통제 수단에 대한 보장을 원하지만 전체 SOC 2 보고서는 필요 없는 사용자를 위해 SOC 2 유형 2 감사 보고서를 축약한 SOC 3 보고서를 작성할 수 있습니다. 단, CSP에 SOC 2에 대해 부적격 감사 의견이 있는 경우에만 SOC 3 보고서를 제공할 수 있습니다.
 
@@ -115,7 +115,7 @@ SOC 1 (SSAE18, ISAE 3402) 및 SOC 2 (AT Section 101) 표준에 따라 Microsoft 
 
 **Azure SOC 보고서는 얼마나 자주 발행되나요?**
 
-Azure, Cloud App Security, Flow, Graph, Intune, Power BI, PowerApps, Stream 및 Microsoft Datacenters에 대한 SOC 보고서는 과거 12개월 연속 실행 기간(감사 기간)을 기반으로 하고 1년에 두 번 새 보고서가 발행됩니다.(기간 종료은 3월 31일과 9월 30일) 브리지 레터는 10/1~12/31을 커버하는 1월과 4/16~6/30의 기간을 커버하는 7월에 발행됩니다. 고객은 Service Trust Portal에서 최신 보고서를 [다운로드](https://aka.ms/stp)할 수 있습니다.
+Azure, Cloud App Security, Flow, Graph, Intune, Power BI, PowerApps, Stream 및 Microsoft Datacenters에 대한 SOC 보고서는 과거 12개월 연속 실행 기간(감사 기간)을 기반으로 하고 1년에 두 번 새 보고서가 발행됩니다.(기간 종료은 3월 31일과 9월 30일) Bridge는 일반적으로 분기 종료 후 매월 첫째 주에 분기별로 발급됩니다. 고객은 Service Trust Portal에서 최신 보고서를 [다운로드](https://aka.ms/stp)할 수 있습니다.
 
 **Microsoft 데이터 센터에 대한 자체 감사를 실시해야 하나요?**
 

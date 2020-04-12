@@ -16,12 +16,12 @@ ms.assetid: 8079f193-1b40-4081-9e5d-d0e50dfbcc59
 ms.collection:
 - M365-security-compliance
 description: 이 항목에서는 정크 메일 (스팸) 및 대량 전자 메일의 차이점 및 Office 365의 관련 컨트롤에 대해 설명 합니다.
-ms.openlocfilehash: 56e997235a374ee9f56956be96458b46bffcdc21
-ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
+ms.openlocfilehash: 41dedd02febc40b73dc585961487f89bbc6db54a
+ms.sourcegitcommit: c876d58b34454f211b50ae5d06f193c1a1e5c4ff
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43033629"
+ms.lasthandoff: 04/11/2020
+ms.locfileid: "43230959"
 ---
 # <a name="whats-the-difference-between-junk-email-and-bulk-email"></a>정크 메일과 대량 전자 메일의 차이점
 

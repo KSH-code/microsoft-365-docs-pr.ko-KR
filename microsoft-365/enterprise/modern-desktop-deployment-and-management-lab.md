@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Windows 및 Office 배포 랩 키트에 액세스하는 방법 및 위치에 대해 알아보세요.
-ms.openlocfilehash: e0942f88605e1b11cdbc83155ebc43b5fdb1bea1
-ms.sourcegitcommit: a7b2cd892cb65a61ee246268e1af2f8b9e526f6b
+ms.openlocfilehash: 15bd30e54aaf5c7e7fcd881009f8c51c6d5c74e0
+ms.sourcegitcommit: 7bb340f6b47378bcd1c6e770dc975931470bbc26
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43081283"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "43225934"
 ---
 # <a name="windows-and-office-deployment-lab-kit"></a>Windows 및 Office 배포 랩 키트
 
@@ -113,7 +113,7 @@ ms.locfileid: "43081283"
 
 [Windows 및 Office 배포 랩 키트 다운로드](https://www.microsoft.com/evalcenter/evaluate-lab-kit)
 
-*광대역폭을 통해 이 콘텐츠를 다운로드하여 다운로드 환경을 개선하고 자동 프로비전을 위해 30-45분을 허용하세요. 이 랩 환경에는 최소 16GB의 사용 가능한 메모리와 150GB의 사용 가능한 디스크 공간이 필요합니다. 최적의 성능을 위해 32GB의 사용 가능한 공간이 있는 것이 좋습니다. 이 랩은 2020년 4월 18일에 만료됩니다. 만료 전에 새 버전이 게시됩니다.*
+*광대역폭을 통해 이 콘텐츠를 다운로드하여 다운로드 환경을 개선하고 자동 프로비전을 위해 30-45분을 허용하세요. 이 랩 환경에는 최소 16GB의 사용 가능한 메모리와 150GB의 사용 가능한 디스크 공간이 필요합니다. 최적의 성능을 위해 32GB의 사용 가능한 공간이 있는 것이 좋습니다. 이 랩은 2020년 7월 5일에 만료됩니다. 만료 전에 새 버전이 게시됩니다.*
 
 ## <a name="additional-guidance"></a>추가 안내
 

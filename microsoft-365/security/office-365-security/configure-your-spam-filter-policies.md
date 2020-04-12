@@ -16,12 +16,12 @@ ms.assetid: 316544cb-db1d-4c25-a5b9-c73bbcf53047
 ms.collection:
 - M365-security-compliance
 description: 기본 스팸 필터 설정에는 스팸으로 식별되는 메시지에 관해 수행할 작업 선택이 포함됩니다.
-ms.openlocfilehash: f77a4f52e045c96a0538b140022ebee846cb1996
-ms.sourcegitcommit: 8a88b7526e6a3a907f33a8567e0d25b74fe60d80
+ms.openlocfilehash: 39532db121bb4a9ca5b73ef129b2b0e74e46c69a
+ms.sourcegitcommit: 1d5db6e8411b45d0dd1c517339074c2840e33a63
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43204103"
+ms.lasthandoff: 04/10/2020
+ms.locfileid: "43216926"
 ---
 # <a name="configure-anti-spam-policies-in-office-365"></a>Office 365에서 스팸 방지 정책 구성하기
 
@@ -280,7 +280,7 @@ Exchange Online PowerShell 또는 독립 실행형 Exchange Online Protection Po
 
 3. **정책 편집**을 클릭합니다.
 
-사용자 지정 스팸 방지 정책의 경우, 플라이아웃에서 표시되는 사용 가능한 설정은 [보안 및 준수 센터를 사용하여 스팸 방지 정책 만들기](#use-the-security--compliance-center-to-create-anti-spam-policies)에서 설명한 것과 같습니다.
+플라이아웃에서 표시되는 설정은 [보안 및 준수 센터를 사용하여 스팸 방지 정책 만들기](#use-the-security--compliance-center-to-create-anti-spam-policies)에서 사용할 수 있는 설정과 같습니다.
 
 **기본 스팸 필터 정책**이라는 기본 스팸 방지 정책의 경우, **적용 대상** 섹션을 사용할 수 없으며(이 정책은 모든 사용자에게 적용됨) 정책의 이름을 바꿀 수 없습니다.
 
@@ -460,7 +460,7 @@ Get-HostedContentFilterPolicy -Identity "Executives" | Format-List
 기존 스팸 필터 규칙을 보려면 다음 구문을 사용하세요.
 
 ```PowerShell
-Get-HostedContentFilterRule [-Identity "<RuleIdentity>] [-State <Enabled | Disabled]
+Get-HostedContentFilterRule [-Identity "<RuleIdentity>"] [-State <Enabled | Disabled]
 ```
 
 모든 스팸 필터 규칙의 요약 목록을 반환하려면 이 명령을 실행합니다.
