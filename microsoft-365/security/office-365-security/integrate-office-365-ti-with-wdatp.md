@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: deniseb
 author: denisebmsft
 manager: dansimp
-ms.date: 01/22/2019
+ms.date: 04/13/2020
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -17,12 +17,12 @@ ms.assetid: 414fa693-d7b7-4a1d-a387-ebc3b6a52889
 ms.collection:
 - M365-security-compliance
 description: Microsoft Defender Advanced Threat Protection과 Office 365 Advanced Threat Protection을 통합 하 여 보다 자세한 위협 관리 정보를 확인 합니다.
-ms.openlocfilehash: 8096a950e66ed94d6e056f40b737d89d48cb811e
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: a2634a70bdbdd21efe2c59721e5532500eb4e4cc
+ms.sourcegitcommit: 4c6af6530b4997055b8e60bf532e75cbc72fb6c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42088769"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "43284230"
 ---
 # <a name="integrate-office-365-advanced-threat-protection-with-microsoft-defender-advanced-threat-protection"></a>Microsoft Defender Advanced Threat Protection을 사용 하 여 Office 365 Advanced Threat Protection 통합
 
@@ -30,7 +30,7 @@ ms.locfileid: "42088769"
   
 다음 이미지에는 Microsoft Defender ATP 통합을 사용 하는 경우 표시 되는 **장치** 탭이 나와 있습니다.
   
-![Microsoft Defender ATP가 사용 하도록 설정 되 면 경고가 포함 된 컴퓨터 목록을 볼 수 있습니다.](../../media/fec928ea-8f0c-44d7-80b9-a2e0a8cd4e89.PNG)
+![Microsoft Defender ATP를 사용 하도록 설정 하면 경고가 있는 장치 목록을 볼 수 있습니다.](../../media/fec928ea-8f0c-44d7-80b9-a2e0a8cd4e89.PNG)
   
 이 예에서는 전자 메일 메시지의 받는 사람에 게 4 개의 장치가 있고 하나에 경고가 있음을 확인할 수 있습니다. 장치에 대 한 링크를 클릭 하면 Microsoft Defender 보안 센터에서 해당 페이지가 열립니다.
   
@@ -44,22 +44,21 @@ ms.locfileid: "42088769"
     
 ## <a name="to-integrate-office-365-atp-with-microsoft-defender-atp"></a>Office 365 ATP를 Microsoft Defender ATP와 통합 하려면
 
-Microsoft Defender ATP와 Office 365 ATP를 통합 하는 기능은 보안 & 준수 센터와 Microsoft Defender 보안 센터를 모두 사용 하 여 설정 됩니다.
+Office 365 보안 & 준수 센터와 Microsoft Defender 보안 센터를 모두 사용 하 여 Microsoft Defender ATP를 사용한 사무실 365 ATP를 설정 합니다.
   
-1. Office 365 전역 관리자 또는 보안 관리자 인 경우으로 이동 [https://protection.office.com](https://protection.office.com) 하 여 office 365에 대 한 회사 또는 학교 계정으로 로그인 합니다.
+1. Office 365 전역 관리자 또는 보안 관리자 인 경우로 이동 [https://protection.office.com](https://protection.office.com) 하 여 로그인 합니다.
     
 2. **위협 관리** \> **탐색기**를 선택 합니다.<br>![위협 관리 메뉴의 탐색기](../../media/ThreatMgmt-Explorer-nav.png)<br>
     
 3. 화면의 오른쪽 위 모서리에서 **Wdatp 설정을**선택 합니다.
     
-4. Windows Defender ATP 연결 대화 상자에서 Windows ATP에 연결을 설정 합니다.<br>![Microsoft Defender ATP 연결](../../media/Explorer-WDATPConnection-dialog.png)<br>
+4. Microsoft Defender ATP 연결 대화 상자에서 **WINDOWS ATP에 연결**을 설정 합니다.<br>![Microsoft Defender ATP 연결](../../media/Explorer-WDATPConnection-dialog.png)<br>
     
-5. Microsoft Defender 보안 센터에서 연결을 사용 하도록 설정 합니다.
+5. Microsoft Defender 보안 센터 ([https://securitycenter.windows.com](https://securitycenter.windows.com))에서 연결을 사용 하도록 설정 합니다.
 
-  
 ## <a name="related-topics"></a>관련 항목
 
-[Office 365 위협 조사 및 응답](office-365-ti.md)
+[Office 365의 위협 조사 및 응답 기능](office-365-ti.md)
   
 [Office 365 Advanced Threat Protection](office-365-atp.md)
   

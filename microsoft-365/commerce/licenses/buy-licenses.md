@@ -25,12 +25,12 @@ search.appverid:
 - GEA150
 ms.assetid: 36081d8d-b3fa-4948-8c34-e217bba825e1
 description: 비즈니스용 Office 365 구독에 대 한 라이선스를 추가 및 제거 하는 방법을 알아봅니다.
-ms.openlocfilehash: f596971016e18747ea2849c0dfcb0dd287a0c811
-ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
+ms.openlocfilehash: abfa479d991bac72bd3e9e5c1c422368758b17a7
+ms.sourcegitcommit: 4ddbc1c3c29d79d3c4640b7b32f95576784efcca
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43142178"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "43240291"
 ---
 # <a name="manage-subscription-licenses"></a>구독 라이선스 관리
 
@@ -38,9 +38,9 @@ ms.locfileid: "43142178"
 
 사용자에게 라이선스가 할당된 경우 구독에서 라이선스를 제거할 수 없습니다. 현재 사용자에 게 할당 된 라이선스를 제거 하려면 구독에서 라이선스를 제거 하기 전에 [사용자 로부터 라이선스를 제거](../../admin/manage/remove-licenses-from-users.md) 해야 합니다.
 
-::: moniker range="o365-worldwide"
+## <a name="add-or-remove-licenses-for-your-business-subscription"></a>비즈니스 구독에 대 한 라이선스 추가 또는 제거
 
-## <a name="what-you-need-to-know-about-buying-licenses-for-your-business-subscription"></a>비즈니스 구독의 라이선스 구입에 대해 알아야 할 사항
+::: moniker range="o365-worldwide"
 
 1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품 및 서비스</a> 페이지로 이동합니다.
 
@@ -56,7 +56,7 @@ ms.locfileid: "43142178"
 
 ::: moniker range="o365-germany"
 
-1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">구독</a> 페이지로 이동 합니다.
+1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">구독</a> 페이지로 이동합니다.
 
 2. **구독** 페이지에서 라이선스를 추가 하거나 제거할 구독을 선택한 다음 **라이선스 추가/제거**를 선택 합니다.
 
@@ -70,7 +70,7 @@ ms.locfileid: "43142178"
 
 ::: moniker range="o365-21vianet"
 
-1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">구독</a> 페이지로 이동 합니다.
+1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">구독</a> 페이지로 이동합니다.
 
 2. **구독** 페이지에서 라이선스를 추가 하거나 제거할 구독을 선택한 다음 **라이선스 추가/제거**를 선택 합니다.
 
@@ -106,7 +106,7 @@ ms.locfileid: "43142178"
 - 신용 카드 또는 은행 계좌에 따라 구독을 결제 하는 경우 주문 확인을 받은 직후 구입 하는 모든 새 라이선스를 사용할 수 있습니다. 송장 단위로 결제 하는 경우 새 라이선스를 사용할 수 있을 때까지 신용 검사를 기다려야 할 수 있습니다.
 
   > [!NOTE]
-  > 은행 계좌를 통한 결제는 일부 국가나 지역에서는 사용할 수 없습니다.
+  > 은행 계좌로 결제하는 방법은 일부 국가 또는 지역에서 사용할 수 없습니다.
 
 - 제품 키를 사용 하 여 구독을 선불 지불 하는 경우 새 라이선스의 추가 비용을 기록 하기 위해 신용 카드 또는 은행 계좌를 추가 하 여 라이선스를 더 추가할 수 있습니다. 새 라이선스를 구매한 후에는 방금 추가한 새 라이선스 수와 함께 두 번째 구독을 추가 합니다. 예를 들어 라이선스가 5 개인 선불 구독을 사용 하 고 더 많은 라이선스를 구매한 경우에는 두 개의 구독, 즉 선불 라이선스가 있는 1 개와 새 라이선스가 10 개 표시 됩니다.
 

@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - MET150
 description: '정책 팁은 다른 사용자가 DLP 정책과 충돌 하는 콘텐츠로 작업할 때 표시 되는 알림 또는 경고입니다. 전자 메일 알림 및 정책 팁을 사용 하 여 인식을 향상 하 고 조직의 정책에 대 한 사용자를 교육 시킬 수 있습니다. 또한 사용자에 게 올바른 비즈니스 요구 사항이 있거나 정책이 가양성을 검색 하는 경우 차단 되지 않도록 정책을 재정의 하는 옵션을 제공할 수도 있습니다. '
-ms.openlocfilehash: adf9d41fd528b2146ae3b3ee6f61390d61deaabe
-ms.sourcegitcommit: 9c335d110e0b499501edc8a31b987641819118a1
+ms.openlocfilehash: 7d54c035d9bb7c9ecc5a543fb8f37749bf9437e7
+ms.sourcegitcommit: 4c6af6530b4997055b8e60bf532e75cbc72fb6c5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "42409583"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "43284273"
 ---
 # <a name="send-email-notifications-and-show-policy-tips-for-dlp-policies"></a>DLP 정책에 대한 전자 메일 알림 보내기 및 정책 팁 표시
 
@@ -32,7 +32,7 @@ DLP(데이터 손실 방지) 정책을 사용하여 Office 365에서 중요한 �
   
 ![메시지 표시줄에서는 Excel 2016 정책 팁](../media/7002ff54-1656-4a6c-993f-37427d6508c8.png)
   
-정책 팁은 사용자가 DLP 정책과 충돌 하는 콘텐츠 (예: PII (개인 식별 정보)를 포함 하는 비즈니스용 OneDrive 사이트에 있는 Excel 통합 문서)와 같은 콘텐츠를 사용 하는 경우 표시 되는 알림 또는 경고입니다. 외부 사용자와 공유 됩니다.
+정책 팁은 다른 사용자가 DLP 정책과 충돌 하는 콘텐츠 (예: PII (개인 식별 정보)를 포함 하 고 외부 사용자와 공유 되는 비즈니스용 OneDrive 사이트의 Excel 통합 문서와 같은 콘텐츠)를 사용 하는 경우에 표시 되는 알림 또는 경고입니다.
   
 전자 메일 알림 및 정책 팁을 사용 하 여 인식을 향상 하 고 조직의 정책에 대 한 사용자를 교육 시킬 수 있습니다. 또한 사용자에 게 올바른 비즈니스 요구 사항이 있거나 정책이 가양성을 검색 하는 경우 차단 되지 않도록 정책을 재정의 하는 옵션을 제공할 수도 있습니다.
   
@@ -50,7 +50,7 @@ Office 365 보안 &amp; 및 준수 센터에서 DLP 정책을 만들 때 다음 
     
 ## <a name="add-user-notifications-to-a-dlp-policy"></a>DLP 정책에 사용자 알림 추가
 
-DLP 정책을 만들 때 **사용자 알림을**사용 하도록 설정할 수 있습니다. 이 옵션을 사용 하도록 설정 하면 Microsoft 365에서 전자 메일 알림과 정책 팁을 모두 전송 합니다. 전자 메일을 보낼 사용자를 사용자 지정할 수 있습니다.
+DLP 정책을 만들 때 **사용자 알림을**사용 하도록 설정할 수 있습니다. 사용자 알림을 사용 하도록 설정 하면 Microsoft 365에서 전자 메일 알림과 정책 팁을 모두 전송 합니다. 전자 메일을 보낼 사용자를 사용자 지정할 수 있습니다.
   
 1. [https://protection.office.com](https://protection.office.com)으로 이동합니다.
     
@@ -68,13 +68,13 @@ DLP 정책을 만들 때 **사용자 알림을**사용 하도록 설정할 수 �
     
 6. DLP 정책으로 보호 하려는 위치를 선택 하려면 다음 중 하나를 수행 합니다.
     
-  - \> **Office 365의 모든 위치를** **선택 합니다.**
+   - \> **Office 365의 모든 위치를** **선택 합니다.**
     
-  - \> **다음**에 **특정 위치 선택을** 선택 합니다.
+   - \> **다음**에 **특정 위치 선택을** 선택 합니다.
     
-    모든 Exchange 전자 메일 또는 모든 OneDrive 계정 등의 전체 위치를 포함 하거나 제외 하려면 해당 위치의 **상태** 를 전환 하거나 설정/해제 합니다. 
+   모든 Exchange 전자 메일 또는 모든 OneDrive 계정 등의 전체 위치를 포함 하거나 제외 하려면 해당 위치의 **상태** 를 전환 하거나 설정/해제 합니다. 
     
-    특정 SharePoint 사이트 또는 OneDrive 계정만 포함 하려면 **상태** 를 설정으로 전환한 다음 **포함** 아래의 링크를 클릭 하 여 특정 사이트 또는 계정을 선택 합니다. 
+   특정 SharePoint 사이트 또는 OneDrive 계정만 포함 하려면 **상태** 를 설정으로 전환한 다음 **포함** 아래의 링크를 클릭 하 여 특정 사이트 또는 계정을 선택 합니다. 
     
 7. **고급 설정** \> 사용 **다음**을 선택 합니다.
     
@@ -166,7 +166,7 @@ DLP 정책의 각 규칙에 대해 다음을 수행하도록 정책을 구성할
     
 2. 규칙이 문서 액세스를 차단하는 경우 차단됨 아이콘이 나타납니다.
     
-![OneDrive 계정의 문서에 대 한 정책 팁 아이콘](../media/d3e9f772-03f9-4d28-82f8-3064784332a2.png)
+   ![OneDrive 계정의 문서에 대 한 정책 팁 아이콘](../media/d3e9f772-03f9-4d28-82f8-3064784332a2.png)
   
 문서에 대해 작업을 수행 하려면 페이지 오른쪽 위 모서리에서 \> **정보** ![정보 설정 창 아이콘](../media/50b6d51b-92b4-4c5f-bb4b-4ca2d4aa3d04.png) 을 선택 하 여 세부 정보 창 \> **보기 정책 팁**을 열면 항목을 선택할 수 있습니다.
   
@@ -287,4 +287,4 @@ DLP 정책의 정책 팁이 이러한 옵션으로 구성되어 있는 경우 �
     
 - [DLP 정책 템플릿에 포함되는 내용](what-the-dlp-policy-templates-include.md)
     
-- [중요한 정보 유형이 찾는 항목](what-the-sensitive-information-types-look-for.md)
+- [What the sensitive information types look for](what-the-sensitive-information-types-look-for.md)(중요한 정보 유형이 찾는 항목)
