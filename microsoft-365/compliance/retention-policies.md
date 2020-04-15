@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 정책을 사용하여 콘텐츠를 보존할지, 삭제할지, 아니면 보존한 다음 삭제할지 사전에 결정할 수 있습니다. 조직 전체에 또는 특정 위치 또는 사용자에게 하나의 정책을 적용할 수 있고, 모든 콘텐츠에 또는 특정 조건에 부합하는 콘텐츠에 정책을 적용할 수 있습니다.
-ms.openlocfilehash: ffbc8026b8a0b1f85916c7697625bfa0935e275f
-ms.sourcegitcommit: 732bb72a0b5ae09cb39536185aa29d6097ec72fd
+ms.openlocfilehash: d06ad19ab247384f800b3b38c561ad8eb33d4066
+ms.sourcegitcommit: 9cea48e1b26e0465c00f8d053080cba1143970c2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "43189058"
+ms.lasthandoff: 04/13/2020
+ms.locfileid: "43237645"
 ---
 # <a name="overview-of-retention-policies"></a>보존 정책 개요
 
@@ -301,7 +301,7 @@ Teams에서 보존 정책을 사용하여 채팅 및 채널 메시지를 보존�
 Teams 채팅 및 채널 메시지는 Exchange 또는 Office 365 그룹 위치의 사용자 또는 그룹 사서함에 적용된 보존 정책의 영향을 받지 않습니다. Teams 채팅 및 채널 메시지가 Exchange에 저장되더라도 Teams 채팅 및 채널 메시지는 Teams 위치에 적용된 보존 정책의 영향만 받습니다.
 
 > [!NOTE]
-> Teams 데이터를 보유하는 활성 보존 정책에 사용자가 포함된 경우 데이터 저장소를 보존해야 하므로 해당 사용자의 사서함 삭제는 허용되지 않습니다. 이러한 사용자의 사서함을 삭제하려면 관리자가 먼저 보존 정책에서 사용자를 제외해야 합니다.
+> Teams 데이터를 보존하는 활성 보존 정책에 사용자가 포함되어 있고 데이터를 보존하기 위 해이 정책에 포함된 사용자의 사서함을 삭제하면 사서함이 [비활성 사서함](inactive-mailboxes-in-office-365.md)로 변환됩니다. 사용자에 대한 이 데이터를 유지할 필요가 없는 경우 사서함을 삭제하기 전에 사용자를 보존 정책에서 제외합니다.
   
 보존 정책이 팀에 할당되면 채팅 및 채널 메시지가 다음 두 경로 중 하나를 따를 수 있습니다.
 

@@ -20,16 +20,16 @@ search.appverid:
 ms.assetid: 043807b2-21db-4d5c-b430-c8a6dee0e6ba
 ROBOTS: NOINDEX, NOFOLLOW
 description: Office 365의 다단계 인증 및 설정 하기 위해 수행 해야 하는 단계에 대해 알아봅니다.
-ms.openlocfilehash: be3b355f4487e2df5c2e20c9911c3bb421d5f7e1
-ms.sourcegitcommit: 00ce4626e1be182c5a91210a23662c9704384efa
+ms.openlocfilehash: 715baeb0355ab203e890f2c87cf0751eff69e7f8
+ms.sourcegitcommit: dbbdeca5a6cd048e1bde9e820a8b8a0d6022c7a2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43170943"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "43503998"
 ---
 # <a name="plan-for-multi-factor-authentication-for-office-365-deployments"></a>Office 365 배포의 다단계 인증 계획
 
-다단계 인증(MFA)은 두 가지 이상의 확인 방법을 사용해야 하고 사용자 로그인 및 트랜잭션에 두 번째 보안 레이어를 추가하는 인증 방법입니다. 이 작업에는 다음 확인 방법 중 두 가지 이상이 필요합니다.
+다단계 인증(MFA)은 두 가지 이상의 확인 방법을 사용해야 하고 사용자 로그인 및 트랜잭션에 두 번째 보안 레이어를 추가하는 인증 방법입니다. 이는 다음과 같이 사용자 계정 암호를 초과 하는 정보와 함께 추가 확인 단계를 요구 하는 방식으로 작동 합니다.
   
 - 임의로 생성된 암호
     
@@ -39,11 +39,11 @@ ms.locfileid: "43170943"
     
 - 생체 인식 장치 
     
-## <a name="multi-factor-authentication-in-office-365"></a>Office 365에서의 다단계 인증
+## <a name="mfa-in-office-365"></a>Office 365의 MFA
 
-Office 365에서는 multi-factor authentication을 사용 하 여 추가 보안을 제공 하 고 Microsoft 365 관리 센터에서 관리 합니다. Office 365에서는 구독의 일부로 Azure Multi-factor Authentication 기능의 다음과 같은 하위 집합을 제공 합니다. 
+Office 365에서는 MFA를 추가 로그인 보안으로 사용 하며, Microsoft 365 관리 센터에서 개별 사용자 계정 마다이를 관리할 수 있습니다. Office 365에서는 구독의 일부로 Azure Multi-factor Authentication 기능의 다음과 같은 하위 집합을 제공 합니다. 
   
-- 최종 사용자에 대한 다단계 인증을 활성화 및 적용하는 기능
+- 최종 사용자에 대해 MFA를 사용 하도록 설정 하 고 적용 하는 기능
     
 - 모바일 앱(온라인 및 일회용 암호[OTP])을 두 번째 인증 요소로 사용
     
@@ -51,21 +51,24 @@ Office 365에서는 multi-factor authentication을 사용 하 여 추가 보안�
     
 - SMS(문자 서비스) 메시지를 두 번째 인증 요소로 사용
     
-- 브라우저 이외의 클라이언트(예: Microsoft Lync 2013 통신 소프트웨어)의 응용 프로그램 암호
+- 비 브라우저 클라이언트용 응용 프로그램 암호 (예: Microsoft Lync 2013 communications software)
     
 - 인증 전화 통화 중의 기본 Microsoft 인사말
     
 추가 기능의 전체 목록은 [Azure 다단계 인증 버전 비교](https://go.microsoft.com/fwlink/?LinkId=506927)를 참조하세요. Azure 다단계 인증 서비스를 구입하여 언제든지 모든 기능을 이용할 수 있습니다. 
   
-Office 365에 대한 클라우드 전용 배포 또는 Single Sign-On 및 AD FS(Active Directory Federation Services)에 대한 하이브리드 설치가 있는지에 따라 다른 기능 하위 집합을 사용할 수 있습니다. 
+Office 365에 대 한 클라우드 전용 또는 하이브리드 id가 있는지 또는 AD FS (Active Directory Federation Services)에 페더레이션 인증을 사용 하는지에 따라 다른 기능 하위 집합을 사용할 수 있습니다. 
   
-|**Office 365 테넌트를 어디에서 관리하나요?**|**MFA 두 번째 요소 옵션**|
-|:-----|:-----|
-|클라우드만  <br/> |Azure Multi-factor Authentication (텍스트 또는 전화 통화)  <br/> |
-|하이브리드 설치, 관리되는 온-프레미스  <br/> | 사용자 ID 온-프레미스를 관리하는 경우 다음과 같은 옵션이 있습니다.  <br/>  실제 또는 가상 스마트 카드 (AD FS를 사용 하는 경우)  <br/> [Azure Multi-factor Authentication](https://go.microsoft.com/fwlink/p/?LinkId=526677) (AD FS 용 모듈)  <br/>  Azure Active Directory (Azure AD) 다단계 인증  <br/> |
+|**Office 365 테 넌 트는 어디에서 관리 하나요?** | **MFA 두 번째 요소 옵션**|
+
+|:-----|:-----| | 클라우드 전용  <br/> | Azure Multi-factor Authentication (텍스트 또는 전화 통화)  <br/> | | 하이브리드 설치, 관리 되는 온-프레미스  <br/> | 온-프레미스에서 사용자 id를 관리 하는 경우 다음을 선택할 수 있습니다.  <br/>  실제 또는 가상 스마트 카드 (AD FS를 사용 하는 경우)  <br/> [Azure Multi-factor Authentication](https://go.microsoft.com/fwlink/p/?LinkId=526677) (AD FS 용 모듈)  <br/>  Azure Active Directory (Azure AD) 다단계 인증  <br/> |
    
   
-다음 그림에서는 업데이트된 Office 2013 장치 앱(Windows 기반)에서 사용자가 MFA를 사용하여 로그인할 수 있는 방법을 보여줍니다. Office 2013 장치 앱은 [액티브 디렉터리 인증 라이브러리 (ADAL)](https://go.microsoft.com/fwlink/p/?LinkId=526684)사용을 통한 다단계 인증을 지원 합니다. Azure AD는 사용자가 로그인할 수 있는 웹 페이지를 호스팅합니다. ID 공급자는 Azure AD이거나 AD FS와 같은 페더레이션 ID 공급자일 수 있습니다. 페더레이션 사용자에 대한 인증은 다음 단계를 따릅니다.
+다음 그림에서는 업데이트된 Office 2013 장치 앱(Windows 기반)에서 사용자가 MFA를 사용하여 로그인할 수 있는 방법을 보여줍니다. 
+
+![Office 2013 장치 앱용 최신 인증](../../media/dc37645c-b899-4715-b162-d7653bd0aebd.png)
+
+Office 2013 장치 앱은 [액티브 디렉터리 인증 라이브러리 (ADAL)](https://go.microsoft.com/fwlink/p/?LinkId=526684)사용을 통한 다단계 인증을 지원 합니다. Azure AD는 사용자가 로그인할 수 있는 웹 페이지를 호스팅합니다. ID 공급자는 Azure AD이거나 AD FS와 같은 페더레이션 ID 공급자일 수 있습니다. 페더레이션 사용자에 대한 인증은 다음 단계를 따릅니다.
   
 1. Azure AD는 Office 365 테넌트에 대한 레코드의 ID 공급자가 호스팅하는 로그인 웹 페이지로 사용자를 리디렉션합니다. ID 공급자는 사용자의 로그인 이름에 지정된 도메인에 의해 결정됩니다.
     
@@ -75,11 +78,8 @@ Office 365에 대한 클라우드 전용 배포 또는 Single Sign-On 및 AD FS(
     
 4. Azure AD는 Office 장치 앱에 JSON Web Token(JWT)을 반환하며, 장치 앱은 Office 365에서 JWT를 사용하여 인증됩니다. 
     
-다음 그림에서 자세히 설명합니다.
   
-![Office 2013 장치 앱용 최신 인증](../../media/dc37645c-b899-4715-b162-d7653bd0aebd.png)
-  
-## <a name="software-requirements"></a>소프트웨어 요구 사항
+## <a name="requirements-for-office-2013-client-apps"></a>Office 2013 클라이언트 앱에 대 한 요구 사항
 
 Office 2013 클라이언트 앱용 MFA를 활성화하려면 [간편 실행 기반 설치](#click-to-run-based-installations) 또는 [MSI 기반 설치](#msi-based-installations)가 있는지에 따라 다음 소프트웨어(아래 나열한 버전 이상)를 설치해야 합니다.
   
@@ -91,11 +91,13 @@ Office 설치가 간편 실행 기반인지 MSI 기반인지 확인하려면:
     
 3. Outlook 2013 간편 실행 설치의 경우 **업데이트 옵션** 항목이 표시됩니다. MSI 기반 설치의 경우 **업데이트 옵션** 항목이 표시되지 않습니다. 
     
-    ![Graphic that shows how to tell if Office 2013 install is click-to-run or MSI-based](../../media/1e75143f-9e37-4e0c-9610-43a80771571e.png)
+    ![Office 2013 설치가 간편 실행 또는 MSI 기반 인지를 알리는 방법](../../media/1e75143f-9e37-4e0c-9610-43a80771571e.png)
+
+Sor [에 대 한 자세한 내용은 최신 인증 wiki 문서에 대 한 FAQ](https://go.microsoft.com/fwlink/p/?LinkId=530064)를 참조 하세요.
   
 ### <a name="click-to-run-based-installations"></a>간편 실행 기반 설치
 
-간편 실행 기반 설치의 경우 아래 나열한 파일 버전 이상으로 다음 소프트웨어를 설치해야 합니다. 나열된 파일 버전과 같거나 높지 않은 파일 버전인 경우 아래 단계에 따라 업데이트합니다.
+간편 실행 기반 설치의 경우 아래 나열 된 파일 버전 또는 이후 버전의 파일을 사용 하 여 다음 소프트웨어가 설치 되어 있어야 합니다. 나열된 파일 버전과 같거나 높지 않은 파일 버전인 경우 아래 단계에 따라 업데이트합니다.
   
 |**파일 이름**|**컴퓨터의 설치 경로**|**파일 버전**|
 |:-----|:-----|:-----|
@@ -121,30 +123,24 @@ MSI 기반 설치의 경우 아래 나열한 파일 버전 이상으로 다음 �
    
 ## <a name="enable-mfa"></a>MFA 설정
 
-MFA를 설정하려면 다음을 완료해야 합니다.
+Office 365 구독에 대해 MFA를 사용 하도록 설정 하려면 다음 단계를 수행 합니다.
   
-1. 최신 인증을 위해 클라이언트 설정:
+1. 필요한 경우 [Windows 장치에서 Office 2013에 대 한 최신 인증을 사용 하도록 설정](enable-modern-authentication.md)합니다.
     
-  - [Windows 장치에서 Office 2013에 대한 최신 인증을 설정합니다](enable-modern-authentication.md) . 
-    
-  - 타사 디렉터리 서비스를 사용 하 여 Azure Multi-factor Authentication을 설정 합니다.
+2. 페더레이션 인증의 경우 타사 디렉터리 서비스를 사용 하 여 Azure Multi-factor Authentication을 설정 합니다.
     
     이 프로그램에 수락 된 특정 id 공급자에 대 한 정보를 보려면 [Azure Multi-factor Authentication 및 타사 VPN 솔루션을 포함 하는 고급 시나리오](https://docs.microsoft.com/azure/active-directory/authentication/howto-mfaserver-nps-vpn) 를 참조 하세요. 
     
-2. [Office 365에 대한 다단계 인증 설정](set-up-multi-factor-authentication.md)
+3. [Office 365에 대 한 다단계 인증을 설정](set-up-multi-factor-authentication.md)합니다.
     
-3. MFA로 로그인하는 방법을 개별 사용자에게 알림: [2단계 확인을 통해 Office 365에 로그인합니다](https://support.office.com/article/2b856342-170a-438e-9a4f-3c092394d3cb.aspx).
+4. 사용자에 게 [Office 365 사용자 계정에 대해 MFA를 설정](https://support.office.com/article/set-up-2-step-verification-for-office-365-ace1d096-61e5-449b-a875-58eb3d74de14)하는 방법을 설명 합니다. 보조 인증 방법을 설정한 후에는 다음 로그인 기능에 MFA가 필요 합니다.
     
 > [!IMPORTANT]
-> 사용자가 Azure Multi-factor Authentication을 사용 하도록 설정한 상태에서 최신 인증을 사용 하도록 설정 되지 않은 모든 장치를 Office 2013를 실행 하는 경우 해당 장치에서 AppPasswords를 사용 해야 합니다. AppPasswords에 대 한 자세한 내용 및 사용 방법/위치/방법, [Azure Multi_Factor 인증을 사용 하는 앱 암호](https://go.microsoft.com/fwlink/p/?LinkId=528178)를 참조 하세요. 
+> 사용자가 Azure Multi-factor Authentication을 사용 하도록 설정한 상태에서 최신 인증을 사용 하도록 설정 되지 않은 Office 2013을 실행 하는 장치가 있으면 앱 암호를 사용 해야 합니다. 앱 암호에 대 한 자세한 내용 및 사용 방법/위치/방법, 여기서는 [Azure Multi_Factor 인증을 사용 하는 앱 암호](https://go.microsoft.com/fwlink/p/?LinkId=528178)를 참조 하세요. 
   
-## <a name="faq"></a>FAQ
-
-[최신 인증 Wiki 문서에 대한 FAQ](https://go.microsoft.com/fwlink/p/?LinkId=530064)
+## <a name="known-issues"></a>알려진 문제
   
- **알려진 문제점:**
-  
-[Office 2013 및 Office 365 ProPlus 최신 인증: 온보딩하기 전에 알아야 할 사항](https://social.technet.microsoft.com/wiki/contents/articles/30214.office-2013-and-office-365-proplus-modern-authentication-things-to-know-before-onboarding.aspx)
+[Office 2013 및 Office 365 ProPlus 최신 인증: 온 보 딩 하기 전에 알아야 할 사항](https://social.technet.microsoft.com/wiki/contents/articles/30214.office-2013-and-office-365-proplus-modern-authentication-things-to-know-before-onboarding.aspx)
   
  **Azure 다단계 인증 문제 해결:**
   

@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: 8f0454b2-f51a-4d9c-bcde-2c48e41621c6
 description: 보안 기본값을 사용하여 Office 365 사용자의 다단계 인증을 설정하는 방법을 알아봅니다.
 monikerRange: o365-worldwide
-ms.openlocfilehash: 5f468f040ca88ab4ab2bc198d0d7550bf2e7f4af
-ms.sourcegitcommit: 8a88b7526e6a3a907f33a8567e0d25b74fe60d80
+ms.openlocfilehash: 7e48f72f2fd8cfc5042bd15f994cc98bfa5fca8c
+ms.sourcegitcommit: dbbdeca5a6cd048e1bde9e820a8b8a0d6022c7a2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43204025"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "43503974"
 ---
 # <a name="set-up-multi-factor-authentication"></a>다단계 인증 설정
   
@@ -37,6 +37,7 @@ ms.locfileid: "43204025"
 모든 새 비즈니스용 Office 365 또는 Microsoft 365 Business 구독에는 자동으로 보안 기본값이 설정됩니다. 즉, 모든 사용자가 자신의 모바일 장치에 MFA를 설정 하 고 Microsoft Authenticator 앱을 설치 해야 합니다. 자세한 내용은 [Office 365에 대해 2단계 인증 설정](https://support.office.com/article/ace1d096-61e5-449b-a875-58eb3d74de14)을 참조하세요.  
 
 다음 9개의 관리자 역할은 로그인할 때마다 추가 인증을 수행해야 합니다.
+
 - 전역 관리자
 - SharePoint 관리자
 - Exchange 관리자
@@ -47,7 +48,7 @@ ms.locfileid: "43204025"
 - 사용자 관리자
 - 인증 관리자
 
-필요한 경우 다른 모든 사용자들은 추가 인증을 수행하라는 요청을 받습니다. 자세한 내용은 [보안 기본값이란?](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults)을 참조하세요.
+필요한 경우 다른 모든 사용자들은 추가 인증을 수행하라는 요청을 받습니다. 자세한 내용은 [보안 기본값 이란?](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults)를 참조 하세요.
 
 > [!NOTE]
 > MFA를 설정 하거나 수정 하려면 Office 365 전역 관리자 여야 합니다. <br><br>
@@ -61,8 +62,7 @@ ms.locfileid: "43204025"
 ## <a name="manage-security-defaults"></a>보안 기본값 관리
 
 1. 전역 관리자 자격 증명을 사용하여 [관리 센터](https://go.microsoft.com/fwlink/p/?linkid=834822)에 로그인합니다.
-2. [Azure Active Directory 속성](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Properties)로 이동합니다.
-
+2. [Azure Active Directory 속성](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Properties)으로 이동합니다.
 3. 페이지 맨 아래에서 **보안 기본값 관리**를 선택합니다.
 4. 보안 기본값을 사용 하려면 **예** 를 선택 하 고 보안 기본값을 사용 하지 않으려면 **아니요** 를 선택한 다음 **저장**을 선택 합니다.
 
@@ -74,9 +74,9 @@ ms.locfileid: "43204025"
 
 3. **보안 | 시작** 페이지에서 **조건부 액세스**를 선택 합니다. 
 
-4. **Azure 포털 조건부 액세스 정책** 페이지에서 **켬**으로 되어 있는 각 기본 정책을 선택하고 이 정책들을 **끔**으로 설정합니다.
+4. **조건부 액세스-정책** 페이지에서 설정 된 각 기준 정책을 선택 하 고 **이를**사용 **안 함**으로 설정할 수 있습니다.
 5. [Azure Active Directory 속성](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Properties) 페이지로 이동합니다.
-6. 페이지 맨 하단에서 **보안 기본값** 관리를 선택하고 **보안 기본값 사용** 창에서 **보안 기본값** 토글을 **예**로 전환합니다. 
+6. 페이지 맨 아래에서 **보안 기본값 관리**를 선택 하 **고 보안 기본값 사용 창에서** **보안 기본값 사용** 을 설정/해제를 선택한 다음 **저장** **을 선택**합니다. 
 
 ## <a name="enable-modern-authentication-for-your-organization"></a>조직에 대 한 최신 인증을 사용 하도록 설정
 
@@ -84,12 +84,13 @@ ms.locfileid: "43204025"
 
 1. 최신 인증을 사용하도록 설정하려면 [관리 센터](https://go.microsoft.com/fwlink/p/?linkid=834822)의 **설정** \> **설정**을 선택하고 **서비스**탭의 목록에서 **최신 인증**을 선택합니다.
 
-2. **최신 인증** 패널에서 **최신 인증 사용** 확인란을 선택합니다. 
+2. **최신** 인증 패널에서 **최신 인증 사용 (권장)** 상자를 선택 하 고 **변경 내용 저장**을 선택 합니다. 
 
     ![사용 확인란이 선택된 최신 인증 패널](../../media/enablemodernauth.png)
     
 > [!IMPORTANT]
 > 2017년 8월을 기준으로 비즈니스용 Skype Online 및 Exchange Online을 포함하는 모든 새 Office 365 테넌트는 기본적으로 최신 인증을 사용하도록 설정되어 있습니다. 비즈니스용 Skype Online의 최신 인증 상태를 확인하려면 전역 관리자 자격 증명을 사용하여 비즈니스용 Skype Online PowerShell을 사용할 수 있습니다. Get-CsOAuthConfiguration을 실행하여ClientADALAuthOverride의 결과물을 확인합니다. ClientADALAuthOverride가 '허용'인 경우 최신 인증이 설정되어 있습니다.
+
 Exchange Online의 MA 상태를 확인하려면 [Exchange Online에서 최신 인증을 사용하도록 설정](https://docs.microsoft.com/exchange/clients-and-mobile-in-exchange-online/enable-or-disable-modern-authentication-in-exchange-online)을 참조하세요.
 
 ## <a name="related-articles"></a>관련 문서

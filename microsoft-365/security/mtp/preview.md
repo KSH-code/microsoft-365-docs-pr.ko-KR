@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: f04d2e587a55a680a65425b34a88896466e09be3
-ms.sourcegitcommit: 9ca28ae8f7804eb488cf76ca4b09fe88787e0a49
+ms.openlocfilehash: c4facaac82ff8486c0c3a846e4f577c7888a3161
+ms.sourcegitcommit: dbbdeca5a6cd048e1bde9e820a8b8a0d6022c7a2
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43113462"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "43503986"
 ---
 # <a name="microsoft-threat-protection-preview-features"></a>Microsoft Threat Protection 미리 보기 기능
 
@@ -54,8 +54,9 @@ Microsoft Threat Protection 서비스는 새로운 기능 향상 및 기능을 �
 
 **미리 보기 기능 켜기** 확인란이 선택 되어 있으면 미리 보기 기능이 설정 되어 있는 것을 알 수 있습니다. 
 
-
-
 ## <a name="preview-features"></a>미리 보기 기능
-이 섹션은 사용자가 사용할 수 있게 되 면 미리 보기에 표시 되는 기능 목록으로 업데이트 됩니다. 
+현재 미리 보기에서는 다음과 같은 기능을 사용할 수 있습니다.
 
+- **[사용자 지정](custom-detections-overview.md)** 검색-고급 검색 쿼리를 사용 하 여 정기적으로 위반 활동 및 기타 관심 있는 항목을 자동으로 검색 하는 규칙을 만들 수 있습니다. 쿼리와 일치-알림과 지정 된 응답 작업을 트리거합니다.
+
+- **[Id 및 앱 테이블](advanced-hunting-schema-tables.md)** -고급 구하기 스키마에서 [IdentityLogonEvents](advanced-hunting-identitylogonevents-table.md), [IdentityQueryEvents](advanced-hunting-identityqueryevents-table.md)및 [appfileevents](advanced-hunting-appfileevents-table.md) 테이블을 사용 하 여 인증 이벤트, Active Directory 쿼리 및 앱 관련 작업에 대 한 가시성을 가져옵니다.
