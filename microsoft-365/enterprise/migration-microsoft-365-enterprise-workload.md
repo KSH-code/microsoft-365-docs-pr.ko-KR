@@ -12,12 +12,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 조직 전체에서 Microsoft Office, Office 서버 및 Windows 버전을 Microsoft 365 Enterprise로 마이그레이션하는 프로세스를 단계별로 안내합니다.
-ms.openlocfilehash: 76396ea3eb4622bb27455938f5c645dd1240003a
-ms.sourcegitcommit: 9ca28ae8f7804eb488cf76ca4b09fe88787e0a49
+ms.openlocfilehash: 9fd35e4595b19d5ddd3db0f64ea7dedf303d6818
+ms.sourcegitcommit: dbbdeca5a6cd048e1bde9e820a8b8a0d6022c7a2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43113504"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "43504056"
 ---
 # <a name="migration-to-microsoft-365-enterprise"></a>Microsoft 365 Enterprise로 마이그레이션
 
@@ -116,10 +116,9 @@ Office 2007 릴리스의 서버 제품을 Office 2010, Office 2013 또는 Office
 
 ### <a name="office-server-2010"></a>Office Server 2010
 
-Office 2010 릴리스 서버 제품의 경우 다음에 대한 지원 종료는 **2020년 10월 13일**입니다.
+[Exchange Server 2010](https://docs.microsoft.com/office365/enterprise/exchange-2010-end-of-support) 지원 종료일은 **2020년 10월 13일입니다**.
 
-- [Exchange Server 2010](https://docs.microsoft.com/office365/enterprise/exchange-2010-end-of-support)
-- [SharePoint Server 2010](https://docs.microsoft.com/office365/enterprise/upgrade-from-sharepoint-2010)
+[SharePoint Server 2010](https://docs.microsoft.com/office365/enterprise/upgrade-from-sharepoint-2010) 지원 종료일은 **2021년 4월 13일입니다**.
 
 Office 2010 릴리스의 서버 제품을 Office 2013 또는 Office 2016 릴리스의 서버 제품으로 업그레이드하는 대신, 다음을 수행하는 것이 좋습니다.
 

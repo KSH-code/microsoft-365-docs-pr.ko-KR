@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 09/23/2019
+ms.date: 04/13/2020
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 신뢰할 수 있는 Office 365 위치로의 트래픽 바이패스를 위해 웹 브라우저 및 에 장치를 이해하고 구성합니다.
-ms.openlocfilehash: 71f62c5e245962f3514c49477e3cdeda17cb6397
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: b04e16b249dccf8f2461189b8b47abdd252a75d8
+ms.sourcegitcommit: dbbdeca5a6cd048e1bde9e820a8b8a0d6022c7a2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42066692"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "43504082"
 ---
 # <a name="step-4-configure-traffic-bypass"></a>4단계: 트래픽 바이패스 구성
 
@@ -54,6 +54,13 @@ ms.locfileid: "42066692"
 
 Microsoft 365 최적화 및 허용 범주 끝점에 대한 트래픽의 일반 프록시 및 네트워크 보안 처리만 우회하게 됩니다. 다른 모든 일반 인터넷 트래픽은 프록시 처리되며, 기존 네트워크 보안 처리를 따릅니다.
 
+## <a name="optimizing-traffic-for-remote-workers-that-use-vpn-connections"></a>VPN 연결을 사용하는 원격 근무자들을 위한 트래픽 최적화
+
+원격 근무자들은 조직의 인트라넷에 리소스에 액세스 하기 위해 보통 VPN(가상 사설망) 연결을 사용합니다. 기존 VPN 연결은 인터넷 트래픽을 포함하는 모든 트래픽을 조직 인트라넷에 라우팅합니다. 인터넷 트래픽은 조직의 경계 네트워크와 패킷 처리 장치에 라우팅 됩니다. 이 트래픽은 성능을 현저히 낮추고 원격 근무자의 생산성에 영향을 미칠 수 있는 흐름과 처리 지연의 대상이 됩니다. 
+
+분산 터널링은 인터넷의 특정 트래픽을 VPN 연결이 아닌 인터넷으로 보내는 VPN 연결 기능입니다. Teams, SharePoint Online, Exchange Online 등의 주요 Microsoft 365 서비스를 사용하는 원격 근무자의 최상의 성능을 위해서 VPN 연결에 분산 터널링을 구성하여 인터넷을 통해 Office 365 끝점 항목을 최적화하여 트래픽을 보냅니다. 
+
+자세한 내용은 [VPN 분산 터널링을 사용하여 원격 근무자의 Office 365 연결 원격 최적화](https://docs.microsoft.com/office365/enterprise/office-365-vpn-split-tunnel)를 참조하세요. 
 
 중간 검사점으로 이 단계에 대한 [종료 조건](networking-exit-criteria.md#crit-networking-step4)을 확인할 수 있습니다.
 
