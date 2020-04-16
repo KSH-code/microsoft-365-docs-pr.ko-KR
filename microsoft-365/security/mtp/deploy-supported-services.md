@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: c2798238f0e3cb10edab7f98bf096474a80fa006
-ms.sourcegitcommit: fe4beef350ef9f39b1098755cff46fa2b8e7dc4d
+ms.openlocfilehash: 1441790bfa0c587c4abceb87eb1e4daae6e4d157
+ms.sourcegitcommit: 09c3e2f3129c5e43cd8420cccd0676ff3a29a355
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42857478"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "43521483"
 ---
 # <a name="deploy-supported-services"></a>지원 서비스 사용
 
@@ -42,8 +42,8 @@ Microsoft 365 E5, E5 Security, A5 또는 A5 보안 라이선스 또는 유효한
 | ------ | ------ |
 | Microsoft Defender ATP | 강력한 행태 센서, 클라우드 분석 및 위협 인텔리전스를 기반으로 구축 된 Endpoint protection 제품군 |
 | Office 365 ATP | 전자 메일 및 기타 공동 작업 도구를 비롯 하 여 Office 365의 앱 및 데이터에 대 한 고급 보호 기능 |
-| Azure ATP | 상호 연관 된 Active Directory 신호를 사용 하 여 advanced threat, 손상 된 id 및 악의적인 참가자에 대 한 보호 |
-| Microsoft Cloud App Security | Microsoft 및 타사 클라우드 서비스에서 cyberthreats을 식별 하 고 combats를 사용 합니다. |
+| Azure ATP | 상호 연관 된 Active Directory 신호를 사용 하 여 advanced threat, 손상 된 id 및 악의적인 참가자에 대해 방어 |
+| Microsoft Cloud App Security | Microsoft 및 타사 클라우드 서비스를 통해 cyberthreats를 식별 하 고 공격 합니다. |
 
 ## <a name="deployed-services-and-functionality"></a>배포 된 서비스 및 기능
 Microsoft 위협 보호를 통해 지원 되는 서비스를 배포 하는 것과 같은 향상 된 가시성, 상관 관계 및 수정이 제공 됩니다.
@@ -64,7 +64,7 @@ Microsoft Threat Protection의 전체 이점을 얻으려면 지원 되는 모�
 | Microsoft Defender ATP | -끝점 상태 및 원시 이벤트<br />-바이러스 백신, EDR, attack surface reduction를 포함 한 끝점 감지 및 경고<br />-끝점에서 관찰 된 파일 및 기타 엔터티에 대 한 정보 | 엔드포인트 |
 | Office 365 ATP | -메일 및 사서함 상태 및 원시 이벤트<br />-전자 메일, 첨부 파일 및 링크 감지 | -사서함<br />-Office 365 계정 |
 | Azure ATP | -Active Directory 신호 (인증 이벤트 포함)<br />-Id 관련 동작 감지 | ID |
-| Microsoft Cloud App Security | -Unsanctioned 클라우드 앱 & 서비스 검색 (섀도 IT)<br />-클라우드 앱에 대 한 데이터 노출<br />-위협 활동 연결 된 클라우드 앱 | 클라우드 앱 |
+| Microsoft Cloud App Security | -Unsanctioned 클라우드 앱 및 서비스 검색 (섀도 IT)<br />-클라우드 앱에 대 한 데이터 노출<br />-클라우드 앱과 연결 된 위협 활동 | 클라우드 앱 |
 
 ## <a name="deploy-the-services"></a>서비스 배포
 각 서비스를 배포 하려면 일반적으로 테 넌 트 및 몇 가지 초기 구성에 프로 비전을 수행 해야 합니다. 이러한 각 서비스가 배포 되는 방식을 이해 하려면 다음 표를 참조 하십시오.

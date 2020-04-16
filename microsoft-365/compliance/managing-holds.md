@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 49b75e77f9884bb7cb40721a2aa986e203623c07
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: c36a9865757a76708ac9e7385a2a9ef3e977050e
+ms.sourcegitcommit: 09c3e2f3129c5e43cd8420cccd0676ff3a29a355
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41582757"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "43521472"
 ---
 # <a name="manage-holds-in-advanced-ediscovery"></a>Advanced eDiscovery에서 보류 관리
 
@@ -31,15 +31,15 @@ ms.locfileid: "41582757"
 
 ## <a name="manage-custodian-based-holds"></a>Custodian 유지 관리
 
-경우에 따라 식별 하 고, 사례 중에 데이터를 보존 하도록 결정 하는 custodians 집합이 있을 수 있습니다. 고급 eDiscovery에서 이러한 custodians 보존 되 면 사용자 및 선택한 데이터 원본이 custodian 보류 정책에 자동으로 추가 됩니다. 
+경우에 따라 식별 하 고, 사례 중에 데이터를 보존 하도록 결정 하는 custodians 집합이 있을 수 있습니다. 고급 eDiscovery에서 이러한 custodians 보존 되 면 사용자 및 선택한 데이터 원본이 custodian 보류 정책에 자동으로 추가 됩니다.
 
 Custodian 보류 정책을 보려면 다음을 수행 합니다.
 
-1. **보안 & 준수 센터**에서 **eDiscovery > Advanced eDiscovery** 를 클릭 하 여 조직의 사례 목록을 표시 합니다.
+1. Microsoft 365 준수 센터에서 **eDiscovery > Advanced** 를 클릭 하 여 조직의 사례 목록을 표시 합니다.
    
 2. **Custodians** 탭으로 이동 하 여 사례 내의 Custodians을 추가 합니다. 고급 eDiscovery 사례 내에서 custodians을 보류에 추가 하 고 배치 하는 방법에 대 한 자세한 내용은 [Add custodians to a Advanced Ediscovery case](add-custodians-to-case.md)를 참조 하십시오. Custodians를 이미 추가 했 고 대기 상태로 둔 경우 3 단계로 이동 합니다.
    
-3. **보류** 탭으로 이동 하 여 ' Custodian Policy '를 선택 합니다.
+3. **보류** 탭으로 이동 하 여 **\<CustodianHold HoldId>** 를 클릭 합니다.
    
 4. 플라이 아웃 페이지에서는 정책에 대 한 보류 통계를 볼 수 있습니다. Custodian 기반 유지에 쿼리를 적용 하는 등의 작업을 수행할 수도 있습니다. 보류 쿼리를 만들고 조건을 사용 하는 방법에 대 한 자세한 내용은 [키워드 쿼리 및 검색 조건을](keyword-queries-and-search-conditions.md)참조 하십시오.
  
@@ -47,12 +47,13 @@ Custodian 보류 정책을 보려면 다음을 수행 합니다.
 
 보류를 만들 때 지정 된 콘텐츠 위치에 보관 되는 콘텐츠의 범위를 지정할 수 있는 옵션은 다음과 같습니다.
 
-  - 모든 콘텐츠가 보류 되는 영구 보존을 만듭니다. 또는 검색 쿼리와 일치 하는 콘텐츠만 보존 되는 쿼리 기반 보류를 만들 수 있습니다.
-  - 해당 날짜 범위 내에서 전송, 수신 또는 만든 콘텐츠만 저장 하는 날짜 범위를 지정할 수 있습니다. 또는 보내기, 수신 또는 만든 시기에 관계 없이 모든 콘텐츠를 저장할 수 있습니다.
+- 모든 콘텐츠가 보류 되는 영구 보존을 만듭니다. 또는 검색 쿼리와 일치 하는 콘텐츠만 보존 되는 쿼리 기반 보류를 만들 수 있습니다.
+  
+- 해당 날짜 범위 내에서 전송, 수신 또는 만든 콘텐츠만 저장 하는 날짜 범위를 지정할 수 있습니다. 또는 보내기, 수신 또는 만든 시기에 관계 없이 모든 콘텐츠를 저장할 수 있습니다.
 
-고급 eDiscovery 사례에 대 한 보류를 만들려면:
+고급 eDiscovery 사례에 대해 custodial를 만들려면 다음을 수행 합니다.
 
-1. **보안 & 준수 센터**에서 **eDiscovery > Advanced eDiscovery** 를 클릭 하 여 조직의 사례 목록을 표시 합니다.
+1. Microsoft 365 준수 센터에서 **eDiscovery > Advanced** 를 클릭 하 여 조직의 사례 목록을 표시 합니다.
   
 2. 보류를 만들려는 사례 옆에 있는 **열기** 를 클릭 합니다.
   
@@ -73,12 +74,12 @@ Custodian 보류 정책을 보려면 다음을 수행 합니다.
     > [!NOTE]
     > **사용자, 그룹 또는 팀 선택을** 클릭 하 여 보류 중인 사서함을 지정 하는 경우 표시 되는 사서함 선택은 비어 있습니다. 이것은 성능을 향상시키기 위한 것입니다. 이 목록에 사용자를 추가 하려면 검색 상자에 이름 (최소 3 자)을 입력 합니다.
 
-    b. **Sharepoint 사이트** - **사이트 선택을** 클릭 한 다음 **사이트 선택을** 클릭 하 여 SharePoint 및 비즈니스용 OneDrive 사이트를 보류로 지정 합니다. 보류 하도록 설정할 각 사이트의 URL을 입력 합니다. 또한 Office 365 그룹 또는 Microsoft 팀에 대 한 SharePoint 사이트의 URL을 추가할 수 있습니다. **선택을**클릭 하 고 **완료**를 클릭 합니다.
+    b. **Sharepoint 사이트** - **사이트 선택을** 클릭 한 다음 **사이트 선택을** 클릭 하 여 SharePoint 및 비즈니스용 OneDrive 사이트를 보류로 지정 합니다. 보류 하도록 설정할 각 사이트의 URL을 입력 합니다. Microsoft Team 또는 Office 365 그룹에 대 한 SharePoint 사이트의 URL을 추가할 수도 있습니다. **선택을**클릭 하 고 **완료**를 클릭 합니다.
     
-     Office 365 그룹 및 Microsoft 팀을 보류 하는 방법에 대 한 팁은 **FAQ** 섹션을 참조 하십시오.
+     Microsoft 팀 및 Office 365 그룹을 유지 하는 방법에 대 한 팁을 보려면 [Microsoft 팀 및 office 365 그룹에 보류 위치](#place-a-hold-on-microsoft-teams-and-office-365-groups) 섹션을 참조 하세요.
 
     > [!NOTE]
-    > 드문 경우 이지만 사용자의 UPN (사용자 계정 이름)이 변경 된 경우에는 해당 OneDrive 계정에 대 한 URL도 새 UPN을 통합 하도록 변경 됩니다. 이 경우에는 사용자의 새 OneDrive URL을 추가 하 고 이전 항목을 제거 하 여 보류를 수정 해야 합니다.
+    > 사용자의 OneDrive 계정에 대 한 URL에는 UPN (사용자 계정 이름)이 `https://alpinehouse-my.sharepoint.com/personal/sarad_alpinehouse_onmicrosoft_com`포함 됩니다 (예:). 드물지만 사용자의 UPN이 변경 되는 경우에는 해당 OneDrive URL도 새 UPN을 통합 하도록 변경 됩니다. 사용자의 OneDrive 계정이 custodial 되지 않은 보류에 속하며 해당 UPN이 변경 되는 경우에는 보류를 업데이트 하 고 새 OneDrive URL을 가리키도록 해야 합니다. 자세한 내용은 [UPN 변경 사항이 ONEDRIVE URL에 미치는 영향](https://docs.microsoft.com/onedrive/upn-changes)을 참조 하십시오.
 
      c. **Exchange 공용 폴더** -설정/해제 스위치를 all 위치로 이동 하 여 Exchange Online 조직의 모든 공용 폴더를 보류 상태로 전환 합니다. 특정 공용 폴더를 선택 하 여 보류 상태로 설정할 수는 없습니다. 공용 폴더를 보존 하지 않으려면 toggle 스위치를 **"없음"** 으로 설정 된 상태로 둡니다.
 
@@ -92,10 +93,9 @@ Custodian 보류 정책을 보려면 다음을 수행 합니다.
 
      검색 쿼리를 만들고 조건을 사용 하는 방법에 대 한 자세한 내용은 [키워드 쿼리 및 검색 조건을](https://docs.microsoft.com/office365/SecurityCompliance/keyword-queries-and-search-conditions)참조 하십시오.
 
-12. 쿼리 기반 보존을 구성한 후 **다음**을 클릭 합니다.
- 
-13. 설정을 검토 하 고 **이 보류 만들기**를 클릭 합니다.
+11. 쿼리 기반 보존을 구성한 후 **다음**을 클릭 합니다.
 
+12. 설정을 검토 하 고 **이 보류 만들기**를 클릭 합니다.
 
 ## <a name="view-hold-statistics"></a>보류 통계 보기
 
@@ -115,12 +115,15 @@ Custodian 보류 정책을 보려면 다음을 수행 합니다.
 
 - SharePoint 사이트 또는 OneDrive 계정을 다중 지리적 환경에서 다른 지역으로 이동 하는 경우 해당 사이트에 대 한 통계가 보존 통계에 포함 되지 않습니다. 하지만 사이트의 콘텐츠는 계속 유지 됩니다. 또한 사이트가 다른 지역으로 이동 되는 경우 보류에 표시 되는 URL은 업데이트 되지 않습니다. 보류를 편집 하 고 URL을 업데이트 해야 합니다.
 
-## <a name="frequently-asked-questions"></a>자주하는 질문
+## <a name="place-a-hold-on-microsoft-teams-and-office-365-groups"></a>Microsoft 팀 및 Office 365 그룹에 대 한 보류 배치
 
-- **추가 Office 365 그룹 또는 Microsoft 팀 사이트를 custodian에 매핑하는 방법은 무엇 인가요? Office 365 그룹 및 Microsoft 팀에 Custodial 되지 않는 보류를 배치 하는 방법은 무엇 인가요?** Microsoft 팀은 Office 365 그룹을 기반으로 작성 됩니다. 따라서 eDiscovery 사례에서 보류를 설정 하는 것은 매우 유사 합니다. Office 365 그룹과 Microsoft 팀을 보류할 때 다음과 같은 사항을 염두에 두어야 합니다.
-  - 보류 중인 Office 365 그룹 및 Microsoft 팀에 있는 콘텐츠를 배치 하려면 그룹 또는 팀과 연결 된 사서함 및 SharePoint 사이트를 지정 해야 합니다.
+Microsoft 팀은 Office 365 그룹을 기반으로 작성 됩니다. 따라서 고급 eDiscovery에서 보류 하는 작업은 매우 비슷합니다. 
+
+Office 365 그룹과 Microsoft 팀을 보류할 때 다음과 같은 사항을 염두에 두어야 합니다.
+
+- 보류 중인 Office 365 그룹 및 Microsoft 팀에 있는 콘텐츠를 배치 하려면 그룹 또는 팀과 연결 된 사서함 및 SharePoint 사이트를 지정 해야 합니다.
   
-  - Exchange Online에서 **remove-unifiedgroup** cmdlet을 실행 하 여 Office 365 그룹 또는 Microsoft Team의 속성을 볼 수 있습니다. 이를 통해 Office 365 그룹 또는 Microsoft 팀에 연결 된 사이트의 URL을 가져올 수 있습니다. 예를 들어 다음 명령을 실행하면 Senior Leadership Team이라는 Office 365 그룹의 선택된 속성이 표시됩니다.
+- Exchange Online에서 **remove-unifiedgroup** cmdlet을 실행 하 여 Office 365 그룹 또는 Microsoft Team의 속성을 볼 수 있습니다. 이를 통해 Office 365 그룹 또는 Microsoft 팀에 연결 된 사이트의 URL을 가져올 수 있습니다. 예를 들어 다음 명령을 실행하면 Senior Leadership Team이라는 Office 365 그룹의 선택된 속성이 표시됩니다.
 
 
     ```text
@@ -134,9 +137,9 @@ Custodian 보류 정책을 보려면 다음을 수행 합니다.
     > [!NOTE]
     > Get-UnifiedGroup cmdlet를 실행하려면 Exchange Online에서 보기 전용 받는 사람 역할을 할당받았거나 보기 전용 받는 사람 역할이 할당된 역할 그룹의 구성원이어야 합니다.
 
- - 사용자의 사서함이 검색 되 면 사용자가 구성원으로 속해 있는 모든 Office 365 그룹 또는 Microsoft 팀이 검색 되지 않습니다. 마찬가지로, Office 365 그룹 또는 Microsoft 팀을 유지 하면 그룹 사서함과 그룹 사이트만 보존 됩니다. 그룹 구성원의 사서함 및 비즈니스용 OneDrive 사이트는 명시적으로 custodians로 추가 하거나 데이터 원본을 유지 하는 경우가 아니면 보류 되지 않습니다. 따라서 특정 custodian으로 Office 365 그룹이 나 Microsoft Team을 보류할 필요가 있는 경우 그룹 사이트 및 그룹 사서함을 custodian에 매핑하는 것이 좋습니다 (Advanced eDiscovery에서 Custodians 관리 참조). Office 365 그룹 또는 Microsoft 팀이 단일 custodian으로 인 한 경우에는 custodial 되지 않은 보류에 원본을 추가 하는 것이 좋습니다. 
- 
- - Office 365 그룹 또는 Microsoft Team의 구성원 목록을 가져오려면 Microsoft 365 관리 센터의 홈 > 그룹 페이지에서 속성을 볼 수 있습니다. 또는 Exchange Online PowerShell에서 다음 명령을 실행할 수 있습니다.
+- 사용자의 사서함이 검색 되 면 사용자가 구성원으로 속해 있는 모든 Office 365 그룹 또는 Microsoft 팀이 검색 되지 않습니다. 마찬가지로, Office 365 그룹 또는 Microsoft 팀을 유지 하면 그룹 사서함과 그룹 사이트만 보존 됩니다. 그룹 구성원의 사서함 및 비즈니스용 OneDrive 사이트는 명시적으로 custodians로 추가 하거나 데이터 원본을 유지 하는 경우가 아니면 보류 되지 않습니다. 따라서 특정 custodian으로 Office 365 그룹이 나 Microsoft Team을 보류할 필요가 있는 경우 그룹 사이트 및 그룹 사서함을 custodian에 매핑하는 것이 좋습니다 (Advanced eDiscovery에서 Custodians 관리 참조). Office 365 그룹 또는 Microsoft 팀이 단일 custodian으로 인 한 경우에는 custodial 되지 않은 보류에 원본을 추가 하는 것이 좋습니다. 
+
+- Office 365 그룹 또는 Microsoft Team의 구성원 목록을 가져오려면 Microsoft 365 관리 센터의 **홈 > 그룹** 페이지에서 속성을 볼 수 있습니다. 또는 Exchange Online PowerShell에서 다음 명령을 실행할 수 있습니다.
 
    ```powershell
    Get-UnifiedGroupLinks <group or team name> -LinkType Members | FL DisplayName,PrimarySmtpAddress

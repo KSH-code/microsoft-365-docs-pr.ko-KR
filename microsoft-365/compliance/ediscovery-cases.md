@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: 8dd335ab-29d0-41c3-8dd8-9f7c7481e60c
 description: 보안 & 준수 센터를 사용 하 여 조직에서 eDiscovery 사례를 만들고 관리 합니다. 사례에 멤버를 할당 하 고, 콘텐츠 위치를 유지 하 고, 사례와 연결 된 콘텐츠 검색을 실행 하 고, 검색 결과를 내보낼 수 있습니다. Office 365 Advanced eDiscovery에서 사례 데이터를 추가로 분석 하기 위해 준비할 수도 있습니다.
-ms.openlocfilehash: 471dd99d6e21afbb4db1a05cd5609cda9e97346c
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: f6484fb43b1d117856ba78bb918289b28776b021
+ms.sourcegitcommit: 09c3e2f3129c5e43cd8420cccd0676ff3a29a355
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42894967"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "43521524"
 ---
 # <a name="manage-ediscovery-cases-in-the-security--compliance-center"></a>보안 및 준수 센터에서 eDiscovery 사례 관리
 
@@ -194,7 +194,7 @@ EDiscovery 사례에 대 한 보류를 만들려면
     Microsoft 팀, Yammer 그룹 및 Office 365 그룹을 보류에 추가 하는 방법에 대 한 팁을 보려면 [추가 정보](#more-information) 섹션을 참조 하세요. 
     
     > [!NOTE]
-    > 드문 경우 이지만 사용자의 UPN (사용자 계정 이름)이 변경 되는 경우에는 해당 OneDrive 계정에 대 한 URL도 새 UPN을 통합 하도록 변경 됩니다. 이 경우에는 사용자의 새 OneDrive URL을 추가 하 고 이전 항목을 제거 하 여 보류를 수정 해야 합니다. 
+    > 드문 경우 이지만 사용자의 UPN (사용자 계정 이름)이 변경 되는 경우에는 해당 OneDrive 계정에 대 한 URL도 새 UPN을 통합 하도록 변경 됩니다. 이 경우에는 사용자의 새 OneDrive URL을 추가 하 고 이전 항목을 제거 하 여 보류를 수정 해야 합니다. 자세한 내용은 [UPN 변경 사항이 ONEDRIVE URL에 미치는 영향](https://docs.microsoft.com/onedrive/upn-changes)을 참조 하십시오.
   
    c. **Exchange 공용 폴더** Exchange Online 조직의 모든 ![공용 폴더](../media/963dfcd0-1765-4306-bcce-c3008c4406b9.png) 를 보류 상태로 설정 하려면 toggle Switch toggle control을 **all** 위치로 이동 합니다. 특정 공용 폴더를 선택 하 여 보류 상태로 설정할 수는 없습니다. 공용 폴더를 보존 하지 않으려면 toggle 스위치를 **"없음"** 으로 설정 된 상태로 둡니다.
     
@@ -270,7 +270,7 @@ eDiscovery 사례를 만들고 사례와 연결된 관리자를 보류 상태로
     
     ![위치, 보류 중인 위치](../media/d56398aa-0b20-4500-8e26-494eab92a99f.png)
   
-    - **모든 위치** -조직의 모든 콘텐츠 위치를 검색 하려면이 옵션을 선택 합니다. 이 옵션을 선택 하면 모든 Exchange 사서함 (모든 Microsoft 팀, Yammer 그룹 및 Office 365 그룹의 사서함 포함), 모든 SharePoint 및 비즈니스용 OneDrive 사이트 (모든 Microsoft의 사이트 포함)를 검색 하도록 선택할 수 있습니다. 팀, Yammer 그룹 및 Office 365 그룹) 및 모든 공용 폴더
+    - **모든 위치** -조직의 모든 콘텐츠 위치를 검색 하려면이 옵션을 선택 합니다. 이 옵션을 선택 하면 모든 Exchange 사서함 (모든 Microsoft 팀, Yammer 그룹 및 Office 365 그룹의 사서함 포함), 모든 SharePoint 및 비즈니스용 OneDrive 사이트 (모든 Microsoft 팀, Yammer 그룹 및 Office 365 그룹에 대 한 사이트 포함) 및 모든 공용 폴더를 검색 하도록 선택할 수 있습니다.
     
     - **보류 중인 모든 위치입니다.** 사례에서 보류 된 모든 콘텐츠 위치를 검색 하려면이 옵션을 선택 합니다. 사례에 여러 보류가 포함 되어 있는 경우이 옵션을 선택 하면 모든 보류의 콘텐츠 위치가 검색 됩니다. 또한 콘텐츠 위치가 쿼리 기반 유지로 설정 된 경우에는이 단계에서 만드는 콘텐츠 검색을 실행할 때 보류 중인 항목만 검색 됩니다. 예를 들어 특정 날짜 이전에 보내거나 만든 항목을 보존 하는 쿼리 기반 사례 보류에 사용자를 추가한 경우 콘텐츠 검색의 검색 조건을 사용 하 여 해당 항목만 검색 됩니다. 이 작업은 사례 보류 쿼리와 콘텐츠 검색 쿼리를 **and** 연산자로 연결 하 여 수행 됩니다. 사례 콘텐츠를 검색 하는 방법에 대 한 자세한 내용은이 문서 끝부분의 [추가 정보](#more-information) 섹션을 참조 하십시오. 
     
@@ -367,7 +367,7 @@ eDiscovery 사례를 만들고 사례와 연결된 관리자를 보류 상태로
     사례와 연결 된 여러 콘텐츠 검색 결과를 내보내는 워크플로는 단일 검색에 대 한 검색 결과를 내보내는 것과 같습니다. 단계별 지침은 [Export Content Search results](export-search-results.md)를 참조 하십시오.
     
     > [!NOTE]
-    > 사례와 연결 된 여러 검색에서 검색 결과를 내보낼 때 동일한 메시지의 인스턴스가 여러 개 있는 경우에도 중복 제거를 사용 하도록 설정 하 여 전자 메일 메시지의 복사본을 하나만 내보낼 수 있도록 하는 옵션도 있습니다. 하나 이상의 검색에서 검색 된 사서함입니다. 복제 제거 및 중복 항목이 식별 되는 방식에 대 한 자세한 내용은 [eDiscovery 검색 결과의 중복](de-duplication-in-ediscovery-search-results.md)제거를 참조 하십시오. 
+    > 사례와 연결 된 여러 검색에서 검색 결과를 내보낼 때 하나 이상의 검색에서 검색 된 사서함에서 같은 메시지의 여러 인스턴스를 찾을 수 있도록 중복 제거를 사용 하도록 설정 하는 옵션을 사용할 수도 있습니다. 복제 제거 및 중복 항목이 식별 되는 방식에 대 한 자세한 내용은 [eDiscovery 검색 결과의 중복](de-duplication-in-ediscovery-search-results.md)제거를 참조 하십시오. 
   
 8. 내보내기를 시작한 후 **내보내기** 탭을 클릭 하 여 해당 사례에 대 한 내보내기 작업 목록을 표시 합니다. 
     

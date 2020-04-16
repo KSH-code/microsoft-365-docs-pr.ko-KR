@@ -14,12 +14,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: 22c602bcc49ce2a81e511d79f4de23f7a60e657f
-ms.sourcegitcommit: 2c4dfce178695a99bbdf1468f072cc1f94f6915b
+ms.openlocfilehash: d25ecb72ebdd9415c6745910f9e3fb04d6f078dc
+ms.sourcegitcommit: d767c288ae34431fb046f4cfe36cec485881385f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43058908"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "43516914"
 ---
 # <a name="overview-of-the-microsoft-365-security-center"></a>Microsoft 365 보안 센터 개요
 
@@ -54,12 +54,13 @@ Microsoft 365 보안 센터는 다음을 포함합니다.
 * **정책** - 정책을 설정하여 장치를 관리하고 위협으로부터 보호하며 조직에서 다양한 활동에 대해 알림을 받을 수 있습니다.
 * **사용 권한** - 조직에서 Microsoft 365 보안 센터에 액세스할 수 있는 사용자를 관리하여 콘텐츠를 검토하고 작업을 수행할 수 있습니다. Azure AD 포털에서 Microsoft 365 사용 권한을 할당할 수 있습니다.
 
-## <a name="learn-more"></a>자세히 알아보기 
+## <a name="learn-more"></a>자세한 정보 
 
 보안 요구 사항에 대 한 모니터링, 검토 및 대응에 대 한 다음 항목을 살펴봅니다.
 - [인시던트](incident-queue.md) 를 통해 경고에 점 연결
 - [자동화 된 조사 및 수정을](mtp-autoir.md) 사용 하 여 위협 자동 수정
 -  [Microsoft 보안 점수](microsoft-secure-score.md) 를 사용 하 여 holistically 보안 상황 검토 및 개선
+- 네트워크의 [장치](device-profile.md) 보기
 - Id, 데이터, 장치, 앱 및 인프라의 상태를 [보고](monitoring-and-reporting.md) 합니다.
 - 전자 메일, 데이터, 장치 및 계정에 영향을 주는 위반 활동 및 침입 시도에 대 한 [위협을 사전에 사냥](advanced-hunting-overview.md)
 - 위협 분석을 사용한 [최신 공격 캠페인](latest-attack-campaigns.md) 및 기술 이해

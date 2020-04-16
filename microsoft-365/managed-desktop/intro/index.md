@@ -5,12 +5,12 @@ keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
-ms.openlocfilehash: 0d144e05091eafa2a6314c65869642b4b7ecd233
-ms.sourcegitcommit: 053d42480d8aa3792ecb0027ddd53d383a029474
+ms.openlocfilehash: e8729e8533fd2f01e893d805199027ae166586f1
+ms.sourcegitcommit: d767c288ae34431fb046f4cfe36cec485881385f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43142686"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "43516812"
 ---
 # <a name="what-is-microsoft-managed-desktop"></a>Microsoft Managed Desktop이란 무엇인가요?
 
@@ -65,7 +65,7 @@ Microsoft Managed Desktop은 등록 된 장치 및 사용 하는 Microsoft 소�
 
 
 ## <a name="need-more-details"></a>자세한 정보가 필요 하세요?
-고객 스토리를 포함 하 여 Microsoft Managed desktop의 값에 대 한 자세한 내용은 [Microsoft Managed desktop](https://aka.ms/mmd)를 참조 하십시오. 더 많은 기능을 시작할 수 있는 좋은 위치는 [로드맵](https://aka.ms/AA6jiam) 및 다운로드 가능한 [1 페이지 요약](https://aka.ms/AA6ob3h)입니다. Microsoft Managed Desktop [블로그에서](https://aka.ms/AA6l2dd)최신 뉴스를 찾을 수 있습니다.
+고객 스토리를 포함 하 여 Microsoft Managed desktop의 값에 대 한 자세한 내용은 [Microsoft Managed desktop](https://aka.ms/mmd)를 참조 하십시오. 로드맵을 더 많이 사용 하기 시작할 수 있는 가장 좋은 위치는 [로드맵](https://aka.ms/AA6jiam), [Forrester 총 경제 영향 사례 연구](https://github.com/MicrosoftDocs/microsoft-365-docs/raw/public/microsoft-365/managed-desktop/intro/downloads/forrester-tei-study.pdf)및 다운로드 가능한 [1 페이지 요약](https://aka.ms/AA6ob3h)입니다. Microsoft Managed Desktop [블로그에서](https://aka.ms/AA6l2dd)최신 뉴스를 찾을 수 있습니다.
 
 Microsoft Managed Desktop이 조직에 적합 한 것 처럼 보이는 경우 서비스에 대해 자세히 설명 하는 추가 설명서를 확인 하 고, 조직에서 등록을 준비 하는 방법, 서비스를 시작 하는 방법, 그리고 이후에 최종 사용자와 필요한 경우 도움을 쉽게 얻을 수 있는 작업을 포함 하는 진행 중인 운영을 확인할 수 있습니다. 이미 보드에 온 경우에는 [로컬 계정 팀](https://pages.email.office.com/contactmmd/)에 문의 하 여 시작 합니다.
 
