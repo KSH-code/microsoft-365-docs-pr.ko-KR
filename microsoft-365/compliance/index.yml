@@ -1,9 +1,9 @@
 ### YamlMime:Landing
 title: Microsoft 365 규정 준수 설명서
-summary: 조직이 법적 또는 규제 표준을 준수 해야 하는 경우 Microsoft 365의 준수에 대해 자세히 알아보려면 여기에서 시작 합니다.
+summary: 조직에서 법률 또는 규제 표준을 준수해야 하는 경우 Microsoft 365의 준수에 대해 자세히 알아보려면 여기를 시작하세요.
 metadata:
   title: Microsoft 365 규정 준수 설명서
-  description: Microsoft 365 준수 기능 설명서
+  description: Microsoft 365 규정 준수 기능에 대한 설명서
   services: office-365-security-compliance
   ms.service: O365-seccomp
   ms.subservice: subservice
@@ -15,7 +15,7 @@ metadata:
   localization_priority: Priority
   ms.openlocfilehash: d6f24a93754c60227e668bb8d0ec42776a519dbc
   ms.sourcegitcommit: 6c7f6ef98c321c80a9254c10bbbb917895b5c156
-  ms.translationtype: MT
+  ms.translationtype: HT
   ms.contentlocale: ko-KR
   ms.lasthandoff: 02/27/2020
   ms.locfileid: "42322537"
@@ -52,13 +52,13 @@ landingContent:
       url: importing-pst-files-to-office-365.md
     - text: 타사 데이터 커넥터
       url: archiving-third-party-data.md
-    - text: 데이터 거 버 넌 스 보고서
+    - text: 데이터 거버넌스 보고서
       url: view-the-data-governance-reports.md
 - title: 참가자 위험 관리
   linkLists:
   - linkListType: overview
     links:
-    - text: 참가자 위험 관리
+    - text: 내부자 위험 관리
       url: insider-risk-management.md
     - text: 커뮤니케이션 규정 준수
       url: communication-compliance.md
@@ -66,9 +66,9 @@ landingContent:
       url: information-barriers.md
     - text: 권한이 부여된 액세스 관리
       url: privileged-access-management-overview.md
-    - text: Customer Lockbox
+    - text: 고객 Lockbox
       url: customer-lockbox-requests.md
-- title: 검색 및 응답
+- title: 검색 및 대응
   linkLists:
   - linkListType: overview
     links:
@@ -78,21 +78,21 @@ landingContent:
       url: ediscovery-cases.md
     - text: 콘텐츠 검색
       url: search-for-content.md
-    - text: 데이터 조사 (미리 보기)
+    - text: 데이터 조사(미리 보기)
       url: overview-data-investigations.md
     - text: 감사
       url: search-the-audit-log-in-security-and-compliance.md
-- title: 규정 준수 시작
+- title: 규제 준수 시작
   linkLists:
   - linkListType: get-started
     links:
     - text: 준수 점수
       url: compliance-score.md
-    - text: GDPR 준수 작업 계획
+    - text: GDPR 준수 조치 계획
       url: gdpr-action-plan.md
-    - text: GDPR에 대 한 정보 보호
+    - text: GDPR을 위한 정보 보호
       url: office-365-info-protection-for-gdpr-overview.md
-    - text: ISO 준수 작업 계획
+    - text: ISO 준수 조치 계획
       url: iso-action-plan.md
-    - text: NIST 준수 작업 계획
+    - text: NIST 준수 조치 계획
       url: nist-action-plan.md
