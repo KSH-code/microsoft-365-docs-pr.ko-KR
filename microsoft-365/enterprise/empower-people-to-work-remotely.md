@@ -16,12 +16,12 @@ ms.collection:
 - remotework
 ms.custom: ''
 description: 직원들이 언제 어디서나 원격으로 작업할 수 있도록 하는 인프라와 보안을 구성합니다.
-ms.openlocfilehash: 3932c293ca6be8ba4397b27591acfc3f7d024e1a
-ms.sourcegitcommit: 144c0f3c2c6112bffc5a9b04392a38123a979ebc
+ms.openlocfilehash: 8bbbe4853805c506ee511ecdef684f407166aca0
+ms.sourcegitcommit: dbbdeca5a6cd048e1bde9e820a8b8a0d6022c7a2
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43053110"
+ms.lasthandoff: 04/14/2020
+ms.locfileid: "43504126"
 ---
 # <a name="empower-remote-workers"></a>원격 작업자 지원
 
@@ -99,9 +99,9 @@ ms.locfileid: "43053110"
 
 ![원격 작업자를 위한 ID 요소](../media/empower-people-to-work-remotely/remote-workers-id-phase.png)
  
-[3단계: Windows 10 Enterprise](windows10-infrastructure.md)에서는 다음을 배포합니다.
+[3단계: Windows 10 Enterprise](windows10-infrastructure.md)용
 
-- Windows 10 Enterprise가 있는 새 장치를 배포하고 Windows 7 또는 Windows 8.1 장치를 Windows 10 Enterprise로 업그레이드하기 위한 인프라
+- Windows 10 Enterprise가 있는 새 장치를 배포하고 Windows 7 또는 Windows 8.1 장치를 Windows 10 Enterprise로 업그레이드하기 위한 인프라 배포
 - ID, 위협, 정보 보호를 위한 포괄적인 보안 기능을 사용하도록 설정
 
 다음은 Windows 10 Enterprise 장치의 구성 결과입니다.
@@ -206,6 +206,12 @@ ms.locfileid: "43053110"
 ### <a name="user-adoption-results"></a>사용자 채택 계획
 
 원격 작업자는 Windows 10 Enterprise 또는 기타 장치와 Office 365 ProPlus를 사용하여 안전한 환경에서 공유된 Microsoft 365 Enterprise 클라우드 서비스와 리소스에 액세스하고 작업할 수 있으며 실시간으로 모임, 작성, 공동 작업을 수행할 수 있습니다.
+
+## <a name="additional-microsoft-features-to-support-remote-workers"></a>원격 작업자를 지원하기 위한 추가 Microsoft 기능
+
+[Azure Point-사이트 VPN 연결](https://docs.microsoft.com/azure/vpn-gateway/point-to-site-about)을 사용하여 원격 작업자를 Azure virtual network에서 실행 중인 서버에 연결할 수 있습니다.
+
+Azure에서 호스트하는 데스크톱 및 앱 가상화에 대한 [Windows 가상 데스크톱](https://docs.microsoft.com/azure/virtual-desktop/overview)을 사용할 수 있습니다.
 
 ## <a name="see-also"></a>참고 항목
 
