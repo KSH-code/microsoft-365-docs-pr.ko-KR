@@ -185,6 +185,8 @@
                   href: mtp/mtp-permissions.md
                 - name: 표준 시간대 설정
                   href: mtp/mtp-time-zone.md
+            - name: 장치 프로필 보기
+              href: 'mtp:/device-profile.md'
             - name: 피드백 제공
               href: mtp/feedback.md
             - name: ServiceNow를 통해 티켓 관리
