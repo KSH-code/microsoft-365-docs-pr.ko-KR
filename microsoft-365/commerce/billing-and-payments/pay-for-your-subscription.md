@@ -24,12 +24,12 @@ description: 비즈니스용 Office 365 구독 결제에 사용할 수 있는 �
 ms.custom:
 - okr_SMB
 - fwlink 808700 for SEPA UI glink 906 for older uI
-ms.openlocfilehash: 1b5516cdc87d792425c89a486ae9cb0bc2bc0ee4
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
-ms.translationtype: HT
+ms.openlocfilehash: dfecd2ec5ca72f8e00e664f3f54d7125fe8d21b6
+ms.sourcegitcommit: 4988934836eee45c890b9bdd5ef73590656c78ba
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42633716"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "43540906"
 ---
 # <a name="pay-for-your-office-365-for-business-subscription"></a>비즈니스용 Office 365 구독 결제
 
@@ -276,9 +276,23 @@ ms.locfileid: "42633716"
 
 ### <a name="to-receive-your-billing-statement-in-email"></a>전자 메일로 청구서를 받으려면
 
+::: moniker range="o365-worldwide"
+
 1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=853212" target="_blank">대금 청구 알림</a> 페이지로 이동합니다.
 
-    사용 중인 경우 Office 365 Germany이 <a href="https://go.microsoft.com/fwlink/p/?linkid=853213" target="_blank">청구 알림</a> 페이지로 이동합니다.
+::: moniker-end
+
+::: moniker range="o365-germany"
+
+1. 관리 센터에서 **청구** > <a href="https://go.microsoft.com/fwlink/p/?linkid=853213" target="_blank">대금 청구 알림</a> 페이지로 이동합니다.
+
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+1. 관리 센터에서 **청구** > <a href="https://go.microsoft.com/fwlink/p/?linkid=853215" target="_blank">대금 청구 알림</a> 페이지로 이동합니다.
+
+::: moniker-end
 
 2. **청구서를 전자 메일 첨부 파일로 받으시겠습니까?** 아래의 토글을 **설정**으로 전환합니다.
 

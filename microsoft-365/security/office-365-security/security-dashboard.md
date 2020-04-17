@@ -16,12 +16,12 @@ ms.assetid: fe0b9b8f-faa9-44ff-8095-4d1b2f507b74
 ms.collection:
 - M365-security-compliance
 description: 새 보안 대시보드를 사용 하 여 Office 365 위협 방지 상태를 검토 하 고 보안 경고를 보고 작동 합니다.
-ms.openlocfilehash: 1ef61f2a5e59db5c45a37bd9f8995b8c70675f30
-ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
+ms.openlocfilehash: bade9f1a0060fcd08458bd28eb276a0543f5d815
+ms.sourcegitcommit: db8702cf578b02c6fd6a2670c177b456efae4748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43032843"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "43537404"
 ---
 # <a name="security-dashboard"></a>보안 대시보드
 
@@ -33,7 +33,7 @@ ms.locfileid: "43032843"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1VV3o]
 
-조직의 Office 365 구독에 포함 된 내용에 따라 보안 대시보드에는 위협 관리 요약, 위협 방지 상태, 전역 주간 위협 감지, 맬웨어 등의 여러 widget이 포함 되어 있습니다. 다음과 같은 섹션이 있습니다.
+조직의 Office 365 구독에 포함 된 내용에 따라 보안 대시보드에는 다음 섹션에 설명 된 것 처럼 위협 관리 요약, 위협 방지 상태, 전역 주간 위협 감지, 맬웨어 등의 여러 widget이 포함 됩니다.
 
 보안 대시보드를 보려면 [Office 365 보안 & 준수 센터](../../compliance/go-to-the-securitycompliance-center.md)에서 **위협 관리** \> **대시보드로**이동 합니다.
 
@@ -67,7 +67,7 @@ ms.locfileid: "43032843"
 |---|---|
 |**구독에 다음이 포함 된 경우 ...**|**다음 정보가 표시 됩니다.**|
 |EOP는 아니지만 Office 365 ATP|EOP에서 검색 하 고 차단한 악성 전자 메일입니다.<br><br> [위협 방지 상태 보고서 (EOP)](view-email-security-reports.md#threat-protection-status-report)를 참조 하세요.|
-|Office 365 ATP|EOP 및 Office 365 ATP가 검색 하 고 차단한 악성 콘텐츠 및 악성 전자 메일<br><br>맬웨어 방지 엔진, [자동 삭제](zero-hour-auto-purge.md)및 atp 기능 ( [안전한 링크](atp-safe-links.md), [안전한 첨부 파일](atp-safe-attachments.md)및 [atp 피싱 방지](atp-anti-phishing.md))에 의해 차단 되는 악성 콘텐츠가 포함 된 고유한 전자 메일 메시지의 집계 개수입니다.<br><br>[ATP (Threat Protection 상태 보고서)](view-reports-for-atp.md#threat-protection-status-report)를 참조 하세요.|
+|Office 365 ATP|EOP 및 Office 365 ATP가 검색 하 고 차단한 악성 콘텐츠 및 악성 전자 메일<br><br>맬웨어 방지 엔진, [자동 삭제](zero-hour-auto-purge.md)및 atp 기능 ( [안전한 링크](atp-safe-links.md), [안전한 첨부 파일](atp-safe-attachments.md)및 [atp 피싱 방지](set-up-anti-phishing-policies.md#exclusive-settings-in-atp-anti-phishing-policies))에 의해 차단 되는 악성 콘텐츠가 포함 된 고유한 전자 메일 메시지의 집계 개수입니다.<br><br>[ATP (Threat Protection 상태 보고서)](view-reports-for-atp.md#threat-protection-status-report)를 참조 하세요.|
 |
 
 위협 방지 상태 위젯을 보거나 액세스 하려면 Advanced Threat Protection 보고서를 볼 수 있는 권한이 있어야 합니다. 자세한 내용은 [ATP 보고서를 확인 하는 데 필요한 사용 권한](view-reports-for-atp.md#what-permissions-are-needed-to-view-the-atp-reports)를 참조 하십시오.

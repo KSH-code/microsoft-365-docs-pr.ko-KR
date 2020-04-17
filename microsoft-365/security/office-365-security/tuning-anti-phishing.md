@@ -12,12 +12,12 @@ localization_priority: Normal
 search.appverid:
 - MET150
 description: 관리자는 피싱 메시지의 원인과 방법을 파악 하 고, 향후 피싱 메시지를 더 많이 차단 하기 위해 수행 해야 하는 작업에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: 37d1e8bbf91bc6f0a1c8e9b5aa97fe460e8b5c82
-ms.sourcegitcommit: a7b2cd892cb65a61ee246268e1af2f8b9e526f6b
+ms.openlocfilehash: 93fdc17379627a2d595a3861ae3f8f1f9dcefeeb
+ms.sourcegitcommit: 9ed3283dd6dd959faeca5c22613f9126261b9590
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43081211"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "43528992"
 ---
 # <a name="tune-anti-phishing-protection-in-office-365"></a>Office 365에서 피싱 방지 보호 기능 조정
 
@@ -33,7 +33,7 @@ Office 365에는 기본적으로 사용 하도록 설정 되는 다양 한 피�
 
 - [ATP 안전한 첨부 파일](set-up-atp-safe-attachments-policies.md)
 
-- [ATP 피싱 방지 정책](set-up-anti-phishing-policies.md) 정책의 **고급 피싱 임계값** 을 **표준** 에서 일시적 **으로, 적극적** **으로 또는** **적극적인**로 높일 수 있습니다.
+- [Office 365의 ATP 피싱 방지 정책](configure-atp-anti-phishing-policies.md) 정책의 **고급 피싱 임계값** 을 **표준** 에서 일시적 **으로, 적극적** **으로 또는** **적극적인**로 높일 수 있습니다.
 
 ATP 기능이 설정 되어 있는지 확인 합니다.
 
@@ -51,11 +51,11 @@ ATP 기능이 설정 되어 있는지 확인 합니다.
 
 - 매월 [보안 점수](../mtp/microsoft-secure-score.md) 를 실행 하 여 Office 365 조직의 보안 설정을 평가 합니다.
 
-- 피싱 사기 [보고서](learn-about-spoof-intelligence.md) 를 주기적으로 검토 하 고 [위조 방지 정책에서 스푸핑 방지 보호](learn-about-spoof-intelligence.md#configuring-the-anti-spoofing-policy) 기능을 사용 하 여 의심 스러운 메시지를 사용자의 정크 메일 폴더로 배달 하는 대신 **격리** 합니다.
+- 정기적으로 [스푸핑 인텔리전스 보고서](learn-about-spoof-intelligence.md) 를 검토 하 고 의심 스러운 메시지를 사용자의 정크 메일 폴더로 배달 하지 말고 **격리** 하도록 [스푸핑 인텔리전스를 구성](set-up-anti-phishing-policies.md#spoof-settings) 합니다.
 
 - [위협 방지 상태 보고서](view-reports-for-atp.md#threat-protection-status-report)를 주기적으로 검토 합니다.
 
-- 일부 고객은 스팸 방지 정책의 보낸 사람 허용 또는 허용 도메인 목록에 자신의 도메인을 추가 하 여 피싱 메시지를 통과 하도록 할 수 있습니다. 이 작업을 선택 하는 경우에는 매우 주의 해야 합니다. 이 구성에서는 일부 합법적인 메시지를 허용 하지만, 일반적으로 Office 365 스팸 및/또는 피싱 필터에 의해 차단 되는 악성 메시지도 허용 됩니다.
+- 일부 고객은 스팸 방지 정책에서 허용 되는 보낸 사람 또는 허용 도메인 목록에 자신의 도메인을 추가 하 여 피싱 메시지를 통해 잘못 사용할 수 있습니다. 이 작업을 선택 하는 경우에는 매우 주의 해야 합니다. 이 구성에서는 일부 합법적인 메시지를 허용 하지만, 일반적으로 Office 365 스팸 및/또는 피싱 필터에 의해 차단 되는 악성 메시지도 허용 됩니다.
 
   도메인의 보낸 사람과 관련 하 여 Office 365 (가양성)에 의해 차단 되는 합법적인 메시지를 처리 하는 가장 좋은 방법은 Office 365에서 _모든_ 전자 메일 도메인에 대해 DNS의 SPF, DKIM 및 DMARC 레코드를 완전 하 고 완전 하 게 구성 하는 것입니다.
 
@@ -73,6 +73,6 @@ ATP 기능이 설정 되어 있는지 확인 합니다.
 
 - 가능한 경우에는 항상 도메인에 대 한 전자 메일을 Office 365에 직접 배달 하는 것이 좋습니다. 즉, Office 365 도메인의 MX 레코드를 Office 365에 가리키도록 합니다. EOP (Exchange Online Protection)은 메일이 Office 365로 직접 배달 될 때 클라우드 사용자에 게 최상의 보호를 제공할 수 있습니다. EOP 앞에 타사 전자 메일 바이러스 예방 시스템을 사용 해야 하는 경우에는 커넥터에 대 한 고급 필터링을 사용 합니다. 자세한 내용은 [Exchange Online의 커넥터에 대 한 향상 된 필터링](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors)을 참조 하십시오.
 
-- MFA (multi-factor authentication)는 손상 된 계정을 방지 하는 매우 좋은 방법입니다. 모든 사용자에 대해 MFA를 사용 하도록 설정 하는 것이 좋습니다. 단계적 접근 방식에서는 모든 사용자에 대해 MFA를 사용 하도록 설정 하기 전에 가장 중요 한 사용자 (관리자, 임원 등)에 대해 MFA를 사용 하도록 설정 하는 것부터 시작 합니다. 자세한 내용은 [다단계 인증 설정을](../../admin/security-and-compliance/set-up-multi-factor-authentication.md)참조 하십시오.
+- MFA (multi-factor authentication)는 손상 된 계정을 방지 하는 좋은 방법입니다. 모든 사용자에 대해 MFA를 사용 하도록 설정 하는 것이 좋습니다. 단계적 접근 방식에서는 모든 사용자에 대해 MFA를 사용 하도록 설정 하기 전에 가장 중요 한 사용자 (관리자, 임원 등)에 대해 MFA를 사용 하도록 설정 하는 것부터 시작 합니다. 자세한 내용은 [다단계 인증 설정을](../../admin/security-and-compliance/set-up-multi-factor-authentication.md)참조 하십시오.
 
 - 외부 받는 사람에 게 규칙을 전달 하는 경우 공격자가 데이터를 추출 하는 경우가 많습니다. [Microsoft 보안 점수](../mtp/microsoft-secure-score.md) 에서 **사서함 전달 규칙 검토** 정보를 사용 하 여 외부의 받는 사람에 대 한 전달 규칙을 찾아이를 방지할 수도 있습니다. 자세한 내용은 [보안 점수를 사용한 클라이언트 외부 전달 규칙 완화](https://blogs.technet.microsoft.com/office365security/mitigating-client-external-forwarding-rules-with-secure-score/)를 참조 하세요.

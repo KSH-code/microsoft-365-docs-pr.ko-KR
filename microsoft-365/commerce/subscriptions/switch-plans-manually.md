@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: eb0d0680-5677-41a0-8c46-4b9d47f1c209
 ROBOTS: NOINDEX
 description: 새 구독을 구입 하 고 구독이 모두 나열 되 고 활성 상태가 되도록 하 여 Office 365 비즈니스 구독을 수동으로 전환 합니다.
-ms.openlocfilehash: 9a0c382abf1e61f1b31cb358529925053d037be4
-ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
+ms.openlocfilehash: a652053b204e84f8f2d3973eba76ead1cc7c1410
+ms.sourcegitcommit: 4988934836eee45c890b9bdd5ef73590656c78ba
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43142106"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "43540846"
 ---
 # <a name="switch-office-365-for-business-plans-manually"></a>Office 365 비즈니스 에디션 요금제를 수동으로 전환
 
@@ -64,11 +64,23 @@ ms.locfileid: "43142106"
   
 ## <a name="step-3-check-your-new-subscription-and-licenses"></a>3 단계: 새 구독 및 라이선스 확인
 
-1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">구독</a> 페이지로 이동 합니다.
+::: moniker range="o365-worldwide"
 
-    사용 중인 경우 Office 365 Germany이 <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">구독</a> 페이지로 이동합니다.
+1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">구독</a> 페이지로 이동합니다.
 
-    사용 중인 경우 21Vianet에서 운영하는 Office 365이 <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">구독</a> 페이지로 이동합니다.
+::: moniker-end
+
+::: moniker range="o365-germany"
+
+1. 관리 센터에서 **청구** > <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">구독</a> 페이지로 이동합니다.
+
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+1. 관리 센터에서 **청구** > <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">구독</a> 페이지로 이동합니다.
+
+::: moniker-end
 
 2. **두 구독이 모두 나열 되 고 활성 상태 인지 확인**
 
@@ -102,11 +114,23 @@ ms.locfileid: "43142106"
 
 ### <a name="reassign-a-license-for-one-user"></a>한 사용자에 대 한 라이선스 다시 할당
 
+::: moniker range="o365-worldwide"
+
 1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다.
 
-    사용 중인 경우 Office 365 Germany이 <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다.
+::: moniker-end
 
-    사용 중인 경우 21Vianet에서 운영하는 Office 365이 <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다.
+::: moniker range="o365-germany"
+
+1. 관리 센터에서 **사용자** > <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다.
+
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+1. 관리 센터에서 **사용자** > <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다.
+
+::: moniker-end
 
 2. **활성 사용자** 페이지에서 라이선스를 할당 하려는 사용자의 이름 옆에 있는 상자를 선택 합니다.
 
@@ -125,11 +149,23 @@ ms.locfileid: "43142106"
 
 ### <a name="reassign-licenses-for-multiple-users-at-once"></a>한 번에 여러 사용자에 대해 라이선스 다시 할당
 
+::: moniker range="o365-worldwide"
+
 1. 관리 센터에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동 하거나 **사용자** \> **활성 사용자**를 선택 합니다.
 
-    사용 중인 경우 Office 365 Germany이 <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다.
+::: moniker-end
 
-    사용 중인 경우 21Vianet에서 운영하는 Office 365이 <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다.
+::: moniker range="o365-germany"
+
+1. 관리 센터에서 **사용자** > <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동 합니다.
+
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+1. 관리 센터에서 **사용자** > <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다.
+
+::: moniker-end
 
 2. 기존 라이선스를 바꾸려는 사용자의 이름 옆에 있는 확인란을 선택합니다.
 

@@ -1,5 +1,5 @@
 ---
-title: EOP 및 Office 365 ATP 보안 설정, 권장 사항, 보낸 사람 정책 프레임 워크, 도메인 기반 메시지 보고 및 적합성에 대 한 Microsoft 권장 사항, DomainKeys 식별 된 메일, 단계, 작업 방법, 보안 기준, EOP에 대 한 초기 계획 ATP, 설치 ATP, 설치 EOP, ATP 구성, 구성 EOP, 보안 구성
+title: EOP 및 Office 365 ATP 보안 설정, 권장 사항, 보낸 사람 정책 프레임 워크, 도메인 기반 메시지 보고 및 적합성에 대 한 Microsoft 권장 사항, DomainKeys 식별 된 메일, 단계, 작업 방법, 보안 초기 계획, EOP, 초기 계획, 설치 ATP, 설치 EOP, ATP, 구성, 보안 구성
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -16,12 +16,12 @@ ms.assetid: 6f64f2de-d626-48ed-8084-03cc72301aa4
 ms.collection:
 - M365-security-compliance
 description: EOP (Exchange Online Protection) 및 ATP (Advanced Threat Protection) 보안 설정에 대 한 모범 사례 표준 보호에 대 한 최신 권장 사항은 무엇 인가요? 보다 엄격한 기능을 사용 하려면 어떻게 해야 합니까? 또한 ATP (Advanced Threat Protection)를 사용 하는 경우에는 어떤 것을 얻게 됩니까?
-ms.openlocfilehash: 9ddf704f767dfa5ff5c93888e51b91b2079a6c43
-ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
+ms.openlocfilehash: 1f20c8c09f3e690cc65e494ec6a372c95ac7171b
+ms.sourcegitcommit: db8702cf578b02c6fd6a2670c177b456efae4748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43032855"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "43537440"
 ---
 # <a name="recommended-settings-for-eop-and-office-365-atp-security"></a>EOP 및 Office 365 ATP 보안에 대 한 권장 설정
 
@@ -57,7 +57,7 @@ ms.locfileid: "43032855"
 |격리 보존 기간 <br/><br/> _QuarantineRetentionPeriod_|30일|30일||
 |**보안 팁** <br/><br/> _InlineSafetyTipsEnabled_|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`||
 |허용 된 보낸 사람 <br/><br/> _AllowedSenders 사람_|없음|없음||
-|허용 된 보낸 사람 도메인 <br/><br/> _AllowedSenderDomains_|없음|없음|소유한 도메인 (허용 _도메인이_라고도 함)을 허용 된 보낸 사람 목록에 추가 하지 않아도 됩니다. 실제로는 잘못 된 행위자가 메일을 필터링 할 수 있는 기회를 만들기 때문에 높은 위험으로 간주 됩니다. **스팸 방지 설정** 페이지의 보안 & 준수 센터 [에서 스푸핑 정보를 사용 하](learn-about-spoof-intelligence.md) 여 조직의 일부인 도메인을 스푸핑 하는 모든 보낸 사람을 검토 하거나 외부 도메인을 위장 합니다.|
+|허용 된 보낸 사람 도메인 <br/><br/> _AllowedSenderDomains_|없음|없음|소유한 도메인 (허용 _도메인이_라고도 함)을 허용 된 보낸 사람 목록에 추가 하지 않아도 됩니다. 실제로는 잘못 된 행위자가 메일을 필터링 할 수 있는 기회를 만들기 때문에 높은 위험으로 간주 됩니다. **스팸 방지 설정** 페이지의 보안 & 준수 센터 [에서 스푸핑 관리자를 사용 하](learn-about-spoof-intelligence.md) 여 조직의 전자 메일 도메인에 있는 보낸 사람 전자 메일 주소를 위장 하거나 외부 도메인의 보낸 사람 전자 메일 주소를 위장 하는 모든 보낸 사람을 검토할 수 있습니다.|
 |수신 거부 <br/><br/> _BlockedSenders_|없음|없음||
 |차단할 보낸 사람 도메인 <br/><br/> _BlockedSenderDomains_|없음|없음||
 |**최종 사용자 스팸 알림 사용** <br/><br/> _EnableEndUserSpamNotifications_|사용 <br/><br/> `$true`|사용 <br/><br/> `$true`||
@@ -118,13 +118,17 @@ ms.locfileid: "43032855"
 |배달 되지 않은 메시지의 **외부 보낸 사람에 게 알림** <br/><br/> _EnableExternalSenderNotifications_|사용 안 함 <br/><br/> `$false`|사용 안 함 <br/><br/> `$false`||
 |
 
-### <a name="eop-anti-phishing-policy-settings"></a>EOP 피싱 방지 정책 설정
+### <a name="eop-default-anti-phishing-policy-settings"></a>EOP 기본 피싱 방지 정책 설정
 
-|보안 기능 이름|표준을|항등|Comment|
-|---------|---------|---------|---------|
-|스푸핑 방지 보호 사용|켜짐|켜짐||
-|인증 되지 않은 보낸 사람 (태깅) 사용|켜짐|켜짐||
-|도메인을 스푸핑할 수 없는 사용자가 전자 메일을 보낸 경우|받는 사람의 정크 메일 폴더로 메시지 이동|메시지 격리||
+이러한 설정은 Exchange Online 사서함이 있는 Office 365 조 직 에서만 구성할 수 있습니다. 이러한 설정을 구성 하려면 [EOP에서 기본 피싱 방지 정책 구성을](configure-anti-phishing-policies-eop.md)참조 하십시오.
+
+|||||
+|---|---|---|---|
+|**보안 기능 이름**|**표준을**|**항등**|**설명**|
+|**스푸핑 방지 보호 사용** <br/><br/> _EnableAntispoofEnforcement_|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`||
+|**인증 되지 않은 보낸 사람 사용** <br/><br/> _EnableUnauthenticatedSender_|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`|알 수 없는 스푸핑된 보낸 사람에 대 한 Outlook의 보낸 사람 사진에 물음표 (?)를 추가 합니다. 자세한 내용은 [피싱 방지 정책에서 스푸핑 설정을](set-up-anti-phishing-policies.md#spoof-settings)참조 하십시오.|
+|**도메인을 스푸핑할 수 없는 사용자가 전자 메일을 보낸 경우** <br/><br/> _AuthenticationFailAction_|**받는 사람의 정크 메일 폴더로 메시지 이동** <br/><br/> `MoveToJmf`|**메시지 격리** <br/><br/> `Quarantine`|이 정보는 [스푸핑 인텔리전스](learn-about-spoof-intelligence.md)에서 수신 거부에 적용 됩니다.|
+|
 
 ## <a name="office-365-advanced-threat-protection-security"></a>Office 365 Advanced Threat Protection 보안
 
@@ -139,35 +143,47 @@ EOP에 Office 365 ATP 구독을 추가한 경우에는 다음 구성을 설정 �
 
 ### <a name="office-atp-anti-phishing-policy-settings"></a>Office ATP 피싱 방지 정책 설정
 
-EOP 고객은 앞에서 설명한 것 처럼 기본 피싱 방지를 제공 하지만 Office 365 ATP에는 공격을 방지, 감지 및 수정 하는 데 도움이 되는 다양 한 기능 및 제어가 포함 되어 있습니다.
+EOP 고객은 앞에서 설명한 것 처럼 기본 피싱 방지를 제공 하지만 Office 365 ATP에는 공격을 방지, 감지 및 수정 하는 데 도움이 되는 다양 한 기능 및 제어가 포함 되어 있습니다. 이러한 정책을 만들고 구성 하려면 [Office 365에서 ATP 피싱 방지 정책 구성을](configure-atp-anti-phishing-policies.md)참조 하세요.
 
-|가장 보안 기능 이름|표준을|항등|Comment|
-|---------|---------|---------|---------|
-|(가장 정책 편집) 보호할 사용자 추가|켜짐|켜짐|조직에 따라 다르지만 주요 역할에 사용자를 추가 하는 것이 좋습니다. 내부적으로는 CEO, CFO 및 기타 선임 리더가 될 수 있습니다. 외부에는 council 구성원 또는 이사회의 보드가 포함 될 수 있습니다.|
-|(가장 정책 편집) 소유한 도메인을 자동으로 포함|켜짐|켜짐||
-|(가장 정책 편집) 사용자 지정 도메인 포함|켜짐|켜짐|조직에 따라 다르지만 사용자가 소유 하지 않은 대부분의 도메인과 상호 작용 하는 도메인을 추가 하는 것이 좋습니다.|
-|지정한 가장 한 사용자가 전자 메일을 보낸 경우|메시지 격리|메시지 격리||
-|지정한 가장 한 도메인에서 전자 메일을 보낸 경우|메시지 격리|메시지 격리||
-|가장 한 사용자에 대 한 팁 표시|켜짐|켜짐||
-|가장 한 도메인에 대 한 팁 표시|켜짐|켜짐||
-|비정상적 캐릭터에 대 한 팁 표시|켜짐|켜짐||
-|사서함 인텔리전스 사용|켜짐|켜짐||
-|사서함 인텔리전스 기반 가장 보호 사용|켜짐|켜짐||
-|사서함 인텔리전스를 통해 보호 되는 가장 된 사용자가 전자 메일을 보낸 경우|받는 사람의 정크 메일 폴더로 메시지 이동|메시지 격리||
-|(가장 정책 편집) 신뢰할 수 있는 보낸 사람 및 도메인 추가|없음|없음|조직에 따라 다르지만 가장을 제외 하 고는 피싱으로 표시 되는 사용자 또는 도메인을 추가 하는 것이 좋습니다.|
+#### <a name="impersonation-settings-in-atp-anti-phishing-policies"></a>ATP 피싱 방지 정책의 가장 설정
 
-|스푸핑 보안 기능 이름|표준을|항등|Comment|
-|---------|---------|---------|---------|
-|스푸핑 방지 보호 사용|켜짐|켜짐||
-|인증 되지 않은 보낸 사람 (태깅) 사용|켜짐|켜짐||
-|도메인을 스푸핑할 수 없는 사용자가 전자 메일을 보낸 경우|받는 사람의 정크 메일 폴더로 메시지 이동|메시지 격리||
-|EnableSuspiciousSafetyTip|False|참|이 설정은 PowerShell 에서만 사용할 수 있습니다.|
-|TreatSoftPassAsAuthenticated|참|False|이 설정은 PowerShell 에서만 사용할 수 있습니다.|
+|||||
+|---|---|---|---|
+|**보안 기능 이름**|**표준을**|**항등**|**설명**|
+|보호 된 사용자: **보호를 위해 사용자 추가** <br/><br/> _EnableTargetedUserProtection_ <br/><br/> _TargetedUsersToProtect_|켜짐 <br/><br/> `$true` <br/><br/> \<사용자 목록\>|켜짐 <br/><br/> `$true` <br/><br/> \<사용자 목록\>|조직에 따라 다르지만 주요 역할에 사용자를 추가 하는 것이 좋습니다. 내부적으로는 CEO, CFO 및 기타 선임 리더가 될 수 있습니다. 외부에는 council 구성원 또는 이사회의 보드가 포함 될 수 있습니다.|
+|보호 된 도메인: **내가 소유한 도메인을 자동으로 포함** <br/><br/> _EnableOrganizationDomainsProtection_|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`||
+|보호 된 도메인: **사용자 지정 도메인 포함** <br/><br/> _EnableTargetedDomainsProtection_ <br/><br/> _TargetedDomainsToProtect_|켜짐 <br/><br/> `$true` <br/><br/> \<도메인 목록\>|켜짐 <br/><br/> `$true` <br/><br/> \<도메인 목록\>|조직에 따라 다르지만 사용자가 소유 하지 않은 경우에도 자주 상호 작용 하는 도메인을 추가 하는 것이 좋습니다.|
+|보호 된 사용자: **가장 된 사용자가 전자 메일을 보낸 경우** <br/><br/> _TargetedUserProtectionAction_|**메시지 격리** <br/><br/> `Quarantine`|**메시지 격리** <br/><br/> `Quarantine`||
+|보호 된 도메인: **가장 된 도메인에서 전자 메일을 보내는 경우** <br/><br/> _TargetedUserProtectionAction_|**메시지 격리** <br/><br/> `Quarantine`|**메시지 격리** <br/><br/> `Quarantine`||
+|**가장 한 사용자에 대 한 팁 표시** <br/><br/> _EnableSimilarUsersSafetyTips_|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`||
+|**가장 한 도메인에 대 한 팁 표시** <br/><br/> _EnableSimilarDomainsSafetyTips_|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`||
+|**비정상적 캐릭터에 대 한 팁 표시** <br/><br/> _EnableUnusualCharactersSafetyTips_|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`||
+|**사서함 인텔리전스 사용 가능 여부** <br/><br/> _EnableMailboxIntelligence_|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`||
+|**사서함 인텔리전스 기반 가장 보호를 사용 하도록 설정** <br/><br/> _EnableMailboxIntelligenceProtection_|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`||
+|**사서함 인텔리전스를 통해 보호 되는 가장 된 사용자가 전자 메일을 보낸 경우** <br/><br/> _MailboxIntelligenceProtectionAction_|**받는 사람의 정크 메일 폴더로 메시지 이동** <br/><br/> `MoveToJmf`|**메시지 격리** <br/><br/> `Quarantine`||
+|**신뢰할 수 있는 보낸 사람** <br/><br/> _ExcludedSenders_|없음|없음|조직에 따라 다르지만, 가장을 제외 하 고 다른 필터를 제외 하 고는 피싱으로 표시 된 사용자를 추가 하는 것이 좋습니다.|
+|**신뢰할 수 있는 도메인** <br/><br/> _ExcludedDomains_|없음|없음|조직에 따라 다르지만 가장을 제외 하 고는 피싱로 표시 된 도메인을 추가 하는 것이 좋습니다.|
+|
 
+#### <a name="spoof-settings-in-atp-anti-phishing-policies"></a>ATP 피싱 방지 정책의 스푸핑 설정
 
-|고급 설정 보안 기능 이름|표준을|항등|Comment|
-|---------|---------|---------|---------|
-|고급 피싱 임계값|2-적극적인|3-적극적인||
+이러한 설정은 [EOP의 스팸 방지 정책 설정](#eop-anti-spam-policy-settings)에서 사용할 수 있는 설정과 동일 합니다.
+
+|||||
+|---|---|---|---|
+|**보안 기능 이름**|**표준을**|**항등**|**설명**|
+|**스푸핑 방지 보호 사용** <br/><br/> _EnableAntispoofEnforcement_|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`||
+|**인증 되지 않은 보낸 사람 사용** <br/><br/> _EnableUnauthenticatedSender_|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`|알 수 없는 스푸핑된 보낸 사람에 대 한 Outlook의 보낸 사람 사진에 물음표 (?)를 추가 합니다. 자세한 내용은 [피싱 방지 정책에서 스푸핑 설정을](set-up-anti-phishing-policies.md#spoof-settings)참조 하십시오.|
+|**도메인을 스푸핑할 수 없는 사용자가 전자 메일을 보낸 경우** <br/><br/> _AuthenticationFailAction_|**받는 사람의 정크 메일 폴더로 메시지 이동** <br/><br/> `MoveToJmf`|**메시지 격리** <br/><br/> `Quarantine`|이 정보는 [스푸핑 인텔리전스](learn-about-spoof-intelligence.md)에서 수신 거부에 적용 됩니다.|
+|
+
+#### <a name="advanced-settings-in-atp-anti-phishing-policies"></a>ATP 피싱 방지 정책의 고급 설정
+
+|||||
+|---|---|---|---|
+|**보안 기능 이름**|**표준을**|**항등**|**설명**|
+|**고급 피싱 임계값** <br/><br/> _PhishThresholdLevel_|**2-적극적인** <br/><br/> `2`|**3-적극적인** <br/><br/> `3`||
+|
 
 ### <a name="safe-links-settings"></a>안전한 링크 설정
 

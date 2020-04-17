@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: faf1efd1-3b0c-411a-804d-17f37292eac0
 description: 일반적인 구성 오류를 방지하고 구성 설정에 성공하려면 Exchange Online Protection EOP 모범 사례 권장 사항을 따르세요.
-ms.openlocfilehash: fd0baf81b516c30e2cee3b702e2ca0be560e9f4d
-ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
+ms.openlocfilehash: 9bddb736d41b4fd56790b8bbe9dbb00d07e75553
+ms.sourcegitcommit: 9ed3283dd6dd959faeca5c22613f9126261b9590
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43033437"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "43528620"
 ---
 # <a name="best-practices-for-configuring-eop-and-office-365-atp"></a>EOP 및 Office 365 ATP 구성 모범 사례
 
@@ -53,7 +53,7 @@ ms.locfileid: "43033437"
 |사서함에 대 한 SMTP 인증 된 전송|사용 안 함|사용 안 함||
 |사서함에 대 한 EWS 연결|사용 안 함|사용 안 함||
 |[PowerShell 연결](https://docs.microsoft.com/powershell/exchange/exchange-online/disable-access-to-exchange-online-powershell)|사용 안 함|사용 안 함|사서함 사용자 또는 메일 사용자 ( [Get-user](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/get-user) cmdlet에서 반환 된 사용자 개체)에 사용할 수 있습니다.|
-|가능한 경우 위장 인텔리전스를 사용 하 여 보낸 사람에 게 허용 목록|예|예||
+|가능한 경우 [위장 인텔리전스](learn-about-spoof-intelligence.md) 를 사용 하 여 보낸 사람에 게 허용 목록|예|예||
 |DBEB (디렉터리 기반 Edge 차단)|사용|사용|도메인 유형 = 신뢰할 수 있음|
 |[모든 관리자 계정에 대해 multi-factor authentication 설정](https://docs.microsoft.com/office365/admin/security-and-compliance/set-up-multi-factor-authentication)|사용|사용||
 

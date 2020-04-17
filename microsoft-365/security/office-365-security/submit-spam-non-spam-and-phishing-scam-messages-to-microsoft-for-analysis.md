@@ -2,8 +2,8 @@
 title: 분석을 위해 Microsoft에 수동으로 메시지 전송
 f1.keywords:
 - NOCSH
-ms.author: tracyp
-author: MSFTTracyP
+ms.author: chrisda
+author: chrisda
 manager: dansimp
 ms.date: ''
 audience: ITPro
@@ -16,12 +16,12 @@ ms.assetid: dad30e2f-93fe-4d21-9a36-21c87ced85c1
 ms.collection:
 - M365-security-compliance
 description: '귀하와 사용자는 분석을 위해 Microsoft에 허위 네거티브 및 가양성 스팸 메시지를 제출할 수 있습니다. '
-ms.openlocfilehash: 13b2e42f749b54e0c2b71fe095c077992560ea8c
-ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
+ms.openlocfilehash: 77807f710743d98dc2e1564f804b6a67add67def
+ms.sourcegitcommit: 9ed3283dd6dd959faeca5c22613f9126261b9590
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43032807"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "43529052"
 ---
 # <a name="manually-submit-messages-to-microsoft-for-analysis"></a>분석을 위해 Microsoft에 수동으로 메시지 전송
 
@@ -51,7 +51,7 @@ ms.locfileid: "43032807"
 2. 정크 또는 피싱 메시지를 새 메시지에 끌어서 놓습니다. 이렇게 하면 정크 또는 피싱 메시지가 새 메시지에 첨부 파일로 저장 됩니다. 메시지의 내용을 복사 하 여 붙여넣거나 메시지를 전달 하지 않습니다 (메시지 헤더를 검사할 수 있도록 원본 메시지가 필요 함).
 
    > [!NOTE]
-   > <ul><li>새 메시지에 여러 메시지를 첨부할 수 있습니다. 모든 메시지의 유형 (피싱 사기 메시지 또는 정크 메일 메시지)이 동일한 지 확인 합니다.</li><li>새 메시지의 본문은 비워 둡니다.<li></li>첨부 된 메시지의 형식은 .msg (기본 Outlook 형식) 또는 .eml (기본 outlook 형식) 중 하나를 사용 합니다.</li></ul>
+   > <ul><li>새 메시지에 여러 메시지를 첨부할 수 있습니다. 모든 메시지의 유형 (피싱 사기 메시지 또는 정크 메일 메시지)이 동일한 지 확인 합니다.</li><li>새 메시지의 본문은 비워 둡니다.</li><li>첨부 된 메시지의 형식은 .msg (기본 Outlook 형식) 또는 .eml (기본 outlook 형식) 중 하나를 사용 합니다.</li></ul>
 
 3. 작업이 완료 되 면 **보내기를**클릭 합니다.
 
@@ -70,7 +70,7 @@ ms.locfileid: "43032807"
 2. 잘못 식별 되어 메시지를 끌어서 새 메시지에 놓습니다. 이렇게 하면 잘못 식별 되어 메시지가 새 메시지에 첨부 파일로 저장 됩니다. 메시지의 내용을 복사 하 여 붙여넣거나 메시지를 전달 하지 않습니다 (메시지 헤더를 검사할 수 있도록 원본 메시지가 필요 함).
 
    > [!NOTE]
-   > <ul><li>새 메시지에 여러 메시지를 첨부할 수 있습니다. 모든 메시지의 유형 (피싱 사기 메시지 또는 정크 메일 메시지)이 동일한 지 확인 합니다.</li><li>새 메시지의 본문은 비워 둡니다.<li></li>첨부 된 메시지의 형식은 .msg (기본 Outlook 형식) 또는 .eml (기본 outlook 형식) 중 하나를 사용 합니다.</li></ul>
+   > <ul><li>새 메시지에 여러 메시지를 첨부할 수 있습니다. 모든 메시지의 유형 (피싱 메시지 또는 정크 메일 메시지)이 동일한 지 확인 합니다.</li><li>새 메시지의 본문은 비워 둡니다.</li><li>첨부 된 메시지의 형식은 .msg (기본 Outlook 형식) 또는 .eml (기본 outlook 형식) 중 하나를 사용 합니다.</li></ul>
 
 3. 작업이 완료 되 면 **보내기를**클릭 합니다.
 
@@ -83,7 +83,7 @@ ms.locfileid: "43032807"
 
 EAC (Exchange 관리 센터) 및 PowerShell (Office 365 고객을 위한 Exchange Online PowerShell)에서 메일 흐름 규칙을 만들 수 있습니다. 독립 실행형 EOP 고객을 위한 Exchange Online Protection PowerShell
 
-### <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
+### <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
 
 - 이러한 절차를 수행 하려면 먼저 Exchange Online에서 사용 권한을 할당 받아야 합니다. 특히 **조직 관리**, **규정 준수 관리**및 **레코드 관리** 역할에 할당 되는 **전송 규칙** 역할을 기본적으로 할당 해야 합니다. 자세한 내용은 [Exchange Online에서 역할 그룹 관리](https://docs.microsoft.com/Exchange/permissions-exo/role-groups)를 참조하세요.
 

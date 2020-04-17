@@ -15,14 +15,13 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-ROBOTS: NOINDEX, NOFOLLOW
 description: 고급 eDiscovery 사례에서 콘텐츠를 검토할 때 컴퓨터 학습 기반 콘텐츠 검색을 사용 하려면 변호사-클라이언트 권한 검색 모델을 사용 합니다.
-ms.openlocfilehash: 8fb635e429af2ae4d796e9c847a34d949d8dd6d9
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: e8e64fac2994b515bf6bc582673fa7e47d427d02
+ms.sourcegitcommit: 9ed3283dd6dd959faeca5c22613f9126261b9590
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42079284"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "43528393"
 ---
 # <a name="set-up-attorney-client-privilege-detection-in-advanced-ediscovery"></a>고급 eDiscovery에서 변호사 설정-클라이언트 권한 검색
 

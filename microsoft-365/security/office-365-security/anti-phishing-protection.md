@@ -2,10 +2,10 @@
 title: Office 365의 피싱 방지 보호 기능
 f1.keywords:
 - NOCSH
-ms.author: tracyp
-author: MSFTTracyP
+ms.author: chrisda
+author: chrisda
 manager: dansimp
-ms.date: 10/11/2018
+ms.date: ''
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
@@ -16,36 +16,50 @@ ms.assetid: 75af74b2-c7ea-4556-a912-8c48e07271d3
 ms.custom: TopSMBIssues
 ms.collection:
 - M365-security-compliance
-description: Office 365에서는 기본적으로 피싱 공격을 방지 하는 다양 한 보호 기능을 제공 하며 ATP 피싱 방지와 같은 추가 제품을 사용 합니다. 이 항목에서는 Office 365에서 피싱 방지 옵션 및 전략을 배우고 구현 하는 데 사용할 수 있는 온라인 리소스에 대해 소개 합니다.
-ms.openlocfilehash: 254bc3f5b1dc07da9dce3012345477605fb738c0
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+description: Office 365는 기본적으로 피싱 공격을 방지 하 고 Office 365 ATP (Advanced Threat Protection)의 추가 기능을 제공 합니다. 이 항목에서는 Office 365에서 피싱 방지 옵션 및 전략을 배우고 구현 하는 데 사용할 수 있는 온라인 리소스에 대해 소개 합니다.
+ms.openlocfilehash: 321d983f422bf4d231a772ca445bb74a7150a56e
+ms.sourcegitcommit: db8702cf578b02c6fd6a2670c177b456efae4748
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41599905"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "43537428"
 ---
 # <a name="anti-phishing-protection-in-office-365"></a>Office 365의 피싱 방지 보호 기능
 
-Office 365에서는 기본적으로 피싱 공격을 방지 하는 다양 한 보호 기능을 제공 하며 ATP 피싱 방지와 같은 추가 제품을 사용 합니다. 이 항목에서는 Office 365에서 피싱 방지 옵션 및 전략을 배우고 구현 하는 데 사용할 수 있는 온라인 리소스에 대해 소개 합니다.
+*피싱* 적법 한 보낸 사람 으로부터 온 것 처럼 보이는 메시지의 중요 한 정보를 도용 하는 전자 메일 공격입니다. 특정 종류의 피싱이 있습니다. 예시:
 
-## <a name="protect-your-organization-against-phishing-attacks-in-office-365"></a>Office 365의 피싱 공격 으로부터 조직을 보호 합니다.
+- **스피어 피싱은** 특히 대상 지정 된 받는 사람에 맞게 특별히 조정 된 콘텐츠 (일반적으로 공격자가 받는 사람을 검사 한 후)를 사용 합니다.
 
-Office 365 관리자는 이러한 리소스를 사용 하 여 가장 기반 피싱 공격 으로부터 보호 하 고 최종 사용자가 악의적인 피싱 공격에 prey 하지 않도록 교육 하는 365 방법을 알아봅니다.
+- **Whaling** 은 최대의 효과를 위해 임원 또는 조직 내의 다른 높은 가치 표적에 연결 됩니다.
 
-Office 365 구성을 변경 하기 전에 Office 365에서 제공 하는 최신 버전을 최신으로 유지 해야 합니다. [Microsoft 보안 &amp; 센터를 방문](https://www.microsoft.com/security/default.aspx)합니다.
+- **BEC (비즈니스 전자 메일 손상)** 은 위조 된 보낸 사람 (금융 관리자, 고객, 신뢰할 수 있는 파트너 등)을 사용 하 여 대금을 지불 하 고 자금을 전송 하거나 고객 데이터를 공개 하기 위한 노력을 합니다.
 
-환경을 보호 하기 위해 수행할 수 있는 가장 중요 한 점은 사용자에 게 위험 및 피싱 공격의 경고 신호를 교육 하는 것입니다. 시작 하려면 [피싱 구성표 및 기타 형태의 온라인 사기 행위를 방지](https://support.office.com/article/f84750b4-2f2c-46c3-89f6-e65f7f8c3546)하는 정보를 사용자에 게 숙지 합니다.
+- 데이터를 암호화 하 고 해당 암호를 해독 하기 위한 지불을 요청 하는 **랜 섬 웨어** 는 피싱 메시지에서 거의 항상 시작 됩니다. 피싱 방지 보호는 암호화 된 파일의 암호를 해독 하는 데 도움이 되지만, 랜 섬 웨어 캠페인과 연결 된 초기 피싱 메시지를 검색 하는 데 도움이 될 수 있습니다. 랜 섬 웨어 공격에서 복구 하는 방법에 대 한 자세한 내용은 [Office 365에서 랜 섬 웨어 공격 으로부터 복구](recover-from-ransomware.md)를 참조 하세요.
 
-Office Enterprise E5가 있는 Office 365 조 직의 경우 보안 &amp; 및 준수 센터에서 ATP 피싱 방지 기능을 사용할 수 있습니다. ATP 피싱 방지는 수신 메시지에 가장 검색 알고리즘과 함께 일련의 기계 학습 모델을 적용하여 일반 피싱 및 스피어 피싱 공격에 대한 보호 기능을 제공합니다. ATP 피싱 방지는 Office 365 전역 관리자나 보안 관리자가 설정한 정책에 따라 조직을 보호합니다. 자세한 내용은 [office 365의 ATP 피싱 방지 기능](atp-anti-phishing.md) 및 [office 365에서 피싱 방지 정책 설정을](set-up-anti-phishing-policies.md)참조 하십시오.
+공격에 대 한 복잡성이 증가 함에 따른 숙련 된 사용자가 복잡 한 피싱 메시지를 식별 하기는 어렵습니다. 다행 스럽게도 EOP (Exchange Online Protection) 및 Office 365의 추가 기능 (ATP)이 도움이 될 수 있습니다.
 
-피싱 공격 으로부터 사용자를 보호 하기 위해 Office 365이 기본적으로 구성 되는 방법에 대 한 자세한 내용은 [피싱을 방지 하기 위해 office 365에서 from: 주소 유효성을 검사 하는 방법을](how-office-365-validates-the-from-address.md)참조 하세요.
+## <a name="anti-phishing-protection-in-eop"></a>EOP의 피싱 방지 보호 기능
 
-## <a name="related-topics"></a>관련 항목
+EOP (즉, ATP가 없는 Office 365 조직)에는 피싱 위협 으로부터 조직을 보호 하는 데 도움이 되는 기능이 포함 되어 있습니다.
 
-[보낸 사람: 주소의 유효성을 검사하여 Office 365에서 피싱을 방지하는 방법](how-office-365-validates-the-from-address.md)
+- **스푸핑 인텔리전스**: 내부 및 외부 도메인의 보낸 사람 으로부터 스푸핑된 메시지를 검토 하 고 해당 보낸 사람을 허용 하거나 차단 합니다. 자세한 내용은 [Office 365에서 스푸핑 인텔리전스를 구성](learn-about-spoof-intelligence.md)합니다 .를 참조 하십시오.
 
-[피싱 체계 및 기타 형태의 온라인 사기 행위 방지](https://support.office.com/article/f84750b4-2f2c-46c3-89f6-e65f7f8c3546)
+- **기본 피싱 방지 정책**: 스푸핑 인텔리전스를 설정 하거나 해제 하 고, Outlook에서 인증 되지 않은 보낸 사람 id를 설정/해제 하 고, 차단 된 스푸핑된 보낸 사람 (정크 메일 폴더 또는 격리로 이동)에 대 한 작업을 지정 합니다. 자세한 내용은 [EOP에서 피싱 방지 정책 구성을](configure-anti-phishing-policies-eop.md)참조 하세요.
 
-[Office 365 Advanced Threat Protection](office-365-atp.md)
+- **암시적 전자 메일 인증**:[EOP에서는 위조](set-up-spf-in-office-365-to-help-prevent-spoofing.md)된 보낸 사람을 식별 하는 데 도움이 되는 보낸 [DMARC](use-dmarc-to-validate-email.md)사람 신뢰도, 보낸 사람 기록, 받는 사람 기록, 행태 분석 및 기타 고급 기법을 사용 하 여 인바운드 전자 메일에 대 한 표준 전자 메일 인증 [확인을 향상](use-dkim-to-validate-outbound-email.md)시킵니다. 자세한 내용은 [Office 365의 전자 메일 인증](email-validation-and-authentication.md)을 참조 하세요.
 
-[Office 365의 ATP 피싱 방지 기능](atp-anti-phishing.md)
+## <a name="additional-anti-phishing-protection-in-office-365-atp"></a>Office 365 ATP의 추가 피싱 방지 보호 기능
+
+Office 365 ATP에는 추가 및 보다 고급 피싱 방지 기능이 포함 되어 있습니다.
+
+- **ATP 피싱 방지 정책**: 새 사용자 지정 정책을 만들고, 가장 설정을 구성 합니다 (가장에서 사용자 및 도메인 보호), 사서함 인텔리전스 설정 및 조정 가능한 고급 피싱 임계값 자세한 내용은 [Office 365에서 ATP 피싱 방지 정책 구성을](configure-atp-anti-phishing-policies.md)참조 하세요. 피싱 방지 정책 및 ATP 피싱 방지 정책 간의 차이점에 대 한 자세한 내용은 [Office 365에서 피싱 방지 정책을](set-up-anti-phishing-policies.md)참조 하세요.
+
+- **캠페인 보기**: 기계 학습 및 기타 휴리스틱 전체 서비스 및 조직에 대해 통합 된 피싱 공격과 관련 된 메시지를 식별 하 고 분석 합니다. 자세한 내용은 [Office 365 ATP의 캠페인 보기](campaigns.md)를 참조 하세요.
+
+- **Attack 시뮬레이터**: 관리자는 가짜 피싱 메시지를 만들고 교육 도구로 내부 사용자에 게 보낼 수 있습니다. 자세한 내용은 [Office 365 ATP의 Attack 시뮬레이터](attack-simulator.md)를 참조 하세요.
+
+## <a name="other-anti-phishing-resources"></a>기타 피싱 방지 리소스
+
+- 최종 사용자의 경우: [피싱 체계 및 기타 형태의 온라인 사기 행위 로부터 자신을 보호](https://support.office.com/article/f84750b4-2f2c-46c3-89f6-e65f7f8c3546)합니다.
+
+- [Office 365에서 보낸 사람 주소의 유효성을 검사 하 여 피싱을 방지 하는 방법](how-office-365-validates-the-from-address.md)입니다.

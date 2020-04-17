@@ -17,12 +17,12 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 61f066b2fff2798e78e6379bbca46e48e93ff017
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: 1a5c5ae702f16bbf47be83837cf244cdd64278cd
+ms.sourcegitcommit: 4988934836eee45c890b9bdd5ef73590656c78ba
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42895444"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "43541110"
 ---
 # <a name="whats-coming-in-microsoft-secure-score"></a>Microsoft 보안 점수가 어떻게 제공 됩니까?
 
@@ -36,15 +36,15 @@ Microsoft의 보안 점수를 보안 환경을 보다 효율적으로 대표 하
 
 Microsoft 보안 점수가 의미 있고 모든 개선 조치를 측정할 수 있으며 안정성을 유지 하려면 다음과 같은 개선 작업을 제거 합니다.
 
-- 지난 30 일 동안 사용 되지 않은 계정 삭제/차단
-- 전역 관리자를 5 명 미만으로 지정
 - 문서에 IRM 보호 적용
 - 데이터 손실 방지 정책 적용
 
-### <a name="adding-additional-control-support-in-the-preview-version"></a>미리 보기 버전에서 컨트롤 지원 추가
+### <a name="adding-azure-ad-improvement-action-in-the-preview-version"></a>Preview 버전에서 Azure AD 개선 작업 추가
+
 - 사용자가 관리 되지 않는 응용 프로그램에 동의 하도록 허용 하지 않습니다 (현재 릴리스된 버전에서 사용 가능).
 
-#### <a name="support-for-additional-microsoft-cloud-app-security-improvement-actions"></a>추가 Microsoft Cloud App Security 개선 작업 지원
+### <a name="adding-azure-atp-improvement-actions-in-the-preview-version"></a>Preview 버전에서 Azure ATP 개선 작업 추가
+
 - 도메인 컨트롤러에서 인쇄 스풀러 서비스 사용 안 함
 - 가장을 방지 하도록 보안 되지 않은 Kerberos 위임 수정
 - Microsoft 랩를 사용 하 여 로컬 관리자 암호 보호 및 관리
@@ -56,5 +56,6 @@ Microsoft 보안 점수가 의미 있고 모든 개선 조치를 측정할 수 �
 - 레거시 프로토콜 통신 중지
 - 약한 암호화 사용 중지
 
-#### <a name="support-for-microsoft-defender-atp-threat--vulnerability-management-tvm-security-recommendations"></a>TVM (Microsoft Defender ATP Threat &) 보안 권장 사항에 대 한 지원
+### <a name="support-for-microsoft-defender-atp-threat--vulnerability-management-tvm-security-recommendations-in-the-preview-version"></a>Preview 버전에서의 Microsoft Defender ATP 위협 & TVM (취약성 관리) 보안 권장 사항에 대 한 지원
+
 - 이제 TVM에서 제공 하는 모든 릴리스된 보안 권장 사항을 Microsoft 보안 점수 에서도 사용할 수 있습니다.

@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: 62901a08b8e040266a94967170674336eb1035c8
-ms.sourcegitcommit: 45ee610a380db113c2a50f6ea82d30137498babb
+ms.openlocfilehash: 0e51e52db4e569716954aada1c5cea35ddc6dd0a
+ms.sourcegitcommit: 9ed3283dd6dd959faeca5c22613f9126261b9590
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "42288596"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "43528372"
 ---
 # <a name="microsoft-threat-protection"></a>Microsoft 위협 방지
 
@@ -31,7 +31,7 @@ ms.locfileid: "42288596"
 
 
 
-Microsoft Threat Protection은 끝점, id, 전자 메일 및 응용 프로그램 간에 고유 하 게 통합 되어 정교한 공격에 대 한 검색, 방지, 조사 및 자동 대응을 지 원하는 통합 사전 및 사후 위반 엔터프라이즈 방어 제품군입니다.  
+Microsoft Threat Protection은 끝점, id, 전자 메일 및 응용 프로그램 간의 검색, 예방, 조사 및 응답을 고유 하 게 조정 하 고 복잡 한 공격에 대 한 통합 된 보호 기능을 제공 하는 통합 사전 및 사후 위반 엔터프라이즈 방어 제품군입니다.
 
 통합 Microsoft 위협 보호 솔루션을 사용 하는 경우 보안 전문가는 이러한 각 제품이 수신 하 고 위협의 모든 범위와 영향을 결정 하는 위협 신호를 함께 연결할 수 있습니다. 환경의 진입 방식, 영향을 받는 대상 및 현재 조직에 영향을 주는 방법 Microsoft Threat Protection은 공격을 방지 하거나 중지 하는 자동 작업을 수행 하 고 영향을 받는 사서함, 끝점 및 사용자 id를 자체 치유 합니다.  
 
@@ -77,7 +77,7 @@ Microsoft Threat Protection의 제품 간 기능은 다음과 같습니다.
 - **제품 간 위협 사냥** -보안 팀은 다양 한 보호 제품에서 수집한 원시 데이터에 대 한 고유한 사용자 지정 쿼리를 만들어 해당 조직의 고유한 정보를 활용 하 여 손상의 징후를 검색할 수 있습니다. Microsoft Threat Protection은 끝점 및 Office 365 ATP 데이터를 통해 30 일 동안 기록 된 원시 신호 및 경고 데이터에 대 한 쿼리 기반 액세스를 제공 합니다. 
 
 
-## <a name="get-started"></a>시작하기
+## <a name="get-started"></a>시작
 Microsoft Threat Protection 라이선스 요구 사항을 충족 해야 [security.microsoft.com](https://security.microsoft.com)의 microsoft 365 보안 센터에서 서비스를 사용 하도록 설정할 수 있습니다. 자세한 내용은 다음을 참조 하세요.
 - [라이선스 요구 사항](prerequisites.md#licensing-requirements)
 - [Microsoft 위협 방지 설정](mtp-enable.md)

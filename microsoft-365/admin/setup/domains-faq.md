@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: 1272bad0-4bd4-4796-8005-67d6fb3afc5a
 description: FAQ에서 질문에 대 한 답변을 찾아 Office 365의 도메인에 대해 자세히 알아보세요.
 ms.custom: okr_smb
-ms.openlocfilehash: 5579cacaa789ca91d68616ffb89e37586f6a062f
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+ms.openlocfilehash: 5d5b921494ba59b78dec53047a31215a8e755f4c
+ms.sourcegitcommit: 4988934836eee45c890b9bdd5ef73590656c78ba
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43212200"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "43540870"
 ---
 # <a name="domains-faq"></a>도메인 FAQ
 
@@ -106,12 +106,24 @@ Office 365 서비스에 대 한 DNS 레코드를 직접 설정 해야 합니다 
 *Whois* 쿼리에는 Office 365 구매한 도메인 등록 자가 와일드 서 지 도메인 LLC로 표시 됩니다. 그러나 Office 365 구매한 도메인에 대 한 Office 365에만 문의 해야 합니다.
   
 아래 단계에 따라 Office 365의 코드를 가져온 다음 다른 도메인 등록 기관 웹 사이트로 이동 하 여 해당 등록자에 게 도메인 이름을 전송 하도록 설정 합니다.
-  
+
+::: moniker range="o365-worldwide"
+
 1. I관리 센터에서 ** 설정 ** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank"> 도메인 </a> 페이지로 이동하십시오.
-    
-    Office 365 독일를 사용 중인 경우이 <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">도메인</a> 페이지로 이동 합니다. 
-    
-    21Vianet에서 운영 하는 Office 365를 사용 중인 경우이 <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">도메인</a> 페이지로 이동 합니다.
+
+::: moniker-end
+
+::: moniker range="o365-germany"
+
+1. I관리 센터에서 ** 설정 ** > <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank"> 도메인 </a> 페이지로 이동하십시오.
+
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+1. 관리 센터에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=850625" target="_blank">라이선스</a> **설정** > 페이지로 이동 합니다.
+
+::: moniker-end
     
 2. **도메인** 페이지에서 다른 도메인 등록자에 게 전송할 Office 365 도메인을 선택 하 고 **도메인 전송을** > **사용 하 여 도메인 전송을**선택 합니다.
        
@@ -136,12 +148,24 @@ Office 365 서비스에 대 한 DNS 레코드를 직접 설정 해야 합니다 
 2. 등록자 웹 사이트에서 이름 서버 레코드를 업데이트 하는 영역을 찾고 도메인의 DNS 호스트를 가리키도록 이름 서버을 업데이트 합니다. DNS 호스트는 종종 도메인 등록자입니다.
     
 3. 다음 링크를 통해 도메인 설정 마법사로 이동 합니다.
-    
+
+::: moniker range="o365-worldwide"
+
 4. I관리 센터에서 ** 설정 ** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank"> 도메인 </a> 페이지로 이동하십시오.
-    
-    Office 365 독일를 사용 중인 경우이 <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">도메인</a> 페이지로 이동 합니다. 
-    
-    21Vianet에서 운영 하는 Office 365를 사용 중인 경우이 <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">도메인</a> 페이지로 이동 합니다.
+
+::: moniker-end
+
+::: moniker range="o365-germany"
+
+4. I관리 센터에서 ** 설정 ** > <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank"> 도메인 </a> 페이지로 이동하십시오.
+
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+4. I관리 센터에서 ** 설정 ** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank"> 도메인 </a> 페이지로 이동하십시오.
+
+::: moniker-end
     
 5. **도메인** 페이지에서 전환 중인 도메인을 선택 하 고 **DNS 관리**를 선택 합니다.
     
@@ -153,12 +177,24 @@ Office 365 서비스에 대 한 DNS 레코드를 직접 설정 해야 합니다 
     
 
 ### <a name="change-dns-management-to-office-365"></a>DNS 관리를 Office 365으로 변경
-  
-1. I관리 센터에서 ** 설정 ** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank"> 도메인 </a> 페이지로 이동하십시오.
-    
-    Office 365 독일를 사용 중인 경우이 <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">도메인</a> 페이지로 이동 합니다. 
-    
-    21Vianet에서 운영 하는 Office 365를 사용 중인 경우이 <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">도메인</a> 페이지로 이동 합니다.
+
+::: moniker range="o365-worldwide"
+
+1. 관리 센터에서 **설정** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">도메인</a> 페이지로 이동 합니다.
+
+::: moniker-end
+
+::: moniker range="o365-germany"
+
+1. I관리 센터에서 ** 설정 ** > <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank"> 도메인 </a> 페이지로 이동하십시오.
+
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+1. I관리 센터에서 ** 설정 ** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank"> 도메인 </a> 페이지로 이동하십시오.
+
+::: moniker-end
     
 2. **도메인** 페이지에서 전환 중인 도메인을 선택 하 고 **DNS 관리**를 선택 합니다.
     
@@ -221,12 +257,24 @@ Office 365 서비스에 대 한 DNS 레코드를 직접 설정 해야 합니다 
 ## <a name="how-do-i-set-or-change-the-default-domain-in-office-365"></a>Office 365에서 기본 도메인을 설정 하거나 변경 하려면 어떻게 하나요?
 
 기본 도메인을 선택 하려면 먼저 Office 365에 추가한 사용자 지정 도메인이 하나 이상 있어야 합니다.
-  
+
+::: moniker range="o365-worldwide"
+
 1. I관리 센터에서 ** 설정 ** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank"> 도메인 </a> 페이지로 이동하십시오.
-    
-    Office 365 독일를 사용 중인 경우이 <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">도메인</a> 페이지로 이동 합니다. 
-    
-    21Vianet에서 운영 하는 Office 365를 사용 중인 경우이 <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">도메인</a> 페이지로 이동 합니다.
+
+::: moniker-end
+
+::: moniker range="o365-germany"
+
+1. I관리 센터에서 ** 설정 ** > <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank"> 도메인 </a> 페이지로 이동하십시오.
+
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+1. I관리 센터에서 ** 설정 ** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank"> 도메인 </a> 페이지로 이동하십시오.
+
+::: moniker-end
     
 2. **도메인** 페이지에서 새 전자 메일 주소에 대 한 기본값으로 설정할 도메인을 선택 합니다. 
     

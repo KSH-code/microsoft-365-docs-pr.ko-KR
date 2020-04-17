@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: 77f90d4a-dc7f-4f09-8972-c1b03ea85a67
 description: 'Office 365에 대 한 DNS 레코드를 만드는 데 필요한 값/정보를 확인 하는 방법을 설명 합니다. '
 ms.custom: okr_smb
-ms.openlocfilehash: 2490532894ef00bab5de3f406b0c104529423382
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+ms.openlocfilehash: 2cb45b6a5c07bd50e15e7f2a941be344b5f69038
+ms.sourcegitcommit: 4988934836eee45c890b9bdd5ef73590656c78ba
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43210383"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "43540882"
 ---
 # <a name="gather-the-information-you-need-to-create-office-365-dns-records"></a>Office 365 DNS 레코드를 만드는 데 필요한 정보 수집
 
@@ -35,17 +35,21 @@ ms.locfileid: "43210383"
   
 ### <a name="step-1-find-the-txt-record-value-and-verify"></a>1 단계: TXT 레코드 값을 찾아서 확인
 
+::: moniker range="o365-worldwide"
+
 1. Microsoft 365 관리 센터에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">도메인</a> **설정** \> 페이지로 이동 합니다.
+
+::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. 관리 센터에서이 <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">도메인</a> 페이지로 이동 합니다.
+1. 관리 센터에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">도메인</a> **설정** > 페이지로 이동 합니다.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. 관리 센터에서이 <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">도메인</a> 페이지로 이동 합니다.
+1. 관리 센터에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">도메인</a> **설정** > 페이지로 이동 합니다.
 
 ::: moniker-end
     
@@ -63,17 +67,21 @@ ms.locfileid: "43210383"
     
 ### <a name="step-2-find-the-mx-record-value-for-email-and-more"></a>2 단계: 전자 메일에 대 한 MX 레코드 값 찾기
 
+::: moniker range="o365-worldwide"
+
 1. Microsoft 365 관리 센터에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">도메인</a> **설정** \> 페이지로 이동 합니다.
+
+::: moniker-end
     
 ::: moniker range="o365-germany"
 
-1. 관리 센터에서이 <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">도메인</a> 페이지로 이동 합니다.
+1. 관리 센터에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=854615" target="_blank">도메인</a> **설정** > 페이지로 이동 합니다.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. 관리 센터에서이 <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">도메인</a> 페이지로 이동 합니다.
+1. 관리 센터에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=2007048" target="_blank">도메인</a> **설정** > 페이지로 이동 합니다.
 
 ::: moniker-end
     

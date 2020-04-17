@@ -1,11 +1,11 @@
 ---
-title: 스푸핑 인텔리전스에 대해 자세히 알아보기
+title: 스푸핑 인텔리전스 구성
 f1.keywords:
 - NOCSH
-ms.author: tracyp
-author: MSFTTracyP
+ms.author: chrisda
+author: chrisda
 manager: dansimp
-ms.date: 10/22/2018
+ms.date: ''
 audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
@@ -16,135 +16,216 @@ search.appverid:
 ms.assetid: 978c3173-3578-4286-aaf4-8a10951978bf
 ms.collection:
 - M365-security-compliance
-description: 스팸 방지 설정 페이지의 보안 &amp; 준수 센터에서 스푸핑 인텔리전스를 사용 하 여 조직의 일부인 도메인을 위장 하는 모든 보낸 사람을 검토 하거나 외부 도메인을 위장 합니다. 스푸핑 인텔리전스는 Advanced Threat Protection 및 Exchange Online Protection의 일부로 Office 365 Enterprise E5의 일부로 사용할 수 있습니다.
-ms.openlocfilehash: a58f98852f321791615c5f0064b69e8510aadbe5
-ms.sourcegitcommit: a7b2cd892cb65a61ee246268e1af2f8b9e526f6b
+description: 관리자는 Exchange Online 및 EOP (Exchange Online Protection)에서 스푸핑된 보낸 사람을 허용 하거나 허용 하지 않거나 기타 스푸핑 인텔리전스 설정을 구성 하는 방법에 대해 알아봅니다.
+ms.openlocfilehash: 96a1442c893444108aaf6814484bc4e4d55aa731
+ms.sourcegitcommit: 9ed3283dd6dd959faeca5c22613f9126261b9590
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43081463"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "43528740"
 ---
-# <a name="learn-more-about-spoof-intelligence"></a>스푸핑 인텔리전스에 대해 자세히 알아보기
+# <a name="configure-spoof-intelligence-in-office-365"></a>Office 365에서 스푸핑 인텔리전스 구성
 
-**스팸 방지 설정 페이지** 의 보안 &amp; 준수 센터에서 스푸핑 인텔리전스를 사용 하 여 조직의 일부인 도메인을 위장 하는 모든 보낸 사람을 검토 하거나 외부 도메인을 위장 합니다. 스푸핑 지능은 Office 365 Enterprise e 5의 일부로, 각 ATP (Advanced Threat Protection)의 일부로 또는 별도로 제공 되며 2018, 10 월 EOP (Exchange Online Protection)로 구분 됩니다.
+Exchange online 사서함이 없는 Office 365 고객 또는 독립 실행형 EOP (Exchange Online Protection) 고객의 경우 인바운드 전자 메일 메시지가 EOP 2018의 스푸핑 으로부터 자동으로 보호 됩니다. EOP에서는 피싱에 대 한 조직의 전반적인 방어 과정에서 스푸핑 인텔리전스를 사용 합니다. 자세한 내용은 [Office 365의 스푸핑 방지 보호](anti-spoofing-protection.md)를 참조 하세요.
 
-## <a name="what-types-of-email-spoofing-can-i-review-and-which-should-i-protect-against-with-spoof-intelligence"></a>검토할 수 있는 전자 메일 스푸핑 유형 및 스푸핑 인텔리전스를 통해 보호할 사항
+보낸 사람이 전자 메일 주소를 위장 하면 조직의 도메인 중 하나의 사용자 또는 조직에 전자 메일을 보내는 외부 도메인의 사용자로 표시 됩니다. 스팸 또는 피싱 전자 메일을 보내도록 보낸 사람을 위장 하는 공격자는 차단 해야 합니다. 그러나 합법적인 보낸 사람이 스푸핑 되는 시나리오가 있습니다. 예시:
 
-소유한 도메인의 경우 도메인을 위장 하는 보낸 사람을 검토 한 다음 보낸 사람이 계속 하거나 보낸 사람을 차단 하도록 선택할 수 있습니다. 외부 도메인의 경우 보낸 사람 도메인이 보내는 인프라와 결합 되는 것을 허용할 수 있지만 개별 전자 메일 주소는 허용 되지 않습니다.
+- 내부 도메인 스푸핑에 대 한 합법적인 시나리오:
 
-보낸 사람이 전자 메일 주소를 위장 하면 조직의 도메인 중 하나에 있는 하나 이상의 사용자 계정을 대신 하 여 메일을 보내거나 조직에 게 보내는 외부 도메인으로 표시 됩니다. 스푸핑에 대 한 합법적인 비즈니스 이유가 몇 가지 있습니다. 예를 들어 다음과 같은 경우에는 보낸 사람에 게 도메인 스푸핑 방지를 차단 하지 않습니다.
+  - 타사 보낸 사람 도메인을 사용 하 여 회사 설문을 위해 자신의 직원에 게 대량 메일을 보냅니다.
 
-- 도메인을 사용 하는 타사 보낸 사람이 회사 설문을 위해 자신의 직원에 게 대량 메일을 보내는 경우
+  - 외부 회사에서는 사용자를 대신 하 여 광고 또는 제품 업데이트를 생성 하 고 보냅니다.
 
-- 사용자를 대신 하 여 광고나 제품 업데이트를 생성 하 고 보낼 수 있는 외부 회사를 고용 해야 합니다.
+  - 도우미는 정기적으로 조직 내의 다른 사용자에 게 전자 메일을 보내야 합니다.
 
-- 정기적으로 조직 내의 다른 사람에 대 한 전자 메일을 보내야 하는 도우미입니다.
+  - 내부 응용 프로그램은 전자 메일 알림을 보냅니다.
 
-- 전자 메일로 내부 알림을 보내기 위해 자체 조직을 스푸핑할 구성 된 응용 프로그램입니다.
+- 외부 도메인 스푸핑에 대 한 합법적인 시나리오:
 
-외부 도메인은 흔히 스푸핑된 전자 메일을 보내며 이러한 많은 이유가 합법적입니다. 예를 들어 외부 보낸 사람이 스푸핑된 전자 메일을 보낼 때의 몇 가지 합법적인 사례는 다음과 같습니다.
+  - 보낸 사람이 메일링 리스트 라고도 하는 메일 그룹에 있고, 메일링 리스트에서 원본 보낸 사람 으로부터 메일 그룹의 모든 참가자에 게 전자 메일이 릴레이 됩니다.
 
-- 보낸 사람이 토론 우편물 목록에 있고, 메일링 리스트에서 원본 보낸 사람의 전자 메일을 메일링 목록의 모든 참석자에 게 릴레이 합니다.
+  - 외부 회사는 다른 회사를 대신 하 여 전자 메일을 전송 합니다 (예: 자동화 된 보고서 또는 a-a-서비스 회사).
 
-- 외부 회사에서 다른 회사를 대신 하 여 전자 메일을 보내는 경우 (예: 자동화 된 보고서 또는 as a services 회사)
+스푸핑 인텔리전스 및 특히 기본 (및 전용) 스푸핑 인텔리전스 정책에서는 합법적인 보낸 사람이 보낸 스푸핑된 전자 메일이 Office 365 또는 외부 전자 메일 시스템의 스팸 필터에서 발견 되지 않도록 하 고, 스팸 또는 피싱 공격 으로부터 사용자를 보호 하는 데 도움이 됩니다.
 
-합법적인 spoofers가 보낸 메일이 Office 365 또는 외부 전자 메일 시스템의 스팸 필터에 표시 되지 않도록 하는 방법이 필요 합니다. 일반적으로 Office 365에서는 이러한 전자 메일 메시지를 스팸으로 취급 합니다. Office 365 관리자는 보안 &amp; 및 준수 센터에서 스푸핑 필터를 설정 하 여이를 방지할 수 있습니다. 도메인을 소유 하 고 있는 경우 이러한 보낸 사람에 대해 SPF, DKIM 및 DMARC를 허용 하도록 구성할 수 있습니다.
+Office 365 보안 & 준수 센터 또는 PowerShell (Office 365 고객을 위한 Exchange Online PowerShell)에서 스푸핑 인텔리전스를 관리할 수 있습니다. 독립 실행형 EOP 고객을 위한 Exchange Online Protection PowerShell
 
-한편, 사용자의 도메인을 위장 하는 (또는 외부 도메인), 스팸 또는 피싱 전자 메일을 보내도록 하는 악의적인 spoofers을 차단 해야 합니다. 스푸핑은 phishers에서 사용자 자격 증명을 가져오는 일반적인 방법 이기도 합니다. Office 365에는 이러한 악성 전자 메일을 보낸 사람 으로부터 조직을 보호 하는 데 도움이 되는 스푸핑 방지 기능이 기본적으로 제공 됩니다. 조직의 도메인에 대 한 스푸핑 보호는 항상 모든 Office 365 고객에 게 기본적으로 설정 되며, 외부 도메인 스푸핑 보호는 고급 위협 보호 고객 및 EOP (2018)와 같은 사용자에 게 기본값으로 설정 됩니다. 이 보호 기능을 강화 하려면 조직의 도메인을 스푸핑 하 고 사용자 대신 전자 메일을 보낼 수 있는 권한이 있는 보낸 사람에 게 알리고, 외부 도메인을 위장 하도록 허용 합니다. 권한이 부여 되지 않은 보낸 사람이 보낸 전자 메일은 Office 365에서 스팸으로 처리 됩니다. 보낸 사람에 게 도메인 스푸핑 문제를 방지 하 고 보안 &amp; 및 준수 센터를 사용 하 여 스푸핑 인텔리전스를 개선 하는 데 도움을 주세요.
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
 
-## <a name="managing-spoof-intelligence-in-the-security-amp-compliance-center"></a>보안 &amp; 및 준수 센터에서 스푸핑 인텔리전스 관리
-<a name="Managespooflist"> </a>
+- <https://protection.office.com/>에서 보안 및 준수 센터를 엽니다. **스팸 방지 설정** 페이지로 바로 이동하려면 <https://protection.office.com/antispam>을 사용하세요. **피싱 방지** 페이지로 바로 이동 하려면을 사용 <https://protection.office.com/antiphishing>합니다.
 
-설정 하는 스푸핑 인텔리전스 정책은 항상 Office 365에서 적용 됩니다. 이 기능을 사용 하지 않도록 설정할 수는 없지만 적극적으로 관리할 수는 없습니다.
+- Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결하기](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell)를 참조하세요. Exchange Online Protection PowerShell에 연결하려면 [Exchange Online Protection PowerShell에 연결하기](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell)를 참조하세요.
 
-도메인을 위장 하는 보낸 사람 및 외부 도메인을 검토 한 다음 보안 &amp; 및 준수 센터를 사용 하 여 각 보낸 사람이 이러한 작업을 수행할 수 있도록 할지 여부를 결정할 수 있습니다. 보낸 사람이 도메인 또는 외부 도메인에서 위장 하는 각 스푸핑된 사용자 계정에 대해 다음 표에 나와 있는 정보를 확인할 수 있습니다.
+- 이 절차를 수행하려면 먼저 사용 권한을 할당 받아야 합니다. 스푸핑 인텔리전스 정책을 수정 하거나 스푸핑 인텔리전스를 사용 하거나 사용 하지 않도록 설정 하려면 **조직 관리** 또는 **보안 관리자** 역할 그룹의 구성원 이어야 합니다. 스푸핑 인텔리전스 정책에 대 한 읽기 전용 액세스를 위해서는 **보안 독자** 역할 그룹의 구성원 이어야 합니다. 보안 및 규정 준수 센터의 역할 그룹에 대한 자세한 내용은 [Office 365 보안 및 규정 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)을 참조하세요.
 
-|**매개 변수**|**설명**|
-|:-----|:-----|
-|보낸 사람  <br/> |실제 보낸 사람이 라고도 합니다. 이는 일반적으로 스푸핑 전자 메일이 시작 된 도메인입니다. Office 365에서는 조직을 스푸핑 하는 보내는 IP 주소의 PTR (포인터) DNS 레코드에 대 한 도메인을 확인 합니다. 도메인을 찾을 수 없는 경우에는 보고서에 대신 보낸 사람의 IP 주소가 표시 됩니다.  <br/> |
-|스푸핑된 사용자  <br/> |보낸 사람이 위장 중인 사용자 계정입니다.  <br/> **내부** 탭만 이 필드에는 전자 메일 주소가 하나만 있거나 보낸 사람이 여러 사용자 계정을 위장 하는 경우 두 개 **이상**포함 됩니다.  <br/> **외부** 탭만 외부 도메인은 보내는 도메인만 포함 하 고 전체 전자 메일 주소는 포함 하지 않습니다.  <br/> **설명은! 고급 관리자 용** 스푸핑된 사용자는 메일 클라이언트에서 보낸 사람 주소로 표시 되는 보낸 사람 (5322.from 주소의) 주소 이기도 합니다. 이를 헤더 라고도 합니다. 보낸 사람 주소 이 주소의 유효성은 SPF에서 검사 하지 않습니다.           |
-|메시지 수  <br/> |확인 된 스푸핑된 보낸 사람 또는 지난 30 일 이내에 보낸 사람이 조직에 보낸 메일 메시지 수입니다.  <br/> |
-|사용자 불만 수  <br/> |지난 30 일 이내에 사용자가이 보낸 사람을 통해 사용자에 게 서 받은 불만 사항입니다. 불만은 일반적으로 Microsoft에 대 한 정크 제출 형태입니다.  <br/> |
-|인증 결과  <br/> |이 값은 보낸 사람이 SPF 또는 DKIM과 같은 EOP (Exchange Online Protection) 보낸 사람 인증 확인을 **통과 한 경우** 보낸 사람이 EOP 보낸 사람 인증 검사를 수행 하지 못했거나, 확인 결과가 알려지지 않은 경우 **알 수 없는** 경우에도 **통과** 됩니다.  <br/> |
-|의사 결정 집합  <br/> |Office 365 관리자 또는 스푸핑 인텔리전스 정책에서 보낸 사람이 사용자를 스푸핑할 수 있는지 여부를 확인 했는지 여부를 표시 합니다.  <br/> |
-|마지막 표시  <br/> |이 스푸핑된 사용자 대신이 보낸 사람이 메시지를 받은 마지막 날짜입니다.  <br/> |
-|스푸핑이 허용 됩니까?  <br/> | 이 보낸 사람이 스푸핑된 사용자를 대신 하 여 전자 메일을 보낼 수 있는지 여부를 표시 합니다. 가능한 값은 다음과 같습니다.  <br/> **예** 이 스푸핑 보낸 사람 으로부터 위장 된 모든 스푸핑된 주소는 조직을 스푸핑할 수 있습니다.  <br/> **아니요** 이 스푸핑 보낸 사람의 스푸핑된 주소는 조직을 스푸핑할 수 없습니다. 대신이 사람이 보낸 메시지는 Office 365에서 스팸으로 표시 됩니다.  <br/> **일부 사용자** 보낸 사람이 여러 사용자를 스푸핑 하는 경우이 보낸 사람의 일부 스푸핑된 주소에서 조직을 스푸핑할 수 있으며 나머지는 스팸으로 표시 됩니다. **자세한 정보** 탭을 사용 하 여 특정 주소를 확인 합니다.  <br/> |
-|스푸핑 유형  <br/> |도메인이 조직의 프로 비전 된 도메인 중 하나인 경우이 값은 **Internal** 이며, 그렇지 않으면 **외부**값이 됩니다.  <br/> |
+- 스푸핑 인텔리전스에 대 한 권장 설정에 대해서는 [기본 피싱 방지 정책 설정을 EOP](recommended-settings-for-eop-and-office365-atp.md#eop-default-anti-phishing-policy-settings).
 
- **보안 &amp; 및 준수 센터를 사용 하 여 도메인을 위장 하는 보낸 사람을 관리 하려면**
+## <a name="use-the-security--compliance-center-to-manage-spoofed-senders"></a>보안 & 준수 센터를 사용 하 여 스푸핑된 보낸 사람 관리
 
-1. [ &amp; 보안 및 준수 센터로](https://protection.office.com)이동 합니다.
+> [!NOTE]
+> Office 365 Enterprise E5 구독이 있거나 별도 구매한 ATP (Advanced Threat Protection)를 사용 하는 경우 [스푸핑 인텔리전스](walkthrough-spoof-intelligence-insight.md)정보를 통해 도메인을 위장 하는 보낸 사람을 관리할 수도 있습니다.
 
-2. 회사 또는 학교 계정을 사용하여 Office 365에 로그인합니다. 사용자의 계정에는 Office 365 조 직의 관리자 자격 증명이 있어야 합니다.
+1. 보안 및 준수 센터에서 **위협 관리** \> **정책** \> **스팸 방지**로 이동합니다.
 
-3. 보안 &amp; 및 준수 센터에서 **위협 관리** \> **정책** \> **스팸 방지**를 확장 합니다.
+2. **스팸 방지 설정** 페이지에서 확장 아이콘 ![](../../media/scc-expand-icon.png) 을 클릭 하 여 **스푸핑 인텔리전스 정책을**확장 합니다.
 
-    ![스팸 방지 페이지에 대 한 액세스를 보여 주는 스크린샷](../../media/0a098e68-5ecf-40d7-984f-d15fcc1f958d.jpg)
+   ![스푸핑 인텔리전스 정책 선택](../../media/anti-spam-settings-spoof-intelligence-policy.png)
 
-4. 오른쪽 창의 **스팸 방지 설정** 페이지에서 아래로 스크롤하고 **스푸핑 인텔리전스 정책을**확장 합니다.
+3. 다음 중 하나를 선택 합니다.
 
-    ![신분을](https://user-images.githubusercontent.com/41186174/71801032-6228f100-3062-11ea-8461-682b910418c2.png)
+   - **새 보낸 사람 검토**
+   - **이미 검토 한 보낸 사람 표시**
 
-5. 도메인에 대 한 보낸 사람 스푸핑 목록을 보려면 **새 보낸 사람 검토** 를 선택 하 고 **도메인** 탭을 선택 합니다.
+4. 이러한 보낸 사람이 사용자에 게 표시 되는 플라이 아웃 **을 스푸핑할 수 있는지 결정** 에서 다음 탭 중 하나를 선택 합니다.
 
-    이미 보낸 사람을 검토 했 고 이전 선택 항목 중 일부를 변경 하려면 **이미 검토 한 보낸 사람 표시** 를 대신 선택 하면 됩니다. 두 경우 모두 다음 패널이 표시 됩니다.
+   - **도메인**: 내부 도메인의 사용자를 보낸 사람에 게 위장 합니다.
+   - **외부 도메인**: 외부 도메인의 사용자를 보낸 사람에 게 위장 합니다.
 
-    ![스푸핑된 보낸 사람 탭에 대 한 액세스를 보여 주는 스크린샷](../../media/c0c062fd-f4a4-4d78-96f7-2c22009052bb.jpg)
+5. **스푸핑 허용?** 열에서 확장 아이콘 ![](../../media/scc-expand-icon.png) 을 클릭 합니다. 스푸핑된 보낸 사람을 허용 하려면 **예** 를 선택 하 고, 메시지를 스푸핑된로 표시 하려면 **아니요** 를 선택 합니다. 이 작업은 기본 피싱 방지 정책 또는 사용자 지정 ATP 피싱 방지 정책 (기본값은 **정크 메일 폴더로 메시지 이동**)에 의해 제어 됩니다. 자세한 내용은 [피싱 방지 정책에서 스푸핑 설정을](set-up-anti-phishing-policies.md#spoof-settings)참조 하십시오.
 
-    각 스푸핑된 사용자가 개별 행에 표시 되므로 보낸 사람이 각 사용자를 개별적으로 스푸핑할 수 없도록 할지 여부를 선택할 수 있습니다.
+   ![스푸핑된 보낸 사람 플라이 아웃 및 보낸 사람이 스푸핑할 수 있는지 여부를 보여 주는 스크린샷](../../media/c0c062fd-f4a4-4d78-96f7-2c22009052bb.jpg)
 
-    사용자에 대 한 허용 목록에 보낸 사람을 추가 하려면 **허용 됨 스푸핑** 열에서 **예** 를 선택 합니다. 사용자의 차단 목록에 보낸 사람을 추가 하려면 **아니요**를 선택 합니다.
+   표시 되는 열 및 값은 다음 목록에 설명 되어 있습니다.
 
-    소유 하지 않은 도메인에 대 한 정책을 설정 하려면 **외부 도메인** 탭을 선택 합니다. **허용 됨 스푸핑** 열에서 보낸 사람을 **예로** 변경 하 여 조직에 인증 되지 않은 전자 메일을 보낼 수 있도록 허용 합니다. 또는 Office 365에서 보낸 사람이 스푸핑된 전자 메일을 보낼 수 있도록 허용 하는 것이 잘못 된 것으로 생각 되는 경우에는 가능한 경우 **스푸핑** 가능 열을 **아니요로**변경 합니다.
+   - **스푸핑된 사용자**: 스푸핑 중인 사용자 계정입니다. 전자 메일 클라이언트에 표시 되는 보낸 사람 주소 ( `5322.From` 주소 라고도 함)의 메시지 발신자입니다. 이 주소의 유효성은 SPF에서 검사 하지 않습니다.
 
-    ![보낸 사람이 스푸핑할 수 있는지 여부를 보여 주는 스크린샷](../../media/5dbef9cf-103f-49cd-9638-4b0083d6baa7.jpg)
+     - **도메인** 탭에는 단일 전자 메일 주소가 포함 되어 있거나 원본 전자 메일 서버가 여러 사용자 계정을 위장 하는 경우 둘 **이상의**계정이 포함 됩니다.
 
-6. **저장** 을 선택 하 여 변경 내용을 저장 합니다.
+     - **외부 도메인** 탭의 값에는 전체 전자 메일 주소가 아니라 스푸핑된 사용자의 도메인이 포함 됩니다.
 
-Office 365 Enterprise E5 구독이 있거나 추가 기능으로 Advanced Threat Protection을 별도로 구매한 경우 [스푸핑 인텔리전스](walkthrough-spoof-intelligence-insight.md)정보를 통해 도메인을 위장 하는 보낸 사람을 관리할 수도 있습니다.
+   - **보내는 인프라**: 원본 전자 메일 서버의 IP 주소에 대 한 역방향 DNS 조회 (ptr 레코드) 또는 원본에 PTR 레코드가 없는 경우 ip 주소에서 찾은 도메인입니다.
 
-## <a name="configuring-the-anti-spoofing-policy"></a>스푸핑 방지 정책 구성
-<a name="Managespooflist"> </a>
+     메시지 원본 및 메시지 보낸 사람에 대 한 자세한 내용은 [전자 메일 메시지 표준 개요](how-office-365-validates-the-from-address.md#an-overview-of-email-message-standards)를 참조 하세요.
 
-특정 보낸 사람이 조직에 스푸핑된 전자 메일을 보내는 것을 허용 하거나 차단 하는 것 외에도 필터를 적용할 엄격한 방법을 구성 하 고 스푸핑 메시지를 찾을 때 수행할 작업을 구성할 수도 있습니다.
+   - **메시지**수: 보낸 인프라에서 이전 30 일 이내에 지정 된 스푸핑된 보낸 사람 또는 보낸 사람을 포함 하는 조직에 대 한 메시지의 개수입니다.
 
-스푸핑 방지 보호는 Office 365 조직 외부에 있는 도메인의 보낸 사람 으로부터 전자 메일에 적용 됩니다. 사서함이 Office 365 Enterprise E5, Advanced Threat Protection 및 10 월 외에도 2018 EOP 고객을 위해 사용이 허가 된 받는 사람에 게 정책을 적용할 수 있습니다. 다른 피싱 방지 설정과 함께 스푸핑 방지 정책을 관리 합니다. 피싱 방지 설정에 대 한 자세한 내용은 [Set Up Office 365 ATP 안티 피싱 및 피싱 방지 정책을](set-up-anti-phishing-policies.md)참조 하세요.
+   - **사용자 불만**수: 지난 30 일 이내에이 보낸 사람에 대 한 사용자의 불만 사항입니다. 불만은 일반적으로 Microsoft에 대 한 정크 제출 형태입니다.
 
-Office 365에는 항상 실행 되는 기본 스푸핑 방지 보호가 포함 되어 있습니다. 이 기본 보호는 보안 &amp; 및 준수 센터에서 표시 되지 않으며 Windows PowerShell cmdlet을 통해 검색할 수 없습니다. 기본 스푸핑 방지 보호는 수정할 수 없습니다. 대신, 사용자가 만드는 각 피싱 방지 정책에 엄격히 Office 365에서 스푸핑 방지 보호 기능을 적용 하는 방법을 구성할 수 있습니다.
+   - **인증 결과**: 다음 값 중 하나입니다.
 
-스푸핑 방지 정책이 보안 &amp; 및 준수 센터의 피싱 방지 정책 아래에 표시 되지만 스팸 방지 구성의 기존 피싱 설정에서 기본 동작이 상속 되지 않습니다. 스푸핑 **방지** \> **피싱** 에 대 한 복제 하려는 설정이 있는 경우에는 피싱 방지 정책을 만든 다음, 백그라운드에서 실행 되는 기본 설정을 적용 하는 것이 아니라 다음 섹션에서 설명 하는 대로 스푸핑 설정을 반영 하도록 피싱 방지 정책의 스푸핑 부분을 편집 해야 합니다.
+      - **통과**: 보낸 사람이 SPF 또는 dkim (보낸 사람 전자 메일 인증 검사)를 통과 했습니다.
+      - **실패**: 보낸 사람이 보낸 사람 인증 검사를 EOP 못했습니다.
+      - **Unknown**: 이러한 검사의 결과를 알 수 없습니다.
 
- **보안 &amp; 및 준수 센터를 사용 하 여 피싱 방지 정책 내에서 스푸핑 방지 보호를 구성 하려면**
+   - **결정 설정 기준**: 보내는 인프라가 사용자를 스푸핑할 수 있는지 확인 한 사람을 표시 합니다.
 
-1. [ &amp; 보안 및 준수 센터로](https://protection.office.com)이동 합니다.
+       - **스푸핑 인텔리전스 정책** (자동)
+       - **관리** (수동)
 
-2. 회사 또는 학교 계정을 사용하여 Office 365에 로그인합니다. 사용자의 계정에는 Office 365 조 직의 관리자 자격 증명이 있어야 합니다.
+   - **마지막**확인: 스푸핑된 사용자를 포함 하는 보내는 인프라에서 메시지를 받은 마지막 날짜입니다.
 
-3. 보안 &amp; 및 준수 센터에서 **위협 관리** \> **정책** \> **피싱 방지**를 확장 합니다.
+   - **스푸핑할 수 있습니까?**: 여기에 표시 되는 값은 다음과 같습니다.
 
-4. 오른쪽 창의 **피싱 방지** 페이지에서 구성할 피싱 방지 정책을 선택 합니다.
+     - **Yes**: 스푸핑된 사용자 및 전송 인프라 조합의 메시지가 허용 되며 스푸핑된 전자 메일로 처리 되지 않습니다.
 
-5. 페이지가 나타나면 **스푸핑** 행에서 **편집**을 선택 합니다.
+     - **No**: 스푸핑된 사용자 및 보내는 인프라의 조합에서 보낸 메시지가 스푸핑된로 표시 됩니다. 이 작업은 기본 피싱 방지 정책 또는 사용자 지정 ATP 피싱 방지 정책 (기본값은 **정크 메일 폴더로 메시지 이동**)에 의해 제어 됩니다. 자세한 내용은 다음 섹션을 참조 하십시오.
 
-6. 다음으로 메시지가 도메인 간 스푸핑으로 검색 될 때 수행할 작업을 구성 합니다. 기본 동작은 메시지를 받는 사람의 정크 메일 폴더로 이동 하는 것입니다. 다른 옵션은 메시지를 격리로 보내는 것입니다. 격리로 보낸 메시지를 관리 하는 방법에 대 한 자세한 내용은 [격리 전자 메일 메시지 (Office 365](quarantine-email-messages.md))를 참조 하세요.
+     - **일부 사용자** (**도메인 탭에만 해당** ): 보내는 인프라는 여러 사용자에 게 스푸핑 (일부 스푸핑된 사용자가 허용 되는 경우)을 위장 하며 나머지는 그렇지 않습니다. **자세한 정보** 탭을 사용 하 여 특정 주소를 확인 합니다.
 
-    ![스푸핑 방지 정책 편집 옵션을 보여 주는 스크린샷](../../media/7a868dff-2c4b-46b9-88ca-f2d523ca2307.jpg)
+6. 페이지 맨 아래에서 **저장**을 클릭 합니다.
 
-7. 원하는 항목을 선택한 다음 **저장**을 선택 합니다.
+## <a name="use-powershell-to-manage-spoofed-senders"></a>PowerShell을 사용 하 여 스푸핑된 보낸 사람 관리
 
-## <a name="other-ways-to-manage-spoofing-and-phishing-with-office-365"></a>Office 365에서 스푸핑 및 피싱을 관리 하는 기타 방법
-<a name="Managespooflist"> </a>
+스푸핑 인텔리전스에서 허용 및 수신 거부를 보려면 다음 구문을 사용 합니다.
+
+```powershell
+Get-PhishFilterPolicy [-AllowedToSpoof <Yes | No | Partial>] [-ConfidenceLevel <Low | High>] [-DecisionBy <Admin | SpoofProtection>] [-Detailed] [-SpoofType <Internal | External>]
+```
+
+이 예에서는 도메인의 사용자를 스푸핑할 수 있는 모든 보낸 사람에 대 한 자세한 정보를 반환 합니다.
+
+```powershell
+Get-PhishFilter -AllowedToSpoof Yes -Detailed -SpoofType Internal
+```
+
+구문과 매개 변수에 대 한 자세한 내용은 [get-phishfilterpolicy](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/get-phishfilterpolicy)를 참조 하십시오.
+
+스푸핑 인텔리전스에서 허용 및 수신 거부를 구성 하려면 다음 단계를 수행 합니다.
+
+1. **Get-phishfilterpolicy** cmdlet의 출력을 CSV 파일에 기록 하 여 검색 된 스푸핑된 보낸 사람의 현재 목록을 캡처합니다.
+
+   ```powershell
+   Get-PhishFilterPolicy -Detailed | Export-CSV "C:\My Documents\Spoofed Senders.csv"
+   ```
+
+2. CSV 파일을 편집 하 여 **SpoofedUser** (전자 메일 주소) 및 **allowedtospoof** (예 또는 아니요) 값을 추가 하거나 수정 합니다. 파일을 저장 하 고 파일을 읽은 다음 이름이 `$UpdateSpoofedSenders`다음과 같은 변수로 저장 합니다.
+
+   ```powershell
+   $UpdateSpoofedSenders = Get-Content -Raw "C:\My Documents\Spoofed Senders.csv"
+   ```
+
+3. 이 `$UpdateSpoofedSenders` 변수를 사용 하 여 스푸핑 인텔리전스 정책을 구성 합니다.
+
+   ```powershell
+   Set-PhishFilterPolicy -Identity Default -SpoofAllowBlockList $UpdateSpoofedSenders
+   ```
+
+구문 및 매개 변수에 대 한 자세한 내용은 [get-phishfilterpolicy](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/set-phishfilterpolicy)를 참조 하십시오.
+
+## <a name="use-the-security--compliance-center-to-configure-spoof-intelligence"></a>보안 & 준수 센터를 사용 하 여 스푸핑 인텔리전스 구성
+
+스푸핑 인텔리전스에 대 한 구성 옵션은 [피싱 방지 정책의 스푸핑 설정](set-up-anti-phishing-policies.md#spoof-settings)에 설명 되어 있습니다.
+
+사용 가능한 옵션은 구독에 따라 달라 집니다.
+
+- 독립 실행형 EOP Exchange Online 사서함이 없는 조직은 스푸핑 인텔리전스 설정을 구성할 수 없습니다.
+
+- Office 365 Exchange Online 사서함을 사용 하는 조직에서는 기본값 (및 유일한) 피싱 방지 정책에서 스푸핑 인텔리전스 설정을 구성할 수 있습니다. 자세한 내용은 [EOP에서 기본 피싱 방지 정책 구성을](configure-anti-phishing-policies-eop.md)참조 하세요.
+
+- Office 365 ATP가 있는 조직은 기본 ATP 피싱 방지 정책 및 사용자 지정 ATP 피싱 방지 정책 에서도 스푸핑 인텔리전스 설정을 구성할 수 있습니다. 자세한 내용은 [Office 365에서 ATP 피싱 방지 정책 구성을](configure-atp-anti-phishing-policies.md)참조 하세요.
+
+## <a name="how-do-you-know-these-procedures-worked"></a>이 절차가 제대로 수행되었는지 어떻게 확인하나요?
+
+스푸핑이 허용 되 고 스푸핑이 허용 되지 않는 보낸 사람과 스푸핑 인텔리전스를 구성 했으며 스푸핑 인텔리전스 설정을 구성 했는지 확인 하려면 다음 단계 중 하나를 사용 합니다.
+
+- 보안 & 준수 센터에서 **위협 관리** \> **정책** \> **스팸** \> 방지 보기 **스푸핑 인텔리전스 정책** \> 으로 이동 하 \> 여 **이미 검토 한 보낸 사람 표시** 선택에서 **도메인** 또는 **외부 도메인** 탭을 선택 하 고 보낸 사람에 대해 **스푸핑 허용 여부** 를 확인 합니다.
+
+- PowerShell에서 다음 명령을 실행 하 여 허용 되 고 스푸핑이 허용 되지 않는 보낸 사람을 확인 합니다.
+
+  ```powershell
+  Get-PhishFilter -AllowedToSpoof Yes -SpoofType Internal
+  Get-PhishFilter -AllowedToSpoof No -SpoofType Internal
+  Get-PhishFilter -AllowedToSpoof Yes -SpoofType External
+  Get-PhishFilter -AllowedToSpoof No -SpoofType External
+  ```
+
+- PowerShell에서 다음 명령을 실행 하 여 모든 스푸핑된 보낸 사람 목록을 CSV 파일로 내보냅니다.
+
+   ```powershell
+   Get-PhishFilterPolicy -Detailed | Export-CSV "C:\My Documents\Spoofed Senders.csv"
+   ```
+
+- Exchange Online 사서함이 있는 Office 365 조직에서 다음 단계 중 하나를 수행 합니다.
+
+  - 보안 & 준수 센터에서 **위협 관리** \> **정책** \> **피싱** \> 방지 **기본 정책을** 클릭 하 고 플라이 아웃의 세부 정보를 확인 합니다.
+
+  - Exchange Online PowerShell에서 다음 명령을 실행 하 고 설정을 확인 합니다.
+
+    ```PowerShell
+    Get-AntiPhishPolicy -Identity "Office365 AntiPhish Default"
+    ```
+
+- Office 365 ATP 조직에서 다음 단계 중 하나를 수행 합니다.
+
+  - 보안 & 준수 센터에서 **위협 관리** \> **정책** \> **ATP 피싱 방지** 로 이동한 후 다음 단계 중 하나를 수행 합니다.
+
+    - 목록에서 정책을 선택 합니다. 플라이 아웃이 나타나면 **스푸핑** 섹션에서 값을 확인 합니다.
+    - **기본 정책을**클릭 합니다. 플라이 아웃이 나타나면 **스푸핑** 섹션에서 값을 확인 합니다.
+
+  - Exchange Online PowerShell에서 Name \<\> 을 Office365 AntiPhish Default로 바꾸거나 사용자 지정 ATP 피싱 방지 정책의 이름을 바꾼 후 다음 명령을 실행 하 고 설정을 확인 합니다.
+
+    ```PowerShell
+    Get-AntiPhishPolicy -Identity "<Name>"
+    ```
+
+## <a name="other-ways-to-manage-spoofing-and-phishing"></a>스푸핑 및 피싱 관리의 기타 방법
 
 스푸핑 및 피싱 방지에 유심히 다음은 도메인에 대 한 보낸 사람 스푸핑을 확인 하 고 조직이 손상 되는 것을 방지 하는 데 관련 된 방법입니다.
 
-- 루틴의 일부로 Exchange Online Protection 스푸핑 메일 보고서를 확인 합니다. 이 보고서를 자주 사용 하 여 스푸핑된 보낸 사람을 보고 관리 하는 데 도움을 받을 수 있습니다. 자세한 내용은 Office 365의 사용 메일 보호 보고서에서 **스푸핑 메일 보고서** 에서 [맬웨어, 스팸 및 규칙 감지에 대 한 데이터 보기](https://docs.microsoft.com/exchange/monitoring/use-mail-protection-reports)를 참조 하세요.
-
-고급 Office 365 관리자를 위해 다음 검사를 완료할 수도 있습니다.
+- **스푸핑 메일 보고서**를 확인 합니다. 이 보고서를 자주 사용 하 여 스푸핑된 보낸 사람을 보고 관리 하는 데 도움을 받을 수 있습니다. 자세한 내용은 [스푸핑 감지 보고서](view-email-security-reports.md#spoof-detections-report)를 참조 하세요.
 
 - SPF (Sender Policy Framework) 구성을 검토 합니다. SPF를 빠르게 도입하여 신속하게 구성하려면 [스푸핑 방지를 위해 Office 365에서 SPF 설정](set-up-spf-in-office-365-to-help-prevent-spoofing.md)을 참조하세요. Office 365에서 SPF를 사용하는 방법이나 문제 해결 또는 비표준 배포(예: 하이브리드 배포)에 대한 자세한 내용은 [Office 365에서 SPF(Sender Policy Framework)를 사용하여 스푸핑을 차단하는 방법](how-office-365-uses-spf-to-prevent-spoofing.md)을 참조하세요.
 
-- DKIM (DomainKeys 식별 된 메일) 구성을 검토 합니다. SPF 및 DMARC와 함께 DKIM을 사용하여 spoofer로 하여금 사용자의 도메인에서 오는 것처럼 보이는 메시지를 보내지 못하도록 해야 합니다. DKIM을 사용하면 메시지 머리글에 있는 전자 메일 메시지에 디지털 서명을 첨부할 수 있습니다. 자세한 내용은 [DKIM을 사용 하 여 Office 365에서 사용자 지정 도메인에서 보낸 아웃 바운드 전자 메일의 유효성 검사](use-dkim-to-validate-outbound-email.md)를 참조 하세요.
+- DKIM (DomainKeys 식별 된 메일) 구성을 검토 합니다. 공격자가 도메인에서 오는 것 처럼 표시 되는 메시지를 보내지 못하도록 하기 위해 SPF 및 DMARC 외에 DKIM을 사용 해야 합니다. DKIM을 사용하면 메시지 머리글에 있는 전자 메일 메시지에 디지털 서명을 첨부할 수 있습니다. 자세한 내용은 [DKIM을 사용 하 여 Office 365에서 사용자 지정 도메인에서 보낸 아웃 바운드 전자 메일의 유효성 검사](use-dkim-to-validate-outbound-email.md)를 참조 하세요.
 
 - 도메인 기반 메시지 인증, 보고 및 적합성 (DMARC) 구성을 검토 합니다. SPF 및 DKIM과 함께 DMARC를 구현하면 스푸핑 및 피싱 전자 메일에 대한 추가 보호 기능이 제공됩니다. DMARC는 수신 메일 시스템이 사용자의 도메인에서 보낸 SPF 또는 DKIM 확인에 실패한 메시지에 대해 수행할 작업을 결정하는 데 도움을 줍니다. 자세한 내용은 [Office 365에서 DMARC을 사용 하 여 전자 메일의 유효성 검사를](use-dmarc-to-validate-email.md)참조 하세요.
-
-- Exchange Online PowerShell 또는 Exchange Online Protection PowerShell의 [get-phishfilterpolicy](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/get-phishfilterpolicy) cmdlet을 사용 하 여 스푸핑된 보낸 사람에 대 한 자세한 데이터를 수집 하 고, 허용 및 차단 목록을 생성 하 고, 합법적인 전자 메일을 외부 스팸 필터에 catch 하지 않고 보다 포괄적인 SPF, DKIM 및 DMARC DNS 레코드를 생성 하는 방법을 결정 하는 데 도움을 줍니다. 자세한 내용은 [Office 365에서 스푸핑 방지 보호 작동 방법을](https://blogs.msdn.microsoft.com/tzink/2016/02/23/how-antispoofing-protection-works-in-office-365/)참조 하세요.
