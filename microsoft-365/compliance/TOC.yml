@@ -20,33 +20,33 @@
   items:
     - name: 내부자 위험 관리
       items:
-        - name: 참가자 위험 관리에 대해 알아보기
+        - name: 내부자 위험 관리에 대해 알아보기
           href: insider-risk-management.md
-        - name: 참가자 위험 관리 시작
+        - name: 내부자 위험 관리 시작
           href: insider-risk-management-configure.md
-        - name: 참가자 위험 정책 만들기 및 관리
+        - name: 내부자 위험 정책 만들기 및 관리
           href: insider-risk-management-policies.md
-        - name: 참가자 위험 알림 조사
+        - name: 내부자 위험 경고 조사
           href: insider-risk-management-alerts.md
-        - name: 참가자 위험 상황에 대 한 조치 수행
+        - name: 내부자 위험 사례에 대한 작업 수행
           href: insider-risk-management-cases.md
-        - name: 참가자 위험 콘텐츠 탐색기를 사용 하 여 데이터 검토
+        - name: 내부자 위험 콘텐츠 탐색기를 사용하여 데이터 검토
           href: insider-risk-management-content-explorer.md
-        - name: 사용자를 참가자 위험 정책에 추가
+        - name: 내부자 위험 정책에 사용자 추가
           href: insider-risk-management-users.md
-        - name: 참가자 위험 알림 서식 파일 만들기
+        - name: 내부자 위험 알림 서식 파일 만들기
           href: insider-risk-management-notices.md
     - name: 커뮤니케이션 규정 준수
       items:
-        - name: 통신 준수에 대해 자세히 알아보기
+        - name: 커뮤니케이션 규정 준수에 대해 알아보기
           href: communication-compliance.md
-        - name: 통신 준수 시작
+        - name: 커뮤니케이션 규정 준수 시작
           href: communication-compliance-configure.md
-        - name: 통신 준수 알림 조사 및 재구성
+        - name: 커뮤니케이션 규정 준수 알림 검사 및 수정
           href: communication-compliance-investigate-remediate.md
-        - name: 통신 준수를 위한 기능 참조
+        - name: 커뮤니케이션 규정 준수에 대한 기능 참조
           href: communication-compliance-feature-reference.md
-        - name: 사례 연구-Contoso가 공격적인 언어 정책을 빠르게 구성 합니다.
+        - name: 사례 연구 - Contoso에서 빠르게 무례한 언어 정책을 구성합니다
           href: communication-compliance-case-study.md
         - name: Office 365에서의 감독 정책
           href: supervision-policies.md
@@ -67,7 +67,7 @@
       items:
         - name: 권한이 부여된 액세스 관리에 대한 자세한 정보
           href: privileged-access-management-overview.md
-        - name: 권한 있는 액세스 관리 시작
+        - name: 권한이 부여된 액세스 관리 시작
           href: privileged-access-management-configuration.md
     - name: 사용자 및 장치 액세스 보호
       href: protect-access-to-data-and-services.md
@@ -137,7 +137,7 @@
           href: customize-a-built-in-sensitive-information-type.md
         - name: 사용자 지정 중요한 정보 유형
           href: custom-sensitive-info-types.md
-        - name: 정확한 데이터 일치를 기반으로 하는 사용자 지정 중요 한 정보 유형 만들기 분류
+        - name: 분류에 기반한 정확한 데이터 매치로 사용자 지정 중요한 정보 유형 만들기
           href: create-custom-sensitive-information-types-with-exact-data-match-based-classification.md
         - name: 보안 및 준수 센터에서 사용자 지정 중요한 정보 유형 만들기
           href: create-a-custom-sensitive-information-type.md
@@ -147,7 +147,7 @@
           href: create-a-keyword-dictionary.md
         - name: 문서 지문
           href: document-fingerprinting.md
-        - name: ' 중요한 정보에 대한 DLP 기능'
+        - name: 중요한 정보에 대한 DLP 기능
           href: what-the-dlp-functions-look-for.md
     - name: M365의 암호화
       href: encryption.md
@@ -157,18 +157,18 @@
       items:
         - name: Office 365의 고객 키를 사용한 서비스 암호화
           href: customer-key-overview.md
-        - name: Office 365에 대 한 고객 키 설정
+        - name: Office 365의 고객 키 설정
           href: customer-key-set-up.md
-        - name: Office 365에 대 한 고객 키 관리
+        - name: Office 365의 고객 키 관리
           href: customer-key-manage.md
         - name: 고객 키 또는 가용성 키 롤 또는 회전
           href: customer-key-availability-key-roll.md
-        - name: Office 365 고객 키에 대 한 가용성 키에 대 한 자세한 정보
+        - name: Office 365 고객 키에 대한 가용성 키 알아보기
           href: customer-key-availability-key-understand.md
     - name: 전자 메일 암호화
       href: email-encryption.md
       items:
-        - name: Office 365 메시지 암호화 (OME)
+        - name: Office 365 메시지 암호화(OME)
           href: ome.md
         - name: 새로운 Office 365 메시지 암호화 기능 설정
           href: set-up-new-message-encryption-capabilities.md
@@ -190,7 +190,7 @@
           href: ome-version-comparison.md
         - name: Office 365 메시지 암호화 FAQ
           href: ome-faq.md
-        - name: How Exchange Online secures your email secrets
+        - name: Exchange Online이 전자 메일 암호를 보호하는 방법
           href: exchange-online-secures-email-secrets.md
         - name: Office 365의 전자 메일 연결 보안을 위해 Exchange Online에서 TLS를 사용하는 방법
           href: exchange-online-uses-tls-to-secure-email-connections.md
@@ -206,7 +206,7 @@
               href: set-up-azure-rms-for-previous-version-message-encryption.md
     - name: SharePoint 관리 센터에서 IRM 설정
       href: set-up-irm-in-sp-admin-center.md
-    - name: 데이터 분류 이해 (미리 보기)
+    - name: 데이터 분류 이해(미리 보기)
       href: data-classification-overview.md
       items:
         - name: 콘텐츠 탐색기로 시작(미리 보기)
@@ -215,11 +215,11 @@
           href: data-classification-activity-explorer.md
         - name: 데이터 분류 공개 미리 보기 릴리스 정보(미리 보기)
           href: data-classification-pub-preview-relnotes.md
-        - name: Trainable 분류자 시작 (미리 보기)
+        - name: 학습 가능한 분류자 시작(미리 보기)
           href: classifier-getting-started-with.md
-        - name: 기본 제공 분류자 사용 (미리 보기)
+        - name: 기본 제공 분류자 사용(미리 보기)
           href: classifier-using-a-ready-to-use-classifier.md
-        - name: 분류자 만들기 및 교육 (미리 보기)
+        - name: 분류자 만들기 및 교육(미리 보기)
           href: classifier-creating-a-trainable-classifier.md
 - name: 정보 거버넌스 관리
   items:
@@ -243,13 +243,13 @@
       items:
         - name: 타사 데이터 보관 개요
           href: archiving-third-party-data.md
-        - name: Facebook 데이터를 보관 하는 커넥터 설정
+        - name: Facebook 데이터를 보관할 커넥터 설정
           href: archive-facebook-data-with-sample-connector.md
         - name: Twitter 데이터를 보관할 커넥터 설정
           href: archive-twitter-data-with-sample-connector.md
         - name: LinkedIn 데이터를 보관할 커넥터 설정
           href: archive-linkedin-data.md
-        - name: 즉석 Bloomberg 데이터를 보관할 커넥터 설정
+        - name: Instant Bloomberg 데이터를 보관할 커넥터 설정
           href: archive-instant-bloomberg-data.md
         - name: HR 데이터를 가져올 커넥터 설정
           href: import-hr-data.md
@@ -331,7 +331,7 @@
               href: view-label-activity-for-documents.md
             - name: 데이터 거버넌스 보고서 보기
               href: view-the-data-governance-reports.md
-        - name: Events
+        - name: 이벤트
           items:
             - name: 이벤트 기반 보존
               href: event-driven-retention.md
@@ -341,9 +341,9 @@
           href: disposition-reviews.md
         - name: 레코드 관리에 대한 자세한 정보
           items:
-            - name: 레코드 관리에 대 한 비디오 보기
+            - name: 레코드 관리에 대한 비디오 보기
               href: 'https://go.microsoft.com/fwlink/?linkid=867039'
-- name: EDiscovery 관리
+- name: eDiscovery 관리
   items:
     - name: 콘텐츠 검색
       items:
@@ -354,13 +354,13 @@
           items:
             - name: 키워드 쿼리 및 검색 조건
               href: keyword-queries-and-search-conditions.md
-            - name: 검색 결과에 대 한 키워드 통계 보기
+            - name: 검색 결과에 대한 키워드 통계 보기
               href: view-keyword-statistics-for-content-search.md
             - name: 검색 결과 내보내기
               href: export-search-results.md
             - name: 검색 보고서 내보내기
               href: export-a-content-search-report.md
-            - name: Microsoft Edge를 사용 하 여 검색 결과 다운로드
+            - name: Microsoft Edge를 사용하여 검색 결과 다운로드
               href: configure-edge-to-export-search-results.md
             - name: 전자 메일 메시지 검색 및 삭제
               href: search-for-and-delete-messages-in-your-organization.md
@@ -368,29 +368,29 @@
               href: search-cloud-based-mailboxes-for-on-premises-users.md
             - name: 여러 콘텐츠 검색 일괄 편집
               href: bulk-edit-content-searches.md
-            - name: ID 목록 검색을 위한 CSV 파일 준비
+            - name: ID 목록 검색에 대한 CSV 파일 준비
               href: csv-file-for-an-id-list-content-search.md
             - name: 타사 데이터 검색
               href: use-content-search-to-search-third-party-data-that-was-imported.md
-            - name: 검색 쿼리에 오류가 있는지 확인
+            - name: 검색 쿼리에서 오류 확인
               href: check-your-content-search-query-for-errors.md
             - name: 일반적인 eDiscovery 문제 해결
               href: ediscovery-troubleshooting-common-issues.md
-            - name: 실패 한 검색 다시 시도
+            - name: 실패한 검색 다시 시도
               href: retry-failed-content-search.md
-            - name: 검색을 위해 숨은 참조 받는 사람 보존
+            - name: 검색을 위해 숨은 참조 받는 사람을 바꾸지 않음
               href: preserve-bcc-and-expanded-distribution-group-recipients-for-ediscovery.md
         - name: 콘텐츠 검색 구성
           items:
-            - name: 콘텐츠 검색에 대 한 권한 필터링 구성
+            - name: 콘텐츠 검색에 대한 권한 필터링 구성
               href: permissions-filtering-for-content-search.md
             - name: 검색 결과를 내보낼 때 다운로드 속도 높이기
               href: increase-download-speeds-when-exporting-ediscovery-results.md
             - name: 검색 결과를 내보낼 때 PST 파일 크기 변경
               href: change-the-size-of-pst-files-when-exporting-results.md
-            - name: 검색 결과를 내보낼 때 보고서를 사용 하지 않도록 설정
+            - name: 콘텐츠 보고서를 사용하지 않도록 설정
               href: disable-reports-when-you-export-content-search-results.md
-        - name: 콘텐츠 검색 이해
+        - name: 콘텐츠 검색 이해하기
           items:
             - name: 콘텐츠 검색 제한
               href: limits-for-content-search.md
@@ -400,15 +400,15 @@
               href: investigating-partially-indexed-items-in-ediscovery.md
             - name: 검색 결과에서 중복 제거
               href: de-duplication-in-ediscovery-search-results.md
-            - name: 예상 및 실제 검색 결과의 차이점
+            - name: 예상 및 실제 검색 결과 차이
               href: differences-between-estimated-and-actual-ediscovery-search-results.md
         - name: 콘텐츠 검색 PowerShell 스크립트 실행
           items:
-            - name: 대상 모음에 콘텐츠 검색 사용
+            - name: 대상 지정 컬렉션을 위해 콘텐츠 검색 사용
               href: use-content-search-for-targeted-collections.md
-            - name: 사서함 및 OneDrive 계정에서 사용자 목록을 검색 합니다.
+            - name: 사서함 및 OneDrive 계정에서 사용자 목록 검색
               href: search-the-mailbox-and-onedrive-for-business-for-a-list-of-users.md
-            - name: '여러 검색 만들기, 보고 설정 및 삭제'
+            - name: '여러 검색 만들기, 보고하기 및 삭제'
               href: create-report-on-and-delete-multiple-content-searches.md
             - name: 검색 복제
               href: clone-a-content-search.md
@@ -422,23 +422,23 @@
               href: assign-ediscovery-permissions.md
             - name: 키워드 쿼리 및 검색 조건
               href: keyword-queries-and-search-conditions.md
-            - name: 검색 권한 필터링 구성
+            - name: 콘텐츠 검색 권한 필터링
               href: permissions-filtering-for-content-search.md
             - name: 준수 경계 설정
               href: set-up-compliance-boundaries.md
-            - name: 스크립트를 사용 하 여 eDiscovery 보류에 사용자 추가
+            - name: 스크립트를 사용하여 eDiscovery 보류에 사용자 추가
               href: use-a-script-to-add-users-to-a-hold-in-ediscovery.md
-            - name: EDiscovery 보류에 대 한 보고서 만들기
+            - name: eDiscovery 보류의 보고서 만들기
               href: create-a-report-on-holds-in-ediscovery-cases.md
-            - name: 분산 데이터 검색 및 제거
+            - name: 분산된 데이터 검색 및 제거
               href: data-spillage-scenariosearch-and-purge.md
-            - name: 검색을 위해 숨은 참조 받는 사람 보존
+            - name: 검색을 위해 숨은 참조 받는 사람을 바꾸지 않음
               href: preserve-bcc-and-expanded-distribution-group-recipients-for-ediscovery.md
             - name: 일반적인 eDiscovery 문제 해결
               href: ediscovery-troubleshooting-common-issues.md
-            - name: 실패 한 검색 다시 시도
+            - name: 실패한 검색 다시 시도
               href: retry-failed-content-search.md
-            - name: Microsoft Edge를 사용 하 여 검색 결과 다운로드
+            - name: Microsoft Edge를 사용하여 검색 결과 다운로드
               href: configure-edge-to-export-search-results.md
     - name: Advanced eDiscovery
       items:
@@ -501,7 +501,7 @@
               href: manage-load-sets-in-advanced-ediscovery.md
         - name: 사례 데이터 검토
           items:
-            - name: 검토 설정 대시보드 사용 (미리 보기)
+            - name: 검토 집합 대시보드 사용(미리 보기)
               href: advanced-ediscovery-dashboard.md
             - name: 검토 집합에서 문서 보기
               href: view-documents-in-review-set.md
@@ -539,7 +539,7 @@
               href: configure-search-and-analytics-settings-in-advanced-ediscovery.md
         - name: Advanced eDiscovery 참조
           items:
-            - name: 고급 eDiscovery 제한
+            - name: Advanced eDiscovery 제한
               href: limits-ediscovery20.md
             - name: 지원되는 파일 형식
               href: supported-filetypes-ediscovery20.md
@@ -553,19 +553,17 @@
               href: assign-ediscovery-permissions.md
             - name: 키워드 쿼리 및 검색 조건
               href: keyword-queries-and-search-conditions.md
-            - name: 검색 권한 필터링 구성
+            - name: 콘텐츠 검색 권한 필터링
               href: permissions-filtering-for-content-search.md
             - name: 준수 경계 설정
               href: set-up-compliance-boundaries.md
-            - name: 고급 eDiscovery 보고서 (미리 보기)
-              href: advanced-ediscovery-reports.md
             - name: AzCopy 문제 해결
               href: troubleshooting-azcopy.md
-    - name: 고급 eDiscovery (클래식)
+    - name: Advanced eDiscovery(클래식)
       items:
-        - name: 고급 eDiscovery 개요 (클래식)
+        - name: Advanced eDiscovery(클래식) 개요
           href: office-365-advanced-ediscovery.md
-        - name: Advanced eDiscovery 시작 (클래식)
+        - name: Advanced eDiscovery(클래식) 시작
           href: quick-setup-for-advanced-ediscovery.md
         - name: 사례 설정
           href: set-up-users-and-cases-in-advanced-ediscovery.md
@@ -576,9 +574,9 @@
           items:
             - name: 검색 결과 준비
               href: prepare-search-results-for-advanced-ediscovery.md
-            - name: 데이터를 사례에 로드
+            - name: 사례로 데이터 로드
               href: prepare-data-for-advanced-ediscovery.md
-            - name: 비 Office 365 콘텐츠를 사례에 가져오기
+            - name: 비 Office 365 콘텐츠를 사례로 가져오기
               href: import-non-office-365-data-into-advanced-ediscovery.md
         - name: 사례 데이터 처리
           href: run-the-process-module-in-advanced-ediscovery.md
@@ -628,7 +626,7 @@
               href: export-report-fields-in-advanced-ediscovery.md
             - name: 일괄 처리 기록 보기 및 이전 결과 내보내기
               href: view-batch-history-and-export-past-results.md
-        - name: 고급 eDiscovery 구성 (클래식)
+        - name: Advanced eDiscovery(클래식) 구성
           items:
             - name: 사례 및 조직 설정 구성
               href: define-case-and-tenant-settings-in-advanced-ediscovery.md
@@ -638,13 +636,13 @@
               href: set-ignore-text-in-advanced-ediscovery.md
             - name: 강조 표시된 키워드 및 기타 관련성 설정 구성
               href: define-highlighted-keywords-and-advanced-options.md
-        - name: 고급 eDiscovery (클래식) 참조
+        - name: Advanced eDiscovery(클래식) 참조
           items:
-            - name: 클래식 (Advanced eDiscovery) 유틸리티 사용
+            - name: Advanced eDiscovery(클래식) 유틸리티 사용
               href: use-advanced-ediscovery-utilities.md
             - name: 보고서 실행
               href: run-reports-in-advanced-ediscovery.md
-    - name: 레거시 eDiscovery 도구 만료
+    - name: eDiscovery 도구의 사용 중지
       href: legacy-ediscovery-retirement.md
 - name: 데이터 조사 관리
   items:
@@ -676,7 +674,7 @@
           href: load-non-office365-data.md
         - name: 데이터를 처리할 때 오류 수정
           href: error-remediation.md
-        - name: Delete items from their original location
+        - name: 원래 위치에서 항목 삭제
           href: delete-items-from-original-locations.md
     - name: 신속한 조사를 위한 분석 실행
       href: run-analytics-to-investigate-faster.md
@@ -715,7 +713,7 @@
       items:
         - name: 릴리스 정보
           href: data-investigations-release-notes.md
-        - name: 데이터 조사에 대 한 제한
+        - name: 데이터 조사의 제한 사항
           href: limits-datainvestigations.md
         - name: 지원되는 파일 형식
           href: supported-filetypes-datainvestigations.md
@@ -725,11 +723,11 @@
           href: manage-jobs.md
 - name: 보존 관리
   items:
-    - name: 사서함에 대 한 보류 유형을 식별 하는 방법
+    - name: 사서함의 보류 유형을 식별하는 방법
       href: identify-a-hold-on-an-exchange-online-mailbox.md
     - name: 소송 보존 만들기
       href: create-a-litigation-hold.md
-    - name: 보류 중인 사서함의 복구할 수 있는 항목 폴더에서 항목 삭제
+    - name: 보류 중인 사서함의 복구 가능한 항목 폴더에서 항목 삭제
       href: delete-items-in-the-recoverable-items-folder-of-mailboxes-on-hold.md
     - name: 보류된 사물함의 복구 가능한 항목 할당량 증가
       href: increase-the-recoverable-quota-for-mailboxes-on-hold.md
@@ -771,24 +769,24 @@
       href: get-started-with-service-trust-portal.md
     - name: 준수 점수 및 준수 관리자
       items:
-        - name: 준수 점수 (미리 보기)
+        - name: 준수 점수(미리 보기)
           href: compliance-score.md
-        - name: 준수 점수 설정 (미리 보기)
+        - name: 준수 점수 설정(미리 보기)
           href: compliance-score-setup.md
-        - name: 규정 준수 점수를 사용한 작업 (미리 보기)
+        - name: 준수 점수 작업(미리 보기)
           href: working-with-compliance-score.md
-        - name: 준수 점수 계산 (미리 보기)
+        - name: 준수 점수 계산(미리 보기)
           href: compliance-score-methodology.md
-        - name: 준수 점수 릴리스 정보 (미리 보기)
+        - name: 준수 점수 릴리스 정보(미리 보기)
           href: compliance-score-release-notes.md
-        - name: 준수 점수 FAQ (미리 보기)
+        - name: 준수 점수 FAQ(미리 보기)
           href: compliance-score-faq.md
-        - name: 준수 관리자 (미리 보기)
+        - name: 규정 준수 관리자(미리 보기)
           href: compliance-manager-overview.md
           items:
-            - name: 준수 관리자 (미리 보기) 릴리스 정보
+            - name: 규정 준수 관리자(미리 보기) 릴리스 정보
               href: compliance-manager-release-notes.md
-            - name: 준수 관리자 사용 (미리 보기)
+            - name: 준수 관리자로 작업하기(미리 보기)
               href: working-with-compliance-manager.md
             - name: 준수 관리자(기본)
               href: meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md
@@ -797,7 +795,7 @@
     - name: GDPR에 대한 Office 365 정보 보호
       href: office-365-information-protection-for-gdpr.md
       items:
-        - name: 개요-GDPR에 대 한 Office 365 보호
+        - name: 개요 - GDPR에 대한 Office 365 보호
           href: office-365-info-protection-for-gdpr-overview.md
         - name: 개인 데이터 검색 및 찾기
           href: search-for-and-find-personal-data.md
@@ -826,7 +824,7 @@
           href: gdpr-for-office-online-server.md
         - name: 온-프레미스 Windows Server 파일 공유
           href: gdpr-for-on-premises-file-shares.md
-    - name: 업계 관련 지침
+    - name: 산업별 지침
       items:
         - name: 금융 서비스 보안 및 규정 준수
           href: ../solutions/financial-services-secure-collaboration.md
@@ -853,7 +851,7 @@
               href: gdpr-arc-azure.md
             - name: Dynamics 365
               href: gdpr-arc-dynamics365.md
-            - name: Microsoft 지원 & 전문 서비스
+            - name: Microsoft 지원 및 전문 서비스
               href: gdpr-arc-prof-services.md
             - name: Office 365
               href: gdpr-arc-office365.md
@@ -865,13 +863,13 @@
               href: gdpr-data-subject-requests.md
             - name: Azure
               href: gdpr-dsr-azure.md
-            - name: Azure DevOps 서비스
+            - name: Azure DevOps Services
               href: gdpr-dsr-vsts.md
             - name: Dynamics 365
               href: gdpr-dsr-dynamics365.md
             - name: Intune
               href: gdpr-dsr-intune.md
-            - name: Microsoft 지원 & 전문 서비스
+            - name: Microsoft 지원 및 전문 서비스
               href: gdpr-dsr-prof-services.md
             - name: Office 365
               href: gdpr-dsr-office365.md
@@ -883,7 +881,7 @@
               href: gdpr-breach-notification.md
             - name: Azure & Dynamics 365
               href: gdpr-breach-azure-dynamics.md
-            - name: Microsoft 지원 & 전문 서비스
+            - name: Microsoft 지원 및 전문 서비스
               href: gdpr-breach-microsoft-support-professional-services.md
             - name: Office 365
               href: gdpr-breach-office365.md
@@ -895,7 +893,7 @@
               href: gdpr-dpia-azure.md
             - name: Dynamics 365
               href: gdpr-dpia-dynamics.md
-            - name: Microsoft 지원 & 전문 서비스
+            - name: Microsoft 지원 및 전문 서비스
               href: gdpr-dpia-prof-services.md
             - name: Office 365
               href: gdpr-dpia-office365.md
@@ -916,11 +914,11 @@
       items:
         - name: CIS Benchmark
           href: offering-cis-benchmark.md
-        - name: CSA-STAR attestation
+        - name: CSA-STAR 증명
           href: offering-csa-star-attestation.md
-        - name: CSA-STAR certification
+        - name: CSA-STAR 인증
           href: offering-csa-star-certification.md
-        - name: CSA-별모양 자체 평가
+        - name: CSA-STAR 자체 평가
           href: offering-csa-star-self-assessment.md
         - name: ISO 20000-1-2011
           href: offering-iso-20000-1-2011.md
@@ -952,7 +950,7 @@
           href: offering-dod-disa-l2-l4-l5.md
         - name: DoE 10 CFR Part 810
           href: offering-doe-10-cfr-part-810.md
-        - name: EAR (미국 수출 관리 규제)
+        - name: EAR(미국 수출 관리 규제)
           href: offering-ear.md
         - name: FedRAMP
           href: offering-fedramp.md
@@ -970,7 +968,7 @@
           href: offering-section-508-vpats.md
     - name: 산업
       items:
-        - name: 교육
+        - name: Education
           items:
             - name: FERPA
               href: offering-ferpa.md
@@ -990,7 +988,7 @@
               href: offering-amf-acpr-france.md
             - name: EBA (유럽 연합)
               href: offering-eba-eu.md
-            - name: FCA (영국)
+            - name: FCA (UK)
               href: offering-fca-uk.md
             - name: FFIEC (미국)
               href: offering-ffiec-us.md
@@ -1018,7 +1016,7 @@
               href: offering-rbi-irdai-india.md
             - name: SEC 17a-4
               href: offering-sec-17a-4.md
-            - name: 초 규정 SCI
+            - name: SEC Regulation SCI
               href: offering-sec-reg-sci.md
             - name: SOC
               href: offering-soc.md
@@ -1070,13 +1068,13 @@
               href: offering-cdsa.md
             - name: CIS Benchmark
               href: offering-cis-benchmark.md
-            - name: CSA-STAR attestation
+            - name: CSA-STAR 증명
               href: offering-csa-star-attestation.md
             - name: DoE 10 CFR Part 810
               href: offering-doe-10-cfr-part-810.md
             - name: DPP (영국)
               href: offering-dpp-uk.md
-            - name: EAR (미국 수출 관리 규제)
+            - name: EAR(미국 수출 관리 규제)
               href: offering-ear.md
             - name: ENISA IAF (유럽 연합)
               href: offering-enisa.md
@@ -1088,7 +1086,7 @@
               href: offering-eu-us-privacy-shield.md
             - name: FACT (영국)
               href: offering-fact-uk.md
-            - name: FCA (영국)
+            - name: FCA (UK)
               href: offering-fca-uk.md
             - name: FFIEC (미국)
               href: offering-ffiec-us.md
