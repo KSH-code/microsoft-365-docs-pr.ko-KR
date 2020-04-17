@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
 description: '보안 및 준수 센터를 사용하여 통합 감사 로그를 검색해 Office 365 조직의 사용자 및 관리자 활동을 확인합니다. '
-ms.openlocfilehash: 9fb37cba0e7e9774b4de5c559b7bc0636b599776
-ms.sourcegitcommit: 311bbd6f168225ede166d29696126a1e003eee0f
+ms.openlocfilehash: f1fcfd883cb8becea861b6fcebcf59d61b104750
+ms.sourcegitcommit: 09c3e2f3129c5e43cd8420cccd0676ff3a29a355
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43151443"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "43521494"
 ---
 # <a name="search-the-audit-log-in-the-security--compliance-center"></a>보안 및 준수 센터에서 감사 로그 검색
 
@@ -694,7 +694,7 @@ Office 365에서 감사 로그를 검색하는 과정은 다음과 같습니다.
 |검토 집합 검색 삭제됨|DeleteWorkingSetSearch|사용자가 검토 집합에서 검색 쿼리를 삭제했습니다.|
 |태그 삭제됨|DeleteTag|사용자가 검토 집합의 태그 그룹을 삭제었습니다.|
 |문서 다운로드됨|DownloadDocument|사용자가 검토 집합에서 문서를 다운로드했습니다.|
-|태그 편집됨|DownloadDocument|사용자가 검토 집합에서 태그를 변경했습니다.|
+|태그 편집됨|UpdateTag|사용자가 검토 집합에서 태그를 변경했습니다.|
 |검토 집합에서 문서 내보냄|ExportJob|사용자가 검토 집합에서 문서를 내보냈습니다.|
 |사례 설정 수정됨|UpdateCaseSettings|사용자가 사례에 대한 설정을 수정했습니다. 사례 설정에는 사례 정보, 액세스 권한 및 검색 및 분석 동작을 제어하는 설정이 포함됩니다.|
 |검토 집합 검색 수정됨|UpdateWorkingSetSearch|사용자가 검토 집합에서 검색 쿼리를 편집했습니다.|
@@ -891,9 +891,9 @@ Forms는 양식을 설계할 때와 응답을 분석할 때 공동 작업을 지
 |:-----|:-----|:-----|
 |사이트에 적용된 민감도 레이블|SensitivityLabelApplied|민감도 레이블이 SharePoint 또는 Teams 사이트에 적용됩니다.|
 |사이트에서 제거된 민감도 레이블|SensitivityLabelRemoved|민감도 레이블이 SharePoint 또는 Teams 사이트에서 제거되었습니다.|
-|파일에 적용된 민감도 레이블|FileSensitivityLabelApplied|웹에서 Office를 사용하여 민감도 레이블을 문서에 적용했습니다.|
-|파일에 변경된 민감도 레이블을 적용|FileSensitivityLabelChanged|웹에서 Office를 사용하여 다른 민감도 레이블을 문서에 적용했습니다.|
-|파일에서 제거된 민감도 레이블|FileSensitivityLabelRemoved|웹에서 Office를 사용하여 민감도 레이블을 문서에서 제거했습니다.|
+|파일에 적용된 민감도 레이블|FileSensitivityLabelApplied|웹용 Office 또는 자동 레이블 정책을 사용하여 민감도 레이블을 문서에 적용했습니다.|
+|파일에 변경된 민감도 레이블을 적용|FileSensitivityLabelChanged|웹용 Office 또는 자동 레이블 정책을 사용하여 다른 민감도 레이블을 문서에 적용했습니다.|
+|파일에서 제거된 민감도 레이블|FileSensitivityLabelRemoved|웹용 Office 또는 자동 레이블 정책을 사용하여 민감도 레이블을 문서에서 제거했습니다.|
 ||||
 
 ### <a name="exchange-admin-audit-log"></a>Exchange 관리자 감사 로그

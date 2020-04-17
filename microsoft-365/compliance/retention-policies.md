@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 정책을 사용하여 콘텐츠를 보존할지, 삭제할지, 아니면 보존한 다음 삭제할지 사전에 결정할 수 있습니다. 조직 전체에 또는 특정 위치 또는 사용자에게 하나의 정책을 적용할 수 있고, 모든 콘텐츠에 또는 특정 조건에 부합하는 콘텐츠에 정책을 적용할 수 있습니다.
-ms.openlocfilehash: d06ad19ab247384f800b3b38c561ad8eb33d4066
-ms.sourcegitcommit: 9cea48e1b26e0465c00f8d053080cba1143970c2
+ms.openlocfilehash: df2e89e26de2baab21cb334c1852cb261e1b8c98
+ms.sourcegitcommit: 09c3e2f3129c5e43cd8420cccd0676ff3a29a355
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "43237645"
+ms.lasthandoff: 04/15/2020
+ms.locfileid: "43521514"
 ---
 # <a name="overview-of-retention-policies"></a>보존 정책 개요
 
@@ -261,13 +261,17 @@ SharePoint 사이트 모음의 경우, 사용자가 콘텐츠를 편집하거나
 
 특정 사용자, Office 365 그룹 또는 사이트에 보존 정책을 적용할 수도 있습니다. 이를 위해 해당 위치의 **상태**를 설정으로 전환한 후 링크를 사용하여 특정 사용자, Office 365 그룹 또는 사이트를 포함하거나 제외합니다. 
   
-그러나 1,000명이 넘는 특정 위치를 포함하거나 제외하는 보존 정책에는 다음과 같은 제한이 적용됩니다.
+그러나 1,000개가 넘는 특정 위치를 포함하거나 제외하는 보존 정책을 구성할 때는 다음과 같은 제한이 적용됩니다.
   
-- 이러한 보존 정책에는 1,000개 이하의 사서함과 100개 이하의 사이트 모음을 포함할 수 있습니다.
-    
+- 보존 정책의 최대 수:
+    - 1,000개의 사서함
+    - 1,000개의 Office 365 그룹
+    - Teams 비공개 채팅에 참여하는 1,000명의 사용자
+    - 100개의 사이트(OneDrive 또는 SharePoint)
+
 - 테넌트에는 10,000개 이하의 보존 정책이 포함될 수 있습니다.
     
-이러한 제한이 있지만, 조직 전체 정책이나 전체 위치에 적용되는 정책을 적용 하면 이러한 제한을 극복할 수 있습니다.
+이러한 제한이 있지만, 조직 전체 정책이나 전체 위치에 적용되는 정책을 적용하여 이러한 제한을 피할 수 있습니다.
   
 ### <a name="skype-locations"></a>Skype 위치
 

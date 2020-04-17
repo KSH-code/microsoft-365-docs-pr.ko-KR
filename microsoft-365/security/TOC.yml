@@ -283,26 +283,29 @@
                   href: ./office-365-security/safety-tips-in-office-365.md
                 - name: 목록 해제 포털을 사용하여 Office 365 수신 거부 목록에서 본인 제거
                   href: ./office-365-security/use-the-delist-portal-to-remove-yourself-from-the-office-365-blocked-senders-lis.md
-            - name: Office 365의 피싱 방지 보호 기능
+            - name: 피싱 방지 보호 기능
               href: ./office-365-security/anti-phishing-protection.md
               items:
+                - name: 피싱 방지 정책
+                  href: ./office-365-security/set-up-anti-phishing-policies.md
+                  items:
+                    - name: EOP에서 기본 피싱 방지 정책을 구성
+                      href: ./office-365-security/configure-anti-phishing-policies-eop.md
+                    - name: ATP 피싱 방지 정책 구성
+                      href: ./office-365-security/configure-atp-anti-phishing-policies.md
+                - name: 주소의 유효성을 검사하여 Office 365에서 피싱을 방지하는 방법
+                  href: ./office-365-security/how-office-365-validates-the-from-address.md
                 - name: 피싱 방지 보호 기능 조정
                   href: ./office-365-security/tuning-anti-phishing.md
-                - name: Office 365의 ATP 피싱 방지 기능
-                  href: ./office-365-security/atp-anti-phishing.md
-                - name: 피싱 방지 및 ATP 피싱 방지 정책 설정
-                  href: ./office-365-security/set-up-anti-phishing-policies.md
-                - name: '보낸 사람: 주소의 유효성을 검사하여 Office 365에서 피싱을 방지하는 방법'
-                  href: ./office-365-security/how-office-365-validates-the-from-address.md
-            - name: Office 365의 스푸핑 방지 보호 기능
+            - name: 스푸핑 방지 보호 기능
               href: ./office-365-security/anti-spoofing-protection.md
               items:
-                - name: 스푸핑 인텔리전스에 대해 자세히 알아보기
+                - name: 스푸핑 방지 보호 기능 FAQ
+                  href: ./office-365-security/anti-spoofing-protection-faq.md
+                - name: 스푸핑 인텔리전스 구성
                   href: ./office-365-security/learn-about-spoof-intelligence.md
-                - name: 스푸프 정보 이해를 위한 검토회
+                - name: 연습 - ATP 스푸핑 인텔리전스 인사이트
                   href: ./office-365-security/walkthrough-spoof-intelligence-insight.md
-                - name: Outlook.com 및 웹용 Outlook에서 의심스러운 메시지 식별
-                  href: ./office-365-security/unverified-sender-feature.md
             - name: 격리
               href: ./office-365-security/quarantine-email-messages.md
               items:
@@ -314,7 +317,8 @@
                   href: ./office-365-security/find-and-release-quarantined-messages-as-a-user.md
                 - name: 최종 사용자 스팸 알림
                   href: ./office-365-security/use-spam-notifications-to-release-and-report-quarantined-messages.md
-            - name: 전자 메일 유효성 검사 및 인증
+            - name: 전자 메일 인증
+              href: ./office-365-security/email-validation-and-authentication.md
               items:
                 - name: Office 365에서 SPF를 사용해 스푸핑을 차단하는 방법
                   href: ./office-365-security/how-office-365-uses-spf-to-prevent-spoofing.md
