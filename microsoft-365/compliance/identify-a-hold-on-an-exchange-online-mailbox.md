@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 6057daa8-6372-4e77-a636-7ea599a76128
 description: Office 365 사서함에 저장할 수 있는 다양 한 유형의 보존을 식별 하는 방법에 대해 알아봅니다. 이러한 보류 유형에는 소송 보존, eDiscovery 보류 및 Office 365 보존 정책이 포함 됩니다. 사용자가 조직 차원의 보존 정책에서 제외 되었는지 여부도 확인할 수 있습니다.
-ms.openlocfilehash: 29d212f0ba16c7ae414c3a47707cfcd0f95420c7
-ms.sourcegitcommit: 7646e2d742d1b2fad085a00200a2a10461dd4bac
+ms.openlocfilehash: 4063128e368b19b156fbf42173fb2d4725c3e7ab
+ms.sourcegitcommit: bd51f626f0c7788c2a3cf89deee25264659aebd5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/26/2020
-ms.locfileid: "42978228"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "43551139"
 ---
 # <a name="how-to-identify-the-type-of-hold-placed-on-an-exchange-online-mailbox"></a>Exchange Online 사서함의 보류 유형을 식별하는 방법
 
@@ -30,7 +30,7 @@ Office 365에서는 조직에서 사서함 콘텐츠가 영구적으로 삭제 �
 
 - ** [소송 보존](create-a-litigation-hold.md):** Exchange Online의 사용자 사서함에 적용 되는 보류입니다.
 
-- ** [eDiscovery 보류](ediscovery-cases.md#step-4-place-content-locations-on-hold):** 보안 및 준수 센터에서 eDiscovery 사례와 관련 된 보류입니다. eDiscovery 보류는 사용자 사서함과 Office 365 그룹 및 Microsoft 팀의 해당 사서함에 적용할 수 있습니다.
+- ** [eDiscovery 보류](create-ediscovery-holds.md):** 보안 및 준수 센터에서 eDiscovery 사례와 관련 된 보류입니다. eDiscovery 보류는 사용자 사서함과 Office 365 그룹 및 Microsoft 팀의 해당 사서함에 적용할 수 있습니다.
 
 - 원본 ** [위치 유지](https://docs.microsoft.com/Exchange/security-and-compliance/create-or-remove-in-place-holds):** Exchange Online의 Exchange 관리 센터에서 원본 위치 eDiscovery & 유지 도구를 사용 하 여 사용자 사서함에 적용 되는 보류입니다.
 
@@ -55,7 +55,7 @@ Exchange Online PowerShell에서 다음 두 cmdlet을 실행 하 여 사서함�
 
 - **Set-organizationconfig:** 이 cmdlet을 사용 하 여 조직 전체 보존 정책의 Guid를 가져올 수 있습니다.
 
-Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps)을 참조하세요.
+Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결하기](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps)를 참조하세요.
 
 ### <a name="get-mailbox"></a>Get-Mailbox
 

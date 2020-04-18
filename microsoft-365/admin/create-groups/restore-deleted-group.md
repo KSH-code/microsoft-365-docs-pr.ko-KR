@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: b7c66b59-657a-4e1a-8aa0-8163b1f4eb54
 description: 삭제 된 Office 365 그룹을 복원 하는 방법을 알아봅니다.
-ms.openlocfilehash: 31d6481f87d7da219e042eefa8f004425caee133
-ms.sourcegitcommit: 1883a103449d7b03d482228bd9ef39a7caf306cf
+ms.openlocfilehash: 2efd8c35286d224c6a3ed185043c82ab4b8e954e
+ms.sourcegitcommit: 0da80ba7b504841c502ab06fea659a985c06fe8f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/10/2020
-ms.locfileid: "42583165"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "43547535"
 ---
 # <a name="restore-a-deleted-office-365-group"></a>삭제된 Office 365 그룹 복원
 
@@ -61,7 +61,7 @@ Office 365 그룹의 소유자 인 경우 다음 단계를 수행 하 여 Outloo
 
 전역 관리자 또는 그룹 관리자 인 경우 Microsoft 365 관리 센터에서 삭제 된 그룹을 복원할 수 있습니다.
 
-1. [https://admin.microsoft.com](Go to the admin center at https://admin.microsoft.com) 의 관리 센터로 이동합니다.
+1. [관리 센터로](https://admin.microsoft.com)이동 합니다.
 2. **그룹**을 확장 한 다음 **삭제 된 그룹**을 클릭 합니다.
 3. 복원할 그룹을 선택한 다음 **그룹 복원을**클릭 합니다.
   

@@ -21,12 +21,12 @@ search.appverid:
 - MOE150
 ms.assetid: 4c46c8cb-17d0-44b5-9776-005fced8e618
 description: Office 365 그룹을 만들 수 있는 사용자를 제어 하는 방법을 알아봅니다.
-ms.openlocfilehash: 9016b96821dd9d40a0fb65574ce96d7badd0c2bd
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+ms.openlocfilehash: d31690cb6438c6563b01e0597f7f2b1ff96e3b9a
+ms.sourcegitcommit: 0da80ba7b504841c502ab06fea659a985c06fe8f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43212084"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "43547589"
 ---
 # <a name="manage-who-can-create-office-365-groups"></a>Office 365 그룹을 만들 수 있는 사용자 관리
 
@@ -80,6 +80,9 @@ ms.locfileid: "43212084"
 - 이러한 그룹 만들기 설정을 구성 하는 관리자
 - 그룹을 만들 수 있는 보안 그룹의 구성원
 
+> [!NOTE]
+> Azure 라이선스를 할당 하는 방법에 대 한 자세한 내용은 [Azure Active Directory 포털에서 라이선스 할당 또는 제거](https://docs.microsoft.com/azure/active-directory/fundamentals/license-users-groups) 를 참조 하세요.
+
 다음 사용자는 Azure AD Premium 또는 Azure AD Basic .EDU 라이선스를 할당할 필요가 없습니다.
 
 - Office 365 그룹의 구성원이 고 다른 그룹을 만들 수 없는 사용자입니다.
@@ -117,7 +120,7 @@ ms.locfileid: "43212084"
 
 아래 스크립트를 메모장과 같은 텍스트 편집기 또는 [Windows POWERSHELL ISE](https://docs.microsoft.com/powershell/scripting/components/ise/introducing-the-windows-powershell-ise)에 복사 합니다.
 
-* \<SecurityGroupName\> * 을 만든 보안 그룹의 이름으로 바꿉니다. 예시:
+* \<SecurityGroupName\> * 을 만든 보안 그룹의 이름으로 바꿉니다. 예시는 다음과 같습니다:
 
 `$GroupName = "Group Creators"`
 

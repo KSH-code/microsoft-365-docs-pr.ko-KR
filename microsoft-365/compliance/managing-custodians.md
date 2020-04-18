@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: 고급 eDiscovery의 custodian 관리 도구를 사용 하면 법적 사례에 관심이 있는 사용자와 연결 된 데이터를 식별, 보존 및 수집 하는 방법에 대 한 워크플로를 관리할 수 있습니다.
-ms.openlocfilehash: 7d8ac1c67b4ddc3395bccb5ab699ce7df63f331d
-ms.sourcegitcommit: 9a4084ce2b80bac883412e0ec956b6c0cc18d0f5
+ms.openlocfilehash: fbd348c842cb3c4bb7284c14ae2504b83fd0b117
+ms.sourcegitcommit: bd51f626f0c7788c2a3cf89deee25264659aebd5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/03/2020
-ms.locfileid: "42400915"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "43551246"
 ---
 # <a name="work-with-custodians-in-advanced-ediscovery"></a>Advanced eDiscovery에서 custodians을 사용 하 여 작업
 
@@ -38,7 +38,3 @@ Custodians 사용에 대 한 자세한 내용은 다음 항목을 참조 하십�
 - [사례에서 custodians 관리](manage-new-custodians.md)
 
 - [보유자 활동 보기](view-custodian-activity.md)
-
-## <a name="advanced-ediscovery-permissions"></a>고급 eDiscovery 권한
-
-고급 eDiscovery에서 기본 제공 eDiscovery 관리자 역할 그룹을 사용 하 여 올바른 investigators에 필요한 사용 권한을 할당할 수 있으므로 고급 eDiscovery에서 종단 간 워크플로를 관리할 수 있습니다. 또는 고급 eDiscovery에서 특정 작업을 수행 하는 데 필요한 역할의 하위 집합을 사용 하 여 사용자 지정 역할 그룹을 만들 수 있습니다. EDiscovery 관련 역할에 대 한 자세한 내용은 [Security & 준수 센터에서 ediscovery 사용 권한 할당](assign-ediscovery-permissions.md)을 참조 하십시오.

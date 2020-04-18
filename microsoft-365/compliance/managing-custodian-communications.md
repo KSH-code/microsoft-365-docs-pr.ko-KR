@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: 고급 eDiscovery를 사용 하면 법적 조사에 custodians 알리는 법적 보존 알림 워크플로를 쉽게 관리할 수 있습니다.
-ms.openlocfilehash: 3e9fb2bc67fc5eac181afab8ba5c78c4236fb980
-ms.sourcegitcommit: 6d672eb8287526a9db90df5fa85bc4984a7047d1
+ms.openlocfilehash: 28b719a83cbc1608ad5468e401a8b7946cb8da5f
+ms.sourcegitcommit: bd51f626f0c7788c2a3cf89deee25264659aebd5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "42280126"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "43551247"
 ---
 # <a name="work-with-communications-in-advanced-ediscovery"></a>Advanced eDiscovery에서 통신 사용
 
@@ -49,22 +49,12 @@ ms.locfileid: "42280126"
 
    - **에스컬레이션:** 일정 기간 동안 미리 알림 집합에도 불구 하 고 custodian 응답 하지 않는 경우 법률 팀은 응답성이 없는 워크플로를 설정 하 여 응답 하지 않는 custodians 및 관리자에 게 알릴 수 있습니다.
 
-## <a name="role-groups-and-permissions"></a>역할 그룹 및 사용 권한
+Custodian 통신 프로세스를 관리 하는 방법에 대 한 자세한 내용은 다음 항목을 참조 하십시오. 
 
-법률 팀은 보안 & 준수 센터에서 eDiscovery 관련 역할 그룹 및 사용 권한을 사용 하 여 서비스 케이스 활동을 제어 하 고 분리할 수 있습니다. 
+- [법적 보존 알림 만들기](create-hold-notification.md)
 
-법적 보존 알림을 만들고 관리 하려면 사용자가 eDiscovery 관리자 역할 그룹의 구성원 이어야 합니다. 이 역할 그룹의 구성원은 고급 eDiscovery 사례를 만들고 관리할 수 있습니다. 구성원을 추가 및 제거 하 고, custodians 및 콘텐츠 위치를 보류 상태로 설정 하 고, 사례에 연결 된 검색을 관리 하 고, 대/소문자를 구분 하 여 검색 결과를 추가 하 고, 검토 집합의 데이터를 분석 하 고, 고급에서 내보내고 다운로드할 수 있습니다. eDiscovery 사례 
+- [커뮤니케이션 편집기 사용](using-communications-editor.md)
 
-EDiscovery 관리자 역할 그룹에는 두 개의 하위 그룹이 있습니다. 이러한 하위 그룹 간의 차이는 범위를 기준으로 합니다.
+- [보류 알림 관리](manage-hold-notification.md)
 
-- **EDiscovery 관리자:** 사용자가 만들거나 구성원으로 속해 있는 고급 eDiscovery 사례를 보고 관리할 수 있습니다. 다른 eDiscovery 관리자가 사례를 만들지만 두 번째 eDiscovery 관리자를 해당 사례 구성원으로 추가 하지 않는 경우 두 번째 eDiscovery 관리자는 보안 & 준수 센터의 고급 eDiscovery 페이지에서 사례를 보거나 열 수 없습니다.
-
-- **EDiscovery 관리자:** EDiscovery 관리자가 수행할 수 있는 모든 사례 관리 작업을 수행할 수 있습니다. 또한 eDiscovery 관리자(Administrator)는 다음과 같은 작업을 수행할 수 있습니다.
-
-  - 고급 eDiscovery 페이지에 나열 된 모든 사례를 봅니다.
-  
-  - 조직의 대/소문자를 구성원으로 추가한 후 조직에서 모든 사례를 관리 합니다.
-
-  - 조직의 모든 경우에 대해 고급 eDiscovery 사례 데이터에 액세스 하 고 내보냅니다.
-
-자세한 내용은 [Security & 준수 센터에서 eDiscovery 사용 권한 할당](assign-ediscovery-permissions.md)을 참조 하십시오.
+- [보류 알림 승인](acknowledge-hold-notification.md)

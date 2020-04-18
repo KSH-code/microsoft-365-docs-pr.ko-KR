@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Office 365 그룹에 대해 알아봅니다.
-ms.openlocfilehash: f5a0b72737a360a4bfe4cdd8fee4a08b7a7ff236
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+ms.openlocfilehash: c45c78a26d421c5c16e6ca0769e8adc7ba6e79a8
+ms.sourcegitcommit: 0da80ba7b504841c502ab06fea659a985c06fe8f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43212536"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "43547547"
 ---
 # <a name="overview-of-office-365-groups-for-administrators"></a>관리자를 위한 Office 365 그룹 개요
 
@@ -33,6 +33,7 @@ Office 365 그룹은 모든 팀 작업를 Microsoft 365에서 구동 하는 기�
 - 공유 일정
 - SharePoint 문서 라이브러리
 - Planner
+- OneNote 전자 필기장
 - Power BI
 - Yammer (그룹이 Yammer에서 만들어진 경우)
 - 팀 (그룹이 팀에서 만든 경우)

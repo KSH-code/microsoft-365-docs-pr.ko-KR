@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: 이 문서에서는 Microsoft 365에서 고급 eDiscovery 사용을 시작 하는 방법을 설명 합니다. 몇 가지 빠른 단계를 완료 한 후에는 고급 eDiscovery 도구를 사용할 준비가 된 것입니다. 첫 번째 단계는 사례를 만든 다음 고급 eDiscovery 기능 및 기능 사용을 시작 하는 것입니다.
-ms.openlocfilehash: a43bfd94fcf0a2563a184a3a87d96c64bd8eb619
-ms.sourcegitcommit: 8a88b7526e6a3a907f33a8567e0d25b74fe60d80
+ms.openlocfilehash: 4aae93e250365fc7225fe2f21fe25cd01e5f8cc0
+ms.sourcegitcommit: bd51f626f0c7788c2a3cf89deee25264659aebd5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43204048"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "43551129"
 ---
 # <a name="get-started-with-advanced-ediscovery"></a>Advanced eDiscovery 시작
 
@@ -90,7 +90,7 @@ EDiscovery 관리자 역할 그룹에는 두 개의 하위 그룹이 있습니�
 
   액세스 범위가 광범위 하기 때문에 조직은 eDiscovery Administrators 그룹의 구성원 인 관리자를 몇 명만 가져야 합니다.
 
-Ediscovery 권한 및 eDiscovery 관리자 역할 그룹에 할당 된 각 역할에 대 한 설명에 대 한 자세한 내용은 [Security & 준수 센터에서 ediscovery 사용 권한 할당](assign-ediscovery-permissions.md)을 참조 하십시오.
+Ediscovery 권한 및 eDiscovery 관리자 역할 그룹에 할당 된 각 역할에 대 한 설명에 대 한 자세한 내용은 [ediscovery 권한 할당](assign-ediscovery-permissions.md)을 참조 하십시오.
 
 ## <a name="step-3-configure-global-settings-for-advanced-ediscovery"></a>3 단계: 고급 eDiscovery에 대 한 전역 설정 구성
 
@@ -107,7 +107,7 @@ Ediscovery 권한 및 eDiscovery 관리자 역할 그룹에 할당 된 각 역�
 
 1. [https://compliance.microsoft.com](https://compliance.microsoft.com) 적절 한 eDiscovery 권한이 할당 된 사용자 계정에 대 한 자격 증명을 사용 하 여으로 이동 하 여 로그인 합니다. 또한 조직 관리 역할 그룹의 구성원은 고급 eDiscovery 사례를 만들 수 있습니다.
 
-2. Microsoft 365 준수 센터의 왼쪽에서 **모두 표시**를 클릭 한 다음 **eDiscovery > 고급**을 클릭 합니다.
+2. Microsoft 365 준수 센터의 왼쪽 탐색 창에서 **모두 표시**를 클릭 한 다음 **eDiscovery > 고급**을 클릭 합니다.
 
 3. **고급 eDiscovery** 페이지에서 **사례** 탭을 클릭 한 다음 **사례 만들기**를 클릭 합니다.
 

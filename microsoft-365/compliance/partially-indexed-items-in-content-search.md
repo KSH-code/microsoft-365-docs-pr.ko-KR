@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 ms.assetid: d1691de4-ca0d-446f-a0d0-373a4fc8487b
 description: '보안 & 준수 센터를 통해 실행 되는 콘텐츠 검색에 포함할 수 있는 Exchange 및 SharePoint의 인덱싱되지 않은 항목에 대해 알아봅니다. '
-ms.openlocfilehash: fc15a4af41495641882c25b23c1a38459b896696
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 3984a181d16d4cd66fbddacb24cfd7c5e489f4ac
+ms.sourcegitcommit: bd51f626f0c7788c2a3cf89deee25264659aebd5
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597785"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "43551229"
 ---
 # <a name="partially-indexed-items-in-content-search-in-office-365"></a>Office 365의 콘텐츠 검색에서 부분적으로 인덱싱된 항목
 
@@ -57,7 +57,7 @@ Office 365의 보안 & 준수 센터에서 실행 하는 콘텐츠 검색은 검
   
 지원 및 사용 하지 않도록 설정 된 파일 형식 목록은 다음 항목을 참조 하십시오.
   
-- **** - [Exchange 검색을 통해 인덱싱되는 exchange 파일 형식](https://go.microsoft.com/fwlink/p/?LinkID=386618)
+- **Exchange** - [Exchange 검색을 통해 인덱싱되는 exchange 파일 형식](https://go.microsoft.com/fwlink/p/?LinkID=386618)
     
 - **Exchange** - [가져오기-searchdocumentformat](https://go.microsoft.com/fwlink/p/?LinkID=724037)
     
@@ -106,7 +106,7 @@ Office 365의 보안 & 준수 센터에서 실행 하는 콘텐츠 검색은 검
   
 마찬가지로 검색 결과를 내보낼 때 부분적으로 인덱싱된 항목을 포함 하도록 선택 하는 경우에는 검색 결과에서 제외 된 부분적으로 인덱싱된 항목은 내보내지 않습니다.
   
-EDiscovery 사례와 연결 된 쿼리 기반 보존을 만드는 경우에는이 규칙이 적용 되지 않습니다. 쿼리 기반 보존을 만드는 경우에는 모든 부분적으로 인덱싱된 항목이 보류 됩니다. 여기에는 검색 쿼리 조건과 일치 하지 않는 부분적으로 인덱싱된 항목 및 날짜 범위 조건 외부에 있을 수 있는 부분적으로 인덱싱된 항목이 포함 됩니다. 쿼리 기반 보류를 만드는 방법에 대 한 자세한 내용은 [eDiscovery 사례의](ediscovery-cases.md#step-4-place-content-locations-on-hold)4 단계를 참조 하십시오.
+EDiscovery 사례와 연결 된 쿼리 기반 보존을 만드는 경우에는이 규칙이 적용 되지 않습니다. 쿼리 기반 eDiscovery 보존을 만드는 경우에는 모든 부분적으로 인덱싱된 항목이 보류 됩니다. 여기에는 검색 쿼리 조건과 일치 하지 않는 부분적으로 인덱싱된 항목 및 날짜 범위 조건 외부에 있을 수 있는 부분적으로 인덱싱된 항목이 포함 됩니다. 쿼리 기반 eDiscovery 보존을 만드는 방법에 대 한 자세한 내용은 [ediscovery 보류 만들기](create-ediscovery-holds.md)를 참조 하십시오.
   
 ## <a name="indexing-limits-for-messages-in-content-search"></a>콘텐츠 검색의 메시지에 대 한 인덱싱 제한
 
@@ -126,24 +126,22 @@ SharePoint 문서에 대 한 인덱싱 제한 목록은 [Sharepoint Online의 �
 |최대 주석 토큰  <br/> |200만  <br/> |전자 메일 메시지가 인덱싱되는 경우 각 단어에 해당 단어의 인덱싱 방법을 지정 하는 다양 한 처리 명령으로 주석이 추가 됩니다. 각 처리 명령 집합을 주석 토큰 이라고 합니다. Office 365에서 서비스 품질을 유지 관리 하기 위해 전자 메일 메시지에 대 한 200만 주석 토큰의 제한이 있습니다.  <br/> |
 |인덱스의 최대 본문 크기  <br/> |6700만 자  <br/> |전자 메일 메시지의 본문 및 모든 첨부 파일의 총 문자 수입니다. 전자 메일 메시지가 인덱싱되는 경우 메시지 본문 및 모든 첨부 파일의 모든 텍스트가 단일 문자열로 연결 됩니다. 인덱싱된이 문자열의 최대 크기는 6700만 자입니다.  <br/> |
 |본문의 최대 고유 토큰  <br/> |1,000,000  <br/> |앞에서 설명한 것 처럼 토큰은 콘텐츠에서 텍스트를 추출한 후 문장 부호와 공백을 제거한 다음 인덱스에 저장 되는 단어 (토큰 이라고 함)로 나누는 결과입니다. 예를 들어 구문 `"cat, mouse, bird, dog, dog"` 에는 5 개의 토큰이 포함 됩니다. 그러나 이러한 토큰 중 4 개는 유일 합니다. 인덱스에서 임의 토큰을 사용 하 여 인덱스가 너무 커지지 않도록 하는 전자 메일 메시지당 고유 토큰은 100만 개를 넘을 수 없습니다.  <br/> |
-   
 
-  
 ## <a name="more-information-about-partially-indexed-items"></a>부분적으로 인덱싱된 항목에 대 한 추가 정보
 
 - 앞에서 설명한 것 처럼 메시지와 문서 속성 및 해당 메타 데이터가 인덱싱되 므로 인덱싱된 메타 데이터에 키워드가 있으면 키워드 검색 결과를 반환할 수 있습니다. 그러나 키워드는 지원 되지 않는 파일 형식이 포함 된 항목의 콘텐츠에만 표시 되는 경우 동일한 항목을 반환 하지 않을 수 있습니다. 이 경우 항목은 부분적으로 인덱싱된 항목으로 반환 됩니다.
-    
+
 - 부분적으로 인덱싱된 항목이 검색 쿼리 조건을 충족 하는 검색 결과에 포함 되어 있는 경우 해당 항목을 제외 하 고는 예상 검색 통계에 부분적으로 인덱싱된 항목으로 포함 되지 않습니다. 또한 검색 결과를 내보낼 때 부분적으로 인덱싱된 항목에는 포함 되지 않습니다.
-    
+
 - 인덱싱을 위해 파일 형식을 지원 하 고 인덱싱되 더라도 파일을 부분적으로 인덱싱된 항목으로 반환 하는 인덱싱 또는 검색 오류가 발생할 수 있습니다. 예를 들어 매우 큰 Excel 파일 검색 (처음 4mb는 인덱싱되어 있기 때문에 부분적으로) 되지만 파일 크기 제한이 초과 되어 오류가 발생 하는 것은 실패 합니다. 이 경우에는 동일한 파일이 검색 결과와 함께 부분적으로 인덱싱된 항목으로 반환 될 수 있습니다.
-    
+
 - Microsoft 기술로 암호화 된 첨부 파일은 인덱싱되 고 검색할 수 있습니다. 타사 기술을 사용 하 여 암호화 된 파일은 부분적으로 인덱싱됩니다.
-    
+
 - S/MIME으로 암호화 된 전자 메일 메시지는 부분적으로 인덱싱됩니다. 여기에는 암호화된 메시지가 포함됩니다(첨부 파일 포함 여부는 관계없음).
-    
+
 - IRM (정보 권한 관리)을 사용 하 여 보호 된 메시지는 인덱싱되 며 검색 쿼리와 일치 하는 경우 검색 결과에 포함 됩니다.
 
 ## <a name="see-also"></a>참고 항목
 
-[Office 365 eDiscovery에서 부분적으로 인덱싱된 항목 조사](investigating-partially-indexed-items-in-ediscovery.md)
+[EDiscovery에서 부분적으로 인덱싱된 항목 조사](investigating-partially-indexed-items-in-ediscovery.md)
 

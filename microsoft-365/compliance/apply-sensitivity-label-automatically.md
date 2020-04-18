@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 민감도 레이블을 만들 때 문서 또는 전자 메일에 레이블을 자동으로 할당하거나 사용자에게 권장 레이블을 선택하라는 메시지를 표시할 수 있습니다.
-ms.openlocfilehash: 4ce9e06bb98fb391bb9eb5ffa01491e0c85eba1f
-ms.sourcegitcommit: 4ddbc1c3c29d79d3c4640b7b32f95576784efcca
+ms.openlocfilehash: 8295ec4098e90cac963598ab2d53d47a266b23a7
+ms.sourcegitcommit: bd51f626f0c7788c2a3cf89deee25264659aebd5
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/13/2020
-ms.locfileid: "43240303"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "43551149"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>민감도 레이블을 콘텐츠에 자동으로 적용
 
@@ -58,7 +58,6 @@ ms.locfileid: "43240303"
     
     SharePoint 및 OneDrive에 대한 자동 레이블 지정에만 해당:
     - 테넌트에서 하루 최대 25,000개의 자동 레이블 지정 파일 수(Word, PowerPoint 또는 Excel)
-        - 라이선스가 부여된 사용자당 일일 최대 5개의 자동 레이블 지정 파일 수
     - 모든 정책에서 최대 10개의 사이트 모음 수
     - 모든 테넌트에서 최대 10개의 정책 수
 
