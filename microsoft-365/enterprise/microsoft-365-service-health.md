@@ -16,12 +16,12 @@ ms.collection:
 f1.keywords:
 - NOCSH
 description: Microsoft 365 서비스 상태
-ms.openlocfilehash: 16621bc266684397da5fa92e953067e1e8342b4e
-ms.sourcegitcommit: 8959701cf009068b40da2757b4a61da61d5c166b
+ms.openlocfilehash: c1b938a91b4f0e43e51595ec877e57e7654c5232
+ms.sourcegitcommit: 4988934836eee45c890b9bdd5ef73590656c78ba
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43207166"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "43540812"
 ---
 # <a name="microsoft-365-network-health-status"></a>Microsoft 365 네트워크 상태
 
@@ -37,7 +37,7 @@ Microsoft 글로벌 네트워크 내에서 또는 고객과 Microsoft 네트워�
 
 | 위치 | 문제 유형 | 자세한 정보 |
 | --- | --- | --- |
-| **현재 문제 없음**  |  |  |
+| 멕시코 | ISP 인프라(외부) | 멕시코의 인터넷 서비스 공급자 인프라에서 가용성 문제가 발견되면 Microsoft 365 사용자 환경이 저하될 수 있습니다. 자세한 내용은 서비스 상태 대시 보드에서 확인하세요. |
 
 ## <a name="recommendations-to-improve-network-experience"></a>네트워크 환경을 개선하기 위한 권장 사항
 

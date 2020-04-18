@@ -25,12 +25,12 @@ ms.custom:
 - OKR_SMB_Videos
 ms.assetid: 2ae3ea58-4fce-4592-91d6-46e9ae3ec218
 description: Microsoft 365 관리 센터에서 송장 또는 청구서를 찾으십시오. 청구서 복사본을 저장하고 인쇄할 수도 있습니다.
-ms.openlocfilehash: 5982e65ce9720b85d29126986cfcb8123b4aef5f
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: fa3809e588bca50ae0ffd7e5dfc060bbc91a4bd6
+ms.sourcegitcommit: 4988934836eee45c890b9bdd5ef73590656c78ba
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42255894"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "43540858"
 ---
 # <a name="view-your-bill-or-invoice"></a>청구서 또는 송장 보기
 
@@ -50,10 +50,23 @@ ms.locfileid: "42255894"
   
 ## <a name="view-a-bill-or-invoice"></a>청구서 또는 송장 보기
 
+::: moniker range="o365-worldwide"
 
 1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=848039" target="_blank">청구서 및 결제</a> 페이지로 이동하십시오.
 
-    사용 중인 경우 Office 365 Germany이 <a href="https://go.microsoft.com/fwlink/p/?linkid=848040" target="_blank">청구서 및 결제</a> 페이지로 이동합니다.
+::: moniker-end
+
+::: moniker range="o365-germany"
+
+1. 관리 센터에서 **청구** > <a href="https://go.microsoft.com/fwlink/p/?linkid=848040" target="_blank">청구서 및 결제</a> 페이지로 이동하십시오.
+
+::: moniker-end
+
+::: moniker range="o365-21vianet"
+
+1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2127421" target="_blank">청구서 및 결제</a> 페이지로 이동하십시오.
+
+::: moniker-end
 
 2. 드롭 다운 목록에서 날짜 범위를 선택한 다음 보려는 순서를 선택하십시오.
 

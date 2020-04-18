@@ -17,12 +17,12 @@ ms.assetid: e100fe7c-f2a1-4b7d-9e08-622330b83653
 ms.collection:
 - M365-security-compliance
 description: Office 365 Advanced Threat Protection에는 안전한 첨부 파일, 안전한 링크, 고급 피싱 방지 도구, 보고 도구 및 위협 인텔리전스 기능이 포함되어 있습니다.
-ms.openlocfilehash: aac4cb43386577851d74e424d6435d0c15762bab
-ms.sourcegitcommit: 9afcc63b1a7e73f6946f67207337f10b71a5d7f3
+ms.openlocfilehash: 34dc541087eb05af6b688670112cf02489164fb1
+ms.sourcegitcommit: 9ed3283dd6dd959faeca5c22613f9126261b9590
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "42612608"
+ms.lasthandoff: 04/16/2020
+ms.locfileid: "43528608"
 ---
 # <a name="office-365-advanced-threat-protection"></a>Office 365 Advanced Threat Protection
 
@@ -45,9 +45,11 @@ Office 365 ATP (Advanced Threat Protection)는 전자 메일 메시지, 링크 (
 
 다음 표에는 각 계획에 포함된 항목이 요약되어 있습니다.
 
-|Office 365 ATP 계획 1 |Office 365 ATP 계획 2|
-|---------|---------|
-|구성, 보호 및 검색 기능:<br/>- [안전한 첨부 파일](atp-safe-attachments.md)<br/>- [안전한 링크](atp-safe-links.md)<br/>- [ATP for SharePoint, OneDrive 및 Microsoft Teams](atp-for-spo-odb-and-teams.md)<br/>- [고급 피싱 방지](atp-anti-phishing.md)<br/>- [실시간 탐지](threat-explorer.md)     |Office 365 ATP 계획 1 기능<br/>--- 추가 ---<br/>자동화, 조사, 수정 및 교육 기능:<br/>- [위협 추적기](threat-trackers.md)<br/>- [위협 탐색기](threat-explorer.md)<br/>- [자동화된 조사 및 응답](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air)<br/>- [공격 시뮬레이터](attack-simulator.md)|
+|||
+|---|---|
+|**Office 365 ATP 플랜 1**|**Office 365 ATP 플랜 2**|
+|구성, 보호 및 검색 기능:<br/>• [안전한 첨부 파일](atp-safe-attachments.md)<br/>• [안전한 링크](atp-safe-links.md)<br/>• [SharePoint, OneDrive 및 Microsoft Teams용 ATP](atp-for-spo-odb-and-teams.md)<br/>• [ATP 피싱 방지 보호 기능](set-up-anti-phishing-policies.md#exclusive-settings-in-atp-anti-phishing-policies)<br/>• [실시간 탐지](threat-explorer.md)|Office 365 ATP 계획 1 기능<br/>--- 추가 ---<br/>자동화, 조사, 수정 및 교육 기능:<br/>• [위협 추적기](threat-trackers.md)<br/>• [위협 탐색기](threat-explorer.md)<br/>• [자동 조사 및 응답](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air)<br/>• [공격 시뮬레이터](attack-simulator.md)|
+|
 
 - Office 365 ATP 계획 2는 Office 365 E5, Office 365 A5 및 Microsoft 365 E5에 포함되어 있습니다.
 
@@ -72,7 +74,7 @@ Office 365 ATP를 사용하여 조직의 보안팀이 Office 365 보안 및 준�
 
 - **[SharePoint, OneDrive 및 Microsoft Teams용 ATP](atp-for-spo-odb-and-teams.md)**: 팀 사이트 및 문서 라이브러리에서 악성 파일을 식별하고 차단하여 사용자가 파일을 공동 작업하고 공유할 때 사용자 조직을 보호합니다. 자세한 내용은 [SharePoint, OneDrive 및 Microsoft Teams에 대한 Office 365 ATP 실행](turn-on-atp-for-spo-odb-and-teams.md)을 참조하세요.
 
-- **[ATP 피싱 방지 보호](atp-anti-phishing.md)**: 사용자 및 사용자 지정 도메인으로 위장하려는 시도를 탐지합니다. 피싱 공격을 피하기 위해 기계 학습 모델과 고급 위장 탐지 알고리즘을 적용합니다. 자세한 내용은 [Office 365 ATP 피싱 방지 및 피싱 방지 정책 설정](set-up-anti-phishing-policies.md)을 참조하세요.
+- **[ATP 피싱 방지 보호](set-up-anti-phishing-policies.md#exclusive-settings-in-atp-anti-phishing-policies)**: 사용자와 내부 또는 사용자 지정 도메인으로 위장하려는 시도를 탐지합니다. 피싱 공격을 피하기 위해 기계 학습 모델과 고급 위장 탐지 알고리즘을 적용합니다. 자세한 내용은 [Office 365에서 ATP 피싱 방지 정책 구성](configure-atp-anti-phishing-policies.md)을 참조하세요.
 
 ## <a name="view-office-365-atp-reports"></a>Office 365 ATP 보고서 보기
 
