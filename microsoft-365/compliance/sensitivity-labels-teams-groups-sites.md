@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 민감도 레이블을 사용하여 SharePoint 및 Microsoft Teams 사이트, Office 365 그룹의 콘텐츠 보호
-ms.openlocfilehash: 0ac1d9f605c32664115086057b7c17355d495c00
-ms.sourcegitcommit: e695bcfc69203da5d3d96f3d6a891664a0e27ae2
+ms.openlocfilehash: 4daf35af28e0339c66271c69487d3da9c1e4c91e
+ms.sourcegitcommit: 0da80ba7b504841c502ab06fea659a985c06fe8f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43106136"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "43547600"
 ---
 # <a name="use-sensitivity-labels-to-protect-content-in-microsoft-teams-office-365-groups-and-sharepoint-sites-public-preview"></a>민감도 레이블 사용하요 Microsoft Teams, Office 365 그룹 및 SharePoint 사이트(공개 미리 보기)에서 콘텐츠 보호
 
@@ -54,7 +54,9 @@ Microsoft Teams, Office 365 그룹 및 SharePoint 사이트의 민감도 레이�
 
 1. 이 기능은 Azure AD 기능을 사용하므로 Azure AD 설명서의 지침에 따라 미리보기를 활성화하세요. [Azure Active Directory의 Office 365 그룹에 민감도 레이블 지정(미리보기)](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-assign-sensitivity-labels).
 
-2. **관리자 권한으로 실행** 옵션을 사용하여, PowerShell 세션을 열고 전역 관리자 권한이 있는 회사 또는 학교 계정을 사용하여 보안 & 준수 센터에 연결합니다. 예시:
+2. 이제 [Office 365 보안 및 준수 센터 PowerShell에 연결](/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell)합니다. 
+    
+    예를 들어 관리자로 실행하는 PowerShell 세션에서 전역 관리자 계정으로 로그인합니다.
     
     ```powershell
     Set-ExecutionPolicy RemoteSigned
@@ -62,8 +64,6 @@ Microsoft Teams, Office 365 그룹 및 SharePoint 사이트의 민감도 레이�
     $Session = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://ps.compliance.protection.outlook.com/powershell-liveid/ -Credential $UserCredential -Authentication Basic -AllowRedirection
     Import-PSSession $Session -DisableNameChecking
     ```
-    
-    자세한 지침은 [Office 365 보안 및 규정 준수 센터 PowerShell에 연결](/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell)을 참조하세요.
 
 3. 다음 명령을 실행하여 민감도 레이블을 Azure AD와 동기화하여 이 레이블을 Office 365 그룹과 함께 사용할 수 있도록 합니다.
     
@@ -183,30 +183,44 @@ Microsoft Teams, Office 365 그룹 및 SharePoint 사이트의 민감도 레이�
 
 ## <a name="change-site-and-group-settings-for-a-label"></a>레이블의 사이트 및 그룹 설정 변경
 
-레이블의 사이트 및 그룹 설정을 변경할 때마다 팀, 사이트, 그룹에서 새 설정을 사용할 수 있도록 다음 PowerShell 명령을 실행해야 합니다. 최상의 방법은 여러 팀, 그룹 또는 사이트에 레이블을 적용한 후 레이블의 사이트와 그룹 설정을 변경하지 않는 것입니다.
+레이블의 사이트 및 그룹 설정을 변경할 때마다 팀, 사이트, 그룹에서 새 설정을 사용할 수 있도록 다음 PowerShell 명령을 실행해야 합니다. 최상의 방법은 여러 팀, 그룹 또는 사이트에 민감도 레이블을 적용한 후 레이블의 사이트와 그룹 설정을 변경하지 않는 것입니다.
 
-1. **관리자 권한으로 실행** 옵션으로 연 PowerShell 세션에서 다음 명령을 실행하여 Office 365 보안 & 규정 준수 센터 PowerShell에 연결한 후 민감도 레이블과 해당 Guid 목록을 가져옵니다.
+1. 우선 [Office 365 보안 및 준수 센터 PowerShell에 연결](/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell)합니다. 
+    
+    예를 들어 관리자로 실행하는 PowerShell 세션에서 전역 관리자 계정으로 로그인합니다.
     
     ```powershell
     Set-ExecutionPolicy RemoteSigned
     $UserCredential = Get-Credential
-    $Session = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://ps.compliance.protection.outlook.com/powershell-liveid -Authentication Basic -AllowRedirection -Credential $UserCredential
-    Import-PSSession $Session
+    $Session = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://ps.compliance.protection.outlook.com/powershell-liveid/ -Credential $UserCredential -Authentication Basic -AllowRedirection
+    Import-PSSession $Session -DisableNameChecking
+    ```
+
+2. [Get-Label](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/get-label?view=exchange-ps) cmdlet을 사용하여 민감도 레이블 및 GUID 목록을 가져옵니다.
+    
+    ```powershell
     Get-Label |ft Name, Guid
     ```
 
-2. 사용자가 변경한 레이블의 GUID를 기록해 둡니다.
+3. 사용자가 변경한 레이블의 GUID를 기록해 둡니다.
 
-3. 이제 Exchange Online PowerShell에 연결하여 Get-UnifiedGroup cmdlet을 실행하고 예제 GUID "e48058ea-98e8-4940-8db0-ba1310fd955e" 대신에 레이블 GUID를 지정합니다. 
+4. 이제 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps)합니다.
+    
+    예시:
     
     ```powershell
     $UserCredential = Get-Credential
     $Session = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://outlook.office365.com/powershell-liveid/ -Credential $UserCredential -Authentication Basic -AllowRedirection
     Import-PSSession $Session
+    ```
+    
+5. [Get-UnifiedGroup](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/get-unifiedgroup?view=exchange-ps) cmdlet을 실행하고 예제 GUID "e48058ea-98e8-4940-8db0-ba1310fd955e" 대신에 레이블 GUID를 지정합니다. 
+    
+    ```powershell
     $Groups= Get-UnifiedGroup | Where {$_.SensitivityLabel  -eq "e48058ea-98e8-4940-8db0-ba1310fd955e"}
     ```
 
-4. 각 그룹에 대해 민감도 레이블을 다시 적용하고 예제 GUID "e48058ea-98e8-4940-8db0-ba1310fd955e" 대신에 레이블 GUID를 지정합니다.
+6. 각 그룹에 대해 민감도 레이블을 다시 적용하고 예제 GUID "e48058ea-98e8-4940-8db0-ba1310fd955e" 대신에 레이블 GUID를 지정합니다.
     
     ```powershell
     foreach ($g in $groups)
@@ -240,7 +254,7 @@ Microsoft Teams, Office 365 그룹 및 SharePoint 사이트의 민감도 레이�
 - Exchange 관리 센터
 
 
-## <a name="classic-azure-ad-site-classification"></a>클래식 Azure AD 사이트 분류
+## <a name="classic-azure-ad-group-classification"></a>클래식 Azure AD 그룹 분류
 
 이 미리 보기를 사용하도록 설정하면 Office 365에서 새 그룹 및 SharePoint 사이트에 대해 이전 분류를 더 이상 지원하지 않습니다. 그러나 민감도 레이블을 사용하도록 변환하지 않는 한 기존 그룹 및 사이트는 여전히 이전 분류를 표시합니다. 이전 분류에는 `ClassificationList` 설정에 대한 값을 정의한 Azure AD PowerShell 또는 PnP Core 라이브러리를 통해 설정하는 "최신" 사이트 분류가 포함 됩니다.
 
@@ -250,7 +264,7 @@ Microsoft Teams, Office 365 그룹 및 SharePoint 사이트의 민감도 레이�
    ($setting["ClassificationList"])
 ```
 
-이전 분류 방법에 대한 자세한 내용은 [SharePoint "최신" 사이트 분류](https://docs.microsoft.com/sharepoint/dev/solution-guidance/modern-experience-site-classification)를 참조하세요.
+SharePoint에 이전 그룹 분류를 사용하는 방법에 대한 예제는 [SharePoint "최신" 사이트 분류](https://docs.microsoft.com/sharepoint/dev/solution-guidance/modern-experience-site-classification)를 참조하세요.
 
 이전 분류를 민감도 레이블로 변환하려면 다음 중 하나를 수행합니다.
 
@@ -268,42 +282,51 @@ Microsoft Teams, Office 365 그룹 및 SharePoint 사이트의 민감도 레이�
 
 #### <a name="use-powershell-to-convert-classifications-for-office-365-groups-to-sensitivity-labels"></a>PowerShell을 사용하여 Office 365 그룹 분류를 민감도 레이블로 변환
 
-1. SharePoint Online 관리 셸 버전 16.0.19418.12000 이상을 실행 중인지 확인하세요. 최신 버전을 이미 보유한 경우 4단계로 건너뜁니다.
-
-2. PowerShell 갤러리에서 이전 버전의 SharePoint Online 관리 셸을 설치한 경우 다음 cmdlet을 실행하여 모듈을 업데이트할 수 있습니다.
+1. 우선 [Office 365 보안 및 준수 센터 PowerShell에 연결](/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell)합니다. 
     
-    ```PowerShell
-    Update-Module -Name Microsoft.Online.SharePoint.PowerShell
-    ```
-
-3. Microsoft 다운로드 센터에서 이전 버전의 SharePoint Online 관리 셸을 설치한 경우 **프로그램 추가/제거**로 이동하여 SharePoint Online 관리 셸을 제거합니다. 그런 다음 [다운로드 센터](https://go.microsoft.com/fwlink/p/?LinkId=255251)에서 최신 SharePoint Online 관리 셸을 설치합니다.
-
-4. Office 365에서 전역 관리자 또는 SharePoint 관리자 권한을 보유하는 회사 또는 학교 계정을 사용하여 SharePoint Online 관리 셸에 연결합니다. 자세한 방법은 [SharePoint Online 관리 셸 시작](/powershell/sharepoint/sharepoint-online/connect-sharepoint-online)을 참조하세요.
-
-5. 다음의 명령을 실행하여 민감도 레이블과 해당 GUID 목록을 가져옵니다.
-
-    ```PowerShell
+    예를 들어 관리자로 실행하는 PowerShell 세션에서 전역 관리자 계정으로 로그인합니다.
+    
+    ```powershell
     Set-ExecutionPolicy RemoteSigned
     $UserCredential = Get-Credential
-    $Session = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://ps.compliance.protection.outlook.com/powershell-liveid -Authentication Basic -AllowRedirection -Credential $UserCredential
-    Import-PSSession $Session
-    Get-Label |ft Name, Guid  
+    $Session = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://ps.compliance.protection.outlook.com/powershell-liveid/ -Credential $UserCredential -Authentication Basic -AllowRedirection
+    Import-PSSession $Session -DisableNameChecking
     ```
 
-6. Office 365 그룹에 적용할 민감도 레이블의 GUID를 기록해 둡니다.
+2. [Get-Label](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/get-label?view=exchange-ps) cmdlet을 사용하여 민감도 레이블 및 GUID 목록을 가져옵니다.
+    
+    ```powershell
+    Get-Label |ft Name, Guid
+    ```
 
-7. 다음 명령을 예로 사용하여 현재 "일반" 분류”를 포함하는 그룹 목록을 가져옵니다.
+3. Office 365 그룹에 적용할 민감도 레이블의 GUID를 기록해 둡니다.
 
-   ```PowerShell
-   $Groups= Get-UnifiedGroup | Where {$_.classification -eq "General"}
-   ```
+4. 이제 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps)합니다.
+    
+    예시:
+    
+    ```powershell
+    $UserCredential = Get-Credential
+    $Session = New-PSSession -ConfigurationName Microsoft.Exchange -ConnectionUri https://outlook.office365.com/powershell-liveid/ -Credential $UserCredential -Authentication Basic -AllowRedirection
+    Import-PSSession $Session
+    ```
 
-6. 각 그룹에 새 민감도 레이블 GUID를 추가합니다. 예:
+5. [Get-UnifiedGroup](https://docs.microsoft.com/powershell/module/exchange/users-and-groups/get-unifiedgroup?view=exchange-ps) cmdlet을 실행하여 지정한 분류 중 하나를 포함하는 Office 365 그룹 목록을 가져옵니다.
+    
+    예를 들어 "일반" 이라는 분류를 포함하는 Office 365 그룹 목록을 가져오려면 다음을 실행합니다. 
+    
+    ```powershell
+    $Groups= Get-UnifiedGroup | Where {$_.classification -eq "General"}
+    ```
+
+6. 각 그룹에 새 민감도 레이블 GUID를 추가합니다. 예시:
 
     ```PowerShell
     foreach ($g in $groups)
     {Set-UnifiedGroup -Identity $g.Identity -SensitivityLabelId "457fa763-7c59-461c-b402-ad1ac6b703cc"}
     ```
+
+7. 나머지 그룹 분류에 대해 5단계와 6단계를 반복합니다.
 
 ## <a name="auditing-sensitivity-label-activities"></a>민감도 레이블 활동 감사
 

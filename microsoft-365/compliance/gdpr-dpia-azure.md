@@ -16,12 +16,12 @@ ms.collection:
 - M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 4f5f688a80d45ccb7e6b399d6fea7a6b2119b6de
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+ms.openlocfilehash: b7736a3890f293ca6bcfa05fd2f1630748009d9f
+ms.sourcegitcommit: 0da80ba7b504841c502ab06fea659a985c06fe8f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42558048"
+ms.lasthandoff: 04/17/2020
+ms.locfileid: "43547558"
 ---
 # <a name="data-protection-impact-assessments-guidance-for-data-controllers-using-microsoft-azure"></a>데이터 보호 영향 평가: Microsoft Azure를 사용하는 데이터 컨트롤러의 참고 자료
 
@@ -56,7 +56,7 @@ GDPR의 35조를 준수하려면 데이터 컨트롤러에서 데이터 보호 �
 ||||
 |:---|:---|:--|
 |**DPIA의 요소**|**Microsoft Azure에 대한 관련 정보**| |
-| 처리 목적 | Microsoft Azure를 사용하여 데이터를 처리하는 목적은 컨트롤러를 구현, 구성 및 사용하는 방식에 따라 결정됩니다. <br><br> [온라인 서비스 약관(OST)](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=46)에 명시된 바와 같이, Microsoft는 데이터 프로세서로서 고객의 문서화된 지침에 따라 온라인 서비스를 제공하고자 고객 데이터를 처리합니다. <br><br> Microsoft는 다음과 같은 합법적인 비즈니스 운영 지원을 위하여 개인 데이터를 사용합니다. (1) 청구 및 계정 관리. (2) 보상 (예: 사원 수수료과 파트너의 성과급 계산). (3) 내부 보고 및 모델링 (예: 예측, 수익, 용량 계획, 제품 전략); (4) Microsoft 또는 Microsoft 제품에 영향을 줄 수 있는 사기, 사이버 범죄 또는 사이버-공격 방어. (5) 접근성, 개인 정보 보호 또는 에너지 효율성의 핵심 기능 개선. (6) 법률적인 의무를 통한 재무 보고 및 준수 (온라인 서비스 약관에 요약 된 고객 데이터 노출에 대 한 제한 사항 준수). <br><br> Microsoft는 다음과 같은 합법적인 비즈니스 운영 지원을 위해 개인 정보 처리 관리를 합니다. 일반적으로 Microsoft는 개인 정보를 합법 적인 비즈니스 운영에 사용하기 전 개인 정보를 수집하여 Microsoft가 특정 개인을 식별하지 못할 뿐만 아니라 합법적 비즈니스 운영 지원을 위해 개인 정보 사용시 개인 식별 가능성을 최소화 합니다. <br><br> Microsoft는 광고 또는 유사한 상업적 목적으로 고객 데이터 또는 파생된 정보를 사용하지 않습니다. |   |
+| 처리 목적 | Microsoft Azure를 사용하여 데이터를 처리하는 목적은 컨트롤러를 구현, 구성 및 사용하는 방식에 따라 결정됩니다. <br><br> [온라인 서비스 약관](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=46) 및 [데이터 보호 부록](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=67)에 명시된 바와 같이, Microsoft는 데이터 프로세서로서 고객의 문서화된 지침에 따라 온라인 서비스를 제공하고자 고객 데이터를 처리합니다. <br><br> 표준 [온라인 서비스 약관](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=46) 및 [데이터 보호 부록](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=67)에 자세히 설명된 바와 같이, Microsoft는 다음과 같은 합법적인 비즈니스 운영 지원을 위하여 개인 데이터를 사용합니다. (1) 청구 및 계정 관리. (2) 보상 (예: 사원 수수료과 파트너의 성과급 계산). (3) 내부 보고 및 모델링 (예: 예측, 수익, 용량 계획, 제품 전략); (4) Microsoft 또는 Microsoft 제품에 영향을 줄 수 있는 사기, 사이버 범죄 또는 사이버-공격 방어. (5) 접근성, 개인 정보 보호 또는 에너지 효율성의 핵심 기능 개선. (6) 법률적인 의무를 통한 재무 보고 및 준수 (온라인 서비스 약관에 요약 된 고객 데이터 노출에 대 한 제한 사항 준수). <br><br> Microsoft는 다음과 같은 합법적인 비즈니스 운영 지원을 위해 개인 정보 처리 관리를 합니다. 일반적으로 Microsoft는 개인 정보를 합법 적인 비즈니스 운영에 사용하기 전 개인 정보를 수집하여 Microsoft가 특정 개인을 식별하지 못할 뿐만 아니라 합법적 비즈니스 운영 지원을 위해 개인 정보 사용시 개인 식별 가능성을 최소화 합니다. <br><br> Microsoft는 프로파일링, 광고 또는 유사한 상업적 목적으로 고객 데이터 또는 파생된 정보를 사용하지 않습니다. |   |
 | 처리된 개인 데이터의 범주  | *고객 데이터* – 엔터프라이즈 서비스를 사용하여 고객이 Microsoft에 제공하거나 고객 대신에 Microsoft에 제공된 모든 데이터(모든 텍스트, 소리, 동영상 또는 이미지 파일 포함)입니다.  고객 데이터에는 (1) 최종 사용자의 식별 가능한 정보(예: Azure Active Directory의 사용자 이름 및 연락처 정보) 및 고객이 특정 서비스에 업로드하거나 해당 서비스에서 만드는 고객 콘텐츠(예: Azure Storage 계정의 고객 콘텐츠, Azure SQL 데이터베이스의 고객 콘텐츠 또는 Azure 가상 머신에 있는 고객의 가상 머신 이미지)가 포함되어 있습니다.<br><br> *서비스 생성 데이터* - Microsoft에서 생성한 로그 및 관련 데이터이며, 이는 Microsoft에서 엔터프라이즈 서비스를 제공하도록 도와줍니다. 서비스 생성 로그에는 주로 시스템에서 생성된 고유한 ID와 관련된 가명 처리된 데이터가 있으며, 이 데이터는 개인을 직접 식별할 수 없지만 엔터프라이즈 서비스를 사용자에게 전달하는 데 사용됩니다. 이러한 서비스 생성 로그에는 사용자 이름과 같은 최종 사용자에 대한 식별 가능한 정보가 포함될 수도 있습니다. <br><br> *지원 데이터* — 온라인 서비스에 대한 기술 지원을 얻기 위해 Microsoft와의 계약을 통해 고객이 Microsoft 또는 고객을 대신하여 Microsoft에서 제공한 데이터(또는 고객이 Microsoft가 온라인 서비스에서 얻도록 허가한 데이터)입니다. <br><br> Azure에서 처리하는 데이터와 관련된 자세한 내용은 데이터 처리 약정을 포함한 [온라인 서비스 약관](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=46) 및 [Microsoft 보안 센터](https://www.microsoft.com/trustcenter)에서 확인하세요.</p> |   |
 | 데이터 보존 | Microsoft는 고객이 온라인 서비스를 사용할 수있는 기간 동안 그리고 모든 고객 데이터가 고객에 의해 검색되거나 OST의 조건에 따라 삭제될 때까지 고객 데이터를 보유 및 처리합니다.  고객의 구독 기간 동안 항상 고객은 각 온라인 서비스에 저장된 고객 데이터를 액세스하고 추출할 수 있습니다. 무료 평가판 및 LinkedIn 서비스를 제외하고 Microsoft는 고객이 데이터를 추출할 수 있도록 고객의 구독이 만료 또는 종료된 이후 90일 동안 기능이 제한된 계정에서 온라인 서비스에 저장된 고객 데이터를 보유하게 됩니다. 90일의 보유 기간이 종료되면 Microsoft는 고객의 계정을 비활성화하고 고객 데이터를 삭제합니다. 고객은 [Azure Data Subject Request GDPR 문서](https://servicetrust.microsoft.com/ViewPage/GDPRDSR)에 설명 된 기능을 사용하여 데이터 주체 요청에 따라 개인 데이터를 삭제할 수 있습니다. |   |
 | 개인 데이터의 위치 및 전송 | 고객은 OST에 명시된 특정 예외에 따라 [지역](https://azuredatacentermap.azurewebsites.net/) 내에서 유휴 고객 데이터를 프로비전할 수 있습니다. 서비스 배포 및 데이터 상주에 대한 추가 세부 정보는 OST(온라인 서비스 약관)의 첨부 1 및 [Azure 글로벌 인프라](https://azure.microsoft.com/global-infrastructure/) 웹 페이지에서도 확인할 수 있습니다.<br><br>유럽 경제 지역과 스위스의 개인 데이터의 경우 Microsoft는 개인 정보의 제3자 혹은 국제 기관 이전시 GDPR 46조를 준수합니다. 프로세서와 기타 모델 계약에 대한 표준 계약 조항에 따른 약정 외에도 Microsoft는 EU-US 및 Swiss-US Privacy Shield 프레임워크 및 그에 수반하는 약속에 대한 인증을 받았습니다. |   |
