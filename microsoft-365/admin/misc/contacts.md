@@ -61,4 +61,4 @@ ms.locfileid: "42857394"
   
 ## <a name="what-if-my-question-still-hasnt-been-answered"></a><span data-ttu-id="51620-126">여전히 질문에 대한 답변을 받지 못한 경우 어떻게 하나요?</span><span class="sxs-lookup"><span data-stu-id="51620-126">What if my question still hasn't been answered?</span></span>
 
-<span data-ttu-id="51620-127">[관리자 도움말](../admin-home.yml) 의 나머지 부분을 방문하거나 아래에서 피드백을 제공해 주세요.</span><span class="sxs-lookup"><span data-stu-id="51620-127">Visit the rest of our [admin help](../admin-home.yml) or give us your feedback below.</span></span>
+<span data-ttu-id="51620-127">[관리자 도움말](../admin-home.md) 의 나머지 부분을 방문하거나 아래에서 피드백을 제공해 주세요.</span><span class="sxs-lookup"><span data-stu-id="51620-127">Visit the rest of our [admin help](../admin-home.md) or give us your feedback below.</span></span>
