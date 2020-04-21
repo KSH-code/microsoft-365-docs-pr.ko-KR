@@ -17,12 +17,12 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: f70d2f601dfb697d8affa8bb47148f6e454c5d8e
-ms.sourcegitcommit: 4988934836eee45c890b9bdd5ef73590656c78ba
+ms.openlocfilehash: e7274ff196d5b822d146378752d66c9707fc9f19
+ms.sourcegitcommit: d818828c66cf98b0b0037ba8b3cb790c940281b7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43541098"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43583384"
 ---
 # <a name="microsoft-secure-score"></a>Microsoft 보안 점수
 
@@ -137,11 +137,9 @@ Microsoft 보안 점수는 시스템 구성, 사용자 동작 및 기타 보안 
 
 ## <a name="whats-new"></a>새로운 기능
 
-Microsoft 보안 점수를 보안 상태를 보다 효율적으로 구성 하려면 몇 가지 사항을 변경 해야 합니다.
+Microsoft 보안 점수를 보안 상태를 보다 효율적으로 구성 하려면 몇 가지 사항을 변경 해야 합니다. 계획 된 변경 사항에 대 한 자세한 내용은 [Microsoft 보안 점수에서](microsoft-secure-score-whats-coming.md) 제공 되는 기능을 참조 하세요.
 
-계획 된 변경 사항에 대 한 자세한 내용은 [Microsoft 보안 점수에서](microsoft-secure-score-whats-coming.md) 제공 되는 기능을 참조 하세요.
-
-### <a name="march-2020"></a>2020년 3월
+### <a name="january---march-2020"></a>1 월-2020 년 3 월
 
 #### <a name="supporting-security-defaults-for-azure-ad-improvement-actions"></a>Azure AD 개선 작업에 대 한 보안 기본값 지원
 

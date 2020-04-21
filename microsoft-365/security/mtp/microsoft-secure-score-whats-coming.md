@@ -17,16 +17,16 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 1a5c5ae702f16bbf47be83837cf244cdd64278cd
-ms.sourcegitcommit: 4988934836eee45c890b9bdd5ef73590656c78ba
+ms.openlocfilehash: 234ae17ab31d56d1bbd65f1aa8ed29475e9cd155
+ms.sourcegitcommit: d818828c66cf98b0b0037ba8b3cb790c940281b7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43541110"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43583718"
 ---
 # <a name="whats-coming-in-microsoft-secure-score"></a>Microsoft 보안 점수가 어떻게 제공 됩니까?
 
-Microsoft의 보안 점수를 보안 환경을 보다 효율적으로 대표 하 고 유용성을 향상 시키기 위해 곧 몇 가지 사항을 변경 하 고 있습니다. 점수와 가능한 최대 점수가 변경 됩니다. 그러나 보안 환경을 변경 하는 것은 아닙니다.
+Microsoft의 보안 [점수](microsoft-secure-score.md) 를 보안 환경을 보다 효율적으로 대표 하 고 유용성을 향상 시키기 위해 곧 몇 가지 사항을 변경 하 고 있습니다. 점수와 가능한 최대 점수가 변경 됩니다. 그러나 보안 환경을 변경 하는 것은 아닙니다.
 
 최근 변경 내용에 대 한 자세한 내용은 [Microsoft 보안 점수의 새로운 기능](microsoft-secure-score.md#whats-new) 을 참조 하세요.
 
@@ -39,11 +39,15 @@ Microsoft 보안 점수가 의미 있고 모든 개선 조치를 측정할 수 �
 - 문서에 IRM 보호 적용
 - 데이터 손실 방지 정책 적용
 
-### <a name="adding-azure-ad-improvement-action-in-the-preview-version"></a>Preview 버전에서 Azure AD 개선 작업 추가
+### <a name="adding-azure-ad-improvement-action-to-preview"></a>미리 보기에 Azure AD 개선 작업 추가
+
+[Microsoft 보안 점수 preview 릴리스에](microsoft-secure-score-preview.md)다음 Azure Active Directory 개선 작업을 추가 합니다.
 
 - 사용자가 관리 되지 않는 응용 프로그램에 동의 하도록 허용 하지 않습니다 (현재 릴리스된 버전에서 사용 가능).
 
-### <a name="adding-azure-atp-improvement-actions-in-the-preview-version"></a>Preview 버전에서 Azure ATP 개선 작업 추가
+### <a name="adding-azure-atp-improvement-actions-to-preview"></a>미리 보기에 Azure ATP 개선 작업 추가
+
+[Microsoft 보안 점수 preview 릴리스에](microsoft-secure-score-preview.md)다음과 같은 Azure Advanced Threat Protection 개선 작업을 추가 합니다.
 
 - 도메인 컨트롤러에서 인쇄 스풀러 서비스 사용 안 함
 - 가장을 방지 하도록 보안 되지 않은 Kerberos 위임 수정
@@ -56,6 +60,6 @@ Microsoft 보안 점수가 의미 있고 모든 개선 조치를 측정할 수 �
 - 레거시 프로토콜 통신 중지
 - 약한 암호화 사용 중지
 
-### <a name="support-for-microsoft-defender-atp-threat--vulnerability-management-tvm-security-recommendations-in-the-preview-version"></a>Preview 버전에서의 Microsoft Defender ATP 위협 & TVM (취약성 관리) 보안 권장 사항에 대 한 지원
+### <a name="support-for-microsoft-defender-atp-threat--vulnerability-management-tvm-security-recommendations-in-preview"></a>Microsoft Defender ATP Threat for TVM (& 취약성 관리) 보안 권장 사항 미리 보기
 
-- 이제 TVM에서 제공 하는 모든 릴리스된 보안 권장 사항을 Microsoft 보안 점수 에서도 사용할 수 있습니다.
+이제 TVM에서 제공 하는 모든 릴리스된 보안 권장 사항을 [Microsoft 보안 성과의 미리 보기 릴리스로](microsoft-secure-score-preview.md)도 사용할 수 있습니다.
