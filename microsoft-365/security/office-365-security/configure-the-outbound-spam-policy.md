@@ -16,12 +16,12 @@ ms.assetid: a44764e9-a5d2-4c67-8888-e7fb871c17c7
 ms.collection:
 - M365-security-compliance
 description: 아웃바운드 전자 메일 보내기 서비스를 사용하는 경우 아웃바운드 스팸 필터링이 항상 사용하도록 설정되므로 서비스와 받는 사람을 사용하여 조직을 보호할 수 있습니다.
-ms.openlocfilehash: 3ac85776db5d990d46b858294acf8ef66c7f26bc
-ms.sourcegitcommit: c876d58b34454f211b50ae5d06f193c1a1e5c4ff
+ms.openlocfilehash: 699de94a300ac8625e92d2c467edd461d72c7d2f
+ms.sourcegitcommit: a955324e33097bbd2fc4ad7f2b8d1f3d87bc8580
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/11/2020
-ms.locfileid: "43231007"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43608177"
 ---
 # <a name="configure-outbound-spam-filtering-in-office-365"></a>Office 365에서 아웃 바운드 스팸 필터링 구성
 
@@ -141,6 +141,10 @@ Exchange Online PowerShell 또는 독립 실행형 Exchange Online Protection Po
      이 설정을 사용 하지 않도록 설정 하려면 확인란의 선택을 취소 합니다.
 
 5. 반드시 **받는 사람 제한** 섹션을 확장 하 여 의심 스러운 아웃 바운드 전자 메일 메시지에 대 한 제한 및 작업을 구성 합니다.
+
+   > [!NOTE]
+   > 이러한 설정은 클라우드 기반 사서함에만 적용 됩니다.
+     
    - **사용자 당 최대 받는 사람 수**
 
      유효한 값은 0 ~ 1만입니다. 기본값은 0 이며이 값은 서비스 기본값을 사용 함을 의미 합니다. 자세한 내용은 [Office 365 옵션을 통한 제한 보내기](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#sending-limits-across-office-365-options)를 참조 하세요.

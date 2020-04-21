@@ -23,12 +23,12 @@ search.appverid:
 - GEA150
 ms.assetid: d5155593-3bac-4d8d-9d8b-f4513a81479e
 description: 사용자 계정을 삭제 하는 방법에 대해 알아봅니다. 사용자의 전자 메일, OneDrive 콘텐츠, 제품 라이선스를 유지할지 아니면 지불할 지를 결정 합니다.
-ms.openlocfilehash: 2c87f04675ec92e964acb6fc9aef7171b6d7d510
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 59d06a075b5badeda410b4b25d60fa135b9ce5f7
+ms.sourcegitcommit: a955324e33097bbd2fc4ad7f2b8d1f3d87bc8580
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42353139"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43608129"
 ---
 # <a name="delete-a-user-from-your-organization"></a>조직에서 사용자 삭제
   
@@ -99,7 +99,8 @@ ms.locfileid: "42353139"
 ## <a name="user-management-admin-delete-one-or-more-users-from-office-365"></a>사용자 관리 관리자: Office 365에서 하나 이상의 사용자를 삭제 합니다.
 
 
- **중요**: [공유 사서함에 변환했거나](../email/convert-user-mailbox-to-shared-mailbox.md) 계정에 전자 메일 전달을 설정한 경우 사용자 계정을 삭제하지 마세요. 이러한 기능에는 계정이 필요합니다. 공유 사서함으로 변환한 경우에는 라이선스에 대한 비용을 지불하지 않도록 [라이선스 비용 지불 중지](#stop-paying-for-the-license)할 수 있습니다. 전자 메일 전달을 설정한 경우에는 라이선스를 제거할 수 없습니다. 라이선스를 제거하면 전자 메일 전달이 중지되고 사서함이 비활성화됩니다. 
+> [!IMPORTANT]
+> 사용자 계정이 [공유 사서함으로 변환](../email/convert-user-mailbox-to-shared-mailbox.md) 되었거나 계정에 전자 메일 전달을 설정한 경우에는 해당 계정을 삭제 하지 마세요. 이러한 기능은 여전히 계정이 필요 합니다. 공유 사서함에는 라이선스가 필요 하지 않습니다. 계정을 공유 사서함으로 변환한 경우 [에는 라이선스에 대 한 비용 지불을 중지할](#stop-paying-for-the-license)수 있습니다. 계정에 전자 메일 전달을 설정한 경우에는 라이선스를 제거할 수 없습니다. 이렇게 하면 전자 메일 전달이 중지 되 고 사서함이 비활성화 됩니다.
   
 ::: moniker range="o365-worldwide"
 
@@ -147,7 +148,7 @@ ms.locfileid: "42353139"
 
 ::: moniker range="o365-germany"
 
-1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">구독</a> 페이지로 이동 합니다. 이 옵션이 표시 되지 않으면 전역 관리자 또는 대금 청구 관리자가 아니므로이 단계를 수행할 수 없습니다.
+1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">구독</a> 페이지로 이동합니다. 이 옵션이 표시 되지 않으면 전역 관리자 또는 대금 청구 관리자가 아니므로이 단계를 수행할 수 없습니다.
 
 2. 구독을 하나 이상 선택한 다음 라이선스 **추가/제거** 를 선택 하 여 다른 사람을 고용 하기 전까지 라이선스에 대해 비용을 지불 하지 않을 수 있습니다.  
 
@@ -157,7 +158,7 @@ ms.locfileid: "42353139"
 
 ::: moniker range="o365-21vianet"
 
-1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">구독</a> 페이지로 이동 합니다. 이 옵션이 표시 되지 않으면 전역 관리자 또는 대금 청구 관리자가 아니므로이 단계를 수행할 수 없습니다.
+1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">구독</a> 페이지로 이동합니다. 이 옵션이 표시 되지 않으면 전역 관리자 또는 대금 청구 관리자가 아니므로이 단계를 수행할 수 없습니다.
 
 2. 구독을 하나 이상 선택한 다음 라이선스 **추가/제거** 를 선택 하 여 다른 사람을 고용 하기 전까지 라이선스에 대해 비용을 지불 하지 않을 수 있습니다.  
 

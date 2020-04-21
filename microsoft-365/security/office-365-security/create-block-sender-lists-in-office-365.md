@@ -13,12 +13,12 @@ localization_priority: Normal
 search.appverid:
 - MET150s
 description: 관리자는 Office 365 및 EOP에서 사용 가능한 옵션에 대해 설명 하 여 인바운드 메시지를 차단할 수 있습니다.
-ms.openlocfilehash: 0bfab3024bc781e53600092ebc88fae25c5f4afc
-ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
+ms.openlocfilehash: 9d53f49862bd69a846cb80ef584226a0940d2b22
+ms.sourcegitcommit: a955324e33097bbd2fc4ad7f2b8d1f3d87bc8580
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43033425"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43608122"
 ---
 # <a name="create-blocked-sender-lists-in-office-365"></a>Office 365에서 차단 된 보낸 사람 목록 만들기
 
@@ -52,7 +52,7 @@ Exchange online 사서함이 없는 Office 365, 독립 실행형 EOP (Exchange O
 
 여러 사용자에 게 영향을 줄 경우 범위가 더 넓기 때문에 스팸 방지 정책의 보낸 사람 목록이 나 차단 된 도메인 목록은 다음 최상의 옵션으로 차단 됩니다. 목록에 있는 보낸 사람이 보낸 메시지는 **스팸으로**표시 되며 **스팸** 필터 결과으로 구성한 작업은 메시지에 대해 수행 됩니다. 자세한 내용은 [Office 365의 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)를 참조하세요.
 
-이러한 목록의 최대 제한은 약 1000 항목입니다. 하지만 포털에는 30 개의 항목만 입력할 수 있습니다. 30 개 보다 많은 항목을 추가 하려면 PowerShell을 사용 해야 합니다.
+이러한 목록의 최대 제한은 약 1000 엔트리입니다.
 
 ## <a name="use-mail-flow-rules"></a>메일 흐름 규칙 사용
 

@@ -17,12 +17,12 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 8319dcabe6032228e2124b68f9f7d8f237ff34de
-ms.sourcegitcommit: d818828c66cf98b0b0037ba8b3cb790c940281b7
+ms.openlocfilehash: 23242f5f2d7e1a0774c83359159588f9fef34f64
+ms.sourcegitcommit: a955324e33097bbd2fc4ad7f2b8d1f3d87bc8580
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 04/21/2020
-ms.locfileid: "43583372"
+ms.locfileid: "43608165"
 ---
 # <a name="microsoft-secure-score-preview"></a>Microsoft 보안 점수 (미리 보기)
 
@@ -69,6 +69,7 @@ Microsoft 보안 점수에 액세스할 수 있는 권한을 부여 하려면 Az
 * 보안 관리자
 * Exchange 관리자
 * SharePoint 관리자
+* 계정 관리자
 
 ### <a name="read-only-roles"></a>읽기 전용 역할
 
@@ -151,7 +152,7 @@ Microsoft 보안 점수 개요 페이지에서 이러한 그룹 간의 점수가
 
 Microsoft 보안 점수는 시스템 구성, 사용자 동작 및 기타 보안 관련 측정값을 기반으로 한 보안 환경을 나타내는 수치 요약입니다. 시스템 또는 데이터를 얼마나 많이 침해 해야 하는지 절대 측정 한 것은 아닙니다. 대신 Microsoft 환경에서 보안 제어를 채택 하는 범위를 나타내므로 위반 위험을 상쇄 하는 데 도움이 될 수 있습니다. 보안 침해에의 한 온라인 서비스에는 전혀 문제가 되지 않으며 보안 점수가 보안상 침해에 대 한 보장으로 해석 되어서는 안 됩니다.
 
-## <a name="whats-new"></a>새로운 기능 
+## <a name="whats-new"></a>어떠한 새로운 기능이 있나요? 
 
 Microsoft 보안 점수가 보안 상태를 보다 효율적으로 대표 하도록 하기 위해 몇 가지 사항을 변경 했습니다. 계획 된 변경 사항에 대 한 자세한 내용은 [Microsoft 보안 점수에서](microsoft-secure-score-whats-coming.md) 제공 되는 기능을 참조 하세요.
 
