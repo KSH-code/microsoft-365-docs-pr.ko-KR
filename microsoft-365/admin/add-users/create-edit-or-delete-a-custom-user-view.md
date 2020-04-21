@@ -1,5 +1,5 @@
 ---
-title: Office 365에서 사용자 지정 사용자 보기 만들기, 편집 또는 삭제
+title: 사용자 지정 사용자 보기 만들기, 편집 또는 삭제
 f1.keywords:
 - NOCSH
 ms.author: kwekua
@@ -18,13 +18,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 4fe7f6ac-be8e-4b57-9e13-24ff889a4b28
-description: 필터를 사용 하 여 Office 365에서 사용자 지정 사용자 보기를 만들거나 편집 하거나 삭제 하는 방법을 알아봅니다.
-ms.openlocfilehash: ae12675afd47434ac6dd12dae683c79aae64be1f
-ms.sourcegitcommit: 2b626a7924b4be08f6eb21181453b778e6fde418
+description: 필터를 사용 하 여 Microsoft 365에서 사용자 지정 사용자 보기를 만들거나 편집 하거나 삭제 하는 방법을 알아봅니다.
+ms.openlocfilehash: 94a9ad7de8bc8e0692d97fda56200cf668b1e5f8
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43047062"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43617263"
 ---
 # <a name="create-edit-or-delete-a-custom-user-view-in-office-365"></a>Office 365에서 사용자 지정 사용자 보기 만들기, 편집 또는 삭제
 
@@ -63,7 +63,7 @@ Office 365의 전역 또는 사용자 관리 관리자 인 경우 사용자 지�
 표준 보기에 대해 주의 해야 할 몇 가지 사항은 다음과 같습니다. 
 
 - 일부 표준 보기에는 목록에 사용자가 2000 명 이상인 경우 정렬 되지 않은 목록이 표시 됩니다. 이 목록에서 특정 사용자를 찾으려면 검색 상자를 사용 합니다. 
-- Microsoft에서 Office 365을 구입 하지 않은 경우 **청구 관리자** 는 표준 보기 목록에 표시 되지 않습니다. 자세한 내용은 [관리 역할 지정](assign-admin-roles.md)을 참조하세요. 
+- Microsoft에서 microsoft 365을 구입 하지 않은 경우 **청구 관리자** 는 표준 보기 목록에 표시 되지 않습니다. 자세한 내용은 [관리 역할 지정](assign-admin-roles.md)을 참조하세요. 
   
 ## <a name="choose-the-filters-for-your-custom-user-view"></a>사용자 지정 사용자 보기에 대 한 필터 선택
 
@@ -88,12 +88,12 @@ Office 365의 전역 또는 사용자 관리 관리자 인 경우 사용자 지�
     
 - **라이선스가 없는 사용자** 라이선스가 할당 되지 않은 모든 사용자를 찾으려면이 상자를 선택 합니다. 이 보기의 결과에는 Exchange 사서함이 있지만 라이선스가 없는 사용자도 포함 될 수 있습니다. 해당 사용자를 추적 하려면 **Exchange 사서함 이나 보관 함과 함께**사용 되지 않는 필터 사용자로 필터링 합니다. 이 보기의 결과에는 Exchange 보관 함이 있지만 라이선스가 없는 사용자도 포함 될 수 있습니다.
     
-- **Exchange 사서함 또는 보관 함이 있는 허가** 되지 않은 사용자 Exchange Online에서 만들어졌으며 Exchange 사서함이 있지만 Office 365 라이선스가 할당 되지 않은 사용자 계정을 표시 하려면이 상자를 선택 합니다. 이 필터의 결과에는 Exchange 보관 사서함이 있거나 할당 된 사용자가 포함 됩니다. 
+- **Exchange 사서함 또는 보관 함이 있는 허가** 되지 않은 사용자 Exchange Online에서 만들어졌으며 Exchange 사서함이 있지만 Microsoft 365 라이선스가 할당 되지 않은 사용자 계정을 표시 하려면이 상자를 선택 합니다. 이 필터의 결과에는 Exchange 보관 사서함이 있거나 할당 된 사용자가 포함 됩니다. 
 
 > [!NOTE]
 > **Exchange 사서함이 있는 허가** 되지 않은 사용자 필터는 다음과 같은 경우에 작동 합니다.
 1. 최근에 사서함이 **공유** 에서 **사용자** 로 변환 되었으며 라이선스는 없습니다.
-2. 최근에 Office 365으로 사서함이 마이그레이션 되었지만 라이선스가 할당 되지 않았습니다.
+2. 최근에 Microsoft 365로 사서함이 마이그레이션 되었지만 라이선스가 할당 되지 않았습니다.
 3. PowerShell을 사용 하 여 사서함을 만들었으며 라이선스가 할당 되지 않았습니다.
 4. New-remotemailbox cmdlet을 사용 하 여 온-프레미스로 만든 새 사서함이 사용자에 대해 프로 비전 됩니다.
     

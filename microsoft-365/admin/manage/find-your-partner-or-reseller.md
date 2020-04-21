@@ -1,5 +1,5 @@
 ---
-title: Office 365 파트너 또는 대리점 찾기
+title: 파트너 또는 대리점 찾기
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -21,23 +21,23 @@ search.appverid:
 - MOE150
 - BEA160
 ms.assetid: b6c18a9b-2aed-4c84-9d75-af709160258c
-description: '새 Office 365 파트너를 찾거나 이전에 작업 한 파트너에 대 한 연락처 정보를 가져오는 방법을 알아봅니다. '
-ms.openlocfilehash: 86c61b6217a1be6106334cb1378a23d8cbd8c2b8
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+description: '새 Microsoft 365 파트너를 찾거나 이전에 작업 한 파트너에 대 한 연락처 정보를 가져오는 방법을 알아봅니다. '
+ms.openlocfilehash: 54933174816047188a8c084c63df6c1e8e166d82
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42254974"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43628187"
 ---
-# <a name="find-your-office-365-partner-or-reseller"></a>Office 365 파트너 또는 대리점 찾기
+# <a name="find-your-partner-or-reseller"></a>파트너 또는 대리점 찾기
 
-관리자는 파트너와 협력 하 여 Microsoft Open 볼륨 라이선스 프로그램을 통해 Office 365 구독을 구입, 정품 인증 및 갱신할 수 있습니다. 
+관리자는 파트너와 협력 하 여 Microsoft Open 볼륨 라이선스 프로그램을 통해 Microsoft 365 구독을 구입, 정품 인증 및 갱신할 수 있습니다. 
   
  **오픈 볼륨 라이선스를 사용할 수 있는지 여부를 확실히 알 수 있나요?** [Microsoft Open Programs 개요](https://go.microsoft.com/fwlink/p/?LinkId=613298)를 확인 하세요.
   
 ## <a name="find-a-new-partner-or-reseller"></a>새 파트너 또는 대리점 찾기
 
-Open Volume License를 통해 Office 365을 구입 하거나 갱신할 준비가 되었거나 파트너와 함께 작업 하는 방법에 대 한 자세한 정보를 보려면 아래 옵션을 선택 하세요. 
+오픈 Volume License를 통해 Microsoft 365을 구입 하거나 갱신할 준비가 되었거나 파트너와 함께 작업 하는 방법에 대 한 자세한 정보를 보려면 아래 옵션을 선택 하세요. 
   
 - [Microsoft의 방법을 사용 하 여 파트너 검색](https://go.microsoft.com/fwlink/p/?LinkId=613304)
     

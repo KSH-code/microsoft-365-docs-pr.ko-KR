@@ -1,5 +1,5 @@
 ---
-title: Office 365에서 관리자 전화 번호 및 전자 메일 주소 업데이트
+title: 관리자 전화 번호 및 전자 메일 주소 업데이트
 f1.keywords:
 - NOCSH
 ms.author: kwekua
@@ -19,16 +19,16 @@ search.appverid:
 - MOE150
 ms.assetid: 767349fa-f646-46d9-9dab-4a65049bdd1f
 description: 관리 센터에서 관리자 전화 번호 및 전자 메일 주소를 업데이트 합니다. 자신의 관리자 암호를 다시 설정 하려면이 정보가 필요 합니다.
-ms.openlocfilehash: 255c1d72ae032b0ebaf0606e0731e9bbe8a1b40d
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 4a60e344f94ede3e455f8940189f5019a52e834b
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42361673"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43628007"
 ---
-# <a name="update-your-admin-phone-number-and-email-address-in-office-365"></a>Office 365에서 관리자 전화 번호 및 전자 메일 주소 업데이트
+# <a name="update-your-admin-phone-number-and-email-address"></a>관리자 전화 번호 및 전자 메일 주소 업데이트
 
-이 문서에서는 관리자가 Office 365에서 회사 전화 및 전자 메일 주소를 변경하는 방법을 설명합니다.
+이 문서에서는 관리자가 Microsoft 365에서 회사 전화 및 전자 메일 주소를 변경할 수 있는 방법에 대해 설명 합니다.
   
 회사 이름 및 주소, 회사 전화 번호, 기술 담당자 정보 등과 같은 회사 프로필 정보를 변경하는 방법을 알아보려면 [조직 주소, 기술 담당자 전자 메일, 기타 정보 변경](change-address-contact-and-more.md)을 참조하세요.
   
@@ -40,7 +40,7 @@ ms.locfileid: "42361673"
 
 2. 헤더에서 프로필 아이콘 \> **내 계정** \> **개인 정보**를 선택 합니다.
 
-3. **연락처 세부 정보** 섹션에서 편집을 선택 합니다. 휴대폰 번호 및 대체 전자 메일 주소를 업데이트 합니다. 대체 전자 메일 주소에는 Office 365 전자 메일 주소와 다른 주소를 사용해야 합니다.
+3. **연락처 세부 정보** 섹션에서 편집을 선택 합니다. 휴대폰 번호 및 대체 전자 메일 주소를 업데이트 합니다. 대체 전자 메일 주소에 대해 Microsoft 전자 메일 주소와 다른 항목을 사용 하 고 있는지 확인 합니다.
 
     > [!IMPORTANT]
     > 대체 전자 메일 주소와 휴대폰 번호는 관리자 암호 (컴퓨터 관리자 암호 아님)를 다시 설정 하는 데 필요 합니다.
@@ -49,6 +49,6 @@ ms.locfileid: "42361673"
   
 대금 청구 관련 질문에 대답은 다음을 참조하세요.
   
-- [비즈니스용 Office 365의 대금 청구 주소 변경](../../commerce/billing-and-payments/change-your-billing-addresses.md)
+- [비즈니스에 대 한 Microsoft 365의 대금 청구 주소 변경](../../commerce/billing-and-payments/change-your-billing-addresses.md)
 
-- [비즈니스용 Office 365에서 신용 카드 또는 은행 계좌 추가, 업데이트 또는 제거](../../commerce/billing-and-payments/add-update-or-remove-credit-card-or-bank-account.md)
+- [비즈니스용 Microsoft 365에서 신용 카드 또는 은행 계좌 추가, 업데이트 또는 제거](../../commerce/billing-and-payments/add-update-or-remove-credit-card-or-bank-account.md)

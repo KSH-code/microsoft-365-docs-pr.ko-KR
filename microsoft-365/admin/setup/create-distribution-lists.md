@@ -19,16 +19,16 @@ search.appverid:
 - MOE150
 ms.assetid: b1ffe755-59e5-4369-826d-825f145a8400
 description: 메일 (목록)을 만들어 개별 받는 사람의 이름을 입력 하지 않고도 사용자 그룹에 전자 메일을 보낼 수 있습니다.
-ms.openlocfilehash: 668c61637c42a1be4aabe60b36e4e26db9873b7b
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: a845055acbc5428e0e261997f946f75dc4701d57
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42247894"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627645"
 ---
 # <a name="create-distribution-groups-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터에서 메일 그룹 만들기
   
-각 받는 사람의 이름을 입력 하지 않고 사용자 그룹에 전자 메일을 보낼 때 사용 되는 메일 그룹은 특정 토론 주체 (예: "Marketing") 또는 통신 해야 하는 공통 작업을 공유 하는 사용자에 의해 구성 됩니다. 많습니다. 또한 전자 메일을 여러 전자 메일 주소로 자동 전달할 수 있는 방법을 제공 합니다.
+각 받는 사람의 이름을 입력 하지 않고 사용자 그룹에 전자 메일을 보낼 때 사용 되는 메일 그룹은 특정 토론 주체 (예: "Marketing") 또는 자주 통신 하도록 요구 되는 일반 작업을 공유 하는 사용자에 의해 구성 됩니다. 또한 전자 메일을 여러 전자 메일 주소로 자동 전달할 수 있는 방법을 제공 합니다.
   
 메일 그룹을 메일 목록 이라고 하는 경우도 있습니다.
   
@@ -56,7 +56,7 @@ ms.locfileid: "42247894"
 
 1. 앱 시작 관리자 아이콘 을 선택하고 **관리자**를 선택합니다.
     
-    찾고자 하는 앱을 찾을 수 없나요? 앱 시작 관리자에서 **모든 앱**을 선택하여 사용 가능한 Office 365 앱의 사전순 목록을 보세요. 거기에서 특정 앱을 검색할 수 있습니다. 
+    찾고자 하는 앱을 찾을 수 없나요? 앱 시작 관리자에서 **모든 앱** 을 선택 하 여 사용할 수 있는 앱의 사전순 목록을 확인 합니다. 거기에서 특정 앱을 검색할 수 있습니다. 
     
 2. 왼쪽 탐색 창에서 **그룹** \> **그룹** 을 선택한 다음 **그룹 추가**를 선택 합니다. 
       
@@ -66,7 +66,7 @@ ms.locfileid: "42247894"
     
 5. **추가** 를 눌러 그룹을 만든 다음 그룹을 검토 하 고 **닫기**를 선택 합니다. 
     
-6. 메일 그룹에 사용자를 추가 하려면 [Office 365 메일 그룹에 사용자 또는 연락처 추가](../email/add-user-or-contact-to-distribution-list.md)를 참조 하세요.
+6. 메일 그룹에 사용자를 추가 하려면 [메일 그룹에 사용자 또는 연락처 추가](../email/add-user-or-contact-to-distribution-list.md)를 참조 하세요.
     
 [Outlook 항목의 대화 상대 그룹 사용 (이전 메일 목록)](https://support.office.com/article/1c97fcb2-0ed4-41e6-b401-58f9d7d40e39.aspx) 에서 outlook 2016 및 웹용 outlook에서 그룹을 사용 하는 방법을 확인 하세요. 
   

@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 ROBOTS: NOINDEX, NOFOLLOW
 description: Microsoft 생산성 점수 개요
-ms.openlocfilehash: 06c1bb5d5e5edfd21fa9224846d584cbe6678d07
-ms.sourcegitcommit: d767c288ae34431fb046f4cfe36cec485881385f
+ms.openlocfilehash: 3e85ef40513593b7fcd66269671128c1233d10f9
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "43516868"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627755"
 ---
 # <a name="microsoft-productivity-score-preview"></a>Microsoft 생산성 점수 (미리 보기)
 
@@ -64,7 +64,7 @@ Microsoft 365에서는 조직이 비즈니스 목표를 충족할 수 있도록 
 
 ## <a name="access-and-required-permissions"></a>액세스 및 필수 권한 
 
-직원 환경에 대해 Office 365 for business 계획 또는 여러 사용자가 포함 된 Microsoft 365 비즈니스 요금제에 대 한 구독을 보유 하 고 있어야 합니다. 
+직원 환경에서는 여러 사용자가 포함 된 비즈니스 계획을 위한 Microsoft 365를 구독 해야 합니다. 
 
 Microsoft 생산성 점수에 액세스할 수 있는 권한을 부여 하려면 다음 역할이 있어야 합니다. 
 
@@ -136,7 +136,7 @@ Microsoft 생산성 점수에 액세스할 수 있는 권한을 부여 하려면
 
 ![모든 위치에서 사용 페이지](../../media/psflexibility.png)
 
-외부에서 작업 중 페이지는 데스크톱, 모바일 및 웹 인 두 개 이상의 플랫폼에서 적어도 한 명의 생산성 앱을 사용 하는 사용자 (백분율 및 절대값)를 quantifies 합니다. 사용자는 더 많은 앱과 플랫폼을 사용 하기 위해 점수가 높다는 것을 볼 수 있습니다. 고려 되는 앱은 Outlook, 팀, Word, Excel, PowerPoint, OneNote, Yammer, Skype입니다. 의견 기반은 사용자가 Office 365 ProPlus, Exchange, Yammer, Skype 또는 팀에 대해 사용 하도록 설정 된 것입니다.
+외부에서 작업 중 페이지는 데스크톱, 모바일 및 웹 인 두 개 이상의 플랫폼에서 적어도 한 명의 생산성 앱을 사용 하는 사용자 (백분율 및 절대값)를 quantifies 합니다. 사용자는 더 많은 앱과 플랫폼을 사용 하기 위해 점수가 높다는 것을 볼 수 있습니다. 고려 되는 앱은 Outlook, 팀, Word, Excel, PowerPoint, OneNote, Yammer, Skype입니다. 의견 기반은 사용자가 enterprise, Exchange, Yammer, Skype 또는 팀에 대해 Microsoft 365 앱을 사용 하도록 설정 하는 것입니다.
 
 1. **It가 중요 한 이유** 는 여러 플랫폼의 사용 현황을 조사 하 여 생산성을 높일 수 있는 방법을 제공 하는 것입니다. 자세한 **내용은 Forrester from** conducive에서 생산성 향상에 대 한 자세한 컨텍스트를 제공 하는 연구 문서로 이동 합니다.
 1. **외부에서 전자 메일** 에 대 한 자세한 정보 quantifies outlook에서 활성 상태인 사용자 내에서 플랫폼을 통해 outlook을 사용 하 여 조직의 사용자 수를 파악 합니다.

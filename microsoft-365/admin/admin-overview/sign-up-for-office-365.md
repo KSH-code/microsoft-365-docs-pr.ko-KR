@@ -1,5 +1,5 @@
 ---
-title: Office 365에 등록하는 방법 - 관리자 도움말
+title: 관리자 도움말에 등록 하는 방법
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -26,20 +26,20 @@ search.appverid:
 ms.assetid: 9b23c065-eef9-4bf7-acf5-127eb46d5e67
 ROBOTS: NOINDEX
 description: 'Office 365에 대 한 등록 프로세스를 진행 하기 전에 알아야 할 사항에 대해 알아봅니다. '
-ms.openlocfilehash: bd827a4cc57386127083111b0df556786d01f2cc
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 45f7603df814e2088506929d309266ef19ffc7ab
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42352959"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43623897"
 ---
-# <a name="how-to-sign-up-for-office-365---admin-help"></a>Office 365에 등록하는 방법 - 관리자 도움말
+# <a name="how-to-sign-up---admin-help"></a>관리자 도움말에 등록 하는 방법
 
 ::: moniker range="o365-worldwide"
 
-팀에서 비즈니스의 최신 Word, Excel, PowerPoint 및 기타 Office 프로그램 버전을 사용 하기 시작할 수 있도록 비즈니스용 Office 365에 등록 합니다.
+팀이 비즈니스에서 최신 버전의 Word, Excel, PowerPoint 및 기타 Office 프로그램을 사용 하기 시작할 수 있도록 Microsoft 365 for business에 등록 합니다.
   
-비즈니스 요금제의 세 가지 Office 365에 대 한 간략 한 개요를 보거나 아래로 스크롤하여 자세한 정보를 확인 하세요.
+365 Microsoft의 세 가지 비즈니스 요금제에 대 한 간략 한 개요를 보거나 아래로 스크롤하여 자세한 정보를 확인 하세요.
 <br><br>
   
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/cf211808-67c3-4d4b-880a-3f582d70b4d1?autoplay=false]
@@ -48,7 +48,7 @@ ms.locfileid: "42352959"
 
 ::: moniker range="o365-germany"
 
-팀에서 비즈니스의 최신 Word, Excel, PowerPoint 및 기타 Office 프로그램 버전을 사용 하기 시작할 수 있도록 비즈니스용 Office 365에 등록 합니다.
+팀이 비즈니스에서 최신 버전의 Word, Excel, PowerPoint 및 기타 Office 프로그램을 사용 하기 시작할 수 있도록 Microsoft 365 for business에 등록 합니다.
   
 비즈니스에 가장 적합 한 세 가지 계획에 대 한 간략 한 개요를 시청 하세요. 자세한 내용을 보려면 아래로 스크롤합니다.
 <br><br>
@@ -59,7 +59,7 @@ ms.locfileid: "42352959"
 
 ::: moniker range="o365-21vianet"
 
-21Vianet에서 운영 하는 Office 365는 중국의 안전 하 고 안정적 이며 확장 가능한 클라우드 서비스에 대 한 요구를 충족 하도록 설계 되었습니다. 이 서비스는 Microsoft가 21Vianet에 허가한 기술을 기반으로 합니다. Microsoft에서는 이 서비스 자체를 운영하지 않습니다. 21Vianet은 서비스 배달을 제공 하 고 관리 합니다. 21Vianet은 중국 최대의 이동 통신 사업자 중립 인터넷 데이터 센터 서비스 공급자로서 호스팅, 관리되는 네트워크 서비스 및 클라우드 컴퓨팅 인프라 서비스를 제공합니다. Microsoft의 기술에 따라 21Vianet은 로컬 Office 365 데이터 센터를 운영 하 여 Office 365 서비스를 사용할 수 있도록 하 되, 중국에 데이터가 유지 됩니다. 또한 21Vianet에서는 구독 및 대금 청구 서비스 뿐만 아니라 지원도 제공 합니다.
+21Vianet에서 운영 하는 Office 365는 중국의 안전 하 고 안정적 이며 확장 가능한 클라우드 서비스에 대 한 요구를 충족 하도록 설계 되었습니다. 이 서비스는 Microsoft가 21Vianet에 허가한 기술을 기반으로 합니다. Microsoft에서는 이 서비스 자체를 운영하지 않습니다. 21Vianet은 서비스 배달을 제공 하 고 관리 합니다. 21Vianet은 중국 최대의 이동 통신 사업자 중립 인터넷 데이터 센터 서비스 공급자로서 호스팅, 관리되는 네트워크 서비스 및 클라우드 컴퓨팅 인프라 서비스를 제공합니다. Microsoft의 기술에 따라 21Vianet은 로컬 Microsoft 데이터 센터를 운영 하 여 Microsoft 서비스를 사용할 수 있는 동시에 중국에 보관 합니다. 또한 21Vianet에서는 구독 및 대금 청구 서비스 뿐만 아니라 지원도 제공 합니다.
   
 > [!NOTE]
 > 이러한 서비스는 중국 법을 따릅니다.
@@ -75,7 +75,7 @@ ms.locfileid: "42352959"
 
 구입 하기 전에 등록할 계획에 대해 생각해 야 합니다. 나중에 생길 수도 있는 문제를 방지하는 데 도움이 됩니다.
 
-Office 365 비즈니스 계획을 선택 하는 방법에 대 한 간단한 비디오를 시청 하세요.<br><br>
+Microsoft 365 for business 요금제를 선택 하는 방법에 대 한 간단한 비디오를 시청 하세요.<br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/906be77d-ded6-48fb-a25f-da110f787282]
 
@@ -129,9 +129,9 @@ Office 365 비즈니스 계획을 선택 하는 방법에 대 한 간단한 비�
   - 필요한 경우 구독에 대해 연락받을 수 있는 **전자 메일** 및 **전화 번호**. 예를 들어 암호를 잊어버린 경우 Microsoft는 이 정보를 사용하여 임시 암호를 보내 드립니다. 또한 지정한 전자 메일 주소로 청구 정보도 보내 드립니다.
 
     > [!NOTE]
-    > 여기에 입력하는 전자 메일 주소는 Office 365 전자 메일 주소(아래의 로그인 이름)와는 다릅니다. 이 주소로 청구 정보도 전송되므로, 비즈니스 전자 메일을 받기에 적합한 주소를 사용하는 것이 좋습니다.
+    > 여기에 입력 하는 전자 메일 주소는 Microsoft 365 전자 메일 주소 (아래의 로그인 이름)와 다릅니다. 이 주소로 청구 정보도 전송되므로, 비즈니스 전자 메일을 받기에 적합한 주소를 사용하는 것이 좋습니다.
   
-- **로그인 이름 (사용자 ID):** 이렇게 하면 초기 Office 365 전자 메일 주소가 되기 때문에 빠르게 시작할 수 있습니다.
+- **로그인 이름 (사용자 ID):** 이는 초기 Microsoft 365 전자 메일 주소가 되기 때문에 빨리 시작 하기 위한 것입니다.
 
     로그인 하는 데 사용 하는 전자 메일 주소입니다. 예를 들어 회사 이름이 Fourth Coffee인 경우 사용자 ID로 rob@fourthcoffee.onmicrosoft.com을 선택할 수 있습니다.
 
@@ -146,4 +146,4 @@ Office 365 비즈니스 계획을 선택 하는 방법에 대 한 간단한 비�
 
 ## <a name="see-also"></a>참고 항목
 
-[Microsoft 365 Business 교육 비디오](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Microsoft 365 for business 교육용 비디오](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

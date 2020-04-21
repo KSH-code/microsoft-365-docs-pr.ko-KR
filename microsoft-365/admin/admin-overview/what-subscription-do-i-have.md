@@ -1,5 +1,5 @@
 ---
-title: 나에게 어떤 Office 365 비즈니스 에디션 구독이 있나요?
+title: 내가 구독한 것은 무엇인가요?
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -22,18 +22,18 @@ search.appverid:
 ms.assetid: 092252f8-08df-4cdb-a8d2-b8653caa29a1
 description: 구독 페이지로 이동 하 여 조직에 있는 구독을 확인 하는 방법을 알아봅니다.
 ms.custom: okr_SMB
-ms.openlocfilehash: dad08784a775e590972d1f5dd554aeb2d147c28b
-ms.sourcegitcommit: 9c335d110e0b499501edc8a31b987641819118a1
+ms.openlocfilehash: a8ebff405d57578142318a2111db1dcb53d54435
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "42409503"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43621433"
 ---
 # <a name="what-subscription-do-i-have"></a>내가 구독한 것은 무엇인가요?
 
 관리자 인 경우 관리 센터로 이동 하 여 조직에 있는 구독을 확인할 수 있습니다.
   
- **관리자가 아니세요?** [어떤 Office 365 비즈니스 제품 또는 라이선스가 있나요?를](https://support.office.com/article/f8ab5e25-bf3f-4a47-b264-174b1ee925fd.aspx) 확인 하세요.
+ **관리자가 아니세요?** [사용 중인 비즈니스 제품 또는 라이선스에 대 한 Microsoft 365를 확인 하세요](https://support.office.com/article/f8ab5e25-bf3f-4a47-b264-174b1ee925fd.aspx) .
 
 ::: moniker range="o365-worldwide"
 
@@ -50,7 +50,7 @@ ms.locfileid: "42409503"
 
 1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">구독</a> 페이지로 이동 합니다.  
 
-2. 구독이 하나뿐인 경우에는 구독의 이름, 정보 및 상태와 함께 **구독** 페이지에 표시됩니다. 다음 스크린샷에서 Office 365 Business 구독을 확인할 수 있습니다.
+2. 구독이 하나뿐인 경우에는 구독의 이름, 정보 및 상태와 함께 **구독** 페이지에 표시됩니다. 다음 스크린샷에서는 Microsoft 365 비즈니스용 business 구독을 보유 하 고 있는지 확인할 수 있습니다.
 
     ![The Subscriptions page that shows which subscription you have as well as its status.](../../media/4d51dfcc-e9f3-4414-964a-6ef182f49eba.png)
   
@@ -69,7 +69,7 @@ ms.locfileid: "42409503"
 
 1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">구독</a> 페이지로 이동 합니다.  
 
-2. 구독이 하나뿐인 경우에는 구독의 이름, 정보 및 상태와 함께 **구독** 페이지에 표시됩니다. 다음 스크린샷에서 Office 365 Business 구독을 확인할 수 있습니다.
+2. 구독이 하나뿐인 경우에는 구독의 이름, 정보 및 상태와 함께 **구독** 페이지에 표시됩니다. 다음 스크린샷에서는 Microsoft 365 비즈니스용 business 구독을 보유 하 고 있는지 확인할 수 있습니다.
 
     ![The Subscriptions page that shows which subscription you have as well as its status.](../../media/4d51dfcc-e9f3-4414-964a-6ef182f49eba.png)
   

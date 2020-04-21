@@ -15,28 +15,28 @@ localization_priority: Normal
 search.appverid:
 - MET150
 ms.assetid: 393b0050-7c7e-49e6-a03d-b1e09fe4de9e
-description: 이 소개 문서는 EOP (Exchange Online Protection) 및 몇 가지 중요 한 용어를 이해 하는 데 도움이 됩니다. 이 기능은 exchange Online 클라우드 호스팅 사서함을 보호 하는 Office 365 고객 및 Exchange Server 2016와 같은 온-프레미스 사서함을 보호 하는 EOP 독립 실행형 고객에 게 적용 됩니다.
-ms.openlocfilehash: b1a8e9360005b31cf03c5e9921e3285ff7119926
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+description: '이 소개 문서는 EOP (Exchange Online Protection) 및 몇 가지 중요 한 용어를 이해 하는 데 도움이 됩니다. 이는 exchange Online 클라우드 호스트 사서함을 보호 하는 고객 및 온-프레미스 사서함 (예: Exchange Server 2016)을 보호 하는 EOP 독립 실행형 고객에 게 적용 됩니다.'
+ms.openlocfilehash: dc08507a80db8e15d2e08ff5b954dec1905cfada
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597995"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43630920"
 ---
 # <a name="what-is-exchange-online-protection-eop"></a>EOP (Exchange Online Protection)
 
-EOP (Exchange Online Protection)는 스팸 및 맬웨어로부터 조직을 보호 하는 클라우드 기반 전자 메일 필터링 서비스입니다. Office 365에 사서함이 있는 경우 서비스의 일부인 것 이므로 EOP에 의해 자동으로 보호 됩니다. 여기에는 Office 365 및 온-프레미스 둘 다에 사서함이 있는 조직이 포함 되며, 이러한 조직은 일반적으로 하이브리드 시나리오 라고 합니다. 또한 클라우드에서 사서함이 없지만 온-프레미스 사서함을 보호 하려는 고객에 게는 EOP 독립 실행형을 사용할 수 있습니다.
+EOP (Exchange Online Protection)는 스팸 및 맬웨어로부터 조직을 보호 하는 클라우드 기반 전자 메일 필터링 서비스입니다. Microsoft 365에 사서함이 있는 경우 서비스의 일부인 것 이므로 EOP에 의해 자동으로 보호 됩니다. 여기에는 Microsoft 365 및 온-프레미스 둘 다에 사서함이 있는 조직이 포함 되며, 이러한 조직은 일반적으로 하이브리드 시나리오 라고 합니다. 또한 클라우드에서 사서함이 없지만 온-프레미스 사서함을 보호 하려는 고객에 게는 EOP 독립 실행형을 사용할 수 있습니다.
 
 EOP에서 정크 메일 필터링을 시도 하며, 받은 편지함에 사용자가 원하지 않는 콘텐츠가 모두 표시 되지 않도록 합니다. 일반적으로 정크 메일은 정크 메일 폴더로 배달 됩니다. 사용자가 정크 메일 폴더에서 원하는 작업을 수행 하 고 있는지 확인 하려는 일부 사용자는 자신의 직접 확인을 위한 편리한 방법입니다.  
 
 > [!TIP]
-> 정크 메일 또는 메일 폴더로 잘못 된 전자 메일이 자동으로 배달 되는 경우에는 좋은 방법입니다. 서비스는 기본 또는 사용자 지정 관리자 설정 상태에 따라 필요한 작업을 수행 합니다. 즉, 사용자는 정크 메일 폴더에 많은 스팸 메일을 표시 하는 것을 걱정할 필요가 없습니다. 관리자가 모든 정크 메일을 더 이상 이동 하지 않으려면 격리를 구성 해야 합니다. 자세한 내용은 [Office 365에서 전자 메일 메시지 격리](quarantine-email-messages.md) 문서를 참조 하세요.
+> 정크 메일 또는 메일 폴더로 잘못 된 전자 메일이 자동으로 배달 되는 경우에는 좋은 방법입니다. 서비스는 기본 또는 사용자 지정 관리자 설정 상태에 따라 필요한 작업을 수행 합니다. 즉, 사용자는 정크 메일 폴더에 많은 스팸 메일을 표시 하는 것을 걱정할 필요가 없습니다. 관리자가 모든 정크 메일을 더 이상 이동 하지 않으려면 격리를 구성 해야 합니다. 자세한 내용은 [전자 메일 메시지 격리](quarantine-email-messages.md) 문서를 참조 하세요.
 
 ## <a name="important-terms"></a>중요 한 용어
 
-**Inbound**: Office 365로 들어오는 메시지입니다.
+**Inbound**: Microsoft 365로 들어오는 메시지입니다.
 
-**Outbound**: Office 365에서 나가는 메시지입니다.
+**Outbound**: Microsoft 365에서 나가는 메시지입니다.
 
 **Internal**: 조직 내부에 있는 사람이 조직 내부의 사람에 게 보내는 메시지입니다. 여기에는 하이브리드 시나리오에 있고 하나의 사서함이 온-프레미스이 고 다른 사서함이 클라우드에 있을 수 있는 고객도 포함 됩니다.
 

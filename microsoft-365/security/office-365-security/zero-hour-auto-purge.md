@@ -18,25 +18,25 @@ search.appverid:
 ms.assetid: 96deb75f-64e8-4c10-b570-84c99c674e15
 ms.collection:
 - M365-security-compliance
-description: 0 시간 자동 삭제 (ZAP)는 Exchange Online으로 이미 배달 된 스팸, 맬웨어 또는 피싱 메시지를 감지 하는 Office 365의 전자 메일 보호 기능입니다. ZAP이 수행 하는 방법은 검색 된 악의적인 콘텐츠의 유형에 따라 다릅니다.
-ms.openlocfilehash: 44bdab5d37863bc543d953a89ac3129b3530437d
-ms.sourcegitcommit: d767c288ae34431fb046f4cfe36cec485881385f
+description: 0 시간 자동 삭제 (ZAP)는 Exchange Online으로 이미 배달 된 스팸, 맬웨어 또는 피싱 메시지를 검색 하는 Microsoft 365의 전자 메일 보호 기능입니다. ZAP이 수행 하는 방법은 검색 된 악의적인 콘텐츠의 유형에 따라 다릅니다.
+ms.openlocfilehash: a819269d8596f12e76cbd17b5d1302cd56837f14
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "43516776"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43630812"
 ---
-# <a name="zero-hour-auto-purge-zap---protection-against-spam-and-malware-in-office-365"></a>제로 시간 자동 삭제 (ZAP)-Office 365의 스팸 및 맬웨어에 대 한 보호
+# <a name="zero-hour-auto-purge-zap---protection-against-spam-and-malware-in-microsoft-365"></a>제로 시간 자동 삭제 (ZAP)-Microsoft 365의 스팸 및 맬웨어에 대 한 보호
 
 ## <a name="overview"></a>개요
 
-0 시간 자동 삭제 (ZAP)는 retroactively에서 Exchange Online 사서함으로 이미 배달 된 악의적인 피싱, 스팸 또는 맬웨어 메시지를 감지 하 고 neutralizes 하는 Office 365의 전자 메일 보호 기능입니다.
+0 시간 자동 삭제 (ZAP)는 retroactively에서 Exchange Online 사서함으로 이미 배달 된 악의적인 피싱, 스팸 또는 맬웨어 메시지를 검색 하 고 neutralizes 하는 Microsoft 365의 전자 메일 보호 기능입니다.
 
-ZAP은 Exchange Online 사서함이 포함 된 모든 Office 365 구독에 포함 된 기본 EOP (Exchange Online Protection)에서 사용할 수 있습니다. ZAP은 온-프레미스 Exchange 사서함을 보호 하는 독립 실행형 EOP 환경에서 작동 하지 않습니다.
+ZAP은 Exchange Online 사서함이 포함 된 Microsoft 365 구독에 포함 된 기본 EOP (Exchange Online Protection)에서 사용할 수 있습니다. ZAP은 온-프레미스 Exchange 사서함을 보호 하는 독립 실행형 EOP 환경에서 작동 하지 않습니다.
 
 ## <a name="how-zap-works"></a>ZAP 작동 방식
 
-Office 365는 스팸 및 맬웨어 서명을 매일 실시간으로 업데이트 합니다. 그러나 사용자에 게 콘텐츠를 배달 한 후에 weaponized를 포함 하 여 여러 가지 이유로 인해 여전히 악의적인 메시지를 받을 수 있습니다. ZAP은 Office 365 스팸 및 맬웨어 서명에 대 한 업데이트를 지속적으로 모니터링 하 여이 문제를 해결 합니다. ZAP은 이미 사용자의 사서함에 있는 메시지를 찾아 제거할 수 있습니다.
+Microsoft 365는 스팸 및 맬웨어 서명을 매일 실시간으로 업데이트 합니다. 그러나 사용자에 게 콘텐츠를 배달 한 후에 weaponized를 포함 하 여 여러 가지 이유로 인해 여전히 악의적인 메시지를 받을 수 있습니다. ZAP은 마이크로 Sfot 365 스팸 및 맬웨어 서명에 대 한 업데이트를 지속적으로 모니터링 하 여이 문제를 해결 합니다. ZAP은 이미 사용자의 사서함에 있는 메시지를 찾아 제거할 수 있습니다.
 
 사용자가 ZAP 작업을 원활 하 게 수행할 수 있습니다. 메시지를 검색 하 고 이동한 경우 알림을 받지 않습니다.
 
@@ -46,7 +46,7 @@ Office 365는 스팸 및 맬웨어 서명을 매일 실시간으로 업데이트
 
 배달 후 맬웨어가 포함 되는 것으로 확인 된 **읽음 또는 읽지 않은 메시지** 에 대해 ZAP 설정별가 맬웨어 첨부 파일을 포함 하는 메시지를 표시 합니다. 관리자만 격리에서 맬웨어 메시지를 보고 관리할 수 있습니다.
 
-맬웨어 ZAP은 맬웨어 방지 정책에서 기본적으로 사용 하도록 설정 됩니다. 자세한 내용은 [Office 365에서 맬웨어 방지 정책 구성을](configure-anti-malware-policies.md)참조 하세요.
+맬웨어 ZAP은 맬웨어 방지 정책에서 기본적으로 사용 하도록 설정 됩니다. 자세한 내용은 [Microsoft 365에서 맬웨어 방지 정책 구성을](configure-anti-malware-policies.md)참조 하세요.
 
 ### <a name="phish-zap"></a>피싱 ZAP
 
@@ -54,13 +54,13 @@ Office 365는 스팸 및 맬웨어 서명을 매일 실시간으로 업데이트
 
 - **X-헤더 추가**( **제목 줄 앞에 텍스트 포함**): ZAP이 메시지에 대해 작업을 수행 하지 않습니다.
 
-- **정크 메일로 메시지 이동**: ZAP 사서함에서 정크 메일 규칙을 사용 하는 경우 (기본적으로 사용 하도록 설정 되어 있음) 메시지를 정크 메일 폴더로 이동 합니다. 자세한 내용은 [Office 365에서 Exchange Online 사서함에 대한 정크 메일 설정 구성하기](configure-junk-email-settings-on-exo-mailboxes.md)를 참조하세요.
+- **정크 메일로 메시지 이동**: ZAP 사서함에서 정크 메일 규칙을 사용 하는 경우 (기본적으로 사용 하도록 설정 되어 있음) 메시지를 정크 메일 폴더로 이동 합니다. 자세한 내용은 [Microsoft 365에서 Exchange Online 사서함의 정크 메일 설정 구성을](configure-junk-email-settings-on-exo-mailboxes.md)참조 하세요.
 
 - **전자 메일 주소로 메시지 리디렉션**, **메시지 삭제**, **격리 메시지**: ZAP 설정별 메시지 관리자만 격리 된 피싱 메시지를 보고 관리할 수 있습니다.
 
 기본적으로 스팸 방지 정책에서 피싱 ZAP을 사용 하도록 설정 되어 있으며 **피싱 전자 메일** 필터링 결과의 기본 작업은 **메시지를 격리**하며,이는 메시지를 기본적으로 피싱 ZAP 설정별 한다는 것을 의미 합니다.
 
-스팸 필터링 verdicts을 구성 하는 방법에 대 한 자세한 내용은 [Configure 안티스팸 information In Office 365](configure-your-spam-filter-policies.md)을 참조 하십시오.
+스팸 필터링 verdicts 구성에 대 한 자세한 내용은 [Microsoft 365에서 스팸 방지 정책 구성을](configure-your-spam-filter-policies.md)참조 하세요.
 
 ### <a name="spam-zap"></a>스팸 ZAP
 
@@ -68,13 +68,13 @@ Office 365는 스팸 및 맬웨어 서명을 매일 실시간으로 업데이트
 
 - **X-헤더 추가**( **제목 줄 앞에 텍스트 포함**): ZAP이 메시지에 대해 작업을 수행 하지 않습니다.
 
-- **정크 메일로 메시지 이동**: ZAP 사서함에서 정크 메일 규칙을 사용 하는 경우 (기본적으로 사용 하도록 설정 되어 있음) 메시지를 정크 메일 폴더로 이동 합니다. 자세한 내용은 [Office 365에서 Exchange Online 사서함에 대한 정크 메일 설정 구성하기](configure-junk-email-settings-on-exo-mailboxes.md)를 참조하세요.
+- **정크 메일로 메시지 이동**: ZAP 사서함에서 정크 메일 규칙을 사용 하는 경우 (기본적으로 사용 하도록 설정 되어 있음) 메시지를 정크 메일 폴더로 이동 합니다. 자세한 내용은 [Microsoft 365에서 Exchange Online 사서함의 정크 메일 설정 구성을](configure-junk-email-settings-on-exo-mailboxes.md)참조 하세요.
 
 - **전자 메일 주소로 메시지 리디렉션**, **메시지 삭제**, **격리 메시지**: ZAP 설정별 메시지 최종 사용자는 자신의 스팸 격리 된 메시지를 보고 관리할 수 있습니다.
 
 기본적으로 스팸 방지 정책에서 스팸 ZAP을 사용 하도록 설정 되어 있으며 스팸 필터링 결과의 기본 작업은 **정크 메일 폴더로 메시지를 이동**하는 것으로 **, 스팸 zap** 은 **읽지 않은** 메시지를 정크 메일 폴더로 이동 합니다.
 
-스팸 필터링 verdicts을 구성 하는 방법에 대 한 자세한 내용은 [Configure 안티스팸 information In Office 365](configure-your-spam-filter-policies.md)을 참조 하십시오.
+스팸 필터링 verdicts 구성에 대 한 자세한 내용은 [Microsoft 365에서 스팸 방지 정책 구성을](configure-your-spam-filter-policies.md)참조 하세요.
 
 ### <a name="zap-considerations-for-office-365-advanced-threat-protection-atp"></a>Office 365 ATP (Advanced Threat Protection)에 대 한 ZAP 고려 사항
 
@@ -90,7 +90,7 @@ ZAP이 메시지를 이동 했는지 확인 하려면 [위협 방지 상태 보�
 
 A: 일반적인 보고 프로세스는 [가양성](report-junk-email-messages-to-microsoft.md)에 따라 수행 해야 합니다. 메시지를 받은 편지함에서 정크 메일 폴더로 이동 하는 유일한 이유는 서비스가 스팸 또는 악성 메시지를 받는 것으로 확인 되었기 때문입니다.
 
-### <a name="q-what-if-i-use-the-office-365-quarantine-instead-of-the-junk-mail-folder"></a>Q: 정크 메일 폴더 대신 Office 365 검역을 사용 하는 경우는 어떻게 하나요?
+### <a name="q-what-if-i-use-the-quarantine-folder-instead-of-the-junk-mail-folder"></a>Q: 정크 메일 폴더 대신 Quarantine 폴더를 사용 하는 경우에는 어떻게 하나요?
 
 A: ZAP은이 항목의 앞부분에서 설명한 대로, 스팸 방지 정책 구성을 기반으로 메시지에 대해 작업을 수행 합니다.
 

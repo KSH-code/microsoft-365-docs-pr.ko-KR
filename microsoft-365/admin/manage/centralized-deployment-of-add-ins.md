@@ -18,24 +18,24 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: b4527d49-4073-4b43-8274-31b7a3166f92
-description: Office 365 테 넌 트 및 사용자가 요구 사항을 충족 하는지 확인 하 여 중앙 집중식 배포를 사용 하 여 Office 추가 기능을 배포할 수 있도록 합니다.
-ms.openlocfilehash: a3005d02522d0a2b22b1ca337d8f49ce7fa20fb3
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+description: 중앙 집중식 배포를 사용 하 여 Office 추가 기능을 배포할 수 있도록 테 넌 트 및 사용자가 요구 사항을 충족 하는지 확인 합니다.
+ms.openlocfilehash: 10dd97adf67cf3aeb91337fb251e7cebffdce56c
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43209751"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43628235"
 ---
 # <a name="determine-if-centralized-deployment-of-add-ins-works-for-your-organization"></a>추가 기능의 중앙 집중식 배포가 조직에 맞게 작동 하는지 확인
 
-중앙 집중식 배포는 대부분의 고객이 Office 365 조직 내에서 사용자 및 그룹에 Office 추가 기능을 배포하는 데 권장되고 가장 기능이 풍부한 방법입니다. 관리자 인 경우이 지침을 사용 하 여 테 넌 트 및 사용자가 요구 사항을 충족 하는지 확인 하 여 중앙 집중식 배포를 사용할 수 있도록 합니다.
+중앙 집중식 배포는 대부분의 고객이 조직 내의 사용자 및 그룹에 Office 추가 기능을 배포 하는 데 권장 되 고 대부분의 기능을 많이 사용 하는 방법입니다. 관리자 인 경우이 지침을 사용 하 여 테 넌 트 및 사용자가 요구 사항을 충족 하는지 확인 하 여 중앙 집중식 배포를 사용할 수 있도록 합니다.
 중앙 집중식 배포는 Windows, Mac, iOS, Android 및 온라인 Office 앱을 지원 합니다.
-모든 사용자의 클라이언트에 대해 추가 기능을 표시 하는 데 최대 24 시간이 걸릴 수 있습니다.
+모든 사용자에 대해 클라이언트에 대해 추가 기능을 표시 하는 데 최대 12 시간이 걸릴 수 있습니다.
   
 ## <a name="requirements"></a>요구 사항
 
-추가 기능의 중앙 집중식 배포를 수행 하려면 사용자가 Office 365 ProPlus를 사용 하 고, 조직 ID를 사용 하 여 Office에 로그인 하 고, Exchange Online 및 active Exchange Online 사서함이 있어야 합니다. 구독 디렉터리는에 있거나 Azure Active Directory에 페더레이션 되어 있어야 합니다.
-아래의 Office 및 Exchange에 대 한 특정 요구 사항을 보거나 [office 365 중앙 집중식 배포 호환성 검사](https://docs.microsoft.com/office365/admin/manage/centralized-deployment-of-add-ins?view=o365-worldwide#office-365-centralized-deployment-compatibility-checker)를 사용할 수 있습니다.
+추가 기능의 중앙 집중식 배포에서는 사용자가 Microsoft 365 앱 for enterprise (및 조직 ID를 사용 하 여 Office에 로그인)를 사용 하 고 있으며 Exchange Online 및 active Exchange Online 사서함이 있어야 합니다. 구독 디렉터리는 내에 있거나 Azure Active Directory에 페더레이션 되어 있어야 합니다.
+아래의 Office 및 Exchange에 대 한 특정 요구 사항을 보거나 [중앙 집중식 배포 호환성 검사](https://docs.microsoft.com/office365/admin/manage/centralized-deployment-of-add-ins?view=o365-worldwide#office-365-centralized-deployment-compatibility-checker)를 사용할 수 있습니다.
 
 중앙 집중식 배포는 다음을 지원하지 않습니다.
   
@@ -49,16 +49,16 @@ ms.locfileid: "43209751"
    
 - COM(구성 요소 개체 모델) 또는 VSTO(Visual Studio Tools for Office) 추가 기능의 배포
     
-- Office 365 Business와 같은 Exchange를 포함하지 않는 Office 365 배포
+- 비즈니스를 위한 Microsoft 365 앱과 같은 Exchange를 포함 하지 않는 Microsoft 365 배포
 
 ### <a name="office-requirements"></a>Office 요구 사항
 
 - Word, Excel 및 PowerPoint 추가 기능의 경우 사용자는 다음 중 하나를 사용 해야 합니다.
-  - Windows 장치에서 Office 365 ProPlus의 버전 1704 이상입니다.
+  - Windows 장치에서 Microsoft 365 앱 for enterprise 버전 1704 이상에 해당 합니다.
   - Mac의 경우 버전 15.34 이상입니다.
 
 - Outlook의 경우 사용자는 다음 중 하나를 사용 해야 합니다. 
-  - Office 365 ProPlus의 버전 1701 이상
+  - Enterprise 용 Microsoft 365 앱 버전 1701 이상
   - Office Professional Plus 2019 또는 Office Standard 2019 버전 1808 이상
   - Office Professional Plus 2016 (MSI) 또는 Office Standard 2016 (MSI) 버전 16.0.4494.1000 이상\*
   - Office Professional Plus 2013 (MSI) 또는 Office Standard 2013 (MSI) 버전 15.0.4937.1000 이상\*
@@ -69,17 +69,17 @@ ms.locfileid: "43209751"
     * MSI 버전의 Outlook에는 "내 추가 기능" 섹션이 아닌 해당 Outlook 리본 메뉴에 관리자가 설치한 추가 기능이 표시 됩니다.
     
 
-#### <a name="find-out-if-office-365-proplus-is-installed"></a>Office 365 ProPlus가 설치되어 있는지 확인
+#### <a name="find-out-if-microsoft-365-apps-for-enterprise-is-installed"></a>Microsoft 365 for enterprise 앱이 설치 되어 있는지 확인
 
-Office 365 ProPlus를 사용 하려면 사용자에 게 Office 365 계정이 있어야 하며 라이선스가 할당 되어 있어야 합니다. 자세한 내용은 [Office 365 ProPlus 개요](https://go.microsoft.com/fwlink/p/?linkid=846328)를 참조하세요.
+Microsoft 365 Apps for enterprise를 사용 하려면 사용자에 게 Microsoft 365 계정이 있고 라이선스가 할당 되어 있어야 합니다. 자세한 내용은 [Overview For Microsoft 365 Apps for enterprise](https://go.microsoft.com/fwlink/p/?linkid=846328)를 참조 하세요.
 
-사용자에 게 Office 365 ProPlus가 설치 되어 있고 최근에 사용 중인 경우 Microsoft 365 관리 센터에서 사용할 수 있는 Microsoft Office 정품 인증 보고서를 사용 하는 것이 가장 간단한 방법입니다. 보고서는 지난 7일, 30일, 90일 또는 180일 이내에 Office 365 ProPlus를 정품 인증한 모든 사용자의 목록을 제공합니다. 중앙 집중식 배포를 위해 Windows 또는 Mac에 대한 데스크톱 정품 인증은 보고서의 중요 열에 있습니다. 보고서를 Excel로 내보낼 수 있습니다. 보고서에 대한 자세한 내용은 [관리 센터의 Office 365 보고서 - Microsoft Office 정품 인증](../activity-reports/microsoft-office-activations.md)을 참조하세요.
+사용자에 게 Microsoft 365 ProPlus가 설치 되어 있고 최근에 사용 중인 경우 microsoft 365 관리 센터에서 사용할 수 있는 Microsoft Office 정품 인증 보고서를 사용 하는 것이 가장 간단한 방법입니다. 이 보고서는 지난 7 일, 30 일, 90 일 또는 180 일 이내에 엔터프라이즈 용 Microsoft 365 앱을 정품 인증 한 모든 사용자의 목록을 제공 합니다. 중앙 집중식 배포를 위해 Windows 또는 Mac에 대한 데스크톱 정품 인증은 보고서의 중요 열에 있습니다. 보고서를 Excel로 내보낼 수 있습니다. 보고서에 대 한 자세한 내용은 [관리 센터의 microsoft 365 보고서-Microsoft Office 정품 인증](../activity-reports/microsoft-office-activations.md)을 참조 하세요.
   
-정품 인증 보고서를 사용 하지 않으려는 경우 사용자에 게 컴퓨터에서 Word와 같은 Office 응용 프로그램을 열도록 요청 하 고 **파일** \> **계정을**선택 하면 됩니다. 다음 이미지에 표시된 것처럼 **제품 정보** 아래에 **구독 제품** 및 **Microsoft Office 365 ProPlus**가 표시됩니다.
+정품 인증 보고서를 사용 하지 않으려는 경우 사용자에 게 컴퓨터에서 Word와 같은 Office 응용 프로그램을 열도록 요청 하 고 **파일** \> **계정을**선택 하면 됩니다. 다음 그림에 나와 있는 것 처럼, **제품 정보**에는 **구독 제품** 및 **microsoft microsoft 365 앱 for enterprise**가 표시 됩니다.
 
 ![Office 응용 프로그램의 제품 정보](../../media/4bff2bb8-0690-4d22-ac1f-b8881807fa39.png)
   
-Office 365 ProPlus에 대한 도움말은 [Office 365 ProPlus에 대한 문제 해결 팁](https://go.microsoft.com/fwlink/p/?linkid=846339)을 참조하세요.
+Microsoft 365 for enterprise 용 앱에 대 한 도움말을 보려면 [microsoft 365 앱 for Enterprise 문제 해결 팁](https://go.microsoft.com/fwlink/p/?linkid=846339)을 참조 하십시오.
 
 
 ### <a name="exchange-online-requirements"></a>Exchange Online 요구 사항
@@ -89,9 +89,9 @@ Microsoft Exchange는 조직 테넌트 내의 매니페스트에 추가 기능�
 조직의 Exchange 관리자에게 문의하여 사용 중인 구성을 확인합니다. 사용자당 OAuth 연결은 [Test-OAuthConnectivity](https://go.microsoft.com/fwlink/p/?linkid=846351) PowerShell cmdlet을 사용하여 확인할 수 있습니다. 
 
 
-### <a name="office-365-centralized-deployment-compatibility-checker"></a>Office 365 중앙 집중식 배포 호환성 검사
+### <a name="centralized-deployment-compatibility-checker"></a>중앙 집중식 배포 호환성 검사
 
-Office 365 중앙 집중식 배포 호환성 검사를 사용하면 테넌트의 사용자가 Word, Excel 및 PowerPoint에 대한 중앙 집중식 배포를 사용하도록 설정되었는지 여부를 확인할 수 있습니다. Outlook 지원에는 호환성 검사가 필요하지 않습니다. [여기](https://aka.ms/officeaddindeploymentorgcompatibilitychecker)에서 호환성 검사를 다운로드하세요.
+중앙 집중식 배포 호환성 검사를 사용 하면 테 넌 트의 사용자가 Word, Excel 및 PowerPoint에 대해 중앙 집중식 배포를 사용 하도록 설정 되어 있는지 여부를 확인할 수 있습니다. Outlook 지원에는 호환성 검사가 필요하지 않습니다. [여기](https://aka.ms/officeaddindeploymentorgcompatibilitychecker)에서 호환성 검사를 다운로드하세요.
   
 #### <a name="run-the-compatibility-checker"></a>호환성 검사 실행
   
@@ -131,7 +131,7 @@ Invoke-CompatibilityCheck
   
 ## <a name="user-and-group-assignments"></a>사용자 및 그룹 할당
 
-중앙 집중식 배포 기능은 현재 Office 365 그룹, 메일 그룹 및 보안 그룹을 비롯하여 Azure Active Directory에서 지원되는 대부분의 그룹을 지원합니다.
+중앙 집중식 배포 기능은 현재 Microsoft 365 그룹, 메일 그룹 및 보안 그룹과 같은 Azure Active Directory에서 지 원하는 대부분의 그룹을 지원 합니다.
   
 > [!NOTE]
 > 비 메일 사용 가능 보안 그룹은 현재 지원되지 않습니다. 
@@ -157,7 +157,7 @@ Invoke-CompatibilityCheck
   
 ### <a name="contacting-microsoft-for-support"></a>Microsoft에 지원 요청
 
-중앙에서 배포 된 웹 (Word, Excel 등)에 Office 앱을 사용 하는 동안 추가 기능을 로드 하는 동안 문제가 발생 하는 경우 Microsoft 지원 서비스에 문의 해야 할 수 있습니다 ([방법 배우기](../contact-support-for-business-products.md)). 지원 티켓의 Office 365 환경에 대한 다음 정보를 제공합니다.
+중앙에서 배포 된 웹 (Word, Excel 등)에 Office 앱을 사용 하는 동안 추가 기능을 로드 하는 동안 문제가 발생 하는 경우 Microsoft 지원 서비스에 문의 해야 할 수 있습니다 ([방법 배우기](../contact-support-for-business-products.md)). 지원 티켓에서 Microsoft 365 환경에 대 한 다음 정보를 제공 합니다.
   
 |**플랫폼**|**디버그 정보**|
 |:-----|:-----|

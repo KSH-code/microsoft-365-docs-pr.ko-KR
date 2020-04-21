@@ -1,5 +1,5 @@
 ---
-title: Office 365에서 사용자 복원
+title: 사용자 복원
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -21,27 +21,27 @@ search.appverid:
 - MOE150
 - GEA150
 ms.assetid: 2c261e42-5dd1-48b0-845f-2a016d29cfc1
-description: 삭제 된 Office 365 사용자 계정 및 모든 관련 데이터를 복원 하는 방법을 알아봅니다.
-ms.openlocfilehash: 385f7938f5e0ce1f3a580d40830124f77454f64d
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+description: 삭제 된 사용자 계정 및 모든 관련 데이터를 복원 하는 방법을 알아봅니다.
+ms.openlocfilehash: 78766f1f6708665271361d542372aa945b0a7e29
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42245670"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43624061"
 ---
-# <a name="restore-a-user-in-office-365"></a>Office 365에서 사용자 복원
+# <a name="restore-a-user"></a>사용자 복원
    
 사용자 계정을 삭제한 후 30일 이내에 복원할 경우 계정 및 모든 관련 데이터가 복원됩니다. 사용자는 같은 회사 또는 학교 계정으로 로그인할 수 있습니다. 해당 사서함이 완전히 복원됩니다. 특정 사용자 계정을 복원할 수 있는 기간이 얼마나 남았는지 확인해야 하는 경우 [Microsoft에 문의](../contact-support-for-business-products.md)하세요.
   
 다음은 몇 가지 팁입니다.
   
-- 계정에 할당할 수 있는 사용 가능한 Office 365 라이선스가 있는지 확인하세요.
+- 계정에 할당할 수 있는 라이선스가 있는지 확인 합니다.
     
 - 회사에서 Active Directory를 사용할 경우, 사용자 계정 복원에 대한 자세한 내용은 [How to troubleshoot deleted user accounts in Office 365](https://support.microsoft.com/kb/2619308)(Office 365에서 삭제된 사용자 계정 문제를 해결하는 방법)를 참조하세요. 
     
 ## <a name="restore-one-or-more-user-accounts"></a>하나 이상의 사용자 계정 복원
 
-이러한 단계를 수행 하려면 Office 365의 전역 관리자 이거나 사용자 관리 관리자 여야 합니다. 
+이러한 단계를 수행 하려면 Microsoft 365 전역 관리자 또는 사용자 관리 관리자 여야 합니다. 
   
  
 ::: moniker range="o365-worldwide"
@@ -117,7 +117,7 @@ ms.locfileid: "42245670"
 
 프록시 주소 충돌은 프록시 주소가 포함된 사용자 계정을 삭제하고 동일한 프록시 주소를 다른 계정에 할당한 후 삭제된 계정을 복원하려고 하는 경우에 발생합니다. 이 문제를 해결하려면 아래 단계를 따르세요.
   
-이 작업을 하려면 Office 365에서 [관리자 권한](about-admin-roles.md)이 있어야 합니다. 
+이 작업을 수행 하려면 Microsoft 365에 [관리자 권한이](about-admin-roles.md) 있어야 합니다. 
   
 
 ::: moniker range="o365-worldwide"
@@ -148,4 +148,3 @@ ms.locfileid: "42245670"
 
 [사용자 삭제](delete-a-user.md)
   
-

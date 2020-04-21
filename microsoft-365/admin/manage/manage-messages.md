@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 97af2932-0868-4ccf-8f6b-21a94946c58a
 description: 변경 관리에 도움이 되도록 메시지 센터 메시지를 관리 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 5b1772eb86acb937d532990830f9220f197c1c00
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 95a4544dd99ebce793242532ae144f00c3b16fcb
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42361933"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43628151"
 ---
 # <a name="manage-messages-in-message-center"></a>메시지 센터에서 메시지 관리
 
@@ -87,13 +87,13 @@ ms.locfileid: "42361933"
   
 1. 메시지를 선택 하 여 열고 **공유**를 선택 합니다.
   
-2. 메시지를 공유 하려면 전자 메일 주소를 각각 콜론으로 구분 하 여 입력 합니다. 전자 메일 주소를 개인 및 그룹으로 보낼 수 있습니다. 원하는 경우 전자 메일의 메시지 복사본을 받도록 선택할 수도 있고 (메시지가 Office 365의 기본 전자 메일 주소로 이동 됨) 개인 메시지를 추가 하 여 받는 사람에 게 더 많은 컨텍스트를 제공할 수 있습니다.
+2. 메시지를 공유 하려면 전자 메일 주소를 각각 콜론으로 구분 하 여 입력 합니다. 전자 메일 주소를 개인 및 그룹으로 보낼 수 있습니다. 필요한 경우 메시지 복사본을 전자 메일 (기본 전자 메일 주소로 이동)으로 받거나 개인 메시지를 추가 하 여 받는 사람에 게 더 많은 컨텍스트를 제공 하도록 선택할 수 있습니다.
   
 3. **공유** 를 선택 하 여 전자 메일을 보냅니다.
     
 ## <a name="get-a-link"></a>링크 가져오기
 
-다른 관리자와 함께 추가 작업을 수행 해야 변경 내용을 확인 하 고 조치를 취할 수 있습니다. 사용자를 해당 메시지에 직접 연결 하는 것과 같이 전자 메일 또는 인스턴트 메시징에 공유 하기 위한 링크를 생성할 수 있습니다. 링크를 공유 하는 사람은 조직에 대해 Office 365의 관리자 이거나 연결 된 메시지에 액세스할 수 없습니다.
+다른 관리자와 함께 추가 작업을 수행 해야 변경 내용을 확인 하 고 조치를 취할 수 있습니다. 사용자를 해당 메시지에 직접 연결 하는 것과 같이 전자 메일 또는 인스턴트 메시징에 공유 하기 위한 링크를 생성할 수 있습니다. 링크를 공유한 사람은 조직에 대해 Microsoft 365의 관리자 이거나 연결 된 메시지에 액세스할 수 없습니다.
 
 ::: moniker range="o365-worldwide"
 
@@ -213,5 +213,5 @@ ms.locfileid: "42361933"
 
 ::: moniker-end
 
-메시지 센터에 대 한 개요는 [Office 365의 메시지 센터](message-center.md)를 참조 하세요. 또는 메시지 센터 게시물에 대 한 기계 번역을 사용 하도록 언어 기본 설정을 지정 하는 방법에 [대 한 자세한 내용은 message center 게시물에 대 한 언어 번역](language-translation-for-message-center-posts.md)를 참조 하세요. 실시간 서비스 상태 정보 및 메시지 센터 통신을 가져오는 다른 방법을 프로그래밍 하려면 [Office 365 서비스 통신 API 개요](https://go.microsoft.com/fwlink/p/?linkid=848507)를 참조 하세요.
+메시지 센터에 대 한 개요는 [Microsoft 365의 메시지 센터](message-center.md)를 참조 하세요. 또는 메시지 센터 게시물에 대 한 기계 번역을 사용 하도록 언어 기본 설정을 지정 하는 방법에 [대 한 자세한 내용은 message center 게시물에 대 한 언어 번역](language-translation-for-message-center-posts.md)를 참조 하세요. 실시간 서비스 상태 정보 및 메시지 센터 통신을 가져오는 다른 방법을 프로그래밍 하려는 경우에는 [Microsoft 365 서비스 통신 API 개요](https://go.microsoft.com/fwlink/p/?linkid=848507)를 참조 하세요.
   

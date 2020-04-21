@@ -1,5 +1,5 @@
 ---
-title: Office 365에서 사용자가 암호를 직접 재설정할 수 있도록 지원
+title: 사용자가 암호를 직접 재설정할 수 있도록 허용
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: 5bc3f460-13cc-48c0-abd6-b80bae72d04a
 description: 셀프 서비스 암호 재설정 도구를 사용 하 여 암호를 다시 설정 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 666d3843f7917cf9bd5718c0ce29f87f93d6effe
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+ms.openlocfilehash: beffbcac997806f0c13347dfba42a1ab0ec65c1d
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43211898"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43617149"
 ---
 # <a name="let-users-reset-their-own-passwords"></a>사용자가 암호를 직접 재설정할 수 있도록 허용
 
@@ -36,7 +36,7 @@ ms.locfileid: "43211898"
   
 알아야 할 몇 가지 사항은 다음과 같습니다.
   
-- 모든 Office 365 비즈니스, 교육 또는 비영리 기관용 요금제에서는 클라우드 사용자에 대한 셀프 서비스 암호 재설정을 **무료** 로 제공합니다. 이 기능은 Office 365 평가판에서는 작동하지 않습니다. 
+- Microsoft 365 비즈니스, 교육 또는 비영리 유료 요금제를 사용 하 여 클라우드 사용자에 대 한 셀프 서비스 암호 재설정을 **사용할** 수 있습니다. Microsoft 365 평가판에서는 작동 하지 않습니다. 
     
 - Azure를 사용합니다. 이러한 단계를 수행할 때 자동으로 Azure의 이 기능을 **무료** 로 이용할 수 있습니다. 다른 Azure 기능을 사용하지 않으면 셀프 서비스 암호 재설정을 사용하는 비용이 부과되지 않습니다. 
     

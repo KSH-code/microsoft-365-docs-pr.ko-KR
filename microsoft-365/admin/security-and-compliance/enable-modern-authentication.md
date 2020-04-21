@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 7dc1c01a-090f-4971-9677-f1b192d6c910
 description: Microsoft Office 2013이 설치 된 장치에 대해 최신 인증을 사용 하도록 레지스트리 키를 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: f1264affa5be93b19e564a0edea00bfb78f452f1
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 8dec8174d5f39d8fecd6b2a7340d69dbcd421357
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42248006"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627731"
 ---
 # <a name="enable-modern-authentication-for-office-2013-on-windows-devices"></a>Windows 장치에서 Office 2013에 대해 최신 인증 사용
 
@@ -39,10 +39,10 @@ Microsoft Office 2013이 설치되었고 Windows를 실행 중인 장치(예: �
   
 |**레지스트리 키**|**유형**|**값** |
 |:-------|:------:|--------:|
-|HKCU\SOFTWARE\Microsoft\Office\15.0\Common\Identity\EnableADAL  |REG_DWORD  |개  |
-|HKCU\SOFTWARE\Microsoft\Office\15.0\Common\Identity\Version |REG_DWORD |개 |
+|HKCU\SOFTWARE\Microsoft\Office\15.0\Common\Identity\EnableADAL  |REG_DWORD  |1   |
+|HKCU\SOFTWARE\Microsoft\Office\15.0\Common\Identity\Version |REG_DWORD |1  |
    
-레지스트리 키를 설정했으면 Office 365와 함께 [MFA(다단계 인증)](set-up-multi-factor-authentication.md)를 사용하도록 Office 2013 장치 앱을 설정할 수 있습니다. 
+레지스트리 키를 설정한 후에는 Microsoft 365와 함께 [MFA (다단계 인증)](set-up-multi-factor-authentication.md) 를 사용 하도록 Office 2013 장치 앱을 설정할 수 있습니다. 
   
 현재 클라이언트 앱에 로그인한 경우 변경 내용을 적용하려면 로그아웃 후 다시 로그인해야 합니다. 그러지 않으면 ADAL ID가 설정될 때까지 MRU 및 로밍 설정을 사용할 수 없습니다.
   

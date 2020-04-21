@@ -17,12 +17,12 @@ ms.assetid: e47e838c-d99e-4c0b-b9aa-e66c4fae902f
 ms.collection:
 - M365-security-compliance
 description: 보안 &amp; 및 준수 센터에서 Office 365 Advanced Threat Protection에 대 한 보고서를 찾아서 사용 합니다.
-ms.openlocfilehash: b91fb8d000b610439618be687e36dabc787ebb58
-ms.sourcegitcommit: 9ed3283dd6dd959faeca5c22613f9126261b9590
+ms.openlocfilehash: cca2729918239eee7d27973cd28be16a534e461b
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43528980"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631064"
 ---
 # <a name="view-reports-for-office-365-advanced-threat-protection"></a>Office 365 Advanced Threat Protection에 대 한 보고서 보기
 
@@ -107,9 +107,9 @@ ATP 보고서에는 다음이 포함 됩니다.
 이 보고서를 보려면 [보안 &amp; 및 준수 센터](https://protection.office.com)에서 **보고서** \> **대시보드** \> **ATP 파일 형식**으로 이동 합니다.
 
 ![ATP 파일 형식 보고서](../../media/6e3f5d33-79aa-4b2d-938c-6ef135d9e54c.png)
-
-특정 날짜를 마우스로 가리키면 [ATP 수신 허용 첨부 파일](atp-safe-attachments.md) 및 [Office 365의 스팸 &amp; 방지 바이러스 백신 보호 기능](anti-spam-and-anti-malware-protection.md)에서 검색 된 악의적인 파일의 유형을 확인할 수 있습니다.
-
+  
+특정 날짜를 가리키면 [ATP 안전한 첨부 파일](atp-safe-attachments.md) 및 [ &amp; 스팸 방지 맬웨어 방지 보호](anti-spam-and-anti-malware-protection.md)에서 검색 된 악의적인 파일의 유형을 확인할 수 있습니다.
+  
 ![ATP 파일 형식 하루에 대 한 보고서 데이터](../../media/10d18428-699a-41d2-a73e-be3a8214ada1.png)
 
 ## <a name="atp-message-disposition-report"></a>ATP 메시지 폐기 보고서
@@ -158,7 +158,7 @@ ATP 보고서에는 다음이 포함 됩니다.
 
 자세한 내용은 다음 리소스를 참조하세요.
 
-- [Permissions in the Office 365 Security &amp; Compliance Center](permissions-in-the-security-and-compliance-center.md)
+- [보안 &amp; 및 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)
 
 - [Exchange Online의 기능 사용 권한](https://docs.microsoft.com/exchange/permissions-exo/feature-permissions)
 
@@ -168,8 +168,8 @@ ATP 보고서에 데이터가 표시 되지 않는 경우 정책이 올바르게
 
 ## <a name="related-topics"></a>관련 항목
 
-[Office 365 보안 &amp; 및 준수 센터의 보고서 및 정보](reports-and-insights-in-security-and-compliance.md)
-
+[보안 &amp; 및 준수 센터의 보고서 및 정보](reports-and-insights-in-security-and-compliance.md)
+  
 [보안 &amp; 및 준수 센터에서 보고서 일정 만들기](create-a-schedule-for-a-report.md)
 
 [보안 &amp; 및 준수 센터에서 사용자 지정 보고서 설정 및 다운로드](set-up-and-download-a-custom-report.md)

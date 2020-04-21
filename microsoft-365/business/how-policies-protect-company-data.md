@@ -1,5 +1,7 @@
 ---
-title: Microsoft 365 Business의 정책으로 회사 데이터가 보호되는 방식
+title: 비즈니스용 Microsoft 365의 정책에서 회사 데이터를 보호 하는 방법
+f1.keywords:
+- NOCSH
 ms.author: sirkkuw
 author: sirkkuw
 manager: scotv
@@ -24,14 +26,14 @@ search.appverid:
 - MOE150
 ms.assetid: 665485be-2389-4f1d-9ef8-dbef19c6acdf
 description: 사용자의 개인 장치에 대 한 회사 데이터를 보호 하려면 특정 장치 및 보안 그룹을 대상으로 하는 정책을 사용 합니다.
-ms.openlocfilehash: 225dbadf599d5287a706ce50ec2b3cc9dd27c996
-ms.sourcegitcommit: 8193b7da5b1a415835d02ca96883c351df7326ed
+ms.openlocfilehash: aa7447ae4547ba3180d5d5ebbe18e2840947a1d5
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/14/2019
-ms.locfileid: "38320131"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627149"
 ---
-# <a name="how-policies-in-microsoft-365-business-protect-company-data"></a>Microsoft 365 Business의 정책으로 회사 데이터가 보호되는 방식
+# <a name="how-policies-in-microsoft-365-for-business-protect-company-data"></a>비즈니스용 Microsoft 365의 정책에서 회사 데이터를 보호 하는 방법
 
 관리자가 생성하는 정책은 장치 유형에 따라 달라지며, 특정 사용자 그룹에 적용할 수 있습니다. 즉, 임원진에게만 적용되는 하나의 정책과 그 밖의 모든 사용자에게 적용되는 또 다른 정책을 만들 수 있습니다.
   

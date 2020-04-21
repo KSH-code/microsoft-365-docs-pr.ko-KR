@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 공유 사서함을 만든 후에는 전자 메일 전달 및 자동 회신 같은 사용자에 대 한 일부 설정을 구성 해야 합니다. 나중에 사서함 이름이 나 구성원 등의 다른 설정을 변경할 수 있습니다.
-ms.openlocfilehash: fc2995dc448c7cb28c13c10d78b57e7141963539
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+ms.openlocfilehash: 63d3d0a5867875344ff4635071bbbad69e02eadc
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43212024"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43629050"
 ---
 # <a name="configure-a-shared-mailbox"></a>공유 사서함 구성
 
@@ -122,7 +122,7 @@ ms.locfileid: "43212024"
 모든 사용자가 보낸 전자 메일을 볼 수 있도록 하려면 관리 센터에서 공유 사서함 설정을 편집 하 고 **보낸 항목** \> **편집**을 선택 합니다.
 
 
-## <a name="choose-the-apps-that-a-shared-mailbox-can-use-to-access-office-365-email"></a>공유 사서함이 Office 365 전자 메일에 액세스 하는 데 사용할 수 있는 앱을 선택 합니다.
+## <a name="choose-the-apps-that-a-shared-mailbox-can-use-to-access-microsoft-email"></a>공유 사서함이 Microsoft 전자 메일에 액세스 하는 데 사용할 수 있는 앱을 선택 합니다.
 
 ::: moniker range="o365-worldwide"
 

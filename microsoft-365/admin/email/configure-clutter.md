@@ -19,19 +19,19 @@ search.appverid:
 - MOE150
 ms.assetid: 832276bd-d024-47b6-a80a-a6b884907a5b
 description: 'Exchange PowerShell을 사용 하 여 조직의 모든 또는 특정 사용자에 대해 낮은 우선 순위 기능을 사용 하거나 사용 하지 않도록 설정 하는 방법을 알아봅니다. '
-ms.openlocfilehash: 65aa614095ecbebaad3d7eb38af1e74166ce20ac
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: b71fe20133c78974dc7d1c97a061121eded9f221
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42255286"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43628930"
 ---
 # <a name="configure-clutter-for-your-organization"></a>조직에 대 한 복잡 한 구성
 
 > [!TIP]
 > [중요 받은 편지함](../setup/configure-focused-inbox.md) 에서 낮은 우선 순위를 대체 합니다. 자세한 내용은 [중요 받은 편지함에 대 한 업데이트 및 낮은 계획에 대 한 요금제](https://techcommunity.microsoft.com/t5/Outlook-Blog/Update-on-Focused-Inbox-and-our-plans-for-Clutter/ba-p/136448) 를 확인 하세요.
   
-관리자는 Office 365에서 낮은 우선 순위 기능을 관리 해야 할 수 있습니다. 조직의 사용자에 대해 낮은 우선 순위 기능을 설정/해제 하려면 Exchange PowerShell을 사용 해야 합니다. 사용자는 다음 [지침을 사용](https://support.office.com/article/a9c72a77-1bc4-40e6-ba6d-103c1d1aba4c.aspx)하 여이 기능을 설정/해제할 수 있습니다. 
+관리자는 Microsoft 365에서 낮은 우선 순위 기능을 관리 해야 할 수 있습니다. 조직의 사용자에 대해 낮은 우선 순위 기능을 설정/해제 하려면 Exchange PowerShell을 사용 해야 합니다. 사용자는 다음 [지침을 사용](https://support.office.com/article/a9c72a77-1bc4-40e6-ba6d-103c1d1aba4c.aspx)하 여이 기능을 설정/해제할 수 있습니다. 
   
 Exchange PowerShell 사용에 대 한 자세한 내용은 [Exchange online에서 PowerShell을 사용](https://go.microsoft.com/fwlink/?LinkID=402831) 하 고 Exchange [Online PowerShell에 연결](https://go.microsoft.com/fwlink/?LinkID=722415) 을 참조 하세요. 적어도 Exchange 서비스 관리자 역할을 가진 계정 및 PowerShell을 사용 하 여 Exchange Online에 연결 하는 기능이 있어야 합니다. 
   
@@ -59,7 +59,7 @@ PowerShell을 사용 하 여 사용자를 대량으로 만드는 경우에는 �
 
 관리자는 Exchange PowerShell을 사용 하 여 혼란을 다시 사용 하도록 설정할 수 있습니다. 이 작업이 완료 되 면 중요 받은 편지함이 꺼지고 깔끔하게 다시 활성화 됩니다. 
   
- **Office 365 비즈니스 구독을 사용 하 여 웹에서 Outlook을 사용 하는 경우 다음을 수행 합니다.**
+ **Microsoft 365 Business Premium 구독을 사용 하 여 웹에서 Outlook을 사용 하는 경우 다음을 수행 합니다.**
   
 - 현재 사용자가 낮은 사용을 설정한 경우: 
     

@@ -16,21 +16,21 @@ ms.assetid: 0cbaccf8-4afc-47e3-a36d-a84598a55fb8
 ms.collection:
 - M365-security-compliance
 description: 관리자는 하이브리드 환경에서 독립 실행형 EOP (Exchange Online Protection)를 사용 하는 경우 온-프레미스 사용자의 정크 메일 폴더로 스팸을 라우팅하기 위해 온-프레미스 Exchange 환경을 구성 하는 방법을 확인할 수 있습니다.
-ms.openlocfilehash: 8a3887d1cc7390e75b7708d2167372e976923e01
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: f2964324c6d9104719fc79ff31f14b4b94c627cc
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42893721"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43621285"
 ---
 # <a name="configure-standalone-eop-to-deliver-spam-to-the-junk-email-folder-in-hybrid-environments"></a>하이브리드 환경의 정크 메일 폴더에 스팸을 배달 하도록 독립 실행형 EOP 구성
 
 > [!IMPORTANT]
-> 이 항목은 독립 실행형 EOP 고객을 위한 하이브리드 환경의 경우에만 해당 합니다. 이 항목은 Exchange Online 사서함이 있는 Office 365 고객에 게는 적용 되지 않습니다.
+> 이 항목은 독립 실행형 EOP 고객을 위한 하이브리드 환경의 경우에만 해당 합니다. 이 항목은 Exchange Online 사서함이 있는 Microsoft 365 고객에 게는 적용 되지 않습니다.
 
-하이브리드 환경에서 독립 실행형 EOP (Exchange Online Protection) 고객 인 경우 온-프레미스 Exchange 조직에서 EOP의 스팸 필터링 verdicts를 인식 하 고 번역 하도록 구성 해야 합니다. 정크 메일 폴더로 메시지를 이동할 수 있습니다.
+하이브리드 환경에서 독립 실행형 EOP (Exchange Online Protection) 고객 인 경우 온-프레미스 Exchange 조직을 구성 하 여 온-프레미스 사서함의 정크 메일 규칙이 정크 메일 폴더로 메시지를 이동할 수 있도록 해야 합니다.
 
-특히 다음 EOP 및 스팸 지 수의 헤더 및 값을 사용 하 여 메시지를 검색 하는 조건이 있는 온-프레미스 Exchange 조직에 메일 흐름 규칙 (전송 규칙이 라고도 함)을 만들어야 합니다 ( SCL)에서 해당 메시지의 최대 6 개:
+특히 다음과 같은 EOP의 스팸 지 수 헤더 및 값을 사용 하 여 메시지를 찾고 해당 메시지의 SCL (스팸 지 수)을 6으로 설정 하는 동작을 사용 하 여 온-프레미스 Exchange 조직에 메일 흐름 규칙 (전송 규칙이 라고도 함)을 만들어야 합니다.
 
 - `X-Forefront-Antispam-Report: SFV:SPM`(스팸 필터링을 통해 스팸으로 표시 된 메시지)
 
@@ -45,7 +45,7 @@ ms.locfileid: "42893721"
 > [!TIP]
 > 온-프레미스 사용자의 정크 메일 폴더로 메시지를 배달 하는 대신 EOP에서 스팸 방지 정책을 구성 하 여 EOP의 스팸 메시지를 격리할 수 있습니다. 자세한 내용은 [Office 365의 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)를 참조하세요.
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
 
 - 이러한 절차를 수행 하려면 먼저 온-프레미스 Exchange 환경에서 사용 권한을 할당 받아야 합니다. 특히 **조직 관리**, **규정 준수 관리**및 **레코드 관리** 역할에 할당 되는 **전송 규칙** 역할을 기본적으로 할당 해야 합니다. 자세한 내용은 [역할 그룹에 구성원을 추가 합니다.](https://docs.microsoft.com/Exchange/permissions/role-group-members?view=exchserver-2019#add-members-to-a-role-group)를 참조하세요.
 
@@ -139,7 +139,7 @@ New-TransportRule -Name "EOP SFV:SKB to SCL 6" -HeaderContainsMessageHeader "X-F
   Get-TransportRule -Identity "<RuleName>" | Format-List
   ```
 
-- **스팸 메일에 대 한 아웃 바운드 메시지를 검사 하지**않는 외부 전자 메일 시스템에서, 해당 받는 사람에 게 요청 하지 않은 대량 전자 메일 (gtube) 메시지에 대 한 일반 테스트를 보낸 다음 해당 메시지가 정크 메일 폴더로 배달 되는지 확인 합니다. GTUBE 메시지는 맬웨어 설정을 테스트 하기 위한 EICAR (Computer Antivirus Research) 텍스트 파일에 대 한 유럽 협회와 비슷합니다.
+- **스팸 메일에 대 한 아웃 바운드 메시지를 검사 하지**않는 외부 전자 메일 시스템에서, 해당 받는 사람에 게 요청 하지 않은 대량 전자 메일 (gtube) 메시지에 대 한 일반 테스트를 보낸 다음 해당 메시지가 정크 메일 폴더로 배달 되는지 확인 합니다. GTUBE 메시지는 맬웨어 설정을 테스트하기 위한 EICAR(European Institute for Computer Antivirus Research) 텍스트 파일과 유사합니다.
 
   GTUBE 메시지를 보내려면 전자 메일 메시지 본문에 공백이 나 줄 바꿈 없이 다음 텍스트를 포함 합니다.
 

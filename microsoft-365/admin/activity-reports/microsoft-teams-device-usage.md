@@ -1,5 +1,5 @@
 ---
-title: 관리 센터의 Office 365 보고서-Microsoft 팀 장치 사용 현황
+title: 관리 센터의 microsoft 365 보고서-Microsoft 팀 장치 사용 현황
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -19,17 +19,17 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 917b3e1d-203e-4439-8539-634e80196687
-description: Office 365 보고서에서 Microsoft 팀 앱 사용 보고서를 가져와 조직에서 사용 되는 Microsoft 팀 앱에 대 한 정보를 습득 합니다.
-ms.openlocfilehash: b0937e4366f1b10b0908ee8764986f2ded2999ec
-ms.sourcegitcommit: 2b626a7924b4be08f6eb21181453b778e6fde418
+description: Microsoft 365 보고서를 통해 마이크로소프트의 앱 사용 현황 보고서를 가져와 조직에서 사용 되는 Microsoft 팀 앱에 대 한 정보를 습득 합니다.
+ms.openlocfilehash: 9c79f83d90905470c56fd62489f1439b3383841f
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43046966"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43621213"
 ---
-# <a name="office-365-reports-in-the-admin-center---microsoft-teams-device-usage"></a>관리 센터의 Office 365 보고서-Microsoft 팀 장치 사용 현황
+# <a name="microsoft-365-reports-in-the-admin-center---microsoft-teams-device-usage"></a>관리 센터의 microsoft 365 보고서-Microsoft 팀 장치 사용 현황
 
-Office 365 **보고서** 대시보드에는 조직의 제품 전체에 대 한 활동 개요가 표시 됩니다. 보고서 대시보드를 통해 개별 제품 수준 보고서의 하위 수준을 표시하여 각 제품 내의 활동에 대한 더 세부화된 정보를 확인할 수 있습니다. [보고서 개요 항목](activity-reports.md)을 확인하세요. Microsoft Teams 앱 사용 보고서에서는 조직에서 사용되는 Microsoft Teams 앱에 대한 정보를 확인할 수 있습니다.
+Microsoft 365 **보고서** 대시보드에는 조직의 제품 전체에 대 한 활동 개요가 표시 됩니다. 보고서 대시보드를 통해 개별 제품 수준 보고서의 하위 수준을 표시하여 각 제품 내의 활동에 대한 더 세부화된 정보를 확인할 수 있습니다. [보고서 개요 항목](activity-reports.md)을 확인하세요. Microsoft Teams 앱 사용 보고서에서는 조직에서 사용되는 Microsoft Teams 앱에 대한 정보를 확인할 수 있습니다.
   
 > [!NOTE]
 > 보고서를 보려면 Microsoft 365 또는 Exchange, SharePoint, 팀 서비스, 팀 통신 또는 비즈니스용 Skype 관리자의 전역 관리자, 전역 독자 또는 보고서 독자 여야 합니다.  
@@ -45,7 +45,7 @@ Office 365 **보고서** 대시보드에는 조직의 제품 전체에 대 한 �
 
 **사용자** 및 **배포** 차트를 보고 Microsoft Teams 앱 사용에 대해 파악할 수 있습니다. 
   
-![Office 365 reports - Microsoft Teams app usage](../../media/de35c4de-76b4-4109-a806-66774665499b.png)
+![Microsoft 365 보고서-Microsoft 팀 앱 사용 현황](../../media/de35c4de-76b4-4109-a806-66774665499b.png)
   
 |||
 |:-----|:-----|

@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: e16f6421-2a1a-4142-bf9d-9846600a060a
 description: Microsoft 365 관리 앱을 다운로드 하 고 전화나 태블릿에서 온라인 조직을 관리 하는 방법에 대해 알아보세요.
-ms.openlocfilehash: fc1be50c10ba5158c335d9c9b9dd1e69079ac2c1
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: aead9f30f2d75e3eab5099596ff80a575e571306
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42353039"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43623991"
 ---
 # <a name="about-the-microsoft-365-admin-mobile-app"></a>Microsoft 365 관리 모바일 앱 정보
 
@@ -66,11 +66,11 @@ ms.locfileid: "42353039"
   
 ### <a name="what-do-i-need-to-do-to-be-able-to-use-the-app"></a>앱을 사용하려면 무엇을 해야 하나요?
 
-앱을 로그인 및 사용 하려면 관리자 권한으로 유효한 Office 365 비즈니스 또는 Microsoft 365 Business 구독이 있어야 합니다. 관리자 모바일 앱은 전자 메일 클라이언트가 아닙니다. 이 기능은 사용자가 이동 중에 조 직을 지 원하는 데 도움이 되는 다양 한 관리 앱으로, 80 기능이 향상 되었습니다.
+앱을 로그인 및 사용 하려면 관리자 권한으로 유효한 Microsoft 365 앱 또는 Microsoft 365 Business Premium 구독을 보유 해야 합니다. 관리자 모바일 앱은 전자 메일 클라이언트가 아닙니다. 이 기능은 사용자가 이동 중에 조 직을 지 원하는 데 도움이 되는 다양 한 관리 앱으로, 80 기능이 향상 되었습니다.
   
-### <a name="can-i-use-the-app-with-my-office-365-for-home-subscription"></a>Home 구독을 위해 Office 365에서 앱을 사용할 수 있나요?
+### <a name="can-i-use-the-app-with-my-microsoft-365-family-subscription"></a>앱을 Microsoft 365 제품군 구독에 사용할 수 있나요?
 
-아니요, 앱은 비즈니스용 Office 365 및 Microsoft 365 비즈니스 구독에만 작동 합니다. 
+아니요, 앱은 비즈니스를 위한 Microsoft 365 앱 및 Microsoft 365 Business Premium subscription 에서만 작동 합니다. 
   
 ### <a name="will-the-app-work-if-my-organization-has-directory-synchronization-enabled"></a>조직에서 디렉터리 동기화를 사용하는 경우 앱이 작동하나요?
 
@@ -104,4 +104,4 @@ ms.locfileid: "42353039"
   
 ## <a name="see-also"></a>참고 항목
 
-[Microsoft 365 Business 교육 비디오](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Microsoft 365 for business 교육용 비디오](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

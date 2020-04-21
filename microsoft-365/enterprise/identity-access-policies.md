@@ -16,12 +16,12 @@ ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
 - remotework
-ms.openlocfilehash: 8b5cb7d8d8b16fea1c1bef44e477dfd43a79a3d8
-ms.sourcegitcommit: a7b2cd892cb65a61ee246268e1af2f8b9e526f6b
+ms.openlocfilehash: a91488b9bfa126b1419af7697c0ae8510ddbc149
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43081328"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43625269"
 ---
 # <a name="common-identity-and-device-access-policies"></a>일반 ID 및 장치 액세스 정책
 이 문서에서는 Azure AD 응용 프로그램 프록시를 통해 게시 된 온-프레미스 응용 프로그램을 포함 하 여 클라우드 서비스에 대 한 액세스를 보호 하기 위한 일반적인 권장 정책을 설명 합니다. 
@@ -67,9 +67,9 @@ ms.locfileid: "43081328"
 
 그림에서 "최상위 비밀 프로젝트 X 팀"에는 MFA가 *항상*필요한 조건부 액세스 정책이 할당 되어 있습니다. 사용자에 게 더 높은 수준의 보호를 적용할 때 적절 합니다. 이 프로젝트 팀의 구성원은 고도로 규제 된 콘텐츠를 보지 않더라도 로그온 할 때마다 두 가지 유형의 인증을 제공 해야 합니다.  
 
-이러한 권장 사항의 일부로 만들어진 모든 Azure AD 그룹은 Office 365 그룹으로 만들어야 합니다. 이 지침은 SharePoint에서 문서를 보호할 때 AIP(Azure Information Protection) 배포를 위해 특히 중요합니다.
+이러한 권장 사항의 일부로 만들어진 모든 Azure AD 그룹은 Microsoft 365 그룹으로 만들어야 합니다. 이 지침은 SharePoint에서 문서를 보호할 때 AIP(Azure Information Protection) 배포를 위해 특히 중요합니다.
 
-![Office 365 그룹을 만드는 화면 캡처](../media/identity-device-AAD-groups.png)
+![Microsoft 365 그룹을 만드는 화면 캡처](../media/identity-device-AAD-groups.png)
 
 
 ## <a name="require-mfa-based-on-sign-in-risk"></a>로그인 위험을 기반으로 MFA 요구
@@ -95,7 +95,7 @@ MFA를 요청 하기 전에 먼저 Id 보호 MFA 등록 정책을 사용 하 여
 |:---|:---------|:-----|:----|
 |사용자 및 그룹|포함|사용자 및 그룹 선택 – 대상 사용자를 포함하는 특정 보안 그룹 선택|파일럿 사용자를 포함한 보안 그룹으로 시작|
 ||제외|예외 보안 그룹; 서비스 계정(앱 ID)|필요한 임시 기준으로 수정 된 멤버 자격|
-|클라우드 앱|포함|이 규칙을 적용할 앱을 선택 합니다. 예를 들어 Office 365 Exchange Online을 선택 합니다.||
+|클라우드 앱|포함|이 규칙을 적용할 앱을 선택 합니다. 예를 들어 Exchange Online을 선택 합니다.||
 |조건|구성됨|예|사용자 환경 및 요구에 맞게 구성|
 |로그인 위험|위험 수준||다음 표의 지침을 참조 하세요.|
 
@@ -115,8 +115,8 @@ MFA를 요청 하기 전에 먼저 Id 보호 MFA 등록 정책을 사용 하 여
 |:---|:---------|:-----|:----|
 |권한 부여|액세스 허가|참|선택됨|
 ||MFA 필요|True|Check|
-||장치가 호환 되는 것으로 표시 필요|False||
-||하이브리드 Azure AD 가입 장치 필요|False||
+||장치가 호환 되는 것으로 표시 필요|거짓||
+||하이브리드 Azure AD 가입 장치 필요|거짓||
 ||승인 된 클라이언트 앱 필요|False||
 ||선택된 컨트롤이 모두 필요함|True|선택됨|
 
@@ -142,7 +142,7 @@ MFA를 요청 하기 전에 먼저 Id 보호 MFA 등록 정책을 사용 하 여
 |:---|:---------|:-----|:----|
 |사용자 및 그룹|포함|사용자 및 그룹 선택 – 대상 사용자를 포함하는 특정 보안 그룹 선택|파일럿 사용자를 포함한 보안 그룹으로 시작|
 ||제외|예외 보안 그룹; 서비스 계정(앱 ID)|필요에 따라 일시적으로 수정한 멤버 자격|
-|클라우드 앱|포함|이 규칙을 적용할 앱을 선택 합니다. 예를 들어 Office 365 Exchange Online을 선택 합니다.||
+|클라우드 앱|포함|이 규칙을 적용할 앱을 선택 합니다. 예를 들어 Exchange Online을 선택 합니다.||
 |조건|구성됨|예|클라이언트 응용 프로그램 구성|
 |클라이언트 앱|구성됨|예|모바일 앱 및 데스크톱 클라이언트, 다른 클라이언트 (둘 다 선택)|
 
@@ -151,9 +151,9 @@ MFA를 요청 하기 전에 먼저 Id 보호 MFA 등록 정책을 사용 하 여
 |유형|속성|값|참고|
 |:---|:---------|:-----|:----|
 |권한 부여|액세스 차단|참|선택됨|
-||MFA 필요|False||
-||장치가 호환 되는 것으로 표시 필요|False||
-||하이브리드 Azure AD 가입 장치 필요|False||
+||MFA 필요|거짓||
+||장치가 호환 되는 것으로 표시 필요|거짓||
+||하이브리드 Azure AD 가입 장치 필요|거짓||
 ||승인 된 클라이언트 앱 필요|False||
 ||선택된 컨트롤이 모두 필요함|True|선택됨|
 
@@ -215,7 +215,7 @@ Intune에서 적용 한 앱 보호 정책을 적용 하려면 승인 된 클라�
 
 앱 보호 정책을 적용 하려면 requires 앱 [보호 정책에 조건부 액세스를 사용한 클라우드 앱 액세스](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access)에 설명 된 정책 집합이 필요 합니다. 이러한 정책은 이러한 권장 되는 id 및 액세스 구성 정책 집합에 포함 됩니다.
 
-승인 된 앱 및 앱 보호가 필요한 조건부 액세스 규칙을 만들려면 다음을 수행 합니다. 1 단계 365: [office 365 앱에는 승인 된 앱 (앱 보호 정책 포함](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access#scenario-1-office-365-apps-require-approved-apps-with-app-protection-policies))이 필요 하며,이 정책은 Outlook for IOS 및 Android를 허용 하지만 OAuth 가능 exchange ActiveSync 클라이언트는 exchange Online에 연결 하는 것을 차단 합니다.
+승인 된 앱 및 앱 365 보호가 필요한 조건부 액세스 규칙을 만들려면 [시나리오 1: microsoft 365 앱에는 승인 된 앱 (앱 보호 정책 포함](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access#scenario-1-office-365-apps-require-approved-apps-with-app-protection-policies))이 필요 하며,이 정책은 Outlook for IOS 및 Android를 허용 하지만 OAuth 가능 exchange ActiveSync 클라이언트는 exchange Online에 연결 하는 것을 차단 합니다.
 
    > [!NOTE]
    > 이 정책은 모바일 사용자가 해당 앱을 사용 하 여 모든 Office 끝점에 액세스할 수 있도록 합니다.
@@ -229,7 +229,7 @@ Exchange Online에 대 한 모바일 액세스를 사용 하도록 설정 하는
 <!---
 With Conditional Access, organizations can restrict access to approved (modern authentication capable) iOS and Android client apps with Intune app protection policies applied to them. Several conditional access policies are required, with each policy targeting all potential users. Details on creating these policies can be found in [Require app protection policy for cloud app access with Conditional Access](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access).
 
-1. Follow "Step 1: Configure an Azure AD Conditional Access policy for Office 365" in [Scenario 1: Office 365 apps require approved apps with app protection policies](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access#scenario-1-office-365-apps-require-approved-apps-with-app-protection-policies), which allows Outlook for iOS and Android, but blocks OAuth capable Exchange ActiveSync clients from connecting to Exchange Online.
+1. Follow "Step 1: Configure an Azure AD Conditional Access policy for Microsoft 365" in [Scenario 1: Microsoft 365 apps require approved apps with app protection policies](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access#scenario-1-office-365-apps-require-approved-apps-with-app-protection-policies), which allows Outlook for iOS and Android, but blocks OAuth capable Exchange ActiveSync clients from connecting to Exchange Online.
 
    > [!NOTE]
    > This policy ensures mobile users can access all Office endpoints using the applicable apps.
@@ -322,7 +322,7 @@ Intune에서 준수 정책을 만드는 방법에 대 한 단계별 지침은 In
 
 6. **클라우드 앱**을 선택합니다.
 
-7. **앱 선택을**선택 하 고 **클라우드 앱** 목록에서 원하는 앱을 선택 합니다. 예를 들어 Office 365 Exchange Online을 선택 합니다. **선택** 및 **완료**를 선택 합니다.
+7. **앱 선택을**선택 하 고 **클라우드 앱** 목록에서 원하는 앱을 선택 합니다. 예를 들어 Exchange Online을 선택 합니다. **선택** 및 **완료**를 선택 합니다.
 
 8. 준수 Pc를 요구 하 되, 호환 되는 휴대폰 및 태블릿은 제외 하려면 **조건** 및 **장치 플랫폼**을 선택 합니다. **장치 플랫폼 선택을** 선택 하 고 **Windows** 및 **macos**를 선택 합니다.
 
@@ -350,7 +350,7 @@ Intune에서 준수 정책을 만드는 방법에 대 한 단계별 지침은 In
 
 6. **클라우드 앱**을 선택합니다.
 
-7. **앱 선택을**선택 하 고 **클라우드 앱** 목록에서 원하는 앱을 선택 합니다. 예를 들어 Office 365 Exchange Online을 선택 합니다. **선택** 및 **완료**를 선택 합니다.
+7. **앱 선택을**선택 하 고 **클라우드 앱** 목록에서 원하는 앱을 선택 합니다. 예를 들어 Exchange Online을 선택 합니다. **선택** 및 **완료**를 선택 합니다.
 
 8. **액세스 제어** 섹션에서 **권한 부여**를 선택합니다.
 

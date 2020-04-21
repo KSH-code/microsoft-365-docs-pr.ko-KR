@@ -18,23 +18,23 @@ ms.assetid: e3c6df61-8513-499d-ad8e-8a91770bff63
 ms.collection:
 - M365-security-compliance
 description: SharePoint Online의 바이러스 백신 보호에 대해 알아봅니다.
-ms.openlocfilehash: f22c2a3280148eb23f4ba53ff467a533186ed791
-ms.sourcegitcommit: 3d17c1d6b80672719b1878e2f321f0de39595226
+ms.openlocfilehash: f04cd18bb4880ab631816c90b4976beada436225
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/11/2020
-ms.locfileid: "41887275"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43630944"
 ---
 # <a name="virus-detection-in-sharepoint-online"></a>SharePoint Online에서의 바이러스 탐지
 
-Office 365은 사용자가 SharePoint Online에 업로드 하는 파일에서 바이러스를 검색 하 여 맬웨어 로부터 환경을 보호 하는 데 도움이 됩니다. 파일을 업로드 한 후 바이러스가 검색 될 수 있습니다. 파일이 감염 된 것으로 확인 되 면 사용자가 파일을 다운로드 하거나 동기화 할 수 없도록 속성이 설정 됩니다.
+Microsoft 365는 사용자가 SharePoint Online으로 업로드 하는 파일에서 바이러스를 검색 하 여 맬웨어 로부터 환경을 보호 하는 데 도움이 될 수 있습니다. 파일을 업로드 한 후 바이러스가 검색 될 수 있습니다. 파일이 감염 된 것으로 확인 되 면 사용자가 파일을 다운로드 하거나 동기화 할 수 없도록 속성이 설정 됩니다.
 
 > [!IMPORTANT]
 > SharePoint Online의 이러한 바이러스 백신 기능은 바이러스를 포함 하는 방법입니다. 사용자 환경에 대 한 맬웨어를 방어 하기 위한 단일 방어선이 아닙니다. 모든 고객은 다양 한 계층에서 맬웨어 방지 보호 기능을 평가 및 구현 하 고 엔터프라이즈 인프라를 보호 하기 위한 모범 사례를 적용할 것을 권장 합니다. 전략과 모범 사례에 대 한 자세한 내용은 [보안 로드맵](security-roadmap.md)를 참조 하십시오.
 
 ## <a name="what-happens-when-an-infected-file-is-uploaded-to-sharepoint-online"></a>감염 된 파일을 SharePoint Online에 업로드 한 경우 어떻게 되나요?
 
-Office 365에서는 일반적인 바이러스 검색 엔진을 사용 합니다. 엔진은 SharePoint Online 내에서 비동기적으로 실행 되며 업로드 후 일부 파일을 검색 합니다. 휴리스틱은 검색할 파일을 결정 하는 데 사용 됩니다. 바이러스를 포함 하는 파일을 찾으면 다시 다운로드할 수 없도록 플래그가 지정 됩니다. 2018 년 4 월에는 검색 된 파일에 대 한 250MB 제한이 제거 되었습니다.
+Microsoft 365에서는 일반적인 바이러스 검색 엔진을 사용 합니다. 엔진은 SharePoint Online 내에서 비동기적으로 실행 되며 업로드 후 일부 파일을 검색 합니다. 휴리스틱은 검색할 파일을 결정 하는 데 사용 됩니다. 바이러스를 포함 하는 파일을 찾으면 다시 다운로드할 수 없도록 플래그가 지정 됩니다. 2018 년 4 월에는 검색 된 파일에 대 한 250MB 제한이 제거 되었습니다.
 
 수행 되는 작업은 다음과 같습니다.
 

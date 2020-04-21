@@ -1,5 +1,5 @@
 ---
-title: 관리 센터에서 Office 365 추가 기능의 배포 관리
+title: 관리 센터의 추가 기능 배포 관리
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -19,18 +19,18 @@ search.appverid:
 - MOE150
 ms.assetid: 737e8c86-be63-44d7-bf02-492fa7cd9c3f
 description: 관리 센터에서 중앙 집중식 배포를 사용 하 여 조직의 사용자 및 그룹에 추가 기능을 배포 하는 방법을 알아봅니다.
-ms.openlocfilehash: d0818a0f318ea260d8e39b6e3d76c1cd4efd7a88
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+ms.openlocfilehash: 440cb55f318ac2aa43af5a24fa8ca80753aa03ac
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43212012"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43628163"
 ---
-# <a name="manage-deployment-of-office-365-add-ins-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터에서 Office 365 추가 기능 배포 관리
+# <a name="manage-deployment-of-add-ins-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터에서 추가 기능 배포 관리
 
 Office 추가 기능을 사용하면 문서를 개인 설정하고 웹에서 정보에 액세스하는 방법을 간소화할 수 있습니다([Office 추가 기능 사용 시작](https://support.office.com/article/82e665c4-6700-4b56-a3f3-ef5441996862.aspx) 참조). 관리자는 조직의 사용자를 위한 Office 추가 기능을 배포할 수 있습니다. Microsoft 365 관리 센터의 중앙 집중식 배포 기능을 사용 하 여이 작업을 수행할 수 있습니다.
   
-중앙 집중식 배포는 대부분의 관리자가 조직 내에서 사용자 및 그룹에 추가 기능을 배포 하는 데 권장 되 고 기능이 풍부한 방법입니다. 조직에서 중앙 집중식 배포를 지원할 수 있는지를 확인하는 방법에 대한 자세한 내용은 [추가 기능의 중앙 집중식 배포가 Office 365 조직에서 작동하는지 확인](centralized-deployment-of-add-ins.md)을 참조하세요.
+중앙 집중식 배포는 대부분의 관리자가 조직 내에서 사용자 및 그룹에 추가 기능을 배포 하는 데 권장 되 고 기능이 풍부한 방법입니다. 조직에서 중앙 집중식 배포를 지원할 수 있는지를 확인 하는 방법에 대 한 자세한 내용은 [추가 기능의 중앙 집중식 배포가 조직에 작동 하는지 확인](centralized-deployment-of-add-ins.md)을 참조 하십시오.
   
 중앙 집중식 배포는 다음과 같은 이점을 제공합니다.
   
@@ -41,7 +41,7 @@ Office 추가 기능을 사용하면 문서를 개인 설정하고 웹에서 정
 - 관리자가 추가 기능을 해제 하거나 삭제 하거나, 사용자가 Azure Active Directory 또는 추가 기능이 할당 된 그룹에서 제거 된 경우에는 사용자에 게 더 이상 추가 기능이 나타나지 않습니다.
     
 > [!NOTE]
->  Word에서 Excel 및 PowerPoint는 [Sharepoint 앱 카탈로그](https://dev.office.com/docs/add-ins/publish/publish-task-pane-and-content-add-ins-to-an-add-in-catalog) 를 사용 하 여 Office 365 및/또는 sharepoint 추가 기능에 대 한 지원에 연결 하지 않고 온-프레미스 환경의 사용자에 게 추가 기능을 배포 합니다. >  Outlook의 경우 Office 365에 연결하지 않고 온 - 프레미스 환경에서 배포하려면 Exchange 제어판을 사용하세요. > 
+>  Word에서 Excel 및 PowerPoint는 [Sharepoint 앱 카탈로그](https://dev.office.com/docs/add-ins/publish/publish-task-pane-and-content-add-ins-to-an-add-in-catalog) 를 사용 하 여 온-프레미스 환경의 사용자에 게 추가 기능을 배포 하 고, Microsoft 365 및/또는 sharepoint 추가 기능에 대 한 지원에는 연결 하지 않습니다. Outlook의 > Exchange 제어판을 사용 하 여 Microsoft 365에 연결 하지 않고 온-프레미스 환경에 배포 합니다. > 
   
 ## <a name="recommended-approach-for-deploying-office-add-ins"></a>Office 추가 기능 배포에 권장되는 방법
 
@@ -57,10 +57,10 @@ Office 추가 기능을 사용하면 문서를 개인 설정하고 웹에서 정
   
 ## <a name="deploy-an-office-add-in-using-the-admin-center"></a>관리 센터를 사용 하 여 Office 추가 기능 배포
 
-시작하기 전에 [추가 기능의 중앙 집중식 배포가 Office 365 조직에서 작동하는지 확인](centralized-deployment-of-add-ins.md)을 참조하세요.
+시작 하기 전에 [추가 기능의 중앙 집중식 배포가 조직에 작동 하는지 확인](centralized-deployment-of-add-ins.md)을 참조 하세요.
 
   
-1. Microsoft 365 관리 센터에서 **설정** > **추가 기능** 페이지로 이동 합니다.
+1. 관리 센터에서 **설정** \> **추가 기능** 페이지로 이동 합니다.
     
 2. 페이지 맨 위에 있는 **추가 기능 배포** 를 선택 합니다. 개요 페이지에서 **다음**을 선택 합니다.
     
@@ -75,13 +75,13 @@ Office 추가 기능을 사용하면 문서를 개인 설정하고 웹에서 정
 7. 추가 기능이 배포 되 면 녹색 눈금이 표시 됩니다. 페이지에 설명 된 지침에 따라 추가 기능이 성공적으로 배포 되었는지 테스트할 수 있습니다.
 
 > [!NOTE]
-> 앱의 리본 메뉴에 추가 기능 아이콘이 표시 되도록 하려면 Office를 다시 열어야 할 수도 있습니다. Outlook 추가 기능은 사용자의 리본에 표시 되는 데 최대 24 시간이 걸릴 수 있습니다.
+> 앱의 리본 메뉴에 추가 기능 아이콘이 표시 되도록 하려면 Office를 다시 열어야 할 수도 있습니다. Outlook 추가 기능은 사용자의 리본에 표시 되는 데 최대 12 시간이 걸릴 수 있습니다.
     
 8. 완료 되 면 **다음**을 선택 합니다. 자신에 게 배포한 경우 **추가 기능에 액세스할** 수 있는 사용자를 선택 하 여 다른 사용자에 게 배포 합니다.
 
 
 
-사용자가 아닌 다른 조직의 구성원에 게 추가 기능을 배포한 경우 추가 기능의 배포를 효과적으로 알리기 위해 표시 된 지침을 따르세요. <br/>이제 Office 365에 추가 기능이 다른 앱과 함께 표시됩니다.
+사용자가 아닌 다른 조직의 구성원에 게 추가 기능을 배포한 경우 추가 기능의 배포를 효과적으로 알리기 위해 표시 된 지침을 따르세요. <br/>이제 Microsoft 365에서 추가 기능이 다른 앱과 함께 표시 됩니다.
   
 추가 기능을 배포한 사용자 및 그룹에 이제 추가 기능을 사용할 수 있다는 사실을 알려 주는 것이 좋습니다. 추가 기능을 사용하는 경우 및 방법을 설명하고 추가 기능이 업무 수행에 어떻게 도움이 될 수 있는지를 설명하는 전자 메일을 해당 사용자 및 그룹에 보내는 것을 고려하세요. 사용자에 게 추가 기능에 문제가 있는 경우 도움이 될 수 있는 관련 도움말 콘텐츠 또는 Faq를 포함 하거나 연결 합니다.
   
@@ -101,19 +101,12 @@ Office 추가 기능을 사용하면 문서를 개인 설정하고 웹에서 정
   
 ### <a name="add-in-states"></a>추가 기능 상태
 
-관리자는 Microsoft 365 관리 센터에서 모든 사용자에 대해 배포 하는 추가 기능을 설정 하거나 해제할 수 있습니다.
-
-1.    관리 센터에서 **설정** > **추가 기능** 페이지로 이동 합니다. 
-2.    배포 된 추가 기능을 선택 합니다. 
-3.    **상태** 전환을 클릭 하 여 추가 **기능을 설정 하거나** **해제**합니다. 
-4.    변경 내용을 저장 합니다.  
-
-세 가지 추가 기능 상태 중 하나를 사용할 수도 있습니다.
- 
+추가 기능이 **설정** 또는 **해제** 상태일 수 있습니다.
+  
 |**상태**|**상태가 적용되는 경우**|**영향**|
 |:-----|:-----|:-----|
 |**활성**  <br/> |관리자가 추가 기능을 업로드 하 고 사용자 또는 그룹에 할당 했습니다.  <br/> |추가 기능에 할당된 사용자 및 그룹은 관련 클라이언트에서 추가 기능을 볼 수 있습니다.  <br/> |
-|**해제됨**  <br/> |관리자가 추가 기능을 해제했습니다.  <br/> |추가 기능에 할당된 사용자 및 그룹이 더 이상 추가 기능에 액세스할 수 없습니다.  <br/> 추가 기능 상태가 **활성**으로 변경 되 면 사용자 및 그룹이 다시 액세스 하 게 됩니다.  <br/> |
+|**해제됨**  <br/> |관리자가 추가 기능을 해제했습니다.  <br/> |추가 기능에 할당된 사용자 및 그룹이 더 이상 추가 기능에 액세스할 수 없습니다.  <br/> 추가 기능 상태가 활성으로 변경되면 사용자 및 그룹이 추가 기능에 다시 액세스할 수 있습니다.  <br/> |
 |**삭제됨**  <br/> |관리자가 추가 기능을 삭제했습니다.  <br/> |추가 기능에 할당된 사용자 및 그룹이 더 이상 추가 기능에 액세스할 수 없습니다.  <br/> |
    
 추가 기능 중 아무도 사용 하지 않는 경우에는 삭제 하는 것이 좋습니다. 추가 기능 해제는 1년 중 특정 시간에만 추가 기능이 사용되는 경우에 적합할 수 있습니다.
@@ -182,9 +175,9 @@ Office 추가 기능의 유형 및 기능에 대한 자세한 내용은 [Office 
     
 - **Appsource** 내에서 시작 하는 인수
     
-- Office 365 내의 추가 기능
+- Microsoft 365 내의 추가 기능
     
-저장소에 액세스 하려고 하는 사용자에 게는 **Office 스토어 추가 기능의 개별 가져오기를 차단 하도록 office 365가 구성 되어** 있습니다.
+저장소에 액세스 하려고 하는 사용자에 게는 **Office 스토어 추가 기능의 개별 가져오기를 차단 하도록 Microsoft 365이 구성 되어** 있습니다.
   
 다음 버전에서는 Office 스토어의 기능 지원을 사용할 수 있습니다.
   
@@ -241,7 +234,7 @@ GDPR (일반 데이터 보호 규정)은 실제 5 월 25 일 2018이 되는 유�
   
 Windows 용 Word, Excel 및 PowerPoint 2013은 ADAL (Active Directory 인증 라이브러리)을 사용 하는 경우 동일한 사소한 검사를 지원 합니다. 다음에 설명 된 대로 준수에 대 한 두 가지 옵션이 있습니다.
   
-- **ADAL을 사용 하도록 설정**합니다. 이 문서에서는 office [365](https://support.office.com/article/776c0036-66fd-41cb-8928-5495c0f9168a)2013에 대해 ADAL을 사용 하도록 설정 하는 방법에 대해 설명 합니다.<br/>또한 [Windows 장치에서 Office 2013에 대 한 최신 인증 사용](../security-and-compliance/enable-modern-authentication.md)에 설명 된 대로 ADAL을 사용 하도록 레지스트리 키를 설정 해야 합니다.<br/>또한 Office 2013에 대 한 다음 4 월 업데이트를 설치 해야 합니다.
+- **ADAL을 사용 하도록 설정**합니다. 이 문서에서는 Office [365](https://support.office.com/article/776c0036-66fd-41cb-8928-5495c0f9168a)2013에 대해 ADAL을 사용 하도록 설정 하는 방법에 대해 설명 합니다.<br/>또한 [Windows 장치에서 Office 2013에 대 한 최신 인증 사용](../security-and-compliance/enable-modern-authentication.md)에 설명 된 대로 ADAL을 사용 하도록 레지스트리 키를 설정 해야 합니다.<br/>또한 Office 2013에 대 한 다음 4 월 업데이트를 설치 해야 합니다.
     
   - [Office 2013의 보안 업데이트에 대 한 설명: 2018 년 4 월 10 일](https://support.microsoft.com/help/4018330/description-of-the-security-update-for-office-2013-april-10-2018)
     
@@ -284,7 +277,7 @@ Windows 용 Word, Excel 및 PowerPoint 2013은 ADAL (Active Directory 인증 라
 3. **추가 기능 삭제**를 클릭 합니다. 오른쪽 아래 모서리에 있는 추가 기능 단추를 제거 합니다.
 4. 선택한 항목의 유효성을 검사 하 고 **추가 기능 제거**를 선택 합니다.
   
-## <a name="learn-more"></a>자세한 정보
+## <a name="learn-more"></a>자세히 알아보기
 
 [Office 추가 기능](https://go.microsoft.com/fwlink/p/?linkid=846362)을 만들고 빌드하는 방법에 대해 자세히 알아보세요.
   

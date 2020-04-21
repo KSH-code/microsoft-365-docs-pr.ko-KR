@@ -16,17 +16,17 @@ ms.assetid: dad30e2f-93fe-4d21-9a36-21c87ced85c1
 ms.collection:
 - M365-security-compliance
 description: '귀하와 사용자는 분석을 위해 Microsoft에 허위 네거티브 및 가양성 스팸 메시지를 제출할 수 있습니다. '
-ms.openlocfilehash: 77807f710743d98dc2e1564f804b6a67add67def
-ms.sourcegitcommit: 9ed3283dd6dd959faeca5c22613f9126261b9590
+ms.openlocfilehash: f6dbd808fac54ae273c21773bf8caeabce09b7fb
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43529052"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631244"
 ---
 # <a name="manually-submit-messages-to-microsoft-for-analysis"></a>분석을 위해 Microsoft에 수동으로 메시지 전송
 
 > [!NOTE]
-> Exchange Online 사서함을 사용 하는 Office 365 조직의 관리자는 Office 365 보안 & 준수 센터의 전송 포털을 사용 하는 것이 좋습니다. 자세한 내용은 [관리자 제출을 사용 하 여 의심 스러운 스팸, 피싱, url 및 파일을 Microsoft에 제출](admin-submission.md)합니다 .를 참조 하세요.
+> Exchange Online 사서함이 있는 Microsoft 365 조직의 관리자 인 경우 보안 & 준수 센터에서 전송 포털을 사용 하는 것이 좋습니다. 자세한 내용은 [관리자 제출을 사용 하 여 의심 스러운 스팸, 피싱, url 및 파일을 Microsoft에 제출](admin-submission.md)합니다 .를 참조 하세요.
 
 조직의 사용자가 받은 편지함에서 정크 메시지 (스팸) 나 피싱 메시지를 받거나, 정크로 표시 되어 합법적인 전자 메일 메시지를 받지 못하는 경우에는 혼란을 가져올 수 있습니다. Microsoft는 스팸 필터를 보다 정확 하 게 미세 조정 하 고 있습니다.
 
@@ -81,7 +81,7 @@ ms.locfileid: "43529052"
 
 이 항목에서 설명 하는 방법을 사용 하 여 Microsoft에 보고 되는 전자 메일 메시지를 찾는 메일 흐름 규칙 (전송 규칙이 라고도 함)을 만들 수 있으며, 이러한 보고 된 메시지의 복사본을 받도록 숨은 참조 받는 사람을 구성할 수 있습니다.
 
-EAC (Exchange 관리 센터) 및 PowerShell (Office 365 고객을 위한 Exchange Online PowerShell)에서 메일 흐름 규칙을 만들 수 있습니다. 독립 실행형 EOP 고객을 위한 Exchange Online Protection PowerShell
+EAC (Exchange 관리 센터) 및 PowerShell (Microsoft 365 고객을 위한 Exchange Online PowerShell)에서 메일 흐름 규칙을 만들 수 있습니다. 독립 실행형 EOP 고객을 위한 Exchange Online Protection PowerShell
 
 ### <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
 

@@ -6,7 +6,7 @@ ms.author: pebaum
 author: pebaum
 manager: mnirkhe
 audience: Admin
-ms.topic: overview
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -18,16 +18,16 @@ search.appverid:
 - FRP150
 ms.assetid: 739574d7-2c5b-4911-a549-f56ecc7d3b48
 description: 새로운 Microsoft 365 관리 센터에 대해 알아봅니다.
-ms.openlocfilehash: 3cd2fcff839213d843d6474ba826d06c5f2bf504
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: d1267194385d62d176d71a54fea38aab710313f8
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42361603"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627983"
 ---
 # <a name="about-the-new-microsoft-365-admin-center"></a>새 Microsoft 365 관리 센터 정보
 
-Microsoft 365 및 Office 365 서비스를 간단 하 게 관리할 수 있는 방법은 새로운 Microsoft 365 관리 센터에서 IT 팀을 위한 것입니다. 관리 센터는 역할이 나 조직의 고유한 요구 사항에 따라 맞춤식 환경을 제공 하 고 일상적인 작업의 효율성을 향상 시키며, 사용자를 위해 데이터 기반 결정을 내리는 데 도움이 되는 단계별 정보를 제공 합니다.
+Microsoft 365 서비스를 관리 하는 간편한 방법인 새로운 Microsoft 365 관리 센터는 IT 팀을 위해 작성 되었습니다. 관리 센터는 역할이 나 조직의 고유한 요구 사항에 따라 맞춤식 환경을 제공 하 고 일상적인 작업의 효율성을 향상 시키며, 사용자를 위해 데이터 기반 결정을 내리는 데 도움이 되는 단계별 정보를 제공 합니다.
   
 Microsoft 365 관리 센터는 모든 Microsoft 365 관리자의 공통 진입점 이며에서 [https://admin.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2024339)액세스할 수 있습니다. 보안 또는 장치 관리와 같은 전문가 작업 영역을 통해 보다 세부적으로 제어할 수 있습니다. 관리 센터를 함께 사용 하는 방법에 대 한 자세한 내용은이 문서의 뒷부분에 나오는 [보안, 장치 관리 또는 Exchange와 같은 특정 유형의 IT 역할 및 기타 작업 영역](#what-about-the-specific-types-of-it-roles-and-other-workspaces-like-security-device-management-or-exchange) 을 참조 하십시오. 
   
@@ -75,7 +75,7 @@ Microsoft 365 관리 센터에서 새 기능을 사용할 수 있게 되 면 새
 
 Microsoft 365는 Office 365, Windows 10 및 Enterprise Mobility + Security가 포함 된 완전 한 지능형 솔루션으로, 모든 사람이 창의적인 작업을 수행 하 고 안전 하 게 함께 작업할 수 있도록 합니다. 다음 Microsoft 365 구독을 지금 시도 하거나 구매할 수 있도록 관리 센터에서 사용할 수 있습니다.
   
-- Microsoft 365 Business
+- 비즈니스에 대 한 Microsoft 365
 - Microsoft 365 Enterprise E3
 - Microsoft 365 Enterprise E5
     

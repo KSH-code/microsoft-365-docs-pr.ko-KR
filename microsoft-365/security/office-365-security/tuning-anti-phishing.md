@@ -1,5 +1,5 @@
 ---
-title: Office 365에서 피싱 방지 보호 기능 조정
+title: 피싱 방지 보호 기능 조정
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -12,20 +12,20 @@ localization_priority: Normal
 search.appverid:
 - MET150
 description: 관리자는 피싱 메시지의 원인과 방법을 파악 하 고, 향후 피싱 메시지를 더 많이 차단 하기 위해 수행 해야 하는 작업에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: 93fdc17379627a2d595a3861ae3f8f1f9dcefeeb
-ms.sourcegitcommit: 9ed3283dd6dd959faeca5c22613f9126261b9590
+ms.openlocfilehash: a27d41b01069e763ea2b3baab6576c8046b0f8e7
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43528992"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631136"
 ---
-# <a name="tune-anti-phishing-protection-in-office-365"></a>Office 365에서 피싱 방지 보호 기능 조정
+# <a name="tune-anti-phishing-protection"></a>피싱 방지 보호 기능 조정
 
-Office 365에는 기본적으로 사용 하도록 설정 되는 다양 한 피싱 방지 기능이 있지만 일부 피싱 메시지가 여전히 사서함으로 이동할 수 있습니다. 이 항목에서는 피싱 메시지가 발생 한 이유를 파악 하기 위해 수행할 수 있는 작업과 _실수로 작업을 더 어렵게 만들지 않고_Exchange Online 조직에서 피싱 방지 설정을 조정 하기 위해 수행할 수 있는 작업에 대해 설명 합니다.
+Microsoft 365에는 기본적으로 사용 하도록 설정 된 다양 한 피싱 방지 기능이 포함 되어 있지만 일부 피싱 메시지가 여전히 사서함으로 이동할 수 있습니다. 이 항목에서는 피싱 메시지가 발생 한 이유를 파악 하기 위해 수행할 수 있는 작업과 _실수로 작업을 더 어렵게 만들지 않고_Exchange Online 조직에서 피싱 방지 설정을 조정 하기 위해 수행할 수 있는 작업에 대해 설명 합니다.
 
 ## <a name="first-things-first-deal-with-any-compromised-accounts-and-make-sure-you-block-any-more-phishing-messages-from-getting-through"></a>첫 번째 작업: 손상 된 계정을 처리 하 고 더 이상 피싱 메시지를 수신 하지 못하도록 차단 합니다.
 
-피싱 메시지의 결과로 받는 사람의 계정이 손상 된 경우 [Office 365에서 손상 된 전자 메일 계정에 응답 하](responding-to-a-compromised-email-account.md)는 단계를 따르세요.
+피싱 메시지의 결과로 받는 사람의 계정이 손상 된 경우 [Microsoft 365에서 손상 된 전자 메일 계정에 응답 하](responding-to-a-compromised-email-account.md)는 단계를 따르세요.
 
 구독에 ATP (Advanced Threat Protection)가 포함 되어 있으면 [Office 365 위협 인텔리전스](office-365-ti.md) 를 사용 하 여 피싱 메시지도 받은 다른 사용자를 식별할 수 있습니다. 피싱 메시지를 차단 하는 추가 옵션은 다음과 같습니다.
 
@@ -39,7 +39,7 @@ ATP 기능이 설정 되어 있는지 확인 합니다.
 
 ## <a name="report-the-phishing-message-to-microsoft"></a>Microsoft에 피싱 메시지 보고
 
-보고 피싱 메시지는 Office 365의 모든 고객을 보호 하는 데 사용 되는 필터를 조정할 때 유용 합니다. 자세한 내용은 [Microsoft에 메시지 및 파일 보고서](report-junk-email-messages-to-microsoft.md)를 참조 하십시오.
+보고 피싱 메시지는 Microsoft 365의 모든 고객을 보호 하는 데 사용 되는 필터를 조정할 때 유용 합니다. 자세한 내용은 [Microsoft에 메시지 및 파일 보고서](report-junk-email-messages-to-microsoft.md)를 참조 하십시오.
 
 ## <a name="inspect-the-message-headers"></a>메시지 헤더를 검사 합니다.
 
@@ -49,15 +49,15 @@ ATP 기능이 설정 되어 있는지 확인 합니다.
 
 ## <a name="best-practices-to-stay-protected"></a>보호를 유지 하기 위한 모범 사례
 
-- 매월 [보안 점수](../mtp/microsoft-secure-score.md) 를 실행 하 여 Office 365 조직의 보안 설정을 평가 합니다.
+- 매월 보안 [점수](../mtp/microsoft-secure-score.md) 를 실행 하 여 조직의 security 설정을 평가 합니다.
 
 - 정기적으로 [스푸핑 인텔리전스 보고서](learn-about-spoof-intelligence.md) 를 검토 하 고 의심 스러운 메시지를 사용자의 정크 메일 폴더로 배달 하지 말고 **격리** 하도록 [스푸핑 인텔리전스를 구성](set-up-anti-phishing-policies.md#spoof-settings) 합니다.
 
 - [위협 방지 상태 보고서](view-reports-for-atp.md#threat-protection-status-report)를 주기적으로 검토 합니다.
 
-- 일부 고객은 스팸 방지 정책에서 허용 되는 보낸 사람 또는 허용 도메인 목록에 자신의 도메인을 추가 하 여 피싱 메시지를 통해 잘못 사용할 수 있습니다. 이 작업을 선택 하는 경우에는 매우 주의 해야 합니다. 이 구성에서는 일부 합법적인 메시지를 허용 하지만, 일반적으로 Office 365 스팸 및/또는 피싱 필터에 의해 차단 되는 악성 메시지도 허용 됩니다.
+- 일부 고객은 스팸 방지 정책의 보낸 사람 허용 또는 허용 도메인 목록에 자신의 도메인을 추가 하 여 피싱 메시지를 통과 하도록 할 수 있습니다. 이 작업을 선택 하는 경우에는 매우 주의 해야 합니다. 이 구성에서는 일부 합법적인 메시지를 허용 하지만, 일반적으로 스팸 및/또는 피싱 필터에 의해 차단 되는 악성 메시지도 허용 됩니다.
 
-  도메인의 보낸 사람과 관련 하 여 Office 365 (가양성)에 의해 차단 되는 합법적인 메시지를 처리 하는 가장 좋은 방법은 Office 365에서 _모든_ 전자 메일 도메인에 대해 DNS의 SPF, DKIM 및 DMARC 레코드를 완전 하 고 완전 하 게 구성 하는 것입니다.
+  도메인의 보낸 사람을 포함 하는 Microsoft 365 (가양성)에 의해 차단 되는 합법적인 메시지를 처리 하는 가장 좋은 방법은 _모든_ 전자 메일 도메인의 DNS에서 SPF, DKIM 및 DMARC 레코드를 완전히 및 완전히 구성 하는 것입니다.
 
   - SPF 레코드에 도메인의 보낸 사람에 대 한 _모든_ 전자 메일 원본이 식별 되는지 확인 합니다 (타사 서비스를 잊지 마십시오.).
 
@@ -65,11 +65,11 @@ ATP 기능이 설정 되어 있는지 확인 합니다.
 
   구성 지침에 대해서는 다음을 참조 하세요.
   
-  - [스푸핑을 방지할 수 있도록 Office 365에서 SPF 설정](set-up-spf-in-office-365-to-help-prevent-spoofing.md)
+  - [스푸핑을 방지 하기 위한 SPF 설정](set-up-spf-in-office-365-to-help-prevent-spoofing.md)
 
-  - [DKIM을 사용하여 Office 365의 사용자 지정 도메인에서 전송한 아웃바운드 전자 메일의 유효성 검사](use-dkim-to-validate-outbound-email.md)
+  - [DKIM을 사용 하 여 사용자 지정 도메인에서 전송 되는 아웃 바운드 전자 메일의 유효성 검사](use-dkim-to-validate-outbound-email.md)
 
-  - [DMARC를 사용하여 Office 365에서 전자 메일 유효성 검사](use-dmarc-to-validate-email.md)
+  - [DMARC를 사용하여 전자 메일의 유효성 검사](use-dmarc-to-validate-email.md)
 
 - 가능한 경우에는 항상 도메인에 대 한 전자 메일을 Office 365에 직접 배달 하는 것이 좋습니다. 즉, Office 365 도메인의 MX 레코드를 Office 365에 가리키도록 합니다. EOP (Exchange Online Protection)은 메일이 Office 365로 직접 배달 될 때 클라우드 사용자에 게 최상의 보호를 제공할 수 있습니다. EOP 앞에 타사 전자 메일 바이러스 예방 시스템을 사용 해야 하는 경우에는 커넥터에 대 한 고급 필터링을 사용 합니다. 자세한 내용은 [Exchange Online의 커넥터에 대 한 향상 된 필터링](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors)을 참조 하십시오.
 

@@ -1,9 +1,9 @@
 ### YamlMime:Hub
-title: Microsoft 365 Business 리소스
-summary: Microsoft 365 Business는 사이버 위협으로부터 비즈니스를 보호하고, 데이터를 보호하며 장치를 관리하는 데 도움이 되는 Office 365 생산성 도구와 고급 기능을 포함하는 구독 서비스입니다.
+title: Microsoft 365 Business Premium 리소스
+summary: Microsoft 365 Business Premium은 cyberthreats에서 비즈니스를 보호 하 고 데이터를 보호 하 고 장치를 관리 하는 데 도움이 되는 Office 365 생산성 도구와 고급 기능을 포함 하는 구독 서비스입니다.
 brand: m365
 metadata:
-  title: Microsoft 365 Business 리소스
+  title: Microsoft 365 Business Premium 리소스
   description: 설명
   ms.service: o365-administration
   ms.topic: hub-page
@@ -11,18 +11,18 @@ metadata:
   author: samanro
   ms.author: samanro
   ms.date: 10/01/2019
-  ms.openlocfilehash: bf50c985029587ec063e2933d137d6a9b115fa6c
-  ms.sourcegitcommit: d767c288ae34431fb046f4cfe36cec485881385f
-  ms.translationtype: HT
+  ms.openlocfilehash: 29504ca22db443c504a5f3265ca2e8fcba0f737e
+  ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+  ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 04/15/2020
-  ms.locfileid: "43516844"
+  ms.lasthandoff: 04/21/2020
+  ms.locfileid: "43627113"
 productDirectory:
-  title: Microsoft 365 Business를 사용하여 원격 작업을 보안
+  title: Microsoft 365 Business Premium을 통한 원격 작업 보안
   items:
   - title: 어떠한 새로운 기능이 있나요?
     imageSrc: https://docs.microsoft.com/office/media/icons/get-started-blue.svg
-    summary: Azure AD Premium P1이 Microsoft 365 Business와 호환될 예정입니다!
+    summary: Azure AD Premium P1은 Microsoft 365 Business Premium에 제공 됩니다!
     url: https://aka.ms/aadp1smbblog
   - title: 파트너 웨비나 보기
     imageSrc: https://docs.microsoft.com/office/media/icons/education-tutorial-blue.svg
@@ -30,18 +30,18 @@ productDirectory:
     url: https://www.microsoft.com/microsoft-365/partners/videos/secure-your-smb-customers-as-they-cope-with-covid-19
   - title: 읽기
     imageSrc: https://docs.microsoft.com/office/media/icons/sign-up-blue.svg
-    summary: Microsoft 365 Business를 사용하여 안전한 원격 작업을 가능하게 하는 최상의 방법
+    summary: 비즈니스를 위해 Microsoft 365에서 보안 원격 작업을 사용 하도록 설정 하는 최상의 방법입니다.
     url: https://techcommunity.microsoft.com/t5/small-and-medium-business-blog/using-microsoft-365-business-to-secure-your-remote-workforce/ba-p/1298623
 conceptualContent:
   items:
-  - title: Microsoft 365 Business란?
+  - title: Microsoft 365 Business Premium 이란?
     links:
     - url: microsoft-365-business-overview.md
       itemType: overview
       text: 개요
     - url: https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816
       itemType: video
-      text: Microsoft 365 Business 교육
+      text: Microsoft 365 Business Premium 교육
     - url: https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/licensing-microsoft-365-in-smb
       itemType: overview
       text: 요금제 비교
@@ -51,7 +51,7 @@ conceptualContent:
     - url: support/microsoft-365-business-faqs.md
       itemType: reference
       text: FAQ
-  - title: Microsoft 365 Business 설정
+  - title: Microsoft 365 Business Premium 설정
     links:
     - url: set-up.md
       itemType: how-to-guide
@@ -97,7 +97,7 @@ conceptualContent:
     links:
     - url: https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp
       itemType: overview
-      text: Office 365 Advanced Threat Protection
+      text: Advanced Threat Protection
     - url: set-up-mfa.md
       itemType: how-to-guide
       text: MFA 설정
@@ -185,10 +185,10 @@ conceptualContent:
     links:
     - url: sign-up.md
       itemType: get-started
-      text: Microsoft 365 Business에 가입
+      text: Microsoft 365 Business Premium에 등록
     - url: migrate-to-microsoft-365-business.md
       itemType: how-to-guide
-      text: Office 365 Business Premium Office에서 마이그레이션
+      text: Microsoft 365 비즈니스 표준에서 마이그레이션
     - url: migrate-from-e3.md
       itemType: how-to-guide
       text: Office 365 E3에서 마이그레이션

@@ -19,13 +19,13 @@ search.appverid:
 - MOE150
 ms.assetid: 481b460e-f799-4fac-9592-4d5c51bdcbd8
 ROBOTS: NOINDEX
-description: 사용자의 Office 365 계정을 삭제 하거나 복원 하는 방법을 알아봅니다.
-ms.openlocfilehash: 35245a0f9cbe78f6758c7071adea30053f7b8737
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+description: 사용자의 Microsoft 365 계정을 삭제 하거나 복원 하는 방법을 알아봅니다.
+ms.openlocfilehash: 7c6ab070db2821d914a26277b7f5c19043abe39b
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42257358"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627887"
 ---
 # <a name="quick-help-deleted-user"></a>빠른 도움말: 삭제된 사용자
 
@@ -38,7 +38,7 @@ ms.locfileid: "42257358"
 > [!NOTE]
 > 새로운 Microsoft 365 관리 센터를 사용하지 않는 경우 홈페이지 상단에 있는 **새 관리 센터 시도** 토글을 선택하여 켤 수 있습니다.
   
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다..
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다.
 
 2. 사용자를 선택 하 고 사용자 목록 위에 있는 **기타 옵션** (**...**)을 선택한 다음 **사용자 삭제**를 선택 합니다.
   
@@ -48,7 +48,7 @@ ms.locfileid: "42257358"
 
 ::: moniker range="o365-germany"
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다..  
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다.  
 
 2. 사용자를 선택 하 고 사용자 목록 위쪽에 **있는 사용자 삭제를** **추가로** > 선택 합니다.
   
@@ -58,7 +58,7 @@ ms.locfileid: "42257358"
 
 ::: moniker range="o365-21vianet"
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다.. 
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다. 
 
 2. 사용자를 선택 하 고 사용자 목록 위쪽에 **있는 사용자 삭제를** **추가로** > 선택 합니다.
   
@@ -75,9 +75,9 @@ ms.locfileid: "42257358"
 
 삭제된 [사용자](../add-users/add-users.md)는 조직에서 삭제하는 회사 또는 학교 계정입니다. 
   
-## <a name="does-deleting-a-user-free-up-their-office-365-license"></a>사용자를 삭제하면 Office 365 라이선스가 확보되나요?
+## <a name="does-deleting-a-user-free-up-their-microsoft-365-license"></a>사용자를 삭제 하 여 Microsoft 365 라이선스를 확보 하나요?
 
-예, 사용자를 삭제하면 해당 사용자에게 할당된 Office 365 라이선스가 확보됩니다. 해당 라이선스를 다른 사용자에게 할당할 수 있습니다. [전체 문서를 읽으세요](../../commerce/licenses/remove-licenses-from-subscription.md).
+예, 사용자를 삭제 하면 해당 사용자에 게 할당 된 Microsoft 365 라이선스가 확보 됩니다. 해당 라이선스를 다른 사용자에게 할당할 수 있습니다. [전체 문서를 읽으세요](../../commerce/licenses/remove-licenses-from-subscription.md).
   
 ## <a name="i-had-a-deleted-user-listed-in-deleted-users-and-then-it-disappeared-what-happened"></a>삭제된 사용자 목록에 삭제된 사용자가 있었는데 없어졌습니다. 어떻게 되었나요?
 

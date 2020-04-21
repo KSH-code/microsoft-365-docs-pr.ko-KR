@@ -1,5 +1,5 @@
 ---
-title: Office 365 메일 그룹에 사용자 또는 연락처 추가
+title: 메일 그룹에 사용자 또는 연락처 추가
 f1.keywords:
 - NOCSH
 ms.author: kwekua
@@ -18,17 +18,17 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: ba256583-03ca-429e-be4d-a92d9c221ad6
-description: 메일 그룹에 Office 365 사용자 또는 연락처를 추가 하는 방법에 대해 알아봅니다. 예를 들어 전자 메일 그룹에 직원, 파트너 또는 공급 업체를 추가할 수 있습니다.
-ms.openlocfilehash: 2a6ee1336f738b57740469d6d74b461a69d7fc8c
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+description: 메일 그룹에 Microsoft 365 사용자 또는 연락처를 추가 하는 방법에 대해 알아봅니다. 예를 들어 전자 메일 그룹에 직원, 파트너 또는 공급 업체를 추가할 수 있습니다.
+ms.openlocfilehash: 0b1feacbd3e35adcdf96ae8c42aa330921a4b390
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42362373"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43629074"
 ---
-# <a name="add-a-user-or-contact-to-an-office-365-distribution-group"></a>Office 365 메일 그룹에 사용자 또는 연락처 추가
+# <a name="add-a-user-or-contact-to-a-distribution-group"></a>메일 그룹에 사용자 또는 연락처 추가
 
-Office 365 조직의 관리자는 사용자 또는 연락처 중 하나를 메일 그룹에 추가 해야 할 수 있습니다 ( [Office 365에서 메일 그룹 만들기](../setup/create-distribution-lists.md)참조). 예를 들어 전자 메일 그룹에 직원 또는 외부 파트너 또는 공급 업체를 추가할 수 있습니다.
+조직의 관리자는 사용자 또는 연락처 중 하나를 메일 그룹에 추가 해야 할 수 있습니다 ( [Microsoft 365에서 메일 그룹 만들기](../setup/create-distribution-lists.md)참조). 예를 들어 전자 메일 그룹에 직원 또는 외부 파트너 또는 공급 업체를 추가할 수 있습니다.
   
 ## <a name="add-a-user-or-contact-to-a-distribution-group"></a>메일 그룹에 사용자 또는 연락처 추가
 
@@ -92,6 +92,6 @@ Office 365 조직의 관리자는 사용자 또는 연락처 중 하나를 메�
   
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/ed4e6095-9a6a-4d3d-999d-698c39bb7ec8?autoplay=false]
   
-[Office 365에서 전자 메일을 메일 그룹으로 보내는](../manage/send-email-as-distribution-list.md)방법에 대해 알아봅니다.
+[Microsoft 365에서 전자 메일을 메일 그룹으로 보내는](../manage/send-email-as-distribution-list.md)방법에 대해 알아봅니다.
   
 

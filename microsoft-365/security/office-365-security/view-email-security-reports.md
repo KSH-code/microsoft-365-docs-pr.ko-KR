@@ -17,16 +17,16 @@ ms.assetid: 3a137e28-1174-42d5-99af-f18868b43e86
 ms.collection:
 - M365-security-compliance
 description: 조직의 전자 메일 보안 보고서를 찾아서 사용 하는 방법에 대해 알아봅니다. 보안 & 준수 센터에서 전자 메일 보안 보고서를 사용할 수 있습니다.
-ms.openlocfilehash: d99186e4f3a2831eb794d31a33fa4d56af2cc7a4
-ms.sourcegitcommit: 9ed3283dd6dd959faeca5c22613f9126261b9590
+ms.openlocfilehash: b65dd6479262b97f08e34420d9a88ee2a327a73b
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43529076"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631088"
 ---
 # <a name="view-email-security-reports-in-the-security--compliance-center"></a>보안 및 준수 센터의 전자 메일 보안 보고서 보기
 
-[보안 & 준수 센터](https://protection.office.com) 에서 다양 한 보고서를 사용할 수 있으며, Office 365의 스팸 방지, 맬웨어 방지 및 암호화 기능과 같은 전자 메일 보안 기능이 조직을 보호 하는 방법을 확인 하는 데 도움이 됩니다. [필요한 권한이](#what-permissions-are-needed-to-view-these-reports)있는 경우 **보고서** \> **대시보드로**이동 하 여 보안 & 준수 센터에서 이러한 보고서를 볼 수 있습니다.
+[보안 & 준수 센터](https://protection.office.com) 에서 다양 한 보고서를 사용할 수 있으며, Microsoft 365의 스팸 방지, 맬웨어 방지 및 암호화 기능과 같은 전자 메일 보안 기능이 조직을 보호 하는 방법을 확인 하는 데 도움이 됩니다. [필요한 권한이](#what-permissions-are-needed-to-view-these-reports)있는 경우 **보고서** \> **대시보드로**이동 하 여 보안 & 준수 센터에서 이러한 보고서를 볼 수 있습니다.
 
 ![보안 & 준수 센터의 보고서 대시보드](../../media/6b213d34-adbb-44af-8549-be9a7e2db087.png)
 
@@ -69,7 +69,7 @@ URL Threat Protection 보고서의 details table은 테 넌 트 내에서 일어
 
 Exchange Online Protection을 사용 하는 모든 사용자가 사용할 수 있는이 보고서에는 의심 스러운 사용자나 제한 된 사용자로 표시 되는, 데이터가 특히 계정으로 사용 하면 사용자 계정을 나타내는 상태 중 일부를 입력 하는 것이 좋습니다. 자주 사용 하는 경우에는 손상 된 사용자 보고서가 스파이크를 볼 수 있으며, 의심 스러운 또는 제한 상태인 계정으로 증거를 제공 하면 보안 및 테 넌 트의 wellness에 문제가 있을 수 있습니다.
 
-![손상 된 사용자가 Office 365에 표시 되는 대로 보고 합니다.](../../media/tp-threatProtectStatRpt-CompromisedUserRpt.png)
+![손상 된 사용자가 Microsoft 365에 표시 되는 것으로 보고 됩니다.](../../media/tp-threatProtectStatRpt-CompromisedUserRpt.png)
 
 ## <a name="encryption-report"></a>암호화 보고서
 
@@ -91,9 +91,9 @@ Exchange Online Protection을 사용 하는 모든 사용자가 사용할 수 �
 
 ![암호화 보고서 데이터 보기 별 메뉴](../../media/encryptionreport-viewdataby.png)
 
-새 암호화 보고서를 유연 하 게 사용 하 여 추세를 확인 하 고 적절 한 조치를 취할 수 있습니다. 예를 들어 사용자가 암호화 한 전자 메일 메시지가 많은 경우 특정 사용 사례에 대 한 암호화를 자동화 하는 암호화 정책을 추가할 수 있습니다. 도움말을 보려면 [Office 365에서 전자 메일 메시지를 암호화 하는 메일 흐름 규칙 정의](../../compliance/define-mail-flow-rules-to-encrypt-email.md)를 참조 하세요. 또 다른 예로, 사용할 수 있는 암호화 서식 파일이 있지만 아무도 사용 하지 않는 경우에는 사용자가 해당 기능에 대 한 교육을 받아야 하는지 여부를 탐색할 수 있습니다.
+새 암호화 보고서를 유연 하 게 사용 하 여 추세를 확인 하 고 적절 한 조치를 취할 수 있습니다. 예를 들어 사용자가 암호화 한 전자 메일 메시지가 많은 경우 특정 사용 사례에 대 한 암호화를 자동화 하는 암호화 정책을 추가할 수 있습니다. 이에 대 한 도움말을 보려면 [Microsoft 365에서 전자 메일 메시지를 암호화 하기 위한 메일 흐름 규칙 정의](../../compliance/define-mail-flow-rules-to-encrypt-email.md)를 참조 하세요. 또 다른 예로, 사용할 수 있는 암호화 서식 파일이 있지만 아무도 사용 하지 않는 경우에는 사용자가 해당 기능에 대 한 교육을 받아야 하는지 여부를 탐색할 수 있습니다.
 
-이 보고서를 사용 하면 조직의 보안 및 규정 준수 팀이 메시지 암호화를 사용 하는 방법과 추가 작업이 필요한 지 여부를 모니터링할 수 있습니다. 암호화에 대 한 자세한 내용은 [Office 365의 전자 메일 암호화](../../compliance/email-encryption.md)를 참조 하세요.
+이 보고서를 사용 하면 조직의 보안 및 규정 준수 팀이 메시지 암호화를 사용 하는 방법과 추가 작업이 필요한 지 여부를 모니터링할 수 있습니다. 암호화에 대 한 자세한 내용은 [Microsoft 365의 전자 메일 암호화](../../compliance/email-encryption.md)를 참조 하세요.
 
 ## <a name="threat-protection-status-report"></a>위협 방지 상태 보고서
 
@@ -170,7 +170,7 @@ Exchange Online Protection을 사용 하는 모든 사용자가 사용할 수 �
 
 차트에서 특정 날짜를 마우스로 가리키면 위장 메일 메시지의 수를 확인할 수 있습니다.
 
-보고서를 클릭 하거나 탭 하 여 새 브라우저 창에서 보고서를 열 수 있습니다. 스푸핑 방지 보호에 대 한 자세한 내용은 [Office 365에서 스푸핑 방지 보호](anti-spoofing-protection.md)를 참조 하세요.
+보고서를 클릭 하거나 탭 하 여 새 브라우저 창에서 보고서를 열 수 있습니다. 스푸핑 방지 보호에 대 한 자세한 내용은 [Microsoft 365에서 스푸핑 방지 보호](anti-spoofing-protection.md)를 참조 하세요.
 
 ## <a name="spam-detections-report"></a>스팸 감지 보고서
 
@@ -208,7 +208,7 @@ Exchange Online Protection을 사용 하는 모든 사용자가 사용할 수 �
 
 ![이 보고서는 맬웨어 방지, 스팸 방지 및 기타 메시지 감지에 대해 알려줍니다.](../../media/9ea4b606-f27a-46ee-97a7-be018e2b839c.png)
 
-전자 메일 인텔리전스에 대 한 자세한 내용은 [Mail flow intelligence In Office 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/mail-flow-intelligence-in-office-365)을 참조 하십시오.
+전자 메일 인텔리전스에 대 한 자세한 내용은 [Mail flow intelligence In Microsoft 365](https://docs.microsoft.com/microsoft-365/security/office-365-security/mail-flow-intelligence-in-office-365)을 참조 하십시오.
 
 ## <a name="user-reported-messages-report"></a>사용자가 보고 한 메시지 보고서
 
@@ -227,7 +227,7 @@ Exchange Online Protection을 사용 하는 모든 사용자가 사용할 수 �
 ![보안 & 준수 센터에서 위협 관리 \> 검토 \> 사용자가 보고 한 메시지를 선택 합니다.](../../media/e372c57c-1414-4616-957b-bc933b8c8711.png)
 
 > [!IMPORTANT]
-> 사용자가 보고 한 메시지 보고서가 제대로 작동 하도록 하려면 Office 365 환경에 대해 **감사 로깅을 켜야 합니다** . 이 작업은 일반적으로 Exchange Online에서 감사 로그 역할이 할당 된 사용자가 수행 합니다. 자세한 내용은 [Office 365 감사 로그 검색 설정 또는 해제](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off)를 참조하세요.
+> 사용자가 보고 한 메시지 보고서가 제대로 작동 하도록 하려면 Office 365 환경에 대해 **감사 로깅을 켜야 합니다** . 이 작업은 일반적으로 Exchange Online에서 감사 로그 역할이 할당 된 사용자가 수행 합니다. 자세한 내용은 [Turn Microsoft 365 감사 로그 검색 설정 또는 해제](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off)를 참조 하세요.
 
 ## <a name="what-permissions-are-needed-to-view-these-reports"></a>이러한 보고서를 표시 하는 데 필요한 사용 권한은 무엇입니까?
 
@@ -243,19 +243,19 @@ Exchange Online Protection을 사용 하는 모든 사용자가 사용할 수 �
 
 자세한 내용은 다음 리소스를 참조하세요.
 
-- [Office 365 보안 및 준수 센터의 사용 권한](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center)
-
+- [보안 및 준수 센터의 사용 권한](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center)
+ 
 - [Exchange Online의 기능 사용 권한](https://docs.microsoft.com/exchange/permissions-exo/feature-permissions)
 
 ## <a name="what-if-the-reports-arent-showing-data"></a>보고서에 데이터가 표시 되지 않으면 어떻게 하나요?
 
-보고서에 데이터가 표시 되지 않는 경우 정책이 올바르게 설정 되어 있는지 다시 확인 합니다. 자세한 내용은 [Office 365에서 위협 으로부터 보호](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats)를 참조 하세요.
+보고서에 데이터가 표시 되지 않는 경우 정책이 올바르게 설정 되어 있는지 다시 확인 합니다. 자세한 내용은 [Microsoft 365에서 위협 으로부터 보호](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats)를 참조 하세요.
 
 ## <a name="related-topics"></a>관련 항목
 
-[Office 365 이메일 스팸 방지 보호](https://docs.microsoft.com/microsoft-365/security/office-365-security/anti-spam-and-anti-malware-protection)
+[Microsoft 365 전자 메일 스팸 방지 보호](https://docs.microsoft.com/microsoft-365/security/office-365-security/anti-spam-and-anti-malware-protection)
 
-[Office 365 보안 & 준수 센터의 보고서 및 정보](https://docs.microsoft.com/microsoft-365/security/office-365-security/reports-and-insights-in-security-and-compliance)
+[보안 & 준수 센터의 보고서 및 정보](https://docs.microsoft.com/microsoft-365/security/office-365-security/reports-and-insights-in-security-and-compliance)
 
 [보안 & 준수 센터에서 보고서에 대 한 일정 만들기](https://docs.microsoft.com/microsoft-365/security/office-365-security/create-a-schedule-for-a-report)
 

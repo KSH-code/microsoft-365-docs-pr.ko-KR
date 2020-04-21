@@ -20,18 +20,18 @@ search.appverid:
 - MOE150
 ms.assetid: 3c490fbf-7833-4e43-be34-ed0dc3cce5e3
 description: Google Domains 페이지를 통해 eNom에 액세스 하 고 DNS를 만드는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 8fc13ea2ccc7dfee510ef7abb72f88030d048943
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+ms.openlocfilehash: 7d79350f163d1b120d3dd45bc7bbb3e57583bf05
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43210661"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43629134"
 ---
 # <a name="create-dns-records-when-your-domain-is-managed-by-google-enom"></a>Google (eNom)에서 도메인을 관리 하는 경우 DNS 레코드 만들기
 
- **원하는 정보는 찾지 못한 경우 [도메인 질문과 대답을 확인](../setup/domains-faq.md)** 하세요. 
+ 원하는 정보를 찾지 못한 경우 **[도메인 FAQ를 확인](../setup/domains-faq.md)** 하세요. 
   
-메일 계정을 Office 365로 마이그레이션하려면 사용자의 도메인 등록 기관에서 DNS 레코드를 만들어야 합니다.
+메일 계정을 Microsoft로 마이그레이션하려면 도메인 등록 기관에서 DNS 레코드를 만들어야 합니다.
   
 Google **Apps For Work** 계정을 등록 하는 동안 google을 통해 도메인을 구매한 경우, DNS 레코드는 google에서 관리 되지만 enom에 등록 됩니다. 
   
@@ -89,7 +89,7 @@ Google **Domains** 페이지를 통해 enom에 액세스 하 고 DNS를 만들 �
     |@  <br/> ||TXT  <br/> |
 
     > [!NOTE]
-    > This is an example. 여기에는 Office 365의 표에 있는 특정 **보낼 대상 또는 지점** 값을 사용합니다. 
+    > This is an example. 표에서 특정 **대상 또는 지점** 값을 사용 하 여 여기서 주소를 지정 합니다. 
   
     [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)
   

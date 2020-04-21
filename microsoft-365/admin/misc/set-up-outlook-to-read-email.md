@@ -19,16 +19,16 @@ search.appverid:
 - MOE150
 ms.assetid: 2e155154-bc66-48cc-8476-ab558c97115a
 description: Outlook에서 Windows 및 Mac에 대해 전자 메일 계정을 설정 하는 방법과 Office 앱을 설치 하 고 온라인으로 전자 메일에 액세스 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: f5be456c845381a07c380e4d480e03a39c42f0ed
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 6f256a9b528c5ee51490007f388b8d3bd5a92f02
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42361239"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627791"
 ---
 # <a name="set-up-outlook-to-read-email"></a>Outlook을 설정 하 여 전자 메일 읽기
 
-Office 365 구독은 웹 기반 Outlook과 함께 제공 되지만 구독에 Office 클라이언트 앱이 포함 되어 있는 경우에는 개인 컴퓨터 또는 장치에 설치할 수 있는 Outlook도 받게 됩니다.
+Microsoft 365 구독에는 웹 기반 Outlook이 제공 되지만 구독에 Office 클라이언트 앱이 포함 되어 있는 경우에는 개인 컴퓨터 또는 장치에 설치할 수 있는 Outlook도 받게 됩니다.
   
 ## <a name="set-up-an-email-account-in-outlook"></a>Outlook에서 전자 메일 계정 설정
 
@@ -62,15 +62,15 @@ Outlook 앱을 처음 열 때 받은 편지함 설정 마법사가 열립니다.
   
 ## <a name="how-do-i-access-my-mail-online"></a>내 메일에 액세스 하려면 어떻게 해야 합니까?
 
-Office 365에 로그인 한 후 **Outlook**을 선택 합니다.
+Microsoft 365에 로그인 한 후 **Outlook**을 선택 합니다.
   
-![Outlook 앱이 강조 표시 된 상태로 Office 365 홈 페이지](../../media/3ceee838-9d85-4af3-95a6-fbcee11036f4.png)
+![Outlook 앱이 강조 표시 된 상태로 Microsoft 365 홈 페이지](../../media/3ceee838-9d85-4af3-95a6-fbcee11036f4.png)
   
-찾고자 하는 앱을 찾을 수 없나요? 앱 시작 관리자에서 **모든 앱**을 선택하여 사용 가능한 Office 365 앱의 사전순 목록을 보세요. 거기에서 특정 앱을 검색할 수 있습니다. 
+찾고자 하는 앱을 찾을 수 없나요? 앱 시작 관리자에서 **모든 앱** 을 선택 하 여 사용 가능한 Microsoft 365 앱의 사전순 목록을 확인 합니다. 거기에서 특정 앱을 검색할 수 있습니다. 
   
 ## <a name="how-do-i-know-if-my-subscription-includes-office-apps"></a>구독에 Office 앱이 포함 되어 있는지 어떻게 알 수 있나요?
 
-Office 365 Business Premium 및 Office 365 Business에는 Office 앱이 포함 됩니다. 자세한 내용은 [office 365 비즈니스 요금제](https://go.microsoft.com/fwlink/p/?LinkId=723731)또는 [office 365 Enterprise 요금제](https://go.microsoft.com/fwlink/p/?LinkId=800029)를 참조 하세요.
+Microsoft 365 비즈니스 표준 및 Microsoft 365 앱에는 Office 앱이 포함 됩니다. 자세한 내용은 [Microsoft 365 for business 요금제](https://go.microsoft.com/fwlink/p/?LinkId=723731)또는 [Office 365 Enterprise 요금제](https://go.microsoft.com/fwlink/p/?LinkId=800029)를 참조 하세요.
   
 ## <a name="how-do-i-determine-what-subscription-i-have"></a>내가 구독 한 구독은 어떻게 확인 하나요?
 

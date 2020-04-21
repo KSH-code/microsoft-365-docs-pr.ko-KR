@@ -29,12 +29,12 @@ search.appverid:
 - MOE150
 ms.assetid: 99bfbf81-e719-4630-9b0f-c187edfa1f8a
 description: AutoPilot 프로필은 Windows가 사용자 장치에 설치 되는 방법을 제어 하는 데 도움이 됩니다. 이 프로필에는 Cortana 설치 건너뛰기와 같은 기본 설정과 선택적 설정이 포함 되어 있습니다.
-ms.openlocfilehash: 1cc8a3171bbc4a1e5cb531b9364c7791586fc339
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 5c2ec3f4c3e0ebc4ea545d11f819c897f414ad52
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41593336"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627417"
 ---
 # <a name="about-autopilot-profile-settings"></a>AutoPilot 프로필 설정 정보
 
@@ -46,9 +46,9 @@ AutoPilot 프로필을 사용 하 여 사용자 장치에 Windows가 설치 되�
   
 |**설정**|**설명**|
 |:-----|:-----|
-|Cortana, OneDrive 및 OEM 등록 건너뛰기  <br/> |Cortana 및 개인 OneDrive와 같은 소비자 앱의 설치를 건너뜁니다. 사용자가 장치에서 로컬 관리자 인 경우에는 장치 사용자가 나중에이를 설치할 수 있습니다. Microsoft 365 Business에서 장치를 관리 하므로 원래 제조업체 등록을 건너뜁니다.  <br/> |
-|회사 브랜드의 로그인 환경  <br/> |회사의 [Office 365 로그인 페이지에 회사 브랜드 추가](https://support.office.com/article/a1229cdb-ce19-4da5-90c7-2b9b146aef0a)를 사용 하는 경우에는 장치 사용자에 게 로그인 할 때 해당 환경이 제공 됩니다.  <br/> |
-|구성 된 AAD 계정을 사용 하는 MDM 자동 등록  <br/> |사용자 id는 Azure Active Directory에서 관리 되며 사용자는 Microsoft 365 Business 자격 증명을 사용 하 여 Windows 및 Office 365에 로그인 합니다.  <br/> |
+|Cortana, OneDrive 및 OEM 등록 건너뛰기  <br/> |Cortana 및 개인 OneDrive와 같은 소비자 앱의 설치를 건너뜁니다. 사용자가 장치에서 로컬 관리자 인 경우에는 장치 사용자가 나중에이를 설치할 수 있습니다. 장치가 Microsoft 365 Business Premium에서 관리 되므로 원래 제조업체 등록은 건너뜁니다.  <br/> |
+|회사 브랜드의 로그인 환경  <br/> |회사에서 [Microsoft 365 로그인 페이지에 회사 브랜딩 추가](https://support.office.com/article/a1229cdb-ce19-4da5-90c7-2b9b146aef0a)를 사용 하는 경우 디바이스 사용자에 게 로그인 할 때 해당 환경이 제공 됩니다.  <br/> |
+|구성 된 AAD 계정을 사용 하는 MDM 자동 등록  <br/> |사용자 id는 Azure Active Directory에서 관리 되며, 사용자는 Microsoft 365 Business Premium 자격 증명을 사용 하 여 Windows 및 Microsoft 365에 로그인 합니다.  <br/> |
    
  **선택적 설정:**
   

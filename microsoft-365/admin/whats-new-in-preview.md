@@ -21,12 +21,12 @@ ms.assetid: 739574d7-2c5b-4911-a549-f56ecc7d3b48
 description: Microsoft 365 관리 센터-이 달에 추가 된 기능에 대해 알아봅니다.
 ms.custom:
 - MACDashWhatsNew
-ms.openlocfilehash: 06cc7519cae2b71581f0f50e9e8eec15fe77e568
-ms.sourcegitcommit: 053d42480d8aa3792ecb0027ddd53d383a029474
+ms.openlocfilehash: 35a08b7c5ebdfd85a66fd28c46eb601d16298f96
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43171015"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627525"
 ---
 # <a name="whats-new-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터의 새로운 기능
 
@@ -36,59 +36,10 @@ ms.locfileid: "43171015"
 > **3 월부터 시작 하는 "클래식" 관리 센터 만료**<br><br>
 Admin.microsoft.com에 로그인 하면 항상 새 관리 센터로 이동 합니다. 또한 3 월에는 기본 관리 센터로 다시 전환 하는 기능을 사용 하지 않도록 설정 합니다. 지금은 다시 전환할 수 있지만 새 관리 센터가 패리티에 도달 하 여이를 초과 하면 모든 조직에 대해 스위치를 해제 하 게 됩니다. <br><br> *마지막 업데이트 날짜: 3 월 2 일 2020*
 
-다른 Microsoft 클라우드 서비스의 새로운 기능에 관심이 있는 경우 다음을 수행 하세요.
+그리고 다른 관리 센터의 새로운 기능을 소개 하려면 다음을 수행 합니다.
 
-- [Exchange Online의 새로운 기능](https://go.microsoft.com/fwlink/?linkid=2119714)
-- [Microsoft Intune의 새로운 기능](https://docs.microsoft.com/mem/intune/fundamentals/whats-new)
 - [Microsoft 365 준수 센터의 새로운 기능](https://docs.microsoft.com/Office365/SecurityCompliance/whats-new)
 - [SharePoint 관리 센터의 새로운 기능](https://docs.microsoft.com/sharepoint/what-s-new-in-admin-center)
-- [Office 업데이트](https://docs.microsoft.com/OfficeUpdates/)
-
-## <a name="march-2020"></a>2020년 3월
-
-### <a name="featured-feedback-fix-improve-add-user-reliability-for-licensing"></a>추천 피드백 수정: 라이선스에 대 한 "추가 사용자" 안정성 향상
-
-사용자를 추가할 때 라이선스를 할당 하는 것이 얼마나 어려운 지 관리자 로부터 많은 의견이 수신 되었습니다. 이 수정 프로그램에 대 한 첫 번째 업데이트를 수행 했으며, 이러한 요청을 처리 하기 위해 보다 신뢰할 수 있는 백그라운드 서비스를 마이그레이션 했습니다. 문제가 발생 하면 나중에 다시 시도할 수 있는 오류 메시지가 표시 됩니다.
-
-:::image type="content" source="../media/MAC-WN-ImprovedLicensing.png" alt-text="오류가 있는 사용자 확인 페이지를 추가 합니다.":::
-
-### <a name="microsoft-teams-home-page-card"></a>Microsoft 팀 홈 페이지 카드
-
-팀 사용에서의 uptick을 사용 하는 경우 일부 조직을에서 고정 된 대시보드 카드를 가져와 더 쉽게 검색할 수 있도록 설정 합니다. 또한이 카드에는 조직에서 원격 작업으로 전환 하는 데 도움이 되는 교육 및 문서에 대 한 링크도 포함 되어 있습니다. **홈** 페이지로 이동 하 여 새 카드를 확인 하세요.
-
-:::image type="content" source="../media/MAC-WN-TeamsCard.PNG" alt-text="Microsoft 팀 홈 페이지 카드":::
-
-### <a name="customize-your-organizations-sharepoint-mobile-app-theme"></a>조직의 SharePoint 모바일 앱 테마 사용자 지정
-
-Microsoft 365 관리 센터를 사용 하 여 이제 SharePoint 모바일 앱 for iOS 및 SharePoint 모바일 앱 for Android에서 조직의 테마를 사용자 지정할 수 있습니다. 이 기능은 이동 중에 직원 들에 게 SharePoint Online을 일치 시킬 수 있는 모바일 인트라넷 앱 환경을 간편 하 게 제공 합니다. 테마 사용자 지정에는 로고 이미지, 탐색 모음 색, 텍스트 및 아이콘 색, 강조 색 등이 포함 되어 쉽게 인식할 수 있습니다.
-
-:::image type="complex" source="../media/MAC-WN-CustThemeSP.png" alt-text="관리 센터 설정을 모바일 앱에 매핑하는 다이어그램입니다.":::
-
-:::image-end:::
-
-### <a name="improvements-to-the-add-a-group-wizard"></a>"그룹 추가" 마법사의 향상 된 기능
-
-관리자가 새 그룹을 만들어 동시에 팀으로 만든 경우 팀을 포함 하는 라이선스가 없는 소유자를 할당할 수 있습니다. 그리고 몇 가지 골치 아픈 것을 본 것입니다. 마법사 흐름을 업데이트 하 여 소유자에 게 팀 라이선스가 있는지 확인 하 고 그룹을 팀으로 전환 하는 옵션을 사용 하지 않도록 설정 했습니다.
-
-### <a name="microsoft-365-offerings-for-small-and-medium-businesses"></a>중소 규모 기업을 위한 Microsoft 365 제공
-
-이는 다음 달에 대 한 알림 이지만 준비 되어 있는지 확인 하려고 합니다.
-
-4 월 21 일에 시작 하 여 중소 기업 및 Office 365 ProPlus에 대 한 Office 365 구독과 관련 된 변경 작업을 수행 하 고 있습니다. 이러한 제품은 이제 Microsoft 365 브랜드를 사용 합니다.
-
-새 제품 이름은 2020 년 4 월 21 일에 적용 됩니다. 이는 제품 이름만 변경 되었으며 지금은 가격 또는 기능을 변경할 수 없습니다.
-
-|현재 이름 |새 이름  |
-|---------|---------|
-|Office 365 Business Essentials     |   Microsoft 365 Business Basic      |
-|Office 365 Business Premium     |    Microsoft 365 비즈니스 표준     |
-|Microsoft 365 Business     |    Microsoft 365 Business Premium     |
-|Office 365 Business     |    Microsoft 365 비즈니스 에디션 앱       | 
-|Office 365 ProPlus    |   Microsoft 365 enterprise 용 앱      |
-
-### <a name="videos-training-and-docs"></a>동영상, 교육 및 문서
-
-[Microsoft 365 웹 시리즈의 새로운](https://go.microsoft.com/fwlink/p/?linkid=2118096)기능: 이번 달에는 microsoft 팀의 3 년 전 기념일을 강조 하 고, 온라인 모임에서 향상 된 오디오 품질, 이동 앱, 팀 및 Skype 소비자 상호 운용성 등의 firstline 관리자를 대상으로 하는 새로운 기능을 소개 합니다.
 
 ## <a name="february-2020"></a>2020년 2월
 
@@ -111,7 +62,7 @@ Microsoft 365 관리 센터를 사용 하 여 이제 SharePoint 모바일 앱 fo
 이번 달에는 그룹 영역에서 다음과 같은 몇 가지 사항을 변경 합니다.
 
 - **그룹 이름순으로 정렬**: **그룹 이름** 열을 선택 하 여 그룹 목록을 사전순으로 정렬할 수 있습니다.
-- **Deleted office 365 그룹 복원**: 더 이상 Exchange 관리 센터로 이동 하 여 삭제 된 office 365 그룹을 복원할 필요가 없습니다. **Microsoft 365 관리 센터** \> **그룹** \> **삭제 된 그룹** \> (목록에서 그룹 선택) \> **복원 그룹**으로 이동 합니다. **그룹을 그룹 목록으로** 다시 복원 하 고 그룹의 전자 메일, 대화, 전자 필기장, 파일 및 일정을 복원 합니다.
+- **삭제 된 microsoft 365 그룹 복원**: 더 이상 Exchange 관리 센터로 이동 하 여 삭제 한 microsoft 365 그룹을 복원할 필요가 없습니다. **Microsoft 365 관리 센터** \> **그룹** \> **삭제 된 그룹** \> (목록에서 그룹 선택) \> **복원 그룹**으로 이동 합니다. **그룹을 그룹 목록으로** 다시 복원 하 고 그룹의 전자 메일, 대화, 전자 필기장, 파일 및 일정을 복원 합니다.
 
 ### <a name="videos-training-and-docs"></a>동영상, 교육 및 문서
 
@@ -160,7 +111,7 @@ Howdy, 파트너! (도움을 받을 수 없습니다.) 이번 달에도 업데�
 - [도움말 또는 지원 받기](https://support.office.com/article/18948a4c-3eb1-4b30-b1bc-a4cc29eb7655)
 - [사용자 삭제](https://support.office.com/article/6bcdad7b-732a-4260-997a-8c176bc3d9d6)
 - [Microsoft 구독 선택](https://support.office.com/article/b9f7c78e-430f-4117-89ec-2eeb1dced2ca)
-- [Microsoft 365 Business security 개요](https://support.office.com/article/3274b159-a825-46d7-9421-7d6e209389d1)
+- [Microsoft 365 for business security 개요](https://support.office.com/article/3274b159-a825-46d7-9421-7d6e209389d1)
 
 ## <a name="november-and-december-2019"></a>11 월과 12 월 2019
 
@@ -199,7 +150,7 @@ Microsoft는 [Ignite Edition 2019](#october-2019---ignite-edition)의 전역 독
 
 - [Microsoft 365 기본 사항](https://docs.microsoft.com/learn/paths/m365-fundamentals/)
 - [Office 기본 사항 확장](https://docs.microsoft.com/learn/paths/extend-office-fundamentals/)
-- [Microsoft 365 - Windows 10 및 Office 365 ProPlus를 사용하여 엔터프라이즈 배포를 현대화합니다.](https://docs.microsoft.com/learn/paths/m365-getmodern/)
+- [Microsoft 365-엔터프라이즈 배포에서 Windows 10 및 Microsoft 365 앱 for enterprise Modernize](https://docs.microsoft.com/learn/paths/m365-getmodern/)
 - [Microsoft 365를 사용하여 엔터프라이즈 배포 관리](https://docs.microsoft.com/learn/paths/manage-enterprise-deployment-m365/)
 - [IT용 Microsoft Office 대규모 업그레이드](https://docs.microsoft.com/learn/paths/m365-office-for-it/)
 - [Azure에서 Windows 가상 데스크톱을 사용 하 여 원격 데스크톱 및 앱 제공](https://docs.microsoft.com/learn/paths/m365-wvd/)
@@ -320,7 +271,7 @@ Ignite 2019의 몇 가지 흥미로운 기능 릴리스에 대 한 램프는 몇
 
 조직을 설정 하는 데 도움이 되는 몇 가지 흥미로운 변경 사항이 있습니다. 먼저, **설치** 및 **설정 페이지**간의 차이점을 살펴보겠습니다. **설치 프로그램** 은 Microsoft의 온라인 서비스에 등록 하는 데 사용한 초기 설치 마법사를 참조 합니다. 여기에는 대개 **도메인 연결**, **사용자 추가**및 **Office 앱 다운로드**의 세 가지 특정 단계가 포함 됩니다. **설치 페이지** 는 라이선스를 구매한 기능을 켜면 구독을 최대한 활용 하기 위해 권장 설정 작업을 수행 하는 관리 센터의 페이지입니다.
 
-- **설치** -초기 설치 마법사가 **비즈니스용 Office 365** 구독에 맞게 업데이트 되었습니다. 이 새로운 디자인을 통해 새 조직이 마법사를 보다 빠르게 진행 하 고 성공을 높일 수 있습니다.
+- **설치** -초기 설치 마법사가 **비즈니스용 Microsoft 365** 구독에 맞게 업데이트 되었습니다. 이 새로운 디자인을 통해 새 조직이 마법사를 보다 빠르게 진행 하 고 성공을 높일 수 있습니다.
 - **설정 페이지** **-설정 페이지에서는 구독과** 함께 제공 되는 서비스의 설정 및 보안을 완료 하는 데 도움이 됩니다. 또한 **설정** 페이지에서 해제 된 권장 사항을 볼 수 있습니다. 아직 구독에 사용할 수 있는지 여부를 확인 하려면 **Microsoft 365 관리 센터** > **설정**으로 이동 합니다.
 
 ### <a name="billing--subscriptions"></a>대금 청구 & 구독
@@ -414,7 +365,7 @@ Ignite 2019의 몇 가지 흥미로운 기능 릴리스에 대 한 램프는 몇
 
 - **홈** 페이지에는 도메인을 추가 하 고, 사용자를 추가 하 고, Office 앱을 다운로드 하는 것과 같은 설정 단계를 완료 하지 않은 경우를 볼 수 있는 새로운 설정 배너가 있습니다.
 - **그룹** 목록 및 세부 정보 창이 새 스타일로 업데이트 되었습니다. **그룹** > **그룹** 으로 이동 하 여 변경 내용을 확인 합니다.
-  - 그룹에 대 한 이야기 또한 **Microsoft 팀** 탭이 그룹 세부 정보 창에 추가 되어 모든 Office 365 그룹을 팀으로 설정할 수 있습니다. 그룹을 "teamify" 하려면 목록에서 Office 365 그룹을 선택 하 고 **Microsoft 팀** 탭을 선택한 다음 팀을 **만듭니다**. 그룹이 이미 팀 인 경우 **팀 관리 센터**에서 해당 그룹을 관리 하기 위한 링크를 받게 됩니다.
+  - 그룹에 대 한 이야기에는 microsoft 365 그룹을 팀으로 바꿀 수 있는 그룹 세부 정보 창에 **Microsoft 팀** 탭도 추가 되었습니다. 그룹을 "teamify" 하려면 목록에서 Microsoft 365 그룹을 선택 하 고 **Microsoft 팀** 탭을 선택한 다음 팀을 **만듭니다**. 그룹이 이미 팀 인 경우 **팀 관리 센터**에서 해당 그룹을 관리 하기 위한 링크를 받게 됩니다.
   - 마지막으로 **팀 상태** 를 **그룹** 목록에 추가할 수 있습니다. 열 머리글에서**팀 상태** > **저장** **열** > 을 선택 합니다.
 - **제한 된 새 관리 역할** -사용자에 게 필요한 액세스 권한만 제공할 수 있도록 몇 가지 새 관리 역할을 릴리스 했습니다.
   - **Kaizala admin**:이 역할의 사용자에 게는 Kaizala 디렉터리에서 사용자 만들기 및 관리, Kaizala 그룹 관리, 작업 카드 및 커넥터 관리, 서비스 요청 만들기 등 Microsoft Kaizala 내의 모든 관리 작업을 수행할 수 있는 권한이 있습니다.

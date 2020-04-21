@@ -1,5 +1,5 @@
 ---
-title: Office 365에서 이전 직원 제거
+title: 이전 직원 제거
 f1.keywords:
 - NOCSH
 ms.author: kwekua
@@ -23,15 +23,15 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 44d96212-4d90-4027-9aa9-a95eddb367d1
-description: '이 검사 목록을 따라 Office 365에서 직원을 제거 하 고 데이터를 보호 합니다. '
-ms.openlocfilehash: f29f24e0f9cf583e768000cff2d6081eb9df6d87
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+description: '다음 검사 목록을 따라 Microsoft 365에서 직원을 제거 하 고 데이터를 보호 합니다. '
+ms.openlocfilehash: 593460c2e49b7136972c084a9927544e6194cb90
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42353119"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43617125"
 ---
-# <a name="remove-a-former-employee-from-office-365"></a>Office 365에서 이전 직원 제거
+# <a name="remove-a-former-employee"></a>이전 직원 제거
   
 ## <a name="sign-out-now"></a>지금 로그아웃!
 
@@ -83,7 +83,7 @@ ms.locfileid: "42353119"
 ::: moniker-end
 
     
-한 시간 이내에 또는 현재 Office 365 페이지에서 나간 후에 다시 로그인 하 라는 메시지가 표시 됩니다. (액세스 토큰은 한 시간 동안 유효 하므로 타임 라인은 해당 토큰에 남은 시간과 현재 웹 페이지에서 벗어나 이동 하는지 여부에 따라 달라 집니다.)
+한 시간 이내에 또는 현재 Microsoft 365 페이지에서 나간 후에 다시 로그인 하 라는 메시지가 표시 됩니다. (액세스 토큰은 한 시간 동안 유효 하므로 타임 라인은 해당 토큰에 남은 시간과 현재 웹 페이지에서 벗어나 이동 하는지 여부에 따라 달라 집니다.)
   
  **주의 사항**: 사용자가 웹용 Outlook에 있는 경우 사서함 주위를 클릭하는 것만으로는 즉시 로그아웃되지 않을 수 있습니다. OneDrive와 같은 다른 타일을 선택 하거나 브라우저를 새로 고치면 로그 아웃이 시작 됩니다. 
   
@@ -94,7 +94,7 @@ PowerShell을 사용하여 사용자를 즉시 로그아웃하려면 [Revoke-Azu
 ## <a name="overview-of-all-the-steps-to-remove-an-employee-and-secure-data"></a>직원을 제거하고 데이터를 보호하기 위한 모든 단계의 개요
 <a name="bkmk_now"> </a>
 
-"직원이 퇴사하는 경우 데이터를 보호하려면 어떻게 해야 하나요?"라는 질문을 자주 받습니다. 이 문서에서는 Office 365에 대한 액세스를 차단하는 방법 및 데이터를 보호하기 위해 수행해야 할 단계를 설명합니다.
+"직원이 퇴사하는 경우 데이터를 보호하려면 어떻게 해야 하나요?"라는 질문을 자주 받습니다. 이 문서에서는 Microsoft 365에 대 한 액세스를 차단 하는 방법과 데이터를 보호 하기 위해 수행 해야 하는 단계에 대해 설명 합니다.
   
 > [!NOTE]
 > 전역 관리자는 직원을 삭제 하 고, 전자 메일을 전달 하 고, 새로운 안내가 제공 되는 환경을 사용 하 여 OneDrive 콘텐츠로 수행할 작업을 선택할 수 있습니다. 자세한 내용은 [전역 관리자: 사용자 삭제](remove-former-employee.md)를 참조 하세요. 그러나 직원에 게 회사 데이터에 대 한 액세스 권한이 없는지 확인 하려면 여기에 나열 된 추가 단계를 모두 완료 하는 것이 좋습니다. 
@@ -107,10 +107,10 @@ PowerShell을 사용하여 사용자를 즉시 로그아웃하려면 [Revoke-Azu
 |1. [이전 직원 사서함의 콘텐츠 저장](#save-the-contents-of-a-former-employees-mailbox) <br/> |해당 직원의 업무를 인수하는 사람에게 또는 소송이 발생하는 경우 유용합니다.  <br/> |
 |2. [이전 직원의 전자 메일을 다른 직원에게 전달 또는 공유 사서함으로 변환](#forward-a-former-employees-email-to-another-employee-or-convert-to-a-shared-mailbox) <br/> |이렇게 하면 이전 직원의 전자 메일 주소를 활성 상태로 유지할 수 있습니다. 이전 직원의 주소로 여전히 전자 메일을 보내는 고객 또는 파트너가 있는 경우 업무를 인수하는 사람에게 전자 메일이 전달됩니다.  <br/> |
 |3. [이전 직원의 모바일 장치 초기화 및 차단](#wipe-and-block-a-former-employees-mobile-device) <br/> |휴대폰 또는 태블릿에서 비즈니스 데이터를 제거합니다.  <br/> |
-|4. [Office 365 데이터에 대한 이전 직원의 액세스 차단](#block-a-former-employees-access-to-office-365-data)<br/> |사용자가 이전 Office 365 사서함 및 데이터에 액세스하지 못하게 됩니다.  <br/><br/> **팁**: 사용자의 액세스를 차단 해도 해당 라이선스에 대 한 비용을 지불 하 고 있습니다. 라이선스 비용 지불을 중지하려면 구독에서 라이선스를 삭제(5단계)해야 합니다.           |
+|4. [Microsoft 365 데이터에 대 한 이전 직원의 액세스 차단](#block-a-former-employees-access-to-microsoft-365-data)<br/> |이를 통해 사용자가 이전 Microsoft 365 사서함 및 데이터에 액세스 하지 못합니다.  <br/><br/> **팁**: 사용자의 액세스를 차단 해도 해당 라이선스에 대 한 비용을 지불 하 고 있습니다. 라이선스 비용 지불을 중지하려면 구독에서 라이선스를 삭제(5단계)해야 합니다.           |
 |5. [직원의 OneDrive 콘텐츠 이동](get-access-to-and-back-up-a-former-user-s-data.md) <br/> |사용자의 라이선스만 제거하고 계정을 삭제하지 않으면 30일이 지난 후에도 사용자의 OneDrive에 있는 콘텐츠에 계속 액세스할 수 있습니다.  <br/><br/> 계정을 삭제하기 전에 OneDrive의 콘텐츠를 액세스하기 쉬운 다른 위치로 이동해야 합니다. 직원의 계정을 삭제하면 해당 OneDrive의 콘텐츠는 **30** 일 동안 보관됩니다. 그러나 이 기간 동안 사용자의 계정을 복원하고 OneDrive 콘텐츠에 대한 액세스 권한을 얻을 수 있습니다. 사용자의 계정을 복원하는 경우에는 30일이 지난 후에도 OneDrive 콘텐츠에 계속 액세스할 수 있습니다.  <br/> |
 |5a. 사용자가 개인용 컴퓨터를 사용하여 OneDrive 및 SharePoint에 액세스하는 경우 어떻게 해야 하나요?  <br/> |회사에서 발급한 컴퓨터 대신 개인용 컴퓨터를 사용하여 OneDrive 및 SharePoint에서 파일을 다운로드하는 경우 저장한 파일을 지울 방법이 없습니다.  <br/><br/> 컴퓨터와 동기화된 모든 파일에 계속 액세스할 수 있습니다.  <br/> |
-|6. [이전 직원의 Office 365 라이선스 제거 및 삭제 ](#remove-and-delete-the-office-365-license-from-a-former-employee)<br/> |라이선스를 제거하면 다른 사람에게 해당 라이선스를 할당할 수 있습니다. 또는 다른 사람을 고용할 때까지 라이선스 비용을 지불하지 않도록 라이선스를 삭제할 수 있습니다.  <br/><br/> 라이선스를 제거하거나 삭제하면 사용자의 이전 전자 메일, 연락처 및 일정이 **30일** 간 보존된 후 영구적으로 삭제됩니다. 라이선스를 제거하거나 삭제하되 계정은 삭제하지 않으면 30일이 지난 후에도 사용자의 OneDrive에 있는 콘텐츠에 계속 액세스할 수 있습니다.  <br/> |
+|6. [이전 직원의 Microsoft 365 라이선스 제거 및 삭제](#remove-and-delete-the-microsoft-365-license-from-a-former-employee)<br/> |라이선스를 제거하면 다른 사람에게 해당 라이선스를 할당할 수 있습니다. 또는 다른 사람을 고용할 때까지 라이선스 비용을 지불하지 않도록 라이선스를 삭제할 수 있습니다.  <br/><br/> 라이선스를 제거하거나 삭제하면 사용자의 이전 전자 메일, 연락처 및 일정이 **30일** 간 보존된 후 영구적으로 삭제됩니다. 라이선스를 제거하거나 삭제하되 계정은 삭제하지 않으면 30일이 지난 후에도 사용자의 OneDrive에 있는 콘텐츠에 계속 액세스할 수 있습니다.  <br/> |
 |7. [이전 직원의 사용자 계정 삭제](#delete-a-former-employees-user-account)<br/> |이렇게 하면 관리 센터에서 계정이 제거 됩니다. 깔끔하게 정리됩니다.  <br/> |
    
 ## <a name="save-the-contents-of-a-former-employees-mailbox"></a>이전 직원 사서함의 콘텐츠 저장
@@ -217,11 +217,11 @@ PowerShell을 사용하여 사용자를 즉시 로그아웃하려면 [Revoke-Azu
     
     **팁**: 온-프레미스 Blackberry Enterprise Service에서 사용자를 제거하거나 사용하지 않도록 설정해야 합니다. 또한 사용자에 대해 Blackberry 장치를 사용하지 않도록 설정해야 합니다. 사용자를 사용하지 않도록 설정하는 방법에 대한 구체적인 단계가 필요한 경우 Blackberry Business Cloud Services Administration Guide를 참조하세요. 
     
-## <a name="block-a-former-employees-access-to-office-365-data"></a>Office 365 데이터에 대한 이전 직원의 액세스 차단
+## <a name="block-a-former-employees-access-to-microsoft-365-data"></a>Microsoft 365 데이터에 대 한 이전 직원의 액세스 차단
 <a name="bkmk_block"> </a>
 
  > [!IMPORTANT] 
- > 계정 차단이 적용 되는 데 최대 24 시간이 걸릴 수 있습니다. 사용자의 로그인 액세스를 즉시 차단해야 할 경우 [사용자 암호를 재설정](reset-passwords.md)한 다음 사용자를 모든 장치의 Office 365 세션에서 로그아웃하는 일회성 이벤트를 시작해야 합니다. [지금 로그아웃!](#sign-out-now)을 참조하세요.
+ > 계정 차단이 적용 되는 데 최대 24 시간이 걸릴 수 있습니다. 사용자의 로그인 액세스를 즉시 방지 해야 하는 경우 [암호를 다시 설정한](reset-passwords.md) 다음 모든 장치에서 Microsoft 365 세션에서 로그 아웃 하는 일회성 이벤트를 시작 해야 합니다. [지금 로그아웃!](#sign-out-now)을 참조하세요.
  
 
 ::: moniker range="o365-worldwide"
@@ -260,7 +260,7 @@ PowerShell을 사용하여 사용자를 즉시 로그아웃하려면 [Revoke-Azu
 ## <a name="block-a-former-employees-access-to-email-exchange-online"></a>전자 메일(Exchange Online)에 대한 이전 직원의 액세스 차단
 <a name="bkmk_block_email"> </a>
 
-Office 365 구독의 일부로 Office 365 전자 메일을 사용하는 경우 Exchange 관리 센터에 로그인해서 이러한 단계를 따라 이전 직원이 해당 전자 메일에 액세스하지 못하도록 해야 합니다.
+Microsoft 365 구독의 일부로 전자 메일이 있는 경우 다음 단계를 수행 하 여 이전 직원이 전자 메일에 액세스 하지 못하도록 차단 하려면 Exchange 관리 센터에 로그인 해야 합니다.
   
 
 1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">Exchange 관리 센터</a>로 이동합니다.
@@ -271,12 +271,12 @@ Office 365 구독의 일부로 Office 365 전자 메일을 사용하는 경우 E
     
 4. **전자 메일 연결**에서 메시지가 표시 되 면 **사용 안 함** 및 대답이 **예** 를 선택 합니다. 
     
-## <a name="remove-and-delete-the-office-365-license-from-a-former-employee"></a>이전 직원의 Office 365 라이선스 제거 및 삭제
+## <a name="remove-and-delete-the-microsoft-365-license-from-a-former-employee"></a>이전 직원의 Microsoft 365 라이선스 제거 및 삭제
 <a name="bkmk_remove"> </a>
 
-누군가가 퇴사한 후에 라이선스 비용을 계속 지불하지 않으려면 해당 Office 365 라이선스를 제거한 다음 구독에서 삭제해야 합니다. 구독에서 라이선스를 삭제하지 않도록 선택하면 해당 라이선스를 다른 사용자에게 할당할 수 있습니다.
+누군가가 조직에서 나간 후에 라이선스 비용을 계속 지불 하지 않으려면 Microsoft 365 라이선스를 제거한 다음 구독에서 삭제 해야 합니다. 구독에서 라이선스를 삭제하지 않도록 선택하면 해당 라이선스를 다른 사용자에게 할당할 수 있습니다.
   
-라이선스를 제거하면 해당 사용자의 모든 데이터가 30일간 보존됩니다. 데이터에 [액세스](get-access-to-and-back-up-a-former-user-s-data.md)하거나 해당 사용자가 복귀하면 계정을 [복원](restore-user.md)할 수 있습니다. 30일 후에는 사용자의 모든 데이터(SharePoint Online에 저장된 문서 제외)가 Office 365에서 영구적으로 삭제되며 복구할 수 없습니다. 
+라이선스를 제거하면 해당 사용자의 모든 데이터가 30일간 보존됩니다. 데이터에 [액세스](get-access-to-and-back-up-a-former-user-s-data.md)하거나 해당 사용자가 복귀하면 계정을 [복원](restore-user.md)할 수 있습니다. 30 일 후에는 사용자의 모든 데이터 (SharePoint Online에 저장 된 문서를 제외)가 Microsoft 365에서 영구적으로 삭제 되며 복구할 수 없습니다. 
 
 ::: moniker range="o365-worldwide"
 
@@ -325,13 +325,13 @@ Office 365 구독의 일부로 Office 365 전자 메일을 사용하는 경우 E
 
 ::: moniker range="o365-germany"
 
-1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">구독</a> 페이지로 이동 합니다.
+1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">구독</a> 페이지로 이동합니다.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">구독</a> 페이지로 이동 합니다.
+1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">구독</a> 페이지로 이동합니다.
 
 ::: moniker-end
     
@@ -339,7 +339,7 @@ Office 365 구독의 일부로 Office 365 전자 메일을 사용하는 경우 E
 
 비즈니스에 다른 사람을 [추가](add-users.md) 하면 동시에 라이선스를 구입 하 라는 메시지가 표시 되며 한 단계만 진행 됩니다.
     
-비즈니스용 Office 365의 사용자 라이선스 관리에 대한 자세한 내용은 [비즈니스용 Office 365 사용자에게 라이선스 할당](../manage/assign-licenses-to-users.md) 및 [Remove licenses from users in Office 365 for business](../manage/remove-licenses-from-users.md)(비즈니스용 Office 365의 사용자에서 라이선스 제거)를 참조하세요.
+비즈니스용 Microsoft 365에 대 한 사용자 라이선스를 관리 하는 방법에 대 한 자세한 내용은 microsoft 365의 사용자 [에 게 라이선스 할당](../manage/assign-licenses-to-users.md)및 [비즈니스용 microsoft 365의 사용자](../manage/remove-licenses-from-users.md)에 대 한 라이선스 제거를 참조 하세요.
   
 ## <a name="how-the-deleted-employee-account-affects-skype-for-business"></a>삭제된 직원 계정이 비즈니스용 Skype에 영향을 미치는 방식
 <a name="bkmk_remove"> </a>
@@ -392,7 +392,7 @@ Office 365에서 사용자 라이선스를 제거하면 사용자와 연결된 P
   
 ### <a name="does-your-organization-use-active-directory"></a>조직에서 Active Directory를 사용하나요?
 
-조직에서 사용자 계정을 로컬 Active Directory 환경에서 Office 365로 동기화하는 경우 로컬 Active Directory 서비스에서 사용자 계정을 삭제하고 복원해야 합니다. Office 365에서는 해당 사용자 계정을 삭제하거나 복원할 수 없습니다.
+조직에서 로컬 Active Directory 환경에서 사용자 계정을 Microsoft 365와 동기화 하는 경우 로컬 Active Directory 서비스에서 해당 사용자 계정을 삭제 하 고 복원 해야 합니다. Office 365에서는 해당 사용자 계정을 삭제하거나 복원할 수 없습니다.
   
 자세한 내용은 [사용자 계정 삭제](https://go.microsoft.com/fwlink/?linkid=841808)문서를 참조 하십시오.
   

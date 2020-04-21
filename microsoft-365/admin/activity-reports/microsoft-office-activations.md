@@ -18,18 +18,18 @@ search.appverid:
 - GEA150
 ms.assetid: 87c24ae2-82e0-4d1e-be01-c3bcc3f18c60
 description: Office 정품 인증 보고서를 다운로드 하 여 사용자에 게 제품을 정품 인증 했는지 확인 하 고 추가 도움이 필요할 수 있는 사용자를 식별 하는 방법을 알아봅니다.
-ms.openlocfilehash: 7a26928b654c222a2eef05371ff9b220cf59cfe4
-ms.sourcegitcommit: 2b626a7924b4be08f6eb21181453b778e6fde418
+ms.openlocfilehash: 632973c8d50dffd50725c46163e0af874c64b0c6
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43046978"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43621225"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---microsoft-office-activations"></a>관리 센터의 microsoft 365 보고서-Microsoft Office 정품 인증
 
 Microsoft 365 **보고서** 대시보드에는 조직의 제품 전체에 대 한 활동 개요가 표시 됩니다. 보고서 대시보드를 통해 개별 제품 수준 보고서의 하위 수준을 표시하여 각 제품 내의 활동에 대한 더 세부화된 정보를 확인할 수 있습니다. [보고서 개요 항목](activity-reports.md)을 확인하세요.
   
-Office 정품 인증 보고서는 하나 이상의 장치에서 Office 구독을 정품 인증한 사용자의 보기를 제공합니다. 이 보고서는 데스크톱 및 장치에서의 정품 인증 분석 결과뿐만 아니라 Office 365 ProPlus, Project 및 Visio Pro for Office 365 구독 정품 인증의 분석 결과를 제공합니다. 이 보고서는 Office 구독 정품 인증에 대한 추가 도움말 및 지원이 필요할 수 있는 사용자를 식별하는 데 유용할 수 있습니다.
+Office 정품 인증 보고서는 하나 이상의 장치에서 Office 구독을 정품 인증한 사용자의 보기를 제공합니다. 또한 데스크톱 및 장치에서의 정품 인증 분석을 비롯 하 여 enterprise, Project 및 Visio Pro for Office 365 구독 정품 인증에 대 한 Microsoft 365 앱을 분석 하 여 제공 합니다. 이 보고서는 Office 구독 정품 인증에 대한 추가 도움말 및 지원이 필요할 수 있는 사용자를 식별하는 데 유용할 수 있습니다.
   
 > [!NOTE]
 > 보고서를 보려면 Microsoft 365 또는 Exchange, SharePoint, 팀 서비스, 팀 통신 또는 비즈니스용 Skype 관리자의 전역 관리자, 전역 독자 또는 보고서 독자 여야 합니다.  

@@ -25,19 +25,19 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: cbc6bfe5-565a-4fb8-95f0-b06e7b74ac46
-description: 사용자가 Windows 10 장치에 Office 앱을 설치 하 고 Microsoft 365 Business 관리 센터에서 Windows 10 Pc에 Office를 간편 하 게 설치할 수 있도록 지원 합니다.
-ms.openlocfilehash: a33121f5c5b3532ea376a2bf7a6d7f51d4291a47
-ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
+description: 사용자가 Windows 10 장치에 Office 앱을 설치 하 고 Microsoft 365 관리 센터에서 Windows 10 Pc에 Office를 간편 하 게 설치할 수 있도록 지원 합니다.
+ms.openlocfilehash: a7078ad6d7423900aefba47605cb2b2852856108
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42561628"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627201"
 ---
 # <a name="help-your-users-install-office-on-windows-10-devices"></a>사용자가 Windows 10 장치에 Office를 설치 하도록 지원
 
 [![관리 센터가 변경되고 있음을 알리는 레이블이며 aka.ms/aboutM365preview에서 자세한 내용을 확인할 수 있습니다.](../media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
 
-Microsoft 365 Business 관리 센터에서 Windows 10 Pc에 Office를 빠르고 쉽게 설치할 수 있습니다.
+Microsoft 365 관리 센터에서 Windows 10 Pc에 Office를 빠르고 쉽게 설치할 수 있습니다.
   
 이전에 설치한 Office 앱에서의 작동 방식을 알아보려면 시작하기 전에 [Office 클라이언트 설치 준비](prepare-for-office-client-deployment.md)를 확인하세요.
 
@@ -62,6 +62,6 @@ Office 앱을 설치 하는 방법에 대 한 간단한 비디오를 시청 하�
     
       :::image type="content" source="../media/sendemailtousers.png" alt-text="Office 다운로드 링크를 사용 하 여 전자 메일을 보내려면 사용자를 선택 합니다.":::
 
-## <a name="for-more-on-setting-up-and-using-microsoft-365-business"></a>Microsoft 365 Business 설정 및 사용에 대 한 자세한 내용은
+## <a name="for-more-on-setting-up-and-using-microsoft-365-business-premium"></a>Microsoft 365 Business Premium 설정 및 사용에 대 한 자세한 내용은
 
-[Microsoft 365 Business 교육 비디오](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Microsoft 365 for business 교육용 비디오](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

@@ -20,12 +20,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 공유 사서함에서 문제가 발생 하는 경우 다음 솔루션을 사용해 보세요.
-ms.openlocfilehash: 138bcee155652e84ab6ee16cf6a9acab310edde9
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+ms.openlocfilehash: 52aac8ab6936dfeba2ae4b5b7a80c45029ec6105
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43210519"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43628750"
 ---
 # <a name="resolve-issues-with-shared-mailboxes"></a>공유 사서함의 문제 해결
 
@@ -36,7 +36,7 @@ ms.locfileid: "43210519"
 
 오류 메시지가 표시 되 면 " **\<name>"의 프록시 주소 또는 LegacyExchangeDN에서 프록시 주소\>"smtp: <공유 사서함 이름"을 이미 사용 하 고 있는 것입니다. 다른 프록시 주소를 선택**하 여 이미 사용 중인 공유 사서함의 이름을 지정 하 고 있음을 의미 합니다. 예를 들어 공유 사서함 이름을 info@domain1 및 info@domain2로 지정하려 합니다. 이 작업은 다음 두 가지 방법으로 수행할 수 있습니다.
 
-  - Windows PowerShell을 사용 합니다. 이 블로그 게시물에서 지침을 참조 하세요. [Office 365의 서로 다른 도메인에서 별칭이 같은 공유 사서함 만들기](https://www.cogmotive.com/blog/office-365-tips/create-shared-mailboxes-with-same-alias-at-different-domains-in-office-365)
+  - Windows PowerShell을 사용 합니다. 이 블로그 게시물에서 지침을 참조 하세요. [다른 도메인에서 같은 별칭을 사용 하 여 공유 사서함 만들기](https://www.cogmotive.com/blog/office-365-tips/create-shared-mailboxes-with-same-alias-at-different-domains-in-office-365)
     
   - 두 번째 공유 사서함의 이름을 오류 발생과 다르게 시작 합니다. 그런 다음 관리 센터에서 공유 사서함의 이름을 원하는 대로 변경 합니다.
 
@@ -46,7 +46,7 @@ ms.locfileid: "43210519"
 
 **이 메시지를 보낼 수 없습니다. 지정한 사용자를 대신 하 여 메시지를 보낼 수 있는 권한이 없습니다.**
 
-이 메시지는 Office 365에서 복제 대기 시간 문제가 발생 한 경우에 표시 됩니다. 새 공유 사서함에 대 한 정보 또는 추가 된 사용자에 대 한 정보가 모든 데이터 센터에 복제 되는 한 시간 내에 합니다. 한 시간 동안 기다린 후 메시지를 다시 보내 봅니다.
+이 메시지는 Microsoft 365에서 복제 대기 시간 문제가 발생 한 경우에 표시 됩니다. 새 공유 사서함에 대 한 정보 또는 추가 된 사용자에 대 한 정보가 모든 데이터 센터에 복제 되는 한 시간 내에 합니다. 한 시간 동안 기다린 후 메시지를 다시 보내 봅니다.
 
 ## <a name="related-articles"></a>관련 문서
 

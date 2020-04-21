@@ -1,5 +1,5 @@
 ---
-title: Network Solutions에서 이름 서버를 변경하여 Office 365 설정
+title: 이름 서버를 변경 하 여 네트워크 솔루션을 사용 하 여 Microsoft 설정
 f1.keywords:
 - NOCSH
 ms.author: pebaum
@@ -19,24 +19,24 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: d4ba60f3-4e1c-4180-99bd-250b8955be2a
-description: 'Office 365에서 DNS 레코드를 관리 하도록 하려면 네트워크 솔루션을 사용 하 여 Office 365 사용자 지정 도메인을 설정 하는 방법을 알아봅니다. '
-ms.openlocfilehash: df80cc925fab965b73873916dff7fc4dea74a661
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+description: 'Microsoft에서 DNS 레코드를 관리 하도록 하려면 네트워크 솔루션을 사용 하 여 Microsoft 사용자 지정 도메인을 설정 하는 방법을 알아봅니다. '
+ms.openlocfilehash: 2b3b575943ebd95ffcbd34dd4578133fa7dd4f79
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43211886"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43629758"
 ---
-# <a name="change-nameservers-to-set-up-office-365-with-network-solutions"></a>Network Solutions에서 이름 서버를 변경하여 Office 365 설정
+# <a name="change-nameservers-to-set-up-microsoft-with-network-solutions"></a>이름 서버를 변경 하 여 네트워크 솔루션을 사용 하 여 Microsoft 설정
 
- **원하는 정보는 찾지 못한 경우 [도메인 질문과 대답을 확인](../setup/domains-faq.md)** 하세요.
+ 원하는 정보를 찾지 못한 경우 **[도메인 FAQ를 확인](../setup/domains-faq.md)** 하세요.
   
-Office 365에서 Office 365 DNS 레코드를 관리하도록 하려면 다음 지침을 따릅니다. 원하는 경우 [모든 Office 365 DNS 레코드를 Network Solutions에서 관리](create-dns-records-at-network-solutions.md)할 수 있습니다.
+Microsoft에서 DNS 레코드를 관리 하도록 하려면 다음 지침을 따릅니다. 원하는 경우에는 [네트워크 솔루션에서 모든 MICROSOFT DNS 레코드를 관리할](create-dns-records-at-network-solutions.md)수 있습니다.
   
     
 ## <a name="add-a-txt-record-at-network-solutions-to-verify-that-you-own-the-domain"></a>Network Solutions에서 TXT 레코드를 추가해 도메인을 소유하고 있는지 확인
 
-Office 365에서 사용자 도메인을 사용하려면 먼저 도메인을 소유하고 있어야 합니다. 도메인 등록 기관에서 사용자의 계정으로 로그인하고 DNS 레코드를 만들 수 있으면 Office 365에 도메인을 소유하고 있음을 증명할 수 있습니다.
+Microsoft에서 도메인을 사용 하기 전에 사용자가 소유 하 고 있는지 확인 해야 합니다. 도메인 등록 기관에서 계정에 로그인 하 고 DNS 레코드를 만들 수 있는 기능은 Microsoft에 도메인을 소유 하 고 있음을 증명 합니다.
   
 > [!NOTE]
 > 이 레코드는 사용자가 도메인을 소유하고 있는지 확인하는 데만 사용되며 그 밖에 아무런 영향도 주지 않습니다. 원하는 경우 나중에 삭제할 수 있습니다. 
@@ -72,7 +72,7 @@ Office 365에서 사용자 도메인을 사용하려면 먼저 도메인을 소�
     
 |**Host**|**TTL**|**텍스트**|
 |:-----|:-----|:-----|
-|@  <br/> (The system will change this value to **@ (None)** when you save the record.)  <br/> |3600  <br/> |MS=ms *XXXXXXXX*  <br/> **참고**:이는 예입니다. 여기에는 Office 365의 표에 있는 특정 **보낼 대상 또는 지점** 값을 사용합니다.           [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)
+|@  <br/> (The system will change this value to **@ (None)** when you save the record.)  <br/> |3600  <br/> |MS=ms *XXXXXXXX*  <br/> **참고**:이는 예입니다. 여기에는 Microsoft 365의 표에 나와 있는 특정 **대상 또는 지점** 값을 사용 합니다.           [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)
    
     
    ![새 레코드의 상자에 값을 입력 하거나 붙여넣습니다.](../../media/8a76daab-b6ff-4c82-ba68-192b24fbb934.png)
@@ -87,11 +87,11 @@ Office 365에서 사용자 도메인을 사용하려면 먼저 도메인을 소�
   
 9. 방금 만든 레코드가 인터넷에서 업데이트될 수 있도록 몇 분 정도 기다립니다.
     
-이제 도메인 등록 기관에 레코드가 추가되었습니다. Office 365로 돌아가서 Office 365에 레코드를 찾을 것을 요청합니다.
+도메인 등록 기관 사이트에서 레코드를 추가 했으므로 이제 Microsoft 365으로 돌아가 Microsoft 365에 요청 하 여 레코드를 찾을 수 있습니다.
   
-Office 365에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것입니다.
+Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인 된 것입니다.
   
-1. I관리 센터에서 ** 설정 ** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank"> 도메인 </a> 페이지로 이동하십시오.
+1. Microsoft 관리 센터에서 **설정** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">도메인</a> 페이지로 이동 합니다.
 
     
 2. **도메인** 페이지에서 확인 중인 도메인을 선택합니다. 
@@ -111,12 +111,12 @@ Office 365에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것
   
 ## <a name="change-your-domains-nameserver-ns-records"></a>도메인의 NS(이름 서버) 레코드 변경
 
-Office 365에서 도메인 설정을 완료하려면 도메인 등록 기관에서 도메인의 NS 레코드가 Office 365 기본 및 보조 이름 서버를 가리키도록 변경합니다. 이렇게 하면 Office 365가 사용자 대신 도메인의 DNS 레코드를 업데이트하도록 설정됩니다. 전자 메일, 비즈니스용 Skype Online, 공개 웹 사이트가 사용자의 도메인을 사용하도록 모든 레코드가 자동으로 추가되고 모든 설정이 완료됩니다.
+Microsoft에서 도메인 설정을 완료 하려면 도메인 등록 기관에서 도메인의 NS 레코드를 Microsoft 기본 및 보조 이름 서버를 가리키도록 변경 합니다. 이렇게 하면 Microsoft에서 도메인의 DNS 레코드를 업데이트 하도록 설정 합니다. 전자 메일, 비즈니스용 Skype Online, 공개 웹 사이트가 사용자의 도메인을 사용하도록 모든 레코드가 자동으로 추가되고 모든 설정이 완료됩니다.
   
 > [!CAUTION]
-> Office 365 이름 서버를 가리키도록 도메인 NS 레코드를 변경하면 현재 도메인에 연결되는 모든 서비스가 영향을 받습니다. 예를 들어 이 변경 내용을 적용하면 사용자의 도메인(예: rob@ *사용자_도메인*  .com)으로 보낸 전자 메일이 Office 365로 수신됩니다.
+> Microsoft 이름 서버를 가리키도록 도메인의 NS 레코드를 변경 하면 현재 도메인에 연결 된 모든 서비스가 영향을 받습니다. 예를 들어 도메인으로 전송 되는 모든 전자 메일 (rob@ *your_domain* )이 변경 된 후 Microsoft로 시작 됩니다.
   
-Office 365에서 도메인을 설정할 수 있도록 NS 레코드를 변경할 준비가 되면 아래 단계를 따르거나 [비디오를 시청하세요(2:23에 시작)](https://support.office.com/article/Video-Change-nameservers-to-set-up-Office-365-with-Network-Solutions-69b092e3-c026-4d19-a7d0-16cdb2d8b261?ui=en-US&amp;rs=en-US&amp;ad=US).
+Microsoft에서 도메인을 설정할 수 있도록 NS 레코드를 변경할 준비가 되셨습니까? 아래 단계를 따르거나 [비디오를 시청 하세요 (2:23에 시작)](https://support.office.com/article/Video-Change-nameservers-to-set-up-Office-365-with-Network-Solutions-69b092e3-c026-4d19-a7d0-16cdb2d8b261?ui=en-US&amp;rs=en-US&amp;ad=US).
   
 > [!IMPORTANT]
 >  이 섹션의 단계를 완료 한 후에는 **ns1.bdm.microsoftonline.com**, **ns2.bdm.microsoftonline.com**, **ns3.bdm.microsoftonline.com**및 **ns4.bdm.microsoftonline.com**와 같은 4 *가지 이름 서버를 나열 해야 합니다.* 다음 절차에는 원치 않는 기타 이름 서버를 목록에서 삭제하는 방법과  *올바른*  이름 서버가 목록에 아직 없는 경우 이를 추가하는 방법이 나타나 있습니다. 
@@ -173,7 +173,7 @@ Office 365에서 도메인을 설정할 수 있도록 NS 레코드를 변경할 
     ![NetworkSolutionsBP-Redelegate-1-2-4](../../media/897bc864-b340-4385-abeb-f94bc7f73e5e.png)
   
 > [!NOTE]
-> 이름 서버 레코드 업데이트가 인터넷의 DNS 시스템 전체에 업데이트되기까지 몇 시간이 걸릴 수 있습니다. 그 후에는 Office 365 전자 메일 및 기타 서비스가 모두 사용자의 도메인을 사용하도록 설정됩니다. 
+> 이름 서버 레코드 업데이트가 인터넷의 DNS 시스템 전체에 업데이트되기까지 몇 시간이 걸릴 수 있습니다. 그러면 Microsoft 전자 메일 및 기타 서비스가 모두 도메인에서 작동 하도록 설정 됩니다. 
   
 ### <a name="if-there-are-nameservers-already-listed"></a>이름 서버가 나열되어 있는 경우
 
@@ -210,4 +210,4 @@ Office 365에서 도메인을 설정할 수 있도록 NS 레코드를 변경할 
     ![NetworkSolutionsBP-Redelegate-1-2-4](../../media/897bc864-b340-4385-abeb-f94bc7f73e5e.png)
   
 > [!NOTE]
-> 이름 서버 레코드 업데이트가 인터넷의 DNS 시스템 전체에 업데이트되기까지 몇 시간이 걸릴 수 있습니다. 그 후에는 Office 365 전자 메일 및 기타 서비스가 모두 사용자의 도메인을 사용하도록 설정됩니다.
+> 이름 서버 레코드 업데이트가 인터넷의 DNS 시스템 전체에 업데이트되기까지 몇 시간이 걸릴 수 있습니다. 그러면 Microsoft 전자 메일 및 기타 서비스가 모두 도메인에서 작동 하도록 설정 됩니다.

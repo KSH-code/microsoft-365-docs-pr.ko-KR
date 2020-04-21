@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 ms.assetid: 6f2b80b4-81c3-4714-a7bc-ae69313e8a33
 description: 앱 관리 정책을 만들고, 편집 하 고, 삭제 하 고, Android 또는 iOS 장치에서 작업 파일을 보호 하는 방법을 알아봅니다.
-ms.openlocfilehash: 0adb103ac3bef72e340c1f5daf54a6b8a184d85c
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: 0d9e901cac94fe7692ffe705c6b0a51df2bc542f
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42894283"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627437"
 ---
 # <a name="set-app-protection-settings-for-android-or-ios-devices"></a>Android 또는 iOS 장치에서 앱 보호 설정 설정하기
 
@@ -75,7 +75,7 @@ ms.locfileid: "42894283"
 
 다음 표에서는 장치에서 작업 파일을 보호 하는 데 사용할 수 있는 설정 및 사용자가 모바일 장치에서 Office 파일에 액세스 하는 방법을 제어 하는 설정에 대해 자세히 설명 합니다.
   
- 자세한 내용은 [Microsoft 365 Business의 보호 기능을 Intune 설정에 매핑하는 방법](map-protection-features-to-intune-settings.md)을 참조하세요. 
+ 자세한 내용은 [Microsoft 365 Business Premium의 보호 기능을 Intune 설정에 매핑하는 방법을](map-protection-features-to-intune-settings.md)참조 하세요. 
   
 ### <a name="settings-that-protect-work-files"></a>업무 파일을 보호하는 설정
 

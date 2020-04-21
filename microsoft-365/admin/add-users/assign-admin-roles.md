@@ -26,12 +26,12 @@ search.appverid:
 - GEA150
 ms.assetid: eac4d046-1afd-4f1a-85fc-8219c79e1504
 description: 관리 센터에서 특정 작업을 수행할 수 있도록 비즈니스의 사용자 또는 여러 사용자에 게 관리자 역할을 할당 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 3f22ef22571dd04dd3364a95ed860f53b8ff207b
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+ms.openlocfilehash: 7842714d7a57c7db9c3f0afe7e4b2e353137b66f
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43211922"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43618791"
 ---
 # <a name="assign-admin-roles"></a>관리자 역할 할당
 
@@ -84,7 +84,7 @@ Microsoft 비즈니스 구독을 구매한 사용자는 전역 관리자입니�
 
 ::: moniker range="o365-germany"
 
-1. 관리 센터에서 **사용자** > <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다..
+1. 관리 센터에서 **사용자** > <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다.
 
 2. **활성 사용자** 페이지에서 관리자 역할을 변경 하려는 사용자를 선택 합니다. 플라이 아웃 창에서 **역할**옆에 있는 **편집**을 선택 합니다. 
 
@@ -96,7 +96,7 @@ Microsoft 비즈니스 구독을 구매한 사용자는 전역 관리자입니�
 
 ::: moniker range="o365-21vianet"
 
-1. 관리 센터에서 **사용자** > <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다..
+1. 관리 센터에서 **사용자** > <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다.
 
 2. **활성 사용자** 페이지에서 관리자 역할을 변경 하려는 사용자를 선택 합니다. 플라이 아웃 창에서 **역할**옆에 있는 **편집**을 선택 합니다. 
 
@@ -126,7 +126,7 @@ PowerShell을 알고 [있는 경우 powershell을 사용 하 여 사용자 계�
 
 [PowerShell을 사용 하 여 사용자 계정에 역할 할당](https://docs.microsoft.com/office365/enterprise/powershell/assign-roles-to-user-accounts-with-office-365-powershell)
 
-[파트너 관계 권한 부여 또는 제거](https://docs.microsoft.com/microsoft-365/admin/misc/add-partner)
+[파트너 관계 권한 부여 또는 제거](../misc/add-partner.md)
 
 [Exchange 관리 센터를 사용 하 여 대체 전자 메일 주소 추가](https://docs.microsoft.com/Exchange/recipients/user-mailboxes/email-addresses?view=exchserver-2019#add-an-email-address-to-a-user-mailbox)
 

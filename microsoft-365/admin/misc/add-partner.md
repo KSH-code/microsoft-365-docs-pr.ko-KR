@@ -6,7 +6,7 @@ ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
 audience: Admin
-ms.topic: overview
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -19,13 +19,13 @@ search.appverid:
 - MOE150
 - GEA150
 ms.assetid: f86e8177-936e-491e-9024-44dea2b296ff
-description: Office 365 구매 시에 구독 관리자 파트너를 record 파트너로 추가 하거나, 파트너를 변경 하거나, 구독에서 파트너를 삭제 하는 방법을 알아봅니다.
-ms.openlocfilehash: 2afe5adebe1c0a47cae896d19219b97b70e453a4
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+description: Microsoft 365 구입 시에 구독 관리자 파트너를 record 파트너로 추가 하거나, 파트너를 변경 하거나, 구독에서 파트너를 삭제 하는 방법을 알아봅니다.
+ms.openlocfilehash: 913be0cfa94784826f4bc8dcfcc1bbf314ab4c09
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42361583"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627971"
 ---
 # <a name="add-change-or-delete-a-subscription-advisor-partner"></a>구독 관리자 파트너 추가, 변경, 삭제
 
@@ -37,13 +37,13 @@ ms.locfileid: "42361583"
 
 ::: moniker range="o365-worldwide"
 
-구독 관리자 역할을 하는 Microsoft 공인 파트너는 구독을 설정하고 유지 관리하는 데 도움이 되는 판매, 지원, 기술 전문 지식을 제공합니다. 구독 관리자 파트너는 Office 365를 구입할 때 아니면 다른 때에 공식 파트너로 추가할 수 있습니다. 현재 파트너와 함께 작업 하 고 있지 않은 경우 [Microsoft](https://pinpoint.microsoft.com) 웹 사이트에서 찾을 수도 있습니다. 
+구독 관리자 역할을 하는 Microsoft 공인 파트너는 구독을 설정하고 유지 관리하는 데 도움이 되는 판매, 지원, 기술 전문 지식을 제공합니다. Microsoft 365을 구매 하거나 나중에 시작할 때 구독 관리자 파트너를 공식 파트너로 추가할 수 있습니다. 현재 파트너와 함께 작업 하 고 있지 않은 경우 [Microsoft](https://pinpoint.microsoft.com) 웹 사이트에서 찾을 수도 있습니다. 
 
 ::: moniker-end
 
 ::: moniker range="o365-worldwide"
 
-사용하는 Office 365 서비스와 이 서비스를 사용할 국가 또는 지역에 따라 선택할 수 있는 파트너가 달라집니다. 구독 파트너를 추가하거나 변경하려면 먼저 파트너에게 Microsoft 파트너 ID를 문의해야 합니다.
+사용 하는 Microsoft 서비스와 해당 서비스를 사용할 국가 또는 지역에 따라 선택할 수 있는 파트너가 달라 집니다. 구독 파트너를 추가하거나 변경하려면 먼저 파트너에게 Microsoft 파트너 ID를 문의해야 합니다.
 
 ::: moniker-end
 
@@ -126,7 +126,7 @@ Office 365의 관리자는 다른 항목 중에서 사용자를 만들거나 편
 
 ::: moniker range="o365-germany"
 
-1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">구독</a> 페이지로 이동 합니다.
+1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">구독</a> 페이지로 이동합니다.
     
 2. 구독이 둘 이상인 경우에는 편집할 구독을 선택 합니다.
   
@@ -173,7 +173,7 @@ Office 365의 관리자는 다른 항목 중에서 사용자를 만들거나 편
 
 ::: moniker range="o365-germany"
 
-1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">구독</a> 페이지로 이동 합니다.
+1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">구독</a> 페이지로 이동합니다.
   
 2. 구독이 여러 개 있는 경우 편집하려는 구독의 이름을 선택합니다.
     
@@ -185,7 +185,7 @@ Office 365의 관리자는 다른 항목 중에서 사용자를 만들거나 편
 
 ::: moniker range="o365-21vianet"
 
-1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">구독</a> 페이지로 이동 합니다.
+1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">구독</a> 페이지로 이동합니다.
   
 2. 구독이 여러 개 있는 경우 편집하려는 구독의 이름을 선택합니다.
     
@@ -221,7 +221,7 @@ Office 365의 관리자는 다른 항목 중에서 사용자를 만들거나 편
 
 ::: moniker range="o365-germany"
 
-1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">구독</a> 페이지로 이동 합니다.
+1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">구독</a> 페이지로 이동합니다.
 
 2. 구독이 여러 개 있는 경우 편집하려는 구독의 이름을 선택합니다.
     
@@ -233,7 +233,7 @@ Office 365의 관리자는 다른 항목 중에서 사용자를 만들거나 편
 
 ::: moniker range="o365-21vianet"
 
-1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">구독</a> 페이지로 이동 합니다.
+1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">구독</a> 페이지로 이동합니다.
 
 2. 구독이 여러 개 있는 경우 편집하려는 구독의 이름을 선택합니다.
     
@@ -272,4 +272,4 @@ Office 365의 관리자는 다른 항목 중에서 사용자를 만들거나 편
 
 ## <a name="related-articles"></a>관련 문서
 
-[Office 365 파트너 또는 대리점 찾기](../manage/find-your-partner-or-reseller.md)
+[Microsoft 365 파트너 또는 대리점 찾기](../manage/find-your-partner-or-reseller.md)

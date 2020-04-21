@@ -1,5 +1,5 @@
 ---
-title: Office 365에서 내부 관리자 인수을 수행 합니다.
+title: 내부 관리 인수 수행
 f1.keywords:
 - CSH
 ms.author: pebaum
@@ -18,15 +18,15 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: b9707ec8-2247-4e25-9bad-f11ddbc686e4
-description: Office 365에서 관리 되지 않는 테 넌 트를 사용 하도록 전자 메일 및 도메인 소유권을 확인 하는 방법을 알아봅니다.
-ms.openlocfilehash: 3c732d55c533c72983aaa59e39e7bb8ff130f280
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+description: Microsoft 365에서 관리 되지 않는 테 넌 트를 사용 하도록 전자 메일 및 도메인 소유권을 확인 하는 방법을 알아봅니다.
+ms.openlocfilehash: 1772ba9929433c87603d4b9d7027419063fd2fca
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43212248"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627947"
 ---
-# <a name="perform-an-internal-admin-takeover-in-office-365"></a>Office 365에서 내부 관리자 인수을 수행 합니다.
+# <a name="perform-an-internal-admin-takeover"></a>내부 관리 인수 수행
 
  원하는 정보를 찾지 못한 경우 **[도메인 FAQ를 확인](../setup/domains-faq.md)** 하세요. 
 
@@ -67,11 +67,11 @@ ms.locfileid: "43212248"
   
 ## <a name="related-articles"></a>관련 문서
 
-Youtube: [Power BI 및 Office 365에 대한 IT 관리자 인수를 수행하는 3단계](https://www.youtube.com/watch?v=xt5EsrQBZZk)
+YouTube: [POWER BI 및 Microsoft 365에 대 한 IT 관리자 인수를 수행 하는 3 단계](https://www.youtube.com/watch?v=xt5EsrQBZZk)
 
 [Azure AD의 관리 인수](https://docs.microsoft.com/azure/active-directory/users-groups-roles/domains-admin-takeover)
 
-[Office 365 도메인에 대 한 도움말 보기](../get-help-with-domains/get-help-with-domains.md)
+[도메인 도움말 보기](../get-help-with-domains/get-help-with-domains.md)
 
 [조직에서 셀프 서비스 등록 사용](self-service-sign-up.md)
   

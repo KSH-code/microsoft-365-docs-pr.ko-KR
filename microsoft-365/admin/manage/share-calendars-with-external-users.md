@@ -21,16 +21,16 @@ search.appverid:
 - MOE150
 ms.assetid: fb00dd4e-2d5f-4e8d-8ff4-94b2cf002bdd
 description: '사용자가 모임 및 약속을 위해 외부 사용자와 일정을 공유할 수 있도록 하는 방법을 알아봅니다. '
-ms.openlocfilehash: 42bce53c3963c41684644d02dab18210f9ed828a
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: bd297fc2d684357d0500495e5a8263e5279efa39
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42254830"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43628043"
 ---
 # <a name="share-calendars-with-external-users"></a>외부 사용자와 일정 공유
 
-조직 외부의 사용자와 모임을 예약해야 하는 경우가 종종 있습니다. 서로 가능한 모임 시간을 찾는 과정을 간소화하기 위해 Office 365에서는 "외부 사용자"도 일정을 사용할 수 있도록 했습니다. 외부 사용자란 약속 있음/없음 시간을 볼 수는 있지만 Office 365 환경용 사용자 계정이 없는 사용자를 의미합니다.
+조직 외부의 사용자와 모임을 예약 해야 하는 경우가 많습니다. 상호 agreeable 모임 시간을 간편 하 게 찾기 위해 Microsoft 365에서는 약속 있음/없음 시간을 확인 해야 하지만 Microsoft 365 환경에 대 한 사용자 계정이 없는 "외부 사용자"에 게 달력을 사용할 수 있도록 설정할 수 있습니다.
   
 일정 공유는 전역 설정으로, 관리자가 테 넌 트의 모든 사용자에 대해 사용 하도록 설정할 수 있습니다. 공유가 설정되면 사용자는 Outlook Web App을 사용하여 자신의 일정을 조직 안팎의 모든 사람과 공유할 수 있습니다. 조직 내 사람들은 공유된 일정을 자신의 일정과 나란히 볼 수 있습니다. 조직 외부의 사람들은 일정을 보는 데 사용할 수 있는 URL을 받게 됩니다. 사용자는 공유 시기, 공유 수준, 일정을 비공개로 유지할 기간을 결정합니다.
   
@@ -44,7 +44,7 @@ ms.locfileid: "42254830"
   
 2. **서비스 &amp; 추가 기능** 페이지에서 **일정**을 선택 합니다.
   
-3. 열리는 **일정** 페이지에서 사용자가 Office 365 또는 Exchange를 사용 하는 조직 외부의 사용자와 일정을 공유할 수 있도록 할지 여부를 선택 합니다.
+3. 열리는 **일정** 페이지에서 사용자가 Microsoft 365 또는 Exchange를 사용 하는 조직 외부의 사용자와 일정을 공유할 수 있도록 할지 여부를 선택 합니다.
     
 4. 익명 사용자 (로그온 자격 증명이 없는 사용자)에 게 전자 메일 초대를 통해 일정에 액세스 하도록 허용할지 여부를 선택 합니다.
 

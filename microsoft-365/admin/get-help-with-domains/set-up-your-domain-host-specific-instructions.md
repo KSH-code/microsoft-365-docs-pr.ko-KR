@@ -19,20 +19,20 @@ search.appverid:
 - BEA160
 - GEA150
 ms.assetid: ae950c9e-e8d9-4108-b0cb-449156998580
-description: 자체 DNS 레코드를 관리 하는 방법 또는 Office 365에서 DNS 레코드를 관리 하는 방법에 대해 알아봅니다.
+description: 자체 DNS 레코드를 관리 하는 방법 또는 Microsoft에서 DNS 레코드를 관리 하도록 하는 방법을 알아봅니다.
 ms.custom: okr_smb
-ms.openlocfilehash: 7a5bcf6bb39497a37cbec4e2cd9b7efad0fc6724
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+ms.openlocfilehash: ea3a62c048706f36cd7b1590851d8b372e0a1677
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43210359"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43628425"
 ---
 # <a name="set-up-your-domain-host-specific-instructions"></a>도메인 설정(호스트별 지침)
 
 Office 365에서 사용자 지정 도메인 (contoso.com)을 사용 하기 시작 하려면 도메인을 확인 하 고 도메인의 DNS 레코드를 구성 해야 합니다. 
   
-도메인 호스트에서 관리 도구를 사용 하 여 DNS 레코드를 추가 및 관리할 수 있으며, 도메인 레코드를 Office 365 제어 하 고 사용자를 위해이를 설정 하 게 됩니다.
+도메인 호스트에서 관리 도구를 사용 하 여 DNS 레코드를 추가 및 관리할 수 있으며, 도메인 레코드에 대 한 제어 권한을 부여 하 고 사용자를 위해이를 설정 합니다.
   
 정확한 단계를 보려면 아래에서 도메인 호스트를 선택 하십시오. 호스트를 잘 모르는 경우 [domain 등록자 찾기를](find-your-domain-registrar.md)참조 하세요.
   

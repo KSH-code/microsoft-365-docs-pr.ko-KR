@@ -15,22 +15,22 @@ ms.assetid: 2889c82e-fab0-4e85-87b0-b001b2ccd4f7
 ms.collection:
 - M365-security-compliance
 description: 관리자는 대량 전자 메일 필터링에 대해 Exchange Online Protection의 메일 흐름 규칙을 사용 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: b08edfdd88f6f522d3bf212b209ee4b293d7198a
-ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
+ms.openlocfilehash: 229a66658e041be737efbc4cbb7c36ba667d3aed
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43033641"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631076"
 ---
 # <a name="use-mail-flow-rules-to-filter-bulk-email-in-office-365"></a>메일 흐름 규칙을 사용 하 여 Office 365에서 대량 전자 메일 필터링
 
-Exchange online 사서함이 없는 Office 365 고객 또는 독립 실행형 EOP (Exchange Online Protection) 고객 인 경우 EOP에서는 스팸 방지 정책 (스팸 필터 정책 또는 콘텐츠 필터 정책이 라고도 함)을 사용 하 여 검색을 수행 합니다. 스팸 및 대량 메일에 대 한 인바운드 메시지 (회색 메일이 라고도 함) 자세한 내용은 [Office 365의 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)를 참조하세요.
+Exchange Online 사서함이 있는 Microsoft 365 고객이 나 독립 실행형 EOP (Exchange Online Protection) 고객에 게는 스팸 방지 정책 (스팸 필터 정책 또는 콘텐츠 필터 정책이 라고도 함)을 사용 하 여 스팸 및 대량 메일 (회색 메일이 라고도 함)에 대 한 인바운드 메시지를 검사 합니다. 자세한 내용은 [Office 365의 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)를 참조하세요.
 
 대량 메일을 필터링 하는 옵션을 추가로 원하는 경우 메일 흐름 규칙 (전송 규칙이 라고도 함)을 만들어 대량 메일에서 자주 발견 되는 텍스트 패턴이 나 구를 검색 하 고 해당 메시지를 스팸으로 표시할 수 있습니다. 대량 메일에 대 한 자세한 내용은 [정크 메일과 대량 전자 메일의 차이점](what-s-the-difference-between-junk-email-and-bulk-email.md) 및 [OFFICE 365의 BCL (대량 불만 수준)](bulk-complaint-level-values.md)을 참조 하세요.
 
-이 항목에서는 EAC (Exchange 관리 센터) 및 PowerShell (Office 365 고객을 위한 Exchange Online PowerShell)에서 이러한 메일 흐름 규칙을 만드는 방법에 대해 설명 합니다. 독립 실행형 EOP 고객을 위한 Exchange Online Protection PowerShell
+이 항목에서는 EAC (Exchange 관리 센터) 및 PowerShell (Microsoft 365 고객을 위한 Exchange Online PowerShell)에서 이러한 메일 흐름 규칙을 만드는 방법에 대해 설명 합니다. 독립 실행형 EOP 고객을 위한 Exchange Online Protection PowerShell
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
 
 - 이러한 절차를 수행 하려면 먼저 Exchange Online에서 사용 권한을 할당 받아야 합니다. 특히 **조직 관리**, **규정 준수 관리**및 **레코드 관리** 역할에 할당 되는 **전송 규칙** 역할을 기본적으로 할당 해야 합니다. 자세한 내용은 [Exchange Online에서 역할 그룹 관리](https://docs.microsoft.com/Exchange/permissions-exo/role-groups)를 참조하세요.
 

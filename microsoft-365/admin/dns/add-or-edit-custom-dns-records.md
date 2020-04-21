@@ -1,5 +1,5 @@
 ---
-title: Office 365에서 사용자 지정 DNS 레코드 추가 또는 편집
+title: Microsoft에서 사용자 지정 DNS 레코드 추가 또는 편집
 f1.keywords:
 - NOCSH
 ms.author: pebaum
@@ -20,21 +20,21 @@ search.appverid:
 - MOE150
 - GEA150
 ms.assetid: af00a516-dd39-4eda-af3e-1eaf686c8dc9
-description: 'Office 365에서 사용자 지정 DNS 레코드를 편집 하거나 추가 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: c2495e4b7e85361d89404526e2467a08f2259567
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+description: 'Microsoft에서 사용자 지정 DNS 레코드를 편집 하거나 추가 하는 방법에 대해 알아봅니다. '
+ms.openlocfilehash: d7084913e2439b126232735fe2e6abe853c03ddf
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43212524"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43630022"
 ---
-# <a name="add-or-edit-custom-dns-records-in-office-365"></a>Office 365에서 사용자 지정 DNS 레코드 추가 또는 편집
+# <a name="add-or-edit-custom-dns-records-in-microsoft"></a>Microsoft에서 사용자 지정 DNS 레코드 추가 또는 편집
 
  원하는 정보를 찾지 못한 경우 **[도메인 FAQ를 확인](../setup/domains-faq.md)** 하세요. 
 
-1. 에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>관리 센터에 로그인 합니다.   
+1. 에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">https://admin.microsoft.com</a>Microsoft 관리 센터에 로그인 합니다.   
 
-2. **설정** \> **도메인** 페이지로 이동 합니다.
+2. **설정**  > **도메인** 페이지로 이동 합니다.
 
 3. **도메인** 페이지에서 도메인을 선택합니다. 
     
@@ -46,10 +46,10 @@ ms.locfileid: "43212524"
 
 ## <a name="related-articles"></a>관련 문서
 
-[Office 365 DNS 레코드를 만드는 데 필요한 정보 수집](../get-help-with-domains/information-for-dns-records.md)
+[Microsoft DNS 레코드를 만드는 데 필요한 정보 수집](../get-help-with-domains/information-for-dns-records.md)
 
 [DNS 기본 사항](../get-help-with-domains/dns-basics.md)
 
-[Office 365 도메인에 대 한 도움말 보기](../get-help-with-domains/get-help-with-domains.md)
+[도메인 도움말 보기](../get-help-with-domains/get-help-with-domains.md)
 
 

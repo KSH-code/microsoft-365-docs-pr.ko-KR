@@ -17,18 +17,18 @@ ms.assetid: 59a3ecaf-15ed-483b-b824-d98961d88bdd
 ms.collection:
 - M365-security-compliance
 description: 스푸핑 인텔리전스 통찰력은 Office 365 Advanced Threat Protection에서 작동 하는 방법을 참조 하세요.
-ms.openlocfilehash: 92e922bf3045e98de16b07a47113effd9dc6ccdd
-ms.sourcegitcommit: db8702cf578b02c6fd6a2670c177b456efae4748
+ms.openlocfilehash: 4ad3de8812e09b73018c02232e3e66e4bec9d041
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43537488"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43630932"
 ---
-# <a name="walkthrough---atp-spoof-intelligence-insight-in-office-365"></a>Office 365에서 연습-ATP 스푸핑 인텔리전스 정보 파악
+# <a name="walkthrough---atp-spoof-intelligence-insight-in-microsoft-365"></a>Microsoft 365의 연습-ATP 스푸핑 인텔리전스 정보
 
-Office 365 조직에서 ATP (Advanced Threat Protection)를 사용 하는 경우 스푸핑 인텔리전스 정보를 활용 하 여 인증 되지 않은 전자 메일을 합법적으로 전송 하는 보낸 사람을 빠르게 확인할 수 있습니다. 그들에 게 스푸핑된 메시지를 보낼 수 있도록 허용 하면 가양성이 사용자에 게 노출 되는 위험을 줄이는 데 도움이 됩니다. 또한 스푸핑 인텔리전스 통찰력을 사용 하 여 허용 되는 도메인 쌍을 모니터링 하 고 관리 하 여 추가 보안 계층을 제공 하 고 안전 하지 않은 메시지가 조직에 도착 하지 못하도록 할 수 있습니다.
+Microsoft 365 조직에서 ATP (Advanced Threat Protection)를 사용 하는 경우 스푸핑 인텔리전스 정보를 활용 하 여 인증 되지 않은 전자 메일을 합법적으로 전송 하는 보낸 사람을 빠르게 확인할 수 있습니다. 그들에 게 스푸핑된 메시지를 보낼 수 있도록 허용 하면 가양성이 사용자에 게 노출 되는 위험을 줄이는 데 도움이 됩니다. 또한 스푸핑 인텔리전스 통찰력을 사용 하 여 허용 되는 도메인 쌍을 모니터링 하 고 관리 하 여 추가 보안 계층을 제공 하 고 안전 하지 않은 메시지가 조직에 도착 하지 못하도록 할 수 있습니다.
 
-[Office 365 보안 & 준수 센터에서 보고서 및 통찰력](reports-and-insights-in-security-and-compliance.md)을 처음 사용할 경우 대시보드를 통해 통찰력 및 권장 작업으로 쉽게 이동할 수 있는 방법을 확인 하는 데 도움이 될 수 있습니다.
+[보안 & 준수 센터에서 보고서 및 통찰력](reports-and-insights-in-security-and-compliance.md)을 처음 사용할 경우 대시보드를 통해 파악 및 권장 작업으로 쉽게 이동할 수 있는 방법을 확인 하는 데 도움이 될 수 있습니다.
 
 이 연습은 보안 & 준수 센터에 대 한 몇 가지 방법 중 하나입니다. 보고서 및 insights를 탐색 하는 방법에 대 한 자세한 내용은 관련 항목 섹션의 연습을 참조 하십시오.
 
@@ -38,11 +38,11 @@ Office 365 조직에서 ATP (Advanced Threat Protection)를 사용 하는 경우
 
   보안 & 준수 센터에서 둘 이상의 대시보드에서 스푸핑 인텔리전스 정보를 볼 수 있습니다. 현재 보고 있는 대시보드에 상관 없이, 통찰력은 동일한 세부 정보를 제공 하며 동일한 작업을 빠르게 수행할 수 있도록 합니다.
 
-- 이 절차를 수행하려면 먼저 사용 권한을 할당 받아야 합니다. 스푸핑 인텔리전스 통찰력을 사용 하려면 **조직 관리**, **보안 관리자**또는 **보안 독자** 역할 그룹의 구성원 이어야 합니다. 보안 및 규정 준수 센터의 역할 그룹에 대한 자세한 내용은 [Office 365 보안 및 규정 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)을 참조하세요.
+- 이 절차를 수행하려면 먼저 사용 권한을 할당 받아야 합니다. 스푸핑 인텔리전스 통찰력을 사용 하려면 **조직 관리**, **보안 관리자**또는 **보안 독자** 역할 그룹의 구성원 이어야 합니다. 보안 & 준수 센터의 역할 그룹에 대 한 자세한 내용은 [보안 & 준수 센터의 사용 권한을](permissions-in-the-security-and-compliance-center.md)참조 하세요.
 
-- ATP 피싱 방지 정책에서 스푸핑 인텔리전스를 사용 하도록 설정 하 고 사용 하지 않도록 설정 합니다. 자세한 내용은 [Office 365에서 ATP 피싱 방지 정책 구성을](configure-atp-anti-phishing-policies.md)참조 하세요.
+- ATP 피싱 방지 정책에서 스푸핑 인텔리전스를 사용 하도록 설정 하 고 사용 하지 않도록 설정 합니다. 자세한 내용은 [Microsoft 365에서 ATP 피싱 방지 정책 구성을](configure-atp-anti-phishing-policies.md)참조 하세요.
 
-- Exchange Online 사서함이 있는 Office 365 조직에서 Exchange Online 사서함이 없는 독립 실행형 EOP (Exchange Online Protection)에서 스푸핑 인텔리전스를 사용 하 여 인증 되지 않은 메시지를 보내는 보낸 사람을 모니터링 하 고 관리할 수 있습니다. 자세한 내용은 [Office 365에서 스푸핑 인텔리전스를 구성](learn-about-spoof-intelligence.md)합니다 .를 참조 하십시오.
+- Exchange Online 사서함이 있는 Microsoft 365 조직 및 독립 실행형 EOP (Exchange Online Protection)에서 Exchange Online 사서함이 없는 경우 스푸핑 인텔리전스를 사용 하 여 인증 되지 않은 메시지를 보내는 보낸 사람을 모니터링 하 고 관리할 수 있습니다. 자세한 내용은 [Microsoft 365에서 스푸핑 인텔리전스를 구성](learn-about-spoof-intelligence.md)합니다 .를 참조 하십시오.
 
 ## <a name="open-the-spoof-intelligence-insight-in-the-security--compliance-center"></a>보안 & 준수 센터에서 스푸핑 인텔리전스 통찰력을 엽니다.
 
@@ -74,11 +74,11 @@ Office 365 조직에서 ATP (Advanced Threat Protection)를 사용 하는 경우
 
    **의심 스러운 도메인 쌍** 은 다음과 같습니다.
 
-   - **신뢰도가 높은 스푸핑**: Office 365에서는 해당 도메인의 전송 패턴 및 신뢰도 점수를 기반으로 이러한 도메인이 의심 스 럽 거는 강력한 신호를 수신 했습니다. Office 365은 도메인이 스푸핑 대상이 고 이러한 도메인에서 전송 된 메시지가 합법적 일 가능성이 낮은 지를 확실 하 게 확신 합니다.
+   - **신뢰도가 높은 스푸핑**: Microsoft 365는 해당 도메인의 전송 패턴 및 신뢰도 점수를 기반으로 이러한 도메인이 의심 스 럽 거는 강력한 신호를 수신 했습니다. Microsoft 365는 도메인이 스푸핑 대상이 고 이러한 도메인에서 전송 된 메시지가 합법적 일 가능성이 낮은 지를 확실 하 게 확신 합니다.
 
-   - **일반 신뢰도 스푸핑**: Office 365에서는 이러한 도메인이 의심 되는 경우, 도메인의 기록 전송 패턴 및 신뢰도 점수를 기반으로 하는 일반 신호를 수신 했습니다. Office 365에서는 도메인이 스푸핑 되 고 이러한 도메인에서 전송 된 메시지가 합법적 인지 확실 하 게 확신 합니다. 이 버킷에는 신뢰도가 높은 위장 버킷 보다 더 많은 FPs가 포함 될 가능성이 높습니다.
+   - **보통 신뢰 스푸핑**: Microsoft 365는 이러한 도메인이 의심 됨을 알리는 일반 신호 및 도메인의 전송 패턴 및 신뢰도 점수를 수신 했습니다. Office 365에서는 도메인이 스푸핑 되 고 이러한 도메인에서 전송 된 메시지가 합법적 인지 확실 하 게 확신 합니다. 이 버킷에는 신뢰도가 높은 위장 버킷 보다 더 많은 FPs가 포함 될 가능성이 높습니다.
 
-   - **의심 스러운 도메인 쌍** (자동 **복구 스푸핑**포함): 자동 복구 스푸핑이 명시적 인증 검사 [SPF](how-office-365-uses-spf-to-prevent-spoofing.md), [dkim](use-dkim-to-validate-outbound-email.md), [DMARC](use-dmarc-to-validate-email.md))에 실패 했지만 암시적 전자 메일 인증 검사 ([복합 인증](email-validation-and-authentication.md#composite-authentication))를 통과 한 도메인입니다. 따라서 Office 365에서는 사용자를 대신 하 여 메일을 자동으로 자동 복구 하며 메시지에 대해 스푸핑 방지 작업을 수행 하지 않았습니다.
+   - **의심 스러운 도메인 쌍** (자동 **복구 스푸핑**포함): 자동 복구 스푸핑이 명시적 인증 검사 [SPF](how-office-365-uses-spf-to-prevent-spoofing.md), [dkim](use-dkim-to-validate-outbound-email.md), [DMARC](use-dmarc-to-validate-email.md))에 실패 했지만 암시적 전자 메일 인증 검사 ([복합 인증](email-validation-and-authentication.md#composite-authentication))를 통과 한 도메인입니다. 따라서 Microsoft 365는 사용자를 대신 하 여 메일을 자동 복구 하며, 메시지에 대해 스푸핑 방지 작업을 수행 하지 않았습니다.
 
 ### <a name="view-detailed-information-about-suspicious-domain-pairs-from-the-spoof-intelligence-insight"></a>스푸핑 인텔리전스 통찰력에서 의심 스러운 도메인 쌍에 대 한 세부 정보 보기
 
@@ -100,7 +100,7 @@ Office 365 조직에서 ATP (Advanced Threat Protection)를 사용 하는 경우
 
 ## <a name="related-topics"></a>관련 항목
 
-[Office 365의 스푸핑 방지 보호 기능](anti-spoofing-protection.md)
+[Microsoft 365의 스푸핑 방지 보호 기능](anti-spoofing-protection.md)
 
 [연습 - 대시보드에서 통찰력에 이르기까지](from-a-dashboard-to-an-insight.md)
 

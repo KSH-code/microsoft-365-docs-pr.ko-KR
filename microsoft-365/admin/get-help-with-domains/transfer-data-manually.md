@@ -1,5 +1,5 @@
 ---
-title: 두 Office 365 계정 간에 데이터를 수동으로 전송
+title: 두 계정 간에 데이터를 수동으로 전송
 f1.keywords:
 - NOCSH
 ms.author: pebaum
@@ -17,20 +17,20 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 7dc5d983-84b2-4802-bef0-602ae1780a42
-description: 계획 또는 회사 이름을 변경 했을 때 두 Office 365 계정 간에 데이터를 수동으로 전송 하거나 여러 구독을 하나로 결합 하는 방법을 알아봅니다.
-ms.openlocfilehash: 91f9d7b17a0296931393a89ff95d70628400c61a
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+description: 계획 또는 회사 이름을 변경 했을 때 두 Microsoft 365 계정 간에 데이터를 수동으로 전송 하거나 여러 구독을 하나로 결합 하는 방법을 알아봅니다.
+ms.openlocfilehash: c0cb6531518c18e8cdc5b5829dc05a5b9b375291
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42362153"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43628378"
 ---
-# <a name="transfer-data-manually-between-two-office-365-accounts"></a>두 Office 365 계정 간에 데이터를 수동으로 전송
+# <a name="transfer-data-manually-between-two-accounts"></a>두 계정 간에 데이터를 수동으로 전송
 
-Sleeves을 롤업 하 고 일정에서 시간을 차단: 두 Office 365 계정 간에 데이터를 전송 하는 작업은 수동, 복잡 및 시간이 많이 걸리는 프로세스입니다. 자동 또는 지원 되는 프로세스가 아닙니다. 시작 하는 것이 좋습니다.
+Sleeves을 롤업 하 고 일정에서 시간을 차단: 두 Microsoft 365 계정 간에 데이터를 전송 하는 것은 수동, 복잡 및 시간이 많이 걸리는 프로세스입니다. 자동 또는 지원 되는 프로세스가 아닙니다. 시작 하는 것이 좋습니다.
   
 > [!CAUTION]
-> 전자 메일, 비즈니스용 Skype 및 Office 365에서 호스트 되는 공개 웹 사이트가 작동 하는 동안 문제가 발생 하 게 됩니다. 사용자는 새 사용자 이름과 암호를 얻게 되며 Outlook을 다시 설정 해야 합니다.
+> 전자 메일, 비즈니스용 Skype 및 Microsoft 365에서 호스트 되는 공개 웹 사이트가 작동 하는 동안 문제가 발생 하 게 됩니다. 사용자는 새 사용자 이름과 암호를 얻게 되며 Outlook을 다시 설정 해야 합니다.
 
 **다음 중 하나가 적용 될 경우이 항목의 지침을 사용 하 여 데이터를 수동으로 전송 하기만 하면 됩니다.**
   
@@ -45,28 +45,28 @@ Sleeves을 롤업 하 고 일정에서 시간을 차단: 두 Office 365 계정 �
 
 |**Tasks**|**Steps**|
 |:-----|:-----|
-|이동 하려는 계획을 구입 합니다.  <br/> |등록할 때 초기 도메인 이름에 사용할 회사 *이름 (예: onmicrosoft.com* , public.sharepoint.com 및 *sharepoint.com)을* 지정 *합니다.* 기존 구독에 사용한 것과는 다른 *회사* 이름을 사용 해야 합니다.  <br/> > [!NOTE]>은 일반적으로 구독을 취소 한 후 몇 개월 동안 시스템에서 해당 *회사* 를 사용 하는 초기 도메인 이름을 해제 하는 데 소요 됩니다. 이전 Office 365 구독의 모든 데이터를 저장 하 고 해당 구독을 취소 하더라도 새 구독에서 이전 *회사* 가치를 즉시 사용할 수 없습니다.           |
-|이전 Office 365 구독에서 사용자 지정 도메인을 제거 합니다.  <br/> | [도메인을 제거 하기 전에 필요한 단계](remove-a-domain.md) 에 따라 사용자 전자 메일 주소에서 도메인 이름을 제거 하 고 사용자 지정 도메인에 대 한 전자 메일 및 LYNC 용 DNS 레코드를 제거 합니다. Office 365에서 공개 웹 사이트를 호스트 하는 경우에는이를 가리키는 CNAME 레코드도 제거 해야 합니다.  <br/> > [!IMPORTANT]>이 사용자 지정 도메인으로 전자 메일을 라우팅하는 MX 레코드를 제거한 후 새 계정에 도메인을 추가 하 고 새 MX 레코드를 설정 하 고 사용자를 설정할 때까지 전자 메일이 제대로 작동 하지 않습니다. Lync에 대 한 DNS 레코드를 제거 하면 Lync가 작동 하지 않습니다. 또한 공개 웹 사이트를 가리키는 CNAME 레코드를 제거한 후에는 사용할 수 없습니다.           [도메인을 제거](remove-a-domain.md) 합니다.  <br/> |
+|이동 하려는 계획을 구입 합니다.  <br/> |등록할 때 초기 도메인 이름에 사용할 회사 *이름 (예: onmicrosoft.com* , public.sharepoint.com 및 *sharepoint.com)을* 지정 *합니다.* 기존 구독에 사용한 것과는 다른 *회사* 이름을 사용 해야 합니다.  <br/> > [!NOTE]>은 일반적으로 구독을 취소 한 후 몇 개월 동안 시스템에서 해당 *회사* 를 사용 하는 초기 도메인 이름을 해제 하는 데 소요 됩니다. 이전 Microsoft 365 구독의 모든 데이터를 저장 하 고 해당 구독을 취소 하더라도 새 구독에서 이전 *회사* 가치를 즉시 사용할 수 없습니다.           |
+|이전 Microsoft 365 구독에서 사용자 지정 도메인을 제거 합니다.  <br/> | [도메인을 제거 하기 전에 필요한 단계](remove-a-domain.md) 에 따라 사용자 전자 메일 주소에서 도메인 이름을 제거 하 고 사용자 지정 도메인에 대 한 전자 메일 및 LYNC 용 DNS 레코드를 제거 합니다. Microsoft 365에서 공개 웹 사이트를 호스트 하는 경우에는이를 가리키는 CNAME 레코드도 제거 해야 합니다.  <br/> > [!IMPORTANT]>이 사용자 지정 도메인으로 전자 메일을 라우팅하는 MX 레코드를 제거한 후 새 계정에 도메인을 추가 하 고 새 MX 레코드를 설정 하 고 사용자를 설정할 때까지 전자 메일이 제대로 작동 하지 않습니다. Lync에 대 한 DNS 레코드를 제거 하면 Lync가 작동 하지 않습니다. 또한 공개 웹 사이트를 가리키는 CNAME 레코드를 제거한 후에는 사용할 수 없습니다.           [도메인을 제거](remove-a-domain.md) 합니다.  <br/> |
 |새 구독에 대 한 사용자 지정 도메인을 설정 하 고 사용자를 설정 합니다.  <br/> | 사용자 지정 도메인에 필요한 DNS 레코드를 만드는 작업을 포함 하 여 새 구독을 설정 합니다.  <br/>  사용자 지정 도메인에 전자 메일 주소를 사용 하 여 사용자를 만듭니다.  <br/> |
 |이전 구독에서 새 구독으로 데이터를 전송 합니다.  <br/> | 별도의 브라우저 창에서 두 계정에 로그인 합니다.  <br/>  Internet Explorer 아이콘을 마우스 오른쪽 단추로 클릭 하 고 두 개의 InPrivate 브라우저 창을 엽니다. 두 windows에서 다른 자격 증명을 사용 하 여 두 계정 모두에 로그인 할 수 있습니다.  <br/> [구독 간 관리 설정 전송](#email) <br/> [팀 사이트 구조 및 데이터 전송](#transfer-team-site-structure-and-data) <br/> [구독 간 공용 웹 사이트 전송](#transfer-a-public-website-between-subscriptions) <br/> [구독 간 관리 설정 전송](#email) <br/> |
-|Office 365에 대 한 Microsoft 지원 서비스를 호출 하 여 완료 한 계획에 대 한 구독을 취소 합니다.  <br/> | 새 구독이 작동 하며 모든 데이터가 전송 되었는지 확인 합니다.  <br/>  [고객 지원에 문의](../contact-support-for-business-products.md) 하 여 이전 구독을 취소 합니다.  <br/> |
+|Microsoft 365에 대 한 Microsoft 지원 서비스를 호출 하 여 완료 한 계획에 대 한 구독을 취소 합니다.  <br/> | 새 구독이 작동 하며 모든 데이터가 전송 되었는지 확인 합니다.  <br/>  [고객 지원에 문의](../contact-support-for-business-products.md) 하 여 이전 구독을 취소 합니다.  <br/> |
 
 ## <a name="transfer-administrative-settings-between-subscriptions"></a>구독 간 관리 설정 전송
 
 각 계정의 다음 페이지로 이동 하 여 이전 계정의 설정을 기반으로 새 계정을 설정 합니다.
   
-Office 365에서 Office 365 중간 규모의 비즈니스 또는 Office 365 Enterprise로 데이터를 전송 하는 경우 관리 페이지는 서로 다른 구조로 구성 됩니다. 비디오 시청 [: Office 365 Enterprise를 소개](https://support.office.com/article/11f7b4a0-1294-4e94-9238-beaae26efa9c.aspx)하 고 다음 위치로 이동 하 여 관리 설정을 확인 하세요.
+Microsoft 365에서 Microsoft 365 중소 Business 또는 Microsoft 365 Enterprise로 데이터를 전송 하는 경우 관리 페이지는 서로 다른 방식으로 구성 됩니다. 비디오 시청 [: Microsoft 365 Enterprise를 소개](https://support.office.com/article/11f7b4a0-1294-4e94-9238-beaae26efa9c.aspx)하 고 다음 위치로 이동 하 여 관리 설정을 확인 하세요.
   
-Office 365 Enterprise 및 Office 365 중간 규모 비즈니스에 대해 다음을 수행 합니다.
+Microsoft 365 Enterprise 및 Microsoft 365 중소 Business:
   
 |**위치**|**용도**|
 |:-----|:-----|
-|**관리** \> **Office 365** \> **서비스 설정** <br/> |메일, 사이트, Lync, 사용자 소프트웨어, 암호, 커뮤니티, 권한 관리 및 모바일의 설정에 대 한 각 탭을 선택 합니다.  <br/> |
+|**관리** \> **Microsoft 365** \> **서비스 설정** <br/> |메일, 사이트, Lync, 사용자 소프트웨어, 암호, 커뮤니티, 권한 관리 및 모바일의 설정에 대 한 각 탭을 선택 합니다.  <br/> |
 |**관리** \> **Exchange** <br/> | Exchange Online 설정  <br/> |
 |**관리** \> **SharePoint** <br/> | SharePoint Online 설정  <br/> |
-|**** \> **비즈니스용 Skype** 관리자 <br/> |추가 비즈니스용 Skype 설정  <br/> |
+|**Admin** \> **비즈니스용 Skype** 관리자 <br/> |추가 비즈니스용 Skype 설정  <br/> |
 
-Office 365 Small Business의 경우
+Microsoft 365 Small Business
   
 |**위치**|**용도**|
 |:-----|:-----|
@@ -74,7 +74,7 @@ Office 365 Small Business의 경우
 
 ## <a name="transfer-a-public-website-between-subscriptions"></a>구독 간 공용 웹 사이트 전송
 
-Office 365에서 호스트 되는 공개 웹 사이트가 있는 경우이를 저장 하 고 새 구독에 다시 만들어야 합니다.
+Microsoft 365에서 호스트 되는 공개 웹 사이트가 있는 경우이를 저장 하 고 새 구독에 다시 만들어야 합니다.
   
 > [!NOTE]
 > 공용 웹 사이트가 DNS 호스팅 공급자에 호스트 되는 경우에는 변경이 필요 하지 않습니다. 전환의 영향을 받지 않습니다.

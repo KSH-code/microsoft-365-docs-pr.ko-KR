@@ -1,5 +1,5 @@
 ---
-title: Yahoo! Small Business에서 Office 365용 DNS 레코드 만들기
+title: Yahoo! Microsoft 용 Small Business
 f1.keywords:
 - NOCSH
 ms.author: pebaum
@@ -19,15 +19,15 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 034bd7bc-b098-4c4d-8a93-4d74ff24532a
-description: 전자 메일, 비즈니스용 Skype Online 및 Yahoo!의 기타 서비스에 대해 도메인을 확인 하 고 DNS 레코드를 설정 하는 방법을 알아봅니다. Office 365 Small Business
-ms.openlocfilehash: 7b0d0b25a2895101e2f9a259a82fb18e9447441f
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+description: 전자 메일, 비즈니스용 Skype Online 및 Yahoo!의 기타 서비스에 대해 도메인을 확인 하 고 DNS 레코드를 설정 하는 방법을 알아봅니다. Microsoft에는 Small Business가 있습니다.
+ms.openlocfilehash: 12efa8f7056f0d06cbf78b2486ea67dc85d2e705
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43211041"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43629158"
 ---
-# <a name="create-dns-records-at-yahoo-small-business-for-office-365"></a>Yahoo! Small Business에서 Office 365용 DNS 레코드 만들기
+# <a name="create-dns-records-at-yahoo-small-business-for-microsoft"></a>Yahoo! Microsoft 용 Small Business
 
  **원하는 정보는 찾지 못한 경우 [도메인 질문과 대답을 확인](../setup/domains-faq.md)** 하세요. 
   
@@ -89,5 +89,5 @@ Yahoo! Small Business가 DNS 호스팅 공급자였다면 이제 공급자가 Aa
     
     ![The sign-in page for Aabaco Small Business](../../media/4ef3cfc3-26da-4e03-932b-9346ef217848.png)
   
-이제 Aabaco 계정을 만들었으므로 [Office 365용 Aabaco Small Business에서 DNS 레코드를 만들](../get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md) 수 있습니다.
+Aabaco 계정을 만들었으므로 이제 [Microsoft에 대해 Aabaco Small Business에서 DNS 레코드를 만들](../get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md)수 있습니다.
   

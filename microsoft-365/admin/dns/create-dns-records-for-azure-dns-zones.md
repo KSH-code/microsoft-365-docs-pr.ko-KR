@@ -19,13 +19,13 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: fbcef2d7-ebaf-40d0-ba1f-cdaeff9f50ef
-description: 도메인을 확인 하 고 전자 메일, 비즈니스용 Skype Online 및 Office 365의 Azure DNS 영역에 있는 다른 서비스에 대 한 DNS 레코드를 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: 1c9ac04f74b205fa4a099fca634a41207e8083ba
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+description: 도메인을 확인 하 고 전자 메일, 비즈니스용 Skype Online 및 기타 서비스에 대해 Microsoft의 Azure DNS 영역에 대 한 DNS 레코드를 설정 하는 방법을 알아봅니다.
+ms.openlocfilehash: 7104fb18a6581b7ebc853f938b85171ae1886cfd
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43211053"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43629146"
 ---
 # <a name="create-dns-records-for-azure-dns-zones"></a>Azure DNS 영역에 대 한 DNS 레코드 만들기
 
@@ -39,15 +39,15 @@ Azure가 DNS 호스팅 공급자 이면이 문서에 나와 있는 단계에 따
     
 - [확인을 위해 TXT 레코드 추가](#add-a-txt-record-for-verification)
 
-- [사용자 도메인의 전자 메일이 Office 365로 전송되도록 MX 레코드 추가](#add-an-mx-record-so-email-for-your-domain-will-come-to-office-365)
+- [도메인에 대 한 전자 메일이 Microsoft에 제공 되도록 MX 레코드를 추가 합니다.](#add-an-mx-record-so-email-for-your-domain-will-come-to-microsoft)
     
-- [Office 365에 필요한 4 개의 CNAME 레코드 추가](#add-the-four-cname-records-that-are-required-for-office-365)
+- [Microsoft에 필요한 4 개의 CNAME 레코드 추가](#add-the-four-cname-records-that-are-required-for-microsoft)
     
 - [전자 메일 스팸 방지에 유용한 SPF용 TXT 레코드 추가](#add-a-txt-record-for-spf-to-help-prevent-email-spam)
     
-- [Office 365에 필요한 2개의 SRV 레코드 추가](#add-the-two-srv-records-that-are-required-for-office-365)
+- [Microsoft에 필요한 두 개의 SRV 레코드를 추가 합니다.](#add-the-two-srv-records-that-are-required-for-microsoft)
     
-Azure에서 이러한 레코드를 추가 하 고 나면 도메인이 Office 365 서비스에서 작동 하도록 설정 됩니다.
+Azure에서 이러한 레코드를 추가 하 고 나면 도메인이 Microsoft 서비스에서 작동 하도록 설정 됩니다.
   
 > [!NOTE]
 > 일반적으로 DNS 변경 내용을 적용하는 데 15분 정도 걸립니다. 그러나 변경한 내용이 인터넷의 DNS 시스템 전체에 업데이트되는 데에는 시간이 오래 걸릴 수 있습니다. DNS 레코드를 추가한 후 메일 흐름이나 기타 문제가 있는 경우 [도메인 이름 또는 DNS 레코드 변경 후 발생한 문제 해결](../get-help-with-domains/find-and-fix-issues.md)을 참조하세요. 
@@ -60,7 +60,7 @@ Azure에서 이러한 레코드를 추가 하 고 나면 도메인이 Office 365
   
 Azure에 등록할 때 DNS 영역 내에 리소스 그룹을 만든 다음 해당 리소스 그룹에 도메인 이름을 할당 합니다. 해당 도메인 이름은 외부 도메인 등록자에 등록 됩니다. Azure는 도메인 등록 서비스를 제공 하지 않습니다.
   
-Office 365에서 도메인에 대 한 DNS 레코드를 확인 하 고 만들려면 먼저 도메인 등록 기관에서 이름 서버를 변경 하 여 리소스 그룹에 할당 된 Azure 이름 서버을 사용 하도록 해야 합니다.
+Microsoft에서 도메인에 대 한 DNS 레코드를 확인 하 고 만들려면 먼저 도메인 등록 기관에서 이름 서버를 변경 하 여 리소스 그룹에 할당 된 Azure 이름 서버을 사용 하도록 해야 합니다.
   
 도메인 등록 기관 웹 사이트에서 도메인 이름 서버를 직접 변경하려면 다음 단계를 따릅니다.
   
@@ -81,12 +81,12 @@ Office 365에서 도메인에 대 한 DNS 레코드를 확인 하 고 만들려�
 3. 변경 내용을 저장합니다.
     
 > [!NOTE]
-> 이름 서버 레코드 업데이트가 인터넷의 DNS 시스템 전체에 업데이트되기까지 몇 시간이 걸릴 수 있습니다. 그 후에는 Office 365 전자 메일 및 기타 서비스가 모두 사용자의 도메인을 사용하도록 설정됩니다. 
+> Your nameserver record updates may take up to several hours to update across the Internet's DNS system. 그러면 Microsoft 전자 메일 및 기타 서비스가 모두 도메인에서 작동 하도록 설정 됩니다. 
   
 ## <a name="add-a-txt-record-for-verification"></a>확인을 위해 TXT 레코드 추가
 <a name="BKMK_verify"> </a>
 
-Office 365에서 사용자 도메인을 사용하려면 먼저 도메인을 소유하고 있어야 합니다. 도메인 등록 기관에서 사용자의 계정으로 로그인하고 DNS 레코드를 만들 수 있으면 Office 365에 도메인을 소유하고 있음을 증명할 수 있습니다.
+Microsoft에서 도메인을 사용 하기 전에 사용자가 소유 하 고 있는지 확인 해야 합니다. 도메인 등록 기관에서 계정에 로그인 하 고 DNS 레코드를 만들 수 있는 기능은 Microsoft에 도메인을 소유 하 고 있음을 증명 합니다.
   
 > [!NOTE]
 > 이 레코드는 사용자가 도메인을 소유하고 있는지 확인하는 데만 사용되며 그 밖에 아무런 영향도 주지 않습니다. 원하는 경우 나중에 삭제할 수 있습니다. 
@@ -109,7 +109,7 @@ Office 365에서 사용자 도메인을 사용하려면 먼저 도메인을 소�
     
     |**이름**|**종류**|**TTL**|**TTL 단위**|**값**|
     |:-----|:-----|:-----|:-----|:-----|
-    |@  <br/> |TXT  <br/> |1   <br/> |시간  <br/> |MS=ms *XXXXXXXX*  <br/> **참고:** 이 값은 예시입니다. 여기에는 Office 365의 표에 있는 특정 **보낼 대상 또는 지점** 값을 사용합니다.           [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)          |
+    |@  <br/> |TXT  <br/> |1   <br/> |시간  <br/> |MS=ms *XXXXXXXX*  <br/> **참고:** 이 값은 예시입니다. 표에서 특정 **대상 또는 지점** 값을 사용 하 여 여기서 주소를 지정 합니다.           [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)          |
    
     ![Azure-BP-Verify-1-1](../../media/7d5a253c-e88f-4565-a00a-79bba52f9970.png)
   
@@ -117,9 +117,9 @@ Office 365에서 사용자 도메인을 사용하려면 먼저 도메인을 소�
   
 6. 방금 만든 레코드가 인터넷에서 업데이트될 수 있도록 몇 분 정도 기다립니다.
     
-이제 도메인 등록 기관에 레코드가 추가되었습니다. Office 365로 돌아가서 Office 365에 레코드를 찾을 것을 요청합니다.
+도메인 등록 기관 사이트에서 레코드를 추가 했으므로 이제 Microsoft로 이동 하 여 레코드를 요청 합니다.
   
-Office 365에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것입니다.
+Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인 된 것입니다.
   
 1. I관리 센터에서 ** 설정 ** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank"> 도메인 </a> 페이지로 이동하십시오.
     
@@ -138,7 +138,7 @@ Office 365에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것
 > [!NOTE]
 >  일반적으로 DNS 변경 내용을 적용하는 데 15분 정도 걸립니다. 그러나 변경한 내용이 인터넷의 DNS 시스템 전체에 업데이트되는 데에는 시간이 오래 걸릴 수 있습니다. DNS 레코드를 추가한 후 메일 흐름이나 기타 문제가 있는 경우 [도메인 이름 또는 DNS 레코드 변경 후 발생한 문제 해결](../get-help-with-domains/find-and-fix-issues.md)을 참조하세요. 
   
-## <a name="add-an-mx-record-so-email-for-your-domain-will-come-to-office-365"></a>사용자 도메인의 전자 메일이 Office 365로 전송되도록 MX 레코드 추가
+## <a name="add-an-mx-record-so-email-for-your-domain-will-come-to-microsoft"></a>도메인에 대 한 전자 메일이 Microsoft에 제공 되도록 MX 레코드를 추가 합니다.
 <a name="BKMK_add_MX"> </a>
 
 1. 시작 하려면 [이 링크](https://portal.azure.com )를 사용 하 여 Azure의 도메인 페이지로 이동 합니다. 먼저 로그인하라는 메시지가 표시됩니다.
@@ -159,7 +159,7 @@ Office 365에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것
     
     |**이름**|**종류**|**TTL**|**TTL 단위**|**기본 설정**|**메일 교환**|
     |:-----|:-----|:-----|:-----|:-----|:-----|
-    |@  <br/> |MX  <br/> |1   <br/> |시간  <br/> |10   <br/> 우선 순위에 대한 자세한 내용은 [MX 우선 순위란?](https://support.office.com/article/2784cc4d-95be-443d-b5f7-bb5dd867ba83.aspx)을 참조하세요. <br/> | *\<domain-key\>*  .mail.protection.outlook.com  <br/> **참고:** Office 365 계정에서 * \<도메인\> 키* 를 가져옵니다.   [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)  
+    |@  <br/> |MX  <br/> |1   <br/> |시간  <br/> |10   <br/> 우선 순위에 대한 자세한 내용은 [MX 우선 순위란?](https://support.office.com/article/2784cc4d-95be-443d-b5f7-bb5dd867ba83.aspx)을 참조하세요. <br/> | *\<domain-key\>*  .mail.protection.outlook.com  <br/> **참고:** Microsoft 계정에서 * \<도메인 키\> * 를 가져옵니다.   [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)  
    
     ![Azure-BP-구성-2-1](../../media/712c23ae-9d38-4af2-94e0-0704e70744fe.png)
   
@@ -185,7 +185,7 @@ Office 365에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것
     
     ![Azure-BP-구성-2-6](../../media/c6133096-5e43-4637-9c01-b63ee4b03517.png)
   
-## <a name="add-the-four-cname-records-that-are-required-for-office-365"></a>Office 365에 필요한 4 개의 CNAME 레코드 추가
+## <a name="add-the-four-cname-records-that-are-required-for-microsoft"></a>Microsoft에 필요한 4 개의 CNAME 레코드 추가
 <a name="BKMK_add_CNAME"> </a>
 
 1. 시작 하려면 [이 링크](https://portal.azure.com )를 사용 하 여 Azure의 도메인 페이지로 이동 합니다. 먼저 로그인하라는 메시지가 표시됩니다.
@@ -228,7 +228,7 @@ Office 365에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것
 7.  반드시 MDM에 대 한 2 개의 CNAME 레코드를 추가 합니다.
 
 > [!IMPORTANT]
-> Office 365용 MDM (Mobile Device Management)이있는 경우 두 개의 추가 CNAME 레코드를 만들어야 합니다. 다른 4개의 CNAME 레코드를 만드는 데 사용한 절차를 따르되 다음 표의 값을 입력합니다. (MDM이 없는 경우에는이 단계를 건너뛰어도 됩니다.) 
+> Microsoft 용 MDM (모바일 장치 관리)이 있는 경우 두 개의 CNAME 레코드를 추가로 만들어야 합니다. 다른 4개의 CNAME 레코드를 만드는 데 사용한 절차를 따르되 다음 표의 값을 입력합니다. (MDM이 없는 경우에는이 단계를 건너뛰어도 됩니다.) 
   
 |**이름**|**종류**|**TTL**|**TTL 단위**|**별칭**|
 |:-----|:-----|:-----|:-----|:-----|
@@ -239,7 +239,7 @@ Office 365에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
-> 도메인 한 개의 SPF에 둘 이상의 TXT 레코드가 있을 수 없습니다. 도메인에 둘 이상의 SPF 레코드가 있는 경우 전자 메일 오류를 비롯하여 배달 및 스팸 분류 문제가 발생할 수 있습니다. If you already have an SPF record for your domain, don't create a new one for Office 365. Instead, add the required Office 365 values to the current record so that you have a  *single*  SPF record that includes both sets of values. 
+> 도메인 한 개의 SPF에 둘 이상의 TXT 레코드가 있을 수 없습니다. 도메인에 둘 이상의 SPF 레코드가 있는 경우 전자 메일 오류를 비롯하여 배달 및 스팸 분류 문제가 발생할 수 있습니다. 도메인에 대 한 SPF 레코드가 이미 있는 경우 Microsoft에 대해 새로 만들지 마십시오. 대신, 두 값 집합을 모두 포함 하는 *단일* SPF 레코드가 있도록 현재 레코드에 필수 Microsoft 값을 추가 합니다. 
   
 1. 시작 하려면 [이 링크](https://portal.azure.com )를 사용 하 여 Azure의 도메인 페이지로 이동 합니다. 먼저 로그인하라는 메시지가 표시됩니다.
     
@@ -267,7 +267,7 @@ Office 365에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것
     
     ![Azure-BP-구성-4-3](../../media/d7421c7f-ea63-4e11-8595-a482b8c165e0.png)
   
-## <a name="add-the-two-srv-records-that-are-required-for-office-365"></a>Office 365에 필요한 2개의 SRV 레코드 추가
+## <a name="add-the-two-srv-records-that-are-required-for-microsoft"></a>Microsoft에 필요한 두 개의 SRV 레코드를 추가 합니다.
 <a name="BKMK_add_SRV"> </a>
 
 1. 시작 하려면 [이 링크](https://portal.azure.com )를 사용 하 여 Azure의 도메인 페이지로 이동 합니다. 먼저 로그인하라는 메시지가 표시됩니다.

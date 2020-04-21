@@ -10,16 +10,16 @@ ms.collection: SPO_Content
 localization_priority: Normal
 f1.keywords: NOCSH
 description: SharePoint 사이트에서 게스트와 공동 작업 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 3a7c14cc4cd31961b0d4c1054f88b5ed276b3b1a
-ms.sourcegitcommit: 21338a9287017a66298e0ff557e80051946ebf13
+ms.openlocfilehash: 5a8bc5da55f3582a7e298dab97ec4d6b3d147b60
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "42604757"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43630740"
 ---
 # <a name="collaborate-with-guests-in-a-site"></a>게스트와 현장에서 공동 작업하기
 
-여러 문서, 데이터 및 목록에서 게스트와 공동 작업을 수행 해야 하는 경우에는 SharePoint 사이트를 사용할 수 있습니다. 최신 SharePoint 사이트는 사이트 구성원 자격을 관리 하 고 공유 사서함 및 일정과 같은 추가 공동 작업 도구를 제공할 수 있는 Office 365 그룹에 연결 됩니다.
+여러 문서, 데이터 및 목록에서 게스트와 공동 작업을 수행 해야 하는 경우에는 SharePoint 사이트를 사용할 수 있습니다. 최신 SharePoint 사이트는 Microsoft 365 그룹에 연결 되며, 사이트 구성원 자격을 관리 하 고 공유 사서함 및 일정과 같은 추가 공동 작업 도구를 제공할 수 있습니다.
 
 이 문서에서는 게스트가 포함 된 공동 작업을 위해 SharePoint 사이트를 설정 하는 데 필요한 Microsoft 365 구성 단계를 안내 합니다.
 
@@ -48,17 +48,17 @@ Microsoft 365의 공유는 Azure Active Directory의 조직 관계 설정에 따
 
 **공동 작업 제한** 섹션의 설정을 확인 합니다. 공동 작업 하려는 게스트의 도메인이 차단 되지 않았는지 확인 합니다.
 
-## <a name="office-365-groups-guest-settings"></a>Office 365 그룹 게스트 설정
+## <a name="microsoft-365-groups-guest-settings"></a>Microsoft 365 Groups 게스트 설정
 
-최신 SharePoint 사이트에서는 Office 365 그룹을 사용 하 여 사이트 액세스를 제어 합니다. SharePoint 사이트에서 게스트 액세스를 작동 하려면 Office 365 그룹 게스트 설정이 설정 되어 있어야 합니다.
+최신 SharePoint 사이트에서는 Microsoft 365 그룹을 사용 하 여 사이트 액세스를 제어 합니다. SharePoint 사이트에서 게스트 액세스를 사용 하려면 Microsoft 365 Groups 게스트 설정이 켜야 합니다.
 
-![Microsoft 365 관리 센터의 Office 365 그룹 게스트 설정 스크린샷](../media/office-365-groups-guest-settings.png)
+![Microsoft 365 관리 센터의 Microsoft 365 그룹 게스트 설정 스크린샷](../media/office-365-groups-guest-settings.png)
 
-Office 365 그룹 게스트 설정을 설정 하려면
+Microsoft 365 그룹 게스트 설정을 설정 하려면
 
 1. Microsoft 365 관리 센터의 왼쪽 탐색 영역에서 **설정을**확장 합니다.
 2. **서비스 & 추가 기능**을 클릭 합니다.
-3. 목록에서 **Office 365 그룹**을 클릭 합니다.
+3. 목록에서 **Microsoft 365 그룹**을 클릭 합니다.
 4. **조직 외부 구성원이 그룹 콘텐츠에 액세스** 하 고 그룹 **소유자가 조직 외부의 사람을 그룹에 추가** 하도록 허용 확인란을 모두 선택 했는지 확인 합니다.
 5. 변경한 경우 **변경 내용 저장**을 클릭 합니다.
 
@@ -111,9 +111,9 @@ SharePoint 조직 수준 공유 설정을 설정 하려면
 4. 공유가 **사용자** 또는 **신규 및 기존 게스트로**설정 되어 있는지 확인 합니다.
 5. 변경한 내용이 있으면 **저장**을 클릭합니다.
 
-## <a name="invite-users"></a>사용자 초대
+## <a name="invite-users"></a>사용자 초대하기
 
-게스트 공유 설정이 이제 구성 되므로 사이트에 내부 사용자 및 게스트를 추가할 수 있습니다. 사이트 액세스는 연결 된 Office 365 그룹을 통해 제어 되므로 사용자를 추가할 수 있습니다.
+게스트 공유 설정이 이제 구성 되므로 사이트에 내부 사용자 및 게스트를 추가할 수 있습니다. 사이트 액세스는 연결 된 Microsoft 365 그룹을 통해 제어 되므로 사용자를 추가할 수 있습니다.
 
 그룹에 내부 사용자를 초대 하려면
 1. 사용자를 추가 하려는 사이트로 이동 합니다.

@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 2e122487-e1f5-4f26-ba41-5689249d93ba
 description: '개인 사서함을 여러 사용자가 액세스할 수 있는 공유 사서함으로 변환 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 481707b9d60d37b1d80d822467d17f66750f4f13
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 7e652dc77218be44caa56515e4b21efb692cbaa3
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42255267"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43628894"
 ---
 # <a name="convert-a-user-mailbox-to-a-shared-mailbox"></a>사용자 사서함을 공유 사서함으로 변환
 
@@ -42,13 +42,13 @@ ms.locfileid: "42255267"
 
 ## <a name="use-the-exchange-admin-center-to-convert-a-mailbox"></a>Exchange 관리 센터를 사용 하 여 사서함 변환
  
-1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">Exchange 관리 센터</a> 로 이동합니다.
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">Exchange 관리 센터</a>로 이동합니다.
 
 2. **받는 사람** \> **사서함**을 선택 합니다.
 
 3. 사용자 사서함을 선택 합니다. **공유 사서함으로 변환**에서 **변환을**선택 합니다.
 
-4. 사서함이 50GB 보다 작으면 [사용자 로부터 라이선스](../manage/remove-licenses-from-users.md)를 제거 하 고이에 대 한 비용 지불을 중지할 수 있습니다. 사용자의 이전 사서함은 삭제 하지 마세요. 공유 사서함에는 기준 위치가 필요 합니다. 조직에서 나가는 직원의 사서함을 변환 하는 경우에는 추가 단계를 수행 하 여 더 이상 로그인 할 수 없도록 해야 합니다. [Office 365에서 이전 직원 제거를](../add-users/remove-former-employee.md)참조 하세요.
+4. 사서함이 50GB 보다 작으면 [사용자 로부터 라이선스](../manage/remove-licenses-from-users.md)를 제거 하 고이에 대 한 비용 지불을 중지할 수 있습니다. 사용자의 이전 사서함은 삭제 하지 마세요. 공유 사서함에는 기준 위치가 필요 합니다. 조직에서 나가는 직원의 사서함을 변환 하는 경우에는 추가 단계를 수행 하 여 더 이상 로그인 할 수 없도록 해야 합니다. [Microsoft 365에서 이전 직원 제거를](../add-users/remove-former-employee.md)참조 하세요.
     
 5. 공유 사서함에 대해 알아야 할 다른 모든 작업은 [공유](about-shared-mailboxes.md) 사서함 및 [공유 사서함 만들기](create-a-shared-mailbox.md)를 참조 하세요.
 
@@ -56,7 +56,7 @@ ms.locfileid: "42255267"
 
 ::: moniker range="o365-worldwide"
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다..
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다.
 
 2. 해당 사서함을 변환 하려는 사용자의 이름을 선택 합니다.
 
@@ -71,7 +71,7 @@ ms.locfileid: "42255267"
 
 ::: moniker range="o365-germany"
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다..
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다.
 
 2. 해당 사서함을 변환 하려는 사용자를 선택 합니다.
 
@@ -81,7 +81,7 @@ ms.locfileid: "42255267"
 
 ::: moniker range="o365-21vianet"
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다..
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다.
 
 2. 해당 사서함을 변환 하려는 사용자를 선택 합니다.
 
@@ -90,7 +90,7 @@ ms.locfileid: "42255267"
 ::: moniker-end
 
 
-사서함이 50GB 보다 작으면 [사용자 로부터 라이선스를 제거](../manage/remove-licenses-from-users.md)하 고이에 대 한 비용 지불을 중지할 수 있습니다. 사용자의 이전 사서함은 삭제 하지 마세요. 공유 사서함에는 기준 위치가 필요 합니다. 조직에서 나가는 직원의 사서함을 변환 하는 경우에는 추가 단계를 수행 하 여 더 이상 로그인 할 수 없도록 해야 합니다. [Office 365에서 이전 직원 제거를](../add-users/remove-former-employee.md)참조 하세요.
+사서함이 50GB 보다 작으면 [사용자 로부터 라이선스를 제거](../manage/remove-licenses-from-users.md)하 고이에 대 한 비용 지불을 중지할 수 있습니다. 사용자의 이전 사서함은 삭제 하지 마세요. 공유 사서함에는 기준 위치가 필요 합니다. 조직에서 나가는 직원의 사서함을 변환 하는 경우에는 추가 단계를 수행 하 여 더 이상 로그인 할 수 없도록 해야 합니다. [Microsoft 365에서 이전 직원 제거를](../add-users/remove-former-employee.md)참조 하세요.
     
 공유 사서함에 대해 알아야 할 다른 모든 작업은 [공유](about-shared-mailboxes.md) 사서함 및 [공유 사서함 만들기](create-a-shared-mailbox.md)를 참조 하세요.
 
@@ -101,7 +101,7 @@ ms.locfileid: "42255267"
 
 1. [사용자의 계정을 복원](../add-users/restore-user.md)합니다.
 
-2. Office 365 라이선스가 할당 되었는지 확인 합니다.
+2. Microsoft 365 라이선스가 할당 되어 있는지 확인 합니다.
 
 3. 사용자 암호를 다시 설정 합니다.
     
@@ -115,7 +115,7 @@ ms.locfileid: "42255267"
 
 ## <a name="convert-a-shared-mailbox-back-to-a-users-private-mailbox"></a>공유 사서함을 사용자의 (개인) 사서함으로 다시 변환
 
-1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">Exchange 관리 센터</a> 로 이동합니다.
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=2059104" target="_blank">Exchange 관리 센터</a>로 이동합니다.
    
 2. **공유**되는 **받는 사람** \> 을 선택 합니다.
 

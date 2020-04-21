@@ -10,12 +10,12 @@ ms.collection: SPO_Content
 localization_priority: Normal
 f1.keywords: NOCSH
 description: 팀에서 게스트와 공동 작업 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 54bf52eebc77e1cce8e1c05a708572d7d1e7fdae
-ms.sourcegitcommit: 21338a9287017a66298e0ff557e80051946ebf13
+ms.openlocfilehash: 4b395f0086198c6226d720c38fc4ea13b1a9d887
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "42604741"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43630752"
 ---
 # <a name="collaborate-with-guests-in-a-team"></a>게스트와 팀으로 공동 작업하기
 
@@ -68,17 +68,17 @@ Microsoft 365의 공유는 Azure Active Directory의 조직 관계 설정에 따
 > [!NOTE]
 > 팀 게스트 설정이 설정 된 후 활성 상태가 되는 데 최대 24 시간이 걸릴 수 있습니다.
 
-## <a name="office-365-groups-guest-settings"></a>Office 365 그룹 게스트 설정
+## <a name="microsoft-365-groups-guest-settings"></a>Microsoft 365 Groups 게스트 설정
 
-팀에서는 team 구성원에 게 Office 365 그룹을 사용 합니다. 팀에서 게스트 액세스를 작동 하려면 Office 365 그룹 게스트 설정이 설정 되어 있어야 합니다.
+팀에서는 team 구성원에 게 Microsoft 365 그룹을 사용 합니다. 팀에서 게스트 액세스를 사용 하려면 Microsoft 365 Groups guest 설정이 켜야 합니다.
 
-![Microsoft 365 관리 센터의 Office 365 그룹 게스트 설정 스크린샷](../media/office-365-groups-guest-settings.png)
+![Microsoft 365 관리 센터의 Microsoft 365 그룹 게스트 설정 스크린샷](../media/office-365-groups-guest-settings.png)
 
-Office 365 그룹 게스트 설정을 설정 하려면
+Microsoft 365 그룹 게스트 설정을 설정 하려면
 
 1. Microsoft 365 관리 센터의 왼쪽 탐색 영역에서 **설정을**확장 합니다.
 2. **서비스 & 추가 기능**을 클릭 합니다.
-3. 목록에서 **Office 365 그룹**을 클릭 합니다.
+3. 목록에서 **Microsoft 365 그룹**을 클릭 합니다.
 4. **조직 외부 구성원이 그룹 콘텐츠에 액세스** 하 고 그룹 **소유자가 조직 외부의 사람을 그룹에 추가** 하도록 허용 확인란을 모두 선택 했는지 확인 합니다.
 5. 변경한 경우 **변경 내용 저장**을 클릭 합니다.
 
@@ -151,7 +151,7 @@ SharePoint 조직 수준 기본 링크 설정을 설정 하려면
 4. 공유가 **사용자** 또는 **신규 및 기존 게스트로**설정 되어 있는지 확인 합니다.
 5. 변경한 내용이 있으면 **저장**을 클릭합니다.
 
-## <a name="invite-users"></a>사용자 초대
+## <a name="invite-users"></a>사용자 초대하기
 
 이제 게스트 공유 설정이 구성 되므로 팀에 내부 사용자 및 게스트를 추가할 수 있습니다. 
 

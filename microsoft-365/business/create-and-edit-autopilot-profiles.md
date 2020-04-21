@@ -26,12 +26,12 @@ search.appverid:
 - MOE150
 ms.assetid: 5cf7139e-cfa1-4765-8aad-001af1c74faa
 description: 프로필을 편집 또는 삭제 하거나 장치에서 프로필을 제거 하는 방법 뿐 아니라 AutoPilot 프로필을 만들어 장치에 적용 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 58c16b68c66dce7541a02ecd0d2466babe8cc338
-ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
+ms.openlocfilehash: a6e02ab56faeb08718a9831657b55cff0356a4ec
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42560723"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627377"
 ---
 # <a name="create-and-edit-autopilot-profiles"></a>AutoPilot 프로필 만들기 및 편집
 
@@ -39,7 +39,7 @@ ms.locfileid: "42560723"
 
 프로필이 장치 또는 장치 그룹에 적용됩니다.
   
-1. Microsoft 365 Business 관리 센터에서 **장치** \> **AutoPilot**을 선택 합니다.
+1. Microsoft 365 관리 센터에서 **장치** \> **AutoPilot**을 선택 합니다.
   
 2. **AutoPilot** 페이지 **에서 프로 파일 탭** \> **프로필 만들기**를 선택 합니다.
     

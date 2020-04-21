@@ -1,5 +1,5 @@
 ---
-title: 관리 센터의 Office 365 보고서-Yammer 활동 보고서
+title: 관리 센터의 Microsoft 365 보고서-Yammer 활동 보고서
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -19,14 +19,14 @@ search.appverid:
 - MOE150
 ms.assetid: c7c9f938-5b8e-4d52-b1a2-c7c32cb2312a
 description: Yammer 활동 보고서를 가져오고 Yammer를 사용 하 여 메시지를 게시 하거나 읽거나 읽는 사용자 수에 대 한 자세한 정보를 확인 하세요.
-ms.openlocfilehash: de62ef0ceed54da76ead64274923ac646240ce44
-ms.sourcegitcommit: 2b626a7924b4be08f6eb21181453b778e6fde418
+ms.openlocfilehash: bd128e17b8d435b8d5c6b06f16ff37fea11a6ce3
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43047026"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43618959"
 ---
-# <a name="office-365-reports-in-the-admin-center---yammer-activity-report"></a>관리 센터의 Office 365 보고서-Yammer 활동 보고서
+# <a name="microsoft-365-reports-in-the-admin-center---yammer-activity-report"></a>관리 센터의 Microsoft 365 보고서-Yammer 활동 보고서
 
 Microsoft 365 admin의 **보고서** 대시보드에는 조직 내 제품의 사용 현황에 대 한 데이터가 표시 됩니다. [관리 센터에서 활동 보고서](activity-reports.md)를 체크 아웃 합니다. **Yammer 활동 보고서** 를 사용하면 메시지를 게시하거나 좋아요를 클릭하거나 읽는 데 Yammer를 사용하는 고유한 사용자 수와 조직 전체에서 생성된 활동의 크기를 확인하여 조직의 Yammer 사용 수준을 이해할 수 있습니다. 
   
@@ -82,7 +82,7 @@ Microsoft 365 admin의 **보고서** 대시보드에는 조직 내 제품의 사
     
   - **사용자 이름**은 사용자의 전자 메일 주소입니다. 실제 전자 메일 주소를 표시하거나 이 필드를 익명으로 만들 수 있습니다. 
     
-    이 표에는 Office 365 계정을 사용하여 Yammer에 로그인하거나 Single Sign-On을 사용하여 네트워크에 로그인한 사용자가 표시됩니다.
+    이 표에는 Microsoft 365 계정을 사용 하 여 Yammer에 로그인 하거나 single sign-on을 사용 하 여 네트워크에 로그인 한 사용자가 표시 됩니다.
     
   - **표시 이름**은 사용자의 전체 이름입니다. 실제 전자 메일 주소를 표시하거나 이 필드를 익명으로 만들 수 있습니다. 
     
@@ -112,6 +112,6 @@ Microsoft 365 admin의 **보고서** 대시보드에는 조직 내 제품의 사
     
 - **외부 네트워크 데이터가 없음** 외부 네트워크 데이터는 이 보고서에 포함되지 않습니다. 
     
-- **활성화된 네트워크** 이러한 보고서에서는 Office 365 구독의 일부인 Yammer 네트워크의 데이터를 표시합니다. 이 차트에서는 사용자가 로그인하는 데 Office 365를 사용하는지 아니면 Yammer를 사용하는지에 상관없이 Yammer 네트워크에 로그인한 모든 사용자의 사용을 집계합니다. 
+- **활성화 된 네트워크** 이러한 보고서에는 Microsoft 365 구독의 일부인 Yammer 네트워크에 대 한 데이터가 표시 됩니다. 이 차트에서는 사용자가 로그인 하는 데 Microsoft 365 또는 Yammer를 사용 했는지에 관계 없이 Yammer 네트워크에 로그인 한 모든 사용자의 사용을 집계 합니다. 
     
 

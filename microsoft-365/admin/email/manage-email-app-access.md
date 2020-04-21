@@ -20,12 +20,12 @@ search.appverid:
 ms.assetid: d00b6b83-1f14-4e9c-a2c5-dbd9a92816f4
 ROBOTS: NOINDEX, NOFOLLOW
 description: 사용자가 전자 메일, 일정 및 연락처에 액세스 하는 데 사용할 수 있는 모바일 앱을 선택 하는 방법을 알아봅니다.
-ms.openlocfilehash: dcfd356ecdbc7448036507abe8d8f09546b05255
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 8627a31f7ec5e3c14b853618bb0383ecc58597cc
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42255214"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43628810"
 ---
 # <a name="manage-email-app-access-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터에서 전자 메일 앱 액세스 관리
 
@@ -43,7 +43,7 @@ ms.locfileid: "42255214"
 
 2. **모바일 전자 메일 액세스 옵션** 페이지에서 확인란을 선택 하 고 조직의 사용자가 장치에서 전자 메일 앱을 사용 하는 방법을 선택 합니다.
   
-조직의 사용자가 모바일 장치에서 Office 365 회사 또는 학교 계정에 액세스 하는 방법을 설정 하는 옵션을 선택 합니다.
+조직의 사용자가 모바일 장치에서 회사 또는 학교 계정에 액세스 하는 방법을 설정 하는 옵션을 선택 합니다.
   
 - **Outlook 전용** -조직의 사용자가 모바일 장치에서 Android 용 Outlook 또는 IOS 용 outlook을 사용 해야 합니다. 
     

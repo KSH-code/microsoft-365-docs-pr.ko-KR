@@ -23,22 +23,22 @@ search.appverid:
 - GEA150
 ms.assetid: d5155593-3bac-4d8d-9d8b-f4513a81479e
 description: 사용자 계정을 삭제 하는 방법에 대해 알아봅니다. 사용자의 전자 메일, OneDrive 콘텐츠, 제품 라이선스를 유지할지 아니면 지불할 지를 결정 합니다.
-ms.openlocfilehash: 59d06a075b5badeda410b4b25d60fa135b9ce5f7
-ms.sourcegitcommit: a955324e33097bbd2fc4ad7f2b8d1f3d87bc8580
+ms.openlocfilehash: 1d529627841c648684c8a9fe217a761b29749150
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 04/21/2020
-ms.locfileid: "43608129"
+ms.locfileid: "43617251"
 ---
 # <a name="delete-a-user-from-your-organization"></a>조직에서 사용자 삭제
   
 ||
 |:-----|
-|**회사 또는 학교에서 사용 하 *는 Office 365* 사용자 계정을 삭제 하는 방법을 찾으십니까? 회사 또는 대학에서 기술 지원 서비스에 문의 하 여 다음 단계를 수행 하세요.**|
+|**회사 또는 학교에서 사용 하는 Microsoft 365 사용자 계정을 *직접* 삭제 하는 방법을 찾으십니까? 회사 또는 대학에서 기술 지원 서비스에 문의 하 여 다음 단계를 수행 하세요.**|
    
 ## <a name="what-you-need-to-know-about-deleting-users"></a>사용자 삭제에 대해 알아야 할 사항
 
-- 회사 또는 학교에 대한 [Office 365 전역 관리자](about-admin-roles.md) 또는 사용자 관리 권한이 있는 사람만 사용자 계정을 삭제할 수 있습니다. 
+- 비즈니스 또는 학교에 대 한 [Microsoft 365 전역 관리자](about-admin-roles.md) 또는 사용자 관리 권한이 있는 사용자만 사용자 계정을 삭제할 수 있습니다. 
     
 - 30일 내에 계정을 [복원](restore-user.md)하지 않으면 사용자 데이터가 영구적으로 삭제됩니다. 
     
@@ -46,7 +46,7 @@ ms.locfileid: "43608129"
     
 - 사용자의 전자 메일을 유지하려는 경우 계정을 삭제하기 **전에** 전자 메일을 다른 위치로 이동합니다. 계정을 이미 삭제한 경우 아직 30일이 경과하지 않았으면 계정을 복원한 뒤 전자 메일 데이터를 이동한 다음에 계정을 삭제합니다. [Get access to and back up a former user's data](get-access-to-and-back-up-a-former-user-s-data.md)(이전 사용자의 데이터 액세스 및 백업)를 참조하세요.
     
-- Office 365 Enterprise e 3과 같은 엔터프라이즈 구독을 사용 하는 경우 삭제 된 Office 365 사용자 계정의 사서함 데이터를 *비활성 사서함*으로 설정 하 여 보존할 수 있습니다. 자세한 내용은 [Office 365에서 비활성 사서함 관리](https://docs.microsoft.com/microsoft-365/compliance/inactive-mailboxes-in-office-365)를 참조하세요.
+- Office 365 Enterprise e 3과 같은 엔터프라이즈 구독을 사용 하는 경우 삭제 된 사용자 계정의 사서함 데이터를 *비활성 사서함*으로 설정 하 여 보존할 수 있습니다. 자세한 내용은 [Office 365에서 비활성 사서함 관리](https://docs.microsoft.com/microsoft-365/compliance/inactive-mailboxes-in-office-365)를 참조하세요.
 
 
 ## <a name="global-admin-delete-a-user-stop-paying-for-their-license-and-choose-what-to-do-with-their-email-and-onedrive-content"></a>전역 관리자: 사용자 삭제, 해당 라이선스에 대 한 지불 중지 및 전자 메일 및 OneDrive 콘텐츠로 수행할 작업 선택
@@ -176,13 +176,13 @@ ms.locfileid: "43608129"
   
 - **"사용자를 삭제할 수 없습니다. 라는 줄에 오류 메시지가 표시 됩니다. 나중에 다시 시도 하세요. "** 계정에 전자 메일 전달이 설정 되어 있는지, 아니면 공유 사서함으로 변환 붙여넣으세요. 두 경우 모두 해당 오류가 발생 합니다. 전자 메일 전달이 있거나 공유 사서함으로 변환 된 경우에는 계정을 삭제 하지 마세요.
 
-- **사용자를 삭제하기 위한 적절한 권한이 없습니다**. [Office 365 전역 관리자 또는 사용자 관리 관리자](about-admin-roles.md) 인 사람만 사용자를 삭제할 수 있습니다. 일반적으로 학교 또는 회사의 기술 지원 담당자입니다.
+- **사용자를 삭제하기 위한 적절한 권한이 없습니다**. [Microsoft 365 전역 관리자 또는 사용자 관리 관리자](about-admin-roles.md) 만 사용자를 삭제할 수 있습니다. 일반적으로 학교 또는 회사의 기술 지원 담당자입니다.
 
 - **사용자를 삭제했지만 해당 이름이 전체 주소록에 계속 나타납니다**. 회사에서 Active Directory를 사용하는 경우 이 문제가 발생합니다. Active Directory에서 사용자 계정을 삭제해야 합니다. 지침은 다음 TechNet 문서를 참조하세요. [사용자 계정 삭제.](https://go.microsoft.com/fwlink/p/?linkid=841808)
 
 ||
 |:-----|
-|**컴퓨터에서 Office 365를 삭제하고 싶나요? [구독 취소](../../commerce/subscriptions/cancel-your-subscription.md)로 이동하세요.**|
+|**컴퓨터에서 Microsoft 365을 (를) 삭제 하 시겠습니까? [구독 취소](../../commerce/subscriptions/cancel-your-subscription.md)로 이동 합니다.**|
    
 ## <a name="related-articles"></a>관련 문서
 

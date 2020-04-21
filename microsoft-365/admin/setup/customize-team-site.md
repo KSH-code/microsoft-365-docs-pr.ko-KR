@@ -22,16 +22,16 @@ search.appverid:
 - MOE150
 ms.assetid: 70a62f09-45ea-4968-8482-43cddfb8cc01
 description: 팀 사이트를 사용자 지정, 구성 및 관리 하는 방법을 알아봅니다.
-ms.openlocfilehash: b35064209f26ad8b312bdf486c1f9b9bcb1b3e58
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+ms.openlocfilehash: e3f2773e72a1b86cc3bae53ee6bbdbcb33d465b8
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43212212"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627621"
 ---
 # <a name="customize-your-team-site-for-file-storage-and-sharing"></a>파일 저장 및 공유를 위해 팀 사이트 사용자 지정
 
-직원이 몇 대 인 중소 기업이 있는 경우 파일 공유 및 온라인 공동 작업을 설정 하 고 촉진 하는 가장 좋은 방법 중 하나는 OneDrive 및 SharePoint 팀 사이트를 함께 사용 하는 것입니다. Office 365 그룹에 연결 된 팀 사이트를 만드는 것이 좋습니다. 채팅을 사용 하려는 경우 Microsoft 팀에서 팀을 만들어이 사이트를 만들 수 있습니다. 팀에 대 한 자세한 내용은 [비디오: Microsoft 팀 이란?](https://support.office.com/article/b98d533f-118e-4bae-bf44-3df2470c2b12.aspx)를 참조 하세요. 팀을 사용 하지 않으려는 경우 SharePoint 시작 페이지에서 팀 사이트를 만들 수 있습니다. 
+직원이 몇 대 인 중소 기업이 있는 경우 파일 공유 및 온라인 공동 작업을 설정 하 고 촉진 하는 가장 좋은 방법 중 하나는 OneDrive 및 SharePoint 팀 사이트를 함께 사용 하는 것입니다. Microsoft 365 그룹에 연결 된 팀 사이트를 만드는 것이 좋습니다. 채팅을 사용 하려는 경우 Microsoft 팀에서 팀을 만들어이 사이트를 만들 수 있습니다. 팀에 대 한 자세한 내용은 [비디오: Microsoft 팀 이란?](https://support.office.com/article/b98d533f-118e-4bae-bf44-3df2470c2b12.aspx)를 참조 하세요. 팀을 사용 하지 않으려는 경우 SharePoint 시작 페이지에서 팀 사이트를 만들 수 있습니다. 
   
 [SharePoint 팀 사이트란?](https://support.office.com/article/75545757-36c3-46a7-beed-0aaa74f0401e.aspx)
   
@@ -76,7 +76,7 @@ SharePoint에는 링크 목록, 일정, 연락처 또는 작업 등 사이트에
   
 많은 양의 데이터를 목록에 저장 하는 경우 [SharePoint에서 큰 목록 및 라이브러리 관리](https://support.office.com/article/B8588DAE-9387-48C2-9248-C24122F07C59.aspx)를 참조 하세요.
   
-동영상 보기 사이트에 일정을 추가 하려면 [Office 365에서 공유 일정 만들기](https://support.office.com/article/61B96006-70E2-4535-A34F-EE4FC772F798.aspx)를 참조 하세요.
+동영상 보기 사이트에 일정을 추가 하는 방법에 대 한 자세한 내용은 [Create a shared calendar](https://support.office.com/article/61B96006-70E2-4535-A34F-EE4FC772F798.aspx)를 참조 하십시오.
 
 ## <a name="organize-sites-into-hubs"></a>사이트를 허브로 구성
 
@@ -92,7 +92,7 @@ SharePoint에는 링크 목록, 일정, 연락처 또는 작업 등 사이트에
 
 저장소 및 구성이 시작 되는 동안 팀과 외부 클라이언트와 공유 하는 것도 중요 합니다. 다음은 사용자를 관리 하 고 데이터를 공유 하는 데 도움이 되는 항목에 대 한 링크입니다. 
   
-팀과 파일을 공유 하려면 [Office 365에서 SharePoint 파일 또는 폴더 공유](https://support.office.com/article/1fe37332-0f9a-4719-970e-d2578da4941c.aspx)를 참조 하세요.
+팀과 파일을 공유 하는 경우에는 [Microsoft 365에서 SharePoint 파일 또는 폴더 공유](https://support.office.com/article/1fe37332-0f9a-4719-970e-d2578da4941c.aspx)를 참조 하세요.
   
 팀 외부의 공유를 이해 하려면 [외부 공유 개요](/sharepoint/external-sharing-overview)를 참조 하세요.
   
@@ -102,7 +102,7 @@ SharePoint에는 링크 목록, 일정, 연락처 또는 작업 등 사이트에
   
 [그룹을 이해 하 고 관리](https://support.office.com/article/9c1037b7-de0b-41cd-b8f0-79a95aac854d.aspx)하는 그룹의 비디오를 봅니다. 
   
-Office 365 그룹에 사용자를 추가 하려면 [add users or bulk To office 365-Admin Help](../add-users/add-users.md)를 참조 하세요.
+Microsoft 365 그룹에 사용자를 추가 하려면 [add users or bulk To microsoft 365-Admin Help](../add-users/add-users.md)를 참조 하십시오.
   
 [설정 및 관리 액세스 요청](https://support.office.com/article/94B26E0B-2822-49D4-929A-8455698654B3.aspx)을 사용 하 여 액세스 요청을 처리 하는 방법을 알아봅니다.
   
@@ -110,11 +110,11 @@ Office 365 그룹에 사용자를 추가 하려면 [add users or bulk To office 
 
 - **태블릿 및 휴대폰에 Office 앱을 설정**합니다. 그렇게 해야 팀 사이트에 저장된 파일을 태블릿이나 휴대폰에서 편집할 수 있습니다. 태블릿 또는 휴대폰에 Office 앱을 설치 하지 않으면 팀 사이트에서 파일을 볼 수는 있지만 편집이 가능 하지는 않습니다. 
     
-  - [Office 365를 사용하여 Android에서 Office 설치 및 설정](https://support.office.com/article/cafe9d6f-8b0c-4b03-b20a-12438a82a22d.aspx)
+  - [Microsoft 365을 사용 하 여 Android에서 Office 설치 및 설정](https://support.office.com/article/cafe9d6f-8b0c-4b03-b20a-12438a82a22d.aspx)
     
-  - [Office 365를 사용하여 iPhone 또는 iPad에서 Office 설치 및 설정](https://support.office.com/article/9df6d10c-7281-4671-8666-6ca8e339b628.aspx)
+  - [Microsoft 365을 사용 하 여 iPhone 또는 iPad에서 Office 설치 및 설정](https://support.office.com/article/9df6d10c-7281-4671-8666-6ca8e339b628.aspx)
     
-  - [Office 365를 사용하여 Windows Phone에서 Office 설정](https://support.office.com/article/2b7c1b51-a717-45d6-90c9-ee1c1c5ee0b7.aspx)
+  - [Microsoft 365을 사용 하 여 Windows Phone에서 Office 설정](https://support.office.com/article/2b7c1b51-a717-45d6-90c9-ee1c1c5ee0b7.aspx)
     
 - 자세한 내용은 [OneDrive 사용을 참고](https://go.microsoft.com/fwlink/?LinkID=511458)하세요.
     

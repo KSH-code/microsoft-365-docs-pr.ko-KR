@@ -1,5 +1,5 @@
 ---
-title: 사용자가 Microsoft 365 Business에 접속하도록 지원
+title: Microsoft 365 Business Premium에 연결 하는 데 도움이 되는 도움말
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -27,21 +27,21 @@ search.appverid:
 - MOE150
 ms.assetid: f338e660-6483-4eef-acb9-53dee5bd4408
 description: Business Cloud Suite 설치가 완료 되 고 기본 장치 정책이 준비 되어 적용할 준비가 된 후 예상 되는 작업에 대해 알아봅니다.
-ms.openlocfilehash: 450d91686420c11bf696e70a993354c57f0602a3
-ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
+ms.openlocfilehash: 375a46fd946b42dc391ff6e4dabe98a435074377
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42560423"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627217"
 ---
-# <a name="help-users-connect-to-microsoft-365-business"></a>사용자가 Microsoft 365 Business에 접속하도록 지원
+# <a name="help-users-connect-to-microsoft-365-business-premium"></a>Microsoft 365 Business Premium에 연결 하는 데 도움이 되는 도움말
 
 설치를 완료 한 후에는 기본 장치 정책이 준비 되어 적용할 준비가 된 것입니다. 모바일 장치에서는 사용자가 Office 앱을 다운로드 합니다. 그러면 사용자가 회사 또는 학교 계정으로 로그인 할 때 정책이 적용 됩니다. Windows PC에 정책을 적용하려면 현재 위치 업그레이드와 같은 몇 가지 작업을 추가로 수행해야 합니다. 사용자가 설정 하 고 연결 하는 데 도움이 되는 다음 항목을 확인 하 고 공유 합니다.
   
-[Microsoft 365 Business 사용자를 위한 Windows 장치 설정](set-up-windows-devices.md)
+[Microsoft 365 Business Premium 사용자를 위한 Windows 장치 설정](set-up-windows-devices.md)
   
 [단계별 가이드를 사용하여 AutoPilot 장치 및 프로필 추가](add-autopilot-devices-and-profile.md)
   
-[Microsoft 365 Business 사용자를 위한 모바일 장치 설정](set-up-mobile-devices.md)
+[Microsoft 365 Business Premium 사용자를 위한 모바일 장치 설정](set-up-mobile-devices.md)
   
 

@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 Business에 대 한 위협 요소 보호 강화
+title: Microsoft 365 비즈니스에 대 한 위협 요소 보호 강화
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -21,18 +21,18 @@ search.appverid:
 - BCS160
 - MET150
 description: Office 365 Advanced Threat Protection을 설정 하 고 피싱, 맬웨어 및 기타 위협 으로부터 중요 한 데이터를 보호 합니다.
-ms.openlocfilehash: 17425de3f6e0022945899a559cf88575b6315a56
-ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
+ms.openlocfilehash: 2dd75b20bf203b9b8f0cdefb2459c45d1d0ccec1
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42561613"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627129"
 ---
 # <a name="increase-threat-protection"></a>위협 방지 강화
 
 이 문서는 Microsoft 365 구독의 보호를 향상 시켜 피싱, 맬웨어 및 기타 위협 으로부터 보호 하는 데 도움이 됩니다. 이러한 권장 사항은 법률 사무소 및 의료 보험 clinics 같은 보안 요구 사항이 증가 하는 조직에 적합 합니다.
 
-시작 하기 전에 Office 365 보안 점수를 확인 하세요. Office 365 안전한 점수는 일반 활동 및 보안 설정에 따라 Office 365 조직의 보안을 분석 하 고 점수를 할당 합니다. 먼저 현재 점수를 기록 합니다. 점수를 높이려면이 문서에서 권장 하는 작업을 완료 하세요. 목표는 최대 점수를 얻는 것이 아니라 사용자의 생산성에 부정적인 영향을 주지 않는 환경을 보호 하기 위한 기회를 얻기 위한 것입니다. 
+시작 하기 전에 Office 365 보안 점수를 확인 하세요. Office 365 안전한 점수는 정규 활동 및 보안 설정에 따라 조직의 보안을 분석 하 고 점수를 할당 합니다. 먼저 현재 점수를 기록 합니다. 점수를 높이려면이 문서에서 권장 하는 작업을 완료 하세요. 목표는 최대 점수를 얻는 것이 아니라 사용자의 생산성에 부정적인 영향을 주지 않는 환경을 보호 하기 위한 기회를 얻기 위한 것입니다. 
 
 자세한 내용은 [Microsoft 보안 점수](https://docs.microsoft.com/office365/securitycompliance/microsoft-secure-score)를 참조 하세요.
 
@@ -42,7 +42,7 @@ Office 365 또는 Microsoft 365 환경에는 맬웨어에 대 한 보호 기능�
   
 1. 으로 이동 [https://protection.office.com](https://protection.office.com) 하 고 관리자 계정 자격 증명으로 로그인 합니다. 
     
-2. Office 365 보안 &amp; 및 준수 센터의 왼쪽 탐색 창에 있는 **위협 관리**에서 **정책** \> **맬웨어 방지**를 선택 합니다.
+2. 보안 &amp; 및 준수 센터의 왼쪽 탐색 창에 있는 **위협 관리**에서 **정책** \> **맬웨어 방지**를 선택 합니다.
     
 3. 기본 정책을 두 번 클릭 하 여이 회사 차원의 정책을 편집 합니다.
     
@@ -57,7 +57,7 @@ Office 365 또는 Microsoft 365 환경에는 맬웨어에 대 한 보호 기능�
     
 자세한 내용은 [맬웨어 방지 보호](https://go.microsoft.com/fwlink/?linkid=2015692&amp;clcid=0x409)를 참조 하세요.
   
-## <a name="protect-against-ransomware"></a>랜 섬 웨어 로부터 보호
+## <a name="protect-against-ransomware"></a>랜섬웨어로부터 보호
 
 랜 섬 웨어는 파일 암호화 또는 컴퓨터 화면 잠금을 통해 데이터에 대 한 액세스를 제한 합니다. 그런 다음 일반적으로 데이터에 액세스 하기 위해 exchange에서 "ransom" (예를 들어, Bits 동전) 형식을 사용 하 여 victims에서 ort money를 요청 합니다. 
   
@@ -130,7 +130,7 @@ ATP 피싱 방지 정책을 만들려면 [이 간략 한 교육 비디오](https
   
 1. [https://protection.office.com](https://protection.office.com)으로 이동합니다. 
     
-2. Office 365 보안 &amp; 및 준수 센터의 왼쪽 탐색 창에 있는 **위협 관리**에서 **정책을**선택 합니다.
+2. 보안 &amp; 및 준수 센터의 왼쪽 탐색 창에 있는 **위협 관리**에서 **정책을**선택 합니다.
     
 3. **정책** 페이지에서 **ATP 피싱 방지**를 선택 합니다.
     
@@ -160,7 +160,7 @@ ATP 안전한 첨부 파일 정책을 만들려면 [이 짧은 비디오](https:
   
 1. [https://protection.office.com](https://protection.office.com)으로 이동 하 고 관리자 계정으로 로그인 합니다. 
     
-2. Office 365 보안 &amp; 및 준수 센터의 왼쪽 탐색 창에 있는 **위협 관리**에서 **정책을**선택 합니다.
+2. 보안 &amp; 및 준수 센터의 왼쪽 탐색 창에 있는 **위협 관리**에서 **정책을**선택 합니다.
     
 3. 정책 페이지에서 **ATP 안전한 첨부 파일**을 선택 합니다.
     
@@ -183,8 +183,6 @@ ATP 안전한 첨부 파일 정책을 만들려면 [이 짧은 비디오](https:
    
 자세한 내용은 [Set Up Office 365 ATP 피싱 방지 정책](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-anti-phishing-policies)를 참조 하세요.
   
-
-
 ## <a name="protect-against-phishing-attacks-with-atp-safe-links"></a>ATP 안전한 링크를 통한 피싱 공격 으로부터 보호
 
 해커는 전자 메일 이나 다른 파일의 링크에서 악성 웹 사이트를 숨기는 경우가 있습니다. Office 365 ATP 안전한 링크 (ATP 안전한 링크)는 Office 365 Advanced Threat Protection의 일부 이며, 전자 메일 메시지 및 Office 문서에서 웹 주소 (Url)를 클릭 하 여 확인할 시간을 제공 하 여 조직을 보호 하는 데 도움이 될 수 있습니다. 보호는 ATP 안전한 링크 정책을 통해 정의 됩니다.
@@ -199,7 +197,7 @@ ATP 안전한 링크를 설정 하려면 [이 간략 한 교육 비디오](https
   
 1. [https://protection.office.com](https://protection.office.com)으로 이동 하 고 관리자 계정으로 로그인 합니다. 
     
-2. Office 365 보안 &amp; 및 준수 센터의 왼쪽 탐색 창에 있는 **위협 관리**에서 **정책을**선택 합니다.
+2. 보안 &amp; 및 준수 센터의 왼쪽 탐색 창에 있는 **위협 관리**에서 **정책을**선택 합니다.
     
 3. 정책 페이지에서 **ATP 안전한 링크**를 선택 합니다.
     
@@ -207,7 +205,7 @@ ATP 안전한 링크를 설정 하려면 [이 간략 한 교육 비디오](https
   
 1. 안전한 링크 페이지의 **전체 조직에 적용 되는 정책**에서 **기본** 정책을 선택 합니다. 
     
-2. **전자 메일을 제외 하 고 콘텐츠에 적용 되는 설정**아래에서 **office 365 ProPlus, iOS 및 Android 용 office를 차례로**선택 합니다.
+2. **전자 메일을 제외 하 고 콘텐츠에 적용 되는 설정**아래에서 **Microsoft 365 앱 For enterprise, iOS 및 Android 용 Office를**선택 합니다.
     
 3. **저장**을 선택합니다. 
     

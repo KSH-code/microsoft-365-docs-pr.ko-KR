@@ -20,14 +20,14 @@ search.appverid:
 - BEA160
 - GEA150
 ms.assetid: 1272bad0-4bd4-4796-8005-67d6fb3afc5a
-description: FAQ에서 질문에 대 한 답변을 찾아 Office 365의 도메인에 대해 자세히 알아보세요.
+description: FAQ에서 질문에 대 한 대답을 찾아 도메인에 대해 자세히 알아보세요.
 ms.custom: okr_smb
-ms.openlocfilehash: 5d5b921494ba59b78dec53047a31215a8e755f4c
-ms.sourcegitcommit: 4988934836eee45c890b9bdd5ef73590656c78ba
+ms.openlocfilehash: 4ece90306f37b6f07e34ce93423a76f084d50b6f
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43540870"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627597"
 ---
 # <a name="domains-faq"></a>도메인 FAQ
 
@@ -51,7 +51,7 @@ ms.locfileid: "43540870"
     
 ## <a name="how-can-i-validate-spf-records-for-my-domain"></a>내 도메인에 대 한 SPF 레코드를 확인 하려면 어떻게 하나요?
 
-**SPF에 대해서는 TXT 레코드를**하나만 만들거나 만들어야 합니다. SPF 레코드가 이미 있는 경우 새 Office 365 값을 만드는 대신 새로 만들어 해당 레코드에 추가 해야 합니다. Office 365 전자 메일에 대 한 SPF 레코드를 추가 하거나 업데이트 한 후 다음 도구 중 하나를 사용 하 여 해당 구문이 올바른지 확인 해야 합니다. 
+**SPF에 대해서는 TXT 레코드를**하나만 만들거나 만들어야 합니다. SPF 레코드가 이미 있는 경우 새 Office 365 값을 만드는 대신 새로 만들어 해당 레코드에 추가 해야 합니다. Microsoft 전자 메일에 대 한 SPF 레코드를 추가 하거나 업데이트 한 후 다음 도구 중 하나를 사용 하 여 구문이 올바른지 확인 해야 합니다. 
   
 - [SPF 레코드 테스트 도구](http://www.kitterman.com/spf/validate.html)
     
@@ -63,7 +63,7 @@ ms.locfileid: "43540870"
 
 Office 365의 DNS 관리에 대 한 두 가지 옵션이 있습니다.
   
-1. NS (이름 서버) 레코드를 변경 하면 전자 메일에 대 한 MX 레코드를 설정 하는 것 처럼 Office 365에서 모든 서비스 관련 레코드를 처리 합니다. **는**
+1. NS (이름 서버) 레코드를 변경 하 고 Microsoft는 전자 메일에 대 한 MX 레코드를 설정 하는 것과 같은 모든 서비스 관련 레코드를 관리 합니다. **는**
     
 2. DNS 호스트에서 전자 메일 및 기타 Office 365 서비스에 대 한 DNS 레코드를 직접 추가 합니다. **(전문가 전용)**
     
@@ -87,7 +87,7 @@ Office 365의 DNS 관리에 대 한 두 가지 옵션이 있습니다.
  
 #### <a name="disadvantages"></a>단점
 Office 365 서비스에 대 한 DNS 레코드를 직접 설정 해야 합니다 (GoDaddy 도메인을 갖고 있지 않은 경우). 
--  현재 DNS 호스트가 Office 365에 필요한 레코드 종류 중 일부를 지원 하지 않는 경우 일부 Office 365 기능을 사용할 수 없으며 다른 DNS 호스트로 전환 해야 할 수 있습니다. 
+-  현재 DNS 호스트가 Microsoft 365에 필요한 레코드 종류 중 일부를 지원 하지 않는 경우 일부 기능을 사용할 수 없으며 다른 DNS 호스트로 전환 해야 할 수 있습니다. 
 - Office 365에서 DNS 레코드에 대 한 요구 사항을 변경 하거나 새 서비스를 추가 하는 경우 DNS 호스트에서 직접 업데이트를 수행 해야 합니다. 
    
 ## <a name="what-is-a-domain-name"></a>도메인 이름 이란?
@@ -333,9 +333,9 @@ Office 365 서비스에 대 한 DNS 레코드를 직접 설정 해야 합니다 
 
 ## <a name="why-do-i-have-an-onmicrosoftcom-domain"></a>"Onmicrosoft.com" 도메인을 보유 하는 이유는 무엇 인가요?
 
-Office 365에서는 서비스에 등록할 때 _contoso.onmicrosoft.com_와 같은 도메인을 만듭니다. 등록할 때 만드는 사용자 ID에는 _alan\@contoso.onmicrosoft.com_와 같은 도메인이 포함 됩니다. 
+Office 365에서는 서비스에 등록할 때 *contoso.onmicrosoft.com*와 같은 도메인을 만듭니다. 등록할 때 만드는 사용자 ID에는 *alan@contoso.onmicrosoft.com*와 같은 도메인이 포함 됩니다. 
   
- __전자 메일을 _\@alan contoso.com_:__ 으로 지정 하려면 [도메인을 구입](../get-help-with-domains/buy-a-domain-name.md) 하거나 사용자 및 도메인을 이미 소유 하 고 있는 경우 [Office 365에 추가](add-domain.md) 의 단계를 수행 하세요. 
+ **전자 메일을 *\@alan contoso.com*:** 으로 지정 하려면 [도메인을 구입](../get-help-with-domains/buy-a-domain-name.md) 하거나 사용자 및 도메인을 이미 소유 하 고 있는 경우 [Office 365에 추가](add-domain.md) 의 단계를 수행 하세요. 
   
 - **등록 후에는 onmicrosoft 도메인의 이름을 바꿀 수 없습니다.** 예를 들어 선택한 초기 도메인이 fourthcoffee.onmicrosoft.com 인 경우 fabrikam.onmicrosoft.com로 변경할 수 없습니다. 다른 onmicrosoft.com 도메인을 사용 하려면 Office 365에서 새 구독을 시작 해야 합니다. 
     
@@ -348,12 +348,11 @@ Office 365에서는 서비스에 등록할 때 _contoso.onmicrosoft.com_와 같�
 ::: moniker-end
 
 ::: moniker range="o365-germany"
-
 ## <a name="why-do-i-have-an-onmicrosoftde-domain"></a>"Onmicrosoft.de" 도메인을 보유 하는 이유는 무엇 인가요?
 
-Office 365에서는 서비스에 등록할 때 *contoso.onmicrosoft.de*와 같은 도메인을 만듭니다. 등록할 때 만드는 사용자 ID에는 "alan@contoso.onmicrosoft.de"와 같은 도메인이 포함 됩니다. 
+Office 365에서는 서비스에 등록할 때 *contoso.onmicrosoft.de*와 같은 도메인을 만듭니다. 등록할 때 만드는 사용자 ID에는 *alan@contoso.onmicrosoft.de*와 같은 도메인이 포함 됩니다. 
   
-전자 메일을 "alan@contoso.de"와 같이 표시 하려면 [도메인을 구입](../get-help-with-domains/buy-a-domain-name.md) 하거나 [사용자 및 도메인을 Office 365에 추가](add-domain.md) (이미 소유 하 고 있는 경우)에 설명 된 단계를 수행 하세요. 
+ **전자 메일을 *alan@contoso.de*같이 표시 하려면** [도메인을 구입](../get-help-with-domains/buy-a-domain-name.md) 하거나 [사용자와 도메인을 이미 소유한 경우 Office 365에 추가](add-domain.md) 의 단계를 따르세요. 
   
 - **등록 후에는 onmicrosoft 도메인의 이름을 바꿀 수 없습니다.** 예를 들어 선택한 초기 도메인이 fourthcoffee.onmicrosoft.de 인 경우 fabrikam.onmicrosoft.de로 변경할 수 없습니다. 다른 onmicrosoft.de 도메인을 사용 하려면 Office 365에서 새 구독을 시작 해야 합니다. 
     
@@ -489,11 +488,11 @@ Office 365에서는 서비스에 등록할 때 *contoso.onmicrosoft.de*와 같�
         
     2. 다음 테스트를 수행 합니다.
         
-    3. 로컬 Office 365 전자 메일을 테스트 합니다. 예를 들어 사용자 B에 게 전자 메일을 보냅니다. 이 전자 메일을 즉시 배달 해야 합니다. 이 시나리오에서는 Office 365에서 사서함을 로컬으로 인식 하기 때문에 메시지가 원래 서버에서 사용자 B의 사서함으로 라우팅되지 않습니다.
+    3. 로컬 Microsoft 전자 메일을 테스트 합니다. 예를 들어 사용자 B에 게 전자 메일을 보냅니다. 이 전자 메일을 즉시 배달 해야 합니다. 이 시나리오에서는 Office 365에서 사서함을 로컬으로 인식 하기 때문에 메시지가 원래 서버에서 사용자 B의 사서함으로 라우팅되지 않습니다.
         
     4. 다른 전자 메일 시스템에 있는 사람에 대 한 전자 메일을 테스트 합니다. 예를 들어 사용자 C에 게 전자 메일을 보냅니다. 이 전자 메일은 원래 메일 서버에서 사용자 C의 사서함으로 배달 됩니다.
         
-    5. 외부 계정에서 또는 다른 전자 메일 시스템의 직원 전자 메일 계정에서 다른 전자 메일 시스템에 대 한 전달이 제대로 설정 되었는지 확인 합니다. 예를 들어 사용자 C의 원래 서버 계정 또는 Hotmail 계정에서 사용자에 게 전자 메일을 보내 사용자 A의 Office 365 사서함에 도착 하는지 확인 합니다.
+    5. 외부 계정에서 또는 다른 전자 메일 시스템의 직원 전자 메일 계정에서 다른 전자 메일 시스템에 대 한 전달이 제대로 설정 되었는지 확인 합니다. 예를 들어 사용자 C의 origninal 서버 계정 또는 Hotmail 계정에서 사용자 A에 게 전자 메일을 보내 사용자 A의 Office 365 사서함에 도착 하는지 확인 합니다.
         
 9. 사서함 콘텐츠 이동
     

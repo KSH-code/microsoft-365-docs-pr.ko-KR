@@ -1,5 +1,5 @@
 ---
-title: Office 365 파일 저장 및 공유 설정
+title: 파일 저장 및 공유 설정
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -27,24 +27,24 @@ search.appverid:
 - ODB160
 ms.assetid: 7aa9cdc8-2245-4218-81ee-86fa7c35f1de
 description: 파일 저장 및 공유를 위해 OneDrive 및 팀 사이트를 사용 하는 방법을 알아봅니다.
-ms.openlocfilehash: 6494207518f919a3d984be7e7932740d82e9ea11
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+ms.openlocfilehash: 56057bc33adaf92a415c443bfb7bf89c10f8d646
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43209739"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627561"
 ---
-# <a name="set-up-office-365-file-storage-and-sharing"></a>Office 365 파일 저장 및 공유 설정
+# <a name="set-up-file-storage-and-sharing"></a>파일 저장 및 공유 설정
 
 비즈니스를 위해 파일 저장 및 공유를 설정 하는 가장 좋은 방법 중 하나는 OneDrive와 팀 사이트를 함께 사용 하는 것입니다. 이 방법은 직원 수가 적은 중소기업에 이상적입니다.
 
-Office 365에서 파일을 저장할 위치에 대 한 간단한 비디오를 시청 하세요.<br><br>
+Microsoft 365에서 파일을 저장할 위치에 대 한 간단한 비디오를 시청 하세요.<br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FTHX] 
 
 이 비디오가 도움이 된 경우에는 [소규모 비즈니스 및 Microsoft 365를 처음 사용하는 사용자들을 위한 완전한 교육 시리즈](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)를 참조하세요.
 
-## <a name="where-you-can-store-documents-in-office-365"></a>Office 365에서 문서를 저장할 수 있는 위치
+## <a name="where-you-can-store-documents-in-microsoft-365"></a>Microsoft 365에서 문서를 저장할 수 있는 위치
 
 - OneDrive는 가끔씩 파일을 공유 하는 용도로 사용 하도록 설계 되었습니다. 
 
@@ -52,7 +52,7 @@ Office 365에서 파일을 저장할 위치에 대 한 간단한 비디오를 �
 
 OneDrive 및 팀 사이트는 모두 사용자와 직원을 위한 원격 액세스를 제공 합니다.
   
-![Office 365 제품에서 OneDrive 또는 팀 사이트를 사용 하는 방법을 보여 주는 다이어그램](../../media/7493131e-665f-4dbd-9a60-f5612aea7e42.png)
+![Microsoft 365 제품에서 OneDrive 또는 팀 사이트를 사용 하는 방법을 보여 주는 다이어그램](../../media/7493131e-665f-4dbd-9a60-f5612aea7e42.png)
   
 OneDrive 및 팀 사이트를 함께 사용할 때 각 위치에 저장할 항목에 대 한 권장 사항은 다음과 같습니다.
   
@@ -60,7 +60,7 @@ OneDrive 및 팀 사이트를 함께 사용할 때 각 위치에 저장할 항�
 |:-----|:-----|:-----|
 |**저장 위치** <br/> |**용도** <br/> |**저장할 콘텐츠** <br/> |
 |**OneDrive** <br/> |OneDrive에 콘텐츠를 저장 하는 것은 컴퓨터에 파일을 저장 하는 것과 같습니다. 어떤 사용자도 쉽게 액세스할 수 없습니다.  <br/> 자세한 내용은 [비즈니스용 OneDrive 란?](https://support.office.com/article/187f90af-056f-47c0-9656-cc0ddca7fdc2.aspx) 를 참조 하세요. <br/> |다른 팀 구성원은 정기적으로 액세스하거나 공동 작업을 할 필요가 없는 업무용 파일.  <br/> |
-|**SharePoint 팀 사이트** <br/> |간. Office 365 그룹 (예: Microsoft 365 관리 센터, Outlook 또는 Microsoft 팀에서 팀을 만드는 경우)을 만들 때 해당 그룹에 대해 SharePoint 팀 사이트를 만듭니다. 마찬가지로 SharePoint 홈 페이지 또는 새 SharePoint 관리 센터에서 새 SharePoint 팀 사이트를 만들면 Office 365 그룹도 만들어집니다. 자세한 내용은 [sharepoint 팀 사이트 란?](https://support.office.com/article/75545757-36c3-46a7-beed-0aaa74f0401e.aspx) 및 [sharepoint Online에서 팀 사이트 만들기](https://support.office.com/article/ef10c1e7-15f3-42a3-98aa-b5972711777d.aspx)를 참조 하세요.  <br/> |공유 소유권이 있는 파일입니다. 조직의 각 작업 단위에 대해 팀 사이트를 구분 하는 것이 좋습니다. 예를 들어 직원 및 재무 문서를 소규모 팀에 공개 하는 것을 방지 하려면 별도의 팀 사이트를 만들어야 합니다.  <br/> |
+|**SharePoint 팀 사이트** <br/> |간. Microsoft 365 그룹 (예: Microsoft 365 관리 센터, Outlook 또는 Microsoft 팀에서 팀을 만드는 경우)을 만들 때 해당 그룹에 대해 SharePoint 팀 사이트를 만듭니다. 마찬가지로 SharePoint 홈 페이지 또는 새 SharePoint 관리 센터에서 새 SharePoint 팀 사이트를 만들면 Microsoft 365 그룹도 만들어집니다. 자세한 내용은 [sharepoint 팀 사이트 란?](https://support.office.com/article/75545757-36c3-46a7-beed-0aaa74f0401e.aspx) 및 [sharepoint Online에서 팀 사이트 만들기](https://support.office.com/article/ef10c1e7-15f3-42a3-98aa-b5972711777d.aspx)를 참조 하세요.  <br/> |공유 소유권이 있는 파일입니다. 조직의 각 작업 단위에 대해 팀 사이트를 구분 하는 것이 좋습니다. 예를 들어 직원 및 재무 문서를 소규모 팀에 공개 하는 것을 방지 하려면 별도의 팀 사이트를 만들어야 합니다.  <br/> |
 
 > [!NOTE]
 > 또한 SharePoint에는 비즈니스를 위해 사용할 수 있는 다른 유형의 사이트가 있습니다. 인트라넷에서 [통신 사이트](https://support.office.com/article/7fb44b20-a72f-4d2c-9173-fc8f59ba50eb.aspx) 를 사용 하 여 광범위 한 대상에 대 한 정보를 게시할 수 있습니다. 그리고 [허브 사이트](https://support.office.com/article/fe26ae84-14b7-45b6-a6d1-948b3966427f.aspx) 를 사용 하 여 인트라넷에서 사이트를 연결할 수 있습니다.
@@ -69,13 +69,13 @@ OneDrive 및 팀 사이트를 함께 사용할 때 각 위치에 저장할 항�
 
 ### <a name="team-members-can-store-their-own-files-in-onedrive"></a>팀 구성원은 OneDrive에 자신의 파일을 저장할 수 있습니다.
 
-회사에서 Office 365 라이선스가 할당 되 고 SharePoint Online이 선택 된 각 사용자는 OneDrive 클라우드 저장소를 가져옵니다. 여기에는 모든 장치에서 액세스 하기 위해 비즈니스 관련 파일을 저장할 수 있으며, 해당 사용자만 사용할 수 있습니다. 이 저장소에는 직원이 제안서 초안이나 모임 메모, 배포할 데모 스크립트 등을 저장할 수 있습니다.
+비즈니스에서 Microsoft 365 라이선스가 할당 되 고 SharePoint Online이 선택 된 각 사용자는 OneDrive 클라우드 저장소를 가져옵니다. 여기에는 모든 장치에서 액세스 하기 위해 비즈니스 관련 파일을 저장할 수 있으며, 해당 사용자만 사용할 수 있습니다. 이 저장소에는 직원이 제안서 초안이나 모임 메모, 배포할 데모 스크립트 등을 저장할 수 있습니다.
   
 또한 직원은 OneDrive 파일 및 폴더를 공유할 수 있습니다. 직원이 퇴사 하거나 회사를 떠나는 경우 다른 사용자가 OneDrive에 저장 된 공유 파일에 액세스할 수 있습니다.
   
 팀의 각 사용자가 OneDrive를 설정 하 고 파일을 공유할 수 있는 방법은 다음과 같습니다.
 
-1. <a href="https://portal.office.com/ " target="_blank">Office 365 포털로</a>이동한 후 사용자 이름 및 암호를 사용 하 여 로그인 합니다.
+1. <a href="https://portal.office.com/ " target="_blank">Microsoft 365 포털로</a>이동한 후 사용자 이름 및 암호를 사용 하 여 로그인 합니다.
 
 2. 앱 시작 관리자에서 **OneDrive**를 선택 합니다.
 
@@ -107,7 +107,7 @@ OneDrive 및 팀 사이트를 함께 사용할 때 각 위치에 저장할 항�
   
 1. 팀 사이트 홈 페이지의 왼쪽 탐색 메뉴에서 **문서** 를 선택 합니다. 그러면 **문서 라이브러리**로 이동됩니다.
   
-2. 여전히 Office 365에 로그인 되어 있는 동안 작업 표시줄이 나 다른 위치에서 Windows **파일 탐색기** 를 엽니다. 팀 사이트에 업로드하려는 파일로 이동합니다.
+2. 여전히 Microsoft 365에 로그인 되어 있는 동안 작업 표시줄이 나 다른 위치에서 Windows **파일 탐색기** 를 엽니다. 팀 사이트에 업로드하려는 파일로 이동합니다.
 
 3. 팀 사이트에 업로드 하려는 파일을 선택한 다음 **문서 라이브러리로**끌어 놓습니다.
   
@@ -166,7 +166,7 @@ OneDrive 또는 SharePoint 팀 사이트를 최대한 활용 하기 위한 몇 �
 
 OneDrive에 파일을 저장 하는 경우 사용자가 다른 사람과 공유 하지 않으면 사용자만 액세스할 수 있습니다. 파일을 공유할 때는 전달할 수 있는 링크를 만들도록 선택 하거나 특정 사용자만 공유 하도록 선택할 수 있습니다. OneDrive에서 별도의 폴더를 공용, 개인, 개별 프로젝트 같은 다양한 용도로 만들 수도 있습니다. 각 폴더는 다양한 사용자나 그룹과 공유하거나 아무와도 공유하지 않을 수 있습니다.
   
-공유에 대 한 자세한 내용은 [Office 365에서 파일 및 폴더 공유](https://support.office.com/article/72f26d6c-bf9e-432c-8b96-e3c2437f5b65.aspx)도 참조 하세요.
+공유에 대 한 자세한 내용은 [공유 파일 및 폴더를 Microsoft 365를](https://support.office.com/article/72f26d6c-bf9e-432c-8b96-e3c2437f5b65.aspx)참조 하세요.
   
 ### <a name="track-how-much-space-you-have-left"></a>남아 있는 공간 추적
 
@@ -178,7 +178,7 @@ OneDrive에 남아 있는 저장소 공간의 크기를 확인 하려면 [비즈
   
 ### <a name="enable-or-disable-third-party-storage-services"></a>타사 저장소 서비스를 사용 하거나 사용 하지 않도록 설정
 
-Office 365에서 사용자에 게 타사 저장소를 사용 하도록 설정 하 여 OneDrive 및 팀 사이트 외에도 Dropbox와 같은 서비스를 사용 하 여 문서를 저장 하 고 공유할 수 있습니다. 이렇게 하면 사용자가 이미 사용 중이거나 비즈니스 프로젝트에 선호하는 서비스를 제공하는 데 효과적입니다. 조직의 사용자가 타사 서비스에서 파일을 열 수 없도록 하려면 다음 단계를 수행 하 여이 기능을 해제 합니다.
+Microsoft 365에서 사용자에 게 타사 저장소를 사용 하도록 설정 하 여 OneDrive 및 팀 사이트 외에도 Dropbox와 같은 서비스를 사용 하 여 문서를 저장 하 고 공유할 수 있습니다. 이렇게 하면 사용자가 이미 사용 중이거나 비즈니스 프로젝트에 선호하는 서비스를 제공하는 데 효과적입니다. 조직의 사용자가 타사 서비스에서 파일을 열 수 없도록 하려면 다음 단계를 수행 하 여이 기능을 해제 합니다.
   
 > [!IMPORTANT]
 > 타사 저장소는 기본적으로 사용 하도록 설정 되어 있으므로 사용자가 사용할 수 없도록 하려면 다음 단계를 즉시 수행 해야 합니다.
@@ -197,8 +197,8 @@ Office 365에서 사용자에 게 타사 저장소를 사용 하도록 설정 �
 
 - **태블릿과 휴대폰에 Office 앱을 설치합니다**. OneDrive 및 태블릿에서 저장 된 파일을 태블릿 이나 휴대폰에서 **편집** 하려면이 작업을 수행 해야 합니다. 태블릿 또는 휴대폰에 Office 앱을 설치 하지 않으면 파일을 볼 수만 있고 편집할 수도 없습니다.
 
-  - [Office 365를 사용하여 Android에서 Office 설치 및 설정](https://support.office.com/article/cafe9d6f-8b0c-4b03-b20a-12438a82a22d.aspx)
+  - [Microsoft 365을 사용 하 여 Android에서 Office 설치 및 설정](https://support.office.com/article/cafe9d6f-8b0c-4b03-b20a-12438a82a22d.aspx)
 
-  - [Office 365를 사용하여 iPhone 또는 iPad에서 Office 설치 및 설정](https://support.office.com/article/9df6d10c-7281-4671-8666-6ca8e339b628.aspx)
+  - [Microsoft 365을 사용 하 여 iPhone 또는 iPad에서 Office 설치 및 설정](https://support.office.com/article/9df6d10c-7281-4671-8666-6ca8e339b628.aspx)
 
-  - [Office 365를 사용하여 Windows Phone에서 Office 설정](https://support.office.com/article/2b7c1b51-a717-45d6-90c9-ee1c1c5ee0b7.aspx)
+  - [Microsoft 365을 사용 하 여 Windows Phone에서 Office 설정](https://support.office.com/article/2b7c1b51-a717-45d6-90c9-ee1c1c5ee0b7.aspx)

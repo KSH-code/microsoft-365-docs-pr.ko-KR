@@ -24,12 +24,12 @@ search.appverid:
 - MOE150
 ms.assetid: be5b6d90-3344-4c5e-bf40-5733eb845beb
 description: Windows AutoPilot를 사용 하 여 비즈니스에 대 한 새 Windows 10 장치를 설정 하 여 직원 들이 사용할 수 있도록 준비 하는 방법을 알아봅니다.
-ms.openlocfilehash: 3b1cf297914862aaa74fdf9a8bb7290d00f73b1d
-ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
+ms.openlocfilehash: 98a2bfc721ce86c81ebd89e8f41603e619b31546
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42561583"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627497"
 ---
 # <a name="use-the-step-by-step-guide-to-add-autopilot-devices-and-profile"></a>단계별 가이드를 사용하여 AutoPilot 장치 및 프로필 추가
 
@@ -81,7 +81,7 @@ Windows AutoPilot를 사용 하 여 비즈니스에 대 한 **새** windows 10 �
     
     - 회사 브랜드의 로그인 환경을 만듭니다.
     
-    - 장치를 Azure Active Directory 계정에 연결 하 고 Microsoft 365 Business에서 관리 하도록 자동으로 등록 합니다.
+    - 장치를 Azure Active Directory 계정에 연결 하 고 Microsoft 365 Business Premium에서 관리할 수 있도록 자동으로 등록 합니다.
     
     자세한 내용은 [About AutoPilot Profile settings](autopilot-profile-settings.md)를 참조 하십시오. 
     

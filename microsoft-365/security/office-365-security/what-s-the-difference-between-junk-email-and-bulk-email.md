@@ -16,16 +16,16 @@ ms.assetid: 8079f193-1b40-4081-9e5d-d0e50dfbcc59
 ms.collection:
 - M365-security-compliance
 description: 이 항목에서는 정크 메일 (스팸) 및 대량 전자 메일의 차이점 및 Office 365의 관련 컨트롤에 대해 설명 합니다.
-ms.openlocfilehash: 41dedd02febc40b73dc585961487f89bbc6db54a
-ms.sourcegitcommit: c876d58b34454f211b50ae5d06f193c1a1e5c4ff
+ms.openlocfilehash: 15ca00b007ef0b8470e1b30608a695a90bd638b2
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/11/2020
-ms.locfileid: "43230959"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43630836"
 ---
 # <a name="whats-the-difference-between-junk-email-and-bulk-email"></a>정크 메일과 대량 전자 메일의 차이점
 
-Exchange online 사서함이 없는 Office 365 고객 EOP (독립 실행형 Exchange Online Protection) 고객에 게 "정크 메일과 대량 전자 메일의 차이점은 무엇 인가요?" 라는 메시지가 표시 될 수도 있습니다. 이 항목에서는 차이점에 대해 설명 하 고 EOP에서 사용할 수 있는 컨트롤에 대해 설명 합니다.
+Exchange online 사서함이 없는 Microsoft 365 고객에 게 사서함이 있는 경우 "정크 메일 및 대량 전자 메일의 차이점은 무엇 인가요?" 라는 메시지가 표시 되는 경우가 있습니다. 이 항목에서는 차이점에 대해 설명 하 고 EOP에서 사용할 수 있는 컨트롤에 대해 설명 합니다.
 
 - **정크 메일** 은 원치 않는, 전체적으로 원치 않는 메시지 (올바르게 식별 된 경우)입니다. 기본적으로 EOP은 원본 전자 메일 서버의 신뢰도에 따라 스팸을 거부 합니다. 메시지가 원본 IP 검사를 통과 하면 스팸 필터링으로 전송 됩니다. 메시지가 스팸 필터링에 의해 스팸으로 분류 되는 경우 메시지는 기본적으로 받는 사람에 게 배달 되 고 정크 메일 폴더로 이동 됩니다.
 

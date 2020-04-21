@@ -13,19 +13,19 @@ ms.collection:
 - M365-security-compliance
 - remotework
 description: '랜 섬 웨어, 피싱 및 악의적 첨부 파일을 포함 하 여 사이버 위협 으로부터 비즈니스 전자 메일 및 데이터를 보호 합니다. '
-ms.openlocfilehash: d42760f0dbf38b72fe530a5670f3515bf3ba2f94
-ms.sourcegitcommit: 7bb340f6b47378bcd1c6e770dc975931470bbc26
+ms.openlocfilehash: 0730f4df4f6e9e72f024b35729909df309826625
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/10/2020
-ms.locfileid: "43225956"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43630800"
 ---
 # <a name="top-12-tasks-for-security-teams-to-support-working-from-home"></a>집에서 작업을 지원 하기 위한 보안 팀을 위한 상위 12 개 작업
 
 [Microsoft](https://www.microsoft.com/microsoft-365/blog/2020/03/10/staying-productive-while-working-remotely-with-microsoft-teams/) 와의 동시에 사용자가 주로 홈 기반 직원을 지 원하는 경우에는 조직이 가능한 한 안전 하 게 작동 하는지 확인 하는 데 도움이 될 것입니다. 이 문서에서는 보안 팀이 가장 중요 한 보안 기능을 최대한 신속 하 게 구현 하기 위한 작업을 우선적으로 설명 합니다. 
 
 중소 규모 조직에서 Microsoft의 비즈니스 계획 중 하나를 사용 하는 경우에는 대신 다음 리소스를 참조 하세요.
-- [Office 365 및 Microsoft 365 Business 플랜을 보호하는 10가지 주요 방법](../admin/security-and-compliance/secure-your-business-data.md) 
+- [Office 365 및 Microsoft 365 비즈니스 계획을 보호 하는 10 가지 주요 방법](../admin/security-and-compliance/secure-your-business-data.md) 
 - [캠페인에 대 한 Microsoft 365](https://docs.microsoft.com/microsoft-365/campaigns/?view=o365-worldwide) (Microsoft 365 Business에 대 한 권장 보안 구성 포함)
 
   
@@ -36,7 +36,7 @@ ms.locfileid: "43225956"
 ||**작업**| 모든 Office 365 Enterprise 요금제|**Microsoft 365 E3** |**Microsoft 365 E5**|
 |:-----|:-----|:-----|:-----|:-----|
 |1       |[Azure MFA (Multi-factor Authentication) 사용](#1-enable-azure-multi-factor-authentication-mfa)   |   ![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)  |![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)   | ![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)      | 
-|2      | [Office 365에서 위협 으로부터 보호](#2-protect-against-threats-in-office-365) |![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png) |  ![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)       | ![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)       | 
+|2      | [위협으로부터 보호](#2-protect-against-threats) |![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png) |  ![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)       | ![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)       | 
 |3       |  [Office 365 Advanced Threat Protection 구성](#3-configure-office-365-advanced-threat-protection)  |   |      |  ![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)     | 
 |4       | [Azure ATP (Advanced Threat Protection) 구성](#4-configure-azure-advanced-threat-protection)   |   |      |  ![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)     | 
 |5      |   [Microsoft Advanced Threat Protection 설정](#5-turn-on-microsoft-advanced-threat-protection)  |  |      | ![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)      | 
@@ -45,7 +45,7 @@ ms.locfileid: "43225956"
 |8       |  [Pc를 장치 관리에 등록 하 고 준수 Pc 필요](#8-enroll-pcs-into-device-management-and-require-compliant-pcs)   |  | ![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)        | ![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)        | 
 |9       | [클라우드 연결용 네트워크 최적화](#9-optimize-your-network-for-cloud-connectivity)  |  ![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png) |![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)      |![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)        | 
 |10    | [사용자 교육](#10-train-users) |    ![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png) |![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)      |![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)      | 
-|11  |[Microsoft Cloud App Security 시작](#11-get-started-with-microsoft-cloud-app-security) |   |![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)   |![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)   |
+|11  |[Microsoft Cloud App Security 시작](#11-get-started-with-microsoft-cloud-app-security) |![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)   |![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)   |![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)   |
 |12  |[위협 모니터링 및 작업 수행](#12-monitor-for-threats-and-take-action) |![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)   |![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)  |![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)  |
 | | | |
 
@@ -65,16 +65,16 @@ ms.locfileid: "43225956"
 
 |계획  |권장 사항  |
 |---------|---------|
-|Office 365 계획 (Azure AD P1 또는 P2 제외)     |[AZURE AD에서 보안 기본값을 사용 하도록 설정](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults)합니다. Azure AD의 보안 기본값에는 사용자 및 관리자를 위한 MFA가 포함 됩니다.   |
+|Microsoft 365 계획 (Azure AD P1 또는 P2 제외)     |[AZURE AD에서 보안 기본값을 사용 하도록 설정](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults)합니다. Azure AD의 보안 기본값에는 사용자 및 관리자를 위한 MFA가 포함 됩니다.   |
 |Microsoft 365 E3 (Azure AD P1 포함)     | [일반적인 조건부 액세스 정책을](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-policy-common) 사용 하 여 다음 정책을 구성 합니다. <br>- [관리자를 위해 MFA 필요](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-admin-mfa) <br>- [모든 사용자에 대해 MFA 요구](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-all-users-mfa) <br> - [레거시 인증 차단](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-block-legacy)       |
 |Microsoft 365 E5 (Azure AD P2 포함)     | Azure AD Id 보호를 활용 하려면 다음 두 가지 정책을 만들어 Microsoft의 [권장 조건부 액세스 및 관련 정책 집합](../enterprise/identity-access-policies.md) 을 구현 하기 시작 합니다.<br> - [로그인 위험이 보통 또는 높을 때 MFA 필요](../enterprise/identity-access-policies.md#require-mfa-based-on-sign-in-risk) <br>- [최신 인증을 지원 하지 않는 클라이언트 차단](../enterprise/identity-access-policies.md#block-clients-that-dont-support-modern-authentication)<br>- [높은 위험 사용자가 암호를 변경 해야 함](../enterprise/identity-access-policies.md#high-risk-users-must-change-password)       |
 | | |
 
 
   
-## <a name="2-protect-against-threats-in-office-365"></a>2: Office 365에서 위협 으로부터 보호
+## <a name="2-protect-against-threats"></a>2: 위협 으로부터 보호
 
-모든 Office 365 계획에는 다양 한 위협 방지 기능이 포함 되어 있습니다. 이 기능에 대 한 Bumping을 보호 하려면 몇 분 정도 걸립니다.
+모든 Microsoft 365 계획에는 다양 한 위협 방지 기능이 포함 되어 있습니다. 이 기능에 대 한 Bumping을 보호 하려면 몇 분 정도 걸립니다.
 - 맬웨어 방지 보호 기능
 - 악의적인 Url 및 파일 로부터의 보호
 - 피싱 방지 보호 기능
@@ -181,11 +181,11 @@ VPN 집중 장치, 중앙 네트워크 송신 장비 (예: 프록시 및 데이�
 
 
 자세한 내용은 문서에서 다음 리소스를 참조 하세요.
-- [개요: VPN 분할 tunnelling을 사용 하 여 원격 사용자에 대 한 Office 365 연결 최적화](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
+- [개요: VPN 분할 tunnelling을 사용 하 여 원격 사용자에 대 한 연결 최적화](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
 - [Office 365 VPN 분할 터널링 구현](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-implement-split-tunnel)
 
 이 항목에 대 한 최신 블로그 문서:
-- [원격 직원에 대 한 Office 365 트래픽을 빠르게 최적화 하 & 인프라의 부하를 줄이려면 어떻게 해야 합니까?](https://techcommunity.microsoft.com/t5/office-365-blog/how-to-quickly-optimize-office-365-traffic-for-remote-staff-amp/ba-p/1214571#)
+- [원격 직원의 트래픽을 빠르게 최적화 하 & 인프라에 대 한 부하 절감](https://techcommunity.microsoft.com/t5/office-365-blog/how-to-quickly-optimize-office-365-traffic-for-remote-staff-amp/ba-p/1214571#)
 - [보안 전문가 및 IT가 오늘날의 고유한 원격 작업 시나리오에서 최신 보안 제어 기능을 구현 하는 다른 방법](https://www.microsoft.com/security/blog/2020/03/26/alternative-security-professionals-it-achieve-modern-security-controls-todays-unique-remote-work-scenarios/)
 
 
@@ -201,7 +201,7 @@ Microsoft 365에서는 조직에서 사용자에 게 알릴 수 있도록 다음
 |---------|---------|
 |Microsoft 365     |[사용자 지정 가능한 학습 경로](https://docs.microsoft.com/office365/customlearning/) <p>이러한 리소스를 통해 조직의 최종 사용자에 게 교육을 추가 하는 데 도움이 될 수 있습니다.        |
 |Microsoft 365 보안 |[학습 모듈: 기본 제공 되는 Microsoft 365의 지능형 보안을 사용 하 여 조직 보호](https://docs.microsoft.com/learn/modules/security-with-microsoft-365) <p>이 모듈을 사용 하 여 Microsoft 365 보안 기능이 함께 작동 하는 방식에 대해 설명 하 고 이러한 보안 기능의 이점을 구체화할 수 있습니다. |
-|다단계 인증     | [2 단계 인증: 추가 확인 페이지 란?](https://docs.microsoft.com/azure/active-directory/user-help/multi-factor-authentication-end-user-first-time) <p>이 문서에서는 최종 사용자가 다단계 인증을 이해 하 고 조직에서이를 사용 하는 이유를 파악 하는 데 도움이 됩니다.    |
+|Multi-Factor Authentication     | [2 단계 인증: 추가 확인 페이지 란?](https://docs.microsoft.com/azure/active-directory/user-help/multi-factor-authentication-end-user-first-time) <p>이 문서에서는 최종 사용자가 다단계 인증을 이해 하 고 조직에서이를 사용 하는 이유를 파악 하는 데 도움이 됩니다.    |
 | | |
 
 이 지침 외에도, 사용자가 [해커 및 맬웨어로부터 계정 및 장치를 보호](https://support.office.com/article/066d6216-a56b-4f90-9af3-b3a1e9a327d6.aspx)하는이 문서에서 설명 하는 작업을 수행 하는 것이 좋습니다. 이러한 작업은 다음과 같습니다.

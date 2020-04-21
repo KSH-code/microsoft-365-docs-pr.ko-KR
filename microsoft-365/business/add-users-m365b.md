@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 Business에 더 많은 사용자 추가
+title: 더 많은 사용자 추가
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -25,15 +25,15 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 96153102-1db1-4df8-bca5-38cea80b65ce
-description: Microsoft 365 Business에서 새 사용자를 쉽게 추가 하 고, 해당 장치를 보호 하 고, 역할을 할당 하는 단계를 알아봅니다.
-ms.openlocfilehash: 8181254aa56345e99e648c59474f4d7f8fa94990
-ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
+description: Microsoft 365 Business Premium에서 새 사용자를 쉽게 추가 하 고, 해당 장치를 보호 하 고, 역할을 할당 하는 단계를 알아봅니다.
+ms.openlocfilehash: d57f7470d53a6c80e04872726c634f67f091fb0d
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42561563"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627477"
 ---
-# <a name="add-more-users-to-microsoft-365-business"></a>Microsoft 365 Business에 더 많은 사용자 추가
+# <a name="add-more-users"></a>더 많은 사용자 추가
 
 ## <a name="add-new-users"></a>새 사용자 추가
 
@@ -54,7 +54,7 @@ ms.locfileid: "42561563"
       
     ![Enter user information in the New user card](../media/f04d39ca-48be-4868-8330-8552a4754c8b.png)
       
-    제품 라이선스 섹션에서 **Microsoft 365 Business** 제품 라이선스 설정을 켜기로 설정 **합니다.**
+    제품 라이선스 섹션에서 **Microsoft 365 Business Premium** 제품 라이선스 설정을 켜기로 설정 **합니다.**
       
     ![Set the license setting to On position](../media/7404f7f7-93bc-44a3-9ffb-4208b5b17402.png)
   

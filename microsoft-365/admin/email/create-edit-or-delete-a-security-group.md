@@ -19,27 +19,27 @@ search.appverid:
 - MOE150
 ms.assetid: 55c96b32-e086-4c9e-948b-a018b44510cb
 description: 보안 그룹을 만들거나 편집 하거나 삭제 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: f51c21261a83e1a0034a67f9f1580dd297a3d583
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 689adb46bdec4d4f669482af6b5467fdcf63482c
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42362283"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43628882"
 ---
 # <a name="create-edit-or-delete-a-security-group-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터에서 보안 그룹 만들기, 편집 또는 삭제
 
-Office 365 **그룹** 페이지에서 SharePoint ONLINE 및 CRM Online에 동일한 사용 권한을 할당 하는 데 사용할 수 있는 사용자 계정 그룹을 만들 수 있습니다. 예를 들어 관리자는 특정 사용자 그룹에 게 SharePoint 사이트에 대 한 액세스 권한을 부여 하는 보안 그룹을 만들 수 있습니다. 전역 및 사용자 관리 관리자만 보안 그룹을 만들거나 편집 하거나 삭제할 수 있습니다. 관리자 역할에 대 한 자세한 내용은 [관리자 역할 할당](../add-users/assign-admin-roles.md)을 참조 하십시오. 
+Microsoft 365 **Groups** 페이지에서는 SharePoint ONLINE 및 CRM online에 동일한 사용 권한을 할당 하는 데 사용할 수 있는 사용자 계정 그룹을 만들 수 있습니다. 예를 들어 관리자는 특정 사용자 그룹에 게 SharePoint 사이트에 대 한 액세스 권한을 부여 하는 보안 그룹을 만들 수 있습니다. 전역 및 사용자 관리 관리자만 보안 그룹을 만들거나 편집 하거나 삭제할 수 있습니다. 관리자 역할에 대 한 자세한 내용은 [관리자 역할 할당](../add-users/assign-admin-roles.md)을 참조 하십시오. 
   
 전자 메일을 보내거나 사용자 그룹에 사용 권한을 할당하는 데 사용할 수 있는 [Exchange Online 및 SharePoint Online의 그룹](#groups-in-exchange-online-and-sharepoint-online), 그리고 사이트 및 사이트 모음에 대한 사용자 권한 및 액세스 권한을 부여하는 [Exchange Online 및 SharePoint Online의 그룹](#groups-in-exchange-online-and-sharepoint-online)도 있습니다. 
   
 > [!IMPORTANT]
->  사이트 사서함을 사용할 계획이신가요? 개별적으로 추가되지 않고 보안 그룹을 통해 SharePoint 사이트에 추가되는 모든 사용자는 SharePoint를 통해서만 사이트 사서함을 사용할 수 있습니다. 이러한 사용자는 Outlook에서 사이트 사서함에 액세스할 수 없습니다. 자세한 내용은 [사이트 사서함 대신 Office 365 그룹 사용](https://support.office.com/article/737d6b1f-67cc-41fe-8db8-f2d09dd1673b.aspx)을 참조 하십시오. 
+>  사이트 사서함을 사용할 계획이신가요? 개별적으로 추가되지 않고 보안 그룹을 통해 SharePoint 사이트에 추가되는 모든 사용자는 SharePoint를 통해서만 사이트 사서함을 사용할 수 있습니다. 이러한 사용자는 Outlook에서 사이트 사서함에 액세스할 수 없습니다. 자세한 내용은 [사이트 사서함 대신 Microsoft 365 그룹 사용](https://support.office.com/article/737d6b1f-67cc-41fe-8db8-f2d09dd1673b.aspx)을 참조 하십시오. 
   
 ## <a name="manage-security-groups-in-the-admin-center"></a>관리 센터에서 보안 그룹 관리
 
 ### <a name="add-a-security-group"></a>보안 그룹 추가
 
-1. 관리 센터에서 **그룹** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">그룹</a> 페이지로 이동 합니다.
+1. Microsoft 365 관리 센터에서 **그룹** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">그룹</a> 페이지로 이동 합니다.
   
 2. **그룹** 페이지에서 **그룹 추가**를 선택 합니다.
     
@@ -118,14 +118,14 @@ Office 365 **그룹** 페이지에서 SharePoint ONLINE 및 CRM Online에 동일
     
 3. 보안 그룹 창에서 **이름** 또는 **구성원** 탭 옆에 있는 **편집** 을 선택 하 여 그룹 세부 정보 또는 구성원을 편집 합니다.
     
-4. 변경 작업을 수행한 후 **닫기** **저장** \> 을 선택 합니다.
+4. 변경 작업을 수행한 후 **닫기** **저장** > 을 선택 합니다.
 
 ::: moniker-end
 
 
 ### <a name="delete-a-security-group"></a>보안 그룹 삭제
 
-1. 관리 센터에서 **그룹** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">그룹</a> 페이지로 이동 합니다.
+1. 관리 센터에서 **그룹** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">그룹</a> 페이지로 이동 합니다.
     
 2. **그룹** 페이지에서 그룹의 이름을 선택 합니다. 
     
@@ -137,13 +137,13 @@ Office 365 **그룹** 페이지에서 SharePoint ONLINE 및 CRM Online에 동일
 
 전자 메일을 모두 동시에 보낼 수 있도록 사용자 그룹을 만들려는 경우에는 exchange 관리 센터에서 **관리** \> **exchange** \> **받는 사람** \> **그룹**으로 이동 하 여이 작업을 수행할 수 있습니다. 그런 다음 **새로 만들기**![](../../media/328ffb57-5f31-430a-b653-4a6b8e76d338.png)를 선택 하 고 만들려는 그룹의 유형을 선택 합니다. 
   
-- **메일 그룹**: 사용자 그룹에 메시지를 배포하는 데 사용됩니다. *메일 사용이 가능한 메일 그룹이*라고도 하며, Office 365에서 *메일*그룹입니다. 자세한 내용은 [메일 그룹 관리](https://technet.microsoft.com/library/bb124513.aspx)를 참조하세요.
+- **메일 그룹**: 사용자 그룹에 메시지를 배포하는 데 사용됩니다. *메일 사용이 가능한 메일 그룹*또는 *메일*그룹이 라고도 합니다. 자세한 내용은 [메일 그룹 관리](https://technet.microsoft.com/library/bb124513.aspx)를 참조하세요.
     
 - **보안 그룹**: 사용자 그룹에 메시지를 배포하거나 리소스에 대한 액세스 권한을 부여하는 데 사용할 수 있습니다. 이 그룹은 *메일 사용이 가능한 보안 그룹*이 라고도 합니다. 자세한 내용은 [메일 사용이 가능한 보안 그룹 관리](https://technet.microsoft.com/library/bb123521.aspx)를 참조하십시오.
     
 - **동적 메일 그룹**: 정의하는 필터 및 조건을 기반으로 메시지를 보낼 때마다 받는 사람 목록이 다시 계산되는 메일 그룹 유형입니다. 자세한 내용은 [동적 메일 그룹 관리](https://technet.microsoft.com/library/bb123722.aspx)를 참조 하세요.
     
-Exchange 관리 센터에서 메일 그룹 및 메일 사용이 가능한 보안 그룹을 만들고 나면 해당 이름 및 사용자 목록이 Office 365 **보안 그룹** 페이지에 표시됩니다. 두 위치에서 모두 이러한 그룹을 삭제할 수 있지만 편집은 Exchange 관리 센터에서만 가능합니다. Office 365 **보안 그룹** 페이지에는 동적 메일 그룹이 표시되지 않습니다. 
+Exchange 관리 센터에서 메일 그룹 및 메일 사용이 가능한 보안 그룹을 만든 후에는 해당 이름 및 사용자 목록이 **보안 그룹** 페이지에 표시 됩니다. 두 위치에서 모두 이러한 그룹을 삭제할 수 있지만 편집은 Exchange 관리 센터에서만 가능합니다. 동적 메일 그룹은 **보안 그룹** 페이지에 표시 되지 않습니다. 
   
  SharePoint 그룹은 사이트 모음을 만들 때 자동으로 만들어집니다. 기본 그룹은 SharePoint의 기본 사용 권한 수준(SharePoint 역할이라고도 함)을 통해 사용자 권한 및 액세스 권한을 부여합니다. 자세한 내용은 [Sharepoint Online의 기본 sharepoint 그룹](https://support.office.com/article/13bb2b6b-dd8c-447e-b71b-0e4bb9efe1d3.aspx)을 참조 하세요.
   
@@ -157,5 +157,5 @@ Exchange 관리 센터에서 메일 그룹 및 메일 사용이 가능한 보안
   
 ## <a name="can-i-send-email-to-a-security-group"></a>보안 그룹에 전자 메일을 보낼 수 있나요?
 
-예. 그러나 전자 메일 및 공동 작업을 위해 그룹을 사용 하려는 경우에는 대신 [Office 365 그룹을 만드는](../create-groups/create-groups.md) 것이 좋습니다. 
+예. 그러나 전자 메일 및 공동 작업을 위해 그룹을 사용 하려는 경우에는 대신 [Microsoft 365 그룹을 만드는](../create-groups/create-groups.md) 것이 좋습니다. 
   

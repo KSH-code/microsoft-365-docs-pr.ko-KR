@@ -15,12 +15,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: 1507a88a37591c43ce612f3c18d946403a85f41f
-ms.sourcegitcommit: e695bcfc69203da5d3d96f3d6a891664a0e27ae2
+ms.openlocfilehash: b48f106e500673da0858aa4e190462dd3d01fad1
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43106187"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43630824"
 ---
 # <a name="whats-new-in-office-365-atp"></a>Office 365 ATP의 새로운 기능
 
@@ -44,9 +44,9 @@ ms.locfileid: "43106187"
     - 고급 필터 (포함 하지 않는 고급 필터링 옵션, 포함 하지 않음 등)
     - 자세한 시간 필터 (일, 시간, 30 분) 
 
-- **문제** 위젯은 이제 **동작 센터** 위젯입니다. 보안 위젯을 보려면 Office 365 보안 & 준수 센터에서 **위협 관리** > **검토**로 이동 합니다.
+- **문제** 위젯은 이제 **동작 센터** 위젯입니다. 보안 위젯을 보려면 보안 & 준수 센터에서 **위협 관리** > **검토**로 이동 합니다.
 
-- [Office 365의 안전 문서](https://docs.microsoft.com/microsoft-365/security/office-365-security/safe-docs) **(미리 보기)**
+- [Microsoft 365의 안전한 문서](https://docs.microsoft.com/microsoft-365/security/office-365-security/safe-docs) **(미리 보기)**
 
 ## <a name="december-2019"></a>2019년 12월
 
@@ -60,7 +60,7 @@ ms.locfileid: "43106187"
 
 ## <a name="september-2019"></a>2019년 9월
 
-- [Office 365의 자동화 된 조사 및 응답 기능](automated-investigation-response-office.md) 사용 (OFFICE 365 ATP 계획 2)
+- [자동화 된 조사 및 응답 기능](automated-investigation-response-office.md) 사용 (OFFICE 365 ATP 계획 2)
 
 - Office [365 관리 활동 API를 사용 하는 office 365 atp 자동 조사 및 응답 이벤트와 통합](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-schema#office-365-advanced-threat-protection-and-threat-investigation-and-response-schema) (OFFICE 365 ATP 계획 2)
 

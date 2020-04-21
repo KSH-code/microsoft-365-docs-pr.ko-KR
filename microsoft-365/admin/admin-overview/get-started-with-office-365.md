@@ -1,5 +1,5 @@
 ---
-title: Office 365 비즈니스 에디션 시작
+title: Microsoft 365 for business 시작
 f1.keywords:
 - NOCSH
 ms.author: twerner
@@ -21,17 +21,17 @@ search.appverid:
 - MOE150
 - GEA150
 ms.assetid: d6466f0d-5d13-464a-adcb-00906ae87029
-description: 컴퓨터, 휴대폰, 태블릿에서 Office 365를 설정하고 사용하는 방법에 대해 알아보세요.
-ms.openlocfilehash: 695bf6ef3acd6d9f9c4b1a5252172258b0af5a2c
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+description: 컴퓨터, 휴대폰 및 태블릿에서 Microsoft 365을 설정 하 고 사용 하는 방법에 대해 알아봅니다.
+ms.openlocfilehash: fd52b12ab008e2c8d7b7a4476ae2212e01e1bb10
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42245628"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43623921"
 ---
 # <a name="get-started"></a>시작하기
 
-조직에 Office 365이 최근에 제공 되었으며, 이제 전자 메일 읽기, 문서 공유 등을 시작할 수 있도록 사용 해야 합니다. 컴퓨터, 휴대폰, 태블릿에서 Office 365를 설정하고 사용하는 방법에 대해 알아보세요.
+조직에서 최근에 Microsoft 365를 제공 했으며, 이제이를 사용 하 여 전자 메일 읽기, 문서 공유 등을 시작할 수 있도록 해야 합니다. 컴퓨터, 휴대폰 및 태블릿에서 Microsoft 365을 설정 하 고 사용 하는 방법에 대해 알아봅니다.
   
 ::: moniker range="o365-worldwide"
 
@@ -66,5 +66,5 @@ ms.locfileid: "42245628"
     
 ## <a name="related-articles"></a>관련 문서
 
-[Office 365 비즈니스 에디션 설정 - 관리자 도움말](../setup/setup.md)
+[비즈니스에 대 한 Microsoft 365 설정-관리자 도움말](../setup/setup.md)
 

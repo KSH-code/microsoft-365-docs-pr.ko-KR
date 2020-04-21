@@ -15,16 +15,16 @@ ms.assetid: b68df621-0a5f-4824-8abc-41e0c4fd1398
 ms.collection:
 - M365-security-compliance
 description: 관리자는 Exchange Online 및 Exchange Online Protection에서 IPv6 원본의 익명 인바운드 전자 메일에 대 한 지원을 구성 하는 방법을 알 수 있습니다.
-ms.openlocfilehash: 414c10f3387138ed7e62f2de4e8549e45d128d2e
-ms.sourcegitcommit: 256184cf731c1851b04a07dd7d59ecf020d02635
+ms.openlocfilehash: 86de431f8f46af1c5ddae8ecc91f326c6e3280e6
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43131522"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631220"
 ---
-# <a name="add-support-for-anonymous-inbound-email-over-ipv6-in-office-365"></a>Office 365에서 i p v 6을 통한 익명 인바운드 전자 메일 지원 추가
+# <a name="add-support-for-anonymous-inbound-email-over-ipv6-in-microsoft-365"></a>Microsoft 365에서 i p v 6을 통한 익명 인바운드 전자 메일 지원 추가
 
-Exchange online 사서함을 사용 하는 Office 365 조직 및 EOP (독립 실행형 Exchange Online Protection) 조직에서는 IPv6을 통한 익명 인바운드 전자 메일을 지원 합니다. 원본 IPv6 전자 메일 서버는 다음 요구 사항을 모두 충족 해야 합니다.
+Exchange online 사서함 및 독립 실행형 EOP (Exchange Online Protection)가 포함 된 Microsoft 365 조직에서 온-IPv6을 통한 익명 인바운드 전자 메일을 지원 합니다. 원본 IPv6 전자 메일 서버는 다음 요구 사항을 모두 충족 해야 합니다.
 
 - 원본 IPv6 주소에는 대상에서 IPv6 주소 로부터 도메인 이름을 찾을 수 있도록 하는 유효한 PTR (역방향 DNS 조회) 레코드가 있어야 합니다.
 

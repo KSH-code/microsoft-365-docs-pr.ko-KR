@@ -20,12 +20,12 @@ search.appverid:
 ms.assetid: e64ceac2-ae62-4d29-a9ee-6aab9870ae2b
 ROBOTS: NOINDEX
 description: 관리 센터에서 연락처를 만들고 전체 주소 목록을 관리 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 44bd7319a369da84b8855c5d640b2797a173689e
-ms.sourcegitcommit: fe4beef350ef9f39b1098755cff46fa2b8e7dc4d
+ms.openlocfilehash: fe402fd5d90147caa7c6ee2f3632749255c672b3
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42857394"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627923"
 ---
 # <a name="quick-help-contacts"></a>빠른 도움말: 연락처
 
@@ -45,7 +45,7 @@ ms.locfileid: "42857394"
   
 ## <a name="how-does-everyone-get-to-the-contacts-i-created-in-the-admin-center"></a>관리 센터에서 내가 만든 연락처를 모든 사용자가 액세스하려면 어떻게 하나요?
 
- Office 365에서 **사용자** 로 이동 하 고 **디렉터리** 를 확장 한 다음 **모든 연락처**를 선택 하면 됩니다. 거기서 각 연락처와 해당 정보를 볼 수 있습니다.
+ Microsoft 365, **디렉터리** 를 차례로 확장 하 고 **모든 연락처**를 선택 하 여 **사용자** 로 이동할 수 있습니다. 거기서 각 연락처와 해당 정보를 볼 수 있습니다.
   
 ## <a name="can-anyone-create-and-edit-these-organizational-contacts"></a>이러한 조직 연락처는 누구나 만들고 편집할 수 있나요?
 
@@ -53,7 +53,7 @@ ms.locfileid: "42857394"
   
 ## <a name="can-i-use-this-to-manage-my-business-clients"></a>이를 사용하여 내 비즈니스 고객을 관리할 수 있나요?
 
-원하는 경우 Office 365 연락처를 사용할 수 있지만 여기에는 제한이 있습니다. [연락처를 관리하는 다른 방법](ways-to-manage-contacts.md)에 대해 알아보세요.
+Microsoft 365 연락처를 원하는 대로 사용할 수 있지만 여기에는 제한이 있습니다. [연락처를 관리하는 다른 방법](ways-to-manage-contacts.md)에 대해 알아보세요.
   
 ## <a name="how-do-i-bulk-import-organizational-contacts"></a>조직 연락처를 어떻게 대량으로 가져오나요?
 
@@ -61,4 +61,4 @@ Windows PowerShell과 CSV(쉼표로 구분 된 값) 파일을 사용하여 [Bulk
   
 ## <a name="what-if-my-question-still-hasnt-been-answered"></a>여전히 질문에 대한 답변을 받지 못한 경우 어떻게 하나요?
 
-[관리자 도움말](../admin-home.yml) 의 나머지 부분을 방문하거나 아래에서 피드백을 제공해 주세요.
+[관리자 도움말](../admin-home.md) 의 나머지 부분을 방문하거나 아래에서 피드백을 제공해 주세요.

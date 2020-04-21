@@ -1,5 +1,5 @@
 ---
-title: 조직의 Office 365 테마 사용자 지정
+title: 조직의 테마 사용자 지정
 f1.keywords:
 - CSH
 ms.author: twerner
@@ -18,19 +18,19 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 8275da91-7a48-4591-94ab-3123a3f79530
-description: 'Office 365의 기본 테마를 변경 하 고 회사 로고나 색과 일치 하도록 사용자 지정 하는 방법을 알아봅니다. '
-ms.openlocfilehash: c553e5254246bd81d435b4ebc2be2e975dd80a9d
-ms.sourcegitcommit: 2859c82b30ae9cbd3a3e4bcdebd65f18444f1a9e
+description: 'Microsoft 365의 기본 테마를 변경 하 고 회사 로고나 색과 일치 하도록 사용자 지정 하는 방법을 알아봅니다. '
+ms.openlocfilehash: 6a689c6da967bf3f62699bb9df287f7c5fc42e6a
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42826335"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627609"
 ---
-# <a name="customize-the-office-365-theme-for-your-organization"></a>조직의 Office 365 테마 사용자 지정
+# <a name="customize-the-theme-for-your-organization"></a>조직의 테마 사용자 지정
 
-Microsoft 365 관리 센터에서 테마를 사용자 지정 하는 방법에 대해 알아봅니다. 비즈니스용 Office 365 구독 관리자는 조직의 모든 사용자에 대해 위쪽 탐색 모음에 표시 되는 기본 테마를 변경할 수 있습니다. 회사 로고를 추가 하 고 나머지 브랜드와 일치 하도록 색을 변경할 수 있습니다. 사용자가 로고를 선택할 때 탐색할 대상 링크를 추가할 수도 있습니다. Office 365에서 기본 테마 및 사용자 지정 테마 결과를 확인할 수 있습니다.
+Microsoft 365 관리 센터에서 테마를 사용자 지정 하는 방법에 대해 알아봅니다. Microsoft 365 비즈니스 에디션 구독의 관리자는 조직의 모든 사용자에 대해 위쪽 탐색 모음에 나타나는 기본 테마를 변경할 수 있습니다. 회사 로고를 추가 하 고 나머지 브랜드와 일치 하도록 색을 변경할 수 있습니다. 사용자가 로고를 선택할 때 탐색할 대상 링크를 추가할 수도 있습니다. Microsoft 365의 기본 테마 및 사용자 지정 테마 결과를 여기에서 확인할 수 있습니다.
   
-![기본 Office 365 테마 및 사용자 지정 Office 365 테마](../../media/e2cbc922-b424-4683-8c5c-fdbcbd0ce844.png)
+![기본 Microsoft 365 테마 및 사용자 지정 Microsoft 365 테마](../../media/e2cbc922-b424-4683-8c5c-fdbcbd0ce844.png)
   
 ## <a name="customize-your-theme-in-the-admin-center"></a>관리 센터에서 테마 사용자 지정
 
@@ -64,7 +64,7 @@ Microsoft 365 관리 센터에서 테마를 사용자 지정 하는 방법에 �
     
 4. **변경 내용 저장**을 선택합니다.
     
-관리 센터에서 새 테마를 즉시 확인할 수 있으며 잠시 후에 Outlook, SharePoint, [iOS 용 sharepoint 모바일 앱](https://support.office.com/en-us/article/SharePoint-mobile-app-for-iOS-339402ce-16bb-4c97-9475-0c5375ccef7a), [Android 용 sharepoint 모바일 앱](https://support.office.com/en-us/article/SharePoint-mobile-app-for-Android-d875654b-fb0a-4dbe-a17a-a676cf936284)의 페이지를 포함 하 여 Office 365 전체에서 해당 테마가 표시 됩니다. 관리 센터에서 테마 변경 내용을 사용자 지정 하는 방법의 예제를 보려면 다음 그래픽을 참조 하십시오.
+관리 센터에서 새 테마를 즉시 확인할 수 있으며 잠시 후에 Outlook, SharePoint, [iOS 용 sharepoint 모바일 앱](https://support.office.com/en-us/article/SharePoint-mobile-app-for-iOS-339402ce-16bb-4c97-9475-0c5375ccef7a)및 [Android 용 sharepoint 모바일 앱](https://support.office.com/en-us/article/SharePoint-mobile-app-for-Android-d875654b-fb0a-4dbe-a17a-a676cf936284)의 페이지를 포함 하 여 Microsoft 365 전체에서 해당 테마가 표시 됩니다. 관리 센터에서 테마 변경 내용을 사용자 지정 하는 방법의 예제를 보려면 다음 그래픽을 참조 하십시오.
 
 ![m365-관리-테 넌 트-개념-개념적](../../media/m365-admin-tenant-theme-conceptual.png)
 
@@ -80,7 +80,7 @@ Microsoft 365 관리 센터에서 테마를 사용자 지정 하는 방법에 �
   
 텍스트, 아이콘, 단추 색 및 배경색 간의 권장 명암비는 4.5:1입니다.
 
-다음은 조직에 시각적으로 매력적인 사용자 지정 Office 365 테마를 빠르게 설정 하는 데 도움이 되는 간단한 순서도입니다.
+다음은 조직에 시각적으로 매력적인 사용자 지정 Microsoft 365 테마를 빠르게 설정 하는 데 도움이 되는 간단한 순서도입니다.
   - 다채로운 버전의 로고를 사용 하려고 합니다.
     - 다음 설정을 권장 합니다.
       - **로고 이미지**: 조직의 다채로운 로고

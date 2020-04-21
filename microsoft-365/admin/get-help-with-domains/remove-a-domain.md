@@ -1,5 +1,5 @@
 ---
-title: Office 365에서 도메인 제거
+title: 도메인 제거
 f1.keywords:
 - NOCSH
 ms.author: pebaum
@@ -20,21 +20,21 @@ search.appverid:
 - MOE150
 - GEA150
 ms.assetid: f09696b2-8c29-4588-a08b-b333da19810c
-description: Office 365에서 이전 도메인을 제거 하 고 사용자 및 그룹을 다른 도메인으로 이동 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 621b50384b39a21bc0bf5256841c703b3ee0f74a
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+description: Microsoft 365에서 이전 도메인을 제거 하 고 사용자 및 그룹을 다른 도메인으로 이동 하는 방법에 대해 알아봅니다.
+ms.openlocfilehash: 21b2b17e5cab022f67c71c0d3858f8a03b45899b
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43210371"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43628437"
 ---
-# <a name="remove-a-domain-from-office-365"></a>Office 365에서 도메인 제거
+# <a name="remove-a-domain"></a>도메인 제거
 
 참가자: [![Peter Baumgartner](../../media/e70dc696-c5f8-4717-a48b-9087431503e7.png)](https://go.microsoft.com/fwlink/p/?linkid=847121)
   
- **원하는 정보를 찾지 못한 경우 [도메인 질문과 대답을 확인](../setup/domains-faq.md)** 하세요. 
+ **원하는 정보는 찾지 못한 경우 [도메인 질문과 대답을 확인](../setup/domains-faq.md)** 하세요. 
   
-다른 Office 365 구독 요금제에 도메인을 추가하려는 이유로 도메인을 제거하고 싶으신가요? 아니면 단지 구독을 취소하고 싶으신가요? [ 또는 구독을 변경 ](../../commerce/subscriptions/switch-to-a-different-plan.md)하거나 [구독을 취소](../../commerce/subscriptions/cancel-your-subscription.md)할 수 있습니다.
+다른 Microsoft 365 구독 계획에 추가 하려고 하기 때문에 도메인을 제거 하 고 계십니까? 아니면 단지 구독을 취소하고 싶으신가요? [ 또는 구독을 변경 ](../../commerce/subscriptions/switch-to-a-different-plan.md)하거나 [구독을 취소](../../commerce/subscriptions/cancel-your-subscription.md)할 수 있습니다.
   
 ### <a name="step-1-move-users-to-another-domain"></a>1 단계: 사용자를 다른 도메인으로 이동
 
@@ -210,7 +210,7 @@ PowerShell을 사용하여 사용자를 다른 도메인으로 이동할 수도 
 
 ## <a name="how-long-does-it-take-for-a-domain-to-be-removed"></a>도메인을 제거하는 데 걸리는 시간은 얼마인가요?
 
-Office 365이 보안 그룹, 메일 그룹, 사용자 및 Office 365 그룹과 같은 많은 위치에서 참조 되지 않는 경우 도메인을 제거 하는 데 5 분 정도 걸릴 수 있습니다. 도메인을 사용하는 참조가 많으면 도메인을 제거하는 데 몇 시간(하루)이 걸릴 수 있습니다.
+Microsoft 365이 보안 그룹, 메일 그룹, 사용자 및 Microsoft 365 그룹과 같은 많은 위치에서 참조 되지 않는 경우 도메인을 제거 하는 데에는 5 분 정도 걸릴 수 있습니다. 도메인을 사용하는 참조가 많으면 도메인을 제거하는 데 몇 시간(하루)이 걸릴 수 있습니다.
   
 수백 또는 수천 명의 사용자가 있는 경우 PowerShell을 사용하여 모든 사용자에 대해 쿼리한 다음 사용자를 다른 도메인으로 이동합니다. 그러지 않으면 UI에서 몇 명의 사용자가 누락될 수 있으며, 이 경우 도메인을 제거하기 위해 이동하면 도메인을 제거할 수 없으며 이유를 알지 못하게 됩니다. 자세한 내용은 [Set-MsolUserPrincipalName](https://docs.microsoft.com/powershell/module/msonline/set-msoluserprincipalname?view=azureadps-1.0)을 참조하세요. 기본 도메인을 설정하려면 [Set-MsolDomain](https://docs.microsoft.com/powershell/module/msonline/set-msoldomain?view=azureadps-1.0)을 사용하세요.
   
@@ -231,6 +231,6 @@ Office 365이 보안 그룹, 메일 그룹, 사용자 및 Office 365 그룹과 �
 
 [Office 365 도메인에 대 한 도움말 보기](get-help-with-domains.md)
 
-[다른 Office 365 비즈니스 에디션 계획으로 전환](../../commerce/subscriptions/switch-to-a-different-plan.md)
+[다른 Microsoft 365 for business 요금제로 전환](../../commerce/subscriptions/switch-to-a-different-plan.md)
 
 [구독 취소](../../commerce/subscriptions/cancel-your-subscription.md)

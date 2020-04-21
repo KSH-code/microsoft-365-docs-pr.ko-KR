@@ -1,5 +1,5 @@
 ---
-title: Office 365로 전자 메일 및 연락처 마이그레이션
+title: Microsoft 365로 전자 메일 및 연락처 마이그레이션
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -25,25 +25,25 @@ search.appverid:
 - MOL140
 - MOW150
 ms.assetid: a3e3bddb-582e-4133-8670-e61b9f58627e
-description: 'Gmail 또는 다른 전자 메일 공급자에서 Office 365으로 연락처, 일정, 전자 메일을 가져오는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 6decee3fd45d11ed1e71e71e0cf7191ccec6aa3d
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+description: 'Gmail 또는 다른 전자 메일 공급자에서 Microsoft 365로 연락처, 일정, 전자 메일을 가져오는 방법에 대해 알아봅니다. '
+ms.openlocfilehash: ff81eed73a4bf5d7e58316e61212fd799de6d11c
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43212188"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627585"
 ---
-# <a name="migrate-email-and-contacts-to-office-365"></a>Office 365로 전자 메일 및 연락처 마이그레이션
+# <a name="migrate-email-and-contacts-to-microsoft-365"></a>Microsoft 365로 전자 메일 및 연락처 마이그레이션
 
-Gmail 또는 다른 전자 메일 공급자에서 Office 365 전자 메일을 가져오거나 복사 합니다.
+Gmail 또는 다른 전자 메일 공급자에서 Microsoft 365으로 전자 메일을 가져오거나 복사 합니다.
   
- **이에 대 한 도움이 필요 하십니까?**  [Office 365 비즈니스 에디션 지원에 문의](../contact-support-for-business-products.md) 하세요. 
+ **이에 대 한 도움이 필요 하십니까?**  [Microsoft 365에 문의 하 여 비즈니스 지원을 받을](../contact-support-for-business-products.md) 수 있습니다. 
   
-이 작업을 위해 데스크톱에 설치 된 Outlook 버전을 사용 해야 합니다. Outlook은 대부분의 Office 365 [계획](https://go.microsoft.com/fwlink/p/?LinkId=723731)에 포함 되어 있습니다.
+이 작업을 위해 데스크톱에 설치 된 Outlook 버전을 사용 해야 합니다. Outlook은 대부분의 Microsoft 365 [계획](https://go.microsoft.com/fwlink/p/?LinkId=723731)에 포함 되어 있습니다.
   
 ### <a name="import-from-gmail"></a>Gmail에서 가져오기
 
-다음 단계에 따라 Gmail에서 전자 메일, 연락처 및 일정을 Outlook으로 Office 365로 가져옵니다.
+다음 단계에 따라 Gmail에서 전자 메일, 연락처 및 일정을 Microsoft 365로 Outlook으로 가져옵니다.
   
 - [Outlook에 Gmail 가져오기](https://support.office.com/article/20fdb8f2-fed8-4b14-baf0-bf04b9c44bf7.aspx)
     
@@ -53,9 +53,9 @@ Gmail 또는 다른 전자 메일 공급자에서 Office 365 전자 메일을 �
     
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/c1e45708-9a92-475b-910b-f5aa40614d92?autoplay=false]
   
-### <a name="import-from-outlook-desktop"></a>Outlook에서 가져오기 (데스크톱) ' '
+### <a name="import-from-outlook-desktop"></a>Outlook에서 가져오기 (데스크톱)
 
-Outlook에서 .pst 파일로 전자 메일, 연락처 및 일정을 내보낸 다음 해당 파일을 Outlook으로 Office 365로 Fol'ow 다음과 같은 단계를 수행 합니다.
+다음 단계에 따라 Outlook에서 전자 메일, 연락처 및 일정을 .pst 파일로 내보낸 다음 해당 파일을 Microsoft 365을 사용 하 여 Outlook으로 가져옵니다.
   
 1. [전자 메일, 연락처 및 일정 내보내기](https://support.office.com/article/14252b52-3075-4e9b-be4e-ff9ef1068f91)
     
@@ -73,7 +73,7 @@ Outlook에서 .pst 파일로 전자 메일, 연락처 및 일정을 내보낸 �
   
 ## <a name="see-other-email-accounts-in-outlook"></a>Outlook에서 다른 전자 메일 계정 참조
 
-Outlook에서 Gmail, Yahoo 또는 Live.com와 같은 다른 공급자의 전자 메일만 보 시겠습니까? 가져오거나 마이그레이션할 필요가 없습니다. Office 365 사서함과 동일한 위치에서 다른 계정에 액세스 하 고 해당 계정으로 보낸 전자 메일을 보내고 받으며 읽을 수 있도록 Outlook 또는 Outlook Web App을 설정할 수 있습니다.
+Outlook에서 Gmail, Yahoo 또는 Live.com와 같은 다른 공급자의 전자 메일만 보 시겠습니까? 가져오거나 마이그레이션할 필요가 없습니다. Microsoft 365 사서함과 동일한 위치에서 다른 계정에 액세스할 수 있도록 Outlook 또는 Outlook Web App을 설정 하 고 해당 계정에 전송 되는 전자 메일을 보내고 받으며 읽을 수도 있습니다.
   
 ### <a name="outlook-desktop"></a>Outlook (데스크톱)
 
@@ -85,8 +85,8 @@ Outlook에서 Gmail, Yahoo 또는 Live.com와 같은 다른 공급자의 전자 
   
 [![Backstage 보기의 Outlook 계정 정보 페이지를 보여 주는 스크린샷](../../media/6a7fa106-1077-4351-9fe2-8eb00918b40a.png)](https://support.office.com/article/6e27792a-9267-4aa4-8bb6-c84ef146101b.aspx)
   
-## <a name="multiple-mailboxes-admins-can-bulk-import-email-contacts-and-calendars-to-office-365"></a>여러 사서함: 관리자가 전자 메일, 연락처 및 일정을 Office 365에 대량으로 가져올 수 있음
+## <a name="multiple-mailboxes-admins-can-bulk-import-email-contacts-and-calendars-to-microsoft-365"></a>여러 사서함: 관리자는 전자 메일, 연락처 및 일정을 Microsoft 365로 대량 가져올 수 있습니다.
 
-원본 전자 메일 시스템에 따라 여러 대량 마이그레이션 방법에서 선택할 수 있습니다. [여러 전자 메일 계정을 Office 365로 마이그레이션하](https://support.office.com/article/0a4913fe-60fb-498f-9155-a86516418842) 는 방법을 확인 하 여 어떤 방법을 사용할 것인지 결정 합니다. 
+원본 전자 메일 시스템에 따라 여러 대량 마이그레이션 방법에서 선택할 수 있습니다. [Microsoft 365로 여러 전자 메일 계정을 마이그레이션하](https://support.office.com/article/0a4913fe-60fb-498f-9155-a86516418842) 는 방법을 확인 하 여 어떤 방법을 사용할 것인지 결정 합니다. 
   
 

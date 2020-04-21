@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 81b75194-3b04-48da-8b81-951afbabedde
 description: 이 항목의 목표는 온-프레미스 전자 메일 방역 어플라이언스나 클라우드 기반 보호 서비스에서 EOP(Exchange Online Protection)로 전환하는 프로세스를 이해하고 EOP를 시작하는 데 필요한 도움말 리소스를 제공하는 것입니다.
-ms.openlocfilehash: e3877f8093f56a0f978ad915769334678afe26e3
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: e6a25d6477741f5796dd08b5811d97e2d0c76b51
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41598215"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631196"
 ---
 # <a name="switch-to-eop-from-google-postini-the-barracuda-spam-and-virus-firewall-or-cisco-ironport"></a>Google Postini, Barracuda Spam and Virus Firewall 또는 Cisco IronPor에서 EOP로 전환
 
@@ -39,9 +39,9 @@ EOP로 전환하기 전에 EOP 보호 사서함을 클라우드 시나리오에�
 
 ## <a name="switch-to-exchange-online"></a>Exchange Online으로 전환
 
-온-프레미스 기기에 의해 보호 되는 온-프레미스 사서함이 있고 Exchange Online 클라우드 호스트 사서함으로 이동 하 고 EOP 보호를 사용 하 여 Office 365 클라우드 메시징 및 보호 기능을 활용 하려는 경우 시작 하려면 Office 365에 등록 하 고 도메인을 추가할 수 있습니다. 이 시나리오에서는 온-프레미스 사서함에 대 한 라우팅이 없기 때문에 커넥터를 설치 하지 않아도 됩니다. 먼저 [Office 365의 최신 고급 기능을 사용](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans) 하 여 등록 하 고 해당 기능에 대해 알아봅니다.
+온-프레미스 기기에 의해 보호 되는 온-프레미스 사서함이 있고 Exchange Online 클라우드 호스트 사서함으로 이동 하 고 EOP 보호를 사용 하 여 Microsoft 365 클라우드 메시징 및 보호 기능을 활용 하려는 경우 시작 하려면 Microsoft 365에 등록 하 고 도메인을 추가할 수 있습니다. 이 시나리오에서는 온-프레미스 사서함에 대 한 라우팅이 없기 때문에 커넥터를 설치 하지 않아도 됩니다. 먼저 [Microsoft 365의 최신 고급 기능을 사용](https://www.microsoft.com/microsoft-365/business/compare-more-office-365-for-business-plans) 하 여 등록 하 고 해당 기능에 대해 알아봅니다.
 
-Office 365 설치 프로세스 동안 클라우드 기반 사서함 사용자를 만듭니다.
+Microsoft 365 설치 프로세스를 진행 하는 동안 클라우드 기반 사서함 사용자를 만듭니다.
 
 ## <a name="switch-to-a-hybrid-solution"></a>하이브리드 솔루션으로 전환
 

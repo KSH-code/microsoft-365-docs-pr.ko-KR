@@ -16,12 +16,12 @@ search.appverid: MET150
 ms.assetid: ba780859-0297-4114-a258-2b2809bab9e6
 ROBOTS: NOINDEX, NOFOLLOW
 description: 모바일 장치에서 전자 메일에 액세스 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 880044ddd13226c819167fb200f9f61550559944
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 7c318c6d68a0314c750c6ca1e4c3b2d180d9507f
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42362393"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43629098"
 ---
 # <a name="options-for-accessing-email-from-your-mobile-device"></a>모바일 장치에서 전자 메일에 액세스 하기 위한 옵션
 
@@ -41,6 +41,6 @@ Android 용 Outlook 및 iOS 모바일 앱에 대 한 outlook은 회사 또는 �
   
  **모든 전자 메일 앱**
   
-조직에서는 Android 용 Outlook 또는 iOS 모바일 앱을 사용 하 여 전자 메일, 일정 및 연락처에 대 한 Office 365 회사 또는 학교 계정에 액세스 하는 것이 좋습니다. 다음 몇 시간 내에 아무 작업도 수행 하지 않으면 전자 메일이 자동으로 동기화를 시작 합니다. Android 용 Outlook 또는 iOS 모바일 앱을 사용 하도록 선택 하는 경우 데이터는 Android 용 Outlook 또는 iOS 모바일 앱 용 Outlook과만 동기화 됩니다. 타사 앱을 계속 사용 하도록 선택한 경우 데이터가 즉시 동기화 되기 시작 합니다.
+조직에서는 Android 용 Outlook 또는 iOS 모바일 앱을 사용 하 여 전자 메일, 일정 및 연락처에 대 한 회사 또는 학교 계정에 액세스 하는 것이 좋습니다. 다음 몇 시간 내에 아무 작업도 수행 하지 않으면 전자 메일이 자동으로 동기화를 시작 합니다. Android 용 Outlook 또는 iOS 모바일 앱을 사용 하도록 선택 하는 경우 데이터는 Android 용 Outlook 또는 iOS 모바일 앱 용 Outlook과만 동기화 됩니다. 타사 앱을 계속 사용 하도록 선택한 경우 데이터가 즉시 동기화 되기 시작 합니다.
   
 
