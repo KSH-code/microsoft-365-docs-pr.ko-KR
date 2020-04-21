@@ -14,17 +14,17 @@ layout: LandingPage
 ms.service: o365-administration
 localization_priority: Normal
 ms.assetid: 9f818d7a-78b5-4490-b36c-e3bfe328dfc3
-description: Office 365에서 가장 일반적인 관리 작업에 대한 빠른 연결.
-ms.openlocfilehash: 3c69d24af04567531ea4228202e5ec16cdd39522
-ms.sourcegitcommit: 5ba1efc0b498430e30231010024044049b8727c7
+description: Microsoft 365에서 가장 일반적인 관리 작업에 대 한 빠른 연결을 제공 합니다.
+ms.openlocfilehash: 876652b932579718cb1d1313bca6b98bad2b92c1
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43126002"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43628139"
 ---
 # <a name="manage"></a>관리
 
-Office 365에서 가장 일반적인 관리 작업에 대한 빠른 연결.
+Microsoft 365에서 가장 일반적인 관리 작업에 대 한 빠른 연결을 제공 합니다.
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -152,7 +152,7 @@ Office 365에서 가장 일반적인 관리 작업에 대한 빠른 연결.
                         <h3>전자 메일</h3>
                             <p><a href="../add-users/add-users.md">새 직원 추가</a></p>
                             <p><a href="https://support.office.com/article/97748418-bbd5-4743-a05b-581f22a466dd">전자 메일 메시지를 보내지 못하는 문제 해결</a></p>
-                            <p><b>추가 작업:</b> <a href="../email/email.md">비즈니스용 Office 365의 전자 메일</a></p>
+                            <p><b>추가 작업:</b> <a href="../email/email.md">비즈니스용 Microsoft 365의 전자 메일</a></p>
                     </div>
                 </div>
             </div>
@@ -169,7 +169,7 @@ Office 365에서 가장 일반적인 관리 작업에 대한 빠른 연결.
                             <p><a href="https://docs.microsoft.com/onedrive/manage-sharing">OneDrive 및 SharePoint의 공유 관리</a></p>
                             <p><a href="https://docs.microsoft.com/onedrive/set-default-storage-space">OneDrive 사용자에 대한 기본 저장소 공간 설정</a></p>
                             <p><a href="https://support.office.com/article/fix-onedrive-sync-problems-0899b115-05f7-45ec-95b2-e4cc8c4670b2">OneDrive 동기화 문제 해결</a></p>
-                            <p><b>추가 작업:</b> <a href="https://docs.microsoft.com/onedrive/onedrive">Office 365의 OneDrive</a></p>
+                            <p><b>추가 작업:</b> <a href="https://docs.microsoft.com/onedrive/onedrive">Microsoft 365의 OneDrive</a></p>
                     </div>
                 </div>
             </div>
@@ -198,9 +198,9 @@ Office 365에서 가장 일반적인 관리 작업에 대한 빠른 연결.
                 <div class="card">
                     <div class="cardText">
                         <h3>Yammer</h3>
-                            <p><a href="https://docs.microsoft.com/yammer/manage-yammer-users/office-365-sign-in">Yammer의 Office 365 로그인</a></p>
-                            <p><a href="https://docs.microsoft.com/yammer/manage-yammer-users/manage-users-across-their-lifecycle">Office 365에서 Yammer 사용자 관리</a></p>
-                            <p><a href="https://docs.microsoft.com/yammer/configure-your-yammer-network/enforce-office-365-identity">Yammer 사용자에 대해 Office 365 ID 적용</a></p>
+                            <p><a href="https://docs.microsoft.com/yammer/manage-yammer-users/office-365-sign-in">Yammer에 대 한 Microsoft 365 로그인</a></p>
+                            <p><a href="https://docs.microsoft.com/yammer/manage-yammer-users/manage-users-across-their-lifecycle">Microsoft 365에서 Yammer 사용자 관리</a></p>
+                            <p><a href="https://docs.microsoft.com/yammer/configure-your-yammer-network/enforce-office-365-identity">Yammer 사용자에 대해 Microsoft 365 id 적용</a></p>
                             <p><a href="https://docs.microsoft.com/yammer/integrate-yammer-with-other-apps/embed-a-feed-into-a-sharepoint-site">SharePoint 사이트에 Yammer 피드 포함</a></p>
                             <p><b>추가 작업:</b> <a href="https://docs.microsoft.com/yammer/yammer-landing-page">Yammer 관리자 도움말</a></p>
                     </div>

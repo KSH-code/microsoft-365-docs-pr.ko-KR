@@ -24,18 +24,18 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 5ffd5327-a83a-4d53-94d6-22ba2f9fd090
-description: Microsoft 365 Business를 사용 하 여 모든 Windows 10 장치에서 최신 버전의 Office를 자동으로 사용할 수 있도록 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: dbae76bf98cbcc463e4944f7c0bc59e728221c6b
-ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
+description: Microsoft 365 Business Premium을 사용 하 여 모든 Windows 10 장치에 최신 버전의 Office가 있는지 자동으로 확인할 수 있는 방법을 알아봅니다.
+ms.openlocfilehash: f040f466638dc0ef5491e3097de29fc44a8e66f8
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42561543"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627097"
 ---
-# <a name="install-office-on-windows-10-during-setup"></a><span data-ttu-id="6b059-103">설치 시 Windows 10에 Office 설치</span><span class="sxs-lookup"><span data-stu-id="6b059-103">Install Office on Windows 10 during setup</span></span>
+# <a name="install-office-on-windows-10-during-setup"></a><span data-ttu-id="2faf7-103">설치 시 Windows 10에 Office 설치</span><span class="sxs-lookup"><span data-stu-id="2faf7-103">Install Office on Windows 10 during setup</span></span>
 
 ![를 https://aka.ms/aboutM365preview가리키는 배너입니다.](../media/m365admincenterchanging.png)
 
-<span data-ttu-id="6b059-105">이 설정은 기본적으로 해제되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6b059-105">This setting is off by default.</span></span> <span data-ttu-id="6b059-106">사용자가 모든 Windows 10 장치에서 최신 버전의 Office를 사용할 수 있도록 설정 하 고, 먼저 모든 필수 구성 요소가 충족 되는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="6b059-106">You can turn it on to make sure users have the latest version of Office on all their Windows 10 devices, but first verify that all prerequisites are met.</span></span> <span data-ttu-id="6b059-107">[Microsoft 365 business에서 Office 클라이언트 배포 준비](prepare-for-office-client-deployment.md)에 설명 된 기타 요구 사항 외에,이 설정을 사용 하 여 소프트웨어를 장치로 푸시할 수 있도록 Microsoft 365 business에 대 한 라이선스가 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="6b059-107">Users must be licensed for Microsoft 365 Business for this setting to push the software to the device, in addition to other requirements described in [Prepare for Office client deployment by Microsoft 365 Business](prepare-for-office-client-deployment.md).</span></span>
+<span data-ttu-id="2faf7-105">이 설정은 기본적으로 해제되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="2faf7-105">This setting is off by default.</span></span> <span data-ttu-id="2faf7-106">사용자가 모든 Windows 10 장치에서 최신 버전의 Office를 사용할 수 있도록 설정 하 고, 먼저 모든 필수 구성 요소가 충족 되는지 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="2faf7-106">You can turn it on to make sure users have the latest version of Office on all their Windows 10 devices, but first verify that all prerequisites are met.</span></span> <span data-ttu-id="2faf7-107">[Microsoft 365 Business premium에서 Office 클라이언트 배포 준비](prepare-for-office-client-deployment.md)에 설명 된 요구 사항 외에도이 설정을 사용 하려면 Microsoft 365 business premium에 대 한 라이선스가 있어야 합니다.</span><span class="sxs-lookup"><span data-stu-id="2faf7-107">Users must be licensed for Microsoft 365 Business Premium for this setting to push the software to the device, in addition to other requirements described in [Prepare for Office client deployment by Microsoft 365 Business Premium](prepare-for-office-client-deployment.md).</span></span>
   
-<span data-ttu-id="6b059-108">설치 중에 기본 설정을 수락 하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="6b059-108">We recommend that you accept the default setting during setup.</span></span>
+<span data-ttu-id="2faf7-108">설치 중에 기본 설정을 수락 하는 것이 좋습니다.</span><span class="sxs-lookup"><span data-stu-id="2faf7-108">We recommend that you accept the default setting during setup.</span></span>
