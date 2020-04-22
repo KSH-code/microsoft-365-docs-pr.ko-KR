@@ -14,13 +14,13 @@ ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 ms.custom: ''
-description: 최종 사용자가 커뮤니케이션 및 학습에 사용할 수 있는 Windows 10 및 Office 365 ProPlus를 준비하도록 하는 방법을 알아봅니다.
-ms.openlocfilehash: 02fa62cc7f9276670812a887e927ce8a1c6fb549
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: 최종 사용자가 커뮤니케이션 및 학습에 사용할 수 있는 Windows 10 및 엔터프라이즈용 Microsoft 365 앱을 준비하는 방법을 알아봅니다.
+ms.openlocfilehash: 7497925b7efd66dd4b86dd4d64df81490bbc7d90
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42085135"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636750"
 ---
 # <a name="step-8-user-communications-and-training"></a>8단계: 사용자 커뮤니케이션 및 교육
 
@@ -30,7 +30,7 @@ ms.locfileid: "42085135"
 <thead>
 <td><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-11.png" alt="Step 8" height="144" width="144" /></td>
 <td><p><strong>8단계: 사용자 커뮤니케이션 및 교육</strong></p>
-<p>사용자에게 새로운 환경과 PC를 Windows 10 및 Office 365 ProPlus로 전환하는 새로운 작업 방법을 알려주어야 합니다. Microsoft FastTrack, 교육 자료 및 커뮤니케이션 서식 파일과 사용자 수용 및 사용 현황을 모니터링하는 새로운 방법을 통해 사용자 채택을 지원하는 방법을 알아보세요.</p></td>
+<p>사용자에게 새로운 환경과 PC를 Windows 10 및 엔터프라이즈용 Microsoft 365 앱으로 전환하는 새로운 작업 방법을 알려주어야 합니다. Microsoft FastTrack, 교육 자료 및 커뮤니케이션 서식 파일과 사용자 수용 및 사용 현황을 모니터링하는 새로운 방법을 통해 사용자 채택과 사용을 지원하는 방법을 알아보세요.</p></td>
 <td><a href="https://aka.ms/ddev8" target="_blank"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-21.png" alt="Step 8" height="130" width="231" /></a></td>
 </thead>
 </table>
@@ -45,7 +45,7 @@ Office 365, Windows 10 및 Azure Active Directory를 통한 새로운 보안 및
 
 ## <a name="getting-ready-for-new-experiences"></a>새로운 환경 준비
 
-Office부터 시작해서, Office 365 ProPlus를 처음 배포하는 경우, Office 앱에 로그인한 후 OneDrive 또는 SharePoint 위치에 파일을 저장할 경우 공유가 쉬워지고, 파일 분기가 줄어들고, 실시간 공동 작업이 가능하다는 이점을 전달할 수 있습니다.
+Office부터 시작해서, 엔터프라이즈용 Microsoft 365 앱을 처음 배포할 때, Office 앱에 로그인한 후 OneDrive 또는 SharePoint 위치에 파일을 저장할 경우 공유가 쉬워지고, 파일 분기가 줄어들고, 실시간 공동 작업이 가능하다는 이점을 전달할 수 있습니다.
 
 이러한 앱은 물론, Teams 및 Planner와 같은 기타 로컬 또는 브라우저 기반 앱에서 자세한 커뮤니케이션 및 교육 서식 파일을 사용할 수 있습니다.
 
@@ -61,7 +61,7 @@ Windows 10의 경우, Windows Hello와 같이 생체 인식을 사용하여 안�
 
 예를 들어 다단계 인증을 사용하도록 설정한 경우 이 기능은 Azure AD를 사용하고, 휴대폰 앱 또는 PIN으로 안전하게 서비스에 액세스하도록 하여 리소스에 대한 사용자 로그인을 보호합니다. 또한 Azure Information Protection은 사용자가 문서를 쉽게 분류하고 레이블을 지정할 수 있도록 합니다.
 
-[Office 365에 대한 다단계 인증 설정](https://support.office.com/article/set-up-multi-factor-authentication-for-office-365-users-8f0454b2-f51a-4d9c-bcde-2c48e41621c6)하려면
+[사용자를 위한 대한 다단계 인증 설정](https://support.office.com/article/set-up-multi-factor-authentication-for-office-365-users-8f0454b2-f51a-4d9c-bcde-2c48e41621c6)
 
 사용자들이 경험하게 될 새로운 기능들이 약간 있으며 경우에 따라 긍정적이거나 덜 긍정적인 차원에서 사용자에게 놀라움을 주는 기능도 있을 수 있습니다. 또한 이러한 놀라운 기능들이 정상적인 워크플로에 변화를 가져올 경우 지원 센터에서 더 많은 문의 전화가 수신되고 지원 티켓이 늘어날 수 있습니다.
 
@@ -77,7 +77,7 @@ Windows 10의 경우, Windows Hello와 같이 생체 인식을 사용하여 안�
 
 배포 링을 사용하는 단계별 배포는 소규모 그룹에서 시작해서 시간이 지나면서 측정 가능한 방식으로 광범위한 배포 규모로 확장하는 개념입니다. 일반적으로 커뮤니케이션 및 교육 계획을 처음 세울 때 이러한 링 및 해당 멤버가 형성됩니다. 이러한 방식으로 배포 규모를 서서히 넓혀가면서 잠재적인 위험을 줄이고 접근 방식이 유효한지 검사할 수 있으며, 예상보다 더 많은 지원 센터 전화 문의가 발생할 때 작업을 일시 중지할 수 있습니다.
 
-배포 링은 사업부 및 해당 관리자와 협의할 때 가장 잘 구현됩니다. 배포하거나 변경을 진행할 때 피해야 할 중요한 날짜와 시간을 이해해야 합니다. 신중하게 계획하지 못하거나 이해 관계자의 의견을 반영하지 않으면 앞으로 발생할 변화를 사용자가 잘 받아들이고 편안하게 사용하기 어려울 수 있습니다.
+배포 링은 사업부 및 해당 관리자와 협의할 때 가장 잘 구현됩니다. 배포하거나 변경을 진행할 때 피해야 할 중요한 날짜와 시간을 이해해야 합니다. 신중하게 계획하지 못하거나 이해 관계자의 의견을 반영하지 않으면 앞으로 발생할 변화를 잘 받아들이고 손쉽게 사용하기 어려울 수 있습니다.
 
 ![](../media/step-8-user-communications-and-training-media/step-8-user-communications-and-training-media-4.png)
 
@@ -129,8 +129,8 @@ IT 부서, 지원 센터, 사용자 및 네트워크 용량에 따라 관리 가
 
 진단 도구를 통해 모니터링하는 진단 데이터 외에, 관리 센터의 워크로드를 기준으로 하는 자세한 사용 현황 보고서를 사용하거나 Power BI를 통해 관리 대시보드를 사용하여 세분화된 방식으로 Office 365 및 Microsoft 365 서비스 사용량을 모니터링할 수도 있습니다. 이러한 도구들은 함께 작업하기 위한 새로운 도구(예: Microsoft Teams) 또는 파일을 공유하는 새로운 방법(예: OneDrive)을 롤아웃할 때 목표를 설정하고 추적하는 데 유용합니다.
 
-새 기술의 수용 및 채택은 조직의 모든 PC에 Windows 10 및 Office 365 ProPlus가 설치되고 한참 후에도 계속 진행됩니다. 또한 사용자들은 새로운 기능에 대한 정보를 받거나 교육을 받지 못한 상태로 업무 방식을 반드시 바꿀 필요는 없습니다. 마지막으로, Windows의 반기 일정 및 Office의 선택적 월별 일정에 따라 새로운 서비스 모델을 통해 새 기능이 제공되면서, 커뮤니케이션은 계속 진행될 것입니다.
+새 기술의 수용 및 채택은 조직의 모든 PC에 Windows 10 및 엔터프라이즈용 Microsoft 365 앱이 설치되고 한참 후에도 계속 진행됩니다. 또한 사용자들은 새로운 기능에 대한 정보를 받거나 교육을 받지 못한 상태로 업무 방식을 반드시 바꿀 필요는 없습니다. 마지막으로, Windows의 반기 일정 및 Office의 선택적 월별 일정에 따라 새로운 서비스 모델을 통해 새 기능이 제공되면서, 커뮤니케이션은 계속 진행될 것입니다.
 
 ## <a name="previous-step"></a>이전 단계 
 
-## <a name="step-7-windows-and-office-servicinghttpsakamsmdd7"></a>[7단계: Windows 및 Office Servicing](https://aka.ms/mdd7)
+## <a name="step-7-windows-and-office-servicing"></a>[7단계: Windows 및 Office Servicing](https://aka.ms/mdd7)

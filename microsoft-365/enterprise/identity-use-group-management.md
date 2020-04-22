@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 그룹을 사용하여 일부 관리 작업을 자동화할 수 있습니다.
-ms.openlocfilehash: 215bb84cbb0cedc2f1320372ba8239cd51d07c98
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: 047d733dbd586f094612c579f2b1685562c58ed1
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42633496"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637039"
 ---
 # <a name="step-5-use-groups-for-management"></a>5단계: 그룹을 사용하여 관리하십시오.
 
@@ -36,7 +36,7 @@ ms.locfileid: "42633496"
 사용자는 보안 그룹에서 구성원을 요청할 수 있으며, 이 요청은 IT 관리자가 아니라 그룹 소유자에게 전달됩니다. 이를 통해 그룹의 비즈니스 사용을 이해하고 해당 구성원을 관리할 수 있는 팀, 프로젝트 또는 비즈니스 소유자에게 일상적인 그룹 구성원 제어를 위임할 수 있습니다.
 
 >[!Note]
->셀프 서비스 그룹 관리는 Azure AD(Microsoft Azure Active Directory) 보안 및 Microsoft Office 365 그룹에서만 사용할 수 있습니다. 온 프레미스 액티브 디렉토리 도메인 서비스(AD DS-Active Directory Domain Services)에서 동기화된 메일이 사용가능한 그룹, 배포 목록 또는 다른 그룹에서 사용이 불가능합니다.
+>셀프 서비스 그룹 관리는 Azure AD 보안 및 Microsoft 365 그룹에서만 사용할 수 있습니다. 온 프레미스 액티브 디렉토리 도메인 서비스(AD DS-Active Directory Domain Services)에서 동기화된 메일이 사용가능한 그룹, 배포 목록 또는 다른 그룹에서 사용이 불가능합니다.
 >
 
 자세한 내용은 [셀프 서비스 관리에 대한 Azure AD(Microsoft Azure Active Directory) 그룹 구성 지침](https://docs.microsoft.com/azure/active-directory/active-directory-accessmanagement-self-service-group-management)을 참조하십시오.
