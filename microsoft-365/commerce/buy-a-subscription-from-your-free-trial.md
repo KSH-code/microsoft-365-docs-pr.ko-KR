@@ -1,5 +1,5 @@
 ---
-title: 무료 평가판에서 Office 365 비즈니스 에디션 구독 구입
+title: 무료 평가판에서 Microsoft 365 비즈니스에 대 한 구독 구입
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -26,140 +26,143 @@ search.appverid:
 - MOE150
 - BEA160
 ms.assetid: 485fee6d-b22e-440a-9053-a4e7fa509c92
-description: 비즈니스용 Office 365 구독을 구매 합니다. 같은 유형의 구독을 구입 하거나 다른 요금제를 구입할 수 있습니다.
-ms.openlocfilehash: 10e3212b739128a9cd2af23f22b644ad4b1df2d9
-ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
+description: 비즈니스를 위한 Microsoft 365 구독을 구매 합니다. 같은 유형의 구독을 구입 하거나 다른 요금제를 구입할 수 있습니다.
+ms.openlocfilehash: 3635a4ae729aa0759ef1f2de2905fa745a48951a
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43142290"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634947"
 ---
-# <a name="buy-a-subscription-to-office-365-for-business-from-your-free-trial"></a><span data-ttu-id="5b265-105">무료 평가판에서 Office 365 비즈니스 에디션 구독 구입</span><span class="sxs-lookup"><span data-stu-id="5b265-105">Buy a subscription to Office 365 for business from your free trial</span></span>
+# <a name="buy-a-subscription-to-microsoft-365-for-business-from-your-free-trial"></a><span data-ttu-id="6525a-105">무료 평가판에서 Microsoft 365 비즈니스에 대 한 구독 구입</span><span class="sxs-lookup"><span data-stu-id="6525a-105">Buy a subscription to Microsoft 365 for business from your free trial</span></span>
 
-<span data-ttu-id="5b265-106">Office 365 평가판을 사용해 봤으며 이제 구입할 준비가 되었습니다.</span><span class="sxs-lookup"><span data-stu-id="5b265-106">You've tried Office 365, and now you're ready to buy.</span></span> <span data-ttu-id="5b265-107">평가판에서 Office 365을 구매할 때는 다음과 같은 두 가지 옵션을 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="5b265-107">You have two options when buying Office 365 from your trial version:</span></span>
+<span data-ttu-id="6525a-106">Microsoft 365를 사용해 보았지만 이제 구매할 준비가 되었습니다.</span><span class="sxs-lookup"><span data-stu-id="6525a-106">You've tried Microsoft 365, and now you're ready to buy.</span></span> <span data-ttu-id="6525a-107">평가판에서 Microsoft 365을 구매할 때는 다음과 같은 두 가지 옵션을 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6525a-107">You have two options when buying Microsoft 365 from your trial version:</span></span>
   
-- [<span data-ttu-id="5b265-108">평가판과 동일한 계획 구입</span><span class="sxs-lookup"><span data-stu-id="5b265-108">Buy the same plan as your trial</span></span>](#buy-the-same-plan-as-your-trial)
-- [<span data-ttu-id="5b265-109">평가판과 다른 계획 구입</span><span class="sxs-lookup"><span data-stu-id="5b265-109">Buy a different plan than your trial</span></span>](#buy-a-different-plan-than-your-trial)
+- [<span data-ttu-id="6525a-108">평가판과 동일한 계획 구입</span><span class="sxs-lookup"><span data-stu-id="6525a-108">Buy the same plan as your trial</span></span>](#buy-the-same-plan-as-your-trial)
+- [<span data-ttu-id="6525a-109">평가판과 다른 계획 구입</span><span class="sxs-lookup"><span data-stu-id="6525a-109">Buy a different plan than your trial</span></span>](#buy-a-different-plan-than-your-trial)
 
 > [!NOTE]
-> <span data-ttu-id="5b265-110">무료 평가판 사용 기간이 끝나면 평가판 구독이 유료 구독으로 자동 변환 됩니다.</span><span class="sxs-lookup"><span data-stu-id="5b265-110">At the end of your free trial period, your trial subscription will automatically convert to a paid subscription.</span></span> <span data-ttu-id="5b265-111">유료 구독은 현재 등록 된 요금제를 기본값으로 합니다.</span><span class="sxs-lookup"><span data-stu-id="5b265-111">The paid subscription will default to the plan you are currently signed up for.</span></span> <span data-ttu-id="5b265-112">아래의 [평가판 보다 다른 요금제 구입](#buy-a-different-plan-than-your-trial) 섹션에 나와 있는 단계를 수행 하 여 다른 요금제를 구입할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="5b265-112">You can still buy a different plan by following the steps in the [Buy a different plan than your trial](#buy-a-different-plan-than-your-trial) section below.</span></span>
+> <span data-ttu-id="6525a-110">무료 평가판 사용 기간이 끝나면 평가판 구독이 유료 구독으로 자동 변환 됩니다.</span><span class="sxs-lookup"><span data-stu-id="6525a-110">At the end of your free trial period, your trial subscription will automatically convert to a paid subscription.</span></span> <span data-ttu-id="6525a-111">유료 구독은 현재 등록 된 요금제를 기본값으로 합니다.</span><span class="sxs-lookup"><span data-stu-id="6525a-111">The paid subscription will default to the plan you are currently signed up for.</span></span> <span data-ttu-id="6525a-112">아래의 [평가판 보다 다른 요금제 구입](#buy-a-different-plan-than-your-trial) 섹션에 나와 있는 단계를 수행 하 여 다른 요금제를 구입할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="6525a-112">You can still buy a different plan by following the steps in the [Buy a different plan than your trial](#buy-a-different-plan-than-your-trial) section below.</span></span>
 
-## <a name="buy-the-same-plan-as-your-trial"></a><span data-ttu-id="5b265-113">평가판과 동일한 계획 구입</span><span class="sxs-lookup"><span data-stu-id="5b265-113">Buy the same plan as your trial</span></span>
+## <a name="buy-the-same-plan-as-your-trial"></a><span data-ttu-id="6525a-113">평가판과 동일한 계획 구입</span><span class="sxs-lookup"><span data-stu-id="6525a-113">Buy the same plan as your trial</span></span>
 
-<span data-ttu-id="5b265-114">구입 방법은 매우 간단하며 평가판과 동일한 구독 유형을 구입하는 경우에는 데이터, 계정 및 구성이 손실되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="5b265-114">It's easy, and, when you buy the same type of subscription as your trial version, you don't have to worry about losing your data, accounts, and configuration.</span></span>
+<span data-ttu-id="6525a-114">구입 방법은 매우 간단하며 평가판과 동일한 구독 유형을 구입하는 경우에는 데이터, 계정 및 구성이 손실되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="6525a-114">It's easy, and, when you buy the same type of subscription as your trial version, you don't have to worry about losing your data, accounts, and configuration.</span></span>
 
 ::: moniker range="o365-worldwide"
 
-1. <span data-ttu-id="5b265-115">관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품 및 서비스</a> 페이지로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="5b265-115">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Products & services</a> page.</span></span>
+1. <span data-ttu-id="6525a-115">관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품 및 서비스</a> 페이지로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="6525a-115">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Products & services</a> page.</span></span>
 
-2. <span data-ttu-id="5b265-116">**Products & services** 페이지에서 구입 하려는 구독을 찾습니다.</span><span class="sxs-lookup"><span data-stu-id="5b265-116">On the **Products & services** page, find the subscription that you want to buy.</span></span> <span data-ttu-id="5b265-117">**라이선스** 섹션에서 **구독 구매**를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="5b265-117">In the **Licenses** section, select **Purchase subscription**.</span></span>
+2. <span data-ttu-id="6525a-116">**Products & services** 페이지에서 구입 하려는 구독을 찾습니다.</span><span class="sxs-lookup"><span data-stu-id="6525a-116">On the **Products & services** page, find the subscription that you want to buy.</span></span> <span data-ttu-id="6525a-117">**라이선스** 섹션에서 **구독 구매**를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="6525a-117">In the **Licenses** section, select **Purchase subscription**.</span></span>
 
-3. <span data-ttu-id="5b265-118">구독에 대해 월별 또는 연간 약정을 선택한 다음 **체크 아웃**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="5b265-118">Choose either a monthly or annual commitment for your subscription, then select **Checkout**.</span></span>
+3. <span data-ttu-id="6525a-118">구독에 대해 월별 또는 연간 약정을 선택한 다음 **체크 아웃**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="6525a-118">Choose either a monthly or annual commitment for your subscription, then select **Checkout**.</span></span>
 
-4. <span data-ttu-id="5b265-119">다음 페이지에서 구독을 확인 하 고 **체크 아웃**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="5b265-119">On the next page, verify the subscription, and select **Checkout**.</span></span>
+4. <span data-ttu-id="6525a-119">다음 페이지에서 구독을 확인 하 고 **체크 아웃**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="6525a-119">On the next page, verify the subscription, and select **Checkout**.</span></span>
 
-5. <span data-ttu-id="5b265-120">다음 페이지에서 **이 주문의** **판매** 주소, **청구 대상** 정보 및 항목을 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="5b265-120">On the next page, verify the **Sold to** address, the **Billed to** information, and **Items in this order**.</span></span> <span data-ttu-id="5b265-121">변경 작업을 수행 해야 하는 경우 해당 섹션 옆에 있는 **변경을** 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="5b265-121">If you need to make any changes, select **Change** next to the applicable section.</span></span>
+5. <span data-ttu-id="6525a-120">다음 페이지에서 **이 주문의** **판매** 주소, **청구 대상** 정보 및 항목을 확인 합니다.</span><span class="sxs-lookup"><span data-stu-id="6525a-120">On the next page, verify the **Sold to** address, the **Billed to** information, and **Items in this order**.</span></span> <span data-ttu-id="6525a-121">변경 작업을 수행 해야 하는 경우 해당 섹션 옆에 있는 **변경을** 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="6525a-121">If you need to make any changes, select **Change** next to the applicable section.</span></span>
 
-6. <span data-ttu-id="5b265-122">작업이 완료 되 면 **계약 & 배치 주문 적용**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="5b265-122">When you're finished, select **Accept agreement & place order**.</span></span>
+6. <span data-ttu-id="6525a-122">작업이 완료 되 면 **계약 & 배치 주문 적용**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="6525a-122">When you're finished, select **Accept agreement & place order**.</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. <span data-ttu-id="5b265-123">관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">구독</a> 페이지로 이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="5b265-123">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Subscriptions</a> page.</span></span>
+1. <span data-ttu-id="6525a-123">관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">구독</a> 페이지로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="6525a-123">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Subscriptions</a> page.</span></span>
 
-2. <span data-ttu-id="5b265-124">**구독** 페이지에서 구입하려는 평가판 구독의 **지금 구입** 단추를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="5b265-124">On the **Subscriptions** page, select the **Buy now** button for the trial subscription that you want to buy.</span></span>
+2. <span data-ttu-id="6525a-124">**구독** 페이지에서 구입하려는 평가판 구독의 **지금 구입** 단추를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="6525a-124">On the **Subscriptions** page, select the **Buy now** button for the trial subscription that you want to buy.</span></span>
 
-3. <span data-ttu-id="5b265-125">가격 정보를 검토 하 고 **다음**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="5b265-125">Review the pricing information and select **Next**.</span></span>
+3. <span data-ttu-id="6525a-125">가격 정보를 검토 하 고 **다음**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="6525a-125">Review the pricing information and select **Next**.</span></span>
 
-4. <span data-ttu-id="5b265-126">결제 정보를 입력 한 다음 **주문을**선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="5b265-126">Provide your payment information, and then select **Place order**.</span></span>
+4. <span data-ttu-id="6525a-126">결제 정보를 입력 한 다음 **주문을**선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="6525a-126">Provide your payment information, and then select **Place order**.</span></span>
 
-5. <span data-ttu-id="5b265-127">확인 페이지에서 **관리 홈으로 이동을**선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="5b265-127">On the confirmation page, select **Go to Admin Home**.</span></span>
+5. <span data-ttu-id="6525a-127">확인 페이지에서 **관리 홈으로 이동을**선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="6525a-127">On the confirmation page, select **Go to Admin Home**.</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. <span data-ttu-id="5b265-128">관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">구독</a> 페이지로 이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="5b265-128">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Subscriptions</a> page.</span></span>
+1. <span data-ttu-id="6525a-128">관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">구독</a> 페이지로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="6525a-128">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Subscriptions</a> page.</span></span>
 
-2. <span data-ttu-id="5b265-129">**구독** 페이지에서 구입하려는 평가판 구독의 **지금 구입** 단추를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="5b265-129">On the **Subscriptions** page, select the **Buy now** button for the trial subscription that you want to buy.</span></span>
+2. <span data-ttu-id="6525a-129">**구독** 페이지에서 구입하려는 평가판 구독의 **지금 구입** 단추를 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="6525a-129">On the **Subscriptions** page, select the **Buy now** button for the trial subscription that you want to buy.</span></span>
 
-3. <span data-ttu-id="5b265-130">가격 정보를 검토 하 고 **다음**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="5b265-130">Review the pricing information and select **Next**.</span></span>
+3. <span data-ttu-id="6525a-130">가격 정보를 검토 하 고 **다음**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="6525a-130">Review the pricing information and select **Next**.</span></span>
 
-4. <span data-ttu-id="5b265-131">결제 정보를 입력 한 다음 **주문을**선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="5b265-131">Provide your payment information, and then select **Place order**.</span></span>
+4. <span data-ttu-id="6525a-131">결제 정보를 입력 한 다음 **주문을**선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="6525a-131">Provide your payment information, and then select **Place order**.</span></span>
 
-5. <span data-ttu-id="5b265-132">확인 페이지에서 **관리 홈으로 이동을**선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="5b265-132">On the confirmation page, select **Go to Admin Home**.</span></span>
+5. <span data-ttu-id="6525a-132">확인 페이지에서 **관리 홈으로 이동을**선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="6525a-132">On the confirmation page, select **Go to Admin Home**.</span></span>
 
 ::: moniker-end
 
-## <a name="buy-a-different-plan-than-your-trial"></a><span data-ttu-id="5b265-133">평가판과 다른 계획 구입</span><span class="sxs-lookup"><span data-stu-id="5b265-133">Buy a different plan than your trial</span></span>
+## <a name="buy-a-different-plan-than-your-trial"></a><span data-ttu-id="6525a-133">평가판과 다른 계획 구입</span><span class="sxs-lookup"><span data-stu-id="6525a-133">Buy a different plan than your trial</span></span>
 
-<span data-ttu-id="5b265-134">다른 유형의 구독을 구입 하는 경우에는 데이터, 계정 및 구성을 보존 하기 위해 평가판 계획에서 새 요금제로 사용자 라이선스를 다시 할당 해야 합니다 (평가판 계획 만료 후 90 일 유예 기간이 종료 되기 전에).</span><span class="sxs-lookup"><span data-stu-id="5b265-134">If you purchase a different type of subscription than your trial, you will have to reassign your user licenses from your trial plan to your new plan (before your 90-day grace period ends after your trial plan expires) in order to retain your data, accounts, and configuration.</span></span>
+<span data-ttu-id="6525a-134">다른 유형의 구독을 구입 하는 경우에는 데이터, 계정 및 구성을 보존 하기 위해 평가판 계획에서 새 요금제로 사용자 라이선스를 다시 할당 해야 합니다 (평가판 계획 만료 후 90 일 유예 기간이 종료 되기 전에).</span><span class="sxs-lookup"><span data-stu-id="6525a-134">If you purchase a different type of subscription than your trial, you will have to reassign your user licenses from your trial plan to your new plan (before your 90-day grace period ends after your trial plan expires) in order to retain your data, accounts, and configuration.</span></span>
 
 ::: moniker range="o365-worldwide"
 
-1. <span data-ttu-id="5b265-135">관리 센터에서 **결제** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">구매 서비스</a> 페이지로 이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="5b265-135">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">Purchase services</a> page.</span></span>
 
-2. <span data-ttu-id="5b265-136">**서비스 구매** 페이지에서 구매할 구독을 선택 하 고 **구입**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="5b265-136">On the **Purchase services** page, select the subscription that you want to buy, then select **Buy**.</span></span>
+1. <span data-ttu-id="6525a-135">관리 센터에서 **결제** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">구매 서비스</a> 페이지로 이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="6525a-135">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">Purchase services</a> page.</span></span>
 
-3. <span data-ttu-id="5b265-137">필요한 라이선스 수를 입력 하 고 매달 지불할 지 또는 연간 전체를 지불 하도록 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="5b265-137">Enter the number of licenses that you need, and choose whether to pay each month or for the whole year.</span></span> <span data-ttu-id="5b265-138">현재 라이선스가 없는 모든 사용자에 게 라이선스를 자동으로 할당할지 여부를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="5b265-138">Choose whether you want to automatically assign licenses to everyone who does not currently have a license.</span></span> <span data-ttu-id="5b265-139">그런 다음 **지금 체크 아웃**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="5b265-139">Then select **Check out now**.</span></span>
+2. <span data-ttu-id="6525a-136">**서비스 구매** 페이지에서 구매할 구독을 선택 하 고 **구입**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="6525a-136">On the **Purchase services** page, select the subscription that you want to buy, then select **Buy**.</span></span>
 
-4. <span data-ttu-id="5b265-140">카트가 열립니다.</span><span class="sxs-lookup"><span data-stu-id="5b265-140">Your cart opens.</span></span> <span data-ttu-id="5b265-141">장바구니를 화면에서 사라지게 하려면 **카트** 를 선택 하 여 다시 열고 주문을 검토 한 다음 **체크 아웃**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="5b265-141">If your cart disappears from the screen, select **Cart** to reopen it, review the order and then select **Check Out**.</span></span>
+3. <span data-ttu-id="6525a-137">필요한 라이선스 수를 입력 하 고 매달 지불할 지 또는 연간 전체를 지불 하도록 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="6525a-137">Enter the number of licenses that you need, and choose whether to pay each month or for the whole year.</span></span> <span data-ttu-id="6525a-138">현재 라이선스가 없는 모든 사용자에 게 라이선스를 자동으로 할당할지 여부를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="6525a-138">Choose whether you want to automatically assign licenses to everyone who does not currently have a license.</span></span> <span data-ttu-id="6525a-139">그런 다음 **지금 체크 아웃**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="6525a-139">Then select **Check out now**.</span></span>
 
-5. <span data-ttu-id="5b265-142">가격 정보를 검토 하 고 **다음**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="5b265-142">Review the pricing information and select **Next**.</span></span>
+4. <span data-ttu-id="6525a-140">카트가 열립니다.</span><span class="sxs-lookup"><span data-stu-id="6525a-140">Your cart opens.</span></span> <span data-ttu-id="6525a-141">장바구니를 화면에서 사라지게 하려면 **카트** 를 선택 하 여 다시 열고 주문을 검토 한 다음 **체크 아웃**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="6525a-141">If your cart disappears from the screen, select **Cart** to reopen it, review the order and then select **Check Out**.</span></span>
 
-6. <span data-ttu-id="5b265-143">결제 정보를 입력 하 고 **주문** \> 내용을 선택 **하 여 관리 홈으로 이동**합니다.</span><span class="sxs-lookup"><span data-stu-id="5b265-143">Provide your payment information, and then select **Place order** \> **Go to Admin Home**.</span></span>
+5. <span data-ttu-id="6525a-142">가격 정보를 검토 하 고 **다음**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="6525a-142">Review the pricing information and select **Next**.</span></span>
+
+6. <span data-ttu-id="6525a-143">결제 정보를 입력 하 고 **주문** \> 내용을 선택 **하 여 관리 홈으로 이동**합니다.</span><span class="sxs-lookup"><span data-stu-id="6525a-143">Provide your payment information, and then select **Place order** \> **Go to Admin Home**.</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. <span data-ttu-id="5b265-144">관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">구독</a> 페이지로 이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="5b265-144">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Subscriptions</a> page.</span></span>
+1. <span data-ttu-id="6525a-144">관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">구독</a> 페이지로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="6525a-144">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">Subscriptions</a> page.</span></span>
 
-2. <span data-ttu-id="5b265-145">**구독** 페이지에서 **구독 추가**를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="5b265-145">On the **Subscription** page, select **Add subscriptions**.</span></span>
+2. <span data-ttu-id="6525a-145">**구독** 페이지에서 **구독 추가**를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="6525a-145">On the **Subscription** page, select **Add subscriptions**.</span></span>
 
-    <span data-ttu-id="5b265-146">조직에서 사용할 수 있는 구독이 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="5b265-146">You'll see the subscriptions that are available to your organization.</span></span> <span data-ttu-id="5b265-147">이미 구매한 구독은 **평가판** 또는 **구매한**것으로 식별 됩니다.</span><span class="sxs-lookup"><span data-stu-id="5b265-147">Any subscriptions that you've already purchased will be identified as **In Trial** or **Purchased**.</span></span>
+    <span data-ttu-id="6525a-146">조직에서 사용할 수 있는 구독이 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="6525a-146">You'll see the subscriptions that are available to your organization.</span></span> <span data-ttu-id="6525a-147">이미 구매한 구독은 **평가판** 또는 **구매한**것으로 식별 됩니다.</span><span class="sxs-lookup"><span data-stu-id="6525a-147">Any subscriptions that you've already purchased will be identified as **In Trial** or **Purchased**.</span></span>
   
-3. <span data-ttu-id="5b265-148">구입 하려는 구독을 찾은 다음 **지금 구입**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="5b265-148">Find the subscription that you want to buy, and then select **Buy Now**.</span></span>
+3. <span data-ttu-id="6525a-148">구입 하려는 구독을 찾은 다음 **지금 구입**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="6525a-148">Find the subscription that you want to buy, and then select **Buy Now**.</span></span>
   
-4. <span data-ttu-id="5b265-149">필요한 사용자 라이선스 수를 입력 하 고 매달 지불할 지를 선택한 다음 **카트에 추가**를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="5b265-149">Enter the number of user licenses you need, chose whether to pay each month or for the whole year, and then select **Add to Cart**.</span></span>
+4. <span data-ttu-id="6525a-149">필요한 사용자 라이선스 수를 입력 하 고 매달 지불할 지를 선택한 다음 **카트에 추가**를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="6525a-149">Enter the number of user licenses you need, chose whether to pay each month or for the whole year, and then select **Add to Cart**.</span></span>
 
-5. <span data-ttu-id="5b265-150">카트가 열립니다.</span><span class="sxs-lookup"><span data-stu-id="5b265-150">Your cart opens.</span></span> <span data-ttu-id="5b265-151">장바구니를 화면에서 사라지게 하려면 **카트** 를 선택 하 여 다시 열고 주문을 검토 한 다음 **체크 아웃**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="5b265-151">If your cart disappears from the screen, select **Cart** to reopen it, review the order and then select **Check Out**.</span></span>
+5. <span data-ttu-id="6525a-150">카트가 열립니다.</span><span class="sxs-lookup"><span data-stu-id="6525a-150">Your cart opens.</span></span> <span data-ttu-id="6525a-151">장바구니를 화면에서 사라지게 하려면 **카트** 를 선택 하 여 다시 열고 주문을 검토 한 다음 **체크 아웃**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="6525a-151">If your cart disappears from the screen, select **Cart** to reopen it, review the order and then select **Check Out**.</span></span>
 
-6. <span data-ttu-id="5b265-152">가격 정보를 검토 하 고 **다음**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="5b265-152">Review the pricing information and select **Next**.</span></span>
+6. <span data-ttu-id="6525a-152">가격 정보를 검토 하 고 **다음**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="6525a-152">Review the pricing information and select **Next**.</span></span>
 
-7. <span data-ttu-id="5b265-153">결제 정보를 입력 한 다음 **주문을**선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="5b265-153">Provide your payment information, and then select **Place order**.</span></span>
+7. <span data-ttu-id="6525a-153">결제 정보를 입력 한 다음 **주문을**선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="6525a-153">Provide your payment information, and then select **Place order**.</span></span>
 
-8. <span data-ttu-id="5b265-154">확인 페이지에서 **관리 홈으로 이동을**선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="5b265-154">On the confirmation page, select **Go to Admin Home**.</span></span>
+8. <span data-ttu-id="6525a-154">확인 페이지에서 **관리 홈으로 이동을**선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="6525a-154">On the confirmation page, select **Go to Admin Home**.</span></span>
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. <span data-ttu-id="5b265-155">관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">구독</a> 페이지로 이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="5b265-155">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Subscriptions</a> page.</span></span>
 
-2. <span data-ttu-id="5b265-156">**구독** 페이지에서 **구독 추가**를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="5b265-156">On the **Subscription** page, select **Add subscriptions**.</span></span>
+1. <span data-ttu-id="6525a-155">관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">구독</a> 페이지로 이동합니다.</span><span class="sxs-lookup"><span data-stu-id="6525a-155">In the admin center, go to the **Billing** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">Subscriptions</a> page.</span></span>
 
-    <span data-ttu-id="5b265-157">조직에서 사용할 수 있는 구독이 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="5b265-157">You'll see the subscriptions that are available to your organization.</span></span> <span data-ttu-id="5b265-158">이미 구매한 구독은 **평가판** 또는 **구매한**것으로 식별 됩니다.</span><span class="sxs-lookup"><span data-stu-id="5b265-158">Any subscriptions that you've already purchased will be identified as **In Trial** or **Purchased**.</span></span>
+2. <span data-ttu-id="6525a-156">**구독** 페이지에서 **구독 추가**를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="6525a-156">On the **Subscription** page, select **Add subscriptions**.</span></span>
+
+    <span data-ttu-id="6525a-157">조직에서 사용할 수 있는 구독이 표시 됩니다.</span><span class="sxs-lookup"><span data-stu-id="6525a-157">You'll see the subscriptions that are available to your organization.</span></span> <span data-ttu-id="6525a-158">이미 구매한 구독은 **평가판** 또는 **구매한**것으로 식별 됩니다.</span><span class="sxs-lookup"><span data-stu-id="6525a-158">Any subscriptions that you've already purchased will be identified as **In Trial** or **Purchased**.</span></span>
   
-3. <span data-ttu-id="5b265-159">구입 하려는 구독을 찾은 다음 **지금 구입**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="5b265-159">Find the subscription that you want to buy, and then select **Buy Now**.</span></span>
+3. <span data-ttu-id="6525a-159">구입 하려는 구독을 찾은 다음 **지금 구입**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="6525a-159">Find the subscription that you want to buy, and then select **Buy Now**.</span></span>
   
-4. <span data-ttu-id="5b265-160">필요한 사용자 라이선스 수를 입력 하 고 매달 지불할 지를 선택한 다음 **카트에 추가**를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="5b265-160">Enter the number of user licenses you need, chose whether to pay each month or for the whole year, and then select **Add to Cart**.</span></span>
+4. <span data-ttu-id="6525a-160">필요한 사용자 라이선스 수를 입력 하 고 매달 지불할 지를 선택한 다음 **카트에 추가**를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="6525a-160">Enter the number of user licenses you need, chose whether to pay each month or for the whole year, and then select **Add to Cart**.</span></span>
 
-5. <span data-ttu-id="5b265-161">카트가 열립니다.</span><span class="sxs-lookup"><span data-stu-id="5b265-161">Your cart opens.</span></span> <span data-ttu-id="5b265-162">장바구니를 화면에서 사라지게 하려면 **카트** 를 선택 하 여 다시 열고 주문을 검토 한 다음 **체크 아웃**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="5b265-162">If your cart disappears from the screen, select **Cart** to reopen it, review the order and then select **Check Out**.</span></span>
+5. <span data-ttu-id="6525a-161">카트가 열립니다.</span><span class="sxs-lookup"><span data-stu-id="6525a-161">Your cart opens.</span></span> <span data-ttu-id="6525a-162">장바구니를 화면에서 사라지게 하려면 **카트** 를 선택 하 여 다시 열고 주문을 검토 한 다음 **체크 아웃**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="6525a-162">If your cart disappears from the screen, select **Cart** to reopen it, review the order and then select **Check Out**.</span></span>
 
-6. <span data-ttu-id="5b265-163">가격 정보를 검토 하 고 **다음**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="5b265-163">Review the pricing information and select **Next**.</span></span>
+6. <span data-ttu-id="6525a-163">가격 정보를 검토 하 고 **다음**을 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="6525a-163">Review the pricing information and select **Next**.</span></span>
 
-7. <span data-ttu-id="5b265-164">결제 정보를 입력 한 다음 **주문을**선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="5b265-164">Provide your payment information, and then select **Place order**.</span></span>
+7. <span data-ttu-id="6525a-164">결제 정보를 입력 한 다음 **주문을**선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="6525a-164">Provide your payment information, and then select **Place order**.</span></span>
 
-8. <span data-ttu-id="5b265-165">확인 페이지에서 **관리 홈으로 이동을**선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="5b265-165">On the confirmation page, select **Go to Admin Home**.</span></span>
+8. <span data-ttu-id="6525a-165">확인 페이지에서 **관리 홈으로 이동을**선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="6525a-165">On the confirmation page, select **Go to Admin Home**.</span></span>
 
 ::: moniker-end
 
-## <a name="related-articles"></a><span data-ttu-id="5b265-166">관련 문서</span><span class="sxs-lookup"><span data-stu-id="5b265-166">Related articles</span></span>
 
-[<span data-ttu-id="5b265-167">평가판 연장</span><span class="sxs-lookup"><span data-stu-id="5b265-167">Extend your trial</span></span>](extend-your-trial.md)
+## <a name="related-articles"></a><span data-ttu-id="6525a-166">관련 문서</span><span class="sxs-lookup"><span data-stu-id="6525a-166">Related articles</span></span>
+
+[<span data-ttu-id="6525a-167">평가판 연장</span><span class="sxs-lookup"><span data-stu-id="6525a-167">Extend your trial</span></span>](extend-your-trial.md)
   
-[<span data-ttu-id="5b265-168">Office 365에 등록</span><span class="sxs-lookup"><span data-stu-id="5b265-168">Sign up for Office 365</span></span>](../admin/admin-overview/sign-up-for-office-365.md)
+[<span data-ttu-id="6525a-168">Microsoft 365에 등록</span><span class="sxs-lookup"><span data-stu-id="6525a-168">Sign up for Microsoft 365</span></span>](../admin/admin-overview/sign-up-for-office-365.md)
   
-[<span data-ttu-id="5b265-169">다른 Office 365 계획 또는 구독으로 전환</span><span class="sxs-lookup"><span data-stu-id="5b265-169">Switch to a different Office 365 plan or subscription</span></span>](subscriptions/switch-to-a-different-plan.md)
+[<span data-ttu-id="6525a-169">다른 Microsoft 365 계획 또는 구독으로 전환</span><span class="sxs-lookup"><span data-stu-id="6525a-169">Switch to a different Microsoft 365 plan or subscription</span></span>](subscriptions/switch-to-a-different-plan.md)
