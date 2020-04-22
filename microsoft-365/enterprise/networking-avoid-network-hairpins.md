@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 09/23/2019
+ms.date: 04/20/2020
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 더 나은 성능을 위해 네트워크 헤어핀을 이해하고 제거합니다.
-ms.openlocfilehash: f9499fdb8e8c3f7b77e3349d6cc99f6dbf465870
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 1d5e10bdd8b79f5c7ccd646ac08f83bb2c48b6ee
+ms.sourcegitcommit: d818828c66cf98b0b0037ba8b3cb790c940281b7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42066719"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43583428"
 ---
 # <a name="step-3-avoid-network-hairpins"></a>3단계: 네트워크 헤어핀 방지
 
@@ -47,6 +47,8 @@ Microsoft 365 트래픽을 위해 클라우드 기반 네트워크 또는 보안
 가능하면 인터넷 트래픽을 처리하는 타사 클라우드 또는 클라우드 기반 네트워크 보안 공급업체를 통한 프로시 또는 터널링 대신, 신뢰할 수 있는 Microsoft 365 트래픽을 직접 전송하도록 에지 라우터를 구성합니다. 
 
 ![네트워크 헤어핀의 우회 예시](../media/networking-avoid-network-hairpins/bypassing-network-hairpin.png)
+
+Microsoft의 전역 네트워크에 대한 진입점과 얼마나 근접한지와 조직 네트워크가 ISP에 연결되는 지점과 얼마나 근접한지를 테스트하려면 [Office 365 Network 온보딩 도구](https://connectivity.office.com/)를 사용하세요.
 
 중간 검사점으로 이 단계에 대한 [종료 조건](networking-exit-criteria.md#crit-networking-step3)을 확인할 수 있습니다.
 

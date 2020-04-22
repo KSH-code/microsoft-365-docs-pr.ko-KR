@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 04/13/2020
+ms.date: 04/20/2020
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 신뢰할 수 있는 Office 365 위치로의 트래픽 바이패스를 위해 웹 브라우저 및 에 장치를 이해하고 구성합니다.
-ms.openlocfilehash: b04e16b249dccf8f2461189b8b47abdd252a75d8
-ms.sourcegitcommit: dbbdeca5a6cd048e1bde9e820a8b8a0d6022c7a2
+ms.openlocfilehash: 68e8f7868e0b0f7b3da80bd5f19b18f261b1b05c
+ms.sourcegitcommit: d818828c66cf98b0b0037ba8b3cb790c940281b7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "43504082"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43583396"
 ---
 # <a name="step-4-configure-traffic-bypass"></a>4단계: 트래픽 바이패스 구성
 
@@ -61,6 +61,8 @@ Microsoft 365 최적화 및 허용 범주 끝점에 대한 트래픽의 일반 �
 분산 터널링은 인터넷의 특정 트래픽을 VPN 연결이 아닌 인터넷으로 보내는 VPN 연결 기능입니다. Teams, SharePoint Online, Exchange Online 등의 주요 Microsoft 365 서비스를 사용하는 원격 근무자의 최상의 성능을 위해서 VPN 연결에 분산 터널링을 구성하여 인터넷을 통해 Office 365 끝점 항목을 최적화하여 트래픽을 보냅니다. 
 
 자세한 내용은 [VPN 분산 터널링을 사용하여 원격 근무자의 Office 365 연결 원격 최적화](https://docs.microsoft.com/office365/enterprise/office-365-vpn-split-tunnel)를 참조하세요. 
+
+Microsoft의 전역 네트워크에 대한 진입점과 얼마나 근접한지와 조직 네트워크가 ISP에 연결되는 지점과 얼마나 근접한지를 테스트하려면 [Office 365 Network 온보딩 도구](https://connectivity.office.com/)를 사용하세요.
 
 중간 검사점으로 이 단계에 대한 [종료 조건](networking-exit-criteria.md#crit-networking-step4)을 확인할 수 있습니다.
 

@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 09/23/2019
+ms.date: 04/20/2020
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 성능 향상을 위해 DNS 확인을 이해하고 구성합니다.
-ms.openlocfilehash: 8b4302c06e75c59a1b99eb60399c9df897ad17ea
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: bc1460ec40cda26d4784c7af5e909e4dca3c1f24
+ms.sourcegitcommit: d818828c66cf98b0b0037ba8b3cb790c940281b7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42066669"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43583440"
 ---
 # <a name="step-2-configure-local-internet-connections-for-each-office"></a>2단계: 각 사무실에 대해 로컬 인터넷 연결 구성
 
@@ -56,6 +56,8 @@ Microsoft 전역 네트워크는 우수한 가용성과 확장성을 갖추고 �
 - 각 로컬 인터넷 연결은 해당 위치에서의 아웃바운드 인터넷 트래픽에 지역적으로 로컬에 있는 DNS 서버를 사용해야 합니다.
 
 자세한 내용은 [네트워크 연결을 로컬로 송신](https://docs.microsoft.com/office365/enterprise/office-365-network-connectivity-principles#egress-network-connections-locally)을 참조하세요. 
+
+Microsoft의 전역 네트워크에 대한 진입점과 얼마나 근접한지와 조직 네트워크가 ISP에 연결되는 지점과 얼마나 근접한지를 테스트하려면 [Office 365 Network 온보딩 도구](https://connectivity.office.com/)를 사용하세요.
 
 중간 검사점으로 이 단계에 대한 [종료 조건](networking-exit-criteria.md#crit-networking-step2)을 확인할 수 있습니다.
 
