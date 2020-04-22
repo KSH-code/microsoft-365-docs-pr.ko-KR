@@ -11,22 +11,22 @@ f1.keywords: NOCSH
 ms.custom: ''
 localization_priority: Priority
 description: Microsoft 365에서 사용할 수 있는 게스트 공유 설정에 대해 알아봅니다.
-ms.openlocfilehash: 74bf2fd431b604b7f38043bfc029232137b24cf1
-ms.sourcegitcommit: 21338a9287017a66298e0ff557e80051946ebf13
+ms.openlocfilehash: 396f55063461bb4a87813cc1e3943c5a4afd7156
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "42604669"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43625161"
 ---
 # <a name="microsoft-365-guest-sharing-settings-reference"></a>Microsoft 365 게스트 공유 설정 참조
 
-이 문서에서는 Teams, Office 365 그룹, SharePoint 및 OneDrive와 같이 Microsoft 365 작업에서 조직 외부 사용자와 공유하는 데 영향을 줄 수 있는 다양한 설정에 대한 참조를 제공합니다. 이러한 설정은 Azure Active Directory, Microsoft 365, Teams 및 SharePoint 관리 센터에 있습니다.
+이 문서에서는 Teams, Microsoft 365 그룹, SharePoint 및 OneDrive와 같이 Microsoft 365 작업에서 조직 외부 사용자와 공유하는 데 영향을 줄 수 있는 다양한 설정에 대한 참조를 제공합니다. 이러한 설정은 Azure Active Directory, Microsoft 365, Teams 및 SharePoint 관리 센터에 있습니다.
 
 ## <a name="azure-active-directory"></a>Azure Active Directory
 
 **관리자 역할:** 전역 관리자 
 
-Azure Active Directory는 Microsoft 365에서 사용하는 디렉터리 서비스입니다. Azure Active Directory 조직 관계 설정은 Teams, Office 365 그룹, SharePoint 및 OneDrive의 공유에 직접적인 영향을 미칩니다.
+Azure Active Directory는 Microsoft 365에서 사용하는 디렉터리 서비스입니다. Azure Active Directory 조직 관계 설정은 Teams, Microsoft 365 그룹, SharePoint 및 OneDrive의 공유에 직접적인 영향을 미칩니다.
 
 > [!NOTE]
 > 이 설정은 [Sharepoint 및 Azure AD B2B와 OneDrive 통합(미리 보기)](https://docs.microsoft.com/sharepoint/sharepoint-azureb2b-integration-preview)이 구성된 경우에만 Sharepoint에 영향을 줍니다. 아래 표는 이 구성을 가정합니다.
@@ -41,7 +41,7 @@ Azure Active Directory는 Microsoft 365에서 사용하는 디렉터리 서비�
 |:-----|:-----|:-----|
 |게스트 사용자의 사용 권한 제한|예|이 설정은 게스트가 수행할 수 있는 디렉터리 작업에 영향을 줍니다.|
 |관리자 및 게스트 초대자 역할의 사용자만 초대 가능|예|**예**로 설정된 경우 관리자는 Azure AD와 Teams 및 SharePoint와 같은 Microsoft 365 공유 환경을 통해 게스트를 초대할 수 있습니다. **아니요**로 설정된 경우 할 수 없습니다.|
-|구성원이 게스트를 초대할 수 있음|예|**예**로 설정된 경우 Azure AD 구성원이 Azure AD를 통해 게스트를 초대할 수 있습니다. **아니요**로 설정된 경우 할 수 없습니다. **예**로 설정된 경우 Office 365 그룹 구성원이 게스트를 소유자 승인으로 초대할 수 있습니다. **아니요**로 설정된 경우 Office 365 그룹 구성원은 소유자 승인으로 게스트를 초대할 수 있지만 소유자는 승인을 하기 위해 전역 관리자여야 합니다. <br><br>**구성원이 게스트를 초대할 수 있음**은 Microsoft 365에서 사이트 또는 그룹 구성원이 아니라 Azure AD의 구성원(게스트와 반대되는)을 언급함을 유의합니다. <br><br>이것은 사용자가 Microsoft 365 보안&개인 정보에서 **조직에 새 게스트를 추가**하도록 허용 설정을 사용하는 것과 같습니다.|
+|구성원이 게스트를 초대할 수 있음|예|**예**로 설정된 경우 Azure AD 구성원이 Azure AD를 통해 게스트를 초대할 수 있습니다. **아니요**로 설정된 경우 할 수 없습니다. **예**로 설정된 경우 Microsoft 365 그룹 구성원이 게스트를 소유자 승인으로 초대할 수 있습니다. **아니요**로 설정된 경우 Microsoft 365 그룹 구성원은 소유자 승인으로 게스트를 초대할 수 있지만, 소유자는 승인하기 위해 전역 관리자여야 합니다. <br><br>**구성원이 게스트를 초대할 수 있음**은 Microsoft 365에서 사이트 또는 그룹 구성원이 아니라 Azure AD의 구성원(게스트와 반대되는)을 언급함을 유의합니다. <br><br>이것은 사용자가 Microsoft 365 보안&개인 정보에서 **조직에 새 게스트를 추가**하도록 허용 설정을 사용하는 것과 같습니다.|
 |게스트가 게스트를 초대할 수 있음|예|**예**로 설정된 경우에는 디렉토리의 게스트가 다른 게스트를 Azure AD 리소스 및 SharePoint 및 OneDrive의 파일 및 폴더에서 공동 작업하도록 초대할 수 있습니다. **아니요**로 설정하면 할 수 없습니다. <br><br>게스트가 파일 및 폴더를 다른 게스트와 공유하려면 SharePoint 관리자 센터에서 **정확한 전자 메일 주소를 입력하여 외부 사용자가 디렉토리의 사용자 계정을 찾을 수 있도록 허용**해야 합니다.|
 |게스트에 메일 일회용 암호 사용(미리 보기)|아니요|**예**로 설정된 경우에는 MSA 또는 직장 또는 학교 계정이 없는 게스트는 [일회용 암호를 사용하여 Azure AD에서 인증](https://docs.microsoft.com/azure/active-directory/b2b/one-time-passcode)할 수 있습니다. **아니요**로 설정하면 사용자는 인증을 위해 Microsoft 계정을 만들어야 합니다. [Azure AD B2B와 SharePoint 및 OneDrive의 통합(미리 보기)](https://docs.microsoft.com/sharepoint/sharepoint-azureb2b-integration-preview)이 작동하려면 이 설정을 **켜짐**으로 설정해야 합니다.|
 |공동 작업 제한 사항|모든 도메인에 초대를 보낼 수 있도록 허용|이 설정을 사용하면 공유에 허용되거나 차단된 도메인 목록을 지정할 수 있습니다. 허용 도메인이 지정되면 해당 도메인에만 공유 초대를 보낼 수 있습니다. 거부된 도메인을 지정하면 공유 초대장을 해당 도메인으로 보낼 수 없습니다.<br><br> 이 설정은 Teamsdhk SharePoint와 같은 Microsoft 365 공유 환경에 영향을 줍니다. SharePoint 또는 Teams의 도메인 필터링을 사용하여 더 세분화된 수준으로 도메인을 허용하거나 차단할 수 있습니다.|
@@ -52,7 +52,7 @@ Azure Active Directory는 Microsoft 365에서 사용하는 디렉터리 서비�
 
 **관리자 역할:** 전역 관리자 
 
-Microsoft 365 관리 센터에는 공유 및 Office 365 그룹에 대한 조직 수준 설정이 있습니다.
+Microsoft 365 관리 센터에는 공유 및 Microsoft 365 그룹에 대한 조직 수준 설정이 있습니다.
 
 ### <a name="sharing"></a>공유
 
@@ -62,18 +62,18 @@ Microsoft 365 관리 센터에는 공유 및 Office 365 그룹에 대한 조직 
 
 |**설정**|**기본값**|**설명**|
 |:-----|:-----|:-----|
-|사용자가 조직에 새 게스트를 추가하도록 허용|켜짐|**예**로 설정된 경우 Azure AD 구성원이 Azure AD를 통해 게스트를 초대할 수 있습니다. **아니요**로 설정된 경우 할 수 없습니다. **예**로 설정된 경우 Office 365 그룹 구성원이 게스트를 소유자 승인으로 초대할 수 있습니다. **아니요**로 설정된 경우 Office 365 그룹 구성원은 소유자 승인으로 게스트를 초대할 수 있지만 소유자는 승인을 하기 위해 전역 관리자여야 합니다. <br><br>**구성원이 게스트를 초대할 수 있음**은 Microsoft 365에서 사이트 또는 그룹 구성원이 아니라 Azure AD의 구성원(게스트와 반대되는)을 언급함을 유의합니다. <br><br>Azure Active Directory 조직 관계 설정에서 **구성원이 게스트를 초대할 수 있음** 설정과 동일합니다.|
+|사용자가 조직에 새 게스트를 추가하도록 허용|켜짐|**예**로 설정된 경우 Azure AD 구성원이 Azure AD를 통해 게스트를 초대할 수 있습니다. **아니요**로 설정된 경우 할 수 없습니다. **예**로 설정된 경우 Microsoft 365 그룹 구성원이 게스트를 소유자 승인으로 초대할 수 있습니다. **아니요**로 설정된 경우 Microsoft 365 그룹 구성원은 소유자 승인으로 게스트를 초대할 수 있지만, 소유자는 승인하기 위해 전역 관리자여야 합니다. <br><br>**구성원이 게스트를 초대할 수 있음**은 Microsoft 365에서 사이트 또는 그룹 구성원이 아니라 Azure AD의 구성원(게스트와 반대되는)을 언급함을 유의합니다. <br><br>Azure Active Directory 조직 관계 설정에서 **구성원이 게스트를 초대할 수 있음** 설정과 동일합니다.|
 
-### <a name="office-365-groups"></a>Office 365 그룹
+### <a name="microsoft-365-groups"></a>Microsoft 365 그룹
 
-**탐색:** [Microsoft 365 관리 센터](https://admin.microsoft.com) > 설정 > 설정 > Office 365 그룹
+**탐색:** [Microsoft 365 관리 센터](https://admin.microsoft.com) > 설정 > 설정 > Microsoft 365 그룹
 
-![Microsoft 365 관리 센터의 Office 365 그룹 게스트 설정 스크린샷](../media/office-365-groups-guest-settings.png)
+![Microsoft 365 관리 센터의 Microsoft 365 그룹 게스트 설정 스크린샷](../media/office-365-groups-guest-settings.png)
 
 |**설정**|**기본값**|**설명**|
 |:-----|:-----|:-----|
-|조직 외부의 그룹 구성원이 그룹 콘텐츠에 액세스하도록 허용|켜짐|**켜짐**으로 설정되면 게스트가 그룹 콘텐츠에 액세스할 수 있습니다. **해제**로 설정하면 할 수 없습니다. 게스트 사용자가 Office 365 그룹 또는 Teams와 상호 작용하는 모든 시나리오의 경우 이 설정을 **켜짐**으로 지정해야 합니다.|
-|그룹 소유자가 조직 외부의 사람을 그룹에 추가하도록 허용|켜짐|**켜짐**으로 설정되면 Office 365 그룹 또는 Teams 소유자는 새 게스트를 그룹에 초대할 수 있습니다. 이 기능을 **해제**하면 소유자는 이미 디렉토리에 있는 게스트만 초대할 수 있습니다.|
+|조직 외부의 그룹 구성원이 그룹 콘텐츠에 액세스하도록 허용|켜짐|**켜짐**으로 설정되면 게스트가 그룹 콘텐츠에 액세스할 수 있습니다. **해제**로 설정하면 할 수 없습니다. 게스트 사용자가 Microsoft 365 그룹 또는 Teams와 상호 작용하는 모든 시나리오의 경우 이 설정을 **켜짐**으로 지정해야 합니다.|
+|그룹 소유자가 조직 외부의 사람을 그룹에 추가하도록 허용|켜짐|**켜짐**으로 설정되면 Microsoft 365 그룹 또는 Teams 소유자는 새 게스트를 그룹에 초대할 수 있습니다. 이 기능을 **해제**하면 소유자는 이미 디렉토리에 있는 게스트만 초대할 수 있습니다.|
 
 이러한 설정은 조직 수준에 있습니다. PowerShell을 사용하여 그룹 수준에서 이러한 설정을 변경하는 방법에 대한 자세한 내용은 [특정 그룹에 대한 설정 만들기](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-settings-cmdlets#create-settings-for-a-specific-group)를 참조하세요.
 
@@ -136,7 +136,7 @@ Microsoft 365 관리 센터에는 공유 및 Office 365 그룹에 대한 조직 
 
 **관리자 역할:** SharePoint 관리자
 
-이러한 설정은 조직의 모든 사이트에 영향을 줍니다. Office 365 그룹 또는 Teams에 직접 영향을 주지는 않지만 사용자 환경 문제를 피하기 위해 Office 365 그룹 및 Teams의 설정을 사용하여 이 설정을 조정하는 것이 좋습니다. (예를 들어 게스트 공유는 Teams에서 허용되지만 SharePoint에서는 허용되지 않는 경우 Teams 파일이 SharePoint에 저장되므로 Teams의 게스트는 파일 탭에 액세스할 수 없습니다.)
+이러한 설정은 조직의 모든 사이트에 영향을 줍니다. Microsoft 365 그룹 또는 Teams에 직접 영향을 주지는 않지만, 사용자 환경 문제를 피하기 위해 Microsoft 365 그룹 및 Teams의 설정을 사용하여 이 설정을 조정하는 것이 좋습니다. (예를 들어 게스트 공유는 Teams에서 허용되지만 SharePoint에서는 허용되지 않는 경우 Teams 파일이 SharePoint에 저장되므로 Teams의 게스트는 파일 탭에 액세스할 수 없습니다.)
 
 ### <a name="sharepoint-and-onedrive-sharing-settings"></a>SharePoint 및 OneDrive에서 공유 설정
 
@@ -180,7 +180,7 @@ SharePoint 및 OneDrive에서 파일 및 폴더를 공유하는 경우 공유받
 
 ### <a name="sharepoint-and-onedrive-security-group-settings"></a>SharePoint 및 OneDrive에서 보안 그룹 설정
 
-SharePoint 및 OneDrive에서 게스트와 공유할 수 있는 사용자를 제한 하려면 지정된 보안 그룹에 있는 사용자와의 공유를 제한하는 것이 좋습니다. 이러한 설정은 Office 365 그룹 또는 Teams를 통한 공유에는 영향을 주지 않습니다. 그룹 또는 팀을 통해 초대한 게스트는 관련 사이트에도 액세스할 수 있지만, 문서 및 폴더 공유는 지정된 보안 그룹의 사용자만 수행할 수 있습니다.
+SharePoint 및 OneDrive에서 게스트와 공유할 수 있는 사용자를 제한 하려면 지정된 보안 그룹에 있는 사용자와의 공유를 제한하는 것이 좋습니다. 이러한 설정은 Microsoft 365 그룹 또는 Teams를 통한 공유에는 영향을 주지 않습니다. 그룹 또는 팀을 통해 초대한 게스트는 관련 사이트에도 액세스할 수 있지만, 문서 및 폴더 공유는 지정된 보안 그룹의 사용자만 수행할 수 있습니다.
 
 **탐색:** SharePoint 관리 센터 > 공유 > 특정 보안 그룹으로 외부 공유를 제한합니다.
 
@@ -234,7 +234,7 @@ SharePoint의 각 사이트에 대한 게스트 공유 권한을 설정할 수 �
 |:-----|:-----|
 |Classic|**조직 내부 사용자만**|
 |OneDrive|**모든 사용자**|
-|그룹 연결 사이트(Teams 포함)|**신규 및 기존 게스트** Office 365 그룹 설정 **그룹 소유자가 조직 외부 사람을 그룹에 추가하도록 허용**이 **켜져** 있는 경우에 해당합니다. 그렇지 않으면 **기존 게스트만** 해당됩니다.|
+|그룹 연결 사이트(Teams 포함)|**신규 및 기존 게스트** Microsoft 365 그룹 설정 **그룹 소유자가 조직 외부 사람을 그룹에 추가하도록 허용**이 **켜져** 있는 경우에 해당합니다. 그렇지 않으면 **기존 게스트만** 해당됩니다.|
 |통신|**조직 내부 사용자만**|
 |그룹이 없는 최신 사이트 (#STS3 TeamSite)|**조직 내부 사용자만**|
 
@@ -247,4 +247,4 @@ SharePoint의 각 사이트에 대한 게스트 공유 권한을 설정할 수 �
 
 [Microsoft Teams의 게스트 액세스](https://docs.microsoft.com/MicrosoftTeams/guest-access)
 
-[Office 365 그룹에 게스트 추가](https://support.office.com/article/bfc7a840-868f-4fd6-a390-f347bf51aff6)
+[Microsoft 365 그룹에 게스트 추가하기](https://support.office.com/article/bfc7a840-868f-4fd6-a390-f347bf51aff6)

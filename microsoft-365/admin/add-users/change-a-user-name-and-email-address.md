@@ -1,5 +1,5 @@
 ---
-title: Office 365에서 사용자 이름 및 전자 메일 주소 변경
+title: 사용자 이름 및 전자 메일 주소 변경
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -21,17 +21,17 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: fb5ac074-e203-4e1f-9843-b9d1a3e03297
-description: '전역 관리자가 사용자의 Office 365 전자 메일 주소 및 표시 이름을 변경하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 16dab0f0ac65bccea0e2273e396315a32dd33439
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+description: '전역 관리자가 사용자의 전자 메일 주소 및 표시 이름을 변경하는 방법에 대해 알아봅니다. '
+ms.openlocfilehash: 726d1f01203bbaefc529039d3816fb09c892cd90
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42245754"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43618743"
 ---
-# <a name="change-a-user-name-and-email-address-in-office-365"></a>Office 365에서 사용자 이름 및 전자 메일 주소 변경
+# <a name="change-a-user-name-and-email-address"></a>사용자 이름 및 전자 메일 주소 변경
 
-예를 들어 사용자가 결혼하여 성이 바뀌는 경우 해당 사용자의 Office 365 전자 메일 주소 및 표시 이름을 변경해야 할 수 있습니다.
+예를 들어 사용자가 결혼하여 성이 바뀌는 경우 해당 사용자의 전자 메일 주소 및 표시 이름을 변경해야 할 수 있습니다.
 
 ::: moniker range="o365-worldwide"
 
@@ -48,7 +48,7 @@ ms.locfileid: "42245754"
 
 ## <a name="change-a-users-email-address"></a>사용자의 전자 메일 주소 변경
 
-다음 단계를 수행하려면 [Office 365 전역 관리자](about-admin-roles.md)여야 합니다. 
+다음 단계를 수행하려면 [전역 관리자](about-admin-roles.md)여야 합니다. 
 
 ::: moniker range="o365-worldwide"
  
@@ -101,7 +101,7 @@ ms.locfileid: "42245754"
     
     **중요**: GoDaddy 또는 관리 콘솔을 제공하는 다른 파트너 서비스에서 Office 365를 구매한 경우 이 기본으로 설정 옵션이 표시되지 않습니다. 대신 GoDaddy/파트너 관리 콘솔에 로그인하여 기본 별칭을 설정하세요. 
     
-    또한 Office 365 전역 관리자인 경우에만 이 옵션이 표시됩니다. 이 옵션이 표시되지 않으면 사용자의 이름과 기본 전자 메일 주소를 변경할 수 있는 권한이 없는 것입니다.
+    또한 전역 관리자인 경우에만 이 옵션이 표시됩니다. 이 옵션이 표시되지 않으면 사용자의 이름과 기본 전자 메일 주소를 변경할 수 있는 권한이 없는 것입니다.
   
 4. 사용자의 로그인 정보를 변경하려 한다는 큰 노란색 경고가 표시됩니다. **저장**을 선택한 다음 **닫기**를 선택합니다.
     
@@ -129,7 +129,7 @@ ms.locfileid: "42245754"
     
     **중요**: GoDaddy 또는 관리 콘솔을 제공하는 다른 파트너 서비스에서 Office 365를 구매한 경우 이 기본으로 설정 옵션이 표시되지 않습니다. 대신 GoDaddy/파트너 관리 콘솔에 로그인하여 기본 별칭을 설정하세요. 
     
-    또한 Office 365 전역 관리자인 경우에만 이 옵션이 표시됩니다. 이 옵션이 표시되지 않으면 사용자의 이름과 기본 전자 메일 주소를 변경할 수 있는 권한이 없는 것입니다.
+    또한 전역 관리자인 경우에만 이 옵션이 표시됩니다. 이 옵션이 표시되지 않으면 사용자의 이름과 기본 전자 메일 주소를 변경할 수 있는 권한이 없는 것입니다.
   
 4. 사용자의 로그인 정보를 변경하려 한다는 큰 노란색 경고가 표시됩니다. **저장**을 선택한 다음 **닫기**를 선택합니다.
     
@@ -157,7 +157,7 @@ ms.locfileid: "42245754"
     
     **중요**: GoDaddy 또는 관리 콘솔을 제공하는 다른 파트너 서비스에서 Office 365를 구매한 경우 이 기본으로 설정 옵션이 표시되지 않습니다. 대신 GoDaddy/파트너 관리 콘솔에 로그인하여 기본 별칭을 설정하세요. 
     
-    또한 Office 365 전역 관리자인 경우에만 이 옵션이 표시됩니다. 이 옵션이 표시되지 않으면 사용자의 이름과 기본 전자 메일 주소를 변경할 수 있는 권한이 없는 것입니다.
+    또한 전역 관리자인 경우에만 이 옵션이 표시됩니다. 이 옵션이 표시되지 않으면 사용자의 이름과 기본 전자 메일 주소를 변경할 수 있는 권한이 없는 것입니다.
   
 4. 사용자의 로그인 정보를 변경하려 한다는 큰 노란색 경고가 표시됩니다. **저장**을 선택한 다음 **닫기**를 선택합니다.
     
@@ -223,22 +223,22 @@ ms.locfileid: "42245754"
 
 ### <a name="a-parameter-cannot-be-found-that-matches-parameter-name-emailaddresses"></a>"매개 변수 이름 'EmailAddresses와 일치하는 매개 변수를 찾을 수 없습니다.”
 
-" **A parameter cannot be found that matches parameter name 'EmailAddresses**"(매개 변수 이름 'EmailAddresses와 일치하는 매개 변수를 찾을 수 없습니다.) 오류 메시지가 표시되는 경우 Office 365에서 테넌트 또는 최근에 추가한 사용자 지정 도메인 설정을 완료하는 데 시간이 더 소요됨을 의미합니다. 설정 프로세스를 완료하는 데 최대 4시간이 걸릴 수 있습니다. 설정 프로세스가 완료될 때까지 기다린 후 다시 시도하세요. 문제가 계속되는 경우 고객 지원에 문의하면 전체 동기화를 수행해 드립니다.
+"**A parameter cannot be found that matches parameter name 'EmailAddresses**"(매개 변수 이름 'EmailAddresses와 일치하는 매개 변수를 찾을 수 없습니다.) 오류 메시지가 표시되는 경우 테넌트 또는 최근에 추가한 사용자 지정 도메인 설정을 완료하는 데 시간이 더 소요됨을 의미합니다. 설정 프로세스를 완료하는 데 최대 4시간이 걸릴 수 있습니다. 설정 프로세스가 완료될 때까지 기다린 후 다시 시도하세요. 문제가 계속되는 경우 고객 지원에 문의하면 전체 동기화를 수행해 드립니다.
   
 ### <a name="were-sorry-the-user-couldnt-be-edited-review-the-user-information-and-try-again"></a>“죄송합니다. 사용자를 편집할 수 없습니다. 사용자 정보를 검토하고 다시 시도하세요."
 
-" **사용자를 편집할 수 없습니다. 사용자 정보를 검토하고 다시 시도하세요.** "라는 오류 메시지가 표시되는 경우 Office 365 전역 관리자가 아니어서 사용자 이름을 변경할 수 있는 권한이 없다는 의미입니다. 회사의 전역 관리자를 찾아 변경해 달라고 요청하세요.
+" **사용자를 편집할 수 없습니다. 사용자 정보를 검토하고 다시 시도하세요.** “라는 오류 메시지가 표시되는 경우 전역 관리자가 아니어서 사용자 이름을 변경할 수 있는 권한이 없다는 의미입니다. 회사의 전역 관리자를 찾아 변경해 달라고 요청하세요.
 
 
 ## <a name="what-to-do-with-old-email-addresses"></a>기존 전자 메일 주소로 수행할 작업
 
 사용자의 이전 기본 전자 메일 주소는 추가 전자 메일로 보존됩니다. **이전 전자 메일 주소를 제거하지 않는 것이 좋습니다.**
   
-일부 사람들은 계속 사용자의 이전 전자 메일 주소로 전자 메일을 보낼 수도 있으므로 이전 전자 메일 주소를 삭제하면 NDR 오류가 발생할 수 있습니다. Office 365에서는 자동으로 전자 메일을 새 전자 메일 주소로 라우팅합니다. 또한 이전 SMTP 전자 메일 주소를 다시 사용하지 말고 해당 주소를 새 계정에 적용하지 마세요. 이렇게 할 경우에도 NDR 오류가 발생하거나 의도하지 않은 사서함으로 배달될 수 있습니다.
+일부 사람들은 계속 사용자의 이전 전자 메일 주소로 전자 메일을 보낼 수도 있고 이전 전자 메일 주소를 삭제하면 NDR 오류가 발생할 수 있습니다. Microsoft에서는 자동으로 전자 메일을 새 전자 메일 주소로 라우팅합니다. 또한 이전 SMTP 전자 메일 주소를 다시 사용하지 말고 해당 주소를 새 계정에 적용하지 마세요. 이렇게 할 경우에도 NDR 오류가 발생하거나 의도하지 않은 사서함으로 전송될 수 있습니다.
    
 ## <a name="what-if-the-persons-offline-address-book-wont-sync-with-the-global-address-list"></a>사용자의 오프라인 주소록이 전체 주소 목록과 동기화되지 않으면 어떻게 되나요?
 
-사용자가 Exchange Online을 사용 중이거나 해당 Office 365 계정이 조직의 온-프레미스 Exchange 환경과 연결된 경우 사용자 이름 및 전자 메일 주소를 변경하려고 하면 다음 오류가 표시될 수 있습니다. "이 사용자가 로컬 Active Directory와 동기화되었습니다. 일부 세부 정보는 로컬 Active Directory를 통해서만 편집할 수 있습니다."
+사용자가 Exchange Online을 사용 중이거나 해당 계정이 조직의 온-프레미스 Exchange 환경과 연결된 경우 사용자 이름 및 전자 메일 주소를 변경하려고 하면 다음의 오류가 표시될 수 있습니다. "이 사용자가 로컬 Active Directory와 동기화되었습니다. 일부 세부 정보는 로컬 Active Directory를 통해서만 편집할 수 있습니다."
   
 이 오류는 MOERA(Microsoft Online Email Routing Address) 때문에 발생합니다. MOERA는 Active Directory에서 사용자의  _userPrincipalName_ 특성에서 생성되고 초기 동기화 중에 클라우드 계정에 자동으로 할당되며 만들어진 후에는 Office 365에서 수정하거나 제거할 수 없습니다. 나중에 Active Directory에서 사용자 이름을 변경할 수 있지만, MOERA는 변경되지 않으며 전체 주소 목록에 새로 변경된 이름이 표시되는 문제가 발생할 수 있습니다. 
   

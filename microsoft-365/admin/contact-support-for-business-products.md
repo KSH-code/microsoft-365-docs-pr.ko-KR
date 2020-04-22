@@ -24,12 +24,12 @@ search.appverid:
 ms.assetid: 32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b
 description: 해당 지역 또는 현지 전화 번호를 사용하거나 온라인으로 서비스 요청을 제출하거나 Microsoft store를 방문하여 기술 및 청구 지원을 받습니다.
 feedback_system: None
-ms.openlocfilehash: 8f108f4348a7cecd62eba869962d9ee5b179b5b0
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+ms.openlocfilehash: 8f69b77d8e16d4ed73aa8ecf9f15bc8998cf0f20
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43212120"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627081"
 ---
 # <a name="contact-support-for-business-products---admin-help"></a>비즈니스 제품에 대해 고객 지원 센터 문의 - 관리자 도움말
 
@@ -62,7 +62,7 @@ ms.locfileid: "43212120"
 
 - **영국에서는 0800 032 6417로 전화하십시오.**
 
-Office 365 또는 Microsoft 365 비즈니스 지원 전화번호가 위에 나타나지 않으면 아래 드롭다운 메뉴를 사용하여 국가 또는 지역을 선택하세요.
+비즈니스용 Microsoft 365 지원 전화번호가 위에 나타나지 않으면 아래 드롭다운 메뉴를 사용하여 국가 또는 지역을 선택하세요.
 
 [!INCLUDE [country-region-support-dropdown-list](includes/country-region-support-dropdown-list.md)]
 
@@ -70,13 +70,15 @@ Office 365 또는 Microsoft 365 비즈니스 지원 전화번호가 위에 나�
 
 ## <a name="in-store-support"></a>[스토어 내 지원](#tab/instore)
 
-이제 Microsoft Office 365 또는 Microsoft 365 문제를 해결하도록 도울 수 있는 Answer Desk 전문가가 있는 Microsoft Store에서 약속을 잡을 수 있습니다.
+이제 Microsoft 365 문제를 해결하도록 도울 수 있는 Answer Desk 전문가가 있는 Microsoft Store에서 약속을 잡을 수 있습니다.
 
 1. [Microsoft Store 예약](https://go.microsoft.com/fwlink/?LinkID=2041482) 페이지로 이동하여 **예약하기**를 선택합니다.
 
 2. 사용자의 현재 위치를 입력하고 가까운 Microsoft Store를 찾습니다.
 
 3. 매장을 선택한 다음, **지금 서비스 예약하기**를 선택합니다.
+
+---
 
 ::: moniker-end
 
@@ -86,7 +88,7 @@ Office 365 또는 Microsoft 365 비즈니스 지원 전화번호가 위에 나�
 
 권한이 있는 관리자는 21Vianet 포털에서 운영하는 Office 365를 사용하여 온라인으로 서비스 요청을 제출하고 지원 전화 번호에 액세스할 수 있습니다. 자세한 내용은 [고객 지원 센터 문의](#contact-support)를 참조하세요.
 
-21Vianet Office 365 기술 지원 팀은 21Vianet에서 운영하는 Office 365와 관련된 문제만 해결합니다. 고객 네트워크에서 발생하는 문제는 Office 365 지원 범위를 벗어납니다. 이러한 경우 고객은 해당 네트워킹 팀에 지원을 요청해야 합니다.
+21Vianet이 운영하는 Office 365 기술 지원 팀은 21Vianet에서 운영하는 Office 365와 관련된 문제만 해결합니다. 고객 네트워크에서 발생하는 문제는 Office 365 지원 범위를 벗어납니다. 이러한 경우 고객은 해당 네트워킹 팀에 지원을 요청해야 합니다.
 
 ### <a name="community-and-self-service-support-options"></a>커뮤니티 및 셀프 서비스 지원 옵션
 
@@ -120,7 +122,7 @@ Office 365 또는 Microsoft 365 비즈니스 지원 전화번호가 위에 나�
 
 | 지원 범주 | 예 |
 |------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| 설치 및 설정 | Exchange Online  <ul><li>Office 365 사서함 마이그레이션</li><li>받는 사람 구성(사서함 권한, 메일 전달 구성, 공유 사서함 구성)</li><li>자동 검색 구성</li></ul> SharePoint Online <ul><li>사용 권한 및 사용자 그룹</li><li>외부 사용자 구성</li></ul> 비즈니스용 Skype Online  <ul><li>설치 및 연락처 만들기</li></ul> Office 365 ProPlus  <ul><li>설치 및 설정</li></ul> |
+| 설치 및 설정 | Exchange Online  <ul><li>Office 365 사서함 마이그레이션</li><li>받는 사람 구성(사서함 권한, 메일 전달 구성, 공유 사서함 구성)</li><li>자동 검색 구성</li></ul> SharePoint Online <ul><li>사용 권한 및 사용자 그룹</li><li>외부 사용자 구성</li></ul> 비즈니스용 Skype Online  <ul><li>설치 및 연락처 만들기</li></ul> 엔터프라이즈용 Microsoft 365 앱  <ul><li>설치 및 설정</li></ul> |
 | 구성 | 서비스 구성 문제  <ul><li>SSO(Single Sign-On)</li><li>Active Directory 동기화</li></ul> |
 
 > [!NOTE]
@@ -177,7 +179,7 @@ Office 365 또는 Microsoft 365 비즈니스 지원 전화번호가 위에 나�
 
 관리자 역할의 사용자는 고객의 조직에서, 21Vianet 포털이 운영하는 Office 365의 관리 섹션에 액세스하고 Office 365 서비스 요청에 대해 21Vianet과 직접 통신할 수 있는 권한을 갖습니다.
 
-Office 365를 사용할 경우 서로 다른 기능을 수행하는 다양한 유형의 관리자를 지정할 수 있습니다. 이 서비스 설명에서는 모든 관리자 범주를 나타내기 위해 일반적인 직함인 관리자를 사용합니다. 관리자 역할 유형에 대한 자세한 내용은 [비즈니스용 Office 365의 관리 역할 지정](add-users/assign-admin-roles.md)을 참조하세요.
+Office 365를 사용할 경우 서로 다른 기능을 수행하는 다양한 유형의 관리자를 지정할 수 있습니다. 이 서비스 설명에서는 모든 관리자 범주를 나타내기 위해 일반적인 직함인 관리자를 사용합니다. 관리자 역할 유형에 대한 자세한 내용은 [비즈니스용 Microsoft 365에서 관리 역할 지정하기](add-users/assign-admin-roles.md)를 참조하세요.
 
 관리자의 특징:
 
@@ -236,7 +238,7 @@ Office 365 계획 간의 기능 가용성을 확인하려면 [Office 365 서비�
 Office 365 Germany의 관리자는 Microsoft 전문 지원 에이전트로부터 판매 전 문의, 계정, 청구 관련 지원을 비롯하여 기술 문제 해결을 무료로 받을 수 있습니다. 또한 조직의 Office 365 Germany 사용자를 대신하여 고객 지원에 문의할 수 있습니다.
 
 > [!NOTE]
-> 아래의 모든 지원 옵션은 Microsoft 클라우드 Germany에 대한 것입니다. 사용자가 Microsoft Office 365 지원에 문의할 때 제공하는 데이터를 Microsoft에서 사용하는 방법에 대한 자세한 내용은 [개인정보 취급방칭](https://go.microsoft.com/fwlink/p/?LinkId=512132)을 참조하세요.
+> 아래의 모든 지원 옵션은 Microsoft 클라우드 Germany에 대한 것입니다. 사용자가 Microsoft 지원에 문의할 때 제공하는 데이터를 Microsoft에서 사용하는 방법에 대한 자세한 내용은 [개인정보처리방침](https://go.microsoft.com/fwlink/p/?LinkId=512132)을 참조하세요.
 
 ### <a name="get-assisted-support"></a>보조 지원 받기
 
@@ -253,6 +255,6 @@ Office 365 Germany의 관리자는 Microsoft 전문 지원 에이전트로부터
 
 ### <a name="let-our-community-help"></a>커뮤니티에서 도움 받기
 
-또한 [비즈니스용 Office 365 커뮤니티 포럼을 검색](https://go.microsoft.com/fwlink/p/?LinkId=518605)하여 알려진 문제점 및 인기 주제를 찾거나 새로운 질문을 게시할 수 있습니다. 커뮤니티 포럼은 문제할 수 있는 교육을 받은 Microsoft 지원 에이전트가 모니터링합니다.
+또한 [비즈니스용 Microsoft 365 커뮤니티 포럼을 검색](https://go.microsoft.com/fwlink/p/?LinkId=518605)하여 알려진 문제점 및 인기 주제를 찾거나 새로운 질문을 게시할 수 있습니다. 커뮤니티 포럼은 문제를 해결할 수 있는 교육을 받은 Microsoft 지원 에이전트가 모니터링합니다.
 
 ::: moniker-end

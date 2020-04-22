@@ -20,13 +20,13 @@ search.appverid:
 - BSA160
 ms.assetid: 854b6b2b-0255-4089-8019-b765cff70377
 ROBOTS: NOINDEX
-description: Office 365 도메인 관리에 도움이 되는 도메인 및 관련 DNS 레코드에 대해 알아보기
-ms.openlocfilehash: 4fd41102193a9e630ed04a9d1fb2e196dc94486b
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+description: 도메인 관리에 도움이 되는 도메인 및 관련 DNS 레코드에 대해 알아봅니다.
+ms.openlocfilehash: 0b1e969dbb8b172c799e98d5470860fec3625fc2
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43210471"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43628485"
 ---
 # <a name="dns-basics"></a>DNS 기본 사항
 
@@ -34,7 +34,7 @@ ms.locfileid: "43210471"
   
 ::: moniker range="o365-worldwide"
 
-도메인 이름(예: contoso.com)은 전 세계 도메인 등록 기관 및 데이터베이스 시스템을 사용하여 관리됩니다. DNS(Domain Name System)는 사람이 읽을 수 있는 컴퓨터 호스트 이름과 네트워킹 장비에서 사용하는 IP 주소 간의 매핑을 제공합니다. DNS 및 도메인 등록 기관 기본 사항을 이해하면 Office 365에서 도메인을 관리하는 데 도움이 될 수 있습니다.
+도메인 이름(예: contoso.com)은 전 세계 도메인 등록 기관 및 데이터베이스 시스템을 사용하여 관리됩니다. DNS(Domain Name System)는 사람이 읽을 수 있는 컴퓨터 호스트 이름과 네트워킹 장비에서 사용하는 IP 주소 간의 매핑을 제공합니다. DNS 및 도메인 등록 기관 기본 사항을 이해하면 도메인을 관리하는 데 도움이 될 수 있습니다.
   
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/c005f2a4-90ad-46fe-b1ab-90f41f2a9d53?autoplay=false]
   
@@ -144,7 +144,7 @@ Contoso.com의 NS 레코드에 "hichina.com."이 있다고 가정해 보겠습�
 ::: moniker-end
 
 > [!NOTE]
-> [Office 365에서 DNS 레코드를 설정하고 관리](../setup/domains-faq.md#how-does-office-365-manage-my-dns-records)하도록 Office 365에서 도메인을 설정하는 경우, 설정 과정에서 [DNS관리를 Office 365로 변경](../setup/domains-faq.md#change-dns-management-to-office-365)합니다. 
+> [Microsoft에서 DNS 레코드를 설정하고 관리](../setup/domains-faq.md#how-does-office-365-manage-my-dns-records)하도록 Office 365에서 도메인을 설정하는 경우, 설정 과정에서 [DNS 관리를 Office 365로 변경](../setup/domains-faq.md#change-dns-management-to-office-365)합니다. 
  
 
 ::: moniker range="o365-worldwide"
@@ -154,13 +154,13 @@ Contoso.com의 NS 레코드에 "hichina.com."이 있다고 가정해 보겠습�
 사용자 지정 도메인(예: fourthcoffee.com)을 Office 365에 추가하면 서비스에서 더 짧고 친숙한 전자 메일 주소와 사용자 ID를 사용할 수 있습니다. Office 365 계정에 가입할 때 [사용할 도메인이 제공](https://support.office.com/article/b9fc3018-8844-43f3-8db1-1b3a8e9cfd5a.aspx)되지만, 여기에는 "onmicrosoft.com"이 포함됩니다. 많은 사용자가 전자 메일에 Office 365를 사용하려는 경우 조직 또는 비즈니스 도메인을 추가하는 것을 선호합니다. 
   
 > [!NOTE]
-> Outlook 또는 Word 등의 Office 365 앱을 다운로드하고 사용하려는 경우 도메인을 추가할 필요가 없습니다. [PC 또는 Mac에 Office를 설치](https://support.office.com/article/4414eaaf-0478-48be-9c42-23adc4716658.aspx)하기만 하면 됩니다. 
+> Outlook 또는 Word 등의 Microsoft 앱을 다운로드하고 사용하려는 경우에는 도메인을 추가할 필요가 없습니다. [PC 또는 Mac에 Office를 설치](https://support.office.com/article/4414eaaf-0478-48be-9c42-23adc4716658.aspx)하기만 하면 됩니다. 
   
 Office 365에서는 전자 메일, 공개 웹 사이트 및 메신저 주소에 사용자의 도메인 이름을 사용할 수 있습니다.
   
 - **전자 메일:** 도메인 이름을 사용하면 전자 메일을 사용자 지정할 수 있으므로 계정과 함께 제공되는 [초기 onmicrosoft.com 전자 메일 주소](https://support.office.com/article/b9fc3018-8844-43f3-8db1-1b3a8e9cfd5a.aspx)보다 더 짧고 기억하기 쉬운 주소를 사용할 수 있습니다. 따라서 joe@contoso.onmicrosoft.com 대신 전자 메일 주소(Office 365에 로그인하는 데 사용하는 회사 계정)는 joe@contoso.com이 될 수 있습니다. 
     
-- **웹 사이트:** Office 365 구독에 SharePoint Online 공개 웹 사이트(더 이상 구입할 수 없음)가 포함된 경우 공개 웹 사이트에는 contoso-public.sharepoint.com과 같은 초기 주소가 제공됩니다. 비즈니스를 위한 웹 사이트를 설정한 경우 www.contoso.com과 같이 사용자 지정 도메인 이름을 사용하여 웹 사이트 주소의 이름을 바꿀 수 있습니다. 
+- **웹 사이트:** Microsoft 365 구독에 SharePoint Online 공개 웹 사이트(더 이상 구입할 수 없음)가 포함된 경우 공개 웹 사이트에는 contoso-public.sharepoint.com과 같은 초기 주소가 제공됩니다. 비즈니스를 위한 웹 사이트를 설정한 경우 www.contoso.com과 같이 사용자 지정 도메인 이름을 사용하여 웹 사이트 주소의 이름을 바꿀 수 있습니다. 
     
 - **인스턴트 메시징:** 도메인 이름을 사용하도록 비즈니스용 Skype Online 주소를 사용자 지정할 수도 있으므로, 조직의 사용자들이 더 짧고 기억하기 쉬운 주소(예: joe@contoso.com)를 사용하여 비즈니스용 Skype Online에서 서로 연결할 수 있습니다. 
     
@@ -179,7 +179,7 @@ Office 365에서는 전자 메일, 공개 웹 사이트 및 메신저 주소에 
   
 - **전자 메일:** 도메인 이름을 사용하면 전자 메일을 사용자 지정할 수 있으므로 계정과 함께 제공되는 [초기 onmicrosoft.com 전자 메일 주소](https://support.office.com/article/b9fc3018-8844-43f3-8db1-1b3a8e9cfd5a.aspx)보다 더 짧고 기억하기 쉬운 주소를 사용할 수 있습니다. 따라서 joe@contoso.onmicrosoft.com 대신 전자 메일 주소(Office 365에 로그인하는 데 사용하는 회사 계정)는 joe@contoso.com이 될 수 있습니다. 
     
-- **웹 사이트:** Office 365 구독에 SharePoint Online 공개 웹 사이트(더 이상 구입할 수 없음)가 포함된 경우 공개 웹 사이트에는 contoso-public.sharepoint.com과 같은 초기 주소가 제공됩니다. 비즈니스를 위한 웹 사이트를 설정한 경우 www.contoso.com과 같이 사용자 지정 도메인 이름을 사용하여 웹 사이트 주소의 이름을 바꿀 수 있습니다. 
+- **웹 사이트:** 구독에 SharePoint Online 공개 웹 사이트(더 이상 구입할 수 없음)가 포함된 경우 공개 웹 사이트에는 contoso-public.sharepoint.com과 같은 초기 주소가 제공됩니다. 비즈니스를 위한 웹 사이트를 설정한 경우 www.contoso.com과 같이 사용자 지정 도메인 이름을 사용하여 웹 사이트 주소의 이름을 바꿀 수 있습니다. 
     
 - **인스턴트 메시징:** 도메인 이름을 사용하도록 비즈니스용 Skype Online 주소를 사용자 지정할 수도 있으므로, 조직의 사용자들이 더 짧고 기억하기 쉬운 주소(예: joe@contoso.com)를 사용하여 비즈니스용 Skype Online에서 서로 연결할 수 있습니다. 
     
@@ -189,7 +189,7 @@ Office 365에서는 전자 메일, 공개 웹 사이트 및 메신저 주소에 
 
 Office 365에서 도메인이 작동하려면 많은 DNS 레코드가 필요합니다. Office 365에 전자 메일이 전송되도록 도메인의 MX 레코드를 설정하는 것 외에, Outlook을 올바른 Exchange Server에 자동으로 연결하고, 메신저를 설정하고, 스팸 메일을 방지하는 등의 작업에 유용한 레코드도 있습니다.
   
-도메인을 설정하기 위한 [값 목록을 찾을](information-for-dns-records.md) 수 있습니다. 이는 Office 365 포털에 포함되어 있습니다. 
+도메인을 설정하기 위한 [값 목록을 찾을](information-for-dns-records.md) 수 있습니다. Microsoft 365 관리 센터에 바로 포함되어 있습니다. 
   
 또는 배포를 계획하고 있는 경우 Office 365에 필요한 모든 DNS 레코드, 해당 기능, 예시 값을 검토할 수 있습니다. [Office 365에 대한 외부 Domain Name System 레코드](https://support.office.com/article/c0531a6f-9e25-4f2d-ad0e-a70bfef09ac0)를 참조하세요.
   
