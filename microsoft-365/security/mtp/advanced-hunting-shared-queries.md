@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 38eb3c39c5473d0a729b12771b61e965dbc81931
-ms.sourcegitcommit: 3b2fdf159d7dd962493a3838e3cf0cf429ee2bf2
+ms.openlocfilehash: 3fd497ce1733dd4770b9bbc8f699bbccf3237fbd
+ms.sourcegitcommit: b8a9994b26a6d9865212f5b1871286e719d1608e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42929483"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43781520"
 ---
 # <a name="use-shared-queries-in-advanced-hunting"></a>고급 헌팅에서 공유 쿼리 사용
 
@@ -60,7 +60,7 @@ ms.locfileid: "42929483"
 2. **삭제** 선택하고 삭제를 확인합니다. 또는 **이름 바꾸기**를 선택하고 쿼리의 새 이름을 입력합니다.
 
 ## <a name="access-queries-in-the-github-repository"></a>GitHub 리포지토리의 쿼리에 액세스  
-Microsoft 보안 연구원은 [GitHub의 지정된 공용 저장소](https://github.com/microsoft/MTP-AHQ)에서 고급 헌팅 쿼리를 정기적으로 공유 합니다. 이 리포지토리는 참가 기회가 열려 있습니다. 참가하려면 [무료로 GitHub에 가입](https://github.com/)하세요.
+Microsoft 보안 연구원은 [GitHub의 지정된 공용 저장소](https://aka.ms/hunting-queries)에서 고급 헌팅 쿼리를 정기적으로 공유 합니다. 이 리포지토리는 참가 기회가 열려 있습니다. 참가하려면 [무료로 GitHub에 가입](https://github.com/)하세요.
 
 >[!tip]
 >또한 Microsoft 보안 연구원들은 최신 위협과 관련 된 활동과 지표를 찾는 데 사용할 수 있는 고급 검색 쿼리를 제공합니다. 이러한 쿼리는 Microsoft Defender 보안 센터의 [위협 분석](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/threat-analytics) 보고서의 일부로 제공됩니다.

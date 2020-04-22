@@ -1,5 +1,5 @@
 ---
-title: 'Office 365의 모든 DNS 호스팅 공급자에서 DNS 레코드 만들기                                         '
+title: 모든 DNS 호스팅 공급자에서 DNS 레코드 만들기
 f1.keywords:
 - NOCSH
 ms.author: pebaum
@@ -21,16 +21,16 @@ search.appverid:
 - BEA160
 - GEA150
 ms.assetid: 7b7b075d-79f9-4e37-8a9e-fb60c1d95166
-description: Office 365용 DNS 호스팅 공급자에서 도메인을 확인하고 DNS 레코드를 만드는 방법을 배웁니다.
+description: Microsoft 365용 모든 DNS 호스팅 공급자에서 도메인을 확인하고 DNS 레코드를 만드는 방법을 배웁니다.
 ms.custom: okr_smb
-ms.openlocfilehash: 28df13d0ebe78d055df556d71c7a753d3434b030
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+ms.openlocfilehash: 85392bfbd19072d582e7c2db7ce3a8c7bf466176
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43210483"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43628497"
 ---
-# <a name="create-dns-records-at-any-dns-hosting-provider-for-office-365"></a>Office 365의 모든 DNS 호스팅 공급자에서 DNS 레코드 만들기                                         
+# <a name="create-dns-records-at-any-dns-hosting-provider"></a>모든 DNS 호스팅 공급자에서 DNS 레코드 만들기
 
  원하는 정보를 찾지 못한 경우 **[도메인 FAQ를 확인](../setup/domains-faq.md)** 하세요. 
   
@@ -41,7 +41,7 @@ ms.locfileid: "43210483"
 레코드를 직접 설정하려는 경우 추가해야 할 레코드입니다. 확인 레코드와 MX 레코드는 도메인마다 고유합니다. 이를 설정하려면 도메인에 특정 "토큰"값을 가져와 사용해야 합니다. 이 작업을 수행하는 방법은 아래 단계에 설명되어 있습니다.
   
 > [!IMPORTANT]
-> 각 유형의 DNS 레코드를 생성하기 위해 정보를 입력하거나 붙여 넣은 상자 또는 *필드*의 정확한 이름은 DNS 호스트마다 다릅니다. DNS 호스트는 웹 사이트에 도움말을 표시하여 여기에 표시된 지침을 해당 웹 사이트의 정확한 필드에 매핑할 수 있습니다. [Office 365용 DNS 레코드 만들기](https://support.office.com/article/b0f3fdca-8a80-4e8e-9ef3-61e8a2a9ab23.aspx)에서 DNS 호스트에 대한 단계별 지침이 있는지 확인하십시오. > 일부 DNS 호스트를 사용하면 Office 365에서 [서비스 제한이 발생](https://support.office.com/article/7ae9a655-041d-4724-aa92-60392ee390c2.aspx)되는 모든 필수 레코드 유형을 만들 수 없습니다. 예를 들어 도메인의 호스트가 SRV, TXT 또는 CNAME 레코드를 지원하지 않는 경우 모든 필수 레코드를 지원하는 DNS 호스트로 [도메인을 이전](../get-help-with-domains/buy-a-domain-name.md)하는 것이 좋습니다. Office 365로 빠르고 자동화된 프로세스를 설정하려면 도메인을 GoDaddy로 이전하는 것이 좋습니다. 
+> 각 유형의 DNS 레코드를 생성하기 위해 정보를 입력하거나 붙여 넣은 상자 또는 *필드*의 정확한 이름은 DNS 호스트마다 다릅니다. DNS 호스트는 웹 사이트에 도움말을 표시하여 여기에 표시된 지침을 해당 웹 사이트의 정확한 필드에 매핑할 수 있습니다. [Microsoft 365용 DNS 레코드 만들기](https://support.office.com/article/b0f3fdca-8a80-4e8e-9ef3-61e8a2a9ab23.aspx)에서 DNS 호스트에 대한 단계별 지침이 있는지 확인하십시오. > 일부 DNS 호스트를 사용하면 Microsoft 365에서 [서비스 제한이 발생](https://support.office.com/article/7ae9a655-041d-4724-aa92-60392ee390c2.aspx)되는 모든 필수 레코드 유형을 만들 수 없습니다. 예를 들어 도메인의 호스트가 SRV, TXT 또는 CNAME 레코드를 지원하지 않는 경우 모든 필수 레코드를 지원하는 DNS 호스트로 [도메인을 이전](../get-help-with-domains/buy-a-domain-name.md)하는 것이 좋습니다. Microsoft 365로 빠르고 자동화된 프로세스를 설정하려면 도메인을 GoDaddy로 이전하는 것이 좋습니다. 
   
 > [!NOTE]
 > 일반적으로 몇 분 정도만 있으면 DNS 변경 사항이 적용됩니다. 그러나 변경한 내용이 인터넷의 DNS 시스템 전체에 업데이트되는 데에는 시간이 오래 걸릴 수 있습니다. DNS 레코드를 추가 한 후 메일 흐름 또는 기타 문제에 문제가 있는 경우 [도메인 이름 또는 DNS 레코드를 변경한 후 문제 찾기 및 해결](../get-help-with-domains/find-and-fix-issues.md)을 참조하십시오. 
@@ -52,7 +52,7 @@ ms.locfileid: "43210483"
 > [!NOTE]
 > 이러한 레코드 중 하나만 만들어집니다. TXT가 기본 레코드 형식이지만 일부 DNS 호스팅 공급자는 이를 지원하지 않으며, 이 경우 대신 MX 레코드를 만들면 됩니다. 
   
-Office 365에서 사용자 도메인을 사용하려면 먼저 도메인을 소유하고 있어야 합니다. 도메인 등록 기관에서 사용자의 계정으로 로그인하고 DNS 레코드를 만들 수 있으면 Office 365에 도메인을 소유하고 있음을 증명할 수 있습니다.
+Microsoft 365에서 사용자 도메인을 사용하려면 먼저 도메인을 소유하고 있어야 합니다. 도메인 등록 기관에서 사용자의 계정으로 로그인하고 DNS 레코드를 만들 수 있으면 Microsoft 365에 도메인을 소유하고 있음을 증명할 수 있습니다.
   
 > [!NOTE]
 > 이 레코드는 사용자가 도메인을 소유하고 있는지 확인하는 데만 사용되며 그 밖에 아무런 영향도 주지 않습니다. 원하는 경우 나중에 삭제할 수 있습니다. 
@@ -74,20 +74,20 @@ Office 365에서 사용자 도메인을 사용하려면 먼저 도메인을 소�
 |||||
 |:-----|:-----|:-----|:-----|
 |**Record Type(레코드 종류)**|**Alias(별칭)** 또는 **Host Name(호스트 이름)**|**Value(값)**|**TTL**|
-|TXT|다음 중 하나를 수행합니다. **@** 을 입력하거나 필드를 비워 두거나 도메인 이름을 입력합니다.      <br/> **참고: ** 이 필드의 경우 각 DNS 호스트마다 요구 사항이 다릅니다. |MS=ms *XXXXXXXX*  <br/> **참고:** 이 값은 예시입니다. 여기에는 Office 365의 표에 있는 특정 **보낼 대상 또는 지점** 값을 사용합니다.  <br/>        [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)     <br/>     |이 값을 **1시간** 또는 등가의 분( **60** ), 초( **3600** ) 단위로 설정합니다.  |
+|TXT|다음 중 하나를 수행합니다. **@** 을 입력하거나 필드를 비워 두거나 도메인 이름을 입력합니다.      <br/> **참고: ** 이 필드의 경우 각 DNS 호스트마다 요구 사항이 다릅니다. |MS=ms *XXXXXXXX*  <br/> **참고:** 이 값은 예시입니다. 여기에는 Microsoft 365의 표에 있는 특정 **주소를 지정할 대상 또는 지점** 값을 사용합니다.  <br/>        [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)     <br/>     |이 값을 **1시간** 또는 등가의 분( **60** ), 초( **3600** ) 단위로 설정합니다.  |
    
   - **MX 레코드를 만드는 경우 다음 값을 사용합니다.**
     
 ||||||
 |:-----|:-----|:-----|:-----|:-----|
 |**Record Type(레코드 종류)**|**Alias(별칭)** 또는 **Host Name(호스트 이름)**|**Value(값)**|**Priority(우선 순위)**|**TTL**|
-|MX|**@** 또는 도메인 이름을 입력합니다. |MS=ms *XXXXXXXX* <br/> **참고:** 이 값은 예시입니다. 여기에는 Office 365의 표에 있는 특정 **보낼 대상 또는 지점** 값을 사용합니다.    <br/>       [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)     <br/>     |**우선 순위**의 경우, 메일 흐름에 사용되는 MX 레코드와의 충돌을 피하기 위해 기존 MX 레코드의 우선 순위보다 낮은 우선 순위를 사용합니다. <br/> 우선 순위에 대한 자세한 내용은 [MX 우선 순위란?](https://support.office.com/article/2784cc4d-95be-443d-b5f7-bb5dd867ba83.aspx)을 참조하세요. <br/> |이 값을 **1시간** 또는 등가의 분( **60** ), 초( **3600** ) 단위로 설정합니다. |
+|MX|**@** 또는 도메인 이름을 입력합니다. |MS=ms *XXXXXXXX* <br/> **참고:** 이 값은 예시입니다. 여기에는 Microsoft 365의 표에 있는 특정 **주소를 지정할 대상 또는 지점** 값을 사용합니다.    <br/>       [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)     <br/>     |**우선 순위**의 경우, 메일 흐름에 사용되는 MX 레코드와의 충돌을 피하기 위해 기존 MX 레코드의 우선 순위보다 낮은 우선 순위를 사용합니다. <br/> 우선 순위에 대한 자세한 내용은 [MX 우선 순위란?](https://support.office.com/article/2784cc4d-95be-443d-b5f7-bb5dd867ba83.aspx)을 참조하세요. <br/> |이 값을 **1시간** 또는 등가의 분( **60** ), 초( **3600** ) 단위로 설정합니다. |
    
 2. 레코드를 저장합니다.
     
-이제 도메인 등록 기관에 레코드가 추가되었습니다. Office 365로 돌아가서 Office 365에 레코드를 찾을 것을 요청합니다.
+이제 도메인 등록 기관에 레코드가 추가되었습니다. Microsoft 365로 돌아가서 Microsoft 365에 레코드를 찾을 것을 요청합니다.
   
-Office 365에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것입니다.
+Microsoft 365에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것입니다.
   
 1. I관리 센터에서 ** 설정 ** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank"> 도메인 </a> 페이지로 이동하십시오.
     
@@ -103,7 +103,7 @@ Office 365에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것
 ## <a name="add-mx-record-to-route-email"></a>전자 메일을 라우팅하기 위해 MX 레코드 추가
 <a name="BKMK_add_MX"> </a>
 
-사용자 도메인의 전자 메일이 Office 365로 전송되도록 MX 레코드를 추가합니다.  *도메인의 MX 레코드를 업데이트하면 해당 도메인을 사용하는 사용자의 모든 새 전자 메일이 이제 Office 365로 옵니다*. [이메일 및 연락처를 Office 365로 마이그레이션](../setup/migrate-email-and-contacts-admin.md)하여 Office 365로 마이그레이션하기로 결정하지 않는 한 이미 가지고 있는 모든 이메일은 현재 이메일 호스트에 남아 있습니다. 
+사용자 도메인의 전자 메일이 Microsoft 365로 전송되도록 MX 레코드를 추가합니다.  *도메인의 MX 레코드를 업데이트하면 해당 도메인을 사용하는 사용자의 모든 새 전자 메일이 이제 Microsoft 365로 옵니다*. [이메일 및 연락처를 Microsoft 365로 마이그레이션](../setup/migrate-email-and-contacts-admin.md)하여 Microsoft 365로 마이그레이션하기로 결정하지 않는 한 이미 가지고 있는 모든 이메일은 현재 이메일 호스트에 남습니다. 
   
   
  **작업**
@@ -130,7 +130,7 @@ Office 365에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것
 
 1. DNS 호스트의 웹 사이트에서 새 MX 레코드를 추가합니다.
     
-    이제 Office 365에서 [MX 레코드에 대한 정보를 가져옵니다](../get-help-with-domains/information-for-dns-records.md). 
+    이제 Microsoft 365에서 [MX 레코드에 대한 정보를 가져옵니다](../get-help-with-domains/information-for-dns-records.md). 
     
 2. 위 단계의 MX 레코드에 대해 **대상 주소** 값을 복사합니다. 
     
@@ -146,7 +146,7 @@ Office 365에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것
     
   - **호스트 이름**: **@**
     
-  - **Points to address(대상 주소)**: Office 365에서 복사한 **대상 주소** 값을 여기에 붙여 넣습니다. 
+  - **대상 주소**: Microsoft 365에서 복사한 **대상 주소** 값을 여기에 붙여 넣습니다. 
     
   - **TTL**: 이 값을 **1시간** 또는 등가의 분(**60**), 초(**3600**) 단위로 설정합니다. 
     
@@ -154,14 +154,14 @@ Office 365에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것
     
 다른 모든 MX 레코드는 제거합니다.
   
-전자 메일을 Office 365 이외의 다른 위치로 보내는 MX 레코드가 이 도메인에 있다면 모두 삭제합니다.
+전자 메일을 Microsoft 365 이외의 다른 위치로 보내는 MX 레코드가 이 도메인에 있다면 모두 삭제합니다.
   
 ## <a name="add-three-cname-records"></a>3개의 CNAME 레코드 추가
 <a name="BKMK_add_MX"> </a>
 
 ::: moniker range="o365-worldwide"
 
-아래 단계에 따라 Office 365에 필요한 세 개의 CNAME 레코드를 추가하십시오. Office 365에 추가 CNAME 레코드가 나열되면 여기에 표시된 동일한 일반적인 단계에 따라 해당 레코드를 추가합니다.
+아래 단계에 따라 Microsoft 365에 필요한 세 개의 CNAME 레코드를 추가하십시오. Microsoft 365에 추가 CNAME 레코드가 나열되면 여기에 표시된 동일한 일반적인 단계에 따라 해당 레코드를 추가합니다.
   
 DNS 호스트의 웹 사이트에서 3개의 새 CNAME 레코드를 일반적으로 한 번에 하나씩 만듭니다.
   
@@ -182,7 +182,7 @@ DNS 호스트의 웹 사이트에서 3개의 새 CNAME 레코드를 일반적으
 ::: moniker-end
 ::: moniker range="o365-germany"
 
-아래 단계에 따라 Office 365에 필요한 세 개의 CNAME 레코드를 추가하십시오. Office 365에 추가 CNAME 레코드가 나열되면 여기에 표시된 동일한 일반적인 단계에 따라 해당 레코드를 추가합니다.
+아래 단계에 따라 Microsoft 365에 필요한 세 개의 CNAME 레코드를 추가하십시오. Microsoft 365에 추가 CNAME 레코드가 나열되면 여기에 표시된 동일한 일반적인 단계에 따라 해당 레코드를 추가합니다.
   
 DNS 호스트의 웹 사이트에서 3개의 새 CNAME 레코드를 일반적으로 한 번에 하나씩 만듭니다.
   
@@ -204,7 +204,7 @@ DNS 호스트의 웹 사이트에서 3개의 새 CNAME 레코드를 일반적으
 
 ::: moniker range="o365-21vianet"
 
-아래 단계에 따라 Office 365에 필요한 세 개의 CNAME 레코드를 추가하십시오. Office 365에 추가 CNAME 레코드가 나열되면 여기에 표시된 동일한 일반적인 단계에 따라 해당 레코드를 추가합니다.
+아래 단계에 따라 Microsoft 365에 필요한 세 개의 CNAME 레코드를 추가하십시오. Microsoft 365에 추가 CNAME 레코드가 나열되면 여기에 표시된 동일한 일반적인 단계에 따라 해당 레코드를 추가합니다.
   
 DNS 호스트의 웹 사이트에서 3개의 새 CNAME 레코드를 일반적으로 한 번에 하나씩 만듭니다.
   
@@ -224,13 +224,13 @@ DNS 호스트의 웹 사이트에서 3개의 새 CNAME 레코드를 일반적으
     
 ::: moniker-end
 
-## <a name="add-two-cname-records-for-mobile-device-management-mdm-for-office-365"></a>Office 365용 MDM(모바일 장치 관리)에 대한 2개의 CNAME 레코드 추가
+## <a name="add-two-cname-records-for-mobile-device-management-mdm-for-microsoft-365"></a>Microsoft 365용 MDM(모바일 장치 관리)에 대한 2개의 CNAME 레코드 추가
 <a name="BKMK_add_MX"> </a>
 
 ::: moniker range="o365-worldwide"
 
 > [!IMPORTANT]
-> Office 365용 MDM (Mobile Device Management)이있는 경우 두 개의 추가 CNAME 레코드를 만들어야 합니다. 다른 4개의 CNAME 레코드를 만드는 데 사용한 절차를 따르되 다음 표의 값을 입력합니다. >(MDM이 없는 경우에는 이 단계를 건너뛸 수 있습니다. 
+> Microsoft 365용 MDM (모바일 장치 관리)이 있는 경우 두 개의 추가 CNAME 레코드를 만들어야 합니다. 다른 4개의 CNAME 레코드를 만드는 데 사용한 절차를 따르되 다음 표의 값을 입력합니다. >(MDM이 없는 경우에는 이 단계를 건너뛸 수 있습니다. 
   
 |||||
 |:-----|:-----|:-----|:-----|
@@ -243,7 +243,7 @@ DNS 호스트의 웹 사이트에서 3개의 새 CNAME 레코드를 일반적으
 ::: moniker range="o365-germany"
 
 > [!IMPORTANT]
-> Office 365용 MDM (Mobile Device Management)이있는 경우 두 개의 추가 CNAME 레코드를 만들어야 합니다. 다른 4개의 CNAME 레코드를 만드는 데 사용한 절차를 따르되 다음 표의 값을 입력합니다. >(MDM이 없는 경우에는 이 단계를 건너뛸 수 있습니다. 
+> Microsoft 365용 MDM (모바일 장치 관리)이 있는 경우 두 개의 추가 CNAME 레코드를 만들어야 합니다. 다른 4개의 CNAME 레코드를 만드는 데 사용한 절차를 따르되 다음 표의 값을 입력합니다. >(MDM이 없는 경우에는 이 단계를 건너뛸 수 있습니다. 
   
 |||||
 |:-----|:-----|:-----|:-----|
@@ -259,12 +259,12 @@ DNS 호스트의 웹 사이트에서 3개의 새 CNAME 레코드를 일반적으
 ::: moniker range="o365-worldwide"
 
 > [!IMPORTANT]
-> 도메인 한 개의 SPF에 둘 이상의 TXT 레코드가 있을 수 없습니다. 도메인에 둘 이상의 SPF 레코드가 있는 경우 전자 메일 오류를 비롯하여 배달 및 스팸 분류 문제가 발생할 수 있습니다. If you already have an SPF record for your domain, don't create a new one for Office 365. Instead, add the required Office 365 values to the current record so that you have a  *single*  SPF record that includes both sets of values.
+> 도메인 한 개의 SPF에 둘 이상의 TXT 레코드가 있을 수 없습니다. 도메인에 둘 이상의 SPF 레코드가 있는 경우 전자 메일 오류를 비롯하여 배달 및 스팸 분류 문제가 발생할 수 있습니다. 도메인에 이미 SPF 레코드가 있는 경우 Microsoft 365의 새 SPF 레코드를 만들지 마세요. 대신, 필수 Microsoft 365 값을 현재 레코드에 추가하여 두 값 집합을 모두 포함하는 *단일* SPF 레코드가 있도록 합니다.
   
 DNS 호스트 웹 사이트에서 기존 SPF 레코드를 편집하거나 SPF에 대한 새 TXT 레코드를 만듭니다.
   
 > [!IMPORTANT]
-> SPF는 스푸핑 차단을 돕지만 SPF가 방어할 수 없는 스푸핑 기술이 있습니다. 이 같은 기술을 차단하려면 SPF를 설치한 후에 Office 365의 DKIM 및 DMARC도 구성해야 합니다. 시작하려면 [DKIM을 사용하여 Office 365의 도메인에서 보낸 발신 이메일의 유효성을 검사](https://technet.microsoft.com/library/mt695945%28v=exchg.150%29.aspx)를 참조하세요. 다음으로 [DMARC를 사용하여 Office 365에서 전자 메일 유효성 검사](https://technet.microsoft.com/library/mt734386%28v=exchg.150%29.aspx)를 참조하세요. 
+> SPF는 스푸핑 차단을 돕지만 SPF가 방어할 수 없는 스푸핑 기술이 있습니다. 이 같은 기술로부터 보호하려면 SPF를 설치한 후에 Microsoft 365의 DKIM 및 DMARC도 구성해야 합니다. 시작하려면 [DKIM을 사용하여 Microsoft 365의 도메인에서 보낸 발신 이메일의 유효성을 검사](https://technet.microsoft.com/library/mt695945%28v=exchg.150%29.aspx)를 참조하세요. 다음으로 [DMARC를 사용하여 Microsoft 365에서 전자 메일 유효성 검사](https://technet.microsoft.com/library/mt734386%28v=exchg.150%29.aspx)를 참조하세요. 
   
 1. 새 레코드에 대한 상자에 아래의 값 집합 중 해당 상황에 적용되는 값 집합을 입력하거나 복사하여 붙여넣습니다.
     
@@ -284,12 +284,12 @@ DNS 호스트 웹 사이트에서 기존 SPF 레코드를 편집하거나 SPF에
 ::: moniker range="o365-germany"
 
 > [!IMPORTANT]
-> 도메인 한 개의 SPF에 둘 이상의 TXT 레코드가 있을 수 없습니다. 도메인에 둘 이상의 SPF 레코드가 있는 경우 전자 메일 오류를 비롯하여 배달 및 스팸 분류 문제가 발생할 수 있습니다. If you already have an SPF record for your domain, don't create a new one for Office 365. Instead, add the required Office 365 values to the current record so that you have a  *single*  SPF record that includes both sets of values. 
+> 도메인 한 개의 SPF에 둘 이상의 TXT 레코드가 있을 수 없습니다. 도메인에 둘 이상의 SPF 레코드가 있는 경우 전자 메일 오류를 비롯하여 배달 및 스팸 분류 문제가 발생할 수 있습니다. 도메인에 이미 SPF 레코드가 있는 경우 Microsoft 365의 새 SPF 레코드를 만들지 마세요. 대신, 필수 Microsoft 365 값을 현재 레코드에 추가하여 두 값 집합을 모두 포함하는 *단일* SPF 레코드가 있도록 합니다. 
   
 DNS 호스트 웹 사이트에서 기존 SPF 레코드를 편집하거나 SPF에 대한 새 TXT 레코드를 만듭니다.
   
 > [!IMPORTANT]
-> SPF는 스푸핑 차단을 돕지만 SPF가 방어할 수 없는 스푸핑 기술이 있습니다. 이 같은 기술을 차단하려면 SPF를 설치한 후에 Office 365의 DKIM 및 DMARC도 구성해야 합니다. 시작하려면 [DKIM을 사용하여 Office 365의 도메인에서 보낸 발신 이메일의 유효성을 검사](https://technet.microsoft.com/library/mt695945%28v=exchg.150%29.aspx)를 참조하세요. 다음으로 [DMARC를 사용하여 Office 365에서 전자 메일 유효성 검사](https://technet.microsoft.com/library/mt734386%28v=exchg.150%29.aspx)를 참조하세요. 
+> SPF는 스푸핑 차단을 돕지만 SPF가 방어할 수 없는 스푸핑 기술이 있습니다. 이 같은 기술로부터 보호하려면 SPF를 설치한 후에 Microsoft 365의 DKIM 및 DMARC도 구성해야 합니다. 시작하려면 [DKIM을 사용하여 Microsoft 365의 도메인에서 보낸 발신 이메일의 유효성을 검사](https://technet.microsoft.com/library/mt695945%28v=exchg.150%29.aspx)를 참조하세요. 다음으로 [DMARC를 사용하여 Microsoft 365에서 전자 메일 유효성 검사](https://technet.microsoft.com/library/mt734386%28v=exchg.150%29.aspx)를 참조하세요. 
   
 1. 새 레코드에 대한 상자에 아래의 값 집합 중 해당 상황에 적용되는 값 집합을 입력하거나 복사하여 붙여넣습니다.
     
@@ -309,12 +309,12 @@ DNS 호스트 웹 사이트에서 기존 SPF 레코드를 편집하거나 SPF에
 ::: moniker range="o365-21vianet"
 
 > [!IMPORTANT]
-> 도메인 한 개의 SPF에 둘 이상의 TXT 레코드가 있을 수 없습니다. 도메인에 둘 이상의 SPF 레코드가 있는 경우 전자 메일 오류를 비롯하여 배달 및 스팸 분류 문제가 발생할 수 있습니다. If you already have an SPF record for your domain, don't create a new one for Office 365. Instead, add the required Office 365 values to the current record so that you have a  *single*  SPF record that includes both sets of values. 
+> 도메인 한 개의 SPF에 둘 이상의 TXT 레코드가 있을 수 없습니다. 도메인에 둘 이상의 SPF 레코드가 있는 경우 전자 메일 오류를 비롯하여 배달 및 스팸 분류 문제가 발생할 수 있습니다. 도메인에 이미 SPF 레코드가 있는 경우 Microsoft 365의 새 SPF 레코드를 만들지 마세요. 대신, 필수 Microsoft 365 값을 현재 레코드에 추가하여 두 값 집합을 모두 포함하는 *단일* SPF 레코드가 있도록 합니다. 
   
 DNS 호스트 웹 사이트에서 기존 SPF 레코드를 편집하거나 SPF에 대한 새 TXT 레코드를 만듭니다.
   
 > [!IMPORTANT]
-> SPF는 스푸핑 차단을 돕지만 SPF가 방어할 수 없는 스푸핑 기술이 있습니다. 이 같은 기술을 차단하려면 SPF를 설치한 후에 Office 365의 DKIM 및 DMARC도 구성해야 합니다. 시작하려면 [DKIM을 사용하여 Office 365의 도메인에서 보낸 발신 이메일의 유효성을 검사](https://technet.microsoft.com/library/mt695945%28v=exchg.150%29.aspx)를 참조하세요. 다음으로 [DMARC를 사용하여 Office 365에서 전자 메일 유효성 검사](https://technet.microsoft.com/library/mt734386%28v=exchg.150%29.aspx)를 참조하세요. 
+> SPF는 스푸핑 차단을 돕지만 SPF가 방어할 수 없는 스푸핑 기술이 있습니다. 이 같은 기술로부터 보호하려면 SPF를 설치한 후에 Microsoft 365의 DKIM 및 DMARC도 구성해야 합니다. 시작하려면 [DKIM을 사용하여 Microsoft 365의 도메인에서 보낸 발신 이메일의 유효성을 검사](https://technet.microsoft.com/library/mt695945%28v=exchg.150%29.aspx)를 참조하세요. 다음으로 [DMARC를 사용하여 Microsoft 365에서 전자 메일 유효성 검사](https://technet.microsoft.com/library/mt734386%28v=exchg.150%29.aspx)를 참조하세요. 
   
 1. 새 레코드에 대한 상자에 아래의 값 집합 중 해당 상황에 적용되는 값 집합을 입력하거나 복사하여 붙여넣습니다.
     
@@ -429,10 +429,10 @@ DNS 호스트의 웹 사이트에서 2개의 새 SRV 레코드를 일반적으�
 ## <a name="more-about-updating-dns-records"></a>DNS 레코드 업데이트에 대한 자세한 정보
 <a name="BKMK_MoreAbout"> </a>
 
- **도메인의 DNS 호스트에서 DNS 레코드를 업데이트하는 방법을 알고 있는 경우**, Office 365 DNS 값을 사용하여 도메인의 DNS 호스트에서 레코드를 편집(예 : MX 레코드 또는 SPF 레코드 설정)하십시오. [다음 단계](../get-help-with-domains/information-for-dns-records.md)에서 사용할 특정 값을 찾거나 단계별로 도메인 설정 마법사에서 해당 값을 보십시오.
+ **도메인의 DNS 호스트에서 DNS 레코드를 업데이트하는 방법을 알고 있는 경우**, Microsoft 365 DNS 값을 사용하여 도메인의 DNS 호스트에서 레코드를 편집(예 : MX 레코드 또는 SPF 레코드 설정)하십시오. [다음 단계](../get-help-with-domains/information-for-dns-records.md)에서 사용할 특정 값을 찾거나 단계별로 도메인 설정 마법사에서 해당 값을 보십시오.
   
- **필요한 DNS 레코드를 추가하는 방법을 알아내는 데 도움이 필요한 경우**[ 도메인 설정 (호스트 별 지침 ](https://docs.microsoft.com/office365/admin/get-help-with-domains/set-up-your-domain-host-specific-instructions?view=o365-worldwide), 먼저 [ Office 365를 만드는 데 필요한 정보 수집 DNS 레코드 ](../get-help-with-domains/information-for-dns-records.md)를 참조합니다. 그런 다음이 항목의 일반 단계를 사용 하 여 도메인의 DNS 레코드를 설정 하 여 전자 메일과 같은 Office 365 서비스에서 도메인을 사용할 수 있도록 합니다.
+ **필요한 DNS 레코드를 추가하는 방법을 알아내는 데 도움이 필요한 경우**[ 도메인 설정 (호스트 별 지침 ](https://docs.microsoft.com/office365/admin/get-help-with-domains/set-up-your-domain-host-specific-instructions?view=o365-worldwide), [ Microsoft 365 DNS 레코드를 만드는 데 필요한 정보 수집 ](../get-help-with-domains/information-for-dns-records.md)를 먼저 참조합니다. 그런 다음 이 항목의 일반 단계를 사용하여 도메인의 DNS 레코드를 설정하여 전자 메일과 같은 Microsoft 365 서비스에서 도메인을 사용할 수 있도록 합니다.
   
- **사용자 지정 도메인에 사용하는 웹 사이트가 없는 경우**, 모든 설정을 직접 수행하는 대신 Office 365에서 도메인의 DNS 레코드를 설정하고 관리할 수 있습니다. Office 365에서 [맞춤 도메인의 DNS 레코드를 설정하고 관리하기위한 두 가지 옵션](https://support.office.com/article/5980474a-097f-4f21-a864-21245314957f.aspx)에 대해 알아 봅니다. 
+ **사용자 지정 도메인에 사용하는 웹 사이트가 없는 경우**, 모든 설정을 직접 수행하는 대신 Microsoft 365에서 도메인의 DNS 레코드를 설정하고 관리할 수 있습니다. Microsoft 365에서 [사용자 지정 도메인의 DNS 레코드를 설정하고 관리하기 위한 두 가지 옵션](https://support.office.com/article/5980474a-097f-4f21-a864-21245314957f.aspx)에 대해 알아보세요. 
   
 

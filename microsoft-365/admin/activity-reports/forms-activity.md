@@ -16,14 +16,13 @@ search.appverid:
 - MET150
 - MOE150
 - GEA150
-ms.assetid: 1cbe2c00-ca65-4fb9-9663-1bbfa58ebe44
 description: Microsoft 365 관리 센터에서 Microsoft 365 보고서 대시보드를 사용 하 여 Microsoft Forms 활동 보고서를 가져오는 방법을 알아봅니다.
-ms.openlocfilehash: 28520bf931df9f909a933be19800ee45fd863cd6
-ms.sourcegitcommit: 311bbd6f168225ede166d29696126a1e003eee0f
+ms.openlocfilehash: 63eb8613879849201876b237c659a4529ce2ca0f
+ms.sourcegitcommit: b8a9994b26a6d9865212f5b1871286e719d1608e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43151420"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43781508"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center---forms-activity"></a>관리 센터의 Microsoft 365 보고서-양식 활동
 
