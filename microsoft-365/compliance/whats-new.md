@@ -17,12 +17,12 @@ ms.assetid: e3c6df61-8513-499d-ad8e-8a91770bff63
 ms.collection:
 - M365-security-compliance
 description: Microsoft 365 준수 센터에 지속적으로 새로운 기능을 추가 하 고, 문제를 해결 하 고, 사용자 의견에 따라 변경 사항을 적용 하 고 있습니다. 이번 달에 제공 된 내용을 확인 합니다.
-ms.openlocfilehash: 1f92267e9f0e7ed720983ebe58e524485a130506
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+ms.openlocfilehash: 2f172c8639215285a793f16f4913917be6a58614
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42557595"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43626264"
 ---
 # <a name="whats-new-in-the-microsoft-365-compliance-center"></a>Microsoft 365 준수 센터의 새로운 기능
 
@@ -64,10 +64,10 @@ ms.locfileid: "42557595"
 
 ## <a name="january-2020"></a>2020년 1월
 
-대기가 종료 됩니다. Microsoft 365 준수 센터는 Microsoft 365, Office 365, Enterprise Mobility + Security (EMS) 및 Windows 10 Enterprise 요금제를 사용 하는 모든 고객에 게 제공 된다는 것을 알 수 있습니다. Office 365 보안 & 준수 센터에서 관리 하는 모든 데이터 또는 정책을 준수 센터에서 사용할 수 있으므로, 앞뒤로 이동할 필요가 없습니다.
+대기가 종료 됩니다. Microsoft 365 준수 센터는 Microsoft 365, Office 365, Enterprise Mobility + Security (EMS) 및 Windows 10 Enterprise 요금제를 사용 하는 모든 고객에 게 제공 된다는 것을 알 수 있습니다. 보안 & 준수 센터에서 관리 하는 모든 데이터 또는 정책을 준수 센터에서 사용할 수 있으므로, 앞뒤로 이동할 필요가 없습니다.
 
 > [!TIP]
-> 최근 달의 업데이트를 다시 읽고 Office 365 보안 & 준수 센터의 준수 기능이 Microsoft 365에 제공 되는 위치를 보여 주는 [로드맵을](#updated-compliance-solutions) [제공 합니다.](#new-compliance-solutions)
+> 최근 매월 미리 본 [솔루션](#new-compliance-solutions) 및 보안 & 준수 센터의 준수 기능이 Microsoft 365에 살고 있는 위치를 보여주는 [로드맵](#updated-compliance-solutions) 에 대 한 자세한 내용은 지난 달의 업데이트를 다시 읽어 보십시오.
 
 책갈피와 head to [https://compliance.microsoft.com](https://compliance.microsoft.com) a now to a-stop-상점을 여행 하 여 조직 전체에서 준수를 관리 합니다. [이 문서를 읽으면](microsoft-365-compliance-center.md) 좀 더 자세히 알아볼 수 있습니다.
 
@@ -91,7 +91,7 @@ ms.locfileid: "42557595"
 
 ### <a name="just-launched"></a>방금 시작한 항목만
 
-**커뮤니케이션 규정 준수**
+**통신 준수**
 
 Preview 단계에서 모든 가용성으로 Graduating, 통신 준수는 새로운 참가자 위험 솔루션 집합의 핵심 구성 요소입니다. 이 강력한 솔루션을 사용 하면 조직의 표준을 충족 하지 않는 메시지를 검색 하 고 조사 하 고 수정 작업을 수행 하는 워크플로를 통해 통신 위험을 최소화할 수 있습니다.
 
@@ -113,7 +113,7 @@ Preview 단계에서 모든 가용성으로 Graduating, 통신 준수는 새로�
 
 **규정 준수 점수에 대 한 새로운 평가 템플릿 (미리 보기)**
 
-끊임없이 진화 하는 준수 가로를 유지 하는 데 도움이 되는 항상 현재 준수 점수 팀에는 최근 규정에 대 한 조직의 준수 상태를 평가 하 고 구현 방법에 대 한 지침을 얻을 수 있는 새로운 서식 파일 집합이 제공 됩니다. 보다 효율적인 컨트롤 다음에 대 한 새 템플릿이 표시 됩니다.
+지속적으로 변화 하는 준수 점수를 제공 하는 데 도움이 되는 새로운 서식 파일 집합을 사용 하 여 최근 규정에 대 한 조직의 준수 상태를 평가 하 고 보다 효과적인 제어를 구현 하는 방법에 대 한 지침을 얻을 수 있습니다. 다음에 대 한 새 템플릿이 표시 됩니다.
 
 - ISO/IEC 27701:2019
 - 캘리포니아 소비자 개인 정보 보호법(CCPA)
@@ -170,13 +170,13 @@ Preview 단계에서 모든 가용성으로 Graduating, 통신 준수는 새로�
 |데이터 손실 방지|데이터 손실 방지 <br/> https://protection.office.com/datalossprevention |데이터 손실 방지 <br/> https://compliance.microsoft.com/datalossprevention |[데이터 손실 방지의 개요](data-loss-prevention-policies.md)|
 |데이터 주체 요청 |데이터 개인 정보 > 데이터 주체 요청 <br/> https://protection.office.com/dsrcases |데이터 주체 요청 <br/> https://compliance.microsoft.com/datasubjectrequest |[DSR 사례 도구를 사용 하 여 GDPR 데이터 주체 요청 관리](manage-gdpr-data-subject-requests-with-the-dsr-case-tool.md)|
 |eDiscovery|eDiscovery > eDiscovery <br/> https://protection.office.com/ediscoveryv1 |eDiscovery > 코어 <br/> https://compliance.microsoft.com/classicediscovery |[eDiscovery 사례 관리](ediscovery-cases.md) |
-|Events|레코드 관리 > 이벤트 <br/> https://protection.office.com/events |레코드 관리 > 이벤트 탭 <br/> https://compliance.microsoft.com/recordsmanagement?viewid=events |[이벤트 구동 보존 개요](event-driven-retention.md)|
+|이벤트|레코드 관리 > 이벤트 <br/> https://protection.office.com/events |레코드 관리 > 이벤트 탭 <br/> https://compliance.microsoft.com/recordsmanagement?viewid=events |[이벤트 구동 보존 개요](event-driven-retention.md)|
 |파일 플랜|파일 계획 > 레코드 관리 <br/> https://protection.office.com/fileplan |레코드 관리 > 파일 계획 탭 <br/> https://compliance.microsoft.com/recordsmanagement?viewid=fileplan |[파일 계획 관리자 개요](file-plan-manager.md)|
 |PST 파일 가져오기|정보 거 버 넌 스 > 가져오기 PST 파일 <br/> https://protection.office.com/importV2 |정보 거 버 넌 스 > 가져오기 탭 <br/> https://compliance.microsoft.com/informationgovernance?viewid=import |[조직의 PST 파일 가져오기 개요](importing-pst-files-to-office-365.md)|
 |레이블 활동 탐색기|정보 거 버 넌 스 > 레이블 활동 탐색기 <br/> https://protection.office.com/labelexplorer |데이터 분류 > 활동 탐색기 탭 <br/> https://compliance.microsoft.com/dataclassification?viewid=activitiesexplorer |[레이블이 지정된 콘텐츠의 활동 보기(미리 보기)](data-classification-activity-explorer.md)|
 |보존 레이블 및 레이블 정책 |분류 > 보존 레이블 > 레이블 및 레이블 정책 탭 <br/> https://protection.office.com/retentionlabels |정보 거 버 넌 스 > 레이블 및 레이블 정책 탭 <br/> https://compliance.microsoft.com/informationgovernance?viewid=labels <br/> https://compliance.microsoft.com/informationgovernance?viewid=labelpolicies | [보존 레이블 개요](labels.md)|
 |보존 정책|정보 거 버 넌 스 > 보존 <br/> https://protection.office.com/retention |정보 거 버 넌 스 > 보존 탭 <br/> https://compliance.microsoft.com/informationgovernance?viewid=retention |[보존 정책 개요](retention-policies.md)|
-|중요 한 정보 유형|분류 > 중요 한 정보 유형 <br/> https://protection.office.com/sensitivetypes |데이터 분류 > 중요 한 정보 유형 탭 <br/> https://compliance.microsoft.com/dataclassification?viewid=sensitiveinfotypes |[중요한 정보 유형이 찾는 항목](what-the-sensitive-information-types-look-for.md)|
+|중요 한 정보 유형|분류 > 중요 한 정보 유형 <br/> https://protection.office.com/sensitivetypes |데이터 분류 > 중요 한 정보 유형 탭 <br/> https://compliance.microsoft.com/dataclassification?viewid=sensitiveinfotypes |[What the sensitive information types look for](what-the-sensitive-information-types-look-for.md)(중요한 정보 유형이 찾는 항목)|
 |민감도 레이블 및 레이블 정책|분류 > 민감도 레이블 > 레이블 및 레이블 정책 탭 <br/> https://protection.office.com/sensitivity |정보 보호 > 레이블 및 레이블 정책 탭 <br/> https://compliance.microsoft.com/informationprotection?viewid=sensitivitylabels <br/> https://compliance.microsoft.com/informationprotection?viewid=sensitivitylabelpolicies |[민감도 레이블 알아보기](sensitivity-labels.md) |
 |서비스 보증|서비스 보증 <br/> https://protection.office.com/serviceassurance/dashboard |현재 서비스 보증 리소스는 Office 365 보안 & 준수 센터 에서만 액세스할 수 있습니다. |[보안 & 준수 센터의 서비스 보증](service-assurance.md)|
 |감독|감독 <br/> https://protection.office.com/supervisoryreviewv2 |커뮤니케이션 규정 준수 <br/> https://compliance.microsoft.com/supervisoryreview |[Microsoft 365의 통신 준수 (미리 보기)](communication-compliance.md) |

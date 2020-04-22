@@ -1,5 +1,5 @@
 ---
-title: Office 365 Advanced eDiscovery에서 일괄 처리 기록 보기 및 이전 결과 내보내기
+title: 고급 eDiscovery에서 일괄 처리 기록 보기 및 이전 결과 내보내기
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -15,13 +15,13 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 35d52b41-75ab-4144-9edf-31e11453bd5d
-description: '선택한 배치 내보내기 세션에 대 한 자세한 정보를 확인 하는 방법과 Office 365 Advanced eDiscovery에서 마지막 내보내기 세션을 실행 취소 하는 방법에 대해 알아봅니다.  '
-ms.openlocfilehash: de7366e1eb43c276899ecf35339c0443fad4879d
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+description: '선택 된 내보내기 배치 세션에 대 한 자세한 정보를 확인 하는 방법과 Advanced eDiscovery에서 마지막 내보내기 세션을 실행 취소 하는 방법에 대해 알아봅니다.  '
+ms.openlocfilehash: 356b0b61288b466da38bc640f9aad636ee654da2
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42557616"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43626354"
 ---
 # <a name="view-batch-history-and-export-past-results-in-advanced-ediscovery-classic"></a>고급 eDiscovery에서 일괄 처리 기록 보기 및 이전 결과 내보내기 (클래식)
 
@@ -46,9 +46,9 @@ ms.locfileid: "42557616"
   
 3. 이전 세션을 롤백하는 데 필요한 경우 **마지막 세션 실행 취소**를 클릭 합니다. 롤백을 여러 번 수행 하 여 마지막 세션을 취소할 수 있습니다.
     
-4. 이전에 실행 한 내보내기 일괄 처리 세션에서 언제 든 지 데이터를 다운로드 하려면 내보낼 원하는 내보내기 **** 일괄 처리 ![옆에 있는 다운로드 아이콘](../media/de69b920-a6ac-4ddb-b93e-e1cc5888e6c4.gif) 내보내기 다운로드 아이콘을 클릭 합니다. 
+4. 이전에 실행 한 내보내기 일괄 처리 세션에서 언제 든 지 데이터를 다운로드 하려면 내보낼 원하는 내보내기 **Download** 일괄 처리 ![옆에 있는 다운로드 아이콘](../media/de69b920-a6ac-4ddb-b93e-e1cc5888e6c4.gif) 내보내기 다운로드 아이콘을 클릭 합니다. 
     
-5. **공유 액세스 서명** 대화 상자가 표시 되 면 **클립보드에 복사** 를 클릭 하 여 내보내기 세션 데이터를 로컬 컴퓨터로 복사한 다음 **닫기를**클릭 합니다. Office 365 보안 &amp; 및 준수 센터 **eDiscovery 내보내기 도구** 대화 상자가 표시 됩니다. 
+5. **공유 액세스 서명** 대화 상자가 표시 되 면 **클립보드에 복사** 를 클릭 하 여 내보내기 세션 데이터를 로컬 컴퓨터로 복사한 다음 **닫기를**클릭 합니다. 보안 &amp; 및 준수 센터 **eDiscovery 내보내기 도구** 대화 상자가 표시 됩니다. 
     
     ![EDiscovery 대화 내보내기](../media/01f79d2d-6da0-45e6-9c6f-ab12347572cb.gif)
   

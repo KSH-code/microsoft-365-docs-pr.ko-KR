@@ -14,18 +14,18 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: fb667cdf13ed8ed6777f454b8fa3e21342f90272
-ms.sourcegitcommit: b6ab845d64e2801051d249de09ad5059809b649a
+ms.openlocfilehash: d5a6ee0b5ca5c9ba1fbf83f1076940a10134a9f6
+ms.sourcegitcommit: d818828c66cf98b0b0037ba8b3cb790c940281b7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42222090"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43583595"
 ---
 # <a name="federal-risk-and-authorization-management-program-fedramp"></a>FedRAMP(Federal Risk and Authorization Management Program)
 
 ## <a name="fedramp-overview"></a>FedRAMP 개요
 
-미국 연방 위험 및 권한 부여 관리 프로그램 (FedRAMP)은 연방 정보 보안 관리 작업에서 클라우드 컴퓨팅 제품 및 서비스를 평가, 모니터링 및 승인 하는 표준화 된 방법을 제공 하도록 설정 되었습니다 ( FISMA)를 만들고 연방 기관에의 한 안전한 클라우드 솔루션 채택 속도를 높일 수 있습니다.
+FedRAMP (미국 연방 위험 및 권한 부여 관리 프로그램)는 FISMA (정보 보안 관리 Act)에서 클라우드 컴퓨팅 제품 및 서비스를 평가, 모니터링 및 승인 하 고, 연방 기관에의 한 안전한 클라우드 솔루션 채택을 가속화 하기 위한 표준화 된 방법을 제공 하도록 설정 되었습니다.
 
 이제 관리 및 예산 사무소에는 모든 임원 연방 기관에서 FedRAMP를 사용 하 여 클라우드 서비스의 보안을 검사 해야 합니다. 다른 기관 에서도이를 채택 했으며, 공용 섹터의 다른 영역 에서도 유용 합니다. 국내 표준 및 기술 (NIST) 800-53은 표준을 설정 하며, FedRAMP는 CSP (클라우드 서비스 공급자)가 해당 표준을 충족 하는지 인증 하는 프로그램입니다.
 
@@ -35,9 +35,9 @@ FedRAMP 인증은 NIST 지침 (낮음, 중간, 높음)에 따라 세 가지 영�
 
 ## <a name="microsoft-and-fedramp"></a>Microsoft 및 FedRAMP
 
-Azure 정부, Office 365 U.S. 정부 및 Dynamics 365 정부를 포함 하는 Microsoft의 정부 클라우드 서비스는 미국 연방 위험 및 FedRAMP (권한 부여 관리 프로그램)의 까다로운 요구 사항을 충족 하 고 미국 연방 기관을 사용 하도록 설정 합니다. Microsoft 클라우드의 비용 절감 및 엄격한 보안 혜택을 받을 수 있습니다.
+Azure 정부, Office 365 U.S. 정부 및 Dynamics 365 정부를 포함 하는 Microsoft의 정부 클라우드 서비스는 미국 연방 FedRAMP (권한 부여 관리 프로그램)의 까다로운 요구 사항을 충족 하며 미국 연방 기관에서 Microsoft 클라우드의 비용 절약 및 엄격한 보안을 활용할 수 있도록 합니다.
 
-Microsoft 정부 클라우드 서비스는 공공 부문 고객에 게 FedRAMP와 호환 되는 다양 한 서비스를 제공 하며, FedRAMP에 대 한 Azure 보안 및 규정 준수 청사진을 비롯 한 강력한 지침 및 구현 도구를 통해 배포를 자동화 하는 데 도움이 됩니다. FedRAMP 환경에서의 Azure 리소스 구성
+Microsoft 정부 클라우드 서비스는 공용 섹터 고객에 게 FedRAMP와 호환 되는 다양 한 서비스를 제공 하며, FedRAMP에 대 한 Azure 보안 및 준수 청사진을 비롯 하 여 강력한 지침 및 구현 도구를 통해 FedRAMP 환경에서 Azure 리소스의 배포 및 구성을 자동화할 수 있습니다.
 
 Microsoft 클라우드에서 FEDRAMP의 혜택에 대해 자세히 알아보기: [FEDRAMP 준수 Backgrounder 다운로드](https://aka.ms/fedramp-backgrounder)
 
@@ -119,8 +119,4 @@ FedRAMP을 성공적으로 탐색 하 고 요구 사항을 충족 하기 위해 
 - [Microsoft 공통 컨트롤 허브 규정 준수 프레임 워크](https://www.microsoft.com/trustcenter/common-controls-hub)
 - [Microsoft Government 클라우드](https://go.microsoft.com/fwlink/p/?linkid=2087246)
 - [FedRAMP 보안 평가 프레임 워크](https://go.microsoft.com/fwlink/p/?linkid=2099507)
-- [Microsoft 보안 센터의 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>제공 사항의 배경 설명 다운로드
-
-이 제공 사항에 대한 배경 설명 문서가 필요한가요? [PDF](https://download.microsoft.com/download/6/B/7/6B7B25B8-D44F-439A-80A9-1ED04C88B922/FedRAMP_backgrounder-2018.pdf)를 다운로드합니다.
+- [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)

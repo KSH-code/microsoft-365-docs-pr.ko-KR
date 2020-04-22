@@ -1,5 +1,5 @@
 ---
-title: Office 365 Advanced eDiscovery에서 빠른 분석 사용
+title: 고급 eDiscovery에서 빠른 분석 사용
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -15,13 +15,13 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 50580099-3dc0-44a1-a9b6-5ca6d396316b
-description: Office 365 Advanced eDiscovery의 빠른 분석 모드를 실행 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: d4b8e1fa5e8251f5ede2d9a3003c756decac3b45
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+description: Advanced eDiscovery의 빠른 분석 모드를 실행 하는 방법 알아보기
+ms.openlocfilehash: 32e1087d33b9e9a6c0e4935bd3488a6b464d06a2
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42557646"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43626414"
 ---
 # <a name="use-express-analysis-in-advanced-ediscovery-classic"></a>고급 eDiscovery에서 빠른 분석 사용 (클래식) 
 
@@ -106,7 +106,7 @@ ms.locfileid: "42557646"
     
   - 새 일괄 처리로 **내보내려면 추가 아이콘** ![](../media/c2dd8b3a-5a22-412c-a7fa-143f5b2b5612.png) 추가를 클릭 하 고 **일괄 이름** 에 새 이름 (또는 기본값 적용)과 설명을 **일괄 처리 설명**에 입력 합니다. **확인**을 클릭합니다.
     
-  - 일괄 처리 이름 또는 설명을 편집 하려면 **내보내기 일괄 처리**에서 이름을 선택 하 고 편집 **** ![아이콘](../media/3d613660-7602-4df2-bdb9-14e9ca2f9cf2.png)편집을 클릭 한 다음 필드를 수정 합니다.
+  - 일괄 처리 이름 또는 설명을 편집 하려면 **내보내기 일괄 처리**에서 이름을 선택 하 고 편집 **Edit** ![아이콘](../media/3d613660-7602-4df2-bdb9-14e9ca2f9cf2.png)편집을 클릭 한 다음 필드를 수정 합니다.
     
     > [!NOTE]
     > 내보내기 일괄 처리에 대 한 세션을 실행 한 후에는 삭제할 수 없습니다. 또한 첫 번째 세션을 실행 한 후에는 일부 매개 변수만 편집할 수 있습니다. 

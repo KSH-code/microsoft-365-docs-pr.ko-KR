@@ -1,5 +1,5 @@
 ---
-title: Office 365 Advanced eDiscovery에서 결과 분석 보기
+title: Advanced eDiscovery에서 결과 분석 보기
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -15,13 +15,13 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 5974f3c2-89fe-4c5f-ac7b-57f214437f7e
-description: '표시 된 작업 옵션의 정의를 포함 하 여 Office 365 Advanced eDiscovery에서 분석 프로세스의 결과를 볼 수 있는 위치를 파악 합니다.  '
-ms.openlocfilehash: adee00d2b7826827cc14f4ca945952f4892511a1
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+description: '화면에 표시 된 작업 옵션의 정의를 포함 하 여 고급 eDiscovery에서 분석 프로세스의 결과를 볼 수 있는 위치를 파악 합니다.  '
+ms.openlocfilehash: 09bb682e753730a4c01581e71f05b5b8ef3d4779
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42557626"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43626364"
 ---
 # <a name="view-analyze-results-in-advanced-ediscovery-classic"></a>Advanced eDiscovery에서 결과 분석 보기 (클래식)
 

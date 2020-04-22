@@ -1,5 +1,5 @@
 ---
-title: Office 365 Advanced eDiscovery에서 관련성 모듈 사용
+title: Advanced eDiscovery에서 관련성 모듈 사용
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -15,13 +15,13 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 5d671821-d188-42da-a9ce-9cfe92beedfd
-description: '교육 및 파일 검토를 위한 워크플로, 지침 및 단계를 포함 하 여 Office 365 Advanced eDiscovery의 관련성 모듈에 대해 알아봅니다.  '
-ms.openlocfilehash: 5cb20d140e9369d6eccccb6936740030e6b5ca41
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+description: '교육 및 파일 검토를 위한 워크플로, 지침 및 단계를 비롯 하 여 Advanced eDiscovery의 관련성 모듈에 대해 알아봅니다.  '
+ms.openlocfilehash: 9fa588a139c992c8f67c99c8e02ff4a8540694b1
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42557636"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43626394"
 ---
 # <a name="use-the-relevance-module-in-advanced-ediscovery-classic"></a>고급 eDiscovery에서 관련성 모듈 사용 (클래식)
 
@@ -124,7 +124,7 @@ ms.locfileid: "42557636"
     
   - 함축:이 시점에서는 관련성 교육이 필요 하지 않습니다.
     
-고급 eDiscovery에서는 프로세스를 안내 하지만 다른 단계에서 권장 되는 다음 단계를 통해 탭과 페이지를 탐색할 수 있을 뿐만 아니라 개별 사례, 문제 또는 사용자에 게 적합 한 상황을 해결 하기 위한 선택도 가능 합니다. 문서 검토 프로세스 
+고급 eDiscovery에서는 프로세스를 안내 하지만 다른 단계에서 권장 되는 다음 단계를 사용 하 여 탭과 페이지를 탐색 하 고 개별 사례, 문제 또는 문서 검토 프로세스와 관련이 있을 수 있는 상황을 확인할 수 있습니다. 
   
 고급 eDiscovery 다음 단계 처리 옵션을 수락 하거나 무시할 수 있습니다. 권장 되는 다음 단계를 제외한 나머지 단계를 수행 하려면 대화에 확장 된 문제 표시에 나열 된 **다음 단계** 를 클릭 하 고 다음 단계 옆에 있는 **Modify (수정** ) 단추를 클릭 한 다음 다른 다음 단계 옵션을 선택 합니다. 
   

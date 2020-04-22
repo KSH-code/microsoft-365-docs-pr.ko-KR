@@ -1,5 +1,5 @@
 ---
-title: Office 365 Advanced eDiscovery에서 프로세스 모듈 실행 및 데이터 로드
+title: 고급 eDiscovery에서 프로세스 모듈 실행 및 데이터 로드
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -15,13 +15,13 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: c87bb0e5-301c-4d1d-958e-aabeb7990f44
-description: 'Office 365 보안 &amp; 및 준수 센터를 사용 하 여 Office 365 Advanced eDiscovery에 액세스 하 고 서비스 케이스에 대해 프로세스 모듈을 실행 하는 방법에 대해 알아봅니다.  '
-ms.openlocfilehash: 60da3fd66ce33443e991ece2dc756c7d1ab0d14a
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+description: '보안 &amp; 및 준수 센터를 사용 하 여 Advanced eDiscovery에 액세스 하 고 서비스 케이스에 대해 프로세스 모듈을 실행 하는 방법을 알아봅니다.  '
+ms.openlocfilehash: efab765a7ed17b1118efe7296fbabe08d51dd1ba
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42557828"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43626474"
 ---
 # <a name="run-the-process-module-and-load-data-in-advanced-ediscovery-classic"></a>고급 eDiscovery에서 프로세스 모듈 실행 및 데이터 로드 (클래식)
 
@@ -41,13 +41,13 @@ Advanced eDiscovery는 거의 중복 된 그룹 또는 관련성 점수와 같�
   
 다음 단계를 수행 하 여 프로세스를 실행 합니다.
   
-1. [Office 365 보안 &amp; 및 준수 센터를 엽니다](go-to-the-securitycompliance-center.md) . 
+1. [보안 &amp; 및 준수 센터를 엽니다](go-to-the-securitycompliance-center.md) . 
     
 2. ** &amp; 검색 조사** \> **eDiscovery** 로 이동한 후 **Advanced eDiscovery로 이동을**클릭 합니다.
     
 3. 고급 eDiscovery의 경우 표시 되는 **사례** 페이지에서 적절 한 사례를 선택 하 고 **대/소문자로 이동을**클릭 합니다.
     
-4. \> **프로세스** **** \> 준비 **설정**의 사용 가능한 컨테이너 목록에서 컨테이너를 선택 합니다.
+4. \> **프로세스** **Prepare** \> 준비 **설정**의 사용 가능한 컨테이너 목록에서 컨테이너를 선택 합니다.
     
     ![프로세스를 클릭 하 여 검색 결과를 사례에 추가 합니다.](../media/50bdc55c-d378-4881-b302-31ef785fa359.png)
   

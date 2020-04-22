@@ -1,5 +1,5 @@
 ---
-title: Office 365 고급 eDiscovery 검색 결과 준비
+title: Advanced eDiscovery 검색 결과 준비
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -16,20 +16,20 @@ ms.collection:
 - M365-security-compliance
 search.appverid: MOE150
 ms.assetid: 0b6fac2d-8627-4b05-9df0-03609db6248b
-description: Advanced eDiscovery 도구로 추가 분석을 위해 Office 365의 보안 & 준수 센터에서 콘텐츠 검색 결과를 준비 하는 방법을 알아봅니다.
-ms.openlocfilehash: 01a09da78198c31ff88b0e539ae9b149b2fbdd02
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+description: Advanced eDiscovery 도구로 추가 분석을 위해 보안 & 준수 센터에서 콘텐츠 검색 결과를 준비 하는 방법을 알아봅니다.
+ms.openlocfilehash: e4cf580a045f9911e6c92fb2031a5d7bed79754e
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42557858"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43626642"
 ---
-# <a name="prepare-search-results-for-advanced-ediscovery-classic"></a>고급 eDiscovery에 대 한 검색 결과 준비 (클래식)
+# <a name="prepare-search-results-for-advanced-ediscovery-classic"></a>Advanced eDiscovery(클래식) 검색 결과 준비
 
 > [!IMPORTANT]
-> 최신 버전의 Advanced eDiscovery에 계속 투자 하는 경우에는 *고급 ediscovery (클래식)* 또는 *advanced ediscovery v 1.0*이 라고도 하는 Office 365 Advanced ediscovery의 만료를 발표 하 고 있습니다. Advanced eDiscovery v1.0을 계속 사용하고 있는 경우 [Advanced eDiscovery v2.0](overview-ediscovery-20.md)(*Advanced eDiscovery solution in Microsoft 365*라고도 함)으로 전환하세요. Advanced eDiscovery 2.0에는 Advanced eDiscovery v1.0에 있는 유사한 기능이 포함되어 있습니다. 또한 보유자 관리, 통신 관리, 검토 집합 등의 새로운 기능도 제공합니다. Advanced eDiscovery v1.0의 사용 중지에 대한 자세한 내용은 [레거시 eDiscovery 도구의 사용 중지](legacy-ediscovery-retirement.md#advanced-ediscovery-v10)를 참조하세요. 
+> 최신 버전의 Advanced eDiscovery에 계속 투자 하기 때문에 고급 ediscovery *(클래식)* 또는 *advanced ediscovery v 1.0*이 라고도 하는 개선 된 작업을 발표 합니다. Advanced eDiscovery v1.0을 계속 사용하고 있는 경우 [Advanced eDiscovery v2.0](overview-ediscovery-20.md)(*Advanced eDiscovery solution in Microsoft 365*라고도 함)으로 전환하세요. Advanced eDiscovery 2.0에는 Advanced eDiscovery v1.0에 있는 유사한 기능이 포함되어 있습니다. 또한 보유자 관리, 통신 관리, 검토 집합 등의 새로운 기능도 제공합니다. Advanced eDiscovery v1.0의 사용 중지에 대한 자세한 내용은 [레거시 eDiscovery 도구의 사용 중지](legacy-ediscovery-retirement.md#advanced-ediscovery-v10)를 참조하세요. 
 
-보안 & 준수 센터에서 eDiscovery 사례와 관련 된 검색을 성공적으로 실행 한 후에는 Office 365 Advanced eDiscovery를 사용 하 여 검색 결과를 준비 하 고, 구조화 되지 않은 대규모 데이터 집합을 분석 하 고 법적 사례와 관련 된 데이터의 양을 줄일 수 있습니다. 고급 eDiscovery 기능에는 다음이 포함 됩니다.
+보안 & 준수 센터에서 eDiscovery 사례와 관련 된 검색을 성공적으로 실행 한 후에는 고급 eDiscovery를 사용 하 여 추가 분석을 위한 검색 결과를 준비할 수 있으며,이를 통해 크고 구조화 되지 않은 데이터 집합을 분석 하 고 법적 사례와 관련 된 데이터의 양을 줄일 수도 있습니다. 고급 eDiscovery 기능에는 다음이 포함 됩니다.
   
 - **광학 인식** -고급 ediscovery에 대 한 검색 결과를 준비할 때 OCR (광학 인식) 기능은 이미지에서 텍스트를 자동으로 추출 하며, 분석을 위해 고급 ediscovery에 로드 되는 검색 결과를 포함 합니다. OCR은 느슨한 파일, 전자 메일 첨부 파일 및 포함 된 이미지에 대해 지원 됩니다. 이를 통해 이미지 파일의 텍스트 콘텐츠에 고급 eDiscovery (근거리 복제, 전자 메일 스레딩, 테마 및 예측 코딩)의 텍스트 분석 기능을 적용할 수 있습니다. Advanced eDiscovery OCR은 다음과 같은 이미지 파일 형식을 지원 합니다.
 
@@ -47,7 +47,7 @@ ms.locfileid: "42557858"
     
 - **예측 코딩** -소수의 문서 집합에 대 한 결정을 내릴 수 있도록 하 여 원하는 내용을 시스템에 교육할 수 있습니다. 그러면 고급 eDiscovery가 데이터 집합의 모든 문서를 분석할 때 지침을 기반으로 하 여 해당 학습을 적용 합니다. 이 학습에 따라 Advanced eDiscovery는 사례와 관련이 있을 가능성이 가장 높은 문서에 따라 검토할 문서를 결정할 수 있도록 관련성 순위를 제공 합니다. 
     
-- **검토 응용 프로그램에 대 한 데이터 내보내기** -분석을 완료 하 고 데이터 집합을 줄이고 나면 고급 EDiscovery 및 Office 365에서 데이터를 내보낼 수 있습니다. 내보내기 패키지에는 내보낸 콘텐츠 및 analytics 메타 데이터의 속성을 포함 하는 CSV 파일이 포함 됩니다. 내보낸 패키지는 eDiscovery 검토 응용 프로그램으로 가져올 수 있습니다. 
+- **검토 응용 프로그램에 대 한 데이터 내보내기** -분석을 완료 하 고 데이터 집합을 줄이고 나면 고급 EDiscovery 및 Microsoft 365에서 데이터를 내보낼 수 있습니다. 내보내기 패키지에는 내보낸 콘텐츠 및 analytics 메타 데이터의 속성을 포함 하는 CSV 파일이 포함 됩니다. 내보낸 패키지는 eDiscovery 검토 응용 프로그램으로 가져올 수 있습니다. 
     
 ## <a name="before-you-begin"></a>시작하기 전에
 
@@ -120,4 +120,4 @@ EDiscovery 검색의 결과를 사례에 추가한 후에는 고급 eDiscovery �
     
 - RMS 암호화 전자 메일 메시지에 암호화 된 첨부 파일 (예: 문서 또는 다른 전자 메일 메시지)이 있는 경우 최상위 전자 메일 메시지만 해독 됩니다.
     
-- 고급 eDiscovery에서 분석에 대 한 검색 결과를 준비할 때 누군가 RMS 암호화 메시지의 암호를 해독할 수 없도록 하려면 기본 제공 eDiscovery 관리자 역할 그룹을 복사 하 여 사용자 지정 역할 그룹을 만든 다음 RMS를 제거 해야 합니다. 사용자 지정 역할 그룹에서 관리 역할의 암호를 해독 합니다. 그런 다음 메시지의 암호를 해독 하지 않으려는 사용자를 사용자 지정 역할 그룹의 구성원으로 추가 합니다.
+- 고급 eDiscovery에서 분석에 대 한 검색 결과를 준비할 때 누군가 RMS 암호화 메시지의 암호를 해독할 수 없도록 하려면 기본 제공 eDiscovery 관리자 역할 그룹을 복사 하 여 사용자 지정 역할 그룹을 만든 다음 사용자 지정 역할 그룹에서 RMS 암호 해독 관리 역할을 제거 해야 합니다. 그런 다음 메시지의 암호를 해독 하지 않으려는 사용자를 사용자 지정 역할 그룹의 구성원으로 추가 합니다.

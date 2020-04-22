@@ -1,5 +1,5 @@
 ---
-title: Office 365의 콘텐츠 검색에서 부분적으로 인덱싱된 항목
+title: 콘텐츠 검색에서 부분적으로 인덱싱된 항목
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -21,16 +21,16 @@ search.appverid:
 - MET150
 ms.assetid: d1691de4-ca0d-446f-a0d0-373a4fc8487b
 description: '보안 & 준수 센터를 통해 실행 되는 콘텐츠 검색에 포함할 수 있는 Exchange 및 SharePoint의 인덱싱되지 않은 항목에 대해 알아봅니다. '
-ms.openlocfilehash: 3984a181d16d4cd66fbddacb24cfd7c5e489f4ac
-ms.sourcegitcommit: bd51f626f0c7788c2a3cf89deee25264659aebd5
+ms.openlocfilehash: c44138c11c2703cda4accba9976c254a0b135d65
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "43551229"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43626682"
 ---
-# <a name="partially-indexed-items-in-content-search-in-office-365"></a>Office 365의 콘텐츠 검색에서 부분적으로 인덱싱된 항목
+# <a name="partially-indexed-items-in-content-search"></a>콘텐츠 검색에서 부분적으로 인덱싱된 항목
 
-Office 365의 보안 & 준수 센터에서 실행 하는 콘텐츠 검색은 검색을 실행할 때 예상 되는 검색 결과에 부분적으로 인덱싱된 항목을 자동으로 포함 합니다. 부분적으로 인덱싱된 항목은 Exchange 사서함 항목 및 SharePoint의 문서와 몇 가지 이유로 검색을 위해 완전히 인덱싱되지 않은 비즈니스용 OneDrive 사이트입니다. Exchange에서 부분적으로 인덱싱된 항목에는 일반적으로 인덱싱할 수 없는 파일 형식의 파일 (즉, 전자 메일 메시지에 첨부 됨)이 포함 되어 있습니다. 검색을 실행할 때 항목을 검색용으로 인덱싱할 수 없으며 부분적으로 인덱싱된 항목으로 반환 되는 몇 가지 다른 이유는 다음과 같습니다. 
+보안 & 준수 센터에서 실행 하는 콘텐츠 검색에는 검색을 실행할 때 예상 되는 검색 결과에 부분적으로 인덱싱된 항목이 자동으로 포함 됩니다. 부분적으로 인덱싱된 항목은 Exchange 사서함 항목 및 SharePoint의 문서와 몇 가지 이유로 검색을 위해 완전히 인덱싱되지 않은 비즈니스용 OneDrive 사이트입니다. Exchange에서 부분적으로 인덱싱된 항목에는 일반적으로 인덱싱할 수 없는 파일 형식의 파일 (즉, 전자 메일 메시지에 첨부 됨)이 포함 되어 있습니다. 검색을 실행할 때 항목을 검색용으로 인덱싱할 수 없으며 부분적으로 인덱싱된 항목으로 반환 되는 몇 가지 다른 이유는 다음과 같습니다. 
   
 - 파일 형식을 인식할 수 없거나 인덱싱이 지원되지 않습니다.
     
@@ -47,9 +47,9 @@ Office 365의 보안 & 준수 센터에서 실행 하는 콘텐츠 검색은 검
 - 파일이 암호로 보호되어 있습니다.
     
 > [!NOTE]
-> 대부분의 Office 365 조직에는 콘텐트의 콘텐츠가 1% 미만이 고 부분적으로 인덱싱되는 크기 만큼 12% 미만 이어야 합니다. 볼륨과 크기의 차이는 큰 파일의 경우 완전히 인덱싱할 수 없는 콘텐츠가 포함 될 가능성이 높기 때문입니다. 
+> 대부분의 조직에서는 콘텐츠가 볼륨 별로 1% 미만이 고 부분적으로 인덱싱되는 크기 만큼 12% 미만 이어야 합니다. 볼륨과 크기의 차이는 큰 파일의 경우 완전히 인덱싱할 수 없는 콘텐츠가 포함 될 가능성이 높기 때문입니다. 
   
-법적 조사를 위해 조직에서 부분적으로 인덱싱된 항목을 검토 해야 할 수 있습니다. 또한 검색 결과를 로컬 컴퓨터로 내보낼 때 또는 Office 365 Advanced eDiscovery를 사용 하 여 분석을 위한 결과를 준비할 때 부분적으로 인덱싱된 항목을 포함할지 여부를 지정할 수 있습니다. 자세한 내용은 [Office 365 eDiscovery에서 부분적으로 인덱싱된 항목 조사](investigating-partially-indexed-items-in-ediscovery.md)를 참조 하세요.
+법적 조사를 위해 조직에서 부분적으로 인덱싱된 항목을 검토 해야 할 수 있습니다. 또한 검색 결과를 로컬 컴퓨터로 내보낼 때 또는 고급 eDiscovery를 사용 하 여 분석 하기 위해 결과를 준비할 때 부분적으로 인덱싱된 항목을 포함할지 여부도 지정할 수 있습니다. 자세한 내용은 [eDiscovery에서 부분적으로 인덱싱된 항목 조사](investigating-partially-indexed-items-in-ediscovery.md)를 참조 하세요.
   
 ## <a name="file-types-not-indexed-for-search"></a>검색을 위해 인덱싱되지 않는 파일 형식
 

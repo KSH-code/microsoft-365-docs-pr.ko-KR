@@ -1,5 +1,5 @@
 ---
-title: Office 365 고급 메시지 암호화로 암호화된 전자 메일 취소
+title: 고급 메시지 암호화로 암호화 된 전자 메일 해지
 f1.keywords:
 - NOCSH
 ms.author: krowley
@@ -15,21 +15,21 @@ ms.collection:
 - M365-security-compliance
 search.appverid:
 - MET150
-description: Office 365 관리자는 Office 365 고급 메시지 암호화로 암호화 된 특정 전자 메일을 해지할 수 있습니다.
-ms.openlocfilehash: 0e3ef031e61ed8bc7dd450e7ef61b6b7f41152c6
-ms.sourcegitcommit: 004f01fc5d5bdb8aac03d69692d86c38b5e05e14
+description: 관리자는 Office 365 고급 메시지 암호화를 사용 하 여 암호화 된 특정 전자 메일을 해지할 수 있습니다.
+ms.openlocfilehash: 271aa1b3644983907c341cf7f9ad6d526597ad59
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "42333705"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43626494"
 ---
-# <a name="revoke-email-encrypted-by-office-365-advanced-message-encryption"></a>Office 365 고급 메시지 암호화로 암호화된 전자 메일 취소
+# <a name="revoke-email-encrypted-by-advanced-message-encryption"></a>고급 메시지 암호화로 암호화 된 전자 메일 해지
 
-전자 메일 해지가 Office 365 Advanced Message 암호화의 일부로 제공 됩니다. Office 365 Advanced Message Encryption은 [microsoft 365 Enterprise e5](https://www.microsoft.com/microsoft-365/enterprise/home), Office 365 E5, Microsoft 365 E5 (비영리 스태프 가격), Office 365 Enterprise E5 (비영리 스태프 가격) 및 Office 365 교육용 A5에 포함 되어 있습니다. 조직에서 Office 365 고급 메시지 암호화를 포함 하지 않는 구독을 사용 하는 경우 microsoft 365 E3, Microsoft 365 E3 (비영리 직원 가격) 또는 Office 365 Advanced 용 Microsoft 365 E5 준수 SKU 추가 기능을 통해 구매할 수 있습니다. Microsoft 365 E3, Microsoft 365 E3 (비영리 직원 가격) 또는 Office 365 Sku에 대 한 준수 SKU 추가 기능입니다.
+전자 메일 해지가 Office 365 Advanced Message 암호화의 일부로 제공 됩니다. Office 365 Advanced Message Encryption은 [microsoft 365 Enterprise e5](https://www.microsoft.com/microsoft-365/enterprise/home), Office 365 E5, Microsoft 365 E5 (비영리 스태프 가격), Office 365 Enterprise E5 (비영리 스태프 가격) 및 Office 365 교육용 A5에 포함 되어 있습니다. 조직에서 Office 365 고급 메시지 암호화를 포함 하지 않는 구독을 사용 하는 경우 microsoft 365 E3, microsoft 365 E3 (비영리 직원 가격) 또는 Microsoft 365 (고급 규정 준수) 용 microsoft 365 e3, Microsoft 365 E3 (비영리 스태프 가격) 또는 Office 365 Sku에 대 한 Office 준수 sku 추가 기능을 사용해 서 구매할 수 있습니다.
 
 이 문서는 [Office 365 메시지 암호화](ome.md)에 대 한 보다 광범위 한 문서에 포함 되어 있습니다.
 
-Office 365 고급 메시지 암호화를 사용 하 여 메시지를 암호화 했으며 Office 365 관리자 인 경우 특정 조건에 따라 메시지를 취소할 수 있습니다. 이 문서에서는 해지가 가능한 상황 및 수행 방법에 대해 설명 합니다.
+메시지가 Office 365 고급 메시지 암호화를 사용 하 여 암호화 되었지만 Microsoft 365 관리자 인 경우 특정 조건에 따라 메시지를 취소할 수 있습니다. 이 문서에서는 해지가 가능한 상황 및 수행 방법에 대해 설명 합니다.
   
 ## <a name="encrypted-emails-that-you-can-revoke"></a>해지할 수 있는 암호화 된 전자 메일
 
@@ -45,7 +45,7 @@ Office 365 고급 메시지 암호화를 사용 하 여 메시지를 암호화 �
 
 ## <a name="how-to-revoke-an-encrypted-email"></a>암호화 된 전자 메일을 해지 하는 방법
 
-Office 365 관리자는 다음과 같은 일반적인 단계를 수행 하 여 적합 한 암호화 된 전자 메일을 해지 합니다.
+Microsoft 365 관리자는 다음과 같은 일반적인 단계를 수행 하 여 적합 한 암호화 된 전자 메일을 해지 합니다.
 
 - 전자 메일의 메시지 ID를 가져옵니다.
 - 메시지를 해지할 수 있는지 확인 합니다.
@@ -63,7 +63,7 @@ Office 365 관리자는 다음과 같은 일반적인 단계를 수행 하 여 �
 
 #### <a name="to-identify-the-message-id-of-the-email-you-want-to-revoke-by-using-message-trace-in-the-security-amp-compliance-center"></a>보안 &amp; 및 준수 센터에서 메시지 추적을 사용 하 여 해지할 전자 메일의 메시지 ID를 식별 하려면
 
-1. [Office 365 보안 & 준수 센터의 새 메시지 추적을](https://blogs.technet.microsoft.com/exchange/2018/05/02/new-message-trace-in-office-365-security-compliance-center/)사용 하 여 보낸 사람 또는 받는 사람에 대 한 전자 메일을 검색 합니다.
+1. [보안 & 준수 센터에서 새 메시지 추적을](https://blogs.technet.microsoft.com/exchange/2018/05/02/new-message-trace-in-office-365-security-compliance-center/)사용 하 여 보낸 사람이 나 받는 사람에 게 전자 메일을 검색 합니다.
 
 2. 전자 메일을 찾은 후에는이를 선택 하 여 **메시지 추적 세부 정보** 창을 표시 합니다. **자세한 정보** 를 확장 하 여 메시지 ID를 찾습니다.
 
@@ -81,7 +81,7 @@ Office 365 관리자는 다음과 같은 일반적인 단계를 수행 하 여 �
 
 Windows PowerShell을 사용 하 여 특정 전자 메일 메시지를 해지할 수 있는지 여부를 확인 하려면 다음 단계를 완료 합니다.
 
-1. Office 365 조직에서 전역 관리자 권한이 있는 회사 또는 학교 계정을 사용 하는 경우 Windows PowerShell 세션을 시작 하 고 Exchange Online에 연결 합니다. 지침을 확인하려면 [Exchange Online PowerShell에 연결](https://aka.ms/exopowershell)을 참조하세요.
+1. 조직에서 전역 관리자 권한이 있는 회사 또는 학교 계정을 사용 하 여 Windows PowerShell 세션을 시작 하 고 Exchange Online에 연결 합니다. 지침을 확인하려면 [Exchange Online PowerShell에 연결](https://aka.ms/exopowershell)을 참조하세요.
 
 2. 다음과 같이 OMEMessageStatus cmdlet을 실행 합니다.
 
@@ -94,7 +94,7 @@ Windows PowerShell을 사용 하 여 특정 전자 메일 메시지를 해지할
      ```text
      Subject        IsRevocable
      -------        -----------
-     “Test message” True
+     "Test message" True
      ```
 
 ### <a name="step-3-revoke-the-mail"></a>3단계. 메일 해지
@@ -103,13 +103,13 @@ Windows PowerShell을 사용 하 여 특정 전자 메일 메시지를 해지할
 
 보안 &amp; 및 준수 센터를 사용 하 여 메시지를 해지 하려면
 
-1. Office 365 조직에서 전역 관리자 권한이 있는 회사 또는 학교 계정을 사용 하 여 보안 & 준수 센터에 연결 합니다.
+1. 조직에서 전역 관리자 권한이 있는 회사 또는 학교 계정을 사용 하 여 보안 & 준수 센터에 연결 합니다.
 
 2. **암호화 보고서**의 메시지에 대 한 **세부 정보** 테이블에서 **메시지 취소**를 선택 합니다.
 
 Windows PowerShell을 사용 하 여 전자 메일을 해지 하려면 OMEMessageRevocation cmdlet을 사용 합니다.
 
-1. Office 365 조직에서 전역 관리자 권한이 있는 회사 또는 학교 계정을 사용 하는 경우 [Exchange Online PowerShell에 연결](https://aka.ms/exopowershell)합니다.
+1. 조직에서 전역 관리자 권한이 있는 회사 또는 학교 계정을 사용 하는 경우 [Exchange Online PowerShell에 연결](https://aka.ms/exopowershell)합니다.
 
 2. 다음과 같이 OMEMessageRevocation cmdlet을 실행 합니다.
 

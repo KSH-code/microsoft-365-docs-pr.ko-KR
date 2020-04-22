@@ -1,7 +1,7 @@
 ---
 title: 형사법 (CJIS) 보안 정책
 description: Microsoft 정부 클라우드 서비스는 미국 범죄를 대상으로 하는 정보 서비스 보안 정책을 따릅니다.
-keywords: Microsoft 365, 규정 준수, 제품
+keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -14,18 +14,18 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 97f769b763b5698dd664dee4ae8659999a62b078
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 4ef19b106d5b00bb8b436b56b6da8bb653873f3a
+ms.sourcegitcommit: d818828c66cf98b0b0037ba8b3cb790c940281b7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602615"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43583325"
 ---
 # <a name="criminal-justice-information-services-cjis-security-policy"></a>형사법 (CJIS) 보안 정책
 
 ## <a name="cjis-overview"></a>CJIS 개요
 
-FBI에서 미국 연방 (정부 정보 서비스)를 사용 하 여 상태, 로컬 및 연방 법 집행 및 형사법 CJI (범죄를 지는 정보) (예: 지문)에 대 한 액세스를 제공 합니다. 레코드 및 형사법 기록 법 집행 및 기타 정부 기관은 미국의 전송, 저장 또는 처리에 클라우드 서비스를 사용 하 여 CJI의 보안 요구 사항 및 제어를 최소화 하는 [Cjis 보안 정책을](https://aka.ms/cjis-security-policy)준수 하도록 해야 합니다.
+FBI의 미국 연방 (정부 정보 서비스) 디비전은 상태, 로컬 및 연방 법 집행 및 범죄 조사 (CJI) (예: 지문 기록 및 형사법 기록)에 대 한 액세스 권한을 부여 합니다. 법 집행 및 기타 정부 기관은 미국의 전송, 저장 또는 처리에 클라우드 서비스를 사용 하 여 CJI의 보안 요구 사항 및 제어를 최소화 하는 [Cjis 보안 정책을](https://aka.ms/cjis-security-policy)준수 하도록 해야 합니다.
 
 CJIS 보안 정책은 presidential 및 FBI 가이드, 연방 법규 및 범죄 정책 보드 의사 결정을 통합 하 고 NIST (표준 및 기술)의 지침과 함께 사용 합니다. 진화 하는 보안 요구 사항을 반영 하도록 정책이 주기적으로 업데이트 됩니다.
 
@@ -35,9 +35,9 @@ CJIS 보안 정책은 클라우드 서비스 공급자와 같은 개인 계약�
 
 ## <a name="microsoft-and-cjis-security-policy"></a>Microsoft 및 CJIS 보안 정책
 
-Microsoft는 CJIS 정보 계약을 사용 하 여 상태에 있는 CJIS 보안 추 록에 서명 합니다. 다음은 CJIS 보안 정책 준수를 담당 하는 상태 법 집행 기관 Microsoft의 클라우드 보안 제어를 통해 전체 데이터 수명 주기를 보호 하 고 운영 담당자에 대 한 액세스 권한을 적절 하 게 유지 하는 방법입니다. CJI. Microsoft는 계속 해 서 상태 정부를 사용 하 여 CJIS 정보 계약에 진입 합니다.
+Microsoft는 CJIS 정보 계약을 사용 하 여 상태에 있는 CJIS 보안 추 록에 서명 합니다. 이러한 규정은 CJIS 보안 정책 준수를 담당 하는 상태 법 집행 기관 Microsoft의 클라우드 보안 컨트롤을 사용 하 여 데이터의 전체 수명 주기를 보호 하 고 CJI에 대 한 액세스 권한이 있는 운영 인력이 적절 한 백그라운드에 있는지 확인 하는 방법 Microsoft는 계속 해 서 상태 정부를 사용 하 여 CJIS 정보 계약에 진입 합니다.
 
-Microsoft는 microsoft Azure 정부, Microsoft Office 365 미국 정부 및 Microsoft Dynamics 365 U.S. 정부의 운영 정책 및 절차를 평가 했으며, 해당 서비스 계약에서 FBI에 부합 하는 기능을 보증 합니다. 범위 내 서비스 사용에 대 한 요구 사항
+Microsoft는 microsoft Azure 정부, Microsoft Office 365 미국 정부 및 Microsoft Dynamics 365 U.S. 정부의 운영 정책 및 절차를 평가 했으며, 해당 서비스 계약에서 사용 범위 서비스를 사용할 때의 FBI 요구 사항을 충족 하는 기능을 보증 합니다.
 
 Microsoft 클라우드의 CJIS 보안 정책 혜택에 대해 자세히 알아보세요: [Genetec에서 범죄 조사를 지운 방법 읽기](https://customers.microsoft.com/story/genetec)
 
@@ -60,7 +60,7 @@ FBI에서는 CJIS 요구 사항을 준수 하는 Microsoft의 인증을 제공 �
 
 37: 관리 계약을 포함 한 콜롬비아의 학구 및 해당 지역에 녹색으로 강조 표시 됩니다.
 
-앨라배마, 알래스카, Arkansas, 애리조나, 캘리포니아, Colorado,, Florida, 인디애나, Illinois, Iowa,, Kansas, Maine, Massachusetts, Michigan, Minnesota, Missouri,,, 서울 Montana Pennsylvania, Rhode 아일랜드, 남부 Carolina, Tennessee, 텍사스, Utah, Vermont, Virginia, 인천,, and D.C., Virginia
+앨라배마, 알래스카, Arkansas, 애리조나, 캘리포니아, Colorado, Florida, 그루지야, 하와이, Illinois, 인디애나, Iowa, Kansas, 켄터키, Maine, Massachusetts, Michigan, Minnesota, Missouri, Montana,, Jersey,,, Nevada, Carolina, Oregon, Pennsylvania,, Rhode,,,, Carolina,, Tennessee,
 
 해당 하는 CJIS 규정 제어를 충족 하기 위해 Microsoft는 범죄자가 클라우드 기반 솔루션을 구현 하 고 CJIS 보안 정책 V 5.8을 준수할 수 있도록 합니다.
 
@@ -87,7 +87,3 @@ Microsoft는 CSA (CJIS Systems 에이전시)를 사용 하 여 정보 계약에 
 - [Microsoft 공통 컨트롤 허브 규정 준수 프레임 워크](https://www.microsoft.com/trustcenter/common-controls-hub)
 - [Microsoft Government 클라우드](https://go.microsoft.com/fwlink/?linkid=2087246)
 - [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>제공 사항의 배경 설명 다운로드
-
-이 제공 사항에 대한 배경 설명 문서가 필요한가요? [PDF](https://download.microsoft.com/download/4/D/0/4D008840-B8C4-480B-ACD1-D55CB34AD6BC/CJIS_Compliance_Backgrounder.pdf)를 다운로드합니다.

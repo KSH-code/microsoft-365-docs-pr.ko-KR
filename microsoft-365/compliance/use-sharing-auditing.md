@@ -1,5 +1,5 @@
 ---
-title: 외부 사용자와 공유된 리소스를 찾기 위한 감사 공유
+title: 감사 로그에서 공유 감사 사용
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -19,17 +19,17 @@ ms.collection:
 - M365-security-compliance
 - SPO_Content
 ms.assetid: 50bbf89f-7870-4c2a-ae14-42635e0cfc01
-description: '공유는 SharePoint Online 및 비즈니스용 OneDrive의 주요 활동입니다. 이제 관리자는 Office 365 감사 로그의 공유 감사를 사용 하 여 조직 외부의 사용자와 공유 되는 리소스를 식별할 수 있습니다. '
-ms.openlocfilehash: 5aecf1e6126ebd118474054ea6536ed0725e980e
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: '공유는 SharePoint Online 및 비즈니스용 OneDrive의 주요 활동입니다. 이제 관리자는 감사 로그의 공유 감사를 사용 하 여 조직 외부의 사용자와 공유 되는 리소스를 식별할 수 있습니다. '
+ms.openlocfilehash: 63b56831dc5409cc92a0c4a2f4bf002cd268a878
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42069243"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43626384"
 ---
-# <a name="use-sharing-auditing-in-the-office-365-audit-log"></a>외부 사용자와 공유된 리소스를 찾기 위한 감사 공유
+# <a name="use-sharing-auditing-in-the-audit-log"></a>감사 로그에서 공유 감사 사용
 
-공유는 SharePoint Online 및 비즈니스용 OneDrive의 주요 활동 이며, Office 365 조직에서 널리 사용 되 고 있습니다. 관리자는 Office 365 감사 로그의 공유 감사를 사용 하 여 조직에서 공유를 사용 하는 방법을 확인할 수 있습니다. 
+공유는 SharePoint Online 및 비즈니스용 OneDrive의 주요 활동으로, 조직에서는 광범위 하 게 사용 됩니다. 관리자는 감사 로그의 공유 감사를 사용 하 여 조직에서 공유를 사용 하는 방법을 결정할 수 있습니다. 
   
 ## <a name="the-sharepoint-sharing-schema"></a>SharePoint 공유 스키마
 
@@ -41,13 +41,13 @@ ms.locfileid: "42069243"
 
 - **Targetuserorgroupname:** 리소스를 공유 하는 대상 사용자 또는 그룹의 UPN 이나 이름을 저장 합니다 (이전 예제에서는 User B). 
 
-이러한 두 필드는 사용자, 작업 및 날짜와 같은 Office 365 감사 로그 스키마의 다른 속성 외에, *누가 누구* *에 게* *어떤* 리소스를 공유 하는지를 알려 줄 수 *있습니다.* 
+이러한 두 필드는 User, Operation 및 Date와 같은 감사 로그 스키마의 다른 속성 외에, *누가 누구* *에 게* *어떤* 리소스를 공유 하는지를 알려 줄 수 *있습니다.* 
   
 공유 스토리에 중요 한 또 다른 스키마 속성이 있습니다. 감사 로그 검색 결과를 내보낼 때 내보낸 CSV 파일의 **Auditdata** 열에는 공유 이벤트에 대 한 정보가 저장 됩니다. 예를 들어 사용자가 다른 사용자와 사이트를 공유 하는 경우이 작업을 수행 하려면 SharePoint 그룹에 대상 사용자를 추가 합니다. **Auditdata** 열은 관리자에 게 컨텍스트를 제공 하기 위해이 정보를 캡처합니다. **Auditdata** 열에서 정보를 구문 분석 하는 방법에 대 한 지침은 [2 단계](#step-2-use-the-powerquery-editor-to-format-the-exported-audit-log) 를 참조 하십시오.
 
 ## <a name="sharepoint-sharing-events"></a>SharePoint 공유 이벤트
 
-공유 *는 사용자 (작업 중인 사용자)* 가 다른 사용자 ( *대상* 사용자)와 리소스를 공유 하려고 할 때 정의 됩니다. 외부 사용자 (조직 외부에 있고 조직의 Azure Active Directory에 게스트 계정이 없는 사용자)를 사용 하 여 리소스를 공유 하는 것과 관련 된 감사 레코드는 다음 이벤트 (Office 365에 기록 됨)로 식별 됩니다. 감사 로그:
+공유 *는 사용자 (작업 중인 사용자)* 가 다른 사용자 ( *대상* 사용자)와 리소스를 공유 하려고 할 때 정의 됩니다. 외부 사용자 (조직 외부에 있고 조직의 Azure Active Directory에 게스트 계정이 없는 사용자)를 사용 하 여 리소스를 공유 하는 것과 관련 된 감사 레코드는 감사 로그에 기록 되는 다음 이벤트로 식별 됩니다.
 
 - **SharingInvitationCreated:** 조직의 사용자가 외부 사용자와 리소스 (아마도 사이트)를 공유 하려고 했습니다. 이로 인해 외부 공유 초대가 대상 사용자에 게 전송 됩니다. 이때 리소스에 대 한 액세스 권한이 부여 되지 않습니다.
 
@@ -93,11 +93,11 @@ ms.locfileid: "42069243"
   
 ### <a name="step-1-search-for-sharing-events-and-export-the-results-to-a-csv-file"></a>1 단계: 공유 이벤트 검색 및 결과를 CSV 파일로 내보내기
 
-첫 번째 단계는 공유 이벤트에 대 한 Office 365 감사 로그를 검색 하는 것입니다. 감사 로그 검색에 대 한 자세한 내용 (필요한 권한 포함)은 [Security & 준수 센터에서 감사 로그 검색](search-the-audit-log-in-security-and-compliance.md)을 참조 하십시오.
+첫 번째 단계는 공유 이벤트에 대 한 감사 로그를 검색 하는 것입니다. 감사 로그 검색에 대 한 자세한 내용 (필요한 권한 포함)은 [Security & 준수 센터에서 감사 로그 검색](search-the-audit-log-in-security-and-compliance.md)을 참조 하십시오.
   
 1. [https://protection.office.com](https://protection.office.com)으로 이동합니다.
     
-2. 회사 또는 학교 계정을 사용하여 Office 365에 로그인합니다.
+2. 회사 또는 학교 계정을 사용 하 여 로그인 합니다.
     
 3. 보안 및 규정 준수 센터의 왼쪽 창에서 **검색**  > **감사 로그 검색**을 클릭하십시오.
     
@@ -115,7 +115,7 @@ ms.locfileid: "42069243"
     
     내보내기 옵션을 선택한 후 창 아래쪽에 CSV 파일을 열거나 저장 하 라는 메시지가 표시 됩니다.
     
-8. 다른 **** \> **이름으로 저장** 저장을 클릭 하 고 로컬 컴퓨터의 폴더에 CSV 파일을 저장 합니다. 
+8. 다른 **Save** \> **이름으로 저장** 저장을 클릭 하 고 로컬 컴퓨터의 폴더에 CSV 파일을 저장 합니다. 
 
 ### <a name="step-2-use-the-powerquery-editor-to-format-the-exported-audit-log"></a>2 단계: PowerQuery Editor를 사용 하 여 내보낸 감사 로그의 서식 지정
 

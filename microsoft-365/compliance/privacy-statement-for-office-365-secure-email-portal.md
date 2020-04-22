@@ -1,5 +1,5 @@
 ---
-title: Office 365 보안 전자 메일 포털에 대 한 개인정보 취급 방침
+title: 보안 전자 메일 포털에 대 한 개인 정보 취급 방침
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -16,14 +16,14 @@ ms.assetid: 278917cd-a930-46cc-9580-6b9d2361a5f9
 ms.collection:
 - M365-security-compliance
 description: '마지막 업데이트 날짜: 5 월 2017'
-ms.openlocfilehash: 23707d22e52935b372a90a42ec323d8f64262894
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 069b47305557ef8a6a4e0a732288977842b52a5e
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597725"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43626632"
 ---
-# <a name="privacy-statement-for-office-365-secure-email-portal"></a>Office 365 보안 전자 메일 포털에 대 한 개인정보 취급 방침
+# <a name="privacy-statement-for-secure-email-portal"></a>보안 전자 메일 포털에 대 한 개인 정보 취급 방침
 
 마지막 업데이트 날짜: 5 월 2017
   
@@ -37,7 +37,7 @@ Microsoft 계정, 회사 또는 학교 계정, Gmail 계정 및 일회용 암호
   
 암호 해독 프로세스 중에 수신 하는 암호화 된 메일은 새 OME 기능 포털에 저장 되지 않습니다. 이는 언제 든 지 새 OME 기능 포털 외부로 전송 되지 않습니다.
   
-새 OME capabilities 포털에서는 일부 인스턴스에서 새 OME 기능의 사용 및 성능 (예: 암호화 된 메시지를 보는 빈도, 사용 된 브라우저나 응용 프로그램 및 발생 한 오류)에 대 한 데이터 요소를 수집 하 여 분석할 수 있습니다. 이 및 기타 Microsoft 앱, 제품 또는 서비스의 품질, 보안 및 무결성을 향상 시키는 목적을 집계 합니다. 이 정보는 사용자에 대 한 알림을 식별 하거나, 연락 하거나, 대상으로 지정 하는 데 사용 되지 않습니다.
+새 OME capabilities 포털에서는 일부 인스턴스에서 새 OME 기능의 사용 및 성능 (예: 암호화 된 메시지를 보는 빈도, 사용 된 브라우저나 응용 프로그램 및 발생 한 오류)에 대 한 데이터 요소를 수집 하 여이 및 기타 Microsoft 앱, 제품의 품질, 보안 및 무결성을 향상 시키는 데 필요한 집계에서 분석할 수 있습니다. 또는 서비스 이 정보는 사용자에 대 한 알림을 식별 하거나, 연락 하거나, 대상으로 지정 하는 데 사용 되지 않습니다.
   
 ## <a name="for-more-information"></a>자세한 내용
 

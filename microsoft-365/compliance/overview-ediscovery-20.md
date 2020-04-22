@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: 이 문서에서는 Microsoft 365의 새로운 고급 eDiscovery 버전에 대해 설명 합니다.
-ms.openlocfilehash: a9c7811d9ad0660105f7063e674a54c01707ea58
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: 3296fbbd04f2baa635fdf0330fc65b927a21448a
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42634286"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43626764"
 ---
 # <a name="overview-of-the-advanced-ediscovery-solution-in-microsoft-365"></a>Microsoft 365의 고급 eDiscovery 솔루션 개요
 
@@ -44,7 +44,7 @@ Microsoft 365의 고급 eDiscovery 솔루션은 Office 365의 기존 eDiscovery 
 
 - **보관.** 조사와 관련 된 데이터를 보존 하 고 보호 하기 위해 Advanced eDiscovery를 사용 하면 custodians와 연결 된 데이터 원본을 한 사례에 보관할 수 있습니다. Custodial 되지 않은 데이터를 보류로 설정할 수도 있습니다. 또한 Advanced eDiscovery에는 custodians에 법적 보존 알림을 전송 하 고 해당 승인을 추적할 수 있는 기본 제공 되는 통신 워크플로가 포함 되어 있습니다.
 
-- **모음.** 조사와 관련 된 데이터 원본을 식별 하 고 유지 한 후에는 고급 eDiscovery 검색에서 기본 제공 검색 도구를 사용 하 여 custodial 데이터 원본 (해당 되는 경우 custodial 데이터 원본)에서 실시간 데이터를 수집할 수 있습니다. 사례와 관련이 있을 수 있습니다.
+- **모음.** 조사와 관련 된 데이터 원본을 식별 하 고 유지 한 후에는 해당 사례와 관련이 있을 수 있는 custodial 데이터 원본 (및 custodial이 아닌 데이터 원본)에서 기본 제공 검색 도구를 사용 하 여 실시간 데이터를 수집할 수 있습니다.
 
 - **처리.** 사례와 관련 된 모든 데이터를 수집한 후에는 다음 단계에서 자세한 검토 및 분석을 위해 프로세스를 진행 합니다. 고급 eDiscovery에서는 컬렉션 단계에서 식별 한 원본 위치 데이터가 Azure 저장소 위치 ( *검토 집합*이라고 함)로 복사 되어 사례 데이터에 대 한 정적 보기가 제공 됩니다. 
  
@@ -80,7 +80,7 @@ Custodian 및 해당 custodial 데이터 원본을 사례에 추가 하면 custo
 
 ## <a name="collecting-case-data"></a>사례 데이터 수집하기
 
-**검색 탭에서는** 사례와 관련 된 콘텐츠에 대해 Office 365에서 현재 위치 custodial 및 비 custodial 데이터 원본을 검색 하는 검색을 만들 수 있습니다. 키워드와 조건을 사용 하 여 쿼리 기반 검색을 만들고 실행 하 여 사례와 관련 된 전자 메일 메시지 및 문서 집합을 식별 하 고 eDiscovery 워크플로의 이후 단계에서 더 자세히 검토 하 고 분석할 수 있습니다. 사례와 연결 된 검색을 하나 이상 만들 수 있습니다. 또한 검색 도구를 사용 하 여 예제 문서를 미리 보고 검색 통계를 확인 하 여 검색 결과를 구체화 하 고 개선 하는 데 도움이 될 수 있습니다. 검색 결과에 사례와 관련 된 모든 데이터가 포함 되어 있는 경우 추가 검토, 분석 및 culling에 대 한 검토 집합에 검색 결과를 추가 합니다. 자세한 내용은 [Advanced eDiscovery에서 사례 데이터 수집](collecting-data-for-ediscovery.md)을 참조 하십시오.
+**검색 탭을** 사용 하 여 검색을 만들어 해당 사례와 관련 된 콘텐츠에 대 한 원본 위치 custodial 및 비 custodial 데이터 원본을 검색 합니다. 키워드와 조건을 사용 하 여 쿼리 기반 검색을 만들고 실행 하 여 사례와 관련 된 전자 메일 메시지 및 문서 집합을 식별 하 고 eDiscovery 워크플로의 이후 단계에서 더 자세히 검토 하 고 분석할 수 있습니다. 사례와 연결 된 검색을 하나 이상 만들 수 있습니다. 또한 검색 도구를 사용 하 여 예제 문서를 미리 보고 검색 통계를 확인 하 여 검색 결과를 구체화 하 고 개선 하는 데 도움이 될 수 있습니다. 검색 결과에 사례와 관련 된 모든 데이터가 포함 되어 있는 경우 추가 검토, 분석 및 culling에 대 한 검토 집합에 검색 결과를 추가 합니다. 자세한 내용은 [Advanced eDiscovery에서 사례 데이터 수집](collecting-data-for-ediscovery.md)을 참조 하십시오.
 
 ## <a name="reviewing-and-analyzing-case-data"></a>사례 데이터 검토 및 분석
 

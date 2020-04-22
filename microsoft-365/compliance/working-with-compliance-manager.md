@@ -14,17 +14,17 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 준수 관리자는 무료 워크플로 기반 위험 평가 도구입니다. 이 도구를 사용 하 여 Microsoft 제품과 관련 된 규정 준수 활동을 추적, 할당 및 확인 합니다.
-ms.openlocfilehash: aaae5f1123872367ad98466833f9e06210bfb652
-ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
+ms.openlocfilehash: 2a2c0b9311062da1269f7b56c926ced9e038627f
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43142663"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43626234"
 ---
 # <a name="working-with-microsoft-compliance-manager-preview"></a>Microsoft 준수 관리자 사용 (미리 보기)
 
 > [!IMPORTANT]
-> Microsoft 준수 관리자는 데이터 보호 및 규정 준수를 개선 하기 위한 준수 기간 및 권장 사항에 대 한 요약을 제공 하는 대시보드 및 관리 도구입니다. 준수 관리자에 제공 되는 고객 작업은 권장 사항입니다. 구현 하기 전에 해당 규정 환경에서 이러한 권장 사항의 효과를 평가 하는 것이 조직에 게 있습니다. 준수 관리자에 게 제공 되는 권장 사항은 준수 보장으로 해석 되어서는 안 됩니다.
+> Microsoft 준수 관리자는 데이터 보호 및 규정 준수를 개선 하기 위한 준수 기간 및 권장 사항에 대 한 요약을 제공 하는 대시보드 및 관리 도구입니다. 준수 관리자에 제공 되는 고객 작업은 권장 사항입니다. 구현 하기 전에 해당 규정 환경에서 이러한 권장 사항의 효과를 평가 하는 것이 조직에 게 있습니다. 준수 관리자의 권장 사항을 준수 보장으로 해석하면 안 됩니다.
 
 ## <a name="access-compliance-manager"></a>액세스 준수 관리자
 
@@ -583,7 +583,7 @@ Microsoft Service Trust Portal에서 준수 관리자에 액세스할 수 있습
 
 ![준수 관리자 평가 Excel 보고서](../media/compliance-manager-assessment-report.png "준수 관리자 평가 Excel 보고서")
 
-## <a name="permissions"></a>권한
+## <a name="permissions"></a>사용 권한
 
 다음 표에서는 각 준수 관리자 권한 및 사용자가 수행할 수 있는 작업에 대해 설명 합니다. 또한이 표에서는 각 사용 권한에 할당 되는 역할을 나타냅니다.
 
