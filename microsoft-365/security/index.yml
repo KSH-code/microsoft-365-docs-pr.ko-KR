@@ -1,9 +1,9 @@
 ### YamlMime:Landing
 title: Microsoft 365 보안 설명서
-summary: 공격 표면에서 기업 보호를 보다 효율적으로 수행할 수 있도록 Microsoft 365 보안의 강력한 보안 솔루션 및 서비스에 대해 알아봅니다.
+summary: Microsoft 365 보안의 강력한 보안 솔루션 및 서비스에 대해 알아보고 공격 영역 전체에서 기업을 보다 효과적으로 보호할 수 있습니다.
 metadata:
   title: Microsoft 365 보안 설명서
-  description: 공격 표면에서 엔터프라이즈를 보다 효율적으로 보호할 수 있도록 Microsoft 365 보안의 강력한 보안 솔루션 및 서비스에 대해 알아봅니다.
+  description: Microsoft 365 보안의 강력한 보안 솔루션 및 서비스에 대해 알아보고 공격 영역 전체에서 기업을 보다 효과적으로 보호할 수 있습니다.
   services: office-365-security-compliance
   ms.service: O365-seccomp
   ms.subservice: subservice
@@ -32,7 +32,7 @@ landingContent:
   linkLists:
   - linkListType: overview
     links:
-    - text: Microsoft Defender ATP 란?
+    - text: Microsoft Defender ATP란 무엇인가요?
       url: https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection
     - text: 기능 개요
       url: https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/overview
@@ -40,7 +40,7 @@ landingContent:
   linkLists:
   - linkListType: overview
     links:
-    - text: Office 365 ATP 란?
+    - text: Office 365 ATP란 무엇인가요?
       url: office-365-security/office-365-atp.md
     - text: Office 365 ATP 서비스 설명
       url: https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description
@@ -48,7 +48,7 @@ landingContent:
   linkLists:
   - linkListType: overview
     links:
-    - text: Azure ATP 란?
+    - text: Azure ATP란 무엇인가요?
       url: https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp
     - text: Azure ATP 아키텍처
       url: https://docs.microsoft.com/azure-advanced-threat-protection/atp-architecture
@@ -56,7 +56,7 @@ landingContent:
   linkLists:
   - linkListType: overview
     links:
-    - text: Azure 보안 센터 란?
+    - text: Azure Security Center란 무엇인가요?
       url: https://docs.microsoft.com/azure/security-center/security-center-intro
     - text: 지원되는 기능
       url: https://docs.microsoft.com/azure/security-center/security-center-services
@@ -64,15 +64,15 @@ landingContent:
   linkLists:
   - linkListType: overview
     links:
-    - text: Microsoft Cloud App Security 란 무엇입니까?
+    - text: Microsoft Cloud App Security란 무엇인가요?
       url: https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security
     - text: Microsoft Cloud App Security 시작
       url: https://docs.microsoft.com/cloud-app-security/getting-started-with-cloud-app-security
-- title: Azure 센티널
+- title: Azure Sentinel
   linkLists:
   - linkListType: overview
     links:
-    - text: Azure 센티널 이란?
+    - text: Azure Sentinel이란 무엇인가요?
       url: https://docs.microsoft.com/azure/sentinel/overview
 - title: 보안 관리
   linkLists:
