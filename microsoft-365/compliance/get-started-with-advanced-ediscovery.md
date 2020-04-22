@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: 이 문서에서는 Microsoft 365에서 고급 eDiscovery 사용을 시작 하는 방법을 설명 합니다. 몇 가지 빠른 단계를 완료 한 후에는 고급 eDiscovery 도구를 사용할 준비가 된 것입니다. 첫 번째 단계는 사례를 만든 다음 고급 eDiscovery 기능 및 기능 사용을 시작 하는 것입니다.
-ms.openlocfilehash: 4aae93e250365fc7225fe2f21fe25cd01e5f8cc0
-ms.sourcegitcommit: bd51f626f0c7788c2a3cf89deee25264659aebd5
+ms.openlocfilehash: 669ca954401242f7ac8da9a752a99b1b32c1041c
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "43551129"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632479"
 ---
 # <a name="get-started-with-advanced-ediscovery"></a>Advanced eDiscovery 시작
 
@@ -33,7 +33,7 @@ Microsoft 365의 고급 eDiscovery는 조직의 내부 및 외부 조사에 응�
 
 고급 eDiscovery에 대 한 라이선스에는 적절 한 조직 구독 및 사용자 단위 라이선스가 필요 합니다.
 
-- **조직 구독:** Microsoft 365 준수 센터 또는 Office 365 보안 & 준수 센터에서 고급 eDiscovery에 액세스 하려면 조직에 다음 중 하나가 있어야 합니다.
+- **조직 구독:** Microsoft 365 준수 센터 또는 보안 & 준수 센터에서 고급 eDiscovery에 액세스 하려면 조직에 다음 중 하나가 있어야 합니다.
 
   - Microsoft 365 E5 또는 Office 365 E5 구독
   
@@ -41,7 +41,7 @@ Microsoft 365의 고급 eDiscovery는 조직의 내부 및 외부 조사에 응�
 
   - E5 eDiscovery 및 감사 추가 기능이 포함 된 Microsoft 365 E3 구독
 
-  기존의 Microsoft 365 E5 요금제가 없고 고급 eDiscovery를 시도 하려는 경우 기존 Office 365 구독에 [microsoft 365을 추가](https://docs.microsoft.com/office365/admin/try-or-buy-microsoft-365) 하거나 Microsoft 365 E5 [평가판을 등록할](https://www.microsoft.com/microsoft-365/enterprise) 수 있습니다.
+  기존의 Microsoft 365 E5 요금제가 없고 고급 eDiscovery를 시도 하려는 경우 기존 구독에 [microsoft 365을 추가](https://docs.microsoft.com/office365/admin/try-or-buy-microsoft-365) 하거나 Microsoft 365 E5 [평가판을 등록할](https://www.microsoft.com/microsoft-365/enterprise) 수 있습니다.
 
 - **사용자별 라이선스:** 고급 eDiscovery 사례에서 사용자를 custodian으로 추가 하려면 조직 구독에 따라 해당 사용자에 게 다음 라이선스 중 하나를 할당 해야 합니다.
 
@@ -56,7 +56,7 @@ Microsoft 365의 고급 eDiscovery는 조직의 내부 및 외부 조사에 응�
 
 ## <a name="step-2-assign-ediscovery-permissions"></a>2 단계: eDiscovery 권한 할당
 
-고급 eDiscovery에 액세스 하거나 고급 eDiscovery 사례의 구성원으로 추가 하려면 사용자에 게 적절 한 사용 권한이 할당 되어 있어야 합니다. 특히 Office 365 보안 & 준수 센터에서 eDiscovery 관리자 역할 그룹의 구성원으로 사용자를 추가 해야 합니다. 이 역할 그룹의 구성원은 고급 eDiscovery 사례를 만들고 관리할 수 있습니다. 구성원을 추가 및 제거 하 고, custodians 및 콘텐츠 위치를 보류 상태로 설정 하 고, 사례에 연결 된 검색을 관리 하 고, 대/소문자를 구분 하 여 검색 결과를 수정 하 고, 검토 집합의 데이터를 분석 하 고, 고급 eDiscovery 사례에서 내보내고 다운로드할 수 있습니다.
+고급 eDiscovery에 액세스 하거나 고급 eDiscovery 사례의 구성원으로 추가 하려면 사용자에 게 적절 한 사용 권한이 할당 되어 있어야 합니다. 특히 사용자가 보안 & 준수 센터에서 eDiscovery 관리자 역할 그룹의 구성원으로 추가 되어야 합니다. 이 역할 그룹의 구성원은 고급 eDiscovery 사례를 만들고 관리할 수 있습니다. 구성원을 추가 및 제거 하 고, custodians 및 콘텐츠 위치를 보류 상태로 설정 하 고, 사례에 연결 된 검색을 관리 하 고, 대/소문자를 구분 하 여 검색 결과를 수정 하 고, 검토 집합의 데이터를 분석 하 고, 고급 eDiscovery 사례에서 내보내고 다운로드할 수 있습니다.
 
 다음 단계를 완료 하 여 eDiscovery 관리자 역할 그룹에 사용자를 추가 합니다.
 
@@ -145,7 +145,7 @@ Ediscovery 권한 및 eDiscovery 관리자 역할 그룹에 할당 된 각 역�
   
    - Custodian 데이터를 보유할 수 있습니다. 이렇게 하면 조사 중에 사례와 관련이 있을 수 있는 데이터가 유지 됩니다.
   
-   - 다른 데이터 원본을 custodian와 연결할 수 있습니다 (예: SharePoint 사이트 또는 Office 365 그룹을 custodian에 연결할 수 있음)이 데이터를 다시 인덱싱, 유지 및 검색할 수 있도록 하 여 custodian의 사서함 또는 OneDrive 계정에 있는 데이터와 동일 하 게 검색 합니다.
+   - 다른 데이터 원본을 custodian와 연결할 수 있습니다 (예: SharePoint 사이트 또는 Microsoft 365 그룹을 custodian에 연결할 수 있음)이 데이터를 다시 인덱싱 하 고 유지 하 고 검색 하 여 custodian의 사서함 또는 OneDrive 계정에 있는 데이터와 동일 하 게 검색할 수 있도록 합니다.
 
    - Advanced eDiscovery의 [통신 워크플로](managing-custodian-communications.md) 를 사용 하 여 custodians에 법적 보존 알림을 보낼 수 있습니다.
 

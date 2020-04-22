@@ -16,16 +16,16 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 365에서 콘텐츠를 보존 하는 보존 레이블을 만들 때 보존 기간이 끝나면 처리 검토를 트리거하도록 선택할 수 있습니다.
-ms.openlocfilehash: 333e1a2f14c553cbd1d116e23795ba80175df125
-ms.sourcegitcommit: e695bcfc69203da5d3d96f3d6a891664a0e27ae2
+ms.openlocfilehash: 8559c5abc2faf032b1e197cd337779b3171d0c7e
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43105665"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43633067"
 ---
 # <a name="overview-of-disposition-reviews"></a>처리 검토 개요
 
->*[보안 & 준수에 대 한 Microsoft 365 라이선스 지침](https://aka.ms/ComplianceSD)*
+>*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](https://aka.ms/ComplianceSD)*
 
 콘텐츠가 보존 기간의 끝에 도달 하면 해당 콘텐츠를 검토 하 여 안전 하 게 삭제할 수 있는지 여부 ("삭제 된")를 결정 해야 하는 몇 가지 이유가 있습니다. 예를 들어 다음을 수행 해야 할 수 있습니다.
   
@@ -37,7 +37,7 @@ ms.locfileid: "43105665"
     
 - 콘텐츠를 클라이언트에 반환 하거나 다른 조직으로 전송 합니다.
     
-Microsoft 365 준수 센터, Microsoft 365 보안 센터 또는 Office 365 보안 & 준수 센터에서 보존 레이블을 만들 때 보존 기간이 끝나면 처리 검토를 트리거하도록 선택할 수 있습니다. 처리 검토에서 다음을 수행 합니다.
+Microsoft 365 준수 센터, Microsoft 365 보안 센터 또는 보안 & 준수 센터에서 보존 레이블을 만들 때 보존 기간이 끝나면 처리 검토를 트리거하도록 선택할 수 있습니다. 처리 검토에서 다음을 수행 합니다.
   
 - 선택한 사용자는 검토할 콘텐츠가 있는 전자 메일 알림을 받습니다. 알림은 주 단위로 전송 됩니다.
     
@@ -53,7 +53,7 @@ Microsoft 365 준수 센터, Microsoft 365 보안 센터 또는 Office 365 보�
     
 - 검토자가 보류 중 또는 완료 된 dispositions를 보고 해당 목록을 .csv 파일로 내보낼 수 있습니다.
 
-처리 검토에는 Exchange 사서함, SharePoint 사이트, OneDrive 계정 및 Office 365 그룹의 콘텐츠가 포함 될 수 있습니다. 해당 위치에서 처리 검토를 대기 중인 콘텐츠는 검토자가 콘텐츠를 영구적으로 삭제 하도록 선택한 후에만 삭제 됩니다.
+처리 검토에는 Exchange 사서함, SharePoint 사이트, OneDrive 계정 및 Microsoft 365 그룹의 콘텐츠가 포함 될 수 있습니다. 해당 위치에서 처리 검토를 대기 중인 콘텐츠는 검토자가 콘텐츠를 영구적으로 삭제 하도록 선택한 후에만 삭제 됩니다.
   
 ![보안 및 준수 센터의 Dispositions 페이지](../media/Retention-Dispositions-v2-page.png)
 
@@ -71,7 +71,7 @@ Microsoft 365 준수 센터, Microsoft 365 보안 센터 또는 Office 365 보�
 ![레이블에 대 한 보존 설정](../media/a16dd202-8862-40ac-80ff-6fee974de5da.png)
  
 > [!NOTE]
-> **검토할 준비가 된 항목이 있을 때 이러한 사용자에 게 알리도록**옵션을 지정 하는 경우 사용자를 지정 합니다. 이 옵션은 Office 365 그룹을 지원 하지 않습니다.
+> **검토할 준비가 된 항목이 있을 때 이러한 사용자에 게 알리도록**옵션을 지정 하는 경우 사용자를 지정 합니다. Microsoft 365 그룹은이 옵션에서 지원 되지 않습니다.
 
 ## <a name="disposing-content"></a>콘텐츠 삭제
 
@@ -95,7 +95,7 @@ Microsoft 365 준수 센터, Microsoft 365 보안 센터 또는 Office 365 보�
   
 전자 메일 알림은 매주 검토자에 게 자동으로 전송 됩니다. 따라서 콘텐츠가 보존 기간의 끝에 도달 하면 검토자가 콘텐츠 처리를 기다리고 있는 전자 메일 알림을 받는 데 최대 7 일이 걸릴 수 있습니다.
   
-또한 모든 처리 작업이 감사 된다는 점에 유의 하십시오. 이를 위해 첫 번째 처리 작업의 최소 1 일 전에 감사를 설정 해야 함-자세한 내용은 [Office 365 보안 &amp; 및 준수 센터에서 감사 로그 검색](search-the-audit-log-in-security-and-compliance.md)을 참조 하십시오. 
+또한 모든 처리 작업이 감사 된다는 점에 유의 하십시오. 이를 위해 첫 번째 처리 작업 보다 하루 이상 감사를 설정 해야 함-자세한 내용은 [보안 &amp; 및 준수 센터에서 감사 로그 검색](search-the-audit-log-in-security-and-compliance.md)을 참조 하십시오. 
   
 ## <a name="permissions-for-disposition"></a>처리 권한
 
@@ -105,7 +105,7 @@ Microsoft 365 준수 센터, Microsoft 365 보안 센터 또는 Office 365 보�
 
 - 감사 로그를 검색 하는 데 사용 되는 기본 cmdlet은 Exchange Online cmdlet 이므로 보안 & 준수 센터의 **사용 권한** 페이지를 사용 하는 대신 [Exchange online의 exchange 관리 센터](https://docs.microsoft.com/Exchange/exchange-admin-center)를 사용 하 여 사용자에 게이 역할을 할당 해야 합니다. 자세한 내용은 [Exchange Online에서 역할 그룹 관리](https://docs.microsoft.com/Exchange/permissions-exo/role-groups)를 참조 하십시오.
 
-- 이 역할에 대 한 Office 365 그룹은 지원 되지 않습니다. 대신 사용자 사서함 또는 메일 사용자를 할당 합니다.
+- Microsoft 365 그룹은이 역할에 지원 되지 않습니다. 대신 사용자 사서함 또는 메일 사용자를 할당 합니다.
   
 ## <a name="how-long-until-disposed-content-is-permanently-deleted"></a>삭제 된 콘텐츠가 영구적으로 삭제 될 때 까지의 기간
 

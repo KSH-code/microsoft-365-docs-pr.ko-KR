@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ROBOTS: NOINDEX, NOFOLLOW
 description: ''
-ms.openlocfilehash: 387709ebdd84968d2b93992f6b92ef1548117569
-ms.sourcegitcommit: 9ed3283dd6dd959faeca5c22613f9126261b9590
+ms.openlocfilehash: 75e376288a85ca6def5cf3c3037f2faee57de63b
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43528361"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632273"
 ---
 # <a name="advanced-ediscovery-reports-preview"></a>고급 eDiscovery 보고서 (미리 보기)
 
@@ -45,7 +45,7 @@ ms.locfileid: "43528361"
 
 1. https://protection.office.com으로 이동합니다.
   
-2. 회사 또는 학교 계정을 사용 하 여 Office 365에 로그인 합니다.
+2. 회사 또는 학교 계정을 사용 하 여 로그인 합니다.
   
 3. 보안 & 준수 센터에서 **eDiscovery > Advanced eDiscovery**를 클릭 합니다.
   

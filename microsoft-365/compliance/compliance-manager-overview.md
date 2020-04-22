@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 준수 관리자는 Microsoft Service Trust Portal의 무료 워크플로 기반 위험 평가 도구입니다. 준수 관리자를 사용 하면 Microsoft 클라우드 서비스와 관련 된 규정 준수 활동을 추적, 할당 및 확인할 수 있습니다.
-ms.openlocfilehash: 7fd8e4e99edd976085cf9fd6fb3b9a0d88debf89
-ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
+ms.openlocfilehash: 31a56f7cba8bb8957d758ca2905853f26d1f8edf
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141615"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632993"
 ---
 # <a name="microsoft-compliance-manager-preview"></a>Microsoft 준수 관리자 (미리 보기)
 
@@ -43,7 +43,7 @@ Microsoft [준수 관리자 (미리 보기)](https://servicetrust.microsoft.com/
 - 감사자, 조정기 및 기타 규정 준수 검토자를 위해 Microsoft 및 조직이 수행한 규정 준수 활동을 문서화 하는 상세한 Microsoft Excel 보고서를 작성 합니다.
 
 > [!NOTE]
-> 준수 관리자에 제공 되는 고객 작업은 권장 사항입니다. 구현 하기 전에 해당 규정 환경에서 이러한 권장 사항의 효과를 평가 하는 것이 조직에 게 있습니다. 준수 관리자에 게 제공 되는 권장 사항은 준수 보장으로 해석 되어서는 안 됩니다.
+> 준수 관리자에 제공 되는 고객 작업은 권장 사항입니다. 구현 하기 전에 해당 규정 환경에서 이러한 권장 사항의 효과를 평가 하는 것이 조직에 게 있습니다. 준수 관리자의 권장 사항을 준수 보장으로 해석하면 안 됩니다.
 
 ## <a name="relationship-to-compliance-score"></a>준수 점수와의 관계
 
@@ -52,7 +52,7 @@ Microsoft [준수 관리자 (미리 보기)](https://servicetrust.microsoft.com/
 준수 관리자는 준수 점수를 사용 하 여 동일한 백엔드를 공유 합니다. 두 도구에 대 한 공용 미리 보기 단계에서 준수 관리자는 평가 및 사용자 지정 컨트롤 구현을 관리 합니다. [준수 점수와 준수 관리자 간의 관계](compliance-score-release-notes.md#compliance-score-relationship-to-compliance-manager)에 대해 자세히 알아보세요.
   
 > [!IMPORTANT]
-> 규정 준수 점수가 특정 표준 또는 규정에 대 한 조직 준수를 절대 측정 하지는 않습니다. 개인 데이터 및 개별 개인 정보에 대 한 위험을 줄일 수 있는 컨트롤을 채택한 범위를 나타냅니다. 어떤 서비스 에서도 표준 또는 규정을 준수 하는 것을 보증할 수 없으며 규정 준수 점수가 어떤 식으로든 보장으로 해석 되어서는 안 됩니다.
+> 준수 점수는 조직의 특정 표준 또는 규정 준수에 대한 절대 측정값을 나타내지 않고, 개인 정보및 개인 정보 보호에 대한 위험을 줄일 수 있는 제어 장치를 채택한 정도를 나타냅니다. 어떤 서비스 에서도 표준 또는 규정을 준수 하는 것을 보증할 수 없으며 규정 준수 점수가 어떤 식으로든 보장으로 해석 되어서는 안 됩니다.
 
 ## <a name="compliance-manager-components"></a>준수 관리자 구성 요소
 
@@ -128,7 +128,7 @@ Microsoft [준수 관리자 (미리 보기)](https://servicetrust.microsoft.com/
 
 준수 점수에 있는 **향상 작업** 은 준수 관리자의 **작업 항목과** 동일 합니다.
 
-## <a name="permissions"></a>권한
+## <a name="permissions"></a>사용 권한
 
 준수 관리자는 역할 기반 액세스 제어 사용 권한 모델을 사용합니다. 사용자 역할이 할당된 사용자만 준수 관리자에 액세스할 수 있으며, 각 사용자가 허용하는 작업은 역할 유형에 따라 제한됩니다. 각 권한에 대해 허용 되는 작업을 보여 주는 [테이블을 봅니다](working-with-compliance-manager.md#permissions) .
 

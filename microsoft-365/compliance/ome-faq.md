@@ -1,5 +1,5 @@
 ---
-title: Office 365 메시지 암호화 FAQ
+title: 메시지 암호화 FAQ
 f1.keywords:
 - NOCSH
 ms.author: krowley
@@ -13,17 +13,17 @@ localization_priority: Normal
 search.appverid:
 - MET150
 ms.assetid: 0432dce9-d9b6-4e73-8a13-4a932eb0081e
-description: Office 365의 새 메시지 보호 기능이 작동 하는 방식에 대 한 질문이 있나요? 여기에서 대답을 확인 하세요.
-ms.openlocfilehash: 8d0b65ad60365154f8a35c5afe0b71b5a50d29a8
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+description: 새 메시지 보호 기능의 작동 방식에 대 한 질문이 있나요? 여기에서 대답을 확인 하세요.
+ms.openlocfilehash: 87235d637d4c25f7e63b3b7125ea95c175c8ec3b
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42634746"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43626886"
 ---
-# <a name="office-365-message-encryption-faq"></a>Office 365 메시지 암호화 FAQ
+# <a name="message-encryption-faq"></a>메시지 암호화 FAQ
 
-Office 365의 새 메시지 보호 기능이 작동 하는 방식에 대 한 질문이 있나요? 여기에서 대답을 확인 하세요. 또한 azure information Protection에서 데이터 보호 서비스, Azure 권한 관리에 대 한 질문에 대 한 답변을 얻을 수 있도록 [Azure Information protection의 데이터 보호에 대 한](https://docs.microsoft.com/information-protection/get-started/faqs-rms) 질문과 대답을 확인 하세요.
+새 메시지 보호 기능의 작동 방식에 대 한 질문이 있나요? 여기에서 대답을 확인 하세요. 또한 azure information Protection에서 데이터 보호 서비스, Azure 권한 관리에 대 한 질문에 대 한 답변을 얻을 수 있도록 [Azure Information protection의 데이터 보호에 대 한](https://docs.microsoft.com/information-protection/get-started/faqs-rms) 질문과 대답을 확인 하세요.
 
 ## <a name="what-is-office-365-message-encryption-ome"></a>Office 365 메시지 암호화 란 무엇입니까 (OME)?
 
@@ -45,9 +45,9 @@ OME는 전자 메일 암호화 및 권한 관리 기능을 결합 합니다. 권
 
 새 OME 기능을 사용 하려면 다음 계획 중 하나가 필요 합니다.
   
-- Office 365 메시지 암호화는 Office 365 Enterprise E3 및 E5, Microsoft Enterprise E3 및 E5, Microsoft 365 Business, Office 365 A1, A3, A5 및 Office 365 정부 G3 및 G5의 일부로 제공 됩니다. 고객은 Azure Information Protection에서 제공 하는 새로운 보호 기능을 수신 하기 위해 추가 라이선스가 필요 하지 않습니다.
+- Office 365 메시지 암호화는 Office 365 Enterprise E3 및 E5, microsoft Enterprise E3 및 E5, Microsoft 365 Business Premium, Office 365 A1, A3, A5 및 Office 365 정부 G3 및 G5의 일부로 제공 됩니다. 고객은 Azure Information Protection에서 제공 하는 새로운 보호 기능을 수신 하기 위해 추가 라이선스가 필요 하지 않습니다.
 
-- 또한 다음 계획에 Azure Information Protection 계획 1을 추가 하 여 Exchange Online 계획 1, Exchange Online 계획 2, Office 365 F1, office 365 Business Essentials, Office 365 Business Premium 등의 새로운 Office 365 메시지 암호화 기능을 받을 수 있습니다. Office 365 Enterprise E1.
+- 또한 다음 계획에 Azure Information Protection 계획 1을 추가 하 여 Exchange Online 계획 1, Exchange Online 계획 2, Office 365 F1, 365 Microsoft 365 Business Standard 또는 Office 365 Enterprise E1과 같은 새로운 Office 365 메시지 암호화 기능을 받을 수 있습니다.
 
 - Office 365 메시지 암호화에서 각 사용자 benefiting 기능을 사용 하도록 허가 받아야 합니다.
 
@@ -74,7 +74,7 @@ Office 365 메시지 암호화에 대 한 새로운 기능은 기존 IRM 및 레
 |**암호화 된 전자 메일 보내기**|Exchange 메일 흐름 규칙만을 통해서만|최종 사용자가 Windows 용 Outlook, Mac 용 Outlook 또는 웹용 Outlook에서 시작 되었습니다. 또는 Exchange 메일 흐름 규칙을 통해|최종 사용자가 Windows 용 Outlook, Mac 용 Outlook 또는 웹용 Outlook에서 시작 되었습니다. 또는 메일 흐름 규칙을 통해|
 |**권한 관리**|-|전달 금지 옵션 및 사용자 지정 서식 파일|전달 금지 옵션, 암호화 전용 옵션, 기본 및 사용자 지정 템플릿|
 |**지원 되는 받는 사람 유형**|외부 받는 사람만|내부 받는 사람만|내부 및 외부 받는 사람|
-|**받는 사람에 대 한 경험**|외부 받는 사람이 브라우저 또는 다운로드 된 모바일 앱에서 다운로드 하 여 연 HTML 메시지를 수신 했습니다.|내부 받는 사람도 Windows 용 outlook, Mac 용 Outlook 및 웹용 Outlook에서 암호화 된 전자 메일만 수신 합니다.|내부 및 외부 받는 사람이 Outlook for Windows, outlook for Mac, 웹용 outlook, Android 용 outlook, 웹에서 outlook, Microsoft for a web portal 또는 office 365에 있는지 여부에 관계 없이 웹용 포털을 통해 전자 메일을 받을 365 수 있습니다. 조직. OME 포털에는 별도의 다운로드를 수행 하지 않아도 됩니다.|
+|**받는 사람에 대 한 경험**|외부 받는 사람이 브라우저 또는 다운로드 된 모바일 앱에서 다운로드 하 여 연 HTML 메시지를 수신 했습니다.|내부 받는 사람도 Windows 용 outlook, Mac 용 Outlook 및 웹용 Outlook에서 암호화 된 전자 메일만 수신 합니다.|내부 및 외부 받는 사람이 Windows 용 outlook, outlook for Mac, 웹용 outlook, Android 용 outlook, 웹에서 outlook, 타사 또는 다른 조직에 있는지 여부에 관계 없이 web portal을 받습니다. OME 포털에는 별도의 다운로드를 수행 하지 않아도 됩니다.|
 |**고유한 키를 제공 합니다.**|사용할 수 없음|사용할 수 없음| BYOK 지원 됨|
 
 ## <a name="how-do-i-enable-the-new-ome-capabilities-for-my-organization"></a>조직에 대해 새 OME 기능을 사용 하도록 설정 하려면 어떻게 해야 하나요?
@@ -91,7 +91,7 @@ Office 365 메시지 암호화에 대 한 새로운 기능은 기존 IRM 및 레
   
 ## <a name="my-organization-has-an-exchange-hybrid-deployment-can-i-use-this-feature"></a>조직에 Exchange 하이브리드 배포를 포함 하는 경우 이 기능을 사용할 수 있나요?
 
-온-프레미스 사용자는 Exchange Online 메일 흐름 규칙을 사용 하 여 암호화 된 메일을 보낼 수 있습니다. 이렇게 하려면 Exchange Online을 통해 전자 메일을 라우트 해야 합니다. 자세한 내용은 [2 부: 전자 메일 서버에서 Office 365으로 이동 하도록 메일 구성](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/set-up-connectors-to-route-mail#part-2-configure-mail-to-flow-from-your-email-server-to-office-365)를 참조 하세요.
+온-프레미스 사용자는 Exchange Online 메일 흐름 규칙을 사용 하 여 암호화 된 메일을 보낼 수 있습니다. 이렇게 하려면 Exchange Online을 통해 전자 메일을 라우트 해야 합니다. 자세한 내용은 [2 부: 전자 메일 서버에서 Microsoft 365으로 이동 하도록 메일 구성](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/set-up-connectors-to-route-mail#part-2-configure-mail-to-flow-from-your-email-server-to-office-365)를 참조 하세요.
   
 ## <a name="what-email-client-do-i-need-to-use-in-order-to-create-an-ome-encrypted-message-what-applications-are-supported-for-sending-protected-messages"></a>OME 암호화 메시지를 만들기 위해 어떤 전자 메일 클라이언트를 사용 해야 하나요? 보호 된 메시지를 보내는 데 지원 되는 응용 프로그램은 무엇입니까?
 
@@ -99,7 +99,7 @@ Outlook 2016, outlook 2013, Windows 및 Mac 및 웹용 Outlook에서 보호 된 
   
 ## <a name="what-email-clients-are-supported-to-read-and-reply-to-protected-emails"></a>보호 된 전자 메일을 읽고 회신할 수 있도록 지원 되는 전자 메일 클라이언트는 무엇입니까?
 
-Office 365 사용자는 Windows 및 Mac 용 Outlook (2013 및 2016), 웹용 Outlook 및 Outlook mobile (Android 및 iOS)을 읽고 응답할 수 있습니다. 조직에서 허용 하는 경우 iOS 기본 메일 클라이언트도 사용할 수 있습니다. 365 Office가 아닌 경우에는 사용자가 웹 브라우저를 통해 웹에서 암호화 된 메시지를 읽고 회신할 수 있습니다.
+Microsoft 365 사용자는 Windows 및 Mac 용 Outlook (2013 및 2016), 웹용 Outlook 및 Outlook mobile (Android 및 iOS)을 읽고 응답할 수 있습니다. 조직에서 허용 하는 경우 iOS 기본 메일 클라이언트도 사용할 수 있습니다. Microsoft 365 사용자가 아닌 경우 웹 브라우저를 통해 웹에서 암호화 된 메시지를 읽고 회신할 수 있습니다.
   
 ## <a name="what-file-types-are-supported-as-attachments-in-protected-emails-do-attachments-inherit-the-protection-policies-associated-with-protected-emails"></a>보호 된 전자 메일에서 첨부 파일로 지원 되는 파일 형식은 무엇입니까? 첨부 파일에서 보호 된 전자 메일과 연결 된 보호 정책을 상속 하나요?
 
@@ -109,7 +109,7 @@ Word, Excel 또는 PowerPoint 파일과 같은 파일 형식이 지원 되는 �
   
 ## <a name="are-pdf-file-attachments-supported"></a>PDF 파일이 첨부 파일을 지원 하나요?
 
-예로! Office 365 조 직에 대해 PDF 첨부 파일에 대 한 암호화를 사용 하도록 설정할 수 있습니다. PDF 첨부 파일에 대 한 암호화를 사용 하도록 설정 하려면 [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell)에서 다음 명령을 실행 합니다.
+예로! 조직의 PDF 첨부 파일에 대 한 암호화를 사용 하도록 설정할 수 있습니다. PDF 첨부 파일에 대 한 암호화를 사용 하도록 설정 하려면 [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell)에서 다음 명령을 실행 합니다.
 
 ```powershell
 Set-IRMConfiguration -EnablePdfEncryption $true
@@ -148,7 +148,7 @@ Not yet. 비즈니스용 OneDrive 첨부 파일이 지원 되지 않으며 최�
   
 ## <a name="can-i-use-message-encryption-with-compliance-features-such-as-ediscovery"></a>EDiscovery와 같은 규정 준수 기능을 사용 하 여 메시지 암호화를 사용할 수 있나요?
 
-예. 모든 암호화 된 전자 메일 메시지는 Office 365 규정 준수 기능을 통해 검색할 수 있습니다.
+예. 모든 암호화 된 전자 메일 메시지는 Microsoft 365 규정 준수 기능을 통해 검색할 수 있습니다.
 
 ## <a name="can-i-remove-encryption-from-email"></a>전자 메일에서 암호화를 제거할 수 있나요?
 

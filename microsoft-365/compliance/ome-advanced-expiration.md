@@ -16,20 +16,20 @@ ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: Office 365 메시지 암호화 (OME)의 맨 위에 Office 365 고급 메시지 암호화 기능을 사용 하 여 사용자 지정 브랜드 서식 파일을 통해 전자 메일에 만료 날짜를 설정 하 여 이메일 보안을 확장할 수 있습니다.
-ms.openlocfilehash: 90f406ec72eeab0618184336b8b28de452a5e3c6
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: c9b639c016e86c3883191b04d4c7480625745e91
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597825"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43626906"
 ---
 # <a name="set-an-expiration-date-for-email-encrypted-by-office-365-advanced-message-encryption"></a>Office 365 고급 메시지 암호화로 암호화 된 전자 메일의 만료 날짜 설정
 
-Office 365 Advanced Message Encryption은 [microsoft 365 Enterprise e5](https://www.microsoft.com/microsoft-365/enterprise/home), Office 365 E5, Microsoft 365 E5 (비영리 스태프 가격), Office 365 Enterprise E5 (비영리 스태프 가격) 및 Office 365 교육용 A5에 포함 되어 있습니다. 조직에서 Office 365 고급 메시지 암호화를 포함 하지 않는 구독을 사용 하는 경우 microsoft 365 E3, Microsoft 365 E3 (비영리 직원 가격) 또는 Office 365 Advanced 용 Microsoft 365 E5 준수 SKU 추가 기능을 통해 구매할 수 있습니다. Microsoft 365 E3, Microsoft 365 E3 (비영리 직원 가격) 또는 Office 365 Sku에 대 한 준수 SKU 추가 기능입니다.
+Office 365 Advanced Message Encryption은 [microsoft 365 Enterprise e5](https://www.microsoft.com/microsoft-365/enterprise/home), Office 365 E5, Microsoft 365 E5 (비영리 스태프 가격), Office 365 Enterprise E5 (비영리 스태프 가격) 및 Office 365 교육용 A5에 포함 되어 있습니다. 조직에서 Office 365 고급 메시지 암호화를 포함 하지 않는 구독을 사용 하는 경우 microsoft 365 E3, microsoft 365 E3 (비영리 직원 가격) 또는 Microsoft 365 (고급 규정 준수) 용 microsoft 365 e3, Microsoft 365 E3 (비영리 스태프 가격) 또는 Office 365 Sku에 대 한 Office 준수 sku 추가 기능을 사용해 서 구매할 수 있습니다.
 
 사용자가 OME 포털을 사용 하 여 암호화 된 전자 메일에 액세스 하는 외부의 받는 사람에 게 보내는 전자 메일에 메시지 만료를 사용할 수 있습니다. Windows Powershell에서 만료 날짜를 지정 하는 사용자 지정 브랜드 서식 파일을 사용 하 여 조직에서 보낸 암호화 된 전자 메일을 보고 회신할 때 받는 사람이 OME 포털을 사용 하도록 강제 합니다.
 
-O365 전역 관리자 인 경우 회사 브랜드를 적용 하 여 Office 365 조직의 전자 메일 메시지의 모양을 사용자 지정 하는 경우 이러한 전자 메일 메시지에 대 한 만료를 지정할 수도 있습니다. Office 365 고급 메시지 암호화를 사용 하면 조직에서 보낸 암호화 된 전자 메일용 템플릿을 여러 개 만들 수 있습니다. 서식 파일을 사용 하면 받는 사람에 게 사용자가 보낸 메일에 대 한 액세스 권한이 있는 기간을 제어할 수 있습니다.
+O365 전역 관리자는 회사 브랜드를 적용 하 여 조직의 전자 메일 메시지 모양을 사용자 지정할 때 이러한 전자 메일 메시지에 대 한 만료를 지정할 수도 있습니다. Office 365 고급 메시지 암호화를 사용 하면 조직에서 보낸 암호화 된 전자 메일용 템플릿을 여러 개 만들 수 있습니다. 서식 파일을 사용 하면 받는 사람에 게 사용자가 보낸 메일에 대 한 액세스 권한이 있는 기간을 제어할 수 있습니다.
 
 최종 사용자가 만료 날짜가 설정 된 메일을 받는 경우 사용자는 래퍼 전자 메일에서 만료 날짜를 볼 수 있습니다. 사용자가 만료 된 메일을 열려고 하면 OME 포털에 오류가 표시 됩니다.
 
@@ -39,7 +39,7 @@ Office 365 고급 메시지 암호화를 사용 하 여 사용자 지정 브랜�
 
 ## <a name="create-a-custom-branding-template-to-force-mail-expiration-by-using-powershell"></a>PowerShell을 사용 하 여 메일 만료를 적용 하는 사용자 지정 브랜딩 서식 파일 만들기
 
-1. Office 365 조직에서 전역 관리자 권한이 있는 계정을 사용 하 여 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell) 합니다.
+1. 조직에서 전역 관리자 권한이 있는 계정을 사용 하 여 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell) 합니다.
 
 2. Set-omeconfiguration cmdlet을 실행 합니다.
 

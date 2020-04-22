@@ -13,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 localization_priority: None
 description: Microsoft 팀에서 정보 장벽에 대 한 정책을 정의 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: efce9a1c9827ddc904d6942ff9e1005850acfe8c
-ms.sourcegitcommit: ce6121a8e3ca7438071d73b0c76e2b6f33ac1cf7
+ms.openlocfilehash: c7bc7a1f90962910a0626967e4f6dee005695e30
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "43029884"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43621374"
 ---
 # <a name="define-information-barrier-policies"></a>정보 장벽 정책 정의
 
@@ -37,7 +37,7 @@ ms.locfileid: "43029884"
 
 - 사용자 계정 특성은 Azure Active Directory (또는 Exchange Online)에서 정의 됩니다. 이러한 특성에는 부서, 직함, 위치, 팀 이름 및 기타 작업 프로필 정보가 포함 될 수 있습니다. 
 
-- 세그먼트는 선택한 **사용자 계정 특성**을 사용 하 여 Office 365 보안 & 준수 센터에 정의 된 사용자 집합입니다. ( [지원 되는 특성 목록](information-barriers-attributes.md)참조) 
+- 세그먼트는 선택한 **사용자 계정 특성**을 사용 하 여 보안 & 준수 센터에 정의 된 사용자 집합입니다. ( [지원 되는 특성 목록](information-barriers-attributes.md)참조) 
 
 - 정보 장벽 정책에 따라 통신 제한 또는 제한이 결정 됩니다. 정보 장벽 정책을 정의할 때는 두 가지 정책 유형 중에서 선택 합니다.
     - "차단" 정책은 한 세그먼트가 다른 세그먼트와 통신 하지 못하도록 합니다.
@@ -67,12 +67,12 @@ ms.locfileid: "43029884"
 
 - 범위 디렉터리 검색 조직의 첫 번째 정보 장벽 정책을 정의 하기 전에 [Microsoft 팀에서 범위 지정 디렉터리 검색을 사용 하도록 설정](https://docs.microsoft.com/MicrosoftTeams/teams-scoped-directory-search)해야 합니다. 정보 장벽 정책을 설정 하거나 정의 하기 전에 범위 디렉터리 검색을 사용 하도록 설정한 후 24 시간 이상 기다립니다.
 
-- 감사 로깅-정책 응용 프로그램의 상태를 조회 하려면 감사 로깅을 설정 해야 합니다. 세그먼트 또는 정책 정의를 시작 하기 전에이 작업을 수행 하는 것이 좋습니다. 자세한 내용은 [Turn Office 365 감사 로그 검색 설정 또는 해제](turn-audit-log-search-on-or-off.md)를 참조 하세요.
+- 감사 로깅-정책 응용 프로그램의 상태를 조회 하려면 감사 로깅을 설정 해야 합니다. 세그먼트 또는 정책 정의를 시작 하기 전에이 작업을 수행 하는 것이 좋습니다. 자세한 내용은 [감사 로그 검색 켜기 또는 끄기를](turn-audit-log-search-on-or-off.md)참조 하세요.
 
 - 주소록 정책 없음-정보 장벽 정책을 정의 하 고 적용 하기 전에 Exchange 주소록 정책이 없는지 확인 합니다. 정보 장애물은 주소록 정책에 기반을 둔 반면 두 가지 종류의 정책은 서로 호환 되지 않습니다. 이러한 정책이 있는 경우 먼저 주소록 [정책을 제거](https://docs.microsoft.com/exchange/address-books/address-book-policies/remove-an-address-book-policy) 해야 합니다. 정보 장벽 정책이 사용 하도록 설정 되 고 계층 구조 주소록을 사용 하도록 설정 하면 정보 장벽 세그먼트에 ***포함 되지*** 않은 모든 사용자에 게 Exchange online의 [계층 구조](https://docs.microsoft.com/exchange/address-books/hierarchical-address-books/hierarchical-address-books) 주소록이 표시 됩니다.
 
 - PowerShell-현재 정보 장벽 정책은 PowerShell cmdlet을 사용 하 여 Office 365 보안 & 준수 센터에서 정의 되 고 관리 됩니다. 이 문서에서는 몇 가지 예를 제공 했지만 PowerShell cmdlet 및 매개 변수에 익숙해져야 합니다. AzureRM 모듈도 필요 합니다.
-    - [Office 365 보안 및 준수 센터 PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps)
+    - [보안 및 준수 센터 PowerShell에 연결하기](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps)
     - [Azure PowerShell 모듈 설치](https://docs.microsoft.com/powershell/azure/install-az-ps?view=azps-2.3.2)
 
 - 관리자 동의 Microsoft 팀의 정보 장벽-정책이 마련 되 면 정보 장벽에서 사용자를 제거할 수 있습니다. 이렇게 하면 조직이 정책 및 규정 준수 상태를 유지할 수 있습니다. 다음 절차를 사용 하 여 정보 장벽 정책이 Microsoft 팀에서 예상 대로 작동 하도록 설정 합니다. 
@@ -243,7 +243,7 @@ ms.locfileid: "43029884"
 
     각 정책에 대해 적절 하 게이 단계를 반복 합니다.
 
-3. 정보 장벽 정책 설정이 활성 상태로 끝나면 Office 365 보안 & 준수 센터의 **InformationBarrierPoliciesApplication** cmdlet을 사용 합니다.
+3. 정보 장벽 정책이 활성 상태로 설정 되 면 보안 & 준수 센터의 **InformationBarrierPoliciesApplication** cmdlet을 사용 합니다.
 
     구문과`Start-InformationBarrierPoliciesApplication`
 

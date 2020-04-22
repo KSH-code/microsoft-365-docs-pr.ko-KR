@@ -17,17 +17,17 @@ ms.assetid: 7a29260d-2959-42aa-8916-feceff6ee51d
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
-description: Office 365 전역 관리자는 조직의 암호화 된 전자 메일 메시지와 암호화 포털의 콘텐츠에 조직의 브랜딩을 적용할 수 있습니다.
-ms.openlocfilehash: 5a3f5426fecd6ce5df6ace5b0080de33fb50e21f
-ms.sourcegitcommit: e695bcfc69203da5d3d96f3d6a891664a0e27ae2
+description: 전역 관리자는 조직의 암호화 된 전자 메일 메시지와 암호화 포털의 콘텐츠에 조직의 브랜딩을 적용할 수 있습니다.
+ms.openlocfilehash: 231d0bd1e49d0529b4dc15ec758ba63fe5f60092
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43106020"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632293"
 ---
 # <a name="add-your-organizations-brand-to-your-encrypted-messages"></a>암호화된 메시지에 조직의 브랜드 추가
 
-Exchange Online 또는 Exchange Online Protection 관리자는 회사 브랜딩을 적용 하 여 조직의 Office 365 메시지 암호화 전자 메일 메시지와 암호화 포털 콘텐츠의 내용을 사용자 지정할 수 있습니다. Set-omeconfiguration 및 Set-omeconfiguration Windows PowerShell cmdlet을 사용 하 여 암호화 된 전자 메일 메시지의 받는 사람에 대 한 다음의 보기 환경을 사용자 지정할 수 있습니다.
+Exchange Online 또는 Exchange Online Protection 관리자는 회사 브랜딩을 적용 하 여 조직의 Microsoft 365에서 비즈니스 메시지 암호화 전자 메일 메시지와 암호화 포털의 내용을 사용자 지정할 수 있습니다. Set-omeconfiguration 및 Set-omeconfiguration Windows PowerShell cmdlet을 사용 하 여 암호화 된 전자 메일 메시지의 받는 사람에 대 한 다음의 보기 환경을 사용자 지정할 수 있습니다.
   
 - 암호화된 메시지를 포함하는 전자 메일의 소개 텍스트
 
@@ -59,7 +59,7 @@ Exchange Online 또는 Exchange Online Protection 관리자는 회사 브랜딩�
 
 ## <a name="work-with-ome-branding-templates"></a>OME 브랜딩 서식 파일 사용
 
-브랜딩 서식 파일 내에서 여러 기능을 수정할 수 있습니다. 기본 서식 파일을 수정할 수는 있지만 제거 하지는 못합니다. 고급 메시지 암호화가 있는 경우 사용자 지정 서식 파일을 만들고, 수정 하 고, 제거할 수도 있습니다. Windows PowerShell을 사용 하 여 한 번에 하나의 브랜딩 서식 파일로 작업할 수 있습니다. 이러한 cmdlet을 사용 하려면 Office 365 조직에서 전역 관리자 권한을 가진 회사 또는 학교 계정이 필요 합니다.
+브랜딩 서식 파일 내에서 여러 기능을 수정할 수 있습니다. 기본 서식 파일을 수정할 수는 있지만 제거 하지는 못합니다. 고급 메시지 암호화가 있는 경우 사용자 지정 서식 파일을 만들고, 수정 하 고, 제거할 수도 있습니다. Windows PowerShell을 사용 하 여 한 번에 하나의 브랜딩 서식 파일로 작업할 수 있습니다. 이러한 cmdlet을 사용 하려면 조직에서 전역 관리자 권한이 있는 회사 또는 학교 계정이 필요 합니다.
 
 - [Set-omeconfiguration](https://docs.microsoft.com/powershell/module/exchange/encryption-and-certificates/set-omeconfiguration) -기본 브랜딩 템플릿이나 만든 사용자 지정 브랜딩 서식 파일을 수정 합니다.
 - [Set-omeconfiguration](https://docs.microsoft.com/powershell/module/exchange/encryption-and-certificates/new-omeconfiguration) -새 브랜딩 서식 파일을 만들고 고급 메시지 암호화만 사용 합니다.
@@ -69,7 +69,7 @@ Exchange Online 또는 Exchange Online Protection 관리자는 회사 브랜딩�
 
 Windows PowerShell을 사용 하 여 한 번에 하나의 브랜딩 서식 파일을 수정 합니다. 고급 메시지 암호화가 있는 경우 사용자 지정 서식 파일을 만들고, 수정 하 고, 제거할 수도 있습니다.
 
-1. Office 365 조직에서 전역 관리자 권한이 있는 회사 또는 학교 계정을 사용 하는 경우 Windows PowerShell 세션을 시작 하 고 Exchange Online에 연결 합니다. 지침을 확인하려면 [Exchange Online PowerShell에 연결](https://aka.ms/exopowershell)을 참조하세요.
+1. 조직에서 전역 관리자 권한이 있는 회사 또는 학교 계정을 사용 하 여 Windows PowerShell 세션을 시작 하 고 Exchange Online에 연결 합니다. 지침을 확인하려면 [Exchange Online PowerShell에 연결](https://aka.ms/exopowershell)을 참조하세요.
 
 2. Set-omeconfiguration에 설명 된 대로 Set-omeconfiguration cmdlet을 사용 하 여 서식 파일을 수정 하거나 다음과 같은 그래픽 및 표를 사용 하 여 지침을 [제공](https://docs.microsoft.com/powershell/module/exchange/encryption-and-certificates/Set-OMEConfiguration) 합니다.
 
@@ -94,7 +94,7 @@ Office 365 고급 메시지 암호화가 있는 경우 [set-omeconfiguration](ht
 
 새 사용자 지정 브랜딩 템플릿을 만들려면 다음을 수행 합니다.
 
-1. Office 365 조직에서 전역 관리자 권한이 있는 회사 또는 학교 계정을 사용 하는 경우 Windows PowerShell 세션을 시작 하 고 Exchange Online에 연결 합니다. 지침을 확인하려면 [Exchange Online PowerShell에 연결](https://aka.ms/exopowershell)을 참조하세요.
+1. 조직에서 전역 관리자 권한이 있는 회사 또는 학교 계정을 사용 하 여 Windows PowerShell 세션을 시작 하 고 Exchange Online에 연결 합니다. 지침을 확인하려면 [Exchange Online PowerShell에 연결](https://aka.ms/exopowershell)을 참조하세요.
 
 2. 새 서식 파일을 만들려면 [set-omeconfiguration](https://docs.microsoft.com/powershell/module/exchange/encryption-and-certificates/new-omeconfiguration) cmdlet을 사용 합니다.
 
@@ -112,7 +112,7 @@ Office 365 고급 메시지 암호화가 있는 경우 [set-omeconfiguration](ht
 
 브랜드 사용자 지정 등을 포함 하 여 기본 서식 파일에서 수정 내용을 모두 제거 하려면 다음 단계를 완료 합니다.
   
-1. Office 365 조직에서 전역 관리자 권한이 있는 회사 또는 학교 계정을 사용 하는 경우 Windows PowerShell 세션을 시작 하 고 Exchange Online에 연결 합니다. 지침을 확인하려면 [Exchange Online PowerShell에 연결](https://aka.ms/exopowershell)을 참조하세요.
+1. 조직에서 전역 관리자 권한이 있는 회사 또는 학교 계정을 사용 하 여 Windows PowerShell 세션을 시작 하 고 Exchange Online에 연결 합니다. 지침을 확인하려면 [Exchange Online PowerShell에 연결](https://aka.ms/exopowershell)을 참조하세요.
 
 2. [-Set-omeconfiguration](https://docs.microsoft.com/powershell/module/exchange/encryption-and-certificates/Set-OMEConfiguration)에 설명 된 대로 **set-omeconfiguration** cmdlet을 사용 합니다. DisclaimerText, EmailText 및 PortalText 값에서 조직의 브랜드 사용자 지정을 제거 하려면이 값을 빈 문자열 ( `""`)로 설정 합니다. 로고 등의 모든 이미지 값에 대해 값을로 `"$null"`설정 합니다.
 
@@ -133,7 +133,7 @@ Office 365 고급 메시지 암호화가 있는 경우 [set-omeconfiguration](ht
 
 사용자 지정 브랜딩 서식 파일을 제거 하려면:
   
-1. Office 365 조직에서 전역 관리자 권한이 있는 회사 또는 학교 계정을 사용 하는 경우 Windows PowerShell 세션을 시작 하 고 Exchange Online에 연결 합니다. 지침을 확인하려면 [Exchange Online PowerShell에 연결](https://aka.ms/exopowershell)을 참조하세요.
+1. 조직에서 전역 관리자 권한이 있는 회사 또는 학교 계정을 사용 하 여 Windows PowerShell 세션을 시작 하 고 Exchange Online에 연결 합니다. 지침을 확인하려면 [Exchange Online PowerShell에 연결](https://aka.ms/exopowershell)을 참조하세요.
 
 2. 다음과 같이 **set-omeconfiguration** cmdlet을 사용 합니다.
 
@@ -155,7 +155,7 @@ Office 365 고급 메시지 암호화가 있는 경우 [set-omeconfiguration](ht
 
 - 최종 사용자가 웹에서 outlook 또는 outlook (이전의 Outlook Web App) 클라이언트를 사용 하 여 전자 메일을 수동으로 암호화 한 경우
 
-- 전자 메일이 Exchange 메일 흐름 규칙 또는 Office 365 데이터 손실 방지 정책에 의해 자동으로 암호화 된 경우
+- 전자 메일이 Exchange 메일 흐름 규칙 또는 데이터 손실 방지 정책에 의해 자동으로 암호화 된 경우
 
 암호화를 적용 하는 Exchange 메일 흐름 규칙을 만드는 방법에 대 한 자세한 내용은 [Office 365에서 전자 메일 메시지를 암호화 하기 위한 메일 흐름 규칙 정의](define-mail-flow-rules-to-encrypt-email.md)를 참조 하세요.
 

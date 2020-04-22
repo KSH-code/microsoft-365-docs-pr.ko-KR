@@ -1,5 +1,5 @@
 ---
-title: Office 365 Advanced eDiscovery에서 분석 고급 설정에 대 한 설정
+title: 고급 eDiscovery에서 분석 고급 설정에 대 한 설정
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -15,15 +15,15 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: a797682f-ad85-4c08-a354-3850ba2237ee
-description: 'Office 365 Advanced eDiscovery의 분석 프로세스에 대해 거의 중복, 전자 메일 스레드 및 테마를 포함 하 여 고급 설정을 구성 하는 방법을 알아봅니다. '
-ms.openlocfilehash: effb573165abea0d4f9939fbf7c367cbdf333f57
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+description: '고급 eDiscovery의 분석 프로세스에 대 한 중복 항목, 전자 메일 스레드 및 테마를 포함 하 여 고급 설정을 구성 하는 방법을 알아봅니다. '
+ms.openlocfilehash: 91faf9e39fe7b8a7fada7b05ccd88351d813b148
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42557798"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631275"
 ---
-# <a name="set-analyze-advanced-settings-in-office-365-advanced-ediscovery"></a>Office 365 Advanced eDiscovery에서 분석 고급 설정에 대 한 설정
+# <a name="set-analyze-advanced-settings-in-advanced-ediscovery"></a>고급 eDiscovery에서 분석 고급 설정에 대 한 설정
 
 > [!NOTE]
 > Advanced eDiscovery를 사용하려면 Office 365 E3의 고급 준수 추가 기능이나 조직을 위한 E5 구독이 필요합니다. 이 요금제가 없는 상태에서 Advanced eDiscovery를 사용하려는 경우에는 [Office 365 Enterprise E5 평가판을 등록](https://go.microsoft.com/fwlink/p/?LinkID=698279)할 수 있습니다. 

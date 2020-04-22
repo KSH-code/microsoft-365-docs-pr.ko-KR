@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: f77a2967c6b789d28a95516594b1bdd5d8b9f3c6
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: 11115db9e9a29f9abe83b3c26322f7586806d4dc
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42634606"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632313"
 ---
 # <a name="add-custodians-to-an-advanced-ediscovery-case"></a>고급 eDiscovery 사례에 custodians 추가
 
@@ -68,7 +68,7 @@ Custodian 데이터 원본을 확인 하려면 다음을 수행 합니다.
 
 ## <a name="step-3-associate-additional-data-sources-to-a-custodian"></a>3 단계: 추가 데이터 원본을 custodian에 연결
 
-조사 중인 사례에 따라 특정 custodian에 액세스할 수 있는 사서함, custodian가 현재 속해 있는 Office 365 그룹 또는 custodian에도 액세스 한 사이트에 대 한 콘텐츠를 검색 하 고 보존 해야 할 수도 있습니다. 따라서 이전 단계에서 지정한 기본 custodian 데이터 원본 외에, 사례에서 추가 Office 365 데이터 원본을 custodian에 연결할 수도 있습니다. 
+조사 중인 사례에 따라 특정 custodian에 액세스할 수 있는 사서함, custodian가 현재 구성원으로 속해 있는 Microsoft 365 그룹 또는 custodian에도 액세스 한 사이트에 대 한 콘텐츠를 검색 하 고 보존 해야 할 수도 있습니다. 따라서 이전 단계에서 지정한 기본 custodian 데이터 원본 외에, 사례에 추가 Microsoft 데이터 원본을 custodian에 연결할 수도 있습니다. 
 
 사서함, 사이트 또는 팀을 특정 custodian에 매핑하려면 다음을 수행 합니다.
 
@@ -76,14 +76,14 @@ Custodian 데이터 원본을 확인 하려면 다음을 수행 합니다.
   
    ![추가 데이터 원본 매핑](../media/AddCustodianStep3.PNG)
 
-2. 플라이 아웃 페이지에서는 다음 Office 365 서비스 중 하나에서 데이터 원본을 지정할 수 있습니다.
+2. 플라이 아웃 페이지에서는 다음 서비스 중 하나를 통해 데이터 원본을 지정할 수 있습니다.
   
-   -  **Exchange 전자 메일** - **사용자, 그룹 또는 팀 선택을** 클릭 한 다음 **사용자, 그룹 또는 팀 선택을** 클릭 합니다. 검색 상자를 사용 하 여 custodian와 연결할 사서함을 찾습니다. 선택한 custodian에 할당할 사서함을 지정 하려면 검색 상자를 사용 하 여 사용자 사서함 및 메일 그룹을 찾습니다. 또한 Office 365 그룹 또는 Microsoft 팀에 연결 된 사서함을 할당할 수 있습니다. 사용자, 그룹, 팀 확인란을 선택 하 고 **선택을**클릭 한 후 **완료**를 클릭 합니다.
+   -  **Exchange 전자 메일** - **사용자, 그룹 또는 팀 선택을** 클릭 한 다음 **사용자, 그룹 또는 팀 선택을** 클릭 합니다. 검색 상자를 사용 하 여 custodian와 연결할 사서함을 찾습니다. 선택한 custodian에 할당할 사서함을 지정 하려면 검색 상자를 사용 하 여 사용자 사서함 및 메일 그룹을 찾습니다. 또한 Microsoft 365 그룹 또는 Microsoft 팀에 연결 된 사서함을 할당할 수 있습니다. 사용자, 그룹, 팀 확인란을 선택 하 고 **선택을**클릭 한 후 **완료**를 클릭 합니다.
 
         > [!NOTE]
         > 사용자, 그룹 또는 팀 선택을 클릭 하 여 사서함을 지정 하는 경우 표시 되는 사서함 선택은 비어 있습니다. 이것은 성능을 향상시키기 위한 것입니다. 이 목록에 사서함을 추가 하려면 검색 상자에 이름 또는 별칭 (최소 3 자)을 입력 합니다.
      
-     - **Sharepoint 사이트** - **사이트 선택을** 클릭 한 다음 **사이트 선택을** 다시 클릭 하 여 조직의 SharePoint 사이트 목록을 표시 합니다. 사이트를 custodian와 연결 하려면 목록에서 사이트를 선택 하거나, Office 365 그룹, Microsoft 팀 또는 OneDrive 계정과 연결 된 사이트 또는 다른 사이트의 URL을 입력할 수 있습니다.
+     - **Sharepoint 사이트** - **사이트 선택을** 클릭 한 다음 **사이트 선택을** 다시 클릭 하 여 조직의 SharePoint 사이트 목록을 표시 합니다. 사이트를 custodian와 연결 하려면 목록에서 사이트를 선택 하거나 Microsoft 365 그룹, Microsoft 팀 또는 OneDrive 계정에 연결 된 사이트 또는 다른 사이트의 URL을 입력할 수 있습니다.
      
      - **팀** - **팀 선택을** 클릭 한 다음 **팀 선택을** 다시 클릭 하 여 Custodian가 현재 구성원 인 Microsoft 팀 목록을 표시 합니다. Custodian에 추가할 팀을 선택 합니다. 선택한 후에는 해당 Microsoft 팀에 연결 된 SharePoint 사이트 및 그룹 사서함을 선택 & 자동으로 시스템을 식별 합니다. **선택을**클릭 하 고 **완료**를 클릭 합니다.
 

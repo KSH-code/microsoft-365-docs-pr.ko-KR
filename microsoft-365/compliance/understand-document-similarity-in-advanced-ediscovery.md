@@ -1,5 +1,5 @@
 ---
-title: Office 365 Advanced eDiscovery의 문서 유사성 이해
+title: Advanced eDiscovery의 문서 유사성 이해
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -15,13 +15,13 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 4d4cb381-4c9a-4165-a455-609d525c7a88
-description: '문서 유사성 값을 검토 하 고 거의 중복으로 간주 되는 두 파일의 최소 resemblance 수준이 Office 365 Advanced eDiscovery에서 작동 합니다. '
-ms.openlocfilehash: e15eb119a569c7cd296f9d3546969848808652da
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+description: '문서 유사성 값을 검토 하 고 거의 중복으로 간주 되는 두 파일에 대 한 최소 resemblance 수준은 Advanced eDiscovery에서 작동 합니다. '
+ms.openlocfilehash: bfce2e3018c690fc0a25bcda8e2c03690a334dc4
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42557668"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43633413"
 ---
 # <a name="understand-document-similarity-in-advanced-ediscovery-classic"></a>Advanced eDiscovery의 문서 유사성 이해 (클래식)
 

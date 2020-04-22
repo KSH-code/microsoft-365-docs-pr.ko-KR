@@ -17,18 +17,18 @@ ms.collection:
 search.appverid:
 - MET150
 description: 'DLP 정책을 사용하여 가장 쉽고 가장 일반적인 방법은 Office 365에 포함된 템플릿 중 하나를 사용하는 것입니다. '
-ms.openlocfilehash: c8c979e5d091204f8071c51a0662808652f59355
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 956359695978953445237afaa21af028ae8b4c6c
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42077823"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631337"
 ---
 # <a name="create-a-dlp-policy-from-a-template"></a>템플릿에서 DLP 정책 만들기
 
 DLP 정책을 사용하여 가장 쉽고 가장 일반적인 방법은 Office 365에 포함된 템플릿 중 하나를 사용하는 것입니다. 이러한 서식 파일 중 하나를 그대로 사용 하거나 조직의 특정 규정 준수 요구 사항을 충족 하도록 규칙을 사용자 지정할 수 있습니다.
   
-Office 365에는 광범위한 일반적인 규정 및 비즈니스 정책 요구를 충족하기 위해 바로 사용할 수 있는 40가지 이상의 템플릿이 포함되어 있습니다. 예를 들어 다음에 대한 DLP 정책 템플릿이 있습니다.
+Microsoft 365에는 광범위 한 일반 규정 및 비즈니스 정책 요구 사항을 충족 하는 데 도움이 되는 사용 가능한 40의 기본 제공 서식 파일이 포함 되어 있습니다. 예를 들어 다음에 대한 DLP 정책 템플릿이 있습니다.
   
 - GLBA(Gramm-Leach-Bliley Act)
     
@@ -58,7 +58,7 @@ Office 365에는 광범위한 일반적인 규정 및 비즈니스 정책 요구
 
 1. [https://protection.office.com](https://protection.office.com)으로 이동합니다.
     
-2. 회사 또는 학교 계정을 사용하여 Office 365에 로그인합니다. 현재는 Office 365 보안 &amp; 및 준수 센터에 있습니다.
+2. 회사 또는 학교 계정을 사용 하 여 로그인 합니다. 현재는 보안 &amp; 및 준수 센터에 있습니다.
     
 3. 보안 &amp; 준수 센터 \> 왼쪽 탐색 \> **데이터 손실 방지** \> **정책** \> **+ 정책 만들기**
     

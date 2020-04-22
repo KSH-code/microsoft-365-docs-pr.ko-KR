@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 정보 보호 기반 서비스 및 인프라에 대한 조건을 검사하여 구성이 Microsoft 365 Enterprise 요구 사항을 충족하는지 확인합니다.
-ms.openlocfilehash: 28eff02ea870dcfca7e2e32580ed6a3a9e8a9484
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: c0b4ff6a0d289b8a8c63255d817ea455df00bf13
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42633356"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631636"
 ---
 # <a name="information-protection-infrastructure-exit-criteria"></a>정보 보호 인프라 종료 조건
 
@@ -44,7 +44,7 @@ ms.locfileid: "42633356"
 <a name="crit-infoprotect-step3"></a>
 ## <a name="required-increased-security-for-microsoft-365-is-configured"></a>필수: Microsoft 365에 대한 강화된 보안이 구성됩니다.
 
-[Office 365 보안 강화](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security)를 위해 다음과 같은 설정을 구성했습니다.
+[Microsoft 365 강화 된 보안을](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security) 위해 다음과 같은 설정을 구성했습니다.
 
 - Microsoft 365 보안 센터의 위협 관리 정책
 - 추가 Exchange Online 테넌트 수준 설정
@@ -82,11 +82,11 @@ ms.locfileid: "42633356"
 필요한 경우, [4단계](infoprotect-deploy-windows-information-protection.md)를 통해 이 요구 사항을 충족할 수 있습니다. 
 
 <a name="crit-infoprotect-step5"></a>
-## <a name="optional-office-365-data-loss-prevention-dlp-is-deployed"></a>선택 사항: Office 365 DLP(Data Loss Prevention)
+## <a name="optional-data-loss-prevention-dlp-is-deployed"></a>선택 사항: DPL(데이터 손실 방지)가 배포되었습니다.
 
 조직이 고객과 기타 개인 데이터 유형을 보호하고 산업 및 지역 규정과 요구 사항을 준수하는 데 필요한 DLP 정책 집합(위치 및 조건과 조치과 포함된 규칙 사용)을 분석하고 테스트하며 공개했습니다.
 
-데이터 준수 및 보안 교직원이 Office 365 보안 및 준수 대시보드를 사용하여 DLP 인시던트를 모니터링합니다.
+데이터 준수 및 보안 담당자가 보안 및 준수 대시보드를 사용하여 DLP 인시던트를 모니터링합니다.
 
 필요한 경우 [5단계](infoprotect-data-loss-prevention.md)를 통해 이 요구 사항을 충족할 수 있습니다. 
 

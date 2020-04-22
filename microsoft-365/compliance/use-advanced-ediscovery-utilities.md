@@ -1,5 +1,5 @@
 ---
-title: Office 365 Advanced eDiscovery 유틸리티 사용
+title: Advanced eDiscovery 유틸리티 사용
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -15,15 +15,15 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 66ca9993-75f4-4724-aea2-5a0719b660c1
-description: '사례 로그, 데이터 지우기, 프로세스 오류, 수정 관련성 및 투명도 분석을 포함 하 여 Office 365 Advanced eDiscovery의 유틸리티에 대해 알아봅니다.  '
-ms.openlocfilehash: ce8eb00382bd6ff0514dfef99d18a8e4b2679cec
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+description: '사례 로그, 데이터 지우기, 프로세스 오류, 수정 관련성 및 투명도 분석을 포함 하 여 고급 eDiscovery의 유틸리티에 대해 알아봅니다.  '
+ms.openlocfilehash: d4495920110916fdd5b07201d50080605ba177b1
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42557658"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43633393"
 ---
-# <a name="use-advanced-ediscovery-classic-utilities"></a>클래식 (Advanced eDiscovery) 유틸리티 사용
+# <a name="use-advanced-ediscovery-classic-utilities"></a>Advanced eDiscovery(클래식) 유틸리티 사용
 
 > [!NOTE]
 > Advanced eDiscovery를 사용하려면 Office 365 E3의 고급 준수 추가 기능이나 조직을 위한 E5 구독이 필요합니다. 이 요금제가 없는 상태에서 Advanced eDiscovery를 사용하려는 경우에는 [Office 365 Enterprise E5 평가판을 등록](https://go.microsoft.com/fwlink/p/?LinkID=698279)할 수 있습니다. 

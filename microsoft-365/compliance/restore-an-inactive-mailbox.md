@@ -1,5 +1,5 @@
 ---
-title: Office 365에서 비활성 사서함 복원
+title: 비활성 사서함 복원
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -16,14 +16,14 @@ search.appverid:
 - MET150
 ms.assetid: 97e06a7a-ef9a-4ce8-baea-18b9e20449a3
 description: 새 직원 또는 다른 사용자가 Office 365에서 비활성 사서함의 콘텐츠에 액세스 해야 하는 경우 비활성 사서함의 내용을 기존 사서함으로 복원 하거나 병합할 수 있습니다.
-ms.openlocfilehash: 1fdf86c17d557ef27373001cb63f710168269a19
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 3352dfa582fb09a5f0a6c7ecbd807ed80593351f
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42081610"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43621320"
 ---
-# <a name="restore-an-inactive-mailbox-in-office-365"></a>Office 365에서 비활성 사서함 복원
+# <a name="restore-an-inactive-mailbox"></a>비활성 사서함 복원
 
 일시 삭제 된 사서함 유형의 비활성 사서함은 조직 내에서 이전 직원의 전자 메일을 유지 하는 데 사용 됩니다. 다른 직원이 이거나 퇴직 한 직원의 작업을 수행 하거나 해당 직원이 조직에 게 제공 되는 경우, 비활성 사서함의 내용을 사용자가 사용할 수 있도록 하는 방법에는 두 가지가 있습니다.
   
@@ -103,7 +103,7 @@ ms.locfileid: "42081610"
   Get-Mailbox -InactiveMailboxOnly | FL Name,PrimarySMTPAddress,DistinguishedName,ExchangeGUID,LegacyExchangeDN,ArchiveStatus
   ```
 
-- **소송 보존 또는 Office 365 보존 정책을 사용 하 여 비활성 사서함 콘텐츠를 유지 합니다.** 비활성 사서함을 복원한 후 상태를 유지 하려면 비활성 사서함을 복원 하기 전에 대상 사서함을 [소송](https://go.microsoft.com/fwlink/?linkid=856286) 보존으로 설정 하거나 [Office 365 보관 정책을](retention-policies.md) 적용할 수 있습니다. 이렇게 하면 대상 사서함으로 복원 된 후 비활성 사서함의 항목이 영구적으로 삭제 되는 것을 방지할 수 있습니다.
+- **소송 보류 또는 Microsoft 365 보존 정책을 사용 하 여 비활성 사서함 콘텐츠를 보존 합니다.** 비활성 사서함을 복원한 후 상태를 유지 하려면 비활성 사서함을 복원 하기 전에 대상 사서함을 [소송](https://go.microsoft.com/fwlink/?linkid=856286) 보존으로 설정 하거나 [Microsoft 365 보관 정책을](retention-policies.md) 적용할 수 있습니다. 이렇게 하면 대상 사서함으로 복원 된 후 비활성 사서함의 항목이 영구적으로 삭제 되는 것을 방지할 수 있습니다.
 
 - **비활성 사서함을 복원 하기 전에 대상 사서함에 대해 보존을 사용 하도록 설정 합니다.** 비활성 사서함의 사서함 항목은 오래 되었을 수 있으므로 비활성 사서함을 복원 하기 전에 대상 사서함에 대해 보존을 사용 하도록 설정할 수 있습니다. 사서함을 보존 상태로 전환할 때 할당 된 보존 정책은 보존 상태가 제거 될 때까지 또는 보존 기간이 만료 될 때까지 처리 되지 않습니다. 이렇게 하면 대상 사서함 시간 소유자가 비활성 사서함에서 오래 된 메시지를 관리할 수 있습니다. 그렇지 않으면 보존 정책이 대상 사서함에 대해 구성 된 보존 설정에 따라 오래 된 항목을 삭제 하거나 (사용 하도록 설정 된 경우 보관 사서함으로 항목을 이동) 할 수 있습니다. 자세한 내용은 [Exchange Online에서 사서함을 보존 상태로 유지](https://go.microsoft.com/fwlink/?linkid=856300)를 참조 하세요.
 

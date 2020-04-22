@@ -1,5 +1,5 @@
 ---
-title: Office 365 Advanced eDiscovery에서 분석 옵션 설정
+title: 고급 eDiscovery에서 분석 옵션 설정
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -15,13 +15,13 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: f6cd6588-f6b6-424a-a9ab-3782b842faee
-description: '유사 복제, 전자 메일 스레드 및 테마를 포함 하 여 Office 365 Advanced eDiscovery의 분석 프로세스에 대 한 옵션을 설정 하는 단계를 검토 합니다.  '
-ms.openlocfilehash: 8897099d7531b48f7c6618c106eeb6f051dac546
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+description: '유사 항목 복제, 전자 메일 스레드 및 테마를 포함 하 여 고급 eDiscovery의 분석 프로세스에 대 한 옵션을 설정 하는 단계를 검토 합니다.  '
+ms.openlocfilehash: 5f50e2863398679d1381c66009ff1daec40623f9
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42557788"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631265"
 ---
 # <a name="set-analyze-options-in-advanced-ediscovery-classic"></a>고급 eDiscovery에서 분석 옵션 설정 (클래식)
 

@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: 고급 eDiscovery 작업은 다양 한 고급 eDiscovery 작업을 수행 하는 데 관련 된 장기 실행 프로세스의 상태를 추적 하는 데 도움이 됩니다.
-ms.openlocfilehash: eca2eff32b54f783c6c983a8a20237db2faf2240
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: a3367a17444ab99cb7c32af455d4564380dfd591
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42071575"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632953"
 ---
 # <a name="manage-jobs-in-advanced-ediscovery"></a>Advanced eDiscovery에서 작업 관리
 
@@ -29,14 +29,14 @@ ms.locfileid: "42071575"
 
 | 작업 유형           | 설명     |
 | :----------------- | :----------     |
-|검토 집합에 데이터 추가 | 사용자가 검색 결과를 검토 집합에 추가 합니다. 이 작업은 다음과 같은 두 개의 하위 작업으로 구성 됩니다. </br>• **GatheringItems** -검색 쿼리와 일치 하는 항목 목록 (및 해당 위치에 있는 Office 365 데이터 원본)이 생성 됩니다. </br>• **& Indexing** 수집-검색 쿼리와 일치 하는 항목은 azure 저장 위치 ( *수집 이라는 프로세스*)로 복사 된 다음 azure 저장소 위치에 있는 해당 항목은 reindexed 됩니다. 이 새 인덱스는 데이터 집합의 항목을 쿼리하고 분석할 때 사용 됩니다. </br></br>자세한 내용은 [검토 집합에 검색 결과 추가](add-data-to-review-set.md)를 참조 하세요. |
+|검토 집합에 데이터 추가 | 사용자가 검색 결과를 검토 집합에 추가 합니다. 이 작업은 다음과 같은 두 개의 하위 작업으로 구성 됩니다. </br>• **GatheringItems** -검색 쿼리와 일치 하는 항목 목록 (및 해당 사용자가 있는 Microsoft 365 데이터 원본)이 생성 됩니다. </br>• **& Indexing** 수집-검색 쿼리와 일치 하는 항목은 azure 저장 위치 ( *수집 이라는 프로세스*)로 복사 된 다음 azure 저장소 위치에 있는 해당 항목은 reindexed 됩니다. 이 새 인덱스는 데이터 집합의 항목을 쿼리하고 분석할 때 사용 됩니다. </br></br>자세한 내용은 [검토 집합에 검색 결과 추가](add-data-to-review-set.md)를 참조 하세요. |
 |다른 검토 집합에 데이터 추가 | 한 검토 집합의 문서를 동일한 대/소문자로 다른 검토 집합으로 추가 합니다. 자세한 내용은 [다른 검토 집합에서 검토 집합에 데이터 추가](add-data-to-review-set-from-another-review-set.md)를 참조 하세요.|
-|검토 집합에 Office가 아닌 365 데이터 추가 | 사용자가 Office 365 이외의 데이터를 검토 집합에 업로드 합니다. 이 프로세스 중에도 데이터가 인덱싱됩니다. 예를 들어 온-프레미스 파일 서버 또는 클라이언트 컴퓨터의 파일은 검토 집합에 업로드 됩니다. 자세한 내용은 [검토 집합에 비 Office 365 데이터 로드](load-non-office365-data.md)를 참조 하세요.| 
+|검토 집합에 Microsoft 제품이 아닌 365 데이터 추가 | 사용자가 타사 365 데이터를 검토 집합으로 업로드 합니다. 이 프로세스 중에도 데이터가 인덱싱됩니다. 예를 들어 온-프레미스 파일 서버 또는 클라이언트 컴퓨터의 파일은 검토 집합에 업로드 됩니다. 자세한 내용은 타사 [365 데이터를 검토 집합으로 로드](load-non-office365-data.md)를 참조 하세요.| 
 |재구성 된 데이터를 검토 집합에 추가 | 처리 오류가 발생 한 데이터는 재구성 되 고 검토 집합으로 다시 로드 됩니다. 자세한 내용은 다음을 참조하세요.</br>• [데이터 처리 시 오류 수정](error-remediation-when-processing-data-in-advanced-ediscovery.md)</br>• [단일 항목 오류 수정](single-item-error-remediation.md)| 
 |부하 집합 비교 | 사용자가 검토 집합에서 서로 다른 부하 집합 간의 차이점을 살펴봅니다. 부하 집합은 검토 집합에 데이터를 추가 하는 인스턴스입니다. 예를 들어 서로 다른 두 검색의 결과를 동일한 검토 집합에 추가 하는 경우 각각은 로드 집합을 나타냅니다. 자세한 내용은 [부하 집합 관리](manage-load-sets.md)를 참조 하세요. |
 |대화 재구성|사용자가 검색 결과를 대화 검토 집합에 추가 하면 Microsoft 팀과 같은 서비스의 인스턴트 메시지 대화 ( *스레드된 대화*라고도 함)가 PDF 파일에 다시 만들어집니다. 이 작업은 사용자가 검토 집합에서 **대화 pdf를 만드는 동작 >** 클릭 하는 경우에도 트리거됩니다. 자세한 내용은 [Advanced eDiscovery에서 대화 검토](conversation-review-sets.md)를 참조 하세요.
 |Redacted 문서를 PDF로 변환|사용자가 문서를 검토 집합으로 annotates 한 부분을 redacts 후에는 redacted 문서를 PDF 파일로 변환 하도록 선택할 수 있습니다. 이렇게 하면 프레젠테이션을 위해 문서를 내보낼 때 redacted 부분이 표시 되지 않습니다. 자세한 내용은 [문서 보기의 검토 집합](annotating-and-redacting-documents.md)을 참조 하십시오. |
-|검색 결과 예측 | 사용자가 새 검색을 만들고 실행 한 후, 즉 검색 도구에서 검색 쿼리와 일치 하는 항목에 대 한 인덱스를 검색 하 고 검색에의 한 모든 항목의 수와 총 크기를 포함 하는 예상 값과 데이터 원본 sear의 수를 준비 합니다. ched.  자세한 내용은 [사례에 대 한 데이터 수집](collecting-data-for-ediscovery.md)을 참조 하십시오. | 
+|검색 결과 예측 | 사용자가 새 검색을 만들고 실행 한 후, 즉 검색 도구에서 검색 쿼리와 일치 하는 항목에 대 한 인덱스를 검색 하 고 검색을 통해 모든 항목의 수와 총 크기를 포함 하는 예상 값과 검색할 데이터 원본의 수를 준비 합니다.  자세한 내용은 [사례에 대 한 데이터 수집](collecting-data-for-ediscovery.md)을 참조 하십시오. | 
 |내보내기를 위해 데이터 준비 | 사용자가 검토 집합에서 문서를 내보냅니다. 내보내기 프로세스가 완료 되 면 내보낸 데이터를 로컬 컴퓨터에 다운로드할 수 있습니다. 자세한 내용은 [수출 사례 데이터](exporting-data-ediscover20.md)를 참조 하십시오. | 
 |오류 해결 준비 |사용자가 파일을 선택 하 고 사례 **처리** 탭의 오류 보기에 새 오류 수정을 만드는 경우 프로세스의 첫 번째 단계는 처리 오류가 발생 한 파일을 Microsoft 클라우드의 Azure Storage 위치에 업로드 하는 것입니다. 이 작업은 업로드 프로세스의 진행 상태를 추적 합니다. 오류 수정 워크플로 작업에 대 한 자세한 내용은 [데이터를 처리할 때 오류 수정을](error-remediation.md)참조 하십시오. | 
 |검색 미리 보기 준비 | 사용자가 새 검색을 만들고 실행 한 후에 검색 도구에서 미리 볼 수 있도록 검색 쿼리와 일치 하는 항목의 예제 하위 집합을 준비 합니다. 검색 결과 미리 보기는 검색 효율성을 결정 하는 데 도움이 됩니다.  자세한 내용은 [사례에 대 한 데이터 수집](collecting-data-for-ediscovery.md#view-search-results-and-statistics)을 참조 하십시오. | 

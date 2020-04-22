@@ -1,5 +1,5 @@
 ---
-title: Office 365 암호화 체인
+title: 암호화 체인
 f1.keywords:
 - NOCSH
 ms.author: kvice
@@ -17,14 +17,14 @@ ms.collection:
 - M365-security-compliance
 - Strat_O365_IP
 description: Office 365에서 루트 인증서 및 CAs (인증 기관)의 전체 목록을 확인 합니다.
-ms.openlocfilehash: fd92c8833eab3d816b3f01eccf0502f77663e4a5
-ms.sourcegitcommit: 256184cf731c1851b04a07dd7d59ecf020d02635
+ms.openlocfilehash: 4fa98f417968229a0ba5382b7b1e8b4067db2e36
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43131511"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631703"
 ---
-# <a name="office-365-encryption-chains"></a>Office 365 암호화 체인
+# <a name="encryption-chains"></a>암호화 체인
 
 Office 365에서는 다양 한 인증서 공급자를 활용 합니다. 다음은 고객이 Office 365에 액세스할 때 발생할 수 있는 알려진 Office 365 루트 인증서의 전체 목록을 설명 합니다. 자체 인프라에서 설치 해야 할 수 있는 인증서에 대 한 자세한 내용은 [Office 365 용 타사 SSL 인증서 계획](https://docs.microsoft.com/office365/enterprise/plan-for-third-party-ssl-certificates)을 참조 하십시오. 다음 인증서 정보는 Office 365의 전 세계 국가 및 국내 클라우드 인스턴스에 모두 적용 됩니다.
 

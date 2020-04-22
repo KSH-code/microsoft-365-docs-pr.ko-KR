@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Microsoft 365에서 WIP(Windows Information Protection) 이해 및 배포
-ms.openlocfilehash: 655ff33c3fd1bba822937618d801db76b7881977
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 66c9e10772edb0782096ba120858e895684255b2
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42067165"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631648"
 ---
 # <a name="step-4-configure-windows-information-protection"></a>4단계: WIP(Windows Information Protection) 구성
 
@@ -51,6 +51,6 @@ Microsoft 365 Enterprise와 함께 조직에 WIP를 배포하려면 다음을 �
 
 |||
 |:-------|:-----|
-|![5단계](../media/stepnumbers/Step5.png)|[Office 365 데이터 손실 방지 구성](infoprotect-data-loss-prevention.md)|
+|![5단계](../media/stepnumbers/Step5.png)|[구성 데이터 손실 방지](infoprotect-data-loss-prevention.md)|
 
 

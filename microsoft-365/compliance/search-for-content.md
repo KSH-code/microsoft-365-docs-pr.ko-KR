@@ -1,5 +1,5 @@
 ---
-title: Office 365에서 콘텐츠 검색
+title: 콘텐츠 검색
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -13,16 +13,16 @@ localization_priority: Normal
 ROBOTS: NOINDEX, NOFOLLOW
 ms.assetid: df2d1e0f-b476-42c9-aade-4a260b24f193
 description: 보안 & 준수 센터에서 콘텐츠 검색 eDiscovery 도구를 사용 하면 비즈니스용 Skype의 Exchange 사서함, SharePoint 사이트 및 OneDrive 위치에 있는 문서 및 인스턴트 메시징 대화에서 신속 하 게 전자 메일을 찾을 수 있습니다.
-ms.openlocfilehash: d5acdf5bba50d002876491ee0488c1f28a2c51ad
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 2b874181fdfc5bce69227acc279e12bffe70c069
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601545"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632923"
 ---
-# <a name="search-for-content-in-office-365"></a>Office 365에서 콘텐츠 검색
+# <a name="search-for-content"></a>콘텐츠 검색
 
-보안 & 준수 센터의 콘텐츠 검색 도구를 사용 하 여 비즈니스용 Skype의 Exchange 사서함, SharePoint 사이트 및 OneDrive 위치에 있는 문서 및 인스턴트 메시징 대화에서 신속 하 게 전자 메일을 찾을 수 있습니다. 콘텐츠 검색 도구를 사용 하 여 Microsoft 팀 및 Office 365 그룹과 같은 Office 365 공동 작업 도구에서 전자 메일, 문서 및 인스턴트 메시징 대화를 검색할 수 있습니다.
+보안 & 준수 센터의 콘텐츠 검색 도구를 사용 하 여 비즈니스용 Skype의 Exchange 사서함, SharePoint 사이트 및 OneDrive 위치에 있는 문서 및 인스턴트 메시징 대화에서 신속 하 게 전자 메일을 찾을 수 있습니다. 콘텐츠 검색 도구를 사용 하 여 Microsoft 팀 및 Microsoft 365 그룹과 같은 공동 작업 도구에서 전자 메일, 문서 및 인스턴트 메시징 대화를 검색할 수 있습니다.
   
 ## <a name="search-for-content"></a>콘텐츠 검색
 
@@ -36,11 +36,11 @@ ms.locfileid: "41601545"
     
 - [ID 목록 검색을 실행](csv-file-for-an-id-list-content-search.md) 하 여 특정 전자 메일 메시지 검색 
     
-- Office 365에서 온-프레미스 사용자에 대 한 [클라우드 기반 사서함 검색](search-cloud-based-mailboxes-for-on-premises-users.md)
+- Microsoft 365에서 온-프레미스 사용자에 대 한 [클라우드 기반 사서함 검색](search-cloud-based-mailboxes-for-on-premises-users.md)
 
 - 검색 결과에 대 한 [키워드 통계를 확인](view-keyword-statistics-for-content-search.md) 하 고 필요한 경우 쿼리를 구체화 합니다. 
     
-- 조직에서 Office 365로 가져온 타사 [데이터 검색](use-content-search-to-search-third-party-data-that-was-imported.md) 
+- 조직에서 Microsoft 365로 가져온 타사 [데이터 검색](use-content-search-to-search-third-party-data-that-was-imported.md) 
     
 - 여러 검색에 대해 쿼리 및 콘텐츠 위치를 [대량으로 편집](bulk-edit-content-searches.md) 
     

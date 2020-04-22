@@ -15,12 +15,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: 이제 Microsoft 팀 채팅 및 채널에 DLP 정책을 적용할 수 있습니다. 이 문서를 읽으면 작동 방식에 대해 자세히 알아볼 수 있습니다.
-ms.openlocfilehash: 2c530279dde03f357386f11b9e9af5d68be5ee7f
-ms.sourcegitcommit: 1c445d68e54ca4249024ca4bb72460dd6fac0a2d
+ms.openlocfilehash: 290e1e7a7c3fd395c1f7e1739b08eba64c8d2d8d
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42170558"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43633057"
 ---
 # <a name="data-loss-prevention-and-microsoft-teams"></a>데이터 손실 방지 및 Microsoft 팀
 
@@ -67,7 +67,7 @@ ms.locfileid: "42170558"
 
 이 작업을 수행 하려면 DLP 정책을 편집할 수 있는 권한이 있는 역할을 할당 받아야 합니다. 자세한 내용은 [사용 권한을](data-loss-prevention-policies.md#permissions)참조 하십시오.
 
-1. Office 365 Security & 준수 센터 ([https://protection.office.com](https://protection.office.com))로 이동 하 여 로그인 합니다.
+1. 보안 & 준수 센터 ([https://protection.office.com](https://protection.office.com))로 이동 하 여 로그인 합니다.
 
 2. **데이터 손실 방지** > **정책을**선택 합니다.
 
@@ -87,7 +87,7 @@ ms.locfileid: "42170558"
 
 이 작업을 수행 하려면 DLP 정책을 편집할 수 있는 권한이 있는 역할을 할당 받아야 합니다. 자세한 내용은 [사용 권한을](data-loss-prevention-policies.md#permissions)참조 하십시오.
 
-1. Office 365 Security & 준수 센터 ([https://protection.office.com](https://protection.office.com))로 이동 하 여 로그인 합니다.
+1. 보안 & 준수 센터 ([https://protection.office.com](https://protection.office.com))로 이동 하 여 로그인 합니다.
 
 2. **데이터 손실 방지** > **정책을**선택 합니다.
 
@@ -105,7 +105,7 @@ ms.locfileid: "42170558"
 
 이 작업을 수행 하려면 DLP 정책을 편집할 수 있는 권한이 있는 역할을 할당 받아야 합니다. 자세한 내용은 [사용 권한을](data-loss-prevention-policies.md#permissions)참조 하십시오.
 
-1. Office 365 Security & 준수 센터 ([https://protection.office.com](https://protection.office.com))로 이동 하 여 로그인 합니다.
+1. 보안 & 준수 센터 ([https://protection.office.com](https://protection.office.com))로 이동 하 여 로그인 합니다.
 
 2. **데이터 손실 방지** > **정책** > 및**정책 만들기를**선택 합니다.
 

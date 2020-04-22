@@ -1,5 +1,5 @@
 ---
-title: Office 365에 대 한 고객 키 설정
+title: 고객 키 설정
 ms.author: krowley
 author: kccross
 manager: laurawi
@@ -12,17 +12,17 @@ search.appverid:
 - MET150
 ms.collection:
 - M365-security-compliance
-description: Exchange Online, 비즈니스용 Skype, SharePoint Online, 비즈니스용 OneDrive 및 팀 파일에 대 한 Office 365의 고객 키를 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: af3ade4ed411a390d1501d3f3fe15ba3111e14d3
-ms.sourcegitcommit: 7bb340f6b47378bcd1c6e770dc975931470bbc26
+description: Microsoft 365 for Exchange Online, 비즈니스용 Skype, SharePoint Online, 비즈니스용 OneDrive 및 팀 파일에 대 한 고객 키를 설정 하는 방법을 알아봅니다.
+ms.openlocfilehash: c9c02f697e04a5cd01ddce1546b6712091712025
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/10/2020
-ms.locfileid: "43225945"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634200"
 ---
-# <a name="set-up-customer-key-for-office-365"></a>Office 365에 대 한 고객 키 설정
+# <a name="set-up-customer-key"></a>고객 키 설정
 
-고객 키를 사용 하 여 조직의 암호화 키를 제어 하 고 Microsoft 데이터 센터의 휴지 상태에서 데이터를 암호화 하는 데 사용 하도록 Office 365를 구성 합니다. 즉, 고객 키를 사용 하 여 고객은 해당 키를 포함 하는 암호화 계층을 추가할 수 있습니다. 미사용 데이터에는 SharePoint Online 및 비즈니스용 OneDrive에 저장되어 있는 사서함과 파일에 저장된 Exchange Online 및 비즈니스용 Skype의 데이터를 포함합니다.
+고객 키를 사용 하 여 조직의 암호화 키를 제어 하 고 microsoft 365을 구성 하 여 Microsoft 데이터 센터의 휴지 상태에서 데이터를 암호화 합니다. 즉, 고객 키를 사용 하 여 고객은 해당 키를 포함 하는 암호화 계층을 추가할 수 있습니다. 미사용 데이터에는 SharePoint Online 및 비즈니스용 OneDrive에 저장되어 있는 사서함과 파일에 저장된 Exchange Online 및 비즈니스용 Skype의 데이터를 포함합니다.
 
 Office 365에 대해 고객 키를 사용 하려면 먼저 Azure를 설정 해야 합니다. 이 항목에서는 필요한 Azure 리소스를 만들고 구성 하기 위해 수행 해야 하는 단계를 설명 하 고 Office 365에서 고객 키를 설정 하는 단계를 제공 합니다. Azure 설치를 완료 한 후에는 조직의 사서함과 파일에 할당할 정책 및 키를 결정 합니다. 정책을 할당 하지 않을 사서함과 파일은 Microsoft에서 제어 및 관리 하는 암호화 정책을 사용 합니다. 고객 키에 대 한 자세한 내용을 보거나 일반적인 개요를 보려면 [Office 365에서 고객 키를 사용한 서비스 암호화](customer-key-overview.md)를 참조 하세요.
   
@@ -31,9 +31,7 @@ Office 365에 대해 고객 키를 사용 하려면 먼저 Azure를 설정 해�
   
 ## <a name="before-you-set-up-customer-key"></a>Customer 키를 설정 하기 전에
 
-시작 하기 전에 조직에 적합 한 라이선스를 보유 하 고 있는지 확인 합니다. Office 365에서 2020 년 4 월 1 일부 터 M365 E5, M365 E5 규격 및 M365 E5 Information Protection & 관리 Sku 365에 제공 됩니다. Office 365 고급 규정 준수 SKU가 더 이상 조달 새 라이선스를 사용할 수 없습니다. 기존 Office 365 고급 규정 준수 라이선스는 계속 지원 됩니다.
-
-이 항목의 개념과 절차를 이해 하려면 [Azure 키 보관소](https://docs.microsoft.com/azure/key-vault/) 설명서를 검토 하십시오. 또한 azure에서 사용 되는 용어 (예: [AZURE AD 테 넌 트](https://docs.microsoft.com/previous-versions/azure/azure-services/jj573650(v=azure.100)#what-is-an-azure-ad-tenant))를 익힙니다.
+시작 하기 전에 조직에 적합 한 라이선스를 보유 하 고 있는지 확인 합니다. Microsoft 365의 고객 키는 Office 365 E5 또는 Advanced 준수 SKU에 제공 됩니다. 이 항목의 개념과 절차를 이해 하려면 [Azure 키 보관소](https://docs.microsoft.com/azure/key-vault/) 설명서를 검토 하십시오. 또한 Azure에서 사용 되는 용어 (예: [테 넌 트](https://docs.microsoft.com/previous-versions/azure/azure-services/jj573650(v=azure.100)))에 익숙해지는 것이 좋습니다.
 
 FastTrack은 고객 키를 등록 하는 데 사용 되는 필수 테 넌 트 및 서비스 구성 정보를 수집 하는 데만 사용 됩니다. 고객 키 제공은 FastTrack을 통해 게시 되므로 사용자와 파트너가 모두 동일한 방법을 사용 하 여 필요한 정보를 제출할 수 있습니다. FastTrack을 사용 하면 제공 되는 데이터를 쉽게 보관할 수도 있습니다.
   
@@ -95,7 +93,7 @@ Azure Key Vault에서 이러한 작업을 완료 합니다. Exchange Online 및 
   
 ### <a name="create-two-new-azure-subscriptions"></a>두 개의 새 Azure 구독을 만듭니다.
 
-고객 키에는 두 개의 Azure 구독이 필요 합니다. 최상의 방법으로는 고객 키와 함께 사용할 새로운 Azure 구독을 만드는 것이 좋습니다. Azure Key Vault 키에는 동일한 AAD (Azure Active Directory) 테 넌 트의 응용 프로그램에 대해서만 권한을 부여할 수 있으며, DEPs가 할당 되는 Office 365 조직에 사용 되는 것과 동일한 Azure AD 테 넌 트를 사용 하 여 새 구독을 만들어야 합니다. 예를 들어 Office 365 조직에서 전역 관리자 권한이 있는 회사 또는 학교 계정을 사용 하는 경우 자세한 단계는 [Azure for](https://azure.microsoft.com/documentation/articles/sign-up-organization/)a a a a a a a a a a a as를 참조 하세요.
+고객 키에는 두 개의 Azure 구독이 필요 합니다. 최상의 방법으로는 고객 키와 함께 사용할 새로운 Azure 구독을 만드는 것이 좋습니다. Azure Key Vault 키에는 동일한 AAD (Azure Active Directory) 테 넌 트의 응용 프로그램에 대해서만 권한을 부여할 수 있으며, 조직에서 DEPs를 할당할 때 사용 하는 것과 동일한 Azure AD 테 넌 트를 사용 하 여 새 구독을 만들어야 합니다. 예를 들어 조직에서 전역 관리자 권한이 있는 회사 또는 학교 계정을 사용 합니다. 자세한 단계는 [Azure for](https://azure.microsoft.com/documentation/articles/sign-up-organization/)a a a a a a a a a a a as를 참조 하세요.
   
 > [!IMPORTANT]
 > 고객 키에는 각 DEP (데이터 암호화 정책)에 대 한 두 개의 키가 필요 합니다. 이를 위해서는 두 개의 Azure 구독을 만들어야 합니다. 조직의 개별 구성원이 각 구독에서 하나의 키를 구성 하는 것이 가장 좋은 방법입니다. 또한 이러한 Azure 구독은 Office 365의 암호화 키를 관리 하는 데에만 사용 해야 합니다. 이렇게 하면 운영자 중 한 명에 게 실수로 또는 악의적으로 삭제 되거나 자신이 담당 하는 키를 잘못 관리 하는 경우를 대비해 조직이 보호 됩니다. <br/> Azure Key Vault 리소스를 관리 하는 데에만 사용 되는 새 Azure 구독을 고객 키와 함께 사용 하도록 설정 하는 것이 좋습니다. 조직에 대해 만들 수 있는 Azure 구독 수에는 실질적인 제한이 없습니다. 이러한 모범 사례를 따르면 고객 키에서 사용 하는 리소스를 관리 하는 동안 인간 오류가 발생 하는 영향은 최소화할 수 있습니다.
@@ -106,7 +104,7 @@ Azure 단계를 완료 한 후에는 [Microsoft FastTrack 포털](https://fasttr
   
 고객 키를 정품 인증 하기 위한 제안을 제출 하려면 다음 단계를 완료 합니다.
   
-1. Office 365 조직에서 전역 관리자 권한이 있는 회사 또는 학교 계정을 사용 하 여 [Microsoft FastTrack 포털](https://fasttrack.microsoft.com/)에 로그인 합니다.
+1. 조직에서 전역 관리자 권한이 있는 회사 또는 학교 계정을 사용 하 여 [Microsoft FastTrack 포털](https://fasttrack.microsoft.com/)에 로그인 합니다.
 
 2. 로그인 한 후 **대시보드로**이동 합니다.
 
@@ -124,9 +122,9 @@ Azure 단계를 완료 한 후에는 [Microsoft FastTrack 포털](https://fasttr
 
 ### <a name="register-azure-subscriptions-to-use-a-mandatory-retention-period"></a>필수 보존 기간을 사용 하도록 Azure 구독 등록
 
-루트 암호화 키의 임시 또는 영구 손실은 매우 방해가 되거나 서비스 작업에 치명적이 될 수 있으며 데이터 손실이 발생할 수 있습니다. 이러한 이유로, 고객 키와 함께 사용 되는 리소스에는 강력한 보호가 필요 합니다. 고객 키와 함께 사용 되는 모든 Azure 리소스는 기본 구성 외에도 보호 메커니즘을 제공 합니다. 즉시 및 irrevocable 취소를 방지 하는 방식으로 Azure 구독에 태그를 지정 하거나 등록할 수 있습니다. 이를 필수 보존 기간 등록 이라고 합니다. 필수 보존 기간 동안 Azure 구독을 등록 하는 데 필요한 단계에 따라 Office 365 팀과 공동 작업이 필요 합니다. 이 프로세스는 영업일 이하의 근무일까지 소요 될 수 있습니다. 이전에는이를 "취소 안 함"이 라고도 합니다.
+루트 암호화 키의 임시 또는 영구 손실은 매우 방해가 되거나 서비스 작업에 치명적이 될 수 있으며 데이터 손실이 발생할 수 있습니다. 이러한 이유로, 고객 키와 함께 사용 되는 리소스에는 강력한 보호가 필요 합니다. 고객 키와 함께 사용 되는 모든 Azure 리소스는 기본 구성 외에도 보호 메커니즘을 제공 합니다. 즉시 및 irrevocable 취소를 방지 하는 방식으로 Azure 구독에 태그를 지정 하거나 등록할 수 있습니다. 이를 필수 보존 기간 등록 이라고 합니다. 필수 보존 기간 동안 Azure 구독을 등록 하는 데 필요한 단계에는 Microsoft 365 팀과 공동 작업이 필요 합니다. 이 프로세스는 영업일 이하의 근무일까지 소요 될 수 있습니다. 이전에는이를 "취소 안 함"이 라고도 합니다.
   
-Office 365 팀에 연락 하기 전에 고객 키와 함께 사용 하는 각 Azure 구독에 대해 다음 단계를 수행 해야 합니다. 시작 하기 전에 [Azure PowerShell Az](https://docs.microsoft.com/powershell/azure/new-azureps-module-az) 모듈이 설치 되어 있는지 확인 합니다.
+Microsoft 365 팀에 연락 하기 전에 고객 키와 함께 사용 하는 각 Azure 구독에 대해 다음 단계를 수행 해야 합니다. 시작 하기 전에 [Azure PowerShell Az](https://docs.microsoft.com/powershell/azure/new-azureps-module-az) 모듈이 설치 되어 있는지 확인 합니다.
   
 1. Azure PowerShell을 사용 하 여 로그인 합니다. 자세한 내용은 [Azure PowerShell을 사용 하 여 로그인](https://docs.microsoft.com/powershell/azure/authenticate-azureps)을 참조 하십시오.
 
@@ -169,7 +167,7 @@ Office 365 팀에 연락 하기 전에 고객 키와 함께 사용 하는 각 Az
 > [!IMPORTANT]
 > 프로덕션 데이터에 대해 Premium SKU 키 보관소 및 HSM으로 보호 된 키를 사용 하 고 테스트 및 유효성 검사를 위해 Standard SKU 키 보관소와 키만 사용 합니다.
   
-고객 키를 사용 하는 각 Office 365 서비스에 대해 사용자가 만든 두 가지 Azure 구독 각각에 키 자격 증명 모음을 만듭니다. 예를 들어 Exchange Online 및 비즈니스용 Skype 전용 또는 SharePoint Online 및 비즈니스용 OneDrive 전용의 경우에는 하나의 자격 증명 모음만 만듭니다. Exchange Online 및 SharePoint Online 둘 다에 대해 고객 키를 사용 하도록 설정 하기 위해 두 쌍의 키 자격 증명 모음을 만듭니다.
+고객 키를 사용 하는 각 Microsoft 365 서비스에 대해 사용자가 만든 두 Azure 구독 각각에 키 자격 증명 모음을 만듭니다. 예를 들어 Exchange Online 및 비즈니스용 Skype 전용 또는 SharePoint Online 및 비즈니스용 OneDrive 전용의 경우에는 하나의 자격 증명 모음만 만듭니다. Exchange Online 및 SharePoint Online 둘 다에 대해 고객 키를 사용 하도록 설정 하기 위해 두 쌍의 키 자격 증명 모음을 만듭니다.
   
 자격 증명 모음을 연결할 데이터 암호화 정책의 용도를 반영 하는 키 보관소에 대 한 명명 규칙을 사용 합니다. 명명 규칙 추천을 보려면 아래에서 모범 사례 섹션을 참조 하세요.
   
@@ -178,7 +176,7 @@ Office 365 팀에 연락 하기 전에 고객 키와 함께 사용 하는 각 Az
 또한 키 보관소에는 저장소 용량 (매우 작음)과 키 보관소 로깅이 필요 하기 때문에 (키 보관소를 만드는 경우) 저장 된 데이터도 생성 해야 하므로 Azure 리소스 그룹을 만들어야 합니다. Microsoft는 별도의 관리자를 사용 하 여 각 리소스 그룹을 관리할 것을 권장 하 고, 관리를 모든 관련 고객 키 리소스를 관리 하는 관리자 집합과 맞추고 있습니다.
   
 > [!IMPORTANT]
-> 가용성을 최대화 하려면 키 보관소가 Office 365 서비스에 가까운 지역에 있어야 합니다. 예를 들어 Exchange Online 조직이 북미에 있는 경우 북미에 키 자격 증명 모음을 배치 합니다. Exchange Online 조직이 유럽에 있는 경우 키 보관소를 유럽에 배치 합니다.<br/>키 자격 증명에 대 한 일반적인 접두사를 사용 하 고, 키 보관소와 키의 사용 및 범위 약어를 포함 하 고 (예: 보관소가 있는 Contoso SharePoint 서비스의 경우에는 해당 하는 이름 쌍이 Contoso-O365SP-VaultA1 및 Contoso-O365SP-VaultA2입니다. 자격 증명 이름은 Azure 내의 전역적으로 고유한 문자열이 되므로 필요한 이름이 다른 Azure 고객의 요청을 받아야 하는 경우에 대비 하 여 원하는 이름의 변형을 시도해 야 할 수 있습니다. 7 월 2017 볼트 이름은 변경할 수 없으므로 설정 계획을 수립 하 고 두 번째 사용자를 사용 하 여 계획이 올바르게 실행 되는지 확인 하는 것이 좋습니다.<br/>가능 하면 페어링되지 않은 지역에 자격 증명 모음을 만듭니다. 쌍을 이룬 Azure 지역에서 서비스 장애 도메인 별로 고가용성을 제공 합니다. 따라서 지역 쌍을 서로의 백업 지역으로 간주할 수 있습니다. 즉, 한 지역에 배치 된 Azure 리소스가 연결 된 지역을 통과 하는 내결함성을 자동으로 획득 합니다. 이러한 이유 때문에 지역이 연결 된 데이터 암호화 정책에서 사용 되는 두 개의 보관소에 대 한 영역을 선택 하는 것은 사용 중인 사용 가능한 영역의 총 두 영역만을 의미 합니다. 대부분의 지역에는 두 지역이 있으므로 아직 연결 되지 않은 영역을 선택할 수는 없습니다. 가능 하면 데이터 암호화 정책에 사용 되는 두 개의 보관소에 대해 쌍이 없는 두 개의 영역을 선택 합니다. 이는 가용성의 총 4 지역에서 혜택을 제공 합니다. 자세한 내용은 [Business 연속성 및 재해 복구 (BCDR):](https://docs.microsoft.com/azure/best-practices-availability-paired-regions) 현재 지역 쌍 목록의 Azure 연결 된 지역을 참조 하세요.
+> 가용성을 최대화 하기 위해 주요 자격 증명은 Microsoft 365 서비스에 가까운 지역에 있어야 합니다. 예를 들어 Exchange Online 조직이 북미에 있는 경우 북미에 키 자격 증명 모음을 배치 합니다. Exchange Online 조직이 유럽에 있는 경우 키 보관소를 유럽에 배치 합니다.<br/>키 자격 증명에 대 한 일반적인 접두사를 사용 하 고, 키 보관소와 키의 사용 및 범위 약어를 포함 하 고 (예: 보관소가 있는 Contoso SharePoint 서비스의 경우에는 해당 하는 이름 쌍이 Contoso-O365SP-VaultA1 및 Contoso-O365SP-VaultA2입니다. 자격 증명 이름은 Azure 내의 전역적으로 고유한 문자열이 되므로 필요한 이름이 다른 Azure 고객의 요청을 받아야 하는 경우에 대비 하 여 원하는 이름의 변형을 시도해 야 할 수 있습니다. 7 월 2017 볼트 이름은 변경할 수 없으므로 설정 계획을 수립 하 고 두 번째 사용자를 사용 하 여 계획이 올바르게 실행 되는지 확인 하는 것이 좋습니다.<br/>가능 하면 페어링되지 않은 지역에 자격 증명 모음을 만듭니다. 쌍을 이룬 Azure 지역에서 서비스 장애 도메인 별로 고가용성을 제공 합니다. 따라서 지역 쌍을 서로의 백업 지역으로 간주할 수 있습니다. 즉, 한 지역에 배치 된 Azure 리소스가 연결 된 지역을 통과 하는 내결함성을 자동으로 획득 합니다. 이러한 이유 때문에 지역이 연결 된 데이터 암호화 정책에서 사용 되는 두 개의 보관소에 대 한 영역을 선택 하는 것은 사용 중인 사용 가능한 영역의 총 두 영역만을 의미 합니다. 대부분의 지역에는 두 지역이 있으므로 아직 연결 되지 않은 영역을 선택할 수는 없습니다. 가능 하면 데이터 암호화 정책에 사용 되는 두 개의 보관소에 대해 쌍이 없는 두 개의 영역을 선택 합니다. 이는 가용성의 총 4 지역에서 혜택을 제공 합니다. 자세한 내용은 [Business 연속성 및 재해 복구 (BCDR):](https://docs.microsoft.com/azure/best-practices-availability-paired-regions) 현재 지역 쌍 목록의 Azure 연결 된 지역을 참조 하세요.
   
 ### <a name="assign-permissions-to-each-key-vault"></a>각 키 자격 증명 모음에 사용 권한 할당
 
@@ -189,7 +187,7 @@ Office 365 팀에 연락 하기 전에 고객 키와 함께 사용 하는 각 Az
   > [!IMPORTANT]
   > 키 자격 증명 모음 관리자에 게 할당 된 사용 권한 집합에는 키를 삭제할 수 있는 권한이 포함 되어 있지 않습니다. 이는 의도적인 것이 고 중요 한 방법입니다. 일반적으로 암호화 키 삭제는 데이터를 영구적으로 소멸 하기 때문에 수행 되지 않습니다. 주요 자격 증명 모음 관리자에 게 기본적으로이 사용 권한을 부여 하지 않는 것이 좋습니다. 대신 주요 자격 증명 참가자에 대해이를 예약 하 고, 결과에 대 한 확실 한 이해가 이해 되 면 짧은 기간 동안 관리자 에게만 할당 합니다.
   
-  Office 365 조직의 사용자에 게 이러한 권한을 할당 하려면 Azure PowerShell을 사용 하 여 Azure 구독에 로그인 합니다. 자세한 내용은 [Azure PowerShell을 사용 하 여 로그인](https://docs.microsoft.com/powershell/azure/authenticate-azureps)을 참조 하십시오.
+  조직의 사용자에 게 이러한 사용 권한을 할당 하려면 Azure PowerShell을 사용 하 여 Azure 구독에 로그인 합니다. 자세한 내용은 [Azure PowerShell을 사용 하 여 로그인](https://docs.microsoft.com/powershell/azure/authenticate-azureps)을 참조 하십시오.
 
 - AzKeyVaultAccessPolicy cmdlet을 실행 하 여 필요한 권한을 할당 합니다.
 
@@ -205,7 +203,7 @@ Office 365 팀에 연락 하기 전에 고객 키와 함께 사용 하는 각 Az
 
 - Azure 키 자격 증명 모음 자체에 대 한 사용 권한을 변경할 수 있는 **키 보관소 참가자** 직원은 팀에 탈퇴 하거나 참가할 때 이러한 권한을 변경 해야 하며, 키 보관소 관리자가 키를 삭제 하거나 복원 하는 데 필요한 권한을 갖는 것이 아주 드문 경우입니다. 이 키 보관소 참가자 집합에는 해당 키 자격 증명 모음에 대 한 **참가자** 역할이 부여 되어야 합니다. Azure Resource Manager를 사용 하 여이 역할을 할당할 수 있습니다. 자세한 단계는 [역할 기반 액세스 제어를 사용 하 여 Azure 구독 리소스에 대 한 액세스를 관리 하](https://docs.microsoft.com/azure/active-directory/role-based-access-control-configure)는 방법을 참조 하세요. 구독을 만드는 관리자는이 액세스 권한 뿐만 아니라 다른 관리자에 게 참가자 역할을 할당할 수 있는 권한도 제공 됩니다.
 
-- Exchange Online 및 비즈니스용 Skype와 함께 고객 키를 사용 하려는 경우에는 Office 365에 대 한 권한을 부여 하 여 Exchange Online 및 비즈니스용 Skype를 대신 하 여 키 자격 증명 모음을 사용 해야 합니다. 마찬가지로, SharePoint Online 및 비즈니스용 OneDrive에서 고객 키를 사용 하려는 경우에는 Office 365에 대 한 권한을 추가 하 여 SharePoint Online 및 비즈니스용 OneDrive를 대신 하 여 키 자격 증명 모음을 사용 해야 합니다. Office 365에 대 한 사용 권한을 부여 하려면 다음 구문을 사용 하 여 **AzKeyVaultAccessPolicy** cmdlet을 실행 합니다. 
+- Exchange Online 및 비즈니스용 Skype에서 고객 키를 사용 하려는 경우에는 Microsoft 365에 대 한 권한을 부여 하 여 Exchange Online 및 비즈니스용 Skype를 대신 하 여 키 자격 증명 모음을 사용 해야 합니다. 마찬가지로, SharePoint Online 및 비즈니스용 OneDrive에서 고객 키를 사용 하려는 경우에는 Microsoft 365에 대 한 권한을 추가 하 여 SharePoint Online 및 비즈니스용 OneDrive를 대신 하 여 키 자격 증명 모음을 사용 해야 합니다. Microsoft 365에 대 한 사용 권한을 부여 하려면 다음 구문을 사용 하 여 **AzKeyVaultAccessPolicy** cmdlet을 실행 합니다. 
 
    ```powershell
    Set-AzKeyVaultAccessPolicy -VaultName <vault name> -PermissionsToKeys wrapKey,unwrapKey,get -ServicePrincipalName <Office 365 appID>
@@ -237,7 +235,7 @@ Office 365 팀에 연락 하기 전에 고객 키와 함께 사용 하는 각 Az
   
 키 자격 증명 모음에서 일시 삭제를 사용 하도록 설정 하려면 다음 단계를 완료 합니다.
   
-1. Windows PowerShell을 사용 하 여 Azure 구독에 로그인 합니다. 자세한 내용은 [Azure PowerShell을 사용 하 여 로그인](https://docs.microsoft.com/powershell/azure/authenticate-azureps)을 참조 하십시오.
+1. Windows Powershell을 사용 하 여 Azure 구독에 로그인 합니다. 자세한 내용은 [Azure PowerShell을 사용 하 여 로그인](https://docs.microsoft.com/powershell/azure/authenticate-azureps)을 참조 하십시오.
 
 2. [AzKeyVault](https://docs.microsoft.com/powershell/module/az.keyvault/get-azkeyvault) cmdlet을 실행 합니다. 이 예에서 *보관소 이름은* 소프트 삭제를 활성화할 수 있는 키 보관소의 이름입니다.
 
@@ -293,7 +291,7 @@ Add-AzKeyVaultKey -VaultName Contoso-O365EX-NA-VaultA1 -Name Contoso-O365EX-NA-V
   
 ### <a name="check-the-recovery-level-of-your-keys"></a>키의 복구 수준 확인
 
-Office 365을 사용 하려면 Azure 키 자격 증명 모음 구독이 취소 되지 않도록 설정 되 고, 고객 키에 사용 되는 키에 소프트 삭제가 사용 되도록 되어 있어야 합니다. 키의 복구 수준을 확인 하 여이를 확인할 수 있습니다.
+Microsoft 365에서는 Azure 키 자격 증명 모음 구독이 취소 되지 않도록 설정 되 고, 고객 키에 사용 되는 키에 소프트 삭제가 사용 되도록 되어 있어야 합니다. 키의 복구 수준을 확인 하 여이를 확인할 수 있습니다.
   
 키의 복구 수준을 확인 하려면 Azure PowerShell에서 다음과 같이 AzKeyVaultKey cmdlet을 실행 합니다.
   
@@ -367,7 +365,7 @@ Set-AzKeyVaultAccessPolicy -VaultName Contoso-O365SP-NA-VaultA1
 Get-AzKeyVaultKey -VaultName <vault name>
 ```
 
-만료 된 키는 고객 키에서 사용할 수 없으며 만료 된 키로 시도한 작업은 실패 하 고 서비스 중단으로 인해 발생할 수도 있습니다. 고객 키와 함께 사용 되는 키에는 만료 날짜가 없을 것을 적극 권장 합니다. 만료 날짜를 설정한 후에는 제거할 수 없지만 다른 날짜로 변경할 수는 있습니다. 만료 날짜가 설정 된 키를 사용 해야 하는 경우 만료 값을 12/31/9999로 변경 합니다. 만료 날짜가 12/31/9999 이외의 날짜로 설정 된 키는 Office 365 유효성 검사를 통과 하지 못합니다.
+만료 된 키는 고객 키에서 사용할 수 없으며 만료 된 키로 시도한 작업은 실패 하 고 서비스 중단으로 인해 발생할 수도 있습니다. 고객 키와 함께 사용 되는 키에는 만료 날짜가 없을 것을 적극 권장 합니다. 만료 날짜를 설정한 후에는 제거할 수 없지만 다른 날짜로 변경할 수는 있습니다. 만료 날짜가 설정 된 키를 사용 해야 하는 경우 만료 값을 12/31/9999로 변경 합니다. 만료 날짜가 12/31/9999 이외의 날짜로 설정 된 키는 Microsoft 365 유효성 검사를 통과 하지 못합니다.
   
 12/31/9999 이외의 값으로 설정 된 만료 날짜를 변경 하려면 다음과 같이 [AzKeyVaultKey](https://docs.microsoft.com/powershell/module/az.keyvault/update-azkeyvaultkey) cmdlet을 실행 합니다.
   
@@ -396,13 +394,13 @@ Exchange Online 및 비즈니스용 Skype에 대 한 고객 키를 설정 하려
   
 ### <a name="create-a-data-encryption-policy-dep-for-use-with-exchange-online-and-skype-for-business"></a>Exchange Online 및 비즈니스용 Skype에서 사용 하기 위한 DEP (데이터 암호화 정책) 만들기
 
-DEP는 Azure Key Vault에 저장 된 키 집합과 연결 됩니다. Office 365에서 사서함에 DEP를 할당 합니다. 그런 다음 Office 365에서는 정책에 식별 된 키를 사용 하 여 사서함을 암호화 합니다. DEP를 만들려면 이전에 가져온 키 보관소 Uri가 필요 합니다. 지침은 [각 Azure 키 자격 증명 모음 키의 URI 가져오기를](#obtain-the-uri-for-each-azure-key-vault-key) 참조 하세요.
+DEP는 Azure Key Vault에 저장 된 키 집합과 연결 됩니다. Microsoft 365에서 사서함에 DEP를 할당 합니다. Microsoft 365에서는 정책에 식별 된 키를 사용 하 여 사서함을 암호화 합니다. DEP를 만들려면 이전에 가져온 키 보관소 Uri가 필요 합니다. 지침은 [각 Azure 키 자격 증명 모음 키의 URI 가져오기를](#obtain-the-uri-for-each-azure-key-vault-key) 참조 하세요.
   
 항상! DEP를 만들 때 서로 다른 두 Azure 키 자격 증명 모음에 있는 두 개의 키를 지정 합니다. 이러한 키가 지리적 중복을 보장 하기 위해 별도의 두 Azure 지역에 위치 하는지 확인 합니다.
   
 DEP를 만들려면 다음 단계를 수행 합니다.
   
-1. 로컬 컴퓨터에서 Office 365 조직에 전역 관리자 권한이 있는 회사 또는 학교 계정을 사용 하 여 Windows PowerShell을 열고 다음 명령을 실행 하 여 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps) 합니다.
+1. 로컬 컴퓨터에서 조직에 전역 관리자 권한이 있는 회사 또는 학교 계정을 사용 하 여 Windows PowerShell을 열고 다음 명령을 실행 하 여 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps) 합니다.
 
    ```powershell
    $UserCredential = Get-Credential
@@ -444,7 +442,7 @@ DEP를 만들려면 다음 단계를 수행 합니다.
 
 ### <a name="assign-a-dep-to-a-mailbox"></a>사서함에 DEP 할당
 
-사서함 cmdlet을 사용 하 여 사서함에 DEP를 할당 합니다. 정책을 할당 하 고 나면 Office 365에서 DEP에 지정 된 키를 사용 하 여 사서함을 암호화할 수 있습니다.
+사서함 cmdlet을 사용 하 여 사서함에 DEP를 할당 합니다. 정책을 할당 하면 Microsoft 365에서 DEP에 지정 된 키로 사서함을 암호화할 수 있습니다.
   
 ```powershell
 Set-Mailbox -Identity <MailboxIdParameter> -DataEncryptionPolicy <PolicyName>
@@ -474,13 +472,13 @@ SharePoint Online, 비즈니스용 OneDrive 및 팀 파일에 대 한 고객 키
   
 ### <a name="create-a-data-encryption-policy-dep-for-each-sharepoint-online-and-onedrive-for-business-geo"></a>각 SharePoint Online 및 비즈니스용 OneDrive 지역에 대 한 DEP (데이터 암호화 정책)를 만듭니다.
 
-DEP를 Azure Key Vault에 저장 된 키 집합에 연결 합니다. 한 지리적 위치에 있는 모든 데이터에 DEP를 적용 합니다 (geo 라고도 함). Office 365의 다중 지역 기능을 사용 하는 경우, 지리적으로 서로 다른 키를 사용 하는 기능을 사용 하 여 각 지역에 하나의 DEP를 만들 수 있습니다. 다중 geo를 사용 하지 않는 경우 Office 365 조 직에서 SharePoint Online, 비즈니스용 OneDrive 및 팀 파일에 사용할 DEP를 만들 수 있습니다. Office 365은 DEP에서 식별 된 키를 사용 하 여 해당 지역에서 데이터를 암호화 합니다. DEP를 만들려면 이전에 가져온 키 보관소 Uri가 필요 합니다. 지침은 [각 Azure 키 자격 증명 모음 키의 URI 가져오기를](#obtain-the-uri-for-each-azure-key-vault-key) 참조 하세요.
+DEP를 Azure Key Vault에 저장 된 키 집합에 연결 합니다. 한 지리적 위치에 있는 모든 데이터에 DEP를 적용 합니다 (geo 라고도 함). Office 365의 다중 지역 기능을 사용 하는 경우, 지리적으로 서로 다른 키를 사용 하는 기능을 사용 하 여 각 지역에 하나의 DEP를 만들 수 있습니다. 다중 geo를 사용 하지 않는 경우에는 조직에서 SharePoint Online, 비즈니스용 OneDrive 및 팀 파일에 사용할 DEP를 하나씩 만들 수 있습니다. Microsoft 365는 DEP에서 식별 된 키를 사용 하 여 해당 지역에서 데이터를 암호화 합니다. DEP를 만들려면 이전에 가져온 키 보관소 Uri가 필요 합니다. 지침은 [각 Azure 키 자격 증명 모음 키의 URI 가져오기를](#obtain-the-uri-for-each-azure-key-vault-key) 참조 하세요.
   
 항상! DEP를 만들 때 서로 다른 두 Azure 키 자격 증명 모음에 있는 두 개의 키를 지정 합니다. 이러한 키가 지리적 중복을 보장 하기 위해 별도의 두 Azure 지역에 위치 하는지 확인 합니다.
   
 DEP를 만들려면 Windows PowerShell을 사용 하 여 SharePoint Online에 원격으로 연결 해야 합니다.
   
-1. 로컬 컴퓨터에서 Office 365 조직에 전역 관리자 권한이 있는 회사 또는 학교 계정을 사용 하 여 [SharePoint Online Powershell에 연결](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps)합니다.
+1. 로컬 컴퓨터에서 조직에 전역 관리자 권한이 있는 회사 또는 학교 계정을 사용 하 여 [SharePoint Online Powershell에 연결](https://docs.microsoft.com/powershell/sharepoint/sharepoint-online/connect-sharepoint-online?view=sharepoint-ps)합니다.
 
 2. Microsoft SharePoint Online 관리 셸에서 다음과 같이 SPODataEncryptionPolicy cmdlet을 실행 합니다.
 
@@ -496,12 +494,12 @@ DEP를 만들려면 Windows PowerShell을 사용 하 여 SharePoint Online에 �
 
 ## <a name="related-articles"></a>관련 문서
 
-- [Office 365에 대 한 고객 키를 사용한 서비스 암호화](customer-key-overview.md)
+- [고객 키를 사용한 서비스 암호화](customer-key-overview.md)
 
-- [Office 365에 대 한 고객 키 관리](customer-key-manage.md)
+- [고객 키 관리](customer-key-manage.md)
 
 - [고객 키 또는 가용성 키 롤 또는 회전](customer-key-availability-key-roll.md)
 
 - [가용성 키에 대 한 자세한 정보](customer-key-availability-key-understand.md)
 
-- [Office 365 서비스 암호화](office-365-service-encryption.md)
+- [서비스 암호화](office-365-service-encryption.md)

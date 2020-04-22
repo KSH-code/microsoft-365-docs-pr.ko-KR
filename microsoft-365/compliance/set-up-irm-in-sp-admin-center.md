@@ -17,28 +17,28 @@ search.appverid:
 - MET150
 ms.assetid: 239ce6eb-4e81-42db-bf86-a01362fed65c
 description: Sharepoint 목록 및 문서 라이브러리를 보호 하기 위해 Microsoft Azure Active Directory RMS (권한 관리 서비스)를 통해 SharePoint Online IRM을 사용 하는 방법을 알아봅니다.
-ms.openlocfilehash: 3705c08b64ffbf719dbce91396c86976db14fea0
-ms.sourcegitcommit: dcea75af89f5f80ec6670346ee176407e043de54
+ms.openlocfilehash: c981ceefde2cedb5f6c8731fd9a5ad9318174120
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "42610625"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634780"
 ---
 # <a name="set-up-information-rights-management-irm-in-sharepoint-admin-center"></a>Set up Information Rights Management (IRM) in SharePoint admin center
 
 ## <a name="introduction"></a>소개
 
-SharePoint Online 내에서 IRM 보호는 목록 및 라이브러리 수준의 파일에 적용 됩니다. 조직에서 IRM 보호를 사용 하려면 먼저 권한 관리를 설정 해야 합니다. IRM은 azure Information Protection의 Azure 권한 관리 서비스에 의존 하 여 사용 제한을 암호화 및 할당 합니다. 일부 Office 365 계획에는 Azure 권한 관리 등이 포함 됩니다. 자세한 내용은 [Office 응용 프로그램 및 서비스에서 Azure 권한 관리를 지 원하는 방법을](https://docs.microsoft.com/azure/information-protection/understand-explore/office-apps-services-support)읽어 보세요.
+SharePoint Online 내에서 IRM 보호는 목록 및 라이브러리 수준의 파일에 적용 됩니다. 조직에서 IRM 보호를 사용 하려면 먼저 권한 관리를 설정 해야 합니다. IRM은 azure Information Protection의 Azure 권한 관리 서비스에 의존 하 여 사용 제한을 암호화 및 할당 합니다. 일부 Microsoft 365 계획에는 Azure 권한 관리 등이 포함 됩니다. 자세한 내용은 [Office 응용 프로그램 및 서비스에서 Azure 권한 관리를 지 원하는 방법을](https://docs.microsoft.com/azure/information-protection/understand-explore/office-apps-services-support)읽어 보세요.
   
 ## <a name="turn-on-irm-service-using-sharepoint-admin-center"></a>SharePoint 관리 센터를 사용 하 여 IRM 서비스 설정
 
-조직에서 SharePoint 목록 및 라이브러리를 IRM으로 보호 하기 전에 먼저 조직에 대 한 권한 관리 서비스를 활성화 해야 합니다. 자세한 내용은 [Azure 권한 관리 활성화](https://docs.microsoft.com/information-protection/deploy-use/activate-service)를 참조 하세요. 권한 관리 서비스를 사용 하도록 설정 하려면 Office 365 전역 관리자 권한이 있는 회사 또는 학교 계정을 사용 해야 합니다. 그렇지 않으면 SharePoint Online에서 IRM 기능을 사용할 수 없게 됩니다.
+조직에서 SharePoint 목록 및 라이브러리를 IRM으로 보호 하기 전에 먼저 조직에 대 한 권한 관리 서비스를 활성화 해야 합니다. 자세한 내용은 [Azure 권한 관리 활성화](https://docs.microsoft.com/information-protection/deploy-use/activate-service)를 참조 하세요. 권한 관리 서비스를 사용 하도록 설정 하려면 전역 관리자 권한이 있는 회사 또는 학교 계정을 사용 해야 합니다. 그렇지 않으면 SharePoint Online에서 IRM 기능을 사용할 수 없게 됩니다.
   
 권한 관리 서비스를 활성화 한 후 SharePoint 관리 센터에 로그인 하 여 IRM을 설정 합니다.
   
-1. 전역 관리자 또는 SharePoint 관리자 Office 365에 로그인합니다.
+1. 전역 관리자 또는 SharePoint 관리자로 로그인 합니다.
     
-2. 왼쪽 위에서 앱 시작 관리자 아이콘 ![The app launcher icon in Office 365](../media/e5aee650-c566-4100-aaad-4cc2355d909f.png)을 선택하고 **관리자** 를 선택하여 Microsoft 365 관리 센터를 엽니다. (관리자 타일이 표시되지 않는다면 조직에서 Office 365 관리자 권한을 주지 않아서 그런 것입니다.) 
+2. 왼쪽 위에서 앱 시작 관리자 아이콘 ![The app launcher icon in Office 365](../media/e5aee650-c566-4100-aaad-4cc2355d909f.png)을 선택하고 **관리자** 를 선택하여 Microsoft 365 관리 센터를 엽니다. 관리 타일이 표시 되지 않으면 조직에서 관리자 권한이 없는 것입니다. 
     
 3. 왼쪽 창에서 **관리 센터** \> **SharePoint**를 선택 합니다.
     
@@ -57,7 +57,7 @@ IRM 설정을 새로 고치면 사이트 소유자가 SharePoint 목록 및 문�
   
 브라우저에서 Office를 사용 하 여 IRM 사용 라이브러리에서는 문서를 만들거나 편집할 수 없습니다. 대신 한 번에 한 명의 사용자가 IRM으로 암호화 된 파일을 다운로드 하 고 편집할 수 있습니다. 체크 인 및 체크 아웃을 사용 하 여 *공동 작성* 을 관리 하거나 여러 사용자에 대해 제작 합니다. 
   
-IRM으로 보호 된 라이브러리에서 PDF 파일을 다운로드 하면 Office 365에서 보호 된 PDF 파일을 만듭니다. 파일 확장명은 변경 되지 않지만 파일은 보호 됩니다. 이 파일을 보려면 Azure Information Protection 뷰어, 전체 Azure Information Protection 클라이언트 또는 보호 된 PDF 파일 보기를 지 원하는 다른 응용 프로그램이 필요 합니다. 
+IRM으로 보호 된 라이브러리에서 PDF 파일을 다운로드 하면 Microsoft 365에서 보호 된 PDF 파일을 만듭니다. 파일 확장명은 변경 되지 않지만 파일은 보호 됩니다. 이 파일을 보려면 Azure Information Protection 뷰어, 전체 Azure Information Protection 클라이언트 또는 보호 된 PDF 파일 보기를 지 원하는 다른 응용 프로그램이 필요 합니다. 
   
 SharePoint Online에서는 다음과 같은 파일 형식에 대 한 암호화를 지원 합니다.
   

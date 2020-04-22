@@ -13,12 +13,12 @@ ms.collection:
 - SPO_Content
 ms.custom: ''
 description: 조직 전체에서 SharePoint를 계획하고 배포하며 가치를 창출하는 프로세스를 안내합니다.
-ms.openlocfilehash: cb0cf16df328d667d796008ac7cabfc98c21ad17
-ms.sourcegitcommit: 237589a0c8a24510e5c8f3b8b4747d944ad0afbf
+ms.openlocfilehash: ee2c5592015361a678785cb8e4aaad9074c5d804
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "39886325"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636919"
 ---
 # <a name="deploy-sharepoint-and-onedrive-for-microsoft-365-enterprise"></a>Microsoft 365 Enterprise용 SharePoint 및 OneDrive 배포
 
@@ -53,7 +53,7 @@ SharePoint는 다양한 용도로 사용할 수 있습니다. 비즈니스 요�
 
 시나리오 및 기능 목록은 [SharePoint](https://products.office.com/sharepoint/collaboration )를 참조하세요.
 
-다음과 같은 비즈니스 핵심 요소로 조직의 요구를 처리할 수 있습니다.
+다음과 같은 비즈니스 핵심 요소로 조직에 필요한 일을 처리할 수 있습니다.
 
 |||
 |:-----|:-----|
@@ -93,8 +93,8 @@ Sharepoint의 출시를 준비하려면 [Migrate to SharePoint](https://docs.mic
 
 SharePoint의 보안을 보다 잘 이해하려면 다음 리소스를 검토하세요.
 
--   [SharePoint 및 OneDrive가 클라우드에서 데이터를 보호하는 방법](https://docs.microsoft.com/sharepoint/safeguarding-your-data)
--   [OneDrive 및 SharePoint의 데이터 암호화](https://docs.microsoft.com/microsoft-365/compliance/data-encryption-in-odb-and-spo)
+-     [SharePoint 및 OneDrive가 클라우드에서 데이터를 보호하는 방법](https://docs.microsoft.com/sharepoint/safeguarding-your-data)
+-     [OneDrive 및 SharePoint의 데이터 암호화](https://docs.microsoft.com/microsoft-365/compliance/data-encryption-in-odb-and-spo)
 
 #### <a name="result"></a>결과
 
@@ -155,8 +155,8 @@ SharePoint를 통해 비즈니스 그룹이 운영되고 변경 관리 자료가
 
 다음은 몇 가지 추천 활동입니다.
 
-- [Office 365의 성공 요인](https://aka.ms/successfactors)을 통해 클라우드 서비스 도입에 대한 일반적인 모범 사례를 살펴봅니다. 
-- [Office 365 활동 보고서](https://docs.microsoft.com/office365/admin/activity-reports/activity-reports)를 통해 조직 전체의 Office 365 서비스 사용을 이해합니다. 조직의 Office 365 전역 관리자에게 활동 보고서에 액세스할 수 있도록 사용자 계정에 보고서 읽기 권한자 권한을 부여해 달라고 요청합니다(Office 365 전역 관리자가 아닌 경우).
+- [Microsoft 365의 성공 요인](https://aka.ms/successfactors)을 통해 클라우드 서비스 도입에 대한 일반적인 모범 사례를 살펴봅니다. 
+- [Microsoft 365 관리센터 보고서](https://docs.microsoft.com/office365/admin/activity-reports/activity-reports)를 통해 조직 전체의 서비스 사용을 이해합니다. 조직의 전역 관리자가 아닌 경우 전역 관리자에게 활동 보고서에 엑세스 할 수 있도록 사용자 계정에 보고서 읽기 권한을 부여해 달라고 요청합니다.
 - SharePoint를 사용한 후 사용자가 제공한 문제와 사용자 의견을 확인하기 위해 사용자 의견 장소(중앙 Teams 팀 또는 Yammer의 공개 채널)을 모니터링합니다. 사용자의 불편을 방지하고 배포에 대한 지원을 보여 주기 위해 질문과 문제를 가능한 한 신속하게 해결합니다.
 - 각 비즈니스 그룹에서 챔피언를 식별하고 양성하여 SharePoint를 사용할 때 이들의 성과와 모범 사례를 강조합니다. 조직에 성공을 반영하여 프로젝트 성공 및 도입을 보여줍니다. 비즈니스 그룹 내 기술 리더의 지지는 경영진과 동료에게 강력한 영향을 줄 수 있습니다.
 

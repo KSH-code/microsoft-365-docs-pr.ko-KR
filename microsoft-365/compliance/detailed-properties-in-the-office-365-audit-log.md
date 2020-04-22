@@ -1,5 +1,5 @@
 ---
-title: Office 365 감사 로그의 자세한 속성
+title: 감사 로그의 자세한 속성
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -17,26 +17,26 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: ce004100-9e7f-443e-942b-9b04098fcfc3
-description: Office 365 감사 로그 레코드에 포함 된 추가 속성에 대 한 설명입니다.
-ms.openlocfilehash: 28056cc6f21d0fbb4a90a455211c3fc368e3cd5e
-ms.sourcegitcommit: 8959701cf009068b40da2757b4a61da61d5c166b
+description: 감사 로그 레코드에 포함 된 추가 속성에 대 한 설명입니다.
+ms.openlocfilehash: 7ebeaa46e66f68b2a2e6c0e158240f3fe7678662
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43207177"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43633463"
 ---
-# <a name="detailed-properties-in-the-office-365-audit-log"></a>Office 365 감사 로그의 자세한 속성
+# <a name="detailed-properties-in-the-audit-log"></a>감사 로그의 자세한 속성
 
-보안 & 준수 센터에서 감사 로그 검색 결과를 내보낼 때 검색 조건을 충족 하는 모든 결과를 다운로드할 수 있는 옵션이 있습니다. **감사 로그 검색** 페이지에서 **Export results** \> **모든 결과 다운로드** 를 선택 하 여이 작업을 수행 합니다. 자세한 내용은 [Office 365에서 감사 로그 검색](search-the-audit-log-in-security-and-compliance.md)을 참조 하세요.
+보안 & 준수 센터에서 감사 로그 검색 결과를 내보낼 때 검색 조건을 충족 하는 모든 결과를 다운로드할 수 있는 옵션이 있습니다. **감사 로그 검색** 페이지에서 **Export results** \> **모든 결과 다운로드** 를 선택 하 여이 작업을 수행 합니다. 자세한 내용은 [Search the audit log](search-the-audit-log-in-security-and-compliance.md)을 참조 하십시오.
   
- 감사 로그 검색에 대 한 모든 결과를 내보낼 때 Office 365 통합 감사 로그의 원시 데이터는 로컬 컴퓨터에 다운로드 되는 CSV (쉼표로 구분 된 값) 파일로 복사 됩니다. 이 파일에는 **Auditdata**라는 열에 있는 각 감사 레코드의 추가 정보가 포함 됩니다. 이 열에는 감사 로그 레코드의 여러 속성에 대 한 다중 값 속성이 포함 되어 있습니다. 이 다중 값 속성의 각 **속성: 값** 쌍은 쉼표로 구분 됩니다. 
+ 감사 로그 검색에 대 한 모든 결과를 내보낼 때 통합 된 감사 로그의 원시 데이터는 로컬 컴퓨터에 다운로드 되는 CSV (쉼표로 구분 된 값) 파일로 복사 됩니다. 이 파일에는 **Auditdata**라는 열에 있는 각 감사 레코드의 추가 정보가 포함 됩니다. 이 열에는 감사 로그 레코드의 여러 속성에 대 한 다중 값 속성이 포함 되어 있습니다. 이 다중 값 속성의 각 **속성: 값** 쌍은 쉼표로 구분 됩니다. 
   
-다음 표에서는 다중 속성 **Auditdata** 열에서 이벤트가 발생 하는 Office 365 서비스에 따라 포함 된 속성에 대해 설명 합니다. 이 속성 열이 있는 **Office 365 서비스** 는 해당 속성을 포함 하는 서비스 및 작업 유형 (사용자 또는 관리자)을 나타냅니다. 이러한 속성에 대 한 자세한 내용 또는이 항목에 나열 되지 않을 수 있는 속성에 대 한 자세한 내용은 [Office 365 Management ACTIVITY API Schema](https://go.microsoft.com/fwlink/p/?LinkId=717993)를 참조 하십시오.
+다음 표에서는 다중 속성 **Auditdata** 열에서 이벤트가 발생 하는 서비스에 따라 포함 되는 속성에 대해 설명 합니다. 이 속성 열이 있는 **Office 365 서비스** 는 해당 속성을 포함 하는 서비스 및 작업 유형 (사용자 또는 관리자)을 나타냅니다. 이러한 속성에 대 한 자세한 내용 또는이 항목에 나열 되지 않을 수 있는 속성에 대 한 자세한 내용은 [Management ACTIVITY API Schema](https://go.microsoft.com/fwlink/p/?LinkId=717993)를 참조 하십시오.
   
 > [!TIP]
 > Excel의 Power Query에서 JSON 변환 기능을 사용 하 여 각 속성에 자체 열이 포함 되도록 **Auditdata** 열을 여러 열로 분할할 수 있습니다. 이렇게 하면 하나 이상의 속성을 기준으로 정렬 및 필터링할 수 있습니다. 이 작업을 수행 하는 방법을 알아보려면 [감사 로그 기록 내보내기, 구성 및 보기](export-view-audit-log-records.md)를 참조 하세요. 
   
-|**속성**|**설명**|**이 속성을 가진 Office 365 서비스**|
+|**속성**|**설명**|**이 속성을 가진 Microsoft 365 서비스**|
 |:-----|:-----|:-----|
 |터|작업을 수행한 사용자 또는 서비스 계정입니다.|Azure Active Directory|
 |AddOnName|팀에서 추가, 제거 또는 업데이트 된 추가 기능의 이름입니다. Microsoft 팀의 추가 기능 유형은 bot, 커넥터 또는 탭입니다.|Microsoft Teams|
@@ -54,7 +54,7 @@ ms.locfileid: "43207177"
 |EventSource|SharePoint에서 이벤트가 발생 한 것을 식별 합니다. 사용할 수 있는 값은 **SharePoint** 및 **objectmodel**입니다.|SharePoint|
 |ExternalAccess|Exchange 관리 활동의 경우, cmdlet이 조직의 사용자에 의해 실행 되었는지, Microsoft 데이터 센터 담당자나 데이터 센터 서비스 계정 또는 위임 된 관리자가 실행할지를 지정 합니다. 값이 **False** 이면 조직의 다른 사용자가 cmdlet을 실행 한 것입니다. **True** 값은 데이터 센터 직원, 데이터 센터 서비스 계정 또는 위임 된 관리자에 의해 cmdlet이 실행 되었음을 나타냅니다.  <br/> Exchange 사서함 활동의 경우 조직 외부의 사용자가 사서함에 액세스 했는지 여부를 지정 합니다.|Exchange|
 |ExtendedProperties|Azure Active Directory 이벤트에 대 한 확장 된 속성입니다.|Azure Active Directory|
-|ID|감사 레코드 항목의 ID입니다. ID는 감사 로그의 레코드를 고유 하 게 식별 합니다. <sup>1</sup>|모두|
+|ID|보고서 항목의 ID입니다. ID는 보고서 항목을 고유 하 게 식별 합니다.|모두|
 |InternalLogonType|내부용으로 예약되어 있습니다.|Exchange (사서함 활동)|
 |ItemType|액세스 하거나 수정한 개체의 유형입니다. 사용할 수 있는 값에는 **파일**, **폴더**, **웹**, **사이트**, **테 넌 트**및 **documentlibrary**가 있습니다.|SharePoint|
 |LoginStatus|발생 했을 수 있는 로그인 실패를 확인 합니다.|Azure Active Directory|
@@ -64,11 +64,11 @@ ms.locfileid: "43207177"
 |구성원|팀에서 추가 되거나 제거 된 사용자를 나열 합니다. 다음 값은 사용자에게 할당된 역할 유형을 나타냅니다.  <br/><br/> **1** -소유자 역할을 나타냅니다.<br/> **2** - 구성원 역할을 나타냅니다.<br/> **3** - 게스트 역할을 나타냅니다. <br/><br/>구성원 속성에는 조직의 이름 및 구성원의 전자 메일 주소도 포함됩니다.|Microsoft Teams|
 |ModifiedProperties (Name, NewValue, OldValue)|이 속성은 사이트 또는 사이트 모음 관리 그룹의 구성원으로 사용자를 추가 하는 등의 관리 이벤트에 포함 됩니다. 이 속성에는 수정 된 속성의 이름 (예: 사이트 관리자 그룹)과 수정한 속성의 새 값 (사이트 관리자로 추가한 사용자 및 수정한 개체의 이전 값)이 포함 됩니다.|모두 (관리 활동)|
 |Id|Exchange 관리자 감사 로깅을 위해 cmdlet에 의해 수정 된 개체의 이름입니다.  <br/> SharePoint 작업의 경우 사용자가 액세스 하는 파일 또는 폴더의 전체 URL 경로 이름입니다.  <br/> Azure AD 활동의 경우 수정 된 사용자 계정의 이름입니다.|모두|
-|작업|사용자 또는 관리자 활동의 이름입니다. 이 속성의 값은 **활동** 드롭다운 목록에서 선택한 값에 해당 합니다. **모든 작업에 대해 결과 표시** 를 선택 하면 보고서에 모든 서비스에 대 한 모든 사용자 및 관리 활동에 대 한 항목이 포함 됩니다. Office 365 감사 로그에 기록 된 작업/작업에 대 한 설명은 [office 365에서 감사 로그 검색](search-the-audit-log-in-security-and-compliance.md)의 **감사 된 작업** 탭을 참조 하십시오.  <br/> Exchange 관리 활동의 경우이 속성은 실행 된 cmdlet의 이름을 식별 합니다.|모두|
-|조직 id|Office 365 조 직의 GUID입니다.|모두|
+|작업|사용자 또는 관리자 활동의 이름입니다. 이 속성의 값은 **활동** 드롭다운 목록에서 선택한 값에 해당 합니다. **모든 작업에 대해 결과 표시** 를 선택 하면 보고서에 모든 서비스에 대 한 모든 사용자 및 관리 활동에 대 한 항목이 포함 됩니다. 감사 로그에 기록 된 작업/작업에 대 한 설명은 [Office 365에서 감사 로그 검색](search-the-audit-log-in-security-and-compliance.md)의 감사 된 **작업** 탭을 참조 하십시오.  <br/> Exchange 관리 활동의 경우이 속성은 실행 된 cmdlet의 이름을 식별 합니다.|모두|
+|조직 id|조직의 GUID입니다.|모두|
 |경로|액세스 한 메시지가 있는 사서함 폴더의 이름입니다. 이 속성은 또한 메시지가 만들어지거나 복사/이동 되는 폴더를 식별 합니다.|Exchange (사서함 활동)|
 |매개 변수 |Exchange 관리 활동의 경우 Operation 속성에서 식별 된 cmdlet에 사용 된 모든 매개 변수의 이름과 값입니다.|Exchange (관리 활동)|
-|RecordType|Record에서 지정한 작업의 유형입니다. 다음 값은 레코드 종류를 나타냅니다.  <br/><br/> **1** -Exchange 관리자 감사 로그의 레코드를 나타냅니다. <br/>**2** -singled 사서함 항목에 대해 수행 된 작업에 대 한 Exchange 사서함 감사 로그의 레코드를 나타냅니다. <br/>**3** -Exchange 사서함 감사 로그 에서도 레코드를 나타냅니다. 이 레코드 종류는 여러 항목을 지운 편지함 폴더로 이동 하거나 여러 항목을 영구적으로 삭제 하는 등 원본 사서함의 여러 항목에 대해 작업이 수행 되었음을 나타냅니다. <br/>**4** -사이트에 대 한 권한 할당 관리자 또는 사용자와 같은 SharePoint의 사이트 관리 작업을 나타냅니다. <br/>**6** -사용자가 파일을 보거나 수정 하는 등 SharePoint의 파일 또는 폴더 관련 작업을 나타냅니다. <br/>**8** -Azure Active Directory에서 수행 된 관리 작업을 나타냅니다. <br/>**9** -OrgId 로그인 이벤트를 Azure Active Directory에 표시 합니다. 이 레코드 종류는 더 이상 사용 되지 않습니다. <br/>**10** -데이터 센터에서 Microsoft 담당자가 수행한 보안 cmdlet 이벤트를 나타냅니다. <br/>**11** -SHAREPOINT의 DLP (데이터 손실 방지) 이벤트를 나타냅니다.<br/> **12** -Sway 이벤트를 나타냅니다. <br/>**13** -통합 dlp 정책으로 구성 된 경우 EXCHANGE의 DLP 이벤트를 나타냅니다. Exchange 메일 흐름 규칙 (전송 규칙이 라고도 함)을 기반으로 하는 DLP 이벤트는 지원 되지 않습니다.<br>**14** -SharePoint의 공유 이벤트를 나타냅니다.<br/> **15** -Azure Active DIRECTORY의 STS (보안 토큰 서비스) 로그온 이벤트를 나타냅니다. <br/>**18** -보안 & 준수 센터 이벤트를 나타냅니다. <br/>**19** -매우 짧은 기간 내에 반복 되는 작업에 대 한 집계 된 Exchange 사서함 작업을 나타냅니다. <br/>**20** -Power BI 이벤트를 나타냅니다. <br/>**21**-Dynamics 365 이벤트를 나타냅니다.<br/>**22** -Yammer 이벤트를 나타냅니다. <br/>**23** -비즈니스용 Skype 이벤트를 나타냅니다. <br/>**24** -eDiscovery 이벤트를 나타냅니다. 이 레코드 종류는 보안 및 준수 센터에서 콘텐츠 검색을 실행 하 고 eDiscovery 사례를 관리 하 여 수행한 작업을 나타냅니다. 자세한 내용은 [Office 365 감사 로그에서 eDiscovery 활동 검색](search-for-ediscovery-activities-in-the-audit-log.md)을 참조 하세요.<br/>**25, 26 또는 27** -Microsoft 팀 이벤트를 나타냅니다. <br/>**28** -Exchange Online Protection 및 Office 365 Advanced Threat protection의 피싱 및 맬웨어 이벤트를 나타냅니다.<br/>**29** -Exchange Online Protection 및 Office 365 Advanced Threat protection의 전송 이벤트를 나타냅니다.<br/>**30** -Microsoft 파워 자동화 (이전의 microsoft Flow) 이벤트를 나타냅니다.<br/> **31** -고급 eDiscovery 이벤트를 나타냅니다.<br/> **32** -Microsoft Stream 이벤트를 나타냅니다.<br/> **33** -SHAREPOINT의 DLP 분류와 관련 된 이벤트를 나타냅니다.<br/>**35** -Microsoft Project 이벤트를 나타냅니다. <br/> **36** -SharePoint 목록 이벤트를 나타냅니다.<br/>**37** -SharePoint 주석과 관련 된 이벤트를 나타냅니다. <br/>**38** -보안 및 준수 센터의 보존 정책 및 보존 레이블과 관련 된 이벤트를 나타냅니다.  <br/>**40** -보안 및 준수 알림 신호의 결과로 생성 되는 이벤트를 나타냅니다.<br/> **41** -안전 링크 차단 시간 및 Office 365 Advanced Threat Protection의 무시 이벤트 차단 이벤트가 표시 됩니다.<br/>**42** -Office 365 보안 및 준수 센터의 insights 및 보고서와 관련 된 이벤트를 나타냅니다.<br/>**44** -작업에 대 한 분석 이벤트를 나타냅니다. <br/>**45** -파워 앱 이벤트를 나타냅니다. <br/> **47** -SharePoint, OneDrive 및 Microsoft 팀의 파일에 대 한 Office 365 Advanced Threat Protection의 피싱 및 맬웨어 이벤트를 나타냅니다.<br/>**48** -콘텐츠 탐색기 이벤트를 나타냅니다. 자세한 내용은 [데이터 분류 콘텐츠 탐색기 사용](data-classification-content-explorer.md)을 참조하세요. <br/>**49** -Microsoft 팀의 의료에 대 한 [환자의 응용 프로그램](https://docs.microsoft.com/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-audit) 이벤트를 나타냅니다. <br/>**50** -Mail항목 액세스 된 사서함 감사 작업과 관련 된 이벤트를 나타냅니다. <br/>**52** -DATA INSIGHTS REST API와 관련 된 이벤트를 나타냅니다.<br/>**53** -정보 장벽 정책 응용 프로그램에 관련 된 이벤트를 나타냅니다. 자세한 내용은 [정보 장벽에 대 한 정책 정의](information-barriers-policies.md)를 참조 하세요. <br/>**54** -SharePoint 목록 항목 이벤트를 나타냅니다.<br/>**55** -SharePoint 콘텐츠 형식 이벤트를 나타냅니다.<br/> **56** -SharePoint 목록 필드 이벤트를 나타냅니다. <br/>**62** -전자 메일 공격 캠페인과 관련 된 이벤트를 나타냅니다. 자세한 내용은 [Office 365 ATP의 캠페인 보기](https://docs.microsoft.com/microsoft-365/security/office-365-security/campaigns)를 참조 하세요.<br/>**64** -자동화 된 조사 및 응답 이벤트를 나타냅니다. 자세한 내용은 [Office 365의 자동화 된 조사 및 응답 (AIR)](../security/office-365-security/automated-investigation-response-office.md) 을 참조 하세요.<br/>**65** -격리 이벤트를 나타냅니다. 자세한 내용은 [Office 365의 격리](../security/office-365-security/quarantine-email-messages.md)를 참조하세요. <br/>**66** -Microsoft Forms 이벤트를 나타냅니다.<br/>**68** -Exchange의 통신 준수 이벤트를 나타냅니다. 자세한 내용은 [Microsoft 365의 통신 준수](communication-compliance.md)를 참조 하세요.<br/>**69** -고객 키 암호화와 관련 된 이벤트를 나타냅니다. 자세한 내용은 [Office 365에서 고객 키를 사용한 서비스 암호화](customer-key-overview.md)를 참조 하세요. 
+|RecordType|Record에서 지정한 작업의 유형입니다. 다음 값은 레코드 종류를 나타냅니다.  <br/><br/> **1** -Exchange 관리자 감사 로그의 레코드를 나타냅니다. <br/>**2** -singled 사서함 항목에 대해 수행 된 작업에 대 한 Exchange 사서함 감사 로그의 레코드를 나타냅니다. <br/>**3** -Exchange 사서함 감사 로그 에서도 레코드를 나타냅니다. 이 레코드 종류는 여러 항목을 지운 편지함 폴더로 이동 하거나 여러 항목을 영구적으로 삭제 하는 등 원본 사서함의 여러 항목에 대해 작업이 수행 되었음을 나타냅니다. <br/>**4** -사이트에 대 한 권한 할당 관리자 또는 사용자와 같은 SharePoint의 사이트 관리 작업을 나타냅니다. <br/>**6** -사용자가 파일을 보거나 수정 하는 등 SharePoint의 파일 또는 폴더 관련 작업을 나타냅니다. <br/>**8** -Azure Active Directory에서 수행 된 관리 작업을 나타냅니다. <br/>**9** -OrgId 로그인 이벤트를 Azure Active Directory에 표시 합니다. 이 레코드 종류는 더 이상 사용 되지 않습니다. <br/>**10** -데이터 센터에서 Microsoft 담당자가 수행한 보안 cmdlet 이벤트를 나타냅니다. <br/>**11** -SHAREPOINT의 DLP (데이터 손실 방지) 이벤트를 나타냅니다.<br/> **12** -Sway 이벤트를 나타냅니다. <br/>**13** -통합 dlp 정책으로 구성 된 경우 EXCHANGE의 DLP 이벤트를 나타냅니다. Exchange 메일 흐름 규칙 (전송 규칙이 라고도 함)을 기반으로 하는 DLP 이벤트는 지원 되지 않습니다.<br>**14** -SharePoint의 공유 이벤트를 나타냅니다.<br/> **15** -Azure Active DIRECTORY의 STS (보안 토큰 서비스) 로그온 이벤트를 나타냅니다. <br/>**18** -보안 & 준수 센터 이벤트를 나타냅니다. <br/>**19** -매우 짧은 기간 내에 반복 되는 작업에 대 한 집계 된 Exchange 사서함 작업을 나타냅니다. <br/>**20** -Power BI 이벤트를 나타냅니다. <br/>**21**-Dynamics 365 이벤트를 나타냅니다.<br/>**22** -Yammer 이벤트를 나타냅니다. <br/>**23** -비즈니스용 Skype 이벤트를 나타냅니다. <br/>**24** -eDiscovery 이벤트를 나타냅니다. 이 레코드 종류는 보안 및 준수 센터에서 콘텐츠 검색을 실행 하 고 eDiscovery 사례를 관리 하 여 수행한 작업을 나타냅니다. 자세한 내용은 [audit log에서 eDiscovery 활동 검색](search-for-ediscovery-activities-in-the-audit-log.md)을 참조 하십시오.<br/>**25, 26 또는 27** -Microsoft 팀 이벤트를 나타냅니다. <br/>**28** -Exchange Online Protection 및 Office 365 Advanced Threat protection의 피싱 및 맬웨어 이벤트를 나타냅니다.<br/>**29** -Exchange Online Protection 및 Office 365 Advanced Threat protection의 전송 이벤트를 나타냅니다.<br/>**30** -Microsoft 파워 자동화 (이전의 microsoft Flow) 이벤트를 나타냅니다.<br/> **31** -고급 eDiscovery 이벤트를 나타냅니다.<br/> **32** -Microsoft Stream 이벤트를 나타냅니다.<br/> **33** -SHAREPOINT의 DLP 분류와 관련 된 이벤트를 나타냅니다.<br/>**35** -Microsoft Project 이벤트를 나타냅니다. <br/> **36** -SharePoint 목록 이벤트를 나타냅니다.<br/>**37** -SharePoint 주석과 관련 된 이벤트를 나타냅니다. <br/>**38** -보안 및 준수 센터의 보존 정책 및 보존 레이블과 관련 된 이벤트를 나타냅니다.  <br/>**40** -보안 및 준수 알림 신호의 결과로 생성 되는 이벤트를 나타냅니다.<br/> **41** -안전 링크 차단 시간 및 Office 365 Advanced Threat Protection의 무시 이벤트 차단 이벤트가 표시 됩니다.<br/>**42** -보안 & 준수 센터의 insights 및 보고서와 관련 된 이벤트를 나타냅니다.<br/>**44** -작업에 대 한 분석 이벤트를 나타냅니다. <br/>**45** -파워 앱 이벤트를 나타냅니다. <br/> **47** -SharePoint, OneDrive 및 Microsoft 팀의 파일에 대 한 Office 365 Advanced Threat Protection의 피싱 및 맬웨어 이벤트를 나타냅니다.<br/> **49** -Microsoft 팀의 의료에 대 한 [환자의 응용 프로그램](https://docs.microsoft.com/MicrosoftTeams/expand-teams-across-your-org/healthcare/patients-audit) 이벤트를 나타냅니다. <br/>**50** -Mail항목 액세스 된 사서함 감사 작업과 관련 된 이벤트를 나타냅니다. <br/>**52** -DATA INSIGHTS REST API와 관련 된 이벤트를 나타냅니다.<br/>**53** -정보 장벽 정책 응용 프로그램에 관련 된 이벤트를 나타냅니다. 자세한 내용은 [정보 장벽에 대 한 정책 정의](information-barriers-policies.md)를 참조 하세요. <br/>**54** -SharePoint 목록 항목 이벤트를 나타냅니다.<br/>**55** -SharePoint 콘텐츠 형식 이벤트를 나타냅니다.<br/> **56** -SharePoint 목록 필드 이벤트를 나타냅니다. <br/>**62** -전자 메일 공격 캠페인과 관련 된 이벤트를 나타냅니다. 자세한 내용은 [Office 365 ATP의 캠페인 보기](https://docs.microsoft.com/microsoft-365/security/office-365-security/campaigns)를 참조 하세요.<br/>**64** -자동화 된 조사 및 응답 이벤트를 나타냅니다. 자세한 내용은 [Office 365의 자동화 된 조사 및 응답 (AIR)](../security/office-365-security/automated-investigation-response-office.md) 을 참조 하세요.<br/>**65** -격리 감사 레코드 이벤트를 나타냅니다.<br/>**66** -Microsoft Forms 이벤트를 나타냅니다.<br/>**68** -Exchange의 통신 준수 이벤트를 나타냅니다. 자세한 내용은 [Microsoft 365의 통신 준수](communication-compliance.md)를 참조 하세요.<br/>**69** -고객 키 암호화와 관련 된 이벤트를 나타냅니다. 자세한 내용은 [Office 365에서 고객 키를 사용한 서비스 암호화](customer-key-overview.md)를 참조 하세요. 
 |ResultStatus|**작업** 속성에 지정 된 작업이 성공 했는지 여부를 나타냅니다.  <br/> Exchange 관리 활동의 경우이 값은 **True** (성공) 또는 **False** (failed) 중 하나입니다.|모두  <br/>|
 |SecurityComplianceCenterEventType|작업이 보안 & 준수 센터 이벤트 임을 나타냅니다. 모든 보안 & 준수 센터 작업에는이 속성에 대 한 값이 **0** 으로 포함 됩니다.|보안 및 준수 센터|
 |SharingType|리소스를 공유 하는 사용자에 게 할당 된 공유 권한 유형입니다. 이 사용자는 **Usersharedwith** 속성에서 식별 됩니다.|SharePoint|
@@ -87,13 +87,13 @@ ms.locfileid: "43207177"
 |UserId|**작업** 속성에 지정 된 작업을 수행 하 여 레코드가 기록 되는 사용자입니다. 시스템 계정 (예: SHAREPOINT\system 또는 NT 권한 \ 컴퓨터)에서 수행 된 작업에 대 한 감사 레코드는 감사 로그에도 포함 됩니다. UserId 속성의 또 다른 일반적인 값은 app@sharepoint입니다. 이는 해당 활동을 수행한 "사용자"가 SharePoint에서 사용자, 관리자 또는 서비스를 대신 하 여 조직 전체 작업을 수행 하는 데 필요한 사용 권한이 있는 응용 프로그램 인지를 나타냅니다. 자세한 재용은 감사 레코드의 [앱\@sharepoint 사용자를 확인하세요](search-the-audit-log-in-security-and-compliance.md#the-appsharepoint-user-in-audit-records). |모두|
 |UserKey|**UserID** 속성에서 식별 된 사용자의 대체 ID입니다. 예를 들어이 속성은 SharePoint의 사용자가 수행한 이벤트에 대 한 passport 고유 ID (PUID)로 채워집니다. 또한이 속성은 다른 서비스에서 발생 하는 이벤트에 대 한 **UserID** 속성과 동일한 값과 시스템 계정에서 수행 하는 이벤트를 지정할 수 있습니다.|모두|
 |UserSharedWith|리소스를 공유한 사용자입니다. 이 속성은 **Operation** 속성의 값이 **SharingSet**인 경우에 포함 됩니다. 이 사용자는 보고서의 **공유** 됨 열에도 표시 됩니다.|SharePoint|
-|UserType|작업을 수행한 사용자의 유형입니다. 다음 값은 사용자 형식을 나타냅니다. <br/> <br/> **0** -일반 사용자입니다. <br/>**2** -Office 365 조직의 관리자입니다. <sup>2</sup> <br/>**3** -Microsoft 데이터 센터 관리자 또는 데이터 센터 시스템 계정입니다. <br/>**4** -시스템 계정입니다. <br/>**5** -응용 프로그램 <br/>**6** -서비스 사용자입니다.<br/>**7** -사용자 지정 정책<br/>**8** -시스템 정책.|모두|
+|UserType|작업을 수행한 사용자의 유형입니다. 다음 값은 사용자 형식을 나타냅니다. <br/> <br/> **0** -일반 사용자입니다. <br/>**2** -Microsoft 365 조직의 관리자입니다. <sup>1</sup> <br/>**3** -Microsoft 데이터 센터 관리자 또는 데이터 센터 시스템 계정입니다. <br/>**4** -시스템 계정입니다. <br/>**5** -응용 프로그램 <br/>**6** -서비스 사용자입니다.<br/>**7** -사용자 지정 정책<br/>**8** -시스템 정책.|모두|
 |Version|기록 된 작업의 버전 번호 ( **Operation** 속성으로 식별 됨)를 나타냅니다.|모두|
-|작업량|활동이 발생 한 Office 365 서비스입니다.|모두|
+|작업량|활동이 발생 한 Microsoft 365 서비스입니다.|모두|
 ||||
 
 > [!NOTE]
-><sup>1</sup> 중복 된 감사 레코드 (ID 속성에 대해 같은 값 포함) **가** 감사 로그에 나타날 수 있습니다. 이는 감사 이벤트 누락을 방지 하기 위해 의도적으로 설계 된 오류 수정 방법입니다.<br/><br/><sup>2</sup> Azure Active Directory 관련 이벤트의 경우 감사 레코드에서 관리자의 값을 사용 하지 않습니다. 관리자가 수행 하는 작업에 대 한 감사 레코드는 일반 사용자 (예 **: UserType, 0**)가 활동을 수행한 것을 나타냅니다. **UserID** 속성은 활동을 수행한 사람 (일반 사용자 또는 관리자)을 식별 합니다.
+><sup>1</sup> Azure Active Directory 관련 이벤트의 경우 감사 레코드에서 관리자의 값을 사용 하지 않습니다. 관리자가 수행 하는 작업에 대 한 감사 레코드는 일반 사용자 (예 **: UserType, 0**)가 활동을 수행한 것을 나타냅니다. **UserID** 속성은 활동을 수행한 사람 (일반 사용자 또는 관리자)을 식별 합니다.<br/>
 
 위에서 설명한 속성은 특정 이벤트의 세부 정보를 볼 때 **자세한 정보** 를 클릭 하면 표시 되기도 합니다.
   

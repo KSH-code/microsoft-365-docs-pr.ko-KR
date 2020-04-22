@@ -13,21 +13,21 @@ ms.collection: ''
 search.appverid: MOE150
 ms.assetid: 7a150c84-049c-4a9c-8c91-22355b35f2a7
 description: Microsoft PST 수집 도구를 사용 하 여 조직의 네트워크를 검색 하 여 조직 전체에 분산 된 PST 파일의 인벤토리를 가져옵니다. PST 파일을 찾은 후에는 PST 컬렉션 도구를 사용 하 여이를 중앙 위치에 복사 하 여 Office 365로 가져올 수 있습니다.
-ms.openlocfilehash: 736e317318f860936450b7412bc465fc7c9d59e1
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: ee9a657cc0ac44e57e85edc68e80e0a76aa063d4
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42073931"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43633333"
 ---
 # <a name="use-the-pst-collection-tool-to-find-copy-and-delete-pst-files-in-your-organization"></a>PST 컬렉션 도구를 사용 하 여 조직의 PST 파일 찾기, 복사 및 삭제
 
 > [!IMPORTANT]
-> 이 문서에서 설명 하는 PST 컬렉션 도구는 Microsoft standard 지원 프로그램 또는 서비스에서 지원 되지 않습니다. 이 도구는 모든 종류의 보증 없이 있는 그대로 제공 됩니다. Microsoft는 상품성 또는 특정 목적에 대 한 적합성에 대 한 묵시적 보증을 제한 없이 포함 하 여 모든 묵시적 보증을 배제 합니다. 도구 및 설명서의 사용 또는 성능에서 야기 되는 전체 위험은 그대로 유지 됩니다. Microsoft, 해당 작성자 또는 도구를 만드는 데 관여 된 모든 사용자에 게는 제한 (비즈니스 이익 손실에 대 한 손해, 비즈니스 중단, 손실 등)에 대 한 책임을 지지 않습니다. Microsoft에서 이러한 손해에 대 한 권고를 받은 경우에도, 도구 또는 설명서를 사용 하거나 사용 하지 못할 수 있는 비즈니스 정보 또는 기타 pecuniary 손실입니다.
+> 이 문서에서 설명 하는 PST 컬렉션 도구는 Microsoft standard 지원 프로그램 또는 서비스에서 지원 되지 않습니다. 이 도구는 모든 종류의 보증 없이 있는 그대로 제공 됩니다. Microsoft는 상품성 또는 특정 목적에 대 한 적합성에 대 한 묵시적 보증을 제한 없이 포함 하 여 모든 묵시적 보증을 배제 합니다. 도구 및 설명서의 사용 또는 성능에서 야기 되는 전체 위험은 그대로 유지 됩니다. No 이벤트가 발생 하는 경우 Microsoft, 작성자는이 도구를 만들거나, 프로덕션 하거나, 전달 하는 데 관여 하는 다른 모든 사용자에 게는 도구 또는 설명서를 사용 하는 것이 불가능 한 경우 (예: 제한 사항, 비즈니스 중단, 비즈니스 정보 손실, 또는 기타 pecuniary 손실)에 대 한 책임 (Microsoft에서 이러한 손해에 대 한 충고를 받은 경우에도)
 
-Microsoft PST 수집 도구를 사용 하 여 조직의 네트워크에서 PST 파일을 검색할 수 있습니다. 이 도구를 사용 하 여 조직 전체에 분산 된 PST 파일의 인벤토리를 가져올 수 있습니다. PST 파일을 찾은 후에는 PST 모음 도구를 사용 하 여 중앙 위치에 복사할 수 있습니다. Pst를 한 위치에 두면 Exchange Online 사서함 (또는 단일 Exchange Online 사서함)으로 가져올 수 있으며,이 경우 Office 365에서 다양 한 준수 기능 집합을 적용할 수도 있습니다. 여기에는 Pst를 사용자의 보관 사서함으로 가져오기, eDiscovery 검색 도구를 사용 하 여 가져온 PST 파일의 특정 메시지 검색, eDiscovery 보류 및 Office 365 보존 정책을 사용 하 여 메시지 보존, 수명 관리 등이 포함 됩니다. Exchange Online의 메시징 레코드 관리 기능을 사용 하 여 이러한 메시지를 순환 합니다. 수집한 PST 파일을 Office 365로 성공적으로 가져왔는지 확신 하면이 도구를 사용 하 여 네트워크의 원래 위치에서 삭제할 수 있습니다. 
+Microsoft PST 수집 도구를 사용 하 여 조직의 네트워크에서 PST 파일을 검색할 수 있습니다. 이 도구를 사용 하 여 조직 전체에 분산 된 PST 파일의 인벤토리를 가져올 수 있습니다. PST 파일을 찾은 후에는 PST 모음 도구를 사용 하 여 중앙 위치에 복사할 수 있습니다. Pst를 한 위치에 두면 Exchange Online 사서함 (또는 단일 Exchange Online 사서함)으로 가져올 수 있으며,이 경우 Office 365에서 다양 한 준수 기능 집합을 적용할 수도 있습니다. 여기에는 Pst를 사용자의 보관 사서함으로 가져오기, eDiscovery 검색 도구를 사용 하 여 가져온 PST 파일에서 특정 메시지를 검색 하 고, eDiscovery 보류 및 보존 정책을 사용 하 여 메시지를 보존 하며, Exchange Online의 메시징 레코드 관리 기능을 사용 하 여 이러한 메시지의 수명 주기를 관리 하는 작업이 포함 됩니다. 수집한 PST 파일을 Office 365로 성공적으로 가져왔는지 확신 하면이 도구를 사용 하 여 네트워크의 원래 위치에서 삭제할 수 있습니다. 
   
-PST 컬렉션 도구를 사용 하면 사용자가 새 PST 파일을 만들고 네트워크에서 찾은 기존 PST 파일을 변경할 수 없게 됩니다. 이러한 "차단" 기능을 사용 하면 알려진 PST 파일 집합을 Office 365으로 찾고, 수집 하 고, 가져오고, 조직의 PST 파일을 향후에 확산 하지 않을 수 있습니다. 
+PST 컬렉션 도구를 사용 하면 사용자가 새 PST 파일을 만들고 네트워크에서 찾은 기존 PST 파일을 변경할 수 없게 됩니다. 이러한 "차단" 기능을 사용 하면 알려진 PST 파일 집합을 Microsoft 365으로 찾고, 수집 하 고, 가져오고, 조직의 PST 파일을 향후에 확산 하지 않을 수 있습니다. 
   
 ## <a name="how-the-pst-collection-tool-works"></a>PST 컬렉션 도구의 작동 방식
 
@@ -109,14 +109,14 @@ PST 컬렉션 도구를 사용 하면 사용자가 새 PST 파일을 만들고 �
 
 찾기 모드에서 PST 컬렉션 도구를 성공적으로 실행 하면 다음 파일이 만들어지고 `LogLocation` 및 `ConfigurationLocation` 매개 변수에 지정 된 폴더에 저장 됩니다. 
   
-- **JobName\>__ datetimestamp\>. .log-로그 파일에는 표시 된 상태 메시지가 포함 됩니다.\< \<** 이 파일은 `LogLocation` 매개 변수에 지정 된 폴더에 만들어집니다. 
+- **JobName\>_Find_datetimestamp\>. .log-로그 파일에는 표시 된 상태 메시지가 포함 됩니다.\< \<** 이 파일은 `LogLocation` 매개 변수에 지정 된 폴더에 만들어집니다. 
     
-- **JobName\>__ datema csv 파일에는 검색 된 각 PST 파일에 대 한 행이 포함 되어 있습니다\> \<\<** 각 PST에는 PST 파일이 있는 컴퓨터, pst 파일의 전체 경로 위치, pst 파일의 소유자, PST 파일의 크기 (킬로바이트, Kb)가 포함 되어 있습니다. 이 파일은 `LogLocation` 매개 변수에 지정 된 폴더에 만들어집니다. 
+- **JobName\>_Find_datema csv 파일에는 검색 된 각 PST 파일에 대 한 행이 포함 되어 있습니다\> \<\<** 각 PST에는 PST 파일이 있는 컴퓨터, pst 파일의 전체 경로 위치, pst 파일의 소유자, PST 파일의 크기 (킬로바이트, Kb)가 포함 되어 있습니다. 이 파일은 `LogLocation` 매개 변수에 지정 된 폴더에 만들어집니다. 
     
     > [!TIP]
     > Excel에서 자동 합계 도구를 사용 하 여 CSV 파일에 나열 된 모든 PST 파일의 전체 크기 (MB)를 계산 합니다. 그런 다음 변환 계산기를 사용 하 여 총 크기를 메가바이트 (MB) 나 기가바이트 (GB)로 변환할 수 있습니다. 
   
-- **\>__\>JobName find\<datetimestamp-xml 파일에는 찾기 모드에서 도구를 실행할 때 사용 되는 매개 변수 값에 대 한 정보가 들어 \<있습니다.** 이 파일에는 찾은 모든 PST 파일에 대 한 정보도 포함 됩니다. 이 파일의 데이터는 동일한 작업에 대해 도구를 다시 실행 하 여 검색 된 PST 파일을 차단, 수집 또는 삭제 하는 데 사용 됩니다. 이 파일은 `ConfigurationLocation` 매개 변수에 지정 된 폴더에 만들어집니다. 
+- **\>_Find_\>JobName find\<datetimestamp-xml 파일에는 찾기 모드에서 도구를 실행할 때 사용 되는 매개 변수 값에 대 한 정보가 들어 \<있습니다.** 이 파일에는 찾은 모든 PST 파일에 대 한 정보도 포함 됩니다. 이 파일의 데이터는 동일한 작업에 대해 도구를 다시 실행 하 여 검색 된 PST 파일을 차단, 수집 또는 삭제 하는 데 사용 됩니다. 이 파일은 `ConfigurationLocation` 매개 변수에 지정 된 폴더에 만들어집니다. 
     
     > [!IMPORTANT]
     > 이 파일의 이름을 바꾸거나 변경 하거나 이동 하지 않습니다. 이 도구는 동일한 작업에 대 한 차단, 복사 또는 삭제 모드에서 공구를 다시 실행할 때 PST 컬렉션 도구에서 사용 됩니다. 
@@ -169,7 +169,7 @@ PST 파일에 대 한 액세스를 차단 하려면:
 다음 단계는 찾기 모드에서 PST 컬렉션 도구를 실행할 때 찾은 PST 파일을 복사 하는 것입니다. 이를 통해 나중에 Office 365로 가져올 수 있도록 PST 파일을 한 위치에서 수집 합니다. PST 파일을 모음 위치에 복사 하기 전에 필요한 총 저장 공간을 결정 하는 것이 좋습니다. 1 단계에서 만든 CSV 파일을 사용 하 여 모든 PST 파일의 총 크기를 계산 하는 방법으로이 작업을 수행할 수 있습니다.
   
 > [!NOTE]
-> PST 파일을 Office 365로 가져오고 원래 위치에서 삭제 한 후에는이 단계에서 복사한 컬렉션 위치에서 삭제 하는 것이 좋습니다. 
+> PST 파일을 Microsoft 365로 가져오고 원래 위치에서 삭제 한 후에는이 단계에서 복사한 컬렉션 위치에서 삭제 하는 것이 좋습니다. 
   
 1. 로컬 컴퓨터에서 명령 프롬프트 (관리자 권한으로 실행)를 엽니다.
     
@@ -206,9 +206,9 @@ PST 파일에 대 한 액세스를 차단 하려면:
 
 Collect 모드에서 DataCollectorMaster를 실행 한 후에는 `LogLocation` 및 `ConfigurationLocation` 매개 변수로 지정 된 폴더에 다음 파일이 만들어지고 저장 됩니다. 
   
-- **JobName\>__ datetimestamp\>. .log-로그 파일에는 표시 된 상태 메시지가 포함 됩니다.\< \<** 이 파일은 `LogLocation` 매개 변수에 지정 된 폴더에 만들어집니다. 
+- **JobName\>_Collect_datetimestamp\>. .log-로그 파일에는 표시 된 상태 메시지가 포함 됩니다.\< \<** 이 파일은 `LogLocation` 매개 변수에 지정 된 폴더에 만들어집니다. 
     
-- **\>__ JobName에서\<datetimestamp\>.xml-xml 파일에는 도구에서 사용 하는 수집 모드에서 실행 된 매개 변수 값에 대 한 정보만 포함 \<** 됩니다. DataCollectorMaster 도구를 다시 실행 하 여 PST 파일을 삭제 하면이 파일의 데이터가 사용 됩니다. [5 단계](#step-5-delete-the-pst-files-found-on-your-network)를 참조 하세요.
+- **\>_Collect_JobName에서\<datetimestamp\>.xml-xml 파일에는 도구에서 사용 하는 수집 모드에서 실행 된 매개 변수 값에 대 한 정보만 포함 \<** 됩니다. DataCollectorMaster 도구를 다시 실행 하 여 PST 파일을 삭제 하면이 파일의 데이터가 사용 됩니다. [5 단계](#step-5-delete-the-pst-files-found-on-your-network)를 참조 하세요.
     
 
 ## <a name="step-4-import-the-pst-files-to-office-365"></a>4 단계: PST 파일을 Office 365로 가져오기
@@ -259,6 +259,6 @@ PST 파일을 Office 365로 가져오는 단계별 지침은 다음 항목 중 �
 
 삭제 모드에서 DataCollectorMaster를 실행 한 후에는 `LogLocation` 및 `ConfigurationLocation` 매개 변수에 지정 된 폴더에 다음 파일이 만들어지고 저장 됩니다. 
   
-- **JobName\>__ datetimestamp\>. .log-로그 파일에 표시 된 상태 메시지가 포함 됩니다.\< \<** 이 파일은 `LogLocation` 매개 변수에 지정 된 폴더에 만들어집니다. 
+- **JobName\>_Delete_datetimestamp\>. .log-로그 파일에 표시 된 상태 메시지가 포함 됩니다.\< \<** 이 파일은 `LogLocation` 매개 변수에 지정 된 폴더에 만들어집니다. 
     
-- **\>__\>JobName delete\<datetimestamp .xml-xml 파일에는 도구에서 사용 하는 삭제 모드에서 실행 된 매개 변수 값에 대 한 정보만 포함 \<** 됩니다. 또한 삭제 된 각 PST 파일의 이름과 파일 경로가 나열 됩니다. 이 파일은 `ConfigurationLocation` 매개 변수에 지정 된 폴더에 만들어집니다. 
+- **\>_Delete_\>JobName delete\<datetimestamp .xml-xml 파일에는 도구에서 사용 하는 삭제 모드에서 실행 된 매개 변수 값에 대 한 정보만 포함 \<** 됩니다. 또한 삭제 된 각 PST 파일의 이름과 파일 경로가 나열 됩니다. 이 파일은 `ConfigurationLocation` 매개 변수에 지정 된 폴더에 만들어집니다. 

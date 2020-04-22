@@ -17,19 +17,19 @@ search.appverid:
 - MET150
 ms.assetid: 78fe3147-1979-4c41-83bb-aeccf244368d
 description: '동시 검색의 최대 수와 같은 Office 365의 보안 & 준수 센터에서 콘텐츠 검색 기능에 적용 되는 제한 사항에 대해 알아봅니다. '
-ms.openlocfilehash: a560e26b6a02e48ca50033acad554e3c7bb2ec6e
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: 6c2093bced166901a4442e9ab6593de2b64b785b
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42634736"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632653"
 ---
 # <a name="limits-for-content-search-in-the-security--compliance-center"></a>보안 & 준수 센터의 콘텐츠 검색에 대 한 제한
 
 > [!NOTE]
 > 이 항목의 제한은 Exchange Online의 원본 위치 eDiscovery 및 SharePoint Online의 eDiscovery 센터에 대 한 현재 제한과는 다릅니다. 
   
-보안 & 준수 센터의 콘텐츠 검색 기능에 다양 한 제한이 적용 됩니다. 여기에는 **콘텐츠 검색** 페이지에서 실행 되는 검색 및 eDiscovery 사례와 연결 된 검색이 포함 됩니다. 이러한 제한은 Office 365 조직에 제공 되는 서비스의 상태와 품질을 유지 관리 하는 데 도움이 됩니다. 또한 검색을 위해 Exchange Online에서 전자 메일 메시지를 인덱싱하는 것과 관련 된 제한이 있습니다. 콘텐츠 검색 또는 전자 메일 인덱싱 제한을 수정할 수는 없지만 콘텐츠 검색을 계획, 실행 및 문제 해결할 때 이러한 제한을 고려할 수 있도록 주의 해야 합니다. 
+보안 & 준수 센터의 콘텐츠 검색 기능에 다양 한 제한이 적용 됩니다. 여기에는 **콘텐츠 검색** 페이지에서 실행 되는 검색 및 eDiscovery 사례와 연결 된 검색이 포함 됩니다. 이러한 제한은 조직에 제공 되는 서비스의 상태와 품질을 유지 관리 하는 데 도움이 됩니다. 또한 검색을 위해 Exchange Online에서 전자 메일 메시지를 인덱싱하는 것과 관련 된 제한이 있습니다. 콘텐츠 검색 또는 전자 메일 인덱싱 제한을 수정할 수는 없지만 콘텐츠 검색을 계획, 실행 및 문제 해결할 때 이러한 제한을 고려할 수 있도록 주의 해야 합니다. 
   
 ## <a name="content-search-limits"></a>콘텐츠 검색 제한
 
@@ -51,7 +51,7 @@ ms.locfileid: "42634736"
 |콘텐츠 검색에 대 한 검색 쿼리의 최대 문자 수 (연산자 및 조건 포함)입니다.  <br/><br/> **참고:** 이 제한은 쿼리를 확장 한 후에 적용 되며,이는 쿼리를 각 키워드에 대해 확장 하는 것을 의미 합니다. 예를 들어 검색 쿼리에 15 개 키워드와 추가 매개 변수 및 조건이 있는 경우 쿼리는 각각 다른 매개 변수와 조건을 사용 하 여 15 회 확장 됩니다. 따라서 검색 쿼리의 문자 수가 해당 제한 보다 낮은 경우에도이 제한을 초과 하는 데 도움이 될 수 있는 확장 된 쿼리는 다음과 같습니다.  <br/> |**사서함:** 1만  <br/> **사이트:** 4000-최대 20 개의 사이트를 검색할 때 <sup>모든 사이트 또는</sup> 2000를 검색 하는 경우 <br/> |
 |접두사 와일드 카드를 사용 하 여 검색 쿼리에서 정확한 구문을 검색 하거나 접두사 와일드 카드와 **NEAR** 또는 **onear** Boolean 연산자를 사용 하는 경우 반환 되는 최대 variant 개수입니다.  <br/> |1만 <sup>2</sup> <br/> |
 |접두사 와일드 카드에 대 한 최소 영숫자 문자 수입니다. 예를 들면 `time*` `one*`, 또는 `set*`입니다.  <br/> |3   <br/> |
-|"검색 및 삭제" 작업을 수행 하 여 ( **new-compliancesearchaction** 명령을 사용 하 여) 항목을 삭제할 수 있는 콘텐츠 검색의 최대 사서함 수입니다. 지우기 작업을 수행 하는 콘텐츠 검색에이 제한 보다 많은 원본 사서함이 있는 경우에는 삭제 작업이 실패 합니다. 검색 및 제거에 대 한 자세한 내용은 [Office 365 조 직에서 전자 메일 메시지 검색 및 삭제](search-for-and-delete-messages-in-your-organization.md)를 참조 하세요.  <br/> |50,000  <br/> |
+|"검색 및 삭제" 작업을 수행 하 여 ( **new-compliancesearchaction** 명령을 사용 하 여) 항목을 삭제할 수 있는 콘텐츠 검색의 최대 사서함 수입니다. 지우기 작업을 수행 하는 콘텐츠 검색에이 제한 보다 많은 원본 사서함이 있는 경우에는 삭제 작업이 실패 합니다. 검색 및 제거에 대 한 자세한 내용은 [조직에서 전자 메일 메시지 검색 및 삭제](search-for-and-delete-messages-in-your-organization.md)를 참조 하세요.  <br/> |50,000  <br/> |
    
 > [!NOTE]
 > <sup>1</sup> SharePoint 및 비즈니스용 OneDrive 위치를 검색 하는 경우 검색 되는 사이트의 url에 포함 된 문자가이 한도를 초과 하 여 계산 됩니다. <br/> <sup>2</sup> 구 없는 쿼리 (큰따옴표를 사용 하지 않는 키워드 값)의 경우에는 특수 접두사 인덱스를 사용 합니다. 이렇게 하면 문서에서 단어가 나타나지만 문서에서 나타나는 위치를 알 수 없습니다. 구문 쿼리 (큰따옴표를 사용한 키워드 값)를 수행 하려면 문서 내에서 구의 단어를 비교 해야 합니다. 즉, 구 쿼리에 접두사 인덱스를 사용할 수 없습니다. 이 경우에는 접두사를 확장 하는 모든 가능한 단어를 내부적으로 확장 합니다. 예를 들면 `"time*"` 로 `"time OR timer OR times OR timex OR timeboxed OR …"`확장 될 수 있습니다. 1만은 쿼리와 일치 하는 문서 수가 아닌 단어를 확장할 수 있는 최대 variant 개수입니다. 구문이 아닌 용어의 상한 값은 없습니다. 
@@ -78,14 +78,14 @@ ms.locfileid: "42634736"
   
 - [콘텐츠 검색 결과 내보내기](export-search-results.md#export-limits)
     
-- [Office 365의 콘텐츠 검색에서 부분적으로 인덱싱된 항목](partially-indexed-items-in-content-search.md)
+- [콘텐츠 검색에서 부분적으로 인덱싱된 항목](partially-indexed-items-in-content-search.md)
     
-- [Office 365 eDiscovery에서 부분적으로 인덱싱된 항목 조사](investigating-partially-indexed-items-in-ediscovery.md)
+- [EDiscovery에서 부분적으로 인덱싱된 항목 조사](investigating-partially-indexed-items-in-ediscovery.md)
     
 - [SharePoint Online에 대 한 검색 제한](https://support.office.com/article/7c06e9ed-98b6-4304-a900-14773a8fa32f)
     
 콘텐츠 검색에 대 한 자세한 내용은 다음 항목을 참조 하십시오.
   
-- [Office 365의 콘텐츠 검색](content-search.md)
+- [Microsoft 365의 콘텐츠 검색](content-search.md)
     
 - [콘텐츠 검색에 대한 키워드 쿼리 및 검색 조건](keyword-queries-and-search-conditions.md)

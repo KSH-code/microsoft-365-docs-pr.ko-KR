@@ -12,17 +12,17 @@ ms.service: O365-seccomp
 ms.collection:
 - M365-security-compliance
 localization_priority: Normal
-description: 이 통찰력 기반 권장 사항은 조직에서 DLP 정책 적용 범위에 가능한 간격이 있을 때 사용자에 게이를 알리는 방식으로 중요 한 콘텐츠를 저장 하 고 Office 365에서 공유할 때 안전 하 게 유지 하는 데 도움이 됩니다. 문서에 가장 일반적인 유형의 중요 한 주요 정보가 포함 되어 있지만 &amp; DLP 정책에 의해 보호 되지 않는 경우에는 보안 및 준수 센터의 홈 페이지에서이 권장 사항을 확인할 수 있습니다.
-ms.openlocfilehash: 7fb99942a2288a2545123d44ebdfde89b449edc3
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: 이 통찰력 기반 권장 사항은 조직에서 DLP 정책 적용 범위에 가능한 간격이 있을 때 사용자에 게이를 알리는 방식으로 중요 한 콘텐츠를 저장 하 고 Microsoft 365에서 공유할 때 안전 하 게 유지 하는 데 도움이 됩니다. 문서에 가장 일반적인 유형의 중요 한 주요 정보가 포함 되어 있지만 &amp; DLP 정책에 의해 보호 되지 않는 경우에는 보안 및 준수 센터의 홈 페이지에서이 권장 사항을 확인할 수 있습니다.
+ms.openlocfilehash: 73c45c477942533d5668c225144950a0fde4279b
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42073219"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632469"
 ---
 # <a name="get-started-with-dlp-policy-recommendations"></a>DLP 정책 권장 시작
 
-이 통찰력 기반 권장 사항은 조직에서 DLP 정책 적용 범위에 가능한 간격이 있을 때 사용자에 게이를 알리는 방식으로 중요 한 콘텐츠를 저장 하 고 Office 365에서 공유할 때 안전 하 게 유지 하는 데 도움이 됩니다. 문서에 가장 일반적인 유형의 중요 한 **** 주요 정보가 포함 되어 있지만 &amp; DLP (데이터 손실 방지) 정책으로 보호 되지 않는 경우에는 보안 및 준수 센터의 홈 페이지에이 권장 사항이 표시 됩니다. 
+이 통찰력 기반 권장 사항은 조직에서 DLP 정책 적용 범위에 가능한 간격이 있을 때 사용자에 게이를 알리는 방식으로 중요 한 콘텐츠를 저장 하 고 Microsoft 365에서 공유할 때 안전 하 게 유지 하는 데 도움이 됩니다. 문서에 가장 일반적인 유형의 중요 한 **Home** 주요 정보가 포함 되어 있지만 &amp; DLP (데이터 손실 방지) 정책으로 보호 되지 않는 경우에는 보안 및 준수 센터의 홈 페이지에이 권장 사항이 표시 됩니다. 
   
 이 위젯을 사용 하 여 한 번에 사용자 지정 된 DLP 정책을 빠르게 만들 수 있으며,이 DLP 정책을 만든 후에는 완전히 사용자 지정이 가능 합니다. 처음에는 권장 사항이 표시 되지 않으면 **권장** 섹션의 아래쪽에서 **+ 자세히** 를 클릭 해 보세요. 
   

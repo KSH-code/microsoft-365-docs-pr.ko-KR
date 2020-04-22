@@ -18,16 +18,16 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: c36a9865757a76708ac9e7385a2a9ef3e977050e
-ms.sourcegitcommit: 09c3e2f3129c5e43cd8420cccd0676ff3a29a355
+ms.openlocfilehash: 1334a90dc2e98e720aa9da392bd558adb34b37b2
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "43521472"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632963"
 ---
 # <a name="manage-holds-in-advanced-ediscovery"></a>Advanced eDiscovery에서 보류 관리
 
-고급 eDiscovery 사례를 사용 하 여 해당 사례와 관련이 있을 수 있는 콘텐츠를 보존 하는 보류를 만들 수 있습니다. Advanced eDiscovery 보존 기능을 사용 하 여 custodians 및 해당 데이터 원본에 대해 보류를 배치할 수 있습니다. 또한 사서함과 비즈니스용 OneDrive 사이트에 custodial이 없는 보류를 배치할 수 있습니다. 또한 Office 365 그룹의 그룹 사서함, SharePoint 사이트 및 비즈니스용 OneDrive 사이트에 보류할 수 있습니다. 마찬가지로 Microsoft 팀과 연결 된 사서함 및 사이트를 유지할 수 있습니다. 콘텐츠 위치를 유지 하는 경우에는 custodian를 해제 하거나, 특정 데이터 위치를 제거 하거나, 보존 정책을 완전히 삭제할 때까지 콘텐츠가 보관 됩니다.
+고급 eDiscovery 사례를 사용 하 여 해당 사례와 관련이 있을 수 있는 콘텐츠를 보존 하는 보류를 만들 수 있습니다. Advanced eDiscovery 보존 기능을 사용 하 여 custodians 및 해당 데이터 원본에 대해 보류를 배치할 수 있습니다. 또한 사서함과 비즈니스용 OneDrive 사이트에 custodial이 없는 보류를 배치할 수 있습니다. Microsoft 365 그룹에 대 한 그룹 사서함, SharePoint 사이트 및 비즈니스용 OneDrive 사이트에 보류를 배치할 수도 있습니다. 마찬가지로 Microsoft 팀과 연결 된 사서함 및 사이트를 유지할 수 있습니다. 콘텐츠 위치를 유지 하는 경우에는 custodian를 해제 하거나, 특정 데이터 위치를 제거 하거나, 보존 정책을 완전히 삭제할 때까지 콘텐츠가 보관 됩니다.
 
 ## <a name="manage-custodian-based-holds"></a>Custodian 유지 관리
 
@@ -69,17 +69,17 @@ Custodian 보류 정책을 보려면 다음을 수행 합니다.
   
 8. 보류 상태로 설정할 콘텐츠 위치를 선택 합니다. 사서함, 사이트 및 공용 폴더를 보류에 배치할 수 있습니다.
 
-   a. **Exchange 전자 메일** - **사용자, 그룹 또는 팀 선택을** 클릭 한 다음 **사용자, 그룹 또는 팀** 을 다시 선택을 클릭 하 여 보류할 사서함을 지정 합니다. 검색 상자를 사용 하 여 사용자 사서함과 메일 그룹 (그룹 구성원의 사서함을 보류)을 보류 상태로 설정 합니다. Office 365 그룹 또는 Microsoft 팀에 대 한 연결 된 사서함을 보류할 수도 있습니다. 사용자, 그룹, 팀 확인란을 선택 하 고 **선택을**클릭 한 후 **완료**를 클릭 합니다.
+   a. **Exchange 전자 메일** - **사용자, 그룹 또는 팀 선택을** 클릭 한 다음 **사용자, 그룹 또는 팀** 을 다시 선택을 클릭 하 여 보류할 사서함을 지정 합니다. 검색 상자를 사용 하 여 사용자 사서함과 메일 그룹 (그룹 구성원의 사서함을 보류)을 보류 상태로 설정 합니다. Microsoft 365 그룹 또는 Microsoft 팀에 대 한 연결 된 사서함을 보류할 수도 있습니다. 사용자, 그룹, 팀 확인란을 선택 하 고 **선택을**클릭 한 후 **완료**를 클릭 합니다.
  
     > [!NOTE]
     > **사용자, 그룹 또는 팀 선택을** 클릭 하 여 보류 중인 사서함을 지정 하는 경우 표시 되는 사서함 선택은 비어 있습니다. 이것은 성능을 향상시키기 위한 것입니다. 이 목록에 사용자를 추가 하려면 검색 상자에 이름 (최소 3 자)을 입력 합니다.
 
-    b. **Sharepoint 사이트** - **사이트 선택을** 클릭 한 다음 **사이트 선택을** 클릭 하 여 SharePoint 및 비즈니스용 OneDrive 사이트를 보류로 지정 합니다. 보류 하도록 설정할 각 사이트의 URL을 입력 합니다. Microsoft Team 또는 Office 365 그룹에 대 한 SharePoint 사이트의 URL을 추가할 수도 있습니다. **선택을**클릭 하 고 **완료**를 클릭 합니다.
+    b. **Sharepoint 사이트** - **사이트 선택을** 클릭 한 다음 **사이트 선택을** 클릭 하 여 SharePoint 및 비즈니스용 OneDrive 사이트를 보류로 지정 합니다. 보류 하도록 설정할 각 사이트의 URL을 입력 합니다. Microsoft 365 그룹 또는 Microsoft 팀에 대 한 SharePoint 사이트의 URL을 추가할 수도 있습니다. **선택을**클릭 하 고 **완료**를 클릭 합니다.
     
-     Microsoft 팀 및 Office 365 그룹을 유지 하는 방법에 대 한 팁을 보려면 [Microsoft 팀 및 office 365 그룹에 보류 위치](#place-a-hold-on-microsoft-teams-and-office-365-groups) 섹션을 참조 하세요.
+     Microsoft 365 그룹 및 Microsoft 팀을 보류 상태로 설정 하는 방법에 대 한 팁은 **FAQ** 섹션을 참조 하십시오.
 
     > [!NOTE]
-    > 사용자의 OneDrive 계정에 대 한 URL에는 UPN (사용자 계정 이름)이 `https://alpinehouse-my.sharepoint.com/personal/sarad_alpinehouse_onmicrosoft_com`포함 됩니다 (예:). 드물지만 사용자의 UPN이 변경 되는 경우에는 해당 OneDrive URL도 새 UPN을 통합 하도록 변경 됩니다. 사용자의 OneDrive 계정이 custodial 되지 않은 보류에 속하며 해당 UPN이 변경 되는 경우에는 보류를 업데이트 하 고 새 OneDrive URL을 가리키도록 해야 합니다. 자세한 내용은 [UPN 변경 사항이 ONEDRIVE URL에 미치는 영향](https://docs.microsoft.com/onedrive/upn-changes)을 참조 하십시오.
+    > 사용자의 OneDrive 계정에 대 한 URL에는 UPN (사용자 계정 이름)이 `https://alpinehouse-my.sharepoint.com/personal/sarad_alpinehouse_onmicrosoft_com`포함 됩니다 (예:). 드물지만 사용자의 UPN이 변경 되는 경우에는 해당 OneDrive URL도 새 UPN을 통합 하도록 변경 됩니다. 사용자의 OneDrive 계정이 custodial 되지 않은 보류에 속하며 해당 UPN이 변경 되는 경우에는 보류를 업데이트 하 고 새 OneDrive URL을 가리키도록 해야 합니다. 자세한 내용은 [UPN 변경 내용이 OneDrive URL에 미치는 영향](https://docs.microsoft.com/onedrive/upn-changes)을 참조하세요.
 
      c. **Exchange 공용 폴더** -설정/해제 스위치를 all 위치로 이동 하 여 Exchange Online 조직의 모든 공용 폴더를 보류 상태로 전환 합니다. 특정 공용 폴더를 선택 하 여 보류 상태로 설정할 수는 없습니다. 공용 폴더를 보존 하지 않으려면 toggle 스위치를 **"없음"** 으로 설정 된 상태로 둡니다.
 
@@ -119,11 +119,10 @@ Custodian 보류 정책을 보려면 다음을 수행 합니다.
 
 Microsoft 팀은 Office 365 그룹을 기반으로 작성 됩니다. 따라서 고급 eDiscovery에서 보류 하는 작업은 매우 비슷합니다. 
 
-Office 365 그룹과 Microsoft 팀을 보류할 때 다음과 같은 사항을 염두에 두어야 합니다.
-
-- 보류 중인 Office 365 그룹 및 Microsoft 팀에 있는 콘텐츠를 배치 하려면 그룹 또는 팀과 연결 된 사서함 및 SharePoint 사이트를 지정 해야 합니다.
+- **추가 Microsoft 365 그룹 또는 Microsoft 팀 사이트를 custodian에 매핑하는 방법은 무엇 인가요? Microsoft 365 그룹 및 Microsoft 팀에 Custodial가 없는 보존을 설정 하는 방법은 무엇 인가요?** Microsoft 팀은 Microsoft 365 그룹을 기반으로 작성 됩니다. 따라서 eDiscovery 사례에서 보류를 설정 하는 것은 매우 유사 합니다. Microsoft 365 그룹과 Microsoft 팀을 보류할 때 다음과 같은 사항을 염두에 두어야 합니다.
+  - Microsoft 365 그룹 및 Microsoft 팀 구성원에 있는 콘텐츠를 저장 하려면 그룹 또는 팀과 연결 된 사서함 및 SharePoint 사이트를 지정 해야 합니다.
   
-- Exchange Online에서 **remove-unifiedgroup** cmdlet을 실행 하 여 Office 365 그룹 또는 Microsoft Team의 속성을 볼 수 있습니다. 이를 통해 Office 365 그룹 또는 Microsoft 팀에 연결 된 사이트의 URL을 가져올 수 있습니다. 예를 들어 다음 명령을 실행하면 Senior Leadership Team이라는 Office 365 그룹의 선택된 속성이 표시됩니다.
+  - Exchange Online에서 **remove-unifiedgroup** cmdlet을 실행 하 여 Microsoft 365 그룹 또는 microsoft Team의 속성을 볼 수 있습니다. 이 방법을 사용 하면 Microsoft 365 그룹 또는 Microsoft 팀에 연결 된 사이트의 URL을 가져올 수 있습니다. 예를 들어 다음 명령은 선임 리더십 팀 이라는 Microsoft 365 그룹에 대해 선택 된 속성을 표시 합니다.
 
 
     ```text
@@ -137,9 +136,9 @@ Office 365 그룹과 Microsoft 팀을 보류할 때 다음과 같은 사항을 �
     > [!NOTE]
     > Get-UnifiedGroup cmdlet를 실행하려면 Exchange Online에서 보기 전용 받는 사람 역할을 할당받았거나 보기 전용 받는 사람 역할이 할당된 역할 그룹의 구성원이어야 합니다.
 
-- 사용자의 사서함이 검색 되 면 사용자가 구성원으로 속해 있는 모든 Office 365 그룹 또는 Microsoft 팀이 검색 되지 않습니다. 마찬가지로, Office 365 그룹 또는 Microsoft 팀을 유지 하면 그룹 사서함과 그룹 사이트만 보존 됩니다. 그룹 구성원의 사서함 및 비즈니스용 OneDrive 사이트는 명시적으로 custodians로 추가 하거나 데이터 원본을 유지 하는 경우가 아니면 보류 되지 않습니다. 따라서 특정 custodian으로 Office 365 그룹이 나 Microsoft Team을 보류할 필요가 있는 경우 그룹 사이트 및 그룹 사서함을 custodian에 매핑하는 것이 좋습니다 (Advanced eDiscovery에서 Custodians 관리 참조). Office 365 그룹 또는 Microsoft 팀이 단일 custodian으로 인 한 경우에는 custodial 되지 않은 보류에 원본을 추가 하는 것이 좋습니다. 
-
-- Office 365 그룹 또는 Microsoft Team의 구성원 목록을 가져오려면 Microsoft 365 관리 센터의 **홈 > 그룹** 페이지에서 속성을 볼 수 있습니다. 또는 Exchange Online PowerShell에서 다음 명령을 실행할 수 있습니다.
+ - 사용자의 사서함이 검색 되 면 사용자가 구성원으로 속해 있는 Microsoft 365 그룹 또는 Microsoft 팀이 검색 되지 않습니다. 마찬가지로 Microsoft 365 그룹 또는 Microsoft 팀을 유지 하는 경우 그룹 사서함과 그룹 사이트만 보존 됩니다. 그룹 구성원의 사서함 및 비즈니스용 OneDrive 사이트는 명시적으로 custodians로 추가 하거나 데이터 원본을 유지 하는 경우가 아니면 보류 되지 않습니다. 따라서 특정 custodian microsoft 365 그룹이 나 Microsoft Team을 보류할 필요가 있는 경우 그룹 사이트 및 그룹 사서함을 custodian에 매핑하는 것이 좋습니다 (Advanced eDiscovery에서 Custodians 관리 참조). Microsoft 365 그룹 또는 Microsoft 팀이 단일 custodian으로 인 한 경우에는 custodial 되지 않은 보류에 원본을 추가 하는 것이 좋습니다. 
+ 
+ - Microsoft 365 그룹 또는 Microsoft Team의 구성원 목록을 보려면 Microsoft 365 관리 센터의 홈 > 그룹 페이지에서 속성을 볼 수 있습니다. 또는 Exchange Online PowerShell에서 다음 명령을 실행할 수 있습니다.
 
    ```powershell
    Get-UnifiedGroupLinks <group or team name> -LinkType Members | FL DisplayName,PrimarySmtpAddress
