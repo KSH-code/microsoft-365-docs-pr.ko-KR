@@ -21,12 +21,12 @@ search.appverid:
 - BEA160
 description: '다른 지역의 Microsoft 365 비즈니스 에디션 구독에 대해 부과할 세금을 확인할 수 있습니다. '
 ms.custom: okr_SMB
-ms.openlocfilehash: e65dc15237cb14959a68a7413227cec2a3163d60
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 491c8241d8517d342e04a214d426e937895aab5a
+ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635007"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43708134"
 ---
 # <a name="tax-information"></a>세금 정보
 
@@ -94,7 +94,7 @@ Microsoft를 통해 구입한 Microsoft 365 관리 센터에 대한 세금은 �
   
 ### <a name="europe-the-middle-east-and-africa-emea"></a>EMEA(유럽, 중동, 아프리카)
 
-유럽 연합에서 Office 365 서비스를 구입하는 경우 이 구매에 VAT(부가가치세)가 적용됩니다.
+유럽 연합에서 Microsoft 365 서비스를 구입 하는 경우이 구매에는 부가 가능 세금 (VAT)이 적용 됩니다.
   
 - 유럽 연합 회원국에 있는데 현지의 유효한 VAT ID를 제공하지 않는 경우 Microsoft Ireland Operations Ltd.에서는 계정이 설정된 청구 국가를 기준으로 현지의 현행 VAT 세율을 적용합니다.
 
@@ -154,7 +154,7 @@ Microsoft Regional Sales 사무소에서 대금이 청구되는 경우 송장에
 
 미국 및 캐나다에서는 고객 위치에 따라 다양한 세율이 적용됩니다. 푸에르토리코에 있는 경우 현지 VAT(부가가치세)가 적용됩니다.
   
-Microsoft Corporation에서 대금이 청구([송장 참조](view-your-bill-or-invoice.md))되며 미국, 캐나다, 푸에르토리코 외의 국가에서 Office 365에 등록한 경우에는 일반적으로 세금이 부과되지 않습니다.
+Microsoft Corporation에서 대금 청구를 수행 하는 경우 ([청구서 참조](view-your-bill-or-invoice.md)) 미국, 캐나다 및 푸에르토리코 이외의 지역에서 microsoft 365에 등록 한 경우에는 일반적으로 세금은 청구 되지 않습니다.
 
 ## <a name="how-taxes-are-calculated"></a>세금 계산 방법
 

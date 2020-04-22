@@ -1,5 +1,5 @@
 ---
-title: Office 365 eDiscovery에서 부분적으로 인덱싱된 항목 조사
+title: EDiscovery에서 부분적으로 인덱싱된 항목 조사
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -13,15 +13,15 @@ localization_priority: Normal
 ms.collection: M365-security-compliance
 search.appverid: MOE150
 ms.assetid: 4e8ff113-6361-41e2-915a-6338a7e2a1ed
-description: 부분적으로 인덱싱된 항목 (또한 인덱싱되지 않은 항목)은 Exchange 사서함 항목 및 몇 가지 이유로 인해 콘텐츠 검색을 위해 완전히 인덱싱되지 않은 SharePoint 및 OneDrive 사이트의 문서입니다. 이 문서에서는 검색을 위해 항목을 인덱싱할 수 없으며 부분적으로 인덱싱된 항목으로 반환 되며, 부분적으로 인덱싱된 항목에 대 한 검색 오류를 식별 하 고, PowerShell 스크립트를 사용 하 여 부분적으로 인덱싱된 전자 메일에 대 한 조직의 노출을 확인 하는 이유를 알 수 있습니다. 항목.
-ms.openlocfilehash: b67b7d5cfedd37315a9f8bc9027e03b820598846
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: 부분적으로 인덱싱된 항목 (또한 인덱싱되지 않은 항목)은 Exchange 사서함 항목 및 몇 가지 이유로 인해 콘텐츠 검색을 위해 완전히 인덱싱되지 않은 SharePoint 및 OneDrive 사이트의 문서입니다. 이 문서에서는 검색을 위해 항목을 인덱싱할 수 없으며 부분적으로 인덱싱된 항목으로 반환 되며, 부분적으로 인덱싱된 항목에 대 한 검색 오류를 식별 하 고, PowerShell 스크립트를 사용 하 여 부분적으로 인덱싱된 전자 메일 항목에 대 한 조직의 노출을 확인할 수 있는 이유에 대해 알아봅니다.
+ms.openlocfilehash: 64b052e5c04019d5937c3763094529ae5c4c9e42
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42072359"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637466"
 ---
-# <a name="investigating-partially-indexed-items-in-office-365-ediscovery"></a>Office 365 eDiscovery에서 부분적으로 인덱싱된 항목 조사
+# <a name="investigating-partially-indexed-items-in-ediscovery"></a>EDiscovery에서 부분적으로 인덱싱된 항목 조사
 
 보안 & 준수 센터에서 실행 하는 콘텐츠 검색에는 검색을 실행할 때 예상 되는 검색 결과에 부분적으로 인덱싱된 항목이 자동으로 포함 됩니다. 부분적으로 인덱싱된 항목은 Exchange 사서함 항목 및 SharePoint의 문서와 몇 가지 이유로 검색을 위해 완전히 인덱싱되지 않은 비즈니스용 OneDrive 사이트입니다. 대부분의 전자 메일 메시지와 사이트 문서는 [전자 메일 메시지에 대 한 인덱싱 제한](limits-for-content-search.md#indexing-limits-for-email-messages)범위 내에 있으므로 성공적으로 인덱싱됩니다. 그러나 일부 항목은 이러한 인덱싱 제한을 초과할 수 있으며 부분적으로 인덱싱됩니다. 검색을 위해 항목을 인덱싱할 수 없으며 콘텐츠 검색을 실행할 때 부분적으로 인덱싱된 항목으로 반환 되는 기타 이유는 다음과 같습니다.
   
@@ -35,7 +35,7 @@ ms.locfileid: "42072359"
     
 - 파일 형식이 인덱싱에 대해 지원 되지만 특정 파일에 대해 인덱싱 오류가 발생 했습니다.
     
-대부분의 Office 365 조직 고객은 볼륨 별로 콘텐츠가 1% 미만이 고 부분적으로 인덱싱되는 크기의 콘텐츠 중 12% 미만 이어야 합니다. 볼륨과 크기 간의 차이점은 큰 파일의 경우 완전히 인덱싱할 수 없는 콘텐츠가 포함 될 가능성이 높기 때문입니다.
+이는 다를 수 있지만 대부분의 조직 고객은 볼륨 별로 콘텐츠가 1% 미만이 고 부분적으로 인덱싱되는 크기의 콘텐츠 중 12% 미만 이어야 합니다. 볼륨과 크기 간의 차이점은 큰 파일의 경우 완전히 인덱싱할 수 없는 콘텐츠가 포함 될 가능성이 높기 때문입니다.
   
 ## <a name="why-does-the-partially-indexed-item-count-change-for-a-search"></a>검색에서 부분적으로 인덱싱된 항목 수가 변경 되는 이유는 무엇 인가요?
 
@@ -70,7 +70,7 @@ ms.locfileid: "42072359"
 
 `(316 MB/4830 MB) x 100 = 6.54%`
 
-따라서 위 예에서 전체 사서함 항목 크기의 6.54%는 부분적으로 인덱싱된 항목에 해당 합니다. 앞에서 설명한 것 처럼 대부분의 Office 365 조직 고객은 볼륨 별로 콘텐츠가 1% 미만이 고 부분적으로 인덱싱되는 크기의 콘텐츠 중 12% 미만 이어야 합니다.
+따라서 위 예에서 전체 사서함 항목 크기의 6.54%는 부분적으로 인덱싱된 항목에 해당 합니다. 앞에서 설명한 것 처럼 대부분의 조직 고객은 볼륨 별로 콘텐츠가 1% 미만이 고 부분적으로 인덱싱되는 크기의 콘텐츠 중 12% 미만 이어야 합니다.
 
 ## <a name="working-with-partially-indexed-items"></a>부분적으로 인덱싱된 항목 사용
 
@@ -103,12 +103,12 @@ Error 태그는 두 가지 정보, 오류 및 파일 형식으로 구성 됩니�
 | `attachmentsize` <br/> |전자 메일 메시지에 첨부 된 파일이 너무 커서 처리할 수 없습니다.  <br/> |
 | `indexingtruncated` <br/> |처리 된 전자 메일 메시지를 인덱스에 쓸 때 인덱싱 가능한 속성 중 하나가 너무 커서 잘렸습니다. 잘린 속성은 오류 속성 필드에 나열 됩니다.  <br/> |
 | `invalidunicode` <br/> |유효한 유니코드로 처리할 수 없는 텍스트가 포함 된 전자 메일 메시지 이 항목에 대 한 인덱싱이 불완전할 수 있습니다.  <br/> |
-| `parserencrypted` <br/> |첨부 파일 또는 전자 메일 메시지의 내용이 암호화 되 고 Office 365에서 콘텐츠를 디코딩할 수 없습니다.  <br/> |
+| `parserencrypted` <br/> |첨부 파일 또는 전자 메일 메시지의 내용이 암호화 되 고 Microsoft 365에서 콘텐츠를 디코딩할 수 없습니다.  <br/> |
 | `parsererror` <br/> |구문 분석 중 알 수 없는 오류가 발생 했습니다. 이는 일반적으로 소프트웨어 버그나 서비스 중단으로 인해 발생 합니다.  <br/> |
 | `parserinputsize` <br/> |파서가 처리할 수 없는 첨부 파일이 너무 커서 해당 첨부 파일의 구문 분석이 발생 하지 않았거나 완료 되지 않았습니다.  <br/> |
 | `parsermalformed` <br/> |첨부 파일이 잘못 되었거나 파서에서 처리할 수 없습니다. 이 결과는 이전 파일 형식, 호환 되지 않는 소프트웨어에서 만든 파일 또는 요청 되지 않은 것으로 가장 된 바이러스로 인해 발생 합니다.  <br/> |
 | `parseroutputsize` <br/> |첨부 파일의 구문 분석 출력이 너무 커서 잘렸습니다.  <br/> |
-| `parserunknowntype` <br/> |Office 365에서 검색할 수 없는 파일 형식을 첨부 한 경우  <br/> |
+| `parserunknowntype` <br/> |첨부 파일이 Microsoft 365에서 검색할 수 없는 파일 형식을 갖고 있습니다.  <br/> |
 | `parserunsupportedtype` <br/> |Office 365에서 검색할 수 있는 파일 형식이 첨부 되었지만 해당 파일 형식이 지원 되지 않는 구문 분석  <br/> |
 | `propertytoobig` <br/> |Exchange 스토어의 전자 메일 속성 값이 너무 커서 검색할 수 없으며 메시지를 처리할 수 없습니다. 일반적으로 전자 메일 메시지의 body 속성에만 발생 합니다.  <br/> |
 | `retrieverrms` <br/> |콘텐츠 검색기에서 RMS 보호 메시지를 디코딩하지 못했습니다.  <br/> |
@@ -118,7 +118,7 @@ Error 태그는 두 가지 정보, 오류 및 파일 형식으로 구성 됩니�
   
 ## <a name="using-a-powershell-script-to-determine-your-organizations-exposure-to-partially-indexed-email-items"></a>PowerShell 스크립트를 사용 하 여 부분적으로 인덱싱된 전자 메일 항목에 대 한 조직의 노출을 확인
 
-다음 단계에서는 모든 Exchange 사서함의 모든 항목을 검색 하는 PowerShell 스크립트를 실행 한 다음 조직에서 부분적으로 인덱싱된 전자 메일 항목 (개수 및 크기)에 대 한 보고서를 생성 하 고 항목 수를 표시 하는 방법을 보여 줍니다 (및 각 인덱싱 오류가 발생 하는 파일 형식) 이전 섹션의 오류 태그 설명을 사용 하 여 인덱싱 오류를 식별 합니다.
+다음 단계에서는 모든 Exchange 사서함의 모든 항목을 검색 하는 PowerShell 스크립트를 실행 한 다음 조직에서 부분적으로 인덱싱된 전자 메일 항목 (개수 및 크기)에 대 한 보고서를 생성 하 고 발생 하는 각 인덱싱 오류에 대 한 항목 수 (파일 형식)를 표시 하는 방법을 보여 줍니다. 이전 섹션의 오류 태그 설명을 사용 하 여 인덱싱 오류를 식별 합니다.
   
 1. 파일 이름 접미사. p s 1을 사용 하 여 Windows PowerShell 스크립트 파일에 다음 텍스트를 저장 합니다. 예를 `PartiallyIndexedItems.ps1`들면입니다.
 

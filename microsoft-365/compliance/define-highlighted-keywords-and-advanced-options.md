@@ -1,5 +1,5 @@
 ---
-title: Office 365 Advanced eDiscovery에서 강조 표시 된 키워드 및 고급 옵션 정의
+title: 고급 eDiscovery에서 강조 표시 된 키워드 및 고급 옵션 정의
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -14,13 +14,13 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 03cc4387-2c7d-4058-8a44-0deefb58f011
-description: 'Office 365 Advanced eDiscovery에서 태그를 지정 하는 동안 관련 파일을 식별 하는 데 도움이 되는 사용자 정의 키워드와 관련성을 추가 하는 방법에 대해 알아보고 비용 매개 변수  '
-ms.openlocfilehash: bec34867e7dfdb86848fd1fd2126d5cf96129802
-ms.sourcegitcommit: 053d42480d8aa3792ecb0027ddd53d383a029474
+description: '고급 eDiscovery에 태그를 지정 하는 동안 관련 파일을 식별 하는 데 도움이 되는 사용자 정의 키워드와 관련성을 추가 하는 방법을 설명 하 고 비용 매개 변수  '
+ms.openlocfilehash: b36032c148e5819440bc31cbf4692db51abf1add
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "42556766"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43630555"
 ---
 # <a name="define-highlighted-keywords-and-advanced-options-in-advanced-ediscovery-classic"></a>고급 eDiscovery에서 강조 표시 된 키워드 및 고급 옵션 정의 (클래식)
 

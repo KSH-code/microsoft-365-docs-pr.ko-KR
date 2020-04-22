@@ -14,18 +14,18 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 52752c31ae52fa75a3a50dbd6a4aa27605f6d921
-ms.sourcegitcommit: 8876c216954b94adce9cdf493c49bd5a10190a3a
+ms.openlocfilehash: 182e3489824c7842f5e9cf6a410d49d574b7462c
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42228514"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43638002"
 ---
 # <a name="health-insurance-portability-and-accountability-hipaa--hitech-acts"></a>HITECH의 상태 보험 이식성 및 책임 (HIPAA) &
 
 ## <a name="hipaa-and-the-hitech-act-overview"></a>HIPAA 및 HITECH Act 개요
 
-HIPAA (건강 보험 이식성 및 책임 Act)는 개별적으로 식별 가능한 상태 정보의 사용, 공개 및 보호를 위한 요구 사항을 설정 하는 미국 의료 기관입니다. 이 문서는 남기려면 ' 사무실, hospitals, health insurers 및 기타 의료 기업에 적용 되며 환자의 ' protected health information (r)에 대 한 액세스 권한 뿐만 아니라 클라우드 서비스 및 IT 공급자와 같은 비즈니스 관계자에 게이를 처리 합니다. 를 대신 합니다. (대부분의 항목 엔터티는 클레임 또는 데이터 처리와 같은 기능을 자체적으로 수행 하지 않으며, 비즈니스 연결을 사용 하 여 작업을 수행 합니다.)
+HIPAA (건강 보험 이식성 및 책임 Act)는 개별적으로 식별 가능한 상태 정보의 사용, 공개 및 보호를 위한 요구 사항을 설정 하는 미국 의료 기관입니다. 이 정보는 남기려면 ' 사무실, hospitals, health insurers 및 기타 의료 기업 (환자의 ' protected health information)에 대 한 액세스 권한이 있으며, 클라우드 서비스 및 IT 공급자와 같이 사용 하지 않는 비즈니스 연결에도 적용 됩니다. (대부분의 항목 엔터티는 클레임 또는 데이터 처리와 같은 기능을 자체적으로 수행 하지 않으며, 비즈니스 연결을 사용 하 여 작업을 수행 합니다.)
 
 이 법칙은 다음과 같은 네 가지 일반적인 분야에서 사용 하지 않는 것을 규정 합니다.
 
@@ -43,7 +43,7 @@ HIPAA의 범위는 경제 및 임상 의료 (HITECH) Act에 대 한 상태 정�
 
 ## <a name="microsoft-and-hipaa-and-the-hitech-act"></a>Microsoft와 HIPAA 및 HITECH Act
 
-HIPAA 규정에 대해 다루는 엔터티 및 해당 비즈니스 관계자 (이 경우에는 Microsoft가 클라우드 서비스를 포함 하 여 포함 된 엔터티)를 제공 하 여 이러한 비즈니스 관계자가 적절 하 게 연결 되도록 하는 서비스를 계약에 입력 해야 합니다. 화이를 보호 합니다. 이러한 계약서 또는 BAAs는 비즈니스 연결에서 화이을 처리 하는 방법을 명확 하 게 하 고 제한 하며, 각 당사자가 HIPAA 및 HITECH Act에 설정 된 보안 및 개인 정보 보호 규정을 준수 하도록 설정할 수 있습니다. 일단 BAA가 배치 되 면 Microsoft 고객은 해당 서비스를 사용 하 여 화이를 처리 하 고 저장할 수 있습니다.
+HIPAA 규정 엔터티 및 해당 비즈니스 관계자 (이 경우에는 Microsoft가 클라우드 서비스를 포함 하 여 포함 된 엔터티에 대 한 서비스를 제공 하는 경우)를 계약에 입력 하 여 해당 비즈니스 관계자가 더 이상 사용할 수 없는 상황을 보호할 수 있도록 해야 합니다. 이러한 계약서 또는 BAAs는 비즈니스 연결에서 화이을 처리 하는 방법을 명확 하 게 하 고 제한 하며, 각 당사자가 HIPAA 및 HITECH Act에 설정 된 보안 및 개인 정보 보호 규정을 준수 하도록 설정할 수 있습니다. 일단 BAA가 배치 되 면 Microsoft 고객은 해당 서비스를 사용 하 여 화이를 처리 하 고 저장할 수 있습니다.
 
 현재 HIPAA 또는 HITECH Act 규정 준수에 대 한 공식 인증을 사용할 수 없습니다. 그러나, BAA에서 다루는 이러한 Microsoft 서비스는 Microsoft ISO/IEC 27001 인증을 위해 공인 독립 감사자에 의해 수행 된 감사를 거쳤습니다.
 
@@ -57,7 +57,7 @@ Microsoft 엔터프라이즈 클라우드 서비스에는 FedRAMP 평가도 포�
 - Cloud App Security
 - Microsoft Health Bot 서비스
 - Microsoft Stream
-- Microsoft 전문 서비스: Azure, Dynamics 365, Intune, Office 365의 중간 규모 비즈니스 및 엔터프라이즈 고객 대상 프리미어 및 온-프레미스
+- Microsoft 전문 서비스: Azure, Dynamics 365, Intune, 중소 기업 및 기업 고객을 위한 Microsoft 365 비즈니스에 대 한 프리미어 및 온-프레미스
 - [Dynamics 365 및 Dynamics 365 U.S. Government](https://aka.ms/d365-compliance-list)
 - 독립 실행형 서비스 혹은 Office 365 혹은 Dynamics 365에 브랜딩된 플랜 또는 제품군에 포함된 형태로서의 Microsoft Flow 클라우드 서비스
 - Intune
@@ -114,7 +114,7 @@ Microsoft 서비스가 모든 고객에 대해 일관성이 있으므로 microso
 - [Microsoft Government 클라우드](https://go.microsoft.com/fwlink/p/?linkid=2087246)
 - [Azure에서 HIPAA 준수 이해](https://www.youtube.com/embed/6ptdye1LZ5k?autoplay=0)(5 월 19 2016 일)
 - [Azure HIPAA 구현 지침](https://aka.ms/azure-hipaa-guide)
-- [Microsoft 보안 센터의 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
+- [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 
 ## <a name="download-the-offering-backgrounder"></a>제공 사항의 배경 설명 다운로드
 

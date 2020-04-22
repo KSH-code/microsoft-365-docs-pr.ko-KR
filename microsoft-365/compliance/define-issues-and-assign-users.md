@@ -1,5 +1,5 @@
 ---
-title: Office 365 Advanced eDiscovery에서 문제점 정의 및 사용자 할당
+title: 고급 eDiscovery에서 문제 정의 및 사용자 지정
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -14,13 +14,13 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 48d37ee7-05bd-4cb8-9723-a8959ad23fbe
-description: Office 365 Advanced eDiscovery에서 문제점을 추가 하거나 편집 하 여 사용자 할당을 포함 하거나 eDiscovery 사례에 대 한 문제를 삭제 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 5c7c15b765a0c129e8a58533951b6569b8766b45
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+description: 사용자 할당을 비롯 한 문제점을 추가 하거나 편집 하 고, Advanced eDiscovery에서 eDiscovery 사례에 대 한 문제를 삭제 하는 방법에 대해 알아봅니다.
+ms.openlocfilehash: 3e1366962393b6e1bb3605472b4f635fbcf6e4bd
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42556976"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43630661"
 ---
 # <a name="define-issues-and-assign-users-in-advanced-ediscovery-classic"></a>고급 eDiscovery에서 문제 정의 및 사용자 지정 (클래식)
 

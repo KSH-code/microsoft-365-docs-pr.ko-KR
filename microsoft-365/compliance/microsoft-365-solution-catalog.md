@@ -11,12 +11,12 @@ ms.service: o365-seccomp
 localization_priority: Normal
 description: 포함 된 내용, 가져오는 방법 및 다음 단계를 포함 하 여 Microsoft 365 솔루션 카탈로그에 대해 알아봅니다.
 ms.collection: M365-security-compliance
-ms.openlocfilehash: 3c44d5ffd401645fbac1f1f122024e41597b0207
-ms.sourcegitcommit: 87cc278ea2ddcd536ecfaa3dfae9a5ddaa502cf9
+ms.openlocfilehash: c2fad2726b7e923f871c0307f17f28ea3f99b1bd
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42179149"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637950"
 ---
 # <a name="microsoft-365-solution-catalog"></a>Microsoft 365 솔루션 카탈로그
 
@@ -89,7 +89,7 @@ Microsoft 365 솔루션 카탈로그를 방문 하려면로 [https://compliance.
 
 항상 Microsoft 365 준수 센터 및 솔루션 카탈로그에 새로운 기능을 추가 하는 작업을 수행 하 고 있습니다. 탐색 영역에서 특정 솔루션을 찾을 수 없으면 해당 솔루션을 구독에서 사용할 수 있는 경우 액세스할 수 있게 됩니다.
 
-기존 준수 솔루션을 찾고 있는 경우 Microsoft 365 준수 센터에서 아직 사용할 수 없는 경우에 [https://protection.office.com](https://protection.office.com)는 기존 Office 365 보안 및 준수 센터에서 언제 든 지 솔루션에 액세스할 수 있습니다. 또는 Microsoft 365 준수 센터의 왼쪽 탐색 창에 있는 **기타 리소스** 탭을 클릭 하 고 Office 365 보안 및 준수 센터 카드를 선택할 수 있습니다.  
+기존 준수 솔루션을 찾고 있지만 Microsoft 365 준수 센터에서는 아직 사용 하지 않는 경우에 &amp; [https://protection.office.com](https://protection.office.com)는 기존 보안 준수 센터에서 언제 든 지 솔루션에 액세스할 수 있습니다. 또는 Microsoft 365 준수 센터의 왼쪽 탐색 창에 있는 **기타 리소스** 탭을 클릭 하 고 Office 365 보안 및 준수 센터 카드를 선택할 수 있습니다.  
 
 ## <a name="next-steps"></a>다음 단계
 

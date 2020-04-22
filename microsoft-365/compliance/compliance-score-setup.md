@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 위험 평가를 간소화 하 고 자동화 하는 데 도움이 되는 Microsoft 준수 점수를 설정 하 고 시작 하는 방법을 알아봅니다.
-ms.openlocfilehash: 334eb47ebf5057bfa1c426715e8f404979ceaf5b
-ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
+ms.openlocfilehash: 4ccd89647540aeda8ba6253f6e5eefab1dc81791
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141523"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632393"
 ---
 # <a name="microsoft-compliance-score-preview-setup"></a>Microsoft 준수 점수 (미리 보기) 설치
 

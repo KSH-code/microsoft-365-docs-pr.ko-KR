@@ -22,12 +22,12 @@ search.appverid:
 ms.assetid: eb0d0680-5677-41a0-8c46-4b9d47f1c209
 ROBOTS: NOINDEX
 description: 새 구독을 구입 하 고 구독이 모두 나열 되 고 활성화 되도록 하 여 Microsoft 365 비즈니스 구독을 수동으로 전환 합니다.
-ms.openlocfilehash: e5245e333984c9d8e67b174f10cf48b2339348de
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: f06e6a5f441286cbe048187eea39889772bb4e75
+ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636537"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43707514"
 ---
 # <a name="switch-microsoft-365-for-business-plans-manually"></a>수동으로 Microsoft 365 for business 요금제 전환
 
@@ -84,13 +84,9 @@ ms.locfileid: "43636537"
 
     사용자를 이동 하는 구독과 사용자를 이동 하려는 구독은 함께 나열 되어야 합니다. 처음 확인할 때 새 구독이 없으면 나중에 다시 시도 하세요. 두 구독이 모두 **활성**아래에 나열 되어 있는지 확인 합니다. [새 구독이 나열 되지 않거나 활성](#the-new-subscription-isnt-listed-or-isnt-active)상태가 아닙니다.
 
-   **사용 가능한 라이선스가 포함 된 새로운 Microsoft 365 비즈니스 에디션 구독**
-
-    ![새 구독에 대 한 라이선스 수를 보여 주는 구독 페이지입니다.](../../media/65a73e96-7c95-4daa-b6ec-71a4bf74dda5.png)
-  
 3. **각 사용자에 대 한 라이선스가 충분 한지 확인**
 
-    각 사용자에 게는 구독과 일치 하는 라이선스가 필요 합니다. 따라서 10 명의 사용자를 Office 365 Enterprise e 5로 이동 하려는 경우에는 라이선스를 10 개 사용할 수 있는지 확인 해야 합니다. 여기에 있는 그림에서는 10 개의 라이선스가 Office 365 Enterprise e 5에 대해 구매 되었으며, 10 개의 라이선스를 할당할 수 있습니다.
+    각 사용자에 게는 구독과 일치 하는 라이선스가 필요 합니다. 따라서 10 명의 사용자를 Microsoft 365 Business Premium으로 이동 하려면 10 개의 라이선스를 사용할 수 있는지 확인 해야 합니다. 
 
 4. **새 구독에 대 한 라이선스가 더 필요 한가요?** **구독** 페이지로 이동 하 여 [Microsoft 365 for business 구독에 대 한 라이선스를 구입](../licenses/buy-licenses.md)합니다.
   
@@ -139,8 +135,6 @@ ms.locfileid: "43636537"
     > [!TIP]
     > 사용자가 사용할 수 있는 서비스를 제한 하려면 해당 사용자에 대해 제거할 서비스의 **해제** 위치로 전환 합니다 .를 선택 합니다. 예를 들어 사용자에 게 비즈니스용 Skype Online을 제외한 모든 사용 가능한 서비스에 대 한 액세스 권한을 제공 하려는 경우 비즈니스용 Skype Online 서비스에 대 한 토글을 **해제** 위치로 전환할 수 있습니다.
   
-    ![사용자에 대 한 라이선스 할당 설정](../../media/5e53a979-6b08-4981-bb0b-fa657146334b.png)
-  
 5. 이 사용자가 더 이상 필요 하지 않은 라이선스를 **해제** 위치로 전환 합니다.
 
 6. **제품 라이선스** 창 아래쪽에 있는 닫기 **에 가깝게** \> **할당** \> 을 선택 **합니다.**
@@ -149,19 +143,19 @@ ms.locfileid: "43636537"
 
 ::: moniker range="o365-worldwide"
 
-1. 관리 센터에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동 하거나 **사용자** \> **활성 사용자**를 선택 합니다.
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동 합니다.
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. 관리 센터에서 **사용자** > <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동 합니다.
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. 관리 센터에서 **사용자** > <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다.
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다.
 
 ::: moniker-end
 
@@ -176,8 +170,6 @@ ms.locfileid: "43636537"
     > [!TIP]
     > - 사용자가 사용할 수 있는 서비스를 제한 하려면 해당 사용자에 대해 제거할 서비스에 대 한 **해제** 위치로 전환 합니다. 예를 들어 사용자에 게 비즈니스용 Skype Online을 제외한 모든 사용 가능한 서비스에 대 한 액세스 권한을 제공 하려는 경우 비즈니스용 Skype Online 서비스에 대 한 토글을 **해제** 위치로 전환할 수 있습니다.
     > - 선택한 사용자에 대한 모든 이전 라이선스 할당이 제거됩니다.
-  
-    ![사용자에 대 한 라이선스 할당 설정](../../media/5e53a979-6b08-4981-bb0b-fa657146334b.png)
   
 6. **기존 제품 바꾸기** 창의 아래쪽에서 **바꾸기** \> **닫기**를 선택합니다.
 

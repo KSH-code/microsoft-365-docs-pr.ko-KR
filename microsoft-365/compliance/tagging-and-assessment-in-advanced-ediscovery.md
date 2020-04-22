@@ -1,5 +1,5 @@
 ---
-title: Office 365 Advanced eDiscovery에서 태그 지정 및 평가
+title: Advanced eDiscovery에서 태그 지정 및 평가
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -15,13 +15,13 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: b5c82de7-ed2f-4cc6-becd-db403faf4d18
-description: '태그 파일을 포함 하 여 평가 교육을 수행 하는 단계를 검토 하 고 Office 365 Advanced eDiscovery에서 평가 결과를 검토 합니다. '
-ms.openlocfilehash: 04f88a5efbd48c222c8c7033d94ae41634a06d99
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+description: '태그 파일을 포함 하 여 평가 교육을 수행 하는 단계를 검토 하 고 Advanced eDiscovery에서 평가 결과를 검토 합니다. '
+ms.openlocfilehash: ef09268da8f76a4775fa6209a11d9c670abe0f94
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42557728"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43630695"
 ---
 # <a name="tagging-and-assessment-in-advanced-ediscovery-classic"></a>Advanced eDiscovery에서 태그 지정 및 평가 (클래식)
 

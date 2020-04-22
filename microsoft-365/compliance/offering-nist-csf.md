@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 5d30073d611edf60ced4d926fdae0708d555cb6f
-ms.sourcegitcommit: 732bb72a0b5ae09cb39536185aa29d6097ec72fd
+ms.openlocfilehash: b380604e908d91feacefe6b54ed3d3f08dcea0fa
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "43188985"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637800"
 ---
 # <a name="national-institute-of-standards-and-technology-nist-cybersecurity-framework-csf"></a>국내 표준 협회 및 기술 (NIST) Cybersecurity Framework (CSF)
 
@@ -35,7 +35,10 @@ FICIC은 [중요 한 인프라 Cybersecurity 개선을 위해 Nist 프레임 워
 
 NIST Cybersecurity Framework (CSF)는 Cybersecurity 관련 위험을 관리 하기 위한 표준, 지침 및 모범 사례를 구성 하는 자발적 프레임 워크입니다. Microsoft 클라우드 서비스는 독립 된 타사 FedRAMP 일반 감사를 준수 했으며 FedRAMP 표준에 따라 인증 됩니다. 또한 HITRUST에서 수행 하는 유효성 검사 평가를 통해 선두 보안 및 개인 정보 표준 개발 및 인정 조직을 통해 Office 365은 NIST CSF에 지정 된 목표로 인증 됩니다.
 
-준수 점수를 사용 하 여 NIST Cybersecurity Framework 배포를 가속화 하 [는 방법을 알아봅니다](https://techcommunity.microsoft.com/t5/Security-Privacy-and-Compliance/New-NIST-CSF-and-CSA-CCM-assessments-available-in-Compliance/ba-p/218554) .
+준수 점수 및 Azure 보안 및 준수 청사진을 사용 하 여 NIST Cybersecurity Framework 배포를 가속화 하는 방법을 알아봅니다.
+
+- [Azure 보안 및 규정 준수 청사진 다운로드-NIST CSF 위험 요소 분석 검사 목록](https://servicetrust.microsoft.com/ViewPage/Blueprint?command=Download&downloadType=Document&downloadId=11e61716-11ab-4b11-9a9a-434b33a62ff9&docTab=fc060920-cdb8-11e7-bacf-0bf52b09d912_NIST_CSF_Blueprint)
+- [규정 준수 점수가 Office 365에 대 한 NIST CSF 평가에 대해 자세히 알아보기](https://techcommunity.microsoft.com/t5/Security-Privacy-and-Compliance/New-NIST-CSF-and-CSA-CCM-assessments-available-in-Compliance/ba-p/218554)
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 범위 내 클라우드 서비스
 
@@ -51,10 +54,9 @@ NIST CSF 인증은 Office 365의 2 년 동안 유효 합니다.
 
 ## <a name="quickly-build-nist-csf-solutions-on-azure"></a>Azure에서 NIST CSF 솔루션 빠르게 구축
 
-CSF (NIST Cybersecurity Framework) 표준은 클라우드에서 어려울 수 있습니다. 현재는 FedRAMP 중간 또는 FedRAMP에 대 한 새로운 청사진 샘플을 사용 하 여 시작 하는 데 도움을 받을 수 있습니다. 새 NIST CSF 컨트롤은 이러한 FedRAMP 베이스 라인의 컨트롤에서 개발 되 고 있습니다.
+CSF (NIST Cybersecurity Framework) 표준은 클라우드에서 어려울 수 있습니다. 다행히도 Azure를 사용 하는 경우에는 Azure Security and 준수 NIST CSF 청사진을 시작할 수 있습니다. 이 청사진은 지금 NIST CSF 준수 솔루션을 구축 하는 데 도움이 되는 도구 및 지침을 제공 합니다.
 
-- [FedRAMP 중간 청사진 샘플](https://docs.microsoft.com/azure/governance/blueprints/samples/fedramp-m/)
-- [FedRAMP 고급 청사진 샘플](https://docs.microsoft.com/azure/governance/blueprints/samples/fedramp-h/)
+- [Azure NIST CSF 청사진 사용 시작](https://aka.ms/Azure-Blueprint-DoD-NIST)
 
 ## <a name="perform-risk-assessment-on-office-365-using-nist-csf-in-compliance-score"></a>준수 점수에 NIST CSF를 사용 하 여 Office 365에 대 한 위험 요소 분석 수행
 
@@ -62,7 +64,7 @@ Cybersecurity는 디지털 변환 연대의 중요 관리 문제를 그대로 �
 
 - [준수 점수 사용 시작](compliance-score.md)
 
-## <a name="frequently-asked-questions"></a>질문과 대답
+## <a name="frequently-asked-questions"></a>자주하는 질문
 
 **Azure 정부, Dynamics 365 및 Office 365 지원 NIST CSF 요구 사항에 대 한 독립적인 평가자 확인 해야 하나요?**
 
@@ -89,7 +91,7 @@ FICIC에 참가 하는 것은 자발적입니다. 그러나 Microsoft는 Azure, 
 NIST CSF 인증의 범위 내 서비스는 Exchange Online, Exchange online Protection, exchange Online, 비즈니스용 Skype, 관리 센터, SharePoint Online, Project Online, 비즈니스용 OneDrive, office Online, MyAnalytics, Microsoft 팀, office ProPlus, office 365 다중 테 넌 트 클라우드 및 Office 365 GCC입니다.
 
 > [!NOTE]
-> Office 365 ProPlus는 로밍 설정, 라이선스 및 OneDrive 소비자 클라우드 저장소와 같은 다양 한 클라우드 서비스에 액세스할 수 있도록 하며 나중에 추가 클라우드 서비스에 대 한 액세스를 사용 하도록 설정할 수 있습니다. 로밍 설정 및 라이선스는 HITRUST에 대 한 표준을 지원 합니다. OneDrive 소비자 클라우드 저장소 및 Office 365 ProPlus를 통해 액세스할 수 있는 기타 클라우드 서비스 및 Microsoft에서 향후에 제공 하는 서비스도 이러한 표준을 지원 하지 않을 수도 있습니다. *
+> Microsoft 365 enterprise 용 앱을 사용 하면 로밍 설정, 라이선스 및 OneDrive 소비자 클라우드 저장소와 같은 다양 한 클라우드 서비스에 액세스할 수 있으며 나중에 추가 클라우드 서비스에 대 한 액세스를 사용 하도록 설정할 수 있습니다. 로밍 설정 및 라이선스는 HITRUST에 대 한 표준을 지원 합니다. OneDrive 소비자 클라우드 저장소와 함께 제공 되지 않으며 Microsoft 365 앱을 통해 액세스할 수 있는 기타 클라우드 서비스 및 Microsoft에서 향후에 제공할 수도 있는 기타 클라우드의 서비스가 이러한 표준을 지원 하지 않을 수도 있습니다. *
 
 **일부 Office 365 서비스가이 인증의 범위에 없는 이유는 무엇 인가요?**
 
@@ -97,7 +99,7 @@ Microsoft는 다른 클라우드 서비스 공급자에 비해 가장 포괄적�
 
 ## <a name="use-microsoft-compliance-score-to-assess-your-risk"></a>Microsoft 준수 점수를 사용하여 위험 평가
 
-[Microsoft 준수 점수가](compliance-score.md) [microsoft 365 준수 센터](microsoft-365-compliance-center.md) 의 미리 보기 기능을 통해 조직의 규정 준수 상태를 이해 하 고 위험을 줄일 수 있는 조치를 취할 수 있습니다. [규정 준수 점수를 설정한](compliance-score-setup.md)후에는 **서식 파일** 드롭다운 메뉴에서 미리 구성 된 [NIST CSF 서식 파일](https://go.microsoft.com/fwlink/?linkid=2117917) 을 선택 하 여 조직이이 규정 요구 사항을 충족 하는 데 도움을 받을 수 있습니다.
+[Microsoft 준수 점수](compliance-score.md)는 조직의 준수 입장을 이해하고 위험을 줄이기 위한 조치를 취하도록 돕는 [Microsoft 365 컴플라이언스 센터](microsoft-365-compliance-center.md)의 미리 보기 기능입니다. [규정 준수 점수를 설정한](compliance-score-setup.md)후에는 **서식 파일** 드롭다운 메뉴에서 미리 구성 된 [NIST CSF 서식 파일](https://go.microsoft.com/fwlink/?linkid=2117917) 을 선택 하 여 조직이이 규정 요구 사항을 충족 하는 데 도움을 받을 수 있습니다.
 
 ## <a name="resources"></a>리소스
 

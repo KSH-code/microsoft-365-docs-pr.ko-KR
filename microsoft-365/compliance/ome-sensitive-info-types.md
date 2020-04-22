@@ -1,5 +1,5 @@
 ---
-title: Office 365 메시지 암호화를 사용하여 조직에 대한 중요한 정보 형식 정책 만들기
+title: 메시지 암호화를 사용 하 여 조직에 대 한 중요 한 정보 유형 정책 만들기
 f1.keywords:
 - NOCSH
 ms.author: krowley
@@ -17,16 +17,16 @@ ms.collection:
 - M365-security-compliance
 - Strat_O365_Enterprise
 description: '요약: 중요 한 정보 유형에 대 한 Office 365 메시지 암호화 정책'
-ms.openlocfilehash: a3767fb0f9fe5e565c49db4f9da94d75a3cee8a7
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: a36ab68eb649c84a46fa96de8ee400632c5c1d26
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601795"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43626876"
 ---
-# <a name="create-a-sensitive-information-type-policy-for-your-organization-using-office-365-message-encryption"></a>Office 365 메시지 암호화를 사용하여 조직에 대한 중요한 정보 형식 정책 만들기
+# <a name="create-a-sensitive-information-type-policy-for-your-organization-using-message-encryption"></a>메시지 암호화를 사용 하 여 조직에 대 한 중요 한 정보 유형 정책 만들기
 
-Exchange 메일 흐름 규칙 또는 Office 365 DLP (데이터 손실 방지)를 사용 하 여 Office 365 메시지 암호화를 사용 하 여 중요 한 정보 유형 정책을 만들 수 있습니다. Exchange 메일 흐름 규칙을 만들려면 EAC (Exchange 관리 센터) 또는 PowerShell을 사용할 수 있습니다.
+Exchange 메일 흐름 규칙 또는 DLP (데이터 손실 방지)를 사용 하 여 Office 365 메시지 암호화로 중요 한 정보 유형 정책을 만들 수 있습니다. Exchange 메일 흐름 규칙을 만들려면 EAC (Exchange 관리 센터) 또는 PowerShell을 사용할 수 있습니다.
 
 ## <a name="to-create-the-policy-by-using-mail-flow-rules-in-the-eac"></a>EAC에서 메일 흐름 규칙을 사용 하 여 정책을 만들려면
 
@@ -34,7 +34,7 @@ EAC (Exchange 관리 센터)에 로그인 하 고 **메일 흐름** > **규칙**
 
 ### <a name="to-create-the-policy-by-using-mail-flow-rules-in-powershell"></a>PowerShell에서 메일 흐름 규칙을 사용 하 여 정책을 만들려면
 
-Office 365 조직에서 전역 관리자 권한이 있는 회사 또는 학교 계정을 사용 하 고, Windows PowerShell 세션을 시작 하 고, Exchange Online에 연결 합니다. 지침을 확인하려면 [Exchange Online PowerShell에 연결](https://aka.ms/exopowershell)을 참조하세요. New-transportrule cmdlet을 사용 하 여 정책을 만듭니다.
+조직에서 전역 관리자 권한이 있는 회사 또는 학교 계정을 사용 하 고, Windows PowerShell 세션을 시작 하 고, Exchange Online에 연결 합니다. 지침을 확인하려면 [Exchange Online PowerShell에 연결](https://aka.ms/exopowershell)을 참조하세요. New-transportrule cmdlet을 사용 하 여 정책을 만듭니다.
 
 ## <a name="example-mail-flow-rule-created-with-powershell"></a>PowerShell로 만든 메일 흐름 규칙 예제
 
@@ -57,21 +57,21 @@ New-TransportRule -Name "Encrypt outbound sensitive emails (out of box rule)" -S
 
 ## <a name="how-recipients-access-attachments"></a>받는 사람이 첨부 파일에 액세스 하는 방법
 
-Office 365에서 메시지를 암호화 한 후에는 받는 사람이 암호화 된 전자 메일에 액세스 하 여 열 때 첨부 파일에 무제한으로 액세스할 수 있습니다.
+Microsoft에서 메시지를 암호화 하면 받는 사람은 암호화 된 전자 메일에 액세스 하 여 열 때 첨부 파일에 무제한으로 액세스할 수 있습니다.
 
 ## <a name="to-prepare-for-this-change"></a>이 변경 내용을 준비 하려면
 
 해당 하는 최종 사용자 설명서 및 교육 자료를 업데이트 하 여 조직의 사용자가이 변경 내용을 준비할 수 있습니다. 다음 Office 365 메시지 암호화 리소스를 사용자와 적절 하 게 공유 합니다.
 
 - [PC 용 Outlook에서 암호화 된 메시지 보내기, 확인 및 회신](https://support.office.com/article/eaa43495-9bbb-4fca-922a-df90dee51980)
-- [Office 365 Essentials 동영상: Office 메시지 암호화](https://youtu.be/CQR0cG_iEUc)
+- [Microsoft 365 Essentials Video: Office 메시지 암호화](https://youtu.be/CQR0cG_iEUc)
 
 ## <a name="view-these-changes-in-the-audit-log"></a>감사 로그에서 이러한 변경 내용을 확인 합니다.
 
-Office 365에서이 활동을 감사 하 고 Office 365 관리자가 사용할 수 있도록 합니다. 이 작업은 ' New-New-transportrule ' 이며 보안 & 준수 센터의 감사 로그 검색에서 사용 하는 예제 감사 항목의 코드 조각이 아래에 있습니다.
+Microsoft 365에서이 활동을 감사 하 고 관리자가 사용할 수 있도록 합니다. 이 작업은 ' New-New-transportrule ' 이며 보안 & 준수 센터의 감사 로그 검색에서 사용 하는 예제 감사 항목의 코드 조각이 아래에 있습니다.
 
 ```text
-*{"CreationTime":"2018-11-28T23:35:01","Id":"a1b2c3d4-daa0-4c4f-a019-03a1234a1b0c","Operation":"New-TransportRule","OrganizationId":"123456-221d-12345 ","RecordType":1,"ResultStatus":"True","UserKey":"Microsoft Operator","UserType":3,"Version":1,"Workload":"Exchange","ClientIP":"123.456.147.68:17584","ObjectId":"","UserId":"Microsoft Operator","ExternalAccess":true,"OrganizationName":"contoso.onmicrosoft.com","OriginatingServer":"CY4PR13MBXXXX (15.20.1382.008)","Parameters": {"Name":"Organization","Value":"123456-221d-12346"{"Name":"ApplyRightsProtectionTemplate","Value":"Encrypt"},{"Name":"Name","Value":"Encrypt outbound sensitive emails (out of box rule)"},{"Name":"MessageContainsDataClassifications”…etc.*
+*{"CreationTime":"2018-11-28T23:35:01","Id":"a1b2c3d4-daa0-4c4f-a019-03a1234a1b0c","Operation":"New-TransportRule","OrganizationId":"123456-221d-12345 ","RecordType":1,"ResultStatus":"True","UserKey":"Microsoft Operator","UserType":3,"Version":1,"Workload":"Exchange","ClientIP":"123.456.147.68:17584","ObjectId":"","UserId":"Microsoft Operator","ExternalAccess":true,"OrganizationName":"contoso.onmicrosoft.com","OriginatingServer":"CY4PR13MBXXXX (15.20.1382.008)","Parameters": {"Name":"Organization","Value":"123456-221d-12346"{"Name":"ApplyRightsProtectionTemplate","Value":"Encrypt"},{"Name":"Name","Value":"Encrypt outbound sensitive emails (out of box rule)"},{"Name":"MessageContainsDataClassifications"…etc.*
 ```
 
 ## <a name="to-disable-or-customize-the-sensitive-information-types-policy"></a>중요 한 정보 유형 정책을 사용 하지 않도록 설정 하거나 사용자 지정 하려면

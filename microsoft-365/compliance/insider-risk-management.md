@@ -1,5 +1,5 @@
 ---
-title: 참가자 위험 관리
+title: 내부자 위험 관리
 description: Microsoft 365의 참가자 위험 관리로 조직의 위험을 최소화 하는 방법에 대해 알아봅니다.
 keywords: Microsoft 365, 참가자 위험, 위험 관리, 규정 준수
 localization_priority: Normal
@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: cc0c698b5c27b41548b646d03d9f94a2f8671eea
-ms.sourcegitcommit: 87cc278ea2ddcd536ecfaa3dfae9a5ddaa502cf9
+ms.openlocfilehash: 509b8643ffd2b9ee8b364615e2ed3f56afe84733
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42179189"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637476"
 ---
 # <a name="insider-risk-management-in-microsoft-365"></a>Microsoft 365의 참가자 위험 관리
 
@@ -41,7 +41,7 @@ ms.locfileid: "42179189"
 
 현대 회사의 직원은 다양 한 플랫폼 및 서비스에서 데이터를 만들고 관리 하 고 공유할 수 있는 권한이 있습니다. 대부분의 경우 조직은 직원 개인 정보 보호 표준을 충족 하면서 조직 전반의 위험을 식별 하 고 완화할 수 있는 리소스와 도구가 제한 됩니다.
 
-Microsoft 365의 참가자 위험 관리는 모든 범위의 서비스와 타사 지표를 사용 하 여 위험 작업을 신속 하 게 식별 하 고 심사 하 고 작업을 수행 하는 데 도움이 됩니다. Office 365 및 Microsoft Graph의 로그를 사용 하 여 참가자 위험 관리를 통해 위험 요소를 식별 하는 특정 정책을 정의할 수 있습니다. 이러한 정책을 사용 하면 위험한 활동을 식별 하 고 이러한 위험을 완화 하기 위한 조치를 취할 수 있습니다.
+Microsoft 365의 참가자 위험 관리는 모든 범위의 서비스와 타사 지표를 사용 하 여 위험 작업을 신속 하 게 식별 하 고 심사 하 고 작업을 수행 하는 데 도움이 됩니다. Microsoft 365 및 Microsoft Graph의 로그를 사용 하 여 참가자 위험 관리를 통해 위험 요소를 식별 하는 특정 정책을 정의할 수 있습니다. 이러한 정책을 사용 하면 위험한 활동을 식별 하 고 이러한 위험을 완화 하기 위한 조치를 취할 수 있습니다.
 
 참가자 위험 관리는 다음과 같은 원칙을 중심으로 합니다.
 

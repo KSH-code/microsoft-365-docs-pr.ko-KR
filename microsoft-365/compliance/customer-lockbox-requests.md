@@ -1,5 +1,5 @@
 ---
-title: Office 365 고객 Lockbox 요청
+title: 고객 Lockbox 요청
 f1.keywords:
 - NOCSH
 ms.author: krowley
@@ -17,16 +17,16 @@ search.appverid:
 - MET150
 - MOE150
 description: 문제가 발생 하는 경우 Microsoft 지원 엔지니어가 데이터에 액세스 하는 방법을 제어할 수 있도록 하는 고객 Lockbox 요청에 대해 알아봅니다.
-ms.openlocfilehash: f909d67383c248ab42c469f850de0e42cc41eede
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+ms.openlocfilehash: 3ae04648cc89bf9871bb48e5669c620ffd7564ff
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43211955"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637790"
 ---
 # <a name="customer-lockbox-in-office-365"></a>Office 365의 고객 Lockbox
 
-이 문서에서는 고객 Lockbox에 대 한 배포 및 구성 지침을 제공 합니다. 고객 Lockbox는 Exchange Online, SharePoint Online 및 비즈니스용 OneDrive의 데이터에 액세스 하기 위한 요청을 지원 합니다. 다른 Office 365 서비스에 대 한 지원을 권장 하려면 [office 365 UserVoice](https://office365.uservoice.com/)에서 요청을 제출 하십시오.
+이 문서에서는 고객 Lockbox에 대 한 배포 및 구성 지침을 제공 합니다. 고객 Lockbox는 Exchange Online, SharePoint Online 및 비즈니스용 OneDrive의 데이터에 액세스 하기 위한 요청을 지원 합니다. 다른 서비스에 대 한 지원을 권장 하려면 [Office 365 UserVoice](https://office365.uservoice.com/)에서 요청을 제출 하십시오.
 
 사용자에 게 라이선스를 부여 하는 데 사용할 수 있는 옵션을 보려면이 항목을 포함 하 여 Microsoft 365 준수 서비스를 제공 하는 경우 (2020), [보안 & 준수에 대 한 microsoft 365 라이선스 지침](https://aka.ms/ComplianceSD)을 참조 하세요.
 
@@ -42,7 +42,7 @@ ms.locfileid: "43211955"
 
 다음 단계에서는 Microsoft 엔지니어가 고객 Lockbox 요청을 시작할 때의 일반적인 워크플로를 간략하게 설명 합니다.
 
-1. 조직의 누군가가 Office 365 사서함과 관련 된 문제를 경험 합니다.
+1. 조직의 누군가가 Microsoft 365 사서함에 문제가 발생 합니다.
 
 2. 사용자가 문제를 해결 했지만 수정할 수 없는 경우 Microsoft 지원 서비스를 통해 지원 요청을 엽니다.
 
@@ -56,7 +56,7 @@ ms.locfileid: "43211955"
 
    Microsoft 365 관리 센터에서 [고객 lockbox 액세스 승인자](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) 관리자 역할이 할당 된 모든 사용자는 고객 lockbox 요청을 승인할 수 있습니다.
 
-6. 승인자가 Microsoft 365 관리 센터에 로그인 하 고 요청을 승인 합니다. 이 단계에서는 Office 365 감사 로그를 검색 하 여 사용할 수 있는 감사 레코드 만들기를 트리거합니다. 자세한 내용은 [고객 Lockbox 요청 감사](#auditing-customer-lockbox-requests)를 참조 하세요.
+6. 승인자가 Microsoft 365 관리 센터에 로그인 하 고 요청을 승인 합니다. 이 단계에서는 감사 로그를 검색 하 여 사용할 수 있는 감사 레코드 만들기를 트리거합니다. 자세한 내용은 [고객 Lockbox 요청 감사](#auditing-customer-lockbox-requests)를 참조 하세요.
 
    고객이 요청을 거부 하거나 12 시간 내에 요청을 승인 하지 않으면 요청이 만료 되 고 Microsoft 엔지니어에 게 액세스 권한이 부여 되지 않습니다.
 
@@ -66,7 +66,7 @@ ms.locfileid: "43211955"
 7. 조직의 승인자가 요청을 승인한 후에는 Microsoft 엔지니어가 승인 메시지를 수신 하 여 Exchange Online의 테 넌 트에 로그인 하 고 고객의 문제를 해결 합니다. Microsoft 엔지니어가 문제를 해결 하기 위해 요청 된 기간이 지나면 액세스 권한이 자동으로 해지 됩니다.
 
 > [!NOTE]
-> Microsoft 엔지니어가 수행한 모든 작업이 Office 365 감사 로그에 기록 됩니다. 이러한 감사 레코드를 검색 하 고 검토할 수 있습니다.
+> Microsoft 엔지니어가 수행한 모든 작업이 감사 로그에 기록 됩니다. 이러한 감사 레코드를 검색 하 고 검토할 수 있습니다.
 
 ## <a name="turn-customer-lockbox-requests-on-or-off"></a>고객 Lockbox 요청 설정 또는 해제
 
@@ -104,15 +104,15 @@ Microsoft 365 관리 센터에서 고객 Lockbox 컨트롤을 사용 하도록 �
 
 ## <a name="auditing-customer-lockbox-requests"></a>고객 Lockbox 요청 감사
 
-고객 Lockbox 요청에 해당 하는 감사 레코드가 Office 365 감사 로그에 기록 됩니다. Office 365 보안 & 준수 센터에서 [감사 로그 검색 도구](search-the-audit-log-in-security-and-compliance.md) 를 사용 하 여 이러한 로그에 액세스할 수 있습니다. 고객 Lockbox 요청 수락 또는 거부와 관련 된 작업 및 Microsoft 엔지니어가 수행한 작업 (액세스 요청이 승인 된 경우)이 Office 365 감사 로그에도 기록 됩니다. 이러한 감사 레코드를 검색 하 고 검토할 수 있습니다.
+고객 Lockbox 요청에 해당 하는 감사 레코드가 감사 로그에 기록 됩니다. 보안 & 준수 센터에서 [감사 로그 검색 도구](search-the-audit-log-in-security-and-compliance.md) 를 사용 하 여 이러한 로그에 액세스할 수 있습니다. 고객 Lockbox 요청 수락 또는 거부와 관련 된 작업 및 Microsoft 엔지니어가 수행한 작업 (액세스 요청이 승인 된 경우)이 감사 로그에도 기록 됩니다. 이러한 감사 레코드를 검색 하 고 검토할 수 있습니다.
 
 ### <a name="search-the-audit-log-for-activity-related-to-customer-lockbox-requests"></a>고객 Lockbox 요청과 관련 된 작업에 대 한 감사 로그 검색
 
-감사 로그를 사용 하 여 고객 Lockbox에 대 한 요청을 추적할 수 있으므로 감사 로깅을 설정 하기 위해 몇 가지 단계를 수행 해야 합니다. 자세한 내용은 [Office 365 보안 & 준수 센터에서 감사 로그 검색](https://docs.microsoft.com/office365/securitycompliance/search-the-audit-log-in-security-and-compliance#before-you-begin)을 참조 하세요. 설치를 완료 한 후 다음 단계를 사용 하 여 고객 Lockbox와 관련 된 감사 레코드를 반환 하는 감사 로그 검색 쿼리를 만듭니다.
+감사 로그를 사용 하 여 고객 Lockbox에 대 한 요청을 추적할 수 있으므로 감사 로깅을 설정 하기 위해 몇 가지 단계를 수행 해야 합니다. 자세한 내용은 [Security & 준수 센터에서 감사 로그 검색](https://docs.microsoft.com/office365/securitycompliance/search-the-audit-log-in-security-and-compliance#before-you-begin)을 참조 하십시오. 설치를 완료 한 후 다음 단계를 사용 하 여 고객 Lockbox와 관련 된 감사 레코드를 반환 하는 감사 로그 검색 쿼리를 만듭니다.
 
 1. [https://protection.office.com](https://protection.office.com)으로 이동합니다.
   
-2. 회사 또는 학교 계정을 사용하여 Office 365에 로그인합니다.
+2. 회사 또는 학교 계정을 사용 하 여 로그인 합니다.
 
 3. 보안 & 준수 센터의 왼쪽 창에서 **검색 & 조사** > **감사 로그 검색**을 선택 합니다.
 
@@ -146,7 +146,7 @@ Microsoft 365 관리 센터에서 고객 Lockbox 컨트롤을 사용 하도록 �
 
 ### <a name="audit-record-for-a-customer-lockbox-access-request"></a>고객 Lockbox 액세스 요청에 대 한 감사 레코드
 
-조직의 사용자가 고객 Lockbox 요청을 승인 하거나 거부 하면 감사 레코드가 Office 365 감사 로그에 기록 됩니다. 이 레코드에는 다음 정보가 포함 됩니다.
+조직의 사용자가 고객 Lockbox 요청을 승인 하거나 거부 하는 경우 감사 레코드가 감사 로그에 기록 됩니다. 이 레코드에는 다음 정보가 포함 됩니다.
 
 | Audit record 속성| 설명|
 |:---------- |:----------|
@@ -175,19 +175,19 @@ Microsoft 365 관리 센터에서 고객 Lockbox 컨트롤을 사용 하도록 �
 | 활동   | Microsoft 엔지니어가 수행한 활동의 이름입니다.|
 | 항목       | \<비운\>                                             |
 
-## <a name="frequently-asked-questions"></a>질문과 대답
+## <a name="frequently-asked-questions"></a>자주하는 질문
 
-#### <a name="which-office-365-services-does-customer-lockbox-apply-to"></a>고객 Lockbox가 적용 되는 Office 365 서비스는 무엇입니까?
+#### <a name="which-microsoft-365-services-does-customer-lockbox-apply-to"></a>고객 Lockbox가 적용 되는 Microsoft 365 서비스는 무엇입니까?
 
 고객 Lockbox는 현재 Exchange Online, SharePoint Online 및 비즈니스용 OneDrive에서 지원 됩니다.
 
-#### <a name="is-customer-lockbox-available-to-all-office-365-customers"></a>고객 Lockbox가 모든 Office 365 고객에 게 제공 됩니까?
+#### <a name="is-customer-lockbox-available-to-all-customers"></a>고객 Lockbox가 모든 고객에 게 제공 됩니까?
 
 고객 Lockbox는 Microsoft 365 또는 Office 365 E5 구독에 포함 되어 있으며, 정보 보호 및 규정 준수 또는 고급 준수 추가 기능 구독을 사용 하 여 다른 계획에 추가할 수 있습니다. 자세한 내용은 [요금제 및 가격 책정](https://products.office.com/business/office-365-enterprise-e5-business-software) 를 참조 하세요.
 
 #### <a name="what-is-customer-content"></a>고객 콘텐츠 란?
 
-고객 콘텐츠는 Office 365 서비스 및 응용 프로그램 사용자가 만든 데이터입니다. 고객 콘텐츠의 예는 다음과 같습니다.
+고객 콘텐츠는 Microsoft 365 서비스 및 응용 프로그램 사용자가 만든 데이터입니다. 고객 콘텐츠의 예는 다음과 같습니다.
 
 - 전자 메일 본문 또는 전자 메일 첨부 파일
 
@@ -221,7 +221,7 @@ Office 365의 고객 콘텐츠에 대 한 자세한 내용은 [office 365 보안
 
 #### <a name="if-i-approve-a-customer-lockbox-request-what-can-the-engineer-do-and-how-will-i-know-what-the-microsoft-engineer-did"></a>고객 Lockbox 요청을 승인 하는 경우 엔지니어가 수행할 수 있는 작업과 Microsoft 엔지니어가 수행한 작업을 확인 하는 방법
 
-고객 Lockbox 요청을 승인 하면 Microsoft 엔지니어가 사용자에 게 사전 승인 된 cmdlet을 사용 하 여 고객 콘텐츠에 액세스 하는 데 필요한 권한이 부여 됩니다. 고객 Lockbox 요청에 대 한 응답으로 Microsoft 엔지니어가 수행 하는 작업은 Office 365 보안 & 준수 센터의 감사 로그에서 기록 되 고 액세스할 수 있습니다.
+고객 Lockbox 요청을 승인 하면 Microsoft 엔지니어가 사용자에 게 사전 승인 된 cmdlet을 사용 하 여 고객 콘텐츠에 액세스 하는 데 필요한 권한이 부여 됩니다. 고객 Lockbox 요청에 대 한 응답으로 Microsoft 엔지니어가 수행한 작업이 기록 되 고 보안 & 준수 센터의 감사 로그에 액세스할 수 있습니다.
 
 #### <a name="how-do-i-know-that-microsoft-follows-the-approval-process"></a>Microsoft가 승인 프로세스를 팔 로우 하는지 어떻게 알 수 있나요?
 
@@ -235,7 +235,7 @@ Office 365의 고객 콘텐츠에 대 한 자세한 내용은 [office 365 보안
 
 #### <a name="what-if-i-need-more-information-about-a-content-access-request-to-approve-it"></a>콘텐츠 액세스 요청에 대 한 자세한 정보를 승인 하려면 어떻게 해야 하나요?
 
-각 고객 Lockbox 요청에는 Office 365 서비스 요청 번호가 포함 되어 있습니다. Microsoft 지원에 문의 하 여이 서비스 번호를 참조 하 여 요청에 대 한 자세한 정보를 확인할 수 있습니다.
+각 고객 Lockbox 요청에는 Microsoft 365 서비스 요청 번호가 포함 되어 있습니다. Microsoft 지원에 문의 하 여이 서비스 번호를 참조 하 여 요청에 대 한 자세한 정보를 확인할 수 있습니다.
 
 #### <a name="when-a-customer-lockbox-request-is-approved-how-long-are-the-permissions-valid"></a>고객 Lockbox 요청이 승인 되 면 사용 권한이 유효한 기간이 얼마나 걸립니까?
 
@@ -265,15 +265,15 @@ Office 365의 고객 콘텐츠에 대 한 자세한 내용은 [office 365 보안
 
 #### <a name="how-does-microsoft-ensure-that-a-member-of-its-staff-doesnt-have-standing-access-to-customer-content-in-office-365-applications"></a>Microsoft는 직원 구성원이 Office 365 응용 프로그램의 고객 콘텐츠에 대 한 액세스 권한을 보유 하 고 있는지 어떻게 확인 하나요?
 
-Microsoft는 액세스 제어 시스템을 통해 광범위 한 예방 조치를 구현 하며, 이러한 액세스 제어 시스템을 회피 하기 위한 시도를 식별 하 고 해결 하기 위한 조치를 예방용 인지 합니다. Office 365은 최소 권한 및 just-in-time 액세스 원칙을 사용 하 여 작동 합니다. 따라서 Microsoft 직원에 게는 계속 해 서 고객 콘텐츠에 액세스할 수 있는 권한이 없습니다. 권한이 부여 된 경우에는 제한 된 기간 동안만 사용 해야 합니다. 
+Microsoft는 액세스 제어 시스템을 통해 광범위 한 예방 조치를 구현 하며, 이러한 액세스 제어 시스템을 회피 하기 위한 시도를 식별 하 고 해결 하기 위한 조치를 예방용 인지 합니다. Microsoft 365는 최소 권한 및 just-in-time 액세스 원칙을 사용 하 여 작동 합니다. 따라서 Microsoft 직원에 게는 계속 해 서 고객 콘텐츠에 액세스할 수 있는 권한이 없습니다. 권한이 부여 된 경우에는 제한 된 기간 동안만 사용 해야 합니다. 
 
-Office 365에서는 *Lockbox* 라는 액세스 제어 시스템을 사용 하 여 서비스 내에서 작동 및 관리 기능을 수행할 수 있는 권한을 부여 하는 사용 권한에 대 한 요청을 처리 합니다. 운영자는 Lockbox를 사용 하 여 고객 콘텐츠에 대 한 액세스를 요청 해야 하며, 따라서 액세스 권한을 부여 하기 전에 두 번째 사용자가 요청에 대해 작업을 수행 해야 합니다 (예: 승인). 두 번째 사용자는 요청자가 될 수 없으며 고객 콘텐츠에 대 한 액세스를 승인 하도록 지정 해야 합니다. 요청이 승인 된 경우에만 운영자가 고객 콘텐츠에 대 한 임시 액세스 권한을 얻습니다. 권한 상승 기간이 만료 되 면 Lockbox가 액세스 권한을 취소 합니다.
+Microsoft 365에서는 *Lockbox* 라는 액세스 제어 시스템을 사용 하 여 서비스 내에서 작동 및 관리 기능을 수행할 수 있는 권한을 부여 하는 사용 권한에 대 한 요청을 처리 합니다. 운영자는 Lockbox를 사용 하 여 고객 콘텐츠에 대 한 액세스를 요청 해야 하며, 따라서 액세스 권한을 부여 하기 전에 두 번째 사용자가 요청에 대해 작업을 수행 해야 합니다 (예: 승인). 두 번째 사용자는 요청자가 될 수 없으며 고객 콘텐츠에 대 한 액세스를 승인 하도록 지정 해야 합니다. 요청이 승인 된 경우에만 운영자가 고객 콘텐츠에 대 한 임시 액세스 권한을 얻습니다. 권한 상승 기간이 만료 되 면 Lockbox가 액세스 권한을 취소 합니다.
 
 Microsoft 일반 보안 관행에 대 한 자세한 내용은 [온라인 서비스 약관](https://www.microsoft.com/licensing/product-licensing/products) 을 참조 하세요.
 
 #### <a name="under-what-circumstances-do-microsoft-engineers-need-access-to-my-content"></a>어떤 상황에서는 Microsoft 엔지니어가 내 콘텐츠에 액세스 해야 하나요?
 
-Microsoft 엔지니어가 고객 콘텐츠에 액세스 해야 하는 가장 일반적인 시나리오는 고객이 문제 해결에 액세스 해야 하는 지원 요청을 만들 때입니다. Office 365의 기본 원칙은 Microsoft가 고객 콘텐츠에 대 한 액세스 권한 없이 서비스가 작동 하는 것입니다. Microsoft에서 수행 하는 거의 모든 서비스 작업은 완전히 자동화 되 고 고객의 콘텐츠를 벗어나 추상화 되 고 고도로 통제 됩니다. Office 365의 목표는 고객이 Microsoft access에 대 한 특정 요청을 승인할 때까지 서비스를 지원 하기 위한 고객 콘텐츠에 대 한 액세스 권한이 필요 하지 않습니다.
+Microsoft 엔지니어가 고객 콘텐츠에 액세스 해야 하는 가장 일반적인 시나리오는 고객이 문제 해결에 액세스 해야 하는 지원 요청을 만들 때입니다. Microsoft 365의 기본 원칙은 Microsoft가 고객 콘텐츠에 대 한 액세스 권한 없이 서비스가 작동 하는 것입니다. Microsoft에서 수행 하는 거의 모든 서비스 작업은 완전히 자동화 되 고 고객의 콘텐츠를 벗어나 추상화 되 고 고도로 통제 됩니다. Microsoft 365의 목표는 고객이 Microsoft access에 대 한 특정 요청을 승인할 때까지 해당 서비스를 지원 하기 위한 고객 콘텐츠에 대 한 액세스 권한이 필요 하지 않습니다.
 
 #### <a name="i-already-thought-my-data-was-secure-with-the-microsoft-cloud-so-why-do-i-need-customer-lockbox"></a>Microsoft 클라우드를 사용 하 여 데이터가 안전 하다 고 생각 했을 때 고객 Lockbox가 필요한 이유는 무엇 인가요?
 

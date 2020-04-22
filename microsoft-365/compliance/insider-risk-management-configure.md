@@ -1,5 +1,5 @@
 ---
-title: 참가자 위험 관리 시작
+title: 내부자 위험 관리 시작
 description: 조직에서 참가자 위험 관리를 구성 합니다.
 keywords: Microsoft 365, 참가자 위험 관리, 위험 관리, 규정 준수
 localization_priority: Normal
@@ -12,14 +12,14 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: e4f0f90ff7089ba72f7e8b452842d670d45a49f8
-ms.sourcegitcommit: 825037f166eea3ba70f8980cedc5492f90c1cc56
+ms.openlocfilehash: 86aa29d0c271869eb1939b8a6a8dfb004e35d2cf
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43097197"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637486"
 ---
-# <a name="get-started-with-insider-risk-management"></a>참가자 위험 관리 시작
+# <a name="get-started-with-insider-risk-management"></a>내부자 위험 관리 시작
 
 내부자 위험 관리 정책을 사용하여 위험 활동 및 관리 도구를 식별하고 조직의 위험 경고에 대한 조치를 수행합니다. 필수 구성 요소를 설정 하 고 참가자 위험 관리 정책을 구성 하려면 다음 단계를 완료 합니다.
 
@@ -39,7 +39,7 @@ ms.locfileid: "43097197"
 
 참가자 위험 관리 정책에 포함 된 사용자는 위의 라이선스 중 하나를 할당 받아야 합니다.
 
-Microsoft 365 Enterprise E5 요금제가 아직 없는 경우 microsoft 365을 기존 Office 365 구독에 [추가](https://docs.microsoft.com/office365/admin/try-or-buy-microsoft-365) 하거나 Microsoft 365 Enterprise E5 [평가판에 등록할](https://www.microsoft.com/microsoft-365/enterprise) 수 있습니다.
+Microsoft 365 Enterprise E5 요금제가 아직 없는 경우 microsoft 365을 기존 구독에 [추가](https://docs.microsoft.com/office365/admin/try-or-buy-microsoft-365) 하거나 Microsoft 365 Enterprise e 5의 [평가판을 등록할](https://www.microsoft.com/microsoft-365/enterprise) 수 있습니다.
 
 ## <a name="step-1-required-enable-permissions-for-insider-risk-management"></a>1 단계 (필수 사항): 참가자 위험 관리에 대 한 사용 권한 설정
 
@@ -49,7 +49,7 @@ Microsoft 365 Enterprise E5 요금제가 아직 없는 경우 microsoft 365을 �
 
 | **역할 그룹** | **역할 권한** |
 | :---- | :---------------- |
-| **참가자 위험 관리** | 이 역할 그룹을 사용 하 여 단일 그룹에서 조직의 참가자 위험 관리를 관리 합니다. 지정 된 관리자, 분석가 및 investigators에 대 한 모든 사용자 계정을 추가 하 여 단일 그룹에서 참가자 위험 관리 권한을 구성할 수 있습니다. 이 역할 그룹에는 모든 참가자 위험 관리 권한 역할이 포함 되어 있습니다. 이 방법은 참가자 위험 관리를 빠르게 시작할 수 있는 가장 쉬운 방법 이며 개별 사용자 그룹에 대해 정의 된 별도의 사용 권한이 필요 하지 않은 조직에 적합 합니다.|
+| **내부자 위험 관리** | 이 역할 그룹을 사용 하 여 단일 그룹에서 조직의 참가자 위험 관리를 관리 합니다. 지정 된 관리자, 분석가 및 investigators에 대 한 모든 사용자 계정을 추가 하 여 단일 그룹에서 참가자 위험 관리 권한을 구성할 수 있습니다. 이 역할 그룹에는 모든 참가자 위험 관리 권한 역할이 포함 되어 있습니다. 이 방법은 참가자 위험 관리를 빠르게 시작할 수 있는 가장 쉬운 방법 이며 개별 사용자 그룹에 대해 정의 된 별도의 사용 권한이 필요 하지 않은 조직에 적합 합니다.|
 | **참가자 위험 관리 관리자** | 이 역할 그룹을 사용 하 여 처음에 참가자 위험 관리를 구성 하 고 참가자 위험 관리자를 정의 된 그룹으로 세분 합니다.  이 역할 그룹의 사용자는 참가자 위험 관리 정책, 전역 설정 및 역할 그룹 할당을 만들고, 읽고, 업데이트 하 고, 삭제할 수 있습니다. |
 | **참가자 위험 관리 분석가** | 이 그룹을 사용 하 여 참가자 위험 사례 분석가 역할을 하는 사용자에 게 사용 권한을 할당 합니다. 이 역할 그룹의 사용자는 모든 참가자 위험 관리 알림, 사례 및 알림 서식 파일에 액세스할 수 있습니다. 사용자는 참가자 위험 콘텐츠 탐색기에 액세스할 수 없습니다. |
 | **참가자 위험 관리 Investigators** | 이 그룹을 사용 하 여 사용자의 참가자 위험 데이터 investigators 작동할 수 있는 권한을 할당 합니다. 이 역할 그룹의 사용자는 모든 참가자 위험 관리 알림, 사례, 알림 서식 파일 및 콘텐츠 탐색기에 모든 경우에 액세스할 수 있습니다. |
@@ -60,7 +60,7 @@ Microsoft 365 Enterprise E5 요금제가 아직 없는 경우 microsoft 365을 �
 
 1. Microsoft 365 [https://protection.office.com/permissions](https://protection.office.com/permissions) 조직의 관리자 계정에 대 한 자격 증명을 사용 하 여 로그인 합니다. "" "" "" ""
 
-2. Microsoft Office 365 보안 및 준수 센터에서 **사용 권한**으로 이동 합니다. Office 365에서 역할을 보고 관리 하는 링크를 선택 합니다.
+2. 보안 &amp; 및 준수 센터에서 **사용 권한**으로 이동 합니다. Office 365에서 역할을 보고 관리 하는 링크를 선택 합니다.
 
 3. 사용자를 추가할 참가자 위험 관리 역할 그룹을 선택한 다음 **역할 그룹 편집**을 선택 합니다.
 
@@ -72,11 +72,11 @@ Microsoft 365 Enterprise E5 요금제가 아직 없는 경우 microsoft 365을 �
 
 7. **저장** 을 선택 하 여 역할 그룹에 사용자를 추가 합니다. **닫기를** 선택 하 여 단계를 완료 합니다.
 
-## <a name="step-2-required-enable-the-office-365-audit-log"></a>2 단계 (필수 사항): Office 365 감사 로그 사용
+## <a name="step-2-required-enable-the-audit-log"></a>2 단계 (필수 사항): 감사 로그 사용
 
 참가자 위험 관리는 정책에 구성 된 사용자 insights 및 작업에 대 한 감사 로그를 사용 합니다. 감사 로그는 참가자 위험 관리 정책에 연결 된 모든 작업 또는 정책이 변경 될 때마다 요약 됩니다.
 
-감사를 설정 하는 단계별 지침은 [Turn Office 365 감사 로그 검색 설정 또는 해제](turn-audit-log-search-on-or-off.md)를 참조 하세요. 감사를 설정한 후에는 감사 로그를 준비 중 이며 준비 완료 후 몇 시간 내에 검색을 실행할 수 있음을 알리는 메시지가 표시 됩니다. 이 작업은 한 번만 수행 하면 됩니다. 감사 로그를 사용 하는 방법에 대 한 자세한 내용은 [Search the audit log](search-the-audit-log-in-security-and-compliance.md)을 참조 하십시오.
+감사를 설정 하는 단계별 지침은 [turn 감사 로그 검색 켜기 또는 끄기를](turn-audit-log-search-on-or-off.md)참조 하십시오. 감사를 설정한 후에는 감사 로그를 준비 중 이며 준비 완료 후 몇 시간 내에 검색을 실행할 수 있음을 알리는 메시지가 표시 됩니다. 이 작업은 한 번만 수행 하면 됩니다. 감사 로그를 사용 하는 방법에 대 한 자세한 내용은 [Search the audit log](search-the-audit-log-in-security-and-compliance.md)을 참조 하십시오.
 
 ## <a name="step-3-optional-configure-prerequisites-for-templates"></a>3 단계 (선택 사항): 서식 파일에 대 한 선행 조건 구성
 

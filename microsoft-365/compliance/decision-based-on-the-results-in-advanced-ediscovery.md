@@ -1,5 +1,5 @@
 ---
-title: Office 365 Advanced eDiscovery의 결과를 기반으로 결정
+title: 고급 eDiscovery의 결과를 기반으로 결정
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -14,13 +14,13 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: aed65bcd-0a4f-43e9-b5e5-b98cc376bdf8
-description: 'Office 365 Advanced eDiscovery의 결정 탭에서 사례 파일의 검토 집합에 대 한 올바른 크기를 결정 하는 데 도움이 되는 데이터를 제공 하는 방법에 대해 알아봅니다. '
-ms.openlocfilehash: 6d515305b01b0273bb2acffaad19c497fc5c82d2
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+description: '고급 eDiscovery의 결정 탭에서 사례 파일의 검토 집합에 대 한 올바른 크기를 결정 하는 데 도움이 되는 데이터를 제공 하는 방법을 알아봅니다. '
+ms.openlocfilehash: 279b689e830089c683b8cd575a231635ca32de76
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42557546"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43630575"
 ---
 # <a name="decision-based-on-the-results-in-advanced-ediscovery-classic"></a>고급 eDiscovery의 결과를 기반으로 결정 (클래식)
 

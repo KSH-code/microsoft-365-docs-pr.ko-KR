@@ -12,16 +12,16 @@ localization_priority: Normal
 ms.collection: M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
 description: ''
-ms.openlocfilehash: f53d9cbf719b0e16749c9ea1dcae2533f8c48e50
-ms.sourcegitcommit: 7d07e7ec84390a8f05034d3639fa5db912809585
+ms.openlocfilehash: bb2bccc6689a3739bcb1f3736771cf81b7c467bd
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42091389"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637940"
 ---
 # <a name="migrate-legacy-ediscovery-searches-and-holds-to-the-microsoft-365-compliance-center"></a>레거시 eDiscovery 검색 및 보류를 Microsoft 365 준수 센터로 마이그레이션
 
-Microsoft 365 준수 센터에서는 콘텐츠를 구성 하는 경우를 비롯 하 여 더 높은 안정성, 성능 향상, eDiscovery 워크플로에 맞게 조정 된 다양 한 기능 (예: 검토 집합)을 포함 하 여 eDiscovery 사용을 향상 시킵니다 콘텐츠 및 분석을 검토 하 여 거의 중복 된 그룹, 전자 메일 스레딩, 테마 분석 및 예측 코딩 등의 검토를 위한 데이터를 cull 수 있습니다.
+Microsoft 365 준수 센터에서는 더 높은 안정성, 성능 향상, 관련 콘텐츠를 구성 하는 경우를 비롯 하 여 eDiscovery 워크플로에 적합 한 다양 한 기능을 제공 하 고, 검토 집합에서 콘텐츠 및 분석을 검토 하 여 근접 중복 그룹, 전자 메일 스레딩, 테마 분석 및 예측 코딩 등의 검토를 위한 데이터를 cull 수 있도록 지원 합니다.
 
 이 문서에서는 고객이 새로운 기능과 향상 된 기능을 활용할 수 있도록 하기 위해 Exchange 관리 센터에서 Microsoft 365 준수 센터로 원본 위치 eDiscovery 검색 및 보존을 마이그레이션하는 방법에 대 한 기본 지침을 제공 합니다.
 
@@ -30,13 +30,13 @@ Microsoft 365 준수 센터에서는 콘텐츠를 구성 하는 경우를 비롯
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
-- 이 문서에서 설명 하는 PowerShell 명령을 실행 하려면 Office 365 Security & 준수 센터에서 eDiscovery 관리자 역할 그룹의 구성원 이어야 합니다. 또한 Exchange 관리 센터에서 Discovery Management 역할 그룹의 구성원 이어야 합니다.
+- 이 문서에서 설명 하는 PowerShell 명령을 실행 하려면 보안 & 준수 센터에서 eDiscovery 관리자 역할 그룹의 구성원 이어야 합니다. 또한 Exchange 관리 센터에서 Discovery Management 역할 그룹의 구성원 이어야 합니다.
 
 - 이 문서에서는 eDiscovery 보존을 만드는 방법에 대 한 지침을 제공 합니다. 비동기 프로세스를 통해 사서함에 보존 정책이 적용 됩니다. EDiscovery 보류를 만들 때 New-caseholdpolicy 및 New-caseholdrule를 모두 만들어야 하며 그렇지 않으면 보류가 만들어지지 않으며 콘텐츠 위치가 보류 되지 않습니다.
 
-## <a name="step-1-connect-to-exchange-online-powershell-and-office-365-security--compliance-center-powershell"></a>1 단계: Exchange Online PowerShell 및 Office 365 보안 & 준수 센터 PowerShell에 연결
+## <a name="step-1-connect-to-exchange-online-powershell-and-security--compliance-center-powershell"></a>1 단계: Exchange Online PowerShell 및 보안 & 준수 센터 PowerShell에 연결
 
-첫 번째 단계는 Exchange Online PowerShell 및 Office 365 Security & 준수 센터 PowerShell에 연결 하는 것입니다. 다음 스크립트를 복사 하 여 PowerShell 창에 붙여 넣은 다음 실행할 수 있습니다. 연결 하려는 조직의 자격 증명을 입력 하 라는 메시지가 표시 됩니다. 
+첫 번째 단계는 Exchange Online PowerShell 및 Security & 준수 센터 PowerShell에 연결 하는 것입니다. 다음 스크립트를 복사 하 여 PowerShell 창에 붙여 넣은 다음 실행할 수 있습니다. 연결 하려는 조직의 자격 증명을 입력 하 라는 메시지가 표시 됩니다. 
 
 ```powershell
 $UserCredential = Get-Credential
@@ -77,7 +77,7 @@ $search | FL
 ![개별 검색에 대해 New-mailboxsearch를 사용 하는 경우의 PowerShell 출력 예제](../media/MigrateLegacyeDiscovery2.png)
 
 > [!NOTE]
-> 이 예의 원본 위치 유지 기간은 무제한입니다 (*ItemHoldPeriod: 제한 없음*). 이는 eDiscovery 및 법적 조사 시나리오에서 일반적으로 발생 합니다. 보류 기간이 무기한 값과 다른 경우 보존 시나리오에서 콘텐츠를 보존 하기 위해 보류가 사용 되 고 있기 때문일 수 있습니다. 보존 시나리오에 Office 365 Security & 준수 센터 PowerShell에서 eDiscovery cmdlet을 사용 하는 대신 [new-retentioncompliancepolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-retentioncompliancepolicy) 및 [new-retentioncompliancerule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-retentioncompliancerule) 을 사용 하 여 콘텐츠를 보존 하는 것이 좋습니다. 이러한 cmdlet을 사용 하는 경우에는 **new-caseholdpolicy** 및 **new-caseholdrule**를 사용 하는 것과 유사 하지만 보존 기간 및 보존 기간이 만료 된 후에 콘텐츠를 삭제 하는 것과 같은 유지 작업을 지정할 수 있습니다. 또한 보존 cmdlet을 사용 하는 경우에는 보존 보류와 eDiscovery 사례를 연결할 필요가 없습니다.
+> 이 예의 원본 위치 유지 기간은 무제한입니다 (*ItemHoldPeriod: 제한 없음*). 이는 eDiscovery 및 법적 조사 시나리오에서 일반적으로 발생 합니다. 보류 기간이 무기한 값과 다른 경우 보존 시나리오에서 콘텐츠를 보존 하기 위해 보류가 사용 되 고 있기 때문일 수 있습니다. 보존 시나리오의 경우 Security & 준수 센터 PowerShell에서 eDiscovery cmdlet을 사용 하는 대신 [new-retentioncompliancepolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-retentioncompliancepolicy) 및 [new-retentioncompliancerule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/new-retentioncompliancerule) 을 사용 하 여 콘텐츠를 보존 하는 것이 좋습니다. 이러한 cmdlet을 사용 하는 경우에는 **new-caseholdpolicy** 및 **new-caseholdrule**를 사용 하는 것과 유사 하지만 보존 기간 및 보존 기간이 만료 된 후에 콘텐츠를 삭제 하는 것과 같은 유지 작업을 지정할 수 있습니다. 또한 보존 cmdlet을 사용 하는 경우에는 보존 보류와 eDiscovery 사례를 연결할 필요가 없습니다.
 
 ## <a name="step-4-create-a-case-in-the-microsoft-365-compliance-center"></a>4 단계: Microsoft 365 준수 센터에서 사례 만들기
 

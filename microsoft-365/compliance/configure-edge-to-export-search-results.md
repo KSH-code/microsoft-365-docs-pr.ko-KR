@@ -1,5 +1,5 @@
 ---
-title: Microsoft Edge에서 Office 365 eDiscovery 내보내기 도구 사용
+title: Microsoft Edge에서 eDiscovery 내보내기 도구 사용
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -12,16 +12,16 @@ search.appverid:
 - MOE150
 - MET150
 description: 보안 및 준수 센터에서 콘텐츠 검색 및 eDiscovery의 검색 결과를 다운로드 하려면 최신 버전의 Microsoft Edge를 사용 하려면 ClickOnce 지원을 사용 하도록 설정 해야 합니다.
-ms.openlocfilehash: 80924b124521b24ffabf1e0273802265cd715500
-ms.sourcegitcommit: 01ead889086ecc7dcf5d10244bcf67c5a33c8114
+ms.openlocfilehash: c48e3fb04747306693364a2cdbc6f18047a0fd9e
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42710347"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632383"
 ---
-# <a name="use-the-office-365-ediscovery-export-tool-in-microsoft-edge"></a>Microsoft Edge에서 Office 365 eDiscovery 내보내기 도구 사용
+# <a name="use-the-ediscovery-export-tool-in-microsoft-edge"></a>Microsoft Edge에서 eDiscovery 내보내기 도구 사용
 
-최신 버전의 Microsoft Edge에 대 한 최근 변경 사항으로 인해 ClickOnce 지원 기능은 더 이상 기본적으로 사용 되지 않도록 설정 되어 있습니다. Microsoft Office 365 eDiscovery 내보내기 도구를 계속 사용 하 여 콘텐츠 검색 또는 eDiscovery 검색 결과를 다운로드 하려면 microsoft [Internet Explorer](https://support.microsoft.com/help/17621/internet-explorer-downloads) 를 사용 하거나 최신 버전의 microsoft Edge에서 ClickOnce 지원을 사용 하도록 설정 해야 합니다.
+최신 버전의 Microsoft Edge에 대 한 최근 변경 사항으로 인해 ClickOnce 지원 기능은 더 이상 기본적으로 사용 되지 않도록 설정 되어 있습니다. EDiscovery 내보내기 도구를 계속 사용 하 여 콘텐츠 검색 또는 eDiscovery 검색 결과를 다운로드 하려면 [Microsoft Internet Explorer](https://support.microsoft.com/help/17621/internet-explorer-downloads) 를 사용 하거나 최신 버전의 microsoft Edge에서 ClickOnce 지원을 사용 하도록 설정 해야 합니다.
 
 ## <a name="enable-clickonce-support-in-microsoft-edge"></a>Microsoft Edge에서 ClickOnce 지원 사용
 
@@ -49,7 +49,7 @@ ms.locfileid: "42710347"
 
    ![열기를 클릭 하 여 eDiscovery 내보내기 도구를 시작 합니다.](../media/ClickOnceimage4.png)
 
-   Microsoft Office 365 eDiscovery 내보내기 도구가 설치 되어 있지 않으면 보안 경고를 표시 합니다. 
+   EDiscovery 내보내기 도구가 설치 되어 있지 않으면 보안 경고를 표시 합니다. 
 
    ![EDiscovery 내보내기 도구를 설치 하려면 설치를 클릭 합니다.](../media/ClickOnceimage5.png)
 

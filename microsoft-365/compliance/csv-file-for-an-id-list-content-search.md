@@ -1,5 +1,5 @@
 ---
-title: Office 365에서 ID 목록 콘텐츠 검색에 대 한 CSV 파일 준비
+title: ID 목록 콘텐츠 검색에 대 한 CSV 파일 준비
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -14,14 +14,14 @@ ms.collection: M365-security-compliance
 search.appverid: MOE150
 ms.assetid: 82c97bb4-2b64-4edc-804d-cedbda525d22
 description: 기존 콘텐츠 검색에서 결과 .csv 또는 인덱싱되지 않은 항목 .csv 파일을 사용 하 여 특정 전자 메일 메시지를 반환 하는 ID 목록 검색을 만듭니다. ID 목록 검색은 일반적으로 부분적으로 인덱싱된 사서함 항목을 반환 하는 데 사용 됩니다.
-ms.openlocfilehash: 97c69cd096e1ec2fa69082edef70cd41dfd229b0
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: f37715858e6785e75343f5b11f73332de08b5d3b
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42077029"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43630705"
 ---
-# <a name="prepare-a-csv-file-for-an-id-list-content-search-in-office-365"></a>Office 365에서 ID 목록 콘텐츠 검색에 대 한 CSV 파일 준비
+# <a name="prepare-a-csv-file-for-an-id-list-content-search"></a>ID 목록 콘텐츠 검색에 대 한 CSV 파일 준비
 
 Exchange Id 목록을 사용 하 여 특정 사서함 전자 메일 메시지 및 기타 사서함 항목을 검색할 수 있습니다. ID 목록 검색을 만들려면 검색할 특정 사서함 항목을 식별 하는 CSV (쉼표로 구분 된 값) 파일을 전송 합니다. 이 CSV 파일의 경우에는 **결과 .csv** 파일 또는 콘텐츠 검색 결과를 내보내거나 기존 콘텐츠 검색에서 콘텐츠 검색 보고서를 내보낼 때 포함 되는 **인덱싱되지 않은 항목 .csv** 파일을 사용 합니다. 그런 다음 이러한 파일 중 하나를 편집 하 여 검색할 특정 항목을 표시 한 다음 새 ID 목록 검색을 만들고 CSV 파일을 제출 합니다.
 
@@ -84,7 +84,7 @@ SharePoint 사이트 및 OneDrive 계정을 포함 하는 검색에서 CSV 파�
 
 3. ID 목록 플라이 아웃을 **사용한 검색** 에서 검색 이름을 지정한 다음 선택적으로 설명 하 고, **찾아보기를** 클릭 하 고 이전 단계에서 준비한 CSV 파일을 선택 합니다.
 
-    Office 365에서 CSV 파일의 유효성을 검사 하려고 합니다. 유효성 검사가 실패 하면 유효성 검사 오류를 해결 하는 데 도움이 될 수 있는 오류 메시지가 표시 됩니다. ID 목록 검색을 만들려면 CSV 파일의 유효성을 검사 해야 합니다.
+    Microsoft 365에서 CSV 파일의 유효성을 검사 하려고 합니다. 유효성 검사가 실패 하면 유효성 검사 오류를 해결 하는 데 도움이 될 수 있는 오류 메시지가 표시 됩니다. ID 목록 검색을 만들려면 CSV 파일의 유효성을 검사 해야 합니다.
 
 4. CSV 파일의 유효성 검사가 완료 되 면 **검색** 을 클릭 하 여 ID 목록 검색을 만듭니다.
 
@@ -97,4 +97,4 @@ SharePoint 사이트 및 OneDrive 계정을 포함 하는 검색에서 CSV 파�
 5. ID 목록 검색에서 반환 되는 항목을 미리 보거나 내보냅니다.
 
 > [!NOTE]
-> ID 목록 검색을 만든 후 사서함을 이동 하면 검색에 대 한 쿼리는 지정 된 항목을 반환 하지 않습니다. 사서함 항목에 대 한 **DocumentId** 속성은 사서함을 이동할 때 변경 되기 때문입니다. 사용자가 ID 목록 검색을 만든 후 사서함이 이동 되는 경우는 드물지만 새 콘텐츠 검색을 만들거나 기존 콘텐츠 검색에 대 한 검색 결과를 업데이트 한 다음 검색 결과 또는 보고서를 내보내 사용할 수 있는 업데이트 된 CSV 파일을 생성 해야 합니다.  새 ID 목록 검색을 만들 수 있습니다.
+> ID 목록 검색을 만든 후 사서함을 이동 하면 검색에 대 한 쿼리는 지정 된 항목을 반환 하지 않습니다. 사서함 항목에 대 한 **DocumentId** 속성은 사서함을 이동할 때 변경 되기 때문입니다. 드물지만 사용자가 ID 목록 검색을 만든 후 사서함이 이동 되는 경우에는 새 콘텐츠 검색을 만들거나 기존 콘텐츠 검색에 대 한 검색 결과를 업데이트 한 다음 검색 결과 또는 보고서를 내보내 새 ID 목록 검색을 만드는 데 사용할 수 있는 업데이트 된 CSV 파일을 생성 해야 합니다.

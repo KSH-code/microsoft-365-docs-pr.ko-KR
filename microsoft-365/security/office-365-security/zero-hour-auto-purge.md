@@ -19,12 +19,12 @@ ms.assetid: 96deb75f-64e8-4c10-b570-84c99c674e15
 ms.collection:
 - M365-security-compliance
 description: 0 시간 자동 삭제 (ZAP)는 Exchange Online으로 이미 배달 된 스팸, 맬웨어 또는 피싱 메시지를 검색 하는 Microsoft 365의 전자 메일 보호 기능입니다. ZAP이 수행 하는 방법은 검색 된 악의적인 콘텐츠의 유형에 따라 다릅니다.
-ms.openlocfilehash: a819269d8596f12e76cbd17b5d1302cd56837f14
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: f1b36f1152882f446c8f611ceafb44a085cc0a5d
+ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43630812"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43708454"
 ---
 # <a name="zero-hour-auto-purge-zap---protection-against-spam-and-malware-in-microsoft-365"></a>제로 시간 자동 삭제 (ZAP)-Microsoft 365의 스팸 및 맬웨어에 대 한 보호
 
@@ -36,7 +36,7 @@ ZAP은 Exchange Online 사서함이 포함 된 Microsoft 365 구독에 포함 �
 
 ## <a name="how-zap-works"></a>ZAP 작동 방식
 
-Microsoft 365는 스팸 및 맬웨어 서명을 매일 실시간으로 업데이트 합니다. 그러나 사용자에 게 콘텐츠를 배달 한 후에 weaponized를 포함 하 여 여러 가지 이유로 인해 여전히 악의적인 메시지를 받을 수 있습니다. ZAP은 마이크로 Sfot 365 스팸 및 맬웨어 서명에 대 한 업데이트를 지속적으로 모니터링 하 여이 문제를 해결 합니다. ZAP은 이미 사용자의 사서함에 있는 메시지를 찾아 제거할 수 있습니다.
+Microsoft 365는 스팸 및 맬웨어 서명을 매일 실시간으로 업데이트 합니다. 그러나 사용자에 게 콘텐츠를 배달 한 후에 weaponized를 포함 하 여 여러 가지 이유로 인해 여전히 악의적인 메시지를 받을 수 있습니다. ZAP은 Microsoft 365 스팸 및 맬웨어 서명에 대 한 업데이트를 지속적으로 모니터링 하 여이 문제를 해결 합니다. ZAP은 이미 사용자의 사서함에 있는 메시지를 찾아 제거할 수 있습니다.
 
 사용자가 ZAP 작업을 원활 하 게 수행할 수 있습니다. 메시지를 검색 하 고 이동한 경우 알림을 받지 않습니다.
 

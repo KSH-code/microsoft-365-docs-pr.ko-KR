@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: 이 문서에서는 Microsoft 365의 새 데이터 조사 (미리 보기) 도구에 대해 설명 합니다.
-ms.openlocfilehash: e147275c21696520c33d5a6679e3ea81023877de
-ms.sourcegitcommit: 7930fb8327bbd3594fde52f2dbf91e0f5d92f684
+ms.openlocfilehash: 89bd9e637a74ac1b972b00f794eca408828c076d
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "42328080"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43626774"
 ---
 # <a name="overview-of-data-investigations-preview-in-microsoft-365"></a>Microsoft 365의 데이터 조사 개요 (미리 보기)
 
@@ -41,7 +41,7 @@ ms.locfileid: "42328080"
 
 ## <a name="search-for-sensitive-malicious-or-misplaced-data"></a>중요, 악성 또는 잘못 배치 되는 데이터 검색
 
-**검색 탭을** 사용 하 여 검색을 만들어 수정 하려는 데이터에 대 한 Office 365을 찾습니다. 쿼리 기반 검색을 만들고 실행 하 여 분산 된 데이터가 포함 될 수 있는 전자 메일 메시지 및 문서를 식별 한 다음 검토 하 고 분석할 증거로 수집할 수 있습니다. 또한 검색 도구를 사용 하 여 예제 문서를 미리 보고, 검색 결과를 구체화 하 고 개선 하는 데 도움이 되는 검색 통계를 볼 수 있습니다. 조사에 관련 된 모든 데이터가 검색 결과에 포함 되어 있는 것으로 확인 되 면 추가 검토, 영향 평가 및 필요에 따라 수정 작업을 수행 하 여 검색 결과를 증거 집합에 추가 합니다. 자세한 내용은 [조사에서 데이터 검색](search-for-data.md)을 참조 하십시오.
+**검색 탭을** 사용 하 여 검색을 만들어 수정 하려는 데이터에 대 한 Microsoft 365을 찾습니다. 쿼리 기반 검색을 만들고 실행 하 여 분산 된 데이터가 포함 될 수 있는 전자 메일 메시지 및 문서를 식별 한 다음 검토 하 고 분석할 증거로 수집할 수 있습니다. 또한 검색 도구를 사용 하 여 예제 문서를 미리 보고, 검색 결과를 구체화 하 고 개선 하는 데 도움이 되는 검색 통계를 볼 수 있습니다. 조사에 관련 된 모든 데이터가 검색 결과에 포함 되어 있는 것으로 확인 되 면 추가 검토, 영향 평가 및 필요에 따라 수정 작업을 수행 하 여 검색 결과를 증거 집합에 추가 합니다. 자세한 내용은 [조사에서 데이터 검색](search-for-data.md)을 참조 하십시오.
 
 ## <a name="review-and-investigate-evidence"></a>증거 검토 및 조사
 

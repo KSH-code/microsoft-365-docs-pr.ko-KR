@@ -24,12 +24,12 @@ search.appverid:
 - GEA150
 ms.assetid: 8d83b530-f4ca-47f6-a666-e5791cbacc7e
 description: '제품 키를 사용 하 여 Microsoft 365 비즈니스 에디션 구독을 갱신 하 고, 되풀이 되는 대금 청구를 설정 하거나 해제 하는 방법을 알아봅니다. '
-ms.openlocfilehash: 1c3fc5f9648c814d300cd65ac872f1e28e90ca0d
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 9a44f8e65aad46e82134d8f088f6955bcd37ad3b
+ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636562"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43707658"
 ---
 # <a name="renew-microsoft-365-for-business"></a>Microsoft 365 for business 갱신
 
@@ -48,11 +48,10 @@ ms.locfileid: "43636562"
 
 ::: moniker range="o365-worldwide"
 
-
 1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품 및 서비스</a> 페이지로 이동합니다.
 
 2. 되풀이 청구를 관리할 구독을 선택합니다.
- 
+
 3. **청구**에서 **갱신 켜기** 또는 **만료 설정**옆에 있는 **편집**을 선택 합니다.
 
 4. 되풀이 되는 **대금 청구 설정** 창에서 **해제** 를 선택 하 여 해제 합니다. 되풀이 되는 대금 청구를 사용 하지 않도록 설정 되어 있으면 **매월** 또는 **한 번** 을 선택 하 여 설정 합니다.
@@ -68,11 +67,7 @@ ms.locfileid: "43636562"
 
 ::: moniker range="o365-germany"
   
-1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">구독</a> 페이지로 이동합니다.
-
-    사용 중인 경우 Office 365 Germany이 <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">구독</a> 페이지로 이동합니다.
-
-    사용 중인 경우 21Vianet에서 운영하는 Office 365이 <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">구독</a> 페이지로 이동합니다.
+1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">구독</a> 페이지로 이동합니다.
 
 2. 되풀이 청구를 관리할 구독을 선택합니다.
  
@@ -91,14 +86,10 @@ ms.locfileid: "43636562"
 
 ::: moniker range="o365-21vianet"
   
-1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">구독</a> 페이지로 이동합니다.
-
-    사용 중인 경우 Office 365 Germany이 <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">구독</a> 페이지로 이동합니다.
-
-    사용 중인 경우 21Vianet에서 운영하는 Office 365이 <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">구독</a> 페이지로 이동합니다.
+1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">구독</a> 페이지로 이동합니다.
 
 2. 되풀이 청구를 관리할 구독을 선택합니다.
- 
+
 3. 되풀이 되는 **대금 청구**를 설정 하려면 토글을 **설정으로 전환 합니다.**
 
     ![정기 청구 기능이 설정 된 구독 카드의 클로즈업입니다.](../../media/984464dc-6b63-4b24-84e1-67f6c4b1d48e.png)

@@ -1,7 +1,7 @@
 ---
 title: Health Information Trust 제휴 (HITRUST) 일반 보안 프레임 워크 (CSF)
 description: Azure 및 Office 365는 HITRUST (Health Information Trust 제휴) (CSF)를 인증 합니다.
-keywords: Microsoft 365, 규정 준수, 제품
+keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 734621d9017c21822043ff8c1beb82044ec8c860
-ms.sourcegitcommit: a6686a68b068adec29b72f998ac9bc95992981df
+ms.openlocfilehash: f04c6bf41e9c09455773c419efec0b7b4e8ca5ae
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/30/2020
-ms.locfileid: "41628104"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637992"
 ---
 # <a name="health-information-trust-alliance-hitrust-common-security-framework-csf"></a>Health Information Trust 제휴 (HITRUST) 일반 보안 프레임 워크 (CSF)
 
@@ -49,7 +49,7 @@ Azure 보안 및 준수 청사진을 사용 하 여 HITRUST 배포를 가속화 
 
 Azure 및 Office 365의 HITRUST CSF 인증은 2 년 동안 유효 합니다.
 
-- [Azure HITRUST 인증 편지](https://aka.ms/AzureHiTrustLetterofCertification)
+- [Azure HITRUST 인증 편지](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=02eaae7a-9d65-42e6-aec8-a8e22de1a494&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_GRC_Assessment_Reports)
 - [Office 365 HITRUST 인증 편지](https://aka.ms/O365HITRUSTcertification)
 
 ## <a name="accelerate-your-deployment-of-hipaahitrust-solutions-on-azure"></a>Azure에서 HIPAA/HITRUST 솔루션 배포를 가속화 합니다.
@@ -66,7 +66,7 @@ Office 365을 사용 하 여 규정 준수 점수를 사용 하 여 보안 및 �
 
 ## <a name="collaborate-with-microsoft-in-the-hitrust-shared-responsibility-program"></a>HITRUST 공유 책임 프로그램에서 Microsoft와 공동 작업
 
-HITRUST MyCSF 도구에서 Azure에 대 한 완전히 상속 되거나 공유 된 책임 제어를 사용 하 여 평가를 미리 채우고 microsoft Azure에 호스트 되는 솔루션에 대 한 HITRUST 규정 준수를 가속화 합니다. 평가.
+HITRUST MyCSF 도구에서 Azure에 대 한 완전히 상속 되거나 공유 된 책임 제어를 사용 하 여 평가를 미리 채우고 평가에 대해 Microsoft와 공동으로 작업을 수행 하 여 Microsoft Azure에서 호스트 되는 솔루션에 대 한 HITRUST 준수 실현을 가속화 합니다.
 
 [자세한 정보](https://go.microsoft.com/fwlink/p/?linkid=2100268)
 
@@ -78,14 +78,14 @@ HITRUST MyCSF 도구에서 Azure에 대 한 완전히 상속 되거나 공유 �
 
 **HITRUST 인증의 복사본은 어떻게 구할 수 있나요?**
 
-[Azure](https://aka.ms/AzureHiTrustLetterofCertification) 및 [Office 365](https://aka.ms/O365HITRUSTcertification)에 대 한 인증 편지의 복사본을 다운로드할 수 있습니다.
+[Azure](https://servicetrust.microsoft.com/ViewPage/MSComplianceGuideV3?command=Download&downloadType=Document&downloadId=02eaae7a-9d65-42e6-aec8-a8e22de1a494&tab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb&docTab=7027ead0-3d6b-11e9-b9e1-290b1eb4cdeb_GRC_Assessment_Reports) 및 [Office 365](https://aka.ms/O365HITRUSTcertification)에 대 한 인증 편지의 복사본을 다운로드할 수 있습니다.
 
 **Office 365의 범위 내 서비스는 무엇 인가요?**
 
-HITRUST CSF 인증의 범위 내 서비스는 Exchange Online 보관, Exchange Online Protection, Exchange Online, 비즈니스용 Skype, 관리 센터, SharePoint Online, Project Online, 비즈니스용 OneDrive, Office Online, MyAnalytics, Microsoft Office 365의 팀, office ProPlus, 다중 테 넌 트 클라우드 및 Office 365 GCC.
+HITRUST CSF 인증의 범위 내 서비스는 Exchange Online, Exchange online Protection, exchange Online, 비즈니스용 Skype, 관리 센터, SharePoint Online, Project Online, 비즈니스용 OneDrive, office Online, MyAnalytics, Microsoft 팀, office ProPlus, office 365 다중 테 넌 트 클라우드 및 Office 365 GCC입니다.
 
 > [!NOTE]
-> Office 365 ProPlus는 로밍 설정, 라이선스 및 OneDrive 소비자 클라우드 저장소와 같은 다양 한 클라우드 서비스에 액세스할 수 있도록 하며 나중에 추가 클라우드 서비스에 대 한 액세스를 사용 하도록 설정할 수 있습니다. 로밍 설정 및 라이선스는 HITRUST에 대 한 표준을 지원 합니다. OneDrive 소비자 클라우드 저장소 및 Office 365 ProPlus를 통해 액세스할 수 있는 기타 클라우드 서비스 및 Microsoft에서 향후에 제공 하는 서비스도 이러한 표준을 지원 하지 않을 수도 있습니다. *
+> Microsoft 365 enterprise 용 앱을 사용 하면 로밍 설정, 라이선스 및 OneDrive 소비자 클라우드 저장소와 같은 다양 한 클라우드 서비스에 액세스할 수 있으며 나중에 추가 클라우드 서비스에 대 한 액세스를 사용 하도록 설정할 수 있습니다. 로밍 설정 및 라이선스는 HITRUST에 대 한 표준을 지원 합니다. OneDrive 소비자 클라우드 저장소와 함께 제공 되지 않으며 Microsoft 365 앱을 통해 액세스할 수 있는 기타 클라우드 서비스 및 Microsoft에서 향후에 제공할 수도 있는 기타 클라우드의 서비스가 이러한 표준을 지원 하지 않을 수도 있습니다. *
 
 **일부 Office 365 서비스가이 인증의 범위에 없는 이유는 무엇 인가요?**
 
@@ -106,7 +106,7 @@ HITRUST MyCSF® 도구에 로그인 하 고 Azure에 대 한 완전히 상속 �
 ## <a name="resources"></a>리소스
 
 - [HITRUST 동맹](https://hitrustalliance.net/)
-- [HITRUST CSF 8.1](https://hitrustalliance.net/csf-license-agreement/)
+- [HITRUST CSF 9.3](https://hitrustalliance.net/csf-license-agreement/)
 - [CSF 이해 및 활용](https://hitrustalliance.net/understanding-leveraging-csf/)
 - [HITRUST 공유 책임 프로그램에 대해 자세히 알아보기](https://go.microsoft.com/fwlink/p/?linkid=2100268)
 - [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)

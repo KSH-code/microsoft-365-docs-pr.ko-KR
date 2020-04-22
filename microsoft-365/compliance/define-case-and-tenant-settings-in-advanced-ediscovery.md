@@ -1,5 +1,5 @@
 ---
-title: Office 365 Advanced eDiscovery에서 사례 및 테 넌 트 설정 정의
+title: 고급 eDiscovery에서 사례 및 테 넌 트 설정 정의
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -14,13 +14,13 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 383809de-7f5e-4a1d-9098-c525f67b7a9a
-description: 'Office 365 Advanced eDiscovery의 사례 수준에서 정의할 수 있는 레이블, 모듈 간 및 테 넌 트 설정에 대해 알아봅니다.  '
-ms.openlocfilehash: 3f206feaa48f13db48552fb7d1be1445609edeae
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+description: '고급 eDiscovery의 사례 수준에서 정의할 수 있는 레이블, 모듈 간 및 테 넌 트 설정에 대해 알아봅니다.  '
+ms.openlocfilehash: b4092c7fd60b9ae82e4f97edcfa7f4aaf60ac622
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42556946"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43630565"
 ---
 # <a name="define-case-and-tenant-settings-in-advanced-ediscovery-classic"></a>고급 eDiscovery에서 사례 및 테 넌 트 설정 정의 (클래식)
 

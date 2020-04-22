@@ -13,13 +13,13 @@ search.appverid: MET150
 mscollection: M365-security-compliance
 ms.custom: Adm_O365
 ms.assetid: f30e2353-0bd6-41ed-8347-eea1fb8d2662
-description: Office 365, Azure 및 Dynamics 365 Online 규정 준수 보고서의 경우 타사 감사를 보려면 Microsoft에서 고객 데이터를 안전 하 게 보호 하는 방법과 이러한 온라인 서비스를 사용할 때 ISO, HIPAA, NIST, FINRA, GDPR 및 FedRAMP를 준수 하는 방법을 확인 하세요.
-ms.openlocfilehash: 865b16dfc5e1878a9bc51f8d84ef8c0128f39298
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: Microsoft 365, Azure 및 Dynamics 365 Online 규정 준수 보고서의 경우 타사 감사를 보려면 Microsoft에서 고객 데이터를 안전 하 게 보호 하는 방법과 이러한 온라인 서비스를 사용할 때 ISO, HIPAA, NIST, FINRA, GDPR 및 FedRAMP을 준수 하는 방법을 확인 하세요.
+ms.openlocfilehash: 837ab06a0b4cf058586cff31c462884833da5871
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42073161"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632449"
 ---
 # <a name="get-started-with-the-microsoft-service-trust-portal"></a>Microsoft Service Trust Portal 시작
 
@@ -27,11 +27,11 @@ Microsoft Service Trust Portal은 Microsoft 보안, 개인 정보 보호 및 규
   
 ## <a name="accessing-the-service-trust-portal"></a>서비스 보안 포털 액세스
 
-서비스 트러스트 포털에는 Microsoft의 클라우드 서비스 및 고객 데이터를 보호 하는 제어 및 프로세스에 대 한 자세한 정보가 포함 되어 있습니다. 서비스 보안 포털의 일부 리소스에 액세스 하려면 Microsoft 클라우드 서비스 계정 (Azure Active Directory 조직 계정 또는 Microsoft 계정)을 사용 하 여 인증 된 사용자로 로그인 하 고 Microsoft에 검토 및 동의 해야 합니다. 규정 준수 자료에 대 한 비밀 유지 계약
+서비스 트러스트 포털에는 Microsoft의 클라우드 서비스 및 고객 데이터를 보호 하는 제어 및 프로세스에 대 한 자세한 정보가 포함 되어 있습니다. 서비스 보안 포털의 일부 리소스에 액세스 하려면 Microsoft 클라우드 서비스 계정 (Azure Active Directory 조직 계정 또는 Microsoft 계정)을 사용 하 여 인증 된 사용자로 로그인 하 고 준수 자료에 대해 Microsoft 비밀 유지 계약을 검토 한 후 동의 해야 합니다.
   
 기존 고객은 다음 온라인 구독 (평가판 또는 [https://aka.ms/STP](https://aka.ms/STP) 유료) 중 하나를 사용 하 여 **서비스 신뢰 포털에 액세스할 수 있습니다** . 
   
-- Office 365
+- Microsoft 365
 
 - Dynamics 365
 
@@ -44,7 +44,7 @@ Microsoft Service Trust Portal은 Microsoft 보안, 개인 정보 보호 및 규
   
 새 계정을 만들거나 평가판 계정을 만들려면 평가판 계정에도 사용 되는 다음 등록 양식 중 하나를 사용 하 여 STP에 대 한 액세스 권한을 얻습니다.
   
-- 새 [office 365 비즈니스 평가판 계정](https://go.microsoft.com/fwlink/p/?LinkID=507653) 또는 새 [office 365 Enterprise 평가판 계정](https://go.microsoft.com/fwlink/p/?LinkID=698279) 등록
+- 새 [Microsoft 365 Apps for business 평가판 계정](https://go.microsoft.com/fwlink/p/?LinkID=507653) 또는 새 [Office 365 Enterprise 평가판 계정을](https://go.microsoft.com/fwlink/p/?LinkID=698279) 등록 합니다.
 
 - 새 [Dynamics 365 평가판 계정](https://go.microsoft.com/fwlink/?LinkId=252780) 등록
 
@@ -66,7 +66,7 @@ Microsoft Service Trust Portal은 Microsoft 보안, 개인 정보 보호 및 규
 
 ### <a name="compliance-manager"></a>준수 관리자
 
-준수 관리자는 Office 365, Dynamics 365 및 Azure와 같은 Microsoft 클라우드 서비스와 관련 된 조직의 규정 준수 활동을 추적, 할당 및 확인 하는 데 도움이 되는 워크플로 기반 위험 평가 도구입니다. 준수 관리자를 사용 하 여 클라우드의 공유 책임 모델 내에서 규정 준수를 관리 합니다. 사용 하려는 준수 관리자 버전에 따라 자세한 내용은 다음 문서를 참조 하세요.
+준수 관리자는 microsoft 클라우드 서비스와 관련 된 조직의 규정 준수 활동 (예: 마이크로소프트 365, Dynamics 365 및 Azure)을 추적, 할당 및 확인 하는 데 도움이 되는 워크플로 기반 위험 평가 도구입니다. 준수 관리자를 사용 하 여 클라우드의 공유 책임 모델 내에서 규정 준수를 관리 합니다. 사용 하려는 준수 관리자 버전에 따라 자세한 내용은 다음 문서를 참조 하세요.
 
 - [Microsoft 준수 관리자(기본)](meet-data-protection-and-regulatory-reqs-using-microsoft-cloud.md)
 
@@ -102,7 +102,7 @@ Microsoft 클라우드 서비스에 대 한 업계 및 지역별 규정 준수 �
   
 ### <a name="trust-center"></a>보안 센터
 
-Microsoft 클라우드에서 보안, 규정 준수 및 개인 정보 보호에 대 한 자세한 정보를 제공 하는 [Microsoft 보안 센터](https://www.microsoft.com/trust-center)에 대 한 링크입니다. 여기에는 GDPR에 대 한 특정 요구 사항을 해결 하는 데 사용할 수 있는 Microsoft 클라우드 서비스의 기능에 대 한 정보 및 기술 및 조직의 책임에 대 한 이해를 제공 합니다. Microsoft는 GDPR을 지원 하기 위해 수행 했습니다.
+Microsoft 클라우드에서 보안, 규정 준수 및 개인 정보 보호에 대 한 자세한 정보를 제공 하는 [Microsoft 보안 센터](https://www.microsoft.com/trust-center)에 대 한 링크입니다. 여기에는 gdpr의 특정 요구 사항을 해결 하는 데 사용할 수 있는 Microsoft 클라우드 서비스의 기능에 대 한 정보 및 Microsoft가 GDPR을 지원 하기 위해 수행한 기술 및 조직 조치에 대 한 이해를 제공 합니다.
   
 ### <a name="my-library"></a>내 라이브러리
 
@@ -163,7 +163,7 @@ Microsoft 클라우드에서 보안, 규정 준수 및 개인 정보 보호에 �
   
 ![Service Trust Portal - 지역화된 콘텐츠 옵션](../media/b50c677e-a886-4267-9eca-915d880ead7a.png)
   
-## <a name="feedback"></a>피드백
+## <a name="feedback"></a>사용자 의견
 
 서비스 신뢰 포털에 대 한 질문이 나 포털을 사용할 때 발생 하는 오류에 대해 도움을 얻을 수 있습니다. 또한 STP 페이지 아래쪽에 있는 피드백 링크를 사용 하 여 서비스 신뢰 포털 준수 보고서 및 신뢰 리소스에 대 한 질문과 대답 및 의견을 문의할 수 있습니다.
   

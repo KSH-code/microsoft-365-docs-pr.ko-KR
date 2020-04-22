@@ -22,19 +22,19 @@ search.appverid:
 ms.assetid: 8f0454b2-f51a-4d9c-bcde-2c48e41621c6
 description: 보안 기본값을 사용 하 여 사용자에 대해 multi-factor authentication을 설정 하는 방법을 알아봅니다.
 monikerRange: o365-worldwide
-ms.openlocfilehash: 4a829aa597596564b9c2f468e72f3a766b198372
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 1000689794b8b5471efa898e731fd75a0e5a8cce
+ms.sourcegitcommit: 7c0470fd7a98911d142bac060c228947c46a6be7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627683"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43665635"
 ---
 # <a name="set-up-multi-factor-authentication"></a>다단계 인증 설정
   
 > [!IMPORTANT]
-> 2019 년 10 월 21 일 이후에 구독 또는 평가판을 구매한 경우 MFA를 예기치 않게 묻는 메시지가 표시 되 면 구독에 대해 [보안 기본값이](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults) 자동으로 사용 하도록 설정 된 것입니다.
+> 2019 년 10 월 21 일 이후에 구독 또는 평가판을 구매한 경우 MFA (다단계 인증)를 위해 예기치 않게 메시지가 표시 되는 경우 구독에 대해 [보안 기본값이](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults) 자동으로 사용 하도록 설정 됩니다.
 
-모든 새 Microsoft 365 구독에는 자동으로 보안 기본값이 설정 됩니다. 즉, 모든 사용자는 MFA(다단계 인증)를 설정하고 모바일 장치에 인증자 앱을 설치해야 합니다. 자세한 내용은 [Set up 2-step 확인-Microsoft 365](https://support.office.com/article/ace1d096-61e5-449b-a875-58eb3d74de14)를 참조 하세요.  
+모든 새 Microsoft 365 구독에는 자동으로 [보안 기본값이](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults) 설정 됩니다. 즉, 모든 사용자는 MFA (multi-factor authentication)를 설정 하 고 모바일 장치에 Microsoft Authenticator 앱을 설치 해야 합니다. 자세한 내용은 [Microsoft 365 계정에 대 한 MFA 설정을](https://support.office.com/article/ace1d096-61e5-449b-a875-58eb3d74de14)참조 하세요.
 
 다음 9개의 관리자 역할은 로그인할 때마다 추가 인증을 수행해야 합니다.
 
@@ -48,35 +48,30 @@ ms.locfileid: "43627683"
 - 사용자 관리자
 - 인증 관리자
 
-필요한 경우 다른 모든 사용자들은 추가 인증을 수행하라는 요청을 받습니다. 자세한 내용은 [보안 기본값이란?](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults)을 참조하세요.
+필요한 경우 다른 모든 사용자들은 추가 인증을 수행하라는 요청을 받습니다.
 
 > [!NOTE]
-> 다단계 인증을 설정 하거나 수정 하려면 전역 관리자 여야 합니다. <br><br>
+> MFA를 설정 하거나 수정 하려면 전역 관리자 여야 합니다. <br><br>
 > 새로운 Microsoft 365 관리 센터를 사용하지 않는 경우 홈페이지 상단에 있는 **새 관리 센터 시도** 토글을 선택하여 켤 수 있습니다.
 
-이전에 기본 정책을 사용 하여 MFA를 설정한 경우 [ 이를 해제하고 보안 기본값](#move-from-baseline-policies-to-security-defaults)을 설정해야 합니다. 그러나 Microsoft 365 Business 또는 구독에 [Azure Active Directory Premium 1 또는 Azure Active Directory Premium 2](https://azure.microsoft.com/pricing/details/active-directory/)가 포함되어 있는 경우에도 [조건부 액세스](https://docs.microsoft.com/azure/active-directory/conditional-access/overview) 정책을 설정할 수 있습니다. 조건부 액세스 정책을 사용 하려면 [최신 인증이](#enable-modern-authentication-for-your-organization) 사용 되도록 설정 되어 있는지 확인 해야 합니다.
+기본 정책을 사용 하 여 이전에 MFA를 설정한 경우 [보안 기본값을 설정 하려면 해당 화면을 꺼야 합니다](#move-from-baseline-policies-to-security-defaults). 그러나 Microsoft 365 Business 또는 구독에 [Azure Active Directory Premium P1 또는 Azure Active Directory Premium P2](https://azure.microsoft.com/pricing/details/active-directory/)가 포함 되어 있는 경우 [조건부 액세스](https://docs.microsoft.com/azure/active-directory/conditional-access/overview) 정책을 설정할 수도 있습니다. 조건부 액세스 정책을 사용 하려면 보안 기본값을 사용 하지 않도록 설정 하 고 [최신 인증](#enable-modern-authentication-for-your-organization) 을 사용할 수 있도록 해야 합니다.
 
 > [!TIP]
-> 사용자에게 인증자 앱을 설정하는 방법을 설명하려면 [Office 365에서 Microsoft Authenticator 사용](https://support.office.com/article/use-microsoft-authenticator-with-office-365-1412611f-ad8d-43ab-807c-7965e5155411?ui=en-US&rs=en-US&ad=US#ID0EAADAAA=_Step_1)을 방문하세요.
+> 사용자에 게 Microsoft Authenticator 앱을 설정 하는 방법을 설명 하려면 [Use Microsoft authenticator With Office 365](https://support.office.com/article/use-microsoft-authenticator-with-office-365-1412611f-ad8d-43ab-807c-7965e5155411)을 참조 하세요.
 
 ## <a name="manage-security-defaults"></a>보안 기본값 관리
 
 1. 전역 관리자 자격 증명을 사용하여 [관리 센터](https://go.microsoft.com/fwlink/p/?linkid=834822)에 로그인합니다.
-2. [Azure Active Directory 속성](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Properties)으로 이동합니다.
+2. [Azure Active Directory-속성 페이지로](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Properties)이동 합니다.
 3. 페이지 맨 아래에서 **보안 기본값 관리**를 선택합니다.
-4. 보안 기본값을 사용하도록 설정하려면 **예**를 선택하고 사용하지 않도록 설정하려면 **아니요**를 선택합니다.
+4. 보안 기본값을 사용 하려면 **예** 를 선택 하 고 보안 기본값을 사용 하지 않으려면 **아니요** 를 **선택 합니다.**
 
 ## <a name="move-from-baseline-policies-to-security-defaults"></a>기본 정책에서 보안 기본값으로 이동
 
-1. [관리 센터](https://go.microsoft.com/fwlink/p/?linkid=834822)에서 **설정**을 선택합니다.
-
-2. **로그인 및 보안**옆의 **더욱 안전하게 로그인**에서 **보기**를 선택합니다.
-
-3. **더욱 안전하게 로그인**에서 **관리**를 선택합니다. 
-
-4. **조건부 액세스-정책** 페이지에서 설정 된 각 기준 정책을 선택 하 고 **이를**사용 **안 함**으로 설정할 수 있습니다.
-5. [Azure Active Directory 속성](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Properties) 페이지로 이동합니다.
-6. 페이지 맨 아래에서 **보안 기본값 관리**를 선택 하 **고 보안 기본값 사용 창에서** **보안 기본값 사용** 을 설정/해제를 선택한 다음 **저장** **을 선택**합니다. 
+1. [조건부 액세스-정책 페이지로](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ConditionalAccessBlade/Policies)이동 합니다.
+2. 설정 된 각 기본 정책을 선택 **하 고** **정책 사용** 을 **해제**합니다.
+3. [Azure Active Directory-속성 페이지로](https://portal.azure.com/#blade/Microsoft_AAD_IAM/ActiveDirectoryMenuBlade/Properties)이동 합니다.
+4. 페이지 맨 아래에서 **보안 기본값 관리**를 선택 하 **고 보안 기본값 사용 창에서** **보안 기본값 사용** 을 설정/해제를 선택한 다음 **저장** **을 선택**합니다. 
 
 ## <a name="enable-modern-authentication-for-your-organization"></a>조직에 대 한 최신 인증을 사용 하도록 설정
 

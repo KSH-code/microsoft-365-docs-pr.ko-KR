@@ -17,12 +17,12 @@ ms.assetid: e47e838c-d99e-4c0b-b9aa-e66c4fae902f
 ms.collection:
 - M365-security-compliance
 description: 보안 &amp; 및 준수 센터에서 Office 365 Advanced Threat Protection에 대 한 보고서를 찾아서 사용 합니다.
-ms.openlocfilehash: cca2729918239eee7d27973cd28be16a534e461b
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 09e2f4be133d395b738219b3a280f08b915030e0
+ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631064"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43708502"
 ---
 # <a name="view-reports-for-office-365-advanced-threat-protection"></a>Office 365 Advanced Threat Protection에 대 한 보고서 보기
 
@@ -60,9 +60,11 @@ ATP 보고서에는 다음이 포함 됩니다.
 
 ![' 나누기 기준 '이 표시 되는 위협 보호 상태 보고서 드롭다운](../../media/tp-threatProtectStatRpt-BreakDownBy.png)
 
-이러한 보기는 단추 클릭 (전자 메일 > 피싱, 전자 메일 > 맬웨어 및 콘텐츠 > 맬웨어 보기)을 통해 내보낼 수 있는 옵션을 제공 합니다. 컴퓨터로 내보낸 집계 된 데이터를 Excel에서 열 수 있습니다.
+이러한 보기는 단추 클릭 ( **전자 메일** \> **피싱**, **전자 메일** \> **맬웨어**및 **콘텐츠** \> **맬웨어** 보기)을 통해 내보낼 수 있는 옵션을 제공 합니다. 컴퓨터로 내보낸 집계 된 데이터를 Excel에서 열 수 있습니다.
 
 ![이 그래픽은 맬웨어 보기 메뉴의 옵션으로 내보내기, 만들기 일정 및 요청 보고서 간의 오른쪽을 보여 줍니다.](../../media/tp-threatProtectStatRpt-BreakDownByExport.png)
+
+**참고**: **피싱** 및 **맬웨어에** 대해 내보낼 수 있는 최대 항목 수는 1만에 불과합니다. 보기를 내보낼 경우 가장 최근 1만 항목만 내보내집니다.
 
 개요 및 전자 메일 보기에는 24 시간 (요청 다시)이 아닌 처리 시간 내에 정보가 표시 됩니다. 여기에서 속도 향상은 명확한 신호입니다.
 

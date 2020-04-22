@@ -21,12 +21,12 @@ search.appverid:
 - BEA160
 ROBOTS: NOINDEX
 description: 새 구독을 구입 하 고 구독이 모두 나열 되 고 활성 상태가 되도록 하 여 수동으로 구독을 변경 합니다.
-ms.openlocfilehash: 89786b30403a60bd0551351602d6fccc07f3d1a1
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: bcd9a129ef1597469ef9bbf93841b5db4f919f1e
+ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636586"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43707634"
 ---
 # <a name="change-plans-manually"></a>수동으로 계획 변경
 
@@ -43,7 +43,7 @@ ms.locfileid: "43636586"
 수동 변경 작업을 계속 하려면이 항목의 [2 단계: 새 구독 구입](#step-2-buy-a-new-subscription) 을 참조 하세요.
 
 > [!IMPORTANT]
-> 현재 계획 (다운 그레이드) 보다 더 작은 데이터 관련 서비스를 사용 하 여 계획으로 변경 하는 경우에는 유지할 데이터를 수동으로 백업 해야 합니다. 자세한 내용은 [비즈니스 계획을 위한 O365을 전환 하기 전에 데이터 백업을](back-up-data-before-switching-plans.md)참조 하세요.
+> 현재 계획 (다운 그레이드) 보다 더 작은 데이터 관련 서비스를 사용 하 여 계획으로 변경 하는 경우에는 유지할 데이터를 수동으로 백업 해야 합니다. 자세한 내용은 [요금제를 변경 하기 전에 데이터 백업을](back-up-data-before-switching-plans.md)참조 하십시오.
 
 ## <a name="step-2-buy-a-new-subscription"></a>2 단계: 새 구독 구입
 
@@ -62,7 +62,7 @@ ms.locfileid: "43636586"
 
 2. **두 구독이 모두 나열 되 고 활성 상태 인지 확인** 사용자를 이동 하는 구독과 사용자를 이동 하려는 구독은 함께 나열 되어야 합니다. 처음 확인할 때 새 구독이 없으면 나중에 다시 시도 하세요. 두 구독이 모두 활성 상태 인지 확인 합니다. [새 구독이 나열 되지 않거나 활성](#the-new-subscription-isnt-listed-or-isnt-active)상태가 아닙니다.
 
-3. **각 사용자에 대 한 라이선스가 충분 한지 확인** 각 사용자에 게는 구독과 일치 하는 라이선스가 필요 합니다. 따라서 10 명의 사용자를 Office 365 Enterprise e 5로 이동 하려는 경우에는 라이선스를 10 개 사용할 수 있는지 확인 해야 합니다.
+3. **각 사용자에 대 한 라이선스가 충분 한지 확인** 각 사용자에 게는 구독과 일치 하는 라이선스가 필요 합니다. 따라서 10 명의 사용자를 Microsoft 365 Business Premium으로 이동 하려면 10 개의 라이선스를 사용할 수 있는지 확인 해야 합니다.
 
 4. **새 구독에 대 한 라이선스가 더 필요 한가요?**
    **Products & services** 페이지로 이동 하 여 [추가 라이선스를 구입](../licenses/buy-licenses.md)합니다.

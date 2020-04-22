@@ -1,6 +1,6 @@
 ### YamlMime:Hub
 title: Microsoft 365 Business Premium 리소스
-summary: Microsoft 365 Business Premium은 cyberthreats에서 비즈니스를 보호 하 고 데이터를 보호 하 고 장치를 관리 하는 데 도움이 되는 Office 365 생산성 도구와 고급 기능을 포함 하는 구독 서비스입니다.
+summary: Microsoft 365 Business Premium (이전의 Microsoft 365 Business)은 300 명 미만의 직원을 가진 기업을 위한 포괄적인 구독 서비스입니다. 즐겨 사용 하는 Office 생산성 앱 및 서비스와 공동 작업 도구는 Microsoft 팀과 같은 고급 보안 및 장치 관리 기능을 통합 합니다.
 brand: m365
 metadata:
   title: Microsoft 365 Business Premium 리소스
@@ -11,12 +11,12 @@ metadata:
   author: samanro
   ms.author: samanro
   ms.date: 10/01/2019
-  ms.openlocfilehash: 29504ca22db443c504a5f3265ca2e8fcba0f737e
-  ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+  ms.openlocfilehash: 59478fceee0017321c59607f589fe464ac95077d
+  ms.sourcegitcommit: 7c0470fd7a98911d142bac060c228947c46a6be7
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 04/21/2020
-  ms.locfileid: "43627113"
+  ms.lasthandoff: 04/22/2020
+  ms.locfileid: "43665623"
 productDirectory:
   title: Microsoft 365 Business Premium을 통한 원격 작업 보안
   items:
