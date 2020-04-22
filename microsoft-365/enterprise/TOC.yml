@@ -188,6 +188,8 @@
           href: contoso-sharepoint-online-site-for-highly-confidential-assets.md
     - name: 엔터프라이즈용 Microsoft 365 배포 컨텐츠의 변경 사항
       href: microsoft-365-deploment-guide-changes.md
+    - name: Microsoft 365 서비스 상태
+      href: microsoft-365-service-health.md
 - name: 데스크톱 배포 센터
   href: desktop-deployment-center-home.md
   items:
