@@ -11,12 +11,12 @@ metadata:
   author: samanro
   ms.author: samanro
   ms.date: 10/01/2019
-  ms.openlocfilehash: 59478fceee0017321c59607f589fe464ac95077d
-  ms.sourcegitcommit: 7c0470fd7a98911d142bac060c228947c46a6be7
+  ms.openlocfilehash: 4dff1d10b8a4574ea8350aa194d7f6a2c8eb2605
+  ms.sourcegitcommit: b8a9994b26a6d9865212f5b1871286e719d1608e
   ms.translationtype: MT
   ms.contentlocale: ko-KR
   ms.lasthandoff: 04/22/2020
-  ms.locfileid: "43665623"
+  ms.locfileid: "43781479"
 productDirectory:
   title: Microsoft 365 Business Premium을 통한 원격 작업 보안
   items:
@@ -30,7 +30,7 @@ productDirectory:
     url: https://www.microsoft.com/microsoft-365/partners/videos/secure-your-smb-customers-as-they-cope-with-covid-19
   - title: 읽기
     imageSrc: https://docs.microsoft.com/office/media/icons/sign-up-blue.svg
-    summary: 비즈니스를 위해 Microsoft 365에서 보안 원격 작업을 사용 하도록 설정 하는 최상의 방법입니다.
+    summary: 보안 원격 작업을 Microsoft 365 Business Premium에서 사용 하도록 설정 하는 최상의 방법입니다.
     url: https://techcommunity.microsoft.com/t5/small-and-medium-business-blog/using-microsoft-365-business-to-secure-your-remote-workforce/ba-p/1298623
 conceptualContent:
   items:
