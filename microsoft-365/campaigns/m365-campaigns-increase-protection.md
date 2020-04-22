@@ -21,19 +21,19 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
-description: Microsoft 365 Business의 보호 수준 향상에 대 한 도움말 보기
-ms.openlocfilehash: 2dfccc7041c5fa32fb56d2ef2b113e9a3c883392
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: Microsoft 365의 보호 수준 향상에 대 한 도움말 보기
+ms.openlocfilehash: d7ab554ae2f162260e978fe82d4a197cc0d84d02
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42080683"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43633716"
 ---
 # <a name="increase-threat-protection"></a>위협 방지 강화
 
 이 문서는 Microsoft 365 구독의 보호를 향상 시켜 피싱, 맬웨어 및 기타 위협 으로부터 보호 하는 데 도움이 됩니다. 이러한 권장 사항은 정치적 캠페인, 법률 사무소 및 의료 보험 clinics 같은 보안 요구 사항이 증가 하는 조직에 적합 합니다. 
 
-시작 하기 전에 Office 365 보안 점수를 확인 하세요. Office 365 안전한 점수는 일반 활동 및 보안 설정에 따라 Office 365 조직의 보안을 분석 하 고 점수를 할당 합니다. 먼저 현재 점수를 기록 합니다. 이 문서에서 권장 하는 작업을 수행 하면 점수가 증가 합니다. 목표는 최대 점수를 얻는 것이 아니라 사용자의 생산성에 부정적인 영향을 주지 않는 환경을 보호 하기 위한 기회를 얻기 위한 것입니다. 
+시작 하기 전에 Office 365 보안 점수를 확인 하세요. Office 365 안전한 점수는 정기 활동 및 보안 설정에 따라 조직의 보안을 분석 하 고 점수를 할당 합니다. 먼저 현재 점수를 기록 합니다. 이 문서에서 권장 하는 작업을 수행 하면 점수가 증가 합니다. 목표는 최대 점수를 얻는 것이 아니라 사용자의 생산성에 부정적인 영향을 주지 않는 환경을 보호 하기 위한 기회를 얻기 위한 것입니다. 
 
 자세한 내용은 [Microsoft 보안 점수](https://docs.microsoft.com/office365/securitycompliance/microsoft-secure-score)를 참조 하세요.
 
@@ -44,7 +44,7 @@ Office 365 또는 Microsoft 365 환경에는 맬웨어에 대 한 보호 기능�
   
 1. 으로 이동 [https://protection.office.com](https://protection.office.com) 하 고 관리자 계정 자격 증명으로 로그인 합니다. 
     
-2. Office 365 보안 &amp; 및 준수 센터의 왼쪽 탐색 창에 있는 **위협 관리**에서 **정책** \> **맬웨어 방지**를 선택 합니다.
+2. 보안 &amp; 및 준수 센터의 왼쪽 탐색 창에 있는 **위협 관리**에서 **정책** \> **맬웨어 방지**를 선택 합니다.
     
 3. 기본 정책을 두 번 클릭 하 여이 회사 차원의 정책을 편집 합니다.
     
@@ -59,7 +59,7 @@ Office 365 또는 Microsoft 365 환경에는 맬웨어에 대 한 보호 기능�
   
 
 
-## <a name="protect-against-ransomware"></a>랜 섬 웨어 로부터 보호
+## <a name="protect-against-ransomware"></a>랜섬웨어로부터 보호
 
 랜 섬 웨어는 파일 암호화 또는 컴퓨터 화면 잠금을 통해 데이터에 대 한 액세스를 제한 합니다. 그런 다음 일반적으로 데이터에 액세스 하기 위해 exchange에서 "ransom" (예를 들어, Bits 동전) 형식을 사용 하 여 victims에서 ort money를 요청 합니다. 
   
@@ -134,7 +134,7 @@ ATP 피싱 방지 정책을 만들려면 [이 간략 한 교육 비디오](https
   
 1. [https://protection.office.com](https://protection.office.com)으로 이동합니다. 
     
-2. Office 365 보안 &amp; 및 준수 센터의 왼쪽 탐색 창에 있는 **위협 관리**에서 **정책을**선택 합니다.
+2. 보안 &amp; 및 준수 센터의 왼쪽 탐색 창에 있는 **위협 관리**에서 **정책을**선택 합니다.
     
 3. **정책** 페이지에서 **ATP 피싱 방지**를 선택 합니다.
     
@@ -166,7 +166,7 @@ ATP 피싱 방지 정책을 만들려면 [이 간략 한 교육 비디오](https
 
    ![새 관리 센터 미리 보기가 설정 되어 있습니다.](../media/previewon.png)
 
-아직 테 넌 트에 카드가 포함 된 **설정** 페이지가 표시 되지 않으면 Office 365 보안 &amp; 및 준수 센터에서 다음 단계를 완료 하는 방법을 참조 하세요. Security [& 준수 센터에서 atp 안전한 첨부 파일 설정을](#set-up-atp-safe-attachments-in-the-security--compliance-center) 참조 하 고 [보안 & 준수 센터에서 atp 안전한 링크를 설정](#set-up-atp-safe-links-in-the-security--compliance-center)합니다.
+아직 테 넌 트에 명함이 있는 **설정** 페이지가 표시 되지 않으면 보안 &amp; 및 준수 센터에서 다음 단계를 완료 하는 방법을 참조 하세요. Security [& 준수 센터에서 atp 안전한 첨부 파일 설정을](#set-up-atp-safe-attachments-in-the-security--compliance-center) 참조 하 고 [보안 & 준수 센터에서 atp 안전한 링크를 설정](#set-up-atp-safe-links-in-the-security--compliance-center)합니다.
 
 1.  왼쪽 탐색 창에서 **설치**를 선택 합니다.
 2. **설정** 페이지에서 **고급 위협 으로부터 보호 강화** 카드에서 **보기** 를 선택 합니다.</br></br>
@@ -188,7 +188,7 @@ ATP 안전한 첨부 파일 정책을 만들려면 [이 짧은 비디오](https:
   
 1. 으로 이동 [https://protection.office.com](https://protection.office.com) 하 고 관리자 계정으로 로그인 합니다. 
     
-2. Office 365 보안 &amp; 및 준수 센터의 왼쪽 탐색 창에 있는 **위협 관리**에서 **정책을**선택 합니다.
+2. 보안 &amp; 및 준수 센터의 왼쪽 탐색 창에 있는 **위협 관리**에서 **정책을**선택 합니다.
     
 3. 정책 페이지에서 **ATP 안전한 첨부 파일**을 선택 합니다.
     
@@ -225,7 +225,7 @@ ATP 안전한 링크를 설정 하려면 [이 간략 한 교육 비디오](https
   
 1. 으로 이동 [https://protection.office.com](https://protection.office.com) 하 고 관리자 계정으로 로그인 합니다. 
     
-2. Office 365 보안 &amp; 및 준수 센터의 왼쪽 탐색 창에 있는 **위협 관리**에서 **정책을**선택 합니다.
+2. 보안 &amp; 및 준수 센터의 왼쪽 탐색 창에 있는 **위협 관리**에서 **정책을**선택 합니다.
     
 3. 정책 페이지에서 **ATP 안전한 링크**를 선택 합니다.
     
@@ -233,7 +233,7 @@ ATP 안전한 링크를 설정 하려면 [이 간략 한 교육 비디오](https
   
 1. 안전한 링크 페이지의 **전체 조직에 적용 되는 정책**에서 **기본** 정책을 선택 합니다. 
     
-2. **전자 메일을 제외 하 고 콘텐츠에 적용 되는 설정**아래에서 **office 365 ProPlus, iOS 및 Android 용 office를 차례로**선택 합니다.
+2. **전자 메일을 제외 하 고 콘텐츠에 적용 되는 설정**아래에서 **Microsoft 365 앱 For enterprise, iOS 및 Android 용 Office를**선택 합니다.
     
 3. **저장**을 클릭합니다. 
     
@@ -258,12 +258,12 @@ ATP 안전한 링크를 설정 하려면 [이 간략 한 교육 비디오](https
 
 보안 &amp; 및 준수 센터에서 감사 로그 검색을 켠 후에는 로그에서 관리자 및 기타 사용자 활동을 유지 하 고 검색할 수 있습니다. 
 
-Microsoft 365 비즈니스 구독에서 감사 로그 검색을 설정 하거나 해제 하려면 Exchange Online에서 감사 로그 역할을 할당 받아야 합니다. 기본적으로이 역할은 Exchange 관리 센터의 사용 권한 페이지에 있는 준수 관리 및 조직 관리 역할 그룹에 할당 됩니다. Microsoft 365의 전역 관리자는 기본적으로이 그룹의 구성원입니다.
+Microsoft 365 구독에서 감사 로그 검색을 설정 하거나 해제 하려면 Exchange Online에서 감사 로그 역할을 할당 받아야 합니다. 기본적으로이 역할은 Exchange 관리 센터의 사용 권한 페이지에 있는 준수 관리 및 조직 관리 역할 그룹에 할당 됩니다. Microsoft 365의 전역 관리자는 기본적으로이 그룹의 구성원입니다.
 
 1. 감사 로그 검색을 켜려면 왼쪽 **탐색 창의 관리 센터** <a href="https://go.microsoft.com/fwlink/p/?linkid=837890" target="_blank">https://admin.microsoft.com</a> 에서 **준수** 를 선택 합니다. 
 2. **Microsoft 365 준수** 페이지에서 **기타 리소스**를 선택한 다음 **Office 365 보안 &amp; 센터** 카드에서 **엽니다** .
 
-    ![Office 365 보안 & 준수 자동차에서 열기를 선택 합니다.](../media/gotosecandcomp.png)
+    ![보안 & 준수 자동차에서 열기를 선택 합니다.](../media/gotosecandcomp.png)
 3. 보안 및 준수 페이지에서 **검색** 을 선택한 후 **감사 로그 검색**을 선택 합니다.
 1. **감사 로그 검색** 페이지 맨 위에서 **감사 사용**을 선택 합니다.
 
@@ -282,8 +282,8 @@ Microsoft 365 비즈니스 구독에서 감사 로그 검색을 설정 하거나
 
 활동 알림을 사용 하 여 관리자 및 사용자 활동을 추적 하 고 조직의 맬웨어 및 데이터 손실 방지 인시던트를 검색할 수 있습니다. 구독에 기본 정책 집합이 포함 되어 있지만 사용자 지정 정책을 만들 수도 있습니다. 자세한 내용은 [경고 정책을](https://docs.microsoft.com/office365/securitycompliance/alert-policies)참조 하세요. 예를 들어 외부에서 사용자를 공유 하지 않으려는 중요 한 파일을 SharePoint에 저장 하는 경우 누군가가이를 공유 하는 경우이를 알리는 알림을 만들 수 있습니다.
 
-다음 그림에서는 Microsoft 365 Business에 포함 된 기본 정책을 보여 줍니다. <br/><br/>
-    ![기본 경고 정책이 Microsoft 365 Business에 포함 됩니다.](../media/alertpolicies.png)
+다음 그림에는 Microsoft 365에 포함 된 기본 정책이 나와 있습니다. <br/><br/>
+    ![Microsoft 365에 포함 된 기본 경고 정책](../media/alertpolicies.png)
 
 ## <a name="disable-or-manage-calendar-sharing"></a>일정 공유를 사용 하지 않도록 설정 또는 관리
 

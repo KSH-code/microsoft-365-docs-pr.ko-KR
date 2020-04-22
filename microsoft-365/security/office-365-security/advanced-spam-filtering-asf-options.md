@@ -16,12 +16,12 @@ ms.assetid: b286f853-b484-4af0-b01f-281fffd85e7a
 ms.collection:
 - M365-security-compliance
 description: 스팸 방지 정책 (즉, 스팸 필터 정책 또는 콘텐츠 필터 정책이 라고도 함)의 ASF (고급 스팸 필터) 설정은 관리자가 스팸에 일반적으로 사용 되는 특정 메시지 속성을 포함 하는 메시지를 식별 하는 것을 허용 합니다. 속성에 따라 ASF 검색은 메시지를 스팸 또는 높은 신뢰도 스팸으로 표시 합니다.
-ms.openlocfilehash: e35279092e9d77b18eadd2af33909eda90bdd80b
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: 58114fa97d46a5a6f6f49c24826ace9edd811e1d
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42894255"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634733"
 ---
 # <a name="advanced-spam-filter-asf-settings-in-office-365"></a>Office 365의 ASF (고급 스팸 필터) 설정
 
@@ -33,7 +33,7 @@ ms.locfileid: "42894255"
 > [!NOTE]
 > 하나 이상의 ASF 설정을 사용 하도록 설정 하는 것이 스팸 필터링에 적극적인 방법입니다. ASF로 필터링 된 메시지는 가양성으로 보고할 수 없습니다. 다음과 같은 방법으로 ASF로 필터링 된 메시지를 확인할 수 있습니다. <ul><li>주기적인 최종 사용자 스팸 격리 알림</li><li>필터링 된 메시지가 격리 상태에 있는지 여부</li><li>이 항목 `X-CustomSpam:` 에 설명 된 대로 메시지에 추가 되는 특정 X-헤더 필드입니다.</li></ul>
 
-다음 섹션에서는 Office 365 보안 & 준수 센터의 스팸 방지 정책에서 사용할 수 있는 ASF 설정 및 옵션 및 Exchange Online PowerShell 또는 독립 실행형 Exchange Online Protection PowerShell ([get-hostedcontentfilterpolicy](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/new-hostedcontentfilterpolicy) 및 [get-hostedcontentfilterpolicy](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/set-hostedcontentfilterpolicy))에 대해 설명 합니다. 자세한 내용은 [Office 365의 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)를 참조하세요.
+다음 섹션에서는 보안 & 준수 센터의 스팸 방지 정책 및 Exchange Online PowerShell 또는 독립 실행형 Exchange Online Protection PowerShell ([get-hostedcontentfilterpolicy](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/new-hostedcontentfilterpolicy) 및 [get-hostedcontentfilterpolicy](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/set-hostedcontentfilterpolicy))에서 사용할 수 있는 ASF 설정 및 옵션에 대해 설명 합니다. 자세한 내용은 [Office 365의 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)를 참조하세요.
 
 ## <a name="enable-disable-or-test-asf-settings"></a>ASF 설정 사용, 사용 안 함 또는 테스트
 
@@ -49,7 +49,7 @@ ms.locfileid: "42894255"
 
   - **기본 X-헤더 텍스트 추가 (*Addxheader*)**: X-헤더 값 `X-CustomSpam: This message was filtered by the custom spam filter option` 이 메시지에 추가 됩니다. 받은 편지함 규칙 또는 메일 흐름 규칙 (전송 규칙이 라고도 함)에서이 값을 사용 하 여 메시지의 라우팅 및 배달에 영향을 줄 수 있습니다.
 
-  - **Bcc 메시지 보내기 (*Bccmessage*)**: 지정 된 전자 메일 주소 (PowerShell의 *TestModeBccToRecipients* 매개 변수 값)가 메시지의 숨은 참조 필드에 추가 되 고 해당 메시지는 숨은 참조 받는 사람에 게 배달 됩니다. Office 365 보안 & 준수 센터에서는 여러 전자 메일 주소를 세미콜론 (;)으로 구분 합니다. PowerShell에서는 여러 전자 메일 주소를 쉼표로 구분 합니다.
+  - **Bcc 메시지 보내기 (*Bccmessage*)**: 지정 된 전자 메일 주소 (PowerShell의 *TestModeBccToRecipients* 매개 변수 값)가 메시지의 숨은 참조 필드에 추가 되 고 해당 메시지는 숨은 참조 받는 사람에 게 배달 됩니다. 보안 & 준수 센터에서는 여러 전자 메일 주소를 세미콜론 (;)으로 구분 합니다. PowerShell에서는 여러 전자 메일 주소를 쉼표로 구분 합니다.
 
   **참고:**
 
@@ -93,5 +93,5 @@ ms.locfileid: "42894255"
 |**민감한 단어 목록 적용** <br><br/> *MarkAsSpamSensitiveWordList*|Microsoft는 잠재적으로 유해한 메시지와 연결 된 동적이 고 편집이 불가능 한 단어 목록을 유지 관리 합니다. <br/><br/> 제목 또는 메시지 본문에 있는 중요 한 단어 목록의 단어를 포함 하는 메시지는 신뢰도가 높은 스팸으로 표시 됩니다.|`X-CustomSpam: Sensitive word in subject/body`|
 |**SPF 레코드: 영구 실패** <br><br/> *MarkAsSpamSpfRecordHardFail*|원본 전자 메일 도메인에 대 한 DNS의 SPF (SPF Sender Policy Framework) 레코드에 지정 되지 않은 IP 주소에서 보낸 메시지는 신뢰도가 높은 스팸으로 표시 됩니다. <br/><br/> 이 설정에 대해 테스트 모드를 사용할 수 없습니다.|`X-CustomSpam: SPF Record Fail`|
 |**조건부 보낸 사람 ID 필터링: 영구 실패** <br><br/> *MarkAsSpamFromAddressAuthFail*|조건부 보낸 사람 ID 확인을 수행 하지 못하는 메시지는 스팸으로 표시 됩니다. <br/><br/> 이 설정은 보낸 사람을 포함 하는 메시지 헤더 로부터 보호 하는 데 도움이 되도록 SPF 검사와 Sender ID 확인을 결합 합니다. <br/><br/> 이 설정에 대해 테스트 모드를 사용할 수 없습니다.|`X-CustomSpam: SPF From Record Fail`|
-|**NDR 후방 분산** <br><br/> *MarkAsSpamNdrBackscatter*|*Backscatter* 은 전자 메일 메시지의 위조 된 보낸 사람에 의해 발생 하는 쓸모 없는 배달 못 함 보고서 (ndr 또는 바운스 메시지로도 알려짐)입니다. 자세한 내용은 [Backscatter 메시지 및 EOP](backscatter-messages-and-eop.md)을 참조 하십시오. <br/><br/> 합법적인 ndr이 배달 되 고 후방 산란이 스팸으로 표시 되므로 다음 환경에서는이 설정을 구성할 필요가 없습니다. <ul><li>Exchange Online 사서함이 있는 Office 365 조직</li><li>EOP를 통해 *아웃 바운드* 전자 메일을 라우팅하는 온-프레미스 전자 메일 조직</li></ul><br/> 온-프레미스 사서함에 대 한 인바운드 전자 메일을 보호 하는 독립 실행형 EOP 환경에서는이 설정을 사용 하거나 사용 하지 않도록 설정 하면 다음과 같은 결과가 반환 됩니다. <ul><li> **켜기**: 합법적인 ndr이 배달 되 고, 백 산이 스팸으로 표시 됩니다.</li><li>**Off**: 합법적인 ndr 및 백 분산은 일반 스팸 필터링을 통해 진행 됩니다. 대부분의 합법적인 Ndr은 원본 메시지 보낸 사람에 게 배달 됩니다. 일부는 아니지만, 모든 백 산은 신뢰도가 높은 스팸으로 표시 됩니다. 정의에 따라 후방 산란은 원래 보낸 사람이 아닌 스푸핑된 보낸 사람 에게만 배달 될 수 있습니다.</li></ul><br/> 이 설정에 대해 테스트 모드를 사용할 수 없습니다.|`X-CustomSpam: Backscatter NDR`|
+|**NDR 후방 분산** <br><br/> *MarkAsSpamNdrBackscatter*|*Backscatter* 은 전자 메일 메시지의 위조 된 보낸 사람에 의해 발생 하는 쓸모 없는 배달 못 함 보고서 (ndr 또는 바운스 메시지로도 알려짐)입니다. 자세한 내용은 [Backscatter 메시지 및 EOP](backscatter-messages-and-eop.md)을 참조 하십시오. <br/><br/> 합법적인 ndr이 배달 되 고 후방 산란이 스팸으로 표시 되므로 다음 환경에서는이 설정을 구성할 필요가 없습니다. <ul><li>Microsoft 365 조직에서 Exchange Online 사서함을 사용 합니다.</li><li>EOP를 통해 *아웃 바운드* 전자 메일을 라우팅하는 온-프레미스 전자 메일 조직</li></ul><br/> 온-프레미스 사서함에 대 한 인바운드 전자 메일을 보호 하는 독립 실행형 EOP 환경에서는이 설정을 사용 하거나 사용 하지 않도록 설정 하면 다음과 같은 결과가 반환 됩니다. <ul><li> **켜기**: 합법적인 ndr이 배달 되 고, 백 산이 스팸으로 표시 됩니다.</li><li>**Off**: 합법적인 ndr 및 백 분산은 일반 스팸 필터링을 통해 진행 됩니다. 대부분의 합법적인 Ndr은 원본 메시지 보낸 사람에 게 배달 됩니다. 일부는 아니지만, 모든 백 산은 신뢰도가 높은 스팸으로 표시 됩니다. 정의에 따라 후방 산란은 원래 보낸 사람이 아닌 스푸핑된 보낸 사람 에게만 배달 될 수 있습니다.</li></ul><br/> 이 설정에 대해 테스트 모드를 사용할 수 없습니다.|`X-CustomSpam: Backscatter NDR`|
 |

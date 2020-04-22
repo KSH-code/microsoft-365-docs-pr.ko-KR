@@ -1,5 +1,5 @@
 ---
-title: 도메인에 가입 된 Windows 10 장치를 Microsoft 365 Business에서 관리할 수 있도록 설정
+title: 비즈니스를 위해 Microsoft 365에서 관리할 도메인에 가입 된 Windows 10 장치를 사용 하도록 설정
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -24,16 +24,16 @@ search.appverid:
 - MET150
 ms.assetid: 9b4de218-f1ad-41fa-a61b-e9e8ac0cf993
 description: Microsoft 365에서 일부 단계만 수행 하 여 Active Directory에 가입 된 로컬 Windows 10 장치를 보호 하도록 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: 625eb7ac344b060409101d650ff30044d073f5bf
-ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
+ms.openlocfilehash: 431c1be74723e156befb13ffe1ed98b48b9a23cb
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42561463"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43633286"
 ---
-# <a name="enable-domain-joined-windows-10-devices-to-be-managed-by-microsoft-365-business"></a>도메인에 가입 된 Windows 10 장치를 Microsoft 365 Business에서 관리할 수 있도록 설정
+# <a name="enable-domain-joined-windows-10-devices-to-be-managed-by-microsoft-365-for-business"></a>비즈니스를 위해 Microsoft 365에서 관리할 도메인에 가입 된 Windows 10 장치를 사용 하도록 설정
 
-조직에서 Windows Server Active Directory 온-프레미스를 사용 하는 경우에는 Microsoft 365 Business를 설정 하 여 Windows 10 장치를 보호 하 되, 로컬 인증을 필요로 하는 온-프레미스 리소스에 대 한 액세스를 계속 유지할 수 있습니다.
+조직에서 Windows Server Active Directory 온-프레미스를 사용 하는 경우 Windows 10 장치를 보호 하 고 로컬 인증을 필요로 하는 온-프레미스 리소스에 대 한 액세스를 유지 하는 Microsoft 365 for business를 설정할 수 있습니다.
 이 보호를 설정 하기 위해 **하이브리드 AZURE AD에 가입 된 장치**를 구현할 수 있습니다. 이러한 장치는 온-프레미스 Active Directory 및 Azure Active Directory에 모두 가입 되어 있습니다.
 
 이 비디오에서는 다음 단계에서 자세히 설명 되는 가장 일반적인 시나리오에 대해이 설정을 구성 하는 단계를 보여 줍니다.
@@ -49,16 +49,16 @@ ms.locfileid: "42561463"
    
    - 사용이 허가 된 Microsoft 365 사용자에 해당 하는 기본 전자 메일 주소와 일치 하도록 각 로컬 사용자 계정에 대 한 **userPrincipalName** (UPN) 특성을 구성 하는 것이 좋습니다. 예: *mary@contoso* 가 아닌 *mary.shelley@contoso.com*
    
-   - Active Directory 도메인이 *.com* 또는 *org*와 같이 라우팅할 수 없는 접미사로 끝나는 ** 경우 [디렉터리 동기화를 위해 라우팅할 수 없는 도메인을 준비](https://docs.microsoft.com/office365/enterprise/prepare-a-non-routable-domain-for-directory-synchronization)하는 방법에 설명 된 대로 로컬 사용자 계정의 UPN *접미사를 먼저*조정 합니다. 
+   - Active Directory 도메인이 *.com* 또는 *org*와 같이 라우팅할 수 없는 접미사로 끝나는 *.local* 경우 [디렉터리 동기화를 위해 라우팅할 수 없는 도메인을 준비](https://docs.microsoft.com/office365/enterprise/prepare-a-non-routable-domain-for-directory-synchronization)하는 방법에 설명 된 대로 로컬 사용자 계정의 UPN *접미사를 먼저*조정 합니다. 
 
 ## <a name="2-install-and-configure-azure-ad-connect"></a>2. Azure AD Connect 설치 및 구성
 
 로컬 Active Directory의 사용자, 그룹 및 연락처를 Azure Active Directory에 동기화 하려면 Azure Active Directory Connect를 설치 하 고 디렉터리 동기화를 설정 합니다. 자세한 내용은 [Office 365에 대 한 디렉터리 동기화 설정](https://support.office.com/article/1b3b5318-6977-42ed-b5c7-96fa74b08846) 를 참조 하세요.
 
 > [!NOTE]
-> 이 단계는 Microsoft 365 비즈니스에서 동일 합니다. 
+> 비즈니스에 대 한 Microsoft 365의 단계는 정확히 동일 합니다. 
 
-Azure AD Connect에 대 한 옵션을 구성 하는 경우 **암호 동기화**, **원활한 Single sign-on**및 **암호 쓰기 저장** 기능을 사용 하도록 설정 하는 것이 좋습니다 (Microsoft 365 Business 에서도 지원 됨).
+Azure AD Connect에 대 한 옵션을 구성 하는 경우 **암호 동기화**, **원활한 Single sign-on**및 **암호 쓰기 저장** 기능을 사용 하도록 설정 하는 것이 좋습니다 (비즈니스용 Microsoft 365 에서도 지원 됨).
 
 > [!NOTE]
 > Azure AD Connect의 확인란 외에도 암호 쓰기 저장을 위한 몇 가지 추가 단계가 있습니다. 자세한 내용은 [방법: 암호 쓰기 저장 구성](https://docs.microsoft.com/azure/active-directory/authentication/howto-sspr-writeback)를 참조 하세요. 

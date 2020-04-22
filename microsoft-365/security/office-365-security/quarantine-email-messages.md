@@ -17,17 +17,17 @@ search.appverid:
 ms.assetid: 4c234874-015e-4768-8495-98fcccfc639b
 ms.collection:
 - M365-security-compliance
-description: Office 365에서 격리를 통해 위험할 수도 있고 원치 않는 메시지를 저장할 수 있습니다. 관리자 및 최종 사용자가 격리에 액세스할 수 있습니다.
-ms.openlocfilehash: d3db036210886f7a4607f477bba2cf9f450ed90c
-ms.sourcegitcommit: c876d58b34454f211b50ae5d06f193c1a1e5c4ff
+description: Microsoft 365의 격리는 잠재적으로 위험할 수도 있고 원치 않는 메시지를 포함 합니다. 관리자 및 최종 사용자가 격리에 액세스할 수 있습니다.
+ms.openlocfilehash: 2e2a83bc2ff2d57cf3310e2cb17a656683dbed47
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/11/2020
-ms.locfileid: "43230943"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634439"
 ---
-# <a name="quarantine-in-office-365"></a>Office 365에서 격리
+# <a name="quarantine-email-messages"></a>전자 메일 메시지 격리
 
-Exchange online 사서함이 없는 Office 365 고객이 나 독립 실행형 EOP (Exchange Online Protection) 고객의 경우에는 격리를 사용 하 여 위험할 수도 있고 원치 않는 메시지를 저장할 수 있습니다.
+Exchange online 사서함이 없는 Microsoft 365, 독립 실행형 EOP (Exchange Online Protection) 고객의 사서함을 사용 하는 경우에는 격리를 사용 하 여 위험할 수도 있고 원치 않는 메시지를 저장할 수 있습니다.
 
 맬웨어를 포함 하 *는 첨부 파일이 있는 경우* 맬웨어 방지 정책은 메시지를 자동으로 격리 합니다. 자세한 내용은 [Office 365에서 맬웨어 방지 정책 구성을](configure-anti-malware-policies.md)참조 하세요.
 

@@ -1,5 +1,5 @@
 ---
-title: Office 365의 전자 메일 보호 순서 및 우선 순위
+title: 전자 메일 보호의 순서 및 우선 순위
 keywords: 보안, 맬웨어, Microsoft 365, M365, 보안 센터, ATP, Microsoft Defender ATP, Office 365 ATP, Azure ATP
 f1.keywords:
 - NOCSH
@@ -14,16 +14,16 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: Office 365 보호의 응용 프로그램 순서와 보호 정책의 우선 순위 값이 적용 되는 정책을 결정 하는 방법에 대해 설명 합니다.
-ms.openlocfilehash: 6a95c59a5cd629b704753c6c05c9b8069d9240b1
-ms.sourcegitcommit: db8702cf578b02c6fd6a2670c177b456efae4748
+ms.openlocfilehash: ed4806bad6299dc5a5380bec2f6e1247f9d6b448
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43537416"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43633969"
 ---
-# <a name="order-and-precedence-of-email-protection-in-office-365"></a>Office 365의 전자 메일 보호 순서 및 우선 순위
+# <a name="order-and-precedence-of-email-protection"></a>전자 메일 보호의 순서 및 우선 순위
 
-Office 365에서 인바운드 전자 메일은로 평가 되며, 따라서 여러 형태의 보호 (맬웨어, 스팸, 피싱 등)에 의해 플래그가 지정 될 수 있습니다. 이러한 모든 활동의 경우 적용 된 정책과 순서를 확인 하기가 어려울 수 있습니다.
+Microsoft 365 사용자는 인바운드 전자 메일에 여러 보호 형태의 플래그를 지정 했을 수 있습니다. 예를 들어 모든 Microsoft 365 고객이 사용할 수 있는 기본 제공 EOP 피싱 방지 정책과 Office 365 Advanced Threat Protection 고객도 사용할 수 있는 더욱 견고한 ATP 피싱 방지 정책 또한 메시지는 맬웨어, 스팸, 피싱 등에 대해 여러 검색 검사를 통과 합니다. 이 모든 활동이 제공 되는 경우 적용 되는 정책과 같은 혼동이 있을 수 있습니다.
 
 일반적으로 메시지에 적용 되는 정책은 **CAT (Category)** 속성의 **스팸 방지-Report** 헤더에서 식별 됩니다. 자세한 내용은 [스팸 방지 메시지 헤더](anti-spam-message-headers.md)를 참조하세요.
 

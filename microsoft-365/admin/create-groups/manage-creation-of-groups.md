@@ -1,5 +1,5 @@
 ---
-title: Office 365 그룹을 만들 수 있는 사용자 관리
+title: 그룹을 만들 수 있는 사용자 관리
 f1.keywords: NOCSH
 ms.author: mikeplum
 ms.reviewer: arvaradh
@@ -20,20 +20,20 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 4c46c8cb-17d0-44b5-9776-005fced8e618
-description: Office 365 그룹을 만들 수 있는 사용자를 제어 하는 방법을 알아봅니다.
-ms.openlocfilehash: d31690cb6438c6563b01e0597f7f2b1ff96e3b9a
-ms.sourcegitcommit: 0da80ba7b504841c502ab06fea659a985c06fe8f
+description: Microsoft 365 그룹을 만들 수 있는 사용자를 제어 하는 방법을 알아봅니다.
+ms.openlocfilehash: 5ecd48161a751a1558146236d48df13bb0662ad1
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "43547589"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43630408"
 ---
-# <a name="manage-who-can-create-office-365-groups"></a>Office 365 그룹을 만들 수 있는 사용자 관리
+# <a name="manage-who-can-create-groups"></a>그룹을 만들 수 있는 사용자 관리
 
   
-사용자가 Office 365 그룹을 매우 쉽게 만들 수 있으므로 다른 사람을 대신하여 이러한 그룹을 만들어 달라는 요청을 많이 받게 되지는 않습니다. 그러나 비즈니스에 따라 그룹을 만들 수 있는 사용자를 제어하고자 할 수 있습니다.
+사용자가 Microsoft 365 그룹을 쉽게 만들 수 있으므로 다른 사람을 대신 하 여이를 만드는 요청을 많이 받게 하지 못합니다. 그러나 비즈니스에 따라 그룹을 만들 수 있는 사용자를 제어하고자 할 수 있습니다.
   
-이 문서에서는 다음을 비롯 한 그룹을 사용 하는 모든 Office 365 서비스에서 그룹을 만드는 기능을 사용 하지 않도록 설정 하는 방법을 설명 합니다.
+이 문서에서는 다음과 같은 그룹을 사용 하는 모든 Microsoft 365 서비스에서 그룹을 만드는 기능을 사용 하지 않도록 설정 하는 방법을 설명 합니다.
   
 - Outlook
     
@@ -53,9 +53,9 @@ ms.locfileid: "43547589"
 
 - 로드맵
     
-특정 보안 그룹의 구성원으로 Office 365 그룹 만들기를 제한할 수 있습니다. 이를 구성 하기 위해 Windows PowerShell을 사용 합니다. 이 문서에서는 필요한 단계를 안내 합니다.
+Microsoft 365 그룹 만들기를 특정 보안 그룹의 구성원으로 제한할 수 있습니다. 이를 구성 하기 위해 Windows PowerShell을 사용 합니다. 이 문서에서는 필요한 단계를 안내 합니다.
   
-이 문서에서 설명 하는 단계에서는 특정 역할의 구성원이 그룹을 만들 수 없습니다. Office 365 전역 관리자는 Microsoft 365 관리 센터, Planner, 팀, Exchange, SharePoint Online 등의 모든 수단을 통해 그룹을 만들 수 있습니다. 다른 역할은 제한 된 방법 (아래 참조)을 통해 그룹을 만들 수 있습니다.
+이 문서에서 설명 하는 단계에서는 특정 역할의 구성원이 그룹을 만들 수 없습니다. 전역 관리자는 Microsoft 365 관리 센터, Planner, 팀, Exchange, SharePoint Online 등의 모든 방법을 통해 그룹을 만들 수 있습니다. 다른 역할은 제한 된 방법 (아래 참조)을 통해 그룹을 만들 수 있습니다.
         
   - Exchange 관리자: Exchange 관리 센터, Azure AD
     
@@ -71,7 +71,7 @@ ms.locfileid: "43547589"
   
   - 사용자 관리 관리자: Microsoft 365 관리 센터, Yammer, Azure AD
      
-이러한 역할 중 하나의 구성원인 경우 제한된 사용자에 대해 Office 365 그룹을 만든 다음 사용자를 그룹 소유자로 할당할 수 있습니다. 이 역할이 있는 사용자는 생성을 방해할 수 있는 PowerShell 설정에 관계 없이 Yammer에서 연결 된 그룹을 만들 수 있습니다.
+이러한 역할 중 하나의 구성원 인 경우 제한 된 사용자에 대 한 Microsoft 365 그룹을 만든 다음 사용자를 그룹 소유자로 할당할 수 있습니다. 이 역할이 있는 사용자는 생성을 방해할 수 있는 PowerShell 설정에 관계 없이 Yammer에서 연결 된 그룹을 만들 수 있습니다.
 
 ## <a name="licensing-requirements"></a>라이선스 요구 사항
 
@@ -85,16 +85,16 @@ ms.locfileid: "43547589"
 
 다음 사용자는 Azure AD Premium 또는 Azure AD Basic .EDU 라이선스를 할당할 필요가 없습니다.
 
-- Office 365 그룹의 구성원이 고 다른 그룹을 만들 수 없는 사용자입니다.
+- Microsoft 365 그룹의 구성원이 고 다른 그룹을 만들 수 없는 사용자입니다.
 
-## <a name="step-1-create-a-security-group-for-users-who-need-to-create-office-365-groups"></a>1단계: Office 365 그룹을 만들어야 하는 사용자에 대한 보안 그룹 만들기
+## <a name="step-1-create-a-security-group-for-users-who-need-to-create-microsoft-365-groups"></a>1 단계: Microsoft 365 그룹을 만들어야 하는 사용자에 대 한 보안 그룹 만들기
 
 조직의 보안 그룹을 하나만 사용 하 여 그룹을 만들 수 있는 사용자를 제어할 수 있습니다. 그러나 다른 보안 그룹을 이 그룹의 구성원으로 중첩할 수 있습니다. 예를 들어 그룹 만들기 허용이라는 그룹이 지정된 보안 그룹이고, Microsoft 플래너 사용자 및 Exchange Online 사용자라는 그룹이 해당 그룹의 구성원입니다.
 
 위에 나열 된 역할의 관리자는 그룹을 만들 수 있는 기능을 유지 하므로이 그룹의 구성원 일 필요는 없습니다.
 
 > [!IMPORTANT]
-> **보안 그룹** 을 사용 하 여 그룹을 만들 수 있는 사용자를 제한 해야 합니다. Office 365 그룹을 사용 하려고 하면 보안 그룹을 확인 하므로 구성원이 SharePoint에서 그룹을 만들 수 없습니다. 
+> **보안 그룹** 을 사용 하 여 그룹을 만들 수 있는 사용자를 제한 해야 합니다. Microsoft 365 그룹을 사용 하려고 하면 구성원이 보안 그룹을 확인 하므로 SharePoint에서 그룹을 만들 수 없습니다. 
     
 1. 관리 센터에서 **그룹** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=2052855" target="_blank">그룹</a> 페이지로 이동 합니다.
 
@@ -120,7 +120,7 @@ ms.locfileid: "43547589"
 
 아래 스크립트를 메모장과 같은 텍스트 편집기 또는 [Windows POWERSHELL ISE](https://docs.microsoft.com/powershell/scripting/components/ise/introducing-the-windows-powershell-ise)에 복사 합니다.
 
-* \<SecurityGroupName\> * 을 만든 보안 그룹의 이름으로 바꿉니다. 예시는 다음과 같습니다:
+* \<SecurityGroupName\> * 을 만든 보안 그룹의 이름으로 바꿉니다. 예시:
 
 `$GroupName = "Group Creators"`
 
@@ -174,7 +174,7 @@ Set-AzureADDirectorySetting -Id $settingsObjectID -DirectorySetting $settingsCop
     
 ## <a name="step-4-verify-that-it-works"></a>4 단계: 작동 하는지 확인
 
-1. 그룹을 만드는 기능이 없어야 하는 사람의 사용자 계정으로 Office 365에 로그인합니다. 즉, 사용자가 만들었거나 관리자가 만든 보안 그룹의 구성원이 아닙니다.
+1. 그룹을 만들 수 없는 사용자 계정을 사용 하 여 로그인 합니다. 즉, 사용자가 만들었거나 관리자가 만든 보안 그룹의 구성원이 아닙니다.
     
 2. **Planner** 타일을 선택 합니다. 
     

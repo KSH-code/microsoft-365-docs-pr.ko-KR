@@ -14,12 +14,12 @@ ms.collection:
 - commerce
 ms.custom: ''
 description: 새 서비스 구성 기능에 대해 알아봅니다.
-ms.openlocfilehash: 22f7c35b1a5baf97fb72f541d57da28adeeffbe4
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: d1f926165678b57ec46195d525f2fcdaa6976501
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41594689"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632416"
 ---
 # <a name="allotment-basics"></a>서비스 기본 사항
 
@@ -33,7 +33,7 @@ ms.locfileid: "41594689"
 
 [그룹 기반 라이선싱](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-licensing-whatis-azure-portal#licensing-requirements)에 대 한 라이선스 요구 사항을 충족 해야 합니다.
 
-사용자가 사용할 수 있는 모든 Office 365 제품에 서비스를 사용할 수 있습니다.
+사용자가 사용할 수 있는 모든 제품과 함께 서비스를 사용할 수 있습니다.
 
 - Office 제품군 및 독립 실행형 제품
 - 엔터프라이즈 및 모바일 제품

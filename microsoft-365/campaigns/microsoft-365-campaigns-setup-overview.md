@@ -24,16 +24,16 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: 캠페인에 대 한 Microsoft 365의 설치 개요
-ms.openlocfilehash: d2dac24488e5d29b0e888ba09f5359cba6b1f614
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 0fa804c46ac3545a7f2d30ffe80b148262cc23cc
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42080491"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632758"
 ---
 # <a name="set-up-microsoft-365-for-campaigns"></a>캠페인에 대 한 Microsoft 365 설정
 
-이 문서에서는 캠페인에 대해 Microsoft 365을 설정 하는 프로세스에 대해 설명 합니다. Microsoft 365 비즈니스를 포함 하는 모든 귀하는이 지침을 사용 하 여 보안을 강화 합니다. 
+이 문서에서는 캠페인에 대해 Microsoft 365을 설정 하는 프로세스에 대해 설명 합니다. Microsoft 365 Business Premium을 사용한 모든 귀하는이 가이드를 사용 하 여 보안을 단계적으로 수행할 수 있습니다. 
 
 ## <a name="admins-set-up-microsoft-365-for-campaigns"></a>관리자: 캠페인에 대 한 Microsoft 365 설정
 다음 다이어그램에서는 관리자가 캠페인에 대해 Microsoft 365을 설정 하는 방법을 설명 합니다.
@@ -42,7 +42,7 @@ ms.locfileid: "42080491"
 
 특별 한 가격 책정에 적합 한 캠페인의 경우 먼저 [microsoft 로부터 초대를 요청](https://m365forcampaigns.microsoft.com/)하 고, [캠페인을 위해 microsoft 365에 등록](m365-campaigns-sign-up.md)하 여 시작 합니다. 설치를 완료 하려면 [설치 마법사를 실행](../business/set-up.md?toc=/microsoft-365/campaigns/toc.json) 하 여 핵심 설정을 구성 합니다.
 
-다른 모든 조직에서 [Microsoft 365 Business에 등록](../business/sign-up.md)한 후 [설치 마법사를 실행](../business/set-up.md?toc=/microsoft-365/campaigns/toc.json) 하 여 핵심 설정을 구성 하 여 설치를 완료 합니다.
+다른 모든 조직에서 [Microsoft 365 Business Premium에 등록](../business/sign-up.md)한 후 [설치 마법사를 실행](../business/set-up.md?toc=/microsoft-365/campaigns/toc.json) 하 여 핵심 설정을 구성 하 여 설치를 완료 합니다.
 
 모든 조직에서 보안 보호는 [관리자 계정을 보호](m365-campaigns-protect-admin-accounts.md)하 고, [메일 및 데이터에 대 한 액세스를 보호](m365-campaigns-conditional-access.md)하 고, [위협 방지를 강화](m365-campaigns-increase-protection.md)하는 작업을 수행 합니다.
 
@@ -62,6 +62,6 @@ ms.locfileid: "42080491"
 
  **지원 센터에 문의해야 하는 경우:**
   
-Microsoft 365 Business 관리자는 고객 지원 팀, **[비즈니스 제품에 대해 고객 지원 센터 문의 - 관리자 도움말](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)** 에 액세스할 수 있습니다.
+Microsoft 365 관리자는 고객 지원 팀, ** [비즈니스 제품 지원에 문의-관리자 도움말](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b) 에 액세스할 수 있습니다.**
     
 

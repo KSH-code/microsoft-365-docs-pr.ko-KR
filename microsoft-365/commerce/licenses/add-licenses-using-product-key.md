@@ -24,12 +24,12 @@ search.appverid:
 ms.assetid: 4fb4bd7e-3920-4ce0-98fb-0c06e3fedf53
 ROBOTS: NOINDEX
 description: 구독에 라이선스를 추가 하는 방법을 알아봅니다.
-ms.openlocfilehash: aa924c3c485f33fa831d140413ebfd2d872f30ff
-ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
+ms.openlocfilehash: 694b8ac57e28bbe6b03e5f8aeef87bda1bcc73ba
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43142242"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632428"
 ---
 # <a name="add-licenses-to-or-extend-a-subscription-paid-for-using-a-product-key"></a>제품 키를 사용 하 여 유료 구독에 라이선스 추가 또는 연장
 
@@ -41,6 +41,7 @@ ms.locfileid: "43142242"
 ## <a name="add-licenses-to-your-subscription"></a>구독에 라이선스 추가
 
 ::: moniker range="o365-worldwide"
+
 
 1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품 및 서비스</a> 페이지로 이동합니다.
 
@@ -98,6 +99,7 @@ ms.locfileid: "43142242"
 ## <a name="extend-the-expiration-date-of-your-subscription"></a>구독의 만료 날짜 연장
 
 ::: moniker range="o365-worldwide"
+
 
 1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품 및 서비스</a> 페이지로 이동합니다.
 

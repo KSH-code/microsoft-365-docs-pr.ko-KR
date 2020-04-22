@@ -1,5 +1,5 @@
 ---
-title: 관리 센터에서 Office 365 그룹 만들기
+title: 관리 센터에서 그룹 만들기
 ms.reviewer: arvaradh
 f1.keywords: CSH
 ms.author: mikeplum
@@ -18,22 +18,22 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 74a1ef8b-3844-4d08-9980-9f8f7a36000f
-description: Office 365 그룹을 만들고 삭제 하 고, 그룹 구성원을 추가 및 제거 하 고, 그룹의 작동 방식을 사용자 지정 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 088ef54531bc42cf563659c460cbf7d2e64c4cfe
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+description: Microsoft 365 그룹을 만들고 삭제 하 고, 그룹 구성원을 추가 및 제거 하 고, 그룹의 작동 방식을 사용자 지정 하는 방법에 대해 알아봅니다.
+ms.openlocfilehash: d37058fa3ef3803f3a8f6099d46e1262f314e501
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43212096"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43630458"
 ---
-# <a name="create-an-office-365-group-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터에서 Office 365 그룹 만들기
+# <a name="create-a-group-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터에서 그룹 만들기
   
-사용자는 Outlook 또는 다른 앱에서 Office 365 그룹을 만들 수 있지만 관리자는 그룹을 만들거나 삭제 하 고, 구성원을 추가 또는 제거 하 고, 작동 방식을 사용자 지정 해야 할 수 있습니다. 전역 관리자 또는 그룹 관리자 인 경우 Microsoft 365 관리 센터에서이 작업을 수행할 수 있습니다. 
+사용자는 Outlook 또는 다른 앱에서 Microsoft 365 그룹을 만들 수 있지만 관리자는 그룹을 만들거나 삭제 하 고, 구성원을 추가 또는 제거 하 고, 작동 방식을 사용자 지정 해야 할 수 있습니다. Microsoft 365 관리 센터는이 작업을 수행 하는 위치입니다. 
 
 > [!TIP]
-> Office 365 연결 된 Yammer 그룹은 Yammer에서 만들어야 하지만, 다른 Office 365 그룹과 마찬가지로 Microsoft 365 관리 센터에서 관리할 수 있습니다. 자세한 내용은 [Yammer 및 Office 365 groups](https://support.office.com/article/d8c239dc-a48b-47ab-b85e-6b4b8191a869.aspx)를 참조 하세요. 
+> Microsoft 365에서 연결 된 Yammer 그룹은 Yammer에서 만들어야 하지만, 다른 Microsoft 365 그룹과 마찬가지로 Microsoft 365 관리 센터에서 관리할 수 있습니다. 자세한 내용은 [Yammer 및 Microsoft 365 groups](https://support.office.com/article/d8c239dc-a48b-47ab-b85e-6b4b8191a869.aspx)를 참조 하세요. 
 
-## <a name="create-an-office-365-group"></a>Office 365 그룹 만들기
+## <a name="create-a-microsoft-365-group"></a>Microsoft 365 그룹 만들기
 
 1. 관리 센터에서 **그룹**을 확장 한 다음 **그룹**을 클릭 합니다.
 
@@ -115,13 +115,12 @@ ms.locfileid: "43212096"
 
 ## <a name="next-step-manage-your-group"></a>다음 단계: 그룹 관리
 
-새 그룹을 만들고 구성원을 추가한 후에는 그룹 이름 또는 설명 편집, 소유자 또는 구성원 변경, 외부 보낸 사람이 그룹에 전자 메일을 보낼 수 있는지 여부, 그룹 대화의 복사본을 구성원에 게 보낼지 여부 지정과 같은 그룹을 추가로 구성할 수 있습니다. 자세한 내용은 [Office 365 그룹 관리를](manage-groups.md) 참조 하세요.
+새 그룹을 만들고 구성원을 추가한 후에는 그룹 이름 또는 설명 편집, 소유자 또는 구성원 변경, 외부 보낸 사람이 그룹에 전자 메일을 보낼 수 있는지 여부, 그룹 대화의 복사본을 구성원에 게 보낼지 여부 지정과 같은 그룹을 추가로 구성할 수 있습니다. 자세한 내용은 [Microsoft 365 그룹 관리를](manage-groups.md) 참조 하세요.
 
 ## <a name="related-articles"></a>관련 문서
 
-[Office 365 그룹에 대 한 게스트 액세스 관리](https://support.office.com/article/7c713d74-a144-4eab-92e7-d50df526ff96.aspx)
+[Microsoft 365 그룹에 대 한 게스트 액세스 관리](https://support.office.com/article/7c713d74-a144-4eab-92e7-d50df526ff96.aspx)
 
-[Office 365 그룹을 만들 때 사용할 도메인 선택](choose-domain-to-create-groups.md)
+[Microsoft 365 그룹을 만들 때 사용할 도메인 선택](choose-domain-to-create-groups.md)
 
-[Office 365 그룹으로 메일 그룹 업그레이드](../manage/upgrade-distribution-lists.md)
-        
+[Microsoft 365 그룹으로 메일 그룹 업그레이드](../manage/upgrade-distribution-lists.md)

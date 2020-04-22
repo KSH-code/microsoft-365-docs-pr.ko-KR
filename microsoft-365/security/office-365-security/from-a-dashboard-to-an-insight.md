@@ -17,16 +17,16 @@ ms.assetid: 703c41df-b3e2-4e7e-9eeb-1a0b8d60fb56
 ms.collection:
 - M365-security-compliance
 description: 보안 &amp; 및 준수 센터에서 권장 작업을 포함 하는 대시보드에서 대시보드를 진행 하는 방법을 알아봅니다.
-ms.openlocfilehash: 52fc933133cee4b060a08516b64a46c1c24a13cb
-ms.sourcegitcommit: db8702cf578b02c6fd6a2670c177b456efae4748
+ms.openlocfilehash: 22ca34696bc46e0142818be715d68f0b469c6255
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43537500"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43638097"
 ---
 # <a name="walkthrough---from-a-dashboard-to-an-insight"></a>연습 - 대시보드에서 통찰력에 이르기까지
 
-[Office 365 보안 &amp; 및 준수 센터에서 보고서 및 통찰력](reports-and-insights-in-security-and-compliance.md)을 처음 사용할 경우 대시보드를 통해 통찰력 및 권장 작업으로 쉽게 이동할 수 있는 방법을 확인 하는 데 도움이 될 수 있습니다. 
+[ &amp; 보안 및 준수 센터의 보고서 및 통찰력](reports-and-insights-in-security-and-compliance.md)을 처음 사용할 경우에는 대시보드를 통해 통찰력 및 권장 작업으로 쉽게 이동할 수 있는 방법을 확인 하는 데 도움이 될 수 있습니다. 
   
 다음은 보안 &amp; 및 준수 센터에 대 한 몇 가지 연습 중 하나입니다. 추가 연습을 보려면 [관련 항목](#related-topics) 섹션을 참조 하십시오. 
   

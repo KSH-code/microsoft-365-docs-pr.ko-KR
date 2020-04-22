@@ -1,5 +1,5 @@
 ---
-title: Office 365 평가판 구독 등록
+title: 평가판 구독 등록
 f1.keywords:
 - NOCSH
 ms.author: kwekua
@@ -19,32 +19,32 @@ search.appverid:
 - MET150
 - MOE150
 - BEA160
-description: 비즈니스용 Office 365 구독에 등록 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: d9944d01676573e08d52279d47cc61527e7d4862
-ms.sourcegitcommit: 26e4d5091583765257b7533b5156daa373cd19fe
+description: Microsoft 365 for business 구독을 등록 하는 방법에 대해 알아봅니다.
+ms.openlocfilehash: 61ba4baefc3b7af7609101f5471648dfb1fcbefa
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/06/2020
-ms.locfileid: "42549795"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636443"
 ---
-# <a name="sign-up-for-an-office-365-trial-subscription"></a>Office 365 평가판 구독 등록
+# <a name="sign-up-for-a-trial-subscription"></a>평가판 구독 등록
 
-평가판 Office 365 business 구독에 무료로 등록할 수 있습니다. 30 일 동안 사용해 볼 수 있습니다.
+평가판에 대 한 Microsoft 365 비즈니스 구독을 무료로 등록할 수 있습니다. 30 일 동안 사용해 볼 수 있습니다.
 
 > [!NOTE]
 > 비즈니스가 현재 미국, 일본, 캐나다 및 호주에 있는 경우 평가판에 등록할 때 신용 카드가 필요 합니다. 무료 평가판 사용 기간이 끝나면 평가판 구독이 유료 구독으로 자동 변환 됩니다. 평가 기간이 끝날 때까지 신용 카드 대금을 지불 하지 않습니다.
 
-## <a name="sign-up-for-an-office-365-business-premium-trial-subscription"></a>Office 365 Business Premium 평가판 구독 등록
+## <a name="sign-up-for-an-microsoft-365-business-standard-trial-subscription"></a>Microsoft 365 Business Standard 평가판 구독에 등록
 
-1. Office 365 business 평가판 구독에 등록 하려면 [Office 제품 사이트로](https://www.aka.ms/office365signup)이동 합니다. 
+1. Microsoft 365 for business 평가판 구독에 등록 하려면 [Office 제품 사이트로](https://www.aka.ms/office365signup)이동 합니다. 
     
-2. **Office 365 Business Premium**과 같은 등록할 계획을 선택 하 고 페이지 아래로 스크롤한 후 **1 개월 동안 사용**중지를 선택 합니다.
+2. **Microsoft 365 Business Standard**와 같이 등록할 계획을 선택 하 고 페이지 아래로 스크롤한 후 **1 개월 동안 사용**중지를 선택 합니다.
     
 3. 다음 페이지에서 단계에 따라 계정을 설정 합니다.
 
 4. 등록 프로세스를 완료 하는 데 몇 분 정도 걸릴 수 있습니다. 완료 되 면 구독 사용을 시작 하는 방법에 대 한 자세한 정보를 볼 수 있습니다.
 
-계정을 설정 하는 방법에 대 한 자세한 내용은 [Set Up Office 365 for business](../admin/setup/setup.md)을 참조 하십시오.
+계정을 설정 하는 방법에 대 한 자세한 내용은 [Microsoft for business 365](../admin/setup/setup.md)을 참조 하십시오.
 
 ## <a name="cancel-my-trial-subscription"></a>평가판 구독 취소
 
@@ -52,4 +52,4 @@ ms.locfileid: "42549795"
 
 ## <a name="see-also"></a>참고 항목
 
-[Microsoft 365 Business 교육 비디오](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Microsoft 365 for business 교육용 비디오](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

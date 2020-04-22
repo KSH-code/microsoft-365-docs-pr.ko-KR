@@ -4,7 +4,7 @@ ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
 audience: Admin
-ms.topic: reference
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -17,16 +17,16 @@ search.appverid:
 - MOE150
 ms.assetid: 093a6d0d-890b-489e-9f46-b15687d3fe4f
 description: Microsoft 365 사용 현황 분석, 활동 보고서 및 채택 메트릭에 대 한 활성 사용자에 대해 알아봅니다.
-ms.openlocfilehash: 0e2f5f5112593c142b4a7829977221c5542adf49
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 2117bae32913ad713318c1df25be66d6ef6859e5
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42247279"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631794"
 ---
 # <a name="active-user-in-microsoft-365-usage-reports"></a>Microsoft 365 사용 현황 보고서의 활성 사용자
 
-## <a name="active-user-in-usage-reports"></a>사용 현황 보고서 내 활성 사용자
+## <a name="active-user-in-usage-reports"></a>사용 현황 보고서의 활성 사용자
 
 [Microsoft 365 사용 분석과](usage-analytics.md) [관리 센터의 활동 보고서](../activity-reports/activity-reports.md) 에 대 한 microsoft 365 제품의 활성 사용자는 다음과 같이 정의 됩니다. 
   

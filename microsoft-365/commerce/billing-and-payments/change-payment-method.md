@@ -26,12 +26,12 @@ search.appverid:
 - GEA150
 ms.assetid: 8652f539-3123-4a8f-b9bd-6aa2f0e0372d
 description: 비즈니스 구독의 결제 방법을 변경 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 8b9ae2a8396ff984b8468cf364c1112cb2ef6b13
-ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
+ms.openlocfilehash: 582286dec47b0835c90ff56a0d10d3c34d285e33
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43142600"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632734"
 ---
 # <a name="change-your-payment-method"></a>결제 방법 변경
 
@@ -64,9 +64,9 @@ ms.locfileid: "43142600"
 > [!NOTE]
 > 결제 방법을 변경한 후에도 사용자에게는 이전과 동일한 라이선스가 계속 할당됩니다.
   
- **결제 빈도를 변경 하 시겠습니까?** 연회비에서 매월 또는 매월 년 간 구독에 대해 지불 빈도를 변경 하려면 [Office 365 지원 서비스에 문의](../../admin/contact-support-for-business-products.md) 하 여 도움을 받아야 합니다.
+ **결제 빈도를 변경 하 시겠습니까?** 연회비에서 매월 또는 매월 년 간 구독 비용을 지불 하는 빈도를 변경 하려면 [Microsoft 지원 서비스에 문의](../../admin/contact-support-for-business-products.md) 하 여 도움을 받아야 합니다.
   
- **신용 카드 또는 은행 계좌 정보만 변경하고 싶으세요?**[비즈니스용 Office 365에서 신용 카드 또는 은행 계좌 추가, 업데이트 또는 제거](add-update-or-remove-credit-card-or-bank-account.md) 를 참조하세요.
+ **신용 카드 또는 은행 계좌 정보만 변경 하 고 싶으십니까?** [신용 카드 또는 은행 계좌 추가, 업데이트 또는 제거](add-update-or-remove-credit-card-or-bank-account.md)를 참조 하세요.
   
  **미지불 잔액이 있는 경우에는 어떻게 하나요?**
   
@@ -87,6 +87,7 @@ ms.locfileid: "43142600"
   
 송장 별 지불에서 신용 카드 또는 은행 계좌 결제로 변경 하는 경우 자동으로 새 구독을 만들고 사용자를 새 구독으로 이동한 다음 이전 구독을 사용 하지 않도록 설정 합니다. 걱정 하지 마세요. 사용자에 게 서비스 중단이 표시 되지 않으며 모든 정보를 새 구독을 통해 사용할 수 있습니다.
 
+
 1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품 & 서비스</a> 페이지로 이동 합니다.
 
 2. **표** 보기인 경우 **카드**를 선택 합니다.
@@ -100,6 +101,7 @@ ms.locfileid: "43142600"
 6. 결제 방법을 추가 하는 경우 카드 또는 계정 세부 정보를 입력 한 다음 **저장**을 선택 합니다.
   
 7. 선택한 결제 방법이 올바른지 확인 한 다음 **저장**을 선택 합니다.
+
 
 ::: moniker-end
 
@@ -140,6 +142,7 @@ ms.locfileid: "43142600"
 
 주문 수량이 너무 높으면 신용 검사가 필요할 수 있습니다. 이 경우 송장으로 변경할 수 없음 메시지가 표시 됩니다. 주문에 신용 확인이 필요 합니다. " 이 경우에는 송장에 따라 수동으로 결제로 변경 됩니다. 다음 단계를 수행 하 여 수동 변경을 완료 합니다.
 
+
 1. <a href="https://Office365.com" target="_blank">Office365.com</a> 으로 이동 하 여 현재와 동일한 구독을 구입 합니다. 체크아웃에서 송장 결제 옵션을 선택 합니다.
 
 > [!IMPORTANT]
@@ -147,7 +150,7 @@ ms.locfileid: "43142600"
 
 2. 구매가 완료 되 면 원래 구독을 취소 합니다. 사용자가 자동으로 새 구독으로 이동 됩니다.
 
-크레딧 확인이 필요 하지 않은 경우 다음 단계를 사용 하 여 송장에 따라 지불로 변경 합니다.
+크레딧 확인이 필요 하지 않은 경우 다음 단계를 사용 하 여 송장에 따라 지불로 변경 합니다. 
 
 1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품 & 서비스</a> 페이지로 이동 합니다.
 
@@ -164,6 +167,7 @@ ms.locfileid: "43142600"
 7. 작업이 완료 되 면 **저장**을 선택 합니다.
 
 8. 선택한 결제 방법이 올바른지 확인 한 다음 **저장**을 선택 합니다.
+
 
 ::: moniker-end
 
@@ -193,9 +197,16 @@ ms.locfileid: "43142600"
 
 구독에 대해 구성된 결제 방법을 확인하려면 언제든지 다음 단계를 사용하세요.
 
+
 1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품 & 서비스</a> 페이지로 이동 합니다.
 
 2. 확인 하려는 구독을 찾습니다. 구독에 대해 구성 된 결제 방법이 **청구** 섹션에 표시 됩니다.
+
+### <a name="use-the-old-admin-center-to-verify-which-payment-method-is-configured"></a>이전 관리 센터를 사용 하 여 구성 된 결제 방법 확인
+
+1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">구독</a> 페이지로 이동 합니다.
+
+2. 확인 하려는 구독을 찾습니다. **결제 방법**아래에 구독에 대해 구성 된 결제 방법이 표시 됩니다.
 
 ::: moniker-end
 

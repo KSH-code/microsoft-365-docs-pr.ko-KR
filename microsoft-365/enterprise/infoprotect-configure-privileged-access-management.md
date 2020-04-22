@@ -1,5 +1,5 @@
 ---
-title: '7단계: Office 365에 대한 권한이 부여된 액세스 관리 구성'
+title: '7 단계: 권한이 부여 된 액세스 관리 구성'
 f1.keywords:
 - NOCSH
 ms.author: robmazz
@@ -14,32 +14,32 @@ ms.collection:
 - Strat_O365_Enterprise
 - M365-security-compliance
 ms.custom: ''
-description: Office 365에 대한 권한이 부여된 액세스 관리를 이해하고 구성합니다.
-ms.openlocfilehash: f29b1e0934a4b9a6d4e3347584f39423d446ed58
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: 권한이 부여 된 액세스 관리를 이해 하 고 구성 합니다.
+ms.openlocfilehash: 4fed4daacc17a34563825bf0575880ce06ec6ebd
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42067235"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636991"
 ---
-# <a name="step-7-configure-privileged-access-management-for-office-365"></a>7단계: Office 365에 대한 권한이 부여된 액세스 관리 구성
+# <a name="step-7-configure-privileged-access-management"></a>7 단계: 권한이 부여 된 액세스 관리 구성
 
 *이 단계는 선택 사항이며 Microsoft 365 Enterprise E5 및 Advanced Compliance 버전에만 적용됩니다.*
 
 ![6단계: 정보 보호](../media/deploy-foundation-infrastructure/infoprotection_icon-small.png)
 
-권한이 부여된 액세스 관리는 Office 365 테넌트의 태스크 기반 활동에 대해 JIT(Just-In-Time) 액세스를 지정하는 정책을 구성하여 적용됩니다. 이 기능은 중요한 데이터에 대한 대기 없는 액세스 권한 또는 중요한 구성 설정에 대한 액세스 권한이 부여된 기존 관리자 계정을 사용할 수 있는 보안 위반으로부터 조직을 보호하는 데 도움이 될 수 있습니다. 예를 들어, Office 365 테넌트의 조직 사서함 설정을 액세스 및 변경하기 위해 명시적 승인을 요구하는 권한이 부여된 액세스 관리 정책을 구성할 수 있습니다.
+권한 있는 액세스 관리는 테 넌 트에서 작업 기반 작업에 대 한 just-in-time 액세스를 지정 하는 정책을 구성 하 여 사용 하도록 설정 됩니다. 중요 한 데이터에 대 한 액세스 권한이 있거나 중요 한 구성 설정에 대 한 액세스 권한이 있는 기존 권한 있는 관리자 계정을 사용 하는 조직을 보호 하는 데 도움이 될 수 있습니다. 예를 들어 테 넌 트에서 조직 사서함 설정에 액세스 하 고 변경 하기 위해 명시적 승인이 필요한 권한이 부여 된 액세스 관리 정책을 구성할 수 있습니다.
 
-이 단계에서는 Office 365 테넌트에서 액세스 권한이 부여된 액세스 관리를 사용하도록 설정하고, 조직의 Office 365 데이터 및 구성 설정에 대한 태스크 기반 액세스에 대해 추가 보안을 제공하는 권한이 부여된 액세스 정책을 구성합니다. Office 365 조직에서 권한이 부여된 액세스로 시작하려면 다음과 같은 3가지 기본 단계를 수행합니다.
+이 단계에서는 테 넌 트에서 권한이 부여 된 액세스 관리를 사용 하도록 설정 하 고 조직에 대 한 데이터 및 구성 설정에 대 한 작업 기반 액세스에 대 한 추가 보안을 제공 하는 권한 있는 액세스 정책을 구성 합니다. 조직에서 권한이 부여 된 액세스를 시작 하려면 다음 세 가지 기본 단계를 수행 해야 합니다.
 - 승인자 그룹 만들기
 - 권한 있는 액세스 사용
 - 승인 정책 만들기
 
 일단 구성되고 나면, 권한이 부여된 액세스 관리는 대기 없는 관리 액세스 권한 때문에 조직이 대기 없는 권한으로 작업하고, 발생하는 취약성에 대한 보안 계층을 제공할 수 있도록 합니다. 권한이 부여된 액세스의 경우 연결된 승인 정책이 정의된 작업을 실행하려면 승인이 필요합니다. 승인 정책에 포함된 작업을 실행해야 하는 사용자는 정책에 정의된 작업을 실행하는 데 필요한 권한을 얻기 위해 액세스 승인을 요청하고 받아야 합니다.
 
-Office 365 권한이 부여된 액세스 관리를 사용하도록 설정하려면 [Office 365의 권한이 부여된 액세스 관리](https://docs.microsoft.com/office365/securitycompliance/privileged-access-management-configuration) 항목을 참조하세요.
+권한이 부여 된 액세스 관리를 사용 하도록 설정 하려면 [Configure permissions access management](https://docs.microsoft.com/office365/securitycompliance/privileged-access-management-configuration) 항목을 참조 하십시오.
 
-자세한 내용은 [Office 365의 권한이 부여된 액세스 관리](https://docs.microsoft.com/office365/securitycompliance/privileged-access-management-overview) 항목을 참조하세요.
+자세한 내용은 [권한이 부여 된 액세스 관리](https://docs.microsoft.com/office365/securitycompliance/privileged-access-management-overview) 항목을 참조 하십시오.
 
 
 |||

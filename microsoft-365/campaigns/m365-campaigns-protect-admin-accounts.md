@@ -21,12 +21,12 @@ search.appverid:
 - BCS160
 - MET150
 description: 관리자 계정을 설정 하 고 보호 하는 방법을 알아봅니다.
-ms.openlocfilehash: b74d9d2d69549bcaa476a346ba2a61fc24e0b3f3
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: 2104697320308b329f9fde1b6984c15f9814f9ef
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42633756"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43633656"
 ---
 # <a name="protect-your-administrator-accounts"></a>관리자 계정 보호
 
@@ -35,12 +35,12 @@ ms.locfileid: "42633756"
 - 응급 상황에 대 한 추가 관리자 계정을 설정 하는 방법
 - 이러한 계정을 보호 하는 방법
  
-Microsoft 365 Business에 등록 하 고 정보를 입력 하면 자동으로 전역 관리자가 됩니다. 전역 관리자는 Microsoft 관리 센터의 사용자 계정 및 기타 모든 설정에 대 한 궁극적인 제어를 제공 하지만, 액세스 수준이 다양 한 다양 한 종류의 관리자 계정을 사용할 수 있습니다. 각 관리자 역할 유형에 대 한 다양 한 액세스 수준에 대 한 자세한 내용은 [관리자 역할](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) 정보를 참조 하십시오.
+Microsoft 365에 등록 하 고 정보를 입력 하면 자동으로 전역 관리자가 됩니다. 전역 관리자는 Microsoft 관리 센터의 사용자 계정 및 기타 모든 설정에 대 한 궁극적인 제어를 제공 하지만, 액세스 수준이 다양 한 다양 한 종류의 관리자 계정을 사용할 수 있습니다. 각 관리자 역할 유형에 대 한 다양 한 액세스 수준에 대 한 자세한 내용은 [관리자 역할](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) 정보를 참조 하십시오.
 
 
 ## <a name="create-additional-admin-accounts"></a>추가 관리자 계정 만들기
 
-관리 계정만 관리자에 게 사용 합니다. 관리자는 Office 앱을 정기적으로 사용 하기 위한 별도의 사용자 계정을 가져야 하며, 계정 및 장치를 관리 하는 데 필요한 경우와 다른 관리 기능을 사용 하는 경우에만 관리 계정을 사용할 수 있습니다. 또한 관리자 계정에서 Microsoft 365 Business 라이선스를 제거 하 여 요금을 지불할 필요가 없도록 하는 것이 좋습니다.
+관리 계정만 관리자에 게 사용 합니다. 관리자는 Office 앱을 정기적으로 사용 하기 위한 별도의 사용자 계정을 가져야 하며, 계정 및 장치를 관리 하는 데 필요한 경우와 다른 관리 기능을 사용 하는 경우에만 관리 계정을 사용할 수 있습니다. 관리자 계정에서 Microsoft 365 라이선스를 제거 하 여 요금을 지불할 필요가 없도록 하는 것도 좋습니다.
 
 다른 신뢰할 수 있는 직원에 게 관리자 액세스 권한을 부여 하려면 하나 이상의 추가 전역 관리자 계정을 설정 하는 것이 좋습니다. 사용자 관리를 위해 별도의 관리자 계정을 만들 수도 있습니다 (이 역할은 **사용자 관리 관리자**라고 함). 자세한 내용은 [관리 역할 정보](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles)를 참조 하세요.
 

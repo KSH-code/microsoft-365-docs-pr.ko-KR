@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Office 365 구독 결제
+title: 구독 결제
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -20,18 +20,18 @@ search.appverid:
 - MOE150
 - BEA160
 ms.assetid: 734f4aab-df2d-4e9b-8cb1-691910bde216
-description: 비즈니스용 Office 365 구독 결제에 사용할 수 있는 결제 옵션을 알아봅니다.
+description: 비즈니스에 대 한 Microsoft 365 구독을 결제 하는 데 사용할 수 있는 결제 옵션에 대해 알아봅니다.
 ms.custom:
 - okr_SMB
 - fwlink 808700 for SEPA UI glink 906 for older uI
-ms.openlocfilehash: dfecd2ec5ca72f8e00e664f3f54d7125fe8d21b6
-ms.sourcegitcommit: 4988934836eee45c890b9bdd5ef73590656c78ba
+ms.openlocfilehash: ccf04de4fe11469241e734a202aad3e20778843c
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43540906"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635019"
 ---
-# <a name="pay-for-your-office-365-for-business-subscription"></a>비즈니스용 Office 365 구독 결제
+# <a name="pay-for-your-subscription"></a>구독 결제
 
 구독을 설정한 경우 신용 카드 또는 은행 계좌 결제를 사용하여 결제하거나 수표 또는 EFT(전자식 자금 이체)를 사용하여 송장으로 결제할 수 있습니다. 어떤 방법을 선택하든 [결제 방법을 변경](change-payment-method.md)하지 않는 한 이후 청구 기간에도 계속 해당 결제 방법을 사용합니다.
 
@@ -94,7 +94,7 @@ ms.locfileid: "43540906"
 구독을 송장으로 결제하는 경우 청구서를 확인할 수 있다는 내용의 전자 메일을 받습니다. 이 전자 메일은 청구서 사본을 포함하지 않습니다. 그러나 [전자 메일로 청구서 사본 받기](#receive-a-copy-of-your-billing-statement-in-email) 선택할 수도 있습니다. 청구서에는 결제 옵션에 대한 세부 정보가 포함됩니다. 구독을 구매할 때 PO(구매 주문) 번호를 입력한 경우 해당 번호가 청구서에 표시됩니다. 청구서를 확인하는 방법에 대한 자세한 내용은 [청구서 또는 송장 보기](view-your-bill-or-invoice.md)를 참조하세요.
 
 > [!NOTE]
-> 기본적으로 조직의 청구 알림은 Office 365 전자 메일 주소와 조직 내 모든 전역 관리자와 대금 청구 관리자의 대체 전자 메일 주소로 전송됩니다. 대체 전자 메일 주소를 변경하려면 [대금 청구 주소 변경](change-your-billing-addresses.md)을 참조하세요.
+> 기본적으로 조직의 청구 알림은 Microsoft 전자 메일 주소와 조직 내 모든 전역 및 청구 관리자의 대체 전자 메일 주소로 전송 됩니다. 대체 전자 메일 주소를 변경하려면 [대금 청구 주소 변경](change-your-billing-addresses.md)을 참조하세요.
 
 ### <a name="can-i-pay-my-bill-online"></a>온라인으로 요금을 지불할 수 있나요?
 

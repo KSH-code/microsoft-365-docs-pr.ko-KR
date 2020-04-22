@@ -13,12 +13,12 @@ localization_priority: Normal
 audience: microsoft-business 
 keywords: Microsoft 365 Business, Microsoft 365, SMB, CSP 구독 전환
 ms.date: 11/01/2017
-ms.openlocfilehash: 0a30d80ad5217868fec81866ab1dc41013917e99
-ms.sourcegitcommit: dbbdeca5a6cd048e1bde9e820a8b8a0d6022c7a2
+ms.openlocfilehash: da56ce5bc70dfed5a3e86c739ef3c940b4ac1511
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "43504110"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635067"
 ---
 # <a name="transition-a-microsoft-365-business-csp-subscription"></a>Microsoft 365 Business CSP 구독을 전환
 
@@ -91,7 +91,7 @@ Microsoft 365 Business 미리 보기 CSP를 구독 중인 경우 이 가이드�
 | **로그인 실패 시 PIN을 다시 설정** | 앱에 대한 액세스가 제한됩니다. | 앱 수준의 액세스 제한이 없습니다. |
 | **Office 앱이 유휴 상태 전환 후 사용자에게 다시 로그인하도록 요구** | 로그인이 필요합니다. | 로그인 필요 없음 |
 | **무단 해제 또는 루팅된 장치에 있는 작업 파일에 액세스 거부** | 탈 옥/루 팅 된 장치에서 작업 파일에 액세스할 수 없음 | 무단 해제 또는 루팅된 장치에 있는 작업 파일에 액세스할 수 있습니다. |
-| **사용자가 Office 앱에서 개인 앱으로 콘텐츠를 복사하도록 허용** | Microsoft 365 Business 구독의 일환으로 사용 가능한 앱에 대한 복사/붙여 넣기가 제한됩니다. | 모든 앱에서 복사/붙여 넣기를 사용할 수 있습니다. |
+| **사용자가 Office 앱에서 개인 앱으로 콘텐츠를 복사하도록 허용** | Microsoft 365 구독의 일부로 사용할 수 있는 앱에 제한 된 복사/붙여넣기 | 모든 앱에서 복사/붙여 넣기를 사용할 수 있습니다. |
 
 ## <a name="windows-10-pc-impacts-upon-subscription-expiration"></a>구독 만료 시 Windows 10 PC 영향
 

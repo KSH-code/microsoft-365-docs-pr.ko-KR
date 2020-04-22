@@ -11,12 +11,12 @@ ms.collection: M365-email-calendar
 ms.custom:
 - Strat_O365_Enterprise
 description: 조직 전체에서 Microsoft 365 Enterprise의 Exchange Online 가치를 계획, 롤아웃 및 추진 하는 프로세스를 안내 합니다.
-ms.openlocfilehash: 30ba71fbf2af684afbbffe0a2e2b1720a8eeec2c
-ms.sourcegitcommit: 255e8194bb5767a9983d54d16e79d628732a1d97
+ms.openlocfilehash: 9214796c37e9cb5ca9fcb07ced5db7efd8e0f7d0
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 10/11/2019
-ms.locfileid: "37453864"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634149"
 ---
 # <a name="deploy-exchange-online-for-microsoft-365-enterprise"></a>Microsoft 365 Enterprise에 대 한 Exchange Online 배포
 
@@ -28,7 +28,7 @@ Exchange Online은 전자 메일 및 일정 관리를 위한 기본 클라우드
 
 Exchange online을 처음으로 사용할 경우 [Microsoft Exchange Online](https://products.office.com/exchange/exchange-online)을 참조하세요.
 
-다음 단계 및 단계에서는 조직에서 Exchange Online의 역할을 구상 하 고, 조직을 Exchange Online으로 온 보 딩 하 고, Exchange online의 사용을 추진 하는 프로세스를 안내 합니다. 최종 사용자에 게 가치를 부여할 수 있습니다.
+다음 단계 및 단계에서는 조직에서 Exchange Online의 역할을 구상 하 고, 조직을 Exchange Online으로 온 보 딩 하 고, Exchange online을 사용 하 여 최종 사용자에 게 해당 가치를 추진 하는 프로세스를 안내 합니다.
 
 >[!Note]
 >이러한 배포 지침은 [Microsoft 365 엔터프라이즈 기본 인프라의 2 단계 id](identity-infrastructure.md)를 완료 한 후에만 따라야 합니다.
@@ -75,7 +75,7 @@ Exchange Online 사서함에 대 한 액세스를 보호 하려면 [id 및 장�
 
 - [Office 365로 여러 전자 메일 계정을 마이그레이션하는 방법](https://docs.microsoft.com/Exchange/mailbox-migration/mailbox-migration)
 - [Exchange Online으로 Exchange Server 공용 폴더 마이그레이션](https://docs.microsoft.com/Exchange/collaboration/public-folders/migrate-to-exchange-online?view=exchserver-2019)
-- [Office 365 그룹으로 Exchange Server 공용 폴더 마이그레이션](https://docs.microsoft.com/Exchange/collaboration/public-folders/batch-migration-to-office-365-groups?view=exchserver-2019)
+- [Exchange Server 공용 폴더를 Microsoft 365 그룹으로 마이그레이션](https://docs.microsoft.com/Exchange/collaboration/public-folders/batch-migration-to-office-365-groups?view=exchserver-2019)
 - [Exchange Online의 공동 작업](https://docs.microsoft.com/exchange/collaboration-exo/collaboration-exo)
 - [Exchange Online의 받는 사람](https://docs.microsoft.com/exchange/recipients-in-exchange-online/recipients-in-exchange-online)
 - [iOS 및 Android용 Outlook](https://docs.microsoft.com/Exchange/clients-and-mobile-in-exchange-online/outlook-for-ios-and-android/outlook-for-ios-and-android)
@@ -155,8 +155,8 @@ Outlook 및 Exchange Online과 함께 비즈니스 그룹이 실행 되 고 변�
 
 다음은 몇 가지 추천 활동입니다.
 
-- [Office 365의 성공 요인](https://aka.ms/successfactors)을 통해 클라우드 서비스 도입에 대한 일반적인 모범 사례를 살펴봅니다. 
-- [Office 365 활동 보고서](https://docs.microsoft.com/office365/admin/activity-reports/activity-reports)를 통해 조직 전체의 Office 365 서비스 사용을 이해합니다. 조직의 Office 365 전역 관리자에게 활동 보고서에 액세스할 수 있도록 사용자 계정에 보고서 읽기 권한자 권한을 부여해 달라고 요청합니다(Office 365 전역 관리자가 아닌 경우).
+- 클라우드 서비스 도입에 대 한 일반적인 모범 사례에 대 한 자세한 내용은 [Microsoft 365의 성공 요소](https://aka.ms/successfactors) 를 참조 하세요. 
+- 조직 전체에서 서비스 사용을 이해 하려면 [관리 센터에서 Microsoft 365 보고서](https://docs.microsoft.com/office365/admin/activity-reports/activity-reports) 를 참조 하세요. 조직에 대 한 전역 관리자가 아닌 경우에는 전역 관리자에 게 문의 하 여 사용자 계정에 보고서 독자 권한을 부여 하 여 활동 보고서에 액세스할 수 있도록 합니다.
 - Exchange Online의 환경에 대 한 사용자 의견 (중앙 팀 팀 또는 Yammer의 공용 채널)을 모니터링 하 여 개인의 문제 및 의견에 대해 알아봅니다. 사용자의 불편을 방지하고 배포에 대한 지원을 보여 주기 위해 질문과 문제를 가능한 한 신속하게 해결합니다.
 - 각 비즈니스 그룹에서 champions을 식별 및 nurture Outlook을 사용 하 여 해당 모범 사례를 강조 표시 합니다. 조직에 성공을 반영하여 프로젝트 성공 및 도입을 보여줍니다. 비즈니스 그룹 내에서 기술 리더가 인증을 받은 경우에는 리더와 피어에 비해 강한 영향을 줄 수 있습니다.
 

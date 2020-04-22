@@ -23,25 +23,25 @@ search.appverid:
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
 description: Cybersecurity 위협 으로부터 전자 메일, 데이터 및 통신으로 캠페인을 보호할 수 있도록 Microsoft 365 for 캠페인을 확인 하세요.
-ms.openlocfilehash: 2576bc3e62fd9c51dfec16f977e8339fc09e29f6
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: 5c528ab0ee856062a8e012d9fb699da92d7afb78
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42633766"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635627"
 ---
 # <a name="get-microsoft-365-for-campaigns"></a>캠페인에 대 한 Microsoft 365 받기
 
-Microsoft 365 비즈니스를 포함 하는 모든 사람에 게이 지침을 사용 하 여 전자 메일 및 공동 작업을 위한 추가 보안을 구성할 그러나 미국에 있는 캠페인 및 정치 당사자는 Microsoft 365에 대 한 특별 가격 산정을 받을 자격이 있습니다. 현재 다음과 같은 특별 가격 산정을 사용할 수 있습니다.
+Microsoft 365 Business Premium을 사용한 모든 귀하는이 지침을 사용 하 여 전자 메일 및 공동 작업을 위한 추가 보안을 구성할 수 있습니다. 그러나 미국에 있는 캠페인 및 정치 당사자는 Microsoft 365에 대 한 특별 가격 산정을 받을 자격이 있습니다. 현재 다음과 같은 특별 가격 산정을 사용할 수 있습니다.
 - 미국 연방 정치 캠페인 (예: 미국 하우스, US/또는 사장에 대 한 회사를 찾는 캠페인)
 - 미국의 국가 수준 정치 파티
 
 캠페인 또는 정치 당사자가 적합 한 경우 microsoft에서 제공 하는 저렴 한 계획은 캠페인에 대 한 Microsoft 365입니다.  
 
-특별 가격 산정이 적합 하지 않은 경우 Microsoft 365 Business는 여전히 공동 작업 환경에 대 한 포괄적인 보안을 얻을 수 있는 가장 비용 효율적인 방법입니다. [캠페인에 대 한 Microsoft 365에 등록을](m365-campaigns-sign-up.md)참조 하세요. 그런 다음이 라이브러리를 사용 하 여 추가 보안을 구성 하 고 팀이 안전 하 게 공동 작업을 하도록 도와줍니다. 
+특별 가격 산정이 적합 하지 않은 경우에도 Microsoft 365 Business Premium은 여전히 공동 작업 환경에 대 한 포괄적인 보안을 확보 하는 것이 가장 비용 효율적인 방법입니다. [캠페인에 대 한 Microsoft 365에 등록을](m365-campaigns-sign-up.md)참조 하세요. 그런 다음이 라이브러리를 사용 하 여 추가 보안을 구성 하 고 팀이 안전 하 게 공동 작업을 하도록 도와줍니다. 
 
 ## <a name="what-does-microsoft-365-for-campaigns-include"></a>캠페인에 대 한 Microsoft 365의 기능은 무엇입니까?
-이러한 Microsoft 365 Business 구성에는 사용자와 직원이 안전 하 게 공동 작업 하는 데 도움이 되는 간단한 컨트롤이 포함 됩니다. 
+이러한 Microsoft 365 Business Premium 구성에는 사용자와 직원이 안전 하 게 공동 작업 하는 데 도움이 되는 간단한 컨트롤이 포함 됩니다. 
 - **사용자 Id 보호**: 사용자가 로그인 하 여 전자 메일을 보내거나 access 파일 (다단계 인증)을 사용할 수 있는지 확인 합니다.
 - **중요 한 정보 보호**: 중요 한 정보를 보호 하 여 조직 외부에서 공유 되는 정보를 모니터링 합니다 (데이터 손실 방지).
 - **모바일 장치 보호**: 모바일 장치 (모바일 앱 보호 정책)의 데이터를 보호 합니다.

@@ -16,16 +16,16 @@ ms.assetid: 34681000-0022-4b92-b38a-e32b3ed96bf6
 ms.collection:
 - M365-security-compliance
 description: 관리자는 SCL (스팸 지 수)에 따라 메시지의 스팸이 얼마나 되는지 또는 발생할 가능성이 어떻게 결정 되는지, 스팸 필터링이 SCL을 기반으로 하는 메시지에 적용 되는 기본 작업에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: b8f194f9aecc31896fb816433e71d1b26de708f7
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: 519bc48e7285283ad0570b8f3ac598615b132875
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42893697"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43638287"
 ---
 # <a name="spam-confidence-level-scl-in-office-365"></a>Office 365의 SCL (스팸 지 수)
 
-Exchange Online 사서함이 없는 Office 365 (Exchange online 또는 독립 실행형 Exchange Online Protection)이 인바운드 전자 메일 메시지를 수신 하면 메시지는 스팸 필터링을 통과 하며 스팸 점수가 할당 됩니다. 이 점수는 X-헤더의 메시지에 추가 된 개별 SCL (스팸 지 수)에 매핑됩니다. SCL이 높을수록 메시지가 스팸으로 표시 되는 것을 나타냅니다. 이 서비스는 SCL을 기반으로 메시지에 대해 작업을 수행 합니다.
+Exchange Online 사서함 없이 Microsoft 365 (Exchange online 또는 독립 실행형 Exchange Online Protection (EOP)이 인바운드 전자 메일 메시지를 수신 하면 메시지는 스팸 필터링을 통과 하며 스팸 점수가 할당 됩니다. 이 점수는 X-헤더의 메시지에 추가 된 개별 SCL (스팸 지 수)에 매핑됩니다. SCL이 높을수록 메시지가 스팸으로 표시 되는 것을 나타냅니다. 이 서비스는 SCL을 기반으로 메시지에 대해 작업을 수행 합니다.
 
 SCL의 의미와 메시지에 대해 수행 되는 기본 작업에 대 한 설명은 다음 표에 나와 있습니다. 스팸 필터링 결과을 기반으로 하는 메시지에 대해 수행할 수 있는 작업에 대 한 자세한 내용은 [Configure 스팸 방지 정책 Office 365](configure-your-spam-filter-policies.md)을 참조 하십시오.
 
@@ -46,4 +46,4 @@ SCL과 마찬가지로, BCL (bulk 불만 수준)은 잘못 된 대량 전자 메
 
 ||
 |:-----|
-|![LinkedIn Learning용 단축 아이콘](../../media/eac8a413-9498-4220-8544-1e37d1aaea13.png) **Office 365를 처음 사용하시나요?**         LinkedIn Learning에서 제공하는 **Office 365 admins and IT pros**의 무료 비디오 과정을 확인해보세요.|
+|![LinkedIn Learning용 단축 아이콘](../../media/eac8a413-9498-4220-8544-1e37d1aaea13.png) **Office 365를 처음 사용하시나요?**         LinkedIn 학습을 통해 제공 되는 **Microsoft 365 관리자 및 IT 전문가**를 위한 무료 비디오 과정을 소개 합니다.|

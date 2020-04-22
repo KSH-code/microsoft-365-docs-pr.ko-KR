@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 1441790bfa0c587c4abceb87eb1e4daae6e4d157
-ms.sourcegitcommit: 09c3e2f3129c5e43cd8420cccd0676ff3a29a355
+ms.openlocfilehash: c29027bb641530ba2d3c7a22c578770c098f53ba
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "43521483"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43633474"
 ---
 # <a name="deploy-supported-services"></a>지원 서비스 사용
 
@@ -62,7 +62,7 @@ Microsoft Threat Protection의 전체 이점을 얻으려면 지원 되는 모�
 | 서비스 | 데이터 (상호 연관 & 정보) | 업데이트 관리 & 응답 범위 |
 | ------ | ------ | ------ |
 | Microsoft Defender ATP | -끝점 상태 및 원시 이벤트<br />-바이러스 백신, EDR, attack surface reduction를 포함 한 끝점 감지 및 경고<br />-끝점에서 관찰 된 파일 및 기타 엔터티에 대 한 정보 | 엔드포인트 |
-| Office 365 ATP | -메일 및 사서함 상태 및 원시 이벤트<br />-전자 메일, 첨부 파일 및 링크 감지 | -사서함<br />-Office 365 계정 |
+| Office 365 ATP | -메일 및 사서함 상태 및 원시 이벤트<br />-전자 메일, 첨부 파일 및 링크 감지 | -사서함<br />-Microsoft 365 계정 |
 | Azure ATP | -Active Directory 신호 (인증 이벤트 포함)<br />-Id 관련 동작 감지 | ID |
 | Microsoft Cloud App Security | -Unsanctioned 클라우드 앱 및 서비스 검색 (섀도 IT)<br />-클라우드 앱에 대 한 데이터 노출<br />-클라우드 앱과 연결 된 위협 활동 | 클라우드 앱 |
 

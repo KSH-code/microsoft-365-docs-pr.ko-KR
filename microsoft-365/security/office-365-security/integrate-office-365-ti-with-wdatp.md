@@ -17,12 +17,12 @@ ms.assetid: 414fa693-d7b7-4a1d-a387-ebc3b6a52889
 ms.collection:
 - M365-security-compliance
 description: Microsoft Defender Advanced Threat Protection과 Office 365 Advanced Threat Protection을 통합 하 여 보다 자세한 위협 관리 정보를 확인 합니다.
-ms.openlocfilehash: a2634a70bdbdd21efe2c59721e5532500eb4e4cc
-ms.sourcegitcommit: 4c6af6530b4997055b8e60bf532e75cbc72fb6c5
+ms.openlocfilehash: e416d70baf7498b0163d5bd8aa8e923585a5e5a4
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "43284230"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43633812"
 ---
 # <a name="integrate-office-365-advanced-threat-protection-with-microsoft-defender-advanced-threat-protection"></a>Microsoft Defender Advanced Threat Protection을 사용 하 여 Office 365 Advanced Threat Protection 통합
 
@@ -38,15 +38,15 @@ ms.locfileid: "43284230"
 
 - 조직에 Office 365 ATP 계획 2 (또는 Office 365 E5)와 Microsoft Defender ATP가 있어야 합니다.
     
-- 보안 및 [ &amp; 준수 센터](https://protection.office.com)에서 Office 365 전역 관리자 이거나 보안 관리자 역할 (예: 보안 관리자)을 할당 받아야 합니다. ( [Office 365 보안 &amp; 및 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)참조)
+- 전역 관리자 이거나 보안 및 [ &amp; 준수 센터](https://protection.office.com)에서 보안 관리자 역할 (예: 보안 관리자)을 할당 해야 합니다. ( [보안 &amp; 및 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)참조)
     
 - 보안 & 준수 센터 및 Microsoft Defender 보안 센터에서 두 [탐색기 (또는 실시간 검색)](threat-explorer.md) 에 액세스할 수 있어야 합니다.
     
 ## <a name="to-integrate-office-365-atp-with-microsoft-defender-atp"></a>Office 365 ATP를 Microsoft Defender ATP와 통합 하려면
 
-Office 365 보안 & 준수 센터와 Microsoft Defender 보안 센터를 모두 사용 하 여 Microsoft Defender ATP를 사용한 사무실 365 ATP를 설정 합니다.
+Microsoft Defender ATP와 Office 365 ATP를 통합 하는 기능은 보안 & 준수 센터와 Microsoft Defender 보안 센터를 모두 사용 하 여 설정 됩니다.
   
-1. Office 365 전역 관리자 또는 보안 관리자 인 경우로 이동 [https://protection.office.com](https://protection.office.com) 하 여 로그인 합니다.
+1. 전역 관리자 또는 보안 관리자로 이동한 [https://protection.office.com](https://protection.office.com) 후 회사 또는 학교 계정으로 이동 하 여 로그인 합니다.
     
 2. **위협 관리** \> **탐색기**를 선택 합니다.<br>![위협 관리 메뉴의 탐색기](../../media/ThreatMgmt-Explorer-nav.png)<br>
     

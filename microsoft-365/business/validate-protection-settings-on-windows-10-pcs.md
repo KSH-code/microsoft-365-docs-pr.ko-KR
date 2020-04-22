@@ -21,13 +21,13 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: fae8819d-7235-495f-9f07-d016f545887f
-description: Windows 10 장치에서 Microsoft 365 Business 앱 보호 설정을 확인 하 고 사용자가 회사 데이터를 개인 파일이 나 관리 되지 않는 앱에 복사할 수 없는지 확인 합니다.
-ms.openlocfilehash: 5b798e0335188543fc308553f71085bcde8b7752
-ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
+description: Windows 10 장치에서 Microsoft 365 Business Premium 앱 보호 설정을 확인 하 고 사용자가 회사 데이터를 개인 파일이 나 관리 되지 않는 앱에 복사할 수 없는지 확인 합니다.
+ms.openlocfilehash: 20b2e43ae53486c046440ff1066d241ec9661888
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42560843"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635747"
 ---
 # <a name="validate-app-protection-settings-on-windows-10-pcs"></a>Windows 10 PC에서 앱 보호 설정 유효성 검사
 
@@ -37,7 +37,7 @@ ms.locfileid: "42560843"
   
  **연결 설정 확인**
   
-1. [Microsoft 365 Business 사용자를 위한 Windows 장치 설정](set-up-windows-devices.md) 에 설명된 것처럼 Microsoft 365 Business 자격 증명으로 로그인하고 Azure AD에 연결한 후 **Windows 설정** \> **계정** \> **회사 또는 학교 액세스**로 이동합니다. **\<테넌트 이름\> Azure AD에 연결됨**을 선택한 다음 **정보**를 선택합니다.
+1. Microsoft 365 business premium 자격 증명으로 로그인 하 고 [microsoft 365 Business premium 사용자를 위한 windows 장치 설정](set-up-windows-devices.md)에 설명 된 대로 Azure AD에 연결한 후에 **windows 설정** \> **계정** \> **액세스 회사 또는 학교**로 이동 합니다. **\<테넌트 이름\> Azure AD에 연결됨**을 선택한 다음 **정보**를 선택합니다.
     
     ![Click or tap Info on the Connected to Azure AD dialog.](../media/a36ede2b-d1a0-4d4e-8ea7-af39b4b63890.png)
   
@@ -47,7 +47,7 @@ ms.locfileid: "42560843"
   
  **관리 되지 않는 앱에 회사 데이터를 붙여넣을 수 없는지 확인**
   
-1. Microsoft 365 Business가 설치한 Outlook 2016을 엽니다.
+1. Microsoft 365 Business Premium을 통해 설치 된 Outlook 2016을 엽니다.
     
 2. 전자 메일을 열고 전자 메일의 일부 콘텐츠를 복사합니다.
     
@@ -67,7 +67,7 @@ ms.locfileid: "42560843"
     
 2. **회사 또는 학교 액세스**에서 **연결**을 선택합니다.
     
-3. Enter your Microsoft 365 Business credential into the **Set up a work or school account dialog** \> **Sign in**.
+3. **회사 또는 학교 계정 설정 대화 상자** \> 에 **로그인**하 여 Microsoft 365 Business Premium 자격 증명을 입력 합니다.
     
 4. **회사 또는 학교 액세스** 페이지에서 **회사 또는 학교 계정**을 선택한 다음 **정보**를 선택합니다.
     
@@ -79,7 +79,7 @@ ms.locfileid: "42560843"
   
  **관리 되지 않는 앱에 회사 데이터를 붙여넣을 수 없는지 확인**
   
-1. Outlook 2016을 열고 필요한 경우 Microsoft 365 Business 계정을 추가하고 Microsoft 365 Business 자격 증명으로 로그인합니다.
+1. Outlook 2016을 열고 필요한 경우 Microsoft 365 Business Premium 계정을 추가 하 고 Microsoft 365 Business Premium 자격 증명을 사용 하 여 로그인 합니다.
     
 2. 전자 메일을 열고 전자 메일의 일부 콘텐츠를 복사합니다.
     

@@ -1,5 +1,5 @@
 ---
-title: Office 365 ATP 안전 첨부 파일의 작동 방식
+title: ATP 안전한 첨부 정책의 작동 방식
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -13,14 +13,14 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 description: 안전한 첨부 파일 기능은 전자 메일 첨부 파일을 클릭 하 여 확인할 시간을 제공 합니다. 안전한 첨부 파일을 사용 하 여 사용자가 전자 메일로 보내거나 받는 악의적인 파일 로부터 조직을 보호 합니다.
-ms.openlocfilehash: 951f9f0e50da6ef83135f1ca8f1ad109a8e66988
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: e53d95a52c6990b5e0b4ff81f42414a34b1e606e
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41599225"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43638025"
 ---
-# <a name="how-office-365-atp-safe-attachments-works"></a>Office 365 ATP 안전 첨부 파일의 작동 방식
+# <a name="how-atp-safe-attachments-works"></a>ATP 안전한 첨부 정책의 작동 방식
 
 ## <a name="how-it-works"></a>작업 방법
 
@@ -35,5 +35,5 @@ ATP 안전한 첨부 파일 기능은 조직의 사용자에 대해 전자 메�
 ATP 안전한 첨부 파일 정책은 조직의 특정 사용자 또는 그룹이 나 전체 도메인에 적용할 수 있습니다. 또한 ATP 안전한 첨부 파일 정책은 실제 첨부 파일을 검색 하는 동안 자리 표시자 첨부 파일을 사용 하도록 구성할 수 있습니다. 자세한 내용은 **[Office 365에서 ATP 안전한 첨부 파일 정책 설정을](set-up-atp-safe-attachments-policies.md)** 참조 하십시오.
 
 > [!NOTE]
-> ATP 안전한 첨부 파일 검사는 Office 365 데이터가 있는 동일한 지역에서 발생 합니다. 데이터 센터 지역에 대 한 자세한 내용은 [어디에 있습니까?](https://products.office.com/where-is-your-data-located?geo=All) 를 참조 하세요. 
+> ATP 안전한 첨부 파일 검사는 데이터가 있는 동일한 지역에서 발생 합니다. 데이터 센터 지역에 대 한 자세한 내용은 [어디에 있습니까?](https://products.office.com/where-is-your-data-located?geo=All) 를 참조 하세요. 
 

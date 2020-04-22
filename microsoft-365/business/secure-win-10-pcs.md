@@ -21,17 +21,17 @@ ms.custom:
 search.appverid:
 - BCS160
 - MET150
-description: Microsoft 365 Business를 설정한 후에 Windows 10 Pc를 보호 하는 방법을 알아봅니다.
-ms.openlocfilehash: 068ac8c8b6011c879d859024b44192cb0a6d3d7d
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+description: Microsoft 365 for business를 설정한 후에 Windows 10 Pc를 보호 하는 방법을 알아봅니다.
+ms.openlocfilehash: 71fd9202b04c2559e992977f1c21a129dd5455b1
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41593464"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43633004"
 ---
 # <a name="secure-windows-10-computers"></a>Windows 10 컴퓨터 보안
 
-Microsoft 365 Business를 [설정한](set-up.md) 후에는 조직에 있는 Windows 10 대의 컴퓨터를 도난 으로부터 보호 하 고 바이러스 및 맬웨어로 같은 악의적인 위협을 방지 해야 합니다.
+Microsoft 365 for business를 [설정한](set-up.md) 후에는 조직에서 Windows 10 컴퓨터를 도난 으로부터 보호 하 고 바이러스 및 맬웨어로 인 한 악의적인 위협을 방지 해야 합니다.
 이 비디오를 시청 하 여 Windows 10 컴퓨터를 보호 하는 정책을 설정 하는 방법에 대 한 개요를 확인 하세요.<br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE4kcAF] 

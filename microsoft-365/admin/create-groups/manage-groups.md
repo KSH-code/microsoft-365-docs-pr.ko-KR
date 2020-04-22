@@ -1,5 +1,5 @@
 ---
-title: 관리자 센터에서 Office 365 그룹 관리
+title: 관리 센터에서 그룹 관리
 ms.reviewer: arvaradh
 f1.keywords: NOCSH
 ms.author: mikeplum
@@ -18,17 +18,17 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 74a1ef8b-3844-4d08-9980-9f8f7a36000f
-description: 그룹 구성원 제거, 전자 메일 주소, 그룹 이름 또는 설명 편집, 그룹 작동 방식 사용자 지정 등 Office 365 그룹을 관리 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 34682d3d06babca04a9b2541e3f33ec79d934f50
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+description: 그룹 구성원 제거, 전자 메일 주소, 그룹 이름 또는 설명 편집, 그룹 작동 방식 사용자 지정 등 Microsoft 365 그룹을 관리 하는 방법에 대해 알아봅니다.
+ms.openlocfilehash: 230a449bad22d0b872983a8c911955f4d00153ea
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43212072"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43630396"
 ---
-# <a name="manage-an-office-365-group-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터에서 Office 365 그룹 관리
+# <a name="manage-a-group-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터에서 그룹 관리
 
-[Office 365 그룹을 만들고](create-groups.md) 그룹 구성원을 추가한 후에는 그룹을 구성할 수 있습니다. 그룹 이름 또는 설명을 편집 하 고, 소유자 또는 구성원을 관리 하 고, 외부 보낸 사람이 그룹에 전자 메일을 보낼 수 있는지 여부와 그룹 대화의 복사본을 구성원에 게 보낼지 여부를 지정할 수 있습니다. 
+[Microsoft 365 그룹을 만들고](create-groups.md) 그룹 구성원을 추가한 후에는 그룹을 구성할 수 있습니다. 그룹 이름 또는 설명을 편집 하 고, 소유자 또는 구성원을 관리 하 고, 외부 보낸 사람이 그룹에 전자 메일을 보낼 수 있는지 여부와 그룹 대화의 복사본을 구성원에 게 보낼지 여부를 지정할 수 있습니다. 
 
 ## <a name="edit-the-group-name-or-description"></a>그룹 이름 또는 설명 편집
 
@@ -192,14 +192,14 @@ ms.locfileid: "43212072"
 
 ## <a name="related-articles"></a>관련 문서
 
-[Office 365 그룹 만들기](create-groups.md)
+[Microsoft 365 그룹 만들기](create-groups.md)
 
-[Office 365 그룹에 대 한 게스트 액세스 관리](https://support.office.com/article/7c713d74-a144-4eab-92e7-d50df526ff96.aspx)
+[Microsoft 365 그룹에 대 한 게스트 액세스 관리](https://support.office.com/article/7c713d74-a144-4eab-92e7-d50df526ff96.aspx)
 
-[Office 365 그룹을 만들 때 사용할 도메인 선택](choose-domain-to-create-groups.md)
+[Microsoft 365 그룹을 만들 때 사용할 도메인 선택](choose-domain-to-create-groups.md)
 
-[구성원이 Office 365 그룹을 대신 하 여 보내거나 받을 수 있도록 허용](allow-members-to-send-as-or-send-on-behalf-of-group.md)
+[구성원이 Microsoft 365 그룹을 대신 하 여 보내거나 받을 수 있도록 허용](allow-members-to-send-as-or-send-on-behalf-of-group.md)
 
-[Office 365 그룹으로 메일 그룹 업그레이드](../manage/upgrade-distribution-lists.md)
+[Microsoft 365 그룹으로 메일 그룹 업그레이드](../manage/upgrade-distribution-lists.md)
 
-[PowerShell을 사용하여 Office 365 그룹 관리](https://support.office.com/article/aeb669aa-1770-4537-9de2-a82ac11b0540)
+[PowerShell을 사용 하 여 Microsoft 365 그룹 관리](https://support.office.com/article/aeb669aa-1770-4537-9de2-a82ac11b0540)

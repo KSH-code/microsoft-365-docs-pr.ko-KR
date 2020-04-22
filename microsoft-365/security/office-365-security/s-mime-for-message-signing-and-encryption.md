@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: 887c710b-0ec6-4ff0-8065-5f05f74afef3
 description: 관리자는 Exchange Online에서 S/MIME을 사용 하는 방법에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: 1c7b2a56f15b39818d51f405192febebeb2717e8
-ms.sourcegitcommit: 1c445d68e54ca4249024ca4bb72460dd6fac0a2d
+ms.openlocfilehash: 294fd22ff81e9ddaabf0664afb34a37c008a6d09
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42170498"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634331"
 ---
 # <a name="smime-for-message-signing-and-encryption-in-exchange-online"></a>Exchange Online의 메시지 서명 및 암호화를 위한 S/MIME
 
@@ -68,7 +68,7 @@ Exchange Online에 대해 S/MIME을 설정 하려면 다음과 같은 주요 단
 
 - **TLS(전송 계층 보안)** 는 스누핑 및 도청을 방지하기 위해 전자 메일 서버 간의 터널/경로를 암호화합니다.
 
-- **SSL(Secure Sockets Layer)** 은 전자 메일 클라이언트와 Office 365 서버 간의 연결을 암호화합니다.
+- **SSL (Secure Sockets layer)** 은 전자 메일 클라이언트와 Microsoft 365 서버 간의 연결을 암호화 합니다.
 
 - **BitLocker**는 데이터 센터의 하드 드라이브에 저장된 데이터를 암호화하여 무단으로 액세스하는 사용자가 해당 데이터를 읽을 수 없도록 합니다.
 

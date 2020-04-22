@@ -1,5 +1,5 @@
 ---
-title: Office 365 ATP 안전한 링크가 작동 하는 방식
+title: ATP 안전한 링크가 작동하는 방식
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -14,16 +14,16 @@ ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: 안전한 링크 기능은 Office 문서 및 전자 메일 메시지에서 하이퍼링크를 클릭 하 여 확인할 시간을 제공 합니다. 이 문서를 읽으면 ATP 안전한 링크가 작동 하는 방식을 확인할 수 있습니다.
-ms.openlocfilehash: c87eef2afbb3a694d9906de0c6c43bfeb576782b
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: b77ab718afdc4f68d8120e11fa5d1a321b66f32e
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42633976"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43638013"
 ---
-# <a name="how-office-365-atp-safe-links-works"></a>Office 365 ATP 안전한 링크가 작동 하는 방식
+# <a name="how-atp-safe-links-works"></a>ATP 안전한 링크가 작동하는 방식
 > [!IMPORTANT] 
-> Office 365 ATP 안전한 링크가 올바르게 작동 하려면 모든 Office 365 서비스가 동일한 버전 이어야 합니다.
+> Office 365 ATP 안전한 링크가 올바르게 작동 하려면 모든 서비스가 동일한 버전 이어야 합니다.
          
 ## <a name="how-atp-safe-links-works-with-urls-in-email"></a>ATP 안전한 링크가 전자 메일의 Url과 함께 작동 하는 방식
 
@@ -51,9 +51,9 @@ ms.locfileid: "42633976"
     
 ## <a name="how-atp-safe-links-works-with-urls-in-office-documents"></a>ATP 안전한 링크가 Office 문서의 Url과 작동 하는 방식 
 
-높은 수준에서 [ATP 안전한 링크](atp-safe-links.md) 보호는 Office 365 ProPlus 또는 Business Premium 응용 프로그램 (Windows, Mac 또는 브라우저의 최신 버전의 Word, Excel 및 PowerPoint, IOS 또는 Android 장치의 office 앱, Windows의 Visio, OneNote, 브라우저에 있는 경우)의 url에 대해 작동 합니다.
+높은 수준에서 [ATP 안전한 링크](atp-safe-links.md) 보호는 Microsoft 365 앱 (Windows, Mac 또는 브라우저의 최신 버전, windows의 경우에는 IOS 또는 Android 장치에 있는 Office 응용 프로그램, 브라우저에서는 OneNote, PowerPoint의 경우 Visio)의 url에 대해 작동 합니다.
   
-1. 사용자의 컴퓨터, 스마트폰 또는 태블릿에서 Office 365 ProPlus 또는 Business Premium을 설치 했습니다. (또는 브라우저에서 Office를 사용 중인 경우)
+1. 사용자의 컴퓨터, 스마트폰 또는 태블릿에서 Microsoft 365 앱에 enterprise 또는 Business Premium을 설치 했습니다. (또는 브라우저에서 Office를 사용 중인 경우)
     
 2. 사용자가 Word, Excel, PowerPoint, OneNote (브라우저) 또는 Visio (데스크톱)를 열고 회사 또는 학교 계정을 사용 하 여 Office 365 Enterprise에 로그인 합니다. 문서에 Url이 포함 되어 있습니다.
     

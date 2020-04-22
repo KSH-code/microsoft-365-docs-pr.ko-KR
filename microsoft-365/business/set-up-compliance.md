@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 Business에 대 한 위협 요소 보호 강화
+title: Microsoft 365 Business Premium에 대 한 위협 보호 강화
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -21,16 +21,16 @@ search.appverid:
 - BCS160
 - MET150
 description: 규정 준수 기능을 설정 하 여 데이터 손실을 방지 하 고 및 고객의 중요 한 정보를 안전 하 게 유지 합니다.
-ms.openlocfilehash: 6f4520b052c2e7acb8748d3c9d6e26777cb56d4b
-ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
+ms.openlocfilehash: e0d853223c7e6f455cba6e68ad173b137992d863
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42561243"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635127"
 ---
 # <a name="set-up-compliance-features"></a>준수 기능 설정
 
-Microsoft 365 Business에는 데이터와 장치를 보호 하는 기능이 포함 되어 있으며, 고객의 중요 한 정보를 안전 하 게 유지 하는 데 도움이 됩니다.
+Microsoft 365 Business Premium에는 데이터와 장치를 보호 하는 기능이 제공 되며, 고객의 중요 한 정보를 안전 하 게 유지 하는 데 도움이 됩니다.
 
 ## <a name="set-up-dlp-features"></a>DLP 기능 설정
 

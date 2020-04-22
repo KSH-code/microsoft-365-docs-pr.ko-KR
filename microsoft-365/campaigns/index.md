@@ -24,12 +24,12 @@ search.appverid:
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
 description: 캠페인에 대 한 Microsoft 365
-ms.openlocfilehash: 32437ccc0c110c0539cb3d24f036438d6a313921
-ms.sourcegitcommit: 053d42480d8aa3792ecb0027ddd53d383a029474
+ms.openlocfilehash: 167b265676d3c3bc9025a0c0e998379f72bb9e52
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "42056501"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632038"
 ---
 <a name="microsoft-365-for-campaigns"></a>캠페인을 위한 Microsoft 365
 ===========================
@@ -40,24 +40,24 @@ ms.locfileid: "42056501"
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE3clbH] 
 
 
-**캠페인에 대 한 Microsoft 365 이란?** 다음을 수행할 수 있도록 Microsoft 365 Business가 포함 된 권장 보안 구성입니다.
+**캠페인에 대 한 Microsoft 365 이란?** 다음을 수행할 수 있도록 Microsoft 365 Business Premium이 포함 된 권장 보안 구성입니다.
 - 신뢰할 수 있는 비즈니스 생산성 및 Outlook, Word, Excel 및 기타 Office 제품과 같은 공동 작업 도구를 사용 합니다. 
 - 관리 하기 간편한 엔터프라이즈급 보안을 사용 하 여 모든 iOS, Android 및 Windows 10 장치에서 작업 파일을 보호 합니다. 
 - 사용자 계정 및 id에 대 한 추가 보호 적용 
 
-![Microsoft 365 Business는 생산성 도구, 공동 작업 도구, 파일 저장, 전자 메일, 장치 및 id를 보호 합니다.](../media/M365-WhatIsIt-SecurityFocus.png)
+![Microsoft 365 Business Premium은 생산성 도구, 공동 작업 도구, 파일 저장, 전자 메일, 장치 및 id를 보호 합니다.](../media/M365-WhatIsIt-SecurityFocus.png)
 
-미국의 연방 선거 캠페인은 Microsoft 365 비즈니스에 대 한 특별 가격 산정을 인정 하지만이 계획을 사용 하는 모든 조직은이 가이드를 활용 하 여 향상 된 보안을 구성 하 고 안전 하 게 공동 작업 하는 방법을 배울 수 있습니다.
+미국의 연방 선거 캠페인은 Microsoft 365 Business Premium에 대 한 특별 가격 산정을 인정 하지만이 계획을 사용 하는 모든 조직은이 가이드를 활용 하 여 향상 된 보안을 구성 하 고 안전 하 게 공동 작업 하는 방법을 배울 수 있습니다.
 
 이 라이브러리에는 다음이 포함 됩니다.
 - 보안 강화를 추가 하기 위한 규범적인 설정 지침
 - 사용자가 보안 액세스용으로 장치를 설정 하는 데 도움이 됩니다.
 - 안전 하 게 공동 작업 하 고 공유 하는 방법에 대 한 지침입니다.
 
-포함 된 항목에 대 한 자세한 내용은 [Microsoft 365 Business](https://www.microsoft.com/microsoft-365/business)를 참조 하세요. 
+포함 된 항목에 대 한 자세한 내용은 [Microsoft 365 Business Premium](https://www.microsoft.com/microsoft-365/business)를 참조 하세요. 
 
 
-<a name="get-started"></a>시작하기
+<a name="get-started"></a>시작
 --------------------------
 
 <ul class="panelContent cardsJ">

@@ -14,12 +14,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: 98bfa8da792bfc5b75d1a2532492c2de6071f1b1
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+ms.openlocfilehash: fe98df2c64bca36bc44c30bddb8b5e53d25aa6a5
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42558239"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634559"
 ---
 # <a name="microsoft-security-portals-and-admin-centers"></a>Microsoft 보안 포털 및 관리 센터
 [Microsoft 365 보안 센터가](overview-security-center.md) id, 데이터, 장치 및 앱 간의 보안을 모니터링 하 고 관리 하는 새로운 홈 인 반면, 특정 특수 작업을 위해 다양 한 포털에 액세스 해야 합니다.
@@ -36,7 +36,7 @@ ms.locfileid: "42558239"
 |---|---|---| 
 | Microsoft 365 보안 센터 | [Microsoft Threat Protection](microsoft-threat-protection.md) 을 사용 하 여 id, 전자 메일, 데이터, 끝점 및 앱에서 위협 활동을 모니터링 및 응답 하 고 보안 환경을 강화 합니다. | [security.microsoft.com](https://security.microsoft.com/) |
 | Microsoft Defender 보안 센터 | [Microsoft DEFENDER ATP](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) 와 함께 제공 되는 기능을 사용 하 여 끝점에서 위협 활동 모니터링 및 응답 | [securitycenter.windows.com](https://securitycenter.microsoft.com/) |
-| Office 365 보안 및 준수 센터 | [Exchange Online Protection](https://docs.microsoft.com/microsoft-365/security/office-365-security/exchange-online-protection-overview?view=o365-worldwide) 및 [Office 365 ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide) 를 관리 하 여 전자 메일 및 공동 작업 서비스를 보호 하 고 다양 한 데이터 처리 규정 준수 확인 | [protection.office.com](https://protection.office.com) |
+| 보안 및 준수 센터 | [Exchange Online Protection](https://docs.microsoft.com/microsoft-365/security/office-365-security/exchange-online-protection-overview?view=o365-worldwide) 및 [Office 365 ATP](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp?view=o365-worldwide) 를 관리 하 여 전자 메일 및 공동 작업 서비스를 보호 하 고 다양 한 데이터 처리 규정 준수 확인 | [protection.office.com](https://protection.office.com) |
 | Azure 보안 센터 포털 | [Azure 보안 센터](https://docs.microsoft.com/azure/security-center/security-center-intro) 를 사용 하 여 클라우드에서 데이터 센터의 보안 및 하이브리드 작업 부하를 강화 합니다. | [portal.azure.com/#blade/Microsoft_Azure_Security](https://portal.azure.com/#blade/Microsoft_Azure_Security/SecurityMenuBlade/0) |
 | Azure ATP 포털 | [AZURE ATP](https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp) 와 함께 Active Directory 신호를 사용 하 여 advanced threat, 손상 된 id 및 악의적인 참가자 작업 식별, 감지 및 조사 | [portal.atp.azure.com](https://portal.atp.azure.com/) |
 | Cloud App Security 포털 | [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security) 를 사용 하 여 다양 한 가시성을 얻고, 데이터 이동을 제어할 수 있으며, 클라우드 서비스에서 cyberthreats을 식별 하 고 공격 하는 정교한 분석 | [portal.cloudappsecurity.com](https://portal.cloudappsecurity.com/) |

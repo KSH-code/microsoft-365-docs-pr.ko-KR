@@ -1,5 +1,5 @@
 ---
-title: Office 365의 자동화 된 조사 및 응답 (AIR)
+title: 자동 조사 및 대응 (AIR)
 keywords: AIR, autoIR, ATP, 자동화, 조사, 대응, 재구성, 위협, 고급, 위협, 보호
 f1.keywords:
 - NOCSH
@@ -16,14 +16,14 @@ search.appverid:
 ms.collection: M365-security-compliance
 description: Office 365 Advanced Threat Protection 계획 2의 자동화 된 조사 및 응답 기능 사용을 시작 하세요.
 ms.custom: air
-ms.openlocfilehash: 45a2bc0e581916493a0170a5f86c152d02403efe
-ms.sourcegitcommit: 2859c82b30ae9cbd3a3e4bcdebd65f18444f1a9e
+ms.openlocfilehash: 3b7ddd88161b695e8929b749dac61d7947392a0d
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42826352"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634547"
 ---
-# <a name="automated-investigation-and-response-air-in-office-365"></a>Office 365의 자동화 된 조사 및 응답 (AIR)
+# <a name="automated-investigation-and-response-air"></a>자동 조사 및 대응 (AIR)
 
 [Office 365 Advanced Threat Protection](office-365-atp.md) (OFFICE 365 ATP) 계획 2에는 보안 작업 팀의 시간과 노력을 줄일 수 있는 강력한 자동 조사 및 응답 (AIR) 기능이 포함 되어 있습니다. 알림이 트리거되면 해당 경고를 검토 하 고 우선 순위를 지정 하 고 응답 하는 보안 운영 팀이 진행 됩니다. 들어오는 알림의 볼륨을 유지 하는 것은 매우 어려울 수 있습니다. 이 중 일부를 자동화 하면 도움이 될 수 있습니다. AIR을 사용 하는 경우 보안 운영 팀은 트리거된 경고에 대 한 시야 없이 우선 순위가 더 높은 작업에 집중할 수 있습니다.
 
@@ -69,7 +69,7 @@ ms.locfileid: "42826352"
 
 Office 365의 AIR 기능은 [office 365 Advanced Threat Protection 계획 2](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp#office-365-atp-plan-1-and-plan-2)에 포함 되어 있습니다. 그러나 AIR이 예상 대로 작동 하려면 [Office 365 ATP 정책을 구성 해야](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats) 합니다. 또한 조직의 [경고 정책을](https://docs.microsoft.com/microsoft-365/compliance/alert-policies)검토 하 고 잠재적으로 구성 해야 합니다. 
 
-Office 365에서는 Exchange 관리자 권한 남용, 맬웨어 활동, 잠재적 외부 및 내부 위협, 정보 관리 위험을 식별 하는 데 도움이 되는 다양 한 기본 제공 경고 정책을 제공 합니다. 몇 가지 [기본 경고 정책이](https://docs.microsoft.com/microsoft-365/compliance/alert-policies#default-alert-policies) 자동 조사를 트리거할 수 있습니다. 이러한 경계 및 제한은 다음과 같습니다.
+Microsoft 365에서는 Exchange 관리자 권한 남용, 맬웨어 활동, 잠재적 외부 및 내부 위협, 정보 관리 위험을 식별 하는 데 도움이 되는 다양 한 기본 제공 경고 정책을 제공 합니다. 몇 가지 [기본 경고 정책이](https://docs.microsoft.com/microsoft-365/compliance/alert-policies#default-alert-policies) 자동 조사를 트리거할 수 있습니다. 이러한 경계 및 제한은 다음과 같습니다.
 
 - 잠재적으로 악의적인 URL 클릭이 검색 됨
 
@@ -91,8 +91,8 @@ Office 365에서는 Exchange 관리자 권한 남용, 맬웨어 활동, 잠재�
 
 |작업 |필요한 역할 |
 |--|--|
-|AIR 기능을 설정 하려면 |다음 역할 중 하나입니다. <br/>-전역 관리자<br/>-보안 관리자 <br/>이러한 역할은 [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles) 또는 [Office 365 보안 & 준수 센터](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center)에서 할당 될 수 있습니다. |
-|권장 작업을 승인 하거나 거부 하려면|[Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles) 또는 [Office 365 보안 & 준수 센터](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center))에서 할당 된 다음 역할 중 하나입니다.<br/>-전역 관리자 <br/>-보안 관리자<br/>-보안 독자 <br/>--- 및 ---<br/>-검색 및 제거 (이 역할은 [Office 365 보안 & 준수 센터](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center)에만 할당 됩니다. 여기에 새 역할 그룹을 만들고 새 역할 그룹에 검색 및 제거 역할을 추가 해야 할 수 있습니다.
+|AIR 기능을 설정 하려면 |다음 역할 중 하나입니다. <br/>-전역 관리자<br/>-보안 관리자 <br/>이러한 역할은 [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles) 또는 [보안 & 준수 센터](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center)에서 할당할 수 있습니다. |
+|권장 작업을 승인 하거나 거부 하려면|[Azure Active Directory](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles) 또는 [보안 & 준수 센터](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center))에서 할당 된 다음 역할 중 하나입니다.<br/>-전역 관리자 <br/>-보안 관리자<br/>-보안 독자 <br/>--- 및 ---<br/>-검색 및 제거 (이 역할은 [보안 & 준수 센터](https://docs.microsoft.com/microsoft-365/security/office-365-security/permissions-in-the-security-and-compliance-center)에만 할당 됨) 여기에 새 역할 그룹을 만들고 새 역할 그룹에 검색 및 제거 역할을 추가 해야 할 수 있습니다.
 
 ## <a name="next-steps"></a>다음 단계
 

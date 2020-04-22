@@ -15,12 +15,12 @@ search.appverid:
 ms.collection: M365-security-compliance
 ms.custom: Ent_Architecture
 description: '요약: Contoso가 높은 규제 대상 데이터에 대 한 SharePoint 사이트를 구현 하 여 조사 팀 간의 공동 작업을 간편 하 게 수행 하는 방법'
-ms.openlocfilehash: a1ffb336e85eb6eb850b53ed14adf947b56642cc
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 0a4bc2f685cf015611da62ebbed000218f37f31e
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42068280"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634255"
 ---
 # <a name="sharepoint-site-for-highly-confidential-digital-assets-of-the-contoso-corporation"></a>Contoso Corporation의 고도로 기밀 디지털 자산에 대 한 SharePoint 사이트
 
@@ -48,22 +48,22 @@ SharePoint 사이트에 대 한 액세스를 보호 하기 위해 Contoso IT IT�
 
 ## <a name="step-2-configured-the-site-for-a-restrictive-dlp-policy"></a>2 단계: 제한적인 DLP 정책에 맞게 사이트 구성
 
-먼저, Contoso admins가 기존 **고도로 기밀** Office 365 보존 레이블을 **리서치** 사이트의 문서 폴더에 적용 했습니다.
+먼저, Contoso admins가 기존 **고도로 기밀** 보존 레이블을 **리서치** 사이트의 문서 폴더에 적용 했습니다.
 
-다음으로, 다음은 **Research** 라는 새 OFFICE 365 DLP 정책을 만들었습니다.
+다음으로, 다음은 **Research** 라는 새 DLP 정책을 만들었습니다.
 
-- **높은 수준의 기밀** Office 365 보존 레이블을 사용 합니다. 
+- **높은 기밀** 보존 레이블을 사용 합니다. 
 - 사용자가 Contoso 외부의 **리서치** 사이트에서 디지털 자산을 공유 하려고 할 때 차단 합니다.
 
 구성에 대 한 자세한 내용은 [보존 레이블 및 DLP를 사용 하 여 SharePoint 파일 보호](https://docs.microsoft.com/office365/enterprise/protect-sharepoint-online-files-with-office-365-labels-and-dlp)를 참조 하세요.
 
-## <a name="step-3-created-an-office-365-sensitivity-sublabel-for-the-site"></a>3 단계: 사이트에 대 한 Office 365 민감도 sublabel를 만들었습니다.
+## <a name="step-3-created-a-sensitivity-sublabel-for-the-site"></a>3 단계: 사이트에 대 한 민감도 sublabel 만들어짐
 
-Contoso 관리자는 다음과 같은 **고도로 기밀** 레이블의 **리서치 팀** 이라는 새 Office 365 민감도 sublabel를 만들었습니다.
+Contoso 관리자는 다음과 같은 **고도로 기밀** 레이블의 **연구 팀** 이라는 새 민감도 sublabel를 만들었습니다.
 
 - 암호화 필요
-- **리서치** Office 365 그룹에 대해 공동 작성자 권한을 허용 합니다.
-- **리서치** Office 365 그룹에 적용 됩니다.
+- Microsoft 365 **연구** 그룹에 공동 작성자 권한을 허용 합니다.
+- Microsoft 365 **연구** 그룹에 적용 됩니다.
 
 높은 기밀 자산에 대 한 **연구** 팀 사이트의 결과 구성은 다음과 같습니다.
 
@@ -71,7 +71,7 @@ Contoso 관리자는 다음과 같은 **고도로 기밀** 레이블의 **리서
 
 **리서치** 사이트의 폴더에 있는 파일은 다음과 같은 방법으로 보호 됩니다.
 
-- 사이트 사용 권한- **리서치** Office 365 그룹의 구성원 에게만 액세스를 허용 합니다.
+- 사이트 사용 권한-Microsoft 365 **연구** 그룹 구성원 에게만 액세스를 허용 합니다.
 - **고급 기밀** 보존 레이블과 파일을 외부 사용자와 공유 하지 않도록 하는 설정을 사용 하는 **연구** DLP 정책입니다.
 - 리서치 **팀** 에서 **리서치** 사이트를 이동 하거나 복사 하는 경우 해당 파일과 함께 이동 하는 암호화 및 사용 권한을 포함 하는 sublabel의 민감도를 구분 합니다.
 
@@ -86,7 +86,7 @@ Contoso 관리자가 온-프레미스 SharePoint Server 2016 사이트의 모든
 
 ## <a name="step-5-trained-their-researchers"></a>5 단계: 교육을 받은 연구원
 
-Contoso 보안 직원은 **리서치** Office 365 그룹의 구성원을 단계별로 진행 하는 필수 과정으로 교육 합니다.
+Contoso 보안 직원은 **리서치** Microsoft 365 그룹의 구성원을 단계별로 진행 하는 필수 과정으로 교육 합니다.
 
 - 새 **리서치** 사이트 및 기존 파일에 액세스 하는 방법
 - 사이트에서 새 파일을 만들고 로컬에 저장된 새 파일을 업로드하는 방법
@@ -96,7 +96,7 @@ Contoso 보안 직원은 **리서치** Office 365 그룹의 구성원을 단계�
 
 최종 결과는 리서치 정보가 포함 된 파일에 대 한 보안 환경에서 Contoso를 통해 공동 작업을 수행할 수 있는 보안 환경입니다. 
 
-리서치 **팀** 이 포함 된 리서치 문서를 sublabel 하 게 되 면 유효한 사용자 계정 자격 증명을 사용 하 여 **리서치** Office 365 그룹의 구성원만 **이 사이트를** 암호화 하 고 액세스할 수 있습니다.
+리서치 **팀** 이 포함 된 리서치 문서를 sublabel 하 게 되 면 유효한 사용자 계정 자격 증명을 사용 하 여 **연구** 중인 Microsoft 365 그룹의 구성원만 **이 사이트를** 암호화 하 고 액세스할 수 있습니다.
 
 ## <a name="next-step"></a>다음 단계
 

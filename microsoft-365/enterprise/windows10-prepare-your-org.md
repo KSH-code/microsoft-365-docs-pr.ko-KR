@@ -12,12 +12,12 @@ ms.date: 06/01/2018
 f1.keywords:
 - NOCSH
 ms.author: josephd
-ms.openlocfilehash: 9b83082a4dc859c10db03608de2edebdbb633cbe
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 74c8dc4a0d4e2d457462320999ed79e80b372b7a
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42085527"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636666"
 ---
 # <a name="step-1-prepare-your-organization-for-windows-10-enterprise"></a>1 단계: Windows 10 Enterprise에 대 한 조직 준비
 
@@ -34,8 +34,8 @@ ms.locfileid: "42085527"
   온-프레미스에 Active Directory를 365 사용 하는 경우 microsoft [365](identity-add-user-accounts.md#identity-sync) 에서 사용한 클라우드 디렉터리인 Azure AD의 사용자 계정을 만들 수 있습니다. 이 방법을 사용 하면 리소스 (예를 들어 SharePoint Online 사이트 모음 또는 문서)에 대 한 사용 권한을 관리 하는 데 사용 되는 사용자 및 보안 그룹에 대 한 계정을 만들 수 있습니다. Active Directory와 Microsoft 365을 동기화 하면 사용자에 게 라이선스가 할당 되지 않습니다.
 - **사용자에 게 사용 권한을 부여할 필요가 없습니다.** <br>
   사용자가 microsoft 365 서비스를 사용 하거나 Microsoft 365 포털에서 소프트웨어를 설치할 수 있으려면 먼저 제품 라이선스가 필요 합니다. 전역 또는 사용자 관리 관리자는 Microsoft 365에서 제품 라이선스를 개별적으로 또는 대량으로 직접 할당할 수 있습니다. 또한 사용자가 특정 그룹에 추가 될 때 [그룹 기반 라이선싱](identity-use-group-management.md#identity-group-license) 을 사용 하 여 라이선스를 자동으로 할당할 수 있습니다. 
-- **Office 365 ProPlus를 별도로 설치 하는 경우** <br>
-  Microsoft 365 라이선스를 취득 해도 클라이언트 컴퓨터에 Office 365 ProPlus가 자동으로 설치 되지 않습니다. 자세한 내용은 [4 단계: Office 365 ProPlus](office365proplus-infrastructure.md) 를 참조 하세요. 
+- **Enterprise 용 Microsoft 365 앱을 별도로 설치 해야 합니다.** <br>
+  Microsoft 365 라이선스를 취득 해도 클라이언트 컴퓨터에 Microsoft 365 앱 for enterprise가 자동으로 설치 되지 않습니다. 자세한 내용은 [4 단계: enterprise 용 Microsoft 365 Apps 앱](office365proplus-infrastructure.md) 을 참조 하십시오. 
 
 ## <a name="set-windows-diagnostics-data-level"></a>Windows 진단 데이터 수준 설정
 

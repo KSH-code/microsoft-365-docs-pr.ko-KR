@@ -16,16 +16,16 @@ ms.assetid: 6ae78c12-7bbe-44fa-ab13-c3768387d0e3
 ms.collection:
 - M365-security-compliance
 description: 사용자가 신뢰 하는 사람이 보낸 전자 메일이 차단 되지 않도록 하려면 연결 필터 정책을 사용 하 여 신뢰할 수 있는 IP 주소에 대 한 허용 목록을 만들 수 있습니다. 또한 차단 된 보낸 사람의 IP 차단 목록을 만들 수도 있습니다.
-ms.openlocfilehash: bc0f99102daa422cefe5a7c9cb3e0e5476237f63
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: 54e68c79f78bb1408684ac583edff137cb687b53
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42894001"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637749"
 ---
-# <a name="configure-connection-filtering-in-office-365"></a>Office 365에서 연결 필터링 구성
+# <a name="configure-connection-filtering"></a>연결 필터링 구성
 
-Exchange online 사서함이 없는 Office 365 고객 또는 독립 실행형 EOP (Exchange Online Protection) 고객에 게는 EOP (특히 기본 연결 필터 정책)에서 연결 필터링을 사용 하 여 해당 사서함을 식별 합니다. IP 주소로 양호 하거나 잘못 된 원본 전자 메일 서버 기본 연결 필터 정책의 주요 구성 요소는 다음과 같습니다.
+Exchange online 사서함이 없는 Microsoft 365 고객이 나 독립 실행형 EOP (Exchange Online Protection) 고객에 게는 EOP (특히 기본 연결 필터 정책)에서 연결 필터링을 사용 하 여 해당 IP 주소로 양호한 지 나 잘못 된 원본 전자 메일 서버를 식별 합니다. 기본 연결 필터 정책의 주요 구성 요소는 다음과 같습니다.
 
 - **Ip 허용 목록**: ip 주소 또는 ip 주소 범위로 지정한 원본 전자 메일 서버에서 들어오는 모든 메시지에 대해 스팸 필터링을 건너뜁니다. 이러한 원본의 메시지에 대 한 스팸 필터링이 계속 발생할 수 있는 시나리오는이 항목 뒷부분의 [IP 허용 목록에 있는 원본의 메시지가 계속 필터링 되는 시나리오](#scenarios-where-messages-from-sources-in-the-ip-allow-list-are-still-filtered) 를 참조 하십시오. IP 허용 목록을 전반적인 수신 허용-보낸 사람 전략에 맞게 조정 하는 방법에 대 한 자세한 내용은 [Office 365에서 안전한 보낸 사람 목록 만들기](create-safe-sender-lists-in-office-365.md)를 참조 하세요.
 
@@ -33,18 +33,18 @@ Exchange online 사서함이 없는 Office 365 고객 또는 독립 실행형 EO
 
 - **수신 허용 목록**: *안전한 목록은* Microsoft 데이터 센터의 동적 허용 목록으로, 고객 구성을 필요로 하지 않습니다. Microsoft는 이러한 신뢰할 수 있는 전자 메일 원본을 구독에서 다양 한 타사 목록으로 식별 합니다. 수신 허용 목록을 사용 하거나 사용 하지 않도록 설정할 수 있습니다. 수신 허용 목록에는 원본 전자 메일 서버를 구성할 수 없습니다. 수신 허용 목록에 있는 전자 메일 서버에서 들어오는 메시지에 대 한 스팸 필터링을 건너뜁니다.
 
-이 항목에서는 Office 365 보안 & 준수 센터 또는 PowerShell (Office 365 고객을 위한 Exchange Online PowerShell)에서 기본 연결 필터 정책을 구성 하는 방법에 대해 설명 합니다. 독립 실행형 EOP 고객을 위한 Exchange Online Protection PowerShell EOP에서 연결 필터링을 사용 하는 방법에 대 한 자세한 내용은 [Office 365의 스팸 방지 보호](anti-spam-protection.md)를 참조 하세요.
+이 항목에서는 보안 & 준수 센터 또는 PowerShell (Microsoft 365 고객을 위한 Exchange Online PowerShell)에서 기본 연결 필터 정책을 구성 하는 방법에 대해 설명 합니다. 독립 실행형 EOP 고객을 위한 Exchange Online Protection PowerShell EOP가 연결 필터링을 사용 하는 방법에 대 한 자세한 내용은 [스팸 방지 보호](anti-spam-protection.md)를 참조 하십시오.
 
 > [!NOTE]
-> IP 허용 목록, 안전한 목록 및 IP 차단 목록은 조직의 전자 메일을 허용 하거나 차단 하는 전체 전략의 한 부분입니다. 자세한 내용은 office 365에서 [수신 허용-보낸 사람 365 목록 만들기](create-safe-sender-lists-in-office-365.md) 및 [차단 된 보낸 사람 목록 만들기](create-block-sender-lists-in-office-365.md)를 참조 하세요.
+> IP 허용 목록, 안전한 목록 및 IP 차단 목록은 조직의 전자 메일을 허용 하거나 차단 하는 전체 전략의 한 부분입니다. 자세한 내용은 [수신 허용-보낸 사람 목록 만들기](create-safe-sender-lists-in-office-365.md) 및 [차단 된 보낸 사람 목록 만들기](create-block-sender-lists-in-office-365.md)를 참조 하세요.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
 
-- 보안 & 준수 센터를에서 <https://protection.office.com/>엽니다. **스팸 방지 설정** 페이지로 바로 이동 하려면을 사용 <https://protection.office.com/antispam>합니다.
+- <https://protection.office.com/>에서 보안 및 준수 센터를 엽니다. **스팸 방지 설정** 페이지로 바로 이동하려면 <https://protection.office.com/antispam>을 사용하세요.
 
-- Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell)을 참조하세요. 독립 실행형 Exchange Online Protection PowerShell에 연결 하려면 [Exchange Online Protection powershell에 연결](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell)을 참조 하세요.
+- Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결하기](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell)를 참조하세요. Exchange Online Protection PowerShell에 연결하려면 [Exchange Online Protection PowerShell에 연결하기](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell)를 참조하세요.
 
-- 이러한 절차를 수행 하려면 먼저 사용 권한을 할당 받아야 합니다. 기본 연결 필터 정책을 수정 하려면 **조직 관리** 또는 **보안 관리자** 역할 그룹의 구성원 이어야 합니다. 기본 연결 필터 정책에 대 한 읽기 전용 액세스를 위해서는 **보안 독자** 역할 그룹의 구성원 이어야 합니다. 보안 & 준수 센터의 역할 그룹에 대 한 자세한 내용은 [Permissions in The Office 365 Security & 준수 센터](permissions-in-the-security-and-compliance-center.md)를 참조 하십시오.
+- 이 절차를 수행하려면 먼저 사용 권한을 할당 받아야 합니다. 기본 연결 필터 정책을 수정 하려면 **조직 관리** 또는 **보안 관리자** 역할 그룹의 구성원 이어야 합니다. 기본 연결 필터 정책에 대 한 읽기 전용 액세스를 위해서는 **보안 독자** 역할 그룹의 구성원 이어야 합니다. 보안 & 준수 센터의 역할 그룹에 대 한 자세한 내용은 [보안 & 준수 센터의 사용 권한을](permissions-in-the-security-and-compliance-center.md)참조 하세요.
 
 - 허용 하거나 차단할 전자 메일 서버 (보낸 사람)의 원본 IP 주소를 찾으려면 메시지 헤더에서 연결 IP (**CIP**) 헤더 필드를 확인 하면 됩니다. 다양 한 전자 메일 클라이언트에서 메시지 헤더를 보려면 [Outlook에서 internet 메시지 헤더 보기](https://support.office.com/article/cd039382-dc6e-4264-ac74-c048563d212c)를 참조 하세요.
 
@@ -70,15 +70,15 @@ Exchange online 사서함이 없는 Office 365 고객 또는 독립 실행형 EO
 
      - CIDR IP (예: 192.168.0.1/25) 유효한 네트워크 마스크 값은/24에서/32 까지입니다. CIDR IP 마스크 값/1에서/23에 대 한 스팸 필터링을 건너뛰려면이 항목의 뒷부분에 나오는 [사용 가능한 범위 외부의 CIDR ip에 대 한 스팸 필터링 건너뛰기](#skip-spam-filtering-for-a-cidr-ip-outside-of-the-available-range) 섹션을 참조 하십시오.
 
-     IP 주소 또는 주소 범위를 추가 하려면 ![추가](../../media/ITPro-EAC-AddIcon.png)아이콘 **추가를 클릭 합니다** . 항목을 제거 하려면 **허용 된 IP 주소** 에서 항목을 선택 하 고 ![](../../media/scc-remove-icon.png)제거 **제거를 클릭 합니다** . 작업을 마친 후 **저장**을 클릭합니다.
+     IP 주소 또는 주소 범위를 추가 하려면 ![추가](../../media/ITPro-EAC-AddIcon.png)아이콘 **추가를 클릭 합니다** . 항목을 제거 하려면 **허용 된 IP 주소** 에서 항목을 선택 하 고 ![](../../media/scc-remove-icon.png)제거 **제거를 클릭 합니다** . 작업을 마쳤으면 **저장**을 클릭합니다.
 
    - **IP 차단 목록**: **편집**을 클릭 합니다. **Ip 차단 목록** 플라이 아웃이 나타나면 **ip 허용 목록** 설정에 설명 된 대로 **주소 또는 주소 범위** 상자에 단일 IP, ip 범위 또는 CIDR IP를 입력 합니다.
 
-     IP 주소 또는 주소 범위를 추가 하려면 ![추가](../../media/ITPro-EAC-AddIcon.png)아이콘 **추가를 클릭 합니다** . 항목을 제거 하려면 **차단 된 IP 주소** 에서 항목을 선택 하 고 ![](../../media/scc-remove-icon.png)제거 **제거를 클릭 합니다** . 작업을 마친 후 **저장**을 클릭합니다.
+     IP 주소 또는 주소 범위를 추가 하려면 ![추가](../../media/ITPro-EAC-AddIcon.png)아이콘 **추가를 클릭 합니다** . 항목을 제거 하려면 **차단 된 IP 주소** 에서 항목을 선택 하 고 ![](../../media/scc-remove-icon.png)제거 **제거를 클릭 합니다** . 작업을 마쳤으면 **저장**을 클릭합니다.
 
    - **수신 허용 목록 설정**: 수신 허용 목록을 사용 하거나 사용 하지 않도록 설정 하 여 스팸 필터링을 건너뛸 알려진 적절 한 보낸 사람을 식별 합니다.
 
-4. 작업을 마친 후 **저장**을 클릭합니다.
+4. 작업을 마쳤으면 **저장**을 클릭합니다.
 
 ## <a name="use-the-security--compliance-center-to-view-the-default-connection-filter-policy"></a>보안 & 준수 센터를 사용 하 여 기본 연결 필터 정책 보기
 
@@ -176,9 +176,9 @@ Set-HostedConnectionFilterPolicy -Identity Default -IPAllowList @{Add="192.168.2
 
 IP 허용 목록에 있는 전자 메일 서버의 메시지는 여전히 다음과 같은 경우에 스팸 필터링의 영향을 받습니다.
 
-- 또한 IP 허용 목록의 IP 주소는 Office 365의 *모든* 테 넌 트에 있는 온-프레미스의 ip 기반 인바운드 커넥터 (이 테 넌 트 a 호출)에 **구성 되며, 테 넌** 트 a 및 office 365의 메시지가 처음 표시 되는 EOP 서버는 Microsoft 데이터 센터의 *동일한* Active Directory 포리스트에 있어야 합니다. 이 시나리오에서는 **IPV: CAL** *이 메시지* 의 [스팸 방지 메시지 헤더](anti-spam-message-headers.md) (스팸 필터링 바이패스 메시지를 나타냄)에 추가 되지만 메시지에 여전히 스팸 필터링이 적용 됩니다.
+- 또한 IP 허용 목록의 IP 주소는 Microsoft 365의 *모든* 테 넌 트에 있는 온-프레미스의 ip 기반 인바운드 커넥터, 즉이 테 넌 트 a를 호출 하 **고** , 테 넌 트 a 및 메시지를 처음으로 실행 하는 EOP 서버에서 microsoft 데이터 센터의 *동일한* Active Directory 포리스트에 있는 것 처럼 구성 됩니다. 이 시나리오에서는 **IPV: CAL** *이 메시지* 의 [스팸 방지 메시지 헤더](anti-spam-message-headers.md) (스팸 필터링 바이패스 메시지를 나타냄)에 추가 되지만 메시지에 여전히 스팸 필터링이 적용 됩니다.
 
-- Office 365에서 메시지가 처음 표시 되는 IP 허용 목록과 EOP 서버가 포함 된 테 넌 트가 Microsoft 데이터 센터의 *서로 다른* Active Directory 포리스트에 있을 것입니다. 이 시나리오에서는 **IPV: CAL** *이* 메시지 헤더에 추가 되지 않으므로 메시지에 여전히 스팸 필터링이 적용 됩니다.
+- IP 허용 목록을 포함 하는 테 넌 트와 처음에 메시지를 발견 하는 EOP 서버가 Microsoft 데이터 센터의 *서로 다른* Active Directory 포리스트에 있을 수 있습니다. 이 시나리오에서는 **IPV: CAL** *이* 메시지 헤더에 추가 되지 않으므로 메시지에 여전히 스팸 필터링이 적용 됩니다.
 
 이러한 시나리오 중 하나에 해당 하는 경우 다음 설정을 사용 하 여 메일 흐름 규칙을 만들어 문제가 발생 한 IP 주소의 메시지가 스팸 필터링을 건너뛰도록 할 수 있습니다.
 
@@ -190,4 +190,4 @@ IP 허용 목록에 있는 전자 메일 서버의 메시지는 여전히 다음
 
 ||
 |:-----|
-|![LinkedIn Learning용 단축 아이콘](../../media/eac8a413-9498-4220-8544-1e37d1aaea13.png) **Office 365를 처음 사용하시나요?** LinkedIn Learning에서 제공하는 **Office 365 admins and IT pros**의 무료 비디오 과정을 확인해보세요.|
+|![LinkedIn에 대 한 짧은 아이콘](../../media/eac8a413-9498-4220-8544-1e37d1aaea13.png) 은 **Microsoft 365를 처음으로 학습 하나요?** LinkedIn 학습을 통해 제공 되는 **관리자 및 IT 전문가**를 위한 무료 비디오 코스를 제공 합니다.|

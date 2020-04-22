@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 8310a9a57c8dc7406c0b1d56b20009b6400abcb1
-ms.sourcegitcommit: 3b2fdf159d7dd962493a3838e3cf0cf429ee2bf2
+ms.openlocfilehash: ec7f9083401fdf7a2114d99ddd2dcc009411e34b
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42928987"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43633510"
 ---
 # <a name="hunt-for-threats-across-devices-and-emails"></a>여러 장치 및 전자 메일에서 위협을 탐지
 
@@ -31,7 +31,7 @@ ms.locfileid: "42928987"
 
 
 
-Microsoft Threat Protection의 [고급 헌팅](advanced-hunting-overview.md)을 통해 Windows 장치 및 Office 365 전자 메일 전반에 걸쳐 위협을 사전에 헌팅할 수 있습니다. 다음은 장치와 전자 메일을 모두 포괄하는 쿼리를 구성하는 방법을 탐색하는 데 도움이 되는 몇 가지 헌팅 시나리오와 예제 쿼리입니다.
+Microsoft Threat Protection의 [고급 구하기](advanced-hunting-overview.md) 를 사용 하면 Windows 장치 및 Microsoft 전자 메일 전체에서 위협을 사전에 사냥 하는 데 도움이 됩니다. 다음은 장치와 전자 메일을 모두 포괄하는 쿼리를 구성하는 방법을 탐색하는 데 도움이 되는 몇 가지 헌팅 시나리오와 예제 쿼리입니다.
 
 ## <a name="obtain-user-accounts-from-email-addresses"></a>전자 메일 주소에서 사용자 계정 가져오기
 [장치와 전자 메일을 포함하는 테이블](advanced-hunting-schema-tables.md)에서 쿼리를 생성할 때 보낸 사람 또는 받는 사람 전자 메일 주소에서 사용자 계정 이름을 확인해야 할 수 있습니다. 이렇게 하려면 전자 메일 주소에서 *로컬 호스트*를 사용합니다.

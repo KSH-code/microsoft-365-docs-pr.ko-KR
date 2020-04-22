@@ -14,12 +14,12 @@ ms.collection: Ent_O365
 ms.custom: Ent_Solutions
 ms.assetid: 79a61003-4905-4ba8-9e8a-16def7add37c
 description: '요약: 이러한 절차를 사용 하 여 격리 된 SharePoint Online 팀 사이트를 관리 합니다.'
-ms.openlocfilehash: 59c86c869ed38c3e64ff19974660cf96ec4c715e
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: b5fe92f2653774b40eb227c9f8cbb57443fd51e2
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41599005"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635391"
 ---
 # <a name="manage-an-isolated-sharepoint-online-team-site"></a>격리된 SharePoint Online 팀 사이트 관리
 
@@ -37,9 +37,9 @@ ms.locfileid: "41599005"
     
 - 보기: 사이트 뷰어 액세스 그룹에 사용자 계정 추가
     
-AD DS (Active Directory 도메인 서비스)를 통해 사용자 계정 및 그룹을 관리 하는 경우 일반 AD DS 사용자 및 그룹 관리 절차를 사용 하 여 적절 한 사용자를 해당 액세스 그룹에 추가 하 고 Office 365와의 동기화를 기다립니다. 구독은.
+AD DS (Active Directory 도메인 서비스)를 통해 사용자 계정 및 그룹을 관리 하는 경우 일반 AD DS 사용자 및 그룹 관리 절차를 사용 하 여 적절 한 사용자를 해당 액세스 그룹에 추가 하 고 구독과 동기화를 기다립니다.
   
-Office 365을 통해 사용자 계정 및 그룹을 관리 하는 경우 Microsoft 365 관리 센터 또는 Microsoft PowerShell을 사용할 수 있습니다.
+Microsoft 365을 통해 사용자 계정 및 그룹을 관리 하는 경우 Microsoft 365 관리 센터 또는 Microsoft PowerShell을 사용할 수 있습니다.
   
 - Microsoft 365 관리 센터의 경우 사용자 계정 관리자 또는 회사 관리자 역할이 할당 된 사용자 계정으로 로그인 하 고 그룹을 사용 하 여 해당 하는 액세스 그룹에 적절 한 사용자를 추가 합니다.
     
@@ -69,7 +69,7 @@ Add-AzureADGroupMember -RefObjectId (Get-AzureADUser | Where { $_.DisplayName -e
     
 - 보기: 사이트 뷰어 액세스 그룹에 그룹 추가
     
-AD DS를 통해 사용자 계정 및 그룹을 관리 하는 경우 일반 AD DS 사용자 및 그룹 관리 절차를 사용 하 여 해당 그룹에 적절 한 그룹을 추가 하 고 Office 365 구독과의 동기화를 기다립니다.
+AD DS를 통해 사용자 계정 및 그룹을 관리 하는 경우 일반 AD DS 사용자 및 그룹 관리 절차를 사용 하 여 적절 한 그룹을 적절 한 그룹에 추가 하 고 구독과 동기화를 기다립니다.
   
 Office 365을 통해 사용자 계정 및 그룹을 관리 하는 경우 Microsoft 365 관리 센터 또는 PowerShell을 사용할 수 있습니다.
   
@@ -94,7 +94,7 @@ Add-AzureADGroupMember -RefObjectId (Get-AzureADGroup | Where { $_.DisplayName -
     
 - 보기: 사이트 뷰어 액세스 그룹에서 사용자 계정 제거
     
-AD DS를 통해 사용자 계정 및 그룹을 관리 하는 경우 일반 AD DS 사용자 및 그룹 관리 절차를 사용 하 여 적절 한 액세스 그룹에서 해당 사용자를 제거 하 고 Office 365 구독과 동기화를 기다립니다.
+AD DS를 통해 사용자 계정 및 그룹을 관리 하는 경우에는 일반 AD DS 사용자 및 그룹 관리 절차를 사용 하 여 적절 한 액세스 그룹에서 해당 사용자를 제거 하 고 구독과 동기화를 기다립니다.
   
 Office 365을 통해 사용자 계정 및 그룹을 관리 하는 경우 Microsoft 365 관리 센터 또는 PowerShell을 사용할 수 있습니다.
   
@@ -127,7 +127,7 @@ Remove-AzureADGroupMember -MemberId (Get-AzureADUser | Where { $_.DisplayName -e
     
 - 보기: 사이트 뷰어 액세스 그룹에서 그룹 제거
     
-Windows Server Active Directory를 통해 사용자 계정 및 그룹을 관리 하는 경우 일반 AD DS 사용자 및 그룹 관리 절차를 사용 하 여 적절 한 액세스 그룹에서 적절 한 그룹을 제거 하 고 Office 365와의 동기화를 기다립니다. 구독은.
+Windows Server Active Directory를 통해 사용자 계정 및 그룹을 관리 하는 경우 일반 AD DS 사용자 및 그룹 관리 절차를 사용 하 여 적절 한 액세스 그룹에서 해당 그룹을 제거 하 고 구독과 동기화를 기다립니다.
   
 Office 365을 통해 사용자 계정 및 그룹을 관리 하는 경우 Microsoft 365 관리 센터 또는 PowerShell을 사용할 수 있습니다.
   
@@ -148,7 +148,7 @@ Remove-AzureADGroupMember -MemberId (Get-AzureADGroup | Where { $_.DisplayName -
   
 사용자 지정 사용 권한을 사용 하 여 문서 하위 폴더를 만들려면 다음을 수행 합니다.
   
-1. 사이트에 대 한 관리자 액세스 그룹의 구성원 인 계정을 사용 하 여 Office 365에 로그인 합니다. 도움을 받으려면 [Office 365에 로그인하는 위치](https://support.office.com/article/e9eb7d51-5430-4929-91ab-6157c5a050b4)를 참조하십시오.
+1. 사이트에 대 한 관리자 액세스 그룹의 구성원 인 계정에 로그인 합니다. 도움이 필요 하면 [Microsoft 365에 로그인 하는 위치](https://support.office.com/article/e9eb7d51-5430-4929-91ab-6157c5a050b4)를 참조 하세요.
     
 2. 격리 된 팀 사이트로 이동 하 여 **문서**를 클릭 합니다.
     

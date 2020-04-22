@@ -1,5 +1,5 @@
 ---
-title: Office 365의 아웃 바운드 스팸 방지
+title: 아웃바운드 스팸 검색
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -16,31 +16,31 @@ search.appverid:
 ms.assetid: 6a601501-a6a8-4559-b2e7-56b59c96a586
 ms.collection:
 - M365-security-compliance
-description: 관리자는 Office 365 및 EOP (Exchange Online Protection)에서 고객을 아웃 바운드 스팸으로 보호 하는 방법과 대량 메일을 보내는 데 필요한 경우 수행할 작업에 대해 알아봅니다.
-ms.openlocfilehash: 99e764944335be923ee1918851d4072ea98d3a32
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+description: 관리자는 Microsoft 365 및 EOP (Exchange Online Protection)에서 고객을 아웃 바운드 스팸으로 보호 하는 방법과 대량 메일을 보내는 데 필요한 경우 수행할 작업에 대해 알아봅니다.
+ms.openlocfilehash: 71fe5d5ba1ffbecc77b646a06c3da4d9681ee3ea
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42895326"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634499"
 ---
-# <a name="outbound-spam-protection-in-office-365"></a>Office 365의 아웃 바운드 스팸 방지
+# <a name="outbound-spam-protection"></a>아웃바운드 스팸 검색
 
-Exchange Online 사서함 없이 Office 365 (Exchange online 또는 독립 실행형 Exchange Online Protection)가 공유 리소스 풀을 사용 하는 온라인 서비스인 경우에는 아웃 바운드 스팸을 심각 하 게 관리할 수 있습니다. Office 365 고객이 고의적으로 또는 실수로 조직에서 스팸을 보내는 경우 전체 서비스의 신뢰도를 떨어뜨릴 수 있으며 다른 고객의 전자 메일 배달에 영향을 줄 수 있습니다.
+365 Microsoft는 exchange Online 사서함 없이 Exchange online 또는 독립 실행형 EOP (exchange online Protection)가 공유 리소스 풀을 사용 하는 온라인 서비스인 경우에는 아웃 바운드 스팸을 심각 하 게 관리 합니다. Microsoft 365 고객이 고의적으로 또는 실수로 조직에서 스팸을 보내는 경우 전체 서비스의 신뢰도를 떨어뜨릴 수 있으며 다른 고객의 전자 메일 배달에 영향을 줄 수 있습니다.
 
 이 항목에서는 아웃 바운드 스팸을 방지 하는 데 도움이 되는 컨트롤 및 알림과 대량 메일을 보내는 데 필요한 경우 수행할 수 있는 작업에 대해 설명 합니다.
 
 ## <a name="what-admins-can-do-to-control-outbound-spam"></a>아웃 바운드 스팸 제어를 위해 관리자가 수행할 수 있는 작업
 
-- **기본 제공 알림 사용**: 사용자가 [서비스](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#sending-limits-across-office-365-options) 또는 [아웃 바운드 스팸 정책의](configure-the-outbound-spam-policy.md) 한도를 초과 하 여 전자 메일을 보낼 수 없는 경우 **전자 메일을 보내는 사용자가 제한** 된 기본 경고 정책이 **tenantadmins** (**Global admins**) 그룹의 구성원에 게 전자 메일 알림을 보냅니다. 이러한 알림을 받는 사람을 구성 하려면 [제한 된 사용자에 대 한 알림 설정 확인](removing-user-from-restricted-users-portal-after-spam.md#verify-the-alert-settings-for-restricted-users)을 참조 하십시오. 또한 **전자 메일 보내기 제한 초과** 및 **의심 스러운 전자 메일 보내기 패턴** 으로 인해 **tenantadmins** (**Global admins**) 그룹의 구성원에 게 전자 메일 알림이 전송 됩니다. 경고 정책에 대 한 자세한 내용은 [보안 및 준수 센터의 경고 정책을](../../compliance/alert-policies.md)참조 하세요.
+- **기본 제공 알림 사용**: 사용자가 [서비스](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#sending-limits-across-office-365-options) 또는 [아웃 바운드 스팸 정책의](configure-the-outbound-spam-policy.md) 한도를 초과 하 여 전자 메일을 보낼 수 없는 경우 **전자 메일을 보내는 사용자가 제한** 된 기본 경고 정책이 **tenantadmins** (**Global admins**) 그룹의 구성원에 게 전자 메일 알림을 보냅니다. 이러한 알림을 받는 사람을 구성 하려면 [제한 된 사용자에 대 한 알림 설정 확인](removing-user-from-restricted-users-portal-after-spam.md#verify-the-alert-settings-for-restricted-users)을 참조 하십시오. 또한 **전자 메일 보내기 제한 초과** 및 **의심 스러운 전자 메일 보내기 패턴** 으로 인해 **tenantadmins** (**Global admins**) 그룹의 구성원에 게 전자 메일 알림이 전송 됩니다. 경고 정책에 대한 자세한 내용은 [보안 및 규정 준수 센터의 경고 정책](../../compliance/alert-policies.md)을 참조하세요.
 
-- 타사 **전자 메일 공급자의 스팸 불만 사항 검토**: 서비스의 사용자가 Office 365에서 스팸으로 전자 메일을 표시 하는 경우 메시지를 패키지화 하 여 검토를 위해 다시 전송 하는 Outlook.com, YAHOO 및 AOL 등의 전자 메일 서비스가 제공 됩니다. Outlook.com에 대 한 보낸 사람 지원에 대해 자세히 알아보려면 <https://sendersupport.olc.protection.outlook.com/pm/services.aspx>로 이동 합니다.
+- 타사 **전자 메일 공급자의 스팸 불만 사항 검토**: 서비스의 사용자가 Microsoft 365에서 스팸으로 전자 메일을 표시할 경우 메시지는 패키지화 되 고 검토를 위해 다시 전송 됩니다. Outlook.com에 대 한 보낸 사람 지원에 대해 자세히 알아보려면 <https://sendersupport.olc.protection.outlook.com/pm/services.aspx>로 이동 합니다.
 
 ## <a name="how-eop-controls-outbound-spam"></a>EOP에서 아웃 바운드 스팸을 제어 하는 방법
 
 - **조각화 아웃 바운드 전자 메일 트래픽**:이 서비스를 통해 전송 되는 모든 아웃 바운드 메시지는 스팸을 검색 합니다. 메시지가 스팸으로 확인 되 면 _위험성이 높은 배달 풀_이라는 보조 신뢰할 수 없는 IP 주소 풀에서 배달 됩니다. 자세한 내용은 [Office 365에서 아웃 바운드 메시지에 대 한 위험성이 높은 배달 풀](high-risk-delivery-pool-for-outbound-messages.md)을 참조 하세요.
 
-- **원본 IP 주소 신뢰도 모니터링**: Office 365에서 다양 한 타사 IP 차단 목록을 쿼리 합니다. 아웃 바운드 전자 메일에 사용 하는 IP 주소가 이러한 목록에 표시 되 면 경고가 생성 됩니다. 이를 통해 스팸에 대 한 신뢰가 저하 되는 경우 신속 하 게 대응할 수 있습니다. 경고가 생성 되 면 차단 목록에서 IP 주소 제거 (delisted)를 받는 방법을 설명 하는 내부 설명서가 제공 됩니다.
+- **원본 IP 주소 신뢰도 모니터링**: Microsoft 365에서는 다양 한 타사 IP 차단 목록을 쿼리 합니다. 아웃 바운드 전자 메일에 사용 하는 IP 주소가 이러한 목록에 표시 되 면 경고가 생성 됩니다. 이를 통해 스팸에 대 한 신뢰가 저하 되는 경우 신속 하 게 대응할 수 있습니다. 경고가 생성 되 면 차단 목록에서 IP 주소 제거 (delisted)를 받는 방법을 설명 하는 내부 설명서가 제공 됩니다.
 
 - **스팸이 너무 많이 전송 되는 계정을 사용 하지 않도록 설정**<sup>\*</sup>합니다. 아웃 바운드 스팸을 높은 위험 배달 풀로 분리 하더라도 계정 (대개 손상 된 계정)을 허용 하 여 스팸을 무한정 보낼 수는 없습니다. 스팸 메일을 보내는 계정을 모니터링 하 고 사용자가 undisclosed 한도를 초과 하는 경우 해당 계정에 전자 메일이 전송 되지 않도록 차단 됩니다. 개별 사용자와 전체 테 넌 트에 대 한 임계값이 서로 다릅니다.
 
@@ -50,7 +50,7 @@ Exchange Online 사서함 없이 Office 365 (Exchange online 또는 독립 실�
 
 ## <a name="recommendations-for-customers-who-want-to-send-mass-mailings-through-eop"></a>EOP를 통해 대량 메일을 전송 하려는 고객을 위한 권장 사항
 
-많은 수의 전자 메일을 보내려고 하는 고객 간의 균형을 맞추기 하기 어렵고, 손상 된 계정 및 대량 전자 메일 보낸 사람에 게는 적절 하지 않은 받는 사람 가져오기 방법으로 서비스를 보호 합니다. 타사 IP 차단 목록에 있는 Office 365 전자 메일 원본의 비용은 너무 많은 전자 메일을 보내는 사용자를 차단 하는 것 보다 더 큽니다.
+많은 수의 전자 메일을 보내려고 하는 고객 간의 균형을 맞추기 하기 어렵고, 손상 된 계정 및 대량 전자 메일 보낸 사람에 게는 적절 하지 않은 받는 사람 가져오기 방법으로 서비스를 보호 합니다. 타사 IP 차단 목록에서 Microsoft 365 전자 메일 원본의 방문 비용은 너무 많은 전자 메일을 보내는 사용자를 차단 하는 것 보다 더 큽니다.
 
 [Exchange Online 서비스 설명](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits)에 설명 된 것 처럼 EOP을 사용 하 여 대량 전자 메일을 보내는 것은 지원 되는 서비스 사용이 아니며, "최고 작업량" 으로만 허용 됩니다. 대량 전자 메일을 보내는 고객의 경우 다음 솔루션을 권장 합니다.
 

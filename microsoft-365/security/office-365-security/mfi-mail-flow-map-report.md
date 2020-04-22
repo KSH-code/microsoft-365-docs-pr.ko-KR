@@ -11,22 +11,22 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: ''
 description: 관리자는 보안 & 준수 센터의 메일 흐름 대시보드에 있는 메일 흐름 맵 보고서에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: 11d605047b66751636ffce69ffff5c198f039fc7
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: f5441a5c775cb9cadb6e9c631adc988f807d8592
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42088537"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635295"
 ---
 # <a name="mail-flow-map-report"></a>메일 흐름 맵 보고서
 
-이 보고서는 Office 365 조직에서 메일이 흐르는 방식에 대 한 정보를 제공 합니다. 이 정보를 사용 하 여 패턴을 파악 하 고, 상황을 식별 하 고, 문제가 발생할 경우 문제를 해결할 수 있습니다.
+이 보고서는 조직에서 메일을 전송 하는 방법에 대 한 정보를 제공 합니다. 이 정보를 사용 하 여 패턴을 파악 하 고, 상황을 식별 하 고, 문제가 발생할 경우 문제를 해결할 수 있습니다.
 
 ![보안 & 준수 센터의 메일 흐름 대시보드의 메일 흐름 맵 보고서](../../media/mail-flow-map-selected.png)
 
 ## <a name="mail-flow-map-widget"></a>메일 흐름 맵 위젯
 
-기본적으로 메일 흐름 맵은 이전 날의 메일 흐름 패턴을 상위 수준으로 표시 합니다. 각 요일에 대해 왼쪽 및 오른쪽 화살표를 사용할 수 있습니다. 보고서의 각 영역 위에 마우스 커서를 놓으면 다음 다이어그램에 표시 된 것 처럼 Office 365 조직에서 보내고 받게 되는 메일의 양이 표시 됩니다.
+기본적으로 메일 흐름 맵은 이전 날의 메일 흐름 패턴을 상위 수준으로 표시 합니다. 각 요일에 대해 왼쪽 및 오른쪽 화살표를 사용할 수 있습니다. 보고서의 각 영역 위에 마우스 커서를 놓으면 다음 다이어그램에 나와 있는 것 처럼 조직에서 보내고 받을 메일의 양이 표시 됩니다.
 
 ![메일 흐름 맵 위젯의 왼쪽 및 오른쪽 화살표](../../media/mail-flow-map-widget.png)
 

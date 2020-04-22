@@ -1,5 +1,5 @@
 ---
-title: Office 365 Advanced Threat Protection에서 자동화 된 조사 및 응답과 함께 손상 되는 사용자 계정을 해결 합니다.
+title: 자동 조사 및 응답을 통해 손상 된 사용자 계정 처리
 keywords: AIR, autoIR, ATP, 자동화, 조사, 대응, 재구성, 위협, 고급, 위협, 보호, 손상
 ms.author: deniseb
 author: denisebmsft
@@ -14,12 +14,12 @@ search.appverid:
 ms.collection: M365-security-compliance
 ms.date: 02/25/2020
 description: Office 365 Advanced Threat Protection 계획 2의 자동화 된 조사 및 응답 기능을 사용 하 여 공격에 노출 된 사용자 계정을 검색 하 고 해결 하는 프로세스를 빠르게 진행 하는 방법을 알아봅니다.
-ms.openlocfilehash: e5444b0b628be9acba029829b6fbb275b9c2f554
-ms.sourcegitcommit: 6d672eb8287526a9db90df5fa85bc4984a7047d1
+ms.openlocfilehash: 60e9009ff77ebb58794ad7feaf522e1c6efc3039
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "42280216"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635775"
 ---
 # <a name="address-compromised-user-accounts-with-automated-investigation-and-response"></a>자동 조사 및 응답을 통해 손상 된 사용자 계정 처리
 
@@ -60,7 +60,7 @@ ms.locfileid: "42280216"
 
 ### <a name="view-and-investigate-restricted-users"></a>제한 된 사용자 보기 및 조사
 
-제한 된 사용자 목록으로 이동 하기 위한 몇 가지 옵션을 사용할 수 있습니다. 예를 들어 Office 365 보안 & 준수 센터에서는 **위협 관리** > **검토** > **제한 된 사용자**로 이동할 수 있습니다. 다음 절차에서는 **알림** 대시보드를 사용 하 여 탐색에 대해 설명 하므로 트리거된 것일 수 있는 다양 한 종류의 경고를 확인 하는 데 유용 합니다.
+제한 된 사용자 목록으로 이동 하기 위한 몇 가지 옵션을 사용할 수 있습니다. 예를 들어 보안 & 준수 센터에서는 **위협 관리** > **검토** > **제한 된 사용자**로 이동할 수 있습니다. 다음 절차에서는 **알림** 대시보드를 사용 하 여 탐색에 대해 설명 하므로 트리거된 것일 수 있는 다양 한 종류의 경고를 확인 하는 데 유용 합니다.
 
 1. [https://protection.office.com](https://protection.office.com)으로 이동하여 로그인합니다.
 
@@ -74,7 +74,7 @@ ms.locfileid: "42280216"
 
 ### <a name="view-details-about-automated-investigations"></a>자동화 된 조사에 대 한 세부 정보 보기
 
-자동 조사가 시작 되 면 Office 365 보안 & 준수 센터에서 해당 세부 정보와 결과를 볼 수 있습니다. **위협 관리** > **조사**로 이동한 다음 조사를 선택 하 여 세부 정보를 확인 합니다.
+자동 조사가 시작 되 면 보안 & 준수 센터에서 해당 세부 정보와 결과를 볼 수 있습니다. **위협 관리** > **조사**로 이동한 다음 조사를 선택 하 여 세부 정보를 확인 합니다.
 
 자세한 내용은 [조사의 세부 정보 보기](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-view-investigation-results)를 참조 하세요.
 

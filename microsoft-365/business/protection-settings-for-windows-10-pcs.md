@@ -21,19 +21,19 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: bd66c26c-73a4-45a8-8642-3ea4ee7cd89d
-description: Microsoft 365 Business에서 사용할 수 있는 기본 및 기타 설정에 대해 설명 하 고 Windows 10 장치를 보호 합니다.
-ms.openlocfilehash: 1b424fe6a85ad23b2914ea29f47d1dc16b333c94
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: 비즈니스용 Microsoft 365에서 사용할 수 있는 기본 및 기타 설정에 대해 설명 하 고 Windows 10 장치를 보호 합니다.
+ms.openlocfilehash: a3b7f0a8572a215491b32101a30c306b54571b6f
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42064970"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43633020"
 ---
 # <a name="set-device-protection-settings-for-windows-10-pcs"></a>Windows 10 PC에서 장치 보호 설정 설정하기
 
 ## <a name="secure-windows-10-devices"></a>Windows 10 장치 보안
 
-Microsoft 365 Business를 사용하여 Windows 10 장치를 안전하게 보호하는 방법에 대한 비디오를 시청하세요.
+Microsoft 365 for business를 사용 하 여 Windows 10 장치를 보호 하는 방법에 대 한 비디오를 확인 하세요.
   
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/a5734146-620a-4cec-8618-536b3ca37972?autoplay=false]
   
@@ -59,7 +59,7 @@ Microsoft 365 Business를 사용하여 Windows 10 장치를 안전하게 보호�
 
 모든 설정의 기본값은 **켬**입니다. 다음과 같은 설정을 사용할 수 있습니다.
   
-자세한 내용은 [Microsoft 365 Business의 보호 기능을 Intune 설정에 매핑하는 방법](map-protection-features-to-intune-settings.md)을 참조하세요. 
+자세한 내용은 [Microsoft 365 Premium의 보호 기능을 Intune 설정에 매핑하는 방법을](map-protection-features-to-intune-settings.md)참조 하세요. 
   
 |||
 |:-----|:-----|

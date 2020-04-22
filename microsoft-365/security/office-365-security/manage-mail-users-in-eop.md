@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 4bfaf2ab-e633-4227-8bde-effefb41a3db
 description: 메일 사용자 정의는 EOP(Exchange Online Protection) 서비스 관리의 중요한 부분입니다.
-ms.openlocfilehash: bdbc3cd54901d53b4a7d01bcf513a9b9a0df1c01
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: 56827e29872c6a6ffd14821af8e2d9ea005ff20c
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42633796"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635583"
 ---
 # <a name="manage-mail-users-in-eop"></a>EOP에서 메일 사용자 관리
 
@@ -53,7 +53,7 @@ ms.locfileid: "42633796"
 
 이 섹션에서는 디렉터리 동기화를 사용하여 전자 메일 사용자를 관리하는 방법에 대해 설명합니다.
 
-**참고**:
+**참고:**
 
 - 디렉터리 동기화를 사용 하 여 받는 사람을 관리 하는 경우에도 Microsoft 365 관리 센터에서 사용자를 추가 및 관리할 수 있지만 온-프레미스 Active Directory와 동기화 되지 않습니다. 디렉터리 동기화는 온-프레미스 Active Directory **의** 받는 사람만 클라우드 **로** 동기화 하기 때문입니다.
 
@@ -63,7 +63,7 @@ ms.locfileid: "42633796"
 
   - **Dbeb (디렉터리 기반 Edge 차단)**: dbeb에 대 한 자세한 내용은 [Use Directory Based Edge 차단은 잘못 된 받는 사람에 게 보낸 메시지를 거부](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-directory-based-edge-blocking)합니다 .를 참조 하세요.
 
-  - **최종 사용자 스팸 격리**: 최종 사용자 스팸 격리에 액세스 하려면 최종 사용자에 게 유효한 Office 365 사용자 ID 및 암호가 있어야 합니다. 온-프레미스 사서함을 보호하는 EOP 고객은 유효한 전자 메일 사용자여야 합니다.
+  - **최종 사용자 스팸 격리**: 최종 사용자 스팸 격리에 액세스 하려면 최종 사용자에 게 유효한 사용자 ID와 암호가 있어야 합니다. 온-프레미스 사서함을 보호하는 EOP 고객은 유효한 전자 메일 사용자여야 합니다.
 
   - **메일 흐름 규칙**: 디렉터리 동기화를 사용 하는 경우 기존 Active directory 사용자 및 그룹이 클라우드로 자동 업로드 되 고, EAC 또는 Exchange Online Protection PowerShell을 통해 해당 사용자 및/또는 그룹을 수동으로 추가 하지 않고도 특정 사용자나 그룹이 대상으로 지정 되는 메일 흐름 규칙 (전송 규칙이 라고도 함)을 만들 수 있습니다. [동적 메일 그룹](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-dynamic-distribution-groups/manage-dynamic-distribution-groups) 은 디렉터리 동기화를 통해 동기화 할 수 없습니다.
 
@@ -126,7 +126,7 @@ ms.locfileid: "42633796"
 
 - 외부 전자 메일 주소는 jzeng@tailspintoys.com입니다.
 
-- Office 365 로그인 이름은 jeffreyz@contoso.onmicrosoft.com입니다.
+- Microsoft 365 로그인 이름은 jeffreyz@contoso.onmicrosoft.com입니다.
 
 - 암호는 Pa$$word1입니다.
 

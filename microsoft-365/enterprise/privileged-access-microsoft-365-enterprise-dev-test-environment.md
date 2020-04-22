@@ -15,12 +15,12 @@ ms.collection:
 - M365-security-compliance
 ms.custom: Ent_TLGs
 description: 이 테스트 랩 가이드를 사용 하 여 Microsoft 365 Enterprise Test environment 권한 있는 액세스 관리를 사용 하도록 설정 합니다.
-ms.openlocfilehash: ce637b94333f088d25e479e61ad2a98176a2f7c6
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 27f63de138f388b0dcbc1bc896bafcb9abc9ed6a
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42085377"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632866"
 ---
 # <a name="privileged-access-management-for-your-microsoft-365-enterprise-test-environment"></a>Microsoft 365 Enterprise 테스트 환경에 대한 권한이 부여된 액세스 관리
 
@@ -46,7 +46,7 @@ ms.locfileid: "42085377"
 
 이 단계에서는 승인자 그룹을 구성 하 고 Microsoft 365 Enterprise 테스트 환경에 대해 권한이 부여 된 액세스 관리를 사용 하도록 설정 합니다. 권한 있는 액세스 관리에 대 한 자세한 내용 및 개요는 [Office 365의 권한이 부여 된 액세스 관리](https://docs.microsoft.com/office365/securitycompliance/privileged-access-management-overview)를 참조 하세요.
 
-Office 365 조직에서 권한 있는 액세스를 설정 및 사용 하려면 다음 단계를 수행 합니다.
+조직에서 권한 있는 액세스를 설정 및 사용 하려면 다음 단계를 수행 합니다.
 
 - [1 단계: 승인자 그룹 만들기](https://docs.microsoft.com/microsoft-365/compliance/privileged-access-management-configuration#step-1-create-an-approvers-group)
 
@@ -54,7 +54,7 @@ Office 365 조직에서 권한 있는 액세스를 설정 및 사용 하려면 �
 
 - [2 단계: 권한 있는 액세스 사용](https://docs.microsoft.com/microsoft-365/compliance/privileged-access-management-configuration#step-2-enable-privileged-access)
 
-    권한 있는 액세스는 Office 365에서 기본 승인자 그룹을 사용 하 고 권한 있는 액세스 관리 액세스 제어에서 제외할 시스템 계정 집합을 포함 하 여 명시적으로 설정 해야 합니다. 이 가이드의 3 단계를 시작 하기 전에 Office 365 조직에서 권한이 부여 된 액세스를 사용 하도록 설정 해야 합니다.
+    권한 있는 액세스는 Office 365에서 기본 승인자 그룹을 사용 하 고 권한 있는 액세스 관리 액세스 제어에서 제외할 시스템 계정 집합을 포함 하 여 명시적으로 설정 해야 합니다. 이 가이드의 3 단계를 시작 하기 전에 조직에서 권한이 부여 된 액세스를 사용 하도록 설정 해야 합니다.
 
 ## <a name="phase-3-verify-that-approval-is-required-for-elevated-and-privileged-tasks"></a>3 단계: 관리자 권한 및 권한 있는 작업에 대 한 승인이 필요한 지 확인
 

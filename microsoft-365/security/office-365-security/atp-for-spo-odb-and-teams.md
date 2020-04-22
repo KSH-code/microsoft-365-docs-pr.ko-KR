@@ -1,5 +1,5 @@
 ---
-title: SharePoint, OneDrive 및 Microsoft Teams에 대한 Office 365 ATP
+title: SharePoint, OneDrive 및 Microsoft Teams에 대한 ATP
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -18,14 +18,14 @@ ms.collection:
 - M365-security-compliance
 - SPO_Content
 description: Office 365 Advanced Threat Protection을 SharePoint Online, 비즈니스용 OneDrive 그리고 Microsoft Teams의 파일에까지 확장하여 조직의 더욱 안전한 협업을 가능하게 하십시오.
-ms.openlocfilehash: 3105a9443ddab483bc5ac4037e5260b354d64de9
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 4c64a4934a472fa5c6ac0f1f718d63300560f6c8
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42086641"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636025"
 ---
-# <a name="office-365-atp-for-sharepoint-onedrive-and-microsoft-teams"></a>SharePoint, OneDrive 및 Microsoft Teams에 대한 Office 365 ATP
+# <a name="atp-for-sharepoint-onedrive-and-microsoft-teams"></a>SharePoint, OneDrive 및 Microsoft Teams에 대한 ATP
 
 ## <a name="overview-of-office-365-atp-for-sharepoint-onedrive-and-microsoft-teams"></a>SharePoint, OneDrive 및 Microsoft Teams에 대한 Office 365 ATP의 개요
 
@@ -41,7 +41,7 @@ SharePoint 온라인, 비즈니스용 OneDrive, Microsoft teams에서의 파일�
 
 ![OneDrive 모바일 앱의 비즈니스용 OneDrive에서 차단된 파일 삭제](../../media/cb1c1705-fd0a-45b8-9a26-c22503011d54.png)
 
-Office 365의 구성 방식에 따라 사용자는 차단된 파일을 다운로드하거나 하지 못할 수 있습니다. 사용자의 모바일 장치에서 차단된 파일을 다운로드하는 스크린샷은 다음과 같습니다:
+Microsoft 365이 구성 된 방식에 따라 사용자에 게 차단 된 파일을 다운로드 하는 기능이 있거나 없을 수 있습니다. 차단 된 파일을 다운로드 하는 작업은 사용자의 모바일 장치에 표시 되는 것과 같습니다.
 
 ![비즈니스용 OneDrive에서 차단된 파일 다운로드](../../media/be288a82-bdd8-4371-93d8-1783db3b61bc.png)
 
@@ -65,7 +65,7 @@ Office 365의 구성 방식에 따라 사용자는 차단된 파일을 다운로
 
 SharePoint Online, 비즈니스용 OneDrive 및 Microsoft Teams의 파일이 악성으로 확인될 시 ATP가 파일을 열거나 공유하지 못하도록 차단하는 조치 외에도 해당 파일은 검역 항목 목록에 포함이 됩니다. (보안&amp; 준수 센터에서 **위협 관리** \> **검토** \> **검역** 및 **콘텐츠** 필터링을 선택합니다.)
 
-귀하가 조직의 Office 365 보안팀의 구성원이고 필요한 [Office 365 보안 &amp;준수 센터](permissions-in-the-security-and-compliance-center.md)에 할당되는 사용 권한을 보유하고 있는 경우, 검역소에서 ATP를 통해 악성으로 확인된 파일을 다운로드, 공개, 보고 및  삭제할 수 있습니다.
+조직의 Microsoft 365 비즈니스 보안 팀에 참여 하 고 [보안 &amp; 및 준수 센터에서 필요한 사용 권한을](permissions-in-the-security-and-compliance-center.md)부여 하는 경우 ATP에서 악의적으로 검색 된 파일을 격리에서 다운로드, 릴리스, 보고 및 삭제할 수 있습니다.
 
 - 파일을 **출시 및 보고** 시 해당 팀 사이트 또는 SharePoint, OneDrive의 문서 라이브러리 또는 Microsoft Teams의 파일에 있는 ATP 블록이 제거됩니다. 이후 사용자는 해당 파일의 열기, 공유 및 다운로드를 할 수 있게 됩니다. **Microsoft에 보고서 보내기** 옵션을 선택 시 해당 파일은 Microsoft에 가양성으로 보고됩니다.
 

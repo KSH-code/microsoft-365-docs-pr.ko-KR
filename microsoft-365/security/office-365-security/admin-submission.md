@@ -1,5 +1,5 @@
 ---
-title: Office 365, O365 전송, Office 365 스팸 문제, O365 가양성, 검색을 위한 전자 메일 전송, office 365에서 의심 스러운 전자 메일, 메일 검색, 365 피싱에 대 한 Microsoft 검색, Microsoft scan for 피싱, submit for 스팸, 제출 전자 메일, 전송 전자 메일, dodgy 전자 메일, 잘못 된 작업자 메일, 의심 스러운, 신뢰할 수 없는 메일, 보고서 피싱 전자 메일을 microsoft에 보고 하 고 microsoft에 게 microsoft에 사기 전자 메일 신고 받은 편지함의 전자 메일 office 365, 전자 메일 office 365의 바이러스
+title: 관리자 전송, 전송, 스팸 문제, 거짓 네거티브, 피싱 제출, 검색을 위한 전자 메일 제출, Office 365에서 의심 스러운 전자 메일, microsoft에 대 한 바이러스 검색, 전자 메일 제출, microsoft에 피싱, dodgy 전자 메일, 불법 작업자 메일, 보고서 피싱 전자 메일로 microsoft에 microsoft에 게 보고 피싱 전자 메일의 맬웨어를 Microsoft에 보고 하 고 받은 편지함의 스팸 전자 메일에서 전자 메일에 바이러스를 신고 합니다.
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -14,17 +14,17 @@ search.appverid:
 - MET150
 ms.collection:
 - M365-security-compliance
-description: Office 365 테 넌 트에서 의심 스러운 전자 메일, 의심 스러운 메일, 스팸 및 기타 해로운 메시지, Url 및 파일을 검색을 위해 Microsoft에 제출 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 539d09f03a8a9c5956f2d1e3584f893b0e4ffbb4
-ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
+description: 회사의 의심 스러운 전자 메일, 의심 스러운 메일, 스팸 및 기타 해로운 메시지, Url 및 파일을 검색을 위해 Microsoft에 제출 하는 방법에 대해 알아봅니다.
+ms.openlocfilehash: 2d86555854f9babd202764f1bad8b548daf52c70
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43033617"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631384"
 ---
-# <a name="use-admin-submission-to-submit-suspected-spam-phish-urls-and-files-to-microsoft"></a>관리자 제출을 사용 하 여 의심 스러운 스팸, 피싱, Url 및 파일을 Microsoft에 제출
+# <a name="use-admin-submission-to-submit-suspected-spam-phish-urls-and-files-to-microsoft"></a>관리자 제출을 사용하여 의심스러운 스팸, 피싱, URL 및 파일을 Microsoft에 제출
 
-Exchange Online의 사서함이 있는 Office 365 조직의 관리자 인 경우 Office 365 보안 & 준수 센터의 전송 포털을 사용 하 여 검색을 위해 전자 메일 메시지, Url 및 첨부 파일을 Microsoft에 제출할 수 있습니다.
+Exchange Online의 사서함이 있는 Microsoft 365 조직의 관리자 인 경우 보안 & 준수 센터의 전송 포털을 사용 하 여 검색을 위해 Microsoft에 전자 메일 메시지, Url 및 첨부 파일을 제출할 수 있습니다.
 
 전자 메일을 제출 하면 메일에 포함 된 Url 및 첨부 파일을 검사 하는 것은 물론 수신 전자 메일을 허용 했을 수 있는 모든 정책에 대 한 정보를 받게 됩니다. 메일을 허용할 수 있는 정책에는 개별 사용자의 수신 허용-보낸 사람 목록 뿐 아니라 Exchange 메일 흐름 규칙 (전송 규칙이 라고도 함)과 같은 테 넌 트 수준 정책이 포함 됩니다.
 
@@ -32,15 +32,15 @@ Exchange Online의 사서함이 있는 Office 365 조직의 관리자 인 경우
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
 
-- <https://protection.office.com/>에서 보안 및 규정 준수 센터를 엽니다. **제출** 페이지로 바로 이동 하려면을 사용 <https://protection.office.com/reportsubmission>합니다.
+- <https://protection.office.com/>에서 보안 및 준수 센터를 엽니다. **제출** 페이지로 바로 이동 하려면을 사용 <https://protection.office.com/reportsubmission>합니다.
 
 - Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결하기](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell)를 참조하세요. Exchange Online Protection PowerShell에 연결하려면 [Exchange Online Protection PowerShell에 연결하기](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell)를 참조하세요.
 
-- 이 절차를 수행하려면 먼저 사용 권한을 할당 받아야 합니다. 스팸 방지 정책을 추가, 수정 및 삭제 하려면 **조직 관리**, **보안 관리자**또는 **보안 독자** 역할 그룹의 구성원 이어야 합니다. 보안 및 규정 준수 센터의 역할 그룹에 대한 자세한 내용은 [Office 365 보안 및 규정 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)을 참조하세요.
+- 이 절차를 수행하려면 먼저 사용 권한을 할당 받아야 합니다. 스팸 방지 정책을 추가, 수정 및 삭제 하려면 **조직 관리**, **보안 관리자**또는 **보안 독자** 역할 그룹의 구성원 이어야 합니다. 보안 & 준수 센터의 역할 그룹에 대 한 자세한 내용은 [보안 & 준수 센터의 사용 권한을](permissions-in-the-security-and-compliance-center.md)참조 하세요.
 
 - 사용자가 메시지 및 파일을 Microsoft에 전송 하는 방법에 대 한 자세한 내용은 [Report 메시지 및 파일을 microsoft에](report-junk-email-messages-to-microsoft.md)참고 하십시오.
 
-## <a name="how-to-direct-suspicious-content-to-microsoft-for-office-365-scanning"></a>Office 365 스캐닝을 위해 의심 스러운 콘텐츠를 Microsoft에 게 전달 하는 방법
+## <a name="how-to-direct-suspicious-content-to-microsoft-scanning"></a>의심 스러운 콘텐츠를 Microsoft 검색으로 전달 하는 방법
 
 Microsoft로 콘텐츠를 전송 하려면 제출 페이지의 왼쪽 위에 있는 **새 제출** 단추를 클릭 합니다. 전자 메일, URL 또는 파일을 전송 하는 옵션을 사용 하 여 페이지 오른쪽에 플라이 아웃이 표시 됩니다.
 

@@ -19,18 +19,18 @@ search.appverid:
 - MET150
 - MOE150
 - BEA160
-description: '서로 다른 지역에서 비즈니스용 Office 365 구독에 대해 부과할 세금을 확인할 수 있습니다. '
+description: '다른 지역의 Microsoft 365 비즈니스 에디션 구독에 대해 부과할 세금을 확인할 수 있습니다. '
 ms.custom: okr_SMB
-ms.openlocfilehash: f437e2f58797f3cc092b50611f34ecb2ce9cf3b0
-ms.sourcegitcommit: 2859c82b30ae9cbd3a3e4bcdebd65f18444f1a9e
+ms.openlocfilehash: e65dc15237cb14959a68a7413227cec2a3163d60
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42826316"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635007"
 ---
 # <a name="tax-information"></a>세금 정보
 
-Microsoft 365 관리 센터 구입에 대 한 세금은 회사 주소로 결정 되거나, 다른 경우 배송 주소를 통해 확인 됩니다. 미국에 있는 경우에는 (FEIN) 연방 고용주 식별 번호를 제공 해야 합니다.
+Microsoft를 통해 구입한 Microsoft 365 관리 센터에 대한 세금은 사용자의 비즈니스 주소 또는 다른 경우에는 배송 주소에 따라 결정됩니다. 미국에 있는 경우에는 (FEIN) 연방 고용주 식별 번호를 제공 해야 합니다.
 
 이러한 국가의 기업은 VAT 번호를 제공 합니다.
 
@@ -128,7 +128,7 @@ Microsoft 365 관리 센터 구입에 대 한 세금은 회사 주소로 결정 
 
 #### <a name="add-your-vat-id-eu-countries-only"></a>VAT ID 추가(EU 국가에만 해당)
   
-1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">구독</a> 페이지로 이동 합니다.
+1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">구독</a> 페이지로 이동합니다.
 
 2. 구독 이름을 선택 하 고 **기타 작업** \> 을 선택 하 여 **VAT 번호를 편집**합니다.
   
@@ -186,4 +186,4 @@ Microsoft Corporation에서 대금이 청구([송장 참조](view-your-bill-or-i
   
 [청구서 보기](view-your-bill-or-invoice.md)
   
-[송장 이해](understand-your-invoice.md)
+[요금 청구 방식](understand-your-invoice.md)

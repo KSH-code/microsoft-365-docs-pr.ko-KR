@@ -22,13 +22,13 @@ search.appverid:
 - BCS160
 - MET150
 - MOE150
-description: Microsoft 365 Business에 대해 MFA를 요구 하 고 조건부 액세스 정책을 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: 7898ded24bb66545b903ab98f3c7aa78d95860f1
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: MFA를 요구 하는 방법과 비즈니스용 Microsoft 365에 대 한 조건부 액세스 정책을 설정 하는 방법을 알아봅니다.
+ms.openlocfilehash: 3caca685d9a96434a0daa2736c322ac1a68b7feb
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42056423"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635615"
 ---
 # <a name="require-multi-factor-authentication-and-set-up-conditional-access-policies"></a>다단계 인증 필요 및 조건부 액세스 정책 설정
 

@@ -1,5 +1,5 @@
 ---
-title: Office 365 비즈니스 에디션 요금제를 전환할 수 없는 이유는 무엇인가요?
+title: Microsoft 365 for business 요금제를 전환할 수 없는 이유는 무엇 인가요?
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -23,14 +23,14 @@ search.appverid:
 ms.assetid: e81e09d2-cd52-4212-8550-5405864b6d62
 ROBOTS: NOINDEX
 description: 때로는 수동으로 전환 하거나 지원 서비스를 호출 하 여 계획을 수행 해야 하는 이유를 이해 합니다.
-ms.openlocfilehash: 5aa0885c9f7d68dc46618522de00efe26701551f
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+ms.openlocfilehash: 5d446e3492bc9039e490cacca469443c0dc52cbd
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43211976"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631932"
 ---
-# <a name="why-cant-i-switch-office-365-for-business-plans"></a>Office 365 비즈니스 에디션 요금제를 전환할 수 없는 이유는 무엇인가요?
+# <a name="why-cant-i-switch-microsoft-365-for-business-plans"></a>Microsoft 365 for business 요금제를 전환할 수 없는 이유는 무엇 인가요?
 
 ::: moniker range="o365-worldwide"
 > [!NOTE]

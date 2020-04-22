@@ -1,5 +1,5 @@
 ---
-title: Office 365에서 보낸 사람 주소의 유효성을 검사 하 여 피싱을 방지 하는 방법
+title: Microsoft 365에서 보낸 사람 주소의 유효성을 검사 하 여 피싱을 방지 하는 방법
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -16,19 +16,19 @@ search.appverid:
 ms.assetid: eef8408b-54d3-4d7d-9cf7-ad2af10b2e0e
 ms.collection:
 - M365-security-compliance
-description: Office 365의 인바운드 메시지에 대 한 전자 메일 주소에서의 요구 사항에 대 한 lear 11 월 2017 현재까지 서비스에서 스푸핑을 방지 하는 데 도움이 되는 주소에서 RFC 규격이 필요 합니다.
-ms.openlocfilehash: 4df073cfff3c36f60a013237d95548cb48fa7b5f
-ms.sourcegitcommit: 9ed3283dd6dd959faeca5c22613f9126261b9590
+description: Microsoft 365의 인바운드 메시지에 대 한 전자 메일 주소에서의 요구 사항에 대 한 lear 11 월 2017 현재까지 서비스에서 스푸핑을 방지 하는 데 도움이 되는 주소에서 RFC 규격이 필요 합니다.
+ms.openlocfilehash: 876ede087b37c381b9e9b557268057122e0987c0
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43529004"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43633981"
 ---
-# <a name="how-office-365-validates-the-from-address-to-prevent-phishing"></a>Office 365에서 보낸 사람 주소의 유효성을 검사 하 여 피싱을 방지 하는 방법
+# <a name="how-microsoft-365-validates-the-from-address-to-prevent-phishing"></a>Microsoft 365에서 보낸 사람 주소의 유효성을 검사 하 여 피싱을 방지 하는 방법
 
-Office 365 전자 메일 계정에는 많은 수의 피싱 공격이 수신 됩니다. 공격자는 [가짜 (위조) 보낸 사람 전자 메일 주소](anti-spoofing-protection.md)를 사용 하는 것 외에도 발신자 주소에 인터넷 표준을 위반 하는 값을 사용 하는 경우가 많습니다. 이러한 유형의 피싱을 방지 하기 위해 Office 365 및 Outlook.com에는이 항목에서 설명 하는 대로 RFC 규격 From 주소를 포함 하기 위한 인바운드 메시지가 필요 합니다. 이 적용은 11 월 2017에서 사용 하도록 설정 되었습니다.
+Microsoft 365 전자 메일 계정에는 많은 수의 피싱 공격이 수신 됩니다. 공격자는 [가짜 (위조) 보낸 사람 전자 메일 주소](anti-spoofing-protection.md)를 사용 하는 것 외에도 발신자 주소에 인터넷 표준을 위반 하는 값을 사용 하는 경우가 많습니다. 이러한 유형의 피싱을 방지 하기 위해 Microsoft 365 및 Outlook.com에는이 항목에 설명 된 대로 RFC 규격 From 주소를 포함 하기 위한 인바운드 메시지가 필요 합니다. 이 적용은 11 월 2017에서 사용 하도록 설정 되었습니다.
 
-**참고**:
+**참고:**
 
 - 이 항목에서 설명 하는 주소에서 형식이 잘못 된 조직 으로부터 전자 메일을 정기적으로 수신 하는 경우 이러한 조직이 최신 보안 표준을 준수 하도록 전자 메일 서버를 업데이트 하도록 권장 합니다.
 
@@ -75,31 +75,31 @@ Office 365 전자 메일 계정에는 많은 수의 피싱 공격이 수신 됩�
 
 - `From: "Sender, Example" <sender.example@contoso.com>`
 
-- `From: "Office 365" <sender@contoso.com>`
+- `From: "Microsoft 365" <sender@contoso.com>`
 
-- `From: Office 365 <sender@contoso.com>`표시 이름이 큰따옴표로 묶여 있지 않으므로 권장 하지 않습니다.
+- `From: Microsoft 365 <sender@contoso.com>`표시 이름이 큰따옴표로 묶여 있지 않으므로 권장 하지 않습니다.
 
 다음의 보낸 사람 전자 메일 주소가 잘못 되었습니다.
 
-- **보낸 사람 주소**: 일부 자동 메시지에는 보낸 사람 주소가 포함 되지 않습니다. 더 이상, Office 365 또는 Outlook.com에서 보낸 사람 주소가 없는 메시지를 받은 경우 서비스는 다음의 기본값을에서 메시지를 제공 하는 주소를 지정 합니다 .로 추가 했습니다.
+- **보낸 사람 주소**: 일부 자동 메시지에는 보낸 사람 주소가 포함 되지 않습니다. 더 이상 Microsoft 365 또는 Outlook.com에서 보낸 사람 주소가 없는 메시지를 받은 경우 서비스는 다음의 기본값을에서 메시지를 제공 하는 주소를 지정 합니다 .로 추가 했습니다.
 
   `From: <>`
 
   이제는 보낸 사람 주소가 비어 있는 메시지가 더 이상 수락 되지 않습니다.
 
-- `From: Office 365 sender@contoso.com`표시 이름은 제공 되지만 전자 메일 주소는 꺾쇠 괄호로 묶여 있지 않습니다.
+- `From: Microsoft 365 sender@contoso.com`표시 이름은 제공 되지만 전자 메일 주소는 꺾쇠 괄호로 묶여 있지 않습니다.
 
-- `From: "Office 365" <sender@contoso.com> (Sent by a process)`(전자 메일 주소 다음에 오는 텍스트)
+- `From: "Microsoft 365" <sender@contoso.com> (Sent by a process)`(전자 메일 주소 다음에 오는 텍스트)
 
 - `From: Sender, Example <sender.example@contoso.com>`(표시 이름에는 쉼표가 포함 되어 있지만 큰따옴표로 묶지 않습니다.)
 
-- `From: "Office 365 <sender@contoso.com>"`전체 값이 큰따옴표로 잘못 묶여 있습니다.
+- `From: "Microsoft 365 <sender@contoso.com>"`전체 값이 큰따옴표로 잘못 묶여 있습니다.
 
-- `From: "Office 365 <sender@contoso.com>" sender@contoso.com`표시 이름은 제공 되지만 전자 메일 주소는 꺾쇠 괄호로 묶여 있지 않습니다.
+- `From: "Microsoft 365 <sender@contoso.com>" sender@contoso.com`표시 이름은 제공 되지만 전자 메일 주소는 꺾쇠 괄호로 묶여 있지 않습니다.
 
-- `From: Office 365<sender@contoso.com>`(표시 이름 및 왼쪽 꺽쇠 괄호 사이에 공백 없음)
+- `From: Microsoft 365<sender@contoso.com>`(표시 이름 및 왼쪽 꺽쇠 괄호 사이에 공백 없음)
 
-- `From: "Office 365"<sender@contoso.com>`닫는 큰따옴표와 왼쪽 꺽쇠 괄호 사이에는 공백이 없어야 합니다.
+- `From: "Microsoft 365"<sender@contoso.com>`닫는 큰따옴표와 왼쪽 꺽쇠 괄호 사이에는 공백이 없어야 합니다.
 
 ## <a name="suppress-auto-replies-to-your-custom-domain"></a>사용자 지정 도메인에 대 한 자동 회신을 표시 하지 않습니다.
 
@@ -115,16 +115,16 @@ Office 365 전자 메일 계정에는 많은 수의 피싱 공격이 수신 됩�
 noreply.contoso.com IN MX .
 ```
 
-MX 레코드를 설정 하는 방법에 대 한 자세한 내용은 [dns 호스팅 공급자에서 Office 365에 대 한 dns 레코드 만들기](../../admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md)를 참조 하세요.
+MX 레코드를 설정 하는 방법에 대 한 자세한 내용은 [dns 호스팅 공급자에서 Microsoft 365에 대 한 dns 레코드 만들기](../../admin/get-help-with-domains/create-dns-records-at-any-dns-hosting-provider.md)를 참조 하십시오.
 
 Null MX를 게시 하는 방법에 대 한 자세한 내용은 [RFC 7505](https://tools.ietf.org/html/rfc7505)을 참조 하십시오.
 
 ## <a name="override-from-address-enforcement"></a>주소 적용에서 무시
 
-인바운드 전자 메일에 대해 From 주소 요구 사항을 무시 하려면 [Office 365에서 수신 허용-보낸 사람 목록 만들기](create-safe-sender-lists-in-office-365.md)에 설명 된 대로 IP Allow List (연결 필터링) 또는 메일 흐름 규칙 (전송 규칙이 라고도 함)을 사용할 수 있습니다.
+인바운드 전자 메일에 대해 From 주소 요구 사항을 무시 하려면 [Microsoft 365에서 수신 허용-보낸 사람 목록 만들기](create-safe-sender-lists-in-office-365.md)에 설명 된 대로 IP Allow List (연결 필터링) 또는 메일 흐름 규칙 (전송 규칙이 라고도 함)을 사용할 수 있습니다.
 
-Office 365에서 보내는 아웃 바운드 전자 메일에 대 한 보낸 사람 주소 요구 사항을 재정의할 수는 없습니다. 또한 Outlook.com에서는 지원을 통해 모든 종류의 재정의를 허용 하지 않습니다.
+Microsoft 365에서 보내는 아웃 바운드 전자 메일에 대 한 보낸 사람 주소 요구 사항을 재정의할 수는 없습니다. 또한 Outlook.com에서는 지원을 통해 모든 종류의 재정의를 허용 하지 않습니다.
 
-## <a name="other-ways-to-prevent-and-protect-against-cybercrimes-in-office-365"></a>Office 365에서 cybercrimes을 방지 하 고 보호 하는 기타 방법
+## <a name="other-ways-to-prevent-and-protect-against-cybercrimes-in-microsoft-365"></a>Microsoft 365에서 cybercrimes을 방지 하 고 보호 하는 기타 방법
 
-피싱, 스팸, 데이터 위반 및 기타 위협 으로부터 조직을 강화 하는 방법에 대 한 자세한 내용은 [Office 365 및 Microsoft 365 비즈니스 요금제를 보호 하기 위한 상위 10 가지 방법을](../../admin/security-and-compliance/secure-your-business-data.md)참조 하세요.
+피싱, 스팸, 데이터 위반 및 기타 위협 으로부터 조직을 강화 하는 방법에 대 한 자세한 내용은 [Top 10 방법으로 Microsoft 365 for business 요금제](../../admin/security-and-compliance/secure-your-business-data.md)를 참조 하세요.

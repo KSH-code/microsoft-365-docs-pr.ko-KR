@@ -1,5 +1,5 @@
 ---
-title: Office 365에서 전자 메일 메시지의 안전 팁
+title: 전자 메일 메시지의 안전 팁
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -16,19 +16,19 @@ search.appverid:
 ms.assetid: fb4f8e49-0468-4be2-8fa6-99501f1ad9d5
 ms.collection:
 - M365-security-compliance
-description: EOP 및 Office 365 스팸 필터로 필터링 된 전자 메일 메시지에 대 한 보안 팁이 도입 되었습니다.
-ms.openlocfilehash: 3e4e645c6ac0285d9d6fff43b301f1f5c61a90e3
-ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
+description: EOP 및 스팸 필터로 필터링 된 전자 메일 메시지에 대 한 보안 팁이 도입 되었습니다.
+ms.openlocfilehash: 7171f5855e295ffac931862c86db011c9f38a4c6
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43032819"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634307"
 ---
-# <a name="safety-tips-in-email-messages-in-office-365"></a>Office 365에서 전자 메일 메시지의 안전 팁
+# <a name="safety-tips-in-email-messages"></a>전자 메일 메시지의 안전 팁
 
-EOP (Exchange Online Protection) 및 Office 365는 스팸, 피싱 및 맬웨어 방지 기능을 사용 하 여 사용자를 보호 합니다. 현재 이러한 공격 중 일부는 합법적인 것으로 제대로 조작 되었습니다. 정크 메일 폴더로 메시지를 보내는 것이 항상 적절 하지는 않습니다. 이제 Outlook 또는 웹용 Outlook에서 전자 메일을 확인 하면 EOP에서 보낸 사람을 자동으로 확인 하 고 전자 메일의 맨 위에 보안 팁을 추가 합니다.
+EOP (Exchange Online Protection) 및 Microsoft 365는 스팸, 피싱 및 맬웨어 방지 기능을 사용 하 여 사용자를 보호 합니다. 현재 이러한 공격 중 일부는 합법적인 것으로 제대로 조작 되었습니다. 정크 메일 폴더로 메시지를 보내는 것이 항상 적절 하지는 않습니다. 이제 Outlook 또는 웹용 Outlook에서 전자 메일을 확인 하면 EOP에서 보낸 사람을 자동으로 확인 하 고 전자 메일의 맨 위에 보안 팁을 추가 합니다.
 
-보안 팁-색으로 구분 된 메시지를 통해 잠재적으로 유해한 메시지에 대해 경고 합니다. 대부분의 받은 편지함의 메시지에는 보안 팁이 없습니다. 스팸, 피싱 및 맬웨어 공격을 방지 하는 데 도움이 필요한 정보가 EOP 및 Office 365에만 표시 됩니다. 받은 편지함에 보안 팁이 표시 되 면 다음 예제를 사용 하 여 각 유형의 안전 팁에 대해 자세히 알아볼 수 있습니다.
+보안 팁-색으로 구분 된 메시지를 통해 잠재적으로 유해한 메시지에 대해 경고 합니다. 대부분의 받은 편지함의 메시지에는 보안 팁이 없습니다. 스팸, 피싱 및 맬웨어 공격을 방지 하는 데 필요한 정보가 EOP 및 Microsoft 365에만 표시 됩니다. 받은 편지함에 보안 팁이 표시 되 면 다음 예제를 사용 하 여 각 유형의 안전 팁에 대해 자세히 알아볼 수 있습니다.
 
 - 의심 스러운 메일 (red 보안 팁)
 
@@ -58,6 +58,6 @@ EOP (Exchange Online Protection) 및 Office 365는 스팸, 피싱 및 맬웨어 
 
 ## <a name="working-with-safety-tips"></a>보안 팁 작업
 
-모든 메시지가 메시지를 받지 않더라도 보안 팁은 웹에서 항상 Outlook에 대해 사용 하도록 설정 됩니다. Office 365 관리자는 Outlook과 같은 다른 전자 메일 클라이언트에 대해 보안 팁을 해제할 수 있습니다. 자세한 내용은 [Office 365의 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)를 참조하세요.
+모든 메시지가 메시지를 받지 않더라도 보안 팁은 웹에서 항상 Outlook에 대해 사용 하도록 설정 됩니다. 관리자는 Outlook과 같은 다른 전자 메일 클라이언트에 대해 보안 팁을 해제할 수 있습니다. 자세한 내용은 [Office 365의 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)를 참조하세요.
 
 EOP가 메시지를 분류 한 방법 (스팸이 아니거나 스팸으로 표시 되어야 함)에 동의 하지 않는 경우에는 분석을 위해 Microsoft에 메시지를 제출 하 여 환경을 개선 하는 데 도움을 받을 수 있습니다. 자세한 내용은 [Microsoft에 메시지 및 파일 보고서](report-junk-email-messages-to-microsoft.md)를 참조 하십시오. 보안 팁의 피드백 링크를 클릭 하 여 의견을 Microsoft에 직접 제출 하 여 개선할 수 있도록 도울 수도 있습니다.

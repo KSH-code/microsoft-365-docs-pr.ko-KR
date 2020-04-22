@@ -15,18 +15,18 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Office 365 ATP의 안전한 문서에 대해 알아봅니다.
-ms.openlocfilehash: 3980746eb2f48e77c22f5139827bead5640dad61
-ms.sourcegitcommit: 1c445d68e54ca4249024ca4bb72460dd6fac0a2d
+ms.openlocfilehash: b70c7013ce038a3934b7ea5e62d1d0530f12e4e6
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/20/2020
-ms.locfileid: "42170478"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634319"
 ---
 # <a name="safe-documents-in-office-365-advanced-threat-protection"></a>Office 365 Advanced Threat Protection의 안전한 문서
 
 안전한 문서는 [Microsoft Defender Advanced Threat protection](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection) 을 사용 하 여 [제한 된 보기](https://support.office.com/article/d6f09ac7-e6b9-4495-8e43-2bbcdbcb6653)에서 열린 문서와 파일을 검색 하는 Office 365 ATP (Advanced threat protection)의 기능입니다.
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 사항은 무엇인가요?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
 
 - 이 기능은 Microsoft 365 E5 또는 Microsoft 365 E5 보안 라이선스가 있는 사용자만 사용할 수 있습니다.
 
@@ -34,13 +34,13 @@ ms.locfileid: "42170478"
 
 - 현재 규격 파일 처리에 대해서만 미국 지역이 지원 됩니다 (모든 파일은 검색을 위해 US 지역으로 이동 됨). 영국/EU 지역에 대 한 지원은 향후 업데이트에서 계획 됩니다.
 
-- Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell)을 참조하세요. Exchange Online Protection PowerShell에 연결 하려면 [Exchange Online Protection powershell에 연결](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell)을 참조 하세요.
+- Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결하기](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell)를 참조하세요. Exchange Online Protection PowerShell에 연결 하려면 [Exchange Online Protection powershell에 연결](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell)을 참조 하세요.
 
-- 이 항목의 절차를 수행 하려면 먼저 사용 권한을 할당 받아야 합니다. 안전한 문서를 사용 하도록 설정 하 고 구성 하려면 **조직 관리** 또는 **보안 관리자** 역할 그룹의 구성원 이어야 합니다. 보안 & 준수 센터의 역할 그룹에 대 한 자세한 내용은 [Permissions in The Office 365 Security & 준수 센터](permissions-in-the-security-and-compliance-center.md)를 참조 하십시오.
+- 이 항목의 절차를 수행 하려면 먼저 사용 권한을 할당 받아야 합니다. 안전한 문서를 사용 하도록 설정 하 고 구성 하려면 **조직 관리** 또는 **보안 관리자** 역할 그룹의 구성원 이어야 합니다. 보안 & 준수 센터의 역할 그룹에 대 한 자세한 내용은 [보안 & 준수 센터의 사용 권한을](permissions-in-the-security-and-compliance-center.md)참조 하세요.
 
-## <a name="use-the-office-365-security--compliance-center-to-configure-safe-documents"></a>Office 365 보안 & 준수 센터를 사용 하 여 안전한 문서 구성
+## <a name="use-the-security--compliance-center-to-configure-safe-documents"></a>보안 & 준수 센터를 사용 하 여 안전한 문서 구성
 
-1. 에서 <https://protection.office.com>Office 365 보안 & 준수 센터를 엽니다.
+1. 보안 & 준수 센터를에서 <https://protection.office.com>엽니다.
 
 2. **위협 관리** \> **정책** \> **ATP 안전한 첨부 파일로**이동 합니다.
 
@@ -50,7 +50,7 @@ ms.locfileid: "42170478"
 
    - **안전한 보기를 통해 클릭할 수 있도록 허용 문서가 악성 파일인 것으로 식별**되는 경우에도이 옵션을 사용 하지 않는 것이 좋습니다.
 
-4. 작업을 마친 후 **저장**을 클릭합니다.
+4. 작업을 마쳤으면 **저장**을 클릭합니다.
 
 ![ATP 안전한 첨부 파일 페이지](../../media/safe-docs.png)
 

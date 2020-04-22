@@ -15,12 +15,12 @@ ms.technology: ''
 ms.assetid: fb4182e6-5e78-45d0-9641-d791c4519441
 audience: ITPro
 ms.custom: microsoft-intune
-ms.openlocfilehash: a957ef037aed1f9aba923af428c2a440790dbfba
-ms.sourcegitcommit: e525bcf073a61e1350484719a0c3ceb6ff0d8db1
+ms.openlocfilehash: c90f16bfbdf41f859e13a23fbdaeb0c3480bd191
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43153895"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631528"
 ---
 # <a name="phase-5-mobile-device-management-for-microsoft-365-enterprise"></a>단계 5: Microsoft 365 엔터프라이즈에 대 한 모바일 장치 관리
 
@@ -34,7 +34,7 @@ Microsoft 365 Enterprise에는 조직 내에서 장치 및 해당 앱을 관리 
 
 ## <a name="step-1-plan-for-your-scenario"></a>1 단계: 시나리오 계획
 
-모바일 장치를 관리 하는 주요 이유 중 하나는 조직의 리소스를 보호 하 고 보호 하는 것입니다. [Microsoft Intune을 사용 하는 일반적인 방법은](https://docs.microsoft.com/intune/common-scenarios) Office 365 전자 메일 및 데이터 보호를 비롯 한 실제 세계의 몇 가지 예를 나열 하는 것입니다.
+모바일 장치를 관리 하는 주요 이유 중 하나는 조직의 리소스를 보호 하 고 보호 하는 것입니다. [Microsoft Intune을 사용 하는 일반적인 방법](https://docs.microsoft.com/intune/common-scenarios) 에는 microsoft 전자 메일 및 데이터를 보호 하는 등의 일부 실제 예제가 나열 되어 있습니다.
 
 Intune에서는 MDM (모바일 장치 관리) 또는 MAM (모바일 응용 프로그램 관리)를 사용 하 여 조직에 대 한 액세스를 관리할 수 있는 옵션을 제공 합니다. MDM은 사용자가 Intune에서 장치를 "등록" 하는 경우입니다. 등록 된 사용자는 관리 되는 장치 이며 조직에서 사용 하는 모든 정책, 규칙 및 설정을 받을 수 있습니다. 예를 들어 특성 앱을 설치 하 고 암호 정책을 만들고 VPN 연결을 설치 하는 등의 다양 한 방법을 사용할 수 있습니다.
 
@@ -47,7 +47,7 @@ Intune에서는 MDM (모바일 장치 관리) 또는 MAM (모바일 응용 프�
 다음으로, 이전 단계에서 만든 시나리오 및 요구 사항에 따라 필수 구성 요소를 가져옵니다. [계획 구현](https://docs.microsoft.com/intune/planning-guide-onboarding) 모든 요구 사항을 나열 합니다. 다음은 Intune을 사용 하 여 Microsoft 365을 수행 하는 데 필요한 중요 한 항목입니다.
 
 - **Intune 구독**: microsoft 365에 포함 되어 있으며 [Azure 포털](https://portal.azure.com) 의 microsoft Intune에 대 한 액세스를 제공 합니다.
-- **Office 365 구독**: Microsoft 365에 포함 되어 있으며 전자 메일을 비롯 한 office 앱에 사용 됩니다.
+- **Microsoft 365 구독**: microsoft 365에 포함 되어 있으며 전자 메일을 비롯 한 Office 앱에 사용 됩니다.
 - **Azure Active Directory (AZURE AD) premium**: Microsoft 365에 포함 되어 있으며, 사용자 또는 보안 그룹을 만드는 데 사용 됩니다. 이러한 그룹은 사용자가 만든 Intune 정책 (예: 암호 길이를 강제 하 여 장치 잠금 해제)을 수신 합니다. [2 단계: id](https://docs.microsoft.com/microsoft-365/enterprise/identity-infrastructure) 를 사용할 수 있습니다.
 
 조직의 요구 사항에 따라 몇 가지 추가 요구 사항이 있을 수 있습니다. 예를 들어 iOS 장치를 관리 하려는 경우 Apple MDM 푸시 인증서가 필요 합니다. 온-프레미스 Exchange를 사용 하는 경우 온-프레미스 Exchange 커넥터가 필요 합니다. 이러한 추가 요구 사항은 이러한 단계에 도달 하면 요약 됩니다.

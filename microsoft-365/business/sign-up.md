@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 Business에 등록
+title: Microsoft 365 Business Premium에 등록
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -24,27 +24,27 @@ ms.custom:
 search.appverid:
 - BCS160
 - MET150
-description: Microsoft 365 Business에 대 한 등록에 대 한 자세한 내용은 마이크로소프트 365 Business에 포함 된 내용 및 단계별 지침을 참조 하세요.
-ms.openlocfilehash: 85e9ff3585e1e4bbadc6c34699f75d77486f58ea
-ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
+description: Microsoft 365 Business Premium에 등록 하는 작업에 대 한 단계별 지침을 제공 하 고 마이크로소프트 365 Business Premium에 포함 된 정보를 확인 하세요.
+ms.openlocfilehash: 443363fa673a112ae13eb5b63308115724d9bd00
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42560769"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635107"
 ---
-# <a name="sign-up-for-microsoft-365-business"></a>Microsoft 365 Business에 등록
+# <a name="sign-up-for-microsoft-365-business-premium"></a>Microsoft 365 Business Premium에 등록
 
-Microsoft 365 Business에 포함 된 내용을 알아보려면 [간단한 비디오](https://go.microsoft.com/fwlink/?linkid=2109651) 를 시청 하 고 [개요](microsoft-365-business-overview.md)를 확인 하세요.
+Microsoft 365 Business Premium에 포함 된 내용을 알아보려면 [간단한 비디오](https://go.microsoft.com/fwlink/?linkid=2109651) 를 시청 하 고 [개요](microsoft-365-business-overview.md)를 확인 하세요.
 
-Microsoft 365 Business는 다음과 같은 세 가지 방법으로 얻을 수 있습니다.
-- **Microsoft 365 business를 구입 하 여 설치를 완료**합니다. Microsoft 365 business online을 구입 하려면 [아래 단계를 따르세요](#sign-up-steps).
-- **Microsoft 파트너의**경우: 파트너 인 경우 Microsoft [파트너 센터에서 Microsoft 365 Business 가져오기](get-microsoft-365-business.md#get-microsoft-365-business-from-microsoft-partner-center)를 참조 하세요.
+Microsoft 365 Business Premium을 다운로드 하는 방법에는 다음 세 가지가 있습니다.
+- **Microsoft 365 Business premium을 구입 하 고 사용자의 설치를 완료**합니다. Microsoft 365 Business premium online을 구입 하려면 [아래 단계를 따르세요](#sign-up-steps).
+- **Microsoft 파트너의**경우: 파트너의 경우 Microsoft [파트너 센터에서 Microsoft 365 Business Premium 가져오기를](get-microsoft-365-business.md)참조 하세요.
 - **Microsoft store에서 도움을 받을**수 [있습니다.](https://go.microsoft.com/fwlink/?linkid=2109652) Microsoft store는 계획에 대 한 질문을 하 고 비즈니스 요구에 적합 한 요금제를 구입 하 여 설치를 완료 하는 데 도움이 될 수 있습니다.
 
 **다른 사항이 필요 하십니까?** 다음을 수행할 수 있습니다.
-- [Office 365 요금제를 Microsoft 365 Business로 업그레이드](migrate-to-microsoft-365-business.md)합니다.
-- 1 개월 동안 Microsoft 365 Business [무료 평가판을 다운로드 하세요](https://go.microsoft.com/fwlink/p/?linkid=2102309) .
-- 보다 작은 기능의 요금제가 필요한 경우 [Office 365 Business Premium에 등록](https://go.microsoft.com/fwlink/p/?LinkID=510935) 합니다. [Products.office.com](https://go.microsoft.com/fwlink/?linkid=2109397)에서 각 비즈니스 계획에 포함 된 내용을 알아봅니다.
+- [Office 365 요금제를 Microsoft 365 Business Premium으로 업그레이드](migrate-to-microsoft-365-business.md)합니다.
+- 1 개월 동안 Microsoft 365 Business Premium [무료 평가판을 받습니다](https://go.microsoft.com/fwlink/p/?linkid=2102309) .
+- 계획을 보다 간단 하 게 사용 해야 하는 경우 [Microsoft 365 Business Standard에 등록](https://go.microsoft.com/fwlink/p/?LinkID=510935) 합니다. [Products.office.com](https://go.microsoft.com/fwlink/?linkid=2109397)에서 각 비즈니스 계획에 포함 된 내용을 알아봅니다.
 - 비즈니스를 구매 하지 않을 경우 [집 또는 가족 계획에 등록](https://go.microsoft.com/fwlink/?linkid=2109398) 합니다. 
 
 ## <a name="sign-up-steps"></a>등록 단계
@@ -58,8 +58,8 @@ Microsoft 365 Business는 다음과 같은 세 가지 방법으로 얻을 수 �
 비즈니스를 위해 Microsoft 365을 등록 하 고 구입 하려면 다음 단계를 완료 합니다.
 
 1. [비즈니스에 대 한 Microsoft 365 페이지](https://go.microsoft.com/fwlink/?linkid=2109654)에서 **요금제 & 가격 책정 보기**를 선택 합니다. 
-2. 다음 페이지에서 월별 비용을 찾은 다음 아래로 스크롤하여 Microsoft 365 Business에 포함 된 기능에 대해 자세히 알아봅니다. Microsoft 365 Business에서 **지금 구입**을 선택 합니다.
-3. **Microsoft 365 Business을 선택 해 주셔서 감사** 합니다 페이지에서 정보를 입력 하 여 시작 합니다.
+2. 다음 페이지에서 월별 비용을 찾은 다음 아래로 스크롤하여 Microsoft 365에 포함 된 기능에 대해 자세히 알아봅니다. Microsoft 365 Business Premium에서 **지금 구입**을 선택 합니다.
+3. **Microsoft 365 Business Premium을 선택 해 주셔서 감사** 합니다 페이지에서 정보를 입력 하 여 시작 합니다.
 4. **1 단계**에서 이미 사용 하 고 있는 전자 메일 주소를 입력 합니다. 이 주소는 현재 회사 전자 메일 주소나 Microsoft가 설치 하는 동안 사용자와 통신 하는 데 사용 하는 모든 주소가 될 수 있습니다. 또한 청구서 및 갱신에 대 한 정보를 전송 하는 주소 이기도 합니다. 다음을 선택 하 고 **계정을 설정**합니다.
 5. **2 단계**에서 이름, 회사 전화 번호, 회사 이름 및 위치를 입력 합니다. 이 단계를 완료 한 후에는 사용자의 국가나 지역이 Microsoft에서 수신 하는 서비스를 정확히 결정 하며 변경할 수 없습니다. **다음**을 선택합니다.
     > [!NOTE]
@@ -96,4 +96,4 @@ Microsoft 365 Business는 다음과 같은 세 가지 방법으로 얻을 수 �
 
 ## <a name="see-also"></a>참고 항목
 
-[Microsoft 365 Business 교육 비디오](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Microsoft 365 for business 교육용 비디오](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

@@ -24,16 +24,19 @@ search.appverid:
 - GEA150
 description: 새 구독으로 업그레이드 하는 방법을 알아봅니다.
 monikerRange: o365-worldwide
-ms.openlocfilehash: dbeba16a23490ab756c8ed30ce4856217819e80a
-ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
+ms.openlocfilehash: 8f792cad90b7e153c025a869970a54d36cdd8cbe
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43142082"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636513"
 ---
-# <a name="upgrade-to-a-different-plan"></a>다른 플랜으로 업그레이드
+# <a name="upgrade-to-a-different-plan"></a>다른 플랜으로 업그레이드 
 
 비즈니스가 변경 되거나 더 많은 기능이 필요한 경우 요금제를 업그레이드할 수 있습니다. 이 작업을 수행 하는 가장 쉬운 방법은 관리 센터에서 **Upgrade** 탭을 사용 하는 것입니다. 그러나 **업그레이드** 탭을 사용 하는 경우에는 모든 상황에서 지원 되지 않습니다. 경우에 따라 요금제를 수동으로 변경할 수도 있습니다.
+
+> [!NOTE]
+> 이 문서는 새 관리 센터에 적용 됩니다. 새로운 Microsoft 365 관리 센터를 사용하지 않는 경우 홈페이지 상단에 있는 **새 관리 센터 시도** 토글을 선택하여 켤 수 있습니다. 이전 관리 센터에 대 한 문서를 보려면 [다른 Microsoft 365 for business 요금제로 전환을](switch-to-a-different-plan.md)참조 하십시오.
 
 ## <a name="use-the-upgrade-tab"></a>업그레이드 탭 사용
 
@@ -78,7 +81,7 @@ ms.locfileid: "43142082"
 
 **업그레이드** 탭에 계획이 표시 되지 않으면 요금제가 자동으로 업그레이드 되지 않음을 의미 합니다. 경우에 따라 업그레이드할 수 있는 요금제를 볼 수 있도록 문제를 해결할 수 있거나, 대신 수동으로 계획을 업그레이드 하거나 변경할 수도 있습니다.
 
-### <a name="why-are-there-no-plans-listed-to-upgrade"></a>업그레이드에 대 한 계획이 나열 되지 않는 이유는 무엇 인가요?
+ ### <a name="why-are-there-no-plans-listed-to-upgrade"></a>업그레이드에 대 한 계획이 나열 되지 않는 이유는 무엇 인가요?
 
 #### <a name="you-cant-upgrade-subscriptions-now-because-you-have-more-users-than-licenses"></a>라이선스 보다 더 많은 사용자가 있으므로 지금 구독을 업그레이드할 수 없습니다.
 
@@ -106,7 +109,7 @@ ms.locfileid: "43142082"
 
 #### <a name="you-have-two-or-more-plans-for-the-same-product"></a>동일한 제품에 대 한 요금제가 두 개 이상 있는 경우
 
-모든 사용자가 동일한 요금제를 구독 하는 경우에만 **업그레이드** 탭을 사용할 수 있습니다. 예를 들어 두 개의 Office 365 Business Premium 요금제가 있는 경우 이러한 계획 중 하나를 자동으로 다른 요금제로 업그레이드할 수 없게 됩니다.
+모든 사용자가 동일한 요금제를 구독 하는 경우에만 **업그레이드** 탭을 사용할 수 있습니다. 예를 들어 Microsoft 365 비즈니스 표준 요금제가 두 개인 경우 이러한 계획 중 하나를 자동으로 다른 요금제로 업그레이드할 수 없습니다.
 
 #### <a name="you-have-a-prepaid-plan"></a>선불 요금제를 사용 중인 경우
 
@@ -138,13 +141,13 @@ ms.locfileid: "43142082"
 
 ## <a name="what-does-upgrading-a-plan-do-to-my-service-and-billing"></a>요금제를 업그레이드 하는 작업은 내 서비스 및 대금 청구로 수행 됩니까?
 
-관리 센터에서 **upgrade** 탭을 사용 하 여 요금제를 자동으로 업그레이드 하는 경우 서비스 및 청구에 영향을 줍니다.
+**요금제 전환** 단추 (또는 새 관리 센터의 **업그레이드** 탭)를 사용 하 여 요금제를 자동으로 업그레이드 하는 경우 서비스 및 청구에 영향을 줍니다.
 
 ### <a name="access-to-services"></a>서비스에 액세스
 
-**관리자는** 계획을 업그레이드 하는 동안 관리 센터를 사용할 수 없습니다. 이 작업에는 최대 1시간이 걸릴 수 있습니다.
-
-**사용자** 는 서비스 중단을 경험하지 않습니다. 업그레이드가 완전히 완료 될 때까지 기존 서비스가 계속 해 서 유지 됩니다.
+ **관리자는** 계획을 업그레이드 하는 동안 관리 센터를 사용할 수 없습니다. 이 작업에는 최대 1시간이 걸릴 수 있습니다.
+  
+ **사용자** 는 서비스 중단을 경험하지 않습니다. 업그레이드가 완전히 완료 될 때까지 기존 서비스가 계속 해 서 유지 됩니다.
   
 ### <a name="users-and-licenses"></a>사용자 및 라이선스
 
@@ -161,9 +164,9 @@ Exchange 사서함 및 SharePoint Online 문서, 목록, 기타 정보를 포함
 계획 업그레이드가 완료 되 면 이전 구독에 대 한 대금 청구는 꺼지고 새 구독에 대 한 대금 청구는 켜 집니다. 사용자는 이전 구독에서 사용하지 않은 서비스에 대해 비례 배분된 공제액을 받게 됩니다. 새 구독으로 업그레이드 하는 동안 30 일 이내에 이전 구독에 대 한 크레딧이 포함 된 새 송장을 받게 됩니다.
   
 > [!NOTE]
-> 결제 계좌에서 실제로 공제하는 데 걸리는 시간은 구독에 사용된 지불 방법에 따라 다릅니다.
-
-**만료 되기 전에 선불 구독에서 업그레이드 하는 경우** 새 구독의 총 비용이 선불 구독의 잔액보다 크거나 같을 경우 선불 시간은 손실되지 않습니다. 체크 아웃 페이지에서 아직 사용하지 않은 시간의 잔액을 볼 수 있습니다. 그러나 새 구독의 총 비용이 현재 선불 구독의 잔액보다 적을 경우 사용하지 않은 시간을 일부 상실하게 됩니다. 체크아웃 하기 전에 알림을 받게 되며 선불 구독의 만료 날짜에 더 가까워 업그레이드를 기다릴 수 있습니다.
+> 결제 계좌에서 실제로 공제하는 데 걸리는 시간은 구독에 사용된 지불 방법에 따라 다릅니다. 
+  
+ **만료 되기 전에 선불 구독에서 업그레이드 하는 경우** 새 구독의 총 비용이 선불 구독의 잔액보다 크거나 같을 경우 선불 시간은 손실되지 않습니다. 체크 아웃 페이지에서 아직 사용하지 않은 시간의 잔액을 볼 수 있습니다. 그러나 새 구독의 총 비용이 현재 선불 구독의 잔액보다 적을 경우 사용하지 않은 시간을 일부 상실하게 됩니다. 체크아웃 하기 전에 알림을 받게 되며 선불 구독의 만료 날짜에 더 가까워 업그레이드를 기다릴 수 있습니다.
 
 ## <a name="call-support-to-help-you-upgrade-plans"></a>요금제를 업그레이드 하는 데 도움이 되는 통화 지원
 
@@ -173,4 +176,4 @@ Exchange 사서함 및 SharePoint Online 문서, 목록, 기타 정보를 포함
 
 [수동으로 계획 변경](change-plans-manually.md)
 
-[비즈니스 요금제에 대 한 Office 365를 전환 하기 전에 데이터 백업](back-up-data-before-switching-plans.md)
+[Microsoft 365 for business 요금제를 전환 하기 전에 데이터 백업](back-up-data-before-switching-plans.md)

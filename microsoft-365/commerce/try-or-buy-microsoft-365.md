@@ -19,18 +19,18 @@ search.appverid:
 - MOE150
 ms.assetid: 9e8ceac6-8d20-4d28-837a-d766ae99cbd1
 description: 무료 평가판을 얻는 방법 또는 Microsoft 365 용 구독을 구입 하는 방법을 알아봅니다.
-ms.openlocfilehash: 0b19a27b44aa62c65bb8dc5542337e106da2ddc5
-ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
+ms.openlocfilehash: f5c1fca9bfb7b0f2236981e335517c1e03b2007c
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141626"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631908"
 ---
 # <a name="try-or-buy-a-microsoft-365-subscription"></a>Microsoft 365 구독 체험 또는 구입
 
 Microsoft 365는 고급 보안 및 장치 관리를 포함 하 여 Office 365 및 Windows 10을 결합 한 완벽 한 솔루션입니다. 이미 구독을 보유 하 고 있거나 Microsoft 365 구독을 구입 하려는 경우 관리 센터를 통해 수행 하는 것이 가장 좋은 방법입니다. 다음 Microsoft 365 구독을 지금 시도 하거나 구매할 수 있도록 관리 센터에서 사용할 수 있습니다.
   
-- Microsoft 365 Business
+- Microsoft 365 Business Premium
 
 - Microsoft 365 Enterprise E3
 
@@ -41,6 +41,7 @@ Microsoft 365는 고급 보안 및 장치 관리를 포함 하 여 Office 365 �
 ## <a name="try-or-buy-a-microsoft-365-subscription"></a>Microsoft 365 구독 체험 또는 구입
 
 ::: moniker range="o365-worldwide"
+
 
 1. 에서 관리 센터 [https://admin.microsoft.com](https://go.microsoft.com/fwlink/?linkid=2024339)에 로그인 한 후 **대금 청구** \> **구매 서비스로**이동 합니다.
 
@@ -67,13 +68,13 @@ Microsoft 365는 고급 보안 및 장치 관리를 포함 하 여 Office 365 �
 
 11. **주문 수신** 페이지에서 **계속**을 선택 합니다.
 
+
 ::: moniker-end
 
 ::: moniker range="o365-germany"
-
 1. 에서 관리 센터 [https://portal.office.de](https://go.microsoft.com/fwlink/?linkid=847686)에 로그인 한 후 **대금 청구** \> **구매 서비스로**이동 합니다.
 
-2. **서비스 구매** 페이지에 조직에서 사용할 수 있는 구독이 나열 됩니다.
+2. **서비스 구매** 페이지에 조직에서 사용할 수 있는 구독이 나열 됩니다. 
 
 3. Microsoft 365 계획에서 체험 하거나 구매할 타원을 선택한 다음 **무료 평가판 시작**을 선택 하 여 1 개월 동안 사용자 라이선스 25 개를 제공 하거나 **지금 구입**을 선택할 수 있습니다.
 
@@ -99,7 +100,6 @@ Microsoft 365는 고급 보안 및 장치 관리를 포함 하 여 Office 365 �
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
-
 1. 에서 관리 센터 [https://portal.partner.microsoftonline.cn](https://go.microsoft.com/fwlink/?linkid=850628)에 로그인 한 후 **대금 청구** \> **구매 서비스로**이동 합니다.
 
 2. **서비스 구매** 페이지에 조직에서 사용할 수 있는 구독이 나열 됩니다. 
@@ -127,14 +127,16 @@ Microsoft 365는 고급 보안 및 장치 관리를 포함 하 여 Office 365 �
 
 ::: moniker-end
 
+
 ## <a name="next-steps"></a>다음 단계
 
-새 구독을 가져온 후 해당 구독을 사용할 사용자에 게 라이선스를 할당 해야 합니다. 자세한 내용은 [사용자에 게 라이선스 할당](../admin/manage/assign-licenses-to-users.md)을 참조 하세요.
+새 구독을 가져온 후 해당 구독을 사용할 사용자에 게 라이선스를 할당 해야 합니다. 자세한 내용은 [사용자에 게 라이선스 할당](../admin/manage/assign-licenses-to-users.md) 을 참조 하세요.
 
 ## <a name="related-articles"></a>관련 문서
 
-[비즈니스용 Office 365 구독 구입](buy-another-subscription.md)
+[다른 Microsoft 365 for business 구독 구입](buy-another-subscription.md)
 
-[비즈니스용 Office 365 추가 기능 구입 또는 편집](buy-or-edit-an-add-on.md)
+[비즈니스용 Microsoft 365에 대 한 추가 기능 구입 또는 편집](buy-or-edit-an-add-on.md)
 
 [구독에 대 한 저장소 공간 추가](add-storage-space.md)
+

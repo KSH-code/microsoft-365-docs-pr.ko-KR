@@ -1,5 +1,5 @@
 ---
-title: Office 365 그룹 명명 정책
+title: 그룹 명명 정책
 ms.reviewer: arvaradh
 f1.keywords: NOCSH
 ms.author: mikeplum
@@ -19,22 +19,22 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 6ceca4d3-cad1-4532-9f0f-d469dfbbb552
-description: Office 365 그룹에 대 한 명명 정책을 만드는 방법을 알아봅니다.
-ms.openlocfilehash: 4325a5e0a1de0c3a83be71220abd256c204ec07d
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+description: Microsoft 365 그룹에 대 한 명명 정책을 만드는 방법을 알아봅니다.
+ms.openlocfilehash: 2d8b016e0830f0d20ea6fb6227dd7789878bfc94
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42894626"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43630446"
 ---
-# <a name="office-365-groups-naming-policy"></a>Office 365 그룹 명명 정책
+# <a name="groups-naming-policy"></a>그룹 명명 정책
 
 그룹 명명 정책을 사용 하 여 조직의 사용자가 만든 그룹에 대 한 일관 된 명명 전략을 적용 합니다. 명명 정책을 통해 그룹, 구성원, 지리적 위치 또는 그룹을 만든 사용자의 기능을 식별 하는 데 도움이 될 수 있습니다. 또한 명명 정책은 주소록의 그룹을 분류 하는 데 도움이 됩니다. 정책을 사용 하 여 그룹 이름 및 별칭에 특정 단어를 사용 하지 못하도록 차단할 수 있습니다.
 
 명명 정책은 모든 그룹 작업 (예: Outlook, Microsoft 팀, SharePoint, Planner, Yammer 등)에 걸쳐 만들어지는 그룹에 적용 됩니다. 그룹 이름과 그룹 별칭에 모두 적용 됩니다. 사용자가 그룹을 만들 때와 기존 그룹에 대 한 그룹 이름 또는 별칭을 편집한 경우에 적용 됩니다.
 
 > [!TIP]
-> Office 365 그룹 명명 정책은 Office 365 그룹에만 적용 됩니다. Exchange Online에서 만든 메일 그룹에는 적용 되지 않습니다. 메일 그룹에 대 한 명명 정책을 만들려면 [메일 그룹 명명 정책 만들기](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-distribution-groups/create-group-naming-policy)를 참조 하십시오.
+> Microsoft 365 그룹 명명 정책은 Microsoft 365 그룹에만 적용 됩니다. Exchange Online에서 만든 메일 그룹에는 적용 되지 않습니다. 메일 그룹에 대 한 명명 정책을 만들려면 [메일 그룹 명명 정책 만들기](https://docs.microsoft.com/exchange/recipients-in-exchange-online/manage-distribution-groups/create-group-naming-policy)를 참조 하십시오.
 
 그룹 명명 정책은 다음과 같은 기능으로 구성 됩니다.
 
@@ -44,7 +44,7 @@ ms.locfileid: "42894626"
 
 ## <a name="licensing-requirements"></a>라이선스 요구 사항
 
-Office 365 그룹에 대해 Azure AD 명명 정책을 사용 하려면 하나 이상의 Office 365 그룹 구성원 인 각 고유 사용자 (게스트 포함)에 대해 Azure Active Directory Premium P1 라이선스 또는 Azure AD Basic .EDU 라이선스를 소유 하 고 있지 않아도 됩니다.
+Microsoft 365 그룹에 대해 Azure AD 명명 정책을 사용 하려면 하나 이상의 Microsoft 365 그룹 구성원 인 각 고유 사용자 (게스트 포함)에 대해 Azure Active Directory Premium P1 라이선스 또는 Azure AD Basic .EDU 라이선스를 소유 하 고 있지 않아도 됩니다.
 
 이는 그룹 명명 정책을 만드는 관리자 에게도 필요 합니다.
 
@@ -80,7 +80,7 @@ Office 365 그룹에 대해 Azure AD 명명 정책을 사용 하려면 하나 �
 
 - 접두사와 접미사는 그룹 이름 및 그룹 별칭에서 지원 되는 특수 문자를 포함할 수 있습니다. 접두사 및 접미사에 그룹 별칭에서 허용 되지 않는 특수 문자가 포함 되어 있으면 그룹 이름에만 적용 됩니다. 따라서 그룹 이름에 적용 되는 접두사와 접미사는 그룹 별칭에 적용 된 접두 번호와 접미사가 다릅니다.
 
-- Yammer \#Office 365 연결 된 그룹을 사용 하는 경우에는 이름 지정 정책에 @,, \[ \] \<, 및와 \>같은 문자를 사용 하지 않도록 합니다. 이러한 문자가 이름 지정 정책에 있는 경우 일반 Yammer 사용자는 그룹을 만들 수 없습니다.
+- Yammer \#Microsoft 365 연결 된 그룹을 사용 하는 경우에는 이름 지정 정책에 @,, \[ \] \<, 및와 \>같은 문자를 사용 하지 않도록 합니다. 이러한 문자가 이름 지정 정책에 있는 경우 일반 Yammer 사용자는 그룹을 만들 수 없습니다.
 
 ## <a name="custom-blocked-words"></a>사용자 지정 차단 된 단어
 
@@ -126,10 +126,10 @@ Office 365 그룹에 대해 Azure AD 명명 정책을 사용 하려면 하나 �
 ![Azure Active Directory의 그룹 명명 정책 설정 스크린샷](../../media/groups-naming-policy-azure.png)
 
 > [!NOTE]
-> StaffHub 팀은 명명 정책을 따르지 않지만 기본 Office 365 그룹에서는 수행 됩니다. StaffHub 팀 이름은 접두사와 접미사를 적용 하지 않으며 사용자 지정 차단 된 단어를 확인 하지 않습니다. 그러나 StaffHub는 접두사와 접미사를 적용 하 고 기본 Office 365 그룹에서 차단 된 단어를 제거 합니다.
+> StaffHub 팀은 명명 정책을 따르지 않지만 기본 Microsoft 365 그룹은 수행 합니다. StaffHub 팀 이름은 접두사와 접미사를 적용 하지 않으며 사용자 지정 차단 된 단어를 확인 하지 않습니다. 그러나 StaffHub에서는 접두사와 접미사를 적용 하 고 기본 Microsoft 365 그룹에서 차단 된 단어를 제거 합니다.
 
 ## <a name="more-articles-on-naming-policy"></a>명명 정책에 대 한 추가 문서
 
-[Azure Active Directory에서 Office 365 그룹에 대 한 명명 정책 적용](https://go.microsoft.com/fwlink/?linkid=868340)
+[Azure Active Directory에서 Microsoft 365 그룹에 대 한 명명 정책 적용](https://go.microsoft.com/fwlink/?linkid=868340)
 
 [그룹 설정 구성을 위한 Azure Active Directory cmdlet](https://go.microsoft.com/fwlink/?linkid=868341)

@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: josephd
 author: JoeDavies-MSFT
 manager: laurawi
-ms.date: 04/07/2020
+ms.date: 09/19/2019
 audience: ITPro
 ms.topic: article
 ms.service: o365-solutions
@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: Microsoft 365 for enterprise의 구성 요소, 계획 및 배포 경로에 대해 소개 합니다.
-ms.openlocfilehash: 6b8d2aa7fd8455acde1d49a6ed7f7c93c5235652
-ms.sourcegitcommit: dbbdeca5a6cd048e1bde9e820a8b8a0d6022c7a2
+ms.openlocfilehash: 85f05e85989d7b298ba0575c7447a3ef157ea163
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "43504094"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631564"
 ---
 # <a name="microsoft-365-for-enterprise-overview"></a>엔터프라이즈용 Microsoft 365 개요
 
@@ -32,7 +32,7 @@ ms.locfileid: "43504094"
 
 |||
 |:-------|:-----|
-| 로컬 및 클라우드 기반 앱 및 생산성 서비스 | Office 365 ProPlus, PC 및 Mac용 최신 Office 앱(예: Word, Excel, PowerPoint, Outlook 등) 및 전자 메일, 파일 저장소 및 공동 작업, 모임 등을 위한 완전한 온라인 서비스 제품군이 포함됩니다. |
+| 로컬 및 클라우드 기반 앱 및 생산성 서비스 | Office 용 Microsoft 365 앱, PC 및 Mac 용 최신 Office 앱 (예: Word, Excel, PowerPoint, Outlook 등)과 전자 메일, 파일 저장 및 공동 작업, 모임 등에 대 한 전체 온라인 서비스 모음을 포함 합니다. |
 | Windows 10 Enterprise | 광범위 한 배포, 장치 및 앱 관리를 통해 사용자에 게 가장 생산적이 고 안전한 버전의 Windows 및 IT 전문가가 제공 되는 대규모 및 중간 규모 조직 모두의 요구 사항을 해결 합니다. |
 | 장치 관리 및 고급 보안 서비스 | 회사 데이터를 보호 하는 동시에 직원의 생산성을 높일 수 있도록 하는 클라우드 기반 엔터프라이즈 이동성 관리 (EMM) 서비스인 Microsoft Intune이 포함 되어 있습니다. |
 |||
@@ -45,7 +45,7 @@ ms.locfileid: "43504094"
 |:-------|:-----|
 | E3 | 회사 생산성을 향상 시키고 안전 하 게 작업 하는 데 도움이 되도록 Microsoft 365 내의 핵심 제품과 기능에 액세스 합니다. |
 | E5 | Advanced threat protection, 보안 및 공동 작업 도구를 포함 하 여 Microsoft 365 내의 최신 제품 및 기능에 액세스 합니다. 모든 E3's 기능 및 고급 보안, 음성 및 데이터 분석 도구를 포함 합니다. |
-| F3 | 최고 작업을 수행 하는 데 사용할 수 있는 용도의 제작 된 도구 및 리소스를 통해 Firstline 작업자와 연결 합니다. |
+| F1 | 최고 작업을 수행 하는 데 사용할 수 있는 용도의 제작 된 도구 및 리소스를 통해 Firstline 작업자와 연결 합니다. |
 |||
 
 Microsoft 365 E3이 있는 경우 다음 [제품](https://www.microsoft.com/microsoft-365/blog/2019/01/02/introducing-new-advanced-security-and-compliance-offerings-for-microsoft-365/)을 구할 수도 있습니다.
@@ -55,7 +55,7 @@ Microsoft 365 E3이 있는 경우 다음 [제품](https://www.microsoft.com/micr
 
 이러한 제품에는 Microsoft 365 E5에 포함 된 추가 기능이 포함 되어 있습니다.
 
-각 계획에 포함 된 기능에 대 한 자세한 내용은 [엔터프라이즈를 Microsoft 365으로 변환](https://www.microsoft.com/microsoft-365/compare-microsoft-365-enterprise-plans)를 참조 하십시오.
+자세한 내용은 [각 요금제의 기능 및](https://www.microsoft.com/microsoft-365/compare-all-microsoft-365-plans)기능을 참조 하십시오.
 
 ## <a name="get-the-big-picture"></a>큰 그림 가져오기
 
@@ -125,7 +125,7 @@ Microsoft 365 E3이 있는 경우 다음 [제품](https://www.microsoft.com/micr
 
 ## <a name="additional-microsoft-365-solutions"></a>추가 Microsoft 365 솔루션
 
-- [Microsoft 365 Business](https://docs.microsoft.com/microsoft-365/business/)
+- [Microsoft 365 Business Premium](https://docs.microsoft.com/microsoft-365/business/)
  
   Office 365의 동급 최고의 생산성 및 공동 작업 기능을 장치 관리 및 보안 솔루션과 결합하여 SMB(중소 중견 기업)의 비즈니스 데이터를 보호합니다.
 

@@ -1,5 +1,5 @@
 ---
-title: Office 365 비즈니스 에디션 요금제를 수동으로 전환
+title: 수동으로 Microsoft 365 for business 요금제 전환
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -21,21 +21,19 @@ search.appverid:
 - BEA160
 ms.assetid: eb0d0680-5677-41a0-8c46-4b9d47f1c209
 ROBOTS: NOINDEX
-description: 새 구독을 구입 하 고 구독이 모두 나열 되 고 활성 상태가 되도록 하 여 Office 365 비즈니스 구독을 수동으로 전환 합니다.
-ms.openlocfilehash: a652053b204e84f8f2d3973eba76ead1cc7c1410
-ms.sourcegitcommit: 4988934836eee45c890b9bdd5ef73590656c78ba
+description: 새 구독을 구입 하 고 구독이 모두 나열 되 고 활성화 되도록 하 여 Microsoft 365 비즈니스 구독을 수동으로 전환 합니다.
+ms.openlocfilehash: e5245e333984c9d8e67b174f10cf48b2339348de
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43540846"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636537"
 ---
-# <a name="switch-office-365-for-business-plans-manually"></a>Office 365 비즈니스 에디션 요금제를 수동으로 전환
+# <a name="switch-microsoft-365-for-business-plans-manually"></a>수동으로 Microsoft 365 for business 요금제 전환
 
 ::: moniker range="o365-worldwide"
-
 > [!NOTE]
-> 이 문서는 이전 관리 센터에 적용 됩니다. 새 관리 센터에 대 한 문서를 보려면 [수동으로 변경 계획](change-plans-manually.md)을 참조 하십시오. 새 관리 센터는 모든 Microsoft 365 관리자가 사용할 수 있습니다. 자세한 내용은 [새 Microsoft 365 관리 센터 정보](../../admin/microsoft-365-admin-center-preview.md)를 참고하세요.
-
+> 이 문서는 이전 관리 센터에 적용 됩니다. 새 관리 센터에 대 한 문서를 보려면 [수동으로 변경 계획](change-plans-manually.md)을 참조 하십시오. 새 관리 센터는 모든 Microsoft 365 관리자가 사용할 수 있으며, 홈 페이지 맨 위에 있는 **새 관리 센터를 사용해 보기** 를 선택 하 여 옵트인 할 수 있습니다. 자세한 내용은 [새 Microsoft 365 관리 센터 정보](../../admin/microsoft-365-admin-center-preview.md)를 참고하세요.
 ::: moniker-end
 
 ## <a name="step-1-decide-how-to-switch-plans"></a>1 단계: 요금제 전환 방법 결정
@@ -56,11 +54,11 @@ ms.locfileid: "43540846"
   
 - 사용자나
   
- **새 구독 및 라이선스를 구입 합니다.** 새 구독을 구입 하려면 [비즈니스용 Office 365 for business subscription](../buy-another-subscription.md) 의 단계를 수행 합니다.
+ **새 구독 및 라이선스를 구입 합니다.** 새 구독을 구입 하려면 [비즈니스용 Microsoft 365 for business subscription](../buy-another-subscription.md) 의 단계를 수행 합니다.
   
 사용자가 현재 있는 동일한 조직에 대 한 구독을 구입 해야 합니다. 예를 들어 이동 하려는 사용자의 전자 메일 주소를 확인 합니다. 해당 전자 메일 주소에 @contoso가 포함 되어 있는 경우 contoso.com에 대 한 새 구독을 구입 해야 합니다. 이동 하려는 각 사용자에 대 한 라이선스를 포함 합니다.
   
- **계획 선택에 대 한 도움이 필요한 경우** [Office 365 for business 제품 비교](https://go.microsoft.com/fwlink/p/?linkid=842056) 페이지 또는 [통화 지원](../../admin/contact-support-for-business-products.md)를 참조 하세요.
+ **요금제를 선택 하는 데 도움이 필요한 경우** [에는 Microsoft 365 for business 제품 비교](https://go.microsoft.com/fwlink/p/?linkid=842056) 페이지를 참조 하거나 [지원 서비스에 문의](../../admin/contact-support-for-business-products.md)하십시오.
   
 ## <a name="step-3-check-your-new-subscription-and-licenses"></a>3 단계: 새 구독 및 라이선스 확인
 
@@ -86,7 +84,7 @@ ms.locfileid: "43540846"
 
     사용자를 이동 하는 구독과 사용자를 이동 하려는 구독은 함께 나열 되어야 합니다. 처음 확인할 때 새 구독이 없으면 나중에 다시 시도 하세요. 두 구독이 모두 **활성**아래에 나열 되어 있는지 확인 합니다. [새 구독이 나열 되지 않거나 활성](#the-new-subscription-isnt-listed-or-isnt-active)상태가 아닙니다.
 
-   **사용 가능한 라이선스가 포함 된 새로운 Office 365 비즈니스 에디션 구독**
+   **사용 가능한 라이선스가 포함 된 새로운 Microsoft 365 비즈니스 에디션 구독**
 
     ![새 구독에 대 한 라이선스 수를 보여 주는 구독 페이지입니다.](../../media/65a73e96-7c95-4daa-b6ec-71a4bf74dda5.png)
   
@@ -94,7 +92,7 @@ ms.locfileid: "43540846"
 
     각 사용자에 게는 구독과 일치 하는 라이선스가 필요 합니다. 따라서 10 명의 사용자를 Office 365 Enterprise e 5로 이동 하려는 경우에는 라이선스를 10 개 사용할 수 있는지 확인 해야 합니다. 여기에 있는 그림에서는 10 개의 라이선스가 Office 365 Enterprise e 5에 대해 구매 되었으며, 10 개의 라이선스를 할당할 수 있습니다.
 
-4. **새 구독에 대 한 라이선스가 더 필요 한가요?** **구독** 페이지로 이동 하 여 [비즈니스용 Office 365 구독에 대 한 라이선스를 구입](../licenses/buy-licenses.md)합니다.
+4. **새 구독에 대 한 라이선스가 더 필요 한가요?** **구독** 페이지로 이동 하 여 [Microsoft 365 for business 구독에 대 한 라이선스를 구입](../licenses/buy-licenses.md)합니다.
   
     [이전 라이선스는 무엇 인가요?](#what-about-the-old-licenses)
 

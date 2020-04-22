@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 7f5912306700efa0db704fe8d0c0db006105fda6
-ms.sourcegitcommit: 74bf600424d0cb7b9d16b4f391aeda7875058be1
+ms.openlocfilehash: 46849aa81da5a615a5dff7c5e2ac28566443d3ee
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42234767"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43633522"
 ---
 # <a name="emailurlinfo"></a>EmailUrlInfo
 
@@ -39,7 +39,7 @@ ms.locfileid: "42234767"
 |-------------|-----------|-------------|
 | `Timestamp` | datetime | 이벤트가 기록된 날짜와 시간 |
 | `UrlId` | 문자열 | 전자 메일 제목, 본문 또는 첨부 파일의 URL에 대한 고유 식별자 |
-| `NetworkMessageId` | 문자열 | Office 365에서 생성되는 전자 메일의 고유 식별자 |
+| `NetworkMessageId` | 문자열 | Microsoft 365에서 생성 된 전자 메일에 대 한 고유 식별자입니다. |
 | `Url` | 문자열 | 전자 메일 제목, 본문 또는 첨부 파일의 전체 URL |
 
 ## <a name="related-topics"></a>관련 항목

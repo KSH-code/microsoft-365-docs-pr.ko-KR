@@ -1,5 +1,5 @@
 ---
-title: EasyDNS에서 Office 365에 대 한 DNS 레코드 만들기
+title: EasyDNS에서 Microsoft에 대 한 DNS 레코드 만들기
 f1.keywords:
 - NOCSH
 ms.author: pebaum
@@ -18,21 +18,21 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 446babfe-2e08-4cc2-bbfb-c05b854933ac
-description: 도메인을 확인 하 고 전자 메일, 비즈니스용 Skype Online 및 기타 서비스에 대 한 DNS 레코드를 Office 365 용 easyDNS에 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: 9d48896de8f841863e25929a46b2f1d2e1b3ced2
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+description: 도메인을 확인 하 고 전자 메일, 비즈니스용 Skype Online 및 기타 서비스에 대 한 DNS 레코드를 Microsoft 용 easyDNS에 설정 하는 방법을 알아봅니다.
+ms.openlocfilehash: b7b29900108ab94f0fd99dcf3404cfa137ce92ff
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43210555"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631360"
 ---
-# <a name="create-dns-records-at-easydns-for-office-365"></a>EasyDNS에서 Office 365에 대 한 DNS 레코드 만들기
+# <a name="create-dns-records-at-easydns-for-microsoft"></a>EasyDNS에서 Microsoft에 대 한 DNS 레코드 만들기
 
 원하는 정보를 찾지 못한 경우 [도메인 FAQ를 확인](../setup/domains-faq.md) 합니다. 
   
-Office 365로 메일을 라우팅하고, 팀과 비즈니스용 Skype에 대해 도메인을 사용 하려면 등록자의 웹 사이트에서 다음 DNS 레코드를 모두 추가 해야 합니다.
+Microsoft로 메일을 라우팅하기 위해 등록자의 웹 사이트에서 다음 DNS 레코드를 모두 추가 하 고, 팀과 비즈니스용 Skype 등에 대해 도메인을 사용 해야 합니다.
   
-참고: SRV 레코드는 현재 모든 easyDNS 서비스 패키지에서 사용할 수 없습니다. Office 365 비즈니스용 Skype에 필요한 SRV 레코드를 추가 하려면 easyDNS를 사용 하 여 더 높은 수준의 서비스 수준으로 업그레이드 해야 할 수 있습니다.
+참고: SRV 레코드는 현재 모든 easyDNS 서비스 패키지에서 사용할 수 없습니다. 비즈니스용 Skype에 필요한 SRV 레코드를 추가 하려면 easyDNS를 사용 하 여 더 높은 수준의 서비스 수준으로 업그레이드 해야 할 수 있습니다.
   
 ## <a name="verify-that-you-own-the-domain-with-a-txt-record"></a>TXT 레코드를 사용 하 여 도메인을 소유 하 고 있는지 확인
 
@@ -52,9 +52,9 @@ Office 365로 메일을 라우팅하고, 팀과 비즈니스용 Skype에 대해 
     
 6. 레코드가 올바른지 확인 하 고 **확인**을 선택 합니다. 
     
-7. 방금 만든 레코드가 인터넷을 통해 전파 되 고 Office 365에서 검색할 수 있도록 몇 분 정도 기다립니다.
+7. 방금 만든 레코드가 인터넷을 통해 전파 되 고 Microsoft에서 검색할 수 있도록 몇 분 정도 기다립니다.
     
-8. 이제 도메인 등록 기관에 레코드가 추가되었습니다. Office 365로 돌아가서 Office 365에 레코드를 찾을 것을 요청합니다.
+8. 도메인 등록 기관 사이트에서 레코드를 추가 했으므로 이제 Microsoft로 이동 하 여 레코드를 요청 합니다.
     
 9. I관리 센터에서 ** 설정 ** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank"> 도메인 </a> 페이지로 이동하십시오.
     
@@ -64,7 +64,7 @@ Office 365로 메일을 라우팅하고, 팀과 비즈니스용 Skype에 대해 
     
 12. **도메인 확인** 페이지에서 **확인**을 선택합니다. 
     
-## <a name="add-an-mx-record-to-route-email-to-office-365"></a>전자 메일을 Office 365로 라우팅하기 위해 MX 레코드 추가
+## <a name="add-an-mx-record-to-route-email-to-microsoft"></a>Microsoft에 전자 메일을 라우팅하기 위한 MX 레코드 추가
 
 1. [https://cp.easydns.com/manage/domains/](https://cp.easydns.com/manage/domains/) 으로 이동 하 여 자격 증명을 사용 하 여 로그인 합니다. 
     
@@ -125,7 +125,7 @@ Office 365로 메일을 라우팅하고, 팀과 비즈니스용 Skype에 대해 
     
 6. 레코드가 올바른지 확인 하 고 **확인**을 선택 합니다. 
     
-## <a name="add-the-two-srv-records-that-are-required-for-office-365"></a>Office 365에 필요한 2개의 SRV 레코드 추가
+## <a name="add-the-two-srv-records-that-are-required-for-microsoft"></a>Microsoft에 필요한 두 개의 SRV 레코드를 추가 합니다.
 
 참고: easyDNS ' 도메인 Plus 서비스 수준 '에서는 현재 SRV 레코드를 사용할 수 없습니다. SRV 레코드를 추가 하려면 easyDNS를 사용 하 여 더 높은 서비스 수준으로 업그레이드 해야 할 수 있습니다. 
   

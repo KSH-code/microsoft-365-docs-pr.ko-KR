@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 2921f544-8257-4bae-8e3a-ce9250e9f162
 description: Microsoft EOP(Exchange Online Protection)에서는 메일 받는 사람을 관리하는 다양한 방법이 제공됩니다. 관리자는 EAC (Exchange 관리 센터) 내에서 또는 원격 Windows PowerShell을 사용 하 여 특정 관리 작업을 수행 하 고 Microsoft 365 관리 센터에서 수행 된 기타 관리 작업을 확인할 수 있습니다.
-ms.openlocfilehash: dc79299088beb23f856f0aa385fe7bd34c3e5709
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: b5d1efa0fb54b97f226f25375fb747e5373a36cd
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41598955"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635343"
 ---
 # <a name="manage-recipients-in-eop"></a>EOP에서 받는 사람 관리
 
@@ -25,7 +25,7 @@ Microsoft EOP(Exchange Online Protection)에서는 메일 받는 사람을 관�
 
 EOP는 다음과 같은 유형의 받는 사람을 지원합니다.
 
-- **메일 사용자**: 메일 사용자는 EOP 관리 되는 도메인의 받는 사람입니다. 이러한 받는 사람은 Office 365 조 직에 로그온 자격 증명을 갖고 있지만 받는 사람의 사서함이 클라우드 조직 외부에 있다는 것을 의미 하는 외부 전자 메일 주소가 있습니다.
+- **메일 사용자**: 메일 사용자는 EOP 관리 되는 도메인의 받는 사람입니다. 이러한 받는 사람은 조직에 로그온 자격 증명을 갖고 있지만 받는 사람의 사서함이 클라우드 조직 외부에 있다는 것을 의미 하는 외부 전자 메일 주소가 있습니다.
 
   메일 사용자를 추가 하 여 메일을 받을 수 있으며 특정 사용자에 대 한 메일 흐름 규칙 (전송 규칙이 라고도 함)을 만들 수도 있습니다. 조직의 메일 사용자에 게 역할을 할당할 수도 있습니다. 관리 역할 그룹 권한을 가진 사용자는 EAC (Exchange 관리 센터)에 액세스 하 고 특정 관리 작업을 수행할 수 있습니다. 사용자 역할에 대 한 자세한 내용을 확인 하 고 EOP에서 사용자 역할을 할당 하는 방법에 대 한 자세한 내용은 [EOP에서 관리자 역할 그룹 권한 관리](manage-admin-role-group-permissions-in-eop.md)를 참조 하십시오.
 

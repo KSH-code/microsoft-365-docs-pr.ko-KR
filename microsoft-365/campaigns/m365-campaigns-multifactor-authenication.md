@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 - MOE150
 description: 다단계 인증을 설정 합니다.
-ms.openlocfilehash: b0594551b9efb907dfba374f781f21b8850f85d1
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 35171688f9e224bdcb9ce8a592cc80124d253d2d
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41594843"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43633704"
 ---
 # <a name="set-up-multifactor-authentication"></a>다단계 인증 설정
 
@@ -36,7 +36,7 @@ Multi-factor authentication은 비즈니스에 대 한 보안을 강화 합니�
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2MmQR] 
 
-[Microsoft 365 Business에서 다단계 인증 설정](https://support.office.com/article/a32541df-079c-420d-9395-9d59354f7225) 에 대 한 자세한 내용을 확인 하세요.
+[Microsoft 365에서 설정 다단계 인증](https://support.office.com/article/a32541df-079c-420d-9395-9d59354f7225) 에 대 한 자세한 내용을 참조 하세요.
 
 ## <a name="use-the-outlook-app-in-your-devices"></a>장치에서 Outlook 앱 사용
 

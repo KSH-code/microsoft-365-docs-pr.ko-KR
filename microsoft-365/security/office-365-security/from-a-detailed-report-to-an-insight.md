@@ -17,16 +17,16 @@ ms.assetid: d2104778-f0a1-4b69-baf3-c4b32e98a573
 ms.collection:
 - M365-security-compliance
 description: 보안 &amp; 및 준수 센터에서 권장 작업을 포함 하 여 자세한 보고서에서 통찰력으로 이동 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: fc18af7d4ca813adb6fbfc01d44138b4a9266c6e
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 8d56886a39e14eddd5ad6505a4fe68e20fc6a543
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42086218"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43638085"
 ---
 # <a name="walkthrough---from-a-detailed-report-to-an-insight"></a>연습 - 자세한 보고서에서 통찰력에 이르기까지
 
-[Office 365 보안 &amp; 및 준수 센터의 보고서 및 통찰력](reports-and-insights-in-security-and-compliance.md)을 처음 사용할 경우 자세한 보고서에서 통찰력 및 권장 작업으로 쉽게 이동할 수 있는 방법을 확인 하는 데 도움이 될 수 있습니다. 
+[ &amp; 보안 및 준수 센터의 보고서 및 통찰력](reports-and-insights-in-security-and-compliance.md)을 처음 사용할 경우 자세한 보고서에서 통찰력 및 권장 작업으로 쉽게 이동할 수 있는 방법을 확인 하는 데 도움이 될 수 있습니다. 
   
 다음은 보안 &amp; 및 준수 센터에 대 한 몇 가지 연습 중 하나입니다. 추가 연습을 보려면 [관련 항목](#related-topics) 섹션을 참조 하십시오. 
   

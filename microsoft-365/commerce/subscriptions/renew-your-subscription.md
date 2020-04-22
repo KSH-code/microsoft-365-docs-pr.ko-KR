@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Office 365 갱신
+title: Microsoft 365 for business 갱신
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -23,19 +23,19 @@ search.appverid:
 - BEA160
 - GEA150
 ms.assetid: 8d83b530-f4ca-47f6-a666-e5791cbacc7e
-description: '제품 키를 사용 하 여 Office 365 비즈니스 구독을 갱신 하 고, 되풀이 대금 청구를 설정 하거나 해제 하는 방법을 알아봅니다. '
-ms.openlocfilehash: a382a2c4767f9dac4ee276c050d077d854b99084
-ms.sourcegitcommit: 053d42480d8aa3792ecb0027ddd53d383a029474
+description: '제품 키를 사용 하 여 Microsoft 365 비즈니스 에디션 구독을 갱신 하 고, 되풀이 되는 대금 청구를 설정 하거나 해제 하는 방법을 알아봅니다. '
+ms.openlocfilehash: 1c3fc5f9648c814d300cd65ac872f1e28e90ca0d
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43175205"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636562"
 ---
-# <a name="renew-office-365-for-business"></a>비즈니스용 Office 365 갱신
+# <a name="renew-microsoft-365-for-business"></a>Microsoft 365 for business 갱신
 
-이 문서는 가장 유료 Office 365 비즈니스 구독에 적용 됩니다.
+이 문서는 비즈니스에 대 한 가장 유료 Microsoft 365의 구독에 적용 됩니다.
   
-소매점 또는 Office 365 파트너 로부터 구매한 제품 키를 사용 하 여 갱신 하려면 [제품 키를 찾아 입력](../enter-your-product-key.md)합니다 .를 참조 하세요.
+소매점 또는 Microsoft 파트너 로부터 구매한 제품 키를 사용 하 여 갱신 하려면 [제품 키를 찾아 입력](../enter-your-product-key.md)합니다 .를 참조 하세요.
 
 > [!NOTE]
 > 은행 계좌를 통한 결제는 일부 국가나 지역에서는 사용할 수 없습니다.
@@ -48,9 +48,10 @@ ms.locfileid: "43175205"
 
 ::: moniker range="o365-worldwide"
 
+
 1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품 및 서비스</a> 페이지로 이동합니다.
 
-2. 반복 결제를 관리할 구독을 선택합니다.
+2. 되풀이 청구를 관리할 구독을 선택합니다.
  
 3. **청구**에서 **갱신 켜기** 또는 **만료 설정**옆에 있는 **편집**을 선택 합니다.
 
@@ -67,9 +68,13 @@ ms.locfileid: "43175205"
 
 ::: moniker range="o365-germany"
   
-1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">구독</a> 페이지로 이동합니다.
+1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">구독</a> 페이지로 이동합니다.
 
-2. 반복 결제를 관리할 구독을 선택합니다.
+    사용 중인 경우 Office 365 Germany이 <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">구독</a> 페이지로 이동합니다.
+
+    사용 중인 경우 21Vianet에서 운영하는 Office 365이 <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">구독</a> 페이지로 이동합니다.
+
+2. 되풀이 청구를 관리할 구독을 선택합니다.
  
 3. 되풀이 되는 **대금 청구**를 설정 하려면 토글을 **설정으로 전환 합니다.**
 
@@ -86,9 +91,13 @@ ms.locfileid: "43175205"
 
 ::: moniker range="o365-21vianet"
   
-1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">구독</a> 페이지로 이동합니다.
+1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">구독</a> 페이지로 이동합니다.
 
-2. 반복 결제를 관리할 구독을 선택합니다.
+    사용 중인 경우 Office 365 Germany이 <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">구독</a> 페이지로 이동합니다.
+
+    사용 중인 경우 21Vianet에서 운영하는 Office 365이 <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">구독</a> 페이지로 이동합니다.
+
+2. 되풀이 청구를 관리할 구독을 선택합니다.
  
 3. 되풀이 되는 **대금 청구**를 설정 하려면 토글을 **설정으로 전환 합니다.**
 
@@ -106,7 +115,7 @@ ms.locfileid: "43175205"
 ## <a name="related-articles"></a>관련 문서
 
 [구독 다시 활성화](reactivate-your-subscription.md)
-
+  
 [구독이 종료되면 내 데이터와 액세스 권한에 어떤 변화가 있나요?](what-if-my-subscription-expires.md)
 
 [결제 방법을 추가, 업데이트 또는 제거](../billing-and-payments/add-update-or-remove-credit-card-or-bank-account.md)
@@ -115,4 +124,4 @@ ms.locfileid: "43175205"
   
 [제품 키 입력](../enter-your-product-key.md)
   
-[비즈니스용 Office 365 평가판 구입](../buy-a-subscription-from-your-free-trial.md)
+[비즈니스용 Microsoft 365 평가판 구입](../buy-a-subscription-from-your-free-trial.md)

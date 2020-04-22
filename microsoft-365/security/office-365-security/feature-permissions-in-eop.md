@@ -12,18 +12,18 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 34674847-a6b7-4a7e-9eaa-b64f22bc150d
 description: Microsoft EOP(Exchange Online Protection)를 관리하기 위한 작업을 수행하는 데 필요한 사용 권한은 관리 대상 기능에 따라 다릅니다.
-ms.openlocfilehash: 2129df7faaa977d59f8af8082291520d33bc9cc7
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 146bf34f157eb30e680ad9e0c3e53501d6e7b425
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41599315"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43638121"
 ---
 # <a name="feature-permissions-in-eop"></a>EOP의 기능 사용 권한
 
 EOP (Exchange Online Protection)를 관리 하기 위한 작업을 수행 하는 데 필요한 사용 권한은 관리 대상 기능에 따라 다릅니다.
 
-EOP를 설정하려면 Office 365 전역 관리자 또는 Exchange 회사 관리자(조직 관리 역할 그룹)여야 합니다.
+EOP를 설정 하려면 전역 관리자 또는 Exchange 회사 관리자 (조직 관리 역할 그룹) 여야 합니다.
 
 ## <a name="exchange-online-protection-permissions"></a>Exchange Online Protection 사용 권한
 
@@ -36,7 +36,7 @@ EOP 기능을 관리하는 데 필요한 사용 권한을 확인하려면 다음
 |메일 흐름 규칙|조직 관리 <br/><br/> 레코드 관리|
 |도메인|조직 관리 <br/><br/> 보기 전용 조직 관리|
 |ATP (Advanced Threat Protection)|조직 관리 <br/><br/> 예방 조치 관리|
-|Office 365 커넥터|조직 관리|
+|Microsoft 365 커넥터|조직 관리|
 |Message trace|조직 관리 <br/><br/> 보기 전용 조직 관리|
 |조직 구성|조직 관리|
 |격리|조직 관리 <br/><br/> 보기 전용 조직 관리 <br/><br/> 예방 조치 관리|

@@ -5,23 +5,23 @@ keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
-ms.openlocfilehash: 0668564fea300ace1bdf8ad32a34d85c2ad5a641
-ms.sourcegitcommit: 053d42480d8aa3792ecb0027ddd53d383a029474
+ms.openlocfilehash: b7054613ea9add542e2a4466c6feb6d911c99701
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "35830496"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637867"
 ---
 # <a name="microsoft-managed-desktop-service-description"></a>Microsoft Managed Desktop 서비스 설명
 
-Microsoft Managed Desktop은 다음과 같은 최신 버전의 Windows 10 Enterprise edition, Office 365 ProPlus 및 Microsoft 보안 서비스를 사용 하 여 사용자에 게 최신 환경을 제공 하 고 항상 장치를 최신 상태로 유지 하는 서비스입니다.
+Microsoft Managed Desktop은 최신 버전의 Windows 10 Enterprise edition, Microsoft 365 앱 및 Microsoft 보안 서비스 (다음 포함)를 사용 하 여 장치를 항상 최신 상태로 유지 하는 서비스입니다.
 
 - 간소화 된 새 장치 등록
 - 장치 구성
 - Microsoft 모범 사례에 따른 Windows Hello, BitLocker, SecureBoot 및 가상화 기반 보안을 포함 하 여 사용자 및 장치를 안전 하 게 유지 하는 기능
 - 장치 보안 모니터링 및 업데이트 관리 서비스
 - 앱 호환성 ( [데스크톱 앱 보장](https://docs.microsoft.com/fasttrack/win-10-desktop-app-assure) )
-- Windows 10 및 Office 365 ProPlus 앱에 대 한 업데이트 관리
+- Windows 10 용 업데이트 관리 및 엔터프라이즈 앱 용 Microsoft 365 앱
 - 장치 및 앱 사용에 대 한 분석 데이터
 - 최종 사용자를 위한 IT 지원
 - IT 전문가를 위한 운영 지원

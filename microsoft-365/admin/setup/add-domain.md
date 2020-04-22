@@ -25,12 +25,12 @@ search.appverid:
 - MOE150
 ms.assetid: 6383f56d-3d09-4dcb-9b41-b5f5a5efd611
 description: DNS 호스트에서 DNS 레코드를 추가 하 여 Microsoft 365 관리 센터에서 Office 365에 도메인을 추가 합니다. 설치 마법사가 프로세스를 안내 합니다.
-ms.openlocfilehash: 746163b83190a73326ad589b8e3bc9377ddaa9b4
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+ms.openlocfilehash: 8e08233ffe33ac2b5d41ad164af80468de52983d
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43209643"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631818"
 ---
 # <a name="add-a-domain-to-office-365"></a>Office 365에 도메인 추가
 
@@ -75,7 +75,7 @@ ms.locfileid: "43209643"
     
 5. 도메인을 소유 하 고 있는지 확인 하는 방법을 선택 합니다.
     
-    1. 도메인이 godaddy 또는 1&amp;1에 등록 되어 있는 경우**다음** **로그인** > 을 선택 하면 Office 365 [에서 자동으로 레코드를 설정](../get-help-with-domains/domain-connect.md)합니다.
+    1. 도메인이 godaddy&amp;또는 1 1에 등록 되어 있으면**다음** **로그인** > 을 선택 하 고 Microsoft[에서 레코드를 자동으로 설정](../get-help-with-domains/domain-connect.md)합니다.
     
     2. 도메인에 대해 등록된 연락처로 확인 코드가 포함된 전자 메일을 받을 수 있습니다. 알 수 없거나 기록 된 전자 메일에 대 한 액세스 권한이 있는 경우 세 번째 옵션을 사용 하면 됩니다.
     
@@ -112,4 +112,4 @@ ms.locfileid: "43209643"
 
 [도메인 설정(호스트별 지침)](../get-help-with-domains/set-up-your-domain-host-specific-instructions.md)
 
-[Office 365 도메인에 대 한 도움말 보기](../get-help-with-domains/get-help-with-domains.md)
+[도메인 도움말 보기](../get-help-with-domains/get-help-with-domains.md)

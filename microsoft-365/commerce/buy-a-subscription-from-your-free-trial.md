@@ -1,5 +1,5 @@
 ---
-title: 무료 평가판에서 Office 365 비즈니스 에디션 구독 구입
+title: 무료 평가판에서 Microsoft 365 비즈니스에 대 한 구독 구입
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -26,17 +26,17 @@ search.appverid:
 - MOE150
 - BEA160
 ms.assetid: 485fee6d-b22e-440a-9053-a4e7fa509c92
-description: 비즈니스용 Office 365 구독을 구매 합니다. 같은 유형의 구독을 구입 하거나 다른 요금제를 구입할 수 있습니다.
-ms.openlocfilehash: 10e3212b739128a9cd2af23f22b644ad4b1df2d9
-ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
+description: 비즈니스를 위한 Microsoft 365 구독을 구매 합니다. 같은 유형의 구독을 구입 하거나 다른 요금제를 구입할 수 있습니다.
+ms.openlocfilehash: 3635a4ae729aa0759ef1f2de2905fa745a48951a
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43142290"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634947"
 ---
-# <a name="buy-a-subscription-to-office-365-for-business-from-your-free-trial"></a>무료 평가판에서 Office 365 비즈니스 에디션 구독 구입
+# <a name="buy-a-subscription-to-microsoft-365-for-business-from-your-free-trial"></a>무료 평가판에서 Microsoft 365 비즈니스에 대 한 구독 구입
 
-Office 365 평가판을 사용해 봤으며 이제 구입할 준비가 되었습니다. 평가판에서 Office 365을 구매할 때는 다음과 같은 두 가지 옵션을 사용할 수 있습니다.
+Microsoft 365를 사용해 보았지만 이제 구매할 준비가 되었습니다. 평가판에서 Microsoft 365을 구매할 때는 다음과 같은 두 가지 옵션을 사용할 수 있습니다.
   
 - [평가판과 동일한 계획 구입](#buy-the-same-plan-as-your-trial)
 - [평가판과 다른 계획 구입](#buy-a-different-plan-than-your-trial)
@@ -66,7 +66,7 @@ Office 365 평가판을 사용해 봤으며 이제 구입할 준비가 되었습
 
 ::: moniker range="o365-germany"
 
-1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">구독</a> 페이지로 이동 합니다.
+1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">구독</a> 페이지로 이동합니다.
 
 2. **구독** 페이지에서 구입하려는 평가판 구독의 **지금 구입** 단추를 선택합니다.
 
@@ -80,7 +80,7 @@ Office 365 평가판을 사용해 봤으며 이제 구입할 준비가 되었습
 
 ::: moniker range="o365-21vianet"
 
-1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">구독</a> 페이지로 이동 합니다.
+1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">구독</a> 페이지로 이동합니다.
 
 2. **구독** 페이지에서 구입하려는 평가판 구독의 **지금 구입** 단추를 선택합니다.
 
@@ -98,6 +98,7 @@ Office 365 평가판을 사용해 봤으며 이제 구입할 준비가 되었습
 
 ::: moniker range="o365-worldwide"
 
+
 1. 관리 센터에서 **결제** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">구매 서비스</a> 페이지로 이동 합니다.
 
 2. **서비스 구매** 페이지에서 구매할 구독을 선택 하 고 **구입**을 선택 합니다.
@@ -114,7 +115,7 @@ Office 365 평가판을 사용해 봤으며 이제 구입할 준비가 되었습
 
 ::: moniker range="o365-germany"
 
-1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">구독</a> 페이지로 이동 합니다.
+1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">구독</a> 페이지로 이동합니다.
 
 2. **구독** 페이지에서 **구독 추가**를 선택 합니다.
 
@@ -136,7 +137,8 @@ Office 365 평가판을 사용해 봤으며 이제 구입할 준비가 되었습
 
 ::: moniker range="o365-21vianet"
 
-1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">구독</a> 페이지로 이동 합니다.
+
+1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">구독</a> 페이지로 이동합니다.
 
 2. **구독** 페이지에서 **구독 추가**를 선택 합니다.
 
@@ -156,10 +158,11 @@ Office 365 평가판을 사용해 봤으며 이제 구입할 준비가 되었습
 
 ::: moniker-end
 
+
 ## <a name="related-articles"></a>관련 문서
 
 [평가판 연장](extend-your-trial.md)
   
-[Office 365에 등록](../admin/admin-overview/sign-up-for-office-365.md)
+[Microsoft 365에 등록](../admin/admin-overview/sign-up-for-office-365.md)
   
-[다른 Office 365 계획 또는 구독으로 전환](subscriptions/switch-to-a-different-plan.md)
+[다른 Microsoft 365 계획 또는 구독으로 전환](subscriptions/switch-to-a-different-plan.md)

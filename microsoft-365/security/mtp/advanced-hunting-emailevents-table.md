@@ -1,7 +1,7 @@
 ---
 title: 고급 헌팅 스키마의 EmailEvents 표
-description: 고급 헌팅 스키마의 EmailEvents 표에 나와있는 Office 365 전자 메일에 관련된 이벤트에 대해 알아보기
-keywords: 고급 구하기, 위협 검색, 사이버 위협 사냥, microsoft threat protection, microsoft 365, mtp, m365, 검색, 쿼리, 원격 분석, 스키마 참조, kusto, table, column, data type, description, EmailEvents, network message id, sender, recipient, 첨부 파일 id, 첨부 파일 이름, 맬웨어 결과, 피싱 결과, 첨부 파일 수, 링크 수, url 개수
+description: 고급 구하기 스키마의 EmailEvents 테이블에서 Microsoft 전자 메일과 연결 된 이벤트에 대해 자세히 알아보기
+keywords: 고급 구하기, 위협 검색, 사이버 위협 요소 검색, microsoft threat protection, microsoft 365, mtp, m365, 검색, 쿼리, 원격 분석, 스키마 참조, kusto, table, column, data type, description, 결과,, 메시지, 첨부 파일 id, 첨부 파일 이름, 맬웨어, 피싱 결과, 첨부 파일 수, 링크 개수, url 개수
 search.product: eADQiWindows 10XVcnh
 search.appverid: met150
 ms.prod: microsoft-365-enterprise
@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 690618bb6379532598e60a4e6664df070dd7e5cb
-ms.sourcegitcommit: 74bf600424d0cb7b9d16b4f391aeda7875058be1
+ms.openlocfilehash: 3146c428edcf276d0a4d5e7797ed913be48dd2ae
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42234787"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43633534"
 ---
 # <a name="emailevents"></a>EmailEvents
 
@@ -39,7 +39,7 @@ ms.locfileid: "42234787"
 |-------------|-----------|-------------|
 | `Timestamp` | datetime | 이벤트가 기록된 날짜와 시간 |
 | `EmailId` | 문자열 | 고유한 전자 메일 및 받는 사람 식별자 |
-| `NetworkMessageId` | 문자열 | Office 365에서 생성되는 전자 메일의 고유 식별자 |
+| `NetworkMessageId` | 문자열 | Microsoft 365에서 생성 된 전자 메일에 대 한 고유 식별자입니다. |
 | `InternetMessageId` | 문자열 | 보내는 전자 메일 시스템에서 설정한 전자 메일의 공개 식별자 |
 | `SenderMailFromAddress` | 문자열 | 보낸 사람 머리글의 보낸 사람 전자 메일 주소(봉투의 보낸 사람 또는 반송 경로 주소라고도 함) |
 | `SenderFromAddress` | 문자열 | 전자 메일 클라이언트의 전자 메일 수신자에게 표시되는 FROM 머리글의 발신자 전자 메일 주소  |

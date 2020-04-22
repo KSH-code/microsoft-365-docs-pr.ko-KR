@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 9dbff00a-474e-4452-aeb5-5be9a6b8c6d5
 description: 다음은 Microsoft EOP(Exchange Online Protection) 클라우드 호스팅 전자 메일 필터링 서비스에 대한 가장 일반적인 질문과 그에 대한 대답입니다. 그 이외의 FAQ(질문과 대답) 항목은 다음 링크를 참조하십시오.
-ms.openlocfilehash: 842f022edbba9d1a790a26987982c3bd508e9d5e
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: 899109a768399f53674b97fc8df2f71aa822316d
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42893685"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636255"
 ---
 # <a name="eop-general-faq"></a>EOP 관련 일반 FAQ(질문과 대답)
 
@@ -51,19 +51,19 @@ ms.locfileid: "42893685"
 
 대답. MX 레코드를 변경할 경우 [EOP 서비스 설정](set-up-your-eop-service.md) 및 EOP를 통한 메일 흐름에 설명된 단계에 따라 필터링이 즉시 시작됩니다. MX 레코드가 DNS를 통해 전파되려면 24~48시간 정도 소요될 수 있습니다. 이 프로세스 동안 언제든지 EAC(Exchange 관리 센터)에서 보호 설정을 세부적으로 조정할 수 있습니다.
 
-**질문. EOP를 사용하려면 Microsoft Office 365의 모든 기능을 사용해야 합니까? EOP 보호만 사용해도 됩니까?**
+**Q. EOP를 사용 하려면 Microsoft 365의 모든 기능을 사용 해야 하나요? EOP 보호를 원하는 경우에는 어떻게 하나요?**
 
-대답. Office 365의 다른 기능은 사용하지 않고 EOP를 사용하여 온-프레미스 사서함을 보호할 수 있습니다. 이를 독립 실행형 구독이라고 합니다. EOP 기능 목록은 [Exchange Online Protection 서비스 설명](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)에서 찾을 수 있습니다.
+대답. EOP을 사용 하 여 Microsoft 365의 다른 기능을 사용 하지 않고 온-프레미스 사서함을 보호할 수 있습니다. 이를 독립 실행형 구독이라고 합니다. EOP 기능 목록은 [Exchange Online Protection 서비스 설명](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)에서 찾을 수 있습니다.
 
-**질문. EOP를 통해 전자 메일 필터링에 등록할 때 Office 365 테넌트가 필요한 이유는 무엇입니까?**
+**Q. EOP를 통해 전자 메일 필터링에 등록할 때 Microsoft 365 테 넌 트가 필요한 이유는 무엇 인가요?**
 
-대답. Office 365는 Office 365 테넌트를 통해 액세스할 수 있는 제품과 서비스 모음에 지정된 이름입니다. Office 365 테넌트는 전자 메일 필터링용 라이선스를 추가할 수 있는 시작점으로 생각하면 됩니다.
+대답. Microsoft 365은 Microsoft 365 테 넌 트를 통해 액세스할 수 있는 제품 및 서비스 모음에 제공 되는 이름입니다. Microsoft 365 테 넌 트는 전자 메일 필터링에 대 한 라이선스를 추가할 수 있는 시작 점으로 생각 하면 됩니다.
 
 **Q. EOP에도 알려진 문제와 필요한 해결 방법에 대한 정보를 찾을 수 있는 통신 포털이 있습니까? 새로운 기능에 대한 정보는 어떻게 확인할 수 있습니까?**
 
-A. Microsoft 365 관리 센터에는 이러한 정보 중 일부가 포함 되어 있습니다. 서비스 수준 이벤트의 영향을 받는 경우 Microsoft 365 관리 센터에 로그인 한 후 통신 경고 (일반적으로 종 아이콘이 함께)가 표시 됩니다. 관련 정보를 확인하고 항목에 대한 작업을 적절하게 수행하는 것이 좋습니다.
+A. Microsoft 365 관리 센터에는 이러한 정보 중 일부가 포함 되어 있습니다. 서비스 수준 이벤트의 영향을 받는 경우 Microsoft 365 관리 센터에 로그인 한 후 통신 경고 (일반적으로 종 아이콘이 함께)가 표시 됩니다. 모든 항목을 읽고 적절한 조치를 취하는 것이 좋습니다.
 
-새 EOP 기능과 관련해서 [비즈니스용 Office 365 로드맵](https://www.microsoft.com/microsoft-365/roadmap?filters=O365)은 향후 출시될 새 기능에 대한 정보를 찾는 데 유용한 리소스입니다. 또한 [Microsoft 365 블로그](https://www.microsoft.com/microsoft-365/blog/) 웹 사이트에 새로운 기능에 대 한 블로그 문서를 게시 합니다.
+새로운 EOP 기능에 대 [한 Microsoft 365 비즈니스 로드맵](https://www.microsoft.com/microsoft-365/roadmap?filters=O365) 은 예정 된 새로운 기능에 대 한 정보를 확인할 수 있는 좋은 리소스입니다. 또한 [Microsoft 365 블로그](https://www.microsoft.com/microsoft-365/blog/) 웹 사이트에 새로운 기능에 대 한 블로그 문서를 게시 합니다.
 
 **질문. Exchange Server 2010 등의 레거시 Exchange 버전 및 Exchange 이외의 환경에서도 서비스가 작동합니까?**
 
@@ -75,7 +75,7 @@ A. Microsoft 365 관리 센터에는 이러한 정보 중 일부가 포함 되�
 
 **EOP를 설정하려면 어떤 사용 권한이 필요합니까?**
 
-EOP를 구성하려면 Office 365 전역 관리자 또는 Exchange 회사 관리자(조직 관리 역할 그룹)여야 합니다.
+EOP을 구성 하려면 전역 관리자 또는 Exchange 회사 관리자 (조직 관리 역할 그룹) 여야 합니다.
 
 **질문. 내 데이터와 개인 정보가 안전한지 어떻게 알 수 있습니까?**
 

@@ -15,19 +15,19 @@ ms.custom:
 - TLG
 - Ent_TLGs
 ms.assetid: d1795031-beef-49ea-a6fc-5da5450d320d
-description: '요약: Office 365 개발/테스트 환경에서 조직의 나머지 부분과 격리 된 SharePoint Online 팀 사이트를 구성 합니다.'
-ms.openlocfilehash: fc56a151d00eba3a6c0131ae1692febe69e76122
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: '요약: Microsoft 365 개발/테스트 환경에서 조직의 나머지 사람들과 격리 된 SharePoint Online 팀 사이트를 구성 합니다.'
+ms.openlocfilehash: 2a1c728f5cbc1d622bb46ffd7532f1103a7995d3
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42083011"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634125"
 ---
 # <a name="isolated-sharepoint-online-team-site-devtest-environment"></a>격리된 SharePoint Online 팀 사이트 개발/테스트 환경
 
- **요약:** Office 365 개발/테스트 환경에서 조직의 나머지 부분과 격리 된 SharePoint Online 팀 사이트를 구성 합니다.
+ **요약:** Microsoft 365 개발/테스트 환경에서 조직의 나머지 사람들과 격리 된 SharePoint Online 팀 사이트를 구성 합니다.
 
-Office 365의 SharePoint Online 팀 사이트는 공통 문서 라이브러리, OneNote 전자 필기장 및 기타 서비스를 사용 하는 공동 작업을 위한 위치입니다. 대부분의 경우 부서나 조직 간에 폭넓은 액세스 및 공동 작업을 수행할 수 있습니다. 그러나 경우에 따라 소규모 사용자 그룹 간에 공동 작업 하는 데 필요한 액세스 및 사용 권한을 강력 하 게 제어 하려는 경우도 있습니다.
+Microsoft 365의 SharePoint Online 팀 사이트는 공통 문서 라이브러리, OneNote 전자 필기장 및 기타 서비스를 사용 하는 공동 작업을 위한 위치입니다. 대부분의 경우 부서나 조직 간에 폭넓은 액세스 및 공동 작업을 수행할 수 있습니다. 그러나 경우에 따라 소규모 사용자 그룹 간에 공동 작업 하는 데 필요한 액세스 및 사용 권한을 강력 하 게 제어 하려는 경우도 있습니다.
 
 Sharepoint Online 팀 사이트에 대 한 액세스 및 사용자가 수행할 수 있는 작업은 SharePoint 그룹 및 사용 권한 수준에 의해 제어 됩니다. 기본적으로 SharePoint Online 사이트에는 다음과 같은 세 가지 수준의 액세스 권한이 있습니다.
 
@@ -43,9 +43,9 @@ Sharepoint Online 팀 사이트에 대 한 액세스 및 사용자가 수행할 
 
 - 사이트 작성자 및 사이트에 대 한 관리자 그룹의 구성원만 사이트 수준 사용 권한 수정을 포함 하는 사이트 관리를 수행할 수 있습니다.
 
-Office 365 개발/테스트 환경에서 격리 된 SharePoint Online 팀 사이트를 설정 하는 세 가지 단계는 다음과 같습니다.
+Microsoft 365 개발/테스트 환경에서 격리 된 SharePoint Online 팀 사이트를 설정 하는 과정은 다음 세 단계로 진행 됩니다.
 
-1. Office 365 개발/테스트 환경을 만듭니다.
+1. Microsoft 365 개발/테스트 환경을 만듭니다.
 
 2. ProjectX에 대 한 사용자 및 그룹을 만듭니다.
 
@@ -54,22 +54,22 @@ Office 365 개발/테스트 환경에서 격리 된 SharePoint Online 팀 사이
 > [!TIP]
 > [여기](https://aka.ms/catlgstack)를 클릭하여 One Microsoft 클라우드 테스트 랩 가이드 스택의 모든 문서에 대한 가상 맵을 확인할 수 있습니다.
 
-## <a name="phase-1-build-out-your-lightweight-or-simulated-enterprise-office-365-devtest-environment"></a>1단계: 경량 또는 시뮬레이트된 엔터프라이즈 Office 365 개발/테스트 환경을 구축합니다.
+## <a name="phase-1-build-out-your-lightweight-or-simulated-enterprise-microsoft-365-devtest-environment"></a>1 단계: 경량 또는 시뮬레이트된 엔터프라이즈 Microsoft 365 개발/테스트 환경 구축
 
-최소 요구 사항과 함께 간단한 방식으로 격리 된 SharePoint Online 팀 사이트를 만들려는 경우에는 [Office 365 개발/테스트 환경의](https://docs.microsoft.com/office365/enterprise/office-365-dev-test-environment)2, 3 단계의 지침을 따릅니다.
+최소 요구 사항과 함께 간단한 방식으로 격리 된 SharePoint Online 팀 사이트를 만들려는 경우에는 [Microsoft 365 개발/테스트 환경의](https://docs.microsoft.com/office365/enterprise/office-365-dev-test-environment)2, 3 단계의 지침을 따릅니다.
 
-시뮬레이트된 엔터프라이즈 구성에서 격리 된 SharePoint Online 팀 사이트를 만들려면 [Office 365 개발/테스트 환경용 DirSync](https://docs.microsoft.com/office365/enterprise/dirsync-for-your-office-365-dev-test-environment)의 지침을 따릅니다.
+시뮬레이트된 엔터프라이즈 구성에서 격리 된 SharePoint Online 팀 사이트를 만들려면 [Microsoft 365 개발/테스트 환경용 DirSync](https://docs.microsoft.com/office365/enterprise/dirsync-for-your-office-365-dev-test-environment)의 지침을 따릅니다.
 
 > [!NOTE]
 > 격리 된 SharePoint Online 사이트를 만드는 경우에는 AD DS (Active Directory 도메인 서비스) 포리스트의 인터넷 및 디렉터리 동기화에 연결 된 시뮬레이트된 인트라넷을 포함 하는 시뮬레이트된 엔터프라이즈 개발/테스트 환경이 필요 하지 않습니다. 격리 된 SharePoint Online 사이트를 테스트 하 고 일반적인 조직을 나타내는 환경에서 테스트해 볼 수 있도록 여기에서 옵션으로 제공 됩니다.
 
 ## <a name="phase-2-create-user-accounts-and-access-groups"></a>2 단계: 사용자 계정 및 액세스 그룹 만들기
 
-[Office 365 PowerShell에 연결](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell) 의 지침을 사용 하 여 다음 위치에서 전역 관리자 계정을 사용 하 여 office 365 트레일 구독에 연결 합니다.
+[Office 365 PowerShell에 연결](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell) 의 지침을 사용 하 여 전역 관리자 계정으로 평가판 구독에 연결 합니다.
 
-- 사용하는 컴퓨터(경량 Office 365 개발/테스트 환경)
+- 컴퓨터 (경량 Microsoft 365 개발/테스트 환경용)
 
-- CLIENT1 가상 컴퓨터(시뮬레이트된 엔터프라이즈 Office 365 개발/테스트 환경)
+- CLIENT1 가상 컴퓨터 (시뮬레이트된 엔터프라이즈 Microsoft 365 개발/테스트 환경)
 
 ProjectX SharePoint Online 팀 사이트에 대 한 새 액세스 그룹을 만들려면 Windows PowerShell 프롬프트에 대 한 Windows Azure Active Directory 모듈에서 다음 명령을 실행 합니다.
 
@@ -142,13 +142,13 @@ Add-MsolGroupMember -GroupObjectId (Get-MsolGroup | Where { $_.DisplayName -eq $
 
 **그림 1**
 
-![격리 된 SharePoint Online 그룹 사이트에 대 한 Office 365 그룹 및 해당 구성원 자격](../../media/5b7373b9-2a80-4880-afe5-63ffb17237e6.png)
+![격리 된 SharePoint Online 그룹 사이트에 대 한 Microsoft 365 그룹 및 해당 구성원 자격](../../media/5b7373b9-2a80-4880-afe5-63ffb17237e6.png)
 
 ## <a name="phase-3-create-a-new-projectx-sharepoint-online-team-site-and-isolate-it"></a>3 단계: 새 ProjectX SharePoint Online 팀 사이트를 만들고 격리 합니다.
 
 ProjectX에 대 한 SharePoint Online 팀 사이트를 만들려면 다음을 수행 합니다.
 
-1. 로컬 컴퓨터 (경량 구성) 또는 CLIENT1 (시뮬레이트된 엔터프라이즈 구성)에서 브라우저를 사용 하 여 전역 관리자 계정을 사용 하 여 Office 365 포털 ([https://admin.microsoft.com](https://admin.microsoft.com))에 로그인 합니다.
+1. 로컬 컴퓨터 (경량 구성) 또는 CLIENT1 (시뮬레이트된 엔터프라이즈 구성)에 브라우저를 사용 하 여 전역 관리자 계정을 사용 하 여 Microsoft 365 관리 센터 ([https://admin.microsoft.com](https://admin.microsoft.com))에 로그인 합니다.
 
 2. 타일 목록에서 **SharePoint**를 클릭합니다.
 
@@ -216,7 +216,7 @@ ProjectX에 대 한 SharePoint Online 팀 사이트를 만들려면 다음을 �
 
 2. 전역 관리자의 이름을 클릭 하 고 **로그 아웃**을 클릭 합니다.
 
-3. 잠재 고객 디자이너 계정 이름 및 암호를[https://admin.microsoft.com](https://admin.microsoft.com)사용 하 여 Office 365 portal ()에 로그인 합니다.
+3. 잠재 고객 디자이너 계정 이름 및 암호를 사용[https://admin.microsoft.com](https://admin.microsoft.com)하 여 Microsoft 365 관리 센터 ()에 로그인 합니다.
 
 4. 타일 목록에서 **SharePoint**를 클릭합니다.
 
@@ -246,7 +246,7 @@ ProjectX에 대 한 SharePoint Online 팀 사이트를 만들려면 다음을 �
 
 이제 개발 VP 사용자 계정을 사용 하 여 액세스 방법을 살펴보겠습니다.
 
-1. 개발 VP 계정 이름 및 암호를 사용[https://admin.microsoft.com](https://admin.microsoft.com)하 여 Office 365 portal ()에 로그인 합니다.
+1. 개발 VP 계정 이름 및 암호를 사용 하[https://admin.microsoft.com](https://admin.microsoft.com)여 Microsoft 365 관리 센터 ()에 로그인 합니다.
 
 2. 타일 목록에서 **SharePoint**를 클릭합니다.
 
@@ -262,7 +262,7 @@ ProjectX에 대 한 SharePoint Online 팀 사이트를 만들려면 다음을 �
 
 이제 사용 권한이 없는 사용자 계정을 사용 하 여 액세스 하는 방법을 알아보겠습니다.
 
-1. 사용자 3 계정 이름 및 암호를 사용[https://admin.microsoft.com](https://admin.microsoft.com)하 여 Office 365 portal ()에 로그인 합니다.
+1. 사용자 3 계정 이름 및 암호를 사용 하[https://admin.microsoft.com](https://admin.microsoft.com)여 Microsoft 365 관리 센터 ()에 로그인 합니다.
 
 2. 타일 목록에서 **SharePoint**를 클릭합니다.
 
@@ -290,7 +290,7 @@ ProjectX에 대 한 SharePoint Online 팀 사이트를 만들려면 다음을 �
 
 [기본 구성 개발/테스트 환경](https://docs.microsoft.com/office365/enterprise/base-configuration-dev-test-environment)
 
-[Office 365 개발/테스트 환경](https://docs.microsoft.com/office365/enterprise/office-365-dev-test-environment)
+[Microsoft 365 개발/테스트 환경](https://docs.microsoft.com/office365/enterprise/office-365-dev-test-environment)
 
 [클라우드 도입 및 하이브리드 솔루션](https://docs.microsoft.com/office365/enterprise/cloud-adoption-and-hybrid-solutions)
 

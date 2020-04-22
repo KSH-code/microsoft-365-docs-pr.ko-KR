@@ -1,19 +1,19 @@
 ---
-title: 서비스 계획에 대 한 예외
+title: 서비스 계획에 대한 예외
 description: ''
-keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 설명서
+keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: aca3bb6413aaab7620b1e1277c821a79dba4bb2f
-ms.sourcegitcommit: 9083036e787cf997fbceb19c66af594d0fa81d0f
+ms.openlocfilehash: 9dca53ac9e99fd9bc68ee42f78de6a2bc009e42c
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/13/2019
-ms.locfileid: "38302905"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636187"
 ---
-# <a name="exceptions-to-the-service-plan"></a>서비스 계획에 대 한 예외
+# <a name="exceptions-to-the-service-plan"></a>서비스 계획에 대한 예외
 
 Microsoft Managed Desktop은 맞게 조정 된 장치 목록, [표준 장치 설정](device-policies.md), 응용 프로그램 요구 사항 및 [구성 가능한 특정 설정을](../working-with-managed-desktop/config-setting-overview.md)제공 하 여 최종 사용자에 게 안전 하 고 생산성을 부여 하 고 즐겁게 환경을 제공 하도록 설계 되었습니다. 항상 제공 되는 서비스를 유지 하는 것이 가장 좋습니다. 그러나 서비스의 세부 사항이 조직의 요구 사항에 정확 하 게 맞지 않을 수도 있음을 인식 하 고 있습니다. 서비스를 특정 방식으로 변경 해야 하는 경우 다음 프로세스를 따라 변경 내용을 요청 하는 것이 중요 합니다.
  
@@ -27,7 +27,7 @@ Microsoft Managed Desktop 기본 구성에 대 한 예외를 추가 하거나 �
 |Vpn & 보안 에이전트     |  장치 또는 네트워크의 동작을 보호, 모니터링 또는 변경 하는 데 사용 되는 소프트웨어       |
 |디지털 환경 모니터링     |  사용자의 장치에서 데이터를 추적 하는 데 사용 되는 소프트웨어       |
 |하드웨어 또는 소프트웨어 드라이버     |   장치 드라이버 ( [응용 프로그램 요구 사항](mmd-app-requirements.md) 에 따라 제한 됨)      |
-|정책도     | 관리 되는 장치에 대 한 Windows 10 또는 Office 365 ProPlus 설정        |
+|정책도     | 관리 되는 장치의 엔터프라이즈 설정에 대 한 Windows 10 또는 Microsoft 365 앱        |
 |장치     | Microsoft Managed Desktop [장치 목록](device-list.md) 에 없는 장치        |
 |기타     |  다른 영역에 포함 되지 않는 모든 사항       |
  

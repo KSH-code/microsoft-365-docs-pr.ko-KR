@@ -1,5 +1,5 @@
 ---
-title: 목록 해제 포털을 사용하여 Office 365 수신 거부 목록에서 본인 제거
+title: 목록 해제 포털을 사용 하 여 수신 거부 목록에서 본인 제거
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -15,21 +15,21 @@ search.appverid:
 ms.assetid: 0bcecdd4-3343-4cc0-9e58-e19d4de515e8
 ms.collection:
 - M365-security-compliance
-description: 해당 전자 메일 주소가 Office 365에 포함되는 받는 사람에게 전자 메일을 보내려고 할 때 오류 메시지가 발생하나요? 오류 메시지가 표시되지 않아야 한다고 생각될 경우 목록 해제 포털을 사용하여 Office 365 수신 거부 목록에서 본인을 제거할 수 있습니다.
-ms.openlocfilehash: cd85a06bfd4122dcacd798a48f5a1755e2969b4a
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+description: 전자 메일 주소가 Microsoft 365에 있는 받는 사람에 게 전자 메일을 보내려고 할 때 오류 메시지가 발생 하나요? 오류 메시지가 나타나지 않는다고 생각 되 면 목록 해제 포털을 사용 하 여 수신 거부 목록에서 본인을 제거할 수 있습니다.
+ms.openlocfilehash: 39f2c9335f162f26e8bf07a213236e0e0eefef2a
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42895086"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636407"
 ---
-# <a name="use-the-delist-portal-to-remove-yourself-from-the-office-365-blocked-senders-list"></a>목록 해제 포털을 사용하여 Office 365 수신 거부 목록에서 본인 제거
+# <a name="use-the-delist-portal-to-remove-yourself-from-the-blocked-senders-list"></a>목록 해제 포털을 사용 하 여 수신 거부 목록에서 본인 제거
 
-해당 전자 메일 주소가 Office 365에 포함되는 받는 사람에게 전자 메일을 보내려고 할 때 오류 메시지가 발생하나요? 오류 메시지가 표시되지 않아야 한다고 생각될 경우 목록 해제 포털을 사용하여 Office 365 수신 거부 목록에서 본인을 제거할 수 있습니다.
+전자 메일 주소가 Microsoft 365에 있는 받는 사람에 게 전자 메일을 보내려고 할 때 오류 메시지가 발생 하나요? 오류 메시지가 나타나지 않는다고 생각 되 면 목록 해제 포털을 사용 하 여 수신 거부 목록에서 본인을 제거할 수 있습니다.
 
-## <a name="what-is-the-office-365-blocked-senders-list"></a>Office 365 수신 거부 목록은 무엇인가요?
+## <a name="what-is-the-blocked-senders-list"></a>수신 거부 목록 이란?
 
-Microsoft는 수신 거부 목록을 사용하여 스팸, 스푸핑 및 피싱 공격으로부터 고객을 보호합니다. 메일 서버의 IP 주소, 즉 메일 서버가 인터넷에서 자신을 식별하는 데 사용하는 주소는 다양한 이유 중 하나로 Office 365의 잠재적 위협으로 태그가 지정되었습니다. Office 365에서 이 목록에 IP 주소를 추가하면 Microsoft 데이터 센터를 통한 해당 IP 주소와 고객의 간의 추가 통신이 금지됩니다.
+Microsoft는 수신 거부 목록을 사용하여 스팸, 스푸핑 및 피싱 공격으로부터 고객을 보호합니다. 메일 서버의 IP 주소, 즉 메일 서버가 인터넷에서 자신을 식별 하는 데 사용 하는 주소에는 다양 한 이유로 Microsoft 365의 잠재적 위협에 대 한 태그가 지정 되어 있습니다. Microsoft 365이 목록에 IP 주소를 추가 하면 데이터 센터를 통해 IP 주소와 고객 간의 모든 추가 통신을 차단 합니다.
 
 다음과 같은 오류가 포함된 메일 메시지에 대한 응답이 수신되면 이 목록에 본인이 추가된 것입니다.
 
@@ -37,7 +37,7 @@ Microsoft는 수신 거부 목록을 사용하여 스팸, 스푸핑 및 피싱 �
 
 여기서  _IP address_는 메일 서버가 실행되는 컴퓨터의 IP 주소입니다.
 
-### <a name="to-use-the-office-365-delist-portal-to-remove-yourself-from-the-blocked-senders-list"></a>Office 365 목록 해제 포털을 사용하여 수신 거부 목록에서 본인을 제거하려면
+### <a name="to-use-delist-portal-to-remove-yourself-from-the-blocked-senders-list"></a>목록 해제 포털을 사용 하 여 수신 거부 목록에서 본인을 제거 하려면
 
 1. 웹 브라우저에서 [https://sender.office.com](https://sender.office.com)으로 이동합니다.
 
@@ -53,7 +53,7 @@ Microsoft는 수신 거부 목록을 사용하여 스팸, 스푸핑 및 피싱 �
 
 5. 목록 해제 포털에서 **IP 목록 해제**를 클릭합니다.
 
-    수신 거부 목록에서 IP 주소가 제거되면 해당 IP 주소에서 보낸 전자 메일 메시지가 Office 365를 사용하는 받는 사람에게 배달됩니다. 따라서 해당 IP 주소에서 보낸 전자 메일에 부적절하거나 악의적인 내용이 없는지 확인해야 합니다. 이러한 내용이 있으면 해당 IP 주소가 다시 차단될 수 있습니다.
+    차단 된 보낸 사람 목록에서 IP 주소를 제거한 후에는 해당 IP 주소에서 보낸 전자 메일 메시지가 Microsoft 365을 사용 하는 받는 사람에 게 배달 됩니다. 따라서 해당 IP 주소에서 보낸 전자 메일은 악성이 되거나 악성 메일이 아닐 수도 있습니다. 그렇지 않으면 IP 주소가 다시 차단 될 수 있습니다.
 
     > [!NOTE]
     > 제한이 제거 되기 전에 최대 24 시간이 걸릴 수도 있고 결과가 크게 다를 수 있습니다.

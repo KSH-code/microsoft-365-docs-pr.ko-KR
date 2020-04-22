@@ -7,12 +7,12 @@ author: jaimeo
 ms.author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 01c580cd671a84ef68c18b114e133f046a3e5b3b
-ms.sourcegitcommit: 7930fb8327bbd3594fde52f2dbf91e0f5d92f684
+ms.openlocfilehash: 5889a4e80f44349b4f149ee4f2a631f12b32251e
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/28/2020
-ms.locfileid: "42328070"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637855"
 ---
 # <a name="microsoft-managed-desktop-app-requirements"></a>Microsoft Managed Desktop 응용 프로그램 요구 사항
 
@@ -34,7 +34,7 @@ Microsoft 관리 장치에 설치 된 모든 응용 프로그램 및 드라이�
 
 특정 응용 프로그램 유형은 Microsoft Managed Desktop 장치에서 허용 되지 않습니다.
 - 타사 바이러스 백신, 보안 또는 감사 소프트웨어
-- Office 365 ProPlus 이전 버전의 Microsoft Office
+- Microsoft 365 for enterprise 앱 이전 버전의 Microsoft Office
 - 다른 타사 소프트웨어를 설치 하거나 번들 하는 응용 프로그램
 
 ## <a name="restricted-app-behaviors"></a>제한 된 앱 동작

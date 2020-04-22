@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Office 365 구독 구입
+title: 다른 Microsoft 365 for business 구독 구입
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -20,26 +20,27 @@ search.appverid:
 - MOE150
 - BEA160
 ms.assetid: fab3b86c-3359-4042-8692-5d4dc7550b7c
-description: '이미 구독이 있는 경우 조직의 다른 Office 365 for business 구독을 구입 하는 방법을 알아봅니다. '
+description: '이미 구독이 있는 경우 조직의 다른 Microsoft 365 for business 구독을 구입 하는 방법을 알아봅니다. '
 ms.custom: okr_SMB
-ms.openlocfilehash: 785080003a8abfac823239bd708eb2e442aa768f
-ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
+ms.openlocfilehash: fe07ea5bcb977b867fe02cc69706595f3ff5064e
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43142266"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634935"
 ---
-# <a name="buy-another-office-365-for-business-subscription"></a>비즈니스용 Office 365 구독 구입
+# <a name="buy-another-microsoft-365-for-business-subscription"></a>다른 Microsoft 365 for business 구독 구입
 
-비즈니스용 Office 365이 이미 있고 조직의 다른 구독을 구입 하려는 경우에는 관리 센터를 통해 작업을 수행 하는 것이 가장 좋습니다. 조직의 첫 번째 Office 365 비즈니스 구독을 아직 구입 하지 않은 경우 [여기](https://products.office.com/business/compare-office-365-for-business-plans) 로 이동 하 여 계획을 선택 하세요.
+비즈니스용 Microsoft 365이 이미 있고 조직의 다른 구독을 구입 하려는 경우에는 관리 센터를 통해 작업을 수행 하는 것이 가장 좋습니다. 조직의 첫 번째 Microsoft 365 비즈니스 구독을 아직 구입 하지 않은 경우 [여기](https://products.office.com/business/compare-office-365-for-business-plans) 로 이동 하 여 계획을 선택 하세요.
   
 관리 센터를 통해 다른 구독을 구입 하는 경우 새 구독이 기존 구독과 동일한 조직 (도메인 이름 공간)에 연결 된다는 것을 확실히 알 수 있습니다. 이렇게 하면 조직 내에서 구독 간 사용자를 보다 쉽게 이동 하거나 필요한 추가 구독에 대 한 사용자 라이선스를 할당할 수 있습니다.
   
-새 구독을 구매한 후 해당 구독을 사용 하려는 사용자에 게 해당 사용자의 라이선스를 할당 해야 합니다. 방법을 알아보려면 [비즈니스용 Office 365에서 사용자에 게 라이선스 할당](../admin/manage/assign-licenses-to-users.md)을 참조 하세요.
+새 구독을 구매한 후 해당 구독을 사용 하려는 사용자에 게 해당 사용자의 라이선스를 할당 해야 합니다. 방법을 알아보려면 [Microsoft 365에서 비즈니스용 사용자에 게 라이선스 할당](../admin/manage/assign-licenses-to-users.md)을 참조 하세요.
   
 ## <a name="buy-another-subscription"></a>다른 구독 구입
 
 ::: moniker range="o365-worldwide"
+
 
 1. 관리 센터에서 **결제** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=868433" target="_blank">구매 서비스</a> 페이지로 이동 합니다.
 
@@ -57,7 +58,7 @@ ms.locfileid: "43142266"
 
 ::: moniker range="o365-germany"
 
-1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">구독</a> 페이지로 이동 합니다.
+1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">구독</a> 페이지로 이동합니다.
 
 2. **구독** 페이지에서 **구독 추가**를 선택 합니다.
 
@@ -83,7 +84,7 @@ ms.locfileid: "43142266"
 
 ::: moniker range="o365-21vianet"
 
-1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">구독</a> 페이지로 이동 합니다.
+1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">구독</a> 페이지로 이동합니다.
 
 2. **구독** 페이지에서 **구독 추가**를 선택 합니다.
 

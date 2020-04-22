@@ -1,5 +1,5 @@
 ---
-title: Office 365 그룹에서 게스트 액세스 관리
+title: Microsoft 365 그룹에서 게스트 액세스 관리
 ms.reviewer: arvaradh
 f1.keywords: NOCSH
 ms.author: mikeplum
@@ -17,23 +17,23 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 9de497a9-2f5c-43d6-ae18-767f2e6fe6e0
-description: Office 365 그룹에 게스트를 추가 하 고, 게스트 사용자를 보고, PowerShell을 사용 하 여 게스트 액세스를 제어 하는 방법을 알아봅니다.
-ms.openlocfilehash: e76718ccb20843b252c939be48653c61c7c1f0a9
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+description: Microsoft 365 그룹에 게스트를 추가 하 고, 게스트 사용자를 보고, PowerShell을 사용 하 여 게스트 액세스를 제어 하는 방법을 알아봅니다.
+ms.openlocfilehash: cca1d3dff4d95f5b15b9f18d5eeebcf054e52fe3
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42894506"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43630070"
 ---
-# <a name="manage-guest-access-in-office-365-groups"></a>Office 365 그룹에서 게스트 액세스 관리
+# <a name="manage-guest-access-in-microsoft-365-groups"></a>Microsoft 365 그룹에서 게스트 액세스 관리
 
-기본적으로 Office 365 그룹에 대 한 게스트 액세스는 조직에서 사용 하도록 설정 되어 있습니다. 관리자는 전체 조직에 대 한 그룹 또는 개별 그룹에 대 한 게스트 액세스를 허용할지 여부를 제어할 수 있습니다.
+기본적으로 Microsoft 365 그룹에 대 한 게스트 액세스는 조직에서 사용 하도록 설정 되어 있습니다. 관리자는 전체 조직에 대 한 그룹 또는 개별 그룹에 대 한 게스트 액세스를 허용할지 여부를 제어할 수 있습니다.
 
-이 옵션이 설정 되 면 그룹 구성원이 게스트 사용자를 웹에서 Outlook을 통해 Office 365 그룹에 초대할 수 있습니다. 초대는 승인을 위해 그룹 소유자에 게 전송 됩니다.
+이 옵션이 설정 되 면 그룹 구성원은 웹에서 Outlook을 통해 게스트 사용자를 Microsoft 365 그룹에 초대할 수 있습니다. 초대는 승인을 위해 그룹 소유자에 게 전송 됩니다.
 
 > [!Note]
 > 기본 모드 또는 [EU 지역](https://go.microsoft.com/fwlink/?linkid=2107357) 에 있는 Yammer Enterprise 네트워크는 네트워크 게스트를 지원 하지 않습니다.
-> Office 365 연결 된 Yammer 그룹은 현재 게스트 액세스를 지원 하지 않지만, Yammer 네트워크에 연결 되지 않은 외부 그룹을 만들 수 있습니다. 지침은 [Yammer에서 외부 그룹 만들기 및 관리](https://support.office.com/article/9ccd15ce-0efc-4dc1-81bc-4a424ab6f92a.aspx) 를 참조 하세요.
+> Microsoft 365 연결 된 Yammer 그룹은 현재 게스트 액세스를 지원 하지 않지만, Yammer 네트워크에 연결 되지 않은 외부 그룹을 만들 수 있습니다. 지침은 [Yammer에서 외부 그룹 만들기 및 관리](https://support.office.com/article/9ccd15ce-0efc-4dc1-81bc-4a424ab6f92a.aspx) 를 참조 하세요.
 
 ### <a name="edit-guest-information"></a>게스트 정보 편집
 
@@ -48,11 +48,11 @@ ms.locfileid: "42894506"
 
 그룹에서 게스트 액세스를 사용 하도록 설정 하거나 사용 하지 않도록 설정 하려면 Microsoft 365 관리 센터에서이 작업을 수행 하면 됩니다.
 
-1. 관리 센터에서 **설정** \> **설정** 으로 이동 하 여 **Office 365 그룹**을 선택 합니다.
+1. 관리 센터에서 **설정** \> **설정** 으로 이동 하 여 **Microsoft 365 그룹**을 선택 합니다.
   
-2. **Office 365 그룹** 페이지에서 조직 외부의 사용자에 게 그룹 리소스에 대 한 액세스를 허용 하거나 그룹 소유자가 조직 외부의 사용자를 그룹에 추가할 수 있도록 할지 여부를 선택 합니다.
+2. **Microsoft 365 그룹** 페이지에서 조직 외부의 사용자에 게 그룹 리소스에 대 한 액세스를 허용할지, 아니면 그룹 소유자가 조직 외부의 사용자를 그룹에 추가할 수 있도록 할지 여부를 선택 합니다.
 
-## <a name="add-guests-to-an-office-365-group-from-the-admin-center"></a>관리 센터에서 Office 365 그룹에 게스트 추가
+## <a name="add-guests-to-a-microsoft-365-group-from-the-admin-center"></a>관리 센터에서 Microsoft 365 그룹에 게스트 추가
 
 게스트가 디렉터리에 이미 있는 경우 Microsoft 365 관리 센터에서 사용자를 그룹에 추가할 수 있습니다.
   

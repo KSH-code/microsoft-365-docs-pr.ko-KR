@@ -1,5 +1,5 @@
 ---
-title: Office 365 비즈니스 에디션의 송장 이해
+title: 비즈니스에 대 한 Microsoft 365의 청구서 이해
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -23,15 +23,15 @@ search.appverid:
 - MOE150
 - BEA160
 ms.assetid: 0724b428-fb59-4962-8c37-6674166d7507
-description: 비즈니스 송장에 대 한 Office 365의 요금 청구 및 지불 정보를 해석 하는 방법과 구매 주문 번호를 변경 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 152b5d888b8773e2e60cea8584417e47ee58c47f
-ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
+description: Microsoft 365 비즈니스 송장의 청구 금액, 대금 청구 및 지불 정보를 해석 하는 방법과 구매 주문 번호를 변경 하는 방법에 대해 알아봅니다.
+ms.openlocfilehash: 392957ecf06c6200bca3daf205946f5b8fd1563a
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43142302"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634971"
 ---
-# <a name="understand-your-invoice-for-office-365-for-business"></a>Office 365 비즈니스 에디션의 송장 이해
+# <a name="understand-your-invoice-for-microsoft-365-for-business"></a>비즈니스에 대 한 Microsoft 365의 청구서 이해
 
 매월 관리 센터에서 새 청구 내역을 사용할 수 있음을 알리는 전자 메일을 받을 수 있습니다. [청구서 또는 송장을 찾아서 보는 방법을 알아봅니다](view-your-bill-or-invoice.md).
   
@@ -64,7 +64,7 @@ ms.locfileid: "43142302"
 다음 표에는 송장에 있을 수 있는 필드가 설명되어 있습니다. 결제 방법이 송장인지 또는 신용 카드나 은행 계좌인지에 따라 여기에 나열된 필드 중 일부가 송장에 없을 수도 있습니다.
   
 > [!NOTE]
-> 은행 계좌를 통한 결제는 일부 국가나 지역에서는 사용할 수 없습니다.
+> 은행 계좌로 결제하는 방법은 일부 국가 또는 지역에서 사용할 수 없습니다.
   
 |**이름**|**설명**|
 |:-----|:-----|
@@ -118,7 +118,7 @@ ms.locfileid: "43142302"
 
 ::: moniker range="o365-germany"
 
-1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">구독</a> 페이지로 이동 합니다.
+1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">구독</a> 페이지로 이동합니다.
 
 2. 변경 하려는 구독을 선택 하 고 **결제 방법** 섹션에서 **결제 정보 변경을**선택 합니다.
 
@@ -128,7 +128,7 @@ ms.locfileid: "43142302"
 
 ::: moniker range="o365-21vianet"
 
-1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">구독</a> 페이지로 이동 합니다.
+1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">구독</a> 페이지로 이동합니다.
 
 2. 변경 하려는 구독을 선택 하 고 **결제 방법** 섹션에서 **결제 정보 변경을**선택 합니다.
 
@@ -138,6 +138,6 @@ ms.locfileid: "43142302"
 
 ## <a name="related-articles"></a>관련 문서
 
-[비즈니스용 Office 365 구독 결제](pay-for-your-subscription.md)
+[Microsoft 365 비즈니스 에디션 구독 결제](pay-for-your-subscription.md)
 
 [Minecraft: Education Edition 결제 옵션](https://go.microsoft.com/fwlink/p/?linkid=838761)

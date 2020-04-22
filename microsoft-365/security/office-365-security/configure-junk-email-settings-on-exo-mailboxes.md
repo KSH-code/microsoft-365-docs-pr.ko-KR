@@ -16,16 +16,16 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: 관리자는 Exchange Online 사서함에서 정크 메일 설정을 구성 하는 방법을 알 수 있습니다. 이러한 설정 중 상당수는 Outlook 또는 웹용 Outlook에서 사용자에 게 제공 됩니다.
-ms.openlocfilehash: 2b138830cff7337d7949606cc110ea8f7ae1c0ff
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: 689cec3f6a8b12764d03c98d23a9eb7ab6ca8e5e
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42897066"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43638443"
 ---
 # <a name="configure-junk-email-settings-on-exchange-online-mailboxes-in-office-365"></a>Office 365에서 Exchange Online 사서함의 정크 메일 설정 구성
 
-Exchange Online의 조직 스팸 방지 설정은 EOP (Exchange Online Protection)에 의해 제어 됩니다. 자세한 내용은 [Office 365의 스팸 방지 보호](anti-spam-protection.md)를 참조 하세요.
+Exchange Online의 조직 스팸 방지 설정은 EOP (Exchange Online Protection)에 의해 제어 됩니다. 자세한 내용은 [Office 365의 스팸 방지 보호](anti-spam-protection.md)를 참조하세요.
 
 그러나 관리자가 Exchange Online의 개별 사서함에 대해 구성할 수 있는 특정 스팸 방지 설정도 있습니다.
 
@@ -41,13 +41,13 @@ Exchange Online의 조직 스팸 방지 설정은 EOP (Exchange Online Protectio
 
 관리자는 Exchange Online PowerShell을 사용 하 여 사서함에 대 한 정크 메일 규칙의 상태를 사용 하지 않도록 설정 하 고 사용 하도록 설정할 수 있습니다. 또한 관리자는 Exchange Online PowerShell을 사용 하 여 사서함의 수신 허용 목록 컬렉션, 즉 수신 허용-보낸 사람 목록 및 수신 거부 목록에 있는 항목을 구성할 수 있습니다.
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
 
-- 다음 절차를 수행 하는 경우에만 Exchange Online PowerShell을 사용할 수 있습니다. Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell)을 참조하세요.
+- 다음 절차를 수행 하는 경우에만 Exchange Online PowerShell을 사용할 수 있습니다. Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결하기](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell)를 참조하세요.
 
 - 이러한 절차를 수행 하려면 먼저 사용 권한을 할당 받아야 합니다. 특히 **조직 관리**, **받는 사람 관리**및 **사용자 지정 메일 받는 사람** 역할 그룹에 기본적으로 할당 되는 **메일 받는 사람** 역할 (기본적으로 **조직 관리** 및 **Help Desk** 역할 그룹에 할당 되는 **사용자 옵션** 역할)이 필요 합니다. Exchange Online에서 역할 그룹에 사용자를 추가 하려면 [Exchange online에서 역할 그룹 수정을](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#modify-role-groups)참조 하십시오. 기본 사용 권한이 있는 사용자는 [Exchange Online PowerShell에](https://docs.microsoft.com/powershell/exchange/exchange-online/disable-access-to-exchange-online-powershell)대 한 액세스 권한이 있는 경우 자체 사서함에서 동일한 절차를 수행할 수 있습니다.
 
-- EOP가 온-프레미스 Exchange 사서함을 보호 하는 독립 실행형 EOP 환경에서는 정크 메일 규칙이 메시지를 이동할 수 있도록 온-프레미스 Exchange의 메일 흐름 규칙 (전송 규칙이 라고도 함)을 구성 하 여 EOP 스팸 필터링 결과을 번역 해야 합니다. 정크 메일 폴더입니다. 자세한 내용은 [하이브리드 환경의 정크 메일 폴더에 스팸을 배달 하도록 독립 실행형 EOP 구성을](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md)참조 하십시오.
+- EOP로 온-프레미스 Exchange 사서함을 보호하는 독립 실행형 EOP 환경에서는 EOP 스팸 필터링 결과를 변환하여 정크 메일 규칙에 따라 메시지를 정크 메일 폴더로 이동하기 위해 온-프레미스 Exchange에서 메일 흐름 규칙(전송 규칙이라고도 함)을 구성해야 합니다. 자세한 내용은 [하이브리드 환경에서 스팸을 정크 메일 폴더로 배달하도록 독립 실행형 EOP 구성하기](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md)를 참조하세요.
 
 ## <a name="use-exchange-online-powershell-to-enable-or-disable-the-junk-email-rule-in-a-mailbox"></a>Exchange Online PowerShell을 사용 하 여 사서함에서 정크 메일 규칙을 사용 하거나 사용 하지 않도록 설정
 
@@ -78,7 +78,7 @@ $All = Get-Mailbox -RecipientTypeDetails UserMailbox -ResultSize Unlimited; $All
 
 - 사용자가 자신의 사서함을 연 적이 없는 경우 이전 명령을 실행 하면 오류가 발생할 수 있습니다. 대량 작업에서이 오류가 발생 하지 않도록 설정 `-ErrorAction SlientlyContinue` 하려면 **set-mailboxjunkemailconfiguration** 명령에 추가 합니다.
 
-- 정크 메일 규칙을 사용 하지 않도록 설정 하는 경우에도 Outlook 정크 메일 필터 (구성 된 방법에 따라)는 메시지의 스팸 여부를 확인 하 고 자체 스팸 결과 및 수신 허용 목록 컬렉션을 기반으로 받은 편지함 또는 정크 메일 폴더로 메시지를 이동할 수 있습니다. 사서함입니다. 자세한 내용은이 항목의 [Outlook의 정크 메일 설정](#about-junk-email-settings-in-outlook) 섹션을 참조 하십시오.
+- 정크 메일 규칙을 사용 하지 않도록 설정 하는 경우에도 Outlook 정크 메일 필터 (구성 된 방법에 따라)는 메시지의 스팸 여부를 확인할 수 있으며 사서함의 자체 스팸 결과 및 수신 허용 목록 컬렉션을 기반으로 받은 편지함 또는 정크 메일 폴더로 메시지를 이동할 수 있습니다. 자세한 내용은이 항목의 [Outlook의 정크 메일 설정](#about-junk-email-settings-in-outlook) 섹션을 참조 하십시오.
 
 ### <a name="how-do-you-know-this-worked"></a>작동 여부는 어떻게 확인하나요?
 
@@ -169,7 +169,7 @@ $All = Get-Mailbox -RecipientTypeDetails UserMailbox -ResultSize Unlimited; $All
 
 ## <a name="about-junk-email-settings-in-outlook"></a>Outlook의 정크 메일 설정 정보
 
-Outlook에서 사용할 수 있는 클라이언트 쪽 정크 메일 필터 설정을 사용 하거나 사용 하지 않도록 설정 하 고 구성 하려면 그룹 정책을 사용 합니다. 자세한 내용은 [office 365 ProPlus, office 2019 및 office 2016 용 관리 템플릿 파일 (ADMX/ADML) 및 Office 사용자 지정 도구](https://www.microsoft.com/download/details.aspx?id=49030)를 참조 하세요.
+Outlook에서 사용할 수 있는 클라이언트 쪽 정크 메일 필터 설정을 사용 하거나 사용 하지 않도록 설정 하 고 구성 하려면 그룹 정책을 사용 합니다. 자세한 내용은 [관리 템플릿 파일 (ADMX/ADML) 및 Office 사용자 지정 도구를 통해 Microsoft 365 Apps for enterprise, office 2019 및 office 2016](https://www.microsoft.com/download/details.aspx?id=49030)를 참조 하세요.
 
 Outlook 정크 메일 필터를 기본값으로 설정 하 고 **홈** \> **정크** \> **메일 옵션** \> **옵션**에서 **자동 필터링** 을 사용 하지 않으면 outlook이 massages로 분류를 시도 하지 않지만 수신 허용-보낸 사람 목록, 수신 허용-받는 사람 목록 및 수신 거부 목록에 있는 수신 허용 목록 컬렉션을 통해 메시지를 배달 후 정크 메일 폴더로 이동 합니다. 이러한 설정에 대 한 자세한 내용은 [정크 메일 필터 개요](https://support.office.com/article/5ae3ea8e-cf41-4fa0-b02a-3b96e21de089)를 참조 하세요.
 

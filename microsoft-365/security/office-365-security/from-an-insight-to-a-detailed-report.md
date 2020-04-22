@@ -17,16 +17,16 @@ ms.assetid: f3724c6c-ec64-4a24-ba71-bfd68020d4d2
 ms.collection:
 - M365-security-compliance
 description: 데이터 손실 방지 예제를 통해 보안 &amp; 및 준수 센터에서 자세한 보고서로 이동 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: f5b64cedba72592307d9c806484640f75be02f8e
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 52c0f944e5319325f2ae478bd7fda34fa08319b6
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42083067"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43638073"
 ---
 # <a name="walkthrough---from-an-insight-to-a-detailed-report"></a>연습 - 통찰력에서 자세한 보고서
 
-[Office 365 보안 &amp; 및 준수 센터의 보고서 및 통찰력](reports-and-insights-in-security-and-compliance.md)을 처음 사용할 경우 자세한 보고서에 대해 자세히 알아볼 수 있는 방법을 확인 하는 데 도움이 될 수 있습니다. 
+[ &amp; 보안 및 준수 센터의 보고서 및 통찰력](reports-and-insights-in-security-and-compliance.md)을 처음 사용할 경우 자세한 보고서에 대해 자세히 알아볼 수 있는 방법을 확인 하는 데 도움이 될 수 있습니다. 
   
 다음은 [ &amp; 보안 및 준수 센터](https://protection.office.com)에 대 한 몇 가지 연습 중 하나입니다. 추가 연습을 보려면 [관련 항목](#related-topics) 섹션을 참조 하십시오. 
   

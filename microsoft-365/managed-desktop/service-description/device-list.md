@@ -5,12 +5,12 @@ keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
-ms.openlocfilehash: b851f3f698abd34d4964c79a68be050ad9f0a4db
-ms.sourcegitcommit: cce5138dfbb27eeeef873d40d8d3606ee3cd6d3d
+ms.openlocfilehash: 354845e3bfebee5e6c67b53ba5ef6f55a9c419f8
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43198364"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637879"
 ---
 # <a name="microsoft-managed-desktop-devices"></a>Microsoft Managed Desktop 장치 
 
@@ -75,7 +75,6 @@ Microsoft Managed Desktop에 등록 하려면 장치는 다음 모델 중 하나
 - Dell 장치에 대 한 자세한 내용은 <a href="mailto:MMD_at_dell@dell.com">MMD_at_dell@dell.com</a>에 문의 하십시오.
 
 - HP 장치 및 장치 주문 지침에 대 한 자세한 내용은 미주 (<a href="mailto:mmd-americas@hp.com">mmd-americas@hp.com</a>)를 참조 하세요. 유럽/중동/아프리카 (<a href="mailto:mmd-emea@hp.com">mmd-emea@hp.com</a>); 아시아 태평양/일본 (<a href="mailto:mmd-apj@hp.com">mmd-apj@hp.com</a>); Global (<a href="mailto:mmd@hp.com">mmd@hp.com</a>)
-
 
 
 

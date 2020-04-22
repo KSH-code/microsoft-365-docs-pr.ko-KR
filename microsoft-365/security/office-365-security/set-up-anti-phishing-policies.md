@@ -14,14 +14,14 @@ ms.assetid: 5a6f2d7f-d998-4f31-b4f5-f7cbf6f38578
 ms.collection:
 - M365-security-compliance
 description: EOP (Exchange Online Protection)의 기본 피싱 방지 정책 및 Office 365 Advanced Threat Protection의 고급 ATP 피싱 방지 정책에 대해 알아봅니다.
-ms.openlocfilehash: f96b490d2c031fb509c39b2efdbc725cec2709a5
-ms.sourcegitcommit: db8702cf578b02c6fd6a2670c177b456efae4748
+ms.openlocfilehash: 64a47d5514ab7a3a845e8d8b008f1cd8f672640b
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43537476"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43638359"
 ---
-# <a name="anti-phishing-policies-in-office-365"></a>Office 365의 피싱 방지 정책
+# <a name="anti-phishing-policies-in-microsoft-365"></a>Microsoft 365의 피싱 방지 정책
 
 피싱 방지 보호 설정을 구성 하기 위한 정책은 Exchange Online 사서함, 독립 실행형 EOP (exchange online Protection), Exchange Online 사서함이 없는 office 365 조직, Office 365 ATP (Advanced Threat Protection) 조직에서 사용할 수 있습니다.
 
@@ -34,7 +34,7 @@ ATP 피싱 방지 정책은 Office 365 ATP가 있는 조직 에서만 사용할 
 
 ATP 피싱 방지 정책에는 기본 제공 피싱 방지 정책이 포함 되어 있으며 사용자 지정 ATP 피싱 방지 정책을 추가로 만들 수 있습니다.
 
-Exchange online 사서함이 있는 기타 Office 365 조직에서 Exchange Online 사서함이 없는 EOP (독립 실행형 Exchange Online Protection) 조직이 기본 제공 되는 피싱 방지 정책을 사용 하지만 추가 정책을 만들 수는 없습니다. Exchange Online 사서함이 있는 조직 에서만 기본 피싱 방지 정책을 수정할 수 있습니다.
+Exchange online 사서함을 포함 하는 기타 Microsoft 365 조직 또는 EOP (독립 실행형 Exchange Online Protection) 조직에는 기본 제공 피싱 방지 정책이 있지만 추가 정책을 만들 수는 없습니다. Exchange Online 사서함이 있는 조직 에서만 기본 피싱 방지 정책을 수정할 수 있습니다.
 
 피싱 방지 정책과 ATP 피싱 방지 정책 간의 높은 수준의 차이점은 다음 표에 설명 되어 있습니다.
 
@@ -55,30 +55,30 @@ Exchange online 사서함이 있는 기타 Office 365 조직에서 Exchange Onli
 
 - [EOP에서 피싱 방지 정책 구성](configure-anti-phishing-policies-eop.md)
 
-- [Office 365에서 ATP 피싱 방지 정책 구성](configure-atp-anti-phishing-policies.md)
+- [Microsoft 365에서 ATP 피싱 방지 정책 구성](configure-atp-anti-phishing-policies.md)
 
 이 항목의 나머지 부분에서는 EOP 및 ATP 피싱 방지 정책에서 사용할 수 있는 설정에 대해 설명 합니다.
 
 ## <a name="spoof-settings"></a>스푸핑 설정
 
-스푸핑 이란 전자 메일 메시지의 보낸 사람 주소 (전자 메일 클라이언트에 표시 되는 발신자 주소가 전자 메일 원본의 도메인)와 일치 하지 않는 경우입니다. 스푸핑에 대 한 자세한 내용은 [Office 365에서 스푸핑 방지 보호](anti-spoofing-protection.md)를 참조 하세요.
+스푸핑 이란 전자 메일 메시지의 보낸 사람 주소 (전자 메일 클라이언트에 표시 되는 발신자 주소가 전자 메일 원본의 도메인)와 일치 하지 않는 경우입니다. 스푸핑에 대 한 자세한 내용은 [Microsoft 365에서 스푸핑 방지 보호](anti-spoofing-protection.md)를 참조 하세요.
 
 피싱 방지 정책 및 ATP 피싱 방지 정책에서는 다음과 같은 스푸핑 설정을 사용할 수 있습니다.
 
-- **스푸핑 방지 보호**: 스푸핑 방지 보호 기능을 사용 하거나 사용 하지 않도록 설정 합니다. 이 옵션을 사용 하도록 설정 하는 것이 좋습니다. 스푸핑 **인텔리전스 정책을** 사용 하 여 특정 스푸핑된 내부 및 외부 보낸 사람을 허용 하거나 차단 합니다. 자세한 내용은 [Office 365에서 스푸핑 인텔리전스를 구성](learn-about-spoof-intelligence.md)합니다 .를 참조 하십시오.
+- **스푸핑 방지 보호**: 스푸핑 방지 보호 기능을 사용 하거나 사용 하지 않도록 설정 합니다. 이 옵션을 사용 하도록 설정 하는 것이 좋습니다. 스푸핑 **인텔리전스 정책을** 사용 하 여 특정 스푸핑된 내부 및 외부 보낸 사람을 허용 하거나 차단 합니다. 자세한 내용은 [Microsoft 365에서 스푸핑 인텔리전스를 구성](learn-about-spoof-intelligence.md)합니다 .를 참조 하십시오.
 
   > [!NOTE]
-  > 스푸핑 설정은 기본적으로 EOP의 기본 피싱 방지 정책, 기본 ATP 피싱 방지 정책 및 새로 만든 사용자 지정 ATP 피싱 정책의 기본값으로 사용 됩니다. <br/><br/> MX 레코드가 Office 365를 가리키지 않으면 스푸핑 방지 보호를 사용 하지 않도록 설정할 필요가 없습니다. 대신 커넥터에 대 한 향상 된 필터링을 사용 하도록 설정 합니다. 자세한 내용은 [Exchange Online의 커넥터에 대 한 향상 된 필터링](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors)을 참조 하십시오.
+  > 스푸핑 설정은 기본적으로 EOP의 기본 피싱 방지 정책, 기본 ATP 피싱 방지 정책 및 새로 만든 사용자 지정 ATP 피싱 정책의 기본값으로 사용 됩니다. <br/><br/> MX 레코드가 Microsoft 365를 가리키지 않는 경우 스푸핑 방지 보호를 사용 하지 않도록 설정할 필요가 없습니다. 대신 커넥터에 대 한 향상 된 필터링을 사용 하도록 설정 합니다. 자세한 내용은 [Exchange Online의 커넥터에 대 한 향상 된 필터링](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors)을 참조 하십시오.
 
   차단 된 스푸핑된 보낸 사람에 게 보내는 메시지에 대해 수행할 작업을 지정할 수도 있습니다.
 
-  - **정크 메일 폴더로 메시지 이동**:이 값은 기본값입니다. 메시지가 사서함에 배달 되 고 정크 메일 폴더로 이동 됩니다. Exchange Online에서 사서함에 대해 정크 메일 규칙을 사용 하도록 설정 되어 있으면 메시지가 정크 메일 폴더로 이동 됩니다 (기본적으로 사용 하도록 설정 됨). 자세한 내용은 [Office 365에서 Exchange Online 사서함에 대한 정크 메일 설정 구성하기](configure-junk-email-settings-on-exo-mailboxes.md)를 참조하세요.
+  - **정크 메일 폴더로 메시지 이동**:이 값은 기본값입니다. 메시지가 사서함에 배달 되 고 정크 메일 폴더로 이동 됩니다. Exchange Online에서 사서함에 대해 정크 메일 규칙을 사용 하도록 설정 되어 있으면 메시지가 정크 메일 폴더로 이동 됩니다 (기본적으로 사용 하도록 설정 됨). 자세한 내용은 [Microsoft 365에서 Exchange Online 사서함의 정크 메일 설정 구성을](configure-junk-email-settings-on-exo-mailboxes.md)참조 하세요.
 
   - **격리 메시지**: 의도 하지 않은 받는 사람 대신 메시지를 격리로 보냅니다. 격리에 대한 자세한 내용은 다음 항목을 참조하세요.
 
-    - [Office 365에서 격리](quarantine-email-messages.md)
-    - [Office 365에서 관리자 권한으로 격리된 메시지 및 파일 관리하기](manage-quarantined-messages-and-files.md)
-    - [Office 365에서 사용자 권한으로 격리된 메시지 찾기 및 해제하기](find-and-release-quarantined-messages-as-a-user.md)
+    - [Microsoft 365의 격리](quarantine-email-messages.md)
+    - [Microsoft 365에서 격리 된 메시지 및 파일을 관리자 권한으로 관리](manage-quarantined-messages-and-files.md)
+    - [Microsoft 365에서 사용자로 격리 된 메시지 찾기 및 릴리스](find-and-release-quarantined-messages-as-a-user.md)
 
 - **인증 되지 않은 보낸 사람**: Outlook에서 미확인 보낸 사람 id를 사용 하거나 사용 하지 않도록 설정 합니다. 특히 다음 사항에 유의합니다.
 
@@ -88,7 +88,7 @@ Exchange online 사서함이 있는 기타 Office 365 조직에서 Exchange Onli
 
   이러한 식별자가 특정 보낸 사람의 메시지에 추가 되지 않도록 하려면 다음 옵션을 사용할 수 있습니다.
 
-  - 보낸 사람이 스푸핑 인텔리전스 정책에서 스푸핑할 수 있도록 허용 합니다. 자세한 내용은 [Office 365에서 스푸핑 인텔리전스를 구성](learn-about-spoof-intelligence.md)합니다 .를 참조 하십시오.
+  - 보낸 사람이 스푸핑 인텔리전스 정책에서 스푸핑할 수 있도록 허용 합니다. 자세한 내용은 [Microsoft 365에서 스푸핑 인텔리전스를 구성](learn-about-spoof-intelligence.md)합니다 .를 참조 하십시오.
 
   - 보낸 사람 도메인에 대 한 [전자 메일 인증을 구성](email-validation-and-authentication.md#configure-email-authentication-for-domains-you-own) 합니다.
   
@@ -118,7 +118,7 @@ Exchange online 사서함이 있는 기타 Office 365 조직에서 Exchange Onli
 
   - **받는 사람**: 조직에 있는 하나 이상의 사서함, 메일 사용자 또는 메일 연락처입니다.
   - **받는 사람은**조직에 있는 하나 이상의 그룹의 구성원입니다.
-  - **받는 사람 도메인**: Office 365에서 구성 된 허용 도메인 하나 이상입니다.
+  - **받는 사람 도메인**: Microsoft 365에서 구성 된 허용 도메인 하나 이상입니다.
 
   - 다음의 **경우를 제외 하**고 규칙에 대 한 예외입니다. 설정 및 동작은 다음과 같은 조건과 동일 합니다.
 
@@ -152,13 +152,13 @@ Exchange online 사서함이 있는 기타 Office 365 조직에서 Exchange Onli
 
   - **메시지를 다른 전자 메일 주소로 리디렉션**: 받는 사람 대신 지정 된 받는 사람에 게 메시지를 보냅니다.
 
-  - **정크 메일 폴더로 메시지 이동**: 메시지가 사서함에 배달 되 고 정크 메일 폴더로 이동 됩니다. Exchange Online에서 사서함에 대해 정크 메일 규칙을 사용 하도록 설정 되어 있으면 메시지가 정크 메일 폴더로 이동 됩니다 (기본적으로 사용 하도록 설정 됨). 자세한 내용은 [Office 365에서 Exchange Online 사서함에 대한 정크 메일 설정 구성하기](configure-junk-email-settings-on-exo-mailboxes.md)를 참조하세요.
+  - **정크 메일 폴더로 메시지 이동**: 메시지가 사서함에 배달 되 고 정크 메일 폴더로 이동 됩니다. Exchange Online에서 사서함에 대해 정크 메일 규칙을 사용 하도록 설정 되어 있으면 메시지가 정크 메일 폴더로 이동 됩니다 (기본적으로 사용 하도록 설정 됨). 자세한 내용은 [Microsoft 365에서 Exchange Online 사서함의 정크 메일 설정 구성을](configure-junk-email-settings-on-exo-mailboxes.md)참조 하세요.
 
     - **격리 메시지**: 의도 하지 않은 받는 사람 대신 메시지를 격리로 보냅니다. 격리에 대한 자세한 내용은 다음 항목을 참조하세요.
 
-    - [Office 365에서 격리](quarantine-email-messages.md)
-    - [Office 365에서 관리자 권한으로 격리된 메시지 및 파일 관리하기](manage-quarantined-messages-and-files.md)
-    - [Office 365에서 사용자 권한으로 격리된 메시지 찾기 및 해제하기](find-and-release-quarantined-messages-as-a-user.md)
+    - [Microsoft 365의 격리](quarantine-email-messages.md)
+    - [Microsoft 365에서 격리 된 메시지 및 파일을 관리자 권한으로 관리](manage-quarantined-messages-and-files.md)
+    - [Microsoft 365에서 사용자로 격리 된 메시지 찾기 및 릴리스](find-and-release-quarantined-messages-as-a-user.md)
 
   - **메시지를 배달 하 고 숨은 참조 줄에 다른 주소 추가**: 받는 사람에 게 메시지를 배달 하 고 자동으로 지정한 받는 사람에 게 메시지를 배달 합니다.
 
@@ -172,7 +172,7 @@ Exchange online 사서함이 있는 기타 Office 365 조직에서 Exchange Onli
 
 - **사서함 인텔리전스**: 자주 대화 상대와 사용자 전자 메일 패턴을 결정 하는 인공 지능 (인공 지능)을 사용 하거나 사용 하지 않도록 설정 합니다. 이 설정을 사용 하면 이러한 연락처에서 합법적인 전자 메일과 위장 된 메일을 구별할 수 있습니다. 사서함 인텔리전스는 Exchange Online 사서함에 대해서만 사용할 수 있습니다.
 
-- **사서함 인텔리전스 기반 가장 보호**: 각 사용자의 개별 보낸 사람 맵에 따라 향상 된 가장 결과를 사용 하거나 사용 하지 않도록 설정 합니다. 이 인텔리전스를 사용 하면 Office 365에서 사용자 가장 검색을 사용자 지정 하 고 가양성을 보다 효율적으로 처리할 수 있습니다. 사용자 가장이 검색 되 면 메시지에 대해 수행할 특정 작업을 정의할 수 있습니다.
+- **사서함 인텔리전스 기반 가장 보호**: 각 사용자의 개별 보낸 사람 맵에 따라 향상 된 가장 결과를 사용 하거나 사용 하지 않도록 설정 합니다. 이 인텔리전스를 사용 하면 Microsoft 365에서 사용자 가장 검색을 사용자 지정 하 고 가양성을 보다 효율적으로 처리할 수 있습니다. 사용자 가장이 검색 되 면 메시지에 대해 수행할 특정 작업을 정의할 수 있습니다.
 
   - **작업 적용 안 함**
   - **메시지를 다른 전자 메일 주소로 리디렉션**

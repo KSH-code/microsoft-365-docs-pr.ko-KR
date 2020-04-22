@@ -17,12 +17,12 @@ ms.assetid: a74f637b-3710-4c41-b70f-b5a812929a81
 ms.collection:
 - M365-security-compliance
 description: 보안 &amp; 및 준수 센터에서 보고서 일정을 설정 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 3e09dee36e14ca1e25f6ea20c8f2b5843dc7edaa
-ms.sourcegitcommit: ce6121a8e3ca7438071d73b0c76e2b6f33ac1cf7
+ms.openlocfilehash: a5160c564373711521635d3a206d5501b0b2c8f0
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "43030167"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637703"
 ---
 # <a name="create-a-schedule-for-a-report-in-the-security-amp-compliance-center"></a>보안 &amp; 및 준수 센터에서 보고서 일정 만들기
 
@@ -31,7 +31,7 @@ ms.locfileid: "43030167"
 ## <a name="create-a-schedule-for-a-report"></a>보고서에 대한 일정 만들기
 
 > [!IMPORTANT]
-> 이 작업을 수행 하는 데 필요한 권한이 있는지 확인 합니다. 일반적으로 Office 365 전역 관리자, 보안 관리자 및 보안 독자는 보안 &amp; 및 준수 센터의 보고서에 액세스할 수 있습니다. 사용 권한에 대 한 자세한 내용은 [Office 365 보안 &amp; 및 준수 센터의 사용 권한을](permissions-in-the-security-and-compliance-center.md)참조 하세요.
+> 이 작업을 수행 하는 데 필요한 권한이 있는지 확인 합니다. 일반적으로 전역 관리자, 보안 관리자 및 보안 독자는 보안 &amp; 및 준수 센터의 보고서에 액세스할 수 있습니다. 사용 권한에 대 한 자세한 내용은 [보안 &amp; 및 준수 센터의 사용 권한을](permissions-in-the-security-and-compliance-center.md)참조 하세요.
   
 1. [보안 &amp; 및 준수 센터](https://protection.office.com)에서 **보고서** \> **대시보드로**이동 합니다.
     
@@ -72,7 +72,7 @@ ms.locfileid: "43030167"
   
 ## <a name="related-topics"></a>관련 항목
 
-[Office 365 보안 &amp; 및 준수 센터의 보고서 및 정보](reports-and-insights-in-security-and-compliance.md)
+[보안 &amp; 및 준수 센터의 보고서 및 정보](reports-and-insights-in-security-and-compliance.md)
   
 [보안 &amp; 및 준수 센터에서 보고서에 대 한 일정 관리](manage-schedules-for-multiple-reports.md)
   

@@ -24,13 +24,13 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: fae8819d-7235-495f-9f07-d016f545887f
-description: Microsoft 365 Business 앱 보호 설정이 사용자의 Windows 10 장치에 적용 되는지 확인 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 47977f8d79eb6dbb2f4d087af8f8ad7da4313c61
-ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
+description: 사용자의 Windows 10 장치에 대 한 Microsoft 365 for business 앱 보호 설정이 적용 되는지 확인 하는 방법에 대해 알아봅니다.
+ms.openlocfilehash: b63681f040b0fe49127693e9cb7aac7ba6c41af6
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42560683"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635707"
 ---
 # <a name="validate-device-protection-settings-on-windows-10-pcs"></a>Windows 10 Pc에서 장치 보호 설정 유효성 검사
 
@@ -58,13 +58,13 @@ ms.locfileid: "42560683"
     
     ![바이러스 및 위협 방지 설정이 회색으로 표시 됩니다.](../media/9ca68d40-a5d9-49d7-92a4-c581688b5926.png)
   
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
-[Microsoft 365 Business 문서 및 리소스](https://go.microsoft.com/fwlink/p/?linkid=853701)
+[비즈니스 설명서 및 리소스에 대 한 Microsoft 365](https://go.microsoft.com/fwlink/p/?linkid=853701)
   
-[Microsoft 365 Business 시작](microsoft-365-business-overview.md)
+[Microsoft 365 for business 시작](microsoft-365-business-overview.md)
   
-[Microsoft 365 Business 관리](manage.md)
+[비즈니스에 대 한 Microsoft 365 관리](manage.md)
   
 [Windows 10 PC용 장치 구성 설정](protection-settings-for-windows-10-pcs.md)
   

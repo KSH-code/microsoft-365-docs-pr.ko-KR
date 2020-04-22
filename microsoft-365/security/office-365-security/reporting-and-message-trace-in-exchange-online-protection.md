@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: f40253f2-50a1-426e-9979-be74ba74cb61
 description: Microsoft EOP(Exchange Online Protection)에서는 조직의 전체 상태를 확인할 수 있는 다양한 보고서를 제공합니다. 받는 사람에게 메시지가 도착하지 않는 등 특정 이벤트에 대한 문제를 해결할 수 있는 도구와 규정 준수 요구 사항을 지원하는 감사 보고서도 있습니다. 다음 표에서는 EOP 관리자가 사용할 수 있는 보고서 및 문제 해결 도구를 설명합니다.
-ms.openlocfilehash: 282fd032e73ccb8217801a575f6029dbd9fadc9c
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: e961c76daaad72fbd1ddede5651cb49fd66d48be
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41598555"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634355"
 ---
 # <a name="reporting-and-message-trace-in-exchange-online-protection"></a>Exchange Online Protection의 보고 및 메시지 추적
 
@@ -25,7 +25,7 @@ Microsoft EOP(Exchange Online Protection)에서는 조직의 전체 상태를 �
 
 ## <a name="usage-reports"></a>사용 현황 보고서
 
-**Office 365 그룹 활동**: 만들어지고 사용 되는 office 365 그룹 수에 대 한 정보를 확인 합니다.
+**Microsoft 365 groups activity**: 만들어지고 사용 되는 microsoft 365 그룹 수에 대 한 정보를 봅니다.
 
 **전자 메일 활동**: 전체 조직에서 전송, 수신 및 읽은 메시지 수와 특정 사용자에 대 한 정보를 확인 합니다.
 
@@ -35,13 +35,13 @@ Microsoft EOP(Exchange Online Protection)에서는 조직의 전체 상태를 �
 
 자세한 내용은 다음 리소스를 참조 하십시오.
 
-- [관리 센터의 office 365 보고서-Office 365 그룹](https://docs.microsoft.com/office365/admin/activity-reports/office-365-groups)
+- [관리 센터의 microsoft 365 보고서-Microsoft 365 그룹](https://docs.microsoft.com/office365/admin/activity-reports/office-365-groups)
 
-- [관리 센터의 Office 365 보고서-전자 메일 활동](https://docs.microsoft.com/office365/admin/activity-reports/email-activity)
+- [관리 센터의 Microsoft 365 보고서-전자 메일 활동](https://docs.microsoft.com/office365/admin/activity-reports/email-activity)
 
-- [관리 센터의 Office 365 보고서-전자 메일 앱 사용](https://docs.microsoft.com/office365/admin/activity-reports/email-apps-usage)
+- [관리 센터의 Microsoft 365 보고서-전자 메일 앱 사용 현황](https://docs.microsoft.com/office365/admin/activity-reports/email-apps-usage)
 
-- [관리 센터의 Office 365 보고서-사서함 사용량](https://docs.microsoft.com/office365/admin/activity-reports/mailbox-usage)
+- [관리 센터의 Microsoft 365 보고서-사서함 사용량](https://docs.microsoft.com/office365/admin/activity-reports/mailbox-usage)
 
 ## <a name="security--compliance-reports-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터의 보안 & 준수 보고서
 

@@ -14,12 +14,12 @@ ms.collection: M365-security-compliance
 ms.custom: Ent_TLGs
 ms.assetid: 1aa9639b-2862-49c4-bc33-1586dda636b8
 description: 이 테스트 랩 가이드를 사용 하 여 microsoft 365 Enterprise Test environment 추가 Microsoft 365 보안 설정을 사용 하도록 설정 합니다.
-ms.openlocfilehash: 166388de138f5268eb29b8a427bad61ec6ab7cda
-ms.sourcegitcommit: 2c4dfce178695a99bbdf1468f072cc1f94f6915b
+ms.openlocfilehash: 53205f0626ce55c5a9627339f3631964e3374a19
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/30/2020
-ms.locfileid: "43058884"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631672"
 ---
 # <a name="increased-microsoft-365-security-for-your-microsoft-365-enterprise-test-environment"></a>Microsoft 365 Enterprise 테스트 환경에 대 한 Microsoft 365 보안이 향상 되었습니다.
 
@@ -43,7 +43,7 @@ ms.locfileid: "43058884"
 
 ## <a name="phase-2-configure-increased-microsoft-365-security"></a>2 단계: 향상 된 Microsoft 365 보안 구성
 
-이 단계에서는 Microsoft 365 Enterprise 테스트 환경에 대 한 Microsoft 365 보안 향상을 사용 하도록 설정 합니다. 추가 정보 및 설정에 대 한 자세한 내용은 [보안 강화를 위해 Office 365 테 넌 트 구성](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security)를 참조 하세요.
+이 단계에서는 Microsoft 365 Enterprise 테스트 환경에 대 한 Microsoft 365 보안 향상을 사용 하도록 설정 합니다. 추가 정보 및 설정에 대 한 자세한 내용은 [보안 강화를 위해 테 넌 트 구성을](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security)참조 하십시오.
 
 ### <a name="configure-sharepoint-online-to-block-apps-that-dont-support-modern-authentication"></a>최신 인증을 지원 하지 않는 앱을 차단 하도록 SharePoint Online 구성
 
@@ -64,7 +64,7 @@ ms.locfileid: "43058884"
 
 SharePoint, OneDrive 및 Microsoft 팀의 Office 365 Advanced Threat Protection (ATP)은 악의적인 파일을 실수로 공유 하지 않도록 조직을 보호 합니다.
 
-1. [Office 365 Security & 준수 센터로](https://protection.office.com) 이동한 후 전역 관리자 계정으로 로그인 합니다.
+1. [보안 & 준수 센터로](https://protection.office.com) 이동 하 여 전역 관리자 계정으로 로그인 합니다.
 
 2. 왼쪽 탐색 창의 **위협 관리**에서 **정책을**클릭 하 고 **ATP 안전한 첨부 파일**을 클릭 합니다. 
 
@@ -94,7 +94,7 @@ Office 365 위협 관리는 조직의 데이터에 대 한 모바일 장치 액�
 
 보안 대시보드를 보려면:
 
-1. 필요한 경우 [Office 365 Security & 준수 센터로](https://protection.office.com) 이동 하 여 전역 관리자 계정으로 로그인 합니다.
+1. 필요한 경우 [보안 & 준수 센터로](https://protection.office.com) 이동 하 여 전역 관리자 계정으로 로그인 합니다.
 
 2. 왼쪽 탐색 창의 **위협 관리**에서 **대시보드**를 클릭 합니다.
 

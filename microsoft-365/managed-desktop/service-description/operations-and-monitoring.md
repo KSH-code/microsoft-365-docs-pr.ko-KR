@@ -9,12 +9,12 @@ f1.keywords:
 ms.author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 1cd620206f559e6870c6706fc0e40f4b7e45bc84
-ms.sourcegitcommit: 7bb340f6b47378bcd1c6e770dc975931470bbc26
+ms.openlocfilehash: 6e543219bd6a7667febadcdc8f3cff6ab705b8d3
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/10/2020
-ms.locfileid: "43225900"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632016"
 ---
 # <a name="microsoft-managed-desktop-operations-and-monitoring"></a>Microsoft Managed Desktop 작업 및 모니터링
 
@@ -62,7 +62,7 @@ ms.locfileid: "43225900"
 
 모든 변경 내용이 사용자에게 동일한 영향을 미치는 것은 아니며 필요한 작업도 다를 수 있습니다. 일부는 계획 되 고 일부 계획 되지 않은 경우 (대개 비보안 업데이트 및 보안 업데이트가 계획 되지 않음) 변경 유형에 따라 통신 채널이 다를 수 있습니다. 다음 표에는 Microsoft Managed Desktop service에 대해 예상 되는 변경 유형이 나와 있습니다.
 
-|   | 동작 |   비보안 업데이트 |  보안
+|   | 기능 |   비보안 업데이트 |  보안
 --- | --- | --- | ---
 **변경 유형** | 기능 업데이트<br>-새로운 기능 또는 응용 프로그램<br>-더 이상 사용 되지 않는 기능 | 문제에 대한 클라이언트 핫픽스 | 보안 패치
 **사전 알림** | 작업이 필요한 변경 내용에 대 한 5 일 유의 사항 |    아니요, 월별 릴리스에 포함 되어 있습니다.   | 아니요, 월별 릴리스에 포함 되어 있습니다. 

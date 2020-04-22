@@ -16,12 +16,12 @@ ms.assetid: fe0b9b8f-faa9-44ff-8095-4d1b2f507b74
 ms.collection:
 - M365-security-compliance
 description: 새 보안 대시보드를 사용 하 여 Office 365 위협 방지 상태를 검토 하 고 보안 경고를 보고 작동 합니다.
-ms.openlocfilehash: bade9f1a0060fcd08458bd28eb276a0543f5d815
-ms.sourcegitcommit: db8702cf578b02c6fd6a2670c177b456efae4748
+ms.openlocfilehash: 3b6d754505d0e23f1080520e66061b8f6fef523e
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43537404"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632520"
 ---
 # <a name="security-dashboard"></a>보안 대시보드
 
@@ -33,12 +33,12 @@ ms.locfileid: "43537404"
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1VV3o]
 
-조직의 Office 365 구독에 포함 된 내용에 따라 보안 대시보드에는 다음 섹션에 설명 된 것 처럼 위협 관리 요약, 위협 방지 상태, 전역 주간 위협 감지, 맬웨어 등의 여러 widget이 포함 됩니다.
+조직의 구독에 포함 된 내용에 따라 보안 대시보드에는 다음 섹션에 설명 된 것 처럼 위협 관리 요약, 위협 방지 상태, 전역 주간 위협 감지, 맬웨어 등의 여러 widget이 포함 됩니다.
 
-보안 대시보드를 보려면 [Office 365 보안 & 준수 센터](../../compliance/go-to-the-securitycompliance-center.md)에서 **위협 관리** \> **대시보드로**이동 합니다.
+보안 대시보드를 보려면 [보안 & 준수 센터](../../compliance/go-to-the-securitycompliance-center.md)에서 **위협 관리** \> **대시보드로**이동 합니다.
 
 > [!NOTE]
-> 보안 대시보드를 보려면 Office 365 전역 관리자, 보안 관리자 또는 보안 독자 여야 합니다. 일부 위젯을 보려면 추가 권한이 필요 합니다. 자세한 내용은 [Office 365 보안 & 준수 센터의 사용 권한을](permissions-in-the-security-and-compliance-center.md)참조 하세요.
+> 보안 대시보드를 보려면 전역 관리자, 보안 관리자 또는 보안 독자 여야 합니다. 일부 위젯을 보려면 추가 권한이 필요 합니다. 자세한 내용은 [Security & 준수 센터의 사용 권한을](permissions-in-the-security-and-compliance-center.md)참조 하세요.
 
 ## <a name="threat-management-summary"></a>위협 관리 요약
 
@@ -61,7 +61,7 @@ ms.locfileid: "43537404"
 
 ![위협 방지 상태 위젯](../../media/tpswidget.png)
 
-세부 정보는 Office 365 구독에 [office 365 ATP (Advanced Threat protection](office-365-atp.md) )가 있는 EOP ( [Exchange Online Protection](exchange-online-protection-eop.md) )가 포함 되어 있는지 여부에 따라 달라 집니다.
+세부 정보는 Microsoft 365 구독에 [Office 365 ATP (Advanced Threat protection](office-365-atp.md) )가 있는 EOP ( [Exchange Online Protection](exchange-online-protection-eop.md) )가 포함 되어 있는지 여부에 따라 달라 집니다.
 
 |||
 |---|---|
@@ -101,7 +101,7 @@ ms.locfileid: "43537404"
 
 ![고급 통찰력](../../media/smartinsights.png)
 
-예를 들어 일부 사용자가 정크 메일 옵션을 사용 하지 않도록 설정 했으므로 피싱 전자 메일 메시지가 배달 되는 것을 볼 수 있습니다. Insights 작동 방식에 대 한 자세한 내용은 [Office 365 보안 & 준수 센터의 보고서 및 정보](reports-and-insights-in-security-and-compliance.md)를 참조 하세요.
+예를 들어 일부 사용자가 정크 메일 옵션을 사용 하지 않도록 설정 했으므로 피싱 전자 메일 메시지가 배달 되는 것을 볼 수 있습니다. Insights 작동 방식에 대 한 자세한 내용은 [Security & 준수 센터의 Reports and insights](reports-and-insights-in-security-and-compliance.md)를 참조 하십시오.
 
 ## <a name="threat-investigation-and-response"></a>위협 조사 및 응답
 
@@ -115,7 +115,7 @@ ms.locfileid: "43537404"
 
 ![조직에 대 한 전자 메일 흐름 추세를 요약 하는 추세 섹션](../../media/trends.png)
 
-또한 조직의 Office 365 구독에 [office 365 Advanced Threat Protection 계획 2](office-365-ti.md)가 포함 되어 있는 경우이 섹션에서 **최신 위협 관리 경고** 보고서를 사용 하 여 보안 팀이 우선 순위가 높은 보안 경고에 대 한 작업을 보고 수행할 수 있도록 합니다.
+또한 조직의 구독에 [Office 365 Advanced Threat Protection 계획 2](office-365-ti.md)가 포함 되어 있는 경우 보안 팀이 우선 순위가 높은 보안 경고에 대 한 작업을 보고 수행할 수 있도록 하는 **최근 위협 관리 경고** 보고서가이 섹션에도 제공 됩니다.
 
 보내고 받은 전자 메일 위젯을 보거나 액세스 하려면 Advanced Threat Protection 보고서를 볼 수 있는 권한이 있어야 합니다. 자세한 내용은 [ATP 보고서를 확인 하는 데 필요한 사용 권한](view-reports-for-atp.md#what-permissions-are-needed-to-view-the-atp-reports)를 참조 하십시오.
 

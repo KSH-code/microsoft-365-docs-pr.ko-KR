@@ -1,17 +1,17 @@
 ---
 title: Microsoft Managed Desktop에 대 한 지원
 description: ''
-keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 설명서
+keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 134e971e00fc64d3ea005d32ed95359ed8fb8feb
-ms.sourcegitcommit: 7ae0389cf06e2f481ee646556720ab3f3e93ea32
+ms.openlocfilehash: c68d12ccd339c863c2dd96b2a56cfaf19e604f79
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/21/2019
-ms.locfileid: "38757665"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632004"
 ---
 # <a name="support-for-microsoft-managed-desktop"></a>Microsoft Managed Desktop에 대 한 지원
 
@@ -33,7 +33,7 @@ Microsoft 관리형 데스크톱 지원에는 다음이 포함 됩니다.
 지원 되는 제품:
 
 - Microsoft Defender Advanced Threat Protection이 포함 된 Windows 10 
-- Office 365 ProPlus 앱: Outlook, Word, PowerPoint, Excel, 비즈니스용 Skype 클라이언트, Microsoft 팀 
+- 엔터프라이즈 앱에 대 한 Microsoft 365 앱: Outlook, Word, PowerPoint, Excel, 비즈니스용 Skype 클라이언트, Microsoft 팀 
 - 비즈니스용 Microsoft Store 
 - 비즈니스용 OneDrive 클라이언트 
 

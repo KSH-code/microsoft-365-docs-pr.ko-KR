@@ -20,75 +20,75 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 5b4ba843-24b8-4526-8e1f-f9b9eab89d06
-description: Microsoft 365 Business에서 Microsoft 365 E3으로 비즈니스를 이동 하는 방법을 알아봅니다.
-ms.openlocfilehash: 0d636c0572850a53612bf756508c4b57f1b3e4eb
-ms.sourcegitcommit: e525bcf073a61e1350484719a0c3ceb6ff0d8db1
+description: Microsoft 365 Business Premium에서 Microsoft 365 E3로 비즈니스를 이동 하는 방법을 알아봅니다.
+ms.openlocfilehash: a41b27b91bd049abb2231a397a328f4f53af9500
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43153523"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43633178"
 ---
-# <a name="migrate-from-microsoft-365-business-to-microsoft-365-e3"></a>Microsoft 365 Business에서 Microsoft 365 E3로 마이그레이션
+# <a name="migrate-from-microsoft-365-business-premium-to-microsoft-365-e3"></a>Microsoft 365 Business Premium에서 Microsoft 365 E3으로 마이그레이션
 
-Microsoft 365 Business에는 최고의 비즈니스에 필요한 모든 것이 있으며, 최상의 클라우드 기반 생산성 앱을 간단한 장치 관리 및 보안과 함께 사용 하 여 직원 들이 최고의 작업을 수행할 수 있도록 합니다. 그러나 경우에 따라 Microsoft 365 비즈니스 구독을 Microsoft 365 E3으로 마이그레이션해야 할 수도 있습니다. 
+Microsoft 365 Business Premium에는 소규모 기업에 필요한 모든 것이 있으며, 최상의 클라우드 기반 생산성 앱을 간단한 장치 관리 및 보안과 함께 사용 하 여 직원 들이 최상의 작업을 수행할 수 있습니다. 그러나 경우에 따라 Microsoft 365 Business Premium subscription을 Microsoft 365 E3으로 마이그레이션해야 할 수도 있습니다. 
 
 예를 들어 비즈니스가 성장 했으며 300 개 이상의 라이선스가 필요 합니다 (방식으로 축 하 합니다).
 
-또는 회사에 Office 365 ProPlus, Windows 10 Enterprise E3 또는 엔터프라이즈 Cal (클라이언트 액세스 라이선스)과 같은 enterprise 기능이 필요 합니다.
+또는 업무상 Microsoft 365 Apps for enterprise, Windows 10 Enterprise E3 또는 Enterprise Cal (클라이언트 액세스 라이선스)과 같은 enterprise 기능을 필요로 합니다.
 
 업그레이드는 [관리 센터에서](../commerce/subscriptions/upgrade-to-different-plan.md)업그레이드를 시작할 수 있습니다. 현재 구독의 모든 데이터와 구성이 유지 됩니다. 새 기능을 사용 하는 경우를 제외 하 고는 마이그레이션을 준비 하 고 나중에 수행 해야 하는 작업이 없습니다.
 
 >[!Note]
->또한 최대 300의 사용자를 위해 Microsoft 365 비즈니스 구독을 사용할 수 있으며, 300 명 보다 더 많은 Microsoft 365 E3 구독을 받을 수도 있습니다. 그러나 Office 365 ATP는 Microsoft 365 E3에 포함 되어 있지 않습니다. 계속 해 서 위협 방지를 위해 office 365 ATP 정책 범위에 있는 모든 사용자에 게 라이선스가 있도록 Office 365 ATP 라이선스를 추가 해야 합니다.
+>또한 최대 300의 사용자를 위해 Microsoft 365 Business Premium subscription을 사용 하 고, 300 명 보다 더 많은 Microsoft 365 E3 구독을 사용할 수 있습니다. 그러나 Office 365 ATP는 Microsoft 365 E3에 포함 되어 있지 않습니다. 계속 해 서 위협 방지를 위해 office 365 ATP 정책 범위에 있는 모든 사용자에 게 라이선스가 있도록 Office 365 ATP 라이선스를 추가 해야 합니다.
 >
 
-## <a name="differences-between-microsoft-365-business-and-microsoft-365-enterprise"></a>Microsoft 365 비즈니스 및 Microsoft 365 Enterprise의 차이점
+## <a name="differences-between-microsoft-365-business-premium-and-microsoft-365-enterprise"></a>Microsoft 365 Business Premium과 Microsoft 365 Enterprise의 차이점
 
-이 표에서는 Microsoft 365 Business 및 Microsoft 365 E3의 차이점을 보여 줍니다.
+이 표에서는 Microsoft 365 Business Premium과 Microsoft 365 E3 간의 차이점을 보여 줍니다.
 
-| 기능    | Microsoft 365 Business의 지원    | Microsoft 365 E3의 지원 | 
+| 기능    | Microsoft 365 Business Premium의 지원    | Microsoft 365 E3의 지원 | 
 |:-------|:-----|:-----|
 | **온-프레미스**        | | | 
 | Windows 10    | Windows 10 Business  |     Windows 10 Enterprise E3| 
-| Office 앱 *    | [Office 365 Business](#office-365-business)    | Office 365 ProPlus | 
+| Office 앱 *    | [Microsoft 365 비즈니스 에디션 앱](#office-365-business)    | Microsoft 365 enterprise 용 앱 | 
 | **클라우드 생산성 앱**        | | | 
 | Exchange Online 및 Outlook    | 사서함 당 50 GB 저장소 제한 및 무제한 Exchange 온라인 보관    | 사서함 당 100 GB 저장소 제한 및 무제한 Exchange 온라인 보관 | 
-| Teams    | ![Microsoft 365 Business에 포함](../media/check-mark.png)    | ![Microsoft 365 E3에 포함](../media/check-mark.png) | 
+| Teams    | ![Microsoft 365 Business Premium에 포함 된 내용](../media/check-mark.png)    | ![Microsoft 365 E3에 포함](../media/check-mark.png) | 
 | 비즈니스용 OneDrive    | 사용자 당 1TB 저장소 제한    | 무제한 | 
-| Yammer, SharePoint Online, Planner, 스트림    | ![Microsoft 365 Business에 포함](../media/check-mark.png)    | ![Microsoft 365 E3에 포함](../media/check-mark.png) | 
-| Outlook 고객 관리자, MileIQ    | ![Microsoft 365 Business에 포함](../media/check-mark.png)    | | 
+| Yammer, SharePoint Online, Planner, 스트림    | ![Microsoft 365 Business Premium에 포함 된 내용](../media/check-mark.png)    | ![Microsoft 365 E3에 포함](../media/check-mark.png) | 
+| Outlook 고객 관리자, MileIQ    | ![Microsoft 365 Business Premium에 포함 된 내용](../media/check-mark.png)    | | 
 | **위협 방지**        | | | 
 | 공격 표면 축소 기능    | [이 목록 보기](#threat-protection) | Microsoft Edge에 대 한 하드웨어 기반 격리의 엔터프라이즈 관리 | 
-| Office 365 ATP (Advanced Threat Protection) 계획 1 | ![Microsoft 365 Business에 포함](../media/check-mark.png)    | 포함 되지 않지만 추가할 수 있음 | 
+| Office 365 ATP (Advanced Threat Protection) 계획 1 | ![Microsoft 365 Business Premium에 포함 된 내용](../media/check-mark.png)    | 포함 되지 않지만 추가할 수 있음 | 
 | **Id 관리**        | | | 
-| 하이브리드 Azure Active Directory (Azure AD) 계정, Azure Multi-factor Authentication, 조건부 액세스, 온-프레미스 id의 암호 쓰기 되돌림에 대 한 셀프 서비스 암호 재설정|     ![Microsoft 365 Business에 포함](../media/check-mark.png)    | ![Microsoft 365 E3에 포함](../media/check-mark.png) | 
+| 하이브리드 Azure Active Directory에 대 한 셀프 서비스 암호 재설정 (Azure AD) 계정, Azure MFA (다단계 인증), 조건부 액세스, 온-프레미스 id에 대 한 암호 쓰기 저장|     ![Microsoft 365 Business Premium에 포함 된 내용](../media/check-mark.png)    | ![Microsoft 365 E3에 포함](../media/check-mark.png) | 
 | Cloud App Discovery, Azure AD Connect Health    |     | ![Microsoft 365 E3에 포함](../media/check-mark.png) | 
-| Azure AD Office 365 앱 SSO (Single Sign-on): 사용자 당 10 개의 앱 (예: Salesforce와 같은 SaaS 응용 프로그램) * | ![Microsoft 365 Business에 포함](../media/check-mark.png)    | ![Microsoft 365 E3에 포함](../media/check-mark.png) | 
-| Azure AD Premium P1 SSO: 제한 없음 (셀프 서비스 앱 통합 서식 파일을 사용 하는 Azure AD 응용 프로그램 프록시 및 비 갤러리 앱을 통한 온-프레미스 앱)    |     | ![Microsoft 365 E3에 포함](../media/check-mark.png) | 
+| Azure AD Office 365 앱 SSO (Single Sign-on): 사용자 당 10 개의 앱 (예: Salesforce와 같은 SaaS 응용 프로그램) * | ![Microsoft 365 Business Premium에 포함 된 내용](../media/check-mark.png)    | ![Microsoft 365 E3에 포함](../media/check-mark.png) | 
+| Azure AD Premium 1 SSO: 제한 없음 (셀프 서비스 앱 통합 서식 파일을 사용 하는 Azure AD 응용 프로그램 프록시 및 비 갤러리 앱을 통한 온-프레미스 앱)    |     | ![Microsoft 365 E3에 포함](../media/check-mark.png) | 
 | **장치 및 앱 관리**        | | | 
-| Microsoft Intune, Windows Autopilot|     ![Microsoft 365 Business에 포함](../media/check-mark.png)    | ![Microsoft 365 E3에 포함](../media/check-mark.png) | 
+| Microsoft Intune, Windows Autopilot|     ![Microsoft 365 Business Premium에 포함 된 내용](../media/check-mark.png)    | ![Microsoft 365 E3에 포함](../media/check-mark.png) | 
 |VDA (가상 데스크톱 액세스)    |  |     ![Microsoft 365 E3에 포함](../media/check-mark.png) | 
-|WVD (Windows 가상 데스크톱)    | ![Microsoft 365 Business에 포함](../media/check-mark.png) |     ![Microsoft 365 E3에 포함](../media/check-mark.png) | 
-|SCA (공유 컴퓨터 활성화)    | ![Microsoft 365 Business에 포함](../media/check-mark.png) |     ![Microsoft 365 E3에 포함](../media/check-mark.png) | 
+|WVD (Windows 가상 데스크톱)    | ![Microsoft 365 Business Premium에 포함 된 내용](../media/check-mark.png) |     ![Microsoft 365 E3에 포함](../media/check-mark.png) | 
+|SCA (공유 컴퓨터 활성화)    | ![Microsoft 365 Business Premium에 포함 된 내용](../media/check-mark.png) |     ![Microsoft 365 E3에 포함](../media/check-mark.png) | 
 | Microsoft 데스크톱 최적화 패키지    | |     ![Microsoft 365 E3에 포함](../media/check-mark.png) | 
 | **정보 보호**        | | | 
-| Office 365 데이터 손실 방지, Azure Information Protection 계획 1    | ![Microsoft 365 Business에 포함](../media/check-mark.png)    | ![Microsoft 365 E3에 포함](../media/check-mark.png) | 
-| 끝점 DLP에 대 한 창 정보 보호    | ![Microsoft 365 Business에 포함](../media/check-mark.png)    | ![Microsoft 365 E3에 포함](../media/check-mark.png) | 
+| Office 365 데이터 손실 방지, Azure Information Protection 계획 1    | ![Microsoft 365 Business Premium에 포함 된 내용](../media/check-mark.png)    | ![Microsoft 365 E3에 포함](../media/check-mark.png) | 
+| 끝점 DLP에 대 한 창 정보 보호    | ![Microsoft 365 Business Premium에 포함 된 내용](../media/check-mark.png)    | ![Microsoft 365 E3에 포함](../media/check-mark.png) | 
 | **클라이언트 액세스 라이선스 (CAL 권한)**    | | |     
 | Enterprise CAL Suite (Exchange, SharePoint, Skype, Windows, Microsoft Endpoint Configuration Manager, Windows Rights Management)| |         ![Microsoft 365 E3에 포함](../media/check-mark.png) | 
 | **규정 준수**        | | | 
-| 무제한 전자 메일 보관    | ![Microsoft 365 Business에 포함](../media/check-mark.png)    | ![Microsoft 365 E3에 포함](../media/check-mark.png) | 
-| 준수 점수/준수 관리자    | ![Microsoft 365 Business에 포함](../media/check-mark.png)    | ![Microsoft 365 E3에 포함](../media/check-mark.png) | 
-| eDiscovery    | ![Microsoft 365 Business에 포함](../media/check-mark.png)    | ![Microsoft 365 E3에 포함](../media/check-mark.png) | 
-| 원본 위치 유지 및 소송 보존    | ![Microsoft 365 Business에 포함](../media/check-mark.png)    | ![Microsoft 365 E3에 포함](../media/check-mark.png) | 
-| MRM (메시징 레코드 관리) 보존 태그 및 보존 정책    | ![Microsoft 365 Business에 포함](../media/check-mark.png)    | ![Microsoft 365 E3에 포함](../media/check-mark.png) | 
+| 무제한 전자 메일 보관    | ![Microsoft 365 Business Premium에 포함 된 내용](../media/check-mark.png)    | ![Microsoft 365 E3에 포함](../media/check-mark.png) | 
+| 준수 점수/준수 관리자    | ![Microsoft 365 Business Premium에 포함 된 내용](../media/check-mark.png)    | ![Microsoft 365 E3에 포함](../media/check-mark.png) | 
+| eDiscovery    | ![Microsoft 365 Business Premium에 포함 된 내용](../media/check-mark.png)    | ![Microsoft 365 E3에 포함](../media/check-mark.png) | 
+| 원본 위치 유지 및 소송 보존    | ![Microsoft 365 Business Premium에 포함 된 내용](../media/check-mark.png)    | ![Microsoft 365 E3에 포함](../media/check-mark.png) | 
+| MRM (메시징 레코드 관리) 보존 태그 및 보존 정책    | ![Microsoft 365 Business Premium에 포함 된 내용](../media/check-mark.png)    | ![Microsoft 365 E3에 포함](../media/check-mark.png) | 
 ||||
 
 \*SaaS 앱에 대 한 액세스 권한이 할당 된 사용자는 최대 10 개의 앱에 대 한 SSO 액세스를 받을 수 있습니다. 관리자는 SSO를 구성 하 고 다른 SaaS 앱에 대 한 사용자 액세스를 변경할 수 있지만 SSO 액세스는 사용자 당 10 개의 앱에 한 번에 하나씩만 허용 됩니다. 모든 Office 365 앱은 단일 앱으로 계산 됩니다.
 
 ## <a name="migration"></a>마이그레이션
 
-마이그레이션하기 위해 파트너와 협력 하 여 Microsoft 365 비즈니스 구독 및 라이선스를 해당 라이선스와 함께 적절 한 Microsoft 365 E3 구독으로 이동 합니다.
+마이그레이션하기 위해 파트너와 협력 하 여 Microsoft 365 Business Premium 구독 및 라이선스를 해당 라이선스와 함께 적절 한 Microsoft 365 E3 구독으로 이동 합니다.
 
 다음 섹션에서는 마이그레이션 후에 수행 해야 하는 작업 및 변경 내용에 대해 설명 합니다.
 
@@ -137,12 +137,12 @@ Windows 10 Enterprise e 3에는 Microsoft Edge에 대 한 하드웨어 기반 �
 
 ### <a name="windows-10"></a>Windows 10
 
-Microsoft 365 Business에는 windows AutoPilot를 사용 하 여 설치할 수 있는 Windows 10 Business가 포함 되어 있습니다. Microsoft 365 E3로 마이그레이션하는 경우 각 사용자 라이선스에는 windows Autopilot를 사용 하 여 설치할 수도 있습니다.
+Microsoft 365 Business Premium에는 windows AutoPilot를 사용 하 여 설치할 수 있는 Windows 10 Business가 포함 되어 있습니다. Microsoft 365 E3로 마이그레이션하는 경우 각 사용자 라이선스에는 windows Autopilot를 사용 하 여 설치할 수도 있습니다.
 
 <a name="office-365-business"></a>
-### <a name="office-365-business"></a>Office 365 Business
+###  <a name="microsoft-365-apps-for-business"></a>Microsoft 365 비즈니스 에디션 앱
 
-장치에 설치 된 Office 365 Business 클라이언트는 자동으로 Office 365 ProPlus의 기능을 사용 하기 시작 합니다. 마이그레이션 후에는 다음을 사용할 수 있습니다.
+장치에 설치 된 Microsoft 365 Apps for business 클라이언트는 자동으로 Microsoft 365 앱 for enterprise 기능을 사용 하기 시작 합니다. 마이그레이션 후에는 다음을 사용할 수 있습니다.
 
  - 그룹 정책을 통한 볼륨 정품 인증
  - 앱 원격 분석

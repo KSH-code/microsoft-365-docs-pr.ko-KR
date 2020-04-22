@@ -21,36 +21,36 @@ search.appverid:
 - BEA160
 - GEA150
 ms.assetid: 4436582f-211a-45ec-b72e-33647f97d8a3
-description: Office 365 for business 구독이 만료 되거나, 사용 하지 않도록 설정 되었거나, 취소 된 경우 데이터에 대 한 결과를 알아봅니다.
-ms.openlocfilehash: f3be5a84cc29b2f7fd4d2bbe3e6ba611c6459ea6
-ms.sourcegitcommit: d818828c66cf98b0b0037ba8b3cb790c940281b7
+description: Microsoft 365 for business 구독이 만료 되거나, 사용 하지 않도록 설정 되었거나, 취소 된 경우 데이터에 대 한 결과를 알아봅니다.
+ms.openlocfilehash: 2a5a9e587b6b00017d3e489d948c9cee3db4777b
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 04/21/2020
-ms.locfileid: "43584012"
+ms.locfileid: "43634877"
 ---
-# <a name="what-happens-to-my-data-and-access-when-my-office-365-for-business-subscription-ends"></a>비즈니스에 대 한 Office 365 구독이 종료 되 면 내 데이터 및 액세스에 대 한 변화
+# <a name="what-happens-to-my-data-and-access-when-my-microsoft-365-for-business-subscription-ends"></a>내 데이터 및 액세스에 대 한 Microsoft 365 for business 구독이 종료 될 때 어떤 일이 발생 하나요?
 
-구독이 만료 되는 경우 또는 취소 하기로 결정 하는 경우, 구독을 완전히 해제 하기 전에 Office 365 서비스, 응용 프로그램 및 고객 데이터에 대 한 액세스 권한이 여러 상태를 *구축*합니다. 이 단계를 이해 하 고 있는 경우 구독을 이전 상태로 되돌릴 것이 더 나, Office 365를 떠나는 경우 최종적으로 삭제 되기 전에 데이터를 백업 하는 것이 좋습니다.
+구독이 만료 되거나 취소 하기로 결정 하는 경우, Microsoft 365 서비스, 응용 프로그램 및 고객 데이터에 대 한 액세스 권한이 구독을 완전히 해제 되기 전에 여러 상태로 진행 되거나 *구축*를 사용 하지 않도록 설정 됩니다. 이 단계를 이해 하 고 있으면 구독을 이전 상태로 되돌릴 것이 더 나 Microsoft 365를 떠나는 경우 최종적으로 삭제 되기 전에 데이터를 백업 하는 것이 좋습니다.
   
-## <a name="office-365-for-business-subscription-lifecycle"></a>Office 365 for business: 구독 수명 주기
+## <a name="microsoft-365-for-business-subscription-lifecycle"></a>비즈니스에 대 한 Microsoft 365: 구독 수명 주기
 - 구독이 만료 되는 경우 만료/사용 안 함/구축 단계를 거칩니다. 만료 된 단계는 구독이 종료 날짜에 도달한 직후에 시작 됩니다.
 - 연간 구독에 대해 되풀이 되는 대금 청구를 해제 하는 경우 만료 된 구독과 동일한 단계를 거칩니다. 첫 번째 단계는 구독의 되풀이 비용 설정을 해제 한 날짜부터 시작 하지 않고 연간 구독의 기념일입니다.
-- 매월 구독을 취소 하면 즉시 사용 하지 않도록 설정 됩니다 (취소 날짜). 즉, 사용자는 즉시 Office 365 자산에 대 한 액세스 권한을 잃게 되며 관리자만 다음 90 일 동안 데이터에 액세스할 수 있습니다.
+- 매월 구독을 취소 하면 즉시 사용 하지 않도록 설정 됩니다 (취소 날짜). 즉, 사용자는 즉시 Microsoft 365 자산에 대 한 액세스 권한을 잃게 되며 관리자만 다음 90 일 동안 데이터에 액세스할 수 있습니다.
 
-다음 표에서는 유료 Office 365 for business 구독이 만료 되는 경우 발생할 수 있는 작업에 대해 설명 합니다.
+다음 표에서는 유료 Microsoft 365 for business 구독이 만료 되는 경우 예상 되는 결과를 설명 합니다.
 
 | **활성**                                                             | **만료 <br/>(30 일\*)**                                                | **사용 <br/>안 함 (\*90 일)**                                               | **프로비전 해제됨**                                                                         |
 |------------------------------------------------------------------------|------------------------------------------------------------------------------|------------------------------------------------------------------------------|-------------------------------------------------------------------------------------------|
 | *모든 데이터에 액세스할 수 있음*                                               | *모든 데이터에 액세스할 수 있음*                                                     | *관리자만 데이터에 액세스할 수 있음*                                             | **다른 서비스<br/>에서 사용 하 고 있지 않은 경우 삭제 된 데이터가 Azure Active Directory를 제거 함** |
-| 사용자에 게 Office 365, 데이터 및 Office 응용 프로그램에 대 한 일반 액세스 권한  | 사용자에 게 Office 365, 파일 및 응용 프로그램에 대 한 일반 액세스 권한              | 사용자가 Office 365, 파일 또는 응용 프로그램에 액세스할 수 없음                        | 사용자가 Office 365, 파일 또는 응용 프로그램에 액세스할 수 없음                                     |
-| 관리자가 Office 365, 데이터 및 Office 응용 프로그램에 대 한 일반 액세스 권한 | 관리자가 관리 센터에 액세스할 수 있음   | 관리자가 관리 센터에 액세스할 수 있으 나 사용자에 게 라이선스 할당 불가       | 관리자가 관리 센터에 액세스 하 여 다른 구독을 구매 및 관리할 수 있음             |
+| 사용자에 게 Microsoft 365, 데이터 및 Office 응용 프로그램에 대 한 일반 액세스 권한  | 사용자에 게 Microsoft 365, 파일 및 응용 프로그램에 대 한 일반 액세스 권한              | 사용자가 Microsoft 365, 파일 또는 응용 프로그램에 액세스할 수 없음                        | 사용자가 Microsoft 365, 파일 또는 응용 프로그램에 액세스할 수 없음                                     |
+| 관리자에 게 Microsoft 365, 데이터 및 Office 응용 프로그램에 대 한 일반 액세스 권한 | 관리자가 관리 센터에 액세스할 수 있음                                           | 관리자가 관리 센터에 액세스할 수 있으 나 사용자에 게 라이선스 할당 불가       | 관리자가 관리 센터에 액세스 하 여 다른 구독을 구매 및 관리할 수 있음             |
 |                                                                        | 전역 또는 대금 청구 관리자는 관리 센터에서 구독을 다시 활성화할 수 있습니다. | 전역 또는 대금 청구 관리자는 관리 센터에서 구독을 다시 활성화할 수 있습니다. |                                                                                           |
 
 * 대부분의 국가 및 지역에서 제공 됩니다.
   
 > [!NOTE]
-> **"고객 데이터" 란?** [Microsoft Online Services 조항](https://go.microsoft.com/fwlink/p/?LinkId=613649)에 정의 된 대로 고객 데이터는 고객의 Office 365 서비스 사용을 통해 고객에 게 Microsoft에 제공 되는 모든 텍스트, 사운드 또는 이미지 파일을 포함 하 여 모든 데이터를 나타냅니다. 고객 데이터를 보호 하는 방법에 대 한 자세한 내용은 [Microsoft Service Trust Portal 시작](https://support.office.com/article/f30e2353-0bd6-41ed-8347-eea1fb8d2662)을 참조 하세요.
+> **"고객 데이터" 란?** [Microsoft Online Services 조항](https://go.microsoft.com/fwlink/p/?LinkId=613649)에 정의 된 대로 고객 데이터는 고객의 microsoft 365 서비스 사용을 통해 고객에 게 microsoft에 의해 제공 되는 모든 텍스트, 사운드 또는 이미지 파일을 포함 하 여 모든 데이터를 나타냅니다. 고객 데이터를 보호 하는 방법에 대 한 자세한 내용은 [Microsoft Service Trust Portal 시작](https://support.office.com/article/f30e2353-0bd6-41ed-8347-eea1fb8d2662)을 참조 하세요.
   
 ## <a name="what-are-my-options-if-my-subscription-is-about-to-expire"></a>구독 만료를 위해 내 옵션 이란?
 
@@ -64,11 +64,11 @@ ms.locfileid: "43584012"
 
   - 되풀이 되는 **대금 청구** 가 이미 설정 된 경우에는 작업을 수행할 필요가 없습니다. 귀하의 구독은 자동으로 청구 되며, 현재 결제 빈도에 따라 추가 연도 또는 월에 대 한 비용이 청구 됩니다. **정기적으로 대금 청구** 를 해제 한 경우에는 항상 되풀이 되는 [대금 청구를 다시 켤](renew-your-subscription.md)수 있습니다.
 
-  - 선불 카드를 사용 하 여 Office 365 Business를 구매한 경우 구독에 대해 되풀이 되는 [대금 청구 기능을 켤](renew-your-subscription.md) 수 있습니다.
+  - 선불 카드를 사용 하 여 Microsoft 365 앱을 구매한 경우 구독에 대해 [되풀이 되는 대금 청구 기능을 켤](renew-your-subscription.md) 수 있습니다.
 
   - 1 년 동안의 선불 구독을 가진 오픈 볼륨 라이선스 고객 인 경우 파트너에 게 문의 하 여 새 제품 키를 구입 합니다. [볼륨 라이선스 서비스 센터](https://go.microsoft.com/fwlink/p/?LinkID=282016)에서 전자 메일을 통해 키를 활성화 하는 지침을 받습니다. 새 파트너 또는 이전에 작업 한 파트너를 찾는 방법에 대 한 자세한 내용은 [파트너 또는 대리점 찾기를](../../admin/manage/find-your-partner-or-reseller.md)참조 하세요.
 
-  - Office 365 Business가 있는 경우 [구독에 대 한 되풀이 된 청구 관리](renew-your-subscription.md)를 참조 하세요.
+  - Microsoft 365 비즈니스용 앱이 있는 경우 [구독에 대 한 되풀이 된 청구 관리](renew-your-subscription.md)를 참조 하세요.
 
 - **구독 만료를 허용 합니다.**
 
@@ -88,11 +88,11 @@ ms.locfileid: "43584012"
 
   - 되풀이 되는 **대금 청구** 가 이미 설정 된 경우에는 작업을 수행할 필요가 없습니다. 귀하의 구독은 자동으로 청구 되며, 현재 결제 빈도에 따라 추가 연도 또는 월에 대 한 비용이 청구 됩니다. **정기적으로 대금 청구** 를 해제 한 경우에는 항상 되풀이 되는 [대금 청구를 다시 켤](renew-your-subscription.md)수 있습니다.
 
-  - 선불 카드를 사용 하 여 Office 365 Business를 구매한 경우 구독에 대해 되풀이 되는 [대금 청구 기능을 켤](renew-your-subscription.md) 수 있습니다.
+  - 선불 카드를 사용 하 여 Microsoft 365 앱을 구매한 경우 구독에 대해 [되풀이 되는 대금 청구 기능을 켤](renew-your-subscription.md) 수 있습니다.
 
   - 1 년 동안의 선불 구독을 가진 오픈 볼륨 라이선스 고객 인 경우 파트너에 게 문의 하 여 새 제품 키를 구입 합니다. [볼륨 라이선스 서비스 센터](https://go.microsoft.com/fwlink/p/?LinkID=282016)에서 전자 메일을 통해 키를 활성화 하는 지침을 받습니다. 새 파트너 또는 이전에 작업 한 파트너를 찾는 방법에 대 한 자세한 내용은 [파트너 또는 대리점 찾기를](../../admin/manage/find-your-partner-or-reseller.md)참조 하세요.
 
-  - Office 365 Business가 있는 경우 [구독 갱신](renew-your-subscription.md)을 참조 하세요.
+  - Microsoft 365 비즈니스용 앱이 있는 경우 [구독 갱신](renew-your-subscription.md)을 참조 하세요.
 
 - **구독 만료를 허용 합니다.**
 
@@ -141,9 +141,9 @@ ms.locfileid: "43584012"
 
 ::: moniker-end
 
-이 상태에서는 사용자가 Office 365 포털, Office 응용 프로그램 및 서비스 (예: 전자 메일 및 SharePoint Online)에 대 한 일반 액세스 권한을 갖습니다.
+이 상태에서는 사용자가 Microsoft 365 portal, Office 응용 프로그램 및 서비스 (예: 전자 메일 및 SharePoint Online)에 대 한 일반 액세스 권한을 갖습니다.
   
-관리자는 여전히 관리 센터에 액세스할 수 있습니다. 전역 또는 대금 청구 관리자 [는 구독을 다시 활성화](reactivate-your-subscription.md) 하 고 Office 365를 계속 사용할 수 있습니다. 다시 활성화 하지 않으면 [데이터를 백업](back-up-data-before-switching-plans.md)해야 합니다.
+관리자는 여전히 관리 센터에 액세스할 수 있습니다. 전역 또는 대금 청구 관리자는 [구독을 다시 활성화](reactivate-your-subscription.md) 하 고 Microsoft 365를 계속 사용할 수 있습니다. 다시 활성화 하지 않으면 [데이터를 백업](back-up-data-before-switching-plans.md)해야 합니다.
   
 ### <a name="state-disabled"></a>상태: 사용 안 함
   
@@ -171,7 +171,7 @@ ms.locfileid: "43584012"
 
 ::: moniker-end
 
-전역 또는 대금 청구 관리자는 모든 고객 데이터를 그대로 유지 하면서 [구독을 다시 활성화](reactivate-your-subscription.md) 하 고 Office 365을 계속 사용할 수 있습니다. 다시 활성화 하지 않도록 선택한 경우 [데이터를 백업](back-up-data-before-switching-plans.md)해야 합니다.
+전역 또는 대금 청구 관리자는 모든 고객 데이터를 그대로 사용 하 여 [구독을 다시 활성화](reactivate-your-subscription.md) 하 고 Microsoft 365을 계속 사용할 수 있습니다. 다시 활성화 하지 않도록 선택한 경우 [데이터를 백업](back-up-data-before-switching-plans.md)해야 합니다.
 
 ### <a name="state-deprovisioned"></a>상태: 구축
   
@@ -186,15 +186,15 @@ ms.locfileid: "43584012"
 
 ### <a name="what-happens-when-my-trial-ends"></a>평가판이 종료 되 면 어떻게 되나요?
 
-평가판이 끝나면 Office 365을 무료로 계속 사용할 수 없습니다. 다음 몇 가지 옵션을 사용할 수 있습니다.
+평가판이 끝나면 무료로 Microsoft 365을 계속 사용할 수 없습니다. 다음 몇 가지 옵션을 사용할 수 있습니다.
 
 ::: moniker range="o365-worldwide"
-- **Office 365을 구입 합니다.** 평가판이 만료 되 면 유예 기간 동안 최대 30 일 (대부분의 국가 및 지역에서 대부분의 평가판)을 제공 하 여 Office 365을 구매할 수 있습니다. 평가판을 유료 구독으로 변환 하는 방법에 대 한 자세한 내용은 [비즈니스용 Office 365 평가판 구매 버전 구입](../buy-a-subscription-from-your-free-trial.md)을 참조 하십시오.
+- **Microsoft 365을 구입 합니다.** 평가판이 만료 되 면 유예 기간 동안 최대 30 일 (대부분의 국가 및 지역에서 대부분의 평가판)에서 Microsoft 365을 구매할 수 있습니다. 평가판을 유료 구독으로 변환 하는 방법에 대 한 자세한 내용은 [비즈니스용 마이크로소프트 365 평가판 구입](../buy-a-subscription-from-your-free-trial.md)을 참조 하세요.
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
-- **Office 365을 구입 합니다.** 평가판이 만료 되 면 유예 기간 동안 최대 30 일 (대부분의 국가 및 지역에서 대부분의 평가판)을 제공 하 여 Office 365을 구매할 수 있습니다. 평가판을 유료 구독으로 변환 하는 방법에 대 한 자세한 내용은 [비즈니스용 Office 365 평가판 구매 버전 구입](../buy-a-subscription-from-your-free-trial.md)을 참조 하십시오.
+- **Microsoft 365을 구입 합니다.** 평가판이 만료 되 면 유예 기간 동안 최대 30 일 (대부분의 국가 및 지역에서 대부분의 평가판)에서 Microsoft 365을 구매할 수 있습니다. 평가판을 유료 구독으로 변환 하는 방법에 대 한 자세한 내용은 [비즈니스용 마이크로소프트 365 평가판 구입](../buy-a-subscription-from-your-free-trial.md)을 참조 하세요.
 
 ::: moniker-end
 
@@ -203,9 +203,9 @@ ms.locfileid: "43584012"
 
 ::: moniker-end
 
-- **평가판을 확장 합니다.** Office 365을 평가 하는 데 더 많은 시간이 필요 한가요? 경우에 따라 [평가판을 연장할](../extend-your-trial.md)수 있습니다.
+- **평가판을 확장 합니다.** Microsoft 365을 평가 하는 데 더 많은 시간이 필요 한가요? 경우에 따라 [평가판을 연장할](../extend-your-trial.md)수 있습니다.
 
-- **평가판을 취소 하거나 만료 되도록 합니다.** Office 365을 구입 하지 않기로 결정 한 경우 평가판이 만료 되도록 하거나 [취소할](cancel-your-subscription.md)수 있습니다. 보존 하려는 데이터를 백업 해야 합니다. 30 일 유예 기간이 지난 후에는 평가판 계정 정보 및 데이터를 영구적으로 삭제 합니다.
+- **평가판을 취소 하거나 만료 되도록 합니다.** Microsoft 365을 구입 하지 않기로 결정 한 경우 평가판이 만료 되도록 하거나 [취소할](cancel-your-subscription.md)수 있습니다. 보존 하려는 데이터를 백업 해야 합니다. 30 일 유예 기간이 지난 후에는 평가판 계정 정보 및 데이터를 영구적으로 삭제 합니다.
 
 ## <a name="what-happens-if-i-cancel-a-subscription"></a>구독을 취소할 경우 어떻게 되나요?
 

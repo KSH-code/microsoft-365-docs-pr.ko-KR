@@ -14,12 +14,12 @@ ms.assetid: 4650fec1-4ee3-4659-abbc-bf091718cb26
 ms.collection:
 - M365-security-compliance
 description: Microsoft 정크 메일 보고 추가 기능을 설치 하 고 사용 하 여 스팸, 비 스팸 및 피싱 메시지를 Microsoft에 보고 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: e39fb2f4ecba806c2d26d989fbbe6ddec137adc1
-ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
+ms.openlocfilehash: be087a15071114b2d1ec564cbb118dcd85e32429
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43033911"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43638503"
 ---
 # <a name="install-and-use-the-junk-email-reporting-add-in-for-microsoft-outlook-in-office-365"></a>Office 365에서 Microsoft Outlook 용 정크 메일 보고 추가 기능 설치 및 사용
 
@@ -30,14 +30,14 @@ Microsoft Outlook 용 정크 메일 보고 추가 기능을 사용 하면 사용
 
 이 항목에서는 정크 메일 보고 추가 기능을 설치 하 고 사용 하는 방법에 대해 설명 합니다.
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
 
 - 정크 메일 보고 추가 기능을 설치 하려면이 항목의 뒷부분에 나오는 [정크 메일 보고 추가 기능 설치](#install-the-junk-email-reporting-add-in) 섹션을 참조 하십시오.
 
 - 정크 메일 보고 추가 기능을 사용 하는 Outlook 버전은 다음과 같습니다.
 
   - Outlook 2013 이상
-  - Office 365 ProPlus에 포함 된 Outlook
+  - Microsoft 365 for enterprise 앱에 포함 된 Outlook
 
 - Microsoft에 메시지를 보고 하는 방법에 대 한 자세한 내용은 [Office 365에서 microsoft에 메시지 및 파일](report-junk-email-messages-to-microsoft.md)보고를 참조 하세요.
 

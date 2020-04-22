@@ -1,5 +1,5 @@
 ---
-title: Office 365의 자동화 된 조사 및 응답 (AIR)
+title: 자동 조사 및 대응 (AIR)
 f1.keywords:
 - NOCSH
 ms.author: deniseb
@@ -15,28 +15,28 @@ search.appverid:
 ms.collection: M365-security-compliance
 description: Office 365 Advanced Threat Protection 계획 2의 자동화 된 조사 및 응답 기능에 대 한 개요를 확인 하세요.
 ms.custom: air
-ms.openlocfilehash: 1fa99d7676a16ccd83319e5fbf3a6fedb72aec12
-ms.sourcegitcommit: 00ce4626e1be182c5a91210a23662c9704384efa
+ms.openlocfilehash: 638f421289d5b4f0d8c02fbd5bf2913191721bf6
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43170955"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43638551"
 ---
-# <a name="automated-investigation-and-response-air-in-office-365"></a>Office 365의 자동화 된 조사 및 응답 (AIR)
+# <a name="automated-investigation-and-response-air"></a>자동 조사 및 대응 (AIR)
 
-보안 알림이 트리거되면 해당 경고를 확인 하 고 조직을 보호 하기 위한 단계를 수행 하는 보안 운영 팀이 진행 됩니다. 경우에 따라 보안 운영 팀에서 트리거된 경고 량이 지나치게 느껴질 수 있습니다. Office 365의 자동화 된 조사 및 응답 (AIR) 기능은 도움이 될 수 있습니다. AIR을 사용 하면 보안 운영 팀이 보다 효율적이 고 효율적으로 작업할 수 있습니다. AIR 기능에는 현재 존재 하는 잘 알려진 위협에 대 한 응답으로 자동화 된 조사 프로세스가 포함 됩니다. 적절 한 교정 작업을 통해 승인을 받고, 보안 운영 팀이 검색 된 위협에 대처할 수 있도록 합니다. 
+보안 알림이 트리거되면 해당 경고를 확인 하 고 조직을 보호 하기 위한 단계를 수행 하는 보안 운영 팀이 진행 됩니다. 경우에 따라 보안 운영 팀에서 트리거된 경고 량이 지나치게 느껴질 수 있습니다. 자동화 된 조사 및 대응 (AIR) 기능은 도움이 될 수 있습니다. AIR을 사용 하면 보안 운영 팀이 보다 효율적이 고 효율적으로 작업할 수 있습니다. AIR 기능에는 현재 존재 하는 잘 알려진 위협에 대 한 응답으로 자동화 된 조사 프로세스가 포함 됩니다. 적절 한 교정 작업을 통해 승인을 받고, 보안 운영 팀이 검색 된 위협에 대처할 수 있도록 합니다. 
 
-이 문서에서는 AIR의 개요를 제공 합니다. AIR 사용을 시작할 준비가 되 면 [자동으로 Office 365의 위협에 대 한 조사 및 응답](office-365-air.md)을 참조 하세요.
+이 문서에서는 AIR의 개요를 제공 합니다. AIR 사용을 시작할 준비가 되 면 [자동으로 위협에 대 한 조사 및 응답](office-365-air.md)을 참조 하세요.
 
 ## <a name="at-a-high-level"></a>높은 수준
 
-알림이 트리거되면 보안 playbook가 적용 됩니다. 상황에 따라 [자동화 된 조사 프로세스](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air) 를 시작할 수 있습니다. 자동화 된 조사 중 및 후에는 [업데이트 관리 작업](air-remediation-actions.md) 을 수행 하는 것이 좋습니다. Office 365 Advanced Threat Protection에서는 아무 작업도 자동으로 수행 되지 않습니다. 보안 운영 팀에서 각 수정 작업을 검토 하 고 [승인 하거나 거부](air-review-approve-pending-completed-actions.md)하 고,이 작업이 완료 되 면 각 조사가 완료 됩니다. 이러한 모든 활동은 모든 Office 365 보안 & 준수 센터에서 추적 및 볼 수 있습니다 ( [자세한 내용은 보기 세부 정보](air-view-investigation-results.md#view-details-of-an-investigation)참조).
+알림이 트리거되면 보안 playbook가 적용 됩니다. 상황에 따라 [자동화 된 조사 프로세스](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-air) 를 시작할 수 있습니다. 자동화 된 조사 중 및 후에는 [업데이트 관리 작업](air-remediation-actions.md) 을 수행 하는 것이 좋습니다. Office 365 Advanced Threat Protection에서는 아무 작업도 자동으로 수행 되지 않습니다. 보안 운영 팀에서 각 수정 작업을 검토 하 고 [승인 하거나 거부](air-review-approve-pending-completed-actions.md)하 고,이 작업이 완료 되 면 각 조사가 완료 됩니다. 이러한 모든 활동을 추적 하 고 보안 & 준수 센터에 볼 수 있습니다 (자세한 내용은 [보기 세부 정보](air-view-investigation-results.md#view-details-of-an-investigation)참조).
 
 다음 섹션에서는 경고, 보안 playbooks 및 작업 중인 AIR의 예에 대 한 자세한 정보를 제공 합니다.
 
 ## <a name="alerts"></a>경고
 
-[경고](../../compliance/alert-policies.md#viewing-alerts) 는 보안 운영 팀 워크플로에서 문제를 대응 하기 위한 트리거를 나타냅니다. 확인을 위해 적절 한 경고 집합에 우선 순위를 지정 하는 동시에, 주소가 지정 되지 않은 위협에 대 한 해결 방법은 어렵습니다. 경고에 대 한 조사가 수동으로 수행 되 면 보안 운영 팀은 콘텐츠, 장치 및 사용자와 같은 엔터티를 찾아서 위협 으로부터 연결 해야 합니다. 이러한 작업과 워크플로를 사용 하면 시간이 매우 오래 걸리고 여러 도구 및 시스템을 포함할 수 있습니다. 무선, 조사 및 Office 365에 대 한 응답은 주요 보안 및 위협 관리 경고로 인해 보안 응답 playbook가 자동으로 트리거되어 보안 이벤트가 자동화 됩니다. 
+[경고](../../compliance/alert-policies.md#viewing-alerts) 는 보안 운영 팀 워크플로에서 문제를 대응 하기 위한 트리거를 나타냅니다. 확인을 위해 적절 한 경고 집합에 우선 순위를 지정 하는 동시에, 주소가 지정 되지 않은 위협에 대 한 해결 방법은 어렵습니다. 경고에 대 한 조사가 수동으로 수행 되 면 보안 운영 팀은 콘텐츠, 장치 및 사용자와 같은 엔터티를 찾아서 위협 으로부터 연결 해야 합니다. 이러한 작업과 워크플로를 사용 하면 시간이 매우 오래 걸리고 여러 도구 및 시스템을 포함할 수 있습니다. 공기, 조사 및 보안 이벤트에 대 한 응답은 중요 보안 및 위협 관리 알림을 통해 보안 응답 playbook가 자동으로 트리거되도록 하 여 자동화 됩니다. 
 
 현재 AIR의 경우 다음 경고 정책 종류에서 생성 된 경고는 자동으로 조사 됩니다.  
 
@@ -55,7 +55,7 @@ ms.locfileid: "43170955"
 > [!NOTE]
 > 정보 알림은 기본적으로 경고 보기에 숨겨집니다. 이러한 항목을 보려면 알림 필터링을 변경 하 여 정보 알림 메시지를 포함 합니다.
 
-조직에서 경고 관리 시스템, 서비스 관리 시스템 또는 SIEM (보안 정보 및 이벤트 관리) 시스템을 통해 보안 경고를 관리 하는 경우 전자 메일 알림을 통해 또는 [office 365 관리 활동 API](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-reference)를 통해 해당 시스템에 office 365 알림을 보낼 수 있습니다. 전자 메일 또는 API를 통한 조사 경고 알림에는 보안 & 준수 센터의 경고에 액세스 하 여 할당 된 보안 관리자가 조사로 신속 하 게 이동할 수 있도록 하는 링크가 포함 되어 있습니다.
+조직에서 경고 관리 시스템, 서비스 관리 시스템 또는 SIEM (보안 정보 및 이벤트 관리) 시스템을 통해 보안 경고를 관리 하는 경우 전자 메일 알림을 통해 또는 [Office 365 관리 활동 API](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-reference)를 통해 해당 시스템에 알림을 보낼 수 있습니다. 전자 메일 또는 API를 통한 조사 경고 알림에는 보안 & 준수 센터의 경고에 액세스 하 여 할당 된 보안 관리자가 조사로 신속 하 게 이동할 수 있도록 하는 링크가 포함 되어 있습니다.
 
 ![조사로 연결 되는 경고](../../media/air-alerts-page-details.png) 
 
@@ -75,7 +75,7 @@ AIR의 일환으로 보안 playbook가 단계별로 배포 됩니다. 이제 1 �
 
 1 단계에는 [위협 탐색기](threat-explorer.md)를 사용 하 여 관리자가 트리거한 전자 메일 조사에 대 한 지원도 포함 됩니다.
 
-2 단계는 이제 **공개 미리 보기**에서 다음 playbook 사용 하 여 진행 중 이며, 문제 조사에서 작업 및 aiding 보안 관리자에 대 한 권장 사항을 제공 합니다.
+이제 2 단계에서는 **공개 미리 보기**의 다음 playbook을 사용 하 여 작업을 진행 하 고 있으며 문제 조사에 대 한 권장 사항 및 aiding 보안 관리자를 제공 합니다.
 - 사용자가 손상 된 것으로 보고 됨 (공개 미리 보기)
 
 추가 playbook 완료 되 면 릴리스됩니다. [Microsoft 365 로드맵을](https://www.microsoft.com/microsoft-365/roadmap) 방문 하 여 그 밖의 계획 및 출시 예정 사항을 확인 하세요.
@@ -110,7 +110,7 @@ AIR에서는 각 보안 playbook 다음이 포함 됩니다.
 - 전자 메일 클러스터 검색을 통해 유사한 전자 메일 메시지가 식별 됩니다.
 - 신호가 [Microsoft DEFENDER ATP](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection)와 같은 다른 플랫폼과 공유 됩니다.
 - 의심 스러운 전자 메일 메시지에서 모든 사용자가 악의적인 링크를 클릭 했는지 여부가 결정 됩니다.
-- 확인은 Office 365 Exchange Online Protection ([EOP](exchange-online-protection-eop.md)) 및 Office 365 Advanced Threat Protection ([ATP](office-365-atp.md))을 통해 사용자가 보고 하는 다른 유사한 메시지가 있는지를 확인 합니다.
+- [EOP](exchange-online-protection-eop.md)(Exchange Online Protection) 및 Office 365 Advanced Threat Protection ([ATP](office-365-atp.md))에서 확인 작업을 수행 하 여 사용자가 다른 유사한 메시지가 보고 되었는지 확인 합니다.
 - 사용자가 손상 되었는지 확인 하는 검사를 수행 합니다. 이 검사는 Office 365, [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security)및 [Azure Active Directory](https://docs.microsoft.com/azure/active-directory)간의 신호를 활용 하 여 관련 된 사용자 활동에 대 한 예외를 모두 연관 시킵니다. 
 
 사냥 단계에서는 위험과 위협이 다양 한 구하기 단계에 할당 됩니다. 
@@ -133,7 +133,7 @@ AIR에서는 각 보안 playbook 다음이 포함 됩니다.
 
 ## <a name="next-steps"></a>다음 단계
 
-- [AIR 사용을 시작 하려면 Office 365](office-365-air.md)
+- [AIR 사용 시작](office-365-air.md)
 
 - [Microsoft 365 로드맵를 방문 하 여 곧 제공 되는 항목을 확인 하 고 롤아웃](https://www.microsoft.com/microsoft-365/roadmap?filters=)
 

@@ -1,5 +1,5 @@
 ---
-title: Alerts in the Office 365 Security &amp; Compliance Center
+title: 보안 &amp; 및 준수 센터의 경고
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -17,32 +17,32 @@ ms.assetid: 2bb4e7c0-5f7f-4144-b647-cc6a956aaa53
 ms.collection:
 - M365-security-compliance
 description: Office 365의 보안을 지원 하기 위해 설정할 수 있는 경고에 대해 알아봅니다.
-ms.openlocfilehash: 57bb6659b374c1ac029b690e738620c2f2857eb9
-ms.sourcegitcommit: ce6121a8e3ca7438071d73b0c76e2b6f33ac1cf7
+ms.openlocfilehash: b8fe746ef18ade5f8e35d5a51ab132377e813915
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "43030131"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634619"
 ---
-# <a name="alerts-in-the-office-365-security-amp-compliance-center"></a>Alerts in the Office 365 Security &amp; Compliance Center
+# <a name="alerts-in-the-security-amp-compliance-center"></a>보안 &amp; 및 준수 센터의 경고
 
-Office 365 보안 &amp; 및 준수 센터의 알림 기능을 사용 하 여 [Microsoft Cloud App Security overview](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security)의 일부로 advanced alerts를 관리 하는 등의 office 365 조 직에 대 한 알림을 보고 관리 합니다.
+보안 &amp; 및 준수 센터의 알림 기능을 사용 하 여 [Microsoft Cloud App Security overview](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security)의 일부로 고급 알림 관리를 포함 하 여 조직의 알림을 보고 관리 합니다.
   
-## <a name="how-to-get-to-the-office-365-alerts-features"></a>Office 365 알림 기능에 액세스 하는 방법
+## <a name="how-to-get-to-the-alerts-features"></a>알림 기능에 액세스 하는 방법
 
-Office 365의 경고는 보안 &amp; 및 준수 센터에 있습니다. 페이지에 액세스 하는 방법은 다음과 같습니다.
+알림이 보안 &amp; 및 준수 센터에 있습니다. 페이지에 액세스 하는 방법은 다음과 같습니다.
   
  **보안 &amp; 및 준수 센터로 바로 이동 하려면 다음을 수행 합니다.**
   
 1. [https://protection.office.com](https://protection.office.com)으로 이동합니다.
     
-2. 회사 또는 학교 계정을 사용하여 Office 365에 로그인합니다. 
+2. 회사 또는 학교 계정을 사용 하 여 로그인 합니다. 
     
 3. 왼쪽 창에서 **경고** 를 클릭 하 여 알림 기능을 표시 합니다. 
     
- **Office 365 앱 시작 관리자 &amp; 를 사용 하 여 보안 및 준수 센터로 이동 하려면**
+ **앱 시작 관리자를 사용 &amp; 하 여 보안 및 준수 센터로 이동 하려면**
   
-1. 회사 또는 학교 계정을 사용하여 Office 365에 로그인합니다. 
+1. 회사 또는 학교 계정을 사용 하 여 로그인 합니다. 
     
 2. 왼쪽 위 모서리에 있는 앱 시작 관리자를 클릭 한 다음 **보안 &amp; 준수**를 클릭 합니다.
     
@@ -56,7 +56,7 @@ Office 365의 경고는 보안 &amp; 및 준수 센터에 있습니다. 페이�
   
 |**도구**|**설명**|
 |:-----|:-----|
-|[알림 관리](../../compliance/create-activity-alerts.md) <br/> |사용자가 Office 365에서 특정 작업을 수행할 때 활동 알림을 사용 하 여 자신이 나 다른 관리자에 게 전자 메일 알림을 보낼 수 있습니다. 활동 경고는 경고를 만든 이벤트가 발생 하는 경우 전자 메일 메시지를 전송 한다는 점을 제외 하 고는 Office 365 감사 로그에서 이벤트를 검색 하는 것과 비슷합니다.  <br/> |
+|[알림 관리](../../compliance/create-activity-alerts.md) <br/> |사용자가 Office 365에서 특정 작업을 수행할 때 활동 알림을 사용 하 여 자신이 나 다른 관리자에 게 전자 메일 알림을 보낼 수 있습니다. 활동 경고는 경고를 만든 이벤트가 발생 하는 경우 전자 메일 메시지를 보내는 것을 제외 하 고 감사 로그에서 이벤트를 검색 하는 것과 비슷합니다.  <br/> |
 |[고급 알림 관리](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security) <br/> |Office 365 Cloud App Security의 **고급 알림 관리** 기능을 사용 하 여 office 365에서 의심 스 럽 거 나 비정상적인 활동을 알릴 수 있는 정책을 설정 합니다. 경고가 표시 되 면 문제가 발생할 가능성이 있는 상황을 조사 하 고, 필요한 경우 보안 문제 해결에 대 한 조치를 취할 수 있습니다.  <br/> |
    
 

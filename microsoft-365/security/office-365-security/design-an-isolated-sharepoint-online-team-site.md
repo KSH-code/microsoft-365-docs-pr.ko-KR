@@ -16,12 +16,12 @@ ms.collection: Ent_O365
 ms.custom: Ent_Solutions
 ms.assetid: 775a4e9e-3135-4a48-b32f-bbdd9f2bd0aa
 description: '요약: 격리 된 SharePoint Online 팀 사이트에 대 한 디자인 프로세스를 단계별로 안내 합니다.'
-ms.openlocfilehash: f03df1f99650f458dd9df2c9e561decf491c3011
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 5efd5fb0501d88fda37f1530ef62e4c5110e4da2
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42083228"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43638515"
 ---
 # <a name="design-an-isolated-sharepoint-online-team-site"></a>격리된 SharePoint Online 팀 사이트 디자인
 
@@ -39,7 +39,7 @@ ms.locfileid: "42083228"
     
 - \<사이트 이름> 소유자
     
-이러한 그룹은 Office 365 및 Azure Active Directory (AD) 그룹과는 별개 이며 사이트의 리소스에 대 한 사용 권한을 할당 하기 위한 기본이 됩니다.
+이러한 그룹은 Microsoft 365 및 Azure Active Directory (AD) 그룹과는 별개 이며 사이트의 리소스에 대 한 사용 권한을 할당 하기 위한 기본이 됩니다.
   
 SharePoint 그룹의 구성원이 사이트에서 수행할 수 있는 작업을 결정 하는 특정 사용 권한 집합은 사용 권한 수준입니다. SharePoint Online 팀 사이트에 대 한 세 가지 사용 권한 수준에는 기본적으로 편집, 읽기 및 모든 권한이 있습니다. 다음 표에서는 SharePoint 그룹 및 할당 된 사용 권한 수준에 대 한 기본 상관 관계를 보여 줍니다.
   
@@ -57,7 +57,7 @@ SharePoint 그룹의 구성원이 사이트에서 수행할 수 있는 작업을
   
 ## <a name="phase-2-assign-permissions-to-users-with-access-groups"></a>2 단계: 액세스 그룹을 사용 하 여 사용자에 게 사용 권한 할당
 
-사용자 계정이 구성원으로 속해 있는 Office 365 또는 Azure AD 그룹을 SharePoint 그룹에 추가 하는 방식으로 사용자에 게 사용 권한을 할당할 수 있습니다. Office 365 또는 Azure AD 그룹의 멤버 자격을 통해 직접 또는 간접적으로 Office 365 사용자 계정을 추가한 후에는 SharePoint 그룹과 연결 된 사용 권한 수준에 할당 됩니다.
+사용자 계정이 구성원 인 Microsoft 365 또는 Azure AD 그룹을 추가 하 여 사용자에 게 사용 권한을 할당 하거나 SharePoint 그룹에 할당할 수 있습니다. 추가 된 사용자 계정에는 Microsoft 365 또는 Azure AD 그룹의 멤버 자격을 통해 직접 또는 간접적으로 해당 SharePoint 그룹에 연결 된 사용 권한 수준이 할당 됩니다.
   
 기본 SharePoint 그룹을 예로 사용 합니다.
   
@@ -69,17 +69,17 @@ SharePoint 그룹의 구성원이 사이트에서 수행할 수 있는 작업을
     
  **모범 사례:** 개별 사용자 계정을 통해 사용 권한을 관리할 수는 있지만 대신 액세스 그룹 이라고 하는 단일 Azure AD 그룹을 사용 하는 것이 좋습니다. 이를 통해 각 SharePoint 그룹의 사용자 계정 목록을 관리 하는 것이 아니라 액세스 그룹의 구성원을 통해 사용 권한을 쉽게 관리할 수 있습니다.
   
-Office 365의 Azure AD 그룹은 Office 365 그룹과는 다릅니다. Azure AD 그룹은 Microsoft 365 관리 센터에 나타나며, 해당 **유형은** **Security** 로 설정 되며 전자 메일 주소를 포함 하지 않습니다. Azure AD 그룹은 다음 내에서 관리할 수 있습니다.
+Microsoft 365의 Azure AD 그룹은 Microsoft 365 그룹과는 다릅니다. Azure AD 그룹은 Microsoft 365 관리 센터에 나타나며, 해당 **유형은** **Security** 로 설정 되며 전자 메일 주소를 포함 하지 않습니다. Azure AD 그룹은 다음 내에서 관리할 수 있습니다.
   
 - AD DS(Active Directory 도메인 서비스)
     
-    온-프레미스 AD DS 인프라에 만들어져 Office 365 구독과 동기화 된 그룹입니다. Microsoft 365 관리 센터에서 이러한 그룹은 **active directory와 동기화**된 **상태** 입니다.
+    이 그룹은 온-프레미스 AD DS 인프라에 만들어져 Microsoft 365 구독과 동기화 된 것입니다. Microsoft 365 관리 센터에서 이러한 그룹은 **active directory와 동기화**된 **상태** 입니다.
     
 - Office 365
     
     Microsoft 365 관리 센터, Azure portal 또는 Microsoft PowerShell 중 하나를 사용 하 여 만든 그룹입니다. Microsoft 365 관리 센터에서 이러한 그룹의 **상태** 는 **Cloud**입니다.
     
- **모범 사례:** AD DS 온-프레미스를 사용 중이 고 Office 365 구독과 동기화 하는 경우 AD DS를 사용 하 여 사용자 및 그룹 관리를 수행 합니다.
+ **모범 사례:** AD DS 온-프레미스를 사용 중이 고 Microsoft 365 구독과 동기화 하는 경우 AD DS를 사용 하 여 사용자 및 그룹 관리를 수행 합니다.
   
 격리 된 SharePoint Online 팀 사이트의 경우 권장 되는 그룹 구조는 다음과 같습니다.
   
@@ -89,7 +89,7 @@ Office 365의 Azure AD 그룹은 Office 365 그룹과는 다릅니다. Azure AD 
 |\<방문자> 사이트 이름  <br/> |\<사이트 이름> 뷰어  <br/> |읽기  <br/> |
 |\<사이트 이름> 소유자  <br/> |\<관리자> 사이트 이름  <br/> |모든 권한  <br/> |
    
- **모범 사례:** Office 365 또는 Azure AD 그룹을 SharePoint 그룹의 구성원으로 사용할 수는 있지만 Azure AD 그룹을 사용 하는 것이 좋습니다. AD DS 또는 Office 365를 통해 관리 되는 Azure AD 그룹은 중첩 된 그룹을 보다 유연 하 게 사용 하 여 사용 권한을 할당할 수 있습니다.
+ **모범 사례:** Microsoft 365 또는 Azure AD 그룹을 SharePoint 그룹의 구성원으로 사용할 수 있지만 Azure AD 그룹을 사용 하는 것이 좋습니다. AD DS 또는 Microsoft 365를 통해 관리 되는 Azure AD 그룹은 중첩 된 그룹을 보다 유연 하 게 사용 하 여 사용 권한을 할당할 수 있습니다.
   
 Azure AD 기반 액세스 그룹을 사용 하도록 구성 된 기본 SharePoint 그룹은 다음과 같습니다.
   
@@ -109,9 +109,9 @@ Azure AD 기반 액세스 그룹을 사용 하도록 구성 된 기본 SharePoin
 
 소수의 사용자로 한정 된 프로젝트의 경우 사이트의 SharePoint 그룹에 추가 되는 단일 수준의 Azure AD 기반 액세스 그룹이 대부분의 시나리오에 적합 합니다. 그러나 사용자 수가 많고 해당 사용자가 이미 설정 된 Azure AD 그룹의 구성원 인 경우에는 중첩 그룹 또는 다른 그룹을 구성원으로 포함 하는 그룹을 사용 하 여 SharePoint 권한을 보다 쉽게 할당할 수 있습니다.
   
-예를 들어 영업, 마케팅, 엔지니어링, 법률 및 지원 부서의 임원 및 해당 부서에서 임원 사용자 계정을 사용 하는 자체 그룹을 공동 작업용으로 사용할 수 있도록 격리 된 SharePoint online 팀 사이트를 만들려고 합니다. 멤버 자격. 새 사이트 구성원에 대해 새 그룹을 만들고 모든 개별 executive 사용자 계정을 배치 하는 것이 아니라 새 그룹의 각 부서에 대 한 기존 임원 그룹을 배치 합니다.
+예를 들어 영업, 마케팅, 엔지니어링, 법률 및 지원 부서의 임원 간에 공동 작업을 위해 격리 된 SharePoint online 팀 사이트를 만들려고 하며, 이러한 부서는 이미 경영자 사용자 계정 구성원 자격을 갖는 자체 그룹입니다. 새 사이트 구성원에 대해 새 그룹을 만들고 모든 개별 executive 사용자 계정을 배치 하는 것이 아니라 새 그룹의 각 부서에 대 한 기존 임원 그룹을 배치 합니다.
   
- 여러 조직 간에 Office 365 구독을 공유 하는 경우 사용자 계정 수가 많기 때문에 조직에 대해 격리 된 사이트에 대 한 단일 그룹 구성원 자격이 관리 하기가 어려울 수 있습니다. 이 경우 조직 내에서 그룹을 포함 하는 각 조직에 대해 중첩 된 Azure AD 그룹을 사용 하 여 사용 권한을 관리할 수 있습니다.
+ 여러 조직 간에 Microsoft 365 구독을 공유 하는 경우 사용자 계정 수가 많기 때문에 조직에 대해 격리 된 사이트에 대 한 그룹 구성원 자격이 한 수준으로 관리 하기가 어려울 수 있습니다. 이 경우 조직 내에서 그룹을 포함 하는 각 조직에 대해 중첩 된 Azure AD 그룹을 사용 하 여 사용 권한을 관리할 수 있습니다.
   
 중첩 된 Azure AD 그룹을 사용 하려면:
   
@@ -122,7 +122,7 @@ Azure AD 기반 액세스 그룹을 사용 하도록 구성 된 기본 SharePoin
 3.  컨테이너 액세스 그룹에 대 한 적절 한 액세스 수준에 대해 SharePoint 그룹 및 해당 권한 수준을 식별 합니다.
     
 > [!NOTE]
-> 중첩 된 Office 365 그룹은 사용할 수 없습니다. 
+> 중첩 된 Microsoft 365 그룹은 사용할 수 없습니다. 
   
 다음은 ProjectX 구성원 액세스 그룹에 대 한 중첩 된 Azure AD 그룹의 예입니다.
   

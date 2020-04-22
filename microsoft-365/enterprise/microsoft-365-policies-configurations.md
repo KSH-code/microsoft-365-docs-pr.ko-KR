@@ -16,16 +16,16 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: 8d7adda0ded3a118676a67d0446a5744233468f3
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: f336c9ef2957374223a8f0d7b64f892c87e1169d
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42633266"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631552"
 ---
 # <a name="identity-and-device-access-configurations"></a>ID 및 장치 액세스 구성
 
-이 문서 시리즈에서는 규정 된 조건부 액세스 정책 집합을 비롯 하 여 권장 환경 및 구성을 구현 하 여 EMS (Enterprise Mobility + Security) 제품을 통한 클라우드 서비스에 대 한 보안 액세스를 구성 하는 방법을 설명 합니다. 관련 기능 EMS는 Microsoft 365의 핵심 구성 요소입니다. 이 지침을 사용 하 여 Office 365 서비스, 기타 SaaS 서비스 및 Azure AD 응용 프로그램 프록시를 통해 게시 된 온-프레미스 응용 프로그램을 비롯 하 여 Azure Active Directory와 통합 되는 모든 서비스에 대 한 액세스를 보호할 수 있습니다. 
+이 문서 시리즈에서는 규정 된 조건부 액세스 정책 및 관련 기능 집합을 비롯 하 여 권장 되는 환경 및 구성을 구현 하 여 EMS (Enterprise Mobility + Security) 제품을 통해 클라우드 서비스에 대 한 보안 액세스를 구성 하는 방법을 설명 합니다. EMS는 Microsoft 365의 핵심 구성 요소입니다. 이 지침을 사용 하 여 Microsoft 365 서비스, 기타 SaaS 서비스 및 Azure AD 응용 프로그램 프록시를 통해 게시 된 온-프레미스 응용 프로그램을 비롯 하 여 Azure Active Directory와 통합 되는 모든 서비스에 대 한 액세스를 보호할 수 있습니다. 
 
 이러한 권장 사항은 Microsoft 보안 점수 및 [AZURE AD의 id 점수](https://docs.microsoft.com/azure/active-directory/fundamentals/identity-secure-score)와 맞추고 조직에 대해 이러한 점수가 증가 합니다. 이러한 권장 사항은 다음 [다섯 단계를](https://docs.microsoft.com/azure/security/azure-ad-secure-steps)구현 하 여 id 인프라를 보호 하는 데도 도움이 됩니다. 
 
@@ -51,19 +51,19 @@ Enterprise Mobility + Security E5 라이선스가 없는 조직의 경우에는 
 
 ## <a name="three-tiers-of-protection"></a>3 계층의 보호
 
-대부분의 조직은 보안 및 데이터 보호에 관한 구체적 요구 사항을 가지고 있습니다. 이러한 요구 사항은 산업 부문 및 조직 내의 직무 기능에 따라 달라집니다. 예를 들어 법무 부서 및 Office 365 관리자는 다른 업무 단위 사용자에게 필요하지 않은 자신의 메일 서신에 대한 추가 보안 및 정보 보호 제어가 필요할 수 있습니다. 
+대부분의 조직은 보안 및 데이터 보호에 관한 구체적 요구 사항을 가지고 있습니다. 이러한 요구 사항은 산업 부문 및 조직 내의 직무 기능에 따라 달라집니다. 예를 들어 법률 부서 및 관리자가 다른 사업부 사용자에 게 필요 하지 않은 전자 메일 서신에 대 한 추가 보안 및 정보 보호 제어를 요구할 수 있습니다. 
 
-또한 각 산업마다 자체의 전문화된 규정을 가지고 있습니다. 사용 가능한 모든 보안 옵션 또는 회사 별 권장 사항 목록을 제공 하는 것이 아니라, 요구 사항의 세분성에 따라 적용할 수 있는 세 가지 보안 및 보호 계층에 대 한 권장 사항이 제공 됩니다. .
+또한 각 산업마다 자체의 전문화된 규정을 가지고 있습니다. 모든 가능한 보안 옵션 또는 업계 부문 별 권장 사항에 대 한 목록을 제공 하는 대신, 요구 사항의 세분성에 따라 적용할 수 있는 세 가지 보안 및 보호 계층에 대 한 권장 사항이 제공 됩니다.
 
 - **기본 보호**: 데이터를 보호 하는 데 필요한 최소 표준과 데이터에 액세스 하는 id 및 장치를 설정 하는 것이 좋습니다. 이러한 기본 권장 사항을 따르면 많은 조직의 요구를 충족 하는 강력한 기본 보호 기능을 제공할 수 있습니다.
-- **중요 보호**: 일부 고객에 게는 높은 수준으로 보호 해야 하는 데이터의 하위 집합이 있거나, 모든 데이터가 더 높은 수준으로 보호 되어야 할 수 있습니다. Office 365 환경의 모든 또는 특정 데이터 집합에 대해 증가된 보호를 적용할 수 있습니다. 중요 데이터에 액세스하는 ID와 장치를 유사한 보안 수준으로 보호하는 것이 좋습니다.  
+- **중요 보호**: 일부 고객에 게는 높은 수준으로 보호 해야 하는 데이터의 하위 집합이 있거나, 모든 데이터가 더 높은 수준으로 보호 되어야 할 수 있습니다. Microsoft 365 환경에서 모든 또는 특정 데이터 집합에 대해 향상 된 보호를 적용할 수 있습니다. 중요 데이터에 액세스하는 ID와 장치를 유사한 보안 수준으로 보호하는 것이 좋습니다.  
 - **높은 규제**: 일부 조직에는 고도로 분류 되거나 consititutes 영업 비밀이 있거나 데이터를 규제 하는 적은 양의 데이터가 있을 수 있습니다. Microsoft는 ID와 장치에 대한 추가된 보호를 포함하여 조직이 이러한 요구 사항을 충족하는 데 도움이 되는 기능을 제공합니다.
 
 ![보안 원뿔형-일부 고객이 특정 고객을 > > 모든 고객입니다. 특정 응용 프로그램에 대 한 광범위 한 응용 프로그램](../media/M365-idquality-threetiers.png)
 
 이 가이드에서는 이러한 각 보호 계층에 대 한 id 및 장치에 대 한 보호를 구현 하는 방법을 보여 줍니다. 이 가이드를 조직의 시작 지점으로 사용 하 고 조직의 특정 요구 사항에 맞게 정책을 조정 합니다.
 
-데이터, ID 및 장치에서 일관된 보호 수준을 사용하는 것이 중요합니다. 예를 들어이 지침을 구현 하는 경우에는 비슷한 수준에서 데이터를 보호 해야 합니다. 이러한 아키텍처 모델에는 비교할 수 있는 기능이 나와 있습니다.
+데이터, ID 및 장치 전반에 걸쳐 일관된 보호 수준을 사용하는 것이 중요합니다. 예를 들어이 지침을 구현 하는 경우에는 비슷한 수준에서 데이터를 보호 해야 합니다. 이러한 아키텍처 모델에는 비교할 수 있는 기능이 나와 있습니다.
 
 **Office 365용 ID 및 디바이스 보호**<br/>
 ![포스터 축소판 그림 "Office 365에 대 한 Id 및 장치 보호"](../media/O365_Identity_device_protection_thumb.png)<br/>
@@ -96,7 +96,7 @@ Azure AD는 id 관리 기능을 완벽 하 게 제공 합니다. 액세스 보�
 
 - **[SSPR (셀프 서비스 암호 다시 설정)](/azure/active-directory/authentication/concept-sspr-howitworks)**: 관리자가 제어할 수 있는 여러 인증 방법에 대 한 확인을 제공 하 여 사용자가 헬프데스크 개입 없이 암호를 안전 하 게 다시 설정할 수 있도록 합니다.
 
-- **[Mfa (multi-factor authentication)](/azure/active-directory/authentication/concept-mfa-howitworks)**: mfa를 사용 하려면 사용자 암호와 Microsoft 인증자 앱 또는 전화 통화의 알림과 같은 두 가지 유형의 확인을 제공 해야 합니다. MFA는 도난당 한 id가 Office 365 환경에 액세스 하는 데 사용할 수 있는 위험을 크게 줄여줍니다.
+- **[Mfa (multi-factor authentication)](/azure/active-directory/authentication/concept-mfa-howitworks)**: mfa를 사용 하려면 사용자 암호와 Microsoft 인증자 앱 또는 전화 통화의 알림과 같은 두 가지 유형의 확인을 제공 해야 합니다. MFA는 도난당 한 id가 사용자 환경에 액세스 하는 데 사용할 수 있는 위험을 크게 줄여줍니다.
 
 - **[조건부 액세스](/azure/active-directory/conditional-access/overview)**: Azure AD는 사용자 로그인의 조건을 평가 하 고 만든 조건부 액세스 정책을 사용 하 여 액세스를 허용 합니다. 예를 들어이 가이드에서는 중요 한 데이터에 액세스 하기 위한 장치 준수를 요구 하는 조건부 액세스 정책을 만드는 방법을 보여 줍니다. 이렇게 하면 해커가 도난당 한 id를 가진 해커가 중요 한 데이터에 액세스할 수 있는 위험을 크게 줄여줍니다. 또한 장치는 상태 및 보안에 대 한 특정 요구 사항을 충족 하기 때문에 장치에서 중요 한 데이터를 보호 합니다.
 
@@ -112,27 +112,27 @@ Azure AD는 id 관리 기능을 완벽 하 게 제공 합니다. 액세스 보�
 
 #### <a name="intune-app-protection"></a>Intune 앱 보호
 
-[Intune 앱 보호](https://docs.microsoft.com/intune/app-protection-policy) 정책을 사용 하 여 관리에 장치를 등록 하거나 사용 하지 않고 모바일 앱에서 조직의 데이터를 보호할 수 있습니다. Intune은 Office 365 정보를 보호 하 고 직원의 생산성을 유지 하 고 데이터 손실을 방지 하는 데 도움이 됩니다. 응용 프로그램 수준 정책을 구현 하 여 회사 리소스에 대 한 액세스를 제한 하 고 IT 부서의 통제 내에서 데이터를 유지할 수 있습니다.
+[Intune 앱 보호](https://docs.microsoft.com/intune/app-protection-policy) 정책을 사용 하 여 관리에 장치를 등록 하거나 사용 하지 않고 모바일 앱에서 조직의 데이터를 보호할 수 있습니다. Intune은 정보를 보호 하 고 직원의 생산성을 유지 하 고 데이터 손실을 방지 하는 데 도움이 됩니다. 응용 프로그램 수준 정책을 구현 하 여 회사 리소스에 대 한 액세스를 제한 하 고 IT 부서의 통제 내에서 데이터를 유지할 수 있습니다.
 
 이 가이드에서는 승인 된 앱을 사용 하 고 비즈니스 데이터에서 이러한 앱을 사용 하는 방법을 결정 하기 위한 권장 정책을 만드는 방법을 설명 합니다.
 
-### <a name="office-365"></a>Office 365
+### <a name="microsoft-365"></a>Microsoft 365
 
-이 가이드에서는 Exchange Online, SharePoint Online 및 비즈니스용 OneDrive를 포함 하 여 Office 365에 대 한 액세스를 보호 하기 위한 정책 집합을 구현 하는 방법을 설명 합니다. 이러한 정책을 구현 하는 것 외에 다음과 같은 리소스를 사용 하 여 Office 365 테 넌 트의 보호 수준도 향상 시키는 것이 좋습니다.
+이 가이드에서는 Exchange Online, SharePoint Online 및 비즈니스용 OneDrive를 포함 하 여 Office 365에 대 한 액세스를 보호 하기 위한 정책 집합을 구현 하는 방법을 설명 합니다. 이러한 정책을 구현 하는 것 외에도 다음 리소스를 사용 하 여 테 넌 트의 보호 수준을 올리는 것이 좋습니다.
 
-- [향상 된 보안을 위해 office 365 테 넌 트 구성](https://support.office.com/article/Configure-your-Office-365-tenant-for-increased-security-8d274fe3-db51-4107-ba64-865e7155b355): 이러한 권장 사항은 Office 365 테 넌 트의 기준 보안에 적용 됩니다.
-- [Office 365 보안 로드맵: 처음 30 일, 90 일 및 그 이상에 대 한 주요 우선 순위](https://support.office.com/article/Office-365-security-roadmap-Top-priorities-for-the-first-30-days-90-days-and-beyond-28c86a1c-e4dd-4aad-a2a6-c768a21cb352): 이러한 권장 사항에는 로깅, 데이터 관리, 관리자 액세스, 위협 방지 등이 있습니다.
+- [보안 강화를 위해 테 넌 트 구성](https://support.office.com/article/Configure-your-Office-365-tenant-for-increased-security-8d274fe3-db51-4107-ba64-865e7155b355): 이러한 권장 사항은 테 넌 트의 기준 보안에 적용 됩니다.
+- [Microsoft 365 보안 로드맵: 처음 30 일, 90 일 및 그 이상에 대 한 주요 우선 순위](https://support.office.com/article/Office-365-security-roadmap-Top-priorities-for-the-first-30-days-90-days-and-beyond-28c86a1c-e4dd-4aad-a2a6-c768a21cb352): 이러한 권장 사항에는 로깅, 데이터 거 버 넌 스, 관리자 액세스, 위협 방지 등이 있습니다.
 
 
-### <a name="windows-10-and-office-365-proplus"></a>Windows 10 및 Office 365 ProPlus
+### <a name="windows-10-and-microsoft-365-apps-for-enterprise"></a>Windows 10 및 Microsoft 365 Apps for enterprise
 
-Windows 10 및 Office 365 ProPlus는 Pc에 권장 되는 클라이언트 환경입니다. Azure는 온-프레미스 및 Azure AD 둘 다에 사용할 수 있는 원활한 환경을 제공 하도록 디자인 되었기 때문에 Windows 10을 사용 하는 것이 좋습니다. Windows 10에는 Intune을 통해 관리할 수 있는 고급 보안 기능도 포함 되어 있습니다. Office 365 ProPlus에는 최신 버전의 Office 응용 프로그램이 포함 되어 있습니다. 이러한 기능은 더 안전 하 고 조건부 액세스에 대 한 요구 사항을 충족 하는 최신 인증을 사용 합니다. 이러한 앱에는 향상 된 보안 및 준수 도구도 포함 되어 있습니다.
+Pc 용 Windows 10 및 Microsoft 365 Apps for enterprise는 권장 되는 클라이언트 환경입니다. Azure는 온-프레미스 및 Azure AD 둘 다에 사용할 수 있는 원활한 환경을 제공 하도록 디자인 되었기 때문에 Windows 10을 사용 하는 것이 좋습니다. Windows 10에는 Intune을 통해 관리할 수 있는 고급 보안 기능도 포함 되어 있습니다. Microsoft 365 enterprise 용 앱에는 최신 버전의 Office 응용 프로그램이 포함 되어 있습니다. 이러한 기능은 더 안전 하 고 조건부 액세스에 대 한 요구 사항을 충족 하는 최신 인증을 사용 합니다. 이러한 앱에는 향상 된 보안 및 준수 도구도 포함 되어 있습니다.
 
 ## <a name="applying-these-capabilities-across-the-three-tiers-of-protection"></a>3 개의 보호 계층에 걸쳐 이러한 기능 적용
 
 다음 표에는 세 가지 보호 계층에서 이러한 기능을 사용 하기 위한 권장 사항이 요약 되어 있습니다.
 
-|보호 메커니즘|기준|중요|높은 규제|
+|보호 메커니즘|기준|중요|매우 엄격한 규제|
 |:-------------------|:-------|:--------|:---------------|
 |**MFA 강제 적용**|중간 이상 로그인 위험에 대해|낮음 이상 로그인 위험에 대해|모든 새 세션에 대해|
 |**암호 변경 적용**|위험성이 높은 사용자|위험성이 높은 사용자|위험성이 높은 사용자|

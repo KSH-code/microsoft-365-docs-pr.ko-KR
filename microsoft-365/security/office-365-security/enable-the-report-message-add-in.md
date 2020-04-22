@@ -16,17 +16,17 @@ ms.assetid: 4250c4bc-6102-420b-9e0a-a95064837676
 ms.collection:
 - M365-security-compliance
 description: 개별 사용자 또는 전체 조직에 대해 Outlook 및 웹용 outlook 용 보고서 메시지 추가 기능을 사용 하도록 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: c160e928c9a46dd4dc360c5e61d70ca401430378
-ms.sourcegitcommit: a86787b62cec95a392ff2b933f5dc44334ceb7e9
+ms.openlocfilehash: 101a37f48e31f762171b2269055d0e69c889d0dc
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/31/2020
-ms.locfileid: "43061734"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43633302"
 ---
-# <a name="enable-the-report-message-add-in-in-office-365"></a>Office 365에서 보고서 메시지 추가 기능을 사용 하도록 설정
+# <a name="enable-the-report-message-add-in"></a>보고서 메시지 추가 기능을 사용하도록 설정
 
 > [!NOTE]
-> Exchange Online 사서함을 사용 하는 Office 365 조직의 관리자는 Office 365 보안 & 준수 센터의 전송 포털을 사용 하는 것이 좋습니다. 자세한 내용은 [관리자 제출을 사용 하 여 의심 스러운 스팸, 피싱, url 및 파일을 Microsoft에 제출](admin-submission.md)합니다 .를 참조 하세요.
+> Exchange Online 사서함을 사용 하는 조직의 관리자 인 경우 보안 & 준수 센터에서 전송 포털을 사용 하는 것이 좋습니다. 자세한 내용은 [관리자 제출을 사용 하 여 의심 스러운 스팸, 피싱, url 및 파일을 Microsoft에 제출](admin-submission.md)합니다 .를 참조 하세요.
 
 Outlook 및 웹용 Outlook에 대 한 보고서 메시지 추가 기능 (이전의 Outlook Web App)은 사용자가 가양성 (잘못 된 것으로 표시 된 전자 메일) 또는 거짓 네거티브 (잘못 된 전자 메일 허용)를 Microsoft와 해당 계열사로 쉽게 보고할 수 있도록 합니다. Microsoft는 이러한 전송을 사용 하 여 전자 메일 보호 기술의 효율성을 개선 합니다.
 
@@ -38,16 +38,16 @@ Outlook 및 웹용 Outlook에 대 한 보고서 메시지 추가 기능 (이전�
 
 개별 사용자 [의 경우에는 보고서 메시지 추가 기능을 사용 하도록 설정할](#get-the-report-message-add-in-for-yourself)수 있습니다.
 
-Office 365 전역 관리자 또는 Exchange Online 관리자이 고 Exchange가 OAuth 인증을 사용 하도록 구성 되어 있는 경우 [조직에 대 한 보고서 메시지 추가 기능을 사용 하도록 설정할](#get-and-enable-the-report-message-add-in-for-your-organization)수 있습니다. 이제 [중앙 집중식 배포](https://docs.microsoft.com/office365/admin/manage/centralized-deployment-of-add-ins)를 통해 보고서 메시지 추가 기능을 사용할 수 있습니다.
+전역 관리자 또는 Exchange Online 관리자이 고 Exchange가 OAuth 인증을 사용 하도록 구성 된 경우 [조직에 대 한 보고서 메시지 추가 기능을 사용 하도록 설정할](#get-and-enable-the-report-message-add-in-for-your-organization)수 있습니다. 이제 [중앙 집중식 배포](https://docs.microsoft.com/office365/admin/manage/centralized-deployment-of-add-ins)를 통해 보고서 메시지 추가 기능을 사용할 수 있습니다.
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 사항은 무엇인가요?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
 
-- 보고서 메시지 추가 기능 이란 대부분의 Office 365 구독과 다음 제품과 함께 작동 합니다.
+- 보고서 메시지 추가 기능 이란 대부분의 Microsoft 365 구독과 다음 제품에서 작동 합니다.
 
   - 웹용 Outlook
   - Outlook 2013 SP1 이상
   - Mac용 Outlook 2016
-  - Office 365 ProPlus에 포함 된 Outlook
+  - Microsoft 365 for Enterprise 앱에 포함 된 Outlook
 
 - 보고서 메시지 추가 기능은 현재 사용할 수 없습니다.
 
@@ -58,7 +58,7 @@ Office 365 전역 관리자 또는 Exchange Online 관리자이 고 Exchange가 
 
 - 조직 설치의 경우 OAuth 인증을 사용 하도록 조직을 구성 해야 합니다. 자세한 내용은 [조직에 대 한 추가 기능의 중앙 집중식 배포가 작동 하는지 확인](../../admin/manage/centralized-deployment-of-add-ins.md)을 참조 하세요.
 
-- 관리자는 전역 관리자 역할 그룹의 구성원 이어야 합니다. 자세한 내용은 [Office 365 보안 & 준수 센터의 사용 권한을](permissions-in-the-security-and-compliance-center.md)참조 하세요.
+- 관리자는 전역 관리자 역할 그룹의 구성원 이어야 합니다. 자세한 내용은 [보안 및 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)을 참조하세요.
 
 ## <a name="get-the-report-message-add-in-for-yourself"></a>사용자를 위한 보고서 메시지 추가 기능 가져오기
 
@@ -70,7 +70,7 @@ Office 365 전역 관리자 또는 Exchange Online 관리자이 고 Exchange가 
 
 3. 대화 상자가 나타나면 사용 약관 및 개인 정보 취급 방침을 검토 하 고 **계속**을 클릭 합니다.
 
-4. 회사 또는 학교 계정 (비즈니스용 사용) 또는 Microsoft 계정 (개인적으로 사용)을 사용 하 여 Office 365에 로그인 합니다.
+4. 회사 또는 학교 계정 (비즈니스용으로 사용) 또는 Microsoft 계정 (개인적으로 사용)을 사용 하 여 로그인 합니다.
 
 추가 기능을 설치 하 고 사용 하도록 설정한 후에는 다음 아이콘이 표시 됩니다.
 

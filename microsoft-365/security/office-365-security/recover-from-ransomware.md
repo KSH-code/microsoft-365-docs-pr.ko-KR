@@ -12,19 +12,19 @@ search.appverid:
 - MET150
 ms.collection:
 - M365-security-compliance
-description: Office 365 관리자는 랜 섬 웨어 공격 으로부터 복구 하는 방법에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: 6d57142bac6dad22d38cc26a9353b528a9f8eb10
-ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
+description: Microsoft 365 관리자는 랜 섬 웨어 공격 으로부터 복구 하는 방법에 대해 알아볼 수 있습니다.
+ms.openlocfilehash: 49e14e92505f5241828a525aba82a2dc871e6784
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43032879"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634403"
 ---
 # <a name="recover-from-a-ransomware-attack-in-office-365"></a>Office 365에서 랜 섬 웨어 공격 으로부터 복구
 
-Office 365 조 직을 보호 하기 위해 모든 예방책을 사용 하는 경우에도 여전히 [랜 섬 웨어](https://docs.microsoft.com/windows/security/threat-protection/intelligence/ransomware-malware) 공격을 막을 수 있습니다. 랜 섬 웨어는 대규모 기업 이며, 공격은 정교 하 게 확인 됩니다.
+조직을 보호 하기 위해 모든 예방책을 사용 하는 경우에도 여전히 [랜 섬 웨어](https://docs.microsoft.com/windows/security/threat-protection/intelligence/ransomware-malware) 공격을 막을 수 있습니다. 랜 섬 웨어는 대규모 기업 이며, 공격은 정교 하 게 확인 됩니다.
 
-이 항목의 단계에서는 랜 섬 웨어로 암호화 된 데이터를 복구할 수 있는 최상의 기회를 제공 하며, Office 365 조직에서 감염의 확산을 중지 하는 데 도움이 됩니다. 시작하기 전에 다음 항목을 고려하세요.
+이 항목의 단계에서는 랜 섬 웨어로 암호화 된 데이터를 복구할 수 있는 최상의 기회를 제공 하며, 조직에서 감염의 확산을 중지 하는 데 도움이 됩니다. 시작하기 전에 다음 항목을 고려하세요.
 
 - Ransom의 비용을 지불 하면 파일에 대 한 액세스 권한이 반환 된다는 보장이 없습니다. 실제로 ransom를 지불할 경우 더 많은 랜 섬 웨어를 대상으로 할 수 있습니다. 이미 지불 되었지만 공격자의 확인을 사용 하지 않고 파일을 성공적으로 복구할 수 있는 경우에는 뱅크를 호출 하 여 트랜잭션을 차단할 수 있는지 확인 해야 합니다. 또한이 항목의 뒷부분에 설명 된 대로, 섬 웨어 공격을 법 집행, 사기 보고 웹 사이트 및 Microsoft에 보고 하는 것이 좋습니다.
 
@@ -122,7 +122,7 @@ OneDrive 동기화를 일시 중지 하면 잠재적으로 감염 된 장치에 
 
 ### <a name="submit-email-messages-to-microsoft"></a>Microsoft로 전자 메일 메시지 제출
 
-몇 가지 방법 중 하나를 사용 하 여 랜 섬 웨어가 포함 된 피싱 메시지를 보고할 수 있습니다. 자세한 내용은 [메시지 및 파일을 Microsoft에 보고](report-junk-email-messages-to-microsoft.md)를 참조 하세요.
+몇 가지 방법 중 하나를 사용 하 여 랜 섬 웨어가 포함 된 피싱 메시지를 보고할 수 있습니다. 자세한 내용은 [Microsoft에 메시지와 파일 보고](report-junk-email-messages-to-microsoft.md)를 참조하세요.
 
 ## <a name="see-also"></a>참고 항목
 

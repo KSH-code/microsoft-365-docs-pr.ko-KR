@@ -15,25 +15,25 @@ search.appverid:
 ms.assetid: ac11edd9-2da3-462d-8ea3-bbf9dbc6f948
 ms.collection:
 - M365-security-compliance
-description: 위험성이 높은 배달 풀을 사용 하 여 Office 365 데이터 센터의 전자 메일 서버 신뢰도를 보호 하는 방법을 알아봅니다.
-ms.openlocfilehash: 5d1bd2b14eb17ed74ee1cf1e44967f660f4595b8
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+description: 위험성이 높은 배달 풀을 사용 하 여 Microsoft 365 데이터 센터에서 전자 메일 서버의 신뢰도를 보호 하는 방법을 알아봅니다.
+ms.openlocfilehash: 7fb4788361534335be1e07bae44ed7511bebe434
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42895362"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43638037"
 ---
-# <a name="high-risk-delivery-pool-for-outbound-messages-in-office-365"></a>Office 365의 아웃 바운드 메시지에 대 한 위험성이 높은 배달 풀
+# <a name="high-risk-delivery-pool-for-outbound-messages"></a>아웃바운드 메시지용 높은 위험 배달 풀
 
-Office 365 데이터 센터의 전자 메일 서버가 일시적으로 스팸 메일을 guilty 수 있습니다. 예를 들어 온-프레미스 전자 메일 조직에서 Office 365 또는 손상 된 Office 365 계정을 통해 아웃 바운드 메일을 보내는 맬웨어 또는 악성 스팸 공격이 발생 합니다. 이러한 시나리오로 인해 영향을 받는 Office 365 데이터 센터 서버의 IP 주소가 타사 차단 목록에 표시 될 수 있습니다. 이러한 차단 목록을 사용 하는 대상 전자 메일 조직은 해당 메시지 원본의 전자 메일을 거부 합니다.
+Microsoft 365 데이터 센터의 전자 메일 서버가 일시적으로 스팸 메일을 guilty 수도 있습니다. 예를 들어 Microsoft 365를 통해 아웃 바운드 메일을 보내거나 Microsoft 365 계정을 손상 시킨 온-프레미스 전자 메일 조직의 맬웨어 또는 악성 스팸 공격이 발생 합니다. 이러한 시나리오로 인해 영향을 받는 Microsoft 365 datacenter server의 IP 주소가 타사 차단 목록에 표시 될 수 있습니다. 이러한 차단 목록을 사용 하는 대상 전자 메일 조직은 해당 메시지 원본의 전자 메일을 거부 합니다.
 
-이를 방지 하기 위해 스팸으로 확인 되거나 [서비스](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#sending-limits-across-office-365-options) 의 전송 제한을 초과 하는 Office 365 데이터 센터 서버의 모든 아웃 바운드 메시지는 _높은 위험 배달 풀_ [을 통해 전송 됩니다.](configure-the-outbound-spam-policy.md)
+이를 방지 하기 위해 스팸으로 확인 되거나 [서비스](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description/exchange-online-limits#sending-limits-across-office-365-options) 의 전송 제한을 초과 하는 Microsoft 365 datacenter servers의 모든 아웃 바운드 메시지는 _높은 위험 배달 풀_ [을 통해 전송 됩니다.](configure-the-outbound-spam-policy.md)
 
 높은 위험 배달 풀은 "낮은 품질" 메시지 (예: 스팸 및 [백 분산](backscatter-messages-and-eop.md))를 보내는 데만 사용 되는 아웃 바운드 전자 메일에 대 한 보조 IP 주소 풀입니다. 높은 위험 배달 풀을 사용 하면 아웃 바운드 전자 메일에 대 한 일반 IP 주소 풀이 스팸을 보내지 못합니다. 아웃 바운드 전자 메일의 일반 IP 주소 풀은 "고품질" 메시지를 보내는 신뢰도를 유지 하므로 이러한 IP 주소가 IP 차단 목록에 표시 되는 가능성이 줄어듭니다.
 
 높은 위험 배달 풀의 IP 주소가 IP 차단 목록에 남아 있는 것은 매우 실질적인 일 이지만 이것은 의도적으로 설계 된 것입니다. 대부분의 전자 메일 조직에서는 높은 위험 배달 풀의 메시지를 수락 하지 않으므로 원하는 받는 사람에 게 배달할 수 없습니다.
 
-자세한 내용은 [Office 365에서 아웃 바운드 스팸 제어](outbound-spam-controls.md)를 참조 하세요.
+자세한 내용은 [Control outbound 스팸](outbound-spam-controls.md)을 참조 하십시오.
 
 > [!NOTE]
 > 원본 전자 메일 도메인에 레코드가 없고 공용 DNS에 정의 된 MX 레코드가 없는 메시지는 항상 스팸 또는 전송 제한 처리에 관계 없이 위험성이 높은 배달 풀을 통해 라우팅됩니다.

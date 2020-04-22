@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 Business 보안 및 규정 준수 기능
+title: Microsoft 365 Business Premium 보안 및 규정 준수 기능
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -22,23 +22,23 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: c123694a-1efb-459e-a8d5-2187975373dc
-description: Pc, 휴대폰 및 태블릿에서 데이터를 안전 하 게 보호 하기 위해 Microsoft 365 Business와 함께 제공 되는 보안 기능에 대해 알아봅니다.
-ms.openlocfilehash: 3f638a3287c06ded7bf4c29c647e62cbf3fca969
-ms.sourcegitcommit: e525bcf073a61e1350484719a0c3ceb6ff0d8db1
+description: Pc, 휴대폰 및 태블릿에서 데이터를 안전 하 게 보호 하기 위해 Microsoft 365 Business Premium에 제공 되는 보안 기능에 대해 알아봅니다.
+ms.openlocfilehash: 35eb0ac1dce216ccc557fc629ddb5d2df50e7134
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43153801"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635147"
 ---
-# <a name="microsoft-365-business-security-and-compliance-features"></a>Microsoft 365 Business 보안 및 규정 준수 기능
+# <a name="microsoft-365-business-premium-security-and-compliance-features"></a>Microsoft 365 Business Premium 보안 및 규정 준수 기능
 
-Microsoft 365 Business는 PC, 휴대폰 및 태블릿의 데이터를 보호하기 간편한 보안 기능을 제공합니다.
+Microsoft 365 Business Premium은 Pc, 휴대폰 및 태블릿에서 데이터를 보호 하는 데 도움이 되는 단순화 된 보안 기능을 제공 합니다.
     
-## <a name="microsoft-365-business-admin-center-security-features"></a>Microsoft 365 Business 관리 센터 보안 기능
+## <a name="microsoft-365-admin-center-security-features"></a>Microsoft 365 관리 센터 보안 기능
 
 [![관리 센터가 변경되고 있음을 알리는 레이블이며 aka.ms/aboutM365preview에서 자세한 내용을 확인할 수 있습니다.](../media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
 
-관리 센터에서 이러한 기능을 설정 하거나 해제 하는 간단한 방법을 제공 하는 다양 한 Microsoft 365 Business 보안 기능을 관리할 수 있습니다. 관리 센터에서는 다음을 수행할 수 있습니다.
+관리 센터에서 다양 한 Microsoft 365 Business Premium 보안 기능을 관리 하 여 이러한 기능을 설정 하거나 해제할 수 있습니다. 관리 센터에서는 다음을 수행할 수 있습니다.
   
 - [Android 또는 iOS 디바이스에 대한 애플리케이션 관리 설정 지정](app-protection-settings-for-android-and-ios.md). 
     
@@ -62,7 +62,7 @@ Microsoft 365 Business는 PC, 휴대폰 및 태블릿의 데이터를 보호하�
     
 ## <a name="additional-security-features"></a>추가 보안 기능 
 
-Microsoft 365 Business의 고급 기능을 사용하여 사이버 위협으로부터 비즈니스를 보호하고 중요한 정보를 보호할 수 있습니다.
+Microsoft 365 비즈니스 Premium의 고급 기능은 비즈니스를 사이버 위협 으로부터 보호 하 고 중요 한 정보를 보호 하는 데 도움이 됩니다.
   
 - **[Office 365 Advanced Threat Protection](https://support.office.com/article/e100fe7c-f2a1-4b7d-9e08-622330b83653)**
     
@@ -74,7 +74,7 @@ Microsoft 365 Business의 고급 기능을 사용하여 사이버 위협으로�
 
 - **[Azure Portal의 Intune 전체 기능](https://go.microsoft.com/fwlink/p/?linkid=871403)**
     
-    Azure portal의 Intune 관리 센터에 액세스 하면 MacOS 장치, iPhone 및 Android 장치 관리와 같은 추가 보안 기능을 Windows 용 고급 장치 관리, Microsoft 365 Business 관리 센터를 통해 사용할 수 없도록 설정할 수 있습니다.
+    Azure portal의 Intune 관리 센터에 액세스 하면 MacOS 장치, iPhone 및 Android 장치 관리와 같은 추가 보안 기능을 Windows 용 고급 장치 관리와 함께 사용 하 여 Microsoft 365 관리 센터를 통해서는 사용할 수 없습니다.
 - **Azure AD Premium P1 계획과 동일한 [조건부 액세스](https://docs.microsoft.com/azure/active-directory/conditional-access/overview)**
 
 
@@ -95,7 +95,7 @@ Microsoft 365 Business의 고급 기능을 사용하여 사이버 위협으로�
     
 ## <a name="compliance-features"></a>준수 기능
 
-Microsoft 365 비즈니스 구독에는 준수 및 규정 표준을 유지 관리 하는 데 도움이 되는 기능이 포함 되어 있습니다.
+Microsoft 365 Business Premium subscription에는 준수 및 규정 표준을 유지 관리 하는 데 도움이 되는 기능이 포함 되어 있습니다.
 
 - **[데이터 손실 방지 정책 개요](https://support.office.com/article/1966b2a7-d1e2-4d92-ab61-42efbb137f5e)**(DLP) 
     
@@ -107,20 +107,20 @@ Microsoft 365 비즈니스 구독에는 준수 및 규정 표준을 유지 관�
     
 - **[민감도 레이블](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels)**
 
-   Microsoft 365 Business에는 [Azure Information Protection 계획 1](https://go.microsoft.com/fwlink/p/?linkid=871407)의 모든 기능이 포함 되어 있습니다. 이 요금제를 사용 하면 전자 메일 및 문서에 있는 중요 한 정보에 대 한 액세스를 제어 하는 **민감도 레이블을** 만들 수 있으며 "전달 금지" 및 "복사 하지 않음" 등의 컨트롤이 있습니다. 중요 한 정보를 "기밀"으로 분류 하 고 분류 된 정보를 비즈니스 외부 및 내부에 공유 하는 방법을 지정할 수도 있습니다. 엔터프라이즈 등급 암호화는 전자 메일 및 문서에 쉽게 적용할 수 있으며 정보를 비공개로 유지 하는 데 사용 됩니다. Office 용 Azure Information Protection 클라이언트 추가 기능을 설치할 수도 있습니다. 자세한 내용은 [Azure Information Protection 통합 레이블 클라이언트](https://docs.microsoft.com/azure/information-protection/rms-client/unifiedlabelingclient-version-release-history)를 참조 하세요. 민감도 레이블의 경우 AzInfoProtection_UL를 설치 합니다 **.**
+   Microsoft 365 Business Premium에는 [Azure Information Protection 계획 1](https://go.microsoft.com/fwlink/p/?linkid=871407)의 모든 기능이 포함 되어 있습니다. 이 요금제를 사용 하면 전자 메일 및 문서에 있는 중요 한 정보에 대 한 액세스를 제어 하는 **민감도 레이블을** 만들 수 있으며 "전달 금지" 및 "복사 하지 않음" 등의 컨트롤이 있습니다. 중요 한 정보를 "기밀"으로 분류 하 고 분류 된 정보를 비즈니스 외부 및 내부에 공유 하는 방법을 지정할 수도 있습니다. 엔터프라이즈 등급 암호화는 전자 메일 및 문서에 쉽게 적용할 수 있으며 정보를 비공개로 유지 하는 데 사용 됩니다. Office 용 Azure Information Protection 클라이언트 추가 기능을 설치할 수도 있습니다. 자세한 내용은 [Azure Information Protection 통합 레이블 클라이언트](https://docs.microsoft.com/azure/information-protection/rms-client/unifiedlabelingclient-version-release-history)를 참조 하세요. 민감도 레이블의 경우 AzInfoProtection_UL를 설치 합니다 **.**
 
-이러한 기능은 보안 &amp; 및 준수 센터 및 Intune 관리 센터에서 관리할 수 있습니다. 시간이 지남에 따라 간소화 된 컨트롤이 Microsoft 365 비즈니스 관리 센터에 추가 됩니다.
+이러한 기능은 보안 &amp; 및 준수 센터 및 Intune 관리 센터에서 관리할 수 있습니다. 시간이 지남에 따라 간소화 된 컨트롤이 Microsoft 365 관리 센터에 추가 됩니다.
   
     
 ## <a name="faq"></a>FAQ
 
  ### <a name="are-these-security-features-available-in-all-markets"></a>이러한 보안 기능을 모든 지역/국가에서 사용할 수 있나요?
   
-예. 이러한 기능은 Microsoft 365 Business가 판매되는 모든 지역/국가에서 사용할 수 있습니다.
+예, Microsoft 365 Business Premium이 판매 되는 모든 시장에서 이러한 기능을 사용할 수 있습니다.
   
 ### <a name="how-do-i-find-the-security-amp-compliance-center"></a>보안 및 준수 센터는 어떻게 찾을 수 있나요?
   
-1. 관리자 자격 증명을 사용하여 [Microsoft 365 Business에 로그인](https://portal.microsoft.com/)합니다. 
+1. 관리자 자격 증명을 사용 하 여 [Microsoft 365 Business Premium에 로그인](https://portal.microsoft.com/) 합니다. 
     
 2. 왼쪽 탐색 창에서 **관리 센터**를 찾아 확장합니다. 
     

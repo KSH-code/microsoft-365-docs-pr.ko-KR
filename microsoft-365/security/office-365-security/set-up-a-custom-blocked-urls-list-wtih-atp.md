@@ -1,5 +1,5 @@
 ---
-title: Office 365 ATP 안전한 링크를 사용 하 여 차단 된 사용자 지정 Url 목록 설정
+title: ATP 안전한 링크를 사용 하 여 차단 된 사용자 지정 Url 목록 설정
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -17,14 +17,14 @@ ms.assetid: 896a7efb-1683-465e-a394-261349e5d866
 ms.collection:
 - M365-security-compliance
 description: Office 365 Advanced Threat Protection을 사용 하 여 조직에 대해 차단 된 Url 목록을 설정 하는 방법을 알아봅니다. 차단 된 Url은 ATP 안전한 링크 정책에 따라 전자 메일 메시지 및 Office 문서에 적용 됩니다.
-ms.openlocfilehash: 5205fbd5ccc873513eed4e367119084516e92bf2
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: ff8709a8bf0f8afc27ace2b3977be975f42c33a5
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42088095"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43638407"
 ---
-# <a name="set-up-a-custom-blocked-urls-list-using-office-365-atp-safe-links"></a>Office 365 ATP 안전한 링크를 사용 하 여 차단 된 사용자 지정 Url 목록 설정
+# <a name="set-up-a-custom-blocked-urls-list-using-atp-safe-links"></a>ATP 안전한 링크를 사용 하 여 차단 된 사용자 지정 Url 목록 설정
 
 > [!IMPORTANT]
 > 이 문서는 [Office 365 Advanced Threat Protection](office-365-atp.md)이 있는 비즈니스 고객을 대상으로 합니다. Outlook의 안전한 링크에 대 한 정보를 검색 하는 개인 사용자는 [Advanced Outlook.com security](https://support.office.com/article/882d2243-eab9-4545-a58a-b36fee4a46e2)를 참조 하십시오.
@@ -33,7 +33,7 @@ ms.locfileid: "42088095"
   
 ![이 사이트는 차단 됨](../../media/6b4bda2d-a1e6-419e-8b10-588e83c3af3f.png)
   
-차단 된 Url 목록은 조직의 Office 365 보안 팀에서 정의 되며,이 목록은 Office 365 ATP 안전한 링크 정책에서 다루는 조직의 모든 사용자에 게 적용 됩니다. 
+차단 된 Url 목록은 조직의 Microsoft 365 for business security team에 의해 정의 되며,이 목록은 Office 365 ATP 안전한 링크 정책에서 다루는 조직의 모든 사용자에 게 적용 됩니다. 
   
 이 문서를 읽으면 [Office 365에서 ATP 안전한 링크](atp-safe-links.md)에 대 한 조직의 사용자 지정 차단 된 url 목록을 설정 하는 방법에 대해 알아봅니다.
   
@@ -45,12 +45,12 @@ ATP 정책을 편집 하거나 정의 하려면 다음 표에 설명 된 역할 
 
 |역할  |할당 된 위치/방법  |
 |---------|---------|
-|Office 365 전역 관리자 |Office 365을 구매 하기 위해 등록 하는 사람은 기본적으로 전역 관리자입니다. 자세한 내용은 [Office 365 관리자 역할 정보](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) 를 참조 하세요.         |
+|전역 관리자 |Microsoft 365을 구매 하기 위해 등록 하는 사람은 기본적으로 전역 관리자입니다. 자세한 내용은 [Microsoft 365 관리자 역할 정보](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) 를 참조 하세요.         |
 |보안 관리자 |Azure Active Directory 관리 센터 ([https://aad.portal.azure.com](https://aad.portal.azure.com))|
 |Exchange Online 조직 관리 |Exchange 관리 센터 ([https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)) <br>또는 <br>  PowerShell cmdlet ( [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell)참조) |
 
 > [!TIP]
-> 역할 및 사용 권한에 대 한 자세한 내용은 [Office 365 보안 &amp; 및 준수 센터의 사용 권한을](permissions-in-the-security-and-compliance-center.md)참조 하세요.
+> 역할 및 사용 권한에 대 한 자세한 내용은 [보안 &amp; 및 준수 센터의 사용 권한을](permissions-in-the-security-and-compliance-center.md)참조 하세요.
 
 ### <a name="to-view-or-edit-a-custom-blocked-urls-list"></a>사용자 지정 차단 된 Url 목록을 보거나 편집 하려면
   

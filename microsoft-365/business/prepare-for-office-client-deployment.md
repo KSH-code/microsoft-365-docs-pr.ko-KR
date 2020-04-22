@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 Business를 사용한 Office 클라이언트 배포 준비
+title: 비즈니스용 Microsoft 365에서 Office 클라이언트 배포 준비
 f1.keywords:
 - CSH
 ms.author: sirkkuw
@@ -21,18 +21,18 @@ search.appverid:
 - MET150
 ms.assetid: ed34fff3-2881-4ed4-9906-1ba6bb8dd804
 description: Windows 10 컴퓨터에 32 비트 Office 앱을 자동으로 설치 하 고 업데이트 된 상태로 유지 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 0f8cd7df49ad627b190fad6737ec95a6d64d99d0
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: b5f01bc9bb10765929f3c6bdd5908e8b48a51a11
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42065112"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43633102"
 ---
-# <a name="prepare-for-office-client-deployment-by-microsoft-365-business"></a>Microsoft 365 Business를 사용한 Office 클라이언트 배포 준비
+# <a name="prepare-for-office-client-deployment-by-microsoft-365-for-business"></a>비즈니스용 Microsoft 365에서 Office 클라이언트 배포 준비
 
 ## <a name="prepare-to-automatically-install-office-apps-to-client-computers"></a>클라이언트 컴퓨터에 Office 앱 자동 설치 준비
 
-Microsoft 365 Business를 사용 하 여 Windows 10 컴퓨터에 32 비트 Office 앱을 자동으로 설치 하 고 업데이트를 최신 상태로 유지할 수 있습니다.
+비즈니스용 Microsoft 365을 사용 하 여 Windows 10 컴퓨터에 32 비트 Office 앱을 자동으로 설치 하 고 업데이트를 최신 상태로 유지할 수 있습니다.
   
 최종 사용자의 컴퓨터가 Windows 10 Business에 있고 다음을 수행 하는 경우 자동 설치가 가장 효율적으로 작동 합니다.
   
@@ -50,15 +50,15 @@ Microsoft 365 Business를 사용 하 여 Windows 10 컴퓨터에 32 비트 Offic
   
 다음과 같은 PC 환경을 사용하는 최종 사용자에게 유용합니다.
   
-- **Has**  a Windows 10 Business user license, an active Microsoft 365 Business license, Windows 10 Creators Update, and is joined to Azure Active Directory. 
+- Windows 10 Business 사용자 라이선스, 비즈니스 라이선스에 대 한 활성 Microsoft 365, Windows 10 크리에이터 업데이트 및 Azure Active Directory에 가입 **되어 있습니다.** 
     
-- 64 비트 Office 앱 (예: Word, Excel, PowerPoint)이 **없는** 경우 64 비트 Office 앱이 필요한 경우 Microsoft 365 Business 관리 콘솔에서 64 비트 2016 간편 실행 버전의 Office를 트리거하는 것이 지원 되지 않으므로이 기능은 적합 하지 않습니다. 
+- 64 비트 Office 앱 (예: Word, Excel, PowerPoint)이 **없는** 경우 64 비트 Office 앱이 필요한 경우 365 Microsoft for business 관리 콘솔에서 64 비트 2016 간편 실행 버전의 Office를 트리거하는 것은 지원 되지 않으므로이 기능은 적합 하지 않습니다. 
     
-- 2016 Windows Installer(MSI) 독립 실행형 앱(예: Visio 또는 Project)을 **보유하지 않은** 경우. Microsoft 365 Business는 office를 간편 실행 버전의 Office 2016로 업그레이드 하며 Office 2016 MSI 독립 실행형 앱에서는 작동 하지 않습니다. 
+- 2016 Windows Installer(MSI) 독립 실행형 앱(예: Visio 또는 Project)을 **보유하지 않은** 경우. 비즈니스용 마이크로소프트 365 office 2016의 간편 실행 버전으로 Office를 업그레이드 하며 Office 2016 MSI 독립 실행형 앱에서는 작동 하지 않습니다. 
     
-다음 표에는 Microsoft 365 Business administration console에서 성공적인 32 비트 간편 실행 버전의 Office 배포를 구현 하기 위해 최종 사용자/관리자가 시작 상태에 따라 수행 해야 할 수 있는 작업이 나와 있습니다.
+다음 표에는 Microsoft 365 for business 관리 콘솔에서 Office 배포의 성공적인 32 비트 간편 실행 버전을 구현 하기 위해 최종 사용자/관리자가 시작 상태에 따라 수행 해야 할 수 있는 작업이 나와 있습니다.
   
-|**Office 설치 시작 상태**|**Microsoft 365 Business Office 설치 전 수행해야 하는 작업**|**종료 상태**|
+|**Office 설치 시작 상태**|**Microsoft 365 for business Office 설치 전 수행 해야 하는 작업**|**종료 상태**|
 |:-----|:-----|:-----|
 |설치된 Office 제품군이 없는 경우  <br/> |없음  <br/> |간편 실행을 사용 하 여 Office 2016 32-비트를 설치 합니다.  <br/> |
 |간편 실행 32비트 버전의 Office(2016 이하)가 있고 독립 실행형 앱이 없는 경우  <br/> |없음  <br/> |Upgraded to the latest 32-bit Click-to-Run version of Office 2016, as needed **\*** <br/> |

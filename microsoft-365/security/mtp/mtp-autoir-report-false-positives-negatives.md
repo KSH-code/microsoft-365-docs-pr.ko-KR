@@ -19,12 +19,12 @@ ms.collection:
 - M365-security-compliance
 ms.topic: conceptual
 ms.custom: autoir
-ms.openlocfilehash: 90651aa258adb9f7fe46f99bcadf1d4d552a5b76
-ms.sourcegitcommit: 58c1b4208a5e231463091573e40696d08fc39b8e
+ms.openlocfilehash: 4030469b54d9a3a9c6f2eaceae384d39ea7f3e20
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2020
-ms.locfileid: "42955664"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637083"
 ---
 # <a name="handle-false-positivesnegatives-in-automated-investigation-and-response-capabilities"></a>자동화 된 조사 및 응답 기능에서 가양성/네거티브 처리
 
@@ -45,7 +45,7 @@ Microsoft Threat Protection에 대 [한 자동화 된 조사 및 응답 기능�
 
 |누락 된 항목 또는 지워지는 검색 |서비스  |수행할 작업  |
 |---------|---------|---------|
-|-전자 메일 메시지 <br/>-전자 메일 첨부 파일 <br/>-전자 메일 메시지의 URL<br/>-Office 파일의 URL      |[Office 365 Advanced Threat Protection](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)        |[의심 스러운 스팸, 피싱, Url 및 파일을 Microsoft에 Office 365 검색에 제출](https://docs.microsoft.com/microsoft-365/security/office-365-security/admin-submission)         |
+|-전자 메일 메시지 <br/>-전자 메일 첨부 파일 <br/>-전자 메일 메시지의 URL<br/>-Office 파일의 URL      |[Office 365 Advanced Threat Protection](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)        |[검색을 위해 Microsoft에 의심 스러운 스팸, 피싱, Url 및 파일 제출](https://docs.microsoft.com/microsoft-365/security/office-365-security/admin-submission)         |
 |장치에 있는 파일 또는 앱    |[Microsoft Defender Advanced Threat Protection](https://docs.microsoft.com/windows/security/threat-protection)         |[맬웨어 분석을 위해 Microsoft에 파일 제출](https://www.microsoft.com/wdsi/filesubmission)         |
 
 ## <a name="adjust-an-alert-to-prevent-false-positives-from-recurring"></a>경고를 조정 하 여 가양성이 되풀이 되지 않도록 설정

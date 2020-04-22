@@ -1,5 +1,5 @@
 ---
-title: Office 365 자동 조사 및 응답에서 보류 중인 재구성 작업 검토 및 승인
+title: 자동화 된 조사 및 응답에서 보류 중인 업데이트 관리 작업 검토 및 승인
 keywords: AIR, autoIR, ATP, 자동화, 조사, 대응, 재구성, 위협, 고급, 위협, 보호
 f1.keywords:
 - NOCSH
@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 ms.collection: M365-security-compliance
 description: Office 365 Advanced Threat Protection 계획 2의 자동화 된 조사 및 응답 기능의 수정 작업에 대해 알아봅니다.
-ms.openlocfilehash: d2b617e29fc36d1f39ab6c9ef6f708d5f608b206
-ms.sourcegitcommit: 2859c82b30ae9cbd3a3e4bcdebd65f18444f1a9e
+ms.openlocfilehash: d14b8827bd3c69461d832d66bb371b5d62d9802e
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42826460"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634643"
 ---
 # <a name="view-pending-or-completed-remediation-actions-following-an-automated-investigation-in-office-365"></a>Office 365에서 자동화 된 조사에 따라 보류 중 또는 완료 된 재구성 작업 보기
 

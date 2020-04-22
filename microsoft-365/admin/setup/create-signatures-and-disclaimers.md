@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 2d75860f-c527-4352-a7f6-73eba54c0c72
 description: 조직을 들어가거나 탈퇴 하는 모든 전자 메일 메시지에 전자 메일 서명, 법적 고 지 사항 또는 공개 설명을 추가 하는 방법을 알아봅니다.
-ms.openlocfilehash: a63f21dff90c70d39e3709d4c34b53d99a315a59
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: affd091f951b81541214b4f98c414b5cd4675cd3
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42360669"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631980"
 ---
 # <a name="create-organization-wide-signatures-and-disclaimers"></a>조직 차원의 서명 및 부인 만들기
 
@@ -62,9 +62,9 @@ ms.locfileid: "42360669"
 
 ::: moniker-end
 
-1. Office 365](../../media/7502f4ec-3c9a-435d-a7b4-b9cda85189a7.png)에서 앱 ![시작 관리자 앱 시작 관리자 아이콘을 선택 하 고 **관리자**를 선택 합니다.
+1. 앱 시작 관리자 ![앱 시작 관리자 아이콘](../../media/7502f4ec-3c9a-435d-a7b4-b9cda85189a7.png)을 선택 하 고 **관리자**를 선택 합니다.
    
-    찾고자 하는 앱을 찾을 수 없나요? 앱 시작 관리자에서 **모든 앱**을 선택하여 사용 가능한 Office 365 앱의 사전순 목록을 보세요. 거기에서 특정 앱을 검색할 수 있습니다. 
+    찾고자 하는 앱을 찾을 수 없나요? 앱 시작 관리자에서 **모든 앱** 을 선택 하 여 사용할 수 있는 앱의 사전순 목록을 확인 합니다. 거기에서 특정 앱을 검색할 수 있습니다. 
     
 2. **관리 센터**를 선택 하 고 **Exchange**를 선택 합니다.
     
@@ -77,14 +77,14 @@ ms.locfileid: "42360669"
 6. **이 규칙 적용**에서 **[모든 메시지에 적용]** 을 선택 합니다.
     
     > [!TIP]
-    > [자세히 알아보세요](https://docs.microsoft.com/Exchange/policy-and-compliance/mail-flow-rules/signatures#Scoping). (이 범위 지정 문서는 Exchange Server에 대 한 것 이지만, Office 365에도 적용 됩니다.) 
+    > [자세히 알아보세요](https://docs.microsoft.com/Exchange/policy-and-compliance/mail-flow-rules/signatures#Scoping). (이 범위 지정 문서는 Exchange Server에 대 한 것 이지만, Microsoft 365에도 적용 됩니다.) 
   
 7. 다음 작업 실행 아래에서 **고지 사항 추가**를 선택된 상태로 둡니다. 
     
 8.  **텍스트 입력** 을 선택 하 고 고 지 사항을 입력 합니다. 
     
     > [!TIP]
-    > [자세히 알아보세요](https://docs.microsoft.com/Exchange/policy-and-compliance/mail-flow-rules/signatures#FormatDisclaimer). (이 서식 지정 문서는 Exchange Server에 대 한 것 이지만 Office 365에도 적용 됩니다.) 
+    > [자세히 알아보세요](https://docs.microsoft.com/Exchange/policy-and-compliance/mail-flow-rules/signatures#FormatDisclaimer). (이 서식 지정 문서는 Exchange Server에 대 한 것 이지만 Microsoft 365에도 적용 됩니다.) 
 
 9. **하나 선택을** 선택 하 고 대체 항목으로 **줄 바꿈** 옵션을 선택 합니다. 그런 다음, **확인**을 선택합니다. 암호화 또는 다른 메일 설정 때문에 고지 사항을 추가할 수 없는 경우 메시지 봉투에 래핑된다는 의미입니다.
     
@@ -96,9 +96,9 @@ ms.locfileid: "42360669"
     
 13. 완료되면 **저장**을 선택합니다. 
     
-## <a name="limitations-of-office-365-organization-wide-signatures"></a>Office 365 조직의 광범위 서명 제한 사항
+## <a name="limitations-of-organization-wide-signatures"></a>조직의 광범위 서명 제한 사항
 
-Office 365 서명을 사용 하 여 다음을 수행할 수는 없습니다.
+Microsoft 365 서명을 사용 하 여 다음을 수행할 수는 없습니다.
   
 - 최신 전자 메일 회신이 나 forward 바로 아래에 서명 삽입
     
@@ -112,6 +112,6 @@ Office 365 서명을 사용 하 여 다음을 수행할 수는 없습니다.
   
 ## <a name="more-resources"></a>추가 리소스
 
-- PowerShell 사용에 대 한 자세한 내용은 [Office 365의 조직 전체 메시지 법적 고 지 사항, 서명, 바닥글 또는 헤더를](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/disclaimers-signatures-footers-or-headers) 참조 하세요. 
+- PowerShell 사용에 대 한 자세한 내용은 [Microsoft 365의 조직 전체 메시지 법적 고 지 사항, 서명, 바닥글 또는 헤더를](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/disclaimers-signatures-footers-or-headers) 참조 하세요. 
     
 

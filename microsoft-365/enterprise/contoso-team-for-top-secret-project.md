@@ -15,12 +15,12 @@ search.appverid:
 ms.collection: M365-security-compliance
 ms.custom: Ent_Architecture
 description: '요약: Contoso가 상위 기밀 프로젝트에 대해 높은 규제 대상 데이터에 대 한 팀을 사용 하 여 새로운 제품 및 서비스 제품군을 개발 하는 방법을 설명 합니다.'
-ms.openlocfilehash: 58d381751db3e94f35a0c1b8f7a14c191918e754
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 310ef33d4add7d71616aee8808515ca90536d8c1
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42068032"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636501"
 ---
 # <a name="team-for-a-top-secret-project-of-the-contoso-corporation"></a>Contoso Corporation의 극비 프로젝트를 위한 팀
 
@@ -50,21 +50,21 @@ Contoso IT 직원은 프로젝트에 대 한 [높은 규제 대상 데이터에 
 
 ## <a name="step-2-configured-a-dlp-policy-and-the-underlying-site-for-a-retention-label"></a>2 단계: 보존 레이블에 대 한 기본 사이트 및 DLP 정책 구성 
 
-첫째로, Contoso 관리자는 기존의 **고도로 기밀** Office 365 보존 레이블을 프로젝트의 기본 SharePoint 사이트 (팀)에 있는 **문서** 섹션에 적용 했습니다.
+먼저 Contoso 관리자는 프로젝트의 기본 SharePoint 사이트에 있는 **문서** 섹션에 기존 **고도로 기밀** 보존 레이블을 적용 했습니다.
 
-다음으로, 다음은 **프로젝트 이름이 2** 인 새 OFFICE 365 DLP 정책을 만들었습니다.
+다음으로, 다음은 **프로젝트 이름이 2** 인 새 DLP 정책을 만들었습니다.
 
-- 높은 수준의 기밀 Office 365 보존 레이블을 사용 합니다.
+- 높은 기밀 보존 레이블을 사용 합니다.
 - 사용자가 Contoso 외부의 팀 프로젝트에서 파일을 공유 하려고 할 때 차단 합니다.
 
 구성에 대 한 자세한 내용은 [보존 레이블 및 DLP를 사용 하 여 팀의 파일 보호](https://docs.microsoft.com/microsoft-365/security/office-365-security/deploy-teams-retention-dlp)를 참조 하세요.
 
-## <a name="step-3-created-an-office-365-sensitivity-label-for-the-project-2x-team"></a>3 단계: 프로젝트 2 팀에 대 한 Office 365 민감도 레이블 작성
+## <a name="step-3-created-a-sensitivity-label-for-the-project-2x-team"></a>3 단계: 프로젝트 2 팀에 대 한 민감도 레이블 작성
 
-Contoso 관리자는 다음과 같은 **Project가 2** 배인 새 Office 365 민감도 레이블을 만들었습니다.
+Contoso 관리자는 다음과 같은 **프로젝트별** 라는 새 민감도 레이블을 만들었습니다.
 
 - 암호화 필요
-- Office 365 그룹 2 개 프로젝트에 대해 공동 작성자 권한을 허용 합니다.
+- Microsoft 365 그룹 2 개 프로젝트에 대해 공동 작성자 권한을 허용 합니다.
 
 다음은 프로젝트를 2 배로 구성 하는 결과입니다.
 
@@ -72,7 +72,7 @@ Contoso 관리자는 다음과 같은 **Project가 2** 배인 새 Office 365 민
  
 원본으로 사용 하는 Project 2의 문서 섹션에 있는 파일은 다음과 같은 방법으로 보호 됩니다.
 
-- 사이트 사용 권한-프로젝트 2 x 365 그룹 구성원 에게만 액세스를 허용 합니다.
+- 사이트 사용 권한-Microsoft 365 그룹의 구성원에 대 한 액세스만 허용 합니다.
 - 높은 기밀 보존 레이블-새 파일에 자동으로 할당 됩니다.
 - 고도로 기밀 보존 레이블과 파일을 외부 사용자와 공유 하지 못하도록 차단 하는 설정을 사용 하는 DLP 정책입니다.
 - 파일을 이동 하거나 복사 하는 경우 파일과 함께 이동 하는 암호화 및 사용 권한을 갖는 프로젝트 2X 민감도 레이블입니다.

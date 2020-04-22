@@ -1,5 +1,5 @@
 ---
-title: Microsoft 보안 점수
+title: Microsoft Secure Score
 description: Microsoft 365 보안 센터의 Microsoft 보안 점수, 세부 정보를 계산 하는 방법 및 보안 관리자가 예상할 수 있는 사항에 대해 설명 합니다.
 keywords: 보안, 맬웨어, Microsoft 365, M365, 보안 점수, 보안 센터, 개선 작업
 ms.prod: microsoft-365-enterprise
@@ -17,14 +17,14 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: e7274ff196d5b822d146378752d66c9707fc9f19
-ms.sourcegitcommit: d818828c66cf98b0b0037ba8b3cb790c940281b7
+ms.openlocfilehash: c15f0b30dbf377da4e01ba199852f02bd7a003ff
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 04/21/2020
-ms.locfileid: "43583384"
+ms.locfileid: "43637107"
 ---
-# <a name="microsoft-secure-score"></a>Microsoft 보안 점수
+# <a name="microsoft-secure-score"></a>Microsoft Secure Score
 
 Microsoft 보안 점수는 조직의 보안 상태를 측정 한 값으로, 더 많은 향상 작업이 수행 되었음을 나타냅니다. 보안 점수 권장 사항을 따르면 위협 으로부터 조직을 보호할 수 있습니다. Microsoft 365 보안 센터의 중앙 집중식 대시보드를 통해 조직은 Microsoft 365 id, 데이터, 앱, 장치 및 인프라의 보안을 모니터링 하 고 작업할 수 있습니다.
 
@@ -52,7 +52,7 @@ Microsoft 보안 점수는 조직의 보안 상태를 측정 한 값으로, 더 
 
 ### <a name="products-included-in-secure-score"></a>안전한 점수에 포함 된 제품
 
-현재 Office 365 (SharePoint Online, Exchange Online, 비즈니스용 OneDrive, Microsoft Information Protection 등), Azure AD 및 Cloud App Security에 대 한 권장 사항은 다음과 같습니다. Azure ATP 및 Microsoft Defender ATP와 같은 다른 보안 제품에 대 한 권장 사항은 곧 제공 될 예정입니다. 권장 사항은 각 제품과 연결 된 모든 공격 표면을 다루지는 않지만 좋은 기준이 됩니다. 또한 개선 작업을 제 3 자에서 다룬 것으로 표시할 수도 있습니다.
+현재에는 SharePoint Online, Exchange Online, 비즈니스용 OneDrive, Microsoft Information Protection 등, Azure AD 및 Cloud App Security를 포함 하기 위한 권장 사항이 있습니다. Azure ATP 및 Microsoft Defender ATP와 같은 다른 보안 제품에 대 한 권장 사항은 곧 제공 될 예정입니다. 권장 사항은 각 제품과 연결 된 모든 공격 표면을 다루지는 않지만 좋은 기준이 됩니다. 또한 개선 작업을 제 3 자에서 다룬 것으로 표시할 수도 있습니다.
 
 ## <a name="required-permissions"></a>필요한 사용 권한
 
@@ -66,7 +66,6 @@ Microsoft 보안 점수에 액세스할 수 있는 권한을 부여 하려면 Az
 * 보안 관리자
 * Exchange 관리자
 * SharePoint 관리자
-* 계정 관리자
 
 ### <a name="read-only-roles"></a>읽기 전용 역할
 
@@ -135,7 +134,7 @@ Microsoft 보안 점수에 의해 [점수 없음] 레이블이 지정 된 작업
 
 Microsoft 보안 점수는 시스템 구성, 사용자 동작 및 기타 보안 관련 측정값을 기반으로 한 보안 환경을 나타내는 수치 요약입니다. 시스템 또는 데이터를 얼마나 많이 침해 해야 하는지 절대 측정 한 것은 아닙니다. 대신 Microsoft 환경에서 보안 제어를 채택 하는 범위를 나타내므로 위반 위험을 상쇄 하는 데 도움이 될 수 있습니다. 보안 침해에의 한 온라인 서비스에는 전혀 문제가 되지 않으며 보안 점수가 보안상 침해에 대 한 보장으로 해석 되어서는 안 됩니다.
 
-## <a name="whats-new"></a>새로운 기능
+## <a name="whats-new"></a>어떠한 새로운 기능이 있나요?
 
 Microsoft 보안 점수를 보안 상태를 보다 효율적으로 구성 하려면 몇 가지 사항을 변경 해야 합니다. 계획 된 변경 사항에 대 한 자세한 내용은 [Microsoft 보안 점수에서](microsoft-secure-score-whats-coming.md) 제공 되는 기능을 참조 하세요.
 

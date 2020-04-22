@@ -1,5 +1,5 @@
 ---
-title: 수동으로 Office 365 for business 요금제 변경
+title: 수동으로 Microsoft 365 for business 요금제 변경
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -21,12 +21,12 @@ search.appverid:
 - BEA160
 ROBOTS: NOINDEX
 description: 새 구독을 구입 하 고 구독이 모두 나열 되 고 활성 상태가 되도록 하 여 수동으로 구독을 변경 합니다.
-ms.openlocfilehash: 80e10c3b24fa69ee5b1a6c89790260c2ac810588
-ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
+ms.openlocfilehash: 89786b30403a60bd0551351602d6fccc07f3d1a1
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43142154"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636586"
 ---
 # <a name="change-plans-manually"></a>수동으로 계획 변경
 
@@ -51,9 +51,9 @@ ms.locfileid: "43142154"
 
 또는
 
-**새 구독 및 라이선스를 구입 합니다.** 새 구독을 구입 하려면 [비즈니스용 Office 365 for business subscription](../buy-another-subscription.md) 의 단계를 수행 합니다.
+**새 구독 및 라이선스를 구입 합니다.** 새 구독을 구입 하려면 [비즈니스용 Microsoft 365 for business subscription](../buy-another-subscription.md) 의 단계를 수행 합니다.
 
-사용자가 현재 있는 동일한 조직에 대 한 구독을 구입 해야 합니다. 예를 들어 이동 하려는 Office 365 사용자의 전자 메일 주소를 확인 합니다. 전자 메일 주소에 contoso.com \@가 포함 된 경우 contoso.com에 대 한 새 구독을 구입 해야 합니다.
+사용자가 현재 있는 동일한 조직에 대 한 구독을 구입 해야 합니다. 예를 들어 이동 하려는 사용자의 전자 메일 주소를 확인 합니다. 전자 메일 주소에 contoso.com \@가 포함 된 경우 contoso.com에 대 한 새 구독을 구입 해야 합니다.
 이동 하려는 각 사용자에 대 한 라이선스를 포함 합니다.
 
 ## <a name="step-3-check-your-new-subscription-and-licenses"></a>3 단계: 새 구독 및 라이선스 확인
@@ -114,5 +114,4 @@ ms.locfileid: "43142154"
 일부 사용자만 다른 구독으로 이동한 경우 더 이상 필요 없는 [라이선스를 제거](../licenses/remove-licenses-from-subscription.md) 합니다.
 
 ## <a name="call-support-to-help-you-change-plans"></a>요금제를 변경 하는 데 도움이 되는 통화 지원
-
 [Microsoft 지원 서비스에 문의](../../admin/contact-support-for-business-products.md)

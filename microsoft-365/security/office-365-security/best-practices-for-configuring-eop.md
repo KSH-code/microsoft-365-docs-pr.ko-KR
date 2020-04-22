@@ -1,5 +1,5 @@
 ---
-title: EOP 및 Office 365 ATP 구성 모범 사례
+title: EOP 및 ATP 구성을 위한 모범 사례
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -12,14 +12,14 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: faf1efd1-3b0c-411a-804d-17f37292eac0
 description: 일반적인 구성 오류를 방지하고 구성 설정에 성공하려면 Exchange Online Protection EOP 모범 사례 권장 사항을 따르세요.
-ms.openlocfilehash: 9bddb736d41b4fd56790b8bbe9dbb00d07e75553
-ms.sourcegitcommit: 9ed3283dd6dd959faeca5c22613f9126261b9590
+ms.openlocfilehash: 69d069377a061c440c22b7a00dd43795597c50e9
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43528620"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43638539"
 ---
-# <a name="best-practices-for-configuring-eop-and-office-365-atp"></a>EOP 및 Office 365 ATP 구성 모범 사례
+# <a name="best-practices-for-configuring-eop-and-atp"></a>EOP 및 ATP 구성을 위한 모범 사례
 
 일반적인 구성 오류를 방지하고 구성 설정에 성공하려면 Exchange Online Protection EOP 모범 사례 권장 사항을 따르세요. 이 항목에서는 설정 프로세스를 이미 완료했다고 가정합니다. EOP 설정을 완료하지 않은 경우 [EOP 서비스 설정](set-up-your-eop-service.md)을 참조하세요.
 
@@ -41,7 +41,7 @@ ms.locfileid: "43528620"
 
 |보안 기능 이름|표준을|항등|Comment|
 |---------|---------|---------|---------|
-|[스푸핑을 방지할 수 있도록 Office 365에서 SPF 설정](set-up-spf-in-office-365-to-help-prevent-spoofing.md)|예|예||
+|[스푸핑을 방지 하기 위한 SPF 설정](set-up-spf-in-office-365-to-help-prevent-spoofing.md)|예|예||
 |[DKIM을 사용하여 Office 365의 사용자 지정 도메인에서 전송한 아웃바운드 전자 메일의 유효성 검사](use-dkim-to-validate-outbound-email.md)|예|예||
 |[DMARC를 사용하여 Office 365에서 전자 메일 유효성 검사](use-dmarc-to-validate-email.md)|예|예|Action = Standard에 대해 격리를 사용 하 고, action은 Strict에 대 한 작업을 거부 합니다.|
 |보고서 메시지 추가 기능을 배포 하 여 최종 사용자가 의심 스러운 전자 메일 보고 기능을 개선 합니다.|예|예||
@@ -63,7 +63,7 @@ ms.locfileid: "43528620"
 
 ## <a name="report-false-positive-and-false-negatives-to-microsoft"></a>Microsoft에 거짓 긍정 및 거짓 네거티브 보고
 
-모든 사용자에 대 한 서비스의 스팸 필터링을 향상 시키려면 가양성 (불량으로 표시 된 전자 메일)과 가양성 (잘못 된 전자 메일 허용)을 Microsoft에 분석용으로 보고 해야 합니다. 자세한 내용은 [메시지 및 파일을 Microsoft에 보고](report-junk-email-messages-to-microsoft.md)를 참조 하세요.
+모든 사용자에 대 한 서비스의 스팸 필터링을 향상 시키려면 가양성 (불량으로 표시 된 전자 메일)과 가양성 (잘못 된 전자 메일 허용)을 Microsoft에 분석용으로 보고 해야 합니다. 자세한 내용은 [Microsoft에 메시지와 파일 보고](report-junk-email-messages-to-microsoft.md)를 참조하세요.
 
 ## <a name="create-mail-flow-rules"></a>메일 흐름 규칙 만들기
 

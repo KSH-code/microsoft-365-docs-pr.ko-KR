@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Microsoft 365 for 캠페인을 통해 피싱 및 기타 공격 으로부터 보호 합니다.
-ms.openlocfilehash: 7cb09d0cadcc70b96c5f1404defa5d0387947ca8
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 0cd96cb73ad3d0b38ab1e5ff31c913d97528c2d4
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41594799"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632794"
 ---
 # <a name="protect-unmanaged-windows-10-pcs-and-macs"></a>관리 되지 않는 Windows 10 Pc 및 Mac 보호
 
@@ -38,16 +38,16 @@ Microsoft Intune에서 Windows 10 Pc 및 Mac을 등록 하 여 관리할 수 있
 
 1. You (or the admin) set up device and data protection policies in the [setup  wizard](../business/set-up.md).
 
-2. You have [connected your computer to Azure Active Directory](../business/set-up-windows-devices.md) and use your Microsoft 365 Business username and password to sign in.
+2. You have [connected your computer to Azure Active Directory](../business/set-up-windows-devices.md) and use your Microsoft 365 username and password to sign in.
 3. --> 
 
 ## <a name="protect-a-computer-running-windows-10-or-a-mac"></a>Windows 10 또는 Mac을 실행 하는 컴퓨터 보호
 
-<!--If you have a PC that is running Windows 10 that is not connected to Microsoft 365 Business, or a Mac, the Microsoft 365 Business protections do not apply to it, but here are some things you can do to keep your data secure on these devices as well:
+<!--If you have a PC that is running Windows 10 that is not connected to Microsoft 365, or a Mac, the Microsoft 365 protections do not apply to it, but here are some things you can do to keep your data secure on these devices as well:
 -->
 조직에서 Windows 10 PC 또는 Mac을 관리 하지 않는 경우 이러한 보안 기능을 구성 해야 합니다.
 
-## <a name="windows-10tabwindows10"></a>[Windows 10](#tab/Windows10)
+## <a name="windows-10"></a>[Windows 10](#tab/Windows10)
 **장치 암호화 켜기**<p>
 
 다양 한 범위의 Windows 장치에서 장치 암호화를 사용할 수 있으며 암호화를 통해 데이터를 보호할 수 있습니다. 장치 암호화를 켜면 승인 된 사용자만 장치 및 데이터에 액세스할 수 있게 됩니다. 자세한 내용은 [장치 암호화 설정을](https://support.microsoft.com/help/4028713/windows-10-turn-on-device-encryption) 참조 하세요.
@@ -65,7 +65,7 @@ Windows Update는 Windows 보안 업데이트를 자동으로 다운로드 하 �
 **Windows 방화벽 설정**<p>
 다른 방화벽이 설정 된 경우에도 항상 Windows 방화벽을 실행 해야 합니다. Windows 방화벽을 끄면 장치 (및 네트워크)가 무단으로 액세스 하는 데 더 취약 해질 수 있습니다. 지침은 [Windows 방화벽 켜기 또는 끄기](https://support.microsoft.com/help/4028544/windows-10-turn-windows-defender-firewall-on-or-off) 를 참조 하세요.
 
-## <a name="mactabmac"></a>[Mac](#tab/Mac)
+## <a name="mac"></a>[Mac](#tab/Mac)
 **FileVault을 사용 하 여 Mac 디스크 암호화**<p>
 디스크 암호화는 장치를 분실 하거나 도난당 한 경우 데이터를 보호 합니다. FileVault 전체 디스크 암호화는 시작 디스크의 정보에 대 한 무단 액세스를 방지 하는 데 도움이 됩니다. 지침은 [FileVault을 사용 하 여 Mac에서 시동 디스크 암호화를](https://support.apple.com/HT204837) 참조 하세요.
 

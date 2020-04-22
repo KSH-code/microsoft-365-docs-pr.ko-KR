@@ -16,23 +16,23 @@ ms.assetid: 6f64f2de-d626-48ed-8084-03cc72301aa4
 ms.collection:
 - M365-security-compliance
 description: EOP (Exchange Online Protection) 및 ATP (Advanced Threat Protection) 보안 설정에 대 한 모범 사례 표준 보호에 대 한 최신 권장 사항은 무엇 인가요? 보다 엄격한 기능을 사용 하려면 어떻게 해야 합니까? 또한 ATP (Advanced Threat Protection)를 사용 하는 경우에는 어떤 것을 얻게 됩니까?
-ms.openlocfilehash: 0d5d626da8f8bdcdc234f578145db0dfde2c06a5
-ms.sourcegitcommit: 0da80ba7b504841c502ab06fea659a985c06fe8f
+ms.openlocfilehash: 9755fccb482dc294da7a0747310776314c739139
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "43547611"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634415"
 ---
 # <a name="recommended-settings-for-eop-and-office-365-atp-security"></a>EOP 및 Office 365 ATP 보안에 대 한 권장 설정
 
-**EOP (Exchange Online Protection)** 는 Office 365 구독의 보안 핵심으로, 악의적인 전자 메일이 직원의 받은 편지함에 도달 하지 못하도록 합니다. 하지만 매일 보다 정교한 공격이 새로 등장 하면서도 향상 된 보호 기능은 대개 필요 합니다. **Office 365 ATP (Advanced Threat Protection)** ATP 계획 1 또는 ATP 계획 2에는 관리자가 더 많은 보안, 제어 및 조사 계층을 제공 하는 추가 기능이 포함 되어 있습니다.
+**EOP (Exchange Online Protection)** 는 Microsoft 365 구독의 보안 핵심으로, 악성 전자 메일이 직원의 받은 편지함에 도달 하지 못하도록 합니다. 하지만 매일 보다 정교한 공격이 새로 등장 하면서도 향상 된 보호 기능은 대개 필요 합니다. **Office 365 ATP (Advanced Threat Protection)** ATP 계획 1 또는 ATP 계획 2에는 관리자가 더 많은 보안, 제어 및 조사 계층을 제공 하는 추가 기능이 포함 되어 있습니다.
 
 보안 관리자는 보안 설정을 사용자 지정할 수 있도록 하지만 EOP 및 Office 365 ATP에는 **표준** 및 **Strict**의 두 가지 보안 수준이 권장 됩니다. 각 고객의 환경과 요구 사항은 서로 다르지만, 이러한 수준의 메일 필터링 구성은 대부분의 상황에서 원치 않는 메일이 직원의 받은 편지함에 도달 하지 못하도록 방지 하는 데 도움이 됩니다.
 
 > [!IMPORTANT]
 > 필터링이 제대로 작동 하려면 사서함에서 정크 메일 규칙을 사용 하도록 설정 해야 합니다. 이 기능은 기본적으로 사용 하도록 설정 되어 있지만 필터링이 작동 하지 않는 것 처럼 보이는 경우에는 확인 해야 합니다. 자세한 내용은 [Office 365에서 Exchange Online 사서함에 대한 정크 메일 설정 구성하기](configure-junk-email-settings-on-exo-mailboxes.md)를 참조하세요.
 
-이 항목에서는 Office 365 사용자를 보호 하기 위해 이러한 Microsoft 권장 설정에 대해 설명 합니다.
+이 항목에서는 사용자를 보호 하기 위해 이러한 Microsoft 권장 설정에 대해 설명 합니다.
 
 > [!TIP]
 > 이러한 설정 중 일부를 결정 하는 데 도움이 되는 Office 365 Advanced Threat Protection 권장 구성 분석기 (ORCA) 라는 새로운 PowerShell 모듈이 있습니다. 테 넌 트에서 관리자 권한으로 실행 하는 경우 ORCAReport는 스팸 방지, 피싱 및 기타 메시지 바이러스 설정에 대 한 평가를 생성 하는 데 도움이 됩니다. 이 모듈은에서 https://www.powershellgallery.com/packages/ORCA/다운로드할 수 있습니다.
@@ -117,7 +117,7 @@ ms.locfileid: "43547611"
 | 보안 기능 이름 | 표준을 | 항등 | Comment |
 |---|---|---|---|
 |**스푸핑 방지 보호 사용** <br/><br/> _EnableAntispoofEnforcement_|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`||
-|**인증 되지 않은 보낸 사람 사용** <br/><br/> _EnableUnauthenticatedSender_|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`|알 수 없는 스푸핑된 보낸 사람에 대 한 Outlook의 보낸 사람 사진에 물음표 (?)를 추가 합니다. 자세한 내용은 [피싱 방지 정책에서 스푸핑 설정을](set-up-anti-phishing-policies.md#spoof-settings)참조 하십시오.|
+|**인증 되지 않은 보낸 사람 사용** <br/><br/> _EnableUnauthenticatedSender_|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`|알 수 없는 스푸핑된 보낸 사람에 대 한 Outlook의 보낸 사람 사진에 물음표 (?)를 추가 합니다. 자세한 내용은 [피싱 방지 정책에서 스푸핑 설정을](set-up-anti-phishing-policies.md)참조 하십시오.|
 |**도메인을 스푸핑할 수 없는 사용자가 전자 메일을 보낸 경우** <br/><br/> _AuthenticationFailAction_|**받는 사람의 정크 메일 폴더로 메시지 이동** <br/><br/> `MoveToJmf`|**메시지 격리** <br/><br/> `Quarantine`|이 정보는 [스푸핑 인텔리전스](learn-about-spoof-intelligence.md)에서 수신 거부에 적용 됩니다.|
 
 ## <a name="office-365-advanced-threat-protection-security"></a>Office 365 Advanced Threat Protection 보안
@@ -181,7 +181,7 @@ EOP 고객은 앞에서 설명한 것 처럼 기본 피싱 방지를 제공 하�
 | 보안 기능 이름 | 표준을 | 항등 | Comment |
 |---|---|---|---|
 |**스푸핑 방지 보호 사용** <br/><br/> _EnableAntispoofEnforcement_|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`||
-|**인증 되지 않은 보낸 사람 사용** <br/><br/> _EnableUnauthenticatedSender_|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`|알 수 없는 스푸핑된 보낸 사람에 대 한 Outlook의 보낸 사람 사진에 물음표 (?)를 추가 합니다. 자세한 내용은 [피싱 방지 정책에서 스푸핑 설정을](set-up-anti-phishing-policies.md#spoof-settings)참조 하십시오.|
+|**인증 되지 않은 보낸 사람 사용** <br/><br/> _EnableUnauthenticatedSender_|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`|알 수 없는 스푸핑된 보낸 사람에 대 한 Outlook의 보낸 사람 사진에 물음표 (?)를 추가 합니다. 자세한 내용은 [피싱 방지 정책에서 스푸핑 설정을](set-up-anti-phishing-policies.md)참조 하십시오.|
 |**도메인을 스푸핑할 수 없는 사용자가 전자 메일을 보낸 경우** <br/><br/> _AuthenticationFailAction_|**받는 사람의 정크 메일 폴더로 메시지 이동** <br/><br/> `MoveToJmf`|**메시지 격리** <br/><br/> `Quarantine`|이 정보는 [스푸핑 인텔리전스](learn-about-spoof-intelligence.md)에서 수신 거부에 적용 됩니다.|
 
 #### <a name="advanced-settings-in-atp-anti-phishing-policies"></a>ATP 피싱 방지 정책의 고급 설정
@@ -215,7 +215,7 @@ EOP 고객은 앞에서 설명한 것 처럼 기본 피싱 방지를 제공 하�
 
 - **Exchange 메일 흐름/Exchange 전송 규칙**에 대 한 모범 사례를 찾으십니까? 자세한 내용은 [이 문서](https://docs.microsoft.com/microsoft-365/security/office-365-security/best-practices-for-configuring-eop) 를 참조 하세요.
 
-- 관리자 및 사용자는 가양성 (잘못 된 것으로 표시 된 좋은 전자 메일)과 거짓 네거티브 (잘못 된 전자 메일 허용)를 분석을 위해 Microsoft에 제출할 수 있습니다. 자세한 내용은 [메시지 및 파일을 Microsoft에 보고](report-junk-email-messages-to-microsoft.md)를 참조 하세요.
+- 관리자 및 사용자는 가양성 (잘못 된 것으로 표시 된 좋은 전자 메일)과 거짓 네거티브 (잘못 된 전자 메일 허용)를 분석을 위해 Microsoft에 제출할 수 있습니다. 자세한 내용은 [Microsoft에 메시지와 파일 보고](report-junk-email-messages-to-microsoft.md)를 참조하세요.
 
 - [EOP 서비스](https://docs.microsoft.com/microsoft-365/security/office-365-security/set-up-your-eop-service)를 **설정** 하는 방법에 대 한 정보를 보려면 다음 링크를 사용 하 고, [Office 365 Advanced Threat Protection](https://docs.microsoft.com/microsoft-365/security/office-365-security/office-365-atp)을 **구성** 합니다. ('[Office 365의 위협 으로부터 보호](https://docs.microsoft.com/microsoft-365/security/office-365-security/protect-against-threats)하는 방법에 대 한 유용한 지침은 참조 하세요.)
 

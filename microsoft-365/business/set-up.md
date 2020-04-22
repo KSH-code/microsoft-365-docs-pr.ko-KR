@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 Business 설정
+title: Microsoft 365 Business Premium 설정
 f1.keywords:
 - NOCSH
 ms.author: sirkkuw
@@ -28,17 +28,17 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
-description: 도메인 및 사용자 추가, 보안 정책 설정 등 Microsoft 365 Business의 설치 단계를 알아봅니다.
-ms.openlocfilehash: 99994b6f1e9e817b4858aeafe4ce3ceaaf4c3c37
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+description: 도메인 및 사용자 추가, 보안 정책 설정 등 Microsoft 365 Business Premium의 설치 단계를 알아봅니다.
+ms.openlocfilehash: a34ede0002e7e78c5dc437c663fe527cf94e46c5
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42633876"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635763"
 ---
-# <a name="set-up-microsoft-365-business-in-the-setup-wizard"></a>설치 마법사에서 Microsoft 365 Business 설정
+# <a name="set-up-microsoft-365-business-premium-in-the-setup-wizard"></a>설치 마법사에서 Microsoft 365 Business Premium 설정
 
-이 비디오에서 Microsoft 365 Business setup의 개요를 확인 하세요.<br><br>
+이 비디오에서 Microsoft 365 Business Premium 설치에 대 한 개요를 시청 하세요.<br><br>
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE1FYSM] 
 
@@ -48,7 +48,7 @@ ms.locfileid: "42633876"
 
 [![관리 센터가 변경되고 있음을 알리는 레이블이며 aka.ms/aboutM365preview에서 자세한 내용을 확인할 수 있습니다.](../media/m365admincenterchanging.png)](https://docs.microsoft.com/office365/admin/microsoft-365-admin-center-preview)
 
-Microsoft 365 Business를 구매 하는 경우 소유 하 고 있는 도메인을 사용 하거나 [등록](sign-up.md)중에 하나를 구입 하는 옵션이 있습니다.
+Microsoft 365 Business Premium을 구입 하는 경우 소유 하 고 있는 도메인을 사용 하거나 [등록](sign-up.md)중에 하나를 구입 하는 옵션이 있습니다.
 
 - 등록할 때 새 도메인을 구매한 경우 도메인은 모두 설정 되며 이동 하 여 [사용자를 추가 하 고 라이선스를 할당할](#add-users-and-assign-licenses)수 있습니다.
 
@@ -82,11 +82,11 @@ Microsoft 365 Business를 구매 하는 경우 소유 하 고 있는 도메인�
 
 #### <a name="add-users-in-the-wizard"></a>마법사에서 사용자 추가
 
-마법사에서 추가 하는 모든 사용자는 Microsoft 365 비즈니스 라이선스를 자동으로 할당 받습니다.
+마법사에서 추가 하는 모든 사용자는 Microsoft 365 Business Premium 라이선스를 자동으로 할당 받습니다.
 
 ![마법사의 새 사용자 추가 페이지 스크린샷](../media/addnewuserspage.png)
 
-1. Microsoft 365 비즈니스 구독에 기존 사용자가 있는 경우 (예: Azure AD Connect를 사용한 경우) 지금 라이선스를 할당 하는 옵션이 제공 됩니다. 해당 사용자에게도 라이선스를 추가합니다.
+1. Microsoft 365 Business Premium 구독에 기존 사용자가 있는 경우 (예: Azure AD Connect를 사용한 경우) 지금 라이선스를 할당 하는 옵션이 제공 됩니다. 해당 사용자에게도 라이선스를 추가합니다.
 
 2. 사용자를 추가한 후에는 추가한 새 사용자와 자격 증명을 공유 하는 옵션도 제공 됩니다. 자격 증명을 인쇄, 전자 메일로 전송 또는 다운로드할 수 있습니다.
 
@@ -130,10 +130,10 @@ Microsoft 365 Business를 구매 하는 경우 소유 하 고 있는 도메인�
 
 설치 중에 Office 앱을 자동으로 설치 하도록 선택한 경우 앱은 사용자가 자신의 Windows 장치에서 Azure AD에 로그인 한 후 회사 자격 증명을 사용 하 여 Windows 10 장치에 설치 됩니다.
 
-모바일 iOS 또는 Android 장치에 Office를 설치 하려면 [Set up 모바일 장치 For Microsoft 365 Business users](set-up-mobile-devices.md)를 참조 하세요.
+모바일 iOS 또는 Android 장치에 Office를 설치 하려면 [Set up 모바일 장치 For Microsoft 365 Business Premium users](set-up-mobile-devices.md)를 참조 하세요.
 
 Office를 개별적으로 설치할 수도 있습니다. 자세한 내용은 [PC 또는 Mac에 Office 설치](https://support.office.com/article/4414eaaf-0478-48be-9c42-23adc4716658) 를 참조 하세요.
 
 ## <a name="see-also"></a>참고 항목
 
-[Microsoft 365 Business 교육 비디오](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Microsoft 365 for business 교육용 비디오](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

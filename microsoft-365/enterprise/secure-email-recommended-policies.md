@@ -16,12 +16,12 @@ ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
 - remotework
-ms.openlocfilehash: d04070bfcec0649c5c4a1a79c082f5c5b43ad5eb
-ms.sourcegitcommit: a7b2cd892cb65a61ee246268e1af2f8b9e526f6b
+ms.openlocfilehash: 24cf0f9b4965b20f3a03dd64795985a082fdc847
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43081295"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631408"
 ---
 # <a name="policy-recommendations-for-securing-email"></a>메일을 보호하기 위한 정책 권장 사항
 
@@ -57,9 +57,9 @@ ms.locfileid: "43081295"
 
 1. 시나리오 1의 "2 단계: ActiveSync를 사용 하 여 Azure AD 조건부 액세스 정책 구성 (EAS)" [: Office 365 앱은 앱 보호 정책과 함께 승인 된 앱이 필요](https://docs.microsoft.com/azure/active-directory/conditional-access/app-protection-based-conditional-access#scenario-1-office-365-apps-require-approved-apps-with-app-protection-policies)하므로 기본 인증을 사용 하는 exchange ActiveSync 클라이언트에서 exchange Online에 연결할 수 없습니다.
 
-## <a name="setup-office-365-message-encryption"></a>Office 365 메시지 암호화 설정
+## <a name="set-up-message-encryption"></a>메시지 암호화 설정
 
-Azure Information Protection의 보호 기능을 활용 하는 새로운 Office 365 메시지 암호화 (OME) 기능을 사용 하면 조직에서 모든 장치에 있는 모든 사용자와 보호 된 전자 메일을 쉽게 공유할 수 있습니다. 사용자는 Outlook.com, Gmail 및 기타 전자 메일 서비스를 사용 하는 Office 365 이외의 다른 Office 365 조직과 보호 된 메시지를 주고 받을 수 있습니다.
+Azure Information Protection의 보호 기능을 활용 하는 새로운 Office 365 메시지 암호화 (OME) 기능을 사용 하면 조직에서 모든 장치에 있는 모든 사용자와 보호 된 전자 메일을 쉽게 공유할 수 있습니다. 사용자는 Outlook.com, Gmail 및 기타 전자 메일 서비스를 사용 하는 고객 뿐만 아니라 다른 Microsoft 365 조직과의 보호 된 메시지를 주고 받을 수 있습니다.
 
 자세한 내용은 [Set Up Office 365 Message Encryption capabilities](https://support.office.com/article/set-up-new-office-365-message-encryption-capabilities-7ff0c040-b25c-4378-9904-b1b50210d00e)를 참조 하십시오.
 

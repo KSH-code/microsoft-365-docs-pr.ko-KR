@@ -1,5 +1,5 @@
 ---
-title: Office 365 ATP 안전한 링크 경고 페이지
+title: ATP 안전한 링크 경고 페이지
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -16,17 +16,17 @@ ms.assetid: fc4e6ebb-5acc-4bc5-bad8-4f3407d1d3f4
 ms.collection:
 - M365-security-compliance
 description: Office 365 Advanced Threat Protection이 작동 중일 때 나타날 수 있는 경고 페이지에 대 한 개요를 가져옵니다.
-ms.openlocfilehash: b784af4740a8379c7879935cdbf301da0cbff930
-ms.sourcegitcommit: 9ed3283dd6dd959faeca5c22613f9126261b9590
+ms.openlocfilehash: f061d4a35b1c77721464fe2cc5ac4a85ca4bd16e
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43528860"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635989"
 ---
-# <a name="office-365-atp-safe-links-warning-pages"></a>Office 365 ATP 안전한 링크 경고 페이지
+# <a name="atp-safe-links-warning-pages"></a>ATP 안전한 링크 경고 페이지
 
 > [!IMPORTANT]
-> 이 문서는 [Office 365 Advanced Threat Protection](office-365-atp.md)이 있는 비즈니스 고객을 대상으로 합니다. Outlook.com, Office 365 Home 또는 Office 365 Personal을 사용하고 있고 Outlook의 안전한 링크에 대한 정보를 찾고 있다면 [고급 Outlook.com 보안](https://support.office.com/article/882d2243-eab9-4545-a58a-b36fee4a46e2)을 참조하세요.
+> 이 문서는 [Office 365 Advanced Threat Protection](office-365-atp.md)이 있는 비즈니스 고객을 대상으로 합니다. Outlook.com, Microsoft 365 제품군 또는 Microsoft 365 Personal을 사용 하 고 있으며 Outlook의 안전한 링크에 대 한 정보를 찾으려면 [Advanced Outlook.com security](https://support.office.com/article/882d2243-eab9-4545-a58a-b36fee4a46e2)를 참조 하세요.
 
 [Office 365 atp (Advanced Threat Protection](office-365-atp.md) )는 [atp 안전한 링크](atp-safe-links.md), [atp 안전한 첨부 파일](atp-safe-attachments.md), [피싱 방지 보호](anti-phishing-protection.md)등의 기능을 통해 피싱 시도 및 맬웨어 로부터 조직을 보호 하는 데 도움이 됩니다. 보호가 마련 되 면 전자 메일 메시지 및 Office 문서의 링크 (Url)가 확인 됩니다. 의심 스러운 또는 악성으로 식별 된 URL은 클릭 하면 URL을 열 수 없습니다. 대신 사이트로 직접 이동 하는 대신 경고 페이지가 표시 될 수 있습니다.
 
@@ -60,7 +60,7 @@ URL이 악성으로 식별 된 사이트를 가리킵니다.  <br/> 해당 사�
 
 ### <a name="a-site-is-blocked"></a>사이트가 차단 됨
 
-조직에 대 한 URL이 차단 됩니다. URL이 차단 되는 이유에는 여러 가지가 있습니다. 조직의 Office 365 관리자에 게 문의 하는 것이 좋습니다.
+조직에 대 한 URL이 차단 됩니다. URL이 차단 되는 이유에는 여러 가지가 있습니다. 조직의 Microsoft 365에 대해 비즈니스 관리자에 게 문의 하는 것이 좋습니다.
 
 ![이 사이트는 차단 됨](../../media/6b4bda2d-a1e6-419e-8b10-588e83c3af3f.png)
 

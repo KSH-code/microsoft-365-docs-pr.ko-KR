@@ -12,19 +12,19 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 599b8048-1056-457b-aae4-c063138fd319
 description: 다음 표에는 EOP(Exchange 온라인 보호) 호스팅 전자 메일 필터링 서비스에서 사용할 수 있는 기능 목록이 나와 있습니다.
-ms.openlocfilehash: 1bab584c62114c74c0eb4d9937acef4f17b89073
-ms.sourcegitcommit: a7b2cd892cb65a61ee246268e1af2f8b9e526f6b
+ms.openlocfilehash: f69b1772a6eddb6cb85441e52c470cf0bb506a3a
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43081451"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43638431"
 ---
 # <a name="eop-features"></a>EOP 기능
 
 다음 표에는 EOP(Exchange 온라인 보호) 호스팅 전자 메일 필터링 서비스에서 사용할 수 있는 기능 목록이 나와 있습니다.
 
 > [!TIP]
-> [업무용 Office 365 로드맵](https://www.microsoft.com/microsoft-365/roadmap?filters=O365)에서는 예정된 새로운 기능에 대한 정보를 제공합니다. 여러 EOP 구독 계획에서 사용할 수 있는 기능에 대한 폭넓은 정보는 [Exchange 온라인 보호 서비스 설명](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)에서 확인할 수 있습니다.
+> [Microsoft 365 for business 로드맵](https://www.microsoft.com/microsoft-365/roadmap?filters=O365) 은 예정 된 새로운 기능에 대 한 정보를 확인할 수 있는 좋은 리소스입니다. 여러 EOP 구독 계획에서 사용할 수 있는 기능에 대한 폭넓은 정보는 [Exchange 온라인 보호 서비스 설명](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-protection-service-description/exchange-online-protection-service-description)에서 확인할 수 있습니다.
 
 |||
 |---|---|
@@ -43,7 +43,7 @@ ms.locfileid: "43081451"
 |적극적인 스팸 필터링에 대한 고급 옵션을 구성하는 기능|자세한 내용은 [configure 스팸 방지 정책 구성](configure-your-spam-filter-policies.md) (여기서는 office 365) 및 [Office 365의 고급 스팸 필터 (ASF) 설정](advanced-spam-filtering-asf-options.md) (각 옵션의 기능에 대 한 구체적인 세부 정보 제공)을 참조 하세요.|
 |다국어 스팸 필터링|특정 언어로 작성되었거나 특정 국가 또는 지역에서 보낸 메시지를 필터링하도록 EOP를 구성할 수 있습니다. 최대 86개 언어와 250개 지역을 구성할 수 있습니다. 서비스에서는 높은 스팸 지수에 대해 구성된 작업을 적용합니다. 자세한 내용은 [Office 365의 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)를 참조하세요.|
 |Outlook 또는 웹용 Outlook을 통한 스팸 관리 (이전의 Outlook Web App)|관리자 및 최종 사용자가 안전한 보낸 사람 목록 및 차단된 보낸 사람 목록을 만들 수 있습니다. 자세한 내용은 다음을 참조하세요. <br/>* **웹용 Outlook**: [차단 또는 허용 (정크 메일 설정)](https://support.office.com/article/48c9f6f7-2309-4f95-9a4d-de987e880e46)을 참조 하세요.  <br/>* **Outlook**: [정크 메일 필터 개요](https://support.office.com/article/5ae3ea8e-cf41-4fa0-b02a-3b96e21de089)를 참조 하세요. <br/><br/> EOP을 사용 하 여 온-프레미스 사서함을 보호 하는 경우 이러한 설정이 서비스와 동기화 되도록 디렉터리 동기화를 사용 해야 합니다. 디렉터리 동기화 설정에 대한 자세한 내용은 [EOP에서 메일 사용자 관리](manage-mail-users-in-eop.md)에서 "디렉터리 동기화를 사용하여 메일 사용자 관리"를 참조하세요.|
-|허위 긍정 (잘못 된 것으로 표시 된 전자 메일)과 Microsoft에 거짓 네거티브 (잘못 된 전자 메일 허용) 보고|자세한 내용은 [메시지 및 파일을 Microsoft에 보고](report-junk-email-messages-to-microsoft.md)를 참조 하세요.|
+|허위 긍정 (잘못 된 것으로 표시 된 전자 메일)과 Microsoft에 거짓 네거티브 (잘못 된 전자 메일 허용) 보고|자세한 내용은 [Microsoft에 메시지와 파일 보고](report-junk-email-messages-to-microsoft.md)를 참조하세요.|
 |최종 사용자 스팸 격리 알림|자세한 내용은 [Office 365의 최종 사용자 스팸 알림과](use-spam-notifications-to-release-and-report-quarantined-messages.md) [최종 사용자 스팸 알림 구성을](configure-your-spam-filter-policies.md#configure-end-user-spam-notifications)참조 하십시오.|
 |웹 페이지를 통해 격리의 메시지 보기, 찾기 및 관리|이 기능은 최종 사용자 및 관리자가 사용할 수 있습니다. 자세한 내용은 [Office 365에서 격리 된 메시지 및 파일 관리를 관리자 권한으로](manage-quarantined-messages-and-files.md) 확인 하거나, [사용자로 격리 된 메시지를 찾아 릴리스](find-and-release-quarantined-messages-as-a-user.md)를 참조 하세요.|
 |스팸 격리 된 메시지 헤더 보기|격리에서 메시지 헤더를 확인 한 후 메시지 [헤더 분석기](https://mha.azurewebsites.net/) 에 머리글 텍스트를 복사 하 여 메시지에 발생 한 상황에 대 한 정보를 볼 수도 있습니다.|
@@ -59,7 +59,7 @@ ms.locfileid: "43081451"
 |조건부 메일 라우팅|자세한 내용은 [Scenario: 조건부 메일 routing In Exchange Online](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/conditional-mail-routing)를 참조 하세요.|
 |편의적 또는 강제 TLS|커넥터에서 oplocks 또는 강제 TLS를 사용할 수 있습니다. Oplocks tls는 tls 연결을 시도 하지만 TLS 연결이 실패 하면 SMTP 연결을 사용 합니다. Tls 연결을 강제 적용 하면 tls 연결이 실패 하는 경우 메시지가 거부 된다는 것을 의미 합니다. TLS, 보안 및 커넥터에 대한 자세한 내용은 [Set up connectors for secure mail flow with a partner organization](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/set-up-connectors-for-secure-mail-flow-with-a-partner)을 참조하세요.|
 |국가별 라우팅(메일 흐름이 특정 지역으로 제한)|자세한 내용은 [Exchange Online Protection 개요](exchange-online-protection-overview.md)에서 "EOP 데이터 센터" 섹션을 참조하세요.|
-|SMTP 연결 검사기 도구|이 도구를 사용 하 여 메일 흐름을 테스트 하는 방법에 대 한 자세한 내용은 [Office 365 커넥터를 확인 하 여 메일 흐름 테스트](https://docs.microsoft.com/exchange/mail-flow-best-practices/test-mail-flow)를 참조 하세요.|
+|SMTP 연결 검사기 도구|이 도구를 사용 하 여 메일 흐름을 테스트 하는 방법에 대 한 자세한 내용은 [Microsoft 365 커넥터를 확인 하 여 메일 흐름 테스트](https://docs.microsoft.com/exchange/mail-flow-best-practices/test-mail-flow)를 참조 하세요.|
 |하위 도메인 일치|허용 도메인의 하위 도메인에서 메일 흐름을 사용 하도록 설정 하는 방법에 대 한 자세한 내용은 [EOP에서 메일 흐름](mail-flow-in-eop.md)을 참조 하십시오.|
 |**메일 흐름 규칙**||
 |정책 기반 필터링 및 작업|사용자 지정 정책은 Exchange 메일 흐름 규칙을 기반으로 합니다. 도메인, 키워드, 파일 이름, 파일 형식, 제목 줄, 메시지 본문, 보낸 사람, 받는 사람, 헤더 및 IP 주소별로 필터링할 수 있습니다. 자세한 내용은 [Exchange Online Protection의 메일 흐름 규칙 (전송 규칙)](mail-flow-rules-transport-rules-0.md)을 참조 하세요.|
@@ -76,11 +76,11 @@ ms.locfileid: "43081451"
 |**관리**||
 |웹 기반 관리|EOP 관리자는 60개 언어로 지원되는 EAC(Exchange 관리 센터) 인터페이스를 통해 서비스를 관리할 수 있습니다. 자세한 내용은 [Exchange admin center in Exchange Online Protection](exchange-admin-center-in-exchange-online-protection-eop.md)를 참조하세요.|
 |디렉터리 동기화|디렉터리 동기화는 Azure Active Directory 동기화 도구를 통해 사용할 수 있습니다. 자세한 내용은 [EOP에서 메일 사용자 관리](manage-mail-users-in-eop.md)에서 "디렉터리 동기화를 사용하여 메일 사용자 관리" 섹션을 참조하세요.  |
-|DBEB(디렉터리 기반 Edge 차단)|DBEB 기능을 통해 서비스 네트워크 주변에서 잘못된 받는 사람에 대한 메시지를 거부할 수 있습니다. DBEB를 사용하면 메일 사용이 가능한 받는 사람을 Office 365에 추가하고 Office 365에 존재하지 않는 전자 메일로 전송되는 모든 메시지를 차단할 수 있습니다. DBEB를 구성 하는 방법에 대 한 자세한 내용은 [Use Directory 기반 Edge 블로킹을 통해 잘못 된 받는 사람에 게 보낸 메시지를 거부](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-directory-based-edge-blocking)를 참조 하세요.|
+|DBEB(디렉터리 기반 Edge 차단)|DBEB 기능을 통해 서비스 네트워크 주변에서 잘못된 받는 사람에 대한 메시지를 거부할 수 있습니다. 관리자는 DBEB를 사용 하 여 microsoft 365에 메일 사용이 가능한 받는 사람을 추가 하 고 Microsoft 365에는 없는 전자 메일 주소로 전송 된 모든 메시지를 차단할 수 있습니다. DBEB를 구성 하는 방법에 대 한 자세한 내용은 [Use Directory 기반 Edge 블로킹을 통해 잘못 된 받는 사람에 게 보낸 메시지를 거부](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-directory-based-edge-blocking)를 참조 하세요.|
 |원격 Windows PowerShell 액세스|전체 EOP 기능을 원격 Windows PowerShell을 통해 사용할 수 있습니다. 자세한 내용은 [Exchange Online Protection PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-eop/exchange-online-protection-powershell)을 참조 하세요.|
 |**보고 및 로깅**||
 |메시지 추적|메시지 추적 기능을 사용 하면 관리자가 서비스를 통과 하는 전자 메일 메시지를 팔 로우 할 수 있습니다. 이를 통해 대상이 지정 된 전자 메일 메시지의 수신, 거부, 지연 또는 서비스에 의해 전달 되었는지 여부를 확인할 수 있습니다. 이를 통해 사용자의 질문에 효과적으로 응답 하 고 메일 흐름 문제를 해결 하 고 정책 변경을 확인 하 고 기술 지원 서비스에 문의 하 여 도움을 받을 수 있습니다. 자세한 내용은 [전자 메일 메시지 추적](https://docs.microsoft.com/exchange/monitoring/trace-an-email-message/trace-an-email-message)을 참조 하세요.|
-|웹 기반 보고서|Microsoft 365 관리 센터의 메일 보호 보고서는 메시징 데이터를 제공 합니다. 예를 들어 검색 되는 스팸 및 맬웨어가 얼마나 되는지, 메일 흐름 규칙이 일치 하는 빈도를 모니터링할 수 있습니다. 이러한 대화형 보고서를 사용하여 최대 90일 이전의 요약 데이터에 대한 시각적 보고서를 빠르게 보고 개별 메시지의 세부 정보를 드릴다운할 수 있습니다. 자세한 내용은 [Use mail protection reports in Office 365 to view data about malware, spam, and rule detections](https://docs.microsoft.com/exchange/monitoring/use-mail-protection-reports)를 참조하세요.|
+|웹 기반 보고서|Microsoft 365 관리 센터의 메일 보호 보고서는 메시징 데이터를 제공 합니다. 예를 들어 검색 되는 스팸 및 맬웨어가 얼마나 되는지, 메일 흐름 규칙이 일치 하는 빈도를 모니터링할 수 있습니다. 이러한 대화형 보고서를 사용하여 최대 90일 이전의 요약 데이터에 대한 시각적 보고서를 빠르게 보고 개별 메시지의 세부 정보를 드릴다운할 수 있습니다. 자세한 내용은 [메일 보호 보고서를 사용 하 여 맬웨어, 스팸 및 규칙 감지에 대 한 데이터 보기](https://docs.microsoft.com/exchange/monitoring/use-mail-protection-reports)를 참조 하세요.|
 |감사 로깅|EOP 관리에 관리자 역할 그룹 보고서 및 관리자 감사 로그를 사용할 수 있습니다. 자세한 내용은 [EOP의 감사 보고서](auditing-reports-in-eop.md)를 참조하세요.  |
 |**SLA(서비스 수준 계약) 및 지원**||
 |스팸 유효성 SLA|\>99%|

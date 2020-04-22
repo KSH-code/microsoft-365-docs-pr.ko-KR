@@ -11,18 +11,18 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: ''
 description: 관리자는 보안 & 준수 센터의 메일 흐름 대시보드에서 허용 되지 않는 도메인 보고서에 대 한 정보를 확인할 수 있습니다.
-ms.openlocfilehash: 4b4573d6a43c811e919f3f5c6f281c8f31e61d6a
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 64bf572db90b44512ca72aec5733a99373d8f53f
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42088481"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635283"
 ---
 # <a name="non-accepted-domain-report"></a>비허용 도메인 보고서
 
-**보낸 사람 도메인** 통찰력과 마찬가지로, **허용 되지 않는 도메인** 통찰력은 온-프레미스 전자 메일 조직의 메시지를 식별 하지만 보낸 사람의 도메인이 Office 365 조직에서 허용 도메인으로 구성 되지 않습니다.
+**보낸 사람 도메인** 통찰력과 마찬가지로, **허용 되지 않는 도메인** 통찰력은 온-프레미스 전자 메일 조직의 메시지를 식별 하지만 보낸 사람의 도메인이 조직에서 허용 도메인으로 구성 되지 않습니다.
 
-이러한 메시지가 악성 임을 증명 하는 데이터가 있는 경우 Office 365에서 이러한 메시지를 제한할 수 있습니다. 따라서 문제를 파악 하 고 해결 하는 것이 중요 합니다.
+이러한 메시지가 악성 임을 증명 하는 데이터가 있는 경우 Microsoft 365에서 이러한 메시지를 제한할 수 있습니다. 따라서 문제를 파악 하 고 해결 하는 것이 중요 합니다.
 
 ![보안 & 준수 센터의 메일 흐름 대시보드에 허용 되지 않는 도메인 보고서가 있습니다.](../../media/non-accepted-domain-report-selected.png)
 

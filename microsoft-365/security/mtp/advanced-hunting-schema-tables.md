@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: 0b28cf2ce96e4c040fac0999d669623cef066fe4
-ms.sourcegitcommit: 3b2fdf159d7dd962493a3838e3cf0cf429ee2bf2
+ms.openlocfilehash: 93da55287c3b7d7498a9c25f4deeb2615da81675
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42929495"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43633498"
 ---
 # <a name="understand-the-advanced-hunting-schema"></a>고급 헌팅 스키마 이해
 
@@ -42,9 +42,9 @@ ms.locfileid: "42929495"
 | **[AlertInfo](advanced-hunting-alertinfo-table.md)** | 심각도 정보 및 위협 분류를 포함 하 여 Microsoft Defender ATP, Office 365 ATP, Microsoft Cloud App Security 및 Azure ATP의 알림  |
 | **[AlertEvidence](advanced-hunting-alertevidence-table.md)** | 알림과 연결 된 파일, IP 주소, Url, 사용자 또는 장치 |
 | **[AccountInfo](advanced-hunting-accountinfo-table.md)** | Azure Active Directory를 비롯 한 다양 한 원본의 계정 정보 |
-| **[EmailEvents](advanced-hunting-emailevents-table.md)** | 전자 메일 배달과 차단 이벤트를 포함한 Office 365 전자 메일 이벤트 |
-| **[EmailAttachmentInfo](advanced-hunting-emailattachmentinfo-table.md)** | Office 365 전자 메일에 첨부된 파일에 대한 정보 |
-| **[EmailUrlInfo](advanced-hunting-emailurlinfo-table.md)** | Office 365 전자 메일의 URL에 대한 정보 |
+| **[EmailEvents](advanced-hunting-emailevents-table.md)** | 전자 메일 배달 및 차단 이벤트를 비롯 한 Microsoft 365 전자 메일 이벤트 |
+| **[EmailAttachmentInfo](advanced-hunting-emailattachmentinfo-table.md)** | 전자 메일에 첨부 된 파일에 대 한 정보 |
+| **[EmailUrlInfo](advanced-hunting-emailurlinfo-table.md)** | Microsoft 365 전자 메일의 Url에 대 한 정보 |
 | **[DeviceInfo](advanced-hunting-deviceinfo-table.md)** | 컴퓨터 정보(OS 정보 포함) |
 | **[DeviceNetworkInfo](advanced-hunting-devicenetworkinfo-table.md)** | 연결된 네트워크 및 도메인뿐만 아니라 어댑터, IP 및 MAC 주소를 비롯한 컴퓨터의 네트워크 속성 |
 | **[DeviceProcessEvents](advanced-hunting-deviceprocessevents-table.md)** | 프로세스 생성 및 관련 이벤트 |

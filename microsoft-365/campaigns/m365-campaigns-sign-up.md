@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 ms.assetid: 5abfef7b-5957-484a-b06b-a7c55e013e44
 description: 캠페인에 대 한 Microsoft 365에 대 한 단계별 등록입니다. Cybersecurity 위협 으로부터 전자 메일, 데이터 및 통신으로 캠페인을 보호 합니다.
-ms.openlocfilehash: 604e0be01c3824ed63361bb7fc9e694787ae83ef
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: 34d5b3103666b9cead1c2dfc09400a9eca5e3e40
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42633736"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632782"
 ---
 # <a name="sign-up-for-microsoft-365-for-campaigns"></a>캠페인에 대 한 Microsoft 365 등록 
 
@@ -46,7 +46,7 @@ ms.locfileid: "42633736"
 
 1. 캠페인 전자 메일에 대 한 Microsoft 365 초대에서 **조직 등록 >** 를 선택 합니다. 그러면 Microsoft 365 등록을 수행 하는 데 도움이 됩니다.
     > [!NOTE]
-    > 기존 Office 365 for business 구독이 이미 있고 캠페인 행사에 Microsoft 365을 추가 하려는 경우에는 [캠페인에 대 한 microsoft 365을 기존 구독으로](#steps-to-add-microsoft-365-for-campaigns-to-an-existing-subscription)이동 하 여 추가 합니다.
+    > 기존 Microsoft 365 비즈니스 구독을 이미 갖고 있고 캠페인 행사에 Microsoft 365을 추가 하려는 경우 [캠페인에 대 한 microsoft 365을 기존 구독으로](#steps-to-add-microsoft-365-for-campaigns-to-an-existing-subscription)이동 하 여 추가 합니다.
 1. **Microsoft 365 business 페이지에서**비즈니스 세부 정보를 입력 합니다. **업무용 전자 메일 주소**에 대해 현재 전자 메일 주소를 사용 합니다. 이 주소는 설치 프로세스 동안 계속 해 서 연락을 받아야 합니다. **다음**을 선택합니다.
 1. **사용자 ID 만들기 페이지에서 다음을 수행 합니다**.
     1. **사용자 이름**에 전자 메일 주소에 사용할 이름 또는 별칭을 입력 합니다. 예를 들어 Alice 또는 Rob만을 사용할 수 있습니다. 캠페인 규모가 큰 경우에는 AliceC 또는 AliceChavez을 활용 하는 것이 더 효과적일 수 있습니다.
@@ -72,9 +72,9 @@ ms.locfileid: "42633736"
 
 ## <a name="steps-to-add-microsoft-365-for-campaigns-to-an-existing-subscription"></a>기존 구독에 캠페인을 위한 Microsoft 365을 추가 하는 단계
 
-Office 365 Business Premium과 같은 비즈니스용 Office 365에 대 한 기존 구독이 이미 있는 경우 캠페인에 Microsoft 365을 사용 하 여 라이선스를 추가할 수 있습니다.
+Microsoft 365 Business Standard와 같이 microsoft 365 비즈니스에 대 한 기존 구독이 이미 있는 경우 캠페인에 Microsoft 365을 사용 하 여 라이선스를 추가할 수 있습니다.
 > [!IMPORTANT]
-> 기존 Microsoft 365 Business 테 넌 트에 대 한 Microsoft 365 캠페인 혜택을 추가할 수는 없습니다.
+> 기존 Microsoft 365 계정에 캠페인 행사에 대 한 Microsoft 365을 추가할 수는 없습니다.
 
 1. 캠페인 전자 메일에 대 한 Microsoft 365 초대에서 **조직 등록 >** 를 선택 합니다. 그러면 Microsoft 365 등록을 수행 하는 데 도움이 됩니다.
 2. 시작 화면에서 사용자에 게 **확인** 하 시겠습니까? 페이지에서이 항목을 **기존 구독에 추가 하려면 클릭 하거나 탭 하세요. 로그인**합니다.

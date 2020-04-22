@@ -16,24 +16,24 @@ ms.assetid: c440b2ac-cafa-4be5-ba4c-14278a7990ae
 ms.collection:
 - M365-security-compliance
 description: Office 365의 격리에 대 한 질문과 대답
-ms.openlocfilehash: 58800d5645241c2115356bc9899ce53302d1e37e
-ms.sourcegitcommit: fe4beef350ef9f39b1098755cff46fa2b8e7dc4d
+ms.openlocfilehash: 3947fbed2a17380a18320a8bffd08a8178ad2b3f
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/19/2020
-ms.locfileid: "42856908"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634427"
 ---
-# <a name="quarantine-faq-in-office-365"></a>Office 365의 격리 FAQ
+# <a name="quarantine-faq"></a>격리 FAQ
 
-이 항목에서는 Exchange Online 사서함이 없는 Exchange Online 또는 독립 실행형 EOP (Exchange Online Protection) 고객의 사서함을 포함 하는 Office 365 고객의 격리에 대 한 질문과 대답을 제공 합니다.
+이 항목에서는 Exchange Online 사서함이 없는 Exchange Online 또는 독립 실행형 EOP (Exchange Online Protection) 고객의 사서함을 포함 하는 Microsoft 365 고객의 격리에 대 한 질문과 대답을 제공 합니다.
 
 ## <a name="q-how-do-i-manage-messages-that-were-quarantined-for-malware"></a>Q: 맬웨어로부터 격리 된 메시지는 어떻게 관리 하나요?
 
-관리자만이 맬웨어로 격리 된 메시지를 관리할 수 있습니다. 자세한 내용은 [Office 365에서 격리 된 메시지 및 파일 관리로 관리자](manage-quarantined-messages-and-files.md)를 참조 하세요.
+관리자만이 맬웨어로 격리 된 메시지를 관리할 수 있습니다. 자세한 내용은 [Office 365에서 관리자로 격리된 메시지 관리하기](manage-quarantined-messages-and-files.md)를 참조하세요.
 
 ## <a name="q-how-do-i-quarantine-spam"></a>Q: 스팸을 격리 하려면 어떻게 해야 하나요?
 
-대답. 기본적으로 스팸 필터링을 통해 스팸으로 분류 되는 메시지는 사용자의 사서함에 배달 되 고 정크 메일 폴더로 이동 됩니다. 그러나 스팸 또는 대량 전자 메일 메시지를 격리 하도록 스팸 방지 정책을 만들고 구성할 수 있습니다. 자세한 내용은 [Office 365에서 스팸 방지 정책 구성을](configure-your-spam-filter-policies.md)참조 하세요.
+대답. 기본적으로 스팸 필터링을 통해 스팸으로 분류 되는 메시지는 사용자의 사서함에 배달 되 고 정크 메일 폴더로 이동 됩니다. 그러나 스팸 또는 대량 전자 메일 메시지를 격리 하도록 스팸 방지 정책을 만들고 구성할 수 있습니다. 자세한 내용은 [Office 365의 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)를 참조하세요.
 
 ## <a name="q-how-do-i-give-users-access-to-the-quarantine"></a>Q: 사용자에 게 격리에 대 한 액세스 권한을 부여 하려면 어떻게 해야 합니까?
 
@@ -70,7 +70,7 @@ $CQ = Get-QuarantineMessage -Type Spam | where {$_.SenderAddress -like "*@contos
 그런 다음 다음 명령을 실행 하 여 원래 받는 사람 모두에 게 해당 메시지를 릴리스 합니다.
 
 ```powershell
-$CQ | foreach {Release-QuarantineMessage -Identity $CQ.Identity -ReleaseToAll}
+$CQ | foreach {Release-QuarantineMessage -Identity $_.Identity -ReleaseToAll}
 ```
 
 메시지를 해제 한 후에는 다시 릴리스할 수 없습니다.

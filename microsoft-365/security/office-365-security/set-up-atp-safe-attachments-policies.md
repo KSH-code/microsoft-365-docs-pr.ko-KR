@@ -17,12 +17,12 @@ ms.assetid: 078eb946-819a-4e13-8673-fe0c0ad3a775
 ms.collection:
 - M365-security-compliance
 description: 안전한 첨부 파일 정책을 정의 하 여 전자 메일의 악의적인 파일 로부터 조직을 보호 합니다.
-ms.openlocfilehash: 8151cf1ec25ae46ae7a1845f34f42df3e5483bb2
-ms.sourcegitcommit: a955324e33097bbd2fc4ad7f2b8d1f3d87bc8580
+ms.openlocfilehash: d9139ff1b3adef2f70b6aede630791d355127573
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 04/21/2020
-ms.locfileid: "43608105"
+ms.locfileid: "43638347"
 ---
 # <a name="set-up-office-365-atp-safe-attachments-policies"></a>Office 365 ATP 안전한 첨부 파일 정책 설정
 
@@ -43,29 +43,28 @@ ms.locfileid: "43608105"
 
 - 조직에 [Office 365 Advanced Threat Protection](office-365-atp.md)이 있는지 확인 합니다.
 
-- 필요한 사용 권한이 있는지 확인 합니다. ATP 정책을 정의 하거나 편집 하려면 Exchange Online 조직 관리 역할 (기본적으로 Office 365 전역 관리자가이 역할에 할당 됨) 또는 Exchange Online 바이러스 예방 관리 및 보안 관리자 역할을 모두 할당 받아야 합니다. 자세한 내용은 다음 표를 참조 하십시오.
+- 필요한 사용 권한이 있는지 확인 합니다. ATP 정책을 정의 하거나 편집 하려면 Exchange Online 조직 관리 역할 (전역 관리자가 기본적으로이 역할에 할당 됨) 또는 Exchange Online 바이러스 관리 및 보안 관리자 역할을 모두 할당 받아야 합니다. 자세한 내용은 다음 표를 참조 하십시오.
 
-  |||
-  |---|---|
-  |**역할**|**할당 된 위치/방법**|
-  |Office 365 전역 관리자 |Office 365을 구매 하기 위해 등록 하는 사람은 기본적으로 전역 관리자입니다. 자세한 내용은 [Office 365 관리자 역할 정보](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) 를 참조 하세요.|
+  |역할|할당 된 위치/방법|
+  |---------|---------|
+  |전역 관리자 |Microsoft 365을 구매 하기 위해 등록 하는 사람은 기본적으로 전역 관리자입니다. 자세한 내용은 [Microsoft 365 관리자 역할 정보](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) 를 참조 하세요.|
   |보안 관리자 |Azure Active Directory 관리 센터 ([https://aad.portal.azure.com](https://aad.portal.azure.com))|
   |Exchange Online 조직 관리, Exchange Online 바이러스 관리 |Exchange 관리 센터 ([https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)) <br>또는 <br>  PowerShell cmdlet ( [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell)참조)|
   |
 
-  역할 및 사용 권한에 대 한 자세한 내용은 [Office 365 보안 &amp; 및 준수 센터의 사용 권한을](permissions-in-the-security-and-compliance-center.md)참조 하세요.
+  역할 및 사용 권한에 대 한 자세한 내용은 [보안 &amp; 및 준수 센터의 사용 권한을](permissions-in-the-security-and-compliance-center.md)참조 하세요.
 
 - 이 문서에서 [ATP 안전한 첨부 파일 정책 옵션에 대해 알아봅니다](#step-3-learn-about-atp-safe-attachments-policy-options) . 일부 옵션 (예: 모니터 또는 바꾸기 옵션)을 사용할 경우 첨부 파일을 검색 하는 동안 전자 메일이 약간 지연 될 수 있습니다. 메시지 지연을 방지 하려면 [동적 배달 및 미리 보기](dynamic-delivery-and-previewing.md)를 사용 하는 것이 좋습니다.
 
-- 새 정책이 나 업데이트 된 정책을 모든 Office 365 데이터 센터에 전파 하는 데 최대 30 분 정도 걸릴 수 있습니다.
+- 새 정책이 나 업데이트 된 정책을 모든 Microsoft 365 데이터 센터에 전파 하는 데 최대 30 분이 소요 될 수 있습니다.
 
 ## <a name="step-2-set-up-or-edit-an-atp-safe-attachments-policy"></a>2 단계: ATP 안전한 첨부 파일 정책 설정 (또는 편집)
 
 1. [https://protection.office.com](https://protection.office.com) 으로 이동 하 여 회사 또는 학교 계정으로 로그인 합니다.
 
-2. Office 365 보안 &amp; 및 준수 센터의 왼쪽 탐색 창에 있는 **위협 관리**에서 **정책** \> **안전한 첨부 파일**을 선택 합니다.
+2. 보안 &amp; 및 준수 센터의 왼쪽 탐색 창에 있는 **위협 관리**에서 **정책** \> **안전한 첨부 파일**을 선택 합니다.
 
-3. **SharePoint, OneDrive 및 Microsoft 팀에 대 한 ATP 끄기를**참조 하는 경우이 옵션을 선택 하는 것이 좋습니다. 이를 통해 Office 365 환경에 대 한 [SharePoint, OneDrive 및 Microsoft 팀에 office 365 Advanced Threat Protection](atp-for-spo-odb-and-teams.md) 을 사용 하도록 설정 합니다.
+3. **SharePoint, OneDrive 및 Microsoft 팀에 대 한 ATP 끄기를**참조 하는 경우이 옵션을 선택 하는 것이 좋습니다. 이를 통해 Microsoft 365 환경에 대 한 [SharePoint, OneDrive 및 Microsoft 팀에서 Office 365 Advanced Threat Protection](atp-for-spo-odb-and-teams.md) 을 사용 하도록 설정 합니다.
 
 4. 정책 만들기를 시작 하려면 **새로 만들기** (더하기 기호 ( **+**)와 유사)를 선택 합니다.
 
@@ -77,13 +76,13 @@ ms.locfileid: "43608105"
 
    - 응답 섹션에서 **동적 배달** 옵션을 선택 합니다. [동적 배달에 대해 자세히 알아보고 ATP 안전한 첨부 파일을 사용 하 여 미리 봅니다](dynamic-delivery-and-previewing.md).
 
-   - **첨부 파일 리디렉션** 섹션에서 리디렉션을 사용 하도록 설정 하는 옵션을 선택 하 고 사용자가 악의적 첨부 파일을 조사할 Office 365 전역 관리자, 보안 관리자 또는 보안 분석가의 전자 메일 주소를 입력 합니다.
+   - **첨부 파일 리디렉션** 섹션에서 리디렉션을 사용 하도록 설정 하는 옵션을 선택 하 고, 악성 첨부 파일을 조사할 전역 관리자, 보안 관리자 또는 보안 분석가의 전자 메일 주소를 입력 합니다.
 
    - **적용 대상** 섹션에서 **받는 사람 도메인**을 선택한 다음 도메인을 선택 합니다. **추가**를 선택한 다음 **확인**을 선택 합니다.
 
 6. **저장**을 선택합니다.
 
-조직에 대해 여러 ATP 안전 첨부 파일 정책을 설정 하는 것이 좋습니다. 이러한 정책은 **ATP 안전한 첨부 파일** 페이지에 나열 된 순서 대로 적용 됩니다. 정책이 정의 되거나 편집 된 후에는 정책이 Microsoft 데이터 센터 전체를 적용 하는 데 30 분 이상 걸릴 수 있습니다.
+조직에 대해 여러 ATP 안전 첨부 파일 정책을 설정 하는 것이 좋습니다. 이러한 정책은 **ATP 안전한 첨부 파일** 페이지에 나열 된 순서 대로 적용 됩니다. 정책을 정의 하거나 편집한 후에는 정책이 Microsoft 데이터 센터 전체를 적용 하는 데 30 분 이상 걸릴 수 있습니다.
 
 ## <a name="step-3-learn-about-atp-safe-attachments-policy-options"></a>3 단계: ATP 안전 첨부 파일 정책 옵션에 대해 알아보기
 

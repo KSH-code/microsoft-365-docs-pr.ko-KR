@@ -20,17 +20,17 @@ search.appverid:
 - MOE150
 - BEA160
 ms.assetid: b1bc0bef-4608-4601-813a-cdd9f746709a
-description: 비즈니스용 Office 365 또는 Microsoft 365 평가판 또는 유료 구독을 취소 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: d58ad1b18c8834740984f0ff47b7983a6797e108
-ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
+description: Microsoft 365 for business 또는 Microsoft 365 평가판 또는 유료 구독을 취소 하는 방법에 대해 알아봅니다.
+ms.openlocfilehash: 23a43b3a152844090cbbdf5baef29a7b8f992778
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43142166"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636598"
 ---
 # <a name="cancel-your-subscription"></a>구독 취소
 
-*자격:* 사용자에 게 할당 된 라이선스가 25 개 미만이 면 언제 든 지 관리자 센터에서 비즈니스 평가판 또는 유료 구독에 대 한 Office 365을 취소할 수 있습니다. 사용자에 게 25 개 이상의 라이선스가 할당 된 경우 [지원 서비스에 문의 하 여 구독을 취소할 수](../../admin/contact-support-for-business-products.md)있습니다.
+*자격:* 사용자에 게 할당 된 라이선스가 25 개 미만이 면 언제 든 지 관리자 센터에서 비즈니스 평가판 또는 유료 구독에 대 한 Microsoft 365을 취소할 수 있습니다. 사용자에 게 25 개 이상의 라이선스가 할당 된 경우 [지원 서비스에 문의 하 여 구독을 취소할 수](../../admin/contact-support-for-business-products.md)있습니다.
 
 *환불:* 모든 완료율에 해당 하는 크레딧은 다음 청구 주기 내에 사용자에 게 반환 됩니다.
 
@@ -43,19 +43,20 @@ ms.locfileid: "43142166"
 
 ::: moniker range="o365-worldwide"
 
+
 1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품 및 서비스</a> 페이지로 이동합니다.
 
 2. 취소할 구독을 찾고 **설정 & 작업**아래에서 **구독 취소**를 선택 합니다.
 
 3. 중요 날짜를 검토 하 고 취소 하는 이유에 대 한 의견을 제공한 다음 **구독 취소**를 선택 합니다.
 
-    이제 구독이 **사용 안 함** 상태로 표시 되 고 삭제 될 때까지 기능이 제한 됩니다. 유료 Office 365 비즈니스 구독을 취소할 때 예상할 수 있는 사항에 대 한 자세한 내용은 내 데이터 및 액세스에 대 한 자세한 내용을 참조 하세요. [office 365 for business 구독이 종료 되 면](what-if-my-subscription-expires.md)
+    이제 구독이 **사용 안 함** 상태로 표시 되 고 삭제 될 때까지 기능이 제한 됩니다. 유료 Microsoft 365 비즈니스 구독을 취소할 때 기대할 수 있는 사항에 대 한 자세한 내용은 [내 데이터 및 액세스에 대 한 microsoft 365 for business 구독이 종료 될 때 어떤 일이 발생 하나요?](what-if-my-subscription-expires.md) 를 참조 하세요.
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">구독</a> 페이지로 이동 합니다.
+1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">구독</a> 페이지로 이동합니다.
 
 2. **구독** 페이지에서 구독을 선택 합니다.
 
@@ -65,13 +66,13 @@ ms.locfileid: "43142166"
 
 4. 중요 날짜를 검토 하 고 취소 하는 이유에 대 한 의견을 제공한 다음 **구독 취소**를 선택 합니다.
 
-    이제 구독이 **사용 안 함** 상태로 표시 되 고 삭제 될 때까지 기능이 제한 됩니다. 유료 Office 365 비즈니스 구독을 취소할 때 예상할 수 있는 사항에 대 한 자세한 내용은 내 데이터 및 액세스에 대 한 자세한 내용을 참조 하세요. [office 365 for business 구독이 종료 되 면](what-if-my-subscription-expires.md)
+    이제 구독이 **사용 안 함** 상태로 표시 되 고 삭제 될 때까지 기능이 제한 됩니다. 유료 Microsoft 365 비즈니스 구독을 취소할 때 기대할 수 있는 사항에 대 한 자세한 내용은 [내 데이터 및 액세스에 대 한 microsoft 365 for business 구독이 종료 될 때 어떤 일이 발생 하나요?](what-if-my-subscription-expires.md) 를 참조 하세요.
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">구독</a> 페이지로 이동 합니다.
+1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">구독</a> 페이지로 이동합니다.
 
 2. **구독** 페이지에서 구독을 선택 합니다.
 
@@ -81,7 +82,7 @@ ms.locfileid: "43142166"
 
 4. 중요 날짜를 검토 하 고 취소 하는 이유에 대 한 의견을 제공한 다음 **구독 취소**를 선택 합니다.
 
-    이제 구독이 **사용 안 함** 상태로 표시 되 고 삭제 될 때까지 기능이 제한 됩니다. 유료 Office 365 비즈니스 구독을 취소할 때 예상할 수 있는 사항에 대 한 자세한 내용은 내 데이터 및 액세스에 대 한 자세한 내용을 참조 하세요. [office 365 for business 구독이 종료 되 면](what-if-my-subscription-expires.md)
+    이제 구독이 **사용 안 함** 상태로 표시 되 고 삭제 될 때까지 기능이 제한 됩니다. 유료 Microsoft 365 비즈니스 구독을 취소할 때 기대할 수 있는 사항에 대 한 자세한 내용은 [내 데이터 및 액세스에 대 한 microsoft 365 for business 구독이 종료 될 때 어떤 일이 발생 하나요?](what-if-my-subscription-expires.md) 를 참조 하세요.
 
 ::: moniker-end
 
@@ -110,11 +111,11 @@ ms.locfileid: "43142166"
 
 사용자 지정 도메인을 설정 하는 경우 도메인이 Office 365 서비스에서 작동 하도록 DNS 레코드를 추가 합니다. 도메인을 제거 하기 전에 DNS 호스트에서 도메인 MX 레코드와 같은 DNS 레코드를 업데이트 해야 합니다.
 
-예를 들어 DNS 호스트에서 MX 레코드를 변경 합니다. 도메인에 전송 된 전자 메일은 Office 365 주소로 들어오는 것이 아니라 새 전자 메일 공급자로 이동 됩니다. MX 레코드는 도메인에 대한 전자 메일이 전송되는 위치를 결정합니다.
+예를 들어 DNS 호스트에서 MX 레코드를 변경 합니다. 도메인에 전송 된 전자 메일은 Microsoft 주소로 들어오는 대신 새 전자 메일 공급자로 이동 됩니다. MX 레코드는 도메인에 대한 전자 메일이 전송되는 위치를 결정합니다.
 
 - NS (이름 서버) 레코드가 [Office 365 이름 서버를 가리키면](../../admin/setup/add-domain.md)새 DNS 호스트를 가리키도록 NS 레코드를 변경할 때까지 MX 레코드에 대 한 변경 내용이 적용 되지 않습니다 (2 단계 참조).
 
-- MX 레코드를 업데이트 하기 전에 사용자에 게 전자 메일을 전환할 날짜와 사용할 새 전자 메일 공급자를 알려 줍니다. 또한 사용자가 기존 Office 365 전자 메일을 새 공급자로 이동 하려는 경우에는 추가 단계를 수행 해야 합니다.
+- MX 레코드를 업데이트 하기 전에 사용자에 게 전자 메일을 전환할 날짜와 사용할 새 전자 메일 공급자를 알려 줍니다. 또한 사용자가 기존 Microsoft 전자 메일을 새 공급자로 이동 하려는 경우에는 추가 단계를 수행 해야 합니다.
 
 - MX 레코드를 변경하는 날에 이 문서의 나머지 단계를 따르세요.
 

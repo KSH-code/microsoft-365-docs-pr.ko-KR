@@ -11,27 +11,27 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 3e64f99d-ac33-4aba-91c5-9cb4ca476803
 description: 관리자는 보안 & 준수 센터에서 메시지 추적을 사용 하 여 메시지에 대 한 변경 내용을 확인할 수 있습니다.
-ms.openlocfilehash: 463e4ee5b99b1aaf34c91fc9b8976547a6c2edbd
-ms.sourcegitcommit: cf07dfccec476ac2526a6171ec6b6365686f759f
+ms.openlocfilehash: 12600eeb5242f0de5fc187be81b9311d4f9cb645
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/29/2020
-ms.locfileid: "42341269"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635319"
 ---
 # <a name="message-trace-in-the-security--compliance-center"></a>보안 및 준수 센터의 메시지 추적
 
 ## <a name="overview"></a>개요
 
-Office 365 보안 & 준수 센터의 메시지 추적은 Exchange Online 조직을 통해 이동 하는 전자 메일 메시지를 따릅니다. 서비스가 메시지를 수신, 거부, 지연 또는 배달 했는지 여부를 확인할 수 있습니다. 또한 최종 상태에 도달 하기 전에 메시지에 대해 수행 된 작업을 보여 줍니다.
+보안 & 준수 센터의 메시지 추적은 Exchange Online 조직에서 이동 하는 전자 메일 메시지를 따릅니다. 서비스가 메시지를 수신, 거부, 지연 또는 배달 했는지 여부를 확인할 수 있습니다. 또한 최종 상태에 도달 하기 전에 메시지에 대해 수행 된 작업을 보여 줍니다.
 
 보안 & 준수 센터의 메시지 추적은 EAC (Exchange 관리 센터)에서 사용 가능 했던 원본 메시지 추적에 대 한 개선 된 방법을 제공 합니다. 메시지 추적의 정보를 사용 하 여 메시지에 발생 한 상황에 대 한 사용자 질문을 효율적으로 응답 하 고, 메일 흐름 문제를 해결 하 고, 정책 변경을 확인할 수 있습니다.
 
 > [!NOTE]
-> • 메시지 추적을 수행 하려면 조직 관리, 준수 관리 또는 Help Desk 역할 그룹의 구성원 이어야 합니다. 자세한 내용은 [Office 365 보안 & 준수 센터의 사용 권한을](permissions-in-the-security-and-compliance-center.md)참조 하세요. <br/><br/>• 결과에 표시 되는 최대 메시지 수는 선택한 보고서 유형에 따라 달라 집니다 (자세한 내용은 [보고서 유형 선택](#choose-report-type) 섹션 참조). Exchange Online PowerShell 또는 Exchange Online Protection PowerShell의 [get-historicalsearch](https://docs.microsoft.com/powershell/module/exchange/reporting/get-historicalsearch) cmdlet은 결과의 모든 메시지를 반환 합니다.
+> * 메시지 추적을 수행 하려면 조직 관리, 준수 관리 또는 Help Desk 역할 그룹의 구성원 이어야 합니다. 자세한 내용은 [보안 및 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)을 참조하세요. <br/><br/>* 결과에 표시 되는 최대 메시지 수는 선택한 보고서 유형에 따라 달라 집니다 (자세한 내용은 [보고서 유형 선택](#choose-report-type) 섹션 참조). Exchange Online PowerShell 또는 Exchange Online Protection PowerShell의 [get-historicalsearch](https://docs.microsoft.com/powershell/module/exchange/reporting/get-historicalsearch) cmdlet은 결과의 모든 메시지를 반환 합니다.
 
 ## <a name="open-message-trace"></a>메시지 추적 열기
 
-1. 에서 <https://protection.office.com>Office 365 보안 & 준수 센터를 엽니다.
+1. 보안 & 준수 센터를에서 <https://protection.office.com>엽니다.
 
 2. **메일 흐름**을 확장 한 다음 **메시지 추적**을 선택 합니다.
 
@@ -106,7 +106,7 @@ Office 365 보안 & 준수 센터의 메시지 추적은 Exchange Online 조직�
 
 메시지 헤더의 **메시지 id:** 헤더 필드에 있는 인터넷 메시지 Id (클라이언트 ID 라고도 함)입니다. 사용자는 특정 메시지를 조사 하기 위해이 값을 제공할 수 있습니다.
 
-이 값은 메시지 수명을 나타내는 상수입니다. Office 365 또는 Exchange에서 만든 메시지의 경우이 값은 꺾쇠 괄호 ( `<GUID@ServerFQDN>`\< \>)를 포함 하는 형식으로 되어 있습니다. 예를 들면 `<d9683b4c-127b-413a-ae2e-fa7dfb32c69d@DM3NAM06BG401.Eop-nam06.prod.protection.outlook.com>`와 같습니다. 다른 메시징 시스템에서는 다른 구문이 나 값을 사용할 수 있습니다. 이 값은 고유 해야 하지만 일부 전자 메일 시스템에서는이 요구 사항을 엄격 하 게 따르지 않습니다. **메시지 ID:** 헤더 필드가 존재 하지 않거나 외부 원본의 받는 메시지에 대해 비어 있는 경우 임의의 값이 할당 됩니다.
+이 값은 메시지 수명을 나타내는 상수입니다. Microsoft 365 또는 Exchange에서 만든 메시지의 경우이 값은 꺾쇠 괄호 ( `<GUID@ServerFQDN>`\< \>)를 포함 하는 형식으로 되어 있습니다. 예를 들면 `<d9683b4c-127b-413a-ae2e-fa7dfb32c69d@DM3NAM06BG401.Eop-nam06.prod.protection.outlook.com>`와 같습니다. 다른 메시징 시스템에서는 다른 구문이 나 값을 사용할 수 있습니다. 이 값은 고유 해야 하지만 일부 전자 메일 시스템에서는이 요구 사항을 엄격 하 게 따르지 않습니다. **메시지 ID:** 헤더 필드가 존재 하지 않거나 외부 원본의 받는 메시지에 대해 비어 있는 경우 임의의 값이 할당 됩니다.
 
 **메시지 ID** 를 사용 하 여 결과를 필터링 할 때 꺾쇠 괄호를 포함 하 여 전체 문자열을 포함 해야 합니다.
 
@@ -128,7 +128,7 @@ Office 365 보안 & 준수 센터의 메시지 추적은 Exchange Online 조직�
 
 - **향상 된 요약** 또는 **확장**: 이러한 보고서는 다운로드 가능한 CSV 파일로만 제공 되며 시간 범위: **이러한 사용자**에 **대**한 다음 필터링 옵션 중 **하나 이상이 필요 합니다.** 보낸 사람 또는 받는 사람 (예: \*@contoso .com)에 와일드 카드를 사용할 수 있습니다. 향상 된 요약 보고서는 최대 5만 개의 결과를 반환 합니다. 확장 보고서가 최대 1000 개의 결과를 반환 합니다.
 
-**참고**:
+**참고:**
 
 - 향상 된 요약 및 확장 보고서는 아카이브된 메시지 추적 데이터를 사용 하 여 준비 되며, 보고서를 다운로드 하는 데 몇 시간이 걸릴 수 있습니다. 동시에 보고서 요청을 제출한 다른 관리자의 수에 따라 대기 요청이 처리 되기 시작 하기 전에 지연이 발생할 수도 있습니다.
 
@@ -230,7 +230,7 @@ Office 365 보안 & 준수 센터의 메시지 추적은 Exchange Online 조직�
 
 - **sender_address**: 보낸 사람의 전자 메일 주소 (*별칭*@*도메인*)입니다.
 
-- **Recipient_status**: 받는 사람에 대 한 메시지 배달 상태입니다. 메시지가 여러 받는 사람에 게 전송 되 면 \< *전자 메일 주소*\>##\<*상태*\>와 같은 형식으로 모든 받는 사람과 해당 상태가 표시 됩니다. 예를 들면 다음과 같습니다.
+- **Recipient_status**: 받는 사람에 대 한 메시지 배달 상태입니다. 메시지가 여러 받는 사람에 게 전송 되 면 \< *전자 메일 주소*\>##\<*상태*\>와 같은 형식으로 모든 받는 사람과 해당 상태가 표시 됩니다. 예시:
 
   - **# #Receive, Send** 는 서비스에서 메시지를 받았으며 의도 한 대상으로 전송 되었음을 의미 합니다.
 
@@ -268,13 +268,13 @@ Office 365 보안 & 준수 센터의 메시지 추적은 Exchange Online 조직�
 
 - **server_hostname**: 대상 서버의 호스트 이름 또는 FQDN입니다.
 
-- **source_context**: **원본** 필드와 관련 된 추가 정보입니다. 예를 들면 다음과 같습니다.
+- **source_context**: **원본** 필드와 관련 된 추가 정보입니다. 예시:
 
   - `Protocol Filter Agent`
 
   - `3489061114359050000`
 
-- **원본**: 이벤트를 담당 하는 Exchange Online 구성 요소입니다. 예를 들면 다음과 같습니다.
+- **원본**: 이벤트를 담당 하는 Exchange Online 구성 요소입니다. 예시:
 
   - `AGENT`
 
@@ -292,7 +292,7 @@ Office 365 보안 & 준수 센터의 메시지 추적은 Exchange Online 조직�
 
 - **related_recipient_address**: 및 `RESOLVE` 이벤트 `EXPAND`를 `REDIRECT`사용 하 여 메시지와 관련 된 다른 받는 사람의 전자 메일 주소를 표시 합니다.
 
-- **참조**:이 필드에는 특정 유형의 이벤트에 대 한 추가 정보가 포함 되어 있습니다. 예를 들면 다음과 같습니다.
+- **참조**:이 필드에는 특정 유형의 이벤트에 대 한 추가 정보가 포함 되어 있습니다. 예시:
 
   - **Dsn**:이 이벤트 이후에 dsn이 생성 되는 경우 연결 된 배달 상태 알림 (dsn, 배달 못 함 보고서, NDR 또는 바운스 메시지)의 **message_id** 값을 나타내는 보고서 링크를 포함 합니다. DSN 메시지의 경우이 필드에는 DSN이 생성 된 원본 메시지의 **message_id** 값이 포함 됩니다.
 
@@ -310,7 +310,7 @@ Office 365 보안 & 준수 센터의 메시지 추적은 Exchange Online 조직�
 
 - **return_path**: 메시지를 보낸 **메일** 보낸 사람 명령에 지정 된 반송 전자 메일 주소입니다. 이 필드는 비어 있지 않지만로 `<>`표시 되는 null 보낸 사람 주소 값을 가질 수 있습니다.
 
-- **message_info**: 메시지에 대 한 추가 정보입니다. 예를 들면 다음과 같습니다.
+- **message_info**: 메시지에 대 한 추가 정보입니다. 예시:
 
   - 이벤트에 대 한 `DELIVER` UTC의 메시지 시작 날짜 및 `SEND` 시간입니다. 시작 날짜-시간은 메시지가 처음으로 Exchange Online 조직에 입력 되는 시간입니다. UTC `yyyy-mm-ddThh:mm:ss.fffZ`날짜 및 시간 형식은 ISO 8601 날짜/시간 형식으로 표시 되며, 여기서 `yyyy` = 년, `mm` = month, `dd` = 일은 시간 구성 `T` 요소의 시작, `hh` = 시간, `mm` = 분, `ss` = 초, `fff` = 초의 초, 그리고 `Z` UTC를 표시 하는 또 다른 방법인 `Zulu`의미를 나타냅니다.
 
@@ -324,11 +324,11 @@ Office 365 보안 & 준수 센터의 메시지 추적은 Exchange Online 조직�
 
 #### <a name="custom_data-values"></a>custom_data 값
 
-이벤트에 대 한 custom_data 필드는 다양 한 Exchange Online 에이전트에서 메시지 처리 정보를 기록 하는 데 사용 됩니다. **** `AGENTINFO` 다음 섹션에서는 보다 흥미로운 에이전트 중 일부에 대해 설명 합니다.
+이벤트에 대 한 custom_data 필드는 다양 한 Exchange Online 에이전트에서 메시지 처리 정보를 기록 하는 데 사용 됩니다. **custom_data** `AGENTINFO` 다음 섹션에서는 보다 흥미로운 에이전트 중 일부에 대해 설명 합니다.
 
 #### <a name="spam-filter-agent"></a>스팸 필터 에이전트
 
-다음 **** 으로 `S:SFA` 시작 하는 custom_data 값은 스팸 필터 에이전트에서 가져온 것입니다. 주요 세부 정보는 다음 표에 설명 되어 있습니다.
+다음 **custom_data** 으로 `S:SFA` 시작 하는 custom_data 값은 스팸 필터 에이전트에서 가져온 것입니다. 주요 세부 정보는 다음 표에 설명 되어 있습니다.
 
 |**값**|**설명**|
 |:-----|:-----|
@@ -346,7 +346,7 @@ Office 365 보안 & 준수 센터의 메시지 추적은 Exchange Online 조직�
 |`DI=SO`|메시지가 위험 수준이 높은 배달 풀을 통해 라우팅되었습니다. 자세한 내용은 [아웃 바운드 메시지에 대 한 위험성이 높은 배달 풀](high-risk-delivery-pool-for-outbound-messages.md)을 참조 하십시오.|
 |`SFS=[a]|SFS=[b]`|스팸 규칙이 일치했음을 나타냅니다.|
 |`IPV=CAL`|연결 필터의 IP 허용 목록에 IP 주소가 지정되어 있어 메시지가 스팸 필터를 통과하도록 허용되었습니다.|
-|`H=<EHLOstring>`|연결 하는 전자 메일 서버의 HELO 또는 EHLO 문자열입니다.|
+|`H=<EHLOstring>`|연결 전자 메일 서버의 HELO 또는 EHLO 문자열입니다.|
 |`PTR=<ReverseDNS>`|보내는 IP 주소의 PTR 레코드로, 역방향 DNS 주소라고도 합니다.|
 
 다음과 같은 스팸 메일에 대해 필터링 된 메시지에 대 한 **custom_data** 값을 예로 들 있습니다.
@@ -355,7 +355,7 @@ Office 365 보안 & 준수 센터의 메시지 추적은 Exchange Online 조직�
 
 #### <a name="malware-filter-agent"></a>맬웨어 필터 에이전트
 
-다음 **** 으로 `S:AMA` 시작 하는 custom_data 값은 맬웨어 필터 에이전트입니다. 주요 세부 정보는 다음 표에 설명 되어 있습니다.
+다음 **custom_data** 으로 `S:AMA` 시작 하는 custom_data 값은 맬웨어 필터 에이전트입니다. 주요 세부 정보는 다음 표에 설명 되어 있습니다.
 
 |**값**|**설명**|
 |:-----|:-----|
@@ -378,14 +378,14 @@ Office 365 보안 & 준수 센터의 메시지 추적은 Exchange Online 조직�
 
 #### <a name="transport-rule-agent"></a>전송 규칙 에이전트
 
-메일 **** 흐름 규칙 (전송 규칙이`S:TRA` 라고도 함)에 대 한 전송 규칙 에이전트에서 다음으로 시작 하는 custom_data 값입니다. 주요 세부 정보는 다음 표에 설명 되어 있습니다.
+메일 **custom_data** 흐름 규칙 (전송 규칙이`S:TRA` 라고도 함)에 대 한 전송 규칙 에이전트에서 다음으로 시작 하는 custom_data 값입니다. 주요 세부 정보는 다음 표에 설명 되어 있습니다.
 
 |**값**|**설명**|
 |:-----|:-----|
 |`ETR|ruleId=<guid>`|일치된 규칙 ID입니다.|
 |`St=<datetime>`|규칙 일치가 발생 한 날짜 및 시간 (UTC)입니다.|
 |`Action=<ActionDefinition>`|적용된 작업입니다. 사용 가능한 작업 목록은 [Mail flow rule actions In Exchange Online](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions)을 참조 하십시오.|
-|`Mode=<Mode>`|규칙의 모드입니다. 유효한 값은 다음과 같습니다. <br/>• **적용**: 규칙에 대 한 모든 작업이 적용 됩니다. <br/>• **정책 팁으로 테스트:**: 모든 정책 설명 작업이 전송 되지만 다른 적용 작업은 실행 되지 않습니다. <br/>• **정책 설명이 없는 테스트**: 작업이 로그 파일에 나열 되지만 보낸 사람에 게 어떤 식으로도 알림이 제공 되지 않으며 적용 작업이 실행 되지 않습니다.|
+|`Mode=<Mode>`|규칙의 모드입니다. 유효한 값은 다음과 같습니다. <br/>* **적용**: 규칙에 대 한 모든 작업이 적용 됩니다. <br/>* **정책 설명이 있는 테스트:**: 모든 정책 설명 작업이 전송 되지만 다른 적용 작업은 실행 되지 않습니다. <br/>* **정책 설명이 없는 테스트**: 작업이 로그 파일에 나열 되지만 보낸 사람에 게 어떤 식으로도 알림이 제공 되지 않으며 적용 작업이 실행 되지 않습니다.|
 
 메일 흐름 규칙의 조건과 일치 하는 메시지에 대 한 **custom_data** 값의 예는 다음과 같습니다.
 

@@ -17,20 +17,20 @@ ms.assetid: e3e95f68-36e9-4256-bcca-78fe7fe5ea5d
 ms.collection:
 - M365-security-compliance
 description: 보안 &amp; 및 준수 센터의 보고서 및 insights avialable에 대 한 개요를 확인 하세요.
-ms.openlocfilehash: 3c205350ef57514c434ac75fae21c104a2c1706e
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 0ce3a0208344e328f4b494ab4d04c517fc2a21a6
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42088147"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637169"
 ---
-# <a name="smart-reports-and-insights-in-the-office-365-security-amp-compliance-center"></a>Office 365 보안 &amp; 및 준수 센터의 Smart reports 및 정보
+# <a name="smart-reports-and-insights-in-the-security-amp-compliance-center"></a>보안 &amp; 및 준수 센터의 Smart reports 및 통찰력
 
-조직의 Office 365 보안 팀에 속해 있고 [office 365 보안 &amp; 준수 센터에서 필요한 권한이 할당](permissions-in-the-security-and-compliance-center.md)된 경우에는 스마트 보고서 및 통찰력을 비롯 한 다양 한 보고서에 액세스할 수 있습니다. 이 문서를 읽으면 이러한 보고서 및 정보를 개략적으로 살펴보고 특정 보고서에 대해 자세히 알아볼 수 있는 위치를 확인할 수 있습니다.
+조직의 Microsoft for business 보안 팀에 참여 하 고 있으며 [보안 &amp; 및 준수 센터에서 필요한 권한을](permissions-in-the-security-and-compliance-center.md)부여 하는 경우 365에는 스마트 보고서 및 통찰력을 비롯 한 다양 한 보고서에 액세스할 수 있습니다. 이 문서를 읽으면 이러한 보고서 및 정보를 개략적으로 살펴보고 특정 보고서에 대해 자세히 알아볼 수 있는 위치를 확인할 수 있습니다.
       
 ## <a name="smart-reports-and-insights-overview"></a>스마트 보고서 및 통찰력 개요
 
-Office 365 보안 &amp; 및 준수 센터에서 사용할 수 있는 모니터링 기능에는 보안 공격이 나 향상 된 수상한 작업과 같은 높은 우선 순위의 문제에 중점을 둘 수 있도록 하는 스마트 보고서 및 통찰력이 포함 되어 있습니다. 대시보드의 경우 smart reports 및 insights는 다음 이미지와 유사 합니다.
+보안 및 준수 센터에서 &amp; 사용할 수 있는 모니터링 기능에는 보안 공격이 나 향상 된 수상한 작업과 같은 우선 순위가 높은 문제에 중점을 둘 수 있도록 하는 smart reports 및 insights가 포함 됩니다. 대시보드의 경우 smart reports 및 insights는 다음 이미지와 유사 합니다.
   
 ![보안 &amp; 및 준수 센터에서 보고서 \> 대시보드를 선택 합니다.](../../media/2a668c3d-3fa3-4e37-8149-46989b33ae8c.png)
   
@@ -51,15 +51,15 @@ Office 365 보안 &amp; 및 준수 센터에서 사용할 수 있는 모니터�
 |**정보 유형**|**이동 방법**|**자세한 정보를 얻을 수 있는 위치**|
 |:-----|:-----|:-----|
 |**보안 &amp; 및 준수 센터 보고서** (모두)  <br/> 주요 정보 보호법 및 권장 사항 및 데이터 손실 &amp; 방지 보고서, 레이블, 전자 메일 보안 보고서, Advanced Threat Protection 보고서 등을 비롯 한 보안 준수 보고서에 대 한 링크  <br/> |보안 &amp; 및 준수 센터에서 **보고서** \> **대시보드로** 이동 합니다. <br/> |[Microsoft 365 보안 센터에서 보고서 모니터링 및 보기](../mtp/monitoring-and-reporting.md) <br/> |
-|**데이터 손실 방지** <br/> 데이터 손실 방지 정책 일치, 가양성 및 재정의 및 정책 만들기 또는 편집에 대 한 링크  <br/> |보안 &amp; 및 준수 센터에서 **데이터 손실 방지** \> **정책** 으로 이동 합니다. <br/> |[데이터 손실 방지에 대한 보고서 보기](../../compliance/view-the-dlp-reports.md) <br/> |
-|**데이터 거버넌스** <br/> 레이블이 적용 되는 방식, 레코드를 레코드로 분류, 레이블 추세 등을 설명 하는 방법에 대 한 정보  <br/> |보안 &amp; 및 준수 센터에서 **정보 거 버 넌 스** \> **대시보드로** 이동 합니다. <br/> |[데이터 거버넌스 보고서 보기](../../compliance/view-the-data-governance-reports.md) <br/> |
+|**데이터 손실 방지** <br/> 데이터 손실 방지 정책 일치, 긍정 오류 및 재정의,정책을 생성하거나 편집하는 링크  <br/> |보안 &amp; 및 준수 센터에서 **데이터 손실 방지** \> **정책** 으로 이동 합니다. <br/> |[데이터 손실 방지에 대한 보고서 보기](../../compliance/view-the-dlp-reports.md) <br/> |
+|**데이터 거 버 넌 스** <br/> 레이블을 적용하는 방법, 레코드로 분류된 레이블, 레이블 추세 등에 대한 정보  <br/> |보안 &amp; 및 준수 센터에서 **정보 거 버 넌 스** \> **대시보드로** 이동 합니다. <br/> |[데이터 거버넌스 보고서 보기](../../compliance/view-the-data-governance-reports.md) <br/> |
 |**위협 관리 대시보드** (보안 대시보드 및 위협 인텔리전스 대시보드 라고도 함)  <br/> 위협 감지, 맬웨어 추세, 상위 대상 사용자, 보내고 받은 전자 메일 메시지에 대 한 세부 정보  <br/> |보안 &amp; 및 준수 센터에서 **위협 관리** \> **대시보드로** 이동 합니다. <br/> |[보안 대시보드 개요](security-dashboard.md) <br/> |
-|**위협 탐색기** (탐색기 라고도 함) 또는 **실시간 감지** <br/> Office 365의 전자 메일 및 파일에서 의심 되는 맬웨어가 검색 됨  <br/> |보안 &amp; 및 준수 센터에서 **위협 관리** \> **탐색기나** **실시간** 검색으로 이동 합니다.<br/> |[위협 탐색기 (또는 실시간 검출)](threat-explorer.md) <br/> |
+|**위협 탐색기** (탐색기 라고도 함) 또는 **실시간 감지** <br/> Microsoft 365의 전자 메일 및 파일에서 의심 되는 맬웨어가 검색 됨  <br/> |보안 &amp; 및 준수 센터에서 **위협 관리** \> **탐색기나** **실시간** 검색으로 이동 합니다.<br/> |[위협 탐색기 (또는 실시간 검출)](threat-explorer.md) <br/> |
 |**Advanced Threat Protection 및 전자 메일 보안 보고서** <br/> 전자 메일 보안 및 위협 보호 보고서 (맬웨어, 스팸, 피싱 및 스푸핑 보고서 포함)  <br/> |보안 &amp; 및 준수 센터에서 **보고서** \> **대시보드로** 이동 합니다. <br/> |[Office 365 Advanced Threat Protection에 대 한 보고서 보기](view-reports-for-atp.md) <br/><br/> [보안 &amp; 및 준수 센터의 전자 메일 보안 보고서 보기](view-email-security-reports.md) <br/> |
-|**메일 흐름** <br/> 보내고 받은 전자 메일 메시지, 최근 경고, 상위 보낸 사람 및 받는 사람, 전자 메일 전달 보고서 등에 대 한 정보  <br/> |보안 &amp; 및 준수 센터에서 **메일 흐름** \> **대시보드로** 이동 합니다. <br/> |[보안 및 준수 센터의 메일 흐름 파악](mail-flow-insights-v2.md)<br/> |
+|**메일 흐름** <br/> 발신 및 수신 전자메일 메시지, 최근 알림, 최상위 발신자 및 수신자, 전자 메일 전달 보고서 등에 대한 정보  <br/> |보안 &amp; 및 준수 센터에서 **메일 흐름** \> **대시보드로** 이동 합니다. <br/> |[보안 및 준수 센터의 메일 흐름 파악](mail-flow-insights-v2.md)<br/> |
 |**GDPR 규정 준수** <br/> GDPR 준수에 대 한 정보 (데이터 주체, 레이블 추세 및 활성 &amp; 닫힌 사례에 대 한 링크 포함)  <br/> |보안 &amp; 및 준수 센터에서 **데이터 개인 정보** \> **gdpr 대시보드로** 이동 합니다. <br/> |[GDPR에 대한 Office 365 정보 보호](https://docs.microsoft.com/office365/enterprise/office-365-information-protection-for-gdpr) <br/> |
-|**감사 로그** <br/> Office 365 활동, 사용자, 파일 또는 폴더 등에 대 한 정보  <br/> |보안 &amp; 및 준수 센터에서 **검색 &amp; 조사** \> **감사 로그 검색** 으로 이동 합니다. <br/> |[Office 365 보안 및 준수 센터에서 감사 로그 검색](../../compliance/search-the-audit-log-in-security-and-compliance.md) <br/> |
-|**준수 보고서** <br/> FedRAMP 보고서, 관리 방식, 위험 및 준수 보고서, ISO 정보 보안 관리 보고서, 서비스 조직 컨트롤 감사 및 평가 보고서  <br/> |보안 &amp; 및 준수 센터에서 **서비스 보증** \> **준수 보고서** 로 이동 합니다. <br/> |[Office 365의 &amp; 보안 준수 계획](../../compliance/plan-for-security-and-compliance.md) <br/> |
+|**감사 로그** <br/> Microsoft 365 활동, 사용자, 파일 또는 폴더 등에 대 한 정보  <br/> |보안 &amp; 및 준수 센터에서 **검색 &amp; 조사** \> **감사 로그 검색** 으로 이동 합니다. <br/> |[보안 &amp; 및 준수 센터에서 감사 로그 검색](../../compliance/search-the-audit-log-in-security-and-compliance.md) <br/> |
+|**준수 보고서** <br/> FedRAMP 보고서, 거버넌스, 위험 및 규정 준수 보고서, ISO 정보 보안 관리 보고서 및 Service Organization Controls(SOC) 감사 및 평가 보고서  <br/> |보안 &amp; 및 준수 센터에서 **서비스 보증** \> **준수 보고서** 로 이동 합니다. <br/> |[Office 365의 &amp; 보안 준수 계획](../../compliance/plan-for-security-and-compliance.md) <br/> |
   
 ## <a name="next-steps"></a>다음 단계
 

@@ -1,5 +1,5 @@
 ---
-title: Office 365 보안 사고 대응
+title: 보안 인시던트 대응
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -15,15 +15,15 @@ ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
-description: 이 해결 방법은 Office 365에서 가장 일반적인 사이버 보안 공격과 그에 대응하는 방법에 대해 설명합니다.
-ms.openlocfilehash: 317e685dd9e2b2e0afbf25f0568b352c399e7b87
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+description: 이 솔루션은 Microsoft 365에서 가장 일반적인 cybersecurity 공격과 그에 대응 하는 방법에 대해 설명 합니다.
+ms.openlocfilehash: 4c5713a0689dae07fe5300c04754d77912f53976
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41598725"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634511"
 ---
-# <a name="office-365-security-incident-response"></a>Office 365 보안 사고 대응
+# <a name="security-incident-response"></a>보안 인시던트 대응
 
  **요약**: 이 해결 방법은 Office 365에서 가장 일반적인 사이버 보안 공격에 대한 지표와 주어진 공격을 확실하게 확인하는 방법 및 대응하는 방법에 대해 설명합니다.
 
@@ -31,7 +31,7 @@ ms.locfileid: "41598725"
 
 모든 사이버 공격을 막을 수 있는 것은 아닙니다. 공격자는 계속해서 방어 전략에 대한 새로운 약점을 찾고 있거나 이전 약점을 악용하고 있습니다. 공격을 인식하는 방법을 알면 보다 신속하게 대처하여 보안 사고의 기간을 단축시킬 수 있습니다.
 
-이 문서 시리즈는 Office 365에서 특정 유형의 공격이 어덯게 보이는지 파악하는 데 도움을 줍니다. 다음 사항을 이해하기 위한 빠른 진입점입니다.
+이 문서 시리즈는 Microsoft 365에서 특정 유형의 공격을 이해 하 고이를 처리할 수 있는 단계를 제공 하는 데 도움이 됩니다. 다음 사항을 이해하기 위한 빠른 진입점입니다.
 
 - 공격이란 무엇인가와 작동 방식
 
@@ -55,9 +55,9 @@ ms.locfileid: "41598725"
 
 - [Office 365에서 손상된 이메일 계정에 응답](responding-to-a-compromised-email-account.md)
 
-## <a name="secure-office-365-like-a-cybersecurity-pro"></a>사이버 보안 전문가와 같은 Office 365 보안
+## <a name="secure-microsoft-365-like-a-cybersecurity-pro"></a>Cybersecurity pro와 같은 Microsoft 365 보안
 
-Office 365 구독에는 데이터 및 사용자를 보호하는 데 사용할 수있는 강력한 보안 기능이 함께 제공됩니다.  [Office 365 보안 로드맵: - 최초 30일, 90일 및 그 이후의 최우선 순위](security-roadmap.md)를 사용하여 Microsoft에서 권장하는 Office 365 테넌트 보안을 구현합니다.
+Microsoft 365 구독에는 데이터와 사용자를 보호 하는 데 사용할 수 있는 강력한 보안 기능 집합이 포함 되어 있습니다.  Microsoft 365 조 직을 보호 하기 위한 Microsoft 권장 모범 사례를 구현 하려면 [microsoft 365 보안 로드맵-처음 30 일, 90 일 및 그 이상에 해당 하는 주요 우선 순위](security-roadmap.md) 를 사용 합니다.
 
 - 처음 30일 이내에 수행 할 작업  이러한 작업들은 즉각적인 영향을 미치며 사용자에게 영향을 미치지 않습니다.
 

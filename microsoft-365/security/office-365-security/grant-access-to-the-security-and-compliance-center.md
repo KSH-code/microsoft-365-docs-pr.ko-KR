@@ -1,5 +1,5 @@
 ---
-title: 사용자에게 Office 365 보안 및 준수 센터에 대한 액세스 권한 부여
+title: 사용자에게 보안 및 준수 센터에 대한 액세스 권한 부여
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -17,23 +17,23 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 2cfce2c8-20c5-47f9-afc4-24b059c1bd76
-description: 사용자는 보안 또는 규정 준수 기능을 관리 하기 전에 Office 365 보안 & 준수 센터에서 사용 권한을 할당 받아야 합니다.
-ms.openlocfilehash: cccf44a64d20dc1304dbc5145d6ae50441cfacef
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: 사용자에 게 보안 또는 규정 준수 기능을 관리 하려면 먼저 Security & 준수 센터에서 사용 권한을 할당 받아야 합니다.
+ms.openlocfilehash: 5110bcecb6731cbf51023c6df19bed30bcba72c1
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42085974"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43638061"
 ---
-# <a name="give-users-access-to-the-office-365-security--compliance-center"></a>사용자에게 Office 365 보안 및 준수 센터에 대한 액세스 권한 부여
+# <a name="give-users-access-to-the-security--compliance-center"></a>사용자에게 보안 및 준수 센터에 대한 액세스 권한 부여
 
-사용자는 보안 또는 규정 준수 기능을 관리 하기 전에 Office 365 보안 & 준수 센터에서 사용 권한을 할당 받아야 합니다. 보안 & 준수 센터에서 Office 365 전역 관리자 또는 OrganizationManagement 역할 그룹의 구성원으로 사용자에 게 이러한 사용 권한을 부여할 수 있습니다. 사용자는 액세스 권한을 부여 받은 보안 또는 규정 준수 기능만 관리할 수 있습니다.
+사용자에 게 보안 또는 규정 준수 기능을 관리 하려면 먼저 Security & 준수 센터에서 사용 권한을 할당 받아야 합니다. 보안 & 준수 센터에 있는 전역 관리자 또는 OrganizationManagement 역할 그룹의 구성원 인 사용자에 게 이러한 사용 권한을 부여할 수 있습니다. 사용자는 액세스 권한을 부여 받은 보안 또는 규정 준수 기능만 관리할 수 있습니다.
 
-보안 & 준수 센터에서 사용자에 게 부여할 수 있는 다양 한 사용 권한에 대 한 자세한 내용은 [Office 365 보안 & 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)를 참조 하세요.
+보안 & 준수 센터에서 사용자에 게 부여할 수 있는 다양 한 사용 권한에 대 한 자세한 내용은 [보안 & 준수 센터의 사용 권한을](permissions-in-the-security-and-compliance-center.md)참조 하세요.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
 
-- 이 문서의 단계를 완료 하려면 Office 365 전역 관리자 이거나 보안 & 준수 센터에서 OrganizationManagement 역할 그룹의 구성원 이어야 합니다.
+- 이 문서의 단계를 완료 하려면 전역 관리자 이거나 보안 & 준수 센터에서 OrganizationManagement 역할 그룹의 구성원 이어야 합니다.
 
 - 보안 & 준수 센터의 역할 그룹은 Exchange Online의 역할 그룹과 유사한 이름을 사용할 수 있지만 동일 하지는 않습니다.
 
@@ -43,7 +43,7 @@ ms.locfileid: "42085974"
 
 ## <a name="use-the-admin-center-to-give-another-user-access-to-the-security--compliance-center"></a>관리 센터를 사용 하 여 다른 사용자에 게 보안 & 준수 센터에 대 한 액세스 권한 부여
 
-1. [Office 365에 로그인 하 고 관리 센터로 이동](https://docs.microsoft.com/microsoft-365/compliance/go-to-the-securitycompliance-center)합니다.
+1. [로그인 하 고 관리 센터로 이동](https://docs.microsoft.com/microsoft-365/compliance/go-to-the-securitycompliance-center)합니다.
 
 2. Microsoft 365 관리 센터에서 **관리 센터** 를 열고 **보안 & 준수**를 클릭 합니다.
 
@@ -67,7 +67,7 @@ ms.locfileid: "42085974"
 
 ## <a name="use-powershell-to-give-another-user-access-to-the-security--compliance-center"></a>PowerShell을 사용 하 여 다른 사용자에 게 보안 & 준수 센터에 대 한 액세스 권한 부여
 
-1. [Office 365 보안 및 준수 센터 PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell)
+1. [보안 및 준수 센터 PowerShell에 연결하기](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell)
 
 2. 다음 예와 같이 **Add-RoleGroupMember** 명령을 사용하여 사용자를 조직 관리 역할에 추가합니다.
 

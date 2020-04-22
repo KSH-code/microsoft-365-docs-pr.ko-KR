@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Office 365의 구독 및 라이선스 이해
+title: 비즈니스에 대 한 Microsoft 365의 구독 및 라이선스 이해
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -20,24 +20,24 @@ search.appverid:
 - BEA160
 - GEA150
 ms.assetid: 7ac93507-0e38-4398-8bfe-9c1d123cb387
-description: '비즈니스용 Office 365의 구독 및 라이선스에 대해 알아보고 라이선스를 할당할 수 있는 사람 및 사용자에 게 라이선스를 할당할 때 수행 되는 작업을 파악 합니다. '
+description: '비즈니스에 대 한 Microsoft 365의 구독 및 라이선스에 대해 알아보고, 사용자에 게 라이선스를 할당할 때 라이선스를 할당할 수 있는 사람 및 상황을 파악 합니다. '
 ms.custom: okr_SMB
-ms.openlocfilehash: 1a90e4b80322ad075f2149801aebd02ac07a2aef
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 1508daa6dae30c35a9517fceb81b0a4d2b4a7f58
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42246349"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635439"
 ---
-# <a name="understand-subscriptions-and-licenses-in-office-365-for-business"></a>비즈니스용 Office 365의 구독 및 라이선스 이해
+# <a name="understand-subscriptions-and-licenses-in-microsoft-365-for-business"></a>비즈니스에 대 한 Microsoft 365의 구독 및 라이선스 이해
 
 이 문서에서는 구독 및 라이선스 간의 관계에 대해 설명 하 고, 라이선스를 [할당할 수 있는 사람](#find-out-who-can-assign-licenses), 사용자 [에 게 라이선스를 할당할 때 수행 되는 작업](#understand-what-happens-when-you-assign-a-license-to-someone)및 [사용자가 Office를 설치할 수 있는 장치 개수](#how-many-devices-can-people-install-office-on)에 대 한 추가 정보를 제공 합니다. 또한 [비 사용자 사서함의 라이선스 이해](#understand-licenses-for-non-user-mailboxes)에 대 한 링크와 [라이선스 관리에 대 한 문서](#articles-about-managing-licenses)도 포함 되어 있습니다.
   
-비즈니스용 Office 365에 대 한 구독을 구입할 때 매월 또는 연간 기준으로 지불 하는 응용 프로그램 및 서비스 집합에 등록 합니다. 구독의 일부로 수신 하는 응용 프로그램 및 서비스는 구입한 제품 (예: Office 365 Business 또는 Office 365 Business Premium)에 따라 달라 집니다. [Office 구입 365 페이지](https://products.office.com/compare-all-microsoft-office-products?&activetab=tab:primaryr1)에서 각 제품과 함께 제공 되는 내용을 검토할 수 있습니다. 
+비즈니스를 위해 Microsoft 365 구독을 구입 하는 경우 매달 또는 연간 기준으로 지불 하는 응용 프로그램 및 서비스 집합에 등록 합니다. 구독의 일부로 수신 하는 응용 프로그램 및 서비스는 구입한 제품 (예: 비즈니스용 Microsoft 365 Apps 또는 Microsoft 365 Business Standard)에 따라 달라 집니다. [Microsoft 365 구입 페이지](https://products.office.com/compare-all-microsoft-office-products?&activetab=tab:primaryr1)에서 각 제품과 함께 제공 되는 내용을 검토할 수 있습니다. 
 
 구독을 구입할 때 조직의 사용자 수를 기준으로 필요한 라이선스 수를 지정합니다. 구입을 완료한 후 사용자 계정을 만들고 각 사용자에게 라이선스를 할당합니다. 조직의 요구 사항이 변경 되 면 새 사용자를 수용할 수 있는 라이선스를 추가로 구입 하거나 다른 사용자에 게 라이선스를 다시 할당 합니다. 
 
-구독이 두 개 이상 있는 경우 각 구독에 대해 다른 사용자에게 라이선스를 할당할 수 있습니다. 예를 들어 모든 사용자가 Office 365 Business Premium 구독의 일부로 모든 Office 365 응용 프로그램 및 서비스에 할당 될 수 있지만, 사용자의 하위 집합은 별도의 Visio 구독을 통해 Visio Online에 할당 될 수도 있습니다. 
+구독이 두 개 이상 있는 경우 각 구독에 대해 다른 사용자에게 라이선스를 할당할 수 있습니다. 예를 들어 모든 사용자가 Microsoft 365 Business Standard 구독의 일부로 모든 Microsoft 365 응용 프로그램 및 서비스에 할당 될 수 있지만, 사용자의 하위 집합은 별도의 Visio 구독을 통해 Visio Online에 할당 될 수도 있습니다. 
 
   
 ## <a name="find-out-who-can-assign-licenses"></a>라이선스를 할당할 수 있는 사용자 찾기
@@ -48,7 +48,7 @@ ms.locfileid: "42246349"
 |:-----|:-----|:-----|:-----|:-----|
 |전역 관리자  <br/> |예  <br/> |예  <br/> |예  <br/> |예  <br/> |
 |대금 청구 관리자  <br/> |아니요  <br/> |아니요  <br/> |예  <br/> |아니요  <br/> |
-|사용자 관리 관리자  <br/> |예  <br/> |예  <br/> |아니요  <br/> |예  <br/> |
+|사용자 관리 관리자  <br/> |예  <br/> |예  <br/> |아니오  <br/> |예  <br/> |
 |서비스 관리자  <br/> |아니요  <br/> |아니요  <br/> |아니요  <br/> |아니요  <br/> |
 |암호 관리자  <br/> |아니요  <br/> |아니요  <br/> |아니요  <br/> |아니요  <br/> |
    
@@ -61,17 +61,17 @@ ms.locfileid: "42246349"
 |Exchange Online  <br/> |해당 사용자의 사서함이 만들어집니다.  <br/> |
 |SharePoint Online  <br/> |기본 SharePoint Online 팀 사이트에 대한 편집 권한이 해당 사용자에게 할당됩니다.  <br/> |
 |비즈니스용 Skype Online  <br/> |사용자가 라이선스 관련 기능에 액세스할 수 있습니다.  <br/> |
-|Office 365 ProPlus  <br/> |사용자는 조직의 최대 5대의 Mac 또는 PC, 최대 5대의 태블릿, 최대 5대의 스마트폰에 Microsoft Office를 다운로드할 수 있습니다.  <br/> |
+|Microsoft 365 enterprise 용 앱  <br/> |사용자는 조직의 최대 5대의 Mac 또는 PC, 최대 5대의 태블릿, 최대 5대의 스마트폰에 Microsoft Office를 다운로드할 수 있습니다.  <br/> |
    
 ## <a name="how-many-devices-can-people-install-office-on"></a>사용자가 Office를 설치할 수 있는 장치는 몇 개인가요?
 
 구독에 다음 제품이 포함되는 경우 각 사용자는 최대 5대의 PC 또는 Mac, 최대 5대의 태블릿, 최대 5대의 전화기에 Office를 설치할 수 있습니다.
   
-- Office 365 Business
+- Microsoft 365 비즈니스 에디션 앱
     
-- Office 365 Business Premium
+- Microsoft 365 비즈니스 표준
     
-- Office 365 ProPlus
+- Microsoft 365 enterprise 용 앱
     
 - Office 365 Enterprise E3
     
@@ -83,7 +83,7 @@ ms.locfileid: "42246349"
   
 - [공유 사서함 만들기](../../admin/email/create-a-shared-mailbox.md)
     
-- [Exchange Online의 공유 사서함](https://go.microsoft.com/fwlink/p/?linkid=847433)(다른 모든 Office 365 요금제용) 
+- 다른 모든 Microsoft 365 계획에 대 한 [Exchange Online의 공유 사서함](https://go.microsoft.com/fwlink/p/?linkid=847433) 
     
 - [대화방 사서함 만들기 및 관리](https://go.microsoft.com/fwlink/p/?linkid=847434)
     

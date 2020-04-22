@@ -1,5 +1,5 @@
 ---
-title: Office 365 ATP의 공격 시뮬레이터
+title: ATP의 공격 시뮬레이터
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -15,31 +15,31 @@ search.appverid:
 ms.assetid: da5845db-c578-4a41-b2cb-5a09689a551b
 ms.collection:
 - M365-security-compliance
-description: 공격 시뮬레이터를 사용 하 여 Office 365 E5 또는 ATP 계획 2 조직에서 시뮬레이트된 피싱 및 암호 공격을 실행 하면 실제 공격이 비즈니스에 방문 하기 전에 취약 한 사용자를 식별 하는 데 도움이 될 수 있습니다.
-ms.openlocfilehash: 95b7af302a5dcc1987040c23a7dde867e2d09292
-ms.sourcegitcommit: 08a4ee7765f3eba42f0c037c5c564c581e45df3e
+description: 전역 관리자는 공격 시뮬레이터를 사용 하 여 조직에서 현실적인 공격 시나리오를 실행할 수 있습니다. 이를 통해 실질적인 공격이 비즈니스에 방문 하기 전에 취약 한 사용자를 식별 하 고 찾을 수 있습니다.
+ms.openlocfilehash: cac09ed48a46531ea2246f9c3ef798649dc73196
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42637341"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43638575"
 ---
-# <a name="attack-simulator-in-office-365-atp"></a>Office 365 ATP의 공격 시뮬레이터
+# <a name="attack-simulator-in-atp"></a>ATP의 공격 시뮬레이터
 
-Office 365의 Attack 시뮬레이터에서 Advanced Threat Protection 계획 2 (ATP 계획 2)를 사용 하 여 조직에서 현실적 이지만 시뮬레이트된 피싱 및 암호 공격 캠페인을 실행할 수 있습니다. 캠페인 결과를 사용 하 여 취약 한 사용자를 식별 하 고 교육할 수 있습니다.
+**요약** 전역 관리자 또는 보안 관리자이 고 조직에 [위협 조사 및 응답 기능이](office-365-ti.md)포함 된 Office 365 Advanced Threat Protection 계획 2가 있는 경우 공격 시뮬레이터를 사용 하 여 조직에서 현실적인 공격 시나리오를 실행할 수 있습니다. 이를 통해 실질적인 공격이 수익에 영향을 미치기 전에 취약한 사용자를 식별하고 찾을 수 있습니다. 자세한 내용은이 문서를 참조 하세요.
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 사항은 무엇인가요?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
 
-- Office 365 보안 & 준수 센터를 열려면로 <https://protection.office.com/>이동 합니다. Attack 시뮬레이터는 **위협 관리** \> **공격 시뮬레이터**에서 사용할 수 있습니다.
+- 보안 & 준수 센터를 열려면로 이동 <https://protection.office.com/>합니다. Attack 시뮬레이터는 **위협 관리** \> **공격 시뮬레이터**에서 사용할 수 있습니다.
 
   ![위협 관리-공격 시뮬레이터](../../media/ThreatMgmt-AttackSimulator.png)
 
-- 다양 한 Office 365 구독에서 공격 시뮬레이터의 가용성에 대 한 자세한 내용은 [office 365 Advanced Threat Protection 서비스 설명을](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)참조 하세요.
+- 서로 다른 Microsoft 365 구독에서 공격 시뮬레이터를 사용할 경우의 가용성에 대 한 자세한 내용은 [Office 365 Advanced Threat Protection 서비스 설명을](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)참조 하세요.
 
-- **조직 관리** 또는 **보안 관리자** 역할 그룹의 구성원 이어야 합니다. 보안 & 준수 센터의 역할 그룹에 대 한 자세한 내용은 [Permissions in The Office 365 Security & 준수 센터](permissions-in-the-security-and-compliance-center.md)를 참조 하십시오.
+- **조직 관리** 또는 **보안 관리자** 역할 그룹의 구성원 이어야 합니다. 보안 & 준수 센터의 역할 그룹에 대 한 자세한 내용은 [보안 & 준수 센터의 사용 권한을](permissions-in-the-security-and-compliance-center.md)참조 하세요.
 
 - MFA (multi-factor authentication)를 사용 하 여 공격 시뮬레이터에서 캠페인을 만들고 관리 하도록 계정을 구성 해야 합니다. 자세한 내용은 [다단계 인증 설정을](https://docs.microsoft.com/office365/admin/security-and-compliance/set-up-multi-factor-authentication)참조 하십시오.
 
-- Exchange Online의 사서함이 있는 사용자에 대해서만 피싱 또는 암호 공격 캠페인을 실행할 수 있습니다.
+공격이 정상적으로 시작 되려면 시뮬레이트된 공격을 실행 하는 데 사용 하는 계정이 다단계 인증을 사용 하 고 있는지 확인 합니다. 또한 전역 관리자 또는 보안 관리자 여야 합니다. 역할 및 사용 권한에 대 한 자세한 내용은 [보안 & 준수 센터의 사용 권한을](permissions-in-the-security-and-compliance-center.md)참조 하세요.
 
 - 피싱 캠페인은 30 일 동안 이벤트를 수집 하 고 처리 합니다. 캠페인을 시작한 후 최대 90 일 동안 역사적 캠페인 데이터를 사용할 수 있습니다.
 
@@ -49,11 +49,11 @@ Office 365의 Attack 시뮬레이터에서 Advanced Threat Protection 계획 2 (
 
 *피싱은* 적법 하거나 신뢰할 수 있는 보낸 사람 으로부터 온 것 처럼 보이는 메시지의 중요 한 정보를 도용 하는 전자 메일 공격에 대 한 일반 용어입니다. *스피어 피싱은* 대상 지정 된 받는 사람에 따라 특별히 조정 된 콘텐츠 (일반적으로 공격자가 받는 사람을 검사 한 후)를 사용 하는 대상 피싱 공격입니다.
 
-피싱 및 스피어 피싱에 대 한 자세한 내용은 [피싱](https://docs.microsoft.com/windows/security/threat-protection/intelligence/phishing)을 참조 하십시오.
+- 전역 관리자 또는 보안 관리자 인 경우
 
 Attack 시뮬레이터에서는 다음과 같은 두 가지 유형의 스피어 피싱 캠페인을 사용할 수 있습니다.
 
-- **스피어 피싱 (자격 증명 수집)**:이 공격은 수신자에 게 메시지의 URL을 클릭 하도록 유도 하려고 시도 합니다. 링크를 클릭 하면 사용자에 게 자격 증명을 입력 하 라는 메시지가 표시 됩니다. 이러한 경우에는 다음 위치 중 하나로 이동 합니다.
+- 하나 이상의 전역 관리자 계정 및 보안 관리자에 게 공격 시뮬레이터를 사용할 수 있도록 [다단계 인증/조건부 액세스가](https://docs.microsoft.com/office365/admin/security-and-compliance/set-up-multi-factor-authentication) 설정 되어 있어야 합니다. 이상적으로는 조직의 모든 사용자에 대해 다단계 인증/조건부 액세스를 설정 하는 것이 좋습니다.
 
   - 이를 설명 하는 기본 페이지는 테스트 일 뿐 이며 피싱 메시지를 인식 하기 위한 팁을 제공 합니다.
 
@@ -255,7 +255,7 @@ Attack 시뮬레이터에서는 사용자 암호의 복잡도를 테스트 하�
 
    - **무작위 암호 (사전 공격)**: 다음 단계 중 하나를 수행 합니다.
 
-     - **암호를 수동으로 입력**합니다. **암호를 추가 하려면 Enter 키를 누릅니다** 상자에 암호를 입력 한 다음 enter 키를 누릅니다. 필요한 횟수만큼 이 단계를 반복합니다.
+     - **암호를 수동으로 입력**합니다. **암호를 추가 하려면 Enter 키를 누릅니다** 상자에 암호를 입력 한 다음 enter 키를 누릅니다. 필요한 만큼 이 단계를 반복합니다.
 
      - **사전 파일에서 암호 업로드**: **업로드** 를 클릭 하 여 각 줄에 하나의 암호를 포함 하는 기존 텍스트 파일을 가져오고 마지막 줄에는 빈 행을 가져옵니다. 텍스트 파일의 크기는 10mb이 하 여야 하며, 3만 개 이하의 암호를 포함할 수 없습니다.
 

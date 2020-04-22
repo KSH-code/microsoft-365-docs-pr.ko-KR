@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 64535a0a-1044-413f-8bc2-ed8e8a0bc54c
 description: Microsoft에서는 자체 지원 및 보조 지원을 비롯하여 다양한 방법 및 위치에서 EOP에 대한 도움말을 제공합니다.
-ms.openlocfilehash: 3aef0cfa6209809f7a65e4179809d58d6f55aeb2
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 6fde3c6cf62f865a17f081c1892d6a5197b037f9
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41599245"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43638049"
 ---
 # <a name="help-and-support-for-eop"></a>EOP에 대한 도움말 및 지원
 
@@ -25,13 +25,13 @@ ms.locfileid: "41599245"
 
 ## <a name="self-support-options"></a>자체 지원 옵션
 
-로그인 시 Office 365 포털에서는 조직의 서비스 상태에 대한 정보를 제공합니다. 또한 Office 365의 서비스 상태 섹션에는 서비스의 현재 상태, 장애 및 중단에 대한 세부 정보 및 계획된 유지 관리 시간 목록이 표시됩니다. Office 365 포털에서는 알려진 문제 및 예상 해결 방법에 대한 정보도 제공합니다. 서비스 수준 이벤트의 영향을 받은 경우 일반적으로 종 모양 아이콘이 표시된 통신 경고가 나타납니다. 모든 항목을 읽고 적절한 조치를 취하는 것이 좋습니다. Office 365의 서비스 상태 영역에 대 한 자세한 내용은 [서비스 상태 및 연속성](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/service-health-and-continuity)를 참조 하세요. 여기에 나열된 도구, 포럼 및 커뮤니티 사이트를 사용하여 추가 도움말을 직접 찾을 수 있습니다.
+로그인 할 때 Microsoft 365 관리 센터는 조직의 서비스 상태에 대 한 정보를 제공 합니다. 또한 서비스 상태 섹션에는 서비스의 현재 상태, 장애 및 중단에 대 한 세부 정보 및 계획 된 유지 관리 시간 목록이 표시 됩니다. 또한 Microsoft 365 관리 센터에서는 알려진 문제 및 예상 해결 방법에 대 한 정보도 제공 합니다. 서비스 수준 이벤트의 영향을 받은 경우 일반적으로 종 모양 아이콘이 표시된 통신 경고가 나타납니다. 모든 항목을 읽고 적절한 조치를 취하는 것이 좋습니다. 서비스 상태 영역에 대 한 자세한 내용은 [서비스 상태 및 연속성](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/service-health-and-continuity)를 참조 하세요. 여기에 나열된 도구, 포럼 및 커뮤니티 사이트를 사용하여 추가 도움말을 직접 찾을 수 있습니다.
 
 [Exchange Online Protection에 대한 제품 개요](https://products.office.com/exchange/exchange-email-security-spam-protection)
 
 [비즈니스용 제품에 대한 고객 지원 센터 - 관리자 도움말](https://docs.microsoft.com/office365/admin/contact-support-for-business-products)
 
-[Office 365 커뮤니티](https://techcommunity.microsoft.com/t5/Office-365/ct-p/Office365)
+[Microsoft 365 커뮤니티](https://techcommunity.microsoft.com/t5/Office-365/ct-p/Office365)
 
 [Microsoft 지원 및 복구 도우미 (SaRA)](https://support.office.com/article/e90bb691-c2a7-4697-a94f-88836856c72f)
 
@@ -63,11 +63,11 @@ EOP 고객이면서 Microsoft 프리미어 지원 계약도 보유하고 있는 
 
    EOP를 구입하기 전 궁금한 사항이 있거나 대금 청구 및 구독과 관련하여 궁금한 사항이 있는 경우 **지원** \> **고객 지원 요청** \> **청구 및 구독 지원에 문의**로 이동합니다.
 
-3. Microsoft Office 365용 가상 에이전트를 사용하여 해당하는 최신 전화 번호를 검색합니다.
+3. 가상 에이전트를 사용 하 여 해당 하는 최신 전화 번호를 검색 합니다.
 
 ## <a name="support-telephone-numbers"></a>지원 전화 번호
 
-Microsoft는 전 세계에 제품 지원을 위한 해당 지역 전화 번호나 무료 전화 번호를 제공합니다. 이러한 대부분의 지원 센터에서는 영어 지원은 연중 내내(24x7x365) 제공되며, 현지 언어는 업무 시간 동안 지원됩니다. 아래에 해당하는 지역이 보이지 않는 경우 위에 설명된 Microsoft Office 365용 가상 에이전트를 사용하여 해당 지역의 지원 전화 번호를 찾아보십시오.
+Microsoft는 전 세계에 제품 지원을 위한 해당 지역 전화 번호나 무료 전화 번호를 제공합니다. 이러한 대부분의 지원 센터에서는 영어 지원은 연중 내내(24x7x365) 제공되며, 현지 언어는 업무 시간 동안 지원됩니다. 아래 목록에 해당 하는 위치가 표시 되지 않으면 위의 설명 대로 가상 에이전트를 사용 하 여 로컬 지원 전화 번호를 확인 합니다.
 
 |**국가 또는 지역**|**선구매 및 대금 청구 관련 질문**|**기술 지원 서비스 관련 질문**|
 |:-----|:-----|:-----|

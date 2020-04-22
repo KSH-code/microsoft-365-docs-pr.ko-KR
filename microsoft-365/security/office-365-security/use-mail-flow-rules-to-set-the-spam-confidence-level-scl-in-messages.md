@@ -16,20 +16,20 @@ ms.assetid: 4ccab17a-6d49-4786-aa28-92fb28893e99
 ms.collection:
 - M365-security-compliance
 description: 관리자는 Exchange Online Protection에서 메시지의 SCL을 설정 하는 방법을 확인할 수 있습니다.
-ms.openlocfilehash: b7ea9a0f046e5a48f0de8d4ac9ae6d53821f03c0
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: cc75130d1e30b4cd64c32b1729c8145ad3088742
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42895098"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636431"
 ---
 # <a name="use-mail-flow-rules-to-set-the-spam-confidence-level-scl-in-messages"></a>메일 흐름 규칙을 사용하여 메시지의 스팸 신뢰 수준(SCL) 설정
 
-Exchange online 사서함이 없는 Office 365 고객 또는 독립 실행형 EOP (Exchange Online Protection) 고객 인 경우 EOP에서는 스팸 방지 정책 (스팸 필터 정책 또는 콘텐츠 필터 정책이 라고도 함)을 사용 하 여 검색을 수행 합니다. 스팸에 대 한 인바운드 메시지입니다. 자세한 내용은 [Office 365의 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)를 참조하세요.
+Exchange online 사서함이 없는 Microsoft 365 고객이 나 독립 실행형 EOP (Exchange Online Protection) 고객 인 경우 EOP에서는 스팸 방지 정책 (스팸 필터 정책 또는 콘텐츠 필터 정책이 라고도 함)을 사용 하 여 스팸 메일에 대 한 인바운드 메시지를 검사 합니다. 자세한 내용은 [Office 365의 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)를 참조하세요.
 
 특정 메시지를 스팸으로 표시 하 여 스팸 필터링으로 검색 하거나 메시지를 표시 하 여 스팸 필터링을 건너뛰도록 하려면 메시지를 식별 하 고 SCL (스팸 지 수)을 설정 하는 메일 흐름 규칙 (전송 규칙이 라고도 함)을 만들 수 있습니다. SCL에 대 한 자세한 내용은 [Office 365에서 scl (스팸](spam-confidence-levels.md)지 수)을 참조 하세요.
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
 
 - 이러한 절차를 수행 하려면 먼저 Exchange Online에서 사용 권한을 할당 받아야 합니다. 특히 **조직 관리**, **규정 준수 관리**및 **레코드 관리** 역할에 할당 되는 **전송 규칙** 역할을 기본적으로 할당 해야 합니다. 자세한 내용은 [Exchange Online에서 역할 그룹 관리](https://docs.microsoft.com/Exchange/permissions-exo/role-groups)를 참조하세요.
 
@@ -64,7 +64,7 @@ Exchange online 사서함이 없는 Office 365 고객 또는 독립 실행형 EO
 
    - **7-9**: 메시지가 **높은 신뢰도 스팸으로**표시 됩니다. 스팸 방지 정책에서 **높은 신뢰도의 스팸** 필터링 verdicts에 대해 구성한 작업은 메시지에 적용 됩니다 (기본값은 **정크 메일 폴더로 메시지 이동**).
 
-4. 규칙에 대해 원하는 추가 속성을 지정 합니다. 작업을 마친 후 **저장**을 클릭합니다.
+4. 규칙에 대해 원하는 추가 속성을 지정 합니다. 작업을 마쳤으면 **저장**을 클릭합니다.
 
 ## <a name="how-do-you-know-this-worked"></a>작동 여부는 어떻게 확인하나요?
 

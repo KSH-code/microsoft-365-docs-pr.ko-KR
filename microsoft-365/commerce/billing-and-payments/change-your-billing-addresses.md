@@ -1,5 +1,5 @@
 ---
-title: 비즈니스용 Office 365의 대금 청구 주소 변경
+title: 대금 청구 주소 변경
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -21,16 +21,16 @@ search.appverid:
 - BEA160
 - GEA150
 ms.assetid: a25c10d6-c1e9-4299-9185-25178df9eba6
-description: 비즈니스용 Office 365의 대금 청구 주소를 업데이트 하는 방법을 알아봅니다. 또한 대금 청구 알림을 수신 하는 데 사용 되는 전자 메일 주소를 업데이트할 수 있습니다.
+description: 비즈니스용 Microsoft 365에 대 한 대금 청구 주소를 업데이트 하는 방법을 알아봅니다. 또한 대금 청구 알림을 수신 하는 데 사용 되는 전자 메일 주소를 업데이트할 수 있습니다.
 ms.custom: okr_SMB
-ms.openlocfilehash: 6b11e38de33bf6d66c5847643790603b9ce7b0af
-ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
+ms.openlocfilehash: 169dfd78ca39e91e065c3bea59242a9f205463d0
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43142314"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632722"
 ---
-# <a name="change-your-billing-addresses-for-office-365-for-business"></a>비즈니스용 Office 365의 대금 청구 주소 변경
+# <a name="change-your-billing-addresses"></a>대금 청구 주소 변경
 
 청구서 또는 송장에는 다음과 같은 세 가지 주소가 포함 됩니다.
   
@@ -60,9 +60,6 @@ ms.locfileid: "43142314"
 
 ::: moniker-end
 
-::: moniker range="o365-worldwide"
-
-::: moniker-end
 
 ## <a name="change-your-sold-to-address"></a>구매자 주소 변경
 
@@ -88,7 +85,7 @@ ms.locfileid: "43142314"
 
 ::: moniker range="o365-germany"
 
-1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">구독</a> 페이지로 이동 합니다.
+1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">구독</a> 페이지로 이동합니다.
 
 2. 변경 하려는 구독을 선택한 다음 **결제 정보 변경을**선택 합니다.
 
@@ -108,7 +105,7 @@ ms.locfileid: "43142314"
 
 ::: moniker range="o365-21vianet"
 
-1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">구독</a> 페이지로 이동 합니다.
+1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">구독</a> 페이지로 이동합니다.
 
 2. 변경 하려는 구독을 선택한 다음 **결제 정보 변경을**선택 합니다.
 
@@ -134,7 +131,7 @@ ms.locfileid: "43142314"
 
 ::: moniker range="o365-germany"
 
-1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">구독</a> 페이지로 이동 합니다.
+1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">구독</a> 페이지로 이동합니다.
 
 2. 변경 하려는 구독을 선택 하 고 **기타 작업**을 선택한 다음 **서비스 사용 주소 편집**을 선택 합니다.
 
@@ -146,7 +143,7 @@ ms.locfileid: "43142314"
 
 ::: moniker range="o365-21vianet"
 
-1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">구독</a> 페이지로 이동 합니다.
+1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">구독</a> 페이지로 이동합니다.
 
 2. 변경 하려는 구독을 선택 하 고 **기타 작업**을 선택한 다음 **서비스 사용 주소 편집**을 선택 합니다.
 
@@ -158,9 +155,9 @@ ms.locfileid: "43142314"
 
 ## <a name="change-the-alternate-email-address-your-billing-notifications-are-sent-to"></a>대금 청구 알림을 받을 다른 전자 메일 주소 변경
 
-기본적으로 조직의 청구 알림은 Office 365 전자 메일 주소와 조직 내 모든 전역 관리자와 청구 관리자의 대체 전자 메일 주소로 전송됩니다. 각 관리자는 자신의 프로필 정보를 업데이트하여 자신의 대체 전자 메일 주소를 변경할 수 있습니다.
+기본적으로 조직의 청구 알림은 Microsoft 전자 메일 주소와 조직 내 모든 전역 및 청구 관리자의 대체 전자 메일 주소로 전송 됩니다. 각 관리자는 자신의 프로필 정보를 업데이트하여 자신의 대체 전자 메일 주소를 변경할 수 있습니다.
   
-1. 회사 또는 학교 계정을 사용하여 전역 관리자로 Office 365에 로그인합니다. [로그인하는 방법을 알아보세요.](https://support.office.com/article/e9eb7d51-5430-4929-91ab-6157c5a050b4).
+1. 회사 또는 학교 계정을 전역 관리자로 사용 하 여 Microsoft 365에 로그인 합니다. [로그인 하는 방법을 알아봅니다](https://support.office.com/article/e9eb7d51-5430-4929-91ab-6157c5a050b4).
 
 2. **사용자 아이콘**을 선택한 다음 **내 계정**을 선택 합니다.
   
@@ -173,16 +170,14 @@ ms.locfileid: "43142314"
 ## <a name="change-the-alternate-email-address-for-another-admin"></a>다른 관리자의 대체 전자 메일 주소 변경
 
 조직의 다른 전역 및 청구 관리자의 대체 전자 메일 주소를 변경할 수도 있습니다.
-
-::: moniker range="o365-worldwide"
-
-1. 관리 센터에서 **대금 청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=853212" target="_blank">알림</a> 페이지로 이동 합니다.
+  
+1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=853212" target="_blank">대금 청구 알림</a> 페이지로 이동합니다.
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. 관리 센터에서 **대금 청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=853213" target="_blank">알림</a> 페이지로 이동 합니다.
+1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=853213" target="_blank">대금 청구 알림</a> 페이지로 이동합니다.
 
 ::: moniker-end
 
@@ -203,3 +198,5 @@ ms.locfileid: "43142314"
 [요금 청구 방식](understand-your-invoice2.md)
 
 [구독 요금 결제](pay-for-your-subscription.md)
+
+[구독 및 대금 청구-관리자 도움말](../index.yml)

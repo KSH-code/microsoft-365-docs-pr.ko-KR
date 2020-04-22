@@ -16,12 +16,12 @@ ms.custom:
 ms.collection:
 - M365-identity-device-management
 - M365-security-compliance
-ms.openlocfilehash: 28d0893d08e588e52cf202be8d03b00434f7cb10
-ms.sourcegitcommit: c079cc893cd1bd5d894b13814063a2f42238806e
+ms.openlocfilehash: f1a4a4ea69efc3c68bdc8ed66aa18833a28feb94
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43035102"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636726"
 ---
 # <a name="policy-recommendations-for-securing-teams-chats-groups-and-files"></a>팀 대화방, 그룹 및 파일을 보호 하기 위한 정책 권장 사항
 
@@ -33,9 +33,9 @@ ms.locfileid: "43035102"
 
 ## <a name="getting-started-with-teams-before-other-dependent-services"></a>다른 종속 서비스 이전의 팀 시작
 
-Microsoft 팀을 시작 하기 위해 종속 서비스를 사용 하도록 설정할 필요는 없습니다. 모든 작업을 수행 합니다. 그러나 다음을 관리할 준비를 해야 합니다.
+Microsoft 팀을 시작 하기 위해 종속 서비스를 사용 하도록 설정할 필요는 없습니다. 이러한 모든 작업은 "작동" 합니다. 그러나 다음을 관리할 준비를 해야 합니다.
 
-- Office 365 그룹
+- Microsoft 365 그룹
 - SharePoint 팀 사이트
 - 비즈니스용 OneDrive
 - 사서함
@@ -84,7 +84,7 @@ Azure AD에서 게스트 및 외부 사용자는 동일 합니다. 이러한 두
 
 ### <a name="guest-access-in-teams"></a>팀의 게스트 액세스
 
-비즈니스 또는 조직 내부에 있는 사용자에 대 한 정책 외에도 관리자는 게스트 액세스를 사용 하도록 설정 하 여 회사 또는 조직 외부의 사용자가 팀 리소스에 액세스 하 고 상호 작용할 수 있도록 할 수 있습니다. 그룹 대화, 채팅 및 모임 같은 사물에 대 한 내부 사용자입니다. 게스트 액세스에 대 한 자세한 내용은 [팀 게스트 액세스](https://docs.microsoft.com/microsoftteams/guest-access) 링크를 통해 확인할 수 있습니다.
+비즈니스 또는 조직 내부에 있는 사용자에 대 한 정책 외에도 관리자는 게스트 액세스를 허용 하 고 사용자가 비즈니스 또는 조직 외부에 있는 사용자가 팀 리소스에 액세스 하 고 그룹 대화, 채팅 및 모임 등의 내부 사람들과 상호 작용할 수 있습니다. 게스트 액세스에 대 한 자세한 내용은 [팀 게스트 액세스](https://docs.microsoft.com/microsoftteams/guest-access) 링크를 통해 확인할 수 있습니다.
 
 ### <a name="external-access-in-teams"></a>팀의 외부 액세스
 

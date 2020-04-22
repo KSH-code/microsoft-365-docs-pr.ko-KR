@@ -1,5 +1,5 @@
 ---
-title: Office 365에서 자동화 된 조사 결과 보기
+title: Microsoft 365에서 자동화 된 조사 결과 보기
 keywords: AIR, autoIR, ATP, 자동화, 조사, 대응, 재구성, 위협, 고급, 위협, 보호
 f1.keywords:
 - NOCSH
@@ -14,15 +14,15 @@ search.appverid:
 - MET150
 - MOE150
 ms.collection: M365-security-compliance
-description: Office 365에서 자동화 된 조사가 진행 되는 동안과 후에는 결과 및 주요 발견 사항을 볼 수 있습니다.
-ms.openlocfilehash: e19669f48047f1800d2a904c6ef5565d8db94dd9
-ms.sourcegitcommit: 7bb340f6b47378bcd1c6e770dc975931470bbc26
+description: Microsoft 365에서 자동화 된 조사가 진행 되는 동안과 후에는 결과 및 주요 발견 사항을 볼 수 있습니다.
+ms.openlocfilehash: e0ecea63260fae474973b39e7069029a2ec93dcb
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/10/2020
-ms.locfileid: "43225978"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634631"
 ---
-# <a name="details-and-results-of-an-automated-investigation-in-office-365"></a>Office 365의 자동화 된 조사에 대 한 세부 정보 및 결과
+# <a name="details-and-results-of-an-automated-investigation-in-microsoft-365"></a>Microsoft 365의 자동화 된 조사에 대 한 세부 정보 및 결과
 
 [자동 조사가](office-365-air.md) [Office 365 Advanced Threat Protection](office-365-atp.md)에서 발생 하는 경우 자동화 된 조사 프로세스 중 및 후에 해당 조사에 대 한 세부 정보를 확인할 수 있습니다. 필수 권한이있는 경우 조사 세부 정보 보기에서 해당 정보를 확인할 수 있습니다.  조사 세부정부 보기에서 최신 상태를 확인하거나 보류중인 작업을 승인할 수 있습니다. 
 
@@ -46,7 +46,7 @@ ms.locfileid: "43225978"
 
 ## <a name="view-details-of-an-investigation"></a>조사 세부 정보 보기
 
-1. Office 365 Security & 준수 센터 ([https://protection.office.com](https://protection.office.com))로 이동 하 여 로그인 합니다.
+1. 보안 & 준수 센터 ([https://protection.office.com](https://protection.office.com))로 이동 하 여 로그인 합니다.
 
 2. 다음 중 하나를 수행합니다.
 
@@ -66,9 +66,9 @@ ms.locfileid: "43225978"
 
 ## <a name="view-details-about-an-alert-related-to-an-investigation"></a>조사와 관련 된 경고에 대 한 세부 정보 보기
 
-특정 유형의 경고는 Office 365에서 자동화 된 조사를 트리거합니다. 자세한 내용은 [Alerts](automated-investigation-response-office.md#alerts)를 참조 하십시오. 다음 절차에 따라 자동화 된 조사에 연결 된 경고에 대 한 세부 정보를 확인 합니다.
+특정 유형의 경고는 Microsoft 365에서 자동화 된 조사를 트리거합니다. 자세한 내용은 [Alerts](automated-investigation-response-office.md#alerts)를 참조 하십시오. 다음 절차에 따라 자동화 된 조사에 연결 된 경고에 대 한 세부 정보를 확인 합니다.
 
-1. Office 365 Security & 준수 센터 ([https://protection.office.com](https://protection.office.com))로 이동 하 여 로그인 합니다. 
+1. 보안 & 준수 센터 ([https://protection.office.com](https://protection.office.com))로 이동 하 여 로그인 합니다. 
 
 2. **위협 관리** > **조사**로 이동 합니다.
 
@@ -215,7 +215,7 @@ ms.locfileid: "43225978"
 
 |시키기 | 설명 |
 |-----|-----|
-|DLP 위반 조사 |[Office 365 DLP (데이터 손실 방지](../../compliance/data-loss-prevention-policies.md) )에서 검색 되는 모든 위반 조사 |
+|DLP 위반 조사 |DLP ( [데이터 손실 방지](../../compliance/data-loss-prevention-policies.md) )로 감지 되는 위반을 조사 합니다. |
 |전자 메일 지표 추출 |조사를 위해 전자 메일 메시지의 머리글, 본문 및 내용에서 표시기 추출 |
 |파일 해시 신뢰도 |조직의 사용자 및 컴퓨터에 대 한 파일 해시를 기반으로 예외 검색 |
 |메일 클러스터 식별 |헤더, 본문, 콘텐츠 및 Url을 기반으로 하는 전자 메일 분석 |

@@ -23,12 +23,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Microsoft 팀과 함께 팀을 위한 공동 작업 공간을 확보 합니다.
-ms.openlocfilehash: d057dbf0afca31b91e8792b3e0ca13d45b5e3455
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: a89d7a87a18431dfef72c6f7ca4d6c7fbce21f7c
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42056356"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635651"
 ---
 # <a name="create-teams-for-collaboration-in-microsoft-teams"></a>Microsoft 팀에서 공동 작업을 위한 팀 만들기
 
@@ -48,7 +48,7 @@ Microsoft 팀은 모든 장치에서 직원 들의 구성을 유지 하 고 대�
 
 팀을 만들 때는 다음 작업을 수행 합니다.
 
-- 새 [Office 365 그룹](https://docs.microsoft.com/MicrosoftTeams/office-365-groups)
+- 새 [Microsoft 365 그룹](https://docs.microsoft.com/MicrosoftTeams/office-365-groups)
 - 팀 파일을 저장 하는 [SharePoint Online](https://docs.microsoft.com/MicrosoftTeams/sharepoint-onedrive-interact) 사이트 및 문서 라이브러리
 - [Exchange Online](https://docs.microsoft.com/MicrosoftTeams/exchange-teams-interact) 공유 사서함 및 일정
 - OneNote 전자 필기장

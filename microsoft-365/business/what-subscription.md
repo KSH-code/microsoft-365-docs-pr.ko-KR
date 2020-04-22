@@ -1,5 +1,7 @@
 ---
 title: 비즈니스에 적합 한 구독은 무엇입니까?
+f1.keywords:
+- NOCSH
 ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
@@ -15,14 +17,14 @@ ms.custom:
 search.appverid:
 - BCS160
 - MET150
-description: Office 365 E3, Office 365 Business Premium 또는 Microsoft 365 비즈니스가 비즈니스에 적합 한지 여부를 결정 합니다.
-ms.openlocfilehash: f3adf67cf164b14596bc0cedf1cacd7dec41955e
-ms.sourcegitcommit: b535fe233234fd25146cfe15478e20d954f71e03
+description: 비즈니스에 적합 한 Office 365 E3, Microsoft 365 Business Standard 또는 Microsoft 365 Business Premium이 있는지 여부를 확인 합니다.
+ms.openlocfilehash: 480129ad8251770a4153b7ecc0777bdf03759012
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 11/20/2019
-ms.locfileid: "38748324"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635667"
 ---
 # <a name="what-subscription-is-right-for-your-small-business"></a>소규모 비즈니스에 적합 한 구독은 무엇입니까?
 
-Microsoft는 소규모 기업에 대 한 여러 요금제를 제공 합니다. 권장 구독은 Office 365 Business Premium 또는 Microsoft 365 Business (최대 300 사용자)입니다. Microsoft 365 Business는 추가 비용을 위해 Office 365 Business Premium 보다 더 많은 보안 기능을 제공 합니다.
+Microsoft는 소규모 기업에 대 한 여러 요금제를 제공 합니다. 권장 구독은 Microsoft 365 Business Standard 또는 Microsoft 365 Business Premium (최대 300 사용자)입니다. Microsoft 365 Business Premium은 추가 비용에 대해 Microsoft 365 Business Standard 보다 더 많은 보안 기능을 제공 합니다.

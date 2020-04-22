@@ -6,7 +6,7 @@ ms.author: sirkkuw
 author: Sirkkuw
 manager: scotv
 audience: Admin
-ms.topic: reference
+ms.topic: article
 ms.service: o365-administration
 localization_priority: Normal
 ms.collection:
@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 08c5307c-4a6b-4761-8410-a6c96725760f
 description: '사용 현황 분석을 통해 API에 연결 하 고 다양 한 Microsoft 365 서비스의 사용에 대 한 월별 추세를 제공 하는 방법을 알아봅니다.  '
-ms.openlocfilehash: d2d08a46ad6bcf3659c78a381ce20d99ea805ac7
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 56ef0ffcedee71a4529ff31aecefed0d2645b89a
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42255923"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634243"
 ---
 # <a name="microsoft-365-usage-analytics-data-model"></a>Microsoft 365 사용 현황 분석 데이터 모델
 

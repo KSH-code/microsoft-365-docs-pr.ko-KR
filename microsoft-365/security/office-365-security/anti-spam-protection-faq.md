@@ -15,16 +15,16 @@ ms.assetid: c534a35d-b121-45da-9d0a-ce738ce51fce
 ms.collection:
 - M365-security-compliance
 description: Exchange Online 및 독립 실행형 EOP (Exchange Online Protection)의 스팸 방지 보호 기능에 대 한 질문과 대답 (faq)을 제공 합니다.
-ms.openlocfilehash: 30ab9ceb7d2e9e4a264311ff43343485a57d622c
-ms.sourcegitcommit: 9ed3283dd6dd959faeca5c22613f9126261b9590
+ms.openlocfilehash: 0bd34639d717b979a02272e3c2f5de243c68d3ab
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43528316"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636061"
 ---
-# <a name="anti-spam-protection-faq-in-office-365"></a>Office 365의 스팸 방지 보호 기능 FAQ
+# <a name="anti-spam-protection-faq"></a>스팸 방지 보호 FAQ
 
-이 항목에서는 Exchange Online 사서함이 없는 Exchange Online 또는 독립 실행형 EOP (Exchange Online Protection) 고객의 사서함을 포함 하는 Office 365 고객의 스팸 방지 보호 기능에 대 한 질문과 대답을 제공 합니다.
+이 항목에서는 Exchange Online 사서함이 없는 Exchange Online 또는 독립 실행형 EOP (Exchange Online Protection) 고객의 사서함을 포함 하는 Microsoft 365 고객의 스팸 방지 보호 기능에 대 한 질문과 대답을 제공 합니다.
 
 격리에 대한 질문과 대답은 [격리 FAQ](quarantine-faq.md)를 참조하세요.
 
@@ -34,12 +34,12 @@ ms.locfileid: "43528316"
 
 ## <a name="q-by-default-what-happens-to-a-spam-detected-message"></a>질문. 스팸으로 검색된 메시지에 대해 기본적으로 수행되는 작업은 무엇입니까?
 
-대답. **인바운드 메시지의 경우**: 대부분의 스팸은 원본 전자 메일 서버의 IP 주소를 기반으로 하는 연결 필터링을 통해 삭제 됩니다. 스팸 방지 정책 (스팸 필터 정책 또는 콘텐츠 필터 정책이 라고도 함)은 메시지를 조사 하 여 스팸, 대량 또는 피싱으로 분류 합니다. 기본적으로 스팸으로 분류 된 메시지는 받는 사람의 정크 메일 폴더로 배달 되며, 피싱로 분류 된 메시지는 격리 됩니다. 모든 받는 사람에 게 적용 되는 기본 스팸 방지 정책을 수정 하거나, 특정 사용자 그룹에 대 한 보다 엄격한 설정으로 사용자 지정 스팸 방지 정책을 만들 수 있습니다 (예: 임원에 전송 된 스팸 격리 가능). 자세한 내용은 [Office 365에서 스팸 방지 정책 구성](configure-your-spam-filter-policies.md) 및 [권장 되는 스팸 방지 정책 설정을](recommended-settings-for-eop-and-office365-atp.md#eop-anti-spam-policy-settings)참조 하세요.
+대답. **인바운드 메시지의 경우:** 대부분의 스팸은 원본 전자 메일 서버의 IP 주소를 기반으로 하는 연결 필터링을 통해 삭제 됩니다. 스팸 방지 정책 (스팸 필터 정책 또는 콘텐츠 필터 정책이 라고도 함)은 메시지를 조사 하 여 스팸, 대량 또는 피싱으로 분류 합니다. 기본적으로 스팸으로 분류 된 메시지는 받는 사람의 정크 메일 폴더로 배달 되며, 피싱로 분류 된 메시지는 격리 됩니다. 모든 받는 사람에 게 적용 되는 기본 스팸 방지 정책을 수정 하거나, 특정 사용자 그룹에 대 한 보다 엄격한 설정으로 사용자 지정 스팸 방지 정책을 만들 수 있습니다 (예: 임원에 전송 된 스팸 격리 가능). 자세한 내용은 [스팸 방지 정책 구성](configure-your-spam-filter-policies.md) 및 [권장 되는 스팸 방지 정책 설정을](recommended-settings-for-eop-and-office365-atp.md#eop-anti-spam-policy-settings)참조 하십시오.
 
 > [!IMPORTANT]
 > EOP가 온-프레미스 사서함을 보호 하는 하이브리드 배포에서는 메시지에 추가 되는 EOP 스팸 필터링 헤더를 검색 하도록 온-프레미스 Exchange 조직에서 두 가지 Exchange 메일 흐름 규칙 (전송 규칙이 라고도 함)을 구성 해야 합니다. 자세한 내용은 [하이브리드 환경에서 스팸을 정크 메일 폴더로 배달하도록 독립 실행형 EOP 구성하기](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md)를 참조하세요.
 
- **아웃 바운드 메시지의 경우**: 메시지가 [높은 위험 배달 풀](high-risk-delivery-pool-for-outbound-messages.md) 을 통해 라우팅되고 있거나 배달 못 함 보고서 (NDR 또는 바운스 메시지로 알려짐)의 보낸 사람에 게 반환 됩니다. 아웃 바운드 스팸 보호에 대 한 자세한 내용은 [Office 365의 아웃 바운드 스팸 제어](outbound-spam-controls.md)를 참조 하세요.
+ **아웃 바운드 메시지의 경우:** 메시지가 [위험성이 높은 배달 풀](high-risk-delivery-pool-for-outbound-messages.md) 을 통해 라우팅되고 있거나 배달 못 함 보고서 (NDR 또는 바운스 메시지로 알려짐)에서 보낸 사람에 게 반환 됩니다. 아웃 바운드 스팸 방지에 대 한 자세한 내용은 [아웃 바운드 스팸 제어](outbound-spam-controls.md)를 참조 하십시오.
 
 ## <a name="q-whats-a-zero-day-spam-variant-and-how-is-it-handled-by-the-service"></a>질문. 스팸이 0 일에 해당 하는 것은 무엇 이며, 서비스에서 처리 하는 방법은 무엇 인가요?
 
@@ -75,7 +75,7 @@ A. 예. 대량 전자 메일에 대 한 자세한 내용은 [정크 메일과 �
 
 ## <a name="q-how-can-customers-using-the-service-send-false-negative-spam-and-false-positive-non-spam-messages-to-microsoft"></a>질문. 서비스를 사용하는 고객이 거짓 부정(스팸) 및 가양성(스팸 아님) 메시지를 Microsoft로 보내려면 어떻게 해야 합니까?
 
-대답. 스팸 및 스팸이 아닌 메시지는 분석을 위해 여러 가지 방법으로 Microsoft에 제출할 수 있습니다. 자세한 내용은 [메시지 및 파일을 Microsoft에 보고](report-junk-email-messages-to-microsoft.md)를 참조 하세요.
+대답. 스팸 및 스팸이 아닌 메시지는 분석을 위해 여러 가지 방법으로 Microsoft에 제출할 수 있습니다. 자세한 내용은 [Microsoft에 메시지와 파일 보고](report-junk-email-messages-to-microsoft.md)를 참조하세요.
 
 ## <a name="q-can-i-get-spam-reports"></a>질문. 스팸 보고서를 확인할 수 있습니까?
 
@@ -97,11 +97,11 @@ Exchange Online 고객: [Exchange online의 모니터링, 보고 및 메시지 �
 
 ## <a name="q-can-i-use-a-third-party-anti-spam-and-anti-malware-provider-in-conjunction-with-exchange-online"></a>질문. 타사 스팸 방지 및 맬웨어 방지 공급자와 Exchange Online을 함께 사용할 수 있습니까?
 
-A. 예. MX 레코드를 Office 365로 가리키기는 것이 좋지만 Office 365이 아닌 다른 사람에 게 전자 메일을 라우팅하는 합법적인 비즈니스 이유가 있다는 것을 알 수 있습니다.
+A. 예. Microsoft에 대 한 MX 레코드를 가리키는 것이 좋지만 Microsoft가 아닌 다른 사람에 게 전자 메일을 라우팅하는 합법적인 비즈니스 이유가 있다는 것을 알게 되었습니다.
 
 - **Inbound**: 타사 공급자를 가리키도록 MX 레코드를 변경한 다음 추가 처리를 위해 메시지를 EOP로 리디렉션합니다. 자세한 내용은 [Exchange Online의 커넥터에 대 한 향상 된 필터링](https://docs.microsoft.com/exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors)을 참조 하십시오.
 
-- **Outbound**: Office 365에서 대상 타사 공급자로의 스마트 호스트 라우팅을 구성 합니다.
+- **Outbound**: Microsoft 365에서 대상 타사 공급자로의 스마트 호스트 라우팅을 구성 합니다.
 
 ## <a name="q-does-microsoft-have-any-documentation-about-how-i-can-protect-myself-from-phishing-scams"></a>질문. Microsoft에 피싱 메일로부터 자기 자신을 보호할 수 있는 방법에 대한 설명서가 있습니까?
 
@@ -133,7 +133,7 @@ A. 예. 자세한 내용은 [인터넷에서 개인 정보 보호](https://suppo
 
   SPF 레코드는 도메인에서 전송된 메일이 실제로 해당 도메인에서 보낸 것이며 스푸핑되지 않았음을 검사하는 메커니즘입니다. SPF 레코드에 대한 자세한 내용은 다음 링크를 참조하십시오.
 
-  [스푸핑을 방지할 수 있도록 Office 365에서 SPF 설정](set-up-spf-in-office-365-to-help-prevent-spoofing.md)
+  [스푸핑을 방지 하기 위한 SPF 설정](set-up-spf-in-office-365-to-help-prevent-spoofing.md)
 
   [도메인 FAQ](https://docs.microsoft.com/office365/admin/setup/domains-faq#how-can-i-validate-spf-records-for-my-domain)
 

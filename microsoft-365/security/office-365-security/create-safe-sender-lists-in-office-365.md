@@ -1,5 +1,5 @@
 ---
-title: Office 365에서 수신 허용-보낸 사람 목록 만들기
+title: 안전한 보낸 사람 목록 만들기
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -13,17 +13,17 @@ localization_priority: Normal
 search.appverid:
 - MET150s
 ms.assetid: 9721b46d-cbea-4121-be51-542395e6fd21
-description: 관리자는 인바운드 메시지가 스팸 필터링을 건너뛰도록 허용 하는 Office 365 및 EOP의 사용 가능한 옵션에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: 4b50a4b63377c0f3e7b12592c512449f1a3adc12
-ms.sourcegitcommit: 9ed3283dd6dd959faeca5c22613f9126261b9590
+description: 관리자는 인바운드 메시지가 스팸 필터링을 건너뛰도록 허용 하는 Microsoft 365 및 EOP의 사용 가능한 옵션에 대해 알아볼 수 있습니다.
+ms.openlocfilehash: ff4f2715ddfe0029aced27ed466a5af8eb95e790
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43528632"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637679"
 ---
-# <a name="create-safe-sender-lists-in-office-365"></a>Office 365에서 수신 허용-보낸 사람 목록 만들기
+# <a name="create-safe-sender-lists"></a>안전한 보낸 사람 목록 만들기
 
-Exchange online 사서함이 없는 Office 365, 독립 실행형 EOP (Exchange Online Protection) 고객에 게 사서함이 있는 경우 EOP에서는 사용자가 신뢰할 수 있는 보낸 사람 으로부터 전자 메일을 수신 하도록 하는 여러 가지 방법을 제공 합니다. 이러한 옵션에는 스팸 방지 정책에서 Exchange 메일 흐름 규칙 (전송 규칙이 라고도 함), Outlook 수신 허용-IP 허용 목록 (연결 필터링), 허용 되는 보낸 사람 목록 또는 허용 도메인 목록이 포함 됩니다. 이러한 옵션은 집합적으로 _수신 허용-보낸 사람 목록_으로 간주할 수 있습니다.
+Exchange online 사서함이 없는 Microsoft 365, EOP (독립 실행형 Exchange Online Protection) 고객의 사서함을 사용 하는 경우 EOP에서는 사용자가 신뢰할 수 있는 보낸 사람 으로부터 전자 메일을 수신 하도록 하는 여러 가지 방법을 제공 합니다. 이러한 옵션에는 스팸 방지 정책에서 Exchange 메일 흐름 규칙 (전송 규칙이 라고도 함), Outlook 수신 허용-IP 허용 목록 (연결 필터링), 허용 되는 보낸 사람 목록 또는 허용 도메인 목록이 포함 됩니다. 이러한 옵션은 집합적으로 _수신 허용-보낸 사람 목록_으로 간주할 수 있습니다.
 
 사용 가능한 수신 허용-보낸 사람 목록은 다음 목록에서 권장 되는 것부터 최소 권장 사항 순으로 설명 됩니다.
 
@@ -91,7 +91,7 @@ Exchange Online 및 독립 실행형 EOP의 메일 흐름 규칙에서는 메시
 
 앞에서 설명한 것 처럼 메일 흐름 규칙을 사용할 수 없는 경우에는 연결 필터 정책의 IP 허용 목록에 원본 전자 메일 서버를 추가 하는 것이 가장 좋습니다. 자세한 내용은 [Configure connection 필터링할지 In Office 365](configure-the-connection-filter-policy.md)을 참조 하십시오.
 
-**참고**:
+**참고:**
 
 - 허용 되는 IP 주소 수를 최소로 유지 하는 것이 중요 하므로 가능 하면 전체 IP 주소 범위를 사용 하지 않는 것이 좋습니다.
 

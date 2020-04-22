@@ -1,5 +1,5 @@
 ---
-title: Office 365 홍보 코드를 사용하여 가격 인하
+title: 홍보 코드를 사용 하 여 가격 절감
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -20,16 +20,16 @@ search.appverid:
 - MOE150
 - BEA160
 ms.assetid: fce1510d-9ea5-4aff-8752-1676ec7fede3
-description: Office 365 구독에 홍보 코드를 적용 하 여 가격을 줄이고, 오류가 발생 하는 경우 판촉 코드 문제를 해결 하는 방법을 알아봅니다.
+description: Microsoft 365 구독에 판촉 코드를 적용 하 여 가격을 줄이고, 오류가 발생 하는 경우 홍보 코드 문제를 해결 하는 방법을 알아봅니다.
 ms.custom: okr_SMB
-ms.openlocfilehash: ebb2c06623dc295fdcbc3cac4f51894decc3a7b3
-ms.sourcegitcommit: ca2b58ef8f5be24f09e73620b74a1ffcf2d4c290
+ms.openlocfilehash: 55ce4192a2b76fae841c7b5e2a5733c4d5c2769e
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/24/2020
-ms.locfileid: "42246930"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631860"
 ---
-# <a name="use-your-office-365-promo-code-to-reduce-price"></a>Office 365 홍보 코드를 사용하여 가격 인하
+# <a name="use-your-promo-code-to-reduce-price"></a>홍보 코드를 사용 하 여 가격 절감
 
 구독을 구입할 때 홍보 코드를 사용 하 여 가격을 줄일 수 있습니다. 이 문서를 읽으면 구독에 홍보 코드를 적용 하 고 홍보 [코드 용어](#promo-code-terms)에 대해 알아보고 홍보 코드 [문제를 해결](#troubleshooting-promo-codes)하는 방법에 대해 알아봅니다.
   
@@ -47,7 +47,7 @@ ms.locfileid: "42246930"
   
 ## <a name="promo-code-terms"></a>홍보 코드 조건
 
-비즈니스용 Office 365 구독에 대한 홍보 코드에는 다음과 같은 지침이 적용됩니다.
+다음 지침은 Microsoft 365 for business 구독에 대 한 홍보 코드에 적용 됩니다.
   
 - **구독당 홍보 코드 수** 동일한 주문의 여러 구독에 대해 하나의 홍보 코드를 사용할 수 있지만 동일한 구독에 대해 여러 홍보 코드를 사용할 수는 없습니다. 
     

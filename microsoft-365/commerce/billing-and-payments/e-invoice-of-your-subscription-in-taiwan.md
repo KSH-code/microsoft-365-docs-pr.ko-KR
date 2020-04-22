@@ -1,5 +1,5 @@
 ---
-title: Office 365 for business (대만식)에 대 한 전자 송장 이해
+title: Microsoft 365 for business (대만식)에 대 한 전자 송장 이해
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -19,15 +19,15 @@ search.appverid:
 - MOE150
 ms.assetid: 66315e5b-883a-432b-8650-d896f95af228
 ROBOTS: NOINDEX
-description: 대만식에 대 한 Office 365 for business 전자 송장에 대해 알아봅니다.
-ms.openlocfilehash: 5b06d8634fef81027cff14170da4e50072a1b48e
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+description: 대만식 용 Microsoft 365 for business e-송장에 대해 알아봅니다.
+ms.openlocfilehash: 4603d9f39a4421b6711d056d0646981732353c5c
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42354669"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632710"
 ---
-# <a name="understand-your-e-invoice-for-office-365-for-business-taiwan"></a>Office 365 for business (대만식)에 대 한 전자 송장 이해
+# <a name="understand-your-e-invoice-for-microsoft-365-for-business-taiwan"></a>Microsoft 365 for business (대만식)에 대 한 전자 송장 이해
 
 전자 송장 이란 구매자가 대/세금 청구 요구 사항에 따라 판매자가 발급 한 전자 송장입니다. 정보는 레코드 유지를 위해 대만식 세금 기관의 전자 송장 클라우드로 전송 됩니다. 대만식 e-송장 관련 정보는 여기를 참조 하세요.<a href="https://www.einvoice.nat.gov.tw/" target="_blank">財政部電子發票整合服務平台</a>
   
@@ -39,7 +39,7 @@ ms.locfileid: "42354669"
 
 상업용 구매에 대해서는 대만식 세금 기관에 의해 지정 된 비율로 구독에 대 한 따옴표 붙은 가격 외에 세금을 적용 합니다. 세금 관련 질문이 나 계획은 세금 관리자에 게 문의 하세요.
   
-## <a name="when-will-e-invoice-start-for-my-office-365-services"></a>Office 365 서비스에 대해 e-Invoice가 시작 되는 시기는 언제 입니까?
+## <a name="when-will-e-invoice-start-for-my-microsoft-365-services"></a>Microsoft 365 서비스에 대해 e-Invoice가 시작 되는 시기는 언제 입니까?
 
 Microsoft는 **9 월 15**일에 현재 컴퓨터 송장을 전자 송장으로 바꿉니다. 10 월 15 일 이전에 대금을 지불 하기 위해, 페이퍼 복사본 세금 송장을 고객에 게 직접 발송 합니다. 9 월 15 일 이후에는 전자 송장을 Microsoft 365 관리 센터에서 제공 하 여 보기, 다운로드 및 인쇄 하 고 더 이상 사용자에 게 직접 메일을 보낼 수 없습니다. 
   

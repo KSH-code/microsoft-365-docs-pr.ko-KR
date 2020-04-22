@@ -5,12 +5,12 @@ keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
-ms.openlocfilehash: e8729e8533fd2f01e893d805199027ae166586f1
-ms.sourcegitcommit: d767c288ae34431fb046f4cfe36cec485881385f
+ms.openlocfilehash: 86bec329c5e0793be070df311d6058282e7be854
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "43516812"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636223"
 ---
 # <a name="what-is-microsoft-managed-desktop"></a>Microsoft Managed Desktop이란 무엇인가요?
 
@@ -28,7 +28,7 @@ Microsoft Managed Desktop은 오늘날 직면 한 몇 가지 문제와 해당 �
 - 대부분의 최신 IT 관리 및 보안 프로세스는 오래 되었거나, 시간이 많이 소요 되며, 비용이 많이 듭니다.
 - 기업 들은 디지털 인프라를 유지 관리 하는 것이 아니라 고유 하 게 성공적인 작업을 수행 하고자 합니다.
 
-최종 사용자는 최신 버전의 Windows 10 및 Office 365 ProPlus 앱을 최대한 활용 하 고, 맞게 조정 된 및 철저 하 게 테스트를 거친 장치 및 소프트웨어를 사용 하 여 최상의 성능 및 안정성을 경험할 수 있습니다. 또한 모든 단계를 모니터링 하는 신중한 롤아웃 순서에 따라이 소프트웨어를 최신 상태로 유지 하는 것을 걱정 하지 않아도 됩니다. 또한 기술 및 보안 문제를 해결 하기 위해 연중 무휴로 등록 된 장치를 모니터링 하므로 문제가 발생 하면 도움이 될 것입니다.
+최종 사용자가 최신 버전의 Windows 10 및 Microsoft 365 앱을 사용 하는 경우에는 맞게 조정 된, 뛰어난 성능 및 신뢰성을 위해 엄격한 테스트를 거친 장치 및 소프트웨어를 사용할 수 있습니다. 또한 모든 단계를 모니터링 하는 신중한 롤아웃 순서에 따라이 소프트웨어를 최신 상태로 유지 하는 것을 걱정 하지 않아도 됩니다. 또한 기술 및 보안 문제를 해결 하기 위해 연중 무휴로 등록 된 장치를 모니터링 하므로 문제가 발생 하면 도움이 될 것입니다.
 
 
 ## <a name="unique-to-microsoft-managed-desktop"></a>Microsoft Managed Desktop의 고유
@@ -111,4 +111,3 @@ Microsoft Managed Desktop이 조직에 적합 한 것 처럼 보이는 경우 �
 
 <!--With Microsoft Managed Desktop, you get **software as a service** (Microsoft 365 E5), **Device as a service** (Microsoft Surface devices ready to use), and **IT support as a service** (Help desk and more).--> 
  
-

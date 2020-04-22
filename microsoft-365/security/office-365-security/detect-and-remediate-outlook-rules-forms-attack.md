@@ -1,5 +1,5 @@
 ---
-title: Office 365에서 Outlook 규칙 및 사용자 지정 양식 주입 공격 감지 및 재구성
+title: Outlook 규칙 및 사용자 지정 양식 주입 공격 감지 및 재구성
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -16,14 +16,14 @@ localization_priority: Normal
 search.appverid:
 - MET150
 description: Office 365에서 Outlook 규칙 및 사용자 지정 양식 주입 공격을 인지하고 재구성하는 방법 알아보기
-ms.openlocfilehash: c15eeb057d14cbb252bda0767a15e7c4788ece9f
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 71f796f589157a8eb801af3da78d67d16534447b
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41599445"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637595"
 ---
-# <a name="detect-and-remediate-outlook-rules-and-custom-forms-injections-attacks-in-office-365"></a>Office 365에서 Outlook 규칙 및 사용자 지정 양식 주입 공격 감지 및 재구성
+# <a name="detect-and-remediate-outlook-rules-and-custom-forms-injections-attacks"></a>Outlook 규칙 및 사용자 지정 양식 주입 공격 감지 및 재구성
 
 **요약** Office 365에서 Outlook 규칙 및 사용자 지정 양식 주입 공격을 인지하고 재구성하는 방법 알아보기
 
@@ -164,7 +164,7 @@ ms.locfileid: "41599445"
 
 4. 최신 버전의 Outlook을 설치합니다. 최신 버전의 Outlook은 기본적으로 이 두 가지 유형의 공격을 차단한다는 사실을 기억하세요.
 
-5. 사서함의 모든 오프라인 복사본을 제거한 후에는 사용자의 암호를 다시 설정(높은 수준의 암호 사용)하고 MFA를 아직 사용하지 않은 경우에는 [Office 365 사용자를 위한 다단계 인증 설정](https://docs.microsoft.com/office365/admin/security-and-compliance/set-up-multi-factor-authentication)의 단계를 따릅니다. 이렇게 하면 사용자의 자격 증명이 다른 수단(예: 피싱 또는 암호 재사용)을 통해 노출되지 않습니다.
+5. 사서함의 모든 오프 라인 복사본을 제거한 후에는 사용자의 암호를 다시 설정 하 고 (고품질을 사용 함), MFA가 아직 사용 되지 않은 경우에는 [다단계 인증 설치](https://docs.microsoft.com/office365/admin/security-and-compliance/set-up-multi-factor-authentication) 의 단계를 수행 합니다. 이렇게 하면 사용자의 자격 증명이 다른 수단(예: 피싱 또는 암호 재사용)을 통해 노출되지 않습니다.
 
 ### <a name="using-powershell"></a>PowerShell 사용
 
@@ -192,7 +192,7 @@ ms.locfileid: "41599445"
 
 사용자 계정 중 하나를 도난 혹은 침해를 받은 경우에만 공격자가 이 규칙과 양식을 활용합니다. 따라서 조직에서 이러한 악용을 방지하는 첫 번째 단계는 사용자 계정을 적극적으로 보호하는 것입니다. 계정을 침해하는 가장 일반적인 방법 중 일부는 피싱 또는 [암호 스프레이](https://www.dabcc.com/microsoft-defending-against-password-spray-attacks/) 공격을 통해 발생합니다.
 
-사용자 계정을 보호하는 가장 좋은 방법은(특히 관리자 계정) [Office 365 사용자에 대한 다단계 인증을 설정](https://docs.microsoft.com/office365/admin/security-and-compliance/set-up-multi-factor-authentication)하는 것입니다. 사용자는 또한:
+사용자 계정을 보호 하는 가장 좋은 방법, 특히 관리자 계정을 사용 하는 것은 [사용자에 대 한 다단계 인증을 설정](https://docs.microsoft.com/office365/admin/security-and-compliance/set-up-multi-factor-authentication)하는 것입니다. 사용자는 또한:
 
 - 사용자 계정이 [액세스되고 사용되는](https://docs.microsoft.com/azure/active-directory/active-directory-view-access-usage-reports) 방식을 모니터링합니다. 초기 침해를 방지하지 못할 수 있지만 침해의 기간과 영향은 더 일찍 발견하여 줄일 수 있습니다. [Office 365 클라우드 앱 보안 정책](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security)을 사용 하여 계정을 모니터링하고 비정상적 활동에 대 한 알림을 사용할 수 있습니다.
 
@@ -234,9 +234,9 @@ EnableUnsafeClientMailRules 키를 찾습니다. 찾았고 1로 설정되어 있
 
 온-프레미스 Exchange 설치를 사용하는 고객은 사용 가능한 패치가 없는 이전 버전의 Outlook을 차단하는 것이 좋습니다. 이 프로세스에 대한 자세한 내용은 [Outlook 클라이언트 차단 구성](https://docs.microsoft.com/exchange/configure-outlook-client-blocking-exchange-2013-help) 문서를 참조하세요.
 
-## <a name="secure-office-365-like-a-cybersecurity-pro"></a>사이버 보안 전문가와 같은 Office 365 보안
+## <a name="secure-microsoft-365-like-a-cybersecurity-pro"></a>Cybersecurity pro와 같은 Microsoft 365 보안
 
-Office 365 구독에는 데이터 및 사용자를 보호하는 데 사용할 수있는 강력한 보안 기능이 함께 제공됩니다. [Office 365 보안 로드맵: - 최초 30일, 90일 및 그 이후의 최우선 순위](security-roadmap.md)를 사용하여 Microsoft에서 권장하는 Office 365 테넌트 보안을 구현합니다.
+Microsoft 365 구독에는 데이터와 사용자를 보호 하는 데 사용할 수 있는 강력한 보안 기능 집합이 포함 되어 있습니다. Microsoft 365 테 넌 트를 보호 하기 위한 Microsoft 권장 모범 사례를 구현 하려면 [microsoft 365 보안 로드맵-처음 30 일, 90 일 및 그 이상에 해당 하는 주요 우선 순위](security-roadmap.md) 를 사용 합니다.
 
 - 처음 30일 이내에 수행 할 작업 이러한 작업들은 즉각적인 영향을 미치며 사용자에게 영향을 미치지 않습니다.
 

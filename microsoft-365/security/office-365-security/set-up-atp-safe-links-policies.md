@@ -17,19 +17,19 @@ ms.assetid: bdd5372d-775e-4442-9c1b-609627b94b5d
 ms.collection:
 - M365-security-compliance
 description: 안전한 링크 정책을 설정 하 여 Word, Excel, PowerPoint, Visio 파일 및 전자 메일 메시지의 악의적인 링크 로부터 조직을 보호 합니다.
-ms.openlocfilehash: a1a78afe7480ed9f68f8cd893c00876872317785
-ms.sourcegitcommit: c876d58b34454f211b50ae5d06f193c1a1e5c4ff
+ms.openlocfilehash: 31401e8f890f329f5724347deec2d85b6e473552
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/11/2020
-ms.locfileid: "43230983"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43638335"
 ---
 # <a name="set-up-office-365-atp-safe-links-policies"></a>Office 365 ATP 안전한 링크 정책 설정
 
 > [!IMPORTANT]
 > 이 문서는 [Office 365 Advanced Threat Protection](office-365-atp.md)이 있는 비즈니스 고객을 대상으로 합니다. Outlook의 안전한 링크에 대 한 정보를 검색 하는 개인 사용자는 [Advanced Outlook.com security](https://support.office.com/article/882d2243-eab9-4545-a58a-b36fee4a46e2)를 참조 하십시오.
 
-[Atp 안전한 링크](atp-safe-links.md)( [Office 365 Advanced Threat Protection](office-365-atp.md) (ATP)의 기능)는 피싱 및 기타 공격에 사용 되는 악의적인 링크 로부터 조직을 보호 하는 데 도움이 될 수 있습니다. [Office 365 보안 &amp; 및 준수 센터에 대 한 필요한 권한이](permissions-in-the-security-and-compliance-center.md)있는 경우 ATP 안전한 링크 정책을 설정 하 여 사용자가 웹 주소 (url)를 클릭할 때 조직이 보호 되는지 확인할 수 있습니다. Office 문서에서 전자 메일 및 Url의 url을 검색 하도록 ATP 안전한 링크 정책을 구성할 수 있습니다.
+[Atp 안전한 링크](atp-safe-links.md)( [Office 365 Advanced Threat Protection](office-365-atp.md) (ATP)의 기능)는 피싱 및 기타 공격에 사용 되는 악의적인 링크 로부터 조직을 보호 하는 데 도움이 될 수 있습니다. [보안 &amp; 및 준수 센터에 대 한 필요한 권한이](permissions-in-the-security-and-compliance-center.md)있는 경우 ATP 안전한 링크 정책을 설정 하 여 사용자가 웹 주소 (url)를 클릭할 때 조직이 보호 되는지 확인할 수 있습니다. Office 문서에서 전자 메일 및 Url의 url을 검색 하도록 ATP 안전한 링크 정책을 구성할 수 있습니다.
 
 ATP Safe 링크를 사용 하도록 설정 하면 사용자가 전자 메일의 링크를 클릭 하 고 조직의 사용자 지정 차단 된 URL 목록에 의해 URL이 차단 되었거나 URL이 악성으로 확인 되는 경우 경고 페이지가 열립니다.
   
@@ -53,17 +53,17 @@ ATP Safe 링크를 사용 하도록 설정 하면 사용자가 전자 메일의 
 
     |역할  |할당 된 위치/방법  |
     |---------|---------|
-    |Office 365 전역 관리자 |Office 365을 구매 하기 위해 등록 하는 사람은 기본적으로 전역 관리자입니다. 자세한 내용은 [Office 365 관리자 역할 정보](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) 를 참조 하세요.         |
+    |전역 관리자 |Microsoft 365을 구매 하기 위해 등록 하는 사람은 기본적으로 전역 관리자입니다. 자세한 내용은 [Microsoft 365 관리자 역할 정보](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles) 를 참조 하세요.         |
     |보안 관리자 |Azure Active Directory 관리 센터 ([https://aad.portal.azure.com](https://aad.portal.azure.com))|
     |Exchange Online 조직 관리 |Exchange 관리 센터 ([https://outlook.office365.com/ecp](https://outlook.office365.com/ecp)) <br>또는 <br>  PowerShell cmdlet ( [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell)참조) |
 
-    역할 및 사용 권한에 대 한 자세한 내용은 [Office 365 보안 &amp; 및 준수 센터의 사용 권한을](permissions-in-the-security-and-compliance-center.md)참조 하세요.
+    역할 및 사용 권한에 대 한 자세한 내용은 [보안 &amp; 및 준수 센터의 사용 권한을](permissions-in-the-security-and-compliance-center.md)참조 하세요.
 
 - Office 클라이언트가 [최신 인증](https://docs.microsoft.com/office365/enterprise/modern-auth-for-office-2013-and-2016) 을 사용 하도록 구성 되어 있는지 확인 합니다 (office 문서에서 ATP 안전한 링크 보호를 위한 기능).
     
 - 이 문서의 [ATP 안전한 링크 정책 옵션에 대해 자세히 알아보세요](#step-4-learn-about-atp-safe-links-policy-options) . 
 
-- 새 정책이 나 업데이트 된 정책을 모든 Office 365 데이터 센터에 전파 하는 데 최대 30 분 정도 걸릴 수 있습니다.
+- 새 정책이 나 업데이트 된 정책을 모든 Microsoft 365 데이터 센터에 전파 하는 데 최대 30 분이 소요 될 수 있습니다.
     
 ## <a name="step-2-define-or-review-the-atp-safe-links-policy-that-applies-to-everyone"></a>2 단계: 모든 사용자에 게 적용 되는 ATP 안전한 링크 정책 정의 또는 검토
 
@@ -99,9 +99,7 @@ ATP Safe 링크를 사용 하도록 설정 하면 사용자가 전자 메일의 
 
     - **설명** 상자에 설명 (예)을 입력 하 여 특정 그룹의 사용자가 안전한 링크 확인을 수행 하지 않고 웹 사이트로 이동 하는 것을 방지할 수 있습니다.
 
-    - **메시지에서 알 수 없는 잠재적 악성 url에 대 한 작업 선택**에서 **설정**를 선택 합니다.
-
-    - **Microsoft 팀 내에서 알 수 없거나 악성 url에 대 한 작업 선택**이 표시 되 **면를 선택 합니다.** <br/>
+    - **작업 선택** 섹션에서 **설정**를 선택 합니다.
 
     - 의심 스 럽 거 나 파일 포인팅 url에 대해 URL 샌드 박싱을 사용 하도록 설정 하려면 (권장), **의심 스러운 링크 및 파일을 가리키는 링크에 대해 실시간 URL 검사 적용** 을 선택 합니다. Url을 완전히 검색 한 후 사용자에 게 메시지를 수신 하도록 하려면 **메시지를 배달 하기 전에 url 검색이 완료 될 때까지 기다립니다** .를 선택 합니다.
 
@@ -131,7 +129,7 @@ ATP 안전한 링크 정책을 설정 하거나 편집할 때 몇 가지 옵션�
 |이 옵션  |기능  |
 |---------|---------|
 | **다음 Url 차단** <br/>    | 조직에서 자동으로 차단 되는 Url의 사용자 지정 목록을 사용할 수 있도록 합니다. 사용자가이 목록에서 URL을 클릭 하면 URL이 차단 되는 이유를 설명 하는 [경고 페이지가](atp-safe-links-warning-pages.md) 표시 됩니다. 자세한 내용은 [Office 365 ATP 안전한 링크를 사용 하 여 사용자 지정 차단 된 url 목록 설정](set-up-a-custom-blocked-urls-list-wtih-atp.md)를 참조 하세요. |
-| **Office 365 ProPlus, iOS 및 Android 용 Office** <br/>    | 이 옵션을 선택 하면 ATP Safe Links protection은 Word, Excel 및 PowerPoint 파일의 Windows 또는 Mac OS, Outlook의 전자 메일 메시지, iOS 또는 Android 장치의 Office 문서, Windows의 Visio 2016 파일 및 office 앱 (Word, PowerPoint, Excel, Outlook, OneNote)에 열려 있는 파일을 사용자가 Office 365에 로그인 한 경우 해당 Url에 적용 됩니다. |
+| **Microsoft 365 앱 for enterprise, iOS 및 Android 용 Office** <br/>    | 이 옵션을 선택 하면 ATP Safe Links protection은 Word, Excel 및 PowerPoint 파일의 Windows 또는 Mac OS, Outlook의 전자 메일 메시지, iOS 또는 Android 장치의 Office 문서, Windows의 Visio 2016 파일 및 office 앱 (Word, PowerPoint, Excel, Outlook, OneNote)에 열려 있는 파일을 사용자가 Office 365에 로그인 한 경우 해당 Url에 적용 됩니다. |
 | **사용자가 ATP 안전한 링크 클릭 시기 추적 안 함** <br/>  | 이 옵션을 선택 하면 Word, Excel, PowerPoint, Visio 문서 및 Outlook 전자 메일 메시지의 Url에 대 한 데이터가 저장 되지 않습니다.  <br/> |
 |**사용자가 ATP 안전한 링크를 원본 URL로 클릭할 수 없도록 합니다.** <br/> |이 옵션을 선택 하면 사용자가 [경고 페이지](atp-safe-links-warning-pages.md) 를 지 나 악의적인 것으로 확인 된 URL로 계속할 수 없습니다.  <br/> |
 
@@ -141,10 +139,9 @@ ATP 안전한 링크 정책을 설정 하거나 편집할 때 몇 가지 옵션�
 |---------|---------|
 |**해제** <br/> |전자 메일 메시지의 Url을 검사 하지 않습니다.  <br/> 특정 받는 사람 그룹에 대 한 전자 메일 메시지의 Url을 검색 하지 않는 규칙과 같은 예외 규칙을 정의할 수 있습니다.  <br/> |
 |**켜짐** <br/> |사용자가 전자 메일 메시지의 Url을 클릭 하 고 Windows의 ATP 안전 링크 (C2R) 내에서 atp 안전한 링크 보호를 통해 사용자를 라우팅하기 위해 Url을 다시 작성 합니다.  <br/> 차단 되거나 악성 Url 목록에 대해 URL을 클릭 하 여 확인 하 고 URL에 유효한 신뢰가 없으면 백그라운드에서 URL의 샌드 박싱를 비동기적으로 트리거합니다.  <br/> |
-|**Microsoft 팀 내에서 알 수 없거나 잠재적 악성 Url** |이 옵션을 사용 하 고 선택할 경우 Microsoft 팀 채팅 및 채널에서 ATP 안전한 링크를 설정 합니다. 사용자가 Microsoft 팀 채팅 또는 채널에서 URL을 클릭 하면 링크가 선택 됩니다. Url이 차단 또는 악성 Url 목록에 대해 확인 되 고 url이 유효한 신뢰도가 아닌 경우 샌드 박싱에서 비동기적으로 URL의 유효성을 검사 합니다. |
 |**의심 스러운 링크에 대 한 실시간 URL 검사 및 파일을 가리키는 링크를 적용 합니다.** <br/> |이 옵션을 선택 하면 다운로드 가능한 콘텐츠를 가리키는 의심 스러운 Url 및 링크가 검색 됩니다.  <br/> |
 |**메시지를 배달 하기 전에 URL 검색이 완료 될 때까지 기다립니다.** <br/> |이 옵션을 선택 하면 검색할 Url이 포함 된 메시지는 해당 Url의 검색이 완료 되 고 메시지가 배달 되기 전에 안전한 것으로 확인 될 때까지 유지 됩니다.  <br/> |
-|**조직 내에서 전송 된 메시지에 안전한 링크 적용** <br/> | 이 옵션을 선택 하면 전자 메일 계정이 Office 365에서 호스팅되는 경우 ATP 안전한 링크 보호가 조직의 사용자 간에 전송 된 전자 메일 메시지에 적용 됩니다.  <br/> |
+|**조직 내에서 전송 된 메시지에 안전한 링크 적용** <br/> | 이 옵션을 사용할 수 있고 선택 하면 전자 메일 계정이 Office 365에서 호스팅되는 경우 ATP 안전한 링크 보호가 조직의 사용자 간에 전송 된 전자 메일 메시지에 적용 됩니다.  <br/> |
 |**사용자 클릭 추적 안 함** <br/> |이 옵션을 선택 하면 외부 보낸 사람 으로부터 온 전자 메일의 Url에 대 한 데이터가 저장 되지 않습니다 .를 클릭 합니다. URL이 조직 내에서 전송 된 전자 메일 메시지 내의 링크에 대 한 추적을 클릭 하는 것은 현재 지원 되지 않습니다.  <br/> |
 |**사용자가 원래 URL로 클릭 하도록 허용 안 함** <br/> |이 옵션을 선택 하면 사용자가 [경고 페이지](atp-safe-links-warning-pages.md) 를 지 나 악의적인 것으로 확인 된 URL로 계속할 수 없습니다.  <br/> |
 |**다음 Url을 다시 쓰지 않습니다.** <br/> |Url은 그대로 둡니다. 조직의 특정 전자 메일 받는 사람 그룹에 대해 검색이 필요 없는 안전한 Url의 사용자 지정 목록을 보관 합니다.  최근 변경 내용을 와일드 카드 별표 (\*)를 포함 하 여 자세한 내용을 보려면 [ATP Safe 링크를 사용 하 여 사용자 지정 "재작성 금지" url 목록을 설정](set-up-a-custom-do-not-rewrite-urls-list-with-atp.md) 합니다 .를 참조 하세요.  <br/> |

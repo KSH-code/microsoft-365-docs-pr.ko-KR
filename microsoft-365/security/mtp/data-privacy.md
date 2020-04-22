@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 04e60128512d5e9b65a06e158efa95228a53619a
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: 27f27a16de9d4aa2a2f163a18c1b837d6c575eb0
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42894267"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43633486"
 ---
 # <a name="microsoft-threat-protection-data-security-and-privacy"></a>Microsoft 위협 방지 데이터 보안 및 개인 정보 보호
 
@@ -40,4 +40,4 @@ MTP (Microsoft Threat Protection)를 설정 하면 다음과 같은 용어에 �
 특정 제품의 데이터 저장소 및 개인 정보 보호에 대한 자세한 내용은 다음을 참조하세요.
 - [Microsoft Defender ATP 데이터 저장소 및 개인 정보 보호](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy)
 - [Microsoft Cloud App Security 데이터 보안 및 개인 정보 보호](https://docs.microsoft.com/cloud-app-security/cas-compliance-trust)
-- [Office 365 개인 정보 보호, 보안 및 투명성](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/privacy-security-and-transparency#advanced-threat-protection)
+- [Microsoft 365 개인 정보, 보안 및 투명성](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/privacy-security-and-transparency#advanced-threat-protection)

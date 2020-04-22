@@ -1,5 +1,5 @@
 ---
-title: Office 365에서 위협 으로부터 보호
+title: 위협으로부터 보호
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -17,16 +17,16 @@ ms.assetid: b10023f6-f30f-45d3-b3ad-b71aa4aa0d58
 ms.collection:
 - M365-security-compliance
 description: 이 문서를 참조 하 여 위협 방지 기능을 지금 구성 합니다.
-ms.openlocfilehash: 34a89f9db0ca7424d90909f09f7a2bfb4fcf3b6a
-ms.sourcegitcommit: 9ed3283dd6dd959faeca5c22613f9126261b9590
+ms.openlocfilehash: 0adf7bbb2637cc8a8d2918d951c1ccef51060b31
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43528560"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634463"
 ---
-# <a name="protect-against-threats-in-office-365"></a>Office 365에서 위협 으로부터 보호
+# <a name="protect-against-threats"></a>위협으로부터 보호
 
-Office 365에는 다양 한 위협 보호 기능이 포함 되어 있습니다. 여기에는 조직에 대해 위협 방지 기능이 설정 되었는지 확인 하기 위한 검사 목록으로 사용할 수 있는 빠른 시작 가이드가 나와 있습니다. Office 365의 위협 방지 기능을 처음 사용 하는 경우 나 시작할 위치를 모르는 경우에는 다음 지침을 출발점으로 사용해 보세요.
+Microsoft 365에는 다양 한 위협 보호 기능이 포함 되어 있습니다. 여기에는 조직에 대해 위협 방지 기능이 설정 되었는지 확인 하기 위한 검사 목록으로 사용할 수 있는 빠른 시작 가이드가 나와 있습니다. Office 365의 위협 방지 기능을 처음 사용 하는 경우 나 시작할 위치를 모르는 경우에는 다음 지침을 출발점으로 사용해 보세요.
 
 > [!IMPORTANT]
 > **초기 권장 설정은 각 정책 유형에 대해 포함 되지만 대부분의 옵션을 사용할 수 있으며, 특정 조직의 요구에 맞게 설정을 조정할 수**있습니다. 정책이 나 변경 내용이 데이터 센터를 통해 작동 하는 데 약 30 분 정도 걸릴 수 있습니다.
@@ -35,7 +35,7 @@ Office 365에는 다양 한 위협 보호 기능이 포함 되어 있습니다. 
 
 ### <a name="subscriptions"></a>구독
 
-위협 보호 기능은 모든 Office 365 구독에 포함 되어 있습니다. 그러나 일부 구독에는 고급 기능이 포함 되어 있습니다. 다음 표에는이 문서에 포함 된 모든 보호 기능과 최소 구독 요구 사항이 나와 있습니다.
+위협 보호 기능은 모든 Microsoft 365 구독에 포함 되어 있습니다. 그러나 일부 구독에는 고급 기능이 포함 되어 있습니다. 다음 표에는이 문서에 포함 된 모든 보호 기능과 최소 구독 요구 사항이 나와 있습니다.<br/>
 
 |||
 |---|---|
@@ -53,15 +53,14 @@ Office 365에는 다양 한 위협 보호 기능이 포함 되어 있습니다. 
 
 [보안 & 준수 센터](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center)에서 정책을 구성 하려면 적절 한 역할을 할당 받아야 합니다. 다음 표에 몇 가지 예제가 나와 있습니다.
 
-|||
-|---|---|
-|**역할 또는 역할 그룹**|**자세한 정보**|
-|Office 365 전역 관리자|[Office 365 관리자 역할 정보](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles)|
+|역할 또는 역할 그룹|자세한 정보|
+|---------|---------|
+|전역 관리자|[Microsoft 365 관리자 역할 정보](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles)|
 |보안 관리자|[Azure Active Directory의 관리자 역할 권한](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)|
 |Exchange Online 조직 관리|[Exchange Online의 사용 권한](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo) <br>및<br> [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell)|
 |
 
-자세한 내용은 [Office 365 보안 &amp; 및 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)를 참조 하세요.
+자세한 내용은 [보안 &amp; 및 준수 센터의 사용 권한을](permissions-in-the-security-and-compliance-center.md)참조 하세요.
 
 ## <a name="part-1---anti-malware-protection"></a>1 부-맬웨어 방지 보호 기능
 
@@ -107,7 +106,7 @@ Office 365에는 다양 한 위협 보호 기능이 포함 되어 있습니다. 
 
 5. **저장**을 클릭합니다.
 
-6. (**권장 추가 단계**) 전역 관리자 또는 SharePoint Online 관리자는 Office 365 환경에 대해 **DisallowInfectedFileDownload** 매개 변수를 *true* 로 설정 하 여 **[set-spotenant](https://docs.microsoft.com/powershell/module/sharepoint-online/Set-SPOTenant)** cmdlet을 실행 합니다. 따라서 사용자가 악성 파일로 검색 된 파일을 열거나 이동 하거나 복사 하거나 공유할 수 없습니다.
+6. (**권장 추가 단계**) 전역 관리자 또는 SharePoint Online 관리자는 Microsoft 365 환경에 대해 **DisallowInfectedFileDownload** 매개 변수를 *true* 로 설정 하 여 **[set-spotenant](https://docs.microsoft.com/powershell/module/sharepoint-online/Set-SPOTenant)** cmdlet을 실행 합니다. 따라서 사용자가 악성 파일로 검색 된 파일을 열거나 이동 하거나 복사 하거나 공유할 수 없습니다.
 
 자세한 내용은 [office 365 Atp 안전한 첨부 파일 정책 설정](set-up-atp-safe-attachments-policies.md) 및 [SharePoint, OneDrive 및 Microsoft 팀에 대 한 Office 365 atp 켜기](turn-on-atp-for-spo-odb-and-teams.md)를 참조 하세요.
 
@@ -119,7 +118,7 @@ Office 365에는 다양 한 위협 보호 기능이 포함 되어 있습니다. 
 
 2. **기본** 정책을 두 번 클릭 합니다.
 
-3. 다음 **의 안전한 링크 사용** 섹션에서 **office 365 ProPlus, iOS 및 Android 용 office**를 차례로 선택 하 고 **저장**을 클릭 합니다.
+3. 다음 **의 안전한 링크 사용** 섹션에서 **Microsoft 365 Apps For enterprise For iOS 및 Android**의 옵션을 선택 하 고 **저장**을 클릭 합니다.
 
 4. **특정 받는 사람에 게 적용 되는 정책** 섹션에서 더하기 기호 (**+**)를 클릭 합니다.
 
@@ -215,7 +214,7 @@ Office 365에는 다양 한 위협 보호 기능이 포함 되어 있습니다. 
 
 ### <a name="audit-logging-for-reporting-and-investigation"></a>보고 및 조사에 대 한 감사 로깅
 
-감사 로깅은 [Exchange Online](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description)이 포함 된 구독에서 사용할 수 있습니다. [보안 대시보드](security-dashboard.md), [전자 메일 보안 보고서](view-email-security-reports.md)및 [탐색기](threat-explorer.md)와 같은 위협 보호 보고서의 데이터를 보려면 조직에 대해 감사 로깅을 설정 해야 합니다. 자세한 내용은 [Turn Office 365 감사 로그 검색 설정 또는 해제](../../compliance/turn-audit-log-search-on-or-off.md)를 참조 하세요.
+감사 로깅은 [Exchange Online](https://docs.microsoft.com/office365/servicedescriptions/exchange-online-service-description)이 포함 된 구독에서 사용할 수 있습니다. [보안 대시보드](security-dashboard.md), [전자 메일 보안 보고서](view-email-security-reports.md)및 [탐색기](threat-explorer.md)와 같은 위협 보호 보고서의 데이터를 보려면 조직에 대해 감사 로깅을 설정 해야 합니다. 자세한 내용은 [Turn audit log search on or off](../../compliance/turn-audit-log-search-on-or-off.md)를 참조 하십시오.
 
 ## <a name="post-setup-tasks"></a>설치 후 작업
 
@@ -225,6 +224,6 @@ Office 365에는 다양 한 위협 보호 기능이 포함 되어 있습니다. 
 |---|---|
 |**수행할 작업**|**자세한 정보를 알아볼 수 있는 리소스**|
 |보고서를 확인 하 여 조직에서 위협 방지 기능을 사용 하는 방법 보기|[보안 대시보드](security-dashboard.md)<br/>[전자 메일 보안 보고서](view-email-security-reports.md)<br/>[Office 365 ATP에 대 한 보고서](view-reports-for-atp.md)<br/>[위협 탐색기](threat-explorer.md)|
-|필요에 따라 위협 보호 정책 주기적으로 검토 및 수정|[Secure Score](../mtp/microsoft-secure-score.md)<br/>[스마트 보고서 및 통찰력](reports-and-insights-in-security-and-compliance.md)<br/>[Office 365 위협 조사 및 응답 기능](keep-users-safe-with-office-365-ti.md)|
+|필요에 따라 위협 보호 정책 주기적으로 검토 및 수정|[Secure Score](../mtp/microsoft-secure-score.md)<br/>[스마트 보고서 및 통찰력](reports-and-insights-in-security-and-compliance.md)<br/>[Microsoft 365 위협 조사 및 응답 기능](keep-users-safe-with-office-365-ti.md)|
 |새로운 기능 및 서비스 업데이트 조사|[표준 및 대상 지정 된 릴리스 옵션](https://docs.microsoft.com/office365/admin/manage/release-options-in-office-365?view=o365-worldwide)<br/>[메시지 센터](https://docs.microsoft.com/office365/admin/manage/message-center?view=o365-worldwide)<br/>[Microsoft 365 로드맵](https://www.microsoft.com/microsoft-365/roadmap?filters=&searchterms=advanced%2Cthreat%2Cprotection)<br/>[서비스 설명](https://docs.microsoft.com/office365/servicedescriptions/office-365-service-descriptions-technet-library)|
 |

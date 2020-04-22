@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 Business 사용자를 위해 Windows 장치 설정
+title: Microsoft 365 Business Premium 사용자를 위한 Windows 장치 설정
 f1.keywords:
 - CSH
 ms.author: sirkkuw
@@ -24,21 +24,21 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: 2d7ff45e-0da0-4caa-89a9-48cabf41f193
-description: Microsoft 365 Business 사용자를 위해 Windows 10 Pro를 실행 하는 Windows 장치를 설정 하 고 중앙 집중식 관리 및 보안 제어를 사용 하는 방법을 알아봅니다.
-ms.openlocfilehash: 6ecc45f825a783d9d47c4b069a6021143d96597c
-ms.sourcegitcommit: 217de0fc54cbeaea32d253f175eaf338cd85f5af
+description: Windows 10 Pro for Microsoft 365 Business Premium users를 실행 하는 Windows 장치를 설정 하 고 중앙 집중식 관리 및 보안 제어를 사용 하는 방법을 알아봅니다.
+ms.openlocfilehash: efe81a5547496f502232e1db2f3f092165475641
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42561163"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635455"
 ---
-# <a name="set-up-windows-devices-for-microsoft-365-business-users"></a>Microsoft 365 Business 사용자를 위해 Windows 장치 설정
+# <a name="set-up-windows-devices-for-microsoft-365-business-premium-users"></a>Microsoft 365 Business Premium 사용자를 위한 Windows 장치 설정
 
-## <a name="prerequisites-for-setting-up-windows-devices-for-microsoft-365-business-users"></a>Microsoft 365 비즈니스 사용자를 위해 Windows 장치를 설정 하기 위한 필수 구성 요소
+## <a name="prerequisites-for-setting-up-windows-devices-for-microsoft-365-business-premium-users"></a>Microsoft 365 Business Premium 사용자를 위한 Windows 장치를 설정 하기 위한 필수 구성 요소
 
-Microsoft 365 Business 사용자를 위해 Windows 장치를 설정하기 전에 모든 Windows 장치가 Windows 10 Pro 버전 1703(크리에이터 업데이트)을 사용하고 있는지 확인하세요. Windows 10 Pro를 보완하고 중앙 집중식 관리와 Microsoft 365 Business의 보안 제어를 사용할 수 있는 클라우드 서비스이자 장치 관리 기능인 Windows 10 Business를 배포하려면 Windows 10 Pro가 설치되어 있어야 합니다.
+Microsoft 365 Business Premium 사용자를 위해 Windows 장치를 설정 하기 전에 모든 Windows 장치가 Windows 10 Pro, 버전 1703 (크리에이터 업데이트)를 실행 하 고 있는지 확인 합니다. Windows 10 Pro는 windows 10 Pro를 보완 하 고 Microsoft 365 Business Premium의 중앙 집중식 관리 및 보안 제어 기능을 사용 하는 클라우드 서비스 및 장치 관리 기능의 집합에 해당 합니다.
   
-Windows 장치에서 Windows 7 Pro, Windows 8 Pro 또는 Windows 8.1 Pro를 실행하는 경우 Microsoft 365 Business 구독을 통해 Windows 10으로 업그레이드할 수 있습니다.
+Windows 장치를 실행 하는 windows 7 Pro, Windows 8 Pro 또는 Windows 8.1 Pro가 있는 경우 Microsoft 365 Business Premium 구독을 통해 Windows 10 업그레이드를 통해 수 있습니다.
   
 Windows 장치를 Windows 10 Pro 크리에이터 업데이트로 업그레이드하는 방법에 대한 자세한 내용은 [Windows Pro 크리에이터 업데이트로 Windows 장치 업그레이드](upgrade-to-windows-pro-creators-update.md)의 단계를 따르세요.
   
@@ -52,7 +52,7 @@ Microsoft 365에 Windows를 연결 하는 방법에 대 한 간단한 비디오�
   
 ## <a name="join-windows-10-devices-to-your-organizations-azure-ad"></a>Windows 10 장치를 조직의 Azure AD에 연결
 
-조직의 모든 Windows 장치가 Windows 10 Pro 크리에이터 업데이트로 업그레이드 되었거나 이미 Windows 10 Pro 작성자 업데이트를 실행 하 고 있는 경우 이러한 장치를 조직의 Azure Active Directory에 연결할 수 있습니다. 장치가 연결 되 면 Microsoft 365 비즈니스 구독의 일부인 Windows 10 Business로 자동으로 업그레이드 됩니다.
+조직의 모든 Windows 장치가 Windows 10 Pro 크리에이터 업데이트로 업그레이드 되었거나 이미 Windows 10 Pro 작성자 업데이트를 실행 하 고 있는 경우 이러한 장치를 조직의 Azure Active Directory에 연결할 수 있습니다. 장치가 연결 되 면 Microsoft 365 Business Premium 구독의 일부인 Windows 10 Business로 자동으로 업그레이드 됩니다.
   
 ### <a name="for-a-brand-new-or-newly-upgraded-windows-10-pro-device"></a>최신 또는 새로 업그레이드된 Windows 10 Pro 장치의 경우
 
@@ -62,7 +62,7 @@ Windows 10 Pro 크리에이터 업데이트를 실행하는 새로운 장치 또
     
     ![On the How would you like to set up page, choose Set up for an organization](../media/1b0b2dba-00bb-4a99-a729-441479220cb7.png)
   
-2. 해당 페이지에서 **조직용 설정**을 선택한 다음 Microsoft 365 Business 사용자 이름과 암호를 입력합니다. 
+2. 여기에서 **조직에 대해 설정을** 선택한 다음 Microsoft 365 Business Premium에 대 한 사용자 이름 및 암호를 입력 합니다. 
     
 3. Windows 10 장치 설정을 완료합니다.
     
@@ -108,13 +108,13 @@ Windows 10 Pro 크리에이터 업데이트를 실행하는 새로운 장치 또
   
 동기화 상태 페이지에서 동기화를 클릭하여 최신 모바일 장치 관리 정책을 PC로 이동합니다.
   
-Microsoft 365 Business 계정을 사용 하려면 Windows **시작** 단추로 이동 하 여 현재 계정 사진을 마우스 오른쪽 단추로 클릭 한 다음 **계정을 전환**합니다. 조직 전자 메일 및 암호를 사용 하 여 로그인 합니다.
+Microsoft 365 Business Premium 계정을 사용 하려면 Windows **시작** 단추로 이동 하 여 현재 계정 사진을 마우스 오른쪽 단추로 클릭 한 다음 **계정을 전환**합니다. 조직 전자 메일 및 암호를 사용 하 여 로그인 합니다.
   
 ![동기화 상태를 보려면 정보 버튼을 클릭합니다.](../media/818f7043-adbf-402a-844a-59d50034911d.png)
   
 ## <a name="verify-the-device-is-upgraded-to-windows-10-business"></a>장치가 Windows 10 Business로 업그레이드 되었는지 확인
 
-Azure AD에 연결된 Windows 10 장치가 Microsoft 365 Business 구독의 일부로서 Windows 10 Business로 업그레이드 되었는지 확인합니다.
+Azure AD에 연결 된 Windows 10 장치가 Microsoft 365 Business Premium 구독의 일부로 서 Windows 10 Business로 업그레이드 되었는지 확인 합니다.
   
 1. **설정** \> **시스템** \> **정보**로 이동합니다.
     
@@ -124,8 +124,8 @@ Azure AD에 연결된 Windows 10 장치가 Microsoft 365 Business 구독의 일�
   
 ## <a name="next-steps"></a>다음 단계
 
-모바일 장치를 설정하려면 [Microsoft 365 Business 사용자를 위한 모바일 장치 설정](set-up-mobile-devices.md)을 참조하고 장치 보호 또는 앱 보호를 설정하려면 [Microsoft 365 Business 관리](manage.md)를 참조하세요.
+모바일 장치를 설정 하려면 [microsoft 365 Business Premium 사용자를 위한 모바일 장치 설정](set-up-mobile-devices.md)에서 장치 보호 또는 앱 보호 정책을 설정 하려면 [business에 대 한 microsoft 365 관리](manage.md)를 참조 하세요.
   
-## <a name="for-more-on-setting-up-and-using-microsoft-365-business"></a>Microsoft 365 Business 설정 및 사용에 대 한 자세한 내용은
+## <a name="for-more-on-setting-up-and-using-microsoft-365-business-premium"></a>Microsoft 365 Business Premium 설정 및 사용에 대 한 자세한 내용은
 
-[Microsoft 365 Business 교육 비디오](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Microsoft 365 for business 교육용 비디오](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

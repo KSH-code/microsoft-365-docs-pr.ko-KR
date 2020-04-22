@@ -1,5 +1,5 @@
 ---
-title: Office 365에서 차단 된 보낸 사람 목록 만들기
+title: 차단할 보낸 사람 목록 만들기
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -12,17 +12,17 @@ ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150s
-description: 관리자는 Office 365 및 EOP에서 사용 가능한 옵션에 대해 설명 하 여 인바운드 메시지를 차단할 수 있습니다.
-ms.openlocfilehash: 9d53f49862bd69a846cb80ef584226a0940d2b22
-ms.sourcegitcommit: a955324e33097bbd2fc4ad7f2b8d1f3d87bc8580
+description: 관리자는 Microsoft 365 및 EOP에서 사용 가능한 옵션에 대해 설명 하 여 인바운드 메시지를 차단할 수 있습니다.
+ms.openlocfilehash: 626eff3a1ea28cc16b12acaaa2ba52f7d094a347
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 04/21/2020
-ms.locfileid: "43608122"
+ms.locfileid: "43637691"
 ---
-# <a name="create-blocked-sender-lists-in-office-365"></a>Office 365에서 차단 된 보낸 사람 목록 만들기
+# <a name="create-blocked-sender-lists"></a>차단할 보낸 사람 목록 만들기
 
-Exchange online 사서함이 없는 Office 365, 독립 실행형 EOP (Exchange Online Protection) 고객에 게 사서함이 있는 경우 EOP에서는 원치 않는 보낸 사람의 전자 메일을 차단 하는 여러 가지 방법을 제공 합니다. 스팸 방지 정책, Exchange 메일 흐름 규칙 (전송 규칙이 라고도 함), IP 차단 목록 (연결 필터링)의 Outlook 수신 거부, 차단 된 보낸 사람 목록 또는 차단 된 도메인 목록 등이 여기에 포함 됩니다. 이러한 옵션은 _차단 된 보낸 사람 목록_으로 간주할 수 있습니다.
+Exchange online 사서함이 없는 Microsoft 365, EOP (독립 실행형 Exchange Online Protection) 고객의 사서함을 사용 하는 경우 EOP는 원치 않는 보낸 사람의 전자 메일을 차단 하는 여러 가지 방법을 제공 합니다. 스팸 방지 정책, Exchange 메일 흐름 규칙 (전송 규칙이 라고도 함), IP 차단 목록 (연결 필터링)의 Outlook 수신 거부, 차단 된 보낸 사람 목록 또는 차단 된 도메인 목록 등이 여기에 포함 됩니다. 이러한 옵션은 _차단 된 보낸 사람 목록_으로 간주할 수 있습니다.
 
 보낸 사람을 차단 하는 최상의 방법은 영향 범위에 따라 다릅니다. 단일 사용자의 경우 적절 한 솔루션은 Outlook 수신 거부 일 수 있습니다. 대부분의 사용자는 다른 옵션 중 하나를 선택 하는 것이 더 좋습니다. 다음 옵션은 영향 범위와 범위로 순위가 지정 됩니다. 이 목록은 좁은 범위에서 광범위 하 게 제공 되지만, 전체 권장 사항 *에 대 한 자세한 내용은 여기* 에서 설명 합니다.
 
@@ -37,11 +37,11 @@ Exchange online 사서함이 없는 Office 365, 독립 실행형 EOP (Exchange O
 > [!NOTE]
 > 조직 전체 차단 설정을 사용 하 여 거짓 네거티브 (부재 중 스팸)를 처리할 수 있지만 이러한 메시지를 분석을 위해 Microsoft로 제출 해야 합니다. 차단 목록을 사용 하 여 거짓 네거티브를 관리 하면 관리 오버 헤드가 크게 증가 합니다. 차단 목록을 사용 하 여 누락 된 스팸을 돌리기에는 준비 중에 항목 [보고서 메시지 및 파일을 Microsoft에](report-junk-email-messages-to-microsoft.md) 유지 해야 합니다.
 
-반면에, 수신 허용- _보낸 사람 목록을_사용 하 여 특정 원본에서 전자 메일을 보낼 수 있는 몇 가지 옵션도 있습니다. 자세한 내용은 [Office 365에서 수신 허용-보낸 사람 목록 만들기](create-safe-sender-lists-in-office-365.md)를 참조 하세요.
+반면에, 수신 허용- _보낸 사람 목록을_사용 하 여 특정 원본에서 전자 메일을 보낼 수 있는 몇 가지 옵션도 있습니다. 자세한 내용은 [수신 허용-보낸 사람 목록 만들기](create-safe-sender-lists-in-office-365.md)를 참조 하십시오.
 
 ## <a name="use-outlook-blocked-senders"></a>Outlook 수신 거부 사용
 
-소수의 사용자만 원치 않는 전자 메일을 받은 경우 사용자 또는 관리자는 사서함의 수신 거부 목록에 보낸 사람 전자 메일 주소를 추가할 수 있습니다. 자세한 내용은 [Office 365에서 Exchange Online 사서함의 정크 메일 설정 구성을](configure-junk-email-settings-on-exo-mailboxes.md)참조 하세요.
+소수의 사용자만 원치 않는 전자 메일을 받은 경우 사용자 또는 관리자는 사서함의 수신 거부 목록에 보낸 사람 전자 메일 주소를 추가할 수 있습니다. 자세한 내용은 [Exchange Online 사서함의 정크 메일 설정 구성을](configure-junk-email-settings-on-exo-mailboxes.md)참조 하세요.
 
 사용자의 차단 된 보낸 사람 목록으로 인해 메시지가 성공적으로 차단 되 면 **스팸 방지-Report** header 필드에 값 `SFV:BLK`이 포함 됩니다.
 
@@ -50,7 +50,7 @@ Exchange online 사서함이 없는 Office 365, 독립 실행형 EOP (Exchange O
 
 ## <a name="use-blocked-sender-lists-or-blocked-domain-lists"></a>차단 된 보낸 사람 목록 또는 차단 된 도메인 목록 사용
 
-여러 사용자에 게 영향을 줄 경우 범위가 더 넓기 때문에 스팸 방지 정책의 보낸 사람 목록이 나 차단 된 도메인 목록은 다음 최상의 옵션으로 차단 됩니다. 목록에 있는 보낸 사람이 보낸 메시지는 **스팸으로**표시 되며 **스팸** 필터 결과으로 구성한 작업은 메시지에 대해 수행 됩니다. 자세한 내용은 [Office 365의 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)를 참조하세요.
+여러 사용자에 게 영향을 줄 경우 범위가 더 넓기 때문에 스팸 방지 정책의 보낸 사람 목록이 나 차단 된 도메인 목록은 다음 최상의 옵션으로 차단 됩니다. 목록에 있는 보낸 사람이 보낸 메시지는 **스팸으로**표시 되며 **스팸** 필터 결과으로 구성한 작업은 메시지에 대해 수행 됩니다. 자세한 내용은 [스팸 방지 정책 구성을](configure-your-spam-filter-policies.md)참조 하세요.
 
 이러한 목록의 최대 제한은 약 1000 엔트리입니다.
 

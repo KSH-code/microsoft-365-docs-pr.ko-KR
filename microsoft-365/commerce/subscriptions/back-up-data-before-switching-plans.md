@@ -1,5 +1,5 @@
 ---
-title: 비즈니스 요금제에 대 한 Office 365를 전환 하기 전에 데이터 백업
+title: Microsoft 365 for business 요금제를 전환 하기 전에 데이터 백업
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -20,17 +20,17 @@ search.appverid:
 - MOE150
 - BEA160
 ms.assetid: a1da52c9-2167-4973-9e6d-492314a79b87
-description: Office 365 구독을 전환 하기 전에 또는 사용자가 조직을 떠나는 Outlook, OneDrive, Yammer 및 SharePoint 콘텐츠를 백업 합니다.
-ms.openlocfilehash: 3d8196bcbd0296e1b6e681b1077d165e168d2f2f
-ms.sourcegitcommit: e695bcfc69203da5d3d96f3d6a891664a0e27ae2
+description: Microsoft 365 구독을 전환 하기 전에 또는 사용자가 조직을 떠나는 Outlook, OneDrive, Yammer 및 SharePoint 콘텐츠를 백업 합니다.
+ms.openlocfilehash: fbebe72ec47fb6745cee6a12d81117ad08c50846
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43105750"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636083"
 ---
-# <a name="back-up-data-before-switching-office-365-for-business-plans"></a>비즈니스 요금제에 대 한 Office 365를 전환 하기 전에 데이터 백업
+# <a name="back-up-data-before-switching-microsoft-365-for-business-plans"></a>Microsoft 365 for business 요금제를 전환 하기 전에 데이터 백업
 
-사용자가 더 많은 데이터 관련 서비스를 사용 하는 다른 구독으로 전환 되는 경우 또는 사용자가 조직을 떠나는 경우 Office 365에 저장 된 데이터의 복사본을 새 구독으로 전환 하기 전에 다운로드할 수 있습니다.
+사용자가 더 많은 데이터 관련 서비스를 사용 하는 다른 구독으로 전환 되는 경우 또는 사용자가 조직을 떠나는 경우 Microsoft 365에 저장 된 데이터의 복사본을 새 구독으로 전환 하기 전에 다운로드할 수 있습니다.
   
 ## <a name="save-a-copy-of-outlook-information"></a>Outlook 정보 복사본 저장
 
@@ -48,7 +48,7 @@ ms.locfileid: "43105750"
   
 ## <a name="how-to-save-sharepoint-information"></a>SharePoint 정보를 저장 하는 방법
 
-사용자가 SharePoint Online을 포함 하는 구독에서이를 포함 하는 구독이 아닌 경우에는 Office 365 메뉴에 **sharepoint** 타일이 더 이상 표시 되지 않습니다.
+사용자가 SharePoint Online을 포함 하는 구독에서이를 포함 하지 않는 가입으로 전환 되 면 해당 Microsoft 365 메뉴에 **sharepoint** 타일이 더 이상 표시 되지 않습니다.
   
 그러나 새 구독이 전환 되는 조직과 같은 조직 내에 있는 한, 사용자는 여전히 SharePoint 팀 사이트에 액세스할 수 있습니다. 팀 사이트에 대 한 직접 URL을 사용 하 여 전자 필기장, 문서, 작업 및 일정을 보고 업데이트할 수 있습니다.
   

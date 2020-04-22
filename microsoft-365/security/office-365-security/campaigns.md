@@ -1,5 +1,5 @@
 ---
-title: Office 365 ATP의 캠페인보기
+title: ATP의 캠페인 보기
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -17,16 +17,16 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: Office 365 Advanced Threat Protection의 캠페인 보기에 대해 알아보세요.
-ms.openlocfilehash: 40eab14dff8d0c51a35bfbc7a04365a5a025e207
-ms.sourcegitcommit: 08a4ee7765f3eba42f0c037c5c564c581e45df3e
+ms.openlocfilehash: 69b11319ffb033b628e59abac931b6a3f30d082c
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42637331"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637821"
 ---
-# <a name="campaign-views-in-office-365-atp"></a>Office 365 ATP의 캠페인보기
+# <a name="campaign-views-in-atp"></a>ATP의 캠페인 보기
 
-캠페인 보기는 서비스의 피싱 공격을 식별하고 분류하는 Office 365 보안 및 준수 센터의 ATP (Advanced Threat Protection)의 기능입니다. 캠페인 보기를 통해 다음을 수행할 수 있습니다.
+캠페인 보기는 보안 & 준수 센터의 ATP (Advanced Threat Protection)에서 서비스의 피싱 공격을 식별 하 고 분류 하는 기능입니다. 캠페인 보기를 통해 다음을 수행할 수 있습니다.
 
 - 피싱 공격을 효과적으로 조사하고 이에 대처합니다.
 
@@ -40,7 +40,7 @@ ms.locfileid: "42637331"
 
 캠페인은 하나 이상의 조직에 대해 조율된 전자 메일 공격입니다. 자격 증명 및 회사 데이터를 도용 하는 전자 메일 공격은 대규모이 고 lucrative 업계입니다. 공격을 중지 하기 위해 기술이 증가 함에 따라 공격자는 성공적인 성공을 위해 해당 메서드를 수정 합니다.
 
-Microsoft는 캠페인을 식별 하는 데 도움이 되도록 전체 Office 365 서비스에서 방대한 피싱 방지, 스팸 방지 및 맬웨어 방지 데이터를 활용 합니다. 다양 한 요인에 따라 공격 정보를 분석 하 고 분류 합니다. 예를 들면 다음과 같습니다.
+Microsoft는 캠페인을 식별 하는 데 도움이 되도록 전체 서비스에서 방대한 피싱 방지, 스팸 방지 및 맬웨어 방지 데이터를 활용 합니다. 다양 한 요인에 따라 공격 정보를 분석 하 고 분류 합니다. 예를 들면 다음과 같습니다.
 
 - **원본 공격**: 원본 IP 주소와 보낸 사람의 전자 메일 도메인.
 
@@ -52,7 +52,7 @@ Microsoft는 캠페인을 식별 하는 데 도움이 되도록 전체 Office 36
 
 캠페인은 수명이 짧고 며칠, 주 또는 몇 개월 동안 활성 및 비활성 기간으로 확장 될 수 있습니다. 특정 조직에 대해 캠페인을 시작할 수도 있고 조직이 여러 회사에 걸친 대규모 캠페인의 일부일 수도 있습니다.
 
-## <a name="campaign-views-the-office-365-security--compliance-center"></a>Office 365 보안 및 준수 센터 캠페인 보기
+## <a name="campaign-views-the-security--compliance-center"></a>캠페인 보기 보안 & 준수 센터
 
 캠페인 보기는 **위협 관리** \> **캠페인**의 [보안 & 준수 센터](https://protection.office.com) 에서 사용할 수 있습니다.
 
@@ -131,7 +131,7 @@ Microsoft는 캠페인을 식별 하는 데 도움이 되도록 전체 Office 36
   |:-----|:-----|:-----|
   | **있도록**|`SFV:SKN` <br/><br/> `SFV:SKI`|스팸 필터링 (예: 전송 규칙이 라고도 하는 메일 흐름 규칙)에 의해 메시지가 스팸이 아닌 것으로 표시 되 고 필터링이 생략 되는 것으로 확인 되었습니다.<br/><br/>다른 이유로 인해 메시지는 스팸 필터링을 건너뛰었습니다 (예: 보낸 사람 및 받는 사람이 같은 조직에 있는 것 처럼 보이는 경우).|
   |**수준**|`SFV:SKS`|메시지가 스팸 필터링 (예: 메일 흐름 규칙)을 통해 평가 되기 전에 스팸으로 표시 되었습니다.|
-  |**감지함**|`SFV:SPM`|메시지가 스팸 필터링에 의해 스팸으로 표시 되었습니다.|
+  |**감지함**|`SFV:SPM`|메시지가 스팸 필터링에 의해 스팸으로 표시되었습니다.|
   |**검색 되지 않음**|`SFV:NSPM`|메시지가 스팸 필터링에 의해 스팸으로 표시 되지 않습니다.|
   |**해제할**|`SFV:SKQ`|메시지가 격리에서 해제 되었기 때문에 스팸 필터링을 건너뛰었습니다.|
   |**테 넌 트 허용**<sup>\*</sup>|`SFV:SKA`|스팸 방지 정책 설정 (예: 보낸 사람이 허용 된 보낸 사람 목록 또는 허용 도메인 목록에 있음) 때문에 메시지가 스팸 필터링을 건너뛰었습니다.|

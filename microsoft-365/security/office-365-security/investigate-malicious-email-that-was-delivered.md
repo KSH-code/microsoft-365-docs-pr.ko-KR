@@ -17,12 +17,12 @@ ms.assetid: 8f54cd33-4af7-4d1b-b800-68f8818e5b2a
 ms.collection:
 - M365-security-compliance
 description: 위협 조사 및 응답 기능을 사용 하 여 악성 전자 메일을 찾고 조사 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 1b7cef7f079023dd88fe3f04eb1b7d159c4157ef
-ms.sourcegitcommit: 58c1b4208a5e231463091573e40696d08fc39b8e
+ms.openlocfilehash: ec70bc585d4067357c9871cffc7475357fbfb5bb
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2020
-ms.locfileid: "42955618"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634137"
 ---
 # <a name="investigate-and-remediate-malicious-email-that-was-delivered-in-office-365"></a>Office 365에서 제공 된 악성 전자 메일 조사 및 재구성
 
@@ -34,24 +34,24 @@ ms.locfileid: "42955618"
   
 - 조직에 [Office 365 Advanced Threat Protection](office-365-atp.md) 이 있고 [라이선스가 사용자에 게 할당 되어](../../admin/manage/assign-licenses-to-users.md)있습니다.
     
-- [Office 365](../../compliance/turn-audit-log-search-on-or-off.md) 조직에 대해 감사 로깅이 설정 됩니다. 
+- 조직에 대해 [감사 로깅이](../../compliance/turn-audit-log-search-on-or-off.md) 설정 되어 있어야 합니다. 
     
 - 조직에 스팸 방지, 맬웨어 방지, 피싱 방지 등을 위한 정책이 정의 되어 있습니다. [Office 365에서 위협 으로부터 보호를](protect-against-threats.md)참조 하세요.
     
-- Office 365 전역 관리자 이거나 보안 관리자 또는 보안 &amp; 및 준수 센터에서 할당 된 검색 및 제거 역할 중 하나를 사용할 수 있습니다. [Office 365 보안 &amp; 및 준수 센터의 사용 권한을](permissions-in-the-security-and-compliance-center.md)참조 하세요. 일부 작업의 경우 새 미리 보기 역할이 할당 되어 있어야 합니다. 
+- 전역 관리자 이거나 보안 관리자 이거나 보안 &amp; 및 준수 센터에서 검색 및 제거 역할을 할당 받아야 합니다. [보안 &amp; 및 준수 센터의 사용 권한을](permissions-in-the-security-and-compliance-center.md)참조 하세요. 일부 작업의 경우 새 미리 보기 역할이 할당 되어 있어야 합니다. 
 
 #### <a name="preview-role-permissions"></a>미리 보기 역할 권한
 
-메시지 헤더를 보거나 전자 메일 메시지 콘텐츠를 다운로드 하는 등의 특정 작업을 수행 하려면 다른 해당 Office 365 역할 그룹에 *Preview* 라는 새 역할이 추가 되어 있어야 합니다. 다음 표에서는 필요한 역할 및 사용 권한을 명확 하 게 보여 줍니다.
+메시지 헤더를 보거나 전자 메일 메시지 콘텐츠를 다운로드 하는 등의 특정 작업을 수행 하려면 다른 적절 한 역할 그룹에 *Preview* 라는 새 역할이 추가 되어 있어야 합니다. 다음 표에서는 필요한 역할 및 사용 권한을 명확 하 게 보여 줍니다.
 
 |활동  |역할 그룹 |미리 보기 역할이 필요 하나요?  |
 |---------|---------|---------|
-|위협 탐색기 (및 실시간 검색)를 사용 하 여 위협 분석     |Office 365 전역 관리자 <br> 보안 관리자 <br> 보안 읽기 권한자     | 아니요   |
-|위협 탐색기 (및 실시간 검색)를 사용 하 여 전자 메일 메시지의 헤더 보기 및 격리 된 전자 메일 메시지 미리 보기 및 다운로드    |Office 365 전역 관리자 <br> 보안 관리자 <br>보안 읽기 권한자   |       아니요  |
-|위협 탐색기를 사용 하 여 머리글 보기 및 사서함으로 배달 된 전자 메일 메시지 다운로드     |Office 365 전역 관리자 <br>보안 관리자 <br> 보안 읽기 권한자 <br> 미리 보기   |   예      |
+|위협 탐색기 (및 실시간 검색)를 사용 하 여 위협 분석     |전역 관리자 <br> 보안 관리자 <br> 보안 읽기 권한자     | 아니요   |
+|위협 탐색기 (및 실시간 검색)를 사용 하 여 전자 메일 메시지의 헤더 보기 및 격리 된 전자 메일 메시지 미리 보기 및 다운로드    |전역 관리자 <br> 보안 관리자 <br>보안 읽기 권한자   |       아니요  |
+|위협 탐색기를 사용 하 여 머리글 보기 및 사서함으로 배달 된 전자 메일 메시지 다운로드     |전역 관리자 <br>보안 관리자 <br> 보안 읽기 권한자 <br> 미리 보기   |   예      |
 
 > [!NOTE]
-> *미리 보기* 는 역할 그룹이 아니라 역할입니다. 미리 보기 역할은 Office 365의 기존 역할 그룹에 추가 해야 합니다. Office 365 전역 관리자 역할은 Microsoft 365 관리 센터 ([https://admin.microsoft.com](https://admin.microsoft.com))에 할당 되며 보안 관리자 및 보안 독자 역할은 Office 365 Security & 준수 센터 ([https://protection.office.com](https://protection.office.com))에서 할당 됩니다. 역할 및 사용 권한에 대 한 자세한 내용은 [permissions in The Office 365 Security & 준수 센터](permissions-in-the-security-and-compliance-center.md)를 참조 하십시오.
+> *미리 보기* 는 역할 그룹이 아니라 역할입니다. 미리 보기 역할은 Office 365의 기존 역할 그룹에 추가 해야 합니다. 전역 관리자 역할은 Microsoft 365 관리 센터 ([https://admin.microsoft.com](https://admin.microsoft.com))에 할당 되며 보안 관리자 및 보안 독자 역할은 보안 & 준수 센터 ([https://protection.office.com](https://protection.office.com))에 할당 됩니다. 역할 및 사용 권한에 대 한 자세한 내용은 [보안 & 준수 센터의 사용 권한을](permissions-in-the-security-and-compliance-center.md)참조 하세요.
 
 ## <a name="find-and-delete-suspicious-email-that-was-delivered"></a>배달 된 의심 스러운 전자 메일 찾기 및 삭제
 

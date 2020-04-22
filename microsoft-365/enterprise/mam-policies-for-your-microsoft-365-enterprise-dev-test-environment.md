@@ -14,18 +14,18 @@ ms.collection: M365-identity-device-management
 ms.custom: Ent_TLGs
 ms.assetid: 1aa9639b-2862-49c4-bc33-1586dda636b8
 description: 이 테스트 랩 가이드를 사용 하 여 Microsoft 365 Enterprise 테스트 환경에 Intune 장치 준수 정책을 추가 합니다.
-ms.openlocfilehash: b0b8bd2d76a3959bbcca749545d9a16e50491d20
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 4324ccca761e504812edc210ee6b6abdc484b670
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42066915"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631588"
 ---
 # <a name="device-compliance-policies-for-your-microsoft-365-enterprise-test-environment"></a>Microsoft 365 Enterprise 테스트 환경에 대 한 장치 준수 정책
 
 *이 테스트 랩 가이드는 Microsoft 365 Enterprise 테스트 환경에만 사용할 수 있습니다.*
 
-이 문서의 지침을 사용 하 여 Windows 10 장치 및 Office 365 ProPlus에 대 한 Intune 장치 준수 정책을 Microsoft 365 Enterprise 테스트 환경에 추가할 수 있습니다.
+이 문서의 지침을 사용 하 여 Windows 10 장치용 Intune 장치 준수 정책을 추가 하 고 엔터프라이즈 용 Microsoft 365 앱을 Microsoft 365 Enterprise 테스트 환경에 추가할 수 있습니다.
 
 ![Microsoft 클라우드의 테스트 랩 가이드](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png)
 
@@ -80,7 +80,7 @@ ms.locfileid: "42066915"
 
 17. **앱 추가** 창에서 **앱 제품군 정보**를 선택 합니다.
  
-18. **앱 제품군 정보** 창에서 **제품군 이름과** **Suite 설명**둘 다에 **Office 365 ProPlus** 를 입력 합니다.
+18. **앱 제품군 정보** 창에서 **제품군 이름과** **제품군 설명**모두에 **Microsoft 365 Apps for enterprise** 를 입력 합니다.
 확인을 클릭합니다.
 
 19. **앱 추가** 창에서 **앱 제품군 구성을**선택 하 고 **확인**을 클릭 합니다.
@@ -105,4 +105,4 @@ ms.locfileid: "42066915"
   
 [Microsoft 365 Enterprise 배포](deploy-microsoft-365-enterprise.md)
 
-[EMS (Enterprise Mobility + Security)](https://www.microsoft.com/cloud-platform/enterprise-mobility-security)
+[Enterprise Mobility + Security(EMS)](https://www.microsoft.com/cloud-platform/enterprise-mobility-security)
