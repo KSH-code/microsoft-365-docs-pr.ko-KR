@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 - SPO_Content
 description: Office 365 Advanced Threat Protection을 SharePoint Online, 비즈니스용 OneDrive 그리고 Microsoft Teams의 파일에까지 확장하여 조직의 더욱 안전한 협업을 가능하게 하십시오.
-ms.openlocfilehash: 4c64a4934a472fa5c6ac0f1f718d63300560f6c8
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 71e404a402db8c0c0ad01bf1daa415788dfa717b
+ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636025"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43708386"
 ---
 # <a name="atp-for-sharepoint-onedrive-and-microsoft-teams"></a>SharePoint, OneDrive 및 Microsoft Teams에 대한 ATP
 
@@ -63,7 +63,7 @@ Microsoft 365이 구성 된 방식에 따라 사용자에 게 차단 된 파일�
 
  2018년 5월 말부터 보안&amp; 준수 센터의 [검역](quarantine-email-messages.md) 기능이 SharePoint Online, 비즈니스용 OneDrive 및 Microsoft Teams를 위해 ATP로 확장됩니다.
 
-SharePoint Online, 비즈니스용 OneDrive 및 Microsoft Teams의 파일이 악성으로 확인될 시 ATP가 파일을 열거나 공유하지 못하도록 차단하는 조치 외에도 해당 파일은 검역 항목 목록에 포함이 됩니다. (보안&amp; 준수 센터에서 **위협 관리** \> **검토** \> **검역** 및 **콘텐츠** 필터링을 선택합니다.)
+SharePoint Online의 파일 (비즈니스용 OneDrive 또는 Microsoft 팀)이 악성으로 식별 되 고 파일을 열거나 공유 하지 못하게 하는 ATP 외에 격리 된 항목 목록에 해당 파일이 포함 됩니다. 보안 &amp; 및 준수 센터에서 **위협 관리** \> **검토** \> **격리** 로 이동 하 여 **파일**을 필터링 합니다.
 
 조직의 Microsoft 365 비즈니스 보안 팀에 참여 하 고 [보안 &amp; 및 준수 센터에서 필요한 사용 권한을](permissions-in-the-security-and-compliance-center.md)부여 하는 경우 ATP에서 악의적으로 검색 된 파일을 격리에서 다운로드, 릴리스, 보고 및 삭제할 수 있습니다.
 
@@ -75,7 +75,7 @@ SharePoint Online, 비즈니스용 OneDrive 및 Microsoft Teams의 파일이 악
 
 ## <a name="next-steps"></a>다음 단계
 
-1. [SharePoint, OneDrive 및 Microsoft Teams에 대한 Office 365 ATP 실행](turn-on-atp-for-spo-odb-and-teams.md)
+ - [SharePoint, OneDrive 및 Microsoft Teams에 대한 Office 365 ATP 실행](turn-on-atp-for-spo-odb-and-teams.md)
 
-2. [SharePoint, OneDrive 또는 Microsoft Teams에서 감지한 악성 파일에 대한 정보 보기](malicious-files-detected-in-spo-odb-or-teams.md)
+ - [SharePoint, OneDrive 또는 Microsoft Teams에서 감지한 악성 파일에 대한 정보 보기](malicious-files-detected-in-spo-odb-or-teams.md)
 

@@ -1,5 +1,5 @@
 ---
-title: Azure의 Office 365 암호화
+title: Azure의 암호화
 f1.keywords:
 - NOCSH
 ms.author: krowley
@@ -16,14 +16,14 @@ ms.collection:
 - M365-security-compliance
 - Strat_O365_Enterprise
 description: '요약: Azure의 암호화에 대 한 설명입니다.'
-ms.openlocfilehash: 9828da8b2d39a3b80784d57ed71a335857cfaea5
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: de018e24fc6681ac613e16d8f151c6ea5362f92d
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602115"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637436"
 ---
-# <a name="office-365-encryption-in-azure"></a>Azure의 Office 365 암호화
+# <a name="encryption-in-azure"></a>Azure의 암호화
 
 ## <a name="introduction"></a>소개
 
@@ -47,7 +47,7 @@ Azure 디스크 암호화를 사용 하면 Windows 및 Linux 인프라를 IaaS (
 
 [Azure Storage Service Encryption](https://docs.microsoft.com/azure/storage/storage-service-encryption)을 사용 하는 경우 azure storage는 데이터를 저장 하기 전에 자동으로 암호화 하 고 검색 하기 전에 데이터를 해독 합니다. 암호화, 암호 해독 및 키 관리 프로세스는 사용자에 게 전혀 드러나지 않습니다. Azure Storage Service 암호화는 [Azure Blob Storage](https://azure.microsoft.com/services/storage/blobs/) 및 [azure 파일](https://azure.microsoft.com/services/storage/files/)에 사용 될 수 있습니다. Azure Storage Service 암호화를 사용 하 여 Microsoft에서 관리 하는 암호화 키를 사용할 수도 있고, 자체 암호화 키를 사용할 수도 있습니다. 사용자의 키를 사용 하는 방법에 대 한 자세한 내용은 [Azure Key Vault에서 customer 관리 키를 사용 하 여 Storage Service Encryption](https://docs.microsoft.com/azure/storage/common/storage-service-encryption-customer-managed-keys)를 참조 하세요. Microsoft 관리 키를 사용 하는 방법에 대 한 자세한 내용은 [Rest 데이터에 대 한 저장소 서비스 암호화](https://docs.microsoft.com/azure/storage/storage-service-encryption)를 참조 하세요. 또한 암호화 사용을 자동화할 수 있습니다. 예를 들어 [Azure Storage Resource PROVIDER REST API](https://msdn.microsoft.com/library/azure/mt163683.aspx), .Net, [Azure POWERSHELL](https://docs.microsoft.com/powershell/azureps-cmdlets-docs)또는 [Azure CLI](https://docs.microsoft.com/azure/storage/storage-azure-cli) [용 저장소 리소스 공급자 클라이언트 라이브러리](https://msdn.microsoft.com/library/azure/mt131037.aspx)를 사용 하 여 저장소 계정에서 저장소 서비스 암호화를 프로그래밍 방식으로 사용 하거나 사용 하지 않도록 설정할 수 있습니다.
 
-일부 Office 365 서비스는 데이터를 저장 하는 데 Azure를 사용 합니다. 예를 들어 Azure Blob storage의 SharePoint Online 및 비즈니스용 OneDrive 저장소 데이터의 경우, Microsoft 팀은 해당 채팅 서비스에 대 한 데이터를 테이블, blob 및 큐에 저장 합니다. 또한 Microsoft 365 준수 센터의 준수 점수 기능에는 사용자가 입력 한 데이터를 [Azure COSMOS DB](https://docs.microsoft.com/azure/cosmos-db/database-encryption-at-rest), PaaS (Platform As a Service), 전역적으로 분산 된 다중 모델 데이터베이스에 저장 되어 있습니다. Azure Storage Service Encryption Azure Blob Storage 및 테이블에 저장 된 데이터를 암호화 하 고 Azure 디스크 암호화는 큐의 데이터 및 Windows 및 IaaS 가상 컴퓨터 디스크를 암호화 하 여 운영 체제 및 데이터 디스크에 대 한 볼륨 암호화를 제공 합니다. 이 솔루션은 가상 컴퓨터 디스크의 모든 데이터가 Azure 저장소의 나머지 부분에서 암호화 되도록 합니다. [Azure COSMOS DB의 나머지 암호화](https://docs.microsoft.com/azure/cosmos-db/database-encryption-at-rest) 는 보안 키 저장소 시스템, 암호화 된 네트워크 및 암호화 api를 비롯 한 몇 가지 보안 기술을 사용 하 여 구현 됩니다.
+일부 Microsoft 365 서비스는 데이터를 저장 하는 데 Azure를 사용 합니다. 예를 들어 Azure Blob storage의 SharePoint Online 및 비즈니스용 OneDrive 저장소 데이터의 경우, Microsoft 팀은 해당 채팅 서비스에 대 한 데이터를 테이블, blob 및 큐에 저장 합니다. 또한 Microsoft 365 준수 센터의 준수 점수 기능에는 사용자가 입력 한 데이터를 [Azure COSMOS DB](https://docs.microsoft.com/azure/cosmos-db/database-encryption-at-rest), PaaS (Platform As a Service), 전역적으로 분산 된 다중 모델 데이터베이스에 저장 되어 있습니다. Azure Storage Service Encryption Azure Blob Storage 및 테이블에 저장 된 데이터를 암호화 하 고 Azure 디스크 암호화는 큐의 데이터 및 Windows 및 IaaS 가상 컴퓨터 디스크를 암호화 하 여 운영 체제 및 데이터 디스크에 대 한 볼륨 암호화를 제공 합니다. 이 솔루션은 가상 컴퓨터 디스크의 모든 데이터가 Azure 저장소의 나머지 부분에서 암호화 되도록 합니다. [Azure COSMOS DB의 나머지 암호화](https://docs.microsoft.com/azure/cosmos-db/database-encryption-at-rest) 는 보안 키 저장소 시스템, 암호화 된 네트워크 및 암호화 api를 비롯 한 몇 가지 보안 기술을 사용 하 여 구현 됩니다.
 
 ## <a name="azure-key-vault"></a>Azure Key Vault
 

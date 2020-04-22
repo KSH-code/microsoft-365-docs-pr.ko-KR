@@ -1,5 +1,5 @@
 ---
-title: Skype, OneDrive, SharePoint 및 Exchange에 대 한 Office 365 암호화
+title: Skype, OneDrive, SharePoint 및 Exchange에 대 한 암호화
 f1.keywords:
 - NOCSH
 ms.author: krowley
@@ -17,16 +17,16 @@ ms.collection:
 - Strat_O365_Enterprise
 - SPO_Content
 description: '요약: Skype, OneDrive, SharePoint 및 Exchange Online의 암호화에 대 한 설명입니다.'
-ms.openlocfilehash: 4a8dbc2fbe204b09b30eee4ed7ce2136d0ec69f9
-ms.sourcegitcommit: 21338a9287017a66298e0ff557e80051946ebf13
+ms.openlocfilehash: 13c46df74861120b6f5c2fbe7132f912ef29dde3
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "42604165"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637288"
 ---
-# <a name="office-365-encryption-for-skype-for-business-onedrive-for-business-sharepoint-online-and-exchange-online"></a>비즈니스용 Skype, 비즈니스용 OneDrive, SharePoint Online 및 Exchange Online에 대 한 Office 365 암호화
+# <a name="encryption-for-skype-for-business-onedrive-for-business-sharepoint-online-and-exchange-online"></a>비즈니스용 Skype, 비즈니스용 OneDrive, SharePoint 온라인 및 Exchange 온라인을 위한 암호화
 
-Office 365는 실제 데이터 센터 보안, 네트워크 보안, 액세스 보안, 응용 프로그램 보안 및 데이터 보안과 같은 다중 계층의 광범위한 보호 기능을 제공하는 높은 보안 환경을 제공합니다.
+Microsoft 365는 실제 데이터 센터 보안, 네트워크 보안, 액세스 보안, 응용 프로그램 보안, 데이터 보안 등 여러 계층에 광범위 한 보호를 제공 하는 강력한 보안 환경입니다.
 
 ## <a name="skype-for-business"></a>비즈니스용 Skype
 
@@ -36,7 +36,7 @@ Office 365는 실제 데이터 센터 보안, 네트워크 보안, 액세스 보
 
 SharePoint Online의 모든 고객 파일은 항상 단일 테 넌 트로 단독으로 사용 되는 고유한 각 파일당 키로 보호 됩니다. 이 키는 SharePoint Online 서비스에서 만들거나 관리 하거나 고객 키를 사용 하 고 고객을 위해 만들고 관리 하는 경우입니다. 파일이 업로드 되 면 Azure storage로 전송 되기 전에 업로드 요청의 컨텍스트 내에서 SharePoint Online에 의해 암호화가 수행 됩니다. 파일을 다운로드 하면 SharePoint Online은 고유한 문서 식별자를 기반으로 Azure storage에서 암호화 된 고객 데이터를 검색 하 고 사용자에 게 보내기 전에 해당 고객 데이터의 암호를 해독 합니다. Azure storage에는 고객 데이터를 해독 하거나 식별 하거나 이해할 수 있는 기능이 없습니다. 모든 암호화 및 암호 해독은 Azure Active Directory 및 SharePoint Online 인 테 넌 트 격리를 적용 하는 동일한 시스템에서 수행 됩니다.
 
-Office 365의 여러 작업은 sharepoint online의 모든 파일을 저장 하는 Microsoft 팀을 비롯 하 여 sharepoint online에 데이터를 저장 하 고, 저장소에는 SharePoint Online을 사용 하는 비즈니스용 OneDrive를 포함 합니다. SharePoint Online에 저장 된 모든 고객 데이터는 다음에 해당 하는 하나 이상의 AES 256 비트 키를 사용 하 여 암호화 되 고 데이터 센터 전체에 분산 됩니다. 이 암호화 프로세스의 모든 단계는 FIPS 140-2 수준 2 유효성 검사입니다. FIPS 140-2 준수에 대 한 자세한 내용은 [fips 140-2 준수](https://docs.microsoft.com/previous-versions/sql/sql-server-2008-r2/bb326611(v=sql.105))를 참조 하십시오.
+Microsoft 365의 여러 작업은 sharepoint online의 모든 파일을 저장 하는 Microsoft 팀과 저장소에 SharePoint online을 사용 하는 비즈니스용 OneDrive를 포함 하 여 SharePoint Online에 데이터를 저장 합니다. SharePoint Online에 저장 된 모든 고객 데이터는 다음에 해당 하는 하나 이상의 AES 256 비트 키를 사용 하 여 암호화 되 고 데이터 센터 전체에 분산 됩니다. 이 암호화 프로세스의 모든 단계는 FIPS 140-2 수준 2 유효성 검사입니다. FIPS 140-2 준수에 대 한 자세한 내용은 [fips 140-2 준수](https://docs.microsoft.com/previous-versions/sql/sql-server-2008-r2/bb326611(v=sql.105))를 참조 하십시오.
 
 - 파일 크기에 따라 각 파일은 하나 이상의 청크로 분할 됩니다. 각 청크는 고유한 AES 256 비트 키를 사용 하 여 암호화 됩니다.
 - 파일이 업데이트 되 면 변경 내용이 하나 이상의 청크로 분할 되 고 각 청크가 별도의 고유 키를 사용 하 여 암호화 됩니다.
@@ -83,6 +83,6 @@ SharePoint Online 및 비즈니스용 OneDrive의 데이터 암호화에 대 한
 
 Exchange Online은 모든 사서함 데이터에 대해 BitLocker를 사용 하며 bitlocker 구성은 [암호화를 위해 bitlocker](office-365-bitlocker-and-distributed-key-manager-for-encryption.md)에 설명 되어 있습니다. 서비스 수준 암호화는 사서함 수준에서 모든 사서함 데이터를 암호화 합니다. 
 
-서비스 암호화 외에 Office 365은 서비스 암호화를 기반으로 구축 된 고객 키를 지원 합니다. 고객 키는 Microsoft의 로드맵에도 해당 하는 Exchange Online 서비스 암호화에 대 한 Microsoft 관리 키 옵션입니다. 이 암호화 방법은 서버 관리자와 데이터의 암호를 해독 하는 데 필요한 암호화 키를 분리 하는 것을 제공 하 고 암호화가 데이터에 직접 적용 되므로 ( 논리적 디스크 볼륨에 암호화를 적용 하는 BitLocker와 대조) Exchange 서버에서 복사한 고객 데이터는 암호화 된 상태로 유지 됩니다.
+서비스 암호화 외에도 Microsoft 365는 서비스 암호화를 기반으로 구축 된 고객 키를 지원 합니다. 고객 키는 Microsoft의 로드맵에도 해당 하는 Exchange Online 서비스 암호화에 대 한 Microsoft 관리 키 옵션입니다. 이 암호화 방법은 서버 관리자와 데이터의 암호를 해독 하는 데 필요한 암호화 키를 분리 하는 것을 제공 하 고, 암호화가 논리적 디스크 볼륨에 암호화를 적용 하는 BitLocker와 대조적으로 데이터에 직접 적용 되므로 Exchange 서버에서 복사한 고객 데이터는 암호화 된 상태로 유지 되므로 BitLocker에서 제공 하는 보호 기능을 강화 합니다.
 
 Exchange Online 서비스 암호화의 범위는 Exchange Online 내에서 rest에 저장 되는 고객 데이터입니다. (비즈니스용 Skype에는 거의 모든 사용자 생성 콘텐츠가 사용자의 Exchange Online 사서함에 저장 되므로 Exchange Online의 서비스 암호화 기능을 상속 합니다.)

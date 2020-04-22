@@ -15,12 +15,12 @@ search.appverid:
 - BCS160
 ms.assetid: 47e8b964-4b09-44f7-a2d7-b8a06e8e389c
 description: 타사 감사를 다운로드 하 고, Microsoft에서 고객 데이터를 안전 하 게 보호 하는 방법을 확인 하 고, Office 365을 사용할 때 ISO, HIPAA, FINRA 및 FedRAMP을 준수 하는 방법을 알아봅니다.
-ms.openlocfilehash: 823722fe49349a11e828ca56978240e662c8435c
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: e5d33f063d9e375c12346d245067be2b2b41de77
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42081334"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631285"
 ---
 # <a name="service-assurance-in-the-security--compliance-center"></a>보안 & 준수 센터의 서비스 보증
 
@@ -44,12 +44,12 @@ ms.locfileid: "42081334"
 
  **신규 고객 및 Microsoft online services를 평가** 하는 고객은 Office 365 Enterprise E3 및 E5 요금제 (평가판 및 유료 구독 모두)에 포함 된 서비스 보증에 액세스할 수 있습니다. 이러한 요금제 중 하나가 없고 서비스 보증을 사용 하려는 경우에 [는 Office 365 Enterprise e 5의 평가판에 등록할](https://go.microsoft.com/fwlink/p/?LinkID=698279)수 있습니다. 
   
- **비즈니스에 대 한 Office 365의 기존 고객** 은 서비스 보증에 액세스할 수 있습니다. 조직에 대 한 Office 365 전역 관리자 (회사 관리자 라고도 함)는 이미 서비스 보증에 대 한 액세스 권한이 있으며 다른 사용자를 등록할 수 있습니다. 조직의 Office 365 전역 관리자가 아닌 경우 서비스 보증에 액세스 해야 하는 경우 관리자에 게 문의 하 여 서비스 보증 사용자 역할 그룹에 추가 해 달라고 요청 하세요. 
+ **비즈니스에 대 한 Microsoft 365의 기존 고객** 은 서비스 보증에 액세스할 수 있습니다. 조직에 대 한 전역 관리자 (회사 관리자 라고도 함)는 이미 서비스 보증에 대 한 액세스 권한이 있으며 다른 사용자를 등록할 수 있습니다. 조직의 전역 관리자가 아닌 경우 서비스 보증에 액세스 해야 하는 경우 관리자에 게 문의 하 여 서비스 보증 사용자 역할 그룹에 추가 해 달라고 요청 하세요. 
   
  구독에 서비스 보증 역할 기반 액세스가 구현 되지 않은 경우 **O365 구독 구성원** 은 기본적으로 Office365 보호 센터의 서비스 보증 섹션에 액세스할 수 있습니다. 서비스 보증은 Office 365에 저장 된 고객 데이터에 대 한 Microsoft의 보안 방법을 설명 하는 보고서와 문서를 제공 합니다. 또한 Office 365에 대 한 독립 타사 감사 보고서도 제공 합니다. 
   
 > [!NOTE]
-> 참고: 회사에서 Office 365 구독 (조직에서 사용자 지정 보고서에 대 한 액세스 권한을 제공 했을 수 있음)에서 서비스 보증 역할 기반 액세스를 구현 했으며, 서비스 보증에 대 한 액세스 권한이 필요 하지만, 보안 & 준수 센터의 왼쪽 창에는 포함 되어 있지 않은 경우 Office 365 관리자에 게 문의 하 여 **사용 권한** 페이지에서 서비스 보증 사용자 역할 그룹에 추가 합니다. 자세한 내용은 온보드 기타 서비스 보증 사용자 또는 그룹을 참조 하세요. 
+> 회사에서 Microsoft 365 구독 (조직이 사용자 지정 보고서에 대 한 액세스를 제공 하는 경우)에 서비스 보증 역할 기반 액세스를 구현 했으며, 서비스 보증에 대 한 액세스 권한이 필요 하지만, 보안 & 준수 센터의 왼쪽 창에는 포함 되어 있지 않은 경우에는 Office 365 관리자에 게 문의 하 여 **사용 권한** 페이지에서 서비스 보증 사용자 역할 그룹에 추가 합니다. 자세한 내용은 온보드 기타 서비스 보증 사용자 또는 그룹을 참조 하세요. 
   
  **서비스 보증 역할 기반 액세스 프로 비전 된 사용자** 회사에서 서비스 보증 역할 기반 액세스를 구현한 경우 조직 내 정보 보안, 위험 관리, 규정 준수 및 감사 팀과 직원을 포함 하 여 모든 보안 및 규정 준수 담당자에 게 서비스 보증을 제공할 수 있습니다. 자세한 내용은 [온보드 기타 서비스 보증 사용자 또는 그룹](service-assurance.md#addother)을 참조 하십시오.
   
@@ -57,7 +57,7 @@ ms.locfileid: "42081334"
   
 1. [https://protection.office.com](https://protection.office.com)으로 이동합니다.
     
-2. 회사 또는 학교 계정을 사용하여 Office 365에 로그인합니다. 
+2. 회사 또는 학교 계정을 사용 하 여 로그인 합니다. 
     
 3. 왼쪽 창에서 **서비스 보증**을 선택 합니다. 다음으로, [산업 및 국가별 설정](service-assurance.md#Chooseyourindustryregional) 및 [기타 서비스 보증 사용자 또는 그룹](service-assurance.md#addother)을 선택 합니다.
     
@@ -135,7 +135,7 @@ ms.locfileid: "42081334"
 
 [비즈니스 제품에 대 한 지원 문의-관리자 도움말](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
   
-## <a name="frequently-asked-questions"></a>FAQ
+## <a name="frequently-asked-questions"></a>질문과 대답
 <a name="addother"> </a>
 
  **서비스 보증의 문서가 손상 되었다는 오류 메시지가 표시 되는 이유는 무엇 인가요?**

@@ -1,5 +1,5 @@
 ---
-title: Office 365에서 eDiscovery 조사에 대한 준수 경계 설정
+title: EDiscovery 조사에 대 한 준수 경계 설정
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -17,25 +17,25 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 1b45c82f-26c8-44fb-9f3b-b45436fe2271
-description: 준수 경계를 사용 하 여 eDiscovery 관리자가 검색할 수 있는 사용자 콘텐츠 위치를 제어 하는 Office 365 조직 내에 논리적 경계를 만듭니다. 준수 경계는 검색 권한 필터링 (규정 준수 보안 필터 라고도 함)을 사용 하 여 특정 사용자가 검색할 수 있는 사서함, SharePoint 사이트 및 OneDrive 계정을 제어 합니다.
-ms.openlocfilehash: 247c2649029d3029bb14ca9873a553f2ef8c356c
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+description: 규정 준수 경계를 사용 하 여 eDiscovery 관리자가 검색할 수 있는 사용자 콘텐츠 위치를 제어 하는 조직 내의 논리적 경계를 만듭니다. 준수 경계는 검색 권한 필터링 (규정 준수 보안 필터 라고도 함)을 사용 하 여 특정 사용자가 검색할 수 있는 사서함, SharePoint 사이트 및 OneDrive 계정을 제어 합니다.
+ms.openlocfilehash: 80b64a32ea7bbd45aec726a1e8f41ad48ef77714
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42634146"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636166"
 ---
-# <a name="set-up-compliance-boundaries-for-ediscovery-investigations-in-office-365"></a>Office 365에서 eDiscovery 조사에 대한 준수 경계 설정
+# <a name="set-up-compliance-boundaries-for-ediscovery-investigations"></a>EDiscovery 조사에 대 한 준수 경계 설정
 
 이 문서의 지침은 중요 eDiscovery 또는 고급 eDiscovery를 사용 하 여 조사를 관리할 때 적용할 수 있습니다.
 
-준수 경계는 eDiscovery 관리자가 검색할 수 있는 사용자 콘텐츠 위치 (예: 사서함, SharePoint 사이트, OneDrive 계정)를 제어 하는 Office 365 조직 내에 논리적 경계를 만듭니다. 또한 규정 준수 경계는 법률, 인적 자원 또는 조직 내 다른 조사를 관리 하는 데 사용 되는 eDiscovery 사례에 액세스할 수 있는 사용자를 제어 합니다. 지리적 boarders 및 규정을 준수 해야 하는 국내 기업에는 종종 다양 한 기관으로 분류 되는 정부에 대 한 적합성 경계가 필요 합니다. Office 365에서 준수 경계는 콘텐츠 검색을 수행 하 고 eDiscovery 사례를 통해 조사를 관리할 때 이러한 요구 사항을 충족 하는 데 도움이 됩니다.
+준수 경계는 eDiscovery 관리자가 검색할 수 있는 사용자 콘텐츠 위치 (예: 사서함, SharePoint 사이트, OneDrive 계정)를 제어 하는 조직 내에서 논리적 경계를 만듭니다. 또한 규정 준수 경계는 법률, 인적 자원 또는 조직 내 다른 조사를 관리 하는 데 사용 되는 eDiscovery 사례에 액세스할 수 있는 사용자를 제어 합니다. 지리적 boarders 및 규정을 준수 해야 하는 국내 기업에는 종종 다양 한 기관으로 분류 되는 정부에 대 한 적합성 경계가 필요 합니다. Office 365에서 준수 경계는 콘텐츠 검색을 수행 하 고 eDiscovery 사례를 통해 조사를 관리할 때 이러한 요구 사항을 충족 하는 데 도움이 됩니다.
   
 다음 그림의 예제를 사용 하 여 규정 준수 경계의 작동 방식을 알아봅니다.
   
 ![준수 경계는 eDiscovery 사례에 대 한 액세스를 제어 하는 기관 및 관리 역할 그룹에 대 한 액세스를 제어 하는 검색 권한 필터로 구성 됩니다.](../media/5c206cc8-a6eb-4d6b-a3a5-21e158791f9a.png)
   
-이 예에서 Contoso b 2는 두 개의 자회사, 커피 및 Coho Winery으로 구성 되는 Office 365 조직입니다. 비즈니스에서는 eDiscovery mangers 및 investigators가 해당 에이전시에서 Exchange 사서함, OneDrive 계정 및 SharePoint 사이트만 검색할 수 있어야 합니다. 또한 eDiscovery 관리자 및 investigators는 해당 에이전시의 eDiscovery 사례만 볼 수 있을 뿐 이며 구성원 인 경우에만 액세스할 수 있습니다. 준수 경계가 이러한 요구 사항을 충족 하는 방식은 다음과 같습니다.
+이 예에서 Contoso b 2는 두 개의 자회사, 커피 및 Coho Winery으로 구성 되는 조직입니다. 비즈니스에서는 eDiscovery mangers 및 investigators가 해당 에이전시에서 Exchange 사서함, OneDrive 계정 및 SharePoint 사이트만 검색할 수 있어야 합니다. 또한 eDiscovery 관리자 및 investigators는 해당 에이전시의 eDiscovery 사례만 볼 수 있을 뿐 이며 구성원 인 경우에만 액세스할 수 있습니다. 준수 경계가 이러한 요구 사항을 충족 하는 방식은 다음과 같습니다.
   
 - 콘텐츠 검색의 검색 권한 필터링 기능은 eDiscovery 관리자 및 investigators에서 검색할 수 있는 콘텐츠 위치를 제어 합니다. 즉, eDiscovery 관리자 및 네 번째 커피 기관에 있는 investigators는 네 번째 커피 자회사의 콘텐츠 위치만 검색할 수 있음을 의미 합니다. Coho Winery 자회사에도 동일한 제한이 적용 됩니다.
     
@@ -79,11 +79,11 @@ ms.locfileid: "42634146"
   
 Microsoft 지원 서비스에 요청을 제출할 때 다음 정보를 포함 합니다.
   
-- Office 365 조직의 기본 도메인 이름입니다.
+- 조직의 기본 도메인 이름
     
 - Azure Active Directory 특성의 이름 (1 단계)
     
-- 다음은 지원 요청의 목적에 대 한 설명입니다. "비즈니스용 OneDrive에서 준수 보안 필터에 대 한 Azure Active Directory를 사용 하도록 설정 합니다." 이를 통해 요청을 구현 하는 Office 365 eDiscovery 엔지니어링 팀에 요청을 라우팅할 수 있습니다.
+- 다음은 지원 요청의 목적에 대 한 설명입니다. "비즈니스용 OneDrive에서 준수 보안 필터에 대 한 Azure Active Directory를 사용 하도록 설정 합니다." 이를 통해 요청을 구현 하는 eDiscovery 엔지니어링 팀에 요청을 라우팅할 수 있습니다.
     
 엔지니어링이 변경 되 고 특성이 OneDrive에 동기화 되 면 Microsoft Support에서 변경 된 빌드 번호와 예상 배포 날짜가 전송 됩니다. 배포 프로세스는 일반적으로 지원 요청을 제출한 후 4-6 주 정도 걸립니다.
   
@@ -237,11 +237,11 @@ New-ComplianceSecurityFilter -FilterName "Coho Winery Security Filter" -Users "C
   
 - **지역** 매개 변수가 Exchange 사서함의 검색을 제어하지 않습니다. 사서함을 검색할 때 모든 데이터 센터가 검색 됩니다. Exchange 사서함이 검색 되는 범위를 제한 하려면 검색 권한 필터를 만들거나 변경할 때 **Filters** 매개 변수를 사용 합니다. 
     
-- EDiscovery 관리자가 여러 SharePoint 지역에서 검색 해야 하는 경우에는 해당 eDiscovery 관리자에 대해 검색 권한 필터에 사용할 다른 사용자 계정을 만들어 SharePoint 사이트 또는 OneDrive가 있는 지역을 지정 해야 합니다. 계정 위치 이를 설정 하는 방법에 대 한 자세한 내용은 [Office 365의 콘텐츠 검색](content-search.md#searching-for-content-in-a-sharepoint-multi-geo-environment)에서 "SharePoint 다중 지리적 환경에서 콘텐츠 검색" 섹션을 참조 하세요.
+- EDiscovery 관리자가 여러 SharePoint 지역에서 검색 해야 하는 경우에는 해당 eDiscovery 관리자에 대해 검색 권한 필터에 사용할 다른 사용자 계정을 만들어 SharePoint 사이트 또는 OneDrive 계정이 있는 지역을 지정 해야 합니다. 이를 설정 하는 방법에 대 한 자세한 내용은 [Office 365의 콘텐츠 검색](content-search.md#searching-for-content-in-a-sharepoint-multi-geo-environment)에서 "SharePoint 다중 지리적 환경에서 콘텐츠 검색" 섹션을 참조 하세요.
     
 - SharePoint 및 OneDrive에서 콘텐츠를 검색할 때 **Region** 매개 변수는 ediscovery 관리자가 ediscovery 조사를 수행 하는 기본 또는 위성 위치를 검색 하도록 지시 합니다. EDiscovery 관리자가 SharePoint 및 OneDrive 사이트 검색 사용 권한 필터에 지정 된 지역 외부를 검색 하는 경우 검색 결과가 반환 되지 않습니다. 
     
-- 검색 결과를 내보낼 때 모든 콘텐츠 위치의 콘텐츠 (예를 들어, 콘텐츠 검색 도구를 사용 하 여 검색할 수 있는 Exchange, 비즈니스용 Skype, SharePoint, OneDrive 및 기타 Office 365 서비스)가 **Region** 매개 변수로 지정 된 데이터 센터의 Azure 저장 위치에 업로드 됩니다. 이렇게 하면 조직이 제어 테두리에 걸쳐 콘텐츠를 내보낼 수 없도록 하 여 규정 준수를 유지 하는 데 도움이 됩니다. 검색 권한 필터에 지역이 지정 되어 있지 않으면 콘텐츠가 조직의 기본 영역에 업로드 됩니다. 
+- 검색 결과를 내보낼 때 모든 콘텐츠 위치의 콘텐츠, 즉 Exchange, 비즈니스용 Skype, SharePoint, OneDrive, 콘텐츠 검색 도구를 사용 하 여 검색할 수 있는 기타 서비스 등의 콘텐츠가 **Region** 매개 변수로 지정 된 데이터 센터의 Azure 저장 위치에 업로드 됩니다. 이렇게 하면 조직이 제어 테두리에 걸쳐 콘텐츠를 내보낼 수 없도록 하 여 규정 준수를 유지 하는 데 도움이 됩니다. 검색 권한 필터에 지역이 지정 되어 있지 않으면 콘텐츠가 조직의 기본 영역에 업로드 됩니다. 
     
 - 다음 명령을 실행 하 여 기존 검색 권한 필터를 편집 하 여 지역을 추가 하거나 변경할 수 있습니다.
 
@@ -249,7 +249,7 @@ New-ComplianceSecurityFilter -FilterName "Coho Winery Security Filter" -Users "C
     Set-ComplianceSecurityFilter -FilterName <Filter name>  -Region <Region>
     ```
 
-## <a name="frequently-asked-questions"></a>자주 묻는 질문
+## <a name="frequently-asked-questions"></a>자주하는 질문
 
  **New-compliancesecurityfilter 및 New-compliancesecurityfilter cmdlet을 사용 하 여 검색 권한 필터를 만들고 관리할 수 있는 사람은 누구 인가요?**
   
@@ -267,7 +267,7 @@ EDiscovery 관리자는 검색 쿼리에 특정 에이전시로 제한 되는 �
   
 예. 이 작업은 두 기관에 모두 표시 되는 역할 그룹에 사용자를 추가 하 여 수행할 수 있습니다.
   
- **검색 사용 권한 필터가 eDiscovery 사례 보존, Office 365 보존 정책 또는 DLP에 대해 작동 하나요?**
+ **검색 사용 권한 필터는 eDiscovery 사례 보류, Microsoft 365 보존 정책 또는 DLP에 대해 작동 하나요?**
   
 아니요, 현재는 아닙니다.
   

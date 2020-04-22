@@ -13,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 localization_priority: None
 description: 정보 장애물을 사용 하 여 조직 내에서 Microsoft 팀을 사용 하 여 통신을 준수 하는지 확인 합니다.
-ms.openlocfilehash: f063a18dcadf5de74b43b2efeba3910f65e40102
-ms.sourcegitcommit: e525bcf073a61e1350484719a0c3ceb6ff0d8db1
+ms.openlocfilehash: 344c2b6999a8fd890358a25b39ef3a37abc9ef58
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43153500"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636106"
 ---
 # <a name="information-barriers"></a>정보 장벽
 
@@ -91,7 +91,7 @@ Microsoft 팀부터 정보 장애물을 즉시 롤아웃할 수 있습니다. [�
 - Microsoft 365 E5
 - Office 365 E5
 - Office 365 Advanced Compliance
-- Microsoft 365 E5 정보 보호 및 규정 준수
+- Microsoft 365 E5 Information Protection 및 Compliance
 
 자세한 내용은 [준수 솔루션](https://products.office.com/business/security-and-compliance/compliance-solutions)을 참조 하십시오.
 

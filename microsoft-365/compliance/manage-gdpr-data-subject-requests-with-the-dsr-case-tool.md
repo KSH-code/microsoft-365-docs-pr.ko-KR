@@ -18,12 +18,12 @@ ms.collection:
 - SPO_Content
 ms.assetid: ce9eb942-3589-42cb-88fd-1576ecb09c5c
 description: GDPR에서는 EU 시민 (데이터 주체 라고 함)에 게 개인 데이터에 대 한 특정 권한을 부여 합니다. 이러한 권한에는 복사본을 가져오고, 변경 내용을 요청 하거나, 해당 파일의 처리를 제한 하거나, 전자 형식으로 메시지를 수신 하는 권한이 포함 됩니다. 개인 데이터에 대 한 작업을 수행 하기 위한 데이터의 공식적인 요청을 데이터 주체 요청 또는 DSR 이라고 합니다. Office 365 및 Microsoft 365의 준수 센터에서 DSR 사례를 사용 하 여 조직의 DSR 조사를 관리할 수 있습니다.
-ms.openlocfilehash: 35ea4230680f567a702f8f2368f80986c473039f
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 7fc786f1e330b03884ef279e210c8f8ef22e9793
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42072109"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635928"
 ---
 # <a name="manage-gdpr-data-subject-requests-with-the-dsr-case-tool-in-the-security--compliance-center"></a>보안 & 준수 센터에서 DSR 사례 도구를 사용 하 여 GDPR 데이터 주체 요청 관리
 
@@ -33,11 +33,11 @@ GDPR (일반 데이터 보호 규정)은 EU (유럽 연합) 내에서 개인의 
   
 - 조직의 모든 사용자 사서함 여기에는 비즈니스용 Skype 대화와 일대일 채팅 (Microsoft 팀)이 포함 됩니다.
     
-- Office 365 그룹과 연결 된 모든 사서함 및 Microsoft 팀의 모든 팀 사서함
+- Microsoft 365 그룹과 연결 된 모든 사서함 및 Microsoft 팀의 모든 팀 사서함
     
 - 조직의 모든 SharePoint Online 사이트 및 비즈니스용 OneDrive 계정
     
-- 조직의 모든 팀 사이트 및 Office 365 그룹 사이트
+- 조직의 모든 팀 사이트 및 Microsoft 365 그룹 사이트
     
 - Exchange Online의 모든 공용 폴더
     
@@ -76,18 +76,18 @@ Dsr 사례 도구를 사용 하 여 DSR 조사를 관리 하는 높은 수준의
   
 ## <a name="step-1-assign-ediscovery-permissions-to-potential-case-members"></a>1단계: 잠재적인 사례 구성원에게 eDiscovery 권한 할당
 
-기본적으로 Office 365 전역 관리자는 보안 & 준수 센터에서 DSR 사례 도구에 액세스할 수 있습니다. 기본적으로 데이터 개인 정보 취급 방침, 인적 자원 관리자 또는 DSR 조사에 관련 된 다른 사용자가 dsr 사례 도구에 액세스할 수 없으며 도구에 액세스 하기 위한 적절 한 권한을 할당 받아야 합니다. 이 작업을 수행 하는 가장 쉬운 방법은 보안 & 준수 센터의 **사용 권한** 페이지로 이동 하 여 eDiscovery 관리자 역할 그룹에 사용자를 추가 하는 것입니다. 또한 2 단계에서 만든 DSR 사례의 구성원으로 추가할 수 있도록 이러한 사용 권한을 할당 해야 합니다. 
+기본적으로 전역 관리자는 보안 & 준수 센터에서 DSR 사례 도구에 액세스할 수 있습니다. 기본적으로 데이터 개인 정보 취급 방침, 인적 자원 관리자 또는 DSR 조사에 관련 된 다른 사용자가 dsr 사례 도구에 액세스할 수 없으며 도구에 액세스 하기 위한 적절 한 권한을 할당 받아야 합니다. 이 작업을 수행 하는 가장 쉬운 방법은 보안 & 준수 센터의 **사용 권한** 페이지로 이동 하 여 eDiscovery 관리자 역할 그룹에 사용자를 추가 하는 것입니다. 또한 2 단계에서 만든 DSR 사례의 구성원으로 추가할 수 있도록 이러한 사용 권한을 할당 해야 합니다. 
   
 단계별 지침은 [Office 365 보안 & 준수 센터에서 eDiscovery 사용 권한 할당](assign-ediscovery-permissions.md)을 참조 하십시오.
   
 > [!NOTE]
-> 기본적으로 Office 365 전역 관리자 또는 보안 & 준수 센터에 있는 조직 관리 역할 그룹의 다른 구성원에 게는 콘텐츠 검색 결과를 내보내는 데 필요한 권한이 없습니다 (이 문서의 4 단계 참조). 이를 처리 하기 위해 관리자는 자신을 eDiscovery 관리자 역할 그룹의 구성원으로 추가할 수 있습니다. 
+> 기본적으로 보안 & 준수 센터에 있는 전역 관리자 또는 조직 관리 역할 그룹의 다른 구성원에 게는 콘텐츠 검색 결과를 내보내는 데 필요한 권한이 없습니다 (이 문서의 4 단계 참조). 이를 처리 하기 위해 관리자는 자신을 eDiscovery 관리자 역할 그룹의 구성원으로 추가할 수 있습니다. 
   
 ## <a name="step-2-create-a-dsr-case-and-add-members"></a>2 단계: DSR 사례 만들기 및 구성원 추가
 
 다음 단계는 DSR 사례를 만드는 것입니다. 사례를 만들 때 기본 제공 검색을 시작 하도록 선택 하거나 검색을 시작 하지 않고 대/소문자를 만들 수 있습니다. 다음 절차에서는 검색을 시작 하지 않고 사례를 만들고 사례에 구성원을 추가 하는 방법을 보여 줍니다.
   
-1. 회사 또는 [https://protection.office.com](https://protection.office.com) 학교 계정을 사용 하 여으로 이동 하 고 Office 365에 로그인 합니다. 
+1. [https://protection.office.com](https://protection.office.com) 으로 이동 하 여 회사 또는 학교 계정을 사용 하 여 로그인 합니다. 
     
 2. 보안 & 준수 센터에서 **데이터 개인 정보 보호** \> **데이터 주체 요청**을 클릭 하 고 아이콘 ![](../media/ITPro-EAC-AddIcon.gif) 추가 **새 DSR 사례**를 클릭 합니다.
     
@@ -170,7 +170,7 @@ participants:"ina@contoso.com" OR author:"Ina Leonte" OR createdby:"Ina Leonte"
 검색 결과를 내보낼 때는 사서함 항목을 PST 파일이 나 개별 메시지로 다운로드할 수 있습니다. SharePoint 및 OneDrive 계정에서 콘텐츠를 내보내는 경우 기본 Office 문서 및 기타 문서의 복사본이 내보내집니다. 내보낸 모든 항목에 대 한 정보가 포함 된 결과 파일은 검색 결과에 포함 됩니다. 내보내기에 대 한 자세한 내용은 [Export Content Search results](export-search-results.md)를 참조 하십시오.
   
 > [!NOTE]
-> 기본적으로 Office 365 전역 관리자 또는 보안 & 준수 센터에서 조직 관리 역할 그룹의 기타 구성원에 게는 콘텐츠 검색 결과를 내보내는 데 필요한 사용 권한이 없습니다. 이를 처리 하기 위해 관리자는 자신을 eDiscovery 관리자 역할 그룹의 구성원으로 추가할 수 있습니다. 
+> 기본적으로 전역 관리자 또는 보안 & 준수 센터에서 조직 관리 역할 그룹의 다른 구성원에 게는 콘텐츠 검색 결과를 내보내는 데 필요한 사용 권한이 없습니다. 이를 처리 하기 위해 관리자는 자신을 eDiscovery 관리자 역할 그룹의 구성원으로 추가할 수 있습니다. 
   
 데이터를 내보내는 데 사용 하는 컴퓨터는 다음과 같은 시스템 요구 사항을 충족 해야 합니다.
   
@@ -203,7 +203,7 @@ participants:"ina@contoso.com" OR author:"Ina Leonte" OR createdby:"Ina Leonte"
   
     a. **출력 옵션**에서 인덱싱된 항목만 내보내려면 첫 번째 옵션 (인식할 수 없는 형식을 포함 하 고,**암호화 되어 있거나 인덱싱되지 않은 항목 제외**)을 선택 합니다. 기본 제공 검색에서 부분적으로 인덱싱된 항목을 내보내지 않으려는 이유는 다른 사용자의 부분 인덱싱된 항목도 함께 내보내기 때문입니다. 데이터 주체에 대해 부분적으로 인덱싱된 항목만 내보내려면 별도의 검색을 만드는 것이 좋습니다. 자세한 내용은 "DSR 사례를 사용 하는 방법에 대 한 자세한 정보" 섹션에서 [부분적으로 인덱싱된 항목 내보내기를](#exporting-partially-indexed-items) 참조 하십시오.
     
-    b. **Exchange 콘텐츠 내보내기**에서 **단일 폴더에 있는 모든 메시지를 포함 하**는 세 번째 옵션인 PST 파일 하나를 선택 합니다. 다른 사용자의 사서함에서 시작 된 항목에 대해 일부 결과가 발생할 수 있으므로이 옵션은 실제 사서함을 표시 하지 않고 단일 폴더에 항목을 나열 하 고 다음 항목에서 권장 되는 결과를 사용 하는 것이 가장 좋은 옵션입니다. . 또한이 옵션을 사용 하면 데이터 주체에서 각 항목의 원래 사서함 폴더 구조를 탐색할 필요 없이 시간순으로 시간 순 (항목을 보낸 날짜별로 정렬) 할 수 있습니다.
+    b. **Exchange 콘텐츠 내보내기**에서 **단일 폴더에 있는 모든 메시지를 포함 하**는 세 번째 옵션인 PST 파일 하나를 선택 합니다. 일부 결과는 다른 사용자의 사서함에서 시작 된 항목에 대 한 것일 수 있으므로이 옵션은 실제 사서함을 표시 하지 않고 단일 폴더에 항목을 나열 하 고 다음 항목에서 권장 되는 결과를 복제 하는 데 가장 적합 한 옵션입니다. 또한이 옵션을 사용 하면 데이터 주체에서 각 항목의 원래 사서함 폴더 구조를 탐색할 필요 없이 시간순으로 시간 순 (항목을 보낸 날짜별로 정렬) 할 수 있습니다.
     
     c. 중복 된 전자 메일 메시지를 제외 하려면 중복 제거 옵션 **사용** 을 선택 합니다. 기본 제공 검색이 조직의 모든 사서함을 검색 하기 때문에이 옵션을 사용 하는 것이 좋습니다. 따라서 검색 된 사서함에서 같은 메시지의 복사본을 여러 개 찾은 경우이 옵션을 사용 하면 하나의 메시지 복사본만 내보내집니다. 이 옵션을 사용 하면 단일 폴더에 있는 PST 파일 하나에서 메시지를 내보낼 수 있으므로 DSR 내보내기 요청에 대 한 최상의 사용자 환경이 제공 됩니다. 결과 .csv 내보내기 보고서에는 중복 메시지가 발견 된 모든 위치가 나열 됩니다.
     
@@ -221,7 +221,7 @@ participants:"ina@contoso.com" OR author:"Ina Leonte" OR createdby:"Ina Leonte"
     
 9. 내보내기 ![플라이 아웃 페이지 위쪽](../media/47205c65-babd-4b3a-bd7b-98dfd92883ba.png) 에서 검색 결과 아이콘 **다운로드 결과** 내보내기를 클릭 합니다. 
     
-10. 페이지 아래쪽의 팝업 창에서 **열기** 를 클릭 하 여 **Microsoft Office 365 eDiscovery 내보내기 도구**를 엽니다. 처음으로 검색 결과를 다운로드할 때 **EDiscovery 내보내기 도구** 를 설치 합니다. 
+10. 페이지 아래쪽의 팝업 창에서 **열기** 를 클릭 하 여 **eDiscovery 내보내기 도구**를 엽니다. 처음으로 검색 결과를 다운로드할 때 **EDiscovery 내보내기 도구** 를 설치 합니다. 
     
 11. **EDiscovery 내보내기 도구**에서 8 단계에서 복사한 내보내기 키를 해당 상자에 붙여 넣습니다.
     
@@ -285,7 +285,7 @@ DSR 사례에 대 한 기본 제공 검색을 수정 하는 것 외에도 검색
 
 [부분적으로 인덱싱된 항목 내보내기](#exporting-partially-indexed-items)
 
-[Microsoft 팀 및 Office 365 그룹에서 데이터 검색 및 내보내기](#searching-and-exporting-data-from-microsoft-teams-and-office-365-groups)
+[Microsoft 팀 및 Microsoft 365 그룹에서 데이터 검색 및 내보내기](#searching-and-exporting-data-from-microsoft-teams-and-microsoft-365-groups)
 
 [Exchange 공용 폴더 검색](#searching-exchange-public-folders)
   
@@ -352,7 +352,7 @@ Office 로밍 서비스에서 데이터를 내보낼 때 데이터는 **Applicat
     
 8. 내보내기 ![플라이 아웃 페이지 위쪽](../media/47205c65-babd-4b3a-bd7b-98dfd92883ba.png) 에서 검색 결과 아이콘 **다운로드 결과** 내보내기를 클릭 합니다. 
     
-9. 페이지 아래쪽의 팝업 창에서 **열기** 를 클릭 하 여 **Microsoft Office 365 eDiscovery 내보내기 도구**를 엽니다. 처음으로 검색 결과를 다운로드할 때 **EDiscovery 내보내기 도구** 를 설치 합니다. 
+9. 페이지 아래쪽의 팝업 창에서 **열기** 를 클릭 하 여 **eDiscovery 내보내기 도구**를 엽니다. 처음으로 검색 결과를 다운로드할 때 **EDiscovery 내보내기 도구** 를 설치 합니다. 
     
 10. **eDiscovery 내보내기 도구**에서 7단계에서 복사한 내보내기 키를 해당 상자에 붙여 넣습니다.
     
@@ -395,15 +395,15 @@ DSR 사례를 만들 때 만든 기본 제공 검색에서 부분적으로 인�
 
 - [부분적으로 인덱싱된 항목 내보내기](export-search-results.md#exporting-partially-indexed-items)
     
-### <a name="searching-and-exporting-data-from-microsoft-teams-and-office-365-groups"></a>Microsoft 팀 및 Office 365 그룹에서 데이터 검색 및 내보내기
+### <a name="searching-and-exporting-data-from-microsoft-teams-and-microsoft-365-groups"></a>Microsoft 팀 및 Microsoft 365 그룹에서 데이터 검색 및 내보내기
 
 Microsoft 팀의 채팅 목록에 속하는 대화 (팀 대화방 또는 일대일 채팅 이라고 함)는 채팅에 참가 하는 사용자의 Exchange Online 사서함에 저장 됩니다. 또한 일대일 채팅에서 개인이 공유 하는 파일은 해당 파일을 공유 하는 사용자의 OneDrive 계정에 저장 됩니다. 기본 제공 검색 기능은 조직의 모든 사서함 및 OneDrive 계정을 검색 하므로, 채팅 세션에서 공유 되는 팀 채팅 및 문서 (데이터 제목이 만들어지거나 업로드 됨)는 DSR 사례의 기본 제공 검색을 통해 반환 됩니다.
   
 또는 팀 채널의 일부인 대화 (채널 메시지 라고도 함)는 팀과 연결 된 사서함에 저장 됩니다. 팀과 연결 된 모든 사서함이 검색 되므로 데이터 주체가 참여 하는 이러한 유형의 대화도 기본 제공 검색에서 반환 됩니다. 또한 팀 채널의 데이터 주체를 공유 하는 파일은 SharePoint 사이트에 저장 됩니다. 데이터 주체에서 만들거나 업로드 하는 파일은 팀과 연결 된 사이트가 검색에 포함 되기 때문에 DSR 사례의 기본 제공 검색을 통해 반환 됩니다.
   
-마찬가지로 Office 365 그룹에 해당 하는 사서함 및 SharePoint 사이트도 기본 제공 검색에 포함 됩니다. 즉, 데이터 주체가 만들었거나 업로드 한 전자 메일 메시지가 데이터 주체에 의해 보내지거나 수신 되는 것을 의미 합니다. 
+마찬가지로 Microsoft 365 그룹에 해당 하는 사서함 및 SharePoint 사이트도 기본 제공 검색에 포함 됩니다. 즉, 데이터 주체가 만들었거나 업로드 한 전자 메일 메시지가 데이터 주체에 의해 보내지거나 수신 되는 것을 의미 합니다. 
   
-콘텐츠 검색을 사용 하 여 Microsoft 팀 및 Office 365 그룹의 항목을 검색 하는 방법에 대 한 자세한 내용을 보거나 구성원 목록을 가져오는 방법을 보려면 [Office의 콘텐츠 검색 365](content-search.md#searching-microsoft-teams-and-office-365-groups)에서 "Microsoft 팀 및 Office 365 그룹 검색" 섹션을 참조 하십시오. 
+콘텐츠 검색을 사용 하 여 Microsoft 팀 및 Microsoft 365 그룹의 항목을 검색 하거나 구성원 목록을 가져오는 방법을 확인 하는 방법에 대 한 자세한 내용은 [microsoft 365의 콘텐츠 검색](content-search.md#searching-microsoft-teams-and-microsoft-365-groups)에서 "microsoft 팀 및 Microsoft 365 그룹 검색" 섹션을 참조 하십시오. 
   
 ### <a name="searching-exchange-public-folders"></a>Exchange 공용 폴더 검색
 

@@ -13,25 +13,25 @@ localization_priority: Normal
 search.appverid: MOE150
 ms.assetid: 04e9de2d-765b-457b-a98a-d0f60bfb13f2
 description: EDiscovery 검색 결과를 내보낼 때 컴퓨터로 다운로드 되는 PST 파일의 기본 크기를 변경할 수 있습니다.
-ms.openlocfilehash: 9deb90e688617981499bee286b95a0442fa1a1b4
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: f5fde9bbb37f6e22c49049c892a1b69b07d15bef
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595935"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636326"
 ---
 # <a name="change-the-size-of-pst-files-when-exporting-ediscovery-search-results"></a>EDiscovery 검색 결과를 내보낼 때 PST 파일 크기 변경
 
-Office 365 eDiscovery 내보내기 도구를 사용 하 여 다른 Microsoft eDiscovery 도구에서 eDiscovery 검색의 전자 메일 결과를 내보낼 때 내보낼 수 있는 PST 파일의 기본 크기는 10gb입니다. 이 기본 크기를 변경 하려는 경우 검색 결과를 내보내는 데 사용 하는 컴퓨터에서 Windows 레지스트리를 편집할 수 있습니다. 이 작업을 수행 하는 한 가지 이유는 PST 파일이 DVD, 컴팩트 디스크 또는 USB 드라이브 같은 이동식 미디어에 들어갈 수 있도록 하는 것입니다. 
+EDiscovery 내보내기 도구를 사용 하 여 다른 Microsoft eDiscovery 도구에서 eDiscovery 검색의 전자 메일 결과를 내보낼 때 내보낼 수 있는 PST 파일의 기본 크기는 10gb입니다. 이 기본 크기를 변경 하려는 경우 검색 결과를 내보내는 데 사용 하는 컴퓨터에서 Windows 레지스트리를 편집할 수 있습니다. 이 작업을 수행 하는 한 가지 이유는 PST 파일이 DVD, 컴팩트 디스크 또는 USB 드라이브 같은 이동식 미디어에 들어갈 수 있도록 하는 것입니다. 
   
 > [!NOTE]
-> Office 365 eDiscovery 내보내기 도구는 보안 및 준수 센터의 콘텐츠 검색 도구, Exchange Online의 원본 위치 eDiscovery 및 SharePoint Online의 eDiscovery 센터를 사용 하는 경우 검색 결과를 내보내는 데 사용 됩니다.
+> EDiscovery 내보내기 도구는 보안 & 준수 센터, Exchange Online의 원본 위치 eDiscovery 및 SharePoint Online의 eDiscovery 센터에서 콘텐츠 검색 도구를 사용할 때 검색 결과를 내보내는 데 사용 됩니다.
   
 ## <a name="create-a-registry-setting-to-change-the-size-of-pst-files-when-you-export-ediscovery-search-results"></a>EDiscovery 검색 결과를 내보낼 때 PST 파일 크기를 변경 하는 레지스트리 설정 만들기
 
 EDiscovery 검색의 결과를 내보내는 데 사용할 컴퓨터에서 다음 절차를 수행 합니다.
   
-1. Office 365 eDiscovery 내보내기 도구가 열려 있는 경우 해당 도구를 닫습니다. 
+1. 열려 있는 eDiscovery 내보내기 도구를 닫습니다. 
     
 2. 파일 이름 접미사를 사용 하 여 Windows 레지스트리 파일에 다음 텍스트를 저장 합니다. 예: PstExportSize. 
     
@@ -74,11 +74,11 @@ EDiscovery 검색의 결과를 내보내는 데 사용할 컴퓨터에서 다음
   
  **어떤 컴퓨터에서이 작업을 수행 해야 하나요?**
   
-Office 365 eDiscovery 내보내기 도구를 실행 하는 로컬 컴퓨터에서 레지스트리 설정을 변경 해야 합니다.
+EDiscovery 내보내기 도구를 실행 하는 로컬 컴퓨터에서 레지스트리 설정을 변경 해야 합니다.
   
  **이 설정을 변경한 후에는 컴퓨터를 다시 부팅 해야 하나요?**
   
-아니요, 컴퓨터를 다시 부팅할 필요가 없습니다. 그러나 Office 365 eDiscovery 내보내기 도구를 실행 하는 경우이 설정을 변경 하 고 나면이를 닫고 다시 시작 해야 합니다.
+아니요, 컴퓨터를 다시 부팅할 필요가 없습니다. 그러나 eDiscovery 내보내기 도구를 실행 하는 경우이 설정을 변경한 후에 닫은 후에 다시 시작 해야 합니다.
   
  **기존 레지스트리 키를 편집 하거나 새 키를 만들기 시작 합니까?**
   

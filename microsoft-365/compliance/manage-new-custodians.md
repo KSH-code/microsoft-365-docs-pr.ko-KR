@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: 고급 eDiscovery 사례에서 custodians를 관리 합니다.
-ms.openlocfilehash: f52c32c2eb65a03369064954ac1af6f881ab556f
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: b497aef50c2bafd58e3b9cf8643a1ecc038520a4
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42634706"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635898"
 ---
 # <a name="manage-custodians-in-an-advanced-ediscovery-case"></a>Advanced eDiscovery 사례에서 custodians 관리
 
@@ -132,7 +132,7 @@ Custodian를 해제 하려면 다음을 수행 합니다.
 
 4. 플라이 아웃 페이지에서 **Custodian 릴리스**를 클릭 합니다.
 
-   Custodian과 연결 된 데이터 원본에 보류가 설정 되 고 보류가 제거 되 고 다른 고급 eDiscovery 사례와 관련 된 다른 보류에도 적용 되는 경우를 설명 하는 경고 페이지가 표시 됩니다. 여기에는 office 365 보존 정책과 같은 Office 365의 다른 유형의 보존 및 보존 기능이 포함 되어 있습니다.
+   Custodian과 연결 된 데이터 원본에 보류가 설정 되 고 보류가 제거 되 고 다른 고급 eDiscovery 사례와 관련 된 다른 보류에도 적용 되는 경우를 설명 하는 경고 페이지가 표시 됩니다. 여기에는 기타 유형의 보존 및 보존 기능 (예: Microsoft 365 보존 정책)이 포함 되어 있습니다.
 
 5. **예** 를 클릭 하 여 custodian 릴리스를 확인 합니다. 
 

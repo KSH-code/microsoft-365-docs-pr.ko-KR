@@ -1,5 +1,5 @@
 ---
-title: Facebook 데이터를 보관 하는 커넥터 설정
+title: Facebook 데이터를 보관할 커넥터 설정
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -12,14 +12,14 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
 description: 관리자는 Facebook Business pages, Twitter, LinkedIn 회사 페이지 및 인스턴트 Bloomberg 같은 데이터 원본에서 타사 데이터를 가져오도록 커넥터를 설정할 수 있습니다. 이를 통해 Microsoft 365의 타사 데이터 원본에서 데이터를 보관할 수 있으므로 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용 하 여 조직의 타사 데이터를 관리 하는 것을 관리할 수도 있습니다.
-ms.openlocfilehash: 8bd689f7a77497961948d8e94b160aca8bbb43ed
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 5c8bb4c1330af0f9c10dd93f9cedd47b3d3b34b0
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41596315"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637128"
 ---
-# <a name="set-up-a-connector-to-archive-facebook-data"></a>Facebook 데이터를 보관 하는 커넥터 설정
+# <a name="set-up-a-connector-to-archive-facebook-data"></a>Facebook 데이터를 보관할 커넥터 설정
 
 Microsoft 365 준수 센터의 커넥터를 사용 하 여 Facebook Business 페이지의 데이터를 Microsoft 365로 가져오고 보관 합니다. 커넥터를 설정 하 고 구성한 후에는이를 Facebook Business 페이지에 연결 하 고 (예약 된 방식), Facebook 항목의 콘텐츠를 전자 메일 메시지 형식으로 변환한 다음 해당 항목을 Microsoft 365의 사서함으로 가져옵니다.
 
@@ -38,9 +38,9 @@ Microsoft 365 준수 센터에서 커넥터를 설정 및 구성 하 여 조직�
     - [방문 비용 청구 Azure 구독에 등록](https://azure.microsoft.com/pricing/purchase-options/pay-as-you-go/)
 
     > [!NOTE]
-    > Office 365 구독에 포함 된 [무료 Azure Active Directory 구독은](use-your-free-azure-ad-subscription-in-office-365.md) 보안 & 준수 센터의 커넥터를 지원 하지 않습니다.
+    > Microsoft 365 구독에 포함 된 [무료 Azure Active Directory 구독은](use-your-free-azure-ad-subscription-in-office-365.md) 보안 & 준수 센터의 커넥터를 지원 하지 않습니다.
 
-- 조직에서는 Office 365 가져오기 서비스가 조직의 사서함 데이터에 액세스할 수 있도록 허용 해야 합니다. 이 요청에 동의 하려면 [이 페이지로](https://login.microsoftonline.com/common/oauth2/authorize?client_id=570d0bec-d001-4c4e-985e-3ab17fdc3073&response_type=code&redirect_uri=https://portal.azure.com/&nonce=1234&prompt=admin_consent)이동 하 여 Office 365 전역 관리자의 자격 증명으로 로그인 한 다음 요청을 수락 합니다.
+- 조직에서는 Office 365 가져오기 서비스가 조직의 사서함 데이터에 액세스할 수 있도록 허용 해야 합니다. 이 요청에 동의 하려면 [이 페이지로](https://login.microsoftonline.com/common/oauth2/authorize?client_id=570d0bec-d001-4c4e-985e-3ab17fdc3073&response_type=code&redirect_uri=https://portal.azure.com/&nonce=1234&prompt=admin_consent)이동 하 여 전역 관리자의 자격 증명으로 로그인 한 다음 요청을 수락 합니다.
 
 - Microsoft 365 준수 센터에서 사용자 지정 커넥터를 설정 하는 사용자 (5 단계)에는 Exchange Online의 사서함 가져오기 내보내기 역할이 할당 되어 있어야 합니다. 기본적으로이 역할은 Exchange Online의 어떤 역할 그룹에도 할당되지 않습니다. Exchange Online의 조직 관리 역할 그룹에 사서함 가져오기 내보내기 역할을 추가할 수 있습니다. 또는 역할 그룹을 만들고 사서함 가져오기 내보내기 역할을 할당 한 다음 해당 사용자를 구성원으로 추가할 수 있습니다. 자세한 내용은 "Exchange Online에서 역할 그룹 관리" 문서의 [역할 그룹 만들기](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#create-role-groups) 또는 [역할 그룹 수정](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#modify-role-groups) 섹션을 참조 하세요.
 
@@ -106,7 +106,7 @@ Microsoft 365 준수 센터에서 커넥터를 설정 및 구성 하 여 조직�
 
 ## <a name="step-5-set-up-a-facebook-business-pages-connector-in-the-microsoft-365-compliance-center"></a>5 단계: Microsoft 365 준수 센터에서 Facebook Business pages connector 설정
 
-마지막 단계에서는 microsoft 365의 Facebook Business 페이지에서 지정 된 사서함으로 데이터를 가져올 수 있는 커넥터를 마이크로소프트 365 준수 센터에 설정 합니다. 이 단계를 완료 하면 Microsoft 365 가져오기 서비스가 Facebook 비즈니스 페이지의 데이터를 Microsoft 365로 가져오는 것을 시작 합니다.
+마지막 단계에서는 microsoft 365의 Facebook Business 페이지에서 지정 된 사서함으로 데이터를 가져올 수 있는 커넥터를 마이크로소프트 365 준수 센터에 설정 합니다. 이 단계를 완료 하면 Office 365 가져오기 서비스가 Facebook 비즈니스 페이지의 데이터를 Microsoft 365로 가져오는 것을 시작 합니다.
 
 단계별 지침은 [5 단계: Microsoft 365 준수 센터에서 Facebook 커넥터 설정](deploy-facebook-connector.md#step-5-set-up-a-facebook-connector-in-the-microsoft-365-compliance-center)를 참조 하십시오. 
 

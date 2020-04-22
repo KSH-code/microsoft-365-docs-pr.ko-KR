@@ -13,16 +13,16 @@ localization_priority: Normal
 search.appverid: MOE150
 ms.assetid: 88898874-e262-4c5c-b6d2-4e697497fc74
 description: 검색을 실행 하기 전에 키워드 쿼리를 검사 하 여 지원 되지 않는 문자나 소문자 부울 연산자와 같은 오류 및 오타에 대 한 콘텐츠 검색을 확인 합니다. 오류가 발견 되 면 수정 된 쿼리를 제안 합니다.
-ms.openlocfilehash: 65b8ea1d9c1d474b2068afc0df5b6e261f56fa69
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 17d9c7a2480b80fa45fd4bb296308a4d4be79377
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42078920"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636316"
 ---
 # <a name="check-your-content-search-query-for-errors"></a>오류에 대한 콘텐츠 검색 쿼리 확인
 
-콘텐츠 검색을 만들거나 편집할 때 Office 365에서 쿼리를 검사 하 여 지원 되지 않는 문자와 소문자 부울 연산자를 확인할 수 있습니다. 미치는? 콘텐츠 검색의 쿼리 페이지에서 **오타가 있는지 확인을** 클릭 하기만 하면 됩니다. 
+콘텐츠 검색을 만들거나 편집할 때 Microsoft 365에서 지원 되지 않는 문자와 소문자 부울 연산자에 대 한 쿼리를 확인할 수 있습니다. 미치는? 콘텐츠 검색의 쿼리 페이지에서 **오타가 있는지 확인을** 클릭 하기만 하면 됩니다. 
   
 !["오타에 대 한 쿼리 확인"을 클릭 하 여 검색 쿼리를 검사 하 여 지원 되지 않는 문자](../media/e5314306-cfb2-481d-9b5c-13ce658156e7.png)
   

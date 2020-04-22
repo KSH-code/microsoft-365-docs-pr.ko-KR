@@ -21,12 +21,12 @@ search.appverid:
 - MET150
 ms.assetid: ed48d448-3714-4c42-85f5-10f75f6a4278
 description: '보안 & 준수 센터의 콘텐츠 검색에서 로컬 컴퓨터로 검색 결과를 내보냅니다. 전자 메일 결과를 PST 파일로 내보냅니다. SharePoint의 콘텐츠 및 비즈니스용 OneDrive 사이트는 기본 Office 문서로 내보내집니다. '
-ms.openlocfilehash: 5789244314a945937791d360962ad398f87f9bd4
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: 3b9997b11763d91357e53d12ef70ffb025a04d74
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42634936"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43615992"
 ---
 # <a name="export-content-search-results"></a>콘텐츠 검색 결과 내보내기
 
@@ -56,7 +56,7 @@ ms.locfileid: "42634936"
     
   > [!NOTE]
   > <sup>1</sup> Microsoft는 ClickOnce 응용 프로그램에 대 한 타사 확장 또는 추가 기능을 제조 하지 않습니다. 타사 확장 또는 추가 기능에서 지원 되지 않는 브라우저를 사용 하 여 검색 결과를 내보낼 수는 없습니다.<br/>
-  > <sup>2</sup> Microsoft Edge의 최근 변경 사항으로 인해 ClickOnce 지원은 더 이상 기본적으로 사용 되지 않도록 설정 되어 있습니다. Edge에서 ClickOnce 지원을 사용 하도록 설정 하는 방법에 대 한 자세한 내용은 [Microsoft Edge에서 Office 365 EDiscovery 내보내기 도구 사용](configure-edge-to-export-search-results.md)을 참조 하십시오.
+  > <sup>2</sup> Microsoft Edge의 최근 변경 사항으로 인해 ClickOnce 지원은 더 이상 기본적으로 사용 되지 않도록 설정 되어 있습니다. 에 지에 ClickOnce 지원을 사용 하는 방법에 대 한 자세한 내용은 [Microsoft Edge에서 EDiscovery 내보내기 도구 사용](configure-edge-to-export-search-results.md)을 참조 하십시오.
     
 - 2 단계에 설명 된 대로 검색 결과를 다운로드할 때 검색 결과를 내보내는 데 사용 하는 컴퓨터에서 Windows 레지스트리 설정을 구성 하 여 다운로드 속도를 높일 수 있습니다. 자세한 내용은 [Office 365에서 eDiscovery 검색 결과를 내보낼 때 다운로드 속도 높이기](increase-download-speeds-when-exporting-ediscovery-results.md)를 참조 하세요.
     
@@ -87,7 +87,7 @@ ms.locfileid: "42634936"
   
 1. [https://protection.office.com](https://protection.office.com)으로 이동합니다.
     
-2. 회사 또는 학교 계정을 사용하여 Office 365에 로그인합니다.
+2. 회사 또는 학교 계정을 사용 하 여 로그인 합니다.
     
 3. 보안 & 준수 센터의 왼쪽 창에서 **콘텐츠 검색** **검색** \> 을 클릭 합니다.
     
@@ -160,7 +160,7 @@ ms.locfileid: "42634936"
   
 3. **결과 다운로드**를 클릭합니다.
     
-4. **MicrosoftOffice 365 EDiscovery 내보내기 도구**를 설치 하 라는 메시지가 표시 되 면 **설치**를 클릭 합니다.
+4. **EDiscovery 내보내기 도구**를 설치 하 라는 메시지가 표시 되 면 **설치**를 클릭 합니다.
     
 5. **eDiscovery 내보내기 도구**에서 5단계에서 복사한 내보내기 키를 해당 상자에 붙여 넣습니다. 
     
@@ -212,7 +212,7 @@ ms.locfileid: "42634936"
     
 - 내보낼 수 있는 최대 PST 파일 크기는 기본적으로 10gb입니다. 즉, 사용자 사서함의 검색 결과가 10gb 보다 크면 사서함에 대 한 검색 결과를 두 개 이상의 개별 PST 파일로 내보냅니다. 모든 검색 결과를 단일 PST 파일에 내보내도록 선택한 경우 총 검색 결과 크기가 10gb 보다 크면 PST 파일이 추가 PST 파일로 spilt 됩니다. 이 기본 크기를 변경 하려는 경우 검색 결과를 내보내는 데 사용 하는 컴퓨터에서 Windows 레지스트리를 편집할 수 있습니다. [EDiscovery 검색 결과를 내보낼 때 PST 파일 크기 변경을](change-the-size-of-pst-files-when-exporting-results.md)참조 하세요.
     
-    또한 단일 사서함의 콘텐츠가 10gb 보다 많은 경우 특정 사서함의 검색 결과는 여러 PST 파일로 분할 되지 않습니다. 단일 폴더에 있는 모든 메시지를 포함 하는 하나의 PST 파일로 검색 결과를 내보내시겠습니까? 검색 결과가 10gb 보다 크면 해당 항목이 계속 해 서 시간순으로 구성 되어 있으므로 전송 된 항목을 기반으로 추가 PST 파일에 spilt 됩니다. 종료일.
+    또한 단일 사서함의 콘텐츠가 10gb 보다 많은 경우 특정 사서함의 검색 결과는 여러 PST 파일로 분할 되지 않습니다. 단일 폴더에 있는 모든 메시지를 포함 하는 하나의 PST 파일로 검색 결과를 내보내고 검색 결과가 10gb 보다 크면 해당 항목은 계속 해 서 시간순으로 구성 되므로 보낸 날짜를 기준으로 추가 PST 파일에 spilt 됩니다.
      
  ### <a name="export-reports"></a>보고서 내보내기
   

@@ -1,5 +1,5 @@
 ---
-title: Office 365 Advanced eDiscovery에서 관련성 분석 추적
+title: Advanced eDiscovery에서 관련성 분석 추적
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -15,13 +15,13 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 3ab1e2c3-28cf-4bf5-b0a8-c0222f32bdf5
-description: 'Office 365 Advanced eDiscovery에서 사례 문제에 대 한 관련성 교육 상태 및 결과를 확인 하 고 해석 하는 방법에 대해 알아봅니다.  '
-ms.openlocfilehash: 9c15bd285848d1906243137bfba451b19900b28e
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+description: 'Advanced eDiscovery에서 사례 문제에 대 한 관련성 교육 상태 및 결과를 보고 해석 하는 방법에 대해 알아봅니다.  '
+ms.openlocfilehash: 7cf75607743ce752f8b23e286afc4681a1798a1f
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42557678"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636621"
 ---
 # <a name="track-relevance-analysis-in-advanced-ediscovery-classic"></a>Advanced eDiscovery에서 관련성 분석 추적 (클래식)
 

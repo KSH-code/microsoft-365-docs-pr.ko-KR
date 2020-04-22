@@ -15,19 +15,19 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: 고급 eDiscovery 사례에 custodian을 추가 하면 부분적으로 인덱싱된 것으로 간주 되는 Office 365의 콘텐츠가 완벽 하 게 검색 가능 하도록 다시 처리 됩니다.
-ms.openlocfilehash: 3c1bead5f853a39410a6a018f170ee637dfcf84e
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: 고급 eDiscovery 사례에 custodian을 추가 하면 부분적으로 인덱싱된 콘텐츠가 완벽 하 게 검색할 수 있도록 다시 처리 됩니다.
+ms.openlocfilehash: 0618af5bcc18622ee8091782f55648f455230b6b
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42072895"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637900"
 ---
 # <a name="advanced-indexing-of-custodian-data"></a>보유자 데이터의 고급 인덱싱
 
-고급 eDiscovery 사례에 custodian을 추가 하면 부분적으로 인덱싱된 것으로 간주 되는 Office 365의 콘텐츠가 완벽 하 게 검색 가능 하도록 다시 처리 됩니다.  이 프로세스를 *고급 인덱싱*이라고 합니다. 이미지의 존재 여부, 지원 되지 않는 파일 형식 또는 파일 크기 제한에 도달 하는 경우에는 여러 가지 이유로 인해 콘텐츠를 부분적으로 인덱싱할 수 있습니다.
+고급 eDiscovery 사례에 custodian을 추가 하면 부분적으로 인덱싱된 콘텐츠가 완벽 하 게 검색할 수 있도록 다시 처리 됩니다.  이 프로세스를 *고급 인덱싱*이라고 합니다. 이미지의 존재 여부, 지원 되지 않는 파일 형식 또는 파일 크기 제한에 도달 하는 경우에는 여러 가지 이유로 인해 콘텐츠를 부분적으로 인덱싱할 수 있습니다.
 
-Office 365 및 부분적으로 인덱싱된 항목의 처리 지원에 대 한 자세한 내용은 다음을 참조 하십시오.
+처리 지원 및 부분적으로 인덱싱된 항목에 대 한 자세한 내용은 다음 항목을 참조 하십시오.
 
 - [고급 eDiscovery에서 지원 되는 파일 형식](supported-filetypes-ediscovery20.md)
 

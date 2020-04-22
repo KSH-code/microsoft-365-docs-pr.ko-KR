@@ -16,22 +16,22 @@ search.appverid:
 - MOE150
 - MET150
 description: '경우에 따라 중요한 정보를 식별하기 위해 키워드를 검색해야 할 수 있습니다. 이러한 작업은 일반 콘텐츠(예: 의료 관련 커뮤니케이션) 또는 부적절하거나 명시적인 언어를 식별할 때 특히 필요합니다. 중요한 정보 유형에 키워드 목록을 만들 수 있지만 키워드 목록은 크기가 제한되며 생성하거나 편집하기 위해 XML을 수정해야 합니다. 키워드 사전은 키워드를 보다 간편하게 관리할 수 있도록 하며 사전당 최대 100,000개 용어를 지원합니다.'
-ms.openlocfilehash: 2ae63a9bf10ee43b3f761d8c60652c7c2a5e8b5f
-ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
+ms.openlocfilehash: 67263c854f764be42d97061632567ec1b25214b4
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141513"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636466"
 ---
 # <a name="create-a-keyword-dictionary"></a>키워드 사전 만들기
 
-Office 365의 DLP (데이터 손실 방지)를 통해 중요 한 정보를 식별, 모니터링 및 보호할 수 있습니다. 중요 한 정보 식별 간혹 키워드를 찾으려는 경우, 특히 일반 콘텐츠 (예: 의료 관련 통신)를 식별 하거나 부적절 한 언어나 명시적 언어를 사용 해야 하는 경우가 있습니다. 키워드 목록은 중요 한 정보 유형으로 만들 수 있지만 키워드 목록은 크기를 제한 하며 XML을 수정 하 여 만들거나 편집 해야 합니다. 키워드 사전은 보다 간단 하 게 키워드를 관리 하 고 = 100KB을 사용 하 여 사전 당 용어를 최대 개수까지 지원할 수 있습니다.
+DLP (데이터 손실 방지)는 중요 한 정보를 식별, 모니터링 및 보호할 수 있습니다. 중요 한 정보 식별 간혹 키워드를 찾으려는 경우, 특히 일반 콘텐츠 (예: 의료 관련 통신)를 식별 하거나 부적절 한 언어나 명시적 언어를 사용 해야 하는 경우가 있습니다. 키워드 목록은 중요 한 정보 유형으로 만들 수 있지만 키워드 목록은 크기를 제한 하며 XML을 수정 하 여 만들거나 편집 해야 합니다. 키워드 사전은 보다 간단 하 게 키워드를 관리할 수 있도록 하 여 사전 당 최대 10만 용어를 지원 합니다.
   
 ## <a name="basic-steps-to-creating-a-keyword-dictionary"></a>키워드 사전을 만드는 기본 단계
 
 사전의 키워드는 다양한 원본, 서비스 또는 PowerShell cmdlet에서 가져온 파일(예:.csv 또는 .txt 목록)(대부분의 경우), PowerShell cmdlet에 사용자가 직접 입력한 목록 또는 기존 사전에서 가져올 수 있습니다. 키워드 사전을 만들 때 다음과 같은 동일한 핵심 단계를 따르세요.
   
-1. **보안 & 준수 센터** ([https://protection.office.com](https://protection.office.com))를 사용 하거나 **Office 365 보안 &amp; 및 준수 센터 PowerShell**에 연결 합니다.
+1. **보안 & 준수 센터** ([https://protection.office.com](https://protection.office.com))를 사용 하거나 **보안 &amp; 및 준수 센터 PowerShell**에 연결 합니다.
     
 2. **원하는 원본에서 키워드를 정의 하거나 로드**합니다. 마법사와 cmdlet은 모두 쉼표로 구분 된 키워드 목록을 사용 하 여 사용자 지정 키워드 사전을 만들기 때문에이 단계는 키워드의 출처에 따라 약간씩 다릅니다. 일단 로드되고 나면 가져오기 전에 인코딩되어 바이트 배열로 변환됩니다.
     
@@ -67,7 +67,7 @@ Office 365의 DLP (데이터 손실 방지)를 통해 중요 한 정보를 식�
     
 ## <a name="create-a-keyword-dictionary-from-a-file-using-powershell"></a>PowerShell을 사용하여 파일에서 키워드 사전 만들기
 
-큰 사전을 만들어야 하는 경우에는 다른 원본에서 내보낸 파일 또는 목록의 키워드를 사용 하는 것이 좋습니다. 이 경우 외부 전자 메일 화면에 부적합 한 언어 목록이 포함 된 키워드 사전을 만듭니다. 먼저 [Office 365 보안 &amp; 및 준수 센터 PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell)해야 합니다.
+큰 사전을 만들어야 하는 경우에는 다른 원본에서 내보낸 파일 또는 목록의 키워드를 사용 하는 것이 좋습니다. 이 경우 외부 전자 메일 화면에 부적합 한 언어 목록이 포함 된 키워드 사전을 만듭니다. 먼저 [보안 &amp; 준수 센터 PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell)해야 합니다.
   
 1. 키워드를 텍스트 파일에 복사합니다. 이때 각 키워드를 별도 줄에 복사해야 합니다.
     

@@ -1,5 +1,5 @@
 ---
-title: Office 365 Advanced eDiscovery에서 관련성 분석 테스트
+title: Advanced eDiscovery에서 관련성 분석 테스트
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -15,13 +15,13 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 1b092f7c-ea55-44f5-b419-63f3458fd7e0
-description: 'Office 365 Advanced eDiscovery의 일괄 계산 후 테스트 탭을 사용 하 여 전체 처리 품질을 테스트 및 비교 하 고 유효성 검사를 수행 하는 방법에 대해 알아봅니다.  '
-ms.openlocfilehash: c65c10878bdc057a1c53c4370f6a6750e1fe8e9d
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+description: 'Advanced eDiscovery의 일괄 계산 후 테스트 탭을 사용 하 여 전체 처리 품질을 테스트 및 비교 하 고 유효성을 검사 하는 방법에 대해 알아봅니다.  '
+ms.openlocfilehash: 67b480ea340dace4cab0b038d678b6d005bf545b
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42557688"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637202"
 ---
 # <a name="test-relevance-analysis-in-advanced-ediscovery-classic"></a>Advanced eDiscovery에서 관련성 분석 테스트 (클래식)
 

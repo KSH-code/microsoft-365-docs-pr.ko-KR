@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: 이 문서에서는 보안 & 준수 센터의 새 데이터 조사 (미리 보기) 도구를 사용 하 여 데이터 유출 인시던트를 관리 하는 방법을 설명 합니다.
-ms.openlocfilehash: f02d5c42d42f6031202e874497f92fdfbe5d0bcf
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: a544eb1e021faa82d00ac46a7d64a3eb368cc323
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42634296"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635938"
 ---
 # <a name="manage-a-data-spillage-incident-in-microsoft-365"></a>Microsoft 365에서 데이터 유출 인시던트 관리
 
@@ -29,14 +29,14 @@ ms.locfileid: "42634296"
 
 ## <a name="scope-of-this-article"></a>이 문서의 범위
 
-이 문서에서는 Office 365 사서함에서 항목을 영구적으로 삭제 하는 방법에 대 한 지침을 제공 하 여 사용자 또는 관리자가 더 이상 액세스할 수 없거나 복구할 수 없도록 합니다. 
+이 문서에서는 Microsoft 365 사서함에서 항목을 영구적으로 삭제 하는 방법에 대 한 지침 목록을 제공 하 여 사용자 또는 관리자가 더 이상 액세스할 수 없거나 복구할 수 없도록 합니다. 
 
 > [!NOTE]
 > SharePoint 또는 비즈니스용 OneDrive 사이트에 있는 항목을 삭제 하면 원래 위치에서 삭제 한 시간부터 93 일 동안 유지 됩니다.
 
 ## <a name="scenario"></a>시나리오
 
-직원 들이 전자 메일을 통해 여러 사용자와 고도로 기밀 문서를 공유 하는 데이터 유출 문제에 대 한 정보를 제공 하 고 있습니다. 조직 내부 및 외부 모두에서이 문서를 받은 사람을 빠르게 평가 하려는 경우 인시던트를 조사한 후에는 다른 investigators 검토를 위해 결과를 공유 하 고 Office 365 조직에서 분산 된 데이터를 영구적으로 제거 합니다. 조사가 완료 되 면 모든 증거를 제거 합니다. 
+직원 들이 전자 메일을 통해 여러 사용자와 고도로 기밀 문서를 공유 하는 데이터 유출 문제에 대 한 정보를 제공 하 고 있습니다. 조직 내부 및 외부 모두에서이 문서를 받은 사람을 빠르게 평가 하려는 경우 인시던트를 조사한 후에는 다른 investigators 검토를 위해 결과를 공유 하 고 조직에서 분산 된 데이터를 영구적으로 제거 합니다. 조사가 완료 되 면 모든 증거를 제거 합니다. 
 
 > [!IMPORTANT]
 > 조직 내에서 분산 된 데이터를 영구적으로 제거할 수 있지만 조직 외부에 분산 된 데이터는 이러한 기능을 사용 하 여 제거할 수 없습니다.
@@ -68,7 +68,7 @@ ms.locfileid: "42634296"
 
 1. [https://protection.office.com](https://protection.office.com)으로 이동합니다.
     
-2. Data Investigator 역할 그룹의 구성원 인 계정을 사용 하 여 Office 365에 로그인 합니다.
+2. Data Investigator 역할 그룹의 구성원 인 계정을 사용 하 여 로그인 합니다.
     
 3. 보안 및 준수 센터에서 **데이터 조사**를 클릭 합니다.
  

@@ -1,5 +1,5 @@
 ---
-title: Office 365 Advanced eDiscovery에서 가져온 파일을 추가 하도록 로드 설정
+title: 고급 eDiscovery에서 가져온 파일을 추가 하도록 로드 설정
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -15,13 +15,13 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 0e0a9d04-294f-4f54-8bf1-b32d81345126
-description: 'Office 365 Advanced eDiscovery에서 관련성 훈련을 수행 하기 전에 가져온 파일을 마지막으로 정의한 부하 또는 일괄 파일에 추가 하는 단계를 검토 합니다.  '
-ms.openlocfilehash: 3dd302e107b10726dd0110dfcb19bf59a3703add
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+description: '고급 eDiscovery에서 관련성 있는 교육을 수행 하기 전에 가져온 파일을 마지막으로 정의한 로드 또는 일괄 파일에 추가 하는 단계를 검토 합니다.  '
+ms.openlocfilehash: 7914013d21cfd7bba0e474a0e8d831bcfad0239d
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42557768"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636296"
 ---
 # <a name="set-up-loads-to-add-imported-files-in-advanced-ediscovery-classic"></a>고급 eDiscovery에서 가져온 파일을 추가 하도록 로드 설정 (클래식)
 

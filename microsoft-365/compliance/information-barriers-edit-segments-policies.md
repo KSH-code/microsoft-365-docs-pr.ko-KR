@@ -13,12 +13,12 @@ ms.collection:
 - M365-security-compliance
 localization_priority: None
 description: 정보 장벽에 대 한 정책을 편집 하거나 제거 하는 방법을 알아봅니다.
-ms.openlocfilehash: ef534f49c92abf1500b72b0d490ab9f22a48a680
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: 5690a1d7a131c006bbff3b087b1ee2983198c068
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42634846"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637890"
 ---
 # <a name="edit-or-remove-information-barrier-policies"></a>정보 장벽 정책 편집 또는 제거
 
@@ -26,7 +26,7 @@ ms.locfileid: "42634846"
 
 ## <a name="what-do-you-want-to-do"></a>무슨 작업을 하고 싶으십니까?
 
-|동작은  |설명 |
+|작업  |설명 |
 |---------|---------|
 |[사용자 계정 특성 편집](#edit-user-account-attributes)     |세그먼트를 정의 하는 데 사용할 수 있는 특성을 Azure Active Directory에 입력 합니다.<br/>사용자 계정 특성을 편집 해야 하는 세그먼트에 사용자가 포함 되어 있지 않거나, 사용자가 속한 세그먼트를 변경 하거나, 다른 특성을 사용 하 여 세그먼트를 정의할 수 있습니다.         |
 |[세그먼트 편집](#edit-a-segment)     |세그먼트 정의 방법을 변경 하려면 세그먼트를 편집 합니다. <br/>예를 들어 처음에 *부서* 를 사용 하 여 세그먼트를 정의 했을 때, 이제 *MemberOf*와 같은 다른 특성을 사용 하려고 할 수 있습니다.         |
@@ -38,7 +38,7 @@ ms.locfileid: "42634846"
 |[정보 장벽 문제 해결](information-barriers-troubleshooting.md)     |정보 장벽에서 예기치 않은 문제가 발생 하는 경우이 문서를 참조 하세요.         |
 
 > [!IMPORTANT]
-> 이 문서에서 설명 하는 작업을 수행 하려면 다음 중 하 나와 같은 적절 한 역할을 할당 받아야 합니다.<br/>-Microsoft 365 Enterprise 전역 관리자<br/>-Office 365 전역 관리자<br/>-준수 관리자<br/>-IB 준수 관리 (새 역할입니다.)<p>정보 장벽에 대 한 필수 구성 요소에 대 한 자세한 내용은 [필수 구성 요소 (정보 장벽 정책)](information-barriers-policies.md#prerequisites)를 참조 하세요.<p>[Office 365 Security & 준수 센터 PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps)되어 있는지 확인 합니다.
+> 이 문서에서 설명 하는 작업을 수행 하려면 다음 중 하 나와 같은 적절 한 역할을 할당 받아야 합니다.<br/>-Microsoft 365 Enterprise 전역 관리자<br/>-전역 관리자<br/>-준수 관리자<br/>-IB 준수 관리 (새 역할입니다.)<p>정보 장벽에 대 한 필수 구성 요소에 대 한 자세한 내용은 [필수 구성 요소 (정보 장벽 정책)](information-barriers-policies.md#prerequisites)를 참조 하세요.<p>[보안 & 준수 센터 PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps)해야 합니다.
 
 ## <a name="edit-user-account-attributes"></a>사용자 계정 특성 편집
 

@@ -16,24 +16,24 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 3153fc92cfae6e2feba122cc895e787c9b573ef7
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: f8b72112feea4af0a33ef3a0cc12005c8deea195
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42080903"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637518"
 ---
 # <a name="troubleshoot-azcopy-in-advanced-ediscovery"></a>Advanced eDiscovery에서 AzCopy 문제 해결
 
-고급 eDiscovery에서 오류 수정을 위해 Office가 아닌 365 데이터 또는 문서를 로드할 때 사용자 인터페이스는 업로드 하려는 파일이 저장 되는 위치 및 Azure 저장소에 있는 매개 변수를 포함 하는 Azure AzCopy 명령을 제공 합니다. 파일이 업로드 될 위치입니다. 문서를 업로드 하려면 로컬 컴퓨터의 명령 프롬프트에서이 명령을 복사한 다음 실행 합니다.  다음 스크린샷에는 AzCopy 명령의 예가 나와 있습니다.
+고급 eDiscovery에서 오류 수정을 위해 Microsoft가 아닌 365 데이터 또는 문서를 로드할 때 사용자 인터페이스는 업로드 하려는 파일이 저장 되는 위치 및 파일이 업로드 될 Azure 저장 위치와 함께 매개 변수가 포함 된 Azure AzCopy 명령을 제공 합니다. 문서를 업로드 하려면 로컬 컴퓨터의 명령 프롬프트에서이 명령을 복사한 다음 실행 합니다.  다음 스크린샷에는 AzCopy 명령의 예가 나와 있습니다.
 
-![Office 이외의 365 파일 업로드](../media/46ba68f6-af11-4e70-bb91-5fc7973516e3.png)
+![타사 365 파일 업로드](../media/46ba68f6-af11-4e70-bb91-5fc7973516e3.png)
 
 일반적으로 제공 되는 명령은 실행할 때 작동 합니다. 그러나 표시 된 명령이 정상적으로 실행 되지 않는 경우가 있을 수 있습니다. 몇 가지 가능한 이유는 다음과 같습니다.
 
 ## <a name="the-supported-version-of-azcopy-isnt-installed-on-the-local-computer"></a>지원 되는 AzCopy 버전은 로컬 컴퓨터에 설치 되어 있지 않습니다.
 
-이 경우에는 AzCopy v 8.1을 사용 하 여 고급 eDiscovery에서 비 Office 365 데이터를 로드 해야 합니다. 이전 스크린샷에 표시 된 **파일 업로드** 페이지에 표시 되는 AzCopy 명령은 AzCopy v 8.1을 사용 하지 않는 경우 오류를 반환 합니다. 이 버전을 설치 하려면 [Windows의 AzCopy v 8.1을 사용 하 여 데이터 전송을](https://docs.microsoft.com/previous-versions/azure/storage/storage-use-azcopy)참조 하십시오.
+이 경우에는 AzCopy v 8.1을 사용 하 여 고급 eDiscovery에서 Microsoft가 아닌 365 데이터를 로드 해야 합니다. 이전 스크린샷에 표시 된 **파일 업로드** 페이지에 표시 되는 AzCopy 명령은 AzCopy v 8.1을 사용 하지 않는 경우 오류를 반환 합니다. 이 버전을 설치 하려면 [Windows의 AzCopy v 8.1을 사용 하 여 데이터 전송을](https://docs.microsoft.com/previous-versions/azure/storage/storage-use-azcopy)참조 하십시오.
 
 ## <a name="azcopy-isnt-installed-on-the-local-computer-or-its-not-installed-in-the-default-location"></a>AzCopy가 로컬 컴퓨터에 설치 되어 있지 않거나 기본 위치에 설치 되어 있지 않습니다.
 

@@ -16,14 +16,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: Office 365 eDiscovery에서 일반적인 문제를 조사 하 고 문제를 해결 하 고 해결 합니다.
+description: EDiscovery의 일반적인 문제를 조사 하 고 문제를 해결 하 고 해결 합니다.
 siblings_only: true
-ms.openlocfilehash: 3ff22ae11a21aef3909e58e03c8fefcf21db6435
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 5bcbe498cb650268dc8ff6f2b41a6201e75a8192
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42074820"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631773"
 ---
 # <a name="investigate-troubleshoot-and-resolve-common-ediscovery-issues"></a>일반적인 eDiscovery 문제 조사, 문제 해결 및 해결
 
@@ -37,7 +37,7 @@ ms.locfileid: "42074820"
 
 동일한 사용자 ID의 중복 된 사용자 또는 메일 그룹을 확인 합니다.
 
-1. [Office 365 보안 & 준수 센터 PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell)에 연결 합니다.
+1. [보안 & 준수 센터 PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell)에 연결 합니다.
 
 2. 다음 명령을 실행 하 여 username의 모든 인스턴스를 검색 합니다.
 
@@ -66,7 +66,7 @@ EDiscovery 또는 콘텐츠 검색 시 다음 오류가 발생할 수 있습니�
 
 이 오류가 표시 되는 경우 검색에 실패 한 위치를 확인 한 다음 실패 한 위치 에서만 검색을 다시 실행 하는 것이 좋습니다.
 
-1. [Office 365 Security & 준수 센터 PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell) 에 연결한 후 다음 명령을 실행 합니다.
+1. [보안 & 준수 센터 PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell) 에 연결한 후 다음 명령을 실행 합니다.
 
     ```powershell
     Get-ComplianceSearch <searchname> | FL 
@@ -112,9 +112,9 @@ EDiscovery 검색이 실패 하 고 `recipient not found`오류가 발생 합니
 
 ### <a name="resolution"></a>문제 해결 방법
 
-1.  [다운로드 속도 증가](https://docs.microsoft.com/office365/securitycompliance/increase-download-speeds-when-exporting-ediscovery-results)문서에서 식별 된 단계를 사용해 봅니다.
+1.    [다운로드 속도 증가](https://docs.microsoft.com/office365/securitycompliance/increase-download-speeds-when-exporting-ediscovery-results)문서에서 식별 된 단계를 사용해 봅니다.
 
-2.  여전히 문제가 있는 경우 [Office 365 Security & 준수 센터 PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell) 에 연결한 후 다음 명령을 실행 합니다.
+2.    문제가 계속 되 면 [보안 & 준수 센터 PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell) 에 연결 하 고 다음 명령을 실행 합니다.
 
     ```powershell
     Get-ComplianceSearch <searchname> | FL
@@ -142,7 +142,7 @@ EDiscovery 검색을 실행할 때 "내부 서버 오류 (500)이 발생 했습�
 
 1. 검색을 더 작은 검색으로 나누고 검색을 다시 실행 합니다.  더 작은 날짜 범위를 사용 하거나 검색 중인 위치 수를 제한 합니다.
 
-2. [Office 365 Security & 준수 센터 PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell) 에 연결한 후 다음 명령을 실행 합니다.
+2. [보안 & 준수 센터 PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell) 에 연결한 후 다음 명령을 실행 합니다.
 
     ```powershell Set-CaseHoldPolicy <policyname> -RetryDistribution
     Get-ComplianceSearch <searchname> | FL
@@ -162,7 +162,7 @@ eDiscovery 사례 보류 정책 동기화 배포 오류입니다. 오류는 다�
 
 ### <a name="resolution"></a>문제 해결 방법
 
-1.  [Office 365 Security & 준수 센터 PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell) 에 연결한 후 eDiscovery 사례 보류에 대해 다음 명령을 실행 합니다.
+1.    [보안 & 준수 센터 PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell) 에 연결한 후 eDiscovery 사례 보류에 대해 다음 명령을 실행 합니다.
 
     ```powershell
     Get-CaseHoldPolicy <policyname> - DistributionDetail | FL

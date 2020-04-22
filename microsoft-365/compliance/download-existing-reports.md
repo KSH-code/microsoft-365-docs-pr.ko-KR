@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 ms.assetid: 1372da29-f3ab-49d7-8c02-eb9305bb5fd8
 description: 보안 &amp; 및 준수 센터에서 하나 이상의 기존 보고서를 다운로드 하는 방법을 알아봅니다.
-ms.openlocfilehash: d5f381a5e59f7cb6348bdc96572dfa37c4919500
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 33ea3b52a99f1ec2f5f3717c51754d82204e22a3
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595173"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631783"
 ---
 # <a name="download-existing-reports-in-the-security-amp-compliance-center"></a>보안 &amp; 및 준수 센터에서 기존 보고서 다운로드
 
@@ -29,7 +29,7 @@ ms.locfileid: "41595173"
 ## <a name="download-existing-reports"></a>기존 보고서 다운로드
 
 > [!IMPORTANT]
-> [Office 365 보안 &amp; 및 준수 센터에서 필요한 사용 권한이 할당](../security/office-365-security/protect-against-threats.md)되었는지 확인 합니다. 일반적으로 Office 365 전역 관리자, 보안 관리자 및 보안 독자는 보안 &amp; 및 준수 센터의 보고서에 액세스할 수 있습니다. 
+> [보안 &amp; 및 준수 센터에서 필요한 사용 권한이 할당](../security/office-365-security/protect-against-threats.md)되었는지 확인 합니다. 일반적으로 전역 관리자, 보안 관리자 및 보안 독자는 보안 &amp; 및 준수 센터의 보고서에 액세스할 수 있습니다. 
   
 1. [보안 &amp; 및 준수 센터](https://protection.office.com)에서 다운로드를 위한 **보고서** \> **보고서**로 이동 합니다.
     
@@ -39,7 +39,7 @@ ms.locfileid: "41595173"
     
 ## <a name="related-topics"></a>관련 항목
 
-[Office 365 보안 &amp; 및 준수 센터의 보고서 및 정보](../security/office-365-security/reports-and-insights-in-security-and-compliance.md)
+[보안 &amp; 및 준수 센터의 보고서 및 정보](../security/office-365-security/reports-and-insights-in-security-and-compliance.md)
   
 [보안 &amp; 및 준수 센터에서 보고서 일정 만들기](../security/office-365-security/create-a-schedule-for-a-report.md)
   

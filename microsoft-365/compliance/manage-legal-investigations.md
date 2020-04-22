@@ -15,18 +15,18 @@ search.appverid:
 - MET150
 ms.assetid: 2e5fbe9f-ee4d-4178-8ff8-4356bc1b168e
 description: Microsoft 365 준수 센터의 eDiscovery 사례를 사용 하 여 조직의 법적 조사를 관리 합니다. E5 구독이 있는 경우에는 고급 eDiscovery의 텍스트 분석, 기계 학습 및 예측 코딩 기능을 사용 하 여 사례 데이터를 보다 자세히 분석할 수 있습니다.
-ms.openlocfilehash: 0db2187259c0c828c492f56698963bf9f61c9c18
-ms.sourcegitcommit: 825037f166eea3ba70f8980cedc5492f90c1cc56
+ms.openlocfilehash: 41eaa4ca4428c21b905d63365a9b3af7da1df9aa
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/01/2020
-ms.locfileid: "43097201"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635908"
 ---
 # <a name="manage-legal-investigations-in-microsoft-365"></a>Microsoft 365에서 법적 조사 관리
 
 조직에는 조직의 특정 임원 또는 다른 직원과 관련 된 법적 사례에 대응 해야 하는 여러 가지 이유가 있습니다. 이 작업을 수행 하는 동안에는 다른 조사 관련 정보를 전자 메일, 문서, 인스턴트 메시징 대화 및 기타 콘텐츠 위치에 빠르게 찾고 보존 하는 작업이 진행 될 수 있습니다. 보안 및 준수 센터에서 eDiscovery 사례 도구를 사용 하 여 이와 유사한 여러 가지 비슷한 작업을 수행할 수 있습니다.
   
-**Microsoft에서 eDiscovery 조사를 관리 하는 방법을 알고 싶으십니까?** 이 문서에서는 내부 eDiscovery 워크플로를 관리 하기 위해 동일한 Office 365 검색 및 조사 도구를 사용 하는 방법에 대해 설명 하는 [기술 백서](https://go.microsoft.com/fwlink/?linkid=852161) 를 다운로드할 수 있습니다.
+**Microsoft에서 eDiscovery 조사를 관리 하는 방법을 알고 싶으십니까?** 이 문서에서는 내부 eDiscovery 워크플로를 관리 하기 위해 동일한 검색 및 조사 도구를 사용 하는 방법에 대해 설명 하는 [기술](https://go.microsoft.com/fwlink/?linkid=852161) 백서를 다운로드할 수 있습니다.
    
 ## <a name="manage-legal-investigations-with-ediscovery-cases"></a>EDiscovery 사례를 사용 하 여 법적 조사 관리
 

@@ -1,5 +1,5 @@
 ---
-title: Office 365 Advanced eDiscovery의 태그 지정 및 관련성 교육
+title: 고급 eDiscovery에서 태그 지정 및 관련성 교육
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -15,13 +15,13 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 8576cc86-d51b-4285-b54b-67184714cc62
-description: 'Office 365 Advanced eDiscovery의 관련성 성향 습득 단계에서 40 파일의 교육 샘플에 태그를 지정한 후 작업을 수행 하는 방법에 대해 알아봅니다.  '
-ms.openlocfilehash: 6362aef6f4e0e17b39429dfeebca796d58d2d13e
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+description: 'Advanced eDiscovery의 관련성 있는 성향 습득 단계에서 40 파일의 교육 샘플에 태그를 지정한 다음 작업을 수행 하는 방법에 대해 알아봅니다.  '
+ms.openlocfilehash: 8d03061401cab2014d33e9e3238af42a4d01738a
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42557718"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636266"
 ---
 # <a name="tagging-and-relevance-training-in-advanced-ediscovery-classic"></a>고급 eDiscovery에서 태그 지정 및 관련성 교육 (클래식)
 

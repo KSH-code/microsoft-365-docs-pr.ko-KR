@@ -1,5 +1,5 @@
 ---
-title: Office 365 Advanced eDiscovery에서 보고서 필드 내보내기
+title: 고급 eDiscovery에서 보고서 필드 내보내기
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 840a5aff-ecd0-4e56-ad22-fe99bc143687
 description: 고급 eDiscovery에 대 한 내보내기 보고서에 포함 되는 모든 필드에 대해 설명 합니다.
-ms.openlocfilehash: 8c932dac9218e2020bfcd57d21483728325e488f
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+ms.openlocfilehash: a7ee8e3971ab2fc921085ca63f7a8451a1597be2
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42558209"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637810"
 ---
 # <a name="export-report-fields-in-advanced-ediscovery-classic"></a>고급 eDiscovery에서 보고서 필드 내보내기 (클래식)
 
@@ -135,7 +135,7 @@ ms.locfileid: "42558209"
 |Word_count  <br/> |분석  <br/> |문서의 단어 수입니다.  <br/> |아니요  <br/> |예  <br/> |
 |
    
-## <a name="related-topics"></a>관련 주제
+## <a name="related-topics"></a>관련 항목
 
 [고급 eDiscovery (클래식)](office-365-advanced-ediscovery.md)
   

@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: 이 문서에서는 Microsoft 365의 새 데이터 조사 (미리 보기) 도구에 대해 설명 합니다.
-ms.openlocfilehash: 57605566a8847a3630e1c4656f98f71ebb414f86
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 813877151f538bc07a0460fdd702ab37ebcc5a1a
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595415"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637738"
 ---
 # <a name="release-notes-for-data-investigations-preview-in-microsoft-365"></a>Microsoft 365의 데이터 조사 (미리 보기)에 대 한 릴리스 정보
 
@@ -31,7 +31,7 @@ Microsoft 365의 새 데이터 조사 (미리 보기) 도구를 사용 하 여 �
 
 - **조사** -조사를 만들어 검색 및 인시던트를 그룹화 할 수 있습니다. 구성원을 추가 하거나 제거 하 여 조사에 액세스할 수 있는 사용자를 관리 합니다.  또한 즐겨찾기 조사를 선택 하 고 표시할 수 있습니다. 새 대시보드를 사용 하 여 조사 내의 및 간 활동을 추적 하 고 모니터링 합니다. 조사를 완료 한 후에는 닫거나 삭제할 수 있습니다.
 
-- **관심** 사용자-사용자를 조사에 추가할 때 관심 있는 사서함, 비즈니스용 OneDrive 계정 및 Microsoft 팀 사이트를 볼 수 있습니다. 이를 사용 하 여 조사 콘텐츠 검색의 범위를 지정할 수 있습니다. 관심 있는 사람을 추가로 조사 하기 위해 Office 365 및 기타 Microsoft 서비스의 활동과 관련 된 감사 레코드도 볼 수 있습니다.
+- **관심** 사용자-사용자를 조사에 추가할 때 관심 있는 사서함, 비즈니스용 OneDrive 계정 및 Microsoft 팀 사이트를 볼 수 있습니다. 이를 사용 하 여 조사 콘텐츠 검색의 범위를 지정할 수 있습니다. 관심 있는 사람을 추가로 조사 하기 위해 Microsoft 365 및 기타 Microsoft 서비스의 작업과 관련 된 감사 레코드를 볼 수도 있습니다.
 
 - **검색** -다양 한 검색 조건을 사용 하 여 조직 전체 검색을 만듭니다. 검색 하려는 사용자 또는 사이트를 알고 있는 경우 해당 사용자를 관심 있는 사람으로 추가 하거나 검색 만들기 마법사에서 사이트 위치를 지정 하 여이 작업을 수행할 수 있습니다. 
 

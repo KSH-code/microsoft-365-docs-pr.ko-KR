@@ -13,17 +13,17 @@ ms.collection: M365-security-compliance
 localization_priority: Normal
 search.appverid: MOE150
 ms.assetid: 67cc7f42-a53d-4751-b929-6005c80798f7
-description: 준수 관리자가 보안 & 준수 센터에서 콘텐츠 검색 및 eDiscovery 사례 작업을 수행할 때 기록 되는 이벤트에 대 한 Office 365 감사 로그를 검색 하는 방법을 알아봅니다.
-ms.openlocfilehash: 21a7304abae594557c5ae8fcdc33ca8c88bc2dea
-ms.sourcegitcommit: 311bbd6f168225ede166d29696126a1e003eee0f
+description: 준수 관리자가 보안 & 준수 센터에서 콘텐츠 검색 및 eDiscovery 사례 작업을 수행할 때 기록 되는 이벤트에 대 한 감사 로그를 검색 하는 방법을 알아봅니다.
+ms.openlocfilehash: 96f6b121064e7540778a418baa96bae448e4eed3
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43151453"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631829"
 ---
 # <a name="search-for-ediscovery-activities-in-the-audit-log"></a>감사 로그에서 eDiscovery 활동 검색
 
-보안 & 준수 센터에서 또는 해당 PowerShell cmdlet을 실행 하 여 수행 되는 콘텐츠 검색 및 eDiscovery 관련 작업은 Office 365 감사 로그에 기록 됩니다. 이벤트는 관리자나 eDiscovery 관리자 또는 사용자가 할당 한 eDiscovery 권한이 있는 경우 보안 & 준수 센터에서 다음과 같은 콘텐츠 검색 및 핵심 eDiscovery 작업을 수행할 때 기록 됩니다.
+보안 & 준수 센터에서 또는 해당 PowerShell cmdlet을 실행 하 여 수행 되는 콘텐츠 검색 및 eDiscovery 관련 작업은 감사 로그에 기록 됩니다. 이벤트는 관리자나 eDiscovery 관리자 또는 사용자가 할당 한 eDiscovery 권한이 있는 경우 보안 & 준수 센터에서 다음과 같은 콘텐츠 검색 및 핵심 eDiscovery 작업을 수행할 때 기록 됩니다.
   
 - eDiscovery 사례 만들기 및 관리
 
@@ -38,15 +38,15 @@ ms.locfileid: "43151453"
 > [!IMPORTANT]
 > 이 문서에서 설명 하는 작업은 보안 & 준수 센터를 사용 하 여 수행 된 eDiscovery 작업의 결과에 불과합니다. Exchange Online의 원본 위치 eDiscovery 도구 또는 SharePoint Online의 eDiscovery Center를 사용 하 여 수행한 eDiscovery 작업은 포함 되지 않습니다. 
   
-Office 365 감사 로그 검색, 필요한 사용 권한, 검색 결과 내보내기에 대 한 자세한 내용은 [Security & 준수 센터에서 감사 로그 검색](search-the-audit-log-in-security-and-compliance.md)을 참조 하십시오.
+감사 로그 검색, 필요한 권한, 검색 결과 내보내기에 대 한 자세한 내용은 [Security & 준수 센터에서 감사 로그 검색](search-the-audit-log-in-security-and-compliance.md)을 참조 하십시오.
   
 ## <a name="how-to-search-for-and-view-ediscovery-activities"></a>EDiscovery 작업을 검색 하 고 확인 하는 방법
 
-현재는 Office 365 감사 로그에서 eDiscovery 활동을 보기 위해 몇 가지 특정 작업을 수행 해야 합니다. 이 작업을 수행하는 방법은 다음과 같습니다.
+현재 감사 로그에서 eDiscovery 활동을 확인 하려면 몇 가지 특정 작업을 수행 해야 합니다. 이 작업을 수행하는 방법은 다음과 같습니다.
   
 1. [https://protection.office.com](https://protection.office.com)으로 이동합니다.
     
-2. 회사 또는 학교 계정을 사용하여 Office 365에 로그인합니다.
+2. 회사 또는 학교 계정을 사용 하 여 로그인 합니다.
     
 3. 왼쪽 창에서 **검색**을 클릭 하 고 **감사 로그 검색**을 클릭 합니다.
     
@@ -69,7 +69,7 @@ Office 365 감사 로그 검색, 필요한 사용 권한, 검색 결과 내보�
 
 ## <a name="ediscovery-activities"></a>eDiscovery 활동
 
-다음 표에서는 관리자 또는 eDiscovery 관리자가 보안 & 준수 센터를 사용 하 여 eDiscovery 관련 작업을 수행 하거나 Office 365 Security & 준수 센터 PowerShell에서 해당 cmdlet을 실행 하는 경우 기록 되는 콘텐츠 검색 및 핵심 eDiscovery 작업에 대해 설명 합니다. 
+다음 표에서는 관리자 또는 eDiscovery 관리자가 보안 & 준수 센터를 사용 하 여 eDiscovery 관련 작업을 수행 하거나 보안 & 준수 센터 PowerShell에서 해당 cmdlet을 실행 하는 경우 기록 되는 콘텐츠 검색 및 핵심 eDiscovery 작업에 대해 설명 합니다. 
   
 > [!NOTE]
 > 이 섹션에서 설명 하는 eDiscovery 작업은 다음 섹션에서 설명 하는 eDiscovery cmdlet 작업에 대 한 유사한 정보를 제공 합니다. 이 섹션에서 설명 하는 eDiscovery 작업은 감사 로그 검색 결과에서 30 분 이내에 표시 되므로 사용 하는 것이 좋습니다. EDiscovery cmdlet 작업이 감사 로그 검색 결과에 표시 되는 데 최대 24 시간이 걸릴 수 있습니다. 
@@ -99,7 +99,7 @@ Office 365 감사 로그 검색, 필요한 사용 권한, 검색 결과 내보�
 |다운로드 된 콘텐츠 검색 내보내기  <br/> |SearchExportDownloaded  <br/> |해당 없음  <br/> |사용자가 콘텐츠 검색 결과를 로컬 컴퓨터에 다운로드 했습니다. 검색 결과를 다운로드 하려면 먼저 **콘텐츠 검색 작업의 내보내기를** 시작 해야 합니다.  <br/> |
 |미리 본 콘텐츠 검색 결과  <br/> |SearchPreviewed 보기  <br/> |해당 없음  <br/> |콘텐츠 검색 결과를 미리 본 사용자입니다.  <br/> |
 |제거 된 콘텐츠 검색 결과  <br/> |SearchResultsPurged  <br/> |New-compliancesearchaction  <br/> |사용자가 **new-compliancesearchaction** 명령을 실행 하 여 콘텐츠 검색의 결과를 제거 했습니다.  <br/> |
-|콘텐츠 검색 분석이 제거 됨  <br/> |RemovedSearchResultsSentToZoom  <br/> |New-compliancesearchaction을 제거 합니다.  <br/> |Office 365 Advanced eDiscovery에 대 한 검색 결과를 준비 하기 위한 콘텐츠 검색 준비 작업을 삭제 했습니다. 준비 작업이 2 주 이내 였으 면 고급 eDiscovery 용으로 준비 된 검색 결과가 Microsoft Azure storage 영역에서 삭제 되었습니다. 준비 작업이 2 주 이상 경과 된 경우이 이벤트는 해당 준비 동작만 삭제 되었음을 나타냅니다.  <br/> |
+|콘텐츠 검색 분석이 제거 됨  <br/> |RemovedSearchResultsSentToZoom  <br/> |New-compliancesearchaction을 제거 합니다.  <br/> |콘텐츠 검색 준비 작업 (고급 eDiscovery에 대 한 검색 결과 준비)이 삭제 되었습니다. 준비 작업이 2 주 이내 였으 면 고급 eDiscovery 용으로 준비 된 검색 결과가 Microsoft Azure storage 영역에서 삭제 되었습니다. 준비 작업이 2 주 이상 경과 된 경우이 이벤트는 해당 준비 동작만 삭제 되었음을 나타냅니다.  <br/> |
 |콘텐츠 검색 내보내기 제거 됨  <br/> |RemovedSearchExported  <br/> |New-compliancesearchaction을 제거 합니다.  <br/> |콘텐츠 검색 내보내기 작업이 삭제 되었습니다. 내보내기 작업이 2 주 이내 였던 경우 Microsoft Azure 저장소 영역에 업로드 된 검색 결과가 삭제 되었습니다. 내보내기 작업이 2 주 보다 오래 된 경우이 이벤트는 해당 내보내기 동작만 삭제 되었음을 나타냅니다.  <br/> |
 |EDiscovery 사례에서 구성원 제거 됨  <br/> |CaseMemberRemoved  <br/> |Get-compliancecasemember을 제거 합니다.  <br/> |사용자가 eDiscovery 사례의 구성원으로 제거 되었습니다.  <br/> |
 |콘텐츠 검색 결과 미리 보기 제거 됨  <br/> |RemovedSearchPreviewed  <br/> |New-compliancesearchaction을 제거 합니다.  <br/> |콘텐츠 검색 미리 보기 작업이 삭제 되었습니다.  <br/> |
@@ -144,7 +144,7 @@ Office 365 감사 로그 검색, 필요한 사용 권한, 검색 결과 내보�
 |변경 된 콘텐츠 검색  <br/> |[Set-ComplianceSearch](https://go.microsoft.com/fwlink/p/?LinkId=517937) <br/> |기존 콘텐츠 검색이 변경 되었습니다. 이러한 변경 사항에는 검색 쿼리를 편집 하거나 편집할 콘텐츠 위치를 추가 하거나 제거 하는 것이 포함 될 수 있습니다.  <br/> |
 |시작 콘텐츠 검색  <br/> |[Start-ComplianceSearch](https://go.microsoft.com/fwlink/p/?LinkId=517938) <br/> |콘텐츠 검색을 시작 했습니다. 보안 & 준수 센터 GUI를 사용 하 여 콘텐츠 검색을 만들거나 변경 하면 검색이 자동으로 시작 됩니다. **ComplianceSearch** 또는 **ComplianceSearch** cmdlet을 사용 하 여 검색을 만들거나 변경 하는 경우 **ComplianceSearch** cmdlet을 실행 하 여 검색을 시작 해야 합니다.  <br/> |
 |콘텐츠 검색 중지 됨  <br/> |[Stop-ComplianceSearch](https://go.microsoft.com/fwlink/p/?LinkId=517939) <br/> |실행 중 이었던 콘텐츠 검색을 중지 했습니다.  <br/> |
-|만든 콘텐츠 검색 작업  <br/> |[New-compliancesearchaction](https://go.microsoft.com/fwlink/p/?LinkId=527971) <br/> |콘텐츠 검색 작업을 만들었습니다. 콘텐츠 검색 작업에는 검색 결과 미리 보기, 검색 결과 내보내기, Office 365 Advanced eDiscovery에서 분석에 대 한 검색 결과 준비, 콘텐츠 검색의 검색 조건과 일치 하는 항목 영구 삭제 등이 포함 됩니다.  <br/> |
+|만든 콘텐츠 검색 작업  <br/> |[New-compliancesearchaction](https://go.microsoft.com/fwlink/p/?LinkId=527971) <br/> |콘텐츠 검색 작업을 만들었습니다. 콘텐츠 검색 작업에는 검색 결과 미리 보기, 검색 결과 내보내기, 고급 eDiscovery에서 분석에 대 한 검색 결과 준비, 콘텐츠 검색의 검색 조건과 일치 하는 항목 영구 삭제 등이 포함 됩니다.  <br/> |
 |삭제 된 콘텐츠 검색 작업  <br/> |[New-compliancesearchaction을 제거 합니다.](https://go.microsoft.com/fwlink/p/?LinkId=824027) <br/> |콘텐츠 검색 작업이 삭제 되었습니다.  <br/> |
 |만든 검색 권한 필터  <br/> |[New-compliancesecurityfilter](https://go.microsoft.com/fwlink/p/?LinkId=617542) <br/> |검색 권한 필터를 만들었습니다.  <br/> |
 |삭제 된 검색 권한 필터  <br/> |[New-compliancesecurityfilter을 제거 합니다.](https://go.microsoft.com/fwlink/p/?LinkId=617543) <br/> |검색 권한 필터가 삭제 되었습니다.  <br/> |
@@ -168,7 +168,7 @@ Office 365 감사 로그 검색, 필요한 사용 권한, 검색 결과 내보�
 |ClientRequestId  <br/> | EDiscovery 작업의 경우이 속성은 일반적으로 비어 있습니다.  <br/> |
 |CmdletVersion  <br/> |조직에서 실행 되는 보안 & 준수 센터 버전의 빌드 번호입니다.  <br/> |
 |CreationTime  <br/> |EDiscovery 활동이 완료 된 UTC (협정 세계시)로 된 날짜와 시간입니다.  <br/> |
-|EffectiveOrganization  <br/> |Office 365 조직의 이름입니다.  <br/> |
+|EffectiveOrganization  <br/> |Microsoft 365 조직의 이름입니다.  <br/> |
 |ExchangeLocations  <br/> |콘텐츠 검색에 포함 되거나 eDiscovery 사례에서 보류 된 Exchange Online 사서함입니다.  <br/> |
 |제외 항목  <br/> |EDiscovery 사례의 콘텐츠 검색 또는 보류에서 제외 되는 사서함 또는 사이트 위치입니다.  <br/> |
 |ExtendedProperties  <br/> |콘텐츠 검색의 추가 속성, 콘텐츠 검색 작업 또는 eDiscovery 사례 (예: 개체 GUID, 작업을 수행할 때 사용 된 cmdlet 매개 변수 등)  <br/> |
@@ -177,7 +177,7 @@ Office 365 감사 로그 검색, 필요한 사용 권한, 검색 결과 내보�
 |Id  <br/> |작업 속성에 나열 된 작업에 의해 만들어지거나, 변경 되거나, 삭제 되는 개체의 GUID 또는 이름 (예: 콘텐츠 검색 또는 eDiscovery 사례)입니다. 이 개체는 감사 로그 검색 결과의 항목 열에도 식별 됩니다.  <br/> |
 |ObjectType  <br/> |사용자가 만들거나 삭제 하거나 수정한 eDiscovery 개체의 유형입니다. 예를 들어 콘텐츠 검색 작업 (미리 보기, 내보내기 또는 삭제), eDiscovery 사례 또는 콘텐츠 검색 등이 있습니다.  <br/> |
 |작업  <br/> |수행한 eDiscovery 활동에 해당 하는 작업의 이름입니다.  <br/> |
-|조직 id  <br/> |Office 365 조 직의 GUID입니다.  <br/> |
+|조직 id  <br/> |Microsoft 365 조 직의 GUID입니다.  <br/> |
 |매개 변수   <br/> |해당 cmdlet에 사용 된 매개 변수의 이름 및 값입니다.  <br/> |
 |PublicFolderLocations  <br/> |콘텐츠 검색에 포함 되거나 eDiscovery 사례에 유지 되는 Exchange Online의 공용 폴더 위치입니다.  <br/> |
 |Query  <br/> |활동에 연결 된 검색 쿼리 (예: 콘텐츠 검색 또는 쿼리 기반 유지)  <br/> |
@@ -188,7 +188,7 @@ Office 365 감사 로그 검색, 필요한 사용 권한, 검색 결과 내보�
 |StartTime  <br/> |EDiscovery 활동이 시작 된 시간을 UTC (협정 세계시)로 된 날짜와 시간입니다.  <br/> |
 |UserId  <br/> |작업 속성에 지정 된 활동을 수행한 사용자가 레코드를 기록 합니다. 시스템 계정 (예: NT 권한 \ 컴퓨터)에서 수행 하는 eDiscovery 작업에 대 한 레코드는 감사 로그에도 포함 됩니다.  <br/> |
 |UserKey  <br/> |UserId 속성에서 식별 된 사용자의 대체 ID입니다. EDiscovery 작업의 경우이 속성 값은 일반적으로 UserId 속성과 동일 합니다.  <br/> |
-|UserServicePlan  <br/> |조직에서 사용 하는 Office 365 구독 EDiscovery 작업의 경우이 속성은 일반적으로 비어 있습니다.  <br/> |
-|UserType  <br/> |작업을 수행한 사용자의 유형입니다. 다음 값은 사용자 형식을 나타냅니다.  <br/> 0 일반 사용자입니다. 2 Office 365 조직의 관리자입니다. 3 A Microsoft 데이터 센터 관리자 또는 데이터 센터 시스템 계정입니다. 4 시스템 계정입니다. 5 응용 프로그램 6 서비스 사용자 |
+|UserServicePlan  <br/> |조직에서 사용 하는 구독입니다. EDiscovery 작업의 경우이 속성은 일반적으로 비어 있습니다.  <br/> |
+|UserType  <br/> |작업을 수행한 사용자의 유형입니다. 다음 값은 사용자 형식을 나타냅니다.  <br/> 0 일반 사용자입니다. 2 조직의 관리자 3 A Microsoft 데이터 센터 관리자 또는 데이터 센터 시스템 계정입니다. 4 시스템 계정입니다. 5 응용 프로그램 6 서비스 사용자 |
 |Version  <br/> |기록 된 작업의 버전 번호 (Operation 속성으로 식별 됨)를 나타냅니다.  <br/> |
-|작업량  <br/> |활동이 발생 한 Office 365 서비스입니다. EDiscovery 활동의 경우이 값은 **SecurityComplianceCenter**입니다.  <br/> |
+|작업량  <br/> |활동이 발생 한 Theservice입니다. EDiscovery 활동의 경우이 값은 **SecurityComplianceCenter**입니다.  <br/> |

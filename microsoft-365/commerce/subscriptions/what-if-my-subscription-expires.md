@@ -22,12 +22,12 @@ search.appverid:
 - GEA150
 ms.assetid: 4436582f-211a-45ec-b72e-33647f97d8a3
 description: Microsoft 365 for business 구독이 만료 되거나, 사용 하지 않도록 설정 되었거나, 취소 된 경우 데이터에 대 한 결과를 알아봅니다.
-ms.openlocfilehash: 2a5a9e587b6b00017d3e489d948c9cee3db4777b
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: cd90b0b5825b2888b1194998c25a2ce9c7c28718
+ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634877"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43707610"
 ---
 # <a name="what-happens-to-my-data-and-access-when-my-microsoft-365-for-business-subscription-ends"></a>내 데이터 및 액세스에 대 한 Microsoft 365 for business 구독이 종료 될 때 어떤 일이 발생 하나요?
 
@@ -220,7 +220,7 @@ ms.locfileid: "43634877"
 취소 방법에 대 한 자세한 내용은 [구독 취소](cancel-your-subscription.md)를 참조 하세요.
   
 > [!IMPORTANT]
-> 일반적인 비활성 기간이 끝나기 전에 구독 데이터를 삭제 하려면 긴급 프로 비전 해제를 요청할 수 있습니다. 긴급 프로비전 해제를 요청하면 취소일로부터 3일 이내에 구독 데이터가 삭제됩니다. 긴급 프로 비전 해제를 사용 하려면 [지원 서비스를 호출](../../admin/contact-support-for-business-products.md)합니다.
+> 일반적인 사용 기간이 종료 되기 전에 구독 데이터를 삭제 하려는 경우 [계정을 닫을](../close-your-account.md)수 있습니다.
 
 > [!NOTE]
 > 이 페이지의 정보는 [Microsoft 정책 고 지 사항 및 변경 알림에 따라 달라](https://go.microsoft.com/fwlink/p/?LinkId=613651)집니다. 이 사이트로 주기적으로 돌아가 변경 내용을 검토 합니다.

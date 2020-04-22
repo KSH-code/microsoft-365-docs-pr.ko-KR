@@ -13,20 +13,20 @@ localization_priority: Normal
 ms.collection: M365-security-compliance
 ROBOTS: NOINDEX, NOFOLLOW
 description: 관리자는 Facebook Business 페이지를 가져오고 보관 하기 위한 기본 커넥터를 Microsoft 365에 설정할 수 있습니다. 이 데이터를 Microsoft 365로 가져온 후 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용 하 여 조직의 Facebook 데이터를 관리할 수 있습니다.
-ms.openlocfilehash: 48747dade98701303c4ca6a8c00192ec7faff34a
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: 10444d8a2c83fd89eaba927b422c8c89466d05cc
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42635026"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636146"
 ---
 # <a name="deploy-a-connector-to-archive-facebook-business-pages-data"></a>Facebook Business pages 데이터를 보관 하기 위한 커넥터 배포
 
-이 문서에는 Microsoft 365 가져오기 서비스를 사용 하 여 Facebook Business 페이지의 데이터를 Microsoft 365로 가져오는 커넥터를 배포 하는 단계별 프로세스가 포함 되어 있습니다. 이 프로세스에 대 한 간략 한 개요와 Facebook 커넥터를 배포 하는 데 필요한 필수 구성 요소 목록은 [facebook 데이터를 보관할 커넥터 설정을](archive-facebook-data-with-sample-connector.md)참조 하십시오. 
+이 문서에서는 Office 365 가져오기 서비스를 사용 하 여 Facebook Business 페이지의 데이터를 Microsoft 365로 가져오는 커넥터를 배포 하는 단계별 프로세스를 소개 합니다. 이 프로세스에 대 한 간략 한 개요와 Facebook 커넥터를 배포 하는 데 필요한 필수 구성 요소 목록은 [facebook 데이터를 보관할 커넥터 설정을](archive-facebook-data-with-sample-connector.md)참조 하십시오. 
 
 ## <a name="step-1-create-an-app-in-azure-active-directory"></a>1 단계: Azure Active Directory에 앱 만들기
 
-1. 으로 이동 <https://portal.azure.com> 하 고 Office 365 전역 관리자 계정의 자격 증명을 사용 하 여 로그인 합니다.
+1. 로 이동 <https://portal.azure.com> 하 고 전역 관리자 계정의 자격 증명을 사용 하 여 로그인 합니다.
 
     ![AAD에서 앱 만들기](../media/FBCimage1.png)
 

@@ -1,5 +1,5 @@
 ---
-title: 일반적인 시나리오 문제를 해결 하기 위해 Office 365 감사 로그 검색
+title: 일반적인 시나리오 문제를 해결 하기 위해 감사 로그 검색
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -15,17 +15,17 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-description: Office 365 감사 로그 검색 도구를 사용 하면 손상 된 계정을 조사 하거나, 사서함에 대 한 전자 메일 전달을 설정 하는 사람을 찾거나, 외부 사용자가 조직에 로그인 한 이유를 확인 하는 등의 일반적인 문제를 해결 하는 데 도움이 될 수 있습니다.
-ms.openlocfilehash: b18db4c24548c929043d79adb73e11b46be6ddb8
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+description: 감사 로그 검색 도구를 사용 하면 손상 된 계정을 조사 하거나, 사서함에 대해 전자 메일 전달을 설정 하는 사람을 찾거나, 외부 사용자가 조직에 로그인 하는 이유를 확인 하는 등의 일반적인 문제를 해결 하는 데 도움을 받을 수 있습니다.
+ms.openlocfilehash: 8eaff1fa3eea6a0fa60edcfd43f4f2aedb5a5ffc
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42634486"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636386"
 ---
-# <a name="search-the-office-365-audit-log-to-investigate-common-support-issues"></a>Office 365 감사 로그를 검색 하 여 일반적인 지원 문제 조사
+# <a name="search-the-audit-log-to-investigate-common-support-issues"></a>감사 로그를 검색 하 여 일반적인 지원 문제 조사
 
-이 문서에서는 Office 365 감사 로그 검색 도구를 사용 하 여 일반적인 지원 문제를 조사 하는 방법에 대해 설명 합니다. 여기에는 다음에 대 한 감사 로그 사용이 포함 됩니다.
+이 문서에서는 일반적인 지원 문제를 조사 하는 데 도움이 되는 감사 로그 검색 도구를 사용 하는 방법에 대해 설명 합니다. 여기에는 다음에 대 한 감사 로그 사용이 포함 됩니다.
 
 - 손상 된 계정에 액세스 하는 데 사용 되는 컴퓨터의 IP 주소 찾기
 - 사서함에 대 한 전자 메일 전달을 설정한 사람 결정
@@ -33,13 +33,13 @@ ms.locfileid: "42634486"
 - 사용자가 받은 편지함 규칙을 만들었는지 확인
 - 조직 외부의 사용자가 성공적으로 로그인 한 이유 조사
 
-## <a name="using-the-office-365-audit-log-search-tool"></a>Office 365 감사 로그 검색 도구 사용
+## <a name="using-the-audit-log-search-tool"></a>감사 로그 검색 도구 사용
 
-이 문서에서 설명 하는 각 문제 해결 시나리오는 Office 365 보안 및 준수 센터의 감사 로그 검색 도구를 사용 하는 방법에 따라 달라 집니다. 이 섹션에서는 감사 로그를 검색 하는 데 필요한 사용 권한을 나열 하 고 감사 로그 검색에 액세스 하 고 실행 하는 단계를 설명 합니다. 각 시나리오 섹션에서는 감사 로그 검색 쿼리를 구성 하는 방법과 검색 조건과 일치 하는 감사 레코드의 자세한 정보에서 찾을 항목에 대해 설명 합니다.
+이 문서에서 설명 하는 각 문제 해결 시나리오는 보안 & 준수 센터에서 감사 로그 검색 도구를 사용 하는 방법에 따라 달라 집니다. 이 섹션에서는 감사 로그를 검색 하는 데 필요한 사용 권한을 나열 하 고 감사 로그 검색에 액세스 하 고 실행 하는 단계를 설명 합니다. 각 시나리오 섹션에서는 감사 로그 검색 쿼리를 구성 하는 방법과 검색 조건과 일치 하는 감사 레코드의 자세한 정보에서 찾을 항목에 대해 설명 합니다.
 
 ### <a name="permissions-required-to-use-the-audit-log-search-tool"></a>감사 로그 검색 도구를 사용 하는 데 필요한 사용 권한
 
-Office 365 감사 로그를 검색 하려면 Exchange Online에서 보기 전용 감사 로그 또는 감사 로그 역할이 할당 되어 있어야 합니다. 기본적으로 이러한 역할은 Exchange 관리 센터의 **사용 권한** 페이지에서 규정 준수 관리 및 조직 관리 역할 그룹에 할당됩니다. Office 365 및 Microsoft 365의 전역 관리자는 Exchange Online에서 조직 관리 역할 그룹의 구성원으로 자동 추가 됩니다. 자세한 내용은 [Exchange Online에서 역할 그룹 관리](https://go.microsoft.com/fwlink/p/?LinkID=730688)를 참조하세요.
+감사 로그를 검색 하려면 Exchange Online의 보기 전용 감사 로그 또는 감사 로그 역할이 할당 되어 있어야 합니다. 기본적으로 이러한 역할은 Exchange 관리 센터의 **사용 권한** 페이지에서 규정 준수 관리 및 조직 관리 역할 그룹에 할당됩니다. Office 365 및 Microsoft 365의 전역 관리자는 Exchange Online에서 조직 관리 역할 그룹의 구성원으로 자동 추가 됩니다. 자세한 내용은 [Exchange Online에서 역할 그룹 관리](https://go.microsoft.com/fwlink/p/?LinkID=730688)를 참조하세요.
 
 ### <a name="running-audit-log-searches"></a>감사 로그 검색 실행
 
@@ -80,7 +80,7 @@ Office 365 감사 로그를 검색 하려면 Exchange Online에서 보기 전용
 **활동:** 해당 사례와 관련 된 경우 검색할 특정 활동을 선택 합니다. 손상 된 계정 문제를 해결 하려면 **Exchange 사서함 활동**아래에서 **사서함에 로그인 한 사용자** 를 선택 하는 것이 좋습니다. 사서함에 로그인 할 때 사용 되는 IP 주소를 보여 주는 감사 레코드를 반환 합니다. 그렇지 않은 경우에는이 필드를 비워 두어 모든 활동에 대 한 감사 레코드를 반환 합니다. 
 
 > [!TIP]
-> 이 필드를 비워 두면 누군가가 Office 365 사용자 계정에 로그인 했음을 나타내는 Azure Active Directory 활동 인 **UserLoggedIn** 활동이 반환 됩니다. 검색 결과에서 필터링을 사용 하 여 **UserLoggedIn** 감사 레코드를 표시 합니다.
+> 이 필드를 비워 두면 누군가가 사용자 계정에 로그인 했음을 나타내는 Azure Active Directory 활동 인 **UserLoggedIn** 활동이 반환 됩니다. 검색 결과에서 필터링을 사용 하 여 **UserLoggedIn** 감사 레코드를 표시 합니다.
 
 **시작 날짜** 및 **종료 날짜:** 조사에 적용할 수 있는 날짜 범위를 선택 합니다.
 
@@ -198,9 +198,9 @@ d. **UserId** 필드에는 **ObjectId** 필드에 지정 된 받은 편지함 �
 
 ## <a name="investigate-why-there-was-a-successful-login-by-a-user-outside-your-organization"></a>조직 외부의 사용자가 성공적으로 로그인 한 이유 조사
 
-Office 365 감사 로그에서 감사 레코드를 검토할 때 외부 사용자가 Azure Active Directory에서 인증 되었으며 조직에 성공적으로 로그인 되었음을 나타내는 레코드가 표시 될 수 있습니다. 예를 들어 contoso.onmicrosoft.com의 관리자는 다른 Office 365 조직 (예: fabrikam.onmicrosoft.com)의 사용자가 contoso.onmicrosoft.com에 성공적으로 로그인 한 것을 보여 주는 감사 레코드를 볼 수 있습니다. 마찬가지로 Outlook.com 또는 Live.com와 같은 Microsoft 계정 (MSA)을 사용 하는 사용자에 게 조직에 로그인 했을 나타내는 감사 레코드가 표시 될 수 있습니다. 이러한 상황에서 감사 된 활동은 **사용자가 로그인 한**것입니다. 
+감사 로그의 감사 레코드를 검토할 때 외부 사용자가 Azure Active Directory에서 인증 되었으며 조직에 성공적으로 로그인 되었음을 나타내는 레코드가 표시 될 수 있습니다. 예를 들어 contoso.onmicrosoft.com의 관리자는 다른 조직의 사용자 (예: fabrikam.onmicrosoft.com)가 contoso.onmicrosoft.com에 성공적으로 로그인 한 것으로 표시 되는 감사 레코드를 볼 수 있습니다. 마찬가지로 Outlook.com 또는 Live.com와 같은 Microsoft 계정 (MSA)을 사용 하는 사용자에 게 조직에 로그인 했을 나타내는 감사 레코드가 표시 될 수 있습니다. 이러한 상황에서 감사 된 활동은 **사용자가 로그인 한**것입니다. 
 
-이 동작은 디자인에 의한 것입니다. Office 365의 디렉터리 서비스인 azure Active Directory (Azure AD)는 외부 사용자가 조직의 SharePoint 사이트 또는 OneDrive 위치에 액세스 하려고 할 때 *통과 인증* 을 통해 수행할 수 있도록 합니다. 외부 사용자가이 작업을 수행 하려고 하면 해당 Office 365 자격 증명을 입력 하 라는 메시지가 표시 됩니다. Azure AD는 자격 증명을 사용 하 여 사용자를 인증 하며, Azure AD는 사용자가 누구 인지를 확인 합니다. 감사 레코드에 성공한 로그인을 나타내는 것은 Azure AD 사용자 인증의 결과입니다. 성공한 로그인은 사용자가 조직에서 모든 리소스에 액세스 하거나 다른 작업을 수행할 수 없음을 의미 합니다. 사용자가 Azure AD에서 인증 되었음을 나타냅니다. 통과 사용자가 SharePoint 또는 OneDrive 리소스에 액세스 하기 위해 조직의 사용자는 공유 초대 또는 익명 공유 링크를 보내 해당 리소스를 외부 사용자와 명시적으로 공유 해야 합니다. 
+이 동작은 디자인에 의한 것입니다. Azure Active Directory (Azure AD), 디렉터리 서비스인 경우 외부 사용자가 조직의 SharePoint 사이트 또는 OneDrive 위치에 액세스 하려고 할 때 *통과 인증* 을 사용 하는 것을 허용 합니다. 외부 사용자가이 작업을 수행 하려고 하면 자격 증명을 입력 하 라는 메시지가 표시 됩니다. Azure AD는 자격 증명을 사용 하 여 사용자를 인증 하며, Azure AD는 사용자가 누구 인지를 확인 합니다. 감사 레코드에 성공한 로그인을 나타내는 것은 Azure AD 사용자 인증의 결과입니다. 성공한 로그인은 사용자가 조직에서 모든 리소스에 액세스 하거나 다른 작업을 수행할 수 없음을 의미 합니다. 사용자가 Azure AD에서 인증 되었음을 나타냅니다. 통과 사용자가 SharePoint 또는 OneDrive 리소스에 액세스 하기 위해 조직의 사용자는 공유 초대 또는 익명 공유 링크를 보내 해당 리소스를 외부 사용자와 명시적으로 공유 해야 합니다. 
 
 > [!NOTE]
 > Azure AD에서는 SharePoint Online 및 비즈니스용 OneDrive와 같은 *첫 번째 타사 응용 프로그램*에 대해서만 통과 인증을 허용 합니다. 다른 타사 응용 프로그램에는 허용 되지 않습니다.
@@ -225,7 +225,7 @@ UserLoggedIn 감사 레코드에 표시 되는 다른 속성에 대 한 자세�
 
   - Microsoft 계정 (예: SaraD@outlook.com)이 있는 사용자가 fourthcoffee.onmicrosoft.com의 비즈니스용 OneDrive 계정에 있는 문서에 액세스 하려고 했지만 fourthcoffee.onmicrosoft.com의 SaraD@outlook.com에 해당 하는 게스트 사용자 계정이 없습니다.
 
-  - Office 365 조직 (예: pilarp@fabrikam.onmicrosoft.com)에서 회사 또는 학교 계정을 가진 사용자가 contoso.onmicrosoft.com에서 SharePoint 사이트에 액세스 하려고 했지만 contoso.onmicrosoft.com의 pilarp@fabrikam.com에 해당 하는 게스트 사용자 계정이 없습니다.
+  - 조직에 회사 또는 학교 계정 (예: pilarp@fabrikam.onmicrosoft.com)이 있는 사용자가 contoso.onmicrosoft.com에서 SharePoint 사이트에 액세스 하려고 했지만 contoso.onmicrosoft.com의 pilarp@fabrikam.com에 해당 하는 게스트 사용자 계정이 없습니다.
 
 
 ### <a name="tips-for-investigating-successful-logins-resulting-from-pass-through-authentication"></a>통과 인증의 성공한 로그인을 조사 하기 위한 팁
@@ -236,6 +236,6 @@ UserLoggedIn 감사 레코드에 표시 되는 다른 속성에 대 한 자세�
 
     **사용자가 로그인** 한 활동 외에, 외부 사용자와 조직의 사용자를 표시 하는 경우, 외부 사용자와 공유 된 문서를 액세스, 수정 또는 다운로드 했는지 여부와 같은 다른 감사 레코드가 반환 될 수 있습니다.
 
-- **사용자가 로그인** 한 감사 레코드에 의해 식별 된 외부 사용자와 파일이 공유 되었음을 나타내는 SharePoint 공유 활동을 검색 합니다. 자세한 내용은 [Office 365 감사 로그에서 공유 감사 사용](use-sharing-auditing.md)을 참조하세요.
+- **사용자가 로그인** 한 감사 레코드에 의해 식별 된 외부 사용자와 파일이 공유 되었음을 나타내는 SharePoint 공유 활동을 검색 합니다. 자세한 내용은 [감사 로그에서 공유 감사 사용](use-sharing-auditing.md)을 참조 하십시오.
 
 - Excel을 사용 하 여 외부 사용자와 관련 된 다른 작업을 검색할 수 있도록 조사와 관련 된 레코드를 포함 하는 감사 로그 검색 결과를 내보냅니다. 자세한 내용은 [감사 로그 기록 내보내기, 구성 및 보기](export-view-audit-log-records.md)를 참조 하세요.

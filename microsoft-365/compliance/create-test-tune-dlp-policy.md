@@ -17,16 +17,16 @@ search.appverid:
 - MET150
 ms.assetid: 59414438-99f5-488b-975c-5023f2254369
 description: 'DLP 정책을 사용하여 가장 쉽고 가장 일반적인 방법은 Office 365에 포함된 템플릿 중 하나를 사용하는 것입니다. '
-ms.openlocfilehash: 85aa5dad9c65cd222d012bf24ea0234ca7534838
-ms.sourcegitcommit: 21338a9287017a66298e0ff557e80051946ebf13
+ms.openlocfilehash: 819320b8170c652a6cdb32e191ebca5174eb0329
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "42604185"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635968"
 ---
 # <a name="create-test-and-tune-a-dlp-policy"></a>DLP 정책 만들기, 테스트 및 조정
 
-데이터 손실 방지는 조직에서 원치 않는 사용자에 게 중요 한 정보를 고의적으로 또는 실수로 노출 하지 못하게 하는 데 도움이 되도록 설계 된 Office 365의 규정 준수 기능입니다. DLP는 Exchange Server 및 Exchange Online의 루트를 포함 하며 SharePoint Online 및 비즈니스용 OneDrive 에서도 사용할 수 있습니다.
+DLP (데이터 손실 방지)는 조직에서 원치 않는 사용자에 게 중요 한 정보가 고의적 이거나 실수로 노출 되지 않도록 하는 데 도움이 되는 규정 준수 기능입니다. DLP는 Exchange Server 및 Exchange Online의 루트를 포함 하며 SharePoint Online 및 비즈니스용 OneDrive 에서도 사용할 수 있습니다.
 
 DLP는 콘텐츠 분석 엔진을 사용 하 여 전자 메일 메시지 및 파일의 내용을 검토 하 고 신용 카드 번호 및 PII (개인 식별 정보)와 같은 중요 한 정보를 검색 합니다. 중요 한 정보는 전자 메일 메시지를 암호화 하는 등의 추가 단계를 수행 하지 않고 전자 메일로 보내거나 문서에 포함 되지 않아야 합니다. DLP를 사용 하 여 중요 한 정보를 검색 하 고 다음과 같은 작업을 수행할 수 있습니다.
 
@@ -57,7 +57,7 @@ DLP는 콘텐츠 분석 엔진을 사용 하 여 전자 메일 메시지 및 파
 
 Exchange Online에 대 한 DLP 정책은 Exchange 관리 센터를 통해 관리할 수 있습니다. 그러나 보안 & 준수 센터를 통해 모든 작업에 대해 DLP 정책을 구성할 수 있으므로이 문서에서 시연 하는 데 사용 하는 것이 좋습니다. 보안 & 준수 센터에서 **데이터 손실 방지** > **정책**에 따라 DLP 정책을 찾을 수 있습니다. 시작할 **정책 만들기** 를 클릭 합니다.
 
-Office 365에서는 DLP 정책을 만드는 데 사용할 수 있는 다양 한 [dlp 정책 템플릿을](what-the-dlp-policy-templates-include.md) 제공 합니다. 사용자가 오스트레일리아 business 라고 가정해 보겠습니다. 금융, 의료 및 건강 및 개인 정보에 대 한 일반적인 범주에 해당 하는 오스트레일리아와 관련 된 항목만 표시 하도록 정책 서식 파일을 필터링 할 수 있습니다.
+Microsoft 365에서는 DLP 정책을 만드는 데 사용할 수 있는 다양 한 [dlp 정책 템플릿을](what-the-dlp-policy-templates-include.md) 제공 합니다. 사용자가 오스트레일리아 business 라고 가정해 보겠습니다. 금융, 의료 및 건강 및 개인 정보에 대 한 일반적인 범주에 해당 하는 오스트레일리아와 관련 된 항목만 표시 하도록 정책 서식 파일을 필터링 할 수 있습니다.
 
 ![국가 또는 지역을 선택 하는 옵션](../media/DLP-create-test-tune-choose-country.png)
 
@@ -214,4 +214,4 @@ DLP 정책을 설정한 후에는 일부 최종 테스트를 실행 하 여 예�
 
 ## <a name="summary"></a>요약
 
-데이터 손실 방지 정책은 모든 유형의 조직에 유용 합니다. 일부 DLP 정책은 정책 팁, 최종 사용자 재정의 및 문제 보고서와 같은 제어 항목으로 인해 낮은 위험 수준으로 진행 됩니다. 일부 DLP 정책을 자동으로 테스트 하 여 조직에서 이미 발생 하 고 있는 위반 유형을 확인 한 다음, 허용 및 허용 되지 않는 작업을 사용자에 게 교육 한 후에는 다음에 대 한 DLP 정책을 롤아웃할 수 있습니다. 조직.
+데이터 손실 방지 정책은 모든 유형의 조직에 유용 합니다. 일부 DLP 정책은 정책 팁, 최종 사용자 재정의 및 문제 보고서와 같은 제어 항목으로 인해 낮은 위험 수준으로 진행 됩니다. 일부 DLP 정책을 자동으로 테스트 하 여 조직에서 이미 발생 한 위반 유형을 확인 한 다음, 허용 및 허용 되지 않는 작업을 사용자에 게 교육 한 다음 조직에 대해 DLP 정책을 롤아웃할 수 있습니다.

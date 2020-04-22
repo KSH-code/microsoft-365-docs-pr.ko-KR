@@ -1,5 +1,5 @@
 ---
-title: 대상 모음에 Office 365의 콘텐츠 검색 사용
+title: 대상 지정 컬렉션을 위해 콘텐츠 검색 사용
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -16,16 +16,16 @@ localization_priority: Normal
 search.appverid: MOE150
 ms.assetid: e3cbc79c-5e97-43d3-8371-9fbc398cd92e
 description: 보안 & 준수 센터에서 콘텐츠 검색을 사용 하 여 대상 지정 된 컬렉션을 수행 합니다. 대상 컬렉션은 사례 또는 권한이 부여 된 항목에 대 한 응답 항목이 특정 사서함 또는 사이트 폴더에 있는 것을 확신 함을 의미 합니다. 이 문서의 스크립트를 사용 하 여 검색 하려는 특정 사서함 또는 사이트 폴더의 폴더 ID 또는 경로를 가져옵니다.
-ms.openlocfilehash: b8afe9e65aa65c697d9c5cefbeaf89638c1782d4
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: e6de817e7ec324e6aa80ef596340906c2f86d126
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42080817"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43633383"
 ---
-# <a name="use-content-search-in-office-365-for-targeted-collections"></a>대상 모음에 Office 365의 콘텐츠 검색 사용
+# <a name="use-content-search-for-targeted-collections"></a>대상 지정 컬렉션을 위해 콘텐츠 검색 사용
 
-Office 365 보안 &amp; 준수 센터의 콘텐츠 검색 기능은 Exchange 사서함 이나 SharePoint 및 비즈니스용 OneDrive 사이트의 특정 폴더를 검색 하는 UI에서 직접 방법을 제공 하지 않습니다. 그러나 실제 검색 쿼리 구문의 사이트에 대 한 전자 메일 또는 경로 (DocumentLink) 속성을 지정 하 여 특정 폴더 (대상 지정 된 *컬렉션*이라고 함)를 검색할 수 있습니다. 콘텐츠 검색을 사용 하 여 대상 모음을 수행 하는 것은 특정 사서함 이나 사이트 폴더에 있는 항목에 대 한 응답 항목이 있는 경우에 유용 합니다. 이 문서의 스크립트를 사용 하 여 SharePoint 및 비즈니스용 OneDrive 사이트의 폴더 ID 또는 사서함 폴더에 대 한 경로 (DocumentLink)를 가져올 수 있습니다. 그런 다음 검색 쿼리의 폴더 ID 또는 경로를 사용 하 여 폴더에 있는 항목을 반환할 수 있습니다.
+보안 &amp; 준수 센터의 콘텐츠 검색 기능은 Exchange 사서함 이나 SharePoint 및 비즈니스용 OneDrive 사이트의 특정 폴더를 검색 하는 UI에서 직접 방법을 제공 하지 않습니다. 그러나 실제 검색 쿼리 구문의 사이트에 대 한 전자 메일 또는 경로 (DocumentLink) 속성을 지정 하 여 특정 폴더 (대상 지정 된 *컬렉션*이라고 함)를 검색할 수 있습니다. 콘텐츠 검색을 사용 하 여 대상 모음을 수행 하는 것은 특정 사서함 이나 사이트 폴더에 있는 항목에 대 한 응답 항목이 있는 경우에 유용 합니다. 이 문서의 스크립트를 사용 하 여 SharePoint 및 비즈니스용 OneDrive 사이트의 폴더 ID 또는 사서함 폴더에 대 한 경로 (DocumentLink)를 가져올 수 있습니다. 그런 다음 검색 쿼리의 폴더 ID 또는 경로를 사용 하 여 폴더에 있는 항목을 반환할 수 있습니다.
 
 > [!NOTE]
 > SharePoint 또는 비즈니스용 OneDrive 사이트의 폴더에 있는 콘텐츠를 반환 하려면이 항목의 스크립트에서 Path 속성 대신 DocumentLink 관리 속성을 사용 합니다. DocumentLink 속성은 폴더의 모든 콘텐츠를 반환 하지만 path 속성은 일부 미디어 파일을 반환 하지 않기 때문에 경로 속성 보다 더 강력 합니다.
@@ -46,7 +46,7 @@ Office 365 보안 &amp; 준수 센터의 콘텐츠 검색 기능은 Exchange 사
     
 - 스크립트에 최소 오류 처리가 포함 되어 있습니다. 이 스크립트의 기본 목적은 콘텐츠 검색의 검색 쿼리 구문에서 대상 모음을 수행 하는 데 사용할 수 있는 사서함 폴더 Id 또는 사이트 경로 목록을 빠르게 표시 하는 것입니다.
     
-- 이 항목에서 제공 하는 예제 스크립트는 Microsoft standard 지원 프로그램 또는 서비스에서 지원 되지 않습니다. 예제 스크립트는 어떤 종류의 보증도 없이 있는 그대로 제공 됩니다. Microsoft는 상품성 또는 특정 목적에 대 한 적합성에 대 한 묵시적 보증을 제한 없이 포함 하 여 모든 묵시적 보증을 배제 합니다. 샘플 스크립트 및 설명서의 사용 또는 성능으로 인해 발생 하는 전체 위험은 사용자에 게 남아 있습니다. Microsoft, 작성자 또는 스크립트를 작성, 프로덕션 또는 전달 하는 것과 관련 된 다른 모든 손해에 대 한 책임 (예를 들어, 비즈니스 이익 손실에 대 한 손해, 비즈니스 중단 Microsoft에서 이러한 손해에 대 한 권고를 받은 경우에도 예제 스크립트나 설명서를 사용 하거나 사용 하지 못하는 등의 비즈니스 정보 또는 기타 pecuniary 손실입니다.
+- 이 항목에서 제공 하는 예제 스크립트는 Microsoft standard 지원 프로그램 또는 서비스에서 지원 되지 않습니다. 예제 스크립트는 어떤 종류의 보증도 없이 있는 그대로 제공 됩니다. Microsoft는 상품성 또는 특정 목적에 대 한 적합성에 대 한 묵시적 보증을 제한 없이 포함 하 여 모든 묵시적 보증을 배제 합니다. 샘플 스크립트 및 설명서의 사용 또는 성능으로 인해 발생 하는 전체 위험은 사용자에 게 남아 있습니다. No 이벤트가 발생 하는 경우 Microsoft, 작성자는 또는 스크립트의 만들기, 프로덕션 또는 배달에 관여 하는 다른 모든 사용자에 게는 샘플 스크립트 또는 설명서를 사용 하는 것이 불가능 한 경우 (예: 제한 사항, 비즈니스 중단, 비즈니스 정보 손실 또는 기타 pecuniary 손실)에 대 한 책임을 지 며, Microsoft에서 이러한 손해에 대 한 권고를 받은 경우에도 권장 됩니다.
   
 ## <a name="step-1-run-the-script-to-get-a-list-of-folders-for-a-mailbox-or-site"></a>1 단계: 스크립트를 실행 하 여 사서함 또는 사이트의 폴더 목록 가져오기
 
@@ -68,22 +68,22 @@ Office 365 보안 &amp; 준수 센터의 콘텐츠 검색 기능은 Exchange 사
     
   ```powershell
   #########################################################################################################
-  # This PowerShell script will prompt you for:                             #
+  # This PowerShell script will prompt you for:                                #
   #    * Admin credentials for a user who can run the Get-MailboxFolderStatistics cmdlet in Exchange    #
-  #      Online and who is an eDiscovery Manager in the Security & Compliance Center.           #
-  # The script will then:                                           #
-  #    * If an email address is supplied: list the folders for the target mailbox.          #
+  #      Online and who is an eDiscovery Manager in the Security & Compliance Center.            #
+  # The script will then:                                            #
+  #    * If an email address is supplied: list the folders for the target mailbox.            #
   #    * If a SharePoint or OneDrive for Business site is supplied: list the documentlinks (folder paths) #
-  #    * for the site.                                                                                  #
-  #    * In both cases, the script supplies the correct search properties (folderid: or documentlink:)  #
-  #      appended to the folder ID or documentlink to use in a Content Search.              #
-  # Notes:                                              #
-  #    * For SharePoint and OneDrive for Business, the paths are searched recursively; this means the   #
-  #      the current folder and all sub-folders are searched.                       #
-  #    * For Exchange, only the specified folder will be searched; this means sub-folders in the folder #
+  #    * for the site.                                                                                    #
+  #    * In both cases, the script supplies the correct search properties (folderid: or documentlink:)    #
+  #      appended to the folder ID or documentlink to use in a Content Search.                #
+  # Notes:                                                #
+  #    * For SharePoint and OneDrive for Business, the paths are searched recursively; this means the     #
+  #      the current folder and all sub-folders are searched.                        #
+  #    * For Exchange, only the specified folder will be searched; this means sub-folders in the folder    #
   #      will not be searched.  To search sub-folders, you need to use the specify the folder ID for    #
-  #      each sub-folder that you want to search.                               #
-  #    * For Exchange, only folders in the user's primary mailbox will be returned by the script.       #
+  #      each sub-folder that you want to search.                                #
+  #    * For Exchange, only folders in the user's primary mailbox will be returned by the script.        #
   #########################################################################################################
   # Collect the target email address or SharePoint Url
   $addressOrSite = Read-Host "Enter an email address or a URL for a SharePoint or OneDrive for Business site"
@@ -219,7 +219,7 @@ SharePoint 또는 비즈니스용 OneDrive 사이트에서 **documentlink** 속�
   
 1. [https://protection.office.com](https://protection.office.com)으로 이동합니다.
     
-2. 1 단계에서 스크립트를 실행 하는 데 사용한 계정 및 자격 증명을 사용 하 여 Office 365에 로그인 합니다.
+2. 1 단계에서 스크립트를 실행 하는 데 사용한 계정 및 자격 증명을 사용 하 여 로그인 합니다.
     
 3. 보안 & 준수 센터의 왼쪽 창에서 **콘텐츠 검색** **검색** \> 을 클릭 하 고 **새** ![추가 아이콘](../media/O365-MDM-CreatePolicy-AddIcon.gif)을 클릭 합니다.
     

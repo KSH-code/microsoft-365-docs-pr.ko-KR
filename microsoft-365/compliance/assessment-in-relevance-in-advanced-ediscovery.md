@@ -1,5 +1,5 @@
 ---
-title: Office 365 Advanced eDiscovery에서 관련성 평가 이해
+title: Advanced eDiscovery에서 관련성 평가 이해
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -15,13 +15,13 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 1d33d4fb-91ed-41c0-b72e-5a26eca3a2a7
-description: Office 365 Advanced eDiscovery의 관련성 교육 중에 다양 한 문제를 파악 하기 위한 평가 단계 및 해당 역할에 대 한 개요를 확인할 수 있습니다.
-ms.openlocfilehash: 46aef7300a6021e603edb8708ae01d8147b02722
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+description: 고급 eDiscovery의 관련성 교육 중에 다양 한 문제를 파악 하는 데 있어 평가 단계 및 해당 역할에 대 한 개요를 확인 하세요.
+ms.openlocfilehash: e1e090a9b3aceecad8451657d7a8e5d26e92ed6f
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42556796"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636156"
 ---
 # <a name="understand-assessment-in-relevance-in-advanced-ediscovery-classic"></a>Advanced eDiscovery에서 관련성 평가 이해 (클래식)
 

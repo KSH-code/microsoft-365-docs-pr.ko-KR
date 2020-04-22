@@ -17,12 +17,12 @@ ms.assetid: e0ada764-6422-4b44-9472-513bed04837b
 ms.collection:
 - M365-security-compliance
 description: 첫 번째 DLP (데이터 손실 방지) 정책을 만들기 전에 DLP는 기본 정책을 사용 하 여 중요 한 정보를 보호 하는 것을 지원 합니다. 이 기본 정책 및 권장 사항 (아래에 표시)은 신용 카드 번호를 포함 하는 전자 메일 또는 문서가 조직 외부의 사용자와 공유 될 때 사용자에 게 알리기 때문에 중요 한 콘텐츠를 안전 하 게 유지할 수 있습니다.
-ms.openlocfilehash: 687cfb50568310aa29f06da6bfbbc644d3edc853
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: d24848e5956a6e8927307d3102f4ce31f1187bfd
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42073128"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637832"
 ---
 # <a name="get-started-with-the-default-dlp-policy"></a>기본 DLP 정책을 사용하여 시작
 
@@ -62,11 +62,11 @@ ms.locfileid: "42073128"
   
 ## <a name="edit-the-default-dlp-policy"></a>기본 DLP 정책 편집
 
-이 정책은 **기본 Office 365 DLP 정책** 이며 &amp; 보안 및 준수 센터의 **정책** 페이지에서 **데이터 손실 방지** 아래에 표시 됩니다. 
+이 정책은 **기본 DLP 정책이** 며 &amp; 보안 및 준수 센터의 **정책** 페이지에서 **데이터 손실 방지** 아래에 표시 됩니다. 
   
 이 정책은 처음부터 직접 만든 DLP 정책과 동일한 방법으로 완전히 사용자 지정할 수 있습니다. 또한 정책을 해제 하거나 삭제 하 여 사용자가 더 이상 정책 팁 이나 전자 메일 알림을 받지 않도록 설정할 수 있습니다.
   
-![기본 Office 365 DLP 정책 이라는 DLP 정책](../media/260731e8-4d57-4c98-abec-07b052ec48d5.png)
+![기본 DLP 정책 이라는 DLP 정책](../media/260731e8-4d57-4c98-abec-07b052ec48d5.png)
   
 ## <a name="when-the-widget-does-and-does-not-appear"></a>위젯이 수행 되 고 표시 되지 않는 경우
 

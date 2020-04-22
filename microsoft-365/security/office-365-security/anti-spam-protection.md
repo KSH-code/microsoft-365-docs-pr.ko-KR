@@ -17,12 +17,12 @@ ms.assetid: 6a601501-a6a8-4559-b2e7-56b59c96a586
 ms.collection:
 - M365-security-compliance
 description: Exchange Online 및 Microsoft 365에서 스팸을 방지 하는 데 도움이 되는 스팸 방지 설정 및 필터에 대해 알아봅니다. Microsoft 365에서 너무 많은 스팸 받기 스팸 필터 및 스팸 방지 설정을 사용자 지정할 수 있습니다.
-ms.openlocfilehash: d7c7a0166fbcbf3334325aeef153f2d82f27aac3
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 3bb1c81af0061cc20b4c7bb2a963c0d06b7914e3
+ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636049"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43708574"
 ---
 # <a name="anti-spam-protection-in-microsoft-365"></a>Microsoft 365의 스팸 방지 보호 기능
 
@@ -83,7 +83,7 @@ EOP의 스팸 방지 설정은 다음과 같은 기술로 구성 됩니다.
 
 - **조직 설정 확인**: 스팸 방지 정책에서 허용 되는 도메인 목록에 자체 도메인을 추가 하는 경우와 같이 메시지가 스팸 필터링을 건너뛰는 것을 허용 하는 설정을 검토 합니다. 권장 설정에 대 한 자세한 내용은 [EOP 및 Microsoft 365 ATP security의 권장 설정](recommended-settings-for-eop-and-office365-atp.md) 및 [수신 허용-보낸 사람 목록 만들기](create-safe-sender-lists-in-office-365.md)를 참조 하세요.
 
-- **정크 메일 규칙이 사용자 사서함에서 사용 하도록 설정 되어 있는지 확인**: 기본적으로 사용 하도록 설정 되어 있지만 정크 메일로 표시 된 메시지를 정크 메일 폴더로 이동할 수 없습니다. 자세한 내용은 [Microsoft 365에서 Exchange Online 사서함의 정크 메일 설정 구성을](configure-junk-email-settings-on-exo-mailboxes.md)참조 하세요.
+- **정크 메일 규칙이 사용자 사서함에서 사용 하도록 설정 되어 있는지 확인**하세요. 기본적으로 사용 하도록 설정 되어 있지만 사용 하지 않도록 설정 되어 있으면 정크 메일로 표시 된 메시지를 정크 메일 폴더로 이동할 수 없습니다. 자세한 내용은 [Microsoft 365에서 Exchange Online 사서함의 정크 메일 설정 구성을](configure-junk-email-settings-on-exo-mailboxes.md)참조 하세요.
 
 - **사용할 수 있는 차단 된 보낸 사람 목록 사용**: 자세한 내용은 [수신 거부 목록 만들기](create-block-sender-lists-in-office-365.md)를 참조 하세요.
 

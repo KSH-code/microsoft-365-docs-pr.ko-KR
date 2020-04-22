@@ -16,18 +16,18 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 77a4b3e1826889e996b875c9427013c7b08dfaaf
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 278985aa93f8802f78bd632a5fc90dd6be846b21
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600645"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637910"
 ---
 # <a name="advanced-indexing-of-data-for-an-investigation"></a>조사를 위한 데이터의 고급 인덱싱
 
-라이브 시스템의 콘텐츠는 이미지의 존재, 지원 되지 않는 파일 형식 또는 파일 크기 제한에 도달 하는 경우를 비롯 하 여 몇 가지 이유로 인해 부분적으로 인덱싱될 수 있습니다. 높은 위험 수준 데이터 분산을 처리 하는 경우 검색에서 조사 하려는 모든 데이터를 캡처 했는지 확인 해야 합니다. 관심 있는 사용자가 데이터 조사에 추가 되 면 부분적으로 인덱싱된 것으로 간주 되는 Office 365의 콘텐츠가 완벽 하 게 검색 가능 하도록 다시 처리 됩니다. 이 프로세스를 *고급 인덱싱*이라고 합니다. 
+라이브 시스템의 콘텐츠는 이미지의 존재, 지원 되지 않는 파일 형식 또는 파일 크기 제한에 도달 하는 경우를 비롯 하 여 몇 가지 이유로 인해 부분적으로 인덱싱될 수 있습니다. 높은 위험 수준 데이터 분산을 처리 하는 경우 검색에서 조사 하려는 모든 데이터를 캡처 했는지 확인 해야 합니다. 관심 있는 사용자가 데이터 조사에 추가 되 면 부분적으로 인덱싱된 콘텐츠가 완벽 하 게 검색 가능 하도록 다시 처리 됩니다. 이 프로세스를 *고급 인덱싱*이라고 합니다. 
 
-Office 365 및 부분적으로 인덱싱된 항목의 처리 지원에 대 한 자세한 내용은 다음을 참조 하십시오.
+처리 지원 및 부분적으로 인덱싱된 항목에 대 한 자세한 내용은 다음 항목을 참조 하십시오.
 
 - [데이터 조사에서 지원 되는 파일 형식](supported-filetypes-datainvestigations.md)
 

@@ -15,12 +15,12 @@ search.appverid:
 - MOP150
 ms.assetid: bed936bc-0969-4a6d-a7a5-66305c14e958
 description: 관리자가 Exchange Online PowerShell 및 CSV 파일을 사용 하 여 전체 주소 목록에 외부 연락처를 대량으로 가져오는 방법을 알아봅니다.
-ms.openlocfilehash: c74e8932f7ed2feeca472848c88bdddbc740fe28
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 4d0b1a826583a032fd27c216367e99a6b7f8b371
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42078955"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636346"
 ---
 # <a name="bulk-import-external-contacts-to-exchange-online"></a>Exchange Online으로 외부 연락처 대량 가져오기
 
@@ -71,7 +71,7 @@ ms.locfileid: "42078955"
 
 다음 단계에서는 1 단계 및 PowerShell에서 만든 CSV 파일을 사용 하 여 CSV 파일에 나열 된 외부 연락처를 Exchange Online으로 대량으로 가져옵니다. 
   
-1.  Exchange Online 조직에 PowerShell을 연결 합니다. 단계별 지침은 [Exchange Online PowerShell에 연결을](https://go.microsoft.com/fwlink/p/?LinkId=396554)참조 하십시오. Exchange Online PowerShell에 연결 하는 경우에는 Office 365 전역 관리자 계정의 사용자 이름과 암호를 사용 해야 합니다. 
+1.  Exchange Online 조직에 PowerShell을 연결 합니다. 단계별 지침은 [Exchange Online PowerShell에 연결을](https://go.microsoft.com/fwlink/p/?LinkId=396554)참조 하십시오. Exchange Online PowerShell에 연결 하는 경우 전역 관리자 계정의 사용자 이름 및 암호를 사용 해야 합니다. 
     
 2. PowerShell을 Exchange Online에 연결한 후 1 단계에서 CSV 파일을 저장 한 데스크톱 폴더로 이동 합니다. 예를 `C:\Users\Administrator\desktop`들어
     
@@ -123,7 +123,7 @@ ms.locfileid: "42078955"
     
 1. EAC에서 **받는 사람** \> **연락처**로 이동합니다.
     
-2. 연락처를 클릭 한 다음 편집 **** ![아이콘](../media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif) 편집을 클릭 하 여 연락처의 속성을 표시 합니다. 
+2. 연락처를 클릭 한 다음 편집 **Edit** ![아이콘](../media/ebd260e4-3556-4fb0-b0bb-cc489773042c.gif) 편집을 클릭 하 여 연락처의 속성을 표시 합니다. 
     
 모두 완료되었습니다. 사용자는 주소록 Outlook 및 웹용 Outlook에서 연락처 및 추가 정보를 볼 수 있습니다.
   

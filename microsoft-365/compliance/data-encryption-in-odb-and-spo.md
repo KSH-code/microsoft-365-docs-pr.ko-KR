@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 - SPO_Content
 description: 비즈니스용 OneDrive 및 SharePoint Online에서 데이터 보안을 위한 암호화의 기본 요소를 이해합니다.
-ms.openlocfilehash: c21ec4ef6b81bcf89565fd005b9a1d2068244b20
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: e882bf3bf633c821fe50246316b5b1065cfa4693
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42076355"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43633343"
 ---
 # <a name="data-encryption-in-onedrive-for-business-and-sharepoint-online"></a>비즈니스용 OneDrive 및 SharePoint Online에서의 데이터 암호화
 
@@ -31,9 +31,9 @@ ms.locfileid: "42076355"
   
 ## <a name="overview"></a>개요
 
-Office 365는 실제 데이터 센터 보안, 네트워크 보안, 액세스 보안, 응용 프로그램 보안 및 데이터 보안과 같은 다중 계층의 광범위한 보호 기능을 제공하는 높은 보안 환경을 제공합니다. 이 문서에서는 특히 비즈니스용 OneDrive 및 SharePoint Online에 대한 전송 중 및 보관된 데이터 보안의 암호화 측면을 중점적으로 설명합니다.
+Microsoft 365는 실제 데이터 센터 보안, 네트워크 보안, 액세스 보안, 응용 프로그램 보안, 데이터 보안 등 여러 계층에 광범위 한 보호를 제공 하는 강력한 보안 환경입니다. 이 문서에서는 특히 비즈니스용 OneDrive 및 SharePoint Online에 대한 전송 중 및 보관된 데이터 보안의 암호화 측면을 중점적으로 설명합니다.
   
-전체 Office 365 보안에 대 한 자세한 내용은 [office 365의 보안 백서](https://go.microsoft.com/fwlink/p/?LinkId=270895)를 참조 하세요.
+Microsoft 365 보안에 대 한 자세한 내용은 [security](https://go.microsoft.com/fwlink/p/?LinkId=270895)백서를 참조 하십시오.
   
 다음 비디오에서 데이터 암호화 방법을 알아보세요.
   
@@ -51,7 +51,7 @@ Office 365는 실제 데이터 센터 보안, 네트워크 보안, 액세스 보
 
 보관된 암호화에는 두 가지 구성 요소가 포함되어 있습니다. 고객 콘텐츠의 BitLocker 디스크 수준 암호화 및 파일 단위 암호화입니다.
   
-BitLocker는 서비스 전반에서 비즈니스용 OneDrive 및 SharePoint Online에 배포되고 있습니다. 파일 단위 암호화는 비즈니스용 OneDrive 및 Office 365의 SharePoint Online에서 다중 테 넌 트 기술을 기반으로 구축 되는 새로운 전용 환경인 경우에도 발생 합니다.
+BitLocker는 서비스 전반에서 비즈니스용 OneDrive 및 SharePoint Online에 배포되고 있습니다. 파일 단위 암호화는 비즈니스용 OneDrive 및 Microsoft 365 다중 테 넌 트의 SharePoint Online 및 다중 테 넌 트 기술에서 구축 된 새로운 전용 환경에도 사용 됩니다.
   
 BitLocker는 디스크에서 모든 데이터를 암호화하는 동안 각 파일에 대해 고유한 암호화 키를 포함하여 파일 단위 암호화를 추가로 수행합니다. 또한 모든 파일에 대한 모든 업데이트는 자체 암호화 키를 사용하여 암호화됩니다. 저장되기 전에 암호화된 콘텐츠에 대한 키는 콘텐츠에서 물리적으로 분리된 위치에 저장됩니다. 이 암호화의 모든 단계는 AES(Advanced Encryption Standard) 256비트 키를 사용하며 FIPS(Federal Information Processing Standard) 140-2 규정을 준수합니다. 암호화된 콘텐츠는 데이터 센터 전반에 걸쳐 여러 컨테이너에 분산되며 각 컨테이너에는 고유한 자격 증명이 있습니다. 이러한 자격 증명은 콘텐츠 또는 콘텐츠 키에서 물리적으로 분리된 위치에 저장됩니다.
   

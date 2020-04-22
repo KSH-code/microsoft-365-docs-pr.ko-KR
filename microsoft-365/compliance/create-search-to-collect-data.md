@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 47d30cb2da91eff1260ffcf07838bd066917b4a1
-ms.sourcegitcommit: dcea75af89f5f80ec6670346ee176407e043de54
+ms.openlocfilehash: 4b740b07b59b7500b8f57584767796b7f31ae87d
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "42610645"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635978"
 ---
 # <a name="create-a-search"></a>검색 만들기
 
@@ -39,7 +39,7 @@ ms.locfileid: "42610645"
 
 ## <a name="choose-non-custodial-locations"></a>비 custodial 위치 선택
 
-Custodian와 연결 되지 않은 데이터 원본을 검색 해야 하는 경우도 있습니다. 이 경우 검색할 위치를 지정 하거나, 모든 Exchange 사서함 또는 모든 SharePoint 사이트 및 OneDrive 계정을 검색 하는 등 특정 Office 365 서비스의 모든 콘텐츠 위치를 검색 하도록 선택할 수 있습니다.
+Custodian와 연결 되지 않은 데이터 원본을 검색 해야 하는 경우도 있습니다. 이 경우 검색할 위치를 지정 하거나, 모든 Exchange 사서함 또는 모든 SharePoint 사이트 및 OneDrive 계정을 검색 하는 등의 특정 Microsoft 서비스에 대 한 모든 콘텐츠 위치를 검색 하도록 선택할 수 있습니다.
 
 ## <a name="define-the-search-query-and-conditions"></a>검색 쿼리 및 조건 정의
 

@@ -16,25 +16,25 @@ search.appverid:
 - MET150
 ms.collection:
 - M365-security-compliance
-description: 많은 조직에서는 이미 Windows Server FCI(파일 분류 인프라)의 분류 속성, SharePoint의 문서 속성 또는 타사 시스템을 통해 적용된 문서 속성을 사용하여 중요한 정보를 식별하고 분류하는 프로세스를 유지하고 있습니다. 이 정책이 조직에 대해 설명하는 경우 Office 365에서 Windows Server FCI 또는 다른 시스템을 통해 문서에 적용된 속성을 인식하는 DLP 정책을 만들어 DLP 정책이 특정 FCI 또는 기타 속성 값을 갖는 Office 문서에 적용되도록 할 수 있습니다.
-ms.openlocfilehash: 32d40c110ca67e15c1be3443999c75c0e36d323e
-ms.sourcegitcommit: 13f28aa762e467bab8ab1e95e1917b3ac28931da
+description: 많은 조직에서는 이미 Windows Server FCI(파일 분류 인프라)의 분류 속성, SharePoint의 문서 속성 또는 타사 시스템을 통해 적용된 문서 속성을 사용하여 중요한 정보를 식별하고 분류하는 프로세스를 유지하고 있습니다. 이로 인해 조직에 대해 설명 하는 경우 특정 FCI 또는 기타 속성 값을 사용 하 여 Office 문서에서 DLP 정책을 적용할 수 있도록 Windows Server FCI 또는 기타 시스템에서 문서에 적용 한 속성을 인식 하는 DLP 정책을 만들 수 있습니다.
+ms.openlocfilehash: e2b64412a6f35dc3f29fe538a849f84e764af156
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "43193496"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632203"
 ---
 # <a name="create-a-dlp-policy-to-protect-documents-with-fci-or-other-properties"></a>FCI 또는 기타 속성을 갖는 문서를 보호하는 DLP 정책 만들기
 
-Office 365에서 DLP(데이터 손실 방지) 정책을 사용하여 중요한 정보를 식별하고, 모니터링하고, 보호할 수 있습니다. 많은 조직에서는 이미 Windows Server FCI(파일 분류 인프라)의 분류 속성, SharePoint의 문서 속성 또는 타사 시스템을 통해 적용된 문서 속성을 사용하여 중요한 정보를 식별하고 분류하는 프로세스를 유지하고 있습니다. 이 정책이 조직에 대해 설명하는 경우 Office 365에서 Windows Server FCI 또는 다른 시스템을 통해 문서에 적용된 속성을 인식하는 DLP 정책을 만들어 DLP 정책이 특정 FCI 또는 기타 속성 값을 갖는 Office 문서에 적용되도록 할 수 있습니다.
+Microsoft 365에서는 DLP (데이터 손실 방지) 정책을 사용 하 여 중요 한 정보를 식별, 모니터링 및 보호할 수 있습니다. 많은 조직에서는 이미 Windows Server FCI(파일 분류 인프라)의 분류 속성, SharePoint의 문서 속성 또는 타사 시스템을 통해 적용된 문서 속성을 사용하여 중요한 정보를 식별하고 분류하는 프로세스를 유지하고 있습니다. 이로 인해 조직에 대해 설명 하는 경우 특정 FCI 또는 기타 속성 값을 사용 하 여 Office 문서에서 DLP 정책을 적용할 수 있도록 Windows Server FCI 또는 기타 시스템에서 문서에 적용 한 속성을 인식 하는 DLP 정책을 만들 수 있습니다.
   
 ![Office 365 외부 분류 시스템을 보여 주는 다이어그램](../media/59ad0ac1-4146-4919-abd1-c74d8508d25e.png)
   
-예를 들어 조직에서 Windows Server FCI를 사용하여 주민 등록 번호와 같은 PII(개인 식별이 가능한 정보)를 사용하여 문서를 식별한 다음, 문서에 나오는 PII의 종류 및 횟수에 따라 **개인 식별 정보** 속성을 **높음**, **보통**, **낮음**, **공용** 또는 **PII 아님**으로 설정하여 문서를 분류할 수 있습니다. Office 365에서 해당 속성이 **높음** 및 **보통**과 같은 특정 값으로 설정된 문서를 식별한 다음 해당 파일에 대한 액세스 차단과 같은 작업을 수행하는 DLP 정책을 만들 수 있습니다. 해당 속성이 **낮음**으로 설정된 경우에는 전자 메일 알림 전송 등의 다른 작업을 수행하는 다른 규칙을 동일한 정책에 만들 수도 있습니다. 이러한 방식으로 Office 365의 DLP는 Windows Server FCI와 통합 되며, Windows Server 기반 파일 서버에서 Office 365를 업로드 하거나 공유 하는 Office 문서를 보호 하는 데 도움이 될 수 있습니다.
+예를 들어 조직에서 Windows Server FCI를 사용하여 주민 등록 번호와 같은 PII(개인 식별이 가능한 정보)를 사용하여 문서를 식별한 다음, 문서에 나오는 PII의 종류 및 횟수에 따라 **개인 식별 정보** 속성을 **높음**, **보통**, **낮음**, **공용** 또는 **PII 아님**으로 설정하여 문서를 분류할 수 있습니다. Microsoft 365에서는 해당 속성이 **High** 및 **Medium**과 같은 특정 값으로 설정 된 문서를 식별 하는 DLP 정책을 만든 다음 해당 파일에 대 한 액세스를 차단 하는 등의 작업을 수행할 수 있습니다. 해당 속성이 **낮음**으로 설정된 경우에는 전자 메일 알림 전송 등의 다른 작업을 수행하는 다른 규칙을 동일한 정책에 만들 수도 있습니다. 이러한 방식으로 DLP는 Windows Server FCI와 통합 되며, Windows Server 기반 파일 서버에서 Microsoft 365로 업로드 되거나 공유 되는 Office 문서를 보호 하는 데 도움이 될 수 있습니다.
   
 DLP 정책은 단순히 특정 속성 이름/값 쌍을 찾습니다. 문서 속성에 SharePoint 검색에 대한 해당 관리 속성이 있으면 어떤 속성도 사용할 수 있습니다. 예를 들어 SharePoint 사이트 모음에서 **고객** 필수 필드가 있는 **출장 보고서**라는 콘텐츠 형식을 사용할 수 있습니다. 사용자는 출장 보고서를 만들 때마다 고객 이름을 입력해야 합니다. 이 속성 이름/값 쌍을 DLP 정책에서도 사용할 수 있습니다. 예를 들어 **고객** 필드에 **Contoso**가 포함되어 있을 때 외부 사용자의 문서 액세스를 차단하는 규칙을 원할 수 있습니다.
   
-특정 Office 365 레이블이 있는 콘텐츠에 DLP 정책을 적용 하려는 경우에는 여기에 나와 있는 단계를 수행 하지 않는 것이 좋습니다. 대신 [보존 레이블을 DLP 정책의 조건으로 사용](data-loss-prevention-policies.md#using-a-retention-label-as-a-condition-in-a-dlp-policy)하는 방법에 대해 알아보세요.
+특정 Microsoft 365 레이블이 있는 콘텐츠에 DLP 정책을 적용 하려는 경우에는 여기에 나와 있는 단계를 수행 하지 않는 것이 좋습니다. 대신 [보존 레이블을 DLP 정책의 조건으로 사용](data-loss-prevention-policies.md#using-a-retention-label-as-a-condition-in-a-dlp-policy)하는 방법에 대해 알아보세요.
   
 ## <a name="before-you-create-the-dlp-policy"></a>DLP 정책 만들기 전
 
@@ -42,13 +42,13 @@ DLP 정책에서 Windows Server FCI 속성 또는 기타 속성을 사용하려�
   
 예제
   
-Office 365의 DLP는 검색 크롤러를 사용하여 사이트의 중요한 정보를 식별하고 분류한 다음, 검색 인덱스의 보안 부분에 중요한 정보를 저장하기 때문에 이 기능이 중요합니다. Office 365로 문서를 업로드하는 경우 SharePoint는 문서 속성을 기준으로 크롤링된 속성을 자동으로 만듭니다. 그러나 FCI 또는 DLP 정책의 다른 속성을 사용하려면 해당 속성을 갖는 콘텐츠가 인덱스에 보관될 수 있게 크롤링된 속성이 관리 속성에 매핑되어야 합니다.
+DLP는 검색 크롤러를 사용 하 여 사이트에서 중요 한 정보를 식별 하 고 분류 한 다음 중요 한 정보를 검색 인덱스의 안전한 부분에 저장 하는 것이 중요 합니다. Office 365로 문서를 업로드하는 경우 SharePoint는 문서 속성을 기준으로 크롤링된 속성을 자동으로 만듭니다. 그러나 FCI 또는 DLP 정책의 다른 속성을 사용하려면 해당 속성을 갖는 콘텐츠가 인덱스에 보관될 수 있게 크롤링된 속성이 관리 속성에 매핑되어야 합니다.
   
 검색 및 관리 속성에 대 한 자세한 내용은 [SharePoint Online에서 검색 스키마 관리](https://go.microsoft.com/fwlink/p/?LinkID=627454)를 참조 하세요.
   
 ### <a name="step-1-upload-a-document-with-the-needed-property-to-office-365"></a>1단계: 필요한 속성을 갖는 문서를 Office 365에 업로드합니다.
 
-먼저 DLP 정책에서 참조하려는 속성을 갖는 문서를 업로드해야 합니다. Office 365는 해당 속성을 검색한 후 이 속성에서 크롤링된 속성을 자동으로 만듭니다. 다음 단계에서는 관리 속성을 만든 다음 관리 속성을이 크롤링 속성에 매핑합니다.
+먼저 DLP 정책에서 참조하려는 속성을 갖는 문서를 업로드해야 합니다. Microsoft 365에서 속성을 검색 하 고 크롤링 속성을 자동으로 만듭니다. 다음 단계에서는 관리 속성을 만든 다음 관리 속성을이 크롤링 속성에 매핑합니다.
   
 ### <a name="step-2-create-a-managed-property"></a>2단계: 관리 속성 만들기
 
@@ -94,9 +94,9 @@ Office 365의 DLP는 검색 크롤러를 사용하여 사이트의 중요한 정
 
 조건 **문서 속성** 에는 보안 &amp; 및 준수 센터의 UI에서 일시적으로 사용할 수 없지만 PowerShell을 사용 하 여이 조건을 계속 사용할 수 있습니다. `New\Set\Get-DlpCompliancePolicy` Cmdlet을 사용 하 여 DLP 정책에 대 한 작업을 수행 하 고 `New\Set\Get-DlpComplianceRule` `ContentPropertyContainsWords` 매개 변수와 함께 cmdlet을 사용 하 여 조건을 추가할 수 있습니다 **문서 속성에 이러한 값이 포함 되어**있습니다.
   
-이러한 cmdlet에 대 한 자세한 내용은 [Office 365 보안 &amp; 및 준수 센터 cmdlet](https://go.microsoft.com/fwlink/?LinkID=799772&amp;clcid=0x409)를 참조 하세요.
+이러한 cmdlet에 대 한 자세한 내용은 [Security &amp; 준수 센터 cmdlet](https://go.microsoft.com/fwlink/?LinkID=799772&amp;clcid=0x409)를 참조 하세요.
   
-1. [원격 PowerShell을 사용하여 Office 365 보안 &amp; 준수 센터에 연결하십시오.](https://go.microsoft.com/fwlink/?LinkID=799771&amp;clcid=0x409)
+1. [원격 PowerShell을 사용 &amp; 하 여 보안 및 준수 센터에 연결](https://go.microsoft.com/fwlink/?LinkID=799771&amp;clcid=0x409)
     
 2. 을 사용 하 `New-DlpCompliancePolicy`여 정책을 만듭니다.
 

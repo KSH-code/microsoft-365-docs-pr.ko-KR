@@ -16,17 +16,17 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: aaca8987-5b62-458b-9882-c28476a66918
-description: 사서함 감사 로깅은 기본적으로 Office 365에서 설정 됩니다 (기본 사서함 감사 또는 사서함 감사가 기본적으로 라고도 함). 즉, 사서함 소유자, 대리인 및 관리자가 수행 하는 특정 작업이 사서함 감사 로그에 자동으로 기록 되므로 사서함에 대해 수행 된 작업을 검색할 수 있습니다.
-ms.openlocfilehash: 2b69d63e63e049566c9827f08d2ead592b918684
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+description: 사서함 감사 로깅은 기본적으로 설정 됩니다 (기본적으로 기본 사서함 감사 또는 사서함 감사 라고도 함). 즉, 사서함 소유자, 대리인 및 관리자가 수행 하는 특정 작업이 사서함 감사 로그에 자동으로 기록 되므로 사서함에 대해 수행 된 작업을 검색할 수 있습니다.
+ms.openlocfilehash: 458e5c9797874f35e99c09edbc3ef45753132cba
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42894923"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631733"
 ---
 # <a name="manage-mailbox-auditing"></a>사서함 감사 관리
 
-1 월 2019 부터는 Microsoft에서 모든 Office 365 조직에 대해 기본적으로 사서함 감사 로깅을 설정 하 고 있습니다. 즉, 사서함 소유자, 대리인 및 관리자가 수행 하는 특정 작업이 자동으로 기록 되며, 사서함 감사 로그에서 해당 사서함을 검색할 때 이러한 레코드를 사용할 수 있게 됩니다. 사서함 감사를 기본적으로 설정 하기 전에 조직의 모든 사용자 사서함에 대해이 기능을 수동으로 사용 하도록 설정 해야 했습니다.
+1 월 2019 부터는 Microsoft에서 모든 조직에 대해 기본적으로 사서함 감사 로깅을 설정 하 고 있습니다. 즉, 사서함 소유자, 대리인 및 관리자가 수행 하는 특정 작업이 자동으로 기록 되며, 사서함 감사 로그에서 해당 사서함을 검색할 때 이러한 레코드를 사용할 수 있게 됩니다. 사서함 감사를 기본적으로 설정 하기 전에 조직의 모든 사용자 사서함에 대해이 기능을 수동으로 사용 하도록 설정 해야 했습니다.
 
 아래에는 기본적으로 사서함을 감사 하는 몇 가지 이점이 있습니다.
 
@@ -64,7 +64,7 @@ Get-OrganizationConfig | Format-List AuditDisabled
 |:---------|:---------:|:---------:|
 |사용자 사서함|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
 |공유 사서함|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
-|Office 365 그룹 사서함|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
+|Microsoft 365 그룹 사서함|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
 |리소스 사서함||![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
 |공용 폴더 사서함||![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
 
@@ -96,7 +96,7 @@ Get-OrganizationConfig | Format-List AuditDisabled
 
 다음 표에서는 사용자 사서함 및 공유 사서함에 대 한 사서함 감사 로깅에서 사용할 수 있는 사서함 작업에 대해 설명 합니다.
 
-- 확인 표시 ( ![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png))는 사서함 작업이 로그온 유형에 대해 기록 될 수 있음을 나타냅니다 (모든 작업을 모든 로그온 유형에 사용할 수 있는 것은 아님).
+- 확인 표시( ![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png))는 사서함 작업이 로그온 유형에 대해 기록 될 수 있음을 나타냅니다 (모든 작업을 모든 로그온 유형에 사용할 수 있는 것은 아님).
 
 - 확인 표시 후 <sup>\*</sup> 에 별표 ()는 로그온 유형에 대해 기본적으로 사서함 작업이 기록 됨을 나타냅니다.
 
@@ -131,13 +131,13 @@ Get-OrganizationConfig | Format-List AuditDisabled
 > [!IMPORTANT]
 > 조직에서 기본적으로 사서함 감사를 사용 하도록 설정 *하기 전에* 모든 로그온 유형에 대해 감사를 위해 사서함 작업을 사용자 지정 하는 경우 사용자 지정 설정이 사서함에 보존 되며이 섹션에 설명 된 대로 기본 사서함 작업을 덮어쓰지 않습니다. 감사 사서함 작업을 기본값으로 되돌리려면 (언제 든 지이 작업을 수행할 수 있음)이 항목의 뒷부분에 나오는 [기본 사서함 작업 복원](#restore-the-default-mailbox-actions) 섹션을 참조 하십시오.
 
-### <a name="mailbox-actions-for-office-365-group-mailboxes"></a>Office 365 그룹 사서함에 대 한 사서함 작업
+### <a name="mailbox-actions-for-microsoft-365-group-mailboxes"></a>Microsoft 365 그룹 사서함에 대 한 사서함 작업
 
-기본적으로 사서함 감사는 Office 365 그룹 사서함에 대 한 사서함 감사 로깅을 제공 하지만 로깅할 항목을 사용자 지정할 수 없습니다 (로그온 유형에 대해 기록 되는 사서함 작업을 추가 하거나 제거할 수 없음).
+사서함 감사 기능은 기본적으로 Microsoft 365 그룹 사서함에 대 한 사서함 감사 로깅을 제공 하지만 로깅할 항목을 사용자 지정할 수 없습니다 (로그온 유형에 대해 기록 되는 사서함 작업을 추가 하거나 제거할 수 없음).
 
-다음 표에서는 각 로그온 유형에 대해 Office 365 그룹 사서함에 기본적으로 기록 되는 사서함 작업에 대해 설명 합니다.
+다음 표에서는 각 로그온 유형에 대해 Microsoft 365 그룹 사서함에 기본적으로 기록 되는 사서함 작업에 대해 설명 합니다.
 
-Office 365 그룹 사서함에 대 한 모든 권한이 있는 관리자는 대리인으로 간주 됩니다.
+Microsoft 365 그룹 사서함에 대 한 모든 권한이 있는 관리자는 대리인으로 간주 됩니다.
 
 |**사서함 작업**|**설명**|**Admin**|**대리인**|**소유자**|
 |:---------|:---------|:---------:|:---------:|:---------:|
@@ -159,7 +159,7 @@ Office 365 그룹 사서함에 대 한 모든 권한이 있는 관리자는 대�
 Get-Mailbox -Identity <MailboxIdentity> | Format-List DefaultAuditSet
 ```
 
-Office 365 그룹 사서함에 값을 표시 하려면 MailboxIdentity \<\> 을 공유 사서함의 이름, 별칭 또는 전자 메일 주소로 바꾸고 Exchange Online PowerShell에서 다음 명령을 실행 합니다.
+Microsoft 365 그룹 사서함에 값을 표시 하려면 MailboxIdentity \<\> 을 공유 사서함의 이름, 별칭 또는 전자 메일 주소로 바꾸고 Exchange Online PowerShell에서 다음 명령을 실행 합니다.
 
 ```PowerShell
 Get-Mailbox -Identity <MailboxIdentity> -GroupMailbox | Format-List DefaultAuditSet
@@ -167,7 +167,7 @@ Get-Mailbox -Identity <MailboxIdentity> -GroupMailbox | Format-List DefaultAudit
 
 값 `Admin, Delegate, Owner` 은 다음을 나타냅니다.
 
-- 세 가지 로그온 유형에 대 한 기본 사서함 작업을 모두 감사 합니다. 이 값은 Office 365 그룹 사서함에만 표시 됩니다.
+- 세 가지 로그온 유형에 대 한 기본 사서함 작업을 모두 감사 합니다. 이 값은 Microsoft 365 그룹 사서함에만 표시 됩니다.
 
 - 관리자가 사용자 사서함 또는 공유 사서함의 로그온 유형에 대해 감사 된 사서함 작업을 변경 *하지* 않았습니다. 참고 기본적으로 사서함 감사를 시작한 후의 기본 상태는 조직에서 처음으로 설정 됩니다.
 
@@ -188,7 +188,7 @@ Get-Mailbox -Identity <MailboxIdentity> -GroupMailbox | Format-List DefaultAudit
 현재 사용자 사서함 또는 공유 사서함에 대해 로그온 중인 사서함 작업을 확인 하려면 MailboxIdentity \<\> 를 이름, 별칭, 전자 메일 주소 또는 사서함의 사용자 계정 이름 (Username)으로 바꾸고 Exchange Online PowerShell에서 다음 명령 중 하나 이상을 실행 합니다.
 
 > [!NOTE]
-> Office 365 그룹 사서함의 `-GroupMailbox` 다음 **사서함** 명령에 스위치를 추가할 수 있지만 반환 되는 값은 반드시 확인 해야 합니다. Office 365 그룹 사서함에 대해 감사 되는 기본 및 정적 사서함 작업은이 항목 앞부분의 [office 365 그룹 사서함에 대 한 사서함 작업](#mailbox-actions-for-office-365-group-mailboxes) 섹션에 설명 되어 있습니다.
+> Microsoft 365 그룹 사서함의 `-GroupMailbox` 다음 **사서함** 명령에 스위치를 추가할 수 있지만 반환 되는 값은 반드시 확인 해야 합니다. Microsoft 365 그룹 사서함에 대해 감사 되는 기본 및 정적 사서함 작업은이 항목 앞부분의 [microsoft 365 그룹 사서함에 대 한 사서함 작업](#mailbox-actions-for-microsoft-365-group-mailboxes) 섹션에 설명 되어 있습니다.
 
 #### <a name="owner-actions"></a>소유자 작업
 
@@ -219,7 +219,7 @@ Get-Mailbox -Identity <MailboxIdentity> | Select-Object -ExpandProperty AuditAdm
 
 ### <a name="change-the-mailbox-actions-to-audit"></a>감사로 사서함 작업 변경
 
-**사서함** Cmdlet에서 *auditadmin*, *auditadmin*또는 *auditadmin* 매개 변수를 사용 하 여 사용자 사서함 및 공유 사서함에 대해 감사 되는 사서함 작업을 변경할 수 있습니다 (Office 365 그룹 사서함에 대 한 감사 작업을 사용자 지정할 수 없음).
+**사서함** Cmdlet에서 *auditadmin*, *auditadmin*또는 *auditadmin* 매개 변수를 사용 하 여 사용자 사서함 및 공유 사서함에 대해 감사 되는 사서함 작업을 변경할 수 있습니다 (Microsoft 365 그룹 사서함에 대 한 감사 작업을 사용자 지정할 수 없음).
 
 다음과 같은 두 가지 방법을 사용 하 여 사서함 작업을 지정할 수 있습니다.
 
@@ -261,7 +261,7 @@ Set-Mailbox -Identity <MailboxIdentity> -DefaultAuditSet <Admin | Delegate | Own
 
 여러 *Defaultauditset* 값을 쉼표로 구분 하 여 지정할 수 있습니다.
 
-**참고**: 다음 절차는 Office 365 그룹 사서함에는 적용 되지 않으며 [여기](#mailbox-actions-for-office-365-group-mailboxes)에 설명 된 기본 작업으로 제한 됩니다.
+**참고**: 다음 절차는 Microsoft 365 그룹 사서함에는 적용 되지 않으며 [여기](#mailbox-actions-for-microsoft-365-group-mailboxes)에 설명 된 기본 작업으로 제한 됩니다.
 
 이 예에서는 사서함 mark@contoso.onmicrosoft.com의 모든 로그온 유형에 대해 감사 된 기본 사서함 작업을 복원 합니다.
 
@@ -360,13 +360,13 @@ Get-MailboxAuditBypassAssociation -Identity <MailboxIdentity> | Format-List Audi
 
     - [비 소유자 사서함 액세스 보고서 실행](https://docs.microsoft.com/Exchange/security-and-compliance/exchange-auditing-reports/non-owner-mailbox-access-report)
 
-- 기본적으로 사서함 감사 로그 레코드는 삭제 되기 전에 90 일 동안 보존 됩니다. Exchange Online PowerShell에서 **설정 된 사서함** Cmdlet의 *Auditlogagelimit* 매개 변수를 사용 하 여 감사 로그 레코드의 보존 기간을 변경할 수 있습니다. 그러나이 값을 높이면 Office 365 감사 로그에서 90 일 보다 오래 된 이벤트를 검색할 수 없습니다.
+- 기본적으로 사서함 감사 로그 레코드는 삭제 되기 전에 90 일 동안 보존 됩니다. Exchange Online PowerShell에서 **설정 된 사서함** Cmdlet의 *Auditlogagelimit* 매개 변수를 사용 하 여 감사 로그 레코드의 보존 기간을 변경할 수 있습니다. 그러나이 값을 높이면 감사 로그에서 90 일 보다 오래 된 이벤트를 검색할 수 없습니다.
 
   보존 기간을 늘릴 경우 Exchange Online PowerShell에서 [search-mailboxauditlog](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-audit/search-mailboxauditlog) cmdlet을 사용 하 여 사용자의 사서함 감사 로그에서 90 일 보다 오래 된 레코드를 검색 해야 합니다.
 
 - 조직에 대해 기본적으로 사서함 감사를 수행 하기 전에 사서함에 대 한 *Auditlogagelimit* 속성을 변경한 경우 사서함의 기존 감사 로그 보존 기간은 변경 되지 않습니다. 즉, 기본적으로 사서함을 감사 하는 경우 사서함 감사 레코드의 현재 보존 기간에는 영향을 주지 않습니다.
 
-- Office 365 그룹 사서함에서 *Auditlogagelimit* 값을 변경 하려면 `-GroupMailbox` **Set-mailbox** 명령에 스위치를 포함 해야 합니다.
+- Microsoft 365 그룹 사서함에서 *Auditlogagelimit* 값을 변경 하려면 `-GroupMailbox` **Set-mailbox** 명령에 스위치를 포함 해야 합니다.
 
 - 사서함 감사 로그 레코드는 각 사용자의 사서함에 있는 복구할 수 있는 항목 폴더에 있는 하위 폴더 ( *감사*)에 저장 됩니다. 사서함 감사 레코드 및 복구할 수 있는 항목 폴더에 대해서는 다음 사항을 염두에 두어야 합니다.
 
@@ -387,8 +387,8 @@ Get-MailboxAuditBypassAssociation -Identity <MailboxIdentity> | Format-List Audi
       Get-MailboxFolderStatistics -Identity <MailboxIdentity> -FolderScope RecoverableItems | Where-Object {$_.Name -eq 'Audits'} | Format-List FolderPath,FolderSize,ItemsInFolder
       ```
 
-    - 복구 가능한 항목 폴더의 감사 로그 레코드에 직접 액세스할 수는 없습니다. 대신 **search-mailboxauditlog** cmdlet을 사용 하거나 Office 365 감사 로그를 검색 하 여 사서함 감사 레코드를 찾아서 확인 합니다.
+    - 복구 가능한 항목 폴더의 감사 로그 레코드에 직접 액세스할 수는 없습니다. 대신 **search-mailboxauditlog** cmdlet을 사용 하거나 감사 로그를 검색 하 여 사서함 감사 레코드를 찾아서 확인 합니다.
 
 - 사서함이 보류 중이거나 준수 센터의 보존 정책에 할당 된 경우에는 사서함의 *Auditlogagelimit* 속성에 정의 된 기간 동안 감사 로그 레코드가 여전히 보존 됩니다 (기본적으로 90 days). 보류 중인 사서함에 대해 감사 로그 레코드를 더 오랫동안 보존 하려면 사서함의 *Auditlogagelimit* 값을 늘려야 합니다.
 
-- 다중 지리적 환경에서는 교차 지리적 사서함 감사가 지원 되지 않습니다. 예를 들어 사용자에 게 다른 지리적 위치에 있는 공유 사서함에 대 한 액세스 권한이 할당 된 경우 해당 사용자가 수행한 사서함 작업은 공유 사서함의 사서함 감사 로그에 기록 되지 않습니다.
+- 다중 지리적 환경에서는 지역 횡단 사서함 감사가 지원되지 않습니다. 예를 들어 사용자가 다른 지리적 위치에서 공유 사서함에 액세스할 수 있는 권한을 할당받더라도 그 사용자가 수행한 사서함 작업이 공유 사서함의 사서함 감사 로그에 기록되지 않습니다.

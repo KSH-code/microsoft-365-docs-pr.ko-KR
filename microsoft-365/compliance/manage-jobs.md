@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: 보안 & 준수 센터의 데이터 조사 도구에서 작업을 수행할 때 발생 하는 오래 실행 되는 프로세스의 상태를 추적할 수 있습니다.
-ms.openlocfilehash: 6c7b247eb4a8ef9797a8a5993195bb21d7bf30bf
-ms.sourcegitcommit: 053d42480d8aa3792ecb0027ddd53d383a029474
+ms.openlocfilehash: ef2fe364a20bd0edc48761162f519135b750d9ab
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "41582927"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635918"
 ---
 # <a name="manage-jobs-in-data-investigations-preview"></a>데이터 조사에서 작업 관리 (미리 보기)
 
@@ -31,7 +31,7 @@ ms.locfileid: "41582927"
 | :----------------- | :----------     |
 |증거 집합에 데이터 추가 | 사용자가 검색 결과를 증거 집합에 추가 합니다.  자세한 내용은 [조사에서 데이터 검색](search-for-data.md)을 참조 하십시오. |
 |다른 증명 정보 집합에 데이터 추가 | 사용자가 동일한 증명 정보 집합에 있는 문서를 동일한 대/소문자로 된 다른 증명 정보 집합에 추가 합니다.|
-|증명 정보 집합에 Office가 아닌 365 데이터 추가 | 사용자가 비 Office 365 데이터를 증명 정보 집합에 업로드 합니다. 이 프로세스 중에도 데이터가 인덱싱됩니다. 예를 들어 온-프레미스 파일 서버 또는 클라이언트 컴퓨터의 파일은 증거 집합으로 업로드 됩니다. 자세한 내용은 [증거에 비 Office 365 데이터 로드](load-non-office365-data.md)를 참조 하세요.| 
+|증거 집합에 타사 365 데이터 추가 | 사용자가 Microsoft 제품이 아닌 365 데이터를 증거 집합으로 업로드 합니다. 이 프로세스 중에도 데이터가 인덱싱됩니다. 예를 들어 온-프레미스 파일 서버 또는 클라이언트 컴퓨터의 파일은 증거 집합으로 업로드 됩니다. 자세한 내용은 [Microsoft 제품이 아닌 365 데이터를 증거에 로드](load-non-office365-data.md)를 참조 하세요.| 
 |증명 정보 집합에 재구성 된 데이터 추가 | 처리 오류가 발생 한 데이터는 재구성 되 고 증거 집합으로 다시 로드 됩니다. 자세한 내용은 확인 [을 위해 데이터를 처리할 때 오류 수정을](error-remediation.md)참조 하십시오. | 
 |부하 집합 비교 | 사용자가 증거 집합에 있는 서로 다른 부하 집합 간의 차이점을 조사 합니다. 부하 집합은 증거 집합에 데이터를 추가 하는 인스턴스입니다. 예를 들어 서로 다른 두 검색의 결과를 동일한 증명 정보 집합에 추가 하는 경우 각각은 로드 집합을 나타냅니다. 자세한 내용은 [부하 집합 관리](manage-load-sets.md)를 참조 하세요. |
 |Redacted 문서를 PDF로 변환|사용자가 증명 정보 집합에 문서를 annotates이 중 일부를 redacts 후에는 redacted 문서를 PDF 파일로 변환 하도록 선택할 수 있습니다. 이렇게 하면 프레젠테이션을 위해 문서를 내보낼 때 redacted 부분을 볼 수 없습니다. 자세한 내용은 [데이터를 검토](review-data-in-evidence.md)하 여 증거를 참조 하세요. |

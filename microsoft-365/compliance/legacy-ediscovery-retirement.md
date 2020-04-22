@@ -1,5 +1,5 @@
 ---
-title: 레거시 eDiscovery 도구 만료
+title: eDiscovery 도구의 사용 중지
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -10,22 +10,22 @@ ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
-description: Exchange Online의 원본 위치 eDiscovery 및 원본 위치 유지 및 해당 PowerShell cmdlet은 2020의 처음 절반에서 만료 됩니다. 검색 사서함 cmdlet 및 Office 365 Advanced eDiscovery v 1.0은 동일한 기간 내에도 폐기 됩니다.
-ms.openlocfilehash: 2d1f319986d761135e2c22b1d5882797f90f910c
-ms.sourcegitcommit: 9ba28b255640c7b22f627613430dc69191bfaede
+description: Exchange Online의 원본 위치 eDiscovery 및 원본 위치 유지 및 해당 PowerShell cmdlet은 2020의 처음 절반에서 만료 됩니다. 또한 검색 사서함 cmdlet 및 Advanced eDiscovery v 1.0은 동일한 기간 내에 폐기 됩니다.
+ms.openlocfilehash: 23ff43dfc2131073425deb947aee41662e30616a
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43158439"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635572"
 ---
-# <a name="retirement-of-legacy-ediscovery-tools"></a>레거시 eDiscovery 도구 만료
+# <a name="retirement-of-legacy-ediscovery-tools"></a>eDiscovery 도구의 사용 중지
 
 > [!IMPORTANT]
 > Microsoft는 공개 상태 상황을 평가 했으며이로 인해 고객에 게 미치는 영향을 이해 하 고 있습니다. 강력 하 게 파트너와 협력 하 고 글로벌 시민을 맡고 싶습니다. 이 문서에 설명 된 레거시 eDiscovery 도구에 대 한 예약 된 만료는 3 개월까지 지연 하 게 됩니다. **업데이트 된 만료 날짜는 아래에 반영 됩니다.**
 
-Microsoft는 지난 몇 년 동안 Exchange Online에서 전자 메일 콘텐츠를 검색, 미리 보기 및 내보내는 데 사용할 수 있는 eDiscovery 도구를 제공 하 고 있습니다. 그러나 이러한 도구는 더 이상 SharePoint Online 및 Office 365 그룹과 같은 다른 Office 365 서비스에서 비 Exchange 콘텐츠를 검색 하는 효율적인 방법을 제공 하지 않습니다. 이 문제를 해결 하기 위해 Microsoft는 광범위 한 Office 365 콘텐츠를 검색 하는 데 도움이 되는 기타 eDiscovery 도구를 제공 합니다. 그리고 [Microsoft 365 준수 센터](https://compliance.microsoft.com)의 최신 eDiscovery 기능을 최신 및 강력 하 게 통합 하는 것이 어려운 작업입니다. 이를 통해 조직은 Exchange Online을 비롯 한 여러 Office 365 서비스에서 콘텐츠에 대 한 법적, 내부 및 기타 문서 요청에 응답할 수 있습니다.
+Microsoft는 지난 몇 년 동안 Exchange Online에서 전자 메일 콘텐츠를 검색, 미리 보기 및 내보내는 데 사용할 수 있는 eDiscovery 도구를 제공 하 고 있습니다. 그러나 이러한 도구는 더 이상 SharePoint Online 및 Microsoft 365 그룹과 같은 다른 Microsoft 365 서비스에서 비 Exchange 콘텐츠를 검색 하는 효율적인 방법을 제공 하지 않습니다. 이 문제를 해결 하기 위해 Microsoft는 다양 한 Microsoft 365 콘텐츠를 검색 하는 데 도움이 되는 기타 eDiscovery 도구를 제공 합니다. 그리고 [Microsoft 365 준수 센터](https://compliance.microsoft.com)의 최신 eDiscovery 기능을 최신 및 강력 하 게 통합 하는 것이 어려운 작업입니다. 이를 통해 조직은 Exchange Online을 비롯 한 다양 한 Microsoft 365 서비스에서 콘텐츠에 대 한 법적, 내부 및 기타 문서 요청에 응답할 수 있습니다.
 
-Microsoft 365 준수 센터에서 새롭게 향상 된 eDiscovery 기능을 사용 하는 경우 Exchange Online 및 Office 365에서 전자 메일 콘텐츠를 검색 하는 데 관련 된 다음과 같은 eDiscovery 관련 기능과 기능이 더 이상 사용 되지 않습니다.
+Microsoft 365 준수 센터에서 새롭게 향상 된 eDiscovery 기능을 사용 하는 경우 Exchange Online 및 Microsoft 365에서 전자 메일 콘텐츠를 검색 하는 데 관련 된 다음과 같은 eDiscovery 관련 기능과 기능이 더 이상 제공 되지 않습니다.
 
 - Exchange 관리 센터의 원본 [위치 eDiscovery](https://docs.microsoft.com/exchange/security-and-compliance/in-place-ediscovery/in-place-ediscovery) 및 [현재 위치 유지](https://docs.microsoft.com/exchange/security-and-compliance/create-or-remove-in-place-holds)
 
@@ -75,7 +75,7 @@ Microsoft 365 준수 센터에서 새롭게 향상 된 eDiscovery 기능을 사�
 
 - Office 365 및 Microsoft 365 정부 기관 여기에는 GCC, GCC High 및 DoD가 포함 됩니다.
 
-- Office 365 Germany
+- Office 365 독일
 
 ### <a name="timeline-for-retirement"></a>만료에 대 한 시간 표시 막대
 
@@ -90,7 +90,7 @@ Microsoft 365 준수 센터에서 새롭게 향상 된 eDiscovery 기능을 사�
 <table>
 <thead>
 <tr class="header">
-<th><strong>동작</strong></th>
+<th><strong>기능</strong></th>
 <th><strong>대체 도구</strong></th>
 <th><strong>Comments</strong></th>
 </tr>
@@ -108,7 +108,7 @@ Microsoft 365 준수 센터에서 새롭게 향상 된 eDiscovery 기능을 사�
 <p>콘텐츠 검색, 내보내기 및 보류를 위한 더 높은 안정성</p>
 </li>
 <li>
-<p>Office 365 응용 프로그램에 저장 된 Exchange Online, SharePoint Online, 비즈니스용 OneDrive, 비즈니스용 Skype, Microsoft 팀, Yammer 그룹, Office 365 그룹 및 기타 콘텐츠에 대 한 콘텐츠 검색</p></li></ul>
+<p>Office 365 응용 프로그램에 저장 된 Exchange Online, SharePoint Online, 비즈니스용 OneDrive, 비즈니스용 Skype, Microsoft 팀, Yammer 그룹, Microsoft 365 그룹 및 기타 콘텐츠에 대 한 콘텐츠 검색</p></li></ul>
 <p>자세한 내용은 <a href="https://docs.microsoft.com/microsoft-365/compliance/manage-legal-investigations">Office 365에서 법적 조사 관리</a>를 참조 하세요.</td>
 </tr>
 <tr class="even">
@@ -178,7 +178,7 @@ Exchange 관리 센터에서 2017 년 7 월 1 일에 발표 된 원래 공지와
 
 - Office 365 및 Microsoft 365 정부 기관 여기에는 GCC, GCC High 및 DoD가 포함 됩니다.
 
-- Office 365 Germany
+- Office 365 독일
 
 ### <a name="timeline"></a>타임라인
 
@@ -193,7 +193,7 @@ Exchange 관리 센터에서 2017 년 7 월 1 일에 발표 된 원래 공지와
 <table>
 <thead>
 <tr class="header">
-<th><strong>동작</strong></th>
+<th><strong>기능</strong></th>
 <th><strong>대체 도구</strong></th>
 <th><strong>Comments</strong></th>
 </tr>
@@ -204,7 +204,7 @@ Exchange 관리 센터에서 2017 년 7 월 1 일에 발표 된 원래 공지와
 <td><p><a href="https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-content-search/get-compliancesearch"><span class="underline">*-ComplianceSearch</span></a></p>
 <p><a href="https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-content-search/get-compliancesearchaction"><span class="underline">*-New-compliancesearchaction</span></a></p>
 <p><a href="https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-ediscovery/get-compliancecase"><span class="underline">*-Remove-compliancecase</span></a></p>
-<p> </p></td>
+<p> </p></td>
 <td><p>ComplianceSearch 및 New-compliancesearchaction cmdlet은 공동 작업을 통해 콘텐츠를 검색 하 고 내보내는 데 도움이 됩니다. <strong>새 검색</strong>을 만들고 <strong>ComplianceSearch</strong> <strong>cmdlet을 사용</strong>하 여 검색 예측을 볼 수 있습니다. 그런 다음 <strong>new-compliancesearchaction</strong> cmdlet을 사용 하 여 검색 결과를 내보낼 수 있습니다. 이러한 검색 결과를 로컬 컴퓨터에 다운로드 하려면 Microsoft 365 준수 센터에서 코어 eDiscovery 도구를 사용 해야 합니다.</p>
 <p>
 <p><strong>참고:</strong> 이러한 cmdlet을 사용 하 여 코어 eDiscovery 사례와 관련 되지 않은 검색을 만드는 경우 이러한 검색은 Microsoft 365 준수 센터의 <strong>콘텐츠 검색</strong> 페이지에 있습니다.</p></td>
@@ -214,7 +214,7 @@ Exchange 관리 센터에서 2017 년 7 월 1 일에 발표 된 원래 공지와
 <td><p><a href="https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-ediscovery/get-caseholdpolicy"><span class="underline">*-New-caseholdpolicy</span></a></p>
 <p><a href="https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-ediscovery/get-caseholdrule"><span class="underline">*-New-caseholdrule</span></a></p>
 <p><a href="https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-ediscovery/get-compliancecase"><span class="underline">*-Remove-compliancecase</span></a></p>
-<p> </p></td>
+<p> </p></td>
 <td><p>Microsoft 365 준수 센터의 보류는 Remove-compliancecase와 연결 되어 있어야 합니다. 먼저 준수 사례를 만든 다음 New-caseholdpolicy 및 New-caseholdrule를 만듭니다.</p>
 <p><strong>참고:</strong> 만들기 New-caseholdrule 없이 New-caseholdpolicy를 만들면 New-caseholdrule가 만들어지고 New-caseholdpolicy에 연결 될 때까지 보류가 작동 하지 않습니다. 자세한 내용은 cmdlet 설명서를 참조 하세요.</p></td>
 </tr>
@@ -259,7 +259,7 @@ Exchange Online PowerShell의 **검색 사서함** cmdlet은 처음에 2018에�
 
 - Office 365 및 Microsoft 365 정부 기관 여기에는 GCC, GCC High 및 DoD가 포함 됩니다.
 
-- Office 365 Germany
+- Office 365 독일
 
 ### <a name="timeline"></a>타임라인
 
@@ -272,7 +272,7 @@ Exchange Online PowerShell의 **검색 사서함** cmdlet은 처음에 2018에�
 <table>
 <thead>
 <tr class="header">
-<th><strong>동작</strong></th>
+<th><strong>기능</strong></th>
 <th><strong>대체 도구</strong></th>
 <th><strong>Comments</strong></th>
 </tr>
@@ -303,7 +303,7 @@ Exchange Online PowerShell의 **검색 사서함** cmdlet은 처음에 2018에�
 </tr>
 <tr class="even">
 <td>검색 결과를 검색 사서함으로 복사</td>
-<td> </td>
+<td> </td>
 <td>이 기능은 모든 Microsoft 365 서비스에 대 한 액세스를 제공 하지 않으므로 직접 대체할 수 없습니다. 대체 해결 방법은 <strong>*-new-mailboxsearch cmdlet</strong> 섹션의 faq를 참조 하세요. </td>
 </tr>
 </tbody>
@@ -321,7 +321,7 @@ Exchange 웹 서비스 API에서 이러한 작업은 exchange 관리 센터의 �
 
 - Office 365 및 Microsoft 365 정부 기관 여기에는 GCC, GCC High 및 DoD가 포함 됩니다.
 
-- Office 365 Germany
+- Office 365 독일
 
 ### <a name="timeline"></a>타임라인
 
@@ -355,7 +355,7 @@ Advanced eDiscovery v 2.0에 액세스 하려면 다음을 수행 합니다.
 
 - Office 365 및 Microsoft 365 교육 기관
 
-- Office 365 Germany
+- Office 365 독일
 
 ### <a name="timeline"></a>타임라인
 

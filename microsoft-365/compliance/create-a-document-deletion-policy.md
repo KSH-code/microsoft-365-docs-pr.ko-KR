@@ -14,17 +14,17 @@ search.appverid:
 - SPO160
 ms.assetid: 41b2ed73-eb8d-4429-945e-a8197894585a
 description: 조직은 규정 준수, 법률 및 기타 규정 때문에 특정 기간 동안 문서 보존이 필요한 경우가 많습니다. 그렇지만 필요 이상으로 오랫동안 문서를 보존하면 조직은 법적 위험에 노출될 수 있습니다.
-ms.openlocfilehash: 0144b12c05fcd4c8f973ee7e6b6df373f5b609a5
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 5550f65e5b2ecb5dca775e1d851548913b8e8517
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42077954"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632263"
 ---
 # <a name="create-a-document-deletion-policy"></a>문서 삭제 정책 만들기
 
 > [!IMPORTANT]
-> 앞으로는 문서 삭제 정책 대신 Microsoft 365 준수 센터, Microsoft 365 보안 센터 또는 Office 365 보안 &amp; 준수 센터에서 만든 보존 정책 또는 보존 레이블을 사용 하는 것이 좋습니다. 문서 삭제 정책은 계속 해 서 보존 정책과 함께 작동 하지만 Office 365의 모든 위치에서 콘텐츠를 보존 하거나 삭제 해야 하는 경우에는 보존 정책을 사용 하는 것이 좋습니다. 자세한 내용은 [이러한 기능 대신 보존 정책 사용](retention-policies.md#use-a-retention-policy-instead-of-these-features)을 참조 하십시오. 
+> 앞으로는 문서 삭제 정책 대신 Microsoft 365 준수 센터, Microsoft 365 보안 센터 또는 보안 &amp; 준수 센터에서 만든 보존 정책 또는 보존 레이블을 사용 하는 것이 좋습니다. 문서 삭제 정책은 계속 해 서 보존 정책과 함께 작동 하지만 Office 365의 모든 위치에서 콘텐츠를 보존 하거나 삭제 해야 하는 경우에는 보존 정책을 사용 하는 것이 좋습니다. 자세한 내용은 [이러한 기능 대신 보존 정책 사용](retention-policies.md#use-a-retention-policy-instead-of-these-features)을 참조 하십시오. 
   
 조직은 규정 준수, 법률 및 기타 규정 때문에 특정 기간 동안 문서 보존이 필요한 경우가 많습니다. 그렇지만 필요 이상으로 오랫동안 문서를 보존하면 조직은 법적 위험에 노출될 수 있습니다.
   
@@ -236,7 +236,7 @@ ms.locfileid: "42077954"
 
 사용 중인 정책은 삭제할 수 없습니다. 정책을 삭제 하려면 먼저 해당 정책을 포함 하는 사이트 모음 및 사이트 모음 서식 파일에 대 한 모든 할당을 삭제 해야 합니다.
   
-1. &amp; 보안 \> 준수 센터의 왼쪽 탐색 **** \> **** \> \> 창에서 **SharePoint Online 및 비즈니스용 OneDrive에 대 한 문서 삭제 정책 관리**의 **데이터 관리** 보존을 선택 합니다. 문서 삭제 정책 센터가 새 브라우저 탭에서 열립니다.
+1. &amp; 보안 \> 준수 센터의 왼쪽 탐색 **Delete** \> **Retention** \> \> 창에서 **SharePoint Online 및 비즈니스용 OneDrive에 대 한 문서 삭제 정책 관리**의 **데이터 관리** 보존을 선택 합니다. 문서 삭제 정책 센터가 새 브라우저 탭에서 열립니다.
     
 2. * * 삭제 정책 * *을 선택 합니다.
     

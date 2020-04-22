@@ -19,12 +19,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 834fb37eba578ff87477fd376cd5d33c8612e1b0
-ms.sourcegitcommit: b1ec6ba779a94ddbaab11a272e40abe1d3064532
+ms.openlocfilehash: e4cab1d34d17b5ecbe23aaba53698f61473bc6a8
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43165937"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637180"
 ---
 # <a name="case-study---contoso-quickly-configures-an-offensive-language-policy-for-microsoft-teams-and-exchange-communications"></a>사례 연구-Contoso는 Microsoft 팀 및 Exchange 통신에 대 한 비속어 (공격적인 언어 정책)를 빠르게 구성 합니다.
 
@@ -81,7 +81,7 @@ Contoso IT 관리자는 다음 단계를 수행 하 여 Contoso에 대 한 라�
 
 기본적으로 전역 관리자는 통신 준수 기능에 액세스할 수 없습니다. Contoso IT 관리자 및 준수 전문가가 통신 준수에 액세스할 수 있도록 [사용 권한을 구성 해야 합니다](https://docs.microsoft.com/microsoft-365/compliance/communication-compliance-configure?view=o365-worldwide#step-1-required-enable-permissions-for-communication-compliance) .
 
-1. Contoso IT 관리자는 **office 365 보안 및 준수 센터** 사용 권한 페이지 (전역 관리자 계정의 자격 증명을 사용 하 여 [)https://protection.office.com/permissions) ](https://protection.office.com/permissions) 에 로그인 하 고 office 365에서 역할을 보고 관리 하는 링크를 선택 합니다.
+1. Contoso IT 관리자는 **Office 365 보안 및 준수 센터** 사용 권한 페이지 (전역 관리자 계정의 자격 증명을 사용 하 여 [)https://protection.office.com/permissions) ](https://protection.office.com/permissions) 에 로그인 하 고 Microsoft 365에서 역할을 확인 하 고 관리 하는 링크를 선택 합니다.
 2. Create ( **만들기**)를 선택 하면 새 역할 그룹에 "*통신 준수*" 라는 이름이 지정 되 고 **Next (다음**)가 선택 됩니다.
 3. **역할 선택을** 선택한 다음 **추가**를 선택 합니다. *관리 검토 관리자*, *사례 관리*, *준수 관리자*및 *검토*에 대 한 확인란을 선택 하 여 필요한 역할을 추가한 후에 **추가**, **완료,** **다음**을 차례로 선택 합니다.
 
@@ -141,7 +141,7 @@ Microsoft 365 [관리 센터에서https://admin.microsoft.com) ](https://admin.m
 
 통신 준수 정책을 시작 하려면 Contoso IT 관리자가 공격적인 언어를 모니터링 하기 위해 새 정책을 설정 하기 전에 구성 해야 하는 몇 가지 필수 구성 요소가 있습니다. 이러한 필수 구성 요소가 완료 되 면 Contoso IT 관리자 및 준수 전문가가 새 정책을 구성 하 고, 규정 준수 전문가는 조사를 시작 하 고 생성 된 모든 경고를 수정 수 있습니다.
 
-### <a name="enabling-auditing-in-office-365"></a>Office 365에서 감사 사용
+### <a name="enabling-auditing-in-microsoft-365"></a>Microsoft 365에서 감사 사용
 
 통신 준수를 위해서는 감사 로그가 알림을 표시 하 고 검토자가 수행한 업데이트 관리 작업을 추적 해야 합니다. 감사 로그는 정의 된 조직 정책과 관련 된 모든 활동을 요약 한 것 이거나, 통신 준수 정책이 변경 된 경우에도 발생 합니다.
 
@@ -154,7 +154,7 @@ Contoso 준수 전문가가 공격적인 언어를 모니터링할 통신 정책
 모든 Contoso 직원을 포함 하기 위해 새 그룹을 만들어야 하는 경우 다음 단계를 수행 해야 합니다.
 
 1. Contoso it 관리자는 **microsoft 365 관리 센터** [https://admin.microsoft.com) ](https://admin.microsoft.com) 에 로그인 하 고 **microsoft 365 관리 센터** > **그룹** > **그룹**으로 이동 합니다.
-2. **그룹 추가** 를 선택 하 고 마법사를 완료 하 여 새 *Office 365 그룹* 또는 *메일 그룹*을 만듭니다.
+2. **그룹 추가** 를 선택 하 고 마법사를 완료 하 여 새 *Microsoft 365 그룹* 또는 *메일 그룹*을 만듭니다.
 
 ![그룹](../media/communication-compliance-case-all-employees.png)
 

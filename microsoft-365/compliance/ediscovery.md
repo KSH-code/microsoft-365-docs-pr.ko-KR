@@ -1,5 +1,5 @@
 ---
-title: Office 365의 eDiscovery
+title: eDiscovery
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -14,17 +14,17 @@ search.appverid:
 - SPO160
 - MOE150
 ms.assetid: 143b3ab8-8cb0-4036-a5fc-6536d837bfce
-description: Microsoft 365에서는 Exchange 사서함, SharePoint 및 비즈니스용 OneDrive 사이트, Office 365 그룹, 비즈니스용 Skype 대화 등 다양 한 위치에서 찾은 콘텐츠를 검색 하 고 유지 하는 데 사용할 수 있는 다양 한 eDiscovery 도구를 제공 합니다.
-ms.openlocfilehash: 19076941d2ff5b908071c779558b2cbe8b15bb54
-ms.sourcegitcommit: bd51f626f0c7788c2a3cf89deee25264659aebd5
+description: Microsoft 365에서는 Exchange 사서함, SharePoint 및 비즈니스용 OneDrive 사이트, Microsoft 365 그룹, 비즈니스용 Skype 대화 등 다양 한 위치에서 찾은 콘텐츠를 검색 하 고 유지 하는 데 사용할 수 있는 다양 한 eDiscovery 도구를 제공 합니다.
+ms.openlocfilehash: 6735ce5df0978c75117324f702d1c2f758208bd1
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "43551219"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631763"
 ---
 # <a name="ediscovery-in-microsoft-365"></a>Microsoft 365의 eDiscovery
 
-전자 검색 또는 eDiscovery는 법률 소송에서 증거로 사용할 수 있는 전자 정보를 식별하고 전달하는 프로세스입니다. Microsoft 365에서 eDiscovery 도구를 사용 하 여 Exchange Online 사서함, Office 365 그룹, Microsoft 팀, SharePoint Online 및 비즈니스용 OneDrive 사이트, 비즈니스용 Skype 대화 및 Yammer 팀에서 콘텐츠를 검색할 수 있습니다. 콘텐츠 검색 도구를 사용 하 여 동일한 eDiscovery 검색에서 사서함과 사이트를 검색할 수 있습니다. 또한 코어 eDiscovery 사례를 사용 하 여 사서함 및 사이트에 있는 콘텐츠를 식별, 보관 및 내보낼 수 있습니다. 조직에 Office 365 E5 또는 Microsoft 365 E5 구독 (또는 관련 E5 추가 기능 구독)이 있는 경우 custodians를 추가로 관리 하 고 Microsoft 365의 고급 eDiscovery 솔루션을 사용 하 여 콘텐츠를 분석할 수 있습니다.
+전자 검색 또는 eDiscovery는 법률 소송에서 증거로 사용할 수 있는 전자 정보를 식별하고 전달하는 프로세스입니다. Microsoft 365에서 eDiscovery 도구를 사용 하 여 Exchange Online 사서함, Microsoft 365 그룹, Microsoft 팀, SharePoint Online 및 비즈니스용 OneDrive 사이트, 비즈니스용 Skype 대화 및 Yammer 팀에서 콘텐츠를 검색할 수 있습니다. 콘텐츠 검색 도구를 사용 하 여 동일한 eDiscovery 검색에서 사서함과 사이트를 검색할 수 있습니다. 또한 코어 eDiscovery 사례를 사용 하 여 사서함 및 사이트에 있는 콘텐츠를 식별, 보관 및 내보낼 수 있습니다. 조직에 Office 365 E5 또는 Microsoft 365 E5 구독 (또는 관련 E5 추가 기능 구독)이 있는 경우 custodians를 추가로 관리 하 고 Microsoft 365의 고급 eDiscovery 솔루션을 사용 하 여 콘텐츠를 분석할 수 있습니다.
   
 Microsoft 365에서는 다음과 같은 eDiscovery 도구를 제공 합니다.
   
@@ -43,8 +43,8 @@ Microsoft 365에서는 다음과 같은 eDiscovery 도구를 제공 합니다.
   
 |**항목**|**설명**|
 |:-----|:-----|
-|[콘텐츠 검색 실행](content-search.md) <br/> |콘텐츠 검색 도구를 사용 하 여 사서함, 공용 폴더, Office 365 그룹, Microsoft 팀, SharePoint Online 사이트, 업무용 위치 및 비즈니스용 Skype 365 대화를 한 번에 검색할 수 있는 방법에 대해 알아봅니다.  <br/> |
-|[콘텐츠 검색에 대한 키워드 쿼리 및 검색 조건](keyword-queries-and-search-conditions.md) <br/> |Office 365 조 직에서 사서함 및 사이트의 콘텐츠를 검색 하는 데 사용할 수 있는 전자 메일 및 파일 속성 및 검색 조건에 대해 알아봅니다.  <br/> |
+|[콘텐츠 검색 실행](content-search.md) <br/> |콘텐츠 검색 도구를 사용 하 여 사서함, 공용 폴더, microsoft 365 그룹, Microsoft 팀, SharePoint Online 사이트, 비즈니스 위치에 대 한 드라이브 한 개 및 조직의 비즈니스용 Skype 대화를 단일 검색으로 검색 하는 방법에 대해 알아봅니다.  <br/> |
+|[콘텐츠 검색에 대한 키워드 쿼리 및 검색 조건](keyword-queries-and-search-conditions.md) <br/> |조직의 사서함 및 사이트에서 콘텐츠를 검색 하는 데 사용할 수 있는 전자 메일 및 파일 속성 및 검색 조건에 대해 알아봅니다.  <br/> |
 |[콘텐츠 검색 결과에 대한 키워드 통계 보기](view-keyword-statistics-for-content-search.md) <br/> |검색 통계를 사용 하 여 하나 이상의 콘텐츠 검색에 대 한 통계를 표시 하 고 비교 하며, 검색 쿼리의 각 키워드에 대 한 통계를 반환 하도록 신규 및 기존 검색을 구성 하는 방법에 대해 알아봅니다.  <br/> |
 |[검색 결과 내보내기](export-search-results.md) <br/> |콘텐츠 검색 결과를 내보내는 방법에 대해 알아봅니다.  <br/> |
 |[콘텐츠 검색에 대한 권한 필터링 구성](permissions-filtering-for-content-search.md) <br/> |사용 권한 필터링을 사용 하 여 eDiscovery 관리자가 조직에 있는 사서함 및 사이트의 하위 집합만 검색 하도록 하는 방법을 알아봅니다.  <br/> |

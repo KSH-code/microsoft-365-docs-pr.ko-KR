@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9e8ceac6-8d20-4d28-837a-d766ae99cbd1
 description: 무료 평가판을 얻는 방법 또는 Microsoft 365 용 구독을 구입 하는 방법을 알아봅니다.
-ms.openlocfilehash: f5c1fca9bfb7b0f2236981e335517c1e03b2007c
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 255cd1779f3fb29a619110160faefdd3d5369eca
+ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631908"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43707538"
 ---
 # <a name="try-or-buy-a-microsoft-365-subscription"></a>Microsoft 365 구독 체험 또는 구입
 
@@ -32,9 +32,9 @@ Microsoft 365는 고급 보안 및 장치 관리를 포함 하 여 Office 365 �
   
 - Microsoft 365 Business Premium
 
-- Microsoft 365 Enterprise E3
+- Office 365 Enterprise E3
 
-- Microsoft 365 Enterprise E5
+- Office 365 Enterprise E5
 
 관리 센터를 통해 구독을 추가 하는 경우 새 구독은 기존 구독과 동일한 조직 (도메인 네임 스페이스)에 연결 됩니다. 이렇게 하면 구독 간에 조직의 사용자를 보다 쉽게 이동 하거나 필요한 추가 구독에 대 한 라이선스를 할당할 수 있습니다.
   

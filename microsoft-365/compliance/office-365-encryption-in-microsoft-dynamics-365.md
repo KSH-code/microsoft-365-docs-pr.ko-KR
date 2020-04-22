@@ -1,5 +1,5 @@
 ---
-title: Microsoft Dynamics 365의 Office 365 암호화
+title: Microsoft Dynamics 365에서 암호화
 f1.keywords:
 - NOCSH
 ms.author: krowley
@@ -13,14 +13,14 @@ search.appverid:
 - MET150
 ms.collection: Strat_O365_Enterprise
 description: '요약: Microsoft Dynamics 365의 암호화에 대해 설명 합니다.'
-ms.openlocfilehash: 288f739182f8419cf7fbbfb6dfd7ad0a2c7838a5
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 7d5116d957f8d9e51309a9605bb82c4ffd76386e
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597855"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637242"
 ---
-# <a name="office-365-encryption-in-microsoft-dynamics-365"></a>Microsoft Dynamics 365의 Office 365 암호화
+# <a name="encryption-in-microsoft-dynamics-365"></a>Microsoft Dynamics 365에서 암호화
 
 Microsoft는 Microsoft 데이터베이스에 있고 사용자 장치와 데이터 센터 간에 전송 되는 동안에도 암호화 기술을 사용 하 여 Dynamics 365의 고객 데이터를 보호 합니다. 고객과 Microsoft 데이터 센터 간에 설정 된 연결은 암호화 되며 모든 공용 끝점은 업계 표준 TLS를 사용 하 여 보호 됩니다. TLS에서는 데스크톱과 데이터 센터 간의 기밀성과 무결성을 유지 하기 위해 보안이 향상 된 브라우저 간 연결을 효과적으로 설정 합니다. 데이터 암호화가 활성화 되 면 해제할 수 없습니다. 자세한 내용은 [필드 수준 데이터 암호화](https://msdn.microsoft.com/library/dn481562.aspx)를 참조 하세요.
 

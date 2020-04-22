@@ -17,12 +17,12 @@ ms.assetid: e3c6df61-8513-499d-ad8e-8a91770bff63
 ms.collection:
 - m365-security-compliance
 description: Microsoft 365 준수 센터의 기능과 마찬가지로, 도움말 콘텐츠는 항상 발전 하 고 있습니다. Microsoft에서는 피드백에 따라 계속 새 문서를 만들고, 기존 기사를 업데이트 하 고, 변경 작업을 수행 하 고 있습니다. 이번 달의 새로운 기능과 업데이트 된 기능에 대해 알아보세요.
-ms.openlocfilehash: 1f52139df6585cc0e8de240544befa3dd2175f67
-ms.sourcegitcommit: 3b2fdf159d7dd962493a3838e3cf0cf429ee2bf2
+ms.openlocfilehash: 4a07327f9ea830483aa3abbaa1b6bd52ca825230
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42929352"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632163"
 ---
 # <a name="recent-updates-to-microsoft-365-compliance-content"></a>Microsoft 365 준수 콘텐츠에 대 한 최신 업데이트
 
@@ -35,7 +35,7 @@ Microsoft 365 준수 센터의 기능과 마찬가지로, 도움말 콘텐츠는
 
 ### <a name="auditing"></a>감사
 
-[Microsoft 365의 고급 감사](advanced-audit.md) (신규)<br>Office 365 E5 또는 Microsoft 365 Enterprise E5 구독이 있는 조직에서 사용 가능, 고급 감사는 감사 로그에 대 한 긴 보존 기간, 새 감사 로그 보존 정책 및 새로운 기능을 도입 하 여 기존 감사 기능을 확장 합니다. 메일 읽기를 추적 하는 사서함 감사 작업입니다.
+[Microsoft 365의 고급 감사](advanced-audit.md) (신규)<br>Office 365 E5 또는 Microsoft 365 Enterprise E5 구독이 있는 조직에서 사용 가능, 고급 감사는 감사 로그에 대 한 긴 보존 기간, 새 감사 로그 보존 정책 및 메일 읽기를 추적 하는 새로운 사서함 감사 작업의 기능을 도입 하 여 기존 감사 기능을 확장 합니다.
 
 [감사 로그 보존 정책 관리](audit-log-retention-policies.md) (신규)<br>감사 로그 보존 정책을 관리 하는 방법에 대 한 자세한 내용은 다양 한 서비스에서 감사 레코드를 최대 1 년까지 저장 하는 데 사용할 수 있는 새로운 고급 감사 기능
 
@@ -53,15 +53,15 @@ Microsoft 365 준수 센터의 기능과 마찬가지로, 도움말 콘텐츠는
 
 ### <a name="customer-key"></a>고객 키
 
-[Office 365의 고객 키를 사용한 서비스 암호화](customer-key-overview.md) (신규)<br>고객 키, BitLocker 및 서비스 암호화와 같은 관련 개념 및 함께 작동 하는 방법을 소개 하는 새로운 문서입니다.
+[고객 키를 사용한 서비스 암호화](customer-key-overview.md) (신규)<br>고객 키, BitLocker 및 서비스 암호화와 같은 관련 개념 및 함께 작동 하는 방법을 소개 하는 새로운 문서입니다.
 
-[Office 365에 대 한 고객 키 관리](customer-key-manage.md) (신규)<br>기존 DEPs 및 키 자격 증명 모음 권한 관리 단계, 작업을 완료 하는 데 소요 되는 예상 시간, 암호화가 작동 했는지 확인 하는 방법, Office 365 서비스를 종료 하는 방법 등 고객 키를 관리 하기 위한 설치 후 지침
+[고객 키 관리](customer-key-manage.md) (신규)<br>기존 DEPs 및 키 자격 증명 모음 사용 권한 관리, 작업 완료 예상 시간, 암호화가 작동 했는지 확인 방법, 서비스 종료 방법 등을 포함 하 여 고객 키를 관리 하기 위한 설치 후 지침
 
 [고객 키 또는 가용성 키 롤 또는 회전](customer-key-availability-key-roll.md) (신규)<br>고객 키를 위해 고객 관리 키를 롤 사용 하는 방법에 대해 설명 합니다.
 
-[Office 365 고객 키에 대 한 가용성 키에 대 한](customer-key-availability-key-understand.md) 자세한 정보 (신규)<br>가용성 키에 대 한 자세한 검사 기능-키 손실 로부터 복구 하는 데 사용 되는 시기와 방법, 그리고 고객 키 계층 구조에도 있는 경우에 대해 자세히 설명 합니다.
+[고객 키에 대 한 가용성 키에 대 한 자세한](customer-key-availability-key-understand.md) 정보 (신규)<br>가용성 키에 대 한 자세한 검사 기능-키 손실 로부터 복구 하는 데 사용 되는 시기와 방법, 그리고 고객 키 계층 구조에도 있는 경우에 대해 자세히 설명 합니다.
 
-[Office 365에 대 한 고객 키 설정](customer-key-set-up.md) (업데이트 됨)<br>이 문서에서는 앞에서 설명한 "고객 키를 사용 하 여 Office 365에서 데이터를 제어 하는 방법"을 소개 하 고 업데이트 된 지침을 포함 하 여 Office 365에 대 한 고객 키를 설정 하는 방법
+[Microsoft 365에 대 한 고객 키 설정](customer-key-set-up.md) (업데이트 됨)<br>이 문서에서는 앞에서 설명한 "고객 키를 사용 하 여 Microsoft 365에서 데이터 제어"를 소개 하 고, 업데이트 된 지침을 포함 하 여 Office 365의 고객 키를 설정 하는 방법에 대해서만 설명 합니다
 
 ### <a name="data-classification"></a>데이터 분류
 
@@ -79,16 +79,16 @@ Microsoft 365 준수 센터의 기능과 마찬가지로, 도움말 콘텐츠는
 [GDPR에 대한 Dynamics 365 책임 준비 상태 검사 목록](gdpr-arc-Dynamics365.md)<br>
 [Microsoft Office 365에 대한 책임 준비 상태 검사 목록](gdpr-arc-Office365.md)<br>
 
-### <a name="insider-risk-management"></a>참가자 위험 관리
+### <a name="insider-risk-management"></a>내부자 위험 관리
 
 참가자 위험 관리의 공식적인 릴리스를 지원 하기 위해 다음 문서를 업데이트 했습니다.<br>
 [Microsoft 365의 참가자 위험 관리에 대해 자세히 알아보기](insider-risk-management.md)<br>
-[참가자 위험 관리 시작](insider-risk-management-configure.md)<br>
-[참가자 위험 정책 만들기 및 관리](insider-risk-management-policies.md)<br>
-[참가자 위험 알림 조사](insider-risk-management-alerts.md)<br>
-[참가자 위험 상황에 대 한 조치 수행](insider-risk-management-cases.md)<br>
-[참가자 위험 콘텐츠 탐색기를 사용 하 여 데이터 검토](insider-risk-management-content-explorer.md)<br>
-[사용자를 참가자 위험 정책에 추가](insider-risk-management-users.md)<br>
+[내부자 위험 관리 시작](insider-risk-management-configure.md)<br>
+[내부자 위험 정책 만들기 및 관리](insider-risk-management-policies.md)<br>
+[내부자 위험 경고 조사](insider-risk-management-alerts.md)<br>
+[내부자 위험 사례에 대한 작업 수행](insider-risk-management-cases.md)<br>
+[내부자 위험 콘텐츠 탐색기를 사용하여 데이터 검토](insider-risk-management-content-explorer.md)<br>
+[내부자 위험 정책에 사용자 추가](insider-risk-management-users.md)<br>
 [참가자 위험 알림 만들기](insider-risk-management-notices.md)<br>
 
 ### <a name="records-management"></a>레코드 관리
@@ -97,7 +97,7 @@ Microsoft 365 준수 센터의 기능과 마찬가지로, 도움말 콘텐츠는
 
 ### <a name="sensitivity-labels"></a>민감도 레이블
 
-[민감도 레이블 시작 하기](get-started-with-sensitivity-labels.md) (신규)<br>Azure Information Protection 고객에 대 한 지침을 제공 하 고, 민감도 레이블 배포 단계, 레이블 만들기 및 관리 권한, 레이블 지원 일반 시나리오 목록, 사용 가능한 최종 사용자 목록 등을 소개 합니다. 설명서.
+[민감도 레이블 시작 하기](get-started-with-sensitivity-labels.md) (신규)<br>Azure Information Protection 고객에 대 한 지침을 제공 하 고, 민감도 레이블 배포 단계, 레이블 만들기 및 관리 권한, 레이블 지원 일반 시나리오 목록, 사용 가능한 최종 사용자 설명서 목록 등을 소개 합니다.
 
 민감도 레이블 (업데이트 됨) [에 대해 알아보기](sensitivity-labels.md)<br>"민감도 레이블 개요"에서 Retitled "시작" 섹션의 정보를 새 문서 [민감도 레이블으로 이동 했습니다](get-started-with-sensitivity-labels.md).
 
@@ -107,7 +107,7 @@ Microsoft 365 준수 센터의 기능과 마찬가지로, 도움말 콘텐츠는
 
 [콘텐츠에 민감도 레이블을 자동으로 적용](apply-sensitivity-label-automatically.md#how-to-configure-auto-labeling-for-office-apps) (업데이트 됨)<br>지금 Office 앱에 대 한 자동 레이블 구성 섹션에는 trainable 분류자를 사용 하기 위한 새로운 옵션이 포함 되어 있습니다.
 
-[민감도 레이블을 사용 하 여 Microsoft 팀, Office 365 그룹 및 SharePoint 사이트의 콘텐츠 보호 (공개 미리 보기)](sensitivity-labels-teams-groups-sites.md) (업데이트 됨)<br>향상 된 읽기 환경 및 기술 관련 사항에 대 한 전체 변경 사항 또한 고객 의견에 따라 Azure portal에서 미리 보기 및 Office 365 그룹에 민감도 레이블을 적용할 수 있도록 [AZURE AD 문서](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-assign-sensitivity-labels) 에 대 한 링크가 추가 되었습니다. 마지막으로 민감도 레이블 활동을 감사 하기 위한 새 섹션을 추가 했습니다.
+[민감도 레이블을 사용 하 여 Microsoft 팀, microsoft 365 그룹 및 SharePoint 사이트의 콘텐츠 보호 (공개 미리 보기)](sensitivity-labels-teams-groups-sites.md) (업데이트 됨)<br>향상 된 읽기 환경 및 기술 관련 사항에 대 한 전체 변경 사항 또한 고객 의견에 따라 azure portal에서 Microsoft 365 그룹으로의 민감도 레이블을 미리 보거나 적용할 수 있도록 [AZURE AD 문서](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-assign-sensitivity-labels) 에 대 한 링크가 추가 되었습니다. 마지막으로 민감도 레이블 활동을 감사 하기 위한 새 섹션을 추가 했습니다.
 
 [SharePoint 및 OneDrive의 Office 파일에 대해 민감도 레이블 사용 (공용 미리 보기)](sensitivity-labels-sharepoint-onedrive-files.md) (업데이트 됨)<br>다양 한 업데이트에는이 기능의 작동 방식에 대 한 고객 의견 별 설명, 새 기능이 새 파일과 편집 된 파일에만 적용 되는 것을 강조 하 고, 레이블을 삭제할 경우에는 테스트 단계 중에만 볼 수 있는 새로운 제한도 포함 되어 있습니다.
 

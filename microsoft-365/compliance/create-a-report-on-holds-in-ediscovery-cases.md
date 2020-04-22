@@ -1,5 +1,5 @@
 ---
-title: Office 365의 eDiscovery 사례에 대 한 보고서를 작성 합니다.
+title: EDiscovery 사례의 보존 보고서 만들기
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -16,14 +16,14 @@ ms.collection:
 search.appverid: MOE150
 ms.assetid: cca08d26-6fbf-4b2c-b102-b226e4cd7381
 description: 이 문서의 스크립트를 사용 하 여 Office 365 또는 Microsoft 365의 준수 센터에서 eDiscovery 사례와 관련 된 모든 보류에 대 한 정보를 포함 하는 보고서를 생성 합니다.
-ms.openlocfilehash: 8c426ff06bb0b2bafdfa91b9098b321994d558d7
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 263ac052f320a989b8843f2954a5df0933cdb2f4
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42077713"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632253"
 ---
-# <a name="create-a-report-on-holds-in-ediscovery-cases-in-office-365"></a>Office 365의 eDiscovery 사례에 대 한 보고서를 작성 합니다.
+# <a name="create-a-report-on-holds-in-ediscovery-cases"></a>EDiscovery 사례의 보존 보고서 만들기
   
 이 문서의 스크립트를 통해 eDiscovery 관리자 및 eDiscovery 관리자는 Office 365 또는 Microsoft 365의 준수 센터에 있는 eDiscovery 사례와 관련 된 모든 보존 정보를 포함 하는 보고서를 생성할 수 있습니다. 이 보고서에는 보류가 연결 된 사례 이름, 보류 중인 콘텐츠 위치, 쿼리 기반 인지 여부 등의 정보가 포함 됩니다. 보류 된 상태가 없는 경우가 있으면 스크립트는 보류가 없는 사례 목록이 포함 된 추가 보고서를 만듭니다.
 

@@ -1,5 +1,5 @@
 ---
-title: Office 365 고급 eDiscovery
+title: Advanced eDiscovery
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -14,24 +14,24 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: fd53438a-a760-45f6-9df4-861b50161ae4
-description: Office 365 Advanced eDiscovery를 통해 Office 365 내의 데이터를 분석 하 고, 문서 검토를 간소화 하 고, 효율적인 eDiscovery를 결정 하는 데 도움이 되는 방법을 알아봅니다.
-ms.openlocfilehash: 2e84ada8c6ca004c0f3c50a79fa6908148770955
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+description: 고급 eDiscovery를 통해 데이터를 분석 하 고, 문서 검토를 간소화 하 고, 효율적인 eDiscovery를 결정 하는 데 도움이 되는 방법을 알아봅니다.
+ms.openlocfilehash: 554b8cfc5209ce0764e712c3aff4338347bc2881
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42557878"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631839"
 ---
-# <a name="advanced-ediscovery-classic"></a>고급 eDiscovery (클래식)
+# <a name="advanced-ediscovery-classic"></a>Advanced eDiscovery(클래식)
 
 > [!IMPORTANT]
-> 최신 버전의 Advanced eDiscovery에 계속 투자 하는 경우에는 *고급 ediscovery (클래식)* 또는 *advanced ediscovery v 1.0*이 라고도 하는 Office 365 Advanced ediscovery의 만료를 발표 하 고 있습니다. Advanced eDiscovery v1.0을 계속 사용하고 있는 경우 [Advanced eDiscovery v2.0](overview-ediscovery-20.md)(*Advanced eDiscovery solution in Microsoft 365*라고도 함)으로 전환하세요. Advanced eDiscovery 2.0에는 Advanced eDiscovery v1.0에 있는 유사한 기능이 포함되어 있습니다. 또한 보유자 관리, 통신 관리, 검토 집합 등의 새로운 기능도 제공합니다. Advanced eDiscovery v1.0의 사용 중지에 대한 자세한 내용은 [레거시 eDiscovery 도구의 사용 중지](legacy-ediscovery-retirement.md#advanced-ediscovery-v10)를 참조하세요. 
+> 최신 버전의 Advanced eDiscovery에 계속 투자 하기 때문에 고급 ediscovery *(클래식)* 또는 *advanced ediscovery v 1.0*이 라고도 하는 개선 된 작업을 발표 합니다. Advanced eDiscovery v1.0을 계속 사용하고 있는 경우 [Advanced eDiscovery v2.0](overview-ediscovery-20.md)(*Advanced eDiscovery solution in Microsoft 365*라고도 함)으로 전환하세요. Advanced eDiscovery 2.0에는 Advanced eDiscovery v1.0에 있는 유사한 기능이 포함되어 있습니다. 또한 보유자 관리, 통신 관리, 검토 집합 등의 새로운 기능도 제공합니다. Advanced eDiscovery v1.0의 사용 중지에 대한 자세한 내용은 [레거시 eDiscovery 도구의 사용 중지](legacy-ediscovery-retirement.md#advanced-ediscovery-v10)를 참조하세요. 
   
-고급 eDiscovery를 사용 하면 Office 365 데이터를 보다 잘 이해 하 고 eDiscovery 비용을 절감할 수 있습니다. 고급 eDiscovery는 Office 365 내에서 구조화 되지 않은 데이터를 분석 하 고, 보다 효율적인 문서 검토를 수행 하 고, eDiscovery를 위해 데이터를 줄이도록 결정 하는 데 도움이 됩니다 Exchange Online, SharePoint Online, 비즈니스용 OneDrive, 비즈니스용 Skype, Office 365 그룹 및 Microsoft 팀에 저장 된 데이터로 작업할 수 있습니다. 보안 및 준수 센터에서 eDiscovery 검색을 수행 하 여 그룹, 개별 사서함 및 사이트의 콘텐츠를 검색 한 다음 고급 eDiscovery를 사용 하 여 검색 결과를 분석할 수 있습니다. 고급 eDiscovery에서 분석에 대 한 검색 결과를 준비 하는 경우 광학 인식을 사용 하 여 이미지에서 텍스트 추출을 추출할 수 있습니다. 이 기능을 사용 하면 고급 eDiscovery의 강력한 텍스트 분석 기능을 이미지 파일에 적용할 수 있습니다.
+고급 eDiscovery를 사용 하면 데이터를 보다 잘 이해 하 고 eDiscovery 비용을 줄일 수 있습니다. 고급 eDiscovery에서는 구조화 되지 않은 데이터를 분석 하 고, 보다 효율적인 문서 검토를 수행 하 고, eDiscovery에 대 한 데이터를 줄이도록 결정을 내릴 수 있습니다. Exchange Online, SharePoint Online, 비즈니스용 OneDrive, 비즈니스용 Skype, Microsoft 365 그룹 및 Microsoft 팀에 저장 된 데이터로 작업할 수 있습니다. 보안 및 준수 센터에서 eDiscovery 검색을 수행 하 여 그룹, 개별 사서함 및 사이트의 콘텐츠를 검색 한 다음 고급 eDiscovery를 사용 하 여 검색 결과를 분석할 수 있습니다. 고급 eDiscovery에서 분석에 대 한 검색 결과를 준비 하는 경우 광학 인식을 사용 하 여 이미지에서 텍스트 추출을 추출할 수 있습니다. 이 기능을 사용 하면 고급 eDiscovery의 강력한 텍스트 분석 기능을 이미지 파일에 적용할 수 있습니다.
   
 고급 eDiscovery는 거의 중복 된 검색 및 전자 메일 스레드 분석과 같은 기능을 통해 중복 정보를 식별 하 여 문서 검토 프로세스를 간소화 하 고 속도를 향상 시킵니다. 관련성 기능은 예측 코딩 기술을 적용 하 여 관련 문서를 식별 합니다. 고급 eDiscovery는 샘플 문서에 대 한 태그 지정 결정을 통해 데이터 집합의 각 문서에 대 한 관련성을 계산 하는 통계 및 자체 학습 기법을 적용 합니다. 이를 통해 주요 문서에 중점을 둔 상태로, 사례 전략, cull 데이터 및 우선 순위 검토에 대 한 의사 결정을 빠르게 내릴 수 있습니다.
   
- **Advanced eDiscovery?** Office 365 Advanced eDiscovery는 Office 365의 기존 eDiscovery 기능 집합에 대 한 빌드를 작성 합니다. 예를 들어 Office 365 보안 &amp; 및 준수 센터의 검색 기능을 사용 하 여 조직의 모든 콘텐츠 원본에 대 한 초기 검색을 수행 하 여 특정 법률 사례와 관련 될 수 있는 데이터를 식별 하 고 수집할 수 있습니다. 그런 다음 텍스트 분석, 기계 학습 및 고급 eDiscovery의 관련성/예측 코딩 기능을 적용 하 여 해당 데이터에 대 한 분석을 수행할 수 있습니다. 이를 통해 조직에서 수천 개의 전자 메일 메시지, 문서 및 기타 종류의 데이터를 신속 하 게 처리 하 여 특정 항목에 가장 적합 한 정보를 찾을 수 있습니다. 
+ **Advanced eDiscovery?** Advanced eDiscovery는 Office 365의 기존 eDiscovery 기능 집합에 대 한 빌드입니다. 예를 들어 보안 &amp; 및 준수 센터의 검색 기능을 사용 하 여 조직의 모든 콘텐츠 원본에 대 한 초기 검색을 수행 하 여 특정 법률 사례와 관련 될 수 있는 데이터를 식별 하 고 수집할 수 있습니다. 그런 다음 텍스트 분석, 기계 학습 및 고급 eDiscovery의 관련성/예측 코딩 기능을 적용 하 여 해당 데이터에 대 한 분석을 수행할 수 있습니다. 이를 통해 조직에서 수천 개의 전자 메일 메시지, 문서 및 기타 종류의 데이터를 신속 하 게 처리 하 여 특정 항목에 가장 적합 한 정보를 찾을 수 있습니다. 
  
 > [!NOTE]
 > 고급 eDiscovery를 사용 하려면 조직의 고급 준수 추가 기능 또는 E5 구독에 Office 365 E3이 필요 합니다. 고급 eDiscovery를 만들려고 하는 계획이 없는 경우 [Office 365 Enterprise E5의 평가판에 등록할](https://go.microsoft.com/fwlink/p/?LinkID=698279)수 있습니다. 에서는. 그런 다음 추가 검토를 위해 축소 된 데이터 집합을 Office 365 외부로 내보낼 수 있습니다. 
