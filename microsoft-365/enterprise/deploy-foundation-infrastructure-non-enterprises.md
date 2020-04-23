@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 엔터프라이즈 이외의 조직의 엔터프라이즈용 Microsoft 365에 대해 간소화된 기본 인프라 단계를 안내합니다.
-ms.openlocfilehash: 0d372578539ff05fcd2cadaa45c554921ee68f71
-ms.sourcegitcommit: 9afcc63b1a7e73f6946f67207337f10b71a5d7f3
+ms.openlocfilehash: cad142f2f26eb999431eb5bb531cb4520e4d6102
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/12/2020
-ms.locfileid: "42612648"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43638263"
 ---
 # <a name="microsoft-365-for-enterprise-foundation-infrastructure-for-non-enterprises"></a>엔터프라이즈 이외의 비즈니스용 Microsoft 365 기본 인프라
 
@@ -29,16 +29,16 @@ ms.locfileid: "42612648"
 - 소규모의 온-프레미스 IT 인프라(예: 전자 메일 및 파일 서버와 AD DS(Active Directory Domain Services) 도메인) 또는 인프라가 없습니다.
 - 소수의 IT 담당자. 이들 중 대부분은 네트워킹 또는 전자 메일과 같은 특정 기술 또는 워크로드의 전문가가 아닌, IT 제너럴리스트입니다.
 
-엔터프라이즈가 아닌, 중소기업의 경우, Microsoft는 [Microsoft 365 Business](https://www.microsoft.com/microsoft-365/business)를 제공합니다. 그러나 다음과 같은 이유로 인해 엔터프라이즈용 Microsoft 365가 필요할 수 있습니다.
+엔터프라이즈가 아닌, 중소기업의 경우, Microsoft는 [비즈니스용 Microsoft 365](https://www.microsoft.com/microsoft-365/business)를 제공합니다. 그러나 다음과 같은 이유로 인해 엔터프라이즈용 Microsoft 365가 필요할 수 있습니다.
 
-- 조직이 Microsoft 365 Business의 최대 개수인 300개 이상의 Microsoft 365 라이선스가 필요합니다.
-- 조직에서 Microsoft 365 Business에서 제공하지 않는 고급 생산성, 음성, 보안 및 분석 기능을 필요로 합니다.
+- 사용자의 조직은 비즈니스용 Microsoft 365의 최대 개수인 300개 이상의 Microsoft 365 라이선스를 필요로 하거나 필요로 할 것입니다.
+- 사용자의 조직은 비즈니스용 Microsoft 365에서 제공하지 않는 고급 생산성, 음성, 보안 및 분석 기능을 필요로 합니다.
 
 이 문서에서는 엔터프라이즈 이외에 적합한 엔터프라이즈용 Microsoft 365의 기본 인프라를 배포하는 간단한 방법에 대해 설명합니다.
 
 ## <a name="first-set-up-your-subscription"></a>먼저, 구독 설정
 
-구독에 적합한 DNS(Domain Name System) 도메인을 설정해야 합니다. Office 365 구독이 이미 있는 경우 이 작업이 완료되어 있습니다. 그렇지 않은 경우 [Office 365에 도메인 추가](https://docs.microsoft.com/office365/admin/setup/add-domain?view=o365-worldwide)의 지침을 따릅니다.
+구독에 적합한 DNS(Domain Name System) 도메인을 설정해야 합니다. Microsoft 365 구독이 이미 있는 경우 이 작업이 완료되어 있습니다. 그렇지 않은 경우 [Office 365에 도메인 추가](https://docs.microsoft.com/office365/admin/setup/add-domain?view=o365-worldwide)의 지침을 따릅니다.
 
 그런 다음, Microsoft 365를 위한 추가 보안을 구성해야 합니다. [향상된 보안 구성](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security)의 지침을 따릅니다.
 
@@ -213,28 +213,28 @@ Windows 10 Enterprise 디바이스를 설치하 고 조인한 후에는 각 디�
 | ![볼륨 라이선스 서비스 센터](../media/deploy-foundation-infrastructure-non-enterprises/win10-cloud.png) | Windows 10 Enterprise의 새 설치에 대한 이미지와 최신 업데이트를 제공하는 비즈니스용 Windows Update를 제공하는 VLSC(Volume Licensing Service Center)입니다. |
 |||
 
-## <a name="phase-4-office-365-proplus"></a>4단계: Office 365 ProPlus
+## <a name="phase-4-microsoft-365-apps-for-enterprise"></a>4단계: 엔터프라이즈용 Microsoft 365 앱
 
-엔터프라이즈용 Microsoft 365에는 Microsoft Office 구독 버전인 Office 365 ProPlus가 포함되어 있습니다. Office 2016 또는 Office 2019와 같이, Office 365 ProPlus는 클라이언트 디바이스에 직접 설치됩니다. 그러나 Office 365 ProPlus는 정기적으로 새로운 기능을 포함하는 업데이트를 받습니다. 자세한 내용은 [엔터프라이즈의 Office 365 ProPlus](https://docs.microsoft.com/deployoffice/about-office-365-proplus-in-the-enterprise)를 참조하세요.
+엔터프라이즈용 Microsoft 365에는 Microsoft Office 구독 버전인 엔터프라이즈용 Microsoft 365 앱이 포함되어 있습니다. Office 2016 또는 Office 2019와 같이, 엔터프라이즈용 Microsoft 365 앱이 클라이언트 디바이스에 직접 설치됩니다. 그러나 엔터프라이즈용 Microsoft 365 앱은 정기적으로 새로운 기능을 포함하는 업데이트를 받습니다. 자세한 내용은 [기업에서의 엔터프라이즈용 Microsoft 365 앱](https://docs.microsoft.com/deployoffice/about-office-365-proplus-in-the-enterprise)을 참조하세요.
 
-엔터프라이즈가 아닌 조직의 경우, Windows, iOS 및 Android장치를 포함할 수 있는 장치에 Office 365 ProPlus를 수동으로 설치합니다. 새 디바이스를 사용할 수 있도록 준비하는 과정에서 또는 온보딩 프로세스의 일부로 이 작업을 수행할 수 있습니다.
+엔터프라이즈가 아닌 조직의 경우, Windows, iOS 및 Android장치를 포함할 수 있는 장치에 엔터프라이즈용 Microsoft 365 앱을 수동으로 설치합니다. 새 디바이스를 사용할 수 있도록 준비하는 과정에서 또는 온보딩 프로세스의 일부로 이 작업을 수행할 수 있습니다.
 
 어떤 경우든, 관리자나 사용자가 Office 365 포털 https://portal.office.com에 로그인합니다. **Microsoft Office Home** 탭에서 **Office 설치**를 클릭하고 설치 프로세스를 진행합니다.
 
-Office 365 ProPlus에 대한 기능 업데이트는 프로그램이 설치된 각 컴퓨터에서 매월 다운로드됩니다. 일반적으로 엔터프라이즈가 아닌 조직은 Office 365 ProPlus 업데이트를 배포하기 위한 인프라를 설정할 필요가 없습니다.  
+엔터프라이즈용 Microsoft 365 앱에 대한 기능 업데이트는 프로그램이 설치된 각 컴퓨터에서 매월 다운로드됩니다. 일반적으로 엔터프라이즈가 아닌 조직은 엔터프라이즈용 Microsoft 365 앱 업데이트를 배포하기 위한 인프라를 설정할 필요가 없습니다.  
 
 ### <a name="your-configuration-so-far"></a>지금까지의 구성
 
-다음은 새 요소가 강조 표시된 Office 365 ProPlus 단계를 시각적으로 요약한 것입니다.
+다음은 새 요소가 강조 표시된 엔터프라이즈용 Microsoft 365 앱 단계의 시각적 요약입니다.
 
-![Office 365 ProPlus 단계 후의 조직](../media/deploy-foundation-infrastructure-non-enterprises/o365-proplus-config.png)
+![엔터프라이즈용 Microsoft 365 앱 단계 후의 조직](../media/deploy-foundation-infrastructure-non-enterprises/o365-proplus-config.png)
  
-다음은 강조 표시된 새 Office 365 ProPlus 요소에 포함된 내용입니다:
+강조 표시된 새 엔터프라이즈용 Microsoft 365 앱 요소에는 다음이 포함됩니다.
  
 |||
 |:------:|:-----|
-| ![장치에 설치된 Office 365 ProPlus](../media/deploy-foundation-infrastructure-non-enterprises/o365-proplus-device.png) | 장치에 설치된 Office 365 ProPlus (예: 온-프레미스 노트북) |
-| ![Office 365 ProPlus의 Office CDN(콘텐츠 배달 네트워크)](../media/deploy-foundation-infrastructure-non-enterprises/o365-proplus-cdn.png) | 장치가 Office 365 ProPlus 업데이트를 위해 액세스하는 Office 365 ProPlus용 Office CDN(콘텐츠 배달 네트워크). |
+| ![장치에 설치된 엔터프라이즈용 Microsoft 365 앱](../media/deploy-foundation-infrastructure-non-enterprises/o365-proplus-device.png) | 장치에 설치된 엔터프라이즈용 Microsoft 365 앱(예: 온-프레미스 노트북) |
+| ![엔터프라이즈용 Microsoft 365 앱의 Office CDN(콘텐츠 배달 네트워크)](../media/deploy-foundation-infrastructure-non-enterprises/o365-proplus-cdn.png) | 장치가 엔터프라이즈용 Microsoft 365 앱 업데이트에 액세스하는 엔터프라이즈용 Microsoft 365 앱의 Office CDN(콘텐츠 배달 네트워크)  |
 |||
 
 ## <a name="phase-5-mobile-device-management"></a>5단계: 모바일 장치 관리
@@ -312,14 +312,14 @@ Intune 정책은 디바이스 준수 및 앱 보호를 적용할 수 있습니�
 
 자세한 내용은 [Microsoft 365 분류 유형](infoprotect-configure-classification.md#microsoft-365-classification-types)을 참조하세요.
 
-사용 권한에 민감도 레이블을 사용하는 경우, 추가 Office 365 보안 그룹을 만들어 민감도 레이블을 적용한 전자 메일과 문서를 사용하여 누가 무엇을 할 수 있는지를 정의해야 합니다. 
+사용 권한에 민감도 레이블을 사용하는 경우, 추가 보안 그룹을 만들어 민감도 레이블을 적용한 전자 메일과 문서를 사용하여 누가 무엇을 할 수 있는지를 정의해야 합니다. 
 
 예를 들어, RESEARCH 민감도 레이블을 만들어 연구팀의 전자 메일과 문서를 보호해야 합니다. 다음 사항을 확인합니다.
 
 - 연구원에게 RESEARCH 민감도 레이블로 표시된 문서를 변경할 수 있는 능력이 있어야 합니다.
 - 연구원 이외 직원에게 RESEARCH 민감도 레이블로 표시된 문서를 볼 수 있는 능력만 있어야 합니다. 
 
-즉, 두 개의 추가 Office 365 그룹을 만들고 관리해야 합니다.
+즉, 두 개의 추가 Microsoft 365 그룹을 만들고 관리해야 합니다.
 
 - RESEARCH-모두
 - RESEARCH-보기
@@ -388,7 +388,7 @@ Powershell을 사용하려면 이 [다운로드 가능한 Excel 통합 문서](h
 
 1. 사용자 계정 자격 증명을 사용하여 디바이스에 로그인합니다.
 2. 브라우저를 사용하여 Office 365 포털 https://portal.office.com에 로그인합니다.
-3. **Office 365 Home** 탭에서 장치에 Office 365 ProPlus를 설치하려면 **Office 설치**를 클릭합니다.
+3. **Office 365 홈** 탭에서 장치에 엔터프라이즈용 Microsoft 365 앱을 설치하려면 **Office 설치**를 클릭합니다.
 
 ## <a name="end-results"></a>최종 결과
 
@@ -405,7 +405,7 @@ Powershell을 사용하려면 이 [다운로드 가능한 Excel 통합 문서](h
   - 조건-액세스-제외
   - 기준, 중요 및 매우 엄격한 규제가 적용되는 Azure AD 그룹의 구성원이기도 한 해당 AD DS 또는 Azure AD 보안 그룹 
   - 작업 그룹, 부서별 및 지역별 그룹
-  - 민감도 레이블 Office 365 그룹(필요한 경우)
+  - 민감도 레이블 Microsoft 365 그룹(필요한 경우)
 - BASELINE, SENSITIVE, and HIGHLY-REGULATED 및 COND-ACCESS-EXCLUDE Azure AD 그룹을 사용하는 Azure AD 로그인 조건부 액세스 정책.
 - Intune 응용 프로그램 및 장치 규정 준수 정책.
 - 사용자 지정 중요한 정보 유형(필요한 경우).
@@ -429,11 +429,11 @@ Powershell을 사용하려면 이 [다운로드 가능한 Excel 통합 문서](h
    - 사용 허가됨
    - 조건부 액세스 정책의 BASELINE, SENSITIVE 및 HIGHLY-REGULATED Azure AD 그룹의 구성원인 해당 AD DS 또는 Azure AD 보안 그룹. 
    - 해당 작업 그룹, 부서별 및 지역별 그룹
-   - 민감도 레이블 Office 365 그룹(필요한 경우)
+   - 민감도 레이블 Microsoft 365 그룹(필요한 경우)
 - Windows 10 Enterprise 장치:
    - Azure AD 테넌트(클라우드 전용) 또는 Azure AD 테넌트와 AD DS 도메인(하이브리드) 양쪽에 조인됨.
    - 최신 Windows 10 Enterprise 제품 개선 사항 및 보안 기능 향상으로 자동 업데이트합니다.
-   - Office 365 ProPlus가 설치되어 있으며, 최신 Office 제품 개선 사항 및 보안 기능 향상으로 자동 업데이트합니다.
+   - 엔터프라이즈용 Microsoft 365 앱이 설치되어 있으며, 최신 Office 제품 개선 사항 및 보안 향상 기능을 자동으로 업데이트합니다.
    - Intune에 등록되고 Intune 장치 준수 정책 및 앱 보호 정책이 적용됩니다.
 
 ## <a name="next-step"></a>다음 단계
