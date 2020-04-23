@@ -6,26 +6,43 @@ ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: b517ab49681b7e9251cd5b577c9522db32aea4cb
-ms.sourcegitcommit: 237589a0c8a24510e5c8f3b8b4747d944ad0afbf
+ms.openlocfilehash: 58d3355788d9af4297ba454c404b4b2b920c358e
+ms.sourcegitcommit: f70f75b9dd163c00a3c6bc4b9f9b055e90c50367
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/20/2019
-ms.locfileid: "37422535"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "43790696"
 ---
-# <a name="microsoft-managed-desktop-supported-regions-and-languages"></a><span data-ttu-id="7ddd0-104">Microsoft Managed Desktop 지원 지역 및 언어</span><span class="sxs-lookup"><span data-stu-id="7ddd0-104">Microsoft Managed Desktop supported regions and languages</span></span>
+# <a name="microsoft-managed-desktop-supported-regions-and-languages"></a><span data-ttu-id="01494-104">Microsoft Managed Desktop 지원 지역 및 언어</span><span class="sxs-lookup"><span data-stu-id="01494-104">Microsoft Managed Desktop supported regions and languages</span></span>
 
-<span data-ttu-id="7ddd0-105">이 항목에서는 Microsoft Managed Desktop에서 지 원하는 지역 및 언어에 대 한 세부 정보를 제공 합니다.</span><span class="sxs-lookup"><span data-stu-id="7ddd0-105">This topic provides details about regions and languages supported by Microsoft Managed Desktop.</span></span> 
+<span data-ttu-id="01494-105">이 문서에서는 Microsoft Managed Desktop에서 지 원하는 지역 및 언어와이를 사용할 수 있는 지역에 대해 자세히 설명 합니다.</span><span class="sxs-lookup"><span data-stu-id="01494-105">This article provides details about regions and languages supported by Microsoft Managed Desktop and the regions where you can use it.</span></span>
 
-- <span data-ttu-id="7ddd0-106">**지역:** 미국, 캐나다 (퀘벡 제외), 영국, 벨기에, 룩셈부르크, 네덜란드, 오스트레일리아 및 뉴질랜드</span><span class="sxs-lookup"><span data-stu-id="7ddd0-106">**Regions:** United States, Canada (excluding Quebec), United Kingdom, Belgium, Luxembourg, the Netherlands, Australia, and New Zealand</span></span>
-- <span data-ttu-id="7ddd0-107">**언어:** 현재 관리 되는 장치에서는 사용자가 사용할 수 있는 지원 되는 언어 (영어)만 영어로 제공 됩니다.</span><span class="sxs-lookup"><span data-stu-id="7ddd0-107">**Languages:** English is the only supported language currently available to users on managed devices.</span></span> <span data-ttu-id="7ddd0-108">이는 [관리자 지원](https://docs.microsoft.com/microsoft-365/managed-desktop/working-with-managed-desktop/admin-support) 및 [최종 사용자 지원](https://docs.microsoft.com/microsoft-365/managed-desktop/working-with-managed-desktop/end-user-support) 옵션에 모두 적용 됩니다.</span><span class="sxs-lookup"><span data-stu-id="7ddd0-108">This is applicable to both [Admin support](https://docs.microsoft.com/microsoft-365/managed-desktop/working-with-managed-desktop/admin-support) and [End-user support](https://docs.microsoft.com/microsoft-365/managed-desktop/working-with-managed-desktop/end-user-support) options.</span></span> 
+## <a name="supported-languages"></a><span data-ttu-id="01494-106">지원되는 언어</span><span class="sxs-lookup"><span data-stu-id="01494-106">Supported languages</span></span>
 
-<span data-ttu-id="7ddd0-109">그러나 고객은 Microsoft Managed Desktop service를 중단 하지 않고 위에 나열 된 지역 외부에서 관리 되는 장치를 계속 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7ddd0-109">However, customers can still use managed devices outside of the regions listed above without an interruption to the Microsoft Managed Desktop service.</span></span> <span data-ttu-id="7ddd0-110">예를 들어 영국을 기반으로 하는 직원은 아시아, 유럽 또는 남미 지역에서 관리 되는 장치에 대 한 업데이트를 안전 하 고 받을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7ddd0-110">For example, an employee based in the United Kingdom can work securely and receive updates on their managed device while traveling Asia, Europe, or South America.</span></span>
-
-<span data-ttu-id="7ddd0-111">Microsoft Managed Desktop의 사용자 지원에 대 한 자세한 내용은 [Microsoft Managed desktop에 대 한 지원을](https://docs.microsoft.com/microsoft-365/managed-desktop/service-description/support)참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="7ddd0-111">For more information about user support with Microsoft Managed Desktop, see [support for Microsoft Managed Desktop](https://docs.microsoft.com/microsoft-365/managed-desktop/service-description/support).</span></span>
-
-<span data-ttu-id="7ddd0-112">사용자가 영어 이외의 언어로 작업 하는 것이 선호 하는 경우에는 로컬 IT 관리자가 Intune 회사 포털 앱을 통해 관리 되는 장치에 추가 언어 팩을 배포 하도록 요청할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7ddd0-112">If a user prefers to work in a language other than English, they can request that their local IT administrator centrally deploy additional language packs on managed devices through the Intune Company Portal app.</span></span> <span data-ttu-id="7ddd0-113">Windows 10부터 버전 1803까지 언어 팩은 Microsoft Store에서 appx 패키지로 배달 됩니다.</span><span class="sxs-lookup"><span data-stu-id="7ddd0-113">Starting with Windows 10, version 1803, language packs are delivered as appx packages from Microsoft Store.</span></span> <span data-ttu-id="7ddd0-114">자세한 내용은 [Microsoft Store For Business apps](https://docs.microsoft.com/microsoft-365/managed-desktop/get-started/deploy-apps#msfb-apps)를 참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="7ddd0-114">To learn more, see [Microsoft Store for Business apps](https://docs.microsoft.com/microsoft-365/managed-desktop/get-started/deploy-apps#msfb-apps).</span></span>
+<span data-ttu-id="01494-107">Microsoft Managed Desktop의 사용자가 사용할 수 있는 언어는 영어 뿐입니다.</span><span class="sxs-lookup"><span data-stu-id="01494-107">English is the only language available to users of Microsoft Managed Desktop.</span></span> <span data-ttu-id="01494-108">여기에는 최종 사용자와 관리자 모두에 게 제공 되는 모든 사용자 인터페이스와 [관리자 지원](https://docs.microsoft.com/microsoft-365/managed-desktop/working-with-managed-desktop/admin-support) 및 [최종 사용자 지원과](https://docs.microsoft.com/microsoft-365/managed-desktop/working-with-managed-desktop/end-user-support)의 모든 상호 작용이 포함 됩니다.</span><span class="sxs-lookup"><span data-stu-id="01494-108">This includes all user interfaces for both end users and administrators and all interactions with both [admin support](https://docs.microsoft.com/microsoft-365/managed-desktop/working-with-managed-desktop/admin-support) and [end-user support](https://docs.microsoft.com/microsoft-365/managed-desktop/working-with-managed-desktop/end-user-support).</span></span>
 
 
->[!NOTE]
-><span data-ttu-id="7ddd0-115">Microsoft Managed Desktop 장치에서 GetHelp 앱은 영어만 지원 합니다.</span><span class="sxs-lookup"><span data-stu-id="7ddd0-115">The GetHelp app on a Microsoft Managed Desktop device supports English only.</span></span> <span data-ttu-id="7ddd0-116">사용자가 GetHelp 앱을 통해 Microsoft Managed Desktop에 대 한 지원을 받으려면 표시 언어를 영어로 전환 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="7ddd0-116">For users to obtain help with Microsoft Managed Desktop through the GetHelp app, they must switch the display language to English.</span></span>
+<span data-ttu-id="01494-109">Microsoft Managed Desktop service를 중단 하지 않고도 영어를 사용 하는 영역 외부에서 관리 되는 장치를 계속 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="01494-109">You can still use managed devices outside of English-speaking regions without an interruption to the Microsoft Managed Desktop service.</span></span> <span data-ttu-id="01494-110">예를 들어 영국을 기반으로 하는 직원은 아시아, 유럽 또는 남미 지역에서 관리 되는 장치에 대 한 업데이트를 안전 하 고 받을 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="01494-110">For example, an employee based in the United Kingdom can work securely and receive updates on their managed device while traveling Asia, Europe, or South America.</span></span> 
+
+<span data-ttu-id="01494-111">Microsoft Managed Desktop의 사용자 지원에 대 한 자세한 내용은 [Microsoft Managed desktop에 대 한 지원을](https://docs.microsoft.com/microsoft-365/managed-desktop/service-description/support)참조 하세요.</span><span class="sxs-lookup"><span data-stu-id="01494-111">For more information about user support with Microsoft Managed Desktop, see [Support for Microsoft Managed Desktop](https://docs.microsoft.com/microsoft-365/managed-desktop/service-description/support).</span></span>
+
+## <a name="availability-of-the-service"></a><span data-ttu-id="01494-112">서비스 사용 가능 여부</span><span class="sxs-lookup"><span data-stu-id="01494-112">Availability of the service</span></span>
+
+<span data-ttu-id="01494-113">다음 국가에 있는 조직은 Microsoft Managed Desktop에 구독할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="01494-113">Organizations in the following countries can subscribe to Microsoft Managed Desktop:</span></span>
+
+- <span data-ttu-id="01494-114">미국</span><span class="sxs-lookup"><span data-stu-id="01494-114">United States</span></span>
+- <span data-ttu-id="01494-115">캐나다 (퀘벡 제외)</span><span class="sxs-lookup"><span data-stu-id="01494-115">Canada (excluding Quebec)</span></span>
+- <span data-ttu-id="01494-116">영국</span><span class="sxs-lookup"><span data-stu-id="01494-116">United Kingdom</span></span>
+- <span data-ttu-id="01494-117">아일랜드</span><span class="sxs-lookup"><span data-stu-id="01494-117">Ireland</span></span>
+- <span data-ttu-id="01494-118">벨기에</span><span class="sxs-lookup"><span data-stu-id="01494-118">Belgium</span></span>
+- <span data-ttu-id="01494-119">룩셈부르크</span><span class="sxs-lookup"><span data-stu-id="01494-119">Luxembourg</span></span>
+- <span data-ttu-id="01494-120">네덜란드</span><span class="sxs-lookup"><span data-stu-id="01494-120">Netherlands</span></span>
+- <span data-ttu-id="01494-121">스웨덴</span><span class="sxs-lookup"><span data-stu-id="01494-121">Sweden</span></span>
+- <span data-ttu-id="01494-122">핀란드</span><span class="sxs-lookup"><span data-stu-id="01494-122">Finland</span></span>
+- <span data-ttu-id="01494-123">노르웨이</span><span class="sxs-lookup"><span data-stu-id="01494-123">Norway</span></span>
+- <span data-ttu-id="01494-124">덴마크</span><span class="sxs-lookup"><span data-stu-id="01494-124">Denmark</span></span>
+- <span data-ttu-id="01494-125">아이슬란드</span><span class="sxs-lookup"><span data-stu-id="01494-125">Iceland</span></span>
+- <span data-ttu-id="01494-126">오스트레일리아</span><span class="sxs-lookup"><span data-stu-id="01494-126">Australia</span></span>
+- <span data-ttu-id="01494-127">뉴질랜드</span><span class="sxs-lookup"><span data-stu-id="01494-127">New Zealand</span></span>
+
+<span data-ttu-id="01494-128">이러한 지역의 최종 사용자와 관리자 모두 해당 장치 및 관리 도구에 대해 영어를 사용 해야 합니다.</span><span class="sxs-lookup"><span data-stu-id="01494-128">Both end users and administrators in these regions must use English for their devices and management tools.</span></span> 

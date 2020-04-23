@@ -16,12 +16,12 @@ ms.collection:
 ms.assetid: b9acfd4c-df82-4eb5-a652-232a6829870a
 description: Microsoft 365 관리자에게 제공되는 리소스에 대해 알아보세요.
 ms.custom: okr_smb
-ms.openlocfilehash: b087007d99c16f06cfdacaf8021e32a9566da5d5
-ms.sourcegitcommit: e695bcfc69203da5d3d96f3d6a891664a0e27ae2
+ms.openlocfilehash: 02d1afa763eda2edd7a0fba5624ab5a168b80a14
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43105696"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43624003"
 ---
 # <a name="microsoft-365-admin-help-center"></a>Microsoft 365 관리자 도움말 센터
 
@@ -182,7 +182,7 @@ ms.locfileid: "43105696"
                     </div>
                     <div class="cardText">
                         <h3>소규모 기업용</h3>
-                        <p><a href="/office365/smallbusiness/build-your-small-business/build-your-small-business" target="_blank">Office 365로 중소기업 구축</a></p>
+                        <p><a href="/office365/smallbusiness/build-your-small-business/build-your-small-business" target="_blank">Microsoft 365로 중소기업 구축</a></p>
                     </div>
                 </div>
             </div>
@@ -199,7 +199,7 @@ ms.locfileid: "43105696"
                     </div>
                     <div class="cardText">
                         <h3>엔터프라이즈용</h3>
-                        <p><a href="https://docs.microsoft.com/Office365/Enterprise/">엔터프라이즈 조직에서 Office 365를 배포, 구성 및 관리하는 관리자 및 IT 전문가를 위한 지침을 제공합니다.</a></p>
+                        <p><a href="https://docs.microsoft.com/Office365/Enterprise/">엔터프라이즈 조직에서 Microsoft 365를 배포, 구성 및 관리하는 관리자 및 IT 전문가를 위한 지침을 제공합니다.</a></p>
                     </div>
                 </div>
             </div>
@@ -249,7 +249,7 @@ ms.locfileid: "43105696"
                     <div class="cardText">
                         <h3>문제 해결</h3>
                         <p><a href="https://go.microsoft.com/fwlink/?linkid=522692">Office 설치 문제 해결</a></p>
-                        <p><a href="https://diagnostics.outlook.com/">Microsoft 지원 및 복구 도우미로 Outlook 및 Office 365 문제 해결</a></p>
+                        <p><a href="https://diagnostics.outlook.com/">Office 365용 지원 및 복구 도우미를 사용한 Outlook 및 Microsoft 365 문제 해결</a></p>
                         <p><a href="https://docs.microsoft.com/office365/troubleshoot/troubleshooting/troubleshoot-email-issues">전자 메일 문제 해결</a></p>
                         <p><a href="https://go.microsoft.com/fwlink/?linkid=866431">비즈니스용 OneDrive 동기화 문제 해결</a></p>
                     </div>
