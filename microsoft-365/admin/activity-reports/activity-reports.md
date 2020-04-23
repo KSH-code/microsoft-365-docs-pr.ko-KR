@@ -18,17 +18,17 @@ search.appverid:
 - MOE150
 - GEA150
 ms.assetid: 0d6dfb17-8582-4172-a9a9-aed798150263
-description: 조직의 사용자가 Office 365 서비스를 사용하는 방식에 대한 주기적인 보고를 받을 수 있습니다. 사용 현황 개요 대시보드를 사용하면 각 차트에 대한 세부 정보를 확인할 수 있습니다.
-ms.openlocfilehash: fc9416445fec7a873ae7d09e1af366f029f51ed1
-ms.sourcegitcommit: 8a88b7526e6a3a907f33a8567e0d25b74fe60d80
+description: 조직의 사용자가 Microsoft 365 서비스를 사용하는 방식에 대한 주기적인 보고를 받을 수 있습니다. 사용 현황 개요 대시보드를 사용하면 각 차트에 대한 세부 정보를 확인할 수 있습니다.
+ms.openlocfilehash: 646096b0e9d9f2c1d701fba312901bf744a74501
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43204059"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43621273"
 ---
-# <a name="activity-reports-in-the-microsoft-365-admin-center"></a>Office 365 관리 센터의 활동 보고서
+# <a name="microsoft-365-reports-in-the-admin-center"></a>관리 센터의 Microsoft 365 보고서
 
-회사의 사용자가 Office 365 서비스를 사용하는 방식을 쉽게 확인할 수 있습니다. 예를 들어 서비스를 많이 사용하여 할당량에 도달하는 사용자나 Office 365 라이선스가 전혀 필요하지 않은 사용자를 파악할 수 있습니다.
+회사의 사용자가 Microsoft 365 서비스를 사용하는 방식을 쉽게 확인할 수 있습니다. 예를 들어 서비스를 많이 사용하여 할당량에 도달하는 사용자나 Microsoft 365 라이선스가 전혀 필요하지 않은 사용자를 파악할 수 있습니다.
   
 지난 7일, 30일, 90일 및 180일에 대한 보고서를 사용할 수 있습니다. 모든 보고 기간에 해당하는 데이터가 바로 준비되지는 않습니다. 보고서는 48시간 내에 사용할 수 있습니다.
   
@@ -58,7 +58,7 @@ ms.locfileid: "43204059"
 ::: moniker-end
 
    
-2. 대시보드의 맨 위에서 **보고서 선택**을 선택하여 사용 가능한 모든 보고서 목록에서 선택합니다. 또는 서비스(전자 메일, OneDrive 등)에 대한 활동을 한눈에 볼 수 있는 위젯을 선택하여 자세한 내용을 확인합니다. <br/>![Office 365 사용 현황 대시보드](../../media/usage-report-dashboard.png)
+2. 대시보드의 맨 위에서 **보고서 선택**을 선택하여 사용 가능한 모든 보고서 목록에서 선택합니다. 또는 서비스(전자 메일, OneDrive 등)에 대한 활동을 한눈에 볼 수 있는 위젯을 선택하여 자세한 내용을 확인합니다. <br/>![사용 현황 대시보드](../../media/usage-report-dashboard.png)
   
 ## <a name="who-can-see-reports"></a>보고서를 볼 수 있는 사용자
 
@@ -87,7 +87,6 @@ ms.locfileid: "43204059"
 구독에 따라 사용 가능한 보고서는 다음과 같습니다.
   
 - [이메일 활동](email-activity.md)
-- [양식 활동](forms-activity.md)
     
 - [사서함 사용 현황](mailbox-usage.md)
     
@@ -96,12 +95,15 @@ ms.locfileid: "43204059"
 - [활성 사용자](active-users.md)
   
 - [이메일 앱 사용 현황](email-apps-usage.md)
+
+- [양식 활동](forms-activity.md)
   
-- [Office 365 그룹](office-365-groups.md)
+- [Microsoft 365 그룹](office-365-groups.md)
   
 - [비즈니스용 OneDrive 사용자 활동](onedrive-for-business-activity.md)
   
 - [비즈니스용 OneDrive 사용 현황](onedrive-for-business-usage.md)
+
 - [ProPlus 사용 현황](microsoft365-apps-usage.md)
   
 - [SharePoint 사이트 사용 현황](sharepoint-site-usage.md)
@@ -170,7 +172,7 @@ ms.locfileid: "43204059"
   
 사용자 목록은 다음과 같습니다.
   
-![Office 365 보고서 - 익명 사용자 목록](../../media/2ed99bce-4978-4ee3-9ea2-4a8db26eef02.png)
+![보고서 - 익명 사용자 목록](../../media/2ed99bce-4978-4ee3-9ea2-4a8db26eef02.png)
   
 보고서 대시보드의 보고서에 효과가 적용되려면 몇 분 정도 소요됩니다. 이 설정은 보고서 API에도 적용됩니다.
   
@@ -184,4 +186,3 @@ ms.locfileid: "43204059"
 
 [보안 &amp; 준수 센터의 보고서](https://docs.microsoft.com/microsoft-365/compliance/reports-in-security-and-compliance)
   
-

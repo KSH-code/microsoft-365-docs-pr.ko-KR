@@ -20,12 +20,12 @@ search.appverid:
 - GEA150
 ms.assetid: 0f54736f-eb22-414c-8273-498a0918678f
 description: 'Microsoft 365 관리 센터에서 조직에 대한 암호 만료 정책을 설정하는 방법을 알아봅니다. '
-ms.openlocfilehash: 88953317bea2b96c04c291dd028a4e9131b9a83e
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: bcea72dadb6f10ac4ef80677f3def57eca2724cd
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42361663"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43628055"
 ---
 # <a name="set-the-password-expiration-policy-for-your-organization"></a>조직의 암호 만료 정책 설정
 
@@ -40,12 +40,12 @@ ms.locfileid: "42361663"
 
 특정 시간 후에 사용자 암호가 만료되도록 설정하려면 아래의 단계를 따릅니다.
 > [!IMPORTANT]
-> [Office 365 전역 관리자](../add-users/about-admin-roles.md)만 이러한 단계를 수행할 수 있습니다.
+> [전역 관리자](../add-users/about-admin-roles.md)만 이러한 단계를 수행할 수 있습니다.
   
 1. 관리 센터에서 **설정** \> **설정**으로 이동합니다.
 
 2. <a href="https://go.microsoft.com/fwlink/p/?linkid=2072756" target="_blank">보안 및 개인 정보</a> 페이지로 이동합니다.
- Office 365 전역 관리자가 아닌 경우에는 보안 및 개인 정보 옵션이 표시되지 않습니다.
+ 전역 관리자가 아닌 경우에는 보안 및 개인 정보 옵션이 표시되지 않습니다.
   
 3. **암호 만료 정책**을 선택합니다.
   
@@ -61,7 +61,7 @@ ms.locfileid: "42361663"
 
 다음은 2018년 1월 현재 이 기능의 작동 방식에 대해 알아야 할 몇 가지 사항입니다.
   
-- Outlook 앱만 사용하는 사용자는 Office 365 암호가 캐시에서 만료될 때까지 해당 암호를 강제로 재설정할 수 없습니다. 이는 실제 만료 날짜의 몇 일 이후일 수 있습니다. 관리자 수준에서는 이 문제의 해결 방법이 없습니다.
+- Outlook 앱만 사용하는 사용자는 Microsoft 365 암호가 캐시에서 만료될 때까지 해당 암호를 강제로 재설정할 수 없습니다. 이는 실제 만료 날짜의 몇 일 이후일 수 있습니다. 관리자 수준에서는 이 문제의 해결 방법이 없습니다.
     
 - 사용자는 암호가 X일 내에 만료될 것이라는 전자 메일 알림을 받지 않습니다. 이 기능을 원하시나요? **[여기에서 투표하세요.](https://office365.uservoice.com/forums/273493-office-365-admin/suggestions/15028344-office-365-password-email-notification)**
     
@@ -69,10 +69,10 @@ ms.locfileid: "42361663"
 
 사용자가 이전 암호를 다시 사용하지 못하도록 하면 Azure AD에서도 이전 암호를 다시 사용할 수 없습니다. [조직의 암호 만료 정책 설정](https://docs.microsoft.com/office365/admin/manage/set-password-expiration-policy?view=o365-worldwide)을 참조하세요.
 
-또한 직원이 모바일 장치를 사용하여 Office 365에 액세스하는 경우 해당 장치를 초기화하여 암호가 더 이상 저장 및 재사용되지 않도록 할 수 있습니다. 자세한 내용은 [이전 직원의 모바일 장치 초기화 및 차단](https://docs.microsoft.com/office365/admin/add-users/remove-former-employee?view=o365-worldwide#wipe-and-block-a-former-employees-mobile-device)을 참조하세요.
+또한 직원이 모바일 장치를 사용하여 Microsoft 365에 액세스하는 경우 해당 장치를 초기화하여 암호가 더 이상 저장 및 재사용되지 않도록 할 수 있습니다. 자세한 내용은 [이전 직원의 모바일 장치 초기화 및 차단](https://docs.microsoft.com/office365/admin/add-users/remove-former-employee?view=o365-worldwide#wipe-and-block-a-former-employees-mobile-device)을 참조하세요.
 
 
-## <a name="synchronize-user-passwords-hashes-from-an-on-premises-active-directory-to-azure-ad-office-365"></a>온-프레미스 Active Directory에서 사용자 암호 해시를 Azure AD로 동기화 (Office 365)
+## <a name="synchronize-user-passwords-hashes-from-an-on-premises-active-directory-to-azure-ad-microsoft-365"></a>온-프레미스 Active Directory Domain Services의 사용자 암호 해시를 Azure AD로 동기화(Microsoft 365)
 
 이 문서는 클라우드 전용 사용자 (Azure AD)에 대한 만료 정책을 설정하기 위한 것입니다. 암호 해시 동기화, 통과 인증 또는 ADFS와 같은 온-프레미스 페더레이션을 사용하는 하이브리드 ID 사용자에게는 적용되지 않습니다.
   

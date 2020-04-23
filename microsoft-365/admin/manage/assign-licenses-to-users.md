@@ -24,12 +24,12 @@ search.appverid:
 - GEA150
 ms.assetid: 997596b5-4173-4627-b915-36abac6786dc
 description: 사용자에게 라이선스를 할당하거나 새 구독으로 사용자를 이동하는 방법을 알아봅니다.
-ms.openlocfilehash: ab8a54db77ea022cbd3aec7b3c30e8a988ff7853
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 2019aeef0d802e92489b09bbddb564c4ecded8c0
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42362063"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43628247"
 ---
 # <a name="assign-licenses-to-users"></a>사용자에게 라이선스 할당
 
@@ -226,7 +226,7 @@ ms.locfileid: "42362063"
 
 ## <a name="what-you-need-to-know-about-assigning-licenses-to-users"></a>사용자에게 라이선스를 할당하는 데 대해 알아야 할 사항
 
-- 전역 관리자, 청구 관리자, 라이선스 관리자 또는 사용자 관리 관리자 권한을 갖고 있어야 합니다. 자세한 내용은 [Office 365 관리자 역할 정보](../add-users/about-admin-roles.md)를 참조하세요.
+- 전역 관리자, 청구 관리자, 라이선스 관리자 또는 사용자 관리 관리자 권한을 갖고 있어야 합니다. 자세한 내용은 [Microsoft 365 관리자 역할 정보](../add-users/about-admin-roles.md)를 참조하세요.
 
 - [Office 365 PowerShell로 사용자 계정에 라이선스를 할당](https://go.microsoft.com/fwlink/p/?linkid=850410)할 수 있습니다.
 
@@ -238,7 +238,7 @@ ms.locfileid: "42362063"
 
 [구독 및 라이선스 이해](../../commerce/licenses/subscriptions-and-licenses.md)
 
-[비즈니스용 Office 365의 라이선스 충돌 문제 해결](resolve-license-conflicts.md)
+[비즈니스용 Microsoft 365의 라이선스 충돌 문제 해결](resolve-license-conflicts.md)
 
 [사용자의 라이선스 제거](remove-licenses-from-users.md)
 

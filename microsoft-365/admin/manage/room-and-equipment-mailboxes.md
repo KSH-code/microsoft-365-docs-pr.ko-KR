@@ -21,16 +21,16 @@ search.appverid:
 - MOE150
 ms.assetid: 9f518a6d-1e2c-4d44-93f3-e19013a1552b
 description: '회의실 또는 장비 사서함을 만들었으면 조직의 누구나 Outlook을 사용하여 모임이나 행사용으로 예약할 수 있습니다. '
-ms.openlocfilehash: 1690eba40b71972c18f28e02baf0a39d6557651a
-ms.sourcegitcommit: 812aab5f58eed4bf359faf0e99f7f876af5b1023
+ms.openlocfilehash: 80562901ecc7382ce6e4ff3375b98efd89a991f0
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42361863"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43628079"
 ---
 # <a name="room-and-equipment-mailboxes"></a>회의실 및 장비 사서함
 
-모두가 공동으로 사용해야 하는 회의실, 회사 차량 또는 장비가 있는 경우 누구나 리소스를 예약할 방안을 고안해야 합니다. 가장 효율적인 방법은 Office 365에서 각 리소스에 대한 회의실 또는 장비 사서함을 만드는 것입니다. 1층 회의실, 미디어 장비 또는 운송용 트럭 각각에 대해 사서함을 하나씩 만들면 됩니다.
+모두가 공동으로 사용해야 하는 회의실, 회사 차량 또는 장비가 있는 경우 누구나 리소스를 예약할 방안을 고안해야 합니다. 가장 효율적인 방법은 Microsoft 365에서 각 리소스에 대한 회의실 또는 장비 사서함을 만드는 것입니다. 1층 회의실, 미디어 장비 또는 운송용 트럭 각각에 대해 사서함을 하나씩 만들면 됩니다.
   
 회의실 또는 장비 사서함을 만들었으면 회사의 누구나 Outlook을 사용하여 모임이나 행사용으로 예약할 수 있습니다. 다음 두 개의 탭에서 **사용 방법**과 **설정 방법**을 알아보세요. 다음은 회의실 및 장비 사서함에 대한 일반적인 질문입니다. 
   
@@ -67,7 +67,7 @@ ms.locfileid: "42361863"
   
 2. **추가**를 선택합니다.
     
-3. 다음과 같이 회의실 또는 장비 필드를 작성합니다.<br/>![Office 365에 회의실 사서함 추가](../../media/114d49e3-976e-40ef-b0af-2b0f5c85f15e.png)<br/>
+3. 다음과 같이 회의실 또는 장비 필드를 작성합니다.<br/>![Microsoft 365에 회의실 사서함 추가](../../media/114d49e3-976e-40ef-b0af-2b0f5c85f15e.png)<br/>
   
   - **회의실** 또는 **장비**: 만들려는 사서함의 유형입니다.
     
@@ -106,7 +106,7 @@ Outlook에서 예약한 모임을 열고 모임에서 참석자를 제거하듯 
   
 ### <a name="does-a-room-mailbox-or-equipment-mailbox-need-a-product-license"></a>회의실 사서함이나 장비 사서함에 제품 라이선스가 필요하나요?
 
-아니요. 조직의 대부분의 사용자가 Office 365를 사용하려면 라이선스가 필요한 반면, 회의실 사서함이나 장비 사서함에는 라이선스를 할당할 필요가 없습니다.
+아니요. 조직의 대부분의 사용자가 Microsoft 365를 사용하려면 라이선스가 필요한 반면, 회의실 사서함이나 장비 사서함에는 라이선스를 할당할 필요가 없습니다.
   
 ### <a name="do-i-need-an-owner-in-charge-of-booking-the-rooms-or-equipment"></a>회의실이나 장비를 예약하는 담당자가 있어야 하나요?
 
