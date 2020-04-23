@@ -16,12 +16,12 @@ ms.assetid: 316544cb-db1d-4c25-a5b9-c73bbcf53047
 ms.collection:
 - M365-security-compliance
 description: 관리자는 Exchange Online 및 독립 실행형 Exchange Online Protection(EOP)에서 스팸 방지 정책을 만들고 수정하고 삭제하는 방법을 배울 수 있습니다.
-ms.openlocfilehash: 3f71a9c9a62e409d4a54c01523270fb10a723a96
-ms.sourcegitcommit: c876d58b34454f211b50ae5d06f193c1a1e5c4ff
+ms.openlocfilehash: e3d49fecf456fe7f615cc2877c7522632b8db7d7
+ms.sourcegitcommit: a955324e33097bbd2fc4ad7f2b8d1f3d87bc8580
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/11/2020
-ms.locfileid: "43231019"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43608189"
 ---
 # <a name="configure-anti-spam-policies-in-office-365"></a>Office 365에서 스팸 방지 정책 구성하기
 
@@ -341,6 +341,11 @@ Exchange Online PowerShell 또는 독립 실행형 Exchange Online Protection Po
    - **최종 사용자 스팸 알림 활성화**: 확인란을 선택하여 알림을 사용하도록 설정합니다. 알림을 사용하지 않도록 설정하려면 확인란의 선택을 취소합니다.
 
    - **최종 사용자 스팸 알림 보내기 간격(일)**: 알림을 보내는 빈도를 선택합니다. 기본값은 3일입니다. 1~15일을 입력할 수 있습니다.
+   
+     24시간 내에 다음 시간에 시작하는 최종 사용자 스팸 알림의 3가지 주기가 있습니다(01:00 UTC, 08:00 UTC 및 16:00 UTC). 
+    
+     > [!NOTE]
+     > 이전 주기 중에 알림이 누락되면 다음 주기가 알림을 푸시합니다. 이로 인해 당일에 여러 알림이 표시될 수 있습니다.
 
    - **알림 언어**: 드롭다운을 클릭하고. 목록에서 사용 가능한 언어를 선택합니다. 기본값은 **기본**입니다. 즉, 최종 사용자 격리 알림은 EOP 조직의 기본 언어를 사용합니다.
 

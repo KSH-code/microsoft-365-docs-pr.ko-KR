@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: d35c6ee17c326f98179e882bb8752cd38f14ec6a
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: c792653cf8434a14bc89776a4ec870bc0d9a67ca
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602485"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637982"
 ---
 # <a name="european-union-model-clauses"></a>유럽 연합 모델 조항
 
@@ -47,7 +47,7 @@ Microsoft 클라우드에서 유럽 연합 모델 조항의 이점에 대해 알
 
 - [Azure 및 Azure Government](https://aka.ms/AzureCompliance)
 - Cloud App Security
-- Microsoft 전문 서비스: Azure, Dynamics 365, Intune, Office 365의 중간 규모 비즈니스 및 엔터프라이즈 고객 대상 프리미어 및 온-프레미스
+- Microsoft 전문 서비스: Azure, Dynamics 365, Intune, 비즈니스용 Microsoft 365의 중간 규모 비즈니스 및 엔터프라이즈 고객 대상 프리미어 및 온-프레미스
 - [Dynamics 365](https://aka.ms/d365-compliance-list)
 - Intune: Office 365용 Intune 추가 기능 제품 및 모바일 장치 관리의 클라우드 서비스 부분
 - 독립 실행형 서비스 혹은 Office 365 혹은 Dynamics 365에 브랜딩된 플랜 또는 제품군에 포함된 형태로서의 Microsoft Flow 클라우드 서비스
@@ -77,9 +77,9 @@ Microsoft는 EU 표준을 지속적으로 평가하고 필요 시 서비스를 �
 
 **"하위 처리자"란 무엇인가요?**
 
-“하위 처리자”는 데이터 제어자의 지시, EU 모델 조항의 조건 및 하청계약에 따라 개인 데이터를 처리하는 사람입니다. 특히 ISV(독립 소프트웨어 공급 업체)는 때때로 자신의 데이터 처리자입니다. 그러한 경우에는 Microsoft가 하위 처리자입니다.
+“하위 처리자”는 데이터 제어자의 지시, EU 모델 조항의 조건 및 하도급 계약에 따라 개인 데이터를 처리하는 사람입니다. 특히 ISV(독립 소프트웨어 공급 업체)는 때때로 자신의 데이터 처리자입니다. 그러한 경우에는 Microsoft가 하위 처리자입니다.
 
-**우리 회사의 규정 준수 활동은 어느 것부터 시작해야 하나요?**
+**우리 회사의 규정 준수 활동은 어디서부터 시작해야 하나요?**
 
 [온라인 서비스 약관](https://aka.ms/Online-Services-Terms) 같은 계약을 체결하거나 기존 계약을 수정하여 표준 계약 조항을 통합하십시오.
 

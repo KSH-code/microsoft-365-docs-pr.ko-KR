@@ -16,12 +16,12 @@ ms.assetid: 56fee1c7-dc37-470e-9b09-33fff6d94617
 ms.collection:
 - M365-security-compliance
 description: '요약: 이 문서에서는 Office 365에서 도메인키 식별 메일(DKIM)을 사용하여 대상 전자 메일 시스템이 사용자 지정 도메인에서 보낸 메시지를 신뢰하도록 하는 방법을 설명합니다.'
-ms.openlocfilehash: d76c31c6a3f0ce1550f0259ee40996189b60cb79
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 4df887fc7db0ef968cc06d0b1b680b9bd91686ec
+ms.sourcegitcommit: a955324e33097bbd2fc4ad7f2b8d1f3d87bc8580
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42084395"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43608153"
 ---
 # <a name="use-dkim-to-validate-outbound-email-sent-from-your-custom-domain-in-office-365"></a>DKIM을 사용하여 Office 365의 사용자 지정 도메인에서 전송한 아웃바운드 전자 메일의 유효성을 검사합니다.
 
@@ -80,25 +80,33 @@ SPF는 메시지 봉투에 정보를 추가하지만 DKIM은 실제로 메시지
 1024 및 2048 비트가 모두 DKIM 키에 대한 지원 을 받게되므로 다음의 지침은 1024 비트 키를 2048로 업그레이드하는 방법을 설명할 것입니다. 다음은 두 가지 사용 사례에 대한 단계입니다. 구성에 가장 적합한 한 사례를 선택하세요.
 
 1. **이미 DKIM을 구성한 경우** 다음과 같이 비트를 회전시킵니다:
-    1. [PowerShell을 통해 Office 365 작업 부하에 연결합니다](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window). (Cmdlet은 Exchange Online에서 제공됩니다.)
-    1. 그리고 다음의 cmdlet 명령을 실행합니다:
 
-&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;`Rotate-DkimSigningConfig -KeySize 2048 -Identity {Guid of the existing Signing Config}`
+   1. [PowerShell을 통해 Office 365 작업 부하에 연결합니다](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window). (Cmdlet은 Exchange Online에서 제공됩니다.)
+   1. 다음 명령을 실행합니다.
+
+      ```powershell 
+      Rotate-DkimSigningConfig -KeySize 2048 -Identity {Guid of the existing Signing Config}
+      ```
 
 1. 또는 **DKIM의 새로운 구현의 경우**:
-    1. [PowerShell을 통해 Office 365 작업 부하에 연결합니다](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window). (이는 Exchange Online cmdlet입니다.)
-    1. 다음의 cmdlet을 실행합니다:
 
-&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `New-DkimSigningConfig -DomainName {Domain for which config is to be created} -KeySize 2048 -Enabled $True`
+   1. [PowerShell을 통해 Office 365 작업 부하에 연결합니다](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-all-office-365-services-in-a-single-windows-powershell-window). (이는 Exchange Online cmdlet입니다.)
+   1. 다음 명령을 실행합니다.
 
-Office 365로의 연결 상태를 유지하여 구성을 *검증*합니다.
+      ```powershell
+      New-DkimSigningConfig -DomainName {Domain for which config is to be created} -KeySize 2048 -Enabled $True
+      ```
 
-2. cmdlet를 실행합니다:
+   Microsoft Office 365로의 연결 상태를 유지하여 구성을 *검증*합니다.
 
-&nbsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; `Get-DkimSigningConfig | fl`
+1. 다음 명령을 실행합니다.
+
+   ```powershell
+   Get-DkimSigningConfig | Format-List
+   ```
 
 > [!TIP]
->이 새 2048 비트 키는 RotateOnDate에 적용되며그 사이에 1024 비트 키로 전자 메일을 보냅니다. 4 일 후 2048 비트 키 (즉, 두 번째 선택기에 회전이 적용되는 경우)를 사용하여 다시 테스트를 수행할 수 있습니다.
+> 이 새 2048 비트 키는 RotateOnDate에 적용되며그 사이에 1024 비트 키로 전자 메일을 보냅니다. 4 일 후 2048 비트 키 (즉, 두 번째 선택기에 회전이 적용되는 경우)를 사용하여 다시 테스트를 수행할 수 있습니다.
 
 두 번째 선택기를 회전하려면 a) Office 365 서비스가 선택기를 회전시키게 하고 6개월 이내에 2048 비트로 업그레이드하거나 b) 4일 후 2048 비트가 사용되고 있는지 확인한 후 나열된 적절 한 cmdlet을 사용하여 수동으로 두 번째 회전기 키를 회전시킵니다.
 
@@ -119,14 +127,8 @@ DNS에 DKIM 서명을 추가하려는 각 도메인에 대해 두 개의 CNAME �
 다음 명령을 실행하여 선택기 레코드를 만듭니다.
 
 ```powershell
-    New-DkimSigningConfig -DomainName <domain> -Enabled $false
-    Get-DkimSigningConfig -Identity <domain> | fl Selector1CNAME, Selector2CNAME
-```
-
-Get-DkimSigningConfig 출력에서 참조되는 CNAME 만들기
-
-```powershell
-    Set-DkimSigningConfig -Identity <domain> -Enabled $true
+New-DkimSigningConfig -DomainName <domain> -Enabled $false
+Get-DkimSigningConfig -Identity <domain> | Format-List Selector1CNAME, Selector2CNAME
 ```
 
 Office 365는 사용자가 설정한 두 개의 레코드를 사용하여 자동 키 순환을 수행합니다. Office 365의 초기 도메인 외에 사용자 지정 도메인을 프로비저닝한 경우에는 추가 도메인마다 두 개의 CNAME 레코드를 게시해야 합니다. 따라서 두 개의 도메인이 있는 경우 두 개의 CNAME 레코드를 모두 게시해야 합니다.
@@ -152,9 +154,7 @@ TTL:                3600
 
 - _domainGUID_는 mail.protection.outlook.com 이전에 표시되는 사용자 정의 도메인에 대한 사용자 정의된 MX 레코드의 _domainGUID_와 동일합니다. 예를 들어 도메인 contoso.com에 대한 다음 MX 레코드에서 _domainGUID_는 contoso-com입니다.
 
-    ```text
-    contoso.com.  3600  IN  MX   5 contoso-com.mail.protection.outlook.com
-    ```
+  > @contoso.com.  3600  IN  MX   5 contoso-com.mail.protection.outlook.com
 
 - _initialdomain_ 은 Office 365에 등록할 때 사용한 도메인입니다. 초기 도메인은 항상 onmicrosoft.com으로 끝납니다. 초기 도메인을 확인하는 방법에 대한 자세한 내용은 [도메인 FAQ](https://docs.microsoft.com/office365/admin/setup/domains-faq#why-do-i-have-an-onmicrosoftcom-domain)를 참조하세요.
 
@@ -204,17 +204,17 @@ CNAME 레코드를 DNS에 게시하면 Office 365를 통해 DKIM 서명을 사�
 
 2. 다음 명령을 실행합니다.
 
-    ```powershell
-    Set-DkimSigningConfig -Identity <domain> -Enabled $true
-    ```
+   ```powershell
+   Set-DkimSigningConfig -Identity <domain> -Enabled $true
+   ```
 
    여기서 _도메인_은 DKIM 서명을 활성화하려는 사용자 지정 도메인의 이름입니다.
 
    예를 들어 contoso.com 도메인의 경우
 
-    ```powershell
-    Set-DkimSigningConfig -Identity contoso.com -Enabled $true
-    ```
+   ```powershell
+   Set-DkimSigningConfig -Identity contoso.com -Enabled $true
+   ```
 
 #### <a name="to-confirm-dkim-signing-is-configured-properly-for-office-365"></a>Office 365에 DKIM 서명이 올바르게 구성되어 있는지 확인하려면
 
@@ -255,29 +255,29 @@ CNAME 레코드를 DNS에 게시하면 Office 365를 통해 DKIM 서명을 사�
 
 2. DKIM 서명을 비활성화하려는 각 도메인에 대해 다음 명령 중 하나를 실행합니다.
 
-    ```powershell
-    $p = Get-DkimSigningConfig -Identity <domain>
-    $p[0] | Set-DkimSigningConfig -Enabled $false
-    ```
+   ```powershell
+   $p = Get-DkimSigningConfig -Identity <domain>
+   $p[0] | Set-DkimSigningConfig -Enabled $false
+   ```
 
    예:
 
-    ```powershell
-    $p = Get-DkimSigningConfig -Identity contoso.com
-    $p[0] | Set-DkimSigningConfig -Enabled $false
-    ```
+   ```powershell
+   $p = Get-DkimSigningConfig -Identity contoso.com
+   $p[0] | Set-DkimSigningConfig -Enabled $false
+   ```
 
    또는
 
-    ```powershell
-    Set-DkimSigningConfig -Identity $p[<number>].Identity -Enabled $false
-    ```
+   ```powershell
+   Set-DkimSigningConfig -Identity $p[<number>].Identity -Enabled $false
+   ```
 
-    여기에서 _numbe_r는 정책의 인덱스입니다. 예:
+   여기에서 _numbe_r는 정책의 인덱스입니다. 예:
 
-    ```powershell
-    Set-DkimSigningConfig -Identity $p[0].Identity -Enabled $false
-    ```
+   ```powershell
+   Set-DkimSigningConfig -Identity $p[0].Identity -Enabled $false
+   ```
 
 ## <a name="default-behavior-for-dkim-and-office-365"></a>DKIM 및 Office 365의 기본 동작
 <a name="DefaultDKIMbehavior"> </a>
@@ -323,9 +323,9 @@ Return-Path: <communication@bulkemailprovider.com>
 
 4. 수신 이메일 시스템은 메시지의 From:(5322.From) 주소에서 도메인에 대해 DKIM-Signature d= \<도메인\> 값을 인증하여 DKIM 확인을 수행합니다. 이 예제에서 값은 다음과 일치합니다.
 
-    sender@**contoso.com**
+   > sender@**contoso.com**
 
-    d=**contoso.com**
+   > d=**contoso.com**
 
 ## <a name="next-steps-after-you-set-up-dkim-for-office-365"></a>다음 단계: Office 365에 대한 DKIM을 설정한 후
 <a name="DKIMNextSteps"> </a>
