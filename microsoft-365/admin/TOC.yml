@@ -87,7 +87,7 @@
       items:
         - name: Office 365의 전자 메일
           href: email/email.md
-        - name: Office 365 사용자 전자 메일 설정
+        - name: 사용자 전자 메일 설정
           href: email/office-365-user-email-settings.md
         - name: 사용자의 다른 전자 메일 별칭 추가
           href: email/add-another-email-alias-for-a-user.md
@@ -189,6 +189,8 @@
           href: manage/remove-licenses-from-users.md
         - name: 라이선스 충돌 해결
           href: manage/resolve-license-conflicts.md
+        - name: 메시지 센터에서 메시지 관리
+          href: manage/manage-messages.md
         - name: 새로운 기능 관리를 사용하여 새로운 기능 표시 또는 숨기기
           href: manage/show-hide-new-features.md
     - name: 구독 및 청구
@@ -235,11 +237,11 @@
           href: create-groups/office-365-groups.md
         - name: 그룹 비교
           href: create-groups/compare-groups.md
-        - name: Office 365 그룹 만들기
+        - name: Microsoft 365 그룹 만들기
           href: create-groups/create-groups.md
-        - name: Office 365 그룹 관리
+        - name: Microsoft 365 그룹 관리
           href: create-groups/manage-groups.md
-        - name: Office 365 그룹에서의 거버넌스 계획
+        - name: Microsoft 365 그룹에서의 거버넌스 계획
           href: create-groups/plan-for-groups-governance.md
         - name: 그룹 만들기 관리
           href: create-groups/manage-creation-of-groups.md
@@ -251,7 +253,7 @@
           href: create-groups/allow-members-to-send-as-or-send-on-behalf-of-group.md
         - name: 그룹에서 구성원 추가 또는 제거
           href: create-groups/add-or-remove-members-from-groups.md
-        - name: Office 365 그룹 만료 정책
+        - name: Microsoft 365 그룹 만료 정책
           href: create-groups/office-365-groups-expiration-policy.md
         - name: 삭제된 그룹 복원
           href: create-groups/restore-deleted-group.md
