@@ -12,12 +12,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 조직 전체에 대한 Microsoft Teams 교육 및 배포 단계.
-ms.openlocfilehash: 8220d06fe90bc4bc793ab33d6121e93bb855f973
-ms.sourcegitcommit: 0ad0092d9c5cb2d69fc70c990a9b7cc03140611b
+ms.openlocfilehash: d34673a412539dfc73296f0139fa2eb555c17099
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 12/19/2019
-ms.locfileid: "40801243"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636702"
 ---
 # <a name="deploy-microsoft-teams-for-microsoft-365-enterprise"></a>Microsoft 365 Enterprise용 Microsoft Teams 배포
 
@@ -34,7 +34,7 @@ Teams를 처음으로 하는 경우에는 [Welcome to Microsoft Teams](https://d
 
 - 팀에서 필요한 사용자 계정과 보안 기능을 갖출 수 있도록 적절한 [기초 인프라](deploy-foundation-infrastructure.md) 단계를 구성했는지 확인합니다. ID 및 정보 보호 단계는 로그인을 하고 보존 및 민감성 레이블이 있는 보안 전자 메일과 파일을 사용하는 데 가장 중요합니다.
 - [이 문서](https://docs.microsoft.com/microsoftteams/security-compliance-overview)를 통해 Teams에서의 보안 및 준수에 대해 알아보세요.
-- [이 문서](https://docs.microsoft.com/microsoftteams/office-365-licensing)를 통해 Teams의 Office 365 라이센싱에 대해 알아보세요.
+- [이 문서](https://docs.microsoft.com/microsoftteams/office-365-licensing)를 통해 Teams의 라이선싱에 대해 알아보세요.
 
 조직에서 Teams를 배포하려면 [Teams를 배포 하는 방법](https://docs.microsoft.com/microsoftteams/how-to-roll-out-teams)을 참조하세요.
 

@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Microsoft 365 배포 가이드의 새로운 내용 및 콘텐츠에 대한 변경 사항을 확인하세요.
-ms.openlocfilehash: fb9768be38ef215b22c81bcf10b19b58e37fb124
-ms.sourcegitcommit: 6adfcf042e64b21f09f2b8e072e8eba6d3479e31
+ms.openlocfilehash: 3374ee742982b1c7f451448674feed5f7d803031
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2020
-ms.locfileid: "42951813"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631576"
 ---
 # <a name="changes-to-microsoft-365-for-enterprise-deployment-content"></a>엔터프라이즈용 Microsoft 365 배포 컨텐츠의 변경 사항
 
@@ -38,7 +38,7 @@ ms.locfileid: "42951813"
 
 ### <a name="new-content"></a>새로운 내용 
 
-- [Microsoft 365 Business에서 Microsoft 365 E3로 마이그레이션](https://docs.microsoft.com/microsoft-365/business/migrate-from-microsoft-365-business-to-microsoft-365-enterprise)
+- [Microsoft 365 Business Premium에서 Microsoft 365 E3로 마이그레이션](https://docs.microsoft.com/microsoft-365/business/migrate-from-microsoft-365-business-to-microsoft-365-enterprise)
 
 - [Contoso Corporation의 극비 프로젝트를 위한 팀](contoso-team-for-top-secret-project.md)
 
@@ -86,7 +86,7 @@ ms.locfileid: "42951813"
 
 ### <a name="updates-and-enhancements"></a>업데이트 및 향상된 기능
 
-- [4단계: Office 365 ProPlus](office365proplus-infrastructure.md)의 새로 고침
+- [4단계: 엔터프라이즈용 Microsoft 365 앱](office365proplus-infrastructure.md)의 새로 고침
 - [Contoso 사례 연구](contoso-case-study.md)의 새로 고침
 - [Microsoft Teams](teams-workload.md) 새로 고침, [Exchange Online](exchangeonline-workload.md) 및 [SharePoint Online](sharepoint-online-onedrive-workload.md) 작업 부하
 - [높은 규제 대상 데이터를 위한 SharePoint 사이트](teams-sharepoint-online-sites-highly-regulated-data.md) 시나리오의 새로 고침
@@ -170,7 +170,7 @@ ms.locfileid: "42951813"
 ### <a name="new-content"></a>새로운 내용 
 
 - [ID 및 장치 액세스](identity-device-access-m365-test-environment.md)필요 조건 테스트 랩 가이드
-- [6 단계: 정보 보호](infoprotect-infrastructure.md)를 위한 [Windows 정보 보호](infoprotect-deploy-windows-information-protection.md) 및 [Office 365 데이터 손실 방지](infoprotect-data-loss-prevention.md) 단계
+- [6단계: 정보 보호](infoprotect-infrastructure.md)를 위한 [Windows Information Protection](infoprotect-deploy-windows-information-protection.md) 및 [데이터 손실 방지](infoprotect-data-loss-prevention.md) 단계
 
 
 ## <a name="see-also"></a>참고 항목
