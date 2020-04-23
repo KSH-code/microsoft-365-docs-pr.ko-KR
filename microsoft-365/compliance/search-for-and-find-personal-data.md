@@ -18,12 +18,12 @@ localization_priority: Priority
 search.appverid:
 - MET150
 description: Office 365에서 개인 데이터를 검색하고 찾는 방법을 알아봅니다.
-ms.openlocfilehash: 31ff182c673b9a8d8f468b81c6cf5d30cf00733a
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 3bcae58049cd844a64bfbff89f78a98df6e25dbc
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597565"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43638132"
 ---
 # <a name="search-for-and-find-personal-data"></a>개인 데이터 검색 및 찾기
 
@@ -33,7 +33,7 @@ ms.locfileid: "41597565"
 
 > '개인 데이터'는 식별되었거나 식별 가능한 자연인(‘데이터 주체’)과 관련된 정보를 의미합니다. 식별 가능한 자연인은 직간접적으로, 특히 이름, 식별 번호, 위치 데이터, 온라인 식별자 또는 해당 자연인의 신체적, 생리적, 유전적, 정신적, 경제적, 문화적 또는 사회적 ID와 같은 식별자를 참조하여 식별될 수 있는 사람입니다.
 
-이 문서에서는 SharePoint Online 및 비즈니스용 OneDrive에 저장된 개인 데이터를 찾는 방법을 보여 줍니다(모든 Office 365 그룹 및 Microsoft Teams 사이트 포함) 
+이 문서에서는 SharePoint Online 및 비즈니스용 OneDrive에 저장된 개인 데이터를 찾는 방법을 보여 줍니다(모든 Microsoft 365 그룹 및 Microsoft Teams 사이트 포함).
 
 GDPR이 적용되는 개인 데이터를 찾으려면 Office 365에서 중요한 정보 유형을 사용해야 합니다. 이는 자동화된 프로세스에서 상태 서비스 번호와 신용 카드 번호와 같은 특정 정보 유형을 인식하는 방식을 정의합니다. 데이터 손실 방지 정책을 사용하여 전송 중에 메일에서 개인 데이터를 찾을 수 있습니다. GDPR에 대해 선별한 중요한 정보 유형을 사용하여 개인 정보가 전자 메일을 통해 전송될 때 이를 찾아서 보호할 수 있습니다. 또한 [보안 및 준수 센터에서 DSR 사례 도구를 사용하여 GDPR 데이터 주체 요청 관리](https://docs.microsoft.com/microsoft-365/compliance/manage-gdpr-data-subject-requests-with-the-dsr-case-tool)를 참조하세요.
 
@@ -97,15 +97,15 @@ Office 365에 포함된 중요한 정보 유형을 사용하여 개인 데이터
 <tbody>
 <tr class="odd"><td align="left"><p>보안 및 준수 센터에서 콘텐츠 검색으로 이동</p></td>
 <td align="left"><p>보안 및 준수 센터의 왼쪽 창에서 **검색 및 조사** &gt; **콘텐츠 검색**을 클릭합니다.</p>
-<p><a href="https://support.office.com/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a">Office 365 보안 및 준수 센터에서 콘텐츠 검색 실행</a>을 참조하세요.</p></td>
+<p><a href="https://support.office.com/article/Run-a-Content-Search-in-the-Office-365-Security-Compliance-Center-61852fd9-fe8a-4880-a339-cb19ed3bff4a">보안 &amp; 준수 센터에서 콘텐츠 검색 실행하기</a>를 참조하세요.</p></td>
 </tr>
 <tr class="even">
 <td align="left"><p>각 중요한 정보 유형에 대해 새 검색 항목 만들기</p></td>
 <td align="left"><p>다음 구문을 사용합니다.</p>
 <blockquote>
-<p>SensitiveType:”&lt;type&gt;”</p>
+<p>SensitiveType:"&lt;type&gt;"</p>
 </blockquote>
-<p>예를 들면 다음과 같습니다.</p>
+<p>예시:</p>
 <blockquote>
 <p>SensitiveType:&quot;France Passport Number&quot;</p>
 </blockquote>
@@ -117,7 +117,7 @@ Office 365에 포함된 중요한 정보 유형을 사용하여 개인 데이터
 <td align="left"><p>다음 유형의 문제를 찾아 쿼리 정확도가 원하는 수준인지 확인합니다.</p>
 <p><li>많은 가양성</li></p>
 <p><li>누락된 데이터의 알려진 인스턴스</li></p>
-<p><a href="https://support.office.com/article/Export-Content-Search-results-from-the-Office-365-Security-Compliance-Center-ed48d448-3714-4c42-85f5-10f75f6a4278">Office 365 보안 및 준수 센터에서 콘텐츠 검색 결과 내보내기</a>를 참조하세요.</p>
+<p><a href="https://support.office.com/article/Export-Content-Search-results-from-the-Office-365-Security-Compliance-Center-ed48d448-3714-4c42-85f5-10f75f6a4278">보안 &amp; 준수 센터에서 콘텐츠 검색 결과 내보내기</a>를 참조하세요.</p>
 <p>참고: Mozilla Firefox 또는 Chrome을 사용하는 경우 필요한 추가 기능을 설치하기 위해 먼저 Internet Explorer 또는 Edge를 사용하여 보고서를 다운로드해야 할 수 있습니다.</p></td>
 </tr>
 </tbody>
@@ -207,14 +207,14 @@ Office 365에 포함된 중요한 정보 유형을 사용하여 개인 데이터
 
 구문:
 
--   SensitiveType:”\<type\>|\<count range\>|\<confidence range\>”
+-   SensitiveType:"\<type\>|\<count range\>|\<confidence range\>"
 
 예제:
 
--   SensitiveType:“Credit Card Number|5” (정확히 5개의 카드 번호와 일치하는 문서만 반환)
+-   SensitiveType:"Credit Card Number|5" (정확히 5개의 카드 번호와 일치하는 문서만 반환)
 
--   SensitiveType:“Credit Card Number|\*|85..” (신뢰도 범위는 85% 이상임)
+-   SensitiveType:"Credit Card Number|\*|85.." (신뢰도 범위는 85% 이상임)
 
-참고: "SensitiveType"은 대/소문자를 구분하지만 쿼리의 나머지 부분은 그렇지 않습니다.
+참고: "SensitiveType"은 대/소문자를 구분하지만, 쿼리의 나머지 부분은 그렇지 않습니다.
 
 또한 속성 및 연산자를 사용하여 쿼리를 구체화하는 방법을 보여줄 수도 있습니다. 자세한 내용 및 예제에 대해서는 [사이트에 저장된 중요한 데이터를 찾기 위한 쿼리 작성](https://support.office.com/article/Form-a-query-to-find-sensitive-data-stored-on-sites-3019fbc5-7f15-4972-8d0e-dc182dc7f836)을 참조하세요.

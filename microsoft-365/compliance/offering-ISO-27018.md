@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: e2a26b91de38c876145b9b5b1c7765058b4b25a3
-ms.sourcegitcommit: b6ab845d64e2801051d249de09ad5059809b649a
+ms.openlocfilehash: 4376d2ca5ac27ec8e12f266bb7d3bb54289c1dbd
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42222060"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637528"
 ---
 # <a name="isoiec-27018-code-of-practice-for-protecting-personal-data-in-the-cloud"></a>클라우드 내 개인 데이터 보호를 위한 ISO/IEC 27018 규약
 
@@ -46,7 +46,7 @@ Microsoft 클라우드에서 ISO-IEC-27018 의 혜택에 대해 알아보세요.
 
 - [Azure, Azure Government, Azure Germany](https://aka.ms/AzureCompliance)
 - Cloud App Security
-- Microsoft 전문 서비스: Azure, Dynamics 365, Intune, Office 365의 중간 규모 비즈니스 및 엔터프라이즈 고객 대상 프리미어 및 온-프레미스
+- Microsoft 전문 서비스: Azure, Dynamics 365, Intune, 비즈니스용 Microsoft 365의 중간 규모 비즈니스 및 엔터프라이즈 고객 대상 프리미어 및 온-프레미스
 - [Dynamics 365 및 Dynamics 365 U.S. Government](https://aka.ms/d365-compliance-list)
 - 유전체학
 - 그래프

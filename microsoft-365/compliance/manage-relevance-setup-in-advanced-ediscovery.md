@@ -1,5 +1,5 @@
 ---
-title: Office 365 Advanced eDiscovery에서 관련성 설정 관리
+title: Advanced eDiscovery에서 관련성 설정 관리하기
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -14,13 +14,13 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: fd6be6d3-2e8d-449d-9851-03ab7546e6aa
-description: 관련성별로 파일 점수를 매기고 분석 결과를 생성하도록 Office 365 Advanced eDiscovery의 관련성 학습을 설정하기 위한 권장 사항을 읽어봅니다.
-ms.openlocfilehash: 49c7614eb1fec4e61fb374fb637093fd6e860619
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+description: 관련성별로 파일 점수를 매기고 분석 결과를 생성하도록 Advanced eDiscovery의 관련성 학습을 설정하기 위한 권장 사항을 읽어보세요.
+ms.openlocfilehash: fa7a8a4bd87f91d3417183a5713f5c3c06f01ebe
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42557888"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632973"
 ---
 # <a name="manage-relevance-setup-in-advanced-ediscovery-classic"></a>Advanced eDiscovery(클래식)에서 관련성 설정 관리
 

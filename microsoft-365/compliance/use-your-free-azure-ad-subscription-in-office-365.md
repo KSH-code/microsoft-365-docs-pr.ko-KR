@@ -1,5 +1,5 @@
 ---
-title: Office 365에서 무료 Azure Active Directory 구독 사용
+title: 무료 Azure Active Directory 구독 사용하기
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -15,17 +15,17 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: d104fb44-1c42-4541-89a6-1f67be22e4ad
-description: 조직의 Office 365 유료 구독에 포함되어 있는 Azure Active Directory에 액세스하는 방법을 알아봅니다.
-ms.openlocfilehash: fb1e2586c0b21c72084d7120b8735fccccd1a004
-ms.sourcegitcommit: 01ead889086ecc7dcf5d10244bcf67c5a33c8114
+description: 조직의 유료 구독에 포함되어 있는 Azure Active Directory에 액세스하는 방법을 알아봅니다.
+ms.openlocfilehash: be8edecd348d0019916f4f1b974a2bd0f8cabbc9
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42710497"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43626374"
 ---
-# <a name="use-your-free-azure-active-directory-subscription-in-office-365"></a>Office 365에서 무료 Azure Active Directory 구독 사용
+# <a name="use-your-free-azure-active-directory-subscription"></a>무료 Azure Active Directory 구독 사용하기
 
-조직에 Office 365, Microsoft Dynamics CRM Online, Enterprise Mobility Suite 또는 기타 Microsoft 서비스에 대한 유료 구독이 있는 경우 Microsoft Azure Active Directory는 무료 구독이 제공됩니다. 사용자 및 다른 관리자는 Azure AD를 사용하여 사용자 및 그룹 계정을 만들고 관리할 수 있습니다. Azure AD를 사용하려면 Azure Portal로 이동하고 Office 365 계정을 사용하여 로그인하면 됩니다.
+조직에 Microsoft 365, Microsoft Dynamics CRM Online, Enterprise Mobility Suite 또는 기타 Microsoft 서비스에 대한 유료 구독이 있는 경우 Microsoft Azure Active Directory 무료 구독이 제공됩니다. 사용자와 다른 관리자는 Azure AD를 사용하여 사용자 및 그룹 계정을 만들고 관리할 수 있습니다. Azure AD를 사용하려면 Azure Portal로 이동하여 계정에 로그인하기만 하면 됩니다.
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
@@ -37,7 +37,7 @@ ms.locfileid: "42710497"
 
 ## <a name="access-azure-active-directory"></a>Azure Active Directory에 액세스
 
-1. [portal.azure.com](https://portal.azure.com)으로 이동한 후 Office 365 회사 또는 학생 계정으로 로그인합니다.
+1. [portal.azure.com](https://portal.azure.com)으로 이동하여 회사 또는 학생 계정으로 로그인합니다.
 
 2. Azure Portal의 왼쪽 탐색 창에서 **Azure Active Directory**를 클릭합니다.
 

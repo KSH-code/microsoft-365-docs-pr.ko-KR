@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: bfb71a88f836fc68967398e3f27bebd11854c1de
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: a83c744bc9f1335e0ce2993801475fdf16164766
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602635"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627070"
 ---
 # <a name="center-for-internet-security-cis-benchmarks"></a>인터넷 보안 센터 (CIS) 벤치마크
 
@@ -46,7 +46,7 @@ CIS 벤치마크는 사이버 공격으로부터 IT 시스템 및 데이터를 �
   
 모든 CIS 벤치마크와 마찬가지로 Microsoft 벤치 마크는 소프트웨어 개발, 감사 및 준수, 보안 연구, 운영, 정부 및 법률에 걸친 다양한 배경을 가진 주제 전문가의 의견을 바탕으로 합의 검토 프로세스를 사용하여 만들어졌습니다. Microsoft는 이러한 CIS 노력의 결과로 핵심 파트너가 되었습니다. 예를 들어, Office 365는 나열된 서비스에 대해 테스트를 거쳤으며 그 결과 Microsoft 365 Foundations 벤치마크는 계정 및 인증, 데이터 관리, 응용 프로그램 권한, 저장소 및 기타 보안 정책 영역을 포괄하는 적절한 보안 정책을 설정하기 위한 광범위한 권장 사항을 다룹니다.  
   
-CIS는 Microsoft 제품 및 서비스에 대한 벤치마크 외에도 CIS 벤치마크를 충족하도록 구성된 [Azure 가상 머신에서 사용할 CIS 강화 이미지](https://www.cisecurity.org/blog/cis-hardened-images-now-in-microsoft-azure-marketplace/)를 게시했습니다. 여기에는 Azure에서 실행되도록 인증된 Microsoft Windows Server 2016용 CIS 강화 이미지가 포함됩니다. CIS는 다음과 같이 명시했습니다. "[Azure 마켓플레이스](https://azuremarketplace.microsoft.com/marketplace/apps?search=center%20for%20internet%20security)에서 사용할 수 있는 모든 CIS 강화 이미지는 Azure에서 실행되도록 인증되었습니다. Azure 퍼블릭 클라우드, 클라우드 OS 네트워크를 통해 서비스 공급자가 호스트하는 Microsoft 클라우드 플랫폼 및 고객이 관리하는 온-프레미스 프라이빗 클라우드 Windows Server Hyper-V 배포와의 호환성에 대해 사전 테스트를 거쳤습니다.”
+CIS는 Microsoft 제품 및 서비스에 대한 벤치마크 외에도 CIS 벤치마크를 충족하도록 구성된 [Azure 가상 머신에서 사용할 CIS 강화 이미지](https://www.cisecurity.org/blog/cis-hardened-images-now-in-microsoft-azure-marketplace/)를 게시했습니다. 여기에는 Azure에서 실행되도록 인증된 Microsoft Windows Server 2016용 CIS 강화 이미지가 포함됩니다. CIS는 다음과 같이 명시했습니다. "[Azure Marketplace](https://azuremarketplace.microsoft.com/marketplace/apps?search=center%20for%20internet%20security)에서 사용할 수 있는 모든 CIS 강화 이미지는 Azure에서 실행되도록 인증되었습니다. Azure 퍼블릭 클라우드, 클라우드 OS 네트워크를 통해 서비스 공급자가 호스트하는 Microsoft 클라우드 플랫폼 및 고객이 관리하는 온-프레미스 프라이빗 클라우드 Windows Server Hyper-V 배포와의 호환성에 대해 사전 테스트를 거쳤습니다."
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 범위 내 클라우드 서비스
 
@@ -68,7 +68,7 @@ Microsoft 제품 및 서비스에 대한 [CIS 벤치마크 전체 목록](https:
 ## <a name="how-to-implement"></a>구현 방법
 
 - [Azure 용 CIS 벤치마크](https://azure.microsoft.com/mediahandler/files/resourcefiles/cis-microsoft-azure-foundations-security-benchmark/CIS_Microsoft_Azure_Foundations_Benchmark_v1.0.0.pdf): Azure의 보안 기준 구성을 설정하기 위한 규정 지침을 받으세요.  
-- [Office 365 보안 로드맵](https://docs.microsoft.com/microsoft-365/security/office-365-security/security-roadmap) :이 로드맵을 따르면 데이터 유출 또는 계정 손상 가능성을 최소화합니다.
+- [Microsoft 365 보안 로드맵](https://docs.microsoft.com/microsoft-365/security/office-365-security/security-roadmap): 이 로드맵을 따르면 데이터 침해 또는 계정 손상 가능성을 최소화합니다.
 - [Windows 보안 기준](https://docs.microsoft.com/windows/security/threat-protection/windows-security-baselines): 조직에서 보안 기준을 효과적으로 사용하려면 다음 지침을 따르세요.
 - [CIS 컨트롤 클라우드 도우미 가이드](https://www.cisecurity.org/white-papers/cis-controls-cloud-companion-guide/): CIS Controls 버전 7의 보안 모범 사례를 클라우드 환경에 적용하는 방법에 대한 지침을 받으세요.
 
@@ -80,7 +80,7 @@ CIS 벤치마크는 범위 내 Microsoft 제품 및 서비스를 채택하는 �
 
 **CIS 벤치마크는 얼마나 자주 업데이트 되나요?**
 
-수정된 CIS 벤치 마크 릴리스는 이를 개발한 IT 전문가 커뮤니티와 벤치마크가 지원하는 기술 릴리스 일정에 따라 변경됩니다. CIS는 새로운 벤치마크 및 기존 벤치마크에 대한 업데이트를 알리는 월별 보고서를 배포합니다. 이를 받으려면 [CIS Workbench](https://workbench.cisecurity.org/)에 (무료로) 등록하고 프로필에서 뉴스 레터 수신을 선택합니다.
+수정된 CIS 벤치 마크 릴리스는 이를 개발한 IT 전문가 커뮤니티와 벤치마크가 지원하는 기술 릴리스 일정에 따라 변경됩니다. CIS는 새로운 벤치마크 및 기존 벤치마크에 대한 업데이트를 알리는 월별 보고서를 배포합니다. 이를 받으려면 [CIS Workbench](https://workbench.cisecurity.org/)(무료)에 등록하고 프로필에서 뉴스 레터 수신을 선택합니다.
 
 **누가 Microsoft CIS 벤치마크 개발에 기여했나요?**
 
