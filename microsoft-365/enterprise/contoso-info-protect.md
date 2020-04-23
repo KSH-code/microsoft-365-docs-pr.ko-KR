@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Contoso에서 Microsoft 365 Enterprise의 정보 보호 기능을 사용하여 클라우드에서 디지털 자산을 보호하는 방법을 이해합니다.
-ms.openlocfilehash: 2fed60d18c878bf6e509c6955b8c8df758cc4caf
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 41873f14ac52000635508aca4728572556692cc4
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42068421"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43625305"
 ---
 # <a name="information-protection-for-the-contoso-corporation"></a>Contoso Corporation의 정보 보호
 
@@ -107,10 +107,10 @@ Contoso는 다음 단계를 사용하여 정보 보호 요구에 맞게 Microsof
 
 |||||
 |:-------|:-----|:-----|:-----|
-| | **Office 365** | **Windows 10 및 Office 365 ProPlus** | **EMS** |
+| | **Office 365** | **Windows 10 및 Microsoft Office 365 ProPlus** | **EMS** |
 | 수준 1: 기본 데이터  | SharePoint 및 Exchange Online 조건부 액세스 정책 <BR> SharePoint 사이트에 대한 권한 | 민감도 레이블 <BR> BitLocker <BR> Windows Information Protection | 장치 조건부 액세스 정책 및 모바일 응용 프로그램 관리 정책 |
-| 수준 2: 중요 데이터 | 수준 1 추가: <BR> <BR> 민감도 레이블 <BR> SharePoint 사이트의 Office 365 보존 레이블 <BR> SharePoint 및 Exchange Online에 대한 Office 365 데이터 손실 방지 <BR> 격리된 SharePoint 사이트  | 수준 1 추가: <BR> <BR> 디지털 자산의 민감도 레이블  | 수준 1 |
-| 수준 3: 높은 규제 대상 데이터 | 수준 2 추가: <BR><BR> 영업 비밀 정보에 대한 BYOK(Bring Your Own Key) 암호화 및 보호 <BR> Office 365 서비스와 상호 작용하는 LOB(기간 업무) 응용 프로그램에 대한 Azure Key Vault | 수준 2 | 수준 1 |
+| 수준 2: 중요 데이터 | 수준 1 추가: <BR> <BR> 민감도 레이블 <BR> SharePoint 사이트의 Microsoft 365 보존 레이블 <BR> SharePoint Online 및 Exchange Online용 데이터 손실 방지 <BR> 격리된 SharePoint 사이트  | 수준 1 추가: <BR> <BR> 디지털 자산의 민감도 레이블  | 수준 1 |
+| 수준 3: 높은 규제 대상 데이터 | 수준 2 추가: <BR><BR> 영업 비밀 정보에 대한 BYOK(Bring Your Own Key) 암호화 및 보호 <BR> Microsoft 365 서비스와 상호 작용하는 LOB(기간 업무) 응용 프로그램에 대한 Azure Key Vault | 수준 2 | 수준 1 |
 |||||
 
 다음은 Contoso의 결과 정보 보호 구성입니다.

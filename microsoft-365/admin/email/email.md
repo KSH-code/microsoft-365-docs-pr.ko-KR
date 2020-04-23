@@ -14,17 +14,17 @@ layout: LandingPage
 ms.service: o365-administration
 localization_priority: Priority
 ms.assetid: f7449a18-1400-475a-b158-2668fef93bfe
-description: Office 365 사서함의 전자 메일을 관리하는 방법을 알아봅니다.
-ms.openlocfilehash: ca1fba8c89f7c647a0bb6d4f846ebb12f82a7abd
-ms.sourcegitcommit: 5ba1efc0b498430e30231010024044049b8727c7
+description: Microsoft 365 사서함의 전자 메일을 관리하는 방법을 알아봅니다.
+ms.openlocfilehash: 25d34ed4f86a918daea5e04c89b9b79c91bebc08
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43126014"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43628858"
 ---
 # <a name="email"></a>전자 메일
 
-Office 365 사서함의 전자 메일을 관리하는 방법을 알아봅니다.
+Microsoft 365 사서함의 전자 메일을 관리하는 방법을 알아봅니다.
 
 <ul class="panelContent cardsFTitle">
     <li>
@@ -146,7 +146,7 @@ Office 365 사서함의 전자 메일을 관리하는 방법을 알아봅니다.
                 <div class="card">
                     <div class="cardText">
                         <h3>전자 메일 연결 및 배달 문제 해결</a></h3>
-                        <p><a href="https://diagnostics.outlook.com/#/">Office 365 및 Exchange Online의 Outlook 연결 문제 해결</a></p>
+                        <p><a href="https://diagnostics.outlook.com/#/">Microsoft 365 및 Exchange Online의 Outlook 연결 문제 해결</a></p>
                         <p><a href="https://docs.microsoft.com/office365/enterprise/recover-deleted-items-in-a-mailbox">사용자의 사서함에서 삭제된 항목 복구</a></p>
                         <p><a href="https://docs.microsoft.com/exchange/troubleshoot/mail-delivery/email-delivery-issues">전자 메일 전송 문제 찾기 및 해결</a></p>
                         <p><a href="../get-help-with-domains/find-and-fix-issues.md">도메인 또는 DNS 레코드를 추가한 후 문제 찾기 및 해결(전자 메일 관련 문제 포함)</a></p>
@@ -162,8 +162,8 @@ Office 365 사서함의 전자 메일을 관리하는 방법을 알아봅니다.
             <div class="card">
                 <div class="cardText">
                         <h3>엔터프라이즈에 대한 리소스</h3>
-                        <p><a href="https://docs.microsoft.com/exchange/mail-flow-best-practices/mail-flow-best-practices">Exchange Online 및 Office 365에 대한 메일 흐름 모범 사례</a></p>
-                        <p><a href="https://docs.microsoft.com/Exchange/mailbox-migration/mailbox-migration">Office 365로 여러 전자 메일 계정을 마이그레이션하는 방법</a></p>
+                        <p><a href="https://docs.microsoft.com/exchange/mail-flow-best-practices/mail-flow-best-practices">Exchange Online 및 Microsoft 365에 대한 메일 흐름 모범 사례</a></p>
+                        <p><a href="https://docs.microsoft.com/Exchange/mailbox-migration/mailbox-migration">여러 전자 메일 계정을 Microsoft 365로 마이그레이션하는 방법</a></p>
                         <p><a href="https://docs.microsoft.com/exchange/exchange-hybrid">Exchange 하이브리드 배포 콘텐츠</a></p>
                         <p><a href="https://docs.microsoft.com/exchange/exchange-online">Exchange Online</a></p>
                         <p><a href="https://docs.microsoft.com/microsoft-365/security/office-365-security/exchange-online-protection-overview">Exchange Online Protection</a></p>

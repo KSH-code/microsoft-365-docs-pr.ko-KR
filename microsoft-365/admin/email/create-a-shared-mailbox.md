@@ -21,18 +21,18 @@ search.appverid:
 - MOE150
 ms.assetid: 871a246d-3acd-4bba-948e-5de8be0544c9
 description: 공유 사서함을 만들어 회사의 여러 사용자가 하나의 주소로 전송된 전자 메일을 읽고 답장하는 업무를 나눌 수 있습니다.
-ms.openlocfilehash: 4469197628feb96980ec2d8b560048acba704c54
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+ms.openlocfilehash: 35711e1a17a244a9f68ac88daf665f0328b293b4
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43212308"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43628906"
 ---
 # <a name="create-a-shared-mailbox"></a>공유 사서함 만들기 
 
 > [!NOTE]
 > 조직에서 하이브리드 Exchange 환경을 사용하는 경우 온-프레미스 EAC(Exchange 관리 센터)를 사용하여 공유 사서함을 만들고 관리해야 합니다. [Exchange 관리 센터에서 공유 사서함을 만드는 방법](https://docs.microsoft.com/Exchange/collaboration/shared-mailboxes/create-shared-mailboxes?view=exchserver-2019.)을 참조하세요.<br><br>
-> 공유 사서함 또는 Outlook용 Office 365 그룹 중 무엇을 만들어야 하는지 확실하지 않은 경우 [Compare groups](../create-groups/compare-groups.md)(그룹 비교)에서 지침을 확인하세요. 현재 공유 사서함을 Office 365 그룹으로 마이그레이션할 수 없습니다. 이것이 원하는 것이라면 [여기에서 투표](https://go.microsoft.com/fwlink/?linkid=871518)를 통해 알려주세요.
+> 공유 사서함 또는 Outlook용 Microsoft 365 그룹 중 무엇을 만들어야 하는지 확실하지 않은 경우 [Compare groups](../create-groups/compare-groups.md)(그룹 비교)에서 지침을 확인하세요. 현재 공유 사서함은 Microsoft 365 그룹으로 마이그레이션할 수 없습니다. 이것이 원하는 것이라면 [여기에서 투표](https://go.microsoft.com/fwlink/?linkid=871518)를 통해 알려주세요.
 
 사용자 그룹이 info@contoso.com과 같은 공통 전자 메일 주소에서 전자 메일을 모니터링하고 보낼 수 있도록 공유 사서함을 만들 수 있습니다. 그룹에 속한 사용자가 공유 사서함에 전송된 메시지에 회신하면 해당 전자 메일은 개별 사용자가 아닌 공유 사서함에서 발송된 것으로 나타납니다.
 
@@ -42,7 +42,7 @@ ms.locfileid: "43212308"
 
 ## <a name="create-a-shared-mailbox-and-add-members"></a>공유 사서함 만들기 및 구성원 추가
   
-1. Office 365 전역 관리자 계정 또는 Exchange 관리자 계정을 사용하여 로그인합니다. “**이 페이지에 액세스하거나 이 작업을 수행할 권한이 없습니다**”메시지가 나타나는 경우 관리자가 아닙니다. 
+1. 전역 관리자 계정 또는 Exchange 관리자 계정을 사용하여 로그인합니다. “**이 페이지에 액세스하거나 이 작업을 수행할 권한이 없습니다**”메시지가 나타나는 경우 관리자가 아닙니다. 
 
 ::: moniker range="o365-worldwide"
 
@@ -158,7 +158,7 @@ Outlook의 공유 사서함에 대한 자세한 내용은 다음을 참조하세
     
     자세한 내용은 <a href="https://support.office.com/article/f866242c-81b2-472e-8776-6c49c5473c9f" target="_blank">Outlook 모바일에 공유 사서함 추가</a>를 참조하세요.
 
-- 브라우저를 열고 Office 365에 로그인한 다음 웹용 Outlook으로 이동합니다. 웹용 Outlook에서 공유 사서함에 액세스할 수 있습니다.
+- 브라우저를 열고 로그인한 다음 웹용 Outlook으로 이동합니다. 웹용 Outlook에서 공유 사서함에 액세스할 수 있습니다.
 
     자세한 내용은 <a href="https://support.office.com/article/98b5a90d-4e38-415d-a030-f09a4cd28207.aspx" target="_blank">웹용 Outlook에 공유 사서함 추가</a>를 참조하세요.
 

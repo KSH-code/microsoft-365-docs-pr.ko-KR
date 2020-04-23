@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 준수 관리자는 무료 워크플로 기반 위험 평가 도구입니다. 이 도구를 사용 하 여 Microsoft 제품과 관련 된 규정 준수 활동을 추적, 할당 및 확인 합니다.
-ms.openlocfilehash: 2a2c0b9311062da1269f7b56c926ced9e038627f
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 2e67114c4b59fbb676c45995c08b9e4faa05e55b
+ms.sourcegitcommit: f70f75b9dd163c00a3c6bc4b9f9b055e90c50367
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43626234"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "43790665"
 ---
 # <a name="working-with-microsoft-compliance-manager-preview"></a>Microsoft 준수 관리자 사용 (미리 보기)
 
@@ -35,7 +35,7 @@ Microsoft Service Trust Portal에서 준수 관리자에 액세스할 수 있습
 2. Microsoft 서비스 계정 (Office 365, Microsoft 365 또는 Azure Active Directory (Azure AD) 사용자 계정)을 사용 하 여 로그인 합니다.
 
 > [!NOTE]
-> 서비스 신뢰 포털에서 가장 최근 기능이 포함 된 미리 보기 버전인 **준수 관리자**를 선택 합니다. 이 설명서에서 다루지 않는 레거시 기능이 포함 된 **준수 관리자 (클래식)** 는 선택 하지 않습니다.
+> 서비스 신뢰 포털에서 가장 최근 기능이 포함 된 미리 보기 버전인 **준수 관리자**를 선택 합니다. 이 설명서에서 다루지 않는 초기 릴리스 기능을 포함 하는 **준수 관리자 (클래식)** 는 선택 하지 않습니다.
 
 ## <a name="administration"></a>관리
 

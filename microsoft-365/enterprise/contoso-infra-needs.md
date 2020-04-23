@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Contoso 온-프레미스 IT 인프라의 기본 구조와 Microsoft 365 Enterprise로 해당 비즈니스 요구를 충족하는 방법을 이해합니다.
-ms.openlocfilehash: 3cee0f3e6cd20b0d93038595cdab9270c8eb30aa
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 38d2b8df611cb06e19abba074f49e00d95496c30
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42068392"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43625293"
 ---
 # <a name="contosos-it-infrastructure-and-business-needs"></a>Contoso의 IT 인프라 및 비즈니스 요구 사항
 
@@ -127,7 +127,7 @@ Contoso의 IT 부서는 배포 전에 Microsoft 365 E5 기능에 대한 비즈�
 | 보안 |  |  |
 |  | ID & 액세스 관리 | Azure MFA (Multi-Factor Authentication) 및 Azure PIM (Privileged Identity Management다)를 포함하는 전용 전역 관리자 계정 <BR> 모든 사용자 계정에 대한 MFA <BR> 조건부 액세스 <BR> Windows Hello <BR> Windows Credential Guard |
 |  | 위협 방지 | Advanced Threat Analytics <BR> Windows Defender <BR> Advanced Threat Protection <BR> Office 365 Advanced Threat Protection <BR> Office 365 위협 조사 및 응답 <BR> |
-|  | 정보 보호 | Azure 정보 보호 <BR> Office 365 DLP(데이터 손실 방지) <BR> WIP(Windows Information Protection) <BR> Microsoft Cloud App Security <BR> Microsoft Intune |
+|  | 정보 보호 | Azure Information Protection <BR> DLP(데이터 손실 방지) <BR> WIP(Windows Information Protection) <BR> Microsoft Cloud App Security <BR> Microsoft Intune |
 |  | 보안 관리 | Azure Security Center  <BR> Windows Defender 보안 센터 |
 | 원격 및 모바일 액세스 및 비즈니스 파트너 |  |  |
 |  | 원격 및 모바일 작업자를 위한 향상된 보안 | Microsoft Intune |
@@ -136,7 +136,7 @@ Contoso의 IT 부서는 배포 전에 Microsoft 365 E5 기능에 대한 비즈�
 | 규정 준수 |  |  |
 |  | 지역별 규정 준수 | Office 365의 GDPR 기능 |
 | 관리 |  |  |
-|  | 클라이언트 업데이트 설치에 대한 IT 오버헤드 감소 | 배포 링 <BR> Windows 10 Enterprise 업데이트 <BR> Office 365 ProPlus 업데이트 |
+|  | 클라이언트 업데이트 설치에 대한 IT 오버헤드 감소 | 배포 링 <BR> Windows 10 Enterprise 업데이트 <BR> Microsoft Office 365 ProPlus 업데이트 |
 ||||
 
 ## <a name="next-step"></a>다음 단계

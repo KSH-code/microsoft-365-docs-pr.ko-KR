@@ -1,7 +1,7 @@
 ---
 title: NIST SP 800 – 171
 description: Microsoft 클라우드 서비스는 NIST SP 800을 준수 하며, 비 연방 정보 시스템에서 통제 되지 않은 171 (미분류 정보)를 보호 하기 위한 지침입니다.
-keywords: Microsoft 365, 규정 준수, 제안
+keywords: Microsoft 365, 규정 준수, 제품
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: e90d5e47c6aa5ac6c2813f150e8136b93214fa3d
-ms.sourcegitcommit: b6ab845d64e2801051d249de09ad5059809b649a
+ms.openlocfilehash: e1bd69e7038ce3bf6372a3f53cd985ce54f350a8
+ms.sourcegitcommit: b8a9994b26a6d9865212f5b1871286e719d1608e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42222000"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43781453"
 ---
 # <a name="nist-sp-800171"></a>NIST SP 800 – 171
 
@@ -40,7 +40,7 @@ Microsoft와 제휴 하는 타사 평가 조직, Kratos Secureinfo 및 Coalfire�
 
 NIST SP 800-171 요구 사항은 FedRAMP에서 사용 하는 표준인 NIST SP 800-53의 하위 집합입니다. 부록 D-NIST SP 800-171는 FedRAMP 프로그램에서 범위 내 클라우드 서비스가 이미 평가 되 고 승인 된 NIST SP 800-53의 관련 보안 제어에 대 한 개인 보안 요구 사항을 직접 매핑합니다.
 
-US 정부 기관, 컨설팅 회사, 제조 계약자 등을 처리 하거나 저장 하는 모든 엔터티가 NIST SP 800-171의 엄격한 요구 사항을 준수 해야 합니다. 이 증명은 microsoft가 전체 규정 준수로 인 한 보증을 통해 공동 작업을 배포 하려는 고객에 게 지원 서비스를 제공할 수 있음을 의미 합니다. 예를 들어 해당 정보 시스템에서 범위 내 Microsoft 클라우드 서비스를 사용 하 여 ' 포함 된 방어 정보 '를 처리, 저장 또는 전송 하는 모든 DoD 계약자는 보안과 준수 해야 하는 방어 DFARS 절의 US 부서를 충족 합니다. NIST SP 800-171 요구 사항
+US 정부 기관, 컨설팅 회사, 제조 계약자 등을 처리 하거나 저장 하는 모든 엔터티가 NIST SP 800-171의 엄격한 요구 사항을 준수 해야 합니다. 이 증명은 microsoft가 전체 규정 준수로 인 한 보증을 통해 공동 작업을 배포 하려는 고객에 게 지원 서비스를 제공할 수 있음을 의미 합니다. 예를 들어 해당 정보 시스템에서 범위 내 Microsoft 클라우드 서비스를 사용 하 여 ' 포함 된 방어 정보 '를 처리, 저장 또는 전송 하는 모든 DoD 계약자는 NIST SP 800-171의 보안 요구 사항을 준수 해야 하는 방어 DFARS 절의 US 부서를 충족 합니다.
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 범위 내 클라우드 서비스
 
@@ -55,7 +55,7 @@ US 정부 기관, 컨설팅 회사, 제조 계약자 등을 처리 하거나 저
 
 ## <a name="how-to-implement"></a>구현 방법
 
-- [NIST sp 800-171 청사진](https://aka.ms/NIST-800-171-Blueprint): nist sp 800-171을 준수 하는 Azure에서 작업을 구현 하기 위한 지원 서비스를 제공 합니다.
+- [Azure 청사진 샘플](https://docs.microsoft.com/azure/governance/blueprints/samples/): NIST 기반 컨트롤을 준수 하는 워크 로드를 구현 하기 위한 지원을 받을 수 있습니다.
 
 ## <a name="frequently-asked-questions"></a>자주하는 질문
 

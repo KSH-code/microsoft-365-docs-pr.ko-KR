@@ -15,18 +15,18 @@ ms.collection:
 - M365-subscription-management
 ms.custom: ''
 description: 대표적인 가상 글로벌 조직이 Microsoft 365 Enterprise를 채택한 방법
-ms.openlocfilehash: 8a9727f806783c72a77a941274e4a1b042c430ca
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: bf974d374b9c60744b2efda465a7c5e92f0386bb
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601145"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43625353"
 ---
 # <a name="microsoft-365-enterprise-for-the-contoso-corporation"></a>Contoso Corporation의 Microsoft 365 Enterprise
 
 Microsoft 365 Enterprise는 로컬 및 클라우드 기반 생산성 응용 프로그램 및 서비스를 Windows 10 Enterprise 및 고급 보안 기능과 결합하여 모든 사람이 창의적이고 안전하게 공동 작업할 수있는 지능형 솔루션으로 통합 된 Microsoft의 최고의 클라우드 서비스입니다. 
 
-Contoso Corporation는 프랑스, 파리에 본사가 있는 가상의 대표적 글로벌 제조 대기업입니다. Contoso는 Microsoft 365 Enterprise를 배포했으며 네트워킹, ID, Windows 10 Enterprise, Office 365 ProPlus, 모바일 장치 관리, 정보 보호 및 보안에 대한 중요 디자인 결정 및 구현 세부 사항을 진행하고 있습니다. 
+Contoso Corporation는 프랑스, 파리에 본사가 있는 가상의 대표적 글로벌 제조 대기업입니다. Contoso는 Microsoft 365 Enterprise를 배포했으며 네트워킹, ID, Windows 10 Enterprise, Microsoft Office 365 ProPlus, 모바일 장치 관리, 정보 보호 및 보안에 대한 중요 디자인 결정 및 구현 세부 사항을 진행하고 있습니다. 
 
 Microsoft 365 Enterprise에 대한 Contoso의 전반적인 목표는 클라우드 서비스를 사용하여 직원, 파트너 및 프로세스를 통합함으로써 디지털 혁신을 가속화하여 디지털 우선 세계에서 고객 가치를 창출하고 경쟁적 우위를 점유하는 것입니다.
 
@@ -52,9 +52,9 @@ Microsoft 365 Enterprise에 대한 Contoso의 전반적인 목표는 클라우�
 
   Contoso의 Windows 10 Enterprise 인프라는 해당 기본 PC 및 장치 운영 체제를 실행하는 장치에 대한 업데이트를 배포하고 자동으로 설치합니다.
 
-- [Office 365 ProPlus](contoso-o365pp.md)
+- [Microsoft Office 365 ProPlus](contoso-o365pp.md)
 
-  Contoso의 Office 365 ProPlus 인프라는 생산성 소프트웨어의 Microsoft Office 제품군에 대한 업데이트를 배포하고 자동으로 설치합니다.
+  Contoso의 Microsoft Office 365 ProPlus 인프라는 Microsoft Office 생산성 소프트웨어 제품군에 대한 업데이트를 배포하고 자동으로 설치합니다.
 
 - [모바일 장치 관리](contoso-mdm.md)
 

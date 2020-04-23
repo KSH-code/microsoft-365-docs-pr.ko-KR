@@ -1,5 +1,5 @@
 ---
-title: Office 365에 대한 암호 정책 권장 사항
+title: 권장 암호 정책
 f1.keywords:
 - CSH
 ms.author: kwekua
@@ -18,18 +18,18 @@ search.appverid:
 - MOE150
 ms.assetid: 9fa2539a-2211-41fd-85a0-bc37b9619ca4
 description: 암호 공격으로부터 조직을 더 안전하게 보호하는 방법과 일반적인 암호를 금지하고 위험 기반 다단계 인증을 사용해야 하는 이유를 알아봅니다.
-ms.openlocfilehash: 74f78b6abcc3e3aa7eb3c18c858afcd8e916d432
-ms.sourcegitcommit: d767c288ae34431fb046f4cfe36cec485881385f
+ms.openlocfilehash: eff22b5591893ea10f8e04e8e7f470e8a0bf9079
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "43516926"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43627827"
 ---
-# <a name="password-policy-recommendations-for-office-365"></a>Office 365에 대한 암호 정책 권장 사항
+# <a name="password-policy-recommendations"></a>권장 암호 정책
  
-Office 365 조직의 관리자는 조직의 사용자에 대한 암호 정책을 설정할 책임이 있습니다. 암호 정책의 설정은 복잡하고 혼동될 수 있습니다. 이 문서에서는 조직을 암호 공격으로부터 더 안전하게 보호하기 위한 권장 사항을 제공합니다.
+조직의 관리자는 조직의 사용자에 대한 암호 정책을 설정할 책임이 있습니다. 암호 정책의 설정은 복잡하고 혼동될 수 있습니다. 이 문서에서는 조직을 암호 공격으로부터 더 안전하게 보호하기 위한 권장 사항을 제공합니다.
   
-조직에서 Office 365 암호가 얼마나 자주 만료되는지 확인하려면 [Office 365 암호 만료 정책 설정](../manage/set-password-expiration-policy.md)을 참조하세요.
+조직의 Microsoft 365 암호 만료 주기를 확인하려면 [Microsoft 365 암호 만료 정책 설정](../manage/set-password-expiration-policy.md)을 참조하세요.
   
 ## <a name="understanding-password-recommendations"></a>암호 권장 사항 이해
 

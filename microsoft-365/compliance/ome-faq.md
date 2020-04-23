@@ -5,7 +5,7 @@ f1.keywords:
 ms.author: krowley
 author: kccross
 manager: laurawi
-ms.date: 12/03/2019
+ms.date: 04/13/2020
 audience: ITPro
 ms.topic: overview
 ms.service: O365-seccomp
@@ -14,12 +14,12 @@ search.appverid:
 - MET150
 ms.assetid: 0432dce9-d9b6-4e73-8a13-4a932eb0081e
 description: 새 메시지 보호 기능의 작동 방식에 대 한 질문이 있나요? 여기에서 대답을 확인 하세요.
-ms.openlocfilehash: 87235d637d4c25f7e63b3b7125ea95c175c8ec3b
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 93b57e2b973fadd8b4ac2388e42f460114228c3c
+ms.sourcegitcommit: b8a9994b26a6d9865212f5b1871286e719d1608e
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43626886"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43781463"
 ---
 # <a name="message-encryption-faq"></a>메시지 암호화 FAQ
 
@@ -109,15 +109,18 @@ Word, Excel 또는 PowerPoint 파일과 같은 파일 형식이 지원 되는 �
   
 ## <a name="are-pdf-file-attachments-supported"></a>PDF 파일이 첨부 파일을 지원 하나요?
 
-예로! 조직의 PDF 첨부 파일에 대 한 암호화를 사용 하도록 설정할 수 있습니다. PDF 첨부 파일에 대 한 암호화를 사용 하도록 설정 하려면 [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell)에서 다음 명령을 실행 합니다.
+여기서는 간단한 대답이 예입니다. PDF 암호화를 사용 하면 보안 통신 또는 안전한 공동 작업을 통해 중요 한 PDF 문서를 보호할 수 있습니다. 전자 메일을 보낼 때 Office 365 서비스는 Outlook 클라이언트가 아닌 PDF 첨부 파일을 암호화 합니다. 
+
+PDF 첨부 파일 암호화를 사용 하도록 설정한 후에는 웹에서 Outlook, iOS 용 Outlook 및 Android 용 Outlook에서 추가 단계를 수행 하지 않고 전송 하는 Pdf를 암호화할 수 있습니다.
+
+Outlook 데스크톱은 PDF 파일 첨부 파일의 암호화를 기본적으로 지원 하지 않습니다. 이 문제를 해결 하려면 계속 해 서 조직에서 PDF 첨부 파일 암호화를 사용 하도록 설정할 수 있습니다. PDF 첨부 파일이 있는 Outlook 데스크톱에서 메일을 보내는 경우 클라이언트는 첨부 파일이 포함 된 메시지를 먼저 서비스에 보냅니다. 서비스가 파일을 받으면 Exchange Online에서 DLP (데이터 손실 방지) 정책 또는 메일 흐름 규칙의 OME 보호를 적용 합니다. 다음으로, Exchange Online은 보호 된 PDF 파일 첨부 파일이 포함 된 메시지를 보냅니다.
+
+PDF 첨부 파일에 대 한 암호화를 사용 하도록 설정 하려면 [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell)에서 다음 명령을 실행 합니다.
 
 ```powershell
 Set-IRMConfiguration -EnablePdfEncryption $true
 ```
 
-PDF 암호화를 사용 하면 보안 통신 또는 안전한 공동 작업을 통해 중요 한 PDF 문서를 보호할 수 있습니다. 모든 Outlook 클라이언트의 경우 메시지 및 보호 되지 않는 PDF 첨부 파일은 Exchange Online의 DLP (데이터 손실 방지) 정책 또는 메일 흐름 규칙에 대 한 OME 보호를 상속 합니다. 또한 Outlook 사용자가 보호 되지 않은 PDF 문서를 첨부 하 고 메시지에 보호를 적용 하는 경우 해당 메시지는 메시지 보호를 상속 받습니다. 사용자는 보호 된 Pdf를 지 원하는 응용 프로그램 (예: OME 포털 및 Azure Information Protection 뷰어)에서 암호화 된 첨부 파일을 열 수만 있습니다.
-
-  
 ## <a name="are-onedrive-for-business-attachments-supported"></a>비즈니스용 OneDrive 첨부 파일이 지원 됩니까?
 
 Not yet. 비즈니스용 OneDrive 첨부 파일이 지원 되지 않으며 최종 사용자가 비즈니스용 OneDrive 첨부 파일을 포함 하는 메일을 암호화할 수 없습니다.

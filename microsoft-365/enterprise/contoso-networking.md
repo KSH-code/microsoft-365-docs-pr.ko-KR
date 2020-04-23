@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Contoso 네트워킹 인프라와 이 인프라가 Microsoft 365 Enterprise 클라우드 서비스에 최적의 성능을 제공하기 위해 SD-WAN 기술을 사용하는 방법을 이해합니다.
-ms.openlocfilehash: 20279ac0aed1b7ad86e1fc8e1d78a412230eba52
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 4e649796b30b96db3b36de2dabec1f276728d3ea
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42068349"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43625281"
 ---
 # <a name="networking-for-the-contoso-corporation"></a>Contoso Corporation에 대한 네트워킹
 
@@ -50,14 +50,14 @@ Contoso의 네트워크 엔지니어들은 클라우드 포함 인프라를 채�
 
 ## <a name="use-of-sd-wan-for-optimal-network-connectivity-to-microsoft"></a>Microsoft에 대한 최적 네트워크 연결을 위해 SD-WAN 사용
 
-Contoso는 다음과 같은 [Office 365 네트워크 연결 원칙](https://docs.microsoft.com/office365/enterprise/office-365-network-connectivity-principles)을 준수했습니다.
+Contoso는 다음과 같은 [Microsoft 365 네트워크 연결 원칙](https://docs.microsoft.com/office365/enterprise/office-365-network-connectivity-principles)을 준수했습니다.
 
-1. Office 365 네트워크 트래픽 식별 및 차별화
+1. Microsoft 365 네트워크 트래픽 식별 및 차별화
 2. 네트워크 연결을 로컬로 송신
 3. 네트워크 헤어핀 방지
 4. 중복된 네트워크 보안 장치 우회
 
-Office 365의 네트워크 트래픽 범주에는 최적화, 허용 및 기본값 세 가지 범주가 있습니다. 트래픽 최적화 및 허용은 끝점에서 암호화되고 보안이 유지 되는 신뢰할 수 있는 네트워크 트래픽이며 Microsoft 365 network로 전송됩니다.
+Microsoft 365의 네트워크 트래픽 범주에는 최적화, 허용 및 기본값의 세 가지 범주가 있습니다. 트래픽 최적화 및 허용은 끝점에서 암호화되고 보안이 유지 되는 신뢰할 수 있는 네트워크 트래픽이며 Microsoft 365 network로 전송됩니다.
 
 Contoso는 다음의 사항을 결정했습니다:
 
@@ -93,7 +93,7 @@ Contoso 사용자가 Microsoft 365 Enterprise 서비스를 성공적으로 채�
 
 2. Microsoft 365 Enterprise 네트워크 연결 계획 수립
 
-   Contoso는 [Office 365 네트워크 연결 원칙](https://docs.microsoft.com/office365/enterprise/office-365-network-connectivity-principles)을 사용하고, SD-WAN을 Office 365 연결을 위한 기본 토폴로지로 결정하기 위해 참조 네트워크 아키텍처를 제공했습니다.
+   Contoso는 [Microsoft 365 네트워크 연결 원칙](https://docs.microsoft.com/office365/enterprise/office-365-network-connectivity-principles)을 사용하고, SD-WAN을 Microsoft 365 연결을 위한 기본 토폴로지로 결정하기 위해 참조 네트워크 아키텍처를 제공했습니다.
 
 3. 각 사무실의 인터넷 연결 사용률 및 MPLS WAN 대역폭을 분석하고 필요한 경우 대역폭 증가
 
@@ -105,7 +105,7 @@ Contoso 사용자가 Microsoft 365 Enterprise 서비스를 성공적으로 채�
 
 5. 내부 DNS 구성
 
-   DNS가 작동되어야 하며, Office 365 트래픽이 있는지 로컬로 조회되어야 합니다.
+   DNS가 작동해야 하고 Microsoft 365 트래픽 여부를 로컬에서 조회해야 합니다.
 
 6. 네트워크 끝점 및 포트 연결 유효성 검사
 

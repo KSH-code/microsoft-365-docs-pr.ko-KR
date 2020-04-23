@@ -1,7 +1,7 @@
 ---
 title: 형사법 (CJIS) 보안 정책
 description: Microsoft 정부 클라우드 서비스는 미국 범죄를 대상으로 하는 정보 서비스 보안 정책을 따릅니다.
-keywords: Microsoft 365, 규정 준수, 제안
+keywords: Microsoft 365, 규정 준수, 제품
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 4ef19b106d5b00bb8b436b56b6da8bb653873f3a
-ms.sourcegitcommit: d818828c66cf98b0b0037ba8b3cb790c940281b7
+ms.openlocfilehash: 02be641b93ffdb245ae6073358b66c1204e46093
+ms.sourcegitcommit: 4581afb3116ccd7d0144398e83cd6a6990e3683b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43583325"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43772519"
 ---
 # <a name="criminal-justice-information-services-cjis-security-policy"></a>형사법 (CJIS) 보안 정책
 
@@ -82,7 +82,6 @@ Microsoft는 CSA (CJIS Systems 에이전시)를 사용 하 여 정보 계약에 
 
 - [형사법 정보 서비스](https://aka.ms/cjis)
 - [CJIS 보안 정책](https://aka.ms/cjis-security-policy)
-- [CJIS 보안 정책 버전 5.3 backgrounder](https://aka.ms/cjis-backgrounder)
 - [Azure 정부에 대 한 CJIS 구현 지침](https://aka.ms/cjisimplementationguidelines)
 - [Microsoft 공통 컨트롤 허브 규정 준수 프레임 워크](https://www.microsoft.com/trustcenter/common-controls-hub)
 - [Microsoft Government 클라우드](https://go.microsoft.com/fwlink/?linkid=2087246)

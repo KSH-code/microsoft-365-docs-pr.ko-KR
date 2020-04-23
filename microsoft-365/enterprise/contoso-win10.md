@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 어떻게 Contoso에서 Microsoft Endpoint Configuration Manager를 사용하여 Windows 10 Enterprise의 현재 위치에서 업그레이드를 배포했는지를 이해합니다.
-ms.openlocfilehash: 5dc58a9090dd6976d7c521f7552181a10f22f5b2
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: c66be4ad5ee383301c4fb10cf2590f7cbbed033f
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42068012"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43630684"
 ---
 # <a name="windows-10-enterprise-deployment-for-contoso"></a>Contoso의 Windows 10 Enterprise 배포
 
@@ -91,7 +91,7 @@ Contoso의 현재 위치 업그레이드 및 지속적인 업데이트 배포 �
 
 ## <a name="next-step"></a>다음 단계
 
-Contoso가 해당 Configuration Manager 인프라를 활용하여 조직 내에서 최신 Office 365 ProPlus를 배포하고 유지하는 방법을 [알아봅니다](contoso-o365pp.md). 
+Contoso가 해당 구성 관리자 인프라를 활용하여 전사적으로 최신 Microsoft Office 365 ProPlus를 배포 및 유지하는 방법을 [알아봅니다](contoso-o365pp.md). 
 
 ## <a name="see-also"></a>참고 항목
 

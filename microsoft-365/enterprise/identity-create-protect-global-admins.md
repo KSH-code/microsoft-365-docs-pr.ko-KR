@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 전역 관리자 계정은 자격 증명의 노출로부터 안전하게 유지하기 위해 특별한 처리가 필요합니다.
-ms.openlocfilehash: 27b76671581ebd2dac32304752a85f8a6f60ac98
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: c23a5730bc4c6af1f7fd829a40b63cc7ccc89184
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42633576"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43621309"
 ---
 # <a name="step-1-create-and-protect-your-global-admin-accounts"></a>1단계: 전역 관리자 계정 생성 및 보호
 
@@ -41,7 +41,7 @@ ms.locfileid: "42633576"
 1. 테스트 사용자 계정을 사용자별 계정 또는 조건부 액세스 기반 Azure MFA(다단계 인증)를 테스트하여 MFA가 예상대로 올바르게 작동하는지 확인합니다. MFA는 스마트폰으로 보낸 인증 코드와 같은 보조 인증 형태를 필요로 합니다.
 2. MFA를 필요로 하고 조직에서 사용 가능한 가장 강력한 형태의 보조 인증 형식을 사용하는 전역 관리자 계정에 대한 조건부 액세스 정책을 만들고 활성화합니다. 자세한 내용은 [Azure 다단계 인증](identity-access-prerequisites.md#protecting-administrator-accounts)을 참조하세요.
 
-추가 보호에 대한 내용은 [Office 365 전역 관리자 계정 보호](https://docs.microsoft.com/office365/enterprise/protect-your-global-administrator-accounts#additional-protections-for-enterprise-organizations)를 참조하세요.
+추가 보호에 대한 내용은 [전역 관리자 계정 보호](https://docs.microsoft.com/office365/enterprise/protect-your-global-administrator-accounts#additional-protections-for-enterprise-organizations)를 참조하세요.
 
 > [!Note]
 > 사이버 공격과 같은 비상 시의 유리 파손 시나리오와 같은 비상 계정은 클라우드 전용 계정으로 만들어야 합니다. 또한 클라우드 전용이 아닌 전역 관리자 계정 (적격 또는 영구적)을 사용할 수도 있습니다. 자세한 내용은 [Azure AD에서 비상 액세스 관리 계정의 관리](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-emergency-access)를 참조하세요.
@@ -86,9 +86,9 @@ Azure AD 테넌트 및 관리자 계정에서 Azure PIM을 사용하도록 설�
 <a name="identity-pam"></a>
 ## <a name="privileged-access-management"></a>권한이 부여된 액세스 관리
 
-권한이 부여된 액세스 관리는 Office 365 테넌트의 태스크 기반 활동에 대해 JIT(Just-In-Time) 액세스를 지정하는 정책을 구성하여 적용됩니다. 이 기능은 중요한 데이터에 대한 대기 없는 액세스 권한 또는 중요한 구성 설정에 대한 액세스 권한이 부여된 기존 관리자 계정을 사용할 수 있는 보안 위반으로부터 조직을 보호하는 데 도움이 될 수 있습니다. 예를 들어, Office 365 테넌트의 조직 사서함 설정을 액세스 및 변경하기 위해 명시적 승인을 요구하는 권한이 부여된 액세스 관리 정책을 구성할 수 있습니다.
+권한이 부여된 액세스 관리는 테넌트의 태스크 기반 활동에 대해 JIT(Just-In-Time) 액세스를 지정하는 정책을 구성하여 적용됩니다. 이 기능은 중요한 데이터에 대한 대기 없는 액세스 권한 또는 중요한 구성 설정에 대한 액세스 권한이 부여된 기존 관리자 계정을 사용할 수 있는 보안 위반으로부터 조직을 보호하는 데 도움이 될 수 있습니다. 예를 들어, 테넌트의 조직 사서함 설정을 액세스 및 변경하기 위해 명시적 승인을 요구하는 권한이 부여된 액세스 관리 정책을 구성할 수 있습니다.
 
-이 단계에서는 Office 365 테넌트에서 액세스 권한이 부여된 액세스 관리를 사용하도록 설정하고, 조직의 Office 365 데이터 및 구성 설정에 대한 태스크 기반 액세스에 대해 추가 보안을 제공하는 권한이 부여된 액세스 정책을 구성합니다. Office 365 조직에서 권한이 부여된 액세스로 시작하려면 다음과 같은 3가지 기본 단계를 수행합니다.
+이 단계에서는 테넌트에서 액세스 권한이 부여된 액세스 관리를 사용하도록 설정하고, 조직의 데이터 및 구성 설정에 대한 태스크 기반 액세스에 대해 추가 보안을 제공하는 권한이 부여된 액세스 정책을 구성합니다. 조직에서 권한이 부여된 액세스로 시작하려면 다음과 같은 3가지 기본 단계를 수행합니다.
 
 - 승인자 그룹 만들기
 - 권한 있는 액세스 사용
@@ -96,9 +96,9 @@ Azure AD 테넌트 및 관리자 계정에서 Azure PIM을 사용하도록 설�
 
 일단 구성되고 나면, 권한이 부여된 액세스 관리는 대기 없는 관리 액세스 권한 때문에 조직이 대기 없는 권한으로 작업하고, 발생하는 취약성에 대한 보안 계층을 제공할 수 있도록 합니다. 권한이 부여된 액세스의 경우 연결된 승인 정책이 정의된 작업을 실행하려면 승인이 필요합니다. 승인 정책에 포함된 작업을 실행해야 하는 사용자는 정책에 정의된 작업을 실행하는 데 필요한 권한을 얻기 위해 액세스 승인을 요청하고 받아야 합니다.
 
-Office 365 권한이 부여된 액세스 관리를 사용하도록 설정하려면 [Office 365의 권한이 부여된 액세스 관리](https://docs.microsoft.com/office365/securitycompliance/privileged-access-management-configuration) 항목을 참조하세요.
+권한이 부여된 액세스 관리를 사용하도록 설정하려면 [권한이 부여된 액세스 관리 구성](https://docs.microsoft.com/office365/securitycompliance/privileged-access-management-configuration) 항목을 참조하세요.
 
-자세한 내용은 [Office 365의 권한이 부여된 액세스 관리](https://docs.microsoft.com/office365/securitycompliance/privileged-access-management-overview) 항목을 참조하세요.
+자세한 내용은 [권한이 부여된 액세스 관리](https://docs.microsoft.com/office365/securitycompliance/privileged-access-management-overview) 항목을 참조하세요.
 
 
 |||

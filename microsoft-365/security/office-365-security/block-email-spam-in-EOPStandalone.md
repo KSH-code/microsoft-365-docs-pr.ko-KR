@@ -18,20 +18,20 @@ ms.assetid: da21c0b6-e8f0-4cc8-af2e-5029a9433d59
 ms.collection:
 - M365-security-compliance
 description: 스팸 거짓 부정을 방지하는 데 도움이 되는 EOP 독립 실행형 관리자를 위한 문서
-ms.openlocfilehash: b3b4005016d8a4192241299cac50eddf59f332d5
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: 326c51f7f6730d510f411b5318b29e97b128c078
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42895420"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43630650"
 ---
-# <a name="customize-the-office-365-anti-spam-filter-with-these-settings"></a>다음 설정을 사용하여 Office 365 스팸 방지 필터 사용자 지정
+# <a name="customize-the-anti-spam-filter-with-these-settings"></a>다음 설정을 사용하여 스팸 방지 필터를 사용자 지정
 
-관리자는 몇 가지 Office 365 스팸 필터 설정을 사용하여 전자 메일 스팸이 사용자 받은 편지함으로 전송되지 않도록 할 수 있습니다. 여기에 나열된 옵션을 사용할 경우 Office 365 스팸 필터로 전자 메일 스팸을 보다 잘 차단하고 거짓 부정 메시지를 방지할 수 있습니다. 이 컨텍스트에서 거짓 부정이란 사용자 받은 편지함에 전송되는 전자 메일 스팸 또는 정크 메일 메시지를 나타냅니다.
+관리자는 몇 가지 스팸 필터 설정을 사용하여 전자 메일 스팸이 사용자의 받은 편지함으로 전송되지 않도록 할 수 있습니다. 여기에 나열된 옵션을 사용할 경우 스팸 필터로 전자 메일 스팸을 보다 잘 차단하고 거짓 부정 메시지를 방지할 수 있습니다. 이 컨텍스트에서 거짓 부정이란 사용자 받은 편지함에 전송되는 전자 메일 스팸 또는 정크 메일 메시지를 나타냅니다.
 
 ## <a name="block-ip-addresses-with-a-connection-filter"></a>연결 필터를 사용하여 IP 주소 차단
 
-연결 필터 IP 차단 목록에 보낸 사람의 IP 주소를 추가하여 Office 365 스팸 필터를 사용자 지정합니다.
+연결 필터 IP 차단 목록에 보낸 사람의 IP 주소를 추가하여 스팸 필터를 사용자 지정합니다.
 
 1. [Outlook에서 인터넷 메시지 헤더 보기](https://support.office.com/article/cd039382-dc6e-4264-ac74-c048563d212c)에 설명된 대로 Outlook 또는 웹용 Outlook(이전에 Outlook Web App으로 표현)과 같은 메일 클라이언트에서 차단하려는 메시지의 헤더를 가져옵니다.
 
@@ -41,7 +41,7 @@ ms.locfileid: "42895420"
 
 ### <a name="block-bulk-mail-with-mail-flow-rules-transport-rules-or-the-spam-filter"></a>메일 흐름 규칙(전송 규칙) 또는 스팸 필터를 사용하여 대량 메일 차단
 
-스팸이 회보나 프로모션과 같이 주로 대량 메일인가요? [메일 흐름 규칙을 사용하여 대량 전자 메일 필터링을 구성](use-transport-rules-to-configure-bulk-email-filtering.md)하거나 스팸 필터의 [Office 365 고급 스팸 필터링(ASF) 옵션](advanced-spam-filtering-asf-options.md)에서 **대량 메일** 설정을 켜도록 설정한 경우 Office 365에서 스팸 필터를 사용자 지정할 수 있습니다. Exchange 관리 센터에서 **보호** \> **콘텐츠 필터**를 클릭한 다음 조정하려는 필터 정책을 두 번 클릭하여 시작합니다. **스팸 및 대량 전자 메일 작업**을 클릭하여 다음과 같이 설정을 조정합니다.
+스팸이 회보나 프로모션과 같이 주로 대량 메일인가요? [메일 흐름 규칙을 사용하여 대량 전자 메일 필터링을 구성](use-transport-rules-to-configure-bulk-email-filtering.md)하거나 스팸 필터의 [고급 스팸 필터링(ASF) 옵션](advanced-spam-filtering-asf-options.md)에서 **대량 메일** 설정을 켜도록 설정한 경우 Office 365에서 스팸 필터를 사용자 지정할 수 있습니다. Exchange 관리 센터에서 **보호** \> **콘텐츠 필터**를 클릭한 다음 조정하려는 필터 정책을 두 번 클릭하여 시작합니다. **스팸 및 대량 전자 메일 작업**을 클릭하여 다음과 같이 설정을 조정합니다.
 
 ![Exchange Online의 대량 메일 필터 설정](../../media/a45095c2-269d-45b8-a76c-999b5e78da68.png)
 
@@ -49,9 +49,9 @@ ms.locfileid: "42895420"
 
 [Office 365의 스팸 방지 정책을 구성](configure-your-spam-filter-policies.md)하여 스팸 필터의 보낸 사람 차단 목록에 보낸 사람 주소를 추가하거나 도메인 차단 목록에 도메인을 추가합니다. 스팸 필터 차단 목록에 있는 보낸 사람 또는 도메인에서 보낸 전자 메일은 스팸으로 표시됩니다.
 
-## <a name="email-users-can-also-help-ensure-that-false-negative-and-email-spam-is-blocked-with-office-365-spam-filter"></a>전자 메일 사용자도 Office 365 스팸 필터로 거짓 부정 및 전자 메일 스팸이 차단되도록 할 수 있습니다.
+## <a name="email-users-can-also-help-ensure-that-false-negative-and-email-spam-is-blocked-with-spam-filter"></a>전자 메일 사용자도 스팸 필터로 거짓 부정 및 전자 메일 스팸이 차단되도록 할 수 있습니다.
 
-사용자에게 [Outlook](https://support.office.com/article/5ae3ea8e-cf41-4fa0-b02a-3b96e21de089) 또는 웹용 [Outlook](https://support.office.com/article/db786e79-54e2-40cc-904f-d89d57b7f41d)에서 차단된 보낸 사람 목록에 스팸 보낸 사람 주소를 추가하도록 할 경우 거짓 부정 및 정크 메일을 방지하려는 Office 365 스팸 방지 노력에 도움이 됩니다. 여기에 표시된 것처럼 먼저 웹용 Outlook에서 **설정** \> **옵션** \> **차단 또는 허용**을 클릭하고 **수신 거부** 목록에 해당 주소를 추가합니다.
+사용자에게 [Outlook](https://support.office.com/article/5ae3ea8e-cf41-4fa0-b02a-3b96e21de089) 또는 웹용 [Outlook](https://support.office.com/article/db786e79-54e2-40cc-904f-d89d57b7f41d)에서 차단된 보낸 사람 목록에 스팸을 보낸 사람 주소를 추가하도록 할 경우 거짓 부정 및 정크 메일을 방지하려는 스팸 방지 노력에 도움이 됩니다. 여기에 표시된 것처럼 먼저 웹용 Outlook에서 **설정** \> **옵션** \> **차단 또는 허용**을 클릭하고 **수신 거부** 목록에 해당 주소를 추가합니다.
 
 ![웹용 Outlook에서 보낸 사람 차단](../../media/fdf51381-2527-4819-ac2a-5dff84d2a36d.png)
 
@@ -87,4 +87,6 @@ EOP 서비스는 서비스에서 정보가 공유되는 경우 사용자의 수�
 
 ## <a name="see-also"></a>참고 항목
 
-[Office 365 이메일 스팸 방지 보호](anti-spam-protection.md)
+[Microsoft 전자 메일 스팸 방지 보호](anti-spam-protection.md)
+
+[수신 허용 목록 또는 기타 방법으로 스팸으로 표시된 거짓 부정 전자 메일 차단](prevent-email-from-being-marked-as-spam.md)
