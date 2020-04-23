@@ -19,12 +19,12 @@ ms.custom:
 - Ent_Solutions
 ms.assetid: 1e8e3cfd-b878-4088-b941-9940363a5fae
 description: 파일에 대한 다양한 정보 보호 수준에 맞게 Microsoft Teams를 사용하여 팀을 만들고 구성합니다.
-ms.openlocfilehash: 63a4b6763165f38e1de5331324e5a7b3573ea0f1
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: d8912900a02149d198222a4402e101b0dce53310
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42083349"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637643"
 ---
 # <a name="deploy-teams-for-three-tiers-of-protection-for-files"></a>파일의 3단계 보호를 위한 Teams 배포
 
@@ -32,7 +32,7 @@ ms.locfileid: "42083349"
 
 ## <a name="baseline-teams"></a>기준 팀
 
-초기 보호에는 공용 및 비공개 팀이 모두 포함됩니다. 공개 팀은 조직의 모든 사용자가 검색하고 액세스할 수 있습니다. 개인 사이트는 팀과 연결된 Office 365 그룹의 구성원만 검색하고 액세스할 수 있습니다. 이러한 유형의 팀은 모두 구성원이 다른 사용자와 사이트를 공유할 수 있습니다.
+초기 보호에는 공용 및 비공개 팀이 모두 포함됩니다. 공개 팀은 조직의 모든 사용자가 검색하고 액세스할 수 있습니다. 개인 사이트는 팀과 연결된 Microsoft 365 그룹의 구성원만 검색하고 액세스할 수 있습니다. 이러한 유형의 팀은 모두 구성원이 다른 사용자와 사이트를 공유할 수 있습니다.
 
 ### <a name="public"></a>공개
 

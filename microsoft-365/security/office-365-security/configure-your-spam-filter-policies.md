@@ -15,23 +15,23 @@ search.appverid:
 ms.assetid: 316544cb-db1d-4c25-a5b9-c73bbcf53047
 ms.collection:
 - M365-security-compliance
-description: 관리자는 Exchange Online 및 독립 실행형 Exchange Online Protection(EOP)에서 스팸 방지 정책을 만들고 수정하고 삭제하는 방법을 배울 수 있습니다.
-ms.openlocfilehash: e3d49fecf456fe7f615cc2877c7522632b8db7d7
-ms.sourcegitcommit: a955324e33097bbd2fc4ad7f2b8d1f3d87bc8580
+description: 기본 스팸 필터 설정에는 스팸으로 식별되는 메시지에 관해 수행할 작업 선택이 포함됩니다.
+ms.openlocfilehash: 027cea45159131ebe4718dfb2209d8be15f8e355
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 04/21/2020
-ms.locfileid: "43608189"
+ms.locfileid: "43637715"
 ---
-# <a name="configure-anti-spam-policies-in-office-365"></a>Office 365에서 스팸 방지 정책 구성하기
+# <a name="configure-anti-spam-policies"></a>스팸 방지 정책 구성
 
-Exchange Online 사서함이 있는 Office 365 고객 또는 Exchange online 사서함이 없는 독립 실행형 EOP(Exchange Online Protection) 고객인 경우, 인바운드 전자 메일 메시지가 EOP에서 자동으로 스팸으로부터 보호됩니다. EOP는 스팸에 대한 조직의 전반적인 방어책의 일부로 스팸 방지 정책(스팸 필터 정책 또는 콘텐츠 필터 정책)을 사용합니다. 자세한 내용은 [Office 365의 스팸 방지 보호](anti-spam-protection.md)를 참조하세요.
+Exchange Online 사서함이 있는 Microsoft 365 고객 또는 Exchange online 사서함이 없는 독립 실행형 EOP(Exchange Online Protection) 고객인 경우, 인바운드 전자 메일 메시지가 EOP에서 자동으로 스팸으로부터 보호됩니다. EOP는 스팸에 대한 조직의 전반적인 방어책의 일부로 스팸 방지 정책(스팸 필터 정책 또는 콘텐츠 필터 정책)을 사용합니다. 자세한 내용은 [스팸 방지 보호](anti-spam-protection.md)를 참조하세요.
 
 관리자는 기본 스팸 방지 정책을 보고, 편집하고, 구성할 수 있습니다. 세분성을 높이기 위해 사용자 지정 스팸 방지 정책을 만들어 조직의 특정 사용자, 그룹 또는 도메인에 적용할 수도 있습니다. 사용자 지정 정책은 항상 기본 정책보다 우선하지만, 사용자 지정 정책의 우선순위(실행 순서)를 변경할 수 있습니다.
 
-Office 365 보안 및 준수 센터 또는 PowerShell(Office 365 고객의 경우 Exchange Online PowerShell, 독립 실행형 EOP 고객의 경우 Exchange Online Protection PowerShell)에서 스팸 방지 정책을 구성할 수 있습니다.
+보안 및 준수 센터 또는 PowerShell(Microsoft 365 고객의 경우 Exchange Online PowerShell, 독립 실행형 EOP 고객의 경우 Exchange Online Protection PowerShell)에서 스팸 방지 정책을 구성할 수 있습니다.
 
-## <a name="anti-spam-policies-in-the-office-365-security--compliance-center-vs-exchange-online-powershell-or-exchange-online-protection-powershell"></a>Office 365 보안 및 준수 센터 대 Exchange Online PowerShell 또는 Exchange Online Protection PowerShell의 스팸 방지 정책
+## <a name="anti-spam-policies-in-the-security--compliance-center-vs-exchange-online-powershell-or-exchange-online-protection-powershell"></a>보안 및 준수 센터 대 Exchange Online PowerShell 또는 Exchange Online Protection PowerShell의 스팸 방지 정책
 
 EOP에서 스팸 방지 정책의 기본 요소는 다음과 같습니다.
 
@@ -73,9 +73,9 @@ Exchange Online PowerShell 또는 독립 실행형 Exchange Online Protection Po
 
 - Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결하기](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell)를 참조하세요. Exchange Online Protection PowerShell에 연결하려면 [Exchange Online Protection PowerShell에 연결하기](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell)를 참조하세요.
 
-- 이 절차를 수행하려면 먼저 사용 권한을 할당 받아야 합니다. 스팸 방지 정책을 추가, 수정 및 삭제하려면 **조직 관리** 또는 **보안 관리자** 역할 그룹의 구성원이어야 합니다. 스팸 방지 정책에 대한 읽기 전용 액세스를 위해서는 **보안 읽기 권한자** 역할 그룹의 구성원이어야 합니다. 보안 및 규정 준수 센터의 역할 그룹에 대한 자세한 내용은 [Office 365 보안 및 규정 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)을 참조하세요.
+- 이 절차를 수행하려면 먼저 사용 권한을 할당 받아야 합니다. 스팸 방지 정책을 추가, 수정 및 삭제하려면 **조직 관리** 또는 **보안 관리자** 역할 그룹의 구성원이어야 합니다. 스팸 방지 정책에 대한 읽기 전용 액세스를 위해서는 **보안 읽기 권한자** 역할 그룹의 구성원이어야 합니다. 보안 및 규정 준수 센터의 역할 그룹에 대한 자세한 내용은 [보안 및 규정 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)을 참조하세요.
 
-- 스팸 방지 정책에 대한 권장 설정은 [EOP 스팸 방지 정책 설정](recommended-settings-for-eop-and-office365-atp.md#eop-anti-spam-policy-settings)을 참조하세요.
+- 맬웨어 방지 정책에 대한 권장 설정은 [EOP 스팸 방지 정책 설정](recommended-settings-for-eop-and-office365-atp.md#eop-anti-spam-policy-settings)을 참조하세요.
 
 ## <a name="use-the-security--compliance-center-to-create-anti-spam-policies"></a>보안 및 준수 센터를 사용하여 스팸 방지 정책 만들기
 
@@ -280,7 +280,7 @@ Exchange Online PowerShell 또는 독립 실행형 Exchange Online Protection Po
 
 3. **정책 편집**을 클릭합니다.
 
-플라이아웃에서 표시되는 설정은 [보안 및 준수 센터를 사용하여 스팸 방지 정책 만들기](#use-the-security--compliance-center-to-create-anti-spam-policies)에서 사용할 수 있는 설정과 같습니다.
+사용자 지정 스팸 방지 정책의 경우, 플라이아웃에서 표시되는 사용 가능한 설정은 [보안 및 준수 센터를 사용하여 스팸 방지 정책 만들기](#use-the-security--compliance-center-to-create-anti-spam-policies)에서 설명한 것과 같습니다.
 
 **기본 스팸 필터 정책**이라는 기본 스팸 방지 정책의 경우, **적용 대상** 섹션을 사용할 수 없으며(이 정책은 모든 사용자에게 적용됨) 정책의 이름을 바꿀 수 없습니다.
 
@@ -465,7 +465,7 @@ Get-HostedContentFilterPolicy -Identity "Executives" | Format-List
 기존 스팸 필터 규칙을 보려면 다음 구문을 사용하세요.
 
 ```PowerShell
-Get-HostedContentFilterRule [-Identity "<RuleIdentity>"] [-State <Enabled | Disabled]
+Get-HostedContentFilterRule [-Identity "<RuleIdentity>] [-State <Enabled | Disabled]
 ```
 
 모든 스팸 필터 규칙의 요약 목록을 반환하려면 이 명령을 실행합니다.
@@ -500,9 +500,9 @@ Get-HostedContentFilterRule -Identity "Contoso Executives" | Format-List
 
 ### <a name="use-powershell-to-modify-spam-filter-policies"></a>PowerShell을 사용하여 스팸 필터 정책 수정하기
 
-다음과 같은 항목 외에 PowerShell에서 스팸 필터 정책을 수정할 때 이 항목 앞부분의 [1단계 : PowerShell을 사용하여 스팸 필터 정책 만들기](#step-1-use-powershell-to-create-a-spam-filter-policy) 섹션에 설명된 대로 정책을 만들 때 같은 설정을 사용할 수 있습니다.
+다음과 같은 항목 외에 PowerShell에서 맬웨어 필터 정책을 수정할 때 이 항목 앞부분의 [1단계 : PowerShell을 사용하여 스팸 필터 정책 만들기](#step-1-use-powershell-to-create-a-spam-filter-policy) 섹션에 설명된 대로 정책을 만들 때 같은 설정을 사용할 수 있습니다.
 
-- 지정된 정책을 기본 정책으로 바꾸는 _MakeDefault_ 스위치(모든 사용자에게 적용, 항상 우선순위가 **가장 낮으며** 삭제할 수 없음)는 PowerShell에서 스팸 필터 정책을 수정할 때만 사용할 수 있습니다.
+- 지정된 정책을 기본 정책으로 바꾸는 _MakeDefault_ 스위치(모든 사용자에게 적용, 항상 **가장 낮은** 우선순위이며 삭제할 수 없음)는 PowerShell에서 스팸 필터 정책을 수정할 때만 사용할 수 있습니다.
 
 - 스팸 필터 정책 이름을 바꿀 수 없습니다(**Set-HostedContentFilterPolicy** cmdlet에 _Name_ 매개 변수가 없음). 보안 및 준수 센터에서 스팸 방지 정책의 이름을 바꿀 경우 스팸 필터 _규칙_ 이름만 변경됩니다.
 

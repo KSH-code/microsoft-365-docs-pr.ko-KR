@@ -20,18 +20,18 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 65a6d687-a16a-4415-9fd5-011ba9c5fd80
 description: '요약: Microsoft 365 테스트 환경에 대한 페더레이션 인증을 구성합니다.'
-ms.openlocfilehash: 4796f8f2a7dc6757ccbcb3d608d72ad789d34e40
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: b0aa967570c3d12554cdb273a8b39b8931af1fbd
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42067636"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634101"
 ---
 # <a name="federated-identity-for-your-microsoft-365-test-environment"></a>Microsoft 365 테스트 환경에 대한 페더레이션 ID
 
-*이 Test Lab 가이드는 Microsoft 365 Enterprise와 Office 365 Enterprise 테스트 환경에서 모두 사용할 수 있습니다.*
+*이 테스트 랩 가이드는 Microsoft 365 Enterprise와 Office 365 Enterprise 테스트 환경 모두에서 사용할 수 있습니다.*
 
-Office 365은 페더레이션 ID를 지원합니다. 즉, 자격 증명 자체의 유효성 검사를 수행하는 대신, Office 365는 Office 365가 신뢰하는 페더레이션 인증 서버에 사용자를 연결하는 것을 의미합니다. 사용자의 자격 증명이 올바른 경우 페더레이션 인증 서버는 보안 토큰을 발급하며, 그런 후에 클라이언트는 인증의 증거로 해당 보안 토큰을 Office 365로 전송합니다. 페더레이션 ID를 사용하면 Office 365 구독과 고급 인증 및 보안 시나리오의 부하 부담을 줄이고 강화할 수 있습니다.
+Microsoft 365는 페더레이션 ID를 지원합니다. 즉, 자격 증명 자체의 유효성 검사를 수행하는 대신, Microsoft 365는 Microsoft 365가 신뢰하는 페더레이션 인증 서버에 사용자를 연결하는 것을 의미합니다. 사용자의 자격 증명이 올바른 경우 페더레이션 인증 서버는 보안 토큰을 발급하며, 그런 후에 클라이언트는 인증의 증거로 해당 보안 토큰을 Microsoft 365로 전송합니다. 페더레이션 ID를 사용하면 Microsoft 365 구독과 고급 인증 및 보안 시나리오의 부하 부담을 줄이고 강화할 수 있습니다.
   
 이 문서에서는 Microsoft 365 또는 Office 365 테스트 환경에 대한 페더레이션 인증을 구성하여 다음과 같은 결과를 얻는 방법을 설명합니다.
 
@@ -53,7 +53,7 @@ Office 365은 페더레이션 ID를 지원합니다. 즉, 자격 증명 자체�
     
 4. 자체 서명된 인증서를 만들고 ADFS1과 PROXY1을 구성합니다.
     
-5. 페더레이션 ID에 대해 Office 365를 구성합니다.
+5. 페더레이션 ID에 대해 Microsoft 365를 구성합니다.
     
 > [!NOTE]
 > Azure 평가판 구독으로는 이 테스트 환경을 구성할 수 없습니다. 
@@ -67,11 +67,11 @@ Office 365은 페더레이션 ID를 지원합니다. 즉, 자격 증명 자체�
 이 구성은 다음으로 이루어집니다. 
   
 - Microsoft 365 E5, Office 365 E5 평가판 또는 유료 구독
-- 인터넷에 연결된 간소화된 조직 인트라넷: Azure Virtual Network 서브넷에 있는 DC1, APP1 및 CLIENT1 가상 머신으로 구성됩니다. Azure AD Connect는 Test Lab AD DS 도메인을 Microsoft 365 및 Office 365 구독의 Azure AD 테넌트와 주기적으로 동기화하기 위해 APP1에서 실행됩니다.
+- 인터넷에 연결된 간소화된 조직 인트라넷: Azure Virtual Network 서브넷에 있는 DC1, APP1 및 CLIENT1 가상 머신으로 구성됩니다. Azure AD Connect는 TESTLAB AD DS 도메인을 Microsoft 365 구독의 Azure AD 테넌트와 주기적으로 동기화하기 위해 APP1에서 실행됩니다.
 
 ## <a name="phase-2-create-the-ad-fs-server"></a>2단계: AD FS 서버 만들기
 
-AD FS 서버는 Office 365와 DC1에 호스트된 corp.contoso.com 도메인의 계정 간에 페더레이션 인증을 제공합니다.
+AD FS 서버는 Microsoft 365와 DC1에 호스트된 corp.contoso.com 도메인의 계정 간에 페더레이션 인증을 제공합니다.
   
 ADFS1에 대한 Azure Virtual Machine을 만들려면 구독 및 리소스 그룹의 이름, 기본 구성에 대한 Azure 위치를 입력한 후 로컬 컴퓨터의 Azure PowerShell 명령 프롬프트에서 다음 명령을 실행합니다.
   
@@ -349,11 +349,11 @@ Install-WindowsFeature Web-Application-Proxy -IncludeManagementTools
 8. **결과** 페이지에서 **닫기**를 클릭합니다.
 
     
-## <a name="phase-5-configure-office-365-for-federated-identity"></a>5단계: 페더레이션 ID에 대해 Office 365 구성
+## <a name="phase-5-configure-microsoft-365-for-federated-identity"></a>5단계: 페더레이션 ID에 대해 Microsoft 365를 구성합니다.
 
 [Azure Portal](https://portal.azure.com)에서 CORP\\User1 계정 자격 증명을 사용하여 APP1 가상 머신에 연결합니다.
   
-다음 단계를 사용하여 페더레이션 인증을 위해 Azure AD Connect 및 Office 365 구독을 구성합니다.
+다음 단계를 사용하여 페더레이션 인증을 위해 Azure AD Connect 및 Microsoft 365 구독을 구성합니다.
   
 1. 데스크톱에서 **Azure AD Connect**를 두 번 클릭합니다.
     
@@ -361,7 +361,7 @@ Install-WindowsFeature Web-Application-Proxy -IncludeManagementTools
     
 3. **추가 작업** 페이지에서 **사용자 로그인 변경**을 클릭한 후 **다음**을 클릭합니다.
     
-4. **Azure AD에 연결** 페이지에서 Office 365 전역 관리자 계정 이름과 암호를 입력한 후 **다음**을 클릭합니다.
+4. **Azure AD에 연결** 페이지에서 전역 관리자 계정 이름과 암호를 입력한 후 **다음**을 클릭합니다.
     
 5. **사용자 로그인** 페이지에서 **AD FS로 페더레이션**을 클릭하고 **다음**을 클릭합니다.
     
@@ -373,7 +373,7 @@ Install-WindowsFeature Web-Application-Proxy -IncludeManagementTools
     
 9. **AD FS 서비스 계정** 페이지에서 **도메인 사용자 이름**에 **CORP\\ADFS-Service**를 입력하고 **도메인 사용자 암호**에 계정 암호를 입력한 후 **다음**을 클릭합니다.
     
-10. **Azure AD 도메인** 페이지의 **도메인**에서 이전에 1단계에서 만든 후 Office 365 구독에 추가했던 도메인의 이름을 선택하고 **다음**을 클릭합니다.
+10. **Azure AD 도메인** 페이지의 **도메인**에서 이전에 1단계에서 만든 후 구독에 추가했던 도메인의 이름을 선택하고 **다음**을 클릭합니다.
     
 11. **구성 준비 완료** 페이지에서 **구성**을 클릭합니다.
     
@@ -389,7 +389,7 @@ Install-WindowsFeature Web-Application-Proxy -IncludeManagementTools
     
 2. 로그인 자격 증명으로 **user1@**\<1단계에서 만든 도메인>을 입력합니다. 
     
-    예를 들어, 테스트 도메인이 **testlab.contoso.com**이면 user1@testlab.contoso.com을 입력합니다. Tab 키를 누르거나 Office 365에서 사용자를 자동으로 리디렉션 하도록 합니다.
+    예를 들어, 테스트 도메인이 **testlab.contoso.com**이면 user1@testlab.contoso.com을 입력합니다. Tab 키를 누르거나 Microsoft 365에서 사용자를 자동으로 리디렉션하도록 합니다.
     
     이제 **연결이 비공개가 아닙니다.** 페이지가 표시됩니다. 데스크톱 컴퓨터에서 유효한지 확인할 수 없는 자체 서명된 인증서를 ADFS1에 설치했으므로 이 메시지가 표시되는 것입니다. 페더레이션 인증의 프로덕션 배포에서 신뢰할 수 있는 인증 기관에서 발급한 인증서를 사용하면 사용자에게 이 페이지가 표시되지 않습니다.
     
@@ -403,9 +403,9 @@ Install-WindowsFeature Web-Application-Proxy -IncludeManagementTools
     
     **Microsoft Office 홈** 페이지가 표시됩니다.
     
-이 절차에서는 Office 365 평가판 구독이 DC1에 호스트된 AD DS corp.contoso.com 도메인과 페더레이션되는 방법을 보여줍니다. 다음은 인증 프로세스의 기본 사항입니다.
+이 절차에서는 평가판 구독이 DC1에 호스트된 AD DS corp.contoso.com 도메인과 페더레이션되는 방법을 보여줍니다. 다음은 인증 프로세스의 기본 사항입니다.
   
-1. 1단계에서 만든 페더레이션 도메인을 로그인 계정 이름 내에서 사용할 경우 Office 365는 페더레이션 서비스 FQDN 및 PROXY1으로 브라우저를 리디렉션합니다.
+1. 1단계에서 만든 페더레이션 도메인을 로그인 계정 이름 내에서 사용할 경우 Microsoft 365는 페더레이션 서비스 FQDN 및 PROXY1으로 브라우저를 리디렉션합니다.
     
 2. PROXY1은 가상의 회사 로그인 페이지를 로컬 컴퓨터로 보냅니다.
     
@@ -413,13 +413,13 @@ Install-WindowsFeature Web-Application-Proxy -IncludeManagementTools
     
 4. ADFS1은 DC1을 사용하여 CORP\\User1의 유효성을 검사하고 로컬 컴퓨터로 보안 토큰을 보냅니다.
     
-5. 로컬 컴퓨터가 Office 365로 보안 토큰을 전송합니다.
+5. 로컬 컴퓨터가 Microsoft 365로 보안 토큰을 전송합니다.
     
-6. Office 365는 보안 토큰이 ADFS1에서 생성되었는지 확인하고 액세스를 허용합니다.
+6. Microsoft 365는 보안 토큰이 ADFS1에서 생성되었는지 확인하고 액세스를 허용합니다.
     
-이제 Office 365 평가판 구독이 페더레이션 인증으로 구성됩니다. 고급 인증 시나리오에 대해 이 개발/테스트 환경을 사용할 수 있습니다.
+이제 평가판 구독이 페더레이션 인증으로 구성됩니다. 고급 인증 시나리오에 대해 이 개발/테스트 환경을 사용할 수 있습니다.
   
 ## <a name="next-step"></a>다음 단계
 
-Azure의 Microsoft 365 또는 Office 365에 대해 프로덕션에서 사용할 수 있는 고가용성 페더레이션 인증을 배포할 준비가 되면 [Azure에서 Office 365용 고가용성 페더레이션 인증 배포](https://docs.microsoft.com/office365/enterprise/deploy-high-availability-federated-authentication-for-office-365-in-azure)를 참조하세요.
+Azure의 Microsoft 365 또는 Office 365에 대해 프로덕션에서 사용할 수 있는 고가용성 페더레이션 인증을 배포할 준비가 되면 [Azure에서 Microsoft 365용 고가용성 페더레이션 인증 배포](https://docs.microsoft.com/office365/enterprise/deploy-high-availability-federated-authentication-for-office-365-in-azure)를 참조하세요.
   

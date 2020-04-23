@@ -12,12 +12,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 조직 전체에서 Microsoft Office, Office 서버 및 Windows 버전을 Microsoft 365 Enterprise로 마이그레이션하는 프로세스를 단계별로 안내합니다.
-ms.openlocfilehash: 9fd35e4595b19d5ddd3db0f64ea7dedf303d6818
-ms.sourcegitcommit: dbbdeca5a6cd048e1bde9e820a8b8a0d6022c7a2
+ms.openlocfilehash: 53d50321ffa2870fb0e94e9f6b7f005b8c666c2d
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "43504056"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631540"
 ---
 # <a name="migration-to-microsoft-365-enterprise"></a>Microsoft 365 Enterprise로 마이그레이션
 
@@ -25,7 +25,7 @@ ms.locfileid: "43504056"
 
 Microsoft 365 Enterprise 통합 제품군의 비즈니스 가치를 최대화하려면 다음 릴리스를 마이그레이션하기 위한 계획을 세우고 전략을 구현하세요.
 
-- 컴퓨터에 설치된 Office 클라이언트를 Office 365 ProPlus로
+- 컴퓨터에 설치된 Office 클라이언트를 엔터프라이즈용 Microsoft 365 앱으로
 - 서버에 설치된 Office 서버를 Office 365의 해당 서비스로
 - 장치의 Windows 7 및 Windows 8.1을 Windows 10 Enterprise로
 
@@ -49,7 +49,7 @@ Microsoft 365 Enterprise 통합 제품군의 비즈니스 가치를 최대화하
 - Microsoft의 클라우드 기술을 활용하여 비즈니스의 디지털 혁신을 이룰 수 있도록 최적화되지 않았습니다.
 - 새로운 기능이 포함되어 있지 않습니다.
  
-Microsoft 365 Enterprise에는 Microsoft 365 Enterprise 라이선스로 사용할 수 있고 Microsoft 클라우드에서 설치 및 업데이트되는 Office 클라이언트 제품 버전인 Office 365 ProPlus가 포함되어 있습니다.  Office 365 ProPlus에는 보안 업데이트와 최신 기능이 포함되어 있습니다. 자세한 내용은 [엔터프라이즈의 Office 365 ProPlus](https://docs.microsoft.com/deployoffice/about-office-365-proplus-in-the-enterprise)를 참조하세요.
+Microsoft 365 Enterprise에는 Microsoft 365 Enterprise 라이선스로 사용할 수 있고 Microsoft 클라우드에서 설치 및 업데이트되는 Office 클라이언트 제품 버전인 엔터프라이즈용 Microsoft 365 앱이 포함되어 있습니다. 엔터프라이즈용 Microsoft 365 앱에는 보안 업데이트와 최신 기능이 포함되어 있습니다. 자세한 내용은 [기업에서의 엔터프라이즈용 Microsoft 365 앱](https://docs.microsoft.com/deployoffice/about-office-365-proplus-in-the-enterprise)을 참조하세요.
 
 ### <a name="office-2007"></a>Office 2007
 
@@ -59,9 +59,9 @@ Office 2007을 실행하는 컴퓨터를 Office 2010, Office 2013 또는 Office 
 
 1. 사용자를 위한 Microsoft 365 라이선스 획득 및 할당
 2. 컴퓨터에서 Office 2007 제거
-3. 개별적으로 또는 IT 롤아웃 작업과 함께 Office 365 ProPlus 설치. 자세한 내용은 [4단계: Office 365 ProPlus](office365proplus-infrastructure.md)를 참조하세요.
+3. 개별적으로 또는 IT 출시와 함께 엔터프라이즈용 Microsoft 365 앱을 설치합니다. 자세한 내용은 [4단계: 엔터프라이즈용 Microsoft 365 앱](office365proplus-infrastructure.md)을 참조하세요.
 
-Office 365 ProPlus는 업데이트를 자동으로 설치하고 Office 365의 클라우드 기반 서비스를 활용하여 향상된 보안 및 생산성을 누릴 수 있습니다.
+엔터프라이즈용 Microsoft 365 앱은 업데이트를 자동으로 설치하고 클라우드 기반 서비스를 활용하여 향상된 보안 및 생산성을 누릴 수 있습니다.
 
 ### <a name="office-2010"></a>Office 2010
 
@@ -71,9 +71,9 @@ Office 2010을 실행하는 컴퓨터를 Office 2013 또는 Office 2016으로 �
 
 1. 사용자를 위한 Microsoft 365 라이선스 획득 및 할당
 2. 컴퓨터에서 Office 2010 제거
-3. 개별적으로 또는 IT 롤아웃 작업과 함께 Office 365 ProPlus 설치. 자세한 내용은 [4단계: Office 365 ProPlus](office365proplus-infrastructure.md)를 참조하세요.
+3. 개별적으로 또는 IT 출시와 함께 엔터프라이즈용 Microsoft 365 앱을 설치합니다. 자세한 내용은 [4단계: 엔터프라이즈용 Microsoft 365 앱](office365proplus-infrastructure.md)을 참조하세요.
 
-Office 365 ProPlus는 보안 및 새로운 기능 업데이트를 자동으로 설치하고 Microsoft 365의 클라우드 기반 서비스를 활용하여 향상된 보안 및 생산성을 누릴 수 있습니다.
+엔터프라이즈용 Microsoft 365 앱은 보안 및 새로운 기능 업데이트를 자동으로 설치하고 Microsoft 365의 클라우드 기반 서비스를 활용하여 향상된 보안 및 생산성을 누릴 수 있습니다.
 
 ### <a name="office-2013-and-office-2016"></a>Office 2013 및 Office 2016
 
@@ -83,9 +83,9 @@ Office 2013 또는 Office 2016용 최신 보안 업데이트로 컴퓨터를 계
 
 1. 사용자를 위한 Microsoft 365 라이선스 획득 및 할당
 2. 컴퓨터에서 Office 2013 또는 Office 2016을 제거합니다.
-3. 개별적으로 또는 IT 롤아웃 작업과 함께 Office 365 ProPlus 설치. 자세한 내용은 [4단계: Office 365 ProPlus](office365proplus-infrastructure.md)를 참조하세요.
+3. 개별적으로 또는 IT 출시와 함께 엔터프라이즈용 Microsoft 365 앱을 설치합니다. 자세한 내용은 [4단계: 엔터프라이즈용 Microsoft 365 앱](office365proplus-infrastructure.md)을 참조하세요.
 
-Office 365 ProPlus는 보안 및 새로운 기능 업데이트를 자동으로 설치하고 Microsoft 365의 클라우드 기반 서비스를 활용하여 향상된 보안 및 생산성을 누릴 수 있습니다.
+엔터프라이즈용 Microsoft 365 앱은 보안 및 새로운 기능 업데이트를 자동으로 설치하고 Microsoft 365의 클라우드 기반 서비스를 활용하여 향상된 보안 및 생산성을 누릴 수 있습니다.
 
 ## <a name="migration-for-microsoft-office-server-products"></a>Microsoft Office 서버 제품에 대한 마이그레이션
 
@@ -162,7 +162,7 @@ Microsoft 365 Enterprise에서 기본적으로 사용되는 경로와 결과 목
 
 다음 리소스를 사용하여 Microsoft의 IT 전문가가 회사를 Microsoft 365 Enterprise로 마이그레이션한 방법을 알아보세요. 
 
-- [Microsoft Office 365 ProPlus 배포 및 업데이트](https://www.microsoft.com/itshowcase/Article/Content/757/Deploying-and-updating-Microsoft-Office-365-ProPlus)
+- [엔터프라이즈용 Microsoft 365 앱 배포 및 업데이트](https://www.microsoft.com/itshowcase/Article/Content/757/Deploying-and-updating-Microsoft-Office-365-ProPlus)
 - [Microsoft에서 150,000개의 사서함을 Exchange Online으로 마이그레이션](https://www.microsoft.com/itshowcase/Article/Content/577/Microsoft-migrates-150000-mailboxes-to-Exchange-Online)
 - [SharePoint를 클라우드로: Microsoft가 자체 마이그레이션을 수행한 방법 알아보기](https://www.microsoft.com/itshowcase/Article/Content/691/SharePoint-to-the-cloud-Learn-how-Microsoft-ran-its-own-migration)
 - [Microsoft의 Windows 10dmf 현재 위치 업그레이드 방식으로 배포](https://www.microsoft.com/itshowcase/Article/Content/668/Deploying-Windows-10-at-Microsoft-as-an-inplace-upgrade)

@@ -3,7 +3,7 @@ ID 인프라 관련 추가 권장 사항에 대해서는 [필수 구성 요소](
 <a name="crit-identity-global-admin"></a>
 ### <a name="required-your-global-administrator-accounts-are-protected"></a>필수: 전역 관리자 계정 보호 
 
-Microsoft 365 구독을 위반할 수 있는 공격자의 자격 증명 손상을 방지하기 위해 [Office 365 전역 관리자 계정을 보호](https://docs.microsoft.com/office365/enterprise/protect-your-global-administrator-accounts)해야 합니다.
+Microsoft 365 구독을 위반할 수 있는 공격자의 자격 증명 손상을 방지하기 위해 [전역 관리자 계정을 보호](https://docs.microsoft.com/office365/enterprise/protect-your-global-administrator-accounts)해야 합니다.
 
 이 요구 사항을 건너뛰면 전역 관리자 계정이 공격 받고 손상되기 쉽기 때문에 공격자가 시스템 전체 액세스 권한을 얻어 데이터를 수집 또는 삭제하거나 금품을 요구하기 위해 보유할 수 있습니다.
 
@@ -17,7 +17,7 @@ Microsoft 365 구독을 위반할 수 있는 공격자의 자격 증명 손상�
    ```powershell
    Get-AzureADDirectoryRole | where { $_.DisplayName -eq "Company Administrator" } | Get-AzureADDirectoryRoleMember | Ft DisplayName
    ```
-2. 1단계의 각 계정을 사용하여 Office 365에 로그인 합니다. 로그인할 때마다 Azure 다단계 인증 및 조직에서 사용 가능한 가장 강력한 형태의 보조 인증을 요구해야 합니다.
+2. 1단계의 각 계정을 사용하여 로그인합니다. 로그인할 때마다 Azure 다단계 인증 및 조직에서 사용 가능한 가장 강력한 형태의 보조 인증을 요구해야 합니다.
 
 > [!Note]
 > 그래프 모듈용 Azure Active Directory PowerShell 설치 및 Office 365 로그인에 대한 지침은 [Office 365 PowerShell에 연결](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell)을 참조하세요.
@@ -66,11 +66,11 @@ Microsoft 365 구독을 위반할 수 있는 공격자의 자격 증명 손상�
 필요한 경우 [2단계](../identity-secure-your-passwords.md#identity-sso)를 통해 이 옵션을 충족할 수 있습니다.
 
 <a name="crit-identity-custom-sign-in"></a>
-### <a name="optional-the-office-365-sign-in-screen-is-personalized-for-your-organization"></a>선택: Office 365 로그인 화면을 조직에 맞게 개인 설
+### <a name="optional-the-sign-in-screen-is-personalized-for-your-organization"></a>선택: 로그인 화면을 조직에 맞게 개인 설정
 
-[로그인 및 액세스 패널 페이지에 회사 브랜딩을 추가](https://aka.ms/aadpaddbranding)하여 Office 365 로그인 페이지를 조직의 브랜딩을 추가해야 합니다.
+[로그인 및 액세스 패널 페이지에 회사 브랜딩을 추가](https://aka.ms/aadpaddbranding)하여 로그인 페이지를 조직의 브랜딩을 추가해야 합니다.
 
-이 옵션을 건너뛰면 사용자에게 일반 Office 365 로그인 화면이 표시되므로 조직의 사이트에 로그인 중인지 확신하지 못할 수 있습니다.
+이 옵션을 건너뛰면 사용자에게 일반 로그인 화면이 표시되므로 조직의 사이트에 로그인 중인지 확신하지 못할 수 있습니다.
 
 필요한 경우 [2단계](../identity-secure-your-passwords.md#identity-custom-sign-in)를 통해 이 옵션을 충족할 수 있습니다.
 
@@ -183,7 +183,7 @@ Office 365에서 암호를 변경하여 암호 쓰기 저장을 테스트합니�
 
 
 <a name="crit-identity-self-service-groups"></a>
-### <a name="optional-self-service-group-management-is-enabled-for-specific-azure-ad-security-and-office-365-groups"></a>선택: 특정 Azure AD 보안 및 Office 365 그룹에 대해 셀프 서비스 관리 사용
+### <a name="optional-self-service-group-management-is-enabled-for-specific-azure-ad-security-and-microsoft-365-groups"></a>선택: 특정 Azure AD 보안 및 Microsoft 365 그룹에 대해 셀프 서비스 관리 사용
 
 그룹이 셀프 서비스 관리에 적합한지 확인하고, 해당 소유자에게 그룹 관리 워크플로 및 책임을 알리고, 그룹에 대해 [Azure AD에서 셀프 서비스 관리를 설정](https://docs.microsoft.com/azure/active-directory/active-directory-accessmanagement-self-service-group-management)해야 합니다.
 

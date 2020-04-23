@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 구성이 네트워킹 인프라에 대한 Microsoft 365 Enterprise 조건을 충족하는지 확인합니다.
-ms.openlocfilehash: 1ace68fd19c62e4dc389604c1b0c02ddc18b52dc
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: 6d9133fa6f3c993efe88ea53b412b9a272c1b98b
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42633206"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631492"
 ---
 # <a name="phase-1-networking-infrastructure-exit-criteria"></a>1단계: 네트워킹 인프라 종료 조건
 
@@ -32,7 +32,7 @@ ms.locfileid: "42633206"
 ## <a name="required-your-network-is-ready-for-microsoft-365-enterprise"></a>필수 사항: 네트워크에서 Microsoft 365 Enterprise 사용 준비 완료
 
 - 사무실에 Office 365, Microsoft Intune, Windows 10 Enterprise 설치 및 업데이트를 포함하여 Microsoft 365 트래픽에 적합한 인터넷 대역폭이 있습니다.
-- 전체 네트워크가 [Office 365 참조 아키텍처](https://docs.microsoft.com/office365/enterprise/office-365-network-connectivity-principles#BKMK_P2)에 매핑됩니다.
+- 전체 네트워크가 [Microsoft 365 참조 아키텍처](https://docs.microsoft.com/office365/enterprise/office-365-network-connectivity-principles#BKMK_P2)에 매핑됩니다.
 - 네트워크 변경 사항이 시험 및 테스트되었으며 트래픽 대기 시간 요구 사항을 충족합니다.
 
 필요한 경우 [1단계](networking-provide-bandwidth-cloud-services.md)를 통해 이 요구 사항을 충족할 수 있습니다.
@@ -73,7 +73,7 @@ Microsoft 365 DNS 도메인 이름으로의 트래픽이 프록시 서버를 무
 
 
 <a name="crit-networking-step5"></a>
-## <a name="optional-your-clients-and-office-365-applications-are-configured-for-optimal-performance"></a>선택: 최적 성능을 위해 클라이언트 및 Office 365 응용 프로그램 구성
+## <a name="optional-your-clients-and-microsoft-365-applications-are-configured-for-optimal-performance"></a>선택 사항: 클라이언트와 Microsoft 365 응용 프로그램이 최적의 성능을 발휘하도록 구성됨
 
 Exchange Online, 비즈니스용 Skype Online, SharePoint Online 및 Project Online 서비스에 대해 클라이언트 장치에서 TCP(전송 제어 프로토콜) 설정을 최적화해야 합니다.
 

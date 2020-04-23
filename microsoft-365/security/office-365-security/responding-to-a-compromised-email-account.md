@@ -1,5 +1,5 @@
 ---
-title: Office 365에서 손상된 이메일 계정에 응답
+title: 손상된 전자 메일 계정에 응답
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -15,26 +15,26 @@ ms.service: O365-seccomp
 localization_priority: Priority
 search.appverid:
 - MET150
-description: Office 365에서 손상된 전자 메일 계정을 인식하고 응답하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: b19d48046834e3f1387490774babb40dcbd92acc
-ms.sourcegitcommit: 9224a7a5886c0c5fa0bc12bd9f7234a0eba90023
+description: Microsoft 365에서 손상된 전자 메일 계정을 인식하고 응답하는 방법에 대해 알아보기
+ms.openlocfilehash: 65e3827b578eec2f851c45d9acc69fb7132d01b8
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/02/2020
-ms.locfileid: "42372486"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634343"
 ---
-# <a name="responding-to-a-compromised-email-account-in-office-365"></a>Office 365에서 손상된 이메일 계정에 응답
+# <a name="responding-to-a-compromised-email-account"></a>손상된 전자 메일 계정에 응답
 
-**요약** Office 365에서 손상된 전자 메일 계정을 인식하고 응답하는 방법에 대해 알아봅니다.
+**요약** Microsoft 365에서 손상된 전자 메일 계정을 인식하고 응답하는 방법에 대해 알아봅니다.
 
-## <a name="what-is-a-compromised-email-account-in-office-365"></a>Office 365에서 손상된 이메일 계정이란?
+## <a name="what-is-a-compromised-email-account-in-microsoft-365"></a>Microsoft 365에서 손상된 전자 메일 계정이란?
 
-Office 365 사서함, 데이터 및 기타 서비스에 대한 액세스는 자격 증명 (예 : 사용자 이름 및 암호 또는 PIN)을 사용하여 제어됩니다. 의도된 사용자가 아닌 사용자가 해당 자격 증명을 도용하면 도난된 자격 증명이 손상된 것으로 간주됩니다. 도난된 자격 증명으로 공격자는 원래 사용자로 로그인하여 불법적인 행동을 수행할 수 있습니다.
-도난된 자격 증명을 사용하여 공격자는 사용자의 Office 365 사서함, SharePoint 폴더 또는 사용자의 OneDrive에있는 파일에 액세스할 수 있습니다. 흔히 볼 수 있는 한 가지 조치는 침입자가 전자 메일을 원래 사용자로 보내 조직 내부와 외부의 받는 사람에게 보내는 것입니다. 공격자가 외부 수신자에게 데이터를 메일로 보낼 때 이것을 데이터 유출이라고 합니다.
+Microsoft 365 사서함, 데이터 및 기타 서비스에 대한 액세스는 자격 증명(예: 사용자 이름, 암호, PIN)을 사용하여 제어됩니다. 의도된 사용자가 아닌 사용자가 해당 자격 증명을 도용하면 도난된 자격 증명이 손상된 것으로 간주됩니다. 도난된 자격 증명으로 공격자는 원래 사용자로 로그인하여 불법적인 행동을 수행할 수 있습니다.
+공격자는 도난된 자격 증명을 사용하여 사용자의 Microsoft 365 사서함, SharePoint 폴더 또는 사용자의 OneDrive에 있는 파일에 액세스할 수 있습니다. 흔히 볼 수 있는 한 가지 조치는 침입자가 전자 메일을 원래 사용자로 보내 조직 내부와 외부의 받는 사람에게 보내는 것입니다. 공격자가 외부 수신자에게 데이터를 메일로 보낼 때 이것을 데이터 유출이라고 합니다.
 
-## <a name="symptoms-of-a-compromised-office-365-email-account"></a>손상된 Office 365 전자 메일 계정의 증상
+## <a name="symptoms-of-a-compromised-microsoft-email-account"></a>손상된 Microsoft 전자 메일 계정의 증상
 
-사용자는 Office 365 사서함에서 비정상적인 활동을 알아차리고 보고할 수 있습니다. 몇 가지 일반적인 증상은 다음과 같습니다.
+사용자는 Microsoft 365 사서함에서 비정상적인 활동을 알아차리고 보고할 수 있습니다. 몇 가지 일반적인 증상은 다음과 같습니다.
 
 - 이메일 누락 또는 삭제와 같은 의심스러운 활동
 
@@ -58,9 +58,9 @@ Office 365 사서함, 데이터 및 기타 서비스에 대한 액세스는 자�
 
 사용자가 위의 증상 중 하나를 보고하면 추가 조사를 수행해야 합니다. Microsoft 365 보안 및 규정 준수 센터 및 Azure 포털은 손상되었을 가능성이 있는 것으로 의심되는 사용자 계정의 활동을 조사하는 데 유용한 도구를 제공합니다.
 
-- **보안 및 규정 준수 센터의 Office 365 통합 감사 로그**: 의심스러운 활동이 발생한 직전부터 현재 날짜까지의 기간에 대한 결과를 필터링하여 의심되는 계정에 대한 모든 활동을 검토합니다. 검색 중에 활동을 필터링하지 마세요.
+- **보안 및 규정 준수 센터의 통합 감사 로그**: 의심스러운 활동이 발생한 직전부터 현재 날짜까지의 기간에 대한 결과를 필터링하여 의심되는 계정에 대한 모든 활동을 검토합니다. 검색 중에 활동을 필터링하지 마세요.
 
-- **EAC에서의 Office 365 관리자 감사 로그**: Exchange Online에서 Exchange 관리 센터(EAC)를 사용하여 관리자 감사 로그 항목을 검색하고 볼 수 있습니다. 관리자 감사 로그에는 관리 권한이 할당된 관리자와 사용자가 수행하는 특정 작업이 Exchange PowerShell cmdlet을 기준으로 기록됩니다. 관리자 감사 로그의 항목은 실행된 cmdlet, 사용된 매개 변수, cmdlet을 실행한 사용자 및 영향을 받은 개체에 대한 정보를 제공합니다.
+- **EAC에서의 관리자 감사 로그**: Exchange Online에서 Exchange 관리 센터(EAC)를 사용하여 관리자 감사 로그 항목을 검색하고 볼 수 있습니다. 관리자 감사 로그에는 관리 권한이 할당된 관리자와 사용자가 수행하는 특정 작업이 Exchange PowerShell cmdlet을 기준으로 기록됩니다. 관리자 감사 로그의 항목은 실행된 cmdlet, 사용된 매개 변수, cmdlet을 실행한 사용자 및 영향을 받은 개체에 대한 정보를 제공합니다.
 
 - **Azure AD 포털의 Azure AD 로그인 로그 및 기타 위험 보고서**: 다음 열의 값을 검사합니다.
 
@@ -72,7 +72,7 @@ Office 365 사서함, 데이터 및 기타 서비스에 대한 액세스는 자�
 
   - 로그인 성공 또는 실패
 
-## <a name="how-to-secure-and-restore-email-function-to-a-suspected-compromised-office-365-account-and-mailbox"></a>손상된 Office 365 계정 및 사서함으로 의심되는 메일 기능을 보안하고 복원하는 방법
+## <a name="how-to-secure-and-restore-email-function-to-a-suspected-compromised-microsoft-365-account-and-mailbox"></a>손상된 Microsoft 365 계정 및 사서함으로 의심되는 전자 메일 기능을 보호하고 복원하는 방법
 
 > [!VIDEO https://videoplayercdn.osi.office.net/hub/?csid=ux-cms-en-us-msoffice&uuid=RE2jvOb&AutoPlayVideo=false]
 
@@ -85,15 +85,15 @@ Office 365 사서함, 데이터 및 기타 서비스에 대한 액세스는 자�
 > [!WARNING]
 > 이 시점에서 공격자가 여전히 사서함에 액세스할 수 있으므로 메일을 통해 의도한 사용자에게 새 암호를 보내지 않습니다.
 
-1. [Office 365 비즈니스 암호 다시 설정](https://docs.microsoft.com/office365/admin/add-users/reset-passwords)에서 다른 사용자의 Office 365 비즈니스 암호 다시 설정 절차를 수행하세요.
+1. 비즈니스용 Microsoft 365 앱 암호 재설정에 대해 다른 사람의 [비즈니스용 Microsoft 365 앱 암호 재설정](https://docs.microsoft.com/office365/admin/add-users/reset-passwords) 절차 따르기
 
-**참고**:
+**참고:**
 
 - 암호가 강하고 대문자, 소문자, 숫자 하나 이상 및 특수 문자가 하나 이상 포함되어 있는지 확인합니다.
 
 - 지난 마지막 5개의 암호를 다시 사용하지 않습니다. 암호 기록 요구 사항을 통해 최근 암호를 다시 사용할 수는 있지만 공격자가 추측할 수 없는 암호를 선택해야 합니다.
 
-- 온 - 프레미스 ID가 Office 365와 페더레이션된 경우 온 - 프레미스 암호를 변경해야 하며 관리자에게 손상 사실을 알려야 합니다.
+- 온-프레미스 ID가 Microsoft 365와 페더레이션된 경우 온-프레미스 암호를 변경해야 하며 관리자에게 손상 사실을 알려야 합니다.
 
 > [!TIP]
 > 특히 관리자 권한이있는 계정의 경우에는 손상 방지를 위해 MFA(다중 요소 인증)를 사용하는 것이 좋습니다.  MFA에 대 한 자세한 내용은[여기](https://docs.microsoft.com/office365/admin/security-and-compliance/set-up-multi-factor-authentication)에서 확인할 수 있습니다.
@@ -178,13 +178,13 @@ Office 365 사서함, 데이터 및 기타 서비스에 대한 액세스는 자�
 
 1. 보낸된 항목을 확인합니다. 연락처 목록에 있는 사람들에게 계정이 손상되었다는 사실을 알려야할 수도 있습니다. 공격자가 돈을 요구했을 수 있습니다. 예를 들어, 다른 국가에 묶여 돈이 필요하거나, 공격자가 컴퓨터를 도용하기 위해 바이러스를 보낼 수 있습니다.
 
-2. 이 Exchange 계정을 대체 메일 계정으로 사용한 다른 서비스가 손상되었을 수 있습니다. 먼저 Office 365 구독에 대해 이러한 단계를 수행한 다음 다른 계정에 대해이 단계를 수행합니다.
+2. 이 Exchange 계정을 대체 메일 계정으로 사용한 다른 서비스가 손상되었을 수 있습니다. 먼저 Microsoft 365 구독에 대해 이러한 단계를 수행한 다음 다른 계정에 대해 이 단계를 수행합니다.
 
 3. 전화번호 및 주소와 같은 연락처 정보가 정확한지 확인합니다.
 
-## <a name="secure-office-365-like-a-cybersecurity-pro"></a>사이버 보안 전문가와 같은 Office 365 보안
+## <a name="secure-microsoft-365-like-a-cybersecurity-pro"></a>사이버 보안 프로그램과 같은 Microsoft 365 보안
 
-Office 365 구독에는 데이터 및 사용자를 보호하는 데 사용할 수있는 강력한 보안 기능이 함께 제공됩니다.  [Office 365 보안 로드맵: - 최초 30일, 90일 및 그 이후의 최우선 순위](security-roadmap.md)를 사용하여 Microsoft에서 권장하는 Office 365 테넌트 보안을 구현합니다.
+Microsoft 365 구독에는 데이터 및 사용자를 보호하는 데 사용할 수 있는 강력한 보안 기능이 함께 제공됩니다.  [Microsoft 365 보안 로드맵 - 최초 30일, 90일 및 그 이후의 최우선 순위](security-roadmap.md)를 사용하여 Microsoft에서 권장하는 Microsoft 365 테넌트 보안을 구현합니다.
 
 - 처음 30일 이내에 수행 할 작업  이러한 작업들은 즉각적인 영향을 미치며 사용자에게 영향을 미치지 않습니다.
 
@@ -194,7 +194,7 @@ Office 365 구독에는 데이터 및 사용자를 보호하는 데 사용할 �
 
 ## <a name="see-also"></a>참고 항목
 
-- [Office 365에서 Outlook 규칙 및 사용자 지정 양식 주입 공격 감지 및 재구성](detect-and-remediate-outlook-rules-forms-attack.md)
+- [Microsoft 365에서 Outlook 규칙 및 사용자 지정 양식 주입 공격 감지 및 재구성](detect-and-remediate-outlook-rules-forms-attack.md)
 
 - [인터넷 범죄 불만 센터](https://www.ic3.gov/preventiontips.aspx)
 

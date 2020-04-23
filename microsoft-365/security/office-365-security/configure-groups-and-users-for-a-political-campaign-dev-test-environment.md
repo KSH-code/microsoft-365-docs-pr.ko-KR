@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 0e22bcf3-bad3-42a4-b44f-276e0cf4790f
 description: '요약: 정치적 캠페인 개발/테스트 환경의 사용자 및 그룹을 사용하여 Office 365 및 EMS(Enterprise Mobility + Security) 평가판 구독을 만듭니다.'
-ms.openlocfilehash: a61cc21b67cafd213d47076698929d0aa2644d08
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: f07ccbb648ef20c6b7c6ef005afef59fd89d56aa
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42083487"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43638461"
 ---
 # <a name="configure-groups-and-users-for-a-political-campaign-devtest-environment"></a>정치적 캠페인 개발/테스트 환경에 대해 그룹 및 사용자 구성
 
@@ -36,9 +36,9 @@ ms.locfileid: "42083487"
 
 먼저 [Office 365 개발/테스트 환경](https://docs.microsoft.com/office365/enterprise/office-365-dev-test-environment)의 **2단계**에 있는 지침을 따릅니다.
 
-다음으로, EMS E5 평가판 구독을 등록하고 Office 365 평가판 구독과 동일한 조직에 추가합니다.
+다음으로, EMS E5 평가판 구독을 등록하고 평가판 구독과 동일한 조직에 추가합니다.
 
-1. 필요한 경우 평가판 구독의 전역 관리자 계정 자격 증명으로 관리 센터에 로그인합니다. 도움을 받으려면 [Office 365에 로그인하는 위치](https://support.office.com/article/e9eb7d51-5430-4929-91ab-6157c5a050b4)를 참조하세요.
+1. 필요한 경우 평가판 구독의 전역 관리자 계정 자격 증명으로 관리 센터에 로그인합니다. 도움을 받으려면 [로그인하는 위치](https://support.office.com/article/e9eb7d51-5430-4929-91ab-6157c5a050b4)를 참조하십시오.
 
 2. **관리** 타일을 클릭합니다.
 
@@ -192,7 +192,7 @@ foreach ($element in $userNames){ New-AzureADUser -DisplayName $element -Passwor
 
   예를 들어 평가판 구독 도메인 이름 contoso.onmicrosoft.com의 경우 조직 이름은 "contoso"입니다.
 
-- Office 365 전역 관리자 이름: ![Underline](../../media/Common-Images/TableLine.png).onmicrosoft.com
+- 전역 관리자 이름: ![Underline](../../media/Common-Images/TableLine.png).onmicrosoft.com
 
   이 계정에 대한 암호와 다른 사용자 계정에 대한 일반적인 초기 암호를 안전한 위치에 기록해둡니다.
 

@@ -10,12 +10,12 @@ ms.collection: SPO_Content
 localization_priority: Priority
 f1.keywords: NOCSH
 description: 파일을 조직 외부의 사람들과 공유할 때 실수로 발생하는 정보 노출을 제한하는 방법을 알아보세요.
-ms.openlocfilehash: a84c5183ba3a816cf4d65f854f0143a48374f669
-ms.sourcegitcommit: 21338a9287017a66298e0ff557e80051946ebf13
+ms.openlocfilehash: fbe97eef2841da9bd46d7f05e3b26dea40cd1bd2
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "42604566"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632586"
 ---
 # <a name="limit-accidental-exposure-to-files-when-sharing-with-people-outside-your-organization"></a>파일을 조직 외부의 사람들과 공유할 때 실수로 발생하는 정보 노출을 제한
 
@@ -79,7 +79,7 @@ SharePoint 및 OneDrive 보다 상위 수준에서 도메인 별로 공유를 �
 3. **조직 외부에서 공유할 수 있는 사용자**에서 하나 또는 두 개의 확인란을 선택합니다: a. 인증된 사용자들과 공유할 수 있는 보안 그룹을 지정하기 위해 **선택된 보안 그룹에 있는 사용자들만 인증된 외부 사용자들과 공유하도록 합니다**b. Anyone 링크를 사용하여 인증된 사용자들과 공유할 수 있는 보안 그룹을 지정하기 위해 **선택된 보안 그룹에 있는 사용자들만 익명의 링크를 사용하여 인증된 외부 사용자들과 공유하도록 합니다**
 4. **확인**을 클릭합니다.
 
-이는 파일, 폴더, 사이트에 영향을 주지만 Office 365 그룹 또는 팀은 영향을 받지 않습니다. 구성원이 게스트를 비공개 Office 365 그룹 또는 Microsoft 팀의 비공개 팀에 초청 시 초청장이 그룹 또는 팀 소유자에게 승인을 받기 위해 전달됩니다.
+이는 파일, 폴더, 사이트에 영향을 주지만 Microsoft 365 그룹 또는 Teams는 영향을 받지 않습니다. 구성원이 게스트를 비공개 Microsoft 365 그룹 또는 Microsoft 팀의 비공개 팀에 초청 시 초청장이 그룹 또는 팀 소유자에게 승인을 받기 위해 전달됩니다.
 
 ## <a name="see-also"></a>참고 항목
 

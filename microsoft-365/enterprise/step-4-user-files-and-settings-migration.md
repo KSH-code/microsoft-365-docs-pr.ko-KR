@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 사용자의 파일 및 설정을 마이그레이션하는 방법을 알아봅니다.
-ms.openlocfilehash: f17b11efe889359f97087ac5d96ffa968ca8cd88
-ms.sourcegitcommit: 9ca28ae8f7804eb488cf76ca4b09fe88787e0a49
+ms.openlocfilehash: 7904c9035ac87424f361e9ff4d6fb20596e335de
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43113544"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636787"
 ---
 # <a name="step-4-user-files-and-settings-migration"></a>4단계: 사용자 파일 및 설정
 
@@ -38,7 +38,7 @@ ms.locfileid: "43113544"
 </table>
 
 >[!NOTE]
->이전에 사용했던 마이그레이션 프로세스를 계속 사용할 수 있지만 Office 365 ProPlus로 전환되면서, OneDrive의 ‘알려진 폴더 이동'(아래 참조)을 사용할 것을 권장합니다. 전체 데스크톱 배포 프로세스를 보려면 [데스크톱 배포 센터](https://aka.ms/HowToShift)를 방문하세요.
+>이전에 사용했던 마이그레이션 프로세스를 계속 사용할 수 있지만 엔터프라이즈용 Microsoft 365 앱으로 전환되면서, OneDrive의 ‘알려진 폴더 이동'(아래 참조)을 사용할 것을 권장합니다. 전체 데스크톱 배포 프로세스를 보려면 [데스크톱 배포 센터](https://aka.ms/HowToShift)를 방문하세요.
 >
 
 대규모 배포의 가장 어렵고 자주 발생하는 수동 작업 중 하나는 사용자 파일 및 설정을 이전하는 것입니다. 이 문서에서는 새 PC, 업그레이드한 PC 및 이미지로 다시 설치한 PC로 사용자를 마이그레이션하는 데 사용할 수 있는 옵션을 설명합니다.

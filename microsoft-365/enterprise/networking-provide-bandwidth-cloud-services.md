@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Microsoft 365 Enterprise 클라우드 서비스에 대한 인터넷 대역폭 요구를 이해합니다.
-ms.openlocfilehash: 2f20542609c757c4fbccd2f9b0e4af59d9bc7566
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: a2b5be462747ff269b82304249d46f32837ae2e5
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42066528"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631456"
 ---
 # <a name="step-1-prepare-your-network-for-microsoft-365"></a>1단계: Microsoft 365에 맞게 네트워크 준비
 
@@ -31,10 +31,10 @@ ms.locfileid: "42066528"
 1단계에서 다음을 수행해야 합니다.
 
 - Microsoft 365 Enterprise 클라우드 서비스에 대한 트래픽을 수용하도록 내부 링크 및 인터넷 연결에 대한 네트워크 대역폭 평가 및 조정.
-- [Office 365 참조 아키텍처](https://docs.microsoft.com/office365/enterprise/office-365-network-connectivity-principles#BKMK_P2)에 맞춰 네트워크 조정.
+- [Microsoft 365 참조 아키텍처](https://docs.microsoft.com/office365/enterprise/office-365-network-connectivity-principles#BKMK_P2)에 맞춰 네트워크 조정.
 - 변경을 계획하고, 파일럿 테스트를 수행한 후 해당 변경 사항이 대역폭 및 트래픽을 대기 시간 요건에 맞는지 여부 테스트.
 
-Office 365에서 ExpressRoute를 사용하고 Microsoft 365 Enterprise의 다른 클라우드 서비스를 사용하는 방법에 대한 정보 및 권장 사항은 [Office 365 용 Azure ExpressRoute](https://docs.microsoft.com/office365/enterprise/azure-expressroute)를 참조합니다.
+Microsoft 365에서 ExpressRoute를 사용하고 Microsoft 365 Enterprise의 다른 클라우드 서비스를 사용하는 방법에 대한 정보 및 권장 사항은 [Microsoft 365 용 Azure ExpressRoute](https://docs.microsoft.com/office365/enterprise/azure-expressroute)를 참조합니다.
 
 중간 검사점으로 이 단계에 해당하는 [종료 조건](networking-exit-criteria.md#crit-networking-step1)을 확인할 수 있습니다.
 

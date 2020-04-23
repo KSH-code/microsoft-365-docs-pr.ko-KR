@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 기존 인프라가 있는 경우 엔터프라이즈용 Microsoft 365 배포에 대한 종료 조건을 안내합니다.
-ms.openlocfilehash: ce9c9343ff6983968f3ed96b1e1558788d04ffc1
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: ace84e53da9b62b39a557b670c54c1be31d0b61a
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597065"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43638211"
 ---
 # <a name="deployment-of-microsoft-365-for-enterprise-with-existing-infrastructure"></a>기존 인프라를 사용하여 엔터프라이즈용 Microsoft 365 배포
 
@@ -49,11 +49,11 @@ Windows 10 Enterprise 인프라에 대한 다음과 같은 필수 및 선택적 
 
 [!INCLUDE [Deployment exit criteria for identity](./includes/deployment-exit-criteria-windows10.md)]
 
-## <a name="exit-criteria-for-office-365-proplus-phase-4"></a>Office 365 ProPlus에 대한 종료 조건(4단계)
+## <a name="exit-criteria-for-microsoft-365-apps-for-enterprise-phase-4"></a>엔터프라이즈용 Microsoft 365 앱에 대한 종료 조건(4단계)
 
-Office 365 ProPlus 인프라의 평가, 배포 계획, 배포에 대한 요구 사항을 충족합니다.
+엔터프라이즈용 Microsoft 365 앱 인프라의 평가, 배포 계획, 배포에 대한 요구 사항을 충족합니다.
 
-[!INCLUDE [Deployment exit criteria for Office 365 ProPlus](./includes/deployment-exit-criteria-office365proplus.md)]
+[!INCLUDE [Deployment exit criteria for Microsoft 365 Apps for enterprise](./includes/deployment-exit-criteria-office365proplus.md)]
 
 ## <a name="exit-criteria-for-mobile-device-management-phase-5"></a>모바일 장치 관리에 대한 종료 조건(5단계)
 

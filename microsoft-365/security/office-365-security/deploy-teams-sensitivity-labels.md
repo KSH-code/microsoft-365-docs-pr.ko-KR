@@ -19,12 +19,12 @@ ms.custom:
 - Ent_Solutions
 ms.assetid: 5b9c8e41-25d2-436d-89bb-9aecb9ec2b80
 description: '요약: 민감도 레이블을 적용하여 극비 팀에서 파일을 보호합니다.'
-ms.openlocfilehash: b263aeae335b83cadb45b16d70a2a45d56f1cbd3
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: c36daef7f28ad8bd3306fd7f3f7f1558a3594e68
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42083374"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637619"
 ---
 # <a name="protect-files-in-teams-with-sensitivity-labels"></a>민감도 레이블을 사용하여 팀에서 파일 보호
 
@@ -44,7 +44,7 @@ ms.locfileid: "42083374"
 
 - 레이블 또는 하위 레이블 이름은 팀 이름을 포함합니다.
 - 암호화를 사용하도록 설정됩니다.
-- 팀의 Office 365 그룹은 공동 작성 권한을 가집니다.
+- 팀의 Microsoft 365 그룹은 공동 작성 권한을 가집니다.
 
 작성한 후에는 사용자를 위해 새 레이블이나 하위 레이블을 게시합니다. 사용자는 레이블을 팀에 업로드하기 전에 로컬에서 파일에 적용하거나 파일이 팀에 저장된 후에 파일에 적용할 수 있습니다.
 

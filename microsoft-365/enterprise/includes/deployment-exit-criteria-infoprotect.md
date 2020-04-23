@@ -14,7 +14,7 @@
 <a name="crit-infoprotect-step3"></a>
 ### <a name="required-increased-security-for-microsoft-365-is-configured"></a>필수: Microsoft 365에 대한 강화된 보안이 구성됩니다.
 
-[Office 365 보안 강화](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security)를 위해 다음과 같은 설정을 구성했습니다.
+[Microsoft 365 강화 된 보안을](https://docs.microsoft.com/office365/securitycompliance/tenant-wide-setup-for-increased-security) 위해 다음과 같은 설정을 구성했습니다.
 
 - Microsoft 365 보안 센터의 위협 관리 정책
 - 추가 Exchange Online 테넌트 수준 설정
@@ -52,11 +52,11 @@
 필요한 경우, [4단계](../infoprotect-deploy-windows-information-protection.md)를 통해 이 요구 사항을 충족할 수 있습니다. 
 
 <a name="crit-infoprotect-step5"></a>
-### <a name="optional-office-365-data-loss-prevention-dlp-is-deployed"></a>선택 사항: Office 365 DLP(Data Loss Prevention)
+### <a name="optional-data-loss-prevention-dlp-is-deployed"></a>선택 사항: DPL(데이터 손실 방지)가 배포되었습니다.
 
 조직이 고객과 기타 개인 데이터 유형을 보호하고 산업 및 지역 규정과 요구 사항을 준수하는 데 필요한 DLP 정책 집합(위치 및 조건과 조치과 포함된 규칙 사용)을 분석하고 테스트하며 공개했습니다.
 
-데이터 준수 및 보안 교직원이 Office 365 보안 및 준수 대시보드를 사용하여 DLP 인시던트를 모니터링합니다.
+데이터 준수 및 보안 담당자가 보안 및 준수 대시보드를 사용하여 DLP 인시던트를 모니터링합니다.
 
 필요한 경우 [5단계](../infoprotect-data-loss-prevention.md)를 통해 이 요구 사항을 충족할 수 있습니다. 
 
@@ -67,13 +67,13 @@
 
 |||
 |:-------|:-----|
-| **암호화 방법** | **발송한 이메일** |
+| **암호화 방법** | **전자 메일이 전송될 경우** |
 | [OME(Office 365 메시지 암호화)](https://docs.microsoft.com/Office365/SecurityCompliance/ome)  | 암호화를 사용하는 조직 외부 |
 | [IRM(정보 권한 관리)](https://docs.microsoft.com/office365/SecurityCompliance/information-rights-management-in-exchange-online) | 암호화와 권한을 모두 사용 |
 | [S/MIME(Secure/Multipurpose Internet Mail Extensions)](https://docs.microsoft.com/Exchange/policy-and-compliance/smime) | 공개 키 암호방식을 사용하여 암호화와 전자 서명을 모두 사용 |
 |||
 
-필요한 경우 [6단계](../infoprotect-email-encryption.md)를 통해 이 요구 사항을 충족할 수 있습니다.
+필요한 경우, [6단계](../infoprotect-email-encryption.md)를 통해 이 요구 사항을 충족할 수 있습니다.
 
 <a name="crit-infoprotect-step7"></a>
 ### <a name="optional-configure-privileged-access-management-in-office-365"></a>선택 사항: Office 365의 권한이 부여된 액세스 관리 구성

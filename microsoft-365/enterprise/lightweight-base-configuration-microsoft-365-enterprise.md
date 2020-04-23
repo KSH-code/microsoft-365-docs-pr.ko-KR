@@ -17,12 +17,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 6f916a77-301c-4be2-b407-6cec4d80df76
 description: 이 테스트 랩 가이드를 사용하여 Microsoft 365 Enterprise 테스트를 위한 간단한 테스트 환경을 만듭니다.
-ms.openlocfilehash: 4e90cc01cb37664f3084daf7295e9d59052809af
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: 04e63b1c3d9d35bd636041f8be7655ab17b1d165
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42633346"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631612"
 ---
 # <a name="the-lightweight-base-configuration"></a>간단한 기본 구성
 
@@ -63,7 +63,7 @@ Office 365 E5 평가판 구독을 시작하려면 먼저 가상의 회사 이름
 5. 4단계에서 여기에 로그인 페이지를 기록합니다(선택 후 복사). ![Line](../media/Common-Images/TableLine.png) 
 6. 여기에 사용자 ID를 기록합니다. ![Line](../media/Common-Images/TableLine.png).onmicrosoft.com  
    입력한 암호를 안전한 위치에 기록해둡니다.
-   이 값은 **Office 365 전역 관리자 이름**으로 사용됩니다.
+   이 값은 **전역 관리자 이름**으로 사용됩니다.
 8. **설정으로 이동**을 클릭합니다.
 9. Office 365 E5 설정에서 **전자 메일 및 로그인에 대해 *조직*.onmicrosoft.com 계속 사용**을 클릭한 다음 **종료 및 나중에 계속**을 클릭합니다.
 
@@ -73,11 +73,11 @@ Microsoft 365 관리 센터가 나타납니다.
     
 ## <a name="phase-2-configure-your-office-365-trial-subscription"></a>2단계: Office 365 평가판 구독 구성
 
-이 단계에서는 추가 사용자로 Office 365 구독을 구성하고 Office 365 E5 라이선스를 할당합니다.
+이 단계에서는 추가 사용자로 구독을 구성하고 Office 365 E5 라이선스를 할당합니다.
   
-[Office 365 PowerShell에 연결](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module)의 지침을 사용하여 컴퓨터에서 그래프 모듈용 Azure Active Directory PowerShell을 사용하여 Office 365 구독에 연결합니다.
+[Office 365 PowerShell에 연결](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell#connect-with-the-azure-active-directory-powershell-for-graph-module)의 지침을 사용하여 컴퓨터에서 그래프 모듈용 Azure Active Directory PowerShell을 사용하여 구독에 연결합니다.
     
-**Windows PowerShell 자격 증명 요청** 대화 상자에서 Office 365 전역 관리자 이름(예: jdoe@contosotoycompany.onmicrosoft.com)과 암호를 입력합니다.
+**Windows PowerShell 자격 증명 요청** 대화 상자에서 전역 관리자 이름(예: jdoe@contosotoycompany.onmicrosoft.com)과 암호를 입력합니다.
   
 조직 이름(예 : contosotoycompany), 위치에 대한 2 자리 국가 코드, 공통 계정 암호를 입력 한 다음 PowerShell 프롬프트에서 다음 명령을 실행합니다.
 
@@ -121,7 +121,7 @@ Set-AzureADUserLicense -ObjectId $userUPN -AssignedLicenses $LicensesToAssign
 
 다음 값을 기록합니다.
   
-- Office 365 전역 관리자 이름: ![Line](../media/Common-Images/TableLine.png).onmicrosoft.com (1단계의 스텝 6)
+- 전역 관리자 이름: ![Line](../media/Common-Images/TableLine.png).onmicrosoft.com (1단계의 스텝 6)
     
     이 계정의 암호도 안전한 위치에 기록합니다.
     
@@ -291,7 +291,7 @@ Windows 10 Enterprise가 있는 실제 또는 가상 머신을 만든 후에 로
     
 6. 설정 창을 닫습니다.
     
-다음으로, WIN10 컴퓨터에 Office 365 ProPlus를 설치합니다.
+다음으로 WIN10 컴퓨터에 엔터프라이즈용 Microsoft 365 앱을 설치합니다.
   
 1. Microsoft Edge 브라우저를 열고 글로벌 관리자 계정 자격 증명으로 Office 포털에 로그인합니다. 도움을 받으려면 [Office 365에 로그인하는 위치](https://support.office.com/Article/Where-to-sign-in-to-Office-365-e9eb7d51-5430-4929-91ab-6157c5a050b4)를 참조하십시오.
     
@@ -309,7 +309,7 @@ Windows 10 Enterprise가 있는 실제 또는 가상 머신을 만든 후에 로
 
 - Microsoft 365 E5 구독의 Azure AD 테넌트에 가입했습니다.
 - Microsoft Intune(EMS)에서 Azure AD 장치로 등록합니다.
-- Office 365 ProPlus가 설치되어 있습니다.
+- 엔터프라이즈용 Microsoft 365 앱이 설치되었습니다.
   
 이제 [Microsoft 365 Enterprise](https://www.microsoft.com/microsoft-365/enterprise)의 추가 기능을 사용해볼 준비가 되었습니다.
   

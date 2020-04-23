@@ -17,17 +17,17 @@ ms.assetid: e100fe7c-f2a1-4b7d-9e08-622330b83653
 ms.collection:
 - M365-security-compliance
 description: Office 365 Advanced Threat Protection에는 안전한 첨부 파일, 안전한 링크, 고급 피싱 방지 도구, 보고 도구 및 위협 인텔리전스 기능이 포함되어 있습니다.
-ms.openlocfilehash: 34dc541087eb05af6b688670112cf02489164fb1
-ms.sourcegitcommit: 9ed3283dd6dd959faeca5c22613f9126261b9590
+ms.openlocfilehash: 993939027962bd51ad4fdc3381c1e7d8ea4eddd4
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/16/2020
-ms.locfileid: "43528608"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634535"
 ---
 # <a name="office-365-advanced-threat-protection"></a>Office 365 Advanced Threat Protection
 
 > [!IMPORTANT]
-> 이 문서는 [Office 365 Advanced Threat Protection](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)이 있는 비즈니스 고객을 대상으로 합니다. Outlook.com, Office 365 Home 또는 Office 365 Personal을 사용하고 있고 Outlook의 안전한 링크 또는 안전한 첨부 파일에 대한 정보를 찾고 있다면 [Office 365 구독자용 고급 Outlook.com 보안](https://support.office.com/article/882d2243-eab9-4545-a58a-b36fee4a46e2)을 참조하세요.
+> 이 문서는 [Office 365 Advanced Threat Protection](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)이 있는 비즈니스 고객을 대상으로 합니다. Outlook.com, Microsoft 365 Family 또는 Microsoft 365 Personal을 사용하고 있고 Outlook의 안전한 링크 또는 안전한 첨부 파일에 대한 정보를 찾고 있다면 [Office 365 구독자용 고급 Outlook.com 보안](https://support.office.com/article/882d2243-eab9-4545-a58a-b36fee4a46e2)을 참조하세요.
 
 ## <a name="overview"></a>개요
 
@@ -53,7 +53,7 @@ Office 365 ATP (Advanced Threat Protection)는 전자 메일 메시지, 링크 (
 
 - Office 365 ATP 계획 2는 Office 365 E5, Office 365 A5 및 Microsoft 365 E5에 포함되어 있습니다.
 
-- Office 365 ATP 계획 1은 Microsoft 365 Business에 포함되어 있습니다.
+- Office 365 ATP 계획 1은 Microsoft 365 Business Premium에 포함되어 있습니다.
 
 - Office 365 ATP 계획 1과 Office 365 ATP 계획 2는 특정 구독의 추가 기능으로 사용할 수 있습니다. 자세한 내용은 [ATP 계획에서의 기능 가용성](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#feature-availability-across-advanced-threat-protection-atp-plans)을 참조하세요.
 
@@ -61,7 +61,7 @@ Office 365 ATP (Advanced Threat Protection)는 전자 메일 메시지, 링크 (
 
 ## <a name="configure-atp-policies"></a>ATP 정책 구성
 
-Office 365 ATP를 사용하여 조직의 보안팀이 Office 365 보안 및 준수 센터에서 정책을 정의하여 보호를 구성할 수 있습니다.([https://protection.office.com](https://protection.office.com) > **위협 관리** > **정책**.)
+Office 365 ATP를 사용하여 조직의 보안팀이 보안 및 준수 센터에서 정책을 정의하여 보호를 구성할 수 있습니다.([https://protection.office.com](https://protection.office.com) > **위협 관리** > **정책**.)
 
 > [!TIP]
 > 정의할 정책의 빠른 목록을 보려면 [위협으로부터 보호](protect-against-threats.md)를 참조하세요.
@@ -112,16 +112,16 @@ Office 365 ATP Plan 2에는 조직의 보안팀이 악의적인 공격을 예측
 
 |역할 또는 역할 그룹|자세한 정보를 알아볼 수 있는 리소스|
 |---------|---------|
-|Office 365 전역 관리자(Azure Active Directory 또는 Office 365 보안 & 규정 준수 센터에서 할당할 수 있습니다.) |[Office 365 관리자 역할 정보](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles)|
-|보안 관리자 (Azure Active Directory 또는 Office 365 보안 & 규정 준수 센터에서 할당할 수 있습니다.) |[Azure Active Directory의 관리자 역할 권한](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)<br><br/>[보안 및 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)|
+|전역 관리자(Azure Active Directory 또는 보안 & 규정 준수 센터에서 할당할 수 있습니다.) |[Microsoft 365 관리자 역할 정보](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles)|
+|보안 관리자 (Azure Active Directory 또는 보안 & 규정 준수 센터에서 할당할 수 있습니다.) |[Azure Active Directory의 관리자 역할 권한](https://docs.microsoft.com/azure/active-directory/users-groups-roles/directory-assign-admin-roles)<br><br/>[보안 및 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)|
 |Exchange Online 조직 관리(Exchange Online에서 할당합니다.)|[Exchange Online의 사용 권한](https://docs.microsoft.com/exchange/permissions-exo/permissions-exo)<br><br> [Exchange Online PowerShell](https://docs.microsoft.com/powershell/exchange/exchange-online/exchange-online-powershell)|
-|검색 및 제거(Office 365 보안 & 규정 준수 센터에서만 할당합니다.) |[보안 & 규정 준수 센터의 사용 권한] (permissions-in-the-security-and-compliance-center.md|
+|검색 및 제거(보안 & 규정 준수 센터에서만 할당합니다.) |[보안 & 규정 준수 센터의 사용 권한] (permissions-in-the-security-and-compliance-center.md|
 
 자세한 내용은 [보안 및 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)을 참조하세요.
 
 ## <a name="get-office-365-atp"></a>Office 365 ATP 받기
 
-Office 365 ATP는 Microsoft 365 E5, Office 365 E5, Office 365 A5, Microsoft 365 Business 등의 특정 구독에 포함되어 있습니다. 구독에 Office 365 ATP가 포함되어있지 않은 경우 ATP 플랜 1 또는 ATP 플랜 2를 특정 구독에 대한 추가 기능으로 구매할 수 있습니다. 자세한 내용은 다음 리소스를 참조하세요.
+Office 365 ATP는 Microsoft 365 E5, Office 365 E5, Office 365 A5, Microsoft 365 Business Premium 등의 특정 구독에 포함되어 있습니다. 구독에 Office 365 ATP가 포함되어있지 않은 경우 ATP 플랜 1 또는 ATP 플랜 2를 특정 구독에 대한 추가 기능으로 구매할 수 있습니다. 자세한 내용은 다음 리소스를 참조하세요.
 
 - ATP 플랜이 포함된 구독 목록은 [Office 365 Advanced Threat Protection 제공 여부](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description#office-365-advanced-threat-protection-atp-availability)
 

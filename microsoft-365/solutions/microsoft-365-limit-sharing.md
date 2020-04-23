@@ -14,12 +14,12 @@ f1.keywords: NOCSH
 ms.custom: ''
 localization_priority: Priority
 description: Microsoft 365에서 공유를 제한하거나 해제할 수 있는 옵션에 대해 알아봅니다.
-ms.openlocfilehash: e6cce1102af793d38606b929951d20221eba4b12
-ms.sourcegitcommit: 21338a9287017a66298e0ff557e80051946ebf13
+ms.openlocfilehash: ebeeefa61d9f4fc9fd77b417ccadfaa4308acb38
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "42604661"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632598"
 ---
 # <a name="limit-sharing-in-microsoft-365"></a>Microsoft 365에서의 공유 제한
 
@@ -29,7 +29,7 @@ ms.locfileid: "42604661"
 
 |공유 방법|설명|제한 옵션|
 |:-------------|:----------|:-------------|
-|[Office 365 그룹 또는 팀](#office-365-group-or-team)|Microsoft Teams 팀 또는 Office 365 그룹에 대한 액세스 권한을 받은 사람들은 연결된 SharePoint 사이트의 파일에 대한 편집 권한을 갖습니다.|그룹 또는 팀이 비공개인 경우 팀에 대한 초대 공유는 승인을 위해 소유자에게 이동됩니다. 관리자는 게스트 액세스를 비활성화하여 조직 외부의 사람들이 액세스하지 못하게 할 수 있습니다.|
+|[Microsoft 365 그룹 또는 팀](#microsoft-365-group-or-team)|Microsoft Teams 팀 또는 Microsoft 365 그룹에 대한 액세스 권한을 받은 사람들은 연결된 SharePoint 사이트의 파일에 대한 편집 권한을 갖습니다.|그룹 또는 팀이 비공개인 경우 팀에 대한 초대 공유는 승인을 위해 소유자에게 이동됩니다. 관리자는 게스트 액세스를 비활성화하여 조직 외부의 사람들이 액세스하지 못하게 할 수 있습니다.|
 |[SharePoint 사이트](#sharepoint-site)|사람들은 소유자, 회원 또는 방문자에게 SharePoint 사이트에 대한 액세스 권한을 부여할 수 있으며 사이트의 파일에 대해 해당 수준의 액세스 권한을 갖습니다.|사이트 소유자만 사이트를 공유할 수 있도록 사이트 권한을 제한할 수 있습니다.|
 |[특정 사용자와 공유](#sharing-with-specific-people)|편집 권한이 있는 사이트 구성원과 사용자는 *특정 사용자* 링크를 사용하여 파일 및 폴더에 직접 권한을 부여하거나 공유할 수 있습니다.|사이트 소유자만 파일 및 폴더를 공유할 수 있도록 사이트 권한을 제한할 수 있습니다. 이 경우 사이트 구성원의 직접 액세스 및 *특정 사용자* 링크 공유는 소유자에게 전달되어 승인을 받을 수 있습니다.|
 |[SharePoint 게스트 공유](#sharepoint-guest-sharing)|SharePoint 사이트 소유자 및 구성원은 조직 외부의 사용자와 파일 및 폴더를 공유할 수 있습니다.|전체 조직 또는 개별 사이트에 대해 게스트 공유 기능을 비활성화할 수 있습니다.|
@@ -41,9 +41,9 @@ ms.locfileid: "42604661"
 
 조직에서 공유를 사용하는 방법을 이해하려면 [파일 및 폴더 공유에 대한 보고서를 실행하세요](https://docs.microsoft.com/sharepoint/sharing-reports).
 
-## <a name="office-365-group-or-team"></a>Office 365 그룹 또는 팀
+## <a name="microsoft-365-group-or-team"></a>Microsoft 365 그룹 또는 팀
 
-Office 365 그룹 또는 Microsoft Teams 팀에서 공유를 제한하려는 경우 그룹 또는 팀을 비공개로 설정하는 것이 중요합니다. 조직 내부 사용자는 언제든 지 공용 그룹이나 팀에 참석할 수 있습니다. 그룹이나 팀이 비공개가 아닌 이상, 조직 내에서 팀 또는 해당 파일의 공유를 제한할 수 있는 방법이 없습니다.
+Microsoft 365 그룹 또는 Microsoft Teams 팀에서 공유를 제한하려는 경우 그룹 또는 팀을 비공개로 설정하는 것이 중요합니다. 조직 내부 사용자는 언제든 지 공용 그룹이나 팀에 참석할 수 있습니다. 그룹이나 팀이 비공개가 아닌 이상, 조직 내에서 팀 또는 해당 파일의 공유를 제한할 수 있는 방법이 없습니다.
 
 ### <a name="guest-sharing"></a>게스트 공유
 
@@ -54,15 +54,15 @@ Teams에 대해 게스트 공유를 해제하려면
 2. **Teams에서 게스트 액세스 허용**을 해제합니다.
 3. **저장**을 클릭합니다.
 
-Office 365 그룹에서 게스트 액세스를 방지하려는 경우 Microsoft 365 관리 센터에서 그룹 게스트 액세스 설정을 해제할 수 있습니다.
+Microsoft 365 그룹에서 게스트 액세스를 방지하려는 경우 Microsoft 365 관리 센터에서 그룹 게스트 액세스 설정을 해제할 수 있습니다.
 
-Office 365 그룹에서 게스트 공유를 해제하려면
+Microsoft 365 그룹에서 게스트 공유를 해제하려면
 1. Microsoft 365 관리 센터에서 **설정**을 클릭한 다음 **설정**을 클릭합니다.
-2. **서비스** 탭에서 **Office 365 그룹**을 클릭합니다.
+2. **서비스** 탭에서 **Microsoft 365 그룹**을 클릭합니다.
 3. **조직 외부의 그룹 구성원이 그룹 콘텐츠에 액세스할 수 있도록 허용** 및 **그룹 소유자가 조직 외부의 사람을 그룹에 추가하도록 허용** 확인란을 선택 취소합니다.
-4. **변경 내용 저장**을 클릭 합니다.
+4. **변경 내용 저장**을 클릭합니다.
 
-    ![Microsoft 365 관리 센터의 Office 365 그룹 공유 설정 스크린샷](../media/office-365-groups-guest-settings-off.png)
+    ![Microsoft 365 관리 센터의 Microsoft 365 그룹 공유 설정 스크린샷](../media/office-365-groups-guest-settings-off.png)
 
 > [!NOTE]
 > 특정 그룹이나 팀에 대한 게스트 공유를 방지하려는 경우 Microsoft PowerShell을 사용하여 이 작업을 수행할 수 있습니다. 자세한 내용은 [특정 그룹의 게스트 사용자 차단](https://docs.microsoft.com/office365/admin/create-groups/manage-guest-access-in-groups?view=o365-worldwide#block-guest-users-from-a-specific-group)을 참조하십시오.
@@ -79,7 +79,7 @@ Azure Active Directory에서 도메인을 허용하거나 차단하여 게스트
 
 ## <a name="sharepoint-site"></a>SharePoint 사이트
 
-SharePoint 사이트 공유를 사이트 소유자에게만 제한할 수 있습니다. 이렇게 하면 사이트 구성원이 사이트를 공유할 수 없습니다. 사이트가 Office 365 그룹에 연결된 경우 그룹 구성원은 다른 사람을 그룹에 초대할 수 있으며 해당 사용자는 사이트에 액세스할 수 있음을 기억하십시오.
+SharePoint 사이트 공유를 사이트 소유자에게만 제한할 수 있습니다. 이렇게 하면 사이트 구성원이 사이트를 공유할 수 없습니다. 사이트가 Microsoft 365 그룹에 연결된 경우 그룹 구성원은 다른 사람을 그룹에 초대할 수 있으며 해당 사용자는 사이트에 액세스할 수 있음을 기억하십시오.
 
 소유자에게로만 사이트 공유를 제한하려면
 1. 사이트에서 톱니바퀴 아이콘을 클릭한 다음 **사이트 권한**을 클릭합니다.

@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 조직의 보안 및 정보 보호 수준을 이해하고 구성합니다.
-ms.openlocfilehash: d3ba5f490b7aa80c9149a0451059914c78b8f2f1
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 0fa3e9fa11070ea505752d781ecdd21b344c8222
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42067215"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636967"
 ---
 # <a name="step-1-define-security-and-information-protection-levels"></a>1단계: 보안 및 정보 보호 수준 정의
 
@@ -33,7 +33,7 @@ ms.locfileid: "42067215"
 사용자 고유의 보안 수준을 정의하고 일부는 이미 적용되고 있을 수 있지만 적용 가능한 세 가지 이상의 보안 및 보호 수준을 사용할 계획을 수립하는 것이 좋습니다. 시작하기 위한 목록은 다음과 같습니다. 
 
 - **기준:** 데이터 보호 및 데이터에 액세스하는 장치와 ID에 대한 최소 기준입니다. 기준 보안 및 보호 권장 사항에 따라 많은 조직이나 해당 부서의 요구 사항을 충족하는 강력한 기본 보호를 제공할 수 있습니다.
-- **중요:** 기준 수준을 넘어 보호해야 하는 데이터의 하위 집합에 대한 추가 보호입니다. Office 365 환경의 특정 데이터 집합에 이 강화된 보호를 적용할 수 있습니다. 또한 중요한 데이터에 액세스하는 ID 및 장치에도 중요 보안 수준을 적용하는 것이 좋습니다.
+- **중요:** 기준 수준을 넘어 보호해야 하는 데이터의 하위 집합에 대한 추가 보호입니다. Microsoft 365 환경의 특정 데이터 집합에 이 강화된 보호를 적용할 수 있습니다. 또한 중요한 데이터에 액세스하는 ID 및 장치에도 중요 보안 수준을 적용하는 것이 좋습니다.
 - **높은 규제:** 일반적으로 고도로 분류되고 지적 재산 또는 영업 비밀로 간주되는 극소량의 데이터 또는 엄격한 보안 규정을 준수해야 하는 데이터가 있는 조직에 대한 최고 보안 수준입니다. Microsoft 365 Enterprise에는 조직이 ID 및 장치에 대한 상응하는 보호를 포함하여 이러한 높은 보안 요구 사항을 충족하도록 도와주는 기능이 있습니다.
 
 자세한 내용은 [보호의 3계층](microsoft-365-policies-configurations.md#three-tiers-of-protection)을 참조하세요.

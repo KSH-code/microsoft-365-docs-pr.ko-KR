@@ -20,12 +20,12 @@ ms.custom:
 - Ent_Architecture
 ms.assetid: 1d51bd87-17bf-457c-b698-61821de3afa0
 description: '요약: Microsoft Teams에서의 파일을 보호하기 위한 구성 권장 사항입니다.'
-ms.openlocfilehash: 82c55affc8384c04e0595f82d21c7e3532b5cb0e
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: e177f290dff22943e282080652326dfb65cd07cd
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42088134"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43638479"
 ---
 # <a name="secure-files-in-microsoft-teams"></a>Microsoft Teams에서의 파일 보호
 
@@ -61,7 +61,7 @@ ms.locfileid: "42088134"
 
 - 사용자가 조직 외부로 이러한 종류의 파일을 보내려고 할 때 경고하거나 방지하기 위해 중요 및 극비 보존 레이블에 대한 [데이터 손실 방지](../../compliance/data-loss-prevention-policies.md)(DLP) 정책이 구성됩니다.
 
-- 시나리오에 필요한 경우 [민감도 레이블](../../compliance/sensitivity-labels.md)을 사용하여 기밀성이 높은 파일을 암호화 및 사용 권한으로 보호할 수 있습니다. Azure Information Protection 고객의 경우 Microsoft 365 준수 센터에서 Azure Information Protection 레이블을 사용할 수 있으며 추가 또는 고급 구성을 수행하기로 선택한 경우 레이블이 Azure 포털과 동기화됩니다. Azure Information Protection 레이블과 Office 365 민감도 레이블은 서로 완벽하게 호환됩니다. 예를 들어, Azure Information Protection으로 분류된 콘텐츠가 있는 경우 콘텐츠를 재 분류하거나 레이블을 다시 지정할 필요가 없습니다.  일부 고객은 이러한 보호 수준을 필요로 하지 않습니다.
+- 시나리오에 필요한 경우 [민감도 레이블](../../compliance/sensitivity-labels.md)을 사용하여 기밀성이 높은 파일을 암호화 및 사용 권한으로 보호할 수 있습니다. Azure Information Protection 고객의 경우 Microsoft 365 준수 센터에서 Azure Information Protection 레이블을 사용할 수 있으며 추가 또는 고급 구성을 수행하기로 선택한 경우 레이블이 Azure 포털과 동기화됩니다. Azure Information Protection 레이블과 민감도 레이블은 서로 완벽하게 호환됩니다. 예를 들어, Azure Information Protection으로 분류된 콘텐츠가 있는 경우 콘텐츠를 재 분류하거나 레이블을 다시 지정할 필요가 없습니다.  일부 고객은 이러한 보호 수준을 필요로 하지 않습니다.
 
 ## <a name="organization-wide-settings-for-sharepoint-and-onedrive"></a>SharePoint 및 OneDrive에 대한 조직 전체의 설정
 
@@ -125,7 +125,7 @@ Azure Active Directory에서 권장된 조건부 액세스 정책을 사용하�
 
 네 가지 유형의 팀을 이 솔루션에 배포하는 단계는 [파일의 3단계 보호를 위한 팀 배포](deploy-teams-three-tiers.md)를 참조하세요.
 
-## <a name="office-365-retention-labels"></a>Office 365 보존 레이블
+## <a name="retention-labels"></a>보존 레이블
 
 중요 데이터가 있는 환경에서는 보존 레이블을 사용하는 것이 좋습니다. 보존 레이블을 구성하고 게시한 후 다음 작업을 수행할 수 있습니다.
 
@@ -135,7 +135,7 @@ Azure Active Directory에서 권장된 조건부 액세스 정책을 사용하�
 
 - 보존 레이블을 기준으로 하는 DLP 정책을 적용할 수 있습니다.
 
-- 조직의 사용자는 웹용 Outlook, Outlook 2010 이상, OneDrive, SharePoint 및 Office 365 그룹의 콘텐츠에 수동으로 레이블을 적용할 수 있습니다. 사용자는 종종 자신이 사용하고 있는 콘텐츠의 형식을 가장 잘 알고 있기 때문에 콘텐츠를 분류하여 적절한 DLP 정책을 적용할 수 있습니다.
+- 조직의 사용자는 웹용 Outlook, Outlook 2010 이상, OneDrive, SharePoint 및 Microsoft 365 그룹의 콘텐츠에 수동으로 레이블을 적용할 수 있습니다. 사용자는 종종 자신이 사용하고 있는 콘텐츠의 형식을 가장 잘 알고 있기 때문에 콘텐츠를 분류하여 적절한 DLP 정책을 적용할 수 있습니다.
 
 그림에서 보여 주듯이 이 솔루션에는 다음과 같은 보존 레이블 만들기가 포함됩니다.
 

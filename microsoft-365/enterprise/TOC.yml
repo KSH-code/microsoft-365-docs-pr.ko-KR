@@ -19,7 +19,7 @@
               href: networking-avoid-network-hairpins.md
             - name: 4단계 - 트래픽 바이패스 구성
               href: networking-configure-proxies-firewalls.md
-            - name: 5단계 - 클라이언트 Office 365 서비스 성능 최적화
+            - name: 5단계 - 클라이언트 및 서비스 성능 최적화
               href: networking-optimize-tcp-performance.md
             - name: 네트워킹 종료 조건
               href: networking-exit-criteria.md
@@ -55,10 +55,10 @@
               href: windows10-enable-security-features.md
             - name: Windows 10 Enterprise 종료 조건
               href: windows10-exit-criteria.md
-        - name: 4번째 작업 단계 - Office 365 ProPlus
+        - name: 4단계 - 엔터프라이즈용 Microsoft 365 앱
           href: office365proplus-infrastructure.md
           items:
-            - name: Office 365 ProPlus 종료 조건
+            - name: 엔터프라이즈용 Microsoft 365 앱 배포 종료 기준
               href: office365proplus-exit-criteria.md
         - name: 5번째 작업 단계 - 모바일 장치 관리
           href: mobility-infrastructure.md
@@ -76,7 +76,7 @@
               href: infoprotect-configure-increased-security-office-365.md
             - name: 4단계 - WIP(Windows Information Protection) 구성
               href: infoprotect-deploy-windows-information-protection.md
-            - name: 5단계 - Office 365 데이터 손실 방지 구성
+            - name: 5단계 - 데이터 손실 방지 구성
               href: infoprotect-data-loss-prevention.md
             - name: 6단계 - 전자 메일 암호화 구성
               href: infoprotect-email-encryption.md
@@ -174,7 +174,7 @@
           href: contoso-identity.md
         - name: Windows 10 Enterprise
           href: contoso-win10.md
-        - name: Office 365 ProPlus
+        - name: 엔터프라이즈용 Microsoft 365 앱
           href: contoso-o365pp.md
         - name: 모바일 장치 관리
           href: contoso-mdm.md

@@ -1,5 +1,5 @@
 ---
-title: Office 365에서 사용자 권한으로 격리된 메시지 검색 및 해제
+title: 사용자로 격리된 메시지 찾기 및 릴리스
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -16,23 +16,23 @@ search.appverid:
 ms.assetid: efff08ec-68ff-4099-89b7-266e3c4817be
 ms.collection:
 - M365-security-compliance
-description: Office 365 사용자는 격리된 메시지(사용자가 받는 사람인 메시지, 스팸 또는 대량 전자 메일로 메시지를 격리하는 스팸 필터링)를 보고, 해제하고, 삭제할 수 있습니다. 보안 및 준수 센터에서 격리된 메시지를 보고 관리할 수 있습니다.
-ms.openlocfilehash: 32ae03c555742b9f08c272806464ed75585d08df
-ms.sourcegitcommit: 1d5db6e8411b45d0dd1c517339074c2840e33a63
+description: Microsoft 365 사용자는 격리된 메시지(사용자가 받는 사람인 메시지, 스팸 또는 대량 전자 메일로 메시지를 격리하는 스팸 필터링)를 보고, 해제하고, 삭제할 수 있습니다. 보안 및 준수 센터에서 격리된 메시지를 보고 관리할 수 있습니다.
+ms.openlocfilehash: 215cbc23aca3b7d10eca8c53d816892d0ca042cb
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/10/2020
-ms.locfileid: "43216907"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43638109"
 ---
-# <a name="find-and-release-quarantined-messages-as-a-user-in-office-365"></a>Office 365에서 사용자 권한으로 격리된 메시지 검색 및 해제하기
+# <a name="find-and-release-quarantined-messages-as-a-user"></a>사용자로 격리된 메시지 찾기 및 릴리스
 
-격리는 Exchange Online 사서함이 있는 Office 365 조직 또는 Exchange Online 사서함이 없는 독립 실행형 EOP(Exchange online Protection) 조직에 위험할 가능성이 있거나 원치 않는 메시지를 보유합니다. 자세한 내용은 [Office 365의 격리](quarantine-email-messages.md)를 참조하세요.
+격리는 Exchange Online 사서함이 있는 Microsoft 365 조직 또는 Exchange Online 사서함이 없는 독립 실행형 EOP(Exchange online Protection) 조직에 위험할 가능성이 있거나 원치 않는 메시지를 보유합니다. 자세한 내용은 [Office 365의 격리](quarantine-email-messages.md)를 참조하세요.
 
 사용자는 사용자가 받는 사람인 격리되는 메시지를 보고, 해제하고, 삭제할 수 있으며 메시지는 스팸, 대량 전자 메일 또는 (2020년 4월부터)피싱으로 격리되었습니다. 보안 및 준수 센터에서 또는 [최종 사용자 스팸 알림](use-spam-notifications-to-release-and-report-quarantined-messages.md)에서(관리자가 설정한 경우) 격리 된 메시지를보고 관리합니다.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 사항은 무엇인가요?
 
-- Office 365 보안 및 준수 센터를 열려면 <https://protection.office.com>으로 이동하세요. 격리 페이지를 바로 열려면 <https://protection.office.com/quarantine>으로 이동하세요.
+- 보안 및 준수 센터를 열려면 <https://protection.office.com>로 이동하세요. 격리 페이지를 바로 열려면 <https://protection.office.com/quarantine>으로 이동하세요.
 
 - 관리자는 메시지를 영구적으로 삭제하기 전에 얼마나 오래 메시지를 격리할지 구성할 수 있습니다(스팸 방지 정책). 격리에서 만료되는 메시지는 복구할 수 없습니다. 자세한 내용은 [Office 365의 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)를 참조하세요.
 
@@ -66,7 +66,7 @@ ms.locfileid: "43216907"
 
    - **메시지 ID**
 
-   - **정책 이름**: 이 속성은 메시지를 격리시킨 정책을 보여줍니다. 이 정보를 관리자에게 제공할 수 있습니다.
+   - **정책 이름**
 
    - **크기**
 
@@ -108,7 +108,7 @@ ms.locfileid: "43216907"
 
    - **제목**: 메시지의 전체 제목을 사용합니다. 검색은 대/소문자를 구분하지 않습니다.
 
-   검색 조건을 입력한 후 ![새로 고침 단추](../media/scc-quarantine-refresh.png) **새로 고침**을 클릭하여 결과를 필터링합니다.
+   검색 조건을 입력한 후 ![새로 고침 단추](../../media/scc-quarantine-refresh.png) **새로 고침**을 클릭하여 결과를 필터링합니다.
 
 격리된 특정 메시지를 찾은 후 해당 메시지를 선택하여 세부 정보를 확인하고 메시지에 대한 작업을 수행합니다(예를 들어 메시지를 보거나, 해제하거나, 다운로드하거나, 삭제하기).
 
@@ -150,7 +150,7 @@ ms.locfileid: "43216907"
 
   작업을 마쳤으면 **메시지 해제**를 클릭합니다.
 
-- **메시지 헤더 보기**: 메시지 헤더 텍스트를 보려면 이 링크를 선택합니다. 헤더 필드와 값을 자세히 분석하려면 메시지 헤더 텍스트를 클립보드에 복사한 다음 **Microsoft 메시지 헤더 분석기**를 선택하여 원격 연결 분석기로 이동합니다.(이 작업을 완료하기 위해 Office 365를 닫지 않으려면 마우스 오른쪽 단추를 클릭하고 **새 탭에서 열기**를 선택합니다.) 메시지 헤더 분석기 섹션의 페이지에 메시지 헤더를 붙여넣고 **헤더 분석**을 선택합니다.
+- **메시지 헤더 보기**: 메시지 헤더 텍스트를 보려면 이 링크를 선택합니다. 헤더 필드와 값을 자세히 분석하려면 메시지 헤더 텍스트를 클립보드에 복사한 다음 **Microsoft 메시지 헤더 분석기**를 선택하여 원격 연결 분석기로 이동합니다.(이 작업을 완료하기 위해 Microsoft 365를 닫지 않으려면 마우스 오른쪽 단추를 클릭하고 **새 탭에서 열기**를 선택합니다.) 메시지 헤더 분석기 섹션의 페이지에 메시지 헤더를 붙여넣고 **헤더 분석**을 선택합니다.
 
 - **메시지 미리 보기**: 표시되는 플라이아웃 창에서 다음 옵션 중 하나를 선택합니다.
 

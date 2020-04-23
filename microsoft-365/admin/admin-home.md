@@ -16,12 +16,12 @@ ms.collection:
 ms.assetid: b9acfd4c-df82-4eb5-a652-232a6829870a
 description: Microsoft 365 관리자에게 제공되는 리소스에 대해 알아보세요.
 ms.custom: okr_smb
-ms.openlocfilehash: 02d1afa763eda2edd7a0fba5624ab5a168b80a14
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 631c6640efeb6bebd8e091712b030ed61047042e
+ms.sourcegitcommit: b8a9994b26a6d9865212f5b1871286e719d1608e
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43624003"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43781496"
 ---
 # <a name="microsoft-365-admin-help-center"></a>Microsoft 365 관리자 도움말 센터
 
@@ -38,8 +38,8 @@ ms.locfileid: "43624003"
                         </div>
                     </div>
                     <div class="cardText">
-                        <h3>Office 365가 Microsoft 365로 바뀝니다.</h3>
-                        <p>몇 가지 Office 365 및 Microsoft 365 구독 이름이 변경되고 있습니다. 사용자는 아무 작업도 수행할 필요가 없습니다. 서비스, 앱 및 기능은 구독 가격과 함께 똑같이 유지됩니다. Microsoft 365 관리 센터에서 구독 이름이 자동으로 업데이트되고 청구서는 2020년 4월 21일에 또는 그 이후에 업데이트됩니다.</p>
+                        <h3>이제 Office 365는 Microsoft 365입니다.</h3>
+                        <p>일부 Office 365와 Microsoft 365 구독 이름을 변경했습니다. 사용자는 아무 작업도 수행할 필요가 없습니다. 서비스, 앱 및 기능은 구독 가격과 함께 똑같이 유지됩니다. Microsoft 365 관리 센터에서 구독 이름이 자동으로 업데이트되고 청구서는 2020년 4월 21일에 또는 그 이후에 업데이트됩니다.</p>
                         <ul>
                             <li><p><b>Office 365 Business Essentials</b>는 이제 <b>Microsoft 365 Business Basic</b>으로 변경됩니다.</p></li>
                             <li><p><b>Office 365 Business Premium</b>은 이제 <b>Microsoft 365 Business Standard</b>로 변경됩니다.</p></li>
@@ -182,7 +182,7 @@ ms.locfileid: "43624003"
                     </div>
                     <div class="cardText">
                         <h3>소규모 기업용</h3>
-                        <p><a href="/office365/smallbusiness/build-your-small-business/build-your-small-business" target="_blank">Microsoft 365로 중소기업 구축</a></p>
+                        <p><a href="/office365/smallbusiness/build-your-small-business/build-your-small-business" target="_blank">Microsoft 365로 소규모 기업 구축하기</a></p>
                     </div>
                 </div>
             </div>
@@ -199,7 +199,7 @@ ms.locfileid: "43624003"
                     </div>
                     <div class="cardText">
                         <h3>엔터프라이즈용</h3>
-                        <p><a href="https://docs.microsoft.com/Office365/Enterprise/">엔터프라이즈 조직에서 Microsoft 365를 배포, 구성 및 관리하는 관리자 및 IT 전문가를 위한 지침을 제공합니다.</a></p>
+                        <p><a href="https://docs.microsoft.com/Office365/Enterprise/">엔터프라이즈 조직에서 Microsoft 365를 배포, 구성 및 관리하는 IT 전문가를 위한 지침입니다.</a></p>
                     </div>
                 </div>
             </div>
@@ -249,7 +249,7 @@ ms.locfileid: "43624003"
                     <div class="cardText">
                         <h3>문제 해결</h3>
                         <p><a href="https://go.microsoft.com/fwlink/?linkid=522692">Office 설치 문제 해결</a></p>
-                        <p><a href="https://diagnostics.outlook.com/">Office 365용 지원 및 복구 도우미를 사용한 Outlook 및 Microsoft 365 문제 해결</a></p>
+                        <p><a href="https://diagnostics.outlook.com/">Microsoft 지원 및 복구 도우미로 Outlook 및 Microsoft 365 문제 해결</a></p>
                         <p><a href="https://docs.microsoft.com/office365/troubleshoot/troubleshooting/troubleshoot-email-issues">전자 메일 문제 해결</a></p>
                         <p><a href="https://go.microsoft.com/fwlink/?linkid=866431">비즈니스용 OneDrive 동기화 문제 해결</a></p>
                     </div>

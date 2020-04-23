@@ -1,5 +1,5 @@
 ---
-title: Office 365에서 다른 사용자에게 사서함 사용 권한 부여 - 관리자 도움말
+title: 다른 사용자에게 사서함 권한 제공 - 관리자 도움말
 f1.keywords:
 - NOCSH
 ms.author: kwekua
@@ -21,14 +21,14 @@ search.appverid:
 - MOE150
 ms.assetid: 1dbcf12f-a9de-4d1d-b0b3-a227f8a736d8
 description: '사용자에게 다른 사용자의 사서함에 액세스할 수 있는 권한을 부여하는 방법에 대해 알아봅니다. 이를 통해 사용자에게 다른 사용자의 사서함에서 메일을 읽고 보낼 수 있는 권한을 부여합니다. '
-ms.openlocfilehash: 695068d2002b20637b6df6a2514b74828f273965
-ms.sourcegitcommit: 311bbd6f168225ede166d29696126a1e003eee0f
+ms.openlocfilehash: 5a0677844e8503253561c57f926c9c4fadadd76d
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43151350"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43617173"
 ---
-# <a name="give-mailbox-permissions-to-another-user-in-office-365---admin-help"></a>Office 365에서 다른 사용자에게 사서함 사용 권한 부여 - 관리자 도움말
+# <a name="give-mailbox-permissions-to-another-user---admin-help"></a>다른 사용자에게 사서함 권한 제공 - 관리자 도움말
 
 ::: moniker range="o365-worldwide"
 
@@ -49,11 +49,11 @@ ms.locfileid: "43151350"
   
 사용 권한을 설정하는 첫 번째 단계는 다른 사용자가 지정된 사서함에서 수행할 수 있도록 할 작업을 결정하는 것입니다. 사용자가 사서함에서 전자 메일을 읽고, 다른 사용자를 대신하여 전자 메일을 보내고, 해당 사서함에서 전송된 것처럼 전자 메일을 보내도록 허용할 수 있습니다. 각 사용 권한 유형을 설정하는 방법에 대해서는 다음 문서를 참조하세요.
   
-- [다른 사용자의 사서함에서 전자 메일 읽기](https://support.office.com/article/Read-email-from-another-user-s-mailbox-in-Office-365-cb3b6a8a-c6e8-4342-803c-3e54b6428cc2?#bkmk_reademailanotheruser)
+- [다른 사용자의 사서함에서 전자 메일 읽기](give-mailbox-permissions-to-another-user.md#read-email-in-another-users-mailbox)
     
-- [다른 사용자의 사서함에서 전자 메일 보내기](https://docs.microsoft.com/microsoft-365/admin/add-users/give-mailbox-permissions-to-another-user)
-    
-- [사용자를 대신하여 전자 메일 보내기](https://docs.microsoft.com/microsoft-365/admin/add-users/give-mailbox-permissions-to-another-user)
+- [다른 사용자의 사서함에서 전자 메일 보내기](give-mailbox-permissions-to-another-user.md#send-email-from-another-users-mailbox)
+
+- [다른 사용자를 대신하여 전자 메일 보내기](give-mailbox-permissions-to-another-user.md#send-email-on-behalf-of-another-user)
     
  **전파 변경:**
   

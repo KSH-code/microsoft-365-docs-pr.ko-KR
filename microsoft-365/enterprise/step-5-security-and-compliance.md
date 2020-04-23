@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 중요한 Windows/Office 보안 및 준수 고려 사항에 대해 알아봅니다.
-ms.openlocfilehash: 1d38347ca1bdf152a891cfd147ec3fabf552ff3d
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 003064f521f1a68c01da9d6a2c9fb19eae7d3eaf
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42085272"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636775"
 ---
 # <a name="step-5-security-and-compliance-considerations"></a>5단계: 보안 및 준수 고려 사항
 
@@ -30,20 +30,20 @@ ms.locfileid: "42085272"
 <thead>
 <td><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-8.png" alt="Step 5" height="135" width="135" /></td>
 <td><p><strong>5단계: 보안 및 준수 고려 사항</strong></p>
-<p>Windows 10 및 Office 365 ProPlus는 데이터, 장치 및 사용자를 보호하고 위협을 빠르게 감지하고 대응하는 새로운 방법을 제공합니다. 또한 디스크 암호화, 맬웨어 방지 앱 및 Windows 10으로 전환할 때의 정책과 관련된 일반적인 문제를 처리하는 방법도 알아봅니다.</p></td>
+<p>Windows 10 및 엔터프라이즈용 Microsoft 365 앱은 데이터, 장치 및 사용자를 보호하고 위협을 빠르게 감지하고 대응하는 새로운 방법을 제공합니다. 또한 디스크 암호화, 맬웨어 방지 앱 및 Windows 10으로 전환할 때의 정책과 관련된 일반적인 문제를 처리하는 방법도 알아봅니다.</p></td>
 <td><a href="https://aka.ms/ddev5" target="_blank"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-18.png" alt="Step 5" height="130" width="231" /></a></td>
 </thead>
 </table>
 
 >[!NOTE]
->보안 및 규정 준수는 Windows 10/Office 365 ProPlus 보안 및 준수 고려 사항을 포함하는 권장 배포 프로세스 사이클의 5번째 단계입니다. 전체 데스크톱 배포 프로세스를 보려면 [데스크톱 배포 센터](https://aka.ms/HowToShift)를 방문하세요.
+>보안 및 규정 준수는 Windows 10/엔터프라이즈용 Microsoft 365 앱 보안 및 준수 고려 사항을 포함하는 권장 배포 프로세스 사이클의 5번째 단계입니다. 전체 데스크톱 배포 프로세스를 보려면 [데스크톱 배포 센터](https://aka.ms/HowToShift)를 방문하세요.
 >
 
-이제 이전 버전의 Windows 및 Office에서 전환하는 경우의 고려 사항 및 일반적인 방해 요인과 함께, Windows 10 및 Office 365 ProPlus 배포의 일부로서 새로운 보안 및 준수 기능을 목표로 구현하기 위한 옵션을 검토할 차례입니다. 많은 보안 관련 기능 때문에 최신 플랫폼인 Windows 10으로의 전환이 추진되고 있습니다. 또한 Office 365의 클라우드 서비스와의 통합과 Azure Active Directory를 사용하는 ID 옵션을 통해 데이터, 장치 및 사용자를 위한 새롭거나 지속적으로 업데이트되는 보호 기능을 활용할 수 있습니다.
+이제 이전 버전의 Windows 및 Office에서 전환하는 경우의 고려 사항 및 일반적인 방해 요인과 함께, Windows 10 및 엔터프라이즈용 Microsoft 365 앱 배포의 일부로서 새로운 보안 및 준수 기능을 목표로 구현하기 위한 옵션을 검토할 차례입니다. 많은 보안 관련 기능 때문에 최신 플랫폼인 Windows 10으로의 전환이 추진되고 있습니다. 또한 클라우드 서비스와의 통합과 Azure Active Directory를 사용하는 ID 옵션을 통해 데이터, 장치 및 사용자를 위한 새롭거나 지속적으로 업데이트되는 보호 기능을 활용할 수 있습니다.
 
 ## <a name="overcoming-potential-security-related-deployment-blockers"></a>잠재적인 보안 관련 배포 방해 요인 극복
 
-Windows 10 및 Office 365 ProPlus로 전환하고 이러한 환경을 클라우드에 연결할 때 추가할 수 있는 새로운 기능을 설명하기 전에, 배포 진행을 중단시킬 수 있는 몇 가지 추세부터 살펴보겠습니다.
+Windows 10 및 엔터프라이즈용 Microsoft 365 앱으로 전환하고 이러한 환경을 클라우드에 연결할 때 추가할 수 있는 새로운 기능을 설명하기 전에, 배포 진행을 중단시킬 수 있는 몇 가지 추세부터 살펴보겠습니다.
 
 ### <a name="disk-encryption"></a>디스크 암호화
 
@@ -63,7 +63,7 @@ Windows 10 및 Office 365 ProPlus로 전환하고 이러한 환경을 클라우�
 
 ### <a name="security-policies"></a>보안 정책
 
-이전 버전의 Windows 및 Office에 사용되는 Active Directory 그룹 정책 설정은 Windows 10 및 Office 365 ProPlus로 직접 변환되지 않을 수 있으며, 최신 보안 및 준수 기능에 따라 고려 사항도 달라집니다. Microsoft 보안 규정 준수 도구 키트를 사용하여 현재 버전의 Windows 및 Office에 대한 보안 정책 기준을 확인하는 것이 좋습니다. 또한 Microsoft Intune의 일부로 모바일 장치 관리 정책을 살펴보는 것도 유용할 수 있습니다.
+이전 버전의 Windows 및 Office에 사용되는 Active Directory 그룹 정책 설정은 Windows 10 및 엔터프라이즈용 Microsoft 365 앱으로 직접 변환되지 않을 수 있으며, 최신 보안 및 준수 기능에 따라 고려 사항도 달라집니다. Microsoft 보안 규정 준수 도구 키트를 사용하여 현재 버전의 Windows 및 Office에 대한 보안 정책 기준을 확인하는 것이 좋습니다. 또한 Microsoft Intune의 일부로 모바일 장치 관리 정책을 살펴보는 것도 유용할 수 있습니다.
 
 ![](../media/step-5-security-and-compliance-media/step-5-security-and-compliance-media-3.png)
 
@@ -71,11 +71,11 @@ Windows 10 및 Office 365 ProPlus로 전환하고 이러한 환경을 클라우�
 
 ## <a name="new-security-and-compliance-capabilities-in-microsoft-365"></a>Microsoft 365의 새로운 보안 및 규정 준수 기능
 
-지금까지 최신 보호를 적용하기 위한 고려 사항과 전환 전에 알아야할 사항에 대해 살펴보았습니다. 이제, Windows 10, Office 365 ProPlus 및 EMS의 클라우드 기반 옵션 이상으로 전환할 때 이용할 수 있는 새로운 기능을 살펴보겠습니다.
+지금까지 최신 보호를 적용하기 위한 고려 사항과 전환 전에 알아야할 사항에 대해 살펴보았습니다. 이제, Windows 10, 엔터프라이즈용 Microsoft 365 앱 및 EMS의 클라우드 기반 옵션 이상으로 전환할 때 이용할 수 있는 새로운 기능을 살펴보겠습니다.
 
 ### <a name="identity-and-access-management"></a>ID 및 액세스 관리
 
-ID 및 액세스 관리를 먼저 살펴보겠습니다. Azure Active Directory는 앱, 장치 및 클라우드 서비스에 대한 ID 제어 평면으로, Office 365 및 기타 클라우드 서비스에 연결하는 최신 방법입니다. 조건부 액세스를 사용하면 로그인한 위치, 사용 중인 장치, 비정상적인 동작 등을 토대로 다양한 인증 요구 사항을 정의할 수 있습니다.
+ID 및 액세스 관리를 먼저 살펴보겠습니다. Azure Active Directory는 앱, 장치 및 클라우드 서비스에 대한 ID 제어 평면으로, Microsoft 365 및 기타 클라우드 서비스에 연결하는 최신 방법입니다. 조건부 액세스를 사용하면 로그인한 위치, 사용 중인 장치, 비정상적인 동작 등을 토대로 다양한 인증 요구 사항을 정의할 수 있습니다.
 
 장치 수준에서 생체 인식은 암호를 없애는 목표를 달성하면서 좀 더 간편하고 안전하게 장치 및 앱에 액세스하기 위한 고유한 식별자를 제공할 수 있습니다. Windows Hello는 장치 기반, 다단계 인증을 제공합니다. 이 기능은 정책을 통해 장치 자체, 사용자의 PIN 또는 고유한 생체 인식 식별자(예: 얼굴 또는 지문)를 활용합니다.
 
@@ -99,7 +99,7 @@ ID 및 액세스 관리를 먼저 살펴보겠습니다. Azure Active Directory�
 
 Microsoft Intelligent Security Graph를 사용하여 이러한 두 가지 정보에 빠르게 액세스하고 새로운 위협으로부터 보호할 수 있습니다. 다음은 활용할 수 있는 몇 가지 예제로, Office 관련 내용부터 제공됩니다.
 
-Office 365 ProPlus에 기본 제공되어 있는 **[데이터 손실 방지](https://docs.microsoft.com/office365/securitycompliance/data-loss-prevention-policies)** 는 신용 카드 또는 주민 등록 번호와 같은 고위험 콘텐츠가 감지될 때 사용장게 보안 정책을 알리는 데 도움을 줍니다. 정책은 관련 정보를 제공하거나, 알림을 제공한 후에 전송 및 공유를 차단할 수 있습니다.
+엔터프라이즈용 Microsoft 365 앱에 기본 제공되어 있는 **[데이터 손실 방지](https://docs.microsoft.com/office365/securitycompliance/data-loss-prevention-policies)** 는 신용 카드 또는 주민 등록 번호와 같은 고위험 콘텐츠가 감지될 때 사용장게 보안 정책을 알리는 데 도움을 줍니다. 정책은 관련 정보를 제공하거나, 알림을 제공한 후에 전송 및 공유를 차단할 수 있습니다.
 
 **[Azure Information Protection](https://docs.microsoft.com/azure/information-protection/rms-client/client-admin-guide)** 은 Office에서 사용할 수 있는 보충 서비스로, 사용자들이 Office 파일을 쉽게 분류하고 레이블을 지정할 수 있도록 합니다. 또한 레이블이 지정된 파일에 대해 암호화 또는 공유 잠금과 같은 자동 작업을 트리거할 수 있습니다.
 
@@ -119,12 +119,12 @@ Windows 10의 **[Windows Defender 응용 프로그램 컨트롤](https://docs.mi
 
 #### <a name="microsoft-intune"></a>Microsoft Intune
 
-[Microsoft Intune](https://docs.microsoft.com/intune/introduction-intune)은 IOS, Android 및 Windows 장치를 포함하는 모바일 시나리오에 대한 클라우드 기반 관리 서비스로 사용되며, 이제 공동 관리 부서에서 Configuration Manager에서 관리되는 특정 워크로드에 대한 컨트롤을 보완하고 확장하도록 구성할 수 있습니다. 한 가지 장점은 보호된 리소스에 액세스하는 장치 중에서 관리되지 않거나 도메인에 가입되지 않았거나 Azure AD에 가입되지 않은 모든 장치의 경우 장치 관리 부서에 등록하도록 요구할 수 있다는 것입니다. 또한 운영 체제 및 응용 프로그램 수준에서 세분화된 구성 및 준수 정책 적용을 활용할 수도 있습니다. 응용 프로그램 정책 및 설정을 중앙에서 구성하고, Microsoft Intune을 사용하여 Office 365 ProPlus 및 Windows 10의 스토어 앱에 적용할 수 있습니다.
+[Microsoft Intune](https://docs.microsoft.com/intune/introduction-intune)은 IOS, Android 및 Windows 장치를 포함하는 모바일 시나리오에 대한 클라우드 기반 관리 서비스로 사용되며, 이제 공동 관리 부서에서 Configuration Manager에서 관리되는 특정 워크로드에 대한 컨트롤을 보완하고 확장하도록 구성할 수 있습니다. 한 가지 장점은 보호된 리소스에 액세스하는 장치 중에서 관리되지 않거나 도메인에 가입되지 않았거나 Azure AD에 가입되지 않은 모든 장치의 경우 장치 관리 부서에 등록하도록 요구할 수 있다는 것입니다. 또한 운영 체제 및 응용 프로그램 수준에서 세분화된 구성 및 준수 정책 적용을 활용할 수도 있습니다. 응용 프로그램 정책 및 설정을 중앙에서 구성하고, Microsoft Intune을 사용하여 엔터프라이즈용 Microsoft 365 앱 및 Windows 10의 스토어 앱에 적용할 수 있습니다.
 
 ## <a name="next-step"></a>다음 단계
 
-## <a name="step-6-os-deployment-and-feature-updateshttpsakamsmdd6"></a>[6단계: 운영 체제 배포 및 기능 업데이트](https://aka.ms/mdd6)
+## <a name="step-6-os-deployment-and-feature-updates"></a>[6단계: 운영 체제 배포 및 기능 업데이트](https://aka.ms/mdd6)
 
 ## <a name="previous-step"></a>이전 단계 
 
-## <a name="step-4-user-files-and-settingshttpsakamsmdd4"></a>[4단계: 사용자 파일 및 설정](https://aka.ms/mdd4)
+## <a name="step-4-user-files-and-settings"></a>[4단계: 사용자 파일 및 설정](https://aka.ms/mdd4)

@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 ms.assetid: 06af70f3-e7dc-4ee2-a385-fb4d61a5e93b
 description: '요약: 개발/테스트 환경에서 중요하고 기밀인 SharePoint Online 팀 사이트를 만듭니다.'
-ms.openlocfilehash: 6294daa943c3815b86a9e12154901ed0b58d5e8d
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 016fd99423305e0d11272f3d25115dcffe29ecae
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42088115"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631992"
 ---
 # <a name="secure-sharepoint-online-sites-in-a-devtest-environment"></a>개발/테스트 환경의 SharePoint Online 사이트 보호
 
@@ -66,7 +66,7 @@ ms.locfileid: "42088115"
 
 6. **마케팅 직원**이라는 새로운 그룹에 대해 3-5 단계를 반복합니다.
 
-그런 다음 그룹 구성원에게 Office 365 및 EMS 구독에 대한 라이선스를 자동으로 할당하도록 자동 라이선스를 구성합니다.
+그런 다음 그룹 구성원에게 Microsoft 365 및 EMS 구독에 대한 라이선스를 자동으로 할당하도록 자동 라이선스를 구성합니다.
 
 1. Azure Portal에서 **Azure Active Directory > 라이선스 > 모든 제품**을 차례로 클릭합니다.
 
@@ -125,7 +125,7 @@ Add-AzureADGroupMember -RefObjectId (Get-AzureADUser | Where { $_.DisplayName -e
 
 4. **CEO** 사용자 계정의 속성을 나열하는 창에서(**제품 라이선스**에서) **Microsoft 365 Enterprise E5** 라이선스가 할당되었는지 확인합니다.
 
-## <a name="phase-3-create-office-365-retention-labels"></a>3단계: Office 365 보존 레이블 만들기
+## <a name="phase-3-create-retention-labels"></a>3단계: 보존 레이블 만들기
 
 이 단계에서는 SharePoint 팀 사이트에서 문서에 대한 보존 레이블을 만듭니다.
 

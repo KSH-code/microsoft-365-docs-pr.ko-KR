@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 조직 전체에 암호를 강력하고 관리하기 쉽도록 설정해야 합니다.
-ms.openlocfilehash: c0ad9e2ad86cb803484e3d350fe112580610f509
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: b4eb1861eb8d1c483972cf6a7c22a339dc1b0b36
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42633096"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637051"
 ---
 # <a name="step-2-secure-your-passwords"></a>2단계: 암호 보호
 
@@ -78,11 +78,11 @@ Azure AD Connect 도구를 사용하여 Azure AD Seamless SSO를 구성합니다
 |![Microsoft 클라우드의 테스트 랩 가이드](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon-small.png)| [테스트 랩 가이드: Azure AD Seamless Single Sign-on](single-sign-on-m365-ent-test-environment.md) |
 |||
 
-중간 검사점으로 이 단계에 대한 [종료 조건](identity-exit-criteria.md#crit-identity-sso)을 확인할 수 있습니다.
+중간 검사점으로 이 섹션에 대한 [종료 조건](identity-exit-criteria.md#crit-identity-sso)을 확인할 수 있습니다.
 
 
 <a name="identity-custom-sign-in"></a>
-## <a name="customize-the-office-365-sign-in-page"></a>Microsoft Office 365 로그인 페이지 사용자 지정
+## <a name="customize-the-sign-in-page"></a>로그인 페이지 사용자 지정
 
 *이 단계는 선택 사항이며, Microsoft 365 Enterprise E3 및 E5 버전을 위한 것입니다.*
 
@@ -90,7 +90,7 @@ Azure AD Connect 도구를 사용하여 Azure AD Seamless SSO를 구성합니다
 
 Microsoft 365 Enterprise를 사용하는 경우 회사 로고, 색 구성표 및 사용자 지정 사용자 정보를 포함하도록 로그인 및 액세스 패널 페이지의 모양을 사용자 지정할 수 있습니다. 
 
-자세한 내용은 [Office 365 로그인 페이지에 회사 브랜딩 추가](https://docs.microsoft.com/office365/admin/setup/customize-sign-in-page)를 참조하세요.
+자세한 내용은 [Microsoft 365 로그인 페이지에 회사 브랜딩 추가](https://docs.microsoft.com/office365/admin/setup/customize-sign-in-page)를 참조하세요.
 
 구성 지침은 [로그인 및 액세스 패널에 회사 브랜딩 추가](https://aka.ms/aadpaddbranding)를 참조하세요.
 

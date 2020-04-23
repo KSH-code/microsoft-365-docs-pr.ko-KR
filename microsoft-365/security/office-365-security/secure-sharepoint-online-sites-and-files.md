@@ -22,12 +22,12 @@ ms.custom:
 ms.assetid: 1d51bd87-17bf-457c-b698-61821de3afa0
 description: '요약: SharePoint Online 및 Office 365에서 파일을 보호하기 위한 구성 권장 사항입니다.'
 ROBOTS: NOINDEX, NOFOLLOW
-ms.openlocfilehash: 542cf1c899b0eee21b458cd8e9dd5fb8363cf1e9
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: aa6739caa3d3bce97750f0af1faa7e040f84ab7e
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42082303"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637843"
 ---
 # <a name="secure-sharepoint-online-sites-and-files"></a>SharePoint Online 사이트 및 파일 보호
 
@@ -63,9 +63,9 @@ SharePoint Online 팀 사이트에 대한 권장 사항은 다양한 Microsoft 3
 
 - 사용자가 조직 외부로 이러한 종류의 파일을 보내려고 할 때 경고하거나 방지하기 위해 중요 및 극비 보존 레이블에 대한 [데이터 손실 방지](../../compliance/data-loss-prevention-policies.md)(DLP) 정책이 구성됩니다.
 
-- 시나리오에 필요한 경우 [민감도 레이블](../../compliance/sensitivity-labels.md)을 사용하여 기밀성이 높은 파일을 암호화 및 사용 권한으로 보호할 수 있습니다. Azure Information Protection 고객의 경우 Microsoft 365 준수 센터에서 Azure Information Protection 레이블을 사용할 수 있으며 추가 또는 고급 구성을 수행하기로 선택한 경우 레이블이 Azure 포털과 동기화됩니다. Azure Information Protection 레이블과 Office 365 민감도 레이블은 서로 완벽하게 호환됩니다. 예를 들어, Azure Information Protection으로 분류된 콘텐츠가 있는 경우 콘텐츠를 재 분류하거나 레이블을 다시 지정할 필요가 없습니다.  일부 고객은 이러한 보호 수준을 필요로 하지 않습니다.
+- 시나리오에 필요한 경우 [민감도 레이블](../../compliance/sensitivity-labels.md)을 사용하여 기밀성이 높은 파일을 암호화 및 사용 권한으로 보호할 수 있습니다. Azure Information Protection 고객의 경우 Microsoft 365 준수 센터에서 Azure Information Protection 레이블을 사용할 수 있으며 추가 또는 고급 구성을 수행하기로 선택한 경우 레이블이 Azure 포털과 동기화됩니다. Azure Information Protection 레이블과 민감도 레이블은 서로 완벽하게 호환됩니다. 예를 들어, Azure Information Protection으로 분류된 콘텐츠가 있는 경우 콘텐츠를 재 분류하거나 레이블을 다시 지정할 필요가 없습니다.  일부 고객은 이러한 보호 수준을 필요로 하지 않습니다.
 
-## <a name="tenant-wide-settings-for-sharepoint-online-and-onedrive-for-business"></a>SharePoint Online 및 비즈니스용 OneDrive에 대한 테넌트 수준 설정
+## <a name="organization-wide-settings-for-sharepoint-online-and-onedrive-for-business"></a>SharePoint Online 및 비즈니스용 OneDrive에 대한 조직 수준 설정
 
 SharePoint Online 및 비즈니스용 OneDrive에는 모든 사이트 및 사용자에게 영향을 주는 테넌트 수준 설정이 포함됩니다. 또한 이러한 설정 중 일부는 사이트 수준에서 더 제한적으로 조정할 수 있지만 해당 제한을 완화할 수는 없습니다. 이 섹션에서는 보안 및 공동 작업에 영향을 주는 테넌트 수준 설정에 대해 설명합니다.
 
@@ -125,11 +125,11 @@ Azure Active Directory에서 권장된 조건부 액세스 정책을 사용하�
 |사이트 수준 장치 액세스 제어|추가 제어가 없습니다.|추가 제어가 없습니다.|사용자는 비호환 또는 비도메인 가입 장치로 파일을 다운로드할 수 없습니다. 이렇게 하면 다른 모든 장치에서 브라우저 전용으로 액세스할 수 있습니다.|호환되지 않거나 도메인에 가입되지 않은 장치로의 파일 다운로드를 차단합니다.|
 |보존 레이블|내부 공용|개인|중요|극비|
 |DLP 정책|||레이블이 중요 계층으로 지정된 파일을 조직 외부로 보낼 때 사용자에게 경고합니다. <br/> 신용 카드 번호 또는 기타 개인 데이터와 같은 중요 데이터 형식의 외부 공유를 차단하기 위해 이러한 데이터 형식(구성한 사용자 지정 데이터 형식 포함)에 대한 추가 DLP 정책을 구성할 수 있습니다.|사용자가 극비 계층으로 레이블이 지정된 파일을 외부 조직으로 보내지 못하도록 차단합니다. 사용자(파일을 공유하는 사용자 포함)는 근거를 제공하여 이 설정을 재정의할 수 있습니다.|
-|민감도 레이블||||민감도 레이블을 사용하여 파일에 대한 권한을 자동으로 암호화하고 부여합니다. 파일이 누출되는 경우 이러한 보호는 해당 파일과 함께 이동합니다. <br/> Office 365는 민감도 레이블을 사용하여 암호화된 파일을 읽을 수 없습니다. 또한 DLP 정책은 메타데이터(레이블 포함)에만 작동할 수 있지만 파일의 내용(예: 파일 내의 신용 카드 번호)에는 작동할 수 없습니다.|
+|민감도 레이블||||민감도 레이블을 사용하여 파일에 대한 권한을 자동으로 암호화하고 부여합니다. 파일이 누출되는 경우 이러한 보호는 해당 파일과 함께 이동합니다. <br/> Microsoft 365는 민감도 레이블을 사용하여 암호화된 파일을 읽을 수 없습니다. 또한 DLP 정책은 메타데이터(레이블 포함)에만 작동할 수 있지만 파일의 내용(예: 파일 내의 신용 카드 번호)에는 작동할 수 없습니다.|
 
 네 가지 유형의 SharePoint Online 팀 사이트를 이 솔루션에 배포하는 단계는 [3계층 보호를 위한 SharePoint Online 사이트 배포](../../compliance/deploy-sharepoint-online-sites-for-three-tiers-of-protection.md)를 참조하세요.
 
-## <a name="office-365-retention-labels"></a>Office 365 보존 레이블
+##  <a name="retention-labels"></a>보존 레이블
 
 중요한 기밀 데이터가 있는 환경에서는 보존 레이블을 사용하는 것이 좋습니다. 보존 레이블을 구성하고 게시한 후 다음 작업을 수행할 수 있습니다.
 
@@ -139,7 +139,7 @@ Azure Active Directory에서 권장된 조건부 액세스 정책을 사용하�
 
 - 보존 레이블을 기준으로 하는 DLP 정책을 적용할 수 있습니다.
 
-- 조직의 사용자가 웹용 Outlook, Outlook 2010 이상, 비즈니스용 OneDrive, SharePoint Online 및 Office 365 그룹에서 콘텐츠에 레이블을 수동으로 적용할 수 있습니다. 사용자는 종종 자신이 사용하고 있는 콘텐츠의 형식을 가장 잘 알고 있기 때문에 콘텐츠를 분류하여 적절한 DLP 정책을 적용할 수 있습니다.
+- 조직의 사용자가 웹용 Outlook, Outlook 2010 이상, 비즈니스용 OneDrive, SharePoint Online 및 Microsoft 365 그룹에서 콘텐츠에 레이블을 수동으로 적용할 수 있습니다. 사용자는 종종 자신이 사용하고 있는 콘텐츠의 형식을 가장 잘 알고 있기 때문에 콘텐츠를 분류하여 적절한 DLP 정책을 적용할 수 있습니다.
 
 ![SharePoint 사이트에 대한 권장 구성](../../media/7fed0126-ab4a-4480-922c-681970642339.png)
 

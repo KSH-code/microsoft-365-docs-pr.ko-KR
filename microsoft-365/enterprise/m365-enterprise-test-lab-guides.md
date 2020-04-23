@@ -17,12 +17,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: 706d5449-45e5-4b0c-a012-ab60501899ad
 description: 다음 테스트 랩 가이드를 사용하여 Microsoft 365 Enterprise의 데모, 개념 증명 또는 개발/테스트 환경을 설정합니다.
-ms.openlocfilehash: 1ea41cd3553c70b2a8bb99e08da43fd45b1aa558
-ms.sourcegitcommit: e525bcf073a61e1350484719a0c3ceb6ff0d8db1
+ms.openlocfilehash: 582068e84d82bfa681d1e1e64234698544ce3b9d
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43153919"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631600"
 ---
 # <a name="microsoft-365-for-enterprise-test-lab-guides"></a>Microsoft 365 Enterprise 테스트 랩 가이드
 
@@ -76,7 +76,7 @@ ID 관련 기능을 시연하려면 다음을 참조하세요.
 
 - [전역 관리자 계정 보호](protect-global-administrator-accounts-microsoft-365-test-environment.md)
  
-   조건부 액세스 정책을 사용하여 전역 관리자 계정을 잠급니다.
+   조건부 액세스 정책을 사용하여 글로벌 관리자 계정을 잠급니다.
 
 - [암호 쓰기 저장](password-writeback-m365-ent-test-environment.md)
 
@@ -96,7 +96,7 @@ ID 관련 기능을 시연하려면 다음을 참조하세요.
 
 - [ID 및 장치 액세스](identity-device-access-m365-test-environment.md)
 
-   권장된 ID 및 디바이스 액세스 구성 및 조건부 액세스 정책을 테스트할 수 있는 환경을 만듭니다.
+   권장된 ID 및 장치 액세스 구성 및 조건부 액세스 정책을 테스트할 수 있는 환경을 만듭니다.
 
 
 ## <a name="mobile-device-management"></a>모바일 장치 관리
@@ -116,16 +116,16 @@ ID 관련 기능을 시연하려면 다음을 참조하세요.
 
 정보 보호 관련 기능을 시연하려면 다음을 참조하세요.
 
-- [Office 365 보안 강화](increased-o365-security-microsoft-365-enterprise-dev-test-environment.md)
+- [강화된 Microsoft 365 보안](increased-o365-security-microsoft-365-enterprise-dev-test-environment.md)
     
-   Office 365 보안 향상을 위한 설정을 구성하고 기본 제공 보안 도구를 조사합니다.
+   Microsoft 365 보안을 개선하도록 설정을 구성하고 기본 제공 보안 도구를 조사합니다.
   
 - [데이터 분류](data-classification-microsoft-365-enterprise-dev-test-environment.md)
     
-   SharePoint Online 팀 사이트에서 Office 365 레이블을 구성하고 문서에 적용합니다.
+   SharePoint Online 팀 사이트에서 레이블을 구성하고 문서에 적용합니다.
     
 - [권한이 부여된 액세스 관리](privileged-access-microsoft-365-enterprise-dev-test-environment.md)
     
-   Office 365 조직의 권한 상승이 필요한 작업 및 권한이 부여된 작업에 대한 JIT(Just-In-Time) 액세스를 위해 권한이 부여된 액세스 관리를 구성합니다.
+   조직의 권한 상승이 필요한 작업 및 권한이 부여된 작업에 대한 JIT(Just-In-Time) 액세스를 위해 권한이 부여된 액세스 관리를 구성합니다.
 
 

@@ -15,18 +15,18 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Windows 및 Office 배포 랩 키트에 액세스하는 방법 및 위치에 대해 알아보세요.
-ms.openlocfilehash: 15bd30e54aaf5c7e7fcd881009f8c51c6d5c74e0
-ms.sourcegitcommit: 7bb340f6b47378bcd1c6e770dc975931470bbc26
+ms.openlocfilehash: 9635e6d12b9f3ef606f8b62edac4dce6d75a1074
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/10/2020
-ms.locfileid: "43225934"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631516"
 ---
 # <a name="windows-and-office-deployment-lab-kit"></a>Windows 및 Office 배포 랩 키트
 
-이 랩은 Windows 10 Enterprise 및 Office 365 ProPlus를 실행하는 데스크톱의 배포 및 관리를 계획, 테스트 및 검증하는 데 도움을 주기 위해 만들어졌습니다. 이 랩에서는 Microsoft Endpoint Configuration Manager, Desktop Analytics, Office 사용자 지정 도구, OneDrive, Windows Autopilot 등의 데스크톱 배포 도구에 설명된 단계와 도구를 다룹니다.
+이 랩은 Windows 10 Enterprise 및 엔터프라이즈용 Microsoft 365 앱을 실행하는 데스크톱의 배포 및 관리를 계획, 테스트 및 검증하는 데 도움을 주기 위해 만들어졌습니다. 이 랩에서는 Microsoft Endpoint Configuration Manager, Desktop Analytics, Office 사용자 지정 도구, OneDrive, Windows Autopilot 등의 데스크톱 배포 도구에 설명된 단계와 도구를 다룹니다.
 
-이 교육은 Windows 7 수명 종료를 준비하는 조직에 권장되며 현재 Windows 10 및 Office 365 Plus 또는 Office 2019를 사용 중인 경우에도 적용됩니다. 또한 격리된 환경으로서 랩은 배포 도구 업데이트를 탐색하고 배포 관련 자동화를 테스트하는 데 적합합니다.
+이 교육은 Windows 7 사용 종료를 준비하는 조직에 권장되며 현재 Windows 10 및 Office 365 Plus 또는 Office 2019를 사용 중인 경우에도 적용됩니다. 또한 격리된 환경으로서 랩은 배포 도구 업데이트를 탐색하고 배포 관련 자동화를 테스트하는 데 적합합니다.
 
 [Windows 및 Office 배포 랩 키트 다운로드](https://www.microsoft.com/evalcenter/evaluate-lab-kit)
 
@@ -69,7 +69,7 @@ ms.locfileid: "43225934"
 
 ### <a name="office-and-lob-app-delivery"></a>Office 및 LOB 앱 제공
 
-  - Office 365 ProPlus 배포 
+  - 엔터프라이즈용 Microsoft 365 앱
   - 구성 관리자 및 Microsoft Intune을 사용한 엔터프라이즈 관리 배포
   - Microsoft Intune을 사용하여 응용 프로그램 배포 및 관리
   - 비즈니스용 Microsoft Store를 사용하여 앱 배포 및 셀프 서비스 설치
@@ -113,7 +113,7 @@ ms.locfileid: "43225934"
 
 [Windows 및 Office 배포 랩 키트 다운로드](https://www.microsoft.com/evalcenter/evaluate-lab-kit)
 
-*광대역폭을 통해 이 콘텐츠를 다운로드하여 다운로드 환경을 개선하고 자동 프로비전을 위해 30-45분을 허용하세요. 이 랩 환경에는 최소 16GB의 사용 가능한 메모리와 150GB의 사용 가능한 디스크 공간이 필요합니다. 최적의 성능을 위해 32GB의 사용 가능한 공간이 있는 것이 좋습니다. 이 랩은 2020년 7월 5일에 만료됩니다. 만료 전에 새 버전이 게시됩니다.*
+*광대역폭을 통해 이 콘텐츠를 다운로드하여 다운로드 환경을 개선하고 자동 프로비전을 위해 30-45분을 허용하세요. 이 랩 환경에는 최소 16GB의 사용 가능한 메모리와 150GB의 사용 가능한 디스크 공간이 필요합니다. 최적의 성능을 위해 32GB의 사용 가능한 공간이 있는 것이 좋습니다. 이 랩은 2020년 4월 18일에 만료됩니다. 만료 전에 새 버전이 게시됩니다.*
 
 ## <a name="additional-guidance"></a>추가 안내
 
@@ -125,7 +125,7 @@ ms.locfileid: "43225934"
 
   - [<span class="underline">Windows 10 배포 계획</span>](https://docs.microsoft.com/windows/deployment/planning/index)
 
-  - [<span class="underline">Office 365 ProPlus 배포 가이드</span>](https://docs.microsoft.com/deployoffice/deployment-guide-for-office-365-proplus)
+  - [<span class="underline">엔터프라이즈용 Microsoft 365 앱 배포 가이드</span>](https://docs.microsoft.com/deployoffice/deployment-guide-for-office-365-proplus)
 
   - [<span class="underline">Intune 시작</span>](https://docs.microsoft.com/intune/get-started-evaluation)
 

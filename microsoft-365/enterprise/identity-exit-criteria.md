@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 구성이 ID 기반 서비스 및 인프라에 대한 Microsoft 365 Enterprise 조건을 충족하는지 확인합니다.
-ms.openlocfilehash: 433dec5e84c88dc6422619293f435f2d7199ea2e
-ms.sourcegitcommit: 08a4ee7765f3eba42f0c037c5c564c581e45df3e
+ms.openlocfilehash: 3706cd84a722e68a8b75274544630719e510345a
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42637291"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632544"
 ---
 # <a name="phase-2-identity-infrastructure-exit-criteria"></a>2단계: ID 인프라 종료 조
 
@@ -33,7 +33,7 @@ ID 인프라 관련 추가 권장 사항에 대해서는 [필수 구성 요소](
 <a name="crit-identity-global-admin"></a>
 ## <a name="required-your-global-administrator-accounts-are-protected"></a>필수: 전역 관리자 계정 보호 
 
-Microsoft 365 구독을 위반할 수 있는 공격자의 자격 증명 손상을 방지하기 위해 [Office 365 전역 관리자 계정을 보호](https://docs.microsoft.com/office365/enterprise/protect-your-global-administrator-accounts)해야 합니다.
+Microsoft 365 구독을 위반할 수 있는 공격자의 자격 증명 손상을 방지하기 위해 [전역 관리자 계정을 보호](https://docs.microsoft.com/office365/enterprise/protect-your-global-administrator-accounts)해야 합니다.
 
 이 요구 사항을 건너뛰면 전역 관리자 계정이 공격 받고 손상되기 쉽기 때문에 공격자가 시스템 전체 액세스 권한을 얻어 데이터를 수집 또는 삭제하거나 금품을 요구하기 위해 보유할 수 있습니다.
 
@@ -47,7 +47,7 @@ Microsoft 365 구독을 위반할 수 있는 공격자의 자격 증명 손상�
    ```powershell
    Get-AzureADDirectoryRole | where { $_.DisplayName -eq "Company Administrator" } | Get-AzureADDirectoryRoleMember | Ft DisplayName
    ```
-2. 1단계의 각 계정을 사용하여 Office 365에 로그인 합니다. 로그인할 때마다 Azure 다단계 인증 및 조직에서 사용 가능한 가장 강력한 형태의 보조 인증을 요구해야 합니다.
+2. 1단계의 각 계정을 사용하여 로그인합니다. 로그인할 때마다 Azure 다단계 인증 및 조직에서 사용 가능한 가장 강력한 형태의 보조 인증을 요구해야 합니다.
 
 > [!Note]
 > 그래프 모듈용 Azure Active Directory PowerShell 설치 및 Office 365 로그인에 대한 지침은 [Office 365 PowerShell에 연결](https://docs.microsoft.com/office365/enterprise/powershell/connect-to-office-365-powershell)을 참조하세요.
@@ -96,11 +96,11 @@ Microsoft 365 구독을 위반할 수 있는 공격자의 자격 증명 손상�
 필요한 경우 [2단계](identity-secure-your-passwords.md#identity-sso)를 통해 이 옵션을 충족할 수 있습니다.
 
 <a name="crit-identity-custom-sign-in"></a>
-## <a name="optional-the-office-365-sign-in-screen-is-personalized-for-your-organization"></a>선택: Office 365 로그인 화면을 조직에 맞게 개인 설
+## <a name="optional-the-sign-in-screen-is-personalized-for-your-organization"></a>선택: 로그인 화면을 조직에 맞게 개인 설정
 
-[로그인 및 액세스 패널 페이지에 회사 브랜딩을 추가](https://aka.ms/aadpaddbranding)하여 Office 365 로그인 페이지를 조직의 브랜딩을 추가해야 합니다.
+[로그인 및 액세스 패널 페이지에 회사 브랜딩을 추가](https://aka.ms/aadpaddbranding)하여 로그인 페이지를 조직의 브랜딩을 추가해야 합니다.
 
-이 옵션을 건너뛰면 사용자에게 일반 Office 365 로그인 화면이 표시되므로 조직의 사이트에 로그인 중인지 확신하지 못할 수 있습니다.
+이 옵션을 건너뛰면 사용자에게 일반 로그인 화면이 표시되므로 조직의 사이트에 로그인 중인지 확신하지 못할 수 있습니다.
 
 필요한 경우 [2단계](identity-secure-your-passwords.md#identity-custom-sign-in)를 통해 이 옵션을 충족할 수 있습니다.
 
@@ -116,11 +116,11 @@ Microsoft 365 구독을 위반할 수 있는 공격자의 자격 증명 손상�
 
 ### <a name="how-to-test"></a>테스트하는 방법
 
-1.  테스트 사용자 계정을 만들고 이 계정에 라이선스를 할당합니다. 
-2.  휴대폰에 문자 메시지를 보내는 등 실제 사용자 계정에 사용 중인 추가 인증 방법으로 테스트 사용자 계정에 대해 Azure 다단계 인증을 구성합니다. 
-3.  테스트 사용자 계정을 사용하여 Office 365 포털에 로그인합니다.
-4.  MFA에서 추가 인증 정보를 묻고 인증에 성공하는지 확인합니다. 
-5.  테스트 사용자 계정을 삭제합니다.
+1.    테스트 사용자 계정을 만들고 이 계정에 라이선스를 할당합니다. 
+2.    휴대폰에 문자 메시지를 보내는 등 실제 사용자 계정에 사용 중인 추가 인증 방법으로 테스트 사용자 계정에 대해 Azure 다단계 인증을 구성합니다. 
+3.    테스트 사용자 계정을 사용하여 Office 365 포털에 로그인합니다.
+4.    MFA에서 추가 인증 정보를 묻고 인증에 성공하는지 확인합니다. 
+5.    테스트 사용자 계정을 삭제합니다.
 
 <a name="crit-identity-ident-prot"></a>
 ## <a name="optional-azure-ad-identity-protection-is-enabled-to-protect-against-credential-compromise-microsoft-365-e5-only"></a>선택: Azure AD ID 보호를 사용하도록 설정하여 자격 증명의 노출을 방지(Microsoft 365 E5만 해당)
@@ -148,7 +148,7 @@ Microsoft 365 구독을 위반할 수 있는 공격자의 자격 증명 손상�
 
 기존 온-프레미스 AD DS(Active Directory Domain Services)가 있는 경우 Azure AD Connect를 사용하여 온-프레미스 AD DS의 사용자 계정 및 그룹을 Azure AD 테넌트에 동기화해야 합니다.
 
-디렉터리 동기화를 사용하는 경우 사용자는 자신의 컴퓨터에 로그인하고 온-프레미스 리소스에 액세스하는 데 사용하는 것과 동일한 자격 증명을 통해 Office 365 및 다른 Microsoft 클라우드 서비스에 로그인할 수 있습니다.
+디렉터리 동기화를 사용하는 경우 사용자는 자신의 컴퓨터에 로그인하고 온-프레미스 리소스에 액세스하는 데 사용하는 것과 동일한 자격 증명을 통해 Microsoft 365 및 다른 Microsoft 클라우드 서비스에 로그인할 수 있습니다.
 
 필요한 경우, [4단계](identity-add-user-accounts.md#identity-sync)를 통해 이 요구 사항을 충족할 수 있습니다.
 
@@ -164,9 +164,9 @@ Microsoft 365 구독을 위반할 수 있는 공격자의 자격 증명 손상�
 
 디렉터리 동기화가 올바르게 작동하는지 확인하려면 다음을 수행합니다.
 
-1.  AD DS에서 새 테스트 그룹을 만듭니다.
-2.  동기화 시간까지 기다립니다.
-3.  Azure AD 테넌트를 확인하여 새 테스트 그룹 이름이 표시되는지 확인합니다.
+1.    AD DS에서 새 테스트 그룹을 만듭니다.
+2.    동기화 시간까지 기다립니다.
+3.    Azure AD 테넌트를 확인하여 새 테스트 그룹 이름이 표시되는지 확인합니다.
 
 <a name="crit-identity-sync-health"></a>
 ## <a name="optional-directory-synchronization-is-monitored"></a>선택: 디렉터리 동기화 모니터링
@@ -209,11 +209,11 @@ Office 365에서 암호를 변경하여 암호 쓰기 저장을 테스트합니�
 
 ### <a name="how-to-test"></a>테스트하는 방법
 
-사용자 계정 이름과 Azure 다단계 인증을 사용하 여 Office 365 포털에 로그인합니다. 로그인 페이지에서 사용자 지정 브랜드 요소를 확인할 수 있습니다.
+사용자 계정 이름과 Azure 다단계 인증을 사용하여 포털에 로그인합니다. 로그인 페이지에서 사용자 지정 브랜드 요소를 확인할 수 있습니다.
 
 
 <a name="crit-identity-self-service-groups"></a>
-## <a name="optional-self-service-group-management-is-enabled-for-specific-azure-ad-security-and-office-365-groups"></a>선택: 특정 Azure AD 보안 및 Office 365 그룹에 대해 셀프 서비스 관리 사용
+## <a name="optional-self-service-group-management-is-enabled-for-specific-azure-ad-security-and-microsoft-365-groups"></a>선택: 특정 Azure AD 보안 및 Microsoft 365 그룹에 대해 셀프 서비스 관리 사용
 
 그룹이 셀프 서비스 관리에 적합한지 확인하고, 해당 소유자에게 그룹 관리 워크플로 및 책임을 알리고, 그룹에 대해 [Azure AD에서 셀프 서비스 관리를 설정](https://docs.microsoft.com/azure/active-directory/active-directory-accessmanagement-self-service-group-management)해야 합니다.
 
@@ -222,13 +222,13 @@ Office 365에서 암호를 변경하여 암호 쓰기 저장을 테스트합니�
 필요한 경우 [5단계](identity-use-group-management.md#identity-self-service-groups)를 통해 이 옵션을 충족할 수 있습니다.
 
 ### <a name="how-to-test"></a>테스트하는 방법
-1.  Azure Portal을 통해 Azure AD에서 테스트 사용자 계정을 만듭니다.
-2.  테스트 사용자 계정으로 로그인하여 테스트 Azure AD 보안 그룹을 만듭니다.
-3.  로그아웃했다가 IT 관리자 계정으로 다시 로그인합니다.
-4.  테스트 사용자 계정에 대한 셀프 서비스 관리를 위해 테스트 보안 그룹을 구성합니다.
-5.  로그아웃했다가 테스트 사용자 계정으로 다시 로그인합니다.
-6.  Azure Portal을 사용하여 테스트 보안 그룹에 구성원을 추가합니다.
-7.  테스트 보안 그룹과 테스트 사용자 계정을 삭제합니다.
+1.    Azure Portal을 통해 Azure AD에서 테스트 사용자 계정을 만듭니다.
+2.    테스트 사용자 계정으로 로그인하여 테스트 Azure AD 보안 그룹을 만듭니다.
+3.    로그아웃했다가 IT 관리자 계정으로 다시 로그인합니다.
+4.    테스트 사용자 계정에 대한 셀프 서비스 관리를 위해 테스트 보안 그룹을 구성합니다.
+5.    로그아웃했다가 테스트 사용자 계정으로 다시 로그인합니다.
+6.    Azure Portal을 사용하여 테스트 보안 그룹에 구성원을 추가합니다.
+7.    테스트 보안 그룹과 테스트 사용자 계정을 삭제합니다.
 
 <a name="crit-identity-dyn-groups"></a>
 ## <a name="optional-dynamic-group-membership-settings-automatically-add-user-accounts-to-groups-based-on-user-account-attributes"></a>선택: 사용자 계정 특성에 따라 사용자 계정을 그룹에 자동으로 추가하는 동적 그룹 구성원 설정

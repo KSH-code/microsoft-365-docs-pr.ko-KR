@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 환경에서 장치 및 앱 준비 상태를 평가하는 방법을 알아봅니다.
-ms.openlocfilehash: abeb6bbfcc5a8de869263f5a4aa922a6642a92f1
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: fc048b046e46b4b2e792aa9bffb695eed742a74c
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42085499"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636859"
 ---
 # <a name="step-1-device-and-app-readiness"></a>1단계: 장치 및 앱 준비
 
@@ -39,7 +39,7 @@ ms.locfileid: "42085499"
 >장치 및 앱 준비는 응용 프로그램 및 하드웨어 호환성의 전체적인 측면을 점검하는 데 권장되는 배포 프로세스 사이클의 첫 번째 단계입니다. 전체 데스크톱 배포 프로세스를 보려면 [데스크톱 배포 센터](https://aka.ms/HowToShift)를 방문하세요.
 >
 
-과거에 사용자의 데스크톱을 업그레이드할 때 발생하는 주요 장애물은 응용 프로그램 및 하드웨어 호환성입니다. Windows 10 및 Office 365 ProPlus로의 전환을 계획할 경우 지난 10년 이내에 작성한 응용 프로그램을 전환할 때만 이점이 있으며, 조직에서 Office 2010 이후의 Office 버전에서 사용한 COM 추가 기능 및 VBA 매크로는 수정 없이도 최신 버전의 Office에서 계속 작동됩니다.
+과거에 사용자의 데스크톱을 업그레이드할 때 발생하는 주요 장애물은 응용 프로그램과 하드웨어 호환성입니다. Windows 10 및 엔터프라이즈용 Microsoft 365 앱으로의 전환을 계획할 경우 지난 10년 동안 작성한 응용 프로그램을 전환할 때만 이점이 있으며, 조직에서 Office 2010 이후의 Office 버전에서 사용한 COM 추가 기능 및 VBA 매크로는 수정 없이도 최신 버전의 Office에서 계속 작동됩니다.
 
 즉, 응용 프로그램의 크기 및 사용 기간에 따라, 응용 프로그램 및 하드웨어 호환성은 권장되는 8단계 배포 프로세스에서 필수적인 초기 단계일 것입니다.
 
@@ -89,7 +89,7 @@ Desktop Analytics는 에이전트 없는 프로세스를 사용하여 데스크�
 
 Desktop Analytics를 사용하여 브라우저 기반 호환성 문제를 평가하고 ActiveX 컨트롤, 브라우저 도우미 개체, VBScript 또는 Microsoft Edge 브라우저에서 지원하지 않는 기타 레거시 기술을 사용하는 사용자가 액세스하는 웹 사이트 및 웹 앱을 식별할 수 있습니다. 사용자는 여전히 이러한 사이트에 Internet Explorer 11을 사용해야 하며 엔터프라이즈 모드 사이트 목록 관리자를 사용하여 [엔터프라이즈 모드 사이트 목록](https://docs.microsoft.com/microsoft-edge/deploy/emie-to-improve-compatibility)에 추가할 수 있습니다.
 
-또한 Office 365 ProPlus로의 이전을 지원하기 위해, [Office용 Readiness Toolkit](https://docs.microsoft.com/deployoffice/use-the-readiness-toolkit-to-assess-application-compatibility-for-office-365-pro)을 사용하여 추가 기능 및 Microsoft VBA(Visual Basic for Applications) 매크로의 호환성을 테스트할 수 있습니다.
+또한 엔터프라이즈용 Microsoft 365 앱으로의 이전을 지원하기 위해, [Office용 Readiness Toolkit](https://docs.microsoft.com/deployoffice/use-the-readiness-toolkit-to-assess-application-compatibility-for-office-365-pro)을 사용하여 추가 기능 및 Microsoft VBA(Visual Basic for Applications) 매크로의 호환성을 테스트할 수 있습니다.
 
 ![](../media/step-1-device-and-app-readiness-media/step-1-device-and-app-readiness-media-6.png)
 
@@ -110,12 +110,12 @@ Configuration Manager 소프트웨어 인벤토리는 장치 및 응용 프로�
 
 ## <a name="app-assure"></a>App Assure
 
-Windows 10 및 Office 365 ProPlus 응용 프로그램 호환성을 지원하는 또 다른 도구는 FastTrack Center를 통해 제공되는 [App Assure](https://aka.ms/appassure) 프로그램입니다. 유효한 응용 프로그램 문제가 발생할 경우 App Assure를 통해 Microsoft 엔지니어가 추가 비용없이 사용자와 협력하여 응용 프로그램 비호환성 문제를 해결합니다.
+Windows 10 및 엔터프라이즈용 Microsoft 365 앱 호환성을 지원하는 또 다른 도구는 FastTrack Center를 통해 제공되는 [App Assure](https://aka.ms/appassure) 프로그램입니다. 유효한 응용 프로그램 문제가 발생할 경우 App Assure를 통해 Microsoft 엔지니어가 추가 비용없이 사용자와 협력하여 응용 프로그램 비호환성 문제를 해결합니다.
 
 ## <a name="continued-use-of-diagnostic-data-tools"></a>진단 데이터 도구의 지속적인 사용
 
-Desktop Analytics는 단지 Windows 10 및 Office 365 ProPlus로의 전환을 도와주기 위한 도구가 아닙니다. Windows 10 및 Office 365에서 데스크톱을 실행하는 경우 이 도구를 사용하여 배포를 유지 관리하고 반기 기능 업데이트를 관리하여 최신 상태를 유지할 수 있습니다.
+Desktop Analytics는 단지 Windows 10 및 엔터프라이즈용 Microsoft 365 앱으로의 전환을 도와주기 위한 도구가 아닙니다. Windows 10 및 Office 365에서 데스크톱을 실행하는 경우 이 도구를 사용하여 배포를 유지 관리하고 반기 기능 업데이트를 관리하여 최신 상태를 유지할 수 있습니다.
 
 ## <a name="next-step"></a>다음 단계 
 
-## <a name="step-2-directory-and-network-readinesshttpsakamsmdd2"></a>[2단계: 디렉터리 및 네트워크 준비](https://aka.ms/mdd2)
+## <a name="step-2-directory-and-network-readiness"></a>[2단계: 디렉터리 및 네트워크 준비](https://aka.ms/mdd2)

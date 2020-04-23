@@ -16,12 +16,12 @@ ms.collection:
 - remotework
 ms.custom: ''
 description: 직원들이 언제 어디서나 원격으로 작업할 수 있도록 하는 인프라와 보안을 구성합니다.
-ms.openlocfilehash: 8bbbe4853805c506ee511ecdef684f407166aca0
-ms.sourcegitcommit: dbbdeca5a6cd048e1bde9e820a8b8a0d6022c7a2
+ms.openlocfilehash: 3c4d34e21993f3b0c9327b27dd0a5a14f430b1b8
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/14/2020
-ms.locfileid: "43504126"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637507"
 ---
 # <a name="empower-remote-workers"></a>원격 작업자 지원
 
@@ -58,14 +58,14 @@ ms.locfileid: "43504126"
 - 리소스에 대한 안전한 액세스
   - 인증되고 허가된 사용자만 액세스할 수 있도록 Teams, SharePoint 사이트 및 OneDrive에 대한 그룹 및 사용 권한
 - 유출된 파일 보호
-  - Office 365 DLP 정책
+  - DLP 정책
   - 파일과 함께 이동하는 암호 및 사용 권한에 대한 민감도 레이블
 - Microsoft Intune을 사용한 장치 관리 및 보안
   - 관리 장치 등록
   - 개인 장치의 앱 설정
   - 장치 및 앱 정책
 - 장치용 생산성 앱
-  - Teams, SharePoint 및 OneDrive와 공동 작업 환경을 위한 Office 365 ProPlus 앱 
+  - Teams, SharePoint 및 OneDrive와 공동 작업 환경을 위한 엔터프라이즈용 Microsoft 365 앱 
 - Windows 10 Enterprise
   - 사이버 공격으로부터 보호하고 데이터 유출을 방지하는 포괄적인 보안 기능
 - 온-프레미스 앱에 액세스
@@ -108,11 +108,11 @@ ms.locfileid: "43504126"
 
 ![원격 작업자를 위한 Windows 10 Enterprise 요소 ](../media/empower-people-to-work-remotely/remote-workers-win10-phase.png)
  
-[4단계: Office 365 ProPlus](office365proplus-infrastructure.md)에서는 인프라를 배포하여 Office 365 ProPlus를 설치하거나 조직 장치의 현재 설치된 Office 제품군(예: Office 2010 또는 Office 2013)을 Office 365 ProPlus로 업그레이드합니다. 이렇게 하면 사용자에게 최상의 보안과 공동 작업 환경을 제공합니다.
+[4 단계: 엔터프라이즈용 Microsoft 365](office365proplus-infrastructure.md): 조직에서 사용하는 장치에서 엔터프라이즈용 Microsoft 365 앱 설치를 위하여 인프라를 배포하거나 Office 2010 또는 Office 2013 등 현재 설치 된 Office 제품군을 엔터프라이즈용 Microsoft 365 앱으로 업그레이드 합니다. 이렇게 하면 사용자에게 최상의 보안과 공동 작업 환경을 제공합니다.
 
-다음은 Office 365 ProPlus가 장치에 설치된 결과 구성입니다.
+엔터프라이즈용 Microsoft 365 앱이 장치에 설치된 결과 구성입니다.
 
-![원격 작업자를 위한 OFFICE 365 PROPLUS 요소](../media/empower-people-to-work-remotely/remote-workers-proplus-phase.png)
+![원격 작업자를 위한 엔터프라이즈용 Microsoft 365 앱 요소](../media/empower-people-to-work-remotely/remote-workers-proplus-phase.png)
  
 [5단계: 모바일 장치 관리](mobility-infrastructure.md)에서는 다음에 대 한 Intune 장치 및 앱 관리를 배포합니다.
 
@@ -126,8 +126,8 @@ ms.locfileid: "43504126"
  
 [6단계: 정보 보호](infoprotect-infrastructure.md)에서는 다음을 사용하여 디지털 자산에 대한 보호를 설계하고 구성합니다.
 
-- Office 365 DLP 정책
-- 파일과 함께 이동하는 암호 및 사용 권한에 대한 Office 365 민감도 레이블
+- DLP 정책
+- 파일과 함께 이동하는 암호 및 사용 권한에 대한 Microsoft 365 민감도 레이블
 
 다음은 DLP 정책과 민감도 레이블이 강조 표시된 결과 구성입니다.
 
@@ -153,7 +153,7 @@ ms.locfileid: "43504126"
  
 ### <a name="deployment-results"></a>배포 결과
 
-기본 인프라와 워크로드를 배포하고 Windows 10 Enterprise 및 Office 365 ProPlus를 배포한 후 원격 작업자는:
+기본 인프라와 워크로드를 배포하고 Windows 10 Enterprise 및 엔터프라이즈용 Microsoft 365를 배포한 후 원격 작업자는:
 
 - 강력한 인증 및 ID 보호를 받습니다.
 - Windows 장치에 최신의 가장 안전한 버전의 Windows를 사용할 수 있습니다.
@@ -205,7 +205,7 @@ ms.locfileid: "43504126"
 
 ### <a name="user-adoption-results"></a>사용자 채택 계획
 
-원격 작업자는 Windows 10 Enterprise 또는 기타 장치와 Office 365 ProPlus를 사용하여 안전한 환경에서 공유된 Microsoft 365 Enterprise 클라우드 서비스와 리소스에 액세스하고 작업할 수 있으며 실시간으로 모임, 작성, 공동 작업을 수행할 수 있습니다.
+원격 작업자는 Windows 10 Enterprise 또는 기타 장치와 엔터프라이즈용 Microsoft 365를 사용하여 안전한 환경에서 공유된 Microsoft 365 Enterprise 클라우드 서비스와 리소스에 액세스하고 작업할 수 있으며 실시간으로 모임, 작성, 공동 작업을 수행할 수 있습니다.
 
 ## <a name="additional-microsoft-features-to-support-remote-workers"></a>원격 작업자를 지원하기 위한 추가 Microsoft 기능
 

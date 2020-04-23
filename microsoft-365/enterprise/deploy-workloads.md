@@ -12,12 +12,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 조직의 사용자에게 Microsoft 365 Enterprise의 생산성 워크로드를 제공합니다.
-ms.openlocfilehash: 692deeee652a4d27b8cc46a8e02890cccb8bb311
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: 2bb86ec474f93ea9d5f41fb104c6d533b7ec9561
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42633146"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43638167"
 ---
 # <a name="microsoft-365-for-enterprise-workloads-and-scenarios"></a>Microsoft 365 Enterprise 워크로드 및 시나리오
 
@@ -60,7 +60,7 @@ Microsoft 365 Enterprise의 독창성과 팀워크 이점을 얻으려면 기본
 | 네트워크 | 네트워크가 Microsoft 365 클라우드 서비스에 최적의 성능을 발휘하도록 업데이트 되었습니다. |
 | ID | ID는 사용자 계정에 대한 강력한 인증과 관리자 계정에 대한 보호로 동기화되고 안전하게 보호됩니다. |
 | Windows 10 Enterprise | Windows 7 또는 Windows 8.1을 실행하는 컴퓨터는 Windows 10 Enterprise로 업그레이드 할 수 있으며 새 장치는 Windows 10 Enterprise가 설치됩니다. |
-| Office 365 ProPlus | 기존 Microsoft Office 사용자는 Office 365 ProPlus로 업그레이드 할 수 있습니다. |
+| 엔터프라이즈용 Microsoft 365 앱 | Microsoft Office의 기존 사용자는 엔터프라이즈용 Microsoft 365 앱으로 업그레이드할 수 있습니다. |
 | 모바일 장치 관리 | 장치를 등록하고 관리할 수 있습니다. |
 | 정보 보호 | Office 365 정보 보호 기능이 구성되고 민감도 또는 Azure 정보 보호 레이블은 문서와 이메일을 보호할 준비가 되어있습니다. |
 
@@ -69,7 +69,7 @@ Microsoft 365 Enterprise의 독창성과 팀워크 이점을 얻으려면 기본
 다음은 몇 가지 일반적인 워크로드를 즉시 배포하는 방법입니다. 
 
 - 기본 인프라의 **ID** 단계가 사용자에게 배포되면 많은 조직이 다음을 배포합니다.
-  - [OneDrive](https://docs.microsoft.com/onedrive/plan-onedrive-enterprise)와 결합된 [Office 365 ProPlus](office365proplus-infrastructure.md). Office 365 ProPlus는 최신 인증의 보안 및 최신 Microsoft Office 클라이언트의 사용자 환경을 제공합니다. 사용자 개인 파일을 OneDrive로 마이그레이션하면 홈 폴더 및 드라이브를 지원해야 할 필요성과 인프라가 줄어 듭니다.
+  - [OneDrive](https://docs.microsoft.com/onedrive/plan-onedrive-enterprise)와 함께 사용된 [엔터프라이즈용 Microsoft 365 앱](office365proplus-infrastructure.md) 엔터프라이즈용 Microsoft 365 앱은 최신 인증 보안 및 최신 Microsoft Office 클라이언트 사용자 환경을 제공합니다. 사용자 개인 파일을 OneDrive로 마이그레이션하면 홈 폴더 및 드라이브를 지원해야 할 필요성과 인프라가 줄어 듭니다.
   - [Exchange Online](exchangeonline-workload.md)을 사용하면 사용자가 클라우드 기반 이메일을 시작할 수 있습니다.
 - 엄격히 규제된 디지털 자산을 클라우드에 즉시 저장할 필요가 없다면 **정보 보호** 단계 이전에 [Microsoft Teams](teams-workload.md) 및 [SharePoint](sharepoint-online-onedrive-workload.md)를 사용자에게 배포하세요.
 
