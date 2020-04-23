@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: eb926624-018b-4486-bf11-5fba6ee4d645
 description: 비즈니스를 위해 Microsoft 365을 설정 하기 위해 수행 해야 하는 작업에 대해 알아봅니다.
-ms.openlocfilehash: 97463e624968c5b3edf563e916cbf4929ac581b6
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: d02e1aaf03449bd976b8db549274002b3ebb6ed6
+ms.sourcegitcommit: b458277f0a9937555bc6c5b3fb2a41613f7cc9a9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627573"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "43794042"
 ---
 # <a name="plan-your-setup-of-microsoft-365-for-business"></a>비즈니스를 위한 Microsoft 365의 설정 계획
 
@@ -93,7 +93,7 @@ ms.locfileid: "43627573"
   
 전자 메일에 대해 Microsoft 365을 사용 하려면 다음을 수행 합니다.
   
-- 회사 전자 메일 주소 (예: *rob@contoso.com*)를 다른 전자 메일 서비스에서 Microsoft 365으로 이동 하려면 메일이 새 Microsoft 365 사서함으로 배달 되도록 해야 합니다. 이 작업은 도메인 호스트에서 수행 해야 하는 업데이트를 단계별로 안내 하는 **설정** 페이지에서 **사용자 데이터 마이그레이션을** 선택 하 여 수행 합니다.
+- 회사 전자 메일 주소 (예: *rob\@contoso.com*)를 다른 전자 메일 서비스에서 Microsoft 365으로 이동 하려면 메일이 새 Microsoft 365 사서함으로 배달 되도록 해야 합니다. 이 작업은 도메인 호스트에서 수행 해야 하는 업데이트를 단계별로 안내 하는 **설정** 페이지에서 **사용자 데이터 마이그레이션을** 선택 하 여 수행 합니다.
 
 - 도메인 호스트를 업데이트하면 일반적으로 1~2시간 이내에 변경 사항이 적용됩니다. 하지만 인터넷에서 변경 사항을 업데이트 하는 데 최대 72 시간이 걸릴 수 있다는 점을 염두에 두어야 합니다.
 

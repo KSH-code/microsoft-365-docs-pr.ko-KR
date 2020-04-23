@@ -1,5 +1,5 @@
 ---
-title: Office 365의 개인 데이터에 보호 적용
+title: 개인 데이터에 보호 적용하기
 f1.keywords:
 - NOCSH
 ms.author: bcarter
@@ -18,21 +18,21 @@ ms.service: O365-seccomp
 localization_priority: Priority
 search.appverid:
 - MET150
-description: Office 365에서 DLP(데이터 손실 방지) 정책을 사용하여 개인 데이터를 보호하는 방법을 알아봅니다.
-ms.openlocfilehash: ef6907f9c6574f53dc6f3ba6e44c72eac308d825
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: Microsoft 365에서 DLP(데이터 손실 방지) 정책을 사용하여 개인 데이터를 보호하는 방법을 알아봅니다.
+ms.openlocfilehash: 54bfdd27f5c18d6c145b1e9f13c5e92c1b322048
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42079766"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43634276"
 ---
-# <a name="apply-protection-to-personal-data-in-office-365"></a>Office 365의 개인 데이터에 보호 적용
+# <a name="apply-protection-to-personal-data"></a>개인 데이터에 보호 적용하기
 
-Office 365의 개인 정보 보호에는 데이터 손실 방지 기능이 포함되어 있습니다. 규정 준수 센터의 DLP(데이터 손실 방지) 정책을 사용하면 Office 365 전체에서 중요한 정보를 식별하고, 모니터링하고, 자동으로 보호할 수 있습니다.
+Microsoft 365의 개인 정보 보호에는 데이터 손실 방지 기능이 포함되어 있습니다. 규정 준수 센터의 DLP(데이터 손실 방지) 정책을 사용하면 Microsoft 365 전체에서 중요한 정보를 식별하고, 모니터링하고, 자동으로 보호할 수 있습니다.
 
 이 항목에서는 DLP를 사용하여 개인 데이터를 보호하는 방법을 설명합니다. 이 항목에서는 SharePoint 라이브러리의 권한 설정 및 장치 액세스 정책 사용을 포함하여 GDPR 규정 준수를 위해 사용할 수 있는 기타 보호 기능도 나와 있습니다.
 
-## <a name="apply-protection-using-data-loss-prevention-in-office-365"></a>Office 365에서 데이터 손실 방지를 사용하여 보호 적용
+## <a name="apply-protection-using-data-loss-prevention-in-microsoft-365"></a>Microsoft 365에서 데이터 손실 방지를 사용하여 보호 적용하기
 
 DLP를 사용하면 다음과 같은 작업을 수행할 수 있습니다.
 
@@ -42,7 +42,7 @@ DLP를 사용하면 다음과 같은 작업을 수행할 수 있습니다.
 
 -   사용자가 자신의 워크플로를 중단하지 않고 규정 준수 상태를 유지하도록 하는 방법을 알도록 도와줄 수 있습니다.
 
--   DLP 정책과 일치하는 내용을 표시하는 DLP 보고서를 확인합니다.
+-   조직의 DLP 정책과 일치하는 내용을 표시하는 DLP 보고서를 확인합니다.
 
 자세한 내용은 [데이터 손실 방지 정책 개요](https://support.office.com/article/Overview-of-data-loss-prevention-policies-1966b2a7-d1e2-4d92-ab61-42efbb137f5e)를 참조하세요.
 
@@ -62,9 +62,9 @@ DLP를 사용하면 다음과 같은 작업을 수행할 수 있습니다.
 
 ### <a name="using-dlp-for-gdpr-compliance"></a>GDPR 규정 준수를 위해 DLP 사용
 
-Office 365 DLP의 기본적인 사용 중 하나는 Office 365 환경에서 EU 데이터 주체와 관련된 개인 데이터를 식별하는 것입니다. Office 365 DLP는 SharePoint Online 및 비즈니스용 OneDrive에서 개인 데이터가 저장되는 위치나 개인 정보를 포함하는 사용자가 전자 메일을 전송하는 경우를 규정 준수 팀에 알릴 수 있습니다. 또한 DLP는 EU 거주자와 관련된 개인 정보로 작업하는 경우 정책 팁을 직원에게 제공할 수도 있습니다.
+Microsoft 365 DLP의 기본적인 사용 중 하나는 Microsoft 365 환경에서 EU 데이터 주체와 관련된 개인 데이터를 식별하는 것입니다. Microsoft 365 DLP는 SharePoint Online 및 비즈니스용 OneDrive에서 개인 데이터가 저장되는 위치나 개인 정보를 포함하는 사용자가 전자 메일을 전송하는 경우를 규정 준수팀에 알릴 수 있습니다. 또한 DLP는 EU 거주자와 관련된 개인 정보로 작업하는 경우 정책 팁을 직원에게 제공할 수도 있습니다.
 
-작업 환경에서 EU 거주자 데이터가 저장되는 위치와 직원이 해당 데이터를 처리하도록 허용된 방식을 교육하고 인식을 높이는 것도 Office 365 DLP의 한 가지 정보 보호 수준을 나타냅니다. 종종, 이 유형의 정보에 대한 액세스 권한이 이미 있는 직원에게는 일상 작업을 수행하기 위해 이러한 권한이 필요합니다. GDPR 준수를 지원하기 위해 DLP 정책을 적용해도 액세스 권한을 제한해야 할 필요는 없을 수 있습니다.
+작업 환경에서 EU 거주자 데이터가 저장되는 위치와 직원이 해당 데이터를 처리하도록 허용된 방식을 교육하고 인식을 높이는 것도 Microsoft 365 DLP의 한 가지 정보 보호 수준을 나타냅니다. 종종, 이 유형의 정보에 대한 액세스 권한이 이미 있는 직원에게는 일상 작업을 수행하기 위해 이러한 권한이 필요합니다. GDPR 준수를 지원하기 위해 DLP 정책을 적용해도 액세스 권한을 제한해야 할 필요는 없을 수 있습니다.
 
 그러나 GDPR을 준수할 때 법적 및 정보 보안 관점에서 저장되는 개인 정보의 유형과 저장 위치, 해당 정보를 저장하고 처리하는 것이 법률적 타당성이 있는지에 대한 조직의 위험 기반 평가가 수행됩니다. 이러한 평가에 따라, 조직을 보호하고 GDPR을 준수하기 위한 정책을 구현하기 위해 EU 데이터 주체에 대한 개인 정보를 포함하는 문서에 대한 직원 액세스 권한을 제거해야 할 수 있습니다. 추가 보호가 필요한 경우 추가 DLP 보호를 구성할 수 있습니다.
 
@@ -132,7 +132,7 @@ Office 365 DLP의 기본적인 사용 중 하나는 Office 365 환경에서 EU �
 </tr>
 <tr class="even">
 <td align="left">위치</td>
-<td align="left">Office 365의 모든 위치</td>
+<td align="left">Microsoft 365의 모든 위치</td>
 </tr>
 <tr class="odd">
 <td align="left">포함된 콘텐츠 찾기</td>
@@ -166,7 +166,7 @@ Office 365 DLP의 기본적인 사용 중 하나는 Office 365 환경에서 EU �
 
 현재 콘텐츠 검색 기능으로 전자 메일을 포함하는 중요한 정보 유형을 테스트할 수 없으므로, 각 정책의 중요한 정보 유형 부분에 대한 Exchange용 정책을 따로 만들고 이러한 정책의 롤아웃을 모니터링하는 것이 좋습니다.
 
-## <a name="additional-protection-you-can-apply-to-protect-personal-data-in-office-365"></a>Office 365의 개인 데이터를 보호하기 위해 적용할 수 있는 추가 보호
+## <a name="additional-protection-you-can-apply-to-protect-personal-data-in-microsoft-365"></a>Microsoft 365의 개인 데이터를 보호하기 위해 적용할 수 있는 추가 보호
 
 중요한 정보 유형, 레이블 및 데이터 손실 보호 정책은 특정 데이터를 포함하는 문서를 식별하고 보호를 적용하는 데 도움을 줍니다. 그러나 이러한 보호는 데이터 액세스에 대해 설정된 적절한 권한, 손상되지 않은 계정의 사용자, 정상 상태의 장치에 따라 좌우됩니다.
 
@@ -189,7 +189,7 @@ Office 365 DLP의 기본적인 사용 중 하나는 Office 365 환경에서 EU �
 <td align="left"><p>중요한 정보 유형</p>
 <p>Office 레이블</p>
 <p>데이터 손실 방지 정책</p>
-<p>전자 메일에 대한 Office 365 메시지 암호화</p></td>
+<p>전자 메일에 대한 Microsoft 365 메시지 암호화</p></td>
 </tr>
 <tr class="even">
 <td align="left">사이트 및 라이브러리 수준 보호(SharePoint Online 및 비즈니스용 OneDrive 사이트 포함)</td>
@@ -198,7 +198,7 @@ Office 365 DLP의 기본적인 사용 중 하나는 Office 365 환경에서 EU �
 <p>사이트 수준 장치 액세스 제어</p></td>
 </tr>
 <tr class="odd">
-<td align="left">서비스 액세스 보호(Office 365의 모든 서비스에 대한 액세스 포함)</td>
+<td align="left">서비스 액세스 보호(Microsoft 365의 모든 서비스에 대한 액세스 포함)</td>
 <td align="left"><p>EMS(Enterprise Mobility + Security) 제품군의 ID 및 장치 액세스 보호</p>
 <p>권한이 부여된 액세스 관리</p>
 <p>Windows 10 보안 기능</p></td>
@@ -212,7 +212,7 @@ Office 365 DLP의 기본적인 사용 중 하나는 Office 365 환경에서 EU �
 
 GDPR 규정 준수에 대해 구성된 환경에서 다음과 같은 기능을 사용할 수 있습니다. 이러한 기능은 GDPR 규정 준수를 위해 필요하지는 않지만 GDPR 준수와 관련된 데이터를 검색, 보호, 모니터링 및 보고하는 기능에 영향을 미치지 않으면서 사용할 수 있습니다.
 
-고객 키 - 고객이 Office 365 내에서 휴지 상태의 데이터를 암호화하는 데 사용되는 암호화 키를 제공하고 제어할 수 있도록 합니다. 규정에 따라 자체 암호화 키를 관리해야 하는 고객에게만 권장됩니다.
+고객 키 - 고객이 Microsoft 365 내에서 휴지 상태의 데이터를 암호화하는 데 사용되는 암호화 키를 제공하고 제어할 수 있도록 합니다. 규정에 따라 자체 암호화 키를 관리해야 하는 고객에게만 권장됩니다.
 
 고객 Lockbox - 고객 Lockbox를 사용하면 필요한 경우 사례별로 기술적 문제를 해결하기 위해 Microsoft 지원 엔지니어가 사용자의 데이터에 액세스하는 방식을 제어할 수 있습니다. 지원 엔지니어에게 사용자 데이터에 대한 액세스 권한을 부여할지 여부를 제어할 수 있습니다. 요청별로 만료 시간이 제공됩니다.
 
@@ -259,7 +259,7 @@ SharePoint의 사용 권한을 사용하여 사용자에게 사이트 또는 해
 
 대부분의 조직에서는 공동 작업을 지원하기 위해 외부 공유를 허용합니다. 테넌트 전체 설정이 구성되는 방식을 알아보세요. 그런 후 개인 데이터를 포함하는 사이트에 대한 외부 공유 설정을 검토하세요.
 
-외부 사용자는 SharePoint Online 사이트 및 문서에 액세스하도록 초대를 받았으나 SharePoint Online 또는 Microsoft Office 365 구독에 대한 라이선스가 없는 조직 외부의 사람입니다.
+외부 사용자는 SharePoint Online 사이트 및 문서에 액세스하도록 초대를 받았으나 SharePoint Online 또는 Microsoft Microsoft 365 구독에 대한 라이선스가 없는 조직 외부의 사람입니다.
 
 외부 공유 정책은 SharePoint Online 및 비즈니스용 OneDrive 둘 다에 적용됩니다.
 
@@ -279,7 +279,7 @@ SharePoint의 사용 권한을 사용하여 사용자에게 사이트 또는 해
 <tbody>
 <tr class="odd">
 <td align="left">공유 유형</td>
-<td align="left"><p>조직 외부의 공유 허용 안 함(개별 사이트 모음에 대해 설정 가능)</p>
+<td align="left"><p>조직 외부 공유 허용 안 함(개별 사이트 모음에 대해 설정 가능)</p>
 <p>인증된 외부 사용자만 공유 허용(개별 사이트 모음에 대해서는 새로 허용 또는 기존으로 제한을 설정할 수 있음)*</p>
 <p>익명 액세스 링크가 있는 외부 사용자의 공유 허용(개별 사이트 모음에 대해 설정 가능)</p>
 <p>도메인을 사용하는 외부 공유 제한(허용 및 거부 목록)</p>
@@ -288,7 +288,7 @@ SharePoint의 사용 권한을 사용하여 사용자에게 사이트 또는 해
 </tr>
 <tr class="even">
 <td align="left">외부 사용자가 수행할 수 있는 작업</td>
-<td align="left"><p>외부 사용자가 소유하지 않는 파일, 폴더, 사이트를 공유하지 못하도록 금지</p>
+<td align="left"><p>외부 사용자가 소유하지 않은 파일, 폴더, 사이트를 공유하지 못하도록 금지</p>
 <p>외부 사용자는 초대를 받은 동일한 계정을 사용하여 공유 초대를 수락해야 함</p></td>
 </tr>
 <tr class="odd">
@@ -358,7 +358,7 @@ SharePoint 및 비즈니스용 OneDrive에 대한 장치 액세스 정책은 구
 
 ## <a name="service-access-protection-for-identities-and-devices"></a>ID 및 장치에 대한 서비스 액세스 보호
 
-서비스에 액세스하는 ID 및 장치에 대한 보호를 구성하는 것이 좋습니다. Office 365 서비스에 대한 액세스를 보호하기 위해 구성한 작업을 사용하여 다른 SaaS 서비스, PaaS 서비스 및 기타 클라우드 공급자의 앱에 대한 액세스도 보호할 수 있습니다.
+서비스에 액세스하는 ID 및 장치에 대한 보호를 구성하는 것이 좋습니다. Microsoft 365 서비스에 대한 액세스를 보호하기 위해 구성한 작업을 사용하여 다른 SaaS 서비스, PaaS 서비스 및 기타 클라우드 공급자의 앱에 대한 액세스도 보호할 수 있습니다.
 
 ID 및 장치에 대한 액세스 보호는 ID가 손상되지 않고, 장치가 안전하고, 장치에서 액세스되는 조직 데이터가 격리 및 보호되도록 하는 보호 기준을 제공합니다.
 
@@ -366,7 +366,7 @@ ID 및 장치에 대한 액세스 보호는 ID가 손상되지 않고, 장치가
 
 AD FS를 사용하는 하이브리드 ID 환경에 대해서는 [권장되는 보안 정책 및 구성](https://docs.microsoft.com/microsoft-365-enterprise/microsoft-security-guidance)을 참조하세요.
 
-다음 그림에서는 클라우드 서비스(SaaS, PaaS), 계정 유형(테넌트 도메인 계정 및 B2B 계정), 서비스 액세스 기능이 관련디는 방식을 보여 줍니다. B2B 계정에 사용할 수 있는 기능을 이해하는 것도 중요합니다.
+다음 그림에서는 클라우드 서비스(SaaS, PaaS), 계정 유형(테넌트 도메인 계정 및 B2B 계정), 서비스 액세스 기능이 관계를 보여 줍니다. B2B 계정에 사용할 수 있는 기능을 이해하는 것도 중요합니다.
 
 ![클라우드 서비스, 계정 유형 및 액세스 기능](../media/Apply-protection-to-personal-data-in-Office-365-image4.png)
 
@@ -374,11 +374,11 @@ AD FS를 사용하는 하이브리드 ID 환경에 대해서는 [권장되는 �
 
 ### <a name="cloud-services"></a>클라우드 서비스
 
-Azure Active Directory는 Amazon Web Services와 같은 타사 공급자를 비롯한 모든 클라우드 서비스에 대한 ID 액세스를 제공합니다. 이 그림에서는 Office 365를 "기타 SaaS 앱" 및 "PaaS 앱”을 보여 줍니다. Azure Active Directory에서 이러한 각 서비스로 연결되는 화살표는 이러한 모든 앱 유형에 대한 인증에 Azure Active Directory를 사용할 수 있음을 보여 줍니다.
+Azure Active Directory는 Amazon Web Services와 같은 타사 공급자를 비롯한 모든 클라우드 서비스에 대한 ID 액세스를 제공합니다. 이 그림에서는 Microsoft 365, "기타 SaaS 앱", "PaaS 앱”을 보여 줍니다. Azure Active Directory에서 이러한 각 서비스로 연결되는 화살표는 이러한 모든 앱 유형에 대한 인증에 Azure Active Directory를 사용할 수 있음을 보여 줍니다.
 
 ### <a name="types-of-accounts"></a>계정 유형
 
-테넌트 도메인 계정은 테넌트에 추가하고 직접 관리하는 계정입니다. B2B 계정은 공동 작업을 위해 초대하는 조직 외부의 사용자를 위한 계정입니다. 이러한 계정은 다른 Office 365 계정, 다른 조직 계정 또는 소비자 계정(예: Gmail)일 수 있습니다. 이 그림에서는 Azure Active Directory 내의 두 계정 유형을 보여 줍니다.
+테넌트 도메인 계정은 테넌트에 추가하고 직접 관리하는 계정입니다. B2B 계정은 공동 작업을 위해 초대하는 조직 외부의 사용자를 위한 계정입니다. 이러한 계정은 다른 Microsoft 365 계정, 다른 조직 계정 또는 소비자 계정(예: Gmail)일 수 있습니다. 이 그림에서는 Azure Active Directory 내의 두 계정 유형을 보여 줍니다.
 
 ### <a name="capabilities"></a>기능
 
