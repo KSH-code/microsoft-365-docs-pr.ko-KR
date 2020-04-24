@@ -17,18 +17,18 @@ search.appverid:
 - MOE150
 - MET150
 description: 민감도 레이블을 사용하여 SharePoint 및 Microsoft Teams 사이트, Microsoft 365 그룹의 콘텐츠를 보호합니다.
-ms.openlocfilehash: b9ca945ac90ab27d3bc25f1022070eff4737bc10
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 9252fa5a5096e8a0768277f0c72d78e4743f51dc
+ms.sourcegitcommit: f70f75b9dd163c00a3c6bc4b9f9b055e90c50367
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631305"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "43790687"
 ---
 # <a name="use-sensitivity-labels-to-protect-content-in-microsoft-teams-microsoft-365-groups-and-sharepoint-sites-public-preview"></a>민감도 레이블 사용하여 Microsoft Teams, Microsoft 365 그룹 및 SharePoint 사이트(공개 미리 보기)에서 콘텐츠 보호하기
 
 >*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](https://aka.ms/ComplianceSD)*
 
-[Microsoft 365 규정 준수 센터](https://protection.office.com/)에서 민감도 레이블을 만들 때 이제 레이블을 Microsoft Teams 사이트, Microsoft 365 그룹, SharePoint 사이트 등의 컨테이너에 적용할 수 있습니다. 다음 레이블 설정을 사용하여 이러한 컨테이너의 콘텐츠를 보호할 수 있습니다.
+[Microsoft 365 규정 준수 센터](https://protection.office.com/)에서 민감도 레이블을 만들 때 이제 레이블을 Microsoft Teams 사이트, Microsoft 365 그룹(이전 Office 365 그룹), SharePoint 사이트 등의 컨테이너에 적용할 수 있습니다. 다음 레이블 설정을 사용하여 이러한 컨테이너의 콘텐츠를 보호할 수 있습니다.
 
 - Microsoft 365 그룹에 연결된 팀 사이트의 개인 정보(공개 또는 비공개)
 - 외부 사용자 액세스
@@ -79,7 +79,7 @@ Microsoft Teams, Microsoft 365 그룹 및 SharePoint 사이트의 민감도 레�
 
 이 새 **사이트 및 그룹 설정** 페이지에서 다음과 같이 설정을 구성합니다.
 
-- **Microsoft 365 그룹에 연결된 팀 사이트의 개인 정보**: **없음 - 사용자가 사이트에 액세스할 수 있는 사람을 선택하도록 허용**의 기본 설정이 현재 테넌트에 롤아웃됩니다. 민감도 레이블을 사용하여 컨테이너에서 콘텐츠를 보호하려고 할 때 이 기본 설정을 유지하되, 사용자가 계속 개인 정보 설정을 구성할 수 있도록 합니다.
+- **Office 365 그룹에 연결된 팀 사이트의 개인 정보**: **없음 - 사용자가 사이트에 액세스할 수 있는 사람을 선택하도록 허용**의 기본 설정이 현재 테넌트에 롤아웃됩니다. 민감도 레이블을 사용하여 컨테이너에서 콘텐츠를 보호하려고 할 때 이 기본 설정을 유지하되, 사용자가 계속 개인 정보 설정을 구성할 수 있도록 합니다.
     
     이 레이블을 컨테이너에 적용할 때 개인 정보 설정을 설정하고 잠그려면 **공개** 또는 **비공개**를 선택합니다. 조직의 모든 사용자가 이 레이블이 적용되는 팀 사이트 또는 그룹에 액세스하도록 하는 경우에는 **공개**를 선택하거나 조직에서 허용되는 구성원으로만 액세스를 제한하려는 경우에는 **비공개**를 선택합니다. 
     
@@ -256,7 +256,7 @@ Microsoft Teams, Microsoft 365 그룹 및 SharePoint 사이트의 민감도 레�
 
 ## <a name="classic-azure-ad-group-classification"></a>클래식 Azure AD 그룹 분류
 
-이 미리 보기를 사용하도록 설정하면 Microsoft 365에서 새 Office 365 그룹 및 SharePoint 사이트에 대해 이전 분류를 더 이상 지원하지 않습니다. 그러나 민감도 레이블을 사용하도록 변환하지 않는 한 기존 그룹 및 사이트는 여전히 이전 분류 값을 표시합니다.
+이 미리 보기를 사용하도록 설정하면 Microsoft 365에서 새 Microsoft 365 그룹 및 SharePoint 사이트에 대해 이전 분류를 더 이상 지원하지 않습니다. 그러나 민감도 레이블을 사용하도록 변환하지 않는 한 기존 그룹 및 사이트는 여전히 이전 분류 값을 표시합니다.
 
 SharePoint에 이전 그룹 분류를 사용하는 방법에 대한 예제는 [SharePoint "최신" 사이트 분류](https://docs.microsoft.com/sharepoint/dev/solution-guidance/modern-experience-site-classification)를 참조하세요.
 
@@ -299,7 +299,7 @@ SharePoint에 이전 그룹 분류를 사용하는 방법에 대한 예제는 [S
     Get-Label |ft Name, Guid
     ```
 
-3. Office 365 그룹에 적용할 민감도 레이블의 GUID를 기록해 둡니다.
+3. Microsoft 365 그룹에 적용할 민감도 레이블의 GUID를 기록해 둡니다.
 
 4. 이제 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps)합니다.
     
@@ -311,9 +311,7 @@ SharePoint에 이전 그룹 분류를 사용하는 방법에 대한 예제는 [S
     Import-PSSession $Session
     ```
 
-6. Microsoft 365 그룹에 적용할 민감도 레이블의 GUID를 기록해 둡니다.
-
-7. 다음 명령을 예로 사용하여 현재 "일반" 분류”를 포함하는 그룹 목록을 가져옵니다.
+5. 다음 명령을 예로 사용하여 현재 "일반" 분류”를 포함하는 그룹 목록을 가져옵니다.
 
    ```PowerShell
    $Groups= Get-UnifiedGroup | Where {$_.classification -eq "General"}
