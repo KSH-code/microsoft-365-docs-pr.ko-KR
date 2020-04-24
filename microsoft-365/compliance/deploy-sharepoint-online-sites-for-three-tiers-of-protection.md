@@ -20,12 +20,12 @@ ms.custom:
 - Ent_Solutions
 ms.assetid: 1e8e3cfd-b878-4088-b941-9940363a5fae
 description: '요약: 다양한 정보 보호 수준에 맞게 SharePoint Online 팀 사이트를 만들고 구성합니다.'
-ms.openlocfilehash: 1827c4a19cfd31a236dfbd58e454c610cae14477
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 44aa7c126e3ac4b077868c055f35c0b99d678b58
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42075536"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636136"
 ---
 # <a name="deploy-sharepoint-online-sites-for-three-tiers-of-protection"></a>3단계 보호를 위한 SharePoint Online 사이트 배포
 
@@ -33,7 +33,7 @@ ms.locfileid: "42075536"
   
 ## <a name="baseline-sharepoint-online-team-sites"></a>초기 SharePoint Online 팀 사이트
 
-초기 보호에는 공용 및 개인 팀 사이트가 모두 포함됩니다. 공용 팀 사이트는 조직의 모든 사용자가 검색하고 액세스할 수 있습니다. 개인 사이트는 팀 사이트와 연결된 Office 365 그룹의 구성원만 검색하고 액세스할 수 있습니다. 이러한 유형의 팀 사이트 모두에서는 구성원이 다른 사용자와 사이트를 공유할 수 있습니다.
+초기 보호에는 공용 및 개인 팀 사이트가 모두 포함됩니다. 공용 팀 사이트는 조직의 모든 사용자가 검색하고 액세스할 수 있습니다. 개인 사이트는 팀 사이트와 연결된 Microsoft 365 그룹의 구성원만 검색하고 액세스할 수 있습니다. 이러한 유형의 팀 사이트 모두에서는 구성원이 다른 사용자와 사이트를 공유할 수 있습니다.
   
 ### <a name="public"></a>공개
 
@@ -100,7 +100,7 @@ ms.locfileid: "42075536"
   
 ## <a name="next-step"></a>다음 단계
 
-[Office 365 레이블 및 DLP를 사용하여 SharePoint Online 파일 보호](protect-sharepoint-online-files-with-office-365-labels-and-dlp.md)
+[레이블 및 DLP를 사용하여 SharePoint Online 파일 보호](protect-sharepoint-online-files-with-office-365-labels-and-dlp.md)
 
 ## <a name="see-also"></a>참고 항목
 
