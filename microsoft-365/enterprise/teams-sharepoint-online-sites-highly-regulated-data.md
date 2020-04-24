@@ -16,12 +16,12 @@ ms.collection:
 - SPO_Content
 ms.custom: ''
 description: 가장 중요하고 민감한 파일을 저장할 수 있도록 안전한 SharePoint 팀 사이트를 만듭니다.
-ms.openlocfilehash: bc1a84fa7437d9b2979e10b352f8a422c457e8a0
-ms.sourcegitcommit: 6adfcf042e64b21f09f2b8e072e8eba6d3479e31
+ms.openlocfilehash: 97a01275d1d45cb02e66e88f82c95311bcb6fe70
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2020
-ms.locfileid: "42951985"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636714"
 ---
 # <a name="sharepoint-sites-for-highly-regulated-data"></a>높은 규제 대상 데이터를 위한 SharePoint 사이트
 
@@ -40,10 +40,10 @@ Microsoft 365 Enterprise에는 완전한 클라우드 기반 서비스 제품군
 
 - SharePoint 팀 사이트에 파일(문서, 슬라이드 데크, 스프레드시트 등)을 저장합니다.
 - 다음 사항을 방지하기 위해 사이트를 잠급니다.
-  - 해당 사이트에 대한 Office 365 그룹의 구성원이 아닌 사용자에 액세스합니다.
+  - 사이트의 Microsoft 365 그룹의 구성원이 아닌 사용자에게 액세스합니다.
   - 사이트의 멤버가 다른 사람에게 액세스 권한을 부여할 수 없습니다.
   - 사이트의 멤버 이외의 사용자가 다른 사람에게 액세스 권한을 요청할 수 없습니다.
-- 사용자가 조직 외부에서 파일을 보내지 못하도록 차단하기 위한 기본적인 방법으로 SharePoint 사이트에 맞게 Office 365 보존 레이블을 구성합니다.
+- 사용자가 조직 외부에서 파일을 보내지 못하도록 차단하기 위한 기본적인 방법으로 SharePoint 사이트에 맞게 보존 레이블을 구성합니다.
 - 파일을 이동하는 암호화를 사용하여 사이트에서 가장 중요한 파일을 암호화합니다.
 - 가장 중요한 파일이 사이트 외부에서 공유되더라도 파일을 열려면 권한이 있는 사용자 계정의 유효한 자격 증명이 필요하도록 해당 파일에 권한을 추가합니다.
 
@@ -53,11 +53,11 @@ Microsoft 365 Enterprise에는 완전한 클라우드 기반 서비스 제품군
 |:-------|:-----|
 | **요구 사항** | **Microsoft 365 Enterprise 기능** |
 | 파일 저장 | SharePoint 팀 사이트 |
-| 사이트 잠그기 | Office 365 그룹 및 SharePoint 팀 사이트 사용 권한 |
-| 사이트 파일의 레이블 지정 | Office 365 보존 레이블 |
-| 사용자가 조직 외부로 파일을 보내지 못하도록 차단 | Office 365의 DLP(데이터 손실 방지) 정책 |
-| 사이트의 파일 모두 암호화 | Office 365 민감도 레이블 혹은 하위 레이블 |
-| 사이트의 파일에 권한 추가 | Office 365 민감도 레이블 혹은 하위 레이블 |
+| 사이트 잠그기 | Microsoft 365 그룹 및 SharePoint 팀 사이트 사용 권한 |
+| 사이트 파일의 레이블 지정 | Microsoft 365 보존 레이블 |
+| 사용자가 조직 외부로 파일을 보내지 못하도록 차단 | DLP(데이터 손실 방지) 정책 |
+| 사이트의 파일 모두 암호화 | Microsoft 365 민감도 레이블 또는 하위 레이블 |
+| 사이트의 파일에 권한 추가 | Microsoft 365 민감도 레이블 또는 하위 레이블 |
 |||
 
 다음은 보안 SharePoint 사이트의 구성 예시입니다.
@@ -88,26 +88,26 @@ SharePoint 사이트에 대한 액세스를 보호하려면 [ID 및 장치 액�
 
 그 용도는 다음과 같은 필수 구성 항목을 파악하는 것입니다.
 
-- 사이트의 문서 부분에 할당할 Office 365 보존 레이블 및 해당 레이블의 DLP 정책
-- 사이트에 저장된 중요한 파일에 적용하는 Office 365 민감도 하위 레이블 설정
+- 사이트의 문서 부분에 할당할 보존 레이블 및 해당 레이블의 DLP 정책
+- 사이트에 저장된 중요한 파일에 적용하는 민감도 하위 레이블 설정
 
 일단 결정이 끝나면 이러한 설정을 사용하여 두 번째 작업 단계에서 사이트를 구성합니다. 
 
-### <a name="step-1-office-365-retention-labels-and-dlp-policies"></a>1단계: Office 365 보존 레이블 및 DLP 정책
+### <a name="step-1-microsoft-365-retention-labels-and-dlp-policies"></a>1단계 Microsoft 365 보존 레이블 및 DLP 정책
 
-SharePoint 팀 사이트의 문서 부분에 적용된 Office 365 보존 레이블은 사이트에 저장된 모든 파일에 대한 기본 분류 방법을 제공합니다.
+SharePoint 팀 사이트의 문서 부분에 적용된 보존 레이블은 사이트에 저장된 모든 파일에 대한 기본 분류 방법을 제공합니다.
  
-높은 규제 대상 데이터를 위한 SharePoint 사이트에서는 사용할 Office 보존 365 레이블을 결정해야 합니다.
+높은 규제 대상 데이터를 위한 SharePoint 사이트에서는 사용할 보존 레이블을 결정해야 합니다.
 
-Office 365 레이블의 디자인 고려 사항에 대해서는 [Office 365 분류 및 레이블](https://docs.microsoft.com/office365/securitycompliance/secure-sharepoint-online-sites-and-files#office-365-retention-labels)을 참조하세요.
+레이블의 디자인 고려 사항에 대해서는 [Microsoft 365 분류 및 레이블](https://docs.microsoft.com/office365/securitycompliance/secure-sharepoint-online-sites-and-files#office-365-retention-labels)을 참조하세요.
 
 중요한 정보를 보호하고 우발적이거나 의도적인 노출을 방지하려면 DLP 정책을 사용합니다. 자세한 내용은 이 [개요](https://docs.microsoft.com/office365/securitycompliance/data-loss-prevention-policies)를 참조하세요.
 
-SharePoint 사이트의 경우, 사용자가 외부 사용자와 파일을 공유하려고 할 때 사용자를 차단하도록 사이트에 할당된 Office 365 보존 레이블에 대한 DLP 정책을 구성해야 합니다. 
+SharePoint 사이트의 경우, 사용자가 외부 사용자와 파일을 공유하려고 할 때 사용자를 차단하도록 사이트에 할당된 보존 레이블에 대한 DLP 정책을 구성해야 합니다. 
 
-### <a name="step-2-your-office-365-sensitivity-sublabel"></a>2단계: Office 365 민감도 하위 레이블
+### <a name="step-2-your-microsoft-365-sensitivity-sublabel"></a>2단계: Microsoft 365 민감도 하위 레이블
 
-가장 민감한 파일에 암호화 및 사용 권한 집합을 사용하려면 Office 365 민감도 레이블 혹은 하위 레이블을 적용해야 합니다. 하위 레이블은 기존 레이블 아래에 있습니다. 
+가장 민감한 파일에 암호화 및 사용 권한 집합을 사용하려면 민감도 레이블 또는 하위 레이블을 적용해야 합니다. 하위 레이블은 기존 레이블 아래에 있습니다. 
 
 전역적인 사용과 개별적 개인 팀에 소수의 레이블이 필요한 경우에는 민감도 레이블을 사용합니다. 다수의 레이블을 보유하고 있거나 귀하의 높은 규제 대상 레이블 아래에 보안 사이트의 레이블을 구성하려는 경우 민감도 하위 레이블을 사용합니다. 
 
@@ -117,14 +117,14 @@ SharePoint 사이트의 경우, 사용자가 외부 사용자와 파일을 공�
 
 다음 사항이 결정되었습니다.
 
-- 해당 Office 365 보존 레이블 및 레이블과 연결된 DLP 정책
-- 암호화 및 사용 권한을 포함하는 Office 365 민감도 하위 레이블의 설정
+- 적절한 보존 레이블 및 레이블과 연결된 DLP 정책
+- 암호화 및 사용 권한을 포함하는 민감도 하위 레이블의 설정
 
 ## <a name="phase-2-configure"></a>2단계: 구성
 
 두 번째 작업 단계에서는 첫 번째 작업 단계에서 결정한 설정을 구현하여 높은 규제 대상 데이터에 대한 SharePoint 사이트를 만듭니다.
 
-### <a name="step-1-create-a-private-sharepoint-team-site-with-owners-and-members-of-the-corresponding-office-365-group"></a>1단계: 해당하는 Office 365 그룹의 소유자와 구성원과 함께 개인용 SharePoint 팀 사이트 만들기
+### <a name="step-1-create-a-private-sharepoint-team-site-with-owners-and-members-of-the-corresponding-microsoft-365-group"></a>1단계: 해당하는 Microsoft 365 그룹의 소유자와 구성원과 함께 개인용 SharePoint 팀 사이트 만들기
 
 개인용 SharePoint 팀 사이트를 만들려면 [이 지침]( https://support.office.com/article/create-a-site-in-sharepoint-online-4d1e11bf-8ddc-499d-b889-2b48d10b1ce8)을 따릅니다.
 
@@ -139,15 +139,15 @@ SharePoint 사이트에서 사용 권한 설정을 구성합니다.
 
 이 설정을 사용하는 경우, 사이트 그룹 구성원이 다른 구성원과 사이트를 공유하거나 구성원이 아닌 사용자가 해당 사이트의 액세스를 요청할 수 있는 기능을 사용할 수 없습니다.
 
-### <a name="step-3-configure-the-site-for-an-office-365-retention-label"></a>3단계: Office 365 보존 레이블에 맞게 사이트 구성
+### <a name="step-3-configure-the-site-for-a-retention-label"></a>3단계: 보존 레이블에 맞게 사이트 구성하기
 
-[Office 365 레이블 및 DLP를 사용하여 SharePoint 파일 보호](https://docs.microsoft.com/office365/enterprise/protect-sharepoint-online-files-with-office-365-labels-and-dlp)의 지침에 따라 다음을 수행합니다.
+[레이블 및 DLP를 사용하여 SharePoint 파일 보호하기](https://docs.microsoft.com/office365/enterprise/protect-sharepoint-online-files-with-office-365-labels-and-dlp)의 지침에 따라 다음을 수행합니다.
 
-1. 필요한 경우, 높은 규제 대상 데이터에 대한 보존 레이블을 만들고 게시합니다.
+1. 필요한 경우, 높은 규제 대상 데이터의 보존 레이블을 만들고 게시합니다.
 2. 1단계에서 만든 보존 레이블에 맞게 사이트를 구성합니다.
 3. 2단계에서 만든 보존 레이블을 사용하고 사용자가 조직 외부에서 파일을 전송하지 못하도록 높은 규제 대상 데이터에 대한 DLP 정책을 만듭니다.
 
-#### <a name="step-4-create-an-office-365-sensitivity-sublabel-for-the-site"></a>4단계: 사이트의 Office 365 민감도 하위 레이블 만들기
+#### <a name="step-4-create-a-sensitivity-sublabel-for-the-site"></a>4단계: 사이트에 민감도 하위 레이블 만들기
 
 모든 사용자가 모든 파일에 적용할 수 있는 높은 규제 대상 데이터의 민감도 레이블과 달리, 하위 레이블이 지정된 파일이 다음을 수행하려면 보안 사이트에 고유한 레이블이 필요합니다.
 
@@ -167,9 +167,9 @@ SharePoint 사이트에서 사용 권한 설정을 구성합니다.
 구성한 항목
 
 - SharePoint 사이트에 더 제한적인 사용 권한 설정
-- SharePoint 사이트의 문서 부분에 할당된 Office 365 보존 레이블
-- Office 365 보존 레이블에 대한 DLP 정책
-- 파일을 암호화하고 팀 사이트 그룹의 구성원만 공동 작성자 액세스 권한이 있는 사이트에 저장된 가장 중요한 파일에 적용할 수 있는 Office 365 레이블 혹은 하위 레이블 
+- SharePoint 사이트의 문서 부분에 할당된 보존 레이블
+- 보존 레이블에 대한 DLP 정책
+- 파일을 암호화하고 팀 사이트 그룹의 구성원만 공동 작성자 액세스 권한이 있는 사이트에 저장된 가장 중요한 파일에 적용할 수 있는 레이블 혹은 하위 레이블 
 
 다음은 높은 규제 대상의 레이블의 하위 레이블을 사용하는 결과의 구성입니다.
 

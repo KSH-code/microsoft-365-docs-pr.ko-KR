@@ -1,5 +1,5 @@
 ---
-title: Office 365 조직의 전자 메일 메시지 검색 및 삭제
+title: 조직의 전자 메일 메시지 검색 및 삭제하기
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -16,19 +16,19 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 3526fd06-b45f-445b-aed4-5ebd37b3762a
-description: Office365 보안 및 준수 센터의 검색 및 지우기 기능을 사용하여 조직의 모든 사서함에서 전자 메일 메시지를 검색하고 삭제할 수 있습니다.
-ms.openlocfilehash: c05b6addf2fe50a5e6130e3c53fa1df02e50de30
-ms.sourcegitcommit: d767c288ae34431fb046f4cfe36cec485881385f
+description: 보안 및 준수 센터의 검색 및 삭제하기 기능을 사용하여 조직의 모든 사서함에서 전자 메일 메시지를 검색하고 삭제할 수 있습니다.
+ms.openlocfilehash: 69df11f00680aec2380ed5663761a29bc1fcfebc
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "43516833"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43626444"
 ---
 # <a name="search-for-and-delete-email-messages"></a>전자 메일 메시지 검색 및 삭제
 
 **이 문서는 관리자를 위해 작성되었습니다. 사서함에서 삭제할 항목을 찾으려고 하나요? [빠른 검색을 사용하여 메시지 또는 항목 찾기](https://support.office.com/article/69748862-5976-47b9-98e8-ed179f1b9e4d)** 를 참조하세요.
    
-Office365의 콘텐츠 검색 기능을 사용하여 조직의 모든 사서함에서 전자 메일 메시지를 검색하고 삭제할 수 있습니다. 이렇게 하면 잠재적으로 유해하거나 위험성이 높은 전자 메일을 찾아서 제거하는 데 도움이 됩니다.
+콘텐츠 검색 기능을 사용하여 조직의 모든 사서함에서 전자 메일 메시지를 검색하고 삭제할 수 있습니다. 이렇게 하면 잠재적으로 유해하거나 위험성이 높은 전자 메일을 찾아서 제거하는 데 도움이 됩니다.
   
 - 위험한 첨부 파일 또는 바이러스를 포함하는 메시지
 
@@ -105,7 +105,7 @@ Start-ComplianceSearch -Identity $Search.Identity
 
 다음 단계에서는 조직의 보안 및 준수 센터 PowerShell에 연결합니다. 단계별 지침은 [보안 및 준수 센터 PowerShell에 연결하기](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell)를 참조하세요.
   
-Office 365 계정에서 MFA(다단계 인증) 또는 페더레이션된 인증을 사용하는 경우 이전 항목의 지침에 따라 보안 및 준수 센터 PowerShell에 연결할 수 없습니다. 대신 [다단계 인증을 사용하여 보안 및 준수 센터 PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/mfa-connect-to-scc-powershell) 항목의 지침을 참조하세요.
+Microsoft 365 계정에서 MFA(다단계 인증) 또는 페더레이션된 인증을 사용하는 경우 이전 항목의 지침에 따라 보안 및 준수 센터 PowerShell에 연결할 수 없습니다. 대신 [다단계 인증을 사용하여 보안 및 준수 센터 PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/mfa-connect-to-scc-powershell) 항목의 지침을 참조하세요.
 
 보안 및 준수 센터 PowerShell에 연결한 후 이전 단계에서 준비한 **New-ComplianceSearch** 및 **Start-ComplianceSearch** cmdlet을 실행합니다.
   
@@ -137,9 +137,9 @@ New-ComplianceSearchAction -SearchName "Remove Phishing Message" -Purge -PurgeTy
     
 - **메시지를 삭제하면 어떻게 되나요?**
 
-   `New-ComplianceSearchAction -Purge -PurgeType HardDelete` 명령을 사용하여 삭제한 메시지는 제거 폴더로 이동되고 사용자가 액세스할 수 없습니다. 사서함에서 단일 항목 복구를 사용하는 경우 메시지는 제거 폴더로 이동된 후 삭제된 항목 보존 기간 동안 보존됩니다. Office 365에서는 새 사서함을 만들 때 단일 항목 복구가 기본적으로 사용됩니다. 삭제된 항목 보존 기간이 만료되면 메시지는 영구 삭제로 표시되고 관리되는 폴더 도우미에서 사서함을 다음에 처리할 때 Office 365에서 제거됩니다. 
+   `New-ComplianceSearchAction -Purge -PurgeType HardDelete` 명령을 사용하여 삭제한 메시지는 제거 폴더로 이동되고 사용자가 액세스할 수 없습니다. 사서함에서 단일 항목 복구를 사용하는 경우 메시지는 제거 폴더로 이동된 후 삭제된 항목 보존 기간 동안 보존됩니다. Microsoft 365에서는 새 사서함을 만들 때 단일 항목 복구가 기본적으로 사용됩니다. 삭제된 항목 보존 기간이 만료되면 메시지는 영구 삭제로 표시되고 관리되는 폴더 도우미에서 다음에 사서함을 처리할 때 Microsoft 365에서 제거됩니다. 
 
-   `New-ComplianceSearchAction -Purge -PurgeType SoftDelete` 명령을 사용하는 경우 사용자의 복구 가능한 항목 폴더에서 삭제 폴더로 메시지가 이동합니다. 메시지는 Office 365에서 바로 제거되지 않습니다. 사용자는 사서함에 구성된 삭제된 항목 보존 기간에 따라 일정 기간 동안 삭제된 항목 폴더에서 메시지를 복구할 수 있습니다. 이 보존 기간이 만료되거나 만료되기 전에 사용자가 메시지를 제거하면 메시지는 제거 폴더로 이동되고 더 이상 액세스할 수 없습니다. 사서함에서 단일 항목 복구를 사용하는 경우 제거 폴더의 메시지는 사서함에 대해 구성된 삭제된 항목 보존 기간에 따라 일정 기간 동안 보존됩니다. Office 365에서는 새 사서함을 만들 때 단일 항목 복구가 기본적으로 사용됩니다. 삭제된 항목 보존 기간이 만료되면 메시지는 영구 삭제로 표시되고 관리되는 폴더 도우미에서 사서함을 다음에 처리할 때 Office 365에서 제거됩니다. 
+   `New-ComplianceSearchAction -Purge -PurgeType SoftDelete` 명령을 사용하는 경우 사용자의 복구 가능한 항목 폴더에서 삭제 폴더로 메시지가 이동합니다. 메시지는 Microsoft 365에서 바로 제거되지 않습니다. 사용자는 사서함에 구성된 삭제된 항목 보존 기간에 따라 일정 기간 동안 삭제된 항목 폴더에서 메시지를 복구할 수 있습니다. 이 보존 기간이 만료되거나 만료되기 전에 사용자가 메시지를 제거하면 메시지는 제거 폴더로 이동되고 더 이상 액세스할 수 없습니다. 사서함에서 단일 항목 복구를 사용하는 경우 제거 폴더의 메시지는 사서함에 대해 구성된 삭제된 항목 보존 기간에 따라 일정 기간 동안 보존됩니다. Microsoft 365에서는 새 사서함을 만들 때 단일 항목 복구가 기본적으로 사용됩니다. 삭제된 항목 보존 기간이 만료되면 메시지는 영구 삭제로 표시되고 관리되는 폴더 도우미에서 다음에 사서함을 처리할 때 Microsoft 365에서 제거됩니다. 
     
 - **50,000개를 초과하는 사서함에서 메시지를 삭제해야 하는 경우 어떻게 되나요?**
 
@@ -149,7 +149,7 @@ New-ComplianceSearchAction -SearchName "Remove Phishing Message" -Purge -PurgeTy
 
     아니요. `New-ComplianceSearchAction -Purge 명령은 인덱싱되지 않은 항목을 삭제하지 않습니다. 
     
-- **원본 위치 유지 또는 소송 보존에 포함되거나 Office 365 보존 정책에 할당된 사서함에서 메시지를 삭제하면 어떻게 되나요?**
+- **원본 위치 유지 또는 소송 보존에 포함되거나 Microsoft 365 보존 정책에 할당된 사서함에서 메시지를 삭제하면 어떻게 되나요?**
 
     메시지가 삭제되고 제거 폴더로 이동된 후 보존 기간이 만료될 때까지 보존됩니다. 보존 기간에 제한이 없는 경우 보류를 제거하거나 보존 기간을 변경할 때까지 항목이 보존됩니다.
     

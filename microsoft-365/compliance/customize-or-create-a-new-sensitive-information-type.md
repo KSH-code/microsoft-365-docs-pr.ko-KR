@@ -19,17 +19,17 @@ search.appverid:
 - MET150
 ms.custom: ''
 ms.assetid: ''
-description: GDPR에 대한 Office 365 중요한 정보 유형을 수정하거나 새로 만드는 방법을 알아봅니다.
-ms.openlocfilehash: 006a3e7be35000513053321ebb500cbd627e8779
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+description: GDPR에 대한 중요한 정보 유형을 수정하거나 새로 만드는 방법을 알아봅니다.
+ms.openlocfilehash: e29193e3fdb7f4d2cd6a5810137bc120fb1171e5
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595485"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637780"
 ---
 # <a name="customize-or-create-a-new-sensitive-information-type"></a>중요한 정보 유형 사용자 지정 또는 새로 만들기
 
-이 문서에서는 GDPR에 대한 Office 365 중요한 정보 유형을 수정하거나 새로 만드는 방법을 보여 주는 3가지 예제를 제공합니다.
+이 문서에서는 GDPR에 대한 중요한 정보 유형을 수정하거나 새로 만드는 방법을 보여 주는 3가지 예제를 제공합니다.
 
 - 기존 중요한 정보 유형 수정 — 유럽 직불 카드 번호
 
@@ -45,9 +45,9 @@ ms.locfileid: "41595485"
 
 ## <a name="modify-a-sensitive-information-type-to-improve-accuracy"></a>정확도를 향상시키도록 중요한 정보 유형 수정
 
-콘텐츠 검색을 사용하여 중요한 정보 유형을 통해 개인 데이터를 검색하려고 하는데 예상된 결과가 반환되지 않거나, 너무 많은 가양성이 반환된 경우 작업 환경에 더 잘 맞게 중요한 정보 유형을 수정하는 것이 좋습니다.
+콘텐츠 검색을 사용하여 중요한 정보 유형을 통해 개인 데이터를 검색하려고 하는데 예상된 결과가 반환되지 않거나 너무 많은 가양성이 반환된 경우, 환경에 더 잘 맞게 중요한 정보 유형을 수정하는 것이 좋습니다.
 
-중요한 정보 유형을 만들거나 사용자 지정할 때의 모범 사례는 기존의 중요한 정보 유형에 따라 새로운 정보 유형을 만들고 고유한 이름 및 식별자를 지정하는 것입니다. 예를 들어 "유럽 직불 카드 번호" 중요한 정보 유형 매개 변수를 조정하려는 경우 해당 규칙 사본에 "유럽 직불 카드 강화"로 이름을 지정하여 원본과 구분할 수 있습니다.
+중요한 정보 유형을 만들거나 사용자 지정할 때의 모범 사례는 기존의 중요한 정보 유형에 따라 새로운 정보 유형을 만들고 고유한 이름 및 식별자를 지정하는 것입니다. 예를 들어, "유럽 직불 카드 번호" 중요한 정보 유형 매개 변수를 조정하려는 경우 해당 규칙 사본에 "유럽 직불 카드 강화"로 이름을 지정하여 원본과 구분할 수 있습니다.
 
 새 중요한 정보 유형에서 정확도 향상을 위해 변경하려는 값을 수정하기만 하면 됩니다. 일단 완료되면, 새 중요한 정보 유형을 업로드하고, 방금 추가한 새 중요한 정보 유형을 사용하기 위한 새 DLP 규칙을 새로 만듭니다(또는 기존 계정 수정). 중요한 정보 유형의 정확도를 수정하려면 약간의 시행 착오가 필요할 수 있으므로 원본 유형의 복사본을 유지하여 나중에 필요할 때 원본 사본으로 대체할 수 있습니다.
 
@@ -75,11 +75,11 @@ ms.locfileid: "41595485"
 
 8.  중요한 정보를 식별하도록 콘텐츠를 다시 크롤링합니다. [사이트 크롤링 및 재인덱싱 수동 요청](https://support.office.com/article/Manually-request-crawling-and-re-indexing-of-a-site-a-library-or-a-list-9AFA977D-39DE-4321-B4CA-8C7C7E6D264E)을 참조하세요.
 
-## <a name="example-modify-the-eu-debit-card-number-sensitive-information-type"></a>예제: '유럽 직불 카드 번호' 중요한 정보 유형 수정
+## <a name="example-modify-the-eu-debit-card-number-sensitive-information-type"></a>예제: '유럽 직불 카드 번호' 중요한 정보 유형 수정하기
 
 모든 시스템에서 DLP 규칙의 정확도를 향상시키려면 샘플 데이터 집합에 대한 테스트가 필요하며, 반복적인 수정 및 테스트를 통해 미세 조정해야 할 수 있습니다. 이 예제에서는 정확도 개선을 위해 '유럽 직불 카드 번호' 중요한 정보 유형에 대한 수정 작업을 보여 줍니다.
 
-이 예제에서 유럽 직불 카드 번호를 검색할 때 해당 번호의 정의는 복잡한 패턴을 사용하여 16자리 숫자로 엄격히 정의되며 체크섬의 유효성 검사를 따라야 합닏. 이 중요한 정보 유형의 문자열 정의로 인해 이 패턴을 변경할 수 없습니다. 그러나 Office 365 DLP가 Office 365 내에서 이 중요한 정보 유형을 찾는 방식의 정확도를 높이기 위해 다음과 같이 수정할 수 있습니다.
+이 예제에서 유럽 직불 카드 번호를 검색할 때 해당 번호의 정의는 복잡한 패턴을 사용하여 16자리 숫자로 엄격히 정의되며 체크섬의 유효성 검사를 따라야 합니다. 이 중요한 정보 유형의 문자열 정의로 인해 이 패턴을 변경할 수 없습니다. 그러나 DLP가 Office 365 내에서 이 중요한 정보 유형을 찾는 방식의 정확도를 높이기 위해 다음과 같이 수정할 수 있습니다.
 
 ### <a name="proximity-modification"></a>근접성 수정
 
@@ -157,7 +157,7 @@ KQL을 사용하여 쿼리를 작성하고 최적화하려면 다음 리소스�
 
 전자 메일 주소는 데이터 주체와 관련된 중요한 정보로 간주됩니다. 다음은 콘텐츠 검색이 어떻게 유용할 수 있는지를 보여 주는 간단한 예제입니다.
 
-KQL 및 키워드를 함께 사용할 수는 없습니다. 이러한 도구를 개별적으로 사용하여 쿼리를 조정하고, 중요한 정보 유형에서 유용할 수 있는 키워드를 확인합니다.
+KQL 및 키워드를 함께 사용할 수는 없습니다. 이러한 도구를 개별적으로 사용하여 쿼리를 조정하고, 중요한 정보 유형에서 유용할 수 있는 키워드를 확인하세요.
 
 ### <a name="kql-query"></a>KQL 쿼리
 
@@ -294,7 +294,7 @@ Contoso는 CCN(Contoso 고객 번호)을 사용하여 고객 데이터베이스�
 >
 > 17040O1118
 
-Contoso는 내부 서신, 외부 서신, 문서 등에서 항상 CCN을 사용하여 고객을 참조합니다. Office 365에서는 사용자 지정 중요한 정보 유형을 만들어 CCN의 사용을 감지할 수 있으므로 이러한 형식의 개인 데이터를 사용할 때 보호 기능을 적용할 수 있습니다.
+Contoso는 내부 서신, 외부 서신, 문서 등에서 항상 CCN을 사용하여 고객을 참조합니다. CCN의 사용을 감지하여 이러한 형식의 개인 데이터를 사용할 때 보호 기능을 적용할 수 있도록 사용자 지정 중요한 정보 유형을 만들려고 합니다.
 
 ### <a name="create-a-new-sensitive-information-type-for-contoso-customer-number"></a>Contoso 고객 번호에 대한 새 중요한 정보 유형 만들기
 
@@ -312,7 +312,7 @@ Contoso는 내부 서신, 외부 서신, 문서 등에서 항상 CCN을 사용�
 <td align="left">Contoso에서는 PowerShell 및 콘텐츠 검색을 사용하여 CCN 예제 집합과 일치하는 문서를 찾습니다.</td>
 <td align="left">
 
-<p>#Office 365 보안 및 준수 센터에 연결</p>
+<p>#보안 &amp; 준수 센터에 연결하기</p>
 <p>$adminUser = &quot;alland@contoso.com&quot;</p>
 <p>Connect-IPPSSession -UserPrincipalName $adminUser</p>
 <p>#만들기 및 샘플 데이터 검색 시작</p>
@@ -363,7 +363,7 @@ Contoso는 내부 서신, 외부 서신, 문서 등에서 항상 CCN을 사용�
 <tr class="even">
 <td align="left">8</td>
 <td align="left">Contoso는 다음 PowerShell을 사용하여 사용자 지정 중요한 정보 유형을 만듭니다.</td>
-<td align="left"><p>#Office 365 보안 및 준수 센터에 연결</p>
+<td align="left"><p>#보안 &amp; 준수 센터에 연결하기</p>
 <p>$adminUser = &quot;alland@contoso.com&quot;</p>
 <p>Connect-IPPSSession -UserPrincipalName $adminUser</p>
 <p>#새 중요한 정보 유형 만들기</p>

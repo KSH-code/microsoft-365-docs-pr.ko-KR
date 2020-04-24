@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: 감사 로그 보존 정책은 Microsoft 365의 새로운 고급 감사 기능의 일부입니다. 감사 로그 보존 정책을 사용하여 조직에서 감사 로그를 보존할 기간을 지정할 수 있습니다.
-ms.openlocfilehash: d19e18fa2c701996306f5b2e567ea01708d96144
-ms.sourcegitcommit: 7d07e7ec84390a8f05034d3639fa5db912809585
+ms.openlocfilehash: 25fbabd4c7524702a985616797b31730b14a2d8f
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42091327"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636376"
 ---
 # <a name="manage-audit-log-retention-policies"></a>로그 보존 정책 감사 관리
 
@@ -85,7 +85,7 @@ Microsoft 365의 고급 감사는 모든 조직에 기본 감사 로그 보존 �
 
 ## <a name="create-an-audit-log-retention-policy-in-powershell"></a>PowerShell에서 감사 로그 보존 정책 생성
 
-Office 365 보안 및 준수 센터 PowerShell을 사용하여 감사 로그 보존 정책을 만들 수도 있습니다. 
+보안 및 준수 센터 PowerShell을 사용하여 감사 로그 보존 정책을 만들 수도 있습니다. 
 
 1. [보안 및 준수 센터 PowerShell에 연결하기](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell)
 

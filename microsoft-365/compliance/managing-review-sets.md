@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: 56ed13ad02c176465f983ffc99af93330f19d00c
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 806e27f85df0c51ffe019f5fd3c702c165afdd89
+ms.sourcegitcommit: 72e43b9bf85dbf8f5cf2040ea6a4750d6dc867c9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632943"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "43800059"
 ---
 # <a name="manage-review-sets-in-advanced-ediscovery"></a>고급 eDiscovery에서 검토 집합 관리
 
@@ -53,6 +53,6 @@ ms.locfileid: "43632943"
 
 1. [검색 결과를 검토 집합에 추가](add-data-to-review-set.md)
 
-2. [타사 365 데이터를 검토 집합으로 로드](load-non-office365-data.md)
+2. [타사 365 데이터를 검토 집합으로 로드](load-non-Office-365-data-into-a-review-set.md)
 
 3. [다른 검토 집합의 검토 집합에 데이터 추가](add-data-to-review-set-from-another-review-set.md)

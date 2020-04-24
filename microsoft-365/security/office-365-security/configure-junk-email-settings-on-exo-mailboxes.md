@@ -1,5 +1,5 @@
 ---
-title: Office 365에서 Exchange Online 사서함의 정크 메일 설정 구성
+title: Exchange Online 사서함에 대한 정크 메일 설정 구성
 ms.author: chrisda
 author: chrisda
 manager: dansimp
@@ -16,14 +16,14 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: 관리자는 Exchange Online 사서함에서 정크 메일 설정을 구성 하는 방법을 알 수 있습니다. 이러한 설정 중 상당수는 Outlook 또는 웹용 Outlook에서 사용자에 게 제공 됩니다.
-ms.openlocfilehash: 689cec3f6a8b12764d03c98d23a9eb7ab6ca8e5e
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: a18706c4bf63d9d96ba5e2f9bcbb803bddec36db
+ms.sourcegitcommit: 72e43b9bf85dbf8f5cf2040ea6a4750d6dc867c9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43638443"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "43800070"
 ---
-# <a name="configure-junk-email-settings-on-exchange-online-mailboxes-in-office-365"></a>Office 365에서 Exchange Online 사서함의 정크 메일 설정 구성
+# <a name="configure-junk-email-settings-on-exchange-online-mailboxes"></a>Exchange Online 사서함에 대한 정크 메일 설정 구성
 
 Exchange Online의 조직 스팸 방지 설정은 EOP (Exchange Online Protection)에 의해 제어 됩니다. 자세한 내용은 [Office 365의 스팸 방지 보호](anti-spam-protection.md)를 참조하세요.
 
@@ -43,11 +43,13 @@ Exchange Online의 조직 스팸 방지 설정은 EOP (Exchange Online Protectio
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
 
-- 다음 절차를 수행 하는 경우에만 Exchange Online PowerShell을 사용할 수 있습니다. Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결하기](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell)를 참조하세요.
+- 다음 절차를 수행 하는 경우에만 Exchange Online PowerShell을 사용할 수 있습니다. Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell)을 참조하세요.
 
 - 이러한 절차를 수행 하려면 먼저 사용 권한을 할당 받아야 합니다. 특히 **조직 관리**, **받는 사람 관리**및 **사용자 지정 메일 받는 사람** 역할 그룹에 기본적으로 할당 되는 **메일 받는 사람** 역할 (기본적으로 **조직 관리** 및 **Help Desk** 역할 그룹에 할당 되는 **사용자 옵션** 역할)이 필요 합니다. Exchange Online에서 역할 그룹에 사용자를 추가 하려면 [Exchange online에서 역할 그룹 수정을](https://docs.microsoft.com/Exchange/permissions-exo/role-groups#modify-role-groups)참조 하십시오. 기본 사용 권한이 있는 사용자는 [Exchange Online PowerShell에](https://docs.microsoft.com/powershell/exchange/exchange-online/disable-access-to-exchange-online-powershell)대 한 액세스 권한이 있는 경우 자체 사서함에서 동일한 절차를 수행할 수 있습니다.
 
 - EOP로 온-프레미스 Exchange 사서함을 보호하는 독립 실행형 EOP 환경에서는 EOP 스팸 필터링 결과를 변환하여 정크 메일 규칙에 따라 메시지를 정크 메일 폴더로 이동하기 위해 온-프레미스 Exchange에서 메일 흐름 규칙(전송 규칙이라고도 함)을 구성해야 합니다. 자세한 내용은 [하이브리드 환경에서 스팸을 정크 메일 폴더로 배달하도록 독립 실행형 EOP 구성하기](ensure-that-spam-is-routed-to-each-user-s-junk-email-folder.md)를 참조하세요.
+
+- 공유 사서함에 대 한 안전한 보낸 사람은 Azure AD 및 EOP에 대 한 동기화가 되지 않습니다.
 
 ## <a name="use-exchange-online-powershell-to-enable-or-disable-the-junk-email-rule-in-a-mailbox"></a>Exchange Online PowerShell을 사용 하 여 사서함에서 정크 메일 규칙을 사용 하거나 사용 하지 않도록 설정
 
@@ -181,3 +183,38 @@ Outlook 정크 메일 필터를 **낮음** 또는 **높음으로**설정 하면 
 따라서 Outlook 정크 메일 필터는 사서함에서 정크 메일 규칙을 사용할 수 없는 경우에도 사서함의 수신 허용 목록 모음과 자체 스팸 분류를 사용 하 여 메시지를 정크 메일 폴더로 이동할 수 있습니다.
 
 Outlook 및 웹용 Outlook은 모두 수신 허용 목록 컬렉션을 지원 합니다. 수신 허용 목록 컬렉션은 Exchange Online 사서함에 저장 되므로 Outlook에서 수신 허용 목록 컬렉션에 대 한 변경 내용은 웹용 Outlook에 표시 되며 그 반대의 경우도 마찬가지입니다.
+
+## <a name="limits-for-junk-email-settings"></a>정크 메일 설정에 대 한 제한
+
+사용자의 사서함에 저장 된 수신 허용 목록 컬렉션 (수신 허용-보낸 사람 목록, 수신 허용-받는 사람 목록 및 수신 거부 목록)도 EOP로 동기화 됩니다. 디렉터리 동기화를 사용 하는 경우 수신 허용 목록 컬렉션은 Azure AD로 동기화 됩니다.
+
+- 사용자 사서함의 수신 허용 목록 컬렉션에는 모든 목록 및 추가 정크 메일 필터 설정을 포함 하는 510의 제한이 있습니다. 이 제한을 초과 하는 사용자는 다음과 같은 Outlook 오류를 받게 됩니다.
+
+  > 서버 정크 메일 목록에 추가할 수 없습니다. 서버에서 허용 되는 크기를 초과 했습니다. 정크 메일 목록이 서버에서 허용 되는 크기로 줄어들 때까지 서버의 정크 메일 필터는 사용 하지 않도록 설정 됩니다.
+
+  이 제한에 대 한 자세한 내용과이를 변경 하는 방법에 대 한 자세한 내용은 [KB2669081](https://support.microsoft.com/help/2669081/outlook-error-indicates-that-you-are-over-the-junk-e-mail-list-limit)를 참조 하십시오.
+
+- EOP에서 동기화 된 수신 허용 목록 컬렉션의 동기화 제한은 다음과 같습니다.
+
+  - 수신 허용-보낸 사람 목록의 모든 항목, 수신 허용-받는 사람 목록 및 외부 연락처 ( **내 연락처에서 신뢰 전자 메일** 을 사용 하도록 설정한 경우) 1024
+  - 500 차단할 보낸 사람 목록 및 차단 된 도메인 목록의 총 항목
+
+  1024 항목 제한에 도달 하면 다음과 같은 결과가 발생 합니다.
+  
+  - 목록에서 PowerShell 및 웹용 Outlook의 항목을 허용 하지 않지만 오류는 표시 되지 않습니다.
+
+    Outlook 사용자는 510 Outlook에서 1024 개 보다 많은 항목을 계속 추가할 수 있습니다. Outlook에서 사서함 (메일 흐름 규칙, 스푸핑 방지 등)에 배달 되기 전에 EOP 필터에서 메시지를 차단 하지 않는 한 이러한 추가 항목을 사용할 수 있습니다.
+
+- 디렉터리 동기화를 사용 하는 경우 항목은 다음 순서 대로 Azure AD에 동기화 됩니다.
+
+  1. **내 연락처의 신뢰 전자 메일** 을 사용 하도록 설정한 경우 메일 연락처입니다.
+  2. 수신 허용-보낸 사람 목록 및 수신 허용-받는 사람 목록은 처음 1024 항목을 변경할 때마다 사전순으로 결합 되 고, 복제 되지 않으며, 정렬 됩니다.
+
+  첫 번째 1024 항목이 사용 되 고 관련 정보가 메시지 헤더에 스탬프 처리 됩니다.
+  
+  Azure AD와 동기화 되지 않은 1024의 항목은 Outlook (웹용 Outlook 아님)에 의해 처리 되며 메시지 헤더에는 어떠한 정보도 기록 되지 않습니다.
+
+여기에서 볼 수 있듯이 **내 연락처에서 전자 메일 신뢰** 설정을 사용 하도록 설정 하면 동기화 할 수 있는 수신 허용-보낸 사람 및 수신 허용-받는 사람 수가 줄어듭니다. 이 문제가 중요 한 경우 그룹 정책을 사용 하 여이 기능을 해제 하는 것이 좋습니다.
+
+- 파일 이름: outlk16 ax
+- 정책 설정: **연락처에서 전자 메일 신뢰**

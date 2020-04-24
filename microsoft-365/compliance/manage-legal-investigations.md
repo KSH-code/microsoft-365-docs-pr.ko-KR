@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 2e5fbe9f-ee4d-4178-8ff8-4356bc1b168e
 description: Microsoft 365 준수 센터의 eDiscovery 사례를 사용 하 여 조직의 법적 조사를 관리 합니다. E5 구독이 있는 경우에는 고급 eDiscovery의 텍스트 분석, 기계 학습 및 예측 코딩 기능을 사용 하 여 사례 데이터를 보다 자세히 분석할 수 있습니다.
-ms.openlocfilehash: 41eaa4ca4428c21b905d63365a9b3af7da1df9aa
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 1e7279fed51e108886ff0b4a6d64788d6424720e
+ms.sourcegitcommit: 72e43b9bf85dbf8f5cf2040ea6a4750d6dc867c9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635908"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "43799909"
 ---
 # <a name="manage-legal-investigations-in-microsoft-365"></a>Microsoft 365에서 법적 조사 관리
 
@@ -64,7 +64,7 @@ Microsoft 365의 고급 eDiscovery 솔루션은 Office 365의 기존 eDiscovery 
 
 - 조사를 위해 데이터를 효과적으로 수집할 수 있도록 [custodian 데이터를 인덱싱하고](processing-data-for-case.md) 인덱싱 오류를 해결 합니다.
 
-- 사례에 대 한 [데이터를 수집](collecting-data-for-ediscovery.md) 하 고 추가 조사를 위해 [검토 집합에](collecting-data-for-ediscovery.md#adding-search-results-to-a-review-set) 추가 합니다.
+- 사례에 대 한 [데이터를 수집](collecting-data-for-ediscovery.md) 하 고 추가 조사를 위해 [검토 집합에](collecting-data-for-ediscovery.md#add-search-results-to-a-review-set) 추가 합니다.
 
 - 검토 집합의 문서, [쿼리](review-set-search.md) 데이터 및 [태그](tagging-documents.md) 항목 [보기](view-documents-in-review-set.md)
 

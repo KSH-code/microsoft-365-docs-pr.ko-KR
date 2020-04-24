@@ -1,6 +1,6 @@
 ---
-title: GDPR 검색, 보호 및 Office 365 개발/테스트 환경에서 보고
-description: Office 365의 GDPR 기능을 설명합니다.
+title: 개발/테스트 환경에서 GDPR 검색, 보호 및 보고
+description: Microsoft 365의 GDPR 기능을 설명합니다.
 f1.keywords:
 - NOCSH
 ms.author: bcarter
@@ -18,27 +18,27 @@ search.appverid:
 - MET150
 ms.assetid: c2112ce8-1c4b-424f-b200-59e161db2d21
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: f7bf98da5d358f9b76f38372353a1c2a9d0d45d3
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 6a16f48948cd40ea39f8d066471e902d2b5a6bf0
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41594092"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632343"
 ---
-# <a name="gdpr-discovery-protection-and-reporting-in-the-office-365-devtest-environment"></a>GDPR 검색, 보호 및 Office 365 개발/테스트 환경에서 보고
+# <a name="gdpr-discovery-protection-and-reporting-in-the-devtest-environment"></a>개발/테스트 환경에서 GDPR 검색, 보호 및 보고
 
- **요약:** Office 365의 GDPR 기능을 설명합니다. 
+ **요약:** Microsoft 365의 GDPR 기능을 설명합니다. 
   
-이문서에서는 Office 365 개발/테스트 환경에서 일반 데이터 보호 규정(GDPR)에 대한 개인 식별이 가능한 정보(PII) 검색, 보호 및 보호를 구성하고 설명하는 방법에 대해 설명합니다.
+이 문서에서는 Microsoft 365 개발/테스트 환경에서 GDPR(일반 데이터 보호 규정)에 대한 PII(개인 식별 정보) 검색, 보호 및 보고를 구성하고 설명하는 방법에 관해 설명합니다.
   
-## <a name="phase-1-create-and-configure-your-trial-office-365-subscription"></a>1단계: 평가판 Office 365 구독 만들기 및 구성
+## <a name="phase-1-create-and-configure-your-trial-microsoft-365-subscription"></a>1단계: 평가판 Microsoft 365 구독 만들기 및 구성하기
 
-먼저 [Office 365 개발/테스트 환경](https://docs.microsoft.com/Office365/Enterprise/office-365-dev-test-environment#phase-2-create-an-office-365-trial-subscription) 문서의 2단계를 따릅니다.
+먼저 [Microsoft 365 개발/테스트 환경](https://docs.microsoft.com/Office365/Enterprise/office-365-dev-test-environment#phase-2-create-an-office-365-trial-subscription) 문서의 2단계를 수행합니다.
 
 다음으로, eDiscovery 관리자를 구성하려면 다음 단계를 사용합니다.
 
-1. 전역 관리자 계정을 사용하여 Office 365 평가판 테넌트에 로그인하세요.
-2. Office 365 홈 페이지에서 **Security & Compliance**를 클릭합니다.
+1. 전역 관리자 계정을 사용하여 Microsoft 365 평가판 테넌트에 로그인합니다.
+2. Microsoft 365 홈 페이지에서 **보안 및 준수**를 클릭합니다.
 3. 새 Security & Compliance 탭에서 **권한** > **eDiscovery 매니저**를 클릭합니다.
 4. eDiscovery 매니저의 **편집**을 클릭한 다음 **eDiscovery 매니저 선택**을 클릭합니다.
 5. **+ 추가**를 클릭하고 전역 관리자 계정 이름을 검색하고 전역 관리자 계정을 eDiscovery 매니저로 추가합니다.
@@ -46,7 +46,7 @@ ms.locfileid: "41594092"
   
 ## <a name="phase-2-add-personally-identifiable-information-to-your-tenant"></a>2단계: 개인 식별이 가능한 정보를 테넌트에 추가
 
-이 단계에서는 예제 IBAN(국제 은행 계좌 번호) 집합에 대해 PII가 있는 문서를 만들고 Office 365 개발/테스트 환경에서 SharePoint Online 사이트에 저장합니다.
+이 단계에서는 예제 IBAN(국제 은행 계좌 번호) 집합에 대해 PII가 있는 문서를 만들고, Microsoft 365 개발/테스트 환경에서 SharePoint Online 사이트에 저장합니다.
 
 1. 로컬 컴퓨터에서 Microsoft Word를 엽니다.
 2. 다음 테이블을 Word 파일에 붙여넣고 로컬 컴퓨터에 ‘IBANs.docx’로 저장합니다.
@@ -67,7 +67,7 @@ ms.locfileid: "41594092"
 참고:- 이 샘플 데이터 집합은 공개적으로 사용 가능한 정보에서 얻은 것이며, 테스트 용도로 사용하기 위한 것입니다.
 
 3. 브라우저의 새 탭에 **https://**\<YourTenantName\>**.sharepoint.com**을 입력합니다.
-4. **문서**를 클릭하여 사이트에 대한 문서 라이브러리를 엽니다. 새 목록 환경 둘러보기를 요청하는 경우 완료될 때까지 **다음**을 클릭합니다.
+4. **문서**를 클릭하여 사이트에 대한 문서 라이브러리를 엽니다. 새 목록 환경 둘러보기가 표시되면 완료될 때까지 **다음**을 클릭합니다.
 5.  **파일** > **업로드**를 클릭하고 2단계에서 만든 IBANs.docx를 선택합니다.
 
   
@@ -99,7 +99,7 @@ ms.locfileid: "41594092"
 - 4자리 일련 번호입니다. 
     - 가능한 일련 번호 값의 범위는 0000에서 9999까지입니다.   
 
-Contoso는 내부 서신, 외부 서신, 문서 및 기타 양식에서 항상 CCN을 사용하여 고객을 참조합니다. Office 365 콘텐츠에서는 사용자 지정 중요한 항목 유형을 만들어 CCN의 사용을 감지할 수 있으므로 이러한 형식의 개인 식별 가능한 정보를 사용할 때 보호 기능을 적용할 수 있습니다.
+Contoso는 내부 서신, 외부 서신, 문서 및 기타 양식에서 항상 CCN을 사용하여 고객을 참조합니다. Microsoft 365 콘텐츠에서는 사용자 지정 중요한 항목 유형을 만들어 CCN의 사용을 감지할 수 있으므로 이러한 형식의 개인 식별 가능한 정보를 사용할 때 보호 기능을 적용할 수 있습니다.
 
 1. [다단계 인증을 사용한 보안 및 준수 센터 PowerShell 연결](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/mfa-connect-to-scc-powershell?view=exchange-ps)의 지침을 사용하여 전역 관리자 계정의 UPN을 사용하여 보안 및 준수 센터에 연결합니다.
 2. 다음 PowerShell 명령을 실행합니다.
@@ -178,7 +178,7 @@ Contoso는 내부 서신, 외부 서신, 문서 및 기타 양식에서 항상 C
 
 ## <a name="phase-5-demonstrate-data-protection"></a>5단계: 데이터 보호 설명
 
-Office 365의 개인 정보 보호에는 DLP(데이터 손실 방지) 기능이 포함됩니다.  DLP 정책을 사용하여 Office 365에 걸친 중요한 정보를 자동으로 보호할 수 있습니다.
+Microsoft 365의 개인 정보 보호에는 DLP(데이터 손실 방지) 기능이 포함되어 있습니다.  DLP 정책을 사용하여 Microsoft 365에서 중요한 정보를 자동으로 보호할 수 있습니다.
 
 보호를 적용할 수 있는 여러 가지 방법이 있습니다. EU 상주 데이터가 사용자 환경에 저장되고 직원이 처리하도록 허용된 방법에 대한 인식을 개선하고 교육하는 것은 Office 365 DLP를 사용하는 한 수준의 정보 보호를 나타냅니다.
 
@@ -189,7 +189,7 @@ Office 365의 개인 정보 보호에는 DLP(데이터 손실 방지) 기능이 
 3. **+ 정책 만들기**를 클릭합니다.
 4. **템플릿으로 시작하거나 사용자 지정 정책 만들기**에서 **사용자 지정** > **사용자 지정** > **다음**을 클릭합니다.
 5. **정책 이름 지정**에서 다음 세부 정보를 제공하고 **다음**을 클릭합니다. a. 이름: **EU 시민 PII 정책** b. 설명: **유럽 시민의 개인 식별이 가능한 정보 보호**
-6. **위치 선택**에서 **Office 365의 모든 위치**를 선택합니다. 여기에는 Exchange 전자 메일, OneDrive, SharePoint 문서의 콘텐츠가 포함됩니다. 그리고 **다음**을 클릭합니다.
+6. **위치 선택**에서 **Microsoft 365의 모든 위치**를 선택합니다. 여기에는 Exchange 전자 메일, OneDrive, SharePoint 문서의 콘텐츠가 포함됩니다. 그리고 **다음**을 클릭합니다.
 7. **보호하려는 콘텐츠의 유형 사용자 지정**에서 **다음이 포함된 콘텐츠 찾기:** 를 클릭한 다음 **편집**을 클릭합니다.
 8. **보호할 콘텐츠 유형 선택**에서 **추가** > **중요한 정보 유형**을 클릭합니다.
 9. **중요한 정보 유형**에서 **+ 추가**를 클릭합니다.
@@ -205,7 +205,7 @@ Office 365의 개인 정보 보호에는 DLP(데이터 손실 방지) 기능이 
 17. 로컬 컴퓨터에서 브라우저의 개인 인스턴스를 엽니다.
 18. 주소 표시줄에 **https://**\<YourTenantName\>**.sharepoint.com**을 입력하고 전역 관리자 계정을 사용하여 로그인합니다.
 19. **문서**를 클릭합니다.
-20. ‘IBANs.docx’라는 파일을 클릭합니다. ‘IBANs.docx의 정책 팁’이 표시되어야 합니다. IBANs.docx 파일은 외부 수신자와 공유되어 DLP 정책이 위반됩니다. 
+20. ‘IBANs.docx’라는 파일을 클릭합니다. ‘IBANs.docx의 정책 팁’이 표시되어야 합니다. IBANs.docx 파일은 외부 수신자와 공유되어 DLP 정책을 위반했습니다. 
 21. 주소 표시줄에 `https://outlook.office365.com`을 입력합니다.
 22. **새로 만들기** - **전자 메일 메시지**를 클릭하고 다음을 입력합니다.  
     - **받는 사람:** \<개인 전자 메일 주소\>  
@@ -233,7 +233,7 @@ Office 365의 개인 정보 보호에는 DLP(데이터 손실 방지) 기능이 
 
 ## <a name="phase-6-demonstrate-reporting"></a>6단계: 보고 설명
  
-이 단계에서는 5단계에서 구성된 DLP 정책에 따라 Office 365 보고에 대해 설명합니다.
+이 단계에서는 5단계에서 구성된 DLP 정책에 따라 Microsoft 365 보고에 대해 설명합니다.
 
    1. 브라우저의 Security & Compliance 탭에서 **홈**을 클릭합니다.
    2. **보고서** > **대시보드** > **DLP 정책 일치**를 클릭합니다.

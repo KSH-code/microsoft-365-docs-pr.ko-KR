@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 레이블을 사용하여 조직 전체의 데이터를 관리하여 분류하고 해당 분류에 따라 보존 규칙을 시행하십시오. 보존 레이블을 사용하여 Microsoft 365용 레코드 관리 솔루션을 구현할 수도 있습니다.
-ms.openlocfilehash: 720a5b0b2fca16701dd4c2a752ac31b81e2233ab
-ms.sourcegitcommit: 732bb72a0b5ae09cb39536185aa29d6097ec72fd
+ms.openlocfilehash: 35d91db5a52c9c43a178341417955098a60edc34
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "43189059"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637446"
 ---
 # <a name="overview-of-retention-labels"></a>보존 레이블 개요
 
@@ -38,11 +38,11 @@ ms.locfileid: "43189059"
     
 - 편집하거나 삭제할 수 없게 **기록으로 표시**해야 하는 취업 비자 
     
-이러한 모든 경우에 Office 365에서 보존 레이블은 올바른 콘텐츠에 대해 올바른 작업을 수행하는 데 도움이 될 수 있습니다. 보존 레이블을 사용하여 거버넌스를 위해 조직의 데이터를 분류하고 해당 분류에 따라 보존 규칙을 적용할 수 있습니다.
+이러한 모든 경우에 보존 레이블은 올바른 콘텐츠에 대해 올바른 작업을 수행하는 데 도움이 될 수 있습니다. 보존 레이블을 사용하여 거버넌스를 위해 조직의 데이터를 분류하고 해당 분류에 따라 보존 규칙을 적용할 수 있습니다.
   
 보존 레이블을 사용하여 다음을 수행할 수 있습니다.
   
-- **조직의 사용자가 웹용 Outlook, Outlook 2010 이상, OneDrive, SharePoint 및 Office 365 그룹에서 Outlook 콘텐츠에 보존 레이블을 수동으로 적용할 수 있게 합니다**. 사용자는 종종 자신이 사용하고 있는 콘텐츠의 형식을 가장 잘 알고 있기 때문에 콘텐츠를 분류하여 적절한 정책을 적용할 수 있습니다. 
+- 웹용 Outlook, Outlook 2010 이상, OneDrive, SharePoint 및 Microsoft 365 그룹에서 Outlook 콘텐츠에 **조직의 사용자가 보존 레이블을 수동으로 적용할 수 있게 합니다**. 사용자는 종종 자신이 사용하고 있는 콘텐츠의 형식을 가장 잘 알고 있기 때문에 콘텐츠를 분류하여 적절한 정책을 적용할 수 있습니다. 
     
 - 콘텐츠에 다음이 포함된 경우처럼 특정 조건과 일치하는 경우 **콘텐츠에 보존 레이블을 자동으로 적용**합니다. 
     
@@ -64,7 +64,7 @@ ms.locfileid: "43189059"
 
 - SharePoint의 **문서 라이브러리, 폴더 또는 문서 집합에 기본 보존 레이블을 적용**하여 해당 위치에 도착하는 모든 문서가 기본 보존 레이블을 상속하도록 합니다.  
     
-Microsoft 365 규정 준수 센터, Microsoft 365 보안 센터 또는 Office 365 보안 규정 준수 센터에서 보존 레이블을 생성합니다.
+Microsoft 365 규정 준수 센터, Microsoft 365 보안 센터 또는보안 및 준수 센터에서 보존 레이블을 생성합니다.
 
 ## <a name="how-retention-labels-work-with-retention-label-policies"></a>보존 레이블이 보존 레이블 정책에 작동하는 방식
 
@@ -151,9 +151,9 @@ Exchange Online에서는 7일 간격으로 실행되는 프로세스를 통해 �
   
 |**보존 레이블...**|**레이블 정책을 적용할 수 있는 대상...**|
 |:-----|:-----|
-|최종 사용자에게 게시  <br/> |Exchange, SharePoint, OneDrive, Office 365 그룹  <br/> |
+|최종 사용자에게 게시  <br/> |Exchange, SharePoint, OneDrive, Microsoft 365 그룹  <br/> |
 |중요한 정보 유형에 따라 자동으로 적용  <br/> |Exchange(모든 사서함만), SharePoint, OneDrive  <br/> |
-|쿼리에 따라 자동 적용  <br/> |Exchange, SharePoint, OneDrive, Office 365 그룹  <br/> |
+|쿼리에 따라 자동 적용  <br/> |Exchange, SharePoint, OneDrive, Microsoft 365 그룹  <br/> |
    
 Exchange에서 자동 적용 보존 레이블(쿼리 및 중요한 정보 유형 모두에 대한)은 현재 사서함에 있는 모든 항목(미사용 데이터)이 아닌 새로 전송된 메시지(전송 중인 데이터)에만 적용됩니다. 또한 민감한 정보 유형에 대한 자동 적용 보존 레이블은 모든 사서함에만 적용되며 특정 사서함을 선택할 수 없습니다.
   
@@ -183,7 +183,7 @@ Exchange 공용 폴더 및 Skype는 레이블을 지원하지 않습니다.
     
 - SharePoint
     
-- Office 365 그룹(웹용 Outlook의 그룹 사이트 및 그룹 사서함)
+- Microsoft 365 그룹(웹용 Outlook의 그룹 사이트 및 그룹 사서함)
     
 아래 섹션에서는 다양한 앱에서 레이블이 조직의 사용자에게 표시되는 방식을 설명합니다.
   
@@ -235,17 +235,17 @@ OneDrive 또는 SharePoint에서 문서(OneNote 파일 포함)에 레이블을 �
   
 ![사용자 지정 보기에 표시된 레이블에 대한 라이브러리 열](../media/e3392627-c0a3-405e-bb57-55f27c34cfdd.png)
   
-### <a name="office-365-groups"></a>Office 365 그룹
+### <a name="microsoft-365-groups"></a>Microsoft 365 그룹
 
-Office 365 그룹에 보존 레이블을 게시하면 웹용 Outlook의 그룹 사이트와 그룹 사서함에 보존 레이블에 나타납니다. 콘텐츠에 보존 레이블을 적용하는 환경은 전자 메일 및 문서에 대해 위에 표시된 환경과 동일합니다.
+Microsoft 365 그룹에 보존 레이블을 게시하면 웹용 Outlook의 그룹 사이트와 그룹 사서함에 보존 레이블에 나타납니다. 콘텐츠에 보존 레이블을 적용하는 환경은 전자 메일 및 문서에 대해 위에 표시된 환경과 동일합니다.
 
-Office 365 그룹 콘텐츠를 보존하려면 Office 365 그룹 위치를 사용해야 합니다. Office 365 그룹이 Exchange 사서함을 보유하고 있더라도 전체 Exchange 위치를 포함하는 보존 정책이 Office 365 그룹 사서함의 콘텐츠를 포함하지는 않습니다.
+Microsoft 365 그룹 콘텐츠를 보존하려면 Microsoft 365 그룹 위치를 사용해야 합니다. Microsoft 365 그룹이 Exchange 사서함을 보유하고 있더라도 전체 Exchange 위치를 포함하는 보존 정책이 Microsoft 365 그룹 사서함의 콘텐츠를 포함하지는 않습니다.
 
 또한 Exchange 위치를 사용하여 특정 그룹 사서함을 포함하거나 제외할 수 없습니다. 초기에 Exchange 위치가 선택될 그룹 사서함을 허용하더라도 보존 정책을 저장하려고 시도할 때 “RemoteGroupMailbox”가 Exchange 위치에 유효하지 않은 선택이라는 오류가 나타나게 됩니다.
   
 ## <a name="applying-a-retention-label-automatically-based-on-conditions"></a>조건에 따라 자동으로 보존 레이블 적용
 
-보존 레이블의 가장 강력한 기능 중 하나는 특정 조건과 일치하는 콘텐츠에 자동으로 레이블을 적용하는 기능입니다. 이 경우 조직의 사용자는 레이블을 적용할 필요가 없습니다. Office 365에서 이 작업을 수행합니다.
+보존 레이블의 가장 강력한 기능 중 하나는 특정 조건과 일치하는 콘텐츠에 자동으로 레이블을 적용하는 기능입니다. 이 경우 조직의 사용자는 레이블을 적용할 필요가 없습니다. Microsoft 365에서 이 작업을 수행합니다.
   
 ![자동 적용 레이블의 역할 및 작업 다이어그램](../media/32f2f2fd-18a8-43fd-839d-72ad7a43e069.png)
   
@@ -373,7 +373,7 @@ Outlook 2010 이상에서는 보존 레이블 또는 보존 정책을 적용하�
 
 보존 레이블은 콘텐츠에 보존 작업을 적용할 수 있습니다. 또한 보존 레이블을 DLP(데이터 손실 방지) 정책의 조건으로 사용할 수 있고, DLP 정책은 특정 레이블이 있는 콘텐츠에 대해 액세스 제한과 같은 기타 작업을 적용할 수 있습니다. 
   
-자세한 내용은 [레이블을 DLP 정책의 조건으로 사용](data-loss-prevention-policies.md#using-a-retention-label-as-a-condition-in-a-dlp-policy)을 참조하세요.
+자세한 내용은 [보존 레이블을 DLP 정책의 조건으로 사용하기](data-loss-prevention-policies.md#using-a-retention-label-as-a-condition-in-a-dlp-policy)를 참조하세요.
   
 ## <a name="monitor-retention-labels"></a>보존 레이블 모니터링
 
@@ -433,7 +433,7 @@ Outlook 2010 이상에서는 보존 레이블 또는 보존 정책을 적용하�
 
 ## <a name="use-retention-labels-instead-of-these-features"></a>이러한 기능 대신 보존 레이블 사용
 
-보존 레이블은 Exchange, SharePoint, OneDrive 및 Office 365 그룹을 포함하여 Office 365의 전체 조직 및 해당 콘텐츠에서 쉽게 사용할 수 있습니다. Office 365의 임의 위치에서 콘텐츠를 분류하거나 기록을 관리해야 하는 경우 보존 레이블을 사용하는 것이 좋습니다.
+보존 레이블은 Exchange, SharePoint, OneDrive 및 Microsoft 365 그룹을 포함하여 Office 365의 전체 조직 및 해당 콘텐츠에서 쉽게 사용할 수 있습니다. Microsoft 365의 임의 위치에서 콘텐츠를 분류하거나 기록을 관리해야 하는 경우 보존 레이블을 사용하는 것이 좋습니다.
   
 이전에 Office 365에서 콘텐츠를 분류하거나 레코드를 관리하는 데 사용된 다른 여러 기능이 있습니다. 이러한 기능은 아래에 나열되어 있습니다. 이러한 기능은 보존 레이블과 함께 계속해서 작동합니다. 보존 레이블 구현이 이전 기능과 다른 경우가 있기는 하지만, 보존 레이블이 발전하면서 앞으로 Office 365에서 레코드를 더 편리하게 관리할 수 있게 될 것입니다. 따라서 앞으로 데이터 거버넌스의 경우 이러한 기능 대신 보존 레이블을 사용하는 것이 좋습니다.
   
@@ -453,16 +453,16 @@ Outlook 2010 이상에서는 보존 레이블 또는 보존 정책을 적용하�
 
 보존 레이블을 만드는 규정 준수 팀의 구성원은 보안 및 준수 센터에 대한 사용 권한이 필요합니다. 기본적으로 테넌트 관리자는 이 위치에 액세스할 수 있으며, 준수 관리자 및 기타 사용자에게 테넌트 관리를 위한 모든 권한을 부여하지는 않으면서, 보안 및 준수 센터에 대한 액세스 권한을 부여할 수 있습니다. 이렇게 하기 위해 보안 및 준수 센터의 **권한** 페이지로 이동한 후 **준수 관리자** 역할 그룹을 편집하고 해당 역할 그룹에 구성원을 추가하는 것이 좋습니다. 
   
-자세한 내용은 [사용자에게 Office 365 보안 및 준수 센터에 대한 액세스 권한 부여](../security/office-365-security/grant-access-to-the-security-and-compliance-center.md)를 참조하세요.
+자세한 내용은 [사용자에게 보안 &amp; 준수 센터에 대한 액세스 권한 부여하기](../security/office-365-security/grant-access-to-the-security-and-compliance-center.md)를 참조하세요.
   
 이러한 정책은 보존 레이블 및 레이블 정책을 만들고 적용하는 데만 필요합니다. 정책 적용을 위해서는 콘텐츠에 액세스하지 않아도 됩니다.  
 ## <a name="find-the-powershell-cmdlets-for-labels"></a>레이블에 대한 PowerShell cmdlet 찾기
 
 레이블 cmdlet을 사용하려면 다음 작업을 수행해야 합니다.
   
-1. [Office 365 보안 및 준수 센터 PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell)
+1. [보안 및 준수 센터 PowerShell에 연결하기](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell)
     
-2. 다음 Office 365 보안 및 준수 센터 cmdlet 사용:
+2. 다음 보안 및 준수 센터 cmdlet을 사용하세요.
 
   - [Get-ComplianceTag](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/get-compliancetag)
 

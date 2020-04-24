@@ -16,16 +16,16 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: ''
-ms.openlocfilehash: a6b86d9f86edc427e10c02a99e3cda3e5e79db66
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 462c58f8531265026b34fe3d8484736aefa4c5fa
+ms.sourcegitcommit: 72e43b9bf85dbf8f5cf2040ea6a4750d6dc867c9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595855"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "43799941"
 ---
 # <a name="collect-data-for-a-case-in-advanced-ediscovery"></a>Advanced eDiscovery에서 사례에 대 한 데이터 수집
 
-해당 사례에 관심이 있는 custodians 및 데이터 원본을 식별 한 후에는 delve에 사용할 문서 집합을 식별 해야 합니다. 고급 eDiscovery의 검색 도구를 사용 하 여 Office 365에서 custodial 및 비 custodial 위치를 확인할 수 있습니다.
+해당 사례에 관심이 있는 custodians 및 데이터 원본을 식별 한 후에는 delve에 사용할 문서 집합을 식별 해야 합니다. 고급 eDiscovery의 검색 도구를 사용 하 여 Microsoft 365의 custodial 및 비 custodial 위치에서 관련 문서를 식별할 수 있습니다.
 
 검색을 실행 한 후 검색 쿼리와 일치 하는 항목이 가장 많은 위치와 같은 검색 된 항목에 대 한 통계를 볼 수 있습니다. 또한 결과의 하위 집합을 미리 볼 수도 있습니다. 추가로 확인할 문서 집합을 식별 한 경우 수집 및 처리할 검토 집합에 검색 결과를 추가할 수 있습니다.
 
@@ -49,6 +49,10 @@ ms.locfileid: "41595855"
 
 미리 보기가 완료 되 면 **미리 보기** 단추가 활성화 됩니다. 이 도구를 선택 하 여 샘플링 된 결과의 하위 집합을 미리 봅니다.
 
-## <a name="adding-search-results-to-a-review-set"></a>검토 집합에 검색 결과 추가
+## <a name="add-search-results-to-a-review-set"></a>검색 결과를 검토 집합에 추가
 
 검색의 전체 결과를 수집 하 고 처리할 준비가 되 면 검토 집합에 추가 하 여 검색할 수 있습니다. 자세한 내용은 [검토 집합에 데이터 추가](add-data-to-review-set.md)를 참조 하십시오.
+
+## <a name="add-non-microsoft-365-data-to-a-review-set"></a>검토 집합에 타사 365 데이터 추가
+
+사례에 대 한 수집 프로세스의 일부로, Office 이외의 365 데이터를 검토 집합에 추가 하 고, 검색 도구를 사용 하 여 수집한 Office 365 데이터와 함께 검토 하 고 분석할 수도 있습니다. Office 이외의 365을 추가 하는 경우에는 케이스의 특정 custodian 연결 해야 합니다. 자세한 내용은 타사 [365 데이터를 검토 집합으로 로드](load-non-Office-365-data-into-a-review-set.md)를 참조 하세요.
