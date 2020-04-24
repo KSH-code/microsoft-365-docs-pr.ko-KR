@@ -149,6 +149,10 @@
           href: document-fingerprinting.md
         - name: 중요한 정보에 대한 DLP 기능
           href: what-the-dlp-functions-look-for.md
+    - name: Microsoft 365의 암호화
+      href: encryption.md
+    - name: Office 365 서비스 암호화
+      href: office-365-service-encryption.md
     - name: 고객 키
       items:
         - name: Office 365의 고객 키를 사용한 서비스 암호화
@@ -200,6 +204,8 @@
               href: legacy-information-for-message-encryption.md
             - name: Office 365 메시지 암호화에 대한 Azure 권한 관리 설정
               href: set-up-azure-rms-for-previous-version-message-encryption.md
+    - name: SharePoint 관리 센터에서 IRM 설정
+      href: set-up-irm-in-sp-admin-center.md
     - name: 데이터 분류 이해(미리 보기)
       href: data-classification-overview.md
       items:
@@ -507,8 +513,6 @@
               href: load-non-Office-365-data-into-a-review-set.md
             - name: 다른 검토 집합에 데이터 추가
               href: add-data-to-review-set-from-another-review-set.md
-            - name: 로드 집합 관리
-              href: manage-load-sets-in-advanced-ediscovery.md
         - name: 사례 데이터 검토
           items:
             - name: 검토 집합 대시보드 사용(미리 보기)
