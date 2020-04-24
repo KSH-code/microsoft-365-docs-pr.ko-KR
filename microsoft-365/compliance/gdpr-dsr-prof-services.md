@@ -15,12 +15,12 @@ ms.collection:
 - GDPR
 - M365-security-compliance
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: bcc1634398e86e0f4569d5d5fb0c5bc40ce8fc68
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: bb16c663258647989c4b0ad3ca7f95f857e8a680
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42073332"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632499"
 ---
 # <a name="microsoft-support-and-professional-services-data-subject-requests-for-the-gdpr-and-ccpa"></a>GDPR 및 CCPA에 대한 Microsoft 고객 지원 및 전문 서비스 데이터 주체 요청
 
@@ -228,7 +228,7 @@ FastTrack 마이그레이션 서비스의 경우, Microsoft는 데이터 프로�
   
 사용자의 데이터가 FastTrack 마이그레이션 시스템을 통해 처리되는 동안 DSR 요청에 대한 액세스, 수정 또는 내보내기를 처리해야 하는 경우, 사용자 데이터가 저장된 기존 원본 시스템을 통해 이러한 DSR을 수행하는 것은 고객의 책임입니다. 사용자의 마이그레이션이 완료되고 데이터가 대상 Microsoft 클라우드 서비스로 마이그레이션되면 고객이 Microsoft 제품, 서비스 및 관리 도구를 사용하여 개인 데이터를 찾고 데이터 주체 요청에 응답하는 방법에 대한 Microsoft의 지침이 적용됩니다. 이 참고 자료를 보려면 [GDPR에 대한 데이터 주체 요청](https://docs.microsoft.com/microsoft-365/compliance/gdpr-data-subject-requests)을 참조하세요. 
 
-조직에서 진행 중인 FastTrack 마이그레이션 프로젝트에 연결되는 동안 DSR 삭제 요청에 대한 응답으로 Office 365 사용자 계정을 삭제해야 하는 경우, 마이그레이션 시스템은 사용자 마이그레이션 완료 후 일정 기간 동안 사용자 마이그레이션 데이터 복사본을 보유할 수 있으며 Office 365 사용자 계정을 삭제해도 FastTrack 마이그레이션 시스템에 저장된 사용자 마이그레이션 데이터가 자동으로 삭제되지는 않습니다. Microsoft FastTrack 팀에서 사용자 마이그레이션 데이터를 삭제하려면 [요청을 제출](https://go.microsoft.com/fwlink/?linkid=874544)할 수 있습니다. 일반적인 업무 과정에서 Microsoft FastTrack은 조직의 마이그레이션이 완료되면 모든 데이터 복사본을 삭제합니다.
+조직에서 진행 중인 FastTrack 마이그레이션 프로젝트에 연결되는 동안 DSR 삭제 요청에 대한 응답으로 사용자 계정을 삭제해야 하는 경우, 마이그레이션 시스템은 사용자 마이그레이션 완료 후 일정 기간 사용자 마이그레이션 데이터 복사본을 보유할 수 있으며 사용자 계정을 삭제해도 FastTrack 마이그레이션 시스템에 저장된 사용자 마이그레이션 데이터가 자동으로 삭제되지는 않습니다. Microsoft FastTrack 팀에서 사용자 마이그레이션 데이터를 삭제하려면 [요청을 제출](https://go.microsoft.com/fwlink/?linkid=874544)할 수 있습니다. 일반적인 업무 과정에서 Microsoft FastTrack은 조직의 마이그레이션이 완료되면 모든 데이터 복사본을 삭제합니다.
 
 ## <a name="other-consulting-services"></a>기타 컨설팅 서비스
 

@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: OS 배포 및 기능 업데이트를 위한 옵션을 알아봅니다.
-ms.openlocfilehash: 24b6cf30398031cf2bf4032795013338fec39ffb
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: d22a0993b256a1bea1a6a5ac61f14b144c6ac6c7
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42085235"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636762"
 ---
 # <a name="step-6-os-deployment-and-feature-updates"></a>6단계: 운영 체제 배포 및 기능 업데이트
 
@@ -41,7 +41,7 @@ ms.locfileid: "42085235"
 
 지금까지 배포 프로세스 사이클을 따라 진행했으면 적어도 장치 및 앱 준비 단계를 부분적으로 완료하고, 인프라를 준비하고, 앱 패키지를 수집하고, 사용자 파일을 마이그레이션하고 기본 설정을 구성하기 위한 계획과 기존의 보안 컨트롤을 유지하고 새 보안 컨트롤을 배포하기 위한 계획을 세웠을 것입니다.
 
-이제 이러한 모든 부분을 통합하여 Windows 10 및 Office 365 ProPlus, 필요한 드라이버, 앱 및 기타 항목을 설치하기 위해 가능한 많은 작업을 자동화하는 단계가 되었습니다.
+이제 이러한 모든 부분을 통합하여 Windows 10 및 엔터프라이즈용 Microsoft 365 앱, 필요한 드라이버, 앱 및 기타 항목을 설치하기 위해 가능한 많은 작업을 자동화하는 단계가 되었습니다.
 
 기본적으로 OS 배포의 성공 여부를 파악하는 가장 좋은 척도는 사용자 기대를 충족하는지와 작업 중단을 피할 수 있는지 여부입니다. 이 단계에서는 단계별 배포의 일부로 파일럿 사용자에 대한 테스트 및 배포를 시작합니다. 또한 여기서는 브로드 배포 전에 배포 프로세스 사이클의 8단계인 [사용자 커뮤니케이션 및 교육](https://aka.ms/mdd8)으로 건너뛰어 사용자들이 변경에 대해 미리 알고 대처하도록 하고, 단계별 배포를 진행하면서 지속적으로 유효성 검사를 실시하여 롤아웃이 적절히 진행되는지 측정할 수 있습니다.
 
@@ -131,8 +131,8 @@ Windows 10에 새롭게 제공되는 옵션은 Windows Autopilot을 사용하여
 
 ## <a name="next-step"></a>다음 단계 
 
-## <a name="step-7-windows-and-office-servicinghttpsakamsmdd7"></a>[7단계: Windows 및 Office Servicing](https://aka.ms/mdd7)
+## <a name="step-7-windows-and-office-servicing"></a>[7단계: Windows 및 Office Servicing](https://aka.ms/mdd7)
 
 ## <a name="previous-step"></a>이전 단계
 
-## <a name="step-5-security-and-compliance-considerationshttpsakamsmdd5"></a>[5단계: 보안 및 준수 고려 사항](https://aka.ms/mdd5)
+## <a name="step-5-security-and-compliance-considerations"></a>[5단계: 보안 및 준수 고려 사항](https://aka.ms/mdd5)

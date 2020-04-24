@@ -15,19 +15,19 @@ search.appverid:
 - MET150
 ms.assetid: 429e686f-d8a6-455e-a2b6-3791d763f000
 description: 'Microsoft Service Trust Portal의 준수 관리자는 Office 365 및 Microsoft Azure와 같은 Microsoft 클라우드 서비스에 대해 측정했을 때 조직이 보안 및 데이터 보호 산업 표준(예: GDPR, ISO 27001 및 27018, HIPAA)을 준수하는 데 도움이 되는 컨트롤을 추적, 구현 및 관리하기 위한 도구를 제공합니다. 준수 관리자는 조직의 데이터 보호 및 개인 정보 보호 전략을 감독하는 담당자가 규정 준수 및 위험 평가 프로세스를 관리하는 데 도움을 줍니다.'
-ms.openlocfilehash: 363b95294a9d06b425edcbb5c587f2f89878926b
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 3019378c82e263ce438b385a998dcf2475f3b62d
+ms.sourcegitcommit: f70f75b9dd163c00a3c6bc4b9f9b055e90c50367
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42071905"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "43790625"
 ---
 # <a name="microsoft-compliance-manager-classic"></a>Microsoft 준수 관리자(기본)
 
 > [!NOTE]
-> 이 문서에서는 레거시 제품에 대해 설명합니다. 사용자는 이 버전의 준수 관리자를 사용하지 말고 대신 새로운 [Microsoft 준수 점수](compliance-score.md)를 사용하는 것이 좋습니다.
+> 이 문서는 이 제품의 이전 버전을 설명합니다. 사용자는 이 버전의 준수 관리자를 사용하지 말고 대신 새로운 [Microsoft 준수 점수](compliance-score.md)를 사용하는 것이 좋습니다.
 
- *준수 관리자는 21Vianet, Office 365 Germany, Office 365 미국 GCC(Government Community High) 또는 Office 365 미국방부에서 운영하는 Office 365에서 사용할 수 없습니다.* 
+ *준수 관리자는 21Vianet, Office 365 Germany, Office 365 미국 GCC(Government Community High) 또는 Office 365 미국방부에서 운영하는 Office 365에서 사용할 수 없습니다.*
   
 Microsoft [Service Trust Portal](https://support.office.com/article/f30e2353-0bd6-41ed-8347-eea1fb8d2662)의 워크플로 기반 위험 평가 도구인 준수 관리자를 사용하여 Microsoft 전문가 서비스 및 Microsoft 클라우드 서비스(예: Microsoft Office 365, Microsoft Dynamics 365 및 Microsoft Azure)와 관련된 조직의 규정 준수 활동을 추적, 할당 및 확인할 수 있습니다. 
 
@@ -700,7 +700,7 @@ Service Trust Portal에서 다양한 언어로 페이지 콘텐츠를 볼 수 �
     
 - **사소한** 변경은 철자 또는 서긱 문제의 수정 또는 하이퍼링크의 업데이트나 수정 같은 고객 작업에 대한 사소한 변경을 나타냅니다. 사소한 변경의 경우 일반적으로 컨트롤을 다시 평가할 필요가 없으며, 업데이트된 고객 작업을 검토하는 것이 좋습니다.
   
-### <a name="office-365-customer-managed-controls---change-log-for-july-2018"></a>Office 365 고객 관리 컨트롤 - 2018년 7월 변경 로그
+### <a name="customer-managed-controls---change-log-for-july-2018"></a>고객 관리 컨트롤 - 2018년 7월 변경 로그
 
 |**컨트롤 ID**|**평가**|**변경 유형**|**변경 설명**|**고객을 위한 권장 작업**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
@@ -710,7 +710,7 @@ Service Trust Portal에서 다양한 언어로 페이지 콘텐츠를 볼 수 �
 45 C.F.R.  § 164.316(b)(2)(iii)| Office 365: HIPAA|중요|Office 365에 대한 HIPAA 평가에 HITECH 컨트롤이 추가되었습니다.|추가된 컨트롤 및 권장되는 고객 작업 검토<br/>|
 |
 
-### <a name="office-365-customer-managed-controls---change-log-for-april-2018"></a>Office 365 고객 관리 컨트롤 - 2018년 4월 변경 로그
+### <a name="customer-managed-controls---change-log-for-april-2018"></a>고객 관리 컨트롤 - 2018년 4월 변경 로그
 
 |**GDPR**|**HIPAA**|**ISO 27001**|**ISO 27018**|**NIST 800-53**|**NIST 800-171**|**변경 유형**|**변경 설명**|**고객을 위한 권장 작업**|
 |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|

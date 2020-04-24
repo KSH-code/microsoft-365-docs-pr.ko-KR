@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: a2ef9ff0521755bbb3000dd42b417ff57e398bbb
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 7b8e7e7f15ac4a0f257e9c4c86bd14659cc609b6
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602135"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632933"
 ---
 # <a name="my-number-act-japan"></a>마이넘버 법 (일본)
 
@@ -27,13 +27,13 @@ ms.locfileid: "41602135"
 
 일본 정부는 마이넘버 법 ([일본어](https://elaws.e-gov.go.jp/search/elawsSearch/elaws_search/lsg0500/viewContents?lawId=425AC0000000027_20180627_430AC0000000066) 및 [영어](https://www.ppc.go.jp/files/pdf/en3.pdf))을 제정하여, 2016년 1월에 발효하였습니다. 이 법은 일본인인지 외국인인지 여부에 상관없이 일본의 모든 거주자에게 고유한 12자리 숫자 (마이넘버 또는 사회적 혜택 및 세금 번호 또는 개인 번호)를 할당했습니다. 미국 사회 보장 번호와 같이 모든 목적을 위해 각자에게 하나의 번호를 부여하는 것은 과세 및 국민 연금, 의료 보험 및 실업과 같은 사회적 혜택의 구현을 단순화하고 보다 효율적으로 수행하도록 설계되었습니다.
 
-중앙 데이터 보호 기관의 역할을 하는 개인 정보 보호위원회 (PPC)는 개인 정보 보호법 ([일본어](https://www.ppc.go.jp/personal/preparation/) 및 [영어](https://www.ppc.go.jp/en/legal/))에 의해 설립되었습니다. 마이넘버 법 준수를 감독 및 모니터링하는 PPC의 역할에서, [마이넘버 지침](https://www.ppc.go.jp/legal/policy/faq/) (일본어)을 발행하여 법률에 따라 마이넘버 데이터를 포함한 개인 데이터를 조직이 적절하게 처리하고 충분히 보호할 수 있습니다.
+중앙 데이터 보호 기관의 역할을 하는 개인 정보 보호위원회 (PPC)는 개인 정보 보호법 ([일본어](https://www.ppc.go.jp/personal/preparation/) 및 [영어](https://www.ppc.go.jp/en/legal/))에 의해 설립되었습니다. 마이넘버 법 준수를 감독 및 모니터링하는 PPC의 역할에서, [마이넘버 지침](https://www.ppc.go.jp/legal/policy/faq/)(일본어)을 발행하여 법률에 따라 마이넘버 데이터를 포함한 개인 데이터를 조직이 적절하게 처리하고 충분히 보호할 수 있습니다.
 
 ## <a name="microsoft-and-the-my-number-act"></a>Microsoft와 마이넘버 법
 
 일본 고객이 개인 데이터의 개인 정보를 보호할 수 있도록 Microsoft는 계약상 [Microsoft 온라인 서비스 약관](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=31)을 통해 범위 내 비즈니스 클라우드 서비스가 고객이 마이넘버 법을 준수하는 데 도움이 되는 기술 및 조직 보안 보호 수단을 구현했습니다. 이는 일본 고객이 일본 입법 요구 사항을 준수할 수 있다는 확신을 가지고 Microsoft 비즈니스 클라우드 서비스를 배포 할 수 있음을 의미합니다.
 
-개인 정보 보호위원회 (PPC)가 발행한 [Q\&A](https://www.ppc.go.jp/legal/policy/faq/) (일본어)는 개인 정보의 적절한 취급 및 보호에 대한 지침을 제시합니다. 또한 제 3자가 아래의 경우에 모두 해당하면 개인 데이터를 취급하는 것으로 해석되지 않습니다. 계약서에 (a) 개인 데이터를 취급하지 않는다, 또한 (b) 적절한 액세스 제어 시스템을 설정한다고 규정하는 경우입니다. 마이넘버 법은 데이터가 제 3자에게 전송될 때의 의무를 명시하고 있지만 [PPC QA의 ](https://www.ppc.go.jp/legal/policy/faq/)Q3-12\& (일본어) 섹션은 제 3자가 이를 "취급"하지 않는 경우 즉, 개인 정보에 접근할 수없는 경우에는 적용되지 않는다고 설명합니다.
+개인 정보 보호위원회 (PPC)가 발행한 [Q\&A](https://www.ppc.go.jp/legal/policy/faq/) (일본어)는 개인 정보의 적절한 취급 및 보호에 대한 지침을 제시합니다. 또한 제 3자가 아래의 경우에 모두 해당하면 개인 데이터를 취급하는 것으로 해석되지 않습니다. 계약서에 (a) 개인 데이터를 취급하지 않는다, 또한 (b) 적절한 액세스 제어 시스템을 설정한다고 규정하는 경우입니다. 마이넘버 법은 데이터가 제3자에게 전송될 때의 의무를 명시하고 있지만, [PPC QA의 ](https://www.ppc.go.jp/legal/policy/faq/)Q3-12\&(일본어) 섹션은 제3자가 이를 "취급"하지 않는 경우 즉, 개인 정보에 접근할 수 없는 경우에는 적용되지 않는다고 설명합니다.
 
 Microsoft 비즈니스 클라우드 서비스는 [Microsoft 온라인 서비스 약관](https://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=31)의 해당 요구 사항을 해결하며, 마이넘버 데이터가 포함된 고객 데이터에 대한 소유권 및 책임은 Microsoft가 아닌 고객에게 있습니다. 따라서 고객은 고객 데이터에 포함된 마이넘버 데이터를 보호하기 위한 적절한 컨트롤 수단을 갖추어야 합니다.
 
@@ -58,7 +58,7 @@ Microsoft는 클라우드 서비스에 저장된 마이넘버 데이터에 정�
 
 - [Office 365의 개인 정보](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=a1b48a5b-bcb1-4c19-9277-952c0df87113&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers): Microsoft에서 Office 365로 강력한 개인 정보 보호를 구축 하는 방법입니다.
 
-- [Office 365의 관리자 액세스](https://docs.microsoft.com/office365/SecurityCompliance/office-365-administrative-access-controls-overview): Microsoft에서 Office 365 고객 데이터에 대한 관리 액세스를 관리하는 방법입니다.
+- [Office 365의 관리자 액세스](https://docs.microsoft.com/office365/SecurityCompliance/office-365-administrative-access-controls-overview): Microsoft에서 고객 데이터에 대한 관리 액세스를 관리하는 방법입니다.
 
 - [Office 365의 감사 및 보고서](https://docs.microsoft.com/office365/SecurityCompliance/office-365-auditing-and-reporting-overview): 고객이 테넌트 내에서 사용자 및 관리 활동을 추적하는 데 사용할 수 있는 기능을 알아봅니다.
 

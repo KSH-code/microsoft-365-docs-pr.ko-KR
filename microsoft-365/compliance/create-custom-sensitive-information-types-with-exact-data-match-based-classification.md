@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 분류에 기반한 정확한 데이터 매치를 사용한 사용자 지정 중요한 정보 유형 만들기
-ms.openlocfilehash: f4ebd34104cd4f3c5b3976a10e8bf64da990342c
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: 63db4da59a04f13d79da61932f74f49d87fa3ffc
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42894945"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631327"
 ---
 # <a name="create-custom-sensitive-information-types-with-exact-data-match-based-classification"></a>분류에 기반한 정확한 데이터 매치를 사용한 사용자 지정 중요한 정보 유형 만들기
 
@@ -59,7 +59,7 @@ EDM 기반 분류를 사용하면 중요한 정보 데이터베이스의 정확�
 |---------|---------|
 |[1단계: EDM 기반 분류 설정](#part-1-set-up-edm-based-classification)<br/><br/>(필요한 대로 수행)<br/>- [데이터베이스 스키마 편집](#editing-the-schema-for-edm-based-classification) <br/>- [스키마 제거](#removing-the-schema-for-edm-based-classification) |- 중요한 데이터에 대한 읽기 액세스 권한<br/>- .xml 형식의 데이터베이스 스키마(예제 제공)<br/>- .xml 형식의 규칙 패키지(예제 제공)<br/>- 보안 및 준수 센터에 대한 관리자 권한(Windows PowerShell 사용) |
 |[2단계: 중요한 데이터 색인화 및 업로드](#part-2-index-and-upload-the-sensitive-data)<br/><br/>(필요한 대로 수행)<br/>[데이터 새로 고침](#refreshing-your-sensitive-information-database) |- 사용자 지정 보안 그룹 및 사용자 계정<br/>- EDM 업로드 에이전트가 있는 컴퓨터에 대한 로컬 관리자 액세스 권한<br/>- 중요한 데이터에 대한 읽기 액세스 권한<br/>- 데이터를 새로 고치는 프로세스 및 일정|
-|[3단계: Microsoft 클라우드 서비스로 EDM 기반 분류 사용](#part-3-use-edm-based-classification-with-your-microsoft-cloud-services) |- DLP 포함 Office 365 구독<br/>- EDM 기반 분류 기능 사용 |
+|[3단계: Microsoft 클라우드 서비스로 EDM 기반 분류 사용](#part-3-use-edm-based-classification-with-your-microsoft-cloud-services) |- DLP를 포함하는 Microsoft 365 구독<br/>- EDM 기반 분류 기능 사용 |
 
 ### <a name="part-1-set-up-edm-based-classification"></a>1단계: EDM 기반 분류 설정
 
@@ -101,7 +101,7 @@ EDM 기반 분류를 설정하고 구성하려면 중요한 데이터를 .csv �
       </EdmSchema>
       ```
 
-4. [Office 365 보안 및 준수 센터 PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps)
+4. [보안 및 준수 센터 PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps)
 
 5. 데이터베이스 스키마를 업로드 하려면 다음과 같은 cmdlet을 한 번에 하나씩 실행하십시오:
 
@@ -134,7 +134,7 @@ EDM 기반 분류에 사용되는 필드를 변경하는 것과 같이 **edm.xml
 
 1. **edm.xml** 파일을 편집하십시오.(해당 문서의 [스키마 정의](#define-the-schema-for-your-database-of-sensitive-information) 섹션에서 다루는 파일입니다.)
 
-2. [Office 365 보안 및 준수 센터 PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps)
+2. [보안 및 준수 센터 PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps)
 
 3. 데이터베이스 스키마를 업데이트하려면 다음과 같은 cmdlet을 한 번에 하나씩 실행하십시오:
 
@@ -163,7 +163,7 @@ EDM 기반 분류에 사용되는 필드를 변경하는 것과 같이 **edm.xml
 
 (필요한 경우) EDM 기반 분류에 사용 중인 스키마를 제거하려면 다음 단계를 따르십시오:
 
-1. [Office 365 보안 및 준수 센터 PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps)
+1. [보안 및 준수 센터 PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps)
 
 2. 다음의 PowerShell cmdlet을 실행하여 "patientrecords"의 데이터 저장소 이름을 제거하고자 하는 것으로 대체하십시오.
 
@@ -389,7 +389,7 @@ $csvext = '.csv'
 $dataFile = "$fileLocation\\$dataStoreName$csvext"
 \# Assuming location to store hash file is same as the location of csv file
 $hashLocation = $fileLocation
-$uploadDataArgs = '/UploadData /DataStoreName ' + $dataStoreName + ' /DataFile ' + $dataFile + ‘ /HashLocation’ + $hashLocation
+$uploadDataArgs = '/UploadData /DataStoreName ' + $dataStoreName + ' /DataFile ' + $dataFile + ' /HashLocation' + $hashLocation
 \# Set up actions associated with the task
 $actions = @()
 $actions += New-ScheduledTaskAction -Execute $edmuploader -Argument $uploadDataArgs -WorkingDirectory $edminstallpath
@@ -446,11 +446,11 @@ Register-ScheduledTask -TaskName $taskName -InputObject $scheduledTask -User $us
 
 ### <a name="part-3-use-edm-based-classification-with-your-microsoft-cloud-services"></a>3단계: Microsoft 클라우드 서비스로 EDM 기반 분류 사용
 
-Exchange Online용 Office 365 DLP(전자 메일), Business용 OneDrive(파일), Microsoft Teams(대화) 및 Microsoft Cloud App Security DLP 정책은 EDM 중요 정보 유형을 지원합니다.
+Exchange Online용 DLP(전자 메일), Business용 OneDrive(파일), Microsoft Teams(대화) 및 Microsoft Cloud App Security DLP 정책은 EDM 중요 정보 유형을 지원합니다.
 
 다음 시나리오에 대한 EDM 중요 정보 유형은 현재 개발 중이지만 아직 사용할 수는 없습니다.
 
-- SharePoint용 Office 365 DLP(파일)
+- SharePoint용 DLP(파일)
 - 민감도 레이블과 보존 레이블의 자동 분류
 
 #### <a name="to-create-a-dlp-policy-with-edm"></a>EDM으로 DLP 정책 만들기

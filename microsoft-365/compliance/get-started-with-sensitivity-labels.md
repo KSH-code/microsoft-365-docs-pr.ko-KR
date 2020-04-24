@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 조직의 데이터를 보호하는 데 도움이 되는 민감도 레이블 구현을 시작할 준비가 되었지만 어디서부터 시작해야 할지 모르겠나요? 레이블 여행에 도움이 되는 몇 가지 실용적인 지침을 읽으세요.
-ms.openlocfilehash: 40747d2ee66d4a873f83247278f04377ccfa8eaf
-ms.sourcegitcommit: d1909d34ac0cddeb776ff5eb8414bfc9707d5ac1
+ms.openlocfilehash: 1ab56f6d4fadf87de49069e93de429b7eecba577
+ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "43163858"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43707479"
 ---
 # <a name="get-started-with-sensitivity-labels"></a>민감도 레이블 시작
 
@@ -52,15 +52,15 @@ ms.locfileid: "43163858"
 
 다양한 구독 지원 민감도 레이블과 사용자에 대한 라이선스 요구 사항은 사용하는 기능에 따라 다릅니다.
 
-2020년 4월 1일 현재 사용자에게 Microsoft 365 규정 준수 기능을 사용하도록 라이선스를 부여하는 옵션을 보려면 [보안 및 규정 준수에 대한 Microsoft 365 라이선스 지침](https://aka.ms/ComplianceSD)을 참조하세요. 민감도 레이블에 대한 자세한 내용은 [정보 보호](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-protection) 섹션 및 관련 PDF 다운로드를 참조하세요.
+2020년 4월 1일 현재 사용자에게 Microsoft 365 규정 준수 기능을 사용하도록 라이선스를 부여하는 옵션을 보려면 [보안 및 규정 준수에 대한 Microsoft 365 라이선스 지침](https://aka.ms/ComplianceSD)을 참조하세요. 민감도 레이블에 대한 자세한 내용은 [정보 보호](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance#information-protection) 섹션 및 관련 PDF 또는 Excel 다운로드를 참조하세요.
 
 ## <a name="permissions-required-to-create-and-manage-sensitivity-labels"></a>민감도 레이블을 만들고 관리하는 데 필요한 사용 권한
 
-민감도 레이블을 생성할 규정 준수 팀의 구성원은 Microsoft 365 규정 준수 센터, Microsoft 365 보안 센터 또는 Office 365 보안 및 규정 준수 센터에 대한 사용 권한이 필요합니다. 
+민감도 레이블을 생성할 규정 준수 팀의 구성원은 Microsoft 365 규정 준수 센터, Microsoft 365 보안 센터 또는 보안 및 규정 준수 센터에 대한 사용 권한이 필요합니다. 
 
 기본적으로 테넌트에 대한 전역 관리자는 이러한 관리 센터에 액세스할 수 있으며, 규정 준수 관리자와 기타 사용자에게 테넌트 관리자의 모든 사용 권한을 부여하지 않고도 액세스를 가능하게 할 수 있습니다. 이러한 위임된 제한적 관리 액세스를 부여하려면 이들 관리 센터 중 하나의 **사용 권한** 페이지로 이동한 다음 **규정 준수 데이터 관리자**, **규정 준수 관리자** 또는 **보안 관리자** 역할 그룹에 구성원을 추가합니다.
 
-역할을 사용하는 대신 새 역할 그룹을 만들고 **민감도 레이블 관리자** 또는 **조직 구성**을 역할을 이 그룹에 추가할 수 있습니다. [사용자에게 Office 365 보안 및 준수 센터에 대한 액세스 권한 부여](https://docs.microsoft.com/microsoft-365/security/office-365-security/grant-access-to-the-security-and-compliance-center)를 참조하세요.
+역할을 사용하는 대신 새 역할 그룹을 만들고 **민감도 레이블 관리자** 또는 **조직 구성**을 역할을 이 그룹에 추가할 수 있습니다. [사용자에게 보안 및 준수 센터에 대한 액세스 권한 부여](https://docs.microsoft.com/microsoft-365/security/office-365-security/grant-access-to-the-security-and-compliance-center)를 참조하세요.
 
 이러한 사용 권한은 민감도 레이블과 해당 레이블 정책을 만들고 구성하는 데만 필요합니다. 앱이나 서비스에서 레이블을 적용하는 것은 필요하지 않습니다.
 
@@ -78,7 +78,7 @@ ms.locfileid: "43163858"
 |암호화 레이블이 지정된 문서에 대해 SharePoint(및 OneDrive)의 공동 작업 기능을 사용하도록 설정합니다. | [SharePoint 및 OneDrive에서 Office 파일에 대한 민감도 레이블 사용(공개 미리 보기)](sensitivity-labels-sharepoint-onedrive-files.md)
 |콘텐츠가 만들어 질 때 레이블이 지정되도록 Office 앱의 민감도 레이블을 관리합니다. |[Office 앱의 민감도 레이블 사용](sensitivity-labels-office-apps.md)|
 |문서 및 전자 메일에 자동으로 민감도 레이블 적용 | [민감도 레이블을 콘텐츠에 자동으로 적용](apply-sensitivity-label-automatically.md)|
-|민감도 레이블을 사용하여 Teams와 SharePoint에서 콘텐츠 보호 |[Microsoft Teams, Office 365 그룹 및 SharePoint 사이트(공개 미리 보기)에서 민감도 레이블 사용](sensitivity-labels-teams-groups-sites.md)|
+|민감도 레이블을 사용하여 Teams와 SharePoint에서 콘텐츠 보호 |[Microsoft Teams, Microsoft 365 그룹 및 SharePoint 사이트(공개 미리 보기)에서 민감도 레이블 사용하기](sensitivity-labels-teams-groups-sites.md)|
 |온 프레미스에 있는 데이터 저장소에 저장된 파일 검색, 레이블 지정 및 보호 |[파일을 자동으로 분류하고 보호하는 Azure Information Protection 스캐너 배포](https://docs.microsoft.com/azure/information-protection/deploy-aip-scanner)|
 |클라우드에 있는 데이터 저장소에 저장된 파일 검색, 레이블 지정 및 보호|[클라우드에 저장된 데이터를 검색하고, 분류하고, 레이블을 지정하고, 보호](https://docs.microsoft.com/cloud-app-security/best-practices#discover-classify-label-and-protect-regulated-and-sensitive-data-stored-in-the-cloud)|
 |배포 상태 보고를 위해 민감도 레이블을 사용하고 레이블 구성을 미세 조정하는 방법을 보여줍니다.|[레이블 분석을 통한 레이블 사용량 보기](label-analytics.md)|

@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 구성이 Windows 10 Enterprise에 대한 Microsoft 365 Enterprise 조건을 충족하는지 확인합니다.
-ms.openlocfilehash: 42d8ec912a70aecef49672682c25f5e42c4bbe21
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: cf4a813a6cf89029eebde8e5947caf7b3c2ea553
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42632996"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636690"
 ---
 # <a name="phase-3-windows-10-enterprise-infrastructure-exit-criteria"></a>3단계: Windows 10 Enterprise 인프라 종료 기준
 
@@ -127,4 +127,4 @@ Windows 10 Enterprise 인프라는 새 디바이스에서는 설치를 시작하
 
 |||
 |:-------|:-----|
-|![4단계: Office 365 ProPlus](../media/deploy-foundation-infrastructure/O365proplus_icon-small.png)| Microsoft 365 Enterprise의 종단 간 배포 단계를 수행 중인 경우 다음 단계는 [Office 365 ProPlus](office365proplus-infrastructure.md)입니다. |
+|![4단계: 엔터프라이즈용 Microsoft 365 앱](../media/deploy-foundation-infrastructure/O365proplus_icon-small.png)| Microsoft 365 Enterprise의 종단 간 배포 단계를 수행 중인 경우 다음 단계는 [엔터프라이즈용 Microsoft 365 앱](office365proplus-infrastructure.md)입니다. |

@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 민감도 레이블을 만들 때 문서 또는 전자 메일에 레이블을 자동으로 할당하거나 사용자에게 권장 레이블을 선택하라는 메시지를 표시할 수 있습니다.
-ms.openlocfilehash: 8295ec4098e90cac963598ab2d53d47a266b23a7
-ms.sourcegitcommit: bd51f626f0c7788c2a3cf89deee25264659aebd5
+ms.openlocfilehash: 8b6cf223eb9a7a806691a282944e77040de3f586
+ms.sourcegitcommit: f70f75b9dd163c00a3c6bc4b9f9b055e90c50367
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "43551149"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "43790635"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>민감도 레이블을 콘텐츠에 자동으로 적용
 
@@ -141,7 +141,7 @@ Windows용 Office 앱의 자동 레이블 지정은 Azure Information Protection
 
 미리 보기 기간 동안 다음 앱이 민감도 레이블에 분류자를 지원합니다.
 
-- [Office Insider](https://office.com/insider)의 Windows용 Office 365 ProPlus 데스크톱 앱:
+- [Office 참가자](https://office.com/insider)로부터의 Windows용 엔터프라이즈용 Microsoft 365 앱 데스크톱 앱:
     - Word
     - Excel
     - PowerPoint
@@ -152,7 +152,7 @@ Windows용 Office 앱의 자동 레이블 지정은 Azure Information Protection
     - PowerPoint
     - Outlook
 
-### <a name="recommend-that-the-user-applies-a-sensitivity-label-in-office-apps"></a>사용자가 Office 앱에서 민감도 레이블을 적용할 것을 권장합니다
+### <a name="recommend-that-the-user-applies-a-sensitivity-label"></a>사용자가 민감도 레이블을 적용하는 것이 좋습니다.
 
 원하는 경우 사용자에게 레이블을 적용할 것을 권장할 수 있습니다. 이 옵션을 사용하면 사용자가 분류 및 관련 보호를 수락하거나, 레이블이 콘텐츠에 적합하지 않은 경우에는 권장 사항을 취소할 수 있습니다.
 
@@ -162,7 +162,7 @@ Windows용 Office 앱의 자동 레이블 지정은 Azure Information Protection
 
 ![권장된 레이블을 적용하라는 메시지 표시](../media/Sensitivity-label-Prompt-for-required-label.png)
 
-### <a name="when-automatic-or-recommended-labels-are-applied-in-office-apps"></a>Office 앱에 자동 또는 권장 레이블이 적용되는 경우
+### <a name="when-automatic-or-recommended-labels-are-applied"></a>자동 또는 권장 레이블이 적용되는 시기
 
 Office 앱에서 구현되는 자동 및 권장되는 레이블 지정은 Office에 기본 제공되는 레이블을 사용할지 또는 Azure Information Protection 통합 레이블 지정 클라이언트를 사용하는지에 따라 다릅니다. 그러나 두 경우 모두에 다음이 적용됩니다.
 
@@ -192,7 +192,7 @@ Azure Information Protection 통합 레이블 지정 클라이언트와 관련�
 
 ### <a name="prerequisites-for-auto-labeling-policies"></a>자동 레이블 지정 정책에 대한 필수 구성 요소
 
-- 시뮬레이션 모드로 Office 365에 대한 감사가 설정되어 있어야 합니다. 감사를 설정해야 하거나 감사가 이미 설정되어 있는지 확실하지 않은 경우에는 [Office 365 감사 로그 검색 켜기 또는 끄기](turn-audit-log-search-on-or-off.md)를 참조하세요.
+- 시뮬레이션 모드로 Microsoft 365에 대한 감사가 설정되어 있어야 합니다. 감사를 설정해야 하거나 감사가 이미 설정되어 있는지 확실하지 않은 경우에는 [감사 로그 검색 켜기 또는 끄기](turn-audit-log-search-on-or-off.md)를 참조하세요.
 
 - SharePoint 및 OneDrive에서 파일에 자동 레이블을 지정하려면 다음을 수행합니다.
     - [SharePoint 및 OneDrive에서 Office 파일에 대한 민감도 레이블 사용(공개 미리 보기)](sensitivity-labels-sharepoint-onedrive-files.md)합니다.
@@ -205,6 +205,7 @@ Azure Information Protection 통합 레이블 지정 클라이언트와 관련�
 - 자동 레이블 지정 정책에 대해 선택할 수 있는 하나 이상의 민감도 레이블이 [생성 및 게시](create-sensitivity-labels.md)(적어도 한 명의 사용자에게) 됩니다. 이러한 레이블의 경우:
     - 소개에 설명된 대로 레이블 설정은 자동 레이블 지정 정책을 보완하기 때문에 Office 앱 레이블 설정의 자동 레이블 지정 설정이 켜져 있는지 여부는 중요하지 않습니다. 
     - 자동 레이블에 사용하려는 레이블이 시각적 표시(머리글, 바닥글, 워터 마크)를 사용하도록 구성된 경우 문서에는 적용되지 않습니다.
+    - 레이블이 암호화를 적용하는 경우 **지금 권한 적용** 설정에 대해 구성해야 합니다.
 
 ### <a name="learn-about-simulation-mode"></a>시뮬레이션 모드에 대해 알아보기
 
@@ -239,6 +240,8 @@ Azure Information Protection 통합 레이블 지정 클라이언트와 관련�
 2. **자동 레이블 지정(미리 보기)** 탭을 선택합니다.
     
     ![자동 레이블 지정(미리 보기)](../media/auto-labeling-tab.png)
+    
+    이 새 탭은 여전히 테넌트에 배포 중입니다. 보이지 않는 경우 며칠 후 다시 시도하세요.
 
 3. **+ 정책 만들기**를 선택합니다.
 
@@ -292,5 +295,4 @@ Azure Information Protection 통합 레이블 지정 클라이언트와 관련�
 
 > [!TIP]
 > 콘텐츠 탐색기를 사용하여 민감한 정보가 포함된 레이블이 지정되지 않은 문서가 있는 위치를 식별할 수도 있습니다. 이 정보를 사용하여 이러한 위치를 자동 레이블 지정 정책에 추가하고 식별된 민감한 정보 유형을 규칙으로 포함합니다.
-
 

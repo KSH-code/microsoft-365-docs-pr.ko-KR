@@ -20,17 +20,17 @@ ms.custom:
 - Ent_Solutions
 ms.assetid: 5b9c8e41-25d2-436d-89bb-9aecb9ec2b80
 description: '요약: Azure Information Protection을 적용하여 극비 SharePoint Online 팀 사이트의 파일을 보호합니다.'
-ms.openlocfilehash: a0a2a1e790711bf15db82068c00da5d614b498c4
-ms.sourcegitcommit: a53ec6ab7bf59983780ea7187cd5d56b8b1f4b33
+ms.openlocfilehash: 1c704689518da14bcabb56e81830b8456ebd2951
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/07/2020
-ms.locfileid: "41855453"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632193"
 ---
 # <a name="protect-sharepoint-online-files-with-azure-information-protection"></a>Azure Information Protection을 사용한 SharePoint Online 파일 보호
 
 >[!Note]
->극비의 SharePoint Online 팀 사이트의 파일에 대한 현재 솔루션은 Office 365 민감도 레이블을 사용합니다. 자세한 내용은 [이 문서](protect-sharepoint-online-files-with-sensitivity-label.md)를 참조하세요.
+>극비의 SharePoint Online 팀 사이트의 파일에 대한 현재 솔루션은 Microsoft 365 민감도 레이블을 사용합니다. 자세한 내용은 [이 문서](protect-sharepoint-online-files-with-sensitivity-label.md)를 참조하세요.
 >
 
 이 문서의 단계를 사용하여 파일에 대해 암호화 및 사용 권한을 제공하도록 Azure Information Protection을 구성합니다. 이러한 파일은 극비 보호용으로 구성된 SharePoint 라이브러리에 추가되거나, 사이트에서 직접 파일을 열고 Azure Information Protection 클라이언트를 사용하여 암호화를 추가할 수 있습니다. 암호화 및 사용 권한 보호 기능은 사이트에서 다운로드된 파일에 적용됩니다. 
@@ -40,12 +40,12 @@ ms.locfileid: "41855453"
 SharePoint Online의 파일에 대해 Azure Information Protection을 사용하는 것이 모든 고객에게 권장되는 것은 아니지만 일부 파일에 대해 이러한 수준의 보호가 필요한 고객에게는 적절할 수 있습니다.
 
 이 솔루션에 대한 몇 가지 중요 참고 사항은 다음과 같습니다.
-- Office 365에 저장된 파일에 Azure Information Protection 암호화가 적용되어 있으면 이 파일의 내용을 처리할 수 없습니다. 즉 공동 작성, eDiscovery, 검색, Delve 및 기타 공동 작업 기능이 작동하지 않습니다. DLP(데이터 손실 방지) 정책은 메타데이터(Office 365 레이블 포함)에만 작동할 수 있지만 파일의 내용(예: 파일 내의 신용 카드 번호)에는 작동할 수 없습니다.
+- Office 365에 저장된 파일에 Azure Information Protection 암호화가 적용되어 있으면 서비스에서 이러한 파일의 내용을 처리할 수 없습니다. 즉 공동 작성, eDiscovery, 검색, Delve 및 기타 공동 작업 기능이 작동하지 않습니다. DLP(데이터 손실 방지) 정책은 메타데이터(Microsoft 365 레이블 포함)에서만 작동하지만, 파일의 내용(예: 파일 내의 신용 카드 번호)에는 사용할 수 없습니다.
 
 - 이 솔루션을 사용하려면 Azure Information Protection의 보호를 적용하는 레이블을 선택해야 합니다. 파일을 인덱싱하고 조사하기 위해 SharePoint 기능 및 자동 암호화가 필요한 경우 SharePoint Online의 IRM(정보 권한 관리)을 사용하는 것이 좋습니다. IRM에 대해 SharePoint 라이브러리를 구성하면 편집을 위해 파일을 다운로드할 때 파일이 자동으로 암호화됩니다. SharePoint IRM에는 의사 결정에 영향을 줄 수 있는 제한 사항이 포함되어 있습니다. 자세한 내용은 [SharePoint 관리 센터에서 의 IRM(정보 권한 관리) 설정](https://support.office.com/article/Set-up-Information-Rights-Management-IRM-in-SharePoint-admin-center-239CE6EB-4E81-42DB-BF86-A01362FED65C)을 참조하세요.
 
 ## <a name="admin-setup"></a>관리자 설정
-먼저 [Office 365 구독을 위해 Microsoft Office 365 관리 센터에서 Azure RMS 활성화](https://docs.microsoft.com/information-protection/deploy-use/activate-office365)의 지침을 사용합니다.
+먼저 Microsoft 365 구독을 위해 [Microsoft 365 관리 센터에서 Azure RMS 활성화하기](https://docs.microsoft.com/information-protection/deploy-use/activate-office365)의 지침을 사용합니다.
   
 그런 다음, 극비 SharePoint Online 팀 사이트에 대한 보호 및 권한을 위한 새로운 범위 지정 정책 및 하위 레이블로 Azure Information Protection을 구성합니다.
   
@@ -100,7 +100,7 @@ SharePoint Online의 파일에 대해 Azure Information Protection을 사용하�
     
 - [수동 설치를 위한 다운로드 페이지](https://www.microsoft.com/download/details.aspx?id=53018)
     
-설치된 후 사용자가 Office 365 계정을 가진 Office 응용 프로그램(Microsoft Word )에서 실행한 다음 로그인할 수 있습니다. 새 **Information Protection** 표시줄에서 새 레이블이 선택할 수 있습니다. 극비 파일을 보호하려면 SharePoint Online 팀 사이트와 사용할 레이블을 알아야 합니다.
+설치된 후에는 사용자가 실행하여 Office 응용 프로그램(예: Microsoft Word)에서 Microsoft 365 계정으로 로그인할 수 있습니다. 새 **Information Protection** 표시줄에서 새 레이블을 선택할 수 있습니다. 극비 파일을 보호하려면 사용자가 SharePoint Online 팀 사이트와 사용할 레이블을 알아야 합니다.
   
 > [!NOTE]
 > 극비 SharePoint Online 팀 사이트가 여러 개인 경우, 각 하위 레이블에 대한 권한을 특정 SharePoint Online 팀 사이트의 사이트 멤버 액세스 그룹으로 설정하고 위의 설정을 사용하여 하위 레이블이 포함된 Azure Information Protection 범위 지정 정책 여러 개를 만들어야 합니다. 

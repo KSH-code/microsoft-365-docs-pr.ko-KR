@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 레이블을 사용하여 특정 유형의 이벤트가 발생하는 시점을 기준으로 보존 기간을 지정할 수 있습니다. 이벤트는 보존 기간의 시작을 트리거하며, 해당 유형의 이벤트에 적용된 보존 레이블이 있는 모든 콘텐츠에 대해 레이블 보존 작업이 적용됩니다. 이벤트 기반 보존은 일반적으로 기록 관리 프로세스의 일부로 사용됩니다.
-ms.openlocfilehash: 4389f3639de3e9e036491026455ce62a9e258432
-ms.sourcegitcommit: e695bcfc69203da5d3d96f3d6a891664a0e27ae2
+ms.openlocfilehash: a33c9ae73c2a1721e62c4c1c294270cc8d27d198
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43105625"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43616022"
 ---
 # <a name="overview-of-event-driven-retention"></a>이벤트 구동 보존 개요
 
@@ -84,7 +84,7 @@ ms.locfileid: "43105625"
 
 ### <a name="step-1-create-a-label-whose-retention-period-is-based-on-an-event"></a>1단계: 보존 기간이 이벤트에 따라 조정되는 레이블 만들기
 
-Microsoft 365 규정 준수 센터, Microsoft 365 보안 센터 또는 Office 365 보안 &amp; 규정 센터의 왼쪽 탐색에서 **분류** > **보존 레이블** > **레이블** 탭 > **레이블 만들기**를 선택합니다.
+Microsoft 365 규정 준수 센터, Microsoft 365 보안 센터 또는 해당 보안 &amp; 규정 센터의 왼쪽 탐색에서 **분류** > **보존 레이블** > **레이블** 탭 > **레이블 만들기**를 선택합니다.
   
 레이블을 만들고, 보존을 켜고, 아래 표시된 옵션을 선택하여 이벤트에 따라 콘텐츠를 보존하거나 삭제하는 경우입니다. 이것은 5단계, **이벤트** 페이지에서 이벤트를 만들 때까지 보존 설정이 적용되지 않음을 의미합니다. 
   
@@ -168,7 +168,7 @@ Exchange 항목의 경우 키워드를 포함할 수 있습니다. AND, OR 및 N
 
 **이벤트** 페이지에 액세스하기 위해 검토자는 **처리 관리** 역할 및 **보기 전용 감사 로그** 역할이 있는 역할 그룹의 구성원이어야 합니다. 처리 검토자라는 새 역할 그룹을 만들고, 이러한 두 역할을 해당 역할 그룹에 추가한 후 역할 그룹에 구성원을 추가하는 것이 좋습니다. 
   
-자세한 내용은 [사용자에게 Office 365 보안 및 준수 센터에 대한 액세스 권한 부여](../security/office-365-security/grant-access-to-the-security-and-compliance-center.md)를 참조하세요.
+자세한 내용은 [사용자에게 보안 &amp; 준수 센터에 대한 액세스 권한 부여하기](../security/office-365-security/grant-access-to-the-security-and-compliance-center.md)를 참조하세요.
   
 ## <a name="automate-events-by-using-powershell"></a>PowerShell을 사용하여 이벤트 자동화
 

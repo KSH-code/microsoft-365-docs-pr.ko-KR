@@ -17,18 +17,18 @@ search.appverid:
 - MOE150
 - MET150
 description: '모든 Microsoft Information Protection 솔루션에 대한 요구 사항: 조직의 문서와 전자 메일을 분류하고 보호하기 위해 민감도 레이블을 생성, 구성 및 게시합니다.'
-ms.openlocfilehash: 196efe65eda1265d6f2c0578d1f444709dadb26c
-ms.sourcegitcommit: d767c288ae34431fb046f4cfe36cec485881385f
+ms.openlocfilehash: ea9b8d119f431079ff0558eddfae3caf0ec0fffb
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "43516823"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43635958"
 ---
 # <a name="create-and-configure-sensitivity-labels-and-their-policies"></a>민감도 레이블과 해당 정책 생성 및 구성
 
 >*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](https://aka.ms/ComplianceSD)*
 
-모든 Microsoft Information Protection 솔루션(때로는 MIP로 줄여서 부름)은 [민감도 레이블](sensitivity-labels.md)을 사용하여 구현됩니다. 이러한 레이블을 만들고 게시하려면, [Microsoft 365 준수 센터](https://compliance.microsoft.com/)와 같은 레이블 관리 센터로 이동합니다. Microsoft 365 보안 센터나 Office 365 보안 및 준수 센터를 사용할 수도 있습니다.
+모든 Microsoft Information Protection 솔루션(때로는 MIP로 줄여서 부름)은 [민감도 레이블](sensitivity-labels.md)을 사용하여 구현됩니다. 이러한 레이블을 만들고 게시하려면, [Microsoft 365 준수 센터](https://compliance.microsoft.com/)와 같은 레이블 관리 센터로 이동합니다. Microsoft 365 보안 센터나 보안 및 준수 센터를 사용할 수도 있습니다.
 
 먼저 앱과 다른 서비스에서 사용할 수 있게 하고자 하는 민감도 레이블을 만들고 구성합니다. 예를 들어 사용자가 Office 앱에서 보고 적용하도록 하려는 레이블입니다. 
 
@@ -50,7 +50,7 @@ ms.locfileid: "43516823"
     - Microsoft 365 보안 센터: 
         - **분류** > **민감도 레이블**
     
-    - Office 365 보안 및 준수 센터:
+    - 보안 및 준수 센터:
         - **분류** > **민감도 레이블**
 
 2. **레이블** 탭에서 **+레이블 만들기**를 선택하 여 **새 민감도 레이블** 마법사를 시작합니다.
@@ -73,9 +73,9 @@ ms.locfileid: "43516823"
 > [!IMPORTANT]
 > 이 **레이블** 탭에서, 새 레이블 정책을 만들어야 하는 경우가 아니면 **레이블 게시** 탭 (또는 레이블을 편집할 때 **레이블 게시** 단추)을 선택하지 마세요. 다른 레이블이나 다른 정책 설정이 필요한 경우에만 여러 레이블 정책이 필요합니다. 레이블 정책을 최대한 적게 보유하는 것이 좋습니다. 조직에 대한 레이블 정책을 하나만 보유하는 것이 일반적입니다.
 
-### <a name="additional-label-settings-with-office-365-security--compliance-center-powershell"></a>Office 365 보안 및 준수 센터 PowerShell를 이용한 추가 레이블 설정
+### <a name="additional-label-settings-with-security--compliance-center-powershell"></a>보안 및 준수 센터 PowerShell를 이용한 추가 레이블 설정
 
-추가 레이블 설정은 [Office 365 보안 및 준수 센터 PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/office-365-scc-powershell?view=exchange-ps)에서 [레이블 설정](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/set-label?view=exchange-ps) cmdlet을 통해 사용할 수 있습니다.
+추가 레이블 설정은 [보안 및 준수 센터 PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/office-365-scc-powershell?view=exchange-ps)에서 [Set-Label](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/set-label?view=exchange-ps) cmdlet으로 사용할 수 있습니다.
 
 사용자가 로컬 언어로 레이블 이름과 도구 설명을 확인하기 위한 다국적 배포에는 *LocaleSettings* 매개 변수를 사용합니다. 예제 구성에 대한 자세한 내용은 다음 섹션을 참조하세요. 
 
@@ -89,7 +89,7 @@ ms.locfileid: "43516823"
 
 지원해야 하는 언어의 경우에는 Office [언어 식별자](https://docs.microsoft.com/deployoffice/office2016/language-identifiers-and-optionstate-id-values-in-office-2016#language-identifiers)(언어 태그라고도 함)를 사용하여 레이블 이름 및 도구 설명에 대한 고유한 번역을 지정할 수 있습니다.
 
-PowerShell에서 명령을 실행하기 전에 먼저 [Office 365 보안 및 준수 센터 PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps)해야 합니다.
+PowerShell에서 명령을 실행하기 전에 먼저 [보안 및 준수 센터 PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell?view=exchange-ps)해야 합니다.
 
 
 ```powershell
@@ -123,7 +123,7 @@ Set-Label -Identity $Label -LocaleSettings (ConvertTo-Json $TooltipLocaleSetting
     - Microsoft 365 보안 센터: 
         - **분류** > **민감도 레이블**
     
-    - Office 365 보안 및 준수 센터:
+    - 보안 및 준수 센터:
         - **분류** > **민감도 레이블**
 
 2. **레이블 정책** 탭을 선택합니다.
@@ -138,7 +138,7 @@ Set-Label -Identity $Label -LocaleSettings (ConvertTo-Json $TooltipLocaleSetting
 
 6. 화면에 나타나는 메시지에 따라 정책 설정을 구성합니다.
     
-    설정에 대한 자세한 정보는 개요 정보에서 [할 수 있는 레이블 정책](sensitivity-labels.md#what-label-policies-can-do)을 참조하세요.
+    설정에 대한 자세한 정보는 개요 정보에서 [레이블 정책의 기능](sensitivity-labels.md#what-label-policies-can-do)을 참조하세요.
 
 7. 여러 사용자나 위치에 대해 서로 다른 정책 설정이 필요한 경우에는 이 단계를 반복합니다. 예를 들어 사용자 그룹에 대한 추가 레이블이나 사용자 하위 집합에 대해 다른 기본 레이블을 원하는 경우가 해당됩니다.
 
@@ -150,9 +150,9 @@ Set-Label -Identity $Label -LocaleSettings (ConvertTo-Json $TooltipLocaleSetting
 
 일반적으로 사용자에게 몇 시간 내 Office 앱의 레이블이 표시됩니다. 그러나 레이블 정책 및 변경 사항이 모든 사용자 및 서비스에 복제될 때까지 최대 24시간이 소요됩니다.
 
-### <a name="additional-label-policy-settings-with-office-365-security--compliance-center-powershell"></a>Office 365 보안 및 준수 센터 PowerShell를 이용한 추가 레이블 정책 설정
+### <a name="additional-label-policy-settings-with-security--compliance-center-powershell"></a>보안 및 준수 센터 PowerShell를 이용한 추가 레이블 정책 설정
 
-추가 레이블 정책 설정은 [Office 365 보안 및 준수 센터 PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/office-365-scc-powershell?view=exchange-ps)에서 [레이블 설정](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/set-label?view=exchange-ps) cmdlet을 통해 사용할 수 있습니다.
+추가 레이블 정책 설정은 [보안 및 준수 센터 PowerShell](https://docs.microsoft.com/powershell/exchange/office-365-scc/office-365-scc-powershell?view=exchange-ps)에서 [Set-Label](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/set-label?view=exchange-ps) cmdlet으로 사용할 수 있습니다.
 
 이 cmdlet을 사용하여 Azure Information Protection 통합 레이블 클라이언트에 대한 [고급 설정](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide-customizations)을 지정할 수 있습니다. 이 고급 설정에는 Outlook에 다른 기본 레이블 설정이 포함되어 있으며, Outlook에서 보내는 전자 메일에 대해 경고, 정렬 또는 차단하는 팝업 메시지를 구현합니다. 전체 목록을 확인하려면 [레이블에 대해 사용 가능한 고급 설정](https://docs.microsoft.com/azure/information-protection/rms-client/clientv2-admin-guide-customizations#available-advanced-settings-for-labels)을 참조하세요. 
 

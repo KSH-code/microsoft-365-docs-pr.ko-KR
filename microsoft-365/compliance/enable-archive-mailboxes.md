@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 ms.assetid: 268a109e-7843-405b-bb3d-b9393b2342ce
 description: Office 365의 보안 및 규정 준수 센터를 사용하면 조직의 메시지 보존, 전자 검색 및 보유 요구 사항을 지원하기 위해 보관 사서함을 사용할 수 있습니다.
-ms.openlocfilehash: 36a5f2003232d55fd82965773b38a26c4fa29b33
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 6ff4e0eda616e9bdd5fe10832ae334c9337272f0
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42074732"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43631743"
 ---
 # <a name="enable-archive-mailboxes-in-the-security--compliance-center"></a>보안 및 준수 센터에서 보관 사서함 사용
   
@@ -41,7 +41,7 @@ Office 365(내부 보관이라고도 함)의 보관은 사용자에게 추가 �
   
 1. [https://protection.office.com](https://protection.office.com)으로 이동합니다.
     
-2. 회사 또는 학교 계정을 사용하여 Office 365에 로그인합니다.
+2. 회사 또는 학교 계정을 사용하여 로그인합니다.
     
 3. 보안 및 규정 준수 센터의 왼쪽 창에서 **정보 거버넌스** \> **보관**을 클릭합니다.
     
@@ -72,7 +72,7 @@ Office 365(내부 보관이라고도 함)의 보관은 사용자에게 추가 �
   
 1. [https://protection.office.com](https://protection.office.com)으로 이동합니다.
     
-2. 회사 또는 학교 계정을 사용하여 Office 365에 로그인합니다.
+2. 회사 또는 학교 계정을 사용하여 로그인합니다.
     
 3. 보안 및 규정 준수 센터의 왼쪽 창에서 **정보 거버넌스** \> **보관**을 클릭합니다.
     
@@ -133,7 +133,7 @@ Exchange Online에 연결되면 다음 섹션의 명령을 실행하여 보관 �
 
    현재 위치 보관을 지원하는 Outlook 라이선스 목록은 [Exchange 기능](https://support.office.com/article/outlook-license-requirements-for-exchange-features-46b6b7c5-c3ca-43e5-8424-1e2807917c99)의 Outlook 라이선스 요구 사항을 참조하십시오.
 
-- 보관 사서함은 사용자가 조직의 보존, eDiscovery 및 보류 요구 사항을 충족하는 데 도움이 됩니다. 예를 들어, 조직의 Exchange 보존 정책을 사용하여 사용자의 보관 사서함으로 사서함 콘텐츠를 이동할 수 있습니다. 보안 및 규정 준수 센터의 콘텐츠 검색 도구를 사용하여 사용자의 사서함에서 특정 콘텐츠를 검색하면 해당 사용자의 보관 사서함도 검색됩니다. 또한 소송 자료를 보관하거나 Office 365 보존 정책을 사용자의 사서함에 적용하면 보관 사서함의 항목도 보존됩니다.
+- 보관 사서함은 사용자가 조직의 보존, eDiscovery 및 보류 요구 사항을 충족하는 데 도움이 됩니다. 예를 들어, 조직의 Exchange 보존 정책을 사용하여 사용자의 보관 사서함으로 사서함 콘텐츠를 이동할 수 있습니다. 보안 및 규정 준수 센터의 콘텐츠 검색 도구를 사용하여 사용자의 사서함에서 특정 콘텐츠를 검색하면 해당 사용자의 보관 사서함도 검색됩니다. 또한 소송 보존을 배치하거나 보존 정책을 사용자의 사서함에 적용하면 보관 사서함의 항목도 보존됩니다.
   
 - 보관 사서함을 사용하도록 설정하면 조직에서 모든 사서함에 자동으로 할당되는 기본 Exchange 보존 정책(메시징 레코드 관리 또는 MRM 정책이라고도 함)을 활용할 수 있습니다. 보관 사서함을 사용하도록 설정하면 기본 Exchange 보존 정책이 자동으로 다음 작업을 수행합니다. 
   
@@ -147,4 +147,4 @@ Exchange Online에 연결되면 다음 섹션의 명령을 실행하여 보관 �
     
   - [Exchange Online의 기본 보존 정책](https://go.microsoft.com/fwlink/?linkid=839418)
     
-  - [Office 365 조직에서 사서함에 대한 보관 및 삭제 정책 설정](set-up-an-archive-and-deletion-policy-for-mailboxes.md)
+  - [조직에서 사서함에 대한 보관 및 삭제 정책 설정하기](set-up-an-archive-and-deletion-policy-for-mailboxes.md)

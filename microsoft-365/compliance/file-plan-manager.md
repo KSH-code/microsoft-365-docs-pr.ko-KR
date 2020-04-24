@@ -16,12 +16,12 @@ search.appverid:
 - MET150
 ms.assetid: af398293-c69d-465e-a249-d74561552d30
 description: 파일 계획 관리자는 보존 레이블 및 보존 레이블 정책에 대한 고급 관리 기능을 제공하고, 생성부터 공동 작업, 레코드 선언, 보존 및 최종 처리에 이르는 전체 콘텐츠 수명 주기 동안 레이블 및 레이블-콘텐츠 간 활동을 트래버스하는 통합 방법을 제공합니다.
-ms.openlocfilehash: c4b1ddfaf3191a282a67917c2b2d257712a10802
-ms.sourcegitcommit: 311bbd6f168225ede166d29696126a1e003eee0f
+ms.openlocfilehash: 4c9cbdefe538a0ed2593ec74dfcee1010fd9b818
+ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43151463"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43708443"
 ---
 # <a name="overview-of-file-plan-manager"></a>파일 계획 관리자 개요
 
@@ -37,9 +37,9 @@ ms.locfileid: "43151463"
 
 파일 계획 관리자에 액세스하려면 다음과 같은 관리자 역할 중 하나가 있어야 합니다.
     
-- 보존 관리자
-
-- 보기 전용 보존 관리자
+    - 보존 관리자
+    
+    - 보기 전용 보존 관리자
 
 ## <a name="default-retention-labels-and-label-policy"></a>기본 보존 레이블 및 레이블 정책
 
@@ -131,7 +131,7 @@ ms.locfileid: "43151463"
 
    ![Excel에서 빈 파일 계획 서식 파일 열기](../media/file-plan-blank-template.png)
 
-3. 서식 파일 채우기 다음에서는 파일 계획 서식 파일의 각 속성에 대한 속성 및 유효한 값을 설명합니다.<br/>
+3. 서식 파일 채우기 다음에서는 파일 계획 서식 파일의 각 속성에 대한 속성 및 유효한 값을 설명합니다. 가져오기의 경우 각 값의 길이는 최대 64자입니다. <br/>
 
    |**속성**|**유형**|**유효한 값**|
    |:-----|:-----|:-----|
@@ -152,7 +152,7 @@ ms.locfileid: "43151463"
    |CitationUrl|String|이 속성은 **조항/인용** 파일 계획 설명자에 표시되는 URL을 지정합니다.|
    |CitationJurisdiction|String|이 속성은 **조항/인용** 파일 계획 설명자에 표시되는 관할지 또는 에이전시를 지정합니다(예: "미국 SEC(증권 거래 위원회").|
    |Regulatory|String|공백으로 남겨 둡니다. 현재, 이 속성은 사용되지 않습니다.|
-   |EventType|문자열|이 속성은 레이블과 연결된 보존 규칙을 지정합니다. 규칙을 고유하게 식별하는 모든 값을 사용할 수 있습니다. 예:</br>**이름**</br>**DN(고유 이름)**</br>**GUID** </br>[Get-RetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/get-retentioncompliancerule?view=exchange-ps) cmdlet를 사용하여 사용 가능한 보존 규칙을 볼 수 있습니다. 한 Office 365 조직에서 레이블을 내보낼 경우 레이블을 다른 Office 365 조직으로 가져올 때 해당 조직의 EventType 속성 값을 사용할 수 없습니다. EventType 값은 조직마다 고유하기 때문입니다. |
+   |EventType|문자열|이 속성은 레이블과 연결된 보존 규칙을 지정합니다. 규칙을 고유하게 식별하는 모든 값을 사용할 수 있습니다. 예:</br>**이름**</br>**DN(고유 이름)**</br>**GUID** </br>[Get-RetentionComplianceRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/get-retentioncompliancerule?view=exchange-ps) cmdlet를 사용하여 사용 가능한 보존 규칙을 볼 수 있습니다. 한 조직에서 레이블을 내보낼 경우 레이블을 다른 조직으로 가져올 때 해당 조직의 EventType 속성 값을 사용할 수 없습니다. EventType 값은 조직마다 고유하기 때문입니다. |
    |||
 
    다음은 보존 레이블에 대한 정보가 포함된 서식 파일의 예입니다.

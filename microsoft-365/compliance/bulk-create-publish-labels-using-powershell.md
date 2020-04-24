@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Office 365에서 보존 레이블을 사용하여 조직의 보존 일정을 구현할 수 있습니다. 제공된 스크립트와 .csv 파일을 사용하면 보존 레이블 및 보존 레이블 정책을 PowerShell을 사용하여 대량으로 만들고 게시할 수 있습니다.
-ms.openlocfilehash: e7b992b8464e5c505d048b5b945d154a770fd59c
-ms.sourcegitcommit: e695bcfc69203da5d3d96f3d6a891664a0e27ae2
+ms.openlocfilehash: 055bc785c492e2fa37bc60ce4e383f79111c551a
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43105980"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636356"
 ---
 # <a name="bulk-create-and-publish-retention-labels-by-using-powershell"></a>PowerShell을 사용하여 보존 레이블 대량 생성 및 게시
 
@@ -716,7 +716,7 @@ if ($ResultCSV)
 
 아래 단계를 따릅니다.
   
-- [Office 365 보안 및 준수 센터 PowerShell에 연결](https://go.microsoft.com/fwlink/?linkid=799771)
+- [보안 &amp;준수 센터 PowerShell에 연결하기](https://go.microsoft.com/fwlink/?linkid=799771)
     
 ## <a name="step-5-run-the-powershell-script-to-create-and-publish-the-retention-labels"></a>5단계: PowerShell 스크립트를 실행하여 보존 레이블 만들기 및 게시
 

@@ -18,12 +18,12 @@ ms.custom:
 - Ent_TLGs
 ms.assetid: ''
 description: '요약: Microsoft 365 테스트 환경을 위한 암호 재설정을 구성하고 테스트합니다.'
-ms.openlocfilehash: c8d5ed0c7feac98afd3230a305f4ab1f850ca7f8
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: 96a8b03ca978ac2b2174742c0208444d853ba7c9
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42633176"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632890"
 ---
 # <a name="password-reset-for-your-microsoft-365-test-environment"></a>Microsoft 365 테스트 환경을 위한 암호 재설정
 
@@ -33,9 +33,9 @@ Azure AD(Azure Active Directory) SSPR(셀프 서비스 암호 재설정)을 사�
 
 이 문서에서는 Microsoft 365 테스트 환경에서 암호 재설정을 구성 및 테스트하는 방법을 세 단계로 설명합니다.
 
-1.  Microsoft 365 Enterprise 테스트 환경을 만듭니다.
+1.    Microsoft 365 Enterprise 테스트 환경을 만듭니다.
 2.  암호 쓰기 저장을 사용하도록 설정
-3.  사용자 3 계정에 대한 암호 재설정을 구성하고 테스트합니다.
+3.    사용자 3 계정에 대한 암호 재설정을 구성하고 테스트합니다.
     
 ![Microsoft 클라우드의 테스트 랩 가이드](../media/m365-enterprise-test-lab-guides/cloud-tlg-icon.png) 
     
@@ -52,7 +52,7 @@ Azure AD(Azure Active Directory) SSPR(셀프 서비스 암호 재설정)을 사�
   
 - Microsoft 365 E5, Office 365 E5 평가판 또는 유료 구독
 - 인터넷에 연결된 간소화된 조직 인트라넷: Azure Virtual Network 서브넷에 있는 DC1, APP1 및 CLIENT1 가상 머신으로 구성됩니다. 
-- Azure AD Connect는 테스트 랩 AD DS(Active Directory 도메인 서비스) 도메인을 Microsoft 365 또는 Office 365 구독의 Azure AD 테넌트와 동기화하기 위해 APP1에서 실행됩니다.
+- Azure AD Connect는 TESTLAB AD DS(Active Directory Domain Services) 도메인을 Microsoft 365 구독의 Azure AD 테넌트와 동기화하기 위해 APP1에서 실행됩니다.
 
 ## <a name="phase-2-enable-password-writeback"></a>2단계: 암호 쓰기 저장을 사용하도록 설정
 
@@ -81,7 +81,7 @@ Azure AD(Azure Active Directory) SSPR(셀프 서비스 암호 재설정)을 사�
 1. 새 비공개 브라우저 인스턴스를 열고 [https://aka.ms/ssprsetup](https://aka.ms/ssprsetup)으로 이동합니다.
 2. 사용자 3 계정 자격 증명으로 로그인합니다.
 3. **자세한 내용 필요**에서 **다음**을 클릭합니다. 
-5. **Don’t lose access to your account**(계정에 대한 액세스 유지)에서 인증 전화를 휴대폰 번호로, 인증 이메일을 회사 또는 개인 이메일 계정으로 설정합니다.
+5. **계정에 대한 액세스 유지**에서 인증 전화를 휴대폰 번호로, 인증 이메일을 회사 또는 개인 이메일 계정으로 설정합니다.
 7. 둘 다 확인되면 **정상**을 클릭하고 브라우저의 비공개 인스턴스를 닫습니다.
 8. 새 비공개 브라우저 인스턴스를 열고 [https://aka.ms/sspr](https://aka.ms/sspr)로 이동합니다.
 9. 사용자 3 계정 이름을 입력하고, CAPTCHA에서 문자를 입력한 다음, **다음**을 클릭합니다.
