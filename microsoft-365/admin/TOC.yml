@@ -219,8 +219,6 @@
           href: get-help-with-domains/information-for-dns-records.md
         - name: 문제 찾기 및 해결
           href: get-help-with-domains/find-and-fix-issues.md
-        - name: 도메인 연결
-          href: get-help-with-domains/domain-connect.md
         - name: 도메인 설정(호스트별 지침)
           href: get-help-with-domains/set-up-your-domain-host-specific-instructions.md
         - name: 도메인 등록 기관에서 이름 서버 변경
