@@ -24,12 +24,12 @@ search.appverid:
 - GEA150
 description: 새 구독으로 업그레이드 하는 방법을 알아봅니다.
 monikerRange: o365-worldwide
-ms.openlocfilehash: a5cede13a64ea1a6562a326c32dc902d14c3dfe5
-ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
+ms.openlocfilehash: faddecffd91eb58dab7a3b498de97633b5efd9d0
+ms.sourcegitcommit: 11198133b43eb6a6369e544c8a0dd408d582591c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43707526"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "43796515"
 ---
 # <a name="upgrade-to-a-different-plan"></a>다른 플랜으로 업그레이드 
 
@@ -63,7 +63,7 @@ ms.locfileid: "43707526"
 
 ## <a name="the-upgrade-tab-is-empty"></a>업그레이드 탭이 비어 있음
 
-**업그레이드** 탭이 비어 있으면 지금은 업그레이드할 수 없는 이유에 대 한 설명이 표시 됩니다. [요금제를 수동으로 변경](change-plans-manually.md) 하거나 [지원 서비스에 문의할](../../admin/contact-support-for-business-products.md)수 있습니다. 자세한 내용은 [요금제를 업그레이드할 수 없는 이유](#why-cant-i-upgrade-plans)를 참조 하세요.
+**업그레이드** 탭이 비어 있으면 지금은 업그레이드할 수 없는 이유에 대 한 설명이 표시 됩니다. [요금제를 수동으로 변경](change-plans-manually.md)해 볼 수 있습니다. 자세한 내용은 [요금제를 업그레이드할 수 없는 이유](#why-cant-i-upgrade-plans)를 참조 하세요.
 
 ## <a name="i-dont-see-the-plan-i-want"></a>원하는 계획이 표시 되지 않음
 

@@ -1,5 +1,5 @@
 ---
-title: Office 365의 콘텐츠 검색
+title: 콘텐츠 검색
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -18,17 +18,17 @@ search.appverid:
 - MED150
 - MET150
 ms.assetid: 53390468-eec6-45cb-b6cd-7511f9c909e4
-description: Office 365 또는 Microsoft 365의 준수 센터의 콘텐츠 검색 도구를 사용하여 사서함, SharePoint Online 사이트, OneDrive 계정, Microsoft Teams, Office 365 그룹, Yammer 그룹 및 비즈니스용 Skype 대화에서 콘텐츠를 검색할 수 있습니다. 키워드 검색 쿼리 및 검색 조건을 사용하여 검색 결과 범위를 좁힐 수 있습니다. 그런 다음 검색 결과를 미리 보고 내보낼 수 있습니다. 또한 콘텐츠 검색은 GDPR 데이터 주체 요청과 관련된 콘텐츠를 검색하는 데 효과적인 도구입니다.
-ms.openlocfilehash: 0f37daee28afabb6a63be316bd830f9b3992a044
-ms.sourcegitcommit: 09c3e2f3129c5e43cd8420cccd0676ff3a29a355
+description: Office 365 또는 Microsoft 365의 규정 준수 센터의 콘텐츠 검색 도구를 사용하여 사서함, SharePoint Online 사이트, OneDrive 계정, Microsoft Teams, Microsoft 365 그룹, Yammer 그룹 및 비즈니스용 Skype 대화에서 콘텐츠를 검색할 수 있습니다. 키워드 검색 쿼리 및 검색 조건을 사용하여 검색 결과 범위를 좁힐 수 있습니다. 그런 다음 검색 결과를 미리 보고 내보낼 수 있습니다. 또한 콘텐츠 검색은 GDPR 데이터 주체 요청과 관련된 콘텐츠를 검색하는 데 효과적인 도구입니다.
+ms.openlocfilehash: 74fb84a46b4dd283eef90f2181a0d084a7a361e8
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "43521504"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632363"
 ---
-# <a name="content-search-in-office-365"></a>Office 365의 콘텐츠 검색
+# <a name="content-search"></a>콘텐츠 검색
 
-Office 365 또는 Microsoft 365의 준수 센터의 콘텐츠 검색 eDiscovery 도구를 사용하여 Office 365 조직에서 전자 메일, 문서, 인스턴트 메시징 대화와 같은 원본 위치 항목을 검색할 수 있습니다. 이 도구를 사용하여 다음 Office 365 서비스의 항목을 검색할 수 있습니다.
+Office 365 또는 Microsoft 365의 규정 준수 센터의 콘텐츠 검색 eDiscovery 도구를 사용하여 조직에서 전자 메일, 문서, 인스턴트 메시징 대화와 같은 내부 항목을 검색할 수 있습니다. 이 도구를 사용하여 다음 서비스의 항목을 검색할 수 있습니다.
   
 - Exchange Online 사서함 및 공용 폴더
     
@@ -38,7 +38,7 @@ Office 365 또는 Microsoft 365의 준수 센터의 콘텐츠 검색 eDiscovery 
     
 - Microsoft Teams 
 
-- Office 365 그룹
+- Microsoft 365 그룹
 
 - Yammer 그룹 
     
@@ -48,7 +48,7 @@ Office 365 또는 Microsoft 365의 준수 센터의 콘텐츠 검색 eDiscovery 
 
 **콘텐츠 검색** 페이지에 액세스하여 검색을 실행하고 검색 결과를 미리 보고 내보내려면 관리자, 준수 관리자 또는 eDiscovery 구성원이 보안 및 준수 센터의 eDiscovery 매니저 역할 그룹의 구성원이어야 합니다. 자세한 내용은 [eDiscovery 권한 할당](assign-ediscovery-permissions.md)을 참조하세요.
   
-1. [https://protection.office.com](https://protection.office.com)으로 이동하고 Office 365 전자 메일 주소와 암호를 사용해 로그인합니다.
+1. [https://protection.office.com](https://protection.office.com)으로 이동하여 Microsoft 전자 메일 주소와 암호를 사용해 로그인합니다.
     
 2. **검색** \> **콘텐츠 검색**을 클릭합니다.
     
@@ -85,7 +85,7 @@ Office 365 또는 Microsoft 365의 준수 센터의 콘텐츠 검색 eDiscovery 
     
        - **위치:** 검색할 콘텐츠 위치를 선택합니다.
     
-      - **모든 위치:** 이 옵션을 사용해 조직의 모든 콘텐츠 위치를 검색할 수 있습니다. 여기에는 모든 Exchange 사서함(모든 비활성 사서함 및 모든 Microsoft Teams, Yammer 그룹 및 Office 365 그룹의 사서함 포함)의 전자 메일, 모든 비즈니스용 Skype 대화, 모든 SharePoint 및 비즈니스용 OneDrive 사이트(모든 Microsoft Teams 사이트, Yammer 그룹 및 Office 365 그룹 포함) 및 모든 Exchange 공용 폴더의 항목이 포함됩니다.
+      - **모든 위치:** 이 옵션을 사용해 조직의 모든 콘텐츠 위치를 검색할 수 있습니다. 여기에는 모든 Exchange 사서함(모든 비활성 사서함 및 모든 Microsoft Teams, Yammer 그룹 및 Microsoft 365 그룹의 사서함 포함)의 전자 메일, 모든 비즈니스용 Skype 대화, 모든 SharePoint 및 비즈니스용 OneDrive 사이트(모든 Microsoft Teams 사이트, Yammer 그룹 및 Microsoft 365 그룹 포함) 및 모든 Exchange 공용 폴더의 항목이 포함됩니다.
     
       - **특정 위치:** 이 옵션을 사용하여 특정 콘텐츠 위치를 검색합니다. 특정 Office 365 서비스에 대한 모든 콘텐츠 위치를 검색(예: 모든 Exchange 사서함 검색 또는 모든 SharePoint 사이트 검색)하거나 표시되는 Office 365 서비스의 특정 위치에서 콘텐츠를 검색할 수 있습니다. 
     
@@ -178,7 +178,7 @@ Office 365 또는 Microsoft 365의 준수 센터의 콘텐츠 검색 eDiscovery 
   
 [OneDrive 계정 검색](#searching-onedrive-accounts)
   
-[Microsoft Teams 및 Office 365 그룹 검색](#searching-microsoft-teams-and-office-365-groups)
+[Microsoft Teams 및 Microsoft 365 그룹 검색](#searching-microsoft-teams-and-microsoft-365-groups)
 
 [Yammer 그룹 검색](#searching-yammer-groups)
   
@@ -196,7 +196,7 @@ Office 365 또는 Microsoft 365의 준수 센터의 콘텐츠 검색 eDiscovery 
 
 - 콘텐츠 검색 기능에 적용되는 제한 사항에 대한 설명을 보려면 [콘텐츠 검색 제한](limits-for-content-search.md)을 참조하세요.
     
-- Microsoft는 모든 Office 365 조직에서 실행하는 콘텐츠 검색에 대해 성능 정보를 수집합니다. 검색 쿼리의 복잡성이 검색 시간에 영향을 줄 수 있지만, 검색 시간에 영향을 미치는 가장 큰 요인은 검색하는 사서함 수입니다. Microsoft는 검색 시간에 대한 서비스 수준 약정을 제공하지 않지만 다음 표에는 검색에 포함된 사서함 수를 기준으로 한 콘텐츠 검색의 평균 검색 시간이 나와 있습니다.
+- Microsoft는 모든 조직에서 실행하는 콘텐츠 검색에 대해 성능 정보를 수집합니다. 검색 쿼리의 복잡성이 검색 시간에 영향을 줄 수 있지만, 검색 시간에 영향을 미치는 가장 큰 요인은 검색하는 사서함 수입니다. Microsoft는 검색 시간에 대한 서비스 수준 약정을 제공하지 않지만 다음 표에는 검색에 포함된 사서함 수를 기준으로 한 콘텐츠 검색의 평균 검색 시간이 나와 있습니다.
     
 |**사서함 수**|**평균 검색 시간**|
 |:-----|:-----|
@@ -229,7 +229,7 @@ Office 365 또는 Microsoft 365의 준수 센터의 콘텐츠 검색 eDiscovery 
     
     ![키워드 목록 및 조건을 사용하여 만든 검색 쿼리의 예](../media/b463750c-57fa-4602-9fed-0d5a420db3ad.png)
   
-- 콘텐츠 검색을 실행하면 Office 365에서 검색 쿼리에서 지원되지 않는 문자와 대문자로 표시되지 않은 부울 연산자를 자동으로 확인합니다. 지원되지 않는 문자는 종종 숨겨져 있으며 일반적으로 검색 오류를 발생시키거나 예기치 않은 결과를 반환할 수 있습니다. 검사의 대상이 되는 지원되지 않는 문자에 대한 자세한 내용은 [오류에 대한 콘텐츠 검색 쿼리 확인](check-your-content-search-query-for-errors.md)을 참조하세요.
+- 콘텐츠 검색을 실행하면 Microsoft 365에서 검색 쿼리에서 지원되지 않는 문자와 대문자로 표시되지 않은 부울 연산자를 자동으로 확인합니다. 지원되지 않는 문자는 종종 숨겨져 있으며 일반적으로 검색 오류를 발생시키거나 예기치 않은 결과를 반환할 수 있습니다. 검사의 대상이 되는 지원되지 않는 문자에 대한 자세한 내용은 [오류에 대한 콘텐츠 검색 쿼리 확인](check-your-content-search-query-for-errors.md)을 참조하세요.
     
 - 영문자가 아닌 문자(예: 한자)에 대한 키워드가 포함된 검색 쿼리가 있는 경우 **쿼리 언어-국가/지역**![콘텐츠 검색에서 쿼리 언어-국가/지역 아이콘](../media/8d4b60c8-e1f1-40f9-88ae-ee2a7eca0886.png)을 클릭하고 언어-국가 문화 코드 값을 선택합니다. 기본 언어/지역은 중립입니다. 콘텐츠 검색에 대해 언어 설정을 변경해야 하는지 어떻게 알 수 있나요? 특정 콘텐츠 위치에 검색 중인 영어 이외의 문자가 포함되어 있지만 검색 결과가 나타나지 않으면 언어 설정이 원인일 수 있습니다. 
   
@@ -239,15 +239,15 @@ Office 365 또는 Microsoft 365의 준수 센터의 콘텐츠 검색 eDiscovery 
     
     드물게 사용자의 UPN(사용자 계정 이름)이 변경되는 경우 해당 OneDrive 위치의 URL이 새 UPN을 통합하도록 변경됩니다. 이 경우 사용자의 새 OneDrive URL을 추가하고 이전 항목을 제거하여 콘텐츠 검색을 수정해야 합니다. 자세한 내용은 [UPN 변경 내용이 OneDrive URL에 미치는 영향](https://docs.microsoft.com/onedrive/upn-changes)을 참조하세요.
   
-### <a name="searching-microsoft-teams-and-office-365-groups"></a>Microsoft Teams 및 Office 365 그룹 검색
+### <a name="searching-microsoft-teams-and-microsoft-365-groups"></a>Microsoft Teams 및 Microsoft 365 그룹 검색
 
-Office 365 그룹 또는 Microsoft Team과 연결된 사서함을 검색할 수 있습니다. Microsoft Teams는 Office 365 그룹을 기반으로 하기 때문에 유사한 검색이 가능합니다. 두 경우 모두 그룹 또는 팀 사서함만 검색됩니다. 그룹 또는 팀 구성원의 사서함은 검색되지 않습니다. 이를 검색하려면 검색에 구체적으로 이들을 추가해야 합니다.
+Microsoft 365 그룹 또는 Microsoft Team과 연결된 사서함을 검색할 수 있습니다. Microsoft Teams는 Microsoft 365 그룹을 기반으로 하기 때문에 유사한 검색이 가능합니다. 두 경우 모두 그룹 또는 팀 사서함만 검색됩니다. 그룹 또는 팀 구성원의 사서함은 검색되지 않습니다. 이를 검색하려면 검색에 구체적으로 이들을 추가해야 합니다.
   
-Microsoft Teams 및 Office 365 그룹에서 콘텐츠를 검색할 때 다음 사항에 유의하세요.
+Microsoft Teams 및 Microsoft 365 그룹에서 콘텐츠를 검색할 때 다음 사항에 유의하세요.
   
-- Teams 및 Office 365 그룹에 있는 콘텐츠를 검색하려면 Teams 또는 그룹과 연결된 사서함과 SharePoint 사이트를 지정해야 합니다.
+- Teams 및 Microsoft 365 그룹에 있는 콘텐츠를 검색하려면 Teams 또는 그룹과 연결된 사서함과 SharePoint 사이트를 지정해야 합니다.
     
-- Exchange Online에서 **Get-UnifiedGroup** cmdlet를 실행하여 팀 또는 Office 365 그룹의 속성을 볼 수 있습니다. 이는 팀 또는 그룹에 연결된 사이트의 URL을 가져오는 데 적합합니다. 예를 들어 다음 명령을 실행하면 Senior Leadership Team이라는 Office 365 그룹의 선택된 속성이 표시됩니다. 
+- Exchange Online에서 **Get-UnifiedGroup** cmdlet을 실행하여 팀 또는 Microsoft 365 그룹의 속성을 볼 수 있습니다. 이는 팀 또는 그룹에 연결된 사이트의 URL을 가져오는 데 적합합니다. 예를 들어, 다음 명령을 실행하면 Senior Leadership Team이라는 Microsoft 365 그룹의 선택된 속성이 표시됩니다. 
     
   ```text
   Get-UnifiedGroup "Senior Leadership Team" | FL DisplayName,Alias,PrimarySmtpAddress,SharePointSiteUrl
@@ -260,9 +260,9 @@ Microsoft Teams 및 Office 365 그룹에서 콘텐츠를 검색할 때 다음 �
     > [!NOTE]
     > **Get-UnifiedGroup** cmdlet를 실행하려면 Exchange Online에서 보기 전용 받는 사람 역할을 할당받았거나 보기 전용 받는 사람 역할이 할당된 역할 그룹의 구성원이어야 합니다. 
   
-- 사용자의 사서함이 검색될 때 사용자가 구성원인 팀이나 Office 365 그룹은 검색되지 않습니다. 마찬가지로 팀 또는 Office 365 그룹을 검색하면 지정한 그룹 사서함 및 그룹 사이트만 검색됩니다. 그룹 구성원의 사서함 및 비즈니스용 OneDrive 계정은 검색에 명시적으로 추가하지 않는 한 검색되지 않습니다.
+- 사용자의 사서함이 검색될 때 사용자가 구성원인 팀이나 Microsoft 365 그룹은 검색되지 않습니다. 마찬가지로 팀 또는 Microsoft 365 그룹을 검색하면 지정한 그룹 사서함 및 그룹 사이트만 검색됩니다. 그룹 구성원의 사서함 및 비즈니스용 OneDrive 계정은 검색에 명시적으로 추가하지 않는 한 검색되지 않습니다.
     
-- Teams 또는 Office 365 그룹의 구성원 목록을 가져오려면 Microsoft 365 관리 센터의 **홈 \> 그룹** 페이지에서 속성을 볼 수 있습니다. 또는 Exchange Online PowerShell에서 다음 명령을 실행할 수 있습니다. 
+- Teams 또는 Microsoft 365 그룹의 구성원 목록을 가져오려면 Microsoft 365 관리 센터의 **홈 \> 그룹** 페이지에서 속성을 볼 수 있습니다. 또는 Exchange Online PowerShell에서 다음 명령을 실행할 수 있습니다. 
     
   ```powershell
   Get-UnifiedGroupLinks <group or team name> -LinkType Members | FL DisplayName,PrimarySmtpAddress 
@@ -358,7 +358,7 @@ Microsoft Teams 및 Office 365 그룹에서 콘텐츠를 검색할 때 다음 �
 
 ### <a name="searching-disconnected-or-de-licensed-mailboxes"></a>연결이 끊어졌거나 라이선스가 없는 사서함 검색
 
-Exchange Online 라이선스(또는 전체 Office 365 라이선스)가 Office 365 또는 Azure Active Directory의 사용자 계정에서 제거된 경우, 사용자의 사서함은 *연결이 끊어진* 사서함이 됩니다. 즉, 사서함과 사용자 계정이 더 이상 연결되지 않습니다. 다음은 연결이 끊어진 사서함을 검색할 때 발생하는 사항입니다.
+Exchange Online 라이선스(또는 전체 Microsoft 365 라이선스)가 사용자 계정이나 Azure Active Directory에서 제거된 경우, 사용자의 사서함은 *연결이 끊어진* 사서함이 됩니다. 즉, 사서함과 사용자 계정이 더 이상 연결되지 않습니다. 다음은 연결이 끊어진 사서함을 검색할 때 발생하는 사항입니다.
 
 - 사서함에서 라이선스가 제거되는 경우, 해당 사서함은 더 이상 검색할 수 없습니다. 
 
