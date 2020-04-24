@@ -14,17 +14,17 @@ localization_priority: Priority
 search.appverid:
 - MOE150
 - MET150
-description: Office 365 보안 및 준수 센터의 데이터 거버넌스 보고서를 사용하여 레이블이 의도대로 콘텐츠에 적용되는지 빠르게 확인할 수 있습니다.
-ms.openlocfilehash: 4236f76a651550504bfcb46057517077704d4b2f
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: 보안 &amp; 준수 센터의 데이터 거버넌스 보고서를 사용하여 레이블이 의도대로 콘텐츠에 적용되는지 빠르게 확인할 수 있습니다.
+ms.openlocfilehash: dbfa8b698a4f09a8307f3bbec38555193237a48c
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42068801"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43626304"
 ---
 # <a name="view-the-data-governance-reports"></a>데이터 거버넌스 보고서 보기
 
-레이블을 만든 후 콘텐츠에 의도대로 적용되는지 확인하고 싶을 것입니다. Office 365 보안 및 준수 센터의 데이터 거버넌스 보고서를 사용하면 다음 항목을 빠르게 확인할 수 있습니다.
+레이블을 만든 후 콘텐츠에 의도대로 적용되는지 확인하고 싶을 것입니다. 보안 &amp; 준수 센터의 데이터 거버넌스 보고서를 사용하면 다음 항목을 빠르게 확인할 수 있습니다.
   
 - **상위 5개 레이블** 이 보고서 는 콘텐츠에 적용된 상위 5개 레이블을 보여 줍니다. 이 보고서를 클릭하면 최근에 콘텐츠에 적용된 모든 레이블의 목록을 볼 수 있습니다. 각 레이블의 개수, 위치, 적용된 방식, 해당 보존 작업, 기록인지 여부 및 처리 유형도 확인할 수 있습니다. 
     

@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Contoso가 Microsoft 365 Enterprise에서 보안 기능을 사용하는 방법
-ms.openlocfilehash: 036c812e645399e00af270e62d057637867595fe
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: f8a16b07c6d4cb9a62e0131a1f667b675d5eaf66
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597095"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636489"
 ---
 # <a name="summary-of-microsoft-365-enterprise-security-for-the-contoso-corporation"></a>Contoso Corporation의 Microsoft 365 Enterprise 보안 요약
 
@@ -62,7 +62,7 @@ Contoso의 보안 관리자 및 IT 부서는 보안 모범 사례 및 Microsoft 
 
   Contoso의 보안 관리자는 해당 IT 사용자의 직무와 책임에 적합한 더 적은 관리자 역할을 계정에 할당했습니다.
 
-  자세한 내용은 [Office 365 관리자 역할 정보](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles)를 참조하세요.
+  자세한 내용은 [Microsoft 365 관리자 역할 정보](https://docs.microsoft.com/office365/admin/add-users/about-admin-roles)를 참조하세요.
 
 - 모든 사용자 계정에 대한 MFA
 
@@ -73,7 +73,7 @@ Contoso의 보안 관리자 및 IT 부서는 보안 모범 사례 및 Microsoft 
 
 - 조건부 액세스 정책을 사용한 보다 안전한 장치 및 응용 프로그램 액세스
 
-  Contoso는 ID, 장치, Exchange Online 및 SharePoint에 대해 [조건부 액세스 정책](microsoft-365-policies-configurations.md)을 사용하고 있습니다. ID 조건부 액세스 정책에는 높은 위험에 처한 사용자에게 암호 변경 요구, 클라이언트가 최신 인증을 지원하지 않는 앱을 사용하지 못하도록 지정 등이 포함됩니다. 장치 정책에는 승인된 앱의 정의와 규격 PC 및 모바일 장치 요구가 포함됩니다. Exchange Online 조건부 액세스 정책에는 ActiveSync 클라이언트 차단 및 Office 365 메시지 암호화 설정이 포함됩니다. SharePoint 조건부 액세스 정책에는 중요 및 높은 규제 대상 사이트에 대한 추가적인 보호가 포합됩니다.
+  Contoso는 ID, 장치, Exchange Online 및 SharePoint에 대해 [조건부 액세스 정책](microsoft-365-policies-configurations.md)을 사용하고 있습니다. ID 조건부 액세스 정책에는 높은 위험에 처한 사용자에게 암호 변경 요구, 클라이언트가 최신 인증을 지원하지 않는 앱을 사용하지 못하도록 지정 등이 포함됩니다. 장치 정책에는 승인된 앱의 정의와 규격 PC 및 모바일 장치 요구가 포함됩니다. Exchange Online 조건부 액세스 정책에는 ActiveSync 클라이언트 차단 및 Office 365 메시지 암호화 설정이 포함됩니다. SharePoint 조건부 액세스 정책에는 중요 및 높은 규제 대상 사이트에 대한 추가적인 보호가 포함됩니다.
 
 - 비즈니스용 Windows Hello
 
@@ -97,7 +97,7 @@ Contoso의 보안 관리자 및 IT 부서는 보안 모범 사례 및 Microsoft 
 
 - Office 365 위협 조사와 응답으로 공격 모니터링 및 방지
 
-  Contoso는 [Office 365 위협 조사 및 응답](https://docs.microsoft.com/office365/securitycompliance/office-365-ti)을 사용하여 공격을 보다 쉽게 식별 및 해결하고 후속 공격을 방지함으로써 Office 365 사용자를 보호합니다.
+  Contoso는 [Office 365 위협 조사 및 응답](https://docs.microsoft.com/office365/securitycompliance/office-365-ti)을 사용하여 공격을 더욱 쉽게 식별 및 해결하고, 후속 공격을 방지함으로써 사용자를 보호합니다.
 
 - Advanced Threat Analytics를 사용하여 정교한 공격으로부터 보호
 
@@ -107,9 +107,9 @@ Contoso의 보안 관리자 및 IT 부서는 보안 모범 사례 및 Microsoft 
 
 - Azure Information Protection 레이블을 사용하여 중요 및 높은 규제 대상 디지털 자산 보호
 
-  Contoso는 세 가지 수준의 데이터 보호를 결정하고, 사용자가 디지털 자산에 적용하는 [Office 365 민감성 레이블](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels)을 배포했습니다. 또한 영업 비밀 및 기타 지적 재산권의 경우 콘텐츠를 암호화하고 특정 사용자 계정 및 그룹으로의 액세스를 제한하는 높은 규제 대상 데이터에 대해서는 민감성 하위 레이블을 사용합니다.
+  Contoso는 세 가지 수준의 데이터 보호를 결정하고, 사용자가 디지털 자산에 적용하는 [Microsoft 365 민감성 레이블](https://docs.microsoft.com/microsoft-365/compliance/sensitivity-labels)을 배포했습니다. 또한 영업 비밀 및 기타 지적 재산권의 경우 콘텐츠를 암호화하고 특정 사용자 계정 및 그룹으로의 액세스를 제한하는 높은 규제 대상 데이터에 대해서는 민감성 하위 레이블을 사용합니다.
 
-- Office 365 데이터 손실 방지로 인트라넷 데이터 누수 방지
+- 데이터 손실 방지로 인트라넷 데이터 유출 방지하기
 
   Contoso는 Exchange Online, SharePoint 및 비즈니스용 OneDrive에 대해 [데이터 손실 방지](https://docs.microsoft.com/microsoft-365/compliance/data-loss-prevention-policies) 정책을 구성하여 사용자들이 실수로 또는 의도적으로 중요한 데이터를 공유하지 못하도록 하고 있습니다.
 

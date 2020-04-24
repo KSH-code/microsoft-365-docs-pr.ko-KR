@@ -1,5 +1,5 @@
 ---
-title: Office 365에서 온-프레미스 사용자의 클라우드 기반 사서함 검색
+title: 온-프레미스 사용자의 클라우드 기반 사서함 검색
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -17,20 +17,20 @@ search.appverid:
 - MET150
 ms.assetid: 3f7dde1a-a8ea-4366-86da-8ee6777f357c
 description: Exchange 하이브리드 배포에서 보안 및 준수 센터의 콘텐츠 검색 도구를 사용하여 온-프레미스 사용자의 MicrosoftTeams 채팅 데이터(1xN 채팅이라고 함)를 검색하고 내보냅니다.
-ms.openlocfilehash: ba3504289306543916667066738a25cf168d13e5
-ms.sourcegitcommit: 21338a9287017a66298e0ff557e80051946ebf13
+ms.openlocfilehash: 9dc9219d6ef1a387e1514deb672386d7d3c18290
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "42604155"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43626454"
 ---
-# <a name="searching-cloud-based-mailboxes-for-on-premises-users-in-office-365"></a>Office 365에서 온-프레미스 사용자의 클라우드 기반 사서함 검색
+# <a name="searching-cloud-based-mailboxes-for-on-premises-users"></a>온-프레미스 사용자의 클라우드 기반 사서함 검색
 
 조직에 Exchange 하이브리드 배포가 있고 (또는 Office 365를 사용하여 조직을 온-프레미스 Exchange 조직과 동기화하고) Microsoft Teams를 사용한 경우 사용자는 Teams 채팅 응용 프로그램을 사용하여 인스턴트 메시지를 이용할 수 있습니다. 클라우드 기반 사용자의 경우 Teams 채팅 데이터(*1xN 채팅*이라고도 함)는 기본 클라우드 기반 사서함에 저장됩니다. 온-프레미스 사용자가 팀 채팅 응용 프로그램을 사용하는 경우 기본 사서함이 온-프레미스에 있습니다. 이 문제를 해결하기 위해 Microsoft는 온-프레미스 사용자의 Teams 채팅 데이터를 저장할 수 있도록 클라우드 기반 저장소 영역(온-프레미스 사용자를 위한 클라우드 기반 사서함이라고 함)을 만드는 새로운 기능을 출시했습니다. 따라서 보안 및 준수 센터의 콘텐츠 검색 도구를 사용하여 온-프레미스 사용자의 Teams 채팅 데이터를 검색하고 내보낼 수 있습니다. 
   
 다음은 온-프레미스 사용자의 클라우드 기반 사서함을 설정하기 위한 요구 사항 및 제한 사항입니다.
   
-- 온-프레미스 디렉터리 서비스(예: Active Directory)의 사용자 계정은 Office 365의 디렉터리 서비스인 Azure Active Directory와 동기화되어야 합니다. 즉, 메일 사용자 계정이 Office 365에서 만들어지고 기본 사서함이 온-프레미스 조직에 있는 사용자와 연결됩니다.
+- 온-프레미스 디렉터리 서비스(예: Active Directory)의 사용자 계정은 Microsoft 365의 디렉터리 서비스인 Azure Active Directory와 동기화되어야 합니다. 즉, 메일 사용자 계정이 Microsoft 365에서 만들어지고 기본 사서함이 온-프레미스 조직에 있는 사용자와 연결됩니다.
 
 - 기본 사서함이 온-프레미스 조직에 있는 사용자에게 Microsoft Teams 라이선스와 최소 Exchange Online 계획 1 라이선스가 할당되어야 합니다.
 
@@ -39,7 +39,7 @@ ms.locfileid: "42604155"
 - 조직에서 온-프레미스 사용자의 클라우드 기반 사서함에서 Teams 채팅 데이터를 검색할 수 있도록 Microsoft 지원 요청을 제출해야 합니다. 이 문서의 [이 기능을 사용하도록 설정할 수 있도록 Microsoft 지원 요청 제출](#filing-a-request-with-microsoft-support-to-enable-this-feature)을 참조하세요. 
 
 > [!NOTE]
-> Teams 채널 대화는 항상 팀과 연결된 클라우드 기반 사서함에 저장됩니다. 즉 지원 요청을 제출할 필요 없이 콘텐츠 검색을 사용하여 채널 대화를 검색할 수 있습니다. Teams 채널 대화를 검색하는 방법에 대한 자세한 내용은 [Microsoft Teams 및 Office 365 그룹 검색](content-search.md#searching-microsoft-teams-and-office-365-groups)을 참조하세요.
+> Teams 채널 대화는 항상 팀과 연결된 클라우드 기반 사서함에 저장됩니다. 즉 지원 요청을 제출할 필요 없이 콘텐츠 검색을 사용하여 채널 대화를 검색할 수 있습니다. Teams 채널 대화를 검색하는 방법에 대한 자세한 내용은 [Microsoft Teams 및 Microsoft 365 그룹 검색](content-search.md#searching-microsoft-teams-and-microsoft-365-groups)을 참조하세요.
   
 ## <a name="how-it-works"></a>작동 방식
 
@@ -57,17 +57,17 @@ Microsoft Teams 지원 사용자에게 온-프레미스 사서함이 있고 사�
   
 Microsoft 지원 요청을 제출할 때 다음 정보를 포함해야 합니다.
   
-- Office 365 조직의 기본 도메인 이름입니다.
+- 조직의 기본 도메인 이름
 
-- Office 365 조직의 테넌트 이름 및 테넌트 ID입니다. 이를 Azure Active Directory 포털(**관리** \> **속성** 아래)에서 찾을 수 있습니다. [Office 365 테넌트 ID 찾기](https://support.office.com/article/6891b561-a52d-4ade-9f39-b492285e2c9b)를 참조하세요.
+- 조직의 테넌트 이름 및 테넌트 ID 이를 Azure Active Directory 포털(**관리** \> **속성** 아래)에서 찾을 수 있습니다. [Microsoft 365 테넌트 ID 찾기](https://support.office.com/article/6891b561-a52d-4ade-9f39-b492285e2c9b)를 참조하세요.
 
-- 다음은 지원 요청의 목적에 대한 다음 제목 또는 설명입니다. “온-프레미스 사용자의 응용 프로그램 콘텐츠 검색 사용” 이를 통해 요청을 구현할 Office 365 eDiscovery 엔지니어 팀에게 요청을 보낼 수 있습니다.
+- 다음은 지원 요청의 목적에 대한 다음 제목 또는 설명입니다. “온-프레미스 사용자의 응용 프로그램 콘텐츠 검색 사용” 이를 통해 요청을 구현할 eDiscovery 엔지니어 팀에게 요청을 보낼 수 있습니다.
 
 엔지니어링 변경되면 Microsoft 지원에서 예상 배포 날짜를 보냅니다. 지원 요청을 제출한 후에는 일반적으로 배포 프로세스에 2~3 주 정도 걸립니다.
   
 ### <a name="what-happens-after-this-feature-is-enabled"></a>이 기능을 사용하도록 설정한 후에는 어떻게 되나요?
 
-Office 365 조직에 이 기능이 배포된 후 콘텐츠 검색과 보안 및 준수 센터의 eDiscovery 사례와 연결된 검색에서 다음과 같은 사항이 변경됩니다.
+조직에 이 기능이 배포된 후 콘텐츠 검색과 보안 및 준수 센터의 eDiscovery 사례와 연결된 검색에서 다음과 같은 사항이 변경됩니다.
   
 - **온-프레미스 사용자를 위한 Office 앱 콘텐츠 추가** 확인란이 콘텐츠 검색의 **위치** 아래에 추가됩니다.
 
@@ -143,7 +143,7 @@ Office 365 조직에 이 기능이 배포된 후 콘텐츠 검색과 보안 및 
 
  **온-프레미스 사용자의 클라우드 기반 사서함은 어디에 있나요?**
   
-클라우드 기반 사서함은 Office 365 조직과 동일한 데이터 센터에 만들어지고 저장됩니다.
+클라우드 기반 사서함은 조직과 동일한 데이터 센터에 만들어지고 저장됩니다.
   
  **지원 요청을 제출하는 것 외에도 다른 요구 사항이 있나요?**
   
@@ -153,7 +153,7 @@ Office 365 조직에 이 기능이 배포된 후 콘텐츠 검색과 보안 및 
   
 아니요. 온-프레미스 사용자의 기본 사서함을 클라우드로 마이그레이션하면 해당 사용자의 Teams 채팅 데이터가 새 클라우드 기반 기본 사서함으로 마이그레이션됩니다.
   
- **온-프레미스 사용자에게 eDiscovery 보류 또는 Office 365 보존 정책을 적용할 수 있나요?**
+ **온-프레미스 사용자에게 eDiscovery 보류 또는 보존 정책을 적용할 수 있나요?**
   
 예. 온-프레미스 사용자의 클라우드 기반 사서함에 Teams 채팅 및 채널 메시지에 대한 eDiscovery 보류 또는 보존 정책을 적용할 수 있습니다.
   
