@@ -17,19 +17,19 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 0d4d0f35-390b-4518-800e-0c7ec95e946c
-description: '보안 및 준수 센터를 사용하여 통합 감사 로그를 검색해 Office 365 조직의 사용자 및 관리자 활동을 확인합니다. '
-ms.openlocfilehash: f1fcfd883cb8becea861b6fcebcf59d61b104750
-ms.sourcegitcommit: 09c3e2f3129c5e43cd8420cccd0676ff3a29a355
+description: '보안 및 준수 센터를 사용하여 통합 감사 로그를 검색해 조직의 사용자와 관리자 활동을 확인합니다. '
+ms.openlocfilehash: f961b14bfeb15ac0c82988a35b9455f0dd7ec864
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "43521494"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43625128"
 ---
 # <a name="search-the-audit-log-in-the-security--compliance-center"></a>보안 및 준수 센터에서 감사 로그 검색
 
 ## <a name="introduction"></a>소개
 
-사용자가 특정 문서를 보았는지 또는 사서함에서 항목을 제거했는지 확인해야 하나요? 이 경우 Office 365 보안 및 준수 센터를 사용하여 통합 감사 로그를 검색해 Office 365 조직의 사용자 및 관리자 활동을 확인합니다. 통합된 감사 로그를 사용하는 이유는 무엇일까요? Office 365에서 다음과 같은 유형의 사용자 및 관리자 활동을 검색할 수 있기 때문입니다.
+사용자가 특정 문서를 보았는지 또는 사서함에서 항목을 제거했는지 확인해야 하나요? 그렇다면 보안 및 준수 센터를 사용하여 통합 감사 로그를 검색해 조직의 사용자와 관리자 활동을 확인합니다. 통합된 감사 로그를 사용하는 이유는 무엇일까요? Office 365에서 다음과 같은 유형의 사용자 및 관리자 활동을 검색할 수 있기 때문입니다.
 
 - SharePoint Online 및 비즈니스용 OneDrive의 사용자 활동
 
@@ -67,19 +67,19 @@ ms.locfileid: "43521494"
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
-Office 365 감사 로그의 검색을 시작하기 전에 반드시 아래 내용을 읽어 보시기 바랍니다.
+감사 로그의 검색을 시작하기 전에 반드시 아래 내용을 읽어 보세요.
 
-- 먼저 관리자(또는 또 다른 관리자)가 감사 로깅을 켜야 Office 365 감사 로그를 검색할 수 있습니다. 감사 로깅을 켜려면 보안 및 준수 센터의 **감사 로그 검색** 페이지에서 **감사 기능 설정**을 클릭합니다. (이 링크가 표시되지 않으면 조직에 대해 감사가 이미 켜져 있는 것입니다.) 감사 로깅을 켜면 감사 로그를 준비 중이며 준비가 완료된 후 두 시간 내에 검색을 실행할 수 있다는 메시지가 표시됩니다. 이 작업은 한 번만 수행하면 됩니다. 자세한 내용은 [감사 로그 검색 설정 및 해제](turn-audit-log-search-on-or-off.md)를 참조하세요.
+- 먼저 관리자(또는 또 다른 관리자)가 감사 로깅을 켜야 감사 로그를 검색할 수 있습니다. 감사 로깅을 켜려면 보안 및 준수 센터의 **감사 로그 검색** 페이지에서 **감사 기능 설정**을 클릭합니다. (이 링크가 표시되지 않으면 조직에 대해 감사가 이미 켜져 있는 것입니다.) 감사 로깅을 켜면 감사 로그를 준비 중이며 준비가 완료된 후 두 시간 내에 검색을 실행할 수 있다는 메시지가 표시됩니다. 이 작업은 한 번만 수행하면 됩니다. 자세한 내용은 [감사 로그 검색 설정 및 해제](turn-audit-log-search-on-or-off.md)를 참조하세요.
 
   > [!NOTE]
   > 현재 기본적으로 감사가 켜지도록 구현 중입니다. 해당 기능이 구현될 때까지 앞에서 설명한 단계에 따라 직접 켜시기 바랍니다.
 
-- Office 365 감사 로그를 검색하려면 Exchange Online에서 보기 전용 감사 로그 또는 감사 로그 역할이 할당되어야 합니다. 기본적으로 이러한 역할은 Exchange 관리 센터의 **사용 권한** 페이지에서 규정 준수 관리 및 조직 관리 역할 그룹에 할당됩니다. 참고 Office 365 및 Microsoft 365의 전역 관리자는 자동으로 Exchange Online 서비스에서 조직 관리 역할 그룹의 구성원이 됩니다. 최소 권한 수준을 사용하여 Office 365 감사 로그를 검색할 수 있는 권한을 사용자에게 제공하려면 Exchange Online에서 사용자 지정 역할 그룹을 만들고 보기 전용 감사 로그 또는 감사 로그 역할을 추가한 다음 새 역할 그룹의 구성원으로 사용자를 추가할 수 있습니다. 자세한 내용은 [Exchange Online에서 역할 그룹 관리](https://go.microsoft.com/fwlink/p/?LinkID=730688)를 참조하세요.
+- 감사 로그를 검색하려면 Exchange Online에서 보기 전용 감사 로그 또는 감사 로그 역할이 할당되어야 합니다. 기본적으로 이러한 역할은 Exchange 관리 센터의 **사용 권한** 페이지에서 규정 준수 관리 및 조직 관리 역할 그룹에 할당됩니다. 참고 Office 365 및 Microsoft 365의 전역 관리자는 자동으로 Exchange Online 서비스에서 조직 관리 역할 그룹의 구성원이 됩니다. 최소 권한 수준을 사용하여 감사 로그를 검색할 수 있는 권한을 사용자에게 제공하려면 Exchange Online에서 사용자 지정 역할 그룹을 만들고, 보기 전용 감사 로그 또는 감사 로그 역할을 추가한 다음, 새 역할 그룹의 구성원으로 사용자를 추가할 수 있습니다. 자세한 내용은 [Exchange Online에서 역할 그룹 관리](https://go.microsoft.com/fwlink/p/?LinkID=730688)를 참조하세요.
 
   > [!IMPORTANT]
-  > 보안 및 준수 센터의 **사용 권한** 페이지에서 사용자에게 보기 전용 감사 로그 또는 감사 로그 역할을 할당하는 경우 Office 365 감사 로그를 검색할 수 없습니다. Exchange Online에서 사용 권한을 할당해야 합니다. 감사 로그를 검색하는 데 사용되는 기본 cmdlet이 Exchange Online cmdlet이기 때문입니다.
+  > 보안 및 준수 센터의 **사용 권한** 페이지에서 사용자에게 보기 전용 감사 로그 또는 감사 로그 역할을 할당하는 경우 감사 로그를 검색할 수 없습니다. Exchange Online에서 사용 권한을 할당해야 합니다. 감사 로그를 검색하는 데 사용되는 기본 cmdlet이 Exchange Online cmdlet이기 때문입니다.
 
-- 사용자 또는 관리자가 감사되는 활동을 수행하면 감사 레코드가 생성되어 조직의 Office 365 감사 로그에 저장됩니다. 감사 기록이 보존되고 감사 로그에서 검색 가능한 시간은 Office 365 또는 Microsoft 365 엔터프라이즈 구독, 특히 특정 사용자에게 할당된 라이선스 유형에 따라 다릅니다.
+- 사용자 또는 관리자가 감사되는 활동을 수행하면 감사 레코드가 생성되어 조직의 감사 로그에 저장됩니다. 감사 기록이 보존되고 감사 로그에서 검색 가능한 시간은 Office 365 또는 Microsoft 365 엔터프라이즈 구독, 특히 특정 사용자에게 할당된 라이선스 유형에 따라 다릅니다.
 
   - **Office 365 E3 또는 Microsoft 365 E3:** 감사 레코드는 90일 동안 유지됩니다. 즉, 감사 로그에서 최근 90일 내에 수행된 활동을 검색할 수 있습니다.  
 
@@ -91,7 +91,7 @@ Office 365 감사 로그의 검색을 시작하기 전에 반드시 아래 내�
     > [!NOTE]
     > 조직이 감사 레코드의 1년 보존을 위해 개인 미리보기 프로그램에 참여한 경우 일반 가용성 롤아웃 날짜 이전에 생성 된 감사 레코드의 보존 기간은 재설정되지 않습니다.
 
-- 조직에서 Office 365 감사 로그 검색을 해제하려면 Exchange Online 조직에 연결된 원격 PowerShell에서 다음과 같은 명령을 실행하세요.
+- 조직에서 감사 로그 검색을 해제하려면 Exchange Online 조직에 연결된 원격 PowerShell에서 다음과 같은 명령을 실행하세요.
 
   ```powershell
   Set-AdminAuditLogConfig -UnifiedAuditLogIngestionEnabled $false
@@ -103,17 +103,17 @@ Office 365 감사 로그의 검색을 시작하기 전에 반드시 아래 내�
   Set-AdminAuditLogConfig -UnifiedAuditLogIngestionEnabled $true
   ```
 
-  자세한 내용은 [Office 365의 감사 로그 검색 해제](turn-audit-log-search-on-or-off.md)를 참조하세요.
+  자세한 내용은 [감사 로그 검색 해제](turn-audit-log-search-on-or-off.md)를 참조하세요.
 
-- 이전에 설명한 것처럼, 감사 로그를 검색하는 데 사용되는 기본 cmdlet은 **Search-UnifiedAuditLog**인 Exchange Online cmdlet입니다. 즉 보안 및 준수 센터의 **감사 로그 검색** 페이지를 사용하는 대신 이 cmdlet을 사용하여 Office 365 감사 로그를 검색할 수 있습니다. Exchange Online 조직에 연결된 원격 PowerShell에서 이 cmdlet을 실행해야 합니다. 자세한 내용은 [Search-UnifiedAuditLog](https://go.microsoft.com/fwlink/p/?linkid=834776)를 참조하세요.
+- 이전에 설명한 것처럼, 감사 로그를 검색하는 데 사용되는 기본 cmdlet은 **Search-UnifiedAuditLog**인 Exchange Online cmdlet입니다. 즉 보안 및 준수 센터의 **감사 로그 검색** 페이지를 사용하는 대신 이 cmdlet을 사용하여 감사 로그를 검색할 수 있습니다. Exchange Online 조직에 연결된 원격 PowerShell에서 이 cmdlet을 실행해야 합니다. 자세한 내용은 [Search-UnifiedAuditLog](https://go.microsoft.com/fwlink/p/?linkid=834776)를 참조하세요.
 
   **Search-UnifiedAuditLog** cmdlet에서 반환되는 검색 결과를 CSV 파일로 내보내는 방법에 대한 자세한 내용은 [감사 로그 레코드 내보내기, 구성 및 보기](export-view-audit-log-records.md#tips-for-exporting-and-viewing-the-audit-log)의 "감사 로그 내보내기 및 보기 팁" 섹션을 참조하세요.
 
-- Office 365 감사 로그에서 프로그래밍 방식으로 데이터를 다운로드하려면 PowerShell 스크립트를 사용하는 대신 Office 365 관리 작업 API를 사용하는 것이 좋습니다. Office 365 관리 작업 API는 조직의 작업, 보안 및 규정 준수 모니터링 솔루션을 개발하는 데 사용할 수 있는 REST 웹 서비스입니다. 자세한 내용은 [Office 365 관리 작업 API 참조](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-reference)를 참조하세요.
+- 감사 로그에서 프로그래밍 방식으로 데이터를 다운로드하려면 PowerShell 스크립트를 사용하는 대신 Office 365 관리 작업 API를 사용하는 것이 좋습니다. Office 365 관리 작업 API는 조직의 작업, 보안 및 규정 준수 모니터링 솔루션을 개발하는 데 사용할 수 있는 REST 웹 서비스입니다. 자세한 내용은 [Office 365 관리 작업 API 참조](https://docs.microsoft.com/office/office-365-management-api/office-365-management-activity-api-reference)를 참조하세요.
 
 - 감사 로그 검색 결과에 해당 감사 로그 레코드가 반환되려면 이벤트 발생 시점으로부터 30분에서 24시간 정도 걸릴 수 있습니다. 다음 표에는 Office 365의 여러 서비스가 표시되는 데 걸리는 시간이 나와 있습니다.
 
-  |**Office 365 서비스**|**30분**|**24시간**|
+  |**Microsoft 365 서비스**|**30분**|**24시간**|
   |:-----|:-----:|:-----:|
   |고급 위협 방지 및 위협 인텔리전스|![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)||
   |Azure Active Directory(사용자 로그인 이벤트)||![확인 표시](../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
@@ -138,7 +138,7 @@ Office 365 감사 로그의 검색을 시작하기 전에 반드시 아래 내�
 
 - Azure A (azure Active Directory)는 Office 365의 디렉터리 서비스입니다. 통합 감사 로그에는 Microsoft 365 관리 센터 또는 Azure 관리 포털에서 수행된 사용자, 그룹, 응용 프로그램, 도메인 및 디렉터리 활동이 포함됩니다. Azure AD 이벤트의 전체 목록은 [Azure Active Directory 감사 보고서 이벤트](https://go.microsoft.com/fwlink/p/?LinkID=616549)를 참조하세요.
 
-- Power BI에 대 한 감사 로깅은 기본적으로 사용하지 않도록 설정되어 있습니다. Office 365 감사 로그에서 Power BI 작업을 검색하려면 Power BI 관리 포털에서 감사를 사용하도록 설정해야 합니다. 자세한 내용은 [Power BI 관리 포털](https://docs.microsoft.com/power-bi/service-admin-portal#audit-logs)의 "감사 로그" 섹션을 참조 하세요.
+- Power BI에 대 한 감사 로깅은 기본적으로 사용하지 않도록 설정되어 있습니다. 감사 로그에서 Power BI 작업을 검색하려면 Power BI 관리 포털에서 감사를 사용하도록 설정해야 합니다. 자세한 내용은 [Power BI 관리 포털](https://docs.microsoft.com/power-bi/service-admin-portal#audit-logs)의 "감사 로그" 섹션을 참조 하세요.
 
 ## <a name="search-the-audit-log"></a>감사 로그 검색
 
@@ -159,7 +159,7 @@ Office 365에서 감사 로그를 검색하는 과정은 다음과 같습니다.
     > [!TIP]
     > 비공개 브라우징 세션(일반 세션이 아님)을 사용하여 보안 및 준수 센터에 액세스하면 현재 로그온한 자격 증명을 사용할 수 없으므로 비공개 브라우징 세션을 사용하세요. Internet Explorer 또는 Microsoft Edge에서 InPrivate 브라우징 세션을 열려면 CTRL+SHIFT+P를 누릅니다. Google Chrome에서 비공개 브라우징 세션을 열려면(incognito 창이라고 함) CTRL+SHIFT+N을 누릅니다.
 
-2. 회사 또는 학교 계정을 사용하여 Office 365에 로그인합니다.
+2. 회사 또는 학교 계정을 사용하여 로그인합니다.
 
 3. 보안 및 준수 센터의 왼쪽 창에서 **검색**을 클릭한 다음 **감사 로그 검색**을 클릭합니다.
 
@@ -174,7 +174,7 @@ Office 365에서 감사 로그를 검색하는 과정은 다음과 같습니다.
 
     a. **활동**: 드롭다운 목록을 클릭하여 검색할 수 있는 활동을 표시합니다. 사용자 및 관리자 활동은 관련 활동 그룹으로 구성되어 있습니다. 특정 활동을 선택하거나, 활동 그룹 이름을 클릭하여 그룹의 모든 활동을 선택할 수 있습니다. 선택한 활동을 클릭하여 선택을 취소할 수도 있습니다. 검색을 실행하면 선택한 활동에 대한 감사 로그 항목만 표시됩니다. **모든 활동에 대한 결과 표시**를 선택하면 선택한 사용자 또는 사용자 그룹이 수행한 모든 활동에 대한 결과가 표시됩니다.
 
-    100개가 넘는 사용자 및 관리자 활동이 Office 365 감사 로그에 기록됩니다. 여러 Office 365 서비스의 각 활동에 대한 설명을 보려면 이 문서의 항목에서 **감사되는 활동** 탭을 클릭합니다.
+    100개가 넘는 사용자 및 관리자 활동이 감사 로그에 기록됩니다. 여러 서비스의 각 활동에 대한 설명을 보려면 이 문서의 항목에서 **감사되는 활동** 탭을 클릭합니다.
 
     b. **시작 날짜** 및 ** 날짜**: 기본적으로 최근 7일이 선택됩니다. 날짜 및 시간 범위를 선택하여 해당 기간 내에 발생한 이벤트를 표시합니다. 날짜 및 시간은 UTC(협정 세계시) 형식으로 표시됩니다. 지정할 수 있는 최대 날짜 범위는 90일입니다. 선택한 날짜 범위가 90일보다 크면 오류가 표시됩니다.
 
@@ -239,7 +239,7 @@ Office 365에서 감사 로그를 검색하는 과정은 다음과 같습니다.
 
 #### <a name="view-the-details-for-a-specific-event"></a>특정 이벤트에 대한 세부 정보 보기
 
-검색 결과 목록에서 이벤트 레코드를 클릭하여 이벤트에 대한 세부 정보를 볼 수 있습니다. 이벤트 레코드의 자세한 속성이 포함된 **세부 정보**페이지가 표시됩니다. 표시되는 속성은 이벤트가 발생한 Office 365 서비스에 따라 다릅니다. 추가 세부 정보를 표시하려면 **추가 정보**를 클릭합니다. 설명은 [Office 365 감사 로그의 자세한 속성](detailed-properties-in-the-office-365-audit-log.md)을 참조하세요.
+검색 결과 목록에서 이벤트 레코드를 클릭하여 이벤트에 대한 세부 정보를 볼 수 있습니다. 이벤트 레코드의 자세한 속성이 포함된 **세부 정보**페이지가 표시됩니다. 표시되는 속성은 이벤트가 발생한 서비스에 따라 다릅니다. 추가 세부 정보를 표시하려면 **추가 정보**를 클릭합니다. 설명은 [감사 로그의 자세한 속성](detailed-properties-in-the-office-365-audit-log.md)을 참조하세요.
 
 ![감사 로그 이벤트 레코드의 자세한 속성을 보려면 추가 정보를 클릭합니다.](../media/6df582ae-d339-4735-b1a6-80914fb77a08.png)
 
@@ -274,7 +274,7 @@ Office 365에서 감사 로그를 검색하는 과정은 다음과 같습니다.
 
    - **로드된 결과 저장**: **감사 로그 검색** 페이지의 **결과** 아래에 표시되는 항목만 내보내려면 이 옵션을 선택합니다. 다운로드한 CSV 파일에는 페이지에 표시되는 것과 동일한 열(날짜, 사용자, 활동, 항목 및 세부 정보) 및 데이터가 포함되어 있습니다. CSV 파일에 감사 로그 항목의 추가 정보가 들어 있는 추가 열(**자세히**)이 포함됩니다. **감사 로그 검색** 페이지에 로드되어 표시되는 것과 동일한 결과를 내보내기 때문에 최대 5,000개의 항목이 내보내집니다.
 
-   - **모든 결과 다운로드**: Office 365 감사 로그에서 검색 조건에 맞는 항목을 모두 내보내려면 이 옵션을 선택합니다. 검색 결과 집합이 큰 경우 이 옵션을 선택하여 **감사 로그 검색** 페이지에 표시되는 5,000개의 감사 레코드뿐 아니라 감사 로그의 모든 항목을 다운로드합니다. 이 옵션은 감사 로그의 원시 데이터를 CSV 파일로 다운로드하며 감사 로그 항목의 추가 정보를 **AuditData** 열에 포함합니다. 파일이 다른 옵션을 선택할 경우 다운로드되는 파일보다 훨씬 더 클 수 있기 때문에 이 내보내기 옵션을 선택할 경우 파일을 다운로드하는 데 오래 걸릴 수 있습니다.
+   - **모든 결과 다운로드**: 감사 로그에서 검색 조건에 맞는 항목을 모두 내보내려면 이 옵션을 선택합니다. 검색 결과 집합이 큰 경우 이 옵션을 선택하여 **감사 로그 검색** 페이지에 표시되는 5,000개의 감사 레코드뿐 아니라 감사 로그의 모든 항목을 다운로드합니다. 이 옵션은 감사 로그의 원시 데이터를 CSV 파일로 다운로드하며 감사 로그 항목의 추가 정보를 **AuditData** 열에 포함합니다. 파일이 다른 옵션을 선택할 경우 다운로드되는 파일보다 훨씬 더 클 수 있기 때문에 이 내보내기 옵션을 선택할 경우 파일을 다운로드하는 데 오래 걸릴 수 있습니다.
 
      > [!IMPORTANT]
      > 단일 감사 로그 검색에서 최대 50,000의 항목을 CSV 파일로 다운로드할 수 있습니다. 50,000개의 항목이 CSV 파일로 다운로드되면 검색 조건에 맞는 이벤트가 50,000개 이상 있다고 가정할 수 있습니다. 이 제한보다 많은 항목을 내보내려면 날짜 범위를 사용하여 감사 로그 항목 수를 줄이세요. 50,000개 이상의 항목을 내보내기 위해 더 작은 날짜 범위로 여러 번 검색을 실행해야 할 수 있습니다.
@@ -287,17 +287,17 @@ Office 365에서 감사 로그를 검색하는 과정은 다음과 같습니다.
 
   **AuditData** 열을 분할한 후 **작업** 열을 기준으로 필터링하여 특정 유형의 활동에 대한 자세한 속성을 표시할 수 있습니다.
 
-- **모든 결과 다운로드** 옵션은 Office 365 감사 로그의 원시 데이터를 CSV 파일로 다운로드합니다. 이 파일에는 **로드된 결과 저장** 옵션을 선택할 경우 다운로드되는 파일과 다른 열 이름(CreationDate, UserIds, Operation, AuditData)이 포함됩니다. 동일한 활동에 대한 두 개의 다른 CSV 파일에 있는 값도 서로 다를 수 있습니다. 예를 들어 CSV 파일의 **작업** 열에 있는 활동은 **감사 로그 검색** 페이지의 **활동** 열에 표시되는 "사용자에게 친숙한" 버전과 다른 값을 가질 수 있습니다. (예: MailboxLogin 및 사서함에 로그인한 사용자)
+- **모든 결과 다운로드** 옵션은 감사 로그의 원시 데이터를 CSV 파일로 다운로드합니다. 이 파일에는 **로드된 결과 저장** 옵션을 선택할 경우 다운로드되는 파일과 다른 열 이름(CreationDate, UserIds, Operation, AuditData)이 포함됩니다. 동일한 활동에 대한 두 개의 다른 CSV 파일에 있는 값도 서로 다를 수 있습니다. 예를 들어 CSV 파일의 **작업** 열에 있는 활동은 **감사 로그 검색** 페이지의 **활동** 열에 표시되는 "사용자에게 친숙한" 버전과 다른 값을 가질 수 있습니다. (예: MailboxLogin 및 사서함에 로그인한 사용자)
 
-- 다양한 Office 365 서비스의 이벤트를 포함하는 검색 쿼리의 모든 결과를 다운로드하는 경우 CSV 파일의 **AuditData** 열에 작업을 수행한 서비스에 따라 서로 다른 속성이 포함됩니다. 예를 들어 Exchange 및 Azure AD 감사 로그의 항목에는 작업 성공 여부를 나타내는 **ResultStatus** 속성이 포함됩니다. SharePoint의 이벤트에 대해서는 이 속성이 포함되지 않습니다. 마찬가지로, SharePoint 이벤트에는 파일 및 폴더 관련 활동의 사이트 URL을 식별하는 속성이 있습니다. 이 동작을 완화하려면 다른 검색을 사용하여 단일 서비스의 활동에 대한 결과를 내보내는 것이 좋습니다.
+- 다양한 서비스의 이벤트를 포함하는 검색 쿼리의 모든 결과를 다운로드하는 경우 CSV 파일의 **AuditData** 열에 작업을 수행한 서비스에 따라 서로 다른 속성이 포함됩니다. 예를 들어 Exchange 및 Azure AD 감사 로그의 항목에는 작업 성공 여부를 나타내는 **ResultStatus** 속성이 포함됩니다. SharePoint의 이벤트에 대해서는 이 속성이 포함되지 않습니다. 마찬가지로, SharePoint 이벤트에는 파일 및 폴더 관련 활동의 사이트 URL을 식별하는 속성이 있습니다. 이 동작을 완화하려면 다른 검색을 사용하여 단일 서비스의 활동에 대한 결과를 내보내는 것이 좋습니다.
 
-  모든 결과를 다운로드할 때 CSV 파일의 **AuditData** 열에 나열되는 여러 속성에 대한 설명은 [Office 365 감사 로그의 자세한 속성](detailed-properties-in-the-office-365-audit-log.md)을 참조하세요.
+  모든 결과를 다운로드할 때 CSV 파일의 **AuditData** 열에 나열되는 여러 속성과 각 속성이 적용되는 서비스에 대한 설명은 [감사 로그의 자세한 속성](detailed-properties-in-the-office-365-audit-log.md)을 참조하세요.
 
 ## <a name="audited-activities"></a>감사되는 활동
 
 이 섹션의 표에서는 Office 365에서 감사되는 활동에 대해 설명합니다. 보안 및 준수 센터에서 감사 로그를 검색하여 이러한 이벤트를 검색할 수 있습니다.
 
-표에는 관련 활동 또는 특정 Office 365 서비스의 활동이 그룹화되어 표시됩니다. 표에는 **활동** 드롭다운 목록에 표시되는 이름과 감사 레코드의 상세 정보에 표시되는 해당 작업의 이름과 검색 결과를 내보낼 때 CSV 파일에 표시되는 이름이 포함되어 있습니다. 자세한 정보에 대한 설명은 [Office 365 감사 로그의 자세한 속성](detailed-properties-in-the-office-365-audit-log.md)을 참조하세요.
+표에는 관련 활동 또는 특정 서비스의 활동이 그룹화되어 표시됩니다. 표에는 **활동** 드롭다운 목록에 표시되는 이름과 감사 레코드의 상세 정보에 표시되는 해당 작업의 이름과 검색 결과를 내보낼 때 CSV 파일에 표시되는 이름이 포함되어 있습니다. 자세한 정보에 대한 설명은 [감사 로그의 자세한 속성](detailed-properties-in-the-office-365-audit-log.md)을 참조하세요.
 
 특정 표로 이동하려면 아래 링크 중 하나를 클릭합니다.
 
@@ -362,9 +362,9 @@ Office 365에서 감사 로그를 검색하는 과정은 다음과 같습니다.
 
 다음은 app@sharepoint를 감사 기록에서 활동을 수행한 사용자로 식별할 수 있는 몇 가지 다른 시나리오입니다.
 
-- Office 365 그룹 사용자 또는 관리자가 새 그룹을 만들 때 사이트 수집, 목록 업데이트 및 SharePoint 그룹에 구성원을 추가하기 위한 감사 레코드가 생성됩니다. 이 작업은 그룹을 만든 사용자를 대신하여 응용 프로그램을 수행합니다.
+- Microsoft 365 그룹 사용자 또는 관리자가 새 그룹을 만들 때 사이트 수집, 목록 업데이트 및 SharePoint 그룹에 구성원을 추가하기 위한 감사 레코드가 생성됩니다. 이 작업은 그룹을 만든 사용자를 대신하여 응용 프로그램을 수행합니다.
 
-- Microsoft Teams. Office 365 그룹과 마찬가지로 팀이 생성될 때 사이트 수집을 생성하고 목록을 업데이트하고 SharePoint 그룹에 구성원을 추가하는 감사 레코드가 생성됩니다.
+- Microsoft Teams. Microsoft 365 그룹과 마찬가지로 팀이 생성될 때 사이트 수집을 생성하고, 목록을 업데이트하고, SharePoint 그룹에 구성원을 추가하는 감사 레코드가 생성됩니다.
 
 - 규정 준수 기능 관리자가 보존 정책과 같은 컴플라이언스 기능을 구현할 때 eDiscovery가 유지되고 감도 레이블이 자동으로 적용됩니다.
 
@@ -418,7 +418,7 @@ Office 365에서 감사 로그를 검색하는 과정은 다음과 같습니다.
 
 ### <a name="sharing-and-access-request-activities"></a>공유 및 액세스 요청 활동
 
-다음 표에서는 SharePoint Online 및 비즈니스용 OneDrive의 사용자 공유 및 액세스 요청 활동에 대해 설명합니다. 공유 이벤트의 경우 **결과** 아래의 **세부 정보** 열에서 항목이 공유된 사용자 또는 그룹의 이름과 해당 사용자 또는 그룹이 조직의 구성원인지, 게스트인지를 식별합니다. 자세한 내용은 [Office 365 감사 로그에서 공유 감사 사용](use-sharing-auditing.md)을 참조하세요.
+다음 표에서는 SharePoint Online 및 비즈니스용 OneDrive의 사용자 공유 및 액세스 요청 활동에 대해 설명합니다. 공유 이벤트의 경우 **결과** 아래의 **세부 정보** 열에서 항목이 공유된 사용자 또는 그룹의 이름과 해당 사용자 또는 그룹이 조직의 구성원인지, 게스트인지를 식별합니다. 자세한 내용은 [감사 로그에서 공유 감사 사용](use-sharing-auditing.md)을 참조하세요.
 
 > [!NOTE]
 > 사용자는 사용자 개체의 UserType 속성에 따라 *구성원* 또는 *게스트*일 수 있습니다. 구성원은 일반적으로 직원이고, 게스트는 일반적으로 조직 외부의 공동 작업자입니다. 조직에 속하지 않은 사용자가 공유 초대를 수락하면 조직의 디렉터리에 해당 게스트 계정이 만들어집니다. 게스트 사용자의 계정이 디렉터리에 있으면 초대장 없이 해당 사용자와 직접 리소스를 공유할 수 있습니다.
@@ -499,12 +499,12 @@ Office 365에서 감사 로그를 검색하는 과정은 다음과 같습니다.
 |예외 사용자 에이전트 추가됨|ExemptUserAgentSet|SharePoint 또는 전역 관리자가 SharePoint 관리 센터에서 예외 사용자 에이전트 목록에 사용자 에이전트를 추가했습니다.|
 |지리적 위치 관리자 추가됨|GeoAdminAdded|SharePoint 또는 전역 관리자가 위치에 대한 지리적 관리자로 사용자를 추가했습니다.|
 |사용자가 그룹을 만들 수 있도록 허용됨|AllowGroupCreationSet|사이트 관리자 또는 소유자가 해당 권한이 할당된 사용자가 사이트에 대한 그룹을 만들 수 있도록 허용하는 사용 권한 수준을 사이트에 추가합니다.|
-|사이트 지리적 이동 취소됨|SiteGeoMoveCancelled|SharePoint 또는 전역 관리자가 SharePoint 또는 OneDrive 사이트 지리적 이동을 성공적으로 취소했습니다. Multi-Geo Capabilities를 사용하면 Office 365 조직이 geos라는 여러 Office 365 데이터센터 지역에 걸쳐 있을 수 있습니다. 자세한 내용은 [Office 365의 OneDrive 및 SharePoint Online의 여러 지리 기능](https://go.microsoft.com/fwlink/?linkid=860840)을 참조하세요.|
-|공유 정책 변경됨|SharingPolicyChanged|SharePoint 또는 전역 관리자가 Office 365 관리 포털, SharePoint 관리자 포털 또는 SharePoint Online 관리 셸을 사용하여 SharePoint 공유 정책을 변경했습니다. 조직의 공유 정책 설정에 대한 변경 내용이 모두 기록됩니다. 변경 된 정책은 이벤트 레코드의 자세한 속성에서 **ModifiedProperties** 필드에서 식별됩니다.|
-|장치 액세스 정책 변경됨|DeviceAccessPolicyChanged|SharePoint 또는 전역 관리자가 조직의 관리되지 않는 장치 정책을 변경했습니다. 이 정책은 조직에 가입되지 않은 장치에서의 SharePoint, OneDrive, Office 365에 대한 액세스를 제어합니다. 이 정책을 구성하려면 Enterprise Mobility + Security 구독이 필요합니다. 자세한 내용은 [관리되지 않는 장치에서의 액세스 제어](https://support.office.com/article/5ae550c4-bd20-4257-847b-5c20fb053622)를 참조하세요.|
+|사이트 지리적 이동 취소됨|SiteGeoMoveCancelled|SharePoint 또는 전역 관리자가 SharePoint 또는 OneDrive 사이트 지리적 이동을 성공적으로 취소했습니다. Multi-Geo Capabilities를 사용하면 조직이 geos라는 여러 데이터센터 지역에 걸쳐 있을 수 있습니다. 자세한 내용은 [OneDrive 및 SharePoint Online의 여러 지리 기능](https://go.microsoft.com/fwlink/?linkid=860840)을 참조하세요.|
+|공유 정책 변경됨|SharingPolicyChanged|SharePoint 또는 전역 관리자가 Microsoft 365 관리 포털, SharePoint 관리자 포털 또는 SharePoint Online 관리 셸을 사용하여 SharePoint 공유 정책을 변경했습니다. 조직의 공유 정책 설정에 대한 변경 내용이 모두 기록됩니다. 변경 된 정책은 이벤트 레코드의 자세한 속성에서 **ModifiedProperties** 필드에서 식별됩니다.|
+|장치 액세스 정책 변경됨|DeviceAccessPolicyChanged|SharePoint 또는 전역 관리자가 조직의 관리되지 않는 장치 정책을 변경했습니다. 이 정책은 조직에 가입되지 않은 장치에서의 SharePoint, OneDrive, Microsoft 365 액세스를 제어합니다. 이 정책을 구성하려면 Enterprise Mobility + Security 구독이 필요합니다. 자세한 내용은 [관리되지 않는 장치에서의 액세스 제어](https://support.office.com/article/5ae550c4-bd20-4257-847b-5c20fb053622)를 참조하세요.|
 |예외 사용자 에이전트 변경됨|CustomizeExemptUsers|SharePoint 또는 전역 관리자가 SharePoint 관리 센터에서 예외 사용자 에이전트 목록을 사용자 지정했습니다. 인덱스에 전체 웹 페이지를 받을 수 없도록 제외할 사용자 에이전트를 지정할 수 있습니다. 즉, 예외로 지정한 사용자 에이전트가 InfoPath 양식을 만나면 해당 양식은 전체 웹 페이지가 아닌 XML 파일로 반환됩니다. 이렇게 하면 InfoPath 양식을 더 빠르게 인덱싱할 수 있습니다.|
 |네트워크 액세스 정책 변경됨|NetworkAccessPolicyChanged|SharePoint 또는 전역 관리자가 SharePoint 관리 센터에서 또는 SharePoint PowerShell을 사용하여 위치 기반 액세스 정책(신뢰할 수 있는 네트워크 경계라고도 함)을 변경했습니다. 이 정책 유형은 지정한 권한 있는 IP 주소 범위를 기반으로 조직의 SharePoint 및 OneDrive 리소스에 액세스할 수 있는 사용자를 제어합니다. 자세한 내용은 [네트워크 위치를 기반으로 SharePoint Online 및 OneDrive 데이터에 대한 액세스 제어](https://support.office.com/article/b5a5f1f1-1174-4c6b-91d0-9273a6b6971f)를 참조하세요.|
-|사이트 지리적 이동 완료됨|SiteGeoMoveCompleted|조직의 전역 관리자가 예약한 사이트 지리적 이동이 완료되었습니다. Multi-Geo Capabilities를 사용하면 Office 365 조직이 geos라는 여러 Office 365 데이터센터 지역에 걸쳐 있을 수 있습니다. 자세한 내용은 [Office 365의 OneDrive 및 SharePoint Online의 여러 지리 기능](https://go.microsoft.com/fwlink/?linkid=860840)을 참조하세요.|
+|사이트 지리적 이동 완료됨|SiteGeoMoveCompleted|조직의 전역 관리자가 예약한 사이트 지리적 이동이 완료되었습니다. Multi-Geo Capabilities를 사용하면 조직이 geos라는 여러 데이터센터 지역에 걸쳐 있을 수 있습니다. 자세한 내용은 [Office 365의 OneDrive 및 SharePoint Online의 여러 지리 기능](https://go.microsoft.com/fwlink/?linkid=860840)을 참조하세요.|
 |받는 사람 연결 생성됨|SendToConnectionAdded|SharePoint 또는 전역 관리자가 SharePoint 관리 센터의 레코드 관리 페이지에서 새 보내기 연결을 만듭니다. 받는 사람 연결은 문서 리포지토리 또는 레코드 센터에 대한 설정을 지정합니다. 받는 사람 연결을 만들면 콘텐츠 구성 도우미가 문서를 지정된 위치에 제출할 수 있습니다.|
 |사이트 모음 생성됨|SiteCollectionCreated|Sharepoint 또는 전역 관리자가 SharePoint Online 조직에서 사이트 모음을 만들거나 사용자가 비즈니스용 OneDrive 사이트를 프로비전합니다.|
 |분리된 허브 사이트 삭제됨|HubSiteOrphanHubDeleted|SharePoint 또는 전역 관리자가 연결된 사이트가 없는 허브 사이트인 분리된 허브 사이트를 삭제합니다. 분리된 허브는 원본 허브 사이트를 삭제하여 발생하는 문제일 수 있습니다.|
@@ -512,7 +512,7 @@ Office 365에서 감사 로그를 검색하는 과정은 다음과 같습니다.
 |사이트 삭제됨|SiteDeleted|사이트 관리자가 사이트를 삭제합니다.|
 |문서 미리 보기가 사용하도록 설정됨|PreviewModeEnabledSet|사이트 관리자가 사이트에 대해 문서 미리 보기를 사용하도록 설정합니다.|
 |레거시 워크플로가 사용하도록 설정됨|LegacyWorkflowEnabledSet|사이트 관리자 또는 소유자가 SharePoint 2013 워크플로 작업 콘텐츠 형식을 사이트에 추가합니다. 전역 관리자는 SharePoint 관리 센터에서 전체 조직에 대해 워크플로를 사용하도록 설정할 수도 있습니다.|
-|Office on Demand가 사용하도록 설정됨|OfficeOnDemandSet|사이트 관리자가 최신 버전의 Office 데스크톱 응용 프로그램에 액세스할 수 있도록 하는 Office on Demand를 사용하도록 설정합니다. Office on Demand는 SharePoint 관리 센터에서 사용되도록 설정되며 설치된 전체 Office 응용 프로그램을 포함하는 Office 365 구독이 있어야 사용할 수 있습니다.|
+|Office on Demand가 사용하도록 설정됨|OfficeOnDemandSet|사이트 관리자가 최신 버전의 Office 데스크톱 응용 프로그램에 액세스할 수 있도록 하는 Office on Demand를 사용하도록 설정합니다. Office on Demand는 SharePoint 관리 센터에서 사용되도록 설정되며 설치된 전체 Office 응용 프로그램을 포함하는 Microsoft 365 구독이 있어야 사용할 수 있습니다.|
 |사용자 검색 결과 원본이 사용하도록 설정됨|PeopleResultsScopeSet|사이트 관리자가 사이트에 대한 사용자 검색 결과 원본을 만듭니다.|
 |RSS 피드가 사용하도록 설정됨|NewsFeedEnabledSet|사이트 관리자 또는 소유자가 사이트에 대해 RSS 피드를 사용하도록 설정합니다. 전역 관리자는 SharePoint 관리 센터에서 전체 조직에 대해 RSS 피드를 사용하도록 설정할 수 있습니다.|
 |사이트가 허브 사이트에 연결됨|HubSiteJoined|사이트 소유자가 사이트를 허브 사이트에 연결합니다.|
@@ -520,7 +520,7 @@ Office 365에서 감사 로그를 검색하는 과정은 다음과 같습니다.
 |허용된 데이터 위치 제거됨|AllowedDataLocationDeleted|SharePoint 또는 전역 관리자가 여러 지리적 환경에서 허용되는 데이터 위치를 제거했습니다.|
 |지리적 위치 관리자 제거됨|GeoAdminDeleted|SharePoint 또는 전역 관리자가 위치에 대한 지리적 관리자로 사용자를 제거했습니다.|
 |사이트 이름 바뀜|SiteRenamed|사이트 관리자 또는 소유자가 사이트 이름을 바꿉니다.|
-|예약된 사이트 지리적 이동|SiteGeoMoveScheduled|SharePoint 또는 전역 관리자가 SharePoint 또는 OneDrive 사이트 지리적 이동을 예약합니다. Multi-Geo Capabilities를 사용하면 Office 365 조직이 geos라는 여러 Office 365 데이터센터 지역에 걸쳐 있을 수 있습니다. 자세한 내용은 [Office 365의 OneDrive 및 SharePoint Online의 여러 지리 기능](https://go.microsoft.com/fwlink/?linkid=860840)을 참조하세요.|
+|예약된 사이트 지리적 이동|SiteGeoMoveScheduled|SharePoint 또는 전역 관리자가 SharePoint 또는 OneDrive 사이트 지리적 이동을 예약합니다. Multi-Geo Capabilities를 사용하면 조직이 geos라는 여러 데이터센터 지역에 걸쳐 있을 수 있습니다. 자세한 내용은 [Office 365의 OneDrive 및 SharePoint Online의 여러 지리 기능](https://go.microsoft.com/fwlink/?linkid=860840)을 참조하세요.|
 |호스트 사이트 설정됨|HostSiteSet|SharePoint 또는 전역 관리자가 개인 또는 비즈니스용 OneDrive 사이트를 호스트하도록 지정된 사이트를 변경합니다.|
 |지리적 위치에 대한 저장소 할당량 설정됨|GeoQuotaAllocated|SharePoint 또는 전역 관리자가 다중 지리적 환경에서 지리적 위치에 대한 저장소 할당량을 구성했습니다.|
 |허브 사이트의 사이트 연결이 끊김|HubSiteUnjoined|사이트 소유자가 사이트를 허브 사이트에서 연결을 끊습니다.|
@@ -529,7 +529,7 @@ Office 365에서 감사 로그를 검색하는 과정은 다음과 같습니다.
 
 ### <a name="exchange-mailbox-activities"></a>Exchange 사서함 활동
 
-다음 표에서는 사서함 감사 로깅에서 기록할 수 있는 활동을 보여 줍니다. 사서함 소유자, 위임된 사용자 또는 관리자가 수행한 사서함 활동은 최대 90일 동안 Office 365 감사 로그에 자동으로 기록됩니다. 관리자는 조직의 모든 사용자에 대한 사서함 감사 로깅을 해제할 수 있습니다. 이 경우 어떤 사용자에 대한 사서함 작업도 기록되지 않습니다. 자세한 내용은 [사서함 감사 관리](enable-mailbox-auditing.md)를 참조하세요.
+다음 표에서는 사서함 감사 로깅에서 기록할 수 있는 활동을 보여 줍니다. 사서함 소유자, 위임된 사용자 또는 관리자가 수행한 사서함 활동은 최대 90일 동안 감사 로그에 자동으로 기록됩니다. 관리자는 조직의 모든 사용자에 대한 사서함 감사 로깅을 해제할 수 있습니다. 이 경우 어떤 사용자에 대한 사서함 작업도 기록되지 않습니다. 자세한 내용은 [사서함 감사 관리](enable-mailbox-auditing.md)를 참조하세요.
 
  Exchange Online PowerShell에서 [Search-MailboxAuditLog](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-audit/search-mailboxauditlog) cmdlet을 사용하여 사서함 활동을 검색할 수도 있습니다.
 
@@ -560,7 +560,7 @@ Office 365에서 감사 로그를 검색하는 과정은 다음과 같습니다.
 
 ### <a name="sway-activities"></a>Sway 활동
 
-다음 표에서는 Sway의 사용자와 관리자 활동을 보여 줍니다. Sway는 사용자가 대화형 웹 기반 캔버스에서 아이디어, 스토리 및 프레젠테이션을 수집하고 서식을 지정한 다음 공유하는 데 도움이 되는 Office 365 앱입니다. 자세한 내용은 [Sway에 대한 질문과 대답 – 관리자 도움말](https://support.office.com/article/446380fa-25bf-47b2-996c-e12cb2f9d075)을 참조하세요.
+다음 표에서는 Sway의 사용자와 관리자 활동을 보여 줍니다. Sway는 사용자가 대화형 웹 기반 캔버스에서 아이디어, 스토리 및 프레젠테이션을 수집하고, 서식을 지정하고, 공유하는 데 도움이 되는 Microsoft 365 앱입니다. 자세한 내용은 [Sway에 대한 질문과 대답 – 관리자 도움말](https://support.office.com/article/446380fa-25bf-47b2-996c-e12cb2f9d075)을 참조하세요.
 
 |**친숙한 이름**|**작업**|**설명**|
 |:-----|:-----|:-----|
@@ -586,10 +586,10 @@ Office 365에서 감사 로그를 검색하는 과정은 다음과 같습니다.
 
 |**활동**|**작업**|**설명**|
 |:-----|:-----|:-----|
-|사용자 추가됨|사용자 추가|Office 365 사용자 계정이 생성되었습니다.|
+|사용자 추가됨|사용자 추가|사용자 계정이 생성되었습니다.|
 |사용자 라이선스 변경됨|사용자 라이선스 변경|사용자에게 할당된 라이선스가 변경되었습니다. 변경된 라이선스를 확인하려면 해당 **사용자 업데이트됨** 활동을 참조하세요.|
 |사용자 암호 변경됨|사용자 암호 변경|사용자가 암호를 변경합니다. 사용자가 암호를 재설정할 수 있도록 하려면 조직에서 셀프 서비스 암호 재설정을 활성화해야(모든 사용자 또는 선택된 사용자 대상) 합니다. Azure Active Directory에서 셀프 서비스 암호 재설정 활동을 추적할 수도 있습니다. 자세한 내용은 [Azure AD 암호 관리 보고 옵션](https://docs.microsoft.com/azure/active-directory/authentication/howto-sspr-reporting)을 참조하세요.
-|사용자 삭제됨|사용자 삭제|Office 365 사용자 계정이 삭제되었습니다.|
+|사용자 삭제됨|사용자 삭제|사용자 계정이 삭제되었습니다.|
 |사용자 암호 재설정|사용자 암호 재설정|관리자가 사용자 암호를 재설정했습니다.|
 |강제로 사용자 암호를 변경하게 하는 속성 설정|사용자 암호 강제 변경 설정|관리자가 다음에 Office 365에 로그인할 때 강제로 사용자 암호를 변경하게 하는 속성을 설정했습니다.|
 |라이선스 속성 설정|라이선스 속성 설정|관리자가 사용자에게 할당된 라이선스의 속성을 수정했습니다.|
@@ -598,7 +598,7 @@ Office 365에서 감사 로그를 검색하는 과정은 다음과 같습니다.
 
 ### <a name="azure-ad-group-administration-activities"></a>Azure AD 그룹 관리 활동
 
-다음 표에서는 관리자 또는 사용자가 Office 365 그룹을 만들거나 변경할 때 또는 관리자가 Microsoft 365 관리 센터 또는 Azure 관리 포털을 사용하여 보안 그룹을 만들 때 기록되는 그룹 관리 활동을 보여 줍니다. Office 365의 그룹에 대한 자세한 내용은 [Microsoft 365 관리 센터에서 그룹 보기, 만들기, 삭제](https://support.office.com/article/a6360120-2fc4-46af-b105-6a04dc5461c7)를 참조하세요.
+다음 표에서는 관리자 또는 사용자가 Microsoft 365 그룹을 만들거나 변경할 때 또는 관리자가 Microsoft 365 관리 센터 또는 Azure 관리 포털을 사용하여 보안 그룹을 만들 때 기록되는 그룹 관리 활동을 보여 줍니다. Office 365의 그룹에 대한 자세한 내용은 [Microsoft 365 관리 센터에서 그룹 보기, 만들기, 삭제](https://support.office.com/article/a6360120-2fc4-46af-b105-6a04dc5461c7)를 참조하세요.
 
 |**친숙한 이름**|**작업**|**설명**|
 |:-----|:-----|:-----|
@@ -630,27 +630,27 @@ Office 365에서 감사 로그를 검색하는 과정은 다음과 같습니다.
 
 |**친숙한 이름**|**작업**|**설명**|
 |:-----|:-----|:-----|
-|역할에 구성원 추가|역할에 역할 구성원 추가|Office 365의 관리자 역할에 사용자를 추가했습니다.|
-|디렉터리 역할에서 사용자 제거됨|역할에서 역할 구성원 제거|Office 365의 관리자 역할에서 사용자를 제거했습니다.|
-|회사 연락처 정보 설정|회사 연락처 정보 설정|Office 365 조직에 대한 회사 차원의 연락처 기본 설정을 업데이트했습니다. 여기에는 Office 365에서 보내는 구독 관련 전자 메일의 전자 메일 주소와 Office 365 서비스에 대한 기술 알림이 포함됩니다.|
+|역할에 구성원 추가|역할에 역할 구성원 추가|Microsoft 365의 관리자 역할에 사용자를 추가했습니다.|
+|디렉터리 역할에서 사용자 제거됨|역할에서 역할 구성원 제거|Microsoft 365의 관리자 역할에서 사용자를 제거했습니다.|
+|회사 연락처 정보 설정|회사 연락처 정보 설정|조직에 대한 회사 차원의 연락처 기본 설정을 업데이트했습니다. 여기에는 Microsoft 365에서 보내는 구독 관련 전자 메일의 전자 메일 주소와 서비스에 대한 기술 알림이 포함됩니다.|
 ||||
 
 ### <a name="directory-administration-activities"></a>디렉터리 관리 활동
 
-다음 표에서는 Microsoft 365 관리 센터 또는 Azure 관리 포털에서 관리자가 해당 Office 365 조직을 관리할 때 기록되는 Azure AD 디렉터리 및 도메인 관련 활동을 보여줍니다.
+다음 표에서는 Microsoft 365 관리 센터 또는 Azure 관리 포털에서 관리자가 해당 조직을 관리할 때 기록되는 Azure AD 디렉터리 및 도메인 관련 활동을 보여 줍니다.
 
 |**친숙한 이름**|**작업**|**설명**|
 |:-----|:-----|:-----|
-|회사에 도메인 추가됨|회사에 도메인 추가|Office 365 조직에 도메인을 추가합니다.|
-|디렉터리에 파트너 추가됨|회사에 파트너 추가|Office 365 조직에 파트너(위임된 관리자)를 추가했습니다.|
-|회사에서 도메인 제거됨|회사에서 도메인 제거|Office 365 조직에서 도메인을 제거했습니다.|
-|디렉터리에서 파트너 제거됨|회사에서 파트너 제거|Office 365 조직에서 파트너(위임된 관리자)를 제거했습니다.|
-|회사 정보 설정|회사 정보 설정|Office 365 조직에 대한 회사 정보를 업데이트했습니다. 여기에는 Office 365에서 보내는 구독 관련 전자 메일의 전자 메일 주소와 Office 365 서비스에 대한 기술 알림이 포함됩니다.|
-|도메인 인증 설정|도메인 인증 설정|Office 365 조직에 대한 도메인 인증 설정을 변경했습니다.|
-|도메인에 대한 페더레이션 설정 업데이트됨|도메인에 대한 페더레이션 설정 지정|Office 365 조직에 대한 페더레이션(외부 공유) 설정을 변경했습니다.|
-|암호 정책 설정|암호 정책 설정|Office 365 조직의 사용자 암호에 대한 길이 및 문자 제약 조건을 변경했습니다.|
+|회사에 도메인 추가됨|회사에 도메인 추가|조직에 도메인을 추가했습니다.|
+|디렉터리에 파트너 추가됨|회사에 파트너 추가|조직에 파트너(위임된 관리자)를 추가했습니다.|
+|회사에서 도메인 제거됨|회사에서 도메인 제거|조직에서 도메인을 제거했습니다.|
+|디렉터리에서 파트너 제거됨|회사에서 파트너 제거|조직에서 파트너(위임된 관리자)를 제거했습니다.|
+|회사 정보 설정|회사 정보 설정|조직에 대한 회사 정보를 업데이트했습니다. 여기에는 Microsoft 365에서 보내는 구독 관련 전자 메일의 전자 메일 주소와 Microsoft 365 서비스에 대한 기술 알림이 포함됩니다.|
+|도메인 인증 설정|도메인 인증 설정|조직에 대한 도메인 인증 설정을 변경했습니다.|
+|도메인에 대한 페더레이션 설정 업데이트됨|도메인에 대한 페더레이션 설정 지정|조직에 대한 페더레이션(외부 공유) 설정을 변경했습니다.|
+|암호 정책 설정|암호 정책 설정|조직의 사용자 암호에 대한 길이 및 문자 제약 조건을 변경했습니다.|
 |Azure AD 동기화 설정됨|회사에 대해 DirSyncEnabled 플래그 설정|Azure AD 동기화에 대해 디렉터리를 사용하도록 설정하는 속성을 설정합니다.|
-|도메인 업데이트됨|도메인 업데이트|Office 365 조직의 도메인 설정을 업데이트했습니다.|
+|도메인 업데이트됨|도메인 업데이트|조직의 도메인 설정을 업데이트했습니다.|
 |도메인 확인됨|도메인 확인|조직이 도메인의 소유자임을 확인했습니다.|
 |전자 메일 확인 도메인 확인됨|전자 메일 확인 도메인 확인|전자 메일 확인을 사용하여 조직이 도메인의 소유자임을 확인했습니다.|
 ||||
@@ -669,7 +669,7 @@ Office 365에서 감사 로그를 검색하는 과정은 다음과 같습니다.
 
 - eDiscovery 관리자 역할 관리
 
-기록되는 eDiscovery 활동의 목록과 자세한 설명을 보려면 [Office 365 감사 로그에서 eDiscovery 활동 검색](search-for-ediscovery-activities-in-the-audit-log.md)을 참조하세요.
+기록되는 eDiscovery 활동의 목록과 자세한 설명을 보려면 [감사 로그에서 eDiscovery 활동 검색](search-for-ediscovery-activities-in-the-audit-log.md)을 참조하세요.
 
 > [!NOTE]
 > **활동** 드롭다운 목록의 **eDiscovery 활동** 아래에 나열된 활동에서 발생한 이벤트가 검색 결과에 표시될 때까지 최대 30분이 걸립니다. 반대로, eDiscovery cmdlet 활동의 해당 이벤트가 검색 결과에 나타날 때까지는 최대 24시간이 걸립니다.
@@ -682,7 +682,7 @@ Office 365에서 감사 로그를 검색하는 과정은 다음과 같습니다.
 |:-----|:-----|:-----|
 |다른 검토 집합에 데이터 추가됨|AddWorkingSetQueryToWorkingSet|사용자가 한 검토 집합에서 다른 검토 집합으로 문서를 추가했습니다.|
 |검토 집합에 데이터 추가됨|AddQueryToWorkingSet|사용자가 고급 eDiscovery 사례와 연결된 콘텐츠 검색에서 검토 집합에 검색 결과를 추가했습니다.|
-|검토 집합에 비 Office 365 데이터 추가|AddNonOffice365DataToWorkingSet|사용자가 검토 집합에 비 Office 365 데이터를 추가했습니다.|
+|검토 집합에 비 Microsoft 365 데이터 추가됨|AddNonOffice365DataToWorkingSet|사용자가 검토 집합에 비 Microsoft 365 데이터를 추가했습니다.|
 |수정된 문서가 검토 집합에 추가됨|AddRemediatedData|사용자가 검토 집합으로 수정된 색인 작성 오류가 있는 문서를 업로드합니다.|
 |검토 집합의 데이터가 분석됨|RunAlgo|사용자가 검토 집합의 문서에 대한 분석을 실행했습니다.|
 |검토 집합의 문서에 주석이 달림|AnnotateDocument|사용자가 검토 집합의 문서에 주석을 달았습니다. 주석에는 문서의 내용을 편집하는 것이 포함되어 있습니다. |
@@ -709,11 +709,11 @@ Office 365에서 감사 로그를 검색하는 과정은 다음과 같습니다.
 
 Power BI에서 활동에 대한 감사 로그를 검색할 수 있습니다. Power BI 활동에 대한 자세한 내용은 [조직 내에서 감사 사용](https://docs.microsoft.com/power-bi/service-admin-auditing#activities-audited-by-power-bi)의 "Power BI가 감사한 활동" 섹션을 참조하세요.
 
-Power BI에 대 한 감사 로깅은 기본적으로 사용하지 않도록 설정되어 있습니다. Office 365 감사 로그에서 Power BI 작업을 검색하려면 Power BI 관리 포털에서 감사를 사용하도록 설정해야 합니다. 자세한 내용은 [Power BI 관리 포털](https://docs.microsoft.com/power-bi/service-admin-portal#audit-logs)의 "감사 로그" 섹션을 참조 하세요.
+Power BI에 대 한 감사 로깅은 기본적으로 사용하지 않도록 설정되어 있습니다. 감사 로그에서 Power BI 작업을 검색하려면 Power BI 관리 포털에서 감사를 사용하도록 설정해야 합니다. 자세한 내용은 [Power BI 관리 포털](https://docs.microsoft.com/power-bi/service-admin-portal#audit-logs)의 "감사 로그" 섹션을 참조 하세요.
 
 ### <a name="microsoft-workplace-analytics-activities"></a>Microsoft Workplace Analytics 활동
 
-Workplace Analytics는 Office 365 조직에서 그룹이 공동으로 작업하는 방법에 대한 정보를 줍니다. 다음 표는 Workplace Analytics에서 관리자 역할 또는 분석가 역할이 할당된 사용자가 수행한 활동을 나열합니다. 분석 역할이 할당된 사용자는 모든 서비스 기능에 대한 전체 액세스 권한을 가지며 제품을 사용하여 분석을 수행합니다. 관리자 역할이 할당된 사용자는 개인 정보 설정 및 시스템 기본값을 구성하고 Workplace Analytics에서 조직 데이터를 준비, 업로드 및 확인할 수 있습니다. 자세한 내용은 [Workplace Analytics](https://docs.microsoft.com/workplace-analytics/index-orig)를 참조하세요.
+Workplace Analytics는 조직에서 그룹이 공동으로 작업하는 방법에 대한 정보를 줍니다. 다음 표는 Workplace Analytics에서 관리자 역할 또는 분석가 역할이 할당된 사용자가 수행한 활동을 나열합니다. 분석 역할이 할당된 사용자는 모든 서비스 기능에 대한 전체 액세스 권한을 가지며 제품을 사용하여 분석을 수행합니다. 관리자 역할이 할당된 사용자는 개인 정보 설정 및 시스템 기본값을 구성하고 Workplace Analytics에서 조직 데이터를 준비, 업로드 및 확인할 수 있습니다. 자세한 내용은 [Workplace Analytics](https://docs.microsoft.com/workplace-analytics/index-orig)를 참조하세요.
 
 |**친숙한 이름**|**작업**|**설명**|
 |:-----|:-----|:-----|
@@ -731,7 +731,7 @@ Workplace Analytics는 Office 365 조직에서 그룹이 공동으로 작업하�
 
 ### <a name="microsoft-teams-activities"></a>Microsoft Teams 활동
 
-다음 표에서는 Microsoft Teams에서 Office 365 감사 로그에 기록되는 사용자 및 관리자 활동을 보여 줍니다. Microsoft 팀은 Office 365에서 채팅 중심의 작업 영역입니다. Microsoft Teams를 사용하면 팀의 대화, 모임, 파일 및 메모를 모두 한곳에서 관리할 수 있습니다. 자세한 내용과 도움말 항목에 대한 링크는 다음을 참조하세요.
+다음 표에서는 Microsoft Teams에서 감사 로그에 기록되는 사용자 및 관리자 활동을 보여 줍니다. Microsoft 팀은 Office 365에서 채팅 중심의 작업 영역입니다. Microsoft Teams를 사용하면 팀의 대화, 모임, 파일 및 메모를 모두 한곳에서 관리할 수 있습니다. 자세한 내용과 도움말 항목에 대한 링크는 다음을 참조하세요.
 
 - [Microsoft Teams에 대한 질문과 대답 – 관리 도움말](https://support.office.com/article/05cbe533-2181-4e95-a4b0-52cd7695fafc)
 
@@ -770,7 +770,7 @@ Workplace Analytics는 Office 365 조직에서 그룹이 공동으로 작업하�
 
 ### <a name="yammer-activities"></a>Yammer 활동
 
-다음 표에서는 Yammer에서 Office 365 감사 로그에 기록되는 사용자 및 관리자 활동을 보여 줍니다. Office 365 감사 로그에서 Yammer 관련 활동을 반환하려면 **활동** 목록에서 **모든 활동에 대한 결과 표시**를 선택해야 합니다. 날짜 범위 상자와 **사용자** 목록을 사용하여 결과를 좁힙니다.
+다음 표에서는 Yammer에서 감사 로그에 기록되는 사용자 및 관리자 활동을 보여 줍니다. 감사 로그에서 Yammer 관련 활동을 반환하려면 **활동** 목록에서 **모든 활동에 대한 결과 표시**를 선택해야 합니다. 날짜 범위 상자와 **사용자** 목록을 사용하여 결과를 좁힙니다.
 
 |**친숙한 이름**|**작업**|**설명**|
 |:-----|:-----|:-----|
@@ -807,7 +807,7 @@ Microsoft Stream에서 활동에 대한 감사 로그를 검색할 수 있습니
 
 ### <a name="content-explorer-activities"></a>콘텐츠 탐색기 활동
 
-다음 표에서는 콘텐츠 탐색기에서 Office 365 감사 로그에 기록되는 활동을 보여줍니다. 콘텐츠 탐색기는 Microsoft 365 규정 준수 센터의 데이터 분류 도구에서 액세스합니다. 자세한 내용은 [데이터 분류 콘텐츠 탐색기 사용](data-classification-content-explorer.md)을 참조하세요.
+다음 표에서는 콘텐츠 탐색기에서 감사 로그에 기록되는 활동을 보여줍니다. 콘텐츠 탐색기는 Microsoft 365 규정 준수 센터의 데이터 분류 도구에서 액세스합니다. 자세한 내용은 [데이터 분류 콘텐츠 탐색기 사용](data-classification-content-explorer.md)을 참조하세요.
 
 |**친숙한 이름**|**작업**|**설명**|
 |:-----|:-----|:-----|
@@ -829,7 +829,7 @@ Microsoft Stream에서 활동에 대한 감사 로그를 검색할 수 있습니
 
 ### <a name="microsoft-forms-activities"></a>Microsoft Forms 활동
 
-다음 표에서는 Microsoft Forms에서 Office 365 감사 로그에 기록되는 사용자 및 관리자 활동을 보여 줍니다. Microsoft Forms는 분석 데이터를 수집하는 데 사용되는 양식/퀴즈/설문 조사 도구입니다. 
+다음 표에서는 Microsoft Forms에서 감사 로그에 기록되는 사용자 및 관리자 활동을 보여 줍니다. Microsoft Forms는 분석 데이터를 수집하는 데 사용되는 양식/퀴즈/설문 조사 도구입니다. 
 
 아래의 설명에서 언급된 것과 같이, 일부 작업은 추가 활동 매개 변수를 포함합니다.
 
@@ -898,12 +898,12 @@ Forms는 양식을 설계할 때와 응답을 분석할 때 공동 작업을 지
 
 ### <a name="exchange-admin-audit-log"></a>Exchange 관리자 감사 로그
 
-관리자(또는 관리 권한이 할당 된 사용자)가 Exchange Online 조직에서 변경 작업을 수행할 때 Exchange 관리자 감사 로깅(Office 365에서 기본적으로 사용하도록 설정됨)은 Office 365 감사 로그에 이벤트를 기록합니다. Exchange 관리 센터를 사용하거나 Exchange Online PowerShel에서 cmdlet을 실행하여 수행한 변경 내용은 Exchange 관리 감사 로그에 기록 됩니다. **Get-**, **Search-** 또는 **Test-** 동사로 시작하는 cmdlet은 Office 365 감사 로그에 기록되지 않습니다. Exchange의 관리자 감사 로깅에 대한 자세한 내용은 [관리자 감사 로깅](https://go.microsoft.com/fwlink/p/?LinkID=619225)을 참조하세요.
+관리자(또는 관리 권한이 할당 된 사용자)가 Exchange Online 조직에서 변경 작업을 수행할 때 Exchange 관리자 감사 로깅(Office 365에서 기본적으로 사용하도록 설정됨)은 감사 로그에 이벤트를 기록합니다. Exchange 관리 센터를 사용하거나 Exchange Online PowerShel에서 cmdlet을 실행하여 수행한 변경 내용은 Exchange 관리 감사 로그에 기록 됩니다. **Get-**, **Search-** 또는 **Test-** 동사로 시작하는 cmdlet은 감사 로그에 기록되지 않습니다. Exchange의 관리자 감사 로깅에 대한 자세한 내용은 [관리자 감사 로깅](https://go.microsoft.com/fwlink/p/?LinkID=619225)을 참조하세요.
 
 > [!IMPORTANT]
-> Exchange 관리자 감사 로그(또는 Office 365 감사 로그)에 기록되지 않는 일부 Exchange Online cmdlet도 있습니다. 이러한 cmdlet 중 다수는 Exchange Online 서비스 유지 관리와 관련이 있으며 Microsoft 데이터 센터 직원 또는 서비스 계정에 의해 실행됩니다. 이 cmdlet은 많은 양의 "소음이 발생 하는" 감사 이벤트를 생성하므로 기록되지 않습니다. 감사되지 않는 Exchange Online cmdlet이 있으면 [Office 365 보안 및 규정 준수 사용자 음성 포럼](https://office365.uservoice.com/forums/289138-office-365-security-compliance)에 제안 사항을 제출하고 감사를 사용할 수 있도록 요청하세요. DCR(디자인 변경 요청)를 Microsoft 지원에 제출할 수도 있습니다.
+> Exchange 관리자 감사 로그(또는 감사 로그)에 기록되지 않는 일부 Exchange Online cmdlet도 있습니다. 이러한 cmdlet 중 다수는 Exchange Online 서비스 유지 관리와 관련이 있으며 Microsoft 데이터 센터 직원 또는 서비스 계정에 의해 실행됩니다. 이 cmdlet은 많은 양의 "소음이 발생 하는" 감사 이벤트를 생성하므로 기록되지 않습니다. 감사되지 않는 Exchange Online cmdlet이 있으면 [보안 및 규정 준수 사용자 의견 포럼](https://office365.uservoice.com/forums/289138-office-365-security-compliance)에 제안 사항을 제출하고 감사를 사용할 수 있도록 요청하세요. DCR(디자인 변경 요청)를 Microsoft 지원에 제출할 수도 있습니다.
 
-다음은 Office 365 감사 로그를 검색하는 경우 Exchange 관리 활동을 검색하기 위한 몇 가지 팁입니다.
+다음은 감사 로그를 검색하는 경우 Exchange 관리 활동을 검색하기 위한 몇 가지 팁입니다.
 
 - Exchange 관리자 감사 로그의 항목을 반환하려면 **활동** 목록에서 **모든 활동에 대한 결과 표시**를 선택해야 합니다. 날짜 범위 상자와 **사용자** 목록을 사용하여 특정 Exchange 관리자가 특정 날짜 범위 내에 실행한 cmdlet에 대한 검색 결과로 범위를 좁힙니다.
 
@@ -921,26 +921,26 @@ Forms는 양식을 설계할 때와 응답을 분석할 때 공동 작업을 지
 
   - [Search-AdminAuditLog](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-audit/search-adminauditlog)
 
-   동일한 Exchange 관리 활동은 Exchange 관리자 감사 로그 및 Office 365 감사 로그에 모두 기록됩니다.
+   동일한 Exchange 관리 활동은 Exchange 관리자 감사 로그 및 감사 로그에 모두 기록됩니다.
 
 
-## <a name="frequently-asked-questions"></a>자주하는 질문
+## <a name="frequently-asked-questions"></a>질문과 대답
 
-**현재 감사되는 다른 Office 365 서비스는 무엇인가요?**
+**현재 감사되는 다른 Microsoft 365 서비스는 무엇인가요?**
 
-Exchange Online, SharePoint Online, 비즈니스용 OneDrive, Azure Active Directory, Microsoft Teams, Dynamics 365, Advanced Threat Protection 및 Power BI와 같이 가장 많이 사용되는 Office 365 서비스가 감사됩니다. 감사되는 서비스 목록은 [이 문서의 시작 부분](search-the-audit-log-in-security-and-compliance.md)을 참조하세요.
+Exchange Online, SharePoint Online, 비즈니스용 OneDrive, Azure Active Directory, Microsoft Teams, Dynamics 365, Advanced Threat Protection 및 Power BI와 같이 가장 많이 사용되는 서비스가 감사됩니다. 감사되는 서비스 목록은 [이 문서의 시작 부분](search-the-audit-log-in-security-and-compliance.md)을 참조하세요.
 
 **Office 365의 감사 서비스에서 어떤 활동을 감사하나요?**
 
-Office 365에서 감사되는 활동의 목록과 설명을 보려면 이 문서의 [감사되는 활동](#audited-activities) 섹션을 참조하세요.
+감사되는 활동의 목록과 설명을 보려면 이 문서의 [감사되는 활동](#audited-activities) 섹션을 참조하세요.
 
 **이벤트가 발생한 후 감사 레코드를 사용하는 데 시간이 얼마나 걸리나요?**
 
-대부분의 감사 데이터는 30분 이내에 사용 가능하지만 이벤트가 발생한 후 해당 감사 로그 항목이 검색 결과에 표시되기까지 최대 24시간이 걸릴 수 있습니다. 이 문서의 [시작하기 전](#before-you-begin)에 섹션에서 다른 Office 365 서비스의 이벤트를 사용하는 데 걸리는 시간을 보여 주는 표를 참조하세요.
+대부분의 감사 데이터는 30분 이내에 사용 가능하지만 이벤트가 발생한 후 해당 감사 로그 항목이 검색 결과에 표시되기까지 최대 24시간이 걸릴 수 있습니다. 이 문서의 [시작하기 전에](#before-you-begin) 섹션에서 다른 서비스의 이벤트를 사용하는 데 걸리는 시간을 보여 주는 표를 참조하세요.
 
 **감사 레코드는 얼마나 오래 보존되나요?**
 
-앞에서 설명한 것처럼 감사 레코드의 보존 기간은 조직의 Office 365 또는 Microsoft 365 엔터프라이즈 구독에 따라 다릅니다.
+앞에서 설명한 것처럼 감사 레코드의 보존 기간은 조직의 비즈니스용 Microsoft 365 구독에 따라 다릅니다.
 
   - **Office 365 E3 및 Microsoft 365 E3:** 감사 레코드는 90일 동안 유지됩니다. 즉, 감사 로그에서 최근 90일 내에 수행된 활동을 검색할 수 있습니다.  
 
@@ -954,17 +954,17 @@ Office 365에서 감사되는 활동의 목록과 설명을 보려면 이 문서
 
 **보안 및 준수 센터 또는 Office 365 관리 활동 API를 사용하는 것 외에도 다른 방법을 사용하여 감사 로그를 얻을 수 있나요?**
 
-아니요. 이 두 가지가 Office 365 감사 서비스에서 데이터를 가져오는 유일한 방법입니다.
+아니요. 이 두 가지가 감사 서비스에서 데이터를 가져오는 유일한 방법입니다.
 
 **감사 로그를 캡처하려는 각 서비스에서 개별적으로 감사를 사용하도록 설정해야 하나요?**
 
-대부분의 Office 365 서비스에서(이 문서의 [시작하기 전에](#before-you-begin) 섹션에 설명된 대로) Office 365 조직에 대한 감사를 처음 켜면 기본적으로 감사가 사용되도록 설정되어 있습니다.
+대부분의 서비스에서(이 문서의 [시작하기 전에](#before-you-begin) 섹션에 설명된 대로) 조직에 대한 감사를 처음 켜면 기본적으로 감사가 사용되도록 설정되어 있습니다.
 
-**Office 365 감사 서비스에서 레코드 중복 제거를 지원하나요?**
+**감사 서비스에서 레코드 중복 제거를 지원하나요?**
 
 아니요. 감사 서비스 파이프라인은 거의 실시간이므로 중복 제거를 지원할 수 없습니다.
 
-**Office 365에서 지리적으로 데이터 흐름을 감사하나요?**
+**여러 지역에 걸쳐 데이터 흐름을 감사하나요?**
 
 아니요. 현재 NA(북아메리카), EMEA(유럽, 중동, 아프리카) 및 APAC(아시아 태평양) 지역에 감사 파이프라인 배포가 있습니다. 그러나 이러한 지역에 로드 밸런싱을 위해 라이브 사이트 문제 중에만 데이터가 전달됩니다. 이러한 활동을 수행하면 전송 중인 데이터가 암호화됩니다.
 
