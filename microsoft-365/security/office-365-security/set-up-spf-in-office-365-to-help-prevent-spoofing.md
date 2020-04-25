@@ -16,12 +16,12 @@ ms.assetid: 71373291-83d2-466f-86ea-fc61493743a6
 ms.collection:
 - M365-security-compliance
 description: '요약: 이 문서에서는 Office 365에서 사용자 지정 도메인과 함께 SPF (Sender Policy Framework)를 사용할 수 있도록 DNS (Domain Name Service) 레코드를 업데이트하는 방법에 대해 설명합니다. SPF를 사용하여 사용자 지정 도메인에서 전송한 아웃바운드 전자 메일의 유효성 검사'
-ms.openlocfilehash: c1424ed9da6a36128d9f4502aadb475068ad029b
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 9d84fb60886dd1518beb8a94438d5168c869a8c8
+ms.sourcegitcommit: 481fb95d8b80cf2102a9c73b21e7effa79e594e7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43638323"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "43808989"
 ---
 # <a name="set-up-spf-to-help-prevent-spoofing"></a>스푸핑을 방지할 수 있도록 SPF 설정
 
@@ -49,7 +49,7 @@ DNS에서 TXT 레코드를 업데이트하기 전에 먼저 정보를 수집하�
 
 - 사용자 정의 도메인의 현재 SPF TXT 레코드. 지침은 [Office 365 DNS 레코드를 만드는 데 필요한 정보 수집](https://docs.microsoft.com/office365/admin/get-help-with-domains/information-for-dns-records)을 참조하세요.
 
-- 모든 온-프레미스 메시징 서버의 IP 주소. 예를 들어, **192.168.0.1**.
+- 모든 온-프레미스 메시징 서버의 외부 IP 주소. 예를 들어, **131.107.2.200**.
 
 - SPF TXT 레코드에 포함해야하는 모든 제3자 도메인에 사용할 도메인 이름. 일부 대량 메일 공급자는 고객에게 사용할 하위 도메인을 설정했습니다. 예를 들어, MailChimp 회사는 **servers.mcsv.net**을 설정했습니다.
 

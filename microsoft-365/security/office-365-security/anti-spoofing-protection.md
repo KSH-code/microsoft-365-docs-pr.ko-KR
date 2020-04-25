@@ -18,12 +18,12 @@ ms.collection:
 ms.custom: TopSMBIssues
 localization_priority: Priority
 description: ''
-ms.openlocfilehash: 3a306cb8bda0f5f07660f8a2af60e29a3c4d0776
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: e66a0b7965212ef65663208efd73378d8c14a726
+ms.sourcegitcommit: 4f2129b161eed3f9ddec47494fa19a2a7a553e4f
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636037"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "43805230"
 ---
 # <a name="anti-spoofing-protection"></a>스푸핑 방지 보호 기능
 
@@ -92,11 +92,9 @@ Microsoft는 서로 다른 두 가지 유형의 스푸핑 메일을 구분합니
 
   `Authentication-Results: ... compauth=fail reason=6xx`
 
-  `X-Forefront-Antispam-Report: ...CAT:SPM/HSPM/PHSH;...SFTY:9.11`
+  `X-Forefront-Antispam-Report: ...CAT:SPOOF;...SFTY:9.11`
 
   - `reason=6xx`은(는) 조직 내 스푸핑임을 나타냅니다.
-
-  - CAT은 메일 범주이며 일반적으로 SPM(스팸)에 해당하지만 때에 따라 메일에서 감지된 다른 패턴 유형에 따라 HSPM(높은 신뢰성을 가진 스팸) 또는 PHISH(피싱)에 해당할 수 있습니다.
 
   - SFTY는 메일의 보안 수준을 말합니다. 9는 피싱, 11은 조직 내 스푸핑을 나타냅니다.
 
@@ -109,7 +107,7 @@ Microsoft는 서로 다른 두 가지 유형의 스푸핑 메일을 구분합니
 
   `X-Forefront-Antispam-Report: ...CAT:SPOOF;...SFTY:9.22`
 
-  - `reason=000` 값은 메일이 명시적 전자 메일 인증에 실패했음을 나타냅니다. `reason=001`은(는) 메일이 암묵적인 전자 메일 인증에 실패했음을 나타냅니다.
+  - `reason=000`은(는) 메일이 명시적 전자 메일 인증에 실패했음을 나타냅니다. `reason=001`은(는) 메일이 암묵적인 전자 메일 인증에 실패했음을 나타냅니다.
 
   - SFTY는 메일의 보안 수준을 말합니다. 9는 피싱, .22는 도메인 간 스푸핑을 나타냅니다.
 

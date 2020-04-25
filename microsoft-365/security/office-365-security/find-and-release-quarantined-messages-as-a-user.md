@@ -17,12 +17,12 @@ ms.assetid: efff08ec-68ff-4099-89b7-266e3c4817be
 ms.collection:
 - M365-security-compliance
 description: Microsoft 365 사용자는 격리된 메시지(사용자가 받는 사람인 메시지, 스팸 또는 대량 전자 메일로 메시지를 격리하는 스팸 필터링)를 보고, 해제하고, 삭제할 수 있습니다. 보안 및 준수 센터에서 격리된 메시지를 보고 관리할 수 있습니다.
-ms.openlocfilehash: 215cbc23aca3b7d10eca8c53d816892d0ca042cb
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: b8ab5835a29ccf0c58d27f56fe84d29745419b1a
+ms.sourcegitcommit: 481fb95d8b80cf2102a9c73b21e7effa79e594e7
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43638109"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "43809015"
 ---
 # <a name="find-and-release-quarantined-messages-as-a-user"></a>사용자로 격리된 메시지 찾기 및 릴리스
 
@@ -38,7 +38,7 @@ ms.locfileid: "43638109"
 
 - 관리자는 스팸 방지 정책에서 [최종 사용자 스팸 알림을 사용하도록 설정](configure-your-spam-filter-policies.md#configure-end-user-spam-notifications)할 수도 있습니다. 사용자는 스팸 격리된 메시지를 해제할 수 있지만 이 알림에서 피싱 격리된 메시지를 직접 해제할 수 없습니다. 자세한 내용은 [Office 365에서 최종 사용자 스팸 알림](use-spam-notifications-to-release-and-report-quarantined-messages.md)을 참조하세요.
 
-- 신뢰도가 높은 피싱, 맬웨어 또는 메일 흐름 규칙(전송 규칙이라고도 함)에 의해 격리된 메시지는 관리자만 볼 수 있습니다. 자세한 내용은 [Office 365에서 관리자로 격리된 메시지 관리하기](manage-quarantined-messages-and-files.md)를 참조하세요.
+- 신뢰도가 높은 피싱, 맬웨어 또는 메일 흐름 규칙(전송 규칙이라고도 함)에 의해 격리된 메시지는 관리자만 볼 수 있습니다. 피싱 메시지는 관리자가 릴리스할 뿐 아니라 사용자가 검토할 수 있습니다. 자세한 내용은 [Office 365에서 관리자로 격리된 메시지 관리하기](manage-quarantined-messages-and-files.md)를 참조하세요.
 
 - 메시지를 해제하고 가양성으로(정크 아님) 한 번만 보고할 수 있습니다.
 
