@@ -22,19 +22,18 @@ search.appverid:
 - BEA160
 - GEA150
 ms.assetid: 32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b
-description: 해당 지역 또는 현지 전화 번호를 사용하거나 온라인으로 서비스 요청을 제출하거나 Microsoft store를 방문하여 기술 및 청구 지원을 받습니다.
+description: 해당 국가 또는 지역 전화 번호를 사용하거나 온라인으로 서비스 요청을 제출하거나 Microsoft store를 방문하여 기술 및 청구 지원을 받습니다.
 feedback_system: None
-ms.openlocfilehash: 8f69b77d8e16d4ed73aa8ecf9f15bc8998cf0f20
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: f1698de8c9b1d80763c983fbc9adf3778be45645
+ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627081"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43707550"
 ---
 # <a name="contact-support-for-business-products---admin-help"></a>비즈니스 제품에 대해 고객 지원 센터 문의 - 관리자 도움말
 
 ::: moniker range="o365-worldwide"
-
 
 ## <a name="online-support"></a>[온라인 지원](#tab/online)
 
@@ -52,7 +51,9 @@ ms.locfileid: "43627081"
 
 ## <a name="phone-support"></a>[전화 지원 ](#tab/phone)
 
-청구 지원은 월요일~금요일 오전 9시부터 오후 5시까지(오스트레일리아의 경우 오전 9시부터 오후 6시까지) 영어로 제공됩니다.  <br/>기술 지원은 24시간 연중 무휴로 영어로 제공됩니다. <br/> 전화하는 관리자는 계정 정보를 준비하세요.<br/>
+청구 지원은 월요일~금요일 오전 9시부터 오후 5시까지(오스트레일리아의 경우 오전 9시부터 오후 6시까지) 영어로 제공됩니다.\
+기술 지원은 24시간 연중 무휴로 영어로 제공됩니다.\
+전화하는 관리자는 계정 정보를 준비하세요.\
 
 - **미국에서는 1 800 865 9408로 전화하십시오.**
 

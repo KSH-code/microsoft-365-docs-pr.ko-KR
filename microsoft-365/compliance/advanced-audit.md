@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Microsoft 365의 고급 감사는 조직에서 법의학 및 규정 준수 조사를 수행하는 데 도움이 되는 새로운 감사 기능을 제공합니다.
-ms.openlocfilehash: bdde2552d2c5ccd790740e1f9077e5d26391e920
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: b1a79598fc49d710c54a23dc9ce92c9f2b7f5805
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42634546"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632283"
 ---
 # <a name="advanced-audit-in-microsoft-365"></a>Microsoft 365의 고급 감사
 
@@ -65,7 +65,7 @@ MailItemsAccessed 액세스 활동의 감사 레코드에 대한 자세한 내�
 
 ### <a name="search-for-mailitemsaccessed-audit-records"></a>MailItemsAccessed 감사 레코드 검색
 
-MailItemsAccessed 감사 레코드를 검색하려면 Office 365 보안 및 준수 센터의 [감사 로그 검색 도구](search-the-audit-log-in-security-and-compliance.md)의 **Exchange 사서함 활동** 드롭다운 목록에서 **액세된한 사서함 항목** 활동을 검색할 수 있습니다.
+MailItemsAccessed 감사 레코드를 검색하려면 보안 및 준수 센터의 [감사 로그 검색 도구](search-the-audit-log-in-security-and-compliance.md)의 **Exchange 사서함 활동** 드롭다운 목록에서 **액세된한 사서함 항목** 활동을 검색할 수 있습니다.
 
 ![감사 로그 검색 도구에서 MailItemsAccessed 작업 검색](../media/MailItemsAccessedSCC1.png)
 
@@ -85,7 +85,7 @@ Office 365 관리 활동 API를 통해 감사 로그에 액세스하는 조직�
 
 **고급 감사는 어디서 액세스할 수 있나요?**
 
-고급 감사가 조직에 배포된 후에 [Office 365 보안 및 준수 센터](https://protection.office.com)의 감사 로그 검색 도구를 사용하여 감사 로그 보존 정책을 만들고 MailItemsAccessed 감사 레코드를 검색할 수 있습니다. 몇 주 안에 [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com)에 고급 감사를 배포하기 위해 노력하고 있습니다.
+고급 감사가 조직에 배포된 후에 [보안 및 준수 센터](https://protection.office.com)의 감사 로그 검색 도구를 사용하여 감사 로그 보존 정책을 만들고 MailItemsAccessed 감사 레코드를 검색할 수 있습니다. 몇 주 안에 [Microsoft 365 규정 준수 센터](https://compliance.microsoft.com)에 고급 감사를 배포하기 위해 노력하고 있습니다.
 
 **고급 감사를 활용하려면 모든 사용자에게 E5 라이선스가 필요한가요?**
 

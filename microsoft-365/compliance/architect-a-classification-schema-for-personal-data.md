@@ -17,12 +17,12 @@ localization_priority: Priority
 search.appverid:
 - MET150
 description: 조직이 GDPR 계획의 일부로 레이블을 구현하는지 여부를 확인합니다.
-ms.openlocfilehash: fa10e3ccd320026f06db76feef8711f8483c2b70
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: db61c5c26ed8484e99aa8f06310bdd3385cf2dce
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41596045"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637138"
 ---
 # <a name="architect-a-classification-schema-for-personal-data"></a>개인 데이터에 대한 분류 스키마 설계
 
@@ -32,11 +32,11 @@ ms.locfileid: "41596045"
 
 ## <a name="decide-if-youre-using-labels-in-addition-to-sensitive-data-types"></a>중요한 데이터 유형 외에 레이블도 사용할지 결정
 
-개인 정보에 대한 Office 365의 분류법 2가지 중 하나를 사용할 수 있습니다. 이러한 두 방법은 GDPR 보호에 사용할 수 있습니다. 분류에 중요한 정보 유형 1가지만 사용하기로 결정한 경우 이 항목의 나머지 부분은 건너뛸 수 있습니다.
+개인 정보에 대한 Microsoft 365의 분류법 2가지 중 하나를 사용할 수 있습니다. 이러한 두 방법은 GDPR 보호에 사용할 수 있습니다. 분류에 중요한 정보 유형 1가지만 사용하기로 결정한 경우 이 항목의 나머지 부분은 건너뛸 수 있습니다.
 
 다음 옵션 중 하나를 선택합니다.
 
-### <a name="option-1-use-only-office-365-sensitive-information-types"></a>옵션 1: Office 365 중요한 정보 유형만 사용
+### <a name="option-1-use-only-microsoft-365-sensitive-information-types"></a>옵션 1: Microsoft 365 중요한 정보 유형만 사용
 
 - 중요한 정보 유형은 GDPR 및 기타 규제 유형에 따른 개인 데이터를 식별하고 보호하는 데 적합합니다.
 

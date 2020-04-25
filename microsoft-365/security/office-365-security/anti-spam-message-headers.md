@@ -15,12 +15,12 @@ ms.assetid: 2e3fcfc5-5604-4b88-ac0a-c5c45c03f1db
 ms.collection:
 - M365-security-compliance
 description: Exchange Online Protection에서 메시지에 추가한 머리글 필드 및 값에 대해 알아봅니다.
-ms.openlocfilehash: 958850bccafcbcb0d4fa27a0daddc3c70353deb3
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 1bb2468908ef9711242bdb236f7f43f9f6e43eb1
+ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634571"
+ms.lasthandoff: 04/22/2020
+ms.locfileid: "43708586"
 ---
 # <a name="anti-spam-message-headers"></a>스팸 방지 메시지 헤더
 
@@ -135,7 +135,7 @@ dmarc=fail action=oreject header.from=contoso.com
 |||
 |---|---|
 |**헤더 필드**|**설명**|
-|조치|DMARC 검사 결과에 따라 스팸 필터에서 수행하는 작업을 표시합니다. 예시: <ul><li>**oreject** 또는 **o.reject**: 재정의에 대한 거부를 나타냅니다. 이 경우, Microsoft 365에서는 p=reject 정책을 사용하는 DMARC TXT 레코드의 도메인으로부터 DMARC 검사에 실패하는 메시지를 수신할 때 이 작업을 사용합니다.  메시지를 삭제하거나 거부하는 대신, Microsoft 365에서는 해당 메시지를 스팸으로 표시합니다. Microsoft 365를 이런 방식으로 구성하는 방법에 대한 자세한 내용은 [Microsoft 365에서 DMARC에 실패한 인바운드 전자 메일을 처리하는 방법](use-dmarc-to-validate-email.md#inbounddmarcfail)을 참조하세요.</li><li>**pct.quarantine**: DMARC를 통과하지 못하는 메시지 중 100% 미만의 백분율이 전달됨을 나타냅니다. 즉, 메시지가 DMARC에 실패하고 정책이 격리로 설정되어 있지만, pct 필드는 100%로 설정되지 않았고, 지정된 도메인의 정책에 따라, 시스템에서 DMARC 작업을 적용하지 않도록 임의로 결정했음을 의미합니다.</li><li>**pct.reject**: DMARC를 통과하지 못하는 메시지 중 100% 미만의 백분율이 전달됨을 나타냅니다. 즉, 메시지가 DMARC에 실패하고 정책이 거부로 설정되어 있지만, pct 필드는 100%로 설정되지 않았고, 지정된 도메인의 정책에 따라, 시스템에서 DMARC 작업을 적용하지 않도록 임의로 결정했음을 나타냅니다.</li><li>**permerror**: DMARC 평가 중에 영구적 오류(예: DNS에서 잘못된 형식의 DMARC TXT 레코드 발생)가 발생했습니다. 이 메시지를 다시 보내도 결과가 달라지지 않을 수 있습니다. 대신, 이 문제를 해결하기 위해 도메인 소유자에게 문의해야 합니다.</li><li>**temperror**: DMARC 평가 중에 일시적인 오류가 발생했습니다. 전자 메일을 제대로 처리할 수 있도록 보낸 사람이 메시지를 나중에 다시 보내도록 요청할 수 있습니다.</li></ul>|
+|조치|DMARC 검사 결과에 따라 스팸 필터에서 수행하는 작업을 표시합니다. 예시: <ul><li>**oreject** 또는 **o.reject**: 재정의에 대한 거부를 나타냅니다. 이 경우, Microsoft 365에서는 p=reject 정책을 사용하는 DMARC TXT 레코드의 도메인으로부터 DMARC 검사에 실패하는 메시지를 수신할 때 이 작업을 사용합니다.  메시지를 삭제하거나 거부하는 대신, Microsoft 365에서는 해당 메시지를 스팸으로 표시합니다. Microsoft 365를 이런 방식으로 구성하는 방법에 대한 자세한 내용은 [Microsoft 365에서 DMARC에 실패한 인바운드 전자 메일을 처리하는 방법](use-dmarc-to-validate-email.md#how-microsoft-365-handles-inbound-email-that-fails-dmarc)을 참조하세요.</li><li>**pct.quarantine**: DMARC를 통과하지 못하는 메시지 중 100% 미만의 백분율이 전달됨을 나타냅니다. 즉, 메시지가 DMARC에 실패하고 정책이 격리로 설정되어 있지만, pct 필드는 100%로 설정되지 않았고, 지정된 도메인의 정책에 따라, 시스템에서 DMARC 작업을 적용하지 않도록 임의로 결정했음을 의미합니다.</li><li>**pct.reject**: DMARC를 통과하지 못하는 메시지 중 100% 미만의 백분율이 전달됨을 나타냅니다. 즉, 메시지가 DMARC에 실패하고 정책이 거부로 설정되어 있지만, pct 필드는 100%로 설정되지 않았고, 지정된 도메인의 정책에 따라, 시스템에서 DMARC 작업을 적용하지 않도록 임의로 결정했음을 나타냅니다.</li><li>**permerror**: DMARC 평가 중에 영구적 오류(예: DNS에서 잘못된 형식의 DMARC TXT 레코드 발생)가 발생했습니다. 이 메시지를 다시 보내도 결과가 달라지지 않을 수 있습니다. 대신, 이 문제를 해결하기 위해 도메인 소유자에게 문의해야 합니다.</li><li>**temperror**: DMARC 평가 중에 일시적인 오류가 발생했습니다. 전자 메일을 제대로 처리할 수 있도록 보낸 사람이 메시지를 나중에 다시 보내도록 요청할 수 있습니다.</li></ul>|
 |compauth|복합 인증 결과 Microsoft 365에서 SPF, DKIM, DMARC 또는 메시지의 기타 부분과 같은 다양한 유형의 인증을 결합하여 메시지의 인증 여부를 확인하는 데 사용됩니다. 평가 기준으로 보낸 사람: 도메인을 사용합니다.|
 |dkim|메시지의 DKIM 검사 결과를 설명합니다. 가능한 값은 다음과 같습니다. <ul><li>**통과**: 통과한 메시지의 DKIM 검사를 나타냅니다.</li><li>**실패(원인)**: 실패한 메시지의 DKIM 검사와 오류를 나타냅니다. 예를 들어, 메시지에 서명이 없거나 서명이 확인되지 않은 경우입니다.</li><li>**없음**: 메시지에 서명이 없음을 나타냅니다. 이는 도메인에 DKIM 레코드가 있거나 DKIM 레코드가 결과에 대해 평가되지 않음을 의미하지 않으며, 이 메시지에 서명이 없음을 나타냅니다.</li></ul>|
 |dmarc|메시지에 대한 DMARC 검사 결과를 설명합니다. 가능한 값은 다음과 같습니다. <ul><li>**통과**: 메시지에 대한 DMARC 에 통과했음을 나타냅니다.</li><li>**실패**: 메시지에 대한 DMARC 검사에 실패했음을 나타냅니다.</li><li>**bestguesspass**: 도메인의 DMARC TXT 레코드가 없음을 나타내며, 이미 존재하는 경우에는 해당 메시지에 대한 DMARC 검사를 통과했음을 나타냅니다. 이는 `5321.MailFrom` 주소(메일 보낸 사람 주소, P1 보낸 사람 또는 봉투 보낸 사람이라고도 함)의 도메인이 `5322.From` 주소(보낸 사람 주소 또는 P2 보낸 사람이라고도 함)의 도메인과 일치하기 때문입니다.</li><li>**없음**: DNS에 송신 도메인에 대한 DKIM TXT 레코드가 존재하지 않음을 나타냅니다.|

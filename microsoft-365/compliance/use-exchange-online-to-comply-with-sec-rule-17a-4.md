@@ -15,18 +15,18 @@ search.appverid:
 - MOE150
 - MET150
 description: Cohasset Associates는 Exchange Online 및 Security & Compliance Center가 권장대로 구성되어 있으면 CFTC 규칙 1.31 (c) - (d), FINRA 규칙 4511 및 SEC 규칙 17a-4의 관련 저장소 요구 사항을 충족함을 확인했습니다. 평가판을 다운로드할 수 있습니다.
-ms.openlocfilehash: bf54bf5798d4bbb5b655cc367330bbb50de7f7b2
-ms.sourcegitcommit: e695bcfc69203da5d3d96f3d6a891664a0e27ae2
+ms.openlocfilehash: d2624dbc230bb0fb714ab1a5a66b91e70d301a9c
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43106126"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43626424"
 ---
 # <a name="use-exchange-online-and-the-security--compliance-center-to-comply-with-sec-rule-17a-4"></a>SEC Rule 17a-4를 준수하기 위해 Exchange Online과 보안 및 준수 센터 사용
 
->*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](https://aka.ms/ComplianceSD).*
+>*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](https://aka.ms/ComplianceSD)*
 
-조직에서 데이터 보존 을위한 규제 표준을 준수해야하는 경우 Office 365 보안 및 준수 센터는 Exchange Online에서 데이터 수명주기를 관리하는 기능을 제공합니다. 여기에는 데이터를 보존, 감사, 검색 및 내보내기 기능이 포함됩니다. 이러한 기능은 대부분의 조직의 요구를 충족하기에 충분합니다.
+조직에서 데이터 보존 을위한 규제 표준을 준수해야하는 경우 보안 및 준수 센터는 Exchange Online에서 데이터 수명주기를 관리하는 기능을 제공합니다. 여기에는 데이터를 보존, 감사, 검색 및 내보내기 기능이 포함됩니다. 이러한 기능은 대부분의 조직의 요구를 충족하기에 충분합니다.
 
 그러나 고도로 규제된 산업 분야의 일부 조직은 더 엄격한 규제 요건의 적용을 받습니다. 예를 들어, 은행이나 중개인과 같은 금융 기관은 증권 거래위원회 (SEC)에서 발급한 규칙 17a-4의 적용을 받습니다. 규칙 17a-4는 기록 보존의 기간, 형식, 품질, 가용성 및 책임과 같은 기록 관리의 여러 측면을 포함하여 전자 데이터 저장에 대한 특정 요구 사항을 규정하고 있습니다.
 
@@ -42,7 +42,7 @@ Cohasset은 Exchange Online 및 Security & Compliance Center가 권장대로 구
 
 ## <a name="this-assessment-is-specific-to-exchange-online"></a>이 평가는 Exchange Online에만 적용됩니다.
 
-이 평가는 Exchange Online에만 적용됩니다. 이 평가에는 SharePoint Online 또는 비즈니스용 OneDrive와 같은 다른 Office 365 서비스는 포함되지 않지만 향후에는 SEC 17a-4와 관련하여 해당 서비스에 대한 지원을 계획하고 있습니다.
+이 평가는 Exchange Online에만 적용됩니다. 이 평가에는 SharePoint Online 또는 비즈니스용 OneDrive와 같은 다른 Microsoft 365 서비스는 포함되지 않지만 향후에는 SEC 17a-4와 관련하여 해당 서비스에 대한 지원을 계획하고 있습니다.
 
 비즈니스용 Skype 및 Teams도 Exchange Online에 데이터를 저장한다는 사실을 이해하는 것이 중요합니다. 따라서 평가는 비즈니스용 Skype의 메시지와 Teams의 채널 및 채팅 메시지를 포함합니다.
 
@@ -75,4 +75,4 @@ PowerShell을 사용하여 보존 정책을 잠글 수 있습니다. 자세한 �
 - 팀 채팅 및 채널 메시지에 좋아요는 포함되어 있지 않습니다.
 
 > [!NOTE]
-> 이제 Office 365 그룹 사서함에 대해 항목 수준 감사를 사용할 수 있습니다. 자세한 내용은 [사서함 감사 관리](enable-mailbox-auditing.md)를 참조하세요.
+> 이제 Microsoft 365 그룹 사서함에 대해 항목 수준 감사를 사용할 수 있습니다. 자세한 내용은 [사서함 감사 관리](enable-mailbox-auditing.md)를 참조하세요.

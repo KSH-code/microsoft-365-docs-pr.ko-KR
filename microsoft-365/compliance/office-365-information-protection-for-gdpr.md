@@ -1,5 +1,5 @@
 ---
-title: GDPR에 대한 Office 365 정보 보호
+title: GDPR을 위한 정보 보호
 f1.keywords:
 - CSH
 ms.author: bcarter
@@ -17,14 +17,14 @@ localization_priority: Priority
 search.appverid:
 - MET150
 description: 이 솔루션에서는 Office 365 서비스에 저장되어 있는 중요한 데이터를 보호하는 방법을 보여 줍니다.
-ms.openlocfilehash: e930b0397e071a9270556041aa396ccfe5c17228
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: d71f3297fa5f315fe9a66bbc4b4217e58f5328bd
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42071132"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43626916"
 ---
-# <a name="office-365-information-protection-for-gdpr"></a>GDPR에 대한 Office 365 정보 보호
+# <a name="information-protection-for-gdpr"></a>GDPR을 위한 정보 보호
 
  **요약:** 이 솔루션에서는 Office 365 서비스에 저장되어 있는 중요한 데이터를 보호하는 방법을 보여 줍니다.
   

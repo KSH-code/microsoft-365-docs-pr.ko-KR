@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Office 365 또는 Microsoft 조직에서 레코드 관리 전략을 구현하려면 콘텐츠를 레코드로 선언하는 보존 레이블을 사용합니다. 그런 다음 보존 레코드 레이블을 게시하거나 자동으로 적용합니다.
-ms.openlocfilehash: d497f3e536a54226ad9e7b5bb9a399f66774c25e
-ms.sourcegitcommit: e525bcf073a61e1350484719a0c3ceb6ff0d8db1
+ms.openlocfilehash: db33c65b6c3528a717672b0111a9da098a3d5c31
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43153836"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632117"
 ---
 # <a name="overview-of-records"></a>레코드 개요
 
@@ -108,6 +108,9 @@ SharePoint 사이트 또는 OneDrive 계정에서 문서에 레코드 레이블�
 
 ![레코드로 태그가 지정된 문서의 레코드 상태 속성](../media/recordversioning8.png)
 
+> [!NOTE]
+> 레코드 버전 관리를 사용하려면 SharePoint 사이트 또는 OneDrive 계정에서 레코드로 선언된 콘텐츠를 편집할 수 있는 권한이 있는 각 사용자에 대해 Office 365 Enterprise E5 라이선스가 필요합니다. 읽기 전용 권한이 있는 사용자는 이 라이선스가 필요 없습니다.
+
 ### <a name="locking-and-unlocking-a-record"></a>레코드 잠금 및 잠금 해제
 
 문서에 레코드 레이블을 할당한 후 참가 권한 또는 더 적은 권한 수준을 사용하는 모든 사용자가 레코드를 잠금 해제하거나 잠금 해제된 레코드를 잠글 수 있습니다.
@@ -153,7 +156,7 @@ SharePoint 사이트 또는 OneDrive 계정에서 문서에 레코드 레이블�
 
 ### <a name="searching-the-audit-log-for-record-versioning-events"></a>기록 버전 관리 이벤트에 대한 감사 로그 검색
 
-레코드 잠금 및 잠금 해제 작업이 Office 365 감사 로그에 기록됩니다. 사용자는 특정 작업인 **레코드 상태가 잠김으로 변경** 및 **레코드 상태가 잠김 상태로 변경**을 검색할 수 있습니다. 이 작업은 보안 및 준수 센터의 **감사 로그 검색** 페이지에 있는 **활동** 드롭다운 목록의 **파일 및 페이지 활동** 섹션에 있습니다.
+레코드 잠금 및 잠금 해제 작업이 감사 로그에 기록됩니다. 사용자는 특정 작업인 **레코드 상태가 잠김으로 변경** 및 **레코드 상태가 잠김 상태로 변경**을 검색할 수 있습니다. 이 작업은 보안 및 준수 센터의 **감사 로그 검색** 페이지에 있는 **활동** 드롭다운 목록의 **파일 및 페이지 활동** 섹션에 있습니다.
 <br/><br/>
 
 ![기록 버전 관리 이벤트에 대한 감사 로그 검색](../media/recordversioning13.png)

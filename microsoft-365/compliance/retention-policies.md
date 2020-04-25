@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 정책을 사용하여 콘텐츠를 보존할지, 삭제할지, 아니면 보존한 다음 삭제할지 사전에 결정할 수 있습니다. 조직 전체에 또는 특정 위치 또는 사용자에게 하나의 정책을 적용할 수 있고, 모든 콘텐츠에 또는 특정 조건에 부합하는 콘텐츠에 정책을 적용할 수 있습니다.
-ms.openlocfilehash: df2e89e26de2baab21cb334c1852cb261e1b8c98
-ms.sourcegitcommit: 09c3e2f3129c5e43cd8420cccd0676ff3a29a355
+ms.openlocfilehash: 7075e043a2d45358447137fbf76bcbf88a65e9f4
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/15/2020
-ms.locfileid: "43521514"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43632439"
 ---
 # <a name="overview-of-retention-policies"></a>보존 정책 개요
 
@@ -95,8 +95,6 @@ SharePoint 사이트 모음의 경우, 사용자가 콘텐츠를 편집하거나
     > [!NOTE]
     > 의도하지 않은 데이터 손실을 방지하기 위해 내용은 보존 라이브러리에서 자동으로 삭제되지 않지만 2단계 휴지통으로 이동합니다. 휴지통에서 93일 간의 유예 기간 동안 관리자가 필요한 경우 이 콘텐츠를 복구할 수 있도록 합니다.
     
-2. 보존 기간 내에 **콘텐츠가 수정되거나 삭제되지 않으면** 보존 기간의 종료 시점에 1단계 휴지통으로 이동됩니다. 여기에서 사용자가 콘텐츠를 삭제하거나 휴지통을 비우면 문서가 2단계 휴지통으로 이동됩니다. 1단계 휴지통과 2단계 휴지통을 포함하여 총 93일 간의 보존 기간이 적용됩니다. 93일이 지나면 1단계 휴지통 또는 2단계 휴지통에서 문서가 영구적으로 삭제됩니다. 휴지통이 인덱싱되지 않으므로 검색할 수 없습니다. 따라서 eDiscovery 검색에서 보류할 휴지통 콘텐츠를 찾을 수 없습니다.
-
 2. 보존 기간 동안 **내용이 수정되거나 삭제되지 않은 경우**: 보존 기간이 끝나면 문서가 1단계 휴지통으로 이동합니다. 여기에서 사용자가 문서를 삭제하거나 휴지통을 비우면 문서가 2단계 휴지통으로 이동됩니다. 1단계 휴지통과 2단계 휴지통을 포함하여 총 93일 간의 보존 기간이 적용됩니다. 93일이 지나면 1단계 휴지통 또는 2단계 휴지통에서 문서가 영구적으로 삭제됩니다. 휴지통이 인덱싱되지 않으므로 검색할 수 없습니다. 따라서 eDiscovery 검색에서 보류할 휴지통 콘텐츠를 찾을 수 없습니다. 
 
 보유 정책이 보유 전용 또는 삭제 전용인 경우 컨텐츠 경로는 보유 및 삭제의 변형입니다.
@@ -333,7 +331,7 @@ Teams의 보존 기능 최적화를 계속 진행하고 있으며, 몇 개월 �
    > [!NOTE]
    > 전에는 보존 정책으로 30일이 지나지 않은 Teams 콘텐츠를 삭제할 수 없었지만 이 제한을 제거했습니다. 이제 Teams 콘텐츠의 보존 기간은 원하는 일수이며 단 하루에 그칠 수도 있습니다. 보존 기간이 하루인 경우 보존 기간이 만료 된 후 메시지가 영구적으로 삭제되기까지 최대 3일이 소요됩니다.
     
-Teams의 채팅에서 공유되는 파일은 파일을 공유하는 사용자의 OneDrive 계정에 저장됩니다. 채널에 업로드된 파일은 해당 팀의 SharePoint 사이트에 저장됩니다. 따라서 Teams의 파일을 보존하거나 삭제하려면 OneDrive 및 Office 365 그룹 위치에 적용되는 보존 정책을 만들어야 합니다. 특정 사용자 또는 Teams의 팀에서 공유하는 파일에 정책을 적용하려는 경우 OneDrive 또는 Office 365 그룹 위치를 선택하고 특정 사용자 또는 팀을 포함할 수 있습니다.
+Teams의 채팅에서 공유되는 파일은 파일을 공유하는 사용자의 OneDrive 계정에 저장됩니다. 채널에 업로드된 파일은 해당 팀의 SharePoint 사이트에 저장됩니다. 따라서 Teams의 파일을 보존하거나 삭제하려면 OneDrive 및 Microsoft 365 그룹 위치에 적용되는 보존 정책을 만들어야 합니다. 특정 사용자 또는 Teams의 팀에서 공유하는 파일에 정책을 적용하려는 경우 OneDrive 또는 Microsoft 365 그룹 위치를 선택하고 특정 사용자 또는 팀을 포함할 수 있습니다.
   
 Teams에 적용되는 보존 정책은 [유지 잠금](#locking-a-retention-policy)을 사용할 수 있습니다.
   
@@ -342,9 +340,9 @@ Teams에 적용되는 보존 정책은 [유지 잠금](#locking-a-retention-poli
 > [!NOTE]
 > 조직에서 Skype 또는 Teams 위치에 대한 보존 정책을 만드는 경우 사용자가 Outlook 데스크톱 클라이언트에서 사서함 폴더의 속성을 볼 때 해당 정책 중 하나가 기본 폴더 정책으로 표시됩니다. 이것은 Outlook의 잘못된 표시 문제이며 [알려진 문제](https://support.microsoft.com/help/4491013/outlook-client-displays-teams-or-skype-for-business-retention-policies)입니다. 기본 폴더 정책으로 표시되어야 하는 것은 폴더에 적용되는 사서함 보존 정책입니다. Skype 또는 Teams 보존 정책은 사용자의 사서함에 적용되지 않습니다.  
 
-### <a name="office-365-groups-locations"></a>Office 365 그룹 위치
+### <a name="microsoft-365-groups-locations"></a>Microsoft 365 그룹 위치
 
-Office 365 그룹의 콘텐츠를 보존하려면 Office 365 그룹 위치를 사용해야 합니다. Office 365 그룹이 Exchange 사서함을 보유하고 있더라도 전체 Exchange 위치를 포함하는 보존 정책이 Office 365 그룹 사서함의 콘텐츠를 포함하지는 않습니다. Office 365 그룹에 적용되는 보존 정책에는 그룹 사서함과 사이트가 모두 포함됩니다. Office 365 그룹에 적용된 보존 정책은 Microsoft Teams를 포함하는 Office 365 그룹에서 만든 리소스를 보호합니다.
+Microsoft 365 그룹의 콘텐츠를 보존하려면 Microsoft 365 그룹 위치를 사용해야 합니다. Microsoft 365 그룹이 Exchange 사서함을 보유하고 있더라도 전체 Exchange 위치를 포함하는 보존 정책이 Microsoft 365 그룹 사서함의 콘텐츠를 포함하지는 않습니다. Microsoft 365 그룹에 적용되는 보존 정책에는 그룹 사서함과 사이트가 모두 포함됩니다. Microsoft 365 그룹에 적용된 보존 정책은 Microsoft Teams를 포함하는 Microsoft 365 그룹에서 만든 리소스를 보호합니다.
 
 또한 Exchange 위치를 사용하여 특정 그룹 사서함을 포함하거나 제외할 수 없습니다. 초기에 Exchange 위치가 선택될 그룹 사서함을 허용하더라도 보존 정책을 저장하려고 시도할 때 “RemoteGroupMailbox”가 Exchange 위치에 유효하지 않은 선택이라는 오류가 나타나게 됩니다. 
 
@@ -406,7 +404,7 @@ SharePoint 및 OneDrive의 30일간의 유예 기간은 Exchange의 30일 지연
     
 3. **암시적 포함보다 명시적 포함 우선.** 의미는 다음과 같습니다. 
     
-    1. 보존 설정이 포함된 레이블이 사용자에 의해 수동으로 항목(예: Exchange 전자 메일 또는 OneDrive 문서)에 할당된 경우 해당 레이블은 사이트 또는 사서함 수준에서 할당된 정책이나 문서 라이브러리에 의해 할당된 기본 레이블에 우선합니다. 예를 들어 명시적 레이블에서 10년 동안 보존하라고 하지만, 사이트에 할당된 정책에서 5년 동안만 보존하라고 한다면 레이블이 우선합니다. 자동 적용 레이블은 Office 365에 의해 자동으로 적용되므로 명시적이 아니라 암시적으로 간주됩니다.
+    1. 보존 설정이 포함된 레이블이 사용자에 의해 수동으로 항목(예: Exchange 전자 메일 또는 OneDrive 문서)에 할당된 경우 해당 레이블은 사이트 또는 사서함 수준에서 할당된 정책이나 문서 라이브러리에 의해 할당된 기본 레이블에 우선합니다. 예를 들어 명시적 레이블에서 10년 동안 보존하라고 하지만, 사이트에 할당된 정책에서 5년 동안만 보존하라고 한다면 레이블이 우선합니다. 자동 적용 레이블은 Microsoft 365에 의해 자동으로 적용되므로 명시적이 아니라 암시적으로 간주됩니다.
     
     2. 보존 정책에 특정 사용자의 사서함 또는 OneDrive용 비즈니스 계정과 같은 특정 위치가 포함되는 경우 해당 정책이 모든 사용자의 사서함 또는 비즈니스용 OneDrive 계정에 적용되지만 해당 사용자의 사서함을 특별히 포함하지 않는 다른 보존 정책보다 우선합니다.
     
@@ -418,13 +416,13 @@ SharePoint 및 OneDrive의 30일간의 유예 기간은 Exchange의 30일 지연
   
 ## <a name="use-a-retention-policy-instead-of-these-features"></a>이러한 기능 대신 보존 정책 사용
 
-조직 전체와 Exchange Online, SharePoint Online, 비즈니스용 OneDrive 및 Office 365 그룹을 비롯하여 Office 365 전반에 걸친 위치에 손쉽게 하나의 보존 정책을 적용할 수 있습니다. Office 365의 어느 곳에서든 콘텐츠를 보존하거나 삭제하려는 경우에는 보존 정책을 사용하는 것이 좋습니다. (레이블을 보존 설정으로 사용할 수도 있습니다. 자세한 내용은 [레이블 개요](labels.md)를 참조하세요.)
+조직 전체와 Exchange Online, SharePoint Online, 비즈니스용 OneDrive 및 Microsoft 365 그룹을 비롯하여 Microsoft 365 전반에 걸친 위치에 손쉽게 하나의 보존 정책을 적용할 수 있습니다. Microsoft 365의 어느 곳에서든 콘텐츠를 보존하거나 삭제하려는 경우에는 보존 정책을 사용하는 것이 좋습니다. (레이블을 보존 설정으로 사용할 수도 있습니다. 자세한 내용은 [레이블 개요](labels.md)를 참조하세요.)
   
-이전에 Office 365에서 콘텐츠를 보존하거나 삭제하는 데 사용된 다른 여러 기능이 있습니다. 이러한 기능은 아래에 나열되어 있습니다. 이러한 기능은 보존 정책 및 레이블과 함께 계속해서 작동합니다. 그러나 앞으로 정보 거버넌스의 경우 이러한 기능 대신 보존 정책이나 레이블을 사용하는 것이 좋습니다. Office 365 전반에서 콘텐츠를 보존하고 삭제까지 할 수 있는 기능은 보존 정책이 유일합니다.
+이전에 Microsoft 365에서 콘텐츠를 보존하거나 삭제하는 데 사용된 다른 여러 기능이 있습니다. 이러한 기능은 아래에 나열되어 있습니다. 이러한 기능은 보존 정책 및 레이블과 함께 계속해서 작동합니다. 그러나 앞으로 정보 거버넌스의 경우 이러한 기능 대신 보존 정책이나 레이블을 사용하는 것이 좋습니다. Microsoft 365 전반에서 콘텐츠를 보존하고 삭제까지 할 수 있는 기능은 보존 정책이 유일합니다.
   
 ### <a name="exchange-online"></a>Exchange Online
 
-- [Office 365 보안 및 준수 센터에서 eDiscovery 사례 관리](https://support.office.com/article/edea80d6-20a7-40fb-b8c4-5e8c8395f6da)(eDiscovery 보류) 
+- [보안 &amp;및 준수 센터](https://support.office.com/article/edea80d6-20a7-40fb-b8c4-5e8c8395f6da)에서 eDiscovery 사례 관리(eDiscovery 보류) 
     
 - [원본 위치 유지 및 소송 보존](https://go.microsoft.com/fwlink/?linkid=846124)(eDiscovery 보류) 
 
@@ -434,7 +432,7 @@ SharePoint 및 OneDrive의 30일간의 유예 기간은 Exchange의 30일 지연
     
 ### <a name="sharepoint-online-and-onedrive-for-business"></a>SharePoint Online 및 비즈니스용 OneDrive
 
-- [Office 365 보안 및 준수 센터에서 eDiscovery 사례 관리](https://support.office.com/article/edea80d6-20a7-40fb-b8c4-5e8c8395f6da)(eDiscovery 보류) 
+- [보안 &amp;및 준수 센터](https://support.office.com/article/edea80d6-20a7-40fb-b8c4-5e8c8395f6da)에서 eDiscovery 사례 관리(eDiscovery 보류) 
     
 - [eDiscovery 센터에서 사례에 콘텐츠 추가 및 원본 우 위치 유지](https://support.office.com/article/54d70de9-1ec2-4325-84f3-aeb588554479)(eDiscovery 보류) 
     
@@ -460,9 +458,9 @@ SharePoint 사이트에서 [정보 관리 정책](intro-to-info-mgmt-policies.md
 
 보존 정책 cmdlet을 사용하려면 다음을 수행합니다.
   
-1. [Office 365 보안 및 준수 센터 PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell)
+1. [보안 및 준수 센터 PowerShell에 연결하기](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell)
     
-2. 다음 Office 365 보안 및 준수 센터 cmdlet 사용:
+2. 다음 보안 및 준수 센터 cmdlet을 사용하세요.
     
     - [Get-RetentionCompliancePolicy](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/get-retentioncompliancepolicy)
     
@@ -484,7 +482,7 @@ SharePoint 사이트에서 [정보 관리 정책](intro-to-info-mgmt-policies.md
 
 보존 정책을 만드는 규정준수 팀의 구성원은 [보안 &amp; 규정 준수 센터](https://protection.office.com/)에 대한 사용 권한이 필요합니다. 기본적으로 테넌트 관리자는 이 위치에 액세스할 수 있으며, 규정 준수 책임자와 기타 사용자에게 테넌트 관리를 위한 모든 권한을 부여하지는 않으면서, [보안 &amp;규정 준수 센터](https://protection.office.com/)에 대한 액세스 권한을 부여할 수 있습니다. 이 작업을 수행하기 위해서는 [보안 &amp;규정 준수 센터](https://protection.office.com/)의 **권한** 페이지로 이동한 후 **규정 준수 관리자** 역할 그룹을 편집하고 해당 역할 그룹에 구성원을 추가할 것을 권장합니다. 
   
-자세한 내용은 [사용자에게 Office 365 보안 및 준수 센터에 대한 액세스 권한 부여](https://docs.microsoft.com/microsoft-365/security/office-365-security/grant-access-to-the-security-and-compliance-center)를 참조하세요. 
+자세한 내용은 [사용자에게 보안 및 준수 센터에 대한 액세스 권한 부여](https://docs.microsoft.com/microsoft-365/security/office-365-security/grant-access-to-the-security-and-compliance-center)를 참조하세요. 
 
 이러한 정책은 보존 정책을 만들고 적용하는 데만 필요합니다. 정책 적용을 위해서는 콘텐츠에 액세스하지 않아도 됩니다.
 

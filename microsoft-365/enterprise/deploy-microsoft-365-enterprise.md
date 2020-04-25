@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 조직에서 엔터프라이즈용 Microsoft 365를 배포하는 데 사용할 수 있는 리소스를 이해합니다.
-ms.openlocfilehash: 9ea96af7cef0e497e8f7560ef87239828789b117
-ms.sourcegitcommit: 6adfcf042e64b21f09f2b8e072e8eba6d3479e31
+ms.openlocfilehash: 3f6ddb1caf270f2ba261bd7b9c8f8cd938187705
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/25/2020
-ms.locfileid: "42951937"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43638239"
 ---
 # <a name="deploy-microsoft-365-for-enterprise"></a>엔터프라이즈용 Microsoft 365 배포
 
@@ -124,7 +124,7 @@ CSEO(Core Services Engineering and Operations)(이전의 Microsoft IT)가 안전
 
 ### <a name="how-the-contoso-corporation-deployed-microsoft-365-for-enterprise"></a>Contoso Corporation에서 엔터프라이즈용 Microsoft 365를 배포한 방법
 
-Contoso 기업은 프랑스 파리에 본사를 둔 가상의 대표적인 글로벌 제조 대기업입니다. [Contoso가 엔터프라이즈용 Microsoft 365를 배포](contoso-case-study.md)하고 네트워킹, ID, Windows 10 Enterprise, Office 365 ProPlus, 모바일 장치 관리, 정보 보호 및 보안에 대한 중요 디자인 결정 및 구현 세부 사항을 처리한 방식을 참조하십시오. 
+Contoso 기업은 프랑스 파리에 본사를 둔 가상의 대표적인 글로벌 제조 대기업입니다. [Contoso가 엔터프라이즈용 Microsoft 365를 배포](contoso-case-study.md)하고 네트워킹, ID, Windows 10 Enterprise, Microsoft 365 앱, 모바일 장치 관리, 정보 보호 및 보안에 대한 중요 디자인 결정 및 구현 세부 사항을 처리한 방식을 참조하십시오. 
 
 ## <a name="stay-current-with-deployment-content"></a>배포 콘텐츠 최신 상태로 유지
 

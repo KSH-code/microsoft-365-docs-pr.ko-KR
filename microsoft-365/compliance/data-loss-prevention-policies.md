@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: 보안 &amp; 준수 센터의 DLP(데이터 손실 방지) 정책을 사용하여 Office 365 전체의 중요한 정보를 식별하고 모니터링하며 자동으로 보호할 수 있습니다.
-ms.openlocfilehash: f61d6c13a66b7f1d93c7bdc1404265e8567e2fb7
-ms.sourcegitcommit: 732bb72a0b5ae09cb39536185aa29d6097ec72fd
+ms.openlocfilehash: 68e81a83242ef4a1a099760044b5ccaec5bd91b7
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "43189070"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43630605"
 ---
 # <a name="overview-of-data-loss-prevention"></a>데이터 손실 방지 개요
 <!-- this topic needs to be split into smaller, more coherent ones. It is confusing as it is. -->
@@ -79,7 +79,7 @@ DLP 정책에는 다음과 같은 몇 가지 기본적인 사항이 포함됩니
   
 ### <a name="locations"></a>위치
 
-DLP 정책은 정보가 Exchange Online, SharePoint Online, 비즈니스용 OneDrive에 위치하는지 아니면 Microsoft Teams에 위치하는지 여부에 관계없이 Office 365 전체의 중요한 정보를 탐색하고 보호할 수 있습니다. Exchange 전자메일, Microsoft Teams 채팅 및 채널 메시지 그리고 모든 SharePoint 또는 OneDrive 라이브러리의 콘텐츠를 보호하거나 정책의 특정 위치를 선택할 수 있습니다.
+DLP 정책은 정보가 Exchange Online, SharePoint Online, 비즈니스용 OneDrive에 위치하는지 아니면 Microsoft Teams에 위치하는지 여부에 관계없이 Microsoft 365 전체의 중요한 정보를 탐색하고 보호할 수 있습니다. Exchange 전자메일, Microsoft Teams 채팅 및 채널 메시지 그리고 모든 SharePoint 또는 OneDrive 라이브러리의 콘텐츠를 보호하거나 정책의 특정 위치를 선택할 수 있습니다.
   
 ![DLP 정책을 적용할 수 있는 위치에 대한 옵션](../media/ee50a61a-e867-4571-a150-3eec8d83650f.png)
 
@@ -121,7 +121,7 @@ DLP 정책은 정보가 Exchange Online, SharePoint Online, 비즈니스용 OneD
     
 #### <a name="types-of-sensitive-information"></a>중요한 정보 유형
 
-DLP 정책은 **중요한 정보 유형**으로 정의되어 있는 중요한 정보를 보호하는 데 도움을 줄 수 있습니다. Office 365에는 신용 카드 번호, 은행 계좌 번호, 국가 ID 번호 및 여권 번호 등 사용할 준비가 된 여러 다른 영역에 대한 일반적인 여러 중요 정보 유형에 대한 정의가 포함되어 있습니다. 
+DLP 정책은 **중요한 정보 유형**으로 정의되어 있는 중요한 정보를 보호하는 데 도움을 줄 수 있습니다. Microsoft 365에는 신용 카드 번호, 은행 계좌 번호, 국가 ID 번호 및 여권 번호 등 사용할 준비가 된 여러 다른 영역에 대한 일반적인 여러 중요 정보 유형에 대한 정의가 포함되어 있습니다. 
   
 ![사용가능한 중요한 정보 유형의 목록](../media/3eaa9911-bc94-44be-902f-363dbf3b07fe.png)
   
@@ -397,7 +397,7 @@ DLP 정책을 만들 때 **간단한 설정 사용**을 선택하면 이러한 �
 
 DLP 정책을 생성하는 첫 번째 단계는 보호할 정보를 선택하는 것입니다. DLP 템플릿을 사용하여 새로운 규칙 집합을 처음부터 새로 작성하고 기본적으로 포함해야 하는 정보 유형을 고민하는 데 필요한 시간이 단축됩니다. 그런 다음 조직의 특정 요구 사항에 맞게 해당 요구 사항을 추가하거나 수정하여 규칙을 미세 조정할 수 있습니다.
   
-미리 구성된 DLP 정책 템플릿은 HIPAA 데이터, PCI-DSS 데이터, 금융서비스 현대화법(Gramm-Leach-Bliley Act) 데이터 또는 고유 PII(개인 식별 정보)와 같은 특정 유형의 중요한 정보를 검색하는 데 도움이 될 수 있습니다. 일반적인 유형의 중요한 정보를 쉽게 찾아 보호할 수 있도록 하기 위해 Office 365에 포함된 정책 템플릿에는 이미 시작하는 데 필요한 가장 일반적인 중요한 정보 유형이 포함되어 있습니다.
+미리 구성된 DLP 정책 템플릿은 HIPAA 데이터, PCI-DSS 데이터, 금융서비스 현대화법(Gramm-Leach-Bliley Act) 데이터 또는 고유 PII(개인 식별 정보)와 같은 특정 유형의 중요한 정보를 검색하는 데 도움이 될 수 있습니다. 일반적인 유형의 중요한 정보를 쉽게 찾아 보호할 수 있도록 하기 위해 Microsoft 365에 포함된 정책 템플릿에는 이미 시작하는 데 필요한 가장 일반적인 중요한 정보 유형이 포함되어 있습니다.
   
 ![미국 애국자법을 위한 템플릿에 중점을 두는 데이터 손실 방지 정책에 대한 템플릿 목록](../media/791b2403-430b-4987-8643-cc20abbd8148.png)
   
@@ -501,11 +501,11 @@ Microsoft Teams를 위치로 포함하는 DLP 정책을 만드는 경우 해당 
 
 DLP 정책을 만드는 규정 준수 팀의 구성원에게는 보안 &amp; 준수 센터에 대한 사용 권한이 필요합니다. 기본적으로 테넌트 관리자는 해당 위치에 액세스할 수 있으며, 테넌트 관리자의 사용 권한을 모두 주지 않으면서 준수 관리자 및 기타 사용자에게 보안 &amp; 준수 센터에 대한 액세스 권한을 부여할 수 있습니다. 이를 위해, 다음의 단계가 권장됩니다:
   
-1. Office 365에서 그룹을 생성하고 규정 준수 책임자를 추가하십시오.
+1. Microsoft 365에서 그룹을 생성하고 규정 준수 책임자를 추가하십시오.
     
 2. 보안 &amp; 준수 센터의 **사용 권한** 페이지에서 역할 그룹을 생성하십시오. 
     
-3. 역할 그룹에 Office 365 그룹을 추가하십시오.
+3. 역할 그룹에 Microsoft 365 그룹을 추가하십시오.
     
 더 자세한 내용은 [Office 365 준수 센터 액세스 권한 부여하기](../security/office-365-security/grant-access-to-the-security-and-compliance-center.md)를 참고하십시오.
   
@@ -519,7 +519,7 @@ DLP 정책을 만드는 규정 준수 팀의 구성원에게는 보안 &amp; 준
     
 2. 해당 [정책 및 준수-dlp cmdlet](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-dlp/export-dlppolicycollection?view=exchange-ps) 중 하나를 사용하십시오.
     
-하지만 DLP 보고서에서는 Exchange Online을 포함한 Office 365에서 데이터를 가져와야 합니다. 이러한 이유로 **DLP 보고서용 cmdlet은 보안 &amp; 준수 센터 Powershell이 아닌 Exchange Online Powershell에서 사용할 수 있습니다.** 따라서 DLP 보고서용 cmdlet을 사용하려면 다음의 단계가 필요합니다:
+하지만 DLP 보고서에서는 Exchange Online을 포함한 Microsoft 365에서 데이터를 가져와야 합니다. 이러한 이유로 **DLP 보고서용 cmdlet은 보안 &amp; 준수 센터 Powershell이 아닌 Exchange Online Powershell에서 사용할 수 있습니다.** 따라서 DLP 보고서용 cmdlet을 사용하려면 다음의 단계가 필요합니다:
   
 1. [원격 PowerShell을 사용하여 Exchange Online에 연결](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps)
     
@@ -544,4 +544,3 @@ DLP 정책을 만드는 규정 준수 팀의 구성원에게는 보안 &amp; 준
 - [DLP 기능이 찾는 항목](what-the-dlp-functions-look-for.md)
     
 - [사용자 지정 중요한 정보 유형 만들기](create-a-custom-sensitive-information-type.md)
-    

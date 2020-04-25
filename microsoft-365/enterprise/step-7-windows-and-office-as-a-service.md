@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 사용자 환경에서 Windows 및 Office Servicing을 준비하는 방법을 알아봅니다.
-ms.openlocfilehash: d47abca74f7fea4c49f9aa28a93cd4afe40a0981
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 422cbd4fd8310a9bc63696c0ea6e9da858c51230
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42085185"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43636738"
 ---
 # <a name="step-7-windows-and-office-servicing"></a>7단계: Windows 및 Office Servicing
 
@@ -30,7 +30,7 @@ ms.locfileid: "42085185"
 <thead>
 <td><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-10.png" alt="Step 7" height="144" width="144" /></td>
 <td><p><strong>7단계: Windows 및 Office Servicing</strong></p>
-<p>Windows 10 및 Office 365 ProPlus는 사용자 환경 및 보안을 최신 혁신 상태로 유지하기 위해 지속적으로 새 기능을 추가하고 있습니다. 반기 및 월별 업데이트를 통해 최신 상태를 유지하는 방법, 새 서비스 모델이 작동하는 방식 및 보유하고 있는 도구와 옵션에 대해 알아봅니다.</p></td>
+<p>Windows 10 및 엔터프라이즈용 Microsoft 365 앱은 사용자 환경 및 보안을 최신 혁신 상태로 유지하기 위해 지속적으로 새 기능을 추가하고 있습니다. 반기 및 월별 업데이트를 통해 최신 상태를 유지하는 방법, 새 서비스 모델이 작동하는 방식 및 보유하고 있는 도구와 옵션에 대해 알아봅니다.</p></td>
 <td><a href="https://aka.ms/ddev7" target="_blank"><img src="../media/desktop-deployment-center-home-media/desktop-deployment-center-home-media-20.png" alt="Step 7" height="130" width="231" /></a></td>
 </thead>
 </table>
@@ -39,9 +39,9 @@ ms.locfileid: "42085185"
 >Windows 및 Office as a Service는 기능에 대한 반기 업데이트를 준비하는 계획 과정을 포함하는 권장 배포 프로세스 사이클의 7번째 단계입니다. 전체 데스크톱 배포 프로세스를 보려면 [데스크톱 배포 센터](https://aka.ms/HowToShift)를 방문하세요.
 >
 
-Windows 10 및 Office 365 ProPlus 둘 다 새로운 서비스 옵션, 지원 모델 및 업데이트 타임라인을 도입합니다. 이러한 변화를 통해 보다 간편하게 항상 최신 기능 상태를 유지할 수 있습니다. 이러한 업데이트와 함께, 사용자 요구를 충족하는 서비스 계획을 설정할 수 있는 새로운 구성 옵션도 제공됩니다. Microsoft Endpoint Configuration Manager(현재 분기)의 새 기능을 활용하면서 Windows 10 및 Office 365 ProPlus의 새 기능을 제공하는 반기 채널 업데이트를 준비하는 방법을 알아봅니다.
+Windows 10 및 엔터프라이즈용 Microsoft 365 앱 모두 새로운 서비스 옵션, 지원 모델 및 업데이트 타임라인을 도입합니다. 이러한 변화를 통해 보다 간편하게 항상 최신 기능 상태를 유지할 수 있습니다. 이러한 업데이트와 함께, 사용자 요구를 충족하는 서비스 계획을 설정할 수 있는 새로운 구성 옵션도 제공됩니다. Microsoft Endpoint Configuration Manager(현재 분기)의 새 기능을 활용하면서 Windows 10 및 엔터프라이즈용 Microsoft 365 앱의 새 기능을 제공하는 반기 채널 업데이트를 준비하는 방법을 알아봅니다.
 
-[Windows 10 및 Office 365 ProPlus로의 고객 전환 진원](https://www.microsoft.com/microsoft-365/blog/2018/09/06/helping-customers-shift-to-a-modern-desktop/)
+[Windows 10 및 엔터프라이즈용 Microsoft 365 앱으로 전환하는 고객 지원](https://www.microsoft.com/microsoft-365/blog/2018/09/06/helping-customers-shift-to-a-modern-desktop/)
 
 ## <a name="update-types"></a>업데이트 유형
 
@@ -75,7 +75,7 @@ Windows 10 및 Office 365 ProPlus 둘 다 새로운 서비스 옵션, 지원 모
 
 또 다른 장점은 광범위한 배포를 위해 업데이트를 롤아웃하기 전에 먼저 [Office](https://products.office.com/office-insider?tab=Windows-Desktop) 및 [Windows](https://insider.windows.com/)용 참가자 프로그램을 통해 빌드를 릴리스한다는 것입니다. 이를 통해 업데이트를 광범위하게 릴리스하기 전에 진단 데이터 및 사용자 의견을 수집할 수 있습니다. 이제 참가자 프로그램은 모든 사용자에게 열려 있으므로 사용자들은 업데이트를 먼저 이해할 수 있습니다. 업데이트를 릴리스할 때 수백만 가지 구성의 진단 데이터를 받아 보게 되므로 업데이트를 롤아웃할 때는 보다 안정적인 품질 수준에 도달할 수 있게 됩니다.
 
-아울러, Office 365 ProPlus 참가자 빌드는 월별 채널 업데이트를 반영하기 때문에 Office의 반기 채널을 사용하여 Windows에 맞춰 1년에 2번 기능 업데이트를 전달할 경우, 반기 채널 대상 릴리스를 사용할 때처럼 해당 빌드도 조기에 유효성을 검사할 수 있습니다.
+아울러, 엔터프라이즈용 Microsoft 365 앱 참가자 빌드는 월별 채널 업데이트를 반영하기 때문에 Office의 반기 채널을 사용하여 Windows에 맞춰 1년에 2번 기능 업데이트를 전달할 경우, 반기 채널 대상 릴리스를 사용할 때처럼 해당 빌드도 조기에 유효성을 검사할 수 있습니다.
 
 ### <a name="supporting-management-tools"></a>관리 도구 지원
 
@@ -83,7 +83,7 @@ Windows 10 및 Office 365 ProPlus 둘 다 새로운 서비스 옵션, 지원 모
 
 [Configuration Manager를 사용하여 Windows 10 업데이트 배포](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-configuration-manager)
 
-[Configuration Manager를 사용하여 Office 365 ProPlus 관리](https://docs.microsoft.com/configmgr/sum/deploy-use/manage-office-365-proplus-updates)
+[Configuration Manager를 사용하여 엔터프라이즈용 Microsoft 365 앱 관리](https://docs.microsoft.com/configmgr/sum/deploy-use/manage-office-365-proplus-updates)
 
 ## <a name="overview-of-windows-and-office-channels"></a>Windows 및 Office 채널 개요
 
@@ -93,7 +93,7 @@ Windows 10은 다음의 3가지 서비스 채널을 제공합니다.
 - **반기 채널**: 연 2회 기능 업데이트 릴리스를 통해 새 기능을 제공합니다.
 - **장기 서비스 채널**: 장기 서비스 옵션이 필요한 특수 디바이스에만 사용됩니다.
 
-Office 365는 다음과 같은 4가지 서비스 채널을 제공합니다.
+Microsoft 365는 다음과 같은 4가지 서비스 채널을 제공합니다.
 
 - [**Office 참가자 프로그램**](https://support.office.com/article/What-is-Office-Insider-f4208185-b63a-4b68-9c7a-9a32d2411c16): 조직에서 최신 Office 기능과 아직 개발 중인 기능을 테스트하고 의견을 제공할 수 있습니다.
 - **월별 채널**: Office의 최신 기능이 사용 가능해지는 즉시 사용자에게 제공됩니다.
@@ -103,11 +103,11 @@ Office 365는 다음과 같은 4가지 서비스 채널을 제공합니다.
 Windows 및 Office 서비스 채널에 대한 자세한 내용은 아래 설명서를 검토하세요.
 
 - [Windows as a Service 개요](https://docs.microsoft.com/windows/deployment/update/waas-overview#servicing-channels)
-- [Office 365 ProPlus의 업데이트 채널 개요](https://docs.microsoft.com/DeployOffice/overview-of-update-channels-for-office-365-proplus#BKMK_SAC)
+- [엔터프라이즈용 Microsoft 365 앱의 업데이트 채널 개요](https://docs.microsoft.com/DeployOffice/overview-of-update-channels-for-office-365-proplus#BKMK_SAC)
 
 ## <a name="phased-deployment-of-updates"></a>단계별 업데이트 배포
 
-이제 이러한 업데이트 배포를 롤아웃하는 방법을 살펴보겠습니다. 모든 릴리스에 대해, IT 부서에 3개 이상의 배포 작업 단계, 즉 유효성 검사, 파일럿 및 브로드 프로덕션 배포를 권장합니다. 일단 Windows 10 및 Office 365 ProPlus에서 시작 및 실행될 경우 월별 서비스를 사용하여 중요한 보안 및 품질 업데이트로 최신 상태를 유지한 다음, 새 기능에 대한 반기 서비스로 전환합니다.
+이제 이러한 업데이트 배포를 롤아웃하는 방법을 살펴보겠습니다. 모든 릴리스에 대해, IT 부서에 3개 이상의 배포 작업 단계, 즉 유효성 검사, 파일럿 및 브로드 프로덕션 배포를 권장합니다. 일단 Windows 10 및 엔터프라이즈용 Microsoft 365 앱에서 시작 및 실행될 경우 월별 서비스를 사용하여 중요한 보안 및 품질 업데이트로 최신 상태를 유지한 다음, 새 기능에 대한 반기 서비스로 전환합니다.
 
 ### <a name="monthly-updating"></a>월별 업데이트
 
@@ -125,7 +125,7 @@ Windows의 “빠른 업데이트”, Office의 이진 델타 압축이라는 �
 
 #### <a name="binary-delta-compression"></a>2진 델타 압축은
 
-Office의 이진 델타 압축은 가장 최근의 Office 365 ProPlus 버전에서 업데이트하는 경우에만 사용됩니다. 따라서 이 방법을 사용하려면 이전 빌드에서 업데이트해야 하며 업데이트를 건너뛸 수 없습니다.
+Office의 이진 델타 압축은 가장 최근의 엔터프라이즈용 Microsoft 365 앱 버전에서 업데이트하는 경우에만 사용됩니다. 따라서 이 방법을 사용하려면 이전 빌드에서 업데이트해야 하며 업데이트를 건너뛸 수 없습니다.
 
 Windows 및 Office 업데이트 채널은 Configuration Manager를 통해 표준 승인 및 타기팅 프로세스를 사용하여 관리할 수 있습니다. 또한 Office 및 Windows의 정책 설정을 사용하여 관련 설정 뿐만 아니라 사용되는 업데이트 채널을 적용할 수 있습니다.
 
@@ -141,7 +141,7 @@ Windows 및 Office 업데이트 채널은 Configuration Manager를 통해 표준
 
 [Windows 반기 채널](https://docs.microsoft.com/windows/deployment/update/waas-overview#semi-annual-channel)
 
-[Office 365 ProPlus에 대한 반기 채널](https://docs.microsoft.com/DeployOffice/overview-of-update-channels-for-office-365-proplus#BKMK_SAC)
+[엔터프라이즈용 Microsoft 365 앱에 대한 반기 채널](https://docs.microsoft.com/DeployOffice/overview-of-update-channels-for-office-365-proplus#BKMK_SAC)
 
 #### <a name="upgrade-task-sequences"></a>업그레이드 작업 시퀀스
 
@@ -165,7 +165,7 @@ Windows 7 컴퓨터를 Windows 10으로 마이그레이션하는 작업 시퀀�
 
   - 3월에 예정되어 있고 1903에서 시작되는 향후 기능 업데이트는 릴리스 날로부터 18개월 동안 계속 지원됩니다.
 
-  - Office 365 ProPlus 반기 업데이트는 18개월 동안 계속 지원됨
+  - 엔터프라이즈용 Microsoft 365 앱 반기 업데이트는 18개월 동안 계속 지원됨
 
 #### <a name="additional-setup-automation-options-outside-of-task-sequences"></a>작업 시퀀스 외부의 추가 설치 자동화 옵션
 
@@ -175,8 +175,8 @@ Windows 7 컴퓨터를 Windows 10으로 마이그레이션하는 작업 시퀀�
 
 ## <a name="next-step"></a>다음 단계 
 
-## <a name="step-8-user-communications-and-traininghttpsakamsmdd8"></a>[8단계: 사용자 커뮤니케이션 및 교육](https://aka.ms/mdd8)
+## <a name="step-8-user-communications-and-training"></a>[8단계: 사용자 커뮤니케이션 및 교육](https://aka.ms/mdd8)
 
 ## <a name="previous-step"></a>이전 단계 
 
-## <a name="step-6-os-deployment-and-feature-updateshttpsakamsmdd6"></a>[6단계: 운영 체제 배포 및 기능 업데이트](https://aka.ms/mdd6)
+## <a name="step-6-os-deployment-and-feature-updates"></a>[6단계: 운영 체제 배포 및 기능 업데이트](https://aka.ms/mdd6)

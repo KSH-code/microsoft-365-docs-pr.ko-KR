@@ -18,12 +18,12 @@ localization_priority: Priority
 search.appverid:
 - MET150
 description: GDPR에 대한 Office 365 정보 보호 개요를 확인합니다. 개인 데이터를 검색, 분류, 보호 및 모니터링하는 방법을 알아봅니다.
-ms.openlocfilehash: dbb420cce572b2e03260f9f5b1be63e65504276b
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: b838ae96c8b93dced8b4da898ed04effc0586463
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42071178"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43637222"
 ---
 # <a name="overview-of-office-365-information-protection-for-gdpr"></a>GDPR에 대한 Office 365 정보 보호 개요
 
@@ -103,4 +103,4 @@ Office 365 및 기타 클라우드 서비스에 대한 액세스 보호에는 �
 
 ### <a name="step-5--monitor-for-leaks-of-personal-data"></a>5단계 - 개인 데이터 누수 모니터링
 
-Office 365 데이터 손실 방지 보고서는 중요한 데이터의 모니터링 결과를 가장 자세히 제공합니다. Office 365 감사 로그를 사용하여 자동화된 경고를 설정하고 위반을 조사할 수 있습니다. Cloud App Security는 확인하여 모니터링하는 중요한 데이터 범위를 다른 SaaS 공급자로 확장합니다. 이러한 도구에 대한 자세한 내용은 [개인 데이터 침해 모니터링](/security/office-365-security/monitor-for-leaks-of-personal-data.md)을 참조하세요.
+Office 365 데이터 손실 방지 보고서는 중요한 데이터의 모니터링 결과를 가장 자세히 제공합니다. 감사 로그를 사용하여 자동화된 경고를 설정하고 위반을 조사할 수 있습니다. Cloud App Security는 확인하여 모니터링하는 중요한 데이터 범위를 다른 SaaS 공급자로 확장합니다. 이러한 도구에 대한 자세한 내용은 [개인 데이터 침해 모니터링](/security/office-365-security/monitor-for-leaks-of-personal-data.md)을 참조하세요.
