@@ -17,19 +17,21 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 8b8976f07f88afa184eb292b0cdc1d6e36a44d77
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 8767174fa17aceab7d83adb96f938efad5074356
+ms.sourcegitcommit: 1e9ce51efa583c33625299d17e37f58048a4169c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43615921"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "43804768"
 ---
 # <a name="microsoft-secure-score-preview"></a>Microsoft 보안 점수 (미리 보기)
 
 >[!IMPORTANT]
 >일부 정보는 상업적으로 출시 되기 전에 크게 수정 될 수 있는 prereleased 제품과 관련 되어 있습니다. Microsoft makes no warranties, express or implied, with respect to the information provided here.
 
-Microsoft 보안 점수는 조직의 보안 상태를 측정 한 값으로, 더 많은 향상 작업이 수행 되었음을 나타냅니다. 보안 점수 권장 사항을 따르면 위협 으로부터 조직을 보호할 수 있습니다. Microsoft 365 보안 센터의 중앙 집중식 대시보드를 통해 조직은 Microsoft 365 id, 데이터, 앱, 장치 및 인프라의 보안을 모니터링 하 고 작업할 수 있습니다.
+Microsoft 보안 점수는 조직의 보안 상태를 측정 한 값으로, 더 많은 향상 작업이 수행 되었음을 나타냅니다. 이 도구는 Microsoft 365 https://security.microsoft.com/securescore 보안 센터에서 찾을 수 있습니다.
+
+보안 점수 권장 사항을 따르면 위협 으로부터 조직을 보호할 수 있습니다. Microsoft 365 보안 센터의 중앙 집중식 대시보드를 통해 조직은 Microsoft 365 id, 데이터, 앱, 장치 및 인프라의 보안을 모니터링 하 고 작업할 수 있습니다.
 
 보안 점수가 조직에 도움이 됩니다.  
 
@@ -41,7 +43,7 @@ Microsoft 보안 점수는 조직의 보안 상태를 측정 한 값으로, 더 
 
 또한 [Microsoft GRAPH API](https://www.microsoft.com/security/partnerships/graph-security-api)를 통해 권장 사항 및 점수에 액세스할 수 있습니다. [보안 점수 리소스 종류](https://go.microsoft.com/fwlink/?linkid=2092996)에 대해 자세히 알아봅니다.
 
-## <a name="how-it-works"></a>작업 방법
+## <a name="how-it-works"></a>작동 방식
 
 권장 되는 보안 기능을 구성 하 고, 보안 관련 작업을 수행 하거나, 타사 응용 프로그램 또는 소프트웨어를 사용 하 여 개선 작업을 처리 하기 위한 사항이 제공 됩니다. 일부 향상 작업은 완전히 완료 된 경우에만 점수를 제공 하며 일부 장치 또는 사용자에 대해 완료 되 면 일부를 부분 포인트로 지정 합니다. 개선 작업 중 하나를 규정 하지 않으려는 경우 위험 또는 남은 위험을 수락 하도록 선택할 수 있습니다.
 
@@ -154,9 +156,34 @@ Microsoft 보안 점수는 시스템 구성, 사용자 동작 및 기타 보안 
 
 ## <a name="whats-new"></a>어떠한 새로운 기능이 있나요? 
 
-Microsoft 보안 점수가 보안 상태를 보다 효율적으로 대표 하도록 하기 위해 몇 가지 사항을 변경 했습니다. 계획 된 변경 사항에 대 한 자세한 내용은 [Microsoft 보안 점수에서](microsoft-secure-score-whats-coming.md) 제공 되는 기능을 참조 하세요.
+Microsoft 보안 점수가 보안 상태를 보다 효율적으로 대표 하도록 하기 위해 몇 가지 사항을 변경 했습니다. 계획 된 변경 사항에 대 한 자세한 내용은 [Microsoft 보안 점수에서](microsoft-secure-score-whats-coming.md)제공 되는 기능을 참조 하세요.
 
-### <a name="updated-interface-and-functionality"></a>업데이트 된 인터페이스 및 기능
+### <a name="april-21st-2020"></a>4 월 21 일 2020
+
+#### <a name="added-azure-active-directory-improvement-action"></a>Azure Active Directory 개선 작업 추가 됨
+
+- 사용자가 관리 되지 않는 응용 프로그램에 동의 하도록 허용 하지 않습니다 (현재 릴리스된 버전에서 사용 가능).
+
+#### <a name="added-azure-advanced-threat-protection-improvement-actions"></a>Azure Advanced Threat Protection 개선 작업 추가
+
+- 도메인 컨트롤러에서 인쇄 스풀러 서비스 사용 안 함
+- 가장을 방지 하도록 보안 되지 않은 Kerberos 위임 수정
+- Microsoft 랩를 사용 하 여 로컬 관리자 암호 보호 및 관리
+- 중요 한 엔터티에 대 한 측면 이동 경로 위험 감소
+- 중요 한 그룹에서 유휴 계정 제거
+- 엔터티에서 보안 되지 않은 SID 기록 특성 제거
+- 보안 되지 않은 계정 특성 확인
+- 일반 텍스트 자격 증명 노출 중지
+- 레거시 프로토콜 통신 중지
+- 약한 암호화 사용 중지
+
+#### <a name="support-for-microsoft-defender-atp-threat--vulnerability-management-tvm-security-recommendations"></a>TVM (Microsoft Defender ATP Threat &) 보안 권장 사항에 대 한 지원
+
+이제 TVM에서 제공 하는 모든 릴리스된 보안 권장 사항을 사용할 수 있습니다.
+
+### <a name="january---march-2020"></a>1 월-2020 년 3 월
+
+#### <a name="updated-interface-and-functionality"></a>업데이트 된 인터페이스 및 기능
 
 * CISO 팀장 수준 토론을 위한 모든 새 메트릭 및 추세 보기
 * 점수를 추적 하 고 벤치 마크 위한 새로운 방법
@@ -165,13 +192,13 @@ Microsoft 보안 점수가 보안 상태를 보다 효율적으로 대표 하도
 * 점수 예측 및 계획 된 작업을 사용 하 여 향후 목표를 향해 관리
 * 더 많은 내용을 확인해 보세요.
 
-### <a name="removed-not-scored-and-review-improvement-actions"></a>"점수가 매겨지지 않음" 및 "검토" 개선 작업
+#### <a name="removed-not-scored-and-review-improvement-actions"></a>"점수가 매겨지지 않음" 및 "검토" 개선 작업
 
 보안 점수 원칙 중 하나는 점수가 표준화 되 고 간편 하 게 관련 되어야 한다는 것입니다. 기능을 사용할 수 없거나 작업을 수행 하는 향상 된 기능으로 인해 혼동이 발생 했습니다. 한 Microsoft 보안 점수는 모든 권장 사항이 점수에 분명 하 게 영향을 미칠 수 있는 경우에만 의미가 있습니다. 점수가 매겨지지 않음 개선 조치를 수행할 수 없으며, 향상 된 개선 작업을 다른 개선 작업과 동일한 표준으로 측정 하지 않습니다.
 
 이러한 이유로 검토 흐름에 대해 점수가 매겨지지 않거나 필요한 모든 개선 작업이 일시적으로 제거 되었습니다. 해당 부분에 대 한 작업이 필요 하지 않습니다.
 
-### <a name="simplification-of-the-point-system"></a>지점 시스템 간소화
+#### <a name="simplification-of-the-point-system"></a>지점 시스템 간소화
 
 여러 환경에서 점수를 표준화 하기 위해 각 보안 점수 향상 동작 지점 합계가 10 포인트이 하까지 업데이트 되었습니다. 현재와 미래에 추가 될 수 있는 보안 컨트롤의 광범위 한 breather에서 더 일관 된 기능을 제공 해야 합니다. 이 변경 내용이 중요 하 여 저장 지점 합계가 변경 되는 동안에는 보안 환경을 변경할 필요가 없습니다.
 

@@ -14,12 +14,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: 이제 팀이 클릭 시에 안전한 링크에 액세스할 수 있습니다. Office 365 ATP에 대 한 구독을 갖고 있는 경우에는 채팅 1-설정 채팅, 그룹 간 또는 채널에서 탭을 사용 하는 경우에 관계 없이이 보안 기능을 사용 하도록 설정 하 고 사용할 수 있습니다.
-ms.openlocfilehash: 88fe9756188eb16a2347d3c0cd4a98b4003ff457
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 07f20f0adf503e4592d2bd3f3bc9857d08a1e433
+ms.sourcegitcommit: 481fb95d8b80cf2102a9c73b21e7effa79e594e7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636001"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "43808998"
 ---
 <!--06/21/2019-->
 
@@ -28,7 +28,7 @@ ms.locfileid: "43636001"
 > [!IMPORTANT]
 > 이 기능은 Microsoft 팀 기술 채택 프로그램의 고객을 위한 **공개 미리 보기** , 2020 년 2 월 28 일 (탭핑)에 있습니다. 이 메모는 팀에 대 한 안전한 링크를 보다 광범위 하 게 사용할 수 있는 경우 문서에서 제거 됩니다.
 
-Microsoft 팀에서 작업을 관리 하는 Microsoft 클라우드 기반 응용 프로그램에서 이미 안전한 첨부 파일 (Office 365)을 사용 하 고 있지만 이제 사용자가 클릭 하는 시점에 안전한 링크에 액세스할 수 있습니다. Office 365 ATP에 대 한 구독을 갖고 있는 경우에는 채팅 1-1 채팅, 그룹 간 또는 채널에서 탭을 사용 하 고 있는지 여부에 상관 없이이 안전 측정값을 사용 하도록 설정 하 고 사용할 수 있습니다.
+Microsoft 팀에서 작업을 관리 하는 Microsoft 클라우드 기반 응용 프로그램에서 이미 안전한 첨부 파일 (Office 365)을 사용 하 고 있지만 이제 사용자가 클릭 하는 시점에 안전한 링크에 액세스할 수 있습니다. 채팅, 그룹 채팅, 채널 또는 탭 사용 여부에 관계 없이 Office 365 ATP에 대 한 구독이 있는 경우이 안전 측정값을 사용 하도록 설정 하 고 사용할 수 있습니다. 라이선스 요구 사항에 대한 자세한 내용은 [Microsoft 365 테넌트 수준 서비스 라이선스 지침](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance)을 참고하십시오.
 
 작동 방식은 다음과 같습니다. 
 
@@ -51,5 +51,4 @@ Microsoft 팀에서 작업을 관리 하는 Microsoft 클라우드 기반 응용
 팀에서이 페이지의 *뒤로 이동* 단추를 클릭 하면 종료 됩니다 (또는 빈 페이지 사용자가 종료 될 수 있음). 그러나 링크를 다시 클릭 하면 해당 사이트의 신뢰도가 reassessment이 페이지도 나타납니다.
 
 > [!NOTE]
->일부 Microsoft 365 관리자는 차단 페이지에서 **계속 진행** 메시지를 사용 하도록 설정 합니다. 그러나 안전한 링크를 통해 사이트의 신뢰도를 측정 하 여 찾은 경우 더 이상 클릭 하지 않아야 합니다. 사용자가 안전 조치를 우회 하지 않는 것이 좋습니다. 계속을 사용 하도록 설정 하기 전에 다음 사항을 고려 하십시오. 
-
+> 일부 Microsoft 365 관리자는 차단 페이지에서 **계속 진행** 메시지를 사용 하도록 설정 합니다. 그러나 안전한 링크를 통해 사이트의 신뢰도를 측정 하 여 찾은 경우 더 이상 클릭 하지 않아야 합니다. 사용자가 안전 조치를 우회 하지 않는 것이 좋습니다. 계속을 사용 하도록 설정 하기 전에 다음 사항을 고려 하십시오. 

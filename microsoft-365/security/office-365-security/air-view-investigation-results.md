@@ -15,12 +15,12 @@ search.appverid:
 - MOE150
 ms.collection: M365-security-compliance
 description: Microsoft 365에서 자동화 된 조사가 진행 되는 동안과 후에는 결과 및 주요 발견 사항을 볼 수 있습니다.
-ms.openlocfilehash: e0ecea63260fae474973b39e7069029a2ec93dcb
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: b109c3e8a8dc92f2aaf91e40e620da8f1574af6f
+ms.sourcegitcommit: 1e9ce51efa583c33625299d17e37f58048a4169c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634631"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "43804874"
 ---
 # <a name="details-and-results-of-an-automated-investigation-in-microsoft-365"></a>Microsoft 365의 자동화 된 조사에 대 한 세부 정보 및 결과
 
@@ -40,7 +40,7 @@ ms.locfileid: "43634631"
 |보류 중인 작업 | 조사 결과 악성 전자 메일, 악의적인 URL 또는 위험한 사서함 설정과 같은 위협을 발견 하 고 해당 위협이 [승인을](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-review-approve-pending-completed-actions)기다리는 작업을 수정 합니다.<br/><br/>해당 하는 작업을 수행 하는 모든 위협이 발견 되 면 보류 중인 작업 상태가 트리거됩니다. 그러나 조사가 실행 됨에 따라 보류 중인 작업의 목록이 늘어날 수 있습니다. [조사 로그](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-view-investigation-results#playbook-log) 를 확인 하 여 다른 항목의 완료가 아직 보류 중인지 확인 합니다. |
 |수정 | 조사가 완료 되 고 모든 작업이 승인 (완전히 재구성 됨) 되었습니다.<br/><br/>**참고**: 승인 된 재구성 작업은 작업이 수행 되지 않도록 하는 오류를 포함할 수 있습니다. 재구성 작업이 성공적으로 완료 되었는지 여부에 관계 없이 조사 상태는 변경 되지 않습니다. 자세한 결과는 [조사 로그](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-view-investigation-results) 를 확인 하십시오. |
 |부분 재구성 | 조사 결과 재구성 작업이 수행 되 고 일부는 승인 및 완료 된 것입니다. 다른 작업은 여전히 [보류 중](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-review-approve-pending-completed-actions)입니다. |
-|Failed | 하나 이상의 조사 분석기에서 제대로 완료 되지 못한 문제가 발생 했습니다. <br/><br/>**참고**: 재구성 작업이 승인 된 후 조사가 실패 하면 재구성 작업은 여전히 성공적으로 수행 된 것입니다. 자세한 결과는 [조사 로그](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-view-investigation-results) 를 확인 하십시오. |
+|실패 | 하나 이상의 조사 분석기에서 제대로 완료 되지 못한 문제가 발생 했습니다. <br/><br/>**참고**: 재구성 작업이 승인 된 후 조사가 실패 하면 재구성 작업은 여전히 성공적으로 수행 된 것입니다. 자세한 결과는 [조사 로그](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-view-investigation-results) 를 확인 하십시오. |
 |제한에 의해 대기 | 조사가 큐에 보관 됩니다. 다른 조사가 완료 되 면 대기 중인 조사가 시작 됩니다. 제한을 사용 하면 서비스 성능이 저하 되는 것을 방지할 수 있습니다. <br/><br/>**팁**: 보류 중인 작업은 새로 실행할 수 있는 조사 횟수를 제한할 수 있습니다. [보류 중인 작업을 승인 하거나 거부](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-review-approve-pending-completed-actions#approve-or-reject-pending-actions)해야 합니다. |
 |제한에 의해 종료 됨 | 큐에 너무 오래 된 조사가 대기 중인 경우 중지 됩니다. <br/><br/>**팁**: [위협 탐색기에서 조사를 시작할](https://docs.microsoft.com/microsoft-365/security/office-365-security/automated-investigation-response-office#example-a-security-administrator-triggers-an-investigation-from-threat-explorer)수 있습니다. |
 
@@ -250,6 +250,6 @@ ms.locfileid: "43634631"
 
 ## <a name="next-steps"></a>다음 단계
 
-- [보류 중인 작업 검토 및 승인](https://review.docs.microsoft.com/microsoft-365/security/office-365-security/air-review-approve-pending-completed-actions)
+- [보류 중인 작업 검토 및 승인](https://docs.microsoft.com/microsoft-365/security/office-365-security/air-review-approve-pending-completed-actions?view=o365-worldwide#approve-or-reject-pending-actions)
 
 - [Microsoft Threat Protection의 자동화 된 조사 및 응답에 대해 자세히 알아보기](https://docs.microsoft.com/microsoft-365/security/mtp/mtp-autoir)

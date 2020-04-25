@@ -17,14 +17,14 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: c15f0b30dbf377da4e01ba199852f02bd7a003ff
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 56c3187999d34ac6d84c1b3857053f82bb40b2a9
+ms.sourcegitcommit: 1e9ce51efa583c33625299d17e37f58048a4169c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637107"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "43804761"
 ---
-# <a name="microsoft-secure-score"></a>Microsoft Secure Score
+# <a name="microsoft-secure-score"></a>Microsoft 보안 점수
 
 Microsoft 보안 점수는 조직의 보안 상태를 측정 한 값으로, 더 많은 향상 작업이 수행 되었음을 나타냅니다. 보안 점수 권장 사항을 따르면 위협 으로부터 조직을 보호할 수 있습니다. Microsoft 365 보안 센터의 중앙 집중식 대시보드를 통해 조직은 Microsoft 365 id, 데이터, 앱, 장치 및 인프라의 보안을 모니터링 하 고 작업할 수 있습니다.
 
@@ -38,7 +38,7 @@ Microsoft 보안 점수는 조직의 보안 상태를 측정 한 값으로, 더 
 
 또한 [Microsoft GRAPH API](https://www.microsoft.com/security/partnerships/graph-security-api)를 통해 권장 사항 및 점수에 액세스할 수 있습니다. [보안 점수 리소스 종류](https://go.microsoft.com/fwlink/?linkid=2092996)에 대해 자세히 알아봅니다.
 
-## <a name="how-it-works"></a>작업 방법
+## <a name="how-it-works"></a>작동 방식
 
 권장 되는 보안 기능을 구성 하 고, 보고서 보기와 같은 보안 관련 작업을 수행 하거나, 타사 응용 프로그램 또는 소프트웨어를 사용 하 여 개선 작업을 처리 하기 위한 사항이 제공 됩니다. 일부 향상 작업은 완전히 완료 된 경우에만 점수를 제공 하며 일부 장치 또는 사용자에 대해 완료 되 면 일부를 부분 포인트로 지정 합니다.
 
@@ -120,9 +120,7 @@ Microsoft 보안 점수에 의해 [점수 없음] 레이블이 지정 된 작업
 
 3. 위험을 수락 하 고 개선 작업을 규정 하지 않기로 결정 했으므로 **무시** 를 선택 합니다. 개선 작업을 무시 하 고 나면 최대 보안 점수 점수가 감소 합니다. 언제 든 지 기록에서이 작업을 보거나 실행 취소할 수 있습니다.
 
-4. 향상 작업을 수행 하려면 환경의 일부를 정기적으로 검토 하 여 점수를 얻고 유지 해야 하므로 **검토** 를 선택 합니다. 예를 들어 사서함 전달 규칙을 매주 검토 하 여 데이터가 네트워크에서 노출 되었습니다 되 고 있지 않은지 확인 해야 합니다. 변경할 필요는 없지만 작업을 수행 해야 합니다. 정기적으로 규칙을 검토 하면 점수를 받게 됩니다. 그렇지 않으면 점수가 감소 합니다.
-
-![보안 점수 향상 작업 예제](../../media/secure-score/secure-score1x450.png) ![보안 점수 검토 개선 작업 예제](../../media/secure-score/secure-score2x450.png)
+![보안 점수 향상 작업 예제](../../media/secure-score/secure-score1x450.png)
 
 *그림 2 & 3: 향상 작업 flyouts*
 
@@ -137,6 +135,15 @@ Microsoft 보안 점수는 시스템 구성, 사용자 동작 및 기타 보안 
 ## <a name="whats-new"></a>어떠한 새로운 기능이 있나요?
 
 Microsoft 보안 점수를 보안 상태를 보다 효율적으로 구성 하려면 몇 가지 사항을 변경 해야 합니다. 계획 된 변경 사항에 대 한 자세한 내용은 [Microsoft 보안 점수에서](microsoft-secure-score-whats-coming.md) 제공 되는 기능을 참조 하세요.
+
+### <a name="april-21st-2020"></a>4 월 21 일 2020
+
+#### <a name="removing-improvement-actions-that-dont-meet-expectations-for-reliable-measurement-or-dont-provide-a-useful-representation-of-security-posture"></a>신뢰할 수 있는 측정에 대 한 기대치를 충족 하지 않는 개선 작업을 제거 하거나 보안 환경을 효과적으로 표현 하지 않습니다.
+
+Microsoft 보안 점수가 의미 있고 모든 개선 조치를 측정할 수 있으며 안정성을 유지 하려면 다음과 같은 개선 작업을 제거 합니다.
+
+- 문서에 IRM 보호 적용
+- 데이터 손실 방지 정책 적용
 
 ### <a name="january---march-2020"></a>1 월-2020 년 3 월
 

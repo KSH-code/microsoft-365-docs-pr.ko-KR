@@ -16,12 +16,12 @@ localization_priority: Normal
 search.appverid:
 - MET150
 description: Office 365에서 불법 동의 권한 부여 공격을 인식하고 교정하는 방법에 대해 알아보세요.
-ms.openlocfilehash: 43ce8de2826006069b815a37208fe2a3834bf313
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 49fbbc1ea687cb5c01b39045a7359ee131a6732a
+ms.sourcegitcommit: 481fb95d8b80cf2102a9c73b21e7effa79e594e7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637607"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "43808971"
 ---
 # <a name="detect-and-remediate-illicit-consent-grants"></a>불법 동의 권한 부여 검색 및 재구성
 
@@ -48,17 +48,18 @@ ms.locfileid: "43637607"
 
 3. 검색 (모든 작업 및 모든 사용자)을 선택 하 고 필요한 경우 시작 날짜와 끝 날짜를 입력 한 다음 **검색**을 클릭 합니다. 
 
-4. 응용 프로그램에 대 한 동의에 대 한 결과를 필터링 하 고 OAuth2PermissionGrant를 추가 합니다.
+4. **결과 필터링** 을 클릭 하 고 **활동** 필드에 응용 프로그램에 대 한 동의를 입력 합니다.
 
 5. 결과를 클릭 하 여 활동의 세부 정보를 확인 합니다. **자세한 정보** 를 클릭 하면 활동에 대 한 세부 정보를 볼 수 있습니다. IsAdminContent가 True로 설정 되어 있는지 확인 하세요.
 
 > [!NOTE]
-> * 이벤트가 발생 한 후에는 해당 감사 로그 항목이 검색 결과에 표시 될 때까지 30 분에서 24 시간까지 소요 될 수 있습니다. <br/><br/> 감사 레코드가 보존 되 고 감사 로그에서 검색 가능한 기간은 Microsoft 365 구독에 따라 다르며, 특히 특정 사용자에 게 할당 된 라이선스의 유형입니다. 자세한 내용은 [감사 로그](../../compliance/search-the-audit-log-in-security-and-compliance.md)를 참조하세요.
-이 값이 true이면 전역 관리자 액세스 권한이 있는 사용자가 데이터에 대한 광범위한 액세스 권한을 부여할 수 있음을 나타냅니다. 예기치 않은 상황이라면 [공격을 확인](#how-to-confirm-an-attack)하는 단계를 수행하세요.
+> 이벤트가 발생 한 후에는 해당 감사 로그 항목이 검색 결과에 표시 될 때까지 30 분에서 24 시간까지 소요 될 수 있습니다. <br/><br/> 감사 레코드가 보존 되 고 감사 로그에서 검색 가능한 기간은 Microsoft 365 구독에 따라 다르며, 특히 특정 사용자에 게 할당 된 라이선스의 유형입니다. 자세한 내용은 [감사 로그](../../compliance/search-the-audit-log-in-security-and-compliance.md)를 참조하세요.
+> 
+> 이 값이 true이면 전역 관리자 액세스 권한이 있는 사용자가 데이터에 대한 광범위한 액세스 권한을 부여할 수 있음을 나타냅니다. 예기치 않은 상황이라면 [공격을 확인](#how-to-confirm-an-attack)하는 단계를 수행하세요.
 
 ## <a name="how-to-confirm-an-attack"></a>공격을 확인하는 방법
 
-위에 나와 있는 IOCs의 인스턴스가 하나 이상 있는 경우 공격이 발생했음을 확실하게 확인하도록 추가 조사를 수행해야 합니다. 다음의 세 가지 방법 중 하나를 사용하여 공격을 확인할 수 있습니다.
+위에 나와 있는 IOCs의 인스턴스가 하나 이상 있는 경우 공격이 발생했음을 확실하게 확인하도록 추가 조사를 수행해야 합니다. 이러한 세 가지 방법 중 하나를 사용 하 여 공격을 확인할 수 있습니다.
 
 - Azure Active Directory 포털을 사용하는 인벤터리 응용 프로그램과 해당 사용 권한 이 방법은 철저하지만 한번에 한 명의 사용자만 검사할 수 있어 검사할 사용자가 많은 경우에는 막대한 시간이 소요됩니다.
 
@@ -158,9 +159,9 @@ Azure Active Directory 포털이나 PowerShell을 사용하여 사용자를 위�
 
 - 테넌시에 통합 응용 프로그램을 해제할 수 있습니다. 이는 최종 사용자가 테넌트 전반에 대한 동의를 부여하는 기능을 해제하는 극단적인 단계입니다. 따라서 사용자가 실수로 악성 응용 프로그램에 액세스를 부여하는 것을 방지할 수 있습니다. 타사 응용 프로그램을 사용하여 생산성을 높일 수 있는 사용자 능력을 크게 손상시킬 수 있으므로 권장하지 않습니다. [통합 앱을 설정하거나 해제](https://docs.microsoft.com/office365/admin/misc/integrated-apps)하는 단계를 수행하여 이 작업을 수행할 수 있습니다.
 
-## <a name="secure-microsoft-365-like-a-cybersecurity-pro"></a>Cybersecurity pro와 같은 Microsoft 365 보안
+## <a name="secure-microsoft-365-like-a-cybersecurity-pro"></a>사이버 보안 프로그램과 같은 Microsoft 365 보안
 
-Microsoft 365 구독에는 데이터와 사용자를 보호 하는 데 사용할 수 있는 강력한 보안 기능 집합이 포함 되어 있습니다. Microsoft 365 테 넌 트를 보호 하기 위한 Microsoft 권장 모범 사례를 구현 하려면 [microsoft 365 보안 로드맵-처음 30 일, 90 일 및 그 이상에 해당 하는 주요 우선 순위](security-roadmap.md) 를 사용 합니다.
+Microsoft 365 구독에는 데이터 및 사용자를 보호하는 데 사용할 수 있는 강력한 보안 기능이 함께 제공됩니다. [Microsoft 365 보안 로드맵 - 최초 30일, 90일 및 그 이후의 최우선 순위](security-roadmap.md)를 사용하여 Microsoft에서 권장하는 Microsoft 365 테넌트 보안을 구현합니다.
 
 - 처음 30일 이내에 수행 할 작업 이러한 작업들은 즉각적인 영향을 미치며 사용자에게 영향을 미치지 않습니다.
 

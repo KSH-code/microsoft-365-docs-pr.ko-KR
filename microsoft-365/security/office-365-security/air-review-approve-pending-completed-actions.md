@@ -15,18 +15,19 @@ search.appverid:
 - MOE150
 ms.collection: M365-security-compliance
 description: Office 365 Advanced Threat Protection 계획 2의 자동화 된 조사 및 응답 기능의 수정 작업에 대해 알아봅니다.
-ms.openlocfilehash: d14b8827bd3c69461d832d66bb371b5d62d9802e
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: c44b0a535e6838258d3efa63010d7ccc63009af9
+ms.sourcegitcommit: 1e9ce51efa583c33625299d17e37f58048a4169c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634643"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "43804828"
 ---
 # <a name="view-pending-or-completed-remediation-actions-following-an-automated-investigation-in-office-365"></a>Office 365에서 자동화 된 조사에 따라 보류 중 또는 완료 된 재구성 작업 보기
 
-## <a name="approve-or-reject-pending-actions"></a>보류 중인 작업 승인 (또는 거부)
 
 ![AIR 조사 작업 페이지](../../media/air-investigationactionspage.png)
+
+## <a name="approve-or-reject-pending-actions"></a>보류 중인 작업 승인 (또는 거부)
 
 [조사 세부 정보](air-view-investigation-results.md)를 볼 때 보류 중인 모든 수정 작업을 승인 하거나 거부할 수 있습니다. 자동 조사가 완료 되도록 가능한 한 빨리이 작업을 수행 하는 것이 좋습니다.
 
@@ -44,8 +45,8 @@ ms.locfileid: "43634643"
 5. 목록에서 항목을 선택 합니다. 승인 및 거부 단추가 활성화 됩니다.
 
 6. 선택한 항목에 대해 사용 가능한 정보를 검토 하 고 작업을 승인 하거나 거부 합니다. 
- - **승인** 을 사용 하 여 업데이트를 시작할 수 있습니다.
- - **거부** 는 추가 작업을 수행 하지 않습니다.
+   - **승인** 을 사용 하 여 업데이트를 시작할 수 있습니다.
+   - **거부** 는 추가 작업을 수행 하지 않습니다.
 
 ## <a name="next-steps"></a>다음 단계
 

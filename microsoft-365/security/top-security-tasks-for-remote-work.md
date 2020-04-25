@@ -12,13 +12,13 @@ localization_priority: Normal
 ms.collection:
 - M365-security-compliance
 - remotework
-description: '랜 섬 웨어, 피싱 및 악의적 첨부 파일을 포함 하 여 사이버 위협 으로부터 비즈니스 전자 메일 및 데이터를 보호 합니다. '
-ms.openlocfilehash: 0730f4df4f6e9e72f024b35729909df309826625
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: 랜 섬 웨어, 피싱 및 악의적 첨부 파일을 포함 하 여 사이버 위협 으로부터 비즈니스 전자 메일 및 데이터를 보호 합니다.
+ms.openlocfilehash: f2d76fd92ac6d439fd6400a0478028c99ae935eb
+ms.sourcegitcommit: 481fb95d8b80cf2102a9c73b21e7effa79e594e7
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43630800"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "43808838"
 ---
 # <a name="top-12-tasks-for-security-teams-to-support-working-from-home"></a>집에서 작업을 지원 하기 위한 보안 팀을 위한 상위 12 개 작업
 
@@ -44,7 +44,7 @@ ms.locfileid: "43630800"
 |7      | [Intune 앱 보호를 포함 하 여 게스트에 대 한 MFA 및 조건부 액세스 구성](#7-configure-mfa-and-conditional-access-for-guests-including-intune-mobile-app-protection)  |    |  ![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)     | ![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)      | 
 |8       |  [Pc를 장치 관리에 등록 하 고 준수 Pc 필요](#8-enroll-pcs-into-device-management-and-require-compliant-pcs)   |  | ![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)        | ![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)        | 
 |9       | [클라우드 연결용 네트워크 최적화](#9-optimize-your-network-for-cloud-connectivity)  |  ![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png) |![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)      |![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)        | 
-|10    | [사용자 교육](#10-train-users) |    ![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png) |![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)      |![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)      | 
+|10     | [사용자 교육](#10-train-users) |    ![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png) |![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)      |![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)      | 
 |11  |[Microsoft Cloud App Security 시작](#11-get-started-with-microsoft-cloud-app-security) |![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)   |![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)   |![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)   |
 |12  |[위협 모니터링 및 작업 수행](#12-monitor-for-threats-and-take-action) |![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)   |![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)  |![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)  |
 | | | |
@@ -191,7 +191,7 @@ VPN 집중 장치, 중앙 네트워크 송신 장비 (예: 프록시 및 데이�
 
 ## <a name="10-train-users"></a>10: 사용자 교육
 
-사용자가 조직의 회사에서 위협 방지 기능에 대 한 정보를 모르는 경우에는 보호 기능을 사용 하 여 작업을 수행 하는 데 방해가 되거나 작업이 완료 되는 것을 방지할 수 있습니다. 또한 의심 스러운 전자 메일 메시지 또는 Url과 관련 하 여 조사 해야 하는 시간에 대 한 자세한 내용은 불확실 한 아티팩트를 여는 것이 훨씬 더 적습니다. 교육 사용자는 사용자 및 보안 운영 팀에 게 많은 시간과 노력을 절감할 수 있습니다.
+교육 사용자는 사용자 및 보안 운영 팀에 게 많은 시간과 노력을 절감할 수 있습니다. 숙련 된 사용자는 첨부 파일을 열거나 불확실 한 전자 메일 메시지의 링크를 클릭 하거나 의심 스러운 웹 사이트를 피하는 것이 더 쉽습니다. 
 
 Harvard Kennedy School [Cybersecurity 캠페인 안내서](https://go.microsoft.com/fwlink/?linkid=2015598&amp;clcid=0x409) 에서는 피싱 공격을 식별 하기 위한 교육 사용자를 포함 하 여 조직 내에서 보안을 보다 강력 하 게 인식 하는 방법을 제공 합니다. 
 
@@ -201,7 +201,7 @@ Microsoft 365에서는 조직에서 사용자에 게 알릴 수 있도록 다음
 |---------|---------|
 |Microsoft 365     |[사용자 지정 가능한 학습 경로](https://docs.microsoft.com/office365/customlearning/) <p>이러한 리소스를 통해 조직의 최종 사용자에 게 교육을 추가 하는 데 도움이 될 수 있습니다.        |
 |Microsoft 365 보안 |[학습 모듈: 기본 제공 되는 Microsoft 365의 지능형 보안을 사용 하 여 조직 보호](https://docs.microsoft.com/learn/modules/security-with-microsoft-365) <p>이 모듈을 사용 하 여 Microsoft 365 보안 기능이 함께 작동 하는 방식에 대해 설명 하 고 이러한 보안 기능의 이점을 구체화할 수 있습니다. |
-|Multi-Factor Authentication     | [2 단계 인증: 추가 확인 페이지 란?](https://docs.microsoft.com/azure/active-directory/user-help/multi-factor-authentication-end-user-first-time) <p>이 문서에서는 최종 사용자가 다단계 인증을 이해 하 고 조직에서이를 사용 하는 이유를 파악 하는 데 도움이 됩니다.    |
+|다단계 인증     | [2 단계 인증: 추가 확인 페이지 란?](https://docs.microsoft.com/azure/active-directory/user-help/multi-factor-authentication-end-user-first-time) <p>이 문서에서는 최종 사용자가 다단계 인증을 이해 하 고 조직에서이를 사용 하는 이유를 파악 하는 데 도움이 됩니다.    |
 | | |
 
 이 지침 외에도, 사용자가 [해커 및 맬웨어로부터 계정 및 장치를 보호](https://support.office.com/article/066d6216-a56b-4f90-9af3-b3a1e9a327d6.aspx)하는이 문서에서 설명 하는 작업을 수행 하는 것이 좋습니다. 이러한 작업은 다음과 같습니다.

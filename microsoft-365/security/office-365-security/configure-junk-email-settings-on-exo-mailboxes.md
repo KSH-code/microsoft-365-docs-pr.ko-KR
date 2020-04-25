@@ -16,12 +16,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: 관리자는 Exchange Online 사서함에서 정크 메일 설정을 구성 하는 방법을 알 수 있습니다. 이러한 설정 중 상당수는 Outlook 또는 웹용 Outlook에서 사용자에 게 제공 됩니다.
-ms.openlocfilehash: a18706c4bf63d9d96ba5e2f9bcbb803bddec36db
-ms.sourcegitcommit: 72e43b9bf85dbf8f5cf2040ea6a4750d6dc867c9
+ms.openlocfilehash: 55597c45f093a5b9a0b860c6987454f926025e28
+ms.sourcegitcommit: 1e9ce51efa583c33625299d17e37f58048a4169c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 04/24/2020
-ms.locfileid: "43800070"
+ms.locfileid: "43804785"
 ---
 # <a name="configure-junk-email-settings-on-exchange-online-mailboxes"></a>Exchange Online 사서함에 대한 정크 메일 설정 구성
 
@@ -54,7 +54,7 @@ Exchange Online의 조직 스팸 방지 설정은 EOP (Exchange Online Protectio
 ## <a name="use-exchange-online-powershell-to-enable-or-disable-the-junk-email-rule-in-a-mailbox"></a>Exchange Online PowerShell을 사용 하 여 사서함에서 정크 메일 규칙을 사용 하거나 사용 하지 않도록 설정
 
 > [!NOTE]
-> **Set-mailboxjunkemailconfiguration** cmdlet을 사용 하 여 Outlook (캐시 된 Exchange 모드) 또는 웹용 outlook에서 열린 사서함에 대해 정크 메일 규칙을 사용 하지 않도록 설정할 수 있습니다. 사서함이 열려 있지 않으면 다음 오류가 표시 됩니다. 대량 작업에 `The Junk Email configuration couldn't be set. The user needs to sign in to Outlook Web App before they can modify their Safe Senders and Recipients or Blocked Senders lists.` 대해이 오류를 표시 하지 않으려면 `-ErrorAction SlientlyContinue` **set-mailboxjunkemailconfiguration** 명령에 추가할 수 있습니다.
+> **Set-mailboxjunkemailconfiguration** cmdlet을 사용 하 여 Outlook (캐시 된 Exchange 모드) 또는 웹용 outlook에서 열린 사서함에 대해 정크 메일 규칙을 사용 하지 않도록 설정할 수 있습니다. 사서함이 열려 있지 않으면 다음 오류가 표시 됩니다. `The Junk Email configuration couldn't be set. The user needs to sign in to Outlook Web App before they can modify their Safe Senders and Recipients or Blocked Senders lists.` 대량 작업에 대해이 오류를 표시 하지 않으려면 `-ErrorAction SlientlyContinue` **set-mailboxjunkemailconfiguration** 명령에 추가할 수 있습니다.
 
 사서함에 대해 정크 메일 규칙을 사용 하거나 사용 하지 않도록 설정 하려면 다음 구문을 사용 합니다.
 
@@ -76,11 +76,11 @@ $All = Get-Mailbox -RecipientTypeDetails UserMailbox -ResultSize Unlimited; $All
 
 구문 및 매개 변수에 대 한 자세한 내용은 [set-mailboxjunkemailconfiguration](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/set-mailboxjunkemailconfiguration)를 참조 하십시오.
 
- **참고:**
-
-- 사용자가 자신의 사서함을 연 적이 없는 경우 이전 명령을 실행 하면 오류가 발생할 수 있습니다. 대량 작업에서이 오류가 발생 하지 않도록 설정 `-ErrorAction SlientlyContinue` 하려면 **set-mailboxjunkemailconfiguration** 명령에 추가 합니다.
-
-- 정크 메일 규칙을 사용 하지 않도록 설정 하는 경우에도 Outlook 정크 메일 필터 (구성 된 방법에 따라)는 메시지의 스팸 여부를 확인할 수 있으며 사서함의 자체 스팸 결과 및 수신 허용 목록 컬렉션을 기반으로 받은 편지함 또는 정크 메일 폴더로 메시지를 이동할 수 있습니다. 자세한 내용은이 항목의 [Outlook의 정크 메일 설정](#about-junk-email-settings-in-outlook) 섹션을 참조 하십시오.
+> [!NOTE]
+> 
+> - 사용자가 자신의 사서함을 연 적이 없는 경우 이전 명령을 실행 하면 오류가 발생할 수 있습니다. 대량 작업에서이 오류가 발생 하지 않도록 설정 `-ErrorAction SlientlyContinue` 하려면 **set-mailboxjunkemailconfiguration** 명령에 추가 합니다.
+> 
+> - 정크 메일 규칙을 사용 하지 않도록 설정 하는 경우에도 Outlook 정크 메일 필터 (구성 된 방법에 따라)는 메시지의 스팸 여부를 확인할 수 있으며 사서함의 자체 스팸 결과 및 수신 허용 목록 컬렉션을 기반으로 받은 편지함 또는 정크 메일 폴더로 메시지를 이동할 수 있습니다. 자세한 내용은이 항목의 [Outlook의 정크 메일 설정](#about-junk-email-settings-in-outlook) 섹션을 참조 하십시오.
 
 ### <a name="how-do-you-know-this-worked"></a>작동 여부는 어떻게 확인하나요?
 
@@ -145,13 +145,13 @@ $All = Get-Mailbox -RecipientTypeDetails UserMailbox -ResultSize Unlimited; $All
 
 구문 및 매개 변수에 대 한 자세한 내용은 [set-mailboxjunkemailconfiguration](https://docs.microsoft.com/powershell/module/exchange/antispam-antimalware/set-mailboxjunkemailconfiguration)를 참조 하십시오.
 
- **참고:**
-
-- 사용자가 자신의 사서함을 연 적이 없는 경우에는 이전 명령을 실행할 때 오류가 표시 될 수 있습니다. 대량 작업에서이 오류가 발생 하지 않도록 설정 `-ErrorAction SlientlyContinue` 하려면 **set-mailboxjunkemailconfiguration** 명령에 추가 합니다.
-
-- 사서함에서 정크 메일 규칙이 사용 하지 않도록 설정 된 경우에도 수신 허용 목록 컬렉션을 구성할 수 있으며 Outlook 정크 메일 필터는 메시지를 받은 편지함 또는 정크 메일 폴더로 이동할 수 있습니다. 자세한 내용은이 항목의 [Outlook의 정크 메일 설정](#about-junk-email-settings-in-outlook) 섹션을 참조 하십시오.
-
-- Outlook 정크 메일 필터에는 추가 수신 허용 목록 모음 설정 (예: **수신 허용-보낸 사람 목록에 전자 메일을 자동으로 추가**)이 있습니다. 자세한 내용은 [정크 메일 필터를 사용 하 여 표시 되는 메시지 제어](https://support.office.com/article/274ae301-5db2-4aad-be21-25413cede077)를 참조 하세요.
+> [!NOTE]
+> 
+> - 사용자가 자신의 사서함을 연 적이 없는 경우에는 이전 명령을 실행할 때 오류가 표시 될 수 있습니다. 대량 작업에서이 오류가 발생 하지 않도록 설정 `-ErrorAction SlientlyContinue` 하려면 **set-mailboxjunkemailconfiguration** 명령에 추가 합니다.
+> 
+> - 사서함에서 정크 메일 규칙이 사용 하지 않도록 설정 된 경우에도 수신 허용 목록 컬렉션을 구성할 수 있으며 Outlook 정크 메일 필터는 메시지를 받은 편지함 또는 정크 메일 폴더로 이동할 수 있습니다. 자세한 내용은이 항목의 [Outlook의 정크 메일 설정](#about-junk-email-settings-in-outlook) 섹션을 참조 하십시오.
+> 
+> - Outlook 정크 메일 필터에는 추가 수신 허용 목록 모음 설정 (예: **수신 허용-보낸 사람 목록에 전자 메일을 자동으로 추가**)이 있습니다. 자세한 내용은 [정크 메일 필터를 사용 하 여 표시 되는 메시지 제어](https://support.office.com/article/274ae301-5db2-4aad-be21-25413cede077)를 참조 하세요.
 
 ### <a name="how-do-you-know-this-worked"></a>작동 여부는 어떻게 확인하나요?
 

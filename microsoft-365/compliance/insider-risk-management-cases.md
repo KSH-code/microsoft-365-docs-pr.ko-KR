@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 6b5132cad5725e46a49b9010868ede423321f307
-ms.sourcegitcommit: 87cc278ea2ddcd536ecfaa3dfae9a5ddaa502cf9
+ms.openlocfilehash: 7af3e54a13ceabf4acfaa2259ea0089854660721
+ms.sourcegitcommit: 1e9ce51efa583c33625299d17e37f58048a4169c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/21/2020
-ms.locfileid: "42179179"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "43804838"
 ---
 # <a name="insider-risk-management-cases"></a>참가자 위험 관리 사례
 
@@ -103,7 +103,7 @@ ms.locfileid: "42179179"
 
 ### <a name="content-explorer"></a>콘텐츠 탐색기
 
-위험 분석가 및 investigators가 위험 알림과 관련 된 모든 개별 파일 및 전자 메일 메시지의 복사본을 검토할 수 있도록 하는 **콘텐츠 탐색기** 탭입니다. 예를 들어 직원이 SharePoint Online에서 USB 장치로 수백 개의 파일을 다운로드 하 고 해당 활동에서 정책 경고가 발생 하는 경우 경고에 대 한 다운로드 된 모든 파일을 캡처하여 참가자 위험 관리 사례에 복사 합니다. 원본 저장소 원본
+위험 분석가 및 investigators가 위험 알림과 관련 된 모든 개별 파일 및 전자 메일 메시지의 복사본을 검토할 수 있도록 하는 **콘텐츠 탐색기** 탭입니다. 예를 들어 직원이 SharePoint Online에서 USB 장치로 수백 개의 파일을 다운로드 하 고 해당 활동에서 정책 경고가 발생 하는 경우 경고에 대 한 다운로드 된 파일은 모두 캡처 및 원래 저장소 원본의 참가자 위험 관리 사례로 복사 됩니다.
 
 Content explorer는 기본 및 고급 검색 및 필터링 기능을 제공 하는 강력한 도구입니다. 콘텐츠 탐색기를 사용 하는 방법에 대 한 자세한 내용은 [Insider 위험성이 management content explorer](insider-risk-management-content-explorer.md)를 참조 하십시오.
 
@@ -163,7 +163,7 @@ Content explorer는 기본 및 고급 검색 및 필터링 기능을 제공 하�
 
 ### <a name="escalate-for-investigation"></a>조사를 위해 에스컬레이션
 
-직원의 위험 활동을 위해 추가 법률 검토가 필요한 상황에서 직원 조사의 사례를 확대 합니다. 이 에스컬레이션은 Microsoft 365 조직에서 새로운 고급 eDiscovery 사례를 엽니다. Advanced eDiscovery에서는 조직의 내부 및 외부 법적 조사에 응답 하는 콘텐츠를 보존, 수집, 검토, 분석 및 내보낼 수 있는 종단 간 워크플로를 제공 합니다. 또한 법률 팀이 법적 고 지 사항 워크플로 전체를 관리 하 여 사례에 관련 된 custodians와 통신할 수 있도록 합니다. 검토자를 참가자가 만든 고급 eDiscovery 사례의 custodian으로 지정 하면 합법적인 팀이 적절 한 작업을 수행 하 고 콘텐츠 보존을 관리할 수 있습니다. 고급 eDiscovery 사례에 대 한 자세한 내용은 [Overview For Advanced eDsicovery In Microsoft 365](overview-ediscovery-20.md)을 참조 하십시오.
+직원의 위험 활동을 위해 추가 법률 검토가 필요한 상황에서 직원 조사의 사례를 확대 합니다. 이 에스컬레이션은 Microsoft 365 조직에서 새로운 고급 eDiscovery 사례를 엽니다. Advanced eDiscovery에서는 조직의 내부 및 외부 법적 조사에 응답 하는 콘텐츠를 보존, 수집, 검토, 분석 및 내보낼 수 있는 종단 간 워크플로를 제공 합니다. 또한 법률 팀이 법적 고 지 사항 워크플로 전체를 관리 하 여 사례에 관련 된 custodians와 통신할 수 있도록 합니다. 검토자를 참가자가 만든 고급 eDiscovery 사례의 custodian으로 지정 하면 합법적인 팀이 적절 한 작업을 수행 하 고 콘텐츠 보존을 관리할 수 있습니다. 고급 eDiscovery 사례에 대 한 자세한 내용은 [Microsoft 365의 고급 Ediscovery 개요](overview-ediscovery-20.md)를 참조 하세요.
 
 직원 조사로 사례를 에스컬레이션 하려면 다음을 수행 합니다.
 

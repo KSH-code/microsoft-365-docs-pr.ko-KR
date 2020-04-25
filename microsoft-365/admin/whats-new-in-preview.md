@@ -21,12 +21,12 @@ ms.assetid: 739574d7-2c5b-4911-a549-f56ecc7d3b48
 description: Microsoft 365 관리 센터-이 달에 추가 된 기능에 대해 알아봅니다.
 ms.custom:
 - MACDashWhatsNew
-ms.openlocfilehash: 35a08b7c5ebdfd85a66fd28c46eb601d16298f96
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: a3c042413525ec591f74cd63685490f7de93775a
+ms.sourcegitcommit: 4f2129b161eed3f9ddec47494fa19a2a7a553e4f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627525"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "43805182"
 ---
 # <a name="whats-new-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터의 새로운 기능
 
@@ -36,10 +36,59 @@ ms.locfileid: "43627525"
 > **3 월부터 시작 하는 "클래식" 관리 센터 만료**<br><br>
 Admin.microsoft.com에 로그인 하면 항상 새 관리 센터로 이동 합니다. 또한 3 월에는 기본 관리 센터로 다시 전환 하는 기능을 사용 하지 않도록 설정 합니다. 지금은 다시 전환할 수 있지만 새 관리 센터가 패리티에 도달 하 여이를 초과 하면 모든 조직에 대해 스위치를 해제 하 게 됩니다. <br><br> *마지막 업데이트 날짜: 3 월 2 일 2020*
 
-그리고 다른 관리 센터의 새로운 기능을 소개 하려면 다음을 수행 합니다.
+다른 Microsoft 클라우드 서비스의 새로운 기능에 관심이 있는 경우 다음을 수행 하세요.
 
+- [Exchange Online의 새로운 기능](https://go.microsoft.com/fwlink/?linkid=2119714)
+- [Microsoft Intune의 새로운 기능](https://docs.microsoft.com/mem/intune/fundamentals/whats-new)
 - [Microsoft 365 준수 센터의 새로운 기능](https://docs.microsoft.com/Office365/SecurityCompliance/whats-new)
 - [SharePoint 관리 센터의 새로운 기능](https://docs.microsoft.com/sharepoint/what-s-new-in-admin-center)
+- [Office 업데이트](https://docs.microsoft.com/OfficeUpdates/)
+
+## <a name="march-2020"></a>2020년 3월
+
+### <a name="featured-feedback-fix-improve-add-user-reliability-for-licensing"></a>추천 피드백 수정: 라이선스에 대 한 "추가 사용자" 안정성 향상
+
+사용자를 추가할 때 라이선스를 할당 하는 것이 얼마나 어려운 지 관리자 로부터 많은 의견이 수신 되었습니다. 이 수정 프로그램에 대 한 첫 번째 업데이트를 수행 했으며, 이러한 요청을 처리 하기 위해 보다 신뢰할 수 있는 백그라운드 서비스를 마이그레이션 했습니다. 문제가 발생 하면 나중에 다시 시도할 수 있는 오류 메시지가 표시 됩니다.
+
+:::image type="content" source="../media/MAC-WN-ImprovedLicensing.png" alt-text="오류가 있는 사용자 확인 페이지를 추가 합니다.":::
+
+### <a name="microsoft-teams-home-page-card"></a>Microsoft 팀 홈 페이지 카드
+
+팀 사용에서의 uptick을 사용 하는 경우 일부 조직을에서 고정 된 대시보드 카드를 가져와 더 쉽게 검색할 수 있도록 설정 합니다. 또한이 카드에는 조직에서 원격 작업으로 전환 하는 데 도움이 되는 교육 및 문서에 대 한 링크도 포함 되어 있습니다. **홈** 페이지로 이동 하 여 새 카드를 확인 하세요.
+
+:::image type="content" source="../media/MAC-WN-TeamsCard.PNG" alt-text="Microsoft 팀 홈 페이지 카드":::
+
+### <a name="customize-your-organizations-sharepoint-mobile-app-theme"></a>조직의 SharePoint 모바일 앱 테마 사용자 지정
+
+Microsoft 365 관리 센터를 사용 하 여 이제 SharePoint 모바일 앱 for iOS 및 SharePoint 모바일 앱 for Android에서 조직의 테마를 사용자 지정할 수 있습니다. 이 기능은 이동 중에 직원 들에 게 SharePoint Online을 일치 시킬 수 있는 모바일 인트라넷 앱 환경을 간편 하 게 제공 합니다. 테마 사용자 지정에는 로고 이미지, 탐색 모음 색, 텍스트 및 아이콘 색, 강조 색 등이 포함 되어 쉽게 인식할 수 있습니다.
+
+:::image type="complex" source="../media/MAC-WN-CustThemeSP.png" alt-text="관리 센터 설정을 모바일 앱에 매핑하는 다이어그램입니다.":::
+
+:::image-end:::
+
+### <a name="improvements-to-the-add-a-group-wizard"></a>"그룹 추가" 마법사의 향상 된 기능
+
+관리자가 새 그룹을 만들어 동시에 팀으로 만든 경우 팀을 포함 하는 라이선스가 없는 소유자를 할당할 수 있습니다. 그리고 몇 가지 골치 아픈 것을 본 것입니다. 마법사 흐름을 업데이트 하 여 소유자에 게 팀 라이선스가 있는지 확인 하 고 그룹을 팀으로 전환 하는 옵션을 사용 하지 않도록 설정 했습니다.
+
+### <a name="microsoft-365-offerings-for-small-and-medium-businesses"></a>중소 규모 기업을 위한 Microsoft 365 제공
+
+이는 다음 달에 대 한 알림 이지만 준비 되어 있는지 확인 하려고 합니다.
+
+4 월 21 일에 시작 하 여 중소 기업 및 Office 365 ProPlus에 대 한 Office 365 구독과 관련 된 변경 작업을 수행 하 고 있습니다. 이러한 제품은 이제 Microsoft 365 브랜드를 사용 합니다.
+
+새 제품 이름은 2020 년 4 월 21 일에 적용 됩니다. 이는 제품 이름만 변경 되었으며 지금은 가격 또는 기능을 변경할 수 없습니다.
+
+|현재 이름 |새 이름  |
+|---------|---------|
+|Office 365 Business Essentials     |   Microsoft 365 Business Basic      |
+|Office 365 Business Premium     |    Microsoft 365 Business Standard     |
+|Microsoft 365 Business     |    Microsoft 365 Business Premium     |
+|Office 365 Business     |    비즈니스용 Microsoft 365 앱       | 
+|Office 365 ProPlus    |   Microsoft 365 enterprise 용 앱      |
+
+### <a name="videos-training-and-docs"></a>동영상, 교육 및 문서
+
+[Microsoft 365 웹 시리즈의 새로운](https://go.microsoft.com/fwlink/p/?linkid=2118096)기능: 이번 달에는 microsoft 팀의 3 년 전 기념일을 강조 하 고, 온라인 모임에서 향상 된 오디오 품질, 이동 앱, 팀 및 Skype 소비자 상호 운용성 등의 firstline 관리자를 대상으로 하는 새로운 기능을 소개 합니다.
 
 ## <a name="february-2020"></a>2020년 2월
 

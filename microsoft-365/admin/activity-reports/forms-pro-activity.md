@@ -17,14 +17,14 @@ search.appverid:
 - MOE150
 - GEA150
 description: Microsoft 365 관리 센터에서 Microsoft 365 Reports 대시보드를 사용 하 여 Microsoft Forms Pro 활동 보고서를 가져오는 방법을 알아봅니다.
-ms.openlocfilehash: 69938124b1aeb996afd52c119ac61e2e607f871e
-ms.sourcegitcommit: b8a9994b26a6d9865212f5b1871286e719d1608e
+ms.openlocfilehash: b86fffe580e67e86999379cc3186465dcfc7fed8
+ms.sourcegitcommit: 1e9ce51efa583c33625299d17e37f58048a4169c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43781621"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "43804810"
 ---
-# <a name="microsoft-365-reports-in-the-admin-center---forms-activity"></a>관리 센터의 Microsoft 365 보고서-양식 활동
+# <a name="microsoft-365-reports-in-the-admin-center---forms-pro-activity"></a>관리 센터의 Microsoft 365 보고서-양식 Pro 활동
 
 Microsoft 365 **보고서** 대시보드에는 조직의 제품 전체에 대 한 활동 개요가 표시 됩니다. 보고서 대시보드를 통해 개별 제품 수준 보고서의 하위 수준을 표시하여 각 제품 내의 활동에 대한 더 세부화된 정보를 확인할 수 있습니다. [보고서 개요 항목](activity-reports.md)을 확인하세요.
   

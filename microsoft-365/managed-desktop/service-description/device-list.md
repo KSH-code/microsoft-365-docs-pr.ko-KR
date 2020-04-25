@@ -5,12 +5,12 @@ keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
-ms.openlocfilehash: 354845e3bfebee5e6c67b53ba5ef6f55a9c419f8
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: d481a53da541b28975071a9dff6b7cdcc671345b
+ms.sourcegitcommit: 1e9ce51efa583c33625299d17e37f58048a4169c
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637879"
+ms.lasthandoff: 04/24/2020
+ms.locfileid: "43804800"
 ---
 # <a name="microsoft-managed-desktop-devices"></a>Microsoft Managed Desktop 장치 
 
@@ -50,7 +50,7 @@ Microsoft Managed Desktop에 등록 하려면 장치는 다음 모델 중 하나
 | [HP EliteDesk 800 G4 DM](https://store.hp.com/us/en/mdp/desktops/elitedesk-800-mini-349547--1#!&tab=features) | 128 GB/Intel i3/8gb RAM | 5VS04AV를 사용한 SKU | 7 월 18 일 2020 | 7 월 18 일 2023 |
 | [HP EliteDesk 800 G4 SFF](https://store.hp.com/us/en/mdp/desktops/elitedesk-800-small-form-factor-349548--1#!&tab=features) | 128 GB/Intel i3/8gb RAM | 5VS04AV를 사용한 SKU | 7 월 18 일 2020 | 7 월 18 일 2023 |
 | [AIO HP EliteOne 800 G4 23.8](https://store.hp.com/us/en/mdp/desktops/eliteone-800-all-in-one-349552--1#!&tab=features) | 128 GB/Intel i3/8gb RAM | 5VS04AV를 사용한 SKU | 7 월 18 일 2020 | 7 월 18 일 2023 |
-| **\*[HP 정예 DragonFly](https://www8.hp.com/us/en/laptops/2-in-1s/elite-dragonfly-convertible.html--1#!&tab=features)** | 256 GB/Intel i5/8gb RAM | 9MZ21AV가 포함 된 SKU | 2020 년 12 월 31 일 | 2023 년 12 월 31 일 |
+| **\*[HP 정예 DragonFly](https://www8.hp.com/us/en/laptops/2-in-1s/elite-dragonfly-convertible.html)** | 256 GB/Intel i5/8gb RAM | 9MZ21AV가 포함 된 SKU | 2020 년 12 월 31 일 | 2023 년 12 월 31 일 |
 | [HP ProBook x360 440 G1](https://store.hp.com/us/en/mdp/laptops/hp-probook-x360-440-3074457345617293669--1#!&tab=features) | 128 GB/Intel i3/8gb RAM | 5VS04AV, IR 카메라 또는 지문 판독기가 필요한 SKU | 7 월 6 일 2020 | 7 월 6 일 2023 |
 | [HP Z2 미니 G4 워크스테이션](https://store.hp.com/us/en/mdp/hp-z2-mini-workstation-451004--1) | 256 GB/Intel i5/8gb RAM | 8QR48AV가 포함 된 SKU| 1 월 31 일 2021 | 1 월 31 일 2024 |
 |[HP ZBook 14u/15u G6 모바일 워크스테이션](https://store.hp.com/us/en/mdp/hp-zbook-14u-mobile-workstation) | 256 GB/Intel i5/8gb RAM | 5VS02AV를 사용한 SKU, IR 카메라 필요 | 11 월 30 일, 2020 | 11 월 30 일, 2023 |
