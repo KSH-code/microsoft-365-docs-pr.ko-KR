@@ -19,12 +19,12 @@ search.appverid:
 - GEA150
 ms.assetid: 0d6dfb17-8582-4172-a9a9-aed798150263
 description: 조직의 사용자가 Microsoft 365 서비스를 사용하는 방식에 대한 주기적인 보고를 받을 수 있습니다. 사용 현황 개요 대시보드를 사용하면 각 차트에 대한 세부 정보를 확인할 수 있습니다.
-ms.openlocfilehash: 646096b0e9d9f2c1d701fba312901bf744a74501
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 665512e322eadd2f590fb5109fd6f1a9e7706e61
+ms.sourcegitcommit: b458277f0a9937555bc6c5b3fb2a41613f7cc9a9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43621273"
+ms.lasthandoff: 04/23/2020
+ms.locfileid: "43794020"
 ---
 # <a name="microsoft-365-reports-in-the-admin-center"></a>관리 센터의 Microsoft 365 보고서
 
@@ -58,7 +58,7 @@ ms.locfileid: "43621273"
 ::: moniker-end
 
    
-2. 대시보드의 맨 위에서 **보고서 선택**을 선택하여 사용 가능한 모든 보고서 목록에서 선택합니다. 또는 서비스(전자 메일, OneDrive 등)에 대한 활동을 한눈에 볼 수 있는 위젯을 선택하여 자세한 내용을 확인합니다. <br/>![사용 현황 대시보드](../../media/usage-report-dashboard.png)
+2. 대시보드의 맨 위에서 **보고서 선택**을 선택하여 사용 가능한 모든 보고서 목록에서 선택합니다. 또는 서비스(전자 메일 또는 OneDrive 등)에 대한 활동을 한눈에 볼 수 있는 위젯을 선택하여 자세한 내용을 확인합니다. <br/>![사용 현황 대시보드](../../media/usage-report-dashboard.png)
   
 ## <a name="who-can-see-reports"></a>보고서를 볼 수 있는 사용자
 
@@ -104,7 +104,7 @@ ms.locfileid: "43621273"
   
 - [비즈니스용 OneDrive 사용 현황](onedrive-for-business-usage.md)
 
-- [ProPlus 사용 현황](microsoft365-apps-usage.md)
+- [Microsoft 365 앱 사용 현황](microsoft365-apps-usage.md)
   
 - [SharePoint 사이트 사용 현황](sharepoint-site-usage.md)
   
