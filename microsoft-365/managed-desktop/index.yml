@@ -1,8 +1,8 @@
 ### YamlMime:YamlDocument
 documentType: LandingData
-title: Microsoft Managed Desktop 설명서 및 리소스
+title: Microsoft Managed Desktop 문서 및 리소스
 metadata:
-  title: Microsoft Managed Desktop 설명서
+  title: 'Microsoft Managed Desktop 문서 '
   description: null
   keywords: '장치, 앱, 관리'
   author: jaimeo
@@ -13,7 +13,7 @@ metadata:
 sections:
   - items:
       - type: markdown
-        text: 'Microsoft Managed Desktop은 microsoft 365 Enterprise, Microsoft의 클라우드 기반 장치 관리 및 보안 모니터링을 함께 제공 하 여 IT 팀이 핵심 비즈니스 요구에 집중할 수 있도록 합니다.'
+        text: 'Microsoft Managed Desktop은 Microsoft 365 Enterprise, Microsoft의 클라우드 기반 장치 관리 및 보안 모니터링을 함께 사용하여 IT 팀이 핵심 비즈니스 요구 사항에 집중할 수 있도록 합니다.'
   - items:
       - type: list
         style: cards
@@ -21,31 +21,31 @@ sections:
         columns: 2
         items:
           - href: intro/index.md
-            html: '<p>의사 결정권자를 위한 Microsoft Managed Desktop--정의, 작동 방식 및 사용자가 수행할 수 있는 작업에 대 한 소개</p>'
+            html: '<p>의사 결정권자를 위한 Microsoft Managed Desktop 소개--소개, 운영 방식 및 사용자가 활용할 수 있는 기능</p>'
             image:
               src: 'https://docs.microsoft.com/media/common/i_overview.svg'
               alt: ''
             title: Microsoft Managed Desktop이란 무엇인가요?
           - href: service-description/index.md
-            html: <p>Microsoft Managed Desktop의 모든 부분에 대 한 자세한 설명</p>
+            html: <p>Microsoft Managed Desktop의 모든 부분에 대한 세부 설명</p>
             image:
               src: 'https://docs.microsoft.com/media/common/i_get-started.svg'
               alt: ''
             title: 서비스 설명
           - href: get-ready/index.md
-            html: <p>사용자 환경 및 조직을 서비스와 함께 사용할 수 있도록 하기 위한 모든 단계</p>
+            html: <p>사용자 환경과 조직에서 서비스를 사용할 수 있도록 준비시키는 모든 단계</p>
             image:
               src: 'https://docs.microsoft.com/media/common/i_support.svg'
               alt: ''
-            title: 준비하기
+            title: 준비
           - href: get-started/index.md
-            html: <p>장치 설정 및 앱 배포를 포함 하 여 Microsoft Managed Desktop을 사용 하 여 조직의 조직 가져오기</p>
+            html: <p>장치 설정 및 앱 배포를 포함하여 Microsoft Managed Desktop을 조직에서 사용하도록 하기</p>
             image:
               src: 'https://docs.microsoft.com/media/common/i_whats-new.svg'
               alt: ''
-            title: 시작
+            title: 시작하기
           - href: working-with-managed-desktop/index.md
-            html: <p>서비스의 일상 작업에 대 한 모든 정보</p>
+            html: <p>서비스를 활용한 일상 업무에 대한 모든 정보</p>
             image:
               src: 'https://docs.microsoft.com/media/common/i_portal.svg'
               alt: ''
@@ -53,32 +53,32 @@ sections:
   - title: 새 문서 및 블로그 게시물
     items:
       - type: paragraph
-        text: 알아야 할 최신 정보를 확인 하세요.
+        text: 알아야 할 최신 유용한 정보를 읽어보세요.
       - type: list
         style: cards
         className: cardsM
         columns: 2
         items:
           - href: 'https://techcommunity.microsoft.com/t5/Microsoft-Managed-Desktop/Your-Complete-Roadmap-to-Microsoft-Managed-Desktop/ba-p/1000482'
-            title: 로드맵에 Microsoft Managed Desktop에 대 한 전체 로드맵
+            title: '[로드맵] Microsoft Managed Desktop에 대한 전체 로드맵'
             image:
               src: 'https://docs.microsoft.com/media/common/i_architecture.svg'
           - href: 'https://techcommunity.microsoft.com/t5/Microsoft-Managed-Desktop/Study-Rising-Demand-for-Managed-Desktop-Services/ba-p/917182'
-            title: '백서가 연구: 관리 되는 데스크톱 서비스에 대 한 상승 수요'
+            title: '[백서] 연구: Microsoft Desktop 서비스에 대한 수요의 증가'
             image:
               src: 'https://docs.microsoft.com/media/common/i_architecture.svg'
           - href: 'https://query.prod.cms.rt.microsoft.com/cms/api/am/binary/RE3ewtw'
-            title: '[E-책] 회사에 최신 작업 안전 게'
+            title: '[전자 책] 현대 업무 환경에서의 회사의 기쁨'
             image:
               src: 'https://docs.microsoft.com/media/common/i_guide.svg'
               alt: ''
   - title: 동영상
     items:
       - type: paragraph
-        text: 인디애나 Pacers의 기술 VP에서 Microsoft Managed Desktop의 장점에 대해 알아봅니다.
+        text: Indiana Pacers의 VP에게 Microsoft Managed Desktop의 이점에 대해 알아보세요.
       - type: markdown
         text: '>[!VIDEO https://www.youtube.com/embed/GXVRu49Gmxc]'
       - type: paragraph
-        text: Microsoft Managed Desktop의 일반 관리자는 연간 Ignite 회의에서 서비스의 모든 하이라이트를 공유 합니다.
+        text: Microsoft Managed Desktop의 총괄 관리자는 연간 Ignite 회의에서 서비스의 모든 강조점을 공유합니다.
       - type: markdown
         text: '>[!VIDEO https://www.microsoft.com/videoplayer/embed/RE4ksbj]'
