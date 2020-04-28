@@ -12,12 +12,12 @@ localization_priority: Normal
 audience: microsoft-business 
 keywords: Microsoft 365 Business Premium, Microsoft 365, SMB, FAQ, 질문과 대답, 답변, 비즈니스
 ms.date: 06/08/2018
-ms.openlocfilehash: e456719d393dc911a6f28455e530c90e8ab9ff5a
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
-ms.translationtype: HT
+ms.openlocfilehash: 2ace43e0a3bab466d102740434b2a126fb8e099d
+ms.sourcegitcommit: b6c4b514b2cb6739af949780d7e2a5a5c8dcc161
+ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635087"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43900693"
 ---
 # <a name="microsoft-365-business-premium-frequently-asked-questions"></a>Microsoft 365 Business Premium 자주 묻는 질문
 
@@ -48,7 +48,7 @@ Microsoft 365는 중소기업을 위해 동급 최고의 생산성 도구, 보�
 * Windows AutoPilot을 통해 간소화된 PC 배포.
 
 **기타 권리 유형** 
-- Microsoft 365 Business Premium 고객은 Windows Virtual Desktop 및 Office 공유 컴퓨터 인증 기능에도 액세스할 수 있습니다. 자세한 내용은 [Microsoft 365 Business Premium 블로그](https://techcommunity.microsoft.com/t5/Microsoft-365-Business-Blog/bg-p/Microsoft365BusinessBlog)를 참조하세요. [비즈니스용 Microsoft 365 서비스 설명](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-business-service-description)도 참조하세요.
+- Microsoft 365 Business Premium 고객은 Windows Virtual Desktop 및 Office 공유 컴퓨터 인증 기능에도 액세스할 수 있습니다. 자세한 내용은 [Microsoft 365 Business Premium 블로그](https://techcommunity.microsoft.com/t5/Microsoft-365-Business-Blog/bg-p/Microsoft365BusinessBlog)를 참조하세요. 또한 [Microsoft 365 for business service description](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-business-service-description)을 참조 하세요.
 
 ### <a name="who-should-consider-adopting-microsoft-365-business-premium"></a>Microsoft 365 Business Premium 채택을 고려할 대상은 누구인가요? 
 Microsoft 365 Business Premium은 포괄적인 클라우드 기반 보안 솔루션으로 다음 작업을 지원합니다.  
@@ -85,7 +85,7 @@ Windows 10에서 기존 데스크톱(Win32) 응용 프로그램도 호환성이 
 ### <a name="what-is-windows-10-business"></a>Windows 10 Business란? 
 Windows 10 Business는 Windows 10 Pro를 보완하고 Microsoft 365 Business Premium의 중앙 집중식 관리 및 보안 컨트롤을 지원하는 클라우드 서비스 및 디바이스 관리 기능의 집합입니다.
 
-Windows 10 Business에는 제어된 폴더 액세스 및 웹 기반 스레드용 네트워크 보호와 같은 특정 프리미엄 Microsoft Defender 기능도 제공됩니다. 새로운 Windows 10 PC의 배포를 간소화하는 서비스인 Windows AutoPilot가 포함되어 있습니다.
+Windows 10 Business에는 웹 기반 위협에 대 한 제어 된 폴더 액세스 및 네트워크 보호와 같은 특정 프리미엄 Microsoft Defender 기능도 제공 됩니다. 새로운 Windows 10 PC의 배포를 간소화하는 서비스인 Windows AutoPilot가 포함되어 있습니다.
 
 Windows 7, 8 및 8.1 Professional 라이선스가 있는 디바이스를 사용하는 경우 Microsoft 365 Business Premium에서 Windows 10 Business 배포를 위해 필수 조건인 Windows 10 Pro에 대한 업그레이드를 제공합니다.
 > [!IMPORTANT]

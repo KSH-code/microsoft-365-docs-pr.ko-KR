@@ -1,5 +1,5 @@
 ---
-title: Cortana와 Microsoft 365의 통합
+title: Office 365와 Cortana 통합
 f1.keywords:
 - CSH
 ms.author: kwekua
@@ -18,55 +18,55 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 7257cb50-0d5c-4f7a-ac2e-9fe5d13bb5cb
-description: 'Cortana를 사용 하 여 Microsoft 365와 통합 하는 방법에 대해 알아봅니다. 관리 센터에서 Cortana를 해제 하 여 조직의 데이터에 대 한 액세스를 제한할 수 있습니다. '
-ms.openlocfilehash: d5919d5c272bd1f6bb77eac9f91ca6c94520d962
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: 'Office 365와 통합 된 경우 Cortana를 사용 하는 방법에 대해 알아봅니다. 관리 센터에서 Cortana를 해제 하 여 조직의 데이터에 대 한 액세스를 제한할 수 있습니다. '
+ms.openlocfilehash: 768abeed4bf40255e9dd7c6e09e20122523a943d
+ms.sourcegitcommit: c758a4290d205394225a0df2fd667cb565c79c8f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627911"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43907216"
 ---
-# <a name="cortana-in-microsoft-365"></a>Microsoft 365의 Cortana
+# <a name="cortana-in-office-365"></a>Office 365의 Cortana
 
-Cortana, 개인 생산성 도우미는 시간을 절약 하 고 가장 중요 한 문제에 집중할 수 있도록 인공 지능 환경을 제공 합니다. Cortana를 사용 하면 사용자가 작업 및 수명 모두에 걸쳐 개인적인 생산성을 높일 수 있습니다. 유효한 회사 또는 학교 계정으로 로그인 한 사용자는 Microsoft 365 생산성 도구 내에서 클라우드 기반 Cortana 지원 서비스를 받을 수 있습니다. Microsoft 365의 Cortana는 Microsoft 365 엔터프라이즈 수준의 개인 정보, 보안 및 규정 준수 약속을 충족 합니다.
+Cortana, 개인 생산성 도우미는 시간을 절약 하 고 가장 중요 한 문제에 집중할 수 있도록 인공 지능 환경을 제공 합니다. Cortana를 사용 하면 사용자가 작업 및 수명 모두에 걸쳐 개인적인 생산성을 높일 수 있습니다. 유효한 회사 또는 학교 계정으로 로그인 한 사용자는 Office 365 생산성 도구 내에서 클라우드 기반 Cortana 지원 서비스를 받을 수 있습니다. Office 365의 Cortana는 Office 365의 엔터프라이즈 수준 개인 정보, 보안 및 규정 준수 약속을 충족 합니다.
 
-개인적인 생산성 어시스턴트 Cortana는 전자 메일, 파일, 채팅 등의 Microsoft 365 데이터를 안전 하 고 안전 하 게 처리 하 고 이유를 제공 하 여 시간을 절약 하 고 효율성을 높이 며 사용자의 생산성을 향상 시킬 수 있도록 디자인 되었습니다.
+개인적인 생산성 도우미는 Cortana가 전자 메일, 파일, 채팅 등의 Office 365 데이터를 안전 하 고 안전 하 게 처리 하 고 이유를 제공 하 여 시간을 절약 하 고 효율성을 높이 며 사용자의 생산성을 향상 시킬 수 있도록 디자인 되었습니다. 
 
 이번에는 엔터프라이즈 생산성에 Cortana가 초점을 맞추어 진행 되 고 있습니다.
 
-- 다른 Microsoft 365 서비스와 마찬가지로 Microsoft 365의 Cortana는 [온라인 서비스 약관 (OST)](https://www.microsoft.com/en-us/licensing/product-licensing/products)에 반영 된 것과 같은 엔터프라이즈 수준의 개인 정보, 보안 및 규정 준수를 충족 합니다.
+- 다른 Office 365 서비스와 마찬가지로 Office 365의 Cortana는 [온라인 서비스 약관 (OST)](https://www.microsoft.com/en-us/licensing/product-licensing/products)에 반영 된 것과 같은 엔터프라이즈 수준의 개인 정보, 보안 및 규정 준수를 충족 합니다.
 
-- 브리핑 전자 메일 및 내 전자 메일 같은 새로운 클라우드 기반 Cortana 지원 서비스는 Microsoft 365에서 Cortana를 사용 하 여 사용 하도록 설정 되며 해당 약속을 완벽 하 게 준수 합니다. 이러한 기능은 미국 지역에 사서함이 있는 사용자에 대 한 영어 (미국) 시장 및 미국 기반 사서함이 있는 다국적 기업 직원에 게 현재 제공 되 고 있습니다.
+- 브리핑 전자 메일 및 내 전자 메일 같은 새로운 클라우드 기반 Cortana 지원 서비스는 Office 365에서 Cortana를 사용 하 여 사용 하도록 설정 되며 해당 약속을 완벽 하 게 준수 합니다. 이러한 기능은 미국 지역에 사서함이 있는 사용자에 대 한 영어 (미국) 시장 및 미국 기반 사서함이 있는 다국적 기업 직원에 게 현재 제공 되 고 있습니다.
 
-- 사용자가 Outlook Mobile과 같은 클라이언트 응용 프로그램을 통해 여기에서 설명 하는 Microsoft 365 서비스의 Cortana에 연결할 수 있으며, 별도의 사용권 조항에 따라 달라 집니다.
+- 사용자가 Outlook Mobile과 같은 클라이언트 응용 프로그램을 통해 여기에서 설명 하는 Office 365 서비스의 Cortana에 연결할 수 있으며, 별도의 사용권 조항에 따라 달라 집니다.
 
-- Windows 10 (버전 1909 이상)의 Cortana와 iOS 및 Android의 Cortana 앱을 포함 하는 기존 소비자 환경에 대 한 자세한 내용은 [Microsoft 서비스 계약](https://www.microsoft.com/en-us/licensing/product-licensing/products) 및 [Microsoft 개인정보 취급 방침](https://privacy.microsoft.com/en-us/privacystatement)을 통해 제어 됩니다. 이러한 용어는 소비자 자격 증명으로 로그인 할 때 사용자에 게 제공 되는 Microsoft 365 서비스의 Cortana도 제어 합니다.
+- Windows 10 (버전 1909 이상)의 Cortana와 iOS 및 Android의 Cortana 앱을 포함 하는 기존 소비자 환경에 대 한 자세한 내용은 [Microsoft 서비스 계약](https://www.microsoft.com/en-us/licensing/product-licensing/products) 및 [Microsoft 개인정보 취급 방침](https://privacy.microsoft.com/en-us/privacystatement)을 통해 제어 됩니다. 이러한 용어는 소비자 자격 증명으로 로그인 할 때 사용자에 게 제공 되는 Office 365 서비스의 Cortana도 제어 합니다.
 
-## <a name="what-data-is-processed-by-cortana-in-microsoft-365"></a>Microsoft 365의 Cortana에서 처리 되는 데이터는 무엇입니까?
+## <a name="what-data-is-processed-by-cortana-in-office-365"></a>Cortana가 Office 365에서 처리 하는 데이터는 무엇입니까?
 
-Microsoft 365의 Cortana에서는 사용자의 요청을 수행 하는 데 필요한 Office 데이터, 서비스를 실행 하기 위해 Microsoft 시스템에서 생성 된 기타 원격 분석 등을 사용 하 여 쿼리를 처리 합니다. Microsoft 365에서 Cortana가 수집한 데이터에는 사용자의 음성 쿼리 (예: 음성 인식)의 텍스트 표시가 포함 되어 있습니다. 이 텍스트 데이터는 고객 데이터 이며, [온라인 서비스 약관](https://www.microsoft.com/en-us/licensing/product-licensing/products)에 따라 관리 됩니다. 이는 [온라인 서비스 약관](https://www.microsoft.com/en-us/licensing/product-licensing/products)에 맞게 기계 학습 모델을 개발 및 개선 하는 데만 사용 됩니다.
+Cortana (Office 365)에서는 사용자의 요청을 수행 하는 데 필요한 Office 데이터, 서비스를 실행 하기 위해 Microsoft 시스템에서 생성 된 기타 원격 분석 등을 사용 하 여 쿼리를 처리 합니다. Office 365에서 Cortana가 수집 하는 데이터에는 사용자의 음성 쿼리 (예: 음성 인식)의 텍스트 표시가 포함 되어 있습니다. 이 텍스트 데이터는 고객 데이터 이며, [온라인 서비스 약관](https://www.microsoft.com/en-us/licensing/product-licensing/products)에 따라 관리 됩니다. 이는 [온라인 서비스 약관](https://www.microsoft.com/en-us/licensing/product-licensing/products)에 맞게 기계 학습 모델을 개발 및 개선 하는 데만 사용 됩니다.
 
-## <a name="what-is-the-governance-model-for-customer-data-in-cortana-in-microsoft-365"></a>Microsoft 365의 Cortana에 있는 고객 데이터에 대 한 거 버 넌 스 모델은 무엇 인가요?
+## <a name="what-is-the-governance-model-for-customer-data-in-cortana-in-office-365"></a>Office 365의 Cortana에 있는 고객 데이터에 대 한 거 버 넌 스 모델은 무엇 인가요?
 
-다른 Microsoft 365 및 Microsoft 365 서비스와 일관성을 유지 하 고, Microsoft 365의 Cortana를 보안 하 고 [온라인 서비스 약관](https://www.microsoft.com/en-us/licensing/product-licensing/products)에 따라 보호 합니다. 여기에는 우발적 손실, 변경, 무단 노출 또는 액세스 또는 불법적 소멸 으로부터 고객 데이터를 보호 하기 위한 약속 집합이 포함 됩니다. 고객 데이터에도 엄격한 액세스 제한이 적용 됩니다. Microsoft는 고객 데이터를 사용 하 여 동의한 서비스와 이러한 서비스와 호환 되는 목적을 제공 합니다. 자세한 내용은 아래 표를 참조 하세요.
+다른 Microsoft 365 및 Office 365 서비스와 일관성을 유지 하 고, Office 365의 Cortana를 보안 하 고 [온라인 서비스 약관](https://www.microsoft.com/en-us/licensing/product-licensing/products)에 따라 보호 합니다. 여기에는 우발적 손실, 변경, 무단 노출 또는 액세스 또는 불법적 소멸 으로부터 고객 데이터를 보호 하기 위한 약속 집합이 포함 됩니다. 고객 데이터에도 엄격한 액세스 제한이 적용 됩니다. Microsoft는 고객 데이터를 사용 하 여 동의한 서비스와 이러한 서비스와 호환 되는 목적을 제공 합니다. 자세한 내용은 아래 표를 참조 하세요.
 
 ## <a name="how-does-microsoft-store-retain-process-and-use-customer-data-in-cortana"></a>Microsoft는 Cortana에서 고객 데이터를 저장, 보존, 처리 및 사용 하는 방법
 
-아래 표에는 Microsoft 365의 Cortana에 대 한 데이터 처리에 대 한 설명이 나와 있습니다.
+아래 표에는 Office 365의 Cortana에 대 한 데이터 처리에 대 한 설명이 나와 있습니다.
 
 |**이름**|**설명**|
 |:-----|:-----|
-|**저장소**  <br/> |고객 데이터는 microsoft 365 클라우드 내의 Microsoft 서버에 저장 됩니다. 데이터가 테 넌 트의 일부인 경우 <br/> 음성 오디오가 보존 되지 않습니다.  <br/> |
-|**지리적으로 유지**  <br/> |고객 데이터가 지역에서 Microsoft 365 클라우드 내의 Microsoft 서버에 저장 됩니다. 데이터가 테 넌 트의 일부인 경우  <br/> |
+|**저장소**  <br/> |고객 데이터는 Office 365 클라우드 내의 Microsoft 서버에 저장 됩니다. 데이터가 테 넌 트의 일부인 경우 <br/> 음성 오디오가 보존 되지 않습니다.  <br/> |
+|**지리적으로 유지**  <br/> |고객 데이터는 지리적으로 Office 365 클라우드 내의 Microsoft 서버에 저장 됩니다. 데이터가 테 넌 트의 일부인 경우  <br/> |
 |**보존**  <br/> |테 넌 트 관리자가 계정을 닫을 때 또는 GDPR 데이터 주체 권한 삭제 요청이 수행 되는 경우 고객 데이터는 삭제 됩니다. <br/> 음성 오디오가 보존 되지 않습니다.  <br/> |
 |**처리 및 기밀성**  <br/> |고객 데이터 및 개인 데이터 처리를 담당 하는 직원은 고객의 지침을 통해서만 이러한 데이터를 처리 하며, (ii)은 계약이 종료 된 후에도 이러한 데이터의 기밀성 및 보안을 유지 관리 해야 합니다.  <br/> |
-|**Usage**  <br/> |Microsoft는 고객 데이터를 사용 하 여 동의한 서비스와 이러한 서비스와 호환 되는 목적을 제공 합니다. 모델을 개발 하 고 개선 하기 위한 기계 학습은 이러한 목적 중 하나입니다. 컴퓨터 학습은 Microsoft 365 클라우드 내에서 수행 되며 고객 데이터를 사용자가 보거나 검토 하거나 레이블을 지정 하지 않습니다. <br/> 데이터는 광고를 대상으로 하는 데 사용 되지 않습니다.  <br/> |
+|**Usage**  <br/> |Microsoft는 고객 데이터를 사용 하 여 동의한 서비스와 이러한 서비스와 호환 되는 목적을 제공 합니다. 모델을 개발 하 고 개선 하기 위한 기계 학습은 이러한 목적 중 하나입니다. 컴퓨터 학습은 Office 365 클라우드 내에서 수행 되며 고객 데이터를 사용자가 보거나 검토 하거나 레이블을 지정 하지 않습니다. <br/> 데이터는 광고를 대상으로 하는 데 사용 되지 않습니다.  <br/> |
 
-## <a name="cortana-in-microsoft-365-features"></a>Microsoft 365 기능의 Cortana
+## <a name="cortana-in-office-365-features"></a>Office 365 기능의 Cortana
 
 ### <a name="play-my-emails"></a>내 전자 메일 재생
 
-전자 메일 재생 (Outlook mobile을 통해 연결 됨)은 사용자가 전화, 헤드폰 또는 연결 된 오디오 장치에서 스피커를 통해 받은 편지함을 청취 하는 음성 기반 환경에서 사용할 수 있는 목소리 방식입니다. 사용자는 Cortana에 게 최근 전자 메일을 소리내어 읽도록 요청 하 고, Cortana에 게 플래그, 보관, 삭제 및 건너뛰기 메시지 등의 작업을 수행 하도록 할 수 있습니다. 이 기능은 특히 commuting 또는 이동 중에 전자 메일을 파악 하는 데 도움이 됩니다. 사용자가 내 전자 메일 재생에서 Cortana에 연결할 때 음성 오디오 요청이 Microsoft 365에서 Cortana로 바로 이동 합니다. 사용자의 전자 메일에 대 한 음성 인식 텍스트는 Microsoft 365 클라우드 내에서 처리 됩니다. 이 프로세스가 진행 되는 동안에는 사용자의 모바일 장치에서 Microsoft 365 데이터가 처리 되지 않으며 새 전자 메일 데이터는 저장 되지 않습니다. 음성 명령에 대 한 성적 증명서 (예: "읽은 상태로 표시", "" 다음 "" 플래그 "등)가 [온라인 서비스 용어의](https://www.microsoft.com/en-us/licensing/product-licensing/products)데이터 보호 용어에 따라 유지 될 수 있습니다.
+전자 메일 재생 (Outlook mobile을 통해 연결 됨)은 사용자가 전화, 헤드폰 또는 연결 된 오디오 장치에서 스피커를 통해 받은 편지함을 청취 하는 음성 기반 환경에서 사용할 수 있는 목소리 방식입니다. 사용자는 Cortana에 게 최근 전자 메일을 소리내어 읽도록 요청 하 고, Cortana에 게 플래그, 보관, 삭제 및 건너뛰기 메시지 등의 작업을 수행 하도록 할 수 있습니다. 이 기능은 특히 commuting 또는 이동 중에 전자 메일을 파악 하는 데 도움이 됩니다. 사용자가 내 전자 메일 재생에서 Cortana에 연결할 때 음성 오디오 요청이 Office 365에서 Cortana로 바로 이동 합니다. 사용자의 전자 메일에 대 한 음성 인식 텍스트는 Office 365 클라우드 내에서 처리 됩니다. 이 프로세스가 진행 되는 동안에는 사용자의 모바일 장치에서 Office 365 데이터가 처리 되지 않으며 새 전자 메일 데이터는 저장 되지 않습니다. 음성 명령에 대 한 성적 증명서 (예: "읽은 상태로 표시", "" 다음 "" 플래그 "등)가 [온라인 서비스 용어의](https://www.microsoft.com/en-us/licensing/product-licensing/products)데이터 보호 용어에 따라 유지 될 수 있습니다.
 
 Cortana는 전자 메일이 보호 되어 있을 때 전화를 걸어 메시지를 읽기 전에 잠시 일시 중지 하 여 사용자에 게 재생을 일시 중지 하거나 다음 메시지로 건너뛸 수 있는 충분 한 시간을 제공 합니다. 개인 전화 통화와 마찬가지로, 기밀 정보를 overheard 수 있는 위치에서 재생을 시작할 때 사용자가 주의 해야 합니다. 이러한 경우 조직의 직원은 Outlook mobile에서 내 전자 메일 재생을 사용 하는 경우 적절 한 환경에서 헤드폰을 착용 하는 것이 좋습니다.
 
@@ -84,27 +84,27 @@ Cortana는 전자 메일이 보호 되어 있을 때 전화를 걸어 메시지�
 
 ### <a name="briefing-email"></a>브리핑 전자 메일
 
-Cortana가 사용자가 설정한 브리핑 전자 메일을 **완료** 됨으로 표시 하는 편리한 방법으로 작업 및 약정을 설정 하 고, 완료를 위해 포커스 시간을 예약할 수 있도록 예약 합니다. 또한 모임에 대 한 요약 정보와 하루에 대 한 관련 문서도 포함 됩니다. Cortana는 사용자의 Microsoft 365 메시지에서 정보를 추출 하 고이를 브리핑 전자 메일에 통합 될 때까지 Microsoft 365 사서함에 저장 합니다. Microsoft 365 사서함 외부에서는 개인 데이터에 액세스할 수 없습니다.
+Cortana가 사용자가 설정한 브리핑 전자 메일을 **완료** 됨으로 표시 하는 편리한 방법으로 작업 및 약정을 설정 하 고, 완료를 위해 포커스 시간을 예약할 수 있도록 예약 합니다. 또한 모임에 대 한 요약 정보와 하루에 대 한 관련 문서도 포함 됩니다. Cortana가 사용자의 Office 365 메시지에서 정보를 추출 하 고이를 브리핑 전자 메일에 통합 될 때까지 Office 365 사서함에 저장 합니다. Office 365 사서함 외부에서는 개인 데이터에 액세스할 수 없습니다.
 
 ### <a name="how-to-opt-out-of-briefing-email"></a>브리핑 전자 메일을 제외 하는 방법
 
 관리자는 Microsoft 365 관리 센터에서 [토글](https://docs.microsoft.com/briefing/be-admin) 을 사용 하 여 조직에 대해 브리핑를 구성할 수 있습니다. 메시지 바닥글에서 구독 취소를 선택 하 여 개별 사용자가 Cortana의 브리핑 전자 메일을 제외할 수 있습니다.
 
-Microsoft 365 기능에 계속 해 서 추가 Cortana를 도입 하면 조직의 생산성을 향상 시킬 수 있습니다.
+계속 해 서 Office 365 기능에 더 많은 Cortana를 도입 하 여 조직의 생산성을 높이는 데 도움이 될 것입니다.
 
 [Microsoft 준수 제품](https://docs.microsoft.com/microsoft-365/compliance/offering-home)에 대해 자세히 알아보세요.
 
-## <a name="how-is-cortana-in-microsoft-365-different-from-other-cortana-features-i-may-have-previously-experienced"></a>Microsoft 365의 Cortana가 이전에 경험 했을 수 있는 다른 Cortana 기능과 다른 이유는 무엇 인가요?
+## <a name="how-is-cortana-in-office-365-different-from-other-cortana-features-i-may-have-previously-experienced"></a>Office 365의 Cortana가 이전에 경험이 있었던 다른 Cortana 기능과는 어떤 차이가 있나요?
 
 다음과 같은 두 가지 방법으로 엔터프라이즈에서 Cortana가 작동 하는 방식을 생각해 볼 수 있습니다.
 
-**Microsoft 365의 cortana가 포함 된 조직에 대 한 새로운 경험**: microsoft 365 서비스의 cortana는 조직의 보안 및 규정 준수 요구를 충족 하도록 설계 되었습니다.
+**Cortana를 사용 하는 조직에 대 한 새로운 경험 365**: office 365 서비스의 Cortana는 조직의 보안 및 규정 준수 요구를 충족 하도록 설계 되었습니다.
 
 1. 이 내용은 새 서비스 이며이 문서에서는 여기에서 설명 합니다.
 
 2. 온라인 서비스 약관이 적용 되는 서비스의 경우 Microsoft는 고객의 고객 데이터를 수집 하 고 사용 하 여 고객의 온라인 서비스를 제공 하 고 고객에 게 지시 하는 목적을 수행 합니다. EU의 일반 데이터 보호 규정 (GDPR)에서 고객은 데이터의 데이터 컨트롤러입니다. [온라인 서비스 약관](https://www.microsoft.com/en-us/licensing/product-licensing/products) 을 확인 하 고 [상업용 클라우드 고객을 위한 개인 정보 투명성을 더 소개](https://blogs.microsoft.com/eupolicy/2019/11/18/introducing-privacy-transparency-commercial-cloud-customers/)합니다.
 
-3. 예를 들어 전자 메일 재생은 사용자가 iOS 용 Outlook을 통해 연결 하 고 Microsoft 365에서 Cortana를 이용 하는 Cortana 서비스입니다.
+3. 예를 들어 전자 메일 재생은 사용자가 iOS 용 Outlook을 통해 연결 하 고 Office 365에서 Cortana를 이용 하는 Cortana 서비스입니다.
 
 4. 관리자는 Office ProPlus 응용 프로그램을 사용 하는 동안 선택적으로 연결 되는 기능과 마찬가지로 Cortana에 대 한 선택적 연결 된 환경에 대 한 컨트롤을 항상 보유 합니다
 
@@ -112,7 +112,7 @@ Microsoft 365 기능에 계속 해 서 추가 Cortana를 도입 하면 조직의
 
 1. 이러한 환경에서는 날씨, 뉴스 및 트래픽과 같은 기능을 사용할 수 있습니다.
 
-2. 테 넌 트 관리자는 Windows 10 (버전 1909 이상)의 Cortana 및 iOS 및 Android의 Cortana 앱이 Cortana가 Microsoft 365 테 넌 트 데이터에 연결 하도록 허용할 수 있는지 여부를 제어할 수 있습니다.
+2. 테 넌 트 관리자는 Windows 10 (버전 1909 이상)의 Cortana 및 iOS 및 Android의 Cortana 앱이 Cortana가 Office 365 테 넌 트 데이터에 연결 하도록 허용할 수 있는지 여부를 제어할 수 있습니다.
 
 조직의 Microsoft 호스팅된 데이터에 대 한 Cortana 액세스 해제
 

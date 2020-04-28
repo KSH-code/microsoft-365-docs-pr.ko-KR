@@ -19,14 +19,14 @@ search.appverid:
 - MOE150
 ms.assetid: 8275da91-7a48-4591-94ab-3123a3f79530
 description: 'Microsoft 365의 기본 테마를 변경 하 고 회사 로고나 색과 일치 하도록 사용자 지정 하는 방법을 알아봅니다. '
-ms.openlocfilehash: 6a689c6da967bf3f62699bb9df287f7c5fc42e6a
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 06b247da1a8ac1f330f2ad36c8b29897963819f3
+ms.sourcegitcommit: b6c4b514b2cb6739af949780d7e2a5a5c8dcc161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627609"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43900777"
 ---
-# <a name="customize-the-theme-for-your-organization"></a>조직의 테마 사용자 지정
+# <a name="customize-the-microsoft-365-theme-for-your-organization"></a>조직에 대 한 Microsoft 365 테마 사용자 지정
 
 Microsoft 365 관리 센터에서 테마를 사용자 지정 하는 방법에 대해 알아봅니다. Microsoft 365 비즈니스 에디션 구독의 관리자는 조직의 모든 사용자에 대해 위쪽 탐색 모음에 나타나는 기본 테마를 변경할 수 있습니다. 회사 로고를 추가 하 고 나머지 브랜드와 일치 하도록 색을 변경할 수 있습니다. 사용자가 로고를 선택할 때 탐색할 대상 링크를 추가할 수도 있습니다. Microsoft 365의 기본 테마 및 사용자 지정 테마 결과를 여기에서 확인할 수 있습니다.
   
@@ -64,7 +64,7 @@ Microsoft 365 관리 센터에서 테마를 사용자 지정 하는 방법에 �
     
 4. **변경 내용 저장**을 선택합니다.
     
-관리 센터에서 새 테마를 즉시 확인할 수 있으며 잠시 후에 Outlook, SharePoint, [iOS 용 sharepoint 모바일 앱](https://support.office.com/en-us/article/SharePoint-mobile-app-for-iOS-339402ce-16bb-4c97-9475-0c5375ccef7a)및 [Android 용 sharepoint 모바일 앱](https://support.office.com/en-us/article/SharePoint-mobile-app-for-Android-d875654b-fb0a-4dbe-a17a-a676cf936284)의 페이지를 포함 하 여 Microsoft 365 전체에서 해당 테마가 표시 됩니다. 관리 센터에서 테마 변경 내용을 사용자 지정 하는 방법의 예제를 보려면 다음 그래픽을 참조 하십시오.
+관리 센터에서 새 테마를 즉시 확인할 수 있으며 잠시 후에 Outlook, SharePoint, [iOS 용 sharepoint 모바일 앱](https://support.office.com/article/SharePoint-mobile-app-for-iOS-339402ce-16bb-4c97-9475-0c5375ccef7a)및 [Android 용 sharepoint 모바일 앱](https://support.office.com/article/SharePoint-mobile-app-for-Android-d875654b-fb0a-4dbe-a17a-a676cf936284)의 페이지를 포함 하 여 Microsoft 365 전체에서 해당 테마가 표시 됩니다. 관리 센터에서 테마 변경 내용을 사용자 지정할 수 있는 위치에 대 한 예제는 다음 이미지를 참조 하십시오.
 
 ![m365-관리-테 넌 트-개념-개념적](../../media/m365-admin-tenant-theme-conceptual.png)
 
@@ -72,7 +72,7 @@ Microsoft 365 관리 센터에서 테마를 사용자 지정 하는 방법에 �
   
 ## <a name="best-practices"></a>모범 사례
 
-**로고 이미지**를 선택할 때는 가능한 경우 모두 SVG 파일 형식을 사용 하 여 로고가 모든 화면 및 모든 확대/축소 수준에서 높은 해상도의 형태로 표시 되도록 하는 것이 좋습니다.
+**로고 이미지**를 선택할 때 SVG 파일 형식을 사용 하는 것이 좋지만, 로고가 모든 화면에 표시 되 고 모든 확대/축소 수준에서 해상도가 높은 모양으로 표시 되도록 하는 것이 좋습니다.
 
 사용자 지정 색을 선택할 때는 선택한 **로고 이미지** 와 명암비가 높은 **탐색 모음 배경색** 을 선택 합니다. 또한 모든 텍스트와 아이콘을 쉽게 볼 수 있도록 **탐색 막대 배경색** 에서 명암비가 높은 **텍스트 및 아이콘** 색을 선택 합니다.
 
@@ -99,4 +99,3 @@ Microsoft 365 관리 센터에서 테마를 사용자 지정 하는 방법에 �
 [내 앱 페이지 및 앱 시작 관리자에 사용자 지정 타일 추가](../manage/customize-the-app-launcher.md)
   
   
-

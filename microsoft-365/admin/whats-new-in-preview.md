@@ -21,14 +21,21 @@ ms.assetid: 739574d7-2c5b-4911-a549-f56ecc7d3b48
 description: Microsoft 365 관리 센터-이 달에 추가 된 기능에 대해 알아봅니다.
 ms.custom:
 - MACDashWhatsNew
-ms.openlocfilehash: a3c042413525ec591f74cd63685490f7de93775a
-ms.sourcegitcommit: 4f2129b161eed3f9ddec47494fa19a2a7a553e4f
+ms.openlocfilehash: 0b6d0741b5c59b1d720ca1ef73c0d45a674569b1
+ms.sourcegitcommit: c758a4290d205394225a0df2fd667cb565c79c8f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/24/2020
-ms.locfileid: "43805182"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43907240"
 ---
 # <a name="whats-new-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터의 새로운 기능
+
+::: moniker range="o365-21vianet"
+
+> [!NOTE]
+> 이 문서의 일부 정보는 21Vianet에서 운영 하는 Office 365에는 적용 되지 않을 수 있습니다.
+
+::: moniker-end
 
 [Microsoft 365 관리 센터](microsoft-365-admin-center-preview.md)에 지속적으로 새로운 기능을 추가 하 고, 문제를 해결 하 고, 사용자 의견을 바탕으로 변경 내용을 적용 하 고 있습니다. 현재 사용 가능한 기능을 확인 하려면 아래를 확인 하세요. 일부 기능은 고객에 게 다양 한 속도로 롤아웃 됩니다. 아직 기능을 볼 수 없는 경우 대상 지정 된 [릴리스에 자신을 추가 해 보세요](manage/release-options-in-office-365.md).
 

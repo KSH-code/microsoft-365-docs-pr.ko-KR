@@ -17,16 +17,18 @@ ms.topic: article
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 904c1a019c55cabce6856a7caaca73d08d6db3f7
-ms.sourcegitcommit: 841c06a5d566d404c35d5e9c0c7de5088daab976
+ms.openlocfilehash: eb6af6b11d2d932f3bd2165aa3f597c14feb5ae8
+ms.sourcegitcommit: b6c4b514b2cb6739af949780d7e2a5a5c8dcc161
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/18/2020
-ms.locfileid: "42836883"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43901025"
 ---
 # <a name="manage-tickets-through-servicenow"></a>ServiceNow를 통해 티켓 관리
 
-Microsoft 365 보안 센터는 ServiceNow에서 기본적으로 티켓을 작성 하 고 추적할 수 있는 기능을 통해 향상 되었습니다. 보안 관리자는 [Microsoft 보안 점수](microsoft-secure-score.md) 향상 작업을 ServiceNow로 바로 전송 하 고 티켓을 만들 수 있습니다. 인시던트 관리 및 변경 관리 티켓을 모두 만들 수 있습니다.
+ServiceNow는 회사에서 엔터프라이즈 운영을 위한 디지털 워크플로를 관리 하는 데 사용할 수 있는 인기 있는 클라우드 컴퓨팅 플랫폼입니다. 현재 플랫폼에는 IT 워크플로, 직원 워크플로 및 고객 워크플로가 포함 되어 있습니다. Microsoft는 IT 관리자가 두 플랫폼에서 모두 티켓과 작업을 보다 쉽게 관리할 수 있도록 ServiceNow과 제휴 합니다. [ServiceNow에 대해 자세히 알아보기](https://www.servicenow.com/)
+
+Microsoft 365 보안 센터는 이제 ServiceNow에서 티켓을 기본적으로 만들고 추적할 수 있도록 향상 되었습니다. 보안 관리자는 [Microsoft 보안 점수](microsoft-secure-score.md) 향상 작업을 ServiceNow로 바로 전송 하 고 티켓을 만들 수 있습니다. 인시던트 관리 및 변경 관리 티켓을 모두 만들 수 있습니다. 그러면 Microsoft 보안 센터 홈 페이지 및 ServiceNow에서 해당 사용자를 추적할 수 있습니다.
 
 ## <a name="prerequisites"></a>필수 구성 요소
 
