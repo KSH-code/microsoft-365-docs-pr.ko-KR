@@ -18,19 +18,19 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 928401f0c4b0fe479d993eba958ca1e109d4c05f
-ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
+ms.openlocfilehash: 990e39484b7f3f5b26b39e52f9344da0a3ffa290
+ms.sourcegitcommit: 2399ee6f9bc955cf8f2a76c01fc84c19eb37ff42
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43708397"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43919685"
 ---
 # <a name="get-started-with-communication-compliance"></a>커뮤니케이션 규정 준수 시작
 
 >[!IMPORTANT]
 >이 항목은 Microsoft 365 구독의 통신 준수 구성에 적용 됩니다. Microsoft 365 구독에 대 한 감독 정책을 구성 하려면 [microsoft 365에 대 한 감독 구성을](supervision-policies.md)참조 하십시오.
 
-통신 준수 정책을 사용 하 여 내부 또는 외부 검토자가 검사할 직원 통신을 캡처할 수 있습니다. 통신 준수 정책을 통해 조직의 통신을 모니터링 하는 방법에 대 한 자세한 내용은 [Microsoft 365의 통신 준수 정책을](communication-compliance.md)참조 하세요. Contoso에서 Microsoft 팀 및 Exchange Online communications의 공격적인 언어를 모니터링 하도록 통신 준수 정책을 빠르게 구성 하는 방법을 검토 하려면이 [사례 연구](communication-compliance-case-study.md)를 참조 하세요.
+통신 준수 정책을 사용 하 여 내부 또는 외부 검토자가 검사할 직원 통신을 캡처할 수 있습니다. 통신 준수 정책을 통해 조직의 통신을 모니터링 하는 방법에 대 한 자세한 내용은 [Microsoft 365의 통신 준수 정책을](communication-compliance.md)참조 하세요. Contoso에서 Microsoft 팀, Exchange Online 및 Yammer 통신의 공격적인 언어를 모니터링 하도록 통신 준수 정책을 빠르게 구성 하는 방법을 검토 하려면이 [사례 연구](communication-compliance-case-study.md)를 확인 하세요.
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
@@ -106,7 +106,16 @@ Microsoft 365 준수 센터에서 **통신 준수** 를 메뉴 옵션으로 사�
 - [메일 그룹 만들기 및 관리](https://docs.microsoft.com/Exchange/recipients-in-exchange-online/manage-distribution-groups/manage-distribution-groups)
 - [Microsoft 365 그룹 개요](https://docs.microsoft.com/office365/admin/create-groups/office-365-groups?view=o365-worldwide)
 
-## <a name="step-4-required-create-a-communication-compliance-policy"></a>4 단계 (필수 사항): 통신 준수 정책 만들기
+## <a name="step-4-optional-verify-your-yammer-tenant-is-in-native-mode"></a>4 단계 (선택 사항): Yammer 테 넌 트가 전용 모드에 있는지 확인
+
+기본 모드에서는 모든 Yammer 사용자가 Azure Active Directory (AAD)에 있고 모든 그룹은 Office 365 그룹 이며 모든 파일은 SharePoint Online에 저장 됩니다. Yammer 테 넌 트의 개인 메시지 및 커뮤니티 대화에서 위험한 대화를 검색 하 고 식별 하기 위한 통신 준수 정책에 대 한 기본 모드 여야 합니다.
+
+기본 모드에서 Yammer를 구성 하는 방법에 대 한 자세한 내용은 다음을 참조 하십시오.
+
+- [Microsoft 365의 Yammer 기본 모드 개요](https://docs.microsoft.com/yammer/configure-your-yammer-network/overview-native-mode)
+- [Microsoft 365 기본 모드에 사용할 Yammer 네트워크 구성](https://docs.microsoft.com/yammer/configure-your-yammer-network/native-mode)
+
+## <a name="step-5-required-create-a-communication-compliance-policy"></a>5 단계 (필수 사항): 통신 준수 정책 만들기
   
 >[!Important]
 >PowerShell을 사용 하 여 통신 준수 정책을 만들고 관리 하는 기능은 지원 되지 않습니다. 이러한 정책을 만들고 관리 하려면 [Microsoft 365 통신 규정 준수 솔루션](https://compliance.microsoft.com/supervisoryreview)의 정책 관리 컨트롤을 사용 해야 합니다.
@@ -131,7 +140,7 @@ Microsoft 365 준수 센터에서 **통신 준수** 를 메뉴 옵션으로 사�
     - 정책에 이름과 설명을 지정 합니다. 정책을 만든 후에는 정책 이름을 변경할 수 없습니다.
     - 조직의 모든 사용자, 특정 사용자 및 그룹, 제외 하려는 기타 사용자 및 그룹을 비롯 하 여 감독할 사용자 또는 그룹을 선택 합니다.
     - 정책에 대 한 검토자를 선택 합니다. 검토자가 개별 사용자이 고 모든 검토자에 게 Exchange Online에서 호스트 되는 사서함이 있어야 합니다.
-    - Exchange, Microsoft 팀 또는 비즈니스용 Skype를 포함 하 여 검색할 통신 채널을 선택 합니다. 또한 Microsoft 365에서 커넥터를 구성한 경우 타사 출처를 검색 하도록 선택 합니다.
+    - Exchange, Microsoft 팀, Yammer 또는 비즈니스용 Skype를 포함 하 여 검색할 통신 채널을 선택 합니다. 또한 Microsoft 365에서 커넥터를 구성한 경우 타사 출처를 검색 하도록 선택 합니다.
     - 인바운드, 아웃 바운드 또는 내부 통신을 포함 하 여 모니터링할 통신 방향을 선택 합니다.
     - 통신 준수 정책 [조건을](communication-compliance-feature-reference.md#ConditionalSettings)정의 합니다. 메시지 주소, 키워드, 파일 형식 및 크기 일치 조건에서 선택할 수 있습니다.
     - 중요 한 정보 유형을 포함 하 고 싶은 경우 선택 합니다. 이 단계에서는 기본 및 사용자 지정 중요 한 정보 유형을 선택할 수 있습니다. 통신 준수 정책 마법사의 기존 사용자 지정 중요 한 정보 유형 또는 사용자 지정 키워드 사전을 선택 합니다. 필요한 경우 마법사를 실행 하기 전에 이러한 항목을 만들 수 있습니다. 또한 통신 준수 정책 마법사 내에서 새 중요 한 정보 유형을 만들 수도 있습니다.
@@ -147,7 +156,7 @@ Microsoft 365 준수 센터에서 **통신 준수** 를 메뉴 옵션으로 사�
 
 6. 정책이 활성화 되는 시기와 캡처할 통신에 대 한 지침과 함께 **정책 만들기** 페이지가 표시 됩니다.
 
-## <a name="step-5-optional-create-employee-notice-templates"></a>5 단계 (선택 사항): 직원 공지 서식 파일 만들기
+## <a name="step-6-optional-create-employee-notice-templates"></a>6 단계 (선택 사항): 직원 공지 서식 파일 만들기
 
 관련 직원에 게 미리 알림 메시지를 보내 정책 경고에 응답 하는 옵션을 설정 하려면 조직에 공지 서식 파일을 하나 이상 만들어야 합니다. 알림 서식 파일 필드는 경고 업데이트 관리 프로세스의 일부로 전송 되기 전에 편집 가능 하 게 되며 각 통신 준수 정책에 대해 사용자 지정 된 공지 서식 파일을 만드는 것이 좋습니다.
 
@@ -167,14 +176,14 @@ Microsoft 365 준수 센터에서 **통신 준수** 를 메뉴 옵션으로 사�
 
 5. **저장** 을 선택 하 여 알림 서식 파일을 만들고 저장 합니다.
 
-## <a name="step-6-optional-test-your-communication-compliance-policy"></a>6 단계 (선택 사항): 통신 준수 정책 테스트
+## <a name="step-7-optional-test-your-communication-compliance-policy"></a>7 단계 (선택 사항): 통신 준수 정책 테스트
 
 통신 준수 정책을 만든 후에는 테스트를 통해 정의한 조건이 정책에 의해 적절 하 게 적용 되는지 확인 하는 것이 좋습니다. 또한 통신 준수 정책에 중요 한 정보 유형이 포함 되어 있는 경우 [DLP (데이터 손실 방지) 정책을 테스트할](create-test-tune-dlp-policy.md) 수도 있습니다. 테스트할 통신을 캡처할 수 있도록 정책에 대 한 정품 인증을 제공 해야 합니다.
 
 다음 단계에 따라 통신 준수 정책을 테스트 합니다.
 
-1. 테스트할 정책에 정의 된 감독 된 사용자로 로그인 한 상태에서 전자 메일 클라이언트 또는 Microsoft 팀을 엽니다.
-2. 통신 준수 정책에 정의한 기준을 충족 하는 전자 메일 또는 Microsoft 팀 채팅을 보냅니다. 이 테스트는 키워드, 첨부 파일 크기, 도메인 등이 될 수 있습니다. 정책에서 구성 된 조건부 설정이 너무 제한적일 또는 너무 lenient 인지 확인 합니다.
+1. 테스트 하려는 정책에 정의 된 감독 된 사용자로 로그인 한 상태에서 전자 메일 클라이언트, Microsoft 팀 또는 Yammer를 엽니다.
+2. 통신 준수 정책에 정의한 기준을 충족 하는 전자 메일, Microsoft 팀 채팅 또는 Yammer 메시지를 보냅니다. 이 테스트는 키워드, 첨부 파일 크기, 도메인 등이 될 수 있습니다. 정책에서 구성 된 조건부 설정이 너무 제한적일 또는 너무 lenient 인지 확인 합니다.
 
     > [!NOTE]
     > 모든 원본 채널의 통신은 정책에서 완전히 처리 되는 데 최대 24 시간이 걸릴 수 있습니다.

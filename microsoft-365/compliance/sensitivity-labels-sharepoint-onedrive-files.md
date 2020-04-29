@@ -17,16 +17,16 @@ search.appverid:
 - MOE150
 - MET150
 description: 관리자는 SharePoint 및 OneDrive에서 Word, Excel 및 PowerPoint 파일에 대해 민감도 레이블 지원을 사용 하도록 설정할 수 있습니다.
-ms.openlocfilehash: 3127b4ac7b661cd5143052d298424e24d26071a5
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 09b955a3cf5b987d2ca7dac37c4c604fb45a2e56
+ms.sourcegitcommit: 90f7bbba5fc23f10b59c75b2b65d6c0903ce66dd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635786"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43930148"
 ---
 # <a name="enable-sensitivity-labels-for-office-files-in-sharepoint-and-onedrive-public-preview"></a>SharePoint 및 OneDrive에서 Office 파일에 대한 민감도 레이블 사용(공개 미리 보기)
 
->*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](https://aka.ms/ComplianceSD)*
+>*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](https://aka.ms/ComplianceSD).*
 
 이 미리 보기를 수행 하기 전에는 Office의 웹에 [민감도 레이블을](sensitivity-labels.md) 적용할 수 없습니다. 리본 메뉴에 **민감도** 옵션이 없거나 상태 표시줄에 적용 된 레이블 이름이 표시 되지 않았습니다. 또한 데스크톱 앱을 사용 하 여 파일에 레이블을 지정한 다음 SharePoint 또는 Onedrive에 저장 하면 해당 레이블에서 암호화를 적용 한 경우 이러한 파일의 내용을 처리할 수 없습니다. 이러한 상황에서는 공동 작성, eDiscovery, 데이터 손실 방지, 검색, Delve 및 기타 공동 작업 기능이 작동 하지 않습니다. 
 
@@ -104,7 +104,7 @@ ms.locfileid: "43635786"
 
 ## <a name="prepare-the-sharepoint-online-management-shell-for-the-preview"></a>미리 보기에 대 한 SharePoint Online 관리 셸 준비
 
-미리 보기를 사용 하도록 설정 하기 전에 SharePoint Online 관리 셸 버전 16.0.19418.12000 이상이 실행 되 고 있는지 확인 합니다. 최신 버전을 이미 사용 하 고 있는 경우 미리 보기를 사용할 수 있습니다.
+PowerShell을 사용 하 여 미리 보기를 사용 하도록 설정 하려면 SharePoint Online 관리 셸 버전 16.0.19418.12000 이상이 실행 되 고 있는지 확인 합니다. 최신 버전을 이미 사용 하 고 있는 경우 미리 보기를 사용할 수 있습니다.
 
 1. PowerShell 갤러리에서 이전 버전의 SharePoint Online 관리 셸을 설치한 경우 다음 cmdlet을 실행하여 모듈을 업데이트할 수 있습니다.
 
@@ -119,7 +119,6 @@ ms.locfileid: "43635786"
 4. 언어를 선택한 다음 **다운로드**를 클릭합니다.
 
 5. X64 및 x86 .msi 파일 중에서 선택합니다. 64 비트 버전의 Windows 또는 x86 파일 (32 비트 버전을 실행 하는 경우)을 실행 하는 경우 x64 파일을 다운로드 합니다. 알 수 없는 경우 [실행 중인 Windows 운영 체제 버전](https://support.microsoft.com/help/13443/windows-which-operating-system) 을 확인 하세요.
-
 
 6. 파일을 다운로드 한 후에는 파일을 실행 하 고 설치 마법사의 단계를 따릅니다.
 
@@ -137,6 +136,25 @@ ms.locfileid: "43635786"
     Set-SPOTenant -EnableAIPIntegration $true  
     ```
 3. Office 365 다중 사용자의 경우 나머지 각 지리적 위치에 대해 1 ~ 2 단계를 반복 합니다.
+
+## <a name="use-the-compliance-center-to-enable-support-for-sensitivity-labels"></a>준수 센터를 사용 하 여 민감도 레이블 지원 설정
+
+미리 보기를 사용 하도록 설정 하기 위한 대체 방법으로이 옵션은 현재 테 넌 트로 롤아웃 됩니다.
+
+조직의 전역 관리자는 민감도 레이블의 모든 측면을 작성하고 관리할 수있는 모든 권한을 가지고 있습니다. 전역 관리자로 로그인하지 않은 경우 [민감도 레이블을 만들고 관리하는 데 필요한 권한](get-started-with-sensitivity-labels.md#permissions-required-to-create-and-manage-sensitivity-labels)을 참조하십시오.
+
+1. [Microsoft 365 준수 센터](https://compliance.microsoft.com/)에 로그인 하 고 **솔루션** > **정보 보호** 로 이동 합니다.
+    
+    이 옵션이 바로 보이지 않는 경우에는 먼저 **모두 표시**를 선택합니다. 
+
+2. Office online 파일에서 콘텐츠를 처리할 수 있는 기능을 설정 하는 메시지가 표시 되 면 **레이블** 탭에서 **지금 사용**을 선택 합니다.
+    
+    ![지금 설정 단추를 클릭 하 여 Office Online에 민감도 레이블을 사용 하도록 설정](../media/sensitivity-labels-turn-on-banner.png)
+    
+    이 명령은 즉시 실행 되며, 다음에 페이지를 새로 고치면 메시지 또는 단추가 더 이상 표시 되지 않습니다. 
+
+> [!NOTE]
+> Office 365 다중 Geo가 있는 경우 PowerShell을 사용 하 여 모든 지리적 위치에서 이러한 기능을 사용 하도록 설정 해야 합니다. 자세한 내용은 이전 섹션을 참조 하십시오.
 
 ## <a name="schedule-roll-out-after-you-create-or-change-a-sensitivity-label"></a>민감도 레이블을 만들거나 변경한 후 일정 롤업
 

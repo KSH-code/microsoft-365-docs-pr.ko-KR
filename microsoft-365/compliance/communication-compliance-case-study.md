@@ -1,6 +1,6 @@
 ---
-title: 사례 연구-Contoso는 Microsoft 팀 및 Exchange 통신에 대 한 비속어 (공격적인 언어 정책)를 빠르게 구성 합니다.
-description: Contoso에 대 한 사례 연구 및 Microsoft 팀 및 Exchange Online 통신에서 비속어를 모니터링 하기 위한 통신 준수 정책을 신속 하 게 구성 하는 방법
+title: 사례 연구-Contoso는 Microsoft 팀, Exchange 및 Yammer 통신에 대 한 비속어 (공격적인 언어 정책)를 빠르게 구성 합니다.
+description: Contoso에 대 한 사례 연구 및 Microsoft 팀, Exchange Online 및 Yammer 통신에서 악의적인 언어를 모니터링 하도록 통신 준수 정책을 신속 하 게 구성 하는 방법을 설명 합니다.
 f1.keywords:
 - NOCSH
 ms.author: robmazz
@@ -19,18 +19,18 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: e4cab1d34d17b5ecbe23aaba53698f61473bc6a8
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 39815140d223d95275e03b0e85b931699bd69f7e
+ms.sourcegitcommit: 2399ee6f9bc955cf8f2a76c01fc84c19eb37ff42
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637180"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43919715"
 ---
-# <a name="case-study---contoso-quickly-configures-an-offensive-language-policy-for-microsoft-teams-and-exchange-communications"></a>사례 연구-Contoso는 Microsoft 팀 및 Exchange 통신에 대 한 비속어 (공격적인 언어 정책)를 빠르게 구성 합니다.
+# <a name="case-study---contoso-quickly-configures-an-offensive-language-policy-for-microsoft-teams-exchange-and-yammer-communications"></a>사례 연구-Contoso는 Microsoft 팀, Exchange 및 Yammer 통신에 대 한 비속어 (공격적인 언어 정책)를 빠르게 구성 합니다.
 
-Microsoft 365의 통신 준수 기능은 조직의 부적절 한 메시지에 대 한 검색, 캡처 및 수정 작업 수행을 지원 하 여 통신 위험을 최소화 하는 데 도움이 됩니다. 미리 정의 된 정책 및 사용자 지정 정책을 사용 하면 정책 일치에 대 한 내부 및 외부 통신을 검색 하 여 지정한 검토자가 검사할 수 있습니다. 검토자는 조직에서 검사 된 전자 메일, Microsoft 팀 또는 타사 통신을 조사 하 고 적절 한 교정 작업을 수행 하 여 조직의 메시지 표준을 준수 하도록 할 수 있습니다.
+Microsoft 365의 통신 준수 기능은 조직의 부적절 한 메시지에 대 한 검색, 캡처 및 수정 작업 수행을 지원 하 여 통신 위험을 최소화 하는 데 도움이 됩니다. 미리 정의 된 정책 및 사용자 지정 정책을 사용 하면 정책 일치에 대 한 내부 및 외부 통신을 검색 하 여 지정한 검토자가 검사할 수 있습니다. 검토자는 조직에서 스캔 한 전자 메일, Microsoft 팀, Yammer 또는 타사 통신을 조사 하 고 적절 한 교정 작업을 수행 하 여 조직의 메시지 표준을 준수 하도록 할 수 있습니다.
 
-Contoso Corporation은 공격적인 언어를 모니터링 하도록 정책을 빠르게 구성 해야 하는 가상 조직입니다. Microsoft 365은 주로 전자 메일 및 Microsoft 팀의 직원을 지원 하기 위해 사용 되었지만 작업 공간 harassment에 회사 정책을 적용 하기 위한 새로운 요구 사항이 있습니다. Contoso IT 관리자 및 준수 전문가는 Microsoft 365의 기본 작업에 대 한 기본적인 지식을 이해 하 고 있으며, 통신 준수를 빠르게 시작 하는 방법에 대 한 종단 간 지침을 찾고 있습니다.
+Contoso Corporation은 공격적인 언어를 모니터링 하도록 정책을 빠르게 구성 해야 하는 가상 조직입니다. Microsoft 365은 주로 전자 메일, Microsoft 팀 및 Yammer 지원에 대해 사용 되었지만 작업 공간 harassment에 회사 정책을 적용 하기 위한 새로운 요구 사항이 있습니다. Contoso IT 관리자 및 준수 전문가는 Microsoft 365의 기본 작업에 대 한 기본적인 지식을 이해 하 고 있으며, 통신 준수를 빠르게 시작 하는 방법에 대 한 종단 간 지침을 찾고 있습니다.
 
 이 사례 연구에서는 악의적인 언어에 대 한 통신을 모니터링 하기 위한 통신 준수 정책을 빠르게 구성 하는 기본 사항을 다룹니다. 이 지침에는 다음이 포함 됩니다.
 
@@ -41,7 +41,7 @@ Contoso Corporation은 공격적인 언어를 모니터링 하도록 정책을 �
 
 ## <a name="step-1---planning-for-communication-compliance"></a>1 단계-통신 준수 계획
 
-Contoso IT administrators 및 규정 준수 전문가는 Microsoft 365의 규정 준수 솔루션에 대 한 온라인 웹 세미나 통신 준수 정책을 통해 작업 공간 harassment를 줄이기 위한 업데이트 된 회사 정책 요구 사항을 충족 하도록 했습니다. 공동 작업 Exchange Online으로 전송 된 전자 메일 메시지에서 Microsoft 팀으로 전송 되는 채팅에 대 한 악의적인 언어를 모니터링 하는 통신 준수 정책을 만들고 사용 하도록 설정 하는 계획을 개발 했습니다. 계획에는 다음이 포함 됩니다.
+Contoso IT administrators 및 규정 준수 전문가는 Microsoft 365의 규정 준수 솔루션에 대 한 온라인 웹 세미나 통신 준수 정책을 통해 작업 공간 harassment를 줄이기 위한 업데이트 된 회사 정책 요구 사항을 충족 하도록 했습니다. 공동 작업에서는 Microsoft 팀, 개인 메시지 및 커뮤니티 대화, 그리고 Exchange Online에서 전송 되는 전자 메일 메시지에서 보낸 채팅에 대 한 악의적인 언어를 모니터링 하는 통신 준수 정책을 만들고 사용 하도록 설정 하는 계획을 개발 했습니다. 계획에는 다음이 포함 됩니다.
 
 - 통신 준수 기능에 액세스 해야 하는 IT 관리자
 - 통신 정책을 만들고 관리 해야 하는 준수 전문가
@@ -146,6 +146,12 @@ Microsoft 365 [관리 센터에서https://admin.microsoft.com) ](https://admin.m
 통신 준수를 위해서는 감사 로그가 알림을 표시 하 고 검토자가 수행한 업데이트 관리 작업을 추적 해야 합니다. 감사 로그는 정의 된 조직 정책과 관련 된 모든 활동을 요약 한 것 이거나, 통신 준수 정책이 변경 된 경우에도 발생 합니다.
 
 Contoso IT 관리자는 감사를 설정 하는 단계별 [지침](https://docs.microsoft.com/microsoft-365/compliance/turn-audit-log-search-on-or-off) 을 검토 하 고 완료 합니다. 감사를 설정한 후에는 감사 로그를 준비 중 이며 준비 완료 후 몇 시간 내에 검색을 실행할 수 있음을 알리는 메시지가 표시 됩니다. Contoso IT 관리자는이 작업을 한 번만 수행 하면 됩니다.
+
+### <a name="configuring-yammer-tenant-for-native-mode"></a>기본 모드에 대 한 Yammer 테 넌 트 구성
+
+통신 규정을 준수 하려면 조직에 대 한 Yammer 테 넌 트를 전용 모드로 사용 하 여 비공개 메시지 및 공용 커뮤니티 대화에서 비속어를 모니터링 해야 합니다.
+
+Contoso IT 관리자는 [microsoft 365의 Yammer 기본 모드 개요](https://docs.microsoft.com/yammer/configure-your-yammer-network/overview-native-mode) 에 나와 있는 정보를 검토 하 고 [Microsoft 365 용 기본 모드에 대 한 yammer 네트워크 구성](https://docs.microsoft.com/yammer/configure-your-yammer-network/native-mode) 항목에서 마이그레이션 도구를 실행 하는 단계를 수행 합니다.
 
 ### <a name="setting-up-a-group-for-in-scope-users"></a>범위 내 사용자에 대 한 그룹 설정
 

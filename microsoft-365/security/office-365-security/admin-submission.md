@@ -15,12 +15,12 @@ search.appverid:
 ms.collection:
 - M365-security-compliance
 description: 회사의 의심 스러운 전자 메일, 의심 스러운 메일, 스팸 및 기타 해로운 메시지, Url 및 파일을 검색을 위해 Microsoft에 제출 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 2d86555854f9babd202764f1bad8b548daf52c70
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 73c33ba1218a710c33f8b2675bc65c0a7486efda
+ms.sourcegitcommit: d929fa32fc2dfb0749fa2420eddbc2251d8489dc
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631384"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43921531"
 ---
 # <a name="use-admin-submission-to-submit-suspected-spam-phish-urls-and-files-to-microsoft"></a>관리자 제출을 사용하여 의심스러운 스팸, 피싱, URL 및 파일을 Microsoft에 제출
 
@@ -28,52 +28,213 @@ Exchange Online의 사서함이 있는 Microsoft 365 조직의 관리자 인 경
 
 전자 메일을 제출 하면 메일에 포함 된 Url 및 첨부 파일을 검사 하는 것은 물론 수신 전자 메일을 허용 했을 수 있는 모든 정책에 대 한 정보를 받게 됩니다. 메일을 허용할 수 있는 정책에는 개별 사용자의 수신 허용-보낸 사람 목록 뿐 아니라 Exchange 메일 흐름 규칙 (전송 규칙이 라고도 함)과 같은 테 넌 트 수준 정책이 포함 됩니다.
 
-전자 메일 메시지, Url 및 첨부 파일을 Microsoft에 전송 하는 다른 방법에 대해서는 다음을 참조 하세요. 
+전자 메일 메시지, Url 및 첨부 파일을 Microsoft에 전송 하는 다른 방법에 대 한 자세한 내용은 [Report messages and files In microsoft](report-junk-email-messages-to-microsoft.md)를 참조 하십시오.
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
 
-- <https://protection.office.com/>에서 보안 및 준수 센터를 엽니다. **제출** 페이지로 바로 이동 하려면을 사용 <https://protection.office.com/reportsubmission>합니다.
+- <https://protection.office.com/>에서 보안 및 규정 준수 센터를 엽니다. **제출** 페이지로 바로 이동 하려면을 사용 <https://protection.office.com/reportsubmission>합니다.
 
-- Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결하기](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell)를 참조하세요. Exchange Online Protection PowerShell에 연결하려면 [Exchange Online Protection PowerShell에 연결하기](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell)를 참조하세요.
+- 이 절차를 수행하려면 먼저 사용 권한을 할당받아야 합니다. 스팸 방지 정책을 추가, 수정 및 삭제 하려면 **조직 관리**, **보안 관리자**또는 **보안 독자** 역할 그룹의 구성원 이어야 합니다. 보안 및 규정 준수 센터의 역할 그룹에 대한 자세한 내용은 [보안 및 규정 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)을 참조하세요.
 
-- 이 절차를 수행하려면 먼저 사용 권한을 할당 받아야 합니다. 스팸 방지 정책을 추가, 수정 및 삭제 하려면 **조직 관리**, **보안 관리자**또는 **보안 독자** 역할 그룹의 구성원 이어야 합니다. 보안 & 준수 센터의 역할 그룹에 대 한 자세한 내용은 [보안 & 준수 센터의 사용 권한을](permissions-in-the-security-and-compliance-center.md)참조 하세요.
+- 사용자가 메시지 및 파일을 Microsoft에 전송 하는 방법에 대 한 자세한 내용은 [Report messages and files In microsoft를](report-junk-email-messages-to-microsoft.md)참조 하십시오.
 
-- 사용자가 메시지 및 파일을 Microsoft에 전송 하는 방법에 대 한 자세한 내용은 [Report 메시지 및 파일을 microsoft에](report-junk-email-messages-to-microsoft.md)참고 하십시오.
+## <a name="report-suspicious-content-to-microsoft"></a>의심 스러운 콘텐츠를 Microsoft에 보고
 
-## <a name="how-to-direct-suspicious-content-to-microsoft-scanning"></a>의심 스러운 콘텐츠를 Microsoft 검색으로 전달 하는 방법
+1. 보안 & 준수 센터에서 **위협 관리** \> **검토** \> **관리자 전송 메시지로**이동 합니다.
 
-Microsoft로 콘텐츠를 전송 하려면 제출 페이지의 왼쪽 위에 있는 **새 제출** 단추를 클릭 합니다. 전자 메일, URL 또는 파일을 전송 하는 옵션을 사용 하 여 페이지 오른쪽에 플라이 아웃이 표시 됩니다.
+2. **제출** 페이지가 나타나면 **새로 제출** 단추를 클릭 합니다.
+
+3. 다음 섹션에 설명 된 대로 메시지, URL 또는 첨부 파일을 전송 하는 것 처럼 보이는 **새 전송** 플라이 아웃을 사용 합니다.
 
 ### <a name="submit-a-questionable-email-to-microsoft"></a>Microsoft에 의심 스러운 전자 메일 제출
 
-![전자 메일 전송 예](../../media/submission-flyout-email.PNG)
+1. **개체 유형** 섹션에서 **전자 메일**을 선택 합니다. **전송 형식** 섹션에서 다음 옵션 중 하나를 사용 합니다.
 
-1. 전자 메일을 제출 하려면 **전자 메일** 을 선택 하 고 전자 메일 **네트워크 메시지 ID** 를 지정 하거나 전자 메일 파일을 업로드 합니다.
+   - **네트워크 메시지 id**: 메시지의 **X-Exchange-네트워크 메시지 ID** 헤더에서 사용할 수 있는 GUID 값입니다.
 
-2. 정책 확인을 실행 하려는 받는 사람을 지정 합니다. 정책 확인은 사용자 또는 테 넌 트 수준 정책으로 인해 전자 메일에서 검색이 사용 되지 않는지 확인 합니다.
+   - **파일**: **파일 선택을**클릭 합니다. 대화 상자가 열리면 .eml 또는 .msg 파일을 찾아 선택한 다음 **열기**를 클릭 합니다.
 
-3. 전자 메일이 차단 되었는지 여부를 지정 합니다. 전자 메일이 차단 되어야 하는 경우 스팸, 피싱 또는 맬웨어로 차단 되어야 하는지 여부를 지정 합니다. 어떤 종류의 입력이 가능한 지 모르는 경우 가장 좋은 판단을 사용 합니다.
+2. **받는 사람** 섹션에서 정책을 확인 하기 위해 실행할 받는 사람을 한 명 이상 지정 합니다. 정책 확인에서는 사용자 또는 조직 정책으로 인해 전자 메일에서 검색을 통과 하지 않는지 확인 합니다.
 
-   - 전송 시 정책으로 인해 필터가 생략 되 면 해당 정책에 대 한 정보를 볼 수 있습니다.
+3. **제출 사유** 섹션에서 다음 옵션 중 하나를 선택 합니다.
 
-   - 하나 이상의 정책으로 인해 필터가 무시 되지 않으면 몇 분 안에 검색이 완료 됩니다. 상태 링크를 클릭 하 여 전송에 대 한 추가 정보를 볼 수 있습니다. 여기에는 정책 확인 및 다시 검사 결과의 결과가 포함 됩니다. 참고 Office 365 ATP 전체 필터링 스택을 통해 전자 메일을 다시 실행 하지만 메일, URL 또는 파일의 특정 특성에 따라 부분 다시 검사를 실행 하는 것은 아닙니다.
+   - **차단 되지 않아야 합니다.**
 
-4. **제출** 단추를 클릭 합니다.
+   - **차단 됨**: **스팸**, **피싱**또는 **맬웨어**를 선택 합니다. 확실히 모르겠으면 가장 좋은 판단을 사용 하세요.
+
+4. 전송 시 정책으로 인해 필터가 생략 되 면 해당 정책에 대 한 정보를 볼 수 있습니다.
+
+   하나 이상의 정책으로 인해 필터가 무시 되지 않으면 몇 분 안에 검색이 완료 됩니다. 상태 링크를 클릭 하 여 전송에 대 한 추가 정보를 볼 수 있습니다. 여기에는 정책 확인 및 다시 검사 결과의 결과가 포함 됩니다. 참고 Office 365 ATP 전체 필터링 스택을 통해 전자 메일을 다시 실행 하지만 메일, URL 또는 파일의 특정 특성에 따라 부분 다시 검사를 실행 하는 것은 아닙니다.
+
+5. 작업이 끝나면 **Submit (제출** ) 단추를 클릭 합니다.
+
+![URL 전송 예](../../media/submission-flyout-email.PNG)
 
 ### <a name="send-a-suspect-url-to-microsoft"></a>Microsoft에 의심 스러운 URL 보내기
 
+1. **개체 유형** 섹션에서 **URL**을 선택 합니다. 상자가 나타나면 전체 URL (예: <https://www.fabrikam.com/marketing.html>)을 입력 합니다.
+
+2. **제출 사유** 섹션에서 다음 옵션 중 하나를 선택 합니다.
+
+   - **차단 되지 않아야 합니다.**
+
+   - **차단 되어야**하는 경우: **피싱** 또는 **맬웨어**를 선택 합니다.
+
+3. 작업이 끝나면 **Submit (제출** ) 단추를 클릭 합니다.
+
 ![전자 메일 전송 예](../../media/submission-url-flyout.png)
-
-1. URL을 제출 하려면 플라이 아웃에서 **url** 을 선택 합니다. 프로토콜 (**https://**)을 포함 하 여 전체 URL을 입력 합니다.
-
-   **필터**를 선택한 경우 URL이 피싱 또는 맬웨어 인지 지정 합니다.
-
-2. **제출** 단추를 클릭 합니다.
 
 ### <a name="submit-a-suspected-file-to-microsoft"></a>Microsoft에 의심 스러운 파일 제출
 
-![전자 메일 전송 예](../../media/submission-file-flyout.PNG)
+1. **개체 유형** 섹션에서 **첨부 파일**을 선택 합니다.
 
-1. 파일을 제출 하려면 플라이 아웃에서 **파일** 을 선택 하 고 검색할 파일을 업로드 합니다.
+2. **파일 선택을**클릭 합니다. 대화 상자가 열리면 파일을 찾아 선택한 다음 **열기**를 클릭 합니다.
 
-2. **제출** 단추를 클릭 합니다.
+3. **제출 사유** 섹션에서 다음 옵션 중 하나를 선택 합니다.
+
+   - **차단 되지 않아야 합니다.**
+
+   - **차단 됨**: **맬웨어가** 유일한 선택 항목 이며 자동으로 선택 됩니다.
+
+4. 작업이 끝나면 **Submit (제출** ) 단추를 클릭 합니다.
+
+![첨부 파일 전송 예](../../media/submission-file-flyout.PNG)
+
+## <a name="view-admin-submissions"></a>관리자 전송 보기
+
+1. 보안 & 준수 센터에서 **위협 관리** \> **검토** \> **관리자 전송 메시지로**이동 합니다.
+
+2. **제출** 페이지가 나타나면 **관리자 제출** 탭이 선택 되어 있는지 확인 합니다.
+
+페이지 맨 위에 있는 시작 날짜와 끝 날짜를 입력할 수 있으며, 기본적으로 상자에 값을 입력 하 고 새로 고침 단추 ![](../../media/scc-quarantine-refresh.png)를 클릭 하 여 **제출 ID** 를 기준으로 필터링 할 수 있습니다. Update
+
+필터 조건을 변경 하려면 **제출 ID** 단추를 클릭 하 고 다음 값 중 하나를 선택 합니다.
+
+- **보낸 사람**
+- **제목/u i/파일 이름**
+- **제출한 사람**
+- **전송 유형**
+- **상태**
+
+![관리자 전송에 대 한 필터 옵션](../../media/admin-submission-email-filter-options.png)
+
+결과를 내보내려면 페이지 위쪽에서 **내보내기를** 클릭 하 고 **차트 데이터** 또는 **표**를 선택 합니다. 대화 상자가 나타나면 .csv 파일을 저장 합니다.
+
+그래프 아래에는 **전자 메일** (기본값), **URL**및 **첨부 파일**의 세 가지 탭이 있습니다.
+
+### <a name="view-admin-email-submissions"></a>관리자 전자 메일 전송 보기
+
+**전자 메일** 탭을 클릭 합니다.
+
+페이지 아래쪽에 있는 **열 옵션** 단추를 클릭 하 여 보기에서 열을 추가 하거나 제거할 수 있습니다.
+
+- **날짜**
+- **전송 ID**
+- **제출한 사람**<sup>\*</sup>
+- **제목**<sup>\*</sup>
+- **보낸 사람**
+- **보낸 사람 IP**<sup>\*</sup>
+- **전송 유형**
+- **배달 이유**
+- **상태별**<sup>\*</sup>
+- **컨트롤 형식**
+- **컨트롤 원본**
+
+  <sup>\*</sup>이 값을 클릭 하면 자세한 정보가 플라이 아웃에 표시 됩니다.
+
+### <a name="view-admin-url-submissions"></a>관리자 URL 전송 보기
+
+**URL** 탭을 클릭 합니다.
+
+페이지 아래쪽에 있는 **열 옵션** 단추를 클릭 하 여 보기에서 열을 추가 하거나 제거할 수 있습니다.
+
+- **날짜**
+- **전송 ID**
+- **제출한 사람**<sup>\*</sup>
+- **URL**<sup>\*</sup>
+- **전송 유형**
+- **상태별**<sup>\*</sup>
+
+  <sup>\*</sup>이 값을 클릭 하면 자세한 정보가 플라이 아웃에 표시 됩니다.
+
+### <a name="view-admin-attachment-submissions"></a>관리자 첨부 파일 전송 보기
+
+**첨부 파일** 탭을 클릭 합니다.
+
+페이지 아래쪽에 있는 **열 옵션** 단추를 클릭 하 여 보기에서 열을 추가 하거나 제거할 수 있습니다.
+
+- **날짜**
+- **전송 ID**
+- **제출한 사람**<sup>\*</sup>
+- **파일 이름**<sup>\*</sup>
+- **전송 유형**
+- **상태별**<sup>\*</sup>
+
+  <sup>\*</sup>이 값을 클릭 하면 자세한 정보가 플라이 아웃에 표시 됩니다.
+
+## <a name="view-user-submissions-to-microsoft"></a>Microsoft에 대 한 사용자 제출을 확인 합니다.
+
+[보고서 메시지 추가 기능](enable-the-report-message-add-in.md)을 배포 했거나 사용자가 [웹에서 Outlook의 기본 제공 보고](report-junk-email-and-phishing-scams-in-outlook-on-the-web-eop.md)를 사용 하는 경우 **사용자 전송** 탭에서 사용자에 게 보고 하는 항목을 확인할 수 있습니다.
+
+1. 보안 & 준수 센터에서 **위협 관리** \> **검토** \> **관리자 전송 메시지로**이동 합니다.
+
+2. **제출** 페이지가 나타나면 **사용자 제출 서류** 탭을 클릭 합니다.
+
+페이지 아래쪽에 있는 **열 옵션** 단추를 클릭 하 여 보기에서 열을 추가 하거나 제거할 수 있습니다.
+
+- **제출 된 날짜**
+- **제출한 사람**<sup>\*</sup>
+- **제목**<sup>\*</sup>
+- **보낸 사람**
+- **보낸 사람 IP**<sup>\*</sup>
+- **전송 유형**
+
+<sup>\*</sup>이 값을 클릭 하면 자세한 정보가 플라이 아웃에 표시 됩니다.
+
+페이지 맨 위에 있는 시작 날짜와 끝 날짜를 입력할 수 있으며, 기본적으로 상자에 값을 입력 하 고 새로 고침 단추 ![](../../media/scc-quarantine-refresh.png)를 클릭 하 여 **보낸 사람** 을 기준으로 필터링 할 수 있습니다. Update
+
+필터 조건을 변경 하려면 **보낸 사람** 단추를 클릭 하 고 다음 값 중 하나를 선택 합니다.
+
+- **보낸 사람 도메인**
+- **제목**
+- **제출한 사람**
+- **전송 유형**
+- **보낸 사람 IP**
+
+![사용자 전송에 대 한 필터 옵션](../../media/user-submissions-filter-options.png)
+
+결과를 내보내려면 페이지 위쪽에서 **내보내기를** 클릭 하 고 **차트 데이터** 또는 **표**를 선택 합니다. 대화 상자가 나타나면 .csv 파일을 저장 합니다.
+
+## <a name="view-user-submissions-to-the-custom-mailbox"></a>사용자 지정 사서함에 대 한 사용자 전송 보기
+
+사용자가 보고 한 메시지를 수신 하도록 [사용자 지정 사서함을 구성한](user-submission.md) 경우 보고 사서함으로 배달 된 메시지를 확인 하 고 제출할 수 있습니다.
+
+1. 보안 & 준수 센터에서 **위협 관리** \> **검토** \> **관리자 전송 메시지로**이동 합니다.
+
+2. **제출** 페이지가 나타나면 **사용자 지정 사서함** 탭을 클릭 합니다.
+
+페이지 아래쪽에 있는 **열 옵션** 단추를 클릭 하 여 보기에서 열을 추가 하거나 제거할 수 있습니다.
+
+- **제출 된 날짜**
+- **제출한 사람**<sup>\*</sup>
+- **제목**<sup>\*</sup>
+- **보낸 사람**
+- **보낸 사람 IP**<sup>\*</sup>
+- **전송 유형**
+
+페이지 위쪽에 있는 시작 날짜, 종료 날짜를 입력 하 고 상자에 값을 입력 하 고 새로 고침 단추 ![](../../media/scc-quarantine-refresh.png)를 **클릭 하 여** 필터링 하 여 필터할 수 있습니다. Update
+
+결과를 내보내려면 페이지 위쪽에서 **내보내기를** 클릭 하 고 **차트 데이터** 또는 **표**를 선택 합니다. 대화 상자가 나타나면 .csv 파일을 저장 합니다.
+
+### <a name="submit-messages-to-microsoft-from-the-custom-mailbox"></a>사용자 지정 사서함에서 Microsoft로 메시지 전송
+
+Microsoft에 메시지를 보내지 않고 사용자가 보고 한 메시지를 가로채는 사용자 지정 사서함을 구성한 경우 분석을 위해 특정 메시지를 찾아서 Microsoft로 보낼 수 있습니다. 이렇게 하면 사용자 제출을 관리자 제출으로 이동 됩니다.
+
+**사용자 지정 사서함** 탭의 목록에서 메시지를 선택 하 고 **실행** 단추를 클릭 한 후 다음 중 하나를 선택 합니다.
+
+- **보고서 정리**
+- **신고 피싱**
+- **맬웨어 보고**
+- **스팸 보고**
+
+![실행 단추 옵션](../../media/user-submission-custom-mailbox-action-button.png)

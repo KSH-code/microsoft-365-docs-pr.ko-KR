@@ -21,12 +21,12 @@ ms.assetid: 739574d7-2c5b-4911-a549-f56ecc7d3b48
 description: Microsoft 365 관리 센터-이 달에 추가 된 기능에 대해 알아봅니다.
 ms.custom:
 - MACDashWhatsNew
-ms.openlocfilehash: 0b6d0741b5c59b1d720ca1ef73c0d45a674569b1
-ms.sourcegitcommit: c758a4290d205394225a0df2fd667cb565c79c8f
+ms.openlocfilehash: e0f7242ff144b5e4b42a6cb1713b2ad5df41f2f3
+ms.sourcegitcommit: 2399ee6f9bc955cf8f2a76c01fc84c19eb37ff42
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43907240"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43919763"
 ---
 # <a name="whats-new-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터의 새로운 기능
 
@@ -49,6 +49,7 @@ Admin.microsoft.com에 로그인 하면 항상 새 관리 센터로 이동 합�
 - [Microsoft Intune의 새로운 기능](https://docs.microsoft.com/mem/intune/fundamentals/whats-new)
 - [Microsoft 365 준수 센터의 새로운 기능](https://docs.microsoft.com/Office365/SecurityCompliance/whats-new)
 - [SharePoint 관리 센터의 새로운 기능](https://docs.microsoft.com/sharepoint/what-s-new-in-admin-center)
+- [Exchange 관리 센터의 새로운 기능](https://docs.microsoft.com/Exchange/whats-new)
 - [Office 업데이트](https://docs.microsoft.com/OfficeUpdates/)
 
 ## <a name="march-2020"></a>2020년 3월
@@ -96,6 +97,7 @@ Microsoft 365 관리 센터를 사용 하 여 이제 SharePoint 모바일 앱 fo
 ### <a name="videos-training-and-docs"></a>동영상, 교육 및 문서
 
 [Microsoft 365 웹 시리즈의 새로운](https://go.microsoft.com/fwlink/p/?linkid=2118096)기능: 이번 달에는 microsoft 팀의 3 년 전 기념일을 강조 하 고, 온라인 모임에서 향상 된 오디오 품질, 이동 앱, 팀 및 Skype 소비자 상호 운용성 등의 firstline 관리자를 대상으로 하는 새로운 기능을 소개 합니다.
+
 
 ## <a name="february-2020"></a>2020년 2월
 
@@ -259,7 +261,7 @@ Office 앱에 중요 한 Office 기능을 출시할 때 사용자는 새 기능�
 > [!IMPORTANT]
 > 이제 일반 URL을 사용 하 여 SharePoint 관리 센터에 액세스할 수 있습니다.[https://admin.microsoft.com/SharePoint](https://admin.microsoft.com/SharePoint)
 
-자세한 내용은 [SharePoint 관리 센터의 새로운 기능](https://docs.microsoft.com/sharepoint/what-s-new-in-admin-center) 을 참조 하세요.
+자세한 내용은 [SharePoint 관리 센터의 새로운 기능](https://docs.microsoft.com/sharepoint/what-s-new-in-admin-center)을 참조 하세요.
 
 ## <a name="september-2019"></a>2019년 9월
 

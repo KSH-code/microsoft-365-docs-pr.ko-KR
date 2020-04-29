@@ -18,16 +18,16 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 25f69491156d7862d9dc145123ec158a3ff40556
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 1a63e71df0d9ac6d43fce31ad2e974b787697a9a
+ms.sourcegitcommit: 2399ee6f9bc955cf8f2a76c01fc84c19eb37ff42
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634190"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43919675"
 ---
 # <a name="communication-compliance-feature-reference"></a>통신 준수 기능 참조
 
-## <a name="policies"></a>정책도
+## <a name="policies"></a>정책
 
 >[!Important]
 >PowerShell을 사용 하 여 통신 준수 정책을 만들고 관리 하는 기능은 지원 되지 않습니다. 이러한 정책을 만들고 관리 하려면 [Microsoft 365 통신 규정 준수 솔루션](https://compliance.microsoft.com/supervisoryreview)의 정책 관리 컨트롤을 사용 해야 합니다.
@@ -43,13 +43,13 @@ Microsoft 365 준수 센터에서 Microsoft 365 조 직에 대 한 통신 준수
 
 |**영역**|**정책 템플릿**|**세부 정보**|
 |:-----|:-----|:-----|
-| **불쾌 한 언어 및 harassment** | 공격적인 언어에 대 한 통신 모니터링 | -위치: Exchange, 팀, 비즈니스용 Skype <br> -방향: 인바운드, 아웃 바운드, 내부 <br> -검토 비율: 100% <br> -조건: 공격적인 언어 분류자 |
-| **민감 정보** | 중요 한 정보에 대 한 통신 모니터링 | -위치: Exchange, 팀, 비즈니스용 Skype <br> -방향: 인바운드, 아웃 바운드, 내부 <br> -검토 비율: 10% <br> -조건: 중요 한 정보, 기본 콘텐츠 패턴 및 유형, 사용자 지정 사전 옵션, 1mb 보다 큰 첨부 파일 |
-| **규정 준수** | 금융 규제 준수와 관련 된 정보에 대 한 통신 모니터링 | -위치: Exchange, 팀, 비즈니스용 Skype <br> -방향: 인바운드, 아웃 바운드 <br> -검토 비율: 10% <br> -조건: 사용자 지정 사전 옵션, 1mb 보다 큰 첨부 파일 |
+| **불쾌 한 언어 및 harassment** | 공격적인 언어에 대 한 통신 모니터링 | -위치: Exchange Online, Microsoft 팀, Yammer, 비즈니스용 Skype <br> -방향: 인바운드, 아웃 바운드, 내부 <br> -검토 비율: 100% <br> -조건: 공격적인 언어 분류자 |
+| **민감 정보** | 중요 한 정보에 대 한 통신 모니터링 | -위치: Exchange Online, Microsoft 팀, Yammer, 비즈니스용 Skype <br> -방향: 인바운드, 아웃 바운드, 내부 <br> -검토 비율: 10% <br> -조건: 중요 한 정보, 기본 콘텐츠 패턴 및 유형, 사용자 지정 사전 옵션, 1mb 보다 큰 첨부 파일 |
+| **규정 준수** | 금융 규제 준수와 관련 된 정보에 대 한 통신 모니터링 | -위치: Exchange Online, Microsoft 팀, Yammer, 비즈니스용 Skype <br> -방향: 인바운드, 아웃 바운드 <br> -검토 비율: 10% <br> -조건: 사용자 지정 사전 옵션, 1mb 보다 큰 첨부 파일 |
 
 ## <a name="supervised-users"></a>감독 사용자
 
-통신 준수를 시작 하기 전에 통신을 검토할 사용자를 결정 해야 합니다. 정책에서 사용자 전자 메일 주소는 감독할에 해당 하는 개인 또는 사용자 그룹을 식별 합니다. 이러한 그룹의 몇 가지 예로는 Microsoft 365 그룹, Exchange 기반 메일 그룹 및 Microsoft 팀 채널이 있습니다. 특정 제외 그룹이 나 그룹 목록을 사용 하 여 특정 사용자 또는 그룹을 검색에서 제외할 수도 있습니다.
+통신 준수를 시작 하기 전에 통신을 검토할 사용자를 결정 해야 합니다. 정책에서 사용자 전자 메일 주소는 감독할에 해당 하는 개인 또는 사용자 그룹을 식별 합니다. 이러한 그룹의 몇 가지 예로는 Microsoft 365 그룹, Exchange 기반 메일 그룹, Yammer 커뮤니티 및 Microsoft 팀 채널이 있습니다. 특정 제외 그룹이 나 그룹 목록을 사용 하 여 특정 사용자 또는 그룹을 검색에서 제외할 수도 있습니다.
 
 >[!IMPORTANT]
 >통신 준수 정책에서 다루는 사용자에 게는 Microsoft 365 E5 준수 라이선스, 고급 준수 추가 기능이 포함 된 Office 365 Enterprise E3 라이선스 또는 Office 365 Enterprise E5 구독에 포함 되어 있어야 합니다. 기존 Enterprise E5 요금제가 없고 통신 준수를 시도 하려는 경우 [Office 365 Enterprise e 5의 평가판에 등록할](https://go.microsoft.com/fwlink/p/?LinkID=698279)수 있습니다.
@@ -75,6 +75,8 @@ Microsoft 365 준수 센터에서 Microsoft 365 조 직에 대 한 통신 준수
 
 - **Exchange 전자 메일**: Microsoft 365 또는 Office 365 구독의 일부로 exchange Online에서 호스트 되는 사서함은 모두 메시지를 검색 하는 데 적합 합니다. Exchange 전자 메일 메시지 및 통신 준수 정책 조건과 일치 하는 첨부 파일을 처리 하는 데 최대 24 시간이 걸릴 수 있습니다. 통신 준수를 위해 지원 되는 첨부 파일 유형은 [Exchange 메일 흐름 규칙 콘텐츠 검사에 대해 지원 되는 파일 형식과](https://docs.microsoft.com/exchange/security-and-compliance/mail-flow-rules/inspect-message-attachments#supported-file-types-for-mail-flow-rule-content-inspection)동일 합니다.
 
+- **Yammer**: yammer 커뮤니티의 개인 메시지와 공용 대화 및 연결 된 첨부 파일을 검색할 수 있습니다. 사용자가 Yammer를 정의 된 채널로 포함 하는 통신 준수 정책에 추가 되 면 사용자가 구성원으로 속해 있는 모든 Yammer 커뮤니티에서의 통신이 검색 프로세스에 포함 됩니다. 통신 준수 정책 조건과 일치 하는 Yammer 채팅 및 첨부 파일을 처리 하는 데 최대 24 시간이 걸릴 수 있습니다. Yammer는 Yammer 통신 및 첨부 파일을 모니터링 하기 위해 통신 준수 정책에 대 한 [기본 모드](https://docs.microsoft.com/yammer/configure-your-yammer-network/overview-native-mode) 여야 합니다. 기본 모드에서는 모든 Yammer 사용자가 Azure Active Directory (AAD)에 있고 모든 그룹은 Office 365 그룹 이며 모든 파일은 SharePoint Online에 저장 됩니다.
+
 - 비즈니스용 **Skype online**: 비즈니스용 skype online의 채팅 통신 및 관련 첨부 파일을 감독 합니다. 비즈니스용 Skype 온라인 채팅은 통신 준수 정책 조건과 일치 하는 프로세스에 최대 24 시간이 걸릴 수 있습니다. 감독 채팅 대화는 [비즈니스용 Skype Online에 저장 된 이전 대화](https://support.office.com/article/Find-a-previous-Skype-for-Business-conversation-18892eba-5f18-4281-8c87-fd48bd72e6a2)에서 원본으로 합니다.  비즈니스용 Skype Online에서 사용자 채팅 통신을 감독할 다음 그룹 관리 구성을 사용 합니다.
 
     - **비즈니스용 Skype 온라인 채팅 통신**: 개별 사용자를 할당 하거나 통신 준수 정책에 [메일 그룹](https://support.office.com/article/Distribution-groups-E8BA58A8-FAB2-4AAF-8AA1-2A304052D2DE) 을 할당 합니다. 이 설정은 일대일 또는 일대다 사용자/채팅 관계에 대 한 것입니다.
@@ -84,7 +86,6 @@ Microsoft 365 준수 센터에서 Microsoft 365 조 직에 대 한 통신 준수
     - [인스턴트 Bloomberg](archive-instant-bloomberg-data.md)
     - [Facebook](archive-facebook-data-with-sample-connector.md)
     - [LinkedIn](archive-linkedin-data.md)
-    - SAP SuccessFactors
     - [Twitter](archive-twitter-data-with-sample-connector.md)
     - [사용자 지정 데이터 커넥터](archiving-third-party-data.md)
 

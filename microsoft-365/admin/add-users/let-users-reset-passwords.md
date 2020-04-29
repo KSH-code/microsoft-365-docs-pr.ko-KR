@@ -23,12 +23,12 @@ search.appverid:
 - MOE150
 ms.assetid: 5bc3f460-13cc-48c0-abd6-b80bae72d04a
 description: 셀프 서비스 암호 재설정 도구를 사용 하 여 암호를 다시 설정 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: beffbcac997806f0c13347dfba42a1ab0ec65c1d
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 9d9a1f97f9f6fc59b54f2f9bdce9c337c7d57b13
+ms.sourcegitcommit: 2399ee6f9bc955cf8f2a76c01fc84c19eb37ff42
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43617149"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43919438"
 ---
 # <a name="let-users-reset-their-own-passwords"></a>사용자가 암호를 직접 재설정할 수 있도록 허용
 
@@ -65,12 +65,12 @@ ms.locfileid: "43617149"
 
 ::: moniker range="o365-21vianet"
 
-1. <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">관리 센터</a>에서 **설정** \> ** &amp; 보안 개인 정보** 페이지로 이동 합니다.
+1. <a href="https://go.microsoft.com/fwlink/p/?linkid=850627" target="_blank">관리 센터</a>에서 **설정** \> **설정** \> ** &amp; 보안 개인 정보** 페이지로 이동 합니다.
 
 ::: moniker-end
 
    
-2. **사용자가 자신의 암호를 다시 설정 하도록 허용**에서 **Azure AD 관리 센터**에 대 한 링크를 선택 합니다. Azure를 무료로 이용할 수 있습니다!
+2. **셀프 서비스 암호 재설정**을 선택 하 고 Azure Portal로 이동에 대 한 링크 **를 선택 하 여 셀프 서비스 암호 재설정을 켭니다**. Azure를 무료로 이용할 수 있습니다!
   
 3. 왼쪽 탐색 창에서 **사용자** 를 선택 하 고 **암호 다시 설정을**선택 합니다.
   
