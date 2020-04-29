@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 분류에 기반한 정확한 데이터 매치를 사용한 사용자 지정 중요한 정보 유형 만들기
-ms.openlocfilehash: 63db4da59a04f13d79da61932f74f49d87fa3ffc
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 94adbd4382c6e0a5a736feeb7de4bc32e213d25c
+ms.sourcegitcommit: 2399ee6f9bc955cf8f2a76c01fc84c19eb37ff42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631327"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43919705"
 ---
 # <a name="create-custom-sensitive-information-types-with-exact-data-match-based-classification"></a>분류에 기반한 정확한 데이터 매치를 사용한 사용자 지정 중요한 정보 유형 만들기
 
@@ -50,8 +50,8 @@ EDM 기반 분류를 사용하면 중요한 정보 데이터베이스의 정확�
 
 - Office 365 E5
 - Microsoft 365 E5
-- Microsoft 365 정보 보호 및 규정 준수
-- Office 365 Advanced Compliance
+- Microsoft 365 E5 Compliance
+- Microsoft E5/A5 Information Protection 및 거버넌스
 
 ## <a name="the-work-flow-at-a-glance"></a>워크플로 한 눈에 보기
 

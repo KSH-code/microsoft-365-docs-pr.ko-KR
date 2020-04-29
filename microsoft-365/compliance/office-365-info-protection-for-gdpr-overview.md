@@ -18,12 +18,12 @@ localization_priority: Priority
 search.appverid:
 - MET150
 description: GDPR에 대한 Office 365 정보 보호 개요를 확인합니다. 개인 데이터를 검색, 분류, 보호 및 모니터링하는 방법을 알아봅니다.
-ms.openlocfilehash: b838ae96c8b93dced8b4da898ed04effc0586463
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 83a090b214821142a312ee81463fb3c395876867
+ms.sourcegitcommit: 2399ee6f9bc955cf8f2a76c01fc84c19eb37ff42
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637222"
+ms.lasthandoff: 04/28/2020
+ms.locfileid: "43919607"
 ---
 # <a name="overview-of-office-365-information-protection-for-gdpr"></a>GDPR에 대한 Office 365 정보 보호 개요
 
@@ -99,7 +99,7 @@ Office 365 및 기타 클라우드 서비스에 대한 액세스 보호에는 �
 
 - Windows 10 보안 기능
 
-보호 적용에 대한 자세한 내용은 [Office 365에서 개인 데이터에 보호 적용](apply-protection-to-personal-data-in-office-365.md)을 참조하세요.
+보호 적용에 대한 자세한 내용은 [Office 365에서 개인 데이터에 보호 적용하기](apply-protection-to-personal-data-in-office-365.md)를 참조하세요.
 
 ### <a name="step-5--monitor-for-leaks-of-personal-data"></a>5단계 - 개인 데이터 누수 모니터링
 
