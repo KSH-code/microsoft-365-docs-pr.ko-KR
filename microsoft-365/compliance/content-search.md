@@ -19,12 +19,12 @@ search.appverid:
 - MET150
 ms.assetid: 53390468-eec6-45cb-b6cd-7511f9c909e4
 description: Office 365 또는 Microsoft 365의 규정 준수 센터의 콘텐츠 검색 도구를 사용하여 사서함, SharePoint Online 사이트, OneDrive 계정, Microsoft Teams, Microsoft 365 그룹, Yammer 그룹 및 비즈니스용 Skype 대화에서 콘텐츠를 검색할 수 있습니다. 키워드 검색 쿼리 및 검색 조건을 사용하여 검색 결과 범위를 좁힐 수 있습니다. 그런 다음 검색 결과를 미리 보고 내보낼 수 있습니다. 또한 콘텐츠 검색은 GDPR 데이터 주체 요청과 관련된 콘텐츠를 검색하는 데 효과적인 도구입니다.
-ms.openlocfilehash: d601db20cbfc8c5ea5a4fcc64d181a99a7f8f940
-ms.sourcegitcommit: b6c4b514b2cb6739af949780d7e2a5a5c8dcc161
+ms.openlocfilehash: 61e8b15af29bf02849a83f6a68bdd1c0accd7e8d
+ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43900742"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43943177"
 ---
 # <a name="content-search"></a>콘텐츠 검색
 
@@ -302,6 +302,8 @@ Microsoft Teams 및 Microsoft 365 그룹에서 콘텐츠를 검색할 때 다음
   검색 결과에서 모임 요약은 **유형 필드**에서 **모임**으로 식별되고 통화 요약은 **통화**로 식별됩니다. 또한 Teams 채널과 1xN 채팅의 일부인 대화는 **유형** 필드에서 **IM**으로 식별됩니다.
   
   ![Teams 모임, 통화 및 1xN 채팅은 유형 필드에서 식별됩니다.](../media/O365-ContentSearch-Teams-MessageKind.png)
+
+   자세한 내용은 [Microsoft Teams에서 통화 및 모임을 위해 eDiscovery 시작하기](https://techcommunity.microsoft.com/t5/microsoft-teams-blog/microsoft-teams-launches-ediscovery-for-calling-and-meetings/ba-p/210947)를 참조하세요.
 
 - **종류** 이메일 속성 또는 **메시지 종류** 검색 조건을 사용하여 Teams 콘텐츠를 구체적으로 검색할 수 있습니다. 
   
