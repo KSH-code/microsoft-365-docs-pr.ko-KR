@@ -11,15 +11,17 @@ ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
-search.appverid: MOE150
+search.appverid:
+- MOE150
+- MET150
 ms.assetid: c4c8f689-9d52-4e80-ae4b-1411ee9efc43
 description: 보안 & 준수 센터 및 고급 eDiscovery에서 검색 결과를 다운로드 하 고 데이터를 검색할 때 데이터 처리량을 늘리도록 Windows 레지스트리를 구성 하는 방법을 알아봅니다.
-ms.openlocfilehash: b19de5728917e6eb6054e6a6be76d9b678aa1430
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: a5e08f2fe7d8840cfe8f176080c90b8b40d16af6
+ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637920"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43943357"
 ---
 # <a name="increase-the-download-speed-when-exporting-ediscovery-search-results"></a>EDiscovery 검색 결과를 내보낼 때 다운로드 속도 높이기
 

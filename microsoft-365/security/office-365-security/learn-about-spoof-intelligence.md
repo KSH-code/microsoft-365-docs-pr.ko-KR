@@ -17,12 +17,12 @@ ms.assetid: 978c3173-3578-4286-aaf4-8a10951978bf
 ms.collection:
 - M365-security-compliance
 description: 관리자는 Exchange Online 및 EOP (Exchange Online Protection)에서 스푸핑된 보낸 사람을 허용 하거나 허용 하지 않거나 기타 스푸핑 인텔리전스 설정을 구성 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 958f27d190748ee12976a6b47794a23e025172cf
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: e2aeefbd90a7ed66699778fab54a76a33293e4bb
+ms.sourcegitcommit: f5cecd77e63ae8b47743d4f6dc3135f5decaf28b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43630494"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "43949240"
 ---
 # <a name="configure-spoof-intelligence-in-microsoft-365"></a>Microsoft 365에서 스푸핑 인텔리전스 구성
 
@@ -166,13 +166,11 @@ Get-PhishFilter -AllowedToSpoof Yes -Detailed -SpoofType Internal
 
 스푸핑 인텔리전스에 대 한 구성 옵션은 [피싱 방지 정책의 스푸핑 설정](set-up-anti-phishing-policies.md#spoof-settings)에 설명 되어 있습니다.
 
-사용 가능한 옵션은 구독에 따라 달라 집니다.
+기본 피싱 방지 정책 및 사용자 지정 정책 에서도 스푸핑 인텔리전스 설정을 구성할 수 있습니다. 구독에 따른 지침은 다음 항목 중 하나를 참조 하십시오.
 
-- 독립 실행형 EOP Exchange Online 사서함이 없는 조직은 스푸핑 인텔리전스 설정을 구성할 수 없습니다.
+- [EOP에서 피싱 방지 정책을 구성](configure-anti-phishing-policies-eop.md)합니다.
 
-- Exchange Online 사서함이 포함 된 Microsoft 365 조직은 스푸핑 방지 정책에서 기본값 (및 전용)으로 스푸핑이 intelligence 설정을 구성할 수 있습니다. 자세한 내용은 [EOP에서 기본 피싱 방지 정책 구성을](configure-anti-phishing-policies-eop.md)참조 하세요.
-
-- ATP가 포함 된 Microsoft 365 조직은 기본 ATP 피싱 방지 정책 및 사용자 지정 ATP 피싱 방지 정책 에서도 스푸핑 인텔리전스 설정을 구성할 수 있습니다. 자세한 내용은 [Microsoft 365에서 ATP 피싱 방지 정책 구성을](configure-atp-anti-phishing-policies.md)참조 하세요.
+- [Microsoft 365에서 ATP 피싱 방지 정책을 구성](configure-atp-anti-phishing-policies.md)합니다.
 
 ## <a name="how-do-you-know-these-procedures-worked"></a>이 절차가 제대로 수행되었는지 어떻게 확인하나요?
 
@@ -224,7 +222,7 @@ Get-PhishFilter -AllowedToSpoof Yes -Detailed -SpoofType Internal
 
 - **스푸핑 메일 보고서**를 확인 합니다. 이 보고서를 자주 사용 하 여 스푸핑된 보낸 사람을 보고 관리 하는 데 도움을 받을 수 있습니다. 자세한 내용은 [스푸핑 감지 보고서](view-email-security-reports.md#spoof-detections-report)를 참조 하세요.
 
-- SPF (Sender Policy Framework) 구성을 검토 합니다. SPF에 대 한 간략 한 소개와 신속한 구성에 대 한 자세한 내용은 [스푸핑을 방지 하기 위해 Microsoft 365에서 spf를 설정](set-up-spf-in-office-365-to-help-prevent-spoofing.md)합니다 .를 참조 하세요. Office 365에서 SPF를 사용하는 방법이나 문제 해결 또는 비표준 배포(예: 하이브리드 배포)에 대한 자세한 내용은 [Office 365에서 SPF(Sender Policy Framework)를 사용하여 스푸핑을 차단하는 방법](how-office-365-uses-spf-to-prevent-spoofing.md)을 참조하세요.
+- SPF (Sender Policy Framework) 구성을 검토 합니다. SPF를 빠르게 도입하여 신속하게 구성하려면 [스푸핑 방지를 위해 Microsoft 365에서 SPF 설정](set-up-spf-in-office-365-to-help-prevent-spoofing.md)을 참조하세요. Office 365에서 SPF를 사용하는 방법이나 문제 해결 또는 비표준 배포(예: 하이브리드 배포)에 대한 자세한 내용은 [Office 365에서 SPF(Sender Policy Framework)를 사용하여 스푸핑을 차단하는 방법](how-office-365-uses-spf-to-prevent-spoofing.md)을 참조하세요.
 
 - DKIM (DomainKeys 식별 된 메일) 구성을 검토 합니다. 공격자가 도메인에서 오는 것 처럼 표시 되는 메시지를 보내지 못하도록 하기 위해 SPF 및 DMARC 외에 DKIM을 사용 해야 합니다. DKIM을 사용하면 메시지 머리글에 있는 전자 메일 메시지에 디지털 서명을 첨부할 수 있습니다. 자세한 내용은 [DKIM을 사용 하 여 Office 365에서 사용자 지정 도메인에서 보낸 아웃 바운드 전자 메일의 유효성 검사](use-dkim-to-validate-outbound-email.md)를 참조 하세요.
 

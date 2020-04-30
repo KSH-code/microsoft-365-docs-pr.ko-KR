@@ -13,15 +13,17 @@ localization_priority: Normal
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
-search.appverid: MOE150
+search.appverid:
+- MOE150
+- MET150
 ms.assetid: 0ce338d5-3666-4a18-86ab-c6910ff408cc
 description: '관리자는 소셜 미디어 플랫폼, 인스턴트 메시징 플랫폼 및 문서 공동 작업 플랫폼에서 Microsoft 365 조직의 사서함으로 타사 데이터를 가져올 수 있습니다. 이를 통해 Microsoft 365의 Facebook, Twitter 및 기타 타사 데이터 원본에서 데이터를 보관할 수 있습니다. 그런 다음 타사 데이터에 대해 Microsoft 365 준수 기능 (예: 법적 보존, eDiscovery, 원본 위치 보관 및 보존 정책)을 사용 하 여 적용할 수 있습니다.'
-ms.openlocfilehash: 72afb48f74a30bac2904e857a33487a83eba48cd
-ms.sourcegitcommit: f9b5eca20e025acc36635cbd1786ff3407295857
+ms.openlocfilehash: e9276a845a29f5c047e303e9e04051ec9f77da1e
+ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/27/2020
-ms.locfileid: "43027658"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43943187"
 ---
 # <a name="archive-third-party-data"></a>타사 데이터 보관
 

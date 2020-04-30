@@ -11,15 +11,17 @@ ms.topic: conceptual
 ms.service: O365-seccomp
 ms.collection: M365-security-compliance
 localization_priority: Normal
-search.appverid: MOE150
+search.appverid:
+- MOE150
+- MET150
 ms.assetid: ec2677ff-c4d7-4363-a9e7-22c80e015688
 description: 콘텐츠 검색 eDiscovery 도구를 사용 하 여 타사 데이터 원본에서 Microsoft 365의 사서함으로 가져온 항목을 검색 합니다. 가져온 모든 항목을 검색 하는 쿼리를 만들거나 특정 타사 데이터 형식을 검색 하기 위한 쿼리를 만들 수 있습니다. 이 문서에서는 키워드 쿼리에서 Microsoft 365로 가져올 수 있는 타사 데이터 형식을 검색 하는 데 사용할 수 있는 값을 보여 줍니다.
-ms.openlocfilehash: 07a489d7c18cc305b7ffc745f7fc7870d8f72a2f
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: e7e48f5231bccc988ad853202603defd17fd58f4
+ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43633373"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43942971"
 ---
 # <a name="use-content-search-to-search-third-party-imported-data"></a>콘텐츠 검색을 사용 하 여 타사 가져온 데이터 검색
 

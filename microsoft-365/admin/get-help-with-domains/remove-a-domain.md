@@ -21,18 +21,16 @@ search.appverid:
 - GEA150
 ms.assetid: f09696b2-8c29-4588-a08b-b333da19810c
 description: Microsoft 365에서 이전 도메인을 제거 하 고 사용자 및 그룹을 다른 도메인으로 이동 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 21b2b17e5cab022f67c71c0d3858f8a03b45899b
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: b072a8f30d6b6a655441dec49ff9af9b4d0fdbe4
+ms.sourcegitcommit: c7f11d851073ef14a69669f6c8b7e0c11e4bb7a1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43628437"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43938639"
 ---
 # <a name="remove-a-domain"></a>도메인 제거
-
-참가자: [![Peter Baumgartner](../../media/e70dc696-c5f8-4717-a48b-9087431503e7.png)](https://go.microsoft.com/fwlink/p/?linkid=847121)
   
- **원하는 정보는 찾지 못한 경우 [도메인 질문과 대답을 확인](../setup/domains-faq.md)** 하세요. 
+ 원하는 정보를 찾지 못한 경우 **[도메인 FAQ를 확인](../setup/domains-faq.md)** 하세요. 
   
 다른 Microsoft 365 구독 계획에 추가 하려고 하기 때문에 도메인을 제거 하 고 계십니까? 아니면 단지 구독을 취소하고 싶으신가요? [ 또는 구독을 변경 ](../../commerce/subscriptions/switch-to-a-different-plan.md)하거나 [구독을 취소](../../commerce/subscriptions/cancel-your-subscription.md)할 수 있습니다.
   
@@ -231,6 +229,6 @@ Microsoft 365이 보안 그룹, 메일 그룹, 사용자 및 Microsoft 365 그�
 
 [Office 365 도메인에 대 한 도움말 보기](get-help-with-domains.md)
 
-[다른 Microsoft 365 for business 요금제로 전환](../../commerce/subscriptions/switch-to-a-different-plan.md)
+[다른 비즈니스용 Microsoft 365 요금제로 전환](../../commerce/subscriptions/switch-to-a-different-plan.md)
 
 [구독 취소](../../commerce/subscriptions/cancel-your-subscription.md)

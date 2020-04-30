@@ -13,15 +13,17 @@ ms.collection:
 - M365-security-compliance
 - SPO_Content
 localization_priority: Normal
-search.appverid: MOE150
+search.appverid:
+- MOE150
+- MET150
 ms.assetid: e3cbc79c-5e97-43d3-8371-9fbc398cd92e
 description: 보안 & 준수 센터에서 콘텐츠 검색을 사용 하 여 대상 지정 된 컬렉션을 수행 합니다. 대상 컬렉션은 사례 또는 권한이 부여 된 항목에 대 한 응답 항목이 특정 사서함 또는 사이트 폴더에 있는 것을 확신 함을 의미 합니다. 이 문서의 스크립트를 사용 하 여 검색 하려는 특정 사서함 또는 사이트 폴더의 폴더 ID 또는 경로를 가져옵니다.
-ms.openlocfilehash: e6de817e7ec324e6aa80ef596340906c2f86d126
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 4808dad8faed99ac15c4f9828ad1759e2f1179fc
+ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43633383"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43942981"
 ---
 # <a name="use-content-search-for-targeted-collections"></a>대상 지정 컬렉션을 위해 콘텐츠 검색 사용
 

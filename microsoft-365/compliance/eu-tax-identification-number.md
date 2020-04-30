@@ -2,22 +2,22 @@
 title: EU 세금 확인 번호
 f1.keywords:
 - NOCSH
-ms.author: cabailey
-author: cabailey
+ms.author: chrfox
+author: chrfox
 manager: laurawi
-ms.date: 8/17/2018
+ms.date: ''
 audience: Admin
 ms.topic: reference
 ms.service: O365-seccomp
 ms.collection: M365-security-compliance
 localization_priority: Normal
 description: 이 항목에서는 EU 세금 식별 번호 중요 정보 유형을 검색할 때 DLP (데이터 손실 방지) 정책이 어떤 역할을 검색 하나요를 보여 줍니다. 이 중요 한 정보 유형은 각 국가에 대 한 다양 한 패턴, 키워드 및 기타 증거를 정의 합니다.
-ms.openlocfilehash: 5467db921bd518eeeab18a36ee2de473f9017358
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 5f779974266045d7099b599700c7168162d9d81e
+ms.sourcegitcommit: c7f11d851073ef14a69669f6c8b7e0c11e4bb7a1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41591019"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43938674"
 ---
 # <a name="eu-tax-identification-number"></a>EU 세금 확인 번호
 
@@ -895,7 +895,7 @@ adószám
   
 adóhatóság szám
   
-## <a name="ireland"></a>Ireland
+## <a name="ireland"></a>아일랜드
 
 ### <a name="format"></a>형식일
 

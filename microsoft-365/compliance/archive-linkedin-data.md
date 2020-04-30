@@ -10,14 +10,16 @@ audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
+search.appverid:
+- MET150
 ms.collection: M365-security-compliance
 description: 관리자는 기본 커넥터를 설정 하 여 LinkedIn 회사 페이지에서 Microsoft 365로 데이터를 가져올 수 있습니다. 이를 통해 Microsoft 365의 타사 데이터 원본에서 데이터를 보관할 수 있으므로 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 규정 준수 기능을 사용 하 여 조직의 타사 데이터에 대 한 준수를 관리할 수도 있습니다.
-ms.openlocfilehash: b42584efb0c99b97c14059ed7d860013f085262c
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 6b74e6ba8dca810a8a185ae6011207a419c3e79d
+ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42079641"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43943217"
 ---
 # <a name="set-up-a-connector-to-archive-linkedin-data"></a>LinkedIn 데이터를 보관할 커넥터 설정
 

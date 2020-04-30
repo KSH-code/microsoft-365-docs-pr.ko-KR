@@ -11,15 +11,17 @@ ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
-search.appverid: MOE150
+search.appverid:
+- MOE150
+- MET150
 ms.assetid: 4e8ff113-6361-41e2-915a-6338a7e2a1ed
 description: 부분적으로 인덱싱된 항목 (또한 인덱싱되지 않은 항목)은 Exchange 사서함 항목 및 몇 가지 이유로 인해 콘텐츠 검색을 위해 완전히 인덱싱되지 않은 SharePoint 및 OneDrive 사이트의 문서입니다. 이 문서에서는 검색을 위해 항목을 인덱싱할 수 없으며 부분적으로 인덱싱된 항목으로 반환 되며, 부분적으로 인덱싱된 항목에 대 한 검색 오류를 식별 하 고, PowerShell 스크립트를 사용 하 여 부분적으로 인덱싱된 전자 메일 항목에 대 한 조직의 노출을 확인할 수 있는 이유에 대해 알아봅니다.
-ms.openlocfilehash: 64b052e5c04019d5937c3763094529ae5c4c9e42
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 0053ec5b03f5d32af1a39be94474c05f74ec3234
+ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637466"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43942131"
 ---
 # <a name="investigating-partially-indexed-items-in-ediscovery"></a>EDiscovery에서 부분적으로 인덱싱된 항목 조사
 
@@ -166,7 +168,7 @@ Error 태그는 두 가지 정보, 오류 및 파일 형식으로 구성 됩니�
   
 ```
 
-2. [보안 및 준수 센터 PowerShell에 연결하기](https://go.microsoft.com/fwlink/p/?linkid=627084)
+2. [보안 및 준수 센터 PowerShell에 연결](https://go.microsoft.com/fwlink/p/?linkid=627084)
     
 3. 보안 & 준수 센터 PowerShell에서 1 단계에서 스크립트를 저장 한 폴더로 이동한 후 스크립트를 실행 합니다. 예를 들어:
 

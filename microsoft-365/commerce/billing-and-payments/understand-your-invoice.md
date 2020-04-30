@@ -18,18 +18,18 @@ search.appverid:
 - MET150
 description: Microsoft 비즈니스 제품의 송장을 읽고 이해 하는 방법을 알아봅니다.
 keywords: 청구 계정, 조직 정보, 송장
-ms.openlocfilehash: 3028b0e8aa952b932e7d56a5ecceaad5931dee30
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 7b16af7c6ef39743aa8d0a4e927786f64f47c4cd
+ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634983"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43942880"
 ---
 # <a name="understand-your-invoice"></a>송장 이해
 
 송장에서는 결제에 대 한 요금 및 지침을 요약해 서 제공 합니다. Microsoft 365 관리 센터에서 [온라인 송장을 볼](#view-your-online-invoice) 수 있습니다. 또한이 파일을 휴대용 문서 형식 (.pdf)으로 다운로드 하 여 전자 메일을 통해 보낼 수 있습니다.
 
-Microsoft 365 구독이 있는 경우 [microsoft 365 for business의 청구서 보기](view-your-bill-or-invoice.md)를 참조 하세요.
+Microsoft 365 구독이 있는 경우 [microsoft 365 for business의 청구서 이해](understand-your-invoice2.md)를 참조 하세요.
 
 ## <a name="understand-the-invoice-header"></a>송장 헤더 이해
 
@@ -78,7 +78,7 @@ Microsoft 365 구독이 있는 경우 [microsoft 365 for business의 청구서 �
 
 `Total = Charges/Credits - Azure Credit + Tax`
 
-송장에 자세한 세부 정보를 보려는 Azure 요금이 있는 경우 [Microsoft 고객 계약 송장의 청구 요금 이해](https://docs.microsoft.com/azure/billing/billing-mca-understand-your-bill)를 참조 하세요.
+송장에 자세한 정보를 보려는 Azure 요금이 있는 경우 [Microsoft 고객 계약 송장 검토](https://docs.microsoft.com/azure/cost-management-billing/understand/review-customer-agreement-bill)를 참조 하세요.
 
 ## <a name="understand-the-last-invoice-page"></a>마지막 송장 페이지 이해
 

@@ -17,12 +17,12 @@ ms.collection:
 search.appverid: MET150
 ms.assetid: 8d274fe3-db51-4107-ba64-865e7155b355
 description: Microsoft 365 환경의 보안에 영향을 주는 테 넌 트 수준 설정에 대해 권장 되는 구성을 안내 합니다. 보안 요구 사항에 따라 보안이 더 나 덜 필요할 수 있습니다. 이 권장 사항을 출발점으로 사용 합니다.
-ms.openlocfilehash: bd296d5cc822fd2257a7abad651335ad1d0717f1
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 0d16011a7abfcaa20d2a053ee9c00b3719a2b3c6
+ms.sourcegitcommit: f5cecd77e63ae8b47743d4f6dc3135f5decaf28b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631184"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "43949396"
 ---
 # <a name="configure-your-microsoft-365-tenant-for-increased-security"></a>보안 강화를 위해 Microsoft 365 테 넌 트 구성
 
@@ -39,7 +39,7 @@ Microsoft 365 보안 센터에는 환경을 보호 하는 기능이 포함 되�
 ||||
 |---|---|---|
 |**영역**|**기본 정책 포함**|**권장 사항**|
-|**피싱 방지**|예|사용자 지정 도메인이 있는 경우 기본 피싱 방지 정책을 구성 하 여 CEO와 같은 가장 귀중 한 사용자의 전자 메일 계정을 보호 하 고 도메인을 보호 합니다. [Office 365에서 피싱 방지 정책을](set-up-anti-phishing-policies.md) 검토 하 고 [EOP의 기본 피싱 방지 정책 구성](configure-anti-phishing-policies-eop.md) 또는 [Office 365에서 ATP 피싱 방지 정책 구성을](configure-atp-anti-phishing-policies.md)참조 하세요.|
+|**피싱 방지**|예|사용자 지정 도메인이 있는 경우 기본 피싱 방지 정책을 구성 하 여 CEO와 같은 가장 귀중 한 사용자의 전자 메일 계정을 보호 하 고 도메인을 보호 합니다. [Office 365에서 피싱 방지 정책을](set-up-anti-phishing-policies.md) 검토 하 고 [EOP에서 피싱 방지 정책 구성을](configure-anti-phishing-policies-eop.md) 참조 하거나 [Office 365에서 ATP 피싱 방지 정책을 구성](configure-atp-anti-phishing-policies.md)합니다.|
 |**맬웨어 방지 엔진**|예| 기본 정책을 편집 합니다. <br/> &ensp;&ensp;* 일반 첨부 파일 유형 필터-선택 <br/><br/> 사용자 지정 맬웨어 필터 정책을 만들어 조직의 지정 된 사용자, 그룹 또는 도메인에 적용할 수도 있습니다. <br/><br/> 추가 정보: <br/> &ensp;&ensp;* [맬웨어 방지 보호 기능](anti-malware-protection.md) <br/> &ensp;&ensp;* [맬웨어 방지 정책 구성](configure-anti-malware-policies.md)|
 |**ATP 안전한 첨부 파일**|아니요| 안전한 첨부 파일의 기본 페이지에서 다음 확인란을 선택 하 여 SharePoint, OneDrive 및 Microsoft 팀의 파일을 보호 합니다. <br/> &ensp;&ensp;* SharePoint, OneDrive 및 Microsoft 팀에 대 한 ATP 켜기 <br/><br/> 다음 설정을 사용 하 여 새 안전 첨부 파일 정책을 추가 합니다. <br/> &ensp;&ensp;* 차단-검색 된 맬웨어로부터 현재 및 앞으로의 전자 메일 및 첨부 파일 차단 (이 옵션 선택) <br/> &ensp;&ensp;* 리디렉션 사용 — (이 상자를 선택 하 고 관리자 또는 격리 계정과 같은 전자 메일 주소를 입력 합니다.) <br/> &ensp;&ensp;* 첨부 파일에 대 한 맬웨어 검사 시간이 초과 되거나 오류가 발생 하는 경우 위의 선택을 적용 합니다 (선택 사항). <br/> &ensp;&ensp;* 적용 대상-받는 사람 도메인 (도메인 선택) <br/><br/>추가 정보: [Office 365 ATP 안전한 첨부 파일 정책 설정](set-up-atp-safe-attachments-policies.md)|
 |**ATP 안전한 링크**|예| 전체 조직에 대 한 기본 정책에이 설정을 추가 합니다. <br/> &ensp;&ensp;*의 안전한 링크 사용: Microsoft 365 Apps for enterprise, Office for iOS and Android (이 옵션을 선택 하세요.) <br/><br/>특정 받는 사람에 대 한 권장 정책: <br/> &ensp;&ensp;* 사용자가 링크를 클릭할 때 알려진 악성 링크 목록에 대해 Url이 다시 작성 되 고 확인 됩니다 (이 옵션을 선택). <br/> &ensp;&ensp;* 안전한 첨부 파일을 사용 하 여 다운로드 가능한 콘텐츠를 검사 합니다 (선택 상자). <br/> &ensp;&ensp;* 적용 대상-받는 사람 도메인이 도메인을 선택 합니다. <br/><br/> 자세한 내용은 [Office 365 ATP 안전한 링크](atp-safe-links.md)를 제공 합니다.|

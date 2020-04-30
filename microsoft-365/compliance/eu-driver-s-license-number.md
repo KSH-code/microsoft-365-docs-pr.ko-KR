@@ -2,8 +2,8 @@
 title: EU 운전 면허 번호
 f1.keywords:
 - NOCSH
-ms.author: cabailey
-author: cabailey
+ms.author: chrfox
+author: chrfox
 manager: laurawi
 ms.date: 8/17/2018
 audience: Admin
@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 ms.collection: M365-security-compliance
 localization_priority: Normal
 description: 이 항목에서는 DLP (데이터 손실 방지) 정책이 EU 드라이버의 라이선스 번호 중요 정보 유형을 검색할 때 찾는 항목을 보여 줍니다. 이 중요 한 정보 유형은 각 국가에 대 한 다양 한 패턴, 키워드 및 기타 증거를 정의 합니다.
-ms.openlocfilehash: c54fcefcda08d0bc2ec500d25c74bb5789e27398
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 2e75a8724dc91ef2d895c977fdd5fcc21e7a1da4
+ms.sourcegitcommit: c7f11d851073ef14a69669f6c8b7e0c11e4bb7a1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41592659"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43938832"
 ---
 # <a name="eu-drivers-license-number"></a>EU 운전 면허 번호
 
@@ -486,7 +486,7 @@ DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 30
 |:-----|
 |dl #  <br/> driver license  <br/> 드라이버 라이선스 번호  <br/> 드라이버 라이선스  <br/> drivers lic  <br/> drivers license  <br/> drivers licence  <br/> driver's license  <br/> 운전 면허 번호  <br/> 운전 라이선스 번호  <br/> 운전 면허 번호  <br/> dlno #  <br/> vezetoi  <br/> |
    
-## <a name="ireland"></a>Ireland
+## <a name="ireland"></a>아일랜드
 
 ### <a name="format"></a>형식일
 

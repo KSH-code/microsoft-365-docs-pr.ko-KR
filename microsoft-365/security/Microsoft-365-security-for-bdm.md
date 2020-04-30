@@ -11,13 +11,15 @@ ms.service: o365-seccomp
 localization_priority: Normal
 ms.collection:
 - M365-security-compliance
+search.appverid:
+- MET150
 description: 현재 조직이 Microsoft 365 환경에 직면 하 게 되는 가장 일반적인 위협과 공격 시나리오로, 이러한 위험을 완화 하기 위한 권장 작업을 소개 합니다.
-ms.openlocfilehash: ed147bd2ac01e2f7a0581ac18542467e40d84ddb
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: c153b94b450b834687e83f39fc7179e0dda1a21f
+ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43638527"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43943570"
 ---
 # <a name="microsoft-365-security-for-business-decision-makers-bdms"></a>BDMs (비즈니스 의사 결정권자 용 Microsoft 365 Security)
 

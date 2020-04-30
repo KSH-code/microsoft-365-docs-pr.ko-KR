@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 이 문서에서는 Microsoft 365에서 코어 eDiscovery 사용을 시작 하는 방법에 대해 설명 합니다. EDiscovery 권한을 할당 하 고 사례를 만든 후에는 구성원을 추가 하 고, eDiscovery 보류를 만든 다음, 조사와 관련 된 데이터를 검색 하 고 내보낼 수 있습니다.
-ms.openlocfilehash: 838870f60c55c82225c3809aa8f281beadd0dba1
-ms.sourcegitcommit: bd51f626f0c7788c2a3cf89deee25264659aebd5
+ms.openlocfilehash: c9c3d8c3832703e8dbbcf8b2c04a566af0f5eb6b
+ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/17/2020
-ms.locfileid: "43551428"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43943387"
 ---
 # <a name="get-started-with-core-ediscovery"></a>핵심 eDiscovery 시작
 
@@ -36,15 +36,25 @@ Microsoft 365의 핵심 eDiscovery는 조직이 Microsoft 365 및 Office 365에�
 
 - **조직 구독:** Microsoft 365 준수 센터 또는 Office 365 보안 & 준수 센터의 핵심 eDiscovery에 액세스 하 고 보류 및 내보내기 기능을 사용 하려면 조직에 Microsoft 365 E3 또는 Office 365 E3 구독 이상이 있어야 합니다.
 
-- **사용자별 라이선스:** 사용자 사서함에 eDiscovery 보류를 설정 하려면 조직 구독에 따라 해당 사용자에 게 다음 라이선스 중 하나를 할당 해야 합니다.
+- **사용자별 라이선스:** 사서함 및 사이트에 eDiscovery 보류를 설정 하려면 조직 구독에 따라 사용자에 게 다음 라이선스 중 하나를 할당 해야 합니다.
 
   - Microsoft 365 E3 또는 Office 365 E3 라이선스 이상
 
+   또는
+
   - Exchange Online 계획 2 또는 Exchange Online 보관용 추가 기능 라이선스가 있는 Microsoft 365 E1 또는 Office 365 E1 라이선스
 
+  그리고
+
+  - SharePoint Online 계획 2 또는 비즈니스용 OneDrive 요금제 2 추가 기능 라이선스가 있는 Microsoft 365 E1 또는 Office 365 E1 라이선스
+  
   라이선스를 할당 하는 방법에 대 한 자세한 내용은 [사용자에 게 라이선스 할당](https://docs.microsoft.com/microsoft-365/admin/manage/assign-licenses-to-users)을 참조 하세요.
 
-Microsoft 365 및 Office 365 라이선스에 대 한 자세한 내용은 [microsoft 365 준수 라이선스 비교](https://docs.microsoft.com/office365/servicedescriptions/downloads/microsoft-365-compliance-licensing-comparison.pdf)의 "응답 & 검색" 솔루션을 다운로드 하 여 참조 하십시오.
+라이선스에 대 한 자세한 내용:
+
+- [Microsoft 365 준수 라이선스 비교](https://docs.microsoft.com/office365/servicedescriptions/downloads/microsoft-365-compliance-licensing-comparison.xlsx)의 "응답 & 검색" 솔루션을 다운로드 하 여 확인 합니다.
+
+- [보안 & 준수 센터 서비스 설명을](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/office-365-securitycompliance-center)참조 하세요.
 
 ## <a name="step-2-assign-ediscovery-permissions"></a>2 단계: eDiscovery 권한 할당
 

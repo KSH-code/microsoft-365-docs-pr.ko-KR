@@ -10,15 +10,17 @@ audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
-search.appverid: MOE150
+search.appverid:
+- MOE150
+- MET150
 ms.assetid: 39e4654a-9588-41f6-892b-c33ab57bfbe2
 description: Office 365 또는 Microsoft 365의 보안 및 준수 센터에서 대량 검색 편집기를 사용 하 여 하나 이상의 콘텐츠 검색에 대 한 쿼리 및 콘텐츠 위치를 신속 하 게 변경 합니다.
-ms.openlocfilehash: 5d1fd8a877ffb6c2012567583e46e561fb09836f
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: ec1996ade0b2452c00b5b4d912e9d441255bfe1e
+ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42078997"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43942951"
 ---
 # <a name="bulk-edit-content-searches"></a>콘텐츠 검색 일괄 편집
 
@@ -28,7 +30,7 @@ ms.locfileid: "42078997"
   
 ## <a name="use-the-bulk-search-editor-to-change-queries"></a>대량 검색 편집기를 사용 하 여 쿼리 변경
 
-1. 로 이동한 후 \> **콘텐츠 검색**검색을 선택 합니다. **** [https://protection.office.com](https://protection.office.com)
+1. 로 이동한 후 \> **콘텐츠 검색**검색을 선택 합니다. **Search** [https://protection.office.com](https://protection.office.com)
     
 2. 검색 목록에서 검색을 하나 이상 선택 하 고 **대량 검색 편집기** ![대량 검색 편집기 단추](../media/1ddb3d18-2f00-4a7b-98a6-817ca5ec7014.png)를 선택 합니다.
     

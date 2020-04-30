@@ -16,12 +16,12 @@ ms.assetid: dad30e2f-93fe-4d21-9a36-21c87ced85c1
 ms.collection:
 - M365-security-compliance
 description: '귀하와 사용자는 분석을 위해 Microsoft에 허위 네거티브 및 가양성 스팸 메시지를 제출할 수 있습니다. '
-ms.openlocfilehash: f6dbd808fac54ae273c21773bf8caeabce09b7fb
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 928809a8d00e082bf3150abb27dc493c2b82c070
+ms.sourcegitcommit: c7f11d851073ef14a69669f6c8b7e0c11e4bb7a1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631244"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43939430"
 ---
 # <a name="manually-submit-messages-to-microsoft-for-analysis"></a>분석을 위해 Microsoft에 수동으로 메시지 전송
 
@@ -79,75 +79,4 @@ ms.locfileid: "43631244"
 
 ## <a name="create-a-mail-flow-rule-to-receive-copies-of-messages-that-are-reported-to-microsoft"></a>Microsoft에 보고 되는 메시지의 복사본을 수신 하는 메일 흐름 규칙 만들기
 
-이 항목에서 설명 하는 방법을 사용 하 여 Microsoft에 보고 되는 전자 메일 메시지를 찾는 메일 흐름 규칙 (전송 규칙이 라고도 함)을 만들 수 있으며, 이러한 보고 된 메시지의 복사본을 받도록 숨은 참조 받는 사람을 구성할 수 있습니다.
-
-EAC (Exchange 관리 센터) 및 PowerShell (Microsoft 365 고객을 위한 Exchange Online PowerShell)에서 메일 흐름 규칙을 만들 수 있습니다. 독립 실행형 EOP 고객을 위한 Exchange Online Protection PowerShell
-
-### <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
-
-- 이러한 절차를 수행 하려면 먼저 Exchange Online에서 사용 권한을 할당 받아야 합니다. 특히 **조직 관리**, **규정 준수 관리**및 **레코드 관리** 역할에 할당 되는 **전송 규칙** 역할을 기본적으로 할당 해야 합니다. 자세한 내용은 [Exchange Online에서 역할 그룹 관리](https://docs.microsoft.com/Exchange/permissions-exo/role-groups)를 참조하세요.
-
-- Exchange Online에서 EAC를 열려면 exchange [online의 exchange 관리 센터](https://docs.microsoft.com/Exchange/exchange-admin-center)를 참조 하세요.
-
-- Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결하기](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell)를 참조하세요. Exchange Online Protection PowerShell에 연결하려면 [Exchange Online Protection PowerShell에 연결하기](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell)를 참조하세요.
-
-- Exchange Online 및 독립 실행형 EOP의 메일 흐름 규칙에 대 한 자세한 내용은 다음 항목을 참조 하십시오.
-
-  - [Exchange Online의 메일 흐름 규칙 (전송 규칙)](https://docs.microsoft.com/Exchange/security-and-compliance/mail-flow-rules/mail-flow-rules)
-
-  - [메일 흐름 규칙 조건 및 예외 (조건자)가 Exchange Online에 있습니다.](https://docs.microsoft.com/Exchange/security-and-compliance/mail-flow-rules/conditions-and-exceptions)
-
-  - [Exchange Online의 메일 흐름 규칙 동작](https://docs.microsoft.com/Exchange/security-and-compliance/mail-flow-rules/mail-flow-rule-actions)
-
-### <a name="use-the-eac-to-create-a-mail-flow-rule-to-receive-copies-of-reported-messages"></a>EAC를 사용 하 여 보고 된 메시지의 복사본을 수신 하는 메일 흐름 규칙 만들기
-
-1. EAC에서 **메일 흐름** \> **규칙**으로 이동합니다.
-
-2. ![](../../media/ITPro-EAC-AddIcon.png) 추가 **아이콘 추가를 클릭 한** 다음 **새 규칙 만들기**를 선택 합니다.
-
-3. **새 규칙** 페이지가 열리면 다음 설정을 구성 합니다.
-
-   - **이름**: 규칙에 대 한 설명이 포함 된 고유 이름을 입력 합니다. 예를 들어 숨은 참조 메시지는 Microsoft에 보고 됩니다.
-
-   - **기타 옵션**을 클릭 합니다.
-
-   - 다음 **의** **경우에이 규칙 적용**: \> 표시 **되는 단어** **또는 구 지정** 대화 상자에 다음 값 중 하나를 입력 하 고 추가 아이콘](../../media/ITPro-EAC-AddIcon.png) **추가** ![를 클릭 한 다음 모든 값을 입력할 때까지 반복 합니다.
-
-     - `junk@office365.microsoft.com`
-     - `abuse@messaging.microsoft.com`
-     - `phish@office365.microsoft.com`
-     - `false_positive@messaging.microsoft.com`
-
-     항목을 편집 하려면 선택 하 고 편집](../../media/ITPro-EAC-EditIcon.png)아이콘 **편집** ![을 클릭 합니다. 항목을 제거 하려면 선택 하 고 제거](../../media/ITPro-EAC-DeleteIcon.png)아이콘 **제거** ![를 클릭 합니다.
-
-     작업을 마친 후 **확인**을 클릭합니다.
-
-   - **다음을 수행**합니다. \> **숨은 참조 상자에** **받는 사람 추가** 를 선택 합니다. 대화 상자가 나타나면 추가 하려는 받는 사람을 찾아 선택 합니다. 작업을 마친 후 **확인**을 클릭합니다.
-
-4. 규칙을 감사 하 고 규칙을 테스트 하며 특정 기간 동안 규칙을 활성화 하 고 기타 설정을 선택할 수 있습니다. 규칙을 적용 하기 전에 테스트 하는 것이 좋습니다.
-
-5. 작업을 마쳤으면 **저장**을 클릭합니다.
-
-### <a name="use-powershell-to-create-a-mail-flow-rule-to-receive-copies-of-reported-messages"></a>PowerShell을 사용 하 여 보고 된 메시지의 복사본을 수신 하는 메일 흐름 규칙 만들기
-
-이 예에서는이 항목에 설명 된 방법을 사용 하 여 Microsoft에 보고 되는 전자 메일 메시지를 찾아서 사용자 laura@contoso.com 및 julia@contoso.com를 숨은 참조 받는 사람으로 추가 하는 숨은 참조 메시지 라는 이름의 새 메일 흐름 규칙을 만듭니다.
-
-```powershell
-New-TransportRule -Name "Bcc Messages Reported to Microsoft" -RecipientAddressContainsWords "junk@office365.microsoft.com","abuse@messaging.microsoft.com","phish@office365.microsoft.com","false_positive@messaging.microsoft.com" -BlindCopyTo "laura@contoso.com","julia@contoso.com".
-```
-
-자세한 구문 및 매개변수 정보 [New-TransportRule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/new-transportrule)을 참조하세요.
-
-### <a name="how-do-you-know-this-worked"></a>작동 여부는 어떻게 확인하나요?
-
-보고 된 메시지의 복사본을 수신 하도록 메일 흐름 규칙을 구성 했는지 확인 하려면 다음 단계 중 하나를 수행 합니다.
-
-- EAC에서 **메일 흐름** \> **규칙** \> 을 선택 하 고 편집 아이콘 **Edit** ![](../../media/ITPro-EAC-EditIcon.png)편집 \> 을 클릭 한 다음 설정을 확인 합니다.
-
-- PowerShell에서 다음 명령을 실행 하 여 설정을 확인 합니다.
-
-  ```powershell
-  Get-TransportRule -Identity "Bcc Messages Reported to Microsoft" | Format-List
-  ```
-
-- 보고 전자 메일 주소 중 하나로 테스트 메시지를 보내 결과를 확인 합니다.
+자세한 내용은 [메일 흐름 규칙을 사용 하 여 사용자가 Microsoft에 보고 하는 항목 보기](use-mail-flow-rules-to-see-what-your-users-are-reporting-to-microsoft.md)를 참조 하세요.

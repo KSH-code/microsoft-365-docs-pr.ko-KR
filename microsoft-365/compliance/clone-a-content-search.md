@@ -13,14 +13,15 @@ localization_priority: Normal
 search.appverid:
 - MOE150
 - MED150
+- MET150
 ms.assetid: 7b40eeaa-544c-4534-b89b-9f79998e374c
 description: 이 문서의 Windows PowerShell 스크립트를 사용 하 여 Office 365 또는 Microsoft 365의 준수 센터에서 기존 콘텐츠 검색을 빠르게 복제 합니다. 검색을 복제 하면 원래 검색과 같은 속성을 포함 하는 새 검색 (새 이름 포함)이 만들어집니다. 그런 다음 키워드 쿼리 또는 날짜 범위를 변경 하 여 새 검색을 편집한 다음 실행할 수 있습니다.
-ms.openlocfilehash: 13a459cabd7febe3daf5c907e89025185821e835
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: bba683e7ffbad6177a6214ebb36e3aaece7aada7
+ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637496"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43942941"
 ---
 # <a name="clone-a-content-search"></a>콘텐츠 검색 복제
 

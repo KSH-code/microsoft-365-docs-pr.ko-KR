@@ -1,5 +1,5 @@
 ---
-title: 조직의 사서함에 대 한 보관 및 삭제 정책 설정
+title: 조직에서 사서함에 대한 보관 및 삭제 정책 설정하기
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -17,16 +17,17 @@ search.appverid:
 - MED150
 - MBS150
 - BCS160
+- MET150
 ms.assetid: ec3587e4-7b4a-40fb-8fb8-8aa05aeae2ce
 description: 항목을 사용자의 보관 사서함으로 자동으로 이동 하는 보관 및 삭제 정책을 만듭니다.
-ms.openlocfilehash: d5c55227d601476b7c06d530a13a5768a4a108c4
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: b8d156ec9340e644e8f0bf213f04135e756421eb
+ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635562"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43943581"
 ---
-# <a name="set-up-an-archive-and-deletion-policy-for-mailboxes-in-your-organization"></a>조직의 사서함에 대 한 보관 및 삭제 정책 설정
+# <a name="set-up-an-archive-and-deletion-policy-for-mailboxes-in-your-organization"></a>조직에서 사서함에 대한 보관 및 삭제 정책 설정하기
 
  Microsoft 365에서 관리자는 항목을 사용자의 보관 사서함으로 자동으로 이동 하 고 사서함에서 항목을 자동으로 삭제 하는 보관 및 삭제 정책을 만들 수 있습니다. 관리자는 사서함에 할당 된 보존 정책을 만들고 항목을 특정 기간이 지난 후에 사용자의 보관 사서함으로 이동 하 고 특정 보존 기간에 도달한 후에도 사서함에서 항목을 삭제 하 여이를 수행 합니다. 이동 하거나 삭제할 항목을 결정 하는 실제 규칙을 보존 태그 라고 합니다. 보존 태그는 보존 정책에 연결 되며, 그러면 해당 사용자의 사서함에 지정 됩니다. 보존 태그는 사용자 사서함의 개별 메시지 및 폴더에 보존 설정을 적용 합니다. 메시지가 사서함에 남아 있는 기간 및 메시지가 지정 된 보존 기간에 도달할 때 수행 되는 작업을 정의 합니다. 메시지가 보존 기간에 도달 하면 해당 메시지는 사용자의 보관 사서함으로 이동 되거나 삭제 됩니다. 
   

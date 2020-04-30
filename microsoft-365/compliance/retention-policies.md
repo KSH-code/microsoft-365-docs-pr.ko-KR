@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 정책을 사용하여 콘텐츠를 보존할지, 삭제할지, 아니면 보존한 다음 삭제할지 사전에 결정할 수 있습니다. 조직 전체에 또는 특정 위치 또는 사용자에게 하나의 정책을 적용할 수 있고, 모든 콘텐츠에 또는 특정 조건에 부합하는 콘텐츠에 정책을 적용할 수 있습니다.
-ms.openlocfilehash: 7075e043a2d45358447137fbf76bcbf88a65e9f4
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 42e130bfb9f988f0b771c45cbe08663f17e7b595
+ms.sourcegitcommit: f5cecd77e63ae8b47743d4f6dc3135f5decaf28b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632439"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "43949407"
 ---
 # <a name="overview-of-retention-policies"></a>보존 정책 개요
 
@@ -58,7 +58,7 @@ ms.locfileid: "43632439"
 
 또는 **솔루션** > **정보 관리** > **보존** 탭을 사용하여 Microsoft 365 준수 센터에서 동일한 위치로 이동할 수 있습니다. 
 
-**콘텐츠를 영구적으로 삭제하기 전에 검토하는 기능을 사용하려는 경우** [보존 레이블](labels.md)을 사용하는 것이 좋습니다. 보존 레이블을 만들 때 [처리 검토](disposition-reviews.md)를 설정하여 콘텐츠의 보존 기간이 끝날 때 콘텐츠를 검토할 수 있습니다.
+**콘텐츠를 영구적으로 삭제하기 전에 검토하는 기능을 사용하려는 경우** [보존 레이블](labels.md)을 사용하는 것이 좋습니다. 보존 레이블을 만들 때 [처리 검토](disposition.md#disposition-reviews)를 설정하여 콘텐츠의 보존 기간이 끝날 때 콘텐츠를 검토할 수 있습니다.
 
 ## <a name="how-a-retention-policy-works-with-content-in-place"></a>보존 정책이 원본 위치의 콘텐츠에 작동하는 방식
 

@@ -12,14 +12,16 @@ ms.collection:
 - Adm_O365
 - Adm_TOC
 localization_priority: Priority
+search.appverid:
+- MET150
 ms.assetid: 03083fdf-bc52-409a-b2ac-2a5f5c308fa0
 description: 이 문서에서는 사용자를 위한 설정을 관리하는 방법에 대한 정보를 제공합니다.
-ms.openlocfilehash: fd4475fb3251399fddade0c454f4f9a59558c0ab
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 86c74c5de0dc568622b2be1812b7db10799863be
+ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43628762"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43942142"
 ---
 # <a name="user-email-settings"></a>사용자 전자 메일 설정
 

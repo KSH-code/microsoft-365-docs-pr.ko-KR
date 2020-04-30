@@ -9,16 +9,18 @@ audience: Admin
 ms.topic: tutorial
 ms.service: o365-seccomp
 localization_priority: Normal
+search.appverid:
+- MET150
 ms.collection:
 - M365-security-compliance
 - remotework
 description: 랜 섬 웨어, 피싱 및 악의적 첨부 파일을 포함 하 여 사이버 위협 으로부터 비즈니스 전자 메일 및 데이터를 보호 합니다.
-ms.openlocfilehash: f2d76fd92ac6d439fd6400a0478028c99ae935eb
-ms.sourcegitcommit: 481fb95d8b80cf2102a9c73b21e7effa79e594e7
+ms.openlocfilehash: 04f59d4f87bda9460930b54818d2ab43933d11e5
+ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/24/2020
-ms.locfileid: "43808838"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43943546"
 ---
 # <a name="top-12-tasks-for-security-teams-to-support-working-from-home"></a>집에서 작업을 지원 하기 위한 보안 팀을 위한 상위 12 개 작업
 
@@ -36,7 +38,7 @@ ms.locfileid: "43808838"
 ||**작업**| 모든 Office 365 Enterprise 요금제|**Microsoft 365 E3** |**Microsoft 365 E5**|
 |:-----|:-----|:-----|:-----|:-----|
 |1       |[Azure MFA (Multi-factor Authentication) 사용](#1-enable-azure-multi-factor-authentication-mfa)   |   ![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)  |![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)   | ![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)      | 
-|2      | [위협으로부터 보호](#2-protect-against-threats) |![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png) |  ![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)       | ![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)       | 
+|2     | [위협으로부터 보호](#2-protect-against-threats) |![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png) |  ![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)       | ![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)       | 
 |3       |  [Office 365 Advanced Threat Protection 구성](#3-configure-office-365-advanced-threat-protection)  |   |      |  ![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)     | 
 |4       | [Azure ATP (Advanced Threat Protection) 구성](#4-configure-azure-advanced-threat-protection)   |   |      |  ![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)     | 
 |5      |   [Microsoft Advanced Threat Protection 설정](#5-turn-on-microsoft-advanced-threat-protection)  |  |      | ![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)      | 
@@ -45,7 +47,7 @@ ms.locfileid: "43808838"
 |8       |  [Pc를 장치 관리에 등록 하 고 준수 Pc 필요](#8-enroll-pcs-into-device-management-and-require-compliant-pcs)   |  | ![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)        | ![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)        | 
 |9       | [클라우드 연결용 네트워크 최적화](#9-optimize-your-network-for-cloud-connectivity)  |  ![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png) |![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)      |![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)        | 
 |10     | [사용자 교육](#10-train-users) |    ![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png) |![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)      |![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)      | 
-|11  |[Microsoft Cloud App Security 시작](#11-get-started-with-microsoft-cloud-app-security) |![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)   |![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)   |![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)   |
+|11  |[Microsoft Cloud App Security 시작](#11-get-started-with-microsoft-cloud-app-security) |  |  |![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)   |
 |12  |[위협 모니터링 및 작업 수행](#12-monitor-for-threats-and-take-action) |![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)   |![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)  |![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)  |
 | | | |
 

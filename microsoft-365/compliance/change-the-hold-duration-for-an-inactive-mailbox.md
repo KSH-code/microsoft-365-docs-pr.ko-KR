@@ -13,15 +13,17 @@ localization_priority: Normal
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
-search.appverid: MOE150
+search.appverid:
+- MOE150
+- MET150
 ms.assetid: bdee24ed-b8cf-4dd0-92ae-b86ec4661e6b
 description: Microsoft 365 사서함이 비활성 상태가 되 면 비활성 사서함에 할당 된 보류 또는 Microsoft 365 보존 정책의 기간을 변경할 수 있습니다. 보류 기간은 복구 가능한 항목 폴더에서 항목이 보관 되는 기간을 정의 합니다.
-ms.openlocfilehash: 3d1368bedcbeda467cbc77a356635440066c11c0
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 15f140959a63b4c1a6da573c8a31ab23dbe55ca1
+ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636336"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43942931"
 ---
 # <a name="change-the-hold-duration-for-an-inactive-mailbox"></a>비활성 사서함의 보존 기간 변경
 

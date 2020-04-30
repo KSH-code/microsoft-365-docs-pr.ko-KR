@@ -1,5 +1,5 @@
 ---
-title: 계정 닫기
+title: '계정 사용 중지 '
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -15,16 +15,16 @@ ms.custom: ''
 search.appverid:
 - MET150
 description: Microsoft에서 계정을 닫는 방법을 알아봅니다.
-ms.openlocfilehash: 3a193aea92ff384d53ce320a98cd9043d990b678
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: b71cfe8246b5e3e9471c76cf8043bad52840f194
+ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42080385"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43942856"
 ---
-# <a name="close-your-account"></a>계정 닫기
+# <a name="close-your-account"></a>계정 사용 중지 
 
-Microsoft에서 계정을 닫을 때 계정에 관련 된 모든 정보가 삭제 됩니다. 이 정보에는 구독, 라이선스, 결제 방법, 사용자 및 사용자 데이터가 포함 됩니다. 이 프로세스를 시작 하기 전에 보존 하려는 모든 데이터를 백업 해야 합니다.
+Microsoft 계정을 폐쇄하면 계정과 관련된 모든 정보가 삭제됩니다. 이 정보에는 구독, 라이선스, 지불 방법, 사용자 및 사용자 데이터가 포함됩니다. 이 프로세스를 시작 하기 전에 보존 하려는 모든 데이터를 백업 해야 합니다.
 
 ## <a name="step-1-delete-users"></a>1 단계: 사용자 삭제
 
@@ -72,7 +72,7 @@ Microsoft에서 계정을 닫을 때 계정에 관련 된 모든 정보가 삭�
 
 3. Multi-factor authentication 페이지에서 현재 사용 중인 전역 관리자 계정을 제외한 모든 계정을 사용 하지 않도록 설정 합니다.
 
-또한 <a href="https://docs.microsoft.com/azure/active-directory/authentication/howto-mfa-userstates#use-powershell">PowerShell을 사용 하 여 여러 사용자에 대해 multi-factor authentication을 사용 하지 않도록 설정할</a>수 있습니다.
+또한 <a href="https://docs.microsoft.com/azure/active-directory/authentication/howto-mfa-userstates#change-state-using-powershell">PowerShell을 사용 하 여 여러 사용자에 대해 multi-factor authentication을 사용 하지 않도록 설정할</a>수 있습니다.
 
 ## <a name="step-5-delete-the-directory-in-azure-active-directory"></a>5 단계: Azure Active Directory에서 디렉터리 삭제
 

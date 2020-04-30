@@ -15,13 +15,13 @@ ms.collection:
 - Strat_O365_Enterprise
 - M365-security-compliance
 - Strat_O365_Enterprise
-description: '요약: Microsoft가 전송 중인 데이터를 암호화 하는 방법에 대 한 간략 한 설명입니다.'
-ms.openlocfilehash: 0775d28a96f271a24406fd68c2ccb9fe4954e66d
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Microsoft에서 데이터 센터에 전송 중인 데이터를 암호화 하는 방법에 대 한 간략 한 설명입니다.
+ms.openlocfilehash: 645294522185a631012c1654fbad96ba0a21b33e
+ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637334"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43943307"
 ---
 # <a name="encryption-for-data-in-transit"></a>전송 중인 데이터 암호화
 
@@ -31,9 +31,9 @@ Microsoft는 휴지 지는 고객 데이터를 보호 하는 것 외에도 암�
 
 - 클라이언트 컴퓨터가 Microsoft 서버와 통신 하는 경우
 - Microsoft 서버가 다른 Microsoft 서버와 통신 하는 경우 한
-- Microsoft 서버가 타사 서버와 통신 하는 경우 (예: Exchange Online에서 외부 전자 메일 서버로 전자 메일 배달)
+- Microsoft 서버가 Microsoft가 아닌 서버와 통신 하는 경우 (예: Exchange Online에서 타사 전자 메일 서버로 전자 메일을 배달 하는 경우)
 
-Microsoft 서버 간의 데이터 센터 간 통신은 TLS 또는 IPsec을 통해 수행 되며, 모든 고객 연결 서버가 클라이언트 컴퓨터와 TLS를 사용 하 여 보안 세션을 협상 합니다 (예: Exchange Online은 256 비트 암호화 강도의 TLS 1.2을 사용 합니다 (FIPS 140-2 수준 2 유효성 검사 됨). Office 365에서 지 원하는 TLS 암호 제품군 목록은 [office 365의 암호화에 대 한 기술 참조 세부 정보](https://support.office.com/article/Technical-reference-details-about-encryption-in-Office-365-862CBE93-4268-4EF9-BA79-277545ECF221) 를 참조 하세요. 이는 Outlook, 비즈니스용 Skype, 웹에서 Outlook과 같은 클라이언트에서 사용 하는 프로토콜에 적용 됩니다 (예: HTTP, POP3 등).
+Microsoft 서버 간의 데이터 센터 간 통신은 TLS 또는 IPsec을 통해 수행 되며, 모든 고객 연결 서버가 클라이언트 컴퓨터와 TLS를 사용 하 여 보안 세션을 협상 합니다 (예: Exchange Online은 256 비트 암호화 강도의 TLS 1.2을 사용 합니다 (FIPS 140-2 수준 2-유효성 검사 됨). (Office 365에서 지원 되는 TLS 암호 제품군 목록의 [암호화에 대 한 기술 참조 세부 정보](technical-reference-details-about-encryption.md) 를 참조 하세요.) 이는 Outlook, 비즈니스용 Skype, Microsoft 팀, 웹에서 Outlook과 같은 클라이언트에서 사용 하는 프로토콜에 적용 됩니다 (예: HTTP, POP3 등).
 
 공용 인증서는 전송 되는 정보의 기밀성을 보호 하기 위한 내부 Microsoft 도구인 SSLAdmin을 사용 하 여 Microsoft IT SSL에서 발급 합니다. Microsoft IT에서 발급 한 모든 인증서의 길이는 최소 2048 비트 이며 Webtrust 준수를 사용 하려면 인증서가 Microsoft에서 소유한 공용 IP 주소에만 발급 되도록 해야 합니다. 이 조건을 충족 하지 못하는 모든 IP 주소는 예외 프로세스를 통해 라우팅됩니다.
 

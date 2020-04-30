@@ -10,18 +10,20 @@ audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
+search.appverid:
+- MET150
 ms.collection: M365-security-compliance
 description: 관리자는 조직의 HR (인적 자원) 시스템에서 직원 데이터를 Microsoft 365로 가져오는 데이터 커넥터를 설정할 수 있습니다. 이를 통해 참가자 위험 관리 정책에 HR 데이터를 사용 하 여 조직에 내부적인 위협을 초래할 수 있는 특정 사용자의 작업을 검색 하는 데 도움을 받을 수 있습니다.
-ms.openlocfilehash: 53c1a44ad1e27d2d1002680faee56ae88e3e0921
-ms.sourcegitcommit: 01ead889086ecc7dcf5d10244bcf67c5a33c8114
+ms.openlocfilehash: 0850e3fbbccb7653ddb9c56c07deaad9ed13f84a
+ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/17/2020
-ms.locfileid: "42710547"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43943367"
 ---
 # <a name="set-up-a-connector-to-import-hr-data"></a>HR 데이터를 가져올 커넥터 설정
 
-Microsoft 365 준수 센터에서 데이터 커넥터를 설정 하 여 직원 들이 직원의 resignation 및 날짜를 제출한 날짜와 같은 HR (인적 자원) 데이터를 가져올 수 있습니다. 이 HR 데이터는 새로운 [참가자 위험 관리 솔루션과](insider-risk-management.md)같은 Microsoft 정보 보호 솔루션에서 조직의 악의적인 활동 또는 데이터 절도 로부터 조직을 보호 하는 데 도움이 될 수 있습니다. HR 커넥터를 설정 하는 작업은 커넥터를 통한 인증에 사용 되는 Azure Active Directory의 앱을 만들고, HR 데이터를 포함 하는 CSV 매핑 파일을 만들고, 준수 센터에서 데이터 커넥터를 만든 다음 스크립트를 실행 하는 작업입니다. 예약 된 방식) CSV 파일의 HR 데이터를 Microsoft 클라우드로 ingests. 그런 다음 데이터 커넥터를 사용 하 여 microsoft 365 조직으로 가져온 HR 데이터에 액세스 하는 데에는 insider 위기 관리 등의 Microsoft 규정 준수 솔루션입니다.
+Microsoft 365 준수 센터에서 데이터 커넥터를 설정 하 여 직원 들이 직원의 resignation 및 날짜를 제출한 날짜와 같은 HR (인적 자원) 데이터를 가져올 수 있습니다. 이 HR 데이터는 새로운 [참가자 위험 관리 솔루션과](insider-risk-management.md)같은 Microsoft 정보 보호 솔루션에서 조직의 악의적인 활동 또는 데이터 절도 로부터 조직을 보호 하는 데 도움이 될 수 있습니다. HR 커넥터를 설정 하는 작업은 커넥터를 통한 인증에 사용 되는 Azure Active Directory에서 응용 프로그램을 만들고, HR 데이터를 포함 하는 CSV 매핑 파일을 만들고, 준수 센터에서 데이터 커넥터를 만든 다음, CSV 파일의 HR 데이터를 Microsoft 클라우드에 ingests 스크립트 (예약 된 방식)를 실행 하는 방법으로 구성 됩니다. 그런 다음 데이터 커넥터를 사용 하 여 microsoft 365 조직으로 가져온 HR 데이터에 액세스 하는 데에는 insider 위기 관리 등의 Microsoft 규정 준수 솔루션입니다.
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
@@ -31,7 +33,7 @@ Microsoft 365 준수 센터에서 데이터 커넥터를 설정 하 여 직원 �
 
 - 조직의 HR 시스템에서 데이터를 검색 하거나 내보내는 방법 (정기적으로)을 결정 하 고 2 단계에서 설명 하는 CSV 파일에 추가 하는 방법을 확인 해야 합니다. 4 단계에서 실행 하는 스크립트는 CSV 파일의 HR 데이터를 Microsoft 클라우드에 업로드 합니다.
 
-- 4 단계에서 실행 하는 예제 스크립트는 참가자 위험 관리 솔루션과 같은 다른 Microsoft 도구에서 사용할 수 있도록 HR 데이터를 Microsoft 클라우드에 업로드 합니다. 이 샘플 스크립트는 Microsoft standard 지원 프로그램 또는 서비스에서 지원 되지 않습니다. 예제 스크립트는 어떤 종류의 보증도 없이 있는 그대로 제공 됩니다. Microsoft는 상품성 또는 특정 목적에 대 한 적합성에 대 한 묵시적 보증을 제한 없이 포함 하 여 모든 묵시적 보증을 배제 합니다. 샘플 스크립트 및 설명서의 사용 또는 성능으로 인해 발생 하는 전체 위험은 사용자에 게 남아 있습니다. Microsoft, 작성자 또는 스크립트를 작성, 프로덕션 또는 전달 하는 것과 관련 된 다른 모든 손해에 대 한 책임 (예를 들어, 비즈니스 이익 손실에 대 한 손해, 비즈니스 중단 Microsoft에서 이러한 손해에 대 한 권고를 받은 경우에도 예제 스크립트나 설명서를 사용 하거나 사용 하지 못하는 등의 비즈니스 정보 또는 기타 pecuniary 손실입니다.
+- 4 단계에서 실행 하는 예제 스크립트는 참가자 위험 관리 솔루션과 같은 다른 Microsoft 도구에서 사용할 수 있도록 HR 데이터를 Microsoft 클라우드에 업로드 합니다. 이 샘플 스크립트는 Microsoft standard 지원 프로그램 또는 서비스에서 지원 되지 않습니다. 예제 스크립트는 어떤 종류의 보증도 없이 있는 그대로 제공 됩니다. Microsoft는 상품성 또는 특정 목적에 대 한 적합성에 대 한 묵시적 보증을 제한 없이 포함 하 여 모든 묵시적 보증을 배제 합니다. 샘플 스크립트 및 설명서의 사용 또는 성능으로 인해 발생 하는 전체 위험은 사용자에 게 남아 있습니다. No 이벤트가 발생 하는 경우 Microsoft, 작성자는 또는 스크립트의 만들기, 프로덕션 또는 배달에 관여 하는 다른 모든 사용자에 게는 샘플 스크립트 또는 설명서를 사용 하는 것이 불가능 한 경우 (예: 제한 사항, 비즈니스 중단, 비즈니스 정보 손실 또는 기타 pecuniary 손실)에 대 한 책임을 지 며, Microsoft에서 이러한 손해에 대 한 권고를 받은 경우에도 권장 됩니다.
 
 ## <a name="step-1-create-an-app-in-azure-active-directory"></a>1 단계: Azure Active Directory에 앱 만들기
 

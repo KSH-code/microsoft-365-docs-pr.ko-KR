@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 84acd4fc-6eec-4d00-8bed-568f036ae2af
 description: 도메인을 확인 하 고 전자 메일, 비즈니스용 Skype Online 및 기타 서비스에 대 한 DNS 레코드를 Microsoft에 대 한 Cloudflare로 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: ccd629dfdec24e509144c205b748a883cb65d554
-ms.sourcegitcommit: 2399ee6f9bc955cf8f2a76c01fc84c19eb37ff42
+ms.openlocfilehash: 116132d096db61e7004315dcf159fc78dd790d43
+ms.sourcegitcommit: c7f11d851073ef14a69669f6c8b7e0c11e4bb7a1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43919630"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43939322"
 ---
 # <a name="create-dns-records-at-cloudflare-for-microsoft"></a>Microsoft에 대 한 Cloudflare에서 DNS 레코드 만들기
 
@@ -35,7 +35,6 @@ Cloudflare가 DNS 호스팅 공급자 인 경우이 문서의 단계에 따라 �
   
 Cloudflare에서 이러한 레코드를 추가 하 고 나면 도메인이 Microsoft 365 서비스에서 작동 하도록 설정 됩니다.
   
-Microsoft에서 웹 사이트의 웹 호스팅 및 DNS에 대한 자세한 내용은 [Microsoft에서 공개 웹 사이트 사용하기](https://support.office.com/article/a8178510-501d-4bd8-9921-b04f2e9517a5.aspx)를 참조하세요.
   
 > [!NOTE]
 >  일반적으로 DNS 변경 내용을 적용하는 데 15분 정도 걸립니다. 그러나 변경한 내용이 인터넷의 DNS 시스템 전체에 업데이트되는 데에는 시간이 오래 걸릴 수 있습니다. DNS 레코드를 추가한 후 메일 흐름이나 기타 문제가 있는 경우 [도메인 이름 또는 DNS 레코드 변경 후 발생한 문제 해결](../get-help-with-domains/find-and-fix-issues.md)을 참조하세요. 

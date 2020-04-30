@@ -10,14 +10,16 @@ audience: Admin
 ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
+search.appverid:
+- MET150
 ms.collection: M365-security-compliance
 description: 조직에서 Microsoft 파트너와 협력 하 여 Salesforce Chatter, Yahoo Messenger 또는 Yammer와 같은 데이터 원본의 타사 데이터를 가져올 사용자 지정 커넥터를 설정할 수 있습니다. 이렇게 하면 타사 데이터 원본의 데이터를 보관 하 여 법적 보존, 콘텐츠 검색 및 보존 정책과 같은 Microsoft 365 준수 기능을 사용 하 여 조직의 타사 데이터를 관리할 수 있습니다.
-ms.openlocfilehash: ee321f14f0fc4ac61781892d8fc3b56265b0d223
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 0892e0c02e72516b6abc4502eb9777bd824f9073
+ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43626244"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43943157"
 ---
 # <a name="work-with-a-partner-to-archive-third-party-data"></a>타사 데이터를 저장하는 데 파트너와 협력
 

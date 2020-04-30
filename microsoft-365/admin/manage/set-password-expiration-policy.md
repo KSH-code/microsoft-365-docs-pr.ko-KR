@@ -20,12 +20,12 @@ search.appverid:
 - GEA150
 ms.assetid: 0f54736f-eb22-414c-8273-498a0918678f
 description: 'Microsoft 365 관리 센터에서 조직에 대한 암호 만료 정책을 설정하는 방법을 알아봅니다. '
-ms.openlocfilehash: bcea72dadb6f10ac4ef80677f3def57eca2724cd
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: dd925ee3a5d2aadb07dceed5a0e896e77921e2a1
+ms.sourcegitcommit: b6c4b514b2cb6739af949780d7e2a5a5c8dcc161
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43628055"
+ms.lasthandoff: 04/27/2020
+ms.locfileid: "43901013"
 ---
 # <a name="set-the-password-expiration-policy-for-your-organization"></a>조직의 암호 만료 정책 설정
 
@@ -67,7 +67,7 @@ ms.locfileid: "43628055"
     
 ## <a name="prevent-last-password-from-being-used-again"></a>마지막 암호가 다시 사용되지 않도록 방지
 
-사용자가 이전 암호를 다시 사용하지 못하도록 하면 Azure AD에서도 이전 암호를 다시 사용할 수 없습니다. [조직의 암호 만료 정책 설정](https://docs.microsoft.com/office365/admin/manage/set-password-expiration-policy?view=o365-worldwide)을 참조하세요.
+사용자가 이전 암호를 다시 사용하지 못하도록 하면 Azure AD에서도 이전 암호를 다시 사용할 수 없습니다. [암호 기록 적용](https://docs.microsoft.com/windows/security/threat-protection/security-policy-settings/enforce-password-history)을 참조하세요.
 
 또한 직원이 모바일 장치를 사용하여 Microsoft 365에 액세스하는 경우 해당 장치를 초기화하여 암호가 더 이상 저장 및 재사용되지 않도록 할 수 있습니다. 자세한 내용은 [이전 직원의 모바일 장치 초기화 및 차단](https://docs.microsoft.com/office365/admin/add-users/remove-former-employee?view=o365-worldwide#wipe-and-block-a-former-employees-mobile-device)을 참조하세요.
 

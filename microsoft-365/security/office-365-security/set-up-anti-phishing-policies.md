@@ -14,27 +14,25 @@ ms.assetid: 5a6f2d7f-d998-4f31-b4f5-f7cbf6f38578
 ms.collection:
 - M365-security-compliance
 description: EOP (Exchange Online Protection)의 기본 피싱 방지 정책 및 Office 365 Advanced Threat Protection의 고급 ATP 피싱 방지 정책에 대해 알아봅니다.
-ms.openlocfilehash: 64a47d5514ab7a3a845e8d8b008f1cd8f672640b
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 32214d24c7ed030b3bc7aad36bf3ac99f68a17fb
+ms.sourcegitcommit: f5cecd77e63ae8b47743d4f6dc3135f5decaf28b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43638359"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "43949384"
 ---
 # <a name="anti-phishing-policies-in-microsoft-365"></a>Microsoft 365의 피싱 방지 정책
 
-피싱 방지 보호 설정을 구성 하기 위한 정책은 Exchange Online 사서함, 독립 실행형 EOP (exchange online Protection), Exchange Online 사서함이 없는 office 365 조직, Office 365 ATP (Advanced Threat Protection) 조직에서 사용할 수 있습니다.
+피싱 방지 보호 설정을 구성 하기 위한 정책은 exchange Online 사서함, 독립 실행형 EOP (Exchange Online Protection), Exchange Online 사서함이 없는 Microsoft 365 조직, Office 365 ATP (Advanced Threat Protection) 조직에서 사용할 수 있습니다.
 
 ATP 피싱 방지 정책은 Office 365 ATP가 있는 조직 에서만 사용할 수 있습니다. 예시:
 
-- Office 365 Enterprise E5, Office 365 교육 A5 등입니다.
+- Microsoft 365 Enterprise E5, Microsoft 365 교육 A5 등입니다.
 - [Microsoft 365 Enterprise](https://www.microsoft.com/microsoft-365/enterprise/home)
 - [Microsoft 365 Business](https://www.microsoft.com/microsoft-365/business)
 - [Office 365 ATP를 추가 기능으로 사용](https://products.office.com/exchange/advance-threat-protection)
 
-ATP 피싱 방지 정책에는 기본 제공 피싱 방지 정책이 포함 되어 있으며 사용자 지정 ATP 피싱 방지 정책을 추가로 만들 수 있습니다.
-
-Exchange online 사서함을 포함 하는 기타 Microsoft 365 조직 또는 EOP (독립 실행형 Exchange Online Protection) 조직에는 기본 제공 피싱 방지 정책이 있지만 추가 정책을 만들 수는 없습니다. Exchange Online 사서함이 있는 조직 에서만 기본 피싱 방지 정책을 수정할 수 있습니다.
+다른 모든 조직에는 피싱 방지 정책이 있습니다.
 
 피싱 방지 정책과 ATP 피싱 방지 정책 간의 높은 수준의 차이점은 다음 표에 설명 되어 있습니다.
 
@@ -42,8 +40,8 @@ Exchange online 사서함을 포함 하는 기타 Microsoft 365 조직 또는 EO
 |---|:---:|:---:|
 |**기능**|**피싱 방지 정책**|**ATP 피싱 방지 정책**|
 |자동으로 만들어진 기본 정책|![확인 표시](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
-|사용자 지정 정책 만들기||![확인 표시](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
-|정책 설정<sup>\*</sup>||![확인 표시](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
+|사용자 지정 정책 만들기|![확인 표시](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
+|정책 설정<sup>\*</sup>|![확인 표시](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
 |가장 설정||![확인 표시](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
 |스푸핑 설정|![확인 표시](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|![확인 표시](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
 |고급 피싱 임계값||![확인 표시](../../media/f3b4c351-17d9-42d9-8540-e48e01779b31.png)|
@@ -57,7 +55,7 @@ Exchange online 사서함을 포함 하는 기타 Microsoft 365 조직 또는 EO
 
 - [Microsoft 365에서 ATP 피싱 방지 정책 구성](configure-atp-anti-phishing-policies.md)
 
-이 항목의 나머지 부분에서는 EOP 및 ATP 피싱 방지 정책에서 사용할 수 있는 설정에 대해 설명 합니다.
+이 항목의 나머지 부분에서는 피싱 방지 정책 및 ATP 피싱 방지 정책에서 사용할 수 있는 설정에 대해 설명 합니다.
 
 ## <a name="spoof-settings"></a>스푸핑 설정
 
@@ -65,10 +63,10 @@ Exchange online 사서함을 포함 하는 기타 Microsoft 365 조직 또는 EO
 
 피싱 방지 정책 및 ATP 피싱 방지 정책에서는 다음과 같은 스푸핑 설정을 사용할 수 있습니다.
 
-- **스푸핑 방지 보호**: 스푸핑 방지 보호 기능을 사용 하거나 사용 하지 않도록 설정 합니다. 이 옵션을 사용 하도록 설정 하는 것이 좋습니다. 스푸핑 **인텔리전스 정책을** 사용 하 여 특정 스푸핑된 내부 및 외부 보낸 사람을 허용 하거나 차단 합니다. 자세한 내용은 [Microsoft 365에서 스푸핑 인텔리전스를 구성](learn-about-spoof-intelligence.md)합니다 .를 참조 하십시오.
+- **스푸핑 방지 보호**: 스푸핑 방지 보호 기능을 사용 하거나 사용 하지 않도록 설정 합니다. 이 옵션을 사용 하도록 설정 하는 것이 좋습니다. 스푸핑 **인텔리전스 정책을** 사용 하 여 특정 스푸핑된 내부 및 외부 보낸 사람을 허용 하거나 차단 합니다. 자세한 내용은 [Microsoft 365에 스푸핑 인텔리전스 구성](learn-about-spoof-intelligence.md)을 참조하세요.
 
   > [!NOTE]
-  > 스푸핑 설정은 기본적으로 EOP의 기본 피싱 방지 정책, 기본 ATP 피싱 방지 정책 및 새로 만든 사용자 지정 ATP 피싱 정책의 기본값으로 사용 됩니다. <br/><br/> MX 레코드가 Microsoft 365를 가리키지 않는 경우 스푸핑 방지 보호를 사용 하지 않도록 설정할 필요가 없습니다. 대신 커넥터에 대 한 향상 된 필터링을 사용 하도록 설정 합니다. 자세한 내용은 [Exchange Online의 커넥터에 대 한 향상 된 필터링](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors)을 참조 하십시오.
+  > 스푸핑 설정은 기본적으로 EOP의 기본 피싱 방지 정책, 기본 ATP 피싱 방지 정책 및 새로 만든 피싱 방지 정책 또는 ATP 피싱 방지 정책에서 사용 하도록 설정 됩니다. <br/><br/> MX 레코드가 Microsoft 365를 가리키지 않는 경우 스푸핑 방지 보호를 사용 하지 않도록 설정할 필요가 없습니다. 대신 커넥터에 대 한 향상 된 필터링을 사용 하도록 설정 합니다. 자세한 내용은 [Exchange Online의 커넥터에 대 한 향상 된 필터링](https://docs.microsoft.com/Exchange/mail-flow-best-practices/use-connectors-to-configure-mail-flow/enhanced-filtering-for-connectors)을 참조 하십시오.
 
   차단 된 스푸핑된 보낸 사람에 게 보내는 메시지에 대해 수행할 작업을 지정할 수도 있습니다.
 

@@ -17,12 +17,12 @@ ms.custom: TopSMBIssues
 ms.collection:
 - M365-security-compliance
 description: Microsoft 365는 기본적으로 피싱 공격을 방지 하 고 Office 365 ATP (Advanced Threat Protection)의 추가 기능을 제공 합니다. 이 항목에서는 Microsoft 365에서 피싱 방지 옵션 및 전략을 배우고 구현 하는 데 사용할 수 있는 온라인 리소스에 대해 소개 합니다.
-ms.openlocfilehash: fd1aaee221254c3899c15d22850e95378436a392
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: bdab6c05fb9be85c2ffb4914390ecc893fdd162b
+ms.sourcegitcommit: f5cecd77e63ae8b47743d4f6dc3135f5decaf28b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634583"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "43949372"
 ---
 # <a name="anti-phishing-protection-in-microsoft-365"></a>Microsoft 365의 피싱 방지 보호 기능
 
@@ -42,11 +42,11 @@ ms.locfileid: "43634583"
 
 EOP (즉, ATP가 없는 Microsoft 365 조직)에는 피싱 위협 으로부터 조직을 보호 하는 데 도움이 되는 기능이 포함 되어 있습니다.
 
-- **스푸핑 인텔리전스**: 내부 및 외부 도메인의 보낸 사람으로부터 스푸핑된 메시지를 검토하고 해당 보낸 사람을 허용하거나 차단합니다. 자세한 내용은 [Microsoft 365에서 스푸핑 인텔리전스를 구성](learn-about-spoof-intelligence.md)합니다 .를 참조 하십시오.
+- **스푸핑 인텔리전스**: 내부 및 외부 도메인의 보낸 사람으로부터 스푸핑된 메시지를 검토하고 해당 보낸 사람을 허용하거나 차단합니다. 자세한 내용은 [Microsoft 365에 스푸핑 인텔리전스 구성](learn-about-spoof-intelligence.md)을 참조하세요.
 
-- **기본 피싱 방지 정책**: 스푸핑 인텔리전스를 설정 하거나 해제 하 고, Outlook에서 인증 되지 않은 보낸 사람 id를 설정/해제 하 고, 차단 된 스푸핑된 보낸 사람 (정크 메일 폴더 또는 격리로 이동)에 대 한 작업을 지정 합니다. 자세한 내용은 [EOP에서 피싱 방지 정책 구성을](configure-anti-phishing-policies-eop.md)참조 하세요.
+- **EOP의 피싱 방지 정책**: 스푸핑 인텔리전스를 설정 하거나 해제 하 고, Outlook에서 인증 되지 않은 보낸 사람 id를 설정/해제 하 고, 차단 된 스푸핑된 보낸 사람 (정크 메일 폴더 또는 격리로 이동)에 대 한 작업을 지정 합니다. 자세한 내용은 [EOP에서 피싱 방지 정책 구성을](configure-anti-phishing-policies-eop.md)참조 하세요.
 
-- **암시적 전자 메일 인증**:[EOP에서는 위조](set-up-spf-in-office-365-to-help-prevent-spoofing.md)된 보낸 사람을 식별 하는 데 도움이 되는 보낸 [DMARC](use-dmarc-to-validate-email.md)사람 신뢰도, 보낸 사람 기록, 받는 사람 기록, 행태 분석 및 기타 고급 기법을 사용 하 여 인바운드 전자 메일에 대 한 표준 전자 메일 인증 [확인을 향상](use-dkim-to-validate-outbound-email.md)시킵니다. 자세한 내용은 [Microsoft 365의 전자 메일 인증](email-validation-and-authentication.md)을 참조 하세요.
+- **암시적 전자 메일 인증**:[EOP에서는 위조](set-up-spf-in-office-365-to-help-prevent-spoofing.md)된 보낸 사람을 식별 하는 데 도움이 되는 보낸 [DMARC](use-dmarc-to-validate-email.md)사람 신뢰도, 보낸 사람 기록, 받는 사람 기록, 행태 분석 및 기타 고급 기법을 사용 하 여 인바운드 전자 메일에 대 한 표준 전자 메일 인증 [확인을 향상](use-dkim-to-validate-outbound-email.md)시킵니다. 자세한 내용은 [Microsoft 365의 전자 메일 인증](email-validation-and-authentication.md)을 참조하세요.
 
 ## <a name="additional-anti-phishing-protection-in-office-365-atp"></a>Office 365 ATP의 추가 피싱 방지 보호 기능
 

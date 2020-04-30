@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 7a2efd75-0771-4897-ba7b-082fe5bfa9da
 description: Microsoft의 AWS (Amazon Web Services)에서 도메인을 확인 하 고 전자 메일, 비즈니스용 Skype Online 및 기타 서비스에 대 한 DNS 레코드를 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: 1ce4d47dce2fce177efafade49b78ea706cf14e2
-ms.sourcegitcommit: 2399ee6f9bc955cf8f2a76c01fc84c19eb37ff42
+ms.openlocfilehash: daac9a8efedc8a2710217e352d9793ead954d2c3
+ms.sourcegitcommit: c7f11d851073ef14a69669f6c8b7e0c11e4bb7a1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43919542"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43939358"
 ---
 # <a name="create-dns-records-at-amazon-web-services-aws-for-microsoft"></a>Microsoft의 AWS (Amazon Web Services)에서 DNS 레코드 만들기
 
@@ -35,7 +35,7 @@ AWS이 DNS 호스팅 공급자 인 경우이 문서의 단계에 따라 도메�
   
 AWS에서 이러한 레코드를 추가 하 고 나면 도메인이 Microsoft 서비스에서 작동 하도록 설정 됩니다.
   
-마이크로 sfot을 사용 하는 웹 사이트에 대 한 호스트 및 DNS에 대 한 자세한 내용은 [Microsoft에서 공개 웹 사이트 사용](https://support.office.com/article/choose-a-public-website-3325d50e-d131-403c-a278-7f3296fe33a9)을 참조 하세요.
+
   
 > [!NOTE]
 > Typically it takes about 15 minutes for DNS changes to take effect. 그러나 변경한 내용이 인터넷의 DNS 시스템 전체에 업데이트되는 데에는 시간이 오래 걸릴 수 있습니다. DNS 레코드를 추가한 후 메일 흐름 또는 기타 문제가 발생하는 경우 [도메인 또는 DNS 레코드를 추가한 후 문제 찾기 및 해결하기](../get-help-with-domains/find-and-fix-issues.md)를 참조하세요. 

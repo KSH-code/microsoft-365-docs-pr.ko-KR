@@ -18,12 +18,12 @@ ms.collection:
 - M365-security-compliance
 - SPO_Content
 description: 비즈니스용 OneDrive 및 SharePoint Online에서 데이터 보안을 위한 암호화의 기본 요소를 이해합니다.
-ms.openlocfilehash: e882bf3bf633c821fe50246316b5b1065cfa4693
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 6e1cd8a8bad74a02e22357aa2da3c8c3de036b6d
+ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43633343"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43943489"
 ---
 # <a name="data-encryption-in-onedrive-for-business-and-sharepoint-online"></a>비즈니스용 OneDrive 및 SharePoint Online에서의 데이터 암호화
 
@@ -32,8 +32,6 @@ ms.locfileid: "43633343"
 ## <a name="overview"></a>개요
 
 Microsoft 365는 실제 데이터 센터 보안, 네트워크 보안, 액세스 보안, 응용 프로그램 보안, 데이터 보안 등 여러 계층에 광범위 한 보호를 제공 하는 강력한 보안 환경입니다. 이 문서에서는 특히 비즈니스용 OneDrive 및 SharePoint Online에 대한 전송 중 및 보관된 데이터 보안의 암호화 측면을 중점적으로 설명합니다.
-  
-Microsoft 365 보안에 대 한 자세한 내용은 [security](https://go.microsoft.com/fwlink/p/?LinkId=270895)백서를 참조 하십시오.
   
 다음 비디오에서 데이터 암호화 방법을 알아보세요.
   

@@ -16,12 +16,12 @@ ms.assetid: 6f64f2de-d626-48ed-8084-03cc72301aa4
 ms.collection:
 - M365-security-compliance
 description: EOP (Exchange Online Protection) 및 ATP (Advanced Threat Protection) 보안 설정에 대 한 모범 사례 표준 보호에 대 한 최신 권장 사항은 무엇 인가요? 보다 엄격한 기능을 사용 하려면 어떻게 해야 합니까? 또한 ATP (Advanced Threat Protection)를 사용 하는 경우에는 어떤 것을 얻게 됩니까?
-ms.openlocfilehash: 9755fccb482dc294da7a0747310776314c739139
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: a88d58db68816cd6aeb9173c36b964f3f97653db
+ms.sourcegitcommit: f5cecd77e63ae8b47743d4f6dc3135f5decaf28b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634415"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "43949228"
 ---
 # <a name="recommended-settings-for-eop-and-office-365-atp-security"></a>EOP 및 Office 365 ATP 보안에 대 한 권장 설정
 
@@ -45,7 +45,7 @@ ms.locfileid: "43634415"
 
 스팸 방지 정책을 만들고 구성 하려면 [Office 365에서 스팸 방지 정책 구성을](configure-your-spam-filter-policies.md)참조 하세요.
 
-| 보안 기능 이름 | 표준을 | 항등 | Comment |
+|보안 기능 이름|표준을|항등|Comment|
 |---|---|---|---|
 |**스팸** 검색 작업 <br/><br/> _SpamAction_|**정크 메일 폴더로 메시지 이동** <br/><br/> `MoveToJmf`|**메시지 격리** <br/><br/> `Quarantine`||
 |**높은 정확도 스팸** 검색 작업 <br/><br/> _HighConfidenceSpamAction_|**메시지 격리** <br/><br/> `Quarantine`|**메시지 격리** <br/><br/> `Quarantine`||
@@ -69,7 +69,7 @@ ms.locfileid: "43634415"
 
 이러한 ASF 설정은 **표준** 및 **Strict** 수준에 대해 모두 **해제** 하는 것이 좋습니다. ASF 설정에 대 한 자세한 내용은 [Office 365의 asf (Advanced 스팸 필터) 설정을](advanced-spam-filtering-asf-options.md)참조 하십시오.
 
-| 보안 기능 이름 | 설명 |
+|보안 기능 이름|설명|
 |----|---|
 |**원격 사이트에 대 한 이미지 링크** (_IncreaseScoreWithImageLinks_)||
 |**URL의 숫자 IP 주소** (_IncreaseScoreWithNumericIps_)||
@@ -91,7 +91,7 @@ ms.locfileid: "43634415"
 
 아웃 바운드 스팸 정책을 만들고 구성 하려면 [Office 365에서 아웃 바운드 스팸 필터링 구성을](configure-the-outbound-spam-policy.md)참조 하세요.
 
-| 보안 기능 이름 | 표준을 | 항등 | Comment |
+|보안 기능 이름|표준을|항등|Comment|
 |---|---|---|---|
 |**사용자 당 최대 받는 사람 수: 외부 시간 제한** <br/><br/> _RecipientLimitExternalPerHour_|500|400||
 |**사용자 당 최대 받는 사람 수: 내부 시간 제한** <br/><br/> _RecipientLimitInternalPerHour_|1000|800||
@@ -102,7 +102,7 @@ ms.locfileid: "43634415"
 
 맬웨어 방지 정책을 만들고 구성 하려면 [Office 365에서 맬웨어 방지 정책 구성을](configure-anti-malware-policies.md)참조 하세요.
 
-| 보안 기능 이름 | 표준을 | 항등 | Comment |
+|보안 기능 이름|표준을|항등|Comment|
 |---|---|---|---|
 |**메시지가 격리 된 경우 받는 사람에 게 알릴지 여부** <br/><br/> _작업_|아니요 <br/><br/> _DeleteMessage_|아니요 <br/><br/> _DeleteMessage_|전자 메일 첨부 파일에서 맬웨어가 검색 되 면 메시지가 격리 되며 관리자만 해제할 수 있습니다.|
 |**일반 첨부 파일 형식 필터** <br/><br/> _EnableFileFilter_|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`|이 설정은 첨부 파일 내용에 상관 없이 설정별 첨부 파일이 들어 있는 메시지의 형식을 설정 합니다.|
@@ -112,9 +112,9 @@ ms.locfileid: "43634415"
 
 ### <a name="eop-default-anti-phishing-policy-settings"></a>EOP 기본 피싱 방지 정책 설정
 
-이러한 설정은 Exchange Online 사서함이 있는 Office 365 조 직 에서만 구성할 수 있습니다. 이러한 설정을 구성 하려면 [EOP에서 기본 피싱 방지 정책 구성을](configure-anti-phishing-policies-eop.md)참조 하십시오.
+이러한 설정을 구성 하려면 [EOP에서 피싱 방지 정책 구성을](configure-anti-phishing-policies-eop.md)참조 하십시오.
 
-| 보안 기능 이름 | 표준을 | 항등 | Comment |
+|보안 기능 이름|표준을|항등|Comment|
 |---|---|---|---|
 |**스푸핑 방지 보호 사용** <br/><br/> _EnableAntispoofEnforcement_|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`||
 |**인증 되지 않은 보낸 사람 사용** <br/><br/> _EnableUnauthenticatedSender_|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`|알 수 없는 스푸핑된 보낸 사람에 대 한 Outlook의 보낸 사람 사진에 물음표 (?)를 추가 합니다. 자세한 내용은 [피싱 방지 정책에서 스푸핑 설정을](set-up-anti-phishing-policies.md)참조 하십시오.|
@@ -158,7 +158,7 @@ EOP 고객은 앞에서 설명한 것 처럼 기본 피싱 방지를 제공 하�
 
 #### <a name="impersonation-settings-in-atp-anti-phishing-policies"></a>ATP 피싱 방지 정책의 가장 설정
 
-| 보안 기능 이름 | 표준을 | 항등 | Comment |
+|보안 기능 이름|표준을|항등|Comment|
 |---|---|---|---|
 |보호 된 사용자: **보호를 위해 사용자 추가** <br/><br/> _EnableTargetedUserProtection_ <br/><br/> _TargetedUsersToProtect_|켜짐 <br/><br/> `$true` <br/><br/> \<사용자 목록\>|켜짐 <br/><br/> `$true` <br/><br/> \<사용자 목록\>|조직에 따라 다르지만 주요 역할에 사용자를 추가 하는 것이 좋습니다. 내부적으로는 CEO, CFO 및 기타 선임 리더가 될 수 있습니다. 외부에는 council 구성원 또는 이사회의 보드가 포함 될 수 있습니다.|
 |보호 된 도메인: **내가 소유한 도메인을 자동으로 포함** <br/><br/> _EnableOrganizationDomainsProtection_|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`||
@@ -178,7 +178,7 @@ EOP 고객은 앞에서 설명한 것 처럼 기본 피싱 방지를 제공 하�
 
 이러한 설정은 [EOP의 스팸 방지 정책 설정](#eop-anti-spam-policy-settings)에서 사용할 수 있는 설정과 동일 합니다.
 
-| 보안 기능 이름 | 표준을 | 항등 | Comment |
+|보안 기능 이름|표준을|항등|Comment|
 |---|---|---|---|
 |**스푸핑 방지 보호 사용** <br/><br/> _EnableAntispoofEnforcement_|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`||
 |**인증 되지 않은 보낸 사람 사용** <br/><br/> _EnableUnauthenticatedSender_|켜짐 <br/><br/> `$true`|켜짐 <br/><br/> `$true`|알 수 없는 스푸핑된 보낸 사람에 대 한 Outlook의 보낸 사람 사진에 물음표 (?)를 추가 합니다. 자세한 내용은 [피싱 방지 정책에서 스푸핑 설정을](set-up-anti-phishing-policies.md)참조 하십시오.|
@@ -186,7 +186,7 @@ EOP 고객은 앞에서 설명한 것 처럼 기본 피싱 방지를 제공 하�
 
 #### <a name="advanced-settings-in-atp-anti-phishing-policies"></a>ATP 피싱 방지 정책의 고급 설정
 
-| 보안 기능 이름 | 표준을 | 항등 | Comment |
+|보안 기능 이름|표준을|항등|Comment|
 |---|---|---|---|
 |**고급 피싱 임계값** <br/><br/> _PhishThresholdLevel_|**2-적극적인** <br/><br/> `2`|**3-적극적인** <br/><br/> `3`||
 

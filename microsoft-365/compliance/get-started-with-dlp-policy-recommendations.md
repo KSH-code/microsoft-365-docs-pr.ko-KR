@@ -12,13 +12,15 @@ ms.service: O365-seccomp
 ms.collection:
 - M365-security-compliance
 localization_priority: Normal
+search.appverid:
+- MET150
 description: 이 통찰력 기반 권장 사항은 조직에서 DLP 정책 적용 범위에 가능한 간격이 있을 때 사용자에 게이를 알리는 방식으로 중요 한 콘텐츠를 저장 하 고 Microsoft 365에서 공유할 때 안전 하 게 유지 하는 데 도움이 됩니다. 문서에 가장 일반적인 유형의 중요 한 주요 정보가 포함 되어 있지만 &amp; DLP 정책에 의해 보호 되지 않는 경우에는 보안 및 준수 센터의 홈 페이지에서이 권장 사항을 확인할 수 있습니다.
-ms.openlocfilehash: 73c45c477942533d5668c225144950a0fde4279b
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 504a85b07f348c45c9925cc2e6ee24b1d8a48656
+ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632469"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43943377"
 ---
 # <a name="get-started-with-dlp-policy-recommendations"></a>DLP 정책 권장 시작
 

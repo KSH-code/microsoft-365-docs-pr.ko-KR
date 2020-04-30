@@ -23,18 +23,18 @@ search.appverid:
 ms.assetid: e81e09d2-cd52-4212-8550-5405864b6d62
 ROBOTS: NOINDEX
 description: 때로는 수동으로 전환 하거나 지원 서비스를 호출 하 여 계획을 수행 해야 하는 이유를 이해 합니다.
-ms.openlocfilehash: 5d446e3492bc9039e490cacca469443c0dc52cbd
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 8b6c4069f2c7f0cfd86981c1001a7211aa298ff7
+ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631932"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43943146"
 ---
 # <a name="why-cant-i-switch-microsoft-365-for-business-plans"></a>Microsoft 365 for business 요금제를 전환할 수 없는 이유는 무엇 인가요?
 
 ::: moniker range="o365-worldwide"
 > [!NOTE]
-> 이 문서는 이전 관리 센터에 적용 됩니다. 관리 센터 (미리 보기)에 대 한 문서를 보려면 [요금제를 업그레이드할 수 없는 이유](why-cant-i-change-plans.md)를 참조 하세요. 모든 Microsoft 365 관리자가 미리 보기를 사용할 수 있는 경우 홈 페이지 위쪽에 있는 **미리 보기** 사용 안 함을 선택 하 여 참여할 수 있습니다. 자세한 내용은 [새 Microsoft 365 관리 센터 정보](../../admin/microsoft-365-admin-center-preview.md)를 참고하세요.
+> 이 문서는 이전 관리 센터에 적용 됩니다. 관리 센터 (미리 보기)에 대 한 문서를 보려면 [요금제를 업그레이드할 수 없는 이유](upgrade-to-different-plan.md#why-cant-i-upgrade-plans)를 참조 하세요. 모든 Microsoft 365 관리자가 미리 보기를 사용할 수 있는 경우 홈 페이지 위쪽에 있는 **미리 보기** 사용 안 함을 선택 하 여 참여할 수 있습니다. 자세한 내용은 [새 Microsoft 365 관리 센터 정보](../../admin/microsoft-365-admin-center-preview.md)를 참고하세요.
 ::: moniker-end
 
 **요금제 전환** 단추가 표시 되지 않으면 요금제를 자동으로 전환할 수 없습니다. 일부 경우 **요금제 전환** 단추를 사용할 수 있도록 문제를 해결할 수 있거나, 대신 [요금제를 수동으로 전환](switch-plans-manually.md)할 수 있습니다. **요금제 전환** 단추를 사용할 수 없는 이유를 설명하는 메시지를 보려면 마우스를 정보 아이콘 위에 놓으세요. 이 문서의 정보를 사용하여 문제를 해결하세요.

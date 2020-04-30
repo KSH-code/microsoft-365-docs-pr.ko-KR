@@ -13,15 +13,17 @@ ms.collection:
 - M365-security-compliance
 - SPO_Content
 localization_priority: Normal
-search.appverid: MOE150
+search.appverid:
+- MOE150
+- MET150
 ms.assetid: 5f4f8206-2d6a-4cb2-bbc6-7a0698703cc0
 description: 이 문서의 콘텐츠 검색 및 스크립트를 사용 하 여 사용자 그룹에 대 한 사서함 및 비즈니스용 OneDrive 사이트를 검색할 수 있습니다.
-ms.openlocfilehash: fa17b9eab2613407ae6c537ffc2619e5857f9182
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: 31dfa2057eff27ed1d2579cc541361858a11c7ce
+ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42634676"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43943277"
 ---
 # <a name="use-content-search-to-search-the-mailbox-and-onedrive-for-business-site-for-a-list-of-users"></a>콘텐츠 검색을 사용하여 사용자 목록에 대 한 사서함 및 비즈니스용 OneDrive 검색
 
@@ -35,7 +37,7 @@ ms.locfileid: "42634676"
     
 - 스크립트에 최소 오류 처리가 포함 되어 있습니다. 기본 목적은 사서함과 각 사용자의 비즈니스용 OneDrive 사이트를 빠르고 쉽게 검색 하는 것입니다.
     
-- 이 항목에서 제공 하는 예제 스크립트는 Microsoft standard 지원 프로그램 또는 서비스에서 지원 되지 않습니다. 예제 스크립트는 어떤 종류의 보증도 없이 있는 그대로 제공 됩니다. Microsoft는 상품성 또는 특정[https://go.microsoft.com/fwlink/p/?LinkId=517283](https://go.microsoft.com/fwlink/p/?LinkId=517283)목적에의 적합성에 대 한 묵시적 보증을 제한 없이 포함 하 여 모든 i mplied 보증을 배제 합니다. 예제 스크립트 및 설명서의 사용 또는 성능으로 인해 발생 하는 전체 위험은 사용자에 게 남아 있습니다. Microsoft, 작성자 또는 스크립트를 작성, 프로덕션 또는 전달 하는 것과 관련 된 다른 모든 손해에 대 한 책임 (예를 들어, 비즈니스 이익 손실에 대 한 손해, 비즈니스 중단 Microsoft에서 이러한 손해에 대 한 권고를 받은 경우에도 예제 스크립트나 설명서를 사용 하거나 사용 하지 못하는 등의 비즈니스 정보 또는 기타 pecuniary 손실입니다.
+- 이 항목에서 제공 하는 예제 스크립트는 Microsoft standard 지원 프로그램 또는 서비스에서 지원 되지 않습니다. 예제 스크립트는 어떤 종류의 보증도 없이 있는 그대로 제공 됩니다. Microsoft는 상품성 또는 특정[https://go.microsoft.com/fwlink/p/?LinkId=517283](https://go.microsoft.com/fwlink/p/?LinkId=517283)목적에의 적합성에 대 한 묵시적 보증을 제한 없이 포함 하 여 모든 i mplied 보증을 배제 합니다. 예제 스크립트 및 설명서의 사용 또는 성능으로 인해 발생 하는 전체 위험은 사용자에 게 남아 있습니다. No 이벤트가 발생 하는 경우 Microsoft, 작성자는 또는 스크립트의 만들기, 프로덕션 또는 배달에 관여 하는 다른 모든 사용자에 게는 샘플 스크립트 또는 설명서를 사용 하는 것이 불가능 한 경우 (예: 제한 사항, 비즈니스 중단, 비즈니스 정보 손실 또는 기타 pecuniary 손실)에 대 한 책임을 지 며, Microsoft에서 이러한 손해에 대 한 권고를 받은 경우에도 권장 됩니다.
     
 ## <a name="step-1-install-the-sharepoint-online-management-shell"></a>1단계: SharePoint Online 관리 셸 설치
 

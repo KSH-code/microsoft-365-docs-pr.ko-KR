@@ -10,15 +10,17 @@ ms.date: 05/17/2019
 ms.topic: overview
 ms.service: O365-seccomp
 localization_priority: Normal
+search.appverid:
+- MET150
 ms.collection:
 - M365-security-compliance
 description: 안전한 첨부 파일 기능은 전자 메일 첨부 파일을 클릭 하 여 확인할 시간을 제공 합니다. 안전한 첨부 파일을 사용 하 여 사용자가 전자 메일로 보내거나 받는 악의적인 파일 로부터 조직을 보호 합니다.
-ms.openlocfilehash: e53d95a52c6990b5e0b4ff81f42414a34b1e606e
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 14a1b37ce08e0ab63c23515fcf0fb03d99e59cc8
+ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43638025"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43943762"
 ---
 # <a name="how-atp-safe-attachments-works"></a>ATP 안전한 첨부 정책의 작동 방식
 

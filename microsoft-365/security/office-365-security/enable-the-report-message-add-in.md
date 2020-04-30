@@ -16,12 +16,12 @@ ms.assetid: 4250c4bc-6102-420b-9e0a-a95064837676
 ms.collection:
 - M365-security-compliance
 description: 개별 사용자 또는 전체 조직에 대해 Outlook 및 웹용 outlook 용 보고서 메시지 추가 기능을 사용 하도록 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: 0024e8c87ef6326c1df4547349631c4f1fd4cab8
-ms.sourcegitcommit: d929fa32fc2dfb0749fa2420eddbc2251d8489dc
+ms.openlocfilehash: 22ce1c8e8084cb0bcbcb2f9fa4c0c80e1a59bf9c
+ms.sourcegitcommit: c7f11d851073ef14a69669f6c8b7e0c11e4bb7a1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43921579"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43939478"
 ---
 # <a name="enable-the-report-message-add-in"></a>보고서 메시지 추가 기능을 사용하도록 설정
 
@@ -133,7 +133,7 @@ Outlook 및 웹용 Outlook에 대 한 보고서 메시지 추가 기능 (이전�
 
    ![추가 기능 페이지 알림](../../media/announce-add-in-page.png)
 
-### <a name="learn-how-to-use-the-report-message-add-in"></a>보고서 메시지 추가 기능을 사용 하는 방법 알아보기
+## <a name="learn-how-to-use-the-report-message-add-in"></a>보고서 메시지 추가 기능을 사용 하는 방법 알아보기
 
 추가 기능이 할당 된 사용자는 다음 아이콘을 볼 수 있습니다.
 
@@ -147,7 +147,7 @@ Outlook 및 웹용 Outlook에 대 한 보고서 메시지 추가 기능 (이전�
 
 사용자에 게 보고서 메시지 추가 기능에 대 한 알림을 보내는 경우 [보고서 메시지 추가 기능을 사용](https://support.office.com/article/b5caa9f1-cdf3-4443-af8c-ff724ea719d2)하는 링크를 포함 합니다.
 
-### <a name="review-or-edit-settings-for-the-report-message-add-in"></a>보고서 메시지 추가 기능의 설정 검토 또는 편집
+## <a name="review-or-edit-settings-for-the-report-message-add-in"></a>보고서 메시지 추가 기능의 설정 검토 또는 편집
 
 1. Microsoft 365 관리 센터에서 **서비스 & 추가 기능** 페이지로 이동 <https://admin.microsoft.com/AdminPortal/Home#/Settings/ServicesAndAddIns>합니다.
 
@@ -158,3 +158,11 @@ Outlook 및 웹용 Outlook에 대 한 보고서 메시지 추가 기능 (이전�
 3. 표시 된 **보고서 메시지** 플라이 아웃 편집에서 조직에 적합 한 설정을 검토 하 고 편집 합니다. 작업을 마쳤으면 **저장**을 클릭합니다.
 
    ![보고서 메시지 추가 기능에 대 한 설정](../../media/EditReportMessageAddIn.png)
+
+## <a name="view-and-review-reported-messages"></a>보고 된 메시지 보기 및 검토
+
+사용자가 Microsoft에 보고 하는 메시지를 검토 하려면 다음 옵션을 사용할 수 있습니다.
+
+- 관리자 전송 포털을 사용 합니다. 자세한 내용은 [Microsoft에 대 한 사용자 제출 보기](admin-submission.md#view-user-submissions-to-microsoft)를 참조 하세요.
+
+- 메일 흐름 규칙 (전송 규칙이 라고도 함)을 만들어 보고 된 메시지의 복사본을 보냅니다. 자세한 내용은 [메일 흐름 규칙을 사용 하 여 사용자가 Microsoft에 보고 하는 항목 보기](use-mail-flow-rules-to-see-what-your-users-are-reporting-to-microsoft.md)를 참조 하세요.

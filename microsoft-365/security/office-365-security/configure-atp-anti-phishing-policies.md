@@ -14,12 +14,12 @@ ms.assetid: ''
 ms.collection:
 - M365-security-compliance
 description: 관리자는 Office 365 ATP (Advanced Threat Protection)가 있는 조직에서 사용할 수 있는 고급 피싱 방지 정책을 만들고, 수정 하 고, 삭제 하는 방법에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: 358abc2835e8d1fba39d72021f03b75775528bcf
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: e1a7d3b9d401d8bb5bec08d7b5d58546bbd382aa
+ms.sourcegitcommit: f5cecd77e63ae8b47743d4f6dc3135f5decaf28b
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43638466"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "43949262"
 ---
 # <a name="configure-atp-anti-phishing-policies"></a>ATP 피싱 방지 정책 구성
 
@@ -29,9 +29,9 @@ ATP 피싱 방지 정책은 [Office 365 Advanced Threat Protection](office-365-a
 
 보안 & 준수 센터 또는 Exchange Online PowerShell에서 ATP 피싱 방지 정책을 구성할 수 있습니다.
 
-Exchange Online Protection 조직 (즉, ATP가 없는 Office 365 조직)에서 사용할 수 있는 제한 된 기본 제공 피싱 방지 정책을 구성 하는 방법에 대 한 자세한 내용은 [EOP에서 기본 피싱 방지 정책 구성을](configure-anti-phishing-policies-eop.md)참조 하십시오.
+Exchange Online Protection 조직에서 사용할 수 있는 피싱 방지 정책에서 더 제한 된 기능 365을 구성 하는 방법에 대 한 자세한 내용은 [EOP에서 피싱 방지 정책 구성을](configure-anti-phishing-policies-eop.md)참조 하십시오.
 
-## <a name="atp-anti-phishing-policies-in-the-office-365-security--compliance-center-vs-exchange-online-powershell"></a>Office 365 보안 & 준수 센터 vs Exchange Online PowerShell의 ATP 피싱 방지 정책
+## <a name="atp-anti-phishing-policies-in-the-security--compliance-center-vs-exchange-online-powershell"></a>보안 & 준수 센터 vs Exchange Online PowerShell의 ATP 피싱 방지 정책
 
 ATP 피싱 방지 정책의 기본 요소는 다음과 같습니다.
 
@@ -69,11 +69,11 @@ Exchange Online PowerShell에서 피싱 정책 및 피싱 규칙 간의 차이�
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
 
-- <https://protection.office.com/>에서 보안 및 준수 센터를 엽니다. **ATP 피싱 방지** 페이지로 바로 이동 하려면을 사용 <https://protection.office.com/antiphishing>합니다.
+- <https://protection.office.com/>에서 보안 및 규정 준수 센터를 엽니다. **ATP 피싱 방지** 페이지로 바로 이동 하려면을 사용 <https://protection.office.com/antiphishing>합니다.
 
 - Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell)을 참조하세요.
 
-- 이 절차를 수행하려면 먼저 사용 권한을 할당받아야 합니다. 피싱 방지 정책을 추가, 수정 및 삭제 하려면 **조직 관리** 또는 **보안 관리자** 역할 그룹의 구성원 이어야 합니다. 피싱 방지 정책에 대 한 읽기 전용 액세스를 위해서는 **보안 독자** 역할 그룹의 구성원 이어야 합니다. 보안 & 준수 센터의 역할 그룹에 대 한 자세한 내용은 [보안 & 준수 센터의 사용 권한을](permissions-in-the-security-and-compliance-center.md)참조 하세요.
+- 이 절차를 수행하려면 먼저 사용 권한을 할당받아야 합니다. 피싱 방지 정책을 추가, 수정 및 삭제 하려면 **조직 관리** 또는 **보안 관리자** 역할 그룹의 구성원 이어야 합니다. 피싱 방지 정책에 대 한 읽기 전용 액세스를 위해서는 **보안 독자** 역할 그룹의 구성원 이어야 합니다. 보안 및 규정 준수 센터의 역할 그룹에 대한 자세한 내용은 [보안 및 규정 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)을 참조하세요.
 
 - ATP 피싱 사기 정책에 대 한 권장 설정은 [OFFICE ATP 피싱 방지 정책 설정을](recommended-settings-for-eop-and-office365-atp.md#office-atp-anti-phishing-policy-settings)참조 하십시오.
 
@@ -244,7 +244,7 @@ ATP 피싱 방지 정책을 만들 때는 정책 이름, 설명 및 정책이 �
 
 6. **스푸핑**: **편집** 을 클릭 하 여 스푸핑 인텔리전스를 설정 하거나 해제 하 고, Outlook에서 인증 되지 않은 보낸 사람 id를 설정/해제 하 고, 차단 된 스푸핑된 보낸 사람 으로부터 메시지에 적용할 작업을 구성 합니다. 자세한 내용은 [피싱 방지 정책에서 스푸핑 설정을](set-up-anti-phishing-policies.md#spoof-settings)참조 하십시오.
 
-   이러한 설정은 EOP의 기본 피싱 방지 정책에서 사용할 수 있는 설정과 동일 합니다.
+   이러한 동일한 설정은 EOP의 피싱 방지 정책 에서도 사용할 수 있습니다.
 
    - **스푸핑 필터 설정**: 기본값은 **on**이며,이 값을 유지 하는 것이 좋습니다. 해제 하려면 **토글을 끕니다.** 자세한 내용은 [Office 365에서 스푸핑 인텔리전스 구성하기](learn-about-spoof-intelligence.md)를 참조하세요.
 
@@ -408,7 +408,7 @@ New-AntiPhishPolicy -Name "<PolicyName>" [-AdminDisplayName "<Comments>"] <Addit
 - 안전 팁을 사용 하도록 설정 합니다.
 
 ```powershell
-New-AntiPhishPolicy -Name "Monitor Policy" -AdminDisplayName "Default monitoring policy" -EnableOrganizationDomainsProtection $true -EnableTargetedDomainsProtection $true -TargetedDomainsToProtect fabrikam.com -TargetedDomainProtectionAction Quarantine -EnableTargetedUserProtection $true -TargetedUsersToProtect "Mai Fujito;mfujito@fabrikam.com" -TargetedUserProtectionAction Quarantine -EnableMailboxIntelligence $true -EnableMailboxIntelligenceProtection $true -MailboxIntelligenceProtectionAction Quarantine -EnableSimilarUsersSafetyTips $true -EnableSimilarDomainsSafetyTips $true -EnableUnusualCharactersSafetyTips $true
+New-AntiPhishPolicy -Name "Monitor Policy" -AdminDisplayName "Research department policy" -EnableOrganizationDomainsProtection $true -EnableTargetedDomainsProtection $true -TargetedDomainsToProtect fabrikam.com -TargetedDomainProtectionAction Quarantine -EnableTargetedUserProtection $true -TargetedUsersToProtect "Mai Fujito;mfujito@fabrikam.com" -TargetedUserProtectionAction Quarantine -EnableMailboxIntelligence $true -EnableMailboxIntelligenceProtection $true -MailboxIntelligenceProtectionAction Quarantine -EnableSimilarUsersSafetyTips $true -EnableSimilarDomainsSafetyTips $true -EnableUnusualCharactersSafetyTips $true
 ```
 
 구문과 매개 변수에 대 한 자세한 내용은 [AntiPhishPolicy](https://docs.microsoft.com/powershell/module/exchange/advanced-threat-protection/New-AntiPhishPolicy)를 참조 하십시오.

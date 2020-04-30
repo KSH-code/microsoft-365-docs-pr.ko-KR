@@ -11,15 +11,17 @@ ms.topic: article
 ms.service: O365-seccomp
 ms.collection: M365-security-compliance
 localization_priority: Normal
-search.appverid: MOE150
+search.appverid:
+- MOE150
+- MET150
 ms.assetid: 67cc7f42-a53d-4751-b929-6005c80798f7
 description: 준수 관리자가 보안 & 준수 센터에서 콘텐츠 검색 및 eDiscovery 사례 작업을 수행할 때 기록 되는 이벤트에 대 한 감사 로그를 검색 하는 방법을 알아봅니다.
-ms.openlocfilehash: 96f6b121064e7540778a418baa96bae448e4eed3
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: f575953fb2d48ac996e443589ff312743d93d424
+ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631829"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43943657"
 ---
 # <a name="search-for-ediscovery-activities-in-the-audit-log"></a>감사 로그에서 eDiscovery 활동 검색
 
@@ -46,7 +48,7 @@ ms.locfileid: "43631829"
   
 1. [https://protection.office.com](https://protection.office.com)으로 이동합니다.
     
-2. 회사 또는 학교 계정을 사용 하 여 로그인 합니다.
+2. 회사 또는 학교 계정을 사용하여 로그인합니다.
     
 3. 왼쪽 창에서 **검색**을 클릭 하 고 **감사 로그 검색**을 클릭 합니다.
     

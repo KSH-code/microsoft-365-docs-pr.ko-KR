@@ -10,15 +10,17 @@ ms.topic: overview
 f1_keywords:
 - ms.o365.cc.AuditingHelp
 ms.service: O365-seccomp
+search.appverid:
+- MET150
 localization_priority: Normal
 ms.assetid: 7acd33ce-1ec8-49fb-b625-43bac7b58c5a
 description: '보안 & 준수 센터를 사용 하 여 SharePoint Online 및 Exchange Online 조직에 대 한 다양 한 보고서 및 Azure Active Directory 보고서를 확인할 수 있습니다.  '
-ms.openlocfilehash: 2199c84673e20e338cd2a475de5aae9bb344f032
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 9134cf403c8452ea457983226be04ba139bf72e6
+ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43621330"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43943287"
 ---
 # <a name="reports-in-the-security--compliance-center"></a>보안 및 준수 센터의 보고서
 

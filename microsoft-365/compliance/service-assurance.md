@@ -13,14 +13,15 @@ localization_priority: Normal
 search.appverid:
 - MOE150
 - BCS160
+- MET150
 ms.assetid: 47e8b964-4b09-44f7-a2d7-b8a06e8e389c
 description: 타사 감사를 다운로드 하 고, Microsoft에서 고객 데이터를 안전 하 게 보호 하는 방법을 확인 하 고, Office 365을 사용할 때 ISO, HIPAA, FINRA 및 FedRAMP을 준수 하는 방법을 알아봅니다.
-ms.openlocfilehash: e5d33f063d9e375c12346d245067be2b2b41de77
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: b9a9198d8206b2693f0634355c926856c1327d9d
+ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631285"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43943591"
 ---
 # <a name="service-assurance-in-the-security--compliance-center"></a>보안 & 준수 센터의 서비스 보증
 
@@ -57,7 +58,7 @@ ms.locfileid: "43631285"
   
 1. [https://protection.office.com](https://protection.office.com)으로 이동합니다.
     
-2. 회사 또는 학교 계정을 사용 하 여 로그인 합니다. 
+2. 회사 또는 학교 계정을 사용하여 로그인합니다. 
     
 3. 왼쪽 창에서 **서비스 보증**을 선택 합니다. 다음으로, [산업 및 국가별 설정](service-assurance.md#Chooseyourindustryregional) 및 [기타 서비스 보증 사용자 또는 그룹](service-assurance.md#addother)을 선택 합니다.
     
@@ -135,7 +136,7 @@ ms.locfileid: "43631285"
 
 [비즈니스 제품에 대 한 지원 문의-관리자 도움말](https://support.office.com/article/32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b)
   
-## <a name="frequently-asked-questions"></a>질문과 대답
+## <a name="frequently-asked-questions"></a>FAQ
 <a name="addother"> </a>
 
  **서비스 보증의 문서가 손상 되었다는 오류 메시지가 표시 되는 이유는 무엇 인가요?**

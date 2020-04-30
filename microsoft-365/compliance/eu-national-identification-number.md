@@ -2,8 +2,8 @@
 title: EU 국가 식별 번호
 f1.keywords:
 - NOCSH
-ms.author: cabailey
-author: cabailey
+ms.author: chrfox
+author: chrfox
 manager: laurawi
 ms.date: ''
 audience: Admin
@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 ms.collection: M365-security-compliance
 localization_priority: Normal
 description: 이 항목에서는 DLP (데이터 손실 방지) 정책이 EU 국가 식별 번호 중요 정보 유형을 검색할 때 찾는 항목을 보여 줍니다. 이 중요 한 정보 유형은 각 국가에 대 한 다양 한 패턴, 키워드 및 기타 증거를 정의 합니다.
-ms.openlocfilehash: f001d23ec3d6d8a2b3aa9575d4a9d602c4315e13
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 4dac77f129b45f457a82e709cb5a3b846a95cdf4
+ms.sourcegitcommit: c7f11d851073ef14a69669f6c8b7e0c11e4bb7a1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41592239"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43938764"
 ---
 # <a name="eu-national-identification-number"></a>EU 국가 식별 번호
 
@@ -362,7 +362,7 @@ identification number
   
 személyazonosító igazolvány
   
-## <a name="ireland"></a>Ireland
+## <a name="ireland"></a>아일랜드
 
 ### <a name="format"></a>형식일
 

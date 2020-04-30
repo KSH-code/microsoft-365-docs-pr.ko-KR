@@ -21,12 +21,12 @@ ms.assetid: 739574d7-2c5b-4911-a549-f56ecc7d3b48
 description: Microsoft 365 관리 센터-이 달에 추가 된 기능에 대해 알아봅니다.
 ms.custom:
 - MACDashWhatsNew
-ms.openlocfilehash: e0f7242ff144b5e4b42a6cb1713b2ad5df41f2f3
-ms.sourcegitcommit: 2399ee6f9bc955cf8f2a76c01fc84c19eb37ff42
+ms.openlocfilehash: 03fae5d2a9b8adc9859eb16bfd9d98740e7d8bf2
+ms.sourcegitcommit: c7f11d851073ef14a69669f6c8b7e0c11e4bb7a1
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43919763"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43939454"
 ---
 # <a name="whats-new-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터의 새로운 기능
 
@@ -181,7 +181,7 @@ Ignite 이후에는 알림을 거의 적게 가지 므로 11 월과 12 월의 �
 
 ![화면 캡처: 신용 카드를 지불 방법으로 사용 하 여 구독 카드의 청구 구역입니다.](../media/MAC-BillingEditCreditCard.png)
 
-자세한 내용을 보 시겠습니까? [신용 카드 또는 은행 계좌에서 송장으로 변경](../commerce/billing-and-payments/change-payment-method.md#change-from-credit-card-or-bank-account-to-invoice)
+자세한 내용을 보 시겠습니까? [신용 카드 또는 은행 계좌에서 송장으로 변경](../commerce/billing-and-payments/change-payment-method.md)
 
 ### <a name="global-reader"></a>전역 읽기 권한자
 

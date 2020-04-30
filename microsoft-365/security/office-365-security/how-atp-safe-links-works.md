@@ -10,16 +10,18 @@ ms.date: ''
 ms.topic: overview
 ms.service: O365-seccomp
 localization_priority: Normal
+search.appverid:
+- MET150
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: 안전한 링크 기능은 Office 문서 및 전자 메일 메시지에서 하이퍼링크를 클릭 하 여 확인할 시간을 제공 합니다. 이 문서를 읽으면 ATP 안전한 링크가 작동 하는 방식을 확인할 수 있습니다.
-ms.openlocfilehash: b77ab718afdc4f68d8120e11fa5d1a321b66f32e
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 7887c3c2920f472d4baa7ff899c3e3b4f704385d
+ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43638013"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43943714"
 ---
 # <a name="how-atp-safe-links-works"></a>ATP 안전한 링크가 작동하는 방식
 > [!IMPORTANT] 

@@ -11,15 +11,17 @@ ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
-search.appverid: MOE150
+search.appverid:
+- MOE150
+- MET150
 ms.assetid: 82c97bb4-2b64-4edc-804d-cedbda525d22
 description: 기존 콘텐츠 검색에서 결과 .csv 또는 인덱싱되지 않은 항목 .csv 파일을 사용 하 여 특정 전자 메일 메시지를 반환 하는 ID 목록 검색을 만듭니다. ID 목록 검색은 일반적으로 부분적으로 인덱싱된 사서함 항목을 반환 하는 데 사용 됩니다.
-ms.openlocfilehash: f37715858e6785e75343f5b11f73332de08b5d3b
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: f3b815f2268121e9adc47de2c24a4e23b44adce5
+ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43630705"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43942891"
 ---
 # <a name="prepare-a-csv-file-for-an-id-list-content-search"></a>ID 목록 콘텐츠 검색에 대 한 CSV 파일 준비
 

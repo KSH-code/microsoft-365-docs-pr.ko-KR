@@ -15,21 +15,21 @@ ms.collection:
 - Strat_O365_Enterprise
 - M365-security-compliance
 - Strat_O365_Enterprise
-description: '요약: Azure의 암호화에 대 한 설명입니다.'
-ms.openlocfilehash: de018e24fc6681ac613e16d8f151c6ea5362f92d
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Azure의 암호화에 대 한 설명입니다.
+ms.openlocfilehash: cac3a27a209b4c2da66dbf583d2be88cf06aca34
+ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637436"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43943317"
 ---
 # <a name="encryption-in-azure"></a>Azure의 암호화
 
+암호화 된 통신 및 운영 프로세스와 같은 Azure의 기술 보호책은 데이터를 안전 하 게 유지 하는 데 도움이 됩니다. 또한 추가 암호화 기능을 구현 하 고 자체 암호화 키를 관리할 수 있는 유연성을 제공 합니다. Microsoft는 고객 구성에 관계 없이 Azure에서 고객 데이터를 보호 하기 위해 암호화를 적용 합니다. 또한 Microsoft에서는 다양 한 고급 기술을 통해 Azure에서 호스트 되는 데이터를 제어 하 고 암호화 키를 암호화, 제어 및 관리 하며 데이터에 대 한 액세스를 제어 하 고 감사할 수 있습니다. 또한 Azure Storage는 개발자가 안전한 응용 프로그램을 작성할 수 있도록 하는 광범위 한 보안 기능 집합을 제공 합니다.
+
 ## <a name="introduction"></a>소개
 
-암호화 된 통신 및 운영 프로세스와 같은 Azure의 기술 보호책은 데이터를 안전 하 게 유지 하는 데 도움이 됩니다. 또한 추가 암호화 기능을 구현 하 고 자체 암호화 키를 관리할 수 있는 유연성을 제공 합니다. Microsoft는 고객 구성에 관계 없이 Azure에서 고객 데이터를 보호 하기 위해 암호화를 적용 합니다. 또한 Microsoft에서는 암호화 키를 암호화, 제어 및 관리 하 고 데이터에 대 한 액세스를 제어 하 고 감사 하기 위한 고급 기술 범위를 통해 Azure에서 호스트 되는 데이터를 제어할 수 있습니다. 또한 Azure Storage는 개발자가 안전한 응용 프로그램을 작성할 수 있도록 하는 광범위 한 보안 기능 집합을 제공 합니다.
-
-Azure는 한 위치에서 다른 위치로 이동 될 때 데이터를 보호 하기 위한 다양 한 메커니즘을 제공 합니다. Microsoft는 클라우드 서비스와 고객 간에 이동할 때 TLS를 사용 하 여 데이터를 보호 합니다. Microsoft의 데이터 센터는 Azure services에 연결 되는 클라이언트 시스템과의 TLS 연결을 협상 합니다. PFS (전달 완전 보안)는 고유한 키에 따라 고객의 클라이언트 시스템과 Microsoft 클라우드 서비스 간의 연결을 보호 합니다. 또한 연결에서는 RSA 기반 2048 비트 암호화 키 길이를 사용 합니다. 이 조합을 사용 하면 누군가가 전송 중인 데이터를 가로채 고 액세스 하기가 어려워집니다.
+Azure는 한 위치에서 다른 위치로 이동 될 때 데이터를 보호 하기 위한 다양 한 메커니즘을 제공 합니다. Microsoft는 클라우드 서비스와 고객 간에 이동할 때 TLS를 사용 하 여 데이터를 보호 합니다. Microsoft의 데이터 센터는 Azure services에 연결 되는 클라이언트 시스템과 TLS 연결을 협상 합니다. PFS (전달 완전 보안)는 고유한 키에 따라 고객의 클라이언트 시스템과 Microsoft 클라우드 서비스 간의 연결을 보호 합니다. 또한 연결에서는 RSA 기반 2048 비트 암호화 키 길이를 사용 합니다. 이 조합을 사용 하면 누군가가 전송 중인 데이터를 가로채 고 액세스 하기가 어려워집니다.
 
 [클라이언트 쪽 암호화](https://docs.microsoft.com/azure/storage/storage-client-side-encryption), HTTPS 또는 SMB 3.0을 사용 하 여 응용 프로그램 및 Azure 간의 전송으로 데이터를 보호할 수 있습니다. 자체 Vm (가상 컴퓨터)과 사용자 간의 트래픽에 대해 암호화를 사용 하도록 설정할 수 있습니다. [Azure 가상 네트워크](https://azure.microsoft.com/services/virtual-network/)를 사용 하는 경우 업계 표준 IPsec 프로토콜을 통해 회사 VPN 게이트웨이와 Azure와 가상 네트워크에 있는 vm 간에 트래픽을 암호화할 수 있습니다.
 
@@ -41,7 +41,7 @@ Azure의 암호화에 대 한 자세한 내용은 [azure 암호화 개요](https
 
 Azure 디스크 암호화를 사용 하면 Windows 및 Linux 인프라를 IaaS (Infrastructure as a Service) VM 디스크로 암호화할 수 있습니다. Azure 디스크 암호화는 Windows의 BitLocker 기능과 Linux의 DM 기능을 활용 하 여 운영 체제 및 데이터 디스크에 볼륨 수준 암호화를 제공 합니다. 또한 VM 디스크의 모든 데이터가 Azure storage의 나머지 부분에서 암호화 되도록 합니다. Azure 디스크 암호화는 Azure Key Vault와 통합 되어 암호화 키 및 비밀의 사용을 제어, 관리 및 감사 하는 데 도움이 됩니다.
 
-자세한 내용은 [Azure에서 Windows 가상 컴퓨터에 대 한 보안 권장 사항을](https://docs.microsoft.com/azure/security/azure-security-disk-encryption)참조 하세요.
+자세한 내용은 [Azure에서 Windows 가상 컴퓨터에 대 한 보안 권장 사항을](https://docs.microsoft.com/azure/virtual-machines/windows/security-recommendations)참조 하세요.
 
 ## <a name="azure-storage-service-encryption"></a>Azure Storage Service 암호화
 
