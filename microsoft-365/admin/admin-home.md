@@ -10,18 +10,20 @@ ms.topic: landing-page
 layout: LandingPage
 ms.service: o365-administration
 localization_priority: Priority
+search.appverid:
+- MET150
 ms.collection:
 - Adm_O365
 - Adm_TOC
 ms.assetid: b9acfd4c-df82-4eb5-a652-232a6829870a
 description: Microsoft 365 관리자에게 제공되는 리소스에 대해 알아보세요.
 ms.custom: okr_smb
-ms.openlocfilehash: 631c6640efeb6bebd8e091712b030ed61047042e
-ms.sourcegitcommit: b8a9994b26a6d9865212f5b1871286e719d1608e
+ms.openlocfilehash: 59b306ff3986c8dc776d149f2de9fc110617f2a4
+ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43781496"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43942282"
 ---
 # <a name="microsoft-365-admin-help-center"></a>Microsoft 365 관리자 도움말 센터
 
