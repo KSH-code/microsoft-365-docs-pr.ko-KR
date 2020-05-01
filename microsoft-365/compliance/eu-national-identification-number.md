@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 ms.collection: M365-security-compliance
 localization_priority: Normal
 description: 이 항목에서는 DLP (데이터 손실 방지) 정책이 EU 국가 식별 번호 중요 정보 유형을 검색할 때 찾는 항목을 보여 줍니다. 이 중요 한 정보 유형은 각 국가에 대 한 다양 한 패턴, 키워드 및 기타 증거를 정의 합니다.
-ms.openlocfilehash: 4dac77f129b45f457a82e709cb5a3b846a95cdf4
-ms.sourcegitcommit: c7f11d851073ef14a69669f6c8b7e0c11e4bb7a1
+ms.openlocfilehash: c83644fc8870975634651e44e114f2a8e0cf7692
+ms.sourcegitcommit: a2dd93943f68362220b123e3e4b0f7b3facbdd03
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43938764"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "43955305"
 ---
 # <a name="eu-national-identification-number"></a>EU 국가 식별 번호
 
@@ -103,18 +103,18 @@ personalausweis republik österreich
 
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 85% 신뢰합니다.
   
-- 이 함수 `Func_bulgaria_national_number` 는 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수 `Func_bulgaria_eu_national_id_card` 는 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 - From `Keywords_bulgaria_national_number` 키워드를 찾았습니다. 
     
 DLP 정책은 다음과 같은 경우 이러한 유형의 중요한 정보가 300자 이내의 접근성으로 검색되었음을 75% 신뢰합니다.
   
-- 이 함수 `Func_bulgaria_national_number` 는 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
+- 이 함수 `Func_bulgaria_eu_national_id_card` 는 해당 패턴과 일치 하는 콘텐츠를 찾습니다. 
     
 ```
 <Entity id="419f449f-6d9d-4be1-a154-b531f7a91b41" patternsProximity="300" recommendedConfidence="75">
         <Pattern confidenceLevel="85">
-          <IdMatch idRef="Func_bulgaria_national_number" />
+          <IdMatch idRef="Func_bulgaria_eu_national_id_card" />
           <Match idRef="Keywords_bulgaria_national_number" />
         </Pattern>
 <Pattern confidenceLevel="75">

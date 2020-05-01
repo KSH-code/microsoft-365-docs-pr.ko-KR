@@ -16,16 +16,16 @@ search.appverid:
 - MOE150
 - MET150
 description: 처리 검토를 사용 하 든, 구성 된 설정에 따라 콘텐츠를 자동으로 삭제할지 여부에 관계 없이 콘텐츠 삭제를 모니터링 하 고 관리 합니다.
-ms.openlocfilehash: cb48d2eb6d2d06093ddea74f13269faeb4798b97
-ms.sourcegitcommit: f5cecd77e63ae8b47743d4f6dc3135f5decaf28b
+ms.openlocfilehash: 47cb8f023f378796f206e436aa33e74b2993ac97
+ms.sourcegitcommit: 9d8816ddc3a97676ff947db80265e47b734f5462
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 04/30/2020
-ms.locfileid: "43950104"
+ms.locfileid: "43952621"
 ---
 # <a name="disposition-of-content"></a>콘텐츠 처리
 
->*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](https://aka.ms/ComplianceSD)*
+>*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](https://aka.ms/ComplianceSD).*
 
 Microsoft 365 준수 센터의 **레코드 관리** 에서 **처리** 탭을 사용 하 여 처리 검토를 관리 하 고 보존 기간이 끝나면 자동으로 삭제 된 [레코드](records.md) 를 확인 합니다. 
 
@@ -120,7 +120,7 @@ Microsoft 365 준수 센터의 **처리** 탭에 액세스 하려면 **처리 �
 > [!NOTE]
 > 처리 검토 없이 자동으로 삭제 된 레코드를 확인 하는 기능은 4 2020 월 중에 테 넌 트로 서서히 롤아웃 되므로이 환경이 즉시 표시 되지 않을 수 있습니다.
 
-**레코드 관리** 페이지의 **처리** 탭을 사용 하 여 자동으로 삭제 되는 레코드를 식별 합니다. 이러한 항목은 **형식** 열에서 **삭제 된 레코드** 를 표시 합니다. 비교 중에 처리 검토를 통해 삭제 되도록 승인 된 삭제 한 레코드는 **보류 중인 처리**를 표시 합니다. 예시:
+**레코드 관리** 페이지의 **처리** 탭을 사용 하 여 자동으로 삭제 되는 레코드를 식별 합니다. 이러한 항목은 **형식** 열에서 **삭제 된 레코드** 를 표시 합니다. 예시:
 
 ![처리 검토 없이 삭제 된 항목](../media/records-disposed2.png)
 
