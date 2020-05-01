@@ -1,0 +1,39 @@
+### YamlMime:Landing
+title: 고객에 대 한 작업
+summary: 일반 작업을 관리 하는 데 도움이 되는 다음 리소스를 확인 하거나, 전체 목록에 대해서는 왼쪽의 탐색 창을 참조 하세요.
+metadata:
+  title: 고객에 대 한 작업
+  description: 문서 공유 및 팀을 사용 하 여 공동 작업 및 모임
+  ms.service: O365-administration
+  ms.topic: landing-page
+  author: sirkkuw
+  ms.author: sirkkuw
+  ms.date: 04/16/2020
+  localization_priority: Priority
+  ms.openlocfilehash: 299b7fa4cb98f05a1f5a3248fad59d3e8ea414ed
+  ms.sourcegitcommit: 9d8816ddc3a97676ff947db80265e47b734f5462
+  ms.translationtype: MT
+  ms.contentlocale: ko-KR
+  ms.lasthandoff: 04/30/2020
+  ms.locfileid: "43952722"
+landingContent:
+- title: 고객에 대 한 작업
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: 사이트 및 파일 외부 공유
+      url: ../manage/share-sites-with-external-users.md
+    - text: 게스트 사용자와 일정 공유
+      url: ../manage/share-calendars-with-external-users.md
+  - linkListType: video
+    links:
+    - text: 게스트가 포함 된 팀 만들기
+      url: https://support.office.com/article/11fbb083-52ee-434d-8c6e-63711fdafac7
+    - text: 팀에 게스트로 참가
+      url: https://support.office.com/article/928d1eef-61e2-49ec-b754-c2fe86b34824
+    - text: 직원 및 고객과 채팅
+      url: https://support.office.com/article/65748808-a403-462c-a6e1-b169e5bc6c92
+    - text: 게스트와의 팀 모임 예약
+      url: https://support.office.com/article/c61b4f61-ee62-4a06-8bf7-0a1cd302700a
+    - text: 게스트와의 팀 모임 참가
+      url: https://support.office.com/article/a120c282-063d-46b8-b973-851197ab75d8

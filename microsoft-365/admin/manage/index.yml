@@ -1,0 +1,83 @@
+### YamlMime:Landing
+title: 데이터 및 서비스 관리
+summary: 일반 작업을 관리 하는 데 도움이 되는 다음 리소스를 확인 하거나, 전체 목록에 대해서는 왼쪽의 탐색 창을 참조 하세요.
+metadata:
+  title: 데이터 및 서비스 관리
+  description: 서비스의 상태를 모니터링 하 고, 데이터를 백업 하 고, 추가 기능을 설치 하 고, 최신 앱으로 업그레이드
+  ms.service: O365-administration
+  ms.topic: landing-page
+  author: sirkkuw
+  ms.author: sirkkuw
+  ms.date: 04/16/2020
+  localization_priority: Priority
+  ms.openlocfilehash: 7289f6a0b971db0f9b785f35c6bbae839ecae226
+  ms.sourcegitcommit: a2dd93943f68362220b123e3e4b0f7b3facbdd03
+  ms.translationtype: MT
+  ms.contentlocale: ko-KR
+  ms.lasthandoff: 04/30/2020
+  ms.locfileid: "43955328"
+landingContent:
+- title: 서비스 상태 모니터링
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: 보고서를 사용 하 여 사용자 활동 모니터링
+      url: ../activity-reports/activity-reports.md
+    - text: 사용 현황 분석 모니터링
+      url: ../usage-analytics/usage-analytics.md
+    - text: 사용 현황 분석 사용
+      url: ../usage-analytics/enable-usage-analytics.md
+    - text: 조직 연락처 정보 변경
+      url: change-address-contact-and-more.md
+    - text: 관리자 연락처 정보 업데이트
+      url: update-phone-number-and-email-address.md
+    - text: 릴리스 옵션 설정
+      url: release-options-in-office-365.md
+- title: 사용자 액세스 차단 및 데이터 백업
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: 이전 사용자의 데이터 액세스 및 백업
+      url: ../add-users/get-access-to-and-back-up-a-former-user-s-data.md
+    - text: 전자 메일 보존 설정 (Microsoft 365 Business Premium)
+      url: ../../business/set-up-compliance.md#set-up-email-retention-with-exchange-online-archiving
+    - text: 장치에서 회사 데이터 제거 (Microsoft 365 Business Premium)
+      url: ../../business/remove-company-data.md
+- title: 추가 기능 및 앱 관리
+  linkLists:
+  - linkListType: how-to-guide
+    links:
+    - text: 최신 앱으로 조직 업그레이드
+      url: ../setup/upgrade-users-to-latest-office-client.md
+    - text: 앱 시작 관리자 사용자 지정
+      url: customize-the-app-launcher.md
+    - text: 추가 기능의 중앙 집중식 배포에 대 한 요구 사항
+      url: centralized-deployment-of-add-ins.md
+    - text: 중앙 집중식 배포를 사용 하 여 추가 기능 설치 및 관리
+      url: manage-deployment-of-add-ins.md
+- title: Microsoft Teams
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Microsoft 팀 관리 설명서
+      url: https://docs.microsoft.com/en-us/microsoftteams/
+    - text: Outlook 및 팀을 함께 사용
+      url: https://support.office.com/article/9bc459c4-ce13-479b-b88b-b8ae49092732
+  - linkListType: learn
+    links:
+    - text: Microsoft Teams 교육
+      url: https://support.office.com/article/4f108e54-240b-4351-8084-b1089f0d21d7
+- title: OneDrive 및 SharePoint
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: IT 전문가 및 관리자를 위한 SharePoint 설명서
+      url: https://docs.microsoft.com/sharepoint/
+    - text: IT 전문가 및 관리자를 위한 OneDrive 설명서
+      url: https://docs.microsoft.com/onedrive/
+  - linkListType: how-to-guide
+    links:
+    - text: OneDrive 및 SharePoint의 공유 관리
+      url: https://docs.microsoft.com/onedrive/manage-sharing
+    - text: 사이트 만들기 및 관리
+      url: https://docs.microsoft.com/sharepoint/manage-sites-in-new-admin-center
