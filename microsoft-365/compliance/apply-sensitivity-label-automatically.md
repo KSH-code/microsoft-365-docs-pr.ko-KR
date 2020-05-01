@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 민감도 레이블을 만들 때 문서 또는 전자 메일에 레이블을 자동으로 할당하거나 사용자에게 권장 레이블을 선택하라는 메시지를 표시할 수 있습니다.
-ms.openlocfilehash: ee9eef1c8f12d24cdf1c03ee5d7799c63c9acc23
-ms.sourcegitcommit: 72e43b9bf85dbf8f5cf2040ea6a4750d6dc867c9
+ms.openlocfilehash: 48e6b000110014637afbf032f81b23703a763f4d
+ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/24/2020
-ms.locfileid: "43799981"
+ms.lasthandoff: 04/29/2020
+ms.locfileid: "43943247"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>민감도 레이블을 콘텐츠에 자동으로 적용
 
@@ -131,13 +131,13 @@ Windows용 Office 앱의 자동 레이블 지정은 Azure Information Protection
 
 ![인스턴스 개수 및 일치 정확도 옵션](../media/Sensitivity-labels-instance-count-match-accuracy.png)
 
-### <a name="configuring-classifers-for-a-label"></a>레이블의 분류자 구성
+### <a name="configuring-classifiers-for-a-label"></a>레이블의 분류자 구성하기
 
 **분류자** 옵션을 선택하는 경우 기본 제공 분류자를 하나 이상 선택합니다.
 
 ![분류자 및 민감도 레이블 옵션](../media/sensitivity-labels-classifers.png)
 
-이러한 분류자에 대한 자세한 내용은 [교육 가능한 분류자 시작(미리 보기)](classifier-getting-started-with.md)를 참조하세요.
+이러한 분류자에 대한 자세한 내용은 [교육 가능한 분류자 시작하기(미리 보기)](classifier-getting-started-with.md)를 참조하세요.
 
 미리 보기 기간 동안 다음 앱이 민감도 레이블에 분류자를 지원합니다.
 
@@ -205,7 +205,7 @@ Azure Information Protection 통합 레이블 지정 클라이언트와 관련�
 - 자동 레이블 지정 정책에 대해 선택할 수 있는 하나 이상의 민감도 레이블이 [생성 및 게시](create-sensitivity-labels.md)(적어도 한 명의 사용자에게) 됩니다. 이러한 레이블의 경우:
     - 소개에 설명된 대로 레이블 설정은 자동 레이블 지정 정책을 보완하기 때문에 Office 앱 레이블 설정의 자동 레이블 지정 설정이 켜져 있는지 여부는 중요하지 않습니다. 
     - 자동 레이블에 사용하려는 레이블이 시각적 표시(머리글, 바닥글, 워터 마크)를 사용하도록 구성된 경우 문서에는 적용되지 않습니다.
-    - 레이블이 암호화를 적용하는 경우 **지금 권한 적용** 설정에 대해 구성해야 합니다.
+    - 레이블이 암호화를 적용하는 경우 **지금 권한 할당** 설정에 대해 구성해야 합니다.
 
 ### <a name="learn-about-simulation-mode"></a>시뮬레이션 모드에 대해 알아보기
 
