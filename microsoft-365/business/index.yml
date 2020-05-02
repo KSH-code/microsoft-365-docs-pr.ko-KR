@@ -1,6 +1,6 @@
 ### YamlMime:Hub
 title: Microsoft 365 Business Premium 리소스
-summary: Microsoft 365 Business Premium (이전의 Microsoft 365 Business)은 300 명 미만의 직원을 가진 기업을 위한 포괄적인 구독 서비스입니다. 즐겨 사용 하는 Office 생산성 앱 및 서비스와 공동 작업 도구는 Microsoft 팀과 같은 고급 보안 및 장치 관리 기능을 통합 합니다.
+summary: 'Microsoft 365 Business Premium(이전 명칭: Microsoft 365 Business)은 직원의 수가 300명 미만인 비즈니스를 위한 포괄적인 구독 서비스입니다. 즐겨 사용 하는 Office 생산성 앱 및 서비스와 공동 작업 도구는 Microsoft 팀과 같은 고급 보안 및 장치 관리 기능을 통합 합니다.'
 brand: m365
 metadata:
   title: Microsoft 365 Business Premium 리소스
@@ -11,12 +11,12 @@ metadata:
   author: samanro
   ms.author: samanro
   ms.date: 10/01/2019
-  ms.openlocfilehash: 4dff1d10b8a4574ea8350aa194d7f6a2c8eb2605
-  ms.sourcegitcommit: b8a9994b26a6d9865212f5b1871286e719d1608e
+  ms.openlocfilehash: 520a89860d5dcac103493037fc4a52b8e60073ea
+  ms.sourcegitcommit: 101084f9c81616342d78493232d8f13f5ffa4ddf
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 04/22/2020
-  ms.locfileid: "43781479"
+  ms.lasthandoff: 05/01/2020
+  ms.locfileid: "44002183"
 productDirectory:
   title: Microsoft 365 Business Premium을 통한 원격 작업 보안
   items:
@@ -34,7 +34,7 @@ productDirectory:
     url: https://techcommunity.microsoft.com/t5/small-and-medium-business-blog/using-microsoft-365-business-to-secure-your-remote-workforce/ba-p/1298623
 conceptualContent:
   items:
-  - title: Microsoft 365 Business Premium 이란?
+  - title: Microsoft 365 Business Premium이란 무엇인가요?
     links:
     - url: microsoft-365-business-overview.md
       itemType: overview
@@ -79,6 +79,9 @@ conceptualContent:
     - url: https://www.microsoft.com/microsoft-365/partners/resources/microsoft-365-business-technical-fundamentals-decks-zip
       itemType: download
       text: 기술 기본 사항
+    - url: https://www.microsoft.com/microsoft-365/partners/resources/securing-remote-work-checklist
+      itemType: download
+      text: 원격 작업 보안 검사 목록
   - title: 사용자 관리
     links:
     - url: https://docs.microsoft.com/microsoft-365/business/add-users-m365b
@@ -188,7 +191,7 @@ conceptualContent:
       text: Microsoft 365 Business Premium에 등록
     - url: migrate-to-microsoft-365-business.md
       itemType: how-to-guide
-      text: Microsoft 365 비즈니스 표준에서 마이그레이션
+      text: Microsoft 365 Business Standard에서 마이그레이션
     - url: migrate-from-e3.md
       itemType: how-to-guide
       text: Office 365 E3에서 마이그레이션
