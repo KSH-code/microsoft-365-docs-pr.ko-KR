@@ -16,12 +16,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 민감도 레이블을 만들 때 문서 또는 전자 메일에 레이블을 자동으로 할당하거나 사용자에게 권장 레이블을 선택하라는 메시지를 표시할 수 있습니다.
-ms.openlocfilehash: 48e6b000110014637afbf032f81b23703a763f4d
-ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
+ms.openlocfilehash: 7d31d77bdb08ce5ae7ef5580301b0432747da2a1
+ms.sourcegitcommit: 9d8816ddc3a97676ff947db80265e47b734f5462
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43943247"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "43952631"
 ---
 # <a name="apply-a-sensitivity-label-to-content-automatically"></a>민감도 레이블을 콘텐츠에 자동으로 적용
 
@@ -188,7 +188,7 @@ Azure Information Protection 통합 레이블 지정 클라이언트와 관련�
 
 ## <a name="how-to-configure-auto-labeling-policies-for-sharepoint-onedrive-and-exchange"></a>SharePoint, OneDrive 및 Exchange에 대한 자동 레이블 지정 정책을 구성하는 방법
 > [!NOTE]
-> 자동 레이블 지정 정책은 공개 미리 보기에서 테넌트에 점진적으로 배포되며 변경될 수 있습니다.
+> 자동 레이블 지정 정책은 공개 미리 보기에서 테넌트에 변경될 수 있습니다.
 
 ### <a name="prerequisites-for-auto-labeling-policies"></a>자동 레이블 지정 정책에 대한 필수 구성 요소
 
@@ -241,7 +241,6 @@ Azure Information Protection 통합 레이블 지정 클라이언트와 관련�
     
     ![자동 레이블 지정(미리 보기)](../media/auto-labeling-tab.png)
     
-    이 새 탭은 여전히 테넌트에 배포 중입니다. 보이지 않는 경우 며칠 후 다시 시도하세요.
 
 3. **+ 정책 만들기**를 선택합니다.
 

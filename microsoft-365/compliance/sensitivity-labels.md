@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft Information Protection 프레임 워크의 민감도 레이블을 사용하여 조직의 데이터를 분류하고 보호하는 동시에 사용자 생산성과 공동 작업 능력이 방해받지 않도록 하십시오. 이 레이블은 바닥글 및 워터마크와 같은 암호화 시각적 표시가 포함된 보호 설정을 적용할 수 있습니다.
-ms.openlocfilehash: 65f647228db1ce18c7c26ce0f12542569c5f0a2e
-ms.sourcegitcommit: f70f75b9dd163c00a3c6bc4b9f9b055e90c50367
+ms.openlocfilehash: d31faa5dde212060f5e7b3c075cf4bc6fb3bef5f
+ms.sourcegitcommit: fa6a1e432747e150df945050a3744b4408ceb2d9
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2020
-ms.locfileid: "43790655"
+ms.lasthandoff: 05/01/2020
+ms.locfileid: "43957308"
 ---
 # <a name="learn-about-sensitivity-labels"></a>민감도 레이블 알아보기
 
@@ -77,10 +77,7 @@ Office 앱의 경우, 민감도 레이블이 전자 메일 또는 문서에서 �
 ## <a name="what-sensitivity-labels-can-do"></a>민감도 레이블이 수행하는 작업
 
 > [!NOTE]
-> Office 앱에서 전자 메일 및 문서에 레이블을 적용하는 것 외에도 다음과 같은 공개 미리 보기 릴리스에서 민감도 레이블을 사용할 수 있습니다.
-> 
-> - [SharePoint 및 OneDrive에서 Office 파일에 대한 민감도 레이블 사용(공개 미리 보기)](sensitivity-labels-sharepoint-onedrive-files.md)
-> - [Microsoft Teams, Microsoft 365 그룹 및 SharePoint 사이트(공개 미리 보기)에서 민감도 레이블 사용하기](sensitivity-labels-teams-groups-sites.md)
+> 현재 미리 보기에서 전자 메일 및 문서에 민감도 레이블을 적용할 뿐만 아니라 [Microsoft Teams, Microsoft 365 그룹 및 SharePoint 사이트에서 민감도 레이블을 사용](sensitivity-labels-teams-groups-sites.md)할 수도 있습니다.
 
 민감도 레이블이 전자 메일이나 문서에 적용되면 해당 레이블의 구성된 보호 설정이 콘텐츠에 적용됩니다. 민감도 레이블을 사용하여 다음을 수행할 수 있습니다.
 
@@ -97,7 +94,7 @@ Office 앱의 경우, 민감도 레이블이 전자 메일 또는 문서에서 �
     문자열 길이: 워터 마크는 255자로 제한됩니다. Excel의 경우를 제외하고 머리글과 바닥글은 1024자로 제한됩니다. Excel에서는 머리글과 바닥글의 총 글자 수가 255자로 제한되지만 이 제한에는 서식 코드처럼 보이지 않는 문자가 포함됩니다. 해당 한도에 도달하면 입력한 문자열이 Excel에 표시되지 않습니다.
 
 
-- [Microsoft Teams, Microsoft 365 그룹 및 SharePoint 사이트에서 민감도 레이블을 사용](sensitivity-labels-teams-groups-sites.md)하도록 미리보기를 선택하여 **사이트 및 그룹과 같은 컨테이너의 컨텐츠를 보호**합니다.
+- [Microsoft Teams, Microsoft 365 그룹 및 SharePoint 사이트(공개 미리 보기)에서 민감도 레이블을 사용](sensitivity-labels-teams-groups-sites.md)하도록 미리 보기를 선택하여 **사이트 및 그룹과 같은 컨테이너의 컨텐츠를 보호**합니다.
     
     미리 보기를 선택하지 않으면 **사이트 및 그룹 설정**에 대한 구성 옵션이 표시되지 않습니다. 이 레이블 구성으로 인해 문서가 자동으로 레이블링되지는 않지만 대신 레이블 설정은 문서가 저장된 컨테이너에 대한 액세스를 제어하여 컨텐츠를 보호합니다. 이러한 설정에는 개인 정보 수준, Microsoft 365 그룹 소유자가 게스트를 그룹에 추가할 수 있는지 여부 및 관리되지 않는 장치에 부여된 액세스 수준이 포함됩니다.
 
