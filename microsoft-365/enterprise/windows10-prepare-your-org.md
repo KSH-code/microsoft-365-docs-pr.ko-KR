@@ -12,12 +12,12 @@ ms.date: 06/01/2018
 f1.keywords:
 - NOCSH
 ms.author: josephd
-ms.openlocfilehash: 74c8dc4a0d4e2d457462320999ed79e80b372b7a
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 43793a1780542b1825c693030dd9d4dbff4ee3d7
+ms.sourcegitcommit: 101084f9c81616342d78493232d8f13f5ffa4ddf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636666"
+ms.lasthandoff: 05/01/2020
+ms.locfileid: "44002346"
 ---
 # <a name="step-1-prepare-your-organization-for-windows-10-enterprise"></a>1 단계: Windows 10 Enterprise에 대 한 조직 준비
 
@@ -51,12 +51,12 @@ Microsoft는 진단 데이터를 사용 하 여 맬웨어 추세 및 기타 위�
 |:--- |:--- |:--- |
 | 보안 | 보안 데이터만 | 개 |
 | 기본 | 보안 데이터 및 기본 시스템 및 품질 데이터 | 1  |
-| 방식 | 보안 데이터, 기본 시스템 및 품질 데이터, 향상 된 insights 및 고급 안정성 데이터 | 2  |
+| 방식 | 보안 데이터, 기본 시스템 및 품질 데이터, 향상 된 insights 및 고급 안정성 데이터 | 2 |
 | Full | 보안 데이터, 기본 시스템 및 품질 데이터, 향상 된 insights 및 고급 안정성 데이터 및 전체 진단 데이터 | 3  |
 
 다음 방법 중 하나를 통해 진단 데이터를 사용 하도록 설정할 수 있습니다.
 
-* **Microsoft intune** -Intune을 사용 하 여 장치를 관리 하려는 경우 <a href="https://docs.microsoft.com/windows/client-management/mdm/policy-csp-system#system-allowtelemetry" target="blank">systemallowtelemetry 분석</a> 시스템 정책을 구성 하 여 진단 데이터를 사용 하도록 구성 정책을 만들 수 있습니다. 구성 정책 설정에 대 한 자세한 내용은 [Microsoft Intune 정책을 사용 하 여 장치에서 설정 및 기능 관리](https://aka.ms/intuneconfigpolicies)를 참조 하세요.
+* **Microsoft intune** -Intune을 사용 하 여 장치를 관리 하려는 경우 <a href="https://docs.microsoft.com/windows/client-management/mdm/policy-csp-system#system-allowtelemetry" target="blank">systemallowtelemetry 분석</a> 시스템 정책을 구성 하 여 진단 데이터를 사용 하도록 구성 정책을 만들 수 있습니다.
 * **레지스트리 편집기** -레지스트리 편집기를 사용 하 여 조직의 각 장치에서 진단 데이터를 수동으로 사용 하도록 설정할 수 있습니다. 또는 레지스트리를 편집 하기 위한 스크립트를 작성할 수 있습니다. 관리 정책이 이미 있는 경우 (예: 그룹 정책 또는 MDM)이 레지스트리 설정이 재정의 됩니다.
 * **그룹 정책** -Intune에서 장치를 등록 하지 않을 경우 그룹 정책 개체를 사용 하 여 조직의 진단 데이터 수준을 설정할 수 있습니다.
 * **명령 프롬프트** -명령 프롬프트를 사용 하 여 Windows 10 진단 데이터 및 서비스를 자동으로 시작 하도록 설정할 수 있습니다. 이 방법은 소수의 장치 에서만 서비스를 테스트 하는 경우에 가장 적합 합니다. 이 명령을 사용 하 여 서비스를 자동으로 시작 하도록 설정 하면 진단 데이터 수준이 구성 되지 않습니다. 관리 도구를 사용 하 여 진단 데이터 수준을 구성 하지 않은 경우 서비스는 기본 고급 수준으로 작동 합니다.

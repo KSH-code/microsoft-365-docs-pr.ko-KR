@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: fa970b28939ad43bf6a2717e603013277bc9130f
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+ms.openlocfilehash: f1c616a3d752324b8db5fdd5069904989a25eade
+ms.sourcegitcommit: b57d597edbff5ab6cff8c2b04d27c15b0024776f
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42633906"
+ms.lasthandoff: 05/01/2020
+ms.locfileid: "43997517"
 ---
 # <a name="turn-on-microsoft-threat-protection"></a>Microsoft Threat Protection 사용 설정
 
@@ -36,7 +36,7 @@ Microsoft Threat Protection은 Microsoft Defender의 ATP(Advanced Threat Protect
 최적의 보호를 위해 Microsoft 위협 보호를 얻으려면 해당 하는 모든 지원 서비스를 네트워크에 배포 하는 것이 좋습니다. 자세한 내용은 [지원 되는 서비스 배포에 대 한 내용을 참조](deploy-supported-services.md)하세요.
 
 ## <a name="check-license-eligibility-and-required-permissions"></a>라이선스 자격 및 필요한 권한 확인
-Microsoft 365 E5, E5 Security 또는 A5 라이선스 또는 유효한 라이선스 조합이 지원 되는 서비스에 대 한 액세스를 제공 하 고 통해 microsoft 365 보안 센터에서 Microsoft Threat Protection을 사용할 수 있습니다.
+Microsoft 365 E5, E5 Security, A5 또는 A5 보안 라이선스 또는 유효한 라이선스 조합이 지원 되는 서비스에 대 한 액세스를 제공 하 고 통해 microsoft 365 보안 센터에서 Microsoft Threat Protection을 사용할 수 있습니다.
 
 라이선스 정보에 대 한 자세한 내용은 [라이선스 요구 사항을 참조](prerequisites.md#licensing-requirements)하세요.
 
@@ -51,7 +51,7 @@ Microsoft Threat Protection은 다양 한 통합 서비스에서 데이터를 �
 ![Microsoft](../../media/mtp-welcome.png)
 *보안 센터 365의* microsoft threat protection 시작 페이지에서 microsoft threat protection이 설정 되지 않은 경우 표시 되는 microsoft threat protection 환영 페이지 이미지
 
-Microsoft Threat Protection을 설정 하려면 환영 페이지에서 프로세스를 완료 하기만 하면 됩니다. 탐색 창에서[security.microsoft.com/settings](https://security.microsoft.com/settings)( **설정** )에 액세스 하 고 **microsoft threat Protection**을 선택 하 여 microsoft threat protection을 설정할 수도 있습니다.
+Microsoft Threat Protection을 설정 하려면 환영 페이지에서 프로세스를 완료 하기만 하면 됩니다. 탐색 창에서[security.microsoft.com/settings](https://security.microsoft.com/settings)( **설정** )에 액세스 하 고 **microsoft threat Protection**을 선택 하 여 microsoft threat protection을 설정할 수도 있습니다. **저장**을 클릭합니다.
 
 >[!NOTE]
 >탐색 창에 **설정이** 표시 되지 않거나 페이지에 액세스할 수 없는 경우 사용 권한 및 라이선스를 확인 합니다.

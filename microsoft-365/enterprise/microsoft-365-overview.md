@@ -13,12 +13,12 @@ localization_priority: Normal
 ms.collection: M365-subscription-management
 ms.custom: it-pro
 description: Microsoft 365 for enterprise의 구성 요소, 계획 및 배포 경로에 대해 소개 합니다.
-ms.openlocfilehash: 85f05e85989d7b298ba0575c7447a3ef157ea163
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: d9148acadf5ec05562ac1a5cbbca9cbf7d0a1b65
+ms.sourcegitcommit: 101084f9c81616342d78493232d8f13f5ffa4ddf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631564"
+ms.lasthandoff: 05/01/2020
+ms.locfileid: "44002299"
 ---
 # <a name="microsoft-365-for-enterprise-overview"></a>엔터프라이즈용 Microsoft 365 개요
 
@@ -45,7 +45,7 @@ ms.locfileid: "43631564"
 |:-------|:-----|
 | E3 | 회사 생산성을 향상 시키고 안전 하 게 작업 하는 데 도움이 되도록 Microsoft 365 내의 핵심 제품과 기능에 액세스 합니다. |
 | E5 | Advanced threat protection, 보안 및 공동 작업 도구를 포함 하 여 Microsoft 365 내의 최신 제품 및 기능에 액세스 합니다. 모든 E3's 기능 및 고급 보안, 음성 및 데이터 분석 도구를 포함 합니다. |
-| F1 | 최고 작업을 수행 하는 데 사용할 수 있는 용도의 제작 된 도구 및 리소스를 통해 Firstline 작업자와 연결 합니다. |
+| F3 | 최고 작업을 수행 하는 데 사용할 수 있는 용도의 제작 된 도구 및 리소스를 통해 Firstline 작업자와 연결 합니다. |
 |||
 
 Microsoft 365 E3이 있는 경우 다음 [제품](https://www.microsoft.com/microsoft-365/blog/2019/01/02/introducing-new-advanced-security-and-compliance-offerings-for-microsoft-365/)을 구할 수도 있습니다.
@@ -76,7 +76,7 @@ Microsoft 365 E3이 있는 경우 다음 [제품](https://www.microsoft.com/micr
 
 전체 조직을 Microsoft 365의 기업에 대 한 제품 및 서비스로 이동 하는 방법에 대 한 자세한 그림을 보려면 [전환 포스터](../media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf)를 참조 하세요.
 
-[![Microsoft 365로 전환 포스터 이미지](../media/deploy-microsoft-365-enterprise/transition-org-to-m365.png)](../media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf)
+[![Microsoft 365로의 전환 포스터 이미지](../media/deploy-microsoft-365-enterprise/transition-org-to-m365.png)](../media/deploy-microsoft-365-enterprise/transition-org-to-m365.pdf)
 
 이 두 페이지 포스터는 신속하게 기존 인프라를 목록화하고 엔터프라이즈용 Microsoft 365에서 해당 제품이나 서비스로 전환하는 방법에 대한 지침을 제공합니다. Windows와 Office 제품, 디바이스 관리, ID, 정보 및 위협 방지와 같은 기타 인프라 및 보안 요소가 포함됩니다.
 

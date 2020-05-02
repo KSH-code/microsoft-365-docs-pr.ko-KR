@@ -5,17 +5,21 @@ author: MikePlumleyMSFT
 manager: pamgreen
 audience: ITPro
 ms.topic: article
-ms.service: sharepoint-online
-ms.collection: SPO_Content
+ms.prod: microsoft-365-enterprise
+ms.collection:
+- SPO_Content
+- M365-collaboration
+ms.custom:
+- M365solutions
 localization_priority: Normal
 f1.keywords: NOCSH
 description: SharePoint 및 OneDrive에서 문서에 대 한 게스트와 공동 작업 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 139533b2d7bf65ddd9584007a5ac03800c731d0b
-ms.sourcegitcommit: 21338a9287017a66298e0ff557e80051946ebf13
+ms.openlocfilehash: 33d9300343b23702d5024ac0b489930ac815be7e
+ms.sourcegitcommit: 101084f9c81616342d78493232d8f13f5ffa4ddf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "42604782"
+ms.lasthandoff: 05/01/2020
+ms.locfileid: "44002268"
 ---
 # <a name="collaborate-with-guests-on-a-document"></a>게스트와 문서 상 공동 작업하기
 
@@ -100,7 +104,7 @@ SharePoint 사이트에 있는 파일 및 fodlers를 공유 하는 경우에는 
 4. 공유가 **사용자** 또는 **신규 및 기존 게스트로**설정 되어 있는지 확인 합니다.
 5. 변경한 내용이 있으면 **저장**을 클릭합니다.
 
-## <a name="invite-users"></a>사용자 초대
+## <a name="invite-users"></a>사용자 초대하기
 
 이제 게스트 공유 설정이 구성 되므로 사용자가 조직 외부의 사용자와 파일 및 폴더를 공유할 수 있습니다. 자세한 내용은 [OneDrive 파일 및 폴더](https://support.office.com/article/9fcc2f7d-de0c-4cec-93b0-a82024800c07) 공유 및 [SharePoint 파일 또는 폴더 공유](https://support.office.com/article/1fe37332-0f9a-4719-970e-d2578da4941c) 를 참조 하세요.
 

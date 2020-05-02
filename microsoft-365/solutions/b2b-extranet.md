@@ -5,23 +5,27 @@ author: MikePlumleyMSFT
 manager: pamgreen
 audience: ITPro
 ms.topic: article
-ms.service: sharepoint-online
-ms.collection: SPO_Content
+ms.prod: microsoft-365-enterprise
+ms.collection:
+- SPO_Content
+- M365-collaboration
+ms.custom:
+- M365solutions
 localization_priority: Normal
 f1.keywords: NOCSH
 description: 파트너 조직에서 관리 되는 게스트 사용자가 포함 된 B2B 엑스트라넷 사이트 또는 팀을 만드는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 24a2652d4d025f194d0754b90b6a21a054f4159a
-ms.sourcegitcommit: 21338a9287017a66298e0ff557e80051946ebf13
+ms.openlocfilehash: 3a1faab90907daf9c48ec02c51eb272187fb0fde
+ms.sourcegitcommit: 101084f9c81616342d78493232d8f13f5ffa4ddf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "42604773"
+ms.lasthandoff: 05/01/2020
+ms.locfileid: "44001706"
 ---
 # <a name="create-a-b2b-extranet-with-managed-guests"></a>관리 대상 게스트와 B2B 엑스트라넷 작성
 
 [Azure Active Directory 자격 관리](https://docs.microsoft.com/azure/active-directory/governance/entitlement-management-overview) 를 사용 하 여 B2B 엑스트라넷을 만들어 Azure active directory를 사용 하는 파트너 조직과 공동 작업을 수행할 수 있습니다. 이를 통해 사용자는 엑스트라넷 사이트 또는 팀에서 자체 등록을 허용 하 고 승인 워크플로를 통해 액세스를 받을 수 있습니다.
 
-공동 작업을 위해 리소스를 공유 하는 방법을 사용 하는 경우 파트너 조직은 최종 게스트 사용자를 유지 관리 하 고 승인 하 고 IT 부서의 부담을 줄이고 공동 작업 계약을 통해 사용자를 관리할 수 있도록 하는 데 도움이 됩니다. 액세스용.
+공동 작업을 위해 리소스를 공유 하는 방법을 사용 하는 경우 파트너 조직은 최종 게스트 사용자를 유지 관리 및 승인 하 고 IT 부서의 부담을 줄이고 공동 작업 계약에 가장 익숙한 사용자 액세스를 허용 하는 데 도움을 받을 수 있습니다.
 
 이 문서에서는 셀프 서비스 액세스 등록 모델을 통해 파트너 조직과 공유할 수 있는 리소스 패키지 (이 경우에는 사이트 또는 팀)를 만드는 단계를 안내 합니다. 
 

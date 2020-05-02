@@ -5,17 +5,21 @@ author: MikePlumleyMSFT
 manager: pamgreen
 audience: ITPro
 ms.topic: article
-ms.service: sharepoint-online
-ms.collection: SPO_Content
+ms.prod: microsoft-365-enterprise
+ms.collection:
+- SPO_Content
+- M365-collaboration
+ms.custom:
+- M365solutions
 localization_priority: Priority
 f1.keywords: NOCSH
 description: 인증되지 않은 사용자와 파일 및 폴더를 공유하는 모범 사례를 알아봅니다.
-ms.openlocfilehash: bf6472c21f97ed9c278a4cf8ba5fbf2803579d53
-ms.sourcegitcommit: 21338a9287017a66298e0ff557e80051946ebf13
+ms.openlocfilehash: 31df8820346d14fc945c68f0d295fc1dcaa585d9
+ms.sourcegitcommit: 101084f9c81616342d78493232d8f13f5ffa4ddf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/11/2020
-ms.locfileid: "42604797"
+ms.lasthandoff: 05/01/2020
+ms.locfileid: "44001713"
 ---
 # <a name="best-practices-for-sharing-files-and-folders-with-unauthenticated-users"></a>인증되지 않은 사용자와 파일 및 폴더를 공유하는 모범 사례
 

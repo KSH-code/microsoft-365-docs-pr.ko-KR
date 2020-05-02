@@ -5,17 +5,21 @@ author: MikePlumleyMSFT
 manager: pamgreen
 audience: ITPro
 ms.topic: article
-ms.service: sharepoint-online
-ms.collection: SPO_Content
+ms.prod: microsoft-365-enterprise
+ms.collection:
+- SPO_Content
+- M365-collaboration
+ms.custom:
+- M365solutions
 localization_priority: Normal
 f1.keywords: NOCSH
 description: 조직 외부의 사용자와 공동 작업용 Microsoft 365을 구성 하는 방법을 알아봅니다.
-ms.openlocfilehash: 1b2a15312dcaacc398bb521f3ecfb6e7453f66bb
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 338b486725f727506d654a4507d8ea47c6fa2bab
+ms.sourcegitcommit: 101084f9c81616342d78493232d8f13f5ffa4ddf
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43630728"
+ms.lasthandoff: 05/01/2020
+ms.locfileid: "44002255"
 ---
 # <a name="collaborating-with-people-outside-your-organization"></a>조직 외부의 사용자와 공동 작업
 
@@ -42,7 +46,7 @@ Microsoft 365에서 제공 하는 게스트 공유 설정에 대 한 자세한 �
 
 - [인증 되지 않은 사용자와 파일 및 폴더를 공유 하는 최상의 방법](best-practices-anonymous-sharing.md) -인증 되지 않은 사용자와의 공유 모범 사례에 대해 알아봅니다.
 - [실수로 인 한 노출을 제한](share-limit-accidental-exposure.md) -실수로 중요 한 콘텐츠를 조직 외부의 사용자와 공유 하는 기회를 줄이는 방법을 알아봅니다.
-- [보안 게스트 공유 환경 만들기](create-secure-guest-sharing-environment.md) -Microsoft 365에서 제공 하는 도구를 통해 조직 외부의 사용자와의 공유를 안전한 방식으로 수행 하 고 관리 요구 사항을 충족 하는지 확인할 수 있습니다.
+- [보안 게스트 공유 환경 만들기](create-secure-guest-sharing-environment.md) -Microsoft 365에서 제공 하는 도구에 대해 설명 하 여 조직 외부의 사용자와의 공유를 안전한 방식으로 수행 하 고 거 버 넌 스 요구 사항을 충족 하는지 확인 합니다.
 
 ## <a name="collaborate-with-partner-companies"></a>파트너 회사와 공동 작업
 

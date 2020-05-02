@@ -13,12 +13,12 @@ metadata:
   ms.author: macapara
   ms.date: 09/13/2019
   localization_priority: Priority
-  ms.openlocfilehash: 202a01b439755211cbf3d8b06ea1ef874a58c3c1
-  ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
+  ms.openlocfilehash: f97f9b3eed2ec9eed95b1f4ec57a3b055d8c4925
+  ms.sourcegitcommit: b57d597edbff5ab6cff8c2b04d27c15b0024776f
   ms.translationtype: MT
   ms.contentlocale: ko-KR
-  ms.lasthandoff: 04/22/2020
-  ms.locfileid: "43708670"
+  ms.lasthandoff: 05/01/2020
+  ms.locfileid: "43997529"
 landingContent:
 - title: Microsoft 위협 방지
   linkLists:
@@ -28,28 +28,18 @@ landingContent:
       url: mtp/microsoft-threat-protection.md
     - text: Microsoft 365 보안 센터
       url: mtp/overview-security-center.md
-- title: Microsoft Defender ATP
+- title: 무료 평가판으로 시작
   linkLists:
   - linkListType: overview
     links:
-    - text: Microsoft Defender ATP란 무엇인가요?
-      url: https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection
-    - text: 기능 개요
-      url: https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/overview
+    - text: Microsoft Threat Protection 평가
+      url: mtp/mtp-evaluation.md
 - title: 원격 인력 보호
   linkLists:
   - linkListType: get-started
     links:
     - text: 원격 인력 보호
       url: https://docs.microsoft.com/enterprise-mobility-security/remote-work/
-- title: Office 365 ATP
-  linkLists:
-  - linkListType: overview
-    links:
-    - text: Office 365 ATP란 무엇인가요?
-      url: office-365-security/office-365-atp.md
-    - text: Office 365 ATP 서비스 설명
-      url: https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description
 - title: Azure ATP
   linkLists:
   - linkListType: overview
@@ -58,6 +48,22 @@ landingContent:
       url: https://docs.microsoft.com/azure-advanced-threat-protection/what-is-atp
     - text: Azure ATP 아키텍처
       url: https://docs.microsoft.com/azure-advanced-threat-protection/atp-architecture
+- title: Office 365 ATP
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Office 365 ATP란 무엇인가요?
+      url: office-365-security/office-365-atp.md
+    - text: Office 365 ATP 서비스 설명
+      url: https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description
+- title: Microsoft Defender ATP
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Microsoft Defender ATP란 무엇인가요?
+      url: https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection
+    - text: 기능 개요
+      url: https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/overview
 - title: Azure Security Center
   linkLists:
   - linkListType: overview
@@ -74,15 +80,15 @@ landingContent:
       url: https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security
     - text: Microsoft Cloud App Security 시작
       url: https://docs.microsoft.com/cloud-app-security/getting-started-with-cloud-app-security
-- title: Azure Sentinel
-  linkLists:
-  - linkListType: overview
-    links:
-    - text: Azure Sentinel이란 무엇인가요?
-      url: https://docs.microsoft.com/azure/sentinel/overview
 - title: 보안 관리
   linkLists:
   - linkListType: overview
     links:
     - text: 보안 점수
       url: mtp/microsoft-secure-score.md
+- title: Azure Sentinel
+  linkLists:
+  - linkListType: overview
+    links:
+    - text: Azure Sentinel이란 무엇인가요?
+      url: https://docs.microsoft.com/azure/sentinel/overview
