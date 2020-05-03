@@ -6,18 +6,19 @@ manager: laurawi
 audience: ITPro
 ms.topic: article
 ms.collection:
-- Ent_O365
-- Strat_O365_Enterprise
 - M365-security-compliance
-ms.service: O365-seccomp
+ms.prod: microsoft-365-enterprise
+ms.custom:
+- M365solutions
 localization_priority: Priority
 description: Microsoft 365에서 어떤 방식으로 데이터와 시스템을 보호하고 규정을 준수하도록 지원하며, 금융 서비스를 최신 공동 작업 플랫폼으로 전환하는지 알아봅니다.
-ms.openlocfilehash: f312c1a44f81dda2cd89937354423f686eb7346b
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+f1.keywords: NOCSH
+ms.openlocfilehash: e3ed7d40cf7b4452dd2bc47e870e0a7afe10d629
+ms.sourcegitcommit: 101084f9c81616342d78493232d8f13f5ffa4ddf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632610"
+ms.lasthandoff: 05/01/2020
+ms.locfileid: "44002370"
 ---
 # <a name="key-compliance-and-security-considerations-for-us-banking-and-capital-markets"></a>미국 은행 및 자본 시장에 대한 주요 규정 준수 및 보안 고려 사항
 
@@ -259,7 +260,7 @@ Microsoft 365가 SEC 규칙 17a-4 및 기타 규정을 준수하는 방법에 �
 
 궁극적으로 이러한 규칙은 조직이 정책을 수립하고 은행 서비스, 영업 또는 거래에 종사하는 역할과 애널리스트 간의 정보 교환과 커뮤니케이션을 차단하는 정보 장벽을 구현해야 합니다.
 
-[정보 장벽](https://docs.microsoft.com/microsoft-365/compliance/information-barriers?view=o365-worldwide)은 Office 365 환경 내에서 교신 차단 영역을 설정하는 기능을 제공하여 규정 준수 관리자 또는 기타 권한 있는 관리자가 Teams의 사용자 그룹 간 커뮤니케이션을 허용하거나 금지하는 정책을 정의할 수 있습니다. 정보 장벽은 특정 작업을 검사하여 허가되지 않은 커뮤니케이션을 방지합니다. 또한 정보 장벽은 내부 팀이 합병/인수 또는 기밀 거래를 진행하거나 엄격하게 제한되어야 하는 중요한 내부 정보를 사용하는 시나리오에서 커뮤니케이션을 제한할 수 있습니다.
+[정보 장벽](https://docs.microsoft.com/microsoft-365/compliance/information-barriers?view=o365-worldwide)은 Office 365 환경 내에서 교신 차단 영역을 설정하는 기능을 제공하여 규정 준수 관리자 또는 기타 권한 있는 관리자가 Teams의 사용자 그룹 간 커뮤니케이션을 허용하거나 금지하는 정책을 정의할 수 있습니다. 정보 장벽은 특정 작업을 검사하여 허가되지 않은 커뮤니케이션을 방지합니다. 또한 정보 장벽은 내부 팀이 합병/인수 또는 중요한 거래를 진행하거나 엄격하게 제한되어야 하는 중요한 내부 정보를 사용하는 시나리오에서 커뮤니케이션을 제한할 수 있습니다.
 
 Microsoft 365의 정보 장벽은 Teams의 대화 및 파일을 지원합니다. FINRA 규정을 준수하기 위해 다음 유형의 커뮤니케이션 관련 작업을 차단할 수 있습니다.
 
