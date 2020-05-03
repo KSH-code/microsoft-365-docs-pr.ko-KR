@@ -9,15 +9,17 @@ ms.collection:
 - Ent_O365
 - Strat_O365_Enterprise
 - M365-security-compliance
-ms.service: O365-seccomp
+ms.prod: microsoft-365-enterprise
 localization_priority: Priority
 description: Microsoft 365에서 어떤 식으로 에너지 회사가 데이터와 시스템을 계속 안전하게 유지하고 규정을 준수하는 한편, 최신 공동 작업 플랫폼으로 전환하도록 지원하는지 알아봅니다.
-ms.openlocfilehash: 536c895a52024845d8e37c5a7c0b63ba1b2c2752
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom:
+- M365solutions
+ms.openlocfilehash: b0a791177f201e07d00ecbc4621509c1029c4734
+ms.sourcegitcommit: 101084f9c81616342d78493232d8f13f5ffa4ddf
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637191"
+ms.lasthandoff: 05/01/2020
+ms.locfileid: "44002243"
 ---
 # <a name="key-compliance-and-security-considerations-for-the-energy-industry"></a>에너지 산업에 대한 주요 규정 준수 및 보안 고려 사항
 :::image type="content" source="../media/solution-arch-center/MSC17_global_016.png" alt-text="클라우드를 사용하는 다양한 업계 전체 보기를 위한 실제 사례 비유":::
@@ -197,7 +199,7 @@ Microsoft 365 감독 정책을 사용하면 조직에서 회사 통신에서 괴
 
 커뮤니케이션 규정 준수는 여러 통신 채널을 모니터링하고, 머신 러닝 모델을 사용하여 Office 365 전자 메일, Microsoft Teams, 비즈니스용 Skype Online, Facebook, Twitter, Bloomberg 인스턴트 메시지를 포함한 잠재적인 정책 위반을 식별할 수 있습니다. 커뮤니케이션 규정 준수는 준수 팀이 메시지의 다음 항목 위반 가능성을 효과적 및 효율적으로 검토하는 데 도움이 됩니다.
 - 허용되는 사용, 윤리적 표준 및 회사별 정책과 같은 회사 정책 
-- 예정된 인수, 합병, 수입 공개, 개편 또는 팀 리더쉽 변경과 같은 기밀 프로젝트에 관한 허가받지 않은 통신과 같은 기밀 또는 기밀 비즈니스 공개
+- 예정된 인수, 합병, 수입 공개, 재구성 또는 리더십 팀 변경과 같은 민감한 프로젝트에 대한 무단 통신과 같은 민감성 또는 민감한 비즈니스 공개
 - 조직이 에너지 시장에 대한 FERC 규제를 준수하는 데 사용하는 회사 또는 거래 유형에 대 한 직원 커뮤니케이션 등과 같은 규제 준수 요구 사항
 
 커뮤니케이션 규정 준수는 커뮤니케이션을 검토할 때 가양성을 줄이는 데 도움이 되는 위협, 괴롭힘 및 욕설 분류자를 기본으로 제공하여 조사 및 교정 프로세스 동안 검토자의 시간이 절약됩니다. 이를 통해 검토자는 정책 경보로 강조된 긴 대화 내의 특정 메시지에 집중할 수 있습니다. 덕분에 준수 팀은 더욱 신속하게 위험을 확인하고 교정할 수 있습니다. 조직의 특정 요구 사항에 맞게 솔루션을 조정하고 가양성을 줄임으로써 정책을 손쉽게 구성하고 미세 조정할 수 있는 기능을 준수 팀에 제공합니다. 또한 커뮤니케이션 규정 준수는 시간 경과에 따른 사용자 행동을 추적하여 위험한 행동 또는 정책 위반에 대한 잠재적 패턴을 강조 표시할 수 있습니다. 마지막으로, 검토자가 신속하게 조치를 취하고 정의된 회사의 프로세스에 따라 법률 또는 인사 팀으로 에스컬레이션할 수 있도록 유연한 교정 워크플로를 기본 제공합니다.
