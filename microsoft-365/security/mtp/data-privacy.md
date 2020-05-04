@@ -19,25 +19,23 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 27f27a16de9d4aa2a2f163a18c1b837d6c575eb0
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 81773481f79a70cb5996696c9554dfe744170e8c
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43633486"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011246"
 ---
-# <a name="microsoft-threat-protection-data-security-and-privacy"></a><span data-ttu-id="7314c-104">Microsoft 위협 방지 데이터 보안 및 개인 정보 보호</span><span class="sxs-lookup"><span data-stu-id="7314c-104">Microsoft Threat Protection data security and privacy</span></span>
+# <a name="microsoft-threat-protection-data-security-and-privacy"></a><span data-ttu-id="06cf9-104">Microsoft 위협 방지 데이터 보안 및 개인 정보 보호</span><span class="sxs-lookup"><span data-stu-id="06cf9-104">Microsoft Threat Protection data security and privacy</span></span>
 
-<span data-ttu-id="7314c-105">**적용 대상:**</span><span class="sxs-lookup"><span data-stu-id="7314c-105">**Applies to:**</span></span>
-- <span data-ttu-id="7314c-106">Microsoft 위협 방지</span><span class="sxs-lookup"><span data-stu-id="7314c-106">Microsoft Threat Protection</span></span>
+<span data-ttu-id="06cf9-105">**적용 대상:**</span><span class="sxs-lookup"><span data-stu-id="06cf9-105">**Applies to:**</span></span>
+- <span data-ttu-id="06cf9-106">Microsoft 위협 방지</span><span class="sxs-lookup"><span data-stu-id="06cf9-106">Microsoft Threat Protection</span></span>
 
+<span data-ttu-id="06cf9-107">Microsoft 위협 보호를 사용 하면 다음과 같은 용어에 동의 하 게 됩니다.</span><span class="sxs-lookup"><span data-stu-id="06cf9-107">By using the Microsoft Threat Protection you consent to the following terms:</span></span>
 
+<span data-ttu-id="06cf9-108">*MTP (Microsoft Threat Protection) 서비스는 다른 Microsoft 엔터프라이즈 온라인 서비스의 특정 고객 데이터를 MTP로 전송 하 고 해당 Microsoft 엔터프라이즈 온라인 서비스로 다시 MTP로 전달 합니다. 이러한 데이터 전송은 [온라인 서비스 용어로](https://go.microsoft.com/fwlink/?linkid=2127420) 제어 되며 [Microsoft 보안 센터](https://go.microsoft.com/fwlink/?linkid=2127550)에 자세히 설명 되어 있습니다.*</span><span class="sxs-lookup"><span data-stu-id="06cf9-108">*The Microsoft Threat Protection (MTP) service transfers certain Customer Data from other Microsoft enterprise online services into MTP and from MTP back to those Microsoft enterprise online services. These data transfers are governed by the [Online Services Terms](https://go.microsoft.com/fwlink/?linkid=2127420) and further described in the [Microsoft Trust Center](https://go.microsoft.com/fwlink/?linkid=2127550).*</span></span>
 
-<span data-ttu-id="7314c-107">Microsoft 위협 보호를 사용 하면 다음과 같은 용어에 동의 하 게 됩니다.</span><span class="sxs-lookup"><span data-stu-id="7314c-107">By using the Microsoft Threat Protection you consent to the following terms:</span></span>
-
-<span data-ttu-id="7314c-108">MTP (Microsoft Threat Protection)를 설정 하면 다음과 같은 용어에 동의 하 게 됩니다.</span><span class="sxs-lookup"><span data-stu-id="7314c-108">By turning on Microsoft Threat Protection (MTP), you consent to the following terms.</span></span> <span data-ttu-id="7314c-109">온라인 서비스 약관 (OST)에 정의 된 대로 해당 하는 고객 데이터는 다른 Microsoft 서비스에서 MTP로 전송 됩니다.</span><span class="sxs-lookup"><span data-stu-id="7314c-109">Your applicable Customer Data as defined in the Online Service Terms (OST) will be transferred from other Microsoft services into MTP.</span></span> <span data-ttu-id="7314c-110">MTP에서 고객 데이터를 사용 하는 것은 microsoft defender ATP (Advanced Threat Protection)에 대 한 데이터 처리 표준 및 약정을 따릅니다.</span><span class="sxs-lookup"><span data-stu-id="7314c-110">Use of your Customer Data in MTP will follow the data handling standards and commitments for Microsoft Defender Advanced Threat Protection (Microsoft Defender ATP).</span></span> <span data-ttu-id="7314c-111">이러한 약정은 고객 데이터가 전송되는 서비스와 다를 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="7314c-111">You acknowledge that such commitments may differ from the services from which that Customer Data is transferred.</span></span> <span data-ttu-id="7314c-112">또한 MTP에 저장 되는 고객 데이터는 MDATP 고객 데이터를 저장 하기 위해 선택한 지리적 위치에 보관 됩니다 (다른 서비스와 연결에서 선택한 Geo와 다를 수 있음).</span><span class="sxs-lookup"><span data-stu-id="7314c-112">Further, Customer Data stored in MTP will be stored at rest in the Geo you selected for storage of your MDATP Customer Data, which may differ from the Geo you selected in connection with other services.</span></span> <span data-ttu-id="7314c-113">[Microsoft의](https://www.microsoft.com/trust-center) 데이터 위치 섹션에 나와 있는 경우를 제외 하 고 microsoft는 이러한 지역 외부에서 고객 데이터를 전송 하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="7314c-113">Microsoft will not transfer the Customer Data outside of such Geo except as noted in the Data Location section of the [Microsoft Trust Center](https://www.microsoft.com/trust-center)</span></span>
-
-<span data-ttu-id="7314c-114">특정 제품의 데이터 저장소 및 개인 정보 보호에 대한 자세한 내용은 다음을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="7314c-114">For more information on the data storage and privacy information of the specific products see:</span></span>
-- [<span data-ttu-id="7314c-115">Microsoft Defender ATP 데이터 저장소 및 개인 정보 보호</span><span class="sxs-lookup"><span data-stu-id="7314c-115">Microsoft Defender ATP data storage and privacy</span></span>](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy)
-- [<span data-ttu-id="7314c-116">Microsoft Cloud App Security 데이터 보안 및 개인 정보 보호</span><span class="sxs-lookup"><span data-stu-id="7314c-116">Microsoft Cloud App Security data security and privacy</span></span>](https://docs.microsoft.com/cloud-app-security/cas-compliance-trust)
-- [<span data-ttu-id="7314c-117">Microsoft 365 개인 정보, 보안 및 투명성</span><span class="sxs-lookup"><span data-stu-id="7314c-117">Microsoft 365 privacy, security, and transparency</span></span>](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/privacy-security-and-transparency#advanced-threat-protection)
+<span data-ttu-id="06cf9-109">특정 제품의 데이터 저장소 및 개인 정보 보호에 대한 자세한 내용은 다음을 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="06cf9-109">For more information on the data storage and privacy information of the specific products see:</span></span>
+- [<span data-ttu-id="06cf9-110">Microsoft Defender ATP 데이터 저장소 및 개인 정보 보호</span><span class="sxs-lookup"><span data-stu-id="06cf9-110">Microsoft Defender ATP data storage and privacy</span></span>](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy)
+- [<span data-ttu-id="06cf9-111">Microsoft Cloud App Security 데이터 보안 및 개인 정보 보호</span><span class="sxs-lookup"><span data-stu-id="06cf9-111">Microsoft Cloud App Security data security and privacy</span></span>](https://docs.microsoft.com/cloud-app-security/cas-compliance-trust)
+- [<span data-ttu-id="06cf9-112">Microsoft 365 개인 정보, 보안 및 투명성</span><span class="sxs-lookup"><span data-stu-id="06cf9-112">Microsoft 365 privacy, security, and transparency</span></span>](https://docs.microsoft.com/office365/servicedescriptions/office-365-platform-service-description/privacy-security-and-transparency#advanced-threat-protection)
