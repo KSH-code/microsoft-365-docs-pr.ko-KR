@@ -19,12 +19,12 @@ ms.custom:
 - fwlink 824861; CampaignID O365_Comm_SR_UpgradeOffice
 ms.assetid: f6b00895-b5fd-4af6-a656-b7788ea20cbb
 description: 사용자를 최신 Office 클라이언트로 업그레이드 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 148069011784b822c5ce366190afd60bf278772f
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 2140e246882d9d9b30481bc20b78142708408f88
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627537"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011278"
 ---
 # <a name="upgrade-your-microsoft-365-for-business-users-to-the-latest-office-client"></a>비즈니스 사용자를 위한 Microsoft 365를 최신 Office 클라이언트로 업그레이드
 
@@ -124,4 +124,4 @@ Office를 설치 해야 하는 조직의 모든 사용자에 게 라이선스를
 모든 사용자에 게 라이선스를 업그레이드할지 확인 한 후에는 [PC 또는 Mac에 office를 설치 하거나 다운로드 및 설치 또는 다시](https://support.office.com/article/4414eaaf-0478-48be-9c42-23adc4716658.aspx)설치를 참조 하세요.
   
 > [!TIP]
-> 사용자가 Office를 설치 하지 못하도록 하려면 [office 365에서 소프트웨어 다운로드 설정 관리](https://docs.microsoft.com/DeployOffice/manage-software-download-settings-office-365)를 참조 하세요. [Office 배포 도구](https://docs.microsoft.com/DeployOffice/overview-of-the-office-2016-deployment-tool) 를 사용 하 여 로컬 네트워크에 office 소프트웨어를 다운로드 한 다음 일반적으로 사용 하는 소프트웨어 배포 방법을 사용 하 여 office를 배포할 수 있습니다.
+> 사용자가 Office를 설치 하지 못하도록 하려면 [office 365에서 소프트웨어 다운로드 설정 관리](https://docs.microsoft.com/DeployOffice/manage-software-download-settings-office-365)를 참조 하세요. [Office 배포 도구](https://docs.microsoft.com/DeployOffice/overview-office-deployment-tool) 를 사용 하 여 로컬 네트워크에 office 소프트웨어를 다운로드 한 다음 일반적으로 사용 하는 소프트웨어 배포 방법을 사용 하 여 office를 배포할 수 있습니다.

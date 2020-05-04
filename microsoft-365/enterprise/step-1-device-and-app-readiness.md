@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 환경에서 장치 및 앱 준비 상태를 평가하는 방법을 알아봅니다.
-ms.openlocfilehash: fc048b046e46b4b2e792aa9bffb695eed742a74c
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 8596d23356fd8eda733938ad3a6fc0fbe81fcce3
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636859"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011666"
 ---
 # <a name="step-1-device-and-app-readiness"></a>1단계: 장치 및 앱 준비
 
@@ -89,7 +89,7 @@ Desktop Analytics는 에이전트 없는 프로세스를 사용하여 데스크�
 
 Desktop Analytics를 사용하여 브라우저 기반 호환성 문제를 평가하고 ActiveX 컨트롤, 브라우저 도우미 개체, VBScript 또는 Microsoft Edge 브라우저에서 지원하지 않는 기타 레거시 기술을 사용하는 사용자가 액세스하는 웹 사이트 및 웹 앱을 식별할 수 있습니다. 사용자는 여전히 이러한 사이트에 Internet Explorer 11을 사용해야 하며 엔터프라이즈 모드 사이트 목록 관리자를 사용하여 [엔터프라이즈 모드 사이트 목록](https://docs.microsoft.com/microsoft-edge/deploy/emie-to-improve-compatibility)에 추가할 수 있습니다.
 
-또한 엔터프라이즈용 Microsoft 365 앱으로의 이전을 지원하기 위해, [Office용 Readiness Toolkit](https://docs.microsoft.com/deployoffice/use-the-readiness-toolkit-to-assess-application-compatibility-for-office-365-pro)을 사용하여 추가 기능 및 Microsoft VBA(Visual Basic for Applications) 매크로의 호환성을 테스트할 수 있습니다.
+또한 엔터프라이즈용 Microsoft 365 앱으로의 이전을 지원하기 위해, [Office용 Readiness Toolkit](https://docs.microsoft.com/deployoffice/readiness-toolkit-application-compatibility-microsoft-365-apps)을 사용하여 추가 기능 및 Microsoft VBA(Visual Basic for Applications) 매크로의 호환성을 테스트할 수 있습니다.
 
 ![](../media/step-1-device-and-app-readiness-media/step-1-device-and-app-readiness-media-6.png)
 
@@ -105,7 +105,7 @@ Desktop Analytics를 사용하여 브라우저 기반 호환성 문제를 평가
 
 Configuration Manager 소프트웨어 인벤토리는 장치 및 응용 프로그램 준비에 클라우드 기반 분석 솔루션 사용의 대안으로 사용할 수 있습니다. 설치 횟수 및 특정 컴퓨터를 조사하여 호환성 테스트 및 유효성 검사의 우선 순위를 지정하고 패키지 설정을 통해 Windows 10과 호환되는 응용 프로그램 패키지를 설정할 수 있습니다. 이 옵션은 Microsoft의 분석 서비스와 알려진 호환성 정보를 비교하는 기능을 제공하지는 않지만 우선 순위가 지정된 앱들을 더 작은 집합의 대상으로 하는 수동 테스트에 효과적인 솔루션이 될 수 있습니다. 
 
-자세한 내용은 [Configuration Manager의 소프트웨어 인벤토리 소개](https://docs.microsoft.com/configmgr/core/clients/manage/inventory/introduction-to-software-inventory) 및 [Configuration Manager의 패키지 및 프로그램](https://docs.microsoft.com/configmgr/apps/deploy-use/packages-and-programs)에서 응용 프로그램 패키지의 플랫폼 요구 사항 설정을 참조하세요.
+자세한 내용은 [Configuration Manager의 소프트웨어 인벤토리 소개](https://docs.microsoft.com/mem/configmgr/core/clients/manage/inventory/introduction-to-software-inventory) 및 [Configuration Manager의 패키지 및 프로그램](https://docs.microsoft.com/mem/configmgr/apps/deploy-use/packages-and-programs)에서 응용 프로그램 패키지의 플랫폼 요구 사항 설정을 참조하세요.
 
 
 ## <a name="app-assure"></a>App Assure

@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 대규모 조직을 위한 Windows 7에서 Windows 10으로 자동 업그레이드
-ms.openlocfilehash: f9ba1022b4c7f702f6cb9b815deee59047c4b704
-ms.sourcegitcommit: 9ca28ae8f7804eb488cf76ca4b09fe88787e0a49
+ms.openlocfilehash: 575ffba84b2cd7b7cfe5267a35a9f36c75dbe306
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43113484"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011554"
 ---
 # <a name="windows-7-to-windows-10-automated-in-place-upgrades-for-large-organizations"></a>대규모 조직을 위한 Windows 7에서 Windows 10으로 현재 위치에서 자동 업그레이드
 
@@ -42,7 +42,7 @@ Windows 10의 현재 위치 업그레이드는 파일 마이그레이션 또는 
 
 업그레이드 프로세스는 기본적으로 이전 Windows 설치를 업그레이드의 일부로 백업하므로 업그레이드 실패 시나 장치 또는 응용 프로그램이 업그레이드 후 제대로 작동하지 않는 경우 컴퓨터가 Windows 7로 롤백될 수 있습니다. 업그레이드된 PC는 기본적으로 10일 안에 필요한 경우 수동으로 Windows 7로 롤백할 수 있습니다.
 
-현재 위치 업그레이드는 [Microsoft Endpoint Configuration Manager](https://docs.microsoft.com/configmgr/osd/deploy-use/create-a-task-sequence-to-upgrade-an-operating-system) 또는 [Microsoft Deployment Toolkit](https://docs.microsoft.com/windows/deployment/upgrade/upgrade-to-windows-10-with-the-microsoft-deployment-toolkit)과 같은 운영 체제 배포 도구를 사용하여 자동화할 수 있습니다. 이 문서에서는 추가 지원을 위해 관련 리소스에 대한 링크와 함께 자동화된 접근 방법과 최적화를 중점적으로 설명합니다.
+현재 위치 업그레이드는 [Microsoft Endpoint Configuration Manager](https://docs.microsoft.com/mem/configmgr/osd/deploy-use/create-a-task-sequence-to-upgrade-an-operating-system) 또는 [Microsoft Deployment Toolkit](https://docs.microsoft.com/windows/deployment/upgrade/upgrade-to-windows-10-with-the-microsoft-deployment-toolkit)과 같은 운영 체제 배포 도구를 사용하여 자동화할 수 있습니다. 이 문서에서는 추가 지원을 위해 관련 리소스에 대한 링크와 함께 자동화된 접근 방법과 최적화를 중점적으로 설명합니다.
 
 ## <a name="upgrading-a-small-number-of-computers"></a>적은 수의 컴퓨터 업그레이드
 
@@ -80,13 +80,13 @@ Windows 10의 현재 위치 업그레이드는 파일 마이그레이션 또는 
 
   - 맬웨어 방지, VPN 또는 가상화와 같은 낮은 수준의 코드 솔루션
 
-[업그레이드 작업 순서](https://docs.microsoft.com/configmgr/osd/deploy-use/create-a-task-sequence-to-upgrade-an-operating-system) 서식 파일은 Microsoft Endpoint Configuration Manager 현재 분기에 기본 제공되며, 여러 릴리스에서 사용할 수 있습니다. 최근 릴리스에서는 장치 및 Office 호환성 준비 상태를 확인하고 네트워크 트래픽을 줄이며 OneDrive 백업과 같은 새로운 옵션을 구성하는 프로세스가 더욱 효율적으로 수행되도록 하는 Configuration Manager에 대한 중요한 기술 향상이 있었습니다. 이 [Microsoft Mechanics 쇼](https://youtu.be/CYRnAmCD7ls)에서 Configuration Manager OS 배포에 대한 최신 업데이트를 확인하세요.
+[업그레이드 작업 순서](https://docs.microsoft.com/mem/configmgr/osd/deploy-use/create-a-task-sequence-to-upgrade-an-operating-system) 서식 파일은 Microsoft Endpoint Configuration Manager 현재 분기에 기본 제공되며, 여러 릴리스에서 사용할 수 있습니다. 최근 릴리스에서는 장치 및 Office 호환성 준비 상태를 확인하고 네트워크 트래픽을 줄이며 OneDrive 백업과 같은 새로운 옵션을 구성하는 프로세스가 더욱 효율적으로 수행되도록 하는 Configuration Manager에 대한 중요한 기술 향상이 있었습니다. 이 [Microsoft Mechanics 쇼](https://youtu.be/CYRnAmCD7ls)에서 Configuration Manager OS 배포에 대한 최신 업데이트를 확인하세요.
 
 Microsoft Endpoint Configuration Manager를 사용하지 않는 경우 Microsoft Deployment Toolkit을 사용하여 업그레이드 배포 작업 순서를 작성하고 실행할 수 있습니다.
 
 ## <a name="pre-cache-task-sequence-upgrades"></a>사전 캐시 작업 순서 업그레이드
 
-Configuration Manager 배포 작업 순서의 [사전 캐시 옵션](https://docs.microsoft.com/configmgr/osd/deploy-use/create-a-task-sequence-to-upgrade-an-operating-system#configure-pre-cache-content)을 사용하면 작업 순서에 따라 운영 체제를 업그레이드하기 전에 클라이언트에서 관련 OS 업그레이드 패키지 콘텐츠를 다운로드할 수 있습니다. 이전에는 작업 시퀀스를 시작하면 패키지 내용 다운로드가 시작되었습니다. 사전 캐시 콘텐츠는 클라이언트가 배포를 받자마자 해당 OS 업그레이드 패키지 및 기타 모든 참조된 컨텐츠만 다운로드할 수 있는 옵션도 제공됩니다.
+Configuration Manager 배포 작업 순서의 [사전 캐시 옵션](https://docs.microsoft.com/mem/configmgr/osd/deploy-use/create-a-task-sequence-to-upgrade-an-operating-system#configure-pre-cache-content)을 사용하면 작업 순서에 따라 운영 체제를 업그레이드하기 전에 클라이언트에서 관련 OS 업그레이드 패키지 콘텐츠를 다운로드할 수 있습니다. 이전에는 작업 시퀀스를 시작하면 패키지 내용 다운로드가 시작되었습니다. 사전 캐시 콘텐츠는 클라이언트가 배포를 받자마자 해당 OS 업그레이드 패키지 및 기타 모든 참조된 컨텐츠만 다운로드할 수 있는 옵션도 제공됩니다.
 
 호환성 검사와 결합된 사전 캐시 작업 시퀀스
 

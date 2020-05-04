@@ -12,12 +12,12 @@ ms.date: 08/30/2018
 f1.keywords:
 - NOCSH
 ms.author: greglin
-ms.openlocfilehash: ca5abb97628d04a9f29bb3a3fb9b43a578dbab74
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 1c90640fa49aa102d2a4c8420feedf659b5682f2
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42085587"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011820"
 ---
 # <a name="step-2-deploy-windows-10-enterprise-for-existing-devices-as-an-in-place-upgrade"></a>2 단계: 현재 위치 업그레이드로 기존 장치에 대 한 Windows 10 Enterprise 배포
 
@@ -47,7 +47,7 @@ Windows 7 또는 Windows 8.1을 실행 하는 기존 컴퓨터가 있는 경우 
 
 그런 다음 가이드에 따라 Configuration Manager (현재 분기)를 사용 하 여 Windows 7 이상 운영 체제를 Windows 10으로 업그레이드 합니다. 위험도가 높은 배포와 마찬가지로, 계속 하기 전에 사용자 데이터를 백업 하는 것이 좋습니다. OneDrive 클라우드 저장소는 라이선스가 있는 Microsoft 365 사용자에 게 사용할 준비가 되었으며 파일을 안전 하 게 저장 하는 데 사용할 수 있습니다. 자세한 내용은 [OneDrive 빠른 시작 가이드](https://aka.ms/ODfBquickstartguide)를 참조 하세요. 이 페이지에 액세스 하려면 Office 365 또는 Microsoft 365 테 넌 트에서 테 넌 트 관리자 또는 전역 관리자로 로그인 해야 합니다.
 
-지원 되는 Windows 10 클라이언트 버전 및 구성 관리자 버전 목록은 [Configuration manager에 대 한 Windows 10 지원을](https://docs.microsoft.com/configmgr/core/plan-design/configs/support-for-windows-10)참조 하십시오.
+지원 되는 Windows 10 클라이언트 버전 및 구성 관리자 버전 목록은 [Configuration manager에 대 한 Windows 10 지원을](https://docs.microsoft.com/mem/configmgr/core/plan-design/configs/support-for-windows-10)참조 하십시오.
 
 **Windows 업그레이드 준비 상태를 확인 하려면**
 
@@ -96,7 +96,7 @@ Windows 10 배포를 시작 하기 전에 다음 요구 사항을 검토 하십�
 업그레이드 작업 시퀀스를 만든 후에는 업그레이드할 장치를 포함 하는 컬렉션을 만들어야 합니다.
 
 > [!NOTE]
-> 다음 설정을 사용 하 여 단일 장치에서 배포를 테스트 합니다. 준비가 되 면 다른 멤버 자격 규칙을 사용 하 여 장치 그룹을 포함할 수 있습니다. 자세한 내용은 [Configuration Manager에서 컬렉션을 만드는 방법을](https://docs.microsoft.com/configmgr/core/clients/manage/collections/create-collections)참조 하세요.
+> 다음 설정을 사용 하 여 단일 장치에서 배포를 테스트 합니다. 준비가 되 면 다른 멤버 자격 규칙을 사용 하 여 장치 그룹을 포함할 수 있습니다. 자세한 내용은 [Configuration Manager에서 컬렉션을 만드는 방법을](https://docs.microsoft.com/mem/configmgr/core/clients/manage/collections/create-collections)참조 하세요.
 
 1. Configuration Manager 콘솔의 **자산 및 준수** 작업 영역에서 **장치 모음**을 마우스 오른쪽 단추로 클릭 한 다음 **장치 모음 만들기**를 선택 합니다. 
 2. 장치 컬렉션 만들기 마법사의 **일반** 페이지에서 다음 설정을 입력 하 고 **다음**을 선택 합니다.
@@ -136,7 +136,7 @@ Windows 10 배포를 시작 하기 전에 다음 요구 사항을 검토 하십�
  
 1. Windows 컴퓨터에 로그온 하 고 **소프트웨어 센터**를 시작 합니다.
 2. 이전 단계에서 만든 작업 순서를 선택 하 고 **설치**를 선택 합니다.
-3. 작업 시퀀스가 시작 되 면 필요한 명령줄 매개 변수로 Windows 설치 프로그램 (setup.exe)을 호출 하 여 전체 업그레이드 프로세스를 자동으로 시작 하 여 자동 업그레이드를 수행 하 고 모든 데이터, 설정, 앱 및 정보를 보존 합니다. 드라이버용.
+3. 작업 시퀀스가 시작 되 면 필요한 명령줄 매개 변수로 Windows 설치 프로그램 (setup.exe)을 호출 하 여 전체 업그레이드 프로세스를 자동으로 시작 하 여 모든 데이터, 설정, 앱 및 드라이버를 보존 하는 자동화 된 업그레이드를 수행 합니다.
 4. 작업 시퀀스가 성공적으로 완료 되 면 컴퓨터가 Windows 10으로 완전히 업그레이드 됩니다.
 
 엔터프라이즈 환경에서 Windows 10을 사용할 때 문제가 발생 하면 [가장 일반적인 문제에 대 한 주요 Microsoft 지원 솔루션](https://docs.microsoft.com/windows/client-management/windows-10-support-solutions)을 참조할 수 있습니다. 이러한 리소스에는 기술 자료 문서, 업데이트 및 라이브러리 아티클이 포함 됩니다.

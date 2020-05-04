@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 737e8c86-be63-44d7-bf02-492fa7cd9c3f
 description: 관리 센터에서 중앙 집중식 배포를 사용 하 여 조직의 사용자 및 그룹에 추가 기능을 배포 하는 방법을 알아봅니다.
-ms.openlocfilehash: 440cb55f318ac2aa43af5a24fa8ca80753aa03ac
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 30f2c08aa895f63ed529b4390d208e3daa9d6d7b
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43628163"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011714"
 ---
 # <a name="manage-deployment-of-add-ins-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터에서 추가 기능 배포 관리
 
@@ -211,8 +211,8 @@ GDPR (일반 데이터 보호 규정)은 실제 5 월 25 일 2018이 되는 유�
 |||
 |:-----|:-----|
 |**플랫폼** <br/> |**빌드 번호** <br/> |
-|Windows 용 매월 Office 2016 ProPlus  <br/> |9001.2138   <br/> |
-|Office 2016 ProPlus 반기  <br/> |8431.2159  <br/> |
+|Microsoft 365 Apps for enterprise (월별 채널)  <br/> |9001.2138   <br/> |
+|Microsoft 365 Apps for enterprise (반기 채널)  <br/> |8431.2159  <br/> |
 |Windows 용 Office 2016  <br/> |16.0.4672.1000  <br/> |
 |Windows 용 Office 2013  <br/> |15.0.5023.1000  <br/> |
 |Office 2016 for Mac  <br/> |16.11.18020200  <br/> |

@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: f04c6bf41e9c09455773c419efec0b7b4e8ca5ae
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: fa35e71d2748e02da12a239f67134c1b25b5a369
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637992"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011831"
 ---
 # <a name="health-information-trust-alliance-hitrust-common-security-framework-csf"></a>Health Information Trust 제휴 (HITRUST) 일반 보안 프레임 워크 (CSF)
 
@@ -70,7 +70,7 @@ HITRUST MyCSF 도구에서 Azure에 대 한 완전히 상속 되거나 공유 �
 
 [자세한 정보](https://go.microsoft.com/fwlink/p/?linkid=2100268)
 
-## <a name="frequently-asked-questions"></a>자주하는 질문
+## <a name="frequently-asked-questions"></a>자주 묻는 질문
 
 **Azure HITRUST 준수를 사용 하 여 조직의 인증 프로세스를 작성할 수 있나요?**
 
@@ -82,7 +82,7 @@ HITRUST MyCSF 도구에서 Azure에 대 한 완전히 상속 되거나 공유 �
 
 **Office 365의 범위 내 서비스는 무엇 인가요?**
 
-HITRUST CSF 인증의 범위 내 서비스는 Exchange Online, Exchange online Protection, exchange Online, 비즈니스용 Skype, 관리 센터, SharePoint Online, Project Online, 비즈니스용 OneDrive, office Online, MyAnalytics, Microsoft 팀, office ProPlus, office 365 다중 테 넌 트 클라우드 및 Office 365 GCC입니다.
+HITRUST CSF 인증의 범위 내 서비스는 Exchange Online, Exchange online Protection, exchange Online, 비즈니스용 Skype, 관리 센터, SharePoint Online, Project Online, 비즈니스용 OneDrive, office Online, Microsoft 팀, Office 365 다중 테 넌 트 클라우드 및 Office 365 GCC의 Microsoft 365 Apps for enterprise for Business
 
 > [!NOTE]
 > Microsoft 365 enterprise 용 앱을 사용 하면 로밍 설정, 라이선스 및 OneDrive 소비자 클라우드 저장소와 같은 다양 한 클라우드 서비스에 액세스할 수 있으며 나중에 추가 클라우드 서비스에 대 한 액세스를 사용 하도록 설정할 수 있습니다. 로밍 설정 및 라이선스는 HITRUST에 대 한 표준을 지원 합니다. OneDrive 소비자 클라우드 저장소와 함께 제공 되지 않으며 Microsoft 365 앱을 통해 액세스할 수 있는 기타 클라우드 서비스 및 Microsoft에서 향후에 제공할 수도 있는 기타 클라우드의 서비스가 이러한 표준을 지원 하지 않을 수도 있습니다. *

@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Contoso에서 Microsoft Endpoint Configuration Manager를 사용하여 엔터프라이즈용 Microsoft 365 앱을 배포하는 방식을 이해합니다.
-ms.openlocfilehash: eca3978103ca1e590d747b3549a3c9e393f871ca
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 2ff05a079d83389ed94445fc011b9f7902c6de56
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43625257"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011890"
 ---
 # <a name="microsoft-365-apps-for-enterprise-deployment-for-contoso"></a>Contoso용 엔터프라이즈용 Microsoft 365 앱 배포
 
@@ -40,7 +40,7 @@ Contoso는 해당 요구 사항을 토대로, Configuration Manager(현재 분�
 - 지능형 언어 팩 배포: 운영 체제와 동일한 언어를 자동으로 배포하는 기능을 포함합니다.
 - 배포 중에 클라이언트에서 기존 버전의 Office를 제거하기 위한 완전히 지원되는 편리한 방법
 
-Contoso는 Configuration Manager 외에도, Microsoft에서 무료로 제공하는 [Readiness Toolkit](https://docs.microsoft.com/deployoffice/use-the-readiness-toolkit-to-assess-application-compatibility-for-office-365-pro)를 사용하여 Office 매크로 및 추가 기능에 대한 호환성 문제를 평가했습니다.
+Contoso는 Configuration Manager 외에도, Microsoft에서 무료로 제공하는 [Readiness Toolkit](https://docs.microsoft.com/deployoffice/readiness-toolkit-application-compatibility-microsoft-365-apps)를 사용하여 Office 매크로 및 추가 기능에 대한 호환성 문제를 평가했습니다.
 
 ## <a name="managing-the-deployment-and-updates"></a>배포 및 업데이트 관리
 
@@ -51,7 +51,7 @@ Contoso는 Configuration Manager 외에도, Microsoft에서 무료로 제공하�
 
 Configuration Manager를 사용하여 Office에 대한 업데이트를 관리하는 대신, Contoso는 클라우드에서 자동 업데이트를 사용하도록 설정했습니다. 클라우드 기반 업데이트는 장치를 최신 상태로 유지하면서 관리 오버헤드를 줄였습니다. 
 
-Contoso는 기능 업데이트를 위해서도 Office 배포에 사용한 것과 동일한 2단계 접근 방법을 따랐습니다. 즉, 파일럿 그룹의 장치가 조직의 나머지 장치(브로드 그룹)보다 4개월 먼저 기능 업데이트를 받았습니다. Office에 대해 이러한 방식을 적용하기 위해 Contoso는 권장되는 두 개의 [업데이트 채널](https://docs.microsoft.com/DeployOffice/overview-of-update-channels-for-office-365-proplus)을 사용했습니다. 
+Contoso는 기능 업데이트를 위해서도 Office 배포에 사용한 것과 동일한 2단계 접근 방법을 따랐습니다. 즉, 파일럿 그룹의 장치가 조직의 나머지 장치(브로드 그룹)보다 4개월 먼저 기능 업데이트를 받았습니다. Office에 대해 이러한 방식을 적용하기 위해 Contoso는 권장되는 두 개의 [업데이트 채널](https://docs.microsoft.com/DeployOffice/overview-update-channels)을 사용했습니다. 
 
 - 파일럿 그룹에 대한 업데이트용 반기 채널(대상 지정) 
 - 브로드 그룹에 대한 업데이트용 반기 채널. 

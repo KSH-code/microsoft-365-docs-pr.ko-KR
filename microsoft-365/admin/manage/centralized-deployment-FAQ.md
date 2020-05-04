@@ -18,12 +18,12 @@ search.appverid:
 - MET150
 - MOE150
 description: Microsoft 365 관리 센터에서 중앙 집중식 배포에 대해 자주 묻는 질문에 대 한 대답을 검토 합니다.
-ms.openlocfilehash: 39df2ec5a1671f800572bc845581bdbe2716d209
-ms.sourcegitcommit: 4a34b48584071e0c43c920bb35025e34cb4f5d15
+ms.openlocfilehash: c389ab07136b8a6e625db9ecfeff514a6899cd7d
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/09/2020
-ms.locfileid: "43209667"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011738"
 ---
 # <a name="centralized-deployment-faq"></a>중앙 집중식 배포 FAQ
 
@@ -31,7 +31,7 @@ ms.locfileid: "43209667"
   
 ## <a name="how-do-i-know-if-my-organization-is-set-up-for-centralized-deployment"></a>조직이 중앙 집중식 배포를 위해 설정 되었는지 어떻게 알 수 있나요?  
 
-추가 기능의 중앙 집중식 배포에서는 사용자가 Office 365 ProPlus를 사용 하 고, 조직 로그인 자격 증명을 사용 하 여 Office에 로그인 하 고, Exchange Online 사서함이 있어야 합니다. 구독 디렉터리는 Azure Active Directory에 있거나 페더레이션 해야 합니다.  
+추가 기능의 중앙 집중식 배포에서는 사용자가 엔터프라이즈에 대해 Microsoft 365 앱을 사용 하 고 조직 로그인 자격 증명을 사용 하 여 Office에 로그인 하 고 Exchange Online 사서함이 있어야 합니다. 구독 디렉터리는 Azure Active Directory에 있거나 페더레이션 해야 합니다.  
  
 온라인 사서함에 대해서만 중앙 집중식 배포가 지원 됩니다. 온-프레미스 Exchange 사서함에 대 한 배포는 지원 되지 않습니다.
  

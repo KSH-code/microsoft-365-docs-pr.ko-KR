@@ -12,12 +12,12 @@ ms.date: 08/28/2019
 f1.keywords:
 - NOCSH
 ms.author: greglin
-ms.openlocfilehash: 53c38ba2e915cd439c8d7629bc7f9cd56ebc8647
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: d1019547fb16fd4fd5669ebd5286e8c9e32668fe
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636678"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011926"
 ---
 # <a name="phase-3-windows-10-enterprise"></a>3단계: Windows 10 Enterprise
 
@@ -41,7 +41,7 @@ Windows 10 운영 체제를 배포 하 고 조직에 적합 한 시스템을 선
 
 | 배포 시나리오 | 사용 하는 경우 |
 |:--- |:--- |
-| [현재 위치 업그레이드로 Microsoft Endpoint Configuration Manager 사용](windows10-deploy-inplaceupgrade.md) | Windows 7 또는 Windows 8.1 컴퓨터를 <a href="https://aka.ms/windows-10-release-information" target="_blank">현재 버전</a> 의 Windows 10 Enterprise로 업그레이드 해야 하 고 컴퓨터가 현재 <a href="https://docs.microsoft.com/configmgr/core/understand/introduction" target="_blank">Configuration Manager (현재 분기)</a>를 사용 하 여 관리 되는 경우이 옵션을 선택 합니다. |
+| [현재 위치 업그레이드로 Microsoft Endpoint Configuration Manager 사용](windows10-deploy-inplaceupgrade.md) | Windows 7 또는 Windows 8.1 컴퓨터를 <a href="https://aka.ms/windows-10-release-information" target="_blank">현재 버전</a> 의 Windows 10 Enterprise로 업그레이드 해야 하 고 컴퓨터가 현재 <a href="https://docs.microsoft.com/mem/configmgr/core/understand/introduction" target="_blank">Configuration Manager (현재 분기)</a>를 사용 하 여 관리 되는 경우이 옵션을 선택 합니다. |
 | [Windows Autopilot 사용](windows10-deploy-autopilot.md) | Windows 10 Enterprise, 버전 1703 이상 사전 설치 된 새 Windows 컴퓨터를 설정 하는 경우이 옵션을 선택 합니다. 최종 사용자는 회사 또는 학교 계정 자격 증명을 입력 하 여 원하는 구성을 사용 하 여 설치 프로그램을 시작 합니다. |
 
 이러한 배포 시나리오가 조직의 요구 사항에 적합 하지 않은 경우에는 다른 시나리오에 대해 알아보고 [Windows 10 배포 시나리오](https://docs.microsoft.com/windows/deployment/windows-10-deployment-scenarios)에서 각각의 기능과 제한 사항을 이해할 수 있습니다. 직접 <a href="https://aka.ms/planforwin10deployment" target="_blank">Windows 10 배포를 계획</a>할 수도 있습니다.

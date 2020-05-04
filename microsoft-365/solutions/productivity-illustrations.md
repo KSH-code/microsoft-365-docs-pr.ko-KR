@@ -14,12 +14,12 @@ ms.collection:
 ms.custom:
 - M365solutions
 f1.keywords: NOCSH
-ms.openlocfilehash: 53b5bc1bad9a67543fccaa8dcb3223307d2634b9
-ms.sourcegitcommit: 101084f9c81616342d78493232d8f13f5ffa4ddf
+ms.openlocfilehash: 8b792fa659866682df32130992340d9089aebfe7
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "44003137"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011854"
 ---
 # <a name="microsoft-365-productivity-illustrations"></a>Microsoft 365 생산성 일러스트레이션
 
@@ -124,12 +124,12 @@ Microsoft는 Microsoft 클라우드에서 팀을 처음 경험할 때 몇 가지
 <a name="msd"></a>
 ### <a name="deploy-a-modern-and-secure-desktop-with-microsoft"></a>Microsoft와 함께 안전한 최신 데스크톱 배포
 
-IT 개발자는 Windows 10에 Office 365 ProPlus 업데이트를 배포하고 관리하는 방법을 알아야 합니다.
+Windows 10에서는 IT 설계자가 365 Office 용 Microsoft 365 앱 용 업데이트 배포 및 관리에 대해 알아야 하는 정보 (이전 명칭
   
 
 |**항목**|**설명**|
 |:-----|:-----|
-|[![Microsoft 모델을 사용한 최신 보안 데스크톱 배포에 대한 미리 보기](../media/solutions-architecture-center/deploy-modern-desktop-thumb.png)](https://www.microsoft.com/download/details.aspx?id=55987) <br/> [PDF](https://download.microsoft.com/download/4/E/9/4E90E227-770A-41D1-99FE-925A64D81A55/MSFT_modern_secure_desktop.pdf)  \| [Visio](https://download.microsoft.com/download/4/E/9/4E90E227-770A-41D1-99FE-925A64D81A55/MSFT_modern_secure_desktop.vsdx) <br/>2017 년 9 월 업데이트 | 이 모델에는 다음이 포함됩니다. <ul><li>  Microsoft 클라우드에서 Windows 10 및 Office ProPlus 배포 </li><li>  Microsoft Endpoint Configuration Manager를 사용하여 Windows 10 및 Office ProPlus 배포 </li><li>  Microsoft 클라우드에서 Windows 10 및 Office ProPlus 업데이트 관리 </li><li>  Microsoft Endpoint Configuration Manager를 사용하여 Windows 10 및 Office ProPlus에 대한 업데이트 관리 </li><li>  Windows 10의 기본 및 추가 보호 기능 </li></ul><br/> |
+|[![Microsoft 모델을 사용한 최신 보안 데스크톱 배포에 대한 미리 보기](../media/solutions-architecture-center/deploy-modern-desktop-thumb.png)](https://www.microsoft.com/download/details.aspx?id=55987) <br/> [PDF](https://download.microsoft.com/download/4/E/9/4E90E227-770A-41D1-99FE-925A64D81A55/MSFT_modern_secure_desktop.pdf)  \| [Visio](https://download.microsoft.com/download/4/E/9/4E90E227-770A-41D1-99FE-925A64D81A55/MSFT_modern_secure_desktop.vsdx) <br/>2017 년 9 월 업데이트 | 이 모델에는 다음이 포함됩니다. <ul><li>  Microsoft 클라우드에서 Windows 10 및 Microsoft 365 Apps for enterprise를 배포 하는 중 </li><li>  Microsoft Endpoint Configuration Manager를 사용 하 여 Windows 10 및 Microsoft 365 Apps for enterprise 배포 </li><li>  Microsoft 클라우드에서 Windows 10 및 Microsoft 365 for enterprise 용 업데이트 관리 </li><li>  Microsoft Endpoint Configuration Manager를 사용 하 여 Windows 10 및 Microsoft 365 for enterprise 용 업데이트 관리 </li><li>  Windows 10의 기본 및 추가 보호 기능 </li></ul><br/> |
    
 ## <a name="see-also"></a>참고 항목
 

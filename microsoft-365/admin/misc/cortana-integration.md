@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 7257cb50-0d5c-4f7a-ac2e-9fe5d13bb5cb
 description: 'Office 365와 통합 된 경우 Cortana를 사용 하는 방법에 대해 알아봅니다. 관리 센터에서 Cortana를 해제 하 여 조직의 데이터에 대 한 액세스를 제한할 수 있습니다. '
-ms.openlocfilehash: 768abeed4bf40255e9dd7c6e09e20122523a943d
-ms.sourcegitcommit: c758a4290d205394225a0df2fd667cb565c79c8f
+ms.openlocfilehash: 5f1d225e8cf7378bf4548fbbc705cf4ca6c2c63b
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43907216"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011690"
 ---
 # <a name="cortana-in-office-365"></a>Office 365의 Cortana
 
@@ -106,7 +106,7 @@ Cortana가 사용자가 설정한 브리핑 전자 메일을 **완료** 됨으�
 
 3. 예를 들어 전자 메일 재생은 사용자가 iOS 용 Outlook을 통해 연결 하 고 Office 365에서 Cortana를 이용 하는 Cortana 서비스입니다.
 
-4. 관리자는 Office ProPlus 응용 프로그램을 사용 하는 동안 선택적으로 연결 되는 기능과 마찬가지로 Cortana에 대 한 선택적 연결 된 환경에 대 한 컨트롤을 항상 보유 합니다
+4. 관리자는 항상 Cortana에 대 한 선택적 연결 된 환경, 즉 엔터프라이즈 응용 프로그램에 대해 Microsoft 365 앱을 사용 하는 동안 선택적으로 연결 된 환경에 대 한 제어를 제공
 
 **기존 서비스**: Cortana 선택적 연결 된 서비스는 기본적으로 사용자 환경에 맞게 만들어졌으며, 현재 Windows 10 (버전 1909 이상) 및 IOS 및 Android의 Cortana 앱으로 제공 됩니다.
 

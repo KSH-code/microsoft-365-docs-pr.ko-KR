@@ -5,12 +5,12 @@ keywords: Microsoft Managed Desktop, Microsoft 365, 서비스, 문서
 ms.service: m365-md
 author: jaimeo
 ms.localizationpriority: normal
-ms.openlocfilehash: 86bec329c5e0793be070df311d6058282e7be854
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 0df3f6d2636a277bdca12e7d76279c4c58c9f1d4
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636223"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011914"
 ---
 # <a name="what-is-microsoft-managed-desktop"></a>Microsoft Managed Desktop이란 무엇인가요?
 
@@ -53,7 +53,7 @@ IT 관리자는 다음과 같은 기능을 활용 합니다.
 Microsoft Managed Desktop은 등록 된 장치 및 사용 하는 Microsoft 소프트웨어를 관리 하는 부담을 받습니다.
 
 - **하드웨어:** IT 부서에서 장치 (및 해당 드라이버)를 조사 하 고 테스트 해야 하는 경우에는 특정 장치가 Microsoft 관리 데스크톱에서 신중한 테스트를 거친 후에는 맞게 조정 된를 사용 하 여 엔터프라이즈 수준의 성능 요구 사항을 충족 하 고 서비스와 함께 사용할 수 있는 [장치 목록을](../service-description/device-list.md) 만듭니다. 장치를 직접 구하거 나 파트너와 함께 작업 하거나 이미 사용 중인 장치를 다시 사용할 수 있습니다 (승인 된 목록에 있는 경우). 장치를 등록 하는 작업은 간단 하 고 간편 하며 배포 하기 전에 최종 사용자에 대해 디바이스 환경의 특정 측면을 [사용자 지정할](../working-with-managed-desktop/config-setting-overview.md) 수도 있습니다.
-- **업데이트:** Microsoft Managed Desktop은 Windows 10 품질 및 기능 업데이트, 드라이버, 펌웨어, 바이러스 백신 정의 및 Office ProPlus 업데이트에 대 한 모든 [배포 그룹](../service-description/updates.md) 의 모든 측면을 설정 하 고 관리 합니다. 여기에는 모든 업데이트에 대 한 광범위 한 테스트 및 확인, 등록 된 장치가 항상 최신 상태를 유지 하 고 중단을 최소화 하 여 해당 지속적인 작업 으로부터 IT 부서가 확보 되도록 합니다.
+- **업데이트:** Microsoft Managed Desktop은 Windows 10 품질 및 기능 업데이트, 드라이버, 펌웨어, 바이러스 백신 정의 및 엔터프라이즈 업데이트용 Microsoft 365 앱에 대 한 모든 [배포 그룹](../service-description/updates.md) 의 모든 측면을 설정 하 고 관리 합니다. 여기에는 모든 업데이트에 대 한 광범위 한 테스트 및 확인, 등록 된 장치가 항상 최신 상태를 유지 하 고 중단을 최소화 하 여 해당 지속적인 작업 으로부터 IT 부서가 확보 되도록 합니다.
 - **앱:** Microsoft 365 Enterprise의 일부로 Microsoft는 몇 가지 주요 Microsoft 앱을 제공 하 고 관리 합니다. 그러나 비즈니스에 필요한 다른 앱도 있을 것입니다. Microsoft는 IT 부서에서 이러한 앱을 테스트, 패키지 및 배포 하는 것을 지원 하 고, 필요한 경우 [데스크톱 앱](https://docs.microsoft.com/fasttrack/win-10-desktop-app-assure) 이 제공 하는 데 도움을 받을 수 있습니다. 자세한 내용은 [Microsoft Managed Desktop의 앱](../get-ready/apps.md)을 확인 하세요.
 
 

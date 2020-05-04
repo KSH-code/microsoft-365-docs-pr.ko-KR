@@ -20,12 +20,12 @@ search.appverid:
 description: Microsoft 365 관리 센터-이 달에 추가 된 기능에 대해 알아봅니다.
 ms.custom:
 - MACDashWhatsNew
-ms.openlocfilehash: bd701f8ea2a6187f73fff91ea1ca2ccf2641f6e3
-ms.sourcegitcommit: 9d8816ddc3a97676ff947db80265e47b734f5462
+ms.openlocfilehash: 2b25e68fbe07b46243f92bdcd252e86340d5f7eb
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43952654"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011330"
 ---
 # <a name="whats-new-in-the-microsoft-365-admin-center"></a>Microsoft 365 관리 센터의 새로운 기능
 
@@ -289,7 +289,7 @@ Ignite 2019의 몇 가지 흥미로운 기능 릴리스에 대 한 램프는 몇
 
 이번 달에는 다음과 같은 청구 및 구독 업데이트가 있습니다.
 
-- 장치 기반 구독: Microsoft 365 관리 센터의 장치에 **대해 교육 (장치) 라이선스에 대 한 Office 365 ProPlus** 를 할당 하거나 할당을 해제할 수 있습니다. **Office 365 ProPlus For 교육용 (장치)** 은 장치에 라이선스를 할당 하는 데 사용할 수 있는 추가 기능 라이선스입니다. **청구** > **제품 & 서비스로** 이동 하 여 라이선스를 찾고 구입 합니다.
+- 장치 기반 구독: Microsoft 365 관리 센터의 장치에 **대해 교육 (장치) 라이선스에 대 한 Microsoft 365 앱** 을 할당 하거나 할당 해제할 수 있습니다. **Microsoft 365 교육용 앱 (장치)** 은 장치에 라이선스를 할당 하는 데 사용할 수 있는 추가 기능 라이선스입니다. **청구** > **제품 & 서비스로** 이동 하 여 라이선스를 찾고 구입 합니다.
 - 사용자 기반 라이선스 관리: **사용자** > **활성 사용자** 의 라이선스를 새 스타일에 할당 하는 방법을 업데이트 했습니다. 자세한 내용은 다음을 참조하세요.
   - [사용자에게 라이선스 할당](manage/assign-licenses-to-users.md)
   - [사용자의 라이선스 할당 취소](manage/remove-licenses-from-users.md)

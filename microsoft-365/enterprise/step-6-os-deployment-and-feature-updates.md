@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: OS 배포 및 기능 업데이트를 위한 옵션을 알아봅니다.
-ms.openlocfilehash: d22a0993b256a1bea1a6a5ac61f14b144c6ac6c7
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: f372c41b113286d4ecff679f16581200264a9bdd
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636762"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011630"
 ---
 # <a name="step-6-os-deployment-and-feature-updates"></a>6단계: 운영 체제 배포 및 기능 업데이트
 
@@ -57,7 +57,7 @@ ms.locfileid: "43636762"
 
 [Windows 10 참조 이미지 만들기](https://docs.microsoft.com/windows/deployment/deploy-windows-mdt/create-a-windows-10-reference-image)
 
-[운영 체제를 설치하는 작업 시퀀스 만들기](https://docs.microsoft.com/configmgr/osd/deploy-use/create-a-task-sequence-to-install-an-operating-system)
+[운영 체제를 설치하는 작업 시퀀스 만들기](https://docs.microsoft.com/mem/configmgr/osd/deploy-use/create-a-task-sequence-to-install-an-operating-system)
 
 ### <a name="deployment-types"></a>배포 유형
 
@@ -89,7 +89,7 @@ ms.locfileid: "43636762"
 
 [Configuration Manager를 사용하여 Windows 10으로의 현재 위치 업그레이드 수행](https://docs.microsoft.com/windows/deployment/upgrade/upgrade-to-windows-10-with-system-center-configuraton-manager)
 
-[Configuration Manager에서 OS를 업그레이드하는 작업 시퀀스 만들기](https://docs.microsoft.com/configmgr/osd/deploy-use/create-a-task-sequence-to-upgrade-an-operating-system)
+[Configuration Manager에서 OS를 업그레이드하는 작업 시퀀스 만들기](https://docs.microsoft.com/mem/configmgr/osd/deploy-use/create-a-task-sequence-to-upgrade-an-operating-system)
 
 ### <a name="phased-deployment"></a>단계별 배포
 
@@ -101,7 +101,7 @@ ms.locfileid: "43636762"
 
 선택하는 배포 유형에 관계없이, 예측 가능성 및 반복 가능성을 위해 가능한 한 자동화될 수 있는지 확인할 수 있습니다. Microsoft는 자동화된 작업 시퀀스를 사용하여 OS 배포를 자동화하기 위한 다음 두 가지 솔루션을 제공합니다.
 
-  - **[Microsoft Endpoint Configuration Manager](https://docs.microsoft.com/configmgr/core/understand/introduction)**(ConfigMgr)는 소프트웨어 배포 및 소프트웨어 업데이트 관리를 위한 기능을 보완하기 위해 기본 제공 운영 체제 소프트웨어 배포 기능을 제공합니다. ConfigMgr은 모든 규모의 조직에서 광범위하게 사용되며, 4가지 Windows 배포 유형을 모두 지원합니다. 필요에 따라 Microsoft Intune에 ConfigMgr을 통합하여 배포 및 장치 관리를 위한 추가 기능을 추가할 수 있습니다.
+  - **[Microsoft Endpoint Configuration Manager](https://docs.microsoft.com/mem/configmgr/core/understand/introduction)**(ConfigMgr)는 소프트웨어 배포 및 소프트웨어 업데이트 관리를 위한 기능을 보완하기 위해 기본 제공 운영 체제 소프트웨어 배포 기능을 제공합니다. ConfigMgr은 모든 규모의 조직에서 광범위하게 사용되며, 4가지 Windows 배포 유형을 모두 지원합니다. 필요에 따라 Microsoft Intune에 ConfigMgr을 통합하여 배포 및 장치 관리를 위한 추가 기능을 추가할 수 있습니다.
 
   - 또한 인기 있는 다른 배포 옵션 중 하나는 무료 **[Microsoft Deployment Toolkit](https://docs.microsoft.com/windows/deployment/deploy-windows-mdt/get-started-with-the-microsoft-deployment-toolkit)**(MDT)으로, 일반적으로 중소기업이 OS 배포에 사용합니다. 이 도구 키트에는 약간의 인프라만 필요합니다. MDT는 네트워크 부을 위해 WDS(Windows 배포 서비스)와 통합됩니다. 4가지 배포 유형과 응용 프로그램, 드라이버 및 설정 설치를 모두 지원합니다. 또한 MDT를 Configuration Manager와 통합할 수도 있습니다.
 

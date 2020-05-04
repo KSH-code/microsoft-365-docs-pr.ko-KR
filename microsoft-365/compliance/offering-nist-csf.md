@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: b380604e908d91feacefe6b54ed3d3f08dcea0fa
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 49eb9ae31ab913be30b2b96735f15ae57e85a10f
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637800"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011235"
 ---
 # <a name="national-institute-of-standards-and-technology-nist-cybersecurity-framework-csf"></a>국내 표준 협회 및 기술 (NIST) Cybersecurity Framework (CSF)
 
@@ -64,7 +64,7 @@ Cybersecurity는 디지털 변환 연대의 중요 관리 문제를 그대로 �
 
 - [준수 점수 사용 시작](compliance-score.md)
 
-## <a name="frequently-asked-questions"></a>자주하는 질문
+## <a name="frequently-asked-questions"></a>자주 묻는 질문
 
 **Azure 정부, Dynamics 365 및 Office 365 지원 NIST CSF 요구 사항에 대 한 독립적인 평가자 확인 해야 하나요?**
 
@@ -88,7 +88,7 @@ FICIC에 참가 하는 것은 자발적입니다. 그러나 Microsoft는 Azure, 
 
 **Office 365의 범위 내 서비스는 무엇 인가요?**
 
-NIST CSF 인증의 범위 내 서비스는 Exchange Online, Exchange online Protection, exchange Online, 비즈니스용 Skype, 관리 센터, SharePoint Online, Project Online, 비즈니스용 OneDrive, office Online, MyAnalytics, Microsoft 팀, office ProPlus, office 365 다중 테 넌 트 클라우드 및 Office 365 GCC입니다.
+NIST CSF 인증의 범위 내 서비스는 Exchange Online, Exchange online Protection, exchange Online, 비즈니스용 Skype, 관리 센터, SharePoint Online, Project Online, 비즈니스용 OneDrive, office Online, Microsoft 팀, Office 365 다중 테 넌 트 클라우드 및 Office 365 GCC의 Microsoft 365 Apps for enterprise for Business
 
 > [!NOTE]
 > Microsoft 365 enterprise 용 앱을 사용 하면 로밍 설정, 라이선스 및 OneDrive 소비자 클라우드 저장소와 같은 다양 한 클라우드 서비스에 액세스할 수 있으며 나중에 추가 클라우드 서비스에 대 한 액세스를 사용 하도록 설정할 수 있습니다. 로밍 설정 및 라이선스는 HITRUST에 대 한 표준을 지원 합니다. OneDrive 소비자 클라우드 저장소와 함께 제공 되지 않으며 Microsoft 365 앱을 통해 액세스할 수 있는 기타 클라우드 서비스 및 Microsoft에서 향후에 제공할 수도 있는 기타 클라우드의 서비스가 이러한 표준을 지원 하지 않을 수도 있습니다. *

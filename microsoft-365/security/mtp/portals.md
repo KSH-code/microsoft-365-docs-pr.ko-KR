@@ -14,12 +14,12 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: fe98df2c64bca36bc44c30bddb8b5e53d25aa6a5
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: ac1491a9257ff7169c0e2a10b014897d47a5d14b
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634559"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011842"
 ---
 # <a name="microsoft-security-portals-and-admin-centers"></a>Microsoft 보안 포털 및 관리 센터
 [Microsoft 365 보안 센터가](overview-security-center.md) id, 데이터, 장치 및 앱 간의 보안을 모니터링 하 고 관리 하는 새로운 홈 인 반면, 특정 특수 작업을 위해 다양 한 포털에 액세스 해야 합니다.
@@ -52,5 +52,5 @@ ms.locfileid: "43634559"
 | Azure 포털 | [Azure Active Directory](https://docs.microsoft.com/azure/active-directory/fundamentals/active-directory-whatis) 및 모든 [azure 리소스](https://docs.microsoft.com/azure/azure-resource-manager/management/overview) 보기 및 관리  | [portal.azure.com](https://portal.azure.com/) |
 | Microsoft 365 규정 준수 센터 | 데이터 처리 정책 관리 및 [규정 준수](https://docs.microsoft.com/microsoft-365/compliance/offering-home?view=o365-worldwide) 확인 | [compliance.microsoft.com](https://compliance.microsoft.com/) |
 | Microsoft 365 관리 센터 | Microsoft 365 서비스를 구성 합니다. Microsoft 365 서비스에 대 한 역할, 라이선스 및 추적 업데이트 관리 | [admin.microsoft.com](https://admin.microsoft.com/) |
-| Microsoft Endpoint Manager 관리 센터 | 결합 된 Intune 및 Configuration Manager 기능을 사용 하 여 [Microsoft Endpoint Manager](https://docs.microsoft.com/configmgr/) 를 사용 하 여 장치 관리 및 보호 | [devicemanagement.microsoft.com](https://devicemanagement.microsoft.com/) |
+| Microsoft 끝점 관리자 관리 센터 | 결합 된 Intune 및 Configuration Manager 기능을 사용 하 여 [Microsoft Endpoint Manager](https://docs.microsoft.com/mem/configmgr/) 를 사용 하 여 장치 관리 및 보호 | [devicemanagement.microsoft.com](https://devicemanagement.microsoft.com/) |
 | Microsoft Intune 포털 | [Microsoft Intune](https://docs.microsoft.com/intune/fundamentals/what-is-intune) 을 사용 하 여 장치 정책 배포 및 준수에 대 한 장치 모니터링 | [portal.azure.com/#blade/Microsoft_Intune_DeviceSettings](https://portal.azure.com/#blade/Microsoft_Intune_DeviceSettings/ExtensionLandingBlade/overview)

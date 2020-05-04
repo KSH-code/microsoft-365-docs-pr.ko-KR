@@ -18,12 +18,12 @@ search.appverid:
 - MOE150
 ms.assetid: 77ff780d-ab19-4553-adea-09cb65ad0f1f
 description: 조직이 Microsoft 365 서비스를 채택 하 여 통신 및 공동 작업 하는 방법에 대 한 개요를 확인 하세요.
-ms.openlocfilehash: 783b2c599a5f3a31446855450029859e6dfd9f65
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 3e74160cc2e30dc9337e0203fd82ced98869faf7
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43626937"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011762"
 ---
 # <a name="microsoft-365-usage-analytics"></a>Microsoft 365 사용 현황 분석
 ---
@@ -71,7 +71,7 @@ Microsoft 365 개요 보고서에는 다음 보고서가 포함 되어 있습니
 
 정품 인증 및 사용권 페이지에서는 Microsoft 365 정품 인증에 대 한 보고서를 제공 합니다. 즉, Office 앱을 다운로드 하 고 활성화 한 사용자 수와 조직에서 할당 한 라이선스 수를 결정 합니다. 위쪽을 향하는 월 값은 현재 달을 참조 하 고, 메트릭은 해당 월의 시작에서 현재 날짜로 집계 된 값을 반영 합니다.
 
-- 조직의 **정품 인증** &ndash; 추적 서비스 계획 (예: Microsoft 365 ProPlus, Project 및 Visio) 정품 인증 Office 라이선스를 보유한 각 사용자는 최대 5대의 장치에 제품을 설치할 수 있습니다. 이 섹션의 보고서를 사용 하 여 사용자가 Office 앱을 설치한 장치를 볼 수도 있습니다. 계획을 활성화 하려면 사용자가 앱을 설치 하 고 해당 계정으로 로그인 해야 합니다.
+- **정품 인증** &ndash; 트랙 서비스 계획 (예: 조직의 엔터프라이즈, 프로젝트 및 Visio 용 Microsoft 365 Apps) 정품 인증 Office 라이선스를 보유한 각 사용자는 최대 5대의 장치에 제품을 설치할 수 있습니다. 이 섹션의 보고서를 사용 하 여 사용자가 Office 앱을 설치한 장치를 볼 수도 있습니다. 계획을 활성화 하려면 사용자가 앱을 설치 하 고 해당 계정으로 로그인 해야 합니다.
 
 - **라이선스** &ndash; 이 보고서에는 라이선스 유형의 개요, 각 라이선스 유형이 할당 된 사용자 수 및 매달의 라이선스 할당 분포가 포함 되어 있습니다. 위쪽을 향하는 월 값은 현재 달을 참조 하 고, 메트릭은 해당 월의 시작에서 현재 날짜로 집계 된 값을 반영 합니다.
 
