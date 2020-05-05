@@ -19,12 +19,12 @@ ms.topic: conceptual
 search.appverid:
 - MOE150
 - MET150
-ms.openlocfilehash: 0bb91f226a29fe6b175cf1ca4866316d1457291e
-ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
+ms.openlocfilehash: 394fceffb96350b7702c5eef4a8138b3eb53f714
+ms.sourcegitcommit: 997f6227f33c3683ade9672e881d09216df22ee9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/04/2020
-ms.locfileid: "44011866"
+ms.locfileid: "44016077"
 ---
 # <a name="turn-on-microsoft-threat-protection"></a>Microsoft Threat Protection 사용 설정
 
@@ -45,9 +45,6 @@ Microsoft Threat Protection을 켜려면 **전역 관리자** 이거나 Azure Ac
 
 ## <a name="start-using-the-service"></a>서비스 사용 시작
 
->[!IMPORTANT]
->5 월 3 일 시작, 2020 Microsoft는 [라이선스 요구](prerequisites.md#licensing-requirements) 에 따라 최적화 된 새 환경을 점진적으로 배포 하 고 Microsoft Threat Protection을 설정 합니다. 이 기간 중 몇 주 동안 일부 고객은 포털 환경에 대 한 변경 내용을 확인 하기 시작 합니다. 새로운 환경에 대 한 정보는이 문서의 **새로운 환경** 으로 표시 됩니다.
-
 Microsoft Threat Protection은 다양 한 통합 서비스에서 데이터를 집계 합니다. 새 정보를 식별 하 고 중앙 집중식 응답 워크플로를 수행할 수 있도록 중앙에서 데이터를 처리 및 저장 합니다. 통합 서비스와 연결 된 기존 배포, 설정 또는 데이터에 영향을 주지 않고이를 수행 합니다.
 
 서비스를 설정 하기 전에 Microsoft 365 보안 센터 ([security.microsoft.com](https://security.microsoft.com))는 탐색 창에서 **인시던트**, **작업 센터** **또는 검색** 을 선택할 때 microsoft 위협 보호 시작 페이지를 표시 합니다. 이러한 탐색 옵션은 Microsoft Threat Protection을 사용할 수 없는 경우에는 표시 되지 않습니다.
@@ -64,8 +61,6 @@ Microsoft Threat Protection을 설정 하려면 환영 페이지에서 프로세
 Microsoft Defender ATP가 조직에 프로비전된 경우 [Microsoft Defender ATP 데이터](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/data-storage-privacy)를 위해 선택한 것과 동일한 데이터 센터 위치에 데이터가 저장되고 처리됩니다. Microsoft Defender ATP가 없는 경우 Microsoft Threat Protection를 위한 새로운 데이터 센터 위치를 선택하라는 메시지가 표시됩니다. 
  
 서비스 간에 데이터를 공유 하 고 집계 하기 전에 동의를 제공 해야 합니다.
-
-**새로운 환경:** 5 월 3 일 시작, 2020-고객이 이러한 환경에 대 한 변경 내용을 점차적으로 받게 됩니다. 새 환경을 사용 하는 사용자의 경우 서비스에서는 기존 Microsoft 365 보안 서비스를 기반으로 집계 된 데이터에 대해 최적의 데이터 센터 위치를 자동으로 선택 합니다. 선택한 데이터 센터 위치가 화면에 표시 됩니다.
 
 ### <a name="confirm-that-the-service-is-on"></a>서비스가 켜져 있는지 확인합니다.
 서비스를 프로비전하면 다음이 추가됩니다.

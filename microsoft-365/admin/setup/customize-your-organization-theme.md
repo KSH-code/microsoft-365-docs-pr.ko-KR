@@ -2,8 +2,8 @@
 title: 조직의 테마 사용자 지정
 f1.keywords:
 - CSH
-ms.author: twerner
-author: twernermsft
+ms.author: kwekua
+author: kwekua
 manager: scotv
 audience: Admin
 ms.topic: article
@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 8275da91-7a48-4591-94ab-3123a3f79530
 description: 'Microsoft 365의 기본 테마를 변경 하 고 회사 로고나 색과 일치 하도록 사용자 지정 하는 방법을 알아봅니다. '
-ms.openlocfilehash: 06b247da1a8ac1f330f2ad36c8b29897963819f3
-ms.sourcegitcommit: b6c4b514b2cb6739af949780d7e2a5a5c8dcc161
+ms.openlocfilehash: cfde26e2b7f6d74a59b7431091fbc3c2f6049ec6
+ms.sourcegitcommit: 44e685a0b193e89de5befb1e1a3740eb31931799
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43900777"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44022123"
 ---
 # <a name="customize-the-microsoft-365-theme-for-your-organization"></a>조직에 대 한 Microsoft 365 테마 사용자 지정
 

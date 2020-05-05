@@ -20,12 +20,12 @@ search.appverid:
 - GEA150
 ms.assetid: a36e5a52-4df2-479e-bb97-9e67b8483e10
 description: 조직 이름, 주소, 전화, 기술 담당자 및 전자 메일과 같은 조직 프로필을 변경 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 59c429a8460d16f2c636beeaf571689d33b400d5
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 94f2c875a9373675fd044db7b73251cefe859647
+ms.sourcegitcommit: 997f6227f33c3683ade9672e881d09216df22ee9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43628223"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44016017"
 ---
 # <a name="change-your-organizations-address-technical-contact-and-more"></a>조직 주소, 기술 담당자 등 변경
   
@@ -52,7 +52,7 @@ ms.locfileid: "43628223"
 
 |**필드**  |**설명**  |
 |---------|---------|
-|이름  <br/>   | 여기에 입력된 이름은 다음 페이지에서 사용자에게 표시됩니다.  <br/>  로그인 페이지: 사용자가 회사 또는 학교 전자 메일 주소를 사용하여 다른 Microsoft 계정을 설정했을 경우 로그인 페이지에 조직 이름이 표시될 수 있습니다. 그러면 회사 또는 학교 계정과 다른 계정을 손쉽게 구분할 수 있으므로 로그인할 때 사용할 계정을 식별할 수 있습니다.  <br/>  조직 프로필 링크 및 페이지: 조직 프로필의 링크에 조직 이름이 표시됩니다.  <br/>  Yammer 탐색: Yammer에서 왼쪽 탐색 창에는 홈 Yammer 네트워크의 이름으로 조직 이름이 사용 됩니다.  <br/> OneDrive 동기화 클라이언트: 조직의 이름이 Windows의 파일 탐색기 및 Mac의 파일 경로, OneDrive 활동 센터, OneDrive 클라우드 아이콘의 도구 설명 및 OneDrive 설정 창에 표시 됩니다. 현재 조직 이름을 업데이트 하면 구성 된 클라이언트에 대해 조직이 업데이트 되지 않습니다. <br/>        |
+|이름  <br/>   | 여기에 입력된 이름은 다음 페이지에서 사용자에게 표시됩니다.  <br/>  로그인 페이지: 사용자가 회사 또는 학교 전자 메일 주소를 사용하여 다른 Microsoft 계정을 설정했을 경우 로그인 페이지에 조직 이름이 표시될 수 있습니다. 그러면 회사 또는 학교 계정과 다른 계정을 손쉽게 구분할 수 있으므로 로그인할 때 사용할 계정을 식별할 수 있습니다.  <br/>  조직 프로필 링크 및 페이지: 조직 프로필의 링크에 조직 이름이 표시됩니다.  <br/>  Yammer 탐색: Yammer에서 왼쪽 탐색 창에는 홈 Yammer 네트워크의 이름으로 조직 이름이 사용 됩니다.  <br/> OneDrive 동기화 클라이언트: 조직의 이름이 Windows의 파일 탐색기 및 Mac의 파일 경로, OneDrive 활동 센터, OneDrive 클라우드 아이콘의 도구 설명 및 OneDrive 설정 창에 표시 됩니다. 현재 조직 이름을 업데이트 하면 구성 된 클라이언트에 대해 조직이 업데이트 되지 않습니다. <br/> MS 팀: 팀의 조직 전환기 조직 이름을 표시 합니다. <br/>  |
 |주소, 구/군/시, 시/도, 우편 번호  <br/>     | 여기에 입력 하는 주소는 청구서에 표시 되는 것 이며, 청구서에 판매 되는 주소는 프로필 페이지의 조직 주소와 같습니다 ( [Microsoft for business 365에 대 한 청구서 이해](../../commerce/billing-and-payments/understand-your-invoice2.md)참조).  <br/>        |
 |국가 또는 지역  <br/>    | 회사의 본사가 있는 국가 또는 지역입니다. 선택한 국가 또는 지역은 사용 가능한 서비스, 해당 국가 또는 지역의 세금 및 대금 청구 통화, 가장 가까운 데이터 센터의 위치를 결정합니다( [Microsoft Office 라이선스 제한 사항](https://office.microsoft.com/redir/FX103037529) 참조).  <br/>참고: 한 번 선택 하면 국가 또는 지역을 변경할 수 없습니다. 선택을 변경하려면 구독을 취소하고 다시 등록해야 합니다. 이 프로세스에 대 한 도움이 필요 하면 [고객 지원에 문의 하세요](../contact-support-for-business-products.md).        |
 |전화  <br/>     | 회사의 기본 전화입니다. 일반적으로 회사 본사의 전화 번호를 말합니다.  <br/>        |

@@ -7,12 +7,12 @@ author: jaimeo
 ms.localizationpriority: normal
 ms.date: 03/07/2019
 ms.collection: M365-modern-desktop
-ms.openlocfilehash: 30374e603350ecf9d5e5542263f004a22ccb0a67
-ms.sourcegitcommit: 91ff1d4339f0f043c2b43997d87d84677c79e279
+ms.openlocfilehash: 450dbcb08cd0636dae575ecd2d5e9abadc5ceb25
+ms.sourcegitcommit: 44e685a0b193e89de5befb1e1a3740eb31931799
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 09/14/2019
-ms.locfileid: "36981709"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44022099"
 ---
 # <a name="install-microsoft-project-or-microsoft-visio-on-microsoft-managed-desktop-devices"></a>Microsoft Managed Desktop 장치에 Microsoft Project 또는 Microsoft Visio 설치
 
@@ -39,14 +39,13 @@ Microsoft Managed Desktop 장치에 특정 단계를 설치 해야 합니다. �
 
 Azure AD 그룹 이름 | 어떤 사용자를 지정 해야 하나요?   
  --- | ---
-현대 회사-사무실-Project_Install | 프로젝트만 필요한 사용자
-현대 회사-사무실-Visio_Install | Visio만 필요한 사용자
-현대 회사-사무실-Visio_Project_Install | 프로젝트 및 Visio가 필요한 사용자
+현대 회사-사무실-Project_Install | Project가 필요한 사용자
+현대 회사-사무실-Visio_Install | Visio가 필요한 사용자
 
 이러한 그룹에 할당 되 면 회사 포털에서 응용 프로그램을 사용할 수 있습니다. 동기화 하는 데 몇 분 정도 걸릴 수 있지만 사용자가 회사 포털에서 앱을 설치할 수 있습니다. 
 
 ## <a name="communicate-changes"></a>변경 내용 전달
-IT 관리자는 사용자에 게 프로젝트 및 Visio 설치 방법을 알려 주는 것이 중요 합니다. 성능 저하를 줄여주는 방법에는 다음이 포함됩니다. 
+IT 관리자는 사용자에 게 프로젝트 및 Visio 설치 방법을 알려 주는 것이 중요 합니다. 여기에는 다음이 포함됩니다. 
 - 사용자에 게 이러한 응용 프로그램을 사용할 수 있는 시기를 알립니다. 
 - 회사 포털에서 이러한 응용 프로그램을 설치 하는 방법에 대 한 지침입니다.
 

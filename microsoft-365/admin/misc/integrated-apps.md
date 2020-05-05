@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 ms.assetid: 7e453a40-66df-44ab-92a1-96786cb7fb34
 description: 타사 앱이 사용자의 Microsoft 365 정보에 액세스할 수 있도록 하기 위해 통합 된 앱과이를 켜는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 7e758facda49bb63e09c9ec667522c2b20fa75bd
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 2e292afc4ab33eef1ace91808f93588b9cec4702
+ms.sourcegitcommit: 44e685a0b193e89de5befb1e1a3740eb31931799
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627851"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44022111"
 ---
 # <a name="turning-integrated-apps-on-or-off"></a>통합 앱 설정 또는 해제
 
@@ -35,7 +35,7 @@ ms.locfileid: "43627851"
 
 통합 앱을 설정 또는 해제하는 방법은 다음과 같습니다.
 
-1. Microsoft 365 관리 센터에서 **설정** \> [서비스 &amp; 추가 기능](https://go.microsoft.com/fwlink/p/?linkid=2053743) 페이지로 이동한 후 **통합 앱**을 선택 합니다.
+1. Microsoft 365 관리 센터에서 **설정** \> **설정** 페이지 \> 의 **서비스** 탭으로 이동한 후 **통합 앱**을 선택 합니다.
 
 2. **통합 앱** 페이지에서 통합 앱을 설정 하거나 해제 하는 옵션을 선택 합니다.
 

@@ -1,9 +1,9 @@
 ---
 title: Microsoft 365에서 위협 보호 기능 배포
 description: Microsoft 365 E5에서 위협 보호 기능을 배포 하는 방법을 알아봅니다.
-ms.author: samanro
-author: samanro
-manager: bcarter
+ms.author: bcarter
+author: brendacarter
+manager: dansimp
 ms.audience: ITPro
 ms.topic: article
 ms.prod: microsoft-365-enterprise
@@ -13,12 +13,12 @@ ms.collection:
 ms.custom:
 - M365solutions
 f1.keywords: NOCSH
-ms.openlocfilehash: b04e34c946e2e73c2d9c34f5de881618444e3892
-ms.sourcegitcommit: 101084f9c81616342d78493232d8f13f5ffa4ddf
+ms.openlocfilehash: ff6854636c13e6c1ea40cf4cc6fa39d7b2b340b4
+ms.sourcegitcommit: 997f6227f33c3683ade9672e881d09216df22ee9
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "44003691"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44016099"
 ---
 # <a name="deploy-threat-protection-capabilities-across-microsoft-365"></a>Microsoft 365에서 위협 보호 기능 배포
 

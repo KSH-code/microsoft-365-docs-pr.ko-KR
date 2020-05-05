@@ -11,20 +11,20 @@
   items:
     - name: 개요
       href: foundation-solutions-overview.md
-    - name: Microsoft 365를 사용 하 여 원격 작업자에 게 권한 부여
+    - name: Microsoft 365를 사용하여 원격 작업자의 역량 강화하기
       href: empower-people-to-work-remotely.md
       items:
-        - name: 1단계. MFA를 사용 하 여 원격 작업자에 대 한 로그인 보안 강화
+        - name: 1단계. MFA를 사용하여 원격 작업자에 대 한 로그인 보안 강화
           href: empower-people-to-work-remotely-secure-sign-in.md
         - name: 2단계. 원격 액세스 제공
           href: empower-people-to-work-remotely-remote-access.md
-        - name: '3단계. 장치, Pc 및 기타 끝점에 대 한 끝점 관리 배포'
+        - name: '3단계. 장치, PC 및 기타 끝점에 대한 끝점 관리 기능 배포'
           href: empower-people-to-work-remotely-manage-endpoints.md
         - name: 4단계. 원격 작업자 생산성 앱 및 서비스 배포
           href: empower-people-to-work-remotely-teams-productivity-apps.md
-        - name: 5단계. COVID-19 위기 소통 공간 만들기
+        - name: 5단계. COVID-19 위기 소통 장소 만들기
           href: empower-people-to-work-remotely-communication-venues.md
-        - name: 6단계. 원격 작업자 및 주소 사용 피드백 교육
+        - name: 6단계. 원격 작업자 교육 및 사용 피드백 처리
           href: empower-people-to-work-remotely-train-monitor-usage.md
     - name: Microsoft 365을 사용한 보안 공동 작업 설정
       href: setup-secure-collaboration-with-teams.md
@@ -39,7 +39,7 @@
               href: configure-teams-sensitive-protection.md
             - name: 중요 한 보호 구성
               href: configure-teams-highly-sensitive-protection.md
-            - name: 보안 격리를 사용 하 여 팀 구성
+            - name: 보안 격리를 사용하여 팀 구성하기
               href: secure-teams-security-isolation.md
         - name: 외부 공유 구성
           items:
@@ -76,44 +76,44 @@
     - name: 팀 작업 및 공동 작업
       items:
         - name: 팀 아키텍처 포스터
-          href: 'https://docs.microsoft.com/MicrosoftTeams/teams-architecture-solutions-posters?toc=microsoft-365/solutions/toc.json&bc=microsoft-365/solutions/breadcrumb/toc.json'
+          href: 'https://docs.microsoft.com/MicrosoftTeams/teams-architecture-solutions-posters?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
         - name: 전화 통신 솔루션
           items:
             - name: 솔루션 선택
-              href: 'https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions?toc=microsoft-365/solutions/toc.json&bc=microsoft-365/solutions/breadcrumb/toc.json'
+              href: 'https://docs.microsoft.com/en-us/SkypeForBusiness/hybrid/msft-telephony-solutions?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
             - name: 국내 기업에 대 한 사례 연구
               href: null
         - name: Microsoft 365를 사용하여 SharePoint의 파일 공동 작업
-          href: 'https://docs.microsoft.com/sharepoint/deploy-file-collaboration?toc=microsoft-365/solutions/toc.json&bc=microsoft-365/solutions/breadcrumb/toc.json'
+          href: 'https://docs.microsoft.com/sharepoint/deploy-file-collaboration?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
         - name: 지능형 SharePoint 인트라넷 계획
-          href: 'https://docs.microsoft.com/sharepoint/plan-intranet?toc=microsoft-365/solutions/toc.json&bc=microsoft-365/solutions/breadcrumb/toc.json'
+          href: 'https://docs.microsoft.com/sharepoint/plan-intranet?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
         - name: 엔터프라이즈에 대 한 OneDrive 가이드
-          href: 'https://docs.microsoft.com/en-us/onedrive/plan-onedrive-enterprise?toc=microsoft-365/solutions/toc.json&bc=microsoft-365/solutions/breadcrumb/toc.json'
+          href: 'https://docs.microsoft.com/en-us/onedrive/plan-onedrive-enterprise?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
     - name: 보안
       items:
         - name: 가정에서의 작업을 지원 하기 위한 보안 팀을 위한 주요 작업
-          href: 'https://docs.microsoft.com/microsoft-365/security/top-security-tasks-for-remote-work?toc=microsoft-365/solutions/toc.json&bc=microsoft-365/solutions/breadcrumb/toc.json'
+          href: 'https://docs.microsoft.com/microsoft-365/security/top-security-tasks-for-remote-work?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
         - name: BDMs (비즈니스 의사 결정권자 용 Microsoft 365 security)
-          href: 'https://docs.microsoft.com/microsoft-365/security/microsoft-365-security-for-bdm?toc=microsoft-365/solutions/toc.json&bc=microsoft-365/solutions/breadcrumb/toc.json'
+          href: 'https://docs.microsoft.com/microsoft-365/security/microsoft-365-security-for-bdm?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
         - name: Microsoft Defender Advanced Threat Protection 배포
-          href: 'https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/deployment-phases?toc=microsoft-365/solutions/toc.json&bc=microsoft-365/solutions/breadcrumb/toc.json'
+          href: 'https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/deployment-phases?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
     - name: 규정 준수
       items:
         - name: GDPR을 위한 정보 보호
-          href: 'https://docs.microsoft.com/microsoft-365/compliance/office-365-information-protection-for-gdpr?toc=microsoft-365/solutions/toc.json&bc=microsoft-365/solutions/breadcrumb/toc.json'
+          href: 'https://docs.microsoft.com/microsoft-365/compliance/office-365-information-protection-for-gdpr?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
         - name: 규정 준수 조치 계획
           items:
             - name: ISO - 권장 실행 계획
-              href: 'https://docs.microsoft.com/microsoft-365/compliance/iso-action-plan?toc=microsoft-365/solutions/toc.json&bc=microsoft-365/solutions/breadcrumb/toc.json'
+              href: 'https://docs.microsoft.com/microsoft-365/compliance/iso-action-plan?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
             - name: NIST — 권장 실행 계획
-              href: 'https://docs.microsoft.com/microsoft-365/compliance/nist-action-plan?toc=microsoft-365/solutions/toc.json&bc=microsoft-365/solutions/breadcrumb/toc.json'
+              href: 'https://docs.microsoft.com/microsoft-365/compliance/nist-action-plan?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
             - name: CCPA - 자주 묻는 질문
-              href: 'https://docs.microsoft.com/microsoft-365/compliance/ccpa-faq?toc=microsoft-365/solutions/toc.json&bc=microsoft-365/solutions/breadcrumb/toc.json'
+              href: 'https://docs.microsoft.com/microsoft-365/compliance/ccpa-faq?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
             - name: GDPR-권장 작업 계획
-              href: 'https://docs.microsoft.com/microsoft-365/compliance/gdpr?toc=microsoft-365/solutions/toc.json&bc=microsoft-365/solutions/breadcrumb/toc.json'
+              href: 'https://docs.microsoft.com/microsoft-365/compliance/gdpr?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
     - name: Contoso 사례 연구
       items:
-        - name: Contoso Corporation에 대 한 Microsoft 365 솔루션
+        - name: Contoso Corporation의 Microsoft 365 솔루션
           href: contoso-case-study-solutions.md
         - name: 최상위 기밀 프로젝트에 대 한 격리 된 팀
           href: contoso-team-for-top-secret-project.md
@@ -138,17 +138,17 @@
     - name: 분야
       items:
         - name: 의료용 Teams
-          href: 'https://docs.microsoft.com/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc?toc=microsoft-365/solutions/toc.json&bc=microsoft-365/solutions/breadcrumb/toc.json'
+          href: 'https://docs.microsoft.com/MicrosoftTeams/expand-teams-across-your-org/healthcare/teams-in-hc?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
     - name: Education
       items:
         - name: 교육용 Teams
-          href: 'https://docs.microsoft.com/MicrosoftTeams/expand-teams-across-your-org/teams-for-education-landing-page?toc=microsoft-365/solutions/toc.json&bc=microsoft-365/solutions/breadcrumb/toc.json'
+          href: 'https://docs.microsoft.com/MicrosoftTeams/expand-teams-across-your-org/teams-for-education-landing-page?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
     - name: 정부
       items:
         - name: 정부 기관용 Teams
-          href: 'https://docs.microsoft.com/MicrosoftTeams/expand-teams-across-your-org/teams-for-government-landing-page?toc=microsoft-365/solutions/toc.json&bc=microsoft-365/solutions/breadcrumb/toc.json'
+          href: 'https://docs.microsoft.com/MicrosoftTeams/expand-teams-across-your-org/teams-for-government-landing-page?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
         - name: 팀을 사용 하 여 원격 정부 작업자 지원
-          href: 'https://docs.microsoft.com/MicrosoftTeams/expand-teams-across-your-org/gov-support-remote-work-with-teams?toc=microsoft-365/solutions/toc.json&bc=microsoft-365/solutions/breadcrumb/toc.json'
+          href: 'https://docs.microsoft.com/MicrosoftTeams/expand-teams-across-your-org/gov-support-remote-work-with-teams?toc=/microsoft-365/solutions/toc.json&bc=/microsoft-365/solutions/breadcrumb/toc.json'
 - name: 엔터프라이즈 아키텍처 디자인 원칙
   items:
     - name: 개요
