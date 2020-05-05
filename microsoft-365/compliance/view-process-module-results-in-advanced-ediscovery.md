@@ -1,5 +1,5 @@
 ---
-title: Office 365 Advanced eDiscovery의 프로세스 모듈 결과 보기
+title: Advanced eDiscovery에서 프로세스 모듈 결과 보기
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -15,13 +15,13 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: c6f016cb-409f-4ae9-911c-1395cf0c86ea
-description: '작업 상태 및 프로세스 요약을 포함 하 여 Office 365 Advanced eDiscovery에서 실행 되는 프로세스 모듈의 결과를 찾는 방법에 대해 알아봅니다.  '
-ms.openlocfilehash: 76619d5899171e8ec105c359cefdb4b8689a8d8a
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+description: '작업 상태 및 프로세스 요약을 포함 하 여 고급 eDiscovery에서 실행 되는 프로세스 모듈의 결과를 찾는 방법에 대해 알아봅니다.  '
+ms.openlocfilehash: b7b88ed291236330c87c96d24fa6f1c22fb3d773
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42557606"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43626314"
 ---
 # <a name="view-process-module-results-in-advanced-ediscovery-classic"></a>Advanced eDiscovery에서 프로세스 모듈 결과 보기 (클래식)
 
@@ -32,7 +32,7 @@ ms.locfileid: "42557606"
   
 ## <a name="process-task-status"></a>프로세스 작업 상태
 
-**준비** \> **** 프로세스 \> **결과**에서 페이지에는 현재 상태가 (프로세스가 현재 실행 중인 경우) 또는 다음 예제와 같이 마지막 프로세스 상태 작업 상태가 표시 됩니다.
+**준비** \> **Process** 프로세스 \> **결과**에서 페이지에는 현재 상태가 (프로세스가 현재 실행 중인 경우) 또는 다음 예제와 같이 마지막 프로세스 상태 작업 상태가 표시 됩니다.
   
 ![프로세스 모듈 작업 상태](../media/9430f9e7-a4dd-47c7-ac2e-2c6a60fc948b.png)
   

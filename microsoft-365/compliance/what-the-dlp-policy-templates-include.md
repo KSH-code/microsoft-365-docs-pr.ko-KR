@@ -17,17 +17,17 @@ localization_priority: Normal
 search.appverid:
 - MOE150
 - MET150
-description: Office 365 보안 &amp; 준수 센터의 DLP (데이터 손실 방지)에는 GRAMM-LEACH-BLILEY (미국 의료 보험 act), 미국 금융-gramm-leach-bliley ACT (GLBA) 또는 미국 Patriot act와 같은 중요 한 정보를 보호 하는 데 도움이 되는 일반적인 준수 요구 사항을 해결 하는 사용 가능한 정책 템플릿이 포함 되어 있습니다. 이 항목에는 모든 정책 템플릿, 사용자가 찾은 중요 한 정보의 유형 및 기본 조건 및 작업에 대 한 정보가 나와 있습니다.
-ms.openlocfilehash: 6b87f8c0746611e8ae8cee917e27545ffe5e4373
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+description: 보안 &amp; 및 준수 센터의 DLP (데이터 손실 방지)에는 HIPAA (미국 의료 보험 act), 미국 금융-Gramm-leach-bliley-gramm-leach-bliley ACT (GLBA) 또는 미국 Patriot act의 중요 한 정보를 보호 하는 데 도움이 되는 일반적인 준수 요구 사항을 해결 하는 기본 제공 정책 템플릿이 포함 되어 있습니다. 이 항목에는 모든 정책 템플릿, 사용자가 찾은 중요 한 정보의 유형 및 기본 조건 및 작업에 대 한 정보가 나와 있습니다.
+ms.openlocfilehash: 622a613fd0f43a7ad23c25ab52460181a8931e7f
+ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41597175"
+ms.lasthandoff: 04/21/2020
+ms.locfileid: "43626274"
 ---
 # <a name="what-the-dlp-policy-templates-include"></a>DLP 정책 템플릿에 포함되는 내용
 
-Office 365 보안 &amp; 준수 센터의 DLP (데이터 손실 방지)에는 GRAMM-LEACH-BLILEY (미국 의료 보험 act), 미국 금융-gramm-leach-bliley ACT (GLBA) 또는 미국 Patriot act와 같은 중요 한 정보를 보호 하는 데 도움이 되는 일반적인 준수 요구 사항을 해결 하는 사용 가능한 정책 템플릿이 포함 되어 있습니다. 이 항목에는 모든 정책 템플릿, 사용자가 찾은 중요 한 정보의 유형 및 기본 조건 및 작업에 대 한 정보가 나와 있습니다. 이 항목에 각 정책 템플릿 구성 방식에 대한 모든 세부 사항이 나와 있지는 않지만 사용자의 상황에서 시작점으로 사용하기 가장 적합한 템플릿을 결정하는 데 충분한 정보를 제공합니다. 이러한 정책 템플릿을 특정 요구 사항에 맞게 사용자 지정할 수 있습니다.
+보안 &amp; 및 준수 센터의 DLP (데이터 손실 방지)에는 HIPAA (미국 의료 보험 act), 미국 금융-Gramm-leach-bliley-gramm-leach-bliley ACT (GLBA) 또는 미국 Patriot act의 중요 한 정보를 보호 하는 데 도움이 되는 일반적인 준수 요구 사항을 해결 하는 기본 제공 정책 템플릿이 포함 되어 있습니다. 이 항목에는 모든 정책 템플릿, 사용자가 찾은 중요 한 정보의 유형 및 기본 조건 및 작업에 대 한 정보가 나와 있습니다. 이 항목에 각 정책 템플릿 구성 방식에 대한 모든 세부 사항이 나와 있지는 않지만 사용자의 상황에서 시작점으로 사용하기 가장 적합한 템플릿을 결정하는 데 충분한 정보를 제공합니다. 이러한 정책 템플릿을 특정 요구 사항에 맞게 사용자 지정할 수 있습니다.
   
 ## <a name="australia-financial-data"></a>호주 재무 데이터
 
