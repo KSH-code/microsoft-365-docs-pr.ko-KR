@@ -13,15 +13,17 @@ localization_priority: Normal
 search.appverid:
 - MET150
 ms.collection: Ent_O365
-ms.custom: Ent_Solutions
+ms.custom:
+- Ent_Solutions
+- seo-marvel-apr2020
 ms.assetid: 775a4e9e-3135-4a48-b32f-bbdd9f2bd0aa
-description: '요약: 격리 된 SharePoint Online 팀 사이트에 대 한 디자인 프로세스를 단계별로 안내 합니다.'
-ms.openlocfilehash: 5efd5fb0501d88fda37f1530ef62e4c5110e4da2
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: 권한 수준 확인, 액세스 그룹을 사용 하는 사용자에 게 사용 권한 할당, 중첩 된 Azure AD 그룹 등 격리 된 SharePoint Online 팀 사이트를 디자인 합니다.
+ms.openlocfilehash: 4663a0b9710fc05d0b063a3100d3b5ac223a2161
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43638515"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034843"
 ---
 # <a name="design-an-isolated-sharepoint-online-team-site"></a>격리된 SharePoint Online 팀 사이트 디자인
 

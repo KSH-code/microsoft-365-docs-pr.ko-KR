@@ -1,5 +1,5 @@
 ---
-title: 이메일 스레드
+title: 전자 메일 스레딩-eDiscovery
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -15,13 +15,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: ''
-ms.openlocfilehash: ea40acc3c83d5083a68473223f849a9bebbe98ce
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: Advanced eDiscovery 분석을 수행할 때 전자 메일 스레딩은 전자 메일 대화를 구문 분석 하 고 각 메시지를 서로 다른 범주로 구분 합니다.
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: d3c014973996b312e0b51c1d5fae9da808000cf1
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42074745"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035882"
 ---
 # <a name="email-threading"></a>이메일 스레드
 

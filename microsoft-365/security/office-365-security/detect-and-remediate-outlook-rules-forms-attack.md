@@ -1,5 +1,5 @@
 ---
-title: Outlook 규칙 및 사용자 지정 양식 주입 공격 감지 및 재구성
+title: Outlook 규칙 및 사용자 지정 양식 주입 공격을 검색 하 고 수정 합니다.
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -16,12 +16,13 @@ localization_priority: Normal
 search.appverid:
 - MET150
 description: Office 365에서 Outlook 규칙 및 사용자 지정 양식 주입 공격을 인지하고 재구성하는 방법 알아보기
-ms.openlocfilehash: 71f796f589157a8eb801af3da78d67d16534447b
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 6e818d05465f7b91268cc44c345c6699e8c6d0ed
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637595"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034819"
 ---
 # <a name="detect-and-remediate-outlook-rules-and-custom-forms-injections-attacks"></a>Outlook 규칙 및 사용자 지정 양식 주입 공격 감지 및 재구성
 
@@ -234,9 +235,9 @@ EnableUnsafeClientMailRules 키를 찾습니다. 찾았고 1로 설정되어 있
 
 온-프레미스 Exchange 설치를 사용하는 고객은 사용 가능한 패치가 없는 이전 버전의 Outlook을 차단하는 것이 좋습니다. 이 프로세스에 대한 자세한 내용은 [Outlook 클라이언트 차단 구성](https://docs.microsoft.com/exchange/configure-outlook-client-blocking-exchange-2013-help) 문서를 참조하세요.
 
-## <a name="secure-microsoft-365-like-a-cybersecurity-pro"></a>Cybersecurity pro와 같은 Microsoft 365 보안
+## <a name="secure-microsoft-365-like-a-cybersecurity-pro"></a>사이버 보안 프로그램과 같은 Microsoft 365 보안
 
-Microsoft 365 구독에는 데이터와 사용자를 보호 하는 데 사용할 수 있는 강력한 보안 기능 집합이 포함 되어 있습니다. Microsoft 365 테 넌 트를 보호 하기 위한 Microsoft 권장 모범 사례를 구현 하려면 [microsoft 365 보안 로드맵-처음 30 일, 90 일 및 그 이상에 해당 하는 주요 우선 순위](security-roadmap.md) 를 사용 합니다.
+Microsoft 365 구독에는 데이터 및 사용자를 보호하는 데 사용할 수 있는 강력한 보안 기능이 함께 제공됩니다. [Microsoft 365 보안 로드맵 - 최초 30일, 90일 및 그 이후의 최우선 순위](security-roadmap.md)를 사용하여 Microsoft에서 권장하는 Microsoft 365 테넌트 보안을 구현합니다.
 
 - 처음 30일 이내에 수행 할 작업 이러한 작업들은 즉각적인 영향을 미치며 사용자에게 영향을 미치지 않습니다.
 

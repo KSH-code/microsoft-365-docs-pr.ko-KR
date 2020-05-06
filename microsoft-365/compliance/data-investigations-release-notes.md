@@ -15,13 +15,16 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: 이 문서에서는 Microsoft 365의 새 데이터 조사 (미리 보기) 도구에 대해 설명 합니다.
-ms.openlocfilehash: 813877151f538bc07a0460fdd702ab37ebcc5a1a
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom:
+- seo-marvel-mar2020
+- seo-marvel-apr2020
+description: 이 문서에는 Microsoft 365의 데이터 조사 (미리 보기) 도구에 대 한 변경 내용 및 새로운 기능이 포함 된 릴리스 정보가 나와 있습니다.
+ms.openlocfilehash: 5bb18ccb3354082634780720938fb18164da0ccb
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637738"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035730"
 ---
 # <a name="release-notes-for-data-investigations-preview-in-microsoft-365"></a>Microsoft 365의 데이터 조사 (미리 보기)에 대 한 릴리스 정보
 

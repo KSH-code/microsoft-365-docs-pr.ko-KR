@@ -15,13 +15,14 @@ ms.collection:
 - M365-security-compliance
 search.appverid:
 - MET150
-description: 메시지 암호화 버전 간의 차이점을 설명할 수 있습니다.
-ms.openlocfilehash: 89d145f19591ba59df6983bb8863a8e0cc28fcf3
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: 이 문서는 서로 다른 버전의 Office 365 메시지 암호화 간의 차이점에 대해 설명 합니다.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 32895f8aae8c6c23ab7f0e3d70d4caa73285fa9e
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43626794"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034878"
 ---
 # <a name="compare-versions-of-ome"></a>OME 버전 비교
 

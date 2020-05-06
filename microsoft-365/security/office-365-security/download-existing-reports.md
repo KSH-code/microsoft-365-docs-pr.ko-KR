@@ -1,5 +1,5 @@
 ---
-title: 보안 &amp; 및 준수 센터에서 기존 보고서 다운로드
+title: 기존 보고서 다운로드-보안 & 준수 센터
 f1.keywords:
 - NOCSH
 ms.author: deniseb
@@ -14,13 +14,14 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 1372da29-f3ab-49d7-8c02-eb9305bb5fd8
-description: 보안 &amp; 및 준수 센터에서 하나 이상의 기존 보고서를 다운로드 하는 방법을 알아봅니다.
-ms.openlocfilehash: 62f87c3a11e35bd6dae25c786ac2360e9937c84d
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: 보안 & 준수 센터에서 하나 이상의 기존 보고서를 다운로드 하 여 조직에 대 한 위협을 완화 하 고 해결 하는 방법을 알아봅니다.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 53daaf5bdcb6b9f471e70c6f9451ebcf33d6393d
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637583"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034807"
 ---
 # <a name="download-existing-reports-in-the-security-amp-compliance-center"></a>보안 &amp; 및 준수 센터에서 기존 보고서 다운로드
 

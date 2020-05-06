@@ -16,13 +16,14 @@ search.appverid:
 ms.assetid: b10023f6-f30f-45d3-b3ad-b71aa4aa0d58
 ms.collection:
 - M365-security-compliance
-description: 이 문서를 참조 하 여 위협 방지 기능을 지금 구성 합니다.
-ms.openlocfilehash: 0adf7bbb2637cc8a8d2918d951c1ccef51060b31
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Office 365 위협 보호에 대해 설명 하 고 조직에서 사용 하는 방법을 구성 합니다.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 7bdc7d619f3c48318572116fbc52647a0858ec5e
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634463"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44033893"
 ---
 # <a name="protect-against-threats"></a>위협으로부터 보호
 

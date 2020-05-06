@@ -11,13 +11,15 @@ ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 9d015a0d-52a0-484d-9a08-121d04f973d3
-description: 이 항목에서는 Microsoft EOP(Exchange Online Protection) 필터링 프로세스 중에 대기, 지연 또는 반송된 메시지에 대한 질문과 대답을 제공합니다.
-ms.openlocfilehash: 05993e8d0e9af69dd1ac35b588c4e8ec731642f7
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.custom:
+- seo-marvel-apr2020
+description: EOP (Microsoft Exchange Online Protection) 필터링 프로세스 중에 대기, 지연 또는 반송 된 메시지에 대 한 질문과 대답을 확인할 수 있습니다.
+ms.openlocfilehash: f7a7c8b5466e02353ca114d6c7ed44f37bed5592
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41599355"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036551"
 ---
 # <a name="eop-queued-deferred-and-bounced-messages-faq"></a>EOP 대기, 지연 및 반송 메시지 FAQ
 

@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 ms.assetid: 6057daa8-6372-4e77-a636-7ea599a76128
 description: Microsoft 365 사서함에 저장할 수 있는 다양 한 유형의 보존을 식별 하는 방법을 알아봅니다. 이러한 유형의 보류에는 소송 보존, eDiscovery 보류 및 Microsoft 365 보관 정책이 포함 됩니다. 사용자가 조직 차원의 보존 정책에서 제외 되었는지 여부도 확인할 수 있습니다.
-ms.openlocfilehash: 0f16b027f5c97871b490ce028a4c0b9e2d5e7f80
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 232173b82033f7372ef54411a04f3ee891a42bbb
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634170"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44048005"
 ---
 # <a name="how-to-identify-the-type-of-hold-placed-on-an-exchange-online-mailbox"></a>Exchange Online 사서함의 보류 유형을 식별하는 방법
 
@@ -55,7 +55,7 @@ Exchange Online PowerShell에서 다음 두 cmdlet을 실행 하 여 사서함�
 
 - **Set-organizationconfig:** 이 cmdlet을 사용 하 여 조직 전체 보존 정책의 Guid를 가져올 수 있습니다.
 
-Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결하기](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps)를 참조하세요.
+Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell?view=exchange-ps)을 참조하세요.
 
 ### <a name="get-mailbox"></a>Get-Mailbox
 
@@ -235,7 +235,7 @@ Set-Mailbox <DN or Exchange GUID> -InactiveMailbox -RemoveDelayReleaseHoldApplie
 
 사서함에 적용 된 보류를 확인 한 후 보류 시간을 변경 하거나 보류를 일시적으로 제거 하거나 Microsoft 365 보존 정책에서 비활성 사서함을 제외 하는 등의 작업을 수행할 수 있습니다. 보류와 관련 된 작업을 수행 하는 방법에 대 한 자세한 내용은 다음 항목 중 하나를 참조 하십시오.
 
-- 보안 & 준수 센터 PowerShell에서 [new-retentioncompliancepolicy-AddExchangeLocationException \<user mailbox>](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/Set-RetentionCompliancePolicy?view=exchange-ps) 명령을 실행 하 여 조직 전체의 Microsoft 365 보존 정책에서 사서함을 제외 합니다. 이 명령은 *ExchangeLocation* 속성 값이 같은 `All`보존 정책에만 사용할 수 있습니다.
+- 보안 & 준수 센터 PowerShell에서 [new-retentioncompliancepolicy-AddExchangeLocationException \<user mailbox>](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance-retention/set-retentioncompliancepolicy?view=exchange-ps) 명령을 실행 하 여 조직 전체의 Microsoft 365 보존 정책에서 사서함을 제외 합니다. 이 명령은 *ExchangeLocation* 속성 값이 같은 `All`보존 정책에만 사용할 수 있습니다.
 
 - Exchange Online PowerShell에서 [접두사 또는 접미사 \<>명령을 사용 하지 않고 Set-mailbox-ExcludeFromOrgHolds 보류가 GUID](https://docs.microsoft.com/powershell/module/exchange/mailboxes/set-mailbox?view=exchange-ps) 를 실행 하 여 조직 전체의 Microsoft 365 보존 정책에서 비활성 사서함을 제외 합니다.
 

@@ -12,13 +12,14 @@ localization_priority: None
 search.appverid:
 - MET150
 ms.collection: Strat_O365_Enterprise
-description: '요약: Microsoft Dynamics 365의 암호화에 대해 설명 합니다.'
-ms.openlocfilehash: 7d5116d957f8d9e51309a9605bb82c4ffd76386e
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Microsoft는 microsoft 데이터베이스에 있고 전송 중에는 암호화 기술을 사용 하 여 microsoft Dynamics 365의 고객 데이터를 보호 하는 방법을 알아봅니다.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: bd349890fc7fc1ae7f1f7eaf07f90c22423637cf
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637242"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44031418"
 ---
 # <a name="encryption-in-microsoft-dynamics-365"></a>Microsoft Dynamics 365에서 암호화
 

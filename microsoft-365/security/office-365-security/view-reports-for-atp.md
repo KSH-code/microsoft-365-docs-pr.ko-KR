@@ -1,5 +1,5 @@
 ---
-title: Office 365 Advanced Threat Protection, 맬웨어 보고서, 피싱 보고서, 손상 된 계정, URL 보호 상태, 위협 보고, 보고 위협에 대 한 보고서 보기
+title: Advanced Threat Protection에 대 한 보고서 보기
 f1.keywords:
 - CSH
 ms.author: tracyp
@@ -17,12 +17,13 @@ ms.assetid: e47e838c-d99e-4c0b-b9aa-e66c4fae902f
 ms.collection:
 - M365-security-compliance
 description: 보안 &amp; 및 준수 센터에서 Office 365 Advanced Threat Protection에 대 한 보고서를 찾아서 사용 합니다.
-ms.openlocfilehash: 09e2f4be133d395b738219b3a280f08b915030e0
-ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 56e8b79ad85a5801f75a6ed36a58afe58b552527
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43708502"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034965"
 ---
 # <a name="view-reports-for-office-365-advanced-threat-protection"></a>Office 365 Advanced Threat Protection에 대 한 보고서 보기
 

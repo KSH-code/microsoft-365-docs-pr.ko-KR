@@ -1,6 +1,6 @@
 ---
 title: Office 365 Advanced Threat Protection의 새로운 기능
-description: Office 365 ATP의 새로운 기능 및 기능을 소개 합니다.
+description: 최신 Microsoft Office 365 ATP 버전에서 사용할 수 있는 새로운 기능에 대해 알아봅니다.
 keywords: Office 365 atp, ga, 일반적으로 사용 가능, 기능, 사용 가능, 신규의 새로운 기능
 search.appverid: met150
 ms.service: O365-seccomp
@@ -15,12 +15,14 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: conceptual
-ms.openlocfilehash: b48f106e500673da0858aa4e190462dd3d01fad1
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.date: 02/21/2020
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 4e6dfaa8a6a2a0157e9274c7b25dae6e7aed2395
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43630824"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036587"
 ---
 # <a name="whats-new-in-office-365-atp"></a>Office 365 ATP의 새로운 기능
 

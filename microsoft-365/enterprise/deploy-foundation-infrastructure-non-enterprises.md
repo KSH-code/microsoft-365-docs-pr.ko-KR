@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 엔터프라이즈 이외의 조직의 엔터프라이즈용 Microsoft 365에 대해 간소화된 기본 인프라 단계를 안내합니다.
-ms.openlocfilehash: cad142f2f26eb999431eb5bb531cb4520e4d6102
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: e1c747e5f4ab3e58adeaf91518512d8ece83d91b
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43638263"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011902"
 ---
 # <a name="microsoft-365-for-enterprise-foundation-infrastructure-for-non-enterprises"></a>엔터프라이즈 이외의 비즈니스용 Microsoft 365 기본 인프라
 
@@ -215,7 +215,7 @@ Windows 10 Enterprise 디바이스를 설치하 고 조인한 후에는 각 디�
 
 ## <a name="phase-4-microsoft-365-apps-for-enterprise"></a>4단계: 엔터프라이즈용 Microsoft 365 앱
 
-엔터프라이즈용 Microsoft 365에는 Microsoft Office 구독 버전인 엔터프라이즈용 Microsoft 365 앱이 포함되어 있습니다. Office 2016 또는 Office 2019와 같이, 엔터프라이즈용 Microsoft 365 앱이 클라이언트 디바이스에 직접 설치됩니다. 그러나 엔터프라이즈용 Microsoft 365 앱은 정기적으로 새로운 기능을 포함하는 업데이트를 받습니다. 자세한 내용은 [기업에서의 엔터프라이즈용 Microsoft 365 앱](https://docs.microsoft.com/deployoffice/about-office-365-proplus-in-the-enterprise)을 참조하세요.
+엔터프라이즈용 Microsoft 365에는 Microsoft Office 구독 버전인 엔터프라이즈용 Microsoft 365 앱이 포함되어 있습니다. Office 2016 또는 Office 2019와 같이, 엔터프라이즈용 Microsoft 365 앱이 클라이언트 디바이스에 직접 설치됩니다. 그러나 엔터프라이즈용 Microsoft 365 앱은 정기적으로 새로운 기능을 포함하는 업데이트를 받습니다. 자세한 내용은 [엔터프라이즈용 Microsoft 365 앱](https://docs.microsoft.com/deployoffice/about-microsoft-365-apps)을 참조하세요.
 
 엔터프라이즈가 아닌 조직의 경우, Windows, iOS 및 Android장치를 포함할 수 있는 장치에 엔터프라이즈용 Microsoft 365 앱을 수동으로 설치합니다. 새 디바이스를 사용할 수 있도록 준비하는 과정에서 또는 온보딩 프로세스의 일부로 이 작업을 수행할 수 있습니다.
 

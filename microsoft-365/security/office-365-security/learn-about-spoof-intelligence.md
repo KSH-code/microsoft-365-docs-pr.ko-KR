@@ -16,13 +16,15 @@ search.appverid:
 ms.assetid: 978c3173-3578-4286-aaf4-8a10951978bf
 ms.collection:
 - M365-security-compliance
-description: 관리자는 Exchange Online 및 EOP (Exchange Online Protection)에서 스푸핑된 보낸 사람을 허용 하거나 허용 하지 않거나 기타 스푸핑 인텔리전스 설정을 구성 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: e2aeefbd90a7ed66699778fab54a76a33293e4bb
-ms.sourcegitcommit: f5cecd77e63ae8b47743d4f6dc3135f5decaf28b
+ms.custom:
+- seo-marvel-apr2020
+description: 이 문서에서는 전자 메일 스푸핑을 방지 하기 위해 스푸핑 인텔리전스를 사용 하 고 관리 하는 방법을 알아봅니다.
+ms.openlocfilehash: 32a7668edced5c9dbca2f7b16ff00253b56a5988
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43949240"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034247"
 ---
 # <a name="configure-spoof-intelligence-in-microsoft-365"></a>Microsoft 365에서 스푸핑 인텔리전스 구성
 

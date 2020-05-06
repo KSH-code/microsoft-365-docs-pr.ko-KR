@@ -25,12 +25,12 @@ search.appverid:
 - SPB160
 ms.assetid: eb3e840f-ed60-4461-81f5-12381c132b89
 description: 다양 한 유형의 그룹 및 Microsoft 365의 다양 한 공동 작업 기능을 사용 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 09dce9a26d22989fecf828bf91c0e8ce9583a589
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: b5b8030b1f16562007ac2786dca776db6482eecb
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43628870"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44048798"
 ---
 # <a name="email-collaboration"></a>전자 메일 공동 작업
 
@@ -47,7 +47,7 @@ Microsoft 365에서는 Outlook, 메일 그룹 (메일 그룹이 라고도 함), 
 |:-----|:-----|
 |Outlook의 그룹  <br/> |Microsoft 365의 모든 응용 프로그램에서 작동 하는 공유 작업 영역입니다. 여기에는 공유 받은 편지함, 일정, 파일 저장을 위한 비즈니스용 OneDrive 사이트가 포함되어 있습니다. 사용자는 전자 메일 또는 일정에서 Outlook 바로 그룹을 만들고, 찾고, 참가할 수 있습니다. Exchange Online 또는 Microsoft 365 구독이 있는 신규 및 기존 사용자는 Outlook에서 그룹을 사용할 수 있습니다.  <br/> |
 |공유 사서함  <br/> |특정 사용자가 전자 메일 메시지를 읽고 보내며 공통 일정을 공유할 수 있는 사서함입니다. 공유 사서함은 고객이 회사에 대해 문의하는 데 사용할 수 있는 일반 전자 메일 주소(예: info@contoso.com 또는 sales@contoso.com) 역할도 할 수 있습니다. 공유 사서함에서 다른 이름으로 저장 권한이 설정되어 있으면 사서함에서 보내는 전자 메일에 일반 주소(예: sales@contoso.com)가 사용됩니다.  <br/> |
-|메일 그룹  <br/> |두 명 이상의 사용자에게 동시에 전자 메일 메시지를 배포하는 데 사용합니다. 메일 그룹은 메일 사용이 가능한 배포 그룹이라고도 합니다. 동적 메일 그룹이라는 메일 그룹의 변형은 변화하는 다수의 받는 사람 그룹에 전자 메일을 보내기 위해 사용되는 메일 사용이 가능한 Active Directory 그룹 개체입니다. 받는 사람은 특정 로캘의 모든 구성원이나 모든 상근 직원처럼 사용자가 지정한 필터와 조건에 의해 결정됩니다.<br/><br/> Outlook의 Microsoft 365 그룹은 메일 그룹 보다 더 강력한 공동 작업 솔루션을 제공 합니다. 자세한 내용은 [Outlook에서 그룹으로 배포 목록을 업그레이드](https://support.office.com/article/7fb3d880-593b-4909-aafa-950dd50ce188.aspx) 하 고 [Microsoft 365 그룹으로 배포 목록을 마이그레이션하](../manage/upgrade-distribution-lists.md)는 이유를 참조 하세요.  <br/> |
+|메일 그룹  <br/> |두 명 이상의 사용자에게 동시에 전자 메일 메시지를 배포하는 데 사용합니다. 메일 그룹은 메일 사용이 가능한 배포 그룹이라고도 합니다. 동적 메일 그룹이라는 메일 그룹의 변형은 변화하는 다수의 받는 사람 그룹에 전자 메일을 보내기 위해 사용되는 메일 사용이 가능한 Active Directory 그룹 개체입니다. 받는 사람은 특정 로캘의 모든 구성원이나 모든 상근 직원처럼 사용자가 지정한 필터와 조건에 의해 결정됩니다.<br/><br/> Outlook의 Microsoft 365 그룹은 메일 그룹 보다 더 강력한 공동 작업 솔루션을 제공 합니다. 자세한 내용은 [Outlook에서 그룹으로 배포 목록을 업그레이드](https://support.microsoft.com/en-us/office/why-you-should-upgrade-your-distribution-lists-to-groups-in-outlook-7fb3d880-593b-4909-aafa-950dd50ce188) 하 고 [Microsoft 365 그룹으로 배포 목록을 마이그레이션하](../manage/upgrade-distribution-lists.md)는 이유를 참조 하세요.  <br/> |
 |공용 폴더  <br/> |공유 액세스용으로 디자인 된 공용 폴더는 조직의 다른 사용자와 정보를 수집, 구성 및 공유 하는 쉽고 효과적인 방법을 제공 합니다. 공용 폴더는 쉽게 찾을 수 있고 Outlook 폴더 보기에 항상 표시되는 상세한 계층 구조로 콘텐츠를 구성합니다. 공용 폴더는 메일을 사용하도록 설정할 수 있으며 메일 그룹의 구성원으로 추가할 수 있습니다. 메일 그룹으로 보낸 전자 메일은 보관하거나 나중에 참조할 수 있도록 공용 폴더에 자동으로 추가됩니다. 또한 공용 폴더는 SharePoint Online 구독이 없는 경우에 간단하게 문서를 공유할 수 있는 방법을 제공합니다.  <br/> |
    
 ## <a name="which-collaboration-tool-to-use"></a>사용할 공동 작업 도구

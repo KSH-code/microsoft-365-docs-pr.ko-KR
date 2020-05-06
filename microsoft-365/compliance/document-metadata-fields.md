@@ -15,17 +15,18 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: ''
-ms.openlocfilehash: 1edf55298981fe8c20a38c863229a7349d6b0862
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+description: 데이터 조사 (미리 보기)에 증명 정보 집합의 문서에 대 한 메타 데이터 필드가 나열 된 표를 봅니다.
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 3e13d62446cff3efdacaa5f8e1ade8a37006d922
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595183"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035700"
 ---
 # <a name="document-metadata-fields-in-data-investigations-preview"></a>데이터 조사의 문서 메타 데이터 필드 (미리 보기)
 
-다음 표에서는 데이터 조사 (미리 보기)의 조사에 따라 증명 정보 집합의 문서에 대 한 메타 데이터 필드를 보여 줍니다. 이 테이블은 증명 정보 집합에서 쿼리를 실행할 때 필드를 검색할 수 있는지 여부, 증명 정보 집합에서 선택한 문서의 파일 메타 데이터를 볼 때 필드가 있는지 여부 및 해당 필드가 다음 경우에 포함 되는지 여부를 나타냅니다. 문서를 내보냅니다. 
+다음 표에서는 데이터 조사 (미리 보기)의 조사에 따라 증명 정보 집합의 문서에 대 한 메타 데이터 필드를 보여 줍니다. 이 테이블은 증명 정보 집합에서 쿼리를 실행할 때 필드를 검색할 수 있는지 여부, 증명 정보 집합에서 선택한 문서의 파일 메타 데이터를 볼 때 필드가 표시 되는지 여부 및 문서를 내보낼 때 필드를 포함할지 여부를 나타냅니다. 
 
 > [!NOTE]
 > 검색 **가능한 증명 정보 집합** 열에서 괄호 안의 값은 검색할 수 있는 속성의 이름입니다. **파일 메타 데이터에** 표시할 수 있는 열에서 괄호 안의 값은 파일 메타 데이터를 볼 때 표시 되는 속성의 이름입니다.

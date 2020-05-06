@@ -23,12 +23,12 @@ search.appverid:
 ms.assetid: a25c10d6-c1e9-4299-9185-25178df9eba6
 description: 비즈니스용 Microsoft 365에 대 한 대금 청구 주소를 업데이트 하는 방법을 알아봅니다. 또한 대금 청구 알림을 수신 하는 데 사용 되는 전자 메일 주소를 업데이트할 수 있습니다.
 ms.custom: okr_SMB
-ms.openlocfilehash: 169dfd78ca39e91e065c3bea59242a9f205463d0
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 7edef65eb1cf45192188316b13acfd87eac5a490
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632722"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44048028"
 ---
 # <a name="change-your-billing-addresses"></a>대금 청구 주소 변경
 
@@ -121,7 +121,7 @@ ms.locfileid: "43632722"
 
 ::: moniker range="o365-worldwide"
 
-1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품 및 서비스</a> 페이지로 이동합니다.
+1. 관리 센터에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a> **청구** \> 페이지로 이동 합니다.
 
 2. 변경 하려는 구독을 찾습니다. **& 작업 설정** 섹션에서 **서비스 사용 주소 편집**을 선택 합니다.
 
@@ -170,6 +170,8 @@ ms.locfileid: "43632722"
 ## <a name="change-the-alternate-email-address-for-another-admin"></a>다른 관리자의 대체 전자 메일 주소 변경
 
 조직의 다른 전역 및 청구 관리자의 대체 전자 메일 주소를 변경할 수도 있습니다.
+
+::: moniker range="o365-worldwide"
   
 1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=853212" target="_blank">대금 청구 알림</a> 페이지로 이동합니다.
 

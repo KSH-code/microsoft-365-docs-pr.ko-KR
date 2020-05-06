@@ -15,13 +15,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: ''
-ms.openlocfilehash: f5028e82e8c54972dd188215eac0518775ec275c
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: 검색 범위를 결정 하거나 연락처, 위치 및 활동 로그와 같은 정보를 볼 수 있는 사용자를 관리 하는 방법을 알아봅니다.
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 7cab1904731f325f1ec45685ddf122e5ee375a2b
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635842"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036071"
 ---
 # <a name="manage-people-of-interest-in-data-investigations-preview"></a>데이터 조사에 관심이 있는 사용자 관리 (미리 보기)
 

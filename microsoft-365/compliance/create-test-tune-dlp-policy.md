@@ -15,14 +15,16 @@ ms.collection:
 - M365-security-compliance
 search.appverid:
 - MET150
+ms.custom:
+- seo-marvel-mar2020
 ms.assetid: 59414438-99f5-488b-975c-5023f2254369
-description: 'DLP 정책을 사용하여 가장 쉽고 가장 일반적인 방법은 Office 365에 포함된 템플릿 중 하나를 사용하는 것입니다. '
-ms.openlocfilehash: 819320b8170c652a6cdb32e191ebca5174eb0329
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: 이 문서에서는 조직의 요구 사항에 따라 DLP 정책을 만들고 테스트 하 고 조정 하는 방법에 대해 설명 합니다.
+ms.openlocfilehash: 2a7ef029d00aff8450d9e8cf41253c2a86606807
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635968"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035760"
 ---
 # <a name="create-test-and-tune-a-dlp-policy"></a>DLP 정책 만들기, 테스트 및 조정
 

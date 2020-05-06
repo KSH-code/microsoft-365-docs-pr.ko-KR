@@ -15,13 +15,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: ''
-ms.openlocfilehash: bff750f5600fc1daa9c6d87a4b42f0c9b1caa252
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: 검색을 만들고, 저장 하 고 실행 하 여 조사와 관련 된 데이터를 식별 하 고, 결과를 증거에 추가 하는 방법에 대해 알아봅니다.
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 29a89c816c658b99b89de7f7a4e912c7b39b613c
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632913"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036403"
 ---
 # <a name="search-for-data-in-an-investigation"></a>조사에서 데이터 검색
 

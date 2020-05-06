@@ -25,12 +25,12 @@ search.appverid:
 - GEA150
 ms.assetid: 36081d8d-b3fa-4948-8c34-e217bba825e1
 description: Microsoft 365 for business 구독에 대 한 라이선스를 추가 및 제거 하는 방법을 알아봅니다.
-ms.openlocfilehash: ce14021b3d6efaa14c9010a82ad4b522b0b08339
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 57768a7e93b19c14c5428508268c2c1e37d700f6
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632532"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44045227"
 ---
 # <a name="manage-subscription-licenses"></a>구독 라이선스 관리
 
@@ -42,9 +42,9 @@ ms.locfileid: "43632532"
 
 ::: moniker range="o365-worldwide"
 
-1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품 및 서비스</a> 페이지로 이동합니다.
+1. 관리 센터에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a> **청구** \> 페이지로 이동 합니다.
 
-2. **Products & services** 페이지에서 라이선스를 추가 하거나 제거할 구독을 찾은 다음 **라이선스 추가/제거**를 선택 합니다.
+2. **제품** 페이지에서 라이선스를 추가 하거나 제거할 구독을 찾은 다음 **라이선스 추가/제거**를 선택 합니다.
 
     [라이선스 추가/제거 링크가 표시되지 않으면 어떻게 하나요?](#what-if-i-dont-see-the-addremove-licenses-link)
 

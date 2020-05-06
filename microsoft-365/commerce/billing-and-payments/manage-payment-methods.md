@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 - BEA160
 description: Microsoft 365 관리 센터에서 결제 방법을 관리 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 997b957bb28d32402e17eb855bc891ed07e5f27f
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.openlocfilehash: fb3efa7aa2e098462e8c323d1cd0038222862e7b
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42894844"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44045871"
 ---
 # <a name="manage-payment-methods"></a>결제 방법 관리
 
@@ -73,7 +73,7 @@ Microsoft에서 비즈니스 제품 또는 서비스를 구매할 때 기존 결
 
 단일 구독에 대해 요금을 지불 하는 데 사용 되는 결제 방법을 변경할 수 있습니다.
 
-1. 관리 센터에서 **청구** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품 & 서비스</a> 페이지로 이동 합니다.
+1. 관리 센터에서<a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a> **청구** > 페이지로 이동 합니다.
 2. **구독** 탭에서 대체 결제 방법으로 결제 하려는 구독을 선택 합니다. 
 3. **청구**아래의 결제 방법 옆에 있는 **편집**을 선택 합니다.
 4. 기존 결제 방법 옆에 있는 **변경**을 선택 합니다.

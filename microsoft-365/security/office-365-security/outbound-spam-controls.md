@@ -16,13 +16,15 @@ search.appverid:
 ms.assetid: 6a601501-a6a8-4559-b2e7-56b59c96a586
 ms.collection:
 - M365-security-compliance
-description: 관리자는 Microsoft 365 및 EOP (Exchange Online Protection)에서 고객을 아웃 바운드 스팸으로 보호 하는 방법과 대량 메일을 보내는 데 필요한 경우 수행할 작업에 대해 알아봅니다.
-ms.openlocfilehash: 71fe5d5ba1ffbecc77b646a06c3da4d9681ee3ea
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom:
+- seo-marvel-apr2020
+description: 관리자에 게 Office 365 및 EOP (Exchange Online Protection)에서 고객을 아웃 바운드 스팸으로 보호 하는 방법 및 대량 메일을 보내는 데 필요한 경우 수행할 작업에 대해 알아봅니다.
+ms.openlocfilehash: ffedcf68489914865c00eb68aecfa6c74e519ee2
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634499"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44033929"
 ---
 # <a name="outbound-spam-protection"></a>아웃바운드 스팸 검색
 

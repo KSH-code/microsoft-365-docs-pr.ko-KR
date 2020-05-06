@@ -1,5 +1,5 @@
 ---
-title: SharePoint, OneDrive 및 Microsoft Teams의 ATP 켜기
+title: Office 365 ATP 사용-SharePoint, OneDrive, & 팀
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -18,12 +18,13 @@ ms.collection:
 - M365-security-compliance
 - SPO_Content
 description: 검색 된 파일에 대 한 알림을 설정 하는 방법을 포함 하 여 SharePoint, OneDrive 및 팀에 대 한 ATP를 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: 95886cb6a7f081e4565a6455951aedf68a3e741e
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: f7708697f191107176173f2bfaced576c024954c
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631124"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036731"
 ---
 # <a name="turn-on-atp-for-sharepoint-onedrive-and-microsoft-teams"></a>SharePoint, OneDrive 및 Microsoft Teams의 ATP 켜기
 
