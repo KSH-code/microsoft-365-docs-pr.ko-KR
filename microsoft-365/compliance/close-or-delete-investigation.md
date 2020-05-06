@@ -15,13 +15,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: ''
-ms.openlocfilehash: f979a111b6c0026d7be4d096203c47060081cc64
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+description: 나중에 사용할 수 있도록 정보 및 증거를 유지 하면서 데이터 조사 사례를 닫는 방법을 알아봅니다.
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 5a8d1e94f1c87155883d154984942663f6e0c04d
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41595865"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034372"
 ---
 # <a name="close-or-delete-an-investigation"></a>조사 닫기 또는 조사 삭제
 

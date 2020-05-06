@@ -16,13 +16,15 @@ search.appverid:
 ms.assetid: 6a601501-a6a8-4559-b2e7-56b59c96a586
 ms.collection:
 - M365-security-compliance
-description: Exchange Online 및 Microsoft 365에서 스팸을 방지 하는 데 도움이 되는 스팸 방지 설정 및 필터에 대해 알아봅니다. Microsoft 365에서 너무 많은 스팸 받기 스팸 필터 및 스팸 방지 설정을 사용자 지정할 수 있습니다.
-ms.openlocfilehash: 3bb1c81af0061cc20b4c7bb2a963c0d06b7914e3
-ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
+ms.custom:
+- seo-marvel-apr2020
+description: Exchange Online 및 Microsoft 365에서 스팸을 방지 하는 데 도움이 되는 스팸 방지 설정 및 필터에 대해 알아봅니다.
+ms.openlocfilehash: 96132bf66438861eb117aedd841f7912de1258cc
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43708574"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034061"
 ---
 # <a name="anti-spam-protection-in-microsoft-365"></a>Microsoft 365의 스팸 방지 보호 기능
 
@@ -71,7 +73,7 @@ EOP의 스팸 방지 설정은 다음과 같은 기술로 구성 됩니다.
 
 - **전자 메일 인증 사용**: 전자 메일 도메인을 소유 하 고 있는 경우 DNS를 사용 하 여 해당 도메인의 보낸 사람 으로부터 메시지가 유효한 지 확인할 수 있습니다. EOP에서 스팸 및 원치 않는 스푸핑 문제를 방지 하려면 다음과 같은 전자 메일 인증 방법을 모두 사용 합니다.
 
-  - **SPF**: 보낸 사람 정책 프레임 워크는 보내는 도메인의 소유자에 대해 메시지의 원본 IP 주소를 확인 합니다. SPF에 대 한 간략 한 소개 및 빠르게 구성 하려면 SPF를 설정 하 여 [스푸핑을 방지](set-up-spf-in-office-365-to-help-prevent-spoofing.md)합니다 .를 참조 하세요. Microsoft 365에서 SPF를 사용 하는 방법에 대 한 자세한 내용을 파악 하거나, 하이브리드 배포와 같은 문제 해결 또는 비표준 배포를 위해 [microsoft 365에서 spf (Sender Policy Framework)를 사용 하 여 스푸핑을 방지](how-office-365-uses-spf-to-prevent-spoofing.md)하는 방법부터 시작 합니다.
+  - **SPF**: 보낸 사람 정책 프레임 워크는 보내는 도메인의 소유자에 대해 메시지의 원본 IP 주소를 확인 합니다. SPF에 대 한 간략 한 소개 및 빠르게 구성 하려면 SPF를 설정 하 여 [스푸핑을 방지](set-up-spf-in-office-365-to-help-prevent-spoofing.md)합니다 .를 참조 하세요. Microsoft 365에서 SPF를 사용하는 방법이나 문제 해결 또는 비표준 배포(예: 하이브리드 배포)에 대한 자세한 내용은 [Microsoft 365에서 SPF(Sender Policy Framework)를 사용하여 스푸핑을 차단하는 방법](how-office-365-uses-spf-to-prevent-spoofing.md)을 참조하세요.
 
   - **Dkim**: Domainkeys 확인 메일 도메인에서 보낸 메시지의 메시지 헤더에 디지털 서명을 추가 합니다. 자세한 내용은 [Microsoft 365에서 DKIM을 사용 하 여 사용자 지정 도메인에서 보낸 아웃 바운드 전자 메일의 유효성 검사를](use-dkim-to-validate-outbound-email.md)참조 하세요.
 

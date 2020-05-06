@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 준수 센터의 새로운 기능
+title: 준수 센터의 새로운 기능
 f1.keywords:
 - NOCSH
 ms.author: brendonb
@@ -17,12 +17,13 @@ ms.assetid: e3c6df61-8513-499d-ad8e-8a91770bff63
 ms.collection:
 - M365-security-compliance
 description: Microsoft 365 준수 센터에 지속적으로 새로운 기능을 추가 하 고, 문제를 해결 하 고, 사용자 의견에 따라 변경 사항을 적용 하 고 있습니다. 이번 달에 제공 된 내용을 확인 합니다.
-ms.openlocfilehash: 2f172c8639215285a793f16f4913917be6a58614
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 940d316c97370a477c963785ae7e90482b35a46c
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43626264"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034270"
 ---
 # <a name="whats-new-in-the-microsoft-365-compliance-center"></a>Microsoft 365 준수 센터의 새로운 기능
 
@@ -91,7 +92,7 @@ ms.locfileid: "43626264"
 
 ### <a name="just-launched"></a>방금 시작한 항목만
 
-**통신 준수**
+**커뮤니케이션 규정 준수**
 
 Preview 단계에서 모든 가용성으로 Graduating, 통신 준수는 새로운 참가자 위험 솔루션 집합의 핵심 구성 요소입니다. 이 강력한 솔루션을 사용 하면 조직의 표준을 충족 하지 않는 메시지를 검색 하 고 조사 하 고 수정 작업을 수행 하는 워크플로를 통해 통신 위험을 최소화할 수 있습니다.
 
@@ -172,11 +173,11 @@ Preview 단계에서 모든 가용성으로 Graduating, 통신 준수는 새로�
 |eDiscovery|eDiscovery > eDiscovery <br/> https://protection.office.com/ediscoveryv1 |eDiscovery > 코어 <br/> https://compliance.microsoft.com/classicediscovery |[eDiscovery 사례 관리](ediscovery-cases.md) |
 |이벤트|레코드 관리 > 이벤트 <br/> https://protection.office.com/events |레코드 관리 > 이벤트 탭 <br/> https://compliance.microsoft.com/recordsmanagement?viewid=events |[이벤트 구동 보존 개요](event-driven-retention.md)|
 |파일 플랜|파일 계획 > 레코드 관리 <br/> https://protection.office.com/fileplan |레코드 관리 > 파일 계획 탭 <br/> https://compliance.microsoft.com/recordsmanagement?viewid=fileplan |[파일 계획 관리자 개요](file-plan-manager.md)|
-|PST 파일 가져오기|정보 거 버 넌 스 > 가져오기 PST 파일 <br/> https://protection.office.com/importV2 |정보 거 버 넌 스 > 가져오기 탭 <br/> https://compliance.microsoft.com/informationgovernance?viewid=import |[조직의 PST 파일 가져오기 개요](importing-pst-files-to-office-365.md)|
+|PST 파일 가져오기|정보 거 버 넌 스 > 가져오기 PST 파일 <br/> https://protection.office.com/importV2 |정보 거 버 넌 스 > 가져오기 탭 <br/> https://compliance.microsoft.com/informationgovernance?viewid=import |[조직의 PST 파일을 가져오기 개요](importing-pst-files-to-office-365.md)|
 |레이블 활동 탐색기|정보 거 버 넌 스 > 레이블 활동 탐색기 <br/> https://protection.office.com/labelexplorer |데이터 분류 > 활동 탐색기 탭 <br/> https://compliance.microsoft.com/dataclassification?viewid=activitiesexplorer |[레이블이 지정된 콘텐츠의 활동 보기(미리 보기)](data-classification-activity-explorer.md)|
 |보존 레이블 및 레이블 정책 |분류 > 보존 레이블 > 레이블 및 레이블 정책 탭 <br/> https://protection.office.com/retentionlabels |정보 거 버 넌 스 > 레이블 및 레이블 정책 탭 <br/> https://compliance.microsoft.com/informationgovernance?viewid=labels <br/> https://compliance.microsoft.com/informationgovernance?viewid=labelpolicies | [보존 레이블 개요](labels.md)|
 |보존 정책|정보 거 버 넌 스 > 보존 <br/> https://protection.office.com/retention |정보 거 버 넌 스 > 보존 탭 <br/> https://compliance.microsoft.com/informationgovernance?viewid=retention |[보존 정책 개요](retention-policies.md)|
-|중요 한 정보 유형|분류 > 중요 한 정보 유형 <br/> https://protection.office.com/sensitivetypes |데이터 분류 > 중요 한 정보 유형 탭 <br/> https://compliance.microsoft.com/dataclassification?viewid=sensitiveinfotypes |[What the sensitive information types look for](what-the-sensitive-information-types-look-for.md)(중요한 정보 유형이 찾는 항목)|
+|중요 한 정보 유형|분류 > 중요 한 정보 유형 <br/> https://protection.office.com/sensitivetypes |데이터 분류 > 중요 한 정보 유형 탭 <br/> https://compliance.microsoft.com/dataclassification?viewid=sensitiveinfotypes |[중요한 정보 유형이 찾는 항목](what-the-sensitive-information-types-look-for.md)|
 |민감도 레이블 및 레이블 정책|분류 > 민감도 레이블 > 레이블 및 레이블 정책 탭 <br/> https://protection.office.com/sensitivity |정보 보호 > 레이블 및 레이블 정책 탭 <br/> https://compliance.microsoft.com/informationprotection?viewid=sensitivitylabels <br/> https://compliance.microsoft.com/informationprotection?viewid=sensitivitylabelpolicies |[민감도 레이블 알아보기](sensitivity-labels.md) |
 |서비스 보증|서비스 보증 <br/> https://protection.office.com/serviceassurance/dashboard |현재 서비스 보증 리소스는 Office 365 보안 & 준수 센터 에서만 액세스할 수 있습니다. |[보안 & 준수 센터의 서비스 보증](service-assurance.md)|
 |감독|감독 <br/> https://protection.office.com/supervisoryreviewv2 |커뮤니케이션 규정 준수 <br/> https://compliance.microsoft.com/supervisoryreview |[Microsoft 365의 통신 준수 (미리 보기)](communication-compliance.md) |

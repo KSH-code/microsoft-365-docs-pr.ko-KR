@@ -1,5 +1,5 @@
 ---
-title: 웹용 Outlook에 대 한 Exchange Online의 S/MIME 설정 구성
+title: S/MIME 설정 구성-웹에서 Outlook 용 Exchange Online
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -15,12 +15,13 @@ ms.assetid: c7dee22c-9b5b-425c-91a9-d093204ff84e
 ms.collection:
 - M365-security-compliance
 description: Exchange Online 관리자가 웹에서 Outlook의 S/MIME 설정을 보고 구성 하기 위해 수행 해야 하는 작업에 대 한 간략 한 설명입니다.
-ms.openlocfilehash: 354b247c2b0e0e610e6cb0626f4a404b582db717
-ms.sourcegitcommit: c2a36b16e354e20db5fd6275175ca856eae55bfc
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 2ed3f3c6289c4663c6bebecdf9ab03eacd94e373
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/12/2020
-ms.locfileid: "41960324"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035097"
 ---
 # <a name="configure-smime-settings-in-exchange-online-for-outlook-on-the-web"></a>웹용 Outlook에 대 한 Exchange Online의 S/MIME 설정 구성
 

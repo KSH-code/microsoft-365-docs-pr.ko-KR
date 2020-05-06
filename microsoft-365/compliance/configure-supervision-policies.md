@@ -1,6 +1,6 @@
 ---
 title: 감독 정책 구성
-description: Office 365에 대 한 통신 감독 구성
+description: 내부 또는 외부 검토자가 검사할 수 있도록 직원 통신을 캡처하기 위해 Office 365에서 통신 감독 정책을 구성 합니다.
 f1.keywords:
 - NOCSH
 ms.author: robmazz
@@ -19,12 +19,13 @@ search.appverid:
 - MET150
 - MOE150
 titleSuffix: Office 365 Compliance
-ms.openlocfilehash: c13e481cfc55e56d8cc1c0a772f2f661992f5353
-ms.sourcegitcommit: d929fa32fc2dfb0749fa2420eddbc2251d8489dc
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 9cbde149419320495e3848867846322733cb56f9
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43921460"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44033658"
 ---
 # <a name="configure-supervision-policies-in-office-365"></a>Office 365에서 감독 정책 구성
 

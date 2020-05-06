@@ -14,13 +14,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: a6ef28a4-2447-4b43-aae2-f5af6d53c68e
-description: 정보 보호를 위한 랜딩 페이지
-ms.openlocfilehash: f5153373d73ec542f2a21561ce32c37368ff02e4
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+description: 이 랜딩 페이지에서는 Microsoft 365 및 Office 365에서 정보를 보호 하는 방법에 대 한 링크와 정보를 제공 합니다.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: bf230c8ca679b36046048b0b349326778a489369
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601675"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44031482"
 ---
 # <a name="protect-information"></a>정보 보호
 

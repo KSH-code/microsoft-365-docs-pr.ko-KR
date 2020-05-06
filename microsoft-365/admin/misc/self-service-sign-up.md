@@ -21,12 +21,12 @@ search.appverid:
 ms.assetid: 4f8712ff-9346-4c6c-bb63-a21ad7a62cbd
 description: Microsoft 365 셀프 서비스에 제공 되는 microsoft Power Apps, Microsoft Flow 및 Dynamics 365 (Financials)과 같은 사용 가능한 셀프 서비스 프로그램에 대해 알아봅니다.
 ms.custom: okr_SMB
-ms.openlocfilehash: d20609d48c71795205940546bef752c236ae3e81
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 02d318fbafb6e062f9c3d1592cd6adc7f764fd56
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627803"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44045276"
 ---
 # <a name="using-self-service-sign-up-in-your-organization"></a>조직에서 셀프 서비스 등록 사용
 
@@ -42,7 +42,7 @@ Microsoft에서 의견을 듣고 조직의 사용자가 마이크로소프트의
 
 3. 전자 메일 주소의 유효성을 검사 한 다음 Microsoft 365, Power BI 또는 기타 서비스 사용을 바로 시작할 수 있습니다.
 
-4. 비즈니스 관리자는 관리 센터에서 **Products & services** 페이지를 확인 하 여 구독에 등록 한 사용자를 확인할 수 있습니다. 이 방법을 통해 테 넌 트의 서비스에 대해 새 라이선스 또는 인식할 수 없는 라이선스가 있는 경우를 확인할 수 있습니다. 사용자가 셀프 서비스 구독에 등록할 수 있는지 여부를 제어 하려면 **AllowAdHocSubscriptions** 매개 변수와 함께 [set-msolcompanysettings](https://docs.microsoft.com/powershell/module/msonline/set-msolcompanysettings?view=azureadps-1.0) PowerShell cmdlet을 사용 합니다. 자세한 내용은 [How to control services settings?](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/self-service-purchase-faq?view=o365-worldwide) 를 참조 하십시오.
+4. 비즈니스 관리자는 관리 센터에서 **제품** 페이지를 보고 구독에 등록 한 사용자를 확인할 수 있습니다. 이 방법을 통해 테 넌 트의 서비스에 대해 새 라이선스 또는 인식할 수 없는 라이선스가 있는 경우를 확인할 수 있습니다. 사용자가 셀프 서비스 구독에 등록할 수 있는지 여부를 제어 하려면 **AllowAdHocSubscriptions** 매개 변수와 함께 [set-msolcompanysettings](https://docs.microsoft.com/powershell/module/msonline/set-msolcompanysettings?view=azureadps-1.0) PowerShell cmdlet을 사용 합니다. 자세한 내용은 [How to control services settings?](https://docs.microsoft.com/microsoft-365/commerce/subscriptions/self-service-purchase-faq?view=o365-worldwide) 를 참조 하십시오.
 
 ## <a name="available-self-service-programs"></a>사용 가능한 셀프 서비스 프로그램
 

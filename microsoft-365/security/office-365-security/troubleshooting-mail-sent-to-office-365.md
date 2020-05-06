@@ -15,13 +15,15 @@ search.appverid:
 ms.assetid: f4caa4e1-e414-4b21-8822-31c08064c059
 ms.collection:
 - M365-security-compliance
-description: 이 문서에서는 Microsoft 365의 받은 편지함에 전자 메일을 보내려고 할 때 문제가 발생 하는 보낸 사람에 대 한 문제 해결 정보를 제공 하 고 고객에 게 대량으로 메일을 보내는 데 유용한
-ms.openlocfilehash: 89fd6d11cca0d7689203948922b27e46ae2c602a
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom:
+- seo-marvel-apr2020
+description: 이 문서에서는 microsoft 365 고객에 게 대량 메일을 보내기 위한 모범 사례 & Microsoft 365의 받은 편지함에 전자 메일을 보내는 문제에 대 한 문제 해결 정보를 제공 합니다.
+ms.openlocfilehash: 849707ee8b703f13ac12ecb414a8ed9ea6421704
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631148"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036743"
 ---
 # <a name="troubleshooting-mail-sent-to-office-365"></a>Office 365로 전송한 문제 해결 메일
 

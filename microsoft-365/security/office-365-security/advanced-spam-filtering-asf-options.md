@@ -15,13 +15,15 @@ search.appverid:
 ms.assetid: b286f853-b484-4af0-b01f-281fffd85e7a
 ms.collection:
 - M365-security-compliance
-description: 스팸 방지 정책 (즉, 스팸 필터 정책 또는 콘텐츠 필터 정책이 라고도 함)의 ASF (고급 스팸 필터) 설정은 관리자가 스팸에 일반적으로 사용 되는 특정 메시지 속성을 포함 하는 메시지를 식별 하는 것을 허용 합니다. 속성에 따라 ASF 검색은 메시지를 스팸 또는 높은 신뢰도 스팸으로 표시 합니다.
-ms.openlocfilehash: 58114fa97d46a5a6f6f49c24826ace9edd811e1d
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom:
+- seo-marvel-apr2020
+description: 관리자가 스팸에 일반적으로 사용 되는 특정 메시지 속성을 포함 하는 메시지를 식별할 수 있도록 하는 스팸 방지 정책에서 ASF (고급 스팸 필터) 설정에 대해 알아봅니다.
+ms.openlocfilehash: 31793f5996cc27cf7e5de75d9c190657e6592c57
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634733"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034137"
 ---
 # <a name="advanced-spam-filter-asf-settings-in-office-365"></a>Office 365의 ASF (고급 스팸 필터) 설정
 
@@ -51,7 +53,7 @@ ms.locfileid: "43634733"
 
   - **Bcc 메시지 보내기 (*Bccmessage*)**: 지정 된 전자 메일 주소 (PowerShell의 *TestModeBccToRecipients* 매개 변수 값)가 메시지의 숨은 참조 필드에 추가 되 고 해당 메시지는 숨은 참조 받는 사람에 게 배달 됩니다. 보안 & 준수 센터에서는 여러 전자 메일 주소를 세미콜론 (;)으로 구분 합니다. PowerShell에서는 여러 전자 메일 주소를 쉼표로 구분 합니다.
 
-  **참고:**
+  **참고**:
 
   - 다음 ASF 설정에는 테스트 모드를 사용할 수 없습니다.
 

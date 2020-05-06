@@ -1,5 +1,5 @@
 ---
-title: 'EOP에서 관리자 역할 그룹 보고서 실행 '
+title: EOP에서 관리자 역할 그룹 보고서 실행
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -11,13 +11,15 @@ ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 23b47b57-0eec-46a3-a03b-366ea014ab31
-description: 관리자는 EOP (Exchange Online Protection)에서 administrator 역할 그룹 보고서를 실행 하는 방법을 확인할 수 있습니다. 이 보고서는 관리자가 구성원을 관리 역할 그룹에 추가 하거나 구성원을 제거할 때 로그에 기록 하며, Microsoft EOP (Exchange Online Protection)에서는 각 항목을 기록 합니다.
-ms.openlocfilehash: d9e7db8accae259b3eb332ce17c52c6749c2bec2
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.custom:
+- seo-marvel-apr2020
+description: 이 문서에서는 EOP (Exchange Online Protection)에서 관리자 역할 그룹 보고서를 실행 하는 방법을 알아봅니다.
+ms.openlocfilehash: d3c4db8079a71ba054f323617d3ade65083a3a04
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41598545"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034459"
 ---
 # <a name="run-an-administrator-role-group-report-in-eop"></a>EOP에서 관리자 역할 그룹 보고서 실행
 

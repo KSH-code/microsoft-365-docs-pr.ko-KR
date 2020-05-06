@@ -15,13 +15,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: ''
-ms.openlocfilehash: 806e27f85df0c51ffe019f5fd3c702c165afdd89
-ms.sourcegitcommit: 72e43b9bf85dbf8f5cf2040ea6a4750d6dc867c9
+description: 고급 eDiscovery 사례에서 데이터를 분석, 쿼리, 보기, 태그 및 내보낼 수 있도록 검토 집합을 관리 하는 방법에 대해 알아봅니다.
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: c489fa77c8e2d40d4f50275848465d5e8334c7a1
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/24/2020
-ms.locfileid: "43800059"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034170"
 ---
 # <a name="manage-review-sets-in-advanced-ediscovery"></a>고급 eDiscovery에서 검토 집합 관리
 

@@ -16,13 +16,14 @@ ms.collection:
 - M365-security-compliance
 - Strat_O365_Enterprise
 - SPO_Content
-description: '요약: Skype, OneDrive, SharePoint 및 Exchange Online의 암호화에 대 한 설명입니다.'
-ms.openlocfilehash: 13c46df74861120b6f5c2fbe7132f912ef29dde3
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: 이 문서에서는 Skype, OneDrive, SharePoint 및 Exchange Online에 대 한 Office 365 암호화에 대 한 설명을 찾습니다.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 9e250f3fe63875f2f1d65f2765e114f212e72f35
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637288"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44031398"
 ---
 # <a name="encryption-for-skype-for-business-onedrive-for-business-sharepoint-online-and-exchange-online"></a>비즈니스용 Skype, 비즈니스용 OneDrive, SharePoint 온라인 및 Exchange 온라인을 위한 암호화
 

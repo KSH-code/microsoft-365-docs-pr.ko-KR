@@ -15,13 +15,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: ''
-ms.openlocfilehash: 11115db9e9a29f9abe83b3c26322f7586806d4dc
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: 고급 eDiscovery의 기본 제공 custodian 관리 도구를 사용 하 여 워크플로를 조정 하 고 사례에서 관련 데이터 원본을 식별 하는 방법에 대해 알아봅니다.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: b0c85fb080faeeafd5909c033bc95ef14efc2c45
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632313"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034692"
 ---
 # <a name="add-custodians-to-an-advanced-ediscovery-case"></a>고급 eDiscovery 사례에 custodians 추가
 

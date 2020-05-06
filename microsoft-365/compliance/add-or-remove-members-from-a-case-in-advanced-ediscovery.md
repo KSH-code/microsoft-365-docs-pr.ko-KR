@@ -15,13 +15,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: ''
-ms.openlocfilehash: 6991cfaa0cc174d3cee7cc441ab12195719b7056
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+description: 고급 eDiscovery 사례를 관리할 때 사례에 액세스할 수 있는 구성원을 추가 하거나 제거 하는 방법에 대해 알아봅니다.
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 0f54953c77f3350746f3853ba128b2d5c08d4321
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41594041"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034662"
 ---
 # <a name="add-or-remove-members-from-a-case"></a>사례에서 구성원 추가 또는 제거
 

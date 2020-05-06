@@ -22,12 +22,12 @@ search.appverid:
 - MOE150
 ms.assetid: 0b0bd900-68b1-4bf5-808b-5d240a7739f4
 description: 'Microsoft 365 for business 계정에 연결 된 전자 메일 주소를 두 개 이상 사용할 수 있는 방법을 알아봅니다. '
-ms.openlocfilehash: 66ff2441c95ed28b2072792fd0a63b16eea85c04
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: efd0dbf5ae072c803b52d94dd41f16db9bb0413a
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43629086"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44048810"
 ---
 # <a name="add-another-email-alias-for-a-user"></a>사용자의 다른 전자 메일 별칭 추가
   
@@ -68,7 +68,7 @@ Microsoft 365의 기본 전자 메일 주소는 일반적으로 계정을 만들
     > GoDaddy 또는 다른 파트너로부터 구독을 구입한 경우 새 별칭을 기본으로 설정하려면 GoDaddy/파트너 관리 콘솔로 이동해야 합니다. 
   
     > [!TIP]
-    > 전자 메일 별칭은 드롭다운 목록의 도메인으로 끝나야 합니다. 목록에 다른 도메인 이름을 추가 하려면 [add a domain To Office 365](https://support.office.com/article/2d2fa996-b760-411d-a5cc-190d63f13207.aspx)을 참조 하십시오. 
+    > 전자 메일 별칭은 드롭다운 목록의 도메인으로 끝나야 합니다. 목록에 다른 도메인 이름을 추가 하려면 [add a domain To Office 365](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain)을 참조 하십시오. 
   
      
 5. 작업을 마치면 **변경 내용 저장**을 선택 합니다.
@@ -84,7 +84,7 @@ Microsoft 365의 기본 전자 메일 주소는 일반적으로 계정을 만들
 
 ::: moniker range="o365-germany"
     
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다. 
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다.. 
     
     
 2. **활성 사용자** 페이지에서 편집할 사용자 이름을 선택합니다.
@@ -100,7 +100,7 @@ Microsoft 365의 기본 전자 메일 주소는 일반적으로 계정을 만들
     > GoDaddy 또는 다른 파트너로부터 구독을 구입한 경우 새 별칭을 기본으로 설정하려면 GoDaddy/파트너 관리 콘솔로 이동해야 합니다. 
   
     > [!TIP]
-    > 전자 메일 별칭은 드롭다운 목록의 도메인으로 끝나야 합니다. 목록에 다른 도메인 이름을 추가 하려면 [add a domain To Office 365](https://support.office.com/article/2d2fa996-b760-411d-a5cc-190d63f13207.aspx)을 참조 하십시오. 
+    > 전자 메일 별칭은 드롭다운 목록의 도메인으로 끝나야 합니다. 목록에 다른 도메인 이름을 추가 하려면 [add a domain To Office 365](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain)을 참조 하십시오. 
 
 5. 작업을 마치면 **Save (저장**)를 선택 합니다.
 
@@ -115,7 +115,7 @@ Microsoft 365의 기본 전자 메일 주소는 일반적으로 계정을 만들
 
 ::: moniker range="o365-21vianet"
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다. 
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다.. 
 
     
 2. **활성 사용자** 페이지에서 편집할 사용자 이름을 선택합니다.
@@ -131,7 +131,7 @@ Microsoft 365의 기본 전자 메일 주소는 일반적으로 계정을 만들
     > GoDaddy 또는 다른 파트너로부터 구독을 구입한 경우 새 별칭을 기본으로 설정하려면 GoDaddy/파트너 관리 콘솔로 이동해야 합니다. 
   
     > [!TIP]
-    > 전자 메일 별칭은 드롭다운 목록의 도메인으로 끝나야 합니다. 목록에 다른 도메인 이름을 추가 하려면 [add a domain To Office 365](https://support.office.com/article/2d2fa996-b760-411d-a5cc-190d63f13207.aspx)을 참조 하십시오. 
+    > 전자 메일 별칭은 드롭다운 목록의 도메인으로 끝나야 합니다. 목록에 다른 도메인 이름을 추가 하려면 [add a domain To Office 365](https://docs.microsoft.com/microsoft-365/admin/setup/add-domain)을 참조 하십시오. 
 
 5. 작업을 마치면 **Save (저장**)를 선택 합니다.
 
