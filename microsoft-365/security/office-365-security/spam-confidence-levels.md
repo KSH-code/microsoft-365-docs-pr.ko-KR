@@ -15,13 +15,15 @@ search.appverid:
 ms.assetid: 34681000-0022-4b92-b38a-e32b3ed96bf6
 ms.collection:
 - M365-security-compliance
-description: 관리자는 SCL (스팸 지 수)에 따라 메시지의 스팸이 얼마나 되는지 또는 발생할 가능성이 어떻게 결정 되는지, 스팸 필터링이 SCL을 기반으로 하는 메시지에 적용 되는 기본 작업에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: 519bc48e7285283ad0570b8f3ac598615b132875
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom:
+- seo-marvel-apr2020
+description: 이 문서에서는 관리자가 SCL (스팸 지 수)이 메시지의 likeliness를 스팸으로 결정 하는 방법에 대해 알아볼 수 있습니다.
+ms.openlocfilehash: 9448b1fd99878dbb85bc8699afc0719bc62dd951
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43638287"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035251"
 ---
 # <a name="spam-confidence-level-scl-in-office-365"></a>Office 365의 SCL (스팸 지 수)
 

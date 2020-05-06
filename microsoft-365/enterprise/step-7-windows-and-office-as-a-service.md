@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 사용자 환경에서 Windows 및 Office Servicing을 준비하는 방법을 알아봅니다.
-ms.openlocfilehash: 422cbd4fd8310a9bc63696c0ea6e9da858c51230
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: bca8fbf39bbbcc7b0a37512383caf630ffe3da67
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636738"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011618"
 ---
 # <a name="step-7-windows-and-office-servicing"></a>7단계: Windows 및 Office Servicing
 
@@ -83,7 +83,7 @@ Windows 10 및 엔터프라이즈용 Microsoft 365 앱 모두 새로운 서비�
 
 [Configuration Manager를 사용하여 Windows 10 업데이트 배포](https://docs.microsoft.com/windows/deployment/update/waas-manage-updates-configuration-manager)
 
-[Configuration Manager를 사용하여 엔터프라이즈용 Microsoft 365 앱 관리](https://docs.microsoft.com/configmgr/sum/deploy-use/manage-office-365-proplus-updates)
+[Configuration Manager를 사용하여 엔터프라이즈용 Microsoft 365 앱 관리](https://docs.microsoft.com/mem/configmgr/sum/deploy-use/manage-office-365-proplus-updates)
 
 ## <a name="overview-of-windows-and-office-channels"></a>Windows 및 Office 채널 개요
 
@@ -103,7 +103,7 @@ Microsoft 365는 다음과 같은 4가지 서비스 채널을 제공합니다.
 Windows 및 Office 서비스 채널에 대한 자세한 내용은 아래 설명서를 검토하세요.
 
 - [Windows as a Service 개요](https://docs.microsoft.com/windows/deployment/update/waas-overview#servicing-channels)
-- [엔터프라이즈용 Microsoft 365 앱의 업데이트 채널 개요](https://docs.microsoft.com/DeployOffice/overview-of-update-channels-for-office-365-proplus#BKMK_SAC)
+- [Microsoft 365 앱의 업데이트 채널 개요](https://docs.microsoft.com/DeployOffice/overview-update-channels#BKMK_SAC)
 
 ## <a name="phased-deployment-of-updates"></a>단계별 업데이트 배포
 
@@ -141,7 +141,7 @@ Windows 및 Office 업데이트 채널은 Configuration Manager를 통해 표준
 
 [Windows 반기 채널](https://docs.microsoft.com/windows/deployment/update/waas-overview#semi-annual-channel)
 
-[엔터프라이즈용 Microsoft 365 앱에 대한 반기 채널](https://docs.microsoft.com/DeployOffice/overview-of-update-channels-for-office-365-proplus#BKMK_SAC)
+[Microsoft 365 앱에 대한 반기 채널](https://docs.microsoft.com/DeployOffice/overview-update-channels#BKMK_SAC)
 
 #### <a name="upgrade-task-sequences"></a>업그레이드 작업 시퀀스
 
@@ -153,7 +153,7 @@ Windows 및 Office 업데이트 채널은 Configuration Manager를 통해 표준
 
 Windows 7 컴퓨터를 Windows 10으로 마이그레이션하는 작업 시퀀스를 이미 사용 중이며 해당 도구에 대해 잘 아는 경우, 작업 시퀀스로 시작하면 좋으며 작업을 적절히 제어할 수 있습니다. 전체 업그레이드에 대해 단일 작업 시퀀스를 사용할 수 있지만 조직에서는 일반적으로 2개의 작업 시퀀스를 사용합니다. 하나는 컴퓨터의 업그레이드 준비가 되었는지 확인하는 것으로, 대상 컴퓨터에서 모든 필수 설치 파일을 사전에 준비하는 시퀀스이며, 다른 하나는 실제 업그레이드를 수행하는 시퀀스입니다. 이러한 방식을 통해 사용자 생산성이 영향을 덜 받습니다.
 
-[Configuration Manager에서 OS를 업그레이드하는 작업 시퀀스 만들기](https://docs.microsoft.com/configmgr/osd/deploy-use/create-a-task-sequence-to-upgrade-an-operating-system)
+[Configuration Manager에서 OS를 업그레이드하는 작업 시퀀스 만들기](https://docs.microsoft.com/mem/configmgr/osd/deploy-use/create-a-task-sequence-to-upgrade-an-operating-system)
 
 #### <a name="semi-annual-channel-support-for-feature-updates"></a>기능 업데이트에 대한 반기 채널 지원
 

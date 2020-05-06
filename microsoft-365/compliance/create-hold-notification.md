@@ -15,13 +15,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: 고급 eDiscovery 사례에서 통신 탭을 사용 하 여 custodian 알림 워크플로를 관리 합니다.
-ms.openlocfilehash: b4d3c4c3ed132914ebe46b03eb65d24e073ee687
-ms.sourcegitcommit: 6d672eb8287526a9db90df5fa85bc4984a7047d1
+description: 고급 eDiscovery 사례의 통신 도구를 사용 하 여 법적 보존 알림을 보내고, 수집 하 고, 추적 합니다.
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 0bcbdef1c1393ff3e7f3baf30279909ed3a663f5
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/26/2020
-ms.locfileid: "42280236"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035790"
 ---
 # <a name="create-a-legal-hold-notice"></a>법적 보존 알림 만들기
 

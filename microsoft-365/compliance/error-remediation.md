@@ -15,13 +15,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: ''
-ms.openlocfilehash: 524378ecb7ec7cd8285e7d1ccda5667aa6081f30
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+description: 오류 수정을 사용 하 여 콘텐츠를 올바르게 처리 하지 못할 수 있는 데이터 조사 (미리 보기)의 데이터 문제를 해결 하는 방법을 알아봅니다.
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: c833ce9ae93f5395e06ee3dbde54ff4a8d5d4a00
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42634896"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035120"
 ---
 # <a name="error-remediation-when-processing-data-for-an-investigation"></a>조사를 위해 데이터를 처리할 때의 오류 수정
 

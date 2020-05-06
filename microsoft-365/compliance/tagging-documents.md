@@ -15,13 +15,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: ''
-ms.openlocfilehash: 1c0eaed5d5971a55e4e9851bac3133bcd961eb36
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+description: 문서를 검토 집합에 태그를 지정 하면 불필요 한 콘텐츠를 제거 하 고 고급 eDiscovery 사례에서 관련 콘텐츠를 식별할 수 있습니다.
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 445bf9a0ee5959c4972920a74e7bd1596d9edca1
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42557698"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034552"
 ---
 # <a name="tag-documents-in-a-review-set"></a>검토 집합에서 문서 태그 지정
 

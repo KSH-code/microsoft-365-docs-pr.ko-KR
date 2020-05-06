@@ -27,12 +27,12 @@ search.appverid:
 - MET150
 ms.assetid: 496e690b-b75d-4ff5-bf34-cc32905d0364
 description: 비즈니스에 대 한 Microsoft 365, 비즈니스를 설정 하는 방법, 그리고 Microsoft 365 for business에서 보호 되는 사용자의 장치 및 Pc를 준비 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 17b142fb704d1b0be088a649490e751effb19517
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 8754c470cb6369f0814f953288be130fa49cea86
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43633206"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44048088"
 ---
 # <a name="get-started-with-microsoft-365-for-business"></a>Microsoft 365 for business 시작
 
@@ -44,7 +44,7 @@ Microsoft 365 for business에 대 한 간략 한 개요를 보려면이 비디�
 
 > [!VIDEO https://www.microsoft.com/videoplayer/embed/RE2mhaA] 
   
-비즈니스용 Microsoft 365는 최대 300의 라이선스를 의미 합니다. 라이선스가 더 필요한 경우 자세한 내용은 [Microsoft 365 Enterprise](https://go.microsoft.com/fwlink/p/?linkid=860986) 설명서를 참조 하세요. 
+비즈니스용 Microsoft 365는 최대 300의 라이선스를 의미 합니다. 라이선스가 더 필요한 경우 자세한 내용은 [Microsoft 365 Enterprise](https://go.microsoft.com/fwlink/p/?linkid=860986) 설명서를 참조하세요. 
   
 ## <a name="get-microsoft-365-for-business"></a>비즈니스에 대 한 Microsoft 365 받기
 
@@ -52,7 +52,7 @@ Microsoft 365 for business에 대 한 간략 한 개요를 보려면이 비디�
     
 - 파트너가 없고 Microsoft 365 비즈니스를 받으려는 경우 [여기에서 구매할](https://www.microsoft.com/microsoft-365/business)수 있습니다.
     
-## <a name="set-up-microsoft-365-for-business"></a>Microsoft 365 for business 설정
+## <a name="set-up-microsoft-365-for-business"></a>비즈니스용 Microsoft 365 설정
 
  **Microsoft 365 for business Suite 설정 개요**
   
@@ -83,7 +83,7 @@ Microsoft 365 for business setup의 개요를 보려면이 비디오를 시청 �
     
     - 디렉터리 동기화 마법사를 사용 하 여 사용자를 클라우드와 동기화 합니다. [Microsoft 365에 대 한 디렉터리 동기화 설정](https://support.office.com/article/1b3b5318-6977-42ed-b5c7-96fa74b08846) 의 단계에 따라이 프로세스를 완료 합니다. 사용자를 클라우드에 동기화 한 후 [에는 Office 365에 대 한 디렉터리 동기화를 해제](https://support.office.com/article/ee5f861e-bd48-4267-83d1-a4ead4b4a00d)해야 합니다.
     
-    또한이 방식으로 추가 된 각 사용자에 게 Microsoft 365에 대 한 라이선스를 제공 해야 합니다. [설치 마법사](set-up.md) 에서이 작업을 수행 하거나 [Microsoft 365에서 비즈니스용 사용자에 게 라이선스를 할당할](https://support.office.com/article/997596B5-4173-4627-B915-36ABAC6786DC)수 있습니다.
+    또한이 방식으로 추가 된 각 사용자에 게 Microsoft 365에 대 한 라이선스를 제공 해야 합니다. [설치 마법사](set-up.md) 에서이 작업을 수행 하거나 [Microsoft 365에서 비즈니스용 사용자에 게 라이선스를 할당할](https://docs.microsoft.com/microsoft-365/admin/add-users/add-users)수 있습니다.
     
 ### <a name="2-prepare-mobile-devices"></a>2: 모바일 장치 준비
 
@@ -112,4 +112,4 @@ Microsoft 365 for business setup의 개요를 보려면이 비디오를 시청 �
   
 비즈니스를[위해 microsoft 365로 마이그레이션하기](migrate-to-microsoft-365-business.md) [위한 Microsoft 365을 관리](manage.md)합니다.
 
-[Microsoft 365 for business 교육용 비디오](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816) 
+[Microsoft 365 Business 교육 비디오](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816) 

@@ -15,13 +15,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: 이 문서에서는 Microsoft 365의 새로운 고급 eDiscovery 버전에 대해 설명 합니다.
-ms.openlocfilehash: 3296fbbd04f2baa635fdf0330fc65b927a21448a
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: 이 문서에서는 내부 및 외부 조사 도구인 Microsoft 365의 고급 eDiscovery에 대 한 개요를 제공 합니다.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: fae09b33364f9ff57233ee25ccf40e4956dfd408
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43626764"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034908"
 ---
 # <a name="overview-of-the-advanced-ediscovery-solution-in-microsoft-365"></a>Microsoft 365의 고급 eDiscovery 솔루션 개요
 

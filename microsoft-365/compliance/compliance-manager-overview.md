@@ -10,16 +10,19 @@ ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: M365-security-compliance
+ms.custom:
+- seo-marvel-mar2020
+- seo-marvel-apr2020
 search.appverid:
 - MOE150
 - MET150
-description: Microsoft 준수 관리자는 Microsoft Service Trust Portal의 무료 워크플로 기반 위험 평가 도구입니다. 준수 관리자를 사용 하면 Microsoft 클라우드 서비스와 관련 된 규정 준수 활동을 추적, 할당 및 확인할 수 있습니다.
-ms.openlocfilehash: 31a56f7cba8bb8957d758ca2905853f26d1f8edf
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Microsoft Service Trust Portal의 무료 워크플로 기반 위험 평가 도구인 Microsoft 준수 관리자에 대해 알아봅니다.
+ms.openlocfilehash: cc62e989a3ef0a40a05c5f2e34e6e15dc6e7f399
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632993"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44046286"
 ---
 # <a name="microsoft-compliance-manager-preview"></a>Microsoft 준수 관리자 (미리 보기)
 
@@ -42,17 +45,15 @@ Microsoft [준수 관리자 (미리 보기)](https://servicetrust.microsoft.com/
 - 준수 활동과 관련 된 증거 및 기타 아티팩트를 업로드 하 고 관리 하기 위한 보안 리포지토리를 제공 합니다.
 - 감사자, 조정기 및 기타 규정 준수 검토자를 위해 Microsoft 및 조직이 수행한 규정 준수 활동을 문서화 하는 상세한 Microsoft Excel 보고서를 작성 합니다.
 
-> [!NOTE]
-> 준수 관리자에 제공 되는 고객 작업은 권장 사항입니다. 구현 하기 전에 해당 규정 환경에서 이러한 권장 사항의 효과를 평가 하는 것이 조직에 게 있습니다. 준수 관리자의 권장 사항을 준수 보장으로 해석하면 안 됩니다.
+  
+> [!IMPORTANT]
+> 준수 점수 및 준수 관리자의 권장 사항을 준수 보장으로 해석하면 안 됩니다. 규정 환경에 따라 고객 컨트롤의 효율성을 평가 하 고 유효성을 검사 하는 작업은 사용자의 결정입니다. 이러한 서비스는 현재 미리 보기로 사용 되며 [온라인 서비스 약관](https://go.microsoft.com/fwlink/?linkid=2108910)의 사용 약관에 따라 달라 집니다. [보안 및 규정 준수에 대 한 자세한 내용은 Microsoft 365 라이선싱 지침을](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)참조 하세요.
 
 ## <a name="relationship-to-compliance-score"></a>준수 점수와의 관계
 
 [Microsoft 규정 준수 점수 (미리 보기)](compliance-score.md) 는 조직의 규정 준수 상황에 대 한 최상위 보기를 제공 하는 microsoft 365 준수 센터의 기능입니다. 데이터 보호 및 규정 표준에 대 한 위험을 줄이는 데 도움이 되는 작업 완료의 진행 상태를 측정 하는 위험 기반 점수를 계산 합니다. 전체 준수 점수를 알면 조직에서 규정 준수를 이해 하 고 관리할 수 있습니다. [준수 점수가 계산 되는 방식을](compliance-score-methodology.md)이해 합니다.
 
 준수 관리자는 준수 점수를 사용 하 여 동일한 백엔드를 공유 합니다. 두 도구에 대 한 공용 미리 보기 단계에서 준수 관리자는 평가 및 사용자 지정 컨트롤 구현을 관리 합니다. [준수 점수와 준수 관리자 간의 관계](compliance-score-release-notes.md#compliance-score-relationship-to-compliance-manager)에 대해 자세히 알아보세요.
-  
-> [!IMPORTANT]
-> 준수 점수는 조직의 특정 표준 또는 규정 준수에 대한 절대 측정값을 나타내지 않고, 개인 정보및 개인 정보 보호에 대한 위험을 줄일 수 있는 제어 장치를 채택한 정도를 나타냅니다. 어떤 서비스 에서도 표준 또는 규정을 준수 하는 것을 보증할 수 없으며 규정 준수 점수가 어떤 식으로든 보장으로 해석 되어서는 안 됩니다.
 
 ## <a name="compliance-manager-components"></a>준수 관리자 구성 요소
 

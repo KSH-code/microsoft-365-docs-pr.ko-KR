@@ -15,13 +15,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: ''
-ms.openlocfilehash: 0f9cb386ce57d6581ade5caa05e029511100d9b3
-ms.sourcegitcommit: e741930c41abcde61add22d4b773dbf171ed72ac
+description: 고급 eDiscovery 사례를 분석할 때 문서 집합을 구성 하는 데 사용할 수 있는 도구에 대해 설명 합니다.
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 87788e444a5ef671586567510448dab8b9deddcd
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/07/2020
-ms.locfileid: "42556786"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44033822"
 ---
 # <a name="analyze-data-in-a-review-set-in-advanced-ediscovery"></a>고급 eDiscovery에서 검토 집합의 데이터 분석
 

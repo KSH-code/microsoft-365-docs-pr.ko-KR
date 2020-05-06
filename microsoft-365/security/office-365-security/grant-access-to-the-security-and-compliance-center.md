@@ -17,13 +17,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 2cfce2c8-20c5-47f9-afc4-24b059c1bd76
-description: 사용자에 게 보안 또는 규정 준수 기능을 관리 하려면 먼저 Security & 준수 센터에서 사용 권한을 할당 받아야 합니다.
-ms.openlocfilehash: 5110bcecb6731cbf51023c6df19bed30bcba72c1
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: 사용자에 게 Microsoft 365 보안 & 준수 센터에서 해당 보안 또는 규정 준수 기능을 관리할 수 있는 권한을 할당 해야 합니다.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: d6071bb6260e0c0f524eb6e5d4e78c78fa8ff750
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43638061"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036671"
 ---
 # <a name="give-users-access-to-the-security--compliance-center"></a>사용자에게 보안 및 준수 센터에 대한 액세스 권한 부여
 
@@ -67,7 +68,7 @@ ms.locfileid: "43638061"
 
 ## <a name="use-powershell-to-give-another-user-access-to-the-security--compliance-center"></a>PowerShell을 사용 하 여 다른 사용자에 게 보안 & 준수 센터에 대 한 액세스 권한 부여
 
-1. [보안 및 준수 센터 PowerShell에 연결하기](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell)
+1. [보안 및 준수 센터 PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/office-365-scc/connect-to-scc-powershell/connect-to-scc-powershell)
 
 2. 다음 예와 같이 **Add-RoleGroupMember** 명령을 사용하여 사용자를 조직 관리 역할에 추가합니다.
 

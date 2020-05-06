@@ -17,12 +17,12 @@ search.appverid:
 - MET150
 ms.assetid: 3f7dde1a-a8ea-4366-86da-8ee6777f357c
 description: Exchange 하이브리드 배포에서 보안 및 준수 센터의 콘텐츠 검색 도구를 사용하여 온-프레미스 사용자의 MicrosoftTeams 채팅 데이터(1xN 채팅이라고 함)를 검색하고 내보냅니다.
-ms.openlocfilehash: 9dc9219d6ef1a387e1514deb672386d7d3c18290
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 7b05460bb41ff97c8571a96b38a8eebd50a206fd
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43626454"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034575"
 ---
 # <a name="searching-cloud-based-mailboxes-for-on-premises-users"></a>온-프레미스 사용자의 클라우드 기반 사서함 검색
 
@@ -47,7 +47,7 @@ Microsoft Teams 지원 사용자에게 온-프레미스 사서함이 있고 사�
   
 다음 그래픽은 온-프레미스 사용자의 Teams 채팅 데이터를 검색하고 미리 보고 내보내는 방법에 대한 워크플로를 보여줍니다.
   
-![Microsoft Teams에서 온-프레미스 사용자의 클라우드 기반 저장소](../media/895845f8-2ceb-47ed-96c9-5ab7f1aea916.png)
+![Microsoft Teams에서 온-프레미스 사용자의 클라우드 기반 저장소](../media/EHAMShard1.png)
   
 이 새로운 기능 외에도 클라우드 기반 사용자의 Exchange Online 사서함에서 콘텐츠 검색을 사용하여 각 Microsoft Team 및 1xN Teams 채팅 데이터와 연결된 클라우드 기반 SharePoint 사이트와 Exchange 사서함의 Teams 콘텐츠를 검색하고 미리 보고 내보낼 수 있습니다.
 

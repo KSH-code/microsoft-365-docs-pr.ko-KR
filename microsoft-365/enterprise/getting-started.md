@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 데스크톱 배포 프로세스 소개
-ms.openlocfilehash: f50a719d87a961c0446757d21d2f8be5d6eedbc0
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 05ec900acbcfed9d148ef4f567aab099dd9b7c7d
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634221"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011878"
 ---
 # <a name="getting-started---desktop-deployment"></a>시작하기 - 데스크톱 배포
 
@@ -53,7 +53,7 @@ Windows 10과 Microsoft Intelligence Cloud를 함께 사용하면 사용자에�
 
 [IT 전문가용 Windows 10](https://www.microsoft.com/itpro/windows-10)
 
-[기업에서의 엔터프라이즈용 Microsoft 365 앱 소개](https://docs.microsoft.com/deployoffice/about-office-365-proplus-in-the-enterprise)
+[엔터프라이즈용 Microsoft 365 앱](https://docs.microsoft.com/deployoffice/about-microsoft-365-apps)
 
 ## <a name="what-has-changed"></a>변경된 사항
 
@@ -67,7 +67,7 @@ Windows 10과 Microsoft Intelligence Cloud를 함께 사용하면 사용자에�
 
 **클라우드 기반 장치 관리:** Microsoft Intune과 같은 서비스는 다른 모바일 장치를 관리하는 것 처럼 Windows 10 장치를 한 곳에서 관리하는 데 도움이 됩니다. Microsoft Intune을 특별하게 만들어 주는 것은 Microsoft Endpoint Configuration Manager로 Windows 10 장치를 공동 관리 할 수 있는 능력입니다. Configuration Manager를 사용하여 Windows 10으로 전환한 다음 Microsoft Intune을 추가할 수 있습니다. Microsoft Endpoint Configuration Manager를 함께 사용하면 Microsoft 지능형 클라우드에 연결된 조직 내에서 인텔리전트 에지가 됩니다. 이를 통해 조직의 인프라 또는 공개 클라우드 어디에 연결되어 있던지 장소에 구애받지 않고 사용자의 장치를 안전하게 관리 할 수 있습니다.
 
-[Windows 10 장치의 공동 관리](https://docs.microsoft.com/configmgr/core/clients/manage/co-management-overview)
+[Windows 10 장치의 공동 관리](https://docs.microsoft.com/mem/configmgr/core/clients/manage/co-management-overview)
 
 **클라우드 기반 배포 서비스:** 새로운 PC를 구입한 경우 Windows Autopilot 배포 서비스라고 하는 Microsoft 365 장치를 배포하는 데 도움이되는 새로운 클라우드 서비스를 도입하였습니다. Autopilot은 하드웨어 제공 업체와 통합되며 새로운 PC는 Autopilot에 자동으로 등록되어 새로운 PC가 최종 사용자에게 직접 배송됩니다. PC의 전원이 처음 켜지면 조직이 원하는 구성으로 빠르게 구성되고 사용자의 특정 요구에 맞게 사용자 정의됩니다.
 
@@ -77,7 +77,7 @@ Windows 10과 Microsoft Intelligence Cloud를 함께 사용하면 사용자에�
 
 Click-to-Run은 과거의 MSI 기반 패키지와는 많이 다릅니다. Click-to-run은 더 빠르고 가볍게 백그라운드에서 업데이트를 지원하여 사용자가 최신상태에서 작업하도록 합니다. 이것 또한 Office의 로컬 복사본이므로 Microsoft Endpoint Configuration Manager와 같은 기존 배포 도구를 계속 사용하여 응용 프로그램을 구축하고 구성할 수 있습니다.
 
-[엔터프라이즈용 Microsoft 365 앱 배포 가이드](https://docs.microsoft.com/DeployOffice/deployment-guide-for-office-365-proplus)
+[Microsoft 365 앱 배포 가이드](https://docs.microsoft.com/DeployOffice/deployment-guide-microsoft-365-apps)
 
 **반기별 업데이트:** Windows 10 및 엔터프라이즈용 Microsoft 365 앱으로 이전하면 업데이트가 새로운 기능과 함께 반년마다 제공됩니다. 그러나 Microsoft가 클라우드에서 도움을 얻을 수 있는 통찰력을 제공함으로써 이러한 업데이트를 수백 또는 수천 개의 장치에 신속하고 정확하게 배포할 수 있습니다. 전체 업그레이드와 마찬가지로 기능 업데이트는 이전 릴리스의 응용 프로그램, 데이터 및 구성을 보존합니다.
 
@@ -109,14 +109,14 @@ Click-to-Run은 과거의 MSI 기반 패키지와는 많이 다릅니다. Click-
 
 **[6단계: OS 배포 및 기능 업데이트](https://aka.ms/mdd6)** 모든 준비가 완료되면 다음 단계로, OS 이미지를 배포합니다. System Center Configuration Manage 작업 시퀀스와 인프라를 사용하면 과도한 전환이 수행될 수 있습니다. 따라서 권장되는 방식은 대표적인 하드웨어 및 앱 집합을 사용하여 조직의 “얼리 어답터 그룹”을 대상으로 단계별 배포를 진행하는 것입니다. 그런 후 해당 장치 및 사용자의 데이터를 토대로 점점 더 많은 PC를 타기팅할 수 있습니다.
 
-[Configuration Manager의 운영 체제 배포 소개](https://docs.microsoft.com/configmgr/osd/understand/introduction-to-operating-system-deployment)
+[Configuration Manager의 운영 체제 배포 소개](https://docs.microsoft.com/mem/configmgr/osd/understand/introduction-to-operating-system-deployment)
 
 **[7 단계 : 서비스로서의 Windows 및 Office](https://aka.ms/mdd7) ** 이것은 사용자의 데스크톱 점유 공간을 유지 관리하는 방식에서 큰 변화를 나타냅니다. Windows 10 및 엔터프라이즈용 Microsoft 365 앱으로 전환하면 서비스로서 Windows 및 Office 관리로 이동할 수 있습니다. 몇 해에 한 번씩 엄청난 기술 변화가 일어나는 대신에 새로운 기능, 경험 및 보호 기능을 사용자에게 지속적으로 제공 할 것입니다. 반기별 기능 업데이트는 매년 가을 및 봄에 새로운 기능을 제공하며, 월간 누적 품질 업데이트에는 보안, 안정성 및 버그 수정이 포함됩니다. Office 2019 클라이언트를 배포할 수도 있지만 엔터프라이즈용 Microsoft 365 앱으로 이동하는 것을 권장드립니다. 이것은 Windows와 유사한 서비스 계획을 따르므로 사용자는 Office 응용 프로그램에 대한 업데이트를 정기적으로 받습니다.
 
 ![](../media/getting-started-media/getting-started-media-2.png)
 
 [서비스로서의 Windows 개요](https://docs.microsoft.com/windows/deployment/update/waas-overview)
-[서비스로서의 Office 개요](https://docs.microsoft.com/DeployOffice/overview-of-update-channels-for-office-365-proplus)
+[서비스로서의 Office 개요](https://docs.microsoft.com/DeployOffice/overview-update-channels)
 
 **[8 단계 : 사용자 커뮤니케이션 및 교육](https://aka.ms/mdd8) ** 이 마지막 단계는 팀워크, 커뮤니케이션, 보안 등을 향상시키는 새로운 기능의 사용을 유도하는 중요한 단계입니다. 초기도입자 링 외부의 사용자를 대상으로 광범위한 배포를 수행하기 전에 사용자 커뮤니케이션 및 교육을 시작하는 것이 좋습니다. 이를 통해 사람들이 Office, Windows 또는 기타 업무용 응용 프로그램 및 서비스에서 새로운 기능을 사용하는 방법에 대한 변경을 원하도록 유도하는 데 도움이 됩니다. 이것의 지원을 위해 Microsoft FastTrack을 통해 무료 온라인 교육을 제공합니다. 또한 무료 샘플 커뮤니케이션 계획 및 일정을 이메일, 소셜 및 인트라넷 템플릿에 함께 게시하여 Windows 10의 롤아웃을 지원합니다. Microsoft 365 또는 조직인 경우 직접 지원의 대상이 될 수도 있습니다.
 

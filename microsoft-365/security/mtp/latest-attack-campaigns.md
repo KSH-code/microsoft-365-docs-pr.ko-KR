@@ -1,6 +1,6 @@
 ---
-title: Microsoft 365 보안 센터의 위협 분석을 사용한 최신 공격 캠페인 및 기술 이해
-description: Microsoft 365 보안 센터의 위협 분석 대화형 보고서에 대해 설명 합니다.
+title: 위협 분석을 사용한 최신 공격 캠페인 및 기술 이해
+description: Microsoft 365의 위협 분석 대화형 보고서를 사용 하 여 새로운 위협 으로부터 조직의 보안 및 복원 력을 평가 합니다.
 keywords: 보안, 맬웨어, Microsoft 365, M365, 보안 센터, 위협 분석, Microsoft Defender ATP, 사이버, 보안 상황, 최신 위협
 ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
@@ -14,12 +14,13 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: fcb58c2c002878fe42c723e0c2c75aa269ebc368
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 1c058754ff65510ffd005a4017195bf0afa85eb0
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42087557"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034049"
 ---
 # <a name="understand-the-latest-attack-campaigns-and-techniques-with-threat-analytics"></a>위협 분석을 사용한 최신 공격 캠페인 및 기술 이해 
 

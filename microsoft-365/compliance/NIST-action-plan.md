@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 NIST 800-53 작업 계획 - 처음 30일, 90일 및 그 이상 기간에 대한 최고 우선 순위 지정
+title: Microsoft 365 NIST 800-53 작업 계획은 처음 30일, 90일 및 그 이상 기간에 대한 우선 순위를 지정합니다
 description: NIST(National Institute of Standards and Technology)의 요구 사항을 준수하기 위해 따라야 하는 우선 순위가 지정된 작업 계획
 keywords: Microsoft 365, Microsoft 365 Education, Microsoft 365 설명서, NIST, NIST 800-53
 author: BrendaCarter
@@ -14,18 +14,19 @@ manager: laurawi
 audience: itpro
 ms.collection:
 - M365-security-compliance
-ms.openlocfilehash: 874077089cb12292db316d99869fcdfd7b449f91
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: fc43420b18483bc93814b2eb0e8605af86beef1c
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632333"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034784"
 ---
 # <a name="microsoft-365-nist-800-53-action-plan--top-priorities-for-your-first-30-days-90-days-and-beyond"></a>Microsoft 365 NIST 800-53 작업 계획 - 처음 30일, 90일 및 그 이상 기간에 대한 최고 우선 순위 지정
 
-Microsoft 365는 다수 규정 표준과 함께 제어를 조절하는 클라우드 제어 프레임워크로 기업을 운영할 수 있게 해줍니다. Microsoft 365에는 Office 365, Windows 10 및 Enterprise Mobility + Security가 포함되어 있습니다. Microsoft의 내부 제어 시스템은 국립표준 및 기술 (NIST) 특수 발행물 800-53을 기준으로 하며 Office 365는 최신 NIST 800 53 표준으로 공인되어 있습니다.
+Microsoft 365는 다수 규정 표준과 함께 제어를 조절하는 클라우드 제어 프레임워크로 기업을 운영할 수 있게 해줍니다. Microsoft 365에는 Office 365, Windows 10 및 Enterprise Mobility + Security가 포함되어 있습니다. Microsoft의 내부 제어 시스템은 국립표준기술연구소(NIST) 특수 발행물 800-53을 기준으로 하며, Office 365는 최신 NIST 800 53 표준으로 공인되어 있습니다.
 
-Microsoft는 클라우드 보안 분야에서 업계 선두주자로 인식되고 있습니다. 엔터프라이즈 소프트웨어 구축 및 온라인 서비스 실행에 대한 다년 간의 경험을 토대로, 현재 서비스 및 응용 프로그램을 지속적으로 학습하고 업데이트함으로써 규정 준수에 대한 엄격한 업계 표준을 준수하는 보안 클라우드 생산성 서비스를 제공합니다. Office 365 U.S. Government를 포함하는 Microsoft의 정부 클라우드 서비스는 US FedRAMP(Federal Risk and Authorization Management Program)의 까다로운 요구 사항을 충족하여, 미국 연방 기관이 Microsoft 클라우드의 비용 절감 및 엄격한 보안 혜택을 누리도록 합니다.
+Microsoft는 클라우드 보안 분야에서 업계 선두주자로 인식되고 있습니다. 엔터프라이즈 소프트웨어 구축 및 온라인 서비스 실행에 대한 다년 간의 경험을 토대로, 현재 서비스 및 응용 프로그램을 지속적으로 학습하고 업데이트함으로써 규정 준수에 대한 엄격한 업계 표준을 준수하는 보안 클라우드 생산성 서비스를 제공합니다. Office 365 U.S. Government를 포함하는 Microsoft의 정부 클라우드 서비스는 US FedRAMP(연방 위험 및 인증 관리 프로그램)의 까다로운 요구 사항을 충족하여, 미국 연방 기관이 Microsoft 클라우드의 비용 절감 및 엄격한 보안 혜택을 누리도록 합니다.
 
 이 문서에는 NIST 800-53 요구 사항을 충족하기 위해 사용할 수 있는 작업 계획이 우선 순위대로 포함되어 있습니다. 이 액션 계획은 규정 준수 전문 업체인 Microsoft 파트너가 있는 Protiviti와 공동 작업으로 개발되었습니다. 
 
@@ -36,9 +37,9 @@ Microsoft는 클라우드 보안 분야에서 업계 선두주자로 인식되�
 |||
 |:-----|:-----|
 |**작업 단계**|**결과**|
-|30일|•   NIST 800-53 요구 사항을 이해하고 Microsoft 자문 파트너와 함께 작업하는 것이 좋습니다.<br>•   Microsoft 365 기본 제공 심층 방어 전략을 알아보고 이해합니다.  <br>•   Office 365에 대한 사용자 및 관리자 액세스를 보호합니다. <br>•   조직의 감사 및 책임 정책에 따라 시스템에 대한 모든 액세스를 감사할 수 있도록 합니다.|
-|90일|•   맬웨어 방지, 패치 및 구성 관리 프로그램을 향상시킵니다.<br>•   Microsoft 365 보안 기능을 사용하여 환경에 대한 액세스를 제어하고, 조직 정보 및 자산을 보호합니다.<br>•   Office 365 내에서 기본 제공 감사 기능을 사용하여 중요 또는 위험한 활동을 모니터링합니다.<br>•   전자 메일 및 Office 문서의 링크 및 첨부 파일에 대해 Advanced Threat Protection을 배포합니다.|
-|90일 초과|•   Microsoft 365 고급 도구 및 정보 보호 장치를 사용하여 장치에 대한 지속적인 제어와 회사 데이터 보호를 구현합니다.<br>•   Microsoft 365 및 기타 클라우드 응용 프로그램에서 지속적인 준수를 모니터링합니다.  <br>•   Advanced Threat Analytics의 향상된 위협 감지 및 보호 기능을 사용하여 조직에 강력한 계층형 보안 전략을 제공합니다. 조직에서 손상된 시스템이 미치는 영향을 완화하기 위해 인시던트 대응 계획을 개발합니다.|
+|30일|•   NIST 800-53 요구 사항을 이해하고 Microsoft 자문 파트너와 함께 작업하는 것을 고려합니다.<br>•   Microsoft 365 기본 제공 심층 방어 전략을 알아보고 이해합니다.  <br>•   Office 365에 대한 사용자 및 관리자 액세스를 보호합니다. <br>•   조직의 감사 및 책임 정책에 따라 시스템에 대한 모든 액세스를 감사할 수 있도록 합니다.|
+|90일|•   맬웨어 방지, 패치 및 구성 관리 프로그램을 향상시킵니다.<br>•   Microsoft 365 보안 기능을 사용하여 환경에 대한 액세스를 제어하고 조직의 정보 및 자산을 보호합니다.<br>•   Office 365 내에서 기본 제공 감사 기능을 사용하여 중요하거나 위험한 활동을 모니터링합니다.<br>•   전자 메일 및 Office 문서의 링크 및 첨부 파일에 대해 Advanced Threat Protection을 배포합니다.|
+|90일 초과|•   Microsoft 365 고급 도구 및 정보 보호 기능을 사용하여 장치에 대한 지속적인 장치 제어와 회사 데이터 보호를 구현합니다.<br>•   Microsoft 365 및 기타 클라우드 응용 프로그램에서 지속적인 준수를 모니터링합니다.  <br>•   고급 위협 분석 기능의 향상된 위협 감지 및 보호 기능을 사용하여 조직에 강력한 계층형 보안 전략을 제공합니다. 조직에서 손상된 시스템이 미치는 영향을 완화하기 위해 인시던트 대응 계획을 개발합니다.|
 
 ## <a name="30-days--powerful-quick-wins"></a>30일 - 빠른 조치의 강력한 효과
 
@@ -72,11 +73,11 @@ Microsoft는 클라우드 보안 분야에서 업계 선두주자로 인식되�
 |||
 |:-----|:-----|
 |**영역**|**태스크**|
-|Microsoft 365 고급 도구 및 정보 보호 장치를 사용하여 장치에 대한 지속적인 제어와 회사 데이터 보호를 구현합니다.|• [Microsoft Intune](https://docs.microsoft.com/intune/)을 사용하여 모바일 장치에서 저장 및 액세스되는 중요한 데이터를 보호하고, 클라우드 서비스에 액세스할 때 규격 회사 장치를 사용하도록 합니다.|
-|Microsoft 365 및 기타 클라우드 응용 프로그램에서 지속적인 준수를 모니터링합니다.|•    조직의 정의된 정책 및 절차를 기준으로 성능을 평가하려면 지속적으로 [준수 점수](compliance-score.md)를 사용하여 조직의 정보 보안 정책 적용에 대해 정기적인 평가를 실시합니다.<br>•    [Azure AD Privileged Identity Management](https://docs.microsoft.com/azure/active-directory/privileged-identity-management/pim-configure)를 사용하여 높은 수준의 권한을 가진 모든 사용자 및 그룹(예: 권한 있는 사용자 또는 관리 사용자)의 정기적인 검토를 제어하고 수행합니다.<br>• [권한있는 액세스 관리](https://docs.microsoft.com/office365/enterprise/privileged-access-management-in-office-365)를 배포 및 구성하여 Office 365의 권한 있는 관리 작업에 대한 세부적인 액세스 제어를 제공합니다.  일단 활성화되면 사용자는 범위가 넓고 시간 제한이 높은 승인 워크 플로를 통해 승격된 권한 작업을 완료하기 위해 JIT(just-in-time) 액세스를 요청해야 합니다.<br>•   [비소유자 사서함 액세스](https://docs.microsoft.com/Exchange/policy-and-compliance/non-owner-mailbox-access-reports)를 감사하여 잠재적인 정보 누수를 확인하고 모든 Exchange Online 사서함에 대한 비소유자 액세스를 자동으로 검토합니다.<br>•   [Office 365 경고 정책, 데이터 손실 방지 보고서 및 Microsoft Cloud App Security](https://docs.microsoft.com/Office365/SecurityCompliance/monitor-for-leaks-of-personal-data)를 사용하여 조직의 클라우드 응용 프로그램 사용 현황을 모니터링하고 추론 및 사용자 활동을 토대로 고급 경고 정책을 구현합니다.<br>• [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security)를 사용하여 위험한 활동을 추적하여 잠재적으로 악의적인 관리자를 식별하거나, 데이터 위반을 조사하거나, 준수 요구 사항이 충족되지 않는지 확인합니다.|
-|Advanced Threat Analytics의 향상된 위협 감지 및 보호 기능을 사용하여 조직에 강력한 계층형 보안 전략을 제공합니다. 조직에서 손상된 시스템이 미치는 영향을 완화하기 위해 인시던트 대응 계획을 개발합니다.|• [Windows Advanced Threat Analytics](https://docs.microsoft.com/advanced-threat-analytics/)를 배포하고 풍부한 분석 및 보고 기능을 활용하도록 구성하여 조직에서 타기팅된 사용자와 악용되고 있는 사이버 공격 방법에 대한 중요한 인사이트를 얻을 수 있습니다.<br>•    [Office 365 Advanced Threat Protection 보고서 및 분석](/security/office-365-security/view-reports-for-atp.md)을 통해 위협을 분석하여 조직 내에서 자동으로 감지되는 악의적인 콘텐츠 및 악성 전자 메일에 대한 인사이트를 얻습니다. 기본 제공 보고서 및 메시지 추적 기능을 활용하여 알려지지 않은 바이러스 또는 맬웨어에 의해 차단된 전자 메일 메시지를 조사합니다.<br>•  [Office 365 위협 인텔리전스](/security/office-365-security/office-365-ti.md)를 통해 다양한 출처의 인사이트 및 정보를 집계하여 클라우드 보안 환경에 대한 전반적인 정보를 얻을 수 있습니다.<br>•    [Office 365 위협 인텔리전스 및 Windows Defender Advanced Threat Protection을 통합](/security/office-365-security/integrate-office-365-ti-with-wdatp.md)하여 Office 365에서 위협을 조사할 때 사용자의 장치가 위험 상태인지를 빠르게 알 수 있습니다.<br>• [Office 365 attack 시뮬레이터](/security/office-365-security/attack-simulator.md)를 사용하여 Office 365 환경에서 일반적인 공격 방법을 시뮬레이트합니다.  공격 시뮬레이션 결과를 검토하여 사용자에 대한 교육 기회를 파악하고, 조직의 인시던트 대응 절차가 유효한지 검사합니다.<br>•    [보안 및 준수 센터 내에서 사용 권한](/security/office-365-security/permissions-in-the-security-and-compliance-center.md)을 구성하여 모니터링 및 감사 데이터에 대한 액세스 권한을 승인된 사용자로 제한하고 조직의 인시던트 대응 조치와 통합되도록 합니다.|
+|Microsoft 365 고급 도구 및 정보 보호 장치를 사용하여 장치에 대한 지속적인 제어와 회사 데이터 보호를 구현합니다.|• [Microsoft Intune](https://docs.microsoft.com/intune/)을 사용하여 모바일 장치에 저장 및 액세스되는 중요한 데이터를 보호하고 클라우드 서비스에 액세스할 때 규격 회사 장치를 사용하도록 합니다.|
+|Microsoft 365 및 기타 클라우드 응용 프로그램에서 지속적인 준수를 모니터링합니다.|•   조직의 정의된 정책 및 절차를 기준으로 성능을 평가하려면 지속적으로 [준수 점수](compliance-score.md)를 사용하여 조직의 정보 보안 정책 적용에 대해 정기적인 평가를 실시합니다.<br>•    [Azure AD Privileged Identity Management](https://docs.microsoft.com/azure/active-directory/privileged-identity-management/pim-configure)를 사용하여 높은 수준의 권한을 가진 모든 사용자 및 그룹(예: 권한 있는 사용자 또는 관리 사용자)의 정기적인 검토를 제어하고 수행합니다.<br>• [권한있는 액세스 관리](https://docs.microsoft.com/office365/enterprise/privileged-access-management-in-office-365)를 배포 및 구성하여 Office 365의 권한 있는 관리 작업에 대한 세부적인 액세스 제어를 제공합니다.  일단 활성화되면 사용자는 범위가 넓고 시간 제한이 높은 승인 워크 플로를 통해 승격된 권한 작업을 완료하기 위해 JIT(just-in-time) 액세스를 요청해야 합니다.<br>•  [비소유자 사서함 액세스](https://docs.microsoft.com/Exchange/policy-and-compliance/non-owner-mailbox-access-reports)를 감사하여 잠재적인 정보의 유출을 확인하고 모든 Exchange Online 사서함에 대한 비소유자의 액세스를 선제적으로 검토합니다.<br>•   [Office 365 경고 정책, 데이터 손실 방지 보고서 및 Microsoft Cloud App Security](https://docs.microsoft.com/Office365/SecurityCompliance/monitor-for-leaks-of-personal-data)를 사용하여 조직의 클라우드 응용 프로그램 사용 현황을 모니터링하고 추론 및 사용자 활동을 토대로 고급 경고 정책을 구현합니다.<br>•  [Microsoft Cloud App Security](https://docs.microsoft.com/cloud-app-security/what-is-cloud-app-security)를 사용하여 자동으로 위험한 활동을 추적, 잠재적으로 악의적인 관리자를 식별, 데이터 침해를 조사하거나 준수 요구 사항이 충족되는지 확인합니다.|
+|Advanced Threat Analytics의 향상된 위협 감지 및 보호 기능을 사용하여 조직에 강력한 계층형 보안 전략을 제공합니다. 조직에서 손상된 시스템이 미치는 영향을 완화하기 위해 인시던트 대응 계획을 개발합니다.|• [Windows Advanced Threat Analytics](https://docs.microsoft.com/advanced-threat-analytics/)를 배포하고 구성하여 풍부한 분석 및 보고 기능을 활용하여 조직에서 대상으로 지정된 사용자와 악용되고 있는 사이버 공격 방법에 대한 중요한 인사이트를 얻습니다.<br>•    [Office 365 Advanced Threat Protection 보고서 및 분석](/security/office-365-security/view-reports-for-atp.md)을 활용하여 위협을 분석하여 조직 내에서 자동으로 감지되는 악의적인 콘텐츠 및 악성 전자 메일에 대한 인사이트를 얻습니다. 기본 제공 보고서 및 메시지 추적 기능을 활용하여 알려지지 않은 바이러스 또는 맬웨어에 의해 차단된 전자 메일 메시지를 조사합니다.<br>•  [Office 365 위협 인텔리전스](/security/office-365-security/office-365-ti.md)를 통해 다양한 출처의 인사이트 및 정보를 집계하여 클라우드 보안 환경에 대한 전반적인 정보를 얻습니다.<br>*    [Office 365 위협 인텔리전스 및 Windows Defender Advanced Threat Protection](/security/office-365-security/integrate-office-365-ti-with-wdatp.md)을 통합하여 Office 365에서 위협을 조사할 때 사용자의 장치가 위험 상태인지를 빠르게 알 수 있습니다.<br>• [Office 365 공격 시뮬레이터](/security/office-365-security/attack-simulator.md)를 사용하여 Office 365 환경에서 일반적인 공격 방법을 시뮬레이트합니다.  공격 시뮬레이션 결과를 검토하여 사용자에 대한 교육 기회를 파악하고, 조직의 인시던트 대응 절차가 유효한지 검사합니다.<br>•    [보안 및 준수 센터 내에서의 사용 권한](/security/office-365-security/permissions-in-the-security-and-compliance-center.md)을 구성하여 모니터링 및 감사 데이터에 대한 액세스 권한을 승인된 사용자로 제한하고 조직의 인시던트 대응 조치와 통합되도록 합니다.|
 |||
 
-## <a name="learn-more"></a>자세한 정보
+## <a name="learn-more"></a>자세히 알아보기
 
 [Microsoft 및 NIST CSF(Cyber Security Framework)](offering-nist-csf.md)(NIST 800-53 포함)에 대해 자세히 알아봅니다.

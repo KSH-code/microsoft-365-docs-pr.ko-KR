@@ -15,13 +15,15 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: 고급 eDiscovery 사례와 연결 된 검색 결과를 추가 합니다. 항목이 원래 위치에서 복사 되 고 Microsoft에서 제공한 Azure 저장소 위치로 복사 됩니다. 또한 항목은 다시 인덱싱되 고 고급 eDiscovery는 이미지 파일에서 OCR (광학 인식)을 수행 하 고 검토 및 분석을 위해 이미지 텍스트를 업로드 합니다.
-ms.openlocfilehash: b3710a91585d801f55b36622d6048a2c4bc58a7d
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom:
+- seo-marvel-apr2020
+description: 고급 eDiscovery 사례 검토 집합에 해당 검색 결과의 검색 결과 또는 샘플을 추가 하는 방법에 대해 알아봅니다.
+ms.openlocfilehash: 5e0cdb12a34b3b69c41546e6fcb356ed905189dd
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632303"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034672"
 ---
 # <a name="add-search-results-to-a-review-set"></a>검색 결과를 검토 집합에 추가
 

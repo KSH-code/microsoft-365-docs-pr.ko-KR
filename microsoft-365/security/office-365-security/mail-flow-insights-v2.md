@@ -10,13 +10,14 @@ ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: beb6acaa-6016-4d54-ba7e-3d6d035e2b46
-description: 관리자는 보안 & 준수 센터의 메일 흐름 대시보드에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: 64bf1f2af967f841cd4c21be19fce914df136815
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: 관리자는 insights, reports 및 widget을 포함 하 여 보안 & 준수 센터의 메일 흐름 대시보드에 대해 알아볼 수 있습니다.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 6bd3638f9f7cc2c6c8a7c1abe31b2e7655d110af
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43630470"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034149"
 ---
 # <a name="mail-flow-insights-in-the-security--compliance-center"></a>보안 및 준수 센터의 메일 흐름 파악
 

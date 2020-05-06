@@ -1,5 +1,5 @@
 ---
-title: 보안 &amp; 및 준수 센터에서 보고서 일정 만들기
+title: 보고서에 대 한 일정 만들기-보안 & 준수 센터
 f1.keywords:
 - NOCSH
 ms.author: deniseb
@@ -16,13 +16,14 @@ search.appverid:
 ms.assetid: a74f637b-3710-4c41-b70f-b5a812929a81
 ms.collection:
 - M365-security-compliance
-description: 보안 &amp; 및 준수 센터에서 보고서 일정을 설정 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: a5160c564373711521635d3a206d5501b0b2c8f0
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: 관리자는 Office 365의 보안 &amp; 및 준수 센터에서 보고서 일정을 설정 하는 방법을 확인할 수 있습니다.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 54235ebc0a119ae0d82986325fb473156d93da18
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637703"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44033729"
 ---
 # <a name="create-a-schedule-for-a-report-in-the-security-amp-compliance-center"></a>보안 &amp; 및 준수 센터에서 보고서 일정 만들기
 

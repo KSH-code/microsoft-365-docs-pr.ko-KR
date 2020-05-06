@@ -1,5 +1,5 @@
 ---
-title: 제로 시간 자동 삭제 (ZAP)-스팸, 맬웨어 및 피싱에 대 한 retroactive 보호
+title: 제로 시간 자동 제거 (ZAP)-전자 메일 보호 기능
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -18,13 +18,15 @@ search.appverid:
 ms.assetid: 96deb75f-64e8-4c10-b570-84c99c674e15
 ms.collection:
 - M365-security-compliance
-description: 0 시간 자동 삭제 (ZAP)는 Exchange Online으로 이미 배달 된 스팸, 맬웨어 또는 피싱 메시지를 검색 하는 Microsoft 365의 전자 메일 보호 기능입니다. ZAP이 수행 하는 방법은 검색 된 악의적인 콘텐츠의 유형에 따라 다릅니다.
-ms.openlocfilehash: f1b36f1152882f446c8f611ceafb44a085cc0a5d
-ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
+ms.custom:
+- seo-marvel-apr2020
+description: Exchange Online으로 이미 배달 된 스팸, 맬웨어 또는 피싱 메시지를 검색 하는 Microsoft 365의 전자 메일 보호 기능인 0 시간 자동 삭제 (ZAP)에 대해 알아봅니다.
+ms.openlocfilehash: a6f21147e7beaadb3aa6430b299dea8b248561c1
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43708454"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034929"
 ---
 # <a name="zero-hour-auto-purge-zap---protection-against-spam-and-malware-in-microsoft-365"></a>제로 시간 자동 삭제 (ZAP)-Microsoft 365의 스팸 및 맬웨어에 대 한 보호
 

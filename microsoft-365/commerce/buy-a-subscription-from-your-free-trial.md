@@ -27,12 +27,12 @@ search.appverid:
 - BEA160
 ms.assetid: 485fee6d-b22e-440a-9053-a4e7fa509c92
 description: 비즈니스를 위한 Microsoft 365 구독을 구매 합니다. 같은 유형의 구독을 구입 하거나 다른 요금제를 구입할 수 있습니다.
-ms.openlocfilehash: 3635a4ae729aa0759ef1f2de2905fa745a48951a
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 48786ffc4bd0a8c5e8e13e0062b6db1dd5bed561
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634947"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44045803"
 ---
 # <a name="buy-a-subscription-to-microsoft-365-for-business-from-your-free-trial"></a>무료 평가판에서 Microsoft 365 비즈니스에 대 한 구독 구입
 
@@ -50,9 +50,9 @@ Microsoft 365를 사용해 보았지만 이제 구매할 준비가 되었습니�
 
 ::: moniker range="o365-worldwide"
 
-1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품 및 서비스</a> 페이지로 이동합니다.
+1. 관리 센터에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a> **청구** \> 페이지로 이동 합니다.
 
-2. **Products & services** 페이지에서 구입 하려는 구독을 찾습니다. **라이선스** 섹션에서 **구독 구매**를 선택 합니다.
+2. **제품** 페이지에서 구매할 구독을 찾습니다. **라이선스** 섹션에서 **구독 구매**를 선택 합니다.
 
 3. 구독에 대해 월별 또는 연간 약정을 선택한 다음 **체크 아웃**을 선택 합니다.
 
@@ -163,6 +163,6 @@ Microsoft 365를 사용해 보았지만 이제 구매할 준비가 되었습니�
 
 [평가판 연장](extend-your-trial.md)
   
-[Microsoft 365에 등록](../admin/admin-overview/sign-up-for-office-365.md)
+[Microsoft 365 등록](../admin/admin-overview/sign-up-for-office-365.md)
   
 [다른 Microsoft 365 계획 또는 구독으로 전환](subscriptions/switch-to-a-different-plan.md)

@@ -14,12 +14,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: 사용자는 셀프 서비스 구매를 관리 하는 방법을 배울 수 있습니다.
-ms.openlocfilehash: f4be2176d970af426817e975b9942ce5e2b89a9e
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: ed84bfc215d000eaa144aaf1f6eac281fc5a0c16
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636642"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44046171"
 ---
 # <a name="manage-self-service-purchases-users"></a>셀프 서비스 구매(사용자) 관리
 
@@ -30,11 +30,11 @@ ms.locfileid: "43636642"
 
 ## <a name="view-your-subscriptions"></a>구독 보기
 
-구매한 모든 셀프 서비스 구매한 구독의 목록을 볼 수 있습니다. 관리 센터에서 **청구** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품 & 서비스</a> 페이지로 이동 합니다.
+구매한 모든 셀프 서비스 구매한 구독의 목록을 볼 수 있습니다. 관리 센터에서<a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a> **청구** > 페이지로 이동 합니다.
 
 ## <a name="how-to-buy-more-or-reduce-licenses"></a>라이선스를 더 구입 하거나 감소 하는 방법
 
-1. 관리 센터에서 **청구** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품 & 서비스</a> 페이지로 이동 합니다.
+1. 관리 센터에서<a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a> **청구** > 페이지로 이동 합니다.
 
 2. 추가로 구입 하거나 라이선스를 줄이는 데 사용할 구독을 찾습니다.
 
@@ -74,7 +74,7 @@ ms.locfileid: "43636642"
 
 ## <a name="cancel-a-subscription"></a>구독 취소
 
-1. 관리 센터에서 **청구** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품 & 서비스</a> 페이지로 이동 합니다.
+1. 관리 센터에서<a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a> **청구** > 페이지로 이동 합니다.
 
 2. 취소할 구독을 찾습니다.
 

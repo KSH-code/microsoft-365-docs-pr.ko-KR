@@ -15,13 +15,15 @@ search.appverid:
 ms.assetid: f9d4b5b6-8f4c-44df-9b06-2f9b3058ca20
 ms.collection:
 - M365-security-compliance
-description: 이러한 문서는 외부 보낸 사람이 신뢰도를 개선 하 고 Office 365에서 사용자에 게 전자 메일을 배달 하는 기능을 향상 시키는 데 도움이 됩니다. 또한 Microsoft 365 사용자가 아닌 경우에도 정크 메일 및 피싱 시도를 보고 하는 방법에 대 한 몇 가지 정보를 제공 합니다.
-ms.openlocfilehash: c5c84d154b25f29b94635e6506ed54158efc672f
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom:
+- seo-marvel-apr2020
+description: 외부의 보낸 사람에 대 한 자세한 내용은 Microsoft 365에서 사용자에 게 전자 메일을 배달 하는 기능을 향상 시킬 수 있는 방법을 설명 합니다. 또한 정크 메일 & 외부 사용자로 보고 하는 방법에 대해서도 알아봅니다.
+ms.openlocfilehash: c1086088a92240be4bb7bbbd52077cecb1c54476
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43638419"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035387"
 ---
 # <a name="sending-mail-to-microsoft-365"></a>Microsoft 365로 메일 보내기
 
