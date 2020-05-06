@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 보안 센터의 장치 모니터링 및 보고
+title: 장치 모니터링 & 보고-보안 센터
 description: 장치를 안전 하 고 최신 상태로 유지 하 고 조직에서 잠재적인 위협을 발견할 수 있는 방법에 대해 설명 합니다.
 keywords: 보안, 맬웨어, Microsoft 365, M365, 보안 센터, 모니터, 보고서, 장치
 ms.prod: microsoft-365-enterprise
@@ -14,12 +14,13 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: f8adb04e968f19c6b0577127e4f9c0ceb7d9e315
-ms.sourcegitcommit: 1e9ce51efa583c33625299d17e37f58048a4169c
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 870d2ce1f70028c917cc8b165e8a1c55b746100a
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/24/2020
-ms.locfileid: "43804876"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034001"
 ---
 # <a name="device-monitoring-and-reporting-in-the-microsoft-365-security-center"></a>Microsoft 365 보안 센터의 장치 모니터링 및 보고
 

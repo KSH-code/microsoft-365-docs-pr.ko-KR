@@ -20,12 +20,12 @@ search.appverid:
 - GEA150
 ms.assetid: f86e8177-936e-491e-9024-44dea2b296ff
 description: Microsoft 365 구입 시에 구독 관리자 파트너를 record 파트너로 추가 하거나, 파트너를 변경 하거나, 구독에서 파트너를 삭제 하는 방법을 알아봅니다.
-ms.openlocfilehash: 913be0cfa94784826f4bc8dcfcc1bbf314ab4c09
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: daefb83335af84403cb2dd4e9c7759700eab8278
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627971"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44045287"
 ---
 # <a name="add-change-or-delete-a-subscription-advisor-partner"></a>구독 관리자 파트너 추가, 변경, 삭제
 
@@ -114,7 +114,7 @@ Office 365의 관리자는 다른 항목 중에서 사용자를 만들거나 편
 > [!NOTE]
 > 새로운 Microsoft 365 관리 센터를 사용하지 않는 경우 홈페이지 상단에 있는 **새 관리 센터 시도** 토글을 선택하여 켤 수 있습니다.
 
-1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품 및 서비스</a> 페이지로 이동합니다.
+1. 관리 센터에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a> **청구** \> 페이지로 이동 합니다.
     
 2. 구독이 둘 이상인 경우에는 편집할 구독을 선택 합니다.
   
@@ -161,7 +161,7 @@ Office 365의 관리자는 다른 항목 중에서 사용자를 만들거나 편
 > [!NOTE]
 > 새로운 Microsoft 365 관리 센터를 사용하지 않는 경우 홈페이지 상단에 있는 **새 관리 센터 시도** 토글을 선택하여 켤 수 있습니다.
 
-1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품 및 서비스</a> 페이지로 이동합니다.
+1. 관리 센터에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a> **청구** \> 페이지로 이동 합니다.
     
 2. 구독이 여러 개 있는 경우 편집하려는 구독의 이름을 선택합니다.
     
@@ -209,7 +209,7 @@ Office 365의 관리자는 다른 항목 중에서 사용자를 만들거나 편
 > [!NOTE]
 > 새로운 Microsoft 365 관리 센터를 사용하지 않는 경우 홈페이지 상단에 있는 **새 관리 센터 시도** 토글을 선택하여 켤 수 있습니다.
 
-1.  관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품 및 서비스</a> 페이지로 이동합니다.
+1.  관리 센터에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a> **청구** \> 페이지로 이동 합니다.
     
 2. 구독이 여러 개 있는 경우 편집하려는 구독의 이름을 선택합니다.
     

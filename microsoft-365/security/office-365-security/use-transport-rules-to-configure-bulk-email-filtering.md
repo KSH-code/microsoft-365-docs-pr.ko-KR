@@ -14,13 +14,14 @@ search.appverid:
 ms.assetid: 2889c82e-fab0-4e85-87b0-b001b2ccd4f7
 ms.collection:
 - M365-security-compliance
-description: 관리자는 대량 전자 메일 필터링에 대해 Exchange Online Protection의 메일 흐름 규칙을 사용 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 229a66658e041be737efbc4cbb7c36ba667d3aed
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: 관리자는 대량 전자 메일 필터링을 위해 EOP (Exchange Online Protection)에서 메일 흐름 규칙을 사용 하는 방법에 대해 알아봅니다.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 43a10951a24ac76108fb0531f9e2c205c3fc9047
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631076"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034977"
 ---
 # <a name="use-mail-flow-rules-to-filter-bulk-email-in-office-365"></a>메일 흐름 규칙을 사용 하 여 Office 365에서 대량 전자 메일 필터링
 

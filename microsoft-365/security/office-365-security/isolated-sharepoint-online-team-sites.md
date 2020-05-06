@@ -15,14 +15,15 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom:
 - Ent_Solutions
+- seo-marvel-apr2020
 ms.assetid: 71250a04-fd2d-4c3c-a32b-b8a838b19a54
-description: '요약: 격리된 SharePoint Online 팀 사이트의 용도에 대해 알아봅니다.'
-ms.openlocfilehash: b62223b231c4b6dc0d233d899472800226503323
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: 사용, 요구 사항, 사용할 수 있는 기능을 포함하여 격리된 SharePoint Online 팀 사이트에 대해 알아봅니다.
+ms.openlocfilehash: f88be4b16d7f3a65ba624f7bf4c490b0173883c8
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634113"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036707"
 ---
 # <a name="isolated-sharepoint-online-team-sites"></a>격리된 SharePoint Online 팀 사이트
 

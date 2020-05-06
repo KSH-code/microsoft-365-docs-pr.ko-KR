@@ -26,12 +26,12 @@ search.appverid:
 - GEA150
 ms.assetid: 7a5d073b-7fae-4aa5-8f96-9ecd041aba9c
 description: '비즈니스용 Microsoft 365에서 사용자의 암호를 다시 설정 하는 방법을 알아봅니다. '
-ms.openlocfilehash: 0d8a68edb0b85094b271712f018eea79ca9f0aee
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 99ec6423b835204624f91977b6f138fa7c8ba8cd
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43626949"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44049450"
 ---
 # <a name="reset-passwords"></a>암호 다시 설정
 
@@ -52,19 +52,19 @@ ms.locfileid: "43626949"
  
 ::: moniker range="o365-worldwide"
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다.
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다..
 
 ::: moniker-end
 
 ::: moniker range="o365-germany"
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다.
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847686" target="_blank">활성 사용자</a> 페이지로 이동합니다..
 
 ::: moniker-end
 
 ::: moniker range="o365-21vianet"
 
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다.
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850628" target="_blank">활성 사용자</a> 페이지로 이동합니다..
 
 ::: moniker-end
 
@@ -93,14 +93,14 @@ ms.locfileid: "43626949"
     
 - 조직의 다른 전역 관리자에 게 암호를 다시 설정 하도록 요청 합니다.
     
-- [Microsoft 지원 서비스에 문의](https://support.office.com/article/contact-support-for-business-products-admin-help-32a17ca7-6fa0-4870-8a8d-e25ba4ccfd4b?ui=en-US&amp;rs=en-US&amp;ad=US#ID0EAADAAA=Phone_support_)합니다. 
+- [Microsoft 지원 서비스에 문의](https://docs.microsoft.com/en-us/microsoft-365/admin/contact-support-for-business-products)합니다. 
     
 ## <a name="reset-all-business-passwords-for-everyone-in-your-organization-at-the-same-time"></a>조직의 모든 사용자에 대 한 모든 비즈니스 암호를 동시에 다시 설정
 <a name="bkmk_forgot"> </a>
 
 다음 단계는 수십 명의 사용자가 속한 비즈니스에 적합한 방법입니다. 비즈니스에 수백 또는 수천 명의 사용자가 있는 경우 다음 섹션에서 대량으로 암호를 재설정하는 방법을 참조하세요.
   
-1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다.
+1. 관리 센터에서 **사용자** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834822" target="_blank">활성 사용자</a> 페이지로 이동합니다..
     
 2. **표시 이름** 옆에 있는 옵션을 선택 하 여 회사의 모든 사용자를 선택 합니다. 자신의 이름은 선택 취소합니다. 다른 모든 사람의 암호와 자신의 암호를 동시에 재설정할 수 없습니다.
     
@@ -117,9 +117,9 @@ ms.locfileid: "43626949"
 
 PowerShell을 사용하세요! Eyal Doron이 작성한 게시물을 확인하세요. [PowerShell을 사용하여 암호 관리](https://go.microsoft.com/fwlink/?linkid=853696)
   
-관련된 문서는 다음과 같습니다. [여러 사용자 계정의 암호 설정](https://support.office.com/article/014fc912-bee1-461d-ad00-56b80428b907.aspx#bkmk_password)
+관련된 문서는 다음과 같습니다. [여러 사용자 계정의 암호 설정](https://docs.microsoft.com/office365/enterprise/powershell/manage-office-365-with-office-365-powershell)
   
-개요에 대 한 자세한 내용은 [Microsoft 365 관리자를 위한 PowerShell](https://support.office.com/article/40fdcbd4-c34f-42ab-8678-8b3751137ef1.aspx)을 참조 하십시오.
+개요에 대 한 자세한 내용은 [Microsoft 365 관리자를 위한 PowerShell](https://support.microsoft.com/en-us/office/powershell-for-office-365-administrators-40fdcbd4-c34f-42ab-8678-8b3751137ef1)을 참조 하십시오.
   
 ## <a name="force-a-password-change-for-all-users-in-your-business"></a>조직의 모든 사용자가 암호를 변경하게 만들기
 <a name="bkmk_forgot"> </a>
@@ -144,4 +144,4 @@ Microsoft MVP인 Vasil Michev의 유용한 블로그 게시물을 확인하세�
 
 [이전 직원 제거](remove-former-employee.md)
 
-[Microsoft 365 for business 교육용 비디오](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Microsoft 365 Business 교육 비디오](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

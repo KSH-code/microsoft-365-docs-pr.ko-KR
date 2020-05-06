@@ -13,13 +13,15 @@ localization_priority: Normal
 search.appverid:
 - MET150s
 ms.assetid: 9721b46d-cbea-4121-be51-542395e6fd21
-description: 관리자는 인바운드 메시지가 스팸 필터링을 건너뛰도록 허용 하는 Microsoft 365 및 EOP의 사용 가능한 옵션에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: ff4f2715ddfe0029aced27ed466a5af8eb95e790
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom:
+- seo-marvel-apr2020
+description: 관리자가 Microsoft 365 및 EOP에서 수신 허용-보낸 사람 목록을 만들어 인바운드 메시지에서 스팸 필터링을 건너뛸 수 있도록 하는 방법을 알아봅니다.
+ms.openlocfilehash: e09d607f6b5203bdc3ab23ad5bd6e8f85782605a
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637679"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036346"
 ---
 # <a name="create-safe-sender-lists"></a>안전한 보낸 사람 목록 만들기
 
@@ -91,7 +93,7 @@ Exchange Online 및 독립 실행형 EOP의 메일 흐름 규칙에서는 메시
 
 앞에서 설명한 것 처럼 메일 흐름 규칙을 사용할 수 없는 경우에는 연결 필터 정책의 IP 허용 목록에 원본 전자 메일 서버를 추가 하는 것이 가장 좋습니다. 자세한 내용은 [Configure connection 필터링할지 In Office 365](configure-the-connection-filter-policy.md)을 참조 하십시오.
 
-**참고:**
+**참고**:
 
 - 허용 되는 IP 주소 수를 최소로 유지 하는 것이 중요 하므로 가능 하면 전체 IP 주소 범위를 사용 하지 않는 것이 좋습니다.
 

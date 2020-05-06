@@ -22,17 +22,16 @@ search.appverid:
 ms.assetid: 4e7b57d6-b93b-457d-aecd-0ea58bff07a6
 description: 추가 기능을 구입 하 여 Microsoft 365 비즈니스 에디션 구독에 추가 기능을 추가 하는 방법에 대해 알아봅니다. 또한 추가 기능을 업데이트 하 고 제거할 수 있습니다.
 ms.custom: okr_SMB
-ms.openlocfilehash: 011ed188f741f2f026b452a2ecfd8b8c1b01c66e
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 801da522c9fea9efcc4d3d4a0285a6ffcb5adc0b
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634923"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44045791"
 ---
 # <a name="buy-or-edit-an-add-on"></a>추가 기능 구입 또는 편집
 
 일부 Microsoft 365 for business 요금제에는 구독에 대해 구입할 수 있는 추가 기능이 있습니다. 추가 기능은 구입 시 대상 구독에 추가 기능을 제공합니다.
-
 
 ## <a name="buy-an-add-on"></a>추가 기능 구입
 
@@ -98,22 +97,21 @@ ms.locfileid: "43634923"
 
 ::: moniker-end
 
-
 ## <a name="update-an-add-on"></a>추가 기능 업데이트
 
-추가 기능을 업데이트 하는 데 사용 하는 단계는 추가 기능이 기존 추가 기능 인지 또는 독립 실행형 추가 기능에 따라 달라 집니다. 
+추가 기능을 업데이트 하는 데 사용 하는 단계는 추가 기능이 기존 추가 기능 인지 또는 독립 실행형 추가 기능에 따라 달라 집니다.
 
 *전통적인 추가 기능은* 특정 구독에 연결 됩니다. 구독을 취소 하면 연결 된 추가 기능도 취소 됩니다.
   
-*독립 실행형 추가* 기능이 특정 구독에 연결 되어 있지 않습니다. 독립 실행형 추가 기능은 **구독** 페이지 (또는 새 관리 센터의 **Products & services** 페이지)에 별도의 구독으로 표시 되며 고유의 만료 날짜를 갖습니다. 다른 구독을 관리 하는 것과 동일한 방식으로 독립 실행형 추가 기능을 관리 합니다.
+*독립 실행형 추가* 기능이 특정 구독에 연결 되어 있지 않습니다. 독립 실행형 추가 기능은 **제품** 페이지에 별도의 구독으로 표시 되며 고유의 만료 날짜가 있습니다. 다른 구독을 관리 하는 것과 동일한 방식으로 독립 실행형 추가 기능을 관리 합니다.
   
 ### <a name="update-a-traditional-add-on"></a>기존 추가 기능 업데이트
 
 ::: moniker range="o365-worldwide"
 
-1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품 및 서비스</a> 페이지로 이동합니다.
+1. 관리 센터에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a> **청구** \> 페이지로 이동 합니다.
 
-2. **Products & services** 페이지에서 추가 기능을 업데이트할 구독을 선택 합니다.
+2. **제품** 페이지에서 추가 기능을 업데이트할 구독을 선택 합니다.
 
 3. **추가 기능**을 선택 합니다. 구입한 추가 기능이 표시 됩니다.
 
@@ -122,7 +120,6 @@ ms.locfileid: "43634923"
 5. 구독에 대해 원하는 수량을 입력 한 다음 **변경 제출을**선택 합니다.
 
 ::: moniker-end
-
 
 ::: moniker range="o365-germany"
 
@@ -134,7 +131,7 @@ ms.locfileid: "43634923"
 
     구입한 추가 기능이 표시되고 각 추가 기능 아래에 **수량 변경** 링크가 나타납니다.
 
-4. 업데이트 하려는 추가 기능에 대 한 **수량 변경** 링크를 선택 합니다. 
+4. 업데이트 하려는 추가 기능에 대 한 **수량 변경** 링크를 선택 합니다.
 
     ![추가 기능 링크 및 수량 변경 링크](../media/fa7c39f4-5256-49bb-9a26-70f1a52ae926.png)
   
@@ -157,7 +154,7 @@ ms.locfileid: "43634923"
 
     구입한 추가 기능이 표시되고 각 추가 기능 아래에 **수량 변경** 링크가 나타납니다.
 
-4. 업데이트 하려는 추가 기능에 대 한 **수량 변경** 링크를 선택 합니다. 
+4. 업데이트 하려는 추가 기능에 대 한 **수량 변경** 링크를 선택 합니다.
 
     ![추가 기능 링크 및 수량 변경 링크](../media/fa7c39f4-5256-49bb-9a26-70f1a52ae926.png)
   
@@ -175,9 +172,9 @@ ms.locfileid: "43634923"
 
 ::: moniker range="o365-worldwide"
 
-1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품 및 서비스</a> 페이지로 이동합니다.
+1. 관리 센터에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a> **청구** \> 페이지로 이동 합니다.
 
-2. **Products & services** 페이지에서 업데이트 하려는 추가 기능 구독을 선택 하 고 **라이선스 추가/제거**를 선택 합니다.
+2. **제품** 페이지에서 업데이트 하려는 추가 기능 구독을 선택 하 고 **라이선스 추가/제거**를 선택 합니다.
 
 3. 상자에 필요한 라이선스 수를 입력 한 다음 **변경 제출을**선택 합니다.
 
@@ -213,7 +210,6 @@ ms.locfileid: "43634923"
 
 ::: moniker-end
 
-
 ## <a name="remove-an-add-on"></a>추가 기능 제거
 
 [구독을 취소](subscriptions/cancel-your-subscription.md)하는 것과 같은 방법으로 독립 실행형 추가 기능을 취소할 수 있습니다. 또는 위의 단계를 사용 하 여 독립 실행형 추가 기능에 대해 **되풀이 대금 청구** 를 해제할 수 있습니다. 하지만 기존 추가 기능을 구매한 후에는 제거할 수 없습니다. 기존 추가 기능을 제거 해야 하는 경우 도움이 필요 하면 [고객 지원에 문의](../admin/contact-support-for-business-products.md)하세요.
@@ -230,13 +226,13 @@ ms.locfileid: "43634923"
 |:-----|:-----|
 |Customer Lockbox  <br/> | Office 365 Enterprise E1  <br/>  Office 365 Enterprise E3  <br/>  Office 365 Enterprise E4  <br/> |
 |[Office 365 온라인 Advanced Threat Protection](https://go.microsoft.com/fwlink/p/?LinkId=691156) <br/> | Office 365 Enterprise E1  <br/>  Office 365 Enterprise E3  <br/>  Office 365 Enterprise E4  <br/> |
-|[Exchange Online Archiving](https://go.microsoft.com/fwlink/p/?LinkId=691157) <br/> | Microsoft 365 Business Basic  <br/>  Microsoft 365 비즈니스 표준  <br/>  Office 365 Enterprise E1  <br/>  Office 365 Enterprise F1  <br/> |
+|[Exchange Online Archiving](https://go.microsoft.com/fwlink/p/?LinkId=691157) <br/> | Microsoft 365 Business Basic  <br/>  Microsoft 365 Business Standard  <br/>  Office 365 Enterprise E1  <br/>  Office 365 Enterprise F1  <br/> |
 |Microsoft MyAnalytics  <br/> | Office 365 Enterprise E1  <br/>  Office 365 Enterprise E3  <br/>  Office 365 Enterprise E4  <br/> |
 |Office 365 Advanced Compliance  <br/> | Office 365 Enterprise E1  <br/>  Office 365 Enterprise E3  <br/>  Office 365 Enterprise E4  <br/> |
-|Office 365 Extra File Storage  <br/> | Microsoft 365 비즈니스 에디션 앱  <br/>  Microsoft 365 Business Basic  <br/>  Microsoft 365 비즈니스 표준  <br/>  Office 365 Enterprise E1  <br/>  Office 365 Enterprise E2  <br/>  Office 365 Enterprise E3  <br/>  Office 365 Enterprise E4  <br/>  Office 365 Enterprise E5  <br/>  SharePoint 계획 1을 사용 하는 웹의 Office  <br/>  SharePoint 계획 2를 사용 하는 웹의 Office  <br/>  SharePoint Online 요금제 1  <br/>  SharePoint Online 요금제 2  <br/> |
+|Office 365 Extra File Storage  <br/> | 비즈니스용 Microsoft 365 앱  <br/>  Microsoft 365 Business Basic  <br/>  Microsoft 365 Business Standard  <br/>  Office 365 Enterprise E1  <br/>  Office 365 Enterprise E2  <br/>  Office 365 Enterprise E3  <br/>  Office 365 Enterprise E4  <br/>  Office 365 Enterprise E5  <br/>  SharePoint 계획 1을 사용 하는 웹의 Office  <br/>  SharePoint 계획 2를 사용 하는 웹의 Office  <br/>  SharePoint Online 요금제 1  <br/>  SharePoint Online 요금제 2  <br/> |
 |전화 시스템  <br/> | Office 365 Enterprise E1  <br/>  Office 365 Enterprise E3  <br/>  Office 365 Enterprise E4  <br/>  Office 365 Enterprise E5  <br/> |
-|오디오 회의  <br/> |  Microsoft 365 Business Basic <br/> Microsoft 365 비즈니스 표준 <br/> Office 365 Enterprise E1 <br/> Office 365 Enterprise E3 <br/> Office 365 Enterprise E4 <br/> Office 365 Enterprise E5(오디 회의 미포함) <br/> Microsoft 365 Business Premium <br/> Microsoft 365 E3 <br/> Microsoft 365 E5  <br/> |
-|통신 제작진  <br/> | Office 365 Enterprise E5  <br/> |
+|오디오 회의  <br/> |  Microsoft 365 Business Basic <br/> Microsoft 365 Business Standard <br/> Office 365 Enterprise E1 <br/> Office 365 Enterprise E3 <br/> Office 365 Enterprise E4 <br/> Office 365 Enterprise E5(오디 회의 미포함) <br/> Microsoft 365 Business Premium <br/> Microsoft 365 E3 <br/> Microsoft 365 E5  <br/> |
+|통신 크레딧  <br/> | Office 365 Enterprise E5  <br/> |
 |국내 통화 플랜 <br/> | Office 365 Enterprise E5  <br/> |
 |국제 통화 플랜  <br/> | Office 365 Enterprise E5  <br/> |
   

@@ -1,5 +1,5 @@
 ---
-title: 목록 해제 포털을 사용 하 여 수신 거부 목록에서 본인 제거
+title: 수신 거부 목록에서 본인 제거
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -15,15 +15,17 @@ search.appverid:
 ms.assetid: 0bcecdd4-3343-4cc0-9e58-e19d4de515e8
 ms.collection:
 - M365-security-compliance
-description: 전자 메일 주소가 Microsoft 365에 있는 받는 사람에 게 전자 메일을 보내려고 할 때 오류 메시지가 발생 하나요? 오류 메시지가 나타나지 않는다고 생각 되 면 목록 해제 포털을 사용 하 여 수신 거부 목록에서 본인을 제거할 수 있습니다.
-ms.openlocfilehash: 39f2c9335f162f26e8bf07a213236e0e0eefef2a
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom:
+- seo-marvel-apr2020
+description: 이 문서에서는 목록 해제 포털을 사용 하 여 Microsoft 365 수신 거부 목록에서 자신을 제거 하는 방법에 대해 설명 합니다.
+ms.openlocfilehash: 700382a494865b80116cfd8419213ed43b35b8a1
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636407"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034989"
 ---
-# <a name="use-the-delist-portal-to-remove-yourself-from-the-blocked-senders-list"></a>목록 해제 포털을 사용 하 여 수신 거부 목록에서 본인 제거
+# <a name="use-the-delist-portal-to-remove-yourself-from-the-blocked-senders-list"></a>목록 해제 포털을 사용하여 수신 거부 목록에서 본인 제거
 
 전자 메일 주소가 Microsoft 365에 있는 받는 사람에 게 전자 메일을 보내려고 할 때 오류 메시지가 발생 하나요? 오류 메시지가 나타나지 않는다고 생각 되 면 목록 해제 포털을 사용 하 여 수신 거부 목록에서 본인을 제거할 수 있습니다.
 

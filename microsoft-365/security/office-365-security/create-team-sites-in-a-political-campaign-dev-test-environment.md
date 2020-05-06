@@ -1,5 +1,5 @@
 ---
-title: 정치적 캠페인 개발/테스트 환경에서 팀 사이트 만들기
+title: 팀 사이트 만들기 - 정치적 캠페인 개발/테스트 환경
 f1.keywords:
 - NOCSH
 ms.author: josephd
@@ -15,15 +15,15 @@ ms.service: O365-seccomp
 localization_priority: Priority
 search.appverid:
 - MET150
-ms.custom: ''
+ms.custom: seo-marvel-apr2020
 ms.assetid: c2112ce8-1c4b-424f-b200-59e161db2d21
 description: '요약: 정치적 캠페인 개발/테스트 환경에서 공용, 개인, 중요 및 극비 SharePoint Online 팀 사이트를 만듭니다.'
-ms.openlocfilehash: 14ba5b00754a9e55c797edd0835658ac81b7e647
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: e3223b059273f0955d7fc11f8ca98d529d946210
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637667"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036478"
 ---
 # <a name="create-team-sites-in-a-political-campaign-devtest-environment"></a>정치적 캠페인 개발/테스트 환경에서 팀 사이트 만들기
 

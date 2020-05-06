@@ -17,13 +17,14 @@ search.appverid:
 - BCS160
 - MET150
 ms.assetid: ce004100-9e7f-443e-942b-9b04098fcfc3
-description: 감사 로그 레코드에 포함 된 추가 속성에 대 한 설명입니다.
-ms.openlocfilehash: 07f537e660fca01455995832de5f44d515d2cb55
-ms.sourcegitcommit: 72e43b9bf85dbf8f5cf2040ea6a4750d6dc867c9
+description: 이 문서에서는 Office 365 감사 로그 레코드에 대 한 결과를 내보낼 때 포함 되는 추가 속성에 대해 설명 합니다.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 3a82b0d1c651db166ea5a8cb370383d36b6d37e5
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/24/2020
-ms.locfileid: "43799951"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035710"
 ---
 # <a name="detailed-properties-in-the-audit-log"></a>감사 로그의 자세한 속성
 

@@ -10,18 +10,20 @@ ms.date: 02/25/2019
 audience: ITPro
 ms.topic: article
 ms.service: O365-seccomp
-ms.custom: TN2DMC
+ms.custom:
+- TN2DMC
+- seo-marvel-apr2020
 localization_priority: Normal
 search.appverid:
 - MET150
 ms.assetid: 393b0050-7c7e-49e6-a03d-b1e09fe4de9e
-description: '이 소개 문서는 EOP (Exchange Online Protection) 및 몇 가지 중요 한 용어를 이해 하는 데 도움이 됩니다. 이는 exchange Online 클라우드 호스트 사서함을 보호 하는 고객 및 온-프레미스 사서함 (예: Exchange Server 2016)을 보호 하는 EOP 독립 실행형 고객에 게 적용 됩니다.'
-ms.openlocfilehash: dc08507a80db8e15d2e08ff5b954dec1905cfada
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: 이 문서에서는 클라우드 기반 전자 메일 필터링 서비스인 EOP (Exchange Online Protection)에 대해 설명 합니다.
+ms.openlocfilehash: 7a9c122edf229d70f0ea5a1dbea8be56b5a2a3a9
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43630920"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034941"
 ---
 # <a name="what-is-exchange-online-protection-eop"></a>EOP (Exchange Online Protection)
 

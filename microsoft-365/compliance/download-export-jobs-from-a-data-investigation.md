@@ -1,5 +1,5 @@
 ---
-title: 데이터 조사에서 내보내기 작업 다운로드
+title: 조사를 위해 내보내기 작업 다운로드
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -16,12 +16,13 @@ search.appverid:
 - MET150
 ms.assetid: ''
 description: Azure 저장소 탐색기를 설치 하 고 사용 하 여 데이터 조사의 증거에서 내보낸 문서를 다운로드 합니다.
-ms.openlocfilehash: 1f528101140a97df0161638be14e503a05b18f2c
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: b9f3ee173fd9068f459e10b95fd497b7cf5015fc
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42074935"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035690"
 ---
 # <a name="download-export-jobs"></a>내보내기 작업 다운로드
 

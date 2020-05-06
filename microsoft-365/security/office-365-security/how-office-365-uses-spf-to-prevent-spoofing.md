@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365에서 SPF (Sender Policy Framework)를 사용 하 여 스푸핑을 방지 하는 방법
+title: SPF (Sender Policy Framework)에서 스푸핑을 방지 하는 방법
 f1.keywords:
 - CSH
 ms.author: tracyp
@@ -15,15 +15,17 @@ search.appverid:
 ms.assetid: 3aff33c5-1416-4867-a23b-e0c0c5b4d2be
 ms.collection:
 - M365-security-compliance
-description: 요약:이 문서에서는 Microsoft 365에서 DNS의 SPF (Sender Policy Framework) TXT 레코드를 사용 하 여 대상 전자 메일 시스템이 사용자 지정 도메인에서 보낸 메시지를 신뢰 하는지 확인 하는 방법에 대해 설명 합니다. 이는 Microsoft 365에서 보내는 아웃 바운드 메일에 적용 됩니다. Microsoft 365에서 Microsoft 365 내의 받는 사람에 게 전송 되는 메시지는 항상 SPF를 통과 합니다.
-ms.openlocfilehash: d73fb881b8395c6c1383cca70e506694795f1364
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom:
+- seo-marvel-apr2020
+description: Microsoft 365에서 DNS의 SPF (Sender Policy Framework) TXT 레코드를 사용 하 여 대상 전자 메일 시스템이 사용자 지정 도메인에서 보낸 메시지를 신뢰 하는지 확인 하는 방법을 알아봅니다.
+ms.openlocfilehash: 5d09047b51f191947c13a3e6ca64b5cb30d3f6a0
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43633993"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036392"
 ---
-# <a name="how-microsoft-365-uses-sender-policy-framework-spf-to-prevent-spoofing"></a>Microsoft 365에서 SPF (Sender Policy Framework)를 사용 하 여 스푸핑을 방지 하는 방법
+# <a name="how-microsoft-365-uses-sender-policy-framework-spf-to-prevent-spoofing"></a>Microsoft 365에서 SPF(Sender Policy Framework)를 사용하여 스푸핑을 방지하는 방법
 
  **요약:** 이 문서에서는 Microsoft 365에서 DNS의 SPF (Sender Policy Framework) TXT 레코드를 사용 하 여 대상 전자 메일 시스템이 사용자 지정 도메인에서 보낸 메시지를 신뢰 하는지 확인 하는 방법에 대해 설명 합니다. 이는 Microsoft 365에서 보내는 아웃 바운드 메일에 적용 됩니다. Microsoft 365에서 Microsoft 365 내의 받는 사람에 게 전송 되는 메시지는 항상 SPF를 통과 합니다.
 
@@ -202,7 +204,7 @@ v=spf1 ip4:192.168.0.1 ip4:192.168.0.2 ip4:192.168.0.3 include:spf.protection.ou
 
 SPF TXT 레코드를 만든 후에는 [Microsoft 365에서 Set UP SPF](set-up-spf-in-office-365-to-help-prevent-spoofing.md) 의 단계를 수행 하 여 스푸핑이 도메인에 추가 되지 않도록 합니다.
 
-SPF는 스푸핑을 방지 하는 데 도움이 되지만 SPF에서 보호할 수 없는 스푸핑 기법이 있습니다. 이를 방지 하기 위해 SPF를 설정한 후에는 Microsoft 365에 대해 DKIM 및 DMARC도 구성 해야 합니다. 시작 하려면 [DKIM을 사용 하 여 Microsoft 365에서 사용자 지정 도메인에서 보낸 아웃 바운드 전자 메일의 유효성 검사](use-dkim-to-validate-outbound-email.md)를 참조 하세요. 다음으로, [Microsoft 365에서 DMARC을 사용 하 여 전자 메일의 유효성 검사를](use-dmarc-to-validate-email.md)참조 하십시오.
+SPF는 스푸핑을 방지 하는 데 도움이 되지만 SPF에서 보호할 수 없는 스푸핑 기법이 있습니다. 이를 방지 하기 위해 SPF를 설정한 후에는 Microsoft 365에 대해 DKIM 및 DMARC도 구성 해야 합니다. 시작 하려면 [DKIM을 사용 하 여 Microsoft 365에서 사용자 지정 도메인에서 보낸 아웃 바운드 전자 메일의 유효성 검사](use-dkim-to-validate-outbound-email.md)를 참조 하세요. 다음으로 [DMARC를 사용하여 Microsoft 365에서 전자 메일 유효성 검사](use-dmarc-to-validate-email.md)를 참조하세요.
 
 ## <a name="troubleshooting-best-practices-for-spf-in-microsoft-365"></a>문제 해결: Microsoft 365의 SPF에 대 한 모범 사례
 <a name="SPFTroubleshoot"> </a>

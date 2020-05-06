@@ -14,12 +14,12 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 규정 준수 점수는 조직이 위험 평가를 간소화 하 고 자동화 하는 데 도움이 되며, 위험을 해결 하기 위한 권장 조치를 제시 합니다.
-ms.openlocfilehash: 77650747e28096fc05c4a9b30bc92545b6f2bc29
-ms.sourcegitcommit: ff62dd99fa0d4e780da25dc622f93ddc8f7f95a0
+ms.openlocfilehash: 507ff021095dfc0b18cffb6db313009c22ad2693
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/03/2020
-ms.locfileid: "43141573"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44046276"
 ---
 # <a name="microsoft-compliance-score-preview"></a>Microsoft 준수 점수 (미리 보기)
 
@@ -49,8 +49,8 @@ Microsoft 준수 점수는 조직의 규정 준수 상태를 이해 하는 데 �
 - **권장 작업**: 점수를 최대화 하는 컨트롤을 구현 하는 방법에 대 한 권장 사항 및 단계별 지침을 제공 합니다.
 -  **기본 제공 컨트롤 매핑**: 기본 제공 되는 일반 컨트롤 프레임 워크를 제공 하 여 진화 하는 준수 가로를 유지 하는 데 도움이 됩니다.
 
-> [!IMPORTANT] 
-> 규정 준수 점수가 특정 표준 또는 규정에 대 한 조직 준수를 절대 측정 하지는 않습니다. 개인 데이터 및 개별 개인 정보에 대 한 위험을 줄일 수 있는 컨트롤을 채택한 범위를 나타냅니다. 준수 점수 및 준수 관리자의 권장 사항은 준수 보장으로 해석 되어서는 안 됩니다. 이 서비스는 현재 미리 볼 수 있으며 [온라인 서비스 약관](https://go.microsoft.com/fwlink/?linkid=2108910)의 사용 약관에 따라 달라 집니다.
+> [!IMPORTANT]
+> 준수 점수 및 준수 관리자의 권장 사항을 준수 보장으로 해석하면 안 됩니다. 규정 환경에 따라 고객 컨트롤의 효율성을 평가 하 고 유효성을 검사 하는 작업은 사용자의 결정입니다. 이러한 서비스는 현재 미리 보기로 사용 되며 [온라인 서비스 약관](https://go.microsoft.com/fwlink/?linkid=2108910)의 사용 약관에 따라 달라 집니다. [보안 및 규정 준수에 대 한 자세한 내용은 Microsoft 365 라이선싱 지침을](https://docs.microsoft.com/office365/servicedescriptions/microsoft-365-service-descriptions/microsoft-365-tenantlevel-services-licensing-guidance/microsoft-365-security-compliance-licensing-guidance)참조 하세요.
 
 ## <a name="relationship-to-compliance-manager"></a>준수 관리자와의 관계
 
@@ -64,7 +64,7 @@ Microsoft 준수 점수는 조직의 규정 준수 상태를 이해 하는 데 �
 
 ## <a name="understanding-your-score"></a>점수 이해
 
-준수 점수가 Microsoft 365 데이터 보호 기준을 기반으로 초기 점수를 제공 합니다. 이 기준은 일반적인 업계 규정 및 표준을 포함 하는 컨트롤 집합입니다. 이 점수는 준수 상태를 평가 하는 데 적합 한 출발점 이지만 조직과 보다 관련성이 높은 평가를 추가 하는 경우 준수 점수가 더욱 강력해 집니다.
+준수 점수가 Microsoft 365 데이터 보호 기준을 기반으로 초기 점수를 제공 합니다. 이 기준은 공통 산업 규정 및 표준을 포함하는 규제 세트입니다. 이 점수는 준수 상태를 평가 하는 데 적합 한 출발점 이지만 조직과 보다 관련성이 높은 평가를 추가 하는 경우 준수 점수가 더욱 강력해 집니다.
 
 예를 들어 조직이 금융 서비스 업계에 속하는 경우 FFIEC 평가를 추가할 수 있습니다. 조직이 의료 업계에 속하는 경우 HIPAA/HITECH 평가를 추가할 수 있습니다. [준수 관리자에서 평가를 추가](working-with-compliance-manager.md#assessments)하는 방법을 알아봅니다.
 

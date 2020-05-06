@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 ISO 27001 작업 계획 - 처음 30일, 90일 및 그 이상 기간에 대한 최고 우선 순위 지정
+title: Microsoft 365 ISO 27001 작업 계획, 처음 30일, 90일 및 그 이상 기간에 대한 우선순위
 description: ISO(국제 표준화 기구) 요구 사항을 준수하기 위해 작업할 때 따라야 하는 우선 순위가 지정된 작업 계획
 keywords: Microsoft 365, Microsoft 365 Education, Microsoft 365 설명서, ISO, ISO 27001
 author: BrendaCarter
@@ -13,12 +13,13 @@ manager: laurawi
 audience: itpro
 ms.collection:
 - M365-security-compliance
-ms.openlocfilehash: 5b4ce9f5e77d31fce02f2c23c3a22cbd83095117
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 03d4e48a8392b49e75f6778d7a1be6f44de08fe7
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637456"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035024"
 ---
 # <a name="microsoft-365-iso-27001-action-plan--top-priorities-for-your-first-30-days-90-days-and-beyond"></a>Microsoft 365 ISO 27001 작업 계획 - 처음 30일, 90일 및 그 이상 기간에 대한 최고 우선 순위 지정
 

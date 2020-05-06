@@ -15,12 +15,12 @@ search.appverid:
 - MET150
 description: 셀프 서비스 구매에 대 한 일반적인 질문과 대답을 확인할 수 있습니다.
 ms.custom: aka.ms/self-service-purchase-faq
-ms.openlocfilehash: 26b6e11a6c992f85b136d05269cefb80f233b11f
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: c7f91b8067aac5baa3c792dac10c1fdadae55fa2
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636550"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44046159"
 ---
 # <a name="self-service-purchase-faq"></a>셀프 서비스 구매 FAQ
 
@@ -119,7 +119,7 @@ Microsoft는 미국에 있는 고객에 게 Power BI, Power Apps 및 파워 자�
 
 ### <a name="where-does-the-admin-see-self-service-purchases"></a>관리자가 셀프 서비스 구매를 참조 하는 위치
 
-전역 및 대금 청구 관리자는 중앙 조달을 통해 구매한 다른 모든 구독과 함께 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 관리 센터</a> 의 **청구** > **제품 & 서비스** 의 셀프 서비스 구매를 통해 구매한 구독을 볼 수 있습니다. 중앙 조달을 통해 구매한 구독에만 목록을 필터링 하거나 셀프 서비스 구매를 통해 구매한 구독을 포함할 수 있습니다.
+전역 및 대금 청구 관리자는 중앙 조달을 통해 구매한 다른 모든 구독과 함께 <a href="https://go.microsoft.com/fwlink/p/?linkid=2024339" target="_blank">Microsoft 365 관리 센터</a> 의**제품** 을 **청구** > 하는 셀프 서비스 구매를 통해 구매한 구독을 볼 수 있습니다. 중앙 조달을 통해 구매한 구독에만 목록을 필터링 하거나 셀프 서비스 구매를 통해 구매한 구독을 포함할 수 있습니다.
 
 관리자는 제품, 구매자 이름, 구독 구입, 만료 날짜, 주문 내역, 구매 가격 및 할당 된 사용자를 볼 수 있습니다.
 

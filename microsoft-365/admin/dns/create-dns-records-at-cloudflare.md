@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 84acd4fc-6eec-4d00-8bed-568f036ae2af
 description: 도메인을 확인 하 고 전자 메일, 비즈니스용 Skype Online 및 기타 서비스에 대 한 DNS 레코드를 Microsoft에 대 한 Cloudflare로 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: 116132d096db61e7004315dcf159fc78dd790d43
-ms.sourcegitcommit: c7f11d851073ef14a69669f6c8b7e0c11e4bb7a1
+ms.openlocfilehash: 36578d8eed2c5630a9ce5abfb355983a26028888
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43939322"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44049074"
 ---
 # <a name="create-dns-records-at-cloudflare-for-microsoft"></a>Microsoft에 대 한 Cloudflare에서 DNS 레코드 만들기
 
@@ -131,7 +131,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     |**유형**|**이름**|**메일 서버**|**Priority(우선 순위)**|**TTL**|
     |:-----|:-----|:-----|:-----|:-----|
-    |MX  <br/> |@  <br/> |*\<domain-key\>*  .mail.protection.outlook.com  <br/> **참고:** Microsoft 365 계정에서 * \<도메인\> 키* 를 가져옵니다.   [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md) |1   <br/> 우선 순위에 대한 자세한 내용은 [MX 우선 순위란?](https://support.office.com/article/2784cc4d-95be-443d-b5f7-bb5dd867ba83.aspx)을 참조하세요. <br/>|30분  <br/> |
+    |MX  <br/> |@  <br/> |*\<domain-key\>*  .mail.protection.outlook.com  <br/> **참고:** Microsoft 365 계정에서 * \<도메인\> 키* 를 가져옵니다.   [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md) |개  <br/> 우선 순위에 대한 자세한 내용은 [MX 우선 순위란?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)을 참조하세요. <br/>|30분  <br/> |
    
 
   
@@ -193,7 +193,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     |**유형**|**이름**|**TTL**|**콘텐츠**|
     |:-----|:-----|:-----|:-----|
-    |TXT  <br/> |@  <br/> |30분  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **참고: ** 모든 간격이 올바르게 유지되도록 이 항목을 복사하여 붙여넣는 것이 좋습니다.   |
+    |TXT  <br/> |@  <br/> |30분  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/> **참고:** 모든 공백이 올바르게 유지되도록 이 항목을 복사하여 붙여 넣는 것이 좋습니다.   |
 
  
 5. **저장**을 선택합니다.
@@ -218,8 +218,8 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
         
     |**유형**|**서비스**|**프로토콜**|**이름**|**TTL**|**Priority(우선 순위)**|**Weight(가중치)**|**Port(포트)**|**대상**|
     |:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|:-----|
-    |SRV|_sip |TLS |*Domain_name*사용 예를 들어 contoso.com  |30분 | 100|1  |443 |sipfed.online.lync.com  |
-    |SRV|_sipfederationtls | TCP|*Domain_name*사용 예를 들어 contoso.com   |30분 |100 |1  |5061 | sipfed.online.lync.com |
+    |SRV|_sip |TLS |*Domain_name*사용 예를 들어 contoso.com  |30분 | 100|개 |443 |sipfed.online.lync.com  |
+    |SRV|_sipfederationtls | TCP|*Domain_name*사용 예를 들어 contoso.com   |30분 |100 |개 |5061 | sipfed.online.lync.com |
 
   
 5. **저장**을 선택합니다.

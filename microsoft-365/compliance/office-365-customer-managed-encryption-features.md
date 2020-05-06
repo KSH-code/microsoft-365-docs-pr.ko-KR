@@ -12,13 +12,15 @@ localization_priority: None
 search.appverid:
 - MET150
 ms.collection: Strat_O365_Enterprise
-description: '요약: Microsoft 365의 데이터 복구 기능을 이해 합니다.'
-ms.openlocfilehash: 365cde7137247e20bb4fd2b57039057398deafd5
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom:
+- seo-marvel-mar2020
+description: 이 문서에서는 Microsoft 365에서 관리 및 구성할 수 있는 암호화 기술에 대해 알아봅니다.
+ms.openlocfilehash: 3c7050ba0417473b4b387937336aae02c1eba778
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637344"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44033616"
 ---
 # <a name="customer-managed-encryption-features"></a>고객 관리 암호화 기능
 
@@ -64,8 +66,8 @@ Aip ( [Azure Information Protection](https://docs.microsoft.com/information-prot
 
 EOP (exchange Online Protection) 및 Exchange Online은 DKIM (Domain Keys 식별 메일) 메시지의 인바운드 유효성 검사를 지원 합니다. DKIM은 메시지가 원래 있었던 도메인에서 보낸 것 이며 다른 사용자에 의해 위장 되지 않았음을 검사 하는 방법입니다. 전자 메일 메시지를 발송을 담당 하는 조직에 연결할 수 있으며 전자 메일 암호화에 대 한 보다 큰 패러다임의 일부임을 제공 합니다. 이 패러다임의 세 가지 부분에 대 한 자세한 내용은 다음 항목을 참조 하십시오.
 
-- [스푸핑을 방지 하기 위한 SPF 설정](https://docs.microsoft.com/office365/SecurityCompliance/set-up-spf-in-office-365-to-help-prevent-spoofing)
+- [스푸핑을 방지할 수 있도록 SPF 설정](https://docs.microsoft.com/office365/SecurityCompliance/set-up-spf-in-office-365-to-help-prevent-spoofing)
 
-- [DKIM을 사용 하 여 사용자 지정 도메인에서 전송 되는 아웃 바운드 전자 메일의 유효성 검사](https://docs.microsoft.com/office365/SecurityCompliance/use-dkim-to-validate-outbound-email)
+- [DKIM을 사용하여 사용자 지정 도메인에서 전송한 아웃바운드 전자 메일의 유효성 검사](https://docs.microsoft.com/office365/SecurityCompliance/use-dkim-to-validate-outbound-email)
 
 - [DMARC를 사용하여 전자 메일의 유효성 검사](https://docs.microsoft.com/office365/SecurityCompliance/use-dmarc-to-validate-email)

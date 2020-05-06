@@ -14,13 +14,15 @@ search.appverid:
 ms.assetid: c534a35d-b121-45da-9d0a-ce738ce51fce
 ms.collection:
 - M365-security-compliance
-description: Exchange Online 및 독립 실행형 EOP (Exchange Online Protection)의 스팸 방지 보호 기능에 대 한 질문과 대답 (faq)을 제공 합니다.
-ms.openlocfilehash: 0bd34639d717b979a02272e3c2f5de243c68d3ab
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom:
+- seo-marvel-apr2020
+description: 이 항목에서는 스팸 방지 보호 기능에 대 한 질문과 대답 & 제공 합니다. 응답은 Microsoft Exchange Online & EOP (Exchange Online Protection) 고객에 게 적용 됩니다.
+ms.openlocfilehash: 33fb1fb5d73f0d686a72e89d460c0973d2bbdabe
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636061"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44033741"
 ---
 # <a name="anti-spam-protection-faq"></a>스팸 방지 보호 FAQ
 
@@ -133,7 +135,7 @@ A. 예. 자세한 내용은 [인터넷에서 개인 정보 보호](https://suppo
 
   SPF 레코드는 도메인에서 전송된 메일이 실제로 해당 도메인에서 보낸 것이며 스푸핑되지 않았음을 검사하는 메커니즘입니다. SPF 레코드에 대한 자세한 내용은 다음 링크를 참조하십시오.
 
-  [스푸핑을 방지 하기 위한 SPF 설정](set-up-spf-in-office-365-to-help-prevent-spoofing.md)
+  [스푸핑을 방지할 수 있도록 SPF 설정](set-up-spf-in-office-365-to-help-prevent-spoofing.md)
 
   [도메인 FAQ](https://docs.microsoft.com/office365/admin/setup/domains-faq#how-can-i-validate-spf-records-for-my-domain)
 

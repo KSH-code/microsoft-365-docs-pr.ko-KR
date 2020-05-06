@@ -18,13 +18,15 @@ search.appverid:
 - MED150
 - MET150
 ms.assetid: 53390468-eec6-45cb-b6cd-7511f9c909e4
-description: Office 365 또는 Microsoft 365의 규정 준수 센터의 콘텐츠 검색 도구를 사용하여 사서함, SharePoint Online 사이트, OneDrive 계정, Microsoft Teams, Microsoft 365 그룹, Yammer 그룹 및 비즈니스용 Skype 대화에서 콘텐츠를 검색할 수 있습니다. 키워드 검색 쿼리 및 검색 조건을 사용하여 검색 결과 범위를 좁힐 수 있습니다. 그런 다음 검색 결과를 미리 보고 내보낼 수 있습니다. 또한 콘텐츠 검색은 GDPR 데이터 주체 요청과 관련된 콘텐츠를 검색하는 데 효과적인 도구입니다.
-ms.openlocfilehash: 61e8b15af29bf02849a83f6a68bdd1c0accd7e8d
-ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
+ms.custom:
+- seo-marvel-apr2020
+description: Office 365 또는 Microsoft 365의 규정 준수 센터에서 콘텐츠 검색 도구를 사용하여 다양한 Office 365 서비스에서 콘텐츠를 검색할 수 있습니다.
+ms.openlocfilehash: e16b369c2844f75673ac4f6eee1cb3b8f4fdfab4
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43943177"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035506"
 ---
 # <a name="content-search"></a>콘텐츠 검색
 

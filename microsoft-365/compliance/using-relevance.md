@@ -15,13 +15,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: ''
-ms.openlocfilehash: 2ddc9a6ae868682a3a241e9896d3aa63ac46f985
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: Advanced eDiscovery의 관련성 워크플로 및 교육 단계에 대 한 설명을 포함 하 여 관련성 모듈이 증거 데이터를 분석 하는 방법을 알아봅니다.
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 4babb0aa7693bc1107cc7594da967bca2d307228
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42069163"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034470"
 ---
 # <a name="use-the-relevance-module-to-analyze-data-in-advanced-ediscovery"></a>관련성 모듈을 사용 하 여 Advanced eDiscovery에서 데이터 분석
 
@@ -127,7 +128,7 @@ ms.locfileid: "42069163"
     
   - 함축:이 시점에서는 관련성 교육이 필요 하지 않습니다.
     
-고급 eDiscovery에서는 프로세스를 안내 하지만 다른 단계에서 권장 되는 다음 단계를 통해 탭과 페이지를 탐색할 수 있을 뿐만 아니라 개별 사례, 문제 또는 사용자에 게 적합 한 상황을 해결 하기 위한 선택도 가능 합니다. 문서 검토 프로세스 
+고급 eDiscovery에서는 프로세스를 안내 하지만 다른 단계에서 권장 되는 다음 단계를 사용 하 여 탭과 페이지를 탐색 하 고 개별 사례, 문제 또는 문서 검토 프로세스와 관련이 있을 수 있는 상황을 확인할 수 있습니다. 
   
 고급 eDiscovery 다음 단계 처리 옵션을 수락 하거나 무시할 수 있습니다. 권장 되는 다음 단계를 제외한 나머지 단계를 수행 하려면 대화에 확장 된 문제 표시에 나열 된 **다음 단계** 를 클릭 하 고 다음 단계 옆에 있는 **Modify (수정** ) 단추를 클릭 한 다음 다른 다음 단계 옵션을 선택 합니다. 
   

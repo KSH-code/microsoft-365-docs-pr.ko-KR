@@ -11,13 +11,14 @@ ms.topic: hub-page
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 70ab4af2-fec4-4886-8e12-27d348649204
-description: 다음은 EOP을 사용 하 여 작업을 시작 하기 전에 알아야 할 몇 가지 사항입니다.
-ms.openlocfilehash: c86d8dbf71cdfddf0562e9c572dc8d65043e1c69
-ms.sourcegitcommit: d00efe6010185559e742304b55fa2d07127268fa
+description: EOP 서비스를 설정 하는 방법을 비롯 하 여 Microsoft EOP (Exchange Online Protection) 호스팅된 전자 메일 필터링 서비스에 대해 알아봅니다.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: ee39e051d3be0e3b27013929bdc3d3a948457c9b
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/28/2020
-ms.locfileid: "43032867"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036539"
 ---
 # <a name="exchange-online-protection"></a>Exchange Online Protection
 
@@ -63,7 +64,7 @@ EOP 관리자의 도움말 내용은 다음과 같은 최상위 범주로 구성
 
 The EOP 최종 사용자가 스팸을 관리하도록 지원하기 위한 도움말 내용은 다음 항목으로 구성됩니다.
 
-- [Microsoft에 메시지 및 파일 보고](report-junk-email-messages-to-microsoft.md)
+- [Microsoft에 메시지와 파일 보고](report-junk-email-messages-to-microsoft.md)
 
 - 최종 사용자는 Outlook 또는 웹용 Outlook에서 수신 허용-보낸 사람 목록 또는 수신 거부 목록에 보낸 사람을 추가할 수 있습니다. 관리자는 사용자 사서함에서 이러한 목록을 수정할 수도 있습니다. 자세한 내용은 [Outlook의 정크 메일 설정 정보](configure-junk-email-settings-on-exo-mailboxes.md#about-junk-email-settings-in-outlook)를 참조 하세요.
 

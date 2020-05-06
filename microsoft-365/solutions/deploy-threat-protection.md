@@ -1,6 +1,6 @@
 ---
 title: Microsoft 365에서 위협 보호 기능 배포
-description: Microsoft 365 E5에서 위협 보호 기능을 배포 하는 방법을 알아봅니다.
+description: Microsoft 365 E5에서 위협 보호 서비스 및 기능을 배포 하는 방법을 알아봅니다.
 ms.author: bcarter
 author: brendacarter
 manager: dansimp
@@ -13,12 +13,12 @@ ms.collection:
 ms.custom:
 - M365solutions
 f1.keywords: NOCSH
-ms.openlocfilehash: ff6854636c13e6c1ea40cf4cc6fa39d7b2b340b4
-ms.sourcegitcommit: 997f6227f33c3683ade9672e881d09216df22ee9
+ms.openlocfilehash: 81b069bb5c316bea211bee98c293f2d1fcdd2422
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/04/2020
-ms.locfileid: "44016099"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44046265"
 ---
 # <a name="deploy-threat-protection-capabilities-across-microsoft-365"></a>Microsoft 365에서 위협 보호 기능 배포
 
@@ -48,7 +48,16 @@ Advanced threat protection 기능을 배포 하는 즉시 Microsoft Threat Prote
 
 ![M365 위협 방지 신호](../media/solutions-architecture-center/deploy-threat-protection-across-m365.png)
 
-여러 보안 팀이 포함 된 조직은 이러한 기능을 동시에 구현할 수 있습니다.
+|솔루션/기능  |설명  |
+|---------|---------|
+|다단계 인증 및 조건부 액세스     |손상 된 id 및 장치 로부터 보호 합니다. 기초 이기 때문에이 보호로 시작 합니다. 이 지침에서 권장 하는 구성은 필수 구성 요소로 Azure AD Id 보호를 포함 합니다.     |
+|Azure Advanced Threat Protection     |  온-프레미스 Active Directory를 활용 하는 클라우드 기반 보안 솔루션은 고급 위협, 손상 된 id 및 조직에서 보낸 악의적인 참가자 작업을 식별, 감지 및 조사 하기 위한 신호입니다. 다음에는 온-프레미스 및 클라우드 인프라를 보호 하 고, 종속성 이나 필수 구성 요소가 없으며, 즉각적인 이점을 제공할 수 있으므로 중점적으로 설명 합니다.       | 
+|Office 365 Advanced Threat Protection     | 전자 메일 메시지, 링크 (Url) 및 공동 작업 도구를 통해 야기 되는 악의적인 위협 으로부터 조직을 보호 합니다. 맬웨어, 피싱, 스푸핑 및 기타 공격 유형에 대 한 보호 이는 변경 제어, incumbent 시스템에서 설정 마이그레이션 및 기타 고려 사항을 배포 하는 데 시간이 오래 걸릴 수 있기 때문에 권장 되는 방법입니다. <br><br>참고: 모든 Office 365 구독 (Exchange Online Protection)에 포함 된 위협 방지 기능만 구성 해야 합니다.       |
+|Microsoft Defender Advanced Threat Protection    | Advanced 위협을 방지, 감지, 조사 및 대응 하는 데 도움이 되는 endpoint protection 플랫폼입니다. 이 작업은 배포 하는 데 시간이 오래 걸리지만 다른 관리자가 담당 하는 경우 다른 기능과 병행 하 여 수행할 수 있습니다.   |
+|Microsoft Cloud App Security     |   검색, 조사 및 거 버 넌 스에 대 한 클라우드 액세스 보안 브로커 이를 조기에 사용 하 여 데이터 및 통찰력 수집을 시작할 수 있습니다. SaaS 앱에 대 한 정보 및 기타 타게 팅 보호를 구현 하려면 계획이 필요 하며 더 많은 시간이 걸릴 수 있습니다.       | 
+
+> [!TIP]
+> 여러 보안 팀이 포함 된 조직은 이러한 기능을 동시에 구현할 수 있습니다.
 
 ## <a name="deploy-your-threat-protection-solution"></a>위협 방지 솔루션 배포
 

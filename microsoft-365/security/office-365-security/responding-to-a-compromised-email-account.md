@@ -10,18 +10,20 @@ ms.topic: article
 ms.collection:
 - o365_security_incident_response
 - M365-security-compliance
-ms.custom: TopSMBIssues
+ms.custom:
+- TopSMBIssues
+- seo-marvel-apr2020
 ms.service: O365-seccomp
 localization_priority: Priority
 search.appverid:
 - MET150
-description: Microsoft 365에서 손상된 전자 메일 계정을 인식하고 응답하는 방법에 대해 알아보기
-ms.openlocfilehash: 65e3827b578eec2f851c45d9acc69fb7132d01b8
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Microsoft 365에서 제공하는 도구를 사용하여 손상된 전자 메일 계정을 인식하고 대처하는 방법에 대해 알아봅니다.
+ms.openlocfilehash: f53d38c6e34e555542e0c655d7e7d24ca3c9c978
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634343"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44033833"
 ---
 # <a name="responding-to-a-compromised-email-account"></a>손상된 전자 메일 계정에 응답
 

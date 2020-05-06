@@ -1,5 +1,5 @@
 ---
-title: 자동 조사 및 대응 (AIR)
+title: 자동화 된 조사 및 응답 (AIR)-시작
 keywords: AIR, autoIR, ATP, 자동화, 조사, 대응, 재구성, 위협, 고급, 위협, 보호
 f1.keywords:
 - NOCSH
@@ -15,15 +15,15 @@ search.appverid:
 - MOE150
 ms.collection: M365-security-compliance
 description: Office 365 Advanced Threat Protection 계획 2의 자동화 된 조사 및 응답 기능 사용을 시작 하세요.
-ms.custom: air
-ms.openlocfilehash: 3b7ddd88161b695e8929b749dac61d7947392a0d
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom: air - seo-marvel-mar2020
+ms.openlocfilehash: b9811963210f253bbfe90af02dd6d38926776a62
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634547"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44033953"
 ---
-# <a name="automated-investigation-and-response-air"></a>자동 조사 및 대응 (AIR)
+# <a name="get-started-using-automated-investigation-and-response-air-in-office-365"></a>Office 365에서 자동화 된 조사 및 응답 (AIR) 사용 시작
 
 [Office 365 Advanced Threat Protection](office-365-atp.md) (OFFICE 365 ATP) 계획 2에는 보안 작업 팀의 시간과 노력을 줄일 수 있는 강력한 자동 조사 및 응답 (AIR) 기능이 포함 되어 있습니다. 알림이 트리거되면 해당 경고를 검토 하 고 우선 순위를 지정 하 고 응답 하는 보안 운영 팀이 진행 됩니다. 들어오는 알림의 볼륨을 유지 하는 것은 매우 어려울 수 있습니다. 이 중 일부를 자동화 하면 도움이 될 수 있습니다. AIR을 사용 하는 경우 보안 운영 팀은 트리거된 경고에 대 한 시야 없이 우선 순위가 더 높은 작업에 집중할 수 있습니다.
 
@@ -52,7 +52,7 @@ ms.locfileid: "43634547"
     보류 중인 재구성 작업이 승인 되거나 거부 됨에 따라 자동 조사가 완료 됩니다.
 
 > [!NOTE]
-> Office 365 ATP에서는 재구성 작업이 자동으로 수행 되지 않습니다. 관리 작업은 조직의 보안 팀이 승인 하는 경우에만 수행 됩니다. 
+> Office 365 ATP에서는 재구성 작업이 자동으로 수행 되지 않습니다. 수정 작업은 조직의 보안 팀이 승인한 경우에만 적용될 수 있습니다. 
 
 자동화 된 조사 프로세스 중 및 이후에 보안 팀은 다음을 수행할 수 있습니다.
 

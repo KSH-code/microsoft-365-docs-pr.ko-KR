@@ -15,13 +15,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: ''
-ms.openlocfilehash: a6bd4672c75e2e633ede2ad54effb4c6562b822c
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: 한 검토 집합에서 문서를 선택 하 고 고급 eDiscovery 사례의 다른 집합에서 개별적으로 사용 하는 방법에 대해 알아봅니다.
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 636e76b1740cfa07254e4c56165cfafa8f1fad5a
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42080190"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034682"
 ---
 # <a name="add-data-to-a-review-set-from-another-review-set"></a>다른 검토 집합의 검토 집합에 데이터 추가
 

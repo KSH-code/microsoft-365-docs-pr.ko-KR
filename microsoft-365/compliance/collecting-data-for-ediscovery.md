@@ -15,13 +15,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: ''
-ms.openlocfilehash: 462c58f8531265026b34fe3d8484736aefa4c5fa
-ms.sourcegitcommit: 72e43b9bf85dbf8f5cf2040ea6a4750d6dc867c9
+description: 고급 eDiscovery의 검색 도구를 사용 하 여 검토를 위해 검토할 문서 집합을 식별 하는 방법에 대해 알아봅니다.
+ms.custom: seo-marvel-2020
+ms.openlocfilehash: 9d8a88ddfc6bcb30f8678f39ad2bc4fbaf717ecc
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/24/2020
-ms.locfileid: "43799941"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034352"
 ---
 # <a name="collect-data-for-a-case-in-advanced-ediscovery"></a>Advanced eDiscovery에서 사례에 대 한 데이터 수집
 

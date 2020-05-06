@@ -1,6 +1,6 @@
 ---
 title: 온-프레미스 파일 공유 GDPR
-description: 온-프레미스 Windows Server 파일 공유에서 GDPR 요구 사항을 해결하는 방법을 알아보세요.
+description: 온-프레미스 Windows Server 파일 공유에서 GDPR(일반 데이터 보호 규정) 요구 사항을 해결하는 방법을 알아봅니다.
 f1.keywords:
 - NOCSH
 ms.author: mikeplum
@@ -11,12 +11,13 @@ ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Priority
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: e5431c4f0953a9d65246f65d783bf6753c5f9bef
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: e9d45c86b2838acef9966b10806e589d1bb42ff9
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41596425"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036251"
 ---
 # <a name="gdpr-for-on-premises-windows-server-file-shares"></a>온-프레미스 Windows Server 파일 공유
 

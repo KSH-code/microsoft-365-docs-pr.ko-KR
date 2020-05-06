@@ -17,18 +17,18 @@ ms.collection:
 search.appverid:
 - MET150
 description: 조직에 대 한 무료 셀프 서비스 등록 구독을 관리 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 056ae95f9f5067ea3fa86164b620c72c84e3aad4
-ms.sourcegitcommit: e525bcf073a61e1350484719a0c3ceb6ff0d8db1
+ms.openlocfilehash: 46c77cb32fec4dfa1fb9c3d3f992bd842be1b969
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/06/2020
-ms.locfileid: "43154139"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44045264"
 ---
 # <a name="manage-self-service-sign-up-subscriptions"></a>셀프 서비스 등록 구독 관리
 
 ## <a name="what-are-self-service-sign-up-subscriptions"></a>셀프 서비스 등록 구독은 무엇입니까?
 
-조직의 사용자가 등록할 수 있는 제한 된 수의 무료 셀프 서비스 등록 구독이 있습니다. 사용자는 자체적으로 셀프 서비스 등록 구독을 등록 하 고 사용할 수만 있습니다. 이러한 구독은 **Products & services** 페이지에 나타나며, **무료로**표시 되며, "이 제품은 회사의 사용자가 사용 하 여 무료 구독을 활성화 했습니다." 라는 메모를 제공 합니다. 사용자가 등록을 차단 하 고 사용자가 등록 한 무료 구독을 삭제 하 여 셀프 서비스 등록 구독을 관리할 수 있습니다. 셀프 서비스 등록 및 사용 가능한 구독에 대 한 자세한 내용은 [조직에서 셀프 서비스 등록 사용](../../admin/misc/self-service-sign-up.md)을 참조 하십시오.
+조직의 사용자가 등록할 수 있는 제한 된 수의 무료 셀프 서비스 등록 구독이 있습니다. 사용자는 자체적으로 셀프 서비스 등록 구독을 등록 하 고 사용할 수만 있습니다. 이러한 구독은 제품 페이지에 나타나며 **무료로**표시 되며, "이 **제품은** 회사의 사용자가 무료 구독을 활성화 하 고 있습니다." 라는 메모를 제공 합니다. 사용자가 등록을 차단 하 고 사용자가 등록 한 무료 구독을 삭제 하 여 셀프 서비스 등록 구독을 관리할 수 있습니다. 셀프 서비스 등록 및 사용 가능한 구독에 대 한 자세한 내용은 [조직에서 셀프 서비스 등록 사용](../../admin/misc/self-service-sign-up.md)을 참조 하십시오.
 
 ## <a name="how-are-these-subscriptions-different-from-self-service-purchase-subscriptions"></a>이러한 구독은 셀프 서비스 구매 구독과 어떤 차이가 있나요?
 
@@ -43,7 +43,7 @@ ms.locfileid: "43154139"
 > [!IMPORTANT]
 > 셀프 서비스 등록 구독을 삭제 하면 모든 사용자가 해당 데이터 및 전자 메일에 액세스할 수 없도록 차단 되며 모든 데이터 및 전자 메일을 삭제 합니다.
 
-1. 관리 센터에서 **청구** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품 & 서비스</a> 페이지로 이동 합니다.
+1. 관리 센터에서<a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a> **청구** > 페이지로 이동 합니다.
 2. 삭제 하려는 셀프 서비스 등록 구독을 찾습니다. **& 작업 설정** 섹션에서 **구독 삭제**를 선택 합니다.
 3. **구독 삭제** 창에서 확인란을 선택 하 고 **구독 삭제**를 선택 합니다.
 

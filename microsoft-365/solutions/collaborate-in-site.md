@@ -11,15 +11,16 @@ ms.collection:
 - M365-collaboration
 ms.custom:
 - M365solutions
+- seo-marvel-apr2020
 localization_priority: Normal
 f1.keywords: NOCSH
-description: SharePoint 사이트에서 게스트와 공동 작업 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: b9b5a50b4d0f7486b3c86546a672b01db3a5b000
-ms.sourcegitcommit: 101084f9c81616342d78493232d8f13f5ffa4ddf
+description: 게스트가 포함 된 공동 작업을 위해 SharePoint 사이트를 설정 하는 데 필요한 Microsoft 365 구성 단계에 대해 설명 합니다.
+ms.openlocfilehash: f79846de5d4fd8661205e549db3457a7696e9770
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "44002280"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035998"
 ---
 # <a name="collaborate-with-guests-in-a-site"></a>게스트와 현장에서 공동 작업하기
 

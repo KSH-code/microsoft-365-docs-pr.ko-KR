@@ -11,15 +11,17 @@ ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: Ent_O365
-ms.custom: Ent_Solutions
+ms.custom:
+- Ent_Solutions
+- seo-marvel-apr2020
 ms.assetid: 79a61003-4905-4ba8-9e8a-16def7add37c
-description: '요약: 이러한 절차를 사용 하 여 격리 된 SharePoint Online 팀 사이트를 관리 합니다.'
-ms.openlocfilehash: b5fe92f2653774b40eb227c9f8cbb57443fd51e2
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: 격리 된 SharePoint Online 팀 사이트를 관리 하 고, 새 사용자 및 그룹을 추가 하 고, 사용자 및 그룹을 제거 하 고, 사용자 지정 권한으로 문서 하위 폴더를 만듭니다.
+ms.openlocfilehash: 05e3cf742482d34c158e14253eed9d1b99c82995
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635391"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036635"
 ---
 # <a name="manage-an-isolated-sharepoint-online-team-site"></a>격리된 SharePoint Online 팀 사이트 관리
 
@@ -148,7 +150,7 @@ Remove-AzureADGroupMember -MemberId (Get-AzureADGroup | Where { $_.DisplayName -
   
 사용자 지정 사용 권한을 사용 하 여 문서 하위 폴더를 만들려면 다음을 수행 합니다.
   
-1. 사이트에 대 한 관리자 액세스 그룹의 구성원 인 계정에 로그인 합니다. 도움이 필요 하면 [Microsoft 365에 로그인 하는 위치](https://support.office.com/article/e9eb7d51-5430-4929-91ab-6157c5a050b4)를 참조 하세요.
+1. 사이트에 대 한 관리자 액세스 그룹의 구성원 인 계정에 로그인 합니다. 도움을 받으려면 [Microsoft 365에 로그인하는 위치](https://support.office.com/article/e9eb7d51-5430-4929-91ab-6157c5a050b4)를 참조하세요.
     
 2. 격리 된 팀 사이트로 이동 하 여 **문서**를 클릭 합니다.
     

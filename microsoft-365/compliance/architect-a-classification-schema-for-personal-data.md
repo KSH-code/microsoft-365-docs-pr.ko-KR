@@ -16,13 +16,14 @@ ms.service: O365-seccomp
 localization_priority: Priority
 search.appverid:
 - MET150
-description: 조직이 GDPR 계획의 일부로 레이블을 구현하는지 여부를 확인합니다.
-ms.openlocfilehash: db61c5c26ed8484e99aa8f06310bdd3385cf2dce
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: 조직이 GDPR(일반 데이터 보호 규정) 일부로 레이블을 구현하는지 여부를 확인합니다.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 17484e56206ba8f32db3c779623f2f8d7ed57496
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637138"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035170"
 ---
 # <a name="architect-a-classification-schema-for-personal-data"></a>개인 데이터에 대한 분류 스키마 설계
 

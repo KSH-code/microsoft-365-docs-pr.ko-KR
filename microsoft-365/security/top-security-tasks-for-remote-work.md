@@ -15,12 +15,12 @@ ms.collection:
 - M365-security-compliance
 - remotework
 description: 랜 섬 웨어, 피싱 및 악의적 첨부 파일을 포함 하 여 사이버 위협 으로부터 비즈니스 전자 메일 및 데이터를 보호 합니다.
-ms.openlocfilehash: 04f59d4f87bda9460930b54818d2ab43933d11e5
-ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
+ms.openlocfilehash: a5d81eed4d3d6edae48cd82109f83320953782a3
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43943546"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44046355"
 ---
 # <a name="top-12-tasks-for-security-teams-to-support-working-from-home"></a>집에서 작업을 지원 하기 위한 보안 팀을 위한 상위 12 개 작업
 
@@ -37,9 +37,9 @@ ms.locfileid: "43943546"
   
 ||**작업**| 모든 Office 365 Enterprise 요금제|**Microsoft 365 E3** |**Microsoft 365 E5**|
 |:-----|:-----|:-----|:-----|:-----|
-|1       |[Azure MFA (Multi-factor Authentication) 사용](#1-enable-azure-multi-factor-authentication-mfa)   |   ![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)  |![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)   | ![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)      | 
+|개      |[Azure MFA (Multi-factor Authentication) 사용](#1-enable-azure-multi-factor-authentication-mfa)   |   ![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)  |![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)   | ![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)      | 
 |2     | [위협으로부터 보호](#2-protect-against-threats) |![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png) |  ![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)       | ![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)       | 
-|3       |  [Office 365 Advanced Threat Protection 구성](#3-configure-office-365-advanced-threat-protection)  |   |      |  ![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)     | 
+|3(sp3)      |  [Office 365 Advanced Threat Protection 구성](#3-configure-office-365-advanced-threat-protection)  |   |      |  ![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)     | 
 |4       | [Azure ATP (Advanced Threat Protection) 구성](#4-configure-azure-advanced-threat-protection)   |   |      |  ![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)     | 
 |5      |   [Microsoft Advanced Threat Protection 설정](#5-turn-on-microsoft-advanced-threat-protection)  |  |      | ![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)      | 
 |6       | [전화 및 태블릿에서 Intune 모바일 앱 보호 구성](#6-configure-intune-mobile-app-protection-for-phones-and-tablets) |    |  ![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)       |  ![시킨](../media/d238e041-6854-4a78-9141-049224df0795.png)       | 
@@ -67,9 +67,9 @@ ms.locfileid: "43943546"
 
 |계획  |권장 사항  |
 |---------|---------|
-|Microsoft 365 계획 (Azure AD P1 또는 P2 제외)     |[AZURE AD에서 보안 기본값을 사용 하도록 설정](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults)합니다. Azure AD의 보안 기본값에는 사용자 및 관리자를 위한 MFA가 포함 됩니다.   |
-|Microsoft 365 E3 (Azure AD P1 포함)     | [일반적인 조건부 액세스 정책을](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-policy-common) 사용 하 여 다음 정책을 구성 합니다. <br>- [관리자를 위해 MFA 필요](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-admin-mfa) <br>- [모든 사용자에 대해 MFA 요구](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-all-users-mfa) <br> - [레거시 인증 차단](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-block-legacy)       |
-|Microsoft 365 E5 (Azure AD P2 포함)     | Azure AD Id 보호를 활용 하려면 다음 두 가지 정책을 만들어 Microsoft의 [권장 조건부 액세스 및 관련 정책 집합](../enterprise/identity-access-policies.md) 을 구현 하기 시작 합니다.<br> - [로그인 위험이 보통 또는 높을 때 MFA 필요](../enterprise/identity-access-policies.md#require-mfa-based-on-sign-in-risk) <br>- [최신 인증을 지원 하지 않는 클라이언트 차단](../enterprise/identity-access-policies.md#block-clients-that-dont-support-modern-authentication)<br>- [높은 위험 사용자가 암호를 변경 해야 함](../enterprise/identity-access-policies.md#high-risk-users-must-change-password)       |
+|Microsoft 365 계획 (Azure AD P1 또는 P2 제외)     |[Azure AD](https://docs.microsoft.com/azure/active-directory/fundamentals/concept-fundamentals-security-defaults)에서 보안 기본값을 사용하도록 설정 합니다. Azure AD의 보안 기본값에는 사용자 및 관리자를 위한 MFA가 포함됩니다.   |
+|Microsoft 365 E3 (Azure AD P1 포함)     | [공통 조건부 액세스 정책](https://docs.microsoft.com/azure/active-directory/conditional-access/concept-conditional-access-policy-common)을 사용하여 다음 정책을 구성합니다. <br>- [관리자에게 MFA 요구](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-admin-mfa) <br>- [모든 사용자에 대해 MFA 요구](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-all-users-mfa) <br> - [레거시 인증 차단](https://docs.microsoft.com/azure/active-directory/conditional-access/howto-conditional-access-policy-block-legacy)       |
+|Microsoft 365 E5 (Azure AD P2 포함)     | Azure AD ID 보호를 활용하여 다음 두 정책을 만들어 Microsoft의 [권장 조건부 액세스 및 관련 정책 집합](../enterprise/identity-access-policies.md)을 구현하세요.<br> - [로그인 위험이 중간 이상인 경우 MFA 필요](../enterprise/identity-access-policies.md#require-mfa-based-on-sign-in-risk) <br>- [최신 인증을 지원하지 않는 클라이언트 차단](../enterprise/identity-access-policies.md#block-clients-that-dont-support-modern-authentication)<br>- [위험이 높은 사용자는 암호를 변경해야 함](../enterprise/identity-access-policies.md#high-risk-users-must-change-password)       |
 | | |
 
 
@@ -100,7 +100,7 @@ Office 365 ATP:
 - [ATP 안전한 링크 설정](office-365-security/set-up-atp-safe-links-policies.md)
 - [ATP 안전한 첨부 파일 정책 설정](office-365-security/set-up-atp-safe-attachments-policies.md)
 - [사용자 지정 "재작성 금지" URL 목록 설정](office-365-security/set-up-a-custom-do-not-rewrite-urls-list-with-atp.md)
-- [차단된 사용자 지정 URL 목록 설정](office-365-security/set-up-a-custom-blocked-urls-list-wtih-atp.md)
+- [차단된 사용자 지정 URL 목록 설정](office-365-security/set-up-a-custom-blocked-urls-list-atp.md)
 
 Exchange Online 관리자 및 SharePoint Online 관리자와 협력 하 여 이러한 작업에 대 한 ATP를 구성 해야 합니다.
 - [SharePoint, OneDrive 및 Microsoft Teams의 ATP 켜기](office-365-security/turn-on-atp-for-spo-odb-and-teams.md)
@@ -131,7 +131,7 @@ Advanced threat protection 서비스를 하나 이상 구성한 후에 MTP를 �
 ## <a name="6-configure-intune-mobile-app-protection-for-phones-and-tablets"></a>6: 휴대폰 및 태블릿에서 Intune 모바일 앱 보호 구성
 
 Microsoft Intune MAM (모바일 응용 프로그램 관리)를 사용 하면 이러한 장치를 관리 하지 않고도 휴대폰 및 태블릿에서 조직의 데이터를 관리 하 고 보호할 수 있습니다. 작동 방식은 다음과 같습니다.
-- 장치에서 관리 되는 앱을 결정 하는 앱 (앱 보호 정책)과 관리 되는 응용 프로그램의 데이터가 관리 되지 않는 앱에 복사 되는 것을 방지 하는 것과 같은 허용 되는 동작을 만듭니다. 각 platorm (iOS, Android)에 대해 하나의 정책을 만듭니다.
+- 장치에서 관리 되는 앱을 결정 하는 앱 (앱 보호 정책)과 관리 되는 응용 프로그램의 데이터가 관리 되지 않는 앱에 복사 되는 것을 방지 하는 것과 같은 허용 되는 동작을 만듭니다. 각 플랫폼 (iOS, Android)에 대해 하나의 정책을 만듭니다.
 - 앱 보호 정책을 만든 후에는 승인 된 앱 및 앱 데이터 보호를 요구 하도록 Azure AD에서 조건부 액세스 규칙을 만들어이를 적용 합니다.
 
 앱 보호 정책에는 여러 설정이 포함 됩니다. 다행히도, 모든 설정에 대 한 정보를 파악 하 고 옵션을 평가 하지 않아도 됩니다. Microsoft는 시작 지점을 추천 하 여 설정 구성을 쉽게 적용할 수 있도록 합니다. [앱 보호 정책을 사용 하는 데이터 보호 프레임 워크](https://docs.microsoft.com/mem/intune/apps/app-protection-framework) 에는 세 가지 수준 중에서 선택할 수 있습니다. 
@@ -154,7 +154,8 @@ Microsoft 365 E5 요금제를 사용 하는 경우에는 위험 기반 MFA에 �
 
 사용자가 만든 Intune 모바일 앱 보호 정책 및 조건부 액세스 규칙을 함께 사용 하 여 승인 된 앱 및 앱 보호를 요구 하 고, 게스트 계정에 적용 되며, 조직 데이터를 보호 하는 데 도움이 됩니다. 
 
-**참고**: 준수 pc를 요구 하는 pc를 장치 관리에 이미 등록 한 경우 장치 준수를 적용 하는 조건부 액세스 규칙에서 게스트 계정도 제외 해야 합니다. 
+> [!NOTE]
+> 장치 관리에 Pc를 이미 등록 하 여 준수 Pc를 요구 하는 경우에도 장치 준수를 적용 하는 조건부 액세스 규칙에서 게스트 계정을 제외 해야 합니다. 
 
 
 ## <a name="8-enroll-pcs-into-device-management-and-require-compliant-pcs"></a>8: Pc를 장치 관리에 등록 하 고 준수 Pc 필요
@@ -179,11 +180,11 @@ Microsoft 365 E5 요금제를 사용 하는 경우에는 위험 기반 MFA에 �
 
 VPN 집중 장치, 중앙 네트워크 송신 장비 (예: 프록시 및 데이터 손실 방지 장치), 중앙 인터넷 대역폭, MPLS 회로, NAT 기능 등의 네트워크 요소를 사용 하는 경우에는 전체 비즈니스의 부하로 인해 상당한 부담을 초래 하 게 됩니다. 최종 결과로 성능이 저하 되 고, 가정에서 작업을 수행 하는 사용자에 게 뛰어난 사용자 환경에 대 한 만족도가 저하 됩니다.
 
-회사 네트워크를 통해 전송 되는 트래픽 라우팅을 통해 전통적으로 제공 되는 일부 보호 기능은 사용자가 액세스 하는 클라우드 앱에서 제공 합니다. 이 문서의이 단계에 도달 하면 Microsoft 365 서비스 및 데이터에 대 한 정교한 클라우드 보안 컨트롤 집합을 구현 해야 합니다. 이러한 컨트롤을 사용 하는 경우 원격 사용자의 트래픽을 Office 365로 직접 라우팅할 수 있습니다. 다른 응용 프로그램에 액세스 하기 위한 VPN 링크가 여전히 필요한 경우 분할 터널링을 구현 하 여 성능 및 사용자 환경을 대폭 개선할 수 있습니다. Oganization에서 계약을 받은 후에는 잘 조정 된 네트워크 팀이 하루 이내에이 작업을 수행할 수 있습니다.
+회사 네트워크를 통해 전송 되는 트래픽 라우팅을 통해 전통적으로 제공 되는 일부 보호 기능은 사용자가 액세스 하는 클라우드 앱에서 제공 합니다. 이 문서의이 단계에 도달 하면 Microsoft 365 서비스 및 데이터에 대 한 정교한 클라우드 보안 컨트롤 집합을 구현 해야 합니다. 이러한 컨트롤을 사용 하는 경우 원격 사용자의 트래픽을 Office 365로 직접 라우팅할 수 있습니다. 다른 응용 프로그램에 액세스 하기 위한 VPN 링크가 여전히 필요한 경우 분할 터널링을 구현 하 여 성능 및 사용자 환경을 대폭 개선할 수 있습니다. 조직에서 계약을 받은 후에는 잘 조정 된 네트워크 팀이 하루 이내에이 작업을 수행할 수 있습니다.
 
 
 자세한 내용은 문서에서 다음 리소스를 참조 하세요.
-- [개요: VPN 분할 tunnelling을 사용 하 여 원격 사용자에 대 한 연결 최적화](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
+- [개요: VPN 분할 터널링을 사용 하 여 원격 사용자에 대 한 연결 최적화](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-split-tunnel)
 - [Office 365 VPN 분할 터널링 구현](https://docs.microsoft.com/Office365/Enterprise/office-365-vpn-implement-split-tunnel)
 
 이 항목에 대 한 최신 블로그 문서:

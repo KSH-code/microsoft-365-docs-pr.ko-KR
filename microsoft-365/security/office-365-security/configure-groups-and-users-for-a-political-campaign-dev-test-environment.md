@@ -1,5 +1,5 @@
 ---
-title: 정치적 캠페인 개발/테스트 환경에 대해 그룹 및 사용자 구성
+title: 그룹 및 사용자 구성하기 - 정치적 캠페인 개발/테스트 환경
 f1.keywords:
 - NOCSH
 ms.author: josephd
@@ -17,12 +17,13 @@ search.appverid:
 - MET150
 ms.assetid: 0e22bcf3-bad3-42a4-b44f-276e0cf4790f
 description: '요약: 정치적 캠페인 개발/테스트 환경의 사용자 및 그룹을 사용하여 Office 365 및 EMS(Enterprise Mobility + Security) 평가판 구독을 만듭니다.'
-ms.openlocfilehash: f07ccbb648ef20c6b7c6ef005afef59fd89d56aa
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 14722ab96230ecb8acaf4476d6ca70c47de2ffdd
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43638461"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035109"
 ---
 # <a name="configure-groups-and-users-for-a-political-campaign-devtest-environment"></a>정치적 캠페인 개발/테스트 환경에 대해 그룹 및 사용자 구성
 

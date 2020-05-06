@@ -11,15 +11,17 @@ ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection: Ent_O365
-ms.custom: Ent_Solutions
+ms.custom:
+- Ent_Solutions
+- seo-marvel-apr2020
 ms.assetid: 3033614b-e23b-4f68-9701-f62525eafaab
-description: '요약: 다음 단계별 지침을 사용 하 여 격리 된 SharePoint Online 팀 사이트를 새로 배포 합니다.'
-ms.openlocfilehash: e35e380b61a94e08ff25e2e4c4bdfa28a635449e
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: 이 단계별 배포 가이드를 사용 하 여 Microsoft Office 365에서 격리 된 SharePoint Online 팀 사이트를 만들고 구성 합니다.
+ms.openlocfilehash: 772a9e5ea08871857a70cc840e377046d459a314
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637631"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036454"
 ---
 # <a name="deploy-an-isolated-sharepoint-online-team-site"></a>격리된 SharePoint Online 팀 사이트 배포
 
@@ -159,7 +161,7 @@ Get-AzureADGroupMember -ObjectId (Get-AzureADGroup | Where { $_.DisplayName -eq 
   
 먼저 다음 단계를 사용 하 여 SharePoint Online 팀 사이트를 만듭니다.
   
-1. SharePoint Online 팀 사이트를 관리 하는 데 사용할 계정 (SharePoint Online 관리자)을 사용 하 여 Microsoft 365 관리 센터에 로그인 합니다. 도움을 받으려면 [Office 365에 로그인하는 위치](https://support.office.com/article/e9eb7d51-5430-4929-91ab-6157c5a050b4)를 참조하십시오.
+1. SharePoint Online 팀 사이트를 관리 하는 데 사용할 계정 (SharePoint Online 관리자)을 사용 하 여 Microsoft 365 관리 센터에 로그인 합니다. 도움을 받으려면 [Office 365에 로그인하는 위치](https://support.office.com/article/e9eb7d51-5430-4929-91ab-6157c5a050b4)를 참조하세요.
 
 2. Microsoft 365 관리 센터의 **관리 센터**에서 **SharePoint**를 클릭 합니다.
 
@@ -177,7 +179,7 @@ Get-AzureADGroupMember -ObjectId (Get-AzureADGroup | Where { $_.DisplayName -eq 
     
 다음으로, 새 SharePoint Online 팀 사이트에서 사용 권한을 구성 합니다.
   
-1. 도구 막대에서 설정 아이콘을 클릭한 다음, **사이트 사용 권한**을 클릭합니다.
+1. 도구 모음에서 설정 아이콘을 클릭한 다음, **사이트 사용 권한**을 클릭합니다.
 
 2. **사이트 공유**에서 구성원의 **공유 방법을 변경**합니다 .를 클릭 합니다.
 

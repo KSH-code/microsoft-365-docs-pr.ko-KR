@@ -16,13 +16,14 @@ search.appverid:
 ms.assetid: fb4f8e49-0468-4be2-8fa6-99501f1ad9d5
 ms.collection:
 - M365-security-compliance
-description: EOP 및 스팸 필터로 필터링 된 전자 메일 메시지에 대 한 보안 팁이 도입 되었습니다.
-ms.openlocfilehash: c7d7e6819e1374fd941d6eeb992ecf63726d4127
-ms.sourcegitcommit: 481fb95d8b80cf2102a9c73b21e7effa79e594e7
+description: 전자 메일 맨 위에 보안 팁을 추가 하 여 EOP 및 Office 365에서 스팸, 피싱 및 맬웨어 방지 기능을 보호 하는 방법을 알아봅니다.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 77722b564dc73829947593405b04a2086fb800bf
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/24/2020
-ms.locfileid: "43809027"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035945"
 ---
 # <a name="safety-tips-in-email-messages"></a>전자 메일 메시지의 안전 팁
 

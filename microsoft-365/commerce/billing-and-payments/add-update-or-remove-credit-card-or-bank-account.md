@@ -1,5 +1,5 @@
 ---
-title: 결제 방법 추가, 업데이트 또는 제거
+title: 결제 방법을 추가, 업데이트 또는 제거
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -24,17 +24,17 @@ search.appverid:
 - BEA160
 ms.assetid: 30ba9c83-50d8-4020-90ed-830a5b8c8724
 description: Microsoft 365 관리 센터에서 결제 방법을 관리 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: be03d4b779c0592d47b23c4cf1fd491b7c8f455e
-ms.sourcegitcommit: e695bcfc69203da5d3d96f3d6a891664a0e27ae2
+ms.openlocfilehash: b15381ee4eba7c1a91e108743fc326c890ab1820
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/02/2020
-ms.locfileid: "43106051"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44045931"
 ---
-# <a name="add-update-or-remove-your-payment-methods"></a>결제 방법 추가, 업데이트 또는 제거
+# <a name="add-update-or-remove-your-payment-methods"></a>결제 방법을 추가, 업데이트 또는 제거
 
 ::: moniker range="o365-worldwide"
-신용, 직불 카드 또는 은행 계좌를 사용 하 여 Microsoft의 제품 및 서비스를 구입할 수 있습니다. 결제 **방법** 페이지에서 또는 구매를 할 때 결제 정보를 입력할 수 있습니다.
+신용, 직불 카드 또는 은행 계좌를 사용 하 여 Microsoft의 제품 및 서비스를 구입할 수 있습니다. **결제 방법** 페이지에서 또는 구매할 때 결제 정보를 입력할 수 있습니다.
 
 추가한 결제 방법만 관리할 수 있습니다.
 
@@ -66,7 +66,7 @@ ms.locfileid: "43106051"
 
 ### <a name="change-the-payment-method-used-for-a-single-subscription"></a>단일 구독에 사용 되는 지불 방법 변경
 
-1. 관리 센터에서 **청구** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품 및 서비스</a> 페이지로 이동합니다.
+1. 관리 센터에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a> **청구** > 페이지로 이동 합니다.
 2. 새 카드나 은행 계좌에 대해 지불 하려는 구독을 선택 합니다. **청구**아래의 결제 방법 옆에 있는 **편집**을 선택 합니다.
 3. 기존 결제 방법 옆에 있는 **변경**을 선택 합니다.
 4. 드롭다운 메뉴에서 대체 결제 방법을 선택 하거나 결제 방법 추가를 선택 합니다.
@@ -89,10 +89,10 @@ ms.locfileid: "43106051"
 
 ### <a name="delete-a-payment-method"></a>결제 방법 삭제
 
-결제 방법이 구독과 연결 되어 있지 않은 경우 즉시 삭제할 수 있습니다.
+결제 방법이 구독과 관련이 없는 경우 바로 삭제할 수 있습니다.
 
 1. 관리 센터에서 **청구** > **금액 & 지불** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2018806" target="_blank">지불 방법</a> 페이지로 이동 합니다.
-2. 카드 또는 은행 계좌를 가리킨 다음 삭제 아이콘을 선택 합니다.
+2. 카드나 은행 계좌에 마우스를 갖다대고 삭제 아이콘을 선택합니다.
 3. **결제 방법 삭제** 창의 맨 아래에서 **삭제**를 선택 합니다.
 
 ### <a name="add-an-alternate-payment-method-used-to-pay-for-subscriptions"></a>구독 요금 결제에 사용 되는 대체 결제 방법 추가
@@ -100,7 +100,7 @@ ms.locfileid: "43106051"
 결제 방법이 구독과 연결 되어 있고 파일에 대체 결제 방법이 없는 경우 먼저 결제 방법을 추가 합니다. 다음으로, 구독 요금을 지불 하는 데 사용 되는 결제 방법을 변경 합니다. 그런 다음 결제 방법을 삭제할 수 있습니다.
 
 1. 관리 센터에서 **청구** > **금액 & 지불** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2018806" target="_blank">지불 방법</a> 페이지로 이동 합니다.
-2. 카드 또는 은행 계좌를 가리킨 다음 삭제 아이콘을 선택 합니다.
+2. 카드나 은행 계좌에 마우스를 갖다대고 삭제 아이콘을 선택합니다.
 3. **결제 방법 삭제** 창에는 해당 결제 방법을 사용 하는 기존 구독이 나열 됩니다.
 4. **결제 방법 추가**를 선택합니다.
 5. 추가 하려는 결제 방법의 유형을 선택 하 고 계정 정보를 입력 한 다음 **추가**를 선택 합니다.
@@ -114,7 +114,7 @@ ms.locfileid: "43106051"
 결제 방법이 구독과 연결 되어 있고 파일에 대 한 대체 결제 방법이 하나 이상 있는 경우 먼저 구독 요금을 지불 하는 데 사용 되는 결제 방법을 변경 합니다. 그런 다음 결제 방법을 삭제할 수 있습니다.
 
 1. 관리 센터에서 **청구** > **금액 & 지불** > <a href="https://go.microsoft.com/fwlink/p/?linkid=2018806" target="_blank">지불 방법</a> 페이지로 이동 합니다.
-2. 카드 또는 은행 계좌를 가리킨 다음 삭제 아이콘을 선택 합니다.
+2. 카드나 은행 계좌에 마우스를 갖다대고 삭제 아이콘을 선택합니다.
 3. **결제 방법 삭제** 창에는 해당 결제 방법을 사용 하는 기존 구독이 나열 됩니다.
 4. **결제 방법 변경을**선택 합니다.
 5. 드롭다운 목록에서 대체 지불 방법을 선택한 다음 **변경을**선택 합니다.
@@ -166,7 +166,7 @@ ms.locfileid: "43106051"
 
 ## <a name="add-a-credit-card-or-bank-account"></a>신용 카드 또는 은행 계좌 추가
 
-1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">구독</a> 페이지로 이동 합니다.
+1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">구독</a> 페이지로 이동합니다.
 
 2. 새 신용 카드 또는 은행 계좌에 대해 지불 하려는 구독을 선택 하 고 **결제 정보 업데이트**를 선택 합니다.
 
@@ -195,7 +195,7 @@ ms.locfileid: "43106051"
 >
 > 테 넌 트와 동일한 국가에서 발급 한 신용 카드를 사용 해야 합니다.
 
-1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">구독</a> 페이지로 이동 합니다.
+1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">구독</a> 페이지로 이동합니다.
 
 2. 새 신용 카드 또는 은행 계좌에 대해 지불 하려는 구독을 선택 하 고 **결제 정보 업데이트**를 선택 합니다.
 
@@ -219,7 +219,7 @@ ms.locfileid: "43106051"
 > 기존 신용 카드 또는 은행 계좌의 번호는 변경할 수 없습니다. 신용 카드 또는 은행 계좌 번호가 변경 된 경우 새 신용 카드 또는 은행 계좌로 추가 합니다. 그런 다음 구독에 대 한 결제 옵션으로 선택한 다음 기존 신용 카드 또는 은행 계좌를 제거 합니다.
 > 테 넌 트와 동일한 국가에서 발급 한 신용 카드를 사용 해야 합니다.
 
-1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">구독</a> 페이지로 이동 합니다.
+1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">구독</a> 페이지로 이동합니다.
 
 2. 업데이트할 신용 카드 은행 계정을 사용 하 여 구매한 구독을 선택 하 고 **결제 정보 업데이트**를 선택 합니다.
 
@@ -247,7 +247,7 @@ ms.locfileid: "43106051"
 > 기존 신용 카드 또는 은행 계좌의 번호는 변경할 수 없습니다. 신용 카드 또는 은행 계좌 번호가 변경 된 경우 새 신용 카드 또는 은행 계좌로 추가 합니다. 그런 다음 구독에 대 한 결제 옵션으로 선택한 다음 기존 신용 카드 또는 은행 계좌를 제거 합니다.
 > 테 넌 트와 동일한 국가에서 발급 한 신용 카드를 사용 해야 합니다.
 
-1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">구독</a> 페이지로 이동 합니다.
+1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">구독</a> 페이지로 이동합니다.
 
 2. 업데이트할 신용 카드 은행 계정을 사용 하 여 구매한 구독을 선택 하 고 **결제 정보 업데이트**를 선택 합니다.
 
@@ -271,7 +271,7 @@ ms.locfileid: "43106051"
 ::: moniker range="o365-21vianet"
 ## <a name="remove-a-credit-card-or-bank-account"></a>신용 카드 또는 은행 계좌 제거
 
-1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">구독</a> 페이지로 이동 합니다.
+1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">구독</a> 페이지로 이동합니다.
 
 2. 구독을 선택 하 고 **결제 정보 업데이트**를 선택 합니다.
 
@@ -296,7 +296,7 @@ ms.locfileid: "43106051"
 ::: moniker range="o365-germany"
 ## <a name="remove-a-credit-card-or-bank-account"></a>신용 카드 또는 은행 계좌 제거
 
-1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">구독</a> 페이지로 이동 합니다.
+1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">구독</a> 페이지로 이동합니다.
 
 2. 구독을 선택 하 고 **결제 정보 업데이트**를 선택 합니다.
 
@@ -321,7 +321,7 @@ ms.locfileid: "43106051"
 ::: moniker range="o365-21vianet"
 ## <a name="change-the-credit-card-or-bank-account-used-to-pay-for-a-subscription"></a>구독 요금을 지불 하는 데 사용 되는 신용 카드 또는 은행 계좌 변경
 
-1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">구독</a> 페이지로 이동 합니다.
+1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=850626" target="_blank">구독</a> 페이지로 이동합니다.
 
 2. 새 신용 카드 또는 은행 계좌에 대해 지불 하려는 구독을 선택 하 고 **결제 정보 업데이트**를 선택 합니다.
 
@@ -338,7 +338,7 @@ ms.locfileid: "43106051"
 ::: moniker range="o365-germany"
 ## <a name="change-the-credit-card-or-bank-account-used-to-pay-for-a-subscription"></a>구독 요금을 지불 하는 데 사용 되는 신용 카드 또는 은행 계좌 변경
 
-1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">구독</a> 페이지로 이동 합니다.
+1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">구독</a> 페이지로 이동합니다.
 
 2. 새 신용 카드 또는 은행 계좌에 대해 지불 하려는 구독을 선택 하 고 **결제 정보 업데이트**를 선택 합니다.
 

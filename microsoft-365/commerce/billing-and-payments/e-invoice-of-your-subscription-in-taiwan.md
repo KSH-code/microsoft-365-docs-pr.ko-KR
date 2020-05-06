@@ -20,12 +20,12 @@ search.appverid:
 ms.assetid: 66315e5b-883a-432b-8650-d896f95af228
 ROBOTS: NOINDEX
 description: 대만식 용 Microsoft 365 for business e-송장에 대해 알아봅니다.
-ms.openlocfilehash: 4603d9f39a4421b6711d056d0646981732353c5c
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 0b57ce0cb6b30b4c9dcd37c3b6931a3389b50b68
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632710"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44045883"
 ---
 # <a name="understand-your-e-invoice-for-microsoft-365-for-business-taiwan"></a>Microsoft 365 for business (대만식)에 대 한 전자 송장 이해
 
@@ -55,7 +55,7 @@ Microsoft는 **9 월 15**일에 현재 컴퓨터 송장을 전자 송장으로 �
   
 계정을 만든 후에는 다음 단계를 수행 하 여 관리자 센터를 통해 VAT ID를 업데이트할 수 있습니다.
   
-1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품 및 서비스</a> 페이지로 이동합니다.
+1. 관리 센터에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a> **청구** \> 페이지로 이동 합니다.
     
 2. 구독을 선택 하 고 **추가 작업**을 선택 합니다.
     

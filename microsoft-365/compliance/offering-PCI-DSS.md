@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 12b3f0c94a3d391d5116af0c6eba366550a83040
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 85fa3c8a8e8ac2dda725227235512385bf991c12
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602085"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036357"
 ---
 # <a name="payment-card-industry-pci-data-security-standard-dss"></a>PCI(Payment Card Industry) DSS(Data Security Standard)
 
@@ -44,6 +44,7 @@ Azure, 비즈니스용 OneDrive, SharePoint Online의 PCI DSS 규정 준수 상�
 - 독립 실행형 서비스 혹은 Office 365 혹은 Dynamics 365에 브랜딩된 플랜 또는 제품군에 포함된 형태로서의 Flow 클라우드 서비스
 - Graph
 - Intune
+- [Microsoft Defender Advanced Threat Protection](https://docs.microsoft.com/windows/security/threat-protection/microsoft-defender-atp/microsoft-defender-advanced-threat-protection)
 - 독립 실행형 서비스 혹은 Office 365 혹은 Dynamics 365에 브랜딩된 플랜 또는 제품군에 포함된 형태로서의 PowerApps 클라우드 서비스
 - 독립 실행형 서비스 혹은 Office 365에 브랜딩된 플랜 또는 제품군에 포함된 형태로서의 Power BI 클라우드 서비스
 - 비즈니스용 OneDrive 및 SharePoint Online(미국에만 해당)
@@ -55,9 +56,9 @@ Azure, 비즈니스용 OneDrive, SharePoint Online의 PCI DSS 규정 준수 상�
 
 ## <a name="get-your-pci-dss-solution-running-on-azure"></a>Azure에서 실행되는 PCI DSS 솔루션 받기
 
-Azure 보안 및 준수 PCI DSS 청사진을 사용하여 클라우드에서 PCI DSS 솔루션을 더 빠르게 빌드하고 배포합니다. 참조 아키텍처, 배포 지침, 제어 구현 매핑, 자동화된 스크립트 등을 가져옵니다. [Azure PCI DSS 청사진 사용 시작](https://aka.ms/pciblueprint)
+Azure 보안 및 준수 PCI DSS 청사진을 사용하여 클라우드에서 PCI DSS 솔루션을 더 빠르게 빌드하고 배포합니다. 참조 아키텍처, 배포 지침, 제어 구현 매핑, 자동화된 스크립트 등을 가져옵니다. [Azure PCI DSS 청사진 사용 시작하기](https://aka.ms/pciblueprint)
 
-## <a name="frequently-asked-questions"></a>자주하는 질문
+## <a name="frequently-asked-questions"></a>자주 묻는 질문
 
 **AoC(Attestation on Compliance) 표지 페이지에 "2018년 6월"이 표시된 이유는 무엇인가요?**
 

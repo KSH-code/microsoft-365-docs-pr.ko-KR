@@ -1,5 +1,5 @@
 ---
-title: 보안 &amp; 및 준수 센터에서 사용자 지정 보고서 설정 및 다운로드
+title: 사용자 지정 보고서 다운로드 & 설정-보안 & 준수 센터
 f1.keywords:
 - NOCSH
 ms.author: deniseb
@@ -16,12 +16,13 @@ ms.assetid: 1a7be622-f6a5-4ce1-a343-f249475334f6
 ms.collection:
 - M365-security-compliance
 description: 보안 &amp; 및 준수 센터에서 사용자 지정 날짜 범위 및 필터를 사용 하 여 보고서를 설정 하 고 다운로드 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 8807928141704339913e3a30c7804aad5e018d4a
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: f2539136a44cef5a17ce7c7cdc85ad9961877a2d
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43638371"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035347"
 ---
 # <a name="set-up-and-download-a-custom-report-in-the-security-amp-compliance-center"></a>보안 &amp; 및 준수 센터에서 사용자 지정 보고서 설정 및 다운로드
 

@@ -21,12 +21,12 @@ search.appverid:
 - BCS160
 - MET150
 description: 규정 준수 기능을 설정 하 여 데이터 손실을 방지 하 고 및 고객의 중요 한 정보를 안전 하 게 유지 합니다.
-ms.openlocfilehash: e0d853223c7e6f455cba6e68ad173b137992d863
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 523d020587bcf16e46263b88ee7654b9c786e7a2
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635127"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44048068"
 ---
 # <a name="set-up-compliance-features"></a>준수 기능 설정
 
@@ -54,7 +54,7 @@ DLP에는 다양 한 로캘에 대 한 다양 한 사용 가능 정책 템플릿
     
 4. **소송** 보존 대화 상자의 소송 보존 **기간** 필드에 소송 보존 기간을 지정할 수 있습니다. 무기한 유지 하려면 필드를 비워 둡니다. 메모를 추가 하 고 사서함 소유자에 게 소송 보존에 대 한 자세한 내용을 설명 해야 할 수 있는 웹 사이트로 지시할 수도 있습니다. \>**저장**을 합니다.
     
-**보존:** 특정 기간 동안 보존하거나 보존 기간이 끝나면 영구적으로 콘텐츠를 삭제하는 것과 같은 사용자 지정된 보존 정책을 사용하도록 설정할 수 있습니다. 자세한 내용은 [보존 정책 개요](https://support.office.com/article/5e377752-700d-4870-9b6d-12bfc12d2423)를 참조하세요.
+**보존:** 특정 기간 동안 보존하거나 보존 기간이 끝나면 영구적으로 콘텐츠를 삭제하는 것과 같은 사용자 지정된 보존 정책을 사용하도록 설정할 수 있습니다. 자세한 내용은 [보존 정책 개요](https://docs.microsoft.com/microsoft-365/compliance/retention-policies)를 참조하세요.
 
 ## <a name="set-up-sensitivity-labels"></a>민감도 레이블 설정
 

@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - BSA160
 description: Microsoft 365 그룹 거 버 넌 스를 계획 하는 방법을 알아봅니다.
-ms.openlocfilehash: 95cd549fea6646639386d33e5a026f60b3ccbbba
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 4427f210bc1691ef04b97fa4802313078f8d0997
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43617137"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44049414"
 ---
 # <a name="plan-for-governance-in-groups"></a>그룹의 거 버 넌 스 계획
 
@@ -50,10 +50,10 @@ Microsoft 365 그룹에서 지 원하는 주요 통신 방법에는 세 가지�
 > SharePoint, Planner 또는 Stream과 같은 다른 팀 작업 응용 프로그램을 통해 새 그룹을 만들면 Outlook 받은 편지함 및 Microsoft 팀에 연결 하는 기능을 사용 하 여 그룹을 만들 수 있습니다.
 
 그룹을 만든 위치에 따라 다음과 같은 특정 리소스가 자동으로 프로 비전 됩니다.
-- [받은 편지함](https://support.office.com/article/have-a-group-conversation-in-outlook-a0482e24-a769-4e39-a5ba-a7c56e828b22) -그룹 구성원 간의 전자 메일 대화에 사용 됩니다. 이 받은 편지함에는 전자 메일 주소가 있으며, 기존 메일 그룹과 같이 그룹 외부에 있는 사람이 나 조직 외부의 메시지를 수락 하도록 설정할 수 있습니다.
+- [받은 편지함](https://support.microsoft.com/en-us/office/have-a-group-conversation-in-outlook-a0482e24-a769-4e39-a5ba-a7c56e828b22) -그룹 구성원 간의 전자 메일 대화에 사용 됩니다. 이 받은 편지함에는 전자 메일 주소가 있으며, 기존 메일 그룹과 같이 그룹 외부에 있는 사람이 나 조직 외부의 메시지를 수락 하도록 설정할 수 있습니다.
  - [일정](https://support.office.com/article/schedule-a-meeting-on-a-group-calendar-in-outlook-0cf1ad68-1034-4306-b367-d75e9818376a) -그룹과 관련 된 이벤트 예약
 - [SharePoint 팀 사이트](https://support.office.com/article/what-is-a-sharepoint-team-site-75545757-36c3-46a7-beed-0aaa74f0401e) -그룹에 관련 된 정보, 링크 및 콘텐츠를 위한 중앙 리포지토리입니다.
-- [SharePoint 문서 라이브러리](https://support.office.com/article/share-group-files-749bc73b-90c9-4760-9b6f-9aa1cf01b403) -그룹이 파일을 저장 하 고 공유할 수 있는 중앙 위치입니다.
+- [SharePoint 문서 라이브러리](https://support.microsoft.com/en-us/office/share-group-files-in-outlook-749bc73b-90c9-4760-9b6f-9aa1cf01b403) -그룹이 파일을 저장 하 고 공유할 수 있는 중앙 위치입니다.
 - [OneNote 전자 필기장](https://support.office.com/article/get-started-with-onenote-e768fafa-8f9b-4eac-8600-65aa10b2fe97) -아이디어, 리서치 및 정보를 수집 합니다.
 - [Planner](https://support.office.com/article/microsoft-planner-help-4a9a13c6-3adf-4a60-a6fc-15c0b15e16fc) -그룹 구성원 간에 프로젝트 작업을 할당 하 고 관리 하기 위한 것입니다.
 - [Yammer 그룹](https://support.office.com/article/Learn-about-Office-365-groups-b565caa1-5c40-40ef-9915-60fdb2d97fa2) -대화 및 공유 정보를 저장할 수 있는 일반적인 장소입니다.
@@ -81,7 +81,7 @@ Microsoft 365 내에 대화를 할 수 있는 위치가 여러 개 있습니다.
 
 - Outlook 그룹: 최신 DL (전자 메일 기반 공동 작업)
   - 대상 정보 교환에 대 한 장소
-  - Dl을 Microsoft 365 Groups로 업그레이드 하 고 [업그레이드 해야 하는 이유는 무엇 인가요?](https://support.office.com/article/why-you-should-upgrade-your-distribution-lists-to-groups-in-outlook-7fb3d880-593b-4909-aafa-950dd50ce188)
+  - Dl을 Microsoft 365 Groups로 업그레이드 하 고 [업그레이드 해야 하는 이유는 무엇 인가요?](https://support.microsoft.com/office/why-you-should-upgrade-your-distribution-lists-to-groups-in-outlook-7fb3d880-593b-4909-aafa-950dd50ce188)
 
 - SharePoint-모든 Microsoft 365 그룹에 대 한 핵심 콘텐츠 공동 작업 환경
   - 모든 그룹은 연결 된 SharePoint 팀 사이트를 가져옵니다.
@@ -119,7 +119,7 @@ Microsoft 365 그룹에는 조직에 필요한 거 버 넌 스 기능을 구현 
 | -------------- | ------------------------------------------------------------ |
 | Open (기본값) | 사용자는 필요에 따라 자체 그룹을 만들어 기다리지 않고 직접 만들 수 있습니다. |
 | IT-led         | 사용자가 여기에서 그룹을 요청 합니다. 이 가이드는 사용자의 요구에 가장 적합 한 공동 작업 도구를 선택 하는 데 도움이 될 수 있습니다. |
-| 의해     | 그룹 만들기는 특정 사용자, 팀 또는 서비스로 제한 됩니다. 자세한 내용은 [Microsoft 365 그룹을 만들 수 있는 사용자 관리](https://support.office.com/article/manage-who-can-create-office-365-groups-4c46c8cb-17d0-44b5-9776-005fced8e618)를 참조 하세요. |
+| 의해     | 그룹 만들기는 특정 사용자, 팀 또는 서비스로 제한 됩니다. 자세한 내용은 [Microsoft 365 그룹을 만들 수 있는 사용자 관리](https://docs.microsoft.com/microsoft-365/admin/create-groups/manage-creation-of-groups)를 참조 하세요. |
 
 조직에는 그룹을 만들 수 있는 사용자에 게 엄격한 제어를 구현 하기 위한 특정 요구 사항이 있을 수 있습니다. 다음 표를 사용 하 여 조직에 적합 한 프로 비전 모델을 결정할 수 있습니다.
 
@@ -154,7 +154,7 @@ Microsoft 365 그룹을 삭제 한 경우에는 기본적으로 30 일 동안 �
 >"소프트 삭제" 기간 동안 사용자가 사이트에 액세스를 시도하는 경우 403 금지 메시지가 표시됩니다. 이 기간 이후에 사용자가 사이트에 액세스하려고 하면 404 찾을 수 없음 메시지가 표시됩니다.
 
 #### <a name="resources"></a>*리소스*
-- [삭제 된 Microsoft 365 그룹 복원](https://support.office.com/article/Restore-a-deleted-Office-365-Group-b7c66b59-657a-4e1a-8aa0-8163b1f4eb54?ui=en-US&rs=en-001&ad=US)
+- [삭제 된 Microsoft 365 그룹 복원](https://docs.microsoft.com/en-us/microsoft-365/admin/create-groups/restore-deleted-group?ui=en-US&rs=en-001&ad=US)
 - [Azure Active Directory에서 삭제 된 Microsoft 365 그룹 복원](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-restore-deleted)
 - [Remove-UnifiedGroup cmdlet을 사용하여 그룹 삭제](https://technet.microsoft.com/library/mt238270%28v=exchg.160%29.aspx)
 
@@ -273,7 +273,7 @@ Microsoft 365 그룹은 Microsoft 365의 고급 보안 및 규정 준수 기능�
 
 #### <a name="resources"></a>*리소스*
 - [Outlook에서 그룹으로의 DL (배포 목록) 업그레이드](https://aka.ms/whyupgradedls)
-- Exchange 관리 센터를 통해 또는 [PowerShell 스크립트](https://support.office.com/article/787d7a75-e201-46f3-a242-f698162ff09f) 를 통해 한 번 클릭으로 업그레이드
+- Exchange 관리 센터를 통해 또는 [PowerShell 스크립트](https://docs.microsoft.com/microsoft-365/admin/manage/upgrade-distribution-lists) 를 통해 한 번 클릭으로 업그레이드
 - [Microsoft 365 그룹으로 메일 그룹 마이그레이션-관리자 도움말](https://docs.microsoft.com/office365/admin/manage/upgrade-distribution-lists)
 - [기존 SharePoint 사이트를 Microsoft 365 그룹에 연결:](https://docs.microsoft.com/sharepoint/dev/transform/modernize-connect-to-office365-group)
 - [스캐너 데이터 분석 및 사용](https://docs.microsoft.com/sharepoint/dev/transform/modernize-connect-to-office365-group-scanner)
@@ -296,8 +296,8 @@ Microsoft 365 보고서 대시보드에는 조직의 Microsoft 제품 전체에 
 
 
 #### <a name="resources"></a>*리소스*
-- [관리 센터의 Microsoft 365 보고서](https://support.office.com/article/Office-365-Reports-in-the-admin-center-Office-365-groups-a27f1a99-3557-4f85-9560-a28e3d822a40)
-- [Office 365 채택 콘텐츠 팩](https://support.office.com/article/Office-365-Adoption-Content-Pack-77ff780d-ab19-4553-adea-09cb65ad0f1f)
+- [관리 센터의 Microsoft 365 보고서](https://docs.microsoft.com/microsoft-365/admin/activity-reports/office-365-groups)
+- [Office 365 채택 콘텐츠 팩](https://docs.microsoft.com/microsoft-365/admin/usage-analytics/usage-analytics)
 - [Azure AD 콘텐츠 팩](https://docs.microsoft.com/azure/active-directory/active-directory-reporting-power-bi-content-pack-how-to)
 - [Microsoft Graph 그룹 활동 API](https://developer.microsoft.com/graph/docs/api-reference/v1.0/resources/office_365_groups_activity_reports)
 - [Microsoft 365 Groups Report (통합 그룹)](https://gallery.technet.microsoft.com/office/Office-365-Groups-Report-7e3e161b)
@@ -318,8 +318,8 @@ Microsoft 365 그룹은 조직에서 요구할 수 있는 다양 한 거 버 넌
 
 | 단계 | 설명 |
 | --------------- | ------------------------------------------------------------ |
-| 지침 |<ul><li>셀프 서비스 프로 비전 모델을 고려해 보십시오.</li><li> Outlook & SharePoint 사이트의 그룹은 [기본적으로 비공개로](https://techcommunity.microsoft.com/t5/Office-365-Groups/Groups-in-Outlook-and-Group-connected-team-sites-are-now-private/m-p/186395)되어 있습니다.</li><li> 그룹은 기존 Dl (메일 그룹)을 일대일로 또는 PowerShell을 통해 대량으로 업그레이드 하 여 만들 수 있습니다. [배포 목록을 Microsoft 365 그룹으로 업그레이드를](https://support.office.com/article/Upgrade-distribution-lists-to-Office-365-Groups-in-Outlook-787D7A75-E201-46F3-A242-F698162FF09F)참조 하세요.</li><li> 게스트 액세스를 사용 하도록 설정 하 되 허용/차단 게스트 도메인을 제어 합니다.</li><li> 그룹 보고를 사용 하 여 사용자가 그룹을 사용 하는 방법을 통찰력을 얻습니다.</li><li> 공동 작업을 위해 모든 사용자가 단일 팀의 일부가 되는 방식으로 조직 차원의 팀 Microsoft 팀 팀을 만드는 것이 좋습니다. </li></ul>|
-| 다음 단계      |<ul><li>[JSON 스키마 참조](https://docs.microsoft.com/sharepoint/dev/declarative-customization/site-design-json-schema)에 정의 된 작업을 사용 하 여 컨트롤에 대 한 기본 디자인을 정의 하는 [사이트 디자인 및 사이트 스크립트](https://docs.microsoft.com/sharepoint/dev/declarative-customization/site-design-overview) 를 사용 하는 것이 좋습니다.</li><li>[그룹 보고](https://support.office.com/article/Office-365-Reports-in-the-admin-center-Office-365-groups-a27f1a99-3557-4f85-9560-a28e3d822a40)를 검토 합니다.</li><li>전체 그룹 및 비활성/활성 그룹을 추적 합니다.</li><li>사용 되는 Exchange 및 SharePoint 저장소를 모두 추적 합니다.</li><li>그룹 사서함 대화, 그룹 사이트/파일 활동 등을 통해 그룹 활동을 봅니다.</li></ul> |
+| 지침 |<ul><li>셀프 서비스 프로 비전 모델을 고려해 보십시오.</li><li> Outlook & SharePoint 사이트의 그룹은 [기본적으로 비공개로](https://techcommunity.microsoft.com/t5/Office-365-Groups/Groups-in-Outlook-and-Group-connected-team-sites-are-now-private/m-p/186395)되어 있습니다.</li><li> 그룹은 기존 Dl (메일 그룹)을 일대일로 또는 PowerShell을 통해 대량으로 업그레이드 하 여 만들 수 있습니다. [배포 목록을 Microsoft 365 그룹으로 업그레이드를](https://docs.microsoft.com/microsoft-365/admin/manage/upgrade-distribution-lists)참조 하세요.</li><li> 게스트 액세스를 사용 하도록 설정 하 되 허용/차단 게스트 도메인을 제어 합니다.</li><li> 그룹 보고를 사용 하 여 사용자가 그룹을 사용 하는 방법을 통찰력을 얻습니다.</li><li> 공동 작업을 위해 모든 사용자가 단일 팀의 일부가 되는 방식으로 조직 차원의 팀 Microsoft 팀 팀을 만드는 것이 좋습니다. </li></ul>|
+| 다음 단계      |<ul><li>[JSON 스키마 참조](https://docs.microsoft.com/sharepoint/dev/declarative-customization/site-design-json-schema)에 정의 된 작업을 사용 하 여 컨트롤에 대 한 기본 디자인을 정의 하는 [사이트 디자인 및 사이트 스크립트](https://docs.microsoft.com/sharepoint/dev/declarative-customization/site-design-overview) 를 사용 하는 것이 좋습니다.</li><li>[그룹 보고](https://docs.microsoft.com/microsoft-365/admin/activity-reports/office-365-groups)를 검토 합니다.</li><li>전체 그룹 및 비활성/활성 그룹을 추적 합니다.</li><li>사용 되는 Exchange 및 SharePoint 저장소를 모두 추적 합니다.</li><li>그룹 사서함 대화, 그룹 사이트/파일 활동 등을 통해 그룹 활동을 봅니다.</li></ul> |
 
 ### <a name="medium-sized-business"></a>중간 규모 기업
 위의 권장 사항 외에, Azure Active Directory Premium P1 라이선스가 포함 된 Enterprise E3/E5 이상으로 Microsoft 365을 배포한 중간 규모의 비즈니스에 대해서는 다음 사항을 고려 하세요.

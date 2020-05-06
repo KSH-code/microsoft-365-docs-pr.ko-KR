@@ -13,12 +13,13 @@ ms.collection:
 - M365-security-compliance
 localization_priority: None
 description: 이 문서를 정보 장벽 문제 해결을 위한 지침으로 사용 하십시오.
-ms.openlocfilehash: c57f9a14e3089f52ad0eab0a0634d7d58f74e6cf
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: f73493f53937c38f33eeab9595ddb07ef4813c89
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43621352"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035034"
 ---
 # <a name="troubleshooting-information-barriers"></a>정보 장벽 문제 해결
 

@@ -1,5 +1,5 @@
 ---
-title: 보안 &amp; 및 준수 센터에서 여러 보고서에 대 한 일정 관리
+title: 여러 보고서에 대 한 일정-보안 & 준수 센터
 f1.keywords:
 - NOCSH
 ms.author: deniseb
@@ -14,12 +14,13 @@ search.appverid:
 - MOE150
 ms.assetid: 3384c6f1-ffc0-4120-a211-1991aca51663
 description: 보안 &amp; 및 준수 센터에서 보고서의 일정을 보고, 편집 하 고, 관리 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: b7ccd7ddd766a1e109fb0363b56290020356946e
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 7ecbae3fc942c6a96f9df5e84c0ee1922e1554b4
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635331"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036139"
 ---
 # <a name="manage-schedules-for-multiple-reports-in-the-security-amp-compliance-center"></a>보안 &amp; 및 준수 센터에서 여러 보고서에 대 한 일정 관리
 

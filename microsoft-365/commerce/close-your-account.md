@@ -15,12 +15,12 @@ ms.custom: ''
 search.appverid:
 - MET150
 description: Microsoft에서 계정을 닫는 방법을 알아봅니다.
-ms.openlocfilehash: b71cfe8246b5e3e9471c76cf8043bad52840f194
-ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
+ms.openlocfilehash: 43ec3fe2eedc354c0494818f97b01e8de63694c7
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43942856"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44045779"
 ---
 # <a name="close-your-account"></a>계정 사용 중지 
 
@@ -40,7 +40,7 @@ Microsoft 계정을 폐쇄하면 계정과 관련된 모든 정보가 삭제됩�
 
 ## <a name="step-2-cancel-all-active-subscriptions"></a>2 단계: 모든 활성 구독 취소
 
-1. 관리 센터에서 **청구** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품 & 서비스</a> 페이지로 이동 합니다.
+1. 관리 센터에서<a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a> **청구** > 페이지로 이동 합니다.
 
 2. 구독 목록이 **표** 보기에 있는 경우 오른쪽에서 **카드**를 선택 합니다.
 
@@ -52,7 +52,7 @@ Microsoft 계정을 폐쇄하면 계정과 관련된 모든 정보가 삭제됩�
 
 ## <a name="step-3-delete-all-disabled-subscriptions"></a>3 단계: 사용 하지 않는 구독 모두 삭제
 
-1. 관리 센터에서 **청구** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품 & 서비스</a> 페이지로 이동 합니다.
+1. 관리 센터에서<a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a> **청구** > 페이지로 이동 합니다.
 
 2. 구독 목록이 **표** 보기에 있는 경우 오른쪽에서 **카드**를 선택 합니다.
 

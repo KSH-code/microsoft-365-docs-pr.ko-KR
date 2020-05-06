@@ -17,12 +17,12 @@ search.appverid:
 - MOE150
 - MET150
 description: 보존 레이블을 사용하여 조직 전체의 데이터를 관리하여 분류하고 해당 분류에 따라 보존 규칙을 시행하십시오. 보존 레이블을 사용하여 Microsoft 365용 레코드 관리 솔루션을 구현할 수도 있습니다.
-ms.openlocfilehash: 35d91db5a52c9c43a178341417955098a60edc34
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 6496c5f82ee21e2085568f5e623fc6ee75145b8a
+ms.sourcegitcommit: f5cecd77e63ae8b47743d4f6dc3135f5decaf28b
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637446"
+ms.lasthandoff: 04/30/2020
+ms.locfileid: "43949315"
 ---
 # <a name="overview-of-retention-labels"></a>보존 레이블 개요
 
@@ -38,8 +38,9 @@ ms.locfileid: "43637446"
     
 - 편집하거나 삭제할 수 없게 **기록으로 표시**해야 하는 취업 비자 
     
-이러한 모든 경우에 보존 레이블은 올바른 콘텐츠에 대해 올바른 작업을 수행하는 데 도움이 될 수 있습니다. 보존 레이블을 사용하여 거버넌스를 위해 조직의 데이터를 분류하고 해당 분류에 따라 보존 규칙을 적용할 수 있습니다.
-  
+
+이러한 모든 경우에 Microsoft 365에서 보존 레이블은 올바른 콘텐츠에 대해 올바른 작업을 수행하는 데 도움이 될 수 있습니다. 보존 레이블을 사용하여 거버넌스를 위해 조직의 데이터를 분류하고 해당 분류에 따라 보존 규칙을 적용할 수 있습니다.
+
 보존 레이블을 사용하여 다음을 수행할 수 있습니다.
   
 - 웹용 Outlook, Outlook 2010 이상, OneDrive, SharePoint 및 Microsoft 365 그룹에서 Outlook 콘텐츠에 **조직의 사용자가 보존 레이블을 수동으로 적용할 수 있게 합니다**. 사용자는 종종 자신이 사용하고 있는 콘텐츠의 형식을 가장 잘 알고 있기 때문에 콘텐츠를 분류하여 적절한 정책을 적용할 수 있습니다. 
@@ -165,7 +166,7 @@ Exchange 공용 폴더 및 Skype는 레이블을 지원하지 않습니다.
   
 또한 보존 레이블에는 보존 정책이 아니라 보존 레이블에서만 사용할 수 있는 2가지 보존 옵션이 있습니다. 보존 레이블을 사용하면 다음과 같은 작업을 수행할 수 있습니다.
   
-- SharePoint 및 OneDrive 문서가 삭제되기 전에 검토될 수 있도록 보존 기간이 끝나면 처리 검토를 트리거합니다. 자세한 내용은 [처리 검토 개요](disposition-reviews.md)를 참조하세요.
+- SharePoint 및 OneDrive 문서가 삭제되기 전에 검토될 수 있도록 보존 기간이 끝나면 처리 검토를 트리거합니다. 자세한 내용은 [콘텐츠 처리](disposition.md)를 참조하세요.
     
 - 보존 기간은 콘텐츠 사용 기간이나 마지막으로 수정되었을 때가 아니라 콘텐츠에 레이블이 지정될 때 시작됩니다. 해당 옵션은 SharePoint 사이트 및 OneDrive 계정의 콘텐츠에만 적용됨을 유의하세요. Exchange 전자 메일의 경우 보존 기간은 사용자가 선택한 옵션에 상관없이 항상 메시지를 보냈거나 받은 날짜를 기준으로 합니다.
     
@@ -263,7 +264,7 @@ Microsoft 365 그룹 콘텐츠를 보존하려면 Microsoft 365 그룹 위치를
     
 - [만든 쿼리와 일치하는 특정 키워드](#auto-apply-labels-to-content-with-keywords-or-searchable-properties)
 
-- [학습 가능한 분류자와 일치](#auto-apply-labels-to-content-by-using-trainable-classifiers)
+- [학습 가능한 분류자와 일치](#auto-apply-labels-to-content-by-using-trainable-classifers)
     
 ![자동 적용 레이블에 대한 조건 페이지 선택](../media/classifier-pre-trained-apply-label-match-trainable-classifier.png)
 
@@ -313,7 +314,7 @@ Microsoft 365 그룹 콘텐츠를 보존하려면 Microsoft 365 그룹 위치를
 ![쿼리 편집기](../media/ac5b8e5e-7453-4ec7-905c-160df57298d3.png)
 
 
-### <a name="auto-apply-labels-to-content-by-using-trainable-classifiers"></a>학습 가능한 분류자를 사용하여 콘텐츠에 레이블 자동 적용
+### <a name="auto-apply-labels-to-content-by-using-trainable-classifers"></a>학습 가능한 분류자를 사용하여 콘텐츠에 레이블 자동 적용
 
 학습 가능한 분류자 옵션을 선택할 때 기본 분류자 중 하나 또는 사용자 지정 분류자를 선택할 수 있습니다. 기본 분류자에는 **공격 언어**, **이력서**, **소스 코드**, **대상 희롱**, **비속어** 및 **위협**이 포함됩니다:
 
@@ -324,6 +325,7 @@ Microsoft 365 그룹 콘텐츠를 보존하려면 Microsoft 365 그룹 위치를
 학습 가능한 분류자에 대한 자세한 내용은 [학습 가능한 분류자 시작(미리 보기)](classifier-getting-started-with.md)를 참조하세요.
 
 구성 예는 [분류자를 준비하고 기본 제공 분류자를 사용하는 방법](classifier-using-a-ready-to-use-classifier.md#how-to-prepare-for-and-use-a-built-in-classifier)을 참조하세요.
+
 
 ## <a name="applying-a-default-retention-label-to-all-content-in-a-sharepoint-library-folder-or-document-set"></a>SharePoint 라이브러리, 폴더 또는 문서 집합의 모든 콘텐츠에 기본 보존 레이블 적용
 

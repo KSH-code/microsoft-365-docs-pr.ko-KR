@@ -11,15 +11,16 @@ ms.collection:
 - M365-collaboration
 ms.custom:
 - M365solutions
+- seo-marvel-apr2020
 localization_priority: Normal
 f1.keywords: NOCSH
-description: 팀에서 게스트와 공동 작업 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 7d840628ce6d987a907e8be2c8a3c3c5125f7d33
-ms.sourcegitcommit: 101084f9c81616342d78493232d8f13f5ffa4ddf
+description: 팀에서 게스트를 공동 작업용으로 설정 하는 데 필요한 Microsoft 365 구성 단계에 대해 설명 합니다.
+ms.openlocfilehash: bf074d9115d8e5d9e2c7c265ee96e493ac3d59e3
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "44002195"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036010"
 ---
 # <a name="collaborate-with-guests-in-a-team"></a>게스트와 팀으로 공동 작업하기
 
@@ -60,17 +61,17 @@ Microsoft 365의 공유는 Azure Active Directory의 조직 관계 설정에 따
 
 ![Teams의 게스트 액세스 토글의 스크린샷](../media/teams-guest-access-toggle-on.png)
 
-팀 게스트 액세스 설정을 설정 하려면
+Teams 게스트 액세스를 설정하려면 다음을 수행합니다.
 
-1. 에서 [https://admin.microsoft.com](https://admin.microsoft.com)Microsoft 365 관리 센터에 로그인 합니다.
-2. 왼쪽 탐색 영역에서 **모두 표시**를 클릭 합니다.
-3. **관리 센터**에서 **팀**을 클릭 합니다.
-4. 팀 관리 센터의 왼쪽 탐색 창에서 **조직 전체 설정을** 확장 하 고 **게스트 액세스**를 클릭 합니다.
-5. **팀에서 게스트 액세스 허용** 이 설정 되어 있는지 확인 **합니다.**
-6. 추가 게스트 설정을 원하는 대로 변경한 다음 **저장**을 클릭 합니다.
+1. [https://admin.microsoft.com](https://admin.microsoft.com)에서 Microsoft 365 관리 센터에 로그인합니다.
+2. 왼쪽 탐색 창에서 **모두 표시**를 클릭합니다.
+3. **관리 센터**에서 **Teams**를 클릭합니다.
+4. Teams 관리 센터의 왼쪽 탐색 창에서 **조직 전체 설정**을 확장한 다음 **게스트 액세스**를 클릭합니다.
+5. Teams의 **게스트 액세스 허용**이 **사용**으로 설정되어 있는지 확인합니다.
+6. 추가 게스트 설정을 원하는대로 변경 한 다음 **저장**을 클릭하세요.
 
 > [!NOTE]
-> 팀 게스트 설정이 설정 된 후 활성 상태가 되는 데 최대 24 시간이 걸릴 수 있습니다.
+> Teams 게스트 설정을 켠 후 활성화되려면 최대 24시간이 걸릴 수 있습니다.
 
 ## <a name="microsoft-365-groups-guest-settings"></a>Microsoft 365 Groups 게스트 설정
 

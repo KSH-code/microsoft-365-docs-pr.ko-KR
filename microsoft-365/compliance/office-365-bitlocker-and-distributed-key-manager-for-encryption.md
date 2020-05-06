@@ -15,13 +15,14 @@ ms.collection:
 - Strat_O365_Enterprise
 - M365-security-compliance
 - Strat_O365_Enterprise
-description: '요약: 클라우드의 BitLocker 암호화에 대 한 정보입니다.'
-ms.openlocfilehash: 5596848e392736e20e8c796e6fd409b9c43235d4
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Office 365에서 BitLocker 암호화를 사용 하 여 분실 하거나 도난당 한 컴퓨터 및 디스크로 인 한 데이터 도난 가능성을 줄이는 방법에 대해 알아봅니다.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: cc329a053544ba6cf1753ae07caac642546cad11
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637354"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44033626"
 ---
 # <a name="bitlocker-and-distributed-key-manager-dkm-for-encryption"></a>암호화에 대한 BitLocker 및 분산 키 관리자(DKM)
 

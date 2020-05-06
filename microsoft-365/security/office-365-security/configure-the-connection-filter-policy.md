@@ -1,5 +1,5 @@
 ---
-title: 기본 연결 필터 정책, IP 허용 목록, IP 차단 목록, 사용 또는 사용 안 함 수신 허용 목록 구성
+title: 기본 연결 필터 정책 구성
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -15,13 +15,15 @@ search.appverid:
 ms.assetid: 6ae78c12-7bbe-44fa-ab13-c3768387d0e3
 ms.collection:
 - M365-security-compliance
-description: 사용자가 신뢰 하는 사람이 보낸 전자 메일이 차단 되지 않도록 하려면 연결 필터 정책을 사용 하 여 신뢰할 수 있는 IP 주소에 대 한 허용 목록을 만들 수 있습니다. 또한 차단 된 보낸 사람의 IP 차단 목록을 만들 수도 있습니다.
-ms.openlocfilehash: 54e68c79f78bb1408684ac583edff137cb687b53
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom:
+- seo-marvel-apr2020
+description: 전자 메일 서버의 메일을 허용 하거나 차단 하도록 Office 365에서 연결 필터링을 구성 하는 방법에 대해 알아봅니다.
+ms.openlocfilehash: 0848e9a59df8c312891add29d14eec2dfed420df
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637749"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035085"
 ---
 # <a name="configure-connection-filtering"></a>연결 필터링 구성
 
@@ -44,7 +46,7 @@ Exchange online 사서함이 없는 Microsoft 365 고객이 나 독립 실행형
 
 - Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결하기](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell)를 참조하세요. Exchange Online Protection PowerShell에 연결하려면 [Exchange Online Protection PowerShell에 연결하기](https://docs.microsoft.com/powershell/exchange/exchange-eop/connect-to-exchange-online-protection-powershell)를 참조하세요.
 
-- 이 절차를 수행하려면 먼저 사용 권한을 할당 받아야 합니다. 기본 연결 필터 정책을 수정 하려면 **조직 관리** 또는 **보안 관리자** 역할 그룹의 구성원 이어야 합니다. 기본 연결 필터 정책에 대 한 읽기 전용 액세스를 위해서는 **보안 독자** 역할 그룹의 구성원 이어야 합니다. 보안 & 준수 센터의 역할 그룹에 대 한 자세한 내용은 [보안 & 준수 센터의 사용 권한을](permissions-in-the-security-and-compliance-center.md)참조 하세요.
+- 이 절차를 수행하려면 먼저 사용 권한을 할당 받아야 합니다. 기본 연결 필터 정책을 수정 하려면 **조직 관리** 또는 **보안 관리자** 역할 그룹의 구성원 이어야 합니다. 기본 연결 필터 정책에 대 한 읽기 전용 액세스를 위해서는 **보안 독자** 역할 그룹의 구성원 이어야 합니다. 보안 및 규정 준수 센터의 역할 그룹에 대한 자세한 내용은 [보안 및 규정 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)을 참조하세요.
 
 - 허용 하거나 차단할 전자 메일 서버 (보낸 사람)의 원본 IP 주소를 찾으려면 메시지 헤더에서 연결 IP (**CIP**) 헤더 필드를 확인 하면 됩니다. 다양 한 전자 메일 클라이언트에서 메시지 헤더를 보려면 [Outlook에서 internet 메시지 헤더 보기](https://support.office.com/article/cd039382-dc6e-4264-ac74-c048563d212c)를 참조 하세요.
 
@@ -96,7 +98,7 @@ Exchange online 사서함이 없는 Microsoft 365 고객이 나 독립 실행형
 Set-HostedConnectionFilterPolicy -Identity Default [-AdminDisplayName <"Optional Comment">] [-EnableSafeList <$true | $false>] [-IPAllowList <IPAddressOrRange1,IPAddressOrRange2...>] [-IPBlockList <IPAddressOrRange1,IPAddressOrRange2...>]
 ```
 
-**참고:**
+**참고**:
 
 - 유효한 IP 주소 또는 주소 범위 값은 다음과 같습니다.
 

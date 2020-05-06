@@ -1,5 +1,5 @@
 ---
-title: 민감도 레이블을 사용하여 암호화를 적용하여 콘텐츠 액세스 제한
+title: 민감도 레이블을 사용하여 암호화를 적용하여 콘텐츠 액세스 제한하기
 f1.keywords:
 - NOCSH
 ms.author: cabailey
@@ -15,12 +15,13 @@ search.appverid:
 - MOE150
 - MET150
 description: 민감한 레이블을 만들면 레이블이 적용되는 콘텐츠에 대한 액세스를 제한할 수 있습니다. 민감도 레이블에서 암호화를 사용하여 내용을 보호할 수 있습니다.
-ms.openlocfilehash: ccbdc5651751c9ee83fa7791f1146108afe9492e
-ms.sourcegitcommit: b6c4b514b2cb6739af949780d7e2a5a5c8dcc161
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 11a4ee93835ae39c196cf3f48fc1ae2b9baa6949
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/27/2020
-ms.locfileid: "43900732"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035922"
 ---
 # <a name="restrict-access-to-content-by-using-sensitivity-labels-to-apply-encryption"></a>민감도 레이블을 사용하여 암호화를 적용하여 콘텐츠 액세스 제한 
 

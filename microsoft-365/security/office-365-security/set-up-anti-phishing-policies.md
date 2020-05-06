@@ -13,13 +13,15 @@ localization_priority: Normal
 ms.assetid: 5a6f2d7f-d998-4f31-b4f5-f7cbf6f38578
 ms.collection:
 - M365-security-compliance
-description: EOP (Exchange Online Protection)의 기본 피싱 방지 정책 및 Office 365 Advanced Threat Protection의 고급 ATP 피싱 방지 정책에 대해 알아봅니다.
-ms.openlocfilehash: 32214d24c7ed030b3bc7aad36bf3ac99f68a17fb
-ms.sourcegitcommit: f5cecd77e63ae8b47743d4f6dc3135f5decaf28b
+ms.custom:
+- seo-marvel-apr2020
+description: 이 문서에서는 악의적인 피싱 공격 으로부터 조직을 보호 하기 위해 Microsoft 365에서 피싱 방지 보호 기능을 설정 하는 방법을 알아봅니다.
+ms.openlocfilehash: bbde781114cadb6535bdb09c133d834ce23793a3
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43949384"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035335"
 ---
 # <a name="anti-phishing-policies-in-microsoft-365"></a>Microsoft 365의 피싱 방지 정책
 
