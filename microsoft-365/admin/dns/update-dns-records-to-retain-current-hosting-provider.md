@@ -20,51 +20,51 @@ search.appverid:
 - GEA150
 ms.assetid: 2c4cf347-b897-45c1-a71f-210bdc8f1061
 description: Microsoft가 사용자 지정 도메인에 대 한 DNS 레코드를 관리 하도록 설정한 경우 Microsoft 외부에서 호스트 되는 기존 공개 웹 사이트로 트래픽을 라우팅하는 방법을 알아봅니다.
-ms.openlocfilehash: 08a4e505f4e2a50b3e92cae00b62415e6d02551f
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 58b58479a2c880cc0193058abc328cc5feea4af1
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43629122"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44048834"
 ---
-# <a name="update-dns-records-to-keep-your-website-with-your-current-hosting-provider"></a><span data-ttu-id="4e75e-103">DNS 레코드를 업데이트하여 현재 호스팅 공급자에 웹 사이트 유지</span><span class="sxs-lookup"><span data-stu-id="4e75e-103">Update DNS records to keep your website with your current hosting provider</span></span>
+# <a name="update-dns-records-to-keep-your-website-with-your-current-hosting-provider"></a><span data-ttu-id="74033-103">DNS 레코드를 업데이트하여 현재 호스팅 공급자에 웹 사이트 유지</span><span class="sxs-lookup"><span data-stu-id="74033-103">Update DNS records to keep your website with your current hosting provider</span></span>
 
- <span data-ttu-id="4e75e-104">**DNS 호스팅 공급자에서 도메인의 Microsoft 레코드를 관리 하는 경우**이 항목의 단계에 대해 걱정할 필요가 없습니다.</span><span class="sxs-lookup"><span data-stu-id="4e75e-104">**If you manage your domain's Microsoft records at your DNS hosting provider**, you don't have to worry about the steps in this topic.</span></span> <span data-ttu-id="4e75e-105">웹 사이트 위치가 그대로 유지되며 사용자가 계속해서 액세스할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4e75e-105">Your website stays where it is and people can still get to it.</span></span> 
+ <span data-ttu-id="74033-104">**DNS 호스팅 공급자에서 도메인의 Microsoft 레코드를 관리 하는 경우**이 항목의 단계에 대해 걱정할 필요가 없습니다.</span><span class="sxs-lookup"><span data-stu-id="74033-104">**If you manage your domain's Microsoft records at your DNS hosting provider**, you don't have to worry about the steps in this topic.</span></span> <span data-ttu-id="74033-105">웹 사이트 위치가 그대로 유지되며 사용자가 계속해서 액세스할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="74033-105">Your website stays where it is and people can still get to it.</span></span> 
   
- <span data-ttu-id="4e75e-106">Microsoft에서 사용자가 호스트 하는 기존 공개 웹 사이트로 트래픽을 라우팅하기 위해 microsoft에 **DNS 레코드를 관리**하는 경우 다음을 수행 합니다.</span><span class="sxs-lookup"><span data-stu-id="4e75e-106">**If Microsoft manages your DNS records**, to route traffic to an existing public website hosted outside of Microsoft, after you add your domain to Microsoft, do the following:</span></span> 
+ <span data-ttu-id="74033-106">Microsoft에서 사용자가 호스트 하는 기존 공개 웹 사이트로 트래픽을 라우팅하기 위해 microsoft에 **DNS 레코드를 관리**하는 경우 다음을 수행 합니다.</span><span class="sxs-lookup"><span data-stu-id="74033-106">**If Microsoft manages your DNS records**, to route traffic to an existing public website hosted outside of Microsoft, after you add your domain to Microsoft, do the following:</span></span> 
   
-## <a name="update-dns-records-in-the-microsoft-365-admin-center"></a><span data-ttu-id="4e75e-107">Microsoft 365 관리 센터에서 DNS 레코드 업데이트</span><span class="sxs-lookup"><span data-stu-id="4e75e-107">Update DNS records in the Microsoft 365 admin center</span></span>
-1. <span data-ttu-id="4e75e-108">I관리 센터에서 \*\* 설정 \*\* \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank"> 도메인 </a> 페이지로 이동하십시오.</span><span class="sxs-lookup"><span data-stu-id="4e75e-108">In the admin center, go to the **Settings** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domains</a> page.</span></span>
+## <a name="update-dns-records-in-the-microsoft-365-admin-center"></a><span data-ttu-id="74033-107">Microsoft 365 관리 센터에서 DNS 레코드 업데이트</span><span class="sxs-lookup"><span data-stu-id="74033-107">Update DNS records in the Microsoft 365 admin center</span></span>
+1. <span data-ttu-id="74033-108">I관리 센터에서 \*\* 설정 \*\* \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank"> 도메인 </a> 페이지로 이동하십시오.</span><span class="sxs-lookup"><span data-stu-id="74033-108">In the admin center, go to the **Settings** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=834818" target="_blank">Domains</a> page.</span></span>
 
-2. <span data-ttu-id="4e75e-109">**도메인** 페이지의 도메인 목록에서 웹 사이트에 사용 중인 도메인을 선택한 다음 관리 창에서 **DNS 설정** 을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="4e75e-109">On the **Domains** page, in the list of domains, select the domain you're using for your website, and then select **DNS settings** in the management pane.</span></span> 
+2. <span data-ttu-id="74033-109">**도메인** 페이지의 도메인 목록에서 웹 사이트에 사용 중인 도메인을 선택한 다음 관리 창에서 **DNS 설정** 을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="74033-109">On the **Domains** page, in the list of domains, select the domain you're using for your website, and then select **DNS settings** in the management pane.</span></span> 
     
-3. <span data-ttu-id="4e75e-110">**+ 새 사용자 지정 레코드** 를 선택하고 다음을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="4e75e-110">Select **+ New custom record** and enter the following:</span></span> 
+3. <span data-ttu-id="74033-110">**+ 새 사용자 지정 레코드** 를 선택하고 다음을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="74033-110">Select **+ New custom record** and enter the following:</span></span> 
     
-  - <span data-ttu-id="4e75e-111">**DNS 유형** 에 대해 다음을 입력합니다. **A(주소)**</span><span class="sxs-lookup"><span data-stu-id="4e75e-111">For **DNS type** enter: **A (Address)**</span></span>
+  - <span data-ttu-id="74033-111">**DNS 유형** 에 대해 다음을 입력합니다. **A(주소)**</span><span class="sxs-lookup"><span data-stu-id="74033-111">For **DNS type** enter: **A (Address)**</span></span>
     
-  - <span data-ttu-id="4e75e-112">**호스트 이름 또는 별칭** 에는 **@** 을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="4e75e-112">For **Host name or Alias**, type the following: **@**</span></span>
+  - <span data-ttu-id="74033-112">**호스트 이름 또는 별칭** 에는 **@** 을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="74033-112">For **Host name or Alias**, type the following: **@**</span></span>
     
-  - <span data-ttu-id="4e75e-113">**IP 주소** 에는 현재 호스팅되는 웹 사이트의 고정 IP 주소를 입력합니다(예: 172.16.140.1).</span><span class="sxs-lookup"><span data-stu-id="4e75e-113">For **IP Address**, type the static IP address for your website where it's currently hosted (for example, 172.16.140.1).</span></span> 
+  - <span data-ttu-id="74033-113">**IP 주소** 에는 현재 호스팅되는 웹 사이트의 고정 IP 주소를 입력합니다(예: 172.16.140.1).</span><span class="sxs-lookup"><span data-stu-id="74033-113">For **IP Address**, type the static IP address for your website where it's currently hosted (for example, 172.16.140.1).</span></span> 
     
-    <span data-ttu-id="4e75e-p102">이 IP 주소는  *동적*  IP 주소가 아니라 웹 사이트의  *고정*  IP 주소여야 합니다. 웹 사이트가 호스트되는 사이트에서 공개 웹 사이트의 고정 IP 주소를 가져올 수 있는지 확인합니다.</span><span class="sxs-lookup"><span data-stu-id="4e75e-p102">This must be a  *static*  IP address for the website, not a  *dynamic*  IP address. Check with site where your website is hosted to make sure you can get a static IP address for your public website.</span></span> 
+    <span data-ttu-id="74033-p102">이 IP 주소는  *동적*  IP 주소가 아니라 웹 사이트의  *고정*  IP 주소여야 합니다. 웹 사이트가 호스트되는 사이트에서 공개 웹 사이트의 고정 IP 주소를 가져올 수 있는지 확인합니다.</span><span class="sxs-lookup"><span data-stu-id="74033-p102">This must be a  *static*  IP address for the website, not a  *dynamic*  IP address. Check with site where your website is hosted to make sure you can get a static IP address for your public website.</span></span> 
     
-3. <span data-ttu-id="4e75e-116">**저장** 을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="4e75e-116">Select **Save**.</span></span> 
+3. <span data-ttu-id="74033-116">**저장** 을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="74033-116">Select **Save**.</span></span> 
     
-<span data-ttu-id="4e75e-117">추가로, 고객이 쉽게 사용자의 웹 사이트를 찾을 수 있도록 CNAME 레코드를 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="4e75e-117">In addition, you can create a CNAME record to help customers find your website.</span></span>
+<span data-ttu-id="74033-117">추가로, 고객이 쉽게 사용자의 웹 사이트를 찾을 수 있도록 CNAME 레코드를 만들 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="74033-117">In addition, you can create a CNAME record to help customers find your website.</span></span>
   
-1. <span data-ttu-id="4e75e-118">**+ 새 사용자 지정 레코드** 를 선택하고 다음을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="4e75e-118">Select **+ New custom record** and enter the following:</span></span> 
+1. <span data-ttu-id="74033-118">**+ 새 사용자 지정 레코드** 를 선택하고 다음을 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="74033-118">Select **+ New custom record** and enter the following:</span></span> 
     
-  - <span data-ttu-id="4e75e-119">**DNS 유형** 에 대해 다음을 입력합니다. **CNAME(별칭)**</span><span class="sxs-lookup"><span data-stu-id="4e75e-119">For **DNS type** enter: **CNAME (Alias)**</span></span>
+  - <span data-ttu-id="74033-119">**DNS 유형** 에 대해 다음을 입력합니다. **CNAME(별칭)**</span><span class="sxs-lookup"><span data-stu-id="74033-119">For **DNS type** enter: **CNAME (Alias)**</span></span>
     
-  - <span data-ttu-id="4e75e-120">**호스트 이름 또는 별칭** 에는 **www** 를 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="4e75e-120">For **Host name or Alias**, type the following: **www**</span></span>
+  - <span data-ttu-id="74033-120">**호스트 이름 또는 별칭** 에는 **www** 를 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="74033-120">For **Host name or Alias**, type the following: **www**</span></span>
     
-  - <span data-ttu-id="4e75e-121">**대상 주소** 에 웹 사이트의 FQDN(정규화된 도메인 이름)을 contoso.com과 같이 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="4e75e-121">For **Points to address**, type the fully qualified domain name (FQDN) for your website (for example, contoso.com).</span></span> 
+  - <span data-ttu-id="74033-121">**대상 주소** 에 웹 사이트의 FQDN(정규화된 도메인 이름)을 contoso.com과 같이 입력합니다.</span><span class="sxs-lookup"><span data-stu-id="74033-121">For **Points to address**, type the fully qualified domain name (FQDN) for your website (for example, contoso.com).</span></span> 
     
-2. <span data-ttu-id="4e75e-122">**저장** 을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="4e75e-122">Select **Save**.</span></span> 
+2. <span data-ttu-id="74033-122">**저장** 을 선택합니다.</span><span class="sxs-lookup"><span data-stu-id="74033-122">Select **Save**.</span></span> 
     
-<span data-ttu-id="4e75e-123">끝으로 다음을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="4e75e-123">Finally, do the following:</span></span>
+<span data-ttu-id="74033-123">끝으로 다음을 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="74033-123">Finally, do the following:</span></span>
   
-<span data-ttu-id="4e75e-124">Microsoft를 가리키도록 [도메인의 NS 레코드를 업데이트 합니다](https://support.office.com/article/a46bec33-2c78-4f45-a96c-b64b2a5bae22.aspx) .</span><span class="sxs-lookup"><span data-stu-id="4e75e-124">[Update your domain's NS records](https://support.office.com/article/a46bec33-2c78-4f45-a96c-b64b2a5bae22.aspx) to point to Microsoft.</span></span> 
+<span data-ttu-id="74033-124">Microsoft를 가리키도록 [도메인의 NS 레코드를 업데이트 합니다](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/set-up-your-domain-host-specific-instructions) .</span><span class="sxs-lookup"><span data-stu-id="74033-124">[Update your domain's NS records](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/set-up-your-domain-host-specific-instructions) to point to Microsoft.</span></span> 
   
-<span data-ttu-id="4e75e-125">Microsoft를 가리키도록 NS 레코드를 업데이트 하면 도메인은 모두 설정 됩니다.</span><span class="sxs-lookup"><span data-stu-id="4e75e-125">When the NS records have been updated to point to Microsoft, your domain is all set up.</span></span> <span data-ttu-id="4e75e-126">전자 메일이 Microsoft로 라우팅되고, 웹 사이트 주소에 대 한 트래픽은 계속 해 서 현재 웹 사이트 호스트로 이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="4e75e-126">Email will be routed to Microsoft, and traffic to your website address will continue to go to your current website host.</span></span>
+<span data-ttu-id="74033-125">Microsoft를 가리키도록 NS 레코드를 업데이트 하면 도메인은 모두 설정 됩니다.</span><span class="sxs-lookup"><span data-stu-id="74033-125">When the NS records have been updated to point to Microsoft, your domain is all set up.</span></span> <span data-ttu-id="74033-126">전자 메일이 Microsoft로 라우팅되고, 웹 사이트 주소에 대 한 트래픽은 계속 해 서 현재 웹 사이트 호스트로 이동 합니다.</span><span class="sxs-lookup"><span data-stu-id="74033-126">Email will be routed to Microsoft, and traffic to your website address will continue to go to your current website host.</span></span>
  
