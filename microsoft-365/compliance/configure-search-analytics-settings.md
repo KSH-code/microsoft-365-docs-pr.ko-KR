@@ -1,5 +1,5 @@
 ---
-title: 검색 및 분석 설정 구성
+title: 검색 및 분석 설정 구성-데이터 조사
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -15,13 +15,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: ''
-ms.openlocfilehash: bfd7c89531c2c1592f5e48f0c7656560831b392d
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: 데이터 조사를 관리할 때 유사 중복, 전자 메일 스레딩 및 테마와 같은 검색 및 분석 설정을 구성 하는 방법에 대해 알아봅니다.
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 06f39a3dd52ecb872c671035460bab9a34956e49
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42078305"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44033668"
 ---
 # <a name="configure-search-and-analytics-settings"></a>검색 및 분석 설정 구성
 

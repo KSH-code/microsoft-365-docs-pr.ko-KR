@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 보안 센터의 id 모니터링 및 보고
+title: Id 모니터링 및 보고-보안 센터
 description: 조직의 사용자를 모니터링 하 고 의심 스 럽 거 나 위험한 행동을 추적 하는 방법에 대해 설명 합니다.
 keywords: 보안, 맬웨어, Microsoft 365, M365, 보안 센터, 모니터, 보고서, id, 사용자
 ms.prod: microsoft-365-enterprise
@@ -14,12 +14,13 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: 2a84cc9c275db1579dfab5050672faf2463698e6
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 6e884e6fc67670f25e48747324c15b158cc5c284
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42084975"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034037"
 ---
 # <a name="identity-monitoring-and-reporting-in-the-microsoft-365-security-center"></a>Microsoft 365 보안 센터의 id 모니터링 및 보고
 

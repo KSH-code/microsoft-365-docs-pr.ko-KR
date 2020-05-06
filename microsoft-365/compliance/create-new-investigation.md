@@ -15,19 +15,20 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: ''
-ms.openlocfilehash: 007a7517cb0ea3c810d667cbfa88c0da1755b0d8
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: Microsoft 365 준수 센터의 데이터 조사 (미리 보기)에서 새 조사를 작성, 구성 및 저장 하는 방법에 대해 알아봅니다.
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 62166f1fb820c33e1e8981b31c5fc9a48e54390a
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42077473"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035780"
 ---
 # <a name="create-a-new-investigation-in-data-investigations-preview"></a>데이터 조사에서 새 조사 만들기 (미리 보기)
 
 1. [https://compliance.microsoft.com](https://compliance.microsoft.com)으로 이동합니다.
     
-2. 회사 또는 학교 계정을 사용 하 여 로그인 합니다.
+2. 회사 또는 학교 계정을 사용하여 로그인합니다.
     
 3. 준수 센터에서 **데이터 조사**를 클릭 합니다.
  

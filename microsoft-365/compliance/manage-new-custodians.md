@@ -15,13 +15,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: 고급 eDiscovery 사례에서 custodians를 관리 합니다.
-ms.openlocfilehash: b497aef50c2bafd58e3b9cf8643a1ecc038520a4
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: 고급 eDiscovery 사례에서 자세한 정보를 확인 하 고, 편집 하 고, custodians 목록을 대량 편집 하는 방법을 알아봅니다.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 895383f72259fa5e46a46df35925bcc73f62e3a5
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635898"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034180"
 ---
 # <a name="manage-custodians-in-an-advanced-ediscovery-case"></a>Advanced eDiscovery 사례에서 custodians 관리
 
@@ -126,9 +127,9 @@ Custodian를 해제 하려면 다음을 수행 합니다.
 
 1. **Ediscovery > Advanced ediscovery** 로 이동 하 여 사례를 엽니다.
 
-2.  **Custodians** 탭으로 이동 합니다.
+2.    **Custodians** 탭으로 이동 합니다.
 
-3.  **Custodians 탭**을 클릭 한 다음 사례에서 출시 되는 custodian을 선택 합니다.
+3.    **Custodians 탭**을 클릭 한 다음 사례에서 출시 되는 custodian을 선택 합니다.
 
 4. 플라이 아웃 페이지에서 **Custodian 릴리스**를 클릭 합니다.
 

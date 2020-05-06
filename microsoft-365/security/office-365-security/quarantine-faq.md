@@ -15,13 +15,14 @@ search.appverid:
 ms.assetid: c440b2ac-cafa-4be5-ba4c-14278a7990ae
 ms.collection:
 - M365-security-compliance
-description: Office 365의 격리에 대 한 질문과 대답
-ms.openlocfilehash: 3947fbed2a17380a18320a8bffd08a8178ad2b3f
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Exchange online 또는 Exchange Online 사서함이 없는 독립 실행형 EOP에서 Office 365 사서함의 격리에 대 한 질문과 대답이 포함 되어 있습니다.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 5c5d7f426701ebc9a546a86a4fccbd7015fc0e49
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634427"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44033857"
 ---
 # <a name="quarantine-faq"></a>격리 FAQ
 

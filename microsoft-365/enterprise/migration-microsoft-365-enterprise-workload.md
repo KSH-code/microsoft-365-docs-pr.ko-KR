@@ -12,12 +12,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 조직 전체에서 Microsoft Office, Office 서버 및 Windows 버전을 Microsoft 365 Enterprise로 마이그레이션하는 프로세스를 단계별로 안내합니다.
-ms.openlocfilehash: 53d50321ffa2870fb0e94e9f6b7f005b8c666c2d
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 6830b4627eea799e18d32d3f9150617df339d7d4
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631540"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011798"
 ---
 # <a name="migration-to-microsoft-365-enterprise"></a>Microsoft 365 Enterprise로 마이그레이션
 
@@ -49,7 +49,7 @@ Microsoft 365 Enterprise 통합 제품군의 비즈니스 가치를 최대화하
 - Microsoft의 클라우드 기술을 활용하여 비즈니스의 디지털 혁신을 이룰 수 있도록 최적화되지 않았습니다.
 - 새로운 기능이 포함되어 있지 않습니다.
  
-Microsoft 365 Enterprise에는 Microsoft 365 Enterprise 라이선스로 사용할 수 있고 Microsoft 클라우드에서 설치 및 업데이트되는 Office 클라이언트 제품 버전인 엔터프라이즈용 Microsoft 365 앱이 포함되어 있습니다. 엔터프라이즈용 Microsoft 365 앱에는 보안 업데이트와 최신 기능이 포함되어 있습니다. 자세한 내용은 [기업에서의 엔터프라이즈용 Microsoft 365 앱](https://docs.microsoft.com/deployoffice/about-office-365-proplus-in-the-enterprise)을 참조하세요.
+Microsoft 365 Enterprise에는 Microsoft 365 Enterprise 라이선스로 사용할 수 있고 Microsoft 클라우드에서 설치 및 업데이트되는 Office 클라이언트 제품 버전인 엔터프라이즈용 Microsoft 365 앱이 포함되어 있습니다. 엔터프라이즈용 Microsoft 365 앱에는 보안 업데이트와 최신 기능이 포함되어 있습니다. 자세한 내용은 [엔터프라이즈용 Microsoft 365 앱](https://docs.microsoft.com/deployoffice/about-microsoft-365-apps)을 참조하세요.
 
 ### <a name="office-2007"></a>Office 2007
 

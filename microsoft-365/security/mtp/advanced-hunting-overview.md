@@ -1,5 +1,5 @@
 ---
-title: Microsoft Threat Protection의 고급 헌팅 개요
+title: 개요-고급 구하기
 description: Microsoft 365의 고급 검색 쿼리와 이를 사용하여 네트워크의 위협과 약점을 사전에 찾는 방법에 대해 알아보세요.
 keywords: 고급 구하기, 위협 검색, 사이버 위협 요소 검색, microsoft threat protection, microsoft 365, mtp, m365, 검색, 쿼리, 원격 분석, 사용자 지정 검색, 스키마, kusto, microsoft 365 및 microsoft Threat Protection
 search.product: eADQiWindows 10XVcnh
@@ -17,12 +17,13 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: dc91b97f48d6a5ca76c405e4c1006dceb9dc0b34
-ms.sourcegitcommit: 3b2fdf159d7dd962493a3838e3cf0cf429ee2bf2
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: c4b5d58a006591da23d37aaeccf72cfccc6d1c43
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42929031"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44033977"
 ---
 # <a name="proactively-hunt-for-threats-with-advanced-hunting-in-microsoft-threat-protection"></a>Microsoft Threat Protection의 고급 헌팅을 통한 위협에 대한 사전 대응
 
@@ -35,7 +36,7 @@ ms.locfileid: "42929031"
 
 동일한 위협 검색 쿼리를 사용 하 여 사용자 지정 검색 규칙을 만들 수 있습니다. 이러한 규칙은 의심 스러운 위반 활동 및 잘못 된 컴퓨터를 포함 하 여 다양 한 이벤트 및 시스템 상태를 확인 하 고 응답 하기 위해 자동으로 실행 됩니다.
 
-Microsoft 365 보안 센터에서 고급 구하기는 장치, 전자 메일, 앱 및 Microsoft Defender ATP, Office 365 ATP, Microsoft Cloud App Security 및 Azure의 id에 대 한 데이터를 포함 하 여 다양 한 작업 영역의 데이터를 확인 하는 쿼리를 지원 합니다. ATP. 고급 헌팅을 사용하려면 [Microsoft Threat Protection](mtp-enable.md)을 설정합니다.
+Microsoft 365 보안 센터에서 고급 구하기는 장치, 전자 메일, 앱 및 Microsoft Defender ATP, Office 365 ATP, Microsoft Cloud App Security 및 Azure ATP의 id에 대 한 데이터를 포함 하 여 다양 한 작업 영역의 데이터를 확인 하는 쿼리를 지원 합니다. 고급 헌팅을 사용하려면 [Microsoft Threat Protection](mtp-enable.md)을 설정합니다.
 
 ## <a name="get-started-with-advanced-hunting"></a>고급 헌팅 시작
 
@@ -49,12 +50,6 @@ Microsoft 365 보안 센터에서 고급 구하기는 장치, 전자 메일, 앱
 | **미리 정의 된 쿼리 활용** | 다양한 위협 헌팅 시나리오를 다루는 미리 정의된 쿼리 모음을 탐색합니다. | [공유 쿼리 사용](advanced-hunting-shared-queries.md) |
 | **쿼리 최적화** | 전자 메일 및 장치에서 데이터를 결합하는 효율적인 쿼리 및 쿼리를 만드는 방법에 대해 알아봅니다. | - [쿼리 모범 사례](advanced-hunting-shared-queries.md) <br>- [장치 및 전자 메일 간 헌트](advanced-hunting-best-practices.md) |
 | **사용자 지정 검색 규칙 만들기** | 고급 구하기 쿼리를 사용 하 여 알림을 트리거하고 응답 작업을 자동으로 적용 하는 방법을 이해 합니다. | - [사용자 지정 검색 개요](custom-detections-overview.md)<br>- [사용자 지정 검색 규칙](custom-detection-rules.md) |
-
-## <a name="get-help-as-you-write-queries"></a>쿼리 작성시 도움말 보기
-다음 기능을 활용하여 쿼리를 더 빠르게 작성하세요.
-- **Autosuggest** -쿼리를 작성할 때 고급 사냥은 IntelliSense의 추천 단어를 제공 합니다. 
-- **스키마 참조** — 테이블 및 해당 열 목록이 포함된 스키마 참조가 작업 영역 옆에 제공됩니다. 자세한 내용을 보려면 항목 위로 마우스를 가져갑니다. 항목을 두 번 클릭하여 쿼리 편집기에 삽입합니다.
-
 
 ## <a name="related-topics"></a>관련 항목
 - [쿼리 언어 배우기](advanced-hunting-query-language.md)

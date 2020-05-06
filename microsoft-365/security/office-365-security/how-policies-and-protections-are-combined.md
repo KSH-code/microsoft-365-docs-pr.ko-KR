@@ -13,13 +13,15 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.collection:
 - M365-security-compliance
-description: Office 365 보호의 응용 프로그램 순서와 보호 정책의 우선 순위 값이 적용 되는 정책을 결정 하는 방법에 대해 설명 합니다.
-ms.openlocfilehash: ed4806bad6299dc5a5380bec2f6e1247f9d6b448
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom:
+- seo-marvel-apr2020
+description: Office 365 보호의 응용 프로그램 순서와 보호 정책의 우선 순위 값에 따라 적용 되는 정책이 결정 되는 방식을 알아봅니다.
+ms.openlocfilehash: 856b3bc39cd971e605cd9f1c0f31554a853c1b67
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43633969"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036719"
 ---
 # <a name="order-and-precedence-of-email-protection"></a>전자 메일 보호의 순서 및 우선 순위
 
@@ -33,10 +35,10 @@ Microsoft 365 사용자는 인바운드 전자 메일에 여러 보호 형태의
 
   |||||
   |---|---|---|---|
-  |**Priority(우선 순위)**|**전자 메일 보호**|**범주**|**관리할 위치**|
-  |1 |맬웨어|CAT: MALW|[Office 365에서 맬웨어 방지 정책 구성](configure-anti-malware-policies.md)|
-  |2 |피싱|CAT: PHSH|[Office 365에서 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)|
-  |3 |높은 정확도 스팸|CAT: HSPM|[Office 365에서 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)|
+  |**우선 순위**|**전자 메일 보호**|**범주**|**관리할 위치**|
+  |개|맬웨어|CAT: MALW|[Office 365에서 맬웨어 방지 정책 구성](configure-anti-malware-policies.md)|
+  |2|피싱|CAT: PHSH|[Office 365에서 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)|
+  |3(sp3)|높은 정확도 스팸|CAT: HSPM|[Office 365에서 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)|
   |4 |스푸핑|CAT: 스푸핑|[Office 365에서 스푸핑 인텔리전스 구성](learn-about-spoof-intelligence.md)|
   |5 |스팸|CAT: SPM|[Office 365에서 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)|
   |6 |대량|CAT: 대량|[Office 365에서 스팸 방지 정책 구성하기](configure-your-spam-filter-policies.md)|
@@ -54,9 +56,9 @@ Microsoft 365 사용자는 인바운드 전자 메일에 여러 보호 형태의
 
   |||||
   |---|---|---|---|
-  |**ATP 피싱 방지 정책**|**Priority(우선 순위)**|**사용자 가장**|**스푸핑 방지**|
-  |정책 A|1 |켜짐|해제|
-  |정책 B|2 |해제|켜짐|
+  |**ATP 피싱 방지 정책**|**우선 순위**|**사용자 가장**|**스푸핑 방지**|
+  |정책 A|개|켜짐|해제|
+  |정책 B|2|해제|켜짐|
   |
 
 1. 스푸핑 우선 순위 (4)가 사용자 가장 (8) 보다 높기 때문에 메시지가 스푸핑로 표시 되 고 처리 됩니다.

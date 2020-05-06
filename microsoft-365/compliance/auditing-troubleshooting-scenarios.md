@@ -15,13 +15,15 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-description: 감사 로그 검색 도구를 사용 하면 손상 된 계정을 조사 하거나, 사서함에 대해 전자 메일 전달을 설정 하는 사람을 찾거나, 외부 사용자가 조직에 로그인 하는 이유를 확인 하는 등의 일반적인 문제를 해결 하는 데 도움을 받을 수 있습니다.
-ms.openlocfilehash: 8eaff1fa3eea6a0fa60edcfd43f4f2aedb5a5ffc
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom:
+- seo-marvel-apr2020
+description: Office 365 감사 로그 검색 도구를 사용 하 여 전자 메일 계정의 일반적인 지원 문제를 해결 하는 방법에 대해 알아봅니다.
+ms.openlocfilehash: 64ddffab518fdf54dba1ffca87548a65037b8eb7
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636386"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034214"
 ---
 # <a name="search-the-audit-log-to-investigate-common-support-issues"></a>감사 로그를 검색 하 여 일반적인 지원 문제 조사
 
@@ -236,6 +238,6 @@ UserLoggedIn 감사 레코드에 표시 되는 다른 속성에 대 한 자세�
 
     **사용자가 로그인** 한 활동 외에, 외부 사용자와 조직의 사용자를 표시 하는 경우, 외부 사용자와 공유 된 문서를 액세스, 수정 또는 다운로드 했는지 여부와 같은 다른 감사 레코드가 반환 될 수 있습니다.
 
-- **사용자가 로그인** 한 감사 레코드에 의해 식별 된 외부 사용자와 파일이 공유 되었음을 나타내는 SharePoint 공유 활동을 검색 합니다. 자세한 내용은 [감사 로그에서 공유 감사 사용](use-sharing-auditing.md)을 참조 하십시오.
+- **사용자가 로그인** 한 감사 레코드에 의해 식별 된 외부 사용자와 파일이 공유 되었음을 나타내는 SharePoint 공유 활동을 검색 합니다. 자세한 내용은 [감사 로그에서 공유 감사 사용](use-sharing-auditing.md)을 참조하세요.
 
 - Excel을 사용 하 여 외부 사용자와 관련 된 다른 작업을 검색할 수 있도록 조사와 관련 된 레코드를 포함 하는 감사 로그 검색 결과를 내보냅니다. 자세한 내용은 [감사 로그 기록 내보내기, 구성 및 보기](export-view-audit-log-records.md)를 참조 하세요.

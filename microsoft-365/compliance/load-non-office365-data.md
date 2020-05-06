@@ -15,13 +15,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: ''
-ms.openlocfilehash: 9eef3b38ceef7efc42e1f66c45069f51a0a95d45
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Office 이외 365 콘텐츠 가져오기 기능을 사용 하 여 Office 이외 365 문서를 데이터 조사의 증거에 업로드 하는 방법을 알아봅니다.
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 499b1074b9a1e2026804eab2ac958fe7392e98ea
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632633"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034416"
 ---
 # <a name="load-non-microsoft-365-data-into-evidence"></a>Microsoft 제품이 아닌 365 데이터를 증거에 로드
 

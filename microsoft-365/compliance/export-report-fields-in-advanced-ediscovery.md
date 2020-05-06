@@ -14,13 +14,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 840a5aff-ecd0-4e56-ad22-fe99bc143687
-description: 고급 eDiscovery에 대 한 내보내기 보고서에 포함 되는 모든 필드에 대해 설명 합니다.
-ms.openlocfilehash: a7ee8e3971ab2fc921085ca63f7a8451a1597be2
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: 이 문서에서는 Advanced eDiscovery에 대 한 내보내기 보고서에 포함 된 모든 필드에 대해 설명 합니다.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: a971c19563741520a85d6120cb69d13d9b764b8d
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637810"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035902"
 ---
 # <a name="export-report-fields-in-advanced-ediscovery-classic"></a>고급 eDiscovery에서 보고서 필드 내보내기 (클래식)
 
@@ -135,7 +136,7 @@ ms.locfileid: "43637810"
 |Word_count  <br/> |분석  <br/> |문서의 단어 수입니다.  <br/> |아니요  <br/> |예  <br/> |
 |
    
-## <a name="related-topics"></a>관련 항목
+## <a name="related-topics"></a>관련 주제
 
 [고급 eDiscovery (클래식)](office-365-advanced-ediscovery.md)
   

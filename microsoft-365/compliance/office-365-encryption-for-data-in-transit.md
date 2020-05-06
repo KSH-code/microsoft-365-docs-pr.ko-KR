@@ -15,13 +15,14 @@ ms.collection:
 - Strat_O365_Enterprise
 - M365-security-compliance
 - Strat_O365_Enterprise
-description: Microsoft에서 데이터 센터에 전송 중인 데이터를 암호화 하는 방법에 대 한 간략 한 설명입니다.
-ms.openlocfilehash: 645294522185a631012c1654fbad96ba0a21b33e
-ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
+description: 이 문서에서는 Microsoft 365 고객 데이터를 전송 중에 암호화 하는 방법에 대 한 간략 한 설명을 찾습니다.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 7ee869308549398a9df00ed42975b4aeedb666a4
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43943307"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44033606"
 ---
 # <a name="encryption-for-data-in-transit"></a>전송 중인 데이터 암호화
 

@@ -15,13 +15,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: ''
-ms.openlocfilehash: 9a732258e787de3407731f0fdfc98ed07653df71
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: 프레젠테이션이나 외부 검토를 위해 검토 집합에서 콘텐츠를 선택 하 고 내보내거나 다운로드 하는 방법에 대해 알아봅니다.
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 29c2224a1ce0a92bca3b2057352f6f82fdc7afde
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42074362"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034096"
 ---
 # <a name="export-documents-from-a-review-set"></a>검토 집합에서 문서 내보내기
 

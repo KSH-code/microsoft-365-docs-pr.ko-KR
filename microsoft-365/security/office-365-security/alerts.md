@@ -17,13 +17,14 @@ search.appverid:
 ms.assetid: 2bb4e7c0-5f7f-4144-b647-cc6a956aaa53
 ms.collection:
 - M365-security-compliance
-description: Office 365의 보안을 지원 하기 위해 설정할 수 있는 경고에 대해 알아봅니다.
-ms.openlocfilehash: 24e36b6867600985a9ca0f9cb3cbafc5a8c6029e
-ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
+description: Office 365 보안 & 준수 센터의 알림 기능을 사용 하 여 고급 경고 관리를 비롯 한 알림을 보고 관리 하는 방법에 대해 알아봅니다.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 8b0c2d89f7f91e1dfcae644663c43bc6e8640f37
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43943558"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44033777"
 ---
 # <a name="alerts-in-the-security-amp-compliance-center"></a>보안 &amp; 및 준수 센터의 경고
 

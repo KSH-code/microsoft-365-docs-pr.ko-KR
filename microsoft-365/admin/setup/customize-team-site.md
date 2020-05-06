@@ -1,5 +1,5 @@
 ---
-title: 파일 저장 및 공유를 위해 팀 사이트 사용자 지정
+title: 파일 저장 및 공유를 위해 팀 사이트 사용자 지정-SharePoint Online
 f1.keywords:
 - NOCSH
 ms.author: cmcatee
@@ -16,18 +16,19 @@ ms.collection:
 - SPO_Content
 ms.custom:
 - IT_Networking
+- seo-marvel-apr2020
 search.appverid:
 - BCS160
 - MET150
 - MOE150
 ms.assetid: 70a62f09-45ea-4968-8482-43cddfb8cc01
-description: 팀 사이트를 사용자 지정, 구성 및 관리 하는 방법을 알아봅니다.
-ms.openlocfilehash: e3f2773e72a1b86cc3bae53ee6bbdbcb33d465b8
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: 이 문서에서는 파일 저장 및 공유를 위해 팀 사이트를 사용자 지정, 구성 및 관리 하는 방법을 알아봅니다.
+ms.openlocfilehash: 49bacdd193277e88eb076baeb90380c8f696d27b
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627621"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44033789"
 ---
 # <a name="customize-your-team-site-for-file-storage-and-sharing"></a>파일 저장 및 공유를 위해 팀 사이트 사용자 지정
 

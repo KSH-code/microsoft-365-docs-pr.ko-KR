@@ -11,13 +11,15 @@ ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 212e68ac-6330-47e9-a169-6cf5e2f21e13
-description: EOP(Exchange Online Protection)를 사용하여 Exchange 조직에 메일 사용 가능 그룹을 만들 수 있습니다. 또한 구성원 자격, 전자 메일 주소 및 그룹의 기타 측면을 지정하는 그룹 속성을 정의하거나 업데이트할 수도 있습니다.
-ms.openlocfilehash: ad07066906f78703c568850afbfa5dfa8d8cc3c1
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.custom:
+- seo-marvel-apr2020
+description: 이 문서에서는 EOP (Exchange Online Protection)에서 Exchange 조직에 대 한 메일 사용 가능 그룹을 만들고 관리 하는 방법을 알아봅니다.
+ms.openlocfilehash: 37825175e3332e975065a3807c6ed9d5096b1a7f
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42082901"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034405"
 ---
 # <a name="manage-groups-in-eop"></a>EOP에서 그룹 관리
 
@@ -55,7 +57,7 @@ Exchange 조직에 대해 다음과 같은 두 가지 유형의 그룹을 만들
 
 1. EAC에서 **받는 사람** \> **그룹**으로 이동 합니다.
 
-2. 필요 **** ![에 따라 새](../../media/ITPro-EAC-AddIcon.gif)추가 아이콘을 클릭 한 다음 **메일 그룹** 또는 **보안 그룹**을 클릭 합니다.
+2. 필요 **New** ![에 따라 새](../../media/ITPro-EAC-AddIcon.gif)추가 아이콘을 클릭 한 다음 **메일 그룹** 또는 **보안 그룹**을 클릭 합니다.
 
 3. **새 메일 그룹** 또는 **새 보안 그룹** 페이지에서 다음 설정을 구성 합니다.
 
@@ -84,7 +86,7 @@ Exchange 조직에 대해 다음과 같은 두 가지 유형의 그룹을 만들
 
    - 그룹을 편집 하려면 그룹 목록에서 보거나 변경 하려는 그룹을 클릭 한 다음 편집 아이콘](../../media/ITPro-EAC-EditIcon.gif) **편집** ![을 클릭 합니다. 일반 설정을 업데이트 하 고, 그룹 소유자를 추가 또는 제거 하 고, 필요에 따라 그룹 구성원을 추가 또는 제거할 수 있습니다.
 
-   - 그룹을 제거 하려면 그룹을 선택 하 고 제거 **** ![아이콘](../../media/ITPro-EAC-RemoveIcon.gif)제거를 클릭 합니다.
+   - 그룹을 제거 하려면 그룹을 선택 하 고 제거 **Remove** ![아이콘](../../media/ITPro-EAC-RemoveIcon.gif)제거를 클릭 합니다.
 
 3. 변경을 마치면 **저장**을 클릭합니다.
 

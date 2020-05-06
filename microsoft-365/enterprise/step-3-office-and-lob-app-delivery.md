@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Office 및 LOB 앱을 배달하는 방법을 알아봅니다.
-ms.openlocfilehash: bf610f6d6684cf8fb6211301468747fbecf3d8f1
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: ab40e59face9e8c4b37db15a9c815ea5579b4a2c
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636799"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011642"
 ---
 # <a name="step-3-office-and-lob-app-delivery"></a>3단계: Office 및 LOB 앱 배달
 
@@ -63,9 +63,9 @@ Microsoft Endpoint Configuration Manager 및 Microsoft Intune 등의 소프트�
 
 엔터프라이즈용 Microsoft 365 앱을를 이미지에 포함하지 않으려는 경우 이 기능이 사용자 기반 활성화라는 점을 기억하도록 합니다. 즉, 시스템 관리자가 미리 활성화할 수 없습니다. Office 배포 도구를 사용하여 이미징하는 장치에 Office를 미리 설치하고 사용자 로그인을 건너뜁니다. 이미지가 배포되면 최종 사용자는 자격 증명을 사용하여 로그인하고 엔터프라이즈용 Microsoft 365 앱을 활성화할 수 있습니다.
 
-[운영 체제를 설치하는 작업 시퀀스 만들기](https://docs.microsoft.com/configmgr/osd/deploy-use/create-a-task-sequence-to-install-an-operating-system)
+[운영 체제를 설치하는 작업 시퀀스 만들기](https://docs.microsoft.com/mem/configmgr/osd/deploy-use/create-a-task-sequence-to-install-an-operating-system)
 
-[운영 체제 이미지의 일부로 엔터프라이즈용 Microsoft 365 앱 배포](https://docs.microsoft.com/deployoffice/deploy-office-365-proplus-as-part-of-an-operating-system-image)
+[운영 체제 이미지의 일부로 Microsoft 365 앱 배포](https://docs.microsoft.com/deployoffice/deploy-microsoft-365-apps-operating-system-image)
 
 ## <a name="office-click-to-run"></a>Office 간편 실행 
 
@@ -81,11 +81,11 @@ Configuration Manager를 사용하는 경우 엔터프라이즈용 Microsoft 365
 
 ![](../media/step-3-office-and-lob-app-delivery-media/step-3-office-and-lob-app-delivery-media-6.png)
 
-[엔터프라이즈용 Microsoft 365 앱 배포 가이드](https://docs.microsoft.com/deployoffice/deployment-guide-for-office-365-proplus)
+[Microsoft 365 앱 배포 가이드](https://docs.microsoft.com/deployoffice/deployment-guide-microsoft-365-apps)
 
-[엔터프라이즈용 Microsoft 365 앱으로 업그레이드할 때 기존 MSI 버전의 Office 제거](https://docs.microsoft.com/deployoffice/upgrade-from-msi-version)
+[Microsoft 365 앱으로 업그레이드할 때 기존 MSI 버전의 Office 제거하기](https://docs.microsoft.com/deployoffice/upgrade-from-msi-version)
 
-[Configuration Manager를 사용하여 엔터프라이즈용 Microsoft 365 앱 관리](https://docs.microsoft.com/configmgr/sum/deploy-use/manage-office-365-proplus-updates)
+[Configuration Manager를 사용하여 엔터프라이즈용 Microsoft 365 앱 관리](https://docs.microsoft.com/mem/configmgr/sum/deploy-use/manage-office-365-proplus-updates)
 
 [Microsoft Intune을 사용하여 Office 365 앱을 Windows 10 장치에 할당](https://docs.microsoft.com/intune/apps-add-office365)
 

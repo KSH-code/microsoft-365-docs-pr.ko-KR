@@ -15,13 +15,14 @@ search.appverid:
 - MET150
 - MOE150
 ms.assetid: 862cbe93-4268-4ef9-ba79-277545ecf221
-description: Office 365의 암호화에 대 한 기술 세부 정보를 확인 합니다.
-ms.openlocfilehash: cdfd3765fb7bf15835d200a539241d928225d22e
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Office 365에서 암호화에 사용 되는 다양 한 인증서, 기술 및 TLS 암호 제품군에 대해 알아봅니다.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: f15f55c4a66d579d547a164633613175f254640b
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637212"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034532"
 ---
 # <a name="technical-reference-details-about-encryption"></a>암호화에 대 한 기술 참조 세부 정보
 
