@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9982191d-ed79-46a9-b2e7-317d1a3a9867
 description: My Domain for Microsoft에서 도메인을 확인하고 전자 메일, 비즈니스용 Skype 온라인 및 기타 서비스에 대한 DNS 레코드를 설정하는 방법을 알아봅니다.
-ms.openlocfilehash: ea89fd64c7f3f87f59b7e71e1366372c442e254d
-ms.sourcegitcommit: c7f11d851073ef14a69669f6c8b7e0c11e4bb7a1
+ms.openlocfilehash: cc12729e10e651abc2eaa109c47c2a5fbfe5ea1e
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43939182"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44048978"
 ---
 # <a name="create-dns-records-at-mydomain-for-microsoft"></a>MyDomain for Microsoft에서 DNS 레코드 만들기
 
@@ -34,7 +34,7 @@ ms.locfileid: "43939182"
  원하는 정보를 찾지 못한 경우 **[도메인 FAQ를 확인](../setup/domains-faq.md)** 하세요. 
   
 > [!CAUTION]
-> MyDomain 웹 사이트는 SRV 레코드를 지원하지 않습니다. 따라서 일부 비즈니스용 Skype Online 및 Outlook Web App 기능이 작동하지 않습니다. 어떤 Microsoft 플랜을 사용하든 관계없이 MyDomain에서 DNS 레코드를 관리하는 경우에는 [상당한 서비스 제한 사항](https://support.office.com/article/7ae9a655-041d-4724-aa92-60392ee390c2.aspx)이 있으며 다른 DNS 호스팅 공급자로 전환해야 할 수도 있습니다. 
+> MyDomain 웹 사이트는 SRV 레코드를 지원하지 않습니다. 따라서 일부 비즈니스용 Skype Online 및 Outlook Web App 기능이 작동하지 않습니다. 어떤 Microsoft 플랜을 사용하든 관계없이 MyDomain에서 DNS 레코드를 관리하는 경우에는 [상당한 서비스 제한 사항](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)이 있으며 다른 DNS 호스팅 공급자로 전환해야 할 수도 있습니다. 
   
 서비스 제한 사항에도 불구하고 MyDomain에서 Microsoft DNS 레코드를 관리하려는 경우 이 문서의 단계를 따라 전자 메일, 비즈니스용 Skype Online 등에 대한 DNS 레코드를 설정하세요.
     
@@ -110,7 +110,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
     
     |**우선 순위**|**Host(호스트)**|**연결 대상**|
     |:-----|:-----|:-----|
-    |0  <br/> 우선 순위에 대한 자세한 내용은 [MX 우선 순위란?](https://support.office.com/article/2784cc4d-95be-443d-b5f7-bb5dd867ba83.aspx)을 참조하세요. <br/> |@  <br/> | *\<domain-key\>*  .mail.protection.outlook.com  <br/> **참고:** Microsoft 계정에서 \<*도메인-키*\>를 받으세요. > [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)          |
+    |0  <br/> 우선 순위에 대한 자세한 내용은 [MX 우선 순위란?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)을 참조하세요. <br/> |@  <br/> | *\<domain-key\>*  .mail.protection.outlook.com  <br/> **참고:** Microsoft 계정에서 \<*도메인-키*\>를 받으세요. > [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)          |
    
     ![MyDomain-BP-Configure-2-2](../../media/3e19cec3-7f3b-493d-81f7-cda30ba007d5.png)
   
@@ -170,7 +170,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
-> 도메인 한 개의 SPF에 둘 이상의 TXT 레코드가 있을 수 없습니다. 도메인에 둘 이상의 SPF 레코드가 있는 경우 전자 메일 오류를 비롯하여 배달 및 스팸 분류 문제가 발생할 수 있습니다. 도메인에 이미 SPF 레코드가 있는 경우 Microsoft의 새 SPF 레코드를 만들지 마세요. 대신, 필수 Microsoft 값을 현재 레코드에 추가하여 두 값 집합을 모두 포함하는 단일 SPF 레코드가 있도록 합니다. 예제가 필요하세요? [Microsoft에 대한 외부 Domain Name System 레코드](https://support.office.com/article/c0531a6f-9e25-4f2d-ad0e-a70bfef09ac0#bkmk_spfrecords)를 참조하세요. To validate your SPF record, you can use one of these [SPF validation tools](../setup/domains-faq.md). 
+> 도메인 한 개의 SPF에 둘 이상의 TXT 레코드가 있을 수 없습니다. 도메인에 둘 이상의 SPF 레코드가 있는 경우 전자 메일 오류를 비롯하여 배달 및 스팸 분류 문제가 발생할 수 있습니다. 도메인에 이미 SPF 레코드가 있는 경우 Microsoft의 새 SPF 레코드를 만들지 마세요. 대신, 필수 Microsoft 값을 현재 레코드에 추가하여 두 값 집합을 모두 포함하는 단일 SPF 레코드가 있도록 합니다. 예제가 필요하세요? [Microsoft에 대한 외부 Domain Name System 레코드](https://docs.microsoft.com/office365/enterprise/external-domain-name-system-records#bkmk_spfrecords)를 참조하세요. To validate your SPF record, you can use one of these [SPF validation tools](../setup/domains-faq.md). 
   
 1. 시작하려면 [이 링크](https://www.mydomain.com/controlpanel)를 사용하여 MyDomain의 도메인 페이지로 이동합니다. 먼저 로그인하라는 메시지가 표시됩니다.
     
@@ -202,7 +202,7 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
 <a name="BKMK_add_SRV"> </a>
 
 > [!CAUTION]
-> MyDomain 웹 사이트는 SRV 레코드를 지원하지 않습니다. 따라서 일부 비즈니스용 Skype Online 및 Outlook Web App 기능이 작동하지 않습니다. 어떤 Microsoft 플랜을 사용하든 관계없이 MyDomain에서 DNS 레코드를 관리하는 경우에는 [상당한 서비스 제한 사항](https://support.office.com/article/7ae9a655-041d-4724-aa92-60392ee390c2.aspx)이 있으며 다른 DNS 호스팅 공급자로 전환해야 할 수도 있습니다. 
+> MyDomain 웹 사이트는 SRV 레코드를 지원하지 않습니다. 따라서 일부 비즈니스용 Skype Online 및 Outlook Web App 기능이 작동하지 않습니다. 어떤 Microsoft 플랜을 사용하든 관계없이 MyDomain에서 DNS 레코드를 관리하는 경우에는 [상당한 서비스 제한 사항](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)이 있으며 다른 DNS 호스팅 공급자로 전환해야 할 수도 있습니다. 
   
 > [!NOTE]
 > Typically it takes about 15 minutes for DNS changes to take effect. 그러나 변경한 내용이 인터넷의 DNS 시스템 전체에 업데이트되는 데에는 시간이 오래 걸릴 수 있습니다. DNS 레코드를 추가한 후 메일 흐름 또는 기타 문제가 발생하는 경우 [도메인 또는 DNS 레코드를 추가한 후 문제 찾기 및 해결하기](../get-help-with-domains/find-and-fix-issues.md)를 참조하세요. 

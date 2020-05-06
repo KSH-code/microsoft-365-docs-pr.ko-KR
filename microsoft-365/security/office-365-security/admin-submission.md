@@ -1,5 +1,5 @@
 ---
-title: 관리자 전송, 전송, 스팸 문제, 거짓 네거티브, 피싱 제출, 검색을 위한 전자 메일 제출, Office 365에서 의심 스러운 전자 메일, microsoft에 대 한 바이러스 검색, 전자 메일 제출, microsoft에 피싱, dodgy 전자 메일, 불법 작업자 메일, 보고서 피싱 전자 메일로 microsoft에 microsoft에 게 보고 피싱 전자 메일의 맬웨어를 Microsoft에 보고 하 고 받은 편지함의 스팸 전자 메일에서 전자 메일에 바이러스를 신고 합니다.
+title: Office 365에서 관리자 제출
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -14,13 +14,15 @@ search.appverid:
 - MET150
 ms.collection:
 - M365-security-compliance
+ms.custom:
+- seo-marvel-apr2020
 description: 회사의 의심 스러운 전자 메일, 의심 스러운 메일, 스팸 및 기타 해로운 메시지, Url 및 파일을 검색을 위해 Microsoft에 제출 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 73c33ba1218a710c33f8b2675bc65c0a7486efda
-ms.sourcegitcommit: d929fa32fc2dfb0749fa2420eddbc2251d8489dc
+ms.openlocfilehash: 79f200963655e5fb07a04b686c1dd8cc3bbd0873
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43921531"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034203"
 ---
 # <a name="use-admin-submission-to-submit-suspected-spam-phish-urls-and-files-to-microsoft"></a>관리자 제출을 사용하여 의심스러운 스팸, 피싱, URL 및 파일을 Microsoft에 제출
 

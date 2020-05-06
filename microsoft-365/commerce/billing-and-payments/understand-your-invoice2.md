@@ -24,12 +24,12 @@ search.appverid:
 - BEA160
 ms.assetid: 0724b428-fb59-4962-8c37-6674166d7507
 description: Microsoft 365 비즈니스 송장의 청구 금액, 대금 청구 및 지불 정보를 해석 하는 방법과 구매 주문 번호를 변경 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 392957ecf06c6200bca3daf205946f5b8fd1563a
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 5cb2f961fa11f25e160ddd978783c7744776307e
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634971"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44045815"
 ---
 # <a name="understand-your-invoice-for-microsoft-365-for-business"></a>비즈니스에 대 한 Microsoft 365의 청구서 이해
 
@@ -104,7 +104,7 @@ ms.locfileid: "43634971"
 
 ::: moniker range="o365-worldwide"
 
-1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품 및 서비스</a> 페이지로 이동합니다.
+1. 관리 센터에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a> **청구** \> 페이지로 이동 합니다.
 
 2. **테이블** 보기인 경우 **카드** 를 선택 하 여 보기를 전환 합니다.
 

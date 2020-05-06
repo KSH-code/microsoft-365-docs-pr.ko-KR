@@ -11,13 +11,14 @@ ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 4bfaf2ab-e633-4227-8bde-effefb41a3db
-description: 메일 사용자 정의는 EOP(Exchange Online Protection) 서비스 관리의 중요한 부분입니다.
-ms.openlocfilehash: 56827e29872c6a6ffd14821af8e2d9ea005ff20c
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: 디렉터리 동기화, EAC 및 PowerShell을 사용 하 여 사용자를 관리 하는 등의 EOP (Exchange Online Protection)에서 메일 사용자를 관리 하는 방법에 대해 알아봅니다.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 9a4555bf4b6a716839c327c692f0e44b590f8175
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635583"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035559"
 ---
 # <a name="manage-mail-users-in-eop"></a>EOP에서 메일 사용자 관리
 
@@ -53,7 +54,7 @@ ms.locfileid: "43635583"
 
 이 섹션에서는 디렉터리 동기화를 사용하여 전자 메일 사용자를 관리하는 방법에 대해 설명합니다.
 
-**참고:**
+**참고**:
 
 - 디렉터리 동기화를 사용 하 여 받는 사람을 관리 하는 경우에도 Microsoft 365 관리 센터에서 사용자를 추가 및 관리할 수 있지만 온-프레미스 Active Directory와 동기화 되지 않습니다. 디렉터리 동기화는 온-프레미스 Active Directory **의** 받는 사람만 클라우드 **로** 동기화 하기 때문입니다.
 

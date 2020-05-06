@@ -15,13 +15,15 @@ ms.collection:
 - Strat_O365_Enterprise
 - M365-security-compliance
 - Strat_O365_Enterprise
-description: '요약: Microsoft 365의 데이터 복구 기능을 이해 합니다.'
-ms.openlocfilehash: 1962bea9e3b5382edbd22691cdb7d79219ebe0f7
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom:
+- seo-marvel-mar2020
+description: 이 문서에서는 Office 365에 대 한 위험 및 보호에 사용할 수 있는 암호화 기술에 대해 알아봅니다.
+ms.openlocfilehash: 4b13e26e9ab9fbd7091c8c916758ff31c79a4e96
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637232"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44031368"
 ---
 # <a name="encryption-risks-and-protections"></a>암호화 위험 및 보호
 

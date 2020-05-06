@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: 9eec911d-5773-422c-9593-40e1147ffbde
 description: Microsoft의 Windows 기반 DNS에 있는 전자 메일, 비즈니스용 Skype Online 및 기타 서비스에 대해 도메인을 확인 하 고 DNS 레코드를 설정 하는 방법을 알아봅니다.
-ms.openlocfilehash: 3207a319880a23b71a17e80f3e9e77398fa79ef0
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 1aaf81dddf27911ad3562bec6f56fb34c64fd37d
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631372"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44048846"
 ---
 # <a name="create-dns-records-for-microsoft-using-windows-based-dns"></a>Windows 기반 DNS를 사용 하 여 Microsoft에 대 한 DNS 레코드 만들기
 
@@ -110,7 +110,7 @@ MDM Enterpriseenrollment CNAME 레코드를 추가합니다.
 <a name="BKMK_add_TXT"> </a>
 
 > [!IMPORTANT]
-> 도메인 한 개의 SPF에 둘 이상의 TXT 레코드가 있을 수 없습니다. 도메인에 둘 이상의 SPF 레코드가 있는 경우 전자 메일 오류를 비롯하여 배달 및 스팸 분류 문제가 발생할 수 있습니다. 도메인에 대 한 SPF 레코드가 이미 있는 경우 Microsoft에 대해 새로 만들지 마십시오. 대신, 두 값 집합을 모두 포함 하는 *단일* SPF 레코드가 있도록 현재 레코드에 필수 Microsoft 값을 추가 합니다. 
+> 도메인 한 개의 SPF에 둘 이상의 TXT 레코드가 있을 수 없습니다. 도메인에 둘 이상의 SPF 레코드가 있는 경우 전자 메일 오류를 비롯하여 배달 및 스팸 분류 문제가 발생할 수 있습니다. 도메인에 이미 SPF 레코드가 있는 경우 Microsoft의 새 SPF 레코드를 만들지 마세요. 대신, 두 값 집합을 모두 포함 하는 *단일* SPF 레코드가 있도록 현재 레코드에 필수 Microsoft 값을 추가 합니다. 
   
 스팸 메일을 방지하는 데 도움이 되도록 도메인의 SPF TXT 레코드를 추가합니다.
   
@@ -200,7 +200,7 @@ Microsoft에서 도메인을 확인 합니다.
 ## <a name="non-routable-email-address-used-as-a-upn-in-your-on-prem-active-directory"></a>온-프레미스 Active Directory에서 UPN으로 사용되는 라우팅할 수 없는 전자 메일 주소
 <a name="BKMK_ADNote"> </a>
 
-온-프레미스 Active Directory를 Microsoft와 동기화 하려는 경우 Active Directory UPN (사용자 계정 이름) 접미사가 유효한 도메인 접미사 인지 확인 하 고 @contoso와 같은 지원 되지 않는 도메인 접미사를 사용 하는 것이 좋습니다. UPN 접미사를 변경 해야 하는 경우 [디렉터리 동기화를 위해 라우팅할 수 없는 도메인을 준비](https://support.office.com/article/e7968303-c234-46c4-b8b0-b5c93c6d57a7)하는 방법을 참조 하세요.
+온-프레미스 Active Directory를 Microsoft와 동기화 하려는 경우 Active Directory UPN (사용자 계정 이름) 접미사가 유효한 도메인 접미사 인지 확인 하 고 @contoso와 같은 지원 되지 않는 도메인 접미사를 사용 하는 것이 좋습니다. UPN 접미사를 변경 해야 하는 경우 [디렉터리 동기화를 위해 라우팅할 수 없는 도메인을 준비](https://docs.microsoft.com/office365/enterprise/prepare-a-non-routable-domain-for-directory-synchronization)하는 방법을 참조 하세요.
   
 > [!NOTE]
 >  일반적으로 DNS 변경 내용을 적용하는 데 15분 정도 걸립니다. 그러나 변경한 내용이 인터넷의 DNS 시스템 전체에 업데이트되는 데에는 시간이 오래 걸릴 수 있습니다. DNS 레코드를 추가한 후 메일 흐름이나 기타 문제가 있는 경우 [도메인 이름 또는 DNS 레코드 변경 후 발생한 문제 해결](../get-help-with-domains/find-and-fix-issues.md)을 참조하세요. 

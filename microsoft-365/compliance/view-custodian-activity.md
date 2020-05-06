@@ -15,13 +15,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: ''
-ms.openlocfilehash: bf4274106ce1724785c3ac38204f753cd7788a63
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: 고급 eDiscovery Custodian 관리 도구를 사용 하 여 사례 내에서 custodians에 대 한 활동을 쉽게 액세스 하 고 검색할 수 있습니다.
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 84da57c8f2115c18543d4f38fd84f2c4eccb46d5
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43626344"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034300"
 ---
 # <a name="view-custodian-audit-activity"></a>Custodian 감사 작업 보기
 
@@ -29,7 +30,7 @@ ms.locfileid: "43626344"
 
 ## <a name="before-you-begin"></a>시작하기 전에
 
-감사 로그를 검색 하려면 Exchange Online에서 보기 전용 감사 로그 또는 감사 로그 역할을 할당 받아야 합니다. 기본적으로 이러한 역할은 Exchange 관리 센터의 사용 권한 페이지에서 규정 준수 관리 및 조직 관리 역할 그룹에 할당됩니다. 사용자에 게 고급 eDiscovery 감사 로그에서 최소 권한 수준을 검색할 수 있는 기능을 제공 하기 위해 Exchange Online에서 사용자 지정 역할 그룹을 만들고 보기 전용 감사 로그 또는 감사 로그 역할을 추가한 다음 사용자를 새 역할 그룹의 구성원으로 추가할 수 있습니다. 자세한 내용은 Exchange Online에서 역할 그룹 관리를 참조하세요.
+감사 로그를 검색하려면 Exchange Online에서 보기 전용 감사 로그 또는 감사 로그 역할이 할당되어야 합니다. 기본적으로 이러한 역할은 Exchange 관리 센터의 사용 권한 페이지에서 규정 준수 관리 및 조직 관리 역할 그룹에 할당됩니다. 사용자에 게 고급 eDiscovery 감사 로그에서 최소 권한 수준을 검색할 수 있는 기능을 제공 하기 위해 Exchange Online에서 사용자 지정 역할 그룹을 만들고 보기 전용 감사 로그 또는 감사 로그 역할을 추가한 다음 사용자를 새 역할 그룹의 구성원으로 추가할 수 있습니다. 자세한 내용은 Exchange Online에서 역할 그룹 관리를 참조하세요.
 
 > [!IMPORTANT]
 > 보안 & 준수 센터의 사용 권한 페이지에서 사용자에 게 보기 전용 감사 로그 또는 감사 로그 역할을 할당 하면 감사 로그를 검색할 수 없게 됩니다. Exchange Online에서 사용 권한을 할당해야 합니다. 감사 로그를 검색하는 데 사용되는 기본 cmdlet이 Exchange Online cmdlet이기 때문입니다.

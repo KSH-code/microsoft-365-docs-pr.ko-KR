@@ -1,5 +1,5 @@
 ---
-title: Office 365 Advanced Threat Protection 계획 2의 위협 조사 및 응답 기능
+title: 위협 조사 & 응답 기능-Office 365 ATP 계획 2
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -16,13 +16,15 @@ search.appverid:
 ms.assetid: 32405da5-bee1-4a4b-82e5-8399df94c512
 ms.collection:
 - M365-security-compliance
-description: Office 365 Advanced Threat Protection의 위협 인텔리전스 기능을 통해 조직에 대 한 위협을 조사 하 고, 맬웨어, 피싱 및 기타 공격에 대처 하 고 사용자를 대신 하 여 Microsoft 365에서 검색 한 기타 공격과 위협 지표를 검색 하는 데 도움을 얻을 수 있습니다.
-ms.openlocfilehash: 9d89e84cc50b82b8cc5f2fe4e0e5ad6f4f85b091
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom:
+- seo-marvel-apr2020
+description: Office 365 Advanced Threat Protection 계획의 위협 조사 및 응답 기능에 대해 알아봅니다.
+ms.openlocfilehash: 61b08dc2b77c874e255547b2bcaef596ee017bf4
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634523"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44033941"
 ---
 # <a name="threat-investigation-and-response"></a>위협 조사 및 응답
 

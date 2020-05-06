@@ -1,5 +1,5 @@
 ---
-title: 중복에 가까운 검색
+title: 중복 검색-데이터 조사
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -15,13 +15,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: ''
-ms.openlocfilehash: e1a9ffe264925911f475732ffd98a43fa533e458
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: 데이터 조사를 관리할 때는 사례 데이터를 분석할 때 근접 중복 검색을 사용 하 여 여러 사람에 게 유사한 문서를 그룹화 합니다.
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: aa451051c008f7a1614661d3bd66129cac6bb4ad
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42071305"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036433"
 ---
 # <a name="near-duplicate-detection"></a>중복에 가까운 검색
 

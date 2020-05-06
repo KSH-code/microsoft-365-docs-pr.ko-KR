@@ -1,5 +1,5 @@
 ---
-title: 테마
+title: 테마-eDiscovery
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -15,13 +15,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: ''
-ms.openlocfilehash: 5de5a67c320a64d627baf204fe4b2ad051c9f452
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: 고급 eDiscovery에서 테마를 사용 하 여 각 문서에서 기준 테마를 찾아서 검토 집합을 구성 합니다.
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: eb008e091cd8c8330d1cdd5b388e252af70922da
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42069545"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034522"
 ---
 # <a name="themes"></a>테마
 

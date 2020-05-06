@@ -17,13 +17,14 @@ search.appverid:
 ms.assetid: e3c6df61-8513-499d-ad8e-8a91770bff63
 ms.collection:
 - M365-security-compliance
-description: SharePoint Online의 바이러스 백신 보호에 대해 알아봅니다.
-ms.openlocfilehash: f04cd18bb4880ab631816c90b4976beada436225
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: 사용자가 업로드 하 고 사용자가 파일을 다운로드 하거나 동기화 하지 못하게 하는 파일에서 SharePoint Online이 바이러스를 감지 하는 방법에 대해 알아봅니다.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 6a47f52a30f90d7a19cc01dc9e14eb9b534ec244
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43630944"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034953"
 ---
 # <a name="virus-detection-in-sharepoint-online"></a>SharePoint Online에서의 바이러스 탐지
 

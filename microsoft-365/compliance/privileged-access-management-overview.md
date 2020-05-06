@@ -14,15 +14,17 @@ search.appverid:
 ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
-ms.custom: Ent_Solutions
+ms.custom:
+- Ent_Solutions
+- seo-marvel-apr2020
 ms.assetid: ''
-description: 이 항목을 사용 하 여 권한 있는 액세스 관리에 대해 자세히 알아보세요.
-ms.openlocfilehash: 932e4d5574ac14c7dd76f8df70b61ed274acebbf
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: 이 문서에서는 Faq (질문과 대답)에 대 한 답변을 포함 하 여 Microsoft 365의 권한이 부여 된 액세스 관리에 대 한 개요를 제공 합니다.
+ms.openlocfilehash: eb5fe5320c061d40f0882f93b66afa3cad4fa0fa
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43626504"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036041"
 ---
 # <a name="privileged-access-management"></a>권한이 부여된 액세스 관리
 
@@ -70,7 +72,7 @@ ms.locfileid: "43626504"
 
 ![4 단계: 액세스 처리](../media/pam-step4-access-processing.jpg)
 
-## <a name="frequently-asked-questions"></a>자주하는 질문
+## <a name="frequently-asked-questions"></a>자주 묻는 질문
 
 ### <a name="what-skus-can-use-privileged-access-in-office-365"></a>Office 365에서 어떤 Sku가 권한 있는 액세스를 사용할 수 있나요?
 

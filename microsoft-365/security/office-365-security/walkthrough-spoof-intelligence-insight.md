@@ -16,13 +16,14 @@ search.appverid:
 ms.assetid: 59a3ecaf-15ed-483b-b824-d98961d88bdd
 ms.collection:
 - M365-security-compliance
-description: 스푸핑 인텔리전스 통찰력은 Office 365 Advanced Threat Protection에서 작동 하는 방법을 참조 하세요.
-ms.openlocfilehash: 4ad3de8812e09b73018c02232e3e66e4bec9d041
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: 인증 되지 않은 전자 메일을 합법적으로 전송 하는 보낸 사람을 빠르게 확인 하는 방법을 포함 하 여 새로운 스푸핑 인텔리전스 통찰력의 작동 방식을 알아봅니다.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 481d248b833c7910152cd39113ff32fdc1217a5a
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43630932"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44033647"
 ---
 # <a name="walkthrough---atp-spoof-intelligence-insight-in-microsoft-365"></a>Microsoft 365의 연습-ATP 스푸핑 인텔리전스 정보
 
@@ -34,15 +35,15 @@ Microsoft 365 조직에서 ATP (Advanced Threat Protection)를 사용 하는 경
 
 ## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용은 무엇인가요?
 
-- <https://protection.office.com/>에서 보안 및 준수 센터를 엽니다. **보안 대시보드** 페이지로 바로 이동 하려면을 사용 <https://protection.office.com/searchandinvestigation/dashboard>합니다.
+- <https://protection.office.com/>에서 보안 및 규정 준수 센터를 엽니다. **보안 대시보드** 페이지로 바로 이동 하려면을 사용 <https://protection.office.com/searchandinvestigation/dashboard>합니다.
 
   보안 & 준수 센터에서 둘 이상의 대시보드에서 스푸핑 인텔리전스 정보를 볼 수 있습니다. 현재 보고 있는 대시보드에 상관 없이, 통찰력은 동일한 세부 정보를 제공 하며 동일한 작업을 빠르게 수행할 수 있도록 합니다.
 
-- 이 절차를 수행하려면 먼저 사용 권한을 할당 받아야 합니다. 스푸핑 인텔리전스 통찰력을 사용 하려면 **조직 관리**, **보안 관리자**또는 **보안 독자** 역할 그룹의 구성원 이어야 합니다. 보안 & 준수 센터의 역할 그룹에 대 한 자세한 내용은 [보안 & 준수 센터의 사용 권한을](permissions-in-the-security-and-compliance-center.md)참조 하세요.
+- 이 절차를 수행하려면 먼저 사용 권한을 할당받아야 합니다. 스푸핑 인텔리전스 통찰력을 사용 하려면 **조직 관리**, **보안 관리자**또는 **보안 독자** 역할 그룹의 구성원 이어야 합니다. 보안 및 규정 준수 센터의 역할 그룹에 대한 자세한 내용은 [보안 및 규정 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)을 참조하세요.
 
 - ATP 피싱 방지 정책에서 스푸핑 인텔리전스를 사용 하도록 설정 하 고 사용 하지 않도록 설정 합니다. 자세한 내용은 [Microsoft 365에서 ATP 피싱 방지 정책 구성을](configure-atp-anti-phishing-policies.md)참조 하세요.
 
-- Exchange Online 사서함이 있는 Microsoft 365 조직 및 독립 실행형 EOP (Exchange Online Protection)에서 Exchange Online 사서함이 없는 경우 스푸핑 인텔리전스를 사용 하 여 인증 되지 않은 메시지를 보내는 보낸 사람을 모니터링 하 고 관리할 수 있습니다. 자세한 내용은 [Microsoft 365에서 스푸핑 인텔리전스를 구성](learn-about-spoof-intelligence.md)합니다 .를 참조 하십시오.
+- Exchange Online 사서함이 있는 Microsoft 365 조직 및 독립 실행형 EOP (Exchange Online Protection)에서 Exchange Online 사서함이 없는 경우 스푸핑 인텔리전스를 사용 하 여 인증 되지 않은 메시지를 보내는 보낸 사람을 모니터링 하 고 관리할 수 있습니다. 자세한 내용은 [Microsoft 365에 스푸핑 인텔리전스 구성](learn-about-spoof-intelligence.md)을 참조하세요.
 
 ## <a name="open-the-spoof-intelligence-insight-in-the-security--compliance-center"></a>보안 & 준수 센터에서 스푸핑 인텔리전스 통찰력을 엽니다.
 

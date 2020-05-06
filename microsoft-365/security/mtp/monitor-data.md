@@ -1,6 +1,6 @@
 ---
-title: Microsoft 365 보안 센터의 데이터 모니터링 및 보고 기능
-description: 승인 되지 않은 데이터 노출을 유발할 수 있는 사용자 작업을 추적 하는 방법에 대해 설명 합니다.
+title: 데이터 모니터링 & 보고-보안 센터
+description: Microsoft 365 보안 센터에서 무단 데이터 노출을 유발할 수 있는 사용자 활동을 추적 하는 방법에 대해 알아봅니다.
 keywords: 보안, 맬웨어, Microsoft 365, M365, 보안 센터, 모니터, 보고서, 데이터
 ms.prod: microsoft-365-enterprise
 ms.mktglfcycl: deploy
@@ -14,12 +14,13 @@ audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
 search.appverid: met150
-ms.openlocfilehash: 271cd4d3379239073a6f16c5253fc26da87d8605
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: f9bb0a7d0ce7def52089ec64a35edc5a2475b342
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637095"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034013"
 ---
 # <a name="data-monitoring-and-reporting-in-the-microsoft-365-security-center"></a>Microsoft 365 보안 센터의 데이터 모니터링 및 보고 기능
 

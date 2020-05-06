@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Microsoft 365 Enterprise에 대한 엔터프라이즈용 Microsoft 365 앱 인프라를 배포하는 단계입니다.
-ms.openlocfilehash: fe29b8025a8ccf5babf2c52cd62ebc72860a8a5c
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 5143ef8872a7ebd119e77c6148288828a39e20d9
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631432"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011950"
 ---
 # <a name="phase-4-microsoft-365-apps-for-enterprise"></a>4단계: 엔터프라이즈용 Microsoft 365 앱
 
@@ -28,7 +28,7 @@ ms.locfileid: "43631432"
 
 *이 단계는 E3 및 E5 버전의 Microsoft 365 Enterprise 및 Microsoft 365 Education에 적용됩니다.*
 
-Microsoft 365 Enterprise에는 Office 구독 버전인 엔터프라이즈용 Microsoft 365 앱이 포함되어 있습니다. Office 2019와 같이 엔터프라이즈용 Microsoft 365 앱에는 모든 Office 응용 프로그램이 포함되어 있으며, 이러한 응용 프로그램은 클라이언트 장치에 직접 설치됩니다. Office 2019와 달리 엔터프라이즈용 Microsoft 365 앱은 정기적으로 새로운 기능으로 업데이트되며, 사용자가 여러 장치에 Office를 설치할 수 있도록 하는 사용자 기반 라이선싱 모델이 있습니다. 자세한 내용은 [기업에서의 엔터프라이즈용 Microsoft 365 앱](https://docs.microsoft.com/deployoffice/about-office-365-proplus-in-the-enterprise)을 참조하세요.
+Microsoft 365 Enterprise에는 Office 구독 버전인 엔터프라이즈용 Microsoft 365 앱이 포함되어 있습니다. Office 2019와 같이 엔터프라이즈용 Microsoft 365 앱에는 모든 Office 응용 프로그램이 포함되어 있으며, 이러한 응용 프로그램은 클라이언트 장치에 직접 설치됩니다. Office 2019와 달리 엔터프라이즈용 Microsoft 365 앱은 정기적으로 새로운 기능으로 업데이트되며, 사용자가 여러 장치에 Office를 설치할 수 있도록 하는 사용자 기반 라이선싱 모델이 있습니다. 자세한 내용은 [엔터프라이즈용 Microsoft 365 앱](https://docs.microsoft.com/deployoffice/about-microsoft-365-apps)을 참조하세요.
 
 이 단계에서는 Microsoft 365 Enterprise의 일부로 클라이언트 장치에 엔터프라이즈용 Microsoft 365 앱을 설치합니다. 이 지침 외에도 배포에 도움이 되는 [Microsoft Fastrack](https://fasttrack.microsoft.com/office)을 사용하는 것이 좋습니다. 
 
@@ -40,32 +40,32 @@ Microsoft 365 Enterprise에는 Office 구독 버전인 엔터프라이즈용 Mic
 
 ## <a name="step-1-assess-your-environment"></a>1단계: 환경 평가
 
-엔터프라이즈용 Microsoft 365 앱을 배포하기 전에 [엔터프라이즈용 Microsoft 365 앱을 배포하기 위한 사용자 환경 및 요구 사항 평가](https://docs.microsoft.com/DeployOffice/assess-office-365-proplus)의 지침을 따르세요. 이 평가에는 시스템 요구 사항, 클라이언트 장치 정보(예: 아키텍처 및 필요한 언어), 라이선스 요구 사항, 네트워크 기능 및 응용 프로그램 호환성이 포함됩니다. 평가를 완료하면 배포 계획의 일부로 주요 결정을 내릴 수 있습니다.
+엔터프라이즈용 Microsoft 365 앱을 배포하기 전에 [Microsoft 365 앱을 배포하기 위한 사용자 환경 및 요구 사항 평가](https://docs.microsoft.com/DeployOffice/assess-microsoft-365-apps)의 지침을 따르세요. 이 평가에는 시스템 요구 사항, 클라이언트 장치 정보(예: 아키텍처 및 필요한 언어), 라이선스 요구 사항, 네트워크 기능 및 응용 프로그램 호환성이 포함됩니다. 평가를 완료하면 배포 계획의 일부로 주요 결정을 내릴 수 있습니다.
 
 ## <a name="step-2-plan-your-deployment"></a>2단계: 배포 계획
 
-사용자 환경을 평가한 후에는 [엔터프라이즈용 Microsoft 365 앱 배포 계획](https://docs.microsoft.com/DeployOffice/plan-office-365-proplus)의 지침에 따라 배포 계획을 만듭니다. 이 계획에는 다음과 같은 의사 결정이 포함됩니다. 
+사용자 환경을 평가한 후에는 [Microsoft 365 앱 배포 계획](https://docs.microsoft.com/DeployOffice/plan-microsoft-365-apps)의 지침에 따라 배포 계획을 만듭니다. 이 계획에는 다음과 같은 의사 결정이 포함됩니다. 
 
 - 사용할 도구(예: Microsoft Endpoint Configuration Manager 또는 Office 배포 도구) 및 Office 설치 위치 등 Office를 배포하는 방법
 - Office에 대한 업데이트를 관리하는 방법
 - 사용할 업데이트 채널(Office의 업데이트 채널에 따라 사용자에게 Office 응용 프로그램에 대한 기능 업데이트가 제공되는 빈도가 달라짐)
 - 어떤 사용자에게 어떤 Office 응용 프로그램 및 언어를 설치해야 하는지를 포함하여 사용할 Office 설치 패키지 및 배포 그룹
 
-[계획 문서](https://docs.microsoft.com/DeployOffice/plan-office-365-proplus)에는 배포 관리, 업데이트 관리, 설치 패키지 정의, 배포 그룹 만들기 등 이러한 모든 옵션에 대한 모범 사례가 포함되어 있습니다. 
+[계획 문서](https://docs.microsoft.com/DeployOffice/plan-microsoft-365-apps)에는 배포 관리, 업데이트 관리, 설치 패키지 정의, 배포 그룹 만들기 등 이러한 모든 옵션에 대한 모범 사례가 포함되어 있습니다. 
 
 ## <a name="step-3-deploy"></a>3단계: 배포
 
 배포 계획에 따라 배포할 방법을 선택합니다.
 
-- **[Configuration Manager를 사용하여 엔터프라이즈용 Microsoft 365 앱 배포](https://docs.microsoft.com/deployoffice/deploy-office-365-proplus-with-system-center-configuration-manager):** Configuration Manager를 사용하여 배포를 관리하고, 네트워크의 배포 지점에서 Office를 다운로드하여 배포합니다.
+- **[Configuration Manager를 사용하여 Microsoft 365 앱 배포](https://docs.microsoft.com/deployoffice/deploy-microsoft-365-apps-configuration-manager):** Configuration Manager를 사용하여 배포를 관리하고, 네트워크의 배포 지점에서 Office를 다운로드하여 배포합니다.
 
-- **[클라우드에서 ODT를 사용하여 엔터프라이즈용 Microsoft 365 앱 배포](https://docs.microsoft.com/deployoffice/deploy-office-365-proplus-from-the-cloud):** ODT를 사용하여 배포를 관리하고 Office CDN에서 직접 클라이언트 장치에 Office 설치합니다.
+- **[클라우드에서 ODT를 사용하여 Microsoft 365 앱 배포](https://docs.microsoft.com/deployoffice/deploy-microsoft-365-apps-cloud):** ODT를 사용하여 배포를 관리하고 Office CDN에서 직접 클라이언트 장치에 Office 설치합니다.
  
 - **[Office 포털에서 엔터프라이즈용 Microsoft 365 앱 자가 설치](https://docs.microsoft.com/deployoffice/manage-software-download-settings-office-365):** Office 포털에서 배포를 관리하고 사용자가 포털에서 직접 클라이언트 장치에 Office를 설치하도록 합니다.
 
 대부분의 조직에서는 다양한 사용자에 대해 이러한 옵션의 조합을 사용합니다. 예를 들어 조직에서는 Configuration Manager를 사용하여 대부분의 사용자에게 Office를 배포하지만 내부 네트워크에 자주 연결되지 않는 소규모 작업 그룹을 위해 자가 설치를 사용할 수 있습니다. 
 
-조직에서 Configuration Manager를 사용하는 경우 현재 분기로 업그레이드하고 현재 릴리스로 업데이트하는 것이 좋습니다. 자세한 내용은 [사용해야 하는 Configuration Manager 분기](https://docs.microsoft.com/configmgr/core/understand/which-branch-should-i-use)를 참조하세요.
+조직에서 Configuration Manager를 사용하는 경우 현재 분기로 업그레이드하고 현재 릴리스로 업데이트하는 것이 좋습니다. 자세한 내용은 [사용해야 하는 Configuration Manager 분기](https://docs.microsoft.com/mem/configmgr/core/understand/which-branch-should-i-use)를 참조하세요.
 
 ## <a name="how-microsoft-does-microsoft-365-enterprise"></a>Microsoft에서 Microsoft 365 Enterprise를 수행하는 방법
 

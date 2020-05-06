@@ -20,12 +20,12 @@ search.appverid:
 - GEA150
 ms.assetid: 2c4cf347-b897-45c1-a71f-210bdc8f1061
 description: Microsoft가 사용자 지정 도메인에 대 한 DNS 레코드를 관리 하도록 설정한 경우 Microsoft 외부에서 호스트 되는 기존 공개 웹 사이트로 트래픽을 라우팅하는 방법을 알아봅니다.
-ms.openlocfilehash: 08a4e505f4e2a50b3e92cae00b62415e6d02551f
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 58b58479a2c880cc0193058abc328cc5feea4af1
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43629122"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44048834"
 ---
 # <a name="update-dns-records-to-keep-your-website-with-your-current-hosting-provider"></a>DNS 레코드를 업데이트하여 현재 호스팅 공급자에 웹 사이트 유지
 
@@ -64,7 +64,7 @@ ms.locfileid: "43629122"
     
 끝으로 다음을 실행합니다.
   
-Microsoft를 가리키도록 [도메인의 NS 레코드를 업데이트 합니다](https://support.office.com/article/a46bec33-2c78-4f45-a96c-b64b2a5bae22.aspx) . 
+Microsoft를 가리키도록 [도메인의 NS 레코드를 업데이트 합니다](https://docs.microsoft.com/microsoft-365/admin/get-help-with-domains/set-up-your-domain-host-specific-instructions) . 
   
 Microsoft를 가리키도록 NS 레코드를 업데이트 하면 도메인은 모두 설정 됩니다. 전자 메일이 Microsoft로 라우팅되고, 웹 사이트 주소에 대 한 트래픽은 계속 해 서 현재 웹 사이트 호스트로 이동 합니다.
  
