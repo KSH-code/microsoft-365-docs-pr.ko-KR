@@ -1,5 +1,5 @@
 ---
-title: 테마
+title: 테마-데이터 조사
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -15,18 +15,19 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: ''
-ms.openlocfilehash: 4460faebf5bc138eb72e583c154ee6ee9d70c294
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: 데이터 조사 중에 테마를 사용 하 여 일반적인 아이디어나 개념을 검색 하 여 문서를 구성 합니다.
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: e05210036ce2db0a06b6450a611908cf2de24f19
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42080915"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034512"
 ---
-# <a name="themes"></a><span data-ttu-id="b410f-102">테마</span><span class="sxs-lookup"><span data-stu-id="b410f-102">Themes</span></span>
+# <a name="themes"></a><span data-ttu-id="637c7-103">테마</span><span class="sxs-lookup"><span data-stu-id="637c7-103">Themes</span></span>
 
-<span data-ttu-id="b410f-103">다른 사용자가 문서를 작성할 때는 임의로 단어를 선택 하지 않습니다. 이러한 사용자는 몇 가지 아이디어나 개념을 전달 하려고 하며 그에 따라 단어를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="b410f-103">When someone composes a document, they do not choose words randomly; they are trying to convey some ideas or concepts, and the words are chosen accordingly.</span></span> <span data-ttu-id="b410f-104">Themes 모듈 유사한 주제에 대해 설명 하는 문서를 클러스터 하 여 검토자가 문서를 보다 효율적으로 사용할 수 있도록 합니다.</span><span class="sxs-lookup"><span data-stu-id="b410f-104">Themes modules clusters documents that discuss similar subject matters so that reviewers can be more efficient in going through documents.</span></span>
+<span data-ttu-id="637c7-104">다른 사용자가 문서를 작성할 때는 임의로 단어를 선택 하지 않습니다. 이러한 사용자는 몇 가지 아이디어나 개념을 전달 하려고 하며 그에 따라 단어를 선택 합니다.</span><span class="sxs-lookup"><span data-stu-id="637c7-104">When someone composes a document, they do not choose words randomly; they are trying to convey some ideas or concepts, and the words are chosen accordingly.</span></span> <span data-ttu-id="637c7-105">Themes 모듈 유사한 주제에 대해 설명 하는 문서를 클러스터 하 여 검토자가 문서를 보다 효율적으로 사용할 수 있도록 합니다.</span><span class="sxs-lookup"><span data-stu-id="637c7-105">Themes modules clusters documents that discuss similar subject matters so that reviewers can be more efficient in going through documents.</span></span>
 
-## <a name="how-does-themes-work"></a><span data-ttu-id="b410f-105">테마는 어떻게 작동 하나요?</span><span class="sxs-lookup"><span data-stu-id="b410f-105">How does Themes work?</span></span>
+## <a name="how-does-themes-work"></a><span data-ttu-id="637c7-106">테마는 어떻게 작동 하나요?</span><span class="sxs-lookup"><span data-stu-id="637c7-106">How does Themes work?</span></span>
 
-<span data-ttu-id="b410f-106">테마는 작업 집합의 텍스트로 문서를 분석 하 여 문서 전체에 표시 되는 일반 테마를 구문 분석 합니다.</span><span class="sxs-lookup"><span data-stu-id="b410f-106">Themes analyzes documents with text in a working set to parse out common themes that appear across the documents.</span></span> <span data-ttu-id="b410f-107">그런 다음 해당 테마를 표시 되는 문서에 할당 합니다.</span><span class="sxs-lookup"><span data-stu-id="b410f-107">Then, it assigns those themes to the documents in which they appear.</span></span> <span data-ttu-id="b410f-108">또한 테마를 대표 하는 문서에 사용 되는 각 단어에 레이블을 붙입니다.</span><span class="sxs-lookup"><span data-stu-id="b410f-108">It also labels each with words used in the documents that are representative of the theme.</span></span> <span data-ttu-id="b410f-109">문서는 여러 주제에 대 한 정보 일 수 있으므로 대부분의 경우 문서에 둘 이상의 테마가 할당 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b410f-109">Since a document can be about more than one subject matter, in many cases a document has more than one themes assigned to it.</span></span> <span data-ttu-id="b410f-110">문서에서 가장 두드러지게 표시 되는 테마는 기준 테마로 지정 됩니다.</span><span class="sxs-lookup"><span data-stu-id="b410f-110">The theme that appears most prominently in a document is designated as its dominant theme.</span></span>
+<span data-ttu-id="637c7-107">테마는 작업 집합의 텍스트로 문서를 분석 하 여 문서 전체에 표시 되는 일반 테마를 구문 분석 합니다.</span><span class="sxs-lookup"><span data-stu-id="637c7-107">Themes analyzes documents with text in a working set to parse out common themes that appear across the documents.</span></span> <span data-ttu-id="637c7-108">그런 다음 해당 테마를 표시 되는 문서에 할당 합니다.</span><span class="sxs-lookup"><span data-stu-id="637c7-108">Then, it assigns those themes to the documents in which they appear.</span></span> <span data-ttu-id="637c7-109">또한 테마를 대표 하는 문서에 사용 되는 각 단어에 레이블을 붙입니다.</span><span class="sxs-lookup"><span data-stu-id="637c7-109">It also labels each with words used in the documents that are representative of the theme.</span></span> <span data-ttu-id="637c7-110">문서는 여러 주제에 대 한 정보 일 수 있으므로 대부분의 경우 문서에 둘 이상의 테마가 할당 되어 있습니다.</span><span class="sxs-lookup"><span data-stu-id="637c7-110">Since a document can be about more than one subject matter, in many cases a document has more than one themes assigned to it.</span></span> <span data-ttu-id="637c7-111">문서에서 가장 두드러지게 표시 되는 테마는 기준 테마로 지정 됩니다.</span><span class="sxs-lookup"><span data-stu-id="637c7-111">The theme that appears most prominently in a document is designated as its dominant theme.</span></span>

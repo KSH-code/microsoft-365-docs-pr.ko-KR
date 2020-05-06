@@ -22,6 +22,8 @@
       items:
         - name: 내부자 위험 관리에 대해 알아보기
           href: insider-risk-management.md
+        - name: 내부자 위험 관리 계획
+          href: insider-risk-management-plan.md
         - name: 내부자 위험 관리 시작
           href: insider-risk-management-configure.md
         - name: 내부자 위험 정책 만들기 및 관리
@@ -285,8 +287,8 @@
           href: automate-event-driven-retention.md
         - name: SharePoint 문서의 수명 주기 관리
           href: auto-apply-retention-labels-scenario.md
-    - name: 데이터 삭제
-      href: disposition-reviews.md
+    - name: 데이터 폐기
+      href: disposition.md
     - name: 비활성 사서함 관리
       items:
         - name: 비활성 사서함 개요
@@ -340,7 +342,7 @@
             - name: 이벤트 기반 보존 자동화
               href: automate-event-driven-retention.md
         - name: 폐기
-          href: disposition-reviews.md
+          href: disposition.md
         - name: 레코드 관리에 대한 자세한 정보
           items:
             - name: 레코드 관리에 대한 비디오 보기

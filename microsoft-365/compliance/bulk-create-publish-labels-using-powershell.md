@@ -15,43 +15,45 @@ localization_priority: Priority
 search.appverid:
 - MOE150
 - MET150
-description: Office 365에서 보존 레이블을 사용하여 조직의 보존 일정을 구현할 수 있습니다. 제공된 스크립트와 .csv 파일을 사용하면 보존 레이블 및 보존 레이블 정책을 PowerShell을 사용하여 대량으로 만들고 게시할 수 있습니다.
-ms.openlocfilehash: 055bc785c492e2fa37bc60ce4e383f79111c551a
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom:
+- seo-marvel-apr2020
+description: PowerShell을 사용하여 Office 365 보존 레이블을 사용하여 조직의 보존 일정을 구현하는 방법을 알아봅니다.
+ms.openlocfilehash: 01ec0758abc0580aadb6f0fce623e449ec31c853
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636356"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035536"
 ---
-# <a name="bulk-create-and-publish-retention-labels-by-using-powershell"></a><span data-ttu-id="b13a6-104">PowerShell을 사용하여 보존 레이블 대량 생성 및 게시</span><span class="sxs-lookup"><span data-stu-id="b13a6-104">Bulk create and publish retention labels by using PowerShell</span></span>
+# <a name="bulk-create-and-publish-retention-labels-by-using-powershell"></a><span data-ttu-id="36d5a-103">PowerShell을 사용하여 보존 레이블 대량 생성 및 게시</span><span class="sxs-lookup"><span data-stu-id="36d5a-103">Bulk create and publish retention labels by using PowerShell</span></span>
 
-><span data-ttu-id="b13a6-105">*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](https://aka.ms/ComplianceSD)*</span><span class="sxs-lookup"><span data-stu-id="b13a6-105">*[Microsoft 365 licensing guidance for security & compliance](https://aka.ms/ComplianceSD).*</span></span>
+><span data-ttu-id="36d5a-104">*[보안 및 규정 준수를 위한 Microsoft 365 라이선싱 지침](https://aka.ms/ComplianceSD)*</span><span class="sxs-lookup"><span data-stu-id="36d5a-104">*[Microsoft 365 licensing guidance for security & compliance](https://aka.ms/ComplianceSD).*</span></span>
 
-<span data-ttu-id="b13a6-p102">Office 365에서 보존 레이블을 사용하여 조직의 보존 일정을 구현할 수 있습니다. 레코드 관리자 또는 준수 담당자는 수백 개의 보존 레이블을 만들고 게시해야 할 수 있습니다. 보안 &amp; 준수 센터에서 UI를 통해 이 작업을 수행할 수 있지만, 한 번에 하나씩 보존 레이블을 만드는 경우 시간이 오래 걸리고 비효율적입니다.</span><span class="sxs-lookup"><span data-stu-id="b13a6-p102">In Office 365, you can use retention labels to implement a retention schedule for your organization. As a record manager or compliance officer, you might have hundreds of retention labels to create and publish. You can do this through the UI in the Security &amp; Compliance Center, but creating retention labels one at a time is time-consuming and inefficient.</span></span>
+<span data-ttu-id="36d5a-p101">Office 365에서 보존 레이블을 사용하여 조직의 보존 일정을 구현할 수 있습니다. 레코드 관리자 또는 준수 담당자는 수백 개의 보존 레이블을 만들고 게시해야 할 수 있습니다. 보안 &amp; 준수 센터에서 UI를 통해 이 작업을 수행할 수 있지만, 한 번에 하나씩 보존 레이블을 만드는 경우 시간이 오래 걸리고 비효율적입니다.</span><span class="sxs-lookup"><span data-stu-id="36d5a-p101">In Office 365, you can use retention labels to implement a retention schedule for your organization. As a record manager or compliance officer, you might have hundreds of retention labels to create and publish. You can do this through the UI in the Security &amp; Compliance Center, but creating retention labels one at a time is time-consuming and inefficient.</span></span>
   
-<span data-ttu-id="b13a6-109">아래에 제공된 스크립트와 .csv 파일을 사용하면 보존 레이블을 대량으로 만들고 및 보존 레이블 정책을 게시할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b13a6-109">By using the script and .csv files provided below, you can bulk create retention labels and publish retention label policies.</span></span> <span data-ttu-id="b13a6-110">먼저 Excel에서 보존 레이블 목록과 보존 레이블 정책 목록을 만든 다음 PowerShell을 사용하여 해당 목록에 보존 레이블 및 보존 레이블 정책을 대량으로 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="b13a6-110">First you create a list of the retention labels and a list of the retention label policies in Excel, and then you use PowerShell to bulk create the retention labels and retention label policies in those lists.</span></span> <span data-ttu-id="b13a6-111">이렇게 하면 보존 일정에 필요한 모든 보존 레이블을 한 번에 더 쉽게 만들고 게시할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b13a6-111">This makes it easier to create and publish all of the retention labels that your retention schedule requires at one time.</span></span>
+<span data-ttu-id="36d5a-108">아래에 제공된 스크립트와 .csv 파일을 사용하면 보존 레이블을 대량으로 만들고 및 보존 레이블 정책을 게시할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="36d5a-108">By using the script and .csv files provided below, you can bulk create retention labels and publish retention label policies.</span></span> <span data-ttu-id="36d5a-109">먼저 Excel에서 보존 레이블 목록과 보존 레이블 정책 목록을 만든 다음 PowerShell을 사용하여 해당 목록에 보존 레이블 및 보존 레이블 정책을 대량으로 만듭니다.</span><span class="sxs-lookup"><span data-stu-id="36d5a-109">First you create a list of the retention labels and a list of the retention label policies in Excel, and then you use PowerShell to bulk create the retention labels and retention label policies in those lists.</span></span> <span data-ttu-id="36d5a-110">이렇게 하면 보존 일정에 필요한 모든 보존 레이블을 한 번에 더 쉽게 만들고 게시할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="36d5a-110">This makes it easier to create and publish all of the retention labels that your retention schedule requires at one time.</span></span>
   
-<span data-ttu-id="b13a6-112">보존 레이블에 대한 자세한 내용은 [레이블 개요](labels.md)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="b13a6-112">For more information about retention labels, see [Overview of labels](labels.md).</span></span>
+<span data-ttu-id="36d5a-111">보존 레이블에 대한 자세한 내용은 [레이블 개요](labels.md)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="36d5a-111">For more information about retention labels, see [Overview of labels](labels.md).</span></span>
   
-## <a name="disclaimer"></a><span data-ttu-id="b13a6-113">고지 사항</span><span class="sxs-lookup"><span data-stu-id="b13a6-113">Disclaimer</span></span>
+## <a name="disclaimer"></a><span data-ttu-id="36d5a-112">고지 사항</span><span class="sxs-lookup"><span data-stu-id="36d5a-112">Disclaimer</span></span>
 
-<span data-ttu-id="b13a6-p104">이 항목에서 제공된 샘플 스크립트는 Microsoft 표준 지원 프로그램 또는 서비스에서는 지원되지 않습니다. 샘플 스크립트는 어떠한 보증도 없이 "있는 그대로" 제공됩니다. Microsoft는 묵시적인 모든 보증(상품성 또는 특정 목적에의 적합성에 대한 묵시적인 보증을 포함하되 이에 제한되지 않음)을 부인합니다. 샘플 스크립트 및 문서의 사용 또는 수행으로 인해 발생하는 모든 위험은 사용자의 책임입니다. 어떠한 경우에도 Microsoft, 스크립트 작성자 또는 스크립트의 작성, 생산 또는 제공과 관련된 사람은 누구나 샘플 스크립트 또는 문서의 사용 또는 사용 불가능으로 인해 발생하는 모든 손해(수익에 대한 손실, 비즈니스 중단, 비즈니스 정보 손실 또는 기타 금전상의 손실을 포함하되 이에 제한되지 않음)에 대해 책임지지 않습니다. 이는 Microsoft가 이러한 손해가 발생할 가능성에 대해 알고 있었더라고 마찬가지입니다.</span><span class="sxs-lookup"><span data-stu-id="b13a6-p104">The sample scripts provided in this topic aren't supported under any Microsoft standard support program or service. The sample scripts are provided AS IS without warranty of any kind. Microsoft further disclaims all implied warranties including, without limitation, any implied warranties of merchantability or of fitness for a particular purpose. The entire risk arising out of the use or performance of the sample scripts and documentation remains with you. In no event shall Microsoft, its authors, or anyone else involved in the creation, production, or delivery of the scripts be liable for any damages whatsoever (including, without limitation, damages for loss of business profits, business interruption, loss of business information, or other pecuniary loss) arising out of the use of or inability to use the sample scripts or documentation, even if Microsoft has been advised of the possibility of such damages.</span></span>
+<span data-ttu-id="36d5a-p103">이 항목에서 제공된 샘플 스크립트는 Microsoft 표준 지원 프로그램 또는 서비스에서는 지원되지 않습니다. 샘플 스크립트는 어떠한 보증도 없이 "있는 그대로" 제공됩니다. Microsoft는 묵시적인 모든 보증(상품성 또는 특정 목적에의 적합성에 대한 묵시적인 보증을 포함하되 이에 제한되지 않음)을 부인합니다. 샘플 스크립트 및 문서의 사용 또는 수행으로 인해 발생하는 모든 위험은 사용자의 책임입니다. 어떠한 경우에도 Microsoft, 스크립트 작성자 또는 스크립트의 작성, 생산 또는 제공과 관련된 사람은 누구나 샘플 스크립트 또는 문서의 사용 또는 사용 불가능으로 인해 발생하는 모든 손해(수익에 대한 손실, 비즈니스 중단, 비즈니스 정보 손실 또는 기타 금전상의 손실을 포함하되 이에 제한되지 않음)에 대해 책임지지 않습니다. 이는 Microsoft가 이러한 손해가 발생할 가능성에 대해 알고 있었더라고 마찬가지입니다.</span><span class="sxs-lookup"><span data-stu-id="36d5a-p103">The sample scripts provided in this topic aren't supported under any Microsoft standard support program or service. The sample scripts are provided AS IS without warranty of any kind. Microsoft further disclaims all implied warranties including, without limitation, any implied warranties of merchantability or of fitness for a particular purpose. The entire risk arising out of the use or performance of the sample scripts and documentation remains with you. In no event shall Microsoft, its authors, or anyone else involved in the creation, production, or delivery of the scripts be liable for any damages whatsoever (including, without limitation, damages for loss of business profits, business interruption, loss of business information, or other pecuniary loss) arising out of the use of or inability to use the sample scripts or documentation, even if Microsoft has been advised of the possibility of such damages.</span></span>
   
-## <a name="step-1-create-a-csv-file-for-creating-the-retention-labels"></a><span data-ttu-id="b13a6-119">1단계: 보존 레이블을 만들기 위한 .csv 파일 만들기</span><span class="sxs-lookup"><span data-stu-id="b13a6-119">Step 1: Create a .csv file for creating the retention labels</span></span>
+## <a name="step-1-create-a-csv-file-for-creating-the-retention-labels"></a><span data-ttu-id="36d5a-118">1단계: 보존 레이블을 만들기 위한 .csv 파일 만들기</span><span class="sxs-lookup"><span data-stu-id="36d5a-118">Step 1: Create a .csv file for creating the retention labels</span></span>
 
-<span data-ttu-id="b13a6-p105">먼저 보존 레이블 목록과 해당 설정이 포함된 .csv 파일을 만듭니다. 아래 샘플을 Excel에 복사하고 텍스트를 열로 변환(Excel \> **데이터** 탭 \> **텍스트 나누기** \> **구분** \> **쉼표** \> **일반**)한 다음 워크시트를 찾기 쉬운 위치에 .csv 파일로 저장하면 이 샘플을 서식 파일로 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b13a6-p105">First you create a .csv file that contains a list of your retention labels with their settings. You can use the sample below as a template by copying it into Excel, converting the text to columns (in Excel \> **Data** tab \> **Text to Columns** \> **Delimited** \> **Comma** \> **General**), and then saving the worksheet as a .csv file in a location that's easy to find.</span></span>
+<span data-ttu-id="36d5a-p104">먼저 보존 레이블 목록과 해당 설정이 포함된 .csv 파일을 만듭니다. 아래 샘플을 Excel에 복사하고 텍스트를 열로 변환(Excel \> **데이터** 탭 \> **텍스트 나누기** \> **구분** \> **쉼표** \> **일반**)한 다음 워크시트를 찾기 쉬운 위치에 .csv 파일로 저장하면 이 샘플을 서식 파일로 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="36d5a-p104">First you create a .csv file that contains a list of your retention labels with their settings. You can use the sample below as a template by copying it into Excel, converting the text to columns (in Excel \> **Data** tab \> **Text to Columns** \> **Delimited** \> **Comma** \> **General**), and then saving the worksheet as a .csv file in a location that's easy to find.</span></span>
   
-<span data-ttu-id="b13a6-122">이 cmdlet의 매개 변수 값에 대한 자세한 내용은 [New-ComplianceTag](https://go.microsoft.com/fwlink/?linkid=866511)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="b13a6-122">For more information about the parameter values for this cmdlet, see [New-ComplianceTag](https://go.microsoft.com/fwlink/?linkid=866511).</span></span>
+<span data-ttu-id="36d5a-121">이 cmdlet의 매개 변수 값에 대한 자세한 내용은 [New-ComplianceTag](https://go.microsoft.com/fwlink/?linkid=866511)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="36d5a-121">For more information about the parameter values for this cmdlet, see [New-ComplianceTag](https://go.microsoft.com/fwlink/?linkid=866511).</span></span>
   
-<span data-ttu-id="b13a6-123">참고:</span><span class="sxs-lookup"><span data-stu-id="b13a6-123">Notes:</span></span>
+<span data-ttu-id="36d5a-122">참고:</span><span class="sxs-lookup"><span data-stu-id="36d5a-122">Notes:</span></span>
   
-- <span data-ttu-id="b13a6-124">보존 레이블을 만들기 위한 원본 파일을 제공하지 않으면 스크립트가 그대로 진행하여 보존 레이블을 게시하기 위한 원본 파일을 묻는 메시지를 표시하고(다음 섹션 참조) 기존 보존 레이블만 게시합니다.</span><span class="sxs-lookup"><span data-stu-id="b13a6-124">If you don't provide a source file for creating retention labels, the script moves on and prompts you for the source file for publishing retention labels (see the next section), and the script will publish only existing retention labels.</span></span>
+- <span data-ttu-id="36d5a-123">보존 레이블을 만들기 위한 원본 파일을 제공하지 않으면 스크립트가 그대로 진행하여 보존 레이블을 게시하기 위한 원본 파일을 묻는 메시지를 표시하고(다음 섹션 참조) 기존 보존 레이블만 게시합니다.</span><span class="sxs-lookup"><span data-stu-id="36d5a-123">If you don't provide a source file for creating retention labels, the script moves on and prompts you for the source file for publishing retention labels (see the next section), and the script will publish only existing retention labels.</span></span>
     
-- <span data-ttu-id="b13a6-p106">이미 존재하는 보존 레이블과 동일한 이름을 가진 보존 레이블이 .csv 파일에 있을 경우 스크립트에서 해당 보존 레이블 생성을 건너뜁니다. 중복 보존 레이블은 생성되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="b13a6-p106">If the .csv file contains a retention label with the same name as one that already exists, the script skips creating that retention label. No duplicate retention labels are created.</span></span>
+- <span data-ttu-id="36d5a-p105">이미 존재하는 보존 레이블과 동일한 이름을 가진 보존 레이블이 .csv 파일에 있을 경우 스크립트에서 해당 보존 레이블 생성을 건너뜁니다. 중복 보존 레이블은 생성되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="36d5a-p105">If the .csv file contains a retention label with the same name as one that already exists, the script skips creating that retention label. No duplicate retention labels are created.</span></span>
     
-- <span data-ttu-id="b13a6-p107">열 머리글을 변경하거나 이름을 바꾸면 스크립트가 실패합니다. 여기에 제공된 형식의 .csv 파일이 스크립트에 필요합니다.</span><span class="sxs-lookup"><span data-stu-id="b13a6-p107">If you change or rename the column headers, the script will fail. The script requires a .csv file in the format provided here.</span></span>
+- <span data-ttu-id="36d5a-p106">열 머리글을 변경하거나 이름을 바꾸면 스크립트가 실패합니다. 여기에 제공된 형식의 .csv 파일이 스크립트에 필요합니다.</span><span class="sxs-lookup"><span data-stu-id="36d5a-p106">If you change or rename the column headers, the script will fail. The script requires a .csv file in the format provided here.</span></span>
     
-### <a name="sample-csv-file"></a><span data-ttu-id="b13a6-129">샘플 .csv 파일</span><span class="sxs-lookup"><span data-stu-id="b13a6-129">Sample .csv file</span></span>
+### <a name="sample-csv-file"></a><span data-ttu-id="36d5a-128">샘플 .csv 파일</span><span class="sxs-lookup"><span data-stu-id="36d5a-128">Sample .csv file</span></span>
 
 ```
 Name (Required),Comment (Optional),IsRecordLabel (Required),RetentionAction (Optional),RetentionDuration (Optional),RetentionType (Optional),ReviewerEmail (Optional)
@@ -61,23 +63,23 @@ LabelName_t_3,5 year delete,$false,Delete,1825,TaggedAgeInDays,
 LabelName_t_4,Record label tag - financial,$true,Keep,730,CreationAgeInDays,
 ```
 
-## <a name="step-2-create-a-csv-file-for-publishing-the-labels"></a><span data-ttu-id="b13a6-130">레이블을 게시하기 위한 .csv 파일 만들기</span><span class="sxs-lookup"><span data-stu-id="b13a6-130">Step 2: Create a .csv file for publishing the labels</span></span>
+## <a name="step-2-create-a-csv-file-for-publishing-the-labels"></a><span data-ttu-id="36d5a-129">레이블을 게시하기 위한 .csv 파일 만들기</span><span class="sxs-lookup"><span data-stu-id="36d5a-129">Step 2: Create a .csv file for publishing the labels</span></span>
 
-<span data-ttu-id="b13a6-p108">보존 레이블 정책 목록과 해당 위치 및 기타 설정이 포함된 .csv 파일을 만듭니다. 아래 샘플을 Excel에 복사하고 텍스트를 열로 변환(Excel \> **데이터** 탭 \> **텍스트 나누기** \> **구분** \> **쉼표** \> **일반**)한 다음 워크시트를 찾기 쉬운 위치에 .csv 파일로 저장하면 이 샘플을 서식 파일로 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="b13a6-p108">Next you create a .csv file that contains a list of retention label policies with their locations and other settings. You can use the sample below as a template by copying it into Excel, converting the text to columns (in Excel \> **Data** tab \> **Text to Columns** \> **Delimited** \> **Comma** \> **General**), and then saving the worksheet as a .csv file in a location that's easy to find.</span></span>
+<span data-ttu-id="36d5a-p107">보존 레이블 정책 목록과 해당 위치 및 기타 설정이 포함된 .csv 파일을 만듭니다. 아래 샘플을 Excel에 복사하고 텍스트를 열로 변환(Excel \> **데이터** 탭 \> **텍스트 나누기** \> **구분** \> **쉼표** \> **일반**)한 다음 워크시트를 찾기 쉬운 위치에 .csv 파일로 저장하면 이 샘플을 서식 파일로 사용할 수 있습니다.</span><span class="sxs-lookup"><span data-stu-id="36d5a-p107">Next you create a .csv file that contains a list of retention label policies with their locations and other settings. You can use the sample below as a template by copying it into Excel, converting the text to columns (in Excel \> **Data** tab \> **Text to Columns** \> **Delimited** \> **Comma** \> **General**), and then saving the worksheet as a .csv file in a location that's easy to find.</span></span>
   
-<span data-ttu-id="b13a6-133">이 cmdlet의 매개 변수 값에 대한 자세한 내용은 [New-RetentionCompliancePolicy](https://go.microsoft.com/fwlink/?linkid=866512)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="b13a6-133">For more information about the parameter values for this cmdlet, see [New-RetentionCompliancePolicy](https://go.microsoft.com/fwlink/?linkid=866512).</span></span>
+<span data-ttu-id="36d5a-132">이 cmdlet의 매개 변수 값에 대한 자세한 내용은 [New-RetentionCompliancePolicy](https://go.microsoft.com/fwlink/?linkid=866512)를 참조하세요.</span><span class="sxs-lookup"><span data-stu-id="36d5a-132">For more information about the parameter values for this cmdlet, see [New-RetentionCompliancePolicy](https://go.microsoft.com/fwlink/?linkid=866512).</span></span>
   
-<span data-ttu-id="b13a6-134">참고:</span><span class="sxs-lookup"><span data-stu-id="b13a6-134">Notes:</span></span>
+<span data-ttu-id="36d5a-133">참고:</span><span class="sxs-lookup"><span data-stu-id="36d5a-133">Notes:</span></span>
   
-- <span data-ttu-id="b13a6-135">보존 레이블을 게시하기 위한 원본 파일을 제공하지 않으면 스크립트에서 보존 레이블을 만들지만(이전 섹션 참조) 게시하지는 않습니다.</span><span class="sxs-lookup"><span data-stu-id="b13a6-135">If you don't provide a source file for publishing retention labels, the script creates retention labels (see the previous section) but doesn't publish them.</span></span>
+- <span data-ttu-id="36d5a-134">보존 레이블을 게시하기 위한 원본 파일을 제공하지 않으면 스크립트에서 보존 레이블을 만들지만(이전 섹션 참조) 게시하지는 않습니다.</span><span class="sxs-lookup"><span data-stu-id="36d5a-134">If you don't provide a source file for publishing retention labels, the script creates retention labels (see the previous section) but doesn't publish them.</span></span>
     
-- <span data-ttu-id="b13a6-p109">이미 존재하는 보존 레이블 정책과 동일한 이름을 가진 보존 레이블 정책이 .csv 파일에 있을 경우 스크립트에서 해당 보존 레이블 정책 생성을 건너뜁니다. 중복 보존 레이블 정책은 생성되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="b13a6-p109">If the .csv file contains a retention label policy with the same name as one that already exists, the script skips creating that retention label policy. No duplicate retention label policies are created.</span></span>
+- <span data-ttu-id="36d5a-p108">이미 존재하는 보존 레이블 정책과 동일한 이름을 가진 보존 레이블 정책이 .csv 파일에 있을 경우 스크립트에서 해당 보존 레이블 정책 생성을 건너뜁니다. 중복 보존 레이블 정책은 생성되지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="36d5a-p108">If the .csv file contains a retention label policy with the same name as one that already exists, the script skips creating that retention label policy. No duplicate retention label policies are created.</span></span>
     
-- <span data-ttu-id="b13a6-138">스크립트는 수동으로 콘텐츠에 적용된 보존 레이블만 게시합니다.</span><span class="sxs-lookup"><span data-stu-id="b13a6-138">The script publishes only retention labels that are applied manually to content.</span></span> <span data-ttu-id="b13a6-139">이 스크립트는 콘텐츠에 자동 적용된 보존 레이블을 지원하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="b13a6-139">This script doesn't support retention labels that are auto-applied to content.</span></span>
+- <span data-ttu-id="36d5a-137">스크립트는 수동으로 콘텐츠에 적용된 보존 레이블만 게시합니다.</span><span class="sxs-lookup"><span data-stu-id="36d5a-137">The script publishes only retention labels that are applied manually to content.</span></span> <span data-ttu-id="36d5a-138">이 스크립트는 콘텐츠에 자동 적용된 보존 레이블을 지원하지 않습니다.</span><span class="sxs-lookup"><span data-stu-id="36d5a-138">This script doesn't support retention labels that are auto-applied to content.</span></span>
     
-- <span data-ttu-id="b13a6-p111">열 머리글을 변경하거나 이름을 바꾸면 스크립트가 실패합니다. 여기에 제공된 형식의 .csv 파일이 스크립트에 필요합니다.</span><span class="sxs-lookup"><span data-stu-id="b13a6-p111">If you change or rename the column headers, the script will fail. The script requires a .csv file in the format provided here.</span></span>
+- <span data-ttu-id="36d5a-p110">열 머리글을 변경하거나 이름을 바꾸면 스크립트가 실패합니다. 여기에 제공된 형식의 .csv 파일이 스크립트에 필요합니다.</span><span class="sxs-lookup"><span data-stu-id="36d5a-p110">If you change or rename the column headers, the script will fail. The script requires a .csv file in the format provided here.</span></span>
     
-### <a name="sample-csv-file"></a><span data-ttu-id="b13a6-142">샘플 .csv 파일</span><span class="sxs-lookup"><span data-stu-id="b13a6-142">Sample .csv file</span></span>
+### <a name="sample-csv-file"></a><span data-ttu-id="36d5a-141">샘플 .csv 파일</span><span class="sxs-lookup"><span data-stu-id="36d5a-141">Sample .csv file</span></span>
 
 ```
 Policy Name (Required),PublishComplianceTag (Required),Comment (Optional),Enabled (Required),ExchangeLocation (Optional),ExchangeLocationException (Optional),ModernGroupLocation (Optional),ModernGroupLocationException (Optional),OneDriveLocation (Optional),OneDriveLocationException (Optional),PublicFolderLocation (Optional),SharePointLocation (Optional),SharePointLocationException (Optional),SkypeLocation (Optional),SkypeLocationException (Optional)
@@ -86,11 +88,11 @@ Publishing Policy Orange1,"LabelName_t_1, LabelName_t_2",N/A,$true,All,,,,,,,,,,
 Publishing Policy Yellow1,"LabelName_t_3, LabelName_t_4",N/A,$false,All,,,,,,,,,,
 ```
 
-## <a name="step-3-create-the-powershell-script"></a><span data-ttu-id="b13a6-143">3단계: PowerShell 스크립트 만들기</span><span class="sxs-lookup"><span data-stu-id="b13a6-143">Step 3: Create the PowerShell script</span></span>
+## <a name="step-3-create-the-powershell-script"></a><span data-ttu-id="36d5a-142">3단계: PowerShell 스크립트 만들기</span><span class="sxs-lookup"><span data-stu-id="36d5a-142">Step 3: Create the PowerShell script</span></span>
 
-<span data-ttu-id="b13a6-p112">아래 PowerShell 스크립트를 복사하여 메모장에 붙여넣습니다. 파일 이름 접미사 .ps1을 사용하여 찾기 쉬운 위치에 파일을 저장합니다(예: \<경로\>CreateRetentionSchedule.ps1).</span><span class="sxs-lookup"><span data-stu-id="b13a6-p112">Copy and paste the below PowerShell script into Notepad. Save the file by using a filename suffix of .ps1 in a location that's easy to find -- for example, \<path\>CreateRetentionSchedule.ps1.</span></span>
+<span data-ttu-id="36d5a-p111">아래 PowerShell 스크립트를 복사하여 메모장에 붙여넣습니다. 파일 이름 접미사 .ps1을 사용하여 찾기 쉬운 위치에 파일을 저장합니다(예: \<경로\>CreateRetentionSchedule.ps1).</span><span class="sxs-lookup"><span data-stu-id="36d5a-p111">Copy and paste the below PowerShell script into Notepad. Save the file by using a filename suffix of .ps1 in a location that's easy to find -- for example, \<path\>CreateRetentionSchedule.ps1.</span></span>
   
-### <a name="powershell-script"></a><span data-ttu-id="b13a6-146">PowerShell 스크립트</span><span class="sxs-lookup"><span data-stu-id="b13a6-146">PowerShell script</span></span>
+### <a name="powershell-script"></a><span data-ttu-id="36d5a-145">PowerShell 스크립트</span><span class="sxs-lookup"><span data-stu-id="36d5a-145">PowerShell script</span></span>
 
 ```
 <#
@@ -712,33 +714,33 @@ if ($ResultCSV)
 
 ```
 
-## <a name="step-4-connect-to-security-amp-compliance-center-powershell"></a><span data-ttu-id="b13a6-147">4단계: 보안 및 준수 센터 PowerShell에 연결</span><span class="sxs-lookup"><span data-stu-id="b13a6-147">Step 4: Connect to Security &amp; Compliance Center PowerShell</span></span>
+## <a name="step-4-connect-to-security-amp-compliance-center-powershell"></a><span data-ttu-id="36d5a-146">4단계: 보안 및 준수 센터 PowerShell에 연결</span><span class="sxs-lookup"><span data-stu-id="36d5a-146">Step 4: Connect to Security &amp; Compliance Center PowerShell</span></span>
 
-<span data-ttu-id="b13a6-148">아래 단계를 따릅니다.</span><span class="sxs-lookup"><span data-stu-id="b13a6-148">Follow the steps here:</span></span>
+<span data-ttu-id="36d5a-147">아래 단계를 따릅니다.</span><span class="sxs-lookup"><span data-stu-id="36d5a-147">Follow the steps here:</span></span>
   
-- [<span data-ttu-id="b13a6-149">보안 &amp;준수 센터 PowerShell에 연결하기</span><span class="sxs-lookup"><span data-stu-id="b13a6-149">Connect to Security &amp; Compliance Center PowerShell</span></span>](https://go.microsoft.com/fwlink/?linkid=799771)
+- [<span data-ttu-id="36d5a-148">보안 &amp;준수 센터 PowerShell에 연결하기</span><span class="sxs-lookup"><span data-stu-id="36d5a-148">Connect to Security &amp; Compliance Center PowerShell</span></span>](https://go.microsoft.com/fwlink/?linkid=799771)
     
-## <a name="step-5-run-the-powershell-script-to-create-and-publish-the-retention-labels"></a><span data-ttu-id="b13a6-150">5단계: PowerShell 스크립트를 실행하여 보존 레이블 만들기 및 게시</span><span class="sxs-lookup"><span data-stu-id="b13a6-150">Step 5: Run the PowerShell script to create and publish the retention labels</span></span>
+## <a name="step-5-run-the-powershell-script-to-create-and-publish-the-retention-labels"></a><span data-ttu-id="36d5a-149">5단계: PowerShell 스크립트를 실행하여 보존 레이블 만들기 및 게시</span><span class="sxs-lookup"><span data-stu-id="36d5a-149">Step 5: Run the PowerShell script to create and publish the retention labels</span></span>
 
-<span data-ttu-id="b13a6-151">보안 &amp; 준수 센터 PowerShell에 연결한 후 보존 레이블을 만들고 게시하는 스크립트를 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="b13a6-151">After you've connected to Security &amp; Compliance Center PowerShell, next you run the script that creates and publishes the retention labels.</span></span>
+<span data-ttu-id="36d5a-150">보안 &amp; 준수 센터 PowerShell에 연결한 후 보존 레이블을 만들고 게시하는 스크립트를 실행합니다.</span><span class="sxs-lookup"><span data-stu-id="36d5a-150">After you've connected to Security &amp; Compliance Center PowerShell, next you run the script that creates and publishes the retention labels.</span></span>
   
-1. <span data-ttu-id="b13a6-152">보안 및 준수 센터 PowerShell 세션에서 경로 뒤에 .\ 문자와 스크립트의 파일 이름을 입력한 다음 Enter 키를 눌러 스크립트를 실행합니다. 예를 들면 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="b13a6-152">In the Security &amp; Compliance PowerShell session, enter the path, followed by the characters .\ and file name of the script, and then press ENTER to run the script - for example:</span></span>
+1. <span data-ttu-id="36d5a-151">보안 및 준수 센터 PowerShell 세션에서 경로 뒤에 .\ 문자와 스크립트의 파일 이름을 입력한 다음 Enter 키를 눌러 스크립트를 실행합니다. 예를 들면 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="36d5a-151">In the Security &amp; Compliance PowerShell session, enter the path, followed by the characters .\ and file name of the script, and then press ENTER to run the script - for example:</span></span>
     
   ```
   <path>.\CreateRetentionSchedule.ps1
   ```
 
-    <span data-ttu-id="b13a6-153">위에서 만든 .csv 파일의 위치를 묻는 메시지가 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="b13a6-153">The script will prompt you for the locations of the .csv files that you created above.</span></span>
+    <span data-ttu-id="36d5a-152">위에서 만든 .csv 파일의 위치를 묻는 메시지가 표시됩니다.</span><span class="sxs-lookup"><span data-stu-id="36d5a-152">The script will prompt you for the locations of the .csv files that you created above.</span></span>
     
-2. <span data-ttu-id="b13a6-154">경로 뒤에 .\ 문자와 .csv 파일의 파일 이름을 입력한 다음 Enter 키를 누릅니다. 예를 들면 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="b13a6-154">Enter the path, followed by the characters .\ and file name of the .csv file, and then press ENTER - for example:</span></span>
+2. <span data-ttu-id="36d5a-153">경로 뒤에 .\ 문자와 .csv 파일의 파일 이름을 입력한 다음 Enter 키를 누릅니다. 예를 들면 다음과 같습니다.</span><span class="sxs-lookup"><span data-stu-id="36d5a-153">Enter the path, followed by the characters .\ and file name of the .csv file, and then press ENTER - for example:</span></span>
     
   ```
   <path>.\LabelsToCreate.csv
   ```
 
-## <a name="step-6-view-the-log-file-with-the-results"></a><span data-ttu-id="b13a6-155">6단계: 결과가 포함된 로그 파일 보기</span><span class="sxs-lookup"><span data-stu-id="b13a6-155">Step 6: View the log file with the results</span></span>
+## <a name="step-6-view-the-log-file-with-the-results"></a><span data-ttu-id="36d5a-154">6단계: 결과가 포함된 로그 파일 보기</span><span class="sxs-lookup"><span data-stu-id="36d5a-154">Step 6: View the log file with the results</span></span>
 
-<span data-ttu-id="b13a6-p113">스크립트를 실행하면 수행된 각 작업과 작업 성공 또는 실패 여부를 기록하는 로그 파일이 생성됩니다. 로그 파일에는 생성된 보존 레이블과 게시된 보존 레이블에 대한 모든 메타데이터가 포함됩니다. 이 위치에서 로그 파일을 찾을 수 있습니다. 파일 이름의 숫자는 각기 다릅니다.</span><span class="sxs-lookup"><span data-stu-id="b13a6-p113">When you run the script, it generates a log file that records each action it took and whether the action succeeded or failed. The log file includes all metadata about the retention labels created and the retention labels published. You can find the log file at this location -- note that the digits in the file name vary.</span></span>
+<span data-ttu-id="36d5a-p112">스크립트를 실행하면 수행된 각 작업과 작업 성공 또는 실패 여부를 기록하는 로그 파일이 생성됩니다. 로그 파일에는 생성된 보존 레이블과 게시된 보존 레이블에 대한 모든 메타데이터가 포함됩니다. 이 위치에서 로그 파일을 찾을 수 있습니다. 파일 이름의 숫자는 각기 다릅니다.</span><span class="sxs-lookup"><span data-stu-id="36d5a-p112">When you run the script, it generates a log file that records each action it took and whether the action succeeded or failed. The log file includes all metadata about the retention labels created and the retention labels published. You can find the log file at this location -- note that the digits in the file name vary.</span></span>
   
 ```
 <path>.\Log_Publish_Compliance_Tag_01112018_151239.txt
