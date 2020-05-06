@@ -17,12 +17,12 @@ manager: dansimp
 audience: ITPro
 ms.collection: M365-security-compliance
 ms.topic: article
-ms.openlocfilehash: adb8c7dfa0050ef2eb0d59e1e55d07da7aaa3f39
-ms.sourcegitcommit: 3b2fdf159d7dd962493a3838e3cf0cf429ee2bf2
+ms.openlocfilehash: cdfc23f34d90c9d725ec6fb314728553a987c025
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/24/2020
-ms.locfileid: "42931755"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034867"
 ---
 # <a name="create-and-manage-custom-detections-rules"></a>사용자 지정 검색 규칙 만들기 및 관리
 
@@ -114,7 +114,7 @@ DeviceEvents
 
 각 엔터티 유형 (사서함, 사용자 또는 장치)에 대해 열을 하나만 선택할 수 있습니다. 쿼리에 의해 반환 되지 않는 열은 선택할 수 없습니다.
 
-### <a name="3-specify-actions-on-files-or-machines"></a>3. 파일 또는 컴퓨터에 대 한 동작을 지정 합니다.
+### <a name="4-specify-actions-on-files-or-machines"></a>4. 파일 또는 컴퓨터에 대 한 작업을 지정 합니다.
 사용자 지정 검색 규칙은 쿼리에서 반환 되는 파일이 나 컴퓨터에 대해 자동으로 작업을 수행할 수 있습니다.
 
 #### <a name="actions-on-machines"></a>컴퓨터에 대 한 작업
@@ -130,7 +130,7 @@ DeviceEvents
 > [!NOTE]
 > 사용자 지정 검색 규칙에 대 한 allow 또는 block 작업은 현재 Microsoft Threat Protection에서 지원 되지 않습니다.
 
-### <a name="4-set-the-rule-scope"></a>4. 규칙 범위를 설정 합니다.
+### <a name="5-set-the-rule-scope"></a>5. 규칙 범위를 설정 합니다.
 범위를 설정 하 여 규칙에 포함 되는 장치를 지정 합니다. 범위는 장치를 확인 하는 규칙에 영향을 주며 사서함과 사용자 계정 또는 id만 검사 하는 규칙에는 영향을 주지 않습니다.
 
 범위를 설정 하는 경우 다음을 선택할 수 있습니다.
@@ -140,7 +140,7 @@ DeviceEvents
 
 범위에 있는 장치의 데이터만 쿼리 됩니다. 또한 해당 장치 에서만 작업을 수행 합니다.
 
-### <a name="5-review-and-turn-on-the-rule"></a>5. 규칙을 검토 하 고 켭니다.
+### <a name="6-review-and-turn-on-the-rule"></a>6. 규칙을 검토 하 고 켭니다.
 규칙을 검토 한 후 **만들기** 를 클릭 하 여 저장 합니다. 사용자 지정 검색 규칙이 즉시 실행 됩니다. 구성 된 빈도에 따라 다시 실행 하 여 일치 여부를 확인 하 고 경고를 생성 하 고 응답 작업을 수행 합니다.
 
 ## <a name="manage-existing-custom-detection-rules"></a>기존 사용자 지정 검색 규칙 관리

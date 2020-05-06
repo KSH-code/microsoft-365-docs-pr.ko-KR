@@ -18,12 +18,12 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: b8e25b55ea20514e452b2c26ee0ad1569dbc3c85
-ms.sourcegitcommit: 2399ee6f9bc955cf8f2a76c01fc84c19eb37ff42
+ms.openlocfilehash: 71226634f17e8e801c409e513494dfdcc19d0719
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43919695"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44046296"
 ---
 # <a name="communication-compliance-in-microsoft-365"></a>Microsoft 365의 통신 준수
 
@@ -156,4 +156,6 @@ Microsoft 365 준수 센터에서 다음 정책 서식 파일 중에서 선택�
 
 ## <a name="ready-to-get-started"></a>시작할 준비가 되셨습니까?
 
-Microsoft 365 조 직에 대 한 통신 준수를 구성 하려면 microsoft [365에 대 한 통신 준수 구성](communication-compliance-configure.md) 또는 [Contoso의 사례 연구](communication-compliance-case-study.md) 를 확인 하거나 Microsoft 팀, Exchange Online 및 Yammer 통신에서 비속어를 모니터링 하기 위한 통신 준수 정책을 빠르게 구성 하는 방법을 참조 하세요.
+- 계획 정보에 대 한 자세한 내용은 [통신 준수 계획](communication-compliance-plan.md)을 참조 하십시오.
+- [Contoso의 사례 연구](communication-compliance-case-study.md) 를 확인 하 고 Microsoft 팀, Exchange Online 및 Yammer 통신에서 악의적인 언어를 모니터링 하도록 통신 준수 정책을 빠르게 구성 하는 방법을 확인 하세요.
+- Microsoft 365 조 직에 대 한 통신 준수를 구성 하려면 [microsoft 365에 대 한 통신 준수 구성을](communication-compliance-configure.md)참조 하십시오.

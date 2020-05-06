@@ -14,13 +14,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: 다시 시도 단추를 사용 하 여 콘텐츠 위치 오류가 있는 콘텐츠 검색 문제를 해결 합니다.
-ms.openlocfilehash: 6eb08c006f206e3ad7850d67e541f6fc3f496441
-ms.sourcegitcommit: 93e6bf1b541e22129f8c443051375d0ef1374150
+description: 조사 중에 다시 시도 단추를 사용 하 여 콘텐츠 위치 오류가 있는 콘텐츠 검색을 확인할 수 있습니다.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 6b2d26cd51c30f2c273abb59199cf4a89f5b7a37
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/13/2020
-ms.locfileid: "42634176"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034632"
 ---
 # <a name="retry-a-content-search-to-resolve-a-content-location-error"></a>콘텐츠 검색을 다시 시도 하 여 콘텐츠 위치 오류 해결
 

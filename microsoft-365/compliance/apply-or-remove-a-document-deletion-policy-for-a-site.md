@@ -15,13 +15,15 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: e3e92668-f9b2-46ee-8e5e-c623870588b6
-description: 조직은 규정 준수, 법률 및 기타 규정 때문에 특정 기간 동안 문서 보존이 필요한 경우가 많습니다. 그렇지만 필요 이상으로 오랫동안 문서를 보존하면 조직은 법적 위험에 노출될 수 있습니다. 이러한 이유로 조직은 사이트에 대해 문서 삭제 정책을 만들었을 수 있습니다. 예를 들어 일반 비즈니스 문서는 만들고 5년 후에 삭제해야 할 수도 있습니다.
-ms.openlocfilehash: f04b693a68da36b37524fe5c1fd2e00fab6c2bc6
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.custom:
+- seo-marvel-apr2020
+description: Office 365 사이트 모음에서 문서 삭제 정책을 작성, 삭제 및 관리 하는 방법에 대해 알아봅니다.
+ms.openlocfilehash: 7a9cbec25349de02da35f0aaf0cc206774a9b59a
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42079860"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034342"
 ---
 # <a name="apply-or-remove-a-document-deletion-policy-for-a-site"></a>사이트에 문서 삭제 정책 적용 또는 제거
 

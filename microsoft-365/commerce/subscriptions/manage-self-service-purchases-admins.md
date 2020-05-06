@@ -14,12 +14,12 @@ ms.collection:
 search.appverid:
 - MET150
 description: 관리자는 조직의 사용자가 만든 셀프 서비스 구매를 관리 하는 방법을 확인할 수 있습니다.
-ms.openlocfilehash: ab0e98963e1274925fcf678307907a93eafc9663
-ms.sourcegitcommit: 9c335d110e0b499501edc8a31b987641819118a1
+ms.openlocfilehash: 7074a829bed3e65a160a9a33afb4f2b130f6c8d1
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/04/2020
-ms.locfileid: "42409633"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44046183"
 ---
 # <a name="manage-self-service-purchases-admin"></a>셀프 서비스 구매(관리자) 관리
 
@@ -29,7 +29,7 @@ ms.locfileid: "42409633"
 
 ## <a name="view-self-service-subscriptions"></a>셀프 서비스 구독 보기
 
-1. 관리 센터에서 **청구** > <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품 & 서비스</a> 페이지로 이동 합니다.
+1. 관리 센터에서<a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a> **청구** > 페이지로 이동 합니다.
 
 2. **결과 구체화**옆의 **계정 유형** 드롭다운에서 **셀프 서비스**를 선택 합니다.
 
@@ -56,7 +56,7 @@ ms.locfileid: "42409633"
 
 **MSCommerce** PowerShell 모듈을 사용 하 여 다음을 수행할 수 있습니다.
 
-- 제품이 사용 하거나 사용 하지 않도록 **** 설정 되었는지 여부 &mdash; 에 관계 없이 AllowSelfServicePurchase 매개 변수 값의 기본 상태를 확인 합니다.
+- 제품이 사용 하거나 사용 하지 않도록 **AllowSelfServicePurchase** 설정 되었는지 여부 &mdash; 에 관계 없이 AllowSelfServicePurchase 매개 변수 값의 기본 상태를 확인 합니다.
 - 해당 하는 제품 목록 및 셀프 서비스 구매가 사용 하도록 설정 되었는지 여부 확인
 - 특정 제품에 대 한 현재 설정을 보거나 수정 하 여 사용 하거나 사용 하지 않도록 설정
 

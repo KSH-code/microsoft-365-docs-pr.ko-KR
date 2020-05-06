@@ -1,5 +1,5 @@
 ---
-title: 사용자 스팸 알림을 사용 하 여 격리 된 메시지 릴리스 및 보고
+title: Microsoft 365의 최종 사용자 스팸 알림
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -17,17 +17,19 @@ search.appverid:
 ms.assetid: 56de4ed5-b0aa-4195-9f46-033d7cc086bc
 ms.collection:
 - M365-security-compliance
-description: 관리자가 스팸 방지 정책에서 최종 사용자 스팸 알림을 사용 하도록 설정 하면 메시지 받는 사람은 격리 된 메시지에 대 한 정기적인 알림을 받게 됩니다.
-ms.openlocfilehash: 641efc024a2842f30f7754c52f624a9f668851de
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom:
+- seo-marvel-apr2020
+description: 이 문서에서는 격리 된 메시지에 대 한 최종 사용자 스팸 알림에 대해 설명 합니다.
+ms.openlocfilehash: 2a865130bf1fa0c09b5b68254fb604795b204c22
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43636419"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035001"
 ---
 # <a name="use-user-spam-notifications-to-release-and-report-quarantined-messages"></a>사용자 스팸 알림을 사용 하 여 격리 된 메시지 릴리스 및 보고
 
-격리는 exchange Online 사서함이 없는 Exchange Online 또는 독립 실행형 EOP (Exchange Online Protection) 조직의 사서함이 있는 Microsoft 365 조직에서 위험할 수도 있고 원치 않는 메시지를 보관 합니다. 자세한 내용은 [Office 365의 격리](quarantine-email-messages.md)를 참조하세요.
+격리는 Exchange Online 사서함이 있는 Microsoft 365 조직 또는 Exchange Online 사서함이 없는 독립 실행형 EOP(Exchange online Protection) 조직에 위험할 가능성이 있거나 원치 않는 메시지를 보유합니다. 자세한 내용은 [Office 365의 격리](quarantine-email-messages.md)를 참조하세요.
 
 기본적으로 스팸 방지 정책에서는 최종 사용자 스팸 알림이 사용 되지 않도록 설정 됩니다. 관리자가 [최종 사용자 스팸 알림을 사용 하도록 설정](configure-your-spam-filter-policies.md#configure-end-user-spam-notifications)하면 받는 사람에 게 스팸으로, 대량 전자 메일로, 또는 (4 월, 2020) 피싱 메일로 격리 된 메시지에 대 한 주기적인 알림을 받게 됩니다.
 

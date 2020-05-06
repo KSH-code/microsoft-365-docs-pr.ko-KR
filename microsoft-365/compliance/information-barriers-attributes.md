@@ -12,13 +12,14 @@ ms.service: O365-seccomp
 ms.collection:
 - M365-security-compliance
 localization_priority: None
-description: 이 문서를 정보 장벽 정책에서 사용할 수 있는 다양 한 특성에 대 한 참조로 사용 합니다.
-ms.openlocfilehash: ff7b6e22370c086f6b685fce4de8b61396017bf9
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+description: 정보 장벽 세그먼트를 정의 하는 데 사용 하는 Azure Active Directory 사용자 계정 특성에 대 한 참조 문서입니다.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 75a568b4d54432de0b72c379e83077c222acb687
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41600625"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035054"
 ---
 # <a name="attributes-for-information-barrier-policies"></a>정보 장벽 정책의 속성
 
@@ -88,10 +89,10 @@ Azure Active Directory의 특정 특성을 사용 하 여 사용자를 분할할
 |StreetAddress |StreetAddress |
 |TargetAddress |ExternalEmailAddress |
 |UsageLocation |UsageLocation |
-|UserPrincipalName  |UserPrincipalName  |
-|메일로   |WindowsEmailAddress    |
+|UserPrincipalName    |UserPrincipalName    |
+|메일로    |WindowsEmailAddress    |
 |설명    |설명    |
-|소속   |MemberOfGroup  |
+|소속    |MemberOfGroup    |
 
 ## <a name="related-topics"></a>관련 항목
 

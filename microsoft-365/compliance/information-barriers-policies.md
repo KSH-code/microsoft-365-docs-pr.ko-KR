@@ -13,12 +13,13 @@ ms.collection:
 - M365-security-compliance
 localization_priority: None
 description: Microsoft 팀에서 정보 장벽에 대 한 정책을 정의 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: c7bc7a1f90962910a0626967e4f6dee005695e30
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 1c81fedddf5e3553ec4b24353fac43079305c5b2
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43621374"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035044"
 ---
 # <a name="define-information-barrier-policies"></a>정보 장벽 정책 정의
 

@@ -11,13 +11,15 @@ ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: f40253f2-50a1-426e-9979-be74ba74cb61
-description: Microsoft EOP(Exchange Online Protection)에서는 조직의 전체 상태를 확인할 수 있는 다양한 보고서를 제공합니다. 받는 사람에게 메시지가 도착하지 않는 등 특정 이벤트에 대한 문제를 해결할 수 있는 도구와 규정 준수 요구 사항을 지원하는 감사 보고서도 있습니다. 다음 표에서는 EOP 관리자가 사용할 수 있는 보고서 및 문제 해결 도구를 설명합니다.
-ms.openlocfilehash: e961c76daaad72fbd1ddede5651cb49fd66d48be
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom:
+- seo-marvel-apr2020
+description: 이 문서에서는 Microsoft EOP (Exchange Online Protection) 관리자가 사용할 수 있는 보고서 및 문제 해결 도구에 대해 알아봅니다.
+ms.openlocfilehash: 44b4223b4310a2de1d90f99f8a7af23cc6054f94
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634355"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034383"
 ---
 # <a name="reporting-and-message-trace-in-exchange-online-protection"></a>Exchange Online Protection의 보고 및 메시지 추적
 

@@ -11,15 +11,16 @@ ms.collection:
 - M365-security-compliance
 ms.custom:
 - M365solutions
+- seo-marvel-apr2020
 localization_priority: Priority
 f1.keywords: NOCSH
-description: Microsoft 365에서 보안 게스트 공유 환경 만드는 방법에 대해 알아보세요.
-ms.openlocfilehash: 73d3e2a9a55ead5447d2c6d640123ee3befd8373
-ms.sourcegitcommit: 101084f9c81616342d78493232d8f13f5ffa4ddf
+description: 이 문서에서는 Microsoft 365에서 안전한 게스트 공유 환경을 만드는 데 사용할 수 있는 옵션에 대해 알아봅니다.
+ms.openlocfilehash: 848bdef888ab6d6fb20db2a461912f180bfa212c
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/01/2020
-ms.locfileid: "44003750"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036127"
 ---
 # <a name="create-a-secure-guest-sharing-environment"></a>보안 게스트 공유 환경 만들기
 

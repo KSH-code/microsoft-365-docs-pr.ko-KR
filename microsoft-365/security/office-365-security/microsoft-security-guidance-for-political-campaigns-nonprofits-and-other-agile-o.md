@@ -1,5 +1,5 @@
 ---
-title: 정치적 캠페인, 비영리 조직 및 기타 기밀 조직에 대한 Microsoft 보안 지침
+title: Microsoft 보안 지침 - 정치적 캠페인 및 비영리 조직
 f1.keywords:
 - NOCSH
 ms.author: bcarter
@@ -16,15 +16,17 @@ ms.service: O365-seccomp
 localization_priority: Priority
 search.appverid:
 - MET150
-ms.custom: Strat_O365_Enterprise
+ms.custom:
+- Strat_O365_Enterprise
+- seo-marvel-apr2020
 ms.assetid: 10d1004b-42b6-4e2b-aaa2-18ddd9118f64
 description: '요약: 증가된 위협 프로필을 가진 빠르게 변화하는 조직에 대한 계획 및 구현 지침입니다.'
-ms.openlocfilehash: 475707f2c98ade03f3bd558d5e9ea9eb9b5c64df
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: bfec47bb3af59fe193d058830340f15564f63868
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42082541"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036695"
 ---
 # <a name="microsoft-security-guidance-for-political-campaigns-nonprofits-and-other-agile-organizations"></a>정치적 캠페인, 비영리 조직 및 기타 기밀 조직에 대한 Microsoft 보안 지침
 

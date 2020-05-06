@@ -15,13 +15,14 @@ search.appverid:
 ms.assetid: 0cbaccf8-4afc-47e3-a36d-a84598a55fb8
 ms.collection:
 - M365-security-compliance
-description: 관리자는 하이브리드 환경에서 독립 실행형 EOP (Exchange Online Protection)를 사용 하는 경우 온-프레미스 사용자의 정크 메일 폴더로 스팸을 라우팅하기 위해 온-프레미스 Exchange 환경을 구성 하는 방법을 확인할 수 있습니다.
-ms.openlocfilehash: f2964324c6d9104719fc79ff31f14b4b94c627cc
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: 관리자는 Exchange Online Protection 하이브리드 환경에서 스팸을 사용자 정크 메일 폴더로 라우팅하는 방법을 알 수 있습니다.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 14193fecf90a6f2ddde05fbfdaded0ff2bcb5875
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43621285"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036575"
 ---
 # <a name="configure-standalone-eop-to-deliver-spam-to-the-junk-email-folder-in-hybrid-environments"></a>하이브리드 환경의 정크 메일 폴더에 스팸을 배달 하도록 독립 실행형 EOP 구성
 

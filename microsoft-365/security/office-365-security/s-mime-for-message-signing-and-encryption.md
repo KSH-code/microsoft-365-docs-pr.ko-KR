@@ -1,5 +1,5 @@
 ---
-title: Exchange Online의 메시지 서명 및 암호화를 위한 S/MIME
+title: Exchange Online의 암호화를 위한 S/MIME-Office 365
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -13,13 +13,14 @@ localization_priority: Normal
 search.appverid:
 - MET150
 ms.assetid: 887c710b-0ec6-4ff0-8065-5f05f74afef3
-description: 관리자는 Exchange Online에서 S/MIME을 사용 하는 방법에 대해 알아볼 수 있습니다.
-ms.openlocfilehash: 294fd22ff81e9ddaabf0664afb34a37c008a6d09
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: 관리자는 Exchange Online의 S/MIME (Secure/다목적 Internet Mail Extensions)를 사용 하 여 전자 메일을 암호화 하 고 디지털 서명을 하는 방법에 대해 알아볼 수 있습니다.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 8c45df36535e7b5af2648b82f83159315b94bec8
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634331"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036623"
 ---
 # <a name="smime-for-message-signing-and-encryption-in-exchange-online"></a>Exchange Online의 메시지 서명 및 암호화를 위한 S/MIME
 

@@ -29,12 +29,12 @@ search.appverid:
 - MET150
 ms.assetid: 6e7a2dfd-8ec4-4eb7-8390-3ee103e5fece
 description: 도메인 및 사용자 추가, 보안 정책 설정 등 Microsoft 365 Business Premium의 설치 단계를 알아봅니다.
-ms.openlocfilehash: a34ede0002e7e78c5dc437c663fe527cf94e46c5
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: cfc8523fe88ebca6b8c03db0ad0f6caeba662923
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635763"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44048040"
 ---
 # <a name="set-up-microsoft-365-business-premium-in-the-setup-wizard"></a>설치 마법사에서 Microsoft 365 Business Premium 설정
 
@@ -124,7 +124,7 @@ Microsoft 365 Business Premium을 구입 하는 경우 소유 하 고 있는 도
 
 ## <a name="secure-windows-10-pcs"></a>Windows 10 Pc 보안
 
-왼쪽 탐색 창에서 **설치** 를 선택 하 고 공동 **인 및 보안**에서 **Windows 10 컴퓨터 보안**을 선택 합니다. 시작 하려면 **보기** 를 선택 합니다. 전체 지침은 [Windows 10 컴퓨터 보안](secure-win-10-pcs.md) 을 참조 하세요.
+왼쪽 탐색 창에서 **설치** 를 선택 하 고 **로그인 및 보안**에서 **Windows 10 컴퓨터 보안**을 선택 합니다. 시작 하려면 **보기** 를 선택 합니다. 전체 지침은 [Windows 10 컴퓨터 보안](secure-win-10-pcs.md) 을 참조 하세요.
 
 ## <a name="deploy-office-365-client-apps"></a>Office 365 클라이언트 앱 배포
 
@@ -136,4 +136,4 @@ Office를 개별적으로 설치할 수도 있습니다. 자세한 내용은 [PC
 
 ## <a name="see-also"></a>참고 항목
 
-[Microsoft 365 for business 교육용 비디오](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)
+[Microsoft 365 Business 교육 비디오](https://support.office.com/article/6ab4bbcd-79cf-4000-a0bd-d42ce4d12816)

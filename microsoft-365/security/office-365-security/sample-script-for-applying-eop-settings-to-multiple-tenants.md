@@ -1,5 +1,5 @@
 ---
-title: 여러 테넌트에 EOP 설정을 적용하기 위한 샘플 스크립트
+title: EOP 설정에 대 한 샘플 스크립트-여러 테 넌 트
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -11,13 +11,15 @@ ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: e87e84e1-7be0-44bf-a414-d91d60ed8817
-description: 다음 샘플 스크립트를 사용하여 여러 테넌트(회사)를 관리하는 Microsoft EOP(Exchange Online Protection) 관리자는 Windows PowerShell을 사용하여 해당 테넌트에 구성 설정을 적용할 수 있습니다.
-ms.openlocfilehash: 83199e809b6001b8b5b3b51d2cd15a6e44d83b03
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.custom:
+- seo-marvel-apr2020
+description: 이 문서에서는 PowerShell을 사용 하 여 Microsoft EOP (Exchange Online Protection)의 테 넌 트에 구성 설정을 적용 하는 방법을 알아봅니다.
+ms.openlocfilehash: b875a6c7ba53f459a73699b250ee5ed4a206f1b1
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41598495"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035933"
 ---
 # <a name="sample-script-for-applying-eop-settings-to-multiple-tenants"></a>여러 테넌트에 EOP 설정을 적용하기 위한 샘플 스크립트
 

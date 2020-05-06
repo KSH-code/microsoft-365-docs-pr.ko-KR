@@ -16,12 +16,12 @@ ms.collection:
 - Strat_O365_IP
 - M365-security-compliance
 description: 안전한 링크 기능은 Office 문서 및 전자 메일 메시지에서 하이퍼링크를 클릭 하 여 확인할 시간을 제공 합니다. 이 문서를 읽으면 ATP 안전한 링크가 작동 하는 방식을 확인할 수 있습니다.
-ms.openlocfilehash: 7887c3c2920f472d4baa7ff899c3e3b4f704385d
-ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
+ms.openlocfilehash: e79c44b91eb5de7564058b4dc50c94d2a4223f08
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43943714"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44046367"
 ---
 # <a name="how-atp-safe-links-works"></a>ATP 안전한 링크가 작동하는 방식
 > [!IMPORTANT] 
@@ -43,7 +43,7 @@ ms.locfileid: "43943714"
     
 6. ATP 안전한 링크 기능은 웹 사이트를 열기 전에 URL을 즉시 확인 합니다. URL이 차단, 악의적 또는 안전한 것으로 식별 됩니다.
         
-   - 조직의 [사용자 지정 차단 된 url 목록](set-up-a-custom-blocked-urls-list-wtih-atp.md)에 포함 된 웹 사이트에 대 한 URL 인 경우 [경고 페이지가](atp-safe-links-warning-pages.md) 열립니다. 
+   - 조직의 [사용자 지정 차단 된 url 목록](set-up-a-custom-blocked-urls-list-atp.md)에 포함 된 웹 사이트에 대 한 URL 인 경우 [경고 페이지가](atp-safe-links-warning-pages.md) 열립니다. 
     
    - URL이 악성으로 확인 된 웹 사이트에 대 한 것 이면 [경고 페이지가](atp-safe-links-warning-pages.md) 열립니다. 
     
@@ -61,7 +61,7 @@ ms.locfileid: "43943714"
     
 3. 사용자가 문서에서 URL을 클릭 하면 해당 링크는 ATP Safe Links service에 의해 확인 됩니다.
     
-   - 조직의 [사용자 지정 차단 된 url 목록](set-up-a-custom-blocked-urls-list-wtih-atp.md)에 포함 된 웹 사이트에 대 한 URL 인 경우 사용자는 [경고 페이지로](atp-safe-links-warning-pages.md)이동 됩니다.
+   - 조직의 [사용자 지정 차단 된 url 목록](set-up-a-custom-blocked-urls-list-atp.md)에 포함 된 웹 사이트에 대 한 URL 인 경우 사용자는 [경고 페이지로](atp-safe-links-warning-pages.md)이동 됩니다.
     
    - URL이 악성으로 확인 된 웹 사이트에 대 한 것 인 경우 사용자는 [경고 페이지로](atp-safe-links-warning-pages.md)이동 됩니다.
     

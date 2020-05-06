@@ -16,19 +16,20 @@ search.appverid:
 ms.assetid: eef8408b-54d3-4d7d-9cf7-ad2af10b2e0e
 ms.collection:
 - M365-security-compliance
-description: Microsoft 365의 인바운드 메시지에 대 한 전자 메일 주소에서의 요구 사항에 대 한 lear 11 월 2017 현재까지 서비스에서 스푸핑을 방지 하는 데 도움이 되는 주소에서 RFC 규격이 필요 합니다.
-ms.openlocfilehash: 876ede087b37c381b9e9b557268057122e0987c0
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: '피싱 방지를 위해 Microsoft 365 및 Outlook.com에는 이제 From: 주소에 대 한 RFC 준수가 필요 합니다.'
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: ef361c7009cc8903ab2721d299412b7d44a4f87c
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43633981"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034085"
 ---
 # <a name="how-microsoft-365-validates-the-from-address-to-prevent-phishing"></a>Microsoft 365에서 보낸 사람 주소의 유효성을 검사 하 여 피싱을 방지 하는 방법
 
 Microsoft 365 전자 메일 계정에는 많은 수의 피싱 공격이 수신 됩니다. 공격자는 [가짜 (위조) 보낸 사람 전자 메일 주소](anti-spoofing-protection.md)를 사용 하는 것 외에도 발신자 주소에 인터넷 표준을 위반 하는 값을 사용 하는 경우가 많습니다. 이러한 유형의 피싱을 방지 하기 위해 Microsoft 365 및 Outlook.com에는이 항목에 설명 된 대로 RFC 규격 From 주소를 포함 하기 위한 인바운드 메시지가 필요 합니다. 이 적용은 11 월 2017에서 사용 하도록 설정 되었습니다.
 
-**참고:**
+**참고**:
 
 - 이 항목에서 설명 하는 주소에서 형식이 잘못 된 조직 으로부터 전자 메일을 정기적으로 수신 하는 경우 이러한 조직이 최신 보안 표준을 준수 하도록 전자 메일 서버를 업데이트 하도록 권장 합니다.
 

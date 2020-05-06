@@ -15,13 +15,15 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: 법적 조사의 일환으로 전자적으로 저장 된 정보를 보존 하도록 custodians에 게 알려야 할 수도 있습니다. Advanced eDiscovery를 사용 하면 보존 알림 프로세스를 쉽게 관리할 수 있습니다.
-ms.openlocfilehash: 703034088b03badae309961c2abda9db80425b99
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.custom:
+- seo-marvel-apr2020
+description: 고급 eDiscovery를 사용 하 여 전자 메일을 통해 법적 보존 알림을 전송 하 고 추가 하는 방법 및 의무 상태를 모니터링 하는 방법을 알아봅니다.
+ms.openlocfilehash: 393d8884a4d4d39056267666fdce6a2754cb582b
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42080282"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034888"
 ---
 # <a name="acknowledge-a-hold-notification"></a>보류 알림 승인
 

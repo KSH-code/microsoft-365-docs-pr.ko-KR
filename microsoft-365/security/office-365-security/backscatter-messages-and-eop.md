@@ -15,13 +15,15 @@ search.appverid:
 ms.assetid: 6f64f2de-d626-48ed-8084-03cc72301aa4
 ms.collection:
 - M365-security-compliance
-description: Backscatter은 위조 된 전자 메일 주소로 전송 되는 자동 바운스 메시지입니다. 후방 분산 DNSBL는 여러 합법적인 전자 메일 원본을 포함할 수 있는 백 분산 메시지를 전송 하는 서버를 식별 합니다. 이는 스팸 발송자 목록이 아니기 때문에 후방 분산 DNSBL에서 직접 제거 하려고 하지 않습니다.
-ms.openlocfilehash: 22eeec29722cf1742e096234aad95b9f6ee407e2
-ms.sourcegitcommit: fce0d5cad32ea60a08ff001b228223284710e2ed
+ms.custom:
+- seo-marvel-apr2020
+description: 이 문서에서는 백 분산 및 Microsoft EOP (Exchange Online Protection)에 대해 설명 합니다.
+ms.openlocfilehash: 14460b75920b053461722b5a129d785fb6952a5a
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 03/21/2020
-ms.locfileid: "42895408"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035595"
 ---
 # <a name="backscatter-and-eop"></a>Backscatter 및 EOP
 

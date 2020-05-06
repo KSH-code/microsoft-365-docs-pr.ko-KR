@@ -15,13 +15,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: 이 문서에는 Advanced eDiscovery에 대 한 릴리스 정보가 나와 있습니다.
-ms.openlocfilehash: e51647e56e7fb29d8f67d36941a2847278c1e1c0
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+description: 이 문서에서는 알려진 문제, 문제 해결 및 새로운 기능을 포함 하 여 고급 eDiscovery에 대 한 릴리스 정보를 제공 합니다.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 45a4647856fef0186840ec5465bb9250e5d78de4
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601645"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034622"
 ---
 # <a name="release-notes-for-advanced-ediscovery"></a>Advanced eDiscovery에 대 한 릴리스 정보
 

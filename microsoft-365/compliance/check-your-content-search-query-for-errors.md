@@ -14,13 +14,15 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: 88898874-e262-4c5c-b6d2-4e697497fc74
-description: 검색을 실행 하기 전에 키워드 쿼리를 검사 하 여 지원 되지 않는 문자나 소문자 부울 연산자와 같은 오류 및 오타에 대 한 콘텐츠 검색을 확인 합니다. 오류가 발견 되 면 수정 된 쿼리를 제안 합니다.
-ms.openlocfilehash: bd87faa774f8449833287ff0c583f9e15a4298ff
-ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
+ms.custom:
+- seo-marvel-apr2020
+description: 키워드 쿼리를 통해 콘텐츠 검색에 지원 되지 않는 문자 및 소문자 부울 연산자와 같은 오류 및 오타가 있는지 확인 하는 방법을 알아봅니다.
+ms.openlocfilehash: 489afd8b2fe19742b63232d323197afecc257ccc
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43942911"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035630"
 ---
 # <a name="check-your-content-search-query-for-errors"></a>오류에 대한 콘텐츠 검색 쿼리 확인
 

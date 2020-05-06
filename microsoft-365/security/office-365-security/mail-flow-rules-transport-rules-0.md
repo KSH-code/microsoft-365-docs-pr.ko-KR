@@ -1,5 +1,5 @@
 ---
-title: Exchange Online Protection의 메일 흐름 규칙(전송 규칙)
+title: 메일 흐름 규칙 (전송 규칙)-Exchange Online Protection
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -12,12 +12,12 @@ ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: 9c2cf227-eff7-48ef-87fb-487186e47363
 description: 메일 흐름 규칙 (전송 규칙)을 사용 하 여 조직을 통과 하는 메시지를 식별 하 고이에 대 한 조치를 취할 수 있습니다.
-ms.openlocfilehash: 0a182b9d4a63a824a3955e8296160779c826960d
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 8cb28a1f198d0717d2373de8f2b9cb048b6ff7df
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635415"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036188"
 ---
 # <a name="mail-flow-rules-transport-rules-in-exchange-online-protection"></a>Exchange Online Protection의 메일 흐름 규칙(전송 규칙)
 
@@ -84,7 +84,7 @@ Exchange Online Protection에서 사용할 수 있는 메일 흐름 규칙 작�
 
 |**EAC의 속성 이름**|**PowerShell의 매개 변수 이름**|**설명**|
 |:-----|:-----|:-----|
-|**Priority(우선 순위)**|_Priority(우선 순위)_|규칙이 메시지에 적용 되는 순서를 나타냅니다. 기본 우선 순위는 규칙을 만든 시기 (이전 규칙은 새 규칙 보다 우선 순위가 높고 우선 순위 규칙의 우선 순위가 낮은 규칙 보다 높음)에 따라 달라 집니다. <br/><br/> 규칙 목록에서 규칙을 위나 아래로 이동 하 여 EAC에서 규칙 우선 순위를 변경 합니다. PowerShell에서는 우선 순위 번호 (우선 순위가 가장 높은 값)를 설정 합니다. <br/><br/> 예를 들어 신용 카드 번호가 포함된 메시지는 거부하는 규칙과 승인을 요구하는 또 다른 규칙이 있을 때 거부 규칙이 먼저 적용되도록 한 다음 다른 규칙이 적용되지 않도록 할 수 있습니다.  |
+|**우선 순위**|_우선 순위_|규칙이 메시지에 적용 되는 순서를 나타냅니다. 기본 우선 순위는 규칙을 만든 시기 (이전 규칙은 새 규칙 보다 우선 순위가 높고 우선 순위 규칙의 우선 순위가 낮은 규칙 보다 높음)에 따라 달라 집니다. <br/><br/> 규칙 목록에서 규칙을 위나 아래로 이동 하 여 EAC에서 규칙 우선 순위를 변경 합니다. PowerShell에서는 우선 순위 번호 (우선 순위가 가장 높은 값)를 설정 합니다. <br/><br/> 예를 들어 신용 카드 번호가 포함된 메시지는 거부하는 규칙과 승인을 요구하는 또 다른 규칙이 있을 때 거부 규칙이 먼저 적용되도록 한 다음 다른 규칙이 적용되지 않도록 할 수 있습니다.  |
 |**Mode**|_Mode_|규칙에서 즉시 메시지를 처리 하도록 시작할지, 아니면 메시지 배달에 영향을 주지 않고 (즉, 데이터 손실 방지 또는 DLP 정책 팁을 포함 하거나 제외 하 여 규칙을 테스트할 지를 지정할 수 있습니다.) <br/><br/> 정책 팁은 Outlook 또는 웹용 Outlook에 메시지를 만드는 사용자에 게 가능한 정책 위반에 대 한 정보를 제공 하는 간략 한 메모를 표시 합니다. 자세한 내용은 **정책 팁**을 참조하세요. <br/><br/> 모드에 대 한 자세한 내용은 **Test a mail flow rule을**참조 하십시오.|
 |**다음 날짜에이 규칙 활성화** <br/><br/> **다음 날짜에이 규칙 비활성화**|_ActivationDate_ <br/> _ExpiryDate_|규칙이 활성화 되는 날짜 범위를 지정 합니다.|
 |**설정** 확인란 선택 또는 선택 되지 않음|새 규칙: **new-transportrule** Cmdlet에서 Enabled 매개 변수를 _사용_ 합니다. <br/><br/> 기존 규칙: **new-transportrule** 또는 **Disable-New-transportrule** cmdlet을 사용 합니다. <br/><br/> 이 값은 규칙의 **State** 속성에 표시 됩니다.|사용 하지 않도록 설정 된 규칙을 만들고 테스트할 준비가 되 면 사용 하도록 설정할 수 있습니다. 또는 규칙을 삭제 하지 않고 사용 하지 않도록 설정 하 여 설정을 보존할 수 있습니다.|

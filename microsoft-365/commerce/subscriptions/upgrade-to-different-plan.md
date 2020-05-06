@@ -24,12 +24,12 @@ search.appverid:
 - GEA150
 description: 새 구독으로 업그레이드 하는 방법을 알아봅니다.
 monikerRange: o365-worldwide
-ms.openlocfilehash: faddecffd91eb58dab7a3b498de97633b5efd9d0
-ms.sourcegitcommit: 11198133b43eb6a6369e544c8a0dd408d582591c
+ms.openlocfilehash: 7739da2d56fa0d37dd64b22b2959ad6dca198e75
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/23/2020
-ms.locfileid: "43796515"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44046219"
 ---
 # <a name="upgrade-to-a-different-plan"></a>다른 플랜으로 업그레이드 
 
@@ -42,7 +42,7 @@ ms.locfileid: "43796515"
 
 **업그레이드** 탭을 사용 하는 경우 새 요금제를 구입 하는 프로세스를 진행 하 고 있습니다. 모든 사용자에 게 새 요금제의 라이선스가 자동으로 할당 되며 이전 계획은 사용자에 대해 취소 됩니다.
 
-1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품 & 서비스</a> 페이지로 이동 합니다.
+1. 관리 센터에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a> **청구** \> 페이지로 이동 합니다.
 
 2. 업그레이드할 구독을 선택 합니다.
 
@@ -59,7 +59,7 @@ ms.locfileid: "43796515"
 
 7. 작업이 완료 되 면 **주문 하기**를 선택 합니다.
 
-체크 아웃이 완료 되 면 업그레이드를 완료 하는 데 몇 분 정도 걸릴 수 있습니다. 바로 새 구독 사용을 시작할 수 있습니다. 업그레이드 **상태 확인** 을 선택 하 여 업그레이드 진행 상황을 확인 합니다. 업그레이드가 완료 되 면 알림을 받을 수 있습니다. 알림은 새 구독 옆의 **제품 & 서비스** 페이지에 표시 됩니다.
+체크 아웃이 완료 되 면 업그레이드를 완료 하는 데 몇 분 정도 걸릴 수 있습니다. 바로 새 구독 사용을 시작할 수 있습니다. 업그레이드 **상태 확인** 을 선택 하 여 업그레이드 진행 상황을 확인 합니다. 업그레이드가 완료 되 면 알림을 받을 수 있습니다. 알림이 새 구독 옆의 **제품** 페이지에 표시 됩니다.
 
 ## <a name="the-upgrade-tab-is-empty"></a>업그레이드 탭이 비어 있음
 
@@ -137,7 +137,7 @@ ms.locfileid: "43796515"
 
 #### <a name="your-subscription-has-an-unpaid-balance"></a>구독의 잔액이 송장의
 
-이 문제를 해결 하려면 <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">Products & services</a> 페이지에서 구독을 찾은 다음 **청구** 섹션에서 **지금 결제** 링크를 선택 합니다. 지불이 끝나면 **업그레이드** 탭을 다시 선택 합니다.
+이 문제를 해결 하려면 <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a> 페이지에서 구독을 찾은 다음 **대금 청구** 섹션에서 **지금 결제** 링크를 선택 합니다. 지불이 끝나면 **업그레이드** 탭을 다시 선택 합니다.
 
 ## <a name="what-does-upgrading-a-plan-do-to-my-service-and-billing"></a>요금제를 업그레이드 하는 작업은 내 서비스 및 대금 청구로 수행 됩니까?
 

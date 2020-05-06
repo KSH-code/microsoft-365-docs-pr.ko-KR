@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 규정 준수 센터 및 Microsoft 365 보안 센터의 권한
+title: Microsoft 365 보안 및 규정 준수 센터의 권한
 f1.keywords:
 - NOCSH
 ms.author: cabailey
@@ -16,12 +16,13 @@ search.appverid:
 - MOE150
 - MET150
 description: Microsoft 365 보안 센터나 Microsoft 365 규정 준수 센터를 사용하여 보안 또는 규정 준수와 관련된 모든 작업에 대한 권한을 중앙에서 관리할 수 있습니다.
-ms.openlocfilehash: f703a333cf77ebb41f7b72f141cbdc813858ab11
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 74139dfef3e0adfccbf16451d3577a8a916a0f97
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43634475"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44033905"
 ---
 # <a name="permissions-in-the-microsoft-365-compliance-center-and-microsoft-365-security-center"></a>Microsoft 365 규정 준수 센터 및 Microsoft 365 보안 센터의 권한
 

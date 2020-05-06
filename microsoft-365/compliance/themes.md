@@ -1,5 +1,5 @@
 ---
-title: 테마
+title: 테마-데이터 조사
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -15,13 +15,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: ''
-ms.openlocfilehash: 4460faebf5bc138eb72e583c154ee6ee9d70c294
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: 데이터 조사 중에 테마를 사용 하 여 일반적인 아이디어나 개념을 검색 하 여 문서를 구성 합니다.
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: e05210036ce2db0a06b6450a611908cf2de24f19
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42080915"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034512"
 ---
 # <a name="themes"></a>테마
 

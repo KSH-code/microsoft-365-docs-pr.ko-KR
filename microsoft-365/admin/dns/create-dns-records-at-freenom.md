@@ -20,12 +20,12 @@ search.appverid:
 - MOE150
 ms.assetid: d8ff45a2-19e3-413d-aa64-a9982bd6633c
 description: 도메인을 확인 하 고 전자 메일, 비즈니스용 Skype Online에 대 한 DNS 레코드를 설정 하 고 Microsoft의 Freenom에 있는 기타 서비스를 설치 하는 방법을 알아봅니다.
-ms.openlocfilehash: a7ad45d3d785478966df5120567836200de316da
-ms.sourcegitcommit: c7f11d851073ef14a69669f6c8b7e0c11e4bb7a1
+ms.openlocfilehash: 39963b5c0f5f3f82fe193160e8aa8ab03894cedd
+ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43939230"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44049038"
 ---
 # <a name="create-dns-records-at-freenom-for-microsoft"></a>Microsoft에 대 한 Freenom에서 DNS 레코드 만들기
 
@@ -137,9 +137,9 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
   
 8. 새 레코드의 상자에서 다음 표에 있는 첫 번째 행의 값을 입력하거나 복사하여 붙여넣습니다. 
     
-    |**이름**|**종류**|**TTL**|**Target(대상)**|**Priority(우선 순위)**|
+    |**이름**|**종류**|**TTL**|**Target(대상)**|**우선 순위**|
     |:-----|:-----|:-----|:-----|:-----|
-    |(공백으로 둠)  <br/> |MX (Mail Exchanger)(MX(메일 교환기))  <br/> |3600 (초)  <br/> |\<\>mail.protection.outlook.com  <br/> **참고:** Microsoft 계정에서 * \<도메인 키\> * 를 가져옵니다.   [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)          |10    <br/> 우선 순위에 대한 자세한 내용은 [MX 우선 순위란?](https://support.office.com/article/17d415c1-067e-4974-84d5-aaeaf3a0c0a9)을 참조하세요. <br/> |
+    |(공백으로 둠)  <br/> |MX (Mail Exchanger)(MX(메일 교환기))  <br/> |3600 (초)  <br/> |\<\>mail.protection.outlook.com  <br/> **참고:** Microsoft 계정에서 * \<도메인 키\> * 를 가져옵니다.   [이 값을 찾는 방법](../get-help-with-domains/information-for-dns-records.md)          |10    <br/> 우선 순위에 대한 자세한 내용은 [MX 우선 순위란?](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)을 참조하세요. <br/> |
    
    ![Freenom MX 레코드](../../media/8896c4a9-b3dd-45ed-9916-f7da2715ba8c.png)
   
@@ -220,9 +220,9 @@ Microsoft에서 올바른 TXT 레코드를 찾으면 도메인이 확인된 것�
   
 6. In the boxes for the new record, type or copy and paste the following values. 
     
-    |**Name(이름)**|**Record type(레코드 종류)**|**TTL**|**Target(대상)**|
+    |**이름**|**Record type(레코드 종류)**|**TTL**|**Target(대상)**|
     |:-----|:-----|:-----|:-----|
-    |(공백으로 둠)  <br/> |TXT  <br/> |3600 (초)  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/>**참고: ** 모든 간격이 올바르게 유지되도록 이 항목을 복사하여 붙여넣는 것이 좋습니다.           |
+    |(공백으로 둠)  <br/> |TXT  <br/> |3600 (초)  <br/> |v=spf1 include:spf.protection.outlook.com -all  <br/>**참고:** 모든 공백이 올바르게 유지되도록 이 항목을 복사하여 붙여 넣는 것이 좋습니다.           |
    
     ![SPF의 freenom TXT 값](../../media/1b3b1199-9104-4ca1-acdb-786d139c21ac.png)
   

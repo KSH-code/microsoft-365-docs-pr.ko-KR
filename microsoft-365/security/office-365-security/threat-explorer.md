@@ -1,5 +1,5 @@
 ---
-title: 위협 탐색기 및 실시간 검색, 위협 탐색기에 대 한 새로운 기능, Office 365, 보안, 클라우드 보안, 새로운 기능의 신규 보안, 새로운 ATP 기능의 변경 사항
+title: 위협 탐색기 및 실시간 검색
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -15,13 +15,14 @@ search.appverid:
 ms.assetid: 82ac9922-939c-41be-9c8a-7c75b0a4e27d
 ms.collection:
 - M365-security-compliance
-description: 보안 &amp; 및 준수 센터의 Explorer 및 실시간 검색에 대해 알아봅니다.
-ms.openlocfilehash: 2d75a5e05bb3fce85d52856afabc6aba13594f26
-ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
+description: 보안 &amp; 및 준수 센터에서 Explorer 및 실시간 검색을 사용 하 여 위협에 효과적이 고 효율적으로 대응 하는 방법에 대해 알아봅니다.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 7d540b52a403e43be06fc731590d183d5edfa7f9
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43708562"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036755"
 ---
 # <a name="threat-explorer-and-real-time-detections"></a>위협 탐색기 및 실시간 검색
 

@@ -15,13 +15,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: 고급 eDiscovery 사례에서 Microsoft 이외 365 데이터를 검토 집합으로 가져옵니다.
-ms.openlocfilehash: 823ecbdbd50adbb1925bcda154db2c1b8ba24cca
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: 고급 eDiscovery 사례에서 분석을 위해 365 Microsoft 제품이 아닌 데이터를 검토 집합으로 가져오는 방법에 대해 알아봅니다.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: ed4a26ea1dd68b9198cce67ce0f97580ed4b2a99
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632643"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034426"
 ---
 # <a name="load-non-microsoft-365-data-into-a-review-set"></a>타사 365 데이터를 검토 집합으로 로드
 

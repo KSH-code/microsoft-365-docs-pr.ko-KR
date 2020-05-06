@@ -1,5 +1,5 @@
 ---
-title: SharePoint, OneDrive 또는 Microsoft Teams에서 감지한 악성 파일에 대한 정보 보기
+title: Office 365 ATP에서 검색 한 악성 파일에 대 한 정보 보기
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -16,12 +16,13 @@ ms.assetid: 5ed8abf1-c0e9-4e5b-a5b7-2059cea50b61
 ms.collection:
 - M365-security-compliance
 description: SharePoint, OneDrive 또는 팀에서 검색 된 악성 파일에 대 한 정보를 볼 수 있는 위치 및 해당 파일에 대해 작업을 수행 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: 95f497c5be16d1ba1d4fa9fc57f0dd9650450414
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 47b1fea4b3b5713a8f69e8f4b2c0e2ad0f6dd6b8
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43635403"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036647"
 ---
 # <a name="view-information-about-malicious-files-detected-in-sharepoint-onedrive-or-microsoft-teams"></a>SharePoint, OneDrive 또는 Microsoft Teams에서 감지한 악성 파일에 대한 정보 보기
 

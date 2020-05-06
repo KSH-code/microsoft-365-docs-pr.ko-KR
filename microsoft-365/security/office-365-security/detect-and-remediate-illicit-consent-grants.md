@@ -15,13 +15,14 @@ ms.service: O365-seccomp
 localization_priority: Normal
 search.appverid:
 - MET150
-description: Office 365에서 불법 동의 권한 부여 공격을 인식하고 교정하는 방법에 대해 알아보세요.
-ms.openlocfilehash: 49fbbc1ea687cb5c01b39045a7359ee131a6732a
-ms.sourcegitcommit: 481fb95d8b80cf2102a9c73b21e7effa79e594e7
+description: Microsoft Office 365에서 불법 동의 부여 공격을 인식 하 고 수정 하는 방법에 대해 알아봅니다.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: c7ba6c521c814e4ea44c2dc29ccdad8143d166d4
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/24/2020
-ms.locfileid: "43808971"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034831"
 ---
 # <a name="detect-and-remediate-illicit-consent-grants"></a>불법 동의 권한 부여 검색 및 재구성
 

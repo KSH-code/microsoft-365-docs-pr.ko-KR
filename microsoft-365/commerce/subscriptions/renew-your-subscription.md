@@ -23,13 +23,13 @@ search.appverid:
 - BEA160
 - GEA150
 ms.assetid: 8d83b530-f4ca-47f6-a666-e5791cbacc7e
-description: '제품 키를 사용 하 여 Microsoft 365 비즈니스 에디션 구독을 갱신 하 고, 되풀이 되는 대금 청구를 설정 하거나 해제 하는 방법을 알아봅니다. '
-ms.openlocfilehash: 9a44f8e65aad46e82134d8f088f6955bcd37ad3b
-ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
+description: '제품 키를 사용 하 여 Microsoft 365 비즈니스 에디션 구독을 갱신 하 고, 되풀이 되는 대금 청구 기능을 설정 하거나 해제 하는 방법을 알아봅니다. '
+ms.openlocfilehash: 7cceae61891da31dbb058af1db12598a02b172e2
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43707658"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44046231"
 ---
 # <a name="renew-microsoft-365-for-business"></a>Microsoft 365 for business 갱신
 
@@ -48,7 +48,7 @@ ms.locfileid: "43707658"
 
 ::: moniker range="o365-worldwide"
 
-1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품 및 서비스</a> 페이지로 이동합니다.
+1. 관리 센터에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a> **청구** \> 페이지로 이동 합니다.
 
 2. 되풀이 청구를 관리할 구독을 선택합니다.
 
@@ -60,7 +60,7 @@ ms.locfileid: "43707658"
 
     > [!NOTE]
     > - 활성 구독의 경우에만 **되풀이** 되는 청구 설정을 변경할 수 있습니다. 구독이 이미 만료 되었거나 사용 하지 않도록 설정 된 경우에는 [다시 정품 인증](reactivate-your-subscription.md) 을 받아야 되풀이 되는 **대금 청구** 를 설정 하거나 해제할 수 있습니다.
-    > - 되풀이 되는 **대금 청구** 를 해제 하면 구독은 즉시 취소 되지 않습니다. 만료 될 때까지 활성 상태를 유지 합니다. **Products & services** 페이지에서 구독 정보의 **청구** 섹션에 나와 있는 만료 날짜를 볼 수 있습니다.
+    > - 되풀이 되는 **대금 청구** 를 해제 하면 구독은 즉시 취소 되지 않습니다. 만료 될 때까지 활성 상태를 유지 합니다. **제품** 페이지의 구독 세부 정보에 대 한 **청구** 섹션에서 만료 날짜를 볼 수 있습니다.
     > - 즉시 구독을 취소 하는 방법에 대 한 자세한 내용은 [Subscription 취소](cancel-your-subscription.md)를 참조 하세요.
 
 ::: moniker-end
@@ -70,7 +70,7 @@ ms.locfileid: "43707658"
 1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=847745" target="_blank">구독</a> 페이지로 이동합니다.
 
 2. 되풀이 청구를 관리할 구독을 선택합니다.
- 
+
 3. 되풀이 되는 **대금 청구**를 설정 하려면 토글을 **설정으로 전환 합니다.**
 
     ![정기 청구 기능이 설정 된 구독 카드의 클로즈업입니다.](../../media/984464dc-6b63-4b24-84e1-67f6c4b1d48e.png)
@@ -109,10 +109,6 @@ ms.locfileid: "43707658"
   
 [구독이 종료되면 내 데이터와 액세스 권한에 어떤 변화가 있나요?](what-if-my-subscription-expires.md)
 
-[결제 방법을 추가, 업데이트 또는 제거](../billing-and-payments/add-update-or-remove-credit-card-or-bank-account.md)
-
-[결제 방법 변경](../billing-and-payments/change-payment-method.md)
-  
 [제품 키 입력](../enter-your-product-key.md)
   
 [비즈니스용 Microsoft 365 평가판 구입](../buy-a-subscription-from-your-free-trial.md)

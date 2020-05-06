@@ -15,13 +15,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: ''
-ms.openlocfilehash: 7c59b36e3594d653f188742890ea849e2595a648
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: 검색 통계는 검색 결과의 유효성을 검사 하 고 검색 세부 정보 플라이 아웃 페이지에서 상태 아래에 표시 하는 효율적인 방법입니다.
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: dc6aea96e86388ae7ecfa0fa545bc5571eeff0cd
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42081380"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035840"
 ---
 # <a name="search-statistics"></a>검색 통계
 

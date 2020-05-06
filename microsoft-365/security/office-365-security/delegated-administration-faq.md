@@ -11,13 +11,15 @@ ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Normal
 ms.assetid: d6a87ce8-2c22-433a-b430-5eab14f6afdc
-description: 이 항목에서는 다른 테 넌 트 (회사)에 대 한 EOP (Exchange Online Protection)를 관리 하는 기능을 비롯 하 여 위임 된 관리 작업을 수행 하려는 Microsoft 파트너 및 대리점에 대 한 질문과 대답이 제공 됩니다.
-ms.openlocfilehash: b79c0aba026a8d59aac338ceac0f1c4a60d71c4d
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom:
+- seo-marvel-apr2020
+description: 이 항목에서는 위임 된 Microsoft 365 관리 작업을 수행 하려는 Microsoft 파트너 및 대리점에 대 한 Faq 및 답변을 제공 합니다.
+ms.openlocfilehash: d2411734e583cce2be817793e2b39abba2b186a5
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637655"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036466"
 ---
 # <a name="delegated-administration-faq"></a>위임된 관리 FAQ
 

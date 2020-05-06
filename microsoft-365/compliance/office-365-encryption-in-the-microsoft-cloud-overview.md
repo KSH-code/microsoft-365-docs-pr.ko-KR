@@ -15,13 +15,14 @@ ms.collection:
 - Strat_O365_Enterprise
 - M365-security-compliance
 - Strat_O365_Enterprise
-description: Microsoft 클라우드의 암호화 개요
-ms.openlocfilehash: 34ec910e60ceb718daa42dc31aa8a5a3440dbdd6
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: 이 문서에서는 Microsoft 클라우드에서 고객 데이터를 안전 하 게 유지 하는 데 사용 되는 다양 한 암호화 형식에 대 한 개요를 읽어 봅니다.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 62353725073f5010db1a8681bebad18bc671d81f
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43626926"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44031388"
 ---
 # <a name="encryption-in-the-microsoft-cloud"></a>Microsoft 클라우드의 암호화
 

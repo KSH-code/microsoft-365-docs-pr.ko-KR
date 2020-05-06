@@ -14,13 +14,14 @@ search.appverid:
 ms.assetid: 2e3fcfc5-5604-4b88-ac0a-c5c45c03f1db
 ms.collection:
 - M365-security-compliance
-description: Exchange Online Protection에서 메시지에 추가한 머리글 필드 및 값에 대해 알아봅니다.
-ms.openlocfilehash: 8b034da9e6c4ac138e804e07e4654c1e269aeda1
-ms.sourcegitcommit: 4f2129b161eed3f9ddec47494fa19a2a7a553e4f
+description: 메시지와 메시지 처리 방법에 대한 정보를 제공하기 위해 Exchange Online Protection이 메시지에 추가하는 헤더 필드에 대해 알아봅니다.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 035b081980e52d1e68d21e6227636ed78697b4cc
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/24/2020
-ms.locfileid: "43805213"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44033753"
 ---
 # <a name="anti-spam-message-headers"></a>스팸 방지 메시지 헤더
 

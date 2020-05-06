@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 준수 센터의 새로운 기능
+title: 준수 센터의 최신 업데이트
 f1.keywords:
 - NOCSH
 ms.author: brendonb
@@ -17,12 +17,13 @@ ms.assetid: e3c6df61-8513-499d-ad8e-8a91770bff63
 ms.collection:
 - m365-security-compliance
 description: Microsoft 365 준수 센터의 기능과 마찬가지로, 도움말 콘텐츠는 항상 발전 하 고 있습니다. Microsoft에서는 피드백에 따라 계속 새 문서를 만들고, 기존 기사를 업데이트 하 고, 변경 작업을 수행 하 고 있습니다. 이번 달의 새로운 기능과 업데이트 된 기능에 대해 알아보세요.
-ms.openlocfilehash: 4a07327f9ea830483aa3abbaa1b6bd52ca825230
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: b7edcf8c4c530c926d323fddbf795cd930efd649
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43632163"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036021"
 ---
 # <a name="recent-updates-to-microsoft-365-compliance-content"></a>Microsoft 365 준수 콘텐츠에 대 한 최신 업데이트
 

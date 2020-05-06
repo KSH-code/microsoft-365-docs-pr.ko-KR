@@ -1,5 +1,5 @@
 ---
-title: 자동 조사 및 대응 (AIR)
+title: 자동화 된 조사 및 응답 (AIR) 개요
 f1.keywords:
 - NOCSH
 ms.author: deniseb
@@ -14,15 +14,15 @@ search.appverid:
 - MOE150
 ms.collection: M365-security-compliance
 description: Office 365 Advanced Threat Protection 계획 2의 자동화 된 조사 및 응답 기능에 대 한 개요를 확인 하세요.
-ms.custom: air
-ms.openlocfilehash: 638f421289d5b4f0d8c02fbd5bf2913191721bf6
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom: air - seo-marvel-mar2020
+ms.openlocfilehash: 3f8aa761207be61f78eb5f9b5140439c86455bf3
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43638551"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035619"
 ---
-# <a name="automated-investigation-and-response-air"></a>자동 조사 및 대응 (AIR)
+# <a name="an-overview-of-automated-investigation-and-response-air-in-microsoft-365"></a>Microsoft 365의 자동화 된 조사 및 응답 (AIR)에 대 한 개요
 
 보안 알림이 트리거되면 해당 경고를 확인 하 고 조직을 보호 하기 위한 단계를 수행 하는 보안 운영 팀이 진행 됩니다. 경우에 따라 보안 운영 팀에서 트리거된 경고 량이 지나치게 느껴질 수 있습니다. 자동화 된 조사 및 대응 (AIR) 기능은 도움이 될 수 있습니다. AIR을 사용 하면 보안 운영 팀이 보다 효율적이 고 효율적으로 작업할 수 있습니다. AIR 기능에는 현재 존재 하는 잘 알려진 위협에 대 한 응답으로 자동화 된 조사 프로세스가 포함 됩니다. 적절 한 교정 작업을 통해 승인을 받고, 보안 운영 팀이 검색 된 위협에 대처할 수 있도록 합니다. 
 

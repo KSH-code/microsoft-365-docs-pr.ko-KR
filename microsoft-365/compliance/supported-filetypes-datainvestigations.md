@@ -15,13 +15,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: ''
-ms.openlocfilehash: 055104a5b7f60fe54b421e7236143aa9af08b57f
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+description: 지원 되는 파일 형식 및 데이터 조사 (미리 보기)에 대해 볼 수 있는 뷰어를 나열 하는 표
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: b4aef30c3f2bc15c306a7561bab261bdb0bdcace
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41601435"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034542"
 ---
 # <a name="supported-file-types-in-data-investigations-preview"></a>데이터 조사에서 지원 되는 파일 형식 (미리 보기)
 
@@ -35,7 +36,7 @@ ms.locfileid: "41601435"
 | application/vnd | 오피스 | 예 | 예 | 예 | 아니요 | .xls; .dat |
 | application/vnd macroenabled. 12 | 생산성/열린 문서 형식 | 예 | 예 | 아니요 | 아니요 | .xlsb |
 | application/vnd macroenabled. 12 | 오피스 | 예 | 예 | 예 | 아니요 | .xlsm |
-| application/vnd macroenabled. 12 | 생산성/열린 문서 형식 | 아니요 | 예 | 아니요 | 아니요 | . .xltm |
+| application/vnd macroenabled. 12 | 생산성/열린 문서 형식 | 아니오 | 예 | 아니요 | 아니요 | . .xltm |
 | application/vnd | 생산성 | 아니요 | 아니요 | 아니요 | 아니요 | .msg |
 | application/vnd | 생산성/공동 작업 | 아니요 | 아니요 | 아니요 | 예 | .pst |
 | application/vnd | 오피스 | 예 | 예 | 예 | 아니요 | .ppt; .pps;. p |

@@ -15,13 +15,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: ''
-ms.openlocfilehash: 5421ba811e401bdd191aee0ddbff21a1286dc9fe
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: 오류 수정을 사용 하 여 콘텐츠를 제대로 처리 하지 못할 수 있는 고급 eDiscovery의 데이터 문제를 해결 하는 방법을 알아봅니다.
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: 8ada53dd6339541fc39b37903a0f58fd4ad84c8c
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42074575"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035912"
 ---
 # <a name="error-remediation-when-processing-data"></a>데이터를 처리할 때 오류 수정
 
@@ -104,7 +105,7 @@ ms.locfileid: "42074575"
 
 ## <a name="remediating-errors-by-uploading-the-extracted-text"></a>추출 된 텍스트를 업로드 하 여 오류 수정
 
-고급 eDiscovery에서 해석할 수 있는 기본 형식으로 파일을 수정 하는 것이 불가능할 수도 있습니다. 하지만 원본 파일을 *텍스트 층*이라는 프로세스의 원본 텍스트가 포함 된 텍스트 파일로 바꿀 수 있습니다. 이 작업을 수행 하려면이 문서에서 설명 하는 단계를 수행 하 되, 원본 파일을 기본 형식으로 수정 않고 원본 파일에서 추출한 텍스트를 포함 하는 텍스트 파일을 만든 다음 원래 filename을 사용 하 여 텍스트 파일을 업로드 합니다. .txt 접미사가 추가 됩니다. 예를 들어, 파일 이름 335850cc-6602-4af0-acfa-1d14d9128ca2를 사용 하 여 오류를 수정 하는 중에 파일이 다운로드 됩니다. 네이티브 응용 프로그램에서 파일을 열고 텍스트를 복사한 다음 335850cc-6602-4af0-acfa-1d14d9128ca2 라는 새 파일에 붙여 넣습니다. 이 작업을 수행할 때는 재구성 된 텍스트 파일을 고급 eDiscovery로 업로드 하기 전에 로컬 컴퓨터의 재구성 된 파일 위치에서 원본 파일을 원시 형식으로 제거 해야 합니다.
+고급 eDiscovery에서 해석할 수 있는 기본 형식으로 파일을 수정 하는 것이 불가능할 수도 있습니다. 하지만 원본 파일을 *텍스트 층*이라는 프로세스의 원본 텍스트가 포함 된 텍스트 파일로 바꿀 수 있습니다. 이 작업을 수행 하려면이 문서에서 설명 하는 단계를 수행 하 되, 원본 파일을 기본 형식으로 수정 않고 원본 파일에서 추출한 텍스트를 포함 하는 텍스트 파일을 만든 다음 .txt 접미사로 추가 된 원래 파일 이름을 사용 하 여 텍스트 파일을 업로드 합니다. 예를 들어, 파일 이름 335850cc-6602-4af0-acfa-1d14d9128ca2를 사용 하 여 오류를 수정 하는 중에 파일이 다운로드 됩니다. 네이티브 응용 프로그램에서 파일을 열고 텍스트를 복사한 다음 335850cc-6602-4af0-acfa-1d14d9128ca2 라는 새 파일에 붙여 넣습니다. 이 작업을 수행할 때는 재구성 된 텍스트 파일을 고급 eDiscovery로 업로드 하기 전에 로컬 컴퓨터의 재구성 된 파일 위치에서 원본 파일을 원시 형식으로 제거 해야 합니다.
 
 ## <a name="what-happens-when-files-are-remediated"></a>파일을 수정 하는 경우 수행 되는 작업
 

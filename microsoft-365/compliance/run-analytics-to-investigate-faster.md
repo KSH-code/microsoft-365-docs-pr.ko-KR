@@ -15,13 +15,14 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: ''
-ms.openlocfilehash: c71f3a31c49c92a24d449fae151b858645ad2df6
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+description: 유사 중복 검색, 전자 메일 스레딩 및 테마와 같은 분석 도구를 사용 하 여 조사 속도를 향상 하는 방법을 알아봅니다.
+ms.custom: seo-marvel-mar2020
+ms.openlocfilehash: e7c5103adabadf88028351f0314bcdfaa2cd4d0f
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42081545"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035850"
 ---
 # <a name="run-analytics-to-investigate-faster"></a>신속한 조사를 위한 분석 실행
 

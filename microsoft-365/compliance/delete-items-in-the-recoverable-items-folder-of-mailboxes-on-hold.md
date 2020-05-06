@@ -1,5 +1,5 @@
 ---
-title: 보류에서 클라우드 기반 사서함의 복구 가능한 항목 폴더에 있는 항목 삭제-관리자 도움말
+title: 보류 가능한 항목 폴더에 있는 클라우드 사서함의 항목 삭제-관리자 도움말
 f1.keywords:
 - NOCSH
 ms.author: markjjo
@@ -17,12 +17,13 @@ search.appverid:
 - MET150
 ms.assetid: a85e1c87-a48e-4715-bfa9-d5275cde67b0
 description: '관리자: 해당 사서함이 법적 보존 상태로 설정 된 경우에도 Exchange Online 사서함에 대 한 사용자의 복구 가능한 항목 폴더에서 항목을 삭제 합니다. 이렇게 하면 Microsoft 365에 실수로 분산 된 데이터를 효과적으로 삭제할 수 있습니다.'
-ms.openlocfilehash: 4cf568c06fc3b6ee886ff1823d8771a64c0286d8
-ms.sourcegitcommit: 44e685a0b193e89de5befb1e1a3740eb31931799
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 0e42249fb2ba7143c4c833193b31c72f0fb73137
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/05/2020
-ms.locfileid: "44022088"
+ms.locfileid: "44035892"
 ---
 # <a name="delete-items-in-the-recoverable-items-folder-of-cloud-based-mailboxes-on-hold---admin-help"></a>보류에서 클라우드 기반 사서함의 복구 가능한 항목 폴더에 있는 항목 삭제-관리자 도움말
 

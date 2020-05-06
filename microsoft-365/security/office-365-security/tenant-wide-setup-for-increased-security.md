@@ -16,13 +16,15 @@ ms.collection:
 - M365-security-compliance
 search.appverid: MET150
 ms.assetid: 8d274fe3-db51-4107-ba64-865e7155b355
-description: Microsoft 365 환경의 보안에 영향을 주는 테 넌 트 수준 설정에 대해 권장 되는 구성을 안내 합니다. 보안 요구 사항에 따라 보안이 더 나 덜 필요할 수 있습니다. 이 권장 사항을 출발점으로 사용 합니다.
-ms.openlocfilehash: 0d16011a7abfcaa20d2a053ee9c00b3719a2b3c6
-ms.sourcegitcommit: f5cecd77e63ae8b47743d4f6dc3135f5decaf28b
+ms.custom:
+- seo-marvel-apr2020
+description: 이 항목에서는 Microsoft 365 환경의 보안에 영향을 주는 테 넌 트 수준 설정에 대 한 권장 구성을 안내 합니다.
+ms.openlocfilehash: 25338e95a638173abeebd3477955ad16c9116712
+ms.sourcegitcommit: e55e4747d3b838baacab8985aefc24aac245c431
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/30/2020
-ms.locfileid: "43949396"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44043360"
 ---
 # <a name="configure-your-microsoft-365-tenant-for-increased-security"></a>보안 강화를 위해 Microsoft 365 테 넌 트 구성
 
@@ -109,7 +111,7 @@ SharePoint 관리 센터 및 비즈니스용 OneDrive 관리 센터에는 동일
 
 이 경우에는 다음 방법 중 하나를 사용 하 여 SharePoint Online 및 비즈니스용 OneDrive에 대해이 작업을 수행 합니다.
 
-- PowerShell을 사용 하려면 [최신 인증을 사용 하지 않는 앱 차단](https://docs.microsoft.com/intune-classic/deploy-use/block-apps-with-no-modern-authentication)를 참조 하세요.
+- PowerShell을 사용 하려면 [ADAL (최신 인증을 사용 하지 않는 앱 차단)](https://docs.microsoft.com/mem/intune/protect/app-modern-authentication-block)을 참조 하세요.
 
 - "장치 액세스 ' 페이지 (최신 인증을 사용 하지 않는 앱에서의 액세스 제어)의 SharePoint 관리 센터에서이를 구성 합니다. 차단을 선택 합니다.
 

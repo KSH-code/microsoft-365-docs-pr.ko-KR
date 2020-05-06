@@ -15,13 +15,15 @@ search.appverid:
 - MOE150
 - MET150
 ms.assetid: ''
-description: 이 문서에서는 Microsoft 365의 새 데이터 조사 (미리 보기) 도구에 대해 설명 합니다.
-ms.openlocfilehash: 89bd9e637a74ac1b972b00f794eca408828c076d
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom:
+- seo-marvel-mar2020
+description: 이 문서에서는 Microsoft 365의 데이터 조사 (미리 보기) 도구에 대해 설명 합니다. 데이터 조사 도구는 데이터 유출를 평가 하 고 수정 하는 데 도움이 됩니다.
+ms.openlocfilehash: 6975d554e939481c6ee1c32ec4e76bb25c7bf36c
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43626774"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036051"
 ---
 # <a name="overview-of-data-investigations-preview-in-microsoft-365"></a>Microsoft 365의 데이터 조사 개요 (미리 보기)
 

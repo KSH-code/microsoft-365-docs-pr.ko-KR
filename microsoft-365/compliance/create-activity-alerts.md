@@ -17,13 +17,13 @@ search.appverid:
 - MET150
 ms.assetid: 72bbad69-035b-4d33-b8f4-549a2743e97d
 ROBOTS: NOINDEX, NOFOLLOW
-description: 사용자가 특정 작업을 수행할 때 Microsoft 365에서 전자 메일 알림을 보내도록 보안 & 준수 센터에서 작업 알림을 추가 하 고 관리 합니다.
-ms.openlocfilehash: e6800bf5b8bbc013586a4be248a4e9e71fc70507
-ms.sourcegitcommit: 60c1932dcca249355ef7134df0ceb0e57757dc81
+description: 사용자가 특정 작업을 수행할 때 Microsoft 365에서 전자 메일 알림을 보내도록 보안 & 준수 센터에서 활동 알림 추가 및 관리
+ms.openlocfilehash: 16c40ebeb44ecb1c54a1715a936436b3427a7d54
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43943167"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035810"
 ---
 # <a name="create-activity-alerts"></a>활동 알림 만들기
 

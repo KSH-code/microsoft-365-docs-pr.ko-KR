@@ -1,6 +1,6 @@
 ---
 title: 감독 정책
-description: 감독 정책에 대해 알아보기
+description: Microsoft 365에서 감독 정책을 사용 하 여 지정 된 검토자가 확인할 수 있는 직원 통신을 캡처하는 방법에 대해 설명 합니다.
 f1.keywords:
 - NOCSH
 ms.author: robmazz
@@ -18,13 +18,14 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
+ms.custom: seo-marvel-apr2020
 titleSuffix: Microsoft 365 Compliance
-ms.openlocfilehash: df24ee91482785c725acd5b531c6b138e5e165a7
-ms.sourcegitcommit: 90f7bbba5fc23f10b59c75b2b65d6c0903ce66dd
+ms.openlocfilehash: b0778cd05565057fde8982e791a75801d097046c
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43930175"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44034562"
 ---
 # <a name="supervision-policies"></a>감독 정책
 
@@ -288,7 +289,7 @@ Office 365의 감독 정보에 대 한 자세한 내용은 [Microsoft 365 로드
 
 다음 감독 정책 활동은 감사 되어 통합 된 감사 로그에서 사용 가능 합니다.
 
-|**활동**|**연결 된 명령**|
+|**작업**|**연결 된 명령**|
 |:-----|:-----|
 | **정책 만들기** | [Remove-supervisoryreviewpolicyv2](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/new-supervisoryreviewpolicyv2) <br> [Set-supervisoryreviewrule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/new-supervisoryreviewrule) |
 | **정책 편집** | [Remove-supervisoryreviewpolicyv2](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/set-supervisoryreviewpolicyv2) <br> [Set-supervisoryreviewrule](https://docs.microsoft.com/powershell/module/exchange/policy-and-compliance/set-supervisoryreviewrule) |

@@ -17,12 +17,12 @@ ms.assetid: bdd5372d-775e-4442-9c1b-609627b94b5d
 ms.collection:
 - M365-security-compliance
 description: 안전한 링크 정책을 설정 하 여 Word, Excel, PowerPoint, Visio 파일 및 전자 메일 메시지의 악의적인 링크 로부터 조직을 보호 합니다.
-ms.openlocfilehash: 31401e8f890f329f5724347deec2d85b6e473552
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 946b4bd9eee9b19b2b88eaca8f0ff80e173bb139
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43638335"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44045239"
 ---
 # <a name="set-up-office-365-atp-safe-links-policies"></a>Office 365 ATP 안전한 링크 정책 설정
 
@@ -39,7 +39,7 @@ ATP Safe 링크를 사용 하도록 설정 하면 사용자가 전자 메일의 
   
 1. 필수 구성 요소를 검토 합니다.
     
-2. 모든 사용자에 게 적용 되는 기본 ATP 안전한 링크 정책을 검토 하 고 편집 합니다. 예를 들어 [ATP 안전한 링크에 대해 차단 된 사용자 지정 url 목록을 설정할](set-up-a-custom-blocked-urls-list-wtih-atp.md)수 있습니다.
+2. 모든 사용자에 게 적용 되는 기본 ATP 안전한 링크 정책을 검토 하 고 편집 합니다. 예를 들어 [ATP 안전한 링크에 대해 차단 된 사용자 지정 url 목록을 설정할](set-up-a-custom-blocked-urls-list-atp.md)수 있습니다.
     
 3. [ATP 안전한 링크에 대 한 사용자 지정 "재작성 금지" url 목록 설정을](set-up-a-custom-do-not-rewrite-urls-list-with-atp.md)비롯 하 여 특정 전자 메일 받는 사람에 대 한 정책을 추가 하거나 편집 합니다.
     
@@ -75,7 +75,7 @@ ATP Safe 링크를 사용 하도록 설정 하면 사용자가 전자 메일의 
     
 3. **전체 조직에 적용 되는 정책** 섹션에서 **기본값**을 선택 하 고 **편집** (편집 단추는 연필과 유사)을 선택 합니다.<br/>![안전한 링크 보호에 대 한 기본 정책을 편집 하려면 편집을 클릭 합니다.](../../media/d08f9615-d947-4033-813a-d310ec2c8cca.png)
   
-4. **다음 Url 차단** 섹션에서 조직의 사용자가 방문 하지 못하도록 할 url을 하나 이상 지정 합니다. ( [ATP 안전한 링크를 사용 하 여 사용자 지정 차단 된 url 목록 설정](set-up-a-custom-blocked-urls-list-wtih-atp.md)참조)
+4. **다음 Url 차단** 섹션에서 조직의 사용자가 방문 하지 못하도록 할 url을 하나 이상 지정 합니다. ( [ATP 안전한 링크를 사용 하 여 사용자 지정 차단 된 url 목록 설정](set-up-a-custom-blocked-urls-list-atp.md)참조)
     
 5. **전자 메일을 제외한 콘텐츠에 적용 되는 설정** 섹션에서 사용할 옵션을 선택 하거나 선택을 취소 합니다. (모든 옵션을 선택 하는 것이 좋습니다.) 
     
@@ -128,7 +128,7 @@ ATP 안전한 링크 정책을 설정 하거나 편집할 때 몇 가지 옵션�
 
 |이 옵션  |기능  |
 |---------|---------|
-| **다음 Url 차단** <br/>    | 조직에서 자동으로 차단 되는 Url의 사용자 지정 목록을 사용할 수 있도록 합니다. 사용자가이 목록에서 URL을 클릭 하면 URL이 차단 되는 이유를 설명 하는 [경고 페이지가](atp-safe-links-warning-pages.md) 표시 됩니다. 자세한 내용은 [Office 365 ATP 안전한 링크를 사용 하 여 사용자 지정 차단 된 url 목록 설정](set-up-a-custom-blocked-urls-list-wtih-atp.md)를 참조 하세요. |
+| **다음 Url 차단** <br/>    | 조직에서 자동으로 차단 되는 Url의 사용자 지정 목록을 사용할 수 있도록 합니다. 사용자가이 목록에서 URL을 클릭 하면 URL이 차단 되는 이유를 설명 하는 [경고 페이지가](atp-safe-links-warning-pages.md) 표시 됩니다. 자세한 내용은 [Office 365 ATP 안전한 링크를 사용 하 여 사용자 지정 차단 된 url 목록 설정](set-up-a-custom-blocked-urls-list-atp.md)를 참조 하세요. |
 | **Microsoft 365 앱 for enterprise, iOS 및 Android 용 Office** <br/>    | 이 옵션을 선택 하면 ATP Safe Links protection은 Word, Excel 및 PowerPoint 파일의 Windows 또는 Mac OS, Outlook의 전자 메일 메시지, iOS 또는 Android 장치의 Office 문서, Windows의 Visio 2016 파일 및 office 앱 (Word, PowerPoint, Excel, Outlook, OneNote)에 열려 있는 파일을 사용자가 Office 365에 로그인 한 경우 해당 Url에 적용 됩니다. |
 | **사용자가 ATP 안전한 링크 클릭 시기 추적 안 함** <br/>  | 이 옵션을 선택 하면 Word, Excel, PowerPoint, Visio 문서 및 Outlook 전자 메일 메시지의 Url에 대 한 데이터가 저장 되지 않습니다.  <br/> |
 |**사용자가 ATP 안전한 링크를 원본 URL로 클릭할 수 없도록 합니다.** <br/> |이 옵션을 선택 하면 사용자가 [경고 페이지](atp-safe-links-warning-pages.md) 를 지 나 악의적인 것으로 확인 된 URL로 계속할 수 없습니다.  <br/> |

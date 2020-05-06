@@ -21,12 +21,12 @@ search.appverid:
 - BEA160
 description: '다른 지역의 Microsoft 365 비즈니스 에디션 구독에 대해 부과할 세금을 확인할 수 있습니다. '
 ms.custom: okr_SMB
-ms.openlocfilehash: 491c8241d8517d342e04a214d426e937895aab5a
-ms.sourcegitcommit: d4d082292dc711a579fe925ad989ea54ec2e27f4
+ms.openlocfilehash: 0aeabd49477bdef856a7ddb9f3b7c39211be2479
+ms.sourcegitcommit: eb3c7f473e8fe62624f52c9bb38dcd6a96fa58a3
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43708134"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44045827"
 ---
 # <a name="tax-information"></a>세금 정보
 
@@ -114,7 +114,7 @@ Microsoft를 통해 구입한 Microsoft 365 관리 센터에 대한 세금은 �
 
 #### <a name="add-your-vat-id-eu-countries-only"></a>VAT ID 추가(EU 국가에만 해당)
 
-1. 관리 센터에서 **청구** \> <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품 및 서비스</a> 페이지로 이동합니다.
+1. 관리 센터에서 <a href="https://go.microsoft.com/fwlink/p/?linkid=842054" target="_blank">제품</a> **청구** \> 페이지로 이동 합니다.
 
 2. 업데이트 하려는 구독의 구독 카드를 찾습니다.
 

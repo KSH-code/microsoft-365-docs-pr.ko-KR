@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365의 사용자 지정 도메인에서 이메일용 DKIM 사용, 2048비트, 1024비트, 단계, 동작 방식, SPF, DMARC
+title: 사용자 지정 도메인에서 전자 메일에 DKIM을 사용하는 방법
 f1.keywords:
 - NOCSH
 ms.author: tracyp
@@ -15,13 +15,15 @@ search.appverid:
 ms.assetid: 56fee1c7-dc37-470e-9b09-33fff6d94617
 ms.collection:
 - M365-security-compliance
-description: '요약: 이 문서에서는 Microsoft 365에서 도메인키 식별 메일(DKIM)을 사용하여 대상 전자 메일 시스템이 사용자 지정 도메인에서 보낸 메시지를 신뢰하도록 하는 방법을 설명합니다.'
-ms.openlocfilehash: 17cfbcbe4f7279e8142e5102fc2d1f61c53d8ddc
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom:
+- seo-marvel-apr2020
+description: Microsoft 365에서 DKIM(도메인키 식별 메일)을 사용하여 사용자 지정 도메인에서 보낸 메시지를 대상 전자 메일 시스템에서 신뢰하는지 확인하는 방법을 알아봅니다.
+ms.openlocfilehash: 2db8af2c0651388998967db239ceed92a8be1018
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631112"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036611"
 ---
 # <a name="use-dkim-to-validate-outbound-email-sent-from-your-custom-domain"></a>DKIM을 사용하여 사용자 지정 도메인에서 전송한 아웃바운드 전자 메일의 유효성 검사
 

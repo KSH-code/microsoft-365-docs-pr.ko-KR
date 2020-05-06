@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 509b8643ffd2b9ee8b364615e2ed3f56afe84733
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: e820eed8e47adf040b267ffc0a3cf3e23410d7ef
+ms.sourcegitcommit: e55e4747d3b838baacab8985aefc24aac245c431
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637476"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44043309"
 ---
 # <a name="insider-risk-management-in-microsoft-365"></a>Microsoft 365의 참가자 위험 관리
 
@@ -58,7 +58,7 @@ Microsoft 365의 참가자 위험 관리의 내부 위험 활동 및 준수 문�
 
 ![참가자 위험 관리 워크플로](../media/insider-risk-workflow.png)
 
-### <a name="policies"></a>정책도
+### <a name="policies"></a>정책
 
 참가자 위험 관리 정책은 Microsoft 365 기능 영역에서 검사 되는 위험 요소를 정의 하는 미리 정의 된 서식 파일 및 정책 조건을 사용 하 여 만듭니다. 이러한 조건에는 경고에 표시기가 사용 되는 방법, 정책에 포함 되는 사용자, 우선 순위가 지정 된 서비스 및 모니터링 기간 등이 포함 됩니다.
 
@@ -108,7 +108,7 @@ Microsoft 365의 참가자 위험 관리의 내부 위험 활동 및 준수 문�
 
 ![참가자 위험 관리 조사](../media/insider-risk-investigate.png)
 
-### <a name="action"></a>작업
+### <a name="action"></a>동작은
 
 사례를 조사 한 후에는 검토자가 작업을 빠르게 수행 하 여 사례를 해결 하거나 조직의 다른 위험 관련자와 공동으로 작업할 수 있습니다. 직원이 실수로 또는 실수로 정책 조건을 위반 하는 경우 조직에 대해 구성할 수 있는 공지 서식 파일에서 직원에 게 간단한 미리 알림 알림을 보낼 수 있습니다. 이러한 알림은 간단한 미리 알림으로 사용 되거나 직원 들이 향후 위험한 행동을 방지 하기 위해 리프레셔에 대 한 교육 또는 지침을 제공할 수 있습니다. 자세한 내용은 [참가자 위험 관리 알림 서식 파일](insider-risk-management-notices.md)을 참조 하십시오.
 
@@ -132,4 +132,5 @@ Microsoft 365의 참가자 위험 관리의 내부 위험 활동 및 준수 문�
 
 ## <a name="ready-to-get-started"></a>시작할 준비가 되셨습니까?
 
-조직에 대 한 참가자 위험 관리를 구성할 준비가 되셨습니까? 구성 요소 구성, 정책 만들기 및 알림 받기를 시작 하려면 [참가자 위험 관리 시작](insider-risk-management-configure.md) 을 참조 하세요.
+- 조직에서 참가자 위험 관리 정책을 사용 하도록 준비 하는 방법에 대 한 [참가자 위험 관리 계획](insider-risk-management-plan.md) 을 참조 하세요.
+- 구성 요소 구성, 정책 만들기 및 알림 받기를 시작 하려면 [참가자 위험 관리 시작](insider-risk-management-configure.md) 을 참조 하세요.
