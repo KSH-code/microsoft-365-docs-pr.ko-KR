@@ -1,5 +1,5 @@
 ---
-title: '웹용 Outlook에서 정크 전자 메일 및 피싱 사기 보고 '
+title: 보고서 전자 메일 사기-웹용 Outlook
 f1.keywords:
 - NOCSH
 ms.author: chrisda
@@ -16,18 +16,18 @@ ms.assetid: 758822b5-0126-463a-9d08-7366bb2a807d
 ms.collection:
 - M365-security-compliance
 description: Microsoft 365 Exchange Online 사서함이 있는 사용자는 웹에서 Outlook (Outlook Web App)을 사용 하 여 Microsoft에 분석용 스팸, 스팸 아님 및 피싱 메시지를 제출할 수 있습니다.
-ms.openlocfilehash: 9fc17abafe219a450e0fb6e45438211ea03fb337
-ms.sourcegitcommit: d929fa32fc2dfb0749fa2420eddbc2251d8489dc
+ms.openlocfilehash: 32e60aa707bcaea9e35cc3bb8ded3aefb7fe46ab
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43921483"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44031493"
 ---
 # <a name="report-junk-and-phishing-email-in-outlook-on-the-web-in-office-365"></a>Office 365에서 웹용 Outlook에 정크 및 피싱 전자 메일 보고
 
 Microsoft 365 고객에 게 Exchange Online 사서함이 있는 경우에는 웹에서 Outlook (이전의 Outlook Web App)의 기본 제공 보고 옵션을 사용 하 여 가양성 (스팸으로 표시 된 전자 메일), 거짓 네거티브 (잘못 된 전자 메일 허용) 및 EOP (Exchange Online Protection)에 대 한 피싱 메시지를 제출할 수 있습니다.
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 사항은 무엇인가요?
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
 
 - Exchange Online 사서함을 사용 하는 조직의 관리자 인 경우 보안 & 준수 센터에서 전송 포털을 사용 하는 것이 좋습니다. 자세한 내용은 [관리자 제출을 사용 하 여 의심 스러운 스팸, 피싱, url 및 파일을 Microsoft에 제출](admin-submission.md)합니다 .를 참조 하세요.
 
@@ -77,7 +77,7 @@ Microsoft 365 고객에 게 Exchange Online 사서함이 있는 경우에는 웹
 
 기본적으로 사용자는 웹용 Outlook에서 분석을 위해 Microsoft에 가짜 긍정, 거짓 네거티브 및 피싱 메시지를 보고할 수 있습니다. 관리자는 Exchange Online PowerShell에서 웹 사서함 정책에 대 한 Outlook을 구성 하 여 사용자가 스팸 가양성 및 스팸 거짓 네거티브를 Microsoft에 보고 하지 못하도록 할 수 있습니다. 사용자가 피싱 메시지를 Microsoft에 보고 하는 기능을 사용 하지 않도록 설정할 수 없습니다.
 
-### <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 사항은 무엇인가요?
+### <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
 
 - Exchange Online PowerShell에 연결하려면 [Exchange Online PowerShell에 연결](https://docs.microsoft.com/powershell/exchange/exchange-online/connect-to-exchange-online-powershell/connect-to-exchange-online-powershell)을 참조하세요.
 

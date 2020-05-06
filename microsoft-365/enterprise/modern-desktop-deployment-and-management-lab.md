@@ -15,12 +15,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: Windows 및 Office 배포 랩 키트에 액세스하는 방법 및 위치에 대해 알아보세요.
-ms.openlocfilehash: 9635e6d12b9f3ef606f8b62edac4dce6d75a1074
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 7df489b75f1c104bb9ad541bbdc2ce09e7a669de
+ms.sourcegitcommit: bd8d55f82ca008af1b93a9bb4d1545f68e8188ad
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43631516"
+ms.lasthandoff: 05/04/2020
+ms.locfileid: "44011962"
 ---
 # <a name="windows-and-office-deployment-lab-kit"></a>Windows 및 Office 배포 랩 키트
 
@@ -104,7 +104,7 @@ ms.locfileid: "43631516"
 ### <a name="windows-and-office-as-a-service"></a>Windows 및 Office as a Service
   - 그룹 정책을 사용하여 Windows 업데이트 관리
   - 구성 관리자 및 Intune으로 Windows 10 서비스
-  - Configuration Manager를 사용하여 Office 365 ProPlus 서비스
+  - Configuration Manager를 사용하여 엔터프라이즈용 Microsoft 365 앱 제공
 
 ### <a name="new-windows-virtual-desktop"></a>새로운 기능! Windows Virtual Desktop
   - Windows 가상 데스크톱: 준비, 배포, 최적화 
@@ -121,11 +121,11 @@ ms.locfileid: "43631516"
 
   - [Microsoft Mechanics의 데스크톱 배포 시리즈 비디오](https://www.aka.ms/watchhowtoshift)
 
-  - [Microsoft Endpoint Configuration Manager OS 배포](https://docs.microsoft.com/configmgr/osd/understand/introduction-to-operating-system-deployment)
+  - [Microsoft Endpoint Configuration Manager OS 배포](https://docs.microsoft.com/mem/configmgr/osd/understand/introduction-to-operating-system-deployment)
 
   - [<span class="underline">Windows 10 배포 계획</span>](https://docs.microsoft.com/windows/deployment/planning/index)
 
-  - [<span class="underline">엔터프라이즈용 Microsoft 365 앱 배포 가이드</span>](https://docs.microsoft.com/deployoffice/deployment-guide-for-office-365-proplus)
+  - [<span class="underline">Microsoft 365 앱 배포 가이드</span>](https://docs.microsoft.com/deployoffice/deployment-guide-microsoft-365-apps)
 
   - [<span class="underline">Intune 시작</span>](https://docs.microsoft.com/intune/get-started-evaluation)
 
