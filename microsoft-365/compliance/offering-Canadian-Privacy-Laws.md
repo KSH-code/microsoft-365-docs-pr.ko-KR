@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 6a2957ed5782c9449a1715669a7e220940572a66
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 68dfc85b2f7ba4025393c82fa7ca5c67575ca0d2
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602575"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44066251"
 ---
 # <a name="canadian-privacy-laws"></a>캐나다 개인 정보 보호법
 
@@ -27,7 +27,7 @@ ms.locfileid: "41602575"
 
 캐나다 개인 정보 보호법은 개별 개인 정보를 보호하고 자신에 대해 수집된 정보에 액세스할 수 있는 권한을 당사자에게 부여하기 위해 제정되었습니다. [캐나다 개인 정보 보호국](https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/02_05_d_15/)(OPCC)는 이러한 법률의 준수를 감독합니다.
 
-[개인 정보 보호법](https://privacy.microsoft.com/en-US/#heading-0-0-2-1) 연방 정부 기관이 개인 식별이 가능한 정보(연방 공무원의 정보 포함)를 수집, 사용 및 공개하는 방법을 규제합니다. [개인 정보 보호 및 전자 문서법](https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-personal-information-protection-and-electronic-documents-act-pipeda/)(PIPEDA)은 은행, 항공사 및 전기통신 회사와 같은 연방 규제 비즈니스의 직원 및 상업용 영리 기업의 비즈니스 활동에 대해 동일하게 통제합니다.
+[개인 정보 보호법](https://privacy.microsoft.com/ko-KR/#heading-0-0-2-1) 연방 정부 기관이 개인 식별이 가능한 정보(연방 공무원의 정보 포함)를 수집, 사용 및 공개하는 방법을 규제합니다. [개인 정보 보호 및 전자 문서법](https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-personal-information-protection-and-electronic-documents-act-pipeda/)(PIPEDA)은 은행, 항공사 및 전기통신 회사와 같은 연방 규제 비즈니스의 직원 및 상업용 영리 기업의 비즈니스 활동에 대해 동일하게 통제합니다.
 
 PIPEDA는 기업이 이 법안을 준수해야 할 경우 반드시 따라야 하는 열 가지 [공정 정보 규정](https://www.priv.gc.ca/en/privacy-topics/privacy-laws-in-canada/the-personal-information-protection-and-electronic-documents-act-pipeda/p_principle/)에 기반하여 제정되었습니다. 예를 들어, 기본 동의 원칙에는 사용자의 개인 정보를 수집하거나 사용하는 데 대한 개인의 사용 권한을 조직이 알아야만 하는 PIPEDA 요구 사항이 뒤따릅니다. 개인이 해당 개인 정보에 액세스하고 정확도를 요구하는 권한을 모두 가질 수 있습니다("개별 액세스"의 원칙에 기초함). "식별 목적"의 원칙에는 개인 정보를 동의한 목적으로만 사용할 수 있다는 규칙이 뒤따릅니다.
 
@@ -79,7 +79,3 @@ PIPEDA에서는 캐나다 기업이 캐나다에서 개인 정보를 유지해�
 - [Microsoft 개인 정보 취급 방침](https://privacy.microsoft.com/privacystatement)
 - [클라우드에서의 개인 정보 보호 고려 사항](https://download.microsoft.com/download/0/9/D/09DE47F6-F9E5-4C14-B9E8-E8119A130ACC/Privacy_considerations_in_the_cloud.pdf)
 - [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>제공 사항의 배경 설명 다운로드
-
-이 제공 사항에 대한 배경 설명 문서가 필요한가요? [PDF](https://download.microsoft.com/download/1/9/3/19390188-F5C7-4819-80BB-30B84304E499/CanadianPrivacyLaws-Compliance.pdf)를 다운로드합니다.

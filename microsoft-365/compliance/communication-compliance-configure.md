@@ -18,17 +18,14 @@ ms.collection:
 search.appverid:
 - MET150
 - MOE150
-ms.openlocfilehash: 990e39484b7f3f5b26b39e52f9344da0a3ffa290
-ms.sourcegitcommit: 2399ee6f9bc955cf8f2a76c01fc84c19eb37ff42
+ms.openlocfilehash: 35eb63fd5b472f4b58c5f2fb5285ffff012277dd
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/28/2020
-ms.locfileid: "43919685"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44065903"
 ---
 # <a name="get-started-with-communication-compliance"></a>커뮤니케이션 규정 준수 시작
-
->[!IMPORTANT]
->이 항목은 Microsoft 365 구독의 통신 준수 구성에 적용 됩니다. Microsoft 365 구독에 대 한 감독 정책을 구성 하려면 [microsoft 365에 대 한 감독 구성을](supervision-policies.md)참조 하십시오.
 
 통신 준수 정책을 사용 하 여 내부 또는 외부 검토자가 검사할 직원 통신을 캡처할 수 있습니다. 통신 준수 정책을 통해 조직의 통신을 모니터링 하는 방법에 대 한 자세한 내용은 [Microsoft 365의 통신 준수 정책을](communication-compliance.md)참조 하세요. Contoso에서 Microsoft 팀, Exchange Online 및 Yammer 통신의 공격적인 언어를 모니터링 하도록 통신 준수 정책을 빠르게 구성 하는 방법을 검토 하려면이 [사례 연구](communication-compliance-case-study.md)를 확인 하세요.
 

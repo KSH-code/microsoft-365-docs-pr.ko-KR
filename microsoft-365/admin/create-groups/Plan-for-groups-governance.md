@@ -19,12 +19,12 @@ search.appverid:
 - MOE150
 - BSA160
 description: Microsoft 365 그룹 거 버 넌 스를 계획 하는 방법을 알아봅니다.
-ms.openlocfilehash: 4427f210bc1691ef04b97fa4802313078f8d0997
-ms.sourcegitcommit: 5476c2578400894640ae74bfe8e93c3319f685bd
+ms.openlocfilehash: 85dfbb27899d7b79257eba4cff4b7cd715f762a5
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
 ms.lasthandoff: 05/06/2020
-ms.locfileid: "44049414"
+ms.locfileid: "44064790"
 ---
 # <a name="plan-for-governance-in-groups"></a>그룹의 거 버 넌 스 계획
 
@@ -154,7 +154,7 @@ Microsoft 365 그룹을 삭제 한 경우에는 기본적으로 30 일 동안 �
 >"소프트 삭제" 기간 동안 사용자가 사이트에 액세스를 시도하는 경우 403 금지 메시지가 표시됩니다. 이 기간 이후에 사용자가 사이트에 액세스하려고 하면 404 찾을 수 없음 메시지가 표시됩니다.
 
 #### <a name="resources"></a>*리소스*
-- [삭제 된 Microsoft 365 그룹 복원](https://docs.microsoft.com/en-us/microsoft-365/admin/create-groups/restore-deleted-group?ui=en-US&rs=en-001&ad=US)
+- [삭제 된 Microsoft 365 그룹 복원](https://docs.microsoft.com/microsoft-365/admin/create-groups/restore-deleted-group?ui=en-US&rs=en-001&ad=US)
 - [Azure Active Directory에서 삭제 된 Microsoft 365 그룹 복원](https://docs.microsoft.com/azure/active-directory/users-groups-roles/groups-restore-deleted)
 - [Remove-UnifiedGroup cmdlet을 사용하여 그룹 삭제](https://technet.microsoft.com/library/mt238270%28v=exchg.160%29.aspx)
 

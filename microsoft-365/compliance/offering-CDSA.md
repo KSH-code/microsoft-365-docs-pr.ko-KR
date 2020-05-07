@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 34e0b0197754a85576c86fc4d447af7a25c0dc62
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: b349c41f2f423f7c0fca1b66c20c571a3512fa54
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602655"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44065863"
 ---
 # <a name="content-delivery--security-association-cdsa-content-protection--security-cps-standard"></a>CDSA(Content Delivery & Security Association) CPS(Content Protection & Security) 표준
 
@@ -76,7 +76,3 @@ Microsoft는 CDSA CPS 인증 6개월 갱신을 성공적으로 완료했으며, 
 - [Azure 미디어 서비스의 CDSA 보안 인증 획득](https://johndeutscher.com/2015/04/14/how-azure-media-services-earned-cdsa-security-certification/)
 - [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
 - CDSA 및 Azure 규정 준수 이해
-
-## <a name="download-the-offering-backgrounder"></a>제공되는 사항의 배경 설명 다운로드
-
-이 제공 사항에 대한 배경 설명 문서가 필요한가요? [PDF](https://download.microsoft.com/download/2/6/3/263C244E-20A8-41B1-B2DA-2835E30CE92E/CDSA_Compliance_Backgrounder.pdf)를 다운로드합니다.

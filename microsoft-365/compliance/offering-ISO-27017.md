@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 6bd989a5600252ee60ada4eb4e3d1414ef3853d5
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 1f44c46046fc107e8059cebda3388fcd775bd31e
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602245"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44065693"
 ---
 # <a name="isoiec-270172015-code-of-practice-for-information-security-controls"></a>ISO/IEC 27017:2015 정보 보안 통제를 위한 규약
 
@@ -40,8 +40,6 @@ ISO/IEC 27017:2015 규약은 조직에서 ISO/IEC 27002:2013에 기초한 클라
 ## <a name="microsoft-and-isoiec-27017"></a>Microsoft와 ISO/IEC 27017
 
 ISO/IEC 27017은 클라우드 서비스 공급자 및 클라우드 서비스 고객을 위한 지침을 제공하는 고유한 표준입니다. 또한 클라우드 서비스 고객이 클라우드 서비스 공급자에게 어떤 것을 바랄 수 있는지에 대한 실용적인 정보를 제공합니다. 고객은 클라우드를 이용한 공유의 책임을 이해함으로써 ISO/IEC 27017로부터 직접적인 혜택을 얻을 수 있습니다.
-
-Microsoft 클라우드에서 ISO/IEC 27017 의 혜택에 대해 알아보세요. [ISO/IEC 27017: 정보 보안 통제를 위한 규약 다운로드](https://aka.ms/iso27017-backgrounder)
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 범위 내 클라우드 서비스
 
@@ -64,7 +62,7 @@ Microsoft 클라우드 서비스는 ISO/IEC 27001:2013에 대한 인증 프로�
 
 - [Azure ISO 27017 인증서](https://go.microsoft.com/fwlink/p/?linkid=2078005)
 - [Azure ISO 27017 평가 보고서](https://go.microsoft.com/fwlink/p/?linkid=2078010)
-- [Azure ISO 27017 적용성 보고서](https://aka.ms/AzureISO27017StatementofApplicability)
+- [Azure ISO 27017 적용성 보고서](https://aka.ms/azureiso27017StatementofApplicability)
 - [Office 365 ISO 27001, 27018, and 27017 감사 평가 보고서](https://aka.ms/o365isoreport)
 
 ## <a name="frequently-asked-questions"></a>자주하는 질문
@@ -90,7 +88,3 @@ Azure, Intune, Power BI에 대한 [ISO/IEC 27017:2015 인증서](https://aka.ms/
 - [ISO/IEC 27017:2015 규약](https://www.iso.org/iso/iso_catalogue/catalogue_tc/catalogue_detail.htm?csnumber=43757)
 - [Microsoft 온라인 서비스 사용 약관](https://aka.ms/Online-Services-Terms)
 - [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>제공 사항의 배경 설명 다운로드
-
-이 제공 사항에 대한 배경 설명 문서가 필요한가요? [PDF](https://download.microsoft.com/download/7/7/9/7799D02B-A97A-48E0-A057-C19DD543BB24/ISO-IEC-27017_backgrounder.pdf)를 다운로드합니다.

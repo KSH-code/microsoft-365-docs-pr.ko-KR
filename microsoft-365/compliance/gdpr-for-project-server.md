@@ -1,6 +1,6 @@
 ---
 title: Project Server GDPR
-description: 온-프레미스 Project Server에서 GDPR 요구 사항을 해결하는 방법을 알아보세요.
+description: 온-프레미스 Project Server에서 유럽 연합 일반 개인정보보호법(GDPR) 요구 사항을 해결하는 방법을 알아봅니다.
 f1.keywords:
 - NOCSH
 ms.author: mikeplum
@@ -11,12 +11,13 @@ ms.topic: article
 ms.service: O365-seccomp
 localization_priority: Priority
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: a9fff9f085fd42f28801a82c3f83d6bdd1f74ff6
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 3a7eb291d0da72adf171594aac307ec0ad91829d
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41596415"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036241"
 ---
 # <a name="gdpr-for-project-server"></a>Project Server GDPR
 

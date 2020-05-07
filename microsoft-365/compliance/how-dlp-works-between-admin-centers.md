@@ -1,5 +1,5 @@
 ---
-title: 보안 및 준수 센터와 Exchange 관리 센터 사이에서 DLP가 작동 하는 방식
+title: Exchange 관리 센터 & 보안 & 준수 센터에서 DLP가 작동 하는 방식
 f1.keywords:
 - NOCSH
 ms.author: chrfox
@@ -17,12 +17,13 @@ search.appverid:
 - MET150
 ms.assetid: a7e4342a-a0a1-4b43-b166-3d7eecf5d2fd
 description: Exchange 관리 센터에서 DLP 및 메일 흐름 규칙 (전송 규칙)을 사용 하 여 보안 & 준수 센터의 DLP를 작동 하는 방법을 알아봅니다.
-ms.openlocfilehash: 82b3d371303b647488c08416c5392d006c81e479
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 05e3c6342ab6d57c1f22de96e64a01df5fd15131
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42073072"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036199"
 ---
 # <a name="how-dlp-works-between-the-security--compliance-center-and-exchange-admin-center"></a>보안 및 준수 센터와 Exchange 관리 센터 사이에서 DLP가 작동 하는 방식
 

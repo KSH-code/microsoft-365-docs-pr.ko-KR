@@ -1,5 +1,5 @@
 ---
-title: Microsoft 365 GDPR 작업 계획 - 처음 30일, 90일 및 그 이상 기간에 대한 최고 우선 순위 지정
+title: Microsoft 365 GDPR 작업 계획, 처음 30일, 90일 및 그 이상 기간에 대한 우선 순위 지정
 description: GDPR(일반 데이터 보호 규정) 요구 사항을 준수하기 위해 작업할 때 따라야 하는 우선 순위가 지정된 작업 계획
 keywords: Microsoft 365, Microsoft 365 Education, Microsoft 365 설명서, GDPR
 localization_priority: Priority
@@ -15,12 +15,13 @@ ms.collection:
 - GDPR
 - M365-security-compliance
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 64b8a693cadce2d304bf5615a5e21fa15b8a55b0
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: c4b135f189aa43e4e7015550739c9e79a74c2310
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43633323"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036081"
 ---
 # <a name="microsoft-365-gdpr-action-plan--top-priorities-for-your-first-30-days-90-days-and-beyond"></a>Microsoft 365 GDPR 작업 계획 - 처음 30일, 90일 및 그 이상 기간에 대한 최고 우선 순위 지정
 

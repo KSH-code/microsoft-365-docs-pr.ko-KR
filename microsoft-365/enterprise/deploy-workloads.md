@@ -12,12 +12,12 @@ ms.collection:
 - Strat_O365_Enterprise
 ms.custom: ''
 description: 조직의 사용자에게 Microsoft 365 Enterprise의 생산성 워크로드를 제공합니다.
-ms.openlocfilehash: 2bb86ec474f93ea9d5f41fb104c6d533b7ec9561
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 7767f01d87029c7fc641a65442a5171b0d03eab5
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43638167"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44066218"
 ---
 # <a name="microsoft-365-for-enterprise-workloads-and-scenarios"></a>Microsoft 365 Enterprise 워크로드 및 시나리오
 
@@ -47,7 +47,7 @@ Microsoft 365 Enterprise의 독창성과 팀워크 이점을 얻으려면 기본
 
 전체 Microsoft 365 Enterprise 배포 가이드의 워크로드 및 시나리오는 다음과 같습니다.
 
-![전체 Microsoft 365 Enterprise 배포 가이드의 워크로드 및 시나리오](../media/deploy-workloads/m365-deploy-content-arch-workloads.png)
+![전체 Microsoft 365 Enterprise 배포 가이드의 워크로드 및 시나리오](media/deploy-workloads/m365-deploy-content-arch-workloads.png)
 
 추가 시나리오는 [Microsoft 365 생산성 라이브러리](https://aka.ms/productivitylibrary)(https://aka.ms/productivitylibrary)를 참조하세요. 
 

@@ -12,12 +12,12 @@ author: robmazz
 manager: laurawi
 audience: itpro
 ms.collection: m365-security-compliance
-ms.openlocfilehash: 7e903467a35427e4d1c6fae0b29f41d970d0fbc8
-ms.sourcegitcommit: e55e4747d3b838baacab8985aefc24aac245c431
+ms.openlocfilehash: b5efda8f6b4b7937b98a9357ad3bb2c661541256
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 05/05/2020
-ms.locfileid: "44043319"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44065823"
 ---
 # <a name="get-started-with-insider-risk-management"></a>내부자 위험 관리 시작
 
@@ -34,8 +34,10 @@ ms.locfileid: "44043319"
 
 - Microsoft 365 E5 구독 (유료 또는 평가판 버전)
 - Microsoft 365 E3 구독 + Microsoft 365 E5 준수 추가 기능
+- Microsoft 365 E3 구독 + Microsoft 365 E5 참가자 위험 관리 추가 기능
 - Microsoft 365 A5 구독 (유료 또는 평가판 버전)
 - Microsoft 365 A3 구독 + Microsoft 365 A5 규정 준수 추가 기능
+- Microsoft 365 A3 구독 + Microsoft 365 A5 참가자 위험 관리 추가 기능
 
 참가자 위험 관리 정책에 포함 된 사용자는 위의 라이선스 중 하나를 할당 받아야 합니다.
 

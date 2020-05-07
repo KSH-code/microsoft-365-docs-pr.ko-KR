@@ -1,7 +1,7 @@
 ---
 title: NIST SP 800 – 171
 description: Microsoft 클라우드 서비스는 NIST SP 800을 준수 하며, 비 연방 정보 시스템에서 통제 되지 않은 171 (미분류 정보)를 보호 하기 위한 지침입니다.
-keywords: Microsoft 365, 규정 준수, 제품
+keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: e1bd69e7038ce3bf6372a3f53cd985ce54f350a8
-ms.sourcegitcommit: b8a9994b26a6d9865212f5b1871286e719d1608e
+ms.openlocfilehash: 47e001fafedbdcaab6e1aa6365789bc309d9f65c
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/22/2020
-ms.locfileid: "43781453"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44065813"
 ---
 # <a name="nist-sp-800171"></a>NIST SP 800 – 171
 
@@ -57,7 +57,7 @@ US 정부 기관, 컨설팅 회사, 제조 계약자 등을 처리 하거나 저
 
 - [Azure 청사진 샘플](https://docs.microsoft.com/azure/governance/blueprints/samples/): NIST 기반 컨트롤을 준수 하는 워크 로드를 구현 하기 위한 지원을 받을 수 있습니다.
 
-## <a name="frequently-asked-questions"></a>자주하는 질문
+## <a name="frequently-asked-questions"></a>자주 묻는 질문
 
 **조직에서 Microsoft 준수를 NIST SP 800 – 171에 사용할 수 있나요?**
 
@@ -76,7 +76,3 @@ US 정부 기관, 컨설팅 회사, 제조 계약자 등을 처리 하거나 저
 - [Microsoft 및 NIST Cybersecurity 프레임 워크](offering-nist-csf.md)
 - [Microsoft Government 클라우드](https://www.microsoft.com/enterprise/government)
 - [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>제공 사항의 배경 설명 다운로드
-
-이 제공 사항에 대한 배경 설명 문서가 필요한가요? [PDF](https://download.microsoft.com/download/9/8/F/98F1D966-FB62-4B58-B6F0-8F3DCCAC484A/NIST_SP-800-171-Compliance.pdf )를 다운로드합니다.

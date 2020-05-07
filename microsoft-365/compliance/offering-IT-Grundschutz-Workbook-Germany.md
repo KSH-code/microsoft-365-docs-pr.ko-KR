@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 63dcc6351b2ba0074bf71583577a34ddcc33ed94
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 90f8a0f9f6cda7462892dc9d7ebd808e263a9259
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602215"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44065743"
 ---
 # <a name="it-grundschutz-compliance-workbook"></a>IT-Grundschutz 규정 준수 통합 문서
 
@@ -69,7 +69,3 @@ Microsoft Cloud Germany는 독일에 물리적으로 기반을 두고 있으며 
 - [Azure Germany IT-Grundschutz 규정 준수 통합 문서](https://aka.ms/grundschutzworkbook)
 - [ISO/IEC 27001:2013 정보 보안 관리 시스템 배경](offering-iso-27001.md)
 - [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>제공 사항의 배경 설명 다운로드
-
-이 제공 사항에 대한 배경 설명 문서가 필요한가요? [PDF](https://download.microsoft.com/download/B/3/5/B35DE78F-C346-4E31-ABC5-FF87BD1FF97F/ITGrundschutz-Compliance.pdf)를 다운로드합니다.

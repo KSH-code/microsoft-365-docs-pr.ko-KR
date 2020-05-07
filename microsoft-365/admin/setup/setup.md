@@ -25,12 +25,12 @@ search.appverid:
 - BEA160
 ms.assetid: 6a3a29a0-e616-4713-99d1-15eda62d04fa
 description: Microsoft 365 Business Standard, Microsoft 365 Business Basic, 비즈니스용 Microsoft 365 앱 또는 Office 365 Education 구독을 설정하는 방법을 알아봅니다.
-ms.openlocfilehash: 448dc7ae990a4c9803ea751e4ad855f375195734
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 812d1a65986f53e53a02d4c1b70c823dffa98786
+ms.sourcegitcommit: 83f980927728bc080f97a3e6dc70dc305f3df841
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627549"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44053863"
 ---
 # <a name="set-up-microsoft-365-for-business"></a>비즈니스용 Microsoft 365 설정
 
@@ -310,9 +310,9 @@ Microsoft 365를 둘러보고 Office 모바일 앱을 사용하는 방법을 알
 
 ### <a name="get-ready-for-office-365"></a>Office 365 준비
 
-- **먼저 Office 365 Education 구독 자격이 있는지 확인하세요.** 절차에 따라 Microsoft 365에서 Education 요금제를 사용하기 위한 자격을 제공할 수 있도록 [소유권, Education 상태 확인 혹은 Yammer를 활성화](https://support.office.com/article/87d1844e-aa47-4dc0-a61b-1b773fd4e590)합니다. 이렇게 하면 이 문서의 지침에 따라 Office 365를 학교용으로 설정할 수 있습니다.
+- **먼저 Office 365 Education 구독 자격이 있는지 확인하세요.** 절차에 따라 Microsoft 365에서 Education 요금제를 사용하기 위한 자격을 제공할 수 있도록 [소유권, Education 상태 확인 혹은 Yammer를 활성화](https://docs.microsoft.com/microsoft-365/admin/setup/domains-faq)합니다. 이렇게 하면 이 문서의 지침에 따라 Office 365를 학교용으로 설정할 수 있습니다.
 
-- **도움 받기** 고급 배포에 대한 도움을 받으려면 **[FastTrack](https://www.microsoft.com/en-us/fasttrack/microsoft-365/office-365)** 에서 시작해 보세요. [파트너를 찾아](https://go.microsoft.com/fwlink/p/?linkid=391089) 도움을 받을 수도 있습니다.
+- **도움 받기** 고급 배포에 대한 도움을 받으려면 **[FastTrack](https://www.microsoft.com/ko-KR/fasttrack/microsoft-365/office-365)** 에서 시작해 보세요. [파트너를 찾아](https://go.microsoft.com/fwlink/p/?linkid=391089) 도움을 받을 수도 있습니다.
 
 - **계획** 이러한 도구와 리소스를 통해 Office 365에 대해 네트워크, 디렉터리, 사용자를 준비할 수 있습니다. [조직의 Office 365 Enterprise 사용 준비](https://support.office.com/article/712fced7-f9d0-4fde-8b79-286262a5d0bc).
 

@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 9cf5d3eed1854dbf715a9574b4efaa666c934a52
-ms.sourcegitcommit: 053d42480d8aa3792ecb0027ddd53d383a029474
+ms.openlocfilehash: ac8829d681e27609a505e7539e835c5c58c8474e
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/07/2020
-ms.locfileid: "42313773"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44064727"
 ---
 # <a name="european-standards-en-301-549"></a>유럽 표준 EN-US 301 549
 
@@ -53,7 +53,3 @@ Microsoft는 유럽 국가의 주요 소프트웨어와 클라우드 서비스 �
 - [Office 365 접근성 센터](https://go.microsoft.com/fwlink/p/?linkid=2051801): 장애가 있는 사용자를 위한 Office 365 리소스
 - [Enterprise Disability Answer Desk](https://go.microsoft.com/fwlink/p/?linkid=2050890): 제품 및 서비스 또는 규정 준수에 대한 접근성과 관련된 질문이 있는 엔터프라이즈 고객을 위한 전용 지원
 - [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>제공 사항의 배경 설명 다운로드
-
-이 제공 사항에 대한 배경 설명 문서가 필요한가요? [PDF](https://download.microsoft.com/download/F/B/B/FBB0D35E-A1B3-4078-A75D-702368311649/China-Compliance.pdf)를 다운로드합니다.

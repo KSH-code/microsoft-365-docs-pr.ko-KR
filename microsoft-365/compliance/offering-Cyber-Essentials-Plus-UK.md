@@ -1,7 +1,7 @@
 ---
 title: 영국 사이버 Essentials PLUS
 description: 사이버 Essentials PLUS는 조직에서 일반적인 사이버 보안 위협 으로부터 보호 하는 데 도움이 되는 영국 정부 방식으로 정의 된 구성표입니다.
-keywords: Microsoft 365, 규정 준수, 제품
+keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: da137e3333164970729d0c737f7077c3c96ee634
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 8a95d2037c95f62b955e830b23e1d1ea46f31bf4
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602545"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44066431"
 ---
 # <a name="united-kingdom-cyber-essentials-plus"></a>영국 사이버 Essentials PLUS
 
@@ -51,7 +51,3 @@ Azure의 글로벌 작업에 적용 되는 [Azure 사이버 ESSENTIALS 및 인�
 
 - [사이버 Essentials 체계: 보증 프레임 워크](https://www.cyberaware.gov.uk/cyberessentials/files/assurance-framework.pdf)
 - [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>제공 사항의 배경 설명 다운로드
-
-이 제공 사항에 대한 배경 설명 문서가 필요한가요? [PDF](https://download.microsoft.com/download/6/B/5/6B54EF7B-8BC2-4C88-8ABD-A20B986AF9C7/CyberEssentialsPlusUK-Compliance.pdf)를 다운로드합니다.

@@ -15,13 +15,14 @@ ms.collection:
 search.appverid:
 - MOE150
 - MET150
-description: 분류에 기반한 정확한 데이터 매치를 사용한 사용자 지정 중요한 정보 유형 만들기
-ms.openlocfilehash: d234b4c9ba01b185c367074ee78b0f92be226c46
-ms.sourcegitcommit: c7f11d851073ef14a69669f6c8b7e0c11e4bb7a1
+description: 정확한 데이터 매치 기반 분류를 사용하여 사용자 지정 중요한 정보 유형을 만드는 방법을 알아봅니다.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 525d58a37fe4bb254d06ce7a4fcb6e2a54344a79
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/29/2020
-ms.locfileid: "43938618"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035800"
 ---
 # <a name="create-custom-sensitive-information-types-with-exact-data-match-based-classification"></a>분류에 기반한 정확한 데이터 매치를 사용한 사용자 지정 중요한 정보 유형 만들기
 

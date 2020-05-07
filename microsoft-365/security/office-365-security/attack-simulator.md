@@ -15,27 +15,29 @@ search.appverid:
 ms.assetid: da5845db-c578-4a41-b2cb-5a09689a551b
 ms.collection:
 - M365-security-compliance
-description: 전역 관리자는 공격 시뮬레이터를 사용 하 여 조직에서 현실적인 공격 시나리오를 실행할 수 있습니다. 이를 통해 실질적인 공격이 비즈니스에 방문 하기 전에 취약 한 사용자를 식별 하 고 찾을 수 있습니다.
-ms.openlocfilehash: cac09ed48a46531ea2246f9c3ef798649dc73196
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.custom:
+- seo-marvel-apr2020
+description: Attack 시뮬레이터를 사용 하 여 Microsoft 365 E5 또는 ATP 계획 2 조 직에서 시뮬레이트된 피싱 및 암호 공격을 실행 하는 방법에 대해 알아봅니다.
+ms.openlocfilehash: e2c6859291e4a25e56dd8dd20a8ecc5962310680
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43638575"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44035861"
 ---
 # <a name="attack-simulator-in-atp"></a>ATP의 공격 시뮬레이터
 
 **요약** 전역 관리자 또는 보안 관리자이 고 조직에 [위협 조사 및 응답 기능이](office-365-ti.md)포함 된 Office 365 Advanced Threat Protection 계획 2가 있는 경우 공격 시뮬레이터를 사용 하 여 조직에서 현실적인 공격 시나리오를 실행할 수 있습니다. 이를 통해 실질적인 공격이 수익에 영향을 미치기 전에 취약한 사용자를 식별하고 찾을 수 있습니다. 자세한 내용은이 문서를 참조 하세요.
 
-## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 내용
+## <a name="what-do-you-need-to-know-before-you-begin"></a>시작하기 전에 알아야 할 사항은 무엇인가요?
 
-- 보안 & 준수 센터를 열려면로 이동 <https://protection.office.com/>합니다. Attack 시뮬레이터는 **위협 관리** \> **공격 시뮬레이터**에서 사용할 수 있습니다.
+- 보안 및 준수 센터를 열려면 <https://protection.office.com/>로 이동하세요. Attack 시뮬레이터는 **위협 관리** \> **공격 시뮬레이터**에서 사용할 수 있습니다.
 
   ![위협 관리-공격 시뮬레이터](../../media/ThreatMgmt-AttackSimulator.png)
 
 - 서로 다른 Microsoft 365 구독에서 공격 시뮬레이터를 사용할 경우의 가용성에 대 한 자세한 내용은 [Office 365 Advanced Threat Protection 서비스 설명을](https://docs.microsoft.com/office365/servicedescriptions/office-365-advanced-threat-protection-service-description)참조 하세요.
 
-- **조직 관리** 또는 **보안 관리자** 역할 그룹의 구성원 이어야 합니다. 보안 & 준수 센터의 역할 그룹에 대 한 자세한 내용은 [보안 & 준수 센터의 사용 권한을](permissions-in-the-security-and-compliance-center.md)참조 하세요.
+- **조직 관리** 또는 **보안 관리자** 역할 그룹의 구성원 이어야 합니다. 보안 및 규정 준수 센터의 역할 그룹에 대한 자세한 내용은 [보안 및 규정 준수 센터의 사용 권한](permissions-in-the-security-and-compliance-center.md)을 참조하세요.
 
 - MFA (multi-factor authentication)를 사용 하 여 공격 시뮬레이터에서 캠페인을 만들고 관리 하도록 계정을 구성 해야 합니다. 자세한 내용은 [다단계 인증 설정을](https://docs.microsoft.com/office365/admin/security-and-compliance/set-up-multi-factor-authentication)참조 하십시오.
 

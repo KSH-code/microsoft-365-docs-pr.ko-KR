@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: c68e51fd0efe415458942736a8d19ae1c12adc3c
-ms.sourcegitcommit: 732bb72a0b5ae09cb39536185aa29d6097ec72fd
+ms.openlocfilehash: 333333ad274c569337c2cbab7fd00c7337e26160
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/08/2020
-ms.locfileid: "43189082"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44064769"
 ---
 # <a name="us-department-of-defense-dod-provisional-authorization-at-impact-levels-2-4-and-5"></a>보안 수준 2, 4 및 5에서 DoD (US) Provisional 권한 부여
 
@@ -35,8 +35,7 @@ DoD Cloud Service Support는 SRG에서 정책, 보안 제어 및 기타 요구 �
 
 Microsoft의 정부 클라우드 서비스는 미국 방어 기관에서 Microsoft 클라우드의 비용 절감 및 엄격한 보안 이점을 활용할 수 있도록, 영향 수준 2 ~ 5 로부터 미국 방어의 까다로운 요구 사항을 충족 합니다. 방어 기관은 Azure 정부, Office 365 미국 정부 및 Dynamics 365 정부를 포함 하는 보호 된 서비스를 배포 하 여 다양 한 준수 서비스를 사용할 수 있습니다.
 
-- Microsoft 클라우드에서 L4를 통한 DoD (DISA L2 [)의 장점](https://aka.ms/disa-backgrounder) 에 대해 알아봅니다.
-- [Azure Dod 청사진](https://servicetrust.microsoft.com/ViewPage/BlueprintLegacy) 을 사용 하 여 DoD DISA L2, L4 배포를 가속화 하는 방법을 알아봅니다.
+- [Azure Dod 청사진](https://docs.microsoft.com/azure/governance/blueprints/samples/dod-impact-level-4/) 을 사용 하 여 DoD DISA L2, L4 배포를 가속화 하는 방법을 알아봅니다.
 
 ## <a name="dod-impact-level-5-provisional-authorization"></a>DoD 영향 수준 5 Provisional 권한 부여
 
@@ -56,7 +55,7 @@ FedRAMP 권한 부여에 따라 DISA 클라우드 서비스 지원에 DoD 영향
 - Dynamics 365 미국 정부 소프트웨어 (SaaS)는 FedRAMP 기관에 따라이 인증을 사용 하 여 하우징 및 도시 개발 (HUD) 부서에서 운영 (ATO)을 수행 했습니다.
 - Office 365 미국 정부에는 DHHS (의료 기관) 부서의 기관 FedRAMP ATO을 기반으로이 권한이 부여 되었습니다.
 
-영향 수준 2는 제어 되지 않는 분류 된 정보, 즉 공용 릴리스에 대해 권한 있는 데이터를 설명 합니다. 또한 "미션 크리티컬"로 간주 되지 않는 다른 분류 되지 않은 정보에 대해서도 최소한의 액세스 제어가 필요 합니다. 이 인증을 통해 미국 연방 정부 고객은 범위 내 Microsoft 클라우드 서비스에 중요 하지 않은 정보와 기본 방어 응용 프로그램 및 웹 사이트를 배포할 수 있습니다.
+영향 수준 2는 제어 되지 않는 분류 된 정보, 즉 공용 릴리스에 대해 권한 있는 데이터를 설명 합니다. 또한 ' 미션 크리티컬 '로 간주 되지 않는 다른 분류 되지 않은 정보에도 최소한의 액세스 제어가 필요 합니다. 이 인증을 통해 미국 연방 정부 고객은 범위 내 Microsoft 클라우드 서비스에 중요 하지 않은 정보와 기본 방어 응용 프로그램 및 웹 사이트를 배포할 수 있습니다.
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 범위 내 클라우드 서비스
 
@@ -83,21 +82,21 @@ DoD PA가 부여 되 면 Microsoft 클라우드 서비스를 매년 모니터링
 
 ## <a name="fast-track-your-deployment-of-dod-solutions-on-azure"></a>Azure에서 DoD 솔루션 배포의 빠른 추적
 
-심층적인 방어 부서에 대 한 청사진 샘플을 사용 하 여 정부용 클라우드의 이점을 활용할 수 있는 방법을 알아봅니다. 이 청사진에서는 현재 DoD 규격 솔루션을 구축할 수 있는 도구와 지침을 제공 합니다. [DoD L4에 대 한 Azure 청사진 사용을 시작](https://docs.microsoft.com/azure/governance/blueprints/samples/dod-impact-level-4/)합니다.
+심층적인 보호 청사진의 Azure 보안 및 준수 부서와 함께 정부 클라우드의 이점을 활용할 수 있는 방법을 알아봅니다. 이 청사진에서는 현재 DoD 규격 솔루션을 구축할 수 있는 도구와 지침을 제공 합니다. [Azure DoD 청사진 사용을 시작](https://docs.microsoft.com/azure/governance/blueprints/samples/dod-impact-level-4/)합니다.
 
-## <a name="frequently-asked-questions"></a>질문과 대답
+## <a name="frequently-asked-questions"></a>자주 묻는 질문
 
-**조직의 인증 프로세스에서 Microsoft의 준수를 사용할 수 있나요?**
+**우리 회사의 인증 프로세스에 Microsoft의 규정 준수를 사용할 수 있나요?**
 
 예. 모든 DoD 기관은 DoD 인증을 필요로 하는 모든 프로그램 또는 이니셔티브의 기반으로 Microsoft 클라우드 서비스의 인증을 사용할 수 있습니다. (이는 DoD를 지 원하는 다른 조직에도 적용 되며 클라우드 서비스가 필요 합니다.) 그러나 이러한 서비스 외부의 구성 요소에 대 한 사용자의 권한 부여를 구현 해야 합니다.
 
 **Microsoft의 DoD 인증은 NIST 800-171 요구 사항을 충족 하나요?**
 
-2016 년 10 월, 보안 (DoD) promulgated는 해당 정보 시스템을 통해 "포함 된 방어 정보"를 처리, 저장 또는 전송 하는 모든 DoD 계약자에 게 적용 되는 DFARS (방어 연방 획득 규정 보완) 절을 구현 하는 최종 규칙을 수행 합니다. 이 규칙은 이러한 시스템이 NIST SP 800-171에서 설정 된 보안 요구 사항을 충족 해야 하며, 관리 되지 않는 [정보 시스템 및 조직에서 제어 된 분류](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-171.pdf)되지 않은 정보를 보호 하는 경우, 또는 DoD 계약 관리자가 승인한 "대안 및 실제 보안 조치"를 의미 합니다. 또한 DoD 계약자가 외부 클라우드 서비스 공급자를 사용 하 여 특정 방어 정보를 처리, 저장 또는 전송 하는 경우 해당 공급자는 FedRAMP 보통 기준선에 해당 하는 보안 요구 사항을 충족 해야 합니다.
+2016 년 10 월, 보안 (DoD) promulgated는 정보 시스템을 통해 ' 포함 된 방어 정보 '를 처리, 저장 또는 전송 하는 모든 DoD 계약자에 게 적용 되는 DFARS (방어 연방 획득 규정 보완) 절을 구현 하는 최종 규칙을 수행 합니다. 이 규칙은 이러한 시스템이 NIST SP 800-171에서 설정 된 보안 요구 사항을 충족 해야 하며, 관리 되지 않는 [정보 시스템 및 조직에서 제어 된 분류](https://nvlpubs.nist.gov/nistpubs/SpecialPublications/NIST.SP.800-171.pdf)되지 않은 정보를 보호 하는 경우, 또는 DoD 계약 관리자가 승인한 ' 대안 ', "보안 조치"를 의미 합니다. 또한 DoD 계약자가 외부 클라우드 서비스 공급자를 사용 하 여 특정 방어 정보를 처리, 저장 또는 전송 하는 경우 해당 공급자는 FedRAMP 보통 기준선에 해당 하는 보안 요구 사항을 충족 해야 합니다.
 
 다음 Microsoft 클라우드 서비스는 FedRAMP 일반 인증 (Azure, Azure 정부, Dynamics 365 미국 정부, Office 365 MT, Office 365 미국 정부 및 Office 365 미국 정부 방어를 수신 했습니다.
 
-또한 DoD 계약자가 "포함 된 방어 정보"를 처리, 저장 또는 전송 하는 데 사용할 수 있는 FedRAMP 인증 경계 외부에서 제공 되는 Microsoft의 경우에는 12 월 31 일, 2017, 규정 준수 마감에 대 한 검토가 진행 되 고 있습니다. Microsoft는 DFARS 관련 절을 충족 하기 위해 이러한 내부 및 고객 중심 서비스가 NIST SP 800-171 또는 적합 한 보안을 준수 하는 방식을 문서화 하기 위해 노력 하 고 있습니다.
+또한 DoD 계약자가 ' 제공 되는 방어 정보 '를 처리, 저장 또는 전송 하는 데 사용할 수 있는 FedRAMP 인증 경계 외부에서 제공 하는 Microsoft는 12 월 31, 2017, 규정 준수 마감을 충족 하기 위해 검토 중입니다. Microsoft는 DFARS 관련 절을 충족 하기 위해 이러한 내부 및 고객 중심 서비스가 NIST SP 800-171 또는 적합 한 보안을 준수 하는 방식을 문서화 하기 위해 노력 하 고 있습니다.
 
 ## <a name="resources"></a>리소스
 
@@ -108,7 +107,3 @@ DoD PA가 부여 되 면 Microsoft 클라우드 서비스를 매년 모니터링
 - [Microsoft 공통 컨트롤 허브 규정 준수 프레임 워크](https://www.microsoft.com/trustcenter/common-controls-hub)
 - [Microsoft Government 클라우드](https://go.microsoft.com/fwlink/p/?linkid=2087246)
 - [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>제공 사항의 배경 설명 다운로드
-
-이 제공 사항에 대한 배경 설명 문서가 필요한가요? [PDF](https://download.microsoft.com/download/5/0/C/50C2C028-3048-49BC-B820-D83C76BF2E52/DISA_Compliance_Backgrounder.pdf)를 다운로드합니다.

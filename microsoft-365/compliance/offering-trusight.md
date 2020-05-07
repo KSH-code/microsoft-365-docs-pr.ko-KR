@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: c6f175a140b3744e4bf47dff7b542414c659c4fe
-ms.sourcegitcommit: 3dd9944a6070a7f35c4bc2b57df397f844c3fe79
+ms.openlocfilehash: 62be8fe021ebacfe07faaaadfc33811dd7c8a7ef
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/15/2020
-ms.locfileid: "42071215"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44065703"
 ---
 # <a name="trusight"></a>TruSight
 
@@ -69,7 +69,3 @@ Microsoft의 경우 TruSight는 Microsoft Azure, Microsoft Dynamics 365 및 Micr
 - [Microsoft 비즈니스 클라우드 서비스 및 금융 서비스](https://aka.ms/FinServ-Compliance)
 - [클라우드 컴퓨팅에 대한 공동 책임](https://aka.ms/sharedresponsibility)
 - [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>제공 사항의 배경 설명 다운로드
-
-이 제공 사항에 대한 배경 설명 문서가 필요한가요? [PDF](https://download.microsoft.com/download/D/A/D/dad1cf29-5529-4797-9eda-96e5e472e619/TruSight-Compliance.pdf)를 다운로드합니다.

@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: d6f817ed755237a49d792ca66f78977729c5d13f
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 47aabfdff1973b3edff21c858d25c158ce39c6a7
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602165"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44065639"
 ---
 # <a name="motion-picture-association-of-america-mpaa"></a>MPAA(Motion Picture Association of America: 미국 영화 협회)
 
@@ -34,8 +34,6 @@ MPAA(Motion Picture Association of America: 미국 영화 협회)는 주요 스�
 MPAA 평가에는 일반 지침의 48개 보안 항목과 응용 프로그램 지침과 클라우드 보안 지침의 추가 6개 항목이 포함됩니다. 이러한 항목은 ISO/IEC 27001 및 NIST 800-53 같은 업계에서 인정받는 보안 표준에 기초하며 CSA(Cloud Security Alliance) CCM(Cloud Controls Matrix) 같은 모범 사례에도 부합됩니다.
 
 이러한 Azure 규정 준수의 공식적인 평가는 주요 스튜디오의 협력 업체에서 Azure를 사용하여 MPAA 요구 사항을 준수하면서 동시에 일반적으로 콘텐츠의 보안 제작, 관리, 저장 및 배포 등과 관련된 IT 비용을 절감할 수 있음을 의미합니다. Azure 미디어 서비스, 저장소, 가상 네트워크, 그리고 30개 이상의 기타 내부 및 외부 서비스는 기존의 온-프레미스 프로덕션 과정보다 훨씬 더 보안이 강화되고 확장성 있는 클라우드에서 콘텐츠 워크플로 엔진을 제공하며 미디어 자산 다운스트림 보호에도 더 효과적입니다.
-
-Microsoft 클라우드에서의 MPAA의 혜택에 대해 알아보세요. [MPAA 배경 설명 다운로드](https://aka.ms/mpaa-backgrounder)
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 범위 내 클라우드 서비스
 
@@ -70,7 +68,3 @@ MPAA 지침은 주요 공급업체와 파트너에게 디지털 자산 제작, �
 - [CSA STAR Azure 자체 평가](https://www.microsoft.com/TrustCenter/Compliance/CSA-self-assessment)
 - [CSA CAIQ v3.0.1에 대한 Azure의 답변](https://gallery.technet.microsoft.com/Azure-Responses-to-CSA-46034a11)
 - [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>제공 사항의 배경 설명 다운로드
-
-이 제공 사항에 대한 배경 설명 문서가 필요한가요? [PDF](https://download.microsoft.com/download/7/A/1/7A19B051-3399-4222-BEF1-E6E3E0A17961/MPAA_Backgrounder.pdf)를 다운로드합니다.

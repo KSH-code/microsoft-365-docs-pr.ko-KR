@@ -1,7 +1,7 @@
 ---
 title: RBI (인도 Bank) 및 보험 규정 및 개발 기관 (IRDAI)
 description: Microsoft는 인도의 금융 기관에서 클라우드 채택에 도움을 주는 지침을 게시 했습니다.
-keywords: Microsoft 365, 규정 준수, 제품
+keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 8f0627a26446e681c99f51dda33d87729a5e960c
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: d76289740a117979ec4ac2d91a2e24782995d0fb
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602055"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44066185"
 ---
 # <a name="reserve-bank-of-india-rbi-and-insurance-regulatory-and-development-authority-of-india-irdai"></a>RBI (인도 Bank) 및 보험 규정 및 개발 기관 (IRDAI)
 
@@ -58,7 +58,7 @@ Microsoft 검사 목록은 인도 금융 기업에서 Microsoft business cloud s
 - [위험 평가 & 준수 가이드](https://servicetrust.microsoft.com/ViewPage/TrustDocuments?command=Download&downloadType=Document&downloadId=edee9b14-3661-4a16-ba83-c35caf672bd7&docTab=6d000410-c9e9-11e7-9a91-892aae8839ad_FAQ_and_White_Papers): Microsoft 클라우드 서비스의 위험 평가 및 규제 기관의 알림에 대한 거버넌스 모델을 만들 수 있습니다.
 - [Azure의 금융 사용 사례](https://docs.microsoft.com/azure/industry/financial/): 사용 사례 개요, 자습서 및 기타 리소스를 활용 하 여 금융 서비스용 Azure 솔루션을 작성 합니다.
 
-## <a name="frequently-asked-questions"></a>자주하는 질문
+## <a name="frequently-asked-questions"></a>자주 묻는 질문
 
 **클라우드 서비스 공급 업체와의 계약에 포함해야 하는 필수 약관이 있나요?**
 
@@ -72,7 +72,3 @@ Microsoft 검사 목록은 인도 금융 기업에서 Microsoft business cloud s
 - [Azure에서의 금융 서비스 규정 준수](https://azure.microsoft.com/resources/videos/azurecon-2015-financial-services-compliance-in-azure/)
 - [Azure 금융 서비스 클라우드 위험 평가 도구](https://servicetrust.microsoft.com/ViewPage/FFIECBlueprint?command=Download&downloadType=Document&downloadId=079a1973-711a-428f-9312-9ddd290cff7b&docTab=c726d5c0-2d1e-11e8-a485-57140ec19669_PaaS)
 - [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>제공 사항의 배경 설명 다운로드
-
-이 제공 사항에 대한 배경 설명 문서가 필요한가요? [PDF](https://download.microsoft.com/download/3/5/A/35AA1544-5E50-43C7-AA08-4911E5429205/RBI-IRDAI-Compliance.pdf)를 다운로드합니다.

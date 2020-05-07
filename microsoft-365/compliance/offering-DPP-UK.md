@@ -1,7 +1,7 @@
 ---
 title: DPP (디지털 프로덕션 파트너 관계) 영국
 description: Microsoft Azure는 DPP를 브로드캐스트의 보안 표시로 커밋 했습니다.
-keywords: Microsoft 365, 규정 준수, 제품
+keywords: Microsoft 365, 규정 준수, 제안
 localization_priority: None
 ms.prod: Microsoft-365-enterprise
 ms.topic: article
@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: d621017a125a43fc0fc9523e6ce8700b66077f2e
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: 4f97b0c0d5af681ed55a119f7ebbaf6c89fb1393
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602535"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44066635"
 ---
 # <a name="digital-production-partnership-dpp-united-kingdom"></a>DPP (디지털 프로덕션 파트너 관계) 영국
 
@@ -56,7 +56,3 @@ Azure 브로드캐스트 표시는 1 년 동안 유효 하며 매년 갱신 됩�
 - [보안 항목에 대 한 자세한 정보 브로드캐스트 검사 목록 사용자 가이드](https://dpp-assets.s3.amazonaws.com/wp-content/uploads/2017/10/CTS_BroadcastChecklistUserGuide.pdf)
 - [NABA 및 DPP Broadcasters Unite 공급자에 대 한 보안 요구 사항 승격](https://nabanet.com/wp-content/uploads/2017/08/NABAcaster-Issue_26.pdf)
 - [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>제공 사항의 배경 설명 다운로드
-
-이 제공 사항에 대한 배경 설명 문서가 필요한가요? [PDF](https://download.microsoft.com/download/3/C/6/3C63143B-41BA-4ED7-A2A8-DDE6B0B04036/DPP-Compliance.pdf)를 다운로드합니다.

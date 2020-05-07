@@ -20,12 +20,12 @@ search.appverid:
 ms.assetid: e64ceac2-ae62-4d29-a9ee-6aab9870ae2b
 ROBOTS: NOINDEX
 description: 관리 센터에서 연락처를 만들고 전체 주소 목록을 관리 하는 방법에 대해 알아봅니다.
-ms.openlocfilehash: fe402fd5d90147caa7c6ee2f3632749255c672b3
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: f8298713944bdb88c7fbcb31d4bd5a5738cb081b
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: MT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43627923"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44064748"
 ---
 # <a name="quick-help-contacts"></a>빠른 도움말: 연락처
 
@@ -41,7 +41,7 @@ ms.locfileid: "43627923"
   
 ## <a name="how-are-these-contacts-different-from-my-contacts"></a>이러한 연락처는 내 연락처와 어떻게 다른가요?
 
-내 연락처는 자신을 위해 만드는 연락처 이지만 다른 사람은 볼 수 없습니다. 관리 센터에서 만든 연락처는 조직의 연락처이며 모든 사용자는 자신의 연락처뿐만 아니라 이러한 연락처를 볼 수 있습니다. 자세한 내용은 [사용자 개요-Outlook Web App](https://support.office.com/article/5fe173cf-e620-4f62-9bf6-da5041f651bf.aspx)를 참조 하세요.
+내 연락처는 자신을 위해 만드는 연락처 이지만 다른 사람은 볼 수 없습니다. 관리 센터에서 만든 연락처는 조직의 연락처이며 모든 사용자는 자신의 연락처뿐만 아니라 이러한 연락처를 볼 수 있습니다. 자세한 내용은 [사용자 개요-Outlook Web App](https://support.microsoft.com/en-us/office/people-overview-outlook-web-app-5fe173cf-e620-4f62-9bf6-da5041f651bf)를 참조 하세요.
   
 ## <a name="how-does-everyone-get-to-the-contacts-i-created-in-the-admin-center"></a>관리 센터에서 내가 만든 연락처를 모든 사용자가 액세스하려면 어떻게 하나요?
 

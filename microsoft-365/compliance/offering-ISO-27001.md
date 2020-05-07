@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 19f9e5dc72231093b279d39b8bf38f5cea0a9c18
-ms.sourcegitcommit: d818828c66cf98b0b0037ba8b3cb790c940281b7
+ms.openlocfilehash: 3cc92be00eca4f1e90917cadea26df8f10adf267
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43583545"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44066615"
 ---
 # <a name="isoiec-270012013-information-security-management-standards"></a>ISO/IEC 27001:2013 정보 보안 관리 표준
 
@@ -161,7 +161,3 @@ ISO/IEC 27001 채택은 전략적인 약속입니다. [ISO/IEC 27000 디렉터�
 
 - [Azure DevOps Services 데이터 보호 개요](https://www.visualstudio.com/articles/team-services-security-whitepaper)
 - [13 ISO 27001 규정 준수를 위한 효과적인 Azure 보안 통제](https://aka.ms/13securitycontrolsforiso27001compliance)
-
-## <a name="download-the-offering-backgrounder"></a>제공되는 사항의 배경 설명 다운로드
-
-이 제공 사항에 대한 배경 설명 문서가 필요한가요? [PDF](https://download.microsoft.com/download/1/2/9/12926039-8F90-4BAF-AC8F-7124D48F400B/ISOIEC_27001_Compliance_Backgrounder.pdf)를 다운로드합니다.

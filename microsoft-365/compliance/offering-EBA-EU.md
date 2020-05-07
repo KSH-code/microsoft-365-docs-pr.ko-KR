@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 9b3655c5b9a4fec2055993ace185ed899f8e0dbc
-ms.sourcegitcommit: 1c91b7b24537d0e54d484c3379043db53c1aea65
+ms.openlocfilehash: efcdbf5700de94f268c1fbc62ca47b60c171fd45
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 01/29/2020
-ms.locfileid: "41602515"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44064801"
 ---
 # <a name="european-banking-authority-eba"></a>European Banking Authority(유럽은행관리국:EBA)
 
@@ -70,8 +70,3 @@ Microsoft의 발행물인 [Microsoft 클라우드에서의 금융 기관을 위�
 - [Azure 금융 서비스 클라우드 위험 평가 도구](https://aka.ms/FFIEC-CSDT)
 - [Microsoft 금융 서비스 블로그](https://techcommunity.microsoft.com/t5/Financial-Services-Blog/bg-p/FinancialServicesBlog)
 - [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>제공 사항의 배경 설명 다운로드
-
-이 제공 사항에 대한 배경 설명 문서가 필요한가요? [PDF](https://download.microsoft.com/download/A/9/3/A93DEE11-4758-4E03-8035-D8C5843B70C2/EBA-Compliance.pdf)를 다운로드합니다.
-

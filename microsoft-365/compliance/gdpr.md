@@ -1,6 +1,6 @@
 ---
 title: 일반 데이터 보호 규정
-description: GDPR(일반 데이터 보호 규정)에 대한 Microsoft 기술 지침
+description: Microsoft 기술 지침에 대해 알아보고 GDPR(일반 데이터 보호 규정)에 대한 유용한 정보를 찾아봅니다.
 keywords: Microsoft 365, Microsoft 365 Education, Microsoft 365 설명서, GDPR
 localization_priority: Priority
 ms.prod: Microsoft-365-enterprise
@@ -15,12 +15,13 @@ ms.collection:
 - GDPR
 - M365-security-compliance
 titleSuffix: Microsoft GDPR
-ms.openlocfilehash: 960a09c89c855861e3db0402f40dd558b27527ac
-ms.sourcegitcommit: 6c7f6ef98c321c80a9254c10bbbb917895b5c156
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: fb89a24e48dbdadd9a1af863cb8c44ded46435b1
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 02/27/2020
-ms.locfileid: "42322557"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036211"
 ---
 # <a name="general-data-protection-regulation-summary"></a>일반 데이터 보호 규정 요약
 
@@ -68,7 +69,7 @@ DSR에는 6가지 활동인 검색, 액세스, 수정, 제한, 내보내기 및 
 
 **데이터 원본이란 무엇인가요?**
 
-Excel 및 Outlook과 같은 [Office 애플리케이션](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-office365#using-the-content-search-ediscovery-tool-to-respond-to-dsrs)에서 조직 데이터의 상당 부분이 생성됩니다.  Microsoft 제품 및 서비스에서 생성된 [인사이트](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-office365#part-2-responding-to-dsrs-with-respect-to-insights-generated-by-office-365)와 [시스템 생성 로그](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-office365#part-3-responding-to-dsrs-for-system-generated-logs)에서도 DSR 관련 데이터를 찾을 수 있습니다.
+Excel 및 Outlook과 같은 [Office 응용 프로그램](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-office365#using-the-content-search-ediscovery-tool-to-respond-to-dsrs)으로 조직 데이터의 상당 부분이 생성됩니다. Microsoft 제품 및 서비스에서 생성된 [인사이트](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-office365#part-2-responding-to-dsrs-with-respect-to-insights-generated-by-office-365)와 [시스템 생성 로그](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-office365#part-3-responding-to-dsrs-for-system-generated-logs)에서도 DSR 관련 데이터를 찾을 수 있습니다.
 
 **어떤 종류의 데이터를 검색해야 하나요?**
 
@@ -76,7 +77,7 @@ Excel 및 Outlook과 같은 [Office 애플리케이션](https://docs.microsoft.c
 
 **개인 데이터는 어떤 방식으로 검색되나요?**
 
-개인 데이터 검색은 Microsoft 제품 및 서비스에 따라 다를 수 있습니다. 검색 도구에는 [콘텐츠 검색](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-office365#using-the-content-search-ediscovery-tool-to-respond-to-dsrs) 또는 [앱 내 검색](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-office365#using-in-app-functionality-to-respond-to-dsrs) 용량이 포함됩니다. 관리자는 사용자 활동과 연결된 [시스템 생성 로그](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-office365#part-3-responding-to-dsrs-for-system-generated-logs)에 액세스할 수 있습니다.  
+개인 데이터 검색은 Microsoft 제품 및 서비스에 따라 다를 수 있습니다. 검색 도구에는 [콘텐츠 검색](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-office365#using-the-content-search-ediscovery-tool-to-respond-to-dsrs) 또는 [앱 내 검색](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-office365#using-in-app-functionality-to-respond-to-dsrs) 용량이 포함됩니다. 관리자는 사용자의 활동과 연결된 [시스템 생성 로그](https://docs.microsoft.com/microsoft-365/compliance/gdpr-dsr-office365#part-3-responding-to-dsrs-for-system-generated-logs)에 액세스할 수 있습니다.  
 
 **개인 데이터는 어떤 형식으로 사용할 수 있어야 하나요?**
 
@@ -99,7 +100,7 @@ GDPR은 관리자에게 다음을 할 수 있도록 요구합니다.
 
 **Microsoft는 사용자가 데이터 주체 요청에 대처하도록 어떻게 지원하나요?**
 
-온라인 서비스는 관리자가 데이터 주체 요청에 대처할 수 있도록 지원하는 다양한 기능을 제공합니다. Microsoft 엔터프라이즈 온라인 서비스 및 관리 제어 기능은 사용자가 데이터 주체 권리 요청에 따라 개인 데이터를 처리하도록 지원하여 Microsoft 클라우드에 저장된 관리자가 관리하는 데이터에 포함된 개인 데이터를 검색, 액세스, 수정, 제한, 삭제 및 내보내기할 수 있도록 합니다. 또한 온라인 서비스는 사용자에게 해당 데이터가 필요한 경우 컴퓨터에서 읽을 수 있는 형태로 제공합니다.
+온라인 서비스는 사용자가 관리자로서 데이터 주체의 요청에 응답할 수 있도록 다양한 기능을 제공합니다. Microsoft Enterprise Online 서비스 및 관리 컨트롤 기능은 사용자가 Microsoft 클라우드에 저장된 컨트롤러가 관리하는 데이터에 포함된 개인 데이터를 검색, 액세스, 수정, 제한, 삭제 및 내보내기할 수 있도록 해주어 데이터 주체의 권리 요청에 따라 필요한 개인 데이터를 가지고 작업할 수 있도록 지원합니다. 또한 온라인 서비스는 사용자에게 해당 데이터가 필요한 경우 컴퓨터에서 읽을 수 있는 형태로 제공합니다.
 
 ## <a name="data-protection-impact-assessment"></a>데이터 보호 영향 평가
 
@@ -115,7 +116,7 @@ GDPR에 따라 데이터 컨트롤러는 ‘자연인의 권리와 자유에 대
 
 DPIA에 포함되는 GDPR 권한에는 다음이 포함됩니다.
 
-- DPIA의 목적과 관련한 데이터 처리의 필요성 및 비례의 원칙 평가
+- DPIA의 목적과 관련한 데이터 처리의 필요성 및 비례성 평가
 - 데이터 주체의 권리와 자유에 대한 위험 평가
 - 의도된 위험 해결 조치, 안전 조치, 보안 조치 및 개인 정보 보호를 보장하고 GDPR 준수를 입증하는 메커니즘.
 
@@ -136,11 +137,11 @@ Microsoft는 해당 엔지니어링 및 비즈니스 업무에서 기본적으�
 이러한 개인 정보 보호 검토는 세부적으로 진행되며 특정 서비스는 수십 번 또는 수백 번의 검토를 받을 수 있습니다. Microsoft는 Microsoft EU DPO(데이터 보호 책임자)가 검토하게 되는 주요 처리 작업을 포괄하는 DPIA(데이터 보호 영향 평가)에 이러한 세부적인 개인 정보 보호 검토 작업을 포함합니다. DPO는 데이터 처리와 관련된 위험을 평가하여 충분한 완화 조치가 이행될 수 있도록 합니다. DPO가 완화할 수 없는 위험을 찾으면 다시 엔지니어링 그룹에 변경 조치가 권장됩니다. 데이터 보호 위험이 변경되면 DPIA가 검토된 후 업데이트됩니다.
 
 
-Microsoft는 프로세서로서 GDPR에 규정된 DPIA 요구 조항을 준수하도록 하기 위해 관리자를 지원할 책임이 있습니다. Microsoft의 고객을 지원하기 위해 Microsoft의 DPIA 관련 섹션이 발췌되고, 향후 업데이트 시 이 섹션에 제공됩니다. 이러한 작업은 Microsoft 서비스를 활용하는 관리자가 이러한 발췌 데이터를 활용하여 자체 DPIA를 만들 수 있도록 하기 위한 것입니다.
+Microsoft는 프로세서로서 GDPR에 규정된 DPIA 요구 조항을 준수하도록 하기 위해 관리자를 지원할 책임이 있습니다. 당사의 고객을 지원하기 위해 Microsoft의 DPIA 관련 섹션이 발췌되고, 향후 업데이트 시 이 섹션에 제공됩니다. 이러한 작업은 Microsoft 서비스를 활용하는 관리자가 이러한 발췌 데이터를 활용하여 자체 DPIA를 만들 수 있도록 하기 위한 목적을 가지고 있습니다.
 
 ## <a name="breach-notification"></a>위반 알림
 
-GDPR은 개인 데이터의 위반에 대해 데이터 관리자 및 프로세서에게 알려야 한다고 명시합니다. Microsoft는 데이터 프로세서로서, 고객이 GDPR의 위반 알림 요구 사항을 충족할 수 있도록 합니다. 데이터 컨트롤러는 데이터 개인 정보에 대한 위험을 평가하고 고객의 DPA에게 알려야 하는 위반인지 여부를 파악해야 합니다. Microsoft는 이러한 평가에 필요한 정보를 제공합니다. Microsoft에서 개인 데이터 위반을 감지하고 대처하는 방법에 대한 자세한 내용은 [GDPR에서 데이터 위반 알림](gdpr-breach-notification.md)에 나와 있습니다.
+GDPR은 개인 데이터의 위반에 대해 데이터 관리자 및 프로세서에게 알려야 한다고 명시합니다. Microsoft는 데이터 프로세서로서 고객이 GDPR의 위반 알림 요구 사항을 충족할 수 있도록 합니다. 데이터 컨트롤러는 데이터 개인 정보에 대한 위험을 평가하고 위반 사항이 고객의 DPA에 알려야 하는 위반인지의 여부를 판단할 책임이 있습니다. Microsoft는 이러한 평가에 필요한 정보를 제공합니다. Microsoft에서 개인 데이터 위반을 감지하고 대처하는 방법에 대한 자세한 내용은 [GDPR에서 데이터 위반 알림](gdpr-breach-notification.md)에 나와 있습니다.
 
 ### <a name="breach-notification-faqs"></a>위반 알림 FAQ
 
@@ -161,8 +162,7 @@ GDPR은 개인 데이터의 위반에 대해 데이터 관리자 및 프로세�
 
 개인 데이터 위반 사실을 알게 되면 GDPR에 따라 지체 없이 사용자에게 알려야 합니다. 프로세서의 입장에서 Microsoft는 GDPR의 요구 사항과 Microsoft의 전 세계 표준 계약 조항 모두를 반영할 책임이 있습니다.
  Microsoft는 확인된 모든 개인 데이터 침해가 위험 임계 수준에 있지 않은지 여부를 판단합니다. 
- Microsoft는 데이터 침해 문제가 Microsoft에서 직접 발생했는지 또는 하위 프로세서에게 발생했는지와 관계 없이 이를 고객에게 알립니다. 조직에서 확인된 보안 사고를 빠르게 식별하고 보안 사고 담당자에게 연락하기 위한 프로세스가 준비되어 있습니다.
- 또한 모든 하위 프로세서는 계약에 따라 자체 위반 사항을 Microsoft에 신고하고, 결과에 대한 보증을 제공할 의무가 있습니다.
+ Microsoft는 데이터 침해 문제가 Microsoft에서 직접 발생했는지 또는 하위 프로세서에게 발생했는지와 관계 없이 이를 고객에게 알립니다. 당사는 조직에서 확인된 보안 사고를 빠르게 식별하고 보안 사고 담당자에게 연락하기 위한 프로세스를 보유하고 있습니다. 또한 모든 하위 프로세서는 계약에 따라 자체 위반 사항을 Microsoft에 신고하고, 결과에 대한 보증을 제공할 의무가 있습니다.
 
 **MIcrosoft는 어떻게 데이터 위반을 감지하나요?**
 
@@ -186,7 +186,7 @@ Microsoft에는 사용자에게 즉시 알리기 위한 정책 및 절차가 구
 
 **Microsoft는 GDPR과 관련하여 고객에게 약정을 제공하고 있나요?**
 
-예. GDPR은 (Microsoft의 엔터프라이즈 온라인 서비스를 사용하는 조직과 같은) 데이터 컨트롤러가 GDPR의 주요 요구 사항을 충족하기 위한 충분한 보장을 제공하는 프로세서(예: Microsoft)만을 사용해야 한다고 규정하고 있습니다. Microsoft는 모든 볼륨 라이선싱 고객에게 계약의 일환으로 이러한 약정을 제공하는 적극적인 조치를 취한 바 있습니다.
+예. GDPR은 컨트롤러가(Microsoft Enterprise Online 서비스를 사용하는 조직 등) GDPR의 주요 요구 사항을 충족하기 위한 충분한 보장을 제공하는 프로세서(예: Microsoft)만을 사용하도록 규정하고 있습니다. Microsoft는 모든 볼륨 라이선싱 고객에게 계약의 일환으로 이러한 약정을 제공하는 적극적인 조치를 취한 바 있습니다.
 
 **Microsoft는 규정 준수를 위해 어떤 도움을 제공하나요?**
 
@@ -194,13 +194,13 @@ Microsoft는 GDPR상의 책임을 지원하기 위해 도구 및 문서를 제�
 
 **GDPR 조항에는 어떤 약정이 포함되어 있나요?**
 
-Microsoft의 GDPR 조항은 제28조에서 프로세서에게 요구한 약정을 반영합니다. 제28조는 프로세서가 다음 사항을 약정할 것을 요구합니다.
+Microsoft의 GDPR 조항은 제28조에 프로세서에게 필요한 약정을 반영합니다. 제28조는 프로세서가 다음 사항을 약정할 것을 요구합니다.
 
 - 컨트롤러의 동의가 있는 경우에만 하위 프로세서를 사용하고 하위 프로세서에 대한 책임을 유지합니다.
 - 전송과 관련된 경우를 포함해 반드시 컨트롤러의 지시에 따라서만 개인 데이터를 처리합니다.
 - 개인 정보를 처리하는 사람은 기밀 유지를 약속해야 합니다.
 - 위험에 적합한 개인 데이터 보안 수준을 보장하기 위해 적절한 기술 및 조직적 조치를 수행합니다.
-- 컨트롤러가 GDPR 권리 행사를 요청하는 데이터 주체의 요청에 응답할 의무를 수행하도록 지원합니다.
+- 컨트롤러가 GDPR 권리를 행사하는 주체의 데이터 요청에 응답할 의무를 수행하는 데 지원을 합니다.
 - 위반 알림과 지원 요구 사항을 충족합니다.
 - 데이터 보호 영향 평가와 관리 기관을 통한 상담을 통해 컨트롤러를 지원합니다.
 - 서비스 공급이 종료될 때 개인 데이터를 삭제하거나 반환합니다.
@@ -208,7 +208,7 @@ Microsoft의 GDPR 조항은 제28조에서 프로세서에게 요구한 약정�
 
 **Microsoft는 어떤 기준에 따라 EU 외부부에서의 개인 데이터의 전송을 촉진하나요?**
 
-Microsoft는 오랫동안 표준 계약 조항(모델 조항이라고도 함)을 엔터프라이즈 온라인 서비스를 위한 데이터 전송의 기초로 사용해 왔습니다. 표준 계약 조항은 유럽위원회(European Commission)에서 제공하는 표준 조건으로 데이터를 유럽 경제 지역(European Economic Area) 외부로 전송하는 데 사용될 수 있습니다. Microsoft는 [온라인 서비스 약관](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=46)을 통해 표준 계약 조항을 모든 볼륨 라이선싱 계약에 통합했습니다. 제29조 실무 그룹(Working Party)은 Microsoft가 규정을 준수하여 표준 계약 조항을 이행함을 확인했습니다. EU-US Privacy Shield를 사용할 수있게 되었을 때 Microsoft는 최초로 인증을 받은 회사였습니다. [Privacy Shield에 대한 Microsoft 인증](https://www.privacyshield.gov/participant?id=a2zt0000000KzNaAAK&status=Active)을 참조하고 [온라인 서비스 약관](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=46)을 읽어보세요. EU-US Privacy Shield는 데이터를 미국으로 전송하려는 고객이 데이터 보호 의무를 준수하는 방식으로 데이터를 전송하도록 도와줍니다.
+Microsoft는 오랫동안 표준 계약 조항(모델 조항이라고도 함)을 엔터프라이즈 온라인 서비스를 위한 데이터 전송의 기초로 사용해 왔습니다. 표준 계약 조항은 유럽위원회(European Commission)에서 제공하는 표준 조건으로 데이터를 유럽 경제 지역(European Economic Area) 외부로 전송하는 데 사용될 수 있습니다. Microsoft는 [온라인 서비스 약관](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=46)을 통해 표준 계약 조항을 모든 볼륨 라이선싱 계약에 통합했습니다. 제29조 실무 그룹(Working Party)은 Microsoft가 규정을 준수하여 표준 계약 조항을 이행함을 확인했습니다. EU-US Privacy Shield를 사용할 수있게 되었을 때 Microsoft는 최초로 인증을 받은 회사였습니다. [개인 정보 보호에 대한 Microsoft 인증](https://www.privacyshield.gov/participant?id=a2zt0000000KzNaAAK&status=Active)을 참조하고 [온라인 서비스 약관](http://www.microsoftvolumelicensing.com/DocumentSearch.aspx?Mode=3&DocumentTypeId=46)을 검토하세요. EU-US Privacy Shield는 데이터를 미국으로 전송하려는 고객이 데이터 보호 의무를 준수하는 방식으로 데이터를 전송하도록 도와줍니다.
 
 **다른 Microsoft 규정 준수 제품에는 무엇이 있나요?**
 
@@ -225,7 +225,7 @@ GDPR은 6가지 주요 원칙을 준수하기 위한 요구 사항을 포함하�
 - *개인 데이터 저장소 제한*. 사용자는 데이터가 수집된 목적을 달성하기 위해 필요한 경우에만 개인 데이터를 보존하도록 해야 합니다.
 - 개인 데이터의 *보안*, *무결성* 및 *기밀성* 보장. 조직은 기술 및 조직 보안 조치를 통해 개인 데이터를 보호하기 위한 조치를 취해야합니다.
 
-귀하의 GDPR 여정을 Microsoft가 지원하기는 하나, 조직의 구체적인 의무가 GDPR에 대해 어떤 의미를 지니는지, 그리고 이러한 의무를 어떻게 이행할 것인지 이해해야 합니다.
+사용자의 GDPR 여정을 Microsoft가 지원하지만, 조직의 GDPR에 대한 구체적인 의무가 무엇인지와 이러한 의무를 어떻게 충족시킬 것인지를 이해해야 합니다.
 
 **GDPR에 따라 기업에서는 어떤 권리를 지원해야 하나요?**
 
@@ -253,7 +253,7 @@ GDPR은 일련의 '데이터 주체 권리'를 통해 EU 거주자가 개인 데
 
 **규정을 준수하지 않은 기업에는 어느 정도의 벌금이 부과되나요?**
 
-특정 GDPR 요건을 충족시키지 못할 경우, 회사는 최대 2천만 유로 또는 연간 총 매출액의 4% 중 더 큰 금액을 벌금으로 부과받게 될 수 있습니다. GDPR 요구 사항을 준수하지 않으면 추가적인 개인 구제 조치로 인해 위험이 증가할 수 있습니다.
+특정 GDPR 요건을 충족시키지 못할 경우, 회사는 최대 &euro;2천만 또는 연간 국제 매출액의 4% 중 더 큰 금액의 벌금이 부과될 수 있습니다. GDPR 요구 사항을 준수하지 않으면 추가적인 개인 구제 조치로 인해 위험이 증가할 수 있습니다.
 
 **회사에서 DPO(데이터 보호 담당자)를 지정해야 하나요?**
 
@@ -277,7 +277,7 @@ GDPR은 '개인 데이터'의 수집, 저장, 사용 및 공유를 규제합니�
 
 **구체적으로 어떤 것이 개인 데이터로 간주되나요?**
 
-개인 데이터는 식별된 또는 식별 가능한 개인과 관련 있는 모든 정보입니다. 이때 개인의 비공개, 공개 또는 업무 역할이 구분되지 않습니다. 개인 데이터에는 다음 정보가 포함될 수 있습니다.
+개인 데이터는 식별된 또는 식별 가능한 개인과 관련 있는 모든 정보입니다. 개인의 비공개, 공개 또는 업무 역할이 구분되지 않습니다. 개인 데이터에는 다음 정보가 포함될 수 있습니다.
 
 - 이름
 - 집 주소
@@ -314,16 +314,16 @@ GDPR은 '개인 데이터'의 수집, 저장, 사용 및 공유를 규제합니�
 
 암호화는 GDPR에서 개인 데이터가 위반 행위의 영향을 받을 때 알아볼 수 없는 보호 수단으로 식별됩니다. 따라서 암호화 사용 여부는 개인 데이터 위반 알림 요구 사항에 영향을 줄 수 있습니다. 또한 GDPR은 위험에 따라 암호화를 적절한 기술적 또는 조직적 수단으로 인용합니다. 암호화는 또한 지불 카드 산업 데이터 보안 표준과 금융 서비스 산업에 대한 엄격한 준수 지침의 일부에서 요구되는 사항입니다. Azure, Dynamics 365, Enterprise Mobility + Security, Office Microsoft 365, SQL Server/Azure SQL 데이터베이스 및 Windows 10 등의 Microsoft 제품 및 서비스는 전송중인 데이터와 유휴 데이터에 대해 강력한 암호화를 제공합니다.
 
-**GDPR은 개인 데이터 침해에 대한 조직의 대응을 어떻게 변화시킵니까?**
+**GDPR은 개인의 데이터 침해에 대한 조직의 대응을 어떻게 변화시킵니까?**
 
-GDPR은 데이터 보호 요구 사항을 변경하고 개인 데이터 유출에 대한 통지와 관련하여 프로세서 및 컨트롤러에 대해 더 엄격한 의무를 수행합니다. 새로운 규정에 따라, 프로세서는 개인 데이터 침해 사실을 알게 된 후 부당하게 지체하지 말고 이를 데이터 컨트롤러에게 알려야 합니다. 컨트롤러는 개인 데이터 유출을 알게 되면 72시간 이내에 관련 데이터 보호 기관에 해당 사실을 알려야 합니다. 위반 행위가 개인의 권리와 자유에 높은 위험을 초래할 가능성이 있는 경우, 컨트롤러는 부당하게 지체하지 말고 이를 영향을 받는 개인에게 통지해야 합니다. 이 주제에 대한 추가 지침은 EU의 제29조 실무 그룹에 의해 개발되고 있습니다.
+GDPR은 데이터 보호 요구 사항을 변경하고 개인 데이터 유출에 대한 통지와 관련하여 프로세서 및 컨트롤러에 대해 더 엄격한 의무를 수행합니다. 새로운 규정에 따라, 프로세서는 개인 데이터 침해 사실을 알게 된 후 부당하게 지체하지 말고 이를 데이터 컨트롤러에게 알려야 합니다. 컨트롤러는 개인 데이터 유출을 알게 되면 72시간 이내에 관련 데이터 보호 기관에 해당 사실을 알려야 합니다. 위반 행위가 개인의 권리와 자유에 높은 위험을 초래할 가능성이 있는 경우, 컨트롤러는 부당하게 지체하지 말고 이를 영향을 받는 개인에게 통지해야 합니다. 이 항목에 대한 추가 지침은 EU의 제29조 실무 그룹에서 개발하고 있습니다.
 
-Azure, Dynamics 365, Enterprise Mobility + Security, Microsoft Office 365 및 Windows 10과 같은 Microsoft 제품 및 서비스는 현재 보안 위협 및 위반을 감지하고 평가하며 GDPR의 위반 통지 의무를 충족시키는 데 도움이 되는 솔루션을 제공합니다.
+Azure, Dynamics 365, Enterprise Mobility + Security, Microsoft Office 365 및 Windows 10과 같은 Microsoft 제품 및 서비스는 현재 보안 위협 및 위반을 감지하고 평가하며 GDPR의 위반 통지 의무를 충족시키는 데 도움이 되는 솔루션을 보유하고 있습니다.
 
 ## <a name="additional-resources"></a>추가 리소스
 
 - [Microsoft 기반 솔루션을 제공하는 Microsoft 글로벌 파트너 중 하나를 사용 하여 GDPR에 대한 요구 사항 해결](https://aka.ms/findgdprpartner)
-- [Microsoft가 데이터를 관리하는 방법, 위치, 액세스 권한을 지닌 사람 및 조건 등에 대해 알아보십시오.](https://www.microsoft.com/trust-center/privacy)
+- [Microsoft가 데이터를 관리하는 방법, 데이터의 위치, 액세스 권한을 지닌 사용자 및 조건 등에 대해 알아보십시오.](https://www.microsoft.com/trust-center/privacy)
 - [Microsoft가 EU-U. SPrivacy Shield 프레임워크의 원칙을 준수하는 방법에 대해 알아보십시오.](https://blogs.microsoft.com/eupolicy/2016/07/11/eu-u-s-privacy-shield-progress-for-privacy-rights/)
 - [Microsoft가 GDPR에서 개인 데이터 위반을 감지 및 대처하고 사용자에게 알리는 방법](https://www.microsoft.com/trust-center/privacy/gdpr-data-breach)
 - [현재 GDPR 준비 상태 평가](https://discover.microsoft.com/gdpr-readiness-assessment/)

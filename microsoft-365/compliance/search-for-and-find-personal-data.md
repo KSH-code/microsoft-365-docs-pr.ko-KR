@@ -17,13 +17,14 @@ ms.service: O365-seccomp
 localization_priority: Priority
 search.appverid:
 - MET150
-description: Office 365에서 개인 데이터를 검색하고 찾는 방법을 알아봅니다.
-ms.openlocfilehash: 3bcae58049cd844a64bfbff89f78a98df6e25dbc
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+description: Microsoft Office 365에서 유럽연합 일반 개인정보보호법(GDPR)에 따라 개인 데이터를 검색 및 찾는 방법을 알아봅니다.
+ms.custom: seo-marvel-apr2020
+ms.openlocfilehash: 5634437e5212fca6a7caf768d5a66d99497de3c6
+ms.sourcegitcommit: a45cf8b887587a1810caf9afa354638e68ec5243
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43638132"
+ms.lasthandoff: 05/05/2020
+ms.locfileid: "44036413"
 ---
 # <a name="search-for-and-find-personal-data"></a>개인 데이터 검색 및 찾기
 

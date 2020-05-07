@@ -14,12 +14,12 @@ audience: itpro
 ms.collection: M365-security-compliance
 hideEdit: true
 titleSuffix: Microsoft Compliance
-ms.openlocfilehash: 4376d2ca5ac27ec8e12f266bb7d3bb54289c1dbd
-ms.sourcegitcommit: 2614f8b81b332f8dab461f4f64f3adaa6703e0d6
+ms.openlocfilehash: 8c04362747a3e4767defcf746e1158849c00725b
+ms.sourcegitcommit: 7f307b4f583b602f11f69adae46d7f3bf6982c65
 ms.translationtype: HT
 ms.contentlocale: ko-KR
-ms.lasthandoff: 04/21/2020
-ms.locfileid: "43637528"
+ms.lasthandoff: 05/06/2020
+ms.locfileid: "44065763"
 ---
 # <a name="isoiec-27018-code-of-practice-for-protecting-personal-data-in-the-cloud"></a>클라우드 내 개인 데이터 보호를 위한 ISO/IEC 27018 규약
 
@@ -39,8 +39,6 @@ ISO/IEC 27001 표준과 ISO/IEC 27018에 포함된 규약을 준수함으로써 
 - **고객 데이터는 명시적 승인 없이는 마케팅이나 광고에 사용되지 않습니다.** 일부 CSP는 대상 지정된 광고 등 고유의 상업적 목적으로 고객 데이터를 사용하기도 합니다. Microsoft는 범위 내 엔터프라이즈 클라우드 서비스에 대해 ISO/IEC 27018을 채택했으므로, 고객은 데이터가 명시적 승인 없이는 이러한 목적으로 사용되지 않으며 이러한 승인이 클라우드 서비스의 사용 조건일 수 없음을 확신할 수 있습니다.
 - **Microsoft 고객은 PII가 어떻게 처리될지 알고 있습니다.** ISO/IEC 27018에 따르면 적정 기간 내에 개인 정보의 반환, 전송 및 보안 폐기를 고려하는 정책이 마련되어야 합니다. Microsoft는 고객 데이터에 대한 액세스 권한이 필요한 다른 업체와 협력할 경우 사전에 미리 이러한 하위 처리자의 신원을 공개합니다.
 - **Microsoft는 고객 데이터 공개에 대해 법적 구속력이 있는 요청만을 준수합니다.** Microsoft에서 이러한 요청을 준수해야 하는 경우(예를 들면 범죄 수사의 경우) 항상 고객에게 알립니다. 단, 이러한 알림 행위가 법적으로 금지되지 않는 경우에 한합니다.
-
-Microsoft 클라우드에서 ISO-IEC-27018 의 혜택에 대해 알아보세요. [ISO/IEC 27017 배경 설명 다운로드](https://aka.ms/iso27017-backgrounder)
 
 ## <a name="microsoft-in-scope-cloud-services"></a>Microsoft 범위 내 클라우드 서비스
 
@@ -133,7 +131,3 @@ ISO/IEC 27018 관련:
 - [Microsoft 온라인 서비스 사용 약관](https://aka.ms/Online-Services-Terms)
 - [Microsoft Government 클라우드](https://go.microsoft.com/fwlink/p/?linkid=2087246)
 - [Microsoft 보안 센터에 대한 규정 준수](https://www.microsoft.com/trust-center/compliance/compliance-overview)
-
-## <a name="download-the-offering-backgrounder"></a>제공 사항의 배경 설명 다운로드
-
-이 제공 사항에 대한 배경 설명 문서가 필요한가요? [PDF](https://download.microsoft.com/download/F/D/A/FDA4697E-D72D-4513-8626-A5F294DC7A0F/ISOIEC_27018_Compliance_Backgrounder.pdf)를 다운로드합니다.
